@@ -68,7 +68,7 @@ const MODAL_HTML = `
 
       <!-- Turnstile verification widget -->
       <div class="form-row" style="margin-bottom:0">
-        <div class="cf-turnstile" data-sitekey="0x4AAAAADFUxiY3CdoegzZ" data-theme="dark"></div>
+        <div class="cf-turnstile" data-sitekey="0x4AAAAAADFUxuYjCdOosg6z" data-theme="dark"></div>
       </div>
 
       <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:16px">
@@ -208,4 +208,3 @@ function initializeModal() {
       }
     });
   }
-}
