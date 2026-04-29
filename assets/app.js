@@ -74,10 +74,9 @@
   }
 
   ready(function(){
-    // Home page full-bleed hero canvas
-    initParticles('.home-hero-canvas');
-    // Secondary (thinner) canvas on other pages
-    initParticles('.page-hero-canvas');
+    // The canvas element used on all pages has id="bg".
+    // Previously targeted non-existent class names — fixed here.
+    initParticles('#bg');
   });
 
   /* ---- Contact form — client-side only, mailto fallback ---- */
@@ -102,6 +101,36 @@
         'Budget band: ' + budget + '\n\n' +
         'Message:\n' + message
       );
+      // Show inline success state before opening email client
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const successId = 'form-success-msg';
+      if (!document.getElementById(successId)) {
+        const msg = document.createElement('div');
+        msg.id = successId;
+        msg.style.cssText = [
+          'margin-top:16px',
+          'padding:16px 20px',
+          'background:rgba(52,211,153,0.10)',
+          'border:1px solid rgba(52,211,153,0.30)',
+          'border-radius:10px',
+          'font-size:14px',
+          'color:#34D399',
+          'line-height:1.55',
+          'display:flex',
+          'align-items:flex-start',
+          'gap:10px'
+        ].join(';');
+        msg.innerHTML = '<span style="font-size:18px;flex-shrink:0">✓</span>' +
+          '<span><strong>Message sent.</strong> Your email client will open (or may have already). ' +
+          'If nothing happened, email us directly at <a href="mailto:labs@techpavitra.com" ' +
+          'style="color:#34D399;text-decoration:underline">labs@techpavitra.com</a>. ' +
+          'We reply within one business day.</span>';
+        if (submitBtn && submitBtn.parentNode) {
+          submitBtn.parentNode.insertBefore(msg, submitBtn.nextSibling);
+        } else {
+          form.appendChild(msg);
+        }
+      }
       window.location.href = 'mailto:labs@techpavitra.com?subject=' + subject + '&body=' + body;
     });
   });

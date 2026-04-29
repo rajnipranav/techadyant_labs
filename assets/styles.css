@@ -18,6 +18,7 @@
   --primary-dim:rgba(99,102,241,0.12);
   --brass:#F5B544;
   --brass-cream:#E6D1A0;
+  --gold:#F5B544;
   --tri-saffron:#FF9933;
   --tri-green:#138808;
   --accent-warm:#FB923C;
@@ -261,8 +262,85 @@ section{padding:clamp(72px,10vw,120px) 0}
   overflow:hidden;transition:all .3s var(--ease);position:relative;
 }
 .work:hover{border-color:var(--border-strong);transform:translateY(-3px)}
-.work-visual{aspect-ratio:16/9;background:linear-gradient(135deg,var(--primary-dim),var(--bg-2));position:relative;overflow:hidden}
-.work-visual::after{content:"";position:absolute;inset:0;background:radial-gradient(600px 300px at 30% 30%,rgba(99,102,241,0.18),transparent 60%)}
+/* Work card visual treatments — per project */
+.work-visual{
+  aspect-ratio:16/9;position:relative;overflow:hidden;
+  background:linear-gradient(135deg,var(--surface),var(--bg-2));
+}
+/* Shared animated shimmer overlay */
+.work-visual::before{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(105deg,transparent 30%,rgba(255,255,255,0.03) 50%,transparent 70%);
+  background-size:200% 100%;
+  animation:shimmer 3.5s infinite linear;
+}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+
+/* Shared depth glow */
+.work-visual::after{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(ellipse 70% 60% at 50% 100%,rgba(0,0,0,0.45),transparent 70%);
+}
+
+/* Ridge & Rowan Dental — clinical white/teal */
+.work-visual[data-project="ridge-rowan"]{
+  background:linear-gradient(135deg,#0d2026 0%,#0a2d30 50%,#0f3035 100%);
+}
+.work-visual[data-project="ridge-rowan"] .wv-inner{
+  position:absolute;inset:0;z-index:1;
+  background:
+    radial-gradient(circle 80px at 30% 40%,rgba(0,200,180,0.15),transparent 70%),
+    radial-gradient(circle 120px at 70% 60%,rgba(100,220,210,0.08),transparent 70%),
+    repeating-linear-gradient(0deg,transparent,transparent 28px,rgba(0,180,160,0.05) 29px),
+    repeating-linear-gradient(90deg,transparent,transparent 28px,rgba(0,180,160,0.05) 29px);
+}
+
+/* Kindling Candle Co — warm amber commerce */
+.work-visual[data-project="kindling"]{
+  background:linear-gradient(135deg,#1a1008 0%,#251608 50%,#1e1205 100%);
+}
+.work-visual[data-project="kindling"] .wv-inner{
+  position:absolute;inset:0;z-index:1;
+  background:
+    radial-gradient(ellipse 100px 140px at 40% 30%,rgba(245,160,40,0.22),transparent 70%),
+    radial-gradient(ellipse 80px 80px at 60% 70%,rgba(251,146,60,0.12),transparent 60%);
+}
+
+/* Orbitflow — indigo/purple SaaS */
+.work-visual[data-project="orbitflow"]{
+  background:linear-gradient(135deg,#0d0b1e 0%,#120f28 50%,#0f0c20 100%);
+}
+.work-visual[data-project="orbitflow"] .wv-inner{
+  position:absolute;inset:0;z-index:1;
+  background:
+    radial-gradient(circle 100px at 25% 50%,rgba(99,102,241,0.25),transparent 65%),
+    radial-gradient(circle 60px at 75% 30%,rgba(129,140,248,0.15),transparent 60%),
+    repeating-conic-gradient(rgba(99,102,241,0.04) 0deg,transparent 1deg,transparent 30deg,rgba(99,102,241,0.04) 31deg);
+}
+
+/* Cartographer — geospatial earthy blues */
+.work-visual[data-project="cartographer"]{
+  background:linear-gradient(135deg,#070e1a 0%,#0a1525 50%,#081220 100%);
+}
+.work-visual[data-project="cartographer"] .wv-inner{
+  position:absolute;inset:0;z-index:1;
+  background:
+    radial-gradient(circle 90px at 50% 45%,rgba(30,120,200,0.18),transparent 60%),
+    repeating-linear-gradient(0deg,transparent,transparent 18px,rgba(30,100,180,0.06) 19px),
+    repeating-linear-gradient(90deg,transparent,transparent 24px,rgba(30,100,180,0.04) 25px);
+}
+
+/* Noctua — deep navy research agent */
+.work-visual[data-project="noctua"]{
+  background:linear-gradient(135deg,#060c14 0%,#08111e 50%,#060a12 100%);
+}
+.work-visual[data-project="noctua"] .wv-inner{
+  position:absolute;inset:0;z-index:1;
+  background:
+    radial-gradient(circle 70px at 35% 40%,rgba(0,180,220,0.14),transparent 65%),
+    radial-gradient(circle 100px at 65% 65%,rgba(0,140,180,0.10),transparent 60%),
+    radial-gradient(ellipse 200px 60px at 50% 80%,rgba(0,100,150,0.10),transparent 70%);
+}
 .work-body{padding:22px}
 .work-kind{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text-dim);letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
 .work-name{font-size:17px;font-weight:600;margin-bottom:8px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
