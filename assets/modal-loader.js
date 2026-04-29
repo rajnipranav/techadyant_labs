@@ -81,7 +81,10 @@ document.addEventListener("DOMContentLoaded", function() {
   document.body.appendChild(modalContainer.firstElementChild);
 
   if (window.turnstile) {
-    window.turnstile.render();
+    const turnstileContainer = document.querySelector('.cf-turnstile');
+    if (turnstileContainer) {
+      window.turnstile.render(turnstileContainer);
+    }
   }
 
   initializeModal();
@@ -169,10 +172,4 @@ function initializeModal() {
         statusEl.textContent = "Error: " + (error.message || "Failed to send. Please try again or email us directly.");
         statusEl.style.color = "#dc2626";
         statusEl.style.display = "block";
-        submitBtn.textContent = originalBtnText;
-        submitBtn.disabled = false;
-        if (window.turnstile) window.turnstile.reset();
-      }
-    });
-  }
-}
+        submitBtn.textContent = ori
