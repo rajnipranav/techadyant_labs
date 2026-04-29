@@ -79,4 +79,36 @@
     initParticles('#bg');
   });
 
+  /* ---- Global mailto fallback (copy to clipboard) ---- */
+  ready(function(){
+    document.addEventListener('click', function(e) {
+      var link = e.target.closest('a[href^="mailto:"]');
+      if (link && navigator.clipboard && window.isSecureContext) {
+        var href = link.getAttribute('href');
+        var email = href.replace('mailto:', '').split('?')[0];
+        
+        // Save original HTML to restore it later
+        var originalHTML = link.innerHTML;
+        var originalWidth = link.offsetWidth; // Prevent button jumping if it's styled
+        
+        navigator.clipboard.writeText(email).then(function() {
+          link.style.width = originalWidth ? originalWidth + 'px' : '';
+          link.innerHTML = 'Copied to clipboard!';
+          
+          setTimeout(function() {
+            link.innerHTML = originalHTML;
+            link.style.width = '';
+          }, 2000);
+        }).catch(function(err) {
+          console.log('Clipboard copy failed', err);
+        });
+        
+        // We do NOT call e.preventDefault() here!
+        // We still want the browser to try opening the default mail app.
+        // But if it fails (because the user has no mail app), they at least
+        // get the email copied to their clipboard with a visual confirmation!
+      }
+    });
+  });
+
 })();
