@@ -96,6 +96,11 @@ document.addEventListener('DOMContentLoaded', function() {
   modalContainer.innerHTML = MODAL_HTML;
   document.body.appendChild(modalContainer.firstElementChild);
 
+  // Render Turnstile widget after modal is injected
+  if (window.turnstile) {
+    window.turnstile.render();
+  }
+
   // Initialize modal
   initializeModal();
 });
@@ -202,10 +207,4 @@ function initializeModal() {
         statusEl.textContent = '❌ ' + (error.message || 'Failed to send. Please try again or email us directly.');
         statusEl.style.color = '#dc2626';
         statusEl.style.display = 'block';
-        submitBtn.textContent = originalBtnText;
-        submitBtn.disabled = false;
-        window.turnstile?.reset?.();
-      }
-    });
-  }
-}
+        submitBtn.textContent
