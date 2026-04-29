@@ -208,3 +208,4 @@ function initializeModal() {
       }
     });
   }
+}
