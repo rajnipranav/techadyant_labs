@@ -76,9 +76,8 @@
     '      <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:16px">',
     '        <button class="btn-primary" type="submit" style="border:0;cursor:pointer" id="submit-btn">Send intake</button>',
     '        <span id="form-status" style="font-size:14px;color:#5b6e75;display:none;"></span>',
-    '        <a class="btn-ghost" href="mailto:labs@techadyant.com">Or email directly</a>',
     '      </div>',
-    '      <p class="form-note">This form sends your message directly to our inbox. We reply within one business day.</p>',
+    '      <p class="form-note">This form sends your message directly to our inbox (or you can email <span style="color:var(--text);user-select:all">labs@techadyant.com</span>). We reply within one business day.</p>',
     '    </form>',
     '  </div>',
     '</div>'
@@ -186,30 +185,6 @@
         e.preventDefault();
         handleFormSubmit(form, modal);
       });
-
-      // Make "Or email directly" button dynamic: grab form values to pre-fill the email
-      var emailDirectlyBtn = form.querySelector('a.btn-ghost');
-      if (emailDirectlyBtn) {
-        emailDirectlyBtn.addEventListener('click', function(e) {
-          e.preventDefault();
-          var name = (document.getElementById('modal-name') || {}).value || '';
-          var company = (document.getElementById('modal-company') || {}).value || '';
-          var practice = (document.getElementById('modal-practice') || {}).value || 'general';
-          var budget = (document.getElementById('modal-budget') || {}).value || '';
-          var message = (document.getElementById('modal-message') || {}).value || '';
-
-          var subject = encodeURIComponent('Intake — ' + practice + (company ? ' — ' + company : ''));
-          var body = encodeURIComponent(
-            (name ? 'Name: ' + name + '\n' : '') +
-            (company ? 'Company: ' + company + '\n' : '') +
-            'Practice: ' + practice + '\n' +
-            (budget ? 'Budget band: ' + budget + '\n' : '') +
-            '\nMessage:\n' + message
-          );
-
-          window.location.href = 'mailto:labs@techadyant.com?subject=' + subject + '&body=' + body;
-        });
-      }
     }
   }
 
