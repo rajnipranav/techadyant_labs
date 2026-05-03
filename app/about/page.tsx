@@ -23,7 +23,7 @@ const PRINCIPLES = [
   { title: 'Fixed ceilings',                 body: 'Quotes are ceilings, not estimates. Overruns are our problem, not yours.' },
   { title: 'No lock-in',                     body: 'Your code in your GitHub org. Your infra in your cloud accounts. Cancel retainers any month.' },
   { title: 'Written over spoken',            body: 'Short weekly async updates, monthly retainer reports, decision docs for anything important. Meetings are for genuine ambiguity.' },
-  { title: 'Turn down bad-fit work',         body: 'We'd rather say no than deliver an expensive disappointment. Mostly we say so on the intake call.' },
+  { title: 'Turn down bad-fit work',         body: "We'd rather say no than deliver an expensive disappointment. Mostly we say so on the intake call." },
   { title: 'Tell you when to stop',          body: 'If your retainer isn\'t earning its keep, we\'ll recommend pausing. Quiet-billing is the fastest way to lose a client forever.' },
 ];
 
