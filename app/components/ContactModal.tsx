@@ -100,8 +100,18 @@ export function ContactModal() {
     setErrorMsg('');
 
     const form = e.currentTarget;
-    const data: Record<string, string> = {};
-    new FormData(form).forEach((v, k) => { data[k] = v.toString(); });
+    const raw: Record<string, string> = {};
+    new FormData(form).forEach((v, k) => { raw[k] = v.toString(); });
+
+    // Combine split name fields and remap Turnstile token to expected key
+    const data = {
+      name: `${raw.firstName || ''} ${raw.lastName || ''}`.trim(),
+      email: raw.email || '',
+      company: raw.company || '',
+      message: raw.message || '',
+      practice: raw.practice || 'general',
+      turnstileToken: raw['cf-turnstile-response'] || '',
+    };
 
     try {
       const res = await fetch('/api/contact', {
