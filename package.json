@@ -1,0 +1,33 @@
+{
+  "name": "labs-techadyant",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@next/mdx": "^15.3.1",
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "next-mdx-remote": "^5.0.0",
+    "next-themes": "^0.4.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "@types/node": "^22.15.3",
+    "@types/react": "^18.3.21",
+    "@types/react-dom": "^18.3.5",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.5.3",
+    "autoprefixer": "^10.4.21",
+    "@tailwindcss/typography": "^0.5.16",
+    "eslint": "^9.26.0",
+    "eslint-config-next": "^15.3.1"
+  }
+}
