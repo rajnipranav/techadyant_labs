@@ -1,9 +1,11 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { readFileSync } from 'fs';
 import path from 'path';
-import { MDXRemote } from 'next-mdx-remote/rsc';
+import { evaluate } from '@mdx-js/mdx';
+import * as runtime from 'react/jsx-runtime';
 import { POSTS, getPost } from '../posts';
 import { PainPointWidget } from '../../components/PainPointWidget';
 
@@ -27,13 +29,12 @@ export async function generateMetadata({
   };
 }
 
-// ── MDX component map ────────────────────────────────────────────────────────
-const components = {
-  PainPointWidget,
-};
-
 // ── Page ─────────────────────────────────────────────────────────────────────
-export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function BlogPostPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) notFound();
@@ -52,8 +53,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     notFound();
   }
 
-  // Strip frontmatter (--- ... ---) before passing to MDXRemote
-  const content = source.replace(/^---[\s\S]+?---\n/, '');
+  // Strip frontmatter (--- ... ---) before compiling
+  const content = source!.replace(/^---[\s\S]+?---\n/, '');
+
+  // Compile MDX with the project's own React runtime (avoids duplicate-React error)
+  const { default: MDXContent } = await evaluate(content, {
+    ...(runtime as any),
+  });
 
   return (
     <>
@@ -83,7 +89,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </Link>
 
           <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '16px' }}>
-            {post.tags.map((t) => (
+            {post!.tags.map((t) => (
               <span
                 key={t}
                 style={{
@@ -110,7 +116,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               letterSpacing: '-0.03em',
             }}
           >
-            {post.title}
+            {post!.title}
           </h1>
 
           <div
@@ -123,14 +129,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             }}
           >
             <span>
-              {new Date(post.date).toLocaleDateString('en-GB', {
+              {new Date(post!.date).toLocaleDateString('en-GB', {
                 day: 'numeric',
                 month: 'long',
                 year: 'numeric',
               })}
             </span>
             <span>·</span>
-            <span>{post.readingTime}</span>
+            <span>{post!.readingTime}</span>
           </div>
         </div>
       </header>
@@ -139,7 +145,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       <article style={{ paddingTop: '48px', paddingBottom: '80px' }}>
         <div className="wrap-narrow">
           <div className="prose prose-invert">
-            <MDXRemote source={content} components={components} />
+            <MDXContent components={{ PainPointWidget }} />
           </div>
         </div>
       </article>
