@@ -1,340 +1,253 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { HeroCanvas } from './components/HeroCanvas';
+import { Newsletter } from './components/Newsletter';
+import { ThemeIcon, FeaturedTopology } from './components/ThemeIcon';
+import { reports, getReport } from './reports/data';
+import { signals } from './signals/data';
+import { themes } from './research/data';
 
 export const metadata: Metadata = {
-  title: 'TechAdyant Labs — Agentic software studio · WordPress, Serverless, AI Agents',
+  title: 'Strategic intelligence on India’s industrial systems',
   description:
-    'TechAdyant Labs builds and runs the agent layer of your business — on modern serverless. WordPress, Cloudflare, Vercel, Supabase, Neon, LangGraph, n8n. Principal-led studio, Delhi, India.',
+    'Independent, India-first strategic research on industrial transformation, infrastructure systems, semiconductors, AI infrastructure and second-order economic change.',
 };
 
-const STACK_CHIPS = [
-  { label: 'Next.js' },
-  { label: 'TypeScript' },
-  { label: 'Tailwind' },
-  { label: 'Cloudflare Pages' },
-  { label: 'Vercel' },
-  { label: 'Supabase' },
-  { label: 'Neon' },
-  { label: 'WordPress' },
-  { label: 'WooCommerce' },
-  { label: 'LangGraph', hot: true },
-  { label: 'n8n', hot: true },
-  { label: 'OpenAI', hot: true },
-  { label: 'Anthropic', hot: true },
-  { label: 'Stripe' },
-  { label: 'Resend' },
-];
-
-const PRACTICES = [
-  {
-    num: '01',
-    title: 'Web & Commerce',
-    body: 'WordPress, WooCommerce, custom plugins, migrations, Core Web Vitals, security hardening. Static marketing sites on Cloudflare Pages when you want speed, not WP.',
-    stack: ['WordPress', 'WooCommerce', 'Next.js', 'Astro', 'Cloudflare'],
-    budget: 'From $149 · Patches in 48h',
-    href: '/services',
-  },
-  {
-    num: '02',
-    title: 'Product Engineering',
-    body: 'Serverless web apps done right. Dashboards, admin panels, internal tools, SaaS MVPs with auth, billing, data. Typescript-first, edge-deployed, observability baked in.',
-    stack: ['Next.js 14+', 'Supabase', 'Neon', 'Stripe', 'Vercel'],
-    budget: 'From $1,999 · 2–5 weeks',
-    href: '/services',
-  },
-  {
-    num: '03',
-    title: 'AI Agents & Automation',
-    hero: true,
-    body: 'Agentic workflows that actually run your business. Support triage, lead qualification, invoice processing, content ops. RAG, tool-calling, guardrails, evals, observability.',
-    stack: ['LangGraph', 'CrewAI', 'n8n', 'OpenAI', 'Anthropic', 'pgvector'],
-    budget: 'From $1,499 · Starter in 2 weeks',
-    href: '/services',
-  },
-  {
-    num: '04',
-    title: 'Ongoing Partnership',
-    body: 'Care, Growth, Agent Ops, Partner retainers. The recurring-revenue engine — especially Agent Ops, which keeps your live agents tuned as foundation models drift.',
-    stack: ['Care', 'Growth', 'Agent Ops', 'Partner', 'Fractional CTO'],
-    budget: 'From $99/mo · Month-to-month',
-    href: '/services',
-  },
-];
-
-const WORK_ITEMS = [
-  {
-    project: 'ridge-rowan',
-    kind: 'Web & Commerce',
-    name: 'Ridge & Rowan Dental',
-    tag: 'Building',
-    tagClass: 'work-tag coming',
-    desc: 'Boutique dental practice — bookings, services, reviews, static build on Astro.',
-    stack: ['Astro', 'Cloudflare Pages', 'Cal.com'],
-    href: '/work',
-  },
-  {
-    project: 'kindling',
-    kind: 'Web & Commerce + Agent',
-    name: 'Kindling Candle Co.',
-    tag: '+ Agent',
-    tagClass: 'work-tag agent',
-    desc: 'WooCommerce D2C store with an AI support-triage agent handling returns and order lookups.',
-    stack: ['WooCommerce', 'LangGraph', 'Anthropic', 'n8n'],
-    href: '/work',
-  },
-  {
-    project: 'orbitflow',
-    kind: 'Product + Multi-agent',
-    name: 'Orbitflow',
-    tag: 'Agentic MVP',
-    tagClass: 'work-tag agent',
-    desc: 'Async standup tool with a multi-agent layer that summarizes, flags blockers, and nudges teammates.',
-    stack: ['Next.js', 'Supabase', 'LangGraph', 'OpenAI'],
-    href: '/work',
-  },
+const featured = getReport('india-fab-ecosystem')!;
+const briefings = [
+  { date: '22 May 2026', title: 'Reading India’s Semiconductor Incentive Architecture', tag: 'Executive brief', read: '6 min' },
+  { date: '09 May 2026', title: 'Five Constraints on the 2026–28 Fab Ramp', tag: 'Strategic note', read: '5 min' },
+  { date: '28 Apr 2026', title: 'The Corridor Logic of Industrial Policy', tag: 'Framework', read: '7 min' },
 ];
 
 export default function HomePage() {
   return (
     <>
-      {/* ── Hero ── */}
-      <section className="hero-section">
+      {/* ── Editorial hero ── */}
+      <section className="ed-hero">
         <HeroCanvas />
-        <div className="vignette" />
+        <div className="veil" />
         <div className="scanlines" />
 
-        <div className="hero-corner hero-c-tl">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M0 24 L0 0 L24 0" stroke="#e8c96d" strokeWidth="1.5" opacity="0.5"/></svg>
-        </div>
-        <div className="hero-corner hero-c-tr">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M0 24 L0 0 L24 0" stroke="#e8c96d" strokeWidth="1.5" opacity="0.5"/></svg>
-        </div>
-        <div className="hero-corner hero-c-bl">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M0 24 L0 0 L24 0" stroke="#e8c96d" strokeWidth="1.5" opacity="0.5"/></svg>
-        </div>
-        <div className="hero-corner hero-c-br">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M0 24 L0 0 L24 0" stroke="#e8c96d" strokeWidth="1.5" opacity="0.5"/></svg>
-        </div>
-
-        <div className="hero-inner-content">
-          <div className="hero-eyebrow-container">
-            <div className="hero-eyebrow-line" />
-            <span className="hero-eyebrow-text">Agentic software studio · Booking May 2026</span>
-            <div className="hero-eyebrow-dot" />
+        <div className="ed-hero-inner">
+          <div className="ed-hero-eyebrow">
+            <span className="seg">Strategic Intelligence</span>
+            <span className="div" />
+            <span className="loc">India · Industrial Systems</span>
           </div>
 
-          <h1 className="hero-main-title">
-            Building the <span className="accent">agent layer</span> of your business on modern serverless architecture.
+          <h1>
+            Mapping the <span className="grad">hidden systems</span> shaping India’s next industrial decade.
           </h1>
 
-          <p className="hero-description">
-            TechAdyant Labs builds and runs the agent layer of your business. Principal-led studio for WordPress, product engineering on Cloudflare, Vercel, Supabase and Neon, and AI agents that actually ship to production.
+          <p className="lede">
+            Independent, long-form research on industrial infrastructure, semiconductors,
+            AI infrastructure and the second-order economic effects of India’s
+            manufacturing transition — written for people who need to understand systems,
+            not headlines.
           </p>
 
-          <div className="hero-actions-container">
-            <Link href="/contact" className="hero-btn-primary">
-              Book an intake call <span className="hero-btn-arrow">→</span>
+          <div className="ed-hero-actions">
+            <Link href={`/reports/${featured.slug}`} className="btn-ed btn-ed-primary">
+              Read the featured report <span className="arr">→</span>
             </Link>
-            <Link href="/services" className="hero-btn-secondary">
-              Explore capabilities <span className="hero-btn-arrow">→</span>
+            <Link href="/signals" className="btn-ed btn-ed-ghost">
+              Latest signals <span className="arr">→</span>
             </Link>
           </div>
         </div>
 
-        <div className="hero-stats-row">
-          <div className="hero-stat-item">
-            <div className="hero-stat-num">15+</div>
-            <div className="hero-stat-label">Years Experience</div>
+        <div className="ed-hero-meta">
+          <div>
+            <div className="m-k">Focus</div>
+            <div className="m-v">Industrial systems & infrastructure</div>
           </div>
-          <div className="hero-stat-divider" />
-          <div className="hero-stat-item">
-            <div className="hero-stat-num">AI Agents</div>
-            <div className="hero-stat-label">Production Ready</div>
+          <div>
+            <div className="m-k">Method</div>
+            <div className="m-v">Long-form, systems-level analysis</div>
           </div>
-          <div className="hero-stat-divider" />
-          <div className="hero-stat-item">
-            <div className="hero-stat-num">50+</div>
-            <div className="hero-stat-label">Systems Deployed</div>
+          <div>
+            <div className="m-k">Orientation</div>
+            <div className="m-v">India-first · independent</div>
           </div>
-        </div>
-
-        <div className="hero-scroll-hint">
-          <span>Scroll</span>
-          <div className="hero-scroll-line" />
+          <div>
+            <div className="m-k">Cadence</div>
+            <div className="m-v">Reports · Signals · Briefings</div>
+          </div>
         </div>
       </section>
 
-      {/* ── Stack chips ── */}
-      <div className="stack">
-        <div className="wrap stack-inner">
-          {STACK_CHIPS.map((c) => (
-            <span key={c.label} className={`chip${c.hot ? ' hot' : ''}`}>{c.label}</span>
+      {/* ── Featured report ── */}
+      <section className="wrap" aria-labelledby="featured-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker">Featured report</div>
+            <h2 id="featured-h">The current edition</h2>
+          </div>
+          <p className="section-note">
+            Our flagship long-form analysis — the systems, dependencies and beneficiaries
+            behind a single strategic question.
+          </p>
+        </div>
+
+        <Link href={`/reports/${featured.slug}`} className="featured" aria-label={featured.title}>
+          <div className="featured-visual">
+            <span className="featured-tag">★ Featured</span>
+            <FeaturedTopology />
+          </div>
+          <div className="featured-body">
+            <div className="featured-edition">
+              <span>{featured.domain}</span>
+              <span className="sep">·</span>
+              <span>{featured.edition}</span>
+              <span className="sep">·</span>
+              <span>{featured.readingTime}</span>
+            </div>
+            <h3>{featured.title}</h3>
+            <p className="sub">{featured.subtitle}</p>
+            <p className="summary">{featured.summary}</p>
+            <div className="featured-foot">
+              <span className="btn-ed btn-ed-primary">Read report <span className="arr">→</span></span>
+              <span className="label">Published {featured.publishedLabel}</span>
+            </div>
+          </div>
+        </Link>
+      </section>
+
+      {/* ── Latest signals ── */}
+      <section className="wrap" style={{ background: 'var(--bg-2)' }} aria-labelledby="signals-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker"><span className="live" /> Latest signals</div>
+            <h2 id="signals-h">Intelligence dispatches</h2>
+          </div>
+          <Link href="/signals" className="see-all">All signals →</Link>
+        </div>
+
+        <div className="signals-grid">
+          {signals.map((s) => (
+            <Link
+              key={s.slug}
+              href={`/signals/${s.slug}`}
+              className={`signal${s.status === 'placeholder' ? ' signal-placeholder' : ''}`}
+            >
+              <div className="signal-meta">
+                <span className="sig-no">{s.no}</span>
+                <span className="sig-domain">{s.domain}</span>
+                {s.status === 'live' && (
+                  <span className="sig-status"><span className="dot" /> Live</span>
+                )}
+                {s.status === 'placeholder' && <span className="sig-status" style={{ color: 'var(--text-dim)' }}>Draft</span>}
+                <span className="sig-date">{s.dateLabel}</span>
+              </div>
+              <div className="signal-title">{s.title}</div>
+              <p className="signal-excerpt">{s.excerpt}</p>
+            </Link>
           ))}
         </div>
-      </div>
-
-      {/* ── Practices ── */}
-      <section id="practices">
-        <div className="wrap">
-          <div className="sec-head">
-            <div className="sec-kicker">Four practices</div>
-            <h2 className="sec-title">From a 48-hour plugin patch to a multi-agent product in production.</h2>
-            <p className="sec-sub">
-              We deliberately work both ends of the barbell: fast commodity builds that win reviews and feed the funnel, and premium agentic engineering where margin and defensibility actually live.
-            </p>
-          </div>
-
-          <div className="practices">
-            {PRACTICES.map((p) => (
-              <Link key={p.num} className="prac" href={p.href}>
-                <div className="prac-num">{p.num} / PRACTICE</div>
-                <div className="prac-title">
-                  {p.title}
-                  {p.hero && <span className="tag hero-tag">Hero</span>}
-                </div>
-                <div className="prac-body">{p.body}</div>
-                <div className="prac-list">
-                  {p.stack.map((s) => <span key={s}>{s}</span>)}
-                </div>
-                <div className="prac-foot">
-                  <span className="prac-budget">{p.budget}</span>
-                  <span className="prac-link">Deep dive →</span>
-                </div>
-              </Link>
-            ))}
-          </div>
-
-          <div className="sec-cta-row">
-            <Link href="/services" className="btn-ghost">See full capabilities →</Link>
-          </div>
-        </div>
       </section>
 
-      {/* ── Work preview ── */}
-      <section id="work-preview" style={{ background: 'var(--bg-2)' }}>
-        <div className="wrap">
-          <div className="sec-head">
-            <div className="sec-kicker">Selected work</div>
-            <h2 className="sec-title">Live products we build and ship.</h2>
-            <p className="sec-sub">
-              Five sample products on Cloudflare Pages covering the barbell — fast commodity commerce, polished product work, and agent-powered systems. Every link below is a real deployment.
-            </p>
+      {/* ── Research themes ── */}
+      <section className="wrap" aria-labelledby="themes-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker">Research themes</div>
+            <h2 id="themes-h">Four lines of inquiry</h2>
           </div>
+          <Link href="/research" className="see-all">Explore research →</Link>
+        </div>
 
-          <div className="work-grid">
-            {WORK_ITEMS.map((w) => (
-              <Link key={w.project} className="work" href={w.href}>
-                <div className="work-visual" data-project={w.project}><div className="wv-inner" /></div>
-                <div className="work-body">
-                  <div className="work-kind">{w.kind}</div>
-                  <div className="work-name">
-                    {w.name} <span className={w.tagClass}>{w.tag}</span>
-                  </div>
-                  <div className="work-desc">{w.desc}</div>
-                  <div className="work-stack">
-                    {w.stack.map((s) => <span key={s}>{s}</span>)}
-                  </div>
-                </div>
-              </Link>
-            ))}
-
+        <div className="themes-grid">
+          {themes.map((th) => (
             <Link
-              href="/work"
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                background: 'linear-gradient(135deg,rgba(99,102,241,0.10),rgba(245,181,68,0.04))',
-                border: '1px dashed var(--border-strong)',
-                borderRadius: '12px',
-                textDecoration: 'none',
-              }}
+              key={th.id}
+              href={`/research#${th.id}`}
+              className="theme"
+              style={{ ['--theme-accent' as string]: th.accent }}
             >
-              <div style={{ padding: '40px 24px', textAlign: 'center' }}>
-                <div style={{ fontFamily: 'var(--font-jetbrains, monospace)', fontSize: '11px', color: 'var(--primary-bright)', letterSpacing: '.18em', marginBottom: '10px' }}>2 MORE</div>
-                <div style={{ fontSize: '17px', fontWeight: 600, marginBottom: '6px' }}>See all work</div>
-                <div style={{ fontSize: '13px', color: 'var(--text-muted)' }}>Cartographer · Noctua · your project next</div>
-              </div>
+              <div className="theme-no">{th.no}</div>
+              <div className="theme-icon"><ThemeIcon icon={th.icon} /></div>
+              <h3>{th.title}</h3>
+              <p>{th.blurb}</p>
+              <span className="theme-count">{th.count} →</span>
             </Link>
-          </div>
+          ))}
         </div>
       </section>
 
-      {/* ── Pricing snapshot ── */}
-      <section id="pricing-snapshot">
-        <div className="wrap">
-          <div className="sec-head">
-            <div className="sec-kicker">Pricing · snapshot</div>
-            <h2 className="sec-title">Honest floors. AI-aware. Built for Upwork and direct work alike.</h2>
-            <p className="sec-sub">
-              Commodity builds priced to feed the funnel. Agent work priced for the value it delivers. Retainers priced to actually get renewed. Full rate card lives on the{' '}
-              <Link href="/pricing" style={{ color: 'var(--primary-bright)' }}>Pricing page</Link>.
+      {/* ── Strategic briefings ── */}
+      <section className="wrap" style={{ background: 'var(--bg-2)' }} aria-labelledby="brief-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker">Strategic briefings</div>
+            <h2 id="brief-h">Executive-ready analysis</h2>
+          </div>
+          <Link href="/briefings" className="see-all">All briefings →</Link>
+        </div>
+
+        <div className="briefings">
+          {briefings.map((b) => (
+            <Link key={b.title} href="/briefings" className="briefing">
+              <span className="briefing-date">{b.date}</span>
+              <span className="briefing-title">
+                {b.title}
+                <span className="b-tag">{b.tag}</span>
+              </span>
+              <span className="briefing-read">{b.read} →</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* ── Newsletter ── */}
+      <section className="wrap-narrow">
+        <Newsletter />
+      </section>
+
+      {/* ── About the platform ── */}
+      <section className="wrap" aria-labelledby="about-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker">About the platform</div>
+            <h2 id="about-h">An independent research lab</h2>
+          </div>
+          <Link href="/about" className="see-all">Read more →</Link>
+        </div>
+
+        <div className="platform-band">
+          <p className="pb-statement">
+            Techadyant Labs is an independent strategic intelligence platform focused on
+            India’s industrial transformation, infrastructure systems and emerging
+            strategic technologies.
+          </p>
+          <div className="pb-body">
+            <p>
+              We study industrial systems the way analysts study capital markets — as
+              interdependent structures with hidden constraints, asymmetric beneficiaries
+              and second-order effects. Our work begins where the press release ends.
             </p>
-          </div>
-
-          <div className="price-wrap">
-            <div className="price-col">
-              <div className="price-col-title">Web &amp; Commerce <span className="tag">Volume</span></div>
-              {[
-                { name: 'Patch', price: 'from $149', meta: '48h', body: 'Small fix, speed audit, plugin tweak.' },
-                { name: 'Launch Site', price: 'from $499', meta: '5–7 days', body: 'WordPress or static marketing site, 3–6 pages.' },
-                { name: 'Commerce', price: 'from $1,299', meta: '2 weeks', body: 'WooCommerce or Shopify headless build.' },
-              ].map((t) => (
-                <div key={t.name} className="price-tier">
-                  <div className="price-tier-head"><span className="price-tier-name">{t.name}</span><span className="price-tier-price">{t.price}</span></div>
-                  <div className="price-tier-meta">{t.meta}</div>
-                  <div className="price-tier-body">{t.body}</div>
-                </div>
-              ))}
-            </div>
-
-            <div className="price-col">
-              <div className="price-col-title">Product Engineering <span className="tag">Mid</span></div>
-              {[
-                { name: 'App Sprint', price: 'from $1,999', meta: '2 weeks', body: 'Internal tool, dashboard, or tight MVP.' },
-                { name: 'Product Build', price: 'from $3,999', meta: '3–5 weeks', body: 'Auth, billing, data, production-grade.' },
-              ].map((t) => (
-                <div key={t.name} className="price-tier">
-                  <div className="price-tier-head"><span className="price-tier-name">{t.name}</span><span className="price-tier-price">{t.price}</span></div>
-                  <div className="price-tier-meta">{t.meta}</div>
-                  <div className="price-tier-body">{t.body}</div>
-                </div>
-              ))}
-            </div>
-
-            <div className="price-col hero">
-              <div className="price-col-title">AI Agents &amp; Automation <span className="tag hero-tag">Hero</span></div>
-              {[
-                { name: 'Agent Starter', price: 'from $1,499', meta: '1–2 weeks', body: 'One workflow automated end-to-end, monitored.' },
-                { name: 'Agentic Feature', price: 'from $3,999', meta: '2–3 weeks', body: 'RAG + tool-calling into existing app, with evals.' },
-                { name: 'Agentic MVP', price: 'from $7,999', meta: '4–6 weeks', body: 'Full multi-agent product with observability.' },
-              ].map((t) => (
-                <div key={t.name} className="price-tier">
-                  <div className="price-tier-head"><span className="price-tier-name">{t.name}</span><span className="price-tier-price">{t.price}</span></div>
-                  <div className="price-tier-meta">{t.meta}</div>
-                  <div className="price-tier-body">{t.body}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="sec-cta-row">
-            <Link href="/pricing" className="btn-ghost">Full pricing page →</Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ── CTA band ── */}
-      <section id="cta">
-        <div className="wrap">
-          <div className="cta-band">
-            <h2>Ready to ship the agent layer of your business?</h2>
-            <p>A 30-minute intake call is free. You leave with a written scope, a fixed price, and a timeline — or an honest "we're not the right shop for this" and a referral.</p>
-            <div className="cta-actions">
-              <button className="btn-primary" data-open-modal="contact">Book an intake call</button>
-              <Link href="/services" className="btn-ghost">See full capabilities</Link>
-            </div>
+            <p>
+              The publication is reader-oriented and independent. We carry no sponsored
+              coverage and take no position in the companies and projects we analyse.
+            </p>
+            <ul className="pb-principles">
+              <li>
+                <div className="pk">Independent</div>
+                <div className="pv">No sponsored coverage, no undisclosed interests.</div>
+              </li>
+              <li>
+                <div className="pk">Systems-level</div>
+                <div className="pv">We map dependencies, not just events.</div>
+              </li>
+              <li>
+                <div className="pk">India-first</div>
+                <div className="pv">Built around India’s industrial and strategic context.</div>
+              </li>
+              <li>
+                <div className="pk">Long-form</div>
+                <div className="pv">Depth over frequency; analysis over aggregation.</div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>

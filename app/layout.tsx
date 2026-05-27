@@ -1,10 +1,9 @@
 import type { Metadata } from 'next';
-import { Inter, JetBrains_Mono } from 'next/font/google';
+import { Inter, JetBrains_Mono, Source_Serif_4 } from 'next/font/google';
 import Link from 'next/link';
 import './globals.css';
 import { ThemeProvider } from './components/ThemeProvider';
 import { ThemeToggle } from './components/ThemeToggle';
-import { ContactModal } from './components/ContactModal';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -18,118 +17,125 @@ const jetbrainsMono = JetBrains_Mono({
   display: 'swap',
 });
 
+const sourceSerif = Source_Serif_4({
+  subsets: ['latin'],
+  variable: '--font-source-serif',
+  display: 'swap',
+  style: ['normal', 'italic'],
+});
+
 export const metadata: Metadata = {
+  metadataBase: new URL('https://labs.techadyant.com'),
   title: {
-    default: 'Techadyant Labs — Where Ideas Evolve',
-    template: '%s | Techadyant Labs',
+    default: 'Techadyant Labs — Strategic intelligence on India’s industrial systems',
+    template: '%s — Techadyant Labs',
   },
   description:
-    'Techadyant Labs builds full-stack products, AI integrations, design systems, and UX audits for early-stage startups.',
+    'Independent strategic intelligence on India’s industrial transformation, infrastructure systems, semiconductors, AI infrastructure and second-order economic change.',
   openGraph: {
     type: 'website',
     siteName: 'Techadyant Labs',
+    title: 'Techadyant Labs — Strategic intelligence on India’s industrial systems',
+    description:
+      'Independent strategic intelligence on India’s industrial transformation, infrastructure systems and emerging technologies.',
   },
 };
 
 const NAV_LINKS = [
-  { href: '/',         label: 'Home'     },
-  { href: '/about',    label: 'About'    },
-  { href: '/services', label: 'Services' },
-  { href: '/work',     label: 'Work'     },
-  { href: '/process',  label: 'Process'  },
-  { href: '/pricing',  label: 'Pricing'  },
-  { href: '/blog',     label: 'Blog'     },
+  { href: '/reports', label: 'Reports' },
+  { href: '/signals', label: 'Signals' },
+  { href: '/research', label: 'Research' },
+  { href: '/briefings', label: 'Briefings' },
+  { href: '/about', label: 'About' },
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-      <body className={`${inter.variable} ${jetbrainsMono.variable}`}>
+      <body className={`${inter.variable} ${jetbrainsMono.variable} ${sourceSerif.variable}`}>
         <ThemeProvider>
-          {/* ── Sticky nav ── */}
-          <header className="site-nav" role="banner">
-            <nav className="nav-inner container">
-              <Link href="/" className="nav-logo" aria-label="Techadyant Labs home">
-                <span className="logo-mark">⬡</span>
-                <span className="logo-text">Techadyant Labs</span>
+          {/* Masthead */}
+          <header className="masthead" role="banner">
+            <div className="masthead-inner">
+              <Link href="/" className="masthead-brand" aria-label="Techadyant Labs — home">
+                <span className="mark" aria-hidden="true">⬡</span>
+                <span className="wordmark">
+                  <b>Techadyant</b> <span className="dim">Labs</span>
+                </span>
               </Link>
 
-              <ul className="nav-links" role="list">
+              <ul className="masthead-nav" role="list">
                 {NAV_LINKS.map(({ href, label }) => (
                   <li key={href}>
-                    <Link href={href} className="nav-link">
-                      {label}
-                    </Link>
+                    <Link href={href}>{label}</Link>
                   </li>
                 ))}
               </ul>
 
-              <div className="nav-actions">
+              <div className="masthead-actions">
                 <ThemeToggle />
-                <button
-                  className="btn btn-primary btn-sm"
-                  data-open-modal="contact"
-                >
-                  Start a Project
-                </button>
+                <Link href="/#subscribe" className="btn-subscribe">
+                  Subscribe
+                </Link>
               </div>
-            </nav>
+            </div>
           </header>
 
-          {/* ── Page content ── */}
-          <main id="main-content">
-            {children}
-          </main>
+          {/* Content */}
+          <main id="main-content">{children}</main>
 
-          {/* ── Footer ── */}
-          <footer className="site-footer">
-            <div className="container footer-inner">
-              <div className="footer-brand">
-                <Link href="/" className="nav-logo" style={{ marginBottom: '12px', display: 'inline-flex' }}>
-                  <span className="logo-mark">⬡</span>
-                  <span className="logo-text">Techadyant Labs</span>
+          {/* Publication footer */}
+          <footer className="pub-footer">
+            <div className="pub-footer-inner">
+              <div className="pf-brand">
+                <Link href="/" aria-label="Techadyant Labs — home">
+                  <span className="mark" aria-hidden="true">⬡</span>
+                  <span className="wordmark">Techadyant Labs</span>
                 </Link>
-                <p className="footer-tagline">
-                  Where ideas evolve — small team, full-stack execution.
+                <p className="pf-tagline">
+                  Independent strategic intelligence on India’s industrial transformation,
+                  infrastructure systems and emerging technologies.
                 </p>
               </div>
 
-              <div className="footer-links">
-                <div className="footer-col">
-                  <h4>Navigate</h4>
-                  <ul role="list">
-                    {NAV_LINKS.map(({ href, label }) => (
-                      <li key={href}><Link href={href}>{label}</Link></li>
-                    ))}
-                  </ul>
-                </div>
+              <div>
+                <h4>Publication</h4>
+                <ul role="list">
+                  <li><Link href="/reports">Reports</Link></li>
+                  <li><Link href="/signals">Signals</Link></li>
+                  <li><Link href="/briefings">Briefings</Link></li>
+                  <li><Link href="/research">Research themes</Link></li>
+                </ul>
+              </div>
 
-                <div className="footer-col">
-                  <h4>Contact</h4>
-                  <ul role="list">
-                    <li>
-                      <a href="mailto:hello@techadyant.com">hello@techadyant.com</a>
-                    </li>
-                    <li>
-                      <button
-                        className="footer-link-btn"
-                        data-open-modal="contact"
-                      >
-                        Start a Project →
-                      </button>
-                    </li>
-                  </ul>
-                </div>
+              <div>
+                <h4>Themes</h4>
+                <ul role="list">
+                  <li><Link href="/research#semiconductors">Semiconductor ecosystems</Link></li>
+                  <li><Link href="/research#infrastructure">Industrial infrastructure</Link></li>
+                  <li><Link href="/research#strategic-tech">Strategic technology</Link></li>
+                  <li><Link href="/research#economic-geography">Economic geography</Link></li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>Platform</h4>
+                <ul role="list">
+                  <li><Link href="/about">About the platform</Link></li>
+                  <li><Link href="/#subscribe">Subscribe</Link></li>
+                  <li><a href="mailto:research@techadyant.com">research@techadyant.com</a></li>
+                </ul>
               </div>
             </div>
 
-            <div className="footer-bottom">
-              <p>© {new Date().getFullYear()} Techadyant Labs. All rights reserved.</p>
+            <div className="pub-footer-bottom">
+              <p>
+                <span className="tricolor" aria-hidden="true" />
+                © {new Date().getFullYear()} Techadyant Labs. India-first strategic research.
+              </p>
+              <p>Independent · Reader-supported · No sponsored coverage</p>
             </div>
           </footer>
-
-          {/* ── Global contact modal ── */}
-          <ContactModal />
         </ThemeProvider>
       </body>
     </html>

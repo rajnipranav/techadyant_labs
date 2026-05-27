@@ -2,6 +2,14 @@
 
 import { useEffect, useRef } from 'react';
 
+/**
+ * SystemsField — a strategic / industrial dependency topology.
+ *
+ * Reinterprets the original constellation canvas as an intelligence "systems map":
+ * named industrial sub-systems (fabrication, power, water, logistics, talent,
+ * capital, policy …) connected by dependency edges, drifting slowly over an
+ * ambient field. Calm, atmospheric, semantically aligned with the publication.
+ */
 export function HeroCanvas() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -11,173 +19,180 @@ export function HeroCanvas() {
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    let animId: number;
-    let mouse = { x: 0, y: 0 };
+    let animId = 0;
     let t = 0;
+    const mouse = { x: 0.5, y: 0.5, has: false };
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    // ── Stars ──────────────────────────────────────────────────────────────
-    const STAR_COUNT = 180;
-    interface Star { x: number; y: number; r: number; o: number; speed: number }
-    let stars: Star[] = [];
+    interface Node {
+      bx: number; by: number;
+      label?: string;
+      r: number;
+      hub?: boolean;
+      color: string;
+      ax: number; ay: number;
+      ph: number;
+    }
 
-    function initStars(w: number, h: number) {
-      stars = Array.from({ length: STAR_COUNT }, () => ({
-        x: Math.random() * w,
-        y: Math.random() * h,
-        r: Math.random() * 1.4 + 0.2,
-        o: Math.random() * 0.6 + 0.2,
-        speed: Math.random() * 0.15 + 0.05,
+    const C_CORE = '#818CF8';
+    const C_FAB = '#F5B544';
+    const C_NODE = '#6366F1';
+    const C_LIVE = '#38e1c4';
+
+    const nodes: Node[] = [
+      { bx: 0.50, by: 0.50, label: 'INDUSTRIAL CORE', r: 5.5, hub: true, color: C_CORE, ax: 0.006, ay: 0.008, ph: 0 },
+      { bx: 0.34, by: 0.34, label: 'FABRICATION', r: 4.5, hub: true, color: C_FAB, ax: 0.012, ay: 0.010, ph: 1.1 },
+      { bx: 0.68, by: 0.30, label: 'POWER', r: 4, hub: true, color: C_NODE, ax: 0.010, ay: 0.013, ph: 2.3 },
+      { bx: 0.72, by: 0.62, label: 'LOGISTICS', r: 4, hub: true, color: C_NODE, ax: 0.011, ay: 0.009, ph: 3.4 },
+      { bx: 0.30, by: 0.66, label: 'WATER', r: 4, hub: true, color: C_LIVE, ax: 0.013, ay: 0.011, ph: 4.6 },
+      { bx: 0.55, by: 0.74, label: 'TALENT', r: 3.8, hub: true, color: C_NODE, ax: 0.012, ay: 0.012, ph: 5.2 },
+      { bx: 0.20, by: 0.46, label: 'CAPITAL', r: 3.6, hub: true, color: C_FAB, ax: 0.010, ay: 0.012, ph: 0.7 },
+      { bx: 0.82, by: 0.46, label: 'POLICY', r: 3.6, hub: true, color: C_NODE, ax: 0.011, ay: 0.010, ph: 2.9 },
+      { bx: 0.43, by: 0.22, r: 2.2, color: C_NODE, ax: 0.014, ay: 0.012, ph: 1.7 },
+      { bx: 0.60, by: 0.18, r: 2.0, color: C_NODE, ax: 0.013, ay: 0.014, ph: 2.5 },
+      { bx: 0.16, by: 0.62, r: 2.0, color: C_NODE, ax: 0.015, ay: 0.011, ph: 3.1 },
+      { bx: 0.40, by: 0.84, r: 2.2, color: C_NODE, ax: 0.012, ay: 0.013, ph: 0.4 },
+      { bx: 0.70, by: 0.82, r: 2.0, color: C_NODE, ax: 0.013, ay: 0.012, ph: 4.0 },
+      { bx: 0.86, by: 0.66, r: 1.9, color: C_NODE, ax: 0.014, ay: 0.012, ph: 5.5 },
+      { bx: 0.88, by: 0.28, r: 1.9, color: C_NODE, ax: 0.013, ay: 0.013, ph: 1.3 },
+      { bx: 0.12, by: 0.34, r: 1.9, color: C_NODE, ax: 0.014, ay: 0.011, ph: 3.8 },
+    ];
+
+    const edges: [number, number][] = [
+      [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7],
+      [1, 8], [1, 15], [1, 6], [2, 9], [2, 14], [2, 7],
+      [3, 12], [3, 13], [3, 7], [4, 10], [4, 11], [5, 11], [5, 12],
+      [1, 2], [4, 5], [3, 2], [6, 4],
+    ];
+
+    interface P { x: number; y: number; r: number; o: number; s: number }
+    let particles: P[] = [];
+    function initParticles(w: number, h: number) {
+      const count = Math.min(150, Math.floor((w * h) / 11000));
+      particles = Array.from({ length: count }, () => ({
+        x: Math.random() * w, y: Math.random() * h,
+        r: Math.random() * 1.1 + 0.2, o: Math.random() * 0.5 + 0.12,
+        s: Math.random() * 0.4 + 0.1,
       }));
     }
 
-    // ── Hexagon helper ─────────────────────────────────────────────────────
-    function hexPath(
-      cx: number, cy: number, radius: number, rotation: number
-    ) {
-      ctx!.beginPath();
-      for (let i = 0; i < 6; i++) {
-        const angle = (Math.PI / 3) * i + rotation;
-        const x = cx + radius * Math.cos(angle);
-        const y = cy + radius * Math.sin(angle);
-        i === 0 ? ctx!.moveTo(x, y) : ctx!.lineTo(x, y);
-      }
-      ctx!.closePath();
-    }
-
-    // ── Orbiting nodes ─────────────────────────────────────────────────────
-    interface Node { orbit: number; speed: number; angle: number; r: number; color: string }
-    const NODE_COLORS = ['#6366F1', '#818CF8', '#00f2ff', '#F5B544', '#34D399'];
-    let nodes: Node[] = [
-      { orbit: 0.22, speed: 0.008, angle: 0,          r: 4, color: '#6366F1' },
-      { orbit: 0.30, speed: -0.006, angle: Math.PI / 3, r: 3, color: '#00f2ff' },
-      { orbit: 0.38, speed: 0.004, angle: Math.PI,     r: 5, color: '#F5B544' },
-      { orbit: 0.45, speed: -0.003, angle: Math.PI * 1.5, r: 3, color: '#34D399' },
-    ];
-
     function resize() {
-      canvas!.width  = canvas!.offsetWidth;
-      canvas!.height = canvas!.offsetHeight;
-      initStars(canvas!.width, canvas!.height);
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      canvas!.width = canvas!.offsetWidth * dpr;
+      canvas!.height = canvas!.offsetHeight * dpr;
+      ctx!.setTransform(dpr, 0, 0, dpr, 0, 0);
+      initParticles(canvas!.offsetWidth, canvas!.offsetHeight);
     }
 
     function onMouse(e: MouseEvent) {
       const rect = canvas!.getBoundingClientRect();
-      mouse = {
-        x: e.clientX - rect.left,
-        y: e.clientY - rect.top,
-      };
+      mouse.x = (e.clientX - rect.left) / rect.width;
+      mouse.y = (e.clientY - rect.top) / rect.height;
+      mouse.has = true;
+    }
+
+    function pos(n: Node, w: number, h: number, px: number, py: number) {
+      const x = (n.bx + Math.sin(t * 0.5 + n.ph) * n.ax) * w + px * (n.hub ? 14 : 8);
+      const y = (n.by + Math.cos(t * 0.45 + n.ph) * n.ay) * h + py * (n.hub ? 14 : 8);
+      return { x, y };
     }
 
     function draw() {
-      const w = canvas!.width;
-      const h = canvas!.height;
-      t += 0.012;
+      const w = canvas!.offsetWidth;
+      const h = canvas!.offsetHeight;
+      t += reduce ? 0 : 0.006;
 
       ctx!.clearRect(0, 0, w, h);
 
-      // Background gradient
-      const bg = ctx!.createRadialGradient(w / 2, h / 2, 0, w / 2, h / 2, Math.max(w, h) * 0.75);
-      bg.addColorStop(0, '#161629');
-      bg.addColorStop(1, '#0B0B14');
+      const bg = ctx!.createRadialGradient(w * 0.62, h * 0.4, 0, w * 0.62, h * 0.4, Math.max(w, h) * 0.85);
+      bg.addColorStop(0, '#13132a');
+      bg.addColorStop(0.55, '#0d0d1c');
+      bg.addColorStop(1, '#0a0a13');
       ctx!.fillStyle = bg;
       ctx!.fillRect(0, 0, w, h);
 
-      // Stars
-      const px = (mouse.x / w - 0.5) * 18;
-      const py = (mouse.y / h - 0.5) * 18;
-      for (const s of stars) {
+      ctx!.strokeStyle = 'rgba(129,140,248,0.04)';
+      ctx!.lineWidth = 1;
+      const gap = 64;
+      for (let gx = (w % gap) / 2; gx < w; gx += gap) {
+        ctx!.beginPath(); ctx!.moveTo(gx, 0); ctx!.lineTo(gx, h); ctx!.stroke();
+      }
+      for (let gy = (h % gap) / 2; gy < h; gy += gap) {
+        ctx!.beginPath(); ctx!.moveTo(0, gy); ctx!.lineTo(w, gy); ctx!.stroke();
+      }
+
+      const px = (mouse.x - 0.5);
+      const py = (mouse.y - 0.5);
+
+      for (const p of particles) {
         ctx!.beginPath();
-        ctx!.arc(s.x + px * s.r * 0.3, s.y + py * s.r * 0.3, s.r, 0, Math.PI * 2);
-        ctx!.fillStyle = `rgba(255,255,255,${s.o + 0.1 * Math.sin(t * s.speed * 60)})`;
+        ctx!.arc(p.x + px * 10 * p.r, p.y + py * 10 * p.r, p.r, 0, Math.PI * 2);
+        ctx!.fillStyle = `rgba(220,222,255,${p.o + 0.08 * Math.sin(t * p.s * 8 + p.x)})`;
         ctx!.fill();
       }
 
-      const cx = w / 2 + px * 0.3;
-      const cy = h / 2 + py * 0.3;
-      const minDim = Math.min(w, h);
+      const pts = nodes.map((n) => pos(n, w, h, px, py));
 
-      // Ambient glow behind hexagons
-      const glow = ctx!.createRadialGradient(cx, cy, 0, cx, cy, minDim * 0.42);
-      glow.addColorStop(0, 'rgba(99,102,241,0.13)');
-      glow.addColorStop(0.5, 'rgba(0,242,255,0.05)');
-      glow.addColorStop(1, 'rgba(0,0,0,0)');
-      ctx!.fillStyle = glow;
-      ctx!.beginPath();
-      ctx!.arc(cx, cy, minDim * 0.42, 0, Math.PI * 2);
-      ctx!.fill();
-
-      // Hexagons (3 rings, rotating)
-      const hexSizes = [
-        { r: minDim * 0.38, rot: t * 0.18,  alpha: 0.18, lineW: 1.2 },
-        { r: minDim * 0.27, rot: -t * 0.26, alpha: 0.28, lineW: 1.0 },
-        { r: minDim * 0.16, rot: t * 0.40,  alpha: 0.40, lineW: 1.5 },
-      ];
-      for (const { r, rot, alpha, lineW } of hexSizes) {
-        hexPath(cx, cy, r, rot);
-        ctx!.strokeStyle = `rgba(99,102,241,${alpha})`;
-        ctx!.lineWidth = lineW;
-        ctx!.stroke();
-      }
-
-      // Inner hex fill
-      hexPath(cx, cy, minDim * 0.14, t * 0.40);
-      ctx!.fillStyle = 'rgba(99,102,241,0.04)';
-      ctx!.fill();
-
-      // Orbiting nodes
-      for (const node of nodes) {
-        node.angle += node.speed;
-        const nx = cx + node.orbit * minDim * Math.cos(node.angle);
-        const ny = cy + node.orbit * minDim * Math.sin(node.angle);
-
-        // Connector line
+      for (const [a, b] of edges) {
+        const pa = pts[a], pb = pts[b];
+        const grad = ctx!.createLinearGradient(pa.x, pa.y, pb.x, pb.y);
+        grad.addColorStop(0, nodes[a].color + '55');
+        grad.addColorStop(1, nodes[b].color + '12');
+        ctx!.strokeStyle = grad;
+        ctx!.lineWidth = (nodes[a].hub && nodes[b].hub) ? 1.1 : 0.7;
         ctx!.beginPath();
-        ctx!.moveTo(cx, cy);
-        ctx!.lineTo(nx, ny);
-        ctx!.strokeStyle = `${node.color}44`;
-        ctx!.lineWidth = 0.8;
+        ctx!.moveTo(pa.x, pa.y);
+        ctx!.lineTo(pb.x, pb.y);
         ctx!.stroke();
 
-        // Node glow
-        const ng = ctx!.createRadialGradient(nx, ny, 0, nx, ny, node.r * 3);
-        ng.addColorStop(0, node.color + 'cc');
-        ng.addColorStop(1, 'transparent');
-        ctx!.fillStyle = ng;
-        ctx!.beginPath();
-        ctx!.arc(nx, ny, node.r * 3, 0, Math.PI * 2);
-        ctx!.fill();
-
-        // Node dot
-        ctx!.beginPath();
-        ctx!.arc(nx, ny, node.r, 0, Math.PI * 2);
-        ctx!.fillStyle = node.color;
-        ctx!.fill();
+        if (!reduce && nodes[a].hub && nodes[b].hub) {
+          const prog = (Math.sin(t * 0.8 + a * 1.7 + b) + 1) / 2;
+          const mx = pa.x + (pb.x - pa.x) * prog;
+          const my = pa.y + (pb.y - pa.y) * prog;
+          ctx!.beginPath();
+          ctx!.arc(mx, my, 1.6, 0, Math.PI * 2);
+          ctx!.fillStyle = 'rgba(56,225,196,0.6)';
+          ctx!.fill();
+        }
       }
 
-      // Center dot
-      const cdg = ctx!.createRadialGradient(cx, cy, 0, cx, cy, 18);
-      cdg.addColorStop(0, 'rgba(99,102,241,0.9)');
-      cdg.addColorStop(1, 'rgba(99,102,241,0)');
-      ctx!.fillStyle = cdg;
-      ctx!.beginPath();
-      ctx!.arc(cx, cy, 18, 0, Math.PI * 2);
-      ctx!.fill();
-      ctx!.beginPath();
-      ctx!.arc(cx, cy, 4, 0, Math.PI * 2);
-      ctx!.fillStyle = '#818CF8';
-      ctx!.fill();
+      ctx!.font = "10px ui-monospace, 'JetBrains Mono', monospace";
+      for (let i = 0; i < nodes.length; i++) {
+        const n = nodes[i];
+        const { x, y } = pts[i];
 
-      // HUD text decorations
-      ctx!.font = `11px 'JetBrains Mono', monospace`;
-      ctx!.fillStyle = 'rgba(99,102,241,0.35)';
-      const labels = [
-        { text: 'SYS_ACTIVE', x: cx - 120, y: cy - minDim * 0.42 + 22 },
-        { text: `CYCLE_${Math.floor(t * 4) % 1000}`, x: cx + 40, y: cy - minDim * 0.42 + 22 },
-        { text: 'LABS.TECHADYANT', x: cx - 70, y: cy + minDim * 0.42 - 10 },
-      ];
-      for (const l of labels) {
-        ctx!.fillText(l.text, l.x, l.y);
+        const g = ctx!.createRadialGradient(x, y, 0, x, y, n.r * 5);
+        g.addColorStop(0, n.color + (n.hub ? 'aa' : '66'));
+        g.addColorStop(1, 'transparent');
+        ctx!.fillStyle = g;
+        ctx!.beginPath();
+        ctx!.arc(x, y, n.r * 5, 0, Math.PI * 2);
+        ctx!.fill();
+
+        ctx!.beginPath();
+        ctx!.arc(x, y, n.r, 0, Math.PI * 2);
+        ctx!.fillStyle = n.color;
+        ctx!.fill();
+
+        if (n.hub) {
+          ctx!.beginPath();
+          ctx!.arc(x, y, n.r + 5 + Math.sin(t + n.ph) * 1.2, 0, Math.PI * 2);
+          ctx!.strokeStyle = n.color + '44';
+          ctx!.lineWidth = 1;
+          ctx!.stroke();
+
+          if (n.label) {
+            ctx!.fillStyle = 'rgba(232,232,240,0.6)';
+            ctx!.fillText(n.label, x + n.r + 9, y + 3);
+          }
+        }
       }
+
+      ctx!.fillStyle = 'rgba(245,181,68,0.35)';
+      ctx!.font = "10px ui-monospace, 'JetBrains Mono', monospace";
+      ctx!.fillText('SYSTEMS MAP · INDIA · INDUSTRIAL LAYER', 22, h - 20);
+      ctx!.fillStyle = 'rgba(129,140,248,0.32)';
+      ctx!.fillText(`DEPENDENCY NODES ${nodes.length} · EDGES ${edges.length}`, 22, 30);
 
       animId = requestAnimationFrame(draw);
     }
@@ -197,15 +212,8 @@ export function HeroCanvas() {
   return (
     <canvas
       ref={canvasRef}
-      id="hero-canvas"
-      style={{
-        position: 'absolute',
-        inset: 0,
-        width: '100%',
-        height: '100%',
-        display: 'block',
-        zIndex: 0,
-      }}
+      id="systems-canvas"
+      style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', display: 'block', zIndex: 0 }}
       aria-hidden="true"
     />
   );
