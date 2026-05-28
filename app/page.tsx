@@ -6,6 +6,7 @@ import { ThemeIcon, FeaturedTopology } from './components/ThemeIcon';
 import { reports, getReport } from './reports/data';
 import { signals } from './signals/data';
 import { themes } from './research/data';
+import { briefings as allBriefings } from './briefings/data';
 
 export const metadata: Metadata = {
   title: 'Strategic intelligence on India’s industrial systems',
@@ -14,11 +15,7 @@ export const metadata: Metadata = {
 };
 
 const featured = getReport('india-fab-ecosystem')!;
-const briefings = [
-  { date: '22 May 2026', title: 'Reading India’s Semiconductor Incentive Architecture', tag: 'Executive brief', read: '6 min' },
-  { date: '09 May 2026', title: 'Five Constraints on the 2026–28 Fab Ramp', tag: 'Strategic note', read: '5 min' },
-  { date: '28 Apr 2026', title: 'The Corridor Logic of Industrial Policy', tag: 'Framework', read: '7 min' },
-];
+const briefings = allBriefings.slice(0, 3);
 
 export default function HomePage() {
   return (

@@ -140,7 +140,7 @@ if (opts.upload) {
 const dataTsPath = join(REPO, 'app', 'reports', 'data.ts');
 let dataTs = readFileSync(dataTsPath, 'utf8');
 const tsEntry = renderTsEntry(cfg);
-dataTs = upsertInArrayLiteral(dataTs, 'const baseReports: ReportMeta[] = [', slug, tsEntry);
+dataTs = upsertInArrayLiteral(dataTs, 'const baseReports: ReportMeta[] = [', 'slug', slug, tsEntry);
 writeFileSync(dataTsPath, dataTs);
 ok(`app/reports/data.ts: ${dataTs.includes(`slug: '${slug}'`) ? 'entry present' : 'INSERT FAILED'}`);
 
@@ -152,6 +152,27 @@ if (cfg.access === 'paid') {
   shared = upsertInObjectLiteral(shared, 'export const REPORTS = {', slug, jsEntry);
   writeFileSync(sharedPath, shared);
   ok(`functions/api/_shared.js: entry upserted`);
+}
+
+// ── 7b. Optional: inject signal entry into app/signals/data.ts ───────────
+if (cfg.signal) {
+  const sigPath = join(REPO, 'app', 'signals', 'data.ts');
+  let s = readFileSync(sigPath, 'utf8');
+  const sigSlug = cfg.signal.slug || `${cfg.slug}-launch`;
+  const entry = renderSignalEntry(cfg, cfg.signal, sigSlug);
+  s = upsertInArrayLiteral(s, 'export const signals: SignalMeta[] = [', 'slug', sigSlug, entry);
+  writeFileSync(sigPath, s);
+  ok(`app/signals/data.ts: signal '${sigSlug}' upserted`);
+}
+
+// ── 7c. Optional: inject briefing entry into app/briefings/data.ts ───────
+if (cfg.briefing) {
+  const bpath = join(REPO, 'app', 'briefings', 'data.ts');
+  let b = readFileSync(bpath, 'utf8');
+  const entry = renderBriefingEntry(cfg.briefing);
+  b = upsertInArrayLiteral(b, 'export const briefings: BriefingMeta[] = [', 'title', cfg.briefing.title, entry);
+  writeFileSync(bpath, b);
+  ok(`app/briefings/data.ts: briefing '${cfg.briefing.title}' upserted`);
 }
 
 // ── 8. Sync metadata (page count + reading time) ─────────────────────────
@@ -213,6 +234,57 @@ function renderJsEntry(c) {
   },`;
 }
 
+function renderSignalEntry(c, sig, sigSlug) {
+  // sig: { no, title?, domain?, date?, dateLabel?, excerpt?, readingTime?, status?, takeaways?, body? }
+  const title = sig.title || `New report: ${c.title}`;
+  const domain = sig.domain || c.domain;
+  const date = sig.date || c.published;
+  const dateLabel = sig.dateLabel || c.publishedLabel;
+  const status = sig.status || 'live';
+  const readingTime = sig.readingTime || '2 min';
+  const excerpt = sig.excerpt || `Our latest report — ${c.title} — is now available.`;
+  const takeaways = sig.takeaways || [];
+  const body = sig.body || [
+    { type: 'p', text: c.summary },
+    { type: 'p', text: `Read the full report at /reports/${c.slug}/.` },
+  ];
+  const fmtBody = (b) => {
+    if (b.type === 'list') {
+      return `      { type: 'list', items: [\n${b.items.map((it) => `        ${q(it)}`).join(',\n')}\n      ] }`;
+    }
+    return `      { type: ${q(b.type)}, text: ${q(b.text)} }`;
+  };
+  const tkBlock = takeaways.length
+    ? `    takeaways: [\n${takeaways.map((t) => `      ${q(t)}`).join(',\n')}\n    ],\n`
+    : '';
+  const bodyBlock = body.length
+    ? `    body: [\n${body.map(fmtBody).join(',\n')}\n    ],\n`
+    : '';
+  return `  {
+    slug: ${q(sigSlug)},
+    no: ${q(sig.no)},
+    title: ${q(title)},
+    domain: ${q(domain)},
+    date: ${q(date)},
+    dateLabel: ${q(dateLabel)},
+    status: ${q(status)},
+    readingTime: ${q(readingTime)},
+    excerpt:
+      ${q(excerpt)},
+${tkBlock}${bodyBlock}  },`;
+}
+
+function renderBriefingEntry(b) {
+  return `  {
+    date: ${q(b.date)},
+    title: ${q(b.title)},
+    tag: ${q(b.tag)},
+    read: ${q(b.read)},
+    blurb:
+      ${q(b.blurb)},
+  },`;
+}
+
 // Single-quote a string for TS/JS source. Uses double quotes if the value contains a single quote.
 function q(s) {
   if (typeof s !== 'string') return JSON.stringify(s);
@@ -228,16 +300,16 @@ function jq(s) { return JSON.stringify(String(s)); }
  *  occurrence inside the array body, then walk backwards counting brackets
  *  to find the enclosing `{` of that entry. This avoids the "first `{`
  *  in body wins" bug a forward regex has. */
-function upsertInArrayLiteral(src, headerLine, slug, newEntry) {
+function upsertInArrayLiteral(src, headerLine, keyField, keyValue, newEntry) {
   const headerIdx = src.indexOf(headerLine);
   if (headerIdx < 0) throw new Error(`Could not find header line in target file: ${headerLine}`);
   const openIdx = src.indexOf('[', headerIdx + headerLine.length - 1);
   const closeIdx = matchBracket(src, openIdx, '[', ']');
   if (closeIdx < 0) throw new Error('Could not find matching ] for array');
 
-  // Locate the slug marker inside the body (try single, then double quotes).
+  // Locate the key-field marker inside the body (try single, then double quotes).
   const bodyStart = openIdx + 1;
-  const markers = [`slug: '${slug}'`, `slug: "${slug}"`];
+  const markers = [`${keyField}: '${keyValue}'`, `${keyField}: "${keyValue}"`];
   let slugAt = -1;
   for (const m of markers) {
     const i = src.indexOf(m, bodyStart);
@@ -254,9 +326,9 @@ function upsertInArrayLiteral(src, headerLine, slug, newEntry) {
 
   // Walk back from slugAt, counting unmatched `}`, to find the entry's `{`.
   const absStart = findEnclosingOpen(src, slugAt, '{', '}', bodyStart);
-  if (absStart < 0) throw new Error(`Could not find enclosing { for slug ${slug}`);
+  if (absStart < 0) throw new Error(`Could not find enclosing { for ${keyField}=${keyValue}`);
   const absEnd = matchBracket(src, absStart, '{', '}');
-  if (absEnd < 0) throw new Error(`Could not find matching } for existing slug ${slug}`);
+  if (absEnd < 0) throw new Error(`Could not find matching } for existing ${keyField}=${keyValue}`);
   // Expand the slice to the start of the line containing `{` so we don't
   // double-indent on re-runs (newEntry already starts with its own indent).
   let lineStart = absStart;

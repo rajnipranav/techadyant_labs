@@ -17,5 +17,25 @@
     "pdf": "D:/techadyant/labs/Research Reports/YOUR FOLDER/your-report-slug.pdf",
     "preview": "D:/techadyant/labs/Research Reports/YOUR FOLDER/your-report-slug-preview.pdf",
     "cover": "D:/techadyant/labs/Research Reports/YOUR FOLDER/your-report-slug.jpg"
+  },
+
+  "_optional_signal": "Remove the underscore prefix to ALSO inject a signal entry announcing this report",
+  "_signal": {
+    "no": "S-005",
+    "excerpt": "1-2 sentences for the signals index card.",
+    "takeaways": [
+      "First takeaway as a single sentence.",
+      "Second takeaway.",
+      "Third takeaway."
+    ]
+  },
+
+  "_optional_briefing": "Remove the underscore prefix to ALSO add a briefing entry referencing this report",
+  "_briefing": {
+    "date": "15 Jun 2026",
+    "title": "A Briefing Title Linked to This Report",
+    "tag": "Executive brief",
+    "read": "5 min",
+    "blurb": "A 1-2 sentence blurb that appears on the briefings index and the homepage."
   }
 }
