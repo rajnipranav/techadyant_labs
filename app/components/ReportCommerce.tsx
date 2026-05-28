@@ -64,18 +64,16 @@ export function ReportCommerceProvider({
       const headers: Record<string, string> = {};
       if (access === 'paid' && accessToken) headers.Authorization = `Bearer ${accessToken}`;
       const res = await fetch(`/api/download?report=${encodeURIComponent(slug)}`, { headers });
-      if (!res.ok) {
-        let text = 'Download is not available.';
-        try { const d = await res.json(); if (d?.message) text = d.message; } catch {}
+      let data: any = null;
+      try { data = await res.json(); } catch {}
+      if (!res.ok || !data?.url) {
+        const text = (data && data.message) || 'Download is not available.';
         setMessage({ kind: 'error', text });
         return;
       }
-      const blob = await res.blob();
-      const u = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = u; a.download = `${slug}.pdf`;
-      document.body.appendChild(a); a.click(); a.remove();
-      URL.revokeObjectURL(u);
+      // Navigate to the short-lived signed URL. Supabase serves it with
+      // Content-Disposition: attachment so the browser triggers a download.
+      window.location.assign(data.url);
     } catch {
       setMessage({ kind: 'error', text: 'Something went wrong starting the download.' });
     } finally { setBusy(false); }
