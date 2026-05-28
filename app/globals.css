@@ -1367,3 +1367,6 @@ footer { padding: 48px 0 40px; border-top: 1px solid var(--border); color: var(-
 .report-card-price.is-free { color: var(--signal-live); }
 .report-card .report-card-cta { font-family: var(--font-jetbrains, monospace); font-size: 12px; letter-spacing: .06em; color: var(--primary-bright); display: inline-flex; align-items: center; gap: 6px; transition: gap .2s var(--ease); }
 .report-card:hover .report-card-cta { gap: 11px; }
+
+/* Featured card cover image (homepage) */
+.featured-visual .featured-cover-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; z-index: 1; }

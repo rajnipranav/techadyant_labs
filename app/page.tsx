@@ -93,7 +93,11 @@ export default function HomePage() {
         <Link href={`/reports/${featured.slug}`} className="featured" aria-label={featured.title}>
           <div className="featured-visual">
             <span className="featured-tag">★ Featured</span>
-            <FeaturedTopology />
+            {featured.cover ? (
+              <img className="featured-cover-img" src={featured.cover} alt={`${featured.title} — cover`} />
+            ) : (
+              <FeaturedTopology />
+            )}
           </div>
           <div className="featured-body">
             <div className="featured-edition">
