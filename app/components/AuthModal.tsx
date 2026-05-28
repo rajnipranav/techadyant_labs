@@ -8,6 +8,7 @@ export function AuthModal() {
   const [email, setEmail] = useState('');
   const [state, setState] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
   const [err, setErr] = useState('');
+  const googleEnabled = process.env.NEXT_PUBLIC_ENABLE_GOOGLE_AUTH === 'true';
 
   if (!signInOpen) return null;
 
@@ -47,11 +48,14 @@ export function AuthModal() {
           </div>
         ) : (
           <>
-            <button className="auth-google" onClick={google} type="button">
-              <span className="g-mark" aria-hidden="true">G</span> Continue with Google
-            </button>
-
-            <div className="auth-divider"><span>or</span></div>
+            {googleEnabled && (
+              <>
+                <button className="auth-google" onClick={google} type="button">
+                  <span className="g-mark" aria-hidden="true">G</span> Continue with Google
+                </button>
+                <div className="auth-divider"><span>or</span></div>
+              </>
+            )}
 
             <form onSubmit={sendLink} className="auth-form">
               <label className="auth-label">Email address</label>

@@ -44,7 +44,10 @@ export async function onRequestPost(context) {
     }),
   });
   if (!rzpRes.ok) {
-    return json(502, { error: 'razorpay_error', status: rzpRes.status });
+    let detail = '';
+    try { const e = await rzpRes.json(); detail = e?.error?.description || JSON.stringify(e); }
+    catch { detail = `HTTP ${rzpRes.status}`; }
+    return json(502, { error: 'razorpay_error', status: rzpRes.status, message: `Payment setup failed: ${detail}` });
   }
   const order = await rzpRes.json();
 
