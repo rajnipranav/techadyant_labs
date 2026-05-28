@@ -41,6 +41,7 @@ export const reports: ReportMeta[] = [
     currency: 'INR',
     hasPdf: true,
     pages: 28,
+    cover: '/covers/india-fab-ecosystem.jpg',
   },
   {
     slug: 'osat-and-the-packaging-frontier',
