@@ -1,17 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { reports, getReport } from '../data';
+import { reports, getReport, formatPrice } from '../data';
+import { ReportCommerceProvider } from '../../components/ReportCommerce';
+import { ReportAccess } from '../../components/ReportAccess';
+import { PremiumBody } from '../../components/PremiumBody';
 import { ReportReader, type TocItem } from '../../components/ReportReader';
-import {
-  ReportContent as FabContent,
-  toc as fabToc,
-} from '../content/india-fab-ecosystem';
+import { ReportContent as FabContent, toc as fabToc } from '../content/india-fab-ecosystem';
 
-interface ReportModule {
-  toc: TocItem[];
-  Content: () => React.ReactElement;
-}
+interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
 const registry: Record<string, ReportModule> = {
   'india-fab-ecosystem': { toc: fabToc, Content: FabContent },
@@ -21,16 +18,11 @@ export function generateStaticParams() {
   return reports.map((r) => ({ slug: r.slug }));
 }
 
-export async function generateMetadata(
-  { params }: { params: Promise<{ slug: string }> }
-): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const r = getReport(slug);
   if (!r) return {};
-  return {
-    title: r.title,
-    description: r.summary,
-  };
+  return { title: r.title, description: r.summary };
 }
 
 export default async function ReportPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -39,6 +31,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
   if (!meta) notFound();
 
   const mod = registry[slug];
+  const published = meta.status === 'published';
 
   return (
     <>
@@ -61,24 +54,39 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
         </div>
       </header>
 
-      {mod ? (
-        <ReportReader toc={mod.toc} title={meta.title}>
-          <mod.Content />
-        </ReportReader>
+      {published ? (
+        <ReportCommerceProvider
+          slug={meta.slug}
+          access={meta.access}
+          priceLabel={formatPrice(meta)}
+          title={meta.title}
+        >
+          <section className="wrap-narrow" style={{ paddingTop: 40, paddingBottom: 8 }}>
+            <ReportAccess pages={meta.pages} readingTime={meta.readingTime} />
+          </section>
+
+          {mod ? (
+            <ReportReader toc={mod.toc} title={meta.title}>
+              <mod.Content />
+              {meta.access === 'paid' ? <PremiumBody /> : null}
+            </ReportReader>
+          ) : (
+            <section className="wrap-narrow" style={{ paddingTop: 24 }}>
+              <p className="serif" style={{ color: 'var(--text-muted)' }}>The full report is coming online shortly.</p>
+            </section>
+          )}
+        </ReportCommerceProvider>
       ) : (
         <section className="wrap-narrow" style={{ paddingTop: 56 }}>
           <div className="exec-summary">
             <div className="es-label">Forthcoming</div>
             <p className="serif" style={{ fontSize: 17 }}>{meta.summary}</p>
-            <p style={{ marginTop: 12 }}>
-              This report is in preparation. Subscribe to be notified when it publishes.
-            </p>
+            <p style={{ marginTop: 12 }}>This report is in preparation. Subscribe to be notified when it publishes.</p>
           </div>
           <Link href="/#subscribe" className="btn-ed btn-ed-primary">Subscribe for updates <span className="arr">→</span></Link>
         </section>
       )}
 
-      {/* Report CTA */}
       <div className="report-cta">
         <div className="report-cta-inner">
           <div>

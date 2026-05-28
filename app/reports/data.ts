@@ -1,3 +1,5 @@
+export type AccessTier = 'free' | 'paid';
+
 export interface ReportMeta {
   slug: string;
   title: string;
@@ -10,6 +12,13 @@ export interface ReportMeta {
   status: 'published' | 'forthcoming';
   summary: string;
   accent: string;          // hex
+
+  /** Commerce */
+  access: AccessTier;      // 'free' => downloadable without registration; 'paid' => requires purchase
+  price?: number;          // INR (whole rupees), required when access === 'paid'
+  currency?: 'INR';
+  hasPdf: boolean;         // whether a downloadable PDF exists in private storage
+  pages?: number;          // PDF page count (display only)
 }
 
 export const reports: ReportMeta[] = [
@@ -26,6 +35,11 @@ export const reports: ReportMeta[] = [
     accent: '#F5B544',
     summary:
       'India’s semiconductor push is usually told as a story about chips. It is better understood as a story about land, water, power, packaging and people — and about who captures the value when a state decides to manufacture its way up the technology stack.',
+    access: 'paid',
+    price: 4900,
+    currency: 'INR',
+    hasPdf: true,
+    pages: 28,
   },
   {
     slug: 'osat-and-the-packaging-frontier',
@@ -40,6 +54,10 @@ export const reports: ReportMeta[] = [
     accent: '#38e1c4',
     summary:
       'Back-end assembly, test and advanced packaging is where a large share of near-term semiconductor employment and value addition will accrue in India. A structural look at the OSAT layer.',
+    access: 'paid',
+    price: 4900,
+    currency: 'INR',
+    hasPdf: false,
   },
   {
     slug: 'industrial-water-economy',
@@ -54,7 +72,17 @@ export const reports: ReportMeta[] = [
     accent: '#6366F1',
     summary:
       'Ultrapure water is a precondition for advanced manufacturing. This report maps the water dependencies forming around India’s emerging industrial corridors and the second-order risks they create.',
+    access: 'paid',
+    price: 4900,
+    currency: 'INR',
+    hasPdf: false,
   },
 ];
 
 export const getReport = (slug: string) => reports.find((r) => r.slug === slug);
+
+export function formatPrice(r: ReportMeta): string {
+  if (r.access === 'free') return 'Free';
+  if (!r.price) return '';
+  return '₹' + r.price.toLocaleString('en-IN');
+}

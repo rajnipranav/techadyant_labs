@@ -1194,4 +1194,106 @@ footer { padding: 48px 0 40px; border-top: 1px solid var(--border); color: var(-
 .pub-footer-bottom p, .pub-footer-bottom a { font-size: 12.5px; color: var(--text-dim); }
 .pub-footer-bottom .tricolor { display: inline-block; width: 44px; height: 3px; border-radius: 2px; background: linear-gradient(90deg, var(--tri-saffron) 0 33.3%, #fff 33.3% 66.6%, var(--tri-green) 66.6% 100%); vertical-align: middle; margin-right: 10px; }
 
+/* Brand monogram image (masthead + footer) */
+.masthead-brand .mark-img { height: 24px; width: auto; display: block; }
+.pub-footer .pf-brand .mark-img { height: 26px; width: auto; display: inline-block; vertical-align: middle; }
 
+/* =====================================================================
+   Report access / purchase panel
+   ===================================================================== */
+.report-access {
+  border: 1px solid var(--rule-strong); border-radius: 14px;
+  padding: 24px 26px; display: flex; flex-direction: column; gap: 4px;
+  background: linear-gradient(135deg, rgba(99,102,241,0.07), rgba(245,181,68,0.05));
+}
+.report-access .ra-head { display: flex; align-items: baseline; gap: 14px; }
+.report-access .ra-price { font-family: var(--font-inter, sans-serif); font-size: 28px; font-weight: 700; letter-spacing: -0.02em; color: var(--brass-cream); }
+.report-access .ra-badge { font-family: var(--font-jetbrains, monospace); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--text-dim); border: 1px solid var(--rule); border-radius: 999px; padding: 3px 9px; }
+.report-access .ra-meta { font-family: var(--font-jetbrains, monospace); font-size: 12px; color: var(--text-muted); letter-spacing: .04em; margin: 4px 0 8px; }
+.report-access .ra-btn { margin-top: 6px; align-self: flex-start; }
+.report-access .ra-fine { font-size: 12.5px; color: var(--text-dim); margin-top: 6px; }
+.report-access .ra-msg { font-size: 13.5px; color: var(--signal-live); margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--rule); }
+.report-access .ra-msg-error { color: #f08a8a; }
+
+/* =====================================================================
+   Authentication — masthead controls, modal, account
+   ===================================================================== */
+.auth-pill {
+  padding: 7px 16px; border: 1px solid var(--rule-strong); border-radius: 7px;
+  font-size: 13px; font-weight: 500; color: var(--text); background: transparent;
+  cursor: pointer; transition: all .2s var(--ease);
+}
+.auth-pill:hover { border-color: var(--brass); color: var(--edition); background: rgba(245,181,68,0.06); }
+.auth-pill-ghost { color: var(--text-dim); cursor: default; }
+.auth-account { display: flex; align-items: center; gap: 10px; }
+.auth-avatar {
+  width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, var(--primary), var(--brass)); color: #0b0b14;
+  font-weight: 700; font-size: 13px; text-decoration: none;
+}
+.auth-signout { background: none; border: none; color: var(--text-dim); font-size: 12.5px; cursor: pointer; transition: color .18s; }
+.auth-signout:hover { color: var(--text); }
+
+.auth-overlay {
+  position: fixed; inset: 0; z-index: 9999; display: flex; align-items: center; justify-content: center;
+  background: rgba(8,8,14,0.78); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); padding: 20px;
+}
+.auth-card {
+  position: relative; width: 100%; max-width: 420px; background: var(--surface);
+  border: 1px solid var(--rule-strong); border-radius: 16px; padding: 36px 34px;
+  box-shadow: 0 30px 90px rgba(0,0,0,0.6);
+}
+.auth-close {
+  position: absolute; top: 14px; right: 16px; background: none; border: none;
+  color: var(--text-dim); font-size: 24px; line-height: 1; cursor: pointer; transition: color .18s;
+}
+.auth-close:hover { color: var(--text); }
+.auth-kicker { font-family: var(--font-jetbrains, monospace); font-size: 10.5px; letter-spacing: .22em; text-transform: uppercase; color: var(--edition); margin-bottom: 12px; }
+.auth-title { font-size: 23px; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 8px; }
+.auth-sub { font-family: var(--font-serif); font-size: 15px; line-height: 1.55; color: var(--text-muted); margin-bottom: 26px; }
+.auth-note { font-size: 14px; color: var(--text-muted); }
+.auth-google {
+  width: 100%; display: flex; align-items: center; justify-content: center; gap: 10px;
+  padding: 12px; border: 1px solid var(--rule-strong); border-radius: 9px; background: var(--bg);
+  color: var(--text); font-size: 14px; font-weight: 500; cursor: pointer; transition: all .2s var(--ease);
+}
+.auth-google:hover { border-color: var(--primary-bright); background: var(--surface-2); }
+.auth-google .g-mark { width: 20px; height: 20px; border-radius: 50%; background: #fff; color: #4285F4; font-weight: 700; font-size: 13px; display: flex; align-items: center; justify-content: center; }
+.auth-divider { display: flex; align-items: center; gap: 12px; margin: 20px 0; color: var(--text-dim); font-size: 12px; }
+.auth-divider::before, .auth-divider::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+.auth-form { display: flex; flex-direction: column; gap: 10px; }
+.auth-label { font-family: var(--font-jetbrains, monospace); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--text-muted); }
+.auth-input {
+  padding: 12px 14px; background: var(--bg); border: 1px solid var(--rule-strong); border-radius: 9px;
+  color: var(--text); font-family: inherit; font-size: 14.5px; transition: border-color .2s;
+}
+.auth-input:focus { outline: none; border-color: var(--brass); }
+.auth-submit { width: 100%; justify-content: center; margin-top: 4px; }
+.auth-error { color: #f08a8a; font-size: 13px; margin-top: 12px; }
+.auth-fine { font-size: 12px; color: var(--text-dim); margin-top: 16px; line-height: 1.5; }
+.auth-sent { text-align: center; padding: 8px 0; }
+.auth-sent-mark { width: 46px; height: 46px; border-radius: 50%; margin: 0 auto 16px; display: flex; align-items: center; justify-content: center; background: rgba(56,225,196,0.14); color: var(--signal-live); font-size: 22px; }
+.auth-sent p { font-family: var(--font-serif); font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 10px; }
+
+.account-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; border-bottom: 1px solid var(--rule); flex-wrap: wrap; }
+.account-email { font-size: 18px; font-weight: 600; letter-spacing: -0.01em; margin-top: 4px; }
+
+/* =====================================================================
+   Premium paywall (in-article gate)
+   ===================================================================== */
+.premium-gate { position: relative; margin-top: 40px; }
+.premium-fade { height: 140px; margin-top: -160px; margin-bottom: 20px; pointer-events: none;
+  background: linear-gradient(to bottom, transparent, var(--bg) 92%); }
+.premium-card {
+  border: 1px solid var(--rule-strong); border-radius: 16px; padding: clamp(28px,4vw,44px);
+  background: linear-gradient(135deg, rgba(99,102,241,0.08), rgba(245,181,68,0.05));
+  text-align: center; position: relative;
+}
+.premium-card .pg-kicker { font-family: var(--font-jetbrains, monospace); font-size: 10.5px; letter-spacing: .22em; text-transform: uppercase; color: var(--edition); margin-bottom: 12px; }
+.premium-card .pg-title { font-family: var(--font-inter, sans-serif); font-size: clamp(22px,2.4vw,28px); font-weight: 600; letter-spacing: -0.02em; margin-bottom: 10px; }
+.premium-card .pg-sub { font-family: var(--font-serif); font-size: 16px; line-height: 1.6; color: var(--text-muted); max-width: 48ch; margin: 0 auto 22px; }
+.premium-card .pg-locked { list-style: none; padding: 0; margin: 0 auto 26px; max-width: 360px; text-align: left; display: grid; gap: 8px; }
+.premium-card .pg-locked li { font-size: 14px; color: var(--text-muted); display: flex; align-items: center; gap: 10px; font-family: var(--font-jetbrains, monospace); letter-spacing: .02em; }
+.premium-card .pg-lock { opacity: .7; }
+.premium-card .pg-btn { justify-content: center; }
+.premium-card .pg-fine { font-size: 12.5px; color: var(--text-dim); margin-top: 14px; }
