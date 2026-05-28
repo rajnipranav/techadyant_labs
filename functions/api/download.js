@@ -39,15 +39,19 @@ export async function onRequestGet(context) {
       Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
     },
   });
-  if (!upstream.ok) return json(502, { error: 'storage_error', status: upstream.status });
+  if (!upstream.ok) {
+    let detail = '';
+    try { detail = (await upstream.text()).slice(0, 500); } catch {}
+    return json(502, {
+      error: 'storage_error',
+      status: upstream.status,
+      bucket: env.REPORTS_BUCKET,
+      object: entry.object,
+      detail,
+    });
+  }
 
   return new Response(upstream.body, {
     status: 200,
     headers: {
       'content-type': 'application/pdf',
-      'content-disposition': `attachment; filename="${entry.filename || slug + '.pdf'}"`,
-      'cache-control': 'private, no-store',
-      'x-content-type-options': 'nosniff',
-    },
-  });
-}
