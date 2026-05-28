@@ -6,15 +6,15 @@
  *   - paid reports: require Authorization: Bearer <supabase token> AND a
  *     verified entitlement row. Fail-closed otherwise.
  *
- * Architecture: after the entitlement check, we ask Supabase Storage to mint
- * a short-lived signed URL (60s) for the private object, then 302-redirect
- * the browser to it. The signed URL is one-shot, time-limited, and only
- * issued to authorized callers — there is no path to storage that bypasses
- * the entitlement check, and the Worker never has to stream the PDF itself
- * (which avoids Pages Function CPU/wallclock limits on large files).
+ * After auth + entitlement, we ask Supabase Storage to mint a 60-second
+ * signed URL for the private object and return JSON `{ url, filename }`.
+ * The browser then navigates to that URL, which Supabase serves with
+ * Content-Disposition: attachment (forced via ?download=<filename>), so
+ * the PDF is downloaded directly. The Worker never streams the PDF, which
+ * avoids Pages Function CPU/wallclock limits.
  *
- * GET /api/download?report=<slug>&debug=1  →  returns JSON instead of redirect
- * (useful for diagnosing failures from the browser network tab).
+ * The signed URL is one-shot, time-limited, and only issued to authorized
+ * callers — there is no path to storage that bypasses the entitlement check.
  */
 import { REPORTS, json, getUserFromRequest, hasEntitlement } from './_shared.js';
 
@@ -23,7 +23,6 @@ export async function onRequestGet(context) {
   try {
     const url = new URL(request.url);
     const slug = url.searchParams.get('report');
-    const debug = url.searchParams.get('debug') === '1';
 
     const entry = slug && REPORTS[slug];
     if (!entry) return json(404, { error: 'not_found' });
@@ -44,7 +43,7 @@ export async function onRequestGet(context) {
       return json(503, { error: 'storage_unconfigured', message: 'Storage is not configured yet.', have });
     }
 
-    // Ask Supabase to mint a 60-second signed URL for this exact object.
+    const filename = entry.filename || `${slug}.pdf`;
     const signEndpoint =
       `${env.SUPABASE_URL}/storage/v1/object/sign/${env.REPORTS_BUCKET}/${encodeURIComponent(entry.object)}`;
 
@@ -84,17 +83,16 @@ export async function onRequestGet(context) {
     try { signed = await signRes.json(); }
     catch { return json(502, { error: 'sign_bad_json', message: 'Storage returned non-JSON.' }); }
 
-    // Supabase returns either { signedURL: "/object/sign/..." } or { signedUrl: "..." }.
     const path = signed.signedURL || signed.signedUrl || signed.signed_url;
     if (!path) return json(502, { error: 'sign_no_url', body: signed });
 
-    const finalUrl = `${env.SUPABASE_URL}/storage/v1${path}`;
+    // Build the final URL. Supabase supports `?download=<name>` to force
+    // Content-Disposition: attachment with the given filename.
+    const base = `${env.SUPABASE_URL}/storage/v1${path}`;
+    const sep = base.includes('?') ? '&' : '?';
+    const finalUrl = `${base}${sep}download=${encodeURIComponent(filename)}`;
 
-    if (debug) {
-      return json(200, { ok: true, redirect: finalUrl, bucket: env.REPORTS_BUCKET, object: entry.object });
-    }
-
-    return Response.redirect(finalUrl, 302);
+    return json(200, { url: finalUrl, filename, expiresIn: 60 });
   } catch (e) {
     return json(500, {
       error: 'exception',
