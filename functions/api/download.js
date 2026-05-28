@@ -6,9 +6,15 @@
  *   - paid reports: require Authorization: Bearer <supabase token> AND a
  *     verified entitlement row. Fail-closed otherwise.
  *
- * The browser never receives a storage URL: we read the private object with the
- * service-role key and stream the bytes back. There is no path to storage that
- * bypasses the entitlement check.
+ * Architecture: after the entitlement check, we ask Supabase Storage to mint
+ * a short-lived signed URL (60s) for the private object, then 302-redirect
+ * the browser to it. The signed URL is one-shot, time-limited, and only
+ * issued to authorized callers — there is no path to storage that bypasses
+ * the entitlement check, and the Worker never has to stream the PDF itself
+ * (which avoids Pages Function CPU/wallclock limits on large files).
+ *
+ * GET /api/download?report=<slug>&debug=1  →  returns JSON instead of redirect
+ * (useful for diagnosing failures from the browser network tab).
  */
 import { REPORTS, json, getUserFromRequest, hasEntitlement } from './_shared.js';
 
@@ -17,6 +23,7 @@ export async function onRequestGet(context) {
   try {
     const url = new URL(request.url);
     const slug = url.searchParams.get('report');
+    const debug = url.searchParams.get('debug') === '1';
 
     const entry = slug && REPORTS[slug];
     if (!entry) return json(404, { error: 'not_found' });
@@ -37,47 +44,57 @@ export async function onRequestGet(context) {
       return json(503, { error: 'storage_unconfigured', message: 'Storage is not configured yet.', have });
     }
 
-    const objectUrl =
-      `${env.SUPABASE_URL}/storage/v1/object/${env.REPORTS_BUCKET}/${encodeURIComponent(entry.object)}`;
+    // Ask Supabase to mint a 60-second signed URL for this exact object.
+    const signEndpoint =
+      `${env.SUPABASE_URL}/storage/v1/object/sign/${env.REPORTS_BUCKET}/${encodeURIComponent(entry.object)}`;
 
-    let upstream;
+    let signRes;
     try {
-      upstream = await fetch(objectUrl, {
+      signRes = await fetch(signEndpoint, {
+        method: 'POST',
         headers: {
           apikey: env.SUPABASE_SERVICE_ROLE_KEY,
           Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
+          'content-type': 'application/json',
         },
+        body: JSON.stringify({ expiresIn: 60 }),
       });
     } catch (fe) {
       return json(502, {
-        error: 'fetch_failed',
+        error: 'sign_fetch_failed',
         message: fe && fe.message ? fe.message : String(fe),
-        bucket: env.REPORTS_BUCKET,
-        object: entry.object,
+        endpoint: signEndpoint,
       });
     }
 
-    if (!upstream.ok) {
+    if (!signRes.ok) {
       let detail = '';
-      try { detail = (await upstream.text()).slice(0, 500); } catch {}
+      try { detail = (await signRes.text()).slice(0, 500); } catch {}
       return json(502, {
-        error: 'storage_error',
-        status: upstream.status,
+        error: 'sign_error',
+        status: signRes.status,
         bucket: env.REPORTS_BUCKET,
         object: entry.object,
+        endpoint: signEndpoint,
         detail,
       });
     }
 
-    return new Response(upstream.body, {
-      status: 200,
-      headers: {
-        'content-type': 'application/pdf',
-        'content-disposition': `attachment; filename="${entry.filename || slug + '.pdf'}"`,
-        'cache-control': 'private, no-store',
-        'x-content-type-options': 'nosniff',
-      },
-    });
+    let signed;
+    try { signed = await signRes.json(); }
+    catch { return json(502, { error: 'sign_bad_json', message: 'Storage returned non-JSON.' }); }
+
+    // Supabase returns either { signedURL: "/object/sign/..." } or { signedUrl: "..." }.
+    const path = signed.signedURL || signed.signedUrl || signed.signed_url;
+    if (!path) return json(502, { error: 'sign_no_url', body: signed });
+
+    const finalUrl = `${env.SUPABASE_URL}/storage/v1${path}`;
+
+    if (debug) {
+      return json(200, { ok: true, redirect: finalUrl, bucket: env.REPORTS_BUCKET, object: entry.object });
+    }
+
+    return Response.redirect(finalUrl, 302);
   } catch (e) {
     return json(500, {
       error: 'exception',
