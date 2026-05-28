@@ -1,0 +1,21 @@
+{
+  "slug": "your-report-slug",
+  "title": "Your Report Title",
+  "subtitle": "A descriptive subtitle, often a single line.",
+  "domain": "Semiconductor Ecosystems",
+  "edition": "Edition 02 · v1.0",
+  "published": "2026-06-15",
+  "publishedLabel": "June 2026",
+  "summary": "A 1-2 sentence summary that appears on cards and search results.",
+  "accent": "#38e1c4",
+  "status": "published",
+  "access": "paid",
+  "price": 4900,
+  "previewPages": 12,
+  "downloadFilename": "Friendly-Filename-for-Buyers-Techadyant-Labs.pdf",
+  "source": {
+    "pdf": "D:/techadyant/labs/Research Reports/YOUR FOLDER/your-report-slug.pdf",
+    "preview": "D:/techadyant/labs/Research Reports/YOUR FOLDER/your-report-slug-preview.pdf",
+    "cover": "D:/techadyant/labs/Research Reports/YOUR FOLDER/your-report-slug.jpg"
+  }
+}
