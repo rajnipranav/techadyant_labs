@@ -3,7 +3,7 @@
  * Read every PDF under <root> and produce app/reports/report-meta.json:
  *   { "<slug>": { pages, words, readingMinutes, readingTime, syncedAt } }
  *
- * Slug is the PDF filename without .pdf, lowercased. Match the same slug used
+ * Slug = PDF filename without ".pdf", lowercased. Match the same slug used
  * in app/reports/data.ts and functions/api/_shared.js.
  *
  * Usage:
@@ -11,7 +11,12 @@
  *   npm run sync-meta -- "D:/path/to/Research Reports"
  *   REPORTS_PDF_DIR="D:/..." npm run sync-meta
  *
- * Reading time uses 180 words/min (technical/analytical content).
+ * Reading speed: 220 words/minute (a publication-friendly speed for dense
+ * but well-structured analytical writing). Adjust WPM below if needed.
+ *
+ * readingTime format:
+ *   < 60 min  →  "X min read"
+ *   ≥ 60 min  →  "Xh Ym read"  (omits "0m" so "2h read" is possible)
  */
 import { readFileSync, writeFileSync, statSync, readdirSync, existsSync, mkdirSync } from 'node:fs';
 import { join, resolve, basename, dirname } from 'node:path';
@@ -23,7 +28,14 @@ const pdfParse = require('pdf-parse/lib/pdf-parse.js');
 const DEFAULT_ROOT = 'D:\\techadyant\\labs\\Research Reports';
 const ROOT = process.argv[2] || process.env.REPORTS_PDF_DIR || DEFAULT_ROOT;
 const OUT = resolve(process.cwd(), 'app/reports/report-meta.json');
-const WPM = 180;
+const WPM = 220;
+
+function formatReadingTime(minutes) {
+  if (minutes < 60) return `${minutes} min read`;
+  const h = Math.floor(minutes / 60);
+  const m = minutes % 60;
+  return m === 0 ? `${h}h read` : `${h}h ${m}m read`;
+}
 
 function walk(dir, acc = []) {
   for (const name of readdirSync(dir)) {
@@ -61,15 +73,17 @@ async function main() {
       const text = (data.text || '').replace(/\s+/g, ' ').trim();
       const words = text ? text.split(' ').length : 0;
       const minutes = Math.max(1, Math.round(words / WPM));
+      const readingTime = formatReadingTime(minutes);
       out[slug] = {
         pages,
         words,
         readingMinutes: minutes,
-        readingTime: `${minutes} min read`,
+        readingTime,
+        wpm: WPM,
         sourceFile: basename(f),
         syncedAt: new Date().toISOString(),
       };
-      console.log(`  ${slug}: ${pages}p, ${words.toLocaleString()}w  ->  ${minutes} min read`);
+      console.log(`  ${slug}: ${pages}p, ${words.toLocaleString()}w  ->  ${readingTime}`);
     } catch (e) {
       console.warn(`  ${slug}: failed (${e.message})`);
     }
