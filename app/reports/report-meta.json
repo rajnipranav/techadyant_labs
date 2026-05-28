@@ -1,2 +1,19 @@
 {
- 
+  "india-fab-ecosystem.pdf": {
+    "pages": 146,
+    "words": 44070,
+    "readingMinutes": 245,
+    "readingTime": "245 min read",
+    "sourceFile": "india-fab-ecosystem.pdf.pdf",
+    "syncedAt": "2026-05-28T04:32:34.071Z"
+  },
+  "india-fab-ecosystem": {
+    "pages": 146,
+    "words": 44070,
+    "readingMinutes": 200,
+    "readingTime": "3h 20m read",
+    "wpm": 220,
+    "sourceFile": "india-fab-ecosystem.pdf",
+    "syncedAt": "2026-05-28T04:59:08.842Z"
+  }
+}
