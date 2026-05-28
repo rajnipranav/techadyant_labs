@@ -1379,3 +1379,40 @@ footer { padding: 48px 0 40px; border-top: 1px solid var(--border); color: var(-
 .auth-alts { display: flex; justify-content: space-between; gap: 12px; margin-top: 16px; flex-wrap: wrap; }
 .auth-altlink { background: none; border: none; color: var(--text-dim); font-size: 12.5px; cursor: pointer; padding: 0; transition: color .18s; font-family: inherit; }
 .auth-altlink:hover { color: var(--primary-bright); }
+
+/* ── Free preview button on report access panel ── */
+.report-access .ra-preview {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--ed-divider, rgba(255, 255, 255, 0.08));
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.report-access .ra-preview-btn {
+  align-self: flex-start;
+  font-size: 13.5px;
+  padding: 8px 16px;
+}
+.report-access .ra-preview-fine {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin: 0;
+  max-width: 56ch;
+}
+
+/* ── "Free preview" pill on report cards ── */
+.rc-preview-pill {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-family: var(--font-jetbrains, monospace);
+  font-size: 10.5px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--signal-live, #38e1c4);
+  border: 1px solid currentColor;
+  background: transparent;
+  vertical-align: middle;
+}

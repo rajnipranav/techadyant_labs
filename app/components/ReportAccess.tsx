@@ -2,12 +2,22 @@
 
 import { useReportCommerce } from './ReportCommerce';
 
+interface Props {
+  pages?: number;
+  readingTime: string;
+  previewObject?: string;
+  previewPages?: number;
+}
+
 /** Top-of-report purchase / download panel. Renders inside ReportCommerceProvider. */
-export function ReportAccess({ pages, readingTime }: { pages?: number; readingTime: string }) {
+export function ReportAccess({ pages, readingTime, previewObject, previewPages }: Props) {
   const { access, priceLabel, entitled, checking, busy, message, purchase, download } = useReportCommerce();
 
   const meta = [pages ? `${pages}-page PDF` : null, readingTime, 'Figures & citations included']
     .filter(Boolean).join(' · ');
+
+  const previewHref = previewObject ? `/previews/${previewObject}` : null;
+  const previewLabel = previewPages ? `Free preview · ${previewPages} pages` : 'Free preview';
 
   return (
     <div className="report-access" data-tier={access}>
@@ -32,13 +42,4 @@ export function ReportAccess({ pages, readingTime }: { pages?: number; readingTi
           <button className="btn-ed btn-ed-primary ra-btn" onClick={purchase} disabled={busy}>
             {busy ? 'Opening checkout…' : `Buy the complete report — ${priceLabel}`} <span className="arr">→</span>
           </button>
-          <p className="ra-fine">One-time purchase · lifetime access · secure checkout via Razorpay.</p>
-        </>
-      )}
-
-      {message && (
-        <p className={`ra-msg ${message.kind === 'error' ? 'ra-msg-error' : ''}`} role="status">{message.text}</p>
-      )}
-    </div>
-  );
-}
+          <

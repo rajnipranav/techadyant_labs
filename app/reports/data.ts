@@ -22,6 +22,10 @@ export interface ReportMeta {
   hasPdf: boolean;         // whether a downloadable PDF exists in private storage
   pages?: number;          // PDF page count (display only) — overridden by report-meta.json when present
   cover?: string;          // optional cover image URL; if absent a branded cover is generated
+
+  /** Free abridged preview (frictionless — no signup). */
+  previewObject?: string;  // filename under /public/previews/ (e.g. "india-fab-ecosystem-preview.pdf")
+  previewPages?: number;   // page count of the preview PDF (display only)
 }
 
 interface SyncedMeta {
@@ -58,6 +62,8 @@ const baseReports: ReportMeta[] = [
     hasPdf: true,
     pages: 28,
     cover: '/covers/india-fab-ecosystem.jpg',
+    previewObject: 'india-fab-ecosystem-preview.pdf',
+    previewPages: 12,
   },
   {
     slug: 'osat-and-the-packaging-frontier',
@@ -103,15 +109,4 @@ export const reports: ReportMeta[] = baseReports.map((r) => {
   if (!m) return r;
   return {
     ...r,
-    pages: m.pages ?? r.pages,
-    readingTime: m.readingTime ?? r.readingTime,
-  };
-});
-
-export const getReport = (slug: string) => reports.find((r) => r.slug === slug);
-
-export function formatPrice(r: ReportMeta): string {
-  if (r.access === 'free') return 'Free';
-  if (!r.price) return '';
-  return '₹' + r.price.toLocaleString('en-IN');
-}
+    pages: m.pages ?? r.pages

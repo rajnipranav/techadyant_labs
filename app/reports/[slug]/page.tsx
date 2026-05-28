@@ -68,7 +68,12 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           title={meta.title}
         >
           <section className="wrap-narrow" style={{ paddingTop: 40, paddingBottom: 8 }}>
-            <ReportAccess pages={meta.pages} readingTime={meta.readingTime} />
+            <ReportAccess
+              pages={meta.pages}
+              readingTime={meta.readingTime}
+              previewObject={meta.previewObject}
+              previewPages={meta.previewPages}
+            />
           </section>
 
           {mod ? (
@@ -99,9 +104,4 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
             <h3>Read the next edition first</h3>
             <p>New reports, signals and briefings on India’s industrial systems — infrequent and independent.</p>
           </div>
-          <Link href="/#subscribe" className="btn-ed btn-ed-primary">Subscribe <span className="arr">→</span></Link>
-        </div>
-      </div>
-    </>
-  );
-}
+          <Link href="/#su
