@@ -1,3 +1,5 @@
+import metaJson from './report-meta.json';
+
 export type AccessTier = 'free' | 'paid';
 
 export interface ReportMeta {
@@ -14,15 +16,29 @@ export interface ReportMeta {
   accent: string;          // hex
 
   /** Commerce */
-  access: AccessTier;      // 'free' => downloadable without registration; 'paid' => requires purchase
+  access: AccessTier;      // 'free' downloadable w/o registration; 'paid' requires purchase
   price?: number;          // INR (whole rupees), required when access === 'paid'
   currency?: 'INR';
   hasPdf: boolean;         // whether a downloadable PDF exists in private storage
-  pages?: number;          // PDF page count (display only)
+  pages?: number;          // PDF page count (display only) — overridden by report-meta.json when present
   cover?: string;          // optional cover image URL; if absent a branded cover is generated
 }
 
-export const reports: ReportMeta[] = [
+interface SyncedMeta {
+  pages?: number;
+  words?: number;
+  readingMinutes?: number;
+  readingTime?: string;
+  sourceFile?: string;
+  syncedAt?: string;
+}
+
+const synced: Record<string, SyncedMeta> = metaJson as Record<string, SyncedMeta>;
+
+/** Static catalogue. Values for `pages` / `readingTime` are fallbacks — the
+ *  real numbers come from app/reports/report-meta.json, written by
+ *  `npm run sync-meta` after a PDF is added/updated. */
+const baseReports: ReportMeta[] = [
   {
     slug: 'india-fab-ecosystem',
     title: 'Who Really Benefits from India’s Fab Ecosystem?',
@@ -80,6 +96,17 @@ export const reports: ReportMeta[] = [
     hasPdf: false,
   },
 ];
+
+// Apply synced PDF metadata over the static defaults.
+export const reports: ReportMeta[] = baseReports.map((r) => {
+  const m = synced[r.slug];
+  if (!m) return r;
+  return {
+    ...r,
+    pages: m.pages ?? r.pages,
+    readingTime: m.readingTime ?? r.readingTime,
+  };
+});
 
 export const getReport = (slug: string) => reports.find((r) => r.slug === slug);
 

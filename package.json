@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sync-meta": "node scripts/sync-report-meta.mjs"
   },
   "dependencies": {
     "next": "^15.3.1",
@@ -29,6 +30,7 @@
     "autoprefixer": "^10.4.21",
     "@tailwindcss/typography": "^0.5.16",
     "eslint": "^9.26.0",
-    "eslint-config-next": "^15.3.1"
+    "eslint-config-next": "^15.3.1",
+    "pdf-parse": "^1.1.1"
   }
 }
