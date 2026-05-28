@@ -1297,3 +1297,73 @@ footer { padding: 48px 0 40px; border-top: 1px solid var(--border); color: var(-
 .premium-card .pg-lock { opacity: .7; }
 .premium-card .pg-btn { justify-content: center; }
 .premium-card .pg-fine { font-size: 12.5px; color: var(--text-dim); margin-top: 14px; }
+
+/* Prominent masthead Sign-in CTA */
+.auth-pill-cta { border-color: var(--brass); color: var(--edition); }
+.auth-pill-cta:hover { background: var(--brass); color: #1a1305; }
+
+/* =====================================================================
+   Report cover (designed, no asset required; supports cover image too)
+   ===================================================================== */
+.report-cover {
+  position: relative; aspect-ratio: 3 / 4; width: 100%; border-radius: 14px; overflow: hidden;
+  border: 1px solid var(--rule-strong);
+  background:
+    radial-gradient(120% 90% at 80% 0%, #1a2742 0%, #0e1422 55%, #0a0e18 100%);
+  display: flex; flex-direction: column; justify-content: space-between;
+  padding: 26px 24px; box-shadow: 0 30px 70px -28px rgba(0,0,0,0.7);
+}
+.report-cover .rc-motif { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0.5; pointer-events: none; }
+.report-cover .rc-top, .report-cover .rc-mid, .report-cover .rc-foot { position: relative; z-index: 2; }
+.report-cover .rc-top { display: flex; align-items: center; gap: 10px; }
+.report-cover .rc-top .rc-mark { width: 22px; height: 22px; }
+.report-cover .rc-top .rc-pub { font-family: var(--font-jetbrains, monospace); font-size: 10px; letter-spacing: .22em; text-transform: uppercase; color: var(--white-dim); }
+.report-cover .rc-domain { display: inline-block; font-family: var(--font-jetbrains, monospace); font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: var(--cover-accent, var(--edition)); border: 1px solid color-mix(in srgb, var(--cover-accent, #F5B544) 40%, transparent); padding: 4px 10px; border-radius: 999px; margin-bottom: 16px; }
+.report-cover .rc-title { font-family: var(--font-inter, sans-serif); font-size: clamp(20px, 2.4vw, 27px); font-weight: 700; line-height: 1.14; letter-spacing: -0.02em; color: #fff; margin-bottom: 12px; }
+.report-cover .rc-sub { font-family: var(--font-serif); font-style: italic; font-size: 14px; line-height: 1.5; color: var(--brass-cream); }
+.report-cover .rc-foot { display: flex; justify-content: space-between; align-items: center; font-family: var(--font-jetbrains, monospace); font-size: 10.5px; letter-spacing: .08em; color: var(--white-faint); padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.1); }
+.report-cover .rc-tricolor { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; z-index: 2; background: linear-gradient(90deg, var(--tri-saffron) 0 33.3%, #fff 33.3% 66.6%, var(--tri-green) 66.6% 100%); opacity: .85; }
+.report-cover-img { width: 100%; height: auto; display: block; border-radius: 14px; border: 1px solid var(--rule-strong); box-shadow: 0 30px 70px -28px rgba(0,0,0,0.7); }
+.report-cover-img.rc-embedded { border: 0; border-radius: 0; box-shadow: none; }
+
+/* Report hero two-column (text + cover) */
+.report-hero-grid { display: grid; grid-template-columns: 1fr 300px; gap: 48px; align-items: start; }
+@media (max-width: 860px) { .report-hero-grid { grid-template-columns: 1fr; gap: 32px; } .report-hero-grid .rhg-cover { max-width: 260px; } }
+.report-hero-grid .rhg-cover { position: relative; }
+
+/* Reports index cover thumbnail */
+.report-row-cover { width: 120px; flex-shrink: 0; }
+@media (max-width: 640px) { .report-row-cover { width: 90px; } }
+
+/* =====================================================================
+   Reports — modern card grid
+   ===================================================================== */
+.report-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 26px; }
+@media (max-width: 520px) { .report-cards { grid-template-columns: 1fr; } }
+.report-card {
+  display: flex; flex-direction: column; text-decoration: none;
+  background: var(--surface); border: 1px solid var(--rule); border-radius: 16px; overflow: hidden;
+  transition: transform .3s var(--ease), border-color .3s var(--ease), box-shadow .3s var(--ease);
+}
+.report-card:hover { transform: translateY(-4px); border-color: var(--rule-strong); box-shadow: 0 24px 54px -26px rgba(0,0,0,0.65); }
+.report-card.is-forthcoming { opacity: 0.66; }
+.report-card.is-forthcoming:hover { transform: none; }
+.report-card .rc-cover-top { position: relative; border-bottom: 1px solid var(--rule); }
+.report-card .rc-cover-top .report-card-badge {
+  position: absolute; top: 12px; right: 12px; z-index: 3;
+  font-family: var(--font-jetbrains, monospace); font-size: 10.5px; letter-spacing: .1em;
+  padding: 5px 10px; border-radius: 999px; backdrop-filter: blur(4px);
+}
+.report-card .badge-price { background: rgba(245,181,68,0.16); border: 1px solid rgba(245,181,68,0.4); color: var(--edition); }
+.report-card .badge-free { background: rgba(56,225,196,0.16); border: 1px solid rgba(56,225,196,0.4); color: var(--signal-live); }
+.report-card .badge-soon { background: rgba(255,255,255,0.06); border: 1px solid var(--rule-strong); color: var(--text-muted); }
+.report-card-body { padding: 22px; display: flex; flex-direction: column; gap: 9px; flex: 1; }
+.report-card-domain { font-family: var(--font-jetbrains, monospace); font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--primary-bright); }
+.report-card h3 { font-size: 19px; font-weight: 600; letter-spacing: -0.015em; line-height: 1.22; color: var(--text); }
+.report-card .rc-card-sub { font-family: var(--font-serif); font-style: italic; font-size: 14px; line-height: 1.45; color: var(--brass-cream); }
+.report-card .rc-card-summary { font-family: var(--font-serif); font-size: 14.5px; line-height: 1.58; color: var(--text-muted); }
+.report-card-foot { margin-top: auto; padding-top: 16px; border-top: 1px solid var(--rule); display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.report-card-price { font-family: var(--font-inter, sans-serif); font-size: 16px; font-weight: 700; letter-spacing: -0.01em; color: var(--brass-cream); }
+.report-card-price.is-free { color: var(--signal-live); }
+.report-card .report-card-cta { font-family: var(--font-jetbrains, monospace); font-size: 12px; letter-spacing: .06em; color: var(--primary-bright); display: inline-flex; align-items: center; gap: 6px; transition: gap .2s var(--ease); }
+.report-card:hover .report-card-cta { gap: 11px; }

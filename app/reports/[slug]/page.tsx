@@ -5,6 +5,7 @@ import { reports, getReport, formatPrice } from '../data';
 import { ReportCommerceProvider } from '../../components/ReportCommerce';
 import { ReportAccess } from '../../components/ReportAccess';
 import { PremiumBody } from '../../components/PremiumBody';
+import { ReportCover } from '../../components/ReportCover';
 import { ReportReader, type TocItem } from '../../components/ReportReader';
 import { ReportContent as FabContent, toc as fabToc } from '../content/india-fab-ecosystem';
 
@@ -37,6 +38,8 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
     <>
       <header className="report-hero">
         <div className="inner">
+          <div className="report-hero-grid">
+          <div>
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
             <Link href="/reports">Reports</Link><span className="sep">/</span>
@@ -50,6 +53,9 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
             <div><div className="bk">Domain</div><div className="bv">{meta.domain}</div></div>
             <div><div className="bk">Reading time</div><div className="bv">{meta.readingTime}</div></div>
             <div><div className="bk">Author</div><div className="bv">Techadyant Labs · Research</div></div>
+          </div>
+          </div>
+          <div className="rhg-cover"><ReportCover report={meta} /></div>
           </div>
         </div>
       </header>

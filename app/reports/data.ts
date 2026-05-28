@@ -19,6 +19,7 @@ export interface ReportMeta {
   currency?: 'INR';
   hasPdf: boolean;         // whether a downloadable PDF exists in private storage
   pages?: number;          // PDF page count (display only)
+  cover?: string;          // optional cover image URL; if absent a branded cover is generated
 }
 
 export const reports: ReportMeta[] = [

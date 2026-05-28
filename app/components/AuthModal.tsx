@@ -32,13 +32,13 @@ export function AuthModal() {
         <button className="auth-close" onClick={closeSignIn} aria-label="Close">×</button>
 
         <div className="auth-kicker">Techadyant Labs</div>
-        <h2 className="auth-title">Sign in to your account</h2>
+        <h2 className="auth-title">Sign in or create your account</h2>
         <p className="auth-sub">
-          {signInReason || 'Access your purchased reports and download library.'}
+          {signInReason || 'New here? Just enter your email — we’ll create your account and email you a secure link. No password needed.'}
         </p>
 
         {!configured ? (
-          <p className="auth-note">Authentication is being set up. Please check back shortly.</p>
+          <p className="auth-note">Sign-in is being configured. If you are the site owner, set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY in Cloudflare and redeploy.</p>
         ) : state === 'sent' ? (
           <div className="auth-sent">
             <div className="auth-sent-mark">✓</div>
@@ -71,7 +71,7 @@ export function AuthModal() {
 
             {state === 'error' && <p className="auth-error">{err}</p>}
             <p className="auth-fine">
-              We use passwordless sign-in. No password to remember; we email you a one-time secure link.
+              First time? This creates your account automatically. Returning? It signs you in. Either way, no password — we email a one-time secure link.
             </p>
           </>
         )}

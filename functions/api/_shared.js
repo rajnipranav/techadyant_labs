@@ -9,7 +9,7 @@ export const REPORTS = {
     access: 'paid',
     priceInr: 4900,
     object: 'india-fab-ecosystem.pdf',
-    filename: 'Techadyant-Labs_India-Fab-Ecosystem.pdf',
+    filename: 'Who-Really-Benefits-from-Indias-Fab-Ecosystem-Techadyant-Labs.pdf',
     title: 'Who Really Benefits from India’s Fab Ecosystem?',
   },
 };

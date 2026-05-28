@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { reports } from './data';
+import { reports, formatPrice } from './data';
+import { ReportCover } from '../components/ReportCover';
 
 export const metadata: Metadata = {
   title: 'Reports',
@@ -30,32 +31,50 @@ export default function ReportsIndex() {
 
       <section className="wrap">
         <div className="ed-kicker" style={{ marginBottom: 28 }}>Published</div>
-        {published.map((r) => (
-          <Link key={r.slug} href={`/reports/${r.slug}`} className="briefing" style={{ gridTemplateColumns: '1fr', gap: 12, alignItems: 'start', padding: '28px 0' }}>
-            <div className="featured-edition" style={{ marginBottom: 4 }}>
-              <span>{r.domain}</span><span className="sep">·</span><span>{r.edition}</span>
-              <span className="sep">·</span><span>{r.readingTime}</span>
-              <span className="sep">·</span><span>{r.publishedLabel}</span>
-            </div>
-            <div style={{ fontSize: 'clamp(22px,2.4vw,30px)', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: 1.15 }}>
-              {r.title}
-            </div>
-            <div className="serif" style={{ fontSize: 16, fontStyle: 'italic', color: 'var(--brass-cream)' }}>{r.subtitle}</div>
-            <p className="serif" style={{ fontSize: 16, lineHeight: 1.7, color: 'var(--text-muted)', maxWidth: '66ch' }}>{r.summary}</p>
-            <span className="see-all" style={{ marginTop: 4 }}>Read report →</span>
-          </Link>
-        ))}
+        <div className="report-cards">
+          {published.map((r) => {
+            const free = r.access === 'free';
+            return (
+              <Link key={r.slug} href={`/reports/${r.slug}`} className="report-card">
+                <div className="rc-cover-top">
+                  <ReportCover report={r} variant="card" />
+                  <span className={`report-card-badge ${free ? 'badge-free' : 'badge-price'}`}>
+                    {free ? 'Free' : formatPrice(r)}
+                  </span>
+                </div>
+                <div className="report-card-body">
+                  <span className="report-card-domain">{r.domain} · {r.publishedLabel}</span>
+                  <h3>{r.title}</h3>
+                  <span className="rc-card-sub">{r.subtitle}</span>
+                  <p className="rc-card-summary">{r.summary}</p>
+                  <div className="report-card-foot">
+                    <span className={`report-card-price ${free ? 'is-free' : ''}`}>{free ? 'Free' : formatPrice(r)}</span>
+                    <span className="report-card-cta">Read report →</span>
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
 
-        <div className="ed-kicker" style={{ margin: '52px 0 28px' }}>Forthcoming</div>
-        <div className="briefings">
+        <div className="ed-kicker" style={{ margin: '56px 0 28px' }}>Forthcoming</div>
+        <div className="report-cards">
           {forthcoming.map((r) => (
-            <div key={r.slug} className="briefing" style={{ opacity: 0.7 }}>
-              <span className="briefing-date">{r.domain}</span>
-              <span className="briefing-title">
-                {r.title}
-                <span className="b-tag" style={{ color: 'var(--text-dim)', borderColor: 'var(--rule-strong)' }}>Forthcoming</span>
-              </span>
-              <span className="briefing-read">{r.readingTime}</span>
+            <div key={r.slug} className="report-card is-forthcoming">
+              <div className="rc-cover-top">
+                <ReportCover report={r} variant="card" />
+                <span className="report-card-badge badge-soon">Forthcoming</span>
+              </div>
+              <div className="report-card-body">
+                <span className="report-card-domain">{r.domain}</span>
+                <h3>{r.title}</h3>
+                <span className="rc-card-sub">{r.subtitle}</span>
+                <p className="rc-card-summary">{r.summary}</p>
+                <div className="report-card-foot">
+                  <span className="report-card-price">{formatPrice(r)}</span>
+                  <span className="report-card-cta" style={{ color: 'var(--text-dim)' }}>{r.readingTime}</span>
+                </div>
+              </div>
             </div>
           ))}
         </div>

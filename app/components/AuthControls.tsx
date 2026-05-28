@@ -5,12 +5,7 @@ import { useAuth } from './AuthProvider';
 
 /** Masthead account control: "Sign in" when logged out, account link when in. */
 export function AuthControls() {
-  const { user, loading, openSignIn, signOut, configured } = useAuth();
-
-  if (!configured) {
-    // Auth not wired yet — keep the masthead clean, no control.
-    return null;
-  }
+  const { user, loading, openSignIn, signOut } = useAuth();
 
   if (loading) {
     return <span className="auth-pill auth-pill-ghost" aria-hidden="true">···</span>;
@@ -18,7 +13,7 @@ export function AuthControls() {
 
   if (!user) {
     return (
-      <button className="auth-pill" onClick={() => openSignIn()}>
+      <button className="auth-pill auth-pill-cta" onClick={() => openSignIn()}>
         Sign in
       </button>
     );
@@ -27,7 +22,7 @@ export function AuthControls() {
   const initial = (user.email || '?').charAt(0).toUpperCase();
   return (
     <div className="auth-account">
-      <Link href="/account" className="auth-avatar" aria-label="Your account">
+      <Link href="/account" className="auth-avatar" aria-label="Your account" title={user.email || 'Account'}>
         {initial}
       </Link>
       <button className="auth-signout" onClick={() => signOut()} title="Sign out">
