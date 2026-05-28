@@ -42,4 +42,24 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages }
           <button className="btn-ed btn-ed-primary ra-btn" onClick={purchase} disabled={busy}>
             {busy ? 'Opening checkout…' : `Buy the complete report — ${priceLabel}`} <span className="arr">→</span>
           </button>
-          <
+          <p className="ra-fine">One-time purchase · lifetime access · secure checkout via Razorpay.</p>
+        </>
+      )}
+
+      {previewHref && (
+        <div className="ra-preview">
+          <a className="btn-ed btn-ed-ghost ra-preview-btn" href={previewHref} download>
+            {previewLabel} <span className="arr">↓</span>
+          </a>
+          <p className="ra-fine ra-preview-fine">
+            Abridged sampler — executive summary, framework and one illustrative section. No signup required.
+          </p>
+        </div>
+      )}
+
+      {message && (
+        <p className={`ra-msg ${message.kind === 'error' ? 'ra-msg-error' : ''}`} role="status">{message.text}</p>
+      )}
+    </div>
+  );
+}

@@ -109,4 +109,15 @@ export const reports: ReportMeta[] = baseReports.map((r) => {
   if (!m) return r;
   return {
     ...r,
-    pages: m.pages ?? r.pages
+    pages: m.pages ?? r.pages,
+    readingTime: m.readingTime ?? r.readingTime,
+  };
+});
+
+export const getReport = (slug: string) => reports.find((r) => r.slug === slug);
+
+export function formatPrice(r: ReportMeta): string {
+  if (r.access === 'free') return 'Free';
+  if (!r.price) return '';
+  return '₹' + r.price.toLocaleString('en-IN');
+}

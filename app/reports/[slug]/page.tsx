@@ -104,4 +104,9 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
             <h3>Read the next edition first</h3>
             <p>New reports, signals and briefings on India’s industrial systems — infrequent and independent.</p>
           </div>
-          <Link href="/#su
+          <Link href="/#subscribe" className="btn-ed btn-ed-primary">Subscribe <span className="arr">→</span></Link>
+        </div>
+      </div>
+    </>
+  );
+}
