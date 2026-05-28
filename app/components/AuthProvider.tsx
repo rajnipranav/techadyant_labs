@@ -1,15 +1,12 @@
 'use client';
 
 import {
-  createContext,
-  useContext,
-  useEffect,
-  useState,
-  useCallback,
-  type ReactNode,
+  createContext, useContext, useEffect, useState, useCallback, type ReactNode,
 } from 'react';
 import type { Session, User } from '@supabase/supabase-js';
 import { getSupabase, isAuthConfigured } from '../lib/supabase';
+
+type Result = { error?: string; needsConfirmation?: boolean };
 
 interface AuthCtx {
   configured: boolean;
@@ -17,16 +14,20 @@ interface AuthCtx {
   session: Session | null;
   user: User | null;
   accessToken: string | null;
-  openSignIn: (reason?: string) => void;
-  closeSignIn: () => void;
   signInOpen: boolean;
   signInReason: string | null;
-  signInWithEmail: (email: string) => Promise<{ error?: string }>;
-  signInWithGoogle: () => Promise<{ error?: string }>;
+  openSignIn: (reason?: string) => void;
+  closeSignIn: () => void;
+  signInWithPassword: (email: string, password: string) => Promise<Result>;
+  signUpWithPassword: (email: string, password: string) => Promise<Result>;
+  signInWithEmail: (email: string) => Promise<Result>;
+  resetPassword: (email: string) => Promise<Result>;
+  signInWithGoogle: () => Promise<Result>;
   signOut: () => Promise<void>;
 }
 
 const Ctx = createContext<AuthCtx | null>(null);
+const origin = () => (typeof window !== 'undefined' ? window.location.origin : '');
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const configured = isAuthConfigured();
@@ -37,67 +38,56 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     const supabase = getSupabase();
-    if (!supabase) {
-      setLoading(false);
-      return;
-    }
-    supabase.auth.getSession().then(({ data }) => {
-      setSession(data.session ?? null);
-      setLoading(false);
-    });
-    const { data: sub } = supabase.auth.onAuthStateChange((_evt, s) => {
-      setSession(s);
-    });
+    if (!supabase) { setLoading(false); return; }
+    supabase.auth.getSession().then(({ data }) => { setSession(data.session ?? null); setLoading(false); });
+    const { data: sub } = supabase.auth.onAuthStateChange((_e, s) => setSession(s));
     return () => sub.subscription.unsubscribe();
   }, []);
 
-  const openSignIn = useCallback((reason?: string) => {
-    setSignInReason(reason ?? null);
-    setSignInOpen(true);
-  }, []);
+  const openSignIn = useCallback((reason?: string) => { setSignInReason(reason ?? null); setSignInOpen(true); }, []);
   const closeSignIn = useCallback(() => setSignInOpen(false), []);
 
-  const signInWithEmail = useCallback(async (email: string) => {
-    const supabase = getSupabase();
-    if (!supabase) return { error: 'Authentication is not configured yet.' };
-    const { error } = await supabase.auth.signInWithOtp({
-      email,
-      options: { emailRedirectTo: `${window.location.origin}/account` },
-    });
+  const signInWithPassword = useCallback(async (email: string, password: string): Promise<Result> => {
+    const s = getSupabase(); if (!s) return { error: 'Authentication is not configured yet.' };
+    const { error } = await s.auth.signInWithPassword({ email, password });
     return error ? { error: error.message } : {};
   }, []);
 
-  const signInWithGoogle = useCallback(async () => {
-    const supabase = getSupabase();
-    if (!supabase) return { error: 'Authentication is not configured yet.' };
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: 'google',
-      options: { redirectTo: `${window.location.origin}/account` },
-    });
+  const signUpWithPassword = useCallback(async (email: string, password: string): Promise<Result> => {
+    const s = getSupabase(); if (!s) return { error: 'Authentication is not configured yet.' };
+    const { data, error } = await s.auth.signUp({ email, password, options: { emailRedirectTo: `${origin()}/account` } });
+    if (error) return { error: error.message };
+    return { needsConfirmation: !data.session };
+  }, []);
+
+  const signInWithEmail = useCallback(async (email: string): Promise<Result> => {
+    const s = getSupabase(); if (!s) return { error: 'Authentication is not configured yet.' };
+    const { error } = await s.auth.signInWithOtp({ email, options: { emailRedirectTo: `${origin()}/account` } });
+    return error ? { error: error.message } : {};
+  }, []);
+
+  const resetPassword = useCallback(async (email: string): Promise<Result> => {
+    const s = getSupabase(); if (!s) return { error: 'Authentication is not configured yet.' };
+    const { error } = await s.auth.resetPasswordForEmail(email, { redirectTo: `${origin()}/account` });
+    return error ? { error: error.message } : {};
+  }, []);
+
+  const signInWithGoogle = useCallback(async (): Promise<Result> => {
+    const s = getSupabase(); if (!s) return { error: 'Authentication is not configured yet.' };
+    const { error } = await s.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: `${origin()}/account` } });
     return error ? { error: error.message } : {};
   }, []);
 
   const signOut = useCallback(async () => {
-    const supabase = getSupabase();
-    if (supabase) await supabase.auth.signOut();
+    const s = getSupabase(); if (s) await s.auth.signOut();
     setSession(null);
   }, []);
 
   const value: AuthCtx = {
-    configured,
-    loading,
-    session,
-    user: session?.user ?? null,
-    accessToken: session?.access_token ?? null,
-    openSignIn,
-    closeSignIn,
-    signInOpen,
-    signInReason,
-    signInWithEmail,
-    signInWithGoogle,
-    signOut,
+    configured, loading, session, user: session?.user ?? null, accessToken: session?.access_token ?? null,
+    signInOpen, signInReason, openSignIn, closeSignIn,
+    signInWithPassword, signUpWithPassword, signInWithEmail, resetPassword, signInWithGoogle, signOut,
   };
-
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }
 

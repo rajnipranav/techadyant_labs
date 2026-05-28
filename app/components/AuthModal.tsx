@@ -1,82 +1,116 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useAuth } from './AuthProvider';
 
+type Mode = 'signin' | 'signup';
+type Phase = 'idle' | 'working' | 'magic-sent' | 'confirm-sent' | 'reset-sent';
+
 export function AuthModal() {
-  const { signInOpen, closeSignIn, signInReason, signInWithEmail, signInWithGoogle, configured } = useAuth();
+  const {
+    signInOpen, closeSignIn, signInReason, configured, user,
+    signInWithPassword, signUpWithPassword, signInWithEmail, resetPassword, signInWithGoogle,
+  } = useAuth();
+
+  const [mode, setMode] = useState<Mode>('signin');
   const [email, setEmail] = useState('');
-  const [state, setState] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
+  const [password, setPassword] = useState('');
+  const [phase, setPhase] = useState<Phase>('idle');
   const [err, setErr] = useState('');
-  const googleEnabled = process.env.NEXT_PUBLIC_ENABLE_GOOGLE_AUTH === 'true';
+
+  // Auto-close once the user is authenticated.
+  useEffect(() => { if (signInOpen && user) closeSignIn(); }, [user, signInOpen, closeSignIn]);
+
+  // Reset transient state each time the modal opens.
+  useEffect(() => { if (signInOpen) { setPhase('idle'); setErr(''); setPassword(''); } }, [signInOpen]);
 
   if (!signInOpen) return null;
 
-  async function sendLink(e: React.FormEvent) {
+  async function submit(e: React.FormEvent) {
     e.preventDefault();
-    if (!email.trim()) return;
-    setState('sending');
-    setErr('');
-    const { error } = await signInWithEmail(email.trim());
-    if (error) { setState('error'); setErr(error); }
-    else setState('sent');
+    if (!email.trim() || !password.trim()) return;
+    setPhase('working'); setErr('');
+    const fn = mode === 'signin' ? signInWithPassword : signUpWithPassword;
+    const res = await fn(email.trim(), password);
+    if (res.error) { setErr(res.error); setPhase('idle'); return; }
+    if (mode === 'signup' && res.needsConfirmation) { setPhase('confirm-sent'); return; }
+    // success → onAuthStateChange sets user → modal auto-closes
+  }
+
+  async function magicLink() {
+    if (!email.trim()) { setErr('Enter your email first.'); return; }
+    setPhase('working'); setErr('');
+    const res = await signInWithEmail(email.trim());
+    if (res.error) { setErr(res.error); setPhase('idle'); return; }
+    setPhase('magic-sent');
+  }
+
+  async function forgot() {
+    if (!email.trim()) { setErr('Enter your email first, then tap reset.'); return; }
+    setPhase('working'); setErr('');
+    const res = await resetPassword(email.trim());
+    if (res.error) { setErr(res.error); setPhase('idle'); return; }
+    setPhase('reset-sent');
   }
 
   async function google() {
-    const { error } = await signInWithGoogle();
-    if (error) { setState('error'); setErr(error); }
+    setErr('');
+    const res = await signInWithGoogle();
+    if (res.error) setErr(res.error);
   }
+
+  const sentPhase = phase === 'magic-sent' || phase === 'confirm-sent' || phase === 'reset-sent';
 
   return (
     <div className="auth-overlay" onClick={(e) => { if (e.target === e.currentTarget) closeSignIn(); }}>
       <div className="auth-card" role="dialog" aria-modal="true" aria-label="Sign in">
         <button className="auth-close" onClick={closeSignIn} aria-label="Close">×</button>
-
         <div className="auth-kicker">Techadyant Labs</div>
-        <h2 className="auth-title">Sign in or create your account</h2>
-        <p className="auth-sub">
-          {signInReason || 'New here? Just enter your email — we’ll create your account and email you a secure link. No password needed.'}
-        </p>
 
         {!configured ? (
-          <p className="auth-note">Sign-in is being configured. If you are the site owner, set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY in Cloudflare and redeploy.</p>
-        ) : state === 'sent' ? (
+          <>
+            <h2 className="auth-title">Sign in</h2>
+            <p className="auth-note">Sign-in is being configured. If you are the site owner, set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY in Cloudflare and redeploy.</p>
+          </>
+        ) : sentPhase ? (
           <div className="auth-sent">
             <div className="auth-sent-mark">✓</div>
-            <p>Check your inbox — we sent a secure sign-in link to <strong>{email}</strong>.</p>
-            <p className="auth-fine">The link opens your account and signs you in. You can close this window.</p>
+            {phase === 'magic-sent' && <><p>Magic link sent to <strong>{email}</strong>.</p><p className="auth-fine">Open it to finish signing in. You can close this window.</p></>}
+            {phase === 'confirm-sent' && <><p>Confirm your email</p><p className="auth-fine">We sent a confirmation link to <strong>{email}</strong>. Click it, then come back and sign in.</p></>}
+            {phase === 'reset-sent' && <><p>Password reset link sent to <strong>{email}</strong>.</p><p className="auth-fine">Open it to set a new password.</p></>}
           </div>
         ) : (
           <>
-            {googleEnabled && (
-              <>
-                <button className="auth-google" onClick={google} type="button">
-                  <span className="g-mark" aria-hidden="true">G</span> Continue with Google
-                </button>
-                <div className="auth-divider"><span>or</span></div>
-              </>
-            )}
+            <div className="auth-tabs" role="tablist">
+              <button role="tab" aria-selected={mode === 'signin'} className={mode === 'signin' ? 'active' : ''} onClick={() => { setMode('signin'); setErr(''); }}>Sign in</button>
+              <button role="tab" aria-selected={mode === 'signup'} className={mode === 'signup' ? 'active' : ''} onClick={() => { setMode('signup'); setErr(''); }}>Create account</button>
+            </div>
 
-            <form onSubmit={sendLink} className="auth-form">
+            <p className="auth-sub">
+              {signInReason || (mode === 'signin' ? 'Welcome back. Sign in to access your reports.' : 'Create your account to buy and download reports.')}
+            </p>
+
+            <button className="auth-google" onClick={google} type="button">
+              <span className="g-mark" aria-hidden="true">G</span> Continue with Google
+            </button>
+            <div className="auth-divider"><span>or</span></div>
+
+            <form onSubmit={submit} className="auth-form">
               <label className="auth-label">Email address</label>
-              <input
-                type="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="you@institution.org"
-                className="auth-input"
-                autoFocus
-              />
-              <button type="submit" className="btn-ed btn-ed-primary auth-submit" disabled={state === 'sending'}>
-                {state === 'sending' ? 'Sending link…' : 'Email me a sign-in link'} <span className="arr">→</span>
+              <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="you@institution.org" className="auth-input" autoComplete="email" />
+              <label className="auth-label">Password</label>
+              <input type="password" required value={password} onChange={(e) => setPassword(e.target.value)} placeholder={mode === 'signup' ? 'Create a password (min 6 chars)' : 'Your password'} className="auth-input" autoComplete={mode === 'signup' ? 'new-password' : 'current-password'} minLength={6} />
+              <button type="submit" className="btn-ed btn-ed-primary auth-submit" disabled={phase === 'working'}>
+                {phase === 'working' ? 'Please wait…' : mode === 'signin' ? 'Sign in' : 'Create account'} <span className="arr">→</span>
               </button>
             </form>
 
-            {state === 'error' && <p className="auth-error">{err}</p>}
-            <p className="auth-fine">
-              First time? This creates your account automatically. Returning? It signs you in. Either way, no password — we email a one-time secure link.
-            </p>
+            {err && <p className="auth-error">{err}</p>}
+
+            <div className="auth-alts">
+              {mode === 'signin' && <button type="button" className="auth-altlink" onClick={forgot}>Forgot password?</button>}
+              <button type="button" className="auth-altlink" onClick={magicLink}>Email me a magic link instead</button>
+            </div>
           </>
         )}
       </div>
