@@ -66,13 +66,18 @@ function readFigure(n: number): string | null {
       liftIfTop,
     );
 
+    // Strip the matplotlib-emitted absolute width/height on the outer <svg>.
+    // CSS in globals.css already handles `.report-figure svg { width: 100%;
+    // height: auto; }`; emitting width/height attributes here in addition can
+    // cause some browsers to ignore the (expanded) viewBox and use the
+    // intrinsic dimensions instead — which clips the lifted title.
     svg = svg.replace(
       /<svg\b([^>]*)>/i,
       (_full, attrs: string) => {
         const cleaned = attrs
           .replace(/\swidth="[^"]*"/i, '')
           .replace(/\sheight="[^"]*"/i, '');
-        return `<svg${cleaned} width="100%" height="auto" preserveAspectRatio="xMidYMid meet">`;
+        return `<svg${cleaned} preserveAspectRatio="xMidYMid meet">`;
       },
     );
     return svg;
