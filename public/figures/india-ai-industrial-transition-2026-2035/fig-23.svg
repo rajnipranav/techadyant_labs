@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="774.72pt" height="563.5825pt" viewBox="0 0 774.72 563.5825" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-28T09:33:22.154624</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 563.5825 
+L 774.72 563.5825 
+L 774.72 0 
+L 0 0 
+z
+" style="fill: #fbf9f4"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 96.84 283.33635 
+L 404.856 283.33635 
+Q 408.204 283.33635 408.204 281.11875 
+L 408.204 77.09955 
+Q 408.204 74.88195 404.856 74.88195 
+L 96.84 74.88195 
+Q 93.492 74.88195 93.492 77.09955 
+L 93.492 281.11875 
+Q 93.492 283.33635 96.84 283.33635 
+z
+" clip-path="url(#p2547191a99)" style="fill: #95e2d9; opacity: 0.5; stroke: #2bc5b4; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 411.552 283.33635 
+L 719.568 283.33635 
+Q 722.916 283.33635 722.916 281.11875 
+L 722.916 77.09955 
+Q 722.916 74.88195 719.568 74.88195 
+L 411.552 74.88195 
+Q 408.204 74.88195 408.204 77.09955 
+L 408.204 281.11875 
+Q 408.204 283.33635 411.552 283.33635 
+z
+" clip-path="url(#p2547191a99)" style="fill: #e4d3a6; opacity: 0.5; stroke: #c9a84c; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 96.84 482.92035 
+L 404.856 482.92035 
+Q 408.204 482.92035 408.204 480.70275 
+L 408.204 289.98915 
+Q 408.204 287.77155 404.856 287.77155 
+L 96.84 287.77155 
+Q 93.492 287.77155 93.492 289.98915 
+L 93.492 480.70275 
+Q 93.492 482.92035 96.84 482.92035 
+z
+" clip-path="url(#p2547191a99)" style="fill: #e8e5dd; opacity: 0.5; stroke: #4a5567; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 411.552 482.92035 
+L 719.568 482.92035 
+Q 722.916 482.92035 722.916 480.70275 
+L 722.916 289.98915 
+Q 722.916 287.77155 719.568 287.77155 
+L 411.552 287.77155 
+Q 408.204 287.77155 408.204 289.98915 
+L 408.204 480.70275 
+Q 408.204 482.92035 411.552 482.92035 
+z
+" clip-path="url(#p2547191a99)" style="fill: #e8e5dd; opacity: 0.3; stroke: #4a5567; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text x="209.31" y="94.84" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#2bc5b4">QUICK WINS</text>
+   </g>
+   <g id="text_2">
+    <text x="187.74" y="110.36" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">High importance · 0–24 months</text>
+   </g>
+   <g id="text_3">
+    <text x="509.42" y="94.84" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#c9a84c">STRATEGIC BETS</text>
+   </g>
+   <g id="text_4">
+    <text x="499.91" y="110.36" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">High importance · 24–60 months</text>
+   </g>
+   <g id="text_5">
+    <text x="203.04" y="298.86" font-family="Arial, Helvetica, sans-serif" font-size="11.0" fill="#4a5567">TACTICAL WINS</text>
+   </g>
+   <g id="text_6">
+    <text x="177.91" y="312.17" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Moderate importance · 0–24 months</text>
+   </g>
+   <g id="text_7">
+    <text x="509.80" y="298.86" font-family="Arial, Helvetica, sans-serif" font-size="11.0" fill="#4a5567">WATCH-AND-WAIT</text>
+   </g>
+   <g id="text_8">
+    <text x="503.12" y="312.17" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Moderate / lower · 60+ months</text>
+   </g>
+   <g id="text_9">
+    <text x="113.58" y="136.40" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  GPU/accelerator cluster deploy  · Rs 60–100k cr</text>
+   </g>
+   <g id="text_10">
+    <text x="113.58" y="149.71" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  Captive RE PPA structuring  · Rs 25–50k cr</text>
+   </g>
+   <g id="text_11">
+    <text x="113.58" y="163.01" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  Treated-wastewater policy  · Rs 5–10k cr</text>
+   </g>
+   <g id="text_12">
+    <text x="113.58" y="176.32" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  Industrial AI services (GCC)  · Rs 80–150k cr</text>
+   </g>
+   <g id="text_13">
+    <text x="113.58" y="189.62" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  Edge AI in Tier-2 cities  · Rs 10–45k cr</text>
+   </g>
+   <g id="text_14">
+    <text x="113.58" y="202.93" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  High-density cooling / liquid  · Rs 7.5–36k cr</text>
+   </g>
+   <g id="text_15">
+    <text x="428.29" y="136.40" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  Advanced packaging (CoWoS-class)  · Rs 25–50k cr</text>
+   </g>
+   <g id="text_16">
+    <text x="428.29" y="149.71" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  Visakhapatnam coastal hub  · Rs 80–100k cr</text>
+   </g>
+   <g id="text_17">
+    <text x="428.29" y="163.01" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  HBM stacking partnership  · Rs 15–25k cr</text>
+   </g>
+   <g id="text_18">
+    <text x="428.29" y="176.32" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  Specialty-gases hub (beyond Inox)  · Rs 5–10k cr</text>
+   </g>
+   <g id="text_19">
+    <text x="428.29" y="189.62" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  Sovereign foundation model  · Rs 5–10k cr</text>
+   </g>
+   <g id="text_20">
+    <text x="428.29" y="202.93" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  OSAT-led 2.5D packaging at TSAT/Jewar · Rs 10–20k cr</text>
+   </g>
+   <g id="text_21">
+    <text x="428.29" y="216.23" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  Inter-state water-rights modernisation · Rs 20–40k cr</text>
+   </g>
+   <g id="text_22">
+    <text x="428.29" y="229.54" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#0f1828">•  Tier-2 GCC anchor-city development · Rs 30–60k cr</text>
+   </g>
+   <g id="text_23">
+    <text x="113.58" y="335.98" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">•  DCIM and operations software  · Rs 5–12k cr</text>
+   </g>
+   <g id="text_24">
+    <text x="113.58" y="347.96" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">•  Precision piping / UPW services  · Rs 5–10k cr</text>
+   </g>
+   <g id="text_25">
+    <text x="113.58" y="359.93" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">•  Industrial sensors / edge IoT  · Rs 8–15k cr</text>
+   </g>
+   <g id="text_26">
+    <text x="113.58" y="371.91" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">•  Cleanroom certification bodies  · Rs 3–6k cr</text>
+   </g>
+   <g id="text_27">
+    <text x="113.58" y="383.88" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">•  Submarine-cable landing infra  · Rs 5–10k cr</text>
+   </g>
+   <g id="text_28">
+    <text x="113.58" y="395.86" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">•  DC InvIT / REIT structuring  · Rs 50–80k cr</text>
+   </g>
+   <g id="text_29">
+    <text x="428.29" y="335.98" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">•  Leading-edge logic fab (3–5 nm)</text>
+   </g>
+   <g id="text_30">
+    <text x="428.29" y="347.96" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">•  Indigenous AI accelerator design at scale</text>
+   </g>
+   <g id="text_31">
+    <text x="428.29" y="359.93" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">•  Quantum-compute infrastructure</text>
+   </g>
+   <g id="text_32">
+    <text x="428.29" y="371.91" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">•  BCI / post-classical AI hardware</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 65.360034 485.13795 
+Q 398.16044 485.13795 729.619206 485.13795 
+" style="fill: none; stroke: #0f1828; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 725.619206 483.13795 
+L 729.619206 485.13795 
+L 725.619206 487.13795 
+" style="fill: none; stroke: #0f1828; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_33">
+    <text x="340.90" y="498.44" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Time-to-execution →</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 90.144 500.878931 
+Q 90.144 281.11761 90.144 62.69793 
+" style="fill: none; stroke: #0f1828; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 88.144 66.69793 
+L 90.144 62.69793 
+L 92.144 66.69793 
+" style="fill: none; stroke: #0f1828; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_34">
+    <text x="76.12" y="283.28" transform="rotate(-90.0 76.12 283.28)" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">← Strategic importance</text>
+   </g>
+  </g>
+  <g id="text_35">
+   <text x="7.20" y="24.68" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">Strategic Opportunity Matrix — India AI industrial transition 2026–2030</text>
+  </g>
+  <g id="text_36">
+   <text x="7.20" y="36.32" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-style="italic" fill="#4a5567">Twenty-four opportunity surfaces mapped to strategic importance and time-to-execution</text>
+  </g>
+  <g id="text_37">
+   <text x="627.87" y="13.28" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#c0c5cc">Figure 23 · Techadyant Labs · 2026</text>
+  </g>
+  <g id="text_38">
+   <text x="7.20" y="554.72" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Source: Techadyant Labs signature framework integrating Parts II–VII analysis.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2547191a99">
+   <rect x="63.36" y="59.35875" width="669.6" height="443.52"/>
+  </clipPath>
+ </defs>
+</svg>

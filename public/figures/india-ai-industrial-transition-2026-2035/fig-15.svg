@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="711.36pt" height="462.0625pt" viewBox="0 0 711.36 462.0625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-28T09:01:30.015286</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 462.0625 
+L 711.36 462.0625 
+L 711.36 0 
+L 0 0 
+z
+" style="fill: #fbf9f4"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 69.942385 101.091653 
+L 165.672661 101.091653 
+Q 165.672661 101.091653 165.672661 101.091653 
+L 165.672661 62.343266 
+Q 165.672661 62.343266 165.672661 62.343266 
+L 69.942385 62.343266 
+Q 69.942385 62.343266 69.942385 62.343266 
+L 69.942385 101.091653 
+Q 69.942385 101.091653 69.942385 101.091653 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #0f1828"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 171.303853 101.091653 
+L 247.324954 101.091653 
+Q 247.324954 101.091653 247.324954 101.091653 
+L 247.324954 62.343266 
+Q 247.324954 62.343266 247.324954 62.343266 
+L 171.303853 62.343266 
+Q 171.303853 62.343266 171.303853 62.343266 
+L 171.303853 101.091653 
+Q 171.303853 101.091653 171.303853 101.091653 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #0f1828"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 250.14055 101.091653 
+L 326.161651 101.091653 
+Q 326.161651 101.091653 326.161651 101.091653 
+L 326.161651 62.343266 
+Q 326.161651 62.343266 326.161651 62.343266 
+L 250.14055 62.343266 
+Q 250.14055 62.343266 250.14055 62.343266 
+L 250.14055 101.091653 
+Q 250.14055 101.091653 250.14055 101.091653 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #0f1828"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 328.977248 101.091653 
+L 404.998349 101.091653 
+Q 404.998349 101.091653 404.998349 101.091653 
+L 404.998349 62.343266 
+Q 404.998349 62.343266 404.998349 62.343266 
+L 328.977248 62.343266 
+Q 328.977248 62.343266 328.977248 62.343266 
+L 328.977248 101.091653 
+Q 328.977248 101.091653 328.977248 101.091653 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #0f1828"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 407.813945 101.091653 
+L 483.835046 101.091653 
+Q 483.835046 101.091653 483.835046 101.091653 
+L 483.835046 62.343266 
+Q 483.835046 62.343266 483.835046 62.343266 
+L 407.813945 62.343266 
+Q 407.813945 62.343266 407.813945 62.343266 
+L 407.813945 101.091653 
+Q 407.813945 101.091653 407.813945 101.091653 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #0f1828"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 486.650642 101.091653 
+L 562.671743 101.091653 
+Q 562.671743 101.091653 562.671743 101.091653 
+L 562.671743 62.343266 
+Q 562.671743 62.343266 562.671743 62.343266 
+L 486.650642 62.343266 
+Q 486.650642 62.343266 486.650642 62.343266 
+L 486.650642 101.091653 
+Q 486.650642 101.091653 486.650642 101.091653 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #0f1828"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 565.487339 101.091653 
+L 641.50844 101.091653 
+Q 641.50844 101.091653 641.50844 101.091653 
+L 641.50844 62.343266 
+Q 641.50844 62.343266 641.50844 62.343266 
+L 565.487339 62.343266 
+Q 565.487339 62.343266 565.487339 62.343266 
+L 565.487339 101.091653 
+Q 565.487339 101.091653 565.487339 101.091653 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #0f1828"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 69.942385 139.84004 
+L 635.877248 139.84004 
+L 635.877248 101.091653 
+L 69.942385 101.091653 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #fbf9f4; stroke: #c0c5cc; stroke-width: 0.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 69.942385 178.588427 
+L 635.877248 178.588427 
+L 635.877248 139.84004 
+L 69.942385 139.84004 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #e8e5dd; stroke: #c0c5cc; stroke-width: 0.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 69.942385 217.336815 
+L 635.877248 217.336815 
+L 635.877248 178.588427 
+L 69.942385 178.588427 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #fbf9f4; stroke: #c0c5cc; stroke-width: 0.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 69.942385 256.085202 
+L 635.877248 256.085202 
+L 635.877248 217.336815 
+L 69.942385 217.336815 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #e8e5dd; stroke: #c0c5cc; stroke-width: 0.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 69.942385 294.833589 
+L 635.877248 294.833589 
+L 635.877248 256.085202 
+L 69.942385 256.085202 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #fbf9f4; stroke: #c0c5cc; stroke-width: 0.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 69.942385 333.581976 
+L 635.877248 333.581976 
+L 635.877248 294.833589 
+L 69.942385 294.833589 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #e8e5dd; stroke: #c0c5cc; stroke-width: 0.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 69.942385 372.330363 
+L 635.877248 372.330363 
+L 635.877248 333.581976 
+L 69.942385 333.581976 
+z
+" clip-path="url(#pd6ec12127c)" style="fill: #fbf9f4; stroke: #c0c5cc; stroke-width: 0.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text x="102.66" y="84.48" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#fbf9f4">State</text>
+   </g>
+   <g id="text_2">
+    <text x="184.38" y="79.30" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#fbf9f4">Electronics</text>
+    <text x="179.11" y="88.82" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#fbf9f4">exports FY25</text>
+   </g>
+   <g id="text_3">
+    <text x="261.30" y="79.27" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#fbf9f4">Operational</text>
+    <text x="261.36" y="88.79" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#fbf9f4">DC capacity</text>
+   </g>
+   <g id="text_4">
+    <text x="334.45" y="79.27" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#fbf9f4">Headline semi</text>
+    <text x="335.91" y="88.79" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#fbf9f4">project capex</text>
+   </g>
+   <g id="text_5">
+    <text x="418.53" y="79.27" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#fbf9f4">Hyperscaler</text>
+    <text x="430.78" y="88.86" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#fbf9f4">anchor</text>
+   </g>
+   <g id="text_6">
+    <text x="511.66" y="79.30" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#fbf9f4">Water</text>
+    <text x="506.69" y="88.82" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#fbf9f4">position</text>
+   </g>
+   <g id="text_7">
+    <text x="590.29" y="79.30" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#fbf9f4">Talent</text>
+    <text x="590.88" y="88.82" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#fbf9f4">depth</text>
+   </g>
+   <g id="text_8">
+    <text x="88.15" y="123.09" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">Tamil Nadu</text>
+   </g>
+   <g id="text_9">
+    <text x="182.42" y="122.67" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">$14.65 B (#1)</text>
+   </g>
+   <g id="text_10">
+    <text x="269.89" y="122.67" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">~202 MW</text>
+   </g>
+   <g id="text_11">
+    <text x="364.40" y="122.67" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">—</text>
+   </g>
+   <g id="text_12">
+    <text x="415.97" y="122.67" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Foxconn iPhone</text>
+   </g>
+   <g id="text_13">
+    <text x="508.78" y="122.67" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Stressed</text>
+   </g>
+   <g id="text_14">
+    <text x="563.48" y="122.67" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">High (Chennai+CBE)</text>
+   </g>
+   <g id="text_15">
+    <text x="90.15" y="161.84" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">Karnataka</text>
+   </g>
+   <g id="text_16">
+    <text x="187.51" y="161.42" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">$7.8 B (#2)</text>
+   </g>
+   <g id="text_17">
+    <text x="263.61" y="161.42" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">107–182 MW</text>
+   </g>
+   <g id="text_18">
+    <text x="364.40" y="161.42" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">—</text>
+   </g>
+   <g id="text_19">
+    <text x="415.36" y="161.42" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Major GCC base</text>
+   </g>
+   <g id="text_20">
+    <text x="496.72" y="161.42" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Over-exploited</text>
+   </g>
+   <g id="text_21">
+    <text x="561.07" y="161.42" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Very high (Bengaluru)</text>
+   </g>
+   <g id="text_22">
+    <text x="80.35" y="200.58" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">Uttar Pradesh</text>
+   </g>
+   <g id="text_23">
+    <text x="184.97" y="200.17" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">$5.26 B (#3)</text>
+   </g>
+   <g id="text_24">
+    <text x="270.53" y="200.17" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Moderate</text>
+   </g>
+   <g id="text_25">
+    <text x="326.42" y="200.17" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">HCL-Foxconn Rs 3.7k</text>
+   </g>
+   <g id="text_26">
+    <text x="413.93" y="200.17" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">EMC 2.0 + Jewar</text>
+   </g>
+   <g id="text_27">
+    <text x="512.08" y="200.17" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Critical</text>
+   </g>
+   <g id="text_28">
+    <text x="585.88" y="200.17" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Moderate</text>
+   </g>
+   <g id="text_29">
+    <text x="97.88" y="239.30" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">Gujarat</text>
+   </g>
+   <g id="text_30">
+    <text x="206.72" y="238.92" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">—</text>
+   </g>
+   <g id="text_31">
+    <text x="275.01" y="238.92" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Modest</text>
+   </g>
+   <g id="text_32">
+    <text x="335.20" y="238.92" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Rs ~1.25 lakh cr</text>
+   </g>
+   <g id="text_33">
+    <text x="407.15" y="238.92" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Tata-PSMC + Micron</text>
+   </g>
+   <g id="text_34">
+    <text x="501.22" y="238.92" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Semi-critical</text>
+   </g>
+   <g id="text_35">
+    <text x="585.88" y="238.92" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Moderate</text>
+   </g>
+   <g id="text_36">
+    <text x="90.57" y="278.04" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">Telangana</text>
+   </g>
+   <g id="text_37">
+    <text x="206.72" y="277.67" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">—</text>
+   </g>
+   <g id="text_38">
+    <text x="256.14" y="277.67" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">152–859 MW [D]</text>
+   </g>
+   <g id="text_39">
+    <text x="364.40" y="277.67" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">—</text>
+   </g>
+   <g id="text_40">
+    <text x="404.94" y="277.67" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">AWS + MSFT magnet</text>
+   </g>
+   <g id="text_41">
+    <text x="496.72" y="277.67" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Over-exploited</text>
+   </g>
+   <g id="text_42">
+    <text x="595.71" y="277.67" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">High</text>
+   </g>
+   <g id="text_43">
+    <text x="74.91" y="316.83" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">Andhra Pradesh</text>
+   </g>
+   <g id="text_44">
+    <text x="206.72" y="316.42" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">—</text>
+   </g>
+   <g id="text_45">
+    <text x="256.85" y="316.42" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">~200 MW (pipe)</text>
+   </g>
+   <g id="text_46">
+    <text x="346.93" y="316.42" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">ASIP (part)</text>
+   </g>
+   <g id="text_47">
+    <text x="411.36" y="316.42" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Google-Adani 15B</text>
+   </g>
+   <g id="text_48">
+    <text x="504.12" y="316.42" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Favourable</text>
+   </g>
+   <g id="text_49">
+    <text x="585.88" y="316.42" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Moderate</text>
+   </g>
+   <g id="text_50">
+    <text x="83.71" y="355.58" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">Maharashtra</text>
+   </g>
+   <g id="text_51">
+    <text x="206.72" y="355.16" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">—</text>
+   </g>
+   <g id="text_52">
+    <text x="259.06" y="355.16" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">~289 MW (NM)</text>
+   </g>
+   <g id="text_53">
+    <text x="364.40" y="355.16" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">—</text>
+   </g>
+   <g id="text_54">
+    <text x="420.97" y="355.16" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">AWS Mumbai</text>
+   </g>
+   <g id="text_55">
+    <text x="508.78" y="355.16" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">Stressed</text>
+   </g>
+   <g id="text_56">
+    <text x="562.11" y="355.16" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#4a5567">High (Pune+Mumbai)</text>
+   </g>
+  </g>
+  <g id="text_57">
+   <text x="7.20" y="24.68" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">State-by-state snapshot — endowments and binding constraints</text>
+  </g>
+  <g id="text_58">
+   <text x="7.20" y="32.00" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-style="italic" fill="#4a5567">FY25 electronics exports and operational/announced AI-infrastructure positioning</text>
+  </g>
+  <g id="text_59">
+   <text x="564.51" y="13.28" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#c0c5cc">Figure 15 · Techadyant Labs · 2026</text>
+  </g>
+  <g id="text_60">
+   <text x="7.20" y="453.20" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Source: IBEF/ESC FY25; CBRE India DC Market Update; PIB ISM filings; CGWB; Techadyant Labs.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd6ec12127c">
+   <rect x="58.68" y="50.71875" width="613.8" height="360.36"/>
+  </clipPath>
+ </defs>
+</svg>

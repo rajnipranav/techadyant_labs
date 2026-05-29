@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="857.983781pt" height="414.6865pt" viewBox="0 0 857.983781 414.6865" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-28T08:57:03.383849</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 414.6865 
+L 857.983781 414.6865 
+L 857.983781 0 
+L 0 0 
+z
+" style="fill: #fbf9f4"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 102.24 364.06275 
+L 720 364.06275 
+L 720 59.21475 
+L 102.24 59.21475 
+z
+" style="fill: #fbf9f4"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 102.24 73.071477 
+L 403.992 73.071477 
+L 403.992 106.571257 
+L 102.24 106.571257 
+z
+" clip-path="url(#p47e8bb3111)" style="fill: #0f1828; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 102.24 133.980169 
+L 589.32 133.980169 
+L 589.32 167.479949 
+L 102.24 167.479949 
+z
+" clip-path="url(#p47e8bb3111)" style="fill: #0f1828; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 102.24 194.88886 
+L 458.64 194.88886 
+L 458.64 228.38864 
+L 102.24 228.38864 
+z
+" clip-path="url(#p47e8bb3111)" style="fill: #c9a84c; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 102.24 255.797551 
+L 458.64 255.797551 
+L 458.64 289.297331 
+L 102.24 289.297331 
+z
+" clip-path="url(#p47e8bb3111)" style="fill: #2bc5b4; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 102.24 316.706243 
+L 149.76 316.706243 
+L 149.76 350.206023 
+L 102.24 350.206023 
+z
+" clip-path="url(#p47e8bb3111)" style="fill: #4a5567; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 102.24 364.06275 
+L 102.24 59.21475 
+" clip-path="url(#p47e8bb3111)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mbe74167dc4" d="M 0 0 
+L 0 3.5 
+" style="stroke: #4a5567; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mbe74167dc4" x="102.24" y="364.06275" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text x="99.06" y="378.66" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 221.04 364.06275 
+L 221.04 59.21475 
+" clip-path="url(#p47e8bb3111)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mbe74167dc4" x="221.04" y="364.06275" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text x="217.86" y="378.66" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 339.84 364.06275 
+L 339.84 59.21475 
+" clip-path="url(#p47e8bb3111)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mbe74167dc4" x="339.84" y="364.06275" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text x="333.48" y="378.66" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">10</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 458.64 364.06275 
+L 458.64 59.21475 
+" clip-path="url(#p47e8bb3111)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mbe74167dc4" x="458.64" y="364.06275" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text x="452.28" y="378.66" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">15</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 577.44 364.06275 
+L 577.44 59.21475 
+" clip-path="url(#p47e8bb3111)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mbe74167dc4" x="577.44" y="364.06275" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text x="571.08" y="378.66" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">20</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 696.24 364.06275 
+L 696.24 59.21475 
+" clip-path="url(#p47e8bb3111)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mbe74167dc4" x="696.24" y="364.06275" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text x="689.88" y="378.66" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">25</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text x="302.59" y="393.10" font-family="Arial, Helvetica, sans-serif" font-size="11.0" fill="#0f1828">USD billions (cumulative through 2030)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <path d="M 102.24 89.821367 
+L 720 89.821367 
+" clip-path="url(#p47e8bb3111)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_14">
+      <defs>
+       <path id="m48b9135401" d="M 0 0 
+L -3.5 0 
+" style="stroke: #4a5567; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m48b9135401" x="102.24" y="89.821367" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text x="72.71" y="93.62" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">AWS</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_15">
+      <path d="M 102.24 150.730059 
+L 720 150.730059 
+" clip-path="url(#p47e8bb3111)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m48b9135401" x="102.24" y="150.730059" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text x="49.74" y="154.53" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Microsoft</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_17">
+      <path d="M 102.24 211.63875 
+L 720 211.63875 
+" clip-path="url(#p47e8bb3111)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m48b9135401" x="102.24" y="211.63875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text x="13.15" y="210.60" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Reliance–NVIDIA</text>
+      <text x="39.56" y="221.80" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">(Jamnagar)</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_19">
+      <path d="M 102.24 272.547441 
+L 720 272.547441 
+" clip-path="url(#p47e8bb3111)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m48b9135401" x="102.24" y="272.547441" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text x="59.97" y="271.51" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Google</text>
+      <text x="9.85" y="282.71" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">(Visakhapatnam)</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_21">
+      <path d="M 102.24 333.456133 
+L 720 333.456133 
+" clip-path="url(#p47e8bb3111)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m48b9135401" x="102.24" y="333.456133" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text x="62.70" y="337.26" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Oracle</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_8">
+    <path d="M 102.24 364.06275 
+L 102.24 59.21475 
+" style="fill: none; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 102.24 364.06275 
+L 720 364.06275 
+" style="fill: none; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_13">
+    <text x="411.12" y="92.44" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">$12.7B  ·  Mumbai + Hyderabad</text>
+   </g>
+   <g id="text_14">
+    <text x="596.45" y="153.35" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">$20.5B  ·  Hyderabad + Chennai + Pune + Bengaluru</text>
+   </g>
+   <g id="text_15">
+    <text x="465.77" y="214.26" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">$15.0B  ·  Jamnagar (1–2 GW)</text>
+   </g>
+   <g id="text_16">
+    <text x="465.77" y="275.17" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">$15.0B  ·  Visakhapatnam (3 campuses)</text>
+   </g>
+   <g id="text_17">
+    <text x="156.89" y="336.08" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">$2.0B  ·  Mumbai (Asia-South 1)</text>
+   </g>
+  </g>
+  <g id="text_18">
+   <text x="7.20" y="24.68" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">Hyperscaler India commitments through 2030</text>
+  </g>
+  <g id="text_19">
+   <text x="7.20" y="29.98" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-style="italic" fill="#4a5567">Cumulative announced capital expenditure, USD billions</text>
+  </g>
+  <g id="text_20">
+   <text x="569.60" y="13.28" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#c0c5cc">Figure 4 · Techadyant Labs · 2026</text>
+  </g>
+  <g id="text_21">
+   <text x="7.20" y="405.82" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Source: AWS Jan 2025 release; Microsoft Dec 2025; NVIDIA-Reliance Oct 2024; Google Oct 2025; Oracle Dec 2025.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p47e8bb3111">
+   <rect x="102.24" y="59.21475" width="617.76" height="304.848"/>
+  </clipPath>
+ </defs>
+</svg>

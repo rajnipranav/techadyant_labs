@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="753.910335pt" height="462.0625pt" viewBox="0 0 753.910335 462.0625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-28T08:59:34.895412</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 462.0625 
+L 753.910335 462.0625 
+L 753.910335 0 
+L 0 0 
+z
+" style="fill: #fbf9f4"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 281.545649 350.304033 
+C 301.022198 368.593731 324.681112 381.843358 350.452114 388.893507 
+C 376.223116 395.943666 403.331952 396.582514 429.406455 390.754167 
+C 455.480958 384.925821 479.737759 372.805392 500.054249 355.453463 
+C 520.370739 338.101535 536.13653 316.039444 545.972066 291.197717 
+C 555.807602 266.355988 559.417377 239.480984 556.485493 212.924377 
+C 553.553619 186.36777 544.168159 160.927415 529.150438 138.829512 
+C 514.132716 116.73161 493.933912 98.640067 470.321496 86.137944 
+C 446.709079 73.635821 420.392507 67.09875 393.67455 67.09875 
+L 393.674557 230.898879 
+z
+" style="fill: #c0c5cc; stroke: #fbf9f4; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 255.373543 143.13037 
+C 234.954129 175.306215 226.389807 213.620731 231.166037 251.428472 
+C 235.942267 289.236212 253.765946 324.21715 281.545649 350.304033 
+L 393.674557 230.898879 
+z
+" style="fill: #c9a84c; stroke: #fbf9f4; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 297.395287 98.38177 
+C 289.062833 104.435648 281.319904 111.261965 274.269422 118.769962 
+C 267.218941 126.277958 260.892288 134.434235 255.373543 143.13037 
+L 393.674557 230.898879 
+z
+" style="fill: #2bc5b4; stroke: #fbf9f4; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 333.375758 78.601351 
+C 326.994235 81.127972 320.777814 84.053188 314.763282 87.359707 
+C 308.748745 90.666226 302.947979 94.347508 297.395287 98.38177 
+L 393.674557 230.898879 
+z
+" style="fill: #95e2d9; stroke: #fbf9f4; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 393.674637 67.09875 
+C 383.375155 67.09875 373.098591 68.070154 362.98154 70.000085 
+C 352.864488 71.930015 342.951977 74.809861 333.375758 78.601351 
+L 393.674557 230.898879 
+z
+" style="fill: #e4d3a6; stroke: #fbf9f4; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_7">
+    <path d="M 610.504034 283.547344 
+Q 567.81435 282.866057 525.124666 282.184771 
+" style="fill: none; stroke: #c0c5cc; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text x="614.51" y="277.07" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">62%  ·  Wafer-fab equipment</text>
+    <text x="614.51" y="287.15" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">(ASML, AMAT, Lam, TEL, KLA)</text>
+    <text x="614.51" y="297.23" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">— mostly imported</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 162.034423 244.33179 
+Q 207.788168 246.297441 253.541913 248.263093 
+" style="fill: none; stroke: #c0c5cc; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text x="7.20" y="233.33" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">22%  ·  Facility / civil construction</text>
+    <text x="63.86" y="243.40" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">(L&amp;T-class EPC, MEP)</text>
+    <text x="118.39" y="253.48" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">— Indian</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 222.012769 112.064138 
+Q 256.147866 123.508674 290.282963 134.953209 
+" style="fill: none; stroke: #c0c5cc; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text x="121.67" y="87.40" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">6%  ·  Specialty gases</text>
+    <text x="139.46" y="97.48" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">(Linde India, Inox)</text>
+    <text x="158.81" y="107.56" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">— Indian + JV</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 242.131082 77.571574 
+Q 283.428501 92.883651 324.72592 108.195727 
+" style="fill: none; stroke: #c0c5cc; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text x="139.80" y="62.93" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">4%  ·  Ultrapure water systems</text>
+    <text x="239.60" y="73.01" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">— Indian</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 294.232018 58.651934 
+Q 330.006611 75.957028 365.781205 93.262123 
+" style="fill: none; stroke: #c0c5cc; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text x="188.59" y="43.83" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">6%  ·  Logistics, ancillary, operating</text>
+    <text x="262.22" y="53.91" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">workforce — Indian</text>
+   </g>
+   <g id="text_6">
+    <text x="341.13" y="217.79" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">Rs 91,000 cr</text>
+   </g>
+   <g id="text_7">
+    <text x="356.98" y="260.38" font-family="Arial, Helvetica, sans-serif" font-size="10.0" font-style="italic" fill="#4a5567">Tata–PSMC fab</text>
+   </g>
+   <g id="text_8">
+    <text x="359.96" y="286.90" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#c9a84c">~Rs 20–30k cr</text>
+    <text x="361.34" y="296.42" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#c9a84c">lands in India</text>
+   </g>
+  </g>
+  <g id="text_9">
+   <text x="35.29" y="24.68" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">Tata–PSMC fab capex: where the Rs 91,000 crore goes</text>
+  </g>
+  <g id="text_10">
+   <text x="35.29" y="32.00" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-style="italic" fill="#4a5567">Indicative share by line item; equipment OEMs capture two-thirds offshore</text>
+  </g>
+  <g id="text_11">
+   <text x="597.69" y="13.28" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#c0c5cc">Figure 8 · Techadyant Labs · 2026</text>
+  </g>
+  <g id="text_12">
+   <text x="35.29" y="453.20" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Source: McKinsey fab-economics 2024; Yole WFE 2024; ASML–Tata partnership May 2026; Construction Physics.</text>
+  </g>
+  <g id="text_13">
+   <text x="693.21" y="453.20" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#c9a84c">Indicative</text>
+  </g>
+ </g>
+</svg>

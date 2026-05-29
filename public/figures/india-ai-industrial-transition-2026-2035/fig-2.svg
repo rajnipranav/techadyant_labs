@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="711.36pt" height="462.0625pt" viewBox="0 0 711.36 462.0625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-28T08:57:02.096418</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 462.0625 
+L 711.36 462.0625 
+L 711.36 0 
+L 0 0 
+z
+" style="fill: #fbf9f4"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 365.58 230.89875 
+L 181.44 102.19875 
+" clip-path="url(#p44750e4590)" style="fill: none; stroke: #c9a84c; stroke-opacity: 0.6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 365.58 230.89875 
+L 549.72 102.19875 
+" clip-path="url(#p44750e4590)" style="fill: none; stroke: #2bc5b4; stroke-opacity: 0.6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 365.58 230.89875 
+L 623.376 282.37875 
+" clip-path="url(#p44750e4590)" style="fill: none; stroke: #c8443b; stroke-opacity: 0.6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 365.58 230.89875 
+L 365.58 380.19075 
+" clip-path="url(#p44750e4590)" style="fill: none; stroke: #c9a84c; stroke-opacity: 0.6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 365.58 230.89875 
+L 107.784 282.37875 
+" clip-path="url(#p44750e4590)" style="fill: none; stroke: #2bc5b4; stroke-opacity: 0.6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 365.58 279.80475 
+C 381.044258 279.80475 395.877222 274.651705 406.812104 265.480514 
+C 417.746985 256.309323 423.891 243.868773 423.891 230.89875 
+C 423.891 217.928727 417.746985 205.488177 406.812104 196.316986 
+C 395.877222 187.145795 381.044258 181.99275 365.58 181.99275 
+C 350.115742 181.99275 335.282778 187.145795 324.347896 196.316986 
+C 313.413015 205.488177 307.269 217.928727 307.269 230.89875 
+C 307.269 243.868773 313.413015 256.309323 324.347896 265.480514 
+C 335.282778 274.651705 350.115742 279.80475 365.58 279.80475 
+z
+" clip-path="url(#p44750e4590)" style="fill: #0f1828; stroke: #0f1828; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 120.06 133.08675 
+L 242.82 133.08675 
+Q 245.889 133.08675 245.889 130.51275 
+L 245.889 73.88475 
+Q 245.889 71.31075 242.82 71.31075 
+L 120.06 71.31075 
+Q 116.991 71.31075 116.991 73.88475 
+L 116.991 130.51275 
+Q 116.991 133.08675 120.06 133.08675 
+z
+" clip-path="url(#p44750e4590)" style="fill: #fbf9f4; stroke: #c9a84c; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text x="139.77" y="90.05" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Infrastructure-</text>
+    <text x="146.30" y="101.25" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">capital cycle</text>
+   </g>
+   <g id="text_2">
+    <text x="140.53" y="114.20" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">$50B+ hyperscaler</text>
+    <text x="121.74" y="123.72" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">commitments through 2030</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 488.34 133.08675 
+L 611.1 133.08675 
+Q 614.169 133.08675 614.169 130.51275 
+L 614.169 73.88475 
+Q 614.169 71.31075 611.1 71.31075 
+L 488.34 71.31075 
+Q 485.271 71.31075 485.271 73.88475 
+L 485.271 130.51275 
+Q 485.271 133.08675 488.34 133.08675 
+z
+" clip-path="url(#p44750e4590)" style="fill: #fbf9f4; stroke: #2bc5b4; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_3">
+    <text x="507.45" y="90.05" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Semiconductor</text>
+    <text x="500.15" y="101.25" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">sovereignty drive</text>
+   </g>
+   <g id="text_4">
+    <text x="514.15" y="114.20" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">ISM 12 projects /</text>
+    <text x="493.99" y="123.72" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">Rs 1.64L crore announced</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 561.996 313.26675 
+L 684.756 313.26675 
+Q 687.825 313.26675 687.825 310.69275 
+L 687.825 254.06475 
+Q 687.825 251.49075 684.756 251.49075 
+L 561.996 251.49075 
+Q 558.927 251.49075 558.927 254.06475 
+L 558.927 310.69275 
+Q 558.927 313.26675 561.996 313.26675 
+z
+" clip-path="url(#p44750e4590)" style="fill: #fbf9f4; stroke: #c8443b; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_5">
+    <text x="580.61" y="270.27" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Grid-and-water</text>
+    <text x="594.55" y="281.47" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">constraint</text>
+   </g>
+   <g id="text_6">
+    <text x="579.43" y="294.38" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">13→57 TWh by 2030</text>
+    <text x="567.58" y="303.90" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">on over-exploited aquifers</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 304.2 411.07875 
+L 426.96 411.07875 
+Q 430.029 411.07875 430.029 408.50475 
+L 430.029 351.87675 
+Q 430.029 349.30275 426.96 349.30275 
+L 304.2 349.30275 
+Q 301.131 349.30275 301.131 351.87675 
+L 301.131 408.50475 
+Q 301.131 411.07875 304.2 411.07875 
+z
+" clip-path="url(#p44750e4590)" style="fill: #fbf9f4; stroke: #c9a84c; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_7">
+    <text x="320.11" y="368.05" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Regional capital</text>
+    <text x="329.97" y="379.32" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">re-allocation</text>
+   </g>
+   <g id="text_8">
+    <text x="306.89" y="392.19" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">Seven competing corridors,</text>
+    <text x="328.30" y="401.71" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">five state policies</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 46.404 313.26675 
+L 169.164 313.26675 
+Q 172.233 313.26675 172.233 310.69275 
+L 172.233 254.06475 
+Q 172.233 251.49075 169.164 251.49075 
+L 46.404 251.49075 
+Q 43.335 251.49075 43.335 254.06475 
+L 43.335 310.69275 
+Q 43.335 313.26675 46.404 313.26675 
+z
+" clip-path="url(#p44750e4590)" style="fill: #fbf9f4; stroke: #2bc5b4; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_9">
+    <text x="78.79" y="270.27" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Workforce</text>
+    <text x="63.22" y="281.47" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">re-stratification</text>
+   </g>
+   <g id="text_10">
+    <text x="62.64" y="294.38" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">Tier-1 services −42k;</text>
+    <text x="74.62" y="303.90" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">GCC +110/year</text>
+   </g>
+   <g id="text_11">
+    <text x="346.99" y="216.86" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#fbf9f4">India's</text>
+    <text x="330.92" y="228.06" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#fbf9f4">AI Industrial</text>
+    <text x="337.53" y="239.26" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#fbf9f4">Transition</text>
+    <text x="335.25" y="250.45" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#fbf9f4">2026–2035</text>
+   </g>
+  </g>
+  <g id="text_12">
+   <text x="7.20" y="24.68" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">Five forces shaping India's AI transition (2026–2035)</text>
+  </g>
+  <g id="text_13">
+   <text x="7.20" y="32.00" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-style="italic" fill="#4a5567">Each force operates concurrently; the interaction effects are the subject of Parts II–VIII</text>
+  </g>
+  <g id="text_14">
+   <text x="569.60" y="13.28" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#c0c5cc">Figure 2 · Techadyant Labs · 2026</text>
+  </g>
+  <g id="text_15">
+   <text x="7.20" y="453.20" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Source: Techadyant Labs framework.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p44750e4590">
+   <rect x="58.68" y="50.71875" width="613.8" height="360.36"/>
+  </clipPath>
+ </defs>
+</svg>

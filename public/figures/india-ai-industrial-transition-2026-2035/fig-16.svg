@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="778.566388pt" height="631.2625pt" viewBox="0 0 778.566388 631.2625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-28T09:01:30.864773</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 631.2625 
+L 778.566388 631.2625 
+L 778.566388 0 
+L 0 0 
+z
+" style="fill: #fbf9f4"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 604.754197 115.01475 
+Q 570.330769 115.01475 535.907341 115.01475 
+" style="fill: none; stroke: #4a5567; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text x="608.75" y="117.77" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">4 · Second-order multiplier</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 604.757452 174.88995 
+Q 570.332443 174.88995 535.907433 174.88995 
+" style="fill: none; stroke: #4a5567; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text x="608.75" y="177.61" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">3 · Application-layer demand</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 604.749426 224.78595 
+Q 570.328316 224.78595 535.907207 224.78595 
+" style="fill: none; stroke: #4a5567; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text x="608.75" y="227.51" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">2 · Operational ecosystem</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 604.755007 274.68195 
+Q 570.331186 274.68195 535.907364 274.68195 
+" style="fill: none; stroke: #4a5567; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text x="608.75" y="277.40" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">1 · Direct supply chain</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 330.086582 314.59875 
+Q 229.539572 314.59875 126.756494 314.59875 
+" style="fill: none; stroke: #c9a84c; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 326.086582 312.59875 
+L 330.086582 314.59875 
+L 326.086582 316.59875 
+" style="fill: none; stroke: #c9a84c; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text x="107.23" y="294.64" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#c9a84c">CAPITAL FLOWS IN</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 569.587382 314.59875 
+Q 469.040372 314.59875 366.257294 314.59875 
+" style="fill: none; stroke: #2bc5b4; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 565.587382 312.59875 
+L 569.587382 314.59875 
+L 565.587382 316.59875 
+" style="fill: none; stroke: #2bc5b4; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text x="486.02" y="294.64" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#2bc5b4">VALUE FLOWS OUT</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 349.29 524.16195 
+C 404.86681 524.16195 458.17482 502.081049 497.47356 462.78231 
+C 536.772299 423.48357 558.8532 370.17556 558.8532 314.59875 
+C 558.8532 259.02194 536.772299 205.71393 497.47356 166.41519 
+C 458.17482 127.116451 404.86681 105.03555 349.29 105.03555 
+C 293.71319 105.03555 240.40518 127.116451 201.10644 166.41519 
+C 161.807701 205.71393 139.7268 259.02194 139.7268 314.59875 
+C 139.7268 370.17556 161.807701 423.48357 201.10644 462.78231 
+C 240.40518 502.081049 293.71319 524.16195 349.29 524.16195 
+z
+" clip-path="url(#p5b57c393b4)" style="fill: #c0c5cc; opacity: 0.55; stroke: #c0c5cc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 349.29 474.26595 
+C 391.634236 474.26595 432.249863 457.442407 462.19176 427.50051 
+C 492.133657 397.558613 508.9572 356.942986 508.9572 314.59875 
+C 508.9572 272.254514 492.133657 231.638887 462.19176 201.69699 
+C 432.249863 171.755093 391.634236 154.93155 349.29 154.93155 
+C 306.945764 154.93155 266.330137 171.755093 236.38824 201.69699 
+C 206.446343 231.638887 189.6228 272.254514 189.6228 314.59875 
+C 189.6228 356.942986 206.446343 397.558613 236.38824 427.50051 
+C 266.330137 457.442407 306.945764 474.26595 349.29 474.26595 
+z
+" clip-path="url(#p5b57c393b4)" style="fill: #e4d3a6; opacity: 0.55; stroke: #e4d3a6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 349.29 424.36995 
+C 378.401663 424.36995 406.324906 412.803764 426.90996 392.21871 
+C 447.495014 371.633656 459.0612 343.710413 459.0612 314.59875 
+C 459.0612 285.487087 447.495014 257.563844 426.90996 236.97879 
+C 406.324906 216.393736 378.401663 204.82755 349.29 204.82755 
+C 320.178337 204.82755 292.255094 216.393736 271.67004 236.97879 
+C 251.084986 257.563844 239.5188 285.487087 239.5188 314.59875 
+C 239.5188 343.710413 251.084986 371.633656 271.67004 392.21871 
+C 292.255094 412.803764 320.178337 424.36995 349.29 424.36995 
+z
+" clip-path="url(#p5b57c393b4)" style="fill: #95e2d9; opacity: 0.55; stroke: #95e2d9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 349.29 374.47395 
+C 365.169089 374.47395 380.399949 368.165121 391.62816 356.93691 
+C 402.856371 345.708699 409.1652 330.477839 409.1652 314.59875 
+C 409.1652 298.719661 402.856371 283.488801 391.62816 272.26059 
+C 380.399949 261.032379 365.169089 254.72355 349.29 254.72355 
+C 333.410911 254.72355 318.180051 261.032379 306.95184 272.26059 
+C 295.723629 283.488801 289.4148 298.719661 289.4148 314.59875 
+C 289.4148 330.477839 295.723629 345.708699 306.95184 356.93691 
+C 318.180051 368.165121 333.410911 374.47395 349.29 374.47395 
+z
+" clip-path="url(#p5b57c393b4)" style="fill: #c9a84c; opacity: 0.55; stroke: #c9a84c; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 349.29 339.54675 
+C 355.906287 339.54675 362.252479 336.918071 366.9309 332.23965 
+C 371.609321 327.561229 374.238 321.215037 374.238 314.59875 
+C 374.238 307.982463 371.609321 301.636271 366.9309 296.95785 
+C 362.252479 292.279429 355.906287 289.65075 349.29 289.65075 
+C 342.673713 289.65075 336.327521 292.279429 331.6491 296.95785 
+C 326.970679 301.636271 324.342 307.982463 324.342 314.59875 
+C 324.342 321.215037 326.970679 327.561229 331.6491 332.23965 
+C 336.327521 336.918071 342.673713 339.54675 349.29 339.54675 
+z
+" clip-path="url(#p5b57c393b4)" style="fill: #0f1828; opacity: 0.55; stroke: #0f1828; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_7">
+    <text x="300.31" y="305.32" font-family="Arial, Helvetica, sans-serif" font-size="11.0" fill="#fbf9f4">Compute · Semi</text>
+    <text x="305.39" y="317.63" font-family="Arial, Helvetica, sans-serif" font-size="11.0" fill="#fbf9f4">Power · Water</text>
+    <text x="333.27" y="329.95" font-family="Arial, Helvetica, sans-serif" font-size="11.0" fill="#fbf9f4">Fibre</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text x="7.20" y="24.68" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">AI Industrial Dependency Map — four concentric rings</text>
+  </g>
+  <g id="text_9">
+   <text x="7.20" y="39.20" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-style="italic" fill="#4a5567">Capital flows inward, value flows outward; corridors capturing rings 2-3 capture most macro value</text>
+  </g>
+  <g id="text_10">
+   <text x="532.83" y="13.28" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#c0c5cc">Figure 16 · Techadyant Labs · 2026</text>
+  </g>
+  <g id="text_11">
+   <text x="7.20" y="622.40" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Source: Techadyant Labs framework.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5b57c393b4">
+   <rect x="99.81" y="65.11875" width="498.96" height="498.96"/>
+  </clipPath>
+ </defs>
+</svg>

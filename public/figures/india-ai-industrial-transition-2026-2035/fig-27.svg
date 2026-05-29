@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="711.36pt" height="563.5825pt" viewBox="0 0 711.36 563.5825" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-28T09:33:25.017972</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 563.5825 
+L 711.36 563.5825 
+L 711.36 0 
+L 0 0 
+z
+" style="fill: #fbf9f4"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 121.633846 262.63875 
+L 383.941538 262.63875 
+L 383.941538 77.83875 
+L 121.633846 77.83875 
+z
+" clip-path="url(#p308cbc93e1)" style="fill: #e4d3a6; opacity: 0.3"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 383.941538 262.63875 
+L 646.249231 262.63875 
+L 646.249231 77.83875 
+L 383.941538 77.83875 
+z
+" clip-path="url(#p308cbc93e1)" style="fill: #c8443b; opacity: 0.3"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 121.633846 447.43875 
+L 383.941538 447.43875 
+L 383.941538 262.63875 
+L 121.633846 262.63875 
+z
+" clip-path="url(#p308cbc93e1)" style="fill: #e8e5dd; opacity: 0.4"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 383.941538 447.43875 
+L 646.249231 447.43875 
+L 646.249231 262.63875 
+L 383.941538 262.63875 
+z
+" clip-path="url(#p308cbc93e1)" style="fill: #e4d3a6; opacity: 0.2"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 121.633846 262.63875 
+L 646.249231 262.63875 
+" clip-path="url(#p308cbc93e1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #0f1828; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 383.941538 447.43875 
+L 383.941538 77.83875 
+" clip-path="url(#p308cbc93e1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #0f1828; stroke-width: 0.8"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 123.631093 462.22275 
+Q 383.941353 462.22275 643.13358 462.22275 
+" style="fill: none; stroke: #0f1828; stroke-linecap: round"/>
+    <path d="M 639.13358 460.22275 
+L 643.13358 462.22275 
+L 639.13358 464.22275 
+" style="fill: none; stroke: #0f1828; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text x="264.30" y="484.40" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Likelihood (probability over 2026-2030)  →</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 100.649231 445.439495 
+Q 100.649231 262.638952 100.649231 80.956443 
+" style="fill: none; stroke: #0f1828; stroke-linecap: round"/>
+    <path d="M 98.649231 84.956443 
+L 100.649231 80.956443 
+L 102.649231 84.956443 
+" style="fill: none; stroke: #0f1828; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text x="77.14" y="264.80" transform="rotate(-90.0 77.14 264.80)" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Severity (impact on base case)  →</text>
+   </g>
+   <g id="text_3">
+    <text x="155.56" y="96.32" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#c9a84c">HIGH SEVERITY · LOW LIKELIHOOD</text>
+   </g>
+   <g id="text_4">
+    <text x="416.31" y="96.32" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#c8443b">HIGH SEVERITY · HIGH LIKELIHOOD</text>
+   </g>
+   <g id="text_5">
+    <text x="157.12" y="428.96" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">LOW SEVERITY · LOW LIKELIHOOD</text>
+   </g>
+   <g id="text_6">
+    <text x="417.87" y="428.96" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#c9a84c">LOW SEVERITY · HIGH LIKELIHOOD</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="mc8c21a098d" d="M 0 10 
+C 2.652031 10 5.195799 8.946337 7.071068 7.071068 
+C 8.946337 5.195799 10 2.652031 10 0 
+C 10 -2.652031 8.946337 -5.195799 7.071068 -7.071068 
+C 5.195799 -8.946337 2.652031 -10 0 -10 
+C -2.652031 -10 -5.195799 -8.946337 -7.071068 -7.071068 
+C -8.946337 -5.195799 -10 -2.652031 -10 0 
+C -10 2.652031 -8.946337 5.195799 -7.071068 7.071068 
+C -5.195799 8.946337 -2.652031 10 0 10 
+z
+" style="stroke: #0f1828; stroke-opacity: 0.9; stroke-width: 1.2"/>
+    </defs>
+    <g clip-path="url(#p308cbc93e1)">
+     <use xlink:href="#mc8c21a098d" x="174.095385" y="96.31875" style="fill: #c8443b; fill-opacity: 0.9; stroke: #0f1828; stroke-opacity: 0.9; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <text x="187.21" y="98.80" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">Taiwan Strait</text>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#p308cbc93e1)">
+     <use xlink:href="#mc8c21a098d" x="252.787692" y="170.23875" style="fill: #c8443b; fill-opacity: 0.9; stroke: #0f1828; stroke-opacity: 0.9; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_8">
+    <text x="265.90" y="172.72" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">US AI Diffusion re-impose</text>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#p308cbc93e1)">
+     <use xlink:href="#mc8c21a098d" x="226.556923" y="188.71875" style="fill: #c8443b; fill-opacity: 0.9; stroke: #0f1828; stroke-opacity: 0.9; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <text x="239.67" y="191.17" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">Hyperscaler capex retrench</text>
+   </g>
+   <g id="PathCollection_4">
+    <g clip-path="url(#p308cbc93e1)">
+     <use xlink:href="#mc8c21a098d" x="279.018462" y="151.75875" style="fill: #c8443b; fill-opacity: 0.9; stroke: #0f1828; stroke-opacity: 0.9; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_10">
+    <text x="292.13" y="154.24" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">Water-stress shutdown</text>
+   </g>
+   <g id="PathCollection_5">
+    <defs>
+     <path id="mccb6d733d8" d="M 0 10 
+C 2.652031 10 5.195799 8.946337 7.071068 7.071068 
+C 8.946337 5.195799 10 2.652031 10 0 
+C 10 -2.652031 8.946337 -5.195799 7.071068 -7.071068 
+C 5.195799 -8.946337 2.652031 -10 0 -10 
+C -2.652031 -10 -5.195799 -8.946337 -7.071068 -7.071068 
+C -8.946337 -5.195799 -10 -2.652031 -10 0 
+C -10 2.652031 -8.946337 5.195799 -7.071068 7.071068 
+C -5.195799 8.946337 -2.652031 10 0 10 
+z
+" style="stroke: #0f1828; stroke-opacity: 0.9; stroke-width: 1.2"/>
+    </defs>
+    <g clip-path="url(#p308cbc93e1)">
+     <use xlink:href="#mccb6d733d8" x="279.018462" y="225.67875" style="fill: #c9a84c; fill-opacity: 0.9; stroke: #0f1828; stroke-opacity: 0.9; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <text x="292.13" y="228.16" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">Chinese input retaliation</text>
+   </g>
+   <g id="PathCollection_6">
+    <g clip-path="url(#p308cbc93e1)">
+     <use xlink:href="#mccb6d733d8" x="331.48" y="244.15875" style="fill: #c9a84c; fill-opacity: 0.9; stroke: #0f1828; stroke-opacity: 0.9; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <text x="344.60" y="246.61" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">Hyperscaler oversupply</text>
+   </g>
+   <g id="PathCollection_7">
+    <g clip-path="url(#p308cbc93e1)">
+     <use xlink:href="#mccb6d733d8" x="383.941538" y="281.11875" style="fill: #c9a84c; fill-opacity: 0.9; stroke: #0f1828; stroke-opacity: 0.9; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <text x="397.06" y="283.60" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">Grid curtailment</text>
+   </g>
+   <g id="PathCollection_8">
+    <defs>
+     <path id="mc881070fbe" d="M 0 10 
+C 2.652031 10 5.195799 8.946337 7.071068 7.071068 
+C 8.946337 5.195799 10 2.652031 10 0 
+C 10 -2.652031 8.946337 -5.195799 7.071068 -7.071068 
+C 5.195799 -8.946337 2.652031 -10 0 -10 
+C -2.652031 -10 -5.195799 -8.946337 -7.071068 -7.071068 
+C -8.946337 -5.195799 -10 -2.652031 -10 0 
+C -10 2.652031 -8.946337 5.195799 -7.071068 7.071068 
+C -5.195799 8.946337 -2.652031 10 0 10 
+z
+" style="stroke: #0f1828; stroke-opacity: 0.9; stroke-width: 1.2"/>
+    </defs>
+    <g clip-path="url(#p308cbc93e1)">
+     <use xlink:href="#mc881070fbe" x="436.403077" y="318.07875" style="fill: #2bc5b4; fill-opacity: 0.9; stroke: #0f1828; stroke-opacity: 0.9; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_14">
+    <text x="449.52" y="320.53" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">Data-localisation tighten</text>
+   </g>
+  </g>
+  <g id="text_15">
+   <text x="7.20" y="24.68" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">Failure-mode severity-likelihood matrix — eight stress tests</text>
+  </g>
+  <g id="text_16">
+   <text x="7.20" y="36.32" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-style="italic" fill="#4a5567">Each test corresponds to Section 38A; position reflects probability-weighted impact on base case</text>
+  </g>
+  <g id="text_17">
+   <text x="564.51" y="13.28" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#c0c5cc">Figure 27 · Techadyant Labs · 2026</text>
+  </g>
+  <g id="text_18">
+   <text x="7.20" y="554.72" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Source: Techadyant Labs strategic-risk framework, Section 38A.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p308cbc93e1">
+   <rect x="58.68" y="59.35875" width="613.8" height="443.52"/>
+  </clipPath>
+ </defs>
+</svg>

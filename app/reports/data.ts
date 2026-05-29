@@ -44,6 +44,24 @@ const synced: Record<string, SyncedMeta> = metaJson as Record<string, SyncedMeta
  *  `npm run sync-meta` after a PDF is added/updated. */
 const baseReports: ReportMeta[] = [
   {
+    slug: 'india-ai-industrial-transition-2026-2035',
+    title: 'India’s AI Industrial Transition and Infrastructure Transformation',
+    subtitle:
+      'A strategic-intelligence map of compute, semiconductors, power, water, regional corridors, and the second-order industrial reshaping of India',
+    domain: 'AI Infrastructure',
+    edition: 'Edition 01 · Baseline Architecture · v1.0',
+    published: '2026-05-29',
+    publishedLabel: 'May 2026',
+    readingTime: '3h read',
+    status: 'published',
+    accent: '#6366F1',
+    summary:
+      'A baseline architecture for India’s 2026–2035 AI industrial transition: ten anchor numbers, six theses, nine analytical frameworks, seven regional corridors, three scenarios, and eight failure-mode stress tests. The transition is treated as a re-layering of compute, semiconductors, power, water, fibre, real-estate and skilled labour — not as a workforce or careers story.',
+    access: 'free',
+    hasPdf: true,
+    cover: '/covers/india-ai-industrial-transition-2026-2035.jpg',
+  },
+  {
     slug: 'india-fab-ecosystem',
     title: 'Who Really Benefits from India’s Fab Ecosystem?',
     subtitle: 'The Hidden Industrial Transformation Behind India’s Semiconductor Mission',

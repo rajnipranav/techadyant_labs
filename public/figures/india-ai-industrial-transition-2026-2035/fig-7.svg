@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="759.270156pt" height="462.0625pt" viewBox="0 0 759.270156 462.0625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-28T08:59:34.142163</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 462.0625 
+L 759.270156 462.0625 
+L 759.270156 0 
+L 0 0 
+z
+" style="fill: #fbf9f4"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 102.630156 415.75875 
+L 752.070156 415.75875 
+L 752.070156 64.75875 
+L 102.630156 64.75875 
+z
+" style="fill: #fbf9f4"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 102.630156 80.713295 
+L 639.894156 80.713295 
+L 639.894156 106.387277 
+L 102.630156 106.387277 
+z
+" clip-path="url(#p95372ff3d1)" style="fill: #0f1828; stroke: #0f1828; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 102.630156 117.390411 
+L 262.746636 117.390411 
+L 262.746636 143.064393 
+L 102.630156 143.064393 
+z
+" clip-path="url(#p95372ff3d1)" style="fill: #c9a84c; stroke: #0f1828; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 102.630156 154.067527 
+L 235.56462 154.067527 
+L 235.56462 179.741509 
+L 102.630156 179.741509 
+z
+" clip-path="url(#p95372ff3d1)" style="fill: #c9a84c; stroke: #0f1828; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 102.630156 190.744643 
+L 147.500556 190.744643 
+L 147.500556 216.418625 
+L 102.630156 216.418625 
+z
+" clip-path="url(#p95372ff3d1)" style="fill: #c9a84c; stroke: #0f1828; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 102.630156 227.421759 
+L 124.51038 227.421759 
+L 124.51038 253.095741 
+L 102.630156 253.095741 
+z
+" clip-path="url(#p95372ff3d1)" style="fill: #c9a84c; stroke: #0f1828; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 102.630156 264.098875 
+L 122.154684 264.098875 
+L 122.154684 289.772857 
+L 102.630156 289.772857 
+z
+" clip-path="url(#p95372ff3d1)" style="fill: #c9a84c; stroke: #0f1828; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 102.630156 300.775991 
+L 129.198156 300.775991 
+L 129.198156 326.449973 
+L 102.630156 326.449973 
+z
+" clip-path="url(#p95372ff3d1)" style="fill: #2bc5b4; stroke: #0f1828; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 102.630156 337.453107 
+L 107.754828 337.453107 
+L 107.754828 363.127089 
+L 102.630156 363.127089 
+z
+" clip-path="url(#p95372ff3d1)" style="fill: #c9a84c; stroke: #0f1828; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 102.630156 374.130223 
+L 129.788556 374.130223 
+L 129.788556 399.804205 
+L 102.630156 399.804205 
+z
+" clip-path="url(#p95372ff3d1)" style="fill: #4a5567; stroke: #0f1828; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 102.630156 415.75875 
+L 102.630156 64.75875 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m29c0ca8b79" d="M 0 0 
+L 0 3.5 
+" style="stroke: #4a5567; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m29c0ca8b79" x="102.630156" y="415.75875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text x="99.45" y="430.36" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 220.710156 415.75875 
+L 220.710156 64.75875 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m29c0ca8b79" x="220.710156" y="415.75875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text x="204.80" y="430.36" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">20000</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 338.790156 415.75875 
+L 338.790156 64.75875 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m29c0ca8b79" x="338.790156" y="415.75875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text x="322.88" y="430.36" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">40000</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 456.870156 415.75875 
+L 456.870156 64.75875 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m29c0ca8b79" x="456.870156" y="415.75875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text x="440.96" y="430.36" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">60000</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 574.950156 415.75875 
+L 574.950156 64.75875 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m29c0ca8b79" x="574.950156" y="415.75875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text x="559.04" y="430.36" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">80000</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 693.030156 415.75875 
+L 693.030156 64.75875 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m29c0ca8b79" x="693.030156" y="415.75875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text x="673.94" y="430.36" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">100000</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text x="346.81" y="444.80" font-family="Arial, Helvetica, sans-serif" font-size="11.0" fill="#0f1828">Announced capex (INR crore)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <path d="M 102.630156 93.550286 
+L 752.070156 93.550286 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_14">
+      <defs>
+       <path id="mdfdc8d6ba4" d="M 0 0 
+L -3.5 0 
+" style="stroke: #4a5567; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mdfdc8d6ba4" x="102.630156" y="93.550286" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text x="44.69" y="92.56" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Tata–PSMC</text>
+      <text x="40.05" y="103.20" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Dholera fab</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_15">
+      <path d="M 102.630156 130.227402 
+L 752.070156 130.227402 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#mdfdc8d6ba4" x="102.630156" y="130.227402" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text x="49.89" y="129.24" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Tata-TSAT</text>
+      <text x="56.98" y="139.88" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Jagiroad</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_17">
+      <path d="M 102.630156 166.904518 
+L 752.070156 166.904518 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#mdfdc8d6ba4" x="102.630156" y="166.904518" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text x="64.05" y="165.92" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Micron</text>
+      <text x="59.88" y="176.55" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Sanand</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_19">
+      <path d="M 102.630156 203.581634 
+L 752.070156 203.581634 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#mdfdc8d6ba4" x="102.630156" y="203.581634" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text x="54.85" y="202.59" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">CG Semi</text>
+      <text x="59.88" y="213.23" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Sanand</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_21">
+      <path d="M 102.630156 240.25875 
+L 752.070156 240.25875 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#mdfdc8d6ba4" x="102.630156" y="240.25875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text x="34.13" y="239.27" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">HCL-Foxconn</text>
+      <text x="38.03" y="249.91" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Jewar/YEIDA</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_23">
+      <path d="M 102.630156 276.935866 
+L 752.070156 276.935866 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#mdfdc8d6ba4" x="102.630156" y="276.935866" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text x="61.31" y="275.95" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Kaynes</text>
+      <text x="59.88" y="286.59" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Sanand</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_25">
+      <path d="M 102.630156 313.612982 
+L 752.070156 313.612982 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#mdfdc8d6ba4" x="102.630156" y="313.612982" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text x="43.52" y="312.63" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">SCL Mohali</text>
+      <text x="7.20" y="323.26" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">(non-ISM upgrade)</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_27">
+      <path d="M 102.630156 350.290098 
+L 752.070156 350.290098 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#mdfdc8d6ba4" x="102.630156" y="350.290098" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text x="25.85" y="349.30" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Suchi Semicon</text>
+      <text x="70.13" y="359.94" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Surat</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_29">
+      <path d="M 102.630156 386.967214 
+L 752.070156 386.967214 
+" clip-path="url(#p95372ff3d1)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#mdfdc8d6ba4" x="102.630156" y="386.967214" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text x="35.07" y="385.98" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">ASIP / others</text>
+      <text x="21.31" y="396.62" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#4a5567">Tranche Aug-25</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_12">
+    <path d="M 102.630156 415.75875 
+L 102.630156 64.75875 
+" style="fill: none; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 102.630156 415.75875 
+L 752.070156 415.75875 
+" style="fill: none; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_17">
+    <text x="648.75" y="96.03" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#4a5567">Rs 91,000 cr · Fab</text>
+   </g>
+   <g id="text_18">
+    <text x="271.60" y="132.71" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#4a5567">Rs 27,120 cr · OSAT</text>
+   </g>
+   <g id="text_19">
+    <text x="244.42" y="169.39" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#4a5567">Rs 22,516 cr · OSAT</text>
+   </g>
+   <g id="text_20">
+    <text x="156.36" y="206.07" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#4a5567">Rs 7,600 cr · OSAT</text>
+   </g>
+   <g id="text_21">
+    <text x="133.37" y="242.74" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#4a5567">Rs 3,706 cr · OSAT</text>
+   </g>
+   <g id="text_22">
+    <text x="131.01" y="279.42" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#4a5567">Rs 3,307 cr · OSAT</text>
+   </g>
+   <g id="text_23">
+    <text x="138.05" y="316.10" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#4a5567">Rs 4,500 cr · Fab (legacy)</text>
+   </g>
+   <g id="text_24">
+    <text x="116.61" y="352.77" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#4a5567">Rs 868 cr · OSAT</text>
+   </g>
+   <g id="text_25">
+    <text x="138.64" y="389.45" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#4a5567">Rs 4,600 cr · Mixed</text>
+   </g>
+   <g id="text_26">
+    <text x="102.63" y="412.64" font-family="Arial, Helvetica, sans-serif" font-size="9.0" font-style="italic" fill="#4a5567">Cumulative announced: ~Rs 1.65 lakh crore  ·  ISM 2.0 added Rs 1,000 cr line for FY26-27</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_14">
+     <path d="M 582.421719 360.644687 
+L 602.421719 360.644687 
+L 602.421719 353.644687 
+L 582.421719 353.644687 
+z
+" style="fill: #0f1828; stroke: #0f1828; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_27">
+     <text x="610.42" y="360.64" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Fab (leading mature node)</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 582.421719 375.322812 
+L 602.421719 375.322812 
+L 602.421719 368.322812 
+L 582.421719 368.322812 
+z
+" style="fill: #c9a84c; stroke: #c9a84c; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_28">
+     <text x="610.42" y="375.32" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">OSAT / ATMP</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 582.421719 390.000937 
+L 602.421719 390.000937 
+L 602.421719 383.000937 
+L 582.421719 383.000937 
+z
+" style="fill: #2bc5b4; stroke: #2bc5b4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_29">
+     <text x="610.42" y="390.00" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Legacy fab upgrade</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 582.421719 404.679062 
+L 602.421719 404.679062 
+L 602.421719 397.679062 
+L 582.421719 397.679062 
+z
+" style="fill: #4a5567; stroke: #4a5567; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_30">
+     <text x="610.42" y="404.68" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Mixed tranche</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_31">
+   <text x="31.35" y="24.68" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">India Semiconductor Mission: 12 approved projects</text>
+  </g>
+  <g id="text_32">
+   <text x="31.35" y="32.00" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-style="italic" fill="#4a5567">Capex by project, May 2026 status. Tata-PSMC Dholera dominates aggregate; OSATs dominate count</text>
+  </g>
+  <g id="text_33">
+   <text x="593.75" y="13.28" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#c0c5cc">Figure 7 · Techadyant Labs · 2026</text>
+  </g>
+  <g id="text_34">
+   <text x="31.35" y="453.20" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Source: PIB PRID 2258119, 2128604, 2050859, 2161666, 2093860, 2198056, 2196011, 2155456; Micron 8-K; Tata Electronics releases.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p95372ff3d1">
+   <rect x="102.630156" y="64.75875" width="649.44" height="351"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -8,11 +8,13 @@ import { PremiumBody } from '../../components/PremiumBody';
 import { ReportCover } from '../../components/ReportCover';
 import { ReportReader, type TocItem } from '../../components/ReportReader';
 import { ReportContent as FabContent, toc as fabToc } from '../content/india-fab-ecosystem';
+import { ReportContent as AiTransitionContent, toc as aiTransitionToc } from '../content/india-ai-industrial-transition-2026-2035';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
 const registry: Record<string, ReportModule> = {
   'india-fab-ecosystem': { toc: fabToc, Content: FabContent },
+  'india-ai-industrial-transition-2026-2035': { toc: aiTransitionToc, Content: AiTransitionContent },
 };
 
 export function generateStaticParams() {
@@ -26,6 +28,50 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: r.title, description: r.summary };
 }
 
+function articleJsonLd(meta: ReturnType<typeof getReport>) {
+  if (!meta) return null;
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: meta.title,
+    alternativeHeadline: meta.subtitle,
+    description: meta.summary,
+    inLanguage: 'en-IN',
+    datePublished: meta.published,
+    dateModified: meta.published,
+    isAccessibleForFree: meta.access === 'free',
+    keywords: [
+      meta.domain,
+      'India AI infrastructure',
+      'India semiconductors',
+      'India data centres',
+      'strategic intelligence',
+      'industrial systems',
+    ].join(', '),
+    image: meta.cover ? `https://labs.techadyant.com${meta.cover}` : undefined,
+    url: `https://labs.techadyant.com/reports/${meta.slug}`,
+    author: {
+      '@type': 'Organization',
+      name: 'Techadyant Labs',
+      url: 'https://labs.techadyant.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Techadyant Labs',
+      url: 'https://labs.techadyant.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://labs.techadyant.com/logo.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://labs.techadyant.com/reports/${meta.slug}`,
+    },
+  };
+  return JSON.stringify(data);
+}
+
 export default async function ReportPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const meta = getReport(slug);
@@ -33,9 +79,17 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
 
   const mod = registry[slug];
   const published = meta.status === 'published';
+  const ldJson = articleJsonLd(meta);
 
   return (
     <>
+      {ldJson && (
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: ldJson }}
+        />
+      )}
       <header className="report-hero">
         <div className="inner">
           <div className="report-hero-grid">

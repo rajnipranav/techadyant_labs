@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="770.630937pt" height="462.0625pt" viewBox="0 0 770.630937 462.0625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-28T08:59:36.926981</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 462.0625 
+L 770.630937 462.0625 
+L 770.630937 0 
+L 0 0 
+z
+" style="fill: #fbf9f4"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 161.510937 401.71875 
+L 636.710938 401.71875 
+L 636.710938 64.75875 
+L 161.510937 64.75875 
+z
+" style="fill: #fbf9f4"/>
+   </g>
+   <g clip-path="url(#pb20099500d)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAfMAAAHVCAYAAADl+hJgAAAIDUlEQVR4nO3XsW0TUBSGUYI8QDpTYbGFO5c0kdiFQdKwBANY6d0gj0BrKtK5oE+GQH5Xn3zOBH/z3qf78PvXj7cP3JXL9jA9gYW+//0zPQG4sY/TAwCA/yPmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQt7lsD9MbWGz3epqewFJfpgcAN+YyB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgDgxB4A4MQeAODEHgLjN7vU0vQG4oedPn6cnsJh//f64zAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBOzAEgTswBIE7MASBuMz2A9a7n4/QEVvp2mF4A3JjLHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOLEHADixBwA4sQcAOI21/NxegOrvfybXsBCu/1pegJwYy5zAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiNs87p+mN7DY9eXn9AQWumwP0xNYbPd6mp7AYi5zAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiBNzAIgTcwCIE3MAiHs4P399mx7BWo/7p+kJLHQ9H6cnsJg3fn9c5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABAn5gAQJ+YAECfmABD3Doy6JgcJHn8DAAAAAElFTkSuQmCC" id="image498ab495bf" transform="scale(1 -1) translate(0 -337.68)" x="161.510937" y="-64.03875" width="359.28" height="337.68"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 206.341126 401.71875 
+L 206.341126 64.75875 
+" clip-path="url(#pb20099500d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mf34ffe0aee" d="M 0 0 
+L 0 3.5 
+" style="stroke: #4a5567; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mf34ffe0aee" x="206.341126" y="401.71875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text x="195.85" y="416.32" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Grid</text>
+      <text x="180.93" y="427.51" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">headroom</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 296.001504 401.71875 
+L 296.001504 64.75875 
+" clip-path="url(#pb20099500d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mf34ffe0aee" x="296.001504" y="401.71875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text x="281.22" y="416.32" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Water</text>
+      <text x="281.21" y="427.51" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">stress</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 385.661881 401.71875 
+L 385.661881 64.75875 
+" clip-path="url(#pb20099500d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mf34ffe0aee" x="385.661881" y="401.71875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text x="373.40" y="416.32" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Tariff</text>
+      <text x="367.93" y="427.51" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">burden</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 475.322258 401.71875 
+L 475.322258 64.75875 
+" clip-path="url(#pb20099500d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mf34ffe0aee" x="475.322258" y="401.71875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text x="457.75" y="416.32" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">RE-PPA</text>
+      <text x="458.47" y="427.51" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">access</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <path d="M 161.510937 88.827321 
+L 636.710938 88.827321 
+" clip-path="url(#pb20099500d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_10">
+      <defs>
+       <path id="me3631277a2" d="M 0 0 
+L -3.5 0 
+" style="stroke: #4a5567; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#me3631277a2" x="161.510937" y="88.827321" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text x="35.10" y="92.63" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Mumbai City+Suburban</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_11">
+      <path d="M 161.510937 136.964464 
+L 636.710938 136.964464 
+" clip-path="url(#pb20099500d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#me3631277a2" x="161.510937" y="136.964464" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text x="35.82" y="140.76" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Hyderabad/Rangareddy</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13">
+      <path d="M 161.510937 185.101607 
+L 636.710938 185.101607 
+" clip-path="url(#pb20099500d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#me3631277a2" x="161.510937" y="185.101607" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text x="35.46" y="188.90" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Bengaluru Urban+Rural</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_15">
+      <path d="M 161.510937 233.23875 
+L 636.710938 233.23875 
+" clip-path="url(#pb20099500d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#me3631277a2" x="161.510937" y="233.23875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text x="76.27" y="237.04" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Chennai cluster</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17">
+      <path d="M 161.510937 281.375893 
+L 636.710938 281.375893 
+" clip-path="url(#pb20099500d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#me3631277a2" x="161.510937" y="281.375893" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text x="7.20" y="285.18" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Gautam Buddha Nagar (NCR)</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_19">
+      <path d="M 161.510937 329.513036 
+L 636.710938 329.513036 
+" clip-path="url(#pb20099500d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#me3631277a2" x="161.510937" y="329.513036" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text x="26.04" y="333.31" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Ahmedabad/Gandhinagar</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_21">
+      <path d="M 161.510937 377.650179 
+L 636.710938 377.650179 
+" clip-path="url(#pb20099500d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#me3631277a2" x="161.510937" y="377.650179" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text x="43.50" y="381.45" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Visakhapatnam Urban</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 161.510937 401.71875 
+L 161.510937 64.75875 
+" style="fill: none; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 161.510937 401.71875 
+L 636.710938 401.71875 
+" style="fill: none; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text x="202.17" y="92.14" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#fbf9f4">4</text>
+   </g>
+   <g id="text_13">
+    <text x="291.83" y="92.14" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_14">
+    <text x="381.49" y="92.14" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#fbf9f4">4</text>
+   </g>
+   <g id="text_15">
+    <text x="471.15" y="92.14" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_16">
+    <text x="202.17" y="140.28" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_17">
+    <text x="291.83" y="140.28" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#fbf9f4">5</text>
+   </g>
+   <g id="text_18">
+    <text x="381.49" y="140.28" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">2</text>
+   </g>
+   <g id="text_19">
+    <text x="471.15" y="140.28" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_20">
+    <text x="202.17" y="188.41" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#fbf9f4">4</text>
+   </g>
+   <g id="text_21">
+    <text x="291.83" y="188.41" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#fbf9f4">5</text>
+   </g>
+   <g id="text_22">
+    <text x="381.49" y="188.41" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_23">
+    <text x="471.15" y="188.41" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_24">
+    <text x="202.17" y="236.55" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_25">
+    <text x="291.83" y="236.55" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#fbf9f4">4</text>
+   </g>
+   <g id="text_26">
+    <text x="381.49" y="236.55" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">2</text>
+   </g>
+   <g id="text_27">
+    <text x="471.15" y="236.55" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_28">
+    <text x="202.17" y="284.69" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_29">
+    <text x="291.83" y="284.69" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_30">
+    <text x="381.49" y="284.69" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">2</text>
+   </g>
+   <g id="text_31">
+    <text x="471.15" y="284.69" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_32">
+    <text x="202.17" y="332.82" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">2</text>
+   </g>
+   <g id="text_33">
+    <text x="291.83" y="332.82" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_34">
+    <text x="381.49" y="332.82" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">1</text>
+   </g>
+   <g id="text_35">
+    <text x="471.15" y="332.82" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">1</text>
+   </g>
+   <g id="text_36">
+    <text x="202.17" y="380.96" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">3</text>
+   </g>
+   <g id="text_37">
+    <text x="291.83" y="380.96" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">2</text>
+   </g>
+   <g id="text_38">
+    <text x="381.49" y="380.96" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">1</text>
+   </g>
+   <g id="text_39">
+    <text x="471.15" y="380.96" font-family="Arial, Helvetica, sans-serif" font-size="12.0" fill="#0f1828">1</text>
+   </g>
+   <g id="text_40">
+    <text x="573.95" y="91.59" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Σ 14</text>
+   </g>
+   <g id="text_41">
+    <text x="573.95" y="139.72" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Σ 13</text>
+   </g>
+   <g id="text_42">
+    <text x="573.95" y="187.86" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Σ 15</text>
+   </g>
+   <g id="text_43">
+    <text x="573.95" y="236.00" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Σ 12</text>
+   </g>
+   <g id="text_44">
+    <text x="573.95" y="284.14" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Σ 11</text>
+   </g>
+   <g id="text_45">
+    <text x="573.95" y="332.27" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Σ 7</text>
+   </g>
+   <g id="text_46">
+    <text x="573.95" y="380.41" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Σ 7</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 666.410938 334.32675 
+L 676.519738 334.32675 
+L 676.519738 132.15075 
+L 666.410938 132.15075 
+z
+" style="fill: #fbf9f4"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAEZCAYAAACn7BRGAAABaUlEQVR4nO2YyxEDMQhD2U83aT8tpK11KtgcHrMisvFdI8ACGW+vz3sEODsBRUScFHnu28aAh5yR5xg0R4ZLMOrvkTJyrR4+AtipAI75BaAfHZnxqBYAnzmM0EoAmFFenApHNnIrH39cwHQSjtwCeIDRqK3o6KhwZMyo33Qw0MfKE8WRO3K/5f6JcQHTsdqRffxxhW+Zgh1ZLoAYFwOOQN+rCUYeKmakOXJGCOSS88nxjEFDDX2oNm2VuEcWakar+hxX0KpNqEMvOe4dLv1oFSqfqzaOTEXO71HejyVtNb3kChw58bSWu1VBqCto1caR5TmWbKw+baVekSoega3VH4xGq676k8RLq/qfQITLAC+cI2VUAzOSw0BaVSYcp+vITHLKqK6qleRsqmpVHJuqZrTqU9WC6+ji3J2W3CPAMf9bzmrKOfkjBnZxfgD1/zkU6HQdPlOuoKo+kpu/qlbDSv3QtZJc/8vdni/Yth6FAbgunQAAAABJRU5ErkJggg==" id="imagec676fcae72" transform="scale(1 -1) translate(0 -202.32)" x="666.72" y="-131.76" width="10.08" height="202.32"/>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_23">
+      <defs>
+       <path id="m81877a63d9" d="M 0 0 
+L 3.5 0 
+" style="stroke: #4a5567; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m81877a63d9" x="676.519738" y="334.32675" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_47">
+      <text x="683.52" y="338.13" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">1</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m81877a63d9" x="676.519738" y="283.78275" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_48">
+      <text x="683.52" y="287.58" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">2</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m81877a63d9" x="676.519738" y="233.23875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_49">
+      <text x="683.52" y="237.04" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">3</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m81877a63d9" x="676.519738" y="182.69475" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_50">
+      <text x="683.52" y="186.49" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">4</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m81877a63d9" x="676.519738" y="132.15075" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_51">
+      <text x="683.52" y="135.95" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">5</text>
+     </g>
+    </g>
+    <g id="text_52">
+     <text x="698.04" y="131.73" transform="rotate(-270.0 698.04 131.73)" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#4a5567">Stress score (1=accommodating, 5=binding)</text>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_6">
+    <path d="M 666.410938 334.32675 
+L 671.465338 334.32675 
+L 676.519738 334.32675 
+L 676.519738 132.15075 
+L 671.465338 132.15075 
+L 666.410938 132.15075 
+L 666.410938 334.32675 
+z
+" style="fill: none; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="text_53">
+   <text x="66.47" y="24.68" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">AI Power &amp; Cooling Stress Index — seven DC districts</text>
+  </g>
+  <g id="text_54">
+   <text x="66.47" y="32.00" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-style="italic" fill="#4a5567">Lower aggregate = more accommodating; Ahmedabad and Visakhapatnam lowest, Bengaluru and Hyderabad highest</text>
+  </g>
+  <g id="text_55">
+   <text x="623.78" y="13.28" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#c0c5cc">Figure 11 · Techadyant Labs · 2026</text>
+  </g>
+  <g id="text_56">
+   <text x="66.47" y="453.20" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Source: CGWB Ground Water Resource Assessment 2024; CEA dashboard; KERC/MERC/APERC tariff orders; Techadyant Labs scoring.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb20099500d">
+   <rect x="161.510937" y="64.75875" width="475.2" height="336.96"/>
+  </clipPath>
+ </defs>
+</svg>

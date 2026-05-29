@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="711.36pt" height="495.9025pt" viewBox="0 0 711.36 495.9025" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-28T08:59:35.456103</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 495.9025 
+L 711.36 495.9025 
+L 711.36 0 
+L 0 0 
+z
+" style="fill: #fbf9f4"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 89.37 121.23555 
+L 549.72 121.23555 
+Q 550.9476 121.23555 550.9476 120.12675 
+L 550.9476 75.77475 
+Q 550.9476 74.66595 549.72 74.66595 
+L 89.37 74.66595 
+Q 88.1424 74.66595 88.1424 75.77475 
+L 88.1424 120.12675 
+Q 88.1424 121.23555 89.37 121.23555 
+z
+" clip-path="url(#pee2e52358f)" style="fill: #e8e5dd; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 561.996 112.91955 
+L 647.928 112.91955 
+Q 649.1556 112.91955 649.1556 111.81075 
+L 649.1556 84.09075 
+Q 649.1556 82.98195 647.928 82.98195 
+L 561.996 82.98195 
+Q 560.7684 82.98195 560.7684 84.09075 
+L 560.7684 111.81075 
+Q 560.7684 112.91955 561.996 112.91955 
+z
+" clip-path="url(#pee2e52358f)" style="fill: #c8443b; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 89.37 176.67555 
+L 549.72 176.67555 
+Q 550.9476 176.67555 550.9476 175.56675 
+L 550.9476 131.21475 
+Q 550.9476 130.10595 549.72 130.10595 
+L 89.37 130.10595 
+Q 88.1424 130.10595 88.1424 131.21475 
+L 88.1424 175.56675 
+Q 88.1424 176.67555 89.37 176.67555 
+z
+" clip-path="url(#pee2e52358f)" style="fill: #e8e5dd; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 561.996 168.35955 
+L 647.928 168.35955 
+Q 649.1556 168.35955 649.1556 167.25075 
+L 649.1556 139.53075 
+Q 649.1556 138.42195 647.928 138.42195 
+L 561.996 138.42195 
+Q 560.7684 138.42195 560.7684 139.53075 
+L 560.7684 167.25075 
+Q 560.7684 168.35955 561.996 168.35955 
+z
+" clip-path="url(#pee2e52358f)" style="fill: #c8443b; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 89.37 232.11555 
+L 549.72 232.11555 
+Q 550.9476 232.11555 550.9476 231.00675 
+L 550.9476 186.65475 
+Q 550.9476 185.54595 549.72 185.54595 
+L 89.37 185.54595 
+Q 88.1424 185.54595 88.1424 186.65475 
+L 88.1424 231.00675 
+Q 88.1424 232.11555 89.37 232.11555 
+z
+" clip-path="url(#pee2e52358f)" style="fill: #e8e5dd; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 561.996 223.79955 
+L 647.928 223.79955 
+Q 649.1556 223.79955 649.1556 222.69075 
+L 649.1556 194.97075 
+Q 649.1556 193.86195 647.928 193.86195 
+L 561.996 193.86195 
+Q 560.7684 193.86195 560.7684 194.97075 
+L 560.7684 222.69075 
+Q 560.7684 223.79955 561.996 223.79955 
+z
+" clip-path="url(#pee2e52358f)" style="fill: #c8443b; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 89.37 287.55555 
+L 549.72 287.55555 
+Q 550.9476 287.55555 550.9476 286.44675 
+L 550.9476 242.09475 
+Q 550.9476 240.98595 549.72 240.98595 
+L 89.37 240.98595 
+Q 88.1424 240.98595 88.1424 242.09475 
+L 88.1424 286.44675 
+Q 88.1424 287.55555 89.37 287.55555 
+z
+" clip-path="url(#pee2e52358f)" style="fill: #e8e5dd; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 561.996 279.23955 
+L 647.928 279.23955 
+Q 649.1556 279.23955 649.1556 278.13075 
+L 649.1556 250.41075 
+Q 649.1556 249.30195 647.928 249.30195 
+L 561.996 249.30195 
+Q 560.7684 249.30195 560.7684 250.41075 
+L 560.7684 278.13075 
+Q 560.7684 279.23955 561.996 279.23955 
+z
+" clip-path="url(#pee2e52358f)" style="fill: #c8443b; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 89.37 342.99555 
+L 549.72 342.99555 
+Q 550.9476 342.99555 550.9476 341.88675 
+L 550.9476 297.53475 
+Q 550.9476 296.42595 549.72 296.42595 
+L 89.37 296.42595 
+Q 88.1424 296.42595 88.1424 297.53475 
+L 88.1424 341.88675 
+Q 88.1424 342.99555 89.37 342.99555 
+z
+" clip-path="url(#pee2e52358f)" style="fill: #e8e5dd; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 561.996 334.67955 
+L 647.928 334.67955 
+Q 649.1556 334.67955 649.1556 333.57075 
+L 649.1556 305.85075 
+Q 649.1556 304.74195 647.928 304.74195 
+L 561.996 304.74195 
+Q 560.7684 304.74195 560.7684 305.85075 
+L 560.7684 333.57075 
+Q 560.7684 334.67955 561.996 334.67955 
+z
+" clip-path="url(#pee2e52358f)" style="fill: #c9a84c; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 89.37 398.43555 
+L 549.72 398.43555 
+Q 550.9476 398.43555 550.9476 397.32675 
+L 550.9476 352.97475 
+Q 550.9476 351.86595 549.72 351.86595 
+L 89.37 351.86595 
+Q 88.1424 351.86595 88.1424 352.97475 
+L 88.1424 397.32675 
+Q 88.1424 398.43555 89.37 398.43555 
+z
+" clip-path="url(#pee2e52358f)" style="fill: #e8e5dd; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 561.996 390.11955 
+L 647.928 390.11955 
+Q 649.1556 390.11955 649.1556 389.01075 
+L 649.1556 361.29075 
+Q 649.1556 360.18195 647.928 360.18195 
+L 561.996 360.18195 
+Q 560.7684 360.18195 560.7684 361.29075 
+L 560.7684 389.01075 
+Q 560.7684 390.11955 561.996 390.11955 
+z
+" clip-path="url(#pee2e52358f)" style="fill: #c8443b; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text x="101.65" y="91.30" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#0f1828">AI accelerator</text>
+   </g>
+   <g id="text_2">
+    <text x="101.65" y="107.93" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">Nvidia H100/H200/B200, AMD MI300, Google TPU, Intel Gaudi</text>
+   </g>
+   <g id="text_3">
+    <text x="584.23" y="100.16" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#fbf9f4">Imported</text>
+   </g>
+   <g id="text_4">
+    <text x="101.65" y="146.74" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#0f1828">HBM stack (memory)</text>
+   </g>
+   <g id="text_5">
+    <text x="101.65" y="163.37" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">SK Hynix · Samsung · Micron — HBM3E fully allocated</text>
+   </g>
+   <g id="text_6">
+    <text x="584.23" y="155.60" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#fbf9f4">Imported</text>
+   </g>
+   <g id="text_7">
+    <text x="101.65" y="202.18" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#0f1828">Advanced packaging (2.5D/3D)</text>
+   </g>
+   <g id="text_8">
+    <text x="101.65" y="218.81" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">TSMC CoWoS · ASE · Amkor — capacity oversubscribed</text>
+   </g>
+   <g id="text_9">
+    <text x="560.61" y="211.04" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#fbf9f4">Imported · BINDING</text>
+   </g>
+   <g id="text_10">
+    <text x="101.65" y="257.62" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#0f1828">Leading-edge logic wafer (3–5nm)</text>
+   </g>
+   <g id="text_11">
+    <text x="101.65" y="274.25" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">TSMC · Samsung · Intel Foundry</text>
+   </g>
+   <g id="text_12">
+    <text x="584.23" y="266.48" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#fbf9f4">Imported</text>
+   </g>
+   <g id="text_13">
+    <text x="101.65" y="313.06" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#0f1828">Specialty gases &amp; materials</text>
+   </g>
+   <g id="text_14">
+    <text x="101.65" y="329.69" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">Linde India · Inox · imports from JP/KR/DE</text>
+   </g>
+   <g id="text_15">
+    <text x="591.45" y="321.92" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#fbf9f4">Mixed</text>
+   </g>
+   <g id="text_16">
+    <text x="101.65" y="368.50" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#0f1828">Wafer-fab equipment (WFE)</text>
+   </g>
+   <g id="text_17">
+    <text x="101.65" y="385.13" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-style="italic" fill="#4a5567">ASML · AMAT · Lam · TEL · KLA (Big-5 ~70% global)</text>
+   </g>
+   <g id="text_18">
+    <text x="584.23" y="377.36" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#fbf9f4">Imported</text>
+   </g>
+   <g id="text_19">
+    <text x="89.37" y="61.91" font-family="Arial, Helvetica, sans-serif" font-size="9.0" font-style="italic" fill="#4a5567">Layer (top = product → bottom = primary input)</text>
+   </g>
+   <g id="text_20">
+    <text x="574.66" y="61.91" font-family="Arial, Helvetica, sans-serif" font-size="9.0" font-style="italic" fill="#4a5567">India position</text>
+   </g>
+  </g>
+  <g id="text_21">
+   <text x="7.20" y="24.68" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">GPU dependency stack — India position</text>
+  </g>
+  <g id="text_22">
+   <text x="7.20" y="33.44" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-style="italic" fill="#4a5567">Every AI accelerator in commercial Indian deployment depends on six upstream layers; India participates in two</text>
+  </g>
+  <g id="text_23">
+   <text x="569.60" y="13.28" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#c0c5cc">Figure 9 · Techadyant Labs · 2026</text>
+  </g>
+  <g id="text_24">
+   <text x="7.20" y="487.04" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Source: TrendForce; SemiAnalysis; ASML investor materials; BIS Federal Register; Micron 10-K; Yole.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pee2e52358f">
+   <rect x="58.68" y="53.59875" width="613.8" height="388.08"/>
+  </clipPath>
+ </defs>
+</svg>
