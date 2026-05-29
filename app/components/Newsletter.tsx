@@ -2,15 +2,39 @@
 
 import { useState } from 'react';
 
-export function Newsletter() {
-  const [email, setEmail] = useState('');
-  const [sent, setSent] = useState(false);
+interface NewsletterProps {
+  /** Identifies where the signup originated (homepage, report CTA, etc.) */
+  source?: string;
+}
 
-  function handleSubmit(e: React.FormEvent) {
+export function Newsletter({ source = 'homepage' }: NewsletterProps) {
+  const [email, setEmail] = useState('');
+  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
+  const [errorText, setErrorText] = useState('');
+
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!email.trim()) return;
-    // Static-first: no backend wired. Replace with provider endpoint later.
-    setSent(true);
+    if (!email.trim() || status === 'sending') return;
+    setStatus('sending');
+    setErrorText('');
+    try {
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ email: email.trim(), source }),
+      });
+      let data: { ok?: boolean; message?: string } | null = null;
+      try { data = await res.json(); } catch {}
+      if (!res.ok || !data?.ok) {
+        setStatus('error');
+        setErrorText(data?.message || 'Something went wrong. Please try again.');
+        return;
+      }
+      setStatus('sent');
+    } catch {
+      setStatus('error');
+      setErrorText('Could not reach the server. Please check your connection and try again.');
+    }
   }
 
   return (
@@ -22,9 +46,9 @@ export function Newsletter() {
         when they publish. Considered, infrequent, and free of sponsored coverage.
       </p>
 
-      {sent ? (
-        <p className="nl-fine" role="status" style={{ fontSize: '15px', color: 'var(--signal-live)' }}>
-          ✓ You’re on the list. We’ll be in touch when the next edition publishes.
+      {status === 'sent' ? (
+        <p className="nl-fine" role="status" style={{ fontSize: 15, color: 'var(--signal-live)' }}>
+          ✓ You’re on the list. We’ve sent a welcome note to <strong>{email}</strong> — check your inbox (and the spam folder, just in case).
         </p>
       ) : (
         <form className="nl-form" onSubmit={handleSubmit}>
@@ -35,9 +59,18 @@ export function Newsletter() {
             onChange={(e) => setEmail(e.target.value)}
             placeholder="you@institution.org"
             aria-label="Email address"
+            disabled={status === 'sending'}
           />
-          <button type="submit">Subscribe</button>
+          <button type="submit" disabled={status === 'sending'}>
+            {status === 'sending' ? 'Subscribing…' : 'Subscribe'}
+          </button>
         </form>
+      )}
+
+      {status === 'error' && (
+        <p className="nl-fine" role="alert" style={{ fontSize: 14, color: '#FB923C', marginTop: 8 }}>
+          {errorText}
+        </p>
       )}
 
       <p className="nl-fine">No spam. Unsubscribe anytime. We never share reader data.</p>

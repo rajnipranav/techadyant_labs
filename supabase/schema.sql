@@ -75,6 +75,35 @@ on conflict (slug) do update
       price_inr = excluded.price_inr, pdf_object = excluded.pdf_object;
 
 -- =====================================================================
+-- Subscribers (newsletter / The Dispatch)
+-- Public-write via the /api/subscribe Pages Function only; never written from
+-- the browser directly. RLS denies all browser access; the service-role key
+-- bypasses RLS so the Pages Function works.
+-- =====================================================================
+create table if not exists public.subscribers (
+  id              uuid primary key default gen_random_uuid(),
+  email           text not null unique,
+  source          text,            -- 'homepage' | 'report-cta' | etc.
+  user_agent      text,
+  ip              text,            -- Cloudflare CF-Connecting-IP
+  country         text,            -- Cloudflare CF-IPCountry (2-letter)
+  confirmed       boolean not null default false,
+  confirmed_at    timestamptz,
+  unsubscribed    boolean not null default false,
+  unsubscribed_at timestamptz,
+  created_at      timestamptz not null default now()
+);
+
+create index if not exists subscribers_email_idx on public.subscribers (email);
+create index if not exists subscribers_created_idx on public.subscribers (created_at desc);
+
+alter table public.subscribers enable row level security;
+
+drop policy if exists "subscribers no anon access" on public.subscribers;
+-- Intentionally empty — no policy means no rows are visible to anon/auth users.
+-- The Pages Function uses the service-role key to insert/read.
+
+-- =====================================================================
 -- STORAGE (run once, or do it in the Supabase Storage UI):
 --   1. Create a bucket named "reports" with "Public" turned OFF (private).
 --   2. Upload your PDFs (e.g. india-fab-ecosystem.pdf) into it.
