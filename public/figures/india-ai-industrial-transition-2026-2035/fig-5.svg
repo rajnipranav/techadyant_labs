@@ -1,361 +1,347 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="764.818437pt" height="394.3825pt" viewBox="0 0 764.818437 394.3825" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-05-28T08:57:04.000532</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 394.3825 
-L 764.818437 394.3825 
-L 764.818437 0 
-L 0 0 
-z
-" style="fill: #fbf9f4"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 764.82 394.38">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke-linecap: square;
+      }
+
+      .st0, .st1, .st2 {
+        stroke-width: .8px;
+      }
+
+      .st0, .st3, .st4, .st5, .st6 {
+        stroke: #0f1828;
+      }
+
+      .st0, .st7, .st8, .st2 {
+        fill: none;
+      }
+
+      .st9 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st10 {
+        clip-path: url(#clippath-7);
+      }
+
+      .st11 {
+        clip-path: url(#clippath-17);
+      }
+
+      .st12 {
+        clip-path: url(#clippath-15);
+      }
+
+      .st13 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22 {
+        isolation: isolate;
+      }
+
+      .st14, .st15, .st17, .st18, .st19, .st22 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st14, .st20 {
+        font-size: 9px;
+      }
+
+      .st14, .st5 {
+        fill: #2bc5b4;
+      }
+
+      .st23 {
+        clip-path: url(#clippath-9);
+      }
+
+      .st24 {
+        clip-path: url(#clippath-10);
+      }
+
+      .st15 {
+        font-size: 11px;
+      }
+
+      .st15, .st18, .st19 {
+        fill: #0f1828;
+      }
+
+      .st25 {
+        fill: #fbf9f4;
+      }
+
+      .st26 {
+        fill: #fff;
+      }
+
+      .st16, .st1, .st20, .st21, .st22 {
+        fill: #4a5567;
+      }
+
+      .st16, .st17 {
+        font-size: 8px;
+      }
+
+      .st16, .st20, .st21 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st1 {
+        stroke: #4a5567;
+      }
+
+      .st1, .st8, .st2 {
+        stroke-linejoin: round;
+      }
+
+      .st3, .st17 {
+        fill: #c0c5cc;
+      }
+
+      .st3, .st4, .st5, .st6 {
+        stroke-width: .6px;
+      }
+
+      .st27 {
+        clip-path: url(#clippath-11);
+      }
+
+      .st18, .st21 {
+        font-size: 10.5px;
+      }
+
+      .st4 {
+        fill: #e4d3a6;
+      }
+
+      .st28 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st29 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st30 {
+        clip-path: url(#clippath-8);
+      }
+
+      .st19 {
+        font-size: 15px;
+      }
+
+      .st31 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st32 {
+        clip-path: url(#clippath-12);
+      }
+
+      .st33 {
+        clip-path: url(#clippath-14);
+      }
+
+      .st8 {
+        stroke: #2bc5b4;
+        stroke-linecap: round;
+        stroke-width: 1.2px;
+      }
+
+      .st2 {
+        stroke: #c0c5cc;
+        stroke-dasharray: 2.96 1.28;
+        stroke-opacity: .4;
+      }
+
+      .st34 {
+        clip-path: url(#clippath-16);
+      }
+
+      .st35 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st36 {
+        clip-path: url(#clippath-13);
+      }
+
+      .st37 {
+        clip-path: url(#clippath);
+      }
+
+      .st22 {
+        font-size: 10px;
+      }
+
+      .st6 {
+        fill: #c9a84c;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="st7" x="60.66" y="56.84" width="696.96" height="265.32"/>
+    </clipPath>
+  </defs>
+  <path class="st25" d="M0,394.38h764.82V0H0v394.38Z"/>
+  <path class="st26" d="M60.66,322.16h696.96V56.84H60.66v265.32Z"/>
+  <g class="st37">
+    <path class="st3" d="M92.34,322.16h98.16v-58.96h-98.16v58.96Z"/>
   </g>
-  <g id="axes_1">
-   <g id="patch_2">
-    <path d="M 60.658438 322.15875 
-L 757.618437 322.15875 
-L 757.618437 56.83875 
-L 60.658438 56.83875 
-z
-" style="fill: #fbf9f4"/>
-   </g>
-   <g id="patch_3">
-    <path d="M 92.338438 322.15875 
-L 190.501818 322.15875 
-L 190.501818 263.19875 
-L 92.338438 263.19875 
-z
-" clip-path="url(#p2f6dad4fc6)" style="fill: #c0c5cc; stroke: #0f1828; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_4">
-    <path d="M 270.817311 322.15875 
-L 368.980691 322.15875 
-L 368.980691 216.03075 
-L 270.817311 216.03075 
-z
-" clip-path="url(#p2f6dad4fc6)" style="fill: #e4d3a6; stroke: #0f1828; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_5">
-    <path d="M 449.296184 322.15875 
-L 547.459564 322.15875 
-L 547.459564 119.731382 
-L 449.296184 119.731382 
-z
-" clip-path="url(#p2f6dad4fc6)" style="fill: #c9a84c; stroke: #0f1828; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_6">
-    <path d="M 627.775057 322.15875 
-L 725.938437 322.15875 
-L 725.938437 96.748774 
-L 627.775057 96.748774 
-z
-" clip-path="url(#p2f6dad4fc6)" style="fill: #2bc5b4; stroke: #0f1828; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="matplotlib.axis_1">
-    <g id="xtick_1">
-     <g id="line2d_1">
-      <path d="M 141.420128 322.15875 
-L 141.420128 56.83875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_2">
-      <defs>
-       <path id="mdd16a9efff" d="M 0 0 
-L 0 3.5 
-" style="stroke: #4a5567; stroke-width: 0.8"/>
-      </defs>
-      <g>
-       <use xlink:href="#mdd16a9efff" x="141.420128" y="322.15875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_1">
-      <text x="122.10" y="336.76" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Cabinet</text>
-      <text x="126.22" y="347.95" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">target</text>
-      <text x="113.77" y="359.15" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">(Mar 2024)</text>
-     </g>
-    </g>
-    <g id="xtick_2">
-     <g id="line2d_3">
-      <path d="M 319.899001 322.15875 
-L 319.899001 56.83875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_4">
-      <g>
-       <use xlink:href="#mdd16a9efff" x="319.899001" y="322.15875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_2">
-      <text x="299.31" y="336.76" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Round 1</text>
-      <text x="285.00" y="347.95" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">empanelment</text>
-     </g>
-    </g>
-    <g id="xtick_3">
-     <g id="line2d_5">
-      <path d="M 498.377874 322.15875 
-L 498.377874 56.83875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_6">
-      <g>
-       <use xlink:href="#mdd16a9efff" x="498.377874" y="322.15875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_3">
-      <text x="477.79" y="336.76" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Round 2</text>
-      <text x="463.48" y="347.95" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">empanelment</text>
-     </g>
-    </g>
-    <g id="xtick_4">
-     <g id="line2d_7">
-      <path d="M 676.856747 322.15875 
-L 676.856747 56.83875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_8">
-      <g>
-       <use xlink:href="#mdd16a9efff" x="676.856747" y="322.15875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_4">
-      <text x="650.49" y="336.76" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">Round 3 +</text>
-      <text x="619.82" y="347.95" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">cumulative (Mar 2026)</text>
-     </g>
-    </g>
-   </g>
-   <g id="matplotlib.axis_2">
-    <g id="ytick_1">
-     <g id="line2d_9">
-      <path d="M 60.658438 322.15875 
-L 757.618437 322.15875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_10">
-      <defs>
-       <path id="m14ce4e83c9" d="M 0 0 
-L -3.5 0 
-" style="stroke: #4a5567; stroke-width: 0.8"/>
-      </defs>
-      <g>
-       <use xlink:href="#m14ce4e83c9" x="60.658438" y="322.15875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_5">
-      <text x="47.30" y="325.96" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">0</text>
-     </g>
-    </g>
-    <g id="ytick_2">
-     <g id="line2d_11">
-      <path d="M 60.658438 292.67875 
-L 757.618437 292.67875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_12">
-      <g>
-       <use xlink:href="#m14ce4e83c9" x="60.658438" y="292.67875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_6">
-      <text x="28.21" y="296.48" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">5000</text>
-     </g>
-    </g>
-    <g id="ytick_3">
-     <g id="line2d_13">
-      <path d="M 60.658438 263.19875 
-L 757.618437 263.19875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_14">
-      <g>
-       <use xlink:href="#m14ce4e83c9" x="60.658438" y="263.19875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_7">
-      <text x="21.85" y="267.00" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">10000</text>
-     </g>
-    </g>
-    <g id="ytick_4">
-     <g id="line2d_15">
-      <path d="M 60.658438 233.71875 
-L 757.618437 233.71875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_16">
-      <g>
-       <use xlink:href="#m14ce4e83c9" x="60.658438" y="233.71875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_8">
-      <text x="21.85" y="237.52" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">15000</text>
-     </g>
-    </g>
-    <g id="ytick_5">
-     <g id="line2d_17">
-      <path d="M 60.658438 204.23875 
-L 757.618437 204.23875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_18">
-      <g>
-       <use xlink:href="#m14ce4e83c9" x="60.658438" y="204.23875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_9">
-      <text x="21.85" y="208.04" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">20000</text>
-     </g>
-    </g>
-    <g id="ytick_6">
-     <g id="line2d_19">
-      <path d="M 60.658438 174.75875 
-L 757.618437 174.75875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_20">
-      <g>
-       <use xlink:href="#m14ce4e83c9" x="60.658438" y="174.75875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_10">
-      <text x="21.85" y="178.56" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">25000</text>
-     </g>
-    </g>
-    <g id="ytick_7">
-     <g id="line2d_21">
-      <path d="M 60.658438 145.27875 
-L 757.618437 145.27875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_22">
-      <g>
-       <use xlink:href="#m14ce4e83c9" x="60.658438" y="145.27875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_11">
-      <text x="21.85" y="149.08" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">30000</text>
-     </g>
-    </g>
-    <g id="ytick_8">
-     <g id="line2d_23">
-      <path d="M 60.658438 115.79875 
-L 757.618437 115.79875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_24">
-      <g>
-       <use xlink:href="#m14ce4e83c9" x="60.658438" y="115.79875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_12">
-      <text x="21.85" y="119.60" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">35000</text>
-     </g>
-    </g>
-    <g id="ytick_9">
-     <g id="line2d_25">
-      <path d="M 60.658438 86.31875 
-L 757.618437 86.31875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_26">
-      <g>
-       <use xlink:href="#m14ce4e83c9" x="60.658438" y="86.31875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_13">
-      <text x="21.85" y="90.12" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">40000</text>
-     </g>
-    </g>
-    <g id="ytick_10">
-     <g id="line2d_27">
-      <path d="M 60.658438 56.83875 
-L 757.618437 56.83875 
-" clip-path="url(#p2f6dad4fc6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_28">
-      <g>
-       <use xlink:href="#m14ce4e83c9" x="60.658438" y="56.83875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_14">
-      <text x="21.85" y="60.64" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">45000</text>
-     </g>
-    </g>
-    <g id="text_15">
-     <text x="15.56" y="271.94" transform="rotate(-90.0 15.56 271.94)" font-family="Arial, Helvetica, sans-serif" font-size="11.0" fill="#0f1828">GPUs onboarded (cumulative)</text>
-    </g>
-   </g>
-   <g id="patch_7">
-    <path d="M 60.658438 322.15875 
-L 60.658438 56.83875 
-" style="fill: none; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="patch_8">
-    <path d="M 60.658438 322.15875 
-L 757.618437 322.15875 
-" style="fill: none; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="text_16">
-    <text x="121.16" y="258.48" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#0f1828">10,000</text>
-   </g>
-   <g id="text_17">
-    <text x="299.64" y="211.31" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#0f1828">18,000</text>
-   </g>
-   <g id="text_18">
-    <text x="478.12" y="115.01" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#0f1828">34,333</text>
-   </g>
-   <g id="text_19">
-    <text x="656.60" y="92.03" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#0f1828">38,231</text>
-   </g>
-   <g id="patch_9">
-    <path d="M 634.827212 79.237646 
-Q 654.919762 87.608978 673.773862 95.464325 
-" style="fill: none; stroke: #2bc5b4; stroke-width: 1.2; stroke-linecap: round"/>
-    <path d="M 671.14302 92.418234 
-L 673.773862 95.464325 
-L 669.758484 95.741344 
-" style="fill: none; stroke: #2bc5b4; stroke-width: 1.2; stroke-linecap: round"/>
-   </g>
-   <g id="text_20">
-    <text x="563.51" y="64.38" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#2bc5b4">Target exceeded</text>
-    <text x="586.00" y="74.53" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#2bc5b4">by 3.8×</text>
-   </g>
-   <g id="text_21">
-    <text x="141.42" y="342.79" font-family="Arial, Helvetica, sans-serif" font-size="9.0" font-style="italic" fill="#4a5567">Subsidised rate: Rs 65–92/GPU-hour · Outlay: Rs 10,372 cr · Funds released: ~Rs 400 cr (&lt;4%)</text>
-   </g>
+  <g class="st28">
+    <path class="st4" d="M270.82,322.16h98.16v-106.13h-98.16v106.13Z"/>
   </g>
-  <g id="text_22">
-   <text x="44.82" y="24.68" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">IndiaAI Mission: from 10,000 GPU target to 38,000+ deployed</text>
+  <g class="st35">
+    <path class="st6" d="M449.3,322.16h98.16V119.73h-98.16v202.43Z"/>
   </g>
-  <g id="text_23">
-   <text x="44.82" y="29.12" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-style="italic" fill="#4a5567">Empanelment under utilisation-linked subsidy; capex borne by private providers</text>
+  <g class="st31">
+    <path class="st5" d="M627.78,322.16h98.16V96.75h-98.16v225.41Z"/>
   </g>
-  <g id="text_24">
-   <text x="607.22" y="13.28" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#c0c5cc">Figure 5 · Techadyant Labs · 2026</text>
+  <g class="st13">
+    <path class="st2" d="M141.42,322.16V56.84"/>
   </g>
-  <g id="text_25">
-   <text x="44.82" y="385.52" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Source: PIB PRID 2012375 (Mar 2024) and PRID 2132817 (Mar 2026); IndiaAI Compute Portal; MediaNama Apr 2026.</text>
+  <path id="mdd16a9efff" class="st1" d="M141.42,322.16v3.5"/>
+  <text class="st22" transform="translate(122.1 336.76)"><tspan x="0" y="0">Cabinet</tspan></text>
+  <text class="st22" transform="translate(126.22 347.95)"><tspan x="0" y="0">target</tspan></text>
+  <text class="st22" transform="translate(113.77 359.15)"><tspan x="0" y="0">(Mar 2024)</tspan></text>
+  <g class="st29">
+    <path class="st2" d="M319.9,322.16V56.84"/>
   </g>
- </g>
- <defs>
-  <clipPath id="p2f6dad4fc6">
-   <rect x="60.658438" y="56.83875" width="696.96" height="265.32"/>
-  </clipPath>
- </defs>
+  <path id="mdd16a9efff1" data-name="mdd16a9efff" class="st1" d="M319.9,322.16v3.5"/>
+  <text class="st22" transform="translate(299.31 336.76)"><tspan x="0" y="0">Round 1</tspan></text>
+  <text class="st22" transform="translate(285 347.95)"><tspan x="0" y="0">empanelment</tspan></text>
+  <g class="st9">
+    <path class="st2" d="M498.38,322.16V56.84"/>
+  </g>
+  <path id="mdd16a9efff2" data-name="mdd16a9efff" class="st1" d="M498.38,322.16v3.5"/>
+  <text class="st22" transform="translate(477.79 336.76)"><tspan x="0" y="0">Round 2</tspan></text>
+  <text class="st22" transform="translate(463.48 347.95)"><tspan x="0" y="0">empanelment</tspan></text>
+  <g class="st10">
+    <path class="st2" d="M676.86,322.16V56.84"/>
+  </g>
+  <path id="mdd16a9efff3" data-name="mdd16a9efff" class="st1" d="M676.86,322.16v3.5"/>
+  <text class="st22" transform="translate(650.49 336.76)"><tspan x="0" y="0">Round 3 +</tspan></text>
+  <text class="st22" transform="translate(619.82 347.95)"><tspan x="0" y="0">cumulative (Mar 2026)</tspan></text>
+  <g class="st30">
+    <path class="st2" d="M60.66,322.16h696.96"/>
+  </g>
+  <path id="m14ce4e83c9" class="st1" d="M60.66,322.16h-3.5"/>
+  <text class="st22" transform="translate(47.3 325.96)"><tspan x="0" y="0">0</tspan></text>
+  <g class="st23">
+    <path class="st2" d="M60.66,292.68h696.96"/>
+  </g>
+  <path id="m14ce4e83c91" data-name="m14ce4e83c9" class="st1" d="M60.66,292.68h-3.5"/>
+  <text class="st22" transform="translate(28.21 296.48)"><tspan x="0" y="0">5000</tspan></text>
+  <g class="st24">
+    <path class="st2" d="M60.66,263.2h696.96"/>
+  </g>
+  <path id="m14ce4e83c92" data-name="m14ce4e83c9" class="st1" d="M60.66,263.2h-3.5"/>
+  <text class="st22" transform="translate(21.85 267)"><tspan x="0" y="0">10000</tspan></text>
+  <g class="st27">
+    <path class="st2" d="M60.66,233.72h696.96"/>
+  </g>
+  <path id="m14ce4e83c93" data-name="m14ce4e83c9" class="st1" d="M60.66,233.72h-3.5"/>
+  <text class="st22" transform="translate(21.85 237.52)"><tspan x="0" y="0">15000</tspan></text>
+  <g class="st32">
+    <path class="st2" d="M60.66,204.24h696.96"/>
+  </g>
+  <path id="m14ce4e83c94" data-name="m14ce4e83c9" class="st1" d="M60.66,204.24h-3.5"/>
+  <text class="st22" transform="translate(21.85 208.04)"><tspan x="0" y="0">20000</tspan></text>
+  <g class="st36">
+    <path class="st2" d="M60.66,174.76h696.96"/>
+  </g>
+  <path id="m14ce4e83c95" data-name="m14ce4e83c9" class="st1" d="M60.66,174.76h-3.5"/>
+  <text class="st22" transform="translate(21.85 178.56)"><tspan x="0" y="0">25000</tspan></text>
+  <g class="st33">
+    <path class="st2" d="M60.66,145.28h696.96"/>
+  </g>
+  <path id="m14ce4e83c96" data-name="m14ce4e83c9" class="st1" d="M60.66,145.28h-3.5"/>
+  <text class="st22" transform="translate(21.85 149.08)"><tspan x="0" y="0">30000</tspan></text>
+  <g class="st12">
+    <path class="st2" d="M60.66,115.8h696.96"/>
+  </g>
+  <path id="m14ce4e83c97" data-name="m14ce4e83c9" class="st1" d="M60.66,115.8h-3.5"/>
+  <text class="st22" transform="translate(21.85 119.6)"><tspan x="0" y="0">35000</tspan></text>
+  <g class="st34">
+    <path class="st2" d="M60.66,86.32h696.96"/>
+  </g>
+  <path id="m14ce4e83c98" data-name="m14ce4e83c9" class="st1" d="M60.66,86.32h-3.5"/>
+  <text class="st22" transform="translate(21.85 90.12)"><tspan x="0" y="0">40000</tspan></text>
+  <g class="st11">
+    <path class="st2" d="M60.66,56.84h696.96"/>
+  </g>
+  <path id="m14ce4e83c99" data-name="m14ce4e83c9" class="st1" d="M60.66,56.84h-3.5"/>
+  <text class="st22" transform="translate(21.85 60.64)"><tspan x="0" y="0">45000</tspan></text>
+  <text class="st15" transform="translate(15.56 271.94) rotate(-90)"><tspan x="0" y="0">GPUs onboarded (cumulative)</tspan></text>
+  <path class="st0" d="M60.66,322.16V56.84"/>
+  <path class="st0" d="M60.66,322.16h696.96"/>
+  <text class="st18" transform="translate(121.16 258.48)"><tspan x="0" y="0">10,000</tspan></text>
+  <text class="st18" transform="translate(299.64 211.31)"><tspan x="0" y="0">18,000</tspan></text>
+  <text class="st18" transform="translate(478.12 115.01)"><tspan x="0" y="0">34,333</tspan></text>
+  <text class="st18" transform="translate(656.6 92.03)"><tspan x="0" y="0">38,231</tspan></text>
+  <path class="st8" d="M634.83,79.24c13.4,5.58,26.38,10.99,38.95,16.23"/>
+  <path class="st8" d="M671.14,92.42l2.63,3.05-4.02.28"/>
+  <text class="st14" transform="translate(563.51 64.38)"><tspan x="0" y="0">Target exceeded</tspan></text>
+  <text class="st14" transform="translate(586 74.53)"><tspan x="0" y="0">by 3.8×</tspan></text>
+  <text class="st20" transform="translate(205.79 366.87)"><tspan x="0" y="0">Subsidised rate: Rs 65–92/GPU-hour · Outlay: Rs 10,372 cr · Funds released: ~Rs 400 cr (&lt;4%)</tspan></text>
+  <text class="st19" transform="translate(44.82 24.68)"><tspan x="0" y="0">IndiaAI Mission: from 10,000 GPU target to 38,000+ deployed</tspan></text>
+  <text class="st21" transform="translate(44.82 38.12)"><tspan x="0" y="0">Empanelment under utilisation-linked subsidy; capex borne by private providers</tspan></text>
+  <text class="st17" transform="translate(607.22 13.28)"><tspan x="0" y="0">Figure 5 · Techadyant Labs · 2026</tspan></text>
+  <text class="st16" transform="translate(44.82 385.52)"><tspan x="0" y="0">Source: PIB PRID 2012375 (Mar 2024) and PRID 2132817 (Mar 2026); IndiaAI Compute Portal; MediaNama Apr 2026.</tspan></text>
 </svg>

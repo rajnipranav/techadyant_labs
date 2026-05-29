@@ -1,429 +1,361 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="729.535663pt" height="394.3825pt" viewBox="0 0 729.535663 394.3825" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-05-28T09:01:32.302554</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 394.3825 
-L 729.535663 394.3825 
-L 729.535663 0 
-L 0 0 
-z
-" style="fill: #fbf9f4"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 729.54 394.38">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #e4d3a6;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5 {
+        stroke: #fbf9f4;
+        stroke-width: 2px;
+      }
+
+      .st6 {
+        stroke-dasharray: 1 1.65;
+      }
+
+      .st6, .st7, .st8, .st9, .st10 {
+        fill: none;
+      }
+
+      .st6, .st11, .st12, .st13, .st9, .st10 {
+        stroke-linejoin: round;
+      }
+
+      .st6, .st10 {
+        stroke: #c0c5cc;
+      }
+
+      .st1, .st11 {
+        fill: #c9a84c;
+      }
+
+      .st7, .st12, .st9 {
+        stroke: #0f1828;
+      }
+
+      .st7, .st13, .st10 {
+        stroke-width: .8px;
+      }
+
+      .st7, .st9 {
+        stroke-linecap: square;
+      }
+
+      .st14 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st15 {
+        clip-path: url(#clippath-7);
+      }
+
+      .st11 {
+        fill-opacity: .6;
+        stroke: #c9a84c;
+        stroke-opacity: .6;
+      }
+
+      .st16 {
+        clip-path: url(#clippath-15);
+      }
+
+      .st17 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st18 {
+        clip-path: url(#clippath-9);
+      }
+
+      .st19 {
+        clip-path: url(#clippath-10);
+      }
+
+      .st20 {
+        font-size: 11px;
+      }
+
+      .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28 {
+        isolation: isolate;
+      }
+
+      .st20, .st12, .st23, .st24, .st25, .st26 {
+        fill: #0f1828;
+      }
+
+      .st20, .st22, .st23, .st24, .st25, .st26, .st28 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st29 {
+        fill: #fbf9f4;
+      }
+
+      .st30 {
+        fill: #fff;
+      }
+
+      .st21, .st13, .st4, .st27, .st28 {
+        fill: #4a5567;
+      }
+
+      .st21, .st22 {
+        font-size: 8px;
+      }
+
+      .st21, .st27 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st13 {
+        stroke: #4a5567;
+      }
+
+      .st2 {
+        fill: #2bc5b4;
+      }
+
+      .st31 {
+        clip-path: url(#clippath-11);
+      }
+
+      .st22, .st3 {
+        fill: #c0c5cc;
+      }
+
+      .st23 {
+        font-size: 9px;
+      }
+
+      .st32 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st24 {
+        font-size: 9.5px;
+      }
+
+      .st9 {
+        stroke-width: 2.5px;
+      }
+
+      .st33 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st34 {
+        clip-path: url(#clippath-8);
+      }
+
+      .st25 {
+        font-size: 15px;
+      }
+
+      .st35 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st36 {
+        clip-path: url(#clippath-12);
+      }
+
+      .st37 {
+        clip-path: url(#clippath-14);
+      }
+
+      .st26, .st28 {
+        font-size: 10px;
+      }
+
+      .st10 {
+        stroke-dasharray: 2.96 1.28;
+        stroke-opacity: .4;
+      }
+
+      .st38 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st39 {
+        clip-path: url(#clippath-13);
+      }
+
+      .st5 {
+        fill: #95e2d9;
+      }
+
+      .st27 {
+        font-size: 10.5px;
+      }
+
+      .st40 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="st8" x="58.68" y="68.72" width="325.5" height="285.12"/>
+    </clipPath>
+  </defs>
+  <path class="st29" d="M0,394.38h729.54V0H0v394.38Z"/>
+  <path class="st30" d="M58.68,353.84h325.5V68.72H58.68v285.12Z"/>
+  <g class="st40">
+    <path id="m42785e7ecf" class="st11" d="M73.48,205.58v148.26h295.91V108.64h0l-59.18,17.11-59.18,20.53-59.18,13.69-59.18,22.81-59.18,22.81Z"/>
   </g>
-  <g id="axes_1">
-   <g id="patch_2">
-    <path d="M 58.68 353.83875 
-L 384.18 353.83875 
-L 384.18 68.71875 
-L 58.68 68.71875 
-z
-" style="fill: #fbf9f4"/>
-   </g>
-   <g id="FillBetweenPolyCollection_1">
-    <defs>
-     <path id="m42785e7ecf" d="M 73.475455 -188.80615 
-L 73.475455 -40.54375 
-L 132.657273 -40.54375 
-L 191.839091 -40.54375 
-L 251.020909 -40.54375 
-L 310.202727 -40.54375 
-L 369.384545 -40.54375 
-L 369.384545 -285.74695 
-L 369.384545 -285.74695 
-L 310.202727 -268.63975 
-L 251.020909 -248.11111 
-L 191.839091 -234.42535 
-L 132.657273 -211.61575 
-L 73.475455 -188.80615 
-z
-" style="stroke: #c9a84c; stroke-opacity: 0.6"/>
-    </defs>
-    <g clip-path="url(#pebb26c0f85)">
-     <use xlink:href="#m42785e7ecf" x="0" y="394.3825" style="fill: #c9a84c; fill-opacity: 0.6; stroke: #c9a84c; stroke-opacity: 0.6"/>
-    </g>
-   </g>
-   <g id="matplotlib.axis_1">
-    <g id="xtick_1">
-     <g id="line2d_1">
-      <path d="M 73.475455 353.83875 
-L 73.475455 68.71875 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_2">
-      <defs>
-       <path id="mc6de2e1916" d="M 0 0 
-L 0 3.5 
-" style="stroke: #4a5567; stroke-width: 0.8"/>
-      </defs>
-      <g>
-       <use xlink:href="#mc6de2e1916" x="73.475455" y="353.83875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_1">
-      <text x="60.75" y="368.44" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">2020</text>
-     </g>
-    </g>
-    <g id="xtick_2">
-     <g id="line2d_3">
-      <path d="M 132.657273 353.83875 
-L 132.657273 68.71875 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_4">
-      <g>
-       <use xlink:href="#mc6de2e1916" x="132.657273" y="353.83875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_2">
-      <text x="119.93" y="368.44" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">2022</text>
-     </g>
-    </g>
-    <g id="xtick_3">
-     <g id="line2d_5">
-      <path d="M 191.839091 353.83875 
-L 191.839091 68.71875 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_6">
-      <g>
-       <use xlink:href="#mc6de2e1916" x="191.839091" y="353.83875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_3">
-      <text x="179.11" y="368.44" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">2024</text>
-     </g>
-    </g>
-    <g id="xtick_4">
-     <g id="line2d_7">
-      <path d="M 251.020909 353.83875 
-L 251.020909 68.71875 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_8">
-      <g>
-       <use xlink:href="#mc6de2e1916" x="251.020909" y="353.83875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_4">
-      <text x="238.30" y="368.44" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">2026</text>
-     </g>
-    </g>
-    <g id="xtick_5">
-     <g id="line2d_9">
-      <path d="M 310.202727 353.83875 
-L 310.202727 68.71875 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_10">
-      <g>
-       <use xlink:href="#mc6de2e1916" x="310.202727" y="353.83875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_5">
-      <text x="297.48" y="368.44" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">2028</text>
-     </g>
-    </g>
-    <g id="xtick_6">
-     <g id="line2d_11">
-      <path d="M 369.384545 353.83875 
-L 369.384545 68.71875 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_12">
-      <g>
-       <use xlink:href="#mc6de2e1916" x="369.384545" y="353.83875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_6">
-      <text x="356.66" y="368.44" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">2030</text>
-     </g>
-    </g>
-    <g id="text_7">
-     <text x="209.78" y="382.88" font-family="Arial, Helvetica, sans-serif" font-size="11.0" fill="#0f1828">Year</text>
-    </g>
-   </g>
-   <g id="matplotlib.axis_2">
-    <g id="ytick_1">
-     <g id="line2d_13">
-      <path d="M 58.68 353.83875 
-L 384.18 353.83875 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_14">
-      <defs>
-       <path id="m8554a6dcc6" d="M 0 0 
-L -3.5 0 
-" style="stroke: #4a5567; stroke-width: 0.8"/>
-      </defs>
-      <g>
-       <use xlink:href="#m8554a6dcc6" x="58.68" y="353.83875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_8">
-      <text x="45.32" y="357.64" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">0</text>
-     </g>
-    </g>
-    <g id="ytick_2">
-     <g id="line2d_15">
-      <path d="M 58.68 296.81475 
-L 384.18 296.81475 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_16">
-      <g>
-       <use xlink:href="#m8554a6dcc6" x="58.68" y="296.81475" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_9">
-      <text x="32.59" y="300.61" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">500</text>
-     </g>
-    </g>
-    <g id="ytick_3">
-     <g id="line2d_17">
-      <path d="M 58.68 239.79075 
-L 384.18 239.79075 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_18">
-      <g>
-       <use xlink:href="#m8554a6dcc6" x="58.68" y="239.79075" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_10">
-      <text x="26.23" y="243.59" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">1000</text>
-     </g>
-    </g>
-    <g id="ytick_4">
-     <g id="line2d_19">
-      <path d="M 58.68 182.76675 
-L 384.18 182.76675 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_20">
-      <g>
-       <use xlink:href="#m8554a6dcc6" x="58.68" y="182.76675" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_11">
-      <text x="26.23" y="186.57" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">1500</text>
-     </g>
-    </g>
-    <g id="ytick_5">
-     <g id="line2d_21">
-      <path d="M 58.68 125.74275 
-L 384.18 125.74275 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_22">
-      <g>
-       <use xlink:href="#m8554a6dcc6" x="58.68" y="125.74275" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_12">
-      <text x="26.23" y="129.54" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">2000</text>
-     </g>
-    </g>
-    <g id="ytick_6">
-     <g id="line2d_23">
-      <path d="M 58.68 68.71875 
-L 384.18 68.71875 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.4; stroke-width: 0.8"/>
-     </g>
-     <g id="line2d_24">
-      <g>
-       <use xlink:href="#m8554a6dcc6" x="58.68" y="68.71875" style="fill: #4a5567; stroke: #4a5567; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_13">
-      <text x="26.23" y="72.52" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#4a5567">2500</text>
-     </g>
-    </g>
-    <g id="text_14">
-     <text x="19.94" y="269.65" transform="rotate(-90.0 19.94 269.65)" font-family="Arial, Helvetica, sans-serif" font-size="11.0" fill="#0f1828">GCCs in India (count)</text>
-    </g>
-   </g>
-   <g id="line2d_25">
-    <path d="M 73.475455 205.57635 
-L 132.657273 182.76675 
-L 191.839091 159.95715 
-L 251.020909 146.27139 
-L 310.202727 125.74275 
-L 369.384545 108.63555 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke: #0f1828; stroke-width: 2.5; stroke-linecap: square"/>
-    <defs>
-     <path id="m20bd6888ed" d="M 0 3 
-C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
-C 2.683901 1.55874 3 0.795609 3 0 
-C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
-C 1.55874 -2.683901 0.795609 -3 0 -3 
-C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
-C -2.683901 -1.55874 -3 -0.795609 -3 0 
-C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
-C -1.55874 2.683901 -0.795609 3 0 3 
-z
-" style="stroke: #0f1828"/>
-    </defs>
-    <g clip-path="url(#pebb26c0f85)">
-     <use xlink:href="#m20bd6888ed" x="73.475455" y="205.57635" style="fill: #0f1828; stroke: #0f1828"/>
-     <use xlink:href="#m20bd6888ed" x="132.657273" y="182.76675" style="fill: #0f1828; stroke: #0f1828"/>
-     <use xlink:href="#m20bd6888ed" x="191.839091" y="159.95715" style="fill: #0f1828; stroke: #0f1828"/>
-     <use xlink:href="#m20bd6888ed" x="251.020909" y="146.27139" style="fill: #0f1828; stroke: #0f1828"/>
-     <use xlink:href="#m20bd6888ed" x="310.202727" y="125.74275" style="fill: #0f1828; stroke: #0f1828"/>
-     <use xlink:href="#m20bd6888ed" x="369.384545" y="108.63555" style="fill: #0f1828; stroke: #0f1828"/>
-    </g>
-   </g>
-   <g id="line2d_26">
-    <path d="M 251.020909 353.83875 
-L 251.020909 68.71875 
-" clip-path="url(#pebb26c0f85)" style="fill: none; stroke-dasharray: 1,1.65; stroke-dashoffset: 0; stroke: #c0c5cc"/>
-   </g>
-   <g id="patch_3">
-    <path d="M 58.68 353.83875 
-L 58.68 68.71875 
-" style="fill: none; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="patch_4">
-    <path d="M 58.68 353.83875 
-L 384.18 353.83875 
-" style="fill: none; stroke: #0f1828; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="text_15">
-    <text x="58.45" y="198.73" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">1,300</text>
-   </g>
-   <g id="text_16">
-    <text x="117.63" y="175.92" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">1,500</text>
-   </g>
-   <g id="text_17">
-    <text x="176.81" y="153.11" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">1,700</text>
-   </g>
-   <g id="text_18">
-    <text x="236.00" y="139.43" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">1,820</text>
-   </g>
-   <g id="text_19">
-    <text x="295.18" y="118.90" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">2,000</text>
-   </g>
-   <g id="text_20">
-    <text x="354.36" y="101.79" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#0f1828">2,150</text>
-   </g>
-   <g id="text_21">
-    <text x="41.55" y="62.72" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">GCC count trajectory (NASSCOM working figures + 2030 target)</text>
-   </g>
+  <g class="st32">
+    <path class="st10" d="M73.48,353.84V68.72"/>
   </g>
-  <g id="axes_2">
-   <g id="patch_5">
-    <path d="M 648.839681 262.192567 
-C 657.685697 246.101729 662.187205 227.979823 661.89878 209.619982 
-C 661.610362 191.260139 656.541857 173.288567 647.194784 157.483527 
-C 637.84771 141.678487 624.540872 128.579054 608.590965 119.481388 
-C 592.641057 110.383722 574.592099 105.59813 556.229991 105.59813 
-L 556.229996 211.279954 
-z
-" style="fill: #c9a84c; stroke: #fbf9f4; stroke-width: 2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_6">
-    <path d="M 505.317376 303.889633 
-C 529.869569 317.387322 558.808953 320.582264 585.714281 312.765545 
-C 612.619609 304.948825 635.341999 286.744762 648.839681 262.192567 
-L 556.229996 211.279954 
-z
-" style="fill: #2bc5b4; stroke: #fbf9f4; stroke-width: 2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_7">
-    <path d="M 450.756711 217.915763 
-C 451.874371 235.680475 457.462246 252.878202 466.999874 267.907101 
-C 476.537503 282.936001 489.719265 295.314492 505.317376 303.889633 
-L 556.229996 211.279954 
-z
-" style="fill: #e4d3a6; stroke: #fbf9f4; stroke-width: 2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_8">
-    <path d="M 479.191256 138.935778 
-C 469.308536 149.459806 461.686315 161.898139 456.795999 175.481514 
-C 451.905684 189.06489 449.850216 203.507378 450.756711 217.915763 
-L 556.229996 211.279954 
-z
-" style="fill: #95e2d9; stroke: #fbf9f4; stroke-width: 2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_9">
-    <path d="M 523.572503 110.77057 
-C 515.141184 113.510074 507.087969 117.299629 499.602823 122.049851 
-C 492.117677 126.800074 485.259911 132.473314 479.191256 138.935778 
-L 556.229996 211.279954 
-z
-" style="fill: #4a5567; stroke: #fbf9f4; stroke-width: 2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_10">
-    <path d="M 556.229997 105.59813 
-C 550.693665 105.59813 545.165882 106.033179 539.697712 106.899253 
-C 534.229542 107.765326 528.837868 109.059746 523.572503 110.77057 
-L 556.229996 211.279954 
-z
-" style="fill: #c0c5cc; stroke: #fbf9f4; stroke-width: 2; stroke-linejoin: miter"/>
-   </g>
-   <g id="matplotlib.axis_3"/>
-   <g id="matplotlib.axis_4"/>
-   <g id="text_22">
-    <text x="669.94" y="141.48" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">Karnataka</text>
-    <text x="669.94" y="151.56" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">33%</text>
-   </g>
-   <g id="text_23">
-    <text x="593.09" y="335.58" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">Maharashtra</text>
-    <text x="593.09" y="345.66" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">25%</text>
-   </g>
-   <g id="text_24">
-    <text x="388.50" y="279.51" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">Tamil Nadu</text>
-    <text x="423.15" y="289.59" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">16%</text>
-   </g>
-   <g id="text_25">
-    <text x="380.32" y="163.94" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">Telangana</text>
-    <text x="410.40" y="174.09" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">13%</text>
-   </g>
-   <g id="text_26">
-    <text x="447.19" y="97.19" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">NCR/UP</text>
-    <text x="470.17" y="107.26" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">8%</text>
-   </g>
-   <g id="text_27">
-    <text x="506.66" y="78.25" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">Other</text>
-    <text x="520.28" y="88.33" font-family="Arial, Helvetica, sans-serif" font-size="9.0" fill="#0f1828">5%</text>
-   </g>
-   <g id="text_28">
-    <text x="442.49" y="62.72" font-family="Arial, Helvetica, sans-serif" font-size="10.0" fill="#0f1828">Approximate state share of GCCs (2025)</text>
-   </g>
+  <path id="mc6de2e1916" class="st13" d="M73.48,353.84v3.5"/>
+  <text class="st28" transform="translate(60.75 368.44)"><tspan x="0" y="0">2020</tspan></text>
+  <g class="st38">
+    <path class="st10" d="M132.66,353.84V68.72"/>
   </g>
-  <g id="text_29">
-   <text x="7.20" y="24.68" font-family="Arial, Helvetica, sans-serif" font-size="15.0" fill="#0f1828">India's GCC explosion: trajectory and state-level concentration</text>
+  <path id="mc6de2e19161" data-name="mc6de2e1916" class="st13" d="M132.66,353.84v3.5"/>
+  <text class="st28" transform="translate(119.93 368.44)"><tspan x="0" y="0">2022</tspan></text>
+  <g class="st35">
+    <path class="st10" d="M191.84,353.84V68.72"/>
   </g>
-  <g id="text_30">
-   <text x="7.20" y="29.12" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-style="italic" fill="#4a5567">~1,700 GCCs today; 2,100+ NASSCOM working target by 2030; Karnataka + Maharashtra ≈ 58% of base</text>
+  <path id="mc6de2e19162" data-name="mc6de2e1916" class="st13" d="M191.84,353.84v3.5"/>
+  <text class="st28" transform="translate(179.11 368.44)"><tspan x="0" y="0">2024</tspan></text>
+  <g class="st17">
+    <path class="st10" d="M251.02,353.84V68.72"/>
   </g>
-  <g id="text_31">
-   <text x="564.51" y="13.28" font-family="Arial, Helvetica, sans-serif" font-size="8.0" fill="#c0c5cc">Figure 18 · Techadyant Labs · 2026</text>
+  <path id="mc6de2e19163" data-name="mc6de2e1916" class="st13" d="M251.02,353.84v3.5"/>
+  <text class="st28" transform="translate(238.3 368.44)"><tspan x="0" y="0">2026</tspan></text>
+  <g class="st33">
+    <path class="st10" d="M310.2,353.84V68.72"/>
   </g>
-  <g id="text_32">
-   <text x="7.20" y="385.52" font-family="Arial, Helvetica, sans-serif" font-size="8.0" font-style="italic" fill="#4a5567">Source: NASSCOM India GCC Landscape Report; EY GCC Pulse 2025; state IT department releases.</text>
+  <path id="mc6de2e19164" data-name="mc6de2e1916" class="st13" d="M310.2,353.84v3.5"/>
+  <text class="st28" transform="translate(297.48 368.44)"><tspan x="0" y="0">2028</tspan></text>
+  <g class="st14">
+    <path class="st10" d="M369.38,353.84V68.72"/>
   </g>
- </g>
- <defs>
-  <clipPath id="pebb26c0f85">
-   <rect x="58.68" y="68.71875" width="325.5" height="285.12"/>
-  </clipPath>
- </defs>
+  <path id="mc6de2e19165" data-name="mc6de2e1916" class="st13" d="M369.38,353.84v3.5"/>
+  <text class="st28" transform="translate(356.66 368.44)"><tspan x="0" y="0">2030</tspan></text>
+  <text class="st20" transform="translate(209.78 382.88)"><tspan x="0" y="0">Year</tspan></text>
+  <g class="st15">
+    <path class="st10" d="M58.68,353.84h325.5"/>
+  </g>
+  <path id="m8554a6dcc6" class="st13" d="M58.68,353.84h-3.5"/>
+  <text class="st28" transform="translate(45.32 357.64)"><tspan x="0" y="0">0</tspan></text>
+  <g class="st34">
+    <path class="st10" d="M58.68,296.81h325.5"/>
+  </g>
+  <path id="m8554a6dcc61" data-name="m8554a6dcc6" class="st13" d="M58.68,296.81h-3.5"/>
+  <text class="st28" transform="translate(32.59 300.61)"><tspan x="0" y="0">500</tspan></text>
+  <g class="st18">
+    <path class="st10" d="M58.68,239.79h325.5"/>
+  </g>
+  <path id="m8554a6dcc62" data-name="m8554a6dcc6" class="st13" d="M58.68,239.79h-3.5"/>
+  <text class="st28" transform="translate(26.23 243.59)"><tspan x="0" y="0">1000</tspan></text>
+  <g class="st19">
+    <path class="st10" d="M58.68,182.77h325.5"/>
+  </g>
+  <path id="m8554a6dcc63" data-name="m8554a6dcc6" class="st13" d="M58.68,182.77h-3.5"/>
+  <text class="st28" transform="translate(26.23 186.57)"><tspan x="0" y="0">1500</tspan></text>
+  <g class="st31">
+    <path class="st10" d="M58.68,125.74h325.5"/>
+  </g>
+  <path id="m8554a6dcc64" data-name="m8554a6dcc6" class="st13" d="M58.68,125.74h-3.5"/>
+  <text class="st28" transform="translate(26.23 129.54)"><tspan x="0" y="0">2000</tspan></text>
+  <g class="st36">
+    <path class="st10" d="M58.68,68.72h325.5"/>
+  </g>
+  <path id="m8554a6dcc65" data-name="m8554a6dcc6" class="st13" d="M58.68,68.72h-3.5"/>
+  <text class="st28" transform="translate(26.23 72.52)"><tspan x="0" y="0">2500</tspan></text>
+  <text class="st20" transform="translate(19.94 269.65) rotate(-90)"><tspan x="0" y="0">GCCs in India (count)</tspan></text>
+  <g class="st39">
+    <path class="st9" d="M73.48,205.58l59.18-22.81,59.18-22.81,59.18-13.69,59.18-20.53,59.18-17.11"/>
+  </g>
+  <g class="st37">
+    <path id="m20bd6888ed" class="st12" d="M73.48,208.58c.8,0,1.56-.32,2.12-.88.56-.56.88-1.33.88-2.12s-.32-1.56-.88-2.12c-.56-.56-1.33-.88-2.12-.88s-1.56.32-2.12.88c-.56.56-.88,1.33-.88,2.12s.32,1.56.88,2.12c.56.56,1.33.88,2.12.88Z"/>
+    <path id="m20bd6888ed1" data-name="m20bd6888ed" class="st12" d="M132.66,185.77c.8,0,1.56-.32,2.12-.88.56-.56.88-1.33.88-2.12s-.32-1.56-.88-2.12c-.56-.56-1.33-.88-2.12-.88s-1.56.32-2.12.88c-.56.56-.88,1.33-.88,2.12s.32,1.56.88,2.12c.56.56,1.33.88,2.12.88Z"/>
+    <path id="m20bd6888ed2" data-name="m20bd6888ed" class="st12" d="M191.84,162.96c.8,0,1.56-.32,2.12-.88.56-.56.88-1.33.88-2.12s-.32-1.56-.88-2.12c-.56-.56-1.33-.88-2.12-.88s-1.56.32-2.12.88c-.56.56-.88,1.33-.88,2.12s.32,1.56.88,2.12c.56.56,1.33.88,2.12.88Z"/>
+    <path id="m20bd6888ed3" data-name="m20bd6888ed" class="st12" d="M251.02,149.27c.8,0,1.56-.32,2.12-.88.56-.56.88-1.33.88-2.12s-.32-1.56-.88-2.12c-.56-.56-1.33-.88-2.12-.88s-1.56.32-2.12.88c-.56.56-.88,1.33-.88,2.12s.32,1.56.88,2.12c.56.56,1.33.88,2.12.88Z"/>
+    <path id="m20bd6888ed4" data-name="m20bd6888ed" class="st12" d="M310.2,128.74c.8,0,1.56-.32,2.12-.88.56-.56.88-1.33.88-2.12s-.32-1.56-.88-2.12c-.56-.56-1.33-.88-2.12-.88s-1.56.32-2.12.88c-.56.56-.88,1.33-.88,2.12s.32,1.56.88,2.12c.56.56,1.33.88,2.12.88Z"/>
+    <path id="m20bd6888ed5" data-name="m20bd6888ed" class="st12" d="M369.38,111.64c.8,0,1.56-.32,2.12-.88.56-.56.88-1.33.88-2.12s-.32-1.56-.88-2.12c-.56-.56-1.33-.88-2.12-.88s-1.56.32-2.12.88c-.56.56-.88,1.33-.88,2.12s.32,1.56.88,2.12c.56.56,1.33.88,2.12.88Z"/>
+  </g>
+  <g class="st16">
+    <path class="st6" d="M251.02,353.84V68.72"/>
+  </g>
+  <path class="st7" d="M58.68,353.84V68.72"/>
+  <path class="st7" d="M58.68,353.84h325.5"/>
+  <text class="st24" transform="translate(58.45 198.73)"><tspan x="0" y="0">1,300</tspan></text>
+  <text class="st24" transform="translate(117.63 175.92)"><tspan x="0" y="0">1,500</tspan></text>
+  <text class="st24" transform="translate(176.81 153.11)"><tspan x="0" y="0">1,700</tspan></text>
+  <text class="st24" transform="translate(236 139.43)"><tspan x="0" y="0">1,820</tspan></text>
+  <text class="st24" transform="translate(295.18 118.9)"><tspan x="0" y="0">2,000</tspan></text>
+  <text class="st24" transform="translate(354.36 101.79)"><tspan x="0" y="0">2,150</tspan></text>
+  <text class="st26" transform="translate(41.55 62.72)"><tspan x="0" y="0">GCC count trajectory (NASSCOM working figures + 2030 target)</tspan></text>
+  <path class="st1" d="M648.84,262.19c8.85-16.09,13.35-34.21,13.06-52.57-.29-18.36-5.36-36.33-14.7-52.14-9.35-15.81-22.65-28.9-38.6-38-15.95-9.1-34-13.88-52.36-13.88v105.68l92.61,50.91Z"/>
+  <path class="st2" d="M505.32,303.89c24.55,13.5,53.49,16.69,80.4,8.88,26.91-7.82,49.63-26.02,63.13-50.57l-92.61-50.91-50.91,92.61Z"/>
+  <path class="st0" d="M450.76,217.92c1.12,17.76,6.71,34.96,16.24,49.99s22.72,27.41,38.32,35.98l50.91-92.61-105.47,6.64Z"/>
+  <path class="st5" d="M479.19,138.94c-9.88,10.52-17.5,22.96-22.4,36.55-4.89,13.58-6.95,28.03-6.04,42.43l105.47-6.64-77.04-72.34Z"/>
+  <path class="st4" d="M523.57,110.77c-8.43,2.74-16.48,6.53-23.97,11.28-7.49,4.75-14.34,10.42-20.41,16.89l77.04,72.34-32.66-100.51Z"/>
+  <path class="st3" d="M556.23,105.6c-5.54,0-11.06.44-16.53,1.3-5.47.87-10.86,2.16-16.13,3.87l32.66,100.51v-105.68Z"/>
+  <text class="st23" transform="translate(669.94 141.48)"><tspan x="0" y="0">Karnataka</tspan></text>
+  <text class="st23" transform="translate(669.94 151.56)"><tspan x="0" y="0">33%</tspan></text>
+  <text class="st23" transform="translate(593.09 335.58)"><tspan x="0" y="0">Maharashtra</tspan></text>
+  <text class="st23" transform="translate(593.09 345.66)"><tspan x="0" y="0">25%</tspan></text>
+  <text class="st23" transform="translate(388.5 279.51)"><tspan x="0" y="0">Tamil Nadu</tspan></text>
+  <text class="st23" transform="translate(423.15 289.59)"><tspan x="0" y="0">16%</tspan></text>
+  <text class="st23" transform="translate(380.32 163.94)"><tspan x="0" y="0">Telangana</tspan></text>
+  <text class="st23" transform="translate(410.4 174.09)"><tspan x="0" y="0">13%</tspan></text>
+  <text class="st23" transform="translate(447.19 97.19)"><tspan x="0" y="0">NCR/UP</tspan></text>
+  <text class="st23" transform="translate(470.17 107.26)"><tspan x="0" y="0">8%</tspan></text>
+  <text class="st23" transform="translate(506.66 78.25)"><tspan x="0" y="0">Other</tspan></text>
+  <text class="st23" transform="translate(520.28 88.33)"><tspan x="0" y="0">5%</tspan></text>
+  <text class="st26" transform="translate(442.49 62.72)"><tspan x="0" y="0">Approximate state share of GCCs (2025)</tspan></text>
+  <text class="st25" transform="translate(7.2 24.68)"><tspan x="0" y="0">India&apos;s GCC explosion: trajectory and state-level concentration</tspan></text>
+  <text class="st27" transform="translate(7.2 39.12)"><tspan x="0" y="0">~1,700 GCCs today; 2,100+ NASSCOM working target by 2030; Karnataka + Maharashtra ≈ 58% of base</tspan></text>
+  <text class="st22" transform="translate(564.51 13.28)"><tspan x="0" y="0">Figure 18 · Techadyant Labs · 2026</tspan></text>
+  <text class="st21" transform="translate(7.2 385.52)"><tspan x="0" y="0">Source: NASSCOM India GCC Landscape Report; EY GCC Pulse 2025; state IT department releases.</tspan></text>
 </svg>

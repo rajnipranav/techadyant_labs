@@ -1,452 +1,470 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="838.08pt" height="631.2625pt" viewBox="0 0 838.08 631.2625" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-05-28T16:21:03.273540</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 631.2625 
-L 838.08 631.2625 
-L 838.08 0 
-L 0 0 
-z
-" style="fill: #fbf9f4"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 838.08 631.26">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        clip-path: url(#clippath-21);
+      }
+
+      .st1 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st2 {
+        clip-path: url(#clippath-7);
+      }
+
+      .st3 {
+        clip-path: url(#clippath-17);
+      }
+
+      .st4 {
+        stroke: #2bc5b4;
+        stroke-opacity: .8;
+        stroke-width: 2px;
+      }
+
+      .st4, .st5, .st6, .st7 {
+        fill: none;
+      }
+
+      .st4, .st6, .st7 {
+        stroke-linejoin: round;
+      }
+
+      .st4, .st7 {
+        stroke-linecap: square;
+      }
+
+      .st8 {
+        opacity: .92;
+      }
+
+      .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28 {
+        isolation: isolate;
+      }
+
+      .st8, .st14 {
+        fill: #c9a84c;
+        stroke-width: .5px;
+      }
+
+      .st8, .st14, .st29, .st30 {
+        stroke: #0f1828;
+      }
+
+      .st31 {
+        clip-path: url(#clippath-15);
+      }
+
+      .st9, .st11, .st12 {
+        font-size: 8px;
+      }
+
+      .st9, .st12, .st21, .st23 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st9, .st13, .st29, .st18, .st19, .st20, .st21, .st25 {
+        fill: #0f1828;
+      }
+
+      .st32 {
+        clip-path: url(#clippath-18);
+      }
+
+      .st33 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st34 {
+        clip-path: url(#clippath-22);
+      }
+
+      .st35 {
+        clip-path: url(#clippath-23);
+      }
+
+      .st36 {
+        fill: #e8e5dd;
+      }
+
+      .st36, .st6, .st7 {
+        stroke: #c0c5cc;
+      }
+
+      .st36, .st29, .st7, .st30 {
+        stroke-width: .6px;
+      }
+
+      .st10 {
+        font-size: 11px;
+      }
+
+      .st10, .st37, .st16, .st17, .st23, .st26, .st27, .st28 {
+        fill: #fbf9f4;
+      }
+
+      .st10, .st13, .st15, .st16, .st18, .st20, .st25, .st26, .st27 {
+        font-weight: 700;
+      }
+
+      .st10, .st13, .st16, .st18, .st20, .st25, .st26, .st27 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .st38 {
+        clip-path: url(#clippath-9);
+      }
+
+      .st39 {
+        clip-path: url(#clippath-10);
+      }
+
+      .st40 {
+        fill: #fff;
+      }
+
+      .st11, .st15, .st17, .st19, .st22, .st24, .st28 {
+        font-style: italic;
+      }
+
+      .st11, .st15, .st22, .st24 {
+        fill: #4a5567;
+      }
+
+      .st11, .st17, .st19, .st22, .st24, .st28 {
+        font-family: Arial-ItalicMT, Arial;
+      }
+
+      .st41 {
+        clip-path: url(#clippath-11);
+      }
+
+      .st12 {
+        fill: #c0c5cc;
+      }
+
+      .st6 {
+        stroke-dasharray: .4 .66;
+        stroke-opacity: .35;
+        stroke-width: .4px;
+      }
+
+      .st42 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st13, .st22 {
+        font-size: 7px;
+      }
+
+      .st14 {
+        opacity: .65;
+      }
+
+      .st43 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st44 {
+        clip-path: url(#clippath-20);
+      }
+
+      .st15 {
+        font-family: Arial-BoldItalicMT, Arial;
+      }
+
+      .st15, .st18 {
+        font-size: 10px;
+      }
+
+      .st45 {
+        clip-path: url(#clippath-8);
+      }
+
+      .st7 {
+        stroke-opacity: .55;
+      }
+
+      .st46 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st16, .st17 {
+        font-size: 9px;
+      }
+
+      .st47 {
+        clip-path: url(#clippath-12);
+      }
+
+      .st48 {
+        clip-path: url(#clippath-14);
+      }
+
+      .st49 {
+        clip-path: url(#clippath-19);
+      }
+
+      .st30 {
+        fill: #2bc5b4;
+      }
+
+      .st19, .st21, .st23, .st28 {
+        font-size: 7.5px;
+      }
+
+      .st20 {
+        font-size: 15px;
+      }
+
+      .st50 {
+        clip-path: url(#clippath-16);
+      }
+
+      .st51 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st52 {
+        clip-path: url(#clippath-13);
+      }
+
+      .st53 {
+        clip-path: url(#clippath-24);
+      }
+
+      .st24 {
+        font-size: 10.5px;
+      }
+
+      .st54 {
+        clip-path: url(#clippath);
+      }
+
+      .st25, .st26 {
+        font-size: 8.5px;
+      }
+
+      .st27 {
+        font-size: 13px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-24">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+  </defs>
+  <path class="st37" d="M0,631.26h838.08V0H0v631.26Z"/>
+  <rect class="st40" x="68.04" y="82.89" width="725.4" height="481.19"/>
+  <g class="st54">
+    <path class="st30" d="M95.94,206.49h195.3c1.86,0,2.79-.92,2.79-2.77v-77.62c0-1.85-.93-2.77-2.79-2.77H95.94c-1.86,0-2.79.92-2.79,2.77v77.62c0,1.85.93,2.77,2.79,2.77Z"/>
   </g>
-  <g id="axes_1">
-   <g id="patch_2">
-    <path d="M 95.94 206.49075 
-L 291.24 206.49075 
-Q 294.03 206.49075 294.03 203.71875 
-L 294.03 126.10275 
-Q 294.03 123.33075 291.24 123.33075 
-L 95.94 123.33075 
-Q 93.15 123.33075 93.15 126.10275 
-L 93.15 203.71875 
-Q 93.15 206.49075 95.94 206.49075 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #2bc5b4; stroke: #0f1828; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_3">
-    <path d="M 330.3 212.03475 
-L 531.18 212.03475 
-Q 533.97 212.03475 533.97 209.26275 
-L 533.97 123.33075 
-Q 533.97 120.55875 531.18 120.55875 
-L 330.3 120.55875 
-Q 327.51 120.55875 327.51 123.33075 
-L 327.51 209.26275 
-Q 327.51 212.03475 330.3 212.03475 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #0f1828; stroke: #0f1828; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_4">
-    <path d="M 570.24 206.49075 
-L 765.54 206.49075 
-Q 768.33 206.49075 768.33 203.71875 
-L 768.33 126.10275 
-Q 768.33 123.33075 765.54 123.33075 
-L 570.24 123.33075 
-Q 567.45 123.33075 567.45 126.10275 
-L 567.45 203.71875 
-Q 567.45 206.49075 570.24 206.49075 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #2bc5b4; stroke: #0f1828; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_5">
-    <path d="M 81.99 333.44835 
-L 232.65 333.44835 
-Q 234.882 333.44835 234.882 331.23075 
-L 234.882 250.84275 
-Q 234.882 248.62515 232.65 248.62515 
-L 81.99 248.62515 
-Q 79.758 248.62515 79.758 250.84275 
-L 79.758 331.23075 
-Q 79.758 333.44835 81.99 333.44835 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #c9a84c; opacity: 0.92; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_6">
-    <path d="M 254.97 333.44835 
-L 405.63 333.44835 
-Q 407.862 333.44835 407.862 331.23075 
-L 407.862 250.84275 
-Q 407.862 248.62515 405.63 248.62515 
-L 254.97 248.62515 
-Q 252.738 248.62515 252.738 250.84275 
-L 252.738 331.23075 
-Q 252.738 333.44835 254.97 333.44835 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #c9a84c; opacity: 0.92; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_7">
-    <path d="M 439.11 333.44835 
-L 589.77 333.44835 
-Q 592.002 333.44835 592.002 331.23075 
-L 592.002 250.84275 
-Q 592.002 248.62515 589.77 248.62515 
-L 439.11 248.62515 
-Q 436.878 248.62515 436.878 250.84275 
-L 436.878 331.23075 
-Q 436.878 333.44835 439.11 333.44835 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #c9a84c; opacity: 0.92; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_8">
-    <path d="M 612.09 333.44835 
-L 762.75 333.44835 
-Q 764.982 333.44835 764.982 331.23075 
-L 764.982 250.84275 
-Q 764.982 248.62515 762.75 248.62515 
-L 612.09 248.62515 
-Q 609.858 248.62515 609.858 250.84275 
-L 609.858 331.23075 
-Q 609.858 333.44835 612.09 333.44835 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #c9a84c; opacity: 0.92; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_9">
-    <path d="M 101.52 454.86195 
-L 201.96 454.86195 
-Q 203.634 454.86195 203.634 453.19875 
-L 203.634 381.12675 
-Q 203.634 379.46355 201.96 379.46355 
-L 101.52 379.46355 
-Q 99.846 379.46355 99.846 381.12675 
-L 99.846 453.19875 
-Q 99.846 454.86195 101.52 454.86195 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #e8e5dd; stroke: #c0c5cc; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_10">
-    <path d="M 213.12 454.86195 
-L 313.56 454.86195 
-Q 315.234 454.86195 315.234 453.19875 
-L 315.234 381.12675 
-Q 315.234 379.46355 313.56 379.46355 
-L 213.12 379.46355 
-Q 211.446 379.46355 211.446 381.12675 
-L 211.446 453.19875 
-Q 211.446 454.86195 213.12 454.86195 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #e8e5dd; stroke: #c0c5cc; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_11">
-    <path d="M 324.72 454.86195 
-L 425.16 454.86195 
-Q 426.834 454.86195 426.834 453.19875 
-L 426.834 381.12675 
-Q 426.834 379.46355 425.16 379.46355 
-L 324.72 379.46355 
-Q 323.046 379.46355 323.046 381.12675 
-L 323.046 453.19875 
-Q 323.046 454.86195 324.72 454.86195 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #e8e5dd; stroke: #c0c5cc; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_12">
-    <path d="M 436.32 454.86195 
-L 536.76 454.86195 
-Q 538.434 454.86195 538.434 453.19875 
-L 538.434 381.12675 
-Q 538.434 379.46355 536.76 379.46355 
-L 436.32 379.46355 
-Q 434.646 379.46355 434.646 381.12675 
-L 434.646 453.19875 
-Q 434.646 454.86195 436.32 454.86195 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #e8e5dd; stroke: #c0c5cc; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_13">
-    <path d="M 547.92 454.86195 
-L 648.36 454.86195 
-Q 650.034 454.86195 650.034 453.19875 
-L 650.034 381.12675 
-Q 650.034 379.46355 648.36 379.46355 
-L 547.92 379.46355 
-Q 546.246 379.46355 546.246 381.12675 
-L 546.246 453.19875 
-Q 546.246 454.86195 547.92 454.86195 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #e8e5dd; stroke: #c0c5cc; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_14">
-    <path d="M 659.52 454.86195 
-L 759.96 454.86195 
-Q 761.634 454.86195 761.634 453.19875 
-L 761.634 381.12675 
-Q 761.634 379.46355 759.96 379.46355 
-L 659.52 379.46355 
-Q 657.846 379.46355 657.846 381.12675 
-L 657.846 453.19875 
-Q 657.846 454.86195 659.52 454.86195 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #e8e5dd; stroke: #c0c5cc; stroke-width: 0.6; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_15">
-    <path d="M 95.94 543.56595 
-L 765.54 543.56595 
-Q 767.214 543.56595 767.214 541.90275 
-L 767.214 505.86675 
-Q 767.214 504.20355 765.54 504.20355 
-L 95.94 504.20355 
-Q 94.266 504.20355 94.266 505.86675 
-L 94.266 541.90275 
-Q 94.266 543.56595 95.94 543.56595 
-z
-" clip-path="url(#pf46279c34d)" style="fill: #c9a84c; opacity: 0.65; stroke: #0f1828; stroke-width: 0.5; stroke-linejoin: miter"/>
-   </g>
-   <g id="line2d_1">
-    <path d="M 291.24 164.91075 
-L 330.3 166.01955 
-" clip-path="url(#pf46279c34d)" style="fill: none; stroke: #2bc5b4; stroke-opacity: 0.8; stroke-width: 2; stroke-linecap: square"/>
-   </g>
-   <g id="line2d_2">
-    <path d="M 531.18 166.01955 
-L 570.24 164.91075 
-" clip-path="url(#pf46279c34d)" style="fill: none; stroke: #2bc5b4; stroke-opacity: 0.8; stroke-width: 2; stroke-linecap: square"/>
-   </g>
-   <g id="line2d_3">
-    <path d="M 157.32 250.84275 
-L 430.74 209.26275 
-" clip-path="url(#pf46279c34d)" style="fill: none; stroke: #c0c5cc; stroke-opacity: 0.55; stroke-width: 0.6; stroke-linecap: square"/>
-   </g>
-   <g id="line2d_4">
-    <path d="M 330.3 250.84275 
-L 430.74 209.26275 
-" clip-path="url(#pf46279c34d)" style="fill: none; stroke: #c0c5cc; stroke-opacity: 0.55; stroke-width: 0.6; stroke-linecap: square"/>
-   </g>
-   <g id="line2d_5">
-    <path d="M 514.44 250.84275 
-L 430.74 209.26275 
-" clip-path="url(#pf46279c34d)" style="fill: none; stroke: #c0c5cc; stroke-opacity: 0.55; stroke-width: 0.6; stroke-linecap: square"/>
-   </g>
-   <g id="line2d_6">
-    <path d="M 687.42 250.84275 
-L 430.74 209.26275 
-" clip-path="url(#pf46279c34d)" style="fill: none; stroke: #c0c5cc; stroke-opacity: 0.55; stroke-width: 0.6; stroke-linecap: square"/>
-   </g>
-   <g id="line2d_7">
-    <path d="M 151.74 381.12675 
-L 430.74 209.26275 
-" clip-path="url(#pf46279c34d)" style="fill: none; stroke-dasharray: 0.4,0.66; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.35; stroke-width: 0.4"/>
-   </g>
-   <g id="line2d_8">
-    <path d="M 263.34 381.12675 
-L 430.74 209.26275 
-" clip-path="url(#pf46279c34d)" style="fill: none; stroke-dasharray: 0.4,0.66; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.35; stroke-width: 0.4"/>
-   </g>
-   <g id="line2d_9">
-    <path d="M 374.94 381.12675 
-L 430.74 209.26275 
-" clip-path="url(#pf46279c34d)" style="fill: none; stroke-dasharray: 0.4,0.66; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.35; stroke-width: 0.4"/>
-   </g>
-   <g id="line2d_10">
-    <path d="M 486.54 381.12675 
-L 430.74 209.26275 
-" clip-path="url(#pf46279c34d)" style="fill: none; stroke-dasharray: 0.4,0.66; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.35; stroke-width: 0.4"/>
-   </g>
-   <g id="line2d_11">
-    <path d="M 598.14 381.12675 
-L 430.74 209.26275 
-" clip-path="url(#pf46279c34d)" style="fill: none; stroke-dasharray: 0.4,0.66; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.35; stroke-width: 0.4"/>
-   </g>
-   <g id="line2d_12">
-    <path d="M 709.74 381.12675 
-L 430.74 209.26275 
-" clip-path="url(#pf46279c34d)" style="fill: none; stroke-dasharray: 0.4,0.66; stroke-dashoffset: 0; stroke: #c0c5cc; stroke-opacity: 0.35; stroke-width: 0.4"/>
-   </g>
-   <g id="text_1">
-    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="193.59" y="145.50675" transform="rotate(-0 193.59 145.50675)">Tata-PSMC fab</text>
-   </g>
-   <g id="text_2">
-    <text style="font-style: italic; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="193.59" y="159.36675" transform="rotate(-0 193.59 159.36675)">(Dholera, Gujarat)</text>
-   </g>
-   <g id="text_3">
-    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="193.59" y="175.99875" transform="rotate(-0 193.59 175.99875)">Rs 91,000 cr · 50,000 WSPM</text>
-   </g>
-   <g id="text_4">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="193.59" y="188.19555" transform="rotate(-0 193.59 188.19555)">28–110 nm logic · ASML DUV-i</text>
-   </g>
-   <g id="text_5">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="193.59" y="198.17475" transform="rotate(-0 193.59 198.17475)">Commercial: late 2027</text>
-   </g>
-   <g id="text_6">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="430.74" y="139.96275" transform="rotate(-0 430.74 139.96275)">SANAND CLUSTER</text>
-   </g>
-   <g id="text_7">
-    <text style="font-style: italic; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="430.74" y="154.93155" transform="rotate(-0 430.74 154.93155)">Gujarat</text>
-   </g>
-   <g id="text_8">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="430.74" y="170.45475" transform="rotate(-0 430.74 170.45475)">Rs 1.25 lakh cr cumulative capex</text>
-   </g>
-   <g id="text_9">
-    <text style="font-style: italic; font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="430.74" y="184.31475" transform="rotate(-0 430.74 184.31475)">4 OSAT tenants · 100k+ direct jobs target</text>
-   </g>
-   <g id="text_10">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="430.74" y="197.06595" transform="rotate(-0 430.74 197.06595)">Gujarat Semi Policy 2022–27 (40% top-up)</text>
-   </g>
-   <g id="text_11">
-    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="667.89" y="145.50675" transform="rotate(-0 667.89 145.50675)">Tata TSAT</text>
-   </g>
-   <g id="text_12">
-    <text style="font-style: italic; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="667.89" y="159.36675" transform="rotate(-0 667.89 159.36675)">(Jagiroad, Assam)</text>
-   </g>
-   <g id="text_13">
-    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="667.89" y="175.99875" transform="rotate(-0 667.89 175.99875)">Rs 27,120 cr · 48 M chips/day</text>
-   </g>
-   <g id="text_14">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="667.89" y="188.19555" transform="rotate(-0 667.89 188.19555)">ISP packaging · sister facility</text>
-   </g>
-   <g id="text_15">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #fbf9f4" x="667.89" y="198.17475" transform="rotate(-0 667.89 198.17475)">Operationally linked, not co-located</text>
-   </g>
-   <g id="text_16">
-    <text style="font-style: italic; font-weight: 700; font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #4a5567" x="430.74" y="228.66675" transform="rotate(-0 430.74 228.66675)">SANAND OSAT TENANTS</text>
-   </g>
-   <g id="text_17">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="157.32" y="264.70275" transform="rotate(-0 157.32 264.70275)">Micron</text>
-   </g>
-   <g id="text_18">
-    <text style="font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="157.32" y="279.67155" transform="rotate(-0 157.32 279.67155)">USD 2.75B / Rs 22,516 cr</text>
-   </g>
-   <g id="text_19">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="157.32" y="290.75955" transform="rotate(-0 157.32 290.75955)">500k sq ft cleanroom</text>
-   </g>
-   <g id="text_20">
-    <text style="font-style: italic; font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="157.32" y="301.84755" transform="rotate(-0 157.32 301.84755)">DRAM + NAND OSAT</text>
-   </g>
-   <g id="text_21">
-    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="157.32" y="314.59875" transform="rotate(-0 157.32 314.59875)">Live Feb 2025</text>
-   </g>
-   <g id="text_22">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="330.3" y="264.70275" transform="rotate(-0 330.3 264.70275)">CG Semi</text>
-   </g>
-   <g id="text_23">
-    <text style="font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="330.3" y="279.67155" transform="rotate(-0 330.3 279.67155)">Rs 7,600 cr</text>
-   </g>
-   <g id="text_24">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="330.3" y="290.75955" transform="rotate(-0 330.3 290.75955)">15 M units/day target</text>
-   </g>
-   <g id="text_25">
-    <text style="font-style: italic; font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="330.3" y="301.84755" transform="rotate(-0 330.3 301.84755)">Analog + automotive</text>
-   </g>
-   <g id="text_26">
-    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="330.3" y="314.59875" transform="rotate(-0 330.3 314.59875)">Pilot 2025</text>
-   </g>
-   <g id="text_27">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="514.44" y="264.70275" transform="rotate(-0 514.44 264.70275)">Kaynes Semicon</text>
-   </g>
-   <g id="text_28">
-    <text style="font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="514.44" y="279.67155" transform="rotate(-0 514.44 279.67155)">Rs 3,307 cr</text>
-   </g>
-   <g id="text_29">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="514.44" y="290.75955" transform="rotate(-0 514.44 290.75955)">6 M chips/day</text>
-   </g>
-   <g id="text_30">
-    <text style="font-style: italic; font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="514.44" y="301.84755" transform="rotate(-0 514.44 301.84755)">Power electronics</text>
-   </g>
-   <g id="text_31">
-    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="514.44" y="314.59875" transform="rotate(-0 514.44 314.59875)">Commercial Mar 2026</text>
-   </g>
-   <g id="text_32">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="687.42" y="264.70275" transform="rotate(-0 687.42 264.70275)">Suchi Semicon (Surat)</text>
-   </g>
-   <g id="text_33">
-    <text style="font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="687.42" y="279.67155" transform="rotate(-0 687.42 279.67155)">Rs 868 cr</text>
-   </g>
-   <g id="text_34">
-    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="687.42" y="290.75955" transform="rotate(-0 687.42 290.75955)">3 M chips/day by 2029</text>
-   </g>
-   <g id="text_35">
-    <text style="font-style: italic; font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="687.42" y="301.84755" transform="rotate(-0 687.42 301.84755)">Power + analog</text>
-   </g>
-   <g id="text_36">
-    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="687.42" y="314.59875" transform="rotate(-0 687.42 314.59875)">Approved May 2026</text>
-   </g>
-   <g id="text_37">
-    <text style="font-style: italic; font-weight: 700; font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #4a5567" x="430.74" y="361.72275" transform="rotate(-0 430.74 361.72275)">INDIAN-SIDE SUPPLIER ECOSYSTEM</text>
-   </g>
-   <g id="text_38">
-    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="151.74" y="400.53075" transform="rotate(-0 151.74 400.53075)">Linde India</text>
-   </g>
-   <g id="text_39">
-    <text style="font-style: italic; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4a5567" transform="translate(123.307422 420.412281)">Bulk + specialty</text>
-    <text style="font-style: italic; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4a5567" transform="translate(123.189297 428.25075)">electronic gases</text>
-   </g>
-   <g id="text_40">
-    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="263.34" y="400.53075" transform="rotate(-0 263.34 400.53075)">Inox Air Products</text>
-   </g>
-   <g id="text_41">
-    <text style="font-style: italic; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4a5567" transform="translate(233.133359 420.412281)">ESG Hub Dholera</text>
-    <text style="font-style: italic; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4a5567" transform="translate(235.187422 428.25075)">Rs 500 cr capex</text>
-   </g>
-   <g id="text_42">
-    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="374.94" y="400.53075" transform="rotate(-0 374.94 400.53075)">L&amp;T / Tata Projects</text>
-   </g>
-   <g id="text_43">
-    <text style="font-style: italic; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4a5567" transform="translate(356.103438 420.412281)">EPC + civil</text>
-    <text style="font-style: italic; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4a5567" transform="translate(353.174922 428.25075)">construction</text>
-   </g>
-   <g id="text_44">
-    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="486.54" y="400.53075" transform="rotate(-0 486.54 400.53075)">Aegis Logistics</text>
-   </g>
-   <g id="text_45">
-    <text style="font-style: italic; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4a5567" transform="translate(460.484688 420.412281)">Hazardous-gas</text>
-    <text style="font-style: italic; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4a5567" transform="translate(466.594922 428.25075)">distribution</text>
-   </g>
-   <g id="text_46">
-    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="598.14" y="400.53075" transform="rotate(-0 598.14 400.53075)">Praj Industries</text>
-   </g>
-   <g id="text_47">
-    <text style="font-style: italic; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4a5567" transform="translate(570.53375 420.412281)">Ultrapure water</text>
-    <text style="font-style: italic; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4a5567" transform="translate(583.663672 428.25075)">systems</text>
-   </g>
-   <g id="text_48">
-    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="709.74" y="400.53075" transform="rotate(-0 709.74 400.53075)">BHEL / ABB India</text>
-   </g>
-   <g id="text_49">
-    <text style="font-style: italic; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4a5567" transform="translate(676.325938 420.412281)">Power conditioning</text>
-    <text style="font-style: italic; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4a5567" transform="translate(680.680703 428.25075)">+ HT switchgear</text>
-   </g>
-   <g id="text_50">
-    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="430.74" y="518.06355" transform="rotate(-0 430.74 518.06355)">DOWNSTREAM BENEFICIARIES</text>
-   </g>
-   <g id="text_51">
-    <text style="font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f1828" x="430.74" y="533.58675" transform="rotate(-0 430.74 533.58675)">Auto OEMs · Power electronics · Industrial automation · Consumer electronics PLI · ER&amp;D ecosystem · Indian-fabless customers</text>
-   </g>
+  <g class="st42">
+    <path class="st29" d="M330.3,212.03h200.88c1.86,0,2.79-.92,2.79-2.77v-85.93c0-1.85-.93-2.77-2.79-2.77h-200.88c-1.86,0-2.79.92-2.79,2.77v85.93c0,1.85.93,2.77,2.79,2.77Z"/>
   </g>
-  <g id="text_52">
-   <text style="font-weight: 700; font-size: 15px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f1828" x="7.2" y="24.676406" transform="rotate(-0 7.2 24.676406)">Sanand semiconductor cluster ecosystem — tenants, anchors and supplier network</text>
+  <g class="st51">
+    <path class="st30" d="M570.24,206.49h195.3c1.86,0,2.79-.92,2.79-2.77v-77.62c0-1.85-.93-2.77-2.79-2.77h-195.3c-1.86,0-2.79.92-2.79,2.77v77.62c0,1.85.93,2.77,2.79,2.77Z"/>
   </g>
-  <g id="text_53">
-   <text style="font-style: italic; font-size: 10.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #4a5567" x="7.2" y="39.19875" transform="rotate(-0 7.2 39.19875)">Four OSAT tenants at Sanand + Tata-PSMC Dholera fab nearby + Tata TSAT in Assam (sister facility) + India-side supplier ecosystem</text>
+  <g class="st46">
+    <path class="st8" d="M81.99,333.45h150.66c1.49,0,2.23-.74,2.23-2.22v-80.39c0-1.48-.74-2.22-2.23-2.22H81.99c-1.49,0-2.23.74-2.23,2.22v80.39c0,1.48.74,2.22,2.23,2.22Z"/>
   </g>
-  <g id="text_54">
-   <text style="font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #c0c5cc" x="830.88" y="13.27875" transform="rotate(-0 830.88 13.27875)">Figure 30 · Techadyant Labs · 2026</text>
+  <g class="st33">
+    <path class="st8" d="M254.97,333.45h150.66c1.49,0,2.23-.74,2.23-2.22v-80.39c0-1.48-.74-2.22-2.23-2.22h-150.66c-1.49,0-2.23.74-2.23,2.22v80.39c0,1.48.74,2.22,2.23,2.22Z"/>
   </g>
-  <g id="text_55">
-   <text style="font-style: italic; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #4a5567" x="7.2" y="622.39875" transform="rotate(-0 7.2 622.39875)">Source: PIB PRIDs 2108602, 2258119, 2161666, 2050859; Micron 10-K; Tata Electronics releases; supplier press materials.</text>
+  <g class="st43">
+    <path class="st8" d="M439.11,333.45h150.66c1.49,0,2.23-.74,2.23-2.22v-80.39c0-1.48-.74-2.22-2.23-2.22h-150.66c-1.49,0-2.23.74-2.23,2.22v80.39c0,1.48.74,2.22,2.23,2.22Z"/>
   </g>
- </g>
- <defs>
-  <clipPath id="pf46279c34d">
-   <rect x="68.04" y="65.11875" width="725.4" height="498.96"/>
-  </clipPath>
- </defs>
+  <g class="st1">
+    <path class="st8" d="M612.09,333.45h150.66c1.49,0,2.23-.74,2.23-2.22v-80.39c0-1.48-.74-2.22-2.23-2.22h-150.66c-1.49,0-2.23.74-2.23,2.22v80.39c0,1.48.74,2.22,2.23,2.22Z"/>
+  </g>
+  <g class="st2">
+    <path class="st36" d="M101.52,454.86h100.44c1.12,0,1.67-.55,1.67-1.66v-72.07c0-1.11-.56-1.66-1.67-1.66h-100.44c-1.12,0-1.67.55-1.67,1.66v72.07c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st45">
+    <path class="st36" d="M213.12,454.86h100.44c1.12,0,1.67-.55,1.67-1.66v-72.07c0-1.11-.56-1.66-1.67-1.66h-100.44c-1.12,0-1.67.55-1.67,1.66v72.07c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st38">
+    <path class="st36" d="M324.72,454.86h100.44c1.12,0,1.67-.55,1.67-1.66v-72.07c0-1.11-.56-1.66-1.67-1.66h-100.44c-1.12,0-1.67.55-1.67,1.66v72.07c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st39">
+    <path class="st36" d="M436.32,454.86h100.44c1.12,0,1.67-.55,1.67-1.66v-72.07c0-1.11-.56-1.66-1.67-1.66h-100.44c-1.12,0-1.67.55-1.67,1.66v72.07c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st41">
+    <path class="st36" d="M547.92,454.86h100.44c1.12,0,1.67-.55,1.67-1.66v-72.07c0-1.11-.56-1.66-1.67-1.66h-100.44c-1.12,0-1.67.55-1.67,1.66v72.07c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st47">
+    <path class="st36" d="M659.52,454.86h100.44c1.12,0,1.67-.55,1.67-1.66v-72.07c0-1.11-.56-1.66-1.67-1.66h-100.44c-1.12,0-1.67.55-1.67,1.66v72.07c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st52">
+    <path class="st14" d="M95.94,543.57h669.6c1.12,0,1.67-.55,1.67-1.66v-36.04c0-1.11-.56-1.66-1.67-1.66H95.94c-1.12,0-1.67.55-1.67,1.66v36.04c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st48">
+    <path class="st4" d="M291.24,164.91l39.06,1.11"/>
+  </g>
+  <g class="st31">
+    <path class="st4" d="M531.18,166.02l39.06-1.11"/>
+  </g>
+  <g class="st50">
+    <path class="st7" d="M157.32,250.84l273.42-41.58"/>
+  </g>
+  <g class="st3">
+    <path class="st7" d="M330.3,250.84l100.44-41.58"/>
+  </g>
+  <g class="st32">
+    <path class="st7" d="M514.44,250.84l-83.7-41.58"/>
+  </g>
+  <g class="st49">
+    <path class="st7" d="M687.42,250.84l-256.68-41.58"/>
+  </g>
+  <g class="st44">
+    <path class="st6" d="M151.74,381.13l279-171.86"/>
+  </g>
+  <g class="st0">
+    <path class="st6" d="M263.34,381.13l167.4-171.86"/>
+  </g>
+  <g class="st34">
+    <path class="st6" d="M374.94,381.13l55.8-171.86"/>
+  </g>
+  <g class="st35">
+    <path class="st6" d="M486.54,381.13l-55.8-171.86"/>
+  </g>
+  <g class="st53">
+    <path class="st6" d="M598.14,381.13l-167.4-171.86"/>
+  </g>
+  <path class="st6" d="M709.74,381.13l-279-171.86"/>
+  <text class="st10" transform="translate(155.19 145.51)"><tspan x="0" y="0">Tata-PSMC fab</tspan></text>
+  <text class="st17" transform="translate(157.58 159.37)"><tspan x="0" y="0">(Dholera, Gujarat)</tspan></text>
+  <text class="st26" transform="translate(137.6 176)"><tspan x="0" y="0">Rs 91,000 cr · 50,000 WSPM</tspan></text>
+  <text class="st23" transform="translate(142.32 188.2)"><tspan x="0" y="0">28–110 nm logic · ASML DUV-i</tspan></text>
+  <text class="st23" transform="translate(156.07 198.17)"><tspan x="0" y="0">Commercial: late 2027</tspan></text>
+  <text class="st27" transform="translate(370.43 139.96)"><tspan x="0" y="0">SANAND CLUSTER</tspan></text>
+  <text class="st17" transform="translate(415.98 154.93)"><tspan x="0" y="0">Gujarat</tspan></text>
+  <text class="st16" transform="translate(360.45 170.45)"><tspan x="0" y="0">Rs 1.25 lakh cr cumulative capex</tspan></text>
+  <text class="st28" transform="translate(361.92 184.31)"><tspan x="0" y="0">4 OSAT tenants · 100k+ direct jobs target</tspan></text>
+  <text class="st23" transform="translate(359.45 197.07)"><tspan x="0" y="0">Gujarat Semi Policy 2022–27 (40% top-up)</tspan></text>
+  <text class="st10" transform="translate(641.51 145.51)"><tspan x="0" y="0">Tata TSAT</tspan></text>
+  <text class="st17" transform="translate(631.55 159.37)"><tspan x="0" y="0">(Jagiroad, Assam)</tspan></text>
+  <text class="st26" transform="translate(609.07 176)"><tspan x="0" y="0">Rs 27,120 cr · 48 M chips/day</tspan></text>
+  <text class="st23" transform="translate(620.02 188.2)"><tspan x="0" y="0">ISP packaging · sister facility</tspan></text>
+  <text class="st23" transform="translate(609.31 198.17)"><tspan x="0" y="0">Operationally linked, not co-located</tspan></text>
+  <text class="st15" transform="translate(369.44 228.67)"><tspan x="0" y="0">SANAND OSAT TENANTS</tspan></text>
+  <text class="st18" transform="translate(140.93 264.7)"><tspan x="0" y="0">Micron</tspan></text>
+  <text class="st9" transform="translate(111.3 279.67)"><tspan x="0" y="0">USD 2.75B / Rs 22,516 cr</tspan></text>
+  <text class="st21" transform="translate(122.51 290.76)"><tspan x="0" y="0">500k sq ft cleanroom</tspan></text>
+  <text class="st19" transform="translate(120.41 301.85)"><tspan x="0" y="0">DRAM + NAND OSAT</tspan></text>
+  <text class="st13" transform="translate(134.36 314.6)"><tspan x="0" y="0">Live Feb 2025</tspan></text>
+  <text class="st18" transform="translate(309.46 264.7)"><tspan x="0" y="0">CG Semi</tspan></text>
+  <text class="st9" transform="translate(309.85 279.67)"><tspan x="0" y="0">Rs 7,600 cr</tspan></text>
+  <text class="st21" transform="translate(295.28 290.76)"><tspan x="0" y="0">15 M units/day target</tspan></text>
+  <text class="st19" transform="translate(296.01 301.85)"><tspan x="0" y="0">Analog + automotive</tspan></text>
+  <text class="st13" transform="translate(313.96 314.6)"><tspan x="0" y="0">Pilot 2025</tspan></text>
+  <text class="st18" transform="translate(474.42 264.7)"><tspan x="0" y="0">Kaynes Semicon</tspan></text>
+  <text class="st9" transform="translate(493.99 279.67)"><tspan x="0" y="0">Rs 3,307 cr</tspan></text>
+  <text class="st21" transform="translate(491.3 290.76)"><tspan x="0" y="0">6 M chips/day</tspan></text>
+  <text class="st19" transform="translate(484.84 301.85)"><tspan x="0" y="0">Power electronics</tspan></text>
+  <text class="st13" transform="translate(478.45 314.6)"><tspan x="0" y="0">Commercial Mar 2026</tspan></text>
+  <text class="st18" transform="translate(634.08 264.7)"><tspan x="0" y="0">Suchi Semicon (Surat)</tspan></text>
+  <text class="st9" transform="translate(670.3 279.67)"><tspan x="0" y="0">Rs 868 cr</tspan></text>
+  <text class="st21" transform="translate(649.9 290.76)"><tspan x="0" y="0">3 M chips/day by 2029</tspan></text>
+  <text class="st19" transform="translate(661.26 301.85)"><tspan x="0" y="0">Power + analog</tspan></text>
+  <text class="st13" transform="translate(654.55 314.6)"><tspan x="0" y="0">Approved May 2026</tspan></text>
+  <text class="st15" transform="translate(341.01 361.72)"><tspan x="0" y="0">INDIAN-SIDE SUPPLIER ECOSYSTEM</tspan></text>
+  <text class="st25" transform="translate(129.31 400.53)"><tspan x="0" y="0">Linde India</tspan></text>
+  <text class="st22" transform="translate(123.31 420.41)"><tspan x="0" y="0">Bulk + specialty</tspan></text>
+  <text class="st22" transform="translate(123.19 428.25)"><tspan x="0" y="0">electronic gases</tspan></text>
+  <text class="st25" transform="translate(228.08 400.53)"><tspan x="0" y="0">Inox Air Products</tspan></text>
+  <text class="st22" transform="translate(233.13 420.41)"><tspan x="0" y="0">ESG Hub Dholera</tspan></text>
+  <text class="st22" transform="translate(235.19 428.25)"><tspan x="0" y="0">Rs 500 cr capex</tspan></text>
+  <text class="st25" transform="translate(336.76 400.53)"><tspan x="0" y="0">L&amp;T / Tata Projects</tspan></text>
+  <text class="st22" transform="translate(356.1 420.41)"><tspan x="0" y="0">EPC + civil</tspan></text>
+  <text class="st22" transform="translate(353.17 428.25)"><tspan x="0" y="0">construction</tspan></text>
+  <text class="st25" transform="translate(455.13 400.53)"><tspan x="0" y="0">Aegis Logistics</tspan></text>
+  <text class="st22" transform="translate(460.48 420.41)"><tspan x="0" y="0">Hazardous-gas</tspan></text>
+  <text class="st22" transform="translate(466.59 428.25)"><tspan x="0" y="0">distribution</tspan></text>
+  <text class="st25" transform="translate(568.62 400.53)"><tspan x="0" y="0">Praj Industries</tspan></text>
+  <text class="st22" transform="translate(570.53 420.41)"><tspan x="0" y="0">Ultrapure water</tspan></text>
+  <text class="st22" transform="translate(583.66 428.25)"><tspan x="0" y="0">systems</tspan></text>
+  <text class="st25" transform="translate(674.56 400.53)"><tspan x="0" y="0">BHEL / ABB India</tspan></text>
+  <text class="st22" transform="translate(676.33 420.41)"><tspan x="0" y="0">Power conditioning</tspan></text>
+  <text class="st22" transform="translate(680.68 428.25)"><tspan x="0" y="0">+ HT switchgear</tspan></text>
+  <text class="st25" transform="translate(365.34 518.06)"><tspan x="0" y="0">DOWNSTREAM BENEFICIARIES</tspan></text>
+  <text class="st9" transform="translate(202.21 533.59)"><tspan x="0" y="0">Auto OEMs · Power electronics · Industrial automation · Consumer electronics PLI · ER&amp;D ecosystem · Indian-fabless customers</tspan></text>
+  <text class="st20" transform="translate(7.76 35.89)"><tspan x="0" y="0">Sanand semiconductor cluster ecosystem — tenants, anchors and supplier network</tspan></text>
+  <text class="st24" transform="translate(7.76 55.89)"><tspan x="0" y="0">Four OSAT tenants at Sanand + Tata-PSMC Dholera fab nearby + Tata TSAT in Assam (sister facility) + India-side supplier ecosystem</tspan></text>
+  <text class="st12" transform="translate(704.72 13.28)"><tspan x="0" y="0">Figure 30 · Techadyant Labs · 2026</tspan></text>
+  <text class="st11" transform="translate(8.28 612.05)"><tspan x="0" y="0">Source: PIB PRIDs 2108602, 2258119, 2161666, 2050859; Micron 10-K; Tata Electronics releases; supplier press materials.</tspan></text>
 </svg>

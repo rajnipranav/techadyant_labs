@@ -10,8 +10,10 @@
 
 $ErrorActionPreference = "Stop"
 
-$RepoRoot   = "D:\techadyant\labs\techadyant_labs-main"
-$LabsRoot   = "D:\techadyant\labs"
+# Resolve from the script's own location so a labs/ → labs_techadyant/ rename
+# doesn't break this script. $PSScriptRoot is the directory the .ps1 lives in.
+$RepoRoot   = $PSScriptRoot
+$LabsRoot   = Split-Path -Parent $RepoRoot
 $SourceDir  = Join-Path $LabsRoot "Reports and DPR\India`u{2019}s AI Industrial Transition and Infrastructure Transformation (2026`u{2013}2035)"
 $Slug       = "india-ai-industrial-transition-2026-2035"
 

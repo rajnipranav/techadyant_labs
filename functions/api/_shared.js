@@ -18,7 +18,7 @@ export const REPORTS = {
     access: 'free',
     bucket: 'reports-free',
     publicBucket: true,
-    object: 'India-ai-industrial-transition-2026–2035.pdf',
+    object: 'India-ai-industrial-transition-2026-2035.pdf',
     filename: 'Indias-AI-Industrial-Transition-and-Infrastructure-Transformation-2026-2035-Techadyant-Labs.pdf',
     title: 'India’s AI Industrial Transition and Infrastructure Transformation',
   },
