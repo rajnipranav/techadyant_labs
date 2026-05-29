@@ -3,6 +3,10 @@ import { reports } from './reports/data';
 import { signals } from './signals/data';
 import { themes } from './research/data';
 
+// The project uses `output: 'export'` for Cloudflare Pages static deploy;
+// route handlers must be marked static so they're generated at build time.
+export const dynamic = 'force-static';
+
 const SITE = 'https://labs.techadyant.com';
 
 /** Auto-generated sitemap.xml served at /sitemap.xml — Next.js App Router

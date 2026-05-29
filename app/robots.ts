@@ -1,5 +1,9 @@
 import type { MetadataRoute } from 'next';
 
+// The project uses `output: 'export'` for Cloudflare Pages static deploy;
+// route handlers must be marked static so they're generated at build time.
+export const dynamic = 'force-static';
+
 const SITE = 'https://labs.techadyant.com';
 
 /** /robots.txt — allow all crawlers to all public pages, explicitly disallow
