@@ -13,18 +13,91 @@ import type { TocItem } from '../../components/ReportReader';
 const SLUG = 'india-ai-industrial-transition-2026-2035';
 const FIG_DIR = path.join(process.cwd(), 'public', 'figures', SLUG);
 
+/** Escape a string for safe use inside a RegExp pattern. */
+function escRe(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 /** Read an SVG at build time and prepare it for inline embedding.
- *  Minimal-touch: the source SVGs in /public/figures/ are the user's
- *  hand-finalised layouts; we strip ONLY the XML prolog and DOCTYPE (invalid
- *  inside HTML5) and the matplotlib-emitted absolute width/height attributes
- *  on the outer <svg> so that .fig-frame's CSS (width:100%; height:auto;)
- *  scales the figure responsively via its own viewBox. No title lifts, no
- *  viewBox rewrites, no coordinate edits — the SVG renders as authored. */
+ *
+ *  Adobe Illustrator emits every export with the same generic identifiers —
+ *  `.st0, .st1, .st2, ...` as CSS class names, `clippath-N` and `Layer_1` as
+ *  element IDs, etc. Inside an isolated .svg file this is fine. But once we
+ *  inline 30 SVGs on one HTML page, those globals collide: the last `.st3`
+ *  definition wins, `url(#clippath-6)` resolves to the first matching ID in
+ *  document order, and text fills/clip-paths silently swap across figures.
+ *
+ *  To prevent the collision we namespace every class name, every id="…", every
+ *  url(#…) and every href="#…" with a per-figure prefix `f{n}_`. This is
+ *  visually identical to the source SVG — just scope-isolated from the other
+ *  29 on the page. We also strip XML prolog + DOCTYPE (invalid in HTML5) and
+ *  the absolute width/height attrs (so `.fig-frame` CSS can size responsively
+ *  via the preserved viewBox). */
 function readFigure(n: number): string | null {
   try {
     let svg = readFileSync(path.join(FIG_DIR, `fig-${n}.svg`), 'utf8');
     svg = svg.replace(/<\?xml[^?]*\?>\s*/i, '');
     svg = svg.replace(/<!DOCTYPE[^>]*>\s*/i, '');
+
+    const px = `f${n}_`;
+
+    // 1. Collect every CSS class name defined in <style> blocks or used in
+    //    class="…" attributes. We rename only classes we actually find, so
+    //    incidental dots elsewhere (e.g. ".png" inside a url) stay untouched.
+    const classes = new Set<string>();
+    const styleBlocks = svg.match(/<style\b[^>]*>([\s\S]*?)<\/style>/gi) || [];
+    for (const block of styleBlocks) {
+      // .identifier — selector context only (not preceded by alnum / _ / -,
+      // i.e. not the middle of a number like 0.8 or a path like file.svg).
+      const re = /(?<![a-zA-Z0-9_-])\.([a-zA-Z_][\w-]*)/g;
+      let cm: RegExpExecArray | null;
+      while ((cm = re.exec(block))) classes.add(cm[1]);
+    }
+    const classAttrRe = /\bclass="([^"]+)"/g;
+    let am: RegExpExecArray | null;
+    while ((am = classAttrRe.exec(svg))) {
+      for (const c of am[1].split(/\s+/)) if (c) classes.add(c);
+    }
+
+    // 2. Collect every id="…" defined in the SVG.
+    const ids = new Set<string>();
+    const idRe = /\bid="([^"]+)"/g;
+    let im: RegExpExecArray | null;
+    while ((im = idRe.exec(svg))) ids.add(im[1]);
+
+    // 3. Rename each id and every reference to it (url(#…), href="#…",
+    //    xlink:href="#…"). Order: longest-first so e.g. `clippath-10` is
+    //    renamed before `clippath-1` (otherwise the shorter match would clip
+    //    the longer one and leave behind "0").
+    const sortedIds = [...ids].sort((a, b) => b.length - a.length);
+    for (const id of sortedIds) {
+      const e = escRe(id);
+      svg = svg.replace(new RegExp(`\\bid="${e}"`, 'g'), `id="${px}${id}"`);
+      svg = svg.replace(new RegExp(`url\\(#${e}\\)`, 'g'), `url(#${px}${id})`);
+      svg = svg.replace(new RegExp(`(xlink:href|href)="#${e}"`, 'g'), `$1="#${px}${id}"`);
+    }
+
+    // 4. Rename CSS class names in <style> selectors (longest-first for the
+    //    same reason as ids).
+    const sortedClasses = [...classes].sort((a, b) => b.length - a.length);
+    for (const cls of sortedClasses) {
+      const e = escRe(cls);
+      svg = svg.replace(
+        new RegExp(`(?<![a-zA-Z0-9_-])\\.${e}(?![a-zA-Z0-9_-])`, 'g'),
+        `.${px}${cls}`,
+      );
+    }
+
+    // 5. Rename classes inside every class="…" attribute. We rewrite the whole
+    //    attribute in one pass so multi-class values like class="st0 st3" come
+    //    out as class="f2_st0 f2_st3".
+    svg = svg.replace(/\bclass="([^"]+)"/g, (_m, cls: string) => {
+      const renamed = cls.split(/\s+/).filter(Boolean).map((c) => `${px}${c}`).join(' ');
+      return `class="${renamed}"`;
+    });
+
+    // 6. Finally strip absolute width/height on the outer <svg> so the figure
+    //    scales responsively via .fig-frame CSS + the preserved viewBox.
     svg = svg.replace(
       /<svg\b([^>]*)>/i,
       (_full, attrs: string) => {
@@ -34,6 +107,7 @@ function readFigure(n: number): string | null {
         return `<svg${cleaned}>`;
       },
     );
+
     return svg;
   } catch {
     return null;
