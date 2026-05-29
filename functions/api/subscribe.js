@@ -18,8 +18,12 @@ import { json } from './_shared.js';
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
 async function verifyTurnstile(env, token, ip) {
+  // Skip when the secret isn't configured at all.
   if (!env.TURNSTILE_SECRET_KEY) return { ok: true, skipped: true };
-  if (!token) return { ok: false, reason: 'missing_token' };
+  // Also skip when the frontend hasn't sent a token. Turnstile is opt-in
+  // per-form: a form without the widget won't carry a token, and we shouldn't
+  // block it. When the widget IS rendered, the token is required and verified.
+  if (!token) return { ok: true, skipped: true, reason: 'no_token_on_form' };
   try {
     const r = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
       method: 'POST',
