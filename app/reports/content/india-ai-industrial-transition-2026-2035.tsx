@@ -14,14 +14,30 @@ const SLUG = 'india-ai-industrial-transition-2026-2035';
 const FIG_DIR = path.join(process.cwd(), 'public', 'figures', SLUG);
 
 /** Read an SVG at build time and prepare it for inline embedding.
- *  Strips the XML prolog and DOCTYPE (invalid inside HTML5), then strips the
- *  matplotlib-emitted absolute width/height on the outer <svg> so the CSS in
- *  .fig-frame can scale the figure responsively via the preserved viewBox. */
+ *  Strips the XML prolog and DOCTYPE (invalid inside HTML5), separates the
+ *  matplotlib-packed title and italic subtitle (their default baselines are ~6pt
+ *  apart, which collides at 15pt + 10.5pt), then strips absolute width/height
+ *  on the outer <svg> so CSS in .fig-frame can scale via the preserved viewBox. */
 function readFigure(n: number): string | null {
   try {
     let svg = readFileSync(path.join(FIG_DIR, `fig-${n}.svg`), 'utf8');
     svg = svg.replace(/<\?xml[^?]*\?>\s*/i, '');
     svg = svg.replace(/<!DOCTYPE[^>]*>\s*/i, '');
+
+    // Bump the italic 10.5pt subtitle down so it clears the 15pt title above it.
+    // The matplotlib export places them ~6pt apart vertically; we need ~20pt.
+    svg = svg.replace(
+      /(<text\b[^>]*\sy=")([\d.]+)("[^>]*\sfont-size="10\.5"[^>]*\sfont-style="italic"[^>]*>)/gi,
+      (_m, pre: string, y: string, post: string) =>
+        `${pre}${(parseFloat(y) + 14).toFixed(2)}${post}`,
+    );
+    // Same fix for the alternate attribute order matplotlib sometimes emits.
+    svg = svg.replace(
+      /(<text\b[^>]*\sy=")([\d.]+)("[^>]*\sfont-style="italic"[^>]*\sfont-size="10\.5"[^>]*>)/gi,
+      (_m, pre: string, y: string, post: string) =>
+        `${pre}${(parseFloat(y) + 14).toFixed(2)}${post}`,
+    );
+
     svg = svg.replace(
       /<svg\b([^>]*)>/i,
       (_full, attrs: string) => {

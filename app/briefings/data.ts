@@ -10,6 +10,39 @@ export interface BriefingMeta {
  *  read from this array. publish-report.mjs upserts new entries here when a
  *  report config includes a `briefing` block. */
 export const briefings: BriefingMeta[] = [
+  /* ─── Opportunity Mapping series ─── */
+  {
+    date: '29 May 2026',
+    title: '100 SME Opportunities in India’s Semiconductor Push',
+    tag: 'Strategic note',
+    read: '8 min',
+    blurb:
+      'A tiered map of the ₹28,000–60,000 crore SME-addressable opportunity surface — ready-now precision sheet metal and cabling, 24-month builds in chillers and edge IoT, and 3–5 year partnership plays in substrates and consumables.',
+  },
+  {
+    date: '29 May 2026',
+    title: 'Hidden B2B Opportunities in India’s AI Infrastructure Buildout',
+    tag: 'Executive brief',
+    read: '6 min',
+    blurb:
+      'Where Indian industrial firms can capture value as USD 95 billion of DC capex lands in seven corridors — DCIM, UPW services, BESS, fibre splicing, cleanroom commissioning and the operations-layer workforce.',
+  },
+  {
+    date: '29 May 2026',
+    title: 'Industrial Cooling Opportunities in India',
+    tag: 'Strategic note',
+    read: '6 min',
+    blurb:
+      'Direct-liquid, immersion, hybrid evaporative — the AI-rack density transition opens a ₹7,500–36,000 crore addressable market through 2030, with Indian-vendor capture rising from 35% to 55% as Voltas, Blue Star, Thermax and Eureka Forbes Industrial scale.',
+  },
+  {
+    date: '29 May 2026',
+    title: 'Tier-2 Industrial City Opportunity Map',
+    tag: 'Framework',
+    read: '7 min',
+    blurb:
+      '30–50 Tier-2 cities will host 1–5 MW edge AI points-of-presence by 2030. This brief positions Coimbatore, Indore, Lucknow, Mysuru, Mangaluru, Hubballi-Dharwad and Vizag against six axes of industrial-AI readiness.',
+  },
   {
     date: '22 May 2026',
     title: 'Reading India’s Semiconductor Incentive Architecture',

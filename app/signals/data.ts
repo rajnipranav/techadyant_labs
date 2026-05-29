@@ -199,6 +199,56 @@ export const signals: SignalMeta[] = [
     excerpt:
       'Placeholder — analysis of water sourcing, allocation and resilience dependencies forming around the Dholera industrial corridor. To be published.',
   },
+
+  /* ─── Forthcoming signals (Nobody Is Discussing This series) ─── */
+  {
+    slug: 'talent-may-matter-more-than-subsidies',
+    no: 'S-011',
+    title: 'Why talent may matter more than subsidies',
+    domain: 'Strategic Technology',
+    date: '2026-06-12',
+    dateLabel: '12 Jun 2026',
+    status: 'monitoring',
+    readingTime: '5 min',
+    excerpt:
+      'Capital and policy can be assembled in a board meeting. The deep process-engineering and yield-management talent that makes a fab or a hyperscale DC productive cannot. The asymmetry is what sets the realistic ramp curve.',
+  },
+  {
+    slug: 'indias-hidden-industrial-water-crisis',
+    no: 'S-010',
+    title: 'India’s hidden industrial water crisis',
+    domain: 'Industrial Infrastructure',
+    date: '2026-06-19',
+    dateLabel: '19 Jun 2026',
+    status: 'monitoring',
+    readingTime: '4 min',
+    excerpt:
+      'CGWB classifies Bengaluru and Hyderabad as over-exploited, Chennai as critical. The DC pipeline is densest where the water position is most stressed. This signal names the corridor-level audits that are not yet being published.',
+  },
+  {
+    slug: 'vendor-economy-behind-semiconductor-fabs',
+    no: 'S-009',
+    title: 'The vendor economy behind semiconductor fabs',
+    domain: 'Semiconductor Ecosystems',
+    date: '2026-06-26',
+    dateLabel: '26 Jun 2026',
+    status: 'monitoring',
+    readingTime: '5 min',
+    excerpt:
+      'Of a ₹91,000 crore mature-node fab, roughly two-thirds flows to ASML, AMAT, Lam, TEL and KLA. The Indian-capture economy lives in the remaining one-third — construction, gases, UPW, logistics and the durable industrial capabilities those build.',
+  },
+  {
+    slug: 'real-constraint-behind-ai-infrastructure',
+    no: 'S-008',
+    title: 'The real constraint behind AI infrastructure',
+    domain: 'AI Infrastructure',
+    date: '2026-07-03',
+    dateLabel: '3 Jul 2026',
+    status: 'monitoring',
+    readingTime: '4 min',
+    excerpt:
+      'Not capital, not policy, not aggregate talent supply. The binding constraint on India’s 4.5–9 GW DC trajectory is local: transmission, water rights, fibre right-of-way and DISCOM-level interconnection-queue execution at the level of seven specific districts.',
+  },
 ];
 
 export const getSignal = (slug: string) => signals.find((s) => s.slug === slug);

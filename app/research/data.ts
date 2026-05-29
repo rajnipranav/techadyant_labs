@@ -16,7 +16,7 @@ export const themes: Theme[] = [
     blurb:
       'Fabrication, assembly and test, advanced packaging, materials and the industrial dependencies that determine who captures value as India builds chip capability.',
     accent: '#F5B544',
-    count: '1 report · 1 signal',
+    count: '1 report · 2 forthcoming · 2 signals',
     icon: 'chip',
   },
   {
@@ -26,7 +26,7 @@ export const themes: Theme[] = [
     blurb:
       'Power, water, land, logistics and the physical substrate of manufacturing corridors — the systems that quietly govern whether industrial policy converts into output.',
     accent: '#6366F1',
-    count: '2 forthcoming',
+    count: '4 forthcoming · 2 signals',
     icon: 'grid',
   },
   {
@@ -36,7 +36,7 @@ export const themes: Theme[] = [
     blurb:
       'AI infrastructure, compute, energy systems and the dual-use frontier where technology, industrial capacity and national strategy intersect.',
     accent: '#38e1c4',
-    count: '1 signal',
+    count: '1 report · 2 forthcoming · 3 signals',
     icon: 'signal',
   },
   {
@@ -46,7 +46,17 @@ export const themes: Theme[] = [
     blurb:
       'Where value concentrates and why — the spatial logic of clusters, corridors and second-order economic effects across India’s industrial map.',
     accent: '#818CF8',
-    count: 'In development',
+    count: '2 briefings · in development',
     icon: 'map',
+  },
+  {
+    id: 'defence-dual-use',
+    no: '05',
+    title: 'Defence & Dual-Use',
+    blurb:
+      'Autonomous systems, battlefield AI, post-quantum readiness and the industrial base that underwrites them — the dual-use frontier where civilian semiconductor and AI capability becomes strategic capacity.',
+    accent: '#FB923C',
+    count: '2 forthcoming',
+    icon: 'signal',
   },
 ];

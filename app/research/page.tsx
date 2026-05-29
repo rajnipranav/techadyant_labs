@@ -30,6 +30,11 @@ const detail: Record<string, string[]> = {
     'Second-order and redistribution effects',
     'Regional resource reallocation',
   ],
+  'defence-dual-use': [
+    'Autonomous systems and battlefield AI',
+    'Post-quantum cryptography readiness',
+    'Dual-use industrial base and procurement pathways',
+  ],
 };
 
 export default function ResearchPage() {
