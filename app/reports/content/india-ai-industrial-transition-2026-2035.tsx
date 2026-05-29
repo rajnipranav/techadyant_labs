@@ -14,28 +14,56 @@ const SLUG = 'india-ai-industrial-transition-2026-2035';
 const FIG_DIR = path.join(process.cwd(), 'public', 'figures', SLUG);
 
 /** Read an SVG at build time and prepare it for inline embedding.
- *  Strips the XML prolog and DOCTYPE (invalid inside HTML5), separates the
- *  matplotlib-packed title and italic subtitle (their default baselines are ~6pt
- *  apart, which collides at 15pt + 10.5pt), then strips absolute width/height
- *  on the outer <svg> so CSS in .fig-frame can scale via the preserved viewBox. */
+ *  Strips the XML prolog/DOCTYPE (invalid inside HTML5), separates the
+ *  matplotlib-packed title (font-size 15) from the italic subtitle (font-size
+ *  10.5) — their default baselines are ~6pt apart, which collides — by moving
+ *  the title UP into a viewBox we expand at the top. Subtitle and the rest of
+ *  the chart stay where matplotlib placed them, so no overlap with chart labels.
+ *  Finally strips absolute width/height so .fig-frame CSS can scale the SVG
+ *  responsively via the preserved viewBox. */
+const TITLE_LIFT = 18; // pt of extra headroom we carve at the top
+
 function readFigure(n: number): string | null {
   try {
     let svg = readFileSync(path.join(FIG_DIR, `fig-${n}.svg`), 'utf8');
     svg = svg.replace(/<\?xml[^?]*\?>\s*/i, '');
     svg = svg.replace(/<!DOCTYPE[^>]*>\s*/i, '');
 
-    // Bump the italic 10.5pt subtitle down so it clears the 15pt title above it.
-    // The matplotlib export places them ~6pt apart vertically; we need ~20pt.
+    // Expand the viewBox upward by TITLE_LIFT so the lifted title still renders.
     svg = svg.replace(
-      /(<text\b[^>]*\sy=")([\d.]+)("[^>]*\sfont-size="10\.5"[^>]*\sfont-style="italic"[^>]*>)/gi,
-      (_m, pre: string, y: string, post: string) =>
-        `${pre}${(parseFloat(y) + 14).toFixed(2)}${post}`,
+      /(<svg\b[^>]*\sviewBox=")(-?[\d.]+)\s+(-?[\d.]+)\s+([\d.]+)\s+([\d.]+)(")/i,
+      (_m, pre, minX, minY, w, h, post) => {
+        const newMinY = parseFloat(minY) - TITLE_LIFT;
+        const newH = parseFloat(h) + TITLE_LIFT;
+        return `${pre}${minX} ${newMinY.toFixed(2)} ${w} ${newH.toFixed(2)}${post}`;
+      },
     );
-    // Same fix for the alternate attribute order matplotlib sometimes emits.
+
+    // Lift the 15pt title up by TITLE_LIFT so it clears the 10.5pt italic
+    // subtitle below. Constrained to text with y < 50 — figures with the same
+    // font size used for internal labels (e.g. fig-8 pie chart has a 15pt
+    // "Tata-PSMC fab" label at y=217.79) must NOT be lifted, only the top title.
+    const TOP_TITLE_Y_MAX = 50;
+    const liftIfTop = (matchStr: string, pre: string, y: string, post: string) => {
+      const yNum = parseFloat(y);
+      if (yNum >= TOP_TITLE_Y_MAX) return matchStr; // internal label — leave alone
+      return `${pre}${(yNum - TITLE_LIFT).toFixed(2)}${post}`;
+    };
     svg = svg.replace(
-      /(<text\b[^>]*\sy=")([\d.]+)("[^>]*\sfont-style="italic"[^>]*\sfont-size="10\.5"[^>]*>)/gi,
-      (_m, pre: string, y: string, post: string) =>
-        `${pre}${(parseFloat(y) + 14).toFixed(2)}${post}`,
+      /(<text\b[^>]*\sy=")([\d.]+)("[^>]*\sfont-size="15\.0"[^>]*>)/gi,
+      liftIfTop,
+    );
+    svg = svg.replace(
+      /(<text\b[^>]*\sfont-size="15\.0"[^>]*\sy=")([\d.]+)(")/gi,
+      liftIfTop,
+    );
+
+    // Also lift the small "Figure N · Techadyant Labs · 2026" caption (font-size
+    // 8, fill #c0c5cc) which lives near the title row at y~13 and would
+    // otherwise sit visually inside the title after the lift.
+    svg = svg.replace(
+      /(<text\b[^>]*\sy=")([\d.]+)("[^>]*\sfont-size="8\.0"[^>]*\sfill="#c0c5cc"[^>]*>)/gi,
+      liftIfTop,
     );
 
     svg = svg.replace(
