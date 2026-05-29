@@ -1,0 +1,56 @@
+import type { MetadataRoute } from 'next';
+import { reports } from './reports/data';
+import { signals } from './signals/data';
+import { themes } from './research/data';
+
+const SITE = 'https://labs.techadyant.com';
+
+/** Auto-generated sitemap.xml served at /sitemap.xml — Next.js App Router
+ *  picks this up automatically. Updated on every build, so freshly-published
+ *  reports/signals/briefings appear in the next deploy's sitemap without any
+ *  manual maintenance. */
+export default function sitemap(): MetadataRoute.Sitemap {
+  const now = new Date();
+
+  // Stable top-level pages.
+  const staticRoutes: MetadataRoute.Sitemap = [
+    { url: `${SITE}/`,          lastModified: now, changeFrequency: 'weekly',  priority: 1.0 },
+    { url: `${SITE}/reports`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.9 },
+    { url: `${SITE}/signals`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
+    { url: `${SITE}/briefings`, lastModified: now, changeFrequency: 'weekly',  priority: 0.7 },
+    { url: `${SITE}/research`,  lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${SITE}/about`,     lastModified: now, changeFrequency: 'yearly',  priority: 0.4 },
+  ];
+
+  // Published reports (skip forthcoming — they have placeholder pages with
+  // little crawl value until they ship).
+  const reportRoutes: MetadataRoute.Sitemap = reports
+    .filter((r) => r.status === 'published')
+    .map((r) => ({
+      url: `${SITE}/reports/${r.slug}`,
+      lastModified: new Date(r.published),
+      changeFrequency: 'monthly' as const,
+      priority: r.access === 'free' ? 0.95 : 0.85,
+    }));
+
+  // Live + monitoring signals (skip 'placeholder' status).
+  const signalRoutes: MetadataRoute.Sitemap = signals
+    .filter((s) => s.status !== 'placeholder')
+    .map((s) => ({
+      url: `${SITE}/signals/${s.slug}`,
+      lastModified: new Date(s.date),
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  // Research theme anchors (single page, but emit anchored variants so Google
+  // can deep-link to a theme directly).
+  const themeRoutes: MetadataRoute.Sitemap = themes.map((th) => ({
+    url: `${SITE}/research#${th.id}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.5,
+  }));
+
+  return [...staticRoutes, ...reportRoutes, ...signalRoutes, ...themeRoutes];
+}
