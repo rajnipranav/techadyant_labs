@@ -14,70 +14,24 @@ const SLUG = 'india-ai-industrial-transition-2026-2035';
 const FIG_DIR = path.join(process.cwd(), 'public', 'figures', SLUG);
 
 /** Read an SVG at build time and prepare it for inline embedding.
- *  Strips the XML prolog/DOCTYPE (invalid inside HTML5), separates the
- *  matplotlib-packed title (font-size 15) from the italic subtitle (font-size
- *  10.5) — their default baselines are ~6pt apart, which collides — by moving
- *  the title UP into a viewBox we expand at the top. Subtitle and the rest of
- *  the chart stay where matplotlib placed them, so no overlap with chart labels.
- *  Finally strips absolute width/height so .fig-frame CSS can scale the SVG
- *  responsively via the preserved viewBox. */
-const TITLE_LIFT = 18; // pt of extra headroom we carve at the top
-
+ *  Minimal-touch: the source SVGs in /public/figures/ are the user's
+ *  hand-finalised layouts; we strip ONLY the XML prolog and DOCTYPE (invalid
+ *  inside HTML5) and the matplotlib-emitted absolute width/height attributes
+ *  on the outer <svg> so that .fig-frame's CSS (width:100%; height:auto;)
+ *  scales the figure responsively via its own viewBox. No title lifts, no
+ *  viewBox rewrites, no coordinate edits — the SVG renders as authored. */
 function readFigure(n: number): string | null {
   try {
     let svg = readFileSync(path.join(FIG_DIR, `fig-${n}.svg`), 'utf8');
     svg = svg.replace(/<\?xml[^?]*\?>\s*/i, '');
     svg = svg.replace(/<!DOCTYPE[^>]*>\s*/i, '');
-
-    // Expand the viewBox upward by TITLE_LIFT so the lifted title still renders.
-    svg = svg.replace(
-      /(<svg\b[^>]*\sviewBox=")(-?[\d.]+)\s+(-?[\d.]+)\s+([\d.]+)\s+([\d.]+)(")/i,
-      (_m, pre, minX, minY, w, h, post) => {
-        const newMinY = parseFloat(minY) - TITLE_LIFT;
-        const newH = parseFloat(h) + TITLE_LIFT;
-        return `${pre}${minX} ${newMinY.toFixed(2)} ${w} ${newH.toFixed(2)}${post}`;
-      },
-    );
-
-    // Lift the 15pt title up by TITLE_LIFT so it clears the 10.5pt italic
-    // subtitle below. Constrained to text with y < 50 — figures with the same
-    // font size used for internal labels (e.g. fig-8 pie chart has a 15pt
-    // "Tata-PSMC fab" label at y=217.79) must NOT be lifted, only the top title.
-    const TOP_TITLE_Y_MAX = 50;
-    const liftIfTop = (matchStr: string, pre: string, y: string, post: string) => {
-      const yNum = parseFloat(y);
-      if (yNum >= TOP_TITLE_Y_MAX) return matchStr; // internal label — leave alone
-      return `${pre}${(yNum - TITLE_LIFT).toFixed(2)}${post}`;
-    };
-    svg = svg.replace(
-      /(<text\b[^>]*\sy=")([\d.]+)("[^>]*\sfont-size="15\.0"[^>]*>)/gi,
-      liftIfTop,
-    );
-    svg = svg.replace(
-      /(<text\b[^>]*\sfont-size="15\.0"[^>]*\sy=")([\d.]+)(")/gi,
-      liftIfTop,
-    );
-
-    // Also lift the small "Figure N · Techadyant Labs · 2026" caption (font-size
-    // 8, fill #c0c5cc) which lives near the title row at y~13 and would
-    // otherwise sit visually inside the title after the lift.
-    svg = svg.replace(
-      /(<text\b[^>]*\sy=")([\d.]+)("[^>]*\sfont-size="8\.0"[^>]*\sfill="#c0c5cc"[^>]*>)/gi,
-      liftIfTop,
-    );
-
-    // Strip the matplotlib-emitted absolute width/height on the outer <svg>.
-    // CSS in globals.css already handles `.report-figure svg { width: 100%;
-    // height: auto; }`; emitting width/height attributes here in addition can
-    // cause some browsers to ignore the (expanded) viewBox and use the
-    // intrinsic dimensions instead — which clips the lifted title.
     svg = svg.replace(
       /<svg\b([^>]*)>/i,
       (_full, attrs: string) => {
         const cleaned = attrs
           .replace(/\swidth="[^"]*"/i, '')
           .replace(/\sheight="[^"]*"/i, '');
-        return `<svg${cleaned} preserveAspectRatio="xMidYMid meet">`;
+        return `<svg${cleaned}>`;
       },
     );
     return svg;

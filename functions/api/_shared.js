@@ -4,6 +4,8 @@
  */
 
 // Authoritative server-side report catalogue. Price/access live here, never trusted from client.
+// Entries can override the storage bucket per-report via `bucket`; entries marked
+// `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
   'india-fab-ecosystem': {
     access: 'paid',
@@ -11,6 +13,14 @@ export const REPORTS = {
     object: 'india-fab-ecosystem.pdf',
     filename: 'Who-Really-Benefits-from-Indias-Fab-Ecosystem-Techadyant-Labs.pdf',
     title: 'Who Really Benefits from India’s Fab Ecosystem?',
+  },
+  'india-ai-industrial-transition-2026-2035': {
+    access: 'free',
+    bucket: 'reports-free',
+    publicBucket: true,
+    object: 'India-ai-industrial-transition-2026–2035.pdf',
+    filename: 'Indias-AI-Industrial-Transition-and-Infrastructure-Transformation-2026-2035-Techadyant-Labs.pdf',
+    title: 'India’s AI Industrial Transition and Infrastructure Transformation',
   },
 };
 

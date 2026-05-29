@@ -159,11 +159,32 @@ export async function onRequestGet(context) {
         : { url: finalUrl, filename, expiresIn: 60, codeVersion: CODE_VERSION });
     }
 
-    // free reports: just return a (still-private) signed URL too
-    if (!env.SUPABASE_URL || !env.SUPABASE_SERVICE_ROLE_KEY || !env.REPORTS_BUCKET) {
+    // free reports
+    if (!env.SUPABASE_URL) {
       return json(503, { error: 'storage_unconfigured' });
     }
-    const signEndpoint = `${env.SUPABASE_URL}/storage/v1/object/sign/${env.REPORTS_BUCKET}/${encodeURIComponent(entry.object)}`;
+
+    // ── Public-bucket fast path ─────────────────────────────────────────────
+    // For entries marked `publicBucket: true`, the file lives in a Supabase
+    // Storage bucket whose policies allow anonymous reads. We don't need to
+    // sign anything — just return the public object URL. This works without a
+    // SERVICE_ROLE_KEY and never expires.
+    if (entry.publicBucket) {
+      const bucket = entry.bucket || env.REPORTS_BUCKET;
+      if (!bucket) return json(503, { error: 'storage_unconfigured', message: 'No bucket configured.' });
+      const filename = entry.filename || `${slug}.pdf`;
+      const publicUrl =
+        `${env.SUPABASE_URL}/storage/v1/object/public/${bucket}/${encodeURIComponent(entry.object)}` +
+        `?download=${encodeURIComponent(filename)}`;
+      return json(200, { url: publicUrl, filename, codeVersion: CODE_VERSION, public: true });
+    }
+
+    // Otherwise (legacy free path) sign a short-lived URL against the private bucket.
+    if (!env.SUPABASE_SERVICE_ROLE_KEY || !(entry.bucket || env.REPORTS_BUCKET)) {
+      return json(503, { error: 'storage_unconfigured' });
+    }
+    const bucket = entry.bucket || env.REPORTS_BUCKET;
+    const signEndpoint = `${env.SUPABASE_URL}/storage/v1/object/sign/${bucket}/${encodeURIComponent(entry.object)}`;
     const sr = await fetchWithTimeout('sign', signEndpoint, {
       method: 'POST',
       headers: {
