@@ -13,7 +13,18 @@
  * Returns 200 { ok: true } on success, 4xx with { error, message } otherwise.
  * Idempotent — re-subscribing with the same email returns 200 (already on the list).
  */
-import { json } from './_shared.js';
+import { json, hmacSha256Hex } from './_shared.js';
+
+/** Build a one-click unsubscribe URL + signature. The token is a short HMAC
+ *  of the email under SUPABASE_SERVICE_ROLE_KEY (already secret), so links
+ *  cannot be forged. Truncated to 32 hex chars — collisions are negligible. */
+async function unsubUrlAndToken(env, email) {
+  const secret = env.UNSUBSCRIBE_SECRET || env.SUPABASE_SERVICE_ROLE_KEY || 'fallback-dev';
+  const token = (await hmacSha256Hex(secret, email)).slice(0, 32);
+  const base = env.SITE_URL || 'https://labs.techadyant.com';
+  const url = `${base}/api/unsubscribe?e=${encodeURIComponent(email)}&t=${token}`;
+  return { url, token };
+}
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
@@ -61,23 +72,28 @@ async function upsertSubscriber(env, row) {
   return { ok: true, row: Array.isArray(rows) ? rows[0] : rows };
 }
 
-async function sendEmail(env, { to, subject, html, text, replyTo }) {
+async function sendEmail(env, { to, subject, html, text, replyTo, headers }) {
   if (!env.RESEND_API_KEY) return { ok: false, reason: 'no_resend_key' };
   const from = env.FROM_EMAIL || 'labs@techadyant.com';
+  const payload = {
+    from: `Techadyant Labs <${from}>`,
+    to: Array.isArray(to) ? to : [to],
+    subject,
+    html,
+    text,
+    reply_to: replyTo || from,
+  };
+  // Resend accepts custom headers via `headers` (object). Used for
+  // List-Unsubscribe / List-Unsubscribe-Post — required by Gmail/Outlook
+  // bulk-sender rules to qualify a message as "transactional".
+  if (headers) payload.headers = headers;
   const r = await fetch('https://api.resend.com/emails', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${env.RESEND_API_KEY}`,
       'content-type': 'application/json',
     },
-    body: JSON.stringify({
-      from: `Techadyant Labs <${from}>`,
-      to: Array.isArray(to) ? to : [to],
-      subject,
-      html,
-      text,
-      reply_to: replyTo || from,
-    }),
+    body: JSON.stringify(payload),
   });
   if (!r.ok) {
     let detail = ''; try { detail = (await r.text()).slice(0, 400); } catch {}
@@ -86,7 +102,7 @@ async function sendEmail(env, { to, subject, html, text, replyTo }) {
   return { ok: true };
 }
 
-function welcomeEmailHtml() {
+function welcomeEmailHtml(unsubUrl) {
   return `<!doctype html><html><body style="margin:0;padding:24px;background:#0B0B14;color:#E8E8F0;font-family:-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.55">
 <table cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:560px;margin:0 auto"><tr><td>
   <div style="font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.18em;color:#F5B544;text-transform:uppercase;margin-bottom:18px">Techadyant Labs · The Dispatch</div>
@@ -95,11 +111,12 @@ function welcomeEmailHtml() {
   <p style="font-size:15px;color:#C8C8D6;margin:0 0 14px">Expect long-form reports, intelligence signals and executive briefings on semiconductors, AI infrastructure, industrial corridors and the second-order economic effects of India's manufacturing transition. No sponsored coverage. No spam. You can unsubscribe at any time.</p>
   <p style="font-size:15px;color:#C8C8D6;margin:0 0 24px">Our latest free report — <em>India's AI Industrial Transition and Infrastructure Transformation (2026–2035)</em> — is available now: <a href="https://labs.techadyant.com/reports/india-ai-industrial-transition-2026-2035/" style="color:#818CF8">read it here</a>.</p>
   <p style="font-size:13px;color:#9898A8;margin:24px 0 0;padding-top:18px;border-top:1px solid rgba(255,255,255,0.08)">— Techadyant Labs<br>Bengaluru / Hyderabad, India<br><a href="https://labs.techadyant.com" style="color:#818CF8">labs.techadyant.com</a></p>
+  <p style="font-size:12px;color:#6F6F85;margin:18px 0 0">You're receiving this because you signed up at labs.techadyant.com. <a href="${unsubUrl}" style="color:#9898A8;text-decoration:underline">Unsubscribe</a>.</p>
 </td></tr></table>
 </body></html>`;
 }
 
-function welcomeEmailText() {
+function welcomeEmailText(unsubUrl) {
   return `Welcome to The Dispatch.
 
 You're on the list for Techadyant Labs' infrequent strategic-intelligence brief on India's industrial systems. Long-form reports, intelligence signals and executive briefings on semiconductors, AI infrastructure, industrial corridors and the second-order economic effects of India's manufacturing transition.
@@ -108,7 +125,11 @@ Our latest free report — India's AI Industrial Transition and Infrastructure T
 https://labs.techadyant.com/reports/india-ai-industrial-transition-2026-2035/
 
 — Techadyant Labs
-labs.techadyant.com`;
+labs.techadyant.com
+
+—
+You're receiving this because you signed up at labs.techadyant.com.
+Unsubscribe: ${unsubUrl}`;
 }
 
 function adminNotifyHtml({ email, source, ip, country, ua }) {
@@ -171,11 +192,19 @@ export async function onRequestPost(context) {
     // 3. Welcome email to the subscriber (fire-and-forget — log but don't fail
     //    the request if Resend hiccups, the row is already saved).
     if (isNew) {
+      const { url: unsubUrl } = await unsubUrlAndToken(env, rawEmail);
       const w = await sendEmail(env, {
         to: rawEmail,
         subject: 'Welcome to The Dispatch — Techadyant Labs',
-        html: welcomeEmailHtml(),
-        text: welcomeEmailText(),
+        html: welcomeEmailHtml(unsubUrl),
+        text: welcomeEmailText(unsubUrl),
+        // RFC 2369 + RFC 8058 — Gmail/Outlook treat the presence of both
+        // headers as "this is a bulk sender that respects one-click
+        // unsubscribe" and meaningfully boost Primary-tab placement.
+        headers: {
+          'List-Unsubscribe': `<${unsubUrl}>, <mailto:labs@techadyant.com?subject=Unsubscribe>`,
+          'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click',
+        },
       });
       if (!w.ok) console.warn('welcome_email_failed', w);
 
