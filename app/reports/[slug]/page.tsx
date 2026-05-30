@@ -9,12 +9,14 @@ import { ReportCover } from '../../components/ReportCover';
 import { ReportReader, type TocItem } from '../../components/ReportReader';
 import { ReportContent as FabContent, toc as fabToc } from '../content/india-fab-ecosystem';
 import { ReportContent as AiTransitionContent, toc as aiTransitionToc } from '../content/india-ai-industrial-transition-2026-2035';
+import { ReportContent as MineralsContent, toc as mineralsToc } from '../content/who-actually-captures-the-india-us-minerals-alliance';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
 const registry: Record<string, ReportModule> = {
   'india-fab-ecosystem': { toc: fabToc, Content: FabContent },
   'india-ai-industrial-transition-2026-2035': { toc: aiTransitionToc, Content: AiTransitionContent },
+  'who-actually-captures-the-india-us-minerals-alliance': { toc: mineralsToc, Content: MineralsContent },
 };
 
 export function generateStaticParams() {

@@ -16,8 +16,18 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages }
   const meta = [pages ? `${pages}-page PDF` : null, readingTime, 'Figures & citations included']
     .filter(Boolean).join(' · ');
 
-  const previewHref = previewObject ? `/previews/${previewObject}` : null;
-  const previewLabel = previewPages ? `Free preview · ${previewPages} pages` : 'Free preview';
+  // previewObject may be: an absolute URL; a "<bucket>/<path>" reference served from a
+  // Supabase public bucket (built from NEXT_PUBLIC_SUPABASE_URL); or a bare filename
+  // under /public/previews/.
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+  const previewHref = previewObject
+    ? /^https?:\/\//.test(previewObject)
+      ? previewObject
+      : previewObject.includes('/')
+        ? `${supabaseUrl}/storage/v1/object/public/${previewObject}`
+        : `/previews/${previewObject}`
+    : null;
+  const previewLabel = previewPages ? `Free condensed report · ${previewPages} pages` : 'Free condensed report';
 
   return (
     <div className="report-access" data-tier={access}>
@@ -48,11 +58,11 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages }
 
       {previewHref && (
         <div className="ra-preview">
-          <a className="btn-ed btn-ed-ghost ra-preview-btn" href={previewHref} download>
+          <a className="btn-ed btn-ed-ghost ra-preview-btn" href={previewHref} target="_blank" rel="noopener" download>
             {previewLabel} <span className="arr">↓</span>
           </a>
           <p className="ra-fine ra-preview-fine">
-            Abridged sampler — executive summary, framework and one illustrative section. No signup required.
+            Free condensed edition — the thesis, the framework and the headline findings, with figures. No signup required.
           </p>
         </div>
       )}

@@ -22,6 +22,13 @@ export const REPORTS = {
     filename: 'Indias-AI-Industrial-Transition-and-Infrastructure-Transformation-2026-2035-Techadyant-Labs.pdf',
     title: 'India’s AI Industrial Transition and Infrastructure Transformation',
   },
+  'who-actually-captures-the-india-us-minerals-alliance': {
+    access: 'paid',
+    priceInr: 4900,
+    object: 'who-actually-captures-the-india-us-minerals-alliance.pdf',
+    filename: 'Who-Actually-Captures-the-India-US-Minerals-Alliance-Techadyant-Labs.pdf',
+    title: 'Who Actually Captures the India–US Minerals Alliance?',
+  },
 };
 
 export function json(status, body) {

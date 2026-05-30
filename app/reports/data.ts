@@ -62,6 +62,8 @@ const baseReports: ReportMeta[] = [
     hasPdf: true,
     pages: 125,
     cover: '/covers/who-actually-captures-the-india-us-minerals-alliance.jpg',
+    previewObject: 'report-free/who-actually-captures-the-india-us-minerals-alliance-condensed.pdf',
+    previewPages: 14,
   },
   {
     slug: 'india-ai-industrial-transition-2026-2035',
