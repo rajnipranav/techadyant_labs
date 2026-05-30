@@ -20,6 +20,31 @@ export interface SignalMeta {
 
 export const signals: SignalMeta[] = [
   {
+    slug: 'netrasemi-a2000-edge-ai-silicon',
+    no: 'S-012',
+    title: 'India’s first edge-AI chip is a design-led bet',
+    domain: 'Edge AI & Semiconductors',
+    date: '2026-05-30',
+    dateLabel: '30 May 2026',
+    status: 'live',
+    readingTime: '4 min',
+    excerpt:
+      'Kerala’s NetraSemi, backed by Zoho, has unveiled the A2000 — a 12nm edge-AI system-on-chip and the first Indian-designed AI chip to reach silicon. It matters less as a product than as proof of a thesis: edge AI is the one layer of the AI-hardware stack India can contest now, without a leading-edge fab.',
+    takeaways: [
+      'The A2000 is a 12nm edge-AI SoC for on-device inference — targeting smart surveillance, drones, robotics and industrial automation. It has completed silicon bring-up and is in trials with three surveillance and automotive customers; volume production is slated at TSMC in 2026–27.',
+      'NetraSemi has raised ~₹125 crore (Zoho, Unicorn India Ventures) and was an early Design-Linked Incentive (DLI) awardee — exactly the fabless, design-led model the DLI scheme was built to seed.',
+      'Edge AI is the part of the AI-hardware stack that needs no leading-edge fab: the value sits in architecture, IP and software, with manufacturing outsourced to a foundry. It is where India’s design talent can capture value while domestic fabs and advanced packaging remain years away.',
+    ],
+    body: [
+      { type: 'p', text: 'On 28 May 2026, Kerala-based NetraSemi unveiled the A2000, a 12nm edge-AI system-on-chip and the first Indian-designed AI processor to reach working silicon. Built for on-device inference — running AI models locally rather than in the cloud — it targets smart surveillance cameras, drones, robotics, industrial automation and intelligent video gateways. The company has completed the critical silicon bring-up phase, is running trials with three customers in surveillance and automotive, and has slated volume production at TSMC for 2026–27. It has raised roughly ₹125 crore from Zoho and Unicorn India Ventures, and was among the first cohort selected under the government’s Design-Linked Incentive scheme.' },
+      { type: 'h', text: 'Why it is a marker, not just a product' },
+      { type: 'p', text: 'The significance is structural. Across the AI-hardware stack, leading-edge fabrication and advanced packaging are capital-heavy, equipment-gated and years away for India. Edge AI is the exception: it is design-led. The value sits in chip architecture, IP and the software toolchain, with wafers outsourced to a foundry — precisely the fabless model the DLI scheme exists to seed. A working 12nm part from an Indian team is evidence that the design-led route is real, not aspirational.' },
+      { type: 'h', text: 'The test that still lies ahead' },
+      { type: 'p', text: 'Unveiling is not volume. The hard part of a chip startup is the distance between silicon bring-up and bankable production: customer qualification runs 18–30 months, the software and model-deployment stack has to mature alongside the silicon, and a single design win rarely sustains a fab order. The A2000’s trajectory through 2027 — from three trial customers to repeat production orders — is the metric to watch.' },
+      { type: 'p', text: 'The applications are also the link to India’s defence-industrial gap. Edge compute was one of the weakest layers in India’s Battlefield Automation Gap, and surveillance, drones and robotics are exactly the A2000’s targets — this is the beginning of a domestic supply answer. For the full map of the edge-AI hardware stack and where Indian firms can capture value, see the forthcoming report India’s Edge AI Economy.' },
+    ],
+  },
+  {
     slug: 'advanced-packaging-binding-constraint',
     no: 'S-007',
     title: 'Advanced packaging is India’s binding AI constraint',

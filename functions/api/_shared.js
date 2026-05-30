@@ -22,6 +22,14 @@ export const REPORTS = {
     filename: 'Indias-AI-Industrial-Transition-and-Infrastructure-Transformation-2026-2035-Techadyant-Labs.pdf',
     title: 'India’s AI Industrial Transition and Infrastructure Transformation',
   },
+  'india-battlefield-automation-gap': {
+    access: 'free',
+    bucket: 'reports-free',
+    publicBucket: true,
+    object: 'india-battlefield-automation-gap.pdf',
+    filename: 'Indias-Battlefield-Automation-Gap-Techadyant-Labs.pdf',
+    title: 'India’s Battlefield Automation Gap',
+  },
   'who-actually-captures-the-india-us-minerals-alliance': {
     access: 'paid',
     priceInr: 4900,
