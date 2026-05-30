@@ -24,3 +24,6 @@ npm-debug.log*
 
 # Cloudflare local dev secrets
 .dev.vars
+*.bak
+app/reports/content/zzz-admin-test.tsx
+*.del

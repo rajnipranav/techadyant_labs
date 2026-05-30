@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Techadyant Labs — Report Publisher</title>
+<style>
+  :root{--bg:#0b0b14;--bg2:#11111f;--surface:#161629;--surface2:#1c1c34;--border:rgba(255,255,255,.10);
+    --text:#e8e8f0;--muted:#9898a8;--brass:#c9a84c;--brassb:#f5b544;--teal:#38e1c4;--crimson:#e2725b;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,sans-serif;}
+  .wrap{max-width:860px;margin:0 auto;padding:32px 20px 80px;}
+  h1{font-size:24px;margin:0 0 2px;font-weight:700;}
+  h1 b{color:var(--brassb)}
+  .sub{color:var(--muted);font-size:13px;margin:0 0 24px;}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;margin:16px 0;}
+  .card h2{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--brass);margin:0 0 14px;}
+  label{display:block;font-size:12px;color:var(--muted);margin:12px 0 4px;letter-spacing:.02em;}
+  input,select,textarea{width:100%;background:var(--bg2);border:1px solid var(--border);color:var(--text);
+    border-radius:8px;padding:9px 11px;font:14px Inter,sans-serif;}
+  textarea{min-height:70px;resize:vertical;font-family:inherit;}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;}
+  .hint{font-size:11px;color:var(--muted);margin-top:4px;}
+  .chk{display:flex;align-items:center;gap:8px;margin-top:14px;}
+  .chk input{width:auto;}
+  button{cursor:pointer;border:none;border-radius:9px;font-weight:600;padding:11px 18px;font-size:14px;}
+  .primary{background:var(--brassb);color:#0b0b14;}
+  .ghost{background:transparent;color:var(--text);border:1px solid var(--border);}
+  .danger{color:var(--crimson)}
+  .sec{border:1px dashed var(--border);border-radius:10px;padding:12px;margin:10px 0;position:relative;}
+  .sec .rm{position:absolute;top:8px;right:8px;background:none;color:var(--crimson);font-size:12px;padding:2px 8px;}
+  #out{white-space:pre-wrap;font:12px/1.5 'JetBrains Mono',monospace;background:#0a0a12;border:1px solid var(--border);
+    border-radius:10px;padding:14px;margin-top:16px;display:none;}
+  .pill{display:inline-block;background:var(--surface2);border:1px solid var(--border);border-radius:999px;
+    padding:3px 9px;font-size:11px;color:var(--muted);margin:2px;}
+  .barbtns{display:flex;gap:12px;align-items:center;margin-top:20px;}
+  a{color:var(--teal)}
+</style></head>
+<body><div class="wrap">
+  <h1><b>Techadyant</b> Labs · Report Publisher</h1>
+  <p class="sub">Fills every repo file for a new report. Upload the PDFs to Supabase first; this wires the site. Run <code>node scripts/admin/server.mjs</code>.</p>
+
+  <div class="card">
+    <h2>Existing reports</h2>
+    <div id="slugs"><span class="pill">loading…</span></div>
+  </div>
+
+  <form id="f">
+  <div class="card">
+    <h2>Identity</h2>
+    <label>Title *</label><input id="title" required placeholder="Who Actually Captures the India–US Minerals Alliance?">
+    <label>Slug (auto — edit if needed) *</label><input id="slug" required>
+    <div class="hint">Must match the PDF name in the reports bucket: <code>&lt;slug&gt;.pdf</code></div>
+    <label>Subtitle</label><input id="subtitle">
+    <div class="row">
+      <div><label>Domain</label><input id="domain" value="Strategic Technology"></div>
+      <div><label>Edition</label><input id="edition" value="Edition 01 · Strategic Intelligence · v1.0"></div>
+    </div>
+    <div class="row3">
+      <div><label>Published (ISO date)</label><input id="published" type="date"></div>
+      <div><label>Status</label><select id="status"><option value="published">published</option><option value="forthcoming">forthcoming</option></select></div>
+      <div><label>Accent colour</label><input id="accent" type="color" value="#c9a84c"></div>
+    </div>
+    <label>Reading time</label><input id="readingTime" value="~ 2h 30m read">
+    <label>Summary</label><textarea id="summary"></textarea>
+  </div>
+
+  <div class="card">
+    <h2>Commerce & PDF</h2>
+    <div class="row3">
+      <div><label>Access</label><select id="access"><option value="paid">paid</option><option value="free">free</option></select></div>
+      <div id="priceWrap"><label>Price (INR)</label><input id="price" type="number" value="4900"></div>
+      <div><label>Pages</label><input id="pages" type="number" placeholder="125"></div>
+    </div>
+    <div class="chk"><input id="hasPdf" type="checkbox" checked><label style="margin:0">PDF is uploaded to storage (writes the _shared.js purchase/download entry)</label></div>
+    <div class="row">
+      <div><label>Storage object key</label><input id="object" placeholder="auto: <slug>.pdf"></div>
+      <div><label>Download filename</label><input id="downloadName" placeholder="auto: <slug>.pdf"></div>
+    </div>
+    <div id="freeBucketWrap" style="display:none"><label>Free public bucket (for free reports)</label><input id="freeBucket" value="reports-free"></div>
+  </div>
+
+  <div class="card">
+    <h2>Cover & free condensed preview</h2>
+    <label>Cover image (saved to /public/covers/&lt;slug&gt;.jpg)</label><input id="cover" type="file" accept="image/*">
+    <div class="hint">Optional. If omitted a branded cover is auto-generated by the site.</div>
+    <div class="row">
+      <div><label>Free preview object</label><input id="previewObject" placeholder="report-free/<slug>-condensed.pdf  OR  <file>.pdf in /public/previews/"></div>
+      <div><label>Preview pages</label><input id="previewPages" type="number" placeholder="14"></div>
+    </div>
+    <div class="hint"><code>bucket/path</code> → served from Supabase public bucket; bare <code>file.pdf</code> → /public/previews/.</div>
+  </div>
+
+  <div class="card">
+    <h2>Online reading version (optional)</h2>
+    <div class="chk"><input id="includeReading" type="checkbox"><label style="margin:0">Generate a content component (the in-page article). Hand-edit later to add SVG figures.</label></div>
+    <label>Paste full article — Markdown or HTML <span style="color:var(--muted)">(easiest: paste your condensed Markdown)</span></label>
+    <select id="markupFormat" style="max-width:160px;margin-bottom:8px"><option value="md">Markdown</option><option value="html">HTML</option></select>
+    <textarea id="markup" style="min-height:160px" placeholder="## The reframe&#10;&#10;On 26 May 2026 ...&#10;&#10;## The Four Chokepoints&#10;&#10;Mineral value flows through ..."></textarea>
+    <div class="hint">Headings (<code>## Heading</code>) become the on-page table of contents automatically. If this box is filled it is used; otherwise the manual sections below are used. Add SVG figures by hand-editing the generated <code>.tsx</code> afterwards.</div>
+    <div id="sections"></div>
+    <button type="button" class="ghost" id="addSec" style="margin-top:10px">+ Add section</button>
+  </div>
+
+  <div class="card">
+    <div class="chk"><input id="commit" type="checkbox"><label style="margin:0">Run <code>git add -A &amp;&amp; git commit</code> after writing</label></div>
+    <div class="barbtns">
+      <button type="submit" class="primary">Add report to repo →</button>
+      <span class="hint">Backups (.bak) are written before each file is modified.</span>
+    </div>
+  </div>
+  </form>
+  <pre id="out"></pre>
+</div>
+
+<script>
+const $=(id)=>document.getElementById(id);
+const slugify=(s)=>s.toLowerCase().trim().replace(/[’']/g,'').replace(/&/g,' and ').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+$('title').addEventListener('input',()=>{ if(!$('slug').dataset.touched) $('slug').value=slugify($('title').value); });
+$('slug').addEventListener('input',()=>{$('slug').dataset.touched='1';});
+$('access').addEventListener('change',()=>{ $('priceWrap').style.display=$('access').value==='paid'?'':'none'; $('freeBucketWrap').style.display=$('access').value==='free'?'':'none'; });
+let secN=0;
+function addSection(){ const d=document.createElement('div'); d.className='sec'; d.innerHTML=
+  '<button type="button" class="rm">remove</button>'+
+  '<label>Section heading</label><input class="s-label" placeholder="The reframe: a midstream deal">'+
+  '<label>Body (HTML allowed: &lt;p&gt;, &lt;strong&gt;, &lt;em&gt;…)</label><textarea class="s-html"></textarea>';
+  d.querySelector('.rm').onclick=()=>d.remove(); $('sections').appendChild(d); secN++; }
+$('addSec').onclick=addSection;
+
+async function loadState(){ try{ const r=await (await fetch('/api/state')).json();
+  $('slugs').innerHTML=(r.slugs||[]).map(s=>'<span class="pill">'+s+'</span>').join('')||'<span class="pill">none</span>';
+}catch(e){ $('slugs').textContent='(server not reachable)'; } }
+loadState();
+
+$('f').addEventListener('submit',async(e)=>{
+  e.preventDefault();
+  const coverFile=$('cover').files[0];
+  const coverDataUrl=coverFile?await new Promise(res=>{const fr=new FileReader();fr.onload=()=>res(fr.result);fr.readAsDataURL(coverFile);}):null;
+  const sections=[...document.querySelectorAll('#sections .sec')].map(s=>({label:s.querySelector('.s-label').value,html:s.querySelector('.s-html').value}));
+  const payload={
+    title:$('title').value, slug:$('slug').value, subtitle:$('subtitle').value, domain:$('domain').value,
+    edition:$('edition').value, published:$('published').value, status:$('status').value,
+    accent:$('accent').value, readingTime:$('readingTime').value, summary:$('summary').value,
+    access:$('access').value, price:$('price').value, pages:$('pages').value, hasPdf:$('hasPdf').checked,
+    object:$('object').value, downloadName:$('downloadName').value, freeBucket:$('freeBucket').value,
+    coverDataUrl, cover:coverFile?('/covers/'+$('slug').value+'.'+(coverFile.name.split('.').pop().toLowerCase()==='jpeg'?'jpg':coverFile.name.split('.').pop().toLowerCase())):'',
+    previewObject:$('previewObject').value, previewPages:$('previewPages').value,
+    includeReading:$('includeReading').checked, markup:$('markup').value, markupFormat:$('markupFormat').value, sections, commit:$('commit').checked,
+  };
+  $('out').style.display='block'; $('out').textContent='Working…';
+  try{ const r=await (await fetch('/api/add',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(payload)})).json();
+    if(r.ok){ $('out').textContent='✓ Added "'+r.slug+'"\n\nFiles changed:\n'+r.changed.map(f=>'  • '+f).join('\n')+
+      (r.warnings.length?'\n\nWarnings:\n'+r.warnings.map(w=>'  ! '+w).join('\n'):'')+
+      (r.committed?'\n\n✓ git committed.':'\n\n(not committed — review & commit yourself)')+
+      '\n\nNext: place cover if not uploaded, ensure the PDF is in the bucket, run `npm run build` then push.';
+      loadState();
+    } else { $('out').textContent='✗ '+r.error; }
+  }catch(err){ $('out').textContent='✗ '+err.message; }
+});
+</script>
+</body></html>
