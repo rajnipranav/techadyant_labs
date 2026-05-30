@@ -44,6 +44,26 @@ const synced: Record<string, SyncedMeta> = metaJson as Record<string, SyncedMeta
  *  `npm run sync-meta` after a PDF is added/updated. */
 const baseReports: ReportMeta[] = [
   {
+    slug: 'who-actually-captures-the-india-us-minerals-alliance',
+    title: 'Who Actually Captures the India–US Minerals Alliance?',
+    subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
+    domain: 'Critical Minerals & Strategic Materials',
+    edition: 'Edition 01 · Strategic Intelligence · v1.0',
+    published: '2026-05-30',
+    publishedLabel: 'May 2026',
+    readingTime: '~ 2h 30m read',
+    status: 'published',
+    accent: '#C9A84C',
+    summary:
+      'The 26 May 2026 India–US critical-minerals framework is read as a mining deal. It is better understood as a midstream deal: the leverage sits in separation, refining and magnets — roughly 85–92% controlled by China — not in reserves. Using a proprietary four-chokepoint framework, this report scores India sector by sector — semiconductors, electronics, defence, EVs, energy and AI infrastructure — and asks who actually captures the value as the alliance moves from signature to execution.',
+    access: 'paid',
+    price: 4900,
+    currency: 'INR',
+    hasPdf: true,
+    pages: 125,
+    cover: '/covers/who-actually-captures-the-india-us-minerals-alliance.jpg',
+  },
+  {
     slug: 'india-ai-industrial-transition-2026-2035',
     title: 'India’s AI Industrial Transition and Infrastructure Transformation',
     subtitle:

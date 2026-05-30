@@ -25,6 +25,15 @@ export const metadata: Metadata = {
   },
   description:
     'Independent strategic intelligence on India’s industrial transformation, infrastructure systems, semiconductors, AI infrastructure and second-order economic change.',
+  icons: {
+    // Unified brand favicon shared with the main Techadyant site
+    icon: [
+      { url: 'https://i.ibb.co/rfwZ4YPq/white-monogram-01.png', type: 'image/png' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: 'https://i.ibb.co/rfwZ4YPq/white-monogram-01.png',
+    shortcut: 'https://i.ibb.co/rfwZ4YPq/white-monogram-01.png',
+  },
   openGraph: {
     type: 'website',
     siteName: 'Techadyant Labs',
@@ -89,6 +98,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     Independent strategic intelligence on India’s industrial transformation,
                     infrastructure systems and emerging technologies.
                   </p>
+                  <p className="pf-tagline">
+                    The research division of{' '}
+                    <a href="https://techadyant.com">Techadyant</a> — engineering high-reliability
+                    systems for India’s defence, national security and critical infrastructure.
+                  </p>
                 </div>
 
                 <div>
@@ -117,6 +131,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <li><Link href="/about">About the platform</Link></li>
                     <li><Link href="/account">Account</Link></li>
                     <li><Link href="/#subscribe">Subscribe</Link></li>
+                    <li><a href="https://techadyant.com">Techadyant — main site</a></li>
                     <li><a href="mailto:research@techadyant.com">research@techadyant.com</a></li>
                   </ul>
                 </div>

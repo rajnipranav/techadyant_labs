@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'Independent, India-first strategic research on industrial transformation, infrastructure systems, semiconductors, AI infrastructure and second-order economic change.',
 };
 
-const featured = getReport('india-ai-industrial-transition-2026-2035')!;
+const featured = getReport('who-actually-captures-the-india-us-minerals-alliance')!;
 const briefings = allBriefings.slice(0, 3);
 
 export default function HomePage() {
