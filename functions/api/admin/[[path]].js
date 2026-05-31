@@ -27,12 +27,15 @@ async function rpc(base, key, fn, args) {
 
 export async function onRequest(context) {
   const { request, env, params } = context;
-  const adminEmail = (env.ADMIN_EMAIL || ADMIN_FALLBACK).toLowerCase();
-
+  // Allowed admins: comma-separated ADMIN_EMAIL list (falls back to the brand email).
+  const allow = (env.ADMIN_EMAIL || ADMIN_FALLBACK).toLowerCase().split(',').map((s) => s.trim()).filter(Boolean);
   // edge auth (Cloudflare Access). DEV_ADMIN=true bypasses for local `next dev` only.
   const who = (request.headers.get('Cf-Access-Authenticated-User-Email') || '').toLowerCase();
   const devBypass = env.DEV_ADMIN === 'true';
-  if (!devBypass && who !== adminEmail) return json(403, { error: 'forbidden' });
+  if (!devBypass) {
+    if (!who) return json(403, { error: 'no Access identity — request did not arrive through Cloudflare Access', hint: 'the /api/admin path must be a protected destination on the Access app' });
+    if (!allow.includes(who)) return json(403, { error: 'email not in ADMIN_EMAIL allow-list', got: who, expected: allow });
+  }
 
   const N = env.N8NDB_URL, NK = env.N8NDB_SERVICE_ROLE_KEY;
   if (!N || !NK) return json(500, { error: 'n8ndb binding not configured (set N8NDB_URL, N8NDB_SERVICE_ROLE_KEY)' });
