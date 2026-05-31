@@ -3,7 +3,7 @@
 import './admin.css';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ReactNode } from 'react';
+import { ReactNode, useEffect } from 'react';
 
 const NAV = [
   { group: '', items: [{ href: '/admin', label: 'Overview', icon: 'M3 13h8V3H3v10Zm0 8h8v-6H3v6Zm10 0h8V11h-8v10Zm0-18v6h8V3h-8Z' }] },
@@ -23,6 +23,10 @@ function norm(p: string) { return p.replace(/\/+$/, '') || '/'; }
 
 export default function AdminLayout({ children }: { children: ReactNode }) {
   const path = norm(usePathname() || '/admin');
+  useEffect(() => {
+    document.body.classList.add('admin-mode');
+    return () => document.body.classList.remove('admin-mode');
+  }, []);
   return (
     <div className="admin-root">
       <aside className="admin-sidebar">

@@ -36,3 +36,10 @@
 .admin-btn-go { background: var(--admin-teal); color: #fff; border-color: var(--admin-teal); }
 .admin-btn-no { color: var(--admin-crimson); }
 .admin-input, .admin-select { font-size: 13px; padding: 6px 8px; border: 1px solid var(--admin-border); border-radius: 7px; background: #fff; }
+
+/* When the admin area is mounted (body.admin-mode set by the admin layout),
+   hide the public site masthead/footer so the admin shell owns the viewport. */
+body.admin-mode { background: #FBF9F4; }
+body.admin-mode .masthead,
+body.admin-mode .pub-footer { display: none !important; }
+body.admin-mode #main-content { padding: 0 !important; margin: 0 !important; max-width: none !important; }
