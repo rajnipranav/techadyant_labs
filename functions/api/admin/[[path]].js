@@ -99,6 +99,7 @@ export async function onRequest(context) {
     if (route === '/sid/momentum')          return reply(await rpc(N, NK, 'sid_momentum', { p_days: Number(q.get('days') || 30) }));
     if (route === '/recent-activity')       return reply(await rpc(N, NK, 'sid_recent_activity', { p_days: Number(q.get('days') || 7) }));
     if (route === '/lookups')               return reply(await rpc(N, NK, 'sid_lookups'));
+    if (route === '/sid/rejected')          return reply(await rpc(N, NK, 'sid_rejected_candidates'));
 
     if (request.method === 'POST' && route === '/sid/entity-save') {
       const b = await request.json();
@@ -119,6 +120,14 @@ export async function onRequest(context) {
     if (request.method === 'POST' && route === '/sid/capture-add') {
       const b = await request.json();
       return reply(await rpc(N, NK, 'sid_add_capture', { p_corridor: b.corridor, p_layer: b.layer, p_status: b.status, p_rationale: b.rationale || '', p_verif: b.verif || 'single_source', p_analyst: b.analyst || 'admin' }));
+    }
+    if (request.method === 'POST' && route === '/sid/restore') {
+      const b = await request.json();
+      return reply(await rpc(N, NK, 'sid_restore_candidate', { p_id: b.id }));
+    }
+    if (request.method === 'POST' && route === '/sid/stoplist-add') {
+      const b = await request.json();
+      return reply(await rpc(N, NK, 'sid_stoplist_add', { p_name: b.name, p_reason: b.reason || 'manual' }));
     }
 
     if (route === '/sid/candidate-action' && request.method === 'POST') {

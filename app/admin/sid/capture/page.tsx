@@ -19,11 +19,15 @@ export default function CaptureMap() {
   const [rationale, setRationale] = useState('');
   const [verif, setVerif] = useState('single_source');
   const [busy, setBusy] = useState(false);
+  const [history, setHistory] = useState<{ date: string; status: number; rationale: string }[]>([]);
 
   function reload() { api<Cell[]>('/sid/capture').then(setCells).catch((e) => setErr(String(e.message || e))); }
   useEffect(reload, []);
 
-  function select(c: Cell) { setSel(c); setStatus(c.status); setRationale(c.rationale || ''); setVerif('single_source'); }
+  function select(c: Cell) {
+    setSel(c); setStatus(c.status); setRationale(c.rationale || ''); setVerif('single_source'); setHistory([]);
+    api<{ date: string; status: number; rationale: string }[]>('/sid/capture-history?corridor=' + c.corridor + '&layer=' + c.layer).then(setHistory).catch(() => {});
+  }
 
   async function saveAssessment() {
     if (!sel) return;
@@ -83,6 +87,21 @@ export default function CaptureMap() {
             <span style={{ fontSize: 12, color: 'var(--admin-muted)' }}>current: {sel.status} · {sel.status_label} (assessed {sel.date})</span>
           </div>
           <p style={{ fontSize: 13, lineHeight: 1.6, margin: '6px 0 14px', color: 'var(--admin-muted)' }}>{sel.rationale}</p>
+
+          {history.length > 0 && (
+            <div style={{ marginBottom: 14 }}>
+              <div style={{ fontSize: 12, color: 'var(--admin-brass)', textTransform: 'uppercase', letterSpacing: '.06em', marginBottom: 8 }}>Capture trajectory ({history.length})</div>
+              <div style={{ display: 'flex', alignItems: 'flex-end', gap: 14, overflowX: 'auto', paddingBottom: 4 }}>
+                {history.map((h, i) => (
+                  <div key={i} title={h.rationale} style={{ textAlign: 'center', minWidth: 54 }}>
+                    <div style={{ height: 8 + h.status * 14, width: 26, margin: '0 auto', borderRadius: 5, background: CAPTURE_FILL[h.status] }} />
+                    <div style={{ fontFamily: 'var(--admin-mono)', fontSize: 12, marginTop: 4 }}>{h.status}</div>
+                    <div style={{ fontSize: 10, color: 'var(--admin-muted)' }}>{h.date}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           <div style={{ borderTop: '1px solid var(--admin-border)', paddingTop: 12 }}>
             <div style={{ fontSize: 12, color: 'var(--admin-brass)', textTransform: 'uppercase', letterSpacing: '.06em', marginBottom: 10 }}>Record new assessment</div>
