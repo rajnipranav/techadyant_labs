@@ -25,15 +25,57 @@ async function rpc(base, key, fn, args) {
   try { return { data: JSON.parse(t) }; } catch { return { data: t }; }
 }
 
+function b64urlDecode(s) {
+  s = s.replace(/-/g, '+').replace(/_/g, '/');
+  while (s.length % 4) s += '=';
+  return atob(s);
+}
+function b64urlBytes(s) {
+  const bin = b64urlDecode(s);
+  const out = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+// Verify the Cloudflare Access session JWT (Cf-Access-Jwt-Assertion header or
+// CF_Authorization cookie) against the team JWKS, return the email claim.
+async function accessEmailFromJwt(request, env) {
+  try {
+    const team = env.CF_ACCESS_TEAM_DOMAIN || 'lingering-union-aa4c.cloudflareaccess.com';
+    let token = request.headers.get('Cf-Access-Jwt-Assertion');
+    if (!token) {
+      const m = (request.headers.get('Cookie') || '').match(/CF_Authorization=([^;]+)/);
+      if (m) token = m[1];
+    }
+    if (!token) return null;
+    const [h, p, s] = token.split('.');
+    if (!h || !p || !s) return null;
+    const header = JSON.parse(b64urlDecode(h));
+    const payload = JSON.parse(b64urlDecode(p));
+    if (payload.exp && Math.floor(Date.now() / 1000) > payload.exp) return null;
+    const certs = await fetch(`https://${team}/cdn-cgi/access/certs`).then((r) => r.json());
+    const jwk = (certs.keys || []).find((k) => k.kid === header.kid);
+    if (!jwk) return null;
+    const key = await crypto.subtle.importKey('jwk',
+      { kty: jwk.kty, n: jwk.n, e: jwk.e, alg: 'RS256', ext: true },
+      { name: 'RSASSA-PKCS1-v1_5', hash: 'SHA-256' }, false, ['verify']);
+    const ok = await crypto.subtle.verify('RSASSA-PKCS1-v1_5', key,
+      b64urlBytes(s), new TextEncoder().encode(`${h}.${p}`));
+    if (!ok) return null;
+    return (payload.email || '').toLowerCase();
+  } catch (_e) { return null; }
+}
+
 export async function onRequest(context) {
   const { request, env, params } = context;
   // Allowed admins: comma-separated ADMIN_EMAIL list (falls back to the brand email).
   const allow = (env.ADMIN_EMAIL || ADMIN_FALLBACK).toLowerCase().split(',').map((s) => s.trim()).filter(Boolean);
-  // edge auth (Cloudflare Access). DEV_ADMIN=true bypasses for local `next dev` only.
-  const who = (request.headers.get('Cf-Access-Authenticated-User-Email') || '').toLowerCase();
   const devBypass = env.DEV_ADMIN === 'true';
+  // Identity: prefer the convenience header; otherwise verify the Access session
+  // JWT (CF_Authorization cookie) — works even where the header isn't injected.
+  let who = (request.headers.get('Cf-Access-Authenticated-User-Email') || '').toLowerCase();
+  if (!who) who = (await accessEmailFromJwt(request, env)) || '';
   if (!devBypass) {
-    if (!who) return json(403, { error: 'no Access identity — request did not arrive through Cloudflare Access', hint: 'the /api/admin path must be a protected destination on the Access app' });
+    if (!who) return json(403, { error: 'no Access identity — log in via Cloudflare Access at /admin first (no header and no valid CF_Authorization cookie present)' });
     if (!allow.includes(who)) return json(403, { error: 'email not in ADMIN_EMAIL allow-list', got: who, expected: allow });
   }
 
