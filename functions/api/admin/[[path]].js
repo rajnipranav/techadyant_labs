@@ -98,6 +98,28 @@ export async function onRequest(context) {
     if (route === '/sid/sovereignty')       return reply(await rpc(N, NK, 'sid_sovereignty'));
     if (route === '/sid/momentum')          return reply(await rpc(N, NK, 'sid_momentum', { p_days: Number(q.get('days') || 30) }));
     if (route === '/recent-activity')       return reply(await rpc(N, NK, 'sid_recent_activity', { p_days: Number(q.get('days') || 7) }));
+    if (route === '/lookups')               return reply(await rpc(N, NK, 'sid_lookups'));
+
+    if (request.method === 'POST' && route === '/sid/entity-save') {
+      const b = await request.json();
+      return reply(await rpc(N, NK, 'sid_save_entity', { p_id: b.id || null, p_name: b.name, p_type: b.type, p_country: b.country || '', p_description: b.description || '', p_watchlist: !!b.watchlist, p_corridors: b.corridors || [], p_aliases: b.aliases || [] }));
+    }
+    if (request.method === 'POST' && route === '/sid/entity-retire') {
+      const b = await request.json();
+      return reply(await rpc(N, NK, 'sid_retire_entity', { p_id: b.id, p_status: b.status || 'dormant' }));
+    }
+    if (request.method === 'POST' && route === '/sid/relationship-add') {
+      const b = await request.json();
+      return reply(await rpc(N, NK, 'sid_add_relationship', { p_src: b.src, p_tgt: b.tgt, p_rel: b.rel, p_magnitude: b.magnitude ?? null, p_unit: b.unit || '', p_desc: b.desc || '', p_verif: b.verif || 'single_source' }));
+    }
+    if (request.method === 'POST' && route === '/sid/relationship-close') {
+      const b = await request.json();
+      return reply(await rpc(N, NK, 'sid_close_relationship', { p_id: b.id, p_delete: !!b.delete }));
+    }
+    if (request.method === 'POST' && route === '/sid/capture-add') {
+      const b = await request.json();
+      return reply(await rpc(N, NK, 'sid_add_capture', { p_corridor: b.corridor, p_layer: b.layer, p_status: b.status, p_rationale: b.rationale || '', p_verif: b.verif || 'single_source', p_analyst: b.analyst || 'admin' }));
+    }
 
     if (route === '/sid/candidate-action' && request.method === 'POST') {
       const b = await request.json();
