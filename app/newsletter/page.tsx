@@ -35,15 +35,31 @@ export default function NewsletterPage() {
         <div className="section-head-ed">
           <div><div className="ed-kicker">Latest issue</div><h2>{latest.no} · {latest.month}</h2></div>
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0,1.15fr) minmax(0,1fr)', gap: 36, alignItems: 'center' }} className="nl-feature">
-          <Link href={`/newsletter/${latest.slug}`} style={{ display: 'block' }}>
+        <style>{`
+          .nl-card{ display:grid; grid-template-columns: 1fr 1.05fr; align-items:stretch;
+            background:var(--surface); border:1px solid var(--border); border-radius:18px; overflow:hidden;
+            box-shadow:0 18px 50px rgba(0,0,0,.30); transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+          .nl-card:hover{ transform:translateY(-3px); box-shadow:0 26px 70px rgba(0,0,0,.42); border-color:var(--border-strong); }
+          .nl-card-cover{ position:relative; display:block; overflow:hidden; min-height:360px; background:#0B0F1A; }
+          .nl-card-cover img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:top center; display:block; transition:transform .4s ease; }
+          .nl-card:hover .nl-card-cover img{ transform:scale(1.03); }
+          .nl-card-cover::after{ content:''; position:absolute; inset:0; background:linear-gradient(90deg, transparent 72%, var(--surface) 100%); pointer-events:none; }
+          .nl-card-badge{ position:absolute; top:16px; left:16px; z-index:2; font-family:var(--font-jetbrains, monospace); font-size:12px;
+            letter-spacing:.12em; color:#0B0F1A; background:var(--accent-warm, #F5B544); padding:5px 11px; border-radius:6px; font-weight:700; }
+          .nl-card-body{ padding:36px 38px; display:flex; flex-direction:column; justify-content:center; }
+          @media (max-width:760px){ .nl-card{ grid-template-columns:1fr; } .nl-card-cover{ min-height:240px; }
+            .nl-card-cover::after{ background:linear-gradient(0deg, var(--surface) 2%, transparent 32%); } .nl-card-body{ padding:26px 24px; } }
+        `}</style>
+        <div className="nl-card">
+          <Link href={`/newsletter/${latest.slug}`} className="nl-card-cover" aria-label={`Read Sanket — ${latest.month}`}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={latest.cover} alt={`Sanket — ${latest.month}`} style={{ width: '100%', borderRadius: 14, border: '1px solid var(--border)', display: 'block' }} />
+            <img src={latest.cover} alt={`Sanket — ${latest.month}: ${latest.title}`} />
+            <span className="nl-card-badge">◆ {latest.no}</span>
           </Link>
-          <div>
+          <div className="nl-card-body">
             <div className="r-tag" style={{ marginBottom: 14 }}>◆ {latest.no} · {latest.month} · {latest.readingTime}</div>
             <h3 className="serif" style={{ fontSize: 'clamp(22px,2.6vw,30px)', margin: '0 0 14px', lineHeight: 1.25 }}>{latest.title}</h3>
-            <p style={{ color: 'var(--text-muted)', lineHeight: 1.65, fontSize: 16, marginBottom: 22 }}>{latest.standfirst}</p>
+            <p style={{ color: 'var(--text-muted)', lineHeight: 1.65, fontSize: 16, marginBottom: 24 }}>{latest.standfirst}</p>
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
               <Link href={`/newsletter/${latest.slug}`} className="btn-ed btn-ed-primary">Read online <span className="arr">→</span></Link>
               <a href={latest.pdf} className="btn-ed btn-ed-ghost" download>Download PDF <span className="arr">↓</span></a>
