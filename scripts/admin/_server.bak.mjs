@@ -27,7 +27,6 @@ const P = {
   slugPage: path.join(ROOT, 'app', 'reports', '[slug]', 'page.tsx'),
   contentDir: path.join(ROOT, 'app', 'reports', 'content'),
   coversDir: path.join(ROOT, 'public', 'covers'),
-  signals: path.join(ROOT, 'app', 'signals', 'data.ts'),
 };
 const PORT = 4321;
 
@@ -217,84 +216,6 @@ function addReport(r) {
   return { ok: true, slug: r.slug, changed, warnings, committed };
 }
 
-
-/* ---------- signals + forthcoming ---------- */
-function existingSignalSlugs() {
-  const t = read(P.signals);
-  return [...t.matchAll(/slug:\s*'([^']+)'/g)].map((m) => m[1]);
-}
-function nextSignalNo() {
-  const t = read(P.signals);
-  const nums = [...t.matchAll(/no:\s*'S-(\d+)'/g)].map((m) => parseInt(m[1], 10));
-  return 'S-' + String((nums.length ? Math.max(...nums) : 0) + 1).padStart(3, '0');
-}
-// turn a simple markdown-ish body into a SignalBody[] literal (## = heading, - = list, else paragraph)
-function bodyToSignalBody(md) {
-  const blocks = String(md || '').replace(/\r/g, '').split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean);
-  const parts = [];
-  for (const b of blocks) {
-    if (/^##\s+/.test(b)) parts.push(`{ type: 'h', text: ${q(b.replace(/^##\s+/, ''))} }`);
-    else if (/^[-*]\s+/m.test(b)) {
-      const items = b.split('\n').map((l) => l.replace(/^[-*]\s+/, '').trim()).filter(Boolean);
-      parts.push(`{ type: 'list', items: [${items.map(q).join(', ')}] }`);
-    } else parts.push(`{ type: 'p', text: ${q(b)} }`);
-  }
-  return '[\n      ' + parts.join(',\n      ') + ',\n    ]';
-}
-function insertSignalEntry(r) {
-  const t = read(P.signals);
-  const anchor = 'export const signals: SignalMeta[] = [';
-  if (!t.includes(anchor)) throw new Error('signals.ts anchor not found');
-  const slug = r.slug || slugify(r.title || '');
-  if (!slug) throw new Error('signal title/slug required');
-  if (existingSignalSlugs().includes(slug)) throw new Error(`signal slug "${slug}" already exists`);
-  const no = r.no || nextSignalNo();
-  const date = r.date || new Date().toISOString().slice(0, 10);
-  const dateLabel = r.dateLabel ||
-    new Date(date).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
-  const takeaways = (r.takeaways || []).filter(Boolean);
-  const L = [];
-  L.push('  {');
-  L.push(`    slug: ${q(slug)},`);
-  L.push(`    no: ${q(no)},`);
-  L.push(`    title: ${q(r.title)},`);
-  L.push(`    domain: ${q(r.domain || 'Strategic Technology')},`);
-  L.push(`    date: ${q(date)},`);
-  L.push(`    dateLabel: ${q(dateLabel)},`);
-  L.push(`    status: ${q(r.status || 'live')},`);
-  L.push(`    readingTime: ${q(r.readingTime || '4 min')},`);
-  L.push('    excerpt:');
-  L.push(`      ${q(r.excerpt || '')},`);
-  if (takeaways.length) L.push('    takeaways: [\n' + takeaways.map((x) => `      ${q(x)},`).join('\n') + '\n    ],');
-  if (r.body && r.body.trim()) L.push(`    body: ${bodyToSignalBody(r.body)},`);
-  L.push('  },');
-  backup(P.signals);
-  write(P.signals, t.replace(anchor, anchor + '\n' + L.join('\n') + '\n'));
-  return { file: 'app/signals/data.ts', no, slug };
-}
-function addSignal(r) {
-  const res = insertSignalEntry(r);
-  const warnings = []; let committed = false;
-  if (r.commit) { try { committed = gitCommit(res.slug, [res.file]); } catch (e) { warnings.push('git commit failed: ' + e.message); } }
-  return { ok: true, slug: res.slug, no: res.no, changed: [res.file], warnings, committed };
-}
-function addForthcoming(r) {
-  if (!r.slug) r.slug = slugify(r.title || '');
-  if (!r.slug) throw new Error('title/slug required');
-  if (existingSlugs().includes(r.slug)) throw new Error(`slug "${r.slug}" already exists`);
-  r.status = 'forthcoming';
-  r.hasPdf = false;
-  r.publishedLabel = 'Forthcoming';
-  if (!r.edition) r.edition = 'forthcoming';
-  if (!r.accent) r.accent = '#6366F1';
-  if (!r.readingTime) r.readingTime = '~ 2h read';
-  if (!r.published) r.published = new Date().toISOString().slice(0, 10);
-  const file = insertDataEntry(r);
-  const changed = [file], warnings = []; let committed = false;
-  if (r.commit) { try { committed = gitCommit(r.slug, changed); } catch (e) { warnings.push('git commit failed: ' + e.message); } }
-  return { ok: true, slug: r.slug, changed, warnings, committed };
-}
-
 const send = (res, code, obj) => { res.writeHead(code, { 'content-type': 'application/json' }); res.end(JSON.stringify(obj)); };
 
 const server = http.createServer((req, res) => {
@@ -303,7 +224,7 @@ const server = http.createServer((req, res) => {
     return res.end(read(path.join(__dirname, 'index.html')));
   }
   if (req.method === 'GET' && req.url === '/api/state') {
-    try { return send(res, 200, { ok: true, slugs: existingSlugs(), nextSignal: nextSignalNo(), root: ROOT }); }
+    try { return send(res, 200, { ok: true, slugs: existingSlugs(), root: ROOT }); }
     catch (e) { return send(res, 500, { ok: false, error: e.message }); }
   }
   if (req.method === 'POST' && req.url === '/api/add') {
@@ -311,16 +232,6 @@ const server = http.createServer((req, res) => {
     req.on('data', (c) => { buf += c; if (buf.length > 30e6) req.destroy(); });
     req.on('end', () => {
       try { return send(res, 200, addReport(JSON.parse(buf))); }
-      catch (e) { return send(res, 400, { ok: false, error: e.message }); }
-    });
-    return;
-  }
-  if (req.method === 'POST' && (req.url === '/api/add-signal' || req.url === '/api/add-forthcoming')) {
-    const handler = req.url === '/api/add-signal' ? addSignal : addForthcoming;
-    let buf = '';
-    req.on('data', (c) => { buf += c; if (buf.length > 30e6) req.destroy(); });
-    req.on('end', () => {
-      try { return send(res, 200, handler(JSON.parse(buf))); }
       catch (e) { return send(res, 400, { ok: false, error: e.message }); }
     });
     return;

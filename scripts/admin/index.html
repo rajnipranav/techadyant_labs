@@ -109,6 +109,47 @@
     </div>
   </div>
   </form>
+
+  <div class="card" style="border-color:rgba(56,225,196,.30)">
+    <h2 style="color:var(--teal)">Publish Signal &middot; app/signals/data.ts</h2>
+    <div class="hint" id="sigNext">next number: &hellip;</div>
+    <label>Title *</label><input id="sg_title" placeholder="India’s first edge-AI chip is a design-led bet">
+    <div class="row3">
+      <div><label>Domain</label><input id="sg_domain" value="Strategic Technology"></div>
+      <div><label>Status</label><select id="sg_status"><option value="live">live</option><option value="monitoring">monitoring</option><option value="placeholder">placeholder</option></select></div>
+      <div><label>Reading time</label><input id="sg_reading" value="4 min"></div>
+    </div>
+    <label>Date</label><input id="sg_date" type="date">
+    <label>Excerpt *</label><textarea id="sg_excerpt"></textarea>
+    <label>Takeaways <span style="color:var(--muted)">(one per line)</span></label><textarea id="sg_takeaways" placeholder="One sourced takeaway per line"></textarea>
+    <label>Body <span style="color:var(--muted)">(blank line between blocks &middot; <code>## heading</code> &middot; <code>- list item</code>)</span></label><textarea id="sg_body" style="min-height:150px"></textarea>
+    <div class="chk"><input id="sg_commit" type="checkbox"><label style="margin:0">git commit after writing</label></div>
+    <button type="button" class="primary" id="sg_btn" style="margin-top:12px">Publish signal &rarr;</button>
+  </div>
+
+  <div class="card" style="border-color:rgba(245,181,68,.30)">
+    <h2>Add Forthcoming Report &middot; app/reports/data.ts</h2>
+    <label>Title *</label><input id="fc_title">
+    <label>Subtitle</label><input id="fc_subtitle">
+    <div class="row3">
+      <div><label>Domain</label><input id="fc_domain" value="Strategic Technology"></div>
+      <div><label>Published</label><input id="fc_published" type="date"></div>
+      <div><label>Accent</label><input id="fc_accent" type="color" value="#6366f1"></div>
+    </div>
+    <div class="row">
+      <div><label>Edition</label><input id="fc_edition" value="forthcoming"></div>
+      <div><label>Reading time</label><input id="fc_reading" value="~ 2h read"></div>
+    </div>
+    <div class="row3">
+      <div><label>Access</label><select id="fc_access"><option value="paid">paid</option><option value="free">free</option></select></div>
+      <div><label>Price (INR)</label><input id="fc_price" type="number" value="4900"></div>
+      <div></div>
+    </div>
+    <label>Summary</label><textarea id="fc_summary"></textarea>
+    <div class="chk"><input id="fc_commit" type="checkbox"><label style="margin:0">git commit after writing</label></div>
+    <button type="button" class="primary" id="fc_btn" style="margin-top:12px">Add forthcoming report &rarr;</button>
+  </div>
+
   <pre id="out"></pre>
 </div>
 
@@ -156,5 +197,32 @@ $('f').addEventListener('submit',async(e)=>{
     } else { $('out').textContent='✗ '+r.error; }
   }catch(err){ $('out').textContent='✗ '+err.message; }
 });
+
+fetch('/api/state').then(r=>r.json()).then(r=>{ if(r.nextSignal) $('sigNext').textContent='next number: '+r.nextSignal; }).catch(()=>{});
+$('sg_title').addEventListener('input',()=>{});
+function showResult(r,kind){ $('out').style.display='block';
+  if(r.ok){ $('out').textContent='✓ '+kind+' "'+(r.no?r.no+' · ':'')+r.slug+'"\n\nFiles changed:\n'+(r.changed||[]).map(f=>'  • '+f).join('\n')+
+    (r.warnings&&r.warnings.length?'\n\nWarnings:\n'+r.warnings.map(w=>'  ! '+w).join('\n'):'')+
+    (r.committed?'\n\n✓ git committed.':'\n\n(not committed — review & commit yourself)')+
+    '\n\nNext: review the diff, run `npm run build`, then push.';
+  } else $('out').textContent='✗ '+r.error; }
+$('sg_btn').addEventListener('click',async()=>{
+  const payload={ title:$('sg_title').value, domain:$('sg_domain').value, status:$('sg_status').value,
+    date:$('sg_date').value, readingTime:$('sg_reading').value, excerpt:$('sg_excerpt').value,
+    takeaways:$('sg_takeaways').value.split('\n').map(s=>s.trim()).filter(Boolean),
+    body:$('sg_body').value, commit:$('sg_commit').checked };
+  $('out').style.display='block'; $('out').textContent='Working…';
+  try{ const r=await (await fetch('/api/add-signal',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(payload)})).json();
+    showResult(r,'Signal'); fetch('/api/state').then(x=>x.json()).then(x=>{ if(x.nextSignal)$('sigNext').textContent='next number: '+x.nextSignal; });
+  }catch(e){ $('out').textContent='✗ '+e.message; } });
+$('fc_btn').addEventListener('click',async()=>{
+  const payload={ title:$('fc_title').value, subtitle:$('fc_subtitle').value, domain:$('fc_domain').value,
+    edition:$('fc_edition').value, published:$('fc_published').value, readingTime:$('fc_reading').value,
+    accent:$('fc_accent').value, summary:$('fc_summary').value, access:$('fc_access').value, price:$('fc_price').value,
+    commit:$('fc_commit').checked };
+  $('out').style.display='block'; $('out').textContent='Working…';
+  try{ const r=await (await fetch('/api/add-forthcoming',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(payload)})).json();
+    showResult(r,'Forthcoming report'); loadState();
+  }catch(e){ $('out').textContent='✗ '+e.message; } });
 </script>
 </body></html>

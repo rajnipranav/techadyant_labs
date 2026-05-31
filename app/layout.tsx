@@ -47,7 +47,8 @@ const NAV_LINKS = [
   { href: '/reports', label: 'Reports' },
   { href: '/signals', label: 'Signals' },
   { href: '/research', label: 'Research' },
-  { href: '/briefings', label: 'Briefings' },
+  { href: '/newsletter', label: 'Newsletter' },
+  { href: '/services', label: 'Services' },
   { href: '/about', label: 'About' },
 ];
 
@@ -110,7 +111,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <ul role="list">
                     <li><Link href="/reports">Reports</Link></li>
                     <li><Link href="/signals">Signals</Link></li>
-                    <li><Link href="/briefings">Briefings</Link></li>
+                    <li><Link href="/newsletter">Strategic Signals</Link></li>
                     <li><Link href="/research">Research themes</Link></li>
                   </ul>
                 </div>
@@ -129,10 +130,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <h4>Platform</h4>
                   <ul role="list">
                     <li><Link href="/about">About the platform</Link></li>
+                    <li><Link href="/services">Commission research</Link></li>
                     <li><Link href="/account">Account</Link></li>
                     <li><Link href="/#subscribe">Subscribe</Link></li>
                     <li><a href="https://techadyant.com">Techadyant — main site</a></li>
-                    <li><a href="mailto:research@techadyant.com">research@techadyant.com</a></li>
+                    <li><a href="mailto:labs@techadyant.com">labs@techadyant.com</a></li>
                   </ul>
                 </div>
               </div>

@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1630" width="100%" height="100%">
+    <defs>
+        <!-- Fonts -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;family=Space+Mono:wght@400;700&amp;display=swap');
+        </style>
+        
+        <!-- Gradients -->
+        <linearGradient id="goldTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FDE08B"/>
+            <stop offset="100%" stop-color="#D4AF37"/>
+        </linearGradient>
+
+        <linearGradient id="fadeNavy" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#08111F" stop-opacity="0"/>
+            <stop offset="50%" stop-color="#1A2B4C" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#08111F" stop-opacity="0"/>
+        </linearGradient>
+
+        <linearGradient id="fadeGold" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#08111F" stop-opacity="0"/>
+            <stop offset="50%" stop-color="#D4AF37" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#08111F" stop-opacity="0"/>
+        </linearGradient>
+
+        <!-- Glow Effect for Word Compatibility -->
+        <filter id="goldGlow" x="-10%" y="-20%" width="120%" height="140%">
+            <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#D4AF37" flood-opacity="0.3"/>
+        </filter>
+
+        <!-- Tech Grid Pattern -->
+        <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+            <circle cx="2" cy="2" r="1.5" fill="#1A2B4C" />
+        </pattern>
+    </defs>
+
+    <!-- Main Background -->
+    <rect width="100%" height="100%" fill="#08111F" />
+
+    <!-- ================= HEADER (0 - 240) ================= -->
+    <text x="40" y="60" font-family="'Space Mono', 'Courier New', monospace" font-size="12" fill="#6B7280" font-weight="bold" letter-spacing="2" text-transform="uppercase">Strategic Intelligence Briefing</text>
+    <text x="860" y="60" font-family="'Space Mono', 'Courier New', monospace" font-size="12" fill="#D4AF37" font-weight="bold" text-anchor="end" letter-spacing="1">CLASSIFICATION: UNRESTRICTED</text>
+
+    <text x="40" y="125" font-family="'Playfair Display', Georgia, serif" font-size="46" font-weight="bold" fill="#FFFFFF" letter-spacing="-0.5">INDIA BUYS INTO THE</text>
+    <text x="40" y="180" font-family="'Playfair Display', Georgia, serif" font-size="46" font-weight="bold" fill="url(#goldTextGrad)" letter-spacing="-0.5">MIDDLE OF THE STACK</text>
+    
+    <text x="40" y="215" font-family="'Inter', Arial, sans-serif" font-size="19" font-weight="300" fill="#9CA3AF">Why India's Semiconductor Opportunity Is Advanced Packaging, Not Fabrication</text>
+
+    <!-- Header Dividers -->
+    <line x1="40" y1="240" x2="860" y2="240" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
+    <line x1="40" y1="244" x2="860" y2="244" stroke="#1A2B4C" stroke-width="1"/>
+
+    <!-- ================= SECTION 1: GLOBAL HARDWARE STACK (240 - 660) ================= -->
+    <rect x="40" y="280" width="8" height="8" fill="#D4AF37" />
+    <text x="56" y="288" font-family="'Space Mono', 'Courier New', monospace" font-size="14" fill="#D1D5DB" font-weight="bold" letter-spacing="1.5" text-transform="uppercase">1. The Global AI Hardware Stack</text>
+
+    <!-- Stack Layers -->
+    <!-- L1 -->
+    <rect x="310" y="320" width="280" height="36" fill="#0B1627" stroke="#1A2B4C" />
+    <text x="450" y="343" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#9CA3AF" font-weight="500" text-anchor="middle">Applications</text>
+    
+    <!-- L2 -->
+    <rect x="280" y="364" width="340" height="36" fill="#0B1627" stroke="#1A2B4C" />
+    <text x="450" y="387" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#9CA3AF" font-weight="500" text-anchor="middle">Foundation Models</text>
+    
+    <!-- L3 -->
+    <rect x="250" y="408" width="400" height="36" fill="#0B1627" stroke="#1A2B4C" />
+    <text x="450" y="431" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#9CA3AF" font-weight="500" text-anchor="middle">Compute (GPUs / Accelerators)</text>
+    
+    <!-- L4 (GOLD) -->
+    <rect x="220" y="452" width="460" height="40" fill="#18140B" stroke="#D4AF37" stroke-width="1.5" filter="url(#goldGlow)" />
+    <text x="450" y="477" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#D4AF37" font-weight="bold" letter-spacing="1" text-anchor="middle">ADVANCED PACKAGING</text>
+    
+    <!-- L5 (GOLD) -->
+    <rect x="190" y="500" width="520" height="40" fill="#18140B" stroke="#D4AF37" stroke-width="1.5" filter="url(#goldGlow)" />
+    <text x="450" y="525" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#D4AF37" font-weight="bold" letter-spacing="1" text-anchor="middle">SUBSTRATES</text>
+    
+    <!-- L6 -->
+    <rect x="160" y="548" width="580" height="36" fill="#0B1627" stroke="#1A2B4C" />
+    <text x="450" y="571" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#9CA3AF" font-weight="500" text-anchor="middle">Materials &amp; Chemicals</text>
+    
+    <!-- L7 -->
+    <rect x="130" y="592" width="640" height="36" fill="#0B1627" stroke="#1A2B4C" />
+    <text x="450" y="615" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#9CA3AF" font-weight="500" text-anchor="middle">Power Infrastructure</text>
+
+    <!-- Opportunity Zone Connectors & Box -->
+    <line x1="680" y1="472" x2="730" y2="472" stroke="#D4AF37" stroke-width="1" />
+    <line x1="710" y1="520" x2="730" y2="520" stroke="#D4AF37" stroke-width="1" />
+    <rect x="730" y="472" width="140" height="48" fill="#08111F" stroke="#D4AF37" stroke-width="1" filter="url(#goldGlow)" />
+    <text x="800" y="493" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#D4AF37" font-weight="bold" text-anchor="middle" letter-spacing="1">INDIA'S</text>
+    <text x="800" y="509" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#D4AF37" font-weight="bold" text-anchor="middle" letter-spacing="1">OPPORTUNITY ZONE</text>
+
+    <!-- ================= SECTION 2: THE MAY 2026 SIGNALS (660 - 920) ================= -->
+    <rect x="0" y="660" width="900" height="260" fill="#0B1627" />
+    <rect x="0" y="660" width="900" height="260" fill="url(#grid)" />
+    <line x1="0" y1="660" x2="900" y2="660" stroke="#1A2B4C" />
+    <line x1="0" y1="920" x2="900" y2="920" stroke="#1A2B4C" />
+
+    <rect x="40" y="690" width="8" height="8" fill="#D4AF37" />
+    <text x="56" y="698" font-family="'Space Mono', 'Courier New', monospace" font-size="14" fill="#D1D5DB" font-weight="bold" letter-spacing="1.5" text-transform="uppercase">2. The May 2026 Signals</text>
+
+    <!-- Signal Card 1 -->
+    <rect x="40" y="730" width="250" height="120" fill="#08111F" stroke="#1A2B4C" />
+    <rect x="40" y="730" width="250" height="4" fill="url(#fadeNavy)" />
+    <text x="56" y="760" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#6B7280" font-weight="bold">SIGNAL #1</text>
+    <text x="56" y="795" font-family="'Space Mono', 'Courier New', monospace" font-size="28" fill="#FFFFFF" font-weight="bold">$3.3B</text>
+    <text x="56" y="820" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#9CA3AF">Intel + 3DGS Odisha</text>
+    <text x="56" y="838" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#9CA3AF">Substrate Plant</text>
+
+    <!-- Signal Card 2 -->
+    <rect x="325" y="730" width="250" height="120" fill="#08111F" stroke="#1A2B4C" />
+    <rect x="325" y="730" width="250" height="4" fill="url(#fadeGold)" />
+    <text x="341" y="760" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#6B7280" font-weight="bold">SIGNAL #2</text>
+    <text x="341" y="795" font-family="'Space Mono', 'Courier New', monospace" font-size="28" fill="#D4AF37" font-weight="bold">$120–150B</text>
+    <text x="341" y="820" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#9CA3AF">India Semiconductor</text>
+    <text x="341" y="838" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#9CA3AF">Value Chain Target</text>
+
+    <!-- Signal Card 3 -->
+    <rect x="610" y="730" width="250" height="120" fill="#08111F" stroke="#1A2B4C" />
+    <rect x="610" y="730" width="250" height="4" fill="url(#fadeNavy)" />
+    <text x="626" y="760" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#6B7280" font-weight="bold">SIGNAL #3</text>
+    <text x="626" y="795" font-family="'Space Mono', 'Courier New', monospace" font-size="28" fill="#FFFFFF" font-weight="bold">55%</text>
+    <text x="626" y="820" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#9CA3AF">PLI 2.0 Domestic Value</text>
+    <text x="626" y="838" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#9CA3AF">Addition Requirement</text>
+
+    <text x="450" y="890" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#D4AF37" font-weight="bold" letter-spacing="1.5" text-anchor="middle">↓ CONVERGING ON ADVANCED PACKAGING &amp; SUBSTRATES ↓</text>
+
+    <!-- ================= SECTION 3 & 4: SPLIT LAYOUT (920 - 1300) ================= -->
+    <line x1="450" y1="920" x2="450" y2="1300" stroke="#1A2B4C" />
+    <line x1="0" y1="1300" x2="900" y2="1300" stroke="#1A2B4C" />
+    
+    <!-- Right side background -->
+    <rect x="451" y="921" width="449" height="379" fill="#0B1627" />
+
+    <!-- Section 3 (Left) -->
+    <rect x="40" y="960" width="8" height="8" fill="#D4AF37" />
+    <text x="56" y="968" font-family="'Space Mono', 'Courier New', monospace" font-size="14" fill="#D1D5DB" font-weight="bold" letter-spacing="1.5" text-transform="uppercase">3. Dependency Capture Framework™</text>
+
+    <!-- Pyramid (Center X = 225) -->
+    <!-- L6 -->
+    <rect x="160" y="1000" width="130" height="30" fill="#0B1627" stroke="#1A2B4C" />
+    <text x="225" y="1019" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#6B7280" font-weight="600" text-anchor="middle">L6: Services &amp; SW</text>
+    
+    <!-- L5 -->
+    <rect x="140" y="1038" width="170" height="30" fill="#0B1627" stroke="#1A2B4C" />
+    <text x="225" y="1057" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#9CA3AF" font-weight="600" text-anchor="middle">L5: Systems Int.</text>
+    
+    <!-- L4 -->
+    <rect x="120" y="1076" width="210" height="30" fill="#0B1627" stroke="#1A2B4C" />
+    <text x="225" y="1095" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#D1D5DB" font-weight="600" text-anchor="middle">L4: Assembly</text>
+    
+    <!-- L3 -->
+    <rect x="100" y="1114" width="250" height="35" fill="#18140B" stroke="#D4AF37" stroke-width="1.5" />
+    <text x="225" y="1136" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#D4AF37" font-weight="bold" text-anchor="middle">L3: Components</text>
+    
+    <!-- L2 -->
+    <rect x="80" y="1157" width="290" height="35" fill="#18140B" stroke="#D4AF37" stroke-width="1.5" />
+    <text x="225" y="1179" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#D4AF37" font-weight="bold" text-anchor="middle">L2: Substrates &amp; Pkg</text>
+    
+    <!-- L1 -->
+    <rect x="60" y="1200" width="330" height="40" fill="#18140B" stroke="#D4AF37" stroke-width="1.5" />
+    <text x="225" y="1225" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#D4AF37" font-weight="bold" text-anchor="middle">L1: Materials &amp; Inputs</text>
+
+    <!-- Annotation -->
+    <text x="225" y="1275" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#9CA3AF" font-style="italic" text-anchor="middle">"Value is captured where chokepoints exist."</text>
+    <line x1="80" y1="1250" x2="370" y2="1250" stroke="#1A2B4C" stroke-width="1" />
+
+    <!-- Section 4 (Right) -->
+    <rect x="490" y="960" width="8" height="8" fill="#D4AF37" />
+    <text x="506" y="968" font-family="'Space Mono', 'Courier New', monospace" font-size="14" fill="#D1D5DB" font-weight="bold" letter-spacing="1.5" text-transform="uppercase">4. Strategic Judgement</text>
+
+    <!-- Gold Callout Box -->
+    <rect x="490" y="1000" width="370" height="160" fill="#08111F" filter="url(#goldGlow)" />
+    <rect x="490" y="1000" width="4" height="160" fill="#D4AF37" />
+    
+    <text x="520" y="1045" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="bold" fill="#FFFFFF">INDIA DOES NOT NEED TO</text>
+    <text x="520" y="1075" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="bold" fill="#FFFFFF">WIN THE FAB RACE.</text>
+    <text x="520" y="1113" font-family="'Playfair Display', Georgia, serif" font-size="19" font-weight="bold" fill="#D4AF37">IT NEEDS TO OWN THE LAYERS</text>
+    <text x="520" y="1142" font-family="'Playfair Display', Georgia, serif" font-size="19" font-weight="bold" fill="#D4AF37">EVERY FAB DEPENDS ON.</text>
+
+    <!-- Metrics Line -->
+    <line x1="490" y1="1200" x2="860" y2="1200" stroke="#1A2B4C" stroke-width="1" />
+    
+    <!-- Metric 1 -->
+    <text x="490" y="1225" font-family="'Space Mono', 'Courier New', monospace" font-size="10" fill="#6B7280" font-weight="bold" letter-spacing="1">CONFIDENCE</text>
+    <text x="490" y="1245" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold">MODERATE–HIGH</text>
+    
+    <!-- Metric 2 -->
+    <text x="630" y="1225" font-family="'Space Mono', 'Courier New', monospace" font-size="10" fill="#6B7280" font-weight="bold" letter-spacing="1">IMPACT</text>
+    <text x="630" y="1245" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#D4AF37" font-weight="bold">VERY HIGH</text>
+    
+    <!-- Metric 3 -->
+    <text x="750" y="1225" font-family="'Space Mono', 'Courier New', monospace" font-size="10" fill="#6B7280" font-weight="bold" letter-spacing="1">HORIZON</text>
+    <text x="750" y="1245" font-family="'Space Mono', 'Courier New', monospace" font-size="14" fill="#FFFFFF" font-weight="bold">2026–2035</text>
+
+
+    <!-- ================= SECTION 5: FORECAST (1300 - 1550) ================= -->
+    <rect x="40" y="1340" width="8" height="8" fill="#D4AF37" />
+    <text x="56" y="1348" font-family="'Space Mono', 'Courier New', monospace" font-size="14" fill="#D1D5DB" font-weight="bold" letter-spacing="1.5" text-transform="uppercase">5. Scenario Forecast to 2030</text>
+
+    <!-- Base Case -->
+    <text x="40" y="1390" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold">Base Case</text>
+    <text x="130" y="1390" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#9CA3AF">Meaningful packaging position achieved</text>
+    <text x="860" y="1390" font-family="'Space Mono', 'Courier New', monospace" font-size="16" fill="#D4AF37" font-weight="bold" text-anchor="end">60%</text>
+    <rect x="40" y="1402" width="820" height="8" fill="#0B1627" />
+    <rect x="40" y="1402" width="492" height="8" fill="#D4AF37" />
+
+    <!-- Bull Case -->
+    <text x="40" y="1450" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold">Bull Case</text>
+    <text x="130" y="1450" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#9CA3AF">Global packaging hub emerges</text>
+    <text x="860" y="1450" font-family="'Space Mono', 'Courier New', monospace" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="end">25%</text>
+    <rect x="40" y="1462" width="820" height="8" fill="#0B1627" />
+    <rect x="40" y="1462" width="205" height="8" fill="#9CA3AF" />
+
+    <!-- Bear Case -->
+    <text x="40" y="1510" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold">Bear Case</text>
+    <text x="130" y="1510" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#9CA3AF">Assembly trap repeats</text>
+    <text x="860" y="1510" font-family="'Space Mono', 'Courier New', monospace" font-size="16" fill="#6B7280" font-weight="bold" text-anchor="end">15%</text>
+    <rect x="40" y="1522" width="820" height="8" fill="#0B1627" />
+    <rect x="40" y="1522" width="123" height="8" fill="#1A2B4C" />
+
+    <!-- ================= FOOTER (1550 - 1630) ================= -->
+    <line x1="0" y1="1560" x2="900" y2="1560" stroke="#1A2B4C" />
+    <rect x="0" y="1561" width="900" height="69" fill="#0B1627" />
+    
+    <!-- Logo Mark -->
+    <g transform="translate(40, 1575)">
+        <rect x="0" y="0" width="8" height="8" fill="none" stroke="#D4AF37" stroke-width="2"/>
+        <rect x="12" y="0" width="8" height="20" fill="#D4AF37"/>
+        <rect x="0" y="12" width="8" height="8" fill="#1A2B4C"/>
+    </g>
+
+    <text x="75" y="1590" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" letter-spacing="1">TECHADYANT LABS</text>
+    <text x="75" y="1608" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#6B7280">Strategic Signals | May 2026</text>
+    
+    <text x="860" y="1598" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#9CA3AF" font-style="italic" text-anchor="end">Mapping dependencies, constraints and beneficiaries in the global hardware stack.</text>
+
+</svg>

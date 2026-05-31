@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { reports } from './reports/data';
 import { signals } from './signals/data';
 import { themes } from './research/data';
+import { issues } from './newsletter/data';
 
 // The project uses `output: 'export'` for Cloudflare Pages static deploy;
 // route handlers must be marked static so they're generated at build time.
@@ -21,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/`,          lastModified: now, changeFrequency: 'weekly',  priority: 1.0 },
     { url: `${SITE}/reports`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.9 },
     { url: `${SITE}/signals`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
+    { url: `${SITE}/newsletter`,lastModified: now, changeFrequency: 'weekly',  priority: 0.85 },
     { url: `${SITE}/briefings`, lastModified: now, changeFrequency: 'weekly',  priority: 0.7 },
     { url: `${SITE}/research`,  lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE}/about`,     lastModified: now, changeFrequency: 'yearly',  priority: 0.4 },
@@ -56,5 +58,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...staticRoutes, ...reportRoutes, ...signalRoutes, ...themeRoutes];
+  // Strategic Signals issues.
+  const issueRoutes: MetadataRoute.Sitemap = issues.map((i) => ({
+    url: `${SITE}/newsletter/${i.slug}`,
+    lastModified: new Date(i.date),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
+
+  return [...staticRoutes, ...reportRoutes, ...signalRoutes, ...themeRoutes, ...issueRoutes];
 }

@@ -1,0 +1,304 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1750" width="100%" height="100%">
+    <defs>
+        <!-- Fonts -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;family=Space+Mono:wght@400;700&amp;display=swap');
+        </style>
+        
+        <!-- Gradients -->
+        <linearGradient id="goldTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FDE08B"/>
+            <stop offset="100%" stop-color="#D4AF37"/>
+        </linearGradient>
+
+        <linearGradient id="goldBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#D4AF37"/>
+            <stop offset="100%" stop-color="#8B7322"/>
+        </linearGradient>
+        
+        <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.15"/>
+            <stop offset="100%" stop-color="#08111F" stop-opacity="0"/>
+        </linearGradient>
+
+        <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1A2B4C" stop-opacity="0"/>
+            <stop offset="50%" stop-color="#D4AF37" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#1A2B4C" stop-opacity="0"/>
+        </linearGradient>
+
+        <!-- Glow Effect -->
+        <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#D4AF37" flood-opacity="0.35"/>
+        </filter>
+        
+        <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#1A2B4C" flood-opacity="0.8"/>
+        </filter>
+
+        <!-- Tech Grid Pattern -->
+        <pattern id="dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+            <circle cx="2" cy="2" r="1" fill="#1A2B4C" />
+        </pattern>
+        
+        <pattern id="diagHatch" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+            <line x1="0" y1="0" x2="0" y2="8" stroke="#1A2B4C" stroke-width="1" />
+        </pattern>
+    </defs>
+
+    <!-- ================= BACKGROUND ================= -->
+    <rect width="100%" height="100%" fill="#08111F" />
+
+    <!-- ================= HEADER (0 - 260) ================= -->
+    <g transform="translate(50, 60)">
+        <text x="0" y="0" font-family="'Space Mono', 'Courier New', monospace" font-size="12" fill="#D4AF37" font-weight="bold" letter-spacing="2" text-transform="uppercase">Strategic Intelligence Report</text>
+        <text x="900" y="0" font-family="'Space Mono', 'Courier New', monospace" font-size="12" fill="#6B7280" font-weight="bold" text-anchor="end" letter-spacing="1">DISTRIBUTION: EXECUTIVES ONLY</text>
+
+        <text x="0" y="55" font-family="'Playfair Display', Georgia, serif" font-size="44" font-weight="bold" fill="#FFFFFF" letter-spacing="-0.5">GLOBAL AI HARDWARE STACK</text>
+        <text x="0" y="100" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="bold" fill="url(#goldTextGrad)" letter-spacing="-0.5">India's Opportunity Zone in the AI Infrastructure Economy</text>
+        
+        <text x="0" y="145" font-family="'Inter', Arial, sans-serif" font-size="18" font-weight="400" fill="#9CA3AF" line-height="1.5">Why India's semiconductor opportunity lies in substrates and advanced packaging </text>
+        <text x="0" y="172" font-family="'Inter', Arial, sans-serif" font-size="18" font-weight="400" fill="#9CA3AF" line-height="1.5">rather than leading-edge fabrication.</text>
+    </g>
+
+    <line x1="50" y1="260" x2="950" y2="260" stroke="#1A2B4C" stroke-width="2"/>
+    <line x1="50" y1="265" x2="200" y2="265" stroke="#D4AF37" stroke-width="2"/>
+
+    <!-- ================= MAIN LAYOUT (260 - 1050) ================= -->
+    <!-- Column Headers -->
+    <g transform="translate(0, 310)">
+        <text x="50" y="0" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#6B7280" font-weight="bold" letter-spacing="1.5">VALUE CAPTURE</text>
+        <text x="490" y="0" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#6B7280" font-weight="bold" letter-spacing="1.5" text-anchor="middle">THE GLOBAL INFRASTRUCTURE STACK</text>
+        <text x="730" y="0" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#6B7280" font-weight="bold" letter-spacing="1.5">WHY INDIA'S OPENING IS HERE</text>
+    </g>
+
+    <!-- ================= STACK & VALUE CAPTURE ================= -->
+    <!-- LAYER 7: Applications -->
+    <g transform="translate(0, 350)">
+        <!-- Value Capture -->
+        <text x="50" y="25" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#D1D5DB" font-weight="600">Highest</text>
+        <rect x="50" y="35" width="120" height="4" fill="url(#goldBarGrad)" />
+        <rect x="170" y="35" width="30" height="4" fill="#1A2B4C" />
+        <!-- Stack -->
+        <rect x="330" y="0" width="320" height="65" fill="#0B1627" stroke="#1A2B4C" filter="url(#subtleGlow)"/>
+        <text x="490" y="28" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="middle">LAYER 7: AI Applications</text>
+        <text x="490" y="48" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#9CA3AF" text-anchor="middle">(Agents, Enterprise AI, Consumer AI)</text>
+        <!-- Arrow -->
+        <path d="M 490 65 L 490 85 M 485 80 L 490 85 L 495 80" fill="none" stroke="#6B7280" stroke-width="1.5"/>
+    </g>
+
+    <!-- LAYER 6: Foundation Models -->
+    <g transform="translate(0, 445)">
+        <!-- Value Capture -->
+        <text x="50" y="25" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#D1D5DB" font-weight="600">Very High</text>
+        <rect x="50" y="35" width="105" height="4" fill="url(#goldBarGrad)" />
+        <rect x="155" y="35" width="45" height="4" fill="#1A2B4C" />
+        <!-- Stack -->
+        <rect x="310" y="0" width="360" height="65" fill="#0B1627" stroke="#1A2B4C" filter="url(#subtleGlow)"/>
+        <text x="490" y="28" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="middle">LAYER 6: Foundation Models</text>
+        <text x="490" y="48" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#9CA3AF" text-anchor="middle">(OpenAI, Anthropic, Gemini, DeepSeek)</text>
+        <!-- Arrow -->
+        <path d="M 490 65 L 490 85 M 485 80 L 490 85 L 495 80" fill="none" stroke="#6B7280" stroke-width="1.5"/>
+    </g>
+
+    <!-- LAYER 5: Compute -->
+    <g transform="translate(0, 540)">
+        <!-- Value Capture -->
+        <text x="50" y="25" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#D1D5DB" font-weight="600">High</text>
+        <rect x="50" y="35" width="90" height="4" fill="url(#goldBarGrad)" />
+        <rect x="140" y="35" width="60" height="4" fill="#1A2B4C" />
+        <!-- Stack -->
+        <rect x="290" y="0" width="400" height="65" fill="#0B1627" stroke="#1A2B4C" filter="url(#subtleGlow)"/>
+        <text x="490" y="28" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="middle">LAYER 5: Compute Infrastructure</text>
+        <text x="490" y="48" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#9CA3AF" text-anchor="middle">(GPUs, TPUs, Accelerators)</text>
+        <!-- Arrow -->
+        <path d="M 490 65 L 490 90 M 485 85 L 490 90 L 495 85" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
+    </g>
+
+    <!-- LAYER 4: Advanced Packaging (GOLD HIGHLIGHT) -->
+    <g transform="translate(0, 640)">
+        <!-- Value Capture -->
+        <text x="50" y="30" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#D4AF37" font-weight="bold">High</text>
+        <rect x="50" y="40" width="90" height="4" fill="url(#goldBarGrad)" filter="url(#goldGlow)" />
+        <rect x="140" y="40" width="60" height="4" fill="#1A2B4C" />
+        <!-- Stack -->
+        <rect x="270" y="0" width="440" height="75" fill="#D4AF37" filter="url(#goldGlow)"/>
+        <!-- India Label Tag Left -->
+        <rect x="195" y="23" width="75" height="30" fill="#18140B" stroke="#D4AF37"/>
+        <text x="260" y="42" font-family="'Space Mono', 'Courier New', monospace" font-size="10" fill="#D4AF37" font-weight="bold" text-anchor="end">OPPORTUNITY</text>
+        
+        <text x="490" y="32" font-family="'Inter', Arial, sans-serif" font-size="16" fill="#08111F" font-weight="bold" text-anchor="middle">LAYER 4: Advanced Packaging</text>
+        <text x="490" y="52" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#08111F" font-weight="500" text-anchor="middle">(Chiplets, HBM Integration, Advanced Packaging)</text>
+        <!-- India Label Tag Right -->
+        <rect x="710" y="23" width="75" height="30" fill="#08111F" stroke="#D4AF37"/>
+        <text x="747" y="42" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#D4AF37" font-weight="bold" text-anchor="middle">INDIA</text>
+        <!-- Arrow -->
+        <path d="M 490 75 L 490 95 M 485 90 L 490 95 L 495 90" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
+    </g>
+
+    <!-- LAYER 3: Substrates (GOLD HIGHLIGHT) -->
+    <g transform="translate(0, 745)">
+        <!-- Value Capture -->
+        <text x="50" y="30" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#D4AF37" font-weight="bold">Medium-High</text>
+        <rect x="50" y="40" width="75" height="4" fill="url(#goldBarGrad)" filter="url(#goldGlow)" />
+        <rect x="125" y="40" width="75" height="4" fill="#1A2B4C" />
+        <!-- Stack -->
+        <rect x="250" y="0" width="480" height="75" fill="#D4AF37" filter="url(#goldGlow)"/>
+        <!-- India Label Tag Left -->
+        <rect x="175" y="23" width="75" height="30" fill="#18140B" stroke="#D4AF37"/>
+        <text x="240" y="42" font-family="'Space Mono', 'Courier New', monospace" font-size="10" fill="#D4AF37" font-weight="bold" text-anchor="end">OPPORTUNITY</text>
+        
+        <text x="490" y="32" font-family="'Inter', Arial, sans-serif" font-size="16" fill="#08111F" font-weight="bold" text-anchor="middle">LAYER 3: Substrates</text>
+        <text x="490" y="52" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#08111F" font-weight="500" text-anchor="middle">(ABF Substrates, IC Substrates, Advanced Materials)</text>
+        <!-- India Label Tag Right -->
+        <rect x="730" y="23" width="75" height="30" fill="#08111F" stroke="#D4AF37"/>
+        <text x="767" y="42" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#D4AF37" font-weight="bold" text-anchor="middle">INDIA</text>
+        <!-- Arrow -->
+        <path d="M 490 75 L 490 100 M 485 95 L 490 100 L 495 95" fill="none" stroke="#6B7280" stroke-width="1.5"/>
+    </g>
+
+    <!-- LAYER 2: Materials & Chemicals -->
+    <g transform="translate(0, 855)">
+        <!-- Value Capture -->
+        <text x="50" y="25" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#D1D5DB" font-weight="600">Medium</text>
+        <rect x="50" y="35" width="60" height="4" fill="url(#goldBarGrad)" />
+        <rect x="110" y="35" width="90" height="4" fill="#1A2B4C" />
+        <!-- Stack -->
+        <rect x="230" y="0" width="520" height="65" fill="#0B1627" stroke="#1A2B4C" filter="url(#subtleGlow)"/>
+        <text x="490" y="28" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="middle">LAYER 2: Materials &amp; Chemicals</text>
+        <text x="490" y="48" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#9CA3AF" text-anchor="middle">(Photoresists, Specialty Chemicals, Silicon Inputs)</text>
+        <!-- Arrow -->
+        <path d="M 490 65 L 490 85 M 485 80 L 490 85 L 495 80" fill="none" stroke="#6B7280" stroke-width="1.5"/>
+    </g>
+
+    <!-- LAYER 1: Power & Infra -->
+    <g transform="translate(0, 950)">
+        <!-- Value Capture -->
+        <text x="50" y="25" font-family="'Inter', Arial, sans-serif" font-size="13" fill="#D1D5DB" font-weight="600">Foundational</text>
+        <rect x="50" y="35" width="45" height="4" fill="#6B7280" />
+        <rect x="95" y="35" width="105" height="4" fill="#1A2B4C" />
+        <!-- Stack -->
+        <rect x="210" y="0" width="560" height="65" fill="#0B1627" stroke="#1A2B4C" filter="url(#subtleGlow)"/>
+        <text x="490" y="38" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="middle">LAYER 1: Power, Water &amp; Industrial Infrastructure</text>
+    </g>
+
+    <!-- ================= RIGHT PANEL: INDIA POSITIONING ================= -->
+    <g transform="translate(740, 330)">
+        <!-- Connection Network -->
+        <!-- Line from Card 1 down to collective node -->
+        <path d="M 0 60 L -15 60 L -15 365 L -30 365" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+        <!-- Line from Card 2 straight to node -->
+        <path d="M 0 215 L -15 215 L -15 365" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+        <!-- Line from Card 3 up to node -->
+        <path d="M 0 370 L -30 370" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+        <!-- Arrowhead at connection point to layers -->
+        <polygon points="-30,367 -36,370 -30,373" fill="#D4AF37"/>
+        <polygon points="-30,467 -36,470 -30,473" fill="#D4AF37"/>
+        <path d="M -15 370 L -15 470 L -30 470" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+
+        <!-- Card 1 -->
+        <rect x="0" y="10" width="210" height="100" fill="#0B1627" stroke="#1A2B4C"/>
+        <rect x="0" y="10" width="210" height="3" fill="#D4AF37"/>
+        <text x="20" y="40" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#6B7280" font-weight="bold">CAPITAL SIGNAL</text>
+        <text x="20" y="70" font-family="'Space Mono', 'Courier New', monospace" font-size="24" fill="#FFFFFF" font-weight="bold">$3.3 Billion</text>
+        <text x="20" y="90" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#9CA3AF">Odisha Advanced Packaging</text>
+        <text x="20" y="105" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#9CA3AF">Substrate Plant</text>
+
+        <!-- Card 2 -->
+        <rect x="0" y="165" width="210" height="100" fill="#0B1627" stroke="#1A2B4C"/>
+        <rect x="0" y="165" width="210" height="3" fill="#D4AF37"/>
+        <text x="20" y="195" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#6B7280" font-weight="bold">MARKET SCALE</text>
+        <text x="20" y="225" font-family="'Space Mono', 'Courier New', monospace" font-size="22" fill="#D4AF37" font-weight="bold">$120–150 Billion</text>
+        <text x="20" y="245" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#9CA3AF">India Semiconductor</text>
+        <text x="20" y="260" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#9CA3AF">Value Chain Target</text>
+
+        <!-- Card 3 -->
+        <rect x="0" y="320" width="210" height="100" fill="#0B1627" stroke="#1A2B4C"/>
+        <rect x="0" y="320" width="210" height="3" fill="#D4AF37"/>
+        <text x="20" y="350" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#6B7280" font-weight="bold">POLICY DRIVER</text>
+        <text x="20" y="380" font-family="'Space Mono', 'Courier New', monospace" font-size="24" fill="#FFFFFF" font-weight="bold">55%</text>
+        <text x="20" y="400" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#9CA3AF">PLI 2.0 Domestic Value</text>
+        <text x="20" y="415" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#9CA3AF">Addition Requirement</text>
+    </g>
+
+    <!-- ================= KEY STRATEGIC INSIGHT (1070 - 1320) ================= -->
+    <g transform="translate(50, 1070)">
+        <rect x="0" y="0" width="900" height="220" fill="#0B1627" stroke="#1A2B4C" filter="url(#subtleGlow)"/>
+        <rect x="0" y="0" width="6" height="220" fill="#D4AF37" filter="url(#goldGlow)"/>
+        <rect x="6" y="0" width="300" height="220" fill="url(#glowGrad)"/>
+        
+        <text x="40" y="40" font-family="'Space Mono', 'Courier New', monospace" font-size="12" fill="#D4AF37" font-weight="bold" letter-spacing="1.5">KEY STRATEGIC INSIGHT</text>
+        
+        <text x="40" y="90" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="bold" fill="#FFFFFF">INDIA DOES NOT NEED TO WIN THE FAB RACE.</text>
+        
+        <text x="40" y="140" font-family="'Inter', Arial, sans-serif" font-size="18" font-weight="400" fill="#D1D5DB" line-height="1.6">The most realistic path to semiconductor value capture is owning the layers that</text>
+        <text x="40" y="170" font-family="'Inter', Arial, sans-serif" font-size="18" font-weight="400" fill="#D1D5DB" line-height="1.6">every leading-edge fab depends upon.</text>
+        
+        <text x="40" y="195" font-family="'Inter', Arial, sans-serif" font-size="16" font-style="italic" fill="#D4AF37">Advanced packaging and substrates represent the highest-probability opportunity between 2026 and 2035.</text>
+    </g>
+
+    <!-- ================= BOTTOM SECTION: STRATEGIC JUDGEMENT (1340 - 1580) ================= -->
+    <g transform="translate(50, 1340)">
+        <rect x="0" y="0" width="900" height="200" fill="url(#dotGrid)"/>
+        <rect x="0" y="0" width="900" height="200" fill="#08111F" opacity="0.8"/>
+        <rect x="0" y="0" width="900" height="200" fill="none" stroke="#1A2B4C" stroke-width="1"/>
+
+        <text x="40" y="40" font-family="'Space Mono', 'Courier New', monospace" font-size="12" fill="#6B7280" font-weight="bold" letter-spacing="1.5">STRATEGIC JUDGEMENT FRAMEWORK</text>
+
+        <!-- Checklist Left Side -->
+        <g transform="translate(40, 70)">
+            <!-- Item 1 -->
+            <path d="M 0 10 L 4 14 L 12 4" fill="none" stroke="#D4AF37" stroke-width="2"/>
+            <text x="25" y="15" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF">Technically achievable</text>
+            
+            <!-- Item 2 -->
+            <path d="M 0 40 L 4 44 L 12 34" fill="none" stroke="#D4AF37" stroke-width="2"/>
+            <text x="25" y="45" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF">Capital already committed</text>
+            
+            <!-- Item 3 -->
+            <path d="M 0 70 L 4 74 L 12 64" fill="none" stroke="#D4AF37" stroke-width="2"/>
+            <text x="25" y="75" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF">Global demand accelerating</text>
+        </g>
+
+        <!-- Checklist Middle -->
+        <g transform="translate(320, 70)">
+            <!-- Item 4 -->
+            <path d="M 0 10 L 4 14 L 12 4" fill="none" stroke="#D4AF37" stroke-width="2"/>
+            <text x="25" y="15" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF">Policy alignment improving</text>
+            
+            <!-- Item 5 -->
+            <path d="M 0 40 L 4 44 L 12 34" fill="none" stroke="#D4AF37" stroke-width="2"/>
+            <text x="25" y="45" font-family="'Inter', Arial, sans-serif" font-size="15" fill="#FFFFFF">Lower barriers than leading-edge fabs</text>
+        </g>
+
+        <!-- Vertical Divider -->
+        <line x1="620" y1="20" x2="620" y2="180" stroke="#1A2B4C" stroke-width="1"/>
+
+        <!-- Overall Assessment -->
+        <g transform="translate(660, 40)">
+            <text x="0" y="0" font-family="'Space Mono', 'Courier New', monospace" font-size="11" fill="#9CA3AF" font-weight="bold" letter-spacing="1">OVERALL ASSESSMENT</text>
+            <rect x="0" y="25" width="200" height="90" fill="#0B1627" stroke="#D4AF37" stroke-width="1.5" filter="url(#goldGlow)"/>
+            <text x="100" y="65" font-family="'Inter', Arial, sans-serif" font-size="22" font-weight="800" fill="#D4AF37" text-anchor="middle">HIGH</text>
+            <text x="100" y="90" font-family="'Inter', Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">STRATEGIC POTENTIAL</text>
+        </g>
+    </g>
+
+    <!-- ================= FOOTER (1630 - 1750) ================= -->
+    <rect x="0" y="1630" width="1000" height="120" fill="#0B1627" />
+    <line x1="0" y1="1630" x2="1000" y2="1630" stroke="#1A2B4C" stroke-width="2"/>
+    <rect x="0" y="1632" width="1000" height="4" fill="url(#lineGrad)" />
+
+    <g transform="translate(50, 1680)">
+        <!-- Logo Mark -->
+        <rect x="0" y="0" width="10" height="10" fill="none" stroke="#D4AF37" stroke-width="2"/>
+        <rect x="14" y="-2" width="10" height="24" fill="#D4AF37"/>
+        <rect x="0" y="14" width="10" height="10" fill="#1A2B4C"/>
+
+        <!-- Brand -->
+        <text x="40" y="10" font-family="'Inter', Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" letter-spacing="2">TECHADYANT LABS</text>
+        <text x="40" y="28" font-family="'Space Mono', 'Courier New', monospace" font-size="12" fill="#9CA3AF">Strategic Signals | Issue 01 · May 2026</text>
+        
+        <!-- Tagline -->
+        <text x="900" y="18" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#9CA3AF" font-style="italic" text-anchor="end">Mapping Dependencies, Constraints &amp; Beneficiaries</text>
+    </g>
+</svg>

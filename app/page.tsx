@@ -188,7 +188,7 @@ export default function HomePage() {
 
         <div className="briefings">
           {briefings.map((b) => (
-            <Link key={b.title} href="/briefings" className="briefing">
+            <Link key={b.title} href={`/briefings/${b.slug}`} className="briefing">
               <span className="briefing-date">{b.date}</span>
               <span className="briefing-title">
                 {b.title}

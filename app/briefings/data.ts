@@ -1,9 +1,19 @@
+export interface BriefingBody {
+  type: 'p' | 'h' | 'list';
+  text?: string;
+  items?: string[];
+}
+
 export interface BriefingMeta {
+  slug: string;
   date: string;
   title: string;
   tag: string;     // 'Executive brief' | 'Strategic note' | 'Framework'
   read: string;    // e.g. '6 min'
   blurb: string;
+  status: 'live' | 'forthcoming';   // 'forthcoming' = teaser landing page, full body pending
+  takeaways?: string[];
+  body?: BriefingBody[];
 }
 
 /** Briefings — newest first. Both the briefings index page and the homepage
@@ -13,6 +23,8 @@ export const briefings: BriefingMeta[] = [
   /* ─── Opportunity Mapping series ─── */
   {
     date: '29 May 2026',
+    slug: '100-sme-opportunities-in-indias-semiconductor-push',
+    status: 'forthcoming',
     title: '100 SME Opportunities in India’s Semiconductor Push',
     tag: 'Strategic note',
     read: '8 min',
@@ -21,6 +33,8 @@ export const briefings: BriefingMeta[] = [
   },
   {
     date: '29 May 2026',
+    slug: 'hidden-b2b-opportunities-in-indias-ai-infrastructure-buildout',
+    status: 'forthcoming',
     title: 'Hidden B2B Opportunities in India’s AI Infrastructure Buildout',
     tag: 'Executive brief',
     read: '6 min',
@@ -29,6 +43,8 @@ export const briefings: BriefingMeta[] = [
   },
   {
     date: '29 May 2026',
+    slug: 'industrial-cooling-opportunities-in-india',
+    status: 'forthcoming',
     title: 'Industrial Cooling Opportunities in India',
     tag: 'Strategic note',
     read: '6 min',
@@ -37,6 +53,8 @@ export const briefings: BriefingMeta[] = [
   },
   {
     date: '29 May 2026',
+    slug: 'tier-2-industrial-city-opportunity-map',
+    status: 'forthcoming',
     title: 'Tier-2 Industrial City Opportunity Map',
     tag: 'Framework',
     read: '7 min',
@@ -45,6 +63,8 @@ export const briefings: BriefingMeta[] = [
   },
   {
     date: '22 May 2026',
+    slug: 'reading-indias-semiconductor-incentive-architecture',
+    status: 'forthcoming',
     title: 'Reading India’s Semiconductor Incentive Architecture',
     tag: 'Executive brief',
     read: '6 min',
@@ -53,6 +73,8 @@ export const briefings: BriefingMeta[] = [
   },
   {
     date: '09 May 2026',
+    slug: 'five-constraints-on-the-2026-28-fab-ramp',
+    status: 'forthcoming',
     title: 'Five Constraints on the 2026–28 Fab Ramp',
     tag: 'Strategic note',
     read: '5 min',
@@ -61,6 +83,8 @@ export const briefings: BriefingMeta[] = [
   },
   {
     date: '28 Apr 2026',
+    slug: 'the-corridor-logic-of-industrial-policy',
+    status: 'forthcoming',
     title: 'The Corridor Logic of Industrial Policy',
     tag: 'Framework',
     read: '7 min',
@@ -69,6 +93,8 @@ export const briefings: BriefingMeta[] = [
   },
   {
     date: '14 Apr 2026',
+    slug: 'mature-nodes-are-not-a-consolation-prize',
+    status: 'forthcoming',
     title: 'Mature Nodes Are Not a Consolation Prize',
     tag: 'Strategic note',
     read: '4 min',
@@ -76,3 +102,5 @@ export const briefings: BriefingMeta[] = [
       'Reframing the “bleeding edge vs mature node” debate around volume, employment and the rising value of advanced packaging.',
   },
 ];
+
+export const getBriefing = (slug: string) => briefings.find((b) => b.slug === slug);
