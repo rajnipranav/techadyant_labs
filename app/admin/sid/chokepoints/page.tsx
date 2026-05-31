@@ -36,12 +36,12 @@ export default function Chokepoints() {
       {rows && (
         <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
           {rows.map((r) => (
-            <div key={r.id} style={{ display: 'flex', alignItems: 'center', gap: 10, background: '#fff', border: '1px solid var(--admin-border)', borderRadius: 8, padding: '8px 12px' }}>
+            <div key={r.id} style={{ display: 'flex', alignItems: 'center', gap: 10, background: 'var(--admin-surface)', border: '1px solid var(--admin-border)', borderRadius: 8, padding: '8px 12px' }}>
               <div style={{ width: 220, fontSize: 13, fontWeight: 500 }}>{r.name}</div>
               <div style={{ width: 30, fontFamily: 'var(--admin-mono)', fontSize: 12 }}>{r.country}</div>
               {r.is_foreign && <Pill tone="crimson">foreign</Pill>}
-              <div style={{ flex: 1, background: '#EFECE3', borderRadius: 5, height: 14, position: 'relative' }}>
-                <div style={{ width: `${(r.score / max) * 100}%`, background: r.is_foreign ? '#B23B33' : '#168A7C', height: '100%', borderRadius: 5 }} />
+              <div style={{ flex: 1, background: 'var(--admin-surface2)', borderRadius: 5, height: 14, position: 'relative' }}>
+                <div style={{ width: `${(r.score / max) * 100}%`, background: r.is_foreign ? '#e2725b' : '#38e1c4', height: '100%', borderRadius: 5 }} />
               </div>
               <div style={{ width: 28, textAlign: 'right', fontFamily: 'var(--admin-mono)', fontSize: 13, fontWeight: 600 }}>{r.score}</div>
             </div>

@@ -64,7 +64,7 @@ export default function Entities() {
       )}
 
       {detail && detail.entity && (
-        <div style={{ position: 'sticky', bottom: 0, marginTop: 18, background: '#fff', border: '1px solid var(--admin-border)', borderRadius: 12, padding: '16px 18px' }}>
+        <div style={{ position: 'sticky', bottom: 0, marginTop: 18, background: 'var(--admin-surface)', border: '1px solid var(--admin-border)', borderRadius: 12, padding: '16px 18px' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <div style={{ fontSize: 15, fontWeight: 600 }}>{detail.entity.name}</div>
             <button className="admin-btn" onClick={() => setDetail(null)}>Close</button>

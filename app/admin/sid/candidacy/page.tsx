@@ -36,7 +36,7 @@ export default function Candidacy() {
       {!rows && !err && <Loading />}
       {rows && rows.length === 0 && <p className="admin-sub">No candidates pending review.</p>}
       {rows && rows.map((c) => (
-        <div key={c.id} style={{ background: '#fff', border: '1px solid var(--admin-border)', borderRadius: 10, padding: '10px 14px', marginBottom: 8 }}>
+        <div key={c.id} style={{ background: 'var(--admin-surface)', border: '1px solid var(--admin-border)', borderRadius: 10, padding: '10px 14px', marginBottom: 8 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
             <div style={{ flex: 1, minWidth: 0 }}>
               <div style={{ fontSize: 14, fontWeight: 600 }}>{c.name} {c.corridor && <Pill tone="brass">{c.corridor}</Pill>}</div>

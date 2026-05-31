@@ -30,7 +30,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
   return (
     <div className="admin-root">
       <aside className="admin-sidebar">
-        <div className="admin-brand">TECHADYANT · ADMIN</div>
+        <div className="admin-brand"><b>Techadyant</b> · Admin</div>
         {NAV.map((g) => (
           <div key={g.group || 'top'}>
             {g.group && <div className="admin-navgroup">{g.group}</div>}

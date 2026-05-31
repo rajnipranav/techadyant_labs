@@ -49,7 +49,7 @@ export default function CaptureMap() {
               const on = sel === c;
               return (
                 <button key={ord} onClick={() => setSel(c)} title={c.status_label}
-                  style={{ height: 46, border: on ? '2px solid #0F1828' : 'none', borderRadius: 8, background: CAPTURE_FILL[c.status], color: CAPTURE_INK[c.status], fontWeight: 600, fontSize: 14, cursor: 'pointer', fontFamily: 'var(--admin-mono)' }}>
+                  style={{ height: 46, border: on ? '2px solid #f5b544' : '1px solid var(--admin-border)', borderRadius: 8, background: CAPTURE_FILL[c.status], color: CAPTURE_INK[c.status], fontWeight: 600, fontSize: 14, cursor: 'pointer', fontFamily: 'var(--admin-mono)' }}>
                   {c.status}
                 </button>
               );
@@ -67,7 +67,7 @@ export default function CaptureMap() {
       </div>
 
       {sel && (
-        <div style={{ background: '#fff', border: '1px solid var(--admin-border)', borderRadius: 12, padding: '16px 18px' }}>
+        <div style={{ background: 'var(--admin-surface)', border: '1px solid var(--admin-border)', borderRadius: 12, padding: '16px 18px' }}>
           <div style={{ fontSize: 14, fontWeight: 600, marginBottom: 4 }}>{sel.corridor_label} · {sel.layer_label}</div>
           <div style={{ fontSize: 13, marginBottom: 8 }}>
             <span style={{ background: CAPTURE_FILL[sel.status], color: CAPTURE_INK[sel.status], padding: '2px 8px', borderRadius: 6, fontWeight: 600 }}>{sel.status} · {sel.status_label}</span>

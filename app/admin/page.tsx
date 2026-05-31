@@ -45,7 +45,7 @@ export default function AdminOverview() {
       <Panel title="Entities by type">
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
           {Object.entries(d.by_type || {}).sort((a, b) => b[1] - a[1]).map(([k, v]) => (
-            <span key={k} style={{ background: '#fff', border: '1px solid var(--admin-border)', borderRadius: 7, padding: '4px 10px', fontSize: 12 }}>
+            <span key={k} style={{ background: 'var(--admin-surface2)', border: '1px solid var(--admin-border)', borderRadius: 7, padding: '4px 10px', fontSize: 12 }}>
               {k} <b style={{ fontFamily: 'var(--admin-mono)' }}>{v}</b>
             </span>
           ))}
