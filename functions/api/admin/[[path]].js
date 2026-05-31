@@ -95,6 +95,9 @@ export async function onRequest(context) {
     if (route === '/sid/chokepoints')       return reply(await rpc(N, NK, 'sid_chokepoints', { p_corridor: q.get('corridor') }));
     if (route === '/sid/candidates')        return reply(await rpc(N, NK, 'sid_candidates'));
     if (route === '/signals')               return reply(await rpc(N, NK, 'sid_recent_signals', { p_limit: Number(q.get('limit') || 60) }));
+    if (route === '/sid/sovereignty')       return reply(await rpc(N, NK, 'sid_sovereignty'));
+    if (route === '/sid/momentum')          return reply(await rpc(N, NK, 'sid_momentum', { p_days: Number(q.get('days') || 30) }));
+    if (route === '/recent-activity')       return reply(await rpc(N, NK, 'sid_recent_activity', { p_days: Number(q.get('days') || 7) }));
 
     if (route === '/sid/candidate-action' && request.method === 'POST') {
       const b = await request.json();

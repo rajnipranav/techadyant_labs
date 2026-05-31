@@ -13,6 +13,8 @@ const NAV = [
       { href: '/admin/sid/capture', label: 'Capture map' },
       { href: '/admin/sid/entities', label: 'Entities' },
       { href: '/admin/sid/chokepoints', label: 'Chokepoints' },
+      { href: '/admin/sid/sovereignty', label: 'Sovereignty' },
+      { href: '/admin/sid/momentum', label: 'Momentum' },
       { href: '/admin/sid/candidacy', label: 'Candidacy queue' },
     ],
   },
