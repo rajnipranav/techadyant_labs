@@ -22,6 +22,7 @@ interface AuthCtx {
   signUpWithPassword: (email: string, password: string) => Promise<Result>;
   signInWithEmail: (email: string) => Promise<Result>;
   resetPassword: (email: string) => Promise<Result>;
+  updatePassword: (password: string) => Promise<Result>;
   signInWithGoogle: () => Promise<Result>;
   signOut: () => Promise<void>;
 }
@@ -40,7 +41,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const supabase = getSupabase();
     if (!supabase) { setLoading(false); return; }
     supabase.auth.getSession().then(({ data }) => { setSession(data.session ?? null); setLoading(false); });
-    const { data: sub } = supabase.auth.onAuthStateChange((_e, s) => setSession(s));
+    const { data: sub } = supabase.auth.onAuthStateChange((event, s) => {
+      setSession(s);
+      if (event === 'PASSWORD_RECOVERY' && typeof window !== 'undefined'
+          && !window.location.pathname.startsWith('/account/reset')) {
+        window.location.assign('/account/reset/');
+      }
+    });
     return () => sub.subscription.unsubscribe();
   }, []);
 
@@ -68,7 +75,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const resetPassword = useCallback(async (email: string): Promise<Result> => {
     const s = getSupabase(); if (!s) return { error: 'Authentication is not configured yet.' };
-    const { error } = await s.auth.resetPasswordForEmail(email, { redirectTo: `${origin()}/account` });
+    const { error } = await s.auth.resetPasswordForEmail(email, { redirectTo: `${origin()}/account/reset` });
+    return error ? { error: error.message } : {};
+  }, []);
+
+  const updatePassword = useCallback(async (password: string): Promise<Result> => {
+    const s = getSupabase(); if (!s) return { error: 'Authentication is not configured yet.' };
+    const { error } = await s.auth.updateUser({ password });
     return error ? { error: error.message } : {};
   }, []);
 
@@ -86,7 +99,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const value: AuthCtx = {
     configured, loading, session, user: session?.user ?? null, accessToken: session?.access_token ?? null,
     signInOpen, signInReason, openSignIn, closeSignIn,
-    signInWithPassword, signUpWithPassword, signInWithEmail, resetPassword, signInWithGoogle, signOut,
+    signInWithPassword, signUpWithPassword, signInWithEmail, resetPassword, updatePassword, signInWithGoogle, signOut,
   };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }
