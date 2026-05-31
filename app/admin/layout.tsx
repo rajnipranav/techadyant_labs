@@ -16,6 +16,7 @@ const NAV = [
       { href: '/admin/sid/sovereignty', label: 'Sovereignty' },
       { href: '/admin/sid/momentum', label: 'Momentum' },
       { href: '/admin/sid/candidacy', label: 'Candidacy queue' },
+      { href: '/admin/sid/figures', label: 'Figure library' },
     ],
   },
   { group: 'Feeds & ops', items: [{ href: '/admin/signals', label: 'Signals' }, { href: '/admin/site', label: 'Site management' }] },

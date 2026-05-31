@@ -100,6 +100,7 @@ export async function onRequest(context) {
     if (route === '/recent-activity')       return reply(await rpc(N, NK, 'sid_recent_activity', { p_days: Number(q.get('days') || 7) }));
     if (route === '/lookups')               return reply(await rpc(N, NK, 'sid_lookups'));
     if (route === '/sid/rejected')          return reply(await rpc(N, NK, 'sid_rejected_candidates'));
+    if (route === '/sid/figures')           return reply(await rpc(N, NK, 'sid_figures', { p_status: q.get('status') || 'final', p_q: q.get('q'), p_type: q.get('type') }));
 
     if (request.method === 'POST' && route === '/sid/entity-save') {
       const b = await request.json();
@@ -128,6 +129,10 @@ export async function onRequest(context) {
     if (request.method === 'POST' && route === '/sid/stoplist-add') {
       const b = await request.json();
       return reply(await rpc(N, NK, 'sid_stoplist_add', { p_name: b.name, p_reason: b.reason || 'manual' }));
+    }
+    if (request.method === 'POST' && route === '/sid/figure-status') {
+      const b = await request.json();
+      return reply(await rpc(N, NK, 'sid_figure_set_status', { p_path: b.path, p_status: b.status }));
     }
 
     if (route === '/sid/candidate-action' && request.method === 'POST') {
