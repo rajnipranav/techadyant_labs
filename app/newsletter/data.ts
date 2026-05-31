@@ -18,7 +18,7 @@ const PDF_BASE =
 
 export const issues: IssueMeta[] = [
   {
-    slug: 'strategic-signals-may-2026',
+    slug: 'sanket-may-2026',
     no: 'Issue 01',
     month: 'May 2026',
     date: '31 May 2026',
@@ -28,7 +28,7 @@ export const issues: IssueMeta[] = [
     readingTime: '7-min read',
     cover: '/newsletter/strategic-intelligence.svg',
     ogImage: '/newsletter/global_stack.png',
-    pdf: PDF_BASE + encodeURIComponent('Strategic Signals - Issue 01 - May 2026.pdf'),
+    pdf: PDF_BASE + encodeURIComponent('sanket-may-26.pdf'),
     status: 'live',
   },
 ];

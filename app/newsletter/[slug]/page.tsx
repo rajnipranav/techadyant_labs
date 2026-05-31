@@ -7,7 +7,7 @@ import { IssueContent } from '../content/strategic-signals-may-2026';
 interface IssueModule { Content: () => React.ReactElement }
 
 const registry: Record<string, IssueModule> = {
-  'strategic-signals-may-2026': { Content: IssueContent },
+  'sanket-may-2026': { Content: IssueContent },
 };
 
 export function generateStaticParams() {
@@ -20,12 +20,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!i) return {};
   const url = `https://labs.techadyant.com/newsletter/${i.slug}`;
   const img = `https://labs.techadyant.com${i.ogImage}`;
-  const title = `Strategic Signals — ${i.month}: ${i.title}`;
+  const title = `Sanket — ${i.month}: ${i.title}`;
   return {
-    title: `Strategic Signals — ${i.month}`,
+    title: `Sanket — ${i.month}`,
     description: i.standfirst,
     alternates: { canonical: url },
-    keywords: ['Strategic Signals', 'Techadyant Labs', 'India semiconductors', 'advanced packaging', 'AI infrastructure', 'strategic intelligence', i.month],
+    keywords: ['Sanket', 'Techadyant Labs', 'India semiconductors', 'advanced packaging', 'AI infrastructure', 'strategic intelligence', i.month],
     openGraph: {
       type: 'article', url, title, description: i.standfirst, siteName: 'Techadyant Labs',
       images: [{ url: img, width: 1000, height: 1750 }],
@@ -38,7 +38,7 @@ function issueJsonLd(i: NonNullable<ReturnType<typeof getIssue>>) {
   return JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
-    headline: `Strategic Signals — ${i.month}: ${i.title}`,
+    headline: `Sanket — ${i.month}: ${i.title}`,
     description: i.standfirst,
     inLanguage: 'en-IN',
     datePublished: '2026-05-31',
@@ -52,7 +52,7 @@ function issueJsonLd(i: NonNullable<ReturnType<typeof getIssue>>) {
       '@type': 'Organization', name: 'Techadyant Labs', url: 'https://labs.techadyant.com',
       logo: { '@type': 'ImageObject', url: 'https://labs.techadyant.com/logo.png' },
     },
-    isPartOf: { '@type': 'Periodical', name: 'Strategic Signals', publisher: { '@type': 'Organization', name: 'Techadyant Labs' } },
+    isPartOf: { '@type': 'Periodical', name: 'Sanket', publisher: { '@type': 'Organization', name: 'Techadyant Labs' } },
   });
 }
 
@@ -70,10 +70,10 @@ export default async function IssuePage({ params }: { params: Promise<{ slug: st
         <div className="inner" style={{ maxWidth: 860 }}>
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/newsletter">Strategic Signals</Link><span className="sep">/</span>
+            <Link href="/newsletter">Sanket</Link><span className="sep">/</span>
             <span>{i.no}</span>
           </div>
-          <div className="r-tag">◆ Strategic Signals · {i.no} · {i.month}</div>
+          <div className="r-tag">◆ Sanket · {i.no} · {i.month}</div>
           <h1 style={{ fontSize: 'clamp(28px,3.6vw,44px)' }}>{i.title}</h1>
           <p className="r-sub">{i.standfirst}</p>
           <div className="report-byline">
@@ -96,7 +96,7 @@ export default async function IssuePage({ params }: { params: Promise<{ slug: st
       <div className="report-cta">
         <div className="report-cta-inner">
           <div>
-            <h3>Get Strategic Signals first</h3>
+            <h3>Get Sanket first</h3>
             <p>Monthly strategic intelligence on India’s industrial systems — independent and infrequent.</p>
           </div>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>

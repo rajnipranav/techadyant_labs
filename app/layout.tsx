@@ -47,7 +47,7 @@ const NAV_LINKS = [
   { href: '/reports', label: 'Reports' },
   { href: '/signals', label: 'Signals' },
   { href: '/research', label: 'Research' },
-  { href: '/newsletter', label: 'Newsletter' },
+  { href: '/newsletter', label: 'Sanket' },
   { href: '/services', label: 'Services' },
   { href: '/about', label: 'About' },
 ];
@@ -111,7 +111,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <ul role="list">
                     <li><Link href="/reports">Reports</Link></li>
                     <li><Link href="/signals">Signals</Link></li>
-                    <li><Link href="/newsletter">Strategic Signals</Link></li>
+                    <li><Link href="/newsletter">Sanket</Link></li>
                     <li><Link href="/research">Research themes</Link></li>
                   </ul>
                 </div>

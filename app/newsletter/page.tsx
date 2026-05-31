@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { issues } from './data';
 
 export const metadata: Metadata = {
-  title: 'Strategic Signals — monthly intelligence',
+  title: 'Sanket — monthly intelligence',
   description:
-    'Strategic Signals is Techadyant Labs’ monthly strategic-intelligence brief on India’s industrial systems — distilled from a live signal engine into the few signals that move the board.',
+    'Sanket is Techadyant Labs’ monthly strategic-intelligence brief on India’s industrial systems — distilled from a live signal engine into the few signals that move the board.',
 };
 
 export default function NewsletterPage() {
@@ -15,9 +15,9 @@ export default function NewsletterPage() {
       <header className="ed-page-head">
         <div className="wrap inner">
           <div className="ed-breadcrumb">
-            <Link href="/">Home</Link><span className="sep">/</span><span>Strategic Signals</span>
+            <Link href="/">Home</Link><span className="sep">/</span><span>Sanket</span>
           </div>
-          <h1>Strategic Signals</h1>
+          <h1>Sanket</h1>
           <p className="lede">
             Monthly strategic intelligence on India’s industrial systems — semiconductors, AI
             infrastructure, critical minerals and defence. Distilled from a live signal engine
@@ -38,7 +38,7 @@ export default function NewsletterPage() {
         <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0,1.15fr) minmax(0,1fr)', gap: 36, alignItems: 'center' }} className="nl-feature">
           <Link href={`/newsletter/${latest.slug}`} style={{ display: 'block' }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={latest.cover} alt={`Strategic Signals — ${latest.month}`} style={{ width: '100%', borderRadius: 14, border: '1px solid var(--border)', display: 'block' }} />
+            <img src={latest.cover} alt={`Sanket — ${latest.month}`} style={{ width: '100%', borderRadius: 14, border: '1px solid var(--border)', display: 'block' }} />
           </Link>
           <div>
             <div className="r-tag" style={{ marginBottom: 14 }}>◆ {latest.no} · {latest.month} · {latest.readingTime}</div>
@@ -64,7 +64,7 @@ export default function NewsletterPage() {
               <div>
                 <span className="briefing-title">
                   {i.no} — {i.title}
-                  <span className="b-tag">Strategic Signals</span>
+                  <span className="b-tag">Sanket</span>
                 </span>
                 <p className="serif" style={{ fontSize: 15, lineHeight: 1.6, color: 'var(--text-muted)', marginTop: 8, maxWidth: '62ch' }}>
                   {i.standfirst}
@@ -80,7 +80,7 @@ export default function NewsletterPage() {
       <section className="wrap">
         <div className="platform-band">
           <p className="pb-statement">
-            Strategic Signals is the editorial layer on top of our live signal engine — the few
+            Sanket is the editorial layer on top of our live signal engine — the few
             items that name a forming ecosystem, not the daily noise.
           </p>
           <div className="pb-body">
@@ -98,7 +98,7 @@ export default function NewsletterPage() {
         <div className="report-cta" style={{ padding: 0, marginTop: 8 }}>
           <div className="report-cta-inner">
             <div>
-              <h3>Strategic Signals, in your inbox</h3>
+              <h3>Sanket, in your inbox</h3>
               <p>Monthly, independent, and free of sponsored coverage.</p>
             </div>
             <Link href="/#subscribe" className="btn-ed btn-ed-primary">Subscribe <span className="arr">→</span></Link>
