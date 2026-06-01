@@ -58,28 +58,27 @@ function articleJsonLd(meta: ReturnType<typeof getReport>) {
   if (!meta) return null;
   const data = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'Report',
     headline: meta.title,
     alternativeHeadline: meta.subtitle,
     description: meta.summary,
     inLanguage: 'en-IN',
     datePublished: meta.published,
-    dateModified: meta.published,
+    dateModified: meta.dateModified ?? meta.published,
     isAccessibleForFree: meta.access === 'free',
-    keywords: [
-      meta.domain,
-      'India AI infrastructure',
-      'India semiconductors',
-      'India data centres',
-      'strategic intelligence',
-      'industrial systems',
-    ].join(', '),
+    keywords: (meta.keywords && meta.keywords.length
+      ? meta.keywords
+      : [meta.domain, 'India technology sovereignty', 'strategic intelligence', 'industrial systems']).join(', '),
+    about: (meta.keywords && meta.keywords.length ? meta.keywords : [meta.domain])
+      .slice(0, 6)
+      .map((k) => ({ '@type': 'Thing', name: k })),
     image: meta.cover ? `https://labs.techadyant.com${meta.cover}` : undefined,
     url: `https://labs.techadyant.com/reports/${meta.slug}`,
     author: {
       '@type': 'Organization',
       name: 'Techadyant Labs',
       url: 'https://labs.techadyant.com',
+      knowsAbout: ['India semiconductor industry', 'enterprise software sovereignty', 'AI infrastructure', 'critical minerals', 'India technology policy'],
     },
     publisher: {
       '@type': 'Organization',
@@ -98,6 +97,19 @@ function articleJsonLd(meta: ReturnType<typeof getReport>) {
   return JSON.stringify(data);
 }
 
+function faqJsonLd(meta: ReturnType<typeof getReport>) {
+  if (!meta || !meta.faq || !meta.faq.length) return null;
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: meta.faq.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  });
+}
+
 export default async function ReportPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const meta = getReport(slug);
@@ -106,6 +118,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
   const mod = registry[slug];
   const published = meta.status === 'published';
   const ldJson = articleJsonLd(meta);
+  const faqJson = faqJsonLd(meta);
   const supabaseBase = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://lkqojucjkpxhcngtstfy.supabase.co';
   const fullPdfUrl =
     meta.access === 'free' && meta.previewObject && meta.previewObject.includes('/')
@@ -119,6 +132,13 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           type="application/ld+json"
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: ldJson }}
+        />
+      )}
+      {faqJson && (
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: faqJson }}
         />
       )}
       <header className="report-hero">
@@ -173,14 +193,14 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           )}
 
           {fullPdfUrl ? (
-            <section className="wrap-narrow" id="full-report" style={{ paddingTop: 8, paddingBottom: 28 }}>
+            <section id="full-report" style={{ maxWidth: 1360, margin: '0 auto', padding: '8px 24px 28px' }}>
               <h2 style={{ marginBottom: 6 }}>Read the full report</h2>
               <p className="serif" style={{ color: 'var(--text-muted)', marginBottom: 16 }}>
                 The complete {meta.pages}-page report. Read it inline below, or open it in a new tab to download.
               </p>
               <div style={{ border: '1px solid var(--border, #2a2a3a)', borderRadius: 10, overflow: 'hidden', background: '#0b0b14' }}>
-                <object data={`${fullPdfUrl}#view=FitH`} type="application/pdf" style={{ width: '100%', height: '85vh', display: 'block' }}>
-                  <iframe src={fullPdfUrl} title={meta.title} style={{ width: '100%', height: '85vh', border: 0 }} />
+                <object data={`${fullPdfUrl}#view=FitH`} type="application/pdf" style={{ width: '100%', height: '90vh', display: 'block' }}>
+                  <iframe src={fullPdfUrl} title={meta.title} style={{ width: '100%', height: '90vh', border: 0 }} />
                 </object>
               </div>
               <p style={{ marginTop: 16 }}>

@@ -9,7 +9,7 @@ interface Props {
   previewPages?: number;
 }
 
-/** Top-of-report purchase / download panel. Renders inside ReportCommerceProvider. */
+/** Top-of-report access panel. Renders inside ReportCommerceProvider. */
 export function ReportAccess({ pages, readingTime, previewObject, previewPages }: Props) {
   const { access, priceLabel, entitled, checking, busy, message, purchase, download } = useReportCommerce();
 
@@ -27,13 +27,35 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages }
         ? `${supabaseUrl}/storage/v1/object/public/${previewObject}`
         : `/previews/${previewObject}`
     : null;
-  const previewLabel = previewPages ? `Free condensed report · ${previewPages} pages` : 'Free condensed report';
 
+  // FREE report: the public PDF IS the full report — direct download, no commerce flow,
+  // no condensed-preview button.
+  if (access === 'free') {
+    return (
+      <div className="report-access" data-tier="free">
+        <div className="ra-head"><span className="ra-price">Free</span></div>
+        <p className="ra-meta">{meta}</p>
+        {previewHref ? (
+          <>
+            <a className="btn-ed btn-ed-primary ra-btn" href={previewHref} target="_blank" rel="noopener" download>
+              Download PDF <span className="arr">↓</span>
+            </a>
+            <p className="ra-fine">Free — no registration required.</p>
+          </>
+        ) : (
+          <p className="ra-fine">The PDF is being prepared.</p>
+        )}
+      </div>
+    );
+  }
+
+  // PAID report: entitlement / purchase, plus the condensed free preview.
+  const previewLabel = previewPages ? `Free condensed report · ${previewPages} pages` : 'Free condensed report';
   return (
     <div className="report-access" data-tier={access}>
       <div className="ra-head">
-        <span className="ra-price">{access === 'free' ? 'Free' : priceLabel}</span>
-        {access === 'paid' && <span className="ra-badge">{entitled ? 'Owned' : 'Complete report'}</span>}
+        <span className="ra-price">{priceLabel}</span>
+        <span className="ra-badge">{entitled ? 'Owned' : 'Complete report'}</span>
       </div>
 
       <p className="ra-meta">{meta}</p>
@@ -43,7 +65,7 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages }
           <button className="btn-ed btn-ed-primary ra-btn" onClick={download} disabled={busy}>
             {busy ? 'Preparing…' : 'Download PDF'} <span className="arr">↓</span>
           </button>
-          <p className="ra-fine">{access === 'free' ? 'Free — no registration required.' : 'You own this report · lifetime access.'}</p>
+          <p className="ra-fine">You own this report · lifetime access.</p>
         </>
       ) : checking ? (
         <p className="ra-fine">Checking your access…</p>

@@ -6,22 +6,33 @@ export const dynamic = 'force-static';
 
 const SITE = 'https://labs.techadyant.com';
 
-/** /robots.txt — allow all crawlers to all public pages, explicitly disallow
- *  the JSON/transactional API surface. Point at the dynamic sitemap. */
+// Public surface every crawler may read; the JSON/transactional API is off-limits.
+const DISALLOW = ['/api/', '/account', '/_next/', '/previews/'];
+
+// AI answer-engine crawlers we explicitly welcome (GEO: we WANT to be cited in
+// ChatGPT / Perplexity / Google AI Overviews / Claude answers).
+const AI_BOTS = [
+  'GPTBot',
+  'OAI-SearchBot',
+  'ChatGPT-User',
+  'ClaudeBot',
+  'Claude-Web',
+  'anthropic-ai',
+  'PerplexityBot',
+  'Perplexity-User',
+  'Google-Extended',
+  'Applebot-Extended',
+  'CCBot',
+  'cohere-ai',
+];
+
+/** /robots.txt — welcome classic and AI crawlers to all public pages; block the
+ *  transactional API; point at the dynamic sitemap. */
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      {
-        userAgent: '*',
-        allow: '/',
-        disallow: [
-          '/api/',          // download, subscribe, unsubscribe, checkout, etc.
-          '/account',       // gated user-only routes
-          '/_next/',        // build artefacts
-          '/previews/',     // preview PDFs are linked from report pages; no need to index the bare file
-        ],
-      },
-      // Aggressive crawlers — be explicit, no blanket blocks.
+      { userAgent: '*', allow: '/', disallow: DISALLOW },
+      ...AI_BOTS.map((ua) => ({ userAgent: ua, allow: '/', disallow: DISALLOW })),
     ],
     sitemap: `${SITE}/sitemap.xml`,
     host: SITE,

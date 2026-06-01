@@ -66,6 +66,44 @@ gtag('js', new Date());
 gtag('config', 'G-916MZ965VB');`,
           }}
         />
+        {/* Site-level entity graph: makes "Techadyant Labs" a recognised entity for
+            search + AI engines (E-E-A-T / GEO). */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@graph': [
+                {
+                  '@type': 'Organization',
+                  '@id': 'https://labs.techadyant.com/#org',
+                  name: 'Techadyant Labs',
+                  url: 'https://labs.techadyant.com',
+                  logo: 'https://labs.techadyant.com/logo.png',
+                  description:
+                    'Independent, India-first strategic-intelligence research on the industrial systems of India — semiconductors, AI infrastructure, critical minerals, defence, and enterprise/technology sovereignty.',
+                  knowsAbout: [
+                    'India semiconductor industry',
+                    'enterprise software sovereignty',
+                    'AI infrastructure',
+                    'critical minerals',
+                    'India technology policy',
+                    'industrial strategy',
+                  ],
+                  sameAs: ['https://techadyant.com'],
+                },
+                {
+                  '@type': 'WebSite',
+                  '@id': 'https://labs.techadyant.com/#website',
+                  url: 'https://labs.techadyant.com',
+                  name: 'Techadyant Labs',
+                  inLanguage: 'en-IN',
+                  publisher: { '@id': 'https://labs.techadyant.com/#org' },
+                },
+              ],
+            }),
+          }}
+        />
       </head>
       <body className={`${inter.variable} ${jetbrainsMono.variable} ${sourceSerif.variable}`}>
         <ThemeProvider>

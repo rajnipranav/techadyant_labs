@@ -26,6 +26,10 @@ export interface ReportMeta {
   /** Free abridged preview (frictionless — no signup). */
   previewObject?: string;  // filename under /public/previews/ (e.g. "india-fab-ecosystem-preview.pdf")
   previewPages?: number;   // page count of the preview PDF (display only)
+  /** SEO / GEO */
+  keywords?: string[];                 // per-report keywords (SEO + AI-engine topicality)
+  faq?: { q: string; a: string }[];    // emitted as FAQPage schema (GEO: feeds AI Overviews)
+  dateModified?: string;               // ISO; falls back to `published`
 }
 
 interface SyncedMeta {
@@ -62,6 +66,18 @@ const baseReports: ReportMeta[] = [
     cover: '/covers/the-sap-question.jpg',
     previewObject: 'reports-free/the-sap-questions.pdf',
     previewPages: 180,
+    dateModified: '2026-06-01',
+    keywords: [
+      'SAP India', 'enterprise software sovereignty', 'India ERP dependency',
+      'foreign software dependence India', 'SAP ECC 2027 deadline', 'sovereign software India',
+      'Enterprise Dependency Index', 'India technology sovereignty', 'Zoho ERP', 'digital public infrastructure',
+    ],
+    faq: [
+      { q: 'How dependent is India on foreign enterprise software?', a: 'A modelled ~59% of India’s software-operating formal-sector value-added depends, at the ERP, database and cloud layer, on software controlled by foreign-headquartered vendors. The dependency is deepest in public cloud and ERP.' },
+      { q: 'Which Indian companies and institutions run on SAP?', a: 'More than 5,000 Indian enterprises run SAP, including the operational core of ONGC, Indian Oil, NTPC, BHEL, SAIL, Bharat Electronics and the public-sector banks. The Indian Army runs one of the largest SAP ERP deployments in the Government of India.' },
+      { q: 'What is the 2027 SAP deadline?', a: 'SAP ECC mainstream support ends on 31 December 2027, forcing thousands of Indian enterprises to a migration decision — a moment that coincides with the AI reset and the emergence of credible Indian products.' },
+      { q: 'Can India build sovereign enterprise software?', a: 'India has already built sovereign software at population scale through its digital public infrastructure (Aadhaar, UPI, MOSIP). The report sizes a ~USD 51 billion sovereign-software opportunity by 2035; the question is whether India extends that proven capability from its citizen rails to its enterprise core.' },
+    ],
   },
   {
     slug: 'who-actually-captures-the-india-us-minerals-alliance',
