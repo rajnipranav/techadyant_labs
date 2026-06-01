@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="1600" height="900" fill="#FBF9F4"/>
+  <!-- Title -->
+  <text x="64" y="70" font-size="34" font-weight="700" fill="#0F1828">One set of inputs, three levels of sovereignty</text>
+  <text x="64" y="106" font-size="18" fill="#4A5567">The frameworks compose: layer scores roll up to sectors, sector scores roll up — GDP-weighted — to a single national exposure figure.</text>
+  <text x="1536" y="54" font-size="15" fill="#4A5567" text-anchor="end">Figure 8.1 · Techadyant Labs · 2026</text>
+
+  <!-- Three stage cards -->
+  <!-- EDI -->
+  <g>
+    <rect x="64" y="170" width="420" height="560" rx="14" fill="#ffffff" stroke="#0F1828" stroke-width="2"/>
+    <rect x="64" y="170" width="420" height="78" rx="14" fill="#0F1828"/>
+    <text x="92" y="208" font-size="26" font-weight="700" fill="#FBF9F4">EDI</text>
+    <text x="92" y="234" font-size="14" fill="#C9A84C">Enterprise Dependency Index</text>
+    <text x="92" y="290" font-size="16" font-weight="700" fill="#4A5567">UNIT: software LAYER</text>
+    <text x="92" y="324" font-size="15" fill="#0F1828">Scores each of 11 stack layers 0–100</text>
+    <text x="92" y="350" font-size="15" fill="#0F1828">on 7 weighted variables:</text>
+    <text x="104" y="384" font-size="14" fill="#4A5567">Strategic Criticality · 0.20</text>
+    <text x="104" y="410" font-size="14" fill="#4A5567">Switching Difficulty · 0.20</text>
+    <text x="104" y="436" font-size="14" fill="#4A5567">Foreign Ownership · 0.15</text>
+    <text x="104" y="462" font-size="14" fill="#4A5567">Domestic-Capability Deficit · 0.15</text>
+    <text x="104" y="488" font-size="14" fill="#4A5567">Geopolitical Exposure · 0.12</text>
+    <text x="104" y="514" font-size="14" fill="#4A5567">Security Exposure · 0.10</text>
+    <text x="104" y="540" font-size="14" fill="#4A5567">Vendor Concentration · 0.08</text>
+    <rect x="92" y="566" width="364" height="2" fill="#E8E5DD"/>
+    <text x="92" y="600" font-size="15" font-weight="700" fill="#0F1828">Example outputs</text>
+    <text x="104" y="628" font-size="14" fill="#C8443B">Public Cloud 81.7 · Captured</text>
+    <text x="104" y="654" font-size="14" fill="#C8443B">ERP 78.5 · Captured</text>
+    <text x="104" y="680" font-size="14" fill="#1a8a7d">UPI / Payments 37.4 · Managed</text>
+    <text x="104" y="706" font-size="14" fill="#1a8a7d">Identity 42.6 · Managed</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <g>
+    <path d="M 496 450 L 576 450" stroke="#C9A84C" stroke-width="4" fill="none"/>
+    <path d="M 576 450 l -16 -10 l 0 20 z" fill="#C9A84C"/>
+    <text x="536" y="430" font-size="13" fill="#4A5567" text-anchor="middle">× reliance</text>
+    <text x="536" y="446" font-size="13" fill="#4A5567" text-anchor="middle">profile</text>
+  </g>
+
+  <!-- SSS -->
+  <g>
+    <rect x="590" y="170" width="420" height="560" rx="14" fill="#ffffff" stroke="#0F1828" stroke-width="2"/>
+    <rect x="590" y="170" width="420" height="78" rx="14" fill="#0F1828"/>
+    <text x="618" y="208" font-size="26" font-weight="700" fill="#FBF9F4">SSS</text>
+    <text x="618" y="234" font-size="14" fill="#2BC5B4">Software Sovereignty Score</text>
+    <text x="618" y="290" font-size="16" font-weight="700" fill="#4A5567">UNIT: economic SECTOR</text>
+    <text x="618" y="324" font-size="15" fill="#0F1828">Weights each sector's layer EDIs by</text>
+    <text x="618" y="350" font-size="15" fill="#0F1828">how much it relies on each layer.</text>
+    <text x="618" y="392" font-size="15" font-weight="700" fill="#0F1828" font-family="monospace">SSS = 100 − Σ(reliance × EDI)</text>
+    <text x="618" y="420" font-size="14" fill="#4A5567">100 = fully sovereign</text>
+    <rect x="618" y="446" width="364" height="2" fill="#E8E5DD"/>
+    <text x="618" y="480" font-size="15" font-weight="700" fill="#0F1828">Example outputs</text>
+    <text x="630" y="508" font-size="14" fill="#4A5567">Government 58 · DPI-anchored</text>
+    <text x="630" y="534" font-size="14" fill="#4A5567">Banking 49 · Finacle/FLEXCUBE core</text>
+    <text x="630" y="560" font-size="14" fill="#4A5567">Defence 44</text>
+    <text x="630" y="586" font-size="14" fill="#C8443B">Energy / PSU 31 · SAP monoculture</text>
+    <text x="630" y="612" font-size="14" fill="#C8443B">Manufacturing 28 · SAP/Oracle core</text>
+    <rect x="618" y="636" width="364" height="64" rx="8" fill="#C9A84C" fill-opacity="0.14"/>
+    <text x="630" y="662" font-size="13" font-weight="700" fill="#9c7e1f">Finding: where India built the product</text>
+    <text x="630" y="684" font-size="13" fill="#4A5567">(banking), sovereignty followed.</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <g>
+    <path d="M 1022 450 L 1102 450" stroke="#C9A84C" stroke-width="4" fill="none"/>
+    <path d="M 1102 450 l -16 -10 l 0 20 z" fill="#C9A84C"/>
+    <text x="1062" y="430" font-size="13" fill="#4A5567" text-anchor="middle">× GDP</text>
+    <text x="1062" y="446" font-size="13" fill="#4A5567" text-anchor="middle">share</text>
+  </g>
+
+  <!-- DIEM -->
+  <g>
+    <rect x="1116" y="170" width="420" height="560" rx="14" fill="#0F1828" stroke="#0F1828" stroke-width="2"/>
+    <rect x="1116" y="170" width="420" height="78" rx="14" fill="#C8443B"/>
+    <text x="1144" y="208" font-size="26" font-weight="700" fill="#FBF9F4">DIEM</text>
+    <text x="1144" y="234" font-size="14" fill="#FBF9F4">Digital Infrastructure Exposure Matrix</text>
+    <text x="1144" y="290" font-size="16" font-weight="700" fill="#C9A84C">UNIT: the NATION</text>
+    <text x="1144" y="324" font-size="15" fill="#E8E5DD">GDP-weights sector exposure into a</text>
+    <text x="1144" y="350" font-size="15" fill="#E8E5DD">single national figure. Modelled.</text>
+    <text x="1144" y="396" font-size="14" font-weight="700" fill="#FBF9F4" font-family="monospace">DIEM = Σ(GVA share × exposure)</text>
+    <rect x="1144" y="430" width="364" height="2" fill="#4A5567"/>
+    <text x="1144" y="478" font-size="15" font-weight="700" fill="#C9A84C">Headline (modelled range)</text>
+    <text x="1144" y="556" font-size="68" font-weight="700" fill="#FBF9F4" font-family="monospace">50–65%</text>
+    <text x="1144" y="596" font-size="16" fill="#E8E5DD">of India's formal-sector GVA depends</text>
+    <text x="1144" y="620" font-size="16" fill="#E8E5DD">on foreign-controlled enterprise</text>
+    <text x="1144" y="644" font-size="16" fill="#E8E5DD">software at the ERP / DB / cloud layer.</text>
+    <rect x="1144" y="668" width="364" height="44" rx="8" fill="#C9A84C" fill-opacity="0.18"/>
+    <text x="1158" y="696" font-size="13" font-style="italic" fill="#C9A84C">Modelled estimate · sensitivity-tested · re-run annually</text>
+  </g>
+
+  <!-- Source line -->
+  <text x="64" y="780" font-size="14" fill="#4A5567">Source: Techadyant Labs framework system (EDI · SSS · DIEM). Inputs from Gartner, IDC, Bain, RBI, NSO, SAP filings. Refreshed from the Strategic Intelligence Database after each report.</text>
+  <text x="64" y="808" font-size="14" font-style="italic" fill="#C9A84C">DIEM headline is a modelled estimate presented as a range, not a measured figure.</text>
+</svg>

@@ -44,6 +44,24 @@ const synced: Record<string, SyncedMeta> = metaJson as Record<string, SyncedMeta
  *  `npm run sync-meta` after a PDF is added/updated. */
 const baseReports: ReportMeta[] = [
   {
+    slug: 'the-sap-question',
+    title: 'The SAP Question',
+    subtitle: 'Who Really Controls the Software India Runs On? — The Enterprise Dependency Stack Behind India’s Industrial Economy, and the Sovereign Opening AI Just Created',
+    domain: 'Enterprise Software Sovereignty',
+    edition: 'Flagship · 2026–2035 · forthcoming',
+    published: '2026-08-15',
+    publishedLabel: 'Forthcoming',
+    readingTime: '~ 3h read',
+    status: 'forthcoming',
+    accent: '#2BC5B4',
+    summary:
+      'India built the world’s software workforce but imports the enterprise software its own economy runs on. More than 5,000 enterprises — the operational core of ONGC, IndianOil, NTPC, BHEL, SAIL and the PSU banks — run on foreign ERP. Using three proprietary frameworks — the Enterprise Dependency Index (EDI), the Software Sovereignty Score (SSS) and the Digital Infrastructure Exposure Matrix (DIEM) — this flagship scores India’s software stack layer by layer and sector by sector, treats the 2022 Russia software withdrawal as the calibrating real-world case, and asks how large and how real the sovereign-software opportunity is between 2026 and 2035. SAP is the anchor; digital sovereignty is the thesis.',
+    access: 'paid',
+    price: 4900,
+    currency: 'INR',
+    hasPdf: false,
+  },
+  {
     slug: 'who-actually-captures-the-india-us-minerals-alliance',
     title: 'Who Actually Captures the India–US Minerals Alliance?',
     subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',

@@ -1,0 +1,128 @@
+<svg viewBox="0 0 1040 1180" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="1040" height="1180" fill="#FBF9F4"/>
+  <!-- Title strip -->
+  <text x="56" y="58" font-size="26" font-weight="700" fill="#0F1828">India's enterprise software runs on a foreign stack</text>
+  <text x="56" y="90" font-size="16" fill="#4A5567">The 11-layer digital dependency stack, scored on the Enterprise Dependency Index (EDI, 0–100). Higher = more captured.</text>
+  <text x="984" y="40" font-size="13" fill="#4A5567" text-anchor="end">Figure 4.1 · Techadyant Labs · 2026</text>
+
+  <!-- Column headers -->
+  <text x="60" y="150" font-size="13" font-weight="700" fill="#4A5567">LAYER</text>
+  <text x="600" y="150" font-size="13" font-weight="700" fill="#4A5567">MARKET LEADER (control)</text>
+  <text x="984" y="150" font-size="13" font-weight="700" fill="#4A5567" text-anchor="end">EDI · BAND</text>
+
+  <!-- Bands: y start 168, each 86 tall, gap 6 -->
+  <!-- 1 Public Cloud -->
+  <g>
+    <rect x="56" y="168" width="928" height="80" rx="6" fill="#C8443B" fill-opacity="0.16" stroke="#C8443B" stroke-width="1.5"/>
+    <rect x="56" y="168" width="10" height="80" rx="3" fill="#C8443B"/>
+    <text x="86" y="200" font-size="20" font-weight="600" fill="#0F1828">Public Cloud</text>
+    <text x="86" y="226" font-size="14" fill="#4A5567">IaaS · PaaS · the substrate everything migrates onto</text>
+    <text x="600" y="212" font-size="15" fill="#0F1828">AWS · Azure · Google Cloud</text>
+    <text x="940" y="205" font-size="26" font-weight="700" fill="#C8443B" text-anchor="end" font-family="monospace">81.7</text>
+    <text x="940" y="228" font-size="12" font-weight="700" fill="#C8443B" text-anchor="end">CAPTURED</text>
+  </g>
+  <!-- 2 ERP -->
+  <g>
+    <rect x="56" y="254" width="928" height="80" rx="6" fill="#C8443B" fill-opacity="0.16" stroke="#C8443B" stroke-width="1.5"/>
+    <rect x="56" y="254" width="10" height="80" rx="3" fill="#C8443B"/>
+    <text x="86" y="286" font-size="20" font-weight="600" fill="#0F1828">ERP</text>
+    <text x="86" y="312" font-size="14" fill="#4A5567">The transactional core of energy, power, metals, manufacturing</text>
+    <text x="600" y="298" font-size="15" fill="#0F1828">SAP · Oracle (Ramco the lone Indian)</text>
+    <text x="940" y="291" font-size="26" font-weight="700" fill="#C8443B" text-anchor="end" font-family="monospace">78.5</text>
+    <text x="940" y="314" font-size="12" font-weight="700" fill="#C8443B" text-anchor="end">CAPTURED</text>
+  </g>
+  <!-- 3 Productivity -->
+  <g>
+    <rect x="56" y="340" width="928" height="80" rx="6" fill="#C9A84C" fill-opacity="0.18" stroke="#C9A84C" stroke-width="1.5"/>
+    <rect x="56" y="340" width="10" height="80" rx="3" fill="#C9A84C"/>
+    <text x="86" y="372" font-size="20" font-weight="600" fill="#0F1828">Productivity Platforms</text>
+    <text x="86" y="398" font-size="14" fill="#4A5567">Mail, documents, collaboration</text>
+    <text x="600" y="384" font-size="15" fill="#0F1828">Microsoft 365 · Google Workspace</text>
+    <text x="940" y="377" font-size="26" font-weight="700" fill="#9c7e1f" text-anchor="end" font-family="monospace">72.5</text>
+    <text x="940" y="400" font-size="12" font-weight="700" fill="#9c7e1f" text-anchor="end">EXPOSED</text>
+  </g>
+  <!-- 4 Desktop OS -->
+  <g>
+    <rect x="56" y="426" width="928" height="80" rx="6" fill="#C9A84C" fill-opacity="0.18" stroke="#C9A84C" stroke-width="1.5"/>
+    <rect x="56" y="426" width="10" height="80" rx="3" fill="#C9A84C"/>
+    <text x="86" y="458" font-size="20" font-weight="600" fill="#0F1828">Desktop OS</text>
+    <text x="86" y="484" font-size="14" fill="#4A5567">The endpoint monopoly</text>
+    <text x="600" y="470" font-size="15" fill="#0F1828">Microsoft Windows</text>
+    <text x="940" y="463" font-size="26" font-weight="700" fill="#9c7e1f" text-anchor="end" font-family="monospace">70.8</text>
+    <text x="940" y="486" font-size="12" font-weight="700" fill="#9c7e1f" text-anchor="end">EXPOSED</text>
+  </g>
+  <!-- 5 Databases -->
+  <g>
+    <rect x="56" y="512" width="928" height="80" rx="6" fill="#C9A84C" fill-opacity="0.18" stroke="#C9A84C" stroke-width="1.5"/>
+    <rect x="56" y="512" width="10" height="80" rx="3" fill="#C9A84C"/>
+    <text x="86" y="544" font-size="20" font-weight="600" fill="#0F1828">Databases</text>
+    <text x="86" y="570" font-size="14" fill="#4A5567">Oracle/SQL Server dominate — but PostgreSQL is a credible exit</text>
+    <text x="600" y="556" font-size="15" fill="#0F1828">Oracle · SQL Server · (PostgreSQL)</text>
+    <text x="940" y="549" font-size="26" font-weight="700" fill="#9c7e1f" text-anchor="end" font-family="monospace">70.0</text>
+    <text x="940" y="572" font-size="12" font-weight="700" fill="#9c7e1f" text-anchor="end">EXPOSED</text>
+  </g>
+  <!-- 6 AI Platforms -->
+  <g>
+    <rect x="56" y="598" width="928" height="80" rx="6" fill="#C9A84C" fill-opacity="0.18" stroke="#C9A84C" stroke-width="1.5"/>
+    <rect x="56" y="598" width="10" height="80" rx="3" fill="#C9A84C"/>
+    <text x="86" y="630" font-size="20" font-weight="600" fill="#0F1828">AI Platforms</text>
+    <text x="86" y="656" font-size="14" fill="#4A5567">Frontier models — low lock-in today, rising fast</text>
+    <text x="600" y="642" font-size="15" fill="#0F1828">OpenAI · Anthropic · Google</text>
+    <text x="940" y="635" font-size="26" font-weight="700" fill="#9c7e1f" text-anchor="end" font-family="monospace">69.2</text>
+    <text x="940" y="658" font-size="12" font-weight="700" fill="#9c7e1f" text-anchor="end">EXPOSED</text>
+  </g>
+  <!-- 7 Cybersecurity -->
+  <g>
+    <rect x="56" y="684" width="928" height="80" rx="6" fill="#C9A84C" fill-opacity="0.18" stroke="#C9A84C" stroke-width="1.5"/>
+    <rect x="56" y="684" width="10" height="80" rx="3" fill="#C9A84C"/>
+    <text x="86" y="716" font-size="20" font-weight="600" fill="#0F1828">Cybersecurity</text>
+    <text x="86" y="742" font-size="14" fill="#4A5567">Attack surface + update-channel risk</text>
+    <text x="600" y="728" font-size="15" fill="#0F1828">Palo Alto · CrowdStrike · Fortinet</text>
+    <text x="940" y="721" font-size="26" font-weight="700" fill="#9c7e1f" text-anchor="end" font-family="monospace">63.2</text>
+    <text x="940" y="744" font-size="12" font-weight="700" fill="#9c7e1f" text-anchor="end">EXPOSED</text>
+  </g>
+  <!-- 8 CRM -->
+  <g>
+    <rect x="56" y="770" width="928" height="80" rx="6" fill="#C9A84C" fill-opacity="0.18" stroke="#C9A84C" stroke-width="1.5"/>
+    <rect x="56" y="770" width="10" height="80" rx="3" fill="#C9A84C"/>
+    <text x="86" y="802" font-size="20" font-weight="600" fill="#0F1828">CRM</text>
+    <text x="86" y="828" font-size="14" fill="#4A5567">Where India has real products — Zoho, Freshworks</text>
+    <text x="600" y="814" font-size="15" fill="#0F1828">Salesforce vs Zoho · Freshworks</text>
+    <text x="940" y="807" font-size="26" font-weight="700" fill="#9c7e1f" text-anchor="end" font-family="monospace">56.0</text>
+    <text x="940" y="830" font-size="12" font-weight="700" fill="#9c7e1f" text-anchor="end">EXPOSED</text>
+  </g>
+  <!-- 9 Server OS -->
+  <g>
+    <rect x="56" y="856" width="928" height="80" rx="6" fill="#2BC5B4" fill-opacity="0.20" stroke="#2BC5B4" stroke-width="1.5"/>
+    <rect x="56" y="856" width="10" height="80" rx="3" fill="#2BC5B4"/>
+    <text x="86" y="888" font-size="20" font-weight="600" fill="#0F1828">Server OS</text>
+    <text x="86" y="914" font-size="14" fill="#4A5567">Open source — the layer India already escaped</text>
+    <text x="600" y="900" font-size="15" fill="#0F1828">Linux (open)</text>
+    <text x="940" y="893" font-size="26" font-weight="700" fill="#1a8a7d" text-anchor="end" font-family="monospace">45.5</text>
+    <text x="940" y="916" font-size="12" font-weight="700" fill="#1a8a7d" text-anchor="end">MANAGED</text>
+  </g>
+  <!-- 10 Identity -->
+  <g>
+    <rect x="56" y="942" width="928" height="80" rx="6" fill="#2BC5B4" fill-opacity="0.20" stroke="#2BC5B4" stroke-width="1.5"/>
+    <rect x="56" y="942" width="10" height="80" rx="3" fill="#2BC5B4"/>
+    <text x="86" y="974" font-size="20" font-weight="600" fill="#0F1828">Identity</text>
+    <text x="86" y="1000" font-size="14" fill="#4A5567">Sovereign by construction</text>
+    <text x="600" y="986" font-size="15" fill="#0F1828">Aadhaar (state-built)</text>
+    <text x="940" y="979" font-size="26" font-weight="700" fill="#1a8a7d" text-anchor="end" font-family="monospace">42.6</text>
+    <text x="940" y="1002" font-size="12" font-weight="700" fill="#1a8a7d" text-anchor="end">MANAGED</text>
+  </g>
+  <!-- 11 Payments -->
+  <g>
+    <rect x="56" y="1028" width="928" height="80" rx="6" fill="#2BC5B4" fill-opacity="0.20" stroke="#2BC5B4" stroke-width="1.5"/>
+    <rect x="56" y="1028" width="10" height="80" rx="3" fill="#2BC5B4"/>
+    <text x="86" y="1060" font-size="20" font-weight="600" fill="#0F1828">Payment Rails</text>
+    <text x="86" y="1086" font-size="14" fill="#4A5567">The world's reference sovereign-software layer</text>
+    <text x="600" y="1072" font-size="15" fill="#0F1828">UPI (open standards)</text>
+    <text x="940" y="1065" font-size="26" font-weight="700" fill="#1a8a7d" text-anchor="end" font-family="monospace">37.4</text>
+    <text x="940" y="1088" font-size="12" font-weight="700" fill="#1a8a7d" text-anchor="end">MANAGED</text>
+  </g>
+
+  <!-- Source line -->
+  <text x="56" y="1140" font-size="12.5" fill="#4A5567">Source: Gartner, IDC, Bain, SAP filings. EDI = Techadyant Labs Enterprise Dependency Index (7 weighted variables).</text>
+  <text x="56" y="1162" font-size="12.5" font-style="italic" fill="#C9A84C">Provisional — scores indicative pending primary-source hardening.</text>
+</svg>
