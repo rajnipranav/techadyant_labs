@@ -94,7 +94,11 @@ export async function onRequest(context) {
     if (route === '/sid/entity')            return reply(await rpc(N, NK, 'sid_entity_detail', { p_id: q.get('id') }));
     if (route === '/sid/chokepoints')       return reply(await rpc(N, NK, 'sid_chokepoints', { p_corridor: q.get('corridor') }));
     if (route === '/sid/candidates')        return reply(await rpc(N, NK, 'sid_candidates'));
-    if (route === '/signals')               return reply(await rpc(N, NK, 'sid_recent_signals', { p_limit: Number(q.get('limit') || 60) }));
+    if (route === '/signals')               return reply(await rpc(N, NK, 'sid_recent_signals', {
+      p_limit: Number(q.get('limit') || 120), p_corridor: q.get('corridor') || null, p_status: q.get('status') || 'active',
+      p_q: q.get('q') || null, p_min_score: q.get('min_score') ? Number(q.get('min_score')) : null, p_signal_only: q.get('signal_only') === '1',
+    }));
+    if (route === '/signals/counts')         return reply(await rpc(N, NK, 'sid_signal_counts', { p_signal_only: q.get('signal_only') === '1' }));
     if (route === '/sid/sovereignty')       return reply(await rpc(N, NK, 'sid_sovereignty'));
     if (route === '/sid/momentum')          return reply(await rpc(N, NK, 'sid_momentum', { p_days: Number(q.get('days') || 30) }));
     if (route === '/recent-activity')       return reply(await rpc(N, NK, 'sid_recent_activity', { p_days: Number(q.get('days') || 7) }));
@@ -135,6 +139,11 @@ export async function onRequest(context) {
     if (request.method === 'POST' && route === '/sid/figure-status') {
       const b = await request.json();
       return reply(await rpc(N, NK, 'sid_figure_set_status', { p_path: b.path, p_status: b.status }));
+    }
+    if (request.method === 'POST' && route === '/signals/status') {
+      const b = await request.json();
+      if (!['pending', 'kept', 'archived'].includes(b.status)) return json(400, { error: 'status must be pending|kept|archived' });
+      return reply(await rpc(N, NK, 'sid_signal_set_status', { p_id: b.id, p_status: b.status }));
     }
     if (request.method === 'POST' && route === '/ops/trigger') {
       const b = await request.json();
