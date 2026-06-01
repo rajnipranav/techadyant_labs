@@ -1,0 +1,109 @@
+<svg viewBox="0 0 1180 720" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1180" height="720" fill="#FBF9F4"/>
+<text x="56" y="54" font-size="27" font-weight="700" fill="#0F1828">Can Zoho become India's SAP?</text>
+<text x="56" y="84" font-size="16" fill="#4A5567">Where the most credible Indian software firm matches SAP — and where the gap to the heavy-industry core remains.</text>
+<text x="1124" y="40" font-size="13" fill="#4A5567" text-anchor="end">Figure 16.1 · Techadyant Labs · 2026</text>
+<text x="60" y="138" font-size="13" font-weight="700" fill="#4A5567">CAPABILITY</text>
+<text x="470" y="138" font-size="15" font-weight="700" fill="#C8443B" text-anchor="middle">SAP</text>
+<text x="640" y="138" font-size="15" font-weight="700" fill="#1a8a7d" text-anchor="middle">ZOHO</text>
+<line x1="56" y1="150" x2="1124" y2="150" stroke="#0F1828" stroke-width="1.5"/>
+<text x="60" y="195" font-size="14.5" font-weight="700" fill="#0F1828">Product breadth (apps)</text>
+<circle cx="410" cy="190" r="9" fill="#C8443B"/>
+<circle cx="436" cy="190" r="9" fill="#C8443B"/>
+<circle cx="462" cy="190" r="9" fill="#C8443B"/>
+<circle cx="488" cy="190" r="9" fill="#C8443B"/>
+<circle cx="514" cy="190" r="9" fill="#C8443B"/>
+<circle cx="580" cy="190" r="9" fill="#2BC5B4"/>
+<circle cx="606" cy="190" r="9" fill="#2BC5B4"/>
+<circle cx="632" cy="190" r="9" fill="#2BC5B4"/>
+<circle cx="658" cy="190" r="9" fill="#2BC5B4"/>
+<circle cx="684" cy="190" r="9" fill="#2BC5B4"/>
+<text x="740" y="195" font-size="12.5" fill="#4A5567">Zoho's 50+ integrated apps match SAP's suite breadth</text>
+<text x="60" y="253" font-size="14.5" font-weight="700" fill="#0F1828">Financial independence</text>
+<circle cx="410" cy="248" r="9" fill="#C8443B"/>
+<circle cx="436" cy="248" r="9" fill="#C8443B"/>
+<circle cx="462" cy="248" r="9" fill="#C8443B"/>
+<circle cx="488" cy="248" r="9" fill="#E8E5DD"/>
+<circle cx="514" cy="248" r="9" fill="#E8E5DD"/>
+<circle cx="580" cy="248" r="9" fill="#2BC5B4"/>
+<circle cx="606" cy="248" r="9" fill="#2BC5B4"/>
+<circle cx="632" cy="248" r="9" fill="#2BC5B4"/>
+<circle cx="658" cy="248" r="9" fill="#2BC5B4"/>
+<circle cx="684" cy="248" r="9" fill="#2BC5B4"/>
+<text x="740" y="253" font-size="12.5" fill="#4A5567">Zoho bootstrapped, ~Rs 12,313cr, profitable; SAP answers to markets</text>
+<text x="60" y="311" font-size="14.5" font-weight="700" fill="#0F1828">AI integration</text>
+<circle cx="410" cy="306" r="9" fill="#C8443B"/>
+<circle cx="436" cy="306" r="9" fill="#C8443B"/>
+<circle cx="462" cy="306" r="9" fill="#C8443B"/>
+<circle cx="488" cy="306" r="9" fill="#C8443B"/>
+<circle cx="514" cy="306" r="9" fill="#E8E5DD"/>
+<circle cx="580" cy="306" r="9" fill="#2BC5B4"/>
+<circle cx="606" cy="306" r="9" fill="#2BC5B4"/>
+<circle cx="632" cy="306" r="9" fill="#2BC5B4"/>
+<circle cx="658" cy="306" r="9" fill="#2BC5B4"/>
+<circle cx="684" cy="306" r="9" fill="#E8E5DD"/>
+<text x="740" y="311" font-size="12.5" fill="#4A5567">both shipping agents; comparable trajectory</text>
+<text x="60" y="369" font-size="14.5" font-weight="700" fill="#0F1828">SMB / mid-market fit</text>
+<circle cx="410" cy="364" r="9" fill="#C8443B"/>
+<circle cx="436" cy="364" r="9" fill="#C8443B"/>
+<circle cx="462" cy="364" r="9" fill="#C8443B"/>
+<circle cx="488" cy="364" r="9" fill="#E8E5DD"/>
+<circle cx="514" cy="364" r="9" fill="#E8E5DD"/>
+<circle cx="580" cy="364" r="9" fill="#2BC5B4"/>
+<circle cx="606" cy="364" r="9" fill="#2BC5B4"/>
+<circle cx="632" cy="364" r="9" fill="#2BC5B4"/>
+<circle cx="658" cy="364" r="9" fill="#2BC5B4"/>
+<circle cx="684" cy="364" r="9" fill="#2BC5B4"/>
+<text x="740" y="369" font-size="12.5" fill="#4A5567">Zoho's home turf</text>
+<text x="60" y="427" font-size="14.5" font-weight="700" fill="#0F1828">Public-sector proof</text>
+<circle cx="410" cy="422" r="9" fill="#C8443B"/>
+<circle cx="436" cy="422" r="9" fill="#C8443B"/>
+<circle cx="462" cy="422" r="9" fill="#C8443B"/>
+<circle cx="488" cy="422" r="9" fill="#E8E5DD"/>
+<circle cx="514" cy="422" r="9" fill="#E8E5DD"/>
+<circle cx="580" cy="422" r="9" fill="#2BC5B4"/>
+<circle cx="606" cy="422" r="9" fill="#2BC5B4"/>
+<circle cx="632" cy="422" r="9" fill="#2BC5B4"/>
+<circle cx="658" cy="422" r="9" fill="#2BC5B4"/>
+<circle cx="684" cy="422" r="9" fill="#E8E5DD"/>
+<text x="740" y="427" font-size="12.5" fill="#4A5567">Zoho: 1.2M govt email accounts migrated</text>
+<text x="60" y="485" font-size="14.5" font-weight="700" fill="#0F1828">Global enterprise scale</text>
+<circle cx="410" cy="480" r="9" fill="#C8443B"/>
+<circle cx="436" cy="480" r="9" fill="#C8443B"/>
+<circle cx="462" cy="480" r="9" fill="#C8443B"/>
+<circle cx="488" cy="480" r="9" fill="#C8443B"/>
+<circle cx="514" cy="480" r="9" fill="#C8443B"/>
+<circle cx="580" cy="480" r="9" fill="#2BC5B4"/>
+<circle cx="606" cy="480" r="9" fill="#2BC5B4"/>
+<circle cx="632" cy="480" r="9" fill="#2BC5B4"/>
+<circle cx="658" cy="480" r="9" fill="#E8E5DD"/>
+<circle cx="684" cy="480" r="9" fill="#E8E5DD"/>
+<text x="740" y="485" font-size="12.5" fill="#4A5567">SAP's installed base and brand</text>
+<text x="60" y="543" font-size="14.5" font-weight="700" fill="#0F1828">Heavy-industry ERP core</text>
+<circle cx="410" cy="538" r="9" fill="#C8443B"/>
+<circle cx="436" cy="538" r="9" fill="#C8443B"/>
+<circle cx="462" cy="538" r="9" fill="#C8443B"/>
+<circle cx="488" cy="538" r="9" fill="#C8443B"/>
+<circle cx="514" cy="538" r="9" fill="#C8443B"/>
+<circle cx="580" cy="538" r="9" fill="#2BC5B4"/>
+<circle cx="606" cy="538" r="9" fill="#E8E5DD"/>
+<circle cx="632" cy="538" r="9" fill="#E8E5DD"/>
+<circle cx="658" cy="538" r="9" fill="#E8E5DD"/>
+<circle cx="684" cy="538" r="9" fill="#E8E5DD"/>
+<text x="740" y="543" font-size="12.5" fill="#4A5567">the gap — SAP owns it; Zoho ERP launched Jan 2026</text>
+<text x="60" y="601" font-size="14.5" font-weight="700" fill="#0F1828">Partner / consulting ecosystem</text>
+<circle cx="410" cy="596" r="9" fill="#C8443B"/>
+<circle cx="436" cy="596" r="9" fill="#C8443B"/>
+<circle cx="462" cy="596" r="9" fill="#C8443B"/>
+<circle cx="488" cy="596" r="9" fill="#C8443B"/>
+<circle cx="514" cy="596" r="9" fill="#C8443B"/>
+<circle cx="580" cy="596" r="9" fill="#2BC5B4"/>
+<circle cx="606" cy="596" r="9" fill="#2BC5B4"/>
+<circle cx="632" cy="596" r="9" fill="#E8E5DD"/>
+<circle cx="658" cy="596" r="9" fill="#E8E5DD"/>
+<circle cx="684" cy="596" r="9" fill="#E8E5DD"/>
+<text x="740" y="601" font-size="12.5" fill="#4A5567">SAP's 230+ India partners vs Zoho's thinner bench</text>
+<line x1="56" y1="654" x2="1124" y2="654" stroke="#0F1828" stroke-width="1"/>
+<text x="56" y="684" font-size="14" font-weight="700" fill="#0F1828">Verdict: Zoho is far likelier to become India's Microsoft than its SAP — but its Jan-2026 ERP launch is the first credible shot at the core.</text>
+<text x="56" y="706" font-size="12" fill="#4A5567">Source: company disclosures; Techadyant Labs assessment (0–5). Indicative.</text>
+</svg>

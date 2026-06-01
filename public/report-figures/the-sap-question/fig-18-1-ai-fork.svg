@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1180 720" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="1180" height="720" fill="#FBF9F4"/>
+  <text x="56" y="54" font-size="27" font-weight="700" fill="#0F1828">The AI reset is a fork, not a trend</text>
+  <text x="56" y="84" font-size="16" fill="#4A5567">The same technology can deepen the dependency for a generation — or open the first sovereign window in two decades.</text>
+  <text x="1124" y="40" font-size="13" fill="#4A5567" text-anchor="end">Figure 18.1 · Techadyant Labs · 2026</text>
+
+  <!-- central node -->
+  <rect x="90" y="300" width="230" height="110" rx="12" fill="#0F1828"/>
+  <text x="205" y="342" font-size="19" font-weight="700" fill="#FBF9F4" text-anchor="middle">THE AI RESET</text>
+  <text x="205" y="368" font-size="14" fill="#C9A84C" text-anchor="middle">Agentic AI · 2025–2028</text>
+  <text x="205" y="392" font-size="12.5" fill="#E8E5DD" text-anchor="middle">re-prices the whole stack</text>
+
+  <!-- branch connectors -->
+  <path d="M 320 330 C 420 300, 460 210, 560 200" stroke="#C8443B" stroke-width="3" fill="none"/>
+  <path d="M 560 200 l -16 -3 l 7 -12 z" fill="#C8443B"/>
+  <path d="M 320 380 C 420 410, 460 500, 560 510" stroke="#2BC5B4" stroke-width="3" fill="none"/>
+  <path d="M 560 510 l -16 3 l 7 12 z" fill="#2BC5B4"/>
+
+  <!-- FORCE 1: incumbents (top, red) -->
+  <rect x="560" y="150" width="300" height="120" rx="12" fill="#C8443B" fill-opacity="0.12" stroke="#C8443B" stroke-width="1.5"/>
+  <text x="580" y="182" font-size="17" font-weight="700" fill="#C8443B">FORCE 1 · Incumbents embed AI</text>
+  <text x="580" y="208" font-size="13.5" fill="#0F1828">SAP Joule: 200+ agents. Copilot. Gartner:</text>
+  <text x="580" y="228" font-size="13.5" fill="#0F1828">40% of enterprise apps embed agents by end-2026.</text>
+  <text x="580" y="252" font-size="13" font-style="italic" fill="#4A5567">AI trained on your SAP data, inside your SAP processes.</text>
+
+  <path d="M 860 210 L 940 210" stroke="#C8443B" stroke-width="3" fill="none"/>
+  <path d="M 940 210 l -16 -6 l 0 12 z" fill="#C8443B"/>
+  <rect x="940" y="158" width="200" height="104" rx="12" fill="#C8443B" fill-opacity="0.85"/>
+  <text x="1040" y="200" font-size="16" font-weight="700" fill="#FBF9F4" text-anchor="middle">Dependency</text>
+  <text x="1040" y="222" font-size="16" font-weight="700" fill="#FBF9F4" text-anchor="middle">deepens for</text>
+  <text x="1040" y="244" font-size="16" font-weight="700" fill="#FBF9F4" text-anchor="middle">a generation</text>
+
+  <!-- FORCE 2: build-cost collapse (bottom, teal) -->
+  <rect x="560" y="450" width="300" height="120" rx="12" fill="#2BC5B4" fill-opacity="0.14" stroke="#2BC5B4" stroke-width="1.5"/>
+  <text x="580" y="482" font-size="17" font-weight="700" fill="#1a8a7d">FORCE 2 · Build-cost collapses</text>
+  <text x="580" y="508" font-size="13.5" fill="#0F1828">AI re-implements the custom-code estate — SAP's</text>
+  <text x="580" y="528" font-size="13.5" fill="#0F1828">deepest moat. A greenfield stack needs a small team.</text>
+  <text x="580" y="552" font-size="13" font-style="italic" fill="#4A5567">The switching cost that froze the dependency thaws.</text>
+
+  <path d="M 860 510 L 940 510" stroke="#2BC5B4" stroke-width="3" fill="none"/>
+  <path d="M 940 510 l -16 -6 l 0 12 z" fill="#2BC5B4"/>
+  <rect x="940" y="458" width="200" height="104" rx="12" fill="#2BC5B4" fill-opacity="0.9"/>
+  <text x="1040" y="500" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">Sovereign</text>
+  <text x="1040" y="522" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">AI-native stack</text>
+  <text x="1040" y="544" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">becomes buildable</text>
+
+  <!-- timing pivot -->
+  <rect x="90" y="470" width="430" height="92" rx="10" fill="#C9A84C" fill-opacity="0.16"/>
+  <text x="110" y="502" font-size="15" font-weight="700" fill="#9c7e1f">The two forces race in time.</text>
+  <text x="110" y="526" font-size="13.5" fill="#4A5567">The window stays open only until incumbents finish</text>
+  <text x="110" y="546" font-size="13.5" fill="#4A5567">re-cementing lock-in — and the 2027 SAP deadline forces the choice.</text>
+
+  <text x="56" y="636" font-size="14" font-weight="700" fill="#0F1828">Which force wins decides India's 2035 outcome. The window is real, and it is narrow.</text>
+  <text x="56" y="664" font-size="12.5" fill="#4A5567">Source: SAP; Gartner; market commentary. Techadyant Labs analysis. Scenario framing, not forecast.</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg viewBox="0 0 1180 900" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="1180" height="900" fill="#FBF9F4"/>
+  <text x="56" y="56" font-size="27" font-weight="700" fill="#0F1828">India's sovereign software bench</text>
+  <text x="56" y="86" font-size="16" fill="#4A5567">What India could migrate to, layer by layer — and how ready each domestic or open alternative is today.</text>
+  <text x="1124" y="40" font-size="13" fill="#4A5567" text-anchor="end">Figure 15.1 · Techadyant Labs · 2026</text>
+
+  <!-- headers -->
+  <text x="60" y="128" font-size="13" font-weight="700" fill="#4A5567">LAYER</text>
+  <text x="250" y="128" font-size="13" font-weight="700" fill="#4A5567">FOREIGN INCUMBENT</text>
+  <text x="500" y="128" font-size="13" font-weight="700" fill="#4A5567">INDIAN / OPEN-SOURCE ALTERNATIVE</text>
+  <text x="900" y="128" font-size="13" font-weight="700" fill="#4A5567">READINESS</text>
+  <line x1="56" y1="140" x2="1124" y2="140" stroke="#0F1828" stroke-width="1.5"/>
+
+  <!-- readiness scale helper: bar x=900..1100 (200px). nascent=40, emerging=90, substantial=150, sovereign=200 -->
+  <!-- rows step 62, y0=172 -->
+  <!-- Payments (sovereign) -->
+  <text x="60" y="178" font-size="15" font-weight="600" fill="#0F1828">Payment Rails</text>
+  <text x="250" y="178" font-size="14" fill="#4A5567">(none needed)</text>
+  <text x="500" y="178" font-size="14.5" fill="#0F1828">UPI — exported worldwide</text>
+  <rect x="800" y="166" width="185" height="18" rx="4" fill="#2BC5B4"/>
+  <text x="1005" y="180" font-size="11.5" font-weight="700" fill="#1a8a7d" >SOVEREIGN</text>
+
+  <!-- Identity (sovereign) -->
+  <text x="60" y="240" font-size="15" font-weight="600" fill="#0F1828">Identity</text>
+  <text x="250" y="240" font-size="14" fill="#4A5567">(none needed)</text>
+  <text x="500" y="240" font-size="14.5" fill="#0F1828">Aadhaar · MOSIP (9+ countries)</text>
+  <rect x="800" y="228" width="185" height="18" rx="4" fill="#2BC5B4"/>
+  <text x="1005" y="242" font-size="11.5" font-weight="700" fill="#1a8a7d" >SOVEREIGN</text>
+
+  <!-- Server OS -->
+  <text x="60" y="302" font-size="15" font-weight="600" fill="#0F1828">Server OS</text>
+  <text x="250" y="302" font-size="14" fill="#4A5567">Windows Server</text>
+  <text x="500" y="302" font-size="14.5" fill="#0F1828">Linux (open source)</text>
+  <rect x="800" y="290" width="150" height="18" rx="4" fill="#2BC5B4" fill-opacity="0.7"/>
+  <text x="1005" y="304" font-size="11.5" font-weight="700" fill="#1a8a7d" >SUBSTANTIAL</text>
+
+  <!-- Databases -->
+  <text x="60" y="364" font-size="15" font-weight="600" fill="#0F1828">Databases</text>
+  <text x="250" y="364" font-size="14" fill="#4A5567">Oracle · SQL Server</text>
+  <text x="500" y="364" font-size="14.5" fill="#0F1828">PostgreSQL (open source)</text>
+  <rect x="800" y="352" width="150" height="18" rx="4" fill="#2BC5B4" fill-opacity="0.7"/>
+  <text x="1005" y="366" font-size="11.5" font-weight="700" fill="#1a8a7d" >SUBSTANTIAL</text>
+
+  <!-- Productivity -->
+  <text x="60" y="426" font-size="15" font-weight="600" fill="#0F1828">Productivity</text>
+  <text x="250" y="426" font-size="14" fill="#4A5567">Microsoft 365 · Workspace</text>
+  <text x="500" y="426" font-size="14.5" fill="#0F1828">Zoho Workplace — 1.2M govt accounts</text>
+  <rect x="800" y="414" width="150" height="18" rx="4" fill="#2BC5B4" fill-opacity="0.7"/>
+  <text x="1005" y="428" font-size="11.5" font-weight="700" fill="#1a8a7d" >SUBSTANTIAL</text>
+
+  <!-- CRM / HR -->
+  <text x="60" y="488" font-size="15" font-weight="600" fill="#0F1828">CRM · HR</text>
+  <text x="250" y="488" font-size="14" fill="#4A5567">Salesforce · Workday</text>
+  <text x="500" y="488" font-size="14.5" fill="#0F1828">Zoho · Freshworks · Darwinbox</text>
+  <rect x="800" y="476" width="150" height="18" rx="4" fill="#2BC5B4" fill-opacity="0.7"/>
+  <text x="1005" y="490" font-size="11.5" font-weight="700" fill="#1a8a7d" >SUBSTANTIAL</text>
+
+  <!-- ERP (the hard one) -->
+  <text x="60" y="550" font-size="15" font-weight="700" fill="#C8443B">ERP (the core)</text>
+  <text x="250" y="550" font-size="14" fill="#4A5567">SAP · Oracle</text>
+  <text x="500" y="550" font-size="14.5" fill="#0F1828">Zoho ERP (Jan 2026) · ERPNext · Ramco</text>
+  <rect x="800" y="538" width="90" height="18" rx="4" fill="#C9A84C" fill-opacity="0.9"/>
+  <text x="1005" y="552" font-size="11.5" font-weight="700" fill="#9c7e1f" >EMERGING</text>
+
+  <!-- AI Platforms -->
+  <text x="60" y="612" font-size="15" font-weight="600" fill="#0F1828">AI Platforms</text>
+  <text x="250" y="612" font-size="14" fill="#4A5567">OpenAI · Anthropic · Google</text>
+  <text x="500" y="612" font-size="14.5" fill="#0F1828">Open-weight + Indian LLMs</text>
+  <rect x="800" y="600" width="90" height="18" rx="4" fill="#C9A84C" fill-opacity="0.9"/>
+  <text x="1005" y="614" font-size="11.5" font-weight="700" fill="#9c7e1f" >EMERGING</text>
+
+  <!-- Cybersecurity -->
+  <text x="60" y="674" font-size="15" font-weight="600" fill="#0F1828">Cybersecurity</text>
+  <text x="250" y="674" font-size="14" fill="#4A5567">Palo Alto · CrowdStrike</text>
+  <text x="500" y="674" font-size="14.5" fill="#0F1828">domestic base nascent</text>
+  <rect x="800" y="662" width="40" height="18" rx="4" fill="#C8443B" fill-opacity="0.8"/>
+  <text x="1005" y="676" font-size="11.5" font-weight="700" fill="#C8443B" >NASCENT</text>
+
+  <!-- Public Cloud (the gap) -->
+  <text x="60" y="736" font-size="15" font-weight="700" fill="#C8443B">Public Cloud</text>
+  <text x="250" y="736" font-size="14" fill="#4A5567">AWS · Azure · Google</text>
+  <text x="500" y="736" font-size="14.5" fill="#0F1828">no domestic hyperscaler — the deepest gap</text>
+  <rect x="800" y="724" width="40" height="18" rx="4" fill="#C8443B" fill-opacity="0.8"/>
+  <text x="1005" y="738" font-size="11.5" font-weight="700" fill="#C8443B" >NASCENT</text>
+
+  <line x1="56" y1="762" x2="1124" y2="762" stroke="#0F1828" stroke-width="1"/>
+  <text x="56" y="800" font-size="15" font-weight="700" fill="#0F1828">The bench is deepest where India built (payments, identity) and thinnest where it must displace an entrenched incumbent (ERP, cloud).</text>
+  <text x="56" y="826" font-size="13.5" fill="#4A5567">The 2027 SAP deadline meets Zoho ERP's Jan-2026 launch: the first moment an Indian ERP option exists exactly as the dependency comes up for renewal.</text>
+  <text x="56" y="860" font-size="12.5" fill="#4A5567">Source: company disclosures; MOSIP; MeitY. Readiness = Techadyant Labs assessment (maps to the capture-status scale). Indicative.</text>
+</svg>

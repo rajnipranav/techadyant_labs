@@ -1,0 +1,52 @@
+<svg viewBox="0 0 1180 740" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="1180" height="740" fill="#FBF9F4"/>
+  <text x="56" y="56" font-size="27" font-weight="700" fill="#0F1828">The dependency, the economy, and the 2027 cliff</text>
+  <text x="56" y="86" font-size="16" fill="#4A5567">What India pays for SAP software, the services economy around it, and the forced migration now bearing down on it.</text>
+  <text x="1124" y="40" font-size="13" fill="#4A5567" text-anchor="end">Figure 5.1 · Techadyant Labs · 2026</text>
+
+  <!-- LEFT: software vs economy bars -->
+  <text x="56" y="150" font-size="15" font-weight="700" fill="#4A5567">INDIA ERP MARKET, 2024 (USD bn)</text>
+
+  <!-- axis baseline at x=70..560, scale: 0..5bn -> 0..490px -->
+  <!-- software-only bar 1.8bn -->
+  <text x="70" y="196" font-size="14" fill="#0F1828">ERP software (licence + subscription)</text>
+  <rect x="70" y="206" width="176" height="46" fill="#C8443B"/>
+  <text x="256" y="236" font-size="20" font-weight="700" fill="#C8443B" font-family="monospace">$1.8bn</text>
+  <text x="70" y="272" font-size="12.5" fill="#4A5567">— the foreign-controlled dependency</text>
+
+  <!-- broad bar 4.5bn -->
+  <text x="70" y="318" font-size="14" fill="#0F1828">+ services, implementation, consulting</text>
+  <rect x="70" y="328" width="441" height="46" fill="#C9A84C"/>
+  <rect x="70" y="328" width="176" height="46" fill="#C8443B"/>
+  <text x="521" y="358" font-size="20" font-weight="700" fill="#9c7e1f" font-family="monospace">$4.5bn</text>
+  <text x="70" y="394" font-size="12.5" fill="#4A5567">— the ~$2.5bn gap is the services layer, much of it captured by Indian SIs</text>
+
+  <text x="70" y="452" font-size="14" fill="#0F1828">Global cross-check: $1.8bn = 2.7% of the $66bn global</text>
+  <text x="70" y="472" font-size="14" fill="#0F1828">ERP-software market = India's 2.7% share of world IT spend.</text>
+
+  <!-- RIGHT: the 2027 cliff -->
+  <line x1="600" y1="150" x2="600" y2="680" stroke="#E8E5DD" stroke-width="2"/>
+  <text x="640" y="150" font-size="15" font-weight="700" fill="#4A5567">THE ECC END-OF-SUPPORT CLIFF</text>
+
+  <text x="640" y="196" font-size="15" fill="#0F1828">SAP ECC mainstream support ends</text>
+  <text x="640" y="226" font-size="44" font-weight="700" fill="#C8443B" font-family="monospace">31 Dec 2027</text>
+  <text x="640" y="262" font-size="13" fill="#4A5567">Extended maintenance to 2030 (+2%/yr); private-edition option to 2033.</text>
+
+  <!-- migration gauge -->
+  <text x="640" y="318" font-size="14" fill="#0F1828">Global ECC base migrated to S/4HANA (end-2024)</text>
+  <rect x="640" y="332" width="420" height="34" rx="6" fill="#E8E5DD"/>
+  <rect x="640" y="332" width="164" height="34" rx="6" fill="#2BC5B4"/>
+  <text x="652" y="355" font-size="15" font-weight="700" fill="#0F1828">39% migrated (~14,000 of 35,000)</text>
+  <text x="640" y="392" font-size="13" fill="#4A5567">~17,000 enterprises projected still on ECC at the deadline.</text>
+
+  <text x="640" y="446" font-size="14" fill="#0F1828">Migration takes 18–42 months → 2026 is the last window.</text>
+
+  <rect x="640" y="478" width="420" height="150" rx="10" fill="#0F1828"/>
+  <text x="662" y="512" font-size="15" font-weight="700" fill="#C9A84C">India's 5,000+ SAP enterprises now choose:</text>
+  <text x="662" y="544" font-size="14" fill="#FBF9F4">1 · Re-platform to SAP cloud — resets lock-in, rent never stops</text>
+  <text x="662" y="572" font-size="14" fill="#FBF9F4">2 · Pay to delay (2030 / 2033) — buys time, resolves nothing</text>
+  <text x="662" y="600" font-size="14" fill="#FBF9F4">3 · Exit to an alternative — full switching cost, none yet have</text>
+
+  <text x="56" y="712" font-size="12.5" fill="#4A5567">Source: Gartner (migration data via CIO); SAP; market-research aggregators. EDI/market figures per Techadyant Labs methodology.</text>
+  <text x="1124" y="712" font-size="12" font-style="italic" fill="#C9A84C" text-anchor="end">Provisional</text>
+</svg>

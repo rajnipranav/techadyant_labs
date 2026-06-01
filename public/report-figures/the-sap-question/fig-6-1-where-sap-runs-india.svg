@@ -1,0 +1,101 @@
+<svg viewBox="0 0 1180 920" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="1180" height="920" fill="#FBF9F4"/>
+  <text x="56" y="58" font-size="27" font-weight="700" fill="#0F1828">Where SAP runs India</text>
+  <text x="56" y="88" font-size="16" fill="#4A5567">The system of record at the operational core of India's energy, power, metals, defence and manufacturing backbone.</text>
+  <text x="1124" y="40" font-size="13" fill="#4A5567" text-anchor="end">Figure 6.1 · Techadyant Labs · 2026</text>
+
+  <!-- header row -->
+  <g>
+    <text x="60" y="142" font-size="13" font-weight="700" fill="#4A5567">SECTOR</text>
+    <text x="250" y="142" font-size="13" font-weight="700" fill="#4A5567">ENTERPRISE</text>
+    <text x="470" y="142" font-size="13" font-weight="700" fill="#4A5567">SAP PROGRAMME</text>
+    <text x="700" y="142" font-size="13" font-weight="700" fill="#4A5567">SCOPE / SCALE</text>
+  </g>
+  <line x1="56" y1="154" x2="1124" y2="154" stroke="#0F1828" stroke-width="1.5"/>
+
+  <!-- rows: y0=190, step 64 -->
+  <!-- Oil & Gas group -->
+  <g>
+    <rect x="56" y="166" width="1068" height="190" fill="#C8443B" fill-opacity="0.06"/>
+    <rect x="56" y="166" width="6" height="190" fill="#C8443B"/>
+    <text x="78" y="200" font-size="15" font-weight="700" fill="#0F1828">Oil &amp; Gas</text>
+    <text x="78" y="222" font-size="12" fill="#4A5567">Energy core</text>
+
+    <text x="250" y="200" font-size="15" fill="#0F1828">ONGC</text>
+    <text x="470" y="200" font-size="15" fill="#0F1828">Project ICE</text>
+    <text x="700" y="200" font-size="14" fill="#4A5567">23 modules · 500+ sites · 14,000+ users · live 2004</text>
+
+    <text x="250" y="252" font-size="15" fill="#0F1828">Indian Oil (IOCL)</text>
+    <text x="470" y="252" font-size="15" fill="#0F1828">Project Manthan → S/4HANA</text>
+    <text x="700" y="252" font-size="14" fill="#4A5567">R/3 across 500+ sites; IOC-Adani on S/4HANA Cloud</text>
+
+    <text x="250" y="304" font-size="15" fill="#0F1828">BPCL</text>
+    <text x="470" y="304" font-size="15" fill="#0F1828">SAP ERP</text>
+    <text x="700" y="304" font-size="14" fill="#4A5567">Refining &amp; distribution</text>
+  </g>
+
+  <!-- Power -->
+  <g>
+    <rect x="56" y="358" width="1068" height="126" fill="#C9A84C" fill-opacity="0.10"/>
+    <rect x="56" y="358" width="6" height="126" fill="#C9A84C"/>
+    <text x="78" y="392" font-size="15" font-weight="700" fill="#0F1828">Power</text>
+    <text x="78" y="414" font-size="12" fill="#4A5567">Utility layer</text>
+
+    <text x="250" y="392" font-size="15" fill="#0F1828">NTPC</text>
+    <text x="470" y="392" font-size="15" fill="#0F1828">Project Lakshya</text>
+    <text x="700" y="392" font-size="14" fill="#4A5567">SAP for Utilities (IS-U, SEM, SRM, Portal) · 10 mo pilot</text>
+
+    <text x="250" y="444" font-size="15" fill="#0F1828">NSPCL (NTPC–SAIL)</text>
+    <text x="470" y="444" font-size="15" fill="#0F1828">Project Srijan</text>
+    <text x="700" y="444" font-size="14" fill="#4A5567">4 locations · 9.5 months</text>
+  </g>
+
+  <!-- Metals & Heavy Mfg -->
+  <g>
+    <rect x="56" y="486" width="1068" height="126" fill="#C9A84C" fill-opacity="0.10"/>
+    <rect x="56" y="486" width="6" height="126" fill="#C9A84C"/>
+    <text x="78" y="520" font-size="15" font-weight="700" fill="#0F1828">Metals &amp; Heavy</text>
+    <text x="78" y="542" font-size="12" fill="#4A5567">Manufacturing</text>
+
+    <text x="250" y="520" font-size="15" fill="#0F1828">SAIL</text>
+    <text x="470" y="520" font-size="15" fill="#0F1828">SAP ERP → S/4HANA-ready</text>
+    <text x="700" y="520" font-size="14" fill="#4A5567">Integrated plants + Central Marketing Org</text>
+
+    <text x="250" y="572" font-size="15" fill="#0F1828">BHEL</text>
+    <text x="470" y="572" font-size="15" fill="#0F1828">SAP ERP</text>
+    <text x="700" y="572" font-size="14" fill="#4A5567">Power &amp; industrial equipment manufacturing</text>
+  </g>
+
+  <!-- Defence -->
+  <g>
+    <rect x="56" y="614" width="1068" height="74" fill="#C8443B" fill-opacity="0.10"/>
+    <rect x="56" y="614" width="6" height="74" fill="#C8443B"/>
+    <text x="78" y="648" font-size="15" font-weight="700" fill="#0F1828">Defence</text>
+    <text x="78" y="670" font-size="12" fill="#4A5567">Navratna / MoD</text>
+
+    <text x="250" y="648" font-size="15" fill="#0F1828">Bharat Electronics</text>
+    <text x="470" y="648" font-size="15" fill="#0F1828">Company-wide SAP + GRC</text>
+    <text x="700" y="648" font-size="14" fill="#4A5567">Finance, P2P, O2C, MM, HR, payroll — security core</text>
+  </g>
+
+  <!-- Telecom & Auto -->
+  <g>
+    <rect x="56" y="690" width="1068" height="126" fill="#E8E5DD" fill-opacity="0.55"/>
+    <rect x="56" y="690" width="6" height="126" fill="#4A5567"/>
+    <text x="78" y="724" font-size="15" font-weight="700" fill="#0F1828">Telecom &amp; Auto</text>
+    <text x="78" y="746" font-size="12" fill="#4A5567">Wider field</text>
+
+    <text x="250" y="724" font-size="15" fill="#0F1828">BSNL</text>
+    <text x="470" y="724" font-size="15" fill="#0F1828">SAP ERP</text>
+    <text x="700" y="724" font-size="14" fill="#4A5567">State telecom operator</text>
+
+    <text x="250" y="776" font-size="15" fill="#0F1828">Mahindra · Tata AutoComp</text>
+    <text x="470" y="776" font-size="15" fill="#0F1828">SAP ECC → S/4HANA</text>
+    <text x="700" y="776" font-size="14" fill="#4A5567">Tata AutoComp: 16 BUs, brownfield via TCS</text>
+  </g>
+
+  <line x1="56" y1="816" x2="1124" y2="816" stroke="#0F1828" stroke-width="1"/>
+  <text x="56" y="858" font-size="15" font-weight="700" fill="#0F1828">Modelled: SAP-running enterprises ≈ 12–18% of India's GDP (central ~15%) at the system-of-record layer.</text>
+  <text x="56" y="892" font-size="12.5" fill="#4A5567">Source: company &amp; SAP implementation-partner disclosures; Techadyant Labs model (Appendix F). Deployments to be re-confirmed vs each enterprise's annual report.</text>
+  <text x="1124" y="892" font-size="12" font-style="italic" fill="#C9A84C" text-anchor="end">Provisional</text>
+</svg>

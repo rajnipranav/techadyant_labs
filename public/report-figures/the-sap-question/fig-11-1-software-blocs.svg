@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1180 720" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1180" height="720" fill="#FBF9F4"/>
+<text x="56" y="54" font-size="27" font-weight="700" fill="#0F1828">The three software blocs</text>
+<text x="56" y="84" font-size="16" fill="#4A5567">Software has split into geopolitical blocs. India sits in the contested middle — dependent on one, watching the other substitute.</text>
+<text x="1124" y="40" font-size="13" fill="#4A5567" text-anchor="end">Figure 11.1 · Techadyant Labs · 2026</text>
+<rect x="56" y="130" width="340" height="470" rx="12" fill="#C8443B" fill-opacity="0.12" stroke="#C8443B" stroke-width="2"/>
+<rect x="56" y="130" width="340" height="64" rx="12" fill="#C8443B"/>
+<text x="76" y="165" font-size="17" font-weight="700" fill="#FBF9F4">US / WESTERN BLOC</text>
+<text x="76" y="185" font-size="13" fill="#FBF9F4" opacity="0.9">controls the stack</text>
+<circle cx="80" cy="224" r="3.5" fill="#C8443B"/>
+<text x="94" y="228" font-size="13.5" fill="#0F1828">SAP, Oracle, Microsoft, Salesforce</text>
+<circle cx="80" cy="264" r="3.5" fill="#C8443B"/>
+<text x="94" y="268" font-size="13.5" fill="#0F1828">AWS · Azure · Google Cloud</text>
+<circle cx="80" cy="304" r="3.5" fill="#C8443B"/>
+<text x="94" y="308" font-size="13.5" fill="#0F1828">OpenAI · Anthropic · Google</text>
+<circle cx="80" cy="344" r="3.5" fill="#C8443B"/>
+<text x="94" y="348" font-size="13.5" fill="#0F1828">CLOUD Act extraterritorial reach</text>
+<circle cx="80" cy="384" r="3.5" fill="#C8443B"/>
+<text x="94" y="388" font-size="13.5" fill="#0F1828">Kaspersky banned (2024) · Huawei</text>
+<text x="94" y="406" font-size="13.5" fill="#0F1828">entity-listed</text>
+<rect x="420" y="130" width="340" height="470" rx="12" fill="#C9A84C" fill-opacity="0.12" stroke="#C9A84C" stroke-width="2"/>
+<rect x="420" y="130" width="340" height="64" rx="12" fill="#C9A84C"/>
+<text x="440" y="165" font-size="17" font-weight="700" fill="#0F1828">CONTESTED MIDDLE</text>
+<text x="440" y="185" font-size="13" fill="#0F1828" opacity="0.9">seeking sovereignty</text>
+<circle cx="444" cy="224" r="3.5" fill="#C9A84C"/>
+<text x="458" y="228" font-size="13.5" fill="#0F1828">EU: 70%+ cloud US-controlled</text>
+<circle cx="444" cy="264" r="3.5" fill="#C9A84C"/>
+<text x="458" y="268" font-size="13.5" fill="#0F1828">GAIA-X (€10bn) — captured by</text>
+<text x="458" y="286" font-size="13.5" fill="#0F1828">incumbents</text>
+<circle cx="444" cy="322" r="3.5" fill="#C9A84C"/>
+<text x="458" y="326" font-size="13.5" fill="#0F1828">India: ~59% DIEM captured</text>
+<circle cx="444" cy="362" r="3.5" fill="#C9A84C"/>
+<text x="458" y="366" font-size="13.5" fill="#0F1828">...but DPI/UPI/MOSIP sovereign +</text>
+<text x="458" y="384" font-size="13.5" fill="#0F1828">exported</text>
+<circle cx="444" cy="420" r="3.5" fill="#C9A84C"/>
+<text x="458" y="424" font-size="13.5" fill="#0F1828">the report's subject</text>
+<rect x="784" y="130" width="340" height="470" rx="12" fill="#2BC5B4" fill-opacity="0.12" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="784" y="130" width="340" height="64" rx="12" fill="#2BC5B4"/>
+<text x="804" y="165" font-size="17" font-weight="700" fill="#FBF9F4">CHINA / XINCHUANG</text>
+<text x="804" y="185" font-size="13" fill="#FBF9F4" opacity="0.9">substituting deliberately</text>
+<circle cx="808" cy="224" r="3.5" fill="#2BC5B4"/>
+<text x="822" y="228" font-size="13.5" fill="#0F1828">Yonyou #1 ERP · Kingdee · SAP #4</text>
+<circle cx="808" cy="264" r="3.5" fill="#2BC5B4"/>
+<text x="822" y="268" font-size="13.5" fill="#0F1828">state-driven substitution programme</text>
+<circle cx="808" cy="304" r="3.5" fill="#2BC5B4"/>
+<text x="822" y="308" font-size="13.5" fill="#0F1828">domestic OS / DB / cloud mandated</text>
+<circle cx="808" cy="344" r="3.5" fill="#2BC5B4"/>
+<text x="822" y="348" font-size="13.5" fill="#0F1828">but ~25% high-end localisation</text>
+<text x="822" y="366" font-size="13.5" fill="#0F1828">ceiling</text>
+<circle cx="808" cy="402" r="3.5" fill="#2BC5B4"/>
+<text x="822" y="406" font-size="13.5" fill="#0F1828">the substitution model — and its</text>
+<text x="822" y="424" font-size="13.5" fill="#0F1828">limit</text>
+<text x="590" y="628" font-size="14" font-weight="700" fill="#9c7e1f" text-anchor="middle">India: captured at the enterprise core, sovereign at the citizen rails.</text>
+<text x="56" y="668" font-size="14" font-weight="700" fill="#0F1828">The middle bloc has the hardest task: escape the Western stack without China's coercive tools — by building, not mandating.</text>
+<text x="56" y="694" font-size="12" fill="#4A5567">Source: Techadyant Labs synthesis (US export controls; EU GAIA-X; China Xinchuang). Schematic, not geographic.</text>
+</svg>

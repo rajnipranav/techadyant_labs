@@ -11,6 +11,7 @@ import { ReportContent as FabContent, toc as fabToc } from '../content/india-fab
 import { ReportContent as AiTransitionContent, toc as aiTransitionToc } from '../content/india-ai-industrial-transition-2026-2035';
 import { ReportContent as MineralsContent, toc as mineralsToc } from '../content/who-actually-captures-the-india-us-minerals-alliance';
 import { ReportContent as BattlefieldContent, toc as battlefieldToc } from '../content/india-battlefield-automation-gap';
+import { ReportContent as SapFlagshipContent, toc as sapFlagshipToc } from '../content/the-sap-question-flagship';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -19,6 +20,7 @@ const registry: Record<string, ReportModule> = {
   'india-ai-industrial-transition-2026-2035': { toc: aiTransitionToc, Content: AiTransitionContent },
   'who-actually-captures-the-india-us-minerals-alliance': { toc: mineralsToc, Content: MineralsContent },
   'india-battlefield-automation-gap': { toc: battlefieldToc, Content: BattlefieldContent },
+  'the-sap-question-flagship': { toc: sapFlagshipToc, Content: SapFlagshipContent },
 };
 
 export function generateStaticParams() {
@@ -29,7 +31,27 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const r = getReport(slug);
   if (!r) return {};
-  return { title: r.title, description: r.summary };
+  const ogImage = slug === 'the-sap-question-flagship' ? '/og/the-sap-question-flagship.png' : r.cover;
+  const url = `https://labs.techadyant.com/reports/${slug}/`;
+  return {
+    title: r.title,
+    description: r.summary,
+    alternates: { canonical: url },
+    openGraph: {
+      title: r.title,
+      description: r.subtitle,
+      url,
+      type: 'article',
+      siteName: 'Techadyant Labs',
+      images: ogImage ? [{ url: ogImage, width: 1200, height: 630, alt: r.title }] : undefined,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: r.title,
+      description: r.subtitle,
+      images: ogImage ? [ogImage] : undefined,
+    },
+  };
 }
 
 function articleJsonLd(meta: ReturnType<typeof getReport>) {

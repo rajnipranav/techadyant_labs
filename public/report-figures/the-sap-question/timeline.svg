@@ -1,0 +1,69 @@
+<svg viewBox="0 0 1180 620" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="1180" height="620" fill="#FBF9F4"/>
+  <text x="56" y="54" font-size="27" font-weight="700" fill="#0F1828">The making of a dependency, 1990–2026</text>
+  <text x="56" y="84" font-size="16" fill="#4A5567">Each wave layered new foreign-controlled infrastructure onto the economy — and made the next harder to reverse.</text>
+  <text x="1124" y="40" font-size="13" fill="#4A5567" text-anchor="end">Figure 2.1 · Techadyant Labs · 2026</text>
+
+  <!-- spine -->
+  <line x1="90" y1="330" x2="1110" y2="330" stroke="#0F1828" stroke-width="2.5"/>
+  <text x="90" y="362" font-size="12" fill="#4A5567">1990</text>
+  <text x="1110" y="362" font-size="12" fill="#4A5567" text-anchor="end">2026</text>
+
+  <!-- nodes: x positions across the spine; alternate above/below -->
+  <!-- 1991 Liberalisation -->
+  <circle cx="150" cy="330" r="9" fill="#4A5567"/>
+  <line x1="150" y1="330" x2="150" y2="250" stroke="#4A5567" stroke-width="1.2"/>
+  <text x="150" y="240" font-size="14" font-weight="700" fill="#0F1828" text-anchor="middle">1991</text>
+  <text x="150" y="222" font-size="13" fill="#4A5567" text-anchor="middle">Liberalisation</text>
+  <text x="150" y="206" font-size="11.5" fill="#4A5567" text-anchor="middle">global competition arrives</text>
+
+  <!-- 1990s Database/Oracle -->
+  <circle cx="290" cy="330" r="9" fill="#C8443B"/>
+  <line x1="290" y1="330" x2="290" y2="410" stroke="#C8443B" stroke-width="1.2"/>
+  <text x="290" y="430" font-size="14" font-weight="700" fill="#0F1828" text-anchor="middle">1990s</text>
+  <text x="290" y="448" font-size="13" fill="#4A5567" text-anchor="middle">Database era</text>
+  <text x="290" y="464" font-size="11.5" fill="#C8443B" text-anchor="middle">Oracle takes the layer</text>
+
+  <!-- late 90s-2000s ERP/SAP -->
+  <circle cx="450" cy="330" r="11" fill="#C8443B"/>
+  <line x1="450" y1="330" x2="450" y2="234" stroke="#C8443B" stroke-width="1.2"/>
+  <text x="450" y="224" font-size="14" font-weight="700" fill="#0F1828" text-anchor="middle">1999–2005</text>
+  <text x="450" y="206" font-size="13" fill="#4A5567" text-anchor="middle">ERP wave — SAP</text>
+  <text x="450" y="190" font-size="11.5" fill="#C8443B" text-anchor="middle">PSUs go wall-to-wall (IOCL, ONGC, NTPC)</text>
+
+  <!-- 2000s Microsoft -->
+  <circle cx="600" cy="330" r="9" fill="#C8443B"/>
+  <line x1="600" y1="330" x2="600" y2="410" stroke="#C8443B" stroke-width="1.2"/>
+  <text x="600" y="430" font-size="14" font-weight="700" fill="#0F1828" text-anchor="middle">2000s</text>
+  <text x="600" y="448" font-size="13" fill="#4A5567" text-anchor="middle">Productivity / OS</text>
+  <text x="600" y="464" font-size="11.5" fill="#C8443B" text-anchor="middle">Microsoft becomes universal</text>
+
+  <!-- 2010s Cloud -->
+  <circle cx="760" cy="330" r="11" fill="#C8443B"/>
+  <line x1="760" y1="330" x2="760" y2="250" stroke="#C8443B" stroke-width="1.2"/>
+  <text x="760" y="240" font-size="14" font-weight="700" fill="#0F1828" text-anchor="middle">2010s</text>
+  <text x="760" y="222" font-size="13" fill="#4A5567" text-anchor="middle">Cloud migration</text>
+  <text x="760" y="206" font-size="11.5" fill="#C8443B" text-anchor="middle">AWS · Azure · Google — the new substrate</text>
+
+  <!-- 2010s-20s SaaS (India produces) -->
+  <circle cx="910" cy="330" r="9" fill="#2BC5B4"/>
+  <line x1="910" y1="330" x2="910" y2="410" stroke="#2BC5B4" stroke-width="1.2"/>
+  <text x="910" y="430" font-size="14" font-weight="700" fill="#0F1828" text-anchor="middle">2015–24</text>
+  <text x="910" y="448" font-size="13" fill="#4A5567" text-anchor="middle">SaaS era</text>
+  <text x="910" y="464" font-size="11.5" fill="#1a8a7d" text-anchor="middle">India starts to PRODUCE (Zoho, Freshworks)</text>
+
+  <!-- 2025+ AI -->
+  <circle cx="1060" cy="330" r="11" fill="#C9A84C"/>
+  <line x1="1060" y1="330" x2="1060" y2="250" stroke="#C9A84C" stroke-width="1.2"/>
+  <text x="1060" y="240" font-size="14" font-weight="700" fill="#0F1828" text-anchor="middle">2025+</text>
+  <text x="1060" y="222" font-size="13" fill="#4A5567" text-anchor="middle">AI wave</text>
+  <text x="1060" y="206" font-size="11.5" fill="#9c7e1f" text-anchor="middle">deepens — and could loosen — the hold</text>
+
+  <!-- legend -->
+  <circle cx="90" cy="528" r="7" fill="#C8443B"/><text x="104" y="533" font-size="13" fill="#0F1828">Foreign-controlled wave</text>
+  <circle cx="320" cy="528" r="7" fill="#2BC5B4"/><text x="334" y="533" font-size="13" fill="#0F1828">India produces</text>
+  <circle cx="500" cy="528" r="7" fill="#C9A84C"/><text x="514" y="533" font-size="13" fill="#0F1828">Could cut either way</text>
+
+  <text x="56" y="578" font-size="14" font-weight="700" fill="#0F1828">No one chose the dependency. It was assembled one locally rational decision at a time — which is why no single actor can undo it.</text>
+  <text x="56" y="604" font-size="12.5" fill="#4A5567">Source: Techadyant Labs synthesis of industry histories and company disclosures.</text>
+</svg>

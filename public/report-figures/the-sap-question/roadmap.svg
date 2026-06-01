@@ -1,0 +1,86 @@
+<svg viewBox="0 0 1180 780" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="1180" height="780" fill="#FBF9F4"/>
+  <text x="56" y="54" font-size="27" font-weight="700" fill="#0F1828">The roadmap: who does what, by when</text>
+  <text x="56" y="84" font-size="16" fill="#4A5567">Four actors, three horizons. The decisive moves fall in the first column — the 2027 window — while it is still open.</text>
+  <text x="1124" y="40" font-size="13" fill="#4A5567" text-anchor="end">Figure 28.1 · Techadyant Labs · 2026</text>
+  <rect x="240" y="108" width="300" height="34" fill="#C8443B" fill-opacity="0.14"/>
+  <text x="390" y="131" font-size="14" font-weight="700" fill="#C8443B" text-anchor="middle">NOW → 2027  (the window)</text>
+  <text x="690" y="131" font-size="14" font-weight="700" fill="#4A5567" text-anchor="middle">2027 → 2030  (build)</text>
+  <text x="985" y="131" font-size="14" font-weight="700" fill="#4A5567" text-anchor="middle">2030 → 2035  (scale)</text>
+  <rect x="56" y="150" width="180" height="150" rx="8" fill="#0F1828"/>
+  <text x="146" y="218" font-size="17" font-weight="700" fill="#FBF9F4" text-anchor="middle">GOVERNMENT</text>
+  <text x="146" y="242" font-size="12" fill="#C9A84C" text-anchor="middle">the mission owner</text>
+  <g font-size="13" fill="#0F1828">
+    <text x="252" y="176">• Launch Sovereign Software Mission</text>
+    <text x="262" y="194" fill="#4A5567" font-size="12">(time-bound, incumbents excluded)</text>
+    <text x="252" y="216">• "Public Money, Public Code" procurement</text>
+    <text x="252" y="238">• Mandate SBOM + zero-trust (critical sectors)</text>
+    <text x="252" y="260">• Fund sovereign LLM as infrastructure</text>
+  </g>
+  <g font-size="13" fill="#0F1828">
+    <text x="552" y="186">• National ERP platform live for PSUs</text>
+    <text x="552" y="212">• Confront the cloud gap directly</text>
+    <text x="552" y="238" font-size="12" fill="#4A5567">(sovereign-cloud mandate)</text>
+  </g>
+  <g font-size="13" fill="#0F1828">
+    <text x="847" y="186">• Publish DIEM annually</text>
+    <text x="847" y="212">• Export the sovereign stack</text>
+    <text x="847" y="238" font-size="12" fill="#4A5567">(DPI / MOSIP model)</text>
+  </g>
+  <rect x="56" y="304" width="180" height="150" rx="8" fill="#2E4057"/>
+  <text x="146" y="372" font-size="17" font-weight="700" fill="#FBF9F4" text-anchor="middle">ENTERPRISES</text>
+  <text x="146" y="396" font-size="12" fill="#2BC5B4" text-anchor="middle">the demand side</text>
+  <g font-size="13" fill="#0F1828">
+    <text x="252" y="332">• Run an EDI / SSS dependency audit</text>
+    <text x="252" y="354">• Treat the 2027 SAP call as board-level,</text>
+    <text x="262" y="372" fill="#4A5567" font-size="12">not an IT re-platforming default</text>
+    <text x="252" y="394">• Insist on data portability in contracts</text>
+  </g>
+  <g font-size="13" fill="#0F1828">
+    <text x="552" y="354">• Diversify off monoculture</text>
+    <text x="552" y="380">• Adopt AI-native where credible</text>
+  </g>
+  <g font-size="13" fill="#0F1828">
+    <text x="847" y="354">• Sovereignty-by-design</text>
+    <text x="847" y="380">  in the enterprise stack</text>
+  </g>
+  <rect x="56" y="458" width="180" height="150" rx="8" fill="#2E4057"/>
+  <text x="146" y="520" font-size="16" font-weight="700" fill="#FBF9F4" text-anchor="middle">SOFTWARE COS</text>
+  <text x="146" y="544" font-size="12" fill="#2BC5B4" text-anchor="middle">the builders</text>
+  <g font-size="13" fill="#0F1828">
+    <text x="252" y="486">• Go for the ERP CORE, not the edges</text>
+    <text x="262" y="504" fill="#4A5567" font-size="12">(the Zoho-ERP model)</text>
+    <text x="252" y="526">• Use AI to change the terms —</text>
+    <text x="262" y="544" fill="#4A5567" font-size="12">re-architect, don't out-build SAP</text>
+  </g>
+  <g font-size="13" fill="#0F1828">
+    <text x="552" y="504">• Build the partner /</text>
+    <text x="552" y="524">  consulting ecosystem</text>
+    <text x="552" y="550" font-size="12" fill="#4A5567">(SAP's real moat)</text>
+  </g>
+  <g font-size="13" fill="#0F1828">
+    <text x="847" y="504">• Export the stack:</text>
+    <text x="847" y="524">  Israel (cyber) +</text>
+    <text x="847" y="544">  DPI models</text>
+  </g>
+  <rect x="56" y="612" width="180" height="140" rx="8" fill="#2E4057"/>
+  <text x="146" y="674" font-size="17" font-weight="700" fill="#FBF9F4" text-anchor="middle">INVESTORS</text>
+  <text x="146" y="698" font-size="12" fill="#2BC5B4" text-anchor="middle">the capital</text>
+  <g font-size="13" fill="#0F1828">
+    <text x="252" y="640">• Back the WEAKEST layers</text>
+    <text x="262" y="658" fill="#4A5567" font-size="12">(cloud, AI-native ERP, cyber, sovereign LLM)</text>
+    <text x="252" y="680">• Place the bets inside the window</text>
+    <text x="252" y="702" fill="#C8443B" font-size="11.5">Risks: incumbents win the fork · PSU</text>
+    <text x="252" y="718" fill="#C8443B" font-size="11.5">re-platforms on SAP · protected mediocrity</text>
+  </g>
+  <g font-size="13" fill="#0F1828">
+    <text x="552" y="666">• Growth capital to</text>
+    <text x="552" y="686">  scaling challengers</text>
+  </g>
+  <g font-size="13" fill="#0F1828">
+    <text x="847" y="666">• Public-market exits;</text>
+    <text x="847" y="686">  export franchises</text>
+  </g>
+  <rect x="240" y="150" width="300" height="602" rx="6" fill="none" stroke="#C8443B" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="56" y="772" font-size="12.5" fill="#4A5567">Source: Techadyant Labs synthesis (frameworks, scenarios, supply-side and AI analysis). The first column is the decisive one.</text>
+</svg>

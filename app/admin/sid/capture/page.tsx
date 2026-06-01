@@ -50,22 +50,22 @@ export default function CaptureMap() {
   return (
     <>
       <h1 className="admin-h1">Dependency Capture Map</h1>
-      <p className="admin-sub">Capture status by layer (rows) × corridor (columns), 0 import-dependent → 5 sovereign. Click a cell to view or update its assessment.</p>
+      <p className="admin-sub">Capture status by corridor × layer (0 import-dependent → 5 sovereign). Click a cell to view or update its assessment.</p>
       {err && <div style={{ marginBottom: 12 }}><ErrorBox error={err} /></div>}
 
-      <div style={{ display: 'grid', gridTemplateColumns: `190px repeat(${corridors.length}, minmax(86px, 1fr))`, gap: 4, marginBottom: 12, maxWidth: 880 }}>
+      <div style={{ display: 'grid', gridTemplateColumns: `150px repeat(${layers.length}, 1fr)`, gap: 4, marginBottom: 12 }}>
         <div />
-        {corridors.map(([cid, clabel]) => <div key={cid} style={{ textAlign: 'center', fontSize: 11, color: 'var(--admin-muted)', paddingBottom: 4, alignSelf: 'end', lineHeight: 1.25 }}>{clabel}</div>)}
-        {layers.map(([ord, llabel]) => (
-          <Row key={ord}>
-            <div style={{ display: 'flex', alignItems: 'center', fontSize: 12.5, paddingRight: 8 }}>{llabel}</div>
-            {corridors.map(([cid]) => {
+        {layers.map(([ord, label]) => <div key={ord} style={{ textAlign: 'center', fontSize: 11, color: 'var(--admin-muted)', paddingBottom: 2 }}>{label}</div>)}
+        {corridors.map(([cid, clabel]) => (
+          <Row key={cid}>
+            <div style={{ display: 'flex', alignItems: 'center', fontSize: 13, paddingRight: 6 }}>{clabel}</div>
+            {layers.map(([ord]) => {
               const c = byKey.get(`${cid}:${ord}`);
-              if (!c) return <div key={cid} />;
+              if (!c) return <div key={ord} />;
               const on = sel?.corridor_id === c.corridor_id && sel?.layer_order === c.layer_order;
               return (
-                <button key={cid} onClick={() => select(c)} title={`${c.corridor_label} · ${c.layer_label} — ${c.status_label}`}
-                  style={{ height: 42, border: on ? '2px solid #f5b544' : '1px solid var(--admin-border)', borderRadius: 8, background: CAPTURE_FILL[c.status], color: CAPTURE_INK[c.status], fontWeight: 600, fontSize: 14, cursor: 'pointer', fontFamily: 'var(--admin-mono)' }}>
+                <button key={ord} onClick={() => select(c)} title={c.status_label}
+                  style={{ height: 46, border: on ? '2px solid #f5b544' : '1px solid var(--admin-border)', borderRadius: 8, background: CAPTURE_FILL[c.status], color: CAPTURE_INK[c.status], fontWeight: 600, fontSize: 14, cursor: 'pointer', fontFamily: 'var(--admin-mono)' }}>
                   {c.status}
                 </button>
               );

@@ -1,0 +1,39 @@
+<svg viewBox="0 0 1180 700" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1180" height="700" fill="#FBF9F4"/>
+<text x="56" y="54" font-size="27" font-weight="700" fill="#0F1828">India already built sovereign software at billion-scale</text>
+<text x="56" y="84" font-size="16" fill="#4A5567">The DPI stack is the proof. The opportunity is to extend the same capability from citizen rails to the enterprise core.</text>
+<text x="1124" y="40" font-size="13" fill="#4A5567" text-anchor="end">Figure 17.1 · Techadyant Labs · 2026</text>
+<text x="56" y="150" font-size="15" font-weight="700" fill="#1a8a7d">PROVEN · CITIZEN RAILS (sovereign)</text>
+<rect x="56" y="170" width="460" height="78" rx="8" fill="#2BC5B4" fill-opacity="0.18" stroke="#2BC5B4" stroke-width="1.5"/>
+<text x="78" y="204" font-size="17" font-weight="700" fill="#0F1828">Identity — Aadhaar</text>
+<text x="78" y="228" font-size="13.5" fill="#4A5567">1.2bn+ enrolled</text>
+<rect x="56" y="262" width="460" height="78" rx="8" fill="#2BC5B4" fill-opacity="0.18" stroke="#2BC5B4" stroke-width="1.5"/>
+<text x="78" y="296" font-size="17" font-weight="700" fill="#0F1828">Payments — UPI</text>
+<text x="78" y="320" font-size="13.5" fill="#4A5567">~$3.4tn · ~250bn txns</text>
+<rect x="56" y="354" width="460" height="78" rx="8" fill="#2BC5B4" fill-opacity="0.18" stroke="#2BC5B4" stroke-width="1.5"/>
+<text x="78" y="388" font-size="17" font-weight="700" fill="#0F1828">Data / consent — Account Aggregator</text>
+<text x="78" y="412" font-size="13.5" fill="#4A5567">consent-based sharing</text>
+<rect x="56" y="446" width="460" height="78" rx="8" fill="#2BC5B4" fill-opacity="0.18" stroke="#2BC5B4" stroke-width="1.5"/>
+<text x="78" y="480" font-size="17" font-weight="700" fill="#0F1828">Export — MOSIP</text>
+<text x="78" y="504" font-size="13.5" fill="#4A5567">9+ countries · 100M+ IDs</text>
+<path d="M 540 380 L 636 380" stroke="#C9A84C" stroke-width="4" fill="none"/>
+<path d="M 636 380 l -16 -9 l 0 18 z" fill="#C9A84C"/>
+<text x="588" y="360" font-size="13" font-weight="700" fill="#9c7e1f" text-anchor="middle">extend the</text>
+<text x="588" y="404" font-size="13" font-weight="700" fill="#9c7e1f" text-anchor="middle">same capability</text>
+<text x="664" y="150" font-size="15" font-weight="700" fill="#C8443B">TO BUILD · ENTERPRISE CORE (captured)</text>
+<rect x="664" y="170" width="460" height="78" rx="8" fill="#C9A84C" fill-opacity="0.16" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="686" y="204" font-size="17" font-weight="700" fill="#0F1828">Sovereign data substrate</text>
+<text x="686" y="228" font-size="13.5" fill="#4A5567">open, auditable</text>
+<rect x="664" y="262" width="460" height="78" rx="8" fill="#C9A84C" fill-opacity="0.16" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="686" y="296" font-size="17" font-weight="700" fill="#0F1828">Sovereign reasoning model</text>
+<text x="686" y="320" font-size="13.5" fill="#4A5567">Sarvam / IndiaAI</text>
+<rect x="664" y="354" width="460" height="78" rx="8" fill="#C9A84C" fill-opacity="0.16" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="686" y="388" font-size="17" font-weight="700" fill="#0F1828">AI-native agents (GST-native)</text>
+<text x="686" y="412" font-size="13.5" fill="#4A5567">Zoho ERP / ERPNext + AI</text>
+<rect x="664" y="446" width="460" height="78" rx="8" fill="#C9A84C" fill-opacity="0.16" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="686" y="480" font-size="17" font-weight="700" fill="#0F1828">Governance + audit (SBOM, zero-trust)</text>
+<text x="686" y="504" font-size="13.5" fill="#4A5567">policy + code</text>
+<rect x="56" y="600" width="1068" height="64" rx="10" fill="#0F1828"/>
+<text x="80" y="628" font-size="15" font-weight="700" fill="#C9A84C">The capability is not created from nothing — it is extended from where India already leads the world.</text>
+<text x="80" y="652" font-size="13" fill="#E8E5DD">Source: India Stack / MOSIP disclosures; Techadyant Labs framework. The four enterprise layers are the AI-native sovereign stack of Ch 19.</text>
+</svg>
