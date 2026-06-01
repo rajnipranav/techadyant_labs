@@ -14,6 +14,8 @@ export default function Candidacy() {
   const [rej, setRej] = useState<Rej[] | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [busy, setBusy] = useState<string | null>(null);
+  const [scanning, setScanning] = useState(false);
+  const [scanMsg, setScanMsg] = useState<string | null>(null);
   const [open, setOpen] = useState<string | null>(null);
   const [mode, setMode] = useState<'promote' | 'merge' | null>(null);
   const [etype, setEtype] = useState('company');
@@ -44,16 +46,30 @@ export default function Candidacy() {
     try { await api('/sid/restore', { method: 'POST', body: JSON.stringify({ id }) }); load(); }
     finally { setBusy(null); }
   }
+  async function scan() {
+    setScanning(true); setScanMsg(null);
+    try {
+      const r: any = await api('/candidacy/scan', { method: 'POST' });
+      setScanMsg(r?.ok ? `Scanned ✓ — ${r.processed ?? 0} signals, ${r.candidates ?? 0} new candidates, ${r.errors ?? 0} errors` : `Scan: HTTP ${r?.status} ${String(r?.error || r?.raw || '').slice(0, 120)}`);
+      if (tab === 'active') load();
+    } catch (e: any) { setScanMsg('Scan failed: ' + String(e.message || e).slice(0, 140)); }
+    finally { setScanning(false); }
+  }
 
   return (
     <>
       <h1 className="admin-h1">Candidacy review queue</h1>
       <p className="admin-sub">Entities surfaced from the signal feed. Promote, merge, reject, or permanently block. Rejected & blocked firms never re-enter the queue.</p>
 
-      <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
+      <div style={{ display: 'flex', gap: 8, marginBottom: 16, alignItems: 'center' }}>
         <button className={'admin-btn' + (tab === 'active' ? ' admin-btn-go' : '')} onClick={() => setTab('active')}>Active queue</button>
         <button className={'admin-btn' + (tab === 'rejected' ? ' admin-btn-go' : '')} onClick={() => setTab('rejected')}>Rejected</button>
+        <span style={{ flex: 1 }} />
+        <button className="admin-btn" disabled={scanning} onClick={scan} title="Run the entity extractor now on unprocessed high-India signals">
+          {scanning ? 'scanning…' : '⟳ Run scan now'}
+        </button>
       </div>
+      {scanMsg && <div style={{ marginBottom: 14, padding: '8px 12px', borderRadius: 8, background: 'var(--admin-surface)', border: '1px solid var(--admin-border)', fontSize: 12.5, fontFamily: 'var(--admin-mono)' }}>{scanMsg}</div>}
 
       {err && <ErrorBox error={err} />}
       {tab === 'active' && !rows && !err && <Loading />}

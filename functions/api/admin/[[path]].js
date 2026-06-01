@@ -140,6 +140,16 @@ export async function onRequest(context) {
       const b = await request.json();
       return reply(await rpc(N, NK, 'sid_figure_set_status', { p_path: b.path, p_status: b.status }));
     }
+    if (request.method === 'POST' && route === '/candidacy/scan') {
+      const fnUrl = `${N.replace(/\/+$/, '')}/functions/v1/sid-entity-extractor?min_india=8&limit=25`;
+      try {
+        const t0 = Date.now();
+        const r = await fetch(fnUrl, { method: 'POST', headers: { 'content-type': 'application/json', apikey: NK, authorization: `Bearer ${NK}` } });
+        const text = (await r.text()).slice(0, 400);
+        let parsed; try { parsed = JSON.parse(text); } catch { parsed = { raw: text }; }
+        return json(200, { ok: r.ok, status: r.status, ms: Date.now() - t0, ...parsed });
+      } catch (e) { return json(502, { error: 'candidacy scan failed: ' + String(e) }); }
+    }
     if (request.method === 'POST' && route === '/signals/status') {
       const b = await request.json();
       if (!['pending', 'kept', 'archived'].includes(b.status)) return json(400, { error: 'status must be pending|kept|archived' });
