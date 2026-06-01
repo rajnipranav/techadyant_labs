@@ -192,7 +192,7 @@ const baseReports: ReportMeta[] = [
     accent: '#6366F1',
     summary:
       'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
-    access: 'paid',
+    access: 'free',
     price: 4900,
     currency: 'INR',
     hasPdf: false,
@@ -246,7 +246,7 @@ const baseReports: ReportMeta[] = [
     accent: '#F5B544',
     summary:
       'A 300 mm fab consumes ~4 million litres of ultrapure water per day; an Indian advanced-packaging facility would add more. This report audits the water position of each Indian semiconductor cluster against CGWB block-level extraction data, and names the regulatory reforms that would close the supply gap.',
-    access: 'paid',
+    access: 'free',
     price: 4900,
     currency: 'INR',
     hasPdf: false,
@@ -284,7 +284,7 @@ const baseReports: ReportMeta[] = [
     accent: '#38e1c4',
     summary:
       'The arithmetic of Q-Day — the moment large-scale quantum computers break classical public-key cryptography — is no longer purely theoretical. This report maps India’s position: the NIST PQC standards, the CERT-In and MeitY migration posture, the BFSI exposure, and the corridor-level industrial implications.',
-    access: 'paid',
+    access: 'free',
     price: 4900,
     currency: 'INR',
     hasPdf: false,
