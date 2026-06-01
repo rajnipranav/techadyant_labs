@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 700 620">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke-width: .85px;
+      }
+
+      .st0, .st1 {
+        fill: none;
+      }
+
+      .st0, .st1, .st2 {
+        stroke: #d8d3c7;
+      }
+
+      .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14 {
+        isolation: isolate;
+      }
+
+      .st3, .st7, .st14 {
+        opacity: .78;
+      }
+
+      .st3, .st15 {
+        fill: #c9a84c;
+      }
+
+      .st16, .st4 {
+        fill: #846334;
+      }
+
+      .st16, .st4, .st5, .st6, .st9, .st10, .st17, .st11 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st16, .st4, .st5, .st17, .st11 {
+        font-size: 10.5px;
+      }
+
+      .st5, .st7, .st8, .st18, .st12, .st13 {
+        fill: #0f1828;
+      }
+
+      .st6 {
+        fill: #8a8576;
+      }
+
+      .st6, .st8 {
+        font-size: 11px;
+      }
+
+      .st19, .st14 {
+        fill: #1fa89a;
+      }
+
+      .st8, .st12, .st13 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st9 {
+        font-size: 14px;
+      }
+
+      .st9, .st10 {
+        fill: #4a5567;
+      }
+
+      .st10 {
+        font-size: 12px;
+      }
+
+      .st17, .st11 {
+        fill: #2b6862;
+      }
+
+      .st12 {
+        font-size: 26px;
+      }
+
+      .st13 {
+        font-size: 13px;
+      }
+
+      .st2 {
+        fill: #f7f5ef;
+      }
+    </style>
+  </defs>
+  <rect class="st18" y="0" width="700" height="9.07"/>
+  <rect class="st15" y="9.07" width="700" height="3.4"/>
+  <text class="st12" transform="translate(20.93 49.91)"><tspan x="0" y="0">Startup Entry Landscape</tspan></text>
+  <text class="st9" transform="translate(20.93 75.91)"><tspan x="0" y="0">Opportunities by difficulty, time to revenue and dual-use strength</tspan></text>
+  <line class="st0" x1="20.68" y1="92.24" x2="679.32" y2="92.24"/>
+  <rect class="st2" x="89.98" y="126.24" width="560" height="360"/>
+  <line class="st1" x1="201.98" y1="126.24" x2="201.98" y2="486.24"/>
+  <line class="st1" x1="89.98" y1="198.24" x2="649.98" y2="198.24"/>
+  <line class="st1" x1="313.98" y1="126.24" x2="313.98" y2="486.24"/>
+  <line class="st1" x1="89.98" y1="270.24" x2="649.98" y2="270.24"/>
+  <line class="st1" x1="425.98" y1="126.24" x2="425.98" y2="486.24"/>
+  <line class="st1" x1="89.98" y1="342.24" x2="649.98" y2="342.24"/>
+  <line class="st1" x1="537.98" y1="126.24" x2="537.98" y2="486.24"/>
+  <line class="st1" x1="89.98" y1="414.24" x2="649.98" y2="414.24"/>
+  <text class="st13" transform="translate(312.98 513.21)"><tspan x="0" y="0">Technical difficulty →</tspan></text>
+  <text class="st13" transform="translate(63.98 364.28) rotate(-90)"><tspan x="0" y="0">Time to revenue →</tspan></text>
+  <circle class="st14" cx="235.98" cy="205.24" r="15"/>
+  <text class="st17" transform="translate(235.15 174.84)"><tspan x="0" y="0">Edge AI </tspan><tspan x="-4.38" y="12.6">perception</tspan></text>
+  <circle class="st14" cx="302.98" cy="227.24" r="14"/>
+  <text class="st17" transform="translate(281.35 198.24)"><tspan x="0" y="0">Simulation</tspan><tspan x="13.42" y="12.6">tools</tspan></text>
+  <circle class="st3" cx="212.98" cy="198.24" r="13"/>
+  <text class="st4" transform="translate(184.48 220.24)"><tspan x="0" y="0">Fleet </tspan><tspan x="-17.51" y="12.6">management</tspan></text>
+  <circle class="st14" cx="414.98" cy="270.24" r="15"/>
+  <text class="st17" transform="translate(385.99 237.57)"><tspan x="0" y="0">Counter-UAS </tspan><tspan x="12.25" y="12.6">analytics</tspan></text>
+  <circle class="st14" cx="515.98" cy="349.24" r="13"/>
+  <text class="st17" transform="translate(489.12 373.96)"><tspan x="0" y="0">Autonomous</tspan><tspan x="5.54" y="12.6">navigation</tspan></text>
+  <circle class="st7" cx="481.98" cy="320.24" r="14"/>
+  <text class="st5" transform="translate(467.51 292.24)"><tspan x="0" y="0">Tactical</tspan><tspan x="5.25" y="12.6">mesh</tspan></text>
+  <circle class="st3" cx="447.98" cy="292.24" r="13"/>
+  <text class="st16" transform="translate(434.01 262.24)"><tspan x="0" y="0">Thermal </tspan><tspan x="-3.8" y="12.6">integration</tspan></text>
+  <circle class="st14" cx="201.98" cy="191.24" r="13"/>
+  <text class="st11" transform="translate(151.46 162.24)"><tspan x="0" y="0">Maintenance </tspan><tspan x="11.09" y="12.6">analytics</tspan></text>
+  <circle class="st3" cx="324.98" cy="248.24" r="14"/>
+  <text class="st16" transform="translate(331.91 227.24)"><tspan x="0" y="0">Battery </tspan><tspan x="6.71" y="12.6">BMS</tspan></text>
+  <circle class="st19" cx="97.98" cy="550.71" r="8"/>
+  <text class="st10" transform="translate(111.98 554.71)"><tspan x="0" y="0">High dual-use</tspan></text>
+  <circle class="st15" cx="247.98" cy="550.71" r="8"/>
+  <text class="st10" transform="translate(261.98 554.71)"><tspan x="0" y="0">Medium</tspan></text>
+  <circle class="st18" cx="397.98" cy="550.71" r="8"/>
+  <text class="st10" transform="translate(411.98 554.71)"><tspan x="0" y="0">Specialised</tspan></text>
+  <line class="st0" x1="20.68" y1="572.24" x2="679.32" y2="572.24"/>
+  <text class="st6" transform="translate(20.68 594.38)"><tspan x="0" y="0">Techadyant Labs analysis. Bubble size = market potential. Indicative only.</tspan></text>
+  <text class="st8" transform="translate(570.12 594.38)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+</svg>

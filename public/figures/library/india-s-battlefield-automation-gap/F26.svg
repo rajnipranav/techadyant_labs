@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 890 620">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        opacity: .5;
+        stroke: #c9a84c;
+        stroke-dasharray: 4 4;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7 {
+        isolation: isolate;
+      }
+
+      .st0, .st8 {
+        stroke-width: 2px;
+      }
+
+      .st1, .st3 {
+        font-size: 11px;
+      }
+
+      .st1, .st4, .st5, .st7 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st1, .st7 {
+        fill: #8a8576;
+      }
+
+      .st9 {
+        fill: #c9a84c;
+      }
+
+      .st10 {
+        fill: none;
+        stroke: #d8d3c7;
+        stroke-width: .98px;
+      }
+
+      .st2, .st3, .st11, .st6 {
+        fill: #0f1828;
+      }
+
+      .st2, .st3, .st6 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st2, .st4 {
+        font-size: 14px;
+      }
+
+      .st12 {
+        fill: #1fa89a;
+      }
+
+      .st4, .st5 {
+        fill: #4a5567;
+      }
+
+      .st5, .st7 {
+        font-size: 10.5px;
+      }
+
+      .st6 {
+        font-size: 26px;
+      }
+
+      .st8 {
+        fill: #f7f5ef;
+        stroke: #1fa89a;
+      }
+    </style>
+  </defs>
+  <rect class="st11" x="-3.55" y="0" width="893.55" height="6.85"/>
+  <rect class="st9" x="-3.55" y="6.85" width="893.55" height="2.57"/>
+  <text class="st6" transform="translate(10.06 49.24)"><tspan x="0" y="0">SME Entry Ladder</tspan></text>
+  <text class="st4" transform="translate(10.06 75.24)"><tspan x="0" y="0">Five ascending stages of autonomy-supply participation</tspan></text>
+  <line class="st10" x1="2.47" y1="88" x2="884.42" y2="88"/>
+  <rect class="st8" x="29.51" y="500" width="560" height="64" rx="8" ry="8"/>
+  <rect class="st12" x="29.51" y="500" width="7" height="64"/>
+  <text class="st2" transform="translate(47.51 524)"><tspan x="0" y="0">1. Build-to-Print Supplier</tspan></text>
+  <text class="st5" transform="translate(47.51 544)"><tspan x="0" y="0">Offer: Machined parts, harnesses</tspan></text>
+  <text class="st7" transform="translate(447.13 544)"><tspan x="0" y="0">Needs: Drawings, basic QA</tspan></text>
+  <path class="st0" d="M309.51,500l70-36"/>
+  <rect class="st8" x="99.51" y="400" width="560" height="64" rx="8" ry="8"/>
+  <rect class="st12" x="99.51" y="400" width="7" height="64"/>
+  <text class="st2" transform="translate(117.51 424)"><tspan x="0" y="0">2. Qualified Component Supplier</tspan></text>
+  <text class="st5" transform="translate(117.51 444)"><tspan x="0" y="0">Offer: Connectors, enclosures, packs</tspan></text>
+  <text class="st7" transform="translate(498.06 444)"><tspan x="0" y="0">Needs: Traceability, certification</tspan></text>
+  <path class="st0" d="M379.51,400l70-36"/>
+  <rect class="st8" x="169.51" y="300" width="560" height="64" rx="8" ry="8"/>
+  <rect class="st12" x="169.51" y="300" width="7" height="64"/>
+  <text class="st2" transform="translate(187.51 324)"><tspan x="0" y="0">3. Subsystem Supplier</tspan></text>
+  <text class="st5" transform="translate(187.51 344)"><tspan x="0" y="0">Offer: Power modules, sensor nodes</tspan></text>
+  <text class="st7" transform="translate(534.56 344)"><tspan x="0" y="0">Needs: Integration, test, rugged design</tspan></text>
+  <path class="st0" d="M449.51,300l70-36"/>
+  <rect class="st8" x="239.51" y="200" width="560" height="64" rx="8" ry="8"/>
+  <rect class="st12" x="239.51" y="200" width="7" height="64"/>
+  <text class="st2" transform="translate(257.51 224)"><tspan x="0" y="0">4. Co-Development Partner</tspan></text>
+  <text class="st5" transform="translate(257.51 244)"><tspan x="0" y="0">Offer: Shared design of subsystems</tspan></text>
+  <text class="st7" transform="translate(650.85 244)"><tspan x="0" y="0">Needs: IP, engineering depth</tspan></text>
+  <path class="st0" d="M519.51,200l70-36"/>
+  <rect class="st8" x="309.51" y="100" width="560" height="64" rx="8" ry="8"/>
+  <rect class="st12" x="309.51" y="100" width="7" height="64"/>
+  <text class="st2" transform="translate(327.51 124)"><tspan x="0" y="0">5. Lifecycle Support Provider</tspan></text>
+  <text class="st5" transform="translate(327.51 144)"><tspan x="0" y="0">Offer: Repair, spares, upgrades</tspan></text>
+  <text class="st7" transform="translate(697.94 144)"><tspan x="0" y="0">Needs: Field service, sustainment</tspan></text>
+  <line class="st10" x1="2.47" y1="576" x2="884.42" y2="576"/>
+  <text class="st1" transform="translate(18.55 598)"><tspan x="0" y="0">Techadyant Labs framework. Each rung adds capability and margin.</tspan></text>
+  <text class="st3" transform="translate(767.42 598)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+</svg>

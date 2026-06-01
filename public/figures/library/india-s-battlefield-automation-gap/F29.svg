@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 600 520">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 12.5px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st3 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st0, .st3 {
+        fill: #4a5567;
+      }
+
+      .st1 {
+        fill: #8a8576;
+      }
+
+      .st1, .st2 {
+        font-size: 11px;
+      }
+
+      .st6 {
+        fill: #c9a84c;
+      }
+
+      .st7 {
+        fill: #1fa89a;
+      }
+
+      .st2, .st8, .st4, .st5 {
+        fill: #0f1828;
+      }
+
+      .st2, .st4, .st5 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st3 {
+        font-size: 14px;
+      }
+
+      .st9 {
+        fill: none;
+        stroke-width: .78px;
+      }
+
+      .st9, .st10 {
+        stroke: #d8d3c7;
+      }
+
+      .st4 {
+        font-size: 26px;
+      }
+
+      .st5 {
+        font-size: 15px;
+      }
+
+      .st11 {
+        stroke: #c9a84c;
+      }
+
+      .st11, .st12 {
+        stroke-width: 3px;
+      }
+
+      .st12 {
+        stroke: #1fa89a;
+      }
+
+      .st10 {
+        fill: #f7f5ef;
+        stroke-width: .72px;
+      }
+    </style>
+  </defs>
+  <rect class="st8" x="-1.88" y=".38" width="603.76" height="8"/>
+  <rect class="st6" x="-1.88" y="8.38" width="603.76" height="3"/>
+  <text class="st4" transform="translate(33.5 60.35)"><tspan x="0" y="0">Commercial–Defence Transition Pathways</tspan></text>
+  <text class="st3" transform="translate(33.5 86.35)"><tspan x="0" y="0">Capability flows both ways across the dual-use boundary</tspan></text>
+  <line class="st9" x1="22.27" y1="96.38" x2="577.73" y2="96.38"/>
+  <rect class="st10" x="73.65" y="116.25" width="470.85" height="150" rx="7.15" ry="7.15"/>
+  <rect class="st7" x="73.65" y="116.25" width="7" height="150"/>
+  <text class="st5" transform="translate(93.65 146.25)"><tspan x="0" y="0">Commercial → Defence</tspan></text>
+  <text class="st0" transform="translate(93.65 178.25)"><tspan x="0" y="0">• Agriculture drones → ISR drones</tspan></text>
+  <text class="st0" transform="translate(93.65 204.25)"><tspan x="0" y="0">• Mining robots → logistics UGVs</tspan></text>
+  <text class="st0" transform="translate(93.65 230.25)"><tspan x="0" y="0">• Telecom power → border sensor networks</tspan></text>
+  <path class="st12" d="M477.39,191.76h22"/>
+  <path class="st7" d="M497.39,185.76l10,6-10,6v-12Z"/>
+  <rect class="st10" x="73.65" y="301.25" width="470.85" height="150" rx="7.15" ry="7.15"/>
+  <rect class="st6" x="73.65" y="301.25" width="7" height="150"/>
+  <text class="st5" transform="translate(93.65 331.25)"><tspan x="0" y="0">Defence → Commercial</tspan></text>
+  <text class="st0" transform="translate(93.65 363.25)"><tspan x="0" y="0">• Rugged radios → disaster-response networks</tspan></text>
+  <text class="st0" transform="translate(93.65 389.25)"><tspan x="0" y="0">• Mil-grade sensors → critical-infrastructure monitoring</tspan></text>
+  <text class="st0" transform="translate(93.65 415.25)"><tspan x="0" y="0">• Autonomy stacks → industrial robotics</tspan></text>
+  <path class="st11" d="M499.39,376.76h-22"/>
+  <path class="st6" d="M479.39,370.76l-10,6,10,6v-12Z"/>
+  <line class="st9" x1="24.17" y1="473.75" x2="579.63" y2="473.75"/>
+  <text class="st1" transform="translate(34.73 492.26)"><tspan x="0" y="0">Techadyant Labs framework.</tspan></text>
+  <text class="st2" transform="translate(461.12 496.26)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+</svg>

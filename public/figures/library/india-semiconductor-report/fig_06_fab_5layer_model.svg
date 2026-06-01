@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 22px;
+        letter-spacing: .02em;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st4, .st5, .st7, .st8, .st10, .st11, .st13, .st17 {
+        font-family: SegoeUI-Bold, 'Segoe UI';
+        font-weight: 700;
+      }
+
+      .st0, .st1, .st5, .st7, .st13 {
+        fill: #fff;
+      }
+
+      .st1, .st9, .st10, .st12, .st17 {
+        font-size: 11px;
+      }
+
+      .st1, .st10 {
+        letter-spacing: .05em;
+      }
+
+      .st2 {
+        fill: url(#linear-gradient1);
+        stroke: #14b8a6;
+      }
+
+      .st2, .st3, .st6, .st15, .st16 {
+        opacity: .95;
+        stroke-width: 1.92px;
+      }
+
+      .st3 {
+        fill: url(#linear-gradient4);
+        stroke: #0f172a;
+      }
+
+      .st19 {
+        fill: none;
+        stroke: #e2e8f0;
+      }
+
+      .st4 {
+        font-size: 11.51px;
+        letter-spacing: .08em;
+      }
+
+      .st4, .st8, .st10, .st11, .st20, .st21 {
+        fill: #0f172a;
+      }
+
+      .st5, .st11 {
+        font-size: 10.55px;
+        letter-spacing: .09em;
+      }
+
+      .st6 {
+        fill: url(#linear-gradient);
+      }
+
+      .st6, .st20 {
+        stroke: #d4af37;
+      }
+
+      .st7 {
+        font-size: 9.59px;
+        letter-spacing: .1em;
+      }
+
+      .st8 {
+        font-size: 15px;
+        letter-spacing: .05em;
+      }
+
+      .st9 {
+        fill: #94a3b8;
+      }
+
+      .st9, .st12, .st18 {
+        font-family: SegoeUI, 'Segoe UI';
+      }
+
+      .st22, .st14, .st17 {
+        fill: #d4af37;
+      }
+
+      .st12 {
+        fill: #1e293b;
+      }
+
+      .st23 {
+        fill: #14b8a6;
+      }
+
+      .st13 {
+        font-size: 13.43px;
+      }
+
+      .st14 {
+        font-family: SegoeUI-Semibold, 'Segoe UI';
+        font-size: 8.63px;
+        font-weight: 600;
+      }
+
+      .st24 {
+        fill: #0d9488;
+      }
+
+      .st25 {
+        fill: #1d4ed8;
+      }
+
+      .st15 {
+        fill: url(#linear-gradient2);
+        stroke: #0d9488;
+      }
+
+      .st26 {
+        fill: #f2f4f4;
+        stroke: #414042;
+        stroke-width: .25px;
+      }
+
+      .st27 {
+        fill: #f8fafc;
+      }
+
+      .st20 {
+        stroke-width: 2.4px;
+      }
+
+      .st16 {
+        fill: url(#linear-gradient3);
+        stroke: #1d4ed8;
+      }
+
+      .st17 {
+        letter-spacing: .14em;
+      }
+
+      .st18 {
+        fill: #64748b;
+        font-size: 10px;
+        letter-spacing: .05em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="301.53" y1="820.84" x2="302.49" y2="819.88" gradientTransform="translate(-217048 591069.6787) scale(720 -720)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset="1" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="301.4" y1="820.83" x2="302.36" y2="819.87" gradientTransform="translate(-173488 472933.543) scale(576 -576)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#99f6e4"/>
+      <stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="301.2" y1="820.81" x2="302.16" y2="819.85" gradientTransform="translate(-129928 354797.4072) scale(432 -432)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient3" x1="300.79" y1="820.78" x2="301.75" y2="819.82" gradientTransform="translate(-86368 236661.2715) scale(288 -288)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient4" x1="299.55" y1="820.7" x2="300.51" y2="819.74" gradientTransform="translate(-42808 118525.1357) scale(144 -144)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2">
+    <rect class="st26" x="781.96" y="125.57" width="340" height="105.22" rx="12" ry="12"/>
+    <rect class="st26" x="783.08" y="250.58" width="340" height="105.22" rx="12" ry="12"/>
+    <rect class="st26" x="783" y="376.26" width="340" height="105.22" rx="12" ry="12"/>
+    <rect class="st26" x="781.96" y="500.59" width="340" height="105.22" rx="12" ry="12"/>
+    <rect class="st26" x="783.08" y="625.59" width="340" height="105.22" rx="12" ry="12"/>
+  </g>
+  <g id="Layer_1">
+    <rect class="st21" y="0" width="1200" height="68"/>
+    <text class="st0" transform="translate(32 42)"><tspan x="0" y="0">Fab Ecosystem Five-Layer Model</tspan></text>
+    <text class="st17" transform="translate(1100.7944 28)"><tspan x="0" y="0">FIGURE 06</tspan></text>
+    <text class="st9" transform="translate(918.67 52)"><tspan x="0" y="0">Concentric capability rings around an operating fab</tspan></text>
+    <rect class="st27" y="755" width="1200" height="45"/>
+    <line class="st19" y1="755" x2="1200" y2="755"/>
+    <text class="st18" transform="translate(32 782)"><tspan x="0" y="0">INDIA SEMICONDUCTOR INTELLIGENCE 2026 · WHO REALLY BENEFITS FROM INDIA&apos;S FAB ECOSYSTEM?</tspan></text>
+    <text class="st18" transform="translate(1114.4189 782)"><tspan x="0" y="0">FIG 06 / 30</tspan></text>
+    <circle class="st6" cx="396.88" cy="413.59" r="345.34"/>
+    <circle class="st2" cx="396.88" cy="413.59" r="276.27"/>
+    <circle class="st15" cx="396.88" cy="413.59" r="207.2"/>
+    <circle class="st16" cx="396.88" cy="413.59" r="138.14"/>
+    <circle class="st3" cx="396.88" cy="413.59" r="69.07"/>
+    <circle class="st20" cx="396.88" cy="413.59" r="34.53"/>
+    <text class="st13" transform="translate(384.72 409.75)"><tspan x="0" y="0">FAB</tspan></text>
+    <text class="st14" transform="translate(385.74 427.02)"><tspan x="0" y="0">28nm</tspan></text>
+    <text class="st4" transform="translate(344.64 110.59)"><tspan x="0" y="0">L5 · WORKFORCE</tspan></text>
+    <text class="st11" transform="translate(336.43 176.18)"><tspan x="0" y="0">L4 · INFRASTRUCTURE</tspan></text>
+    <text class="st5" transform="translate(315.84 250.58)"><tspan x="0" y="0">L3 · OUTPUTS &amp; LOGISTICS</tspan></text>
+    <text class="st5" transform="translate(327.81 321.12)"><tspan x="0" y="0">L2 · INPUTS (MATERIALS)</tspan></text>
+    <text class="st7" transform="translate(362.34 369.15)"><tspan x="0" y="0">L1 · PROCESS</tspan></text>
+    <text class="st8" transform="translate(839.35 110.59)"><tspan x="0" y="0">LAYER COMPOSITION</tspan></text>
+    <rect class="st21" x="783.08" y="125.59" width="340" height="28" rx="8" ry="8"/>
+    <rect class="st21" x="783.08" y="141.59" width="340" height="12"/>
+    <text class="st1" transform="translate(798.08 144.59)"><tspan x="0" y="0">L1 · PROCESS EQUIPMENT</tspan></text>
+    <text class="st12" transform="translate(798.08 173.59)"><tspan x="0" y="0">• ASML lithography</tspan></text>
+    <text class="st12" transform="translate(798.08 193.59)"><tspan x="0" y="0">• Applied Materials etch</tspan></text>
+    <text class="st12" transform="translate(798.08 213.59)"><tspan x="0" y="0">• Lam Research deposition</tspan></text>
+    <text class="st12" transform="translate(979.08 173.59)"><tspan x="0" y="0">• KLA metrology</tspan></text>
+    <text class="st12" transform="translate(979.08 193.59)"><tspan x="0" y="0">• Tokyo Electron CMP</tspan></text>
+    <text class="st12" transform="translate(979.08 213.59)"><tspan x="0" y="0">• Hitachi High-Tech</tspan></text>
+    <rect class="st25" x="783.08" y="250.59" width="340" height="28" rx="8" ry="8"/>
+    <rect class="st25" x="783.08" y="266.59" width="340" height="12"/>
+    <text class="st1" transform="translate(798.08 269.59)"><tspan x="0" y="0">L2 · INPUTS (MATERIALS)</tspan></text>
+    <text class="st12" transform="translate(798.08 298.59)"><tspan x="0" y="0">• Shin-Etsu silicon wafers</tspan></text>
+    <text class="st12" transform="translate(798.08 318.59)"><tspan x="0" y="0">• JSR / TOK photoresist</tspan></text>
+    <text class="st12" transform="translate(798.08 338.59)"><tspan x="0" y="0">• Linde specialty gases</tspan></text>
+    <text class="st12" transform="translate(979.08 298.59)"><tspan x="0" y="0">• DuPont CMP slurry</tspan></text>
+    <text class="st12" transform="translate(979.08 318.59)"><tspan x="0" y="0">• Merck electronic chemicals</tspan></text>
+    <text class="st12" transform="translate(979.08 338.59)"><tspan x="0" y="0">• Cabot Microelectronics</tspan></text>
+    <rect class="st24" x="783.08" y="375.59" width="340" height="28" rx="8" ry="8"/>
+    <rect class="st24" x="783.08" y="391.59" width="340" height="12"/>
+    <text class="st1" transform="translate(798.08 394.59)"><tspan x="0" y="0">L3 · OUTPUTS &amp; LOGISTICS</tspan></text>
+    <text class="st12" transform="translate(798.08 423.59)"><tspan x="0" y="0">• ASE OSAT (assembly/test)</tspan></text>
+    <text class="st12" transform="translate(798.08 443.59)"><tspan x="0" y="0">• Amkor packaging</tspan></text>
+    <text class="st12" transform="translate(798.08 463.59)"><tspan x="0" y="0">• Powertech testing</tspan></text>
+    <text class="st12" transform="translate(979.08 423.59)"><tspan x="0" y="0">• DHL logistics</tspan></text>
+    <text class="st12" transform="translate(979.08 443.59)"><tspan x="0" y="0">• Schenker global freight</tspan></text>
+    <text class="st12" transform="translate(979.08 463.59)"><tspan x="0" y="0">• FedEx supply chain</tspan></text>
+    <rect class="st23" x="783.08" y="500.59" width="340" height="28" rx="8" ry="8"/>
+    <rect class="st23" x="783.08" y="516.59" width="340" height="12"/>
+    <text class="st1" transform="translate(798.08 519.59)"><tspan x="0" y="0">L4 · INFRASTRUCTURE</tspan></text>
+    <text class="st12" transform="translate(798.08 548.59)"><tspan x="0" y="0">• Voltas HVAC systems</tspan></text>
+    <text class="st12" transform="translate(798.08 568.59)"><tspan x="0" y="0">• Blue Star cleanrooms</tspan></text>
+    <text class="st12" transform="translate(798.08 588.59)"><tspan x="0" y="0">• Wabag UPW treatment</tspan></text>
+    <text class="st12" transform="translate(979.08 548.59)"><tspan x="0" y="0">• Schneider Electric</tspan></text>
+    <text class="st12" transform="translate(979.08 568.59)"><tspan x="0" y="0">• INOX industrial gases</tspan></text>
+    <text class="st12" transform="translate(979.08 588.59)"><tspan x="0" y="0">• Tata Projects</tspan></text>
+    <rect class="st22" x="783.08" y="625.59" width="340" height="28" rx="8" ry="8"/>
+    <rect class="st22" x="783.08" y="641.59" width="340" height="12"/>
+    <text class="st10" transform="translate(798.08 644.59)"><tspan x="0" y="0">L5 · WORKFORCE &amp; TALENT</tspan></text>
+    <text class="st12" transform="translate(798.08 673.59)"><tspan x="0" y="0">• IISc Bangalore (R&amp;D)</tspan></text>
+    <text class="st12" transform="translate(798.08 693.59)"><tspan x="0" y="0">• IIT Madras (design)</tspan></text>
+    <text class="st12" transform="translate(798.08 713.59)"><tspan x="0" y="0">• NIELIT (training)</tspan></text>
+    <text class="st12" transform="translate(979.08 673.59)"><tspan x="0" y="0">• ESSCI certification</tspan></text>
+    <text class="st12" transform="translate(979.08 693.59)"><tspan x="0" y="0">• Embassy housing</tspan></text>
+    <text class="st12" transform="translate(979.08 713.59)"><tspan x="0" y="0">• Mindspace facilities</tspan></text>
+  </g>
+</svg>

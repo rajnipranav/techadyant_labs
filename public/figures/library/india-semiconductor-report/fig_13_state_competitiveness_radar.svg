@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 900 800">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #2e6497;
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12 {
+        isolation: isolate;
+      }
+
+      .st1, .st4, .st5, .st6, .st7, .st8, .st12 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st1, .st4, .st6 {
+        fill: #111827;
+      }
+
+      .st1, .st4, .st8 {
+        font-size: 12px;
+      }
+
+      .st2, .st3, .st9, .st10, .st11 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st2, .st6 {
+        font-size: 13px;
+      }
+
+      .st2, .st11 {
+        fill: #6b7280;
+      }
+
+      .st13 {
+        stroke-width: .8px;
+      }
+
+      .st13, .st14 {
+        stroke: #e5e7eb;
+      }
+
+      .st13, .st15, .st16, .st17, .st18 {
+        fill: none;
+      }
+
+      .st3 {
+        font-size: 11px;
+      }
+
+      .st3, .st10 {
+        fill: #e5e7eb;
+      }
+
+      .st19, .st7, .st12 {
+        fill: #c9a84c;
+      }
+
+      .st4 {
+        letter-spacing: .04em;
+      }
+
+      .st5 {
+        font-size: 20px;
+      }
+
+      .st5, .st9 {
+        fill: #fff;
+      }
+
+      .st14 {
+        fill: #f8fafc;
+      }
+
+      .st15 {
+        stroke: #6d28d9;
+      }
+
+      .st15, .st16, .st20, .st17, .st18 {
+        stroke-width: 2px;
+      }
+
+      .st16 {
+        stroke: #c9a84c;
+      }
+
+      .st21, .st20, .st8 {
+        fill: #0b1b3b;
+      }
+
+      .st22 {
+        fill: #6d28d9;
+      }
+
+      .st20 {
+        fill-opacity: .18;
+        stroke: #0b1b3b;
+      }
+
+      .st17 {
+        stroke: #2e6497;
+      }
+
+      .st23 {
+        fill: #14b8a6;
+      }
+
+      .st7 {
+        letter-spacing: .1em;
+      }
+
+      .st7, .st10, .st12 {
+        font-size: 10px;
+      }
+
+      .st9, .st11 {
+        font-size: 9px;
+      }
+
+      .st11 {
+        letter-spacing: .06em;
+      }
+
+      .st18 {
+        stroke: #14b8a6;
+      }
+
+      .st12 {
+        letter-spacing: .15em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1">
+    <rect class="st21" y="0" width="900.92" height="60"/>
+    <polygon class="st13" points="336.09 372.47 373.59 390.57 382.89 431.17 356.89 463.67 315.29 463.67 289.29 431.17 298.59 390.57 336.09 372.47"/>
+    <polygon class="st13" points="336.09 324.47 411.19 360.57 429.69 441.87 377.79 506.97 294.39 506.97 242.49 441.87 260.99 360.57 336.09 324.47"/>
+    <polygon class="st13" points="336.09 276.47 448.69 330.67 476.49 452.47 398.59 550.17 273.59 550.17 195.69 452.47 223.49 330.67 336.09 276.47"/>
+    <polygon class="st13" points="336.09 228.47 486.19 300.77 523.29 463.17 419.39 593.47 252.79 593.47 148.89 463.17 185.99 300.77 336.09 228.47"/>
+    <polygon class="st13" points="336.09 180.47 523.69 270.87 570.09 473.87 440.19 636.67 231.99 636.67 102.09 473.87 148.49 270.87 336.09 180.47"/>
+    <line class="st13" x1="336.09" y1="420.47" x2="336.09" y2="180.47"/>
+    <line class="st13" x1="336.09" y1="420.47" x2="523.69" y2="270.87"/>
+    <line class="st13" x1="336.09" y1="420.47" x2="570.09" y2="473.87"/>
+    <line class="st13" x1="336.09" y1="420.47" x2="440.19" y2="636.67"/>
+    <line class="st13" x1="336.09" y1="420.47" x2="231.99" y2="636.67"/>
+    <line class="st13" x1="336.09" y1="420.47" x2="102.09" y2="473.87"/>
+    <line class="st13" x1="336.09" y1="420.47" x2="148.49" y2="270.87"/>
+    <polygon class="st20" points="336.09 204.47 467.39 315.77 523.29 463.17 398.59 550.17 242.39 615.07 125.49 468.57 204.79 315.77 336.09 204.47"/>
+    <circle class="st21" cx="336.09" cy="204.47" r="3"/>
+    <circle class="st21" cx="467.39" cy="315.77" r="3"/>
+    <circle class="st21" cx="523.29" cy="463.17" r="3"/>
+    <circle class="st21" cx="398.59" cy="550.17" r="3"/>
+    <circle class="st21" cx="242.39" cy="615.07" r="3"/>
+    <circle class="st21" cx="125.49" cy="468.57" r="3"/>
+    <circle class="st21" cx="204.79" cy="315.77" r="3"/>
+    <polygon class="st18" points="336.09 276.47 429.89 345.67 499.89 457.87 429.79 615.07 263.19 571.87 172.29 457.87 167.19 285.77 336.09 276.47"/>
+    <circle class="st23" cx="336.09" cy="276.47" r="3"/>
+    <circle class="st23" cx="429.89" cy="345.67" r="3"/>
+    <circle class="st23" cx="499.89" cy="457.87" r="3"/>
+    <circle class="st23" cx="429.79" cy="615.07" r="3"/>
+    <circle class="st23" cx="263.19" cy="571.87" r="3"/>
+    <circle class="st23" cx="172.29" cy="457.87" r="3"/>
+    <circle class="st23" cx="167.19" cy="285.77" r="3"/>
+    <polygon class="st16" points="336.09 228.47 448.69 330.67 523.29 463.17 419.39 593.47 252.79 593.47 125.49 468.57 185.99 300.77 336.09 228.47"/>
+    <circle class="st19" cx="336.09" cy="228.47" r="3"/>
+    <circle class="st19" cx="448.69" cy="330.67" r="3"/>
+    <circle class="st19" cx="523.29" cy="463.17" r="3"/>
+    <circle class="st19" cx="419.39" cy="593.47" r="3"/>
+    <circle class="st19" cx="252.79" cy="593.47" r="3"/>
+    <circle class="st19" cx="125.49" cy="468.57" r="3"/>
+    <circle class="st19" cx="185.99" cy="300.77" r="3"/>
+    <polygon class="st17" points="336.09 252.47 429.89 345.67 499.89 457.87 419.39 593.47 252.79 593.47 172.29 457.87 185.99 300.77 336.09 252.47"/>
+    <circle class="st0" cx="336.09" cy="252.47" r="3"/>
+    <circle class="st0" cx="429.89" cy="345.67" r="3"/>
+    <circle class="st0" cx="499.89" cy="457.87" r="3"/>
+    <circle class="st0" cx="419.39" cy="593.47" r="3"/>
+    <circle class="st0" cx="252.79" cy="593.47" r="3"/>
+    <circle class="st0" cx="172.29" cy="457.87" r="3"/>
+    <circle class="st0" cx="185.99" cy="300.77" r="3"/>
+    <polygon class="st15" points="336.09 252.47 429.89 345.67 476.49 452.47 388.19 528.57 263.19 571.87 195.69 452.47 260.99 360.57 336.09 252.47"/>
+    <circle class="st22" cx="336.09" cy="252.47" r="3"/>
+    <circle class="st22" cx="429.89" cy="345.67" r="3"/>
+    <circle class="st22" cx="476.49" cy="452.47" r="3"/>
+    <circle class="st22" cx="388.19" cy="528.57" r="3"/>
+    <circle class="st22" cx="263.19" cy="571.87" r="3"/>
+    <circle class="st22" cx="195.69" cy="452.47" r="3"/>
+    <circle class="st22" cx="260.99" cy="360.57" r="3"/>
+    <rect class="st14" x="641.2" y="85.87" width="240" height="220" rx="8" ry="8"/>
+    <rect class="st21" x="661.2" y="135.87" width="18" height="14" rx="3" ry="3"/>
+    <rect class="st23" x="661.2" y="167.87" width="18" height="14" rx="3" ry="3"/>
+    <rect class="st19" x="661.2" y="199.87" width="18" height="14" rx="3" ry="3"/>
+    <rect class="st0" x="661.2" y="231.87" width="18" height="14" rx="3" ry="3"/>
+    <rect class="st22" x="661.2" y="263.87" width="18" height="14" rx="3" ry="3"/>
+    <rect class="st21" x="641.2" y="593.47" width="240" height="151.01" rx="8" ry="8"/>
+  </g>
+  <g id="Layer_3">
+    <text class="st5" transform="translate(22.39 36.05)"><tspan x="0" y="0">State Competitiveness Radar</tspan></text>
+    <text class="st12" transform="translate(809.95 21.76)"><tspan x="0" y="0">FIGURE 13</tspan></text>
+    <text class="st3" transform="translate(582.29 41.76)"><tspan x="0" y="0">Five-state overlay across seven readiness axes (0-10 scale)</tspan></text>
+    <text class="st11" transform="translate(28.53 783.98)"><tspan x="0" y="0">INDIA SEMICONDUCTOR INTELLIGENCE 2026 · WHO REALLY BENEFITS FROM INDIA&apos;S FAB ECOSYSTEM?</tspan></text>
+    <text class="st11" transform="translate(804.59 783.98)"><tspan x="0" y="0">FIG 13 / 30</tspan></text>
+    <text class="st2" transform="translate(331.44 377.23)"><tspan x="0" y="0">2</tspan></text>
+    <text class="st2" transform="translate(331.44 329.23)"><tspan x="0" y="0">4</tspan></text>
+    <text class="st2" transform="translate(331.44 281.23)"><tspan x="0" y="0">6</tspan></text>
+    <text class="st2" transform="translate(331.44 233.23)"><tspan x="0" y="0">8</tspan></text>
+    <text class="st2" transform="translate(331.44 185.23)"><tspan x="0" y="0">10</tspan></text>
+    <text class="st6" transform="translate(313.83 143.92)"><tspan x="0" y="0">Land </tspan><tspan x="0" y="15.6">readiness</tspan></text>
+    <text class="st6" transform="translate(544.61 256.96)"><tspan x="0" y="0">Water </tspan><tspan x="0" y="15.6">security</tspan></text>
+    <text class="st6" transform="translate(581.56 475.63)"><tspan x="0" y="0">Power </tspan><tspan x="0" y="15.6">quality</tspan></text>
+    <text class="st6" transform="translate(437.04 660.47)"><tspan x="0" y="0">Talent </tspan><tspan x="0" y="15.6">depth</tspan></text>
+    <text class="st6" transform="translate(180.34 665.66)"><tspan x="0" y="0">Policy </tspan><tspan x="0" y="15.6">execution</tspan></text>
+    <text class="st6" transform="translate(22.03 482.33)"><tspan x="0" y="0">Logistics</tspan><tspan x="0" y="15.6">access</tspan></text>
+    <text class="st6" transform="translate(54.92 254.23)"><tspan x="0" y="0">Ecosystem </tspan><tspan x="0" y="15.6">maturity</tspan></text>
+    <text class="st4" transform="translate(652.55 112.63)"><tspan x="0" y="0">STATE COMPOSITES</tspan></text>
+    <text class="st1" transform="translate(684.55 146.63)"><tspan x="0" y="0">Gujarat</tspan></text>
+    <text class="st8" transform="translate(835.87 144.63)"><tspan x="0" y="0">7.9</tspan></text>
+    <text class="st1" transform="translate(684.55 178.63)"><tspan x="0" y="0">Karnataka</tspan></text>
+    <text class="st8" transform="translate(835.87 176.63)"><tspan x="0" y="0">7.1</tspan></text>
+    <text class="st1" transform="translate(684.55 210.63)"><tspan x="0" y="0">Tamil Nadu</tspan></text>
+    <text class="st8" transform="translate(835.87 208.63)"><tspan x="0" y="0">7.9</tspan></text>
+    <text class="st1" transform="translate(684.55 242.63)"><tspan x="0" y="0">Telangana</tspan></text>
+    <text class="st8" transform="translate(835.87 240.63)"><tspan x="0" y="0">7.1</tspan></text>
+    <text class="st1" transform="translate(684.55 274.63)"><tspan x="0" y="0">Uttar Pradesh</tspan></text>
+    <text class="st8" transform="translate(835.87 272.63)"><tspan x="0" y="0">5.7</tspan></text>
+    <text class="st7" transform="translate(652.55 620.23)"><tspan x="0" y="0">LEADER 2025</tspan></text>
+    <text class="st5" transform="translate(652.55 650.23)"><tspan x="0" y="0">Gujarat</tspan></text>
+    <text class="st10" transform="translate(652.55 670.23)"><tspan x="0" y="0">Composite 7.9 / 10</tspan></text>
+    <text class="st9" transform="translate(652.55 693.23)"><tspan x="0" y="0">Strong land + policy + logistics;</tspan></text>
+    <text class="st9" transform="translate(652.55 707.23)"><tspan x="0" y="0">talent depth catching up via Tata,</tspan></text>
+    <text class="st9" transform="translate(652.55 721.23)"><tspan x="0" y="0">IIT Gandhinagar, Dholera SIR.</tspan></text>
+  </g>
+</svg>

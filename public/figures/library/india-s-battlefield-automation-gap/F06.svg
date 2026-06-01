@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 900 500">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #7fcbbe;
+      }
+
+      .st0, .st1, .st2, .st3, .st4 {
+        stroke: #d8d3c7;
+      }
+
+      .st1 {
+        fill: #1fa89a;
+      }
+
+      .st5 {
+        fill: #fff;
+      }
+
+      .st5, .st6 {
+        font-family: Consolas-Bold, Consolas;
+      }
+
+      .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12 {
+        isolation: isolate;
+      }
+
+      .st5, .st6, .st8, .st10, .st12 {
+        font-weight: 700;
+      }
+
+      .st5, .st6, .st9 {
+        font-size: 14px;
+      }
+
+      .st6, .st8, .st13, .st10, .st12 {
+        fill: #0f1828;
+      }
+
+      .st2 {
+        fill: none;
+      }
+
+      .st3 {
+        fill: #bfe3da;
+      }
+
+      .st7 {
+        fill: #8a8576;
+      }
+
+      .st7, .st8, .st11 {
+        font-size: 11px;
+      }
+
+      .st7, .st9, .st11 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st14 {
+        fill: #c9a84c;
+      }
+
+      .st8, .st10, .st12 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .st9, .st11 {
+        fill: #4a5567;
+      }
+
+      .st4 {
+        fill: #3fae9e;
+      }
+
+      .st10 {
+        font-size: 26px;
+      }
+
+      .st12 {
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+  <rect class="st13" y=".29" width="900" height="9.58"/>
+  <rect class="st14" y="9.86" width="900" height="3.59"/>
+  <text class="st10" transform="translate(25.42 41.69)"><tspan x="0" y="0">Lessons From Recent Conflicts</tspan></text>
+  <text class="st9" transform="translate(25.42 62.5)"><tspan x="0" y="0">Maturity of automation-relevant capability, by conflict (1–5)</tspan></text>
+  <line class="st2" x1="25.42" y1="74.29" x2="877.42" y2="74.29"/>
+  <text class="st12" transform="translate(234.41 98.29)"><tspan x="0" y="0">Ukraine</tspan></text>
+  <text class="st12" transform="translate(417.74 98.29)"><tspan x="0" y="0">Israel</tspan></text>
+  <text class="st12" transform="translate(592.75 98.29)"><tspan x="0" y="0">United</tspan></text>
+  <text class="st12" transform="translate(593.41 111.29)"><tspan x="0" y="0">States</tspan></text>
+  <text class="st12" transform="translate(771.75 98.29)"><tspan x="0" y="0">China</tspan></text>
+  <text class="st12" transform="translate(56.08 153.29)"><tspan x="0" y="0">Low-Cost Drones</tspan></text>
+  <rect class="st1" x="167.42" y="123.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(249.57 151.29)"><tspan x="0" y="0">5</tspan></text>
+  <rect class="st0" x="345.42" y="123.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st6" transform="translate(426.57 151.29)"><tspan x="0" y="0">3</tspan></text>
+  <rect class="st0" x="522.42" y="123.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st6" transform="translate(604.57 151.29)"><tspan x="0" y="0">3</tspan></text>
+  <rect class="st4" x="699.42" y="123.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(781.57 151.29)"><tspan x="0" y="0">4</tspan></text>
+  <text class="st12" transform="translate(80.09 205.29)"><tspan x="0" y="0">Counter-UAS</tspan></text>
+  <rect class="st4" x="167.42" y="175.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(249.57 203.29)"><tspan x="0" y="0">4</tspan></text>
+  <rect class="st1" x="345.42" y="175.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(426.57 203.29)"><tspan x="0" y="0">5</tspan></text>
+  <rect class="st4" x="522.42" y="175.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(604.57 203.29)"><tspan x="0" y="0">4</tspan></text>
+  <rect class="st4" x="699.42" y="175.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(781.57 203.29)"><tspan x="0" y="0">4</tspan></text>
+  <text class="st12" transform="translate(40.74 257.29)"><tspan x="0" y="0">AI Decision Support</tspan></text>
+  <rect class="st0" x="167.42" y="227.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st6" transform="translate(249.57 255.29)"><tspan x="0" y="0">3</tspan></text>
+  <rect class="st4" x="345.42" y="227.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(426.57 255.29)"><tspan x="0" y="0">4</tspan></text>
+  <rect class="st1" x="522.42" y="227.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(604.57 255.29)"><tspan x="0" y="0">5</tspan></text>
+  <rect class="st4" x="699.42" y="227.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(781.57 255.29)"><tspan x="0" y="0">4</tspan></text>
+  <text class="st12" transform="translate(25.42 309.29)"><tspan x="0" y="0">Autonomous Logistics</tspan></text>
+  <rect class="st3" x="167.42" y="279.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st6" transform="translate(249.57 307.29)"><tspan x="0" y="0">2</tspan></text>
+  <rect class="st3" x="345.42" y="279.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st6" transform="translate(426.57 307.29)"><tspan x="0" y="0">2</tspan></text>
+  <rect class="st4" x="522.42" y="279.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(604.57 307.29)"><tspan x="0" y="0">4</tspan></text>
+  <rect class="st4" x="699.42" y="279.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(781.57 307.29)"><tspan x="0" y="0">4</tspan></text>
+  <text class="st12" transform="translate(47.4 361.29)"><tspan x="0" y="0">Battlefield Sensing</tspan></text>
+  <rect class="st4" x="167.42" y="331.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(249.57 359.29)"><tspan x="0" y="0">4</tspan></text>
+  <rect class="st1" x="345.42" y="331.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(426.57 359.29)"><tspan x="0" y="0">5</tspan></text>
+  <rect class="st1" x="522.42" y="331.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(604.57 359.29)"><tspan x="0" y="0">5</tspan></text>
+  <rect class="st4" x="699.42" y="331.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(781.57 359.29)"><tspan x="0" y="0">4</tspan></text>
+  <text class="st12" transform="translate(70.54 413.29)"><tspan x="0" y="0">EW Adaptation</tspan></text>
+  <rect class="st1" x="167.42" y="383.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(249.57 411.29)"><tspan x="0" y="0">5</tspan></text>
+  <rect class="st4" x="345.42" y="383.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(426.57 411.29)"><tspan x="0" y="0">4</tspan></text>
+  <rect class="st4" x="522.42" y="383.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(604.57 411.29)"><tspan x="0" y="0">4</tspan></text>
+  <rect class="st4" x="699.42" y="383.29" width="172" height="46" rx="4" ry="4"/>
+  <text class="st5" transform="translate(781.57 411.29)"><tspan x="0" y="0">4</tspan></text>
+  <text class="st11" transform="translate(28.95 456.43)"><tspan x="0" y="0">Maturity / observed relevance: 1 low → 5 high</tspan></text>
+  <line class="st2" x1="16.24" y1="466.29" x2="877.42" y2="466.29"/>
+  <text class="st7" transform="translate(28.95 488.43)"><tspan x="0" y="0">Open-source synthesis; illustrative, not exhaustive.</tspan></text>
+  <text class="st8" transform="translate(769.65 488.29)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+</svg>

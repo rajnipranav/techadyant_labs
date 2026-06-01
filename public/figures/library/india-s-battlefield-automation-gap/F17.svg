@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 700 620">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #d8d3c7;
+        stroke-width: .84px;
+      }
+
+      .st0, .st1, .st2, .st3 {
+        fill: none;
+      }
+
+      .st4 {
+        font-size: 12.5px;
+      }
+
+      .st4, .st1, .st2, .st3, .st5, .st6, .st7, .st8, .st9, .st10 {
+        isolation: isolate;
+      }
+
+      .st4, .st6, .st11, .st8 {
+        fill: #0f1828;
+      }
+
+      .st4, .st6, .st8, .st9 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st12, .st7, .st10 {
+        fill: #4a5567;
+      }
+
+      .st1, .st2, .st3 {
+        opacity: .6;
+      }
+
+      .st1, .st2, .st3, .st13, .st14, .st15 {
+        stroke-width: 2px;
+      }
+
+      .st1, .st14 {
+        stroke: #4a5567;
+      }
+
+      .st2, .st15 {
+        stroke: #1fa89a;
+      }
+
+      .st3, .st13 {
+        stroke: #c9a84c;
+      }
+
+      .st13, .st14, .st9, .st15 {
+        fill: #fff;
+      }
+
+      .st5 {
+        fill: #8a8576;
+      }
+
+      .st5, .st6 {
+        font-size: 11px;
+      }
+
+      .st5, .st7, .st10 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st16 {
+        fill: #c9a84c;
+      }
+
+      .st17 {
+        fill: #1fa89a;
+      }
+
+      .st7 {
+        font-size: 14px;
+      }
+
+      .st8 {
+        font-size: 26px;
+      }
+
+      .st9 {
+        font-size: 13px;
+      }
+
+      .st10 {
+        font-size: 10px;
+      }
+    </style>
+  </defs>
+  <rect class="st11" x=".91" y="0" width="701.5" height="8"/>
+  <rect class="st16" x=".91" y="8" width="701.5" height="3"/>
+  <text class="st8" transform="translate(55.3 56)"><tspan x="0" y="0">India&apos;s Battlefield Automation Strength Map</tspan></text>
+  <text class="st7" transform="translate(55.3 77)"><tspan x="0" y="0">Six real strengths and the opportunities they unlock</tspan></text>
+  <line class="st0" x1="30.97" y1="86" x2="676.35" y2="86"/>
+  <circle class="st11" cx="368" cy="336" r="78"/>
+  <text class="st9" transform="translate(352.83 324)"><tspan x="0" y="0">India</tspan></text>
+  <text class="st9" transform="translate(338.39 340)"><tspan x="0" y="0">strengths</tspan></text>
+  <line class="st2" x1="368" y1="258" x2="368" y2="121"/>
+  <rect class="st15" x="293" y="95" width="150" height="52" rx="8" ry="8"/>
+  <rect class="st17" x="293" y="95" width="6" height="52"/>
+  <text class="st4" transform="translate(309 117)"><tspan x="0" y="0">Software &amp; AI</tspan></text>
+  <text class="st10" transform="translate(309 134)"><tspan x="0" y="0">Edge AI, perception</tspan></text>
+  <line class="st3" x1="436" y1="297" x2="554" y2="228"/>
+  <rect class="st13" x="479" y="202" width="150" height="52" rx="8" ry="8"/>
+  <rect class="st16" x="479" y="202" width="6" height="52"/>
+  <text class="st4" transform="translate(495 224)"><tspan x="0" y="0">Innovation ecosystem</tspan></text>
+  <text class="st10" transform="translate(495 242)"><tspan x="0" y="0">iDEX, startups</tspan></text>
+  <line class="st1" x1="436" y1="375" x2="554" y2="443"/>
+  <rect class="st14" x="479" y="417" width="150" height="52" rx="8" ry="8"/>
+  <rect class="st12" x="479" y="417" width="6" height="52"/>
+  <text class="st4" transform="translate(495 439)"><tspan x="0" y="0">MSME base</tspan></text>
+  <text class="st10" transform="translate(495 456)"><tspan x="0" y="0">Components, assembly</tspan></text>
+  <line class="st2" x1="368" y1="414" x2="368" y2="551"/>
+  <rect class="st15" x="293" y="525" width="150" height="52" rx="8" ry="8"/>
+  <rect class="st17" x="293" y="525" width="6" height="52"/>
+  <text class="st4" transform="translate(309 547)"><tspan x="0" y="0">Dual-use markets</tspan></text>
+  <text class="st10" transform="translate(309 564)"><tspan x="0" y="0">Mining, logistics, agri</tspan></text>
+  <line class="st3" x1="300" y1="375" x2="182" y2="444"/>
+  <rect class="st13" x="107" y="418" width="150" height="52" rx="8" ry="8"/>
+  <rect class="st16" x="107" y="418" width="6" height="52"/>
+  <text class="st4" transform="translate(123 440)"><tspan x="0" y="0">Cost engineering</tspan></text>
+  <text class="st10" transform="translate(123 457)"><tspan x="0" y="0">Affordable systems</tspan></text>
+  <line class="st1" x1="300" y1="297" x2="182" y2="228"/>
+  <rect class="st14" x="107" y="202" width="150" height="52" rx="8" ry="8"/>
+  <rect class="st12" x="107" y="202" width="6" height="52"/>
+  <text class="st4" transform="translate(123 224)"><tspan x="0" y="0">Rising production</tspan></text>
+  <text class="st10" transform="translate(123 241)"><tspan x="0" y="0">₹1.51 lakh cr base</tspan></text>
+  <line class="st0" x1="30.97" y1="586" x2="676.35" y2="586"/>
+  <text class="st5" transform="translate(55.95 608)"><tspan x="0" y="0">Techadyant Labs analysis. Strengths require conversion to industrial depth.</tspan></text>
+  <text class="st6" transform="translate(550.62 608)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+</svg>

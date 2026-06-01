@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="Arial, Helvetica, sans-serif">
+<defs>
+  <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="2"/><feOffset dx="0" dy="1"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.22"/></feComponentTransfer>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <marker id="ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#0B1B3B"/></marker>
+  <marker id="ahT" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#14B8A6"/></marker>
+  <marker id="ahG" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#C9A84C"/></marker>
+</defs>
+<rect width="1200" height="800" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1200" height="60" fill="#0B1B3B"/>
+<text x="40" y="38" fill="#FFFFFF" font-size="20" font-weight="700">Ecosystem Influence Web — ISM 2.0 at the Centre</text>
+<text x="1160" y="24" text-anchor="end" fill="#C9A84C" font-size="10" font-weight="700" letter-spacing="1.5">FIGURE 21</text>
+<text x="1160" y="44" text-anchor="end" fill="#E5E7EB" font-size="11">Rs 40,000 cr corpus and eight stakeholder groups orbiting policy</text>
+<text x="40" y="785" fill="#6B7280" font-size="9" letter-spacing="0.5">INDIA SEMICONDUCTOR INTELLIGENCE 2026  ·  WHO REALLY BENEFITS FROM INDIA'S FAB ECOSYSTEM?</text>
+<text x="1160" y="785" text-anchor="end" fill="#6B7280" font-size="9" letter-spacing="0.5">FIG 21 / 38</text>
+
+<line x1="600.0" y1="318.0" x2="600.0" y2="199.0" stroke="#14B8A6" stroke-width="2.2" marker-start="url(#ahT)" marker-end="url(#ahT)" opacity="0.9"/>
+<line x1="665.1" y1="344.9" x2="737.8" y2="272.2" stroke="#C9A84C" stroke-width="2.2" marker-start="url(#ahG)" marker-end="url(#ahG)" opacity="0.9"/>
+<line x1="692.0" y1="410.0" x2="745.0" y2="410.0" stroke="#0B1B3B" stroke-width="2.2" marker-start="url(#ah)" marker-end="url(#ah)" opacity="0.9"/>
+<line x1="665.1" y1="475.1" x2="737.8" y2="547.8" stroke="#2E6497" stroke-width="2.2" marker-start="url(#ah)" marker-end="url(#ah)" opacity="0.9"/>
+<line x1="600.0" y1="502.0" x2="600.0" y2="621.0" stroke="#2E6497" stroke-width="2.2" marker-start="url(#ah)" marker-end="url(#ah)" opacity="0.9"/>
+<line x1="534.9" y1="475.1" x2="462.2" y2="547.8" stroke="#14B8A6" stroke-width="2.2" marker-start="url(#ahT)" marker-end="url(#ahT)" opacity="0.9"/>
+<line x1="508.0" y1="410.0" x2="455.0" y2="410.0" stroke="#C9A84C" stroke-width="2.2" marker-start="url(#ahG)" marker-end="url(#ahG)" opacity="0.9"/>
+<line x1="534.9" y1="344.9" x2="462.2" y2="272.2" stroke="#6D28D9" stroke-width="2.2" marker-start="url(#ah)" marker-end="url(#ah)" opacity="0.9"/>
+<circle cx="600" cy="410" r="92" fill="#0B1B3B" filter="url(#soft)"/>
+<circle cx="600" cy="410" r="85" fill="none" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+<text x="600" y="380" text-anchor="middle" fill="#C9A84C" font-size="11" font-weight="700" letter-spacing="1">ISM 2.0</text>
+<text x="600" y="406" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="700">Rs 40,000 cr</text>
+<text x="600" y="428" text-anchor="middle" fill="#FFFFFF" font-size="12">policy corpus</text>
+<text x="600" y="450" text-anchor="middle" fill="#E5E7EB" font-size="9.5">FDI · capex subsidy · PLI · DLI</text>
+<rect x="495.0" y="121.0" width="210" height="78" rx="8" fill="#14B8A6" filter="url(#soft)"/>
+<text x="600.0" y="148.0" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">Central Govt</text>
+<text x="600.0" y="168.0" text-anchor="middle" fill="#1F2937" font-size="9.5">MeitY · MoF · PMO</text>
+<text x="600.0" y="182.0" text-anchor="middle" fill="#1F2937" font-size="9.5">NITI Aayog</text>
+<rect x="671.8" y="194.2" width="210" height="78" rx="8" fill="#C9A84C" filter="url(#soft)"/>
+<text x="776.8" y="221.2" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">State Govts</text>
+<text x="776.8" y="241.2" text-anchor="middle" fill="#1F2937" font-size="9.5">GIDC · GSEDC · KEONICS</text>
+<text x="776.8" y="255.2" text-anchor="middle" fill="#1F2937" font-size="9.5">TNIDC · TSIIC</text>
+<rect x="745.0" y="371.0" width="210" height="78" rx="8" fill="#0B1B3B" filter="url(#soft)"/>
+<text x="850.0" y="398.0" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">Foundries</text>
+<text x="850.0" y="418.0" text-anchor="middle" fill="#E5E7EB" font-size="9.5">Tata Elx · Micron · CG-R</text>
+<text x="850.0" y="432.0" text-anchor="middle" fill="#E5E7EB" font-size="9.5">Kaynes ATMP</text>
+<rect x="671.8" y="547.8" width="210" height="78" rx="8" fill="#2E6497" filter="url(#soft)"/>
+<text x="776.8" y="574.8" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">OSAT / ATMP</text>
+<text x="776.8" y="594.8" text-anchor="middle" fill="#E5E7EB" font-size="9.5">Micron Sanand · Tata Jagiroad</text>
+<text x="776.8" y="608.8" text-anchor="middle" fill="#E5E7EB" font-size="9.5">Kaynes Sanand · 3D-Glass</text>
+<rect x="495.0" y="621.0" width="210" height="78" rx="8" fill="#2E6497" filter="url(#soft)"/>
+<text x="600.0" y="648.0" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">EMS / OEM</text>
+<text x="600.0" y="668.0" text-anchor="middle" fill="#E5E7EB" font-size="9.5">Dixon · Foxconn IN · Syrma</text>
+<text x="600.0" y="682.0" text-anchor="middle" fill="#E5E7EB" font-size="9.5">Bharat FIH · Cyient DLM</text>
+<rect x="318.2" y="547.8" width="210" height="78" rx="8" fill="#14B8A6" filter="url(#soft)"/>
+<text x="423.2" y="574.8" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">Design Startups</text>
+<text x="423.2" y="594.8" text-anchor="middle" fill="#1F2937" font-size="9.5">Saankhya · Mindgrove · InCore</text>
+<text x="423.2" y="608.8" text-anchor="middle" fill="#1F2937" font-size="9.5">MosChip · Netrasemi</text>
+<rect x="245.0" y="371.0" width="210" height="78" rx="8" fill="#C9A84C" filter="url(#soft)"/>
+<text x="350.0" y="398.0" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">Investors</text>
+<text x="350.0" y="418.0" text-anchor="middle" fill="#1F2937" font-size="9.5">FDI · Sovereign funds</text>
+<text x="350.0" y="432.0" text-anchor="middle" fill="#1F2937" font-size="9.5">VC · PE · Family offices</text>
+<rect x="318.2" y="194.2" width="210" height="78" rx="8" fill="#6D28D9" filter="url(#soft)"/>
+<text x="423.2" y="221.2" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">Skilling Inst.</text>
+<text x="423.2" y="241.2" text-anchor="middle" fill="#E5E7EB" font-size="9.5">NIELIT · IISc · IIT-M</text>
+<text x="423.2" y="255.2" text-anchor="middle" fill="#E5E7EB" font-size="9.5">ESSCI · C-DAC</text>
+<text x="600" y="752" text-anchor="middle" fill="#6B7280" font-size="11">Two-way arrows: capital, incentives and clearances flow outward · capability, lobbying and compliance flow inward.</text>
+</svg>

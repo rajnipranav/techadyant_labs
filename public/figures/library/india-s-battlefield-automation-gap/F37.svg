@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 620">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: none;
+        stroke: #d8d3c7;
+      }
+
+      .st2 {
+        fill: #8a8576;
+      }
+
+      .st2, .st3 {
+        font-size: 11px;
+      }
+
+      .st2, .st3, .st4, .st5, .st6, .st7, .st8 {
+        isolation: isolate;
+      }
+
+      .st2, .st4, .st5 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st9 {
+        fill: #c9a84c;
+      }
+
+      .st10 {
+        fill: #1fa89a;
+      }
+
+      .st3, .st11, .st6 {
+        fill: #0f1828;
+      }
+
+      .st3, .st6, .st7 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .st3, .st6, .st7, .st8 {
+        font-weight: 700;
+      }
+
+      .st1 {
+        stroke-width: 2px;
+      }
+
+      .st4 {
+        font-size: 14px;
+      }
+
+      .st4, .st5 {
+        fill: #4a5567;
+      }
+
+      .st5 {
+        font-size: 12px;
+      }
+
+      .st6 {
+        font-size: 26px;
+      }
+
+      .st7, .st8 {
+        fill: #fff;
+        font-size: 13px;
+      }
+
+      .st8 {
+        font-family: Consolas-Bold, Consolas;
+      }
+    </style>
+  </defs>
+  <rect class="st11" y="0" width="1000" height="8"/>
+  <rect class="st9" y="8" width="1000" height="3"/>
+  <text class="st6" transform="translate(40 56)"><tspan x="0" y="0">10 Priority Initiatives, 2026–2035</tspan></text>
+  <text class="st4" transform="translate(40 82)"><tspan x="0" y="0">Sequenced across three national tracks</tspan></text>
+  <line class="st0" x1="40" y1="96" x2="960" y2="96"/>
+  <text class="st2" transform="translate(230 132)"><tspan x="0" y="0">2026</tspan></text>
+  <text class="st2" transform="translate(925.53 132)"><tspan x="0" y="0">2035</tspan></text>
+  <rect class="st10" x="40" y="150" width="175" height="100" rx="8" ry="8"/>
+  <text class="st7" transform="translate(52 184)"><tspan x="0" y="0">Demand &amp;</tspan></text>
+  <text class="st7" transform="translate(52 200)"><tspan x="0" y="0">Procurement</tspan></text>
+  <line class="st1" x1="230" y1="200" x2="950" y2="200"/>
+  <circle class="st10" cx="270" cy="200" r="15"/>
+  <text class="st8" transform="translate(266.43 205)"><tspan x="0" y="0">1</tspan></text>
+  <text class="st5" transform="translate(294 198)"><tspan x="0" y="0">Mission-level</tspan></text>
+  <text class="st5" transform="translate(294 211)"><tspan x="0" y="0">demand signals</tspan></text>
+  <circle class="st10" cx="496.67" cy="200" r="15"/>
+  <text class="st8" transform="translate(493.43 205)"><tspan x="0" y="0">2</tspan></text>
+  <text class="st5" transform="translate(521 198)"><tspan x="0" y="0">Procurement reform</tspan></text>
+  <text class="st5" transform="translate(521 211)"><tspan x="0" y="0">for iterative</tspan></text>
+  <text class="st5" transform="translate(521 224)"><tspan x="0" y="0">systems</tspan></text>
+  <circle class="st10" cx="723.33" cy="200" r="15"/>
+  <text class="st8" transform="translate(719.43 205)"><tspan x="0" y="0">3</tspan></text>
+  <text class="st5" transform="translate(747 198)"><tspan x="0" y="0">Export pathways</tspan></text>
+  <rect class="st9" x="40" y="270" width="175" height="100" rx="8" ry="8"/>
+  <text class="st7" transform="translate(52 304)"><tspan x="0" y="0">Industrial</tspan></text>
+  <text class="st7" transform="translate(52 320)"><tspan x="0" y="0">Stack</tspan></text>
+  <line class="st1" x1="230" y1="320" x2="950" y2="320"/>
+  <circle class="st9" cx="270" cy="320" r="15"/>
+  <text class="st8" transform="translate(266.43 325)"><tspan x="0" y="0">4</tspan></text>
+  <text class="st5" transform="translate(294 318)"><tspan x="0" y="0">Autonomy-critical</tspan></text>
+  <text class="st5" transform="translate(294 331)"><tspan x="0" y="0">component roadmap</tspan></text>
+  <circle class="st9" cx="440" cy="320" r="15"/>
+  <text class="st8" transform="translate(436.43 325)"><tspan x="0" y="0">5</tspan></text>
+  <text class="st5" transform="translate(464 318)"><tspan x="0" y="0">Upgrade SMEs to</tspan></text>
+  <text class="st5" transform="translate(464 331)"><tspan x="0" y="0">qualified</tspan></text>
+  <text class="st5" transform="translate(464 344)"><tspan x="0" y="0">suppliers</tspan></text>
+  <circle class="st9" cx="610" cy="320" r="15"/>
+  <text class="st8" transform="translate(606.43 325)"><tspan x="0" y="0">6</tspan></text>
+  <text class="st5" transform="translate(634 318)"><tspan x="0" y="0">Trusted-source</tspan></text>
+  <text class="st5" transform="translate(634 331)"><tspan x="0" y="0">localisation</tspan></text>
+  <circle class="st9" cx="780" cy="320" r="15"/>
+  <text class="st8" transform="translate(776.43 325)"><tspan x="0" y="0">7</tspan></text>
+  <text class="st5" transform="translate(804 318)"><tspan x="0" y="0">Deliberate</tspan></text>
+  <text class="st5" transform="translate(804 331)"><tspan x="0" y="0">dual-use demand</tspan></text>
+  <rect class="st11" x="40" y="390" width="175" height="100" rx="8" ry="8"/>
+  <text class="st7" transform="translate(52 424)"><tspan x="0" y="0">Testing &amp;</tspan></text>
+  <text class="st7" transform="translate(52 440)"><tspan x="0" y="0">Data</tspan></text>
+  <line class="st1" x1="230" y1="440" x2="950" y2="440"/>
+  <circle class="st11" cx="270" cy="440" r="15"/>
+  <text class="st8" transform="translate(266.43 445)"><tspan x="0" y="0">8</tspan></text>
+  <text class="st5" transform="translate(294 438)"><tspan x="0" y="0">Autonomy test</tspan></text>
+  <text class="st5" transform="translate(294 451)"><tspan x="0" y="0">infrastructure</tspan></text>
+  <circle class="st11" cx="496.67" cy="440" r="15"/>
+  <text class="st8" transform="translate(493.43 445)"><tspan x="0" y="0">9</tspan></text>
+  <text class="st5" transform="translate(521 438)"><tspan x="0" y="0">Defence autonomy</tspan></text>
+  <text class="st5" transform="translate(521 451)"><tspan x="0" y="0">data</tspan></text>
+  <text class="st5" transform="translate(521 464)"><tspan x="0" y="0">infrastructure</tspan></text>
+  <circle class="st11" cx="723.33" cy="440" r="15"/>
+  <text class="st8" transform="translate(715.85 445)"><tspan x="0" y="0">10</tspan></text>
+  <text class="st5" transform="translate(747 438)"><tspan x="0" y="0">Materials &amp;</tspan></text>
+  <text class="st5" transform="translate(747 451)"><tspan x="0" y="0">process workforce</tspan></text>
+  <line class="st0" x1="40" y1="576" x2="960" y2="576"/>
+  <text class="st2" transform="translate(40 598)"><tspan x="0" y="0">Techadyant Labs synthesis of the report&apos;s recommendations.</tspan></text>
+  <text class="st3" transform="translate(852.23 598)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+</svg>

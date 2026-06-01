@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 900 860">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 17px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10 {
+        isolation: isolate;
+      }
+
+      .st0, .st4, .st8 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st0, .st4, .st8, .st10 {
+        fill: #4a5567;
+      }
+
+      .st1 {
+        font-size: 29px;
+      }
+
+      .st1, .st3, .st5, .st6 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st1, .st6 {
+        fill: #0f1828;
+      }
+
+      .st2, .st3, .st5, .st6, .st9, .st10 {
+        font-size: 14px;
+      }
+
+      .st2, .st11, .st5 {
+        fill: #c8443b;
+      }
+
+      .st2, .st9 {
+        font-family: CourierNewPSMT, 'Courier New';
+      }
+
+      .st12 {
+        fill: #fbf9f4;
+      }
+
+      .st3, .st13, .st9 {
+        fill: #2bc5b4;
+      }
+
+      .st4 {
+        font-size: 13px;
+      }
+
+      .st11 {
+        fill-opacity: .85;
+      }
+
+      .st14 {
+        fill: none;
+        stroke: #0f1828;
+        stroke-width: 1.5px;
+      }
+
+      .st13 {
+        fill-opacity: .9;
+      }
+
+      .st7 {
+        fill: #c9a84c;
+      }
+
+      .st7, .st8 {
+        font-size: 12px;
+      }
+
+      .st7, .st10 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+    </style>
+  </defs>
+  <rect class="st12" width="902.6" height="860"/>
+  <text class="st4" transform="translate(739.33 37.26)"><tspan x="0" y="0">Techadyant Labs · 2026</tspan></text>
+  <text class="st1" transform="translate(64 70)"><tspan x="0" y="0">China vs India, by chokepoint</tspan></text>
+  <text class="st0" transform="translate(64 99)"><tspan x="0" y="0">Where the gap is widest is where the leverage is greatest</tspan></text>
+  <text class="st8" transform="translate(64 830)"><tspan x="0" y="0">Source: IEA; USGS; PIB; Techadyant Labs analysis.</tspan></text>
+  <text class="st7" transform="translate(1064.1484 830)"><tspan x="0" y="0">share / capability, indicative</tspan></text>
+  <line class="st14" x1="560" y1="160" x2="560" y2="760"/>
+  <text class="st5" transform="translate(288.89 150)"><tspan x="0" y="0">← CHINA</tspan></text>
+  <text class="st3" transform="translate(772.26 150)"><tspan x="0" y="0">INDIA →</tspan></text>
+  <text class="st6" transform="translate(521.9 178)"><tspan x="0" y="0">Mining (C1)</tspan></text>
+  <rect class="st11" x="272" y="188" width="288" height="40" rx="3" ry="3"/>
+  <rect class="st13" x="560" y="188" width="120" height="40" rx="3" ry="3"/>
+  <text class="st2" transform="translate(236.8 214)"><tspan x="0" y="0">60%</tspan></text>
+  <text class="st9" transform="translate(690 214)"><tspan x="0" y="0">25%</tspan></text>
+  <text class="st6" transform="translate(473.66 278)"><tspan x="0" y="0">Separation &amp; refining (C2)</tspan></text>
+  <rect class="st11" x="128" y="288" width="432" height="40" rx="3" ry="3"/>
+  <rect class="st13" x="560" y="288" width="14.4" height="40" rx="3" ry="3"/>
+  <text class="st2" transform="translate(92.8 314)"><tspan x="0" y="0">90%</tspan></text>
+  <text class="st9" transform="translate(584.4 314)"><tspan x="0" y="0">3%</tspan></text>
+  <text class="st6" transform="translate(476.37 378)"><tspan x="0" y="0">Magnets &amp; materials (C3)</tspan></text>
+  <rect class="st11" x="152" y="388" width="408" height="40" rx="3" ry="3"/>
+  <rect class="st13" x="560" y="388" width="24" height="40" rx="3" ry="3"/>
+  <text class="st2" transform="translate(116.8 414)"><tspan x="0" y="0">85%</tspan></text>
+  <text class="st9" transform="translate(594 414)"><tspan x="0" y="0">5%</tspan></text>
+  <text class="st6" transform="translate(517.22 478)"><tspan x="0" y="0">Components</tspan></text>
+  <rect class="st11" x="224" y="488" width="336" height="40" rx="3" ry="3"/>
+  <rect class="st13" x="560" y="488" width="96" height="40" rx="3" ry="3"/>
+  <text class="st2" transform="translate(188.8 514)"><tspan x="0" y="0">70%</tspan></text>
+  <text class="st9" transform="translate(666 514)"><tspan x="0" y="0">20%</tspan></text>
+  <text class="st6" transform="translate(511.37 578)"><tspan x="0" y="0">Assembly (C4)</tspan></text>
+  <rect class="st11" x="344" y="588" width="216" height="40" rx="3" ry="3"/>
+  <rect class="st13" x="560" y="588" width="168" height="40" rx="3" ry="3"/>
+  <text class="st2" transform="translate(308.8 614)"><tspan x="0" y="0">45%</tspan></text>
+  <text class="st9" transform="translate(738 614)"><tspan x="0" y="0">35%</tspan></text>
+  <text class="st6" transform="translate(519.94 678)"><tspan x="0" y="0">Chip design</tspan></text>
+  <rect class="st11" x="512" y="688" width="48" height="40" rx="3" ry="3"/>
+  <rect class="st13" x="560" y="688" width="120" height="40" rx="3" ry="3"/>
+  <text class="st2" transform="translate(476.8 714)"><tspan x="0" y="0">10%</tspan></text>
+  <text class="st9" transform="translate(690 714)"><tspan x="0" y="0">25%</tspan></text>
+  <text class="st10" transform="translate(306.71 790)"><tspan x="0" y="0">The widest gaps — C2 and C3 — are exactly where the alliance must close them.</tspan></text>
+</svg>

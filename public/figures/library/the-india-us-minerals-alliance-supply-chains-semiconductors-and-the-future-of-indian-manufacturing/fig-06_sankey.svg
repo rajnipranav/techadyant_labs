@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1550 750">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 15px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st3, .st5 {
+        fill: #4a5567;
+        font-family: ArialMT, Arial;
+      }
+
+      .st1 {
+        font-size: 17px;
+      }
+
+      .st2 {
+        font-size: 29px;
+      }
+
+      .st2, .st6, .st7 {
+        fill: #0f1828;
+      }
+
+      .st2, .st6, .st7, .st8 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st9 {
+        fill: #d98c86;
+      }
+
+      .st10 {
+        fill: #d9c07a;
+      }
+
+      .st11 {
+        fill: #fbf9f4;
+      }
+
+      .st12 {
+        fill-opacity: .16;
+      }
+
+      .st12, .st13, .st14, .st8 {
+        fill: #c8443b;
+      }
+
+      .st15 {
+        fill-opacity: .22;
+      }
+
+      .st15, .st16 {
+        fill: #2bc5b4;
+      }
+
+      .st13 {
+        fill-opacity: .18;
+      }
+
+      .st3 {
+        font-size: 13px;
+      }
+
+      .st4 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st4, .st5 {
+        font-size: 12px;
+      }
+
+      .st4, .st17 {
+        fill: #c9a84c;
+      }
+
+      .st18 {
+        fill: #9aa3af;
+      }
+
+      .st6 {
+        font-size: 13.5px;
+      }
+
+      .st17 {
+        fill-opacity: .28;
+      }
+
+      .st7 {
+        font-size: 16px;
+      }
+
+      .st14 {
+        fill-opacity: .1;
+        stroke: #c8443b;
+        stroke-width: 1.35px;
+      }
+
+      .st8 {
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2">
+    <rect class="st11" width="1550" height="750"/>
+  </g>
+  <g id="Layer_1">
+    <path class="st13" d="M123.18,168.15c180,0,180,10,360,10v200c-180,0-180-10-360-10v-200Z"/>
+    <path class="st13" d="M123.18,328.15c180,0,180,70,360,70v80c-180,0-180-70-360-70v-80Z"/>
+    <path class="st12" d="M523.18,178.15c195,0,195,20,390,20v150c-195,0-195-20-390-20v-150Z"/>
+    <path class="st17" d="M523.18,278.15c195,0,195,100,390,100v90c-195,0-195-100-390-100v-90Z"/>
+    <path class="st15" d="M953.18,248.15c195,0,195-50,390-50v40c-195,0-195,50-390,50v-40Z"/>
+    <path class="st15" d="M953.18,248.15c195,0,195,30,390,30v40c-195,0-195-30-390-30v-40Z"/>
+    <path class="st15" d="M953.18,248.15c195,0,195,130,390,130v40c-195,0-195-130-390-130v-40Z"/>
+    <path class="st15" d="M953.18,248.15c195,0,195,220,390,220v40c-195,0-195-220-390-220v-40Z"/>
+    <path class="st15" d="M953.18,248.15c195,0,195,300,390,300v40c-195,0-195-300-390-300v-40Z"/>
+    <text class="st3" transform="translate(1363.179 39.3685)"><tspan x="0" y="0">Techadyant Labs · 2026</tspan></text>
+    <text class="st2" transform="translate(27.18 43.15)"><tspan x="0" y="0">From mine to machine: the critical-mineral value flow</tspan></text>
+    <text class="st1" transform="translate(27.18 72.15)"><tspan x="0" y="0">Where China controls the flow — and where India enters (and does not)</tspan></text>
+    <text class="st5" transform="translate(93.18 724.78)"><tspan x="0" y="0">Source: IEA; USGS; Techadyant Labs analysis.</tspan></text>
+    <text class="st4" transform="translate(1351.9247 727.2948)"><tspan x="0" y="0">band width ≈ relative flow</tspan></text>
+    <text class="st7" transform="translate(69.43 137.15)"><tspan x="0" y="0">MINING (C1)</tspan></text>
+    <text class="st7" transform="translate(460.95 137.15)"><tspan x="0" y="0">SEPARATION /</tspan></text>
+    <text class="st7" transform="translate(460.68 159.15)"><tspan x="0" y="0">REFINING (C2)</tspan></text>
+    <text class="st7" transform="translate(898.18 137.15)"><tspan x="0" y="0">MAGNETS &amp;</tspan></text>
+    <text class="st7" transform="translate(883.32 159.15)"><tspan x="0" y="0">MATERIALS (C3)</tspan></text>
+    <text class="st7" transform="translate(1282.18 139.4388)"><tspan x="0" y="0">DOWNSTREAM (C4)</tspan></text>
+    <rect class="st18" x="83.18" y="168.15" width="40" height="120" rx="3" ry="3"/>
+    <text class="st7" transform="translate(133.18 230.15)"><tspan x="0" y="0">Ore / monazite</tspan></text>
+    <text class="st0" transform="translate(133.18 250.15)"><tspan x="0" y="0">beach sand, brine</tspan></text>
+    <rect class="st18" x="83.18" y="328.15" width="40" height="90" rx="3" ry="3"/>
+    <text class="st7" transform="translate(133.18 375.15)"><tspan x="0" y="0">By-product Ga/Ge</tspan></text>
+    <text class="st0" transform="translate(133.18 395.15)"><tspan x="0" y="0">from Al/Zn</tspan></text>
+    <rect class="st9" x="483.18" y="178.15" width="40" height="200" rx="3" ry="3"/>
+    <text class="st7" transform="translate(533.18 280.15)"><tspan x="0" y="0">Separation &amp; refining</tspan></text>
+    <text class="st0" transform="translate(533.18 300.15)"><tspan x="0" y="0">CHINA ~85–92%</tspan></text>
+    <rect class="st10" x="913.18" y="198.15" width="40" height="150" rx="3" ry="3"/>
+    <text class="st7" transform="translate(963.18 275.15)"><tspan x="0" y="0">NdFeB magnets</tspan></text>
+    <text class="st0" transform="translate(963.18 295.15)"><tspan x="0" y="0">China-dominant; India nascent</tspan></text>
+    <rect class="st10" x="913.18" y="378.15" width="40" height="120" rx="3" ry="3"/>
+    <text class="st7" transform="translate(963.18 440.15)"><tspan x="0" y="0">Wafers · gases · Ga/Ge</tspan></text>
+    <text class="st0" transform="translate(963.18 460.15)"><tspan x="0" y="0">India ~imports</tspan></text>
+    <rect class="st16" x="1343.18" y="198.15" width="40" height="52" rx="3" ry="3"/>
+    <text class="st6" transform="translate(1393.1795 229.1539)"><tspan x="0" y="0">Semiconductors</tspan></text>
+    <rect class="st16" x="1343.18" y="278.15" width="40" height="52" rx="3" ry="3"/>
+    <text class="st6" transform="translate(1393.1795 309.1538)"><tspan x="0" y="0">EVs &amp; motors</tspan></text>
+    <rect class="st16" x="1343.18" y="378.15" width="40" height="52" rx="3" ry="3"/>
+    <text class="st6" transform="translate(1393.1795 409.1538)"><tspan x="0" y="0">Defence</tspan></text>
+    <rect class="st16" x="1343.18" y="468.15" width="40" height="52" rx="3" ry="3"/>
+    <text class="st6" transform="translate(1393.1795 499.1538)"><tspan x="0" y="0">AI datacentres</tspan></text>
+    <rect class="st16" x="1343.18" y="548.15" width="40" height="52" rx="3" ry="3"/>
+    <text class="st6" transform="translate(1393.1795 579.1538)"><tspan x="0" y="0">Wind / energy</tspan></text>
+    <rect class="st14" x="303.49" y="640.15" width="1019.23" height="44" rx="6" ry="6"/>
+    <text class="st8" transform="translate(423.44 668.15)"><tspan x="0" y="0">The flow narrows to a Chinese chokepoint at C2–C3 — every downstream sector depends on it.</tspan></text>
+  </g>
+</svg>

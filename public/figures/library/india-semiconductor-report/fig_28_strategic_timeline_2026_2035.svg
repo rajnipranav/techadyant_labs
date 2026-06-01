@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="Arial, Helvetica, sans-serif">
+<defs>
+  <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="2"/><feOffset dx="0" dy="1"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.22"/></feComponentTransfer>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <marker id="ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#0B1B3B"/></marker>
+  <marker id="ahT" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#14B8A6"/></marker>
+  <marker id="ahG" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#C9A84C"/></marker>
+</defs>
+<rect width="1200" height="800" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1200" height="60" fill="#0B1B3B"/>
+<text x="40" y="38" fill="#FFFFFF" font-size="20" font-weight="700">Strategic Timeline 2026–2035</text>
+<text x="1160" y="24" text-anchor="end" fill="#C9A84C" font-size="10" font-weight="700" letter-spacing="1.5">FIGURE 28</text>
+<text x="1160" y="44" text-anchor="end" fill="#E5E7EB" font-size="11">Milestone map across six swim lanes — bars = windows, diamonds = single-year events</text>
+<text x="40" y="785" fill="#6B7280" font-size="9" letter-spacing="0.5">INDIA SEMICONDUCTOR INTELLIGENCE 2026  ·  WHO REALLY BENEFITS FROM INDIA'S FAB ECOSYSTEM?</text>
+<text x="1160" y="785" text-anchor="end" fill="#6B7280" font-size="9" letter-spacing="0.5">FIG 28 / 38</text>
+
+<line x1="200.0" y1="105" x2="200.0" y2="675" stroke="#E5E7EB" stroke-width="1"/>
+<text x="246.0" y="96" text-anchor="middle" fill="#1F2937" font-size="11" font-weight="700">2026</text>
+<line x1="292.0" y1="105" x2="292.0" y2="675" stroke="#E5E7EB" stroke-width="1"/>
+<text x="338.0" y="96" text-anchor="middle" fill="#1F2937" font-size="11" font-weight="700">2027</text>
+<line x1="384.0" y1="105" x2="384.0" y2="675" stroke="#E5E7EB" stroke-width="1"/>
+<text x="430.0" y="96" text-anchor="middle" fill="#1F2937" font-size="11" font-weight="700">2028</text>
+<line x1="476.0" y1="105" x2="476.0" y2="675" stroke="#E5E7EB" stroke-width="1"/>
+<text x="522.0" y="96" text-anchor="middle" fill="#1F2937" font-size="11" font-weight="700">2029</text>
+<line x1="568.0" y1="105" x2="568.0" y2="675" stroke="#E5E7EB" stroke-width="1"/>
+<text x="614.0" y="96" text-anchor="middle" fill="#1F2937" font-size="11" font-weight="700">2030</text>
+<line x1="660.0" y1="105" x2="660.0" y2="675" stroke="#E5E7EB" stroke-width="1"/>
+<text x="706.0" y="96" text-anchor="middle" fill="#1F2937" font-size="11" font-weight="700">2031</text>
+<line x1="752.0" y1="105" x2="752.0" y2="675" stroke="#E5E7EB" stroke-width="1"/>
+<text x="798.0" y="96" text-anchor="middle" fill="#1F2937" font-size="11" font-weight="700">2032</text>
+<line x1="844.0" y1="105" x2="844.0" y2="675" stroke="#E5E7EB" stroke-width="1"/>
+<text x="890.0" y="96" text-anchor="middle" fill="#1F2937" font-size="11" font-weight="700">2033</text>
+<line x1="936.0" y1="105" x2="936.0" y2="675" stroke="#E5E7EB" stroke-width="1"/>
+<text x="982.0" y="96" text-anchor="middle" fill="#1F2937" font-size="11" font-weight="700">2034</text>
+<line x1="1028.0" y1="105" x2="1028.0" y2="675" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1074.0" y="96" text-anchor="middle" fill="#1F2937" font-size="11" font-weight="700">2035</text>
+<line x1="1120.0" y1="105" x2="1120.0" y2="675" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="40" y="110" width="150" height="90" rx="6" fill="#0B1B3B"/>
+<text x="115" y="159" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700" letter-spacing="0.5">FABS</text>
+<rect x="200" y="110" width="920" height="90" rx="4" fill="#F8FAFC" opacity="0.5"/>
+<rect x="40" y="205" width="150" height="90" rx="6" fill="#2E6497"/>
+<text x="115" y="254" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700" letter-spacing="0.5">OSATs</text>
+<rect x="200" y="205" width="920" height="90" rx="4" fill="#F8FAFC" opacity="0.5"/>
+<rect x="40" y="300" width="150" height="90" rx="6" fill="#14B8A6"/>
+<text x="115" y="349" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700" letter-spacing="0.5">DESIGN / FABLESS</text>
+<rect x="200" y="300" width="920" height="90" rx="4" fill="#F8FAFC" opacity="0.5"/>
+<rect x="40" y="395" width="150" height="90" rx="6" fill="#6D28D9"/>
+<text x="115" y="444" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700" letter-spacing="0.5">SKILLING</text>
+<rect x="200" y="395" width="920" height="90" rx="4" fill="#F8FAFC" opacity="0.5"/>
+<rect x="40" y="490" width="150" height="90" rx="6" fill="#C9A84C"/>
+<text x="115" y="539" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700" letter-spacing="0.5">POLICY</text>
+<rect x="200" y="490" width="920" height="90" rx="4" fill="#F8FAFC" opacity="0.5"/>
+<rect x="40" y="585" width="150" height="90" rx="6" fill="#2563EB"/>
+<text x="115" y="634" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700" letter-spacing="0.5">DEMAND PULL</text>
+<rect x="200" y="585" width="920" height="90" rx="4" fill="#F8FAFC" opacity="0.5"/>
+<rect x="200.0" y="124" width="128.8" height="24" rx="5" fill="#0B1B3B" filter="url(#soft)"/>
+<text x="208.0" y="140" fill="#FFFFFF" font-size="9.5" font-weight="600">Dholera: construction</text>
+<rect x="328.8" y="124" width="147.2" height="24" rx="5" fill="#2E6497" filter="url(#soft)"/>
+<text x="336.8" y="140" fill="#FFFFFF" font-size="9.5" font-weight="600">Dholera: wafer-out &amp; ramp</text>
+<rect x="476.0" y="124" width="184.0" height="24" rx="5" fill="#14B8A6" filter="url(#soft)"/>
+<text x="484.0" y="140" fill="#FFFFFF" font-size="9.5" font-weight="600">Dholera: full yield</text>
+<rect x="384.0" y="162" width="276.0" height="24" rx="5" fill="#0B1B3B" filter="url(#soft)"/>
+<text x="392.0" y="178" fill="#FFFFFF" font-size="9.5" font-weight="600">Fab 2: approval &amp; build</text>
+<rect x="660.0" y="162" width="276.0" height="24" rx="5" fill="#2E6497" filter="url(#soft)"/>
+<text x="668.0" y="178" fill="#FFFFFF" font-size="9.5" font-weight="600">Fab 2: operational</text>
+<rect x="200.0" y="219" width="184.0" height="24" rx="5" fill="#2E6497" filter="url(#soft)"/>
+<text x="208.0" y="235" fill="#FFFFFF" font-size="9.5" font-weight="600">Micron / Kaynes / CG Sanand ramp</text>
+<rect x="476.0" y="219" width="368.0" height="24" rx="5" fill="#14B8A6" filter="url(#soft)"/>
+<text x="484.0" y="235" fill="#FFFFFF" font-size="9.5" font-weight="600">Advanced packaging at scale</text>
+<rect x="200.0" y="257" width="276.0" height="24" rx="5" fill="#0B1B3B" filter="url(#soft)"/>
+<text x="208.0" y="273" fill="#FFFFFF" font-size="9.5" font-weight="600">Tata Jagiroad ramp</text>
+<rect x="476.0" y="257" width="230.0" height="24" rx="5" fill="#2E6497" filter="url(#soft)"/>
+<text x="484.0" y="273" fill="#FFFFFF" font-size="9.5" font-weight="600">HCL-Foxconn Jewar</text>
+<rect x="200.0" y="314" width="368.0" height="24" rx="5" fill="#14B8A6" filter="url(#soft)"/>
+<text x="208.0" y="330" fill="#FFFFFF" font-size="9.5" font-weight="600">DLI design startups scale</text>
+<rect x="568.0" y="314" width="368.0" height="24" rx="5" fill="#0B1B3B" filter="url(#soft)"/>
+<text x="576.0" y="330" fill="#FFFFFF" font-size="9.5" font-weight="600">Indigenous SoC at volume</text>
+<path d="M522.0,355 L531.0,364 L522.0,373 L513.0,364 Z" fill="#C9A84C" stroke="#FFFFFF" stroke-width="1.5"/>
+<text x="522.0" y="388" text-anchor="middle" fill="#111827" font-size="8.5" font-weight="600">First $1B fabless unicorn</text>
+<rect x="660.0" y="352" width="368.0" height="24" rx="5" fill="#2E6497" filter="url(#soft)"/>
+<text x="668.0" y="368" fill="#FFFFFF" font-size="9.5" font-weight="600">RISC-V IP exports</text>
+<rect x="200.0" y="409" width="552.0" height="24" rx="5" fill="#6D28D9" filter="url(#soft)"/>
+<text x="208.0" y="425" fill="#FFFFFF" font-size="9.5" font-weight="600">C2S + CeNSE — 85,000 engineers</text>
+<rect x="384.0" y="447" width="460.0" height="24" rx="5" fill="#2E6497" filter="url(#soft)"/>
+<text x="392.0" y="463" fill="#FFFFFF" font-size="9.5" font-weight="600">Process-eng pipeline matures</text>
+<rect x="844.0" y="447" width="184.0" height="24" rx="5" fill="#14B8A6" filter="url(#soft)"/>
+<text x="852.0" y="463" fill="#FFFFFF" font-size="9.5" font-weight="600">Talent gap narrows</text>
+<rect x="200.0" y="504" width="184.0" height="24" rx="5" fill="#C9A84C" filter="url(#soft)"/>
+<text x="208.0" y="520" fill="#FFFFFF" font-size="9.5" font-weight="600">ISM 2.0 active</text>
+<rect x="384.0" y="504" width="276.0" height="24" rx="5" fill="#0B1B3B" filter="url(#soft)"/>
+<text x="392.0" y="520" fill="#FFFFFF" font-size="9.5" font-weight="600">ISM 3.0: materials + equipment</text>
+<rect x="752.0" y="504" width="276.0" height="24" rx="5" fill="#2E6497" filter="url(#soft)"/>
+<text x="760.0" y="520" fill="#FFFFFF" font-size="9.5" font-weight="600">ISM 4.0 horizon</text>
+<path d="M522.0,545 L531.0,554 L522.0,563 L513.0,554 Z" fill="#14B8A6" stroke="#FFFFFF" stroke-width="1.5"/>
+<text x="522.0" y="578" text-anchor="middle" fill="#111827" font-size="8.5" font-weight="600">70–75% domestic chip target</text>
+<rect x="200.0" y="599" width="184.0" height="24" rx="5" fill="#2E6497" filter="url(#soft)"/>
+<text x="208.0" y="615" fill="#FFFFFF" font-size="9.5" font-weight="600">Apple bulk US-bound from India</text>
+<rect x="476.0" y="599" width="368.0" height="24" rx="5" fill="#0B1B3B" filter="url(#soft)"/>
+<text x="484.0" y="615" fill="#FFFFFF" font-size="9.5" font-weight="600">5G → 6G transition</text>
+<rect x="200.0" y="637" width="552.0" height="24" rx="5" fill="#C9A84C" filter="url(#soft)"/>
+<text x="208.0" y="653" fill="#FFFFFF" font-size="9.5" font-weight="600">AMCA RFP → production</text>
+<path d="M614.0,640 L623.0,649 L614.0,658 L605.0,649 Z" fill="#14B8A6" stroke="#FFFFFF" stroke-width="1.5"/>
+<text x="614.0" y="673" text-anchor="middle" fill="#111827" font-size="8.5" font-weight="600">EV 30% · DC 8 GW</text>
+<text x="600" y="752" text-anchor="middle" fill="#6B7280" font-size="11">Bars indicate the window from announcement to operational delivery · diamonds mark single-year milestones.</text>
+</svg>

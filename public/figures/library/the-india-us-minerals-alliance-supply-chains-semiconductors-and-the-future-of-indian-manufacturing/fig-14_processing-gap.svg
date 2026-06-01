@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1500 720">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #0f1828;
+        stroke-width: 2px;
+      }
+
+      .st0, .st1 {
+        fill: none;
+      }
+
+      .st2 {
+        font-size: 17px;
+      }
+
+      .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st1 {
+        isolation: isolate;
+      }
+
+      .st2, .st4, .st6, .st8, .st9 {
+        fill: #4a5567;
+      }
+
+      .st2, .st4, .st8 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st3 {
+        font-size: 29px;
+      }
+
+      .st3, .st10, .st11 {
+        fill: #0f1828;
+        font-weight: 700;
+      }
+
+      .st3, .st11 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .st12 {
+        fill: #fbf9f4;
+      }
+
+      .st13 {
+        fill: #fff;
+      }
+
+      .st4 {
+        font-size: 13px;
+      }
+
+      .st14, .st7 {
+        fill: #c9a84c;
+      }
+
+      .st5, .st7 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st5, .st15 {
+        fill: #c8443b;
+      }
+
+      .st5, .st11 {
+        font-size: 16px;
+      }
+
+      .st6, .st7, .st8 {
+        font-size: 12px;
+      }
+
+      .st6, .st9 {
+        font-family: CourierNewPSMT, 'Courier New';
+      }
+
+      .st16 {
+        fill: #2bc5b4;
+      }
+
+      .st9 {
+        font-size: 15px;
+      }
+
+      .st10 {
+        font-family: CourierNewPS-BoldMT, 'Courier New';
+        font-size: 22px;
+      }
+
+      .st1 {
+        opacity: .4;
+        stroke: #4a5567;
+        stroke-dasharray: 2 4;
+        stroke-width: .5px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2">
+    <rect class="st12" x="-3.34" y="2.14" width="1503.34" height="717.86"/>
+    <rect class="st13" x="22.48" y="92.13" width="1445.78" height="536.14"/>
+  </g>
+  <g id="Layer_1">
+    <text class="st4" transform="translate(1320.1542 40.3055)"><tspan x="0" y="0">Techadyant Labs · 2026</tspan></text>
+    <text class="st3" transform="translate(28.48 50.41)"><tspan x="0" y="0">The gap that defines the decade</tspan></text>
+    <text class="st2" transform="translate(28.48 79.41)"><tspan x="0" y="0">India&apos;s planned separation capacity against the ambition it must feed</tspan></text>
+    <text class="st8" transform="translate(58.14 680.06)"><tspan x="0" y="0">Source: IREL plans; REPM scheme; Techadyant Labs analysis.</tspan></text>
+    <text class="st7" transform="translate(1261.2126 688.798)"><tspan x="0" y="0">NdPr-oxide basis, indicative t/yr</tspan></text>
+    <line class="st0" x1="76" y1="595" x2="1436" y2="595"/>
+    <line class="st1" x1="76" y1="595" x2="1436" y2="595"/>
+    <text class="st6" transform="translate(56.8 599)"><tspan x="0" y="0">0</tspan></text>
+    <line class="st1" x1="76" y1="485" x2="1436" y2="485"/>
+    <text class="st9" transform="translate(42.4 489)"><tspan x="0" y="0">500</tspan></text>
+    <line class="st1" x1="76" y1="375" x2="1436" y2="375"/>
+    <text class="st9" transform="translate(35.2 379)"><tspan x="0" y="0">1000</tspan></text>
+    <line class="st1" x1="76" y1="265" x2="1436" y2="265"/>
+    <text class="st9" transform="translate(35.2 269)"><tspan x="0" y="0">1500</tspan></text>
+    <line class="st1" x1="76" y1="155" x2="1436" y2="155"/>
+    <text class="st9" transform="translate(35.2 159)"><tspan x="0" y="0">2000</tspan></text>
+    <rect class="st16" x="196" y="507" width="260" height="88" rx="3" ry="3"/>
+    <text class="st10" transform="translate(299.6 493)"><tspan x="0" y="0">~400</tspan></text>
+    <text class="st11" transform="translate(258.9 623)"><tspan x="0" y="0">IREL NdPr today</tspan></text>
+    <rect class="st14" x="616" y="397" width="260" height="198" rx="3" ry="3"/>
+    <text class="st10" transform="translate(719.6 383)"><tspan x="0" y="0">~900</tspan></text>
+    <text class="st11" transform="translate(665.66 623)"><tspan x="0" y="0">IREL NdPr plan 2030</tspan></text>
+    <rect class="st15" x="1036" y="199" width="260" height="396" rx="3" ry="3"/>
+    <text class="st10" transform="translate(1119.7925 185)"><tspan x="0" y="0">~1,800+</tspan></text>
+    <text class="st11" transform="translate(1084.8691 623)"><tspan x="0" y="0">REPM feedstock need</tspan></text>
+    <text class="st11" transform="translate(1100.814 643)"><tspan x="0" y="0">(6,000 t magnets)</tspan></text>
+    <text class="st5" transform="translate(984.16 149)"><tspan x="0" y="0">the gap the midstream + recycling + imports must fill</tspan></text>
+  </g>
+</svg>

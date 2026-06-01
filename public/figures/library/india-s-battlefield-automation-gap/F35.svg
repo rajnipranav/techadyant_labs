@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 700 620">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 12.5px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9 {
+        isolation: isolate;
+      }
+
+      .st0, .st5, .st10, .st7 {
+        fill: #0f1828;
+      }
+
+      .st0, .st5, .st7, .st8 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st1, .st2, .st3 {
+        opacity: .6;
+      }
+
+      .st1, .st2, .st3, .st11, .st12, .st13 {
+        stroke-width: 2px;
+      }
+
+      .st1, .st2, .st3, .st14 {
+        fill: none;
+      }
+
+      .st1, .st12 {
+        stroke: #0f1828;
+      }
+
+      .st2, .st13 {
+        stroke: #1fa89a;
+      }
+
+      .st3, .st11 {
+        stroke: #c9a84c;
+      }
+
+      .st11, .st12, .st8, .st13 {
+        fill: #fff;
+      }
+
+      .st14 {
+        stroke: #d8d3c7;
+        stroke-width: .84px;
+      }
+
+      .st4 {
+        fill: #8a8576;
+      }
+
+      .st4, .st5 {
+        font-size: 11px;
+      }
+
+      .st4, .st6, .st9 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st15 {
+        fill: #c9a84c;
+      }
+
+      .st16 {
+        fill: #1fa89a;
+      }
+
+      .st6 {
+        font-size: 14px;
+      }
+
+      .st6, .st9 {
+        fill: #4a5567;
+      }
+
+      .st7 {
+        font-size: 26px;
+      }
+
+      .st8 {
+        font-size: 13px;
+      }
+
+      .st9 {
+        font-size: 10px;
+      }
+    </style>
+  </defs>
+  <rect class="st10" x="-1.45" y="0" width="703.92" height="8"/>
+  <rect class="st15" x="-1.45" y="8" width="703.92" height="3"/>
+  <text class="st7" transform="translate(20 53.11)"><tspan x="0" y="0">Mid-Sized Industry Role Map</tspan></text>
+  <text class="st6" transform="translate(20 79.11)"><tspan x="0" y="0">Where mid-sized firms add the most value</tspan></text>
+  <line class="st14" x1="26.71" y1="96" x2="674.32" y2="96"/>
+  <circle class="st10" cx="350" cy="350" r="78"/>
+  <text class="st8" transform="translate(323.27 330)"><tspan x="0" y="0">Focused</tspan></text>
+  <text class="st8" transform="translate(325.8 346)"><tspan x="0" y="0">Mission</tspan></text>
+  <text class="st8" transform="translate(319.66 362)"><tspan x="0" y="0">Integrator</tspan></text>
+  <line class="st2" x1="350" y1="272" x2="350" y2="135"/>
+  <rect class="st13" x="275" y="109" width="150" height="52" rx="8" ry="8"/>
+  <rect class="st16" x="275" y="109" width="6" height="52"/>
+  <text class="st0" transform="translate(291 131)"><tspan x="0" y="0">Mission Systems</tspan></text>
+  <text class="st9" transform="translate(291 148)"><tspan x="0" y="0">Border, counter-UAS</tspan></text>
+  <line class="st3" x1="424" y1="326" x2="554" y2="284"/>
+  <rect class="st11" x="479" y="258" width="150" height="52" rx="8" ry="8"/>
+  <rect class="st15" x="479" y="258" width="6" height="52"/>
+  <text class="st0" transform="translate(495 280)"><tspan x="0" y="0">Supplier Development</tspan></text>
+  <text class="st9" transform="translate(495 297)"><tspan x="0" y="0">Absorb SMEs</tspan></text>
+  <line class="st1" x1="396" y1="413" x2="476" y2="524"/>
+  <rect class="st12" x="401" y="498" width="150" height="52" rx="8" ry="8"/>
+  <rect class="st10" x="401" y="498" width="6" height="52"/>
+  <text class="st0" transform="translate(417 520)"><tspan x="0" y="0">Test Infrastructure</tspan></text>
+  <text class="st9" transform="translate(417 537)"><tspan x="0" y="0">Ranges, EW labs</tspan></text>
+  <line class="st2" x1="304" y1="413" x2="224" y2="524"/>
+  <rect class="st13" x="149" y="498" width="150" height="52" rx="8" ry="8"/>
+  <rect class="st16" x="149" y="498" width="6" height="52"/>
+  <text class="st0" transform="translate(165 520)"><tspan x="0" y="0">Product Families</tspan></text>
+  <text class="st9" transform="translate(165 537)"><tspan x="0" y="0">Repeatable platforms</tspan></text>
+  <line class="st3" x1="276" y1="326" x2="146" y2="284"/>
+  <rect class="st11" x="71" y="258" width="150" height="52" rx="8" ry="8"/>
+  <rect class="st15" x="71" y="258" width="6" height="52"/>
+  <text class="st0" transform="translate(87 280)"><tspan x="0" y="0">Export Channels</tspan></text>
+  <text class="st9" transform="translate(87 297)"><tspan x="0" y="0">Friendly markets</tspan></text>
+  <line class="st14" x1="26.71" y1="576" x2="674.32" y2="576"/>
+  <text class="st4" transform="translate(20.17 598.14)"><tspan x="0" y="0">Techadyant Labs framework.</tspan></text>
+  <text class="st5" transform="translate(564.9 598.14)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+</svg>

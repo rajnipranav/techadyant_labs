@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1460 700">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5 {
+        fill: #4a5567;
+      }
+
+      .st6 {
+        stroke: #0f1828;
+        stroke-width: 2px;
+      }
+
+      .st6, .st7 {
+        fill: none;
+      }
+
+      .st1 {
+        font-size: 17px;
+      }
+
+      .st1, .st8, .st2, .st9, .st3, .st4, .st10, .st11, .st5, .st12, .st7 {
+        isolation: isolate;
+      }
+
+      .st1, .st2, .st3, .st4, .st11 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st8 {
+        font-size: 29px;
+      }
+
+      .st8, .st10, .st12 {
+        fill: #0f1828;
+        font-weight: 700;
+      }
+
+      .st8, .st12 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .st13 {
+        fill: #fbf9f4;
+      }
+
+      .st14, .st11 {
+        fill: #fff;
+      }
+
+      .st2 {
+        font-size: 13px;
+      }
+
+      .st15 {
+        fill: #c9a84c;
+      }
+
+      .st9 {
+        font-family: Arial-ItalicMT, Arial;
+        font-size: 15px;
+        font-style: italic;
+      }
+
+      .st9, .st16 {
+        fill: #c8443b;
+      }
+
+      .st3, .st5 {
+        font-size: 14px;
+      }
+
+      .st4, .st11 {
+        font-size: 12px;
+      }
+
+      .st10 {
+        font-family: CourierNewPS-BoldMT, 'Courier New';
+        font-size: 22px;
+      }
+
+      .st5 {
+        font-family: CourierNewPSMT, 'Courier New';
+      }
+
+      .st12 {
+        font-size: 16px;
+      }
+
+      .st7 {
+        opacity: .4;
+        stroke: #4a5567;
+        stroke-dasharray: 2 4;
+        stroke-width: .5px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2">
+    <rect class="st13" width="1459.11" height="696.59"/>
+  </g>
+  <g id="Layer_4">
+    <rect class="st14" x="36.22" y="101.9" width="1393.78" height="548.19"/>
+  </g>
+  <g id="Layer_1">
+    <text class="st2" transform="translate(1301.5156 35.09)"><tspan x="0" y="0">Techadyant Labs · 2026</tspan></text>
+    <text class="st8" transform="translate(26.4 37.82)"><tspan x="0" y="0">The 50-gigawatt-hour lesson</tspan></text>
+    <text class="st1" transform="translate(26.4 72.82)"><tspan x="0" y="0">India&apos;s cell-manufacturing target versus what got built — the midstream trap in one chart</tspan></text>
+    <text class="st4" transform="translate(19.55 686.13)"><tspan x="0" y="0">Source: IEEFA-JMK Research; CareEdge; Ministry of Heavy Industries. Techadyant Labs analysis.</tspan></text>
+    <line class="st6" x1="90" y1="586" x2="1398.87" y2="586"/>
+    <line class="st7" x1="90" y1="586" x2="1391.64" y2="586"/>
+    <text class="st5" transform="translate(70.8 590)"><tspan x="0" y="0">0</tspan></text>
+    <line class="st7" x1="90" y1="498" x2="1430" y2="498"/>
+    <text class="st5" transform="translate(63.6 502)"><tspan x="0" y="0">10</tspan></text>
+    <line class="st7" x1="90" y1="410" x2="1430" y2="410"/>
+    <text class="st5" transform="translate(63.6 414)"><tspan x="0" y="0">20</tspan></text>
+    <line class="st7" x1="90" y1="322" x2="1430" y2="322"/>
+    <text class="st5" transform="translate(63.6 326)"><tspan x="0" y="0">30</tspan></text>
+    <line class="st7" x1="90" y1="234" x2="1430" y2="234"/>
+    <text class="st5" transform="translate(63.6 238)"><tspan x="0" y="0">40</tspan></text>
+    <line class="st7" x1="90" y1="146" x2="1430" y2="146"/>
+    <text class="st5" transform="translate(63.6 150)"><tspan x="0" y="0">50</tspan></text>
+    <text class="st3" transform="translate(50.67 132)"><tspan x="0" y="0">GWh</tspan></text>
+    <rect class="st0" x="210" y="146" width="280" height="440" rx="3" ry="3"/>
+    <text class="st10" transform="translate(310.39 132)"><tspan x="0" y="0">50 GWh</tspan></text>
+    <text class="st12" transform="translate(290.5 614)"><tspan x="0" y="0">Target by 2025</tspan></text>
+    <rect class="st16" x="630" y="573.68" width="280" height="12.32" rx="3" ry="3"/>
+    <text class="st10" transform="translate(717.19 559.68)"><tspan x="0" y="0">~1.4 GWh</tspan></text>
+    <text class="st12" transform="translate(705.48 614)"><tspan x="0" y="0">Cell capacity built</tspan></text>
+    <rect class="st15" x="1050" y="146" width="280" height="440" rx="3" ry="3"/>
+    <text class="st11" transform="translate(1158.3184 170)"><tspan x="0" y="0">caps at axis</tspan></text>
+    <text class="st10" transform="translate(1143.7925 132)"><tspan x="0" y="0">~60 GWh</tspan></text>
+    <text class="st12" transform="translate(1088.9004 614)"><tspan x="0" y="0">Pack capacity (imports cells)</tspan></text>
+    <text class="st9" transform="translate(618.2 527.68)"><tspan x="0" y="0">under 3% of target · zero incentives disbursed</tspan></text>
+  </g>
+</svg>

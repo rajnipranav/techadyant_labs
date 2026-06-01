@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 850 800">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #64748b;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13 {
+        isolation: isolate;
+      }
+
+      .st0, .st2 {
+        letter-spacing: .05em;
+      }
+
+      .st0, .st2, .st10, .st11, .st13 {
+        font-size: 10px;
+      }
+
+      .st0, .st10 {
+        font-family: SegoeUI-Semibold, 'Segoe UI';
+        font-weight: 600;
+      }
+
+      .st1 {
+        font-size: 22px;
+        letter-spacing: .02em;
+      }
+
+      .st1, .st2, .st3, .st7, .st9, .st12 {
+        font-family: SegoeUI-Bold, 'Segoe UI';
+        font-weight: 700;
+      }
+
+      .st1, .st14, .st7, .st12 {
+        fill: #fff;
+      }
+
+      .st15 {
+        fill: url(#linear-gradient2);
+      }
+
+      .st16 {
+        stroke: #414042;
+        stroke-width: .75px;
+      }
+
+      .st16, .st4, .st5, .st17, .st18, .st19 {
+        fill: none;
+      }
+
+      .st16, .st5 {
+        stroke-dasharray: 6 12;
+      }
+
+      .st20 {
+        filter: url(#shadowLight7);
+      }
+
+      .st21 {
+        filter: url(#shadowLight6);
+      }
+
+      .st2, .st9 {
+        fill: #eab308;
+      }
+
+      .st22 {
+        fill: url(#linear-gradient10);
+      }
+
+      .st3 {
+        fill: #0f172a;
+      }
+
+      .st3, .st12 {
+        font-size: 12px;
+      }
+
+      .st4 {
+        opacity: .6;
+        stroke: #cc5827;
+        stroke-dasharray: 4 8;
+      }
+
+      .st23 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st24 {
+        fill: url(#linear-gradient9);
+      }
+
+      .st5 {
+        opacity: .5;
+        stroke: #6d6d6d;
+      }
+
+      .st25 {
+        filter: url(#shadowLight);
+      }
+
+      .st26 {
+        filter: url(#shadowLight5);
+      }
+
+      .st27 {
+        filter: url(#shadow);
+      }
+
+      .st6 {
+        filter: url(#shadowStrong);
+        opacity: .3;
+      }
+
+      .st7 {
+        font-size: 14px;
+        letter-spacing: .04em;
+      }
+
+      .st17 {
+        stroke-width: 1.5px;
+      }
+
+      .st17, .st19 {
+        stroke: #14b8a6;
+      }
+
+      .st28 {
+        fill: url(#linear-gradient8);
+      }
+
+      .st29 {
+        fill: url(#linear-gradient11);
+      }
+
+      .st8 {
+        fill: #94a3b8;
+      }
+
+      .st8, .st9 {
+        font-size: 11px;
+      }
+
+      .st8, .st11, .st13 {
+        font-family: SegoeUI, 'Segoe UI';
+      }
+
+      .st9 {
+        letter-spacing: .14em;
+      }
+
+      .st30 {
+        fill: url(#linear-gradient12);
+      }
+
+      .st18 {
+        stroke: #eab308;
+        stroke-width: 3px;
+      }
+
+      .st31 {
+        filter: url(#shadowLight11);
+      }
+
+      .st32 {
+        filter: url(#shadowLight1);
+      }
+
+      .st33 {
+        fill: url(#linear-gradient7);
+      }
+
+      .st10 {
+        fill: #334155;
+      }
+
+      .st34 {
+        fill: #0b1b3b;
+      }
+
+      .st35 {
+        fill: url(#linear-gradient4);
+      }
+
+      .st11 {
+        fill: #dbeafe;
+      }
+
+      .st36 {
+        fill: url(#linear-gradient5);
+      }
+
+      .st37 {
+        fill: url(#linear-gradient3);
+      }
+
+      .st38 {
+        filter: url(#shadowLight10);
+      }
+
+      .st39 {
+        fill: #414042;
+      }
+
+      .st40 {
+        filter: url(#shadowLight3);
+      }
+
+      .st19 {
+        stroke-width: 4px;
+      }
+
+      .st41 {
+        fill: url(#linear-gradient6);
+      }
+
+      .st13 {
+        fill: #e2e8f0;
+      }
+
+      .st42 {
+        filter: url(#shadowLight8);
+      }
+
+      .st43 {
+        filter: url(#shadowLight4);
+      }
+
+      .st44 {
+        filter: url(#shadowLight2);
+      }
+
+      .st45 {
+        fill: url(#linear-gradient);
+      }
+
+      .st46 {
+        filter: url(#shadowLight9);
+      }
+    </style>
+    <filter id="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient" x1="125.63" y1="820.76" x2="126.63" y2="819.76" gradientTransform="translate(-27323 49332.3899) scale(220 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d9488"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+    <filter id="shadowLight1" data-name="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient1" x1="125.63" y1="820.29" x2="126.63" y2="819.29" gradientTransform="translate(-27188 49368.5599) scale(220 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ca8a04"/>
+      <stop offset="1" stop-color="#eab308"/>
+    </linearGradient>
+    <filter id="shadowLight2" data-name="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient2" x1="125.63" y1="820.29" x2="126.63" y2="819.29" gradientTransform="translate(-27089.17 49467.3899) scale(220 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="shadowLight3" data-name="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient3" x1="125.63" y1="820.29" x2="126.63" y2="819.29" gradientTransform="translate(-27053 49602.3899) scale(220 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d9488"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+    <filter id="shadowLight4" data-name="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient4" x1="125.63" y1="820.29" x2="126.63" y2="819.29" gradientTransform="translate(-27089.17 49737.3899) scale(220 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ca8a04"/>
+      <stop offset="1" stop-color="#eab308"/>
+    </linearGradient>
+    <filter id="shadowLight5" data-name="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient5" x1="125.63" y1="820.29" x2="126.63" y2="819.29" gradientTransform="translate(-27188 49836.2199) scale(220 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="shadowLight6" data-name="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient6" x1="125.63" y1="819.81" x2="126.63" y2="818.81" gradientTransform="translate(-27323 49872.3899) scale(220 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d9488"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+    <filter id="shadowLight7" data-name="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient7" x1="125.63" y1="820.29" x2="126.63" y2="819.29" gradientTransform="translate(-27458 49836.2199) scale(220 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ca8a04"/>
+      <stop offset="1" stop-color="#eab308"/>
+    </linearGradient>
+    <filter id="shadowLight8" data-name="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient8" x1="125.63" y1="820.29" x2="126.63" y2="819.29" gradientTransform="translate(-27556.83 49737.3899) scale(220 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="shadowLight9" data-name="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient9" x1="125.63" y1="820.29" x2="126.63" y2="819.29" gradientTransform="translate(-27593 49602.3899) scale(220 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d9488"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+    <filter id="shadowLight10" data-name="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient10" x1="125.63" y1="820.29" x2="126.63" y2="819.29" gradientTransform="translate(-27556.83 49467.3899) scale(220 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ca8a04"/>
+      <stop offset="1" stop-color="#eab308"/>
+    </linearGradient>
+    <filter id="shadowLight11" data-name="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient11" x1="125.63" y1="820.29" x2="126.63" y2="819.29" gradientTransform="translate(-27458 49368.5599) scale(220 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="shadowStrong" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="10"/>
+      <feOffset dx="0" dy="0" result="offsetBlur"/>
+      <feFlood flood-color="#14B8A6" flood-opacity="0.25" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="6"/>
+      <feOffset dx="0" dy="4" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.15" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient12" x1="124.9" y1="820.64" x2="125.9" y2="819.64" gradientTransform="translate(-17633 118515.1357) scale(144 -144)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2">
+    <g>
+      <line class="st16" x1="425" y1="413.2" x2="546.46" y2="215.03"/>
+      <path class="st39" d="M548.83,211.17c-.44,2.23-.67,5.19-.31,7.33l-2.37-2.96-3.71-.76c2.07-.65,4.6-2.2,6.39-3.6Z"/>
+    </g>
+    <g>
+      <line class="st16" x1="422.16" y1="413.03" x2="651.86" y2="311.83"/>
+      <path class="st39" d="M656,310c-1.63,1.58-3.51,3.88-4.43,5.85l-.26-3.78-2.62-2.74c2.07.65,5.04.81,7.3.68Z"/>
+    </g>
+    <g>
+      <line class="st16" x1="430.38" y1="414.1" x2="424.8" y2="150.43"/>
+      <path class="st39" d="M424.7,145.9c.84,2.11,2.24,4.73,3.7,6.33l-3.59-1.21-3.54,1.37c1.39-1.67,2.69-4.34,3.43-6.48Z"/>
+    </g>
+    <g>
+      <line class="st16" x1="424.7" y1="414.1" x2="303.24" y2="215.93"/>
+      <path class="st39" d="M300.87,212.07c1.79,1.4,4.32,2.95,6.39,3.6l-3.72.76-2.37,2.96c.36-2.14.13-5.1-.31-7.33Z"/>
+    </g>
+    <g>
+      <line class="st16" x1="427.54" y1="413.93" x2="197.84" y2="312.73"/>
+      <path class="st39" d="M193.7,310.9c2.27.14,5.23-.03,7.3-.68l-2.62,2.74-.26,3.78c-.92-1.97-2.8-4.27-4.43-5.85Z"/>
+    </g>
+    <g>
+      <line class="st16" x1="425.15" y1="412.8" x2="546.61" y2="610.97"/>
+      <path class="st39" d="M548.98,614.83c-1.79-1.4-4.32-2.95-6.39-3.6l3.72-.76,2.37-2.96c-.36,2.14-.13,5.1.31,7.33Z"/>
+    </g>
+    <g>
+      <line class="st16" x1="422.31" y1="412.97" x2="652.01" y2="514.18"/>
+      <path class="st39" d="M656.15,516c-2.27-.14-5.23.03-7.3.68l2.62-2.74.26-3.78c.92,1.97,2.8,4.27,4.43,5.85Z"/>
+    </g>
+    <g>
+      <line class="st16" x1="430.53" y1="411.9" x2="424.95" y2="675.57"/>
+      <path class="st39" d="M424.85,680.1c-.74-2.15-2.04-4.82-3.43-6.48l3.54,1.37,3.59-1.21c-1.46,1.61-2.87,4.22-3.7,6.33Z"/>
+    </g>
+    <g>
+      <line class="st16" x1="424.85" y1="411.9" x2="303.39" y2="610.07"/>
+      <path class="st39" d="M301.02,613.93c.44-2.23.67-5.19.31-7.33l2.37,2.96,3.71.76c-2.07.65-4.6,2.2-6.39,3.6Z"/>
+    </g>
+    <g>
+      <line class="st16" x1="427.69" y1="412.07" x2="197.99" y2="513.27"/>
+      <path class="st39" d="M193.85,515.1c1.63-1.58,3.5-3.88,4.43-5.85l.26,3.78,2.62,2.74c-2.07-.65-5.04-.81-7.3-.68Z"/>
+    </g>
+    <g>
+      <line class="st16" x1="427.54" y1="421.6" x2="580.48" y2="415.19"/>
+      <path class="st39" d="M585,415c-2.09.88-4.68,2.34-6.26,3.83l1.14-3.62-1.44-3.51c1.7,1.36,4.39,2.59,6.55,3.29Z"/>
+    </g>
+    <g>
+      <line class="st16" x1="422.16" y1="413.03" x2="269.53" y2="413.03"/>
+      <path class="st39" d="M265,413.03c2.13-.79,4.77-2.14,6.41-3.57l-1.29,3.57,1.29,3.57c-1.64-1.43-4.28-2.78-6.41-3.57Z"/>
+    </g>
+  </g>
+  <g id="Layer_1">
+    <circle class="st4" cx="425" cy="415" r="150"/>
+    <circle class="st5" cx="425" cy="415" r="270"/>
+    <rect class="st34" y="0" width="852" height="68"/>
+    <text class="st1" transform="translate(32.6 43.74)"><tspan x="0" y="0">Hidden Beneficiary Web</tspan></text>
+    <text class="st9" transform="translate(741.54 27.2)"><tspan x="0" y="0">FIGURE 09</tspan></text>
+    <text class="st8" transform="translate(440.58 48.91)"><tspan x="0" y="0">Twelve under-recognised beneficiary categories radiating from the fab core</tspan></text>
+    <rect class="st14" y="755" width="850" height="45"/>
+    <text class="st0" transform="translate(28.29 783.28)"><tspan x="0" y="0">INDIA SEMICONDUCTOR INTELLIGENCE 2026 · WHO REALLY BENEFITS FROM INDIA&apos;S FAB ECOSYSTEM?</tspan></text>
+    <text class="st0" transform="translate(768.83 782.12)"><tspan x="0" y="0">FIG 09 / 30</tspan></text>
+    <g class="st25">
+      <rect class="st45" x="315" y="87" width="220" height="60" rx="8" ry="8"/>
+    </g>
+    <text class="st12" transform="translate(352.67 113)"><tspan x="0" y="0">Industrial RE (Renewable)</tspan></text>
+    <text class="st13" transform="translate(350.85 131)"><tspan x="0" y="0">ReNew · Adani Green · Tata Power</tspan></text>
+    <g class="st32">
+      <rect class="st23" x="450" y="151.17" width="220" height="60" rx="8" ry="8"/>
+    </g>
+    <text class="st3" transform="translate(526.54 177.17)"><tspan x="0" y="0">Tier-2 Cities</tspan></text>
+    <text class="st10" transform="translate(498.19 195.17)"><tspan x="0" y="0">Dholera · Sanand · Jagiroad</tspan></text>
+    <g class="st44">
+      <rect class="st15" x="548.83" y="250" width="220" height="60" rx="8" ry="8"/>
+    </g>
+    <text class="st12" transform="translate(610.26 276)"><tspan x="0" y="0">Cleanroom HVAC</tspan></text>
+    <text class="st11" transform="translate(604.75 294)"><tspan x="0" y="0">Voltas · Blue Star · Daikin</tspan></text>
+    <g class="st40">
+      <rect class="st37" x="585" y="385" width="220" height="60" rx="8" ry="8"/>
+    </g>
+    <text class="st12" transform="translate(648.17 411)"><tspan x="0" y="0">UPW Companies</tspan></text>
+    <text class="st13" transform="translate(623.6 429)"><tspan x="0" y="0">Wabag · Ion Exchange · Thermax</tspan></text>
+    <g class="st43">
+      <rect class="st35" x="548.83" y="520" width="220" height="60" rx="8" ry="8"/>
+    </g>
+    <text class="st3" transform="translate(614.25 546)"><tspan x="0" y="0">Industrial Gases</tspan></text>
+    <text class="st10" transform="translate(594.09 564)"><tspan x="0" y="0">INOX Air · Linde · Air Liquide</tspan></text>
+    <g class="st26">
+      <rect class="st36" x="450" y="618.83" width="220" height="60" rx="8" ry="8"/>
+    </g>
+    <text class="st12" transform="translate(504.68 644.83)"><tspan x="0" y="0">Specialty Chemicals</tspan></text>
+    <text class="st11" transform="translate(503.87 662.83)"><tspan x="0" y="0">Aether · Tatva Chintan · PI</tspan></text>
+    <g class="st21">
+      <rect class="st41" x="315" y="684" width="220" height="60" rx="8" ry="8"/>
+    </g>
+    <text class="st12" transform="translate(376.09 710)"><tspan x="0" y="0">Skilling Institutes</tspan></text>
+    <text class="st13" transform="translate(365.03 728)"><tspan x="0" y="0">NIELIT · IISc · C-DAC · ESSCI</tspan></text>
+    <g class="st20">
+      <rect class="st33" x="180" y="618.83" width="220" height="60" rx="8" ry="8"/>
+    </g>
+    <text class="st3" transform="translate(233.68 644.83)"><tspan x="0" y="0">Cold-chain Logistics</tspan></text>
+    <text class="st10" transform="translate(233.87 662.83)"><tspan x="0" y="0">Snowman · TCI · Allcargo</tspan></text>
+    <g class="st42">
+      <rect class="st28" x="81.17" y="520" width="220" height="60" rx="8" ry="8"/>
+    </g>
+    <text class="st12" transform="translate(135.1 546)"><tspan x="0" y="0">Power Conditioning</tspan></text>
+    <text class="st11" transform="translate(137.47 564)"><tspan x="0" y="0">ABB · Schneider · Hitachi</tspan></text>
+    <g class="st46">
+      <rect class="st24" x="45" y="385" width="220" height="60" rx="8" ry="8"/>
+    </g>
+    <text class="st12" transform="translate(90.69 411)"><tspan x="0" y="0">Backup Power Systems</tspan></text>
+    <text class="st13" transform="translate(95.81 429)"><tspan x="0" y="0">Cummins · Kohler · Sterling</tspan></text>
+    <g class="st38">
+      <rect class="st22" x="81.17" y="250" width="220" height="60" rx="8" ry="8"/>
+    </g>
+    <text class="st3" transform="translate(128.27 276)"><tspan x="0" y="0">NABL Calibration Labs</tspan></text>
+    <text class="st10" transform="translate(123.25 294)"><tspan x="0" y="0">Trescon · Transcat · state ECILs</tspan></text>
+    <g class="st31">
+      <rect class="st29" x="180" y="151.17" width="220" height="60" rx="8" ry="8"/>
+    </g>
+    <text class="st12" transform="translate(267.67 177.17)"><tspan x="0" y="0">EPC Cos</tspan></text>
+    <text class="st11" transform="translate(224.76 195.17)"><tspan x="0" y="0">Tata Projects · L&amp;T · Shapoorji</tspan></text>
+    <g id="center-node">
+      <g class="st6">
+        <circle class="st19" cx="425" cy="415" r="75"/>
+      </g>
+      <g class="st27">
+        <circle class="st30" cx="425" cy="415" r="72"/>
+        <circle class="st18" cx="425" cy="415" r="72"/>
+      </g>
+      <text class="st7" transform="translate(388.1 403)"><tspan x="0" y="0">INDIA FAB</tspan></text>
+      <text class="st7" transform="translate(382.88 423)"><tspan x="0" y="0">ECOSYSTEM</tspan></text>
+      <line class="st17" x1="395" y1="433" x2="455" y2="433"/>
+      <text class="st2" transform="translate(397.24 449)"><tspan x="0" y="0">2026–2035</tspan></text>
+    </g>
+  </g>
+</svg>

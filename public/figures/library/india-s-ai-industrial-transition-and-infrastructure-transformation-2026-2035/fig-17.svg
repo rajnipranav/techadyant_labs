@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 736.25 462.06">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        stroke: #0f1828;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11 {
+        fill: none;
+      }
+
+      .st0, .st1, .st2, .st3, .st6, .st7, .st8, .st9, .st11 {
+        stroke-linecap: square;
+      }
+
+      .st0, .st2, .st3, .st4, .st12, .st6, .st7, .st8, .st9, .st10, .st11 {
+        stroke-linejoin: round;
+      }
+
+      .st0, .st2, .st3, .st6, .st7, .st8, .st9, .st11 {
+        stroke-width: 2.2px;
+      }
+
+      .st1, .st12, .st10 {
+        stroke-width: .8px;
+      }
+
+      .st13 {
+        clip-path: url(#clippath-21);
+      }
+
+      .st14 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st15 {
+        clip-path: url(#clippath-7);
+      }
+
+      .st16 {
+        clip-path: url(#clippath-17);
+      }
+
+      .st17 {
+        clip-path: url(#clippath-15);
+      }
+
+      .st18 {
+        clip-path: url(#clippath-18);
+      }
+
+      .st19 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st20 {
+        clip-path: url(#clippath-22);
+      }
+
+      .st21 {
+        clip-path: url(#clippath-23);
+      }
+
+      .st2 {
+        stroke: #e4d3a6;
+      }
+
+      .st3, .st12 {
+        stroke: #4a5567;
+      }
+
+      .st22 {
+        fill: #2bc5b4;
+      }
+
+      .st22, .st23, .st24, .st25, .st26, .st27, .st28, .st29, .st30, .st31, .st32, .st33, .st34, .st35, .st36, .st37, .st38 {
+        isolation: isolate;
+      }
+
+      .st22, .st23, .st25, .st26, .st28, .st29, .st31, .st32, .st33, .st35, .st37, .st38 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st22, .st26, .st28, .st29, .st31, .st33, .st35, .st38 {
+        font-size: 9px;
+      }
+
+      .st4 {
+        stroke-dasharray: 3.7 1.6;
+      }
+
+      .st4, .st10 {
+        stroke: #c0c5cc;
+      }
+
+      .st39 {
+        clip-path: url(#clippath-9);
+      }
+
+      .st40 {
+        clip-path: url(#clippath-10);
+      }
+
+      .st23 {
+        font-size: 11px;
+      }
+
+      .st23, .st26, .st32 {
+        fill: #0f1828;
+      }
+
+      .st41 {
+        fill: #fbf9f4;
+      }
+
+      .st42 {
+        fill: #fff;
+      }
+
+      .st24, .st12, .st31, .st34, .st36, .st37 {
+        fill: #4a5567;
+      }
+
+      .st24, .st25, .st27 {
+        font-size: 8px;
+      }
+
+      .st24, .st27, .st34, .st36 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st43 {
+        clip-path: url(#clippath-11);
+      }
+
+      .st25 {
+        fill: #c0c5cc;
+      }
+
+      .st27, .st35 {
+        fill: #c9a84c;
+      }
+
+      .st28 {
+        fill: #878b95;
+      }
+
+      .st29 {
+        fill: #c8443b;
+      }
+
+      .st44 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st6 {
+        stroke: #c8443b;
+      }
+
+      .st45 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st46 {
+        clip-path: url(#clippath-20);
+      }
+
+      .st47 {
+        clip-path: url(#clippath-8);
+      }
+
+      .st7 {
+        stroke: #95e2d9;
+      }
+
+      .st32 {
+        font-size: 15px;
+      }
+
+      .st48 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st49 {
+        clip-path: url(#clippath-12);
+      }
+
+      .st8 {
+        stroke: #c9a84c;
+      }
+
+      .st33 {
+        fill: #95e2d9;
+      }
+
+      .st50 {
+        clip-path: url(#clippath-14);
+      }
+
+      .st51 {
+        clip-path: url(#clippath-19);
+      }
+
+      .st9 {
+        stroke: #2bc5b4;
+      }
+
+      .st34 {
+        font-size: 8.5px;
+      }
+
+      .st10 {
+        stroke-dasharray: 2.96 1.28;
+        stroke-opacity: .4;
+      }
+
+      .st11 {
+        stroke: #878b95;
+      }
+
+      .st52 {
+        clip-path: url(#clippath-16);
+      }
+
+      .st53 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st54 {
+        clip-path: url(#clippath-13);
+      }
+
+      .st36 {
+        font-size: 10.5px;
+      }
+
+      .st55 {
+        clip-path: url(#clippath);
+      }
+
+      .st37 {
+        font-size: 10px;
+      }
+
+      .st38 {
+        fill: #e4d3a6;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+    </clipPath>
+  </defs>
+  <path class="st41" d="M0,462.06h736.25V0H0v462.06Z"/>
+  <path class="st42" d="M47.93,406.4h609.84V64.76H47.93v341.64h0Z"/>
+  <g class="st55">
+    <path class="st10" d="M47.93,406.4V64.76"/>
+  </g>
+  <path id="m915a476800" class="st12" d="M47.93,406.4v3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(35.21 421)"><tspan x="0" y="0">2020</tspan></text>
+  </g>
+  <g class="st44">
+    <path class="st10" d="M115.69,406.4V64.76"/>
+  </g>
+  <path id="m915a4768001" class="st12" d="M115.69,406.4v3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(102.97 421)"><tspan x="0" y="0">2022</tspan></text>
+  </g>
+  <g class="st53">
+    <path class="st10" d="M183.45,406.4V64.76"/>
+  </g>
+  <path id="m915a4768002" class="st12" d="M183.45,406.4v3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(170.73 421)"><tspan x="0" y="0">2024</tspan></text>
+  </g>
+  <g class="st48">
+    <path class="st10" d="M251.21,406.4V64.76"/>
+  </g>
+  <path id="m915a4768003" class="st12" d="M251.21,406.4v3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(238.49 421)"><tspan x="0" y="0">2026</tspan></text>
+  </g>
+  <g class="st19">
+    <path class="st10" d="M318.97,406.4V64.76"/>
+  </g>
+  <path id="m915a4768004" class="st12" d="M318.97,406.4v3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(306.25 421)"><tspan x="0" y="0">2028</tspan></text>
+  </g>
+  <g class="st45">
+    <path class="st10" d="M386.73,406.4V64.76"/>
+  </g>
+  <path id="m915a4768005" class="st12" d="M386.73,406.4v3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(374.01 421)"><tspan x="0" y="0">2030</tspan></text>
+  </g>
+  <g class="st14">
+    <path class="st10" d="M454.49,406.4V64.76"/>
+  </g>
+  <path id="m915a4768006" class="st12" d="M454.49,406.4v3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(441.77 421)"><tspan x="0" y="0">2032</tspan></text>
+  </g>
+  <g class="st15">
+    <path class="st10" d="M522.25,406.4V64.76"/>
+  </g>
+  <path id="m915a4768007" class="st12" d="M522.25,406.4v3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(509.53 421)"><tspan x="0" y="0">2034</tspan></text>
+  </g>
+  <g class="st47">
+    <path class="st10" d="M590.01,406.4V64.76"/>
+  </g>
+  <path id="m915a4768008" class="st12" d="M590.01,406.4v3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(577.29 421)"><tspan x="0" y="0">2036</tspan></text>
+  </g>
+  <g class="st39">
+    <path class="st10" d="M657.77,406.4V64.76"/>
+  </g>
+  <path id="m915a4768009" class="st12" d="M657.77,406.4v3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(645.05 421)"><tspan x="0" y="0">2038</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st23" transform="translate(341.21 435.44)"><tspan x="0" y="0">Year</tspan></text>
+  </g>
+  <g class="st40">
+    <path class="st10" d="M47.93,406.4h609.84"/>
+  </g>
+  <path id="m97d505ed86" class="st12" d="M47.93,406.4h-3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(34.57 410.2)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="st43">
+    <path class="st10" d="M47.93,341.32h609.84"/>
+  </g>
+  <path id="m97d505ed861" class="st12" d="M47.93,341.32h-3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(28.21 345.12)"><tspan x="0" y="0">20</tspan></text>
+  </g>
+  <g class="st49">
+    <path class="st10" d="M47.93,276.25h609.84"/>
+  </g>
+  <path id="m97d505ed862" class="st12" d="M47.93,276.25h-3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(28.21 280.05)"><tspan x="0" y="0">40</tspan></text>
+  </g>
+  <g class="st54">
+    <path class="st10" d="M47.93,211.18h609.84"/>
+  </g>
+  <path id="m97d505ed863" class="st12" d="M47.93,211.18h-3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(28.21 214.98)"><tspan x="0" y="0">60</tspan></text>
+  </g>
+  <g class="st50">
+    <path class="st10" d="M47.93,146.1h609.84"/>
+  </g>
+  <path id="m97d505ed864" class="st12" d="M47.93,146.1h-3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(28.21 149.9)"><tspan x="0" y="0">80</tspan></text>
+  </g>
+  <g class="st17">
+    <path class="st10" d="M47.93,81.03h609.84"/>
+  </g>
+  <path id="m97d505ed865" class="st12" d="M47.93,81.03h-3.5"/>
+  <g class="st30">
+    <text class="st37" transform="translate(21.85 84.83)"><tspan x="0" y="0">100</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st23" transform="translate(15.56 393.41) rotate(-90)"><tspan x="0" y="0">Adoption (% of sector firms with production AI use cases)</tspan></text>
+  </g>
+  <g class="st52">
+    <path class="st0" d="M47.93,399.45l10.37-2.01,10.37-2.57,10.37-3.27,10.37-4.14,10.37-5.21,10.37-6.5,10.37-8.02,10.37-9.78,10.37-11.73,10.37-13.82,10.37-15.91,10.37-17.87,10.37-19.5,10.37-20.63,10.37-21.12,10.37-20.91,10.37-20.02,10.37-18.57,10.37-16.72,10.37-14.66,10.37-12.56,10.37-10.54,10.37-8.7,10.37-7.08,10.37-5.7,10.37-4.54,10.37-3.6,10.37-2.83,10.37-2.22,10.37-1.73,10.37-1.35,10.37-1.05,10.37-.81,10.37-.63,10.37-.49,10.37-.38,10.37-.29,10.37-.22,10.37-.17,10.37-.13,10.37-.1,10.37-.08,10.37-.06,10.37-.05,10.37-.04,10.37-.03,10.37-.02,10.37-.02h10.37"/>
+  </g>
+  <g class="st16">
+    <path class="st8" d="M47.93,395.89l10.37-2.99,10.37-3.8,10.37-4.79,10.37-6,10.37-7.44,10.37-9.11,10.37-11,10.37-13.04,10.37-15.15,10.37-17.18,10.37-18.95,10.37-20.29,10.37-21.02,10.37-21.07,10.37-20.42,10.37-19.16,10.37-17.44,10.37-15.43,10.37-13.33,10.37-11.26,10.37-9.35,10.37-7.65,10.37-6.18,10.37-4.94,10.37-3.92,10.37-3.09,10.37-2.43,10.37-1.9,10.37-1.48,10.37-1.15,10.37-.89,10.37-.69,10.37-.53,10.37-.41,10.37-.32,10.37-.25,10.37-.19,10.37-.15,10.37-.11,10.37-.09,10.37-.07,10.37-.05,10.37-.04,10.37-.03,10.37-.02,10.37-.02h10.37l10.37-.03h10.37"/>
+  </g>
+  <g class="st18">
+    <path class="st9" d="M47.93,403.99l10.37-.57,10.37-.7,10.37-.87,10.37-1.07,10.37-1.31,10.37-1.61,10.37-1.97,10.37-2.41,10.37-2.94,10.37-3.56,10.37-4.3,10.37-5.17,10.37-6.16,10.37-7.29,10.37-8.54,10.37-9.89,10.37-11.3,10.37-12.73,10.37-14.1,10.37-15.34,10.37-16.34,10.37-17.05,10.37-17.39,10.37-17.33,10.37-16.89,10.37-16.1,10.37-15.03,10.37-13.75,10.37-12.35,10.37-10.92,10.37-9.52,10.37-8.19,10.37-6.97,10.37-5.88,10.37-4.92,10.37-4.09,10.37-3.39,10.37-2.79,10.37-2.29,10.37-1.87,10.37-1.53,10.37-1.24,10.37-1.01,10.37-.82,10.37-.66,10.37-.54,10.37-.44,10.37-.35,10.37-.29"/>
+  </g>
+  <g class="st51">
+    <path class="st11" d="M47.93,403.74l10.37-.53,10.37-.63,10.37-.76,10.37-.91,10.37-1.08,10.37-1.29,10.37-1.54,10.37-1.83,10.37-2.17,10.37-2.57,10.37-3.03,10.37-3.57,10.37-4.18,10.37-4.87,10.37-5.65,10.37-6.5,10.37-7.44,10.37-8.43,10.37-9.47,10.37-10.53,10.37-11.56,10.37-12.53,10.37-13.39,10.37-14.09,10.37-14.6,10.37-14.88,10.37-14.91,10.37-14.7,10.37-14.25,10.37-13.59,10.37-12.77,10.37-11.82,10.37-10.8,10.37-9.75,10.37-8.71,10.37-7.7,10.37-6.75,10.37-5.87,10.37-5.07,10.37-4.36,10.37-3.72,10.37-3.17,10.37-2.69,10.37-2.27,10.37-1.92,10.37-1.61,10.37-1.36,10.37-1.14,10.37-.95"/>
+  </g>
+  <g class="st46">
+    <path class="st2" d="M47.93,403.93l10.37-.54,10.37-.65,10.37-.79,10.37-.96,10.37-1.17,10.37-1.41,10.37-1.71,10.37-2.06,10.37-2.48,10.37-2.97,10.37-3.55,10.37-4.22,10.37-4.99,10.37-5.87,10.37-6.85,10.37-7.94,10.37-9.1,10.37-10.32,10.37-11.55,10.37-12.76,10.37-13.86,10.37-14.82,10.37-15.55,10.37-16.01,10.37-16.17,10.37-16.01,10.37-15.55,10.37-14.82,10.37-13.86,10.37-12.76,10.37-11.55,10.37-10.32,10.37-9.1,10.37-7.94,10.37-6.85,10.37-5.87,10.37-4.99,10.37-4.22,10.37-3.55,10.37-2.97,10.37-2.48,10.37-2.06,10.37-1.71,10.37-1.41,10.37-1.17,10.37-.96,10.37-.79,10.37-.65,10.37-.54"/>
+  </g>
+  <g class="st13">
+    <path class="st7" d="M47.93,403.39l10.37-.55,10.37-.64,10.37-.76,10.37-.89,10.37-1.05,10.37-1.23,10.37-1.45,10.37-1.69,10.37-1.98,10.37-2.31,10.37-2.69,10.37-3.13,10.37-3.62,10.37-4.17,10.37-4.79,10.37-5.47,10.37-6.22,10.37-7.02,10.37-7.86,10.37-8.74,10.37-9.62,10.37-10.49,10.37-11.32,10.37-12.07,10.37-12.7,10.37-13.2,10.37-13.53,10.37-13.68,10.37-13.64,10.37-13.4,10.37-12.99,10.37-12.42,10.37-11.73,10.37-10.94,10.37-10.09,10.37-9.21,10.37-8.33,10.37-7.46,10.37-6.64,10.37-5.86,10.37-5.15,10.37-4.49,10.37-3.91,10.37-3.38,10.37-2.92,10.37-2.51,10.37-2.15,10.37-1.84,10.37-1.57"/>
+  </g>
+  <g class="st20">
+    <path class="st3" d="M47.93,403.16l10.37-.42,10.37-.47,10.37-.53,10.37-.6,10.37-.67,10.37-.76,10.37-.85,10.37-.96,10.37-1.07,10.37-1.2,10.37-1.35,10.37-1.51,10.37-1.69,10.37-1.89,10.37-2.11,10.37-2.35,10.37-2.61,10.37-2.9,10.37-3.21,10.37-3.54,10.37-3.9,10.37-4.29,10.37-4.7,10.37-5.12,10.37-5.57,10.37-6.03,10.37-6.49,10.37-6.96,10.37-7.43,10.37-7.88,10.37-8.3,10.37-8.7,10.37-9.06,10.37-9.37,10.37-9.61,10.37-9.8,10.37-9.91,10.37-9.96,10.37-9.92,10.37-9.82,10.37-9.64,10.37-9.4,10.37-9.1,10.37-8.75,10.37-8.36,10.37-7.94,10.37-7.49,10.37-7.03,10.37-6.56"/>
+  </g>
+  <g class="st21">
+    <path class="st6" d="M47.93,399.94l10.37-.61,10.37-.66,10.37-.72,10.37-.79,10.37-.86,10.37-.94,10.37-1.02,10.37-1.11,10.37-1.21,10.37-1.32,10.37-1.43,10.37-1.55,10.37-1.68,10.37-1.83,10.37-1.98,10.37-2.14,10.37-2.31,10.37-2.49,10.37-2.68,10.37-2.88,10.37-3.1,10.37-3.32,10.37-3.55,10.37-3.79,10.37-4.04,10.37-4.29,10.37-4.55,10.37-4.81,10.37-5.08,10.37-5.34,10.37-5.6,10.37-5.86,10.37-6.1,10.37-6.33,10.37-6.55,10.37-6.75,10.37-6.94,10.37-7.09,10.37-7.23,10.37-7.33,10.37-7.41,10.37-7.45,10.37-7.47,10.37-7.45,10.37-7.4,10.37-7.33,10.37-7.22,10.37-7.08,10.37-6.92"/>
+  </g>
+  <rect class="st5" x="47.93" y="64.76" width="609.84" height="341.64"/>
+  <path class="st4" d="M251.21,406.4V64.76"/>
+  <path class="st1" d="M47.93,406.4V64.76"/>
+  <path class="st1" d="M47.93,406.4h609.84"/>
+  <g class="st30">
+    <text class="st26" transform="translate(566.29 78.92)"><tspan x="0" y="0">BFSI / fintech</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st35" transform="translate(566.27 70.18)"><tspan x="0" y="0">Tier-1 IT-services / GCCs</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st22" transform="translate(566.29 86.86)"><tspan x="0" y="0">Auto / OEMs</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st28" transform="translate(566.61 103.72)"><tspan x="0" y="0">Pharma</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st38" transform="translate(566.29 95.52)"><tspan x="0" y="0">Manufacturing (Tier-1)</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st33" transform="translate(566.96 112.75)"><tspan x="0" y="0">Logistics</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st31" transform="translate(566.3 147.84)"><tspan x="0" y="0">MSME / long tail</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st29" transform="translate(566.3 198.77)"><tspan x="0" y="0">Agriculture / informal</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st34" transform="translate(254.6 103.75)"><tspan x="0" y="0">Present</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st34" transform="translate(254.6 113.27)"><tspan x="0" y="0">(May 2026)</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st32" transform="translate(32.09 24.68)"><tspan x="0" y="0">Industrial AI Adoption Readiness Curve — Indian sectors 2020–2035</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st36" transform="translate(32.09 41)"><tspan x="0" y="0">S-curve adoption trajectory; BFSI and Tier-1 services lead; MSME and agriculture trail</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st25" transform="translate(589.4 13.28)"><tspan x="0" y="0">Figure 17 · Techadyant Labs · 2026</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st24" transform="translate(32.09 453.2)"><tspan x="0" y="0">Source: CII-Protiviti 2025; EY-CII Nov 2025; EY GCC Pulse 2025; Techadyant Labs interpolation.</tspan></text>
+  </g>
+  <g class="st30">
+    <text class="st27" transform="translate(690 453.2)"><tspan x="0" y="0">Indicative</tspan></text>
+  </g>
+</svg>

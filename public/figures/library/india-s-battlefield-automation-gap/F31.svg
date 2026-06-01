@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 800 470">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #f7f5ef;
+        stroke-width: .72px;
+      }
+
+      .st0, .st1 {
+        stroke: #d8d3c7;
+      }
+
+      .st1 {
+        stroke-width: .92px;
+      }
+
+      .st1, .st2 {
+        fill: none;
+      }
+
+      .st3 {
+        font-size: 13.17px;
+      }
+
+      .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10 {
+        isolation: isolate;
+      }
+
+      .st3, .st4, .st7, .st8, .st10 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st3, .st7, .st10 {
+        fill: #4a5567;
+      }
+
+      .st4 {
+        fill: #8a8576;
+      }
+
+      .st4, .st6, .st10 {
+        font-size: 11px;
+      }
+
+      .st5 {
+        font-size: 16.04px;
+      }
+
+      .st5, .st6, .st9 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st5, .st8 {
+        fill: #fff;
+      }
+
+      .st11 {
+        fill: #c9a84c;
+      }
+
+      .st12 {
+        fill: #1fa89a;
+      }
+
+      .st6, .st13, .st9 {
+        fill: #0f1828;
+      }
+
+      .st7 {
+        font-size: 14px;
+      }
+
+      .st2 {
+        stroke: #c9a84c;
+        stroke-width: 2px;
+      }
+
+      .st8 {
+        font-size: 12.6px;
+      }
+
+      .st9 {
+        font-size: 26px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1">
+    <rect class="st13" y=".63" width="800.32" height="8.46"/>
+    <rect class="st11" y="9.1" width="800.32" height="3.17"/>
+    <line class="st1" x1="13.6" y1="84.06" x2="786.4" y2="84.06"/>
+    <rect class="st0" x="30" y="112.63" width="230.72" height="265.7" rx="5.76" ry="5.76"/>
+    <rect class="st12" x="30" y="112.63" width="230.72" height="50" rx="7.16" ry="7.16"/>
+    <rect class="st12" x="30" y="152.63" width="230.72" height="10"/>
+    <rect class="st0" x="275.14" y="112.63" width="230.72" height="265.7" rx="5.76" ry="5.76"/>
+    <rect class="st11" x="275.14" y="112.63" width="230.72" height="50" rx="7.16" ry="7.16"/>
+    <rect class="st11" x="275.14" y="152.63" width="230.72" height="10"/>
+    <rect class="st0" x="520.28" y="112.63" width="230.72" height="265.7" rx="5.76" ry="5.76"/>
+    <rect class="st13" x="520.28" y="112.63" width="230.72" height="50" rx="7.16" ry="7.16"/>
+    <rect class="st13" x="520.28" y="152.63" width="230.72" height="10"/>
+    <g>
+      <line class="st2" x1="45.27" y1="396.9" x2="726.9" y2="396.9"/>
+      <path class="st11" d="M738.97,396.9c-5.68,2.11-12.73,5.7-17.09,9.51l3.44-9.51-3.44-9.51c4.37,3.81,11.42,7.4,17.09,9.51Z"/>
+    </g>
+    <line class="st1" x1="20.55" y1="433.01" x2="793.34" y2="433.01"/>
+  </g>
+  <g id="Layer_2">
+    <text class="st9" transform="translate(20.55 48.97)"><tspan x="0" y="0">2026–2035 Battlefield-Automation Decision Timeline</tspan></text>
+    <text class="st7" transform="translate(20.55 74.97)"><tspan x="0" y="0">Three phases; the window narrows after each</tspan></text>
+    <text class="st5" transform="translate(46.55 134.28)"><tspan x="0" y="0">2026–2028</tspan></text>
+    <text class="st8" transform="translate(46.55 154.9)"><tspan x="0" y="0">Foundation</tspan></text>
+    <text class="st3" transform="translate(46.55 205.13)"><tspan x="0" y="0">• Publish demand signals</tspan></text>
+    <text class="st3" transform="translate(46.55 231.48)"><tspan x="0" y="0">• Build test ranges</tspan></text>
+    <text class="st3" transform="translate(46.55 257.82)"><tspan x="0" y="0">• Component roadmap</tspan></text>
+    <text class="st3" transform="translate(46.55 284.17)"><tspan x="0" y="0">• Start SME qualification</tspan></text>
+    <text class="st5" transform="translate(296.31 134.28)"><tspan x="0" y="0">2029–2031</tspan></text>
+    <text class="st8" transform="translate(296.31 154.9)"><tspan x="0" y="0">Scale-Up</tspan></text>
+    <text class="st3" transform="translate(296.31 205.13)"><tspan x="0" y="0">• Limited-series procurement</tspan></text>
+    <text class="st3" transform="translate(296.31 231.48)"><tspan x="0" y="0">• Dual-use scale</tspan></text>
+    <text class="st3" transform="translate(296.31 257.82)"><tspan x="0" y="0">• Trusted-source mid-stack</tspan></text>
+    <text class="st3" transform="translate(296.31 284.17)"><tspan x="0" y="0">• Workforce build</tspan></text>
+    <text class="st5" transform="translate(541.57 134.63)"><tspan x="0" y="0">2032–2035</tspan></text>
+    <text class="st8" transform="translate(541.57 155.25)"><tspan x="0" y="0">Leadership or Lag</tspan></text>
+    <text class="st3" transform="translate(541.57 205.48)"><tspan x="0" y="0">• Export-ready systems</tspan></text>
+    <text class="st3" transform="translate(541.57 231.83)"><tspan x="0" y="0">• Selected component</tspan></text>
+    <text class="st3" transform="translate(541.57 251.3)"><tspan x="0" y="0">sovereignty</tspan></text>
+    <text class="st3" transform="translate(541.57 277.64)"><tspan x="0" y="0">• Sustained iteration</tspan></text>
+    <text class="st10" transform="translate(360.96 417.24)"><tspan x="0" y="0">Time</tspan></text>
+    <text class="st4" transform="translate(28.82 457.84)"><tspan x="0" y="0">Techadyant Labs scenario model.</tspan></text>
+    <text class="st6" transform="translate(622.24 457.83)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+  </g>
+</svg>

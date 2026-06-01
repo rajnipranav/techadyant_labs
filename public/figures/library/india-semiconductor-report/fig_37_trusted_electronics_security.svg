@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1150 700">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #2e6497;
+      }
+
+      .st1 {
+        font-size: 14px;
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18 {
+        isolation: isolate;
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6, .st9, .st10, .st11, .st12, .st14, .st17 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st1, .st4, .st8, .st9, .st10, .st12, .st13, .st14, .st15 {
+        fill: #fff;
+      }
+
+      .st19, .st20, .st21 {
+        stroke: #fff;
+      }
+
+      .st19, .st21 {
+        stroke-width: 2px;
+      }
+
+      .st19, .st22 {
+        fill: #14b8a6;
+      }
+
+      .st23 {
+        filter: url(#soft3);
+      }
+
+      .st24 {
+        filter: url(#soft1);
+      }
+
+      .st2, .st5 {
+        font-size: 12px;
+        letter-spacing: .04em;
+      }
+
+      .st2, .st6, .st25, .st17 {
+        fill: #c9a84c;
+      }
+
+      .st20 {
+        stroke-width: 2.5px;
+      }
+
+      .st20, .st26 {
+        fill: none;
+      }
+
+      .st27 {
+        filter: url(#soft2);
+      }
+
+      .st21, .st28 {
+        fill: #b91c1c;
+      }
+
+      .st3 {
+        letter-spacing: .03em;
+      }
+
+      .st3, .st4, .st6, .st10, .st17 {
+        font-size: 10px;
+      }
+
+      .st3, .st11, .st18 {
+        fill: #111827;
+      }
+
+      .st4, .st6 {
+        letter-spacing: .05em;
+      }
+
+      .st5 {
+        fill: #b45309;
+      }
+
+      .st29 {
+        filter: url(#soft6);
+      }
+
+      .st30 {
+        filter: url(#soft7);
+      }
+
+      .st7 {
+        fill: #e5e7eb;
+      }
+
+      .st7, .st8, .st12 {
+        font-size: 11px;
+      }
+
+      .st7, .st8, .st13, .st15, .st16, .st18 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st31 {
+        filter: url(#soft5);
+      }
+
+      .st9 {
+        font-size: 20px;
+      }
+
+      .st11, .st14, .st18 {
+        font-size: 13px;
+      }
+
+      .st32 {
+        filter: url(#soft);
+      }
+
+      .st33 {
+        fill: #0b1b3b;
+      }
+
+      .st13 {
+        font-size: 9.5px;
+      }
+
+      .st15, .st16 {
+        font-size: 9px;
+      }
+
+      .st16 {
+        fill: #6b7280;
+        letter-spacing: .06em;
+      }
+
+      .st17 {
+        letter-spacing: .15em;
+      }
+
+      .st34 {
+        fill: #fef3c7;
+        stroke: #c9a84c;
+        stroke-width: 1.5px;
+      }
+
+      .st35 {
+        filter: url(#soft4);
+      }
+    </style>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft1" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft2" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft3" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft4" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft5" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft6" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft7" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g id="Layer_1">
+    <rect class="st33" y="-.12" width="1150" height="60"/>
+    <g class="st32">
+      <rect class="st33" x="40.77" y="77.88" width="121" height="130" rx="8" ry="8"/>
+    </g>
+    <circle class="st19" cx="101.27" cy="229.88" r="14"/>
+    <path class="st20" d="M95.27,229.88l4,5,9-10"/>
+    <path class="st26" d=""/>
+    <path class="st33" d="M162.27,135.38l15,7.5-15,7.5v-15Z"/>
+    <path class="st33" d="M175.77,142.88" marker-end="url(#arrow)"/>
+    <g class="st24">
+      <rect class="st25" x="177.77" y="77.88" width="121" height="130" rx="8" ry="8"/>
+    </g>
+    <circle class="st21" cx="238.27" cy="229.88" r="14"/>
+    <path class="st26" d=""/>
+    <path class="st33" d="M299.27,135.38l15,7.5-15,7.5v-15Z"/>
+    <path class="st33" d="M312.77,142.88" marker-end="url(#arrow)"/>
+    <g class="st27">
+      <rect class="st0" x="314.77" y="77.88" width="121" height="130" rx="8" ry="8"/>
+    </g>
+    <circle class="st19" cx="375.27" cy="229.88" r="14"/>
+    <path class="st20" d="M369.27,229.88l4,5,9-10"/>
+    <path class="st26" d=""/>
+    <path class="st33" d="M436.27,135.38l15,7.5-15,7.5v-15Z"/>
+    <path class="st33" d="M449.77,142.88" marker-end="url(#arrow)"/>
+    <g class="st23">
+      <rect class="st33" x="451.77" y="77.88" width="121" height="130" rx="8" ry="8"/>
+    </g>
+    <circle class="st19" cx="512.27" cy="229.88" r="14"/>
+    <path class="st20" d="M506.27,229.88l4,5,9-10"/>
+    <path class="st26" d=""/>
+    <path class="st33" d="M573.27,135.38l15,7.5-15,7.5v-15Z"/>
+    <path class="st33" d="M586.77,142.88" marker-end="url(#arrow)"/>
+    <g class="st35">
+      <rect class="st33" x="588.77" y="77.88" width="121" height="130" rx="8" ry="8"/>
+    </g>
+    <circle class="st19" cx="649.27" cy="229.88" r="14"/>
+    <path class="st20" d="M643.27,229.88l4,5,9-10"/>
+    <path class="st26" d=""/>
+    <path class="st33" d="M710.27,135.38l15,7.5-15,7.5v-15Z"/>
+    <path class="st33" d="M723.77,142.88" marker-end="url(#arrow)"/>
+    <g class="st31">
+      <rect class="st33" x="725.77" y="77.88" width="121" height="130" rx="8" ry="8"/>
+    </g>
+    <circle class="st19" cx="786.27" cy="229.88" r="14"/>
+    <path class="st20" d="M780.27,229.88l4,5,9-10"/>
+    <path class="st26" d=""/>
+    <path class="st33" d="M847.27,135.38l15,7.5-15,7.5v-15Z"/>
+    <path class="st33" d="M860.77,142.88" marker-end="url(#arrow)"/>
+    <g class="st29">
+      <rect class="st22" x="862.77" y="77.88" width="121" height="130" rx="8" ry="8"/>
+    </g>
+    <circle class="st19" cx="923.27" cy="229.88" r="14"/>
+    <path class="st20" d="M917.27,229.88l4,5,9-10"/>
+    <path class="st26" d=""/>
+    <path class="st33" d="M984.27,135.38l15,7.5-15,7.5v-15Z"/>
+    <path class="st33" d="M997.77,142.88" marker-end="url(#arrow)"/>
+    <g class="st30">
+      <rect class="st33" x="999.77" y="77.88" width="121" height="130" rx="8" ry="8"/>
+    </g>
+    <circle class="st19" cx="1060.27" cy="229.88" r="14"/>
+    <path class="st20" d="M1054.27,229.88l4,5,9-10"/>
+    <rect class="st34" x="40.77" y="277.88" width="1080" height="120" rx="8" ry="8"/>
+    <rect class="st28" x="60.77" y="315.88" width="4" height="26"/>
+    <rect class="st28" x="600.77" y="315.88" width="4" height="26"/>
+    <rect class="st28" x="60.77" y="347.88" width="4" height="26"/>
+    <rect class="st28" x="600.77" y="347.88" width="4" height="26"/>
+    <rect class="st33" x="40.77" y="418.88" width="520" height="240" rx="8" ry="8"/>
+    <rect class="st0" x="60.77" y="498.88" width="220" height="36" rx="6" ry="6"/>
+    <rect class="st0" x="60.77" y="548.88" width="220" height="36" rx="6" ry="6"/>
+    <rect class="st0" x="60.77" y="598.88" width="220" height="36" rx="6" ry="6"/>
+    <rect class="st33" x="600.77" y="418.88" width="520" height="240" rx="8" ry="8"/>
+    <rect class="st0" x="620.77" y="498.88" width="220" height="36" rx="6" ry="6"/>
+    <rect class="st0" x="620.77" y="548.88" width="220" height="36" rx="6" ry="6"/>
+    <rect class="st0" x="620.77" y="598.88" width="220" height="36" rx="6" ry="6"/>
+  </g>
+  <g id="Layer_2">
+    <text class="st9" transform="translate(15.45 39.34)"><tspan x="0" y="0">Trusted Electronics &amp; Security Layer</tspan></text>
+    <text class="st17" transform="translate(1069.2692 24.337)"><tspan x="0" y="0">FIGURE 37</tspan></text>
+    <text class="st7" transform="translate(757.52 44.34)"><tspan x="0" y="0">Chain-of-trust gates for defence + critical-infrastructure silicon · India 2026-30</tspan></text>
+    <text class="st16" transform="translate(21.66 685.66)"><tspan x="0" y="0">INDIA SEMICONDUCTOR INTELLIGENCE 2026 · WHO REALLY BENEFITS FROM INDIA&apos;S FAB ECOSYSTEM?</tspan></text>
+    <text class="st16" transform="translate(1067.7176 685.6631)"><tspan x="0" y="0">FIG 37 / 38</tspan></text>
+    <text class="st6" transform="translate(83.08 108.34)"><tspan x="0" y="0">STEP 1</tspan></text>
+    <text class="st14" transform="translate(78.05 136.34)"><tspan x="0" y="0">Design</tspan></text>
+    <text class="st8" transform="translate(69.93 172.34)"><tspan x="0" y="0">India-trusted</tspan></text>
+    <text class="st8" transform="translate(50.68 186.34)"><tspan x="0" y="0">BEL · DRDO · CDAC</tspan></text>
+    <text class="st3" transform="translate(68.8 260.34)"><tspan x="0" y="0">TRUST GATE</tspan></text>
+    <text class="st4" transform="translate(220.08 108.34)"><tspan x="0" y="0">STEP 2</tspan></text>
+    <text class="st14" transform="translate(203.13 136.34)"><tspan x="0" y="0">Mask shop</tspan></text>
+    <text class="st8" transform="translate(201.38 172.34)"><tspan x="0" y="0">Third-party risk</tspan></text>
+    <text class="st8" transform="translate(201.92 186.34)"><tspan x="0" y="0">attestation gap</tspan></text>
+    <text class="st1" transform="translate(236.39 235.34)"><tspan x="0" y="0">!</tspan></text>
+    <text class="st3" transform="translate(205.8 260.34)"><tspan x="0" y="0">TRUST GATE</tspan></text>
+    <text class="st6" transform="translate(357.08 108.34)"><tspan x="0" y="0">STEP 3</tspan></text>
+    <text class="st14" transform="translate(355.9 136.34)"><tspan x="0" y="0">Wafer</tspan></text>
+    <text class="st8" transform="translate(323.37 172.34)"><tspan x="0" y="0">PSMC trusted partner</tspan></text>
+    <text class="st8" transform="translate(342.26 186.34)"><tspan x="0" y="0">Taiwan-origin</tspan></text>
+    <text class="st3" transform="translate(342.8 260.34)"><tspan x="0" y="0">TRUST GATE</tspan></text>
+    <text class="st6" transform="translate(494.08 108.34)"><tspan x="0" y="0">STEP 4</tspan></text>
+    <text class="st14" transform="translate(499.16 136.34)"><tspan x="0" y="0">Fab</tspan></text>
+    <text class="st8" transform="translate(468.7 172.34)"><tspan x="0" y="0">Tata Elx (Dholera)</tspan></text>
+    <text class="st8" transform="translate(474.53 186.34)"><tspan x="0" y="0">India-controlled</tspan></text>
+    <text class="st3" transform="translate(479.8 260.34)"><tspan x="0" y="0">TRUST GATE</tspan></text>
+    <text class="st6" transform="translate(631.08 108.34)"><tspan x="0" y="0">STEP 5</tspan></text>
+    <text class="st14" transform="translate(630.14 136.34)"><tspan x="0" y="0">OSAT</tspan></text>
+    <text class="st8" transform="translate(615.7 172.34)"><tspan x="0" y="0">Tata Jagiroad</tspan></text>
+    <text class="st8" transform="translate(590.97 186.34)"><tspan x="0" y="0">Micron Sanand · Kaynes</tspan></text>
+    <text class="st3" transform="translate(616.8 260.34)"><tspan x="0" y="0">TRUST GATE</tspan></text>
+    <text class="st6" transform="translate(768.08 108.34)"><tspan x="0" y="0">STEP 6</tspan></text>
+    <text class="st14" transform="translate(771.84 136.34)"><tspan x="0" y="0">Test</tspan></text>
+    <text class="st8" transform="translate(771.88 172.34)"><tspan x="0" y="0">India</tspan></text>
+    <text class="st8" transform="translate(743.73 186.34)"><tspan x="0" y="0">BEL · DRDO labs</tspan></text>
+    <text class="st3" transform="translate(753.8 260.34)"><tspan x="0" y="0">TRUST GATE</tspan></text>
+    <text class="st4" transform="translate(905.08 108.34)"><tspan x="0" y="0">STEP 7</tspan></text>
+    <text class="st14" transform="translate(884.87 136.34)"><tspan x="0" y="0">Provenance</tspan></text>
+    <text class="st8" transform="translate(883.86 172.34)"><tspan x="0" y="0">Attestation hash</tspan></text>
+    <text class="st8" transform="translate(881.09 186.34)"><tspan x="0" y="0">immutable record</tspan></text>
+    <text class="st3" transform="translate(890.8 260.34)"><tspan x="0" y="0">TRUST GATE</tspan></text>
+    <text class="st6" transform="translate(1042.0794 108.337)"><tspan x="0" y="0">STEP 8</tspan></text>
+    <text class="st14" transform="translate(1021.5176 136.337)"><tspan x="0" y="0">Deployment</tspan></text>
+    <text class="st8" transform="translate(1010.3094 172.337)"><tspan x="0" y="0">Defence · grid · telco</tspan></text>
+    <text class="st8" transform="translate(1025.5877 186.337)"><tspan x="0" y="0">sovereign use</tspan></text>
+    <text class="st3" transform="translate(1027.803 260.337)"><tspan x="0" y="0">TRUST GATE</tspan></text>
+    <text class="st5" transform="translate(61.22 302.34)"><tspan x="0" y="0">CURRENT TRUST GAPS</tspan></text>
+    <text class="st11" transform="translate(73.22 328.34)"><tspan x="0" y="0">Mask-shop attestation</tspan></text>
+    <text class="st18" transform="translate(73.22 343.34)"><tspan x="0" y="0">Foreign mask shops lack India-verifiable provenance</tspan></text>
+    <text class="st11" transform="translate(613.22 328.34)"><tspan x="0" y="0">Equipment service tools</tspan></text>
+    <text class="st18" transform="translate(613.22 343.34)"><tspan x="0" y="0">Vendor field engineers retain root access to fab tools</tspan></text>
+    <text class="st11" transform="translate(73.22 360.34)"><tspan x="0" y="0">Firmware provenance</tspan></text>
+    <text class="st18" transform="translate(73.22 375.34)"><tspan x="0" y="0">Microcontroller firmware origin not always attested</tspan></text>
+    <text class="st11" transform="translate(613.22 360.34)"><tspan x="0" y="0">Wafer origin chain</tspan></text>
+    <text class="st18" transform="translate(613.22 375.34)"><tspan x="0" y="0">Taiwan-origin wafers acceptable but not sovereign</tspan></text>
+    <text class="st2" transform="translate(61.22 447.34)"><tspan x="0" y="0">DEFENCE-GRADE SUBSET</tspan></text>
+    <text class="st8" transform="translate(61.22 469.34)"><tspan x="0" y="0">Anchor demand entities — sovereign procurement priority</tspan></text>
+    <text class="st12" transform="translate(73.22 514.34)"><tspan x="0" y="0">BEL</tspan></text>
+    <text class="st15" transform="translate(73.22 529.34)"><tspan x="0" y="0">Bharat Electronics · radar · EW · comms</tspan></text>
+    <text class="st12" transform="translate(73.22 564.34)"><tspan x="0" y="0">DRDO</tspan></text>
+    <text class="st15" transform="translate(73.22 579.34)"><tspan x="0" y="0">Strategic systems · custom ASIC pipeline</tspan></text>
+    <text class="st12" transform="translate(73.22 614.34)"><tspan x="0" y="0">BDL</tspan></text>
+    <text class="st15" transform="translate(73.22 629.34)"><tspan x="0" y="0">Bharat Dynamics · guided weapons electronics</tspan></text>
+    <text class="st10" transform="translate(301.22 524.34)"><tspan x="0" y="0">REQUIREMENTS</tspan></text>
+    <text class="st13" transform="translate(301.22 544.34)"><tspan x="0" y="0">· End-to-end India provenance</tspan></text>
+    <text class="st13" transform="translate(301.22 562.34)"><tspan x="0" y="0">· DRDO-issued cleared-supplier list</tspan></text>
+    <text class="st13" transform="translate(301.22 580.34)"><tspan x="0" y="0">· No service-tool backdoors</tspan></text>
+    <text class="st13" transform="translate(301.22 598.34)"><tspan x="0" y="0">· Hardware root-of-trust signing</tspan></text>
+    <text class="st13" transform="translate(301.22 616.34)"><tspan x="0" y="0">· Domestic crypto IP only</tspan></text>
+    <text class="st2" transform="translate(621.22 447.34)"><tspan x="0" y="0">CRITICAL INFRA SUBSET</tspan></text>
+    <text class="st8" transform="translate(621.22 469.34)"><tspan x="0" y="0">Sovereign-grid + telecom anchored procurement</tspan></text>
+    <text class="st12" transform="translate(633.22 514.34)"><tspan x="0" y="0">Telecom</tspan></text>
+    <text class="st15" transform="translate(633.22 529.34)"><tspan x="0" y="0">BSNL · Tejas · RailTel · 4G/5G core</tspan></text>
+    <text class="st12" transform="translate(633.22 564.34)"><tspan x="0" y="0">Power grid</tspan></text>
+    <text class="st15" transform="translate(633.22 579.34)"><tspan x="0" y="0">POSOCO · CEA · ISGS · grid SCADA</tspan></text>
+    <text class="st12" transform="translate(633.22 614.34)"><tspan x="0" y="0">Rail/Metro</tspan></text>
+    <text class="st15" transform="translate(633.22 629.34)"><tspan x="0" y="0">RDSO · signalling · KAVACH</tspan></text>
+    <text class="st10" transform="translate(861.22 524.34)"><tspan x="0" y="0">REQUIREMENTS</tspan></text>
+    <text class="st13" transform="translate(861.22 544.34)"><tspan x="0" y="0">· Trusted-source quotas in tenders</tspan></text>
+    <text class="st13" transform="translate(861.22 562.34)"><tspan x="0" y="0">· Hardware bill-of-materials disclosure</tspan></text>
+    <text class="st13" transform="translate(861.22 580.34)"><tspan x="0" y="0">· Firmware attestation</tspan></text>
+    <text class="st13" transform="translate(861.22 598.34)"><tspan x="0" y="0">· Long lifecycle support guarantees</tspan></text>
+    <text class="st13" transform="translate(861.22 616.34)"><tspan x="0" y="0">· BIS + STQC certification</tspan></text>
+  </g>
+</svg>

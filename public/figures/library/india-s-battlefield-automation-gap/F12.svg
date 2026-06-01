@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 940 520">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2 {
+        fill: #fff;
+      }
+
+      .st0, .st3, .st4, .st5, .st6, .st7, .st2, .st8 {
+        isolation: isolate;
+      }
+
+      .st0, .st4, .st5, .st2, .st8 {
+        font-weight: 700;
+      }
+
+      .st0, .st5, .st2, .st8 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .st0, .st6 {
+        font-size: 14px;
+      }
+
+      .st1, .st9 {
+        stroke: #d8d3c7;
+      }
+
+      .st9 {
+        fill: none;
+      }
+
+      .st3 {
+        fill: #8a8576;
+      }
+
+      .st3, .st5 {
+        font-size: 11px;
+      }
+
+      .st3, .st6, .st7 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st10 {
+        fill: #c9a84c;
+      }
+
+      .st4 {
+        font-family: Consolas-Bold, Consolas;
+        font-size: 13px;
+      }
+
+      .st4, .st5, .st11, .st8 {
+        fill: #0f1828;
+      }
+
+      .st6, .st7 {
+        fill: #4a5567;
+      }
+
+      .st7, .st2 {
+        font-size: 12px;
+      }
+
+      .st12 {
+        fill: #e0a23b;
+      }
+
+      .st8 {
+        font-size: 26px;
+      }
+
+      .st13 {
+        fill: #c8443b;
+      }
+    </style>
+  </defs>
+  <rect class="st11" width="940" height="6.38"/>
+  <rect class="st10" y="6.38" width="940" height="2.39"/>
+  <text class="st8" transform="translate(10 42)"><tspan x="0" y="0">Strategic Threat Dashboard</tspan></text>
+  <text class="st6" transform="translate(10 68)"><tspan x="0" y="0">Automation-relevant pressures on India: risk, horizon and industrial implication</tspan></text>
+  <line class="st9" x1="10" y1="82" x2="930" y2="82"/>
+  <rect class="st1" x="30" y="103" width="280" height="170" rx="10" ry="10"/>
+  <rect class="st11" x="30" y="103" width="280" height="42" rx="10" ry="10"/>
+  <rect class="st11" x="30" y="133" width="280" height="12"/>
+  <text class="st0" transform="translate(46 130)"><tspan x="0" y="0">Persistent Border Surveillance</tspan></text>
+  <text class="st3" transform="translate(46 177)"><tspan x="0" y="0">RISK</tspan></text>
+  <path class="st13" d="M58,185h96c6.63,0,12,5.37,12,12h0c0,6.63-5.37,12-12,12H58c-6.63,0-12-5.37-12-12h0c0-6.63,5.37-12,12-12Z"/>
+  <text class="st2" transform="translate(92.67 202)"><tspan x="0" y="0">High</tspan></text>
+  <text class="st3" transform="translate(243.28 177)"><tspan x="0" y="0">HORIZON</tspan></text>
+  <text class="st4" transform="translate(236.82 202)"><tspan x="0" y="0">Now–2028</tspan></text>
+  <line class="st9" x1="46" y1="223" x2="294" y2="223"/>
+  <text class="st7" transform="translate(46 247)"><tspan x="0" y="0">System-integration problem</tspan></text>
+  <rect class="st1" x="330" y="103" width="280" height="170" rx="10" ry="10"/>
+  <rect class="st11" x="330" y="103" width="280" height="42" rx="10" ry="10"/>
+  <rect class="st11" x="330" y="133" width="280" height="12"/>
+  <text class="st0" transform="translate(346 130)"><tspan x="0" y="0">Autonomous Logistics</tspan></text>
+  <text class="st3" transform="translate(346 177)"><tspan x="0" y="0">RISK</tspan></text>
+  <path class="st12" d="M358,185h96c6.63,0,12,5.37,12,12h0c0,6.63-5.37,12-12,12h-96c-6.63,0-12-5.37-12-12h0c0-6.63,5.37-12,12-12Z"/>
+  <text class="st2" transform="translate(383.33 202)"><tspan x="0" y="0">Medium</tspan></text>
+  <text class="st3" transform="translate(543.28 177)"><tspan x="0" y="0">HORIZON</tspan></text>
+  <text class="st4" transform="translate(529.67 202)"><tspan x="0" y="0">2026–2030</tspan></text>
+  <line class="st9" x1="346" y1="223" x2="594" y2="223"/>
+  <text class="st7" transform="translate(346 247)"><tspan x="0" y="0">High-value Indian use case</tspan></text>
+  <rect class="st1" x="630" y="103" width="280" height="170" rx="10" ry="10"/>
+  <rect class="st11" x="630" y="103" width="280" height="42" rx="10" ry="10"/>
+  <rect class="st11" x="630" y="133" width="280" height="12"/>
+  <text class="st0" transform="translate(646 130)"><tspan x="0" y="0">Drone Swarms</tspan></text>
+  <text class="st3" transform="translate(646 177)"><tspan x="0" y="0">RISK</tspan></text>
+  <path class="st12" d="M658,185h96c6.63,0,12,5.37,12,12h0c0,6.63-5.37,12-12,12h-96c-6.63,0-12-5.37-12-12h0c0-6.63,5.37-12,12-12Z"/>
+  <text class="st2" transform="translate(668 202)"><tspan x="0" y="0">Medium-High</tspan></text>
+  <text class="st3" transform="translate(843.28 177)"><tspan x="0" y="0">HORIZON</tspan></text>
+  <text class="st4" transform="translate(829.67 202)"><tspan x="0" y="0">2027–2032</tspan></text>
+  <line class="st9" x1="646" y1="223" x2="894" y2="223"/>
+  <text class="st7" transform="translate(646 247)"><tspan x="0" y="0">Resilience over ambition</tspan></text>
+  <rect class="st1" x="30" y="297" width="280" height="170" rx="10" ry="10"/>
+  <rect class="st11" x="30" y="297" width="280" height="42" rx="10" ry="10"/>
+  <rect class="st11" x="30" y="327" width="280" height="12"/>
+  <text class="st0" transform="translate(46 324)"><tspan x="0" y="0">Electronic Warfare</tspan></text>
+  <text class="st3" transform="translate(46 371)"><tspan x="0" y="0">RISK</tspan></text>
+  <path class="st13" d="M58,379h96c6.63,0,12,5.37,12,12h0c0,6.63-5.37,12-12,12H58c-6.63,0-12-5.37-12-12h0c0-6.63,5.37-12,12-12Z"/>
+  <text class="st2" transform="translate(92.67 396)"><tspan x="0" y="0">High</tspan></text>
+  <text class="st3" transform="translate(243.28 371)"><tspan x="0" y="0">HORIZON</tspan></text>
+  <text class="st4" transform="translate(236.82 396)"><tspan x="0" y="0">Now–2030</tspan></text>
+  <line class="st9" x1="46" y1="417" x2="294" y2="417"/>
+  <text class="st7" transform="translate(46 441)"><tspan x="0" y="0">Design EW in, not bolt on</tspan></text>
+  <rect class="st1" x="330" y="297" width="280" height="170" rx="10" ry="10"/>
+  <rect class="st11" x="330" y="297" width="280" height="42" rx="10" ry="10"/>
+  <rect class="st11" x="330" y="327" width="280" height="12"/>
+  <text class="st0" transform="translate(346 324)"><tspan x="0" y="0">ISR Saturation</tspan></text>
+  <text class="st3" transform="translate(346 371)"><tspan x="0" y="0">RISK</tspan></text>
+  <path class="st13" d="M358,379h96c6.63,0,12,5.37,12,12h0c0,6.63-5.37,12-12,12h-96c-6.63,0-12-5.37-12-12h0c0-6.63,5.37-12,12-12Z"/>
+  <text class="st2" transform="translate(392.67 396)"><tspan x="0" y="0">High</tspan></text>
+  <text class="st3" transform="translate(543.28 371)"><tspan x="0" y="0">HORIZON</tspan></text>
+  <text class="st4" transform="translate(536.82 396)"><tspan x="0" y="0">Now–2030</tspan></text>
+  <line class="st9" x1="346" y1="417" x2="594" y2="417"/>
+  <text class="st7" transform="translate(346 441)"><tspan x="0" y="0">Changes value of concealment</tspan></text>
+  <rect class="st1" x="630" y="297" width="280" height="170" rx="10" ry="10"/>
+  <rect class="st11" x="630" y="297" width="280" height="42" rx="10" ry="10"/>
+  <rect class="st11" x="630" y="327" width="280" height="12"/>
+  <text class="st0" transform="translate(646 324)"><tspan x="0" y="0">Supply-Chain Denial</tspan></text>
+  <text class="st3" transform="translate(646 371)"><tspan x="0" y="0">RISK</tspan></text>
+  <path class="st13" d="M658,379h96c6.63,0,12,5.37,12,12h0c0,6.63-5.37,12-12,12h-96c-6.63,0-12-5.37-12-12h0c0-6.63,5.37-12,12-12Z"/>
+  <text class="st2" transform="translate(692.67 396)"><tspan x="0" y="0">High</tspan></text>
+  <text class="st3" transform="translate(843.28 371)"><tspan x="0" y="0">HORIZON</tspan></text>
+  <text class="st4" transform="translate(836.82 396)"><tspan x="0" y="0">Now–2035</tspan></text>
+  <line class="st9" x1="646" y1="417" x2="894" y2="417"/>
+  <text class="st7" transform="translate(646 441)"><tspan x="0" y="0">Trusted-source imperative</tspan></text>
+  <line class="st9" x1="10" y1="489" x2="930" y2="489"/>
+  <text class="st3" transform="translate(10 507)"><tspan x="0" y="0">Techadyant Labs analysis on open-source evidence. Risk colour indicates near-term industrial urgency.</tspan></text>
+  <text class="st5" transform="translate(822.23 507)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+</svg>

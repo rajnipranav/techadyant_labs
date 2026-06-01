@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 550">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #111827;
+      }
+
+      .st0, .st1 {
+        fill: none;
+      }
+
+      .st2 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st3, .st4, .st5, .st1, .st6, .st7, .st8, .st9, .st10 {
+        isolation: isolate;
+      }
+
+      .st3, .st5 {
+        fill: #111827;
+      }
+
+      .st3, .st5, .st8, .st10 {
+        font-size: 10px;
+      }
+
+      .st3, .st6, .st9 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st4 {
+        letter-spacing: .05em;
+      }
+
+      .st4, .st5, .st7, .st8, .st10 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st4, .st6 {
+        font-size: 11px;
+      }
+
+      .st4, .st7, .st8 {
+        fill: #fff;
+      }
+
+      .st1 {
+        opacity: .45;
+        stroke: #0b1b3b;
+      }
+
+      .st6 {
+        fill: #e5e7eb;
+      }
+
+      .st11, .st10 {
+        fill: #c9a84c;
+      }
+
+      .st7 {
+        font-size: 20px;
+      }
+
+      .st12 {
+        filter: url(#soft);
+      }
+
+      .st13 {
+        fill: #f8fafc;
+        stroke: #e5e7eb;
+      }
+
+      .st14 {
+        fill: #0b1b3b;
+      }
+
+      .st15 {
+        fill: #14b8a6;
+      }
+
+      .st9 {
+        fill: #6b7280;
+        font-size: 9px;
+        letter-spacing: .06em;
+      }
+
+      .st10 {
+        letter-spacing: .15em;
+      }
+
+      .st16 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="linear-gradient" x1="301.71" y1="696.07" x2="302.71" y2="696.07" gradientTransform="translate(-325798 42037.3899) scale(1080 -60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2e6497"/>
+      <stop offset=".2" stop-color="#3b7ebf"/>
+      <stop offset=".4" stop-color="#0b1b3b"/>
+      <stop offset=".6" stop-color="#0b1b3b"/>
+      <stop offset=".8" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="288.42" y1="702.79" x2="289.42" y2="702.79" gradientTransform="translate(-5442 10334.4576) scale(22 -14)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2e6497"/>
+      <stop offset=".2" stop-color="#3b7ebf"/>
+      <stop offset=".4" stop-color="#0b1b3b"/>
+      <stop offset=".6" stop-color="#0b1b3b"/>
+      <stop offset=".8" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#c9a84c"/>
+    </linearGradient>
+  </defs>
+  <rect class="st14" y="-.96" width="1200" height="60"/>
+  <text class="st7" transform="translate(40 37.04)"><tspan x="0" y="0">MSME Value-Chain Positioning</tspan></text>
+  <text class="st10" transform="translate(1094.8203 23.0385)"><tspan x="0" y="0">FIGURE 19</tspan></text>
+  <text class="st6" transform="translate(831.06 43.04)"><tspan x="0" y="0">Where MSMEs can plausibly play along the wafer-to-product ribbon</tspan></text>
+  <text class="st9" transform="translate(43.24 535.46)"><tspan x="0" y="0">INDIA SEMICONDUCTOR INTELLIGENCE 2026 · WHO REALLY BENEFITS FROM INDIA&apos;S FAB ECOSYSTEM?</tspan></text>
+  <text class="st9" transform="translate(1112.7173 535.4615)"><tspan x="0" y="0">FIG 19 / 30</tspan></text>
+  <g class="st12">
+    <path class="st16" d="M79.24,243.46h1020c16.57,0,30,13.43,30,30h0c0,16.57-13.43,30-30,30H79.24c-16.57,0-30-13.43-30-30h0c0-16.57,13.43-30,30-30Z"/>
+  </g>
+  <polygon class="st11" points="1119.24 233.46 1159.24 273.46 1119.24 313.46 1119.24 233.46"/>
+  <text class="st4" transform="translate(127.18 271.46)"><tspan x="0" y="0">Raw</tspan></text>
+  <text class="st4" transform="translate(112.84 285.46)"><tspan x="0" y="0">materials</tspan></text>
+  <line class="st0" x1="139.24" y1="243.46" x2="139.24" y2="233.46"/>
+  <text class="st4" transform="translate(302.91 271.46)"><tspan x="0" y="0">Wafer</tspan></text>
+  <text class="st4" transform="translate(310.24 285.46)"><tspan x="0" y="0">fab</tspan></text>
+  <line class="st0" x1="319.24" y1="243.46" x2="319.24" y2="233.46"/>
+  <text class="st4" transform="translate(487.49 271.46)"><tspan x="0" y="0">FAB</tspan></text>
+  <text class="st4" transform="translate(472.86 285.46)"><tspan x="0" y="0">front-end</tspan></text>
+  <line class="st0" x1="499.24" y1="243.46" x2="499.24" y2="233.46"/>
+  <text class="st4" transform="translate(663.37 271.46)"><tspan x="0" y="0">OSAT</tspan></text>
+  <text class="st4" transform="translate(650.91 285.46)"><tspan x="0" y="0">pkg + test</tspan></text>
+  <line class="st0" x1="679.24" y1="243.46" x2="679.24" y2="233.46"/>
+  <text class="st4" transform="translate(838.49 271.46)"><tspan x="0" y="0">Module</tspan></text>
+  <text class="st4" transform="translate(828.07 285.46)"><tspan x="0" y="0">integration</tspan></text>
+  <line class="st0" x1="859.24" y1="243.46" x2="859.24" y2="233.46"/>
+  <text class="st4" transform="translate(1028.1016 271.4615)"><tspan x="0" y="0">End</tspan></text>
+  <text class="st4" transform="translate(1017.02 285.4615)"><tspan x="0" y="0">product</tspan></text>
+  <line class="st0" x1="1039.24" y1="243.46" x2="1039.24" y2="233.46"/>
+  <line class="st1" x1="139.24" y1="161.46" x2="139.24" y2="243.46"/>
+  <circle class="st14" cx="139.24" cy="243.46" r="4"/>
+  <path class="st15" d="M71.24,138.46h136c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11H71.24c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st8" transform="translate(85.32 153.46)"><tspan x="0" y="0">Silicon recycle/reclaim</tspan></text>
+  <line class="st1" x1="283.24" y1="136.46" x2="283.24" y2="243.46"/>
+  <circle class="st14" cx="283.24" cy="243.46" r="4"/>
+  <path class="st15" d="M224.24,113.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st8" transform="translate(239.06 128.46)"><tspan x="0" y="0">Spec gas blending</tspan></text>
+  <line class="st1" x1="445.24" y1="186.46" x2="445.24" y2="243.46"/>
+  <circle class="st14" cx="445.24" cy="243.46" r="4"/>
+  <path class="st15" d="M386.24,163.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st8" transform="translate(408.11 178.46)"><tspan x="0" y="0">CMP pad refurb</tspan></text>
+  <line class="st1" x1="481.24" y1="211.46" x2="481.24" y2="243.46"/>
+  <circle class="st14" cx="481.24" cy="243.46" r="4"/>
+  <path class="st15" d="M422.24,188.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st8" transform="translate(447.79 203.46)"><tspan x="0" y="0">Wafer carriers</tspan></text>
+  <line class="st1" x1="607.24" y1="136.46" x2="607.24" y2="243.46"/>
+  <circle class="st14" cx="607.24" cy="243.46" r="4"/>
+  <path class="st15" d="M548.24,113.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st8" transform="translate(577.32 128.46)"><tspan x="0" y="0">Test sockets</tspan></text>
+  <line class="st1" x1="643.24" y1="186.46" x2="643.24" y2="243.46"/>
+  <circle class="st14" cx="643.24" cy="243.46" r="4"/>
+  <path class="st15" d="M584.24,163.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st8" transform="translate(607.41 178.46)"><tspan x="0" y="0">Burn-in boards</tspan></text>
+  <line class="st1" x1="679.24" y1="186.46" x2="679.24" y2="243.46"/>
+  <circle class="st14" cx="679.24" cy="243.46" r="4"/>
+  <path class="st15" d="M620.24,163.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st8" transform="translate(642.85 178.46)"><tspan x="0" y="0">T&amp;R packaging</tspan></text>
+  <line class="st1" x1="805.24" y1="161.46" x2="805.24" y2="243.46"/>
+  <circle class="st14" cx="805.24" cy="243.46" r="4"/>
+  <path class="st15" d="M746.24,138.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st8" transform="translate(771.06 153.46)"><tspan x="0" y="0">Cable harness</tspan></text>
+  <line class="st1" x1="373.24" y1="211.46" x2="373.24" y2="243.46"/>
+  <circle class="st14" cx="373.24" cy="243.46" r="4"/>
+  <path class="st15" d="M314.24,188.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st8" transform="translate(325.71 203.46)"><tspan x="0" y="0">Cleanroom services</tspan></text>
+  <line class="st1" x1="589.24" y1="186.46" x2="589.24" y2="243.46"/>
+  <circle class="st14" cx="589.24" cy="243.46" r="4"/>
+  <path class="st15" d="M530.24,163.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st8" transform="translate(557.29 178.46)"><tspan x="0" y="0">Substrate fab</tspan></text>
+  <line class="st1" x1="265.24" y1="385.46" x2="265.24" y2="303.46"/>
+  <circle class="st14" cx="265.24" cy="303.46" r="4"/>
+  <path class="st11" d="M203.24,386.46h124c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-124c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st5" transform="translate(213.38 401.46)"><tspan x="0" y="0">NABL calibration labs</tspan></text>
+  <line class="st1" x1="535.24" y1="360.46" x2="535.24" y2="303.46"/>
+  <circle class="st14" cx="535.24" cy="303.46" r="4"/>
+  <path class="st11" d="M476.24,361.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st5" transform="translate(485.51 376.46)"><tspan x="0" y="0">Hazardous waste hdl</tspan></text>
+  <line class="st1" x1="589.24" y1="410.46" x2="589.24" y2="303.46"/>
+  <circle class="st14" cx="589.24" cy="303.46" r="4"/>
+  <path class="st11" d="M530.24,411.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st5" transform="translate(551.73 426.46)"><tspan x="0" y="0">Lead-frame mfg</tspan></text>
+  <line class="st1" x1="841.24" y1="335.46" x2="841.24" y2="303.46"/>
+  <circle class="st14" cx="841.24" cy="303.46" r="4"/>
+  <path class="st11" d="M782.24,336.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st5" transform="translate(806.22 351.46)"><tspan x="0" y="0">EMS assembly</tspan></text>
+  <line class="st1" x1="949.24" y1="360.46" x2="949.24" y2="303.46"/>
+  <circle class="st14" cx="949.24" cy="303.46" r="4"/>
+  <path class="st11" d="M890.24,361.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st5" transform="translate(907.29 376.46)"><tspan x="0" y="0">Final product test</tspan></text>
+  <line class="st1" x1="1039.24" y1="410.46" x2="1039.24" y2="303.46"/>
+  <circle class="st14" cx="1039.24" cy="303.46" r="4"/>
+  <path class="st11" d="M980.24,411.46h118c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-118c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st5" transform="translate(991.18 426.46)"><tspan x="0" y="0">Logistics/cold chain</tspan></text>
+  <line class="st1" x1="895.24" y1="335.46" x2="895.24" y2="303.46"/>
+  <circle class="st14" cx="895.24" cy="303.46" r="4"/>
+  <path class="st11" d="M824.24,336.46h142c6.08,0,11,4.92,11,11h0c0,6.08-4.92,11-11,11h-142c-6.08,0-11-4.92-11-11h0c0-6.08,4.92-11,11-11Z"/>
+  <text class="st5" transform="translate(832.71 351.46)"><tspan x="0" y="0">Packaging waste recovery</tspan></text>
+  <rect class="st13" x="63.24" y="470.46" width="1080" height="50" rx="8" ry="8"/>
+  <rect class="st15" x="83.24" y="488.46" width="22" height="14" rx="3" ry="3"/>
+  <text class="st3" transform="translate(111.24 500.46)"><tspan x="0" y="0">Technology / consumable MSME opportunities</tspan></text>
+  <rect class="st11" x="543.24" y="488.46" width="22" height="14" rx="3" ry="3"/>
+  <text class="st3" transform="translate(571.24 500.46)"><tspan x="0" y="0">Services / logistics MSME opportunities</tspan></text>
+  <rect class="st2" x="903.24" y="488.46" width="22" height="14" rx="3" ry="3"/>
+  <text class="st3" transform="translate(931.24 500.46)"><tspan x="0" y="0">Semiconductor value chain stages</tspan></text>
+</svg>

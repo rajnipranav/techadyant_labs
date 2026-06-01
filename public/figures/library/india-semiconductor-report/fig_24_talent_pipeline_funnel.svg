@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 700">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13 {
+        isolation: isolate;
+      }
+
+      .st0, .st3, .st4, .st5, .st11 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st0, .st3, .st12 {
+        font-size: 10px;
+      }
+
+      .st0, .st11 {
+        fill: #6b7280;
+      }
+
+      .st14 {
+        fill: #2e6497;
+      }
+
+      .st15 {
+        filter: url(#soft3);
+      }
+
+      .st1 {
+        fill: #b91c1c;
+        letter-spacing: .04em;
+      }
+
+      .st1, .st2, .st6, .st7, .st8, .st9, .st10, .st12, .st13 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st1, .st10 {
+        font-size: 13px;
+      }
+
+      .st16 {
+        fill: #3b7ebf;
+      }
+
+      .st17 {
+        filter: url(#soft1);
+      }
+
+      .st18 {
+        filter: url(#soft2);
+      }
+
+      .st2 {
+        font-size: 22px;
+      }
+
+      .st2, .st3, .st4, .st6 {
+        fill: #111827;
+      }
+
+      .st19 {
+        fill: #fee2e2;
+        stroke: #ef4444;
+        stroke-width: 2px;
+      }
+
+      .st4, .st6, .st8 {
+        font-size: 12px;
+      }
+
+      .st5 {
+        fill: #e5e7eb;
+      }
+
+      .st5, .st9 {
+        font-size: 11px;
+      }
+
+      .st20, .st12 {
+        fill: #c9a84c;
+      }
+
+      .st6 {
+        letter-spacing: .04em;
+      }
+
+      .st7 {
+        font-size: 20px;
+      }
+
+      .st7, .st8, .st9, .st10, .st13 {
+        fill: #fff;
+      }
+
+      .st21 {
+        filter: url(#soft);
+      }
+
+      .st22 {
+        fill: #0b1b3b;
+      }
+
+      .st23 {
+        fill: #14b8a6;
+      }
+
+      .st11 {
+        font-size: 9px;
+        letter-spacing: .06em;
+      }
+
+      .st12 {
+        letter-spacing: .15em;
+      }
+
+      .st13 {
+        font-size: 18px;
+      }
+
+      .st24 {
+        filter: url(#soft4);
+      }
+    </style>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft1" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft2" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft3" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft4" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect class="st22" x="-8.79" width="1008.81" height="60"/>
+  <text class="st7" transform="translate(22.42 37.71)"><tspan x="0" y="0">Talent Pipeline Deficit Funnel</tspan></text>
+  <text class="st12" transform="translate(919.7 23.42)"><tspan x="0" y="0">FIGURE 24</tspan></text>
+  <text class="st5" transform="translate(580.71 43.42)"><tspan x="0" y="0">From 1.5M engineering graduates to 3K fab-process competent engineers per year</tspan></text>
+  <text class="st11" transform="translate(21.58 673.12)"><tspan x="0" y="0">INDIA SEMICONDUCTOR INTELLIGENCE 2026 · WHO REALLY BENEFITS FROM INDIA&apos;S FAB ECOSYSTEM?</tspan></text>
+  <text class="st11" transform="translate(925.2 678.65)"><tspan x="0" y="0">FIG 24 / 30</tspan></text>
+  <g class="st21">
+    <polygon class="st22" points="27.07 118.65 627.07 118.65 567.07 208.65 87.07 208.65 27.07 118.65"/>
+  </g>
+  <text class="st8" transform="translate(249.4 156.65)"><tspan x="0" y="0">Engineering grads (annual)</tspan></text>
+  <text class="st13" transform="translate(287.04 180.65)"><tspan x="0" y="0">1,500,000</tspan></text>
+  <g class="st17">
+    <polygon class="st14" points="87.07 218.65 567.07 218.65 497.07 308.65 157.07 308.65 87.07 218.65"/>
+  </g>
+  <text class="st8" transform="translate(267.72 256.65)"><tspan x="0" y="0">VLSI / ECE-streamed</tspan></text>
+  <text class="st13" transform="translate(294.54 280.65)"><tspan x="0" y="0">150,000</tspan></text>
+  <g class="st18">
+    <polygon class="st16" points="157.07 318.65 497.07 318.65 442.07 408.65 212.07 408.65 157.07 318.65"/>
+  </g>
+  <text class="st8" transform="translate(234.73 356.65)"><tspan x="0" y="0">Semicon-trained (NIELIT, ESSCI)</tspan></text>
+  <text class="st13" transform="translate(299.55 380.65)"><tspan x="0" y="0">30,000</tspan></text>
+  <g class="st15">
+    <polygon class="st23" points="212.07 418.65 442.07 418.65 392.07 508.65 262.07 508.65 212.07 418.65"/>
+  </g>
+  <text class="st8" transform="translate(259.39 456.65)"><tspan x="0" y="0">Fab-process competent</tspan></text>
+  <text class="st13" transform="translate(299.55 480.65)"><tspan x="0" y="0">10,000</tspan></text>
+  <g class="st24">
+    <rect class="st20" x="262.07" y="518.65" width="130" height="90"/>
+  </g>
+  <text class="st8" transform="translate(259.61 556.65)"><tspan x="0" y="0">Yield engineering ready</tspan></text>
+  <text class="st13" transform="translate(304.55 580.65)"><tspan x="0" y="0">3,000</tspan></text>
+  <text class="st6" transform="translate(251.28 103.65)"><tspan x="0" y="0">SUPPLY FUNNEL / YEAR</tspan></text>
+  <text class="st6" transform="translate(732.58 103.65)"><tspan x="0" y="0">DEMAND · HEADCOUNT</tspan></text>
+  <rect class="st14" x="647.07" y="138.65" width="88" height="50" rx="6" ry="6"/>
+  <text class="st9" transform="translate(657.32 154.17)"><tspan x="0" y="0">Workforce </tspan><tspan x="0" y="13.2">2024</tspan></text>
+  <text class="st10" transform="translate(657.07 182.65)"><tspan x="0" y="0">220K</tspan></text>
+  <rect class="st20" x="647.07" y="208.65" width="188" height="50" rx="6" ry="6"/>
+  <text class="st9" transform="translate(657.07 230.65)"><tspan x="0" y="0">Demand 2027 (low)</tspan></text>
+  <text class="st10" transform="translate(657.07 248.65)"><tspan x="0" y="0">470K</tspan></text>
+  <rect class="st22" x="642.42" y="278.65" width="228" height="50" rx="6" ry="6"/>
+  <text class="st9" transform="translate(652.42 300.65)"><tspan x="0" y="0">Demand 2027 (high)</tspan></text>
+  <text class="st10" transform="translate(652.42 318.65)"><tspan x="0" y="0">570K</tspan></text>
+  <rect class="st23" x="638.42" y="348.65" width="320" height="50" rx="6" ry="6"/>
+  <text class="st9" transform="translate(648.42 370.65)"><tspan x="0" y="0">Industry need 2030</tspan></text>
+  <text class="st10" transform="translate(648.42 388.65)"><tspan x="0" y="0">800K</tspan></text>
+  <rect class="st19" x="638.42" y="428.06" width="340" height="120" rx="8" ry="8"/>
+  <text class="st1" transform="translate(747.48 458.06)"><tspan x="0" y="0">TALENT GAP 2027</tspan></text>
+  <text class="st2" transform="translate(760.11 493.06)"><tspan x="0" y="0">250-350K</tspan></text>
+  <text class="st3" transform="translate(744.91 518.06)"><tspan x="0" y="0">~50% of projected workforce</tspan></text>
+  <text class="st4" transform="translate(760.66 580.65)"><tspan x="0" y="0">vs current trained funnel</tspan></text>
+  <text class="st0" transform="translate(303.64 641.7)"><tspan x="0" y="0">Bridging the gap requires ~20x scale-up of fab-process curricula and active import of expat talent for 2026-2030</tspan></text>
+</svg>

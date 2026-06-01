@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 700">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 14px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14 {
+        isolation: isolate;
+      }
+
+      .st0, .st2, .st6, .st7, .st8, .st10, .st11, .st13, .st14 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st0, .st7 {
+        fill: #fff;
+      }
+
+      .st15 {
+        stroke: #14b8a6;
+      }
+
+      .st15, .st16, .st17, .st18, .st19, .st20 {
+        fill: none;
+      }
+
+      .st15, .st16, .st18 {
+        stroke-dasharray: 3 3;
+      }
+
+      .st16 {
+        stroke: #c9a84c;
+      }
+
+      .st21 {
+        filter: url(#soft1);
+      }
+
+      .st1, .st2, .st4, .st5, .st8, .st9 {
+        font-size: 11px;
+      }
+
+      .st1, .st3, .st4, .st5, .st9, .st12 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st1, .st3, .st6 {
+        fill: #111827;
+      }
+
+      .st2 {
+        letter-spacing: .05em;
+      }
+
+      .st2, .st22, .st13, .st14 {
+        fill: #c9a84c;
+      }
+
+      .st3, .st6, .st10, .st11, .st13 {
+        font-size: 12px;
+      }
+
+      .st4, .st12 {
+        fill: #6b7280;
+      }
+
+      .st5 {
+        fill: #e5e7eb;
+      }
+
+      .st18 {
+        stroke: #9b9c9e;
+        stroke-width: .8px;
+      }
+
+      .st6 {
+        letter-spacing: .04em;
+      }
+
+      .st7 {
+        font-size: 20px;
+      }
+
+      .st23 {
+        filter: url(#soft);
+      }
+
+      .st24 {
+        fill: #f8fafc;
+        stroke: #e5e7eb;
+        stroke-width: 1.07px;
+      }
+
+      .st8, .st25, .st10 {
+        fill: #0b1b3b;
+      }
+
+      .st19 {
+        stroke: #0b1b3b;
+      }
+
+      .st19, .st20 {
+        stroke-width: 2px;
+      }
+
+      .st26, .st9, .st11 {
+        fill: #14b8a6;
+      }
+
+      .st12 {
+        font-size: 9px;
+        letter-spacing: .06em;
+      }
+
+      .st14 {
+        font-size: 10px;
+        letter-spacing: .15em;
+      }
+
+      .st20 {
+        stroke: #fff;
+      }
+    </style>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft1" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect class="st25" width="1004.77" height="60"/>
+  <text class="st7" transform="translate(32.25 35.09)"><tspan x="0" y="0">Strategic Sovereignty Framework</tspan></text>
+  <text class="st14" transform="translate(913.83 23)"><tspan x="0" y="0">FIGURE 30</tspan></text>
+  <text class="st5" transform="translate(749.11 43)"><tspan x="0" y="0">Three-axis trajectory · India 2026 vs India 2035</tspan></text>
+  <text class="st12" transform="translate(56.22 644.94)"><tspan x="0" y="0">INDIA SEMICONDUCTOR INTELLIGENCE 2026 · WHO REALLY BENEFITS FROM INDIA&apos;S FAB ECOSYSTEM?</tspan></text>
+  <text class="st12" transform="translate(869.84 648.78)"><tspan x="0" y="0">FIG 30 / 30</tspan></text>
+  <line class="st19" x1="298.72" y1="401.57" x2="578.72" y2="401.57"/>
+  <line class="st18" x1="578.72" y1="401.57" x2="578.72" y2="121.57"/>
+  <line class="st18" x1="578.72" y1="121.57" x2="298.72" y2="121.57"/>
+  <line class="st18" x1="298.72" y1="121.57" x2="298.72" y2="401.57"/>
+  <line class="st18" x1="56.22" y1="541.57" x2="336.22" y2="541.57"/>
+  <line class="st18" x1="336.22" y1="541.57" x2="336.22" y2="261.57"/>
+  <line class="st18" x1="336.22" y1="261.57" x2="56.22" y2="261.57"/>
+  <line class="st18" x1="56.22" y1="261.57" x2="56.22" y2="541.57"/>
+  <line class="st19" x1="298.72" y1="401.57" x2="56.22" y2="541.57"/>
+  <line class="st18" x1="578.72" y1="401.57" x2="336.22" y2="541.57"/>
+  <line class="st18" x1="578.72" y1="121.57" x2="336.22" y2="261.57"/>
+  <line class="st18" x1="298.72" y1="121.57" x2="56.22" y2="261.57"/>
+  <text class="st8" transform="translate(594.72 401.57)"><tspan x="0" y="0">DEMAND sovereignty -&gt;</tspan></text>
+  <text class="st4" transform="translate(594.72 415.57)"><tspan x="0" y="0">domestic absorption %</tspan></text>
+  <text class="st8" transform="translate(308.72 107.57)"><tspan x="0" y="0">CAPABILITY sovereignty -&gt;</tspan></text>
+  <text class="st4" transform="translate(308.72 121.57)"><tspan x="0" y="0">process + eqpt + materials %</tspan></text>
+  <text class="st10" transform="translate(55.5 557.03)"><tspan x="0" y="0">GEOPOLITICAL alignment -&gt;</tspan></text>
+  <text class="st4" transform="translate(54.63 576.98)"><tspan x="0" y="0">US + QUAD partner depth</tspan></text>
+  <line class="st16" x1="249.32" y1="450.57" x2="249.32" y2="478.57"/>
+  <line class="st15" x1="274.62" y1="366.57" x2="274.62" y2="520.57"/>
+  <path class="st17" d=""/>
+  <path class="st25" d="M236.65,360.57l18,9-18,9v-18Z"/>
+  <path class="st25" d="M274.62,366.57" marker-end="url(#arrow)"/>
+  <g class="st23">
+    <circle class="st22" cx="249.32" cy="450.57" r="11"/>
+    <circle class="st20" cx="249.32" cy="450.57" r="11"/>
+  </g>
+  <text class="st13" transform="translate(177.47 433.28)"><tspan x="0" y="0">India 2026</tspan></text>
+  <text class="st1" transform="translate(264.32 453.57)"><tspan x="0" y="0">demand 30% · capability 10% · align 55%</tspan></text>
+  <g class="st21">
+    <circle class="st26" cx="274.62" cy="369.57" r="13"/>
+    <circle class="st20" cx="274.62" cy="369.57" r="13"/>
+  </g>
+  <text class="st11" transform="translate(238.32 338.37)"><tspan x="0" y="0">India 2035t</tspan></text>
+  <text class="st1" transform="translate(292.62 369.57)"><tspan x="0" y="0">demand 65% · capability 55% · align 85%</tspan></text>
+  <rect class="st24" x="645.47" y="112.43" width="277.18" height="254.74" rx="8" ry="8"/>
+  <text class="st6" transform="translate(664.25 137.27)"><tspan x="0" y="0">FRAMEWORK</tspan></text>
+  <text class="st3" transform="translate(664.25 162.27)"><tspan x="0" y="0">Sovereignty is a 3-axis construct, not a</tspan></text>
+  <text class="st3" transform="translate(664.25 177.27)"><tspan x="0" y="0">single metric. India must move all three</tspan></text>
+  <text class="st3" transform="translate(664.25 192.27)"><tspan x="0" y="0">in parallel; missing any axis is a strategic</tspan></text>
+  <text class="st3" transform="translate(664.25 207.27)"><tspan x="0" y="0">vulnerability.</tspan></text>
+  <text class="st3" transform="translate(664.25 237.27)"><tspan x="0" y="0">DEMAND sovereignty: how much of</tspan></text>
+  <text class="st3" transform="translate(664.25 252.27)"><tspan x="0" y="0">India-made silicon is absorbed domestically.</tspan></text>
+  <text class="st3" transform="translate(664.25 282.27)"><tspan x="0" y="0">CAPABILITY sovereignty: indigenous share</tspan></text>
+  <text class="st3" transform="translate(664.25 297.27)"><tspan x="0" y="0">of process, equipment, materials.</tspan></text>
+  <text class="st3" transform="translate(664.25 327.27)"><tspan x="0" y="0">GEOPOLITICAL alignment: depth of</tspan></text>
+  <text class="st3" transform="translate(664.25 342.27)"><tspan x="0" y="0">US + Japan + Korea + EU partnerships.</tspan></text>
+  <rect class="st25" x="644.06" y="456.57" width="280" height="170" rx="8" ry="8"/>
+  <text class="st2" transform="translate(664.06 481.57)"><tspan x="0" y="0">VECTOR OF PROGRESS</tspan></text>
+  <text class="st0" transform="translate(664.06 516.57)"><tspan x="0" y="0">Demand: +35 pp</tspan></text>
+  <text class="st0" transform="translate(664.06 541.57)"><tspan x="0" y="0">Capability: +45 pp</tspan></text>
+  <text class="st0" transform="translate(664.06 566.57)"><tspan x="0" y="0">Alignment: +30 pp</tspan></text>
+  <text class="st9" transform="translate(664.06 601.57)"><tspan x="0" y="0">across 2026-2035 · ISM 2.0 + ISM 3.0</tspan></text>
+</svg>

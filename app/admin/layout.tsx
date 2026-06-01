@@ -19,7 +19,7 @@ const NAV = [
       { href: '/admin/sid/figures', label: 'Figure library' },
     ],
   },
-  { group: 'Feeds & ops', items: [{ href: '/admin/signals', label: 'Signals' }, { href: '/admin/site', label: 'Site management' }] },
+  { group: 'Feeds & ops', items: [{ href: '/admin/signals', label: 'Signals' }, { href: '/admin/ops', label: 'Workflow runs' }, { href: '/admin/site', label: 'Site management' }] },
 ];
 
 function norm(p: string) { return p.replace(/\/+$/, '') || '/'; }

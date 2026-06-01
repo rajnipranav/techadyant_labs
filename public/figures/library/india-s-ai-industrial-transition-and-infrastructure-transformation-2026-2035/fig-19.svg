@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 711.36 495.9">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13 {
+        isolation: isolate;
+      }
+
+      .st1, .st3, .st5 {
+        font-size: 8px;
+      }
+
+      .st1, .st5, .st8, .st10, .st11, .st12 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st1, .st7, .st8, .st12 {
+        fill: #0f1828;
+      }
+
+      .st14 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st2, .st3, .st10, .st13 {
+        fill: #4a5567;
+      }
+
+      .st2, .st4, .st6, .st9 {
+        opacity: .35;
+        stroke-width: 1.5px;
+      }
+
+      .st2, .st15 {
+        stroke: #4a5567;
+      }
+
+      .st16, .st17, .st18, .st15, .st19 {
+        fill: #fbf9f4;
+      }
+
+      .st20 {
+        fill: #fff;
+      }
+
+      .st3, .st7, .st13 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st4 {
+        fill: #2bc5b4;
+      }
+
+      .st4, .st18 {
+        stroke: #2bc5b4;
+      }
+
+      .st5 {
+        fill: #c0c5cc;
+      }
+
+      .st21, .st22 {
+        fill: none;
+      }
+
+      .st17, .st18, .st15, .st19 {
+        stroke-width: 1.2px;
+      }
+
+      .st17, .st9, .st22 {
+        stroke: #c9a84c;
+      }
+
+      .st23 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st6 {
+        fill: #e4d3a6;
+      }
+
+      .st6, .st19 {
+        stroke: #e4d3a6;
+      }
+
+      .st24 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st7 {
+        font-size: 8.5px;
+      }
+
+      .st8 {
+        font-size: 15px;
+      }
+
+      .st25 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st9, .st11 {
+        fill: #c9a84c;
+      }
+
+      .st10 {
+        font-size: 7.5px;
+      }
+
+      .st22 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.5px;
+      }
+
+      .st26 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st11 {
+        font-size: 9px;
+      }
+
+      .st12 {
+        font-size: 12px;
+      }
+
+      .st13 {
+        font-size: 10.5px;
+      }
+
+      .st27 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st21" x="58.68" y="53.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st21" x="58.68" y="53.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st21" x="58.68" y="53.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st21" x="58.68" y="53.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st21" x="58.68" y="53.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st21" x="58.68" y="53.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st21" x="58.68" y="53.6" width="613.8" height="388.08"/>
+    </clipPath>
+  </defs>
+  <path class="st16" d="M0,495.9h711.36V0H0v495.9Z"/>
+  <rect class="st20" x="58.68" y="73.89" width="613.8" height="367.79"/>
+  <g class="st27">
+    <path class="st9" d="M89.37,175.01h521.73c1.64,0,2.46-.74,2.46-2.22v-60.98c0-1.48-.82-2.22-2.46-2.22H89.37c-1.64,0-2.46.74-2.46,2.22v60.98c0,1.48.82,2.22,2.46,2.22Z"/>
+  </g>
+  <g class="st23">
+    <path class="st17" d="M469.93,163.37h135.04c1.23,0,1.84-.55,1.84-1.66v-38.81c0-1.11-.61-1.66-1.84-1.66h-135.04c-1.23,0-1.84.55-1.84,1.66v38.81c0,1.11.61,1.66,1.84,1.66Z"/>
+  </g>
+  <g class="st26">
+    <path class="st4" d="M89.37,258.17h521.73c1.64,0,2.46-.74,2.46-2.22v-60.98c0-1.48-.82-2.22-2.46-2.22H89.37c-1.64,0-2.46.74-2.46,2.22v60.98c0,1.48.82,2.22,2.46,2.22Z"/>
+  </g>
+  <g class="st25">
+    <path class="st18" d="M469.93,246.53h135.04c1.23,0,1.84-.55,1.84-1.66v-38.81c0-1.11-.61-1.66-1.84-1.66h-135.04c-1.23,0-1.84.55-1.84,1.66v38.81c0,1.11.61,1.66,1.84,1.66Z"/>
+  </g>
+  <g class="st14">
+    <path class="st6" d="M89.37,341.33h521.73c1.64,0,2.46-.74,2.46-2.22v-60.98c0-1.48-.82-2.22-2.46-2.22H89.37c-1.64,0-2.46.74-2.46,2.22v60.98c0,1.48.82,2.22,2.46,2.22Z"/>
+  </g>
+  <g class="st24">
+    <path class="st19" d="M469.93,329.69h135.04c1.23,0,1.84-.55,1.84-1.66v-38.81c0-1.11-.61-1.66-1.84-1.66h-135.04c-1.23,0-1.84.55-1.84,1.66v38.81c0,1.11.61,1.66,1.84,1.66Z"/>
+  </g>
+  <g class="st0">
+    <path class="st2" d="M89.37,424.49h521.73c1.64,0,2.46-.74,2.46-2.22v-60.98c0-1.48-.82-2.22-2.46-2.22H89.37c-1.64,0-2.46.74-2.46,2.22v60.98c0,1.48.82,2.22,2.46,2.22Z"/>
+  </g>
+  <path class="st15" d="M469.93,412.85h135.04c1.23,0,1.84-.55,1.84-1.66v-38.81c0-1.11-.61-1.66-1.84-1.66h-135.04c-1.23,0-1.84.55-1.84,1.66v38.81c0,1.11.61,1.66,1.84,1.66Z"/>
+  <text class="st12" transform="translate(101.65 124.56)"><tspan x="0" y="0">DESIGN</tspan></text>
+  <text class="st7" transform="translate(101.65 143.41)"><tspan x="0" y="0">Chip architects · ML researchers · LLM engineers · EDA · compiler engineers</tspan></text>
+  <text class="st10" transform="translate(101.65 160.04)"><tspan x="0" y="0">Bengaluru · Hyderabad · Noida · Pune</tspan></text>
+  <text class="st1" transform="translate(413.27 144.48)"><tspan x="0" y="0">~60k semi designers + ~100–150k AI design engineers</tspan></text>
+  <text class="st12" transform="translate(101.65 207.72)"><tspan x="0" y="0">INFRASTRUCTURE</tspan></text>
+  <text class="st7" transform="translate(101.65 226.57)"><tspan x="0" y="0">DC engineers · MEP · MLOps · AIOps · cloud-native · cybersecurity</tspan></text>
+  <text class="st10" transform="translate(101.65 243.2)"><tspan x="0" y="0">All seven corridors</tspan></text>
+  <text class="st1" transform="translate(453.34 227.64)"><tspan x="0" y="0">~200–300k today → 700k–1M by 2030</tspan></text>
+  <text class="st12" transform="translate(101.65 290.88)"><tspan x="0" y="0">APPLICATION</tspan></text>
+  <text class="st7" transform="translate(101.65 309.73)"><tspan x="0" y="0">Industrial-AI · healthcare-AI · BFSI-AI · retail-AI · ag-AI · ed-tech</tspan></text>
+  <text class="st10" transform="translate(101.65 326.36)"><tspan x="0" y="0">Distributed nationally</tspan></text>
+  <text class="st1" transform="translate(461.56 310.8)"><tspan x="0" y="0">~500–800k today → 2–3M by 2030</tspan></text>
+  <text class="st12" transform="translate(101.65 374.04)"><tspan x="0" y="0">GOVERNANCE</tspan></text>
+  <text class="st7" transform="translate(101.65 392.89)"><tspan x="0" y="0">AI ethics · policy · risk · audit · safety · regulatory affairs</tspan></text>
+  <text class="st10" transform="translate(101.65 409.52)"><tspan x="0" y="0">NCR · Bengaluru · Mumbai (concentrated)</tspan></text>
+  <text class="st1" transform="translate(442.55 393.96)"><tspan x="0" y="0">Low thousands today → 100–200k by 2030</tspan></text>
+  <path class="st22" d="M641.79,423.05V130.47"/>
+  <path class="st22" d="M639.79,134.47l2-4,2,4"/>
+  <text class="st11" transform="translate(644.86 267.76)"><tspan x="0" y="0">VALUE</tspan></text>
+  <text class="st11" transform="translate(644.86 277.84)"><tspan x="0" y="0">FLOWS</tspan></text>
+  <text class="st11" transform="translate(644.86 287.92)"><tspan x="0" y="0">UP</tspan></text>
+  <text class="st8" transform="translate(15.67 31.55)"><tspan x="0" y="0">The four-layer Talent Stack — India</tspan></text>
+  <text class="st13" transform="translate(15.22 53.6)"><tspan x="0" y="0">Each layer has distinct demand dynamics, education requirements and policy levers</tspan></text>
+  <text class="st5" transform="translate(564.51 13.28)"><tspan x="0" y="0">Figure 19 · Techadyant Labs · 2026</tspan></text>
+  <text class="st3" transform="translate(7.2 487.04)"><tspan x="0" y="0">Source: NASSCOM-Deloitte 2024; NASSCOM-BCG 2024; EY GCC Pulse 2025; Techadyant Labs framework.</tspan></text>
+</svg>

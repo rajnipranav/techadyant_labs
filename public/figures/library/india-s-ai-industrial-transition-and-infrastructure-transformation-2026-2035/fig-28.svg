@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800.64 462.06">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        clip-path: url(#clippath-34);
+      }
+
+      .st1 {
+        stroke-linecap: square;
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8 {
+        stroke: #0f1828;
+      }
+
+      .st1, .st9, .st10, .st11, .st12 {
+        fill: none;
+      }
+
+      .st1, .st13, .st12 {
+        stroke-width: .8px;
+      }
+
+      .st14 {
+        clip-path: url(#clippath-21);
+      }
+
+      .st15 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st16 {
+        clip-path: url(#clippath-7);
+      }
+
+      .st17 {
+        clip-path: url(#clippath-17);
+      }
+
+      .st18 {
+        clip-path: url(#clippath-31);
+      }
+
+      .st19 {
+        clip-path: url(#clippath-15);
+      }
+
+      .st20 {
+        clip-path: url(#clippath-33);
+      }
+
+      .st21 {
+        clip-path: url(#clippath-18);
+      }
+
+      .st22 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st23 {
+        clip-path: url(#clippath-22);
+      }
+
+      .st24 {
+        clip-path: url(#clippath-23);
+      }
+
+      .st2 {
+        fill: #95e2d9;
+      }
+
+      .st2, .st25, .st26, .st27, .st3, .st28, .st29, .st30, .st4, .st5, .st31, .st7, .st32, .st8, .st33 {
+        isolation: isolate;
+      }
+
+      .st2, .st3, .st4, .st5, .st7, .st8 {
+        opacity: .92;
+        stroke-width: .4px;
+      }
+
+      .st34 {
+        clip-path: url(#clippath-9);
+      }
+
+      .st35 {
+        clip-path: url(#clippath-10);
+      }
+
+      .st25 {
+        font-size: 11px;
+      }
+
+      .st25, .st27, .st28, .st29, .st30, .st31, .st33 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st25, .st29, .st30, .st6, .st7 {
+        fill: #0f1828;
+      }
+
+      .st36, .st31 {
+        fill: #fbf9f4;
+      }
+
+      .st37 {
+        fill: #fff;
+      }
+
+      .st9 {
+        stroke-dasharray: 1 1.65;
+      }
+
+      .st9, .st13, .st11 {
+        stroke: #4a5567;
+      }
+
+      .st9, .st13, .st11, .st12 {
+        stroke-linejoin: round;
+      }
+
+      .st9, .st11 {
+        stroke-opacity: .6;
+      }
+
+      .st38 {
+        clip-path: url(#clippath-25);
+      }
+
+      .st26, .st13, .st28, .st32, .st33 {
+        fill: #4a5567;
+      }
+
+      .st26, .st27 {
+        font-size: 8px;
+      }
+
+      .st26, .st32 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st39 {
+        clip-path: url(#clippath-27);
+      }
+
+      .st40 {
+        clip-path: url(#clippath-11);
+      }
+
+      .st27 {
+        fill: #c0c5cc;
+      }
+
+      .st41 {
+        clip-path: url(#clippath-28);
+      }
+
+      .st42 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st43 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st44 {
+        clip-path: url(#clippath-20);
+      }
+
+      .st45 {
+        clip-path: url(#clippath-8);
+      }
+
+      .st11 {
+        stroke-dasharray: 3.7 1.6;
+      }
+
+      .st3 {
+        fill: #e4d3a6;
+      }
+
+      .st28 {
+        font-size: 9px;
+      }
+
+      .st29 {
+        font-size: 15px;
+      }
+
+      .st46 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st47 {
+        clip-path: url(#clippath-26);
+      }
+
+      .st48 {
+        clip-path: url(#clippath-12);
+      }
+
+      .st49 {
+        clip-path: url(#clippath-14);
+      }
+
+      .st50 {
+        stroke: #2bc5b4;
+      }
+
+      .st50, .st5 {
+        fill: #2bc5b4;
+      }
+
+      .st30 {
+        font-size: 8.5px;
+      }
+
+      .st51 {
+        clip-path: url(#clippath-30);
+      }
+
+      .st52 {
+        clip-path: url(#clippath-19);
+      }
+
+      .st4 {
+        fill: #878b95;
+      }
+
+      .st53 {
+        clip-path: url(#clippath-32);
+      }
+
+      .st54 {
+        stroke: #c9a84c;
+      }
+
+      .st54, .st8 {
+        fill: #c9a84c;
+      }
+
+      .st12 {
+        stroke: #c0c5cc;
+        stroke-dasharray: 2.96 1.28;
+        stroke-opacity: .4;
+      }
+
+      .st55 {
+        clip-path: url(#clippath-16);
+      }
+
+      .st56 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st57 {
+        clip-path: url(#clippath-29);
+      }
+
+      .st58 {
+        clip-path: url(#clippath-13);
+      }
+
+      .st31 {
+        font-size: 7px;
+      }
+
+      .st59 {
+        clip-path: url(#clippath-24);
+      }
+
+      .st32 {
+        font-size: 10.5px;
+      }
+
+      .st60 {
+        clip-path: url(#clippath);
+      }
+
+      .st33 {
+        font-size: 10px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-24">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-25">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-26">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-27">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-28">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-29">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-30">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-31">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-32">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-33">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+    <clipPath id="clippath-34">
+      <rect class="st10" x="171.36" y="64.76" width="622.08" height="341.64"/>
+    </clipPath>
+  </defs>
+  <path class="st36" d="M0,462.06h800.64V0H0v462.06Z"/>
+  <path class="st37" d="M171.36,406.4h622.08V64.76H171.36v341.64Z"/>
+  <g class="st60">
+    <path class="st8" d="M171.36,80.29h577.65v13.61H171.36v-13.61Z"/>
+  </g>
+  <g class="st42">
+    <path class="st3" d="M531.28,105.04h217.73v13.61h-217.73v-13.61Z"/>
+  </g>
+  <g class="st56">
+    <path class="st8" d="M393.53,129.78h355.47v13.61h-355.47v-13.61Z"/>
+  </g>
+  <g class="st46">
+    <path class="st2" d="M260.23,154.53h266.61v13.61h-266.61v-13.61Z"/>
+  </g>
+  <g class="st22">
+    <path class="st5" d="M569.05,179.28h179.96v13.61h-179.96v-13.61Z"/>
+  </g>
+  <g class="st43">
+    <path class="st5" d="M533.5,204.03h126.64v13.61h-126.64v-13.61Z"/>
+  </g>
+  <g class="st15">
+    <path class="st5" d="M584.6,228.77h164.41v13.61h-164.41v-13.61Z"/>
+  </g>
+  <g class="st16">
+    <path class="st7" d="M517.95,253.52h142.19v13.61h-142.19v-13.61Z"/>
+  </g>
+  <g class="st45">
+    <path class="st3" d="M282.45,278.27h466.56v13.61h-466.56v-13.61Z"/>
+  </g>
+  <g class="st34">
+    <path class="st5" d="M584.6,303.02h164.41v13.61h-164.41v-13.61Z"/>
+  </g>
+  <g class="st35">
+    <path class="st4" d="M504.62,327.76h244.39v13.61h-244.39v-13.61Z"/>
+  </g>
+  <g class="st40">
+    <path class="st8" d="M393.53,352.51h266.61v13.61h-266.61v-13.61Z"/>
+  </g>
+  <g class="st48">
+    <path class="st8" d="M549.05,377.26h199.95v13.61h-199.95v-13.61Z"/>
+  </g>
+  <g class="st58">
+    <path class="st12" d="M215.79,406.4V64.76"/>
+  </g>
+  <path id="m783d1feacb" class="st13" d="M215.79,406.4v3.5"/>
+  <text class="st33" transform="translate(203.07 421)"><tspan x="0" y="0">2018</tspan></text>
+  <g class="st49">
+    <path class="st12" d="M304.66,406.4V64.76"/>
+  </g>
+  <path id="m783d1feacb1" data-name="m783d1feacb" class="st13" d="M304.66,406.4v3.5"/>
+  <text class="st33" transform="translate(291.94 421)"><tspan x="0" y="0">2020</tspan></text>
+  <g class="st19">
+    <path class="st12" d="M393.53,406.4V64.76"/>
+  </g>
+  <path id="m783d1feacb2" data-name="m783d1feacb" class="st13" d="M393.53,406.4v3.5"/>
+  <text class="st33" transform="translate(380.81 421)"><tspan x="0" y="0">2022</tspan></text>
+  <g class="st55">
+    <path class="st12" d="M482.4,406.4V64.76"/>
+  </g>
+  <path id="m783d1feacb3" data-name="m783d1feacb" class="st13" d="M482.4,406.4v3.5"/>
+  <text class="st33" transform="translate(469.68 421)"><tspan x="0" y="0">2024</tspan></text>
+  <g class="st17">
+    <path class="st12" d="M571.27,406.4V64.76"/>
+  </g>
+  <path id="m783d1feacb4" data-name="m783d1feacb" class="st13" d="M571.27,406.4v3.5"/>
+  <text class="st33" transform="translate(558.54 421)"><tspan x="0" y="0">2026</tspan></text>
+  <g class="st21">
+    <path class="st12" d="M660.14,406.4V64.76"/>
+  </g>
+  <path id="m783d1feacb5" data-name="m783d1feacb" class="st13" d="M660.14,406.4v3.5"/>
+  <text class="st33" transform="translate(647.41 421)"><tspan x="0" y="0">2028</tspan></text>
+  <g class="st52">
+    <path class="st12" d="M749.01,406.4V64.76"/>
+  </g>
+  <path id="m783d1feacb6" data-name="m783d1feacb" class="st13" d="M749.01,406.4v3.5"/>
+  <text class="st33" transform="translate(736.28 421)"><tspan x="0" y="0">2030</tspan></text>
+  <text class="st25" transform="translate(470.75 435.44)"><tspan x="0" y="0">Year</tspan></text>
+  <g class="st44">
+    <path class="st12" d="M171.36,87.09h622.08"/>
+  </g>
+  <path id="m60f2a35391" class="st13" d="M171.36,87.09h-3.5"/>
+  <text class="st28" transform="translate(38.53 90.51)"><tspan x="0" y="0">AWS Mumbai (Asia-South 1)</tspan></text>
+  <g class="st14">
+    <path class="st12" d="M171.36,111.84h622.08"/>
+  </g>
+  <path id="m60f2a353911" data-name="m60f2a35391" class="st13" d="M171.36,111.84h-3.5"/>
+  <text class="st28" transform="translate(56.73 115.26)"><tspan x="0" y="0">AWS expansion (Jan-25)</tspan></text>
+  <g class="st23">
+    <path class="st12" d="M171.36,136.59h622.08"/>
+  </g>
+  <path id="m60f2a353912" data-name="m60f2a35391" class="st13" d="M171.36,136.59h-3.5"/>
+  <text class="st28" transform="translate(60.4 140.01)"><tspan x="0" y="0">AWS Hyderabad region</tspan></text>
+  <g class="st24">
+    <path class="st12" d="M171.36,161.34h622.08"/>
+  </g>
+  <path id="m60f2a353913" data-name="m60f2a35391" class="st13" d="M171.36,161.34h-3.5"/>
+  <text class="st28" transform="translate(24.54 164.76)"><tspan x="0" y="0">Microsoft India (pre-expansion)</tspan></text>
+  <g class="st59">
+    <path class="st12" d="M171.36,186.08h622.08"/>
+  </g>
+  <path id="m60f2a353914" data-name="m60f2a35391" class="st13" d="M171.36,186.08h-3.5"/>
+  <text class="st28" transform="translate(32.51 189.5)"><tspan x="0" y="0">Microsoft expansion (Dec-25)</tspan></text>
+  <g class="st38">
+    <path class="st12" d="M171.36,210.83h622.08"/>
+  </g>
+  <path id="m60f2a353915" data-name="m60f2a35391" class="st13" d="M171.36,210.83h-3.5"/>
+  <text class="st28" transform="translate(18.96 214.25)"><tspan x="0" y="0">Microsoft Hyderabad Gachibowli</tspan></text>
+  <g class="st47">
+    <path class="st12" d="M171.36,235.58h622.08"/>
+  </g>
+  <path id="m60f2a353916" data-name="m60f2a35391" class="st13" d="M171.36,235.58h-3.5"/>
+  <text class="st28" transform="translate(28.28 239)"><tspan x="0" y="0">Google Visakhapatnam AI hub</tspan></text>
+  <g class="st39">
+    <path class="st12" d="M171.36,260.33h622.08"/>
+  </g>
+  <path id="m60f2a353917" data-name="m60f2a35391" class="st13" d="M171.36,260.33h-3.5"/>
+  <text class="st28" transform="translate(45.79 263.75)"><tspan x="0" y="0">Reliance-NVIDIA Jamnagar</tspan></text>
+  <g class="st41">
+    <path class="st12" d="M171.36,285.07h622.08"/>
+  </g>
+  <path id="m60f2a353918" data-name="m60f2a35391" class="st13" d="M171.36,285.07h-3.5"/>
+  <text class="st28" transform="translate(29.51 288.49)"><tspan x="0" y="0">Oracle Mumbai (Asia-South 1)</tspan></text>
+  <g class="st57">
+    <path class="st12" d="M171.36,309.82h622.08"/>
+  </g>
+  <path id="m60f2a353919" data-name="m60f2a35391" class="st13" d="M171.36,309.82h-3.5"/>
+  <text class="st28" transform="translate(31.33 313.24)"><tspan x="0" y="0">AdaniConneX Visakhapatnam</tspan></text>
+  <g class="st51">
+    <path class="st12" d="M171.36,334.57h622.08"/>
+  </g>
+  <path id="m60f2a3539110" data-name="m60f2a35391" class="st13" d="M171.36,334.57h-3.5"/>
+  <text class="st28" transform="translate(42.24 337.99)"><tspan x="0" y="0">CtrlS Chandan Valley (Hyd)</tspan></text>
+  <g class="st18">
+    <path class="st12" d="M171.36,359.32h622.08"/>
+  </g>
+  <path id="m60f2a3539111" data-name="m60f2a35391" class="st13" d="M171.36,359.32h-3.5"/>
+  <text class="st28" transform="translate(56.13 362.74)"><tspan x="0" y="0">Yotta NM1 + Hyderabad</tspan></text>
+  <g class="st53">
+    <path class="st12" d="M171.36,384.06h622.08"/>
+  </g>
+  <path id="m60f2a3539112" data-name="m60f2a35391" class="st13" d="M171.36,384.06h-3.5"/>
+  <text class="st28" transform="translate(57.97 387.48)"><tspan x="0" y="0">NTT NAV2 Navi Mumbai</tspan></text>
+  <g class="st20">
+    <path class="st11" d="M571.27,406.4V64.76"/>
+  </g>
+  <g class="st0">
+    <path class="st9" d="M749.01,406.4V64.76"/>
+  </g>
+  <path class="st1" d="M171.36,406.4V64.76"/>
+  <path class="st1" d="M171.36,406.4h622.08"/>
+  <text class="st31" transform="translate(431.07 89.02)"><tspan x="0" y="0">$4.4B baseline</tspan></text>
+  <text class="st31" transform="translate(604.01 113.77)"><tspan x="0" y="0">$8.3B incremental</tspan></text>
+  <text class="st31" transform="translate(546.23 138.52)"><tspan x="0" y="0">Asia-South 2</tspan></text>
+  <text class="st31" transform="translate(365.25 163.27)"><tspan x="0" y="0">~$3B baseline</tspan></text>
+  <text class="st31" transform="translate(627.8 188.02)"><tspan x="0" y="0">$17.5B (4 sites)</tspan></text>
+  <text class="st31" transform="translate(569.13 212.76)"><tspan x="0" y="0">$1.8B campus</tspan></text>
+  <text class="st31" transform="translate(610.34 237.51)"><tspan x="0" y="0">$15B, 3 campuses, GW-scale</tspan></text>
+  <text class="st31" transform="translate(554.91 262.26)"><tspan x="0" y="0">1-2 GW Blackwell</tspan></text>
+  <text class="st31" transform="translate(456.67 286.98)"><tspan x="0" y="0">Database@Google live Dec-25</tspan></text>
+  <text class="st31" transform="translate(616.92 311.75)"><tspan x="0" y="0">200 MW → 1 GW platform</tspan></text>
+  <text class="st31" transform="translate(594.23 336.5)"><tspan x="0" y="0">612 MW Rated-4</tspan></text>
+  <text class="st31" transform="translate(467.94 361.22)"><tspan x="0" y="0">160 MW NM1 + 50 MW Hyd AI</tspan></text>
+  <text class="st31" transform="translate(633.16 386)"><tspan x="0" y="0">500 MW</tspan></text>
+  <text class="st26" transform="translate(562.56 60.81)"><tspan x="0" y="0">Now</tspan></text>
+  <text class="st26" transform="translate(548.43 69.77)"><tspan x="0" y="0">(May 2026)</tspan></text>
+  <text class="st26" transform="translate(711.98 60.81)"><tspan x="0" y="0">2030 commitment</tspan></text>
+  <text class="st26" transform="translate(734.19 69.77)"><tspan x="0" y="0">horizon</tspan></text>
+  <path class="st54" d="M561.51,372.03h17v-5.95h-17v5.95Z"/>
+  <text class="st30" transform="translate(585.31 372.03)"><tspan x="0" y="0">AWS / Oracle / Yotta / NTT</tspan></text>
+  <path class="st50" d="M561.51,384.5h17v-5.95h-17v5.95Z"/>
+  <text class="st30" transform="translate(585.31 384.5)"><tspan x="0" y="0">Microsoft / Google / AdaniConneX (rising coast)</tspan></text>
+  <path class="st6" d="M561.51,396.98h17v-5.95h-17v5.95Z"/>
+  <text class="st30" transform="translate(585.31 396.98)"><tspan x="0" y="0">Reliance / CtrlS / Indian-led</tspan></text>
+  <text class="st29" transform="translate(7.2 24.68)"><tspan x="0" y="0">Hyperscaler India investment timeline — 2017 to 2030</tspan></text>
+  <text class="st32" transform="translate(7.2 42)"><tspan x="0" y="0">Active commitments by provider and project; bar length = years operational or contracted</tspan></text>
+  <text class="st27" transform="translate(627.87 13.28)"><tspan x="0" y="0">Figure 28 · Techadyant Labs · 2026</tspan></text>
+  <text class="st26" transform="translate(7.2 453.2)"><tspan x="0" y="0">Source: AWS / Microsoft / Google / Oracle press releases 2017-2025; NVIDIA Newsroom Oct 2024; operator filings (NTT, Yotta, CtrlS, AdaniConneX, Reliance).</tspan></text>
+</svg>

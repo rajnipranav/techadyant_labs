@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 900 600">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3 {
+        fill: none;
+      }
+
+      .st0, .st2, .st3 {
+        stroke-width: 2.5px;
+      }
+
+      .st0, .st4 {
+        stroke: #c9a84c;
+      }
+
+      .st1 {
+        stroke: #d8d3c7;
+        stroke-width: .97px;
+      }
+
+      .st2, .st5 {
+        stroke: #1fa89a;
+      }
+
+      .st6 {
+        font-size: 11.5px;
+      }
+
+      .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13 {
+        isolation: isolate;
+      }
+
+      .st6, .st7, .st9, .st11 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st6, .st9 {
+        fill: #4a5567;
+      }
+
+      .st3, .st14 {
+        stroke: #c8443b;
+      }
+
+      .st7 {
+        fill: #8a8576;
+      }
+
+      .st7, .st8, .st11 {
+        font-size: 11px;
+      }
+
+      .st15, .st11 {
+        fill: #c9a84c;
+      }
+
+      .st4, .st14, .st5 {
+        fill: #f7f5ef;
+        stroke-width: 2px;
+      }
+
+      .st16 {
+        fill: #1fa89a;
+      }
+
+      .st8, .st17, .st10, .st13 {
+        fill: #0f1828;
+      }
+
+      .st8, .st10, .st12, .st13 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st9 {
+        font-size: 14px;
+      }
+
+      .st10 {
+        font-size: 26px;
+      }
+
+      .st12 {
+        fill: #fff;
+        font-size: 13px;
+      }
+
+      .st13 {
+        font-size: 15px;
+      }
+
+      .st18 {
+        fill: #c8443b;
+      }
+    </style>
+  </defs>
+  <rect class="st17" x="-2.49" y="1.4" width="902.49" height="6.55"/>
+  <rect class="st15" x="-2.49" y="7.95" width="902.49" height="2.46"/>
+  <text class="st10" transform="translate(21.53 58.79)"><tspan x="0" y="0">India 2035: Three Battlefield-Automation Futures</tspan></text>
+  <text class="st9" transform="translate(21.53 84.79)"><tspan x="0" y="0">The difference is execution — coordinated demand, testing and trusted components — not ambition</tspan></text>
+  <line class="st1" x1="9.53" y1="100.29" x2="873.93" y2="100.29"/>
+  <rect class="st17" x="22.16" y="230.4" width="150" height="60" rx="8" ry="8"/>
+  <text class="st12" transform="translate(65.72 258.4)"><tspan x="0" y="0">India 2026</tspan></text>
+  <text class="st11" transform="translate(57.42 276.4)"><tspan x="0" y="0">decisive window</tspan></text>
+  <path class="st3" d="M172.16,260.4c110,0,140-110,200-110"/>
+  <rect class="st14" x="372.16" y="120.4" width="480" height="62" rx="8" ry="8"/>
+  <rect class="st18" x="372.16" y="120.4" width="7" height="62"/>
+  <text class="st13" transform="translate(392.16 146.4)"><tspan x="0" y="0">Slow Adaptation</tspan></text>
+  <text class="st6" transform="translate(392.16 166.4)"><tspan x="0" y="0">Scattered pilots, imported critical components, weak validation. Highest risk.</tspan></text>
+  <path class="st0" d="M172.16,260.4c110,0,140,60,200,60"/>
+  <rect class="st4" x="372.16" y="290.4" width="480" height="62" rx="8" ry="8"/>
+  <rect class="st15" x="372.16" y="290.4" width="7" height="62"/>
+  <text class="st13" transform="translate(392.16 316.4)"><tspan x="0" y="0">Managed Transition</tspan></text>
+  <text class="st6" transform="translate(392.16 336.4)"><tspan x="0" y="0">Strong selected layers — drones, edge AI, test services, dual-use robotics. Most likely.</tspan></text>
+  <path class="st2" d="M172.16,260.4c110,0,140,230,200,230"/>
+  <rect class="st5" x="372.16" y="460.4" width="480" height="62" rx="8" ry="8"/>
+  <rect class="st16" x="372.16" y="460.4" width="7" height="62"/>
+  <text class="st13" transform="translate(392.16 486.4)"><tspan x="0" y="0">Autonomous Capability Leader</tspan></text>
+  <text class="st6" transform="translate(392.16 506.4)"><tspan x="0" y="0">Trusted-source control of key components, export-ready systems. Least likely.</tspan></text>
+  <line class="st1" x1="9.53" y1="553.13" x2="873.93" y2="553.13"/>
+  <text class="st7" transform="translate(18.67 575.13)"><tspan x="0" y="0">Techadyant Labs scenario model. Probability-weighted outcome: a selective autonomy node, not a peer of China.</tspan></text>
+  <text class="st8" transform="translate(744.21 575.13)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+</svg>

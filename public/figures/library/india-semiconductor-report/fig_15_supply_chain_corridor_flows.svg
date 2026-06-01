@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1200 800">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st2, .st3, .st7, .st10 {
+        opacity: .45;
+      }
+
+      .st0, .st14 {
+        fill: #14b8a6;
+      }
+
+      .st15, .st7 {
+        fill: #2e6497;
+      }
+
+      .st1, .st16 {
+        fill: #0b1b3b;
+      }
+
+      .st2, .st17, .st13 {
+        fill: #c9a84c;
+      }
+
+      .st3, .st18 {
+        fill: #6d28d9;
+      }
+
+      .st4, .st5, .st9 {
+        font-size: 13px;
+      }
+
+      .st4, .st6, .st12 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st4, .st12 {
+        fill: #6b7280;
+      }
+
+      .st19, .st10 {
+        fill: #ef4444;
+      }
+
+      .st5 {
+        letter-spacing: .04em;
+      }
+
+      .st5, .st8, .st9, .st11, .st13 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st5, .st9 {
+        fill: #111827;
+      }
+
+      .st6 {
+        fill: #e5e7eb;
+        font-size: 11px;
+      }
+
+      .st8 {
+        font-size: 20px;
+      }
+
+      .st8, .st11 {
+        fill: #fff;
+      }
+
+      .st11 {
+        font-size: 12px;
+      }
+
+      .st12 {
+        font-size: 9px;
+        letter-spacing: .06em;
+      }
+
+      .st13 {
+        font-size: 10px;
+        letter-spacing: .15em;
+      }
+    </style>
+  </defs>
+  <rect class="st16" y="0" width="1200" height="60"/>
+  <text class="st8" transform="translate(42.28 36.49)"><tspan x="0" y="0">Supply Chain Corridor Flows</tspan></text>
+  <text class="st13" transform="translate(1086.9117 26.491)"><tspan x="0" y="0">FIGURE 15</tspan></text>
+  <text class="st6" transform="translate(780.36 46.49)"><tspan x="0" y="0">Input materials · Indian ports · fab clusters · flow widths proportional to value</tspan></text>
+  <text class="st12" transform="translate(90.37 785)"><tspan x="0" y="0">INDIA SEMICONDUCTOR INTELLIGENCE 2026 · WHO REALLY BENEFITS FROM INDIA&apos;S FAB ECOSYSTEM?</tspan></text>
+  <text class="st12" transform="translate(1078.3774 785.1082)"><tspan x="0" y="0">FIG 15 / 30</tspan></text>
+  <path class="st2" d="M290,110h310v44.83c-155,0-155-2.85-310-2.85v-41.98Z"/>
+  <path class="st2" d="M290,151.98c155,0,155,173.78,310,173.78v39.85c-155,0-155-176.32-310-176.32v-37.31Z"/>
+  <path class="st2" d="M290,189.29c155,0,155,329.59,310,329.59v39.85c-155,0-155-332.13-310-332.13v-37.31Z"/>
+  <path class="st7" d="M290,238.6c155,0,155-83.77,310-83.77v36.68c-155,0-155,81.44-310,81.44v-34.34Z"/>
+  <path class="st7" d="M290,272.94c155,0,155,92.66,310,92.66v32.6c-155,0-155-94.74-310-94.74v-30.53Z"/>
+  <path class="st7" d="M290,303.47c155,0,155,255.25,310,255.25v32.6c-155,0-155-257.33-310-257.33v-30.53Z"/>
+  <path class="st1" d="M290,346c155,0,155-154.5,310-154.5v57.05c-155,0-155,150.87-310,150.87v-53.42Z"/>
+  <path class="st1" d="M290,399.42c155,0,155-1.22,310-1.22v50.71c-155,0-155-2.01-310-2.01v-47.49Z"/>
+  <path class="st1" d="M290,446.91c155,0,155,144.42,310,144.42v50.71c-155,0-155-147.64-310-147.64v-47.49Z"/>
+  <path class="st10" d="M290,506.4c155,0,155-257.84,310-257.84v24.45c-155,0-155,256.29-310,256.29v-22.9Z"/>
+  <path class="st10" d="M290,529.3c155,0,155-80.37,310-80.37v21.73c-155,0-155,78.99-310,78.99v-20.35Z"/>
+  <path class="st10" d="M290,549.65c155,0,155,92.39,310,92.39v21.73c-155,0-155-93.78-310-93.78v-20.35Z"/>
+  <path class="st7" d="M290,582c155,0,155-308.99,310-308.99v24.45c-155,0-155,307.44-310,307.44v-22.9Z"/>
+  <path class="st7" d="M290,604.9c155,0,155-134.24,310-134.24v21.73c-155,0-155,132.86-310,132.86v-20.35Z"/>
+  <path class="st7" d="M290,625.25c155,0,155,38.53,310,38.53v21.73c-155,0-155-39.91-310-39.91v-20.35Z"/>
+  <path class="st3" d="M290,657.6c155,0,155-360.14,310-360.14v16.3c-155,0-155,359.1-310,359.1v-15.26Z"/>
+  <path class="st3" d="M290,672.86c155,0,155-180.47,310-180.47v14.49c-155,0-155,179.55-310,179.55v-13.57Z"/>
+  <path class="st3" d="M290,686.43c155,0,155-.92,310-.92v14.49h-310v-13.57Z"/>
+  <path class="st1" d="M670,110h310v75.79c-155,0-155,1.64-310,1.64v-77.43Z"/>
+  <path class="st1" d="M670,187.43c155,0,155,145.09,310,145.09v43.88c-155,0-155-144.14-310-144.14v-44.83Z"/>
+  <path class="st1" d="M670,232.26c155,0,155,234.14,310,234.14v35.9c-155,0-155-233.37-310-233.37v-36.68Z"/>
+  <path class="st1" d="M670,268.93c155,0,155,309.19,310,309.19v43.88c-155,0-155-308.24-310-308.24v-44.83Z"/>
+  <path class="st7" d="M670,325.76c155,0,155-139.97,310-139.97v67.37c-155,0-155,141.43-310,141.43v-68.83Z"/>
+  <path class="st7" d="M670,394.59c155,0,155-18.19,310-18.19v39c-155,0-155,19.03-310,19.03v-39.85Z"/>
+  <path class="st7" d="M670,434.43c155,0,155,67.87,310,67.87v31.91c-155,0-155-67.18-310-67.18v-32.6Z"/>
+  <path class="st7" d="M670,467.03c155,0,155,154.96,310,154.96v39c-155,0-155-154.12-310-154.12v-39.85Z"/>
+  <path class="st0" d="M670,518.88c155,0,155-265.73,310-265.73v67.37c-155,0-155,267.19-310,267.19v-68.83Z"/>
+  <path class="st0" d="M670,587.71c155,0,155-172.31,310-172.31v39c-155,0-155,173.15-310,173.15v-39.85Z"/>
+  <path class="st0" d="M670,627.55c155,0,155-93.34,310-93.34v31.91c-155,0-155,94.03-310,94.03v-32.6Z"/>
+  <path class="st0" d="M670,660.15c155,0,155,.84,310,.84v39h-310v-39.85Z"/>
+  <text class="st5" transform="translate(181.55 95)"><tspan x="0" y="0">SOURCE COUNTRIES</tspan></text>
+  <rect class="st17" x="220" y="110" width="70" height="116.6" rx="6" ry="6"/>
+  <text class="st9" transform="translate(64.26 172.3)"><tspan x="0" y="0">Japan resist (JSR, TOK)</tspan></text>
+  <rect class="st15" x="220" y="238.6" width="70" height="95.4" rx="6" ry="6"/>
+  <text class="st9" transform="translate(41.87 290.3)"><tspan x="0" y="0">Korea wafers (Shin-Etsu KR)</tspan></text>
+  <rect class="st16" x="220" y="346" width="70" height="148.4" rx="6" ry="6"/>
+  <text class="st9" transform="translate(41.33 424.2)"><tspan x="0" y="0">USA equipment (AMAT, Lam)</tspan></text>
+  <rect class="st19" x="220" y="506.4" width="70" height="63.6" rx="6" ry="6"/>
+  <text class="st9" transform="translate(95.74 542.2)"><tspan x="0" y="0">China rare earths</tspan></text>
+  <rect class="st15" x="220" y="582" width="70" height="63.6" rx="6" ry="6"/>
+  <text class="st9" transform="translate(67.4 617.8)"><tspan x="0" y="0">Germany chem (Merck)</tspan></text>
+  <rect class="st18" x="220" y="657.6" width="70" height="42.4" rx="6" ry="6"/>
+  <text class="st9" transform="translate(97.05 682.8)"><tspan x="0" y="0">Taiwan substrate</tspan></text>
+  <text class="st5" transform="translate(580.58 95)"><tspan x="0" y="0">INDIAN PORTS</tspan></text>
+  <rect class="st16" x="600" y="110" width="70" height="203.76" rx="6" ry="6"/>
+  <text class="st11" transform="translate(548.89 220.88)"><tspan x="0" y="0">Mundra</tspan></text>
+  <rect class="st15" x="600" y="325.76" width="70" height="181.12" rx="6" ry="6"/>
+  <text class="st11" transform="translate(559.44 425.32)"><tspan x="0" y="0">JNPT</tspan></text>
+  <rect class="st14" x="600" y="518.88" width="70" height="181.12" rx="6" ry="6"/>
+  <text class="st11" transform="translate(545.55 618.44)"><tspan x="0" y="0">Chennai</tspan></text>
+  <text class="st5" transform="translate(936.63 95)"><tspan x="0" y="0">FAB / OSAT CLUSTERS</tspan></text>
+  <rect class="st16" x="980" y="110" width="70" height="210.52" rx="6" ry="6"/>
+  <text class="st9" transform="translate(1058 219.26)"><tspan x="0" y="0">Dholera</tspan></text>
+  <rect class="st14" x="980" y="332.52" width="70" height="121.88" rx="6" ry="6"/>
+  <text class="st9" transform="translate(1058 397.46)"><tspan x="0" y="0">Sanand</tspan></text>
+  <rect class="st17" x="980" y="466.4" width="70" height="99.72" rx="6" ry="6"/>
+  <text class="st9" transform="translate(1058 520.26)"><tspan x="0" y="0">Jagiroad</tspan></text>
+  <rect class="st15" x="980" y="578.12" width="70" height="121.88" rx="6" ry="6"/>
+  <text class="st9" transform="translate(1058 643.06)"><tspan x="0" y="0">Sriperumbudur</tspan></text>
+  <text class="st4" transform="translate(408.38 738.16)"><tspan x="0" y="0">Annualised inbound material flows · illustrative shares · USD billions equivalent</tspan></text>
+</svg>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1600 750">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 24.37px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st4, .st5, .st7, .st10, .st11, .st12, .st15, .st17, .st18, .st19, .st21 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st0, .st4, .st5, .st7, .st10, .st11, .st12, .st15, .st17, .st18, .st21 {
+        fill: #0f1828;
+      }
+
+      .st22, .st2, .st3, .st6, .st8, .st9, .st13, .st16, .st20 {
+        fill: #4a5567;
+      }
+
+      .st1 {
+        font-size: 22px;
+      }
+
+      .st1, .st23, .st24, .st25 {
+        fill: #c8443b;
+      }
+
+      .st2 {
+        font-size: 18px;
+      }
+
+      .st2, .st3, .st6, .st9, .st13, .st16, .st20 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st3 {
+        font-size: 23.5px;
+      }
+
+      .st4 {
+        font-size: 24.55px;
+      }
+
+      .st5 {
+        font-size: 29px;
+      }
+
+      .st6 {
+        font-size: 23.5px;
+      }
+
+      .st26 {
+        fill: #fbf9f4;
+      }
+
+      .st7, .st19 {
+        font-size: 24px;
+      }
+
+      .st8 {
+        font-family: CourierNewPSMT, 'Courier New';
+      }
+
+      .st8, .st9 {
+        font-size: 13px;
+      }
+
+      .st27 {
+        fill: none;
+      }
+
+      .st10 {
+        font-size: 24.37px;
+      }
+
+      .st11 {
+        font-size: 20.05px;
+        letter-spacing: .05em;
+      }
+
+      .st28, .st29, .st30, .st31, .st24, .st32 {
+        stroke: #4a5567;
+      }
+
+      .st28, .st30, .st31, .st24, .st32 {
+        stroke-opacity: .4;
+        stroke-width: 1.2px;
+      }
+
+      .st28, .st33 {
+        fill: #2bc5b4;
+      }
+
+      .st12 {
+        font-size: 20.02px;
+        letter-spacing: .05em;
+      }
+
+      .st34, .st30, .st14 {
+        fill: #c9a84c;
+      }
+
+      .st13 {
+        font-size: 23.54px;
+      }
+
+      .st29 {
+        stroke-opacity: .25;
+        stroke-width: .95px;
+      }
+
+      .st29, .st32, .st19 {
+        fill: #fff;
+      }
+
+      .st14 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st14, .st16 {
+        font-size: 12px;
+      }
+
+      .st15 {
+        letter-spacing: .05em;
+      }
+
+      .st15, .st21 {
+        font-size: 20.16px;
+      }
+
+      .st31, .st35 {
+        fill: #e8e5dd;
+      }
+
+      .st23 {
+        fill-opacity: .12;
+        stroke: #c8443b;
+        stroke-width: 1.28px;
+      }
+
+      .st17 {
+        font-size: 20.02px;
+        letter-spacing: .05em;
+      }
+
+      .st18 {
+        font-size: 24.41px;
+      }
+
+      .st20 {
+        font-size: 23.67px;
+      }
+
+      .st21 {
+        letter-spacing: .05em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2">
+    <rect class="st26" x="-.41" width="1600" height="750"/>
+  </g>
+  <g id="Layer_3">
+    <rect class="st29" x="49.59" y="119.6" width="360" height="508.92" rx="8" ry="8"/>
+    <rect class="st35" x="49.59" y="119.6" width="360" height="64" rx="8" ry="8"/>
+    <rect class="st35" x="49.59" y="159.6" width="360" height="24"/>
+    <rect class="st29" x="429.59" y="119.6" width="360" height="508.92" rx="8" ry="8"/>
+    <rect class="st25" x="429.59" y="119.6" width="360" height="64" rx="8" ry="8"/>
+    <rect class="st25" x="429.59" y="159.6" width="360" height="24"/>
+    <rect class="st29" x="809.59" y="119.6" width="360" height="508.92" rx="8" ry="8"/>
+    <rect class="st34" x="809.59" y="119.6" width="360" height="64" rx="8" ry="8"/>
+    <rect class="st34" x="809.59" y="159.6" width="360" height="24"/>
+    <rect class="st29" x="1189.59" y="119.6" width="360" height="508.92" rx="8" ry="8"/>
+    <rect class="st33" x="1189.59" y="119.6" width="360" height="64" rx="8" ry="8"/>
+    <rect class="st33" x="1189.59" y="159.6" width="360" height="24"/>
+  </g>
+  <g id="Layer_1">
+    <text class="st9" transform="translate(1404.0142 51.4854)"><tspan x="0" y="0">Techadyant Labs · 2026</tspan></text>
+    <text class="st5" transform="translate(62.4 51.49)"><tspan x="0" y="0">The Four Chokepoints of mineral value</tspan></text>
+    <text class="st2" transform="translate(60.13 90.86)"><tspan x="0" y="0">Where leverage concentrates — and where India is weakest</tspan></text>
+    <text class="st16" transform="translate(49.59 717.67)"><tspan x="0" y="0">Source: IEA Global Critical Minerals Outlook 2025; USGS; Techadyant Labs analysis.</tspan></text>
+    <text class="st14" transform="translate(1377.5252 723.902)"><tspan x="0" y="0">Framework · Techadyant Labs</tspan></text>
+    <text class="st7" transform="translate(59 144)"><tspan x="0" y="0">C1</tspan></text>
+    <text class="st7" transform="translate(171.79 166)"><tspan x="0" y="0">Extraction</tspan></text>
+    <text class="st13" transform="translate(86 221.62)"><tspan x="0" y="0">Mining ore, beach-sand</tspan></text>
+    <text class="st13" transform="translate(86 256.49)"><tspan x="0" y="0">monazite, brine</tspan></text>
+    <text class="st11" transform="translate(86 315.78)"><tspan x="0" y="0">GLOBAL CONTROL</tspan></text>
+    <text class="st18" transform="translate(86 350.65)"><tspan x="0" y="0">Distributed</tspan></text>
+    <text class="st18" transform="translate(86 383.78)"><tspan x="0" y="0">China ~69% REE mining</tspan></text>
+    <text class="st11" transform="translate(86 441.33)"><tspan x="0" y="0">INDIA POSITION</tspan></text>
+    <text class="st18" transform="translate(86 476.2)"><tspan x="0" y="0">Moderate · weak mining</tspan></text>
+    <text class="st11" transform="translate(86 528.51)"><tspan x="0" y="0">INDIA SCORE</tspan></text>
+    <circle class="st31" cx="81.79" cy="585.4" r="9"/>
+    <circle class="st31" cx="111.79" cy="585.4" r="9"/>
+    <circle class="st32" cx="141.79" cy="585.4" r="9"/>
+    <circle class="st32" cx="171.79" cy="585.4" r="9"/>
+    <circle class="st32" cx="201.79" cy="585.4" r="9"/>
+    <text class="st8" transform="translate(366.39 590.4)"><tspan x="0" y="0">2/5</tspan></text>
+    <path class="st27" d=""/>
+    <path class="st22" d="M412.4,386l14,7-14,7v-14Z"/>
+    <text class="st19" transform="translate(439 144)"><tspan x="0" y="0">C2</tspan></text>
+    <text class="st19" transform="translate(476 166)"><tspan x="0" y="0">Separation &amp; Refining</tspan></text>
+    <text class="st3" transform="translate(466 221.58)"><tspan x="0" y="0">Solvent extraction,</tspan></text>
+    <text class="st3" transform="translate(466 256.4)"><tspan x="0" y="0">oxide &amp; metal purification</tspan></text>
+    <text class="st17" transform="translate(466 315.58)"><tspan x="0" y="0">GLOBAL CONTROL</tspan></text>
+    <text class="st10" transform="translate(466 350.4)"><tspan x="0" y="0">CHINA ~85–92%</tspan></text>
+    <text class="st10" transform="translate(466 383.47)"><tspan x="0" y="0">heavy REE ~99%</tspan></text>
+    <text class="st17" transform="translate(466 440.92)"><tspan x="0" y="0">INDIA POSITION</tspan></text>
+    <text class="st10" transform="translate(466 475.73)"><tspan x="0" y="0">Near-zero at scale</tspan></text>
+    <text class="st17" transform="translate(466 527.96)"><tspan x="0" y="0">INDIA SCORE</tspan></text>
+    <circle class="st24" cx="461.79" cy="585.4" r="9"/>
+    <circle class="st32" cx="491.79" cy="585.4" r="9"/>
+    <circle class="st32" cx="521.79" cy="585.4" r="9"/>
+    <circle class="st32" cx="551.79" cy="585.4" r="9"/>
+    <circle class="st32" cx="581.79" cy="585.4" r="9"/>
+    <text class="st8" transform="translate(746.39 590.4)"><tspan x="0" y="0">1/5</tspan></text>
+    <path class="st27" d=""/>
+    <path class="st22" d="M792.4,386l14,7-14,7v-14Z"/>
+    <text class="st7" transform="translate(819 144)"><tspan x="0" y="0">C3</tspan></text>
+    <text class="st7" transform="translate(865 166)"><tspan x="0" y="0">Magnets &amp; Materials</tspan></text>
+    <text class="st6" transform="translate(846 221.58)"><tspan x="0" y="0">NdFeB sintering, GaN/GaAs</tspan></text>
+    <text class="st6" transform="translate(846 256.39)"><tspan x="0" y="0">wafers, Ge optics, e-gases</tspan></text>
+    <text class="st12" transform="translate(846 315.58)"><tspan x="0" y="0">GLOBAL CONTROL</tspan></text>
+    <text class="st0" transform="translate(846 350.39)"><tspan x="0" y="0">China-dominant</tspan></text>
+    <text class="st0" transform="translate(846 383.46)"><tspan x="0" y="0">Japan strong</tspan></text>
+    <text class="st12" transform="translate(846 440.9)"><tspan x="0" y="0">INDIA POSITION</tspan></text>
+    <text class="st0" transform="translate(846 475.71)"><tspan x="0" y="0">Nascent · now funded</tspan></text>
+    <text class="st12" transform="translate(846 527.93)"><tspan x="0" y="0">INDIA SCORE</tspan></text>
+    <circle class="st30" cx="841.79" cy="585.4" r="9"/>
+    <circle class="st30" cx="871.79" cy="585.4" r="9"/>
+    <circle class="st32" cx="901.79" cy="585.4" r="9"/>
+    <circle class="st32" cx="931.79" cy="585.4" r="9"/>
+    <circle class="st32" cx="961.79" cy="585.4" r="9"/>
+    <text class="st8" transform="translate(1126.3887 590.3993)"><tspan x="0" y="0">2/5</tspan></text>
+    <path class="st27" d=""/>
+    <path class="st22" d="M1172.4,386l14,7-14,7v-14Z"/>
+    <text class="st7" transform="translate(1199 144)"><tspan x="0" y="0">C4</tspan></text>
+    <text class="st7" transform="translate(1297.5944 166)"><tspan x="0" y="0">Downstream</tspan></text>
+    <text class="st20" transform="translate(1226 221.7277)"><tspan x="0" y="0">Chips, EV motors,</tspan></text>
+    <text class="st20" transform="translate(1226 256.7941)"><tspan x="0" y="0">defence, AI hardware</tspan></text>
+    <text class="st15" transform="translate(1226 316.4069)"><tspan x="0" y="0">GLOBAL CONTROL</tspan></text>
+    <text class="st4" transform="translate(1226 351.4733)"><tspan x="0" y="0">Distributed</tspan></text>
+    <text class="st4" transform="translate(1226 384.7868)"><tspan x="0" y="0">East Asia leads</tspan></text>
+    <text class="st21" transform="translate(1226 442.6457)"><tspan x="0" y="0">INDIA POSITION</tspan></text>
+    <text class="st4" transform="translate(1226 477.7121)"><tspan x="0" y="0">Genuinely strong</tspan></text>
+    <text class="st21" transform="translate(1226 530.3117)"><tspan x="0" y="0">INDIA SCORE</tspan></text>
+    <circle class="st28" cx="1221.79" cy="585.4" r="9"/>
+    <circle class="st28" cx="1251.79" cy="585.4" r="9"/>
+    <circle class="st28" cx="1281.79" cy="585.4" r="9"/>
+    <circle class="st28" cx="1311.79" cy="585.4" r="9"/>
+    <circle class="st32" cx="1341.79" cy="585.4" r="9"/>
+    <text class="st8" transform="translate(1506.3887 590.3993)"><tspan x="0" y="0">4/5</tspan></text>
+    <rect class="st23" x="202.79" y="643.45" width="1208.24" height="40" rx="6" ry="6"/>
+    <text class="st1" transform="translate(398.18 669.77)"><tspan x="0" y="0">Leverage concentrates here — and the alliance must move India up C2 and C3</tspan></text>
+  </g>
+</svg>

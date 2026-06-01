@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 970 500">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6 {
+        isolation: isolate;
+      }
+
+      .st0, .st2, .st5, .st6 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st0, .st3 {
+        font-size: 14px;
+      }
+
+      .st7 {
+        fill: none;
+      }
+
+      .st7, .st8 {
+        stroke: #d8d3c7;
+      }
+
+      .st1 {
+        fill: #8a8576;
+      }
+
+      .st1, .st2 {
+        font-size: 11px;
+      }
+
+      .st1, .st3, .st4 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st9 {
+        fill: #c9a84c;
+      }
+
+      .st10 {
+        fill: #1fa89a;
+      }
+
+      .st2, .st11, .st5, .st6 {
+        fill: #0f1828;
+      }
+
+      .st3, .st4 {
+        fill: #4a5567;
+      }
+
+      .st4, .st6 {
+        font-size: 12px;
+      }
+
+      .st5 {
+        font-size: 26px;
+      }
+
+      .st8 {
+        fill: #f7f5ef;
+      }
+    </style>
+  </defs>
+  <rect class="st11" y="0" width="970" height="7.11"/>
+  <rect class="st9" y="7.11" width="970" height="2.67"/>
+  <text class="st5" transform="translate(25 41)"><tspan x="0" y="0">Battlefield Automation Landscape</tspan></text>
+  <text class="st3" transform="translate(25 67)"><tspan x="0" y="0">Where platforms and enabling technologies sit across domains and functions</tspan></text>
+  <line class="st7" x1="25" y1="81" x2="945" y2="81"/>
+  <text class="st6" transform="translate(239.32 101)"><tspan x="0" y="0">Sense</tspan></text>
+  <text class="st6" transform="translate(343.33 101)"><tspan x="0" y="0">Communicate</tspan></text>
+  <text class="st6" transform="translate(487.32 101)"><tspan x="0" y="0">Decide</tspan></text>
+  <text class="st6" transform="translate(607.99 101)"><tspan x="0" y="0">Navigate</tspan></text>
+  <text class="st6" transform="translate(735 101)"><tspan x="0" y="0">Actuate</tspan></text>
+  <text class="st6" transform="translate(861.33 101)"><tspan x="0" y="0">Sustain</tspan></text>
+  <rect class="st11" x="25" y="117" width="158" height="56" rx="6" ry="6"/>
+  <text class="st0" transform="translate(37 147)"><tspan x="0" y="0">Air</tspan></text>
+  <rect class="st8" x="195" y="117" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="253.5" cy="145" r="12"/>
+  <rect class="st8" x="320" y="117" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="378.5" cy="145" r="12"/>
+  <rect class="st8" x="445" y="117" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="503.5" cy="145" r="8"/>
+  <rect class="st8" x="570" y="117" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="628.5" cy="145" r="12"/>
+  <rect class="st8" x="695" y="117" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="753.5" cy="145" r="12"/>
+  <rect class="st8" x="820" y="117" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="878.5" cy="145" r="8"/>
+  <rect class="st11" x="25" y="181" width="158" height="56" rx="6" ry="6"/>
+  <text class="st0" transform="translate(37 211)"><tspan x="0" y="0">Ground</tspan></text>
+  <rect class="st8" x="195" y="181" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="253.5" cy="209" r="12"/>
+  <rect class="st8" x="320" y="181" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="378.5" cy="209" r="8"/>
+  <rect class="st8" x="445" y="181" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="503.5" cy="209" r="8"/>
+  <rect class="st8" x="570" y="181" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="628.5" cy="209" r="12"/>
+  <rect class="st8" x="695" y="181" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="753.5" cy="209" r="12"/>
+  <rect class="st8" x="820" y="181" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="878.5" cy="209" r="8"/>
+  <rect class="st11" x="25" y="245" width="158" height="56" rx="6" ry="6"/>
+  <text class="st0" transform="translate(37 275)"><tspan x="0" y="0">Maritime</tspan></text>
+  <rect class="st8" x="195" y="245" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="253.5" cy="273" r="12"/>
+  <rect class="st8" x="320" y="245" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="378.5" cy="273" r="8"/>
+  <rect class="st8" x="445" y="245" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="503.5" cy="273" r="8"/>
+  <rect class="st8" x="570" y="245" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="628.5" cy="273" r="8"/>
+  <rect class="st8" x="695" y="245" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="753.5" cy="273" r="8"/>
+  <rect class="st8" x="820" y="245" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="878.5" cy="273" r="8"/>
+  <rect class="st11" x="25" y="309" width="158" height="56" rx="6" ry="6"/>
+  <text class="st0" transform="translate(37 335)"><tspan x="0" y="0">Space /</tspan></text>
+  <text class="st0" transform="translate(37 353)"><tspan x="0" y="0">High-Alt</tspan></text>
+  <rect class="st8" x="195" y="309" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="253.5" cy="337" r="12"/>
+  <rect class="st8" x="320" y="309" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="378.5" cy="337" r="12"/>
+  <rect class="st8" x="445" y="309" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="503.5" cy="337" r="8"/>
+  <rect class="st8" x="570" y="309" width="117" height="56" rx="6" ry="6"/>
+  <rect class="st8" x="695" y="309" width="117" height="56" rx="6" ry="6"/>
+  <rect class="st8" x="820" y="309" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="878.5" cy="337" r="8"/>
+  <rect class="st11" x="25" y="373" width="158" height="56" rx="6" ry="6"/>
+  <text class="st0" transform="translate(37 406)"><tspan x="0" y="0">Cyber-EM</tspan></text>
+  <rect class="st8" x="195" y="373" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="253.5" cy="401" r="8"/>
+  <rect class="st8" x="320" y="373" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="378.5" cy="401" r="12"/>
+  <rect class="st8" x="445" y="373" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="503.5" cy="401" r="12"/>
+  <rect class="st8" x="570" y="373" width="117" height="56" rx="6" ry="6"/>
+  <rect class="st8" x="695" y="373" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st9" cx="753.5" cy="401" r="8"/>
+  <rect class="st8" x="820" y="373" width="117" height="56" rx="6" ry="6"/>
+  <circle class="st10" cx="405" cy="453.71" r="12"/>
+  <text class="st4" transform="translate(423 457.71)"><tspan x="0" y="0">Platform</tspan></text>
+  <circle class="st9" cx="605" cy="453.71" r="8"/>
+  <text class="st4" transform="translate(623 457.71)"><tspan x="0" y="0">Enabling tech</tspan></text>
+  <line class="st7" x1="25" y1="467.71" x2="945" y2="467.71"/>
+  <text class="st1" transform="translate(25 489.71)"><tspan x="0" y="0">Techadyant Labs framework. A system-of-systems view, not a platform catalogue.</tspan></text>
+  <text class="st2" transform="translate(837.23 489.71)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+</svg>

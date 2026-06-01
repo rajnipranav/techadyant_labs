@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 760">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        letter-spacing: .05em;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st5, .st6, .st11, .st12 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st0, .st3 {
+        fill: #111827;
+      }
+
+      .st0, .st4 {
+        font-size: 11px;
+      }
+
+      .st15 {
+        fill: #2e6497;
+      }
+
+      .st1, .st5, .st6, .st12 {
+        fill: #fff;
+      }
+
+      .st1, .st8, .st9, .st12 {
+        font-size: 14px;
+      }
+
+      .st16 {
+        filter: url(#soft3);
+      }
+
+      .st2, .st3, .st4, .st7, .st8, .st9, .st10, .st13, .st14 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st2, .st17, .st11 {
+        fill: #c9a84c;
+      }
+
+      .st2, .st13 {
+        font-size: 12px;
+      }
+
+      .st18 {
+        stroke: #2e6497;
+      }
+
+      .st18, .st19, .st20 {
+        fill: none;
+        stroke-width: 3px;
+      }
+
+      .st21 {
+        filter: url(#soft1);
+      }
+
+      .st19 {
+        stroke: #c9a84c;
+      }
+
+      .st22 {
+        filter: url(#soft2);
+      }
+
+      .st3, .st11 {
+        font-size: 10px;
+      }
+
+      .st20 {
+        stroke: #14b8a6;
+      }
+
+      .st4, .st7, .st8, .st9, .st13, .st14 {
+        fill: #e5e7eb;
+      }
+
+      .st5 {
+        font-size: 20px;
+      }
+
+      .st23 {
+        fill: #f8fafc;
+        stroke: #e5e7eb;
+        stroke-width: .75px;
+      }
+
+      .st24 {
+        filter: url(#soft);
+      }
+
+      .st25 {
+        fill: #0b1b3b;
+      }
+
+      .st26 {
+        fill: #14b8a6;
+      }
+
+      .st6, .st7, .st14 {
+        font-size: 13px;
+      }
+
+      .st9, .st14 {
+        letter-spacing: .06em;
+      }
+
+      .st10 {
+        fill: #6b7280;
+        font-size: 9px;
+        letter-spacing: .06em;
+      }
+
+      .st11 {
+        letter-spacing: .15em;
+      }
+
+      .st12 {
+        letter-spacing: .04em;
+      }
+    </style>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft1" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft2" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft3" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g id="Layer_1">
+    <rect class="st25" x=".77" y="-1.69" width="998.45" height="60"/>
+    <g class="st24">
+      <rect class="st25" x="40.37" y="314.81" width="163.5" height="80" rx="10" ry="10"/>
+    </g>
+    <path class="st20" d="M193.48,354.81c133.33,0,200-70,200-210h380"/>
+    <g class="st21">
+      <rect class="st26" x="697.28" y="70.2" width="262.35" height="180" rx="10" ry="10"/>
+    </g>
+    <path class="st19" d="M193.48,354.81h580"/>
+    <g class="st22">
+      <rect class="st17" x="697.28" y="280.2" width="262.35" height="180" rx="10" ry="10"/>
+    </g>
+    <path class="st18" d="M193.48,354.81c133.33,0,200,70,200,210h380"/>
+    <g class="st16">
+      <rect class="st15" x="697.28" y="490.2" width="262.35" height="180" rx="10" ry="10"/>
+    </g>
+    <rect class="st23" x="47.85" y="645.39" width="610.15" height="70" rx="8" ry="8"/>
+  </g>
+  <g id="Layer_2">
+    <text class="st5" transform="translate(19.55 35.14)"><tspan x="0" y="0">India 2035 Scenario Trees</tspan></text>
+    <text class="st11" transform="translate(922.63 18.25)"><tspan x="0" y="0">FIGURE 27</tspan></text>
+    <text class="st4" transform="translate(780.96 40.85)"><tspan x="0" y="0">Three branching futures from a 2026 trunk</tspan></text>
+    <text class="st10" transform="translate(39.34 727.27)"><tspan x="0" y="0">INDIA SEMICONDUCTOR INTELLIGENCE 2026 · WHO REALLY BENEFITS FROM INDIA&apos;S FAB ECOSYSTEM?</tspan></text>
+    <text class="st10" transform="translate(893.08 727.38)"><tspan x="0" y="0">FIG 27 / 30</tspan></text>
+    <text class="st1" transform="translate(83.08 341.58)"><tspan x="0" y="0">INDIA 2026</tspan></text>
+    <text class="st13" transform="translate(65.78 361.58)"><tspan x="0" y="0">~1% global capacity</tspan></text>
+    <text class="st2" transform="translate(74.82 379.58)"><tspan x="0" y="0">$30-35B market</tspan></text>
+    <text class="st12" transform="translate(708.91 91.51)"><tspan x="0" y="0">BREAKTHROUGH</tspan></text>
+    <text class="st7" transform="translate(855.99 91.51)"><tspan x="0" y="0">probability 10%</tspan></text>
+    <text class="st14" transform="translate(711.12 124.97)"><tspan x="0" y="0">CAPACITY</tspan></text>
+    <text class="st6" transform="translate(711.12 146.97)"><tspan x="0" y="0">20%+ global</tspan></text>
+    <text class="st14" transform="translate(826.12 124.97)"><tspan x="0" y="0">MARKET</tspan></text>
+    <text class="st6" transform="translate(826.12 146.97)"><tspan x="0" y="0">$250B</tspan></text>
+    <text class="st14" transform="translate(711.12 169.97)"><tspan x="0" y="0">CAPEX</tspan></text>
+    <text class="st6" transform="translate(711.12 189.97)"><tspan x="0" y="0">$120B cumulative</tspan></text>
+    <text class="st14" transform="translate(826.12 169.97)"><tspan x="0" y="0">JOBS</tspan></text>
+    <text class="st6" transform="translate(826.12 189.97)"><tspan x="0" y="0">3.5M direct+indirect</tspan></text>
+    <text class="st14" transform="translate(711.12 212.97)"><tspan x="0" y="0">EXPORTS</tspan></text>
+    <text class="st6" transform="translate(709.26 234.47)"><tspan x="0" y="0">$110B / yr</tspan></text>
+    <text class="st14" transform="translate(826.12 212.97)"><tspan x="0" y="0">DEFENCE</tspan></text>
+    <text class="st6" transform="translate(824.26 234.47)"><tspan x="0" y="0">fully sovereign</tspan></text>
+    <text class="st12" transform="translate(709.93 302.12)"><tspan x="0" y="0">ACCELERATED</tspan></text>
+    <text class="st8" transform="translate(845.84 302.28)"><tspan x="0" y="0">probability 30%</tspan></text>
+    <text class="st9" transform="translate(708.21 336.2)"><tspan x="0" y="0">CAPACITY</tspan></text>
+    <text class="st1" transform="translate(706.21 357.2)"><tspan x="0" y="0">12-15% global</tspan></text>
+    <text class="st9" transform="translate(823.21 336.2)"><tspan x="0" y="0">MARKET</tspan></text>
+    <text class="st1" transform="translate(821.21 357.2)"><tspan x="0" y="0">$150B</tspan></text>
+    <text class="st9" transform="translate(706.21 378.2)"><tspan x="0" y="0">CAPEX</tspan></text>
+    <text class="st1" transform="translate(705.5 400.2)"><tspan x="0" y="0">$70B cumulative</tspan></text>
+    <text class="st9" transform="translate(821.21 378.2)"><tspan x="0" y="0">JOBS</tspan></text>
+    <text class="st1" transform="translate(820.5 400.2)"><tspan x="0" y="0">2.0M direct+indirect</tspan></text>
+    <text class="st9" transform="translate(705.5 419.09)"><tspan x="0" y="0">EXPORTS</tspan></text>
+    <text class="st1" transform="translate(705.5 441.2)"><tspan x="0" y="0">$60B / yr</tspan></text>
+    <text class="st9" transform="translate(820.5 419.09)"><tspan x="0" y="0">DEFENCE</tspan></text>
+    <text class="st1" transform="translate(820.5 441.2)"><tspan x="0" y="0">85% sovereign</tspan></text>
+    <text class="st12" transform="translate(712.15 510.43)"><tspan x="0" y="0">CONSERVATIVE</tspan></text>
+    <text class="st8" transform="translate(855.99 510.62)"><tspan x="0" y="0">probability 60%</tspan></text>
+    <text class="st9" transform="translate(708.21 549.2)"><tspan x="0" y="0">CAPACITY</tspan></text>
+    <text class="st1" transform="translate(708.21 570.2)"><tspan x="0" y="0">5-8% global</tspan></text>
+    <text class="st9" transform="translate(823.21 549.2)"><tspan x="0" y="0">MARKET</tspan></text>
+    <text class="st1" transform="translate(823.21 570.2)"><tspan x="0" y="0">$80B</tspan></text>
+    <text class="st9" transform="translate(708.21 589.2)"><tspan x="0" y="0">CAPEX</tspan></text>
+    <text class="st1" transform="translate(708.21 609.06)"><tspan x="0" y="0">$35B cumulative</tspan></text>
+    <text class="st9" transform="translate(823.21 589.2)"><tspan x="0" y="0">JOBS</tspan></text>
+    <text class="st1" transform="translate(823.21 609.06)"><tspan x="0" y="0">1.0M direct+indirect</tspan></text>
+    <text class="st9" transform="translate(708.21 630.93)"><tspan x="0" y="0">EXPORTS</tspan></text>
+    <text class="st1" transform="translate(708.21 650.2)"><tspan x="0" y="0">$25B / yr</tspan></text>
+    <text class="st9" transform="translate(823.21 630.93)"><tspan x="0" y="0">DEFENCE</tspan></text>
+    <text class="st1" transform="translate(823.21 650.2)"><tspan x="0" y="0">60% sovereign</tspan></text>
+    <text class="st0" transform="translate(59.34 667.17)"><tspan x="0" y="0">PROBABILITY-WEIGHTED EXPECTED OUTCOME · 2035</tspan></text>
+    <text class="st3" transform="translate(59.34 690.17)"><tspan x="0" y="0">Weighted capacity ~9.5% · weighted market $115B · weighted capex $58B · weighted exports $46B / yr</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1500 700">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13 {
+        isolation: isolate;
+      }
+
+      .st0, .st14 {
+        fill: #2bc5b4;
+      }
+
+      .st0, .st8, .st9, .st10, .st11, .st12 {
+        font-size: 15px;
+      }
+
+      .st0, .st9, .st11 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st15 {
+        fill: #c8443b;
+      }
+
+      .st15, .st16 {
+        fill-opacity: .5;
+      }
+
+      .st1, .st3, .st4, .st6, .st7, .st8 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st1, .st5, .st13 {
+        font-size: 18px;
+      }
+
+      .st1, .st6, .st7, .st11 {
+        fill: #4a5567;
+      }
+
+      .st2 {
+        font-size: 29px;
+      }
+
+      .st2, .st4, .st5, .st8, .st10, .st16 {
+        fill: #0f1828;
+      }
+
+      .st2, .st5, .st10, .st12, .st13 {
+        font-weight: 700;
+      }
+
+      .st2, .st5, .st13 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .st17, .st14 {
+        fill-opacity: .9;
+      }
+
+      .st17, .st9 {
+        fill: #c9a84c;
+      }
+
+      .st3, .st4, .st6 {
+        font-size: 13px;
+      }
+
+      .st3, .st12, .st13 {
+        fill: #fff;
+      }
+
+      .st18 {
+        fill: #fbf9f4;
+      }
+
+      .st7 {
+        font-size: 12px;
+      }
+
+      .st10, .st12 {
+        font-family: CourierNewPS-BoldMT, 'Courier New';
+      }
+    </style>
+  </defs>
+  <g id="Layer_2">
+    <rect class="st18" x="-2.82" y="-1" width="1503.61" height="701.2"/>
+  </g>
+  <g id="Layer_1">
+    <text class="st6" transform="translate(1340.6167 32.4528)"><tspan x="0" y="0">Techadyant Labs · 2026</tspan></text>
+    <text class="st2" transform="translate(15.19 36.35)"><tspan x="0" y="0">The manufacturing maturity ladder</tspan></text>
+    <text class="st1" transform="translate(26.44 70)"><tspan x="0" y="0">India is on the first rung — value addition ~18–20%, target high-30s</tspan></text>
+    <text class="st7" transform="translate(14.64 691.77)"><tspan x="0" y="0">Source: PIB; IBEF; Techadyant Labs analysis.</tspan></text>
+    <rect class="st14" x="90" y="500" width="360" height="110" rx="6" ry="6"/>
+    <text class="st5" transform="translate(108 532)"><tspan x="0" y="0">1. Assembly</tspan></text>
+    <text class="st4" transform="translate(108 558)"><tspan x="0" y="0">Final assembly &amp; test of imported parts</tspan></text>
+    <text class="st10" transform="translate(108 584)"><tspan x="0" y="0">VA 18–20%</tspan></text>
+    <text class="st0" transform="translate(358.62 490)"><tspan x="0" y="0">INDIA TODAY</tspan></text>
+    <rect class="st17" x="410" y="360" width="360" height="110" rx="6" ry="6"/>
+    <text class="st5" transform="translate(428 392)"><tspan x="0" y="0">2. Component manufacture</tspan></text>
+    <text class="st4" transform="translate(428 418)"><tspan x="0" y="0">PCBs, modules, magnetics, power electronics</tspan></text>
+    <text class="st10" transform="translate(428 444)"><tspan x="0" y="0">VA 35–40%</tspan></text>
+    <text class="st9" transform="translate(685.59 350)"><tspan x="0" y="0">ECMS target</tspan></text>
+    <rect class="st15" x="730" y="220" width="360" height="110" rx="6" ry="6"/>
+    <text class="st13" transform="translate(748 252)"><tspan x="0" y="0">3. Material production</tspan></text>
+    <text class="st3" transform="translate(748 278)"><tspan x="0" y="0">Wafers, separated oxides, magnets, gases</tspan></text>
+    <text class="st12" transform="translate(748 304)"><tspan x="0" y="0">VA 50–65%</tspan></text>
+    <text class="st11" transform="translate(949.96 210)"><tspan x="0" y="0">the missing midstream</tspan></text>
+    <rect class="st16" x="1050" y="80" width="360" height="110" rx="6" ry="6"/>
+    <text class="st13" transform="translate(1068 112)"><tspan x="0" y="0">4. Equipment &amp; IP</tspan></text>
+    <text class="st3" transform="translate(1068 138)"><tspan x="0" y="0">Tools, process technology, design IP</tspan></text>
+    <text class="st12" transform="translate(1068 164)"><tspan x="0" y="0">VA 70%+</tspan></text>
+    <text class="st11" transform="translate(1359.54 70)"><tspan x="0" y="0">frontier</tspan></text>
+    <text class="st8" transform="translate(90 652.11)"><tspan x="0" y="0">The upper rungs exist only if the material layer (rung 3) is built — the alliance secures the rung India keeps skipping.</tspan></text>
+  </g>
+</svg>

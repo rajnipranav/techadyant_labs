@@ -30,7 +30,7 @@ export default function FigureLibrary() {
   return (
     <>
       <h1 className="admin-h1">Figure library</h1>
-      <p className="admin-sub">{rows ? `${rows.length} figures` : '…'} · search before drawing a new one; reuse or adapt an existing figure. Thumbnails shown for published figures.</p>
+      <p className="admin-sub">{rows ? `${rows.length} figures` : '…'} · search before drawing a new one; reuse or adapt an existing figure. Thumbnails render after the next deploy (all finals are now web-served).</p>
 
       <div style={{ display: 'flex', gap: 8, marginBottom: 16, flexWrap: 'wrap' }}>
         <select className="admin-select" value={status} onChange={(e) => setStatus(e.target.value)}>

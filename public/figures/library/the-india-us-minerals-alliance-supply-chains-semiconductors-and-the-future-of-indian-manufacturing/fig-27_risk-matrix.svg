@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1200 900">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill-opacity: .4;
+      }
+
+      .st0, .st1, .st2, .st3 {
+        fill: #c8443b;
+      }
+
+      .st4, .st5, .st6, .st7, .st8 {
+        fill: #4a5567;
+      }
+
+      .st1 {
+        fill-opacity: .5;
+      }
+
+      .st2 {
+        font-size: 14px;
+      }
+
+      .st2, .st5, .st9, .st6, .st10, .st7, .st8, .st11 {
+        isolation: isolate;
+      }
+
+      .st2, .st10 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st5 {
+        font-size: 17px;
+      }
+
+      .st5, .st6, .st7 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st9 {
+        font-size: 29px;
+      }
+
+      .st9, .st8, .st11 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st9, .st11 {
+        fill: #0f1828;
+      }
+
+      .st12 {
+        fill: #fbf9f4;
+      }
+
+      .st6, .st8 {
+        font-size: 13px;
+      }
+
+      .st13 {
+        fill-opacity: .1;
+      }
+
+      .st13, .st14 {
+        fill: #e8e5dd;
+      }
+
+      .st10, .st7 {
+        font-size: 12px;
+      }
+
+      .st10, .st15 {
+        fill: #c9a84c;
+      }
+
+      .st16 {
+        fill: #fff;
+        stroke: #4a5567;
+        stroke-opacity: .3;
+      }
+
+      .st11 {
+        font-size: 13.5px;
+      }
+
+      .st15 {
+        fill-opacity: .3;
+      }
+
+      .st14 {
+        fill-opacity: .2;
+      }
+    </style>
+  </defs>
+  <rect class="st12" x="9.64" width="1191.76" height="900"/>
+  <text class="st6" transform="translate(984.76 52.32)"><tspan x="0" y="0">Techadyant Labs · 2026</tspan></text>
+  <text class="st9" transform="translate(38.21 67.37)"><tspan x="0" y="0">The risk matrix</tspan></text>
+  <text class="st5" transform="translate(48.05 107.89)"><tspan x="0" y="0">Where the binding constraints sit — and why capital alone does not move them</tspan></text>
+  <text class="st7" transform="translate(47.5 872.52)"><tspan x="0" y="0">Source: Techadyant Labs analysis.</tspan></text>
+  <text class="st10" transform="translate(1009.5837 872.5195)"><tspan x="0" y="0">● not solved by capital alone</tspan></text>
+  <rect class="st16" x="157.64" y="160" width="900" height="600"/>
+  <rect class="st13" x="157.64" y="560" width="300" height="200"/>
+  <rect class="st14" x="457.64" y="560" width="300" height="200"/>
+  <rect class="st15" x="757.64" y="560" width="300" height="200"/>
+  <rect class="st14" x="157.64" y="360" width="300" height="200"/>
+  <rect class="st15" x="457.64" y="360" width="300" height="200"/>
+  <rect class="st0" x="757.64" y="360" width="300" height="200"/>
+  <rect class="st15" x="157.64" y="160" width="300" height="200"/>
+  <rect class="st0" x="457.64" y="160" width="300" height="200"/>
+  <rect class="st1" x="757.64" y="160" width="300" height="200"/>
+  <text class="st8" transform="translate(58.84 760)"><tspan x="0" y="0">LOW IMPACT</tspan></text>
+  <text class="st8" transform="translate(46.55 174)"><tspan x="0" y="0">HIGH IMPACT ↑</tspan></text>
+  <text class="st8" transform="translate(157.64 794)"><tspan x="0" y="0">LOW LIKELIHOOD</tspan></text>
+  <text class="st8" transform="translate(924.75 794)"><tspan x="0" y="0">HIGH LIKELIHOOD →</tspan></text>
+  <circle class="st3" cx="922.64" cy="208" r="9"/>
+  <text class="st11" transform="translate(764.12 213)"><tspan x="0" y="0">Processing know-how</tspan></text>
+  <circle class="st3" cx="787.64" cy="250" r="9"/>
+  <text class="st11" transform="translate(803.64 255)"><tspan x="0" y="0">Environmental / clearance</tspan></text>
+  <circle class="st3" cx="805.64" cy="280" r="9"/>
+  <text class="st11" transform="translate(655.37 285)"><tspan x="0" y="0">Demand aggregation</tspan></text>
+  <circle class="st3" cx="877.64" cy="292" r="9"/>
+  <text class="st11" transform="translate(767.37 297)"><tspan x="0" y="0">Workforce gap</tspan></text>
+  <circle class="st4" cx="652.64" cy="400" r="9"/>
+  <text class="st11" transform="translate(668.64 405)"><tspan x="0" y="0">Resource access / land</tspan></text>
+  <circle class="st4" cx="562.64" cy="388" r="9"/>
+  <text class="st11" transform="translate(578.64 390)"><tspan x="0" y="0">Infrastructure</tspan></text>
+  <circle class="st4" cx="697.64" cy="430" r="9"/>
+  <text class="st11" transform="translate(713.64 435)"><tspan x="0" y="0">Commodity volatility</tspan></text>
+  <circle class="st3" cx="607.64" cy="340" r="9"/>
+  <text class="st11" transform="translate(623.64 345)"><tspan x="0" y="0">Tech-transfer dependence</tspan></text>
+  <text class="st2" transform="translate(157.64 826)"><tspan x="0" y="0">The top-right cluster — know-how, clearance, demand, workforce — is the binding set, and none is solved by money alone.</tspan></text>
+</svg>

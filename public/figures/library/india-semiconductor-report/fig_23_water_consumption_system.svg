@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="Arial, Helvetica, sans-serif">
+<defs>
+  <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="2"/><feOffset dx="0" dy="1"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.22"/></feComponentTransfer>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <marker id="ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#0B1B3B"/></marker>
+  <marker id="ahT" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#14B8A6"/></marker>
+  <marker id="ahG" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#C9A84C"/></marker>
+</defs>
+<rect width="1200" height="800" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1200" height="60" fill="#0B1B3B"/>
+<text x="40" y="38" fill="#FFFFFF" font-size="20" font-weight="700">Fab Water Consumption System</text>
+<text x="1160" y="24" text-anchor="end" fill="#C9A84C" font-size="10" font-weight="700" letter-spacing="1.5">FIGURE 23</text>
+<text x="1160" y="44" text-anchor="end" fill="#E5E7EB" font-size="11">Process flow from raw intake to ultra-pure water and the ~90% recycle loop</text>
+<text x="40" y="785" fill="#6B7280" font-size="9" letter-spacing="0.5">INDIA SEMICONDUCTOR INTELLIGENCE 2026  ·  WHO REALLY BENEFITS FROM INDIA'S FAB ECOSYSTEM?</text>
+<text x="1160" y="785" text-anchor="end" fill="#6B7280" font-size="9" letter-spacing="0.5">FIG 23 / 38</text>
+
+<rect x="80" y="175" width="128" height="112" rx="8" fill="#2E6497" filter="url(#soft)"/>
+<text x="144.0" y="203" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Raw Water</text>
+<text x="144.0" y="219" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Intake</text>
+<text x="144.0" y="245" text-anchor="middle" fill="#E5E7EB" font-size="9">~25,000 m³/day</text>
+<text x="144.0" y="260" text-anchor="middle" fill="#E5E7EB" font-size="9">Narmada / aquifer</text>
+<rect x="232" y="175" width="128" height="112" rx="8" fill="#2E6497" filter="url(#soft)"/>
+<text x="296.0" y="203" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Pre-treatment</text>
+<text x="296.0" y="219" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Clarification</text>
+<text x="296.0" y="245" text-anchor="middle" fill="#E5E7EB" font-size="9">Coag · floc · sed</text>
+<text x="296.0" y="260" text-anchor="middle" fill="#E5E7EB" font-size="9">Sand filtration</text>
+<line x1="210" y1="231.0" x2="228" y2="231.0" stroke="#0B1B3B" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="384" y="175" width="128" height="112" rx="8" fill="#14B8A6" filter="url(#soft)"/>
+<text x="448.0" y="203" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Reverse</text>
+<text x="448.0" y="219" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Osmosis</text>
+<text x="448.0" y="245" text-anchor="middle" fill="#E5E7EB" font-size="9">2-pass RO</text>
+<text x="448.0" y="260" text-anchor="middle" fill="#E5E7EB" font-size="9">TDS to 1 ppm</text>
+<line x1="362" y1="231.0" x2="380" y2="231.0" stroke="#0B1B3B" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="536" y="175" width="128" height="112" rx="8" fill="#0B1B3B" filter="url(#soft)"/>
+<text x="600.0" y="203" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Ion</text>
+<text x="600.0" y="219" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Exchange</text>
+<text x="600.0" y="245" text-anchor="middle" fill="#E5E7EB" font-size="9">Cation + anion</text>
+<text x="600.0" y="260" text-anchor="middle" fill="#E5E7EB" font-size="9">Mixed-bed polish</text>
+<line x1="514" y1="231.0" x2="532" y2="231.0" stroke="#0B1B3B" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="688" y="175" width="128" height="112" rx="8" fill="#0B1B3B" filter="url(#soft)"/>
+<text x="752.0" y="203" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">UV / Polish</text>
+<text x="752.0" y="219" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Degasser</text>
+<text x="752.0" y="245" text-anchor="middle" fill="#E5E7EB" font-size="9">TOC &lt;1 ppb</text>
+<text x="752.0" y="260" text-anchor="middle" fill="#E5E7EB" font-size="9">18.2 MΩ·cm</text>
+<line x1="666" y1="231.0" x2="684" y2="231.0" stroke="#0B1B3B" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="840" y="175" width="128" height="112" rx="8" fill="#14B8A6" filter="url(#soft)"/>
+<text x="904.0" y="203" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">UPW Storage</text>
+<text x="904.0" y="219" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">&amp; Distribution</text>
+<text x="904.0" y="245" text-anchor="middle" fill="#E5E7EB" font-size="9">0.05 µm filter</text>
+<text x="904.0" y="260" text-anchor="middle" fill="#E5E7EB" font-size="9">Loop recirculation</text>
+<line x1="818" y1="231.0" x2="836" y2="231.0" stroke="#0B1B3B" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="992" y="175" width="128" height="112" rx="8" fill="#C9A84C" filter="url(#soft)"/>
+<text x="1056.0" y="203" text-anchor="middle" fill="#1A1500" font-size="13" font-weight="700">FAB</text>
+<text x="1056.0" y="219" text-anchor="middle" fill="#1A1500" font-size="13" font-weight="700">USE</text>
+<text x="1056.0" y="245" text-anchor="middle" fill="#3a2f00" font-size="9">Wafer rinse</text>
+<text x="1056.0" y="260" text-anchor="middle" fill="#3a2f00" font-size="9">CMP · etch · clean</text>
+<line x1="970" y1="231.0" x2="988" y2="231.0" stroke="#0B1B3B" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="840" y="455" width="290" height="112" rx="8" fill="#2E6497" filter="url(#soft)"/>
+<text x="985.0" y="489" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">Wastewater Treatment</text>
+<text x="985.0" y="513" text-anchor="middle" fill="#E5E7EB" font-size="10">MBR · UF · advanced oxidation</text>
+<text x="985.0" y="537" text-anchor="middle" fill="#C9A84C" font-size="13" font-weight="700">90% recycle target</text>
+<rect x="298.0" y="455" width="300" height="112" rx="8" fill="#14B8A6" filter="url(#soft)"/>
+<text x="448.0" y="489" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">Recycle to RO inlet</text>
+<text x="448.0" y="513" text-anchor="middle" fill="#FFFFFF" font-size="10">~22,500 m³/day reused</text>
+<text x="448.0" y="535" text-anchor="middle" fill="#FFFFFF" font-size="10">~2,500 m³/day discharge</text>
+<line x1="1056.0" y1="289" x2="1056.0" y2="451" stroke="#C9A84C" stroke-width="2.6" marker-end="url(#ahG)"/>
+<text x="1064.0" y="375.0" fill="#C9A84C" font-size="11" font-weight="700">used water</text>
+<line x1="838" y1="511.0" x2="602.0" y2="511.0" stroke="#0B1B3B" stroke-width="2.4" marker-end="url(#ah)"/>
+<text x="719.0" y="501.0" text-anchor="middle" fill="#0B1B3B" font-size="10" font-weight="700">90% recovered</text>
+<line x1="448.0" y1="451" x2="448.0" y2="289" stroke="#14B8A6" stroke-width="2.6" marker-end="url(#ahT)"/>
+<text x="456.0" y="375.0" fill="#14B8A6" font-size="11" font-weight="700">recycled water loop</text>
+<rect x="60" y="620" width="1080" height="135" rx="8" fill="#F8FAFC" stroke="#E5E7EB"/>
+<text x="80" y="646" fill="#111827" font-size="12" font-weight="700" letter-spacing="0.5">INDIA-SPECIFIC WATER RISK</text>
+<rect x="80" y="658" width="4" height="34" fill="#0B1B3B"/>
+<text x="92" y="670" fill="#111827" font-size="11" font-weight="700">Dholera (Narmada)</text>
+<text x="92" y="687" fill="#1F2937" font-size="9.5">Allocation contested; ~110 km pipeline from Sardar Sarovar; CGWB stage-IV semi-critical.</text>
+<rect x="600" y="658" width="4" height="34" fill="#C9A84C"/>
+<text x="612" y="670" fill="#111827" font-size="11" font-weight="700">Sanand</text>
+<text x="612" y="687" fill="#1F2937" font-size="9.5">Semi-arid; aquifer overdrawn; Sabarmati seasonal. Bulk supply needs pipeline + storage.</text>
+<rect x="80" y="706" width="4" height="34" fill="#14B8A6"/>
+<text x="92" y="718" fill="#111827" font-size="11" font-weight="700">Jagiroad (Assam)</text>
+<text x="92" y="735" fill="#1F2937" font-size="9.5">Brahmaputra ample but flood-vulnerable; UPW skills base shallow in the Northeast.</text>
+<rect x="600" y="706" width="4" height="34" fill="#2E6497"/>
+<text x="612" y="718" fill="#111827" font-size="11" font-weight="700">Chennai / TN</text>
+<text x="612" y="735" fill="#1F2937" font-size="9.5">Cyclical drought; Veeranam + desalination mix; corporate water credits required.</text>
+</svg>

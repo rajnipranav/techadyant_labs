@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 680 580">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #02aa91;
+        stroke: #1fa89a;
+      }
+
+      .st0, .st1 {
+        stroke-width: 2.5px;
+      }
+
+      .st1 {
+        fill: #231f20;
+        stroke: #0f1828;
+      }
+
+      .st2 {
+        font-size: 13px;
+      }
+
+      .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9 {
+        isolation: isolate;
+      }
+
+      .st2, .st3, .st6 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st2, .st6 {
+        fill: #4a5567;
+      }
+
+      .st10 {
+        stroke-width: .88px;
+      }
+
+      .st10, .st8 {
+        fill: none;
+        stroke: #d8d3c7;
+      }
+
+      .st3 {
+        fill: #8a8576;
+      }
+
+      .st3, .st5 {
+        font-size: 11px;
+      }
+
+      .st11 {
+        fill: #c9a84c;
+      }
+
+      .st12 {
+        fill: #1fa89a;
+      }
+
+      .st5, .st13, .st7, .st9 {
+        fill: #0f1828;
+      }
+
+      .st5, .st7, .st9 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st6 {
+        font-size: 14px;
+      }
+
+      .st7 {
+        font-size: 26px;
+      }
+
+      .st8 {
+        opacity: .68;
+      }
+
+      .st9 {
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+  <polygon class="st1" points="296.83 149 414.83 197 462.83 315 414.83 433 296.83 463 178.83 433 130.83 315 178.83 197 296.83 149"/>
+  <polygon class="st11" points="296.83 167 401.83 210 444.83 315 401.83 420 296.83 463 191.83 420 166.83 315 178.83 197 296.83 167"/>
+  <polygon class="st0" points="296.83 223 348.83 263 388.83 315 361.83 380 296.83 389 204.83 407 222.83 315 218.83 237 296.83 223"/>
+  <rect class="st13" y="0" width="680" height="9.47"/>
+  <rect class="st11" y="9.47" width="680" height="3.55"/>
+  <g class="st4">
+    <text class="st7" transform="translate(6.93 51)"><tspan x="0" y="0">Battlefield Automation Readiness Index (BARI)</tspan></text>
+  </g>
+  <g class="st4">
+    <text class="st6" transform="translate(6.93 77)"><tspan x="0" y="0">India vs China vs United States across eight industrial dimensions</tspan></text>
+  </g>
+  <line class="st10" x1="5.11" y1="89" x2="672.01" y2="89"/>
+  <circle class="st8" cx="296.83" cy="315" r="37"/>
+  <circle class="st8" cx="296.83" cy="315" r="74"/>
+  <circle class="st8" cx="296.83" cy="315" r="111"/>
+  <circle class="st8" cx="296.83" cy="315" r="148"/>
+  <circle class="st8" cx="296.83" cy="315" r="185"/>
+  <line class="st8" x1="296.83" y1="315" x2="296.83" y2="130"/>
+  <g class="st4">
+    <text class="st9" transform="translate(271.17 113)"><tspan x="0" y="0">Robotics</tspan></text>
+  </g>
+  <line class="st8" x1="296.83" y1="315" x2="427.83" y2="184"/>
+  <g class="st4">
+    <text class="st9" transform="translate(428.16 160)"><tspan x="0" y="0">Sensors</tspan></text>
+  </g>
+  <line class="st8" x1="296.83" y1="315" x2="481.83" y2="315"/>
+  <g class="st4">
+    <text class="st9" transform="translate(485.16 309)"><tspan x="0" y="0">Embedded</tspan></text>
+  </g>
+  <g class="st4">
+    <text class="st9" transform="translate(483.49 322)"><tspan x="0" y="0">Electronics</tspan></text>
+  </g>
+  <line class="st8" x1="296.83" y1="315" x2="427.83" y2="446"/>
+  <g class="st4">
+    <text class="st9" transform="translate(403.16 470)"><tspan x="0" y="0">Communications</tspan></text>
+  </g>
+  <line class="st8" x1="296.83" y1="315" x2="296.83" y2="500"/>
+  <g class="st4">
+    <text class="st9" transform="translate(278.83 521)"><tspan x="0" y="0">Power</tspan></text>
+  </g>
+  <g class="st4">
+    <text class="st9" transform="translate(272.15 534)"><tspan x="0" y="0">Systems</tspan></text>
+  </g>
+  <line class="st8" x1="296.83" y1="315" x2="165.83" y2="446"/>
+  <g class="st4">
+    <text class="st9" transform="translate(135.83 464)"><tspan x="0" y="0">AI</tspan></text>
+  </g>
+  <g class="st4">
+    <text class="st9" transform="translate(116.5 477)"><tspan x="0" y="0">Software</tspan></text>
+  </g>
+  <line class="st8" x1="296.83" y1="315" x2="111.83" y2="315"/>
+  <g class="st4">
+    <text class="st9" transform="translate(56.95 309)"><tspan x="0" y="0">Testing</tspan></text>
+  </g>
+  <g class="st4">
+    <text class="st9" transform="translate(63.17 322)"><tspan x="0" y="0">Infra.</tspan></text>
+  </g>
+  <line class="st8" x1="296.83" y1="315" x2="165.83" y2="184"/>
+  <g class="st4">
+    <text class="st9" transform="translate(129.51 154)"><tspan x="0" y="0">Mfg.</tspan></text>
+  </g>
+  <g class="st4">
+    <text class="st9" transform="translate(111.82 167)"><tspan x="0" y="0">Readiness</tspan></text>
+  </g>
+  <rect class="st12" x="558.45" y="382.41" width="16" height="16" rx="3" ry="3"/>
+  <g class="st4">
+    <text class="st2" transform="translate(582.45 395.41)"><tspan x="0" y="0">India</tspan></text>
+  </g>
+  <rect class="st11" x="558.45" y="408.41" width="16" height="16" rx="3" ry="3"/>
+  <g class="st4">
+    <text class="st2" transform="translate(582.45 421.41)"><tspan x="0" y="0">China</tspan></text>
+  </g>
+  <rect class="st13" x="558.45" y="434.41" width="16" height="16" rx="3" ry="3"/>
+  <g class="st4">
+    <text class="st2" transform="translate(582.45 447.41)"><tspan x="0" y="0">United States</tspan></text>
+  </g>
+  <g class="st4">
+    <text class="st3" transform="translate(558.45 503.41)"><tspan x="0" y="0">Scale 1 = nascent</tspan></text>
+  </g>
+  <g class="st4">
+    <text class="st3" transform="translate(558.45 519.41)"><tspan x="0" y="0">5 = leading</tspan></text>
+  </g>
+  <line class="st10" x1="5.11" y1="556" x2="672.01" y2="556"/>
+  <g class="st4">
+    <text class="st3" transform="translate(8.23 572.14)"><tspan x="0" y="0">Qualitative analyst estimate, open-source evidence. BARI 2.0: four sub-indicators weighted 25% each.</tspan></text>
+  </g>
+  <g class="st4">
+    <text class="st5" transform="translate(567.34 572.14)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+  </g>
+</svg>

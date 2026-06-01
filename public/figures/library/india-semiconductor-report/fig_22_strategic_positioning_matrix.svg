@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 750">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        opacity: .4;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14 {
+        isolation: isolate;
+      }
+
+      .st0, .st5 {
+        fill: #e5e7eb;
+      }
+
+      .st1, .st5, .st12 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st1, .st15, .st12, .st14 {
+        fill: #6b7280;
+      }
+
+      .st1, .st13 {
+        font-size: 10px;
+      }
+
+      .st16 {
+        filter: url(#soft24);
+      }
+
+      .st17, .st8, .st11 {
+        fill: #2e6497;
+      }
+
+      .st18 {
+        filter: url(#soft3);
+      }
+
+      .st19 {
+        filter: url(#soft1);
+      }
+
+      .st20 {
+        filter: url(#soft2);
+      }
+
+      .st21 {
+        filter: url(#soft23);
+      }
+
+      .st2, .st3, .st4, .st6, .st7, .st11, .st13, .st14 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st2, .st22, .st9, .st13 {
+        fill: #c9a84c;
+      }
+
+      .st2, .st14 {
+        font-size: 13px;
+        letter-spacing: .06em;
+      }
+
+      .st3, .st6 {
+        fill: #111827;
+        font-size: 12px;
+      }
+
+      .st23 {
+        filter: url(#soft19);
+      }
+
+      .st24 {
+        stroke-width: 1.5px;
+      }
+
+      .st24, .st25 {
+        stroke: #111827;
+      }
+
+      .st24, .st25, .st26 {
+        fill: none;
+      }
+
+      .st27 {
+        filter: url(#soft14);
+      }
+
+      .st28 {
+        filter: url(#soft12);
+      }
+
+      .st4, .st29, .st10 {
+        fill: #14b8a6;
+      }
+
+      .st4, .st11 {
+        font-size: 14px;
+        letter-spacing: .06em;
+      }
+
+      .st30 {
+        filter: url(#soft9);
+      }
+
+      .st31 {
+        filter: url(#soft6);
+      }
+
+      .st32 {
+        filter: url(#soft7);
+      }
+
+      .st33 {
+        filter: url(#soft18);
+      }
+
+      .st34 {
+        filter: url(#soft15);
+      }
+
+      .st5 {
+        font-size: 11px;
+      }
+
+      .st35 {
+        filter: url(#soft5);
+      }
+
+      .st6 {
+        letter-spacing: .04em;
+      }
+
+      .st7 {
+        fill: #fff;
+        font-size: 20px;
+      }
+
+      .st36 {
+        filter: url(#soft17);
+      }
+
+      .st37 {
+        filter: url(#soft);
+      }
+
+      .st38 {
+        filter: url(#soft11);
+      }
+
+      .st39 {
+        filter: url(#soft10);
+      }
+
+      .st40 {
+        fill: #0b1b3b;
+      }
+
+      .st8 {
+        opacity: .08;
+      }
+
+      .st9 {
+        opacity: .1;
+      }
+
+      .st25 {
+        stroke-dasharray: 3 3;
+        stroke-width: .5px;
+      }
+
+      .st10 {
+        opacity: .13;
+      }
+
+      .st41 {
+        filter: url(#soft20);
+      }
+
+      .st42 {
+        filter: url(#soft21);
+      }
+
+      .st43 {
+        filter: url(#soft13);
+      }
+
+      .st44 {
+        filter: url(#soft8);
+      }
+
+      .st12 {
+        font-size: 9px;
+        letter-spacing: .06em;
+      }
+
+      .st45 {
+        filter: url(#soft16);
+      }
+
+      .st13 {
+        letter-spacing: .15em;
+      }
+
+      .st26 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .st46 {
+        filter: url(#soft22);
+      }
+
+      .st47 {
+        filter: url(#soft4);
+      }
+    </style>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft1" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft2" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft3" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft4" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft5" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft6" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft7" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft8" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft9" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft10" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft11" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft12" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft13" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft14" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft15" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft16" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft17" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft18" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft19" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft20" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft21" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft22" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft23" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft24" data-name="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1"/>
+      <feComponentTransfer>
+        <feFuncA slope="0.25" type="linear"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g id="Layer_1">
+    <rect class="st40" y="0" width="900" height="60"/>
+    <rect class="st8" x="61" y="105" width="400" height="270"/>
+    <rect class="st10" x="461" y="105" width="400" height="270"/>
+    <rect class="st0" x="61" y="375" width="400" height="270"/>
+    <rect class="st9" x="461" y="375" width="400" height="270"/>
+    <line class="st24" x1="61" y1="645" x2="861" y2="645"/>
+    <line class="st24" x1="61" y1="645" x2="61" y2="105"/>
+    <line class="st25" x1="461" y1="645" x2="461" y2="105"/>
+    <line class="st25" x1="61" y1="375" x2="861" y2="375"/>
+    <g class="st37">
+      <circle class="st29" cx="797" cy="223.8" r="9"/>
+      <circle class="st26" cx="797" cy="223.8" r="9"/>
+    </g>
+    <g class="st19">
+      <circle class="st29" cx="685" cy="202.2" r="9"/>
+      <circle class="st26" cx="685" cy="202.2" r="9"/>
+    </g>
+    <g class="st20">
+      <circle class="st17" cx="557" cy="148.2" r="9"/>
+      <circle class="st26" cx="557" cy="148.2" r="9"/>
+    </g>
+    <g class="st18">
+      <circle class="st29" cx="741" cy="256.2" r="9"/>
+      <circle class="st26" cx="741" cy="256.2" r="9"/>
+    </g>
+    <g class="st47">
+      <circle class="st17" cx="501" cy="223.8" r="9"/>
+      <circle class="st26" cx="501" cy="223.8" r="9"/>
+    </g>
+    <g class="st35">
+      <circle class="st29" cx="557" cy="348" r="9"/>
+      <circle class="st26" cx="557" cy="348" r="9"/>
+    </g>
+    <g class="st31">
+      <circle class="st17" cx="461" cy="321" r="9"/>
+      <circle class="st26" cx="461" cy="321" r="9"/>
+    </g>
+    <g class="st32">
+      <circle class="st17" cx="421" cy="223.8" r="9"/>
+      <circle class="st26" cx="421" cy="223.8" r="9"/>
+    </g>
+    <g class="st44">
+      <circle class="st17" cx="397" cy="256.2" r="9"/>
+      <circle class="st26" cx="397" cy="256.2" r="9"/>
+    </g>
+    <g class="st30">
+      <circle class="st22" cx="685" cy="331.8" r="9"/>
+      <circle class="st26" cx="685" cy="331.8" r="9"/>
+    </g>
+    <g class="st39">
+      <circle class="st17" cx="557" cy="223.8" r="9"/>
+      <circle class="st26" cx="557" cy="223.8" r="9"/>
+    </g>
+    <g class="st38">
+      <circle class="st22" cx="525" cy="375" r="9"/>
+      <circle class="st26" cx="525" cy="375" r="9"/>
+    </g>
+    <g class="st28">
+      <circle class="st17" cx="381" cy="294" r="9"/>
+      <circle class="st26" cx="381" cy="294" r="9"/>
+    </g>
+    <g class="st43">
+      <circle class="st17" cx="365" cy="310.2" r="9"/>
+      <circle class="st26" cx="365" cy="310.2" r="9"/>
+    </g>
+    <g class="st27">
+      <circle class="st22" cx="637" cy="348" r="9"/>
+      <circle class="st26" cx="637" cy="348" r="9"/>
+    </g>
+    <g class="st34">
+      <circle class="st17" cx="541" cy="169.8" r="9"/>
+      <circle class="st26" cx="541" cy="169.8" r="9"/>
+    </g>
+    <g class="st45">
+      <circle class="st17" cx="461" cy="310.2" r="9"/>
+      <circle class="st26" cx="461" cy="310.2" r="9"/>
+    </g>
+    <g class="st36">
+      <circle class="st17" cx="341" cy="223.8" r="9"/>
+      <circle class="st26" cx="341" cy="223.8" r="9"/>
+    </g>
+    <g class="st33">
+      <circle class="st29" cx="621" cy="202.2" r="9"/>
+      <circle class="st26" cx="621" cy="202.2" r="9"/>
+    </g>
+    <g class="st23">
+      <circle class="st22" cx="501" cy="310.2" r="9"/>
+      <circle class="st26" cx="501" cy="310.2" r="9"/>
+    </g>
+    <g class="st41">
+      <circle class="st17" cx="397" cy="223.8" r="9"/>
+      <circle class="st26" cx="397" cy="223.8" r="9"/>
+    </g>
+    <g class="st42">
+      <circle class="st17" cx="421" cy="321" r="9"/>
+      <circle class="st26" cx="421" cy="321" r="9"/>
+    </g>
+    <g class="st46">
+      <circle class="st15" cx="381" cy="402" r="9"/>
+      <circle class="st26" cx="381" cy="402" r="9"/>
+    </g>
+    <g class="st21">
+      <circle class="st17" cx="317" cy="256.2" r="9"/>
+      <circle class="st26" cx="317" cy="256.2" r="9"/>
+    </g>
+    <g class="st16">
+      <circle class="st17" cx="285" cy="294" r="9"/>
+      <circle class="st26" cx="285" cy="294" r="9"/>
+    </g>
+  </g>
+  <g id="Layer_2">
+    <text class="st7" transform="translate(31 28.22)"><tspan x="0" y="0">Strategic Positioning Matrix </tspan><tspan x="0" y="24">Listed Semiconductor-Adjacent Companies</tspan></text>
+    <text class="st13" transform="translate(784.34 28.22)"><tspan x="0" y="0">FIGURE 22</tspan></text>
+    <text class="st5" transform="translate(624.34 47.54)"><tspan x="0" y="0">Ecosystem leverage vs execution track record</tspan></text>
+    <text class="st12" transform="translate(37.34 724.76)"><tspan x="0" y="0">INDIA SEMICONDUCTOR INTELLIGENCE 2026 · WHO REALLY BENEFITS FROM INDIA&apos;S FAB ECOSYSTEM?</tspan></text>
+    <text class="st12" transform="translate(957.81 761.1)"><tspan x="0" y="0">FIG 22 / 30</tspan></text>
+    <text class="st6" transform="translate(374.57 684.1)"><tspan x="0" y="0">ECOSYSTEM LEVERAGE -&gt;</tspan></text>
+    <text class="st6" transform="translate(37.34 474.85) rotate(-90)"><tspan x="0" y="0">EXECUTION TRACK RECORD -&gt;</tspan></text>
+    <text class="st11" transform="translate(165.92 128.1)"><tspan x="0" y="0">STEADY COMPOUNDERS</tspan></text>
+    <text class="st4" transform="translate(577.61 128.1)"><tspan x="0" y="0">STRATEGIC WINNERS</tspan></text>
+    <text class="st14" transform="translate(221.46 634.1)"><tspan x="0" y="0">SLEEPERS</tspan></text>
+    <text class="st2" transform="translate(624.53 634.1)"><tspan x="0" y="0">SHOW-ME</tspan></text>
+    <text class="st3" transform="translate(777.04 209.19)"><tspan x="0" y="0">Tata Elx</tspan></text>
+    <text class="st3" transform="translate(667.34 188.26)"><tspan x="0" y="0">Tata Proj</tspan></text>
+    <text class="st3" transform="translate(568.34 153.3)"><tspan x="0" y="0">L&amp;T</tspan></text>
+    <text class="st3" transform="translate(723.19 241.1)"><tspan x="0" y="0">Kaynes</tspan></text>
+    <text class="st3" transform="translate(486 209.42)"><tspan x="0" y="0">Dixon</tspan></text>
+    <text class="st3" transform="translate(530.34 332.9)"><tspan x="0" y="0">Syrma SGS</tspan></text>
+    <text class="st3" transform="translate(450.34 341.9)"><tspan x="0" y="0">Cyient DLM</tspan></text>
+    <text class="st3" transform="translate(432.34 228.9)"><tspan x="0" y="0">Voltas</tspan></text>
+    <text class="st3" transform="translate(408.34 261.3)"><tspan x="0" y="0">Blue Star</tspan></text>
+    <text class="st3" transform="translate(667.53 318.3)"><tspan x="0" y="0">INOX Air</tspan></text>
+    <text class="st3" transform="translate(539.34 209.31)"><tspan x="0" y="0">Linde IN</tspan></text>
+    <text class="st3" transform="translate(508.34 362.68)"><tspan x="0" y="0">Wabag</tspan></text>
+    <text class="st3" transform="translate(392.34 299.1)"><tspan x="0" y="0">Schneider</tspan></text>
+    <text class="st3" transform="translate(376.34 315.3)"><tspan x="0" y="0">ABB IN</tspan></text>
+    <text class="st3" transform="translate(613.34 335.34)"><tspan x="0" y="0">CG Power</tspan></text>
+    <text class="st3" transform="translate(552.34 174.9)"><tspan x="0" y="0">HCL Tech</tspan></text>
+    <text class="st3" transform="translate(447.96 295.1)"><tspan x="0" y="0">Cyient</tspan></text>
+    <text class="st3" transform="translate(319.86 209.19)"><tspan x="0" y="0">Persistent</tspan></text>
+    <text class="st3" transform="translate(610.34 188.26)"><tspan x="0" y="0">BEL</tspan></text>
+    <text class="st3" transform="translate(512.34 315.3)"><tspan x="0" y="0">BDL</tspan></text>
+    <text class="st3" transform="translate(386.34 209.19)"><tspan x="0" y="0">HAL</tspan></text>
+    <text class="st3" transform="translate(406.61 340.1)"><tspan x="0" y="0">Amber</tspan></text>
+    <text class="st3" transform="translate(392.34 407.1)"><tspan x="0" y="0">PG Elx</tspan></text>
+    <text class="st3" transform="translate(295.71 241.1)"><tspan x="0" y="0">Polycab</tspan></text>
+    <text class="st3" transform="translate(268.46 278.6)"><tspan x="0" y="0">Havells</tspan></text>
+    <text class="st1" transform="translate(222.41 701.1)"><tspan x="0" y="0">N = 25 listed companies · dot colour mirrors quadrant · positioning is qualitative, not capitalisation-weighted</tspan></text>
+  </g>
+</svg>

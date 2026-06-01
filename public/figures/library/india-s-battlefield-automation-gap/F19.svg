@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 700 620">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #d8d3c7;
+        stroke-width: .83px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4 {
+        fill: none;
+      }
+
+      .st5, .st6, .st7, .st8, .st9 {
+        fill: #fff;
+      }
+
+      .st5, .st7, .st8, .st9 {
+        stroke-width: 3px;
+      }
+
+      .st5, .st3 {
+        stroke: #7fcbbe;
+      }
+
+      .st6 {
+        font-size: 12.5px;
+      }
+
+      .st6, .st1, .st10, .st11, .st12, .st13, .st14, .st15, .st2, .st16, .st17, .st18, .st3, .st4 {
+        isolation: isolate;
+      }
+
+      .st6, .st12, .st14, .st16 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st7, .st1 {
+        stroke: #c8443b;
+      }
+
+      .st8, .st4 {
+        stroke: #c9a84c;
+      }
+
+      .st1 {
+        stroke-width: 5.1px;
+      }
+
+      .st1, .st2, .st3, .st4 {
+        opacity: .7;
+      }
+
+      .st10, .st11, .st17, .st18 {
+        font-family: Consolas, Consolas;
+        font-size: 9.5px;
+      }
+
+      .st10, .st19 {
+        fill: #c9a84c;
+      }
+
+      .st11 {
+        fill: #e0a23b;
+      }
+
+      .st12 {
+        font-size: 10.5px;
+      }
+
+      .st12, .st14, .st20, .st16 {
+        fill: #0f1828;
+      }
+
+      .st13 {
+        fill: #8a8576;
+      }
+
+      .st13, .st14 {
+        font-size: 11px;
+      }
+
+      .st13, .st15 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st15 {
+        fill: #4a5567;
+        font-size: 14px;
+      }
+
+      .st9, .st2 {
+        stroke: #e0a23b;
+      }
+
+      .st2 {
+        stroke-width: 4.2px;
+      }
+
+      .st16 {
+        font-size: 26px;
+      }
+
+      .st17 {
+        fill: #c8443b;
+      }
+
+      .st18 {
+        fill: #7fcbbe;
+      }
+
+      .st3 {
+        stroke-width: 4px;
+      }
+
+      .st4 {
+        stroke-width: 3.3px;
+      }
+    </style>
+  </defs>
+  <rect class="st20" y="0" width="700" height="5.6"/>
+  <rect class="st19" y="5.6" width="700" height="2.1"/>
+  <text class="st16" transform="translate(32 56)"><tspan x="0" y="0">Import Dependency Map</tspan></text>
+  <text class="st15" transform="translate(32 80)"><tspan x="0" y="0">Automation-critical components by import-risk intensity</tspan></text>
+  <line class="st0" x1="31.53" y1="90" x2="670.62" y2="90"/>
+  <line class="st1" x1="350" y1="330" x2="350" y2="115"/>
+  <circle class="st7" cx="350" cy="133.5" r="42"/>
+  <text class="st12" transform="translate(329.58 125.5)"><tspan x="0" y="0">Thermal</tspan></text>
+  <text class="st12" transform="translate(335.99 137.5)"><tspan x="0" y="0">cores</tspan></text>
+  <text class="st17" transform="translate(334.33 163.5)"><tspan x="0" y="0">risk 5</tspan></text>
+  <line class="st2" x1="350" y1="330" x2="476" y2="156"/>
+  <circle class="st9" cx="476" cy="156" r="42"/>
+  <text class="st12" transform="translate(458.2 148)"><tspan x="0" y="0">Optical</tspan></text>
+  <text class="st12" transform="translate(453.24 160)"><tspan x="0" y="0">payloads</tspan></text>
+  <text class="st11" transform="translate(460.33 186)"><tspan x="0" y="0">risk 4</tspan></text>
+  <line class="st2" x1="350" y1="330" x2="554" y2="264"/>
+  <circle class="st9" cx="548.75" cy="264" r="42"/>
+  <text class="st12" transform="translate(520.15 262)"><tspan x="0" y="0">Processors</tspan></text>
+  <text class="st11" transform="translate(533.08 294)"><tspan x="0" y="0">risk 4</tspan></text>
+  <line class="st1" x1="350" y1="330" x2="554" y2="396"/>
+  <circle class="st7" cx="548.75" cy="396" r="42"/>
+  <text class="st12" transform="translate(543.5 388)"><tspan x="0" y="0">AI</tspan></text>
+  <text class="st12" transform="translate(517.81 400)"><tspan x="0" y="0">accelerators</tspan></text>
+  <text class="st17" transform="translate(533.08 426)"><tspan x="0" y="0">risk 5</tspan></text>
+  <line class="st2" x1="350" y1="330" x2="476" y2="504"/>
+  <circle class="st9" cx="470.91" cy="496.96" r="42"/>
+  <text class="st12" transform="translate(440.86 494.96)"><tspan x="0" y="0">RF modules</tspan></text>
+  <text class="st11" transform="translate(455.24 526.96)"><tspan x="0" y="0">risk 4</tspan></text>
+  <line class="st1" x1="350" y1="330" x2="350" y2="545"/>
+  <circle class="st7" cx="350" cy="528" r="42"/>
+  <text class="st12" transform="translate(331.91 520)"><tspan x="0" y="0">Battery</tspan></text>
+  <text class="st12" transform="translate(336.43 531.09)"><tspan x="0" y="0">cells</tspan></text>
+  <text class="st17" transform="translate(334.33 558)"><tspan x="0" y="0">risk 5</tspan></text>
+  <line class="st4" x1="350" y1="330" x2="224" y2="504"/>
+  <circle class="st8" cx="230.89" cy="494.48" r="42"/>
+  <text class="st12" transform="translate(213.39 492.48)"><tspan x="0" y="0">Motors</tspan></text>
+  <text class="st10" transform="translate(215.22 524.48)"><tspan x="0" y="0">risk 3</tspan></text>
+  <line class="st2" x1="350" y1="330" x2="146" y2="396"/>
+  <circle class="st9" cx="156.87" cy="392.48" r="42"/>
+  <text class="st12" transform="translate(128.87 390.48)"><tspan x="0" y="0">GNSS / INS</tspan></text>
+  <text class="st11" transform="translate(141.2 422.48)"><tspan x="0" y="0">risk 4</tspan></text>
+  <line class="st3" x1="350" y1="330" x2="146" y2="264"/>
+  <circle class="st5" cx="156.87" cy="266" r="42"/>
+  <text class="st12" transform="translate(137.33 258)"><tspan x="0" y="0">Rugged</tspan></text>
+  <text class="st12" transform="translate(128.57 270)"><tspan x="0" y="0">connectors</tspan></text>
+  <text class="st18" transform="translate(141.2 296)"><tspan x="0" y="0">risk 2</tspan></text>
+  <line class="st2" x1="350" y1="330" x2="224" y2="156"/>
+  <circle class="st9" cx="226.9" cy="160" r="42"/>
+  <text class="st12" transform="translate(203.84 152)"><tspan x="0" y="0">Specialty</tspan></text>
+  <text class="st12" transform="translate(203.84 164)"><tspan x="0" y="0">materials</tspan></text>
+  <text class="st11" transform="translate(211.23 190)"><tspan x="0" y="0">risk 4</tspan></text>
+  <line class="st0" x1="31.53" y1="576" x2="670.62" y2="576"/>
+  <text class="st13" transform="translate(31.53 598)"><tspan x="0" y="0">Techadyant Labs analysis. Amber/crimson = high import exposure; thicker edge = greater criticality.</tspan></text>
+  <text class="st14" transform="translate(563.72 598)"><tspan x="0" y="0">TECHADYANT LABS</tspan></text>
+  <circle class="st20" cx="350" cy="330" r="74"/>
+  <text class="st6" transform="translate(317.79 317)"><tspan x="0" y="0">Battlefield</tspan></text>
+  <text class="st6" transform="translate(313.28 332)"><tspan x="0" y="0">Automation</tspan></text>
+  <text class="st6" transform="translate(325.76 347)"><tspan x="0" y="0">System</tspan></text>
+</svg>

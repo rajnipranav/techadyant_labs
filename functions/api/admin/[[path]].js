@@ -101,6 +101,8 @@ export async function onRequest(context) {
     if (route === '/lookups')               return reply(await rpc(N, NK, 'sid_lookups'));
     if (route === '/sid/rejected')          return reply(await rpc(N, NK, 'sid_rejected_candidates'));
     if (route === '/sid/figures')           return reply(await rpc(N, NK, 'sid_figures', { p_status: q.get('status') || 'final', p_q: q.get('q'), p_type: q.get('type') }));
+    if (route === '/ops/workflows')         return reply(await rpc(N, NK, 'sid_workflow_status'));
+    if (route === '/ops/runs')              return reply(await rpc(N, NK, 'sid_workflow_runs', { p_limit: Number(q.get('limit') || 40) }));
 
     if (request.method === 'POST' && route === '/sid/entity-save') {
       const b = await request.json();
@@ -133,6 +135,21 @@ export async function onRequest(context) {
     if (request.method === 'POST' && route === '/sid/figure-status') {
       const b = await request.json();
       return reply(await rpc(N, NK, 'sid_figure_set_status', { p_path: b.path, p_status: b.status }));
+    }
+    if (request.method === 'POST' && route === '/ops/trigger') {
+      const b = await request.json();
+      const wf = String(b.wf || '').toLowerCase();
+      if (!['ingest', 'analyze', 'digest'].includes(wf)) return json(400, { error: 'unknown workflow (expected ingest|analyze|digest)' });
+      const base = (env.N8N_WEBHOOK_BASE || '').replace(/\/+$/, '');
+      if (!base) return json(500, { error: 'N8N_WEBHOOK_BASE not configured — set it in Cloudflare Pages env to your n8n webhook root, e.g. https://<your-n8n-host>/webhook' });
+      const headers = { 'content-type': 'application/json' };
+      if (env.N8N_WEBHOOK_TOKEN) headers['authorization'] = env.N8N_WEBHOOK_TOKEN;
+      try {
+        const t0 = Date.now();
+        const r = await fetch(`${base}/${wf}`, { method: 'POST', headers, body: JSON.stringify({ source: 'admin-manual', by: who, at: new Date().toISOString() }) });
+        const text = (await r.text()).slice(0, 500);
+        return json(200, { ok: r.ok, status: r.status, ms: Date.now() - t0, body: text });
+      } catch (e) { return json(502, { error: 'trigger failed: ' + String(e) }); }
     }
 
     if (route === '/sid/candidate-action' && request.method === 'POST') {
