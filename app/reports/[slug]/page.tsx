@@ -20,7 +20,7 @@ const registry: Record<string, ReportModule> = {
   'india-ai-industrial-transition-2026-2035': { toc: aiTransitionToc, Content: AiTransitionContent },
   'who-actually-captures-the-india-us-minerals-alliance': { toc: mineralsToc, Content: MineralsContent },
   'india-battlefield-automation-gap': { toc: battlefieldToc, Content: BattlefieldContent },
-  'the-sap-question-flagship': { toc: sapFlagshipToc, Content: SapFlagshipContent },
+  'the-sap-question': { toc: sapFlagshipToc, Content: SapFlagshipContent },
 };
 
 export function generateStaticParams() {
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const r = getReport(slug);
   if (!r) return {};
-  const ogImage = slug === 'the-sap-question-flagship' ? '/og/the-sap-question-flagship.png' : r.cover;
+  const ogImage = slug === 'the-sap-question' ? '/og/the-sap-question-flagship.png' : r.cover;
   const url = `https://labs.techadyant.com/reports/${slug}/`;
   return {
     title: r.title,
@@ -106,6 +106,11 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
   const mod = registry[slug];
   const published = meta.status === 'published';
   const ldJson = articleJsonLd(meta);
+  const supabaseBase = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://lkqojucjkpxhcngtstfy.supabase.co';
+  const fullPdfUrl =
+    meta.access === 'free' && meta.previewObject && meta.previewObject.includes('/')
+      ? `${supabaseBase}/storage/v1/object/public/${meta.previewObject}`
+      : null;
 
   return (
     <>
@@ -166,6 +171,23 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
               <p className="serif" style={{ color: 'var(--text-muted)' }}>The full report is coming online shortly.</p>
             </section>
           )}
+
+          {fullPdfUrl ? (
+            <section className="wrap-narrow" id="full-report" style={{ paddingTop: 8, paddingBottom: 28 }}>
+              <h2 style={{ marginBottom: 6 }}>Read the full report</h2>
+              <p className="serif" style={{ color: 'var(--text-muted)', marginBottom: 16 }}>
+                The complete {meta.pages}-page report. Read it inline below, or open it in a new tab to download.
+              </p>
+              <div style={{ border: '1px solid var(--border, #2a2a3a)', borderRadius: 10, overflow: 'hidden', background: '#0b0b14' }}>
+                <object data={`${fullPdfUrl}#view=FitH`} type="application/pdf" style={{ width: '100%', height: '85vh', display: 'block' }}>
+                  <iframe src={fullPdfUrl} title={meta.title} style={{ width: '100%', height: '85vh', border: 0 }} />
+                </object>
+              </div>
+              <p style={{ marginTop: 16 }}>
+                <a className="btn-ed btn-ed-primary" href={fullPdfUrl} target="_blank" rel="noopener">Open / download the full PDF <span className="arr">→</span></a>
+              </p>
+            </section>
+          ) : null}
         </ReportCommerceProvider>
       ) : (
         <section className="wrap-narrow" style={{ paddingTop: 56 }}>
