@@ -21,7 +21,7 @@ interface Board { reports: Rep[]; channels: ChanTotal[]; kpis: { reports_promote
 
 const CH_LABEL: Record<string, string> = {
   linkedin: 'LinkedIn', x: 'X / Twitter', newsletter: 'Newsletter', whatsapp: 'WhatsApp',
-  telegram: 'Telegram', substack: 'Substack / Medium', outreach: 'Outreach',
+  telegram: 'Telegram', substack: 'Substack / Medium', outreach: 'Outreach', youtube: 'YouTube',
 };
 const chLabel = (c: string) => CH_LABEL[c] || c;
 const STATUSES: Status[] = ['planned', 'active', 'done', 'skipped'];
