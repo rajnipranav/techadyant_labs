@@ -56,4 +56,13 @@ export default function ReportsIndex() {
                 <p className="rc-card-summary">{r.summary}</p>
                 <div className="report-card-foot">
                   <span className="report-card-price">{formatPrice(r)}</span>
-                  <span className="report-card-cta
+                  <span className="report-card-cta" style={{ color: 'var(--text-dim)' }}>{r.readingTime}</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </>
+  );
+}
