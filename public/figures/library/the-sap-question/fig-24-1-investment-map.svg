@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1180 720" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1180" height="720" fill="#FBF9F4"/>
+<text x="56" y="54" font-size="27" font-weight="700" fill="#0F1828">Invest against the comfort map</text>
+<text x="56" y="84" font-size="16" fill="#4A5567">The ~$51bn sovereign-software TAM (2035) by category. The biggest prizes sit in the layers India is weakest in today.</text>
+<text x="1124" y="40" font-size="13" fill="#4A5567" text-anchor="end">Figure 24.1 · Techadyant Labs · 2026</text>
+<rect x="56" y="140" width="581" height="58" rx="5" fill="#C8443B" fill-opacity="0.85"/>
+<text x="70" y="166" font-size="16" font-weight="700" fill="#FBF9F4">AI-native ERP</text>
+<text x="70" y="186" font-size="12" fill="#FBF9F4" opacity="0.95">Zoho ERP · ERPNext · Ramco · new entrants</text>
+<text x="651.4285714285714" y="177" font-size="19" font-weight="700" fill="#0F1828" font-family="monospace">$11bn</text>
+<rect x="56" y="210" width="740" height="58" rx="5" fill="#C8443B" fill-opacity="0.85"/>
+<text x="70" y="236" font-size="16" font-weight="700" fill="#FBF9F4">Sovereign cloud / data</text>
+<text x="70" y="256" font-size="12" fill="#FBF9F4" opacity="0.95">the deepest gap — no domestic hyperscaler yet</text>
+<text x="810.0" y="247" font-size="19" font-weight="700" fill="#0F1828" font-family="monospace">$14bn</text>
+<rect x="56" y="280" width="423" height="58" rx="5" fill="#C9A84C" fill-opacity="0.85"/>
+<text x="70" y="306" font-size="16" font-weight="700" fill="#FBF9F4">Cybersecurity</text>
+<text x="70" y="326" font-size="12" fill="#FBF9F4" opacity="0.95">biggest gap + biggest global export market</text>
+<text x="492.85714285714283" y="317" font-size="19" font-weight="700" fill="#0F1828" font-family="monospace">$8bn</text>
+<rect x="56" y="350" width="317" height="58" rx="5" fill="#C9A84C" fill-opacity="0.85"/>
+<text x="70" y="376" font-size="16" font-weight="700" fill="#FBF9F4">Sovereign AI / LLM</text>
+<text x="70" y="396" font-size="12" fill="#FBF9F4" opacity="0.95">Sarvam · IndiaAI-backed models</text>
+<text x="387.1428571428571" y="387" font-size="19" font-weight="700" fill="#0F1828" font-family="monospace">$6bn</text>
+<rect x="56" y="420" width="370" height="58" rx="5" fill="#2BC5B4" fill-opacity="0.85"/>
+<text x="70" y="446" font-size="16" font-weight="700" fill="#FBF9F4">Productivity / SaaS</text>
+<text x="70" y="466" font-size="12" fill="#FBF9F4" opacity="0.95">Zoho · Freshworks — already Substantial</text>
+<text x="440.0" y="457" font-size="19" font-weight="700" fill="#0F1828" font-family="monospace">$7bn</text>
+<rect x="56" y="490" width="264" height="58" rx="5" fill="#2BC5B4" fill-opacity="0.85"/>
+<text x="70" y="516" font-size="16" font-weight="700" fill="#FBF9F4">CRM · HR · vertical</text>
+<text x="70" y="536" font-size="12" fill="#FBF9F4" opacity="0.95">Zoho · Freshworks · Darwinbox · Perfios</text>
+<text x="334.2857142857143" y="527" font-size="19" font-weight="700" fill="#0F1828" font-family="monospace">$5bn</text>
+<rect x="56" y="578" width="14" height="14" fill="#C8443B" fill-opacity="0.85"/><text x="76" y="590" font-size="13" fill="#0F1828">Captured today — deepest need, emptiest field</text>
+<rect x="470" y="578" width="14" height="14" fill="#C9A84C" fill-opacity="0.85"/><text x="490" y="590" font-size="13" fill="#0F1828">Emerging</text>
+<rect x="610" y="578" width="14" height="14" fill="#2BC5B4" fill-opacity="0.85"/><text x="630" y="590" font-size="13" fill="#0F1828">Substantial — scale the proven</text>
+<text x="56" y="628" font-size="14" font-weight="700" fill="#0F1828">The investment map is the inverse of the comfort map: the weakest layers (cloud, AI-native ERP) carry the largest prizes.</text>
+<text x="56" y="652" font-size="12" fill="#4A5567">Source: Techadyant Labs TAM model (central ~$51bn 2035). Category split modelled; indicative, not a forecast.</text>
+</svg>

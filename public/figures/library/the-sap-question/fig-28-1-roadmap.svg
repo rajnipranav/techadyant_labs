@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1180 780">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 11.5px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st7, .st8, .st9, .st12 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st0, .st16, .st6 {
+        fill: #c8443b;
+      }
+
+      .st1 {
+        fill: #c9a84c;
+      }
+
+      .st1, .st8, .st9, .st12 {
+        font-size: 12px;
+      }
+
+      .st17 {
+        fill: none;
+        stroke: #c8443b;
+        stroke-dasharray: 6 5;
+        stroke-width: 2px;
+      }
+
+      .st18 {
+        fill: #fff;
+        stroke: #9b9a9a;
+        stroke-miterlimit: 10;
+        stroke-width: .25px;
+      }
+
+      .st2, .st4, .st7 {
+        font-size: 13px;
+      }
+
+      .st2, .st19, .st14 {
+        fill: #0f1828;
+      }
+
+      .st20, .st11, .st13 {
+        fill: #fbf9f4;
+      }
+
+      .st16 {
+        fill-opacity: .14;
+      }
+
+      .st3 {
+        font-size: 12.5px;
+      }
+
+      .st3, .st4, .st5, .st9, .st15 {
+        fill: #4a5567;
+      }
+
+      .st5, .st11 {
+        font-size: 16px;
+      }
+
+      .st6, .st10, .st11, .st13, .st14, .st15 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st6, .st10, .st15 {
+        font-size: 14px;
+      }
+
+      .st7, .st10, .st12 {
+        fill: #1b4581;
+      }
+
+      .st8 {
+        fill: #2bc5b4;
+      }
+
+      .st21 {
+        fill: #2e4057;
+      }
+
+      .st13 {
+        font-size: 17px;
+      }
+
+      .st14 {
+        font-size: 27px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2">
+    <rect class="st20" x="-.32" y=".1" width="1180" height="780"/>
+  </g>
+  <g id="Layer_3">
+    <rect class="st18" x="549.68" y="145" width="275.94" height="602" rx="12" ry="12"/>
+    <rect class="st18" x="833.37" y="145" width="275.94" height="602" rx="12" ry="12"/>
+  </g>
+  <g id="Layer_1">
+    <text class="st14" transform="translate(56 54)"><tspan x="0" y="0">The roadmap: who does what, by when</tspan></text>
+    <text class="st5" transform="translate(56 84)"><tspan x="0" y="0">Four actors, three horizons. The decisive moves fall in the first column — the 2027 window — while it is still open.</tspan></text>
+    <text class="st4" transform="translate(908.15 40)"><tspan x="0" y="0">Figure 28.1 · Techadyant Labs · 2026</tspan></text>
+    <rect class="st16" x="240" y="103" width="300" height="34"/>
+    <text class="st6" transform="translate(301.72 126)"><tspan x="0" y="0">NOW → 2027 (the window)</tspan></text>
+    <text class="st15" transform="translate(616.64 126)"><tspan x="0" y="0">2027 → 2030 (build)</tspan></text>
+    <text class="st10" transform="translate(900.84 126)"><tspan x="0" y="0">2030 → 2035 (scale)</tspan></text>
+    <rect class="st19" x="56" y="145" width="180" height="150" rx="8" ry="8"/>
+    <text class="st13" transform="translate(85.08 213)"><tspan x="0" y="0">GOVERNMENT</tspan></text>
+    <text class="st1" transform="translate(97.65 237)"><tspan x="0" y="0">the mission owner</tspan></text>
+    <g>
+      <text class="st2" transform="translate(252 171)"><tspan x="0" y="0">• Launch Sovereign Software Mission</tspan></text>
+      <text class="st9" transform="translate(262 189)"><tspan x="0" y="0">(time-bound, incumbents excluded)</tspan></text>
+      <text class="st2" transform="translate(252 211)"><tspan x="0" y="0">• &quot;Public Money, Public Code&quot; procurement</tspan></text>
+      <text class="st2" transform="translate(252 233)"><tspan x="0" y="0">• Mandate SBOM + zero-trust (critical sectors)</tspan></text>
+      <text class="st2" transform="translate(252 255)"><tspan x="0" y="0">• Fund sovereign LLM as infrastructure</tspan></text>
+    </g>
+    <g>
+      <text class="st2" transform="translate(578 181)"><tspan x="0" y="0">• National ERP platform live for PSUs</tspan></text>
+      <text class="st2" transform="translate(578 207)"><tspan x="0" y="0">• Confront the cloud gap directly</tspan></text>
+      <text class="st9" transform="translate(578 233)"><tspan x="0" y="0">(sovereign-cloud mandate)</tspan></text>
+    </g>
+    <g>
+      <text class="st7" transform="translate(885 181)"><tspan x="0" y="0">• Publish DIEM annually</tspan></text>
+      <text class="st7" transform="translate(885 207)"><tspan x="0" y="0">• Export the sovereign stack</tspan></text>
+      <text class="st12" transform="translate(885 233)"><tspan x="0" y="0">(DPI / MOSIP model)</tspan></text>
+    </g>
+    <rect class="st21" x="56" y="299" width="180" height="150" rx="8" ry="8"/>
+    <text class="st13" transform="translate(86.01 367)"><tspan x="0" y="0">ENTERPRISES</tspan></text>
+    <text class="st8" transform="translate(101.64 391)"><tspan x="0" y="0">the demand side</tspan></text>
+    <g>
+      <text class="st2" transform="translate(252 327)"><tspan x="0" y="0">• Run an EDI / SSS dependency audit</tspan></text>
+      <text class="st2" transform="translate(252 349)"><tspan x="0" y="0">• Treat the 2027 SAP call as board-level,</tspan></text>
+      <text class="st9" transform="translate(262 367)"><tspan x="0" y="0">not an IT re-platforming default</tspan></text>
+      <text class="st2" transform="translate(252 389)"><tspan x="0" y="0">• Insist on data portability in contracts</tspan></text>
+    </g>
+    <g>
+      <text class="st2" transform="translate(578 349)"><tspan x="0" y="0">• Diversify off monoculture</tspan></text>
+      <text class="st2" transform="translate(578 375)"><tspan x="0" y="0">• Adopt AI-native where credible</tspan></text>
+    </g>
+    <g>
+      <text class="st7" transform="translate(885 349)"><tspan x="0" y="0">• Sovereignty-by-design</tspan></text>
+      <text class="st7" transform="translate(885 375)"><tspan x="0" y="0">in the enterprise stack</tspan></text>
+    </g>
+    <rect class="st21" x="56" y="453" width="180" height="150" rx="8" ry="8"/>
+    <text class="st11" transform="translate(81.11 515)"><tspan x="0" y="0">SOFTWARE COS</tspan></text>
+    <text class="st8" transform="translate(114.98 539)"><tspan x="0" y="0">the builders</tspan></text>
+    <g>
+      <text class="st2" transform="translate(252 481)"><tspan x="0" y="0">• Go for the ERP CORE, not the edges</tspan></text>
+      <text class="st9" transform="translate(262 499)"><tspan x="0" y="0">(the Zoho-ERP model)</tspan></text>
+      <text class="st2" transform="translate(252 521)"><tspan x="0" y="0">• Use AI to change the terms —</tspan></text>
+      <text class="st9" transform="translate(262 539)"><tspan x="0" y="0">re-architect, don&apos;t out-build SAP</tspan></text>
+    </g>
+    <g>
+      <text class="st2" transform="translate(578 499)"><tspan x="0" y="0">• Build the partner /</tspan></text>
+      <text class="st2" transform="translate(578 519)"><tspan x="0" y="0">consulting ecosystem</tspan></text>
+      <text class="st9" transform="translate(578 545)"><tspan x="0" y="0">(SAP&apos;s real moat)</tspan></text>
+    </g>
+    <g>
+      <text class="st7" transform="translate(885 499)"><tspan x="0" y="0">• Export the stack:</tspan></text>
+      <text class="st7" transform="translate(885 519)"><tspan x="0" y="0">Israel (cyber) +</tspan></text>
+      <text class="st7" transform="translate(885 539)"><tspan x="0" y="0">DPI models</tspan></text>
+    </g>
+    <rect class="st21" x="56" y="607" width="180" height="140" rx="8" ry="8"/>
+    <text class="st13" transform="translate(97.03 669)"><tspan x="0" y="0">INVESTORS</tspan></text>
+    <text class="st8" transform="translate(118.65 693)"><tspan x="0" y="0">the capital</tspan></text>
+    <g>
+      <text class="st2" transform="translate(252 635)"><tspan x="0" y="0">• Back the WEAKEST layers</tspan></text>
+      <text class="st9" transform="translate(262 653)"><tspan x="0" y="0">(cloud, AI-native ERP, cyber, sovereign LLM)</tspan></text>
+      <text class="st2" transform="translate(252 675)"><tspan x="0" y="0">• Place the bets inside the window</tspan></text>
+      <text class="st0" transform="translate(252 697)"><tspan x="0" y="0">Risks: incumbents win the fork · PSU</tspan></text>
+      <text class="st0" transform="translate(252 713)"><tspan x="0" y="0">re-platforms on SAP · protected mediocrity</tspan></text>
+    </g>
+    <g>
+      <text class="st2" transform="translate(578 661)"><tspan x="0" y="0">• Growth capital to</tspan></text>
+      <text class="st2" transform="translate(578 681)"><tspan x="0" y="0">scaling challengers</tspan></text>
+    </g>
+    <g>
+      <text class="st7" transform="translate(885 661)"><tspan x="0" y="0">• Public-market exits;</tspan></text>
+      <text class="st7" transform="translate(885 681)"><tspan x="0" y="0">export franchises</tspan></text>
+    </g>
+    <rect class="st17" x="240" y="145" width="300" height="602" rx="6" ry="6"/>
+    <text class="st3" transform="translate(56 772)"><tspan x="0" y="0">Source: Techadyant Labs synthesis (frameworks, scenarios, supply-side and AI analysis). The first column is the decisive one.</tspan></text>
+  </g>
+</svg>

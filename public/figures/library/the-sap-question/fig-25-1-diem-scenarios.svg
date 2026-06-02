@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1180 720">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12 {
+        isolation: isolate;
+      }
+
+      .st0, .st2, .st5 {
+        font-size: 12.5px;
+      }
+
+      .st0, .st5, .st6, .st13, .st10 {
+        fill: #0f1828;
+      }
+
+      .st0, .st6, .st8, .st9, .st10, .st11, .st12 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st1 {
+        font-family: Arial-ItalicMT, Arial;
+        font-size: 11.5px;
+        font-style: italic;
+      }
+
+      .st1, .st9 {
+        fill: #c8443b;
+      }
+
+      .st14 {
+        stroke: #c9a84c;
+      }
+
+      .st14, .st15, .st16, .st17, .st18, .st19, .st20 {
+        fill: none;
+      }
+
+      .st14, .st18, .st19 {
+        stroke-width: 3px;
+      }
+
+      .st21 {
+        fill: #fbf9f4;
+      }
+
+      .st22 {
+        fill: #fff;
+      }
+
+      .st2, .st3, .st4, .st5, .st7 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st2, .st3, .st4, .st7 {
+        fill: #4a5567;
+      }
+
+      .st3, .st8, .st9, .st11, .st12 {
+        font-size: 13px;
+      }
+
+      .st4 {
+        font-size: 16px;
+      }
+
+      .st15 {
+        stroke-dasharray: 6 5;
+        stroke-width: 2.4px;
+      }
+
+      .st15, .st19 {
+        stroke: #c8443b;
+      }
+
+      .st16 {
+        stroke: #e8e5dd;
+      }
+
+      .st17 {
+        stroke: #0f1828;
+        stroke-width: 1.5px;
+      }
+
+      .st6 {
+        font-size: 14px;
+      }
+
+      .st7 {
+        font-size: 12px;
+      }
+
+      .st8 {
+        fill: #2bc5b4;
+      }
+
+      .st18 {
+        stroke: #1a8a7d;
+      }
+
+      .st10 {
+        font-size: 27px;
+      }
+
+      .st20 {
+        stroke: #2bc5b4;
+        stroke-width: 4px;
+      }
+
+      .st11 {
+        fill: #c9a84c;
+      }
+
+      .st12 {
+        fill: #1a8a7d;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2">
+    <rect class="st21" x="-.43" y="-.5" width="1180" height="720"/>
+  </g>
+  <g id="Layer_3">
+    <rect class="st22" x="69.43" y="127.64" width="1053.98" height="449.56"/>
+  </g>
+  <g id="Layer_1">
+    <text class="st10" transform="translate(56 54)"><tspan x="0" y="0">Five futures for India’s software sovereignty</tspan></text>
+    <text class="st4" transform="translate(56 84)"><tspan x="0" y="0">National DIEM projected to 2035 — the share of formal-sector GVA on foreign-controlled enterprise software. Lower = more sovereign.</tspan></text>
+    <text class="st3" transform="translate(903.11 40)"><tspan x="0" y="0">Figure VIII.1 · Techadyant Labs · 2026</tspan></text>
+    <line class="st16" x1="146.06" y1="481.65" x2="866.06" y2="481.65"/>
+    <text class="st7" transform="translate(112.04 485.65)"><tspan x="0" y="0">40%</tspan></text>
+    <line class="st16" x1="146.06" y1="383.65" x2="866.06" y2="383.65"/>
+    <text class="st7" transform="translate(112.04 387.65)"><tspan x="0" y="0">50%</tspan></text>
+    <line class="st16" x1="146.06" y1="285.65" x2="866.06" y2="285.65"/>
+    <text class="st7" transform="translate(112.04 289.65)"><tspan x="0" y="0">60%</tspan></text>
+    <line class="st16" x1="146.06" y1="188.65" x2="866.06" y2="188.65"/>
+    <text class="st7" transform="translate(112.04 192.65)"><tspan x="0" y="0">70%</tspan></text>
+    <text class="st7" transform="translate(132.71 561.65)"><tspan x="0" y="0">2026</tspan></text>
+    <text class="st7" transform="translate(372.71 561.65)"><tspan x="0" y="0">2029</tspan></text>
+    <text class="st7" transform="translate(612.71 561.65)"><tspan x="0" y="0">2032</tspan></text>
+    <text class="st7" transform="translate(852.71 561.65)"><tspan x="0" y="0">2035</tspan></text>
+    <line class="st17" x1="146.06" y1="539.65" x2="866.06" y2="539.65"/>
+    <line class="st17" x1="146.06" y1="149.65" x2="146.06" y2="539.65"/>
+    <circle class="st13" cx="146.06" cy="295.65" r="6"/>
+    <text class="st0" transform="translate(156.06 285.65)"><tspan x="0" y="0">Today ~59%</tspan></text>
+    <text class="st2" transform="translate(100.06 449.09) rotate(-90)"><tspan x="0" y="0">← more sovereign | more captured →</tspan></text>
+    <polyline class="st19" points="146.06 295.85 226.06 283.25 306.06 269.55 386.06 256.85 466.06 244.25 546.06 230.55 626.06 217.85 706.06 205.25 786.06 191.55 866.06 178.85"/>
+    <polyline class="st14" points="146.06 295.85 226.06 301.75 306.06 306.65 386.06 312.45 466.06 317.35 546.06 323.15 626.06 328.05 706.06 333.95 786.06 338.75 866.06 344.65"/>
+    <polyline class="st18" points="146.06 295.85 226.06 313.45 306.06 331.05 386.06 347.55 466.06 365.15 546.06 382.65 626.06 400.25 706.06 416.75 786.06 434.35 866.06 451.85"/>
+    <polyline class="st20" points="146.06 295.85 226.06 318.35 306.06 341.75 386.06 364.15 466.06 386.55 546.06 409.95 626.06 432.45 706.06 454.85 786.06 478.25 866.06 500.65"/>
+    <polyline class="st15" points="146.06 295.85 226.06 276.45 306.06 247.15 386.06 247.15 466.06 334.85 546.06 393.45 626.06 422.65 706.06 442.15 786.06 451.85 866.06 461.65"/>
+    <text class="st9" transform="translate(882.06 182.65)"><tspan x="0" y="0">A</tspan></text>
+    <text class="st5" transform="translate(904.06 182.65)"><tspan x="0" y="0">Business as Usual (71%)</tspan></text>
+    <text class="st11" transform="translate(882.06 348.65)"><tspan x="0" y="0">B</tspan></text>
+    <text class="st5" transform="translate(904.06 348.65)"><tspan x="0" y="0">Managed Diversification (54%)</tspan></text>
+    <text class="st12" transform="translate(882.06 455.65)"><tspan x="0" y="0">C</tspan></text>
+    <text class="st5" transform="translate(904.06 455.65)"><tspan x="0" y="0">Sovereign Software Mission (43%)</tspan></text>
+    <text class="st9" transform="translate(882.06 477.65)"><tspan x="0" y="0">E</tspan></text>
+    <text class="st5" transform="translate(904.06 477.65)"><tspan x="0" y="0">Strategic Software Crisis (42%)</tspan></text>
+    <text class="st8" transform="translate(882.06 504.65)"><tspan x="0" y="0">D</tspan></text>
+    <text class="st5" transform="translate(904.06 504.65)"><tspan x="0" y="0">AI Leapfrog (38%)</tspan></text>
+    <text class="st1" transform="translate(346.06 237.65)"><tspan x="0" y="0">E: shock ~2028</tspan></text>
+    <text class="st6" transform="translate(56 624)"><tspan x="0" y="0">The fork is national. The same country reaches 71% captured or 38% sovereign depending on choices made before the 2027 window closes.</tspan></text>
+    <text class="st2" transform="translate(56 676)"><tspan x="0" y="0">Source: Techadyant Labs DIEM model run forward under five scenarios. Trajectories are modelled and directional, not forecasts.</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<svg viewBox="0 0 1180 640" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1180" height="640" fill="#FBF9F4"/>
+  <text x="56" y="54" font-size="27" font-weight="700" fill="#0F1828">One transaction, twenty-three modules</text>
+  <text x="56" y="84" font-size="16" fill="#4A5567">How a single offshore-materials transaction flows through ONGC's Project ICE / SAP — the integration depth that locks the dependency in.</text>
+  <text x="1124" y="40" font-size="13" fill="#4A5567" text-anchor="end">Figure 7.1 · Techadyant Labs · 2026</text>
+
+  <!-- flow boxes: 4 across x2 rows, connected -->
+  <!-- row 1 -->
+  <g>
+    <rect x="56" y="150" width="230" height="74" rx="8" fill="#2BC5B4" fill-opacity="0.18" stroke="#2BC5B4" stroke-width="1.5"/>
+    <text x="171" y="182" font-size="15" font-weight="700" fill="#0F1828" text-anchor="middle">1 · Requisition raised</text>
+    <text x="171" y="204" font-size="12.5" fill="#4A5567" text-anchor="middle">Materials Management (MM)</text>
+
+    <rect x="336" y="150" width="230" height="74" rx="8" fill="#C9A84C" fill-opacity="0.16" stroke="#C9A84C" stroke-width="1.5"/>
+    <text x="451" y="182" font-size="15" font-weight="700" fill="#0F1828" text-anchor="middle">2 · Purchase order</text>
+    <text x="451" y="204" font-size="12.5" fill="#4A5567" text-anchor="middle">Supplier Relationship Mgmt (SRM)</text>
+
+    <rect x="616" y="150" width="230" height="74" rx="8" fill="#C9A84C" fill-opacity="0.16" stroke="#C9A84C" stroke-width="1.5"/>
+    <text x="731" y="182" font-size="15" font-weight="700" fill="#0F1828" text-anchor="middle">3 · Goods receipt</text>
+    <text x="731" y="204" font-size="12.5" fill="#4A5567" text-anchor="middle">Materials Management (MM)</text>
+
+    <rect x="896" y="150" width="228" height="74" rx="8" fill="#C9A84C" fill-opacity="0.16" stroke="#C9A84C" stroke-width="1.5"/>
+    <text x="1010" y="182" font-size="15" font-weight="700" fill="#0F1828" text-anchor="middle">4 · Issued to platform</text>
+    <text x="1010" y="204" font-size="12.5" fill="#4A5567" text-anchor="middle">Plant Maintenance (PM)</text>
+  </g>
+  <!-- arrows row1 -->
+  <g stroke="#4A5567" stroke-width="2" fill="#4A5567">
+    <line x1="286" y1="187" x2="332" y2="187"/><path d="M336 187 l-10 -5 l0 10 z"/>
+    <line x1="566" y1="187" x2="612" y2="187"/><path d="M616 187 l-10 -5 l0 10 z"/>
+    <line x1="846" y1="187" x2="892" y2="187"/><path d="M896 187 l-10 -5 l0 10 z"/>
+  </g>
+  <!-- down connector -->
+  <g stroke="#4A5567" stroke-width="2" fill="#4A5567">
+    <path d="M1010 224 L1010 280" /><path d="M1010 284 l-5 -10 l10 0 z"/>
+  </g>
+
+  <!-- row 2 (right to left) -->
+  <g>
+    <rect x="896" y="288" width="228" height="74" rx="8" fill="#C9A84C" fill-opacity="0.16" stroke="#C9A84C" stroke-width="1.5"/>
+    <text x="1010" y="320" font-size="15" font-weight="700" fill="#0F1828" text-anchor="middle">5 · Consumed in production</text>
+    <text x="1010" y="342" font-size="12.5" fill="#4A5567" text-anchor="middle">Production Planning (PP)</text>
+
+    <rect x="616" y="288" width="230" height="74" rx="8" fill="#C8443B" fill-opacity="0.14" stroke="#C8443B" stroke-width="1.5"/>
+    <text x="731" y="320" font-size="15" font-weight="700" fill="#0F1828" text-anchor="middle">6 · JV cost allocation</text>
+    <text x="731" y="342" font-size="12.5" fill="#C8443B" text-anchor="middle">mySAP Oil &amp; Gas Upstream</text>
+
+    <rect x="336" y="288" width="230" height="74" rx="8" fill="#C9A84C" fill-opacity="0.16" stroke="#C9A84C" stroke-width="1.5"/>
+    <text x="451" y="320" font-size="15" font-weight="700" fill="#0F1828" text-anchor="middle">7 · Posted to ledger</text>
+    <text x="451" y="342" font-size="12.5" fill="#4A5567" text-anchor="middle">Financial Acct / Controlling (FI/CO)</text>
+
+    <rect x="56" y="288" width="230" height="74" rx="8" fill="#2BC5B4" fill-opacity="0.18" stroke="#2BC5B4" stroke-width="1.5"/>
+    <text x="171" y="320" font-size="15" font-weight="700" fill="#0F1828" text-anchor="middle">8 · Reported to board</text>
+    <text x="171" y="342" font-size="12.5" fill="#4A5567" text-anchor="middle">Strategic Enterprise Mgmt + Portal</text>
+  </g>
+  <g stroke="#4A5567" stroke-width="2" fill="#4A5567">
+    <line x1="896" y1="325" x2="850" y2="325"/><path d="M846 325 l10 -5 l0 10 z"/>
+    <line x1="616" y1="325" x2="570" y2="325"/><path d="M566 325 l10 -5 l0 10 z"/>
+    <line x1="336" y1="325" x2="290" y2="325"/><path d="M286 325 l10 -5 l0 10 z"/>
+  </g>
+
+  <!-- the lock-in callout -->
+  <rect x="56" y="416" width="1068" height="118" rx="10" fill="#0F1828"/>
+  <text x="80" y="452" font-size="16" font-weight="700" fill="#C9A84C">Eight steps. Eight integrated modules. One data model.</text>
+  <text x="80" y="482" font-size="14" fill="#FBF9F4">A single materials transaction touches procurement, maintenance, production, joint-venture accounting, the general ledger and</text>
+  <text x="80" y="504" font-size="14" fill="#FBF9F4">board reporting — each a different SAP module, all sharing one schema. To leave SAP is to re-implement all of it at once.</text>
+  <text x="80" y="526" font-size="13" font-weight="700" fill="#2BC5B4">This is why ONGC, facing the choice in 2022, upgraded to S/4HANA rather than exiting.</text>
+
+  <text x="56" y="572" font-size="12.5" fill="#4A5567">Source: ONGC Project ICE scope (23 modules, 500+ locations, 14,000+ users); ONGC channel (S/4HANA migration 11-Dec-2022). Schematic; Techadyant Labs.</text>
+  <text x="1124" y="572" font-size="12" font-style="italic" fill="#C9A84C" text-anchor="end">Illustrative process flow</text>
+</svg>

@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { reports, formatPrice } from './data';
 import { ReportCover } from '../components/ReportCover';
+import ReportsBrowser from './ReportsBrowser';
+import { THEMES } from './themes';
 
 export const metadata: Metadata = {
   title: 'Reports',
@@ -10,7 +12,6 @@ export const metadata: Metadata = {
 };
 
 export default function ReportsIndex() {
-  const published = reports.filter((r) => r.status === 'published');
   const forthcoming = reports.filter((r) => r.status === 'forthcoming');
 
   return (
@@ -30,35 +31,15 @@ export default function ReportsIndex() {
       </header>
 
       <section className="wrap">
-        <div className="ed-kicker" style={{ marginBottom: 28 }}>Published</div>
-        <div className="report-cards">
-          {published.map((r) => {
-            const free = r.access === 'free';
-            return (
-              <Link key={r.slug} href={`/reports/${r.slug}`} className="report-card">
-                <div className="rc-cover-top">
-                  <ReportCover report={r} variant="card" />
-                  <span className={`report-card-badge ${free ? 'badge-free' : 'badge-price'}`}>
-                    {free ? 'Free' : formatPrice(r)}
-                  </span>
-                </div>
-                <div className="report-card-body">
-                  <span className="report-card-domain">{r.domain} · {r.publishedLabel}</span>
-                  <h3>{r.title}</h3>
-                  <span className="rc-card-sub">{r.subtitle}</span>
-                  <p className="rc-card-summary">{r.summary}</p>
-                  <div className="report-card-foot">
-                    <span className={`report-card-price ${free ? 'is-free' : ''}`}>{free ? 'Free' : formatPrice(r)}</span>
-                    <span className="report-card-cta">
-                      {r.previewObject && !free && <span className="rc-preview-pill">Free preview</span>}
-                      Read report →
-                    </span>
-                  </div>
-                </div>
-              </Link>
-            );
-          })}
+        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center', marginBottom: 22, fontSize: 13 }}>
+          <span style={{ color: 'var(--text-dim)', textTransform: 'uppercase', letterSpacing: '.08em', fontSize: 11 }}>Browse by theme</span>
+          {THEMES.filter((t) => t.count > 0).map((t) => (
+            <Link key={t.slug} href={`/reports/theme/${t.slug}`} style={{ color: 'var(--text-dim)', borderBottom: '1px solid transparent' }}>{t.domain}</Link>
+          ))}
+          <Link href="/reports/series/technology-sovereignty" style={{ color: 'var(--accent, #C9A84C)', borderBottom: '1px solid transparent' }}>Technology Sovereignty Series →</Link>
         </div>
+
+        <ReportsBrowser />
 
         <div className="ed-kicker" style={{ margin: '56px 0 28px' }}>Forthcoming</div>
         <div className="report-cards">
@@ -75,13 +56,4 @@ export default function ReportsIndex() {
                 <p className="rc-card-summary">{r.summary}</p>
                 <div className="report-card-foot">
                   <span className="report-card-price">{formatPrice(r)}</span>
-                  <span className="report-card-cta" style={{ color: 'var(--text-dim)' }}>{r.readingTime}</span>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-    </>
-  );
-}
+                  <span className="report-card-cta

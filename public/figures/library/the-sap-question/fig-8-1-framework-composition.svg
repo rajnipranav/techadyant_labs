@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1600 900">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5 {
+        fill: #4a5567;
+      }
+
+      .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13 {
+        fill: #c9a84c;
+      }
+
+      .st6, .st14, .st1, .st2, .st8, .st15, .st9, .st3, .st16, .st17, .st4, .st18, .st5, .st19, .st11, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st12 {
+        isolation: isolate;
+      }
+
+      .st6, .st14, .st16, .st17, .st5, .st20, .st22, .st12 {
+        font-size: 14px;
+      }
+
+      .st6, .st9 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st7 {
+        fill-opacity: .14;
+      }
+
+      .st14, .st1, .st2, .st15, .st3, .st16, .st17, .st5, .st19, .st22, .st25, .st12 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st14, .st28, .st20, .st21, .st27 {
+        fill: #fbf9f4;
+      }
+
+      .st1, .st8, .st15, .st19, .st23, .st24 {
+        font-size: 15px;
+      }
+
+      .st2 {
+        font-size: 18px;
+      }
+
+      .st29 {
+        fill: none;
+        stroke: #c9a84c;
+        stroke-width: 3px;
+      }
+
+      .st8, .st4, .st18, .st11, .st20, .st21, .st23, .st24, .st26, .st27 {
+        font-weight: 700;
+      }
+
+      .st8, .st4, .st18, .st11, .st21, .st23, .st26 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .st15, .st30, .st25 {
+        fill: #e8e5dd;
+      }
+
+      .st9, .st3, .st18 {
+        font-size: 13px;
+      }
+
+      .st16 {
+        fill: #2bc5b4;
+      }
+
+      .st17, .st31 {
+        fill: #c8443b;
+      }
+
+      .st4, .st11, .st25 {
+        font-size: 16px;
+      }
+
+      .st18 {
+        fill: #9c7e1f;
+      }
+
+      .st19, .st32, .st33, .st23, .st24, .st26 {
+        fill: #0f1828;
+      }
+
+      .st34 {
+        fill: #fff;
+      }
+
+      .st34, .st33 {
+        stroke: #0f1828;
+        stroke-width: 2px;
+      }
+
+      .st20, .st24, .st27 {
+        font-family: CourierNewPS-BoldMT, 'Courier New';
+      }
+
+      .st21 {
+        font-size: 26px;
+      }
+
+      .st22 {
+        fill: #1a8a7d;
+      }
+
+      .st26 {
+        font-size: 34px;
+      }
+
+      .st27 {
+        font-size: 68px;
+      }
+
+      .st13 {
+        fill-opacity: .18;
+      }
+    </style>
+  </defs>
+  <rect class="st28" y="0" width="1600" height="900"/>
+  <text class="st26" transform="translate(64 70)"><tspan x="0" y="0">One set of inputs, three levels of sovereignty</tspan></text>
+  <text class="st2" transform="translate(64 106)"><tspan x="0" y="0">The frameworks compose: layer scores roll up to sectors, sector scores roll up — GDP-weighted — to a single national exposure figure.</tspan></text>
+  <text class="st1" transform="translate(1295.2896 54)"><tspan x="0" y="0">Figure 8.1 · Techadyant Labs · 2026</tspan></text>
+  <g>
+    <rect class="st34" x="64" y="170" width="420" height="560" rx="14" ry="14"/>
+    <rect class="st32" x="64" y="170" width="420" height="78" rx="14" ry="14"/>
+    <text class="st21" transform="translate(92 208)"><tspan x="0" y="0">EDI</tspan></text>
+    <text class="st12" transform="translate(92 234)"><tspan x="0" y="0">Enterprise Dependency Index</tspan></text>
+    <text class="st4" transform="translate(92 290)"><tspan x="0" y="0">UNIT: software LAYER</tspan></text>
+    <text class="st19" transform="translate(92 324)"><tspan x="0" y="0">Scores each of 11 stack layers 0–100</tspan></text>
+    <text class="st19" transform="translate(92 350)"><tspan x="0" y="0">on 7 weighted variables:</tspan></text>
+    <text class="st5" transform="translate(104 384)"><tspan x="0" y="0">Strategic Criticality · 0.20</tspan></text>
+    <text class="st5" transform="translate(104 410)"><tspan x="0" y="0">Switching Difficulty · 0.20</tspan></text>
+    <text class="st5" transform="translate(104 436)"><tspan x="0" y="0">Foreign Ownership · 0.15</tspan></text>
+    <text class="st5" transform="translate(104 462)"><tspan x="0" y="0">Domestic-Capability Deficit · 0.15</tspan></text>
+    <text class="st5" transform="translate(104 488)"><tspan x="0" y="0">Geopolitical Exposure · 0.12</tspan></text>
+    <text class="st5" transform="translate(104 514)"><tspan x="0" y="0">Security Exposure · 0.10</tspan></text>
+    <text class="st5" transform="translate(104 540)"><tspan x="0" y="0">Vendor Concentration · 0.08</tspan></text>
+    <rect class="st30" x="92" y="566" width="364" height="2"/>
+    <text class="st23" transform="translate(92 600)"><tspan x="0" y="0">Example outputs</tspan></text>
+    <text class="st17" transform="translate(104 628)"><tspan x="0" y="0">Public Cloud 81.7 · Captured</tspan></text>
+    <text class="st17" transform="translate(104 654)"><tspan x="0" y="0">ERP 78.5 · Captured</tspan></text>
+    <text class="st22" transform="translate(104 680)"><tspan x="0" y="0">UPI / Payments 37.4 · Managed</tspan></text>
+    <text class="st22" transform="translate(104 706)"><tspan x="0" y="0">Identity 42.6 · Managed</tspan></text>
+  </g>
+  <g>
+    <line class="st29" x1="496" y1="450" x2="557.89" y2="450"/>
+    <path class="st10" d="M576,450c-8.52,3.16-19.09,8.55-25.64,14.27l5.16-14.27-5.16-14.26c6.55,5.71,17.12,11.11,25.64,14.26Z"/>
+  </g>
+  <text class="st3" transform="translate(507.64 422)"><tspan x="0" y="0">× reliance</tspan></text>
+  <text class="st3" transform="translate(518.3 438)"><tspan x="0" y="0">profile</tspan></text>
+  <g>
+    <rect class="st34" x="590" y="170" width="420" height="560" rx="14" ry="14"/>
+    <rect class="st32" x="590" y="170" width="420" height="78" rx="14" ry="14"/>
+    <text class="st21" transform="translate(618 208)"><tspan x="0" y="0">SSS</tspan></text>
+    <text class="st16" transform="translate(618 234)"><tspan x="0" y="0">Software Sovereignty Score</tspan></text>
+    <text class="st4" transform="translate(618 290)"><tspan x="0" y="0">UNIT: economic SECTOR</tspan></text>
+    <text class="st19" transform="translate(618 324)"><tspan x="0" y="0">Weights each sector&apos;s layer EDIs by</tspan></text>
+    <text class="st19" transform="translate(618 350)"><tspan x="0" y="0">how much it relies on each layer.</tspan></text>
+    <text class="st24" transform="translate(618 392)"><tspan x="0" y="0">SSS = 100 − Σ(reliance × EDI)</tspan></text>
+    <text class="st5" transform="translate(618 420)"><tspan x="0" y="0">100 = fully sovereign</tspan></text>
+    <rect class="st30" x="618" y="446" width="364" height="2"/>
+    <text class="st23" transform="translate(618 480)"><tspan x="0" y="0">Example outputs</tspan></text>
+    <text class="st5" transform="translate(630 508)"><tspan x="0" y="0">Government 58 · DPI-anchored</tspan></text>
+    <text class="st5" transform="translate(630 534)"><tspan x="0" y="0">Banking 49 · Finacle/FLEXCUBE core</tspan></text>
+    <text class="st5" transform="translate(630 560)"><tspan x="0" y="0">Defence 44</tspan></text>
+    <text class="st17" transform="translate(630 586)"><tspan x="0" y="0">Energy / PSU 31 · SAP monoculture</tspan></text>
+    <text class="st17" transform="translate(630 612)"><tspan x="0" y="0">Manufacturing 28 · SAP/Oracle core</tspan></text>
+    <rect class="st7" x="618" y="636" width="364" height="64" rx="8" ry="8"/>
+    <text class="st18" transform="translate(630 662)"><tspan x="0" y="0">Finding: where India built the product</tspan></text>
+    <text class="st3" transform="translate(630 684)"><tspan x="0" y="0">(banking), sovereignty followed.</tspan></text>
+  </g>
+  <g>
+    <line class="st29" x1="1022" y1="450" x2="1083.89" y2="450"/>
+    <path class="st10" d="M1102,450c-8.52,3.16-19.09,8.55-25.64,14.27l5.16-14.27-5.16-14.26c6.55,5.71,17.12,11.11,25.64,14.26Z"/>
+  </g>
+  <text class="st3" transform="translate(1041.3127 423)"><tspan x="0" y="0">× GDP</tspan></text>
+  <text class="st3" transform="translate(1044.7405 439)"><tspan x="0" y="0">share</tspan></text>
+  <g>
+    <rect class="st33" x="1116" y="170" width="420" height="560" rx="14" ry="14"/>
+    <rect class="st31" x="1116" y="170" width="420" height="78" rx="14" ry="14"/>
+    <text class="st21" transform="translate(1144 208)"><tspan x="0" y="0">DIEM</tspan></text>
+    <text class="st14" transform="translate(1144 234)"><tspan x="0" y="0">Digital Infrastructure Exposure Matrix</tspan></text>
+    <text class="st11" transform="translate(1144 290)"><tspan x="0" y="0">UNIT: the NATION</tspan></text>
+    <text class="st15" transform="translate(1144 324)"><tspan x="0" y="0">GDP-weights sector exposure into a</tspan></text>
+    <text class="st15" transform="translate(1144 350)"><tspan x="0" y="0">single national figure. Modelled.</tspan></text>
+    <text class="st20" transform="translate(1144 396)"><tspan x="0" y="0">DIEM = Σ(GVA share × exposure)</tspan></text>
+    <rect class="st0" x="1144" y="430" width="364" height="2"/>
+    <text class="st8" transform="translate(1144 478)"><tspan x="0" y="0">Headline (modelled range)</tspan></text>
+    <text class="st27" transform="translate(1144 556)"><tspan x="0" y="0">50–65%</tspan></text>
+    <text class="st25" transform="translate(1144 596)"><tspan x="0" y="0">of India&apos;s formal-sector GVA depends</tspan></text>
+    <text class="st25" transform="translate(1144 620)"><tspan x="0" y="0">on foreign-controlled enterprise</tspan></text>
+    <text class="st25" transform="translate(1144 644)"><tspan x="0" y="0">software at the ERP / DB / cloud layer.</tspan></text>
+    <rect class="st13" x="1144" y="668" width="364" height="44" rx="8" ry="8"/>
+    <text class="st9" transform="translate(1158 696)"><tspan x="0" y="0">Modelled estimate · sensitivity-tested · re-run annually</tspan></text>
+  </g>
+  <text class="st5" transform="translate(64 780)"><tspan x="0" y="0">Source: Techadyant Labs framework system (EDI · SSS · DIEM). Inputs from Gartner, IDC, Bain, RBI, NSO, SAP filings. Refreshed from the Strategic Intelligence Database after each report.</tspan></text>
+  <text class="st6" transform="translate(64 808)"><tspan x="0" y="0">DIEM headline is a modelled estimate presented as a range, not a measured figure.</tspan></text>
+</svg>

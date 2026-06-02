@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { reports } from './reports/data';
+import { THEMES } from './reports/themes';
 import { signals } from './signals/data';
 import { themes } from './research/data';
 import { issues } from './newsletter/data';
@@ -58,6 +59,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
+  // Theme hub pages (/reports/theme/<slug>) — only those with published reports,
+  // plus the Technology Sovereignty Series landing page.
+  const themeHubRoutes: MetadataRoute.Sitemap = THEMES
+    .filter((t) => t.count > 0)
+    .map((t) => ({
+      url: `${SITE}/reports/theme/${t.slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.65,
+    }));
+
+  const seriesRoutes: MetadataRoute.Sitemap = [
+    { url: `${SITE}/reports/series/technology-sovereignty`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
+  ];
+
   // Strategic Signals issues.
   const issueRoutes: MetadataRoute.Sitemap = issues.map((i) => ({
     url: `${SITE}/newsletter/${i.slug}`,
@@ -66,5 +82,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...reportRoutes, ...signalRoutes, ...themeRoutes, ...issueRoutes];
+  return [...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...themeRoutes, ...issueRoutes];
 }

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1180 820">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #0f1828;
+        stroke-width: 2px;
+      }
+
+      .st0, .st1 {
+        fill: none;
+      }
+
+      .st2, .st3 {
+        fill: #fbf9f4;
+      }
+
+      .st2, .st4 {
+        font-size: 14px;
+      }
+
+      .st2, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16 {
+        isolation: isolate;
+      }
+
+      .st2, .st5, .st6, .st7, .st9, .st11, .st13 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st4, .st8, .st10, .st12, .st14, .st15, .st16 {
+        font-weight: 700;
+      }
+
+      .st4, .st17, .st18 {
+        fill: #2bc5b4;
+      }
+
+      .st4, .st10, .st14, .st15 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .st19 {
+        fill: #fff;
+      }
+
+      .st5 {
+        font-size: 12.5px;
+      }
+
+      .st5, .st6, .st7, .st9, .st11 {
+        fill: #4a5567;
+      }
+
+      .st6 {
+        font-size: 13px;
+      }
+
+      .st7, .st8, .st10, .st12, .st16 {
+        font-size: 16px;
+      }
+
+      .st1 {
+        stroke: #e8e5dd;
+      }
+
+      .st20 {
+        fill-opacity: .75;
+      }
+
+      .st20, .st10 {
+        fill: #c9a84c;
+      }
+
+      .st8 {
+        fill: #9c7e1f;
+      }
+
+      .st8, .st12, .st16 {
+        font-family: CourierNewPS-BoldMT, 'Courier New';
+      }
+
+      .st9 {
+        font-size: 12px;
+      }
+
+      .st21, .st14, .st15 {
+        fill: #0f1828;
+      }
+
+      .st17 {
+        fill-opacity: .85;
+      }
+
+      .st22 {
+        fill-opacity: .8;
+      }
+
+      .st22, .st12, .st13 {
+        fill: #c8443b;
+      }
+
+      .st18 {
+        fill-opacity: .6;
+      }
+
+      .st11, .st13 {
+        font-size: 11px;
+      }
+
+      .st14 {
+        font-size: 15px;
+      }
+
+      .st15 {
+        font-size: 27px;
+      }
+
+      .st16 {
+        fill: #1a8a7d;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2">
+    <rect class="st3" x="-.47" y="-.45" width="1180" height="820"/>
+  </g>
+  <g id="Layer_3">
+    <rect class="st19" x="103.89" y="121.43" width="987.13" height="529.7"/>
+  </g>
+  <g id="Layer_1">
+    <text class="st15" transform="translate(56 56)"><tspan x="0" y="0">Software Sovereignty Score, by sector</tspan></text>
+    <text class="st7" transform="translate(56 86)"><tspan x="0" y="0">0 = fully captured, 100 = fully sovereign. Derived from the EDI, weighted by each sector&apos;s reliance on each layer.</tspan></text>
+    <text class="st6" transform="translate(908.15 40)"><tspan x="0" y="0">Figure 10.1 · Techadyant Labs · 2026</tspan></text>
+    <g>
+      <line class="st1" x1="276.24" y1="152.97" x2="276.24" y2="612.97"/>
+      <line class="st1" x1="471.24" y1="152.97" x2="471.24" y2="612.97"/>
+      <line class="st1" x1="666.24" y1="152.97" x2="666.24" y2="612.97"/>
+      <line class="st1" x1="861.24" y1="152.97" x2="861.24" y2="612.97"/>
+      <line class="st1" x1="1056.24" y1="152.97" x2="1056.24" y2="612.97"/>
+    </g>
+    <g>
+      <text class="st9" transform="translate(272.9 144.97)"><tspan x="0" y="0">0</tspan></text>
+      <text class="st9" transform="translate(464.56 144.97)"><tspan x="0" y="0">25</tspan></text>
+      <text class="st9" transform="translate(659.56 144.97)"><tspan x="0" y="0">50</tspan></text>
+      <text class="st9" transform="translate(854.56 144.97)"><tspan x="0" y="0">75</tspan></text>
+      <text class="st9" transform="translate(1046.2269 144.9703)"><tspan x="0" y="0">100</tspan></text>
+    </g>
+    <text class="st9" transform="translate(276.24 634.97)"><tspan x="0" y="0">← more captured</tspan></text>
+    <text class="st9" transform="translate(958.2 634.97)"><tspan x="0" y="0">more sovereign →</tspan></text>
+    <text class="st14" transform="translate(177.89 198.97)"><tspan x="0" y="0">Government</tspan></text>
+    <text class="st11" transform="translate(175.38 216.97)"><tspan x="0" y="0">DPI-anchored ●●●</tspan></text>
+    <rect class="st17" x="276.24" y="182.97" width="452" height="30" rx="4" ry="4"/>
+    <text class="st16" transform="translate(738.24 203.97)"><tspan x="0" y="0">58</tspan></text>
+    <text class="st14" transform="translate(207.07 260.97)"><tspan x="0" y="0">Banking</tspan></text>
+    <text class="st11" transform="translate(140.55 278.97)"><tspan x="0" y="0">Finacle / FLEXCUBE ●●●</tspan></text>
+    <rect class="st18" x="276.24" y="244.97" width="382" height="30" rx="4" ry="4"/>
+    <rect class="st0" x="276.24" y="244.97" width="382" height="30" rx="4" ry="4"/>
+    <text class="st16" transform="translate(668.24 265.97)"><tspan x="0" y="0">49</tspan></text>
+    <text class="st14" transform="translate(207.88 322.97)"><tspan x="0" y="0">Defence</tspan></text>
+    <text class="st11" transform="translate(183.34 340.97)"><tspan x="0" y="0">custom core ●●●</tspan></text>
+    <rect class="st20" x="276.24" y="306.97" width="343" height="30" rx="4" ry="4"/>
+    <text class="st8" transform="translate(629.24 327.97)"><tspan x="0" y="0">44</tspan></text>
+    <text class="st14" transform="translate(206.49 384.97)"><tspan x="0" y="0">Telecom</tspan></text>
+    <text class="st11" transform="translate(169.2 402.97)"><tspan x="0" y="0">mixed OSS/BSS ●●</tspan></text>
+    <rect class="st20" x="276.24" y="368.97" width="296" height="30" rx="4" ry="4"/>
+    <text class="st8" transform="translate(582.24 389.97)"><tspan x="0" y="0">38</tspan></text>
+    <text class="st14" transform="translate(189.53 446.97)"><tspan x="0" y="0">Healthcare</tspan></text>
+    <text class="st11" transform="translate(191.21 464.97)"><tspan x="0" y="0">low maturity ●●</tspan></text>
+    <rect class="st20" x="276.24" y="430.97" width="273" height="30" rx="4" ry="4"/>
+    <text class="st8" transform="translate(559.24 451.97)"><tspan x="0" y="0">35</tspan></text>
+    <text class="st14" transform="translate(172.04 508.97)"><tspan x="0" y="0">Energy / PSU</tspan></text>
+    <text class="st13" transform="translate(157.85 526.97)"><tspan x="0" y="0">SAP monoculture ●●●</tspan></text>
+    <rect class="st22" x="276.24" y="492.97" width="242" height="30" rx="4" ry="4"/>
+    <text class="st12" transform="translate(528.24 513.97)"><tspan x="0" y="0">31</tspan></text>
+    <text class="st14" transform="translate(162.91 570.97)"><tspan x="0" y="0">Manufacturing</tspan></text>
+    <text class="st13" transform="translate(167.97 588.97)"><tspan x="0" y="0">SAP/Oracle core ●●</tspan></text>
+    <rect class="st22" x="276.24" y="554.97" width="218" height="30" rx="4" ry="4"/>
+    <rect class="st0" x="276.24" y="554.97" width="218" height="30" rx="4" ry="4"/>
+    <text class="st12" transform="translate(504.24 575.97)"><tspan x="0" y="0">28</tspan></text>
+    <rect class="st21" x="300" y="668" width="780" height="118" rx="10" ry="10"/>
+    <text class="st10" transform="translate(324 702)"><tspan x="0" y="0">The finding: Banking (49) outscores Manufacturing (28) — by 21 points.</tspan></text>
+    <text class="st2" transform="translate(324 730)"><tspan x="0" y="0">Banking is no less strategic. It scores higher because India BUILT its core-banking products</tspan></text>
+    <text class="st2" transform="translate(324 752)"><tspan x="0" y="0">(Finacle, FLEXCUBE). Manufacturing IMPORTED its system of record (SAP/Oracle) and built nothing.</tspan></text>
+    <text class="st4" transform="translate(324 776)"><tspan x="0" y="0">Where India built the product, sovereignty followed. Where it bought, it was captured.</tspan></text>
+    <text class="st5" transform="translate(56 812)"><tspan x="0" y="0">Source: Techadyant Labs Software Sovereignty Score (derived from EDI). ●● criticality flag. Scores indicative pending input hardening.</tspan></text>
+  </g>
+</svg>
