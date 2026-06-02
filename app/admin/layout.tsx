@@ -19,7 +19,7 @@ const NAV = [
       { href: '/admin/sid/figures', label: 'Figure library' },
     ],
   },
-  { group: 'Publishing', items: [{ href: '/admin/pipeline', label: 'Research pipeline' }] },
+  { group: 'Publishing', items: [{ href: '/admin/pipeline', label: 'Research pipeline' }, { href: '/admin/promotion', label: 'Promotion tracker' }] },
   { group: 'Feeds & ops', items: [{ href: '/admin/signals', label: 'Signals' }, { href: '/admin/ops', label: 'Workflow runs' }, { href: '/admin/site', label: 'Site management' }] },
 ];
 

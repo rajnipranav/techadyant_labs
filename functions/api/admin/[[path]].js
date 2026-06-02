@@ -104,6 +104,7 @@ export async function onRequest(context) {
     if (route === '/recent-activity')       return reply(await rpc(N, NK, 'sid_recent_activity', { p_days: Number(q.get('days') || 7) }));
     if (route === '/lookups')               return reply(await rpc(N, NK, 'sid_lookups'));
     if (route === '/pipeline')              return reply(await rpc(N, NK, 'sid_pipeline'));
+    if (route === '/promotion')             return reply(await rpc(N, NK, 'sid_promotion'));
     if (route === '/sid/rejected')          return reply(await rpc(N, NK, 'sid_rejected_candidates'));
     if (route === '/sid/figures')           return reply(await rpc(N, NK, 'sid_figures', { p_status: q.get('status') || 'final', p_q: q.get('q'), p_type: q.get('type') }));
     if (route === '/ops/workflows')         return reply(await rpc(N, NK, 'sid_workflow_status'));
@@ -140,6 +141,10 @@ export async function onRequest(context) {
     if (request.method === 'POST' && route === '/sid/figure-status') {
       const b = await request.json();
       return reply(await rpc(N, NK, 'sid_figure_set_status', { p_path: b.path, p_status: b.status }));
+    }
+    if (request.method === 'POST' && route === '/promotion/update') {
+      const b = await request.json();
+      return reply(await rpc(N, NK, 'sid_promotion_update', { p_slug: b.slug, p_channel: b.channel, p_status: b.status || null, p_clicks: b.clicks ?? null, p_downloads: b.downloads ?? null, p_signups: b.signups ?? null, p_inquiries: b.inquiries ?? null }));
     }
     if (request.method === 'POST' && route === '/candidacy/scan') {
       const fnUrl = `${N.replace(/\/+$/, '')}/functions/v1/sid-entity-extractor?min_india=8&limit=25`;
