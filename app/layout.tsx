@@ -7,6 +7,7 @@ import { ThemeToggle } from './components/ThemeToggle';
 import { AuthProvider } from './components/AuthProvider';
 import { AuthControls } from './components/AuthControls';
 import { AuthModal } from './components/AuthModal';
+import { MobileNav } from './components/MobileNav';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
 const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-jetbrains', display: 'swap' });
@@ -130,6 +131,7 @@ gtag('config', 'G-916MZ965VB');`,
                   <ThemeToggle />
                   <Link href="/#subscribe" className="btn-subscribe">Subscribe</Link>
                   <AuthControls />
+                  <MobileNav links={NAV_LINKS} />
                 </div>
               </div>
             </header>
