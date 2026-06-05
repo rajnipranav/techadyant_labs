@@ -6,7 +6,7 @@ import { ThemeIcon } from '../components/ThemeIcon';
 export const metadata: Metadata = {
   title: 'Research themes',
   description:
-    'Four lines of inquiry: semiconductor ecosystems, industrial infrastructure, strategic technology and economic geography.',
+    'Our research lines of inquiry: semiconductor ecosystems, industrial infrastructure, strategic technology, economic geography and defence & dual-use.',
 };
 
 const detail: Record<string, string[]> = {
@@ -45,9 +45,9 @@ export default function ResearchPage() {
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span><span>Research</span>
           </div>
-          <h1>Four lines of inquiry</h1>
+          <h1>Lines of inquiry</h1>
           <p className="lede">
-            Our work is organised around four interlocking themes. Each examines a different
+            Our work is organised around a set of interlocking themes. Each examines a different
             layer of India’s industrial system — and the dependencies that connect them.
           </p>
         </div>

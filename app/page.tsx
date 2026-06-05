@@ -153,7 +153,7 @@ export default function HomePage() {
         <div className="section-head-ed">
           <div>
             <div className="ed-kicker">Research themes</div>
-            <h2 id="themes-h">Four lines of inquiry</h2>
+            <h2 id="themes-h">Lines of inquiry</h2>
           </div>
           <Link href="/research" className="see-all">Explore research →</Link>
         </div>
