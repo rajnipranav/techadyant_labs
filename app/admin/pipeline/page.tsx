@@ -32,7 +32,6 @@ const FALLBACK: Topic[] = [
   { title: 'What India Must Learn — and Cannot Replicate — from Taiwan', head: 'risk', priority: 'later', readiness: 10, note: 'Taiwan-lessons report.' },
   { title: 'The Sovereign Technology Report', head: 'risk', priority: 'later', readiness: 5, note: 'TSS V5 synthesis.' },
   { title: 'India Technology Sovereignty Index 2027', head: 'risk', priority: 'later', readiness: 5, note: 'TSS capstone.' },
-  { title: 'The Opportunity Beyond the Fab', head: 'opportunity', priority: 'high', readiness: 60, note: 'Outline docx already exists.' },
   { title: 'Semiconductor Supply Chain: Missing Links', head: 'opportunity', priority: 'high', readiness: 55, note: 'Draft docx in folder.' },
   { title: 'The Packaging Frontier', head: 'opportunity', priority: 'high', readiness: 50, note: 'Forthcoming + NITI-validated.' },
   { title: 'India’s Edge AI Economy', head: 'opportunity', priority: 'high', readiness: 35, note: 'Folder + topics doc.' },
