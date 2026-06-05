@@ -7,6 +7,13 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'the-opportunity-beyond-the-fab': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'the-opportunity-beyond-fab.pdf',
+    filename: 'The-Opportunity-Beyond-the-Fab-Techadyant-Labs.pdf',
+    title: 'The Opportunity Beyond the Fab',
+  },
   'india-fab-ecosystem': {
     access: 'paid',
     priceInr: 4900,

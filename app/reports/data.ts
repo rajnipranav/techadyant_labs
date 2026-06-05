@@ -65,7 +65,7 @@ const baseReports: ReportMeta[] = [
     currency: 'INR',
     hasPdf: true,
     pages: 144,
-    cover: '/covers/the-opportunity-beyond-the-fab.jpg',
+    cover: '/covers/the-opportunity-beyond-the-fab.jpg?v=2',
     previewObject: 'reports-free/Opportunity-Beyond-Fab-Executive-Brief.pdf',
     previewPages: 20,
     dateModified: '2026-06-03',
