@@ -1,0 +1,19 @@
+<svg viewBox="0 0 1600 460" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1600" height="460" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">How industrial AI creates value</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">From shop-floor inputs to profit.</text>
+<text x="1530" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 4.3 - Techadyant Labs - 2026</text>
+<polygon points="70.0,200 279.66666666666663,200 301.66666666666663,270.0 279.66666666666663,340 70.0,340" fill="#0F1828"/>
+<text x="197" y="276" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">Inputs</text>
+<polygon points="315.66666666666663,200 525.3333333333333,200 547.3333333333333,270.0 525.3333333333333,340 315.66666666666663,340 337.66666666666663,270.0" fill="#2BC5B4"/>
+<text x="442" y="276" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">Data</text>
+<polygon points="561.3333333333333,200 770.9999999999999,200 792.9999999999999,270.0 770.9999999999999,340 561.3333333333333,340 583.3333333333333,270.0" fill="#C9A84C"/>
+<text x="688" y="276" font-size="18" font-weight="600" fill="#0F1828" text-anchor="middle">AI models</text>
+<polygon points="807.0,200 1016.6666666666667,200 1038.6666666666667,270.0 1016.6666666666667,340 807.0,340 829.0,270.0" fill="#0F1828"/>
+<text x="934" y="276" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">Decisions</text>
+<polygon points="1052.6666666666665,200 1262.3333333333333,200 1284.3333333333333,270.0 1262.3333333333333,340 1052.6666666666665,340 1074.6666666666665,270.0" fill="#2BC5B4"/>
+<text x="1179" y="276" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">Savings</text>
+<polygon points="1298.3333333333333,200 1508.0,200 1530.0,270.0 1508.0,340 1298.3333333333333,340 1320.3333333333333,270.0" fill="#C9A84C"/>
+<text x="1425" y="276" font-size="18" font-weight="600" fill="#0F1828" text-anchor="middle">Profit</text>
+<text x="70" y="432" font-size="13" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+</svg>

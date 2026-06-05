@@ -1,0 +1,31 @@
+<svg viewBox="0 0 1600 640" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1600" height="640" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">The complete semiconductor value chain</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Nine stages from raw materials to finished product. Value concentrates at the poles.</text>
+<text x="1530" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 2.1 - Techadyant Labs - 2026</text>
+<polygon points="60.0,230 193.77777777777777,230 213.77777777777777,310.0 193.77777777777777,390 60.0,390" fill="#C9A84C"/>
+<text x="147" y="306" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="middle">Raw</text>
+<text x="147" y="324" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="middle">materials</text>
+<polygon points="225.77777777777777,230 359.55555555555554,230 379.55555555555554,310.0 359.55555555555554,390 225.77777777777777,390 245.77777777777777,310.0" fill="#4A5567"/>
+<text x="313" y="306" font-size="14.5" font-weight="600" fill="#ffffff" text-anchor="middle">Wafer</text>
+<text x="313" y="324" font-size="14.5" font-weight="600" fill="#ffffff" text-anchor="middle">manufacturing</text>
+<polygon points="391.55555555555554,230 525.3333333333333,230 545.3333333333333,310.0 525.3333333333333,390 391.55555555555554,390 411.55555555555554,310.0" fill="#C9A84C"/>
+<text x="478" y="315" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="middle">Design</text>
+<polygon points="557.3333333333333,230 691.1111111111111,230 711.1111111111111,310.0 691.1111111111111,390 557.3333333333333,390 577.3333333333333,310.0" fill="#C9A84C"/>
+<text x="644" y="315" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="middle">EDA</text>
+<polygon points="723.1111111111111,230 856.8888888888889,230 876.8888888888889,310.0 856.8888888888889,390 723.1111111111111,390 743.1111111111111,310.0" fill="#2BC5B4"/>
+<text x="810" y="315" font-size="14.5" font-weight="600" fill="#ffffff" text-anchor="middle">Fabrication</text>
+<polygon points="888.8888888888889,230 1022.6666666666667,230 1042.6666666666667,310.0 1022.6666666666667,390 888.8888888888889,390 908.8888888888889,310.0" fill="#4A5567"/>
+<text x="976" y="315" font-size="14.5" font-weight="600" fill="#ffffff" text-anchor="middle">Packaging</text>
+<polygon points="1054.6666666666665,230 1188.4444444444443,230 1208.4444444444443,310.0 1188.4444444444443,390 1054.6666666666665,390 1074.6666666666665,310.0" fill="#2BC5B4"/>
+<text x="1142" y="315" font-size="14.5" font-weight="600" fill="#ffffff" text-anchor="middle">Testing</text>
+<polygon points="1220.4444444444443,230 1354.2222222222222,230 1374.2222222222222,310.0 1354.2222222222222,390 1220.4444444444443,390 1240.4444444444443,310.0" fill="#4A5567"/>
+<text x="1307" y="306" font-size="14.5" font-weight="600" fill="#ffffff" text-anchor="middle">Electronics</text>
+<text x="1307" y="324" font-size="14.5" font-weight="600" fill="#ffffff" text-anchor="middle">manufacturing</text>
+<polygon points="1386.2222222222222,230 1520.0,230 1540.0,310.0 1520.0,390 1386.2222222222222,390 1406.2222222222222,310.0" fill="#4A5567"/>
+<text x="1473" y="315" font-size="14.5" font-weight="600" fill="#ffffff" text-anchor="middle">Products</text>
+<rect x="60" y="420" width="24" height="24" fill="#C9A84C"/><text x="92" y="438" font-size="15" fill="#4A5567">High-margin pole (design / EDA / materials / equipment)</text>
+<rect x="620" y="420" width="24" height="24" fill="#4A5567"/><text x="652" y="438" font-size="15" fill="#4A5567">Capital-intensive / lower-margin middle</text>
+<text x="70" y="612" font-size="13" fill="#4A5567">Source: NITI Aayog 2026; Techadyant Labs Missing Links (2026).</text>
+<text x="1530" y="612" font-size="12" fill="#C9A84C" text-anchor="end" font-style="italic">Indicative margins</text>
+</svg>

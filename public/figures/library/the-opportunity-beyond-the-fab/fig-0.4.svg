@@ -1,0 +1,121 @@
+<svg viewBox="0 0 1300 900" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1300" height="900" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">The capital-versus-return matrix</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Where the 100 opportunities fall on capital intensity and overall score.</text>
+<text x="1230" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 0.4 - Techadyant Labs - 2026</text>
+<rect x="180" y="150" width="1000" height="630" fill="#ffffff" stroke="#E8E5DD"/>
+<line x1="680.0" y1="150" x2="680.0" y2="780" stroke="#4A5567" stroke-dasharray="6 5"/>
+<line x1="180" y1="465.0" x2="1180" y2="465.0" stroke="#4A5567" stroke-dasharray="6 5"/>
+<text x="210" y="190" font-size="16" font-weight="700" fill="#2BC5B4" font-family="monospace">LOW CAPITAL / HIGH RETURN</text>
+<text x="210" y="216" font-size="14" fill="#4A5567">Fund first - software, AI, services</text>
+<text x="710.0" y="190" font-size="16" font-weight="700" fill="#C9A84C" font-family="monospace">HIGH CAPITAL / HIGH RETURN</text>
+<text x="710.0" y="216" font-size="14" fill="#4A5567">National bets - OSAT, packaging, EDA</text>
+<text x="210" y="505.0" font-size="16" font-weight="700" fill="#4A5567" font-family="monospace">LOW CAPITAL / LOWER RETURN</text>
+<text x="210" y="531.0" font-size="14" fill="#4A5567">Cash engines - bootstrap</text>
+<text x="710.0" y="505.0" font-size="16" font-weight="700" fill="#C8443B" font-family="monospace">HIGH CAPITAL / LOWER RETURN</text>
+<text x="710.0" y="531.0" font-size="14" fill="#4A5567">Watch / defer</text>
+<circle cx="536" cy="196" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="554" cy="207" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="702" cy="236" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="675" cy="253" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="601" cy="256" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="567" cy="262" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="510" cy="273" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="523" cy="276" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="510" cy="279" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="635" cy="279" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="550" cy="285" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="682" cy="285" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="910" cy="290" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="556" cy="290" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="590" cy="302" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="615" cy="305" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="678" cy="308" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="705" cy="308" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="579" cy="313" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="515" cy="313" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="517" cy="322" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="822" cy="325" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="561" cy="325" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="529" cy="325" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="651" cy="330" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="810" cy="336" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="567" cy="336" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="553" cy="342" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="609" cy="345" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="540" cy="350" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="550" cy="350" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="658" cy="353" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="660" cy="353" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="795" cy="356" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="596" cy="356" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="626" cy="356" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="640" cy="371" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="540" cy="373" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="550" cy="382" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="605" cy="382" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="508" cy="382" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="498" cy="385" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="558" cy="385" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="558" cy="385" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="590" cy="388" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="872" cy="396" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="557" cy="396" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="822" cy="399" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="685" cy="399" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="609" cy="405" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="585" cy="408" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="612" cy="411" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="498" cy="419" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="622" cy="419" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="500" cy="422" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="572" cy="428" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="640" cy="428" r="7" fill="#C8443B" fill-opacity="0.5"/>
+<circle cx="500" cy="436" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="758" cy="436" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="527" cy="439" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="535" cy="442" r="7" fill="#2BC5B4" fill-opacity="0.5"/>
+<circle cx="748" cy="445" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="468" cy="445" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="609" cy="445" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="609" cy="448" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="481" cy="448" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="710" cy="454" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="501" cy="454" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="778" cy="456" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="525" cy="456" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="492" cy="456" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="472" cy="456" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="710" cy="471" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="495" cy="471" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="497" cy="471" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="650" cy="474" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="486" cy="476" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="584" cy="476" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="692" cy="482" r="7" fill="#C8443B" fill-opacity="0.5"/>
+<circle cx="586" cy="485" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="486" cy="491" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="491" cy="494" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="675" cy="496" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="584" cy="502" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="852" cy="505" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="467" cy="505" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="680" cy="517" r="7" fill="#C8443B" fill-opacity="0.5"/>
+<circle cx="680" cy="519" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="705" cy="531" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="700" cy="539" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="553" cy="539" r="7" fill="#C8443B" fill-opacity="0.5"/>
+<circle cx="645" cy="542" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="670" cy="551" r="7" fill="#C8443B" fill-opacity="0.5"/>
+<circle cx="472" cy="557" r="7" fill="#4A5567" fill-opacity="0.5"/>
+<circle cx="845" cy="585" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="715" cy="625" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="728" cy="637" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="692" cy="654" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="672" cy="663" r="7" fill="#C9A84C" fill-opacity="0.5"/>
+<circle cx="628" cy="677" r="7" fill="#C8443B" fill-opacity="0.5"/>
+<text x="680" y="825" font-size="15" fill="#0F1828" text-anchor="middle">Capital intensity &#8594;</text>
+<text x="125" y="465" font-size="15" fill="#0F1828" text-anchor="middle" transform="rotate(-90 125 465)">Overall score (TOMI) &#8594;</text>
+<text x="70" y="872" font-size="13" fill="#4A5567">Source: Techadyant Labs TOMI/GEM scoring.</text>
+<text x="1230" y="872" font-size="12" fill="#C9A84C" text-anchor="end" font-style="italic">Indicative</text>
+</svg>

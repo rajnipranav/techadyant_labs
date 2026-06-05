@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1600 820" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1600" height="820" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">The US-China technology conflict, by front</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Five theatres, one pattern: control concentrates, then is weaponised.</text>
+<text x="1530" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 1.2 - Techadyant Labs - 2026</text>
+<line x1="260" y1="150" x2="260" y2="710" stroke="#E8E5DD"/>
+<text x="260" y="140" font-size="13" fill="#4A5567" text-anchor="middle" font-family="monospace">2018</text>
+<line x1="575" y1="150" x2="575" y2="710" stroke="#E8E5DD"/>
+<text x="575" y="140" font-size="13" fill="#4A5567" text-anchor="middle" font-family="monospace">2020</text>
+<line x1="890" y1="150" x2="890" y2="710" stroke="#E8E5DD"/>
+<text x="890" y="140" font-size="13" fill="#4A5567" text-anchor="middle" font-family="monospace">2022</text>
+<line x1="1205" y1="150" x2="1205" y2="710" stroke="#E8E5DD"/>
+<text x="1205" y="140" font-size="13" fill="#4A5567" text-anchor="middle" font-family="monospace">2024</text>
+<line x1="1520" y1="150" x2="1520" y2="710" stroke="#E8E5DD"/>
+<text x="1520" y="140" font-size="13" fill="#4A5567" text-anchor="middle" font-family="monospace">2026</text>
+<text x="80" y="220" font-size="18" fill="#0F1828" font-weight="600">Chips</text>
+<line x1="260" y1="215" x2="1520" y2="215" stroke="#E8E5DD" stroke-width="2"/>
+<circle cx="890" cy="215" r="8" fill="#C8443B"/>
+<text x="890" y="199" font-size="12.5" fill="#4A5567" text-anchor="middle">Oct-22 export controls</text>
+<circle cx="1362" cy="215" r="8" fill="#C8443B"/>
+<text x="1362" y="199" font-size="12.5" fill="#4A5567" text-anchor="middle">EDA halt to China</text>
+<text x="80" y="330" font-size="18" fill="#0F1828" font-weight="600">AI</text>
+<line x1="260" y1="325" x2="1520" y2="325" stroke="#E8E5DD" stroke-width="2"/>
+<circle cx="1048" cy="325" r="8" fill="#C8443B"/>
+<text x="1048" y="309" font-size="12.5" fill="#4A5567" text-anchor="middle">GPU export limits</text>
+<circle cx="1362" cy="325" r="8" fill="#C9A84C"/>
+<text x="1362" y="309" font-size="12.5" fill="#4A5567" text-anchor="middle">Model/compute curbs</text>
+<text x="80" y="440" font-size="18" fill="#0F1828" font-weight="600">Telecom</text>
+<line x1="260" y1="435" x2="1520" y2="435" stroke="#E8E5DD" stroke-width="2"/>
+<circle cx="418" cy="435" r="8" fill="#C8443B"/>
+<text x="418" y="419" font-size="12.5" fill="#4A5567" text-anchor="middle">5G vendor bans</text>
+<circle cx="575" cy="435" r="8" fill="#C9A84C"/>
+<text x="575" y="419" font-size="12.5" fill="#4A5567" text-anchor="middle">Entity-list expansion</text>
+<text x="80" y="550" font-size="18" fill="#0F1828" font-weight="600">Cloud</text>
+<line x1="260" y1="545" x2="1520" y2="545" stroke="#E8E5DD" stroke-width="2"/>
+<circle cx="1205" cy="545" r="8" fill="#C9A84C"/>
+<text x="1205" y="529" font-size="12.5" fill="#4A5567" text-anchor="middle">Cloud-access rules</text>
+<text x="80" y="660" font-size="18" fill="#0F1828" font-weight="600">Quantum</text>
+<line x1="260" y1="655" x2="1520" y2="655" stroke="#E8E5DD" stroke-width="2"/>
+<circle cx="1205" cy="655" r="8" fill="#C9A84C"/>
+<text x="1205" y="639" font-size="12.5" fill="#4A5567" text-anchor="middle">Quantum outbound-investment screen</text>
+<text x="70" y="792" font-size="13" fill="#4A5567">Source: USTR; US BIS export-control notices; Techadyant Labs analysis.</text>
+<text x="1530" y="792" font-size="12" fill="#C9A84C" text-anchor="end" font-style="italic">Selected events</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1400 700" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1400" height="700" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">The entry wedge: OSAT vs a front-end fab</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Capital to enter, USD. An OSAT line is a fraction of a fab.</text>
+<text x="1330" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 2.5 - Techadyant Labs - 2026</text>
+<rect x="160" y="532" width="260" height="8" rx="6" fill="#2BC5B4"/>
+<text x="290.0" y="518" font-size="22" fill="#0F1828" text-anchor="middle" font-weight="700" font-family="monospace">&lt; $20m</text>
+<text x="290.0" y="574" font-size="16" fill="#4A5567" text-anchor="middle">Precision-component line</text>
+<rect x="540" y="521" width="260" height="19" rx="6" fill="#C9A84C"/>
+<text x="670.0" y="507" font-size="22" fill="#0F1828" text-anchor="middle" font-weight="700" font-family="monospace">$200-800m</text>
+<text x="670.0" y="574" font-size="16" fill="#4A5567" text-anchor="middle">OSAT / ATMP line</text>
+<rect x="920" y="160" width="260" height="380" rx="6" fill="#0F1828"/>
+<text x="1050.0" y="146" font-size="22" fill="#0F1828" text-anchor="middle" font-weight="700" font-family="monospace">$5-15bn</text>
+<text x="1050.0" y="574" font-size="16" fill="#4A5567" text-anchor="middle">Front-end logic fab</text>
+<text x="70" y="672" font-size="13" fill="#4A5567">Source: NITI Aayog 2026; Techadyant Labs Missing Links (2026).</text>
+<text x="1330" y="672" font-size="12" fill="#C9A84C" text-anchor="end" font-style="italic">Indicative scale</text>
+</svg>

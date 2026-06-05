@@ -1,0 +1,26 @@
+<svg viewBox="0 0 1300 860" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1300" height="860" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">The Indian challenger landscape</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Where domestic software can win: the under-served MSME, not the global enterprise.</text>
+<text x="1230" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 3.3 - Techadyant Labs - 2026</text>
+<rect x="180" y="160" width="1000" height="570" fill="#ffffff" stroke="#E8E5DD"/>
+<line x1="680.0" y1="160" x2="680.0" y2="730" stroke="#4A5567" stroke-dasharray="6 5"/>
+<line x1="180" y1="445.0" x2="1180" y2="445.0" stroke="#4A5567" stroke-dasharray="6 5"/>
+<circle cx="500" cy="325" r="14" fill="#2BC5B4"/>
+<text x="522" y="330" font-size="16" fill="#0F1828">ERP</text>
+<circle cx="800" cy="325" r="14" fill="#2BC5B4"/>
+<text x="822" y="330" font-size="16" fill="#0F1828">MES</text>
+<circle cx="830" cy="525" r="14" fill="#C9A84C"/>
+<text x="852" y="530" font-size="16" fill="#0F1828">PLM</text>
+<circle cx="460" cy="485" r="14" fill="#2BC5B4"/>
+<text x="482" y="490" font-size="16" fill="#0F1828">Quality systems</text>
+<circle cx="500" cy="585" r="14" fill="#2BC5B4"/>
+<text x="522" y="590" font-size="16" fill="#0F1828">Supply chain</text>
+<circle cx="770" cy="595" r="14" fill="#C9A84C"/>
+<text x="792" y="600" font-size="16" fill="#0F1828">Factory intelligence</text>
+<text x="680" y="772" font-size="15" fill="#0F1828" text-anchor="middle">Incumbent strength &#8594;</text>
+<text x="125" y="445" font-size="15" fill="#0F1828" text-anchor="middle" transform="rotate(-90 125 445)">MSME white space &#8594;</text>
+<text x="204" y="194" font-size="14" fill="#2BC5B4" font-weight="700" font-family="monospace">CHALLENGER WHITE SPACE</text>
+<text x="70" y="832" font-size="13" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+<text x="1230" y="832" font-size="12" fill="#C9A84C" text-anchor="end" font-style="italic">Indicative positioning</text>
+</svg>

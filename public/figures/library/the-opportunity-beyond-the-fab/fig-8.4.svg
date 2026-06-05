@@ -1,0 +1,40 @@
+<svg viewBox="0 0 820 820" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="820" height="820" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="26" font-weight="700" fill="#0F1828">State dashboard: Maharashtra</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Seven-axis readiness (0-100). Composite 78.7.</text>
+<text x="70" y="774" font-size="13" fill="#4A5567" font-family="monospace">Figure 8.4 - Techadyant Labs - 2026</text>
+<polygon points="410.0,381.2 455.9,403.4 467.3,453.1 435.5,492.9 384.5,492.9 352.7,453.1 364.1,403.4" fill="none" stroke="#E8E5DD" stroke-width="1.5"/>
+<polygon points="410.0,322.5 501.9,366.7 524.6,466.1 461.0,545.9 359.0,545.9 295.4,466.1 318.1,366.7" fill="none" stroke="#E8E5DD" stroke-width="1.5"/>
+<polygon points="410.0,263.8 547.8,330.1 581.8,479.2 486.5,598.8 333.5,598.8 238.2,479.2 272.2,330.1" fill="none" stroke="#E8E5DD" stroke-width="1.5"/>
+<polygon points="410.0,205.0 593.7,293.5 639.1,492.3 512.0,651.7 308.0,651.7 180.9,492.3 226.3,293.5" fill="none" stroke="#E8E5DD" stroke-width="1.5"/>
+<line x1="410.0" y1="440.0" x2="410.0" y2="205.0" stroke="#E8E5DD"/>
+<text x="410.0" y="163.0" font-size="13" fill="#0F1828" text-anchor="middle" font-weight="600">Components fit</text>
+<line x1="410.0" y1="440.0" x2="593.7" y2="293.5" stroke="#E8E5DD"/>
+<text x="626.6" y="260.3" font-size="13" fill="#0F1828" text-anchor="start" font-weight="600">Investment</text>
+<text x="626.6" y="275.3" font-size="13" fill="#0F1828" text-anchor="start" font-weight="600">attractiveness</text>
+<line x1="410.0" y1="440.0" x2="639.1" y2="492.3" stroke="#E8E5DD"/>
+<text x="680.1" y="494.6" font-size="13" fill="#0F1828" text-anchor="start" font-weight="600">Skill</text>
+<text x="680.1" y="509.6" font-size="13" fill="#0F1828" text-anchor="start" font-weight="600">availability</text>
+<line x1="410.0" y1="440.0" x2="512.0" y2="651.7" stroke="#E8E5DD"/>
+<text x="530.2" y="682.6" font-size="13" fill="#0F1828" text-anchor="start" font-weight="600">Industrial</text>
+<text x="530.2" y="697.6" font-size="13" fill="#0F1828" text-anchor="start" font-weight="600">base</text>
+<line x1="410.0" y1="440.0" x2="308.0" y2="651.7" stroke="#E8E5DD"/>
+<text x="289.8" y="682.6" font-size="13" fill="#0F1828" text-anchor="end" font-weight="600">Policy</text>
+<text x="289.8" y="697.6" font-size="13" fill="#0F1828" text-anchor="end" font-weight="600">support</text>
+<line x1="410.0" y1="440.0" x2="180.9" y2="492.3" stroke="#E8E5DD"/>
+<text x="139.9" y="494.6" font-size="13" fill="#0F1828" text-anchor="end" font-weight="600">Startup</text>
+<text x="139.9" y="509.6" font-size="13" fill="#0F1828" text-anchor="end" font-weight="600">ecosystem</text>
+<line x1="410.0" y1="440.0" x2="226.3" y2="293.5" stroke="#E8E5DD"/>
+<text x="193.4" y="260.3" font-size="13" fill="#0F1828" text-anchor="end" font-weight="600">Export</text>
+<text x="193.4" y="275.3" font-size="13" fill="#0F1828" text-anchor="end" font-weight="600">infrastructure</text>
+<polygon points="410.0,275.5 560.7,319.9 593.3,481.8 496.7,620.0 336.6,592.4 222.1,482.9 263.0,322.8" fill="#2BC5B4" fill-opacity="0.35" stroke="#2BC5B4" stroke-width="2.5"/>
+<circle cx="410.0" cy="275.5" r="4" fill="#2BC5B4"/>
+<circle cx="560.7" cy="319.9" r="4" fill="#2BC5B4"/>
+<circle cx="593.3" cy="481.8" r="4" fill="#2BC5B4"/>
+<circle cx="496.7" cy="620.0" r="4" fill="#2BC5B4"/>
+<circle cx="336.6" cy="592.4" r="4" fill="#2BC5B4"/>
+<circle cx="222.1" cy="482.9" r="4" fill="#2BC5B4"/>
+<circle cx="263.0" cy="322.8" r="4" fill="#2BC5B4"/>
+<text x="70" y="792" font-size="13" fill="#4A5567">Source: Techadyant Labs state scoring; state IDC publications; ISM.</text>
+<text x="750" y="792" font-size="12" fill="#C9A84C" text-anchor="end" font-style="italic">Indicative</text>
+</svg>

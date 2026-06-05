@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1600 520" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1600" height="520" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">The technology-sovereignty economy in 2035</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">From materials to GDP impact: the shape of what gets built.</text>
+<text x="1530" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 11.2 - Techadyant Labs - 2026</text>
+<polygon points="50.0,210 235.71428571428572,210 255.71428571428572,285.0 235.71428571428572,360 50.0,360" fill="#C8443B"/>
+<text x="163" y="283" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">Materials</text>
+<text x="163" y="305" font-size="11.5" fill="#ffffff" text-anchor="middle">SiC/GaN base</text>
+<polygon points="265.7142857142857,210 451.42857142857144,210 471.42857142857144,285.0 451.42857142857144,360 265.7142857142857,360 285.7142857142857,285.0" fill="#C9A84C"/>
+<text x="379" y="283" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">Manufacturing</text>
+<text x="379" y="305" font-size="11.5" fill="#0F1828" text-anchor="middle">$120-150bn chain</text>
+<polygon points="481.42857142857144,210 667.1428571428571,210 687.1428571428571,285.0 667.1428571428571,360 481.42857142857144,360 501.42857142857144,285.0" fill="#2BC5B4"/>
+<text x="594" y="283" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">Software</text>
+<text x="594" y="305" font-size="11.5" fill="#ffffff" text-anchor="middle">MSME stack</text>
+<polygon points="697.1428571428571,210 882.8571428571429,210 902.8571428571429,285.0 882.8571428571429,360 697.1428571428571,360 717.1428571428571,285.0" fill="#0F1828"/>
+<text x="810" y="283" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">AI</text>
+<text x="810" y="305" font-size="11.5" fill="#ffffff" text-anchor="middle">~80% line adoption</text>
+<polygon points="912.8571428571429,210 1098.5714285714287,210 1118.5714285714287,285.0 1098.5714285714287,360 912.8571428571429,360 932.8571428571429,285.0" fill="#2BC5B4"/>
+<text x="1026" y="283" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">Cybersecurity</text>
+<text x="1026" y="305" font-size="11.5" fill="#ffffff" text-anchor="middle">OT/ICS sovereign</text>
+<polygon points="1128.5714285714287,210 1314.2857142857144,210 1334.2857142857144,285.0 1314.2857142857144,360 1128.5714285714287,360 1148.5714285714287,285.0" fill="#C9A84C"/>
+<text x="1241" y="283" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">Exports</text>
+<text x="1241" y="305" font-size="11.5" fill="#0F1828" text-anchor="middle">trusted supplier</text>
+<polygon points="1344.2857142857142,210 1530.0,210 1550.0,285.0 1530.0,360 1344.2857142857142,360 1364.2857142857142,285.0" fill="#0F1828"/>
+<text x="1457" y="283" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">GDP impact</text>
+<text x="1457" y="305" font-size="11.5" fill="#ffffff" text-anchor="middle">jobs + value capture</text>
+<text x="70" y="492" font-size="13" fill="#4A5567">Source: NITI Aayog roadmap targets (2026); Techadyant Labs modelling.</text>
+<text x="1530" y="492" font-size="12" fill="#C9A84C" text-anchor="end" font-style="italic">Forecast / modelled</text>
+</svg>

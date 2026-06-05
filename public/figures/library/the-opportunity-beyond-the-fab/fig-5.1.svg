@@ -1,0 +1,31 @@
+<svg viewBox="0 0 1400 760" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1400" height="760" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">The global engineering-software landscape</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Every design-tool category is held by a small set of foreign firms.</text>
+<text x="1330" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 5.1 - Techadyant Labs - 2026</text>
+<rect x="70" y="190" width="600" height="160" rx="10" fill="#ffffff" stroke="#C8443B" stroke-width="2"/>
+<text x="94" y="238" font-size="21" font-weight="700" fill="#0F1828">EDA</text>
+<text x="94" y="280" font-size="16" fill="#C8443B">Synopsys, Cadence, Siemens</text>
+<text x="94" y="314" font-size="12.5" fill="#4A5567" font-family="monospace">FOREIGN-HELD</text>
+<rect x="710" y="190" width="600" height="160" rx="10" fill="#ffffff" stroke="#C8443B" stroke-width="2"/>
+<text x="734" y="238" font-size="21" font-weight="700" fill="#0F1828">CAD</text>
+<text x="734" y="280" font-size="16" fill="#C8443B">Dassault, Autodesk, Siemens</text>
+<text x="734" y="314" font-size="12.5" fill="#4A5567" font-family="monospace">FOREIGN-HELD</text>
+<rect x="70" y="390" width="600" height="160" rx="10" fill="#ffffff" stroke="#C8443B" stroke-width="2"/>
+<text x="94" y="438" font-size="21" font-weight="700" fill="#0F1828">CAE / FEA</text>
+<text x="94" y="480" font-size="16" fill="#C8443B">Ansys, Dassault, Altair</text>
+<text x="94" y="514" font-size="12.5" fill="#4A5567" font-family="monospace">FOREIGN-HELD</text>
+<rect x="710" y="390" width="600" height="160" rx="10" fill="#ffffff" stroke="#C8443B" stroke-width="2"/>
+<text x="734" y="438" font-size="21" font-weight="700" fill="#0F1828">CFD / thermal</text>
+<text x="734" y="480" font-size="16" fill="#C8443B">Ansys, Siemens, Cadence</text>
+<text x="734" y="514" font-size="12.5" fill="#4A5567" font-family="monospace">FOREIGN-HELD</text>
+<rect x="70" y="590" width="600" height="160" rx="10" fill="#ffffff" stroke="#C8443B" stroke-width="2"/>
+<text x="94" y="638" font-size="21" font-weight="700" fill="#0F1828">PCB design</text>
+<text x="94" y="680" font-size="16" fill="#C8443B">Cadence, Altium, Zuken</text>
+<text x="94" y="714" font-size="12.5" fill="#4A5567" font-family="monospace">FOREIGN-HELD</text>
+<rect x="710" y="590" width="600" height="160" rx="10" fill="#ffffff" stroke="#C8443B" stroke-width="2"/>
+<text x="734" y="638" font-size="21" font-weight="700" fill="#0F1828">Reliability</text>
+<text x="734" y="680" font-size="16" fill="#C8443B">Ansys, Synopsys</text>
+<text x="734" y="714" font-size="12.5" fill="#4A5567" font-family="monospace">FOREIGN-HELD</text>
+<text x="70" y="732" font-size="13" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+</svg>

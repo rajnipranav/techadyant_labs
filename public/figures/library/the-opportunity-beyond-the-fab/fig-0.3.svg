@@ -1,0 +1,25 @@
+<svg viewBox="0 0 1300 820" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1300" height="820" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">Where the 100 opportunities sit</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Distribution by sector. n = 100.</text>
+<text x="1230" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 0.3 - Techadyant Labs - 2026</text>
+<path d="M 460.0 200.0 A 260 260 0 0 1 715.4 508.7 L 587.7 484.4 A 130 130 0 0 0 460.0 330.0 Z" fill="#2BC5B4"/>
+<path d="M 715.4 508.7 A 260 260 0 0 1 555.7 701.7 L 507.9 580.9 A 130 130 0 0 0 587.7 484.4 Z" fill="#C9A84C"/>
+<path d="M 555.7 701.7 A 260 260 0 0 1 282.0 649.5 L 371.0 554.8 A 130 130 0 0 0 507.9 580.9 Z" fill="#0F1828"/>
+<path d="M 282.0 649.5 A 260 260 0 0 1 200.5 476.3 L 330.3 468.2 A 130 130 0 0 0 371.0 554.8 Z" fill="#4A5567"/>
+<path d="M 200.5 476.3 A 260 260 0 0 1 259.7 294.3 L 359.8 377.1 A 130 130 0 0 0 330.3 468.2 Z" fill="#C8443B"/>
+<path d="M 259.7 294.3 A 260 260 0 0 1 460.0 200.0 L 460.0 330.0 A 130 130 0 0 0 359.8 377.1 Z" fill="#7FB7AE"/>
+<rect x="820" y="242" width="26" height="26" rx="5" fill="#2BC5B4"/>
+<text x="858" y="260" font-size="19" fill="#0F1828">Semiconductor (28)</text>
+<rect x="820" y="294" width="26" height="26" rx="5" fill="#C9A84C"/>
+<text x="858" y="312" font-size="19" fill="#0F1828">Industrial Software (16)</text>
+<rect x="820" y="346" width="26" height="26" rx="5" fill="#0F1828"/>
+<text x="858" y="364" font-size="19" fill="#0F1828">AI (18)</text>
+<rect x="820" y="398" width="26" height="26" rx="5" fill="#4A5567"/>
+<text x="858" y="416" font-size="19" fill="#0F1828">Engineering Software (12)</text>
+<rect x="820" y="450" width="26" height="26" rx="5" fill="#C8443B"/>
+<text x="858" y="468" font-size="19" fill="#0F1828">Cybersecurity (12)</text>
+<rect x="820" y="502" width="26" height="26" rx="5" fill="#7FB7AE"/>
+<text x="858" y="520" font-size="19" fill="#0F1828">Export &amp; Services (14)</text>
+<text x="70" y="792" font-size="13" fill="#4A5567">Source: Techadyant Labs opportunity scoring.</text>
+</svg>

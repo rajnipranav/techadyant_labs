@@ -48,6 +48,39 @@ const synced: Record<string, SyncedMeta> = metaJson as Record<string, SyncedMeta
  *  `npm run sync-meta` after a PDF is added/updated. */
 const baseReports: ReportMeta[] = [
   {
+    slug: 'the-opportunity-beyond-the-fab',
+    title: 'The Opportunity Beyond the Fab',
+    subtitle: 'Startup and MSME Opportunities Emerging from India’s Technology Sovereignty Economy (2026–2035)',
+    domain: 'Technology Sovereignty Opportunity',
+    edition: 'Strategic Opportunity · Technology Sovereignty Series · v1.0',
+    published: '2026-06-03',
+    publishedLabel: 'June 2026',
+    readingTime: '~ 3h read',
+    status: 'published',
+    accent: '#2BC5B4',
+    summary:
+      'India has committed roughly ₹1.6 lakh crore to semiconductor manufacturing — thirteen projects across seven states. The fab gets the headlines, but it is the visible peak of a ten-layer industrial pyramid, and the layers around it are where most of the capturable value sits and where India’s existing MSME and talent base can actually compete. This report identifies, scores and ranks 100 startup and MSME opportunities across the full technology-sovereignty stack — materials, precision components, industrial software, AI, engineering software, cybersecurity and export — using five proprietary frameworks (TOMI, TSVI, IRR, GEM, SOE). 167 pages, 43 figures, 100 one-page scorecards, 10 state dashboards, a master opportunity map. The opportunity is around the fab, not instead of it.',
+    access: 'paid',
+    price: 6999,
+    currency: 'INR',
+    hasPdf: true,
+    pages: 167,
+    cover: '/covers/the-opportunity-beyond-the-fab.jpg',
+    previewObject: 'the-opportunity-beyond-the-fab-preview.pdf',
+    previewPages: 10,
+    dateModified: '2026-06-03',
+    keywords: [
+      'India semiconductor opportunity', 'startup opportunities India semiconductors', 'MSME semiconductor supply chain',
+      'OSAT India', 'advanced packaging India', 'RISC-V India', 'chip design services export',
+      'technology sovereignty India', 'India Semiconductor Mission opportunity', 'beyond the fab',
+    ],
+    faq: [
+      { q: 'What is the biggest opportunity in India’s semiconductor push?', a: 'Not the fab. The two highest-scoring opportunities of the 100 we rank are engineering-R&D services export and chip-design services export — capabilities India already has at world scale. The strongest opportunities are where India brings an existing industrial or talent asset, not the most capital-intensive ones.' },
+      { q: 'How many opportunities does the report cover, and how are they scored?', a: 'One hundred, each scored on a single reproducible system of five proprietary indices — TOMI (headline), with TSVI, IRR and GEM as diagnostics and the SOE engine sorting them into Strategic Quick Wins, National Bets, Cash Engines and Watch.' },
+      { q: 'Can an MSME or startup enter the semiconductor economy without building a fab?', a: 'Yes — that is the central finding. A front-end fab costs USD 5–15bn; an OSAT line USD 200–800m; a precision-component line a fraction of that. The report maps the lower-capital entry points across materials, software, AI, security and services, with one-page scorecards for all 100.' },
+    ],
+  },
+  {
     slug: 'the-sap-question',
     title: 'The SAP Question',
     subtitle: 'India’s Enterprise Technology Sovereignty Report 2026–2035 — Who Really Controls the Software India Runs On?',

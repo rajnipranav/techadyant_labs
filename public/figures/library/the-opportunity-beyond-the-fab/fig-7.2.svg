@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1600 460" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1600" height="460" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">The export-readiness path</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Five steps from domestic capability to global supply.</text>
+<text x="1530" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 7.2 - Techadyant Labs - 2026</text>
+<polygon points="70.0,200 328.8,200 350.8,270.0 328.8,340 70.0,340" fill="#4A5567"/>
+<text x="221" y="276" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">Capability</text>
+<polygon points="364.8,200 623.6,200 645.6,270.0 623.6,340 364.8,340 386.8,270.0" fill="#2BC5B4"/>
+<text x="516" y="276" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">Certification</text>
+<polygon points="659.6,200 918.4000000000001,200 940.4000000000001,270.0 918.4000000000001,340 659.6,340 681.6,270.0" fill="#C9A84C"/>
+<text x="811" y="276" font-size="18" font-weight="600" fill="#0F1828" text-anchor="middle">Pilot</text>
+<polygon points="954.4000000000001,200 1213.2,200 1235.2,270.0 1213.2,340 954.4000000000001,340 976.4000000000001,270.0" fill="#2BC5B4"/>
+<text x="1106" y="276" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">Customer</text>
+<polygon points="1249.2,200 1508.0,200 1530.0,270.0 1508.0,340 1249.2,340 1271.2,270.0" fill="#0F1828"/>
+<text x="1401" y="276" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">Scale</text>
+<text x="70" y="432" font-size="13" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+</svg>

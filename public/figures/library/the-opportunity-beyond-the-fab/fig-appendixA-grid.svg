@@ -1,0 +1,522 @@
+<svg viewBox="0 0 1600 2150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1600" height="2150" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">The 100 opportunities at a glance</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Every opportunity as a tile, grouped by part, coloured by portfolio class, sized label = TOMI.</text>
+<text x="1530" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Appendix A grid - Techadyant Labs - 2026</text>
+<rect x="70" y="106" width="20" height="20" rx="4" fill="#2BC5B4"/>
+<text x="98" y="122" font-size="14" fill="#4A5567">Strategic Quick Win</text>
+<rect x="410" y="106" width="20" height="20" rx="4" fill="#C9A84C"/>
+<text x="438" y="122" font-size="14" fill="#4A5567">National Bet</text>
+<rect x="750" y="106" width="20" height="20" rx="4" fill="#4A5567"/>
+<text x="778" y="122" font-size="14" fill="#4A5567">Cash Engine</text>
+<rect x="1090" y="106" width="20" height="20" rx="4" fill="#C8443B"/>
+<text x="1118" y="122" font-size="14" fill="#4A5567">Watch / Defer</text>
+<text x="70" y="184" font-size="17" fill="#0F1828" font-weight="700">Part II - Semiconductor (28)</text>
+<rect x="70" y="200" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="200" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="88" y="224" font-size="11.5" fill="#0F1828" font-weight="600">Precision machining: vacuum c…</text>
+<text x="88" y="245" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-017 · L3</text>
+<text x="358" y="238" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">69.0</text>
+<rect x="384" y="200" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="200" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="402" y="224" font-size="11.5" fill="#0F1828" font-weight="600">Advanced packaging (2.5D/3D, …</text>
+<text x="402" y="245" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-013 · L2</text>
+<text x="672" y="238" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">67.1</text>
+<rect x="698" y="200" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="200" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="716" y="224" font-size="11.5" fill="#0F1828" font-weight="600">Stainless-steel bellows and f…</text>
+<text x="716" y="245" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-018 · L3</text>
+<text x="986" y="238" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">66.6</text>
+<rect x="1012" y="200" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="200" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1030" y="224" font-size="11.5" fill="#0F1828" font-weight="600">OSAT/ATMP assembly and test l…</text>
+<text x="1030" y="245" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-012 · L2</text>
+<text x="1300" y="238" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">65.9</text>
+<rect x="1326" y="200" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="200" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="224" font-size="11.5" fill="#0F1828" font-weight="600">Silicon carbide (SiC) substra…</text>
+<text x="1344" y="245" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-007 · L1</text>
+<text x="1614" y="238" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">65.5</text>
+<rect x="70" y="270" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="270" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="88" y="294" font-size="11.5" fill="#0F1828" font-weight="600">Gallium nitride (GaN) epitaxy…</text>
+<text x="88" y="315" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-008 · L1</text>
+<text x="358" y="308" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">64.8</text>
+<rect x="384" y="270" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="270" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="402" y="294" font-size="11.5" fill="#0F1828" font-weight="600">Advanced packaging substrates…</text>
+<text x="402" y="315" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-009 · L1</text>
+<text x="672" y="308" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">63.4</text>
+<rect x="698" y="270" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="270" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="716" y="294" font-size="11.5" fill="#0F1828" font-weight="600">Wafer-level / fan-out packagi…</text>
+<text x="716" y="315" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-014 · L2</text>
+<text x="986" y="308" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">63.3</text>
+<rect x="1012" y="270" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="270" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="1030" y="294" font-size="11.5" fill="#0F1828" font-weight="600">Thermal management assemblies…</text>
+<text x="1030" y="315" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-019 · L3</text>
+<text x="1300" y="308" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">62.9</text>
+<rect x="1326" y="270" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="270" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="294" font-size="11.5" fill="#0F1828" font-weight="600">Electronic-grade specialty ga…</text>
+<text x="1344" y="315" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-001 · L1</text>
+<text x="1614" y="308" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">61.7</text>
+<rect x="70" y="340" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="340" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="88" y="364" font-size="11.5" fill="#0F1828" font-weight="600">Gas/chemical delivery systems…</text>
+<text x="88" y="385" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-020 · L3</text>
+<text x="358" y="378" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">61.4</text>
+<rect x="384" y="340" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="340" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="402" y="364" font-size="11.5" fill="#0F1828" font-weight="600">Metrology and inspection sub-…</text>
+<text x="402" y="385" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-026 · L3</text>
+<text x="672" y="378" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">61.3</text>
+<rect x="698" y="340" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="340" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="716" y="364" font-size="11.5" fill="#0F1828" font-weight="600">Ultra-high-purity wet chemica…</text>
+<text x="716" y="385" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-002 · L1</text>
+<text x="986" y="378" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">60.8</text>
+<rect x="1012" y="340" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="340" width="8" height="58" rx="2" fill="#C8443B"/>
+<text x="1030" y="364" font-size="11.5" fill="#0F1828" font-weight="600">Fab construction and cleanroo…</text>
+<text x="1030" y="385" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-028 · L2</text>
+<text x="1300" y="378" font-size="22" fill="#C8443B" text-anchor="end" font-weight="700" font-family="monospace">60.4</text>
+<rect x="1326" y="340" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="340" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="364" font-size="11.5" fill="#0F1828" font-weight="600">Semiconductor-grade quartzwar…</text>
+<text x="1344" y="385" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-025 · L3</text>
+<text x="1614" y="378" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">59.9</text>
+<rect x="70" y="410" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="410" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="88" y="434" font-size="11.5" fill="#0F1828" font-weight="600">Lithography optics and reticl…</text>
+<text x="88" y="455" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-027 · L3</text>
+<text x="358" y="448" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">59.6</text>
+<rect x="384" y="410" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="410" width="8" height="58" rx="2" fill="#C8443B"/>
+<text x="402" y="434" font-size="11.5" fill="#0F1828" font-weight="600">Cleanroom HVAC and FFU integr…</text>
+<text x="402" y="455" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-021 · L3</text>
+<text x="672" y="448" font-size="22" fill="#C8443B" text-anchor="end" font-weight="700" font-family="monospace">59.2</text>
+<rect x="698" y="410" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="410" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="716" y="434" font-size="11.5" fill="#0F1828" font-weight="600">Ultra-pure water (UPW) systems</text>
+<text x="716" y="455" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-022 · L3</text>
+<text x="986" y="448" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">59.1</text>
+<rect x="1012" y="410" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="410" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1030" y="434" font-size="11.5" fill="#0F1828" font-weight="600">Test and burn-in services</text>
+<text x="1030" y="455" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-015 · L2</text>
+<text x="1300" y="448" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">58.7</text>
+<rect x="1326" y="410" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="410" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="434" font-size="11.5" fill="#0F1828" font-weight="600">Probe cards and test sockets</text>
+<text x="1344" y="455" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-016 · L3</text>
+<text x="1614" y="448" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">58.4</text>
+<rect x="70" y="480" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="480" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="88" y="504" font-size="11.5" fill="#0F1828" font-weight="600">Industrial gas purification a…</text>
+<text x="88" y="525" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-024 · L3</text>
+<text x="358" y="518" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">58.3</text>
+<rect x="384" y="480" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="480" width="8" height="58" rx="2" fill="#C8443B"/>
+<text x="402" y="504" font-size="11.5" fill="#0F1828" font-weight="600">Rotary UPS and power conditio…</text>
+<text x="402" y="525" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-023 · L3</text>
+<text x="672" y="518" font-size="22" fill="#C8443B" text-anchor="end" font-weight="700" font-family="monospace">58.0</text>
+<rect x="698" y="480" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="480" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="716" y="504" font-size="11.5" fill="#0F1828" font-weight="600">Photoresists and ancillaries</text>
+<text x="716" y="525" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-003 · L1</text>
+<text x="986" y="518" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">56.8</text>
+<rect x="1012" y="480" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="480" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1030" y="504" font-size="11.5" fill="#0F1828" font-weight="600">CMP slurries and pads</text>
+<text x="1030" y="525" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-004 · L1</text>
+<text x="1300" y="518" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">55.4</text>
+<rect x="1326" y="480" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="480" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="504" font-size="11.5" fill="#0F1828" font-weight="600">Silicon wafer polishing and r…</text>
+<text x="1344" y="525" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-005 · L1</text>
+<text x="1614" y="518" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">55.0</text>
+<rect x="70" y="550" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="550" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="88" y="574" font-size="11.5" fill="#0F1828" font-weight="600">Epoxy mould compounds (EMC) a…</text>
+<text x="88" y="595" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-011 · L1</text>
+<text x="358" y="588" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">54.4</text>
+<rect x="384" y="550" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="550" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="402" y="574" font-size="11.5" fill="#0F1828" font-weight="600">Sputtering targets and evapor…</text>
+<text x="402" y="595" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-006 · L1</text>
+<text x="672" y="588" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">54.1</text>
+<rect x="698" y="550" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="550" width="8" height="58" rx="2" fill="#C8443B"/>
+<text x="716" y="574" font-size="11.5" fill="#0F1828" font-weight="600">Lead frames and bonding wire</text>
+<text x="716" y="595" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-010 · L1</text>
+<text x="986" y="588" font-size="22" fill="#C8443B" text-anchor="end" font-weight="700" font-family="monospace">53.6</text>
+<text x="70" y="646" font-size="17" fill="#0F1828" font-weight="700">Part III - Industrial Software (16)</text>
+<rect x="70" y="662" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="662" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="88" y="686" font-size="11.5" fill="#0F1828" font-weight="600">Industrial ERP for MSMEs</text>
+<text x="88" y="707" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-030 · L5</text>
+<text x="358" y="700" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">67.5</text>
+<rect x="384" y="662" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="662" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="402" y="686" font-size="11.5" fill="#0F1828" font-weight="600">Manufacturing Execution Syste…</text>
+<text x="402" y="707" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-029 · L5</text>
+<text x="672" y="700" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">67.3</text>
+<rect x="698" y="662" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="662" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="716" y="686" font-size="11.5" fill="#0F1828" font-weight="600">Factory IoT / sensor-data pla…</text>
+<text x="716" y="707" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-034 · L5</text>
+<text x="986" y="700" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">65.0</text>
+<rect x="1012" y="662" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="662" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="1030" y="686" font-size="11.5" fill="#0F1828" font-weight="600">Supply-chain planning / APS</text>
+<text x="1030" y="707" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-033 · L5</text>
+<text x="1300" y="700" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">63.9</text>
+<rect x="1326" y="662" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="662" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="686" font-size="11.5" fill="#0F1828" font-weight="600">Sovereign on-prem industrial …</text>
+<text x="1344" y="707" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-043 · L8</text>
+<text x="1614" y="700" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">63.9</text>
+<rect x="70" y="732" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="732" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="88" y="756" font-size="11.5" fill="#0F1828" font-weight="600">Manufacturing analytics / OEE</text>
+<text x="88" y="777" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-039 · L6</text>
+<text x="358" y="770" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">63.8</text>
+<rect x="384" y="732" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="732" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="402" y="756" font-size="11.5" fill="#0F1828" font-weight="600">PLM / PDM platform</text>
+<text x="402" y="777" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-031 · L5</text>
+<text x="672" y="770" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">63.7</text>
+<rect x="698" y="732" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="732" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="716" y="756" font-size="11.5" fill="#0F1828" font-weight="600">Digital twin for factory and …</text>
+<text x="716" y="777" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-036 · L6</text>
+<text x="986" y="770" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">63.0</text>
+<rect x="1012" y="732" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="732" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="1030" y="756" font-size="11.5" fill="#0F1828" font-weight="600">Energy management systems for…</text>
+<text x="1030" y="777" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-040 · L6</text>
+<text x="1300" y="770" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">62.6</text>
+<rect x="1326" y="732" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="732" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="1344" y="756" font-size="11.5" fill="#0F1828" font-weight="600">Quality management / SPC syst…</text>
+<text x="1344" y="777" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-032 · L5</text>
+<text x="1614" y="770" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">62.5</text>
+<rect x="70" y="802" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="802" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="88" y="826" font-size="11.5" fill="#0F1828" font-weight="600">Computerised maintenance mana…</text>
+<text x="88" y="847" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-037 · L5</text>
+<text x="358" y="840" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">61.7</text>
+<rect x="384" y="802" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="802" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="402" y="826" font-size="11.5" fill="#0F1828" font-weight="600">Equipment connectivity / SECS…</text>
+<text x="402" y="847" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-035 · L5</text>
+<text x="672" y="840" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">61.3</text>
+<rect x="698" y="802" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="802" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="716" y="826" font-size="11.5" fill="#0F1828" font-weight="600">Low-code industrial app platf…</text>
+<text x="716" y="847" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-042 · L5</text>
+<text x="986" y="840" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">61.3</text>
+<rect x="1012" y="802" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="802" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="1030" y="826" font-size="11.5" fill="#0F1828" font-weight="600">Traceability and genealogy sy…</text>
+<text x="1030" y="847" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-041 · L5</text>
+<text x="1300" y="840" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">60.8</text>
+<rect x="1326" y="802" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="802" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="1344" y="826" font-size="11.5" fill="#0F1828" font-weight="600">Warehouse management (WMS)</text>
+<text x="1344" y="847" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-038 · L5</text>
+<text x="1614" y="840" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">60.0</text>
+<rect x="70" y="872" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="872" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="88" y="896" font-size="11.5" fill="#0F1828" font-weight="600">Compliance and EHS software</text>
+<text x="88" y="917" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-044 · L5</text>
+<text x="358" y="910" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">57.8</text>
+<text x="70" y="968" font-size="17" fill="#0F1828" font-weight="700">Part IV - AI (18)</text>
+<rect x="70" y="984" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="984" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="88" y="1008" font-size="11.5" fill="#0F1828" font-weight="600">AI visual quality inspection</text>
+<text x="88" y="1029" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-045 · L6</text>
+<text x="358" y="1022" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">67.6</text>
+<rect x="384" y="984" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="984" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="402" y="1008" font-size="11.5" fill="#0F1828" font-weight="600">AI for semiconductor design (…</text>
+<text x="402" y="1029" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-056 · L6</text>
+<text x="672" y="1022" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">67.5</text>
+<rect x="698" y="984" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="984" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="716" y="1008" font-size="11.5" fill="#0F1828" font-weight="600">AI inference infrastructure /…</text>
+<text x="716" y="1029" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-061 · L6</text>
+<text x="986" y="1022" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">66.5</text>
+<rect x="1012" y="984" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="984" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1030" y="1008" font-size="11.5" fill="#0F1828" font-weight="600">Yield optimisation / defect p…</text>
+<text x="1030" y="1029" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-046 · L6</text>
+<text x="1300" y="1022" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">66.3</text>
+<rect x="1326" y="984" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="984" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="1344" y="1008" font-size="11.5" fill="#0F1828" font-weight="600">Predictive maintenance</text>
+<text x="1344" y="1029" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-047 · L6</text>
+<text x="1614" y="1022" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">66.0</text>
+<rect x="70" y="1054" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="1054" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="88" y="1078" font-size="11.5" fill="#0F1828" font-weight="600">Vertical small language model…</text>
+<text x="88" y="1099" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-060 · L6</text>
+<text x="358" y="1092" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">65.0</text>
+<rect x="384" y="1054" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="1054" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="402" y="1078" font-size="11.5" fill="#0F1828" font-weight="600">Edge-AI inference modules</text>
+<text x="402" y="1099" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-055 · L6</text>
+<text x="672" y="1092" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">64.8</text>
+<rect x="698" y="1054" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="1054" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="716" y="1078" font-size="11.5" fill="#0F1828" font-weight="600">Factory copilots (LLM ops ass…</text>
+<text x="716" y="1099" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-048 · L6</text>
+<text x="986" y="1092" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">63.9</text>
+<rect x="1012" y="1054" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="1054" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1030" y="1078" font-size="11.5" fill="#0F1828" font-weight="600">Generative / engineering desi…</text>
+<text x="1030" y="1099" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-053 · L6</text>
+<text x="1300" y="1092" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">63.4</text>
+<rect x="1326" y="1054" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="1054" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="1078" font-size="11.5" fill="#0F1828" font-weight="600">Robotics and autonomous mater…</text>
+<text x="1344" y="1099" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-057 · L6</text>
+<text x="1614" y="1092" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">62.6</text>
+<rect x="70" y="1124" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="1124" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="88" y="1148" font-size="11.5" fill="#0F1828" font-weight="600">Process control / APC with ML</text>
+<text x="88" y="1169" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-052 · L6</text>
+<text x="358" y="1162" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">62.3</text>
+<rect x="384" y="1124" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="1124" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="402" y="1148" font-size="11.5" fill="#0F1828" font-weight="600">Synthetic data and simulation…</text>
+<text x="402" y="1169" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-062 · L6</text>
+<text x="672" y="1162" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">61.9</text>
+<rect x="698" y="1124" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="1124" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="716" y="1148" font-size="11.5" fill="#0F1828" font-weight="600">Energy / utility optimisation…</text>
+<text x="716" y="1169" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-058 · L6</text>
+<text x="986" y="1162" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">61.4</text>
+<rect x="1012" y="1124" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="1124" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="1030" y="1148" font-size="11.5" fill="#0F1828" font-weight="600">AI data labelling and ML-ops …</text>
+<text x="1030" y="1169" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-059 · L8</text>
+<text x="1300" y="1162" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">61.3</text>
+<rect x="1326" y="1124" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="1124" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="1344" y="1148" font-size="11.5" fill="#0F1828" font-weight="600">Procurement / supplier AI</text>
+<text x="1344" y="1169" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-049 · L6</text>
+<text x="1614" y="1162" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">60.8</text>
+<rect x="70" y="1194" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="1194" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="88" y="1218" font-size="11.5" fill="#0F1828" font-weight="600">Demand forecasting AI</text>
+<text x="88" y="1239" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-051 · L6</text>
+<text x="358" y="1232" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">60.6</text>
+<rect x="384" y="1194" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="1194" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="402" y="1218" font-size="11.5" fill="#0F1828" font-weight="600">Computer vision for safety an…</text>
+<text x="402" y="1239" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-054 · L6</text>
+<text x="672" y="1232" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">60.1</text>
+<rect x="698" y="1194" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="1194" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="716" y="1218" font-size="11.5" fill="#0F1828" font-weight="600">Documentation and SOP AI</text>
+<text x="716" y="1239" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-050 · L6</text>
+<text x="986" y="1232" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">59.6</text>
+<text x="70" y="1290" font-size="17" fill="#0F1828" font-weight="700">Part V - Engineering Software (12)</text>
+<rect x="70" y="1306" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="1306" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="88" y="1330" font-size="11.5" fill="#0F1828" font-weight="600">RISC-V IP cores and design se…</text>
+<text x="88" y="1351" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-064 · L4</text>
+<text x="358" y="1344" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">68.4</text>
+<rect x="384" y="1306" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="1306" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="402" y="1330" font-size="11.5" fill="#0F1828" font-weight="600">Semiconductor IP verification…</text>
+<text x="402" y="1351" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-070 · L4</text>
+<text x="672" y="1344" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">66.7</text>
+<rect x="698" y="1306" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="1306" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="716" y="1330" font-size="11.5" fill="#0F1828" font-weight="600">Sovereign EDA tools / open-so…</text>
+<text x="716" y="1351" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-063 · L4</text>
+<text x="986" y="1344" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">66.5</text>
+<rect x="1012" y="1306" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="1306" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1030" y="1330" font-size="11.5" fill="#0F1828" font-weight="600">EDA cloud / design-grid servi…</text>
+<text x="1030" y="1351" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-068 · L4</text>
+<text x="1300" y="1344" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">64.8</text>
+<rect x="1326" y="1306" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="1306" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="1330" font-size="11.5" fill="#0F1828" font-weight="600">Analog / RF IP libraries</text>
+<text x="1344" y="1351" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-065 · L4</text>
+<text x="1614" y="1344" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">64.3</text>
+<rect x="70" y="1376" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="1376" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="88" y="1400" font-size="11.5" fill="#0F1828" font-weight="600">CAE / FEA simulation software</text>
+<text x="88" y="1421" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-066 · L4</text>
+<text x="358" y="1414" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">63.1</text>
+<rect x="384" y="1376" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="1376" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="402" y="1400" font-size="11.5" fill="#0F1828" font-weight="600">Multiphysics / co-simulation</text>
+<text x="402" y="1421" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-073 · L4</text>
+<text x="672" y="1414" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">61.7</text>
+<rect x="698" y="1376" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="1376" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="716" y="1400" font-size="11.5" fill="#0F1828" font-weight="600">CFD / thermal simulation</text>
+<text x="716" y="1421" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-067 · L4</text>
+<text x="986" y="1414" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">61.6</text>
+<rect x="1012" y="1376" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="1376" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1030" y="1400" font-size="11.5" fill="#0F1828" font-weight="600">CAD for mechanical and electr…</text>
+<text x="1030" y="1421" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-071 · L4</text>
+<text x="1300" y="1414" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">60.6</text>
+<rect x="1326" y="1376" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="1376" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="1400" font-size="11.5" fill="#0F1828" font-weight="600">Design-for-manufacturing (DFM…</text>
+<text x="1344" y="1421" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-074 · L4</text>
+<text x="1614" y="1414" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">60.3</text>
+<rect x="70" y="1446" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="1446" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="88" y="1470" font-size="11.5" fill="#0F1828" font-weight="600">Reliability and failure-analy…</text>
+<text x="88" y="1491" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-072 · L4</text>
+<text x="358" y="1484" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">59.7</text>
+<rect x="384" y="1446" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="1446" width="8" height="58" rx="2" fill="#C8443B"/>
+<text x="402" y="1470" font-size="11.5" fill="#0F1828" font-weight="600">PCB design and layout tools</text>
+<text x="402" y="1491" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-069 · L4</text>
+<text x="672" y="1484" font-size="22" fill="#C8443B" text-anchor="end" font-weight="700" font-family="monospace">58.4</text>
+<text x="70" y="1542" font-size="17" fill="#0F1828" font-weight="700">Part VI - Cybersecurity (12)</text>
+<rect x="70" y="1558" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="1558" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="88" y="1582" font-size="11.5" fill="#0F1828" font-weight="600">OT/ICS security platform</text>
+<text x="88" y="1603" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-075 · L7</text>
+<text x="358" y="1596" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">68.1</text>
+<rect x="384" y="1558" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="1558" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="402" y="1582" font-size="11.5" fill="#0F1828" font-weight="600">Sovereign SOC / managed detec…</text>
+<text x="402" y="1603" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-078 · L7</text>
+<text x="672" y="1596" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">67.1</text>
+<rect x="698" y="1558" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="1558" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="716" y="1582" font-size="11.5" fill="#0F1828" font-weight="600">Data sovereignty / encryption…</text>
+<text x="716" y="1603" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-084 · L7</text>
+<text x="986" y="1596" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">65.9</text>
+<rect x="1012" y="1558" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="1558" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1030" y="1582" font-size="11.5" fill="#0F1828" font-weight="600">Hardware security / secure el…</text>
+<text x="1030" y="1603" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-076 · L7</text>
+<text x="1300" y="1596" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">65.7</text>
+<rect x="1326" y="1558" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="1558" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="1582" font-size="11.5" fill="#0F1828" font-weight="600">Supply-chain and firmware sec…</text>
+<text x="1344" y="1603" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-077 · L7</text>
+<text x="1614" y="1596" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">65.5</text>
+<rect x="70" y="1628" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="1628" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="88" y="1652" font-size="11.5" fill="#0F1828" font-weight="600">Critical-infrastructure secur…</text>
+<text x="88" y="1673" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-080 · L7</text>
+<text x="358" y="1666" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">65.3</text>
+<rect x="384" y="1628" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="1628" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="402" y="1652" font-size="11.5" fill="#0F1828" font-weight="600">Post-quantum cryptography sol…</text>
+<text x="402" y="1673" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-081 · L7</text>
+<text x="672" y="1666" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">65.2</text>
+<rect x="698" y="1628" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="1628" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="716" y="1652" font-size="11.5" fill="#0F1828" font-weight="600">Zero-trust / identity for ind…</text>
+<text x="716" y="1673" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-079 · L7</text>
+<text x="986" y="1666" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">64.2</text>
+<rect x="1012" y="1628" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="1628" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1030" y="1652" font-size="11.5" fill="#0F1828" font-weight="600">Secure-by-design embedded fir…</text>
+<text x="1030" y="1673" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-082 · L7</text>
+<text x="1300" y="1666" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">63.8</text>
+<rect x="1326" y="1628" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="1628" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="1652" font-size="11.5" fill="#0F1828" font-weight="600">IoT device security and certi…</text>
+<text x="1344" y="1673" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-083 · L7</text>
+<text x="1614" y="1666" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">63.8</text>
+<rect x="70" y="1698" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="1698" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="88" y="1722" font-size="11.5" fill="#0F1828" font-weight="600">Security testing / red-team s…</text>
+<text x="88" y="1743" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-086 · L7</text>
+<text x="358" y="1736" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">62.0</text>
+<rect x="384" y="1698" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="1698" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="402" y="1722" font-size="11.5" fill="#0F1828" font-weight="600">Threat intelligence for strat…</text>
+<text x="402" y="1743" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-085 · L7</text>
+<text x="672" y="1736" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">61.8</text>
+<text x="70" y="1794" font-size="17" fill="#0F1828" font-weight="700">Part VII - Export and Services (14)</text>
+<rect x="70" y="1810" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="1810" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="88" y="1834" font-size="11.5" fill="#0F1828" font-weight="600">Engineering R&amp;D (ER&amp;D) servic…</text>
+<text x="88" y="1855" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-095 · L8</text>
+<text x="358" y="1848" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">70.4</text>
+<rect x="384" y="1810" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="1810" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="402" y="1834" font-size="11.5" fill="#0F1828" font-weight="600">Chip-design services export (…</text>
+<text x="402" y="1855" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-089 · L8</text>
+<text x="672" y="1848" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">70.0</text>
+<rect x="698" y="1810" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="1810" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="716" y="1834" font-size="11.5" fill="#0F1828" font-weight="600">Cross-border IP licensing / f…</text>
+<text x="716" y="1855" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-100 · L10</text>
+<text x="986" y="1848" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">68.3</text>
+<rect x="1012" y="1810" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="1810" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="1030" y="1834" font-size="11.5" fill="#0F1828" font-weight="600">AI/ML services export</text>
+<text x="1030" y="1855" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-094 · L8</text>
+<text x="1300" y="1848" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">67.7</text>
+<rect x="1326" y="1810" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="1810" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="1834" font-size="11.5" fill="#0F1828" font-weight="600">Precision-components export t…</text>
+<text x="1344" y="1855" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-097 · L3</text>
+<text x="1614" y="1848" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">67.3</text>
+<rect x="70" y="1880" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="1880" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="88" y="1904" font-size="11.5" fill="#0F1828" font-weight="600">Cybersecurity services export</text>
+<text x="88" y="1925" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-096 · L8</text>
+<text x="358" y="1918" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">66.3</text>
+<rect x="384" y="1880" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="1880" width="8" height="58" rx="2" fill="#2BC5B4"/>
+<text x="402" y="1904" font-size="11.5" fill="#0F1828" font-weight="600">Industrial-software SaaS expo…</text>
+<text x="402" y="1925" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-093 · L8</text>
+<text x="672" y="1918" font-size="22" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="monospace">65.9</text>
+<rect x="698" y="1880" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="1880" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="716" y="1904" font-size="11.5" fill="#0F1828" font-weight="600">Semiconductor equipment subsy…</text>
+<text x="716" y="1925" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-088 · L8</text>
+<text x="986" y="1918" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">64.9</text>
+<rect x="1012" y="1880" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="1880" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1030" y="1904" font-size="11.5" fill="#0F1828" font-weight="600">Electronics contract manufact…</text>
+<text x="1030" y="1925" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-091 · L2</text>
+<text x="1300" y="1918" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">64.9</text>
+<rect x="1326" y="1880" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1326" y="1880" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1344" y="1904" font-size="11.5" fill="#0F1828" font-weight="600">Test and packaging services e…</text>
+<text x="1344" y="1925" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-092 · L2</text>
+<text x="1614" y="1918" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">63.3</text>
+<rect x="70" y="1950" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="70" y="1950" width="8" height="58" rx="2" fill="#C8443B"/>
+<text x="88" y="1974" font-size="11.5" fill="#0F1828" font-weight="600">Fab/OSAT design-build EPC exp…</text>
+<text x="88" y="1995" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-087 · L8</text>
+<text x="358" y="1988" font-size="22" fill="#C8443B" text-anchor="end" font-weight="700" font-family="monospace">62.3</text>
+<rect x="384" y="1950" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="384" y="1950" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="402" y="1974" font-size="11.5" fill="#0F1828" font-weight="600">Specialty-materials export (S…</text>
+<text x="402" y="1995" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-090 · L1</text>
+<text x="672" y="1988" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">62.0</text>
+<rect x="698" y="1950" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="698" y="1950" width="8" height="58" rx="2" fill="#4A5567"/>
+<text x="716" y="1974" font-size="11.5" fill="#0F1828" font-weight="600">Skilling and certification pl…</text>
+<text x="716" y="1995" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-098 · L9</text>
+<text x="986" y="1988" font-size="22" fill="#4A5567" text-anchor="end" font-weight="700" font-family="monospace">61.6</text>
+<rect x="1012" y="1950" width="300" height="58" rx="6" fill="#ffffff" stroke="#E8E5DD"/>
+<rect x="1012" y="1950" width="8" height="58" rx="2" fill="#C9A84C"/>
+<text x="1030" y="1974" font-size="11.5" fill="#0F1828" font-weight="600">Standards / qualification lab…</text>
+<text x="1030" y="1995" font-size="10.5" fill="#4A5567" font-family="monospace">OPP-099 · L9</text>
+<text x="1300" y="1988" font-size="22" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="monospace">60.7</text>
+<text x="70" y="2122" font-size="13" fill="#4A5567">Source: Techadyant Labs TOMI/SOE scoring (FRAMEWORKS.md).</text>
+<text x="1530" y="2122" font-size="12" fill="#C9A84C" text-anchor="end" font-style="italic">Full detail in the ranked table</text>
+</svg>

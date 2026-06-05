@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1500 820" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1500" height="820" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">Who captures value across the chain</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Relative margin / value-capture potential by stage (indicative).</text>
+<text x="1430" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 2.2 - Techadyant Labs - 2026</text>
+<rect x="120" y="248" width="150" height="442" rx="5" fill="#C9A84C"/>
+<text x="195.0" y="236" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700" font-family="monospace">92</text>
+<text x="195.0" y="718" font-size="14" fill="#4A5567" text-anchor="middle">Design</text>
+<text x="195.0" y="736" font-size="14" fill="#4A5567" text-anchor="middle">/</text>
+<text x="195.0" y="754" font-size="14" fill="#4A5567" text-anchor="middle">IP</text>
+<rect x="292" y="258" width="150" height="432" rx="5" fill="#C9A84C"/>
+<text x="367.0" y="246" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700" font-family="monospace">90</text>
+<text x="367.0" y="718" font-size="14" fill="#4A5567" text-anchor="middle">EDA</text>
+<text x="367.0" y="736" font-size="14" fill="#4A5567" text-anchor="middle">tools</text>
+<rect x="464" y="306" width="150" height="384" rx="5" fill="#C9A84C"/>
+<text x="539.0" y="294" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700" font-family="monospace">80</text>
+<text x="539.0" y="718" font-size="14" fill="#4A5567" text-anchor="middle">Materials</text>
+<rect x="636" y="282" width="150" height="408" rx="5" fill="#C9A84C"/>
+<text x="711.0" y="270" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700" font-family="monospace">85</text>
+<text x="711.0" y="718" font-size="14" fill="#4A5567" text-anchor="middle">Equipment</text>
+<rect x="808" y="426" width="150" height="264" rx="5" fill="#2BC5B4"/>
+<text x="883.0" y="414" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700" font-family="monospace">55</text>
+<text x="883.0" y="718" font-size="14" fill="#4A5567" text-anchor="middle">Wafer</text>
+<text x="883.0" y="736" font-size="14" fill="#4A5567" text-anchor="middle">fab</text>
+<rect x="980" y="392" width="150" height="298" rx="5" fill="#2BC5B4"/>
+<text x="1055.0" y="380" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700" font-family="monospace">62</text>
+<text x="1055.0" y="718" font-size="14" fill="#4A5567" text-anchor="middle">Adv.</text>
+<text x="1055.0" y="736" font-size="14" fill="#4A5567" text-anchor="middle">packaging</text>
+<rect x="1152" y="474" width="150" height="216" rx="5" fill="#4A5567"/>
+<text x="1227.0" y="462" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700" font-family="monospace">45</text>
+<text x="1227.0" y="718" font-size="14" fill="#4A5567" text-anchor="middle">OSAT</text>
+<text x="1227.0" y="736" font-size="14" fill="#4A5567" text-anchor="middle">/</text>
+<text x="1227.0" y="754" font-size="14" fill="#4A5567" text-anchor="middle">test</text>
+<rect x="1324" y="508" width="150" height="182" rx="5" fill="#4A5567"/>
+<text x="1399.0" y="496" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700" font-family="monospace">38</text>
+<text x="1399.0" y="718" font-size="14" fill="#4A5567" text-anchor="middle">Electronics</text>
+<text x="1399.0" y="736" font-size="14" fill="#4A5567" text-anchor="middle">mfg</text>
+<text x="70" y="792" font-size="13" fill="#4A5567">Source: Techadyant Labs analysis; NITI Aayog 2026.</text>
+<text x="1430" y="792" font-size="12" fill="#C9A84C" text-anchor="end" font-style="italic">Indicative - relative scale</text>
+</svg>

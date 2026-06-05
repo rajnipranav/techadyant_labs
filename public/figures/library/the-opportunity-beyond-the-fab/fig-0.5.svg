@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1500 820" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1500" height="820" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">The five frameworks at a glance</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Three diagnostics feed one headline index; a portfolio engine sits on top.</text>
+<text x="1430" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 0.5 - Techadyant Labs - 2026</text>
+<rect x="120" y="200" width="300" height="90" rx="10" fill="#2BC5B4"/>
+<text x="270.0" y="241.0" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">TSVI</text>
+<text x="270.0" y="267.0" font-size="13" fill="#ffffff" text-anchor="middle">Strategic / sovereignty value</text>
+<rect x="120" y="330" width="300" height="90" rx="10" fill="#2BC5B4"/>
+<text x="270.0" y="371.0" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">IRR</text>
+<text x="270.0" y="397.0" font-size="13" fill="#ffffff" text-anchor="middle">India readiness to compete</text>
+<rect x="120" y="460" width="300" height="90" rx="10" fill="#2BC5B4"/>
+<text x="270.0" y="501.0" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">GEM</text>
+<text x="270.0" y="527.0" font-size="13" fill="#ffffff" text-anchor="middle">Go-to-market ease</text>
+<rect x="620" y="330" width="300" height="90" rx="10" fill="#C9A84C"/>
+<text x="770.0" y="371.0" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">TOMI</text>
+<text x="770.0" y="397.0" font-size="13" fill="#0F1828" text-anchor="middle">Headline opportunity index</text>
+<rect x="1080" y="330" width="300" height="90" rx="10" fill="#0F1828"/>
+<text x="1230.0" y="371.0" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">SOE</text>
+<text x="1230.0" y="397.0" font-size="13" fill="#ffffff" text-anchor="middle">Portfolio class + investor</text>
+<line x1="420" y1="245" x2="620" y2="375" stroke="#4A5567" stroke-width="2"/>
+<line x1="420" y1="375" x2="620" y2="375" stroke="#4A5567" stroke-width="2"/>
+<line x1="420" y1="505" x2="620" y2="375" stroke="#4A5567" stroke-width="2"/>
+<text x="520" y="300" font-size="26" fill="#4A5567" text-anchor="middle">&#8594;</text>
+<line x1="920" y1="375" x2="1080" y2="375" stroke="#4A5567" stroke-width="2"/>
+<text x="1000" y="365" font-size="26" fill="#4A5567" text-anchor="middle">&#8594;</text>
+<text x="270" y="600" font-size="14" fill="#4A5567" text-anchor="middle">+ market attractiveness (size x growth x export)</text>
+<text x="70" y="792" font-size="13" fill="#4A5567">Source: Techadyant Labs (FRAMEWORKS.md).</text>
+</svg>

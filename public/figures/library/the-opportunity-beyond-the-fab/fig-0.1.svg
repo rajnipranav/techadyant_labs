@@ -1,0 +1,23 @@
+<svg viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1600" height="500" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">The technology-sovereignty economy</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">One capability spans seven linked domains, defence to exports.</text>
+<text x="1530" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 0.1 - Techadyant Labs - 2026</text>
+<polygon points="70.0,200 244.57142857142856,200 266.57142857142856,275.0 244.57142857142856,350 70.0,350" fill="#0F1828"/>
+<text x="179" y="281" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle">Defence</text>
+<polygon points="280.57142857142856,200 455.1428571428571,200 477.1428571428571,275.0 455.1428571428571,350 280.57142857142856,350 302.57142857142856,275.0" fill="#2BC5B4"/>
+<text x="390" y="270" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle">Semi-</text>
+<text x="390" y="292" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle">conductors</text>
+<polygon points="491.14285714285717,200 665.7142857142858,200 687.7142857142858,275.0 665.7142857142858,350 491.14285714285717,350 513.1428571428571,275.0" fill="#C9A84C"/>
+<text x="600" y="281" font-size="17" font-weight="600" fill="#0F1828" text-anchor="middle">Electronics</text>
+<polygon points="701.7142857142858,200 876.2857142857143,200 898.2857142857143,275.0 876.2857142857143,350 701.7142857142858,350 723.7142857142858,275.0" fill="#0F1828"/>
+<text x="811" y="281" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle">AI</text>
+<polygon points="912.2857142857143,200 1086.857142857143,200 1108.857142857143,275.0 1086.857142857143,350 912.2857142857143,350 934.2857142857143,275.0" fill="#2BC5B4"/>
+<text x="1022" y="281" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle">Software</text>
+<polygon points="1122.857142857143,200 1297.4285714285716,200 1319.4285714285716,275.0 1297.4285714285716,350 1122.857142857143,350 1144.857142857143,275.0" fill="#C9A84C"/>
+<text x="1232" y="270" font-size="17" font-weight="600" fill="#0F1828" text-anchor="middle">Cyber-</text>
+<text x="1232" y="292" font-size="17" font-weight="600" fill="#0F1828" text-anchor="middle">security</text>
+<polygon points="1333.4285714285716,200 1508.0000000000002,200 1530.0000000000002,275.0 1508.0000000000002,350 1333.4285714285716,350 1355.4285714285716,275.0" fill="#0F1828"/>
+<text x="1443" y="281" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle">Exports</text>
+<text x="70" y="472" font-size="13" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+</svg>

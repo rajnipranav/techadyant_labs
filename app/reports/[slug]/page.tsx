@@ -12,6 +12,7 @@ import { ReportContent as AiTransitionContent, toc as aiTransitionToc } from '..
 import { ReportContent as MineralsContent, toc as mineralsToc } from '../content/who-actually-captures-the-india-us-minerals-alliance';
 import { ReportContent as BattlefieldContent, toc as battlefieldToc } from '../content/india-battlefield-automation-gap';
 import { ReportContent as SapFlagshipContent, toc as sapFlagshipToc } from '../content/the-sap-question-flagship';
+import { ReportContent as OppContent, toc as oppToc } from '../content/the-opportunity-beyond-the-fab';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -21,6 +22,7 @@ const registry: Record<string, ReportModule> = {
   'who-actually-captures-the-india-us-minerals-alliance': { toc: mineralsToc, Content: MineralsContent },
   'india-battlefield-automation-gap': { toc: battlefieldToc, Content: BattlefieldContent },
   'the-sap-question': { toc: sapFlagshipToc, Content: SapFlagshipContent },
+  'the-opportunity-beyond-the-fab': { toc: oppToc, Content: OppContent },
 };
 
 export function generateStaticParams() {

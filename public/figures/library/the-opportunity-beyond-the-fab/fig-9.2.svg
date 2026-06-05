@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1400 780" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1400" height="780" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">The investor-suitability matrix</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">Matching capital type to portfolio class.</text>
+<text x="1330" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 9.2 - Techadyant Labs - 2026</text>
+<text x="510" y="200" font-size="16" fill="#0F1828" text-anchor="middle" font-weight="700">Cash Engine</text>
+<text x="810" y="200" font-size="16" fill="#0F1828" text-anchor="middle" font-weight="700">Strategic Quick Win</text>
+<text x="1110" y="200" font-size="16" fill="#0F1828" text-anchor="middle" font-weight="700">National Bet</text>
+<text x="340" y="286" font-size="16" fill="#0F1828" text-anchor="end" font-weight="600">Angel / Seed</text>
+<rect x="360" y="220" width="290" height="110" rx="8" fill="#2BC5B4"/>
+<text x="505" y="280" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">Primary</text>
+<rect x="660" y="220" width="290" height="110" rx="8" fill="#C9A84C"/>
+<text x="805" y="280" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Possible</text>
+<rect x="960" y="220" width="290" height="110" rx="8" fill="#E8E5DD"/>
+<text x="1105" y="280" font-size="15" fill="#4A5567" text-anchor="middle" font-weight="700">-</text>
+<text x="340" y="406" font-size="16" fill="#0F1828" text-anchor="end" font-weight="600">Venture / Growth</text>
+<rect x="360" y="340" width="290" height="110" rx="8" fill="#C9A84C"/>
+<text x="505" y="400" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Possible</text>
+<rect x="660" y="340" width="290" height="110" rx="8" fill="#2BC5B4"/>
+<text x="805" y="400" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">Primary</text>
+<rect x="960" y="340" width="290" height="110" rx="8" fill="#C9A84C"/>
+<text x="1105" y="400" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Possible</text>
+<text x="340" y="526" font-size="16" fill="#0F1828" text-anchor="end" font-weight="600">Family Office</text>
+<rect x="360" y="460" width="290" height="110" rx="8" fill="#C9A84C"/>
+<text x="505" y="520" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Possible</text>
+<rect x="660" y="460" width="290" height="110" rx="8" fill="#C9A84C"/>
+<text x="805" y="520" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Possible</text>
+<rect x="960" y="460" width="290" height="110" rx="8" fill="#2BC5B4"/>
+<text x="1105" y="520" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">Primary</text>
+<text x="340" y="646" font-size="16" fill="#0F1828" text-anchor="end" font-weight="600">Private Equity</text>
+<rect x="360" y="580" width="290" height="110" rx="8" fill="#E8E5DD"/>
+<text x="505" y="640" font-size="15" fill="#4A5567" text-anchor="middle" font-weight="700">-</text>
+<rect x="660" y="580" width="290" height="110" rx="8" fill="#C9A84C"/>
+<text x="805" y="640" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Possible</text>
+<rect x="960" y="580" width="290" height="110" rx="8" fill="#2BC5B4"/>
+<text x="1105" y="640" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">Primary</text>
+<text x="340" y="766" font-size="16" fill="#0F1828" text-anchor="end" font-weight="600">Strategic / Sovereign</text>
+<rect x="360" y="700" width="290" height="110" rx="8" fill="#E8E5DD"/>
+<text x="505" y="760" font-size="15" fill="#4A5567" text-anchor="middle" font-weight="700">-</text>
+<rect x="660" y="700" width="290" height="110" rx="8" fill="#C9A84C"/>
+<text x="805" y="760" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Possible</text>
+<rect x="960" y="700" width="290" height="110" rx="8" fill="#2BC5B4"/>
+<text x="1105" y="760" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">Primary</text>
+<text x="70" y="752" font-size="13" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+</svg>

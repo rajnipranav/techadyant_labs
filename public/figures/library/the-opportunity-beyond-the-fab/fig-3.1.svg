@@ -1,0 +1,34 @@
+<svg viewBox="0 0 1100 820" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1100" height="820" fill="#FBF9F4"/>
+<text x="70" y="52" font-size="32" font-weight="700" fill="#0F1828">Inside a semiconductor fab</text>
+<text x="70" y="82" font-size="16" fill="#4A5567">The software stack above the equipment decides what the tools do.</text>
+<text x="1030" y="40" font-size="14" fill="#4A5567" text-anchor="end" font-family="monospace">Figure 3.1 - Techadyant Labs - 2026</text>
+<rect x="120" y="170" width="860" height="64" rx="8" fill="#0F1828"/>
+<text x="144" y="208" font-size="19" font-weight="700" fill="#ffffff">Equipment</text>
+<text x="956" y="208" font-size="14" fill="#ffffff" text-anchor="end">Physical tools</text>
+<text x="550.0" y="244" font-size="20" fill="#4A5567" text-anchor="middle">&#8595;</text>
+<rect x="120" y="246" width="860" height="64" rx="8" fill="#2BC5B4"/>
+<text x="144" y="284" font-size="19" font-weight="700" fill="#ffffff">Sensors / IoT</text>
+<text x="956" y="284" font-size="14" fill="#ffffff" text-anchor="end">Connectivity, SECS-GEM</text>
+<text x="550.0" y="319" font-size="20" fill="#4A5567" text-anchor="middle">&#8595;</text>
+<rect x="120" y="321" width="860" height="64" rx="8" fill="#C9A84C"/>
+<text x="144" y="359" font-size="19" font-weight="700" fill="#0F1828">MES</text>
+<text x="956" y="359" font-size="14" fill="#0F1828" text-anchor="end">Manufacturing execution</text>
+<text x="550.0" y="395" font-size="20" fill="#4A5567" text-anchor="middle">&#8595;</text>
+<rect x="120" y="397" width="860" height="64" rx="8" fill="#4A5567"/>
+<text x="144" y="435" font-size="19" font-weight="700" fill="#ffffff">ERP</text>
+<text x="956" y="435" font-size="14" fill="#ffffff" text-anchor="end">Enterprise resource planning</text>
+<text x="550.0" y="471" font-size="20" fill="#4A5567" text-anchor="middle">&#8595;</text>
+<rect x="120" y="473" width="860" height="64" rx="8" fill="#0F1828"/>
+<text x="144" y="511" font-size="19" font-weight="700" fill="#ffffff">Analytics</text>
+<text x="956" y="511" font-size="14" fill="#ffffff" text-anchor="end">OEE, dashboards, SPC</text>
+<text x="550.0" y="547" font-size="20" fill="#4A5567" text-anchor="middle">&#8595;</text>
+<rect x="120" y="549" width="860" height="64" rx="8" fill="#2BC5B4"/>
+<text x="144" y="586" font-size="19" font-weight="700" fill="#ffffff">AI / Analytics</text>
+<text x="956" y="586" font-size="14" fill="#ffffff" text-anchor="end">Yield, predictive, copilots</text>
+<text x="550.0" y="622" font-size="20" fill="#4A5567" text-anchor="middle">&#8595;</text>
+<rect x="120" y="624" width="860" height="64" rx="8" fill="#C9A84C"/>
+<text x="144" y="662" font-size="19" font-weight="700" fill="#0F1828">Management</text>
+<text x="956" y="662" font-size="14" fill="#0F1828" text-anchor="end">Planning, finance, ERP core</text>
+<text x="70" y="792" font-size="13" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+</svg>
