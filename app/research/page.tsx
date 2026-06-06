@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AtlasNav } from './AtlasNav';
+import { JsonLd, breadcrumb, SITE, ORG_REF } from './seo';
 import {
   corridorsOrdered, meta, rollup, gridForCorridor, playersForCorridor,
   STATUS_COLORS, STATUS_SHORT, atlas, lastUpdated, recentEvents, corridorById,
@@ -8,6 +9,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'The Atlas — India’s industrial systems, mapped',
+  alternates: { canonical: `${SITE}/research/` },
   description:
     'A living map of India’s strategic industrial ecosystems: the main players in each, what they make, and the layers India still imports. Free research workbench from Techadyant Labs.',
 };
@@ -28,6 +30,18 @@ export default function AtlasOverview() {
   return (
     <>
       <AtlasNav />
+      <JsonLd data={[
+        breadcrumb([{ name: 'Home', path: '/' }, { name: 'The Atlas', path: '/research/' }]),
+        {
+          '@context': 'https://schema.org', '@type': 'CollectionPage',
+          name: 'The Atlas — India’s industrial systems, mapped',
+          url: `${SITE}/research/`,
+          isPartOf: { '@id': `${SITE}/#website` },
+          publisher: ORG_REF,
+          about: ['India semiconductor industry', 'critical minerals', 'AI infrastructure', 'defence industrial base', 'enterprise software sovereignty'],
+          hasPart: corridorsOrdered.map((c) => ({ '@type': 'WebPage', name: `${c.label} — ecosystem profile`, url: `${SITE}/research/corridors/${meta(c.code).slug}/` })),
+        },
+      ]} />
 
       <header className="ed-page-head">
         <div className="wrap inner">

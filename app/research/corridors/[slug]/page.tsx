@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { AtlasNav } from '../../AtlasNav';
 import { TrackCorridor } from '../../TrackCorridor';
+import { JsonLd, breadcrumb, faqLd, datasetLd, corridorFaq, SITE } from '../../seo';
 import {
   corridorsOrdered, meta, corridorByCode, rollup, gridForCorridor, playersForCorridor,
   chokepointsForCorridor, eventsForCorridor, playerSlug, STATUS_COLORS, STATUS_SHORT,
@@ -21,6 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${c.label} — ecosystem profile`,
     description: `India’s ${c.label} ecosystem: import dependency, key players, chokepoints and developments. ${meta(c.code).tagline}`,
+    alternates: { canonical: `${SITE}/research/corridors/${meta(c.code).slug}/` },
   };
 }
 
@@ -37,18 +39,20 @@ export default async function CorridorProfile({ params }: { params: Promise<{ sl
   const chokes = chokepointsForCorridor(c.code).filter((x) => x.inbound >= 2).slice(0, 6);
   const events = eventsForCorridor(c.id).slice(0, 8);
 
-  const jsonLd = {
-    '@context': 'https://schema.org', '@type': 'Dataset',
-    name: `${c.label} — India dependency & ecosystem profile`,
-    description: `Value-chain capture assessment, players and developments for India’s ${c.label} ecosystem.`,
-    creator: { '@type': 'Organization', name: 'Techadyant Labs' },
-    isAccessibleForFree: true,
-  };
-
   return (
     <>
       <AtlasNav />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <JsonLd data={[
+        breadcrumb([{ name: 'Home', path: '/' }, { name: 'The Atlas', path: '/research/' }, { name: 'Corridors', path: '/research/corridors/' }, { name: c.label, path: `/research/corridors/${m.slug}/` }]),
+        datasetLd({
+          name: `${c.label} — India dependency & ecosystem profile`,
+          description: `Value-chain capture assessment, key players, chokepoints and developments for India’s ${c.label} ecosystem.`,
+          path: `/research/corridors/${m.slug}/`,
+          keywords: [c.label, 'India', 'import dependency', 'supply chain', 'industrial policy'],
+          csv: ['/data/atlas/dependency-grid.csv'],
+        }),
+        faqLd(corridorFaq(c.id)),
+      ]} />
 
       <header className="ed-page-head" style={{ ['--accent' as string]: m.accent }}>
         <div className="wrap inner">

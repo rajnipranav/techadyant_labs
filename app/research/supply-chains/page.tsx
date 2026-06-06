@@ -2,17 +2,23 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { corridorsOrdered, meta, chokepointsForCorridor, playerSlug } from '../atlas';
+import { JsonLd, breadcrumb, SITE, ORG_REF } from '../seo';
 
 export const metadata: Metadata = {
   title: 'Supply Chains — India’s industrial chokepoints',
   description:
     'The dependency structure of India’s strategic ecosystems: the suppliers and chokepoints the most domestic players rely on, mapped from the relationship graph.',
+  alternates: { canonical: `${SITE}/research/supply-chains/` },
 };
 
 export default function SupplyChainsPage() {
   return (
     <>
       <AtlasNav />
+      <JsonLd data={[
+        breadcrumb([{ name: 'Home', path: '/' }, { name: 'The Atlas', path: '/research/' }, { name: 'Supply Chains', path: '/research/supply-chains/' }]),
+        { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Supply Chains & Chokepoints — India’s industrial dependencies', url: `${SITE}/research/supply-chains/`, publisher: ORG_REF, about: 'India industrial supply-chain chokepoints' },
+      ]} />
       <header className="ed-page-head">
         <div className="wrap inner">
           <div className="ed-breadcrumb">

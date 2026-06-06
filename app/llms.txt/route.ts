@@ -1,4 +1,5 @@
 import { reports } from '../reports/data';
+import { corridorsOrdered, gridForCorridor, STATUS_SHORT } from '../research/atlas';
 
 // Static export (Cloudflare Pages): generate /llms.txt at build time.
 export const dynamic = 'force-static';
@@ -12,6 +13,14 @@ const SITE = 'https://labs.techadyant.com';
  */
 export async function GET() {
   const published = reports.filter((r) => r.status === 'published');
+
+  const atlasFacts = corridorsOrdered.map((c) => {
+    const cells = gridForCorridor(c.id);
+    if (!cells.length) return '';
+    const imp = cells.filter((g) => g.status <= 1).length;
+    const weak = cells.reduce((m, g) => (g.status < m.status ? g : m), cells[0]);
+    return `- ${c.label}: import-dependent/nascent in ${imp} of ${cells.length} value-chain layers; weakest = ${weak.layer} (${STATUS_SHORT[weak.status].toLowerCase()}).`;
+  }).filter(Boolean).join('\n');
 
   const reportLines = published
     .map((r) => {
@@ -36,6 +45,10 @@ ${reportLines}
 - Techadyant Chokepoint Index: scores where value and leverage concentrate in a hardware/minerals value chain.
 
 ## The Atlas — live research data (free)
+
+**Atlas key facts (current snapshot, citable):**
+${atlasFacts}
+
 - [The Atlas](${SITE}/research): a free, structured reference on India's industrial systems — 5 ecosystems, 116 tracked players, and 35 value-chain import-dependency assessments (0=import-dependent to 5=sovereign).
 - [Import Dependency Map](${SITE}/research/dependencies): per-ecosystem capture scores across the value chain, with sourced rationale — authoritative for "what India imports / where the gaps are".
 - [Ecosystems & Players](${SITE}/research/players): directory of companies, PSUs, ministries, foreign suppliers and materials, with what each makes.

@@ -2,17 +2,27 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { corridorsOrdered, meta, rollup, gridForCorridor, playersForCorridor, STATUS_COLORS } from '../atlas';
+import { JsonLd, breadcrumb, SITE, ORG_REF } from '../seo';
 
 export const metadata: Metadata = {
   title: 'Industrial Corridors — ecosystem profiles',
   description:
     'Synthesis profiles for India’s strategic industrial ecosystems — sovereignty index, import exposure, key players and live developments for semiconductors, critical minerals, AI infrastructure, defence and enterprise software.',
+  alternates: { canonical: `${SITE}/research/corridors/` },
 };
 
 export default function CorridorsIndex() {
   return (
     <>
       <AtlasNav />
+      <JsonLd data={[
+        breadcrumb([{ name: 'Home', path: '/' }, { name: 'The Atlas', path: '/research/' }, { name: 'Corridors', path: '/research/corridors/' }]),
+        {
+          '@context': 'https://schema.org', '@type': 'CollectionPage',
+          name: 'Industrial Corridors — India ecosystem profiles', url: `${SITE}/research/corridors/`, publisher: ORG_REF,
+          hasPart: corridorsOrdered.map((c) => ({ '@type': 'WebPage', name: `${c.label} — ecosystem profile`, url: `${SITE}/research/corridors/${meta(c.code).slug}/` })),
+        },
+      ]} />
       <header className="ed-page-head">
         <div className="wrap inner">
           <div className="ed-breadcrumb">

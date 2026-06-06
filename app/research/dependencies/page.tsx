@@ -2,11 +2,13 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { DependenciesView } from './DependenciesView';
-import { corridorsOrdered, meta, atlas, STATUS_COLORS, STATUS_SHORT, lastUpdated } from '../atlas';
+import { corridorsOrdered, meta, atlas, STATUS_COLORS, STATUS_SHORT } from '../atlas';
 import { DownloadGate } from '../DownloadGate';
+import { JsonLd, breadcrumb, faqLd, datasetLd, corridorFaq, SITE } from '../seo';
 
 export const metadata: Metadata = {
   title: 'Import Dependency Map — what India still imports',
+  alternates: { canonical: `${SITE}/research/dependencies/` },
   description:
     'India’s strategic ecosystems scored across every value-chain layer, 0–5 from import-dependent to sovereign, with the rationale and source behind each assessment.',
 };
@@ -16,22 +18,20 @@ export default function DependenciesPage() {
     id: c.id, code: c.code, label: c.label, slug: meta(c.code).slug, accent: meta(c.code).accent,
   }));
 
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Dataset',
-    name: 'India Industrial Import-Dependency Assessments',
-    description:
-      'Capture-status assessments (0–5) across the value chain of India’s semiconductor, critical-minerals, AI-infrastructure, defence and enterprise-software ecosystems.',
-    creator: { '@type': 'Organization', name: 'Techadyant Labs' },
-    dateModified: lastUpdated,
-    variableMeasured: 'Value-chain capture status (0 import-dependent → 5 sovereign)',
-    isAccessibleForFree: true,
-  };
-
   return (
     <>
       <AtlasNav />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <JsonLd data={[
+        breadcrumb([{ name: 'Home', path: '/' }, { name: 'The Atlas', path: '/research/' }, { name: 'Import Dependencies', path: '/research/dependencies/' }]),
+        datasetLd({
+          name: 'India Industrial Import-Dependency Assessments',
+          description: 'Capture-status assessments (0 import-dependent → 5 sovereign) across the value chain of India’s semiconductor, critical-minerals, AI-infrastructure, defence and enterprise-software ecosystems.',
+          path: '/research/dependencies/',
+          keywords: ['India import dependency', 'semiconductor supply chain', 'critical minerals', 'AI infrastructure', 'defence indigenisation', 'enterprise software sovereignty'],
+          csv: ['/data/atlas/dependency-grid.csv', '/data/atlas/players.csv'],
+        }),
+        faqLd(corridorsOrdered.flatMap((c) => corridorFaq(c.id))),
+      ]} />
 
       <header className="ed-page-head">
         <div className="wrap inner">

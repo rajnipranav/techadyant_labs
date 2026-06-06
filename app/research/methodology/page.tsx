@@ -2,11 +2,13 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { STATUS_COLORS, STATUS_SHORT, atlas } from '../atlas';
+import { JsonLd, breadcrumb, SITE, ORG_REF } from '../seo';
 
 export const metadata: Metadata = {
   title: 'Methodology — how the Atlas is built',
   description:
     'How Techadyant Labs scores value-chain capture, what the layers mean, how we verify, and how often the Atlas is updated.',
+  alternates: { canonical: `${SITE}/research/methodology/` },
 };
 
 const LAYERS = [
@@ -22,6 +24,15 @@ export default function MethodologyPage() {
   return (
     <>
       <AtlasNav />
+      <JsonLd data={[
+        breadcrumb([{ name: 'Home', path: '/' }, { name: 'The Atlas', path: '/research/' }, { name: 'Methodology', path: '/research/methodology/' }]),
+        {
+          '@context': 'https://schema.org', '@type': 'DefinedTermSet',
+          name: 'Techadyant value-chain capture scale', url: `${SITE}/research/methodology/`, publisher: ORG_REF,
+          hasDefinedTerm: STATUS_SHORT.map((label, i) => ({ '@type': 'DefinedTerm', name: `${i} — ${label}`, termCode: String(i),
+            description: i === 0 ? 'Total import dependence' : i === 5 ? 'Sovereign / captured capability' : `${label} domestic capability` })),
+        },
+      ]} />
       <header className="ed-page-head">
         <div className="wrap inner">
           <div className="ed-breadcrumb">

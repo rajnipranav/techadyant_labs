@@ -24,6 +24,14 @@ const AI_BOTS = [
   'Applebot-Extended',
   'CCBot',
   'cohere-ai',
+  'Amazonbot',
+  'Bytespider',
+  'Meta-ExternalAgent',
+  'DuckAssistBot',
+  'YouBot',
+  'Diffbot',
+  'Google-CloudVertexBot',
+  'Timpibot',
 ];
 
 /** /robots.txt — welcome classic and AI crawlers to all public pages; block the

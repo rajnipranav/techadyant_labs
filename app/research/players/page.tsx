@@ -3,11 +3,13 @@ import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { PlayersView } from './PlayersView';
 import { corridorsOrdered, meta, atlas, playerSlug } from '../atlas';
+import { JsonLd, breadcrumb, SITE, ORG_REF } from '../seo';
 
 export const metadata: Metadata = {
   title: 'Ecosystems & Players — who builds India’s industrial base',
   description:
     'A directory of the companies, PSUs, ministries, foreign suppliers and materials across India’s semiconductor, critical-minerals, AI-infrastructure, defence and enterprise-software ecosystems — what each one makes and where it sits.',
+  alternates: { canonical: `${SITE}/research/players/` },
 };
 
 export default function PlayersPage() {
@@ -16,6 +18,15 @@ export default function PlayersPage() {
   return (
     <>
       <AtlasNav />
+      <JsonLd data={[
+        breadcrumb([{ name: 'Home', path: '/' }, { name: 'The Atlas', path: '/research/' }, { name: 'Ecosystems & Players', path: '/research/players/' }]),
+        {
+          '@context': 'https://schema.org', '@type': 'CollectionPage',
+          name: 'Ecosystems & Players — India’s industrial base',
+          url: `${SITE}/research/players/`, publisher: ORG_REF,
+          about: 'Companies, PSUs, ministries, foreign suppliers and materials in India’s strategic industrial systems',
+        },
+      ]} />
       <header className="ed-page-head">
         <div className="wrap inner">
           <div className="ed-breadcrumb">

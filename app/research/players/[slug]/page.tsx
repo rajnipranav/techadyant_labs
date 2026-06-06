@@ -5,6 +5,7 @@ import { AtlasNav } from '../../AtlasNav';
 import {
   allPlayers, playerSlug, playerBySlug, relationshipsFor, meta, corridorByCode,
 } from '../../atlas';
+import { JsonLd, breadcrumb, SITE } from '../../seo';
 
 export function generateStaticParams() {
   return allPlayers.map((p) => ({ slug: playerSlug(p.id) }));
@@ -17,6 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${p.name} — ${p.type}`,
     description: p.description || `${p.name} in India’s industrial systems.`,
+    alternates: { canonical: `${SITE}/research/players/${slug}/` },
   };
 }
 
@@ -42,16 +44,20 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
   const corridors = (p.corridors ?? []);
   const isOrg = ['company', 'psu', 'jv', 'foreign_supplier', 'research_institution', 'industry_body', 'financial_institution'].includes(p.type_code);
 
-  const jsonLd = isOrg ? {
+  const orgLd = isOrg ? {
     '@context': 'https://schema.org', '@type': 'Organization',
+    '@id': `${SITE}/research/players/${playerSlug(p.id)}/#org`,
     name: p.name, description: p.description || undefined,
+    url: `${SITE}/research/players/${playerSlug(p.id)}/`,
     address: p.country ? { '@type': 'PostalAddress', addressCountry: p.country } : undefined,
+    knowsAbout: corridors.map((code) => corridorByCode(code)?.label).filter(Boolean),
   } : null;
+  const crumb = breadcrumb([{ name: 'Home', path: '/' }, { name: 'The Atlas', path: '/research/' }, { name: 'Players', path: '/research/players/' }, { name: p.name, path: `/research/players/${playerSlug(p.id)}/` }]);
 
   return (
     <>
       <AtlasNav />
-      {jsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />}
+      <JsonLd data={orgLd ? [crumb, orgLd] : [crumb]} />
 
       <header className="ed-page-head">
         <div className="wrap inner">
