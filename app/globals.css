@@ -1791,5 +1791,11 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .corr-chip{display:inline-block;font-size:11px;font-family:Consolas,monospace;letter-spacing:1px;padding:4px 10px;border-radius:20px;border:1px solid currentColor}
 
 /* corridor map inside the home hero (text/styles untouched; map reuses HeroCanvas field) */
-.ed-hero-map{position:absolute;z-index:4;right:clamp(12px,2.5vw,52px);top:50%;transform:translateY(-50%);width:min(46%,560px);pointer-events:auto}
-@media(max-width:980px){.ed-hero-map{display:none}}
+.ed-hero-map{position:absolute;z-index:4;left:71%;top:50%;transform:translate(-50%,-50%);width:min(42%,520px);pointer-events:auto}
+@media(max-width:980px){
+  .ed-hero{flex-direction:column;align-items:stretch;min-height:auto;padding:96px 0 40px}
+  .ed-hero-inner{order:1}
+  .ed-hero-map{position:static;order:2;left:auto;right:auto;transform:none;width:100%;max-width:560px;margin:6px auto 0;padding:0 clamp(20px,4vw,48px)}
+}
+
+.corr-figure{display:block;width:100%;max-width:1000px;margin:0 auto;border:1px solid var(--border);border-radius:10px;background:#fff}

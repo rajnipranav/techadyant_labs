@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { CorridorMap } from '../CorridorMap';
 import { CorridorTrack } from '../CorridorTrack';
 import { corridors, corridorBySlug, CLASS_COLOR, CLASS_LABEL } from '../data';
 import { getReport } from '../../reports/data';
@@ -76,9 +75,7 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>Where it runs</div><h2>On the map</h2></div>
           <Link href="/corridors" className="see-all">All 11 corridors →</Link></div>
-        <div style={{ maxWidth: 620, margin: '0 auto' }}>
-          <CorridorMap focus={c.slug} navigate />
-        </div>
+        <img src={`/figures/corridors/${c.slug}.svg`} alt={`Map of the ${c.name} — route, anchor nodes and states traversed`} className="corr-figure" loading="lazy" />
       </section>
 
       {/* 3 · At a glance */}

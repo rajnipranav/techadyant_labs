@@ -103,7 +103,7 @@ export const corridors: Corridor[] = [
     slug: "vizag-chennai", num: 9, name: "Vizag–Chennai Industrial Corridor", abbr: "VCIC", cls: "buildout",
     tag: "Coastal", status: "In build-out · ADB US$625 m loan; civil works awarded", length: "800+ km coastline", states: "Andhra Pradesh (ECEC Phase-1)",
     programme: "India's first coastal corridor", blurb: "India's first coastal economic corridor, part of the East Coast Economic Corridor.",
-    pts: [[258.2,374.2],[245,408],[213.8,444.8]], pin: [247,408],
+    pts: [[258.2,374.2],[243,382],[227,395],[212,406],[211,422],[213.8,444.8]], pin: [247,408],
     nodes: [{name:"Visakhapatnam",state:"Andhra Pradesh",note:"Anchor port-industrial city"},{name:"Chittoor",state:"Andhra Pradesh",note:"Southern node"},{name:"Kopparthy",state:"Andhra Pradesh",note:"Electronics node"},{name:"Machilipatnam",state:"Andhra Pradesh",note:"Coastal node"}],
     official: [{label:"NICDC — National Industrial Corridor Development Corp",url:"https://nicdc.in/"},{label:"Make in India — Industrial Corridors",url:"https://www.makeinindia.com/live-projects-industrial-corridor"},{label:"DPIIT — Industrial Corridors",url:"https://dpiit.gov.in/"}],
     reports: ["who-actually-captures-the-india-us-minerals-alliance"],
