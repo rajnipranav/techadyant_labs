@@ -182,6 +182,31 @@ if (!opts.noSync) {
   catch { warn('sync-meta failed (continuing — you can run it manually).'); }
 }
 
+// ── 8b. Auto-draft a launch announcement (published reports only) ─────────
+if (cfg.status === 'published' && !opts.dryRun) {
+  const env = loadEnv();
+  const url = env.SUPABASE_URL, key = env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!url || !key) {
+    warn('Announcement draft skipped (set SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY in .env.local to enable).');
+  } else {
+    try {
+      const hdr = { apikey: key, Authorization: `Bearer ${key}`, 'content-type': 'application/json' };
+      const listR = await fetch(`${url}/rest/v1/rpc/broadcast_list`, { method: 'POST', headers: hdr, body: '{}' });
+      const existing = listR.ok ? await listR.json() : [];
+      if (Array.isArray(existing) && existing.some((b) => b.report_slug === slug)) {
+        info('Announcement draft already exists for this report — skipping.');
+      } else {
+        const subject = `New report — ${cfg.title}`;
+        const body = `We've just published **${cfg.title}**.\n\n${cfg.subtitle}\n\n${cfg.summary}\n\nRead it here: [${cfg.title}](https://labs.techadyant.com/reports/${slug}/)\n\n— Techadyant Labs`;
+        const saveR = await fetch(`${url}/rest/v1/rpc/broadcast_save`, { method: 'POST', headers: hdr,
+          body: JSON.stringify({ p_id: null, p_subject: subject, p_body: body, p_segment: 'all', p_report_slug: slug }) });
+        if (saveR.ok) ok('Draft announcement created → review & send at /admin/announcements');
+        else warn(`Announcement draft failed: ${saveR.status} ${await saveR.text().catch(() => '')}`);
+      }
+    } catch (e) { warn(`Announcement draft error: ${e.message}`); }
+  }
+}
+
 // ── 9. Show git status + next steps ──────────────────────────────────────
 log('');
 try { execSync('git status --short', { cwd: REPO, stdio: 'inherit' }); } catch {}
@@ -415,6 +440,18 @@ function matchBracket(src, startIdx, open, close) {
     }
   }
   return -1;
+}
+
+function loadEnv() {
+  const env = { ...process.env };
+  const envPath = join(REPO, '.env.local');
+  if (existsSync(envPath)) {
+    for (const line of readFileSync(envPath, 'utf8').split(/\r?\n/)) {
+      const m = line.match(/^([A-Z0-9_]+)=(.*)$/);
+      if (m) env[m[1]] = m[2].replace(/^["']|["']$/g, '');
+    }
+  }
+  return env;
 }
 
 function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }

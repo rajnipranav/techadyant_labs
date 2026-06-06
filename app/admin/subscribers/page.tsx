@@ -29,10 +29,15 @@ export default function SubscribersPage() {
     const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'subscribers.csv'; a.click();
   }
 
+  async function testWelcome() {
+    try { const r = await api<{ sent_to: string }>('/subscribers/test-welcome', { method: 'POST', body: '{}' }); alert(`Welcome preview sent to ${r.sent_to}.`); }
+    catch (e) { alert('Failed: ' + String((e as Error).message)); }
+  }
+
   return (
     <>
       <h1 className="admin-h1">Subscribers</h1>
-      <p className="admin-sub">The Dispatch mailing list (Research Reports project). Welcome email + unsubscribe are automatic.</p>
+      <p className="admin-sub">The Dispatch mailing list (Research Reports project). Welcome email + unsubscribe are automatic. <button className="admin-btn" style={{ marginLeft: 8 }} onClick={testWelcome}>Send welcome preview to me</button></p>
       {err && <ErrorBox error={err} />}
       {!stats && !err && <Loading />}
       {stats && (

@@ -1,0 +1,25 @@
+name: Atlas daily rebuild
+
+# Triggers a Cloudflare Pages rebuild once a day so the Atlas re-bakes fresh
+# SID data (scripts/bake-sid.mjs runs in the build). No code changes needed —
+# it just re-deploys. Requires a repo secret CF_DEPLOY_HOOK = the Cloudflare
+# Pages "Deploy hook" URL (Pages project -> Settings -> Builds & deployments
+# -> Deploy hooks -> Create; copy the POST URL).
+
+on:
+  schedule:
+    - cron: '30 0 * * *'   # 00:30 UTC = 06:00 IST, daily
+  workflow_dispatch:        # allow manual runs from the Actions tab
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages deploy hook
+        run: |
+          if [ -z "${{ secrets.CF_DEPLOY_HOOK }}" ]; then
+            echo "::error::CF_DEPLOY_HOOK secret is not set. Add it in repo Settings -> Secrets and variables -> Actions."
+            exit 1
+          fi
+          code=$(curl -fsS -o /dev/null -w '%{http_code}' -X POST "${{ secrets.CF_DEPLOY_HOOK }}")
+          echo "Cloudflare deploy hook responded HTTP $code"

@@ -233,6 +233,14 @@ export async function onRequest(context) {
 
     if (route === '/subscribers/stats') return reply(await rpc(S, SK, 'subscriber_stats'));
     if (route === '/subscribers/list')  return reply(await rpc(S, SK, 'subscriber_list', { p_source: q.get('source') || null, p_q: q.get('q') || null, p_limit: Number(q.get('limit') || 500), p_offset: Number(q.get('offset') || 0) }));
+    if (request.method === 'POST' && route === '/subscribers/test-welcome') {
+      if (!env.RESEND_API_KEY) return json(500, { error: 'RESEND_API_KEY not configured' });
+      const to = who || (env.ADMIN_EMAIL || ADMIN_FALLBACK).split(',')[0].trim();
+      const u = await unsubUrl(env, to);
+      const body = "Welcome to **The Dispatch** — Techadyant Labs' infrequent strategic-intelligence brief on India's industrial systems.\n\nLong-form reports, intelligence signals and executive briefings on semiconductors, AI infrastructure, critical minerals, defence and enterprise-software sovereignty. No sponsored coverage. No spam.\n\nStart with our [latest reports](https://labs.techadyant.com/reports/) and explore [The Atlas](https://labs.techadyant.com/research/) — our live map of India's industrial import-dependencies.";
+      const okw = await resendOne(env, { to, subject: '[PREVIEW] Welcome to The Dispatch — Techadyant Labs', html: emailShell(mdToHtml(body), u), text: textVersion(body, u) });
+      return okw ? json(200, { ok: true, sent_to: to }) : json(502, { error: 'Resend rejected the preview' });
+    }
     if (route === '/broadcasts')        return reply(await rpc(S, SK, 'broadcast_list'));
     if (route === '/broadcast')         return reply(await rpc(S, SK, 'broadcast_get', { p_id: q.get('id') }));
 

@@ -109,7 +109,7 @@ function welcomeEmailHtml(unsubUrl) {
   <h1 style="font-size:24px;line-height:1.25;letter-spacing:-0.02em;margin:0 0 16px;color:#fff">Welcome.</h1>
   <p style="font-size:15px;color:#C8C8D6;margin:0 0 14px">You're on the list for The Dispatch — our infrequent strategic-intelligence brief on India's industrial systems.</p>
   <p style="font-size:15px;color:#C8C8D6;margin:0 0 14px">Expect long-form reports, intelligence signals and executive briefings on semiconductors, AI infrastructure, industrial corridors and the second-order economic effects of India's manufacturing transition. No sponsored coverage. No spam. You can unsubscribe at any time.</p>
-  <p style="font-size:15px;color:#C8C8D6;margin:0 0 24px">Our latest free report — <em>India's AI Industrial Transition and Infrastructure Transformation (2026–2035)</em> — is available now: <a href="https://labs.techadyant.com/reports/india-ai-industrial-transition-2026-2035/" style="color:#818CF8">read it here</a>.</p>
+  <p style="font-size:15px;color:#C8C8D6;margin:0 0 24px">Start with our <a href="https://labs.techadyant.com/reports/" style="color:#818CF8">latest reports</a>, and explore <a href="https://labs.techadyant.com/research/" style="color:#818CF8">The Atlas</a> — our live map of India’s industrial import-dependencies.</p>
   <p style="font-size:13px;color:#9898A8;margin:24px 0 0;padding-top:18px;border-top:1px solid rgba(255,255,255,0.08)">— Techadyant Labs<br>Bengaluru / Hyderabad, India<br><a href="https://labs.techadyant.com" style="color:#818CF8">labs.techadyant.com</a></p>
   <p style="font-size:12px;color:#6F6F85;margin:18px 0 0">You're receiving this because you signed up at labs.techadyant.com. <a href="${unsubUrl}" style="color:#9898A8;text-decoration:underline">Unsubscribe</a>.</p>
 </td></tr></table>
@@ -121,8 +121,8 @@ function welcomeEmailText(unsubUrl) {
 
 You're on the list for Techadyant Labs' infrequent strategic-intelligence brief on India's industrial systems. Long-form reports, intelligence signals and executive briefings on semiconductors, AI infrastructure, industrial corridors and the second-order economic effects of India's manufacturing transition.
 
-Our latest free report — India's AI Industrial Transition and Infrastructure Transformation (2026–2035) — is available now:
-https://labs.techadyant.com/reports/india-ai-industrial-transition-2026-2035/
+Start with our latest reports: https://labs.techadyant.com/reports/
+Explore The Atlas — our live map of India’s industrial import-dependencies: https://labs.techadyant.com/research/
 
 — Techadyant Labs
 labs.techadyant.com
