@@ -46,6 +46,7 @@ export const metadata: Metadata = {
 
 const NAV_LINKS = [
   { href: '/reports', label: 'Reports' },
+  { href: '/corridors', label: 'Corridors' },
   { href: '/signals', label: 'Signals' },
   { href: '/research', label: 'Atlas' },
   { href: '/newsletter', label: 'Sanket' },
@@ -162,6 +163,7 @@ gtag('config', 'G-916MZ965VB');`,
                   <h4>Publication</h4>
                   <ul role="list">
                     <li><Link href="/reports">Reports</Link></li>
+                    <li><Link href="/corridors">Corridors</Link></li>
                     <li><Link href="/signals">Signals</Link></li>
                     <li><Link href="/newsletter">Sanket</Link></li>
                     <li><Link href="/research">The Atlas</Link></li>

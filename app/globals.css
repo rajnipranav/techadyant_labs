@@ -1737,3 +1737,59 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .corr-source .cs-type { font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: var(--text-dim); }
 .corr-source .cs-title { font-size: 13.5px; color: var(--text); font-weight: 500; line-height: 1.3; }
 .corr-source .cs-body { font-size: 11.5px; color: var(--text-muted); }
+
+/* ===== Industrial corridors (the 11) — added for /corridors ===== */
+.cmap-wrap{position:relative;width:100%}
+.cmap-canvas{position:absolute;inset:0;width:100%;height:100%;z-index:0;border-radius:10px}
+.cmap-svg{position:relative;z-index:1;width:100%;height:auto;display:block;overflow:visible}
+.cmap-band{cursor:pointer;transition:fill-opacity .18s,opacity .18s}
+.cmap-center{pointer-events:none}
+.cmap-dim{opacity:.14}
+.cmap-mk{cursor:pointer}
+.cmap-dot{transition:transform .15s}
+.cmap-mk:hover .cmap-dot{transform:scale(1.18)}
+.cmap-rp{transform-box:fill-box;transform-origin:center;animation:cmapPing 2.9s ease-out infinite}
+.cmap-num{font-family:Consolas,'JetBrains Mono',monospace;font-size:7.6px;text-anchor:middle;dominant-baseline:central;pointer-events:none}
+.cmap-tip{position:absolute;z-index:3;pointer-events:none;background:rgba(8,8,16,.96);border:1px solid rgba(201,168,76,.5);border-radius:6px;padding:6px 10px;font-size:12.5px;color:#EFECE3;transform:translate(-50%,-135%);white-space:nowrap}
+.cmap-tip b{display:block;font-weight:500}
+.cmap-tip span{font-size:11px;color:#9aa0b0}
+@keyframes cmapPing{0%{transform:scale(1);opacity:.5}80%{opacity:0}100%{transform:scale(3.6);opacity:0}}
+@media(prefers-reduced-motion:reduce){.cmap-rp{animation:none;opacity:0}}
+
+.cidx-hero{display:grid;grid-template-columns:0.82fr 1.18fr;gap:2vw;align-items:center}
+@media(max-width:880px){.cidx-hero{grid-template-columns:1fr;gap:1rem}}
+.cidx-legend{display:flex;gap:18px;font-size:12.5px;color:var(--text-muted);margin-top:14px}
+.cidx-legend i{display:inline-block;width:20px;height:3px;border-radius:2px;margin-right:7px;vertical-align:middle}
+.cidx-list{list-style:none;padding:0;margin:14px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:2px 22px}
+@media(max-width:560px){.cidx-list{grid-template-columns:1fr}}
+.cidx-list a{display:flex;gap:9px;align-items:center;padding:6px 8px;border-radius:6px;color:var(--text);text-decoration:none;font-size:14.5px;transition:background .12s}
+.cidx-list a:hover{background:rgba(255,255,255,.05)}
+.cidx-list .n{font-family:Consolas,monospace;color:var(--brass);min-width:16px;text-align:right;font-size:13px}
+.cidx-list .sw{width:8px;height:8px;border-radius:2px;flex:none}
+
+.corr-facts{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px 28px}
+.corr-facts .k{font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--text-dim);margin-bottom:3px}
+.corr-facts .v{font-size:15px;color:var(--text)}
+.node-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.node-card{border:1px solid var(--border);border-radius:10px;padding:14px 16px;background:var(--bg-2)}
+.node-card h3{font-size:15px;margin:0 0 2px}
+.node-card .st{font-size:12px;color:var(--text-muted);margin-bottom:6px}
+.node-card p{font-size:13px;color:var(--text-muted);margin:0;line-height:1.5}
+.corr-rel{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.corr-rel a{border:1px solid var(--border);border-radius:10px;padding:14px 16px;text-decoration:none;color:var(--text);transition:border-color .15s}
+.corr-rel a:hover{border-color:var(--border-strong)}
+.corr-rel .rk{font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--text-dim)}
+.corr-rel .rt{font-size:15px;display:block;margin-top:3px}
+.corr-official{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+.corr-official a{color:var(--brass);text-decoration:none;font-size:14.5px;display:inline-flex;gap:8px;align-items:center}
+.corr-official a:hover{text-decoration:underline}
+.corr-prevnext{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--border);padding-top:20px}
+.corr-prevnext a{color:var(--text);text-decoration:none;font-size:14px;max-width:46%}
+.corr-prevnext a:hover{color:var(--brass)}
+.corr-prevnext .pn-k{display:block;font-size:11px;color:var(--text-dim);text-transform:uppercase;letter-spacing:.5px}
+.corr-soon{color:var(--text-dim);font-size:14px;font-style:italic}
+.corr-chip{display:inline-block;font-size:11px;font-family:Consolas,monospace;letter-spacing:1px;padding:4px 10px;border-radius:20px;border:1px solid currentColor}
+
+/* corridor map inside the home hero (text/styles untouched; map reuses HeroCanvas field) */
+.ed-hero-map{position:absolute;z-index:4;right:clamp(12px,2.5vw,52px);top:50%;transform:translateY(-50%);width:min(46%,560px);pointer-events:auto}
+@media(max-width:980px){.ed-hero-map{display:none}}

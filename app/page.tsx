@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { HeroCanvas } from './components/HeroCanvas';
+import { CorridorMap } from './corridors/CorridorMap';
 import { Newsletter } from './components/Newsletter';
 import { FeaturedTopology } from './components/ThemeIcon';
 import { reports, getReport } from './reports/data';
@@ -25,6 +26,10 @@ export default function HomePage() {
         <HeroCanvas />
         <div className="veil" />
         <div className="scanlines" />
+
+        <div className="ed-hero-map">
+          <CorridorMap field={false} navigate />
+        </div>
 
         <div className="ed-hero-inner">
           <div className="ed-hero-eyebrow">
