@@ -1742,7 +1742,8 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .cmap-wrap{position:relative;width:100%}
 .cmap-canvas{position:absolute;inset:0;width:100%;height:100%;z-index:0;border-radius:10px}
 .cmap-svg{position:relative;z-index:1;width:100%;height:auto;display:block;overflow:visible}
-.cmap-band{cursor:pointer;transition:fill-opacity .18s,opacity .18s}
+.cmap-band{cursor:pointer;pointer-events:auto;transition:fill-opacity .18s,opacity .18s}
+.cmap-mk{pointer-events:auto}
 .cmap-center{pointer-events:none}
 .cmap-dim{opacity:.14}
 .cmap-mk{cursor:pointer}
@@ -1791,7 +1792,7 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .corr-chip{display:inline-block;font-size:11px;font-family:Consolas,monospace;letter-spacing:1px;padding:4px 10px;border-radius:20px;border:1px solid currentColor}
 
 /* corridor map inside the home hero (text/styles untouched; map reuses HeroCanvas field) */
-.ed-hero-map{position:absolute;z-index:4;left:71%;top:50%;transform:translate(-50%,-50%);width:min(42%,520px);pointer-events:auto}
+.ed-hero-map{position:absolute;z-index:6;left:71%;top:50%;transform:translate(-50%,-50%);width:min(42%,520px);pointer-events:none}
 @media(max-width:980px){
   .ed-hero{flex-direction:column;align-items:stretch;min-height:auto;padding:96px 0 40px}
   .ed-hero-inner{order:1}
