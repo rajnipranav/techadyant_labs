@@ -9,6 +9,7 @@ const TABS = [
   { href: '/research/players', label: 'Ecosystems & Players' },
   { href: '/research/supply-chains', label: 'Supply Chains' },
   { href: '/research/corridors', label: 'Corridors' },
+  { href: '/research/sources', label: 'Sources' },
   { href: '/research/methodology', label: 'Methodology' },
 ];
 

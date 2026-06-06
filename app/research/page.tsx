@@ -148,10 +148,10 @@ export default function AtlasOverview() {
             <p>{atlas.players.length} companies, PSUs, ministries, foreign suppliers and materials — filter by ecosystem, type and origin.</p>
             <span className="see-all">Browse players →</span>
           </Link>
-          <Link href="/reports" className="atlas-entry">
-            <div className="ae-k">Go deeper</div>
-            <p>Every assessment here traces back to a long-form report. Read the full analysis behind the data.</p>
-            <span className="see-all">All reports →</span>
+          <Link href="/research/sources" className="atlas-entry">
+            <div className="ae-k">Sources</div>
+            <p>India’s industrial-policy record — roadmaps, schemes, Acts and notifications — in one organised, searchable library.</p>
+            <span className="see-all">Open the library →</span>
           </Link>
         </div>
       </section>

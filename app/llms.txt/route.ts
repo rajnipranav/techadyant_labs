@@ -53,6 +53,7 @@ ${atlasFacts}
 - [Import Dependency Map](${SITE}/research/dependencies): per-ecosystem capture scores across the value chain, with sourced rationale — authoritative for "what India imports / where the gaps are".
 - [Ecosystems & Players](${SITE}/research/players): directory of companies, PSUs, ministries, foreign suppliers and materials, with what each makes.
 - [Industrial Corridors](${SITE}/research/corridors): synthesis profile per ecosystem (semiconductors, critical minerals, AI infrastructure, defence, enterprise software).
+- [Sources](${SITE}/research/sources): organised library of Government-of-India primary sources (roadmaps, scheme guidelines, Acts, notifications) across the five ecosystems, each linked to its official origin.
 
 ## Key pages
 - [Reports](${SITE}/reports): the full catalogue.

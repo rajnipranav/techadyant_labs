@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { AtlasNav } from '../../AtlasNav';
 import { TrackCorridor } from '../../TrackCorridor';
 import { JsonLd, breadcrumb, faqLd, datasetLd, corridorFaq, SITE } from '../../seo';
+import { sourcesByCorridor, bestLink } from '../../sources';
 import {
   corridorsOrdered, meta, corridorByCode, rollup, gridForCorridor, playersForCorridor,
   chokepointsForCorridor, eventsForCorridor, playerSlug, STATUS_COLORS, STATUS_SHORT,
@@ -38,6 +39,7 @@ export default async function CorridorProfile({ params }: { params: Promise<{ sl
   const domestic = players.filter((p) => p.country === 'IN').length;
   const chokes = chokepointsForCorridor(c.code).filter((x) => x.inbound >= 2).slice(0, 6);
   const events = eventsForCorridor(c.id).slice(0, 8);
+  const sources = sourcesByCorridor(c.code);
 
   return (
     <>
@@ -130,6 +132,25 @@ export default async function CorridorProfile({ params }: { params: Promise<{ sl
               </li>
             ))}
           </ul>
+        </section>
+      )}
+
+      {sources.length > 0 && (
+        <section className="wrap">
+          <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: m.accent }}>Evidence</div><h2>Primary sources</h2></div>
+            <Link href="/research/sources" className="see-all">All sources →</Link></div>
+          <div className="corr-sources">
+            {sources.map((src) => {
+              const link = bestLink(src);
+              return (
+                <a key={src.id} href={link ?? '#'} target="_blank" rel="noopener" className="corr-source" style={{ ['--accent' as string]: m.accent }}>
+                  <span className="cs-type">{src.doc_type} · {src.year}</span>
+                  <span className="cs-title">{src.title}</span>
+                  <span className="cs-body">{src.issuing_body} ↗</span>
+                </a>
+              );
+            })}
+          </div>
         </section>
       )}
 

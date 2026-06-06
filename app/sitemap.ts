@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/research/methodology`,  lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${SITE}/research/supply-chains`, lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
     { url: `${SITE}/research/corridors`,     lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE}/research/sources`,       lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
   ];
 
   // Published reports (skip forthcoming — they have placeholder pages with
