@@ -25,6 +25,50 @@ async function rpc(base, key, fn, args) {
   try { return { data: JSON.parse(t) }; } catch { return { data: t }; }
 }
 
+// --- Email broadcast helpers (subscriber management) ---
+async function hmacHex(secret, message) {
+  const enc = new TextEncoder();
+  const key = await crypto.subtle.importKey('raw', enc.encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
+  const sig = await crypto.subtle.sign('HMAC', key, enc.encode(message));
+  return [...new Uint8Array(sig)].map((b) => b.toString(16).padStart(2, '0')).join('');
+}
+async function unsubUrl(env, email) {
+  const secret = env.UNSUBSCRIBE_SECRET || env.SUPABASE_SERVICE_ROLE_KEY || 'fallback-dev';
+  const t = (await hmacHex(secret, email)).slice(0, 32);
+  const base = env.SITE_URL || 'https://labs.techadyant.com';
+  return `${base}/api/unsubscribe?e=${encodeURIComponent(email)}&t=${t}`;
+}
+function escHtml(s) { return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+function mdToHtml(md) {
+  return String(md || '').split(/\n{2,}/).map((b) => {
+    const h = escHtml(b)
+      .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2" style="color:#818CF8">$1</a>')
+      .replace(/\*\*([^*]+)\*\*/g, '<strong style="color:#fff">$1</strong>')
+      .replace(/\n/g, '<br>');
+    return `<p style="font-size:15px;color:#C8C8D6;margin:0 0 14px">${h}</p>`;
+  }).join('\n');
+}
+function emailShell(bodyHtml, unsub) {
+  return `<!doctype html><html><body style="margin:0;padding:24px;background:#0B0B14;color:#E8E8F0;font-family:-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.55"><table cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:560px;margin:0 auto"><tr><td><div style="font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.18em;color:#F5B544;text-transform:uppercase;margin-bottom:18px">Techadyant Labs &middot; The Dispatch</div>${bodyHtml}<p style="font-size:13px;color:#9898A8;margin:24px 0 0;padding-top:18px;border-top:1px solid rgba(255,255,255,0.08)">&mdash; Techadyant Labs &middot; Bengaluru / Hyderabad, India &middot; <a href="https://labs.techadyant.com" style="color:#818CF8">labs.techadyant.com</a></p><p style="font-size:12px;color:#6F6F85;margin:14px 0 0">You are receiving this because you subscribed at labs.techadyant.com. <a href="${unsub}" style="color:#9898A8;text-decoration:underline">Unsubscribe</a>.</p></td></tr></table></body></html>`;
+}
+function textVersion(md, unsub) {
+  return `${String(md || '').replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '$1 ($2)')}\n\n--\nTechadyant Labs\nlabs.techadyant.com\n\nUnsubscribe: ${unsub}`;
+}
+async function resendOne(env, { to, subject, html, text }) {
+  const u = await unsubUrl(env, to);
+  const payload = {
+    from: `Techadyant Labs <${env.FROM_EMAIL || 'labs@techadyant.com'}>`,
+    to: [to], subject, html, text,
+    reply_to: env.FROM_EMAIL || 'labs@techadyant.com',
+    headers: { 'List-Unsubscribe': `<${u}>`, 'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click' },
+  };
+  const r = await fetch('https://api.resend.com/emails', {
+    method: 'POST', headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  return r.ok;
+}
+
 function b64urlDecode(s) {
   s = s.replace(/-/g, '+').replace(/_/g, '/');
   while (s.length % 4) s += '=';
@@ -185,6 +229,53 @@ export async function onRequest(context) {
       else if (b.action === 'merge') { fn = 'sid_merge_candidate'; args = { p_candidate_id: b.candidate_id, p_into_entity: b.into_entity }; }
       else return json(400, { error: 'unknown action' });
       return reply(await rpc(N, NK, fn, args));
+    }
+
+    if (route === '/subscribers/stats') return reply(await rpc(S, SK, 'subscriber_stats'));
+    if (route === '/subscribers/list')  return reply(await rpc(S, SK, 'subscriber_list', { p_source: q.get('source') || null, p_q: q.get('q') || null, p_limit: Number(q.get('limit') || 500), p_offset: Number(q.get('offset') || 0) }));
+    if (route === '/broadcasts')        return reply(await rpc(S, SK, 'broadcast_list'));
+    if (route === '/broadcast')         return reply(await rpc(S, SK, 'broadcast_get', { p_id: q.get('id') }));
+
+    if (request.method === 'POST' && route === '/broadcasts/save') {
+      const b = await request.json();
+      return reply(await rpc(S, SK, 'broadcast_save', { p_id: b.id || null, p_subject: b.subject || '(untitled)', p_body: b.body || '', p_segment: b.segment || 'all', p_report_slug: b.report_slug || null }));
+    }
+    if (request.method === 'POST' && route === '/broadcasts/delete') {
+      const b = await request.json();
+      return reply(await rpc(S, SK, 'broadcast_delete', { p_id: b.id }));
+    }
+    if (request.method === 'POST' && (route === '/broadcasts/test' || route === '/broadcasts/send')) {
+      if (!env.RESEND_API_KEY) return json(500, { error: 'RESEND_API_KEY not configured' });
+      if (!S || !SK) return json(500, { error: 'website Supabase not configured' });
+      const b = await request.json();
+      const got = await rpc(S, SK, 'broadcast_get', { p_id: b.id });
+      if (got.error || !got.data) return json(404, { error: 'broadcast not found' });
+      const bc = got.data;
+      const html = emailShell(mdToHtml(bc.body_md), '');
+      if (route === '/broadcasts/test') {
+        const to = who || (env.ADMIN_EMAIL || ADMIN_FALLBACK).split(',')[0].trim();
+        const u = await unsubUrl(env, to);
+        const ok = await resendOne(env, { to, subject: `[TEST] ${bc.subject}`, html: emailShell(mdToHtml(bc.body_md), u), text: textVersion(bc.body_md, u) });
+        if (!ok) return json(502, { error: 'Resend rejected the test send' });
+        await rpc(S, SK, 'broadcast_mark_test', { p_id: bc.id });
+        return json(200, { ok: true, sent_to: to });
+      }
+      if (bc.status === 'sent') return json(409, { error: 'this broadcast was already sent' });
+      const rcptRes = await rpc(S, SK, 'broadcast_recipients', { p_segment: bc.segment });
+      const recipients = Array.isArray(rcptRes.data) ? rcptRes.data : [];
+      if (!recipients.length) return json(400, { error: 'no active recipients for this segment' });
+      if (recipients.length > 500) return json(400, { error: `segment has ${recipients.length} recipients (>500). Use Resend Broadcasts for lists this large.` });
+      let sent = 0;
+      for (let i = 0; i < recipients.length; i += 20) {
+        const chunk = recipients.slice(i, i + 20);
+        const results = await Promise.all(chunk.map(async (to) => {
+          const u = await unsubUrl(env, to);
+          return resendOne(env, { to, subject: bc.subject, html: emailShell(mdToHtml(bc.body_md), u), text: textVersion(bc.body_md, u) });
+        }));
+        sent += results.filter(Boolean).length;
+      }
+      const marked = await rpc(S, SK, 'broadcast_mark_sent', { p_id: bc.id, p_recipients: recipients.length, p_sent: sent });
+      return json(200, { ok: true, recipients: recipients.length, sent, broadcast: marked.data });
     }
 
     if (route === '/site') {

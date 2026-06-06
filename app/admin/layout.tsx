@@ -20,6 +20,7 @@ const NAV = [
     ],
   },
   { group: 'Publishing', items: [{ href: '/admin/pipeline', label: 'Research pipeline' }, { href: '/admin/promotion', label: 'Promotion tracker' }] },
+  { group: 'Audience', items: [{ href: '/admin/subscribers', label: 'Subscribers' }, { href: '/admin/announcements', label: 'Announcements' }] },
   { group: 'Feeds & ops', items: [{ href: '/admin/signals', label: 'Signals' }, { href: '/admin/ops', label: 'Workflow runs' }, { href: '/admin/site', label: 'Site management' }] },
 ];
 
