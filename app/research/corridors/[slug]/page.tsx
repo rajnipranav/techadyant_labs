@@ -14,8 +14,9 @@ export function generateStaticParams() {
 
 const bySlug = (slug: string) => corridorsOrdered.find((c) => meta(c.code).slug === slug);
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const c = bySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const c = bySlug(slug);
   if (!c) return { title: 'Corridor' };
   return {
     title: `${c.label} — ecosystem profile`,
@@ -23,8 +24,9 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-export default function CorridorProfile({ params }: { params: { slug: string } }) {
-  const c = bySlug(params.slug);
+export default async function CorridorProfile({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const c = bySlug(slug);
   if (!c) notFound();
   const m = meta(c.code);
   const r = rollup(c.id);

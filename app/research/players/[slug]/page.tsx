@@ -10,8 +10,9 @@ export function generateStaticParams() {
   return allPlayers.map((p) => ({ slug: playerSlug(p.id) }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const p = playerBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const p = playerBySlug(slug);
   if (!p) return { title: 'Player' };
   return {
     title: `${p.name} — ${p.type}`,
@@ -32,8 +33,9 @@ const IN_LABEL: Record<string, string> = {
   competes_with: 'Competes with', partners_with: 'Partners with',
 };
 
-export default function PlayerPage({ params }: { params: { slug: string } }) {
-  const p = playerBySlug(params.slug);
+export default async function PlayerPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const p = playerBySlug(slug);
   if (!p) notFound();
 
   const edges = relationshipsFor(p.id);
