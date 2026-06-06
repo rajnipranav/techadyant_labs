@@ -4,14 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/indexnow-submit.mjs",
+    "build": "node scripts/bake-sid.mjs && next build && node scripts/indexnow-submit.mjs",
     "build:only": "next build",
     "start": "next start",
     "lint": "next lint",
     "sync-meta": "node scripts/sync-report-meta.mjs",
     "publish-report": "node scripts/publish-report.mjs",
     "indexnow": "node scripts/indexnow-submit.mjs",
-    "indexnow:all": "node scripts/indexnow-submit.mjs --all"
+    "indexnow:all": "node scripts/indexnow-submit.mjs --all",
+    "bake": "node scripts/bake-sid.mjs"
   },
   "dependencies": {
     "next": "^15.3.1",

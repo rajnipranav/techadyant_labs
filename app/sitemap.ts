@@ -2,7 +2,6 @@ import type { MetadataRoute } from 'next';
 import { reports } from './reports/data';
 import { THEMES } from './reports/themes';
 import { signals } from './signals/data';
-import { themes } from './research/data';
 import { issues } from './newsletter/data';
 
 // The project uses `output: 'export'` for Cloudflare Pages static deploy;
@@ -27,6 +26,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/briefings`, lastModified: now, changeFrequency: 'weekly',  priority: 0.7 },
     { url: `${SITE}/research`,  lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE}/about`,     lastModified: now, changeFrequency: 'yearly',  priority: 0.4 },
+    { url: `${SITE}/research/dependencies`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE}/research/players`,      lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
+    { url: `${SITE}/research/methodology`,  lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
   ];
 
   // Published reports (skip forthcoming — they have placeholder pages with
@@ -50,14 +52,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     }));
 
-  // Research theme anchors (single page, but emit anchored variants so Google
-  // can deep-link to a theme directly).
-  const themeRoutes: MetadataRoute.Sitemap = themes.map((th) => ({
-    url: `${SITE}/research#${th.id}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.5,
-  }));
 
   // Theme hub pages (/reports/theme/<slug>) — only those with published reports,
   // plus the Technology Sovereignty Series landing page.
@@ -82,5 +76,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...themeRoutes, ...issueRoutes];
+  return [...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes];
 }

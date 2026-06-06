@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { HeroCanvas } from './components/HeroCanvas';
 import { Newsletter } from './components/Newsletter';
-import { ThemeIcon, FeaturedTopology } from './components/ThemeIcon';
+import { FeaturedTopology } from './components/ThemeIcon';
 import { reports, getReport } from './reports/data';
 import { signals } from './signals/data';
-import { themes } from './research/data';
+import { corridorsOrdered, meta, rollup } from './research/atlas';
 import { briefings as allBriefings } from './briefings/data';
 
 export const metadata: Metadata = {
@@ -148,31 +148,42 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Research themes ── */}
-      <section className="wrap" aria-labelledby="themes-h">
+      {/* ── The Atlas ── */}
+      <section className="wrap" aria-labelledby="atlas-h">
         <div className="section-head-ed">
           <div>
-            <div className="ed-kicker">Research themes</div>
-            <h2 id="themes-h">Lines of inquiry</h2>
+            <div className="ed-kicker">The Atlas</div>
+            <h2 id="atlas-h">India’s industrial systems, mapped</h2>
           </div>
-          <Link href="/research" className="see-all">Explore research →</Link>
+          <Link href="/research" className="see-all">Open the Atlas →</Link>
         </div>
-
-        <div className="themes-grid">
-          {themes.map((th) => (
-            <Link
-              key={th.id}
-              href={`/research#${th.id}`}
-              className="theme"
-              style={{ ['--theme-accent' as string]: th.accent }}
-            >
-              <div className="theme-no">{th.no}</div>
-              <div className="theme-icon"><ThemeIcon icon={th.icon} /></div>
-              <h3>{th.title}</h3>
-              <p>{th.blurb}</p>
-              <span className="theme-count">{th.count} →</span>
-            </Link>
-          ))}
+        <p className="section-note" style={{ maxWidth: '70ch', marginBottom: 24 }}>
+          A living, free reference — the players in each ecosystem, what they make, and the
+          value-chain layers India still imports.
+        </p>
+        <div className="atlas-cards">
+          {corridorsOrdered.map((c) => {
+            const m = meta(c.code);
+            const r = rollup(c.id);
+            return (
+              <Link
+                key={c.code}
+                href={`/research/dependencies#${m.slug}`}
+                className="atlas-card"
+                style={{ ['--accent' as string]: m.accent }}
+              >
+                <div className="atlas-card-head">
+                  <h3>{c.label}</h3>
+                  <span className="atlas-card-no">{String(c.id).padStart(2, '0')}</span>
+                </div>
+                <p className="atlas-card-tag">{m.tagline}</p>
+                <div className="atlas-card-stats">
+                  <span><b>{r.importDependent}</b> of <b>{r.cells}</b> layers import-dependent</span>
+                </div>
+                <span className="atlas-card-go">View dependency map →</span>
+              </Link>
+            );
+          })}
         </div>
       </section>
 

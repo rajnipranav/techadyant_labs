@@ -1,0 +1,1812 @@
+{
+ "generated_at": "2026-06-06T01:38:12.729525+00:00",
+ "corridors": [
+  {
+   "id": 1,
+   "code": "semiconductors",
+   "label": "Semiconductors"
+  },
+  {
+   "id": 2,
+   "code": "critical_minerals",
+   "label": "Critical Minerals"
+  },
+  {
+   "id": 3,
+   "code": "ai_infrastructure",
+   "label": "AI Infrastructure"
+  },
+  {
+   "id": 4,
+   "code": "defence",
+   "label": "Defence"
+  },
+  {
+   "id": 5,
+   "code": "enterprise_software",
+   "label": "Enterprise Software"
+  }
+ ],
+ "layers": [
+  {
+   "id": 1,
+   "code": "raw_materials",
+   "label": "Raw Materials"
+  },
+  {
+   "id": 2,
+   "code": "refining_processing",
+   "label": "Refining & Processing"
+  },
+  {
+   "id": 3,
+   "code": "components_inputs",
+   "label": "Components & Inputs"
+  },
+  {
+   "id": 4,
+   "code": "equipment_capital_goods",
+   "label": "Equipment & Capital Goods"
+  },
+  {
+   "id": 5,
+   "code": "manufacturing_integration",
+   "label": "Manufacturing & Integration"
+  },
+  {
+   "id": 6,
+   "code": "services_ip",
+   "label": "Services & IP"
+  },
+  {
+   "id": 7,
+   "code": "sw_public_cloud",
+   "label": "Public Cloud"
+  },
+  {
+   "id": 8,
+   "code": "sw_erp",
+   "label": "ERP"
+  },
+  {
+   "id": 9,
+   "code": "sw_productivity",
+   "label": "Productivity Platforms"
+  },
+  {
+   "id": 10,
+   "code": "sw_desktop_os",
+   "label": "Desktop OS"
+  },
+  {
+   "id": 11,
+   "code": "sw_databases",
+   "label": "Databases"
+  },
+  {
+   "id": 12,
+   "code": "sw_ai_platforms",
+   "label": "AI Platforms"
+  },
+  {
+   "id": 13,
+   "code": "sw_cybersecurity",
+   "label": "Cybersecurity"
+  },
+  {
+   "id": 14,
+   "code": "sw_crm",
+   "label": "CRM"
+  },
+  {
+   "id": 15,
+   "code": "sw_server_os",
+   "label": "Server OS"
+  },
+  {
+   "id": 16,
+   "code": "sw_identity",
+   "label": "Identity"
+  },
+  {
+   "id": 17,
+   "code": "sw_payments",
+   "label": "Payment Rails"
+  }
+ ],
+ "status_levels": [
+  {
+   "id": 0,
+   "code": "import_dependent",
+   "label": "Import-Dependent"
+  },
+  {
+   "id": 1,
+   "code": "nascent",
+   "label": "Nascent"
+  },
+  {
+   "id": 2,
+   "code": "emerging",
+   "label": "Emerging"
+  },
+  {
+   "id": 3,
+   "code": "partial",
+   "label": "Partial"
+  },
+  {
+   "id": 4,
+   "code": "substantial",
+   "label": "Substantial"
+  },
+  {
+   "id": 5,
+   "code": "captured",
+   "label": "Captured / Sovereign"
+  }
+ ],
+ "grid": [
+  {
+   "corridor_id": 1,
+   "layer_id": 1,
+   "layer": "Raw Materials",
+   "status": 1,
+   "status_label": "Nascent",
+   "rationale": "Almost no domestic high-purity silicon, photoresist, specialty gases or slurries (>90% imported); gallium China-controlled. [orfonline.org semiconductor supply chain]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 1,
+   "layer_id": 2,
+   "layer": "Refining & Processing",
+   "status": 1,
+   "status_label": "Nascent",
+   "rationale": "No electronic-grade silicon/chemical refining at scale; SPECS localisation pre-production mid-2026. [orfonline.org]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 1,
+   "layer_id": 3,
+   "layer": "Components & Inputs",
+   "status": 2,
+   "status_label": "Emerging",
+   "rationale": "Emerging SiC (SiCSem), GaN (Crystal Matrix), discretes (CDIL), SCL 180nm — but most wafer/substrate inputs imported. [PIB PRID 2155459]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 1,
+   "layer_id": 4,
+   "layer": "Equipment & Capital Goods",
+   "status": 0,
+   "status_label": "Import-Dependent",
+   "rationale": "Total import dependency on ASML, Applied Materials/Lam, Tokyo Electron; no domestic WFE maker. [asml.com Tata partnership]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 1,
+   "layer_id": 5,
+   "layer": "Manufacturing & Integration",
+   "status": 3,
+   "status_label": "Partial",
+   "rationale": "Two OSATs operational (Micron, Kaynes), more ramping, first logic megafab ~50% built — but process IP licensed from PSMC/Renesas. [tataelectronics.com]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 1,
+   "layer_id": 6,
+   "layer": "Services & IP",
+   "status": 2,
+   "status_label": "Emerging",
+   "rationale": "Emerging design layer (DLI 24 projects/16 tape-outs, C-DAC ChipIN) but leading-edge fab outsourced to TSMC, EDA/IP foreign. [digitimes.com]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 2,
+   "layer_id": 1,
+   "layer": "Raw Materials",
+   "status": 2,
+   "status_label": "Emerging",
+   "rationale": "Reserves exist (REE 6.9 Mt, graphite 8.6 Mt) but bankable extraction thin: Reasi auction failed twice, lithium ~100% imported. [business-standard.com Reasi]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 2,
+   "layer_id": 2,
+   "layer": "Refining & Processing",
+   "status": 1,
+   "status_label": "Nascent",
+   "rationale": "Weakest layer: ~100% China-dependent refined NdFeB, ~98% gallium, ~90% battery graphite; NALCO gallium pre-commercial. [anderseninstitute.org]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 2,
+   "layer_id": 3,
+   "layer": "Components & Inputs",
+   "status": 1,
+   "status_label": "Nascent",
+   "rationale": "Finished sintered NdFeB magnets ~100% imported (53,748 t FY25); domestic chain absent until REPM units commission. [mining-technology.com]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 2,
+   "layer_id": 4,
+   "layer": "Equipment & Capital Goods",
+   "status": 1,
+   "status_label": "Nascent",
+   "rationale": "Magnet sintering/REE separation/gallium-extraction equipment import-dependent; REPM explicitly subsidises capex. [pmindia.gov.in REPM]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 2,
+   "layer_id": 5,
+   "layer": "Manufacturing & Integration",
+   "status": 2,
+   "status_label": "Emerging",
+   "rationale": "IREL is sole integrated monazite-to-magnet operator; recyclers (Lohum, Attero) close the loop, but no integrated chain at scale yet. [irel.co.in]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 2,
+   "layer_id": 6,
+   "layer": "Services & IP",
+   "status": 3,
+   "status_label": "Partial",
+   "rationale": "Strongest layer: GSI/MECL exploration, NALCO-BARC gallium tech, Lohum patented hydromet (90%+ recovery). [mecl.co.in]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 3,
+   "layer_id": 1,
+   "layer": "Raw Materials",
+   "status": 3,
+   "status_label": "Partial",
+   "rationale": "Captive renewables exist (Reliance, Adani) but transmission evacuation strands power; grid not built for AI racks. [nextias.com DC energy]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 3,
+   "layer_id": 2,
+   "layer": "Refining & Processing",
+   "status": 0,
+   "status_label": "Import-Dependent",
+   "rationale": "Zero advanced-node capability; Dholera fabs 28nm+ vs 3-5nm AI silicon; all AI chips imported and TSMC-CoWoS-bound. [indmoney.com semiconductor gap]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 3,
+   "layer_id": 3,
+   "layer": "Components & Inputs",
+   "status": 0,
+   "status_label": "Import-Dependent",
+   "rationale": "Total import dependency on Nvidia (~80% share) with AMD a marginal hedge; the sovereignty break point. [introl.com GPU landscape]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 3,
+   "layer_id": 4,
+   "layer": "Equipment & Capital Goods",
+   "status": 2,
+   "status_label": "Emerging",
+   "rationale": "Indian firms build shells and own subsea cables, but networking silicon, switches, optics overwhelmingly imported. [wikipedia DC industry India]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 3,
+   "layer_id": 5,
+   "layer": "Manufacturing & Integration",
+   "status": 4,
+   "status_label": "Substantial",
+   "rationale": "Strong, largely domestically operated: Reliance, AdaniConneX, CtrlS, Yotta, Nxtra run GW-scale builds + IndiaAI cluster. [PIB PRID 2132817]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 3,
+   "layer_id": 6,
+   "layer": "Services & IP",
+   "status": 3,
+   "status_label": "Partial",
+   "rationale": "Genuine indigenous foundation-model capability (Sarvam 105B, Krutrim) but trained on imported GPUs; MLOps AWS/Azure/Google-dominated. [business-standard.com Sarvam]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 4,
+   "layer_id": 1,
+   "layer": "Raw Materials",
+   "status": 3,
+   "status_label": "Partial",
+   "rationale": "MIDHANI sole domestic source of titanium/maraging steel but still seeks JVs for overseas superalloy feedstock. [tipranks.com MIDHANI]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 4,
+   "layer_id": 2,
+   "layer": "Refining & Processing",
+   "status": 3,
+   "status_label": "Partial",
+   "rationale": "MIDHANI indigenised three master alloys, gained CEMILAC/NADCAP certs, raised titanium output ~40%; high-end melt maturing. [tipranks.com MIDHANI]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 4,
+   "layer_id": 3,
+   "layer": "Components & Inputs",
+   "status": 1,
+   "status_label": "Nascent",
+   "rationale": "Hard chokepoint: jet engines wholly import-dependent (GE F404/F414), GaN/SiC at lab scale, AIP from TKMS, S-400 from Russia. [business-standard.com HAL-GE]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 4,
+   "layer_id": 4,
+   "layer": "Equipment & Capital Goods",
+   "status": 2,
+   "status_label": "Emerging",
+   "rationale": "Machine tools, fab/clean-room and high-end test infra largely imported; DRDO SSPL/GAETEC exist but base foreign-reliant. [theweek.in DRDO GaN]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 4,
+   "layer_id": 5,
+   "layer": "Manufacturing & Integration",
+   "status": 4,
+   "status_label": "Substantial",
+   "rationale": "Platform assembly strongly indigenous: Tejas, ATAGS, Akash/BrahMos, Vikrant, K9; FY25 production Rs 1.54 lakh cr, exports Rs 23,622 cr. [PIB PRID 2154551]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 4,
+   "layer_id": 6,
+   "layer": "Services & IP",
+   "status": 3,
+   "status_label": "Partial",
+   "rationale": "Design IP held domestically (DRDO/ADA: Tejas, AMCA, Pinaka) but source-code/critical-tech ToT for imported platforms withheld. [theprint.in AMCA]",
+   "verification": "single_source",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 5,
+   "layer_id": 7,
+   "layer": "Public Cloud",
+   "status": 0,
+   "status_label": "Import-Dependent",
+   "rationale": "EDI 81.7 (Captured). AWS/Azure/GCP dominate; CLOUD Act exposure. No domestic hyperscaler.",
+   "verification": "unverified",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 5,
+   "layer_id": 8,
+   "layer": "ERP",
+   "status": 0,
+   "status_label": "Import-Dependent",
+   "rationale": "EDI 78.5 (Captured). SAP/Oracle at the transactional core of PSUs and large industry; Ramco the lone domestic top-tier player.",
+   "verification": "unverified",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 5,
+   "layer_id": 9,
+   "layer": "Productivity Platforms",
+   "status": 0,
+   "status_label": "Import-Dependent",
+   "rationale": "EDI 72.5. M365/Workspace near-total; negligible domestic alternative.",
+   "verification": "unverified",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 5,
+   "layer_id": 10,
+   "layer": "Desktop OS",
+   "status": 0,
+   "status_label": "Import-Dependent",
+   "rationale": "EDI 70.8. Windows endpoint monopoly.",
+   "verification": "unverified",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 5,
+   "layer_id": 11,
+   "layer": "Databases",
+   "status": 1,
+   "status_label": "Nascent",
+   "rationale": "EDI 70.0. Oracle/SQL Server dominate, but PostgreSQL is a credible sovereign exit (nascent in enterprise).",
+   "verification": "unverified",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 5,
+   "layer_id": 12,
+   "layer": "AI Platforms",
+   "status": 1,
+   "status_label": "Nascent",
+   "rationale": "EDI 69.2. Frontier models foreign-led; open-weight + Indian LLM efforts nascent.",
+   "verification": "unverified",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 5,
+   "layer_id": 13,
+   "layer": "Cybersecurity",
+   "status": 1,
+   "status_label": "Nascent",
+   "rationale": "EDI 63.2. Foreign-led; domestic security product base nascent.",
+   "verification": "unverified",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 5,
+   "layer_id": 14,
+   "layer": "CRM",
+   "status": 2,
+   "status_label": "Emerging",
+   "rationale": "EDI 56.0. Zoho and Freshworks make this the one application layer with real domestic products (emerging).",
+   "verification": "unverified",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 5,
+   "layer_id": 15,
+   "layer": "Server OS",
+   "status": 4,
+   "status_label": "Substantial",
+   "rationale": "EDI 45.5. Linux/open-source — substantial sovereignty; India consumes freely, contributes less.",
+   "verification": "unverified",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 5,
+   "layer_id": 16,
+   "layer": "Identity",
+   "status": 5,
+   "status_label": "Captured / Sovereign",
+   "rationale": "EDI 42.6. Aadhaar — state-built, sovereign by construction.",
+   "verification": "unverified",
+   "date": "2026-05-31"
+  },
+  {
+   "corridor_id": 5,
+   "layer_id": 17,
+   "layer": "Payment Rails",
+   "status": 5,
+   "status_label": "Captured / Sovereign",
+   "rationale": "EDI 37.4. UPI — open-standards sovereign rails; world reference DPI.",
+   "verification": "unverified",
+   "date": "2026-05-31"
+  }
+ ],
+ "players": [
+  {
+   "id": "3926ed17-19f8-4b1d-8f5f-9f6bfffeb5d9",
+   "name": "AdaniConneX Private Limited",
+   "type_code": "jv",
+   "type": "Joint Venture",
+   "country": "IN",
+   "description": "Adani x EdgeConneX JV; ~$100bn AI-DC pledge anchored by Google (Visakhapatnam) and Microsoft.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "5b776afb-3c99-4911-a67c-6fe873610e18",
+   "name": "Advanced Micro Devices, Inc.",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "description": "Only credible accelerator alternative to Nvidia (MI300X/MI350); empanelled under IndiaAI but a hedge, not an escape.",
+   "corridors": [
+    "ai_infrastructure",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "bfcc8ecc-eb40-43f0-b230-cbcb326357ca",
+   "name": "Aeronautical Development Agency",
+   "type_code": "research_institution",
+   "type": "Research Institution",
+   "country": "IN",
+   "description": "DRDO design house holding design authority for Tejas and AMCA — the IP node even where private primes build.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "dc2884fb-a8b4-4a04-bf11-78fa30f35b66",
+   "name": "Amazon Web Services India",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "US",
+   "description": "Largest hyperscaler footprint (Mumbai + Hyderabad); foreign-controlled compute most Indian AI workloads run on.",
+   "corridors": [
+    "ai_infrastructure",
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "36aaed71-4d84-4d48-87b1-85c093473c63",
+   "name": "Applied Materials Inc.",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "description": "World's largest wafer-fab-equipment maker; India fabs fully import-dependent on AMAT process tools.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "332dcdd1-4bb5-4776-915c-d276c2edd17b",
+   "name": "ASML Holding NV",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "NL",
+   "description": "Global lithography monopoly; supplies DUV tools to Dholera. India's advanced-patterning depends entirely on ASML.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "776e635c-4665-4db4-b271-b47b6f793e2e",
+   "name": "Attero Recycling Private Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Major e-waste/Li-ion recycler; patented hydromet black-mass processing recovering Li/Ni/Co/REE.",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "f6877a4d-e14d-4a4f-8b0f-cc8ea80f7bef",
+   "name": "Bharat Dynamics Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Sole DPSU missile-integration prime — Akash, Astra, QRSAM, ATGMs; core node for guided-munitions stockpile.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "e678b1fe-cf31-441d-900b-36383c9975ce",
+   "name": "Bharat Electronics Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Dominant defence-electronics prime — radar, EW, fire-control, SAM electronics; load-bearing for nearly every system.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "0f20ed14-69d6-4b6f-87e8-449e2850ee91",
+   "name": "Bharat Forge Limited (Kalyani Strategic Systems)",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Private artillery/forgings prime; lead ATAGS supplier, AMCA consortium lead; controls gun-forging/barrel capacity.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "5648fd24-8ebd-4fb3-ba89-0c4256d2aaaf",
+   "name": "Bharti Airtel Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Owns Nxtra and Mumbai/Chennai cable landings (2Africa Pearls, SEA-ME-WE-6); a subsea-landing chokepoint.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "b57bd0ff-9b0c-470b-8ba9-19cc195bcbd1",
+   "name": "BrahMos Aerospace Private Limited",
+   "type_code": "jv",
+   "type": "Joint Venture",
+   "country": "IN",
+   "description": "India-Russia supersonic cruise-missile JV; India's flagship strike-missile and export node.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "5eca3743-e005-4d05-b684-770011ae0d8f",
+   "name": "CAMYEN SE",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "AR",
+   "description": "Catamarca state miner; KABIL's counterparty on India's first sovereign overseas lithium asset (5 blocks).",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "88d83f1a-ec8d-413c-8e16-90637176aef1",
+   "name": "Centre for Development of Advanced Computing",
+   "type_code": "research_institution",
+   "type": "Research Institution",
+   "country": "IN",
+   "description": "MeitY R&D body; nodal agency for DLI and the cloud EDA/IP 'ChipIN' gateway for fabless startups.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "3518e1bc-0be6-47f0-b1a2-0e32388cce33",
+   "name": "CG Power and Industrial Solutions Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Murugappa/TII-owned promoter holding ~92.3% of CG Semi; domestic anchor of a Sanand OSAT.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "94f7f151-82ff-46c2-bdaa-392e84a92a96",
+   "name": "CG Semi Private Limited",
+   "type_code": "jv",
+   "type": "Joint Venture",
+   "country": "IN",
+   "description": "CG Power-led Sanand OSAT JV (CG/Renesas/Stars); ramping to 15M units/day.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "69171d02-7d8d-4b54-8496-27f922bd4d72",
+   "name": "Chargebee",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Indian subscription-revenue-management SaaS; ~USD 3.5bn valuation. Chennai-origin.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "c3ac3d24-c17b-4396-a9cb-6033861f6dd6",
+   "name": "Coal India Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Maharatna coal monopoly diversifying into critical minerals; pursuing Argentina lithium-brine assets.",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "e2bb8a92-5ba1-40ff-8dd5-c2ab91db432f",
+   "name": "Cochin Shipyard Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Builder of the indigenous aircraft carrier Vikrant; the only Indian yard proven on carrier integration.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "f75eb9ce-da7b-49eb-a19d-a7af16b825b9",
+   "name": "Continental Device India Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "India's oldest semiconductor maker; Mohali expansion for high-power discretes (MOSFETs, IGBTs, SiC).",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "92f7b900-1b4f-4f1a-893c-5224f96acd40",
+   "name": "Critical Minerals Facilitation Office (Australia)",
+   "type_code": "govt_body",
+   "type": "Govt Body / Regulator",
+   "country": "AU",
+   "description": "Australian govt office; KABIL counterparty under the India-Australia Critical Minerals Investment Partnership.",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "96458a84-102b-46b0-9c02-e8290c1e807a",
+   "name": "Crystal Matrix Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Approved (2026) for India's first commercial Mini/Micro-LED GaN display + GaN foundry at Dholera.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "b6e8d4a9-ba09-4430-a4c9-caaad76f3444",
+   "name": "CtrlS Datacenters Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Largest Indian-owned Rated-4 colocation operator; IndiaAI-empanelled domestic-controlled hyperscale capacity.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "71d1f5c3-2a42-449f-8197-ade217c26a69",
+   "name": "Darwinbox",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Indian HR-tech SaaS unicorn; revenue ~Rs 393 cr FY24 (+58%). Domestic alternative to Workday/SAP HCM.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "98c278e1-2635-4fbd-ba85-0ec4654e78a4",
+   "name": "Dassault Aviation",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "FR",
+   "description": "Rafale OEM; 26 Rafale-Marine signed 2025; France now India's #2 arms supplier.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "name": "Defence Research and Development Organisation",
+   "type_code": "research_institution",
+   "type": "Research Institution",
+   "country": "IN",
+   "description": "Apex defence-design/IP authority (~50 labs); designs the systems DPSUs build; holds indigenous GaN/SiC breakthrough.",
+   "corridors": [
+    "defence",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "b9ef4935-9e56-4bdd-a7d7-da657bed1b71",
+   "name": "Defence Semiconductor / GaN-SiC Capability (chokepoint)",
+   "type_code": "technology",
+   "type": "Technology",
+   "country": "IN",
+   "description": "The sensor/EW chokepoint — GaN/SiC RF chips for radar/EW/missiles; DRDO cracked indigenous GaN at pilot scale in 2026.",
+   "corridors": [
+    "defence",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "403cf669-23c9-43dd-89f0-31d0a8c149ef",
+   "name": "Department of Defence Production",
+   "type_code": "govt_body",
+   "type": "Govt Body / Regulator",
+   "country": "IN",
+   "description": "MoD department administering DPSUs, indigenisation lists and iDEX; owner of the production/export value targets.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "f36537eb-6825-4d63-b6ae-a08e325b805e",
+   "name": "Design Linked Incentive Scheme",
+   "type_code": "scheme",
+   "type": "Scheme / Programme",
+   "country": "IN",
+   "description": "Sole structured funding channel for India's fabless/IP layer; 24 projects, 16 tape-outs by 2026.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "40a1c233-c85a-41ef-b0cc-3a00d8f3b8a9",
+   "name": "E2E Networks Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "First IndiaAI provider to deploy 100% of committed GPUs; the proof-of-execution node for the GPU pillar.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "c8fd5173-15ac-457c-aea3-8f675e963793",
+   "name": "Frappe Technologies (ERPNext)",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Indian-built open-source ERP (GPLv3) on Frappe/MariaDB; GST & e-invoicing native; adopted by NDDB and state bodies.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "8c07e522-2efc-4b93-9b34-5d516af0af61",
+   "name": "Freshworks",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Indian-origin CX/CRM SaaS; NASDAQ-listed, approaching US$1bn revenue.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "3e4efde4-eb02-4402-b09f-952dc4329268",
+   "name": "Gallium",
+   "type_code": "mineral_material",
+   "type": "Mineral / Material",
+   "country": "CN",
+   "description": "Critical input for GaN/compound-semi and RF/power devices; China controls ~98-99% with export controls.",
+   "corridors": [
+    "critical_minerals",
+    "defence",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "97d58b57-0408-4a48-8a6f-35deddcec64f",
+   "name": "Garden Reach Shipbuilders & Engineers Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Frigate/corvette yard; L1 for 5 of 8 Next-Generation Corvettes; surface-combatant pipeline node.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "adc4f431-d82a-4c4c-8cec-129914a870da",
+   "name": "GE Aerospace",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "description": "THE jet-engine chokepoint — sole supplier of F404/F414 engines for Tejas; delays have throttled deliveries.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "545634ce-ffe3-419c-9006-849c4078ffda",
+   "name": "Geological Survey of India",
+   "type_code": "govt_body",
+   "type": "Govt Body / Regulator",
+   "country": "IN",
+   "description": "National exploration agency; 1,200 NCMM exploration projects; the upstream resource-definition chokepoint.",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "f542e4cc-68be-4245-bbcd-412375606101",
+   "name": "Google Cloud India",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "US",
+   "description": "$15bn AP project; Jamnagar region for Reliance + Visakhapatnam campus with Adani; equity in Jio.",
+   "corridors": [
+    "ai_infrastructure",
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "d54d38c4-d370-4937-b62f-bde966bfbfc6",
+   "name": "Graphite (battery-anode grade)",
+   "type_code": "mineral_material",
+   "type": "Mineral / Material",
+   "country": "CN",
+   "description": "Largest anode material by weight in Li-ion cells; China ~90% battery-grade refining with export curbs.",
+   "corridors": [
+    "ai_infrastructure",
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "e0766ebf-7f58-462a-96d8-78357c598074",
+   "name": "Hindustan Aeronautics Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Sole indigenous fighter/helicopter integrator; Tejas prime; the chokepoint linking airpower to foreign engines.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "25ae960e-d415-4409-b697-18feb0c1381e",
+   "name": "Hindustan Copper Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Sole domestic copper-ore miner of scale; chronic under-output leaves India dependent on imported concentrate.",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "fadf386d-8b05-417f-8134-126aa9aad4f4",
+   "name": "Hindustan Zinc Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "World's largest integrated zinc/silver producer; pivoting to multi-metal critical-mineral recovery.",
+   "corridors": [
+    "critical_minerals",
+    "defence"
+   ]
+  },
+  {
+   "id": "4b46359c-39ea-474b-9826-8108feee600b",
+   "name": "Hon Hai Technology Group",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "TW",
+   "description": "World's largest contract manufacturer; JV partner in India Chip OSAT and broad India electronics build-out.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "76c99abc-086d-4ea8-a171-713841bb8ff9",
+   "name": "India Chip (HCL-Foxconn JV)",
+   "type_code": "jv",
+   "type": "Joint Venture",
+   "country": "IN",
+   "description": "HCL-Foxconn display-driver OSAT at Jewar/YEIDA (UP), ~Rs 3,706 cr; extends OSAT beyond Gujarat.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "519d3aec-84fd-437e-9397-b5f54ceaa375",
+   "name": "India Electronics and Semiconductor Association",
+   "type_code": "industry_body",
+   "type": "Industry Body",
+   "country": "IN",
+   "description": "Apex ESDM industry body; convenes industry-government policy and SEMICON India inputs.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "d31fdb91-eb2d-4edb-8471-e575545fcf1f",
+   "name": "India Semiconductor Mission",
+   "type_code": "govt_body",
+   "type": "Govt Body / Regulator",
+   "country": "IN",
+   "description": "Independent business division under MeitY; single approval/disbursement gate for every fab and OSAT.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "8404ecf6-8090-4801-9836-7f06ff9b8ac9",
+   "name": "India-Asia-Xpress / India-Europe-Xpress cable systems",
+   "type_code": "facility",
+   "type": "Facility / Plant",
+   "country": "IN",
+   "description": "Reliance/Jio-led subsea systems landing at Mumbai/Chennai; the international-bandwidth chokepoint for Indian inferencing.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "4781964c-172a-4562-b51d-67ae8dccfbbb",
+   "name": "IndiaAI Mission",
+   "type_code": "scheme",
+   "type": "Scheme / Programme",
+   "country": "IN",
+   "description": "Rs 10,372 cr scheme; Compute pillar subsidises a pooled GPU cluster (>38,000 GPUs) — the compute demand-aggregation chokepoint.",
+   "corridors": [
+    "ai_infrastructure",
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "e24e5f3d-e9ed-4590-870b-f637d76a8f51",
+   "name": "Infosys",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "IT-services major; builder of Finacle core-banking product — proof that where India built the product, sovereignty followed.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "454d0dda-b293-49bf-a656-d9a28a3a407e",
+   "name": "Innovations for Defence Excellence",
+   "type_code": "scheme",
+   "type": "Scheme / Programme",
+   "country": "IN",
+   "description": "DDP startup/MSME procurement on-ramp; ADITI funds deep-tech incl. defence semiconductors and autonomy.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "ac729ed6-f592-455e-8bff-0674a71c7b97",
+   "name": "IREL (India) Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Sole domestic rare-earth miner/processor; monazite-to-NdPr and sole REE-magnet producer; single REE feedstock point.",
+   "corridors": [
+    "critical_minerals",
+    "defence"
+   ]
+  },
+  {
+   "id": "5d4222e2-3cc4-4921-a209-e1d46e02b507",
+   "name": "Jio Platforms Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Reliance digital/telecom arm and IndiaAI-empanelled GPU provider; Google and Meta hold equity.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "70a1661f-2ca6-47e3-8470-4783f493a7c6",
+   "name": "Kaynes Semicon Private Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Operates India's second operational OSAT (Sanand, Mar 2026); shipped first commercial multi-chip module.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "5f58c3f7-f0be-4762-928a-a900442ef31d",
+   "name": "Khanij Bidesh India Limited",
+   "type_code": "jv",
+   "type": "Joint Venture",
+   "country": "IN",
+   "description": "NALCO/HCL/MECL JV; sole vehicle for sovereign offshore mineral acquisition (Argentina lithium, Australia partnership).",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "14e517ec-cb81-4abf-8522-20fb59fe7a94",
+   "name": "Krutrim",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Ola-backed Indian AI/cloud platform building indigenous models and AI cloud infrastructure.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "1c446f04-9a52-47ee-b398-cebea33058bd",
+   "name": "Krutrim SI Designs Private Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Ola-backed indigenous-model/cloud player; the non-state sovereign-model alternative to Sarvam.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "62fc5a4b-d5ad-4029-8263-7456aa2fe929",
+   "name": "Lam Research Corporation",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "description": "Dominant etch/deposition equipment supplier; India ~100% import-dependent for etch tooling.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "f23f252e-fe5b-4724-be57-31ef1d0c8ef7",
+   "name": "Larsen & Toubro Limited (Precision Engineering & Systems)",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Largest private defence-engineering prime; K9 Vajra producer, AMCA consortium lead with BEL.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "0cbabe08-a040-434d-bd7f-6ea23185c269",
+   "name": "Lithium",
+   "type_code": "mineral_material",
+   "type": "Mineral / Material",
+   "country": "CN",
+   "description": "Core battery metal; India ~100% import-dependent, refining China-routed; the defining import-dependency mineral.",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "693d65e7-0b55-46f0-8824-6af40008e57d",
+   "name": "Lohum Cleantech Private Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "India's largest integrated Li-ion recycler; announced India's first battery-grade lithium refinery.",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "fe522c5f-02dc-45f3-b6d2-cdaa6905c625",
+   "name": "Mazagon Dock Shipbuilders Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Premier submarine/destroyer yard; lead yard for the ~Rs 70,000 cr Project-75I submarine programme with TKMS.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "0cb0ffc1-8bd0-44eb-a58a-5186ad7ca6d4",
+   "name": "Micron ATMP Sanand",
+   "type_code": "facility",
+   "type": "Facility / Plant",
+   "country": "IN",
+   "description": "First facility operational under ISM (Feb 2026); ~Rs 22,500 cr; first Made-in-India memory modules.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "322d5a77-5a41-4848-85a3-dbf481fcd5c8",
+   "name": "Micron Semiconductor Technology India Private Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "US",
+   "description": "Operates India's first operational chip unit (Sanand ATMP); DRAM/NAND assembly-test.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "a3fac599-0ac5-47c6-a072-4615f1fa75f8",
+   "name": "Microsoft Azure India",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "US",
+   "description": "$17.5bn India commitment; anchor AdaniConneX tenant; primary foreign GPU-cloud for enterprise/government AI.",
+   "corridors": [
+    "ai_infrastructure",
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "c5ce0be7-dcf6-4987-8391-14231c1ed3cc",
+   "name": "Microsoft Corporation",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "US",
+   "description": "Productivity (M365), desktop OS (Windows), cloud (Azure) and ERP (Dynamics). Multi-layer dependency.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "d9d97787-3af3-416a-a52d-2c068ab40b65",
+   "name": "Mineral Exploration and Consultancy Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Miniratna drilling/exploration CPSE; converts GSI prospects into auctionable resources; co-owns KABIL.",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "b3822a21-67c7-40d4-b033-379609bfdf9c",
+   "name": "Ministry of Defence (Government of India)",
+   "type_code": "ministry",
+   "type": "Ministry / Department",
+   "country": "IN",
+   "description": "Apex authority owning the budget, DAC and DAP-2020 rules; sets indigenisation mandates routing value to domestic primes.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "82bfb0ed-12e5-4640-95a8-3aea3ab4876c",
+   "name": "Ministry of Electronics and Information Technology",
+   "type_code": "ministry",
+   "type": "Ministry / Department",
+   "country": "IN",
+   "description": "Parent ministry owning Semicon India, ISM, SPECS, DLI, SCL and IndiaAI Mission; the policy/budget chokepoint.",
+   "corridors": [
+    "ai_infrastructure",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "8bf1a69a-ce12-420f-a858-b16b6f55858d",
+   "name": "Ministry of Heavy Industries",
+   "type_code": "ministry",
+   "type": "Ministry / Department",
+   "country": "IN",
+   "description": "Administers the rare-earth-magnet (REPM) and auto/ACC-battery PLI schemes; downstream-localisation policy owner.",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "40e1d66a-87e9-4ad7-89fc-5e281626c0e0",
+   "name": "Ministry of Mines",
+   "type_code": "ministry",
+   "type": "Ministry / Department",
+   "country": "IN",
+   "description": "Apex mineral policymaker; amended MMDR Act 2023, owns KABIL, runs NCMM; the regulatory chokepoint.",
+   "corridors": [
+    "critical_minerals",
+    "defence",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "5be128b3-d55e-4269-a424-34f13eac0766",
+   "name": "Mishra Dhatu Nigam Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Sole Indian producer of titanium alloys and maraging steels; the materials chokepoint upstream of missiles, subs, engines.",
+   "corridors": [
+    "critical_minerals",
+    "defence"
+   ]
+  },
+  {
+   "id": "c10f7a6d-dd4b-433e-9116-94824045d9b6",
+   "name": "MOSIP",
+   "type_code": "technology",
+   "type": "Technology",
+   "country": "IN",
+   "description": "Modular Open Source Identity Platform (IIIT Bangalore, 2018; Aadhaar model). Deployed in Philippines, Ethiopia, Morocco + advanced/pilot in 9+ countries; 100M+ IDs by 2023. India EXPORTS sovereign-identity software.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "dd592284-c565-4f97-ae62-167e84e6413b",
+   "name": "Munitions India Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Largest OFB-successor DPSU; core ammunition/explosives supplier — the war-stock/consumables base.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "12c8416b-825d-47c3-9422-039ce9edcc67",
+   "name": "National Aluminium Company Limited",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "Integrated aluminium PSU; developing India's first gallium extraction (Damanjodi) and red-mud REE recovery; co-owns KABIL.",
+   "corridors": [
+    "critical_minerals",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "c413b6f3-a884-4cf4-9afa-7e041515894b",
+   "name": "National Critical Mineral Mission",
+   "type_code": "scheme",
+   "type": "Scheme / Programme",
+   "country": "IN",
+   "description": "Rs 34,300 cr 7-year whole-of-value-chain mission: exploration, foreign assets, processing, recycling, stockpiling.",
+   "corridors": [
+    "ai_infrastructure",
+    "critical_minerals",
+    "defence",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "14740a06-4fe4-4a1a-9ec8-c0c70e6fc2af",
+   "name": "NTT Global Data Centers (India)",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "JP",
+   "description": "Largest colocation operator in India by share; ~500 MW Mumbai; IndiaAI second-tender qualified.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "4457cb01-b1cb-4cd4-976b-4fc9610121e1",
+   "name": "NVIDIA Corporation",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "description": "THE chokepoint — ~80% of AI-GPU supply; every major Indian DC and the IndiaAI cluster run on Nvidia silicon.",
+   "corridors": [
+    "ai_infrastructure",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "ef0bd430-1ce0-4f52-86bd-12bc4b5e823f",
+   "name": "Nxtra Data Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Bharti Airtel's DC subsidiary; couples compute capacity to Airtel's subsea backbone.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "d1301922-6457-4668-a28a-1430af381ca0",
+   "name": "Oracle Corporation",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "US",
+   "description": "ERP, database (market-leading) and cloud. Core foreign control of the database layer; owns FLEXCUBE core-banking (India-built).",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "6f03eb81-f42c-48f2-abd8-4bdb14258e03",
+   "name": "People's Republic of China",
+   "type_code": "country",
+   "type": "Country",
+   "country": "CN",
+   "description": "Controls ~90% REE processing, ~98% gallium/germanium, ~90% battery-graphite refining; the binding chokepoint.",
+   "corridors": [
+    "ai_infrastructure",
+    "critical_minerals",
+    "defence",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "c6fbed97-eb20-4b70-b9ca-c88abd310288",
+   "name": "Perfios",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Indian fintech SaaS (2024 unicorn); revenue ~Rs 558 cr FY24 (+37%).",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "5b1af322-384a-4667-951d-47c71a25c22d",
+   "name": "Postman",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Indian-founded API-development platform (global standard); now HQ overseas — emblem of the export-not-displace pattern.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "f4460264-de5b-410b-9282-eae148acc443",
+   "name": "Powerchip Semiconductor Manufacturing Corporation",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "TW",
+   "description": "Taiwanese foundry licensing the Dholera process technology; India's logic-fab process IP depends on PSMC.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "89fcab8f-a253-436f-babb-ee742e5c215a",
+   "name": "Ramco Systems",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Indian ERP vendor; among the few domestic players in the foreign-dominated ERP top tier.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "c925c97d-0b7b-4574-b317-d6135e45b9cc",
+   "name": "Rare Earth Elements / Neodymium-Praseodymium",
+   "type_code": "mineral_material",
+   "type": "Mineral / Material",
+   "country": "CN",
+   "description": "NdPr drives EV/wind/defence magnets; India ~100% China-dependent for finished NdFeB (imported 53,748 t FY25).",
+   "corridors": [
+    "ai_infrastructure",
+    "critical_minerals",
+    "defence"
+   ]
+  },
+  {
+   "id": "8f69010d-2263-439c-a1ee-14d9539ab490",
+   "name": "Reasi Lithium Deposit (Salal-Haimana, J&K)",
+   "type_code": "facility",
+   "type": "Facility / Plant",
+   "country": "IN",
+   "description": "India's headline 5.9 Mt lithium find; auction failed twice, returned to GSI — bellwether of non-bankable domestic supply.",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "39e7953d-0ffa-4ba6-a441-a1ed16b6300b",
+   "name": "Reliance Industries Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Largest single Indian AI-infra bet (~$110bn); GW-scale Jamnagar AI DC on Nvidia Blackwell with captive green power.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "ef6d81dd-e241-4d69-8178-dcbd7d2d318a",
+   "name": "Renesas Electronics Corporation",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "JP",
+   "description": "Japanese IDM supplying packaging tech and anchor demand to CG Semi.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "e273c8ba-4f49-456b-be98-ba106c3ced69",
+   "name": "Russian Federation (Rosoboronexport / Almaz-Antey)",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "RU",
+   "description": "Largest source of India's legacy fleet and spares; S-400 and BrahMos JV partner.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "9c68e9d8-220b-45ce-8699-33744d2c36d5",
+   "name": "Salesforce",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "US",
+   "description": "CRM market leader; primary foreign competitor to Zoho/Freshworks in India.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "25bc8943-9b3a-49da-9891-c1560d451a5f",
+   "name": "SAP SE",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "DE",
+   "description": "Global ERP incumbent. >5,000 Indian enterprises run SAP; SAP India Pvt Ltd revenue ~Rs 8,870 cr FY25. Deepest-captured layer of India enterprise stack.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "66996e95-4c4d-4882-83dd-3ca6503c676b",
+   "name": "Sarvam AI",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "State-anointed sovereign-LLM builder; subsidised 4,096 H100s at Yotta; the services/IP node for model sovereignty.",
+   "corridors": [
+    "ai_infrastructure",
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "51568e24-ffe3-44ae-98ed-89475c6d7912",
+   "name": "Scheme for Promotion of Manufacturing of Electronic Components and Semiconductors",
+   "type_code": "scheme",
+   "type": "Scheme / Programme",
+   "country": "IN",
+   "description": "Capital-subsidy scheme for components/specialty materials; load-bearing for upstream localisation.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "1ab0fce7-f500-410e-8a36-82138fb985ed",
+   "name": "Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnets",
+   "type_code": "scheme",
+   "type": "Scheme / Programme",
+   "country": "IN",
+   "description": "Rs 7,280 cr scheme (Nov 2025) to build 6,000 MTPA NdFeB magnet capacity; India's instrument to close the magnet import gap.",
+   "corridors": [
+    "ai_infrastructure",
+    "critical_minerals",
+    "defence"
+   ]
+  },
+  {
+   "id": "b99d223e-51e3-4026-95ef-749813f7ea4c",
+   "name": "Semi-Conductor Laboratory",
+   "type_code": "psu",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "description": "India's only operational government IDM fab (180nm); strategic chokepoint for ISRO/DRDO/defence-grade chips.",
+   "corridors": [
+    "defence",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "e3733e01-bfc7-48f2-b558-dda1203667e5",
+   "name": "Semicon India Programme",
+   "type_code": "scheme",
+   "type": "Scheme / Programme",
+   "country": "IN",
+   "description": "Rs 76,000 cr umbrella scheme; up to 50% fiscal support that makes each approved unit viable.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "b723e3ac-9efe-45d3-9dd1-d3e5bb19a9ae",
+   "name": "ServiceNow",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "US",
+   "description": "Enterprise workflow / ITSM platform; rising agentic-AI footprint.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "eb791596-c8fe-4826-b647-ea2e858de0f7",
+   "name": "SiCSem Private Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "India's first commercial Silicon Carbide compound-semi fab (Bhubaneswar, with UK Clas-SiC); SiC power-device chokepoint.",
+   "corridors": [
+    "defence",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "2ecb83bd-3926-4417-9c01-e699a2ef8a4a",
+   "name": "Solar Industries India Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Largest private explosives/ammunition and loitering-munition maker (Nagastra, Pinaka rockets).",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "01004fa6-3611-4952-b60c-76ee02840b68",
+   "name": "Specialty Semiconductor Gases and Photoresist",
+   "type_code": "mineral_material",
+   "type": "Mineral / Material",
+   "country": "JP",
+   "description": "Photoresist, specialty gases, high-purity chemicals, wafers; >90% imported — the materials-layer chokepoint.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "776c9bcf-7f8e-4dcc-8fac-63d25dda19d4",
+   "name": "ST Telemedia Global Data Centres (India)",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "SG",
+   "description": "~19% colocation share; $3.2bn / 550 MW India expansion; Singapore-state-linked top-three hosting capacity.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "9b2ab669-57bd-4f87-ad44-8de744fc0612",
+   "name": "Taiwan Semiconductor Manufacturing Company",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "TW",
+   "description": "~70% global foundry share, >90% leading-edge; fabs all advanced AI silicon and India's DLI startup designs.",
+   "corridors": [
+    "ai_infrastructure",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "ec606b84-15e4-4e97-afb3-75c42660e297",
+   "name": "Tally Solutions",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Dominant Indian SME accounting software; domestic anchor at the low end.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "0e3e2dd8-295d-412d-862f-bc4e112018d8",
+   "name": "Tata Advanced Systems Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Leading private aerospace/defence prime; shortlisted for AMCA prototype, ATAGS co-producer, C-295 assembly.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "1771d6a8-246b-41a4-befc-672454fe1d23",
+   "name": "Tata Communications Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "IndiaAI-empanelled compute provider and major subsea/network operator within the Tata ecosystem.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "e3d818f9-1884-4d6a-81b6-6929c69ddb02",
+   "name": "Tata Consultancy Services",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Largest Indian IT-services firm; BaNCS core-banking/financial products. Embodies the services-not-products path dependency.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "ad131d5d-22cd-4ce1-b167-236187497d67",
+   "name": "Tata Electronics Private Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "India's anchor fab/OSAT champion; operates the only approved domestic logic megafab and the Assam OSAT.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "aa476420-2a9d-432f-a78e-028dc6ba5bb0",
+   "name": "Tata Semiconductor Assembly and Test",
+   "type_code": "facility",
+   "type": "Facility / Plant",
+   "country": "IN",
+   "description": "India's largest indigenous OSAT (Jagiroad, Assam, ~Rs 27,000 cr); Phase 1 commissioning 2026.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "5969dbc5-b8b4-40f7-b98e-14b88ca3d977",
+   "name": "Tata Semiconductor Fab, Dholera",
+   "type_code": "facility",
+   "type": "Facility / Plant",
+   "country": "IN",
+   "description": "India's first 300mm commercial logic fab (28-110nm, 50k WSPM, ~Rs 91,000 cr); the national fab chokepoint.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "1092c5f0-b726-4ca9-aaed-8db3edb9d7e2",
+   "name": "ThyssenKrupp Marine Systems",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "DE",
+   "description": "Design authority/technology partner for Project-75I submarines; supplies AIP and critical submarine tech.",
+   "corridors": [
+    "defence"
+   ]
+  },
+  {
+   "id": "db94ca4f-b02d-479c-841c-1b284bf882db",
+   "name": "Tokyo Electron Limited",
+   "type_code": "foreign_supplier",
+   "type": "Foreign Supplier",
+   "country": "JP",
+   "description": "~90% share of photoresist coat/develop track systems; coat/develop chokepoint for every India fab.",
+   "corridors": [
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "839dfe60-5fae-4f0f-b22e-856f85313f64",
+   "name": "Toyotsu Rare Earths India Private Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "JP",
+   "description": "Toyota Tsusho subsidiary processing IREL rare earths; its 2025 export-pact suspension marks India's conservation pivot.",
+   "corridors": [
+    "critical_minerals",
+    "defence"
+   ]
+  },
+  {
+   "id": "1e27342f-0303-47a6-8bdc-dacfe5cddb3f",
+   "name": "Vedanta Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Major private copper smelter/refiner (Tuticorin shut since 2018); REPM magnet bidder.",
+   "corridors": [
+    "critical_minerals"
+   ]
+  },
+  {
+   "id": "75c59449-dc1e-46da-861e-1af369e3d56e",
+   "name": "Wipro",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "IT-services major; early failed product attempt (Instaplan) illustrates the structural product gap.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "7a2e52c1-fec6-4852-bc6f-f34cc8688a3c",
+   "name": "Workday",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "US",
+   "description": "Cloud HCM and finance; enterprise back-office dependency.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  },
+  {
+   "id": "8ca96aa2-4d11-49bb-bf64-e82d709f2b83",
+   "name": "Yotta Data Services Private Limited",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Most load-bearing IndiaAI GPU node — largest tender allocation and host of Sarvam's sovereign-model cluster.",
+   "corridors": [
+    "ai_infrastructure"
+   ]
+  },
+  {
+   "id": "372aaae7-dcd3-4b1a-abfe-428a995c8b23",
+   "name": "Zoho Corporation",
+   "type_code": "company",
+   "type": "Private Company",
+   "country": "IN",
+   "description": "Bootstrapped Indian SaaS suite; revenue >Rs 12,000 cr FY25, profitable. Leading candidate for a sovereign enterprise-software suite.",
+   "corridors": [
+    "enterprise_software"
+   ]
+  }
+ ]
+}

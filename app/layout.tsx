@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 const NAV_LINKS = [
   { href: '/reports', label: 'Reports' },
   { href: '/signals', label: 'Signals' },
-  { href: '/research', label: 'Research' },
+  { href: '/research', label: 'Atlas' },
   { href: '/newsletter', label: 'Sanket' },
   { href: '/services', label: 'Services' },
   { href: '/about', label: 'About' },
@@ -164,17 +164,17 @@ gtag('config', 'G-916MZ965VB');`,
                     <li><Link href="/reports">Reports</Link></li>
                     <li><Link href="/signals">Signals</Link></li>
                     <li><Link href="/newsletter">Sanket</Link></li>
-                    <li><Link href="/research">Research themes</Link></li>
+                    <li><Link href="/research">The Atlas</Link></li>
                   </ul>
                 </div>
 
                 <div>
-                  <h4>Themes</h4>
+                  <h4>Ecosystems</h4>
                   <ul role="list">
-                    <li><Link href="/research#semiconductors">Semiconductor ecosystems</Link></li>
-                    <li><Link href="/research#infrastructure">Industrial infrastructure</Link></li>
-                    <li><Link href="/research#strategic-tech">Strategic technology</Link></li>
-                    <li><Link href="/research#economic-geography">Economic geography</Link></li>
+                    <li><Link href="/research/dependencies#semiconductors">Semiconductors</Link></li>
+                    <li><Link href="/research/dependencies#critical-minerals">Critical minerals</Link></li>
+                    <li><Link href="/research/dependencies#ai-infrastructure">AI infrastructure</Link></li>
+                    <li><Link href="/research/dependencies#enterprise-software">Enterprise software</Link></li>
                   </ul>
                 </div>
 
