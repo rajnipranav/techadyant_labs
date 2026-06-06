@@ -7,6 +7,8 @@ const TABS = [
   { href: '/research', label: 'Overview' },
   { href: '/research/dependencies', label: 'Import Dependencies' },
   { href: '/research/players', label: 'Ecosystems & Players' },
+  { href: '/research/supply-chains', label: 'Supply Chains' },
+  { href: '/research/corridors', label: 'Corridors' },
   { href: '/research/methodology', label: 'Methodology' },
 ];
 

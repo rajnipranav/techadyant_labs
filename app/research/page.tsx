@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { AtlasNav } from './AtlasNav';
 import {
   corridorsOrdered, meta, rollup, gridForCorridor, playersForCorridor,
-  STATUS_COLORS, STATUS_SHORT, atlas, lastUpdated,
+  STATUS_COLORS, STATUS_SHORT, atlas, lastUpdated, recentEvents, corridorById,
 } from './atlas';
 
 export const metadata: Metadata = {
@@ -96,6 +96,30 @@ export default function AtlasOverview() {
             );
           })}
         </div>
+      </section>
+
+      <section className="wrap">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker"><span className="live" /> What’s changed</div>
+            <h2>Latest developments</h2>
+          </div>
+          <Link href="/signals" className="see-all">All signals →</Link>
+        </div>
+        <ul className="atlas-feed" role="list">
+          {recentEvents(7).map((e) => {
+            const c = e.corridor_id ? corridorById(e.corridor_id) : null;
+            const m = c ? meta(c.code) : null;
+            return (
+              <li key={e.id} className="atlas-feed-row">
+                <span className="afr-date">{new Date(e.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+                {c && m && <span className="afr-corr" style={{ ['--accent' as string]: m.accent }}>{c.label}</span>}
+                <span className="afr-type">{e.type}</span>
+                <span className="afr-title">{e.title}</span>
+              </li>
+            );
+          })}
+        </ul>
       </section>
 
       <section className="wrap" style={{ background: 'var(--bg-2)' }}>

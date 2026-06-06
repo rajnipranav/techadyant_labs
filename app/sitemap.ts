@@ -3,6 +3,7 @@ import { reports } from './reports/data';
 import { THEMES } from './reports/themes';
 import { signals } from './signals/data';
 import { issues } from './newsletter/data';
+import { allPlayers, playerSlug, corridorsOrdered, meta as corridorMeta } from './research/atlas';
 
 // The project uses `output: 'export'` for Cloudflare Pages static deploy;
 // route handlers must be marked static so they're generated at build time.
@@ -29,6 +30,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/research/dependencies`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE}/research/players`,      lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
     { url: `${SITE}/research/methodology`,  lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${SITE}/research/supply-chains`, lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
+    { url: `${SITE}/research/corridors`,     lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
   ];
 
   // Published reports (skip forthcoming — they have placeholder pages with
@@ -76,5 +79,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes];
+  // Atlas — per-corridor profiles and per-player detail pages (high GEO value).
+  const corridorRoutes: MetadataRoute.Sitemap = corridorsOrdered.map((c) => ({
+    url: `${SITE}/research/corridors/${corridorMeta(c.code).slug}`,
+    lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7,
+  }));
+  const playerRoutes: MetadataRoute.Sitemap = allPlayers.map((pl) => ({
+    url: `${SITE}/research/players/${playerSlug(pl.id)}`,
+    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5,
+  }));
+
+  return [...corridorRoutes, ...playerRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes];
 }

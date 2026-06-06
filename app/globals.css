@@ -1630,3 +1630,81 @@ footer { padding: 48px 0 40px; border-top: 1px solid var(--border); color: var(-
   .dep-status { display: none; }
   .atlas-updated { margin-left: 0; width: 100%; }
 }
+
+/* =====================================================================
+   Atlas — Phase 2-4: events feed, player detail, supply chains,
+   corridor profiles, downloads, track-corridor
+   ===================================================================== */
+
+/* What's-changed feed */
+.atlas-feed { list-style: none; margin: 0; padding: 0; border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; }
+.atlas-feed-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; padding: 13px 18px; border-bottom: 1px solid var(--rule); }
+.atlas-feed-row:last-child { border-bottom: none; }
+.afr-date { font-family: var(--font-jetbrains, monospace); font-size: 11px; color: var(--text-dim); white-space: nowrap; min-width: 86px; }
+.afr-corr { font-size: 11px; padding: 2px 8px; border-radius: 10px; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent); white-space: nowrap; }
+.afr-type { font-size: 10px; text-transform: uppercase; letter-spacing: .06em; color: var(--text-dim); white-space: nowrap; }
+.afr-title { font-size: 14px; color: var(--text); flex: 1; min-width: 220px; }
+
+/* Player detail */
+.player-meta { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
+.player-corr { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.player-corr-chip { font-size: 12px; padding: 4px 11px; border-radius: 20px; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent); transition: background .18s; }
+.player-corr-chip:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+.player-h2 { font-size: 18px; font-weight: 600; margin: 6px 0 14px; }
+.player-edges { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0; border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; }
+.player-edge { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; padding: 13px 16px; border-bottom: 1px solid var(--rule); font-size: 14px; }
+.player-edge:last-child { border-bottom: none; }
+.pe-verb { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--text-dim); min-width: 96px; }
+.pe-other { color: var(--text); font-weight: 500; }
+a.pe-other:hover { color: var(--brass, #F5B544); }
+.pe-desc { color: var(--text-muted); font-size: 13px; }
+.player-empty { color: var(--text-dim); padding: 20px 0; }
+.player-foot { display: flex; justify-content: space-between; gap: 16px; margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--rule); }
+
+/* Supply chains / chokepoints */
+.choke-list { display: flex; flex-direction: column; gap: 12px; }
+.choke-row { border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 10px; padding: 14px 18px; }
+.choke-node { font-size: 16px; font-weight: 600; color: var(--text); }
+.choke-node:hover { color: var(--accent); }
+.choke-count { font-size: 12px; color: var(--text-dim); margin-left: 10px; font-family: var(--font-jetbrains, monospace); }
+.choke-deps { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.choke-dep { font-size: 12px; padding: 3px 9px; border-radius: 14px; border: 1px solid var(--rule); color: var(--text-muted); }
+.choke-dep:hover { color: var(--text); border-color: var(--accent); }
+.choke-dep.more { color: var(--text-dim); border-style: dashed; }
+
+/* Corridor index + profile */
+.corr-index { display: flex; align-items: center; gap: 10px; }
+.corr-bar { flex: 1; height: 7px; background: var(--rule); border-radius: 4px; overflow: hidden; }
+.corr-bar span { display: block; height: 100%; border-radius: 4px; }
+.corr-index-n { font-size: 14px; font-weight: 700; color: var(--text); white-space: nowrap; }
+.corr-index-n small { font-size: 10px; font-weight: 400; color: var(--text-dim); margin-left: 3px; }
+.corr-stats { display: flex; flex-wrap: wrap; gap: 26px; margin-top: 22px; }
+.corr-stats > div { display: flex; flex-direction: column; gap: 3px; }
+.cs-n { font-size: 26px; font-weight: 700; color: var(--text); letter-spacing: -0.02em; }
+.cs-n small { font-size: 13px; font-weight: 400; color: var(--text-dim); }
+.cs-l { font-size: 12px; color: var(--text-muted); }
+.corr-grid { display: flex; flex-direction: column; border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; }
+.corr-grid-row { display: grid; grid-template-columns: 6px 1fr auto; align-items: center; gap: 14px; padding: 13px 18px; border-bottom: 1px solid var(--rule); }
+.corr-grid-row:last-child { border-bottom: none; }
+.corr-grid-band { width: 6px; height: 26px; border-radius: 3px; }
+.corr-grid-layer { font-size: 14.5px; color: var(--text); }
+.corr-grid-status { font-size: 12px; font-family: var(--font-jetbrains, monospace); white-space: nowrap; }
+.corr-players { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap: 10px; }
+.corr-player { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 11px 14px; border: 1px solid var(--rule); border-radius: 9px; transition: border-color .18s; }
+.corr-player:hover { border-color: var(--accent); }
+.cp-name { font-size: 13.5px; color: var(--text); font-weight: 500; }
+
+/* Download gate */
+.gate-files { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 6px; }
+.gate-form { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.gate-form input { padding: 11px 14px; border: 1px solid var(--rule); border-radius: 8px; background: transparent; color: var(--text); font-size: 14px; min-width: 240px; }
+.gate-err { color: #C2603A; font-size: 13px; margin-top: 8px; }
+
+/* Track corridor */
+.track-corr { border: 1px solid var(--rule); border-top: 3px solid var(--accent); border-radius: 12px; padding: 20px; margin-bottom: 22px; }
+.track-corr form { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.track-k { font-size: 14px; font-weight: 600; color: var(--text); margin-right: 6px; }
+.track-corr input { flex: 1; min-width: 200px; padding: 10px 13px; border: 1px solid var(--rule); border-radius: 8px; background: transparent; color: var(--text); font-size: 14px; }
+.track-corr button { padding: 10px 18px; border-radius: 8px; border: 1px solid var(--accent); background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--text); font-size: 13px; font-weight: 500; cursor: pointer; }
+.track-corr button:disabled { opacity: .6; }
+.track-done { color: var(--signal-live, #4FA88B); font-size: 14px; }

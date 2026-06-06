@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { DependenciesView } from './DependenciesView';
 import { corridorsOrdered, meta, atlas, STATUS_COLORS, STATUS_SHORT, lastUpdated } from '../atlas';
+import { DownloadGate } from '../DownloadGate';
 
 export const metadata: Metadata = {
   title: 'Import Dependency Map — what India still imports',
@@ -53,16 +54,7 @@ export default function DependenciesPage() {
       </section>
 
       <section className="wrap-narrow">
-        <div className="atlas-gate">
-          <div className="ed-kicker">Take it with you</div>
-          <h2>Download the dependency grids</h2>
-          <p>
-            Get every ecosystem’s value-chain assessment as a one-page PDF, plus the underlying data
-            as CSV — free, in exchange for an email. We’ll tell you when a score changes.
-          </p>
-          <Link href="/#subscribe" className="btn-ed btn-ed-primary">Get the download <span className="arr">→</span></Link>
-          <p className="atlas-gate-fine">Free · no spam · unsubscribe anytime</p>
-        </div>
+        <DownloadGate />
       </section>
     </>
   );

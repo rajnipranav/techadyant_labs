@@ -50,6 +50,18 @@ async function main() {
   // Validate it parses and has the expected shape before overwriting.
   const prev = (() => { try { return JSON.parse(readFileSync(OUT, 'utf8')); } catch { return null; } })();
   writeFileSync(OUT, JSON.stringify(atlas, null, 1));
+  // Also refresh the downloadable CSVs.
+  try {
+    const pub = resolve(__dirname, '../public/data/atlas');
+    const q = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
+    const cmap = Object.fromEntries(atlas.corridors.map((c) => [c.id, c.label]));
+    let g = 'corridor,layer,status,status_label,verification,assessment_date,rationale\n';
+    for (const r of atlas.grid) g += [q(cmap[r.corridor_id]), q(r.layer), r.status, q(r.status_label), q(r.verification), q(r.date), q(r.rationale)].join(',') + '\n';
+    writeFileSync(resolve(pub, 'dependency-grid.csv'), g);
+    let pl = 'name,type,country,corridors,description\n';
+    for (const x of atlas.players) pl += [q(x.name), q(x.type), q(x.country), q((x.corridors || []).join('; ')), q(x.description)].join(',') + '\n';
+    writeFileSync(resolve(pub, 'players.csv'), pl);
+  } catch (e) { log('CSV refresh skipped:', e?.message || e); }
   log(`baked ${atlas.players.length} players, ${atlas.grid.length} assessments, ${atlas.corridors.length} corridors` +
       (prev ? ` (was ${prev.players?.length ?? '?'} players)` : ''));
 }

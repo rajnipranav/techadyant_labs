@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { PlayersView } from './PlayersView';
-import { corridorsOrdered, meta, atlas } from '../atlas';
+import { corridorsOrdered, meta, atlas, playerSlug } from '../atlas';
 
 export const metadata: Metadata = {
   title: 'Ecosystems & Players — who builds India’s industrial base',
@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 
 export default function PlayersPage() {
   const corridors = corridorsOrdered.map((c) => ({ code: c.code, label: c.label, accent: meta(c.code).accent }));
+  const players = atlas.players.map((p) => ({ ...p, slug: playerSlug(p.id) }));
   return (
     <>
       <AtlasNav />
@@ -25,13 +26,13 @@ export default function PlayersPage() {
           <p className="lede">
             The {atlas.players.length} entities we track across India’s strategic industrial systems —
             the domestic champions, the state machinery, the foreign suppliers India depends on, and
-            the materials at the root of it all. Filter by ecosystem, type or origin; each entry says
-            what they make and where they sit in the chain.
+            the materials at the root of it all. Filter by ecosystem, type or origin; open any entity
+            for what it makes and who it’s connected to.
           </p>
         </div>
       </header>
       <section className="wrap">
-        <PlayersView players={atlas.players} corridors={corridors} />
+        <PlayersView players={players} corridors={corridors} />
       </section>
     </>
   );

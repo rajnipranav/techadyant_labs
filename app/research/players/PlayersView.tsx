@@ -1,10 +1,11 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import Link from 'next/link';
 
 interface Player {
   id: string; name: string; type_code: string; type: string;
-  country: string; description: string; corridors: string[] | null;
+  country: string; description: string; corridors: string[] | null; slug: string;
 }
 interface Corr { code: string; label: string; accent: string }
 
@@ -73,7 +74,7 @@ export function PlayersView({ players, corridors }: { players: Player[]; corrido
 
       <div className="ply-grid">
         {filtered.map((p) => (
-          <article key={p.id} className="ply-card">
+          <Link key={p.id} href={`/research/players/${p.slug}`} className="ply-card">
             <header>
               <h3>{p.name}</h3>
               <span className={`ply-flag ${p.country === 'IN' ? 'dom' : 'frn'}`}>{p.country}</span>
@@ -87,7 +88,7 @@ export function PlayersView({ players, corridors }: { players: Player[]; corrido
                 </span>
               ))}
             </div>
-          </article>
+          </Link>
         ))}
         {filtered.length === 0 && <p className="ply-empty">No players match these filters.</p>}
       </div>
