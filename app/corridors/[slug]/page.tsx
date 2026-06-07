@@ -7,6 +7,8 @@ import { getReport } from '../../reports/data';
 import { JsonLd, breadcrumb, faqLd, datasetLd, SITE } from '../../research/seo';
 import { deepDive } from '../deepdive';
 import { corridorIntel, TIER_COLOR, STAGE_COLOR, STAGE_LABEL, rankOf, leaderboard } from '../corridor-intel';
+import { CorridorNodeMap } from '../CorridorNodeMap';
+import { deepFor, STAGE as NSTAGE, type NodeStage } from '../node-data';
 
 export function generateStaticParams() {
   return corridors.map((c) => ({ slug: c.slug }));
@@ -41,6 +43,14 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
   const next = corridors[(idx + 1) % corridors.length];
   const rel = c.reports.map((s) => getReport(s)).filter(Boolean) as NonNullable<ReturnType<typeof getReport>>[];
   const label = c.name.replace(' Industrial Corridor', '').replace(' Economic Corridor', '');
+  const deep = deepFor(c.slug);
+  const dn = deep?.nodes ?? [];
+  const stageOrder: NodeStage[] = ['construction', 'approved', 'operational', 'planned'];
+  const stageSplit = stageOrder.map((stg) => ({ stage: stg, count: dn.filter((n) => n.stage === stg).length })).filter((x) => x.count > 0);
+  const areaData = dn.filter((n) => n.areaAc).map((n) => ({ name: n.name.replace(/ IMC.*| \(.*/, ''), val: n.areaAc as number })).sort((a, b) => b.val - a.val);
+  const areaMax = Math.max(1, ...areaData.map((d) => d.val));
+  const invData = dn.filter((n) => n.investmentCr).map((n) => ({ name: n.name.replace(/ IMC.*| \(.*/, ''), val: n.investmentCr as number })).sort((a, b) => b.val - a.val);
+  const invMax = Math.max(1, ...invData.map((d) => d.val));
 
   return (
     <>
@@ -108,8 +118,45 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>Where it runs</div><h2>On the map</h2></div>
           <Link href="/corridors" className="see-all">All 11 corridors →</Link></div>
-        <img src={`/figures/corridors/${c.slug}.svg`} alt={`Map of the ${c.name} — route, anchor nodes and states traversed`} className="corr-figure" loading="lazy" />
+        {deep ? <CorridorNodeMap slug={c.slug} /> : <img src={`/figures/corridors/${c.slug}.svg`} alt={`Map of the ${c.name} — route, anchor nodes and states traversed`} className="corr-figure" loading="lazy" />}
       </section>
+
+      {/* 2b · Corridor insights (charts) */}
+      {deep && (
+        <section className="wrap">
+          <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>The numbers</div><h2>Corridor insights</h2></div></div>
+          <div className="corr-charts">
+            <div className="chart-card">
+              <div className="chart-title">Nodes by stage</div>
+              <div className="stage-split">
+                {stageSplit.map((x) => <span key={x.stage} style={{ flex: x.count, background: NSTAGE[x.stage].color }} title={`${NSTAGE[x.stage].label}: ${x.count}`} />)}
+              </div>
+              <div className="chart-legend">{stageSplit.map((x) => <span key={x.stage}><i style={{ background: NSTAGE[x.stage].color }} />{NSTAGE[x.stage].label} · {x.count}</span>)}</div>
+            </div>
+            <div className="chart-card">
+              <div className="chart-title">Area by node (acres)</div>
+              <ul className="bar-chart">
+                {areaData.map((d) => <li key={d.name}><span className="bc-lab">{d.name}</span><span className="bc-track"><i style={{ width: `${(d.val / areaMax) * 100}%`, background: accent }} /></span><span className="bc-val">{d.val.toLocaleString('en-IN')}</span></li>)}
+              </ul>
+            </div>
+            <div className="chart-card">
+              <div className="chart-title">Investment potential (₹ cr)</div>
+              <ul className="bar-chart">
+                {invData.map((d) => <li key={d.name}><span className="bc-lab">{d.name}</span><span className="bc-track"><i style={{ width: `${(d.val / invMax) * 100}%`, background: accent }} /></span><span className="bc-val">{d.val.toLocaleString('en-IN')}</span></li>)}
+              </ul>
+            </div>
+          </div>
+          {deep.milestones && deep.milestones.length > 0 && (
+            <div className="corr-milestones">
+              <div className="chart-title">Milestones</div>
+              <ul role="list">
+                {deep.milestones.map((m, i) => <li key={i}><span className="cm-date">{m.date}</span><span className="cm-label">{m.label}</span></li>)}
+              </ul>
+            </div>
+          )}
+          <p className="chart-src">Source: DPIIT/NICDC status report (31 Oct 2025) + PIB / India Investment Grid. Investment-potential and jobs figures are official projections.</p>
+        </section>
+      )}
 
       {/* 3 · At a glance */}
       <section className="wrap" style={{ background: 'var(--bg-2)' }}>
@@ -139,7 +186,21 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
       {/* 4 · Anchor nodes */}
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>Industrial cities</div><h2>Anchor nodes</h2></div></div>
-        {ci ? (
+        {deep ? (
+          <div className="node-cards">
+            {deep.nodes.map((n) => (
+              <Link key={n.slug} href={`/corridors/${c.slug}/${n.slug}`} className="node-card node-card-link" style={{ ['--accent' as string]: NSTAGE[n.stage].color }}>
+                <div className="ncl-top">
+                  <h3>{n.name}</h3>
+                  <span className="node-stage sm" style={{ color: NSTAGE[n.stage].color, borderColor: NSTAGE[n.stage].color }}>{NSTAGE[n.stage].label}</span>
+                </div>
+                <div className="st">{n.state}{n.areaAc ? ` · ${n.areaAc.toLocaleString('en-IN')} ac` : ''}{n.investmentCr ? ` · ₹${n.investmentCr.toLocaleString('en-IN')} cr` : ''}</div>
+                <p>{n.summary[0]}</p>
+                <span className="ncl-go">View node →</span>
+              </Link>
+            ))}
+          </div>
+        ) : ci ? (
           <div className="ci-tablewrap">
             <table className="ci-table">
               <thead><tr><th>Node</th><th>Area</th><th>Sectors</th><th>Anchor / status</th><th>Stage</th></tr></thead>

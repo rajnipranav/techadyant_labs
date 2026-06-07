@@ -5,6 +5,7 @@ import { signals } from './signals/data';
 import { issues } from './newsletter/data';
 import { allPlayers, playerSlug, corridorsOrdered, meta as corridorMeta } from './research/atlas';
 import { corridors as indCorridors } from './corridors/data';
+import { allCorridorNodePairs } from './corridors/node-data';
 
 // The project uses `output: 'export'` for Cloudflare Pages static deploy;
 // route handlers must be marked static so they're generated at build time.
@@ -96,5 +97,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...indCorridors.map((c) => ({ url: `${SITE}/corridors/${c.slug}`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7 })),
   ];
 
-  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes];
+  const corridorNodeRoutes: MetadataRoute.Sitemap = allCorridorNodePairs().map((p) => ({ url: `${SITE}/corridors/${p.corridor}/${p.node}`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 }));
+
+  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes];
 }

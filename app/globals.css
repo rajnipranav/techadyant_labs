@@ -1846,3 +1846,76 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .masthead-search input::placeholder { color: var(--text-dim); }
 .masthead-search input::-webkit-search-cancel-button { -webkit-appearance: none; }
 @media (max-width: 860px) { .masthead-search { display: none; } }
+
+/* =====================================================================
+   Corridor enhancement — dark node map, charts, node pages
+   ===================================================================== */
+.cnmap { background: radial-gradient(120% 100% at 55% 35%, #13132a 0%, #0d0d1c 55%, #0a0a13 100%);
+  border: 1px solid var(--rule); border-radius: 14px; padding: 8px; }
+.cnmap svg { width: 100%; height: auto; display: block; }
+.cnmap-end { font: 600 7px/1 var(--font-jetbrains, monospace); fill: #E8E8F0; letter-spacing: .02em; }
+.cnmap-node { cursor: pointer; }
+.cnmap-node:focus { outline: none; }
+.cnmap-label { font: 6px/1 var(--font-jetbrains, monospace); fill: rgba(232,232,240,0.72); }
+.cnmap-label.on { fill: #fff; font-weight: 600; }
+.cnmap-legend { display: flex; flex-wrap: wrap; gap: 14px; padding: 12px 6px 4px; font-size: 12px; color: var(--text-muted); }
+.cnmap-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.cnmap-legend i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.cnmap-hint { margin-left: auto; color: var(--text-dim); font-family: var(--font-jetbrains, monospace); font-size: 11px; }
+
+/* Corridor charts */
+.corr-charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+.chart-card { border: 1px solid var(--rule); border-radius: 12px; padding: 18px; background: var(--bg-2, rgba(255,255,255,0.02)); }
+.chart-title { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--text-dim); margin-bottom: 14px; }
+.stage-split { display: flex; height: 16px; border-radius: 6px; overflow: hidden; gap: 2px; }
+.stage-split span { display: block; min-width: 6px; }
+.chart-legend { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 12px; font-size: 12px; color: var(--text-muted); }
+.chart-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.chart-legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+.bar-chart { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 9px; }
+.bar-chart li { display: grid; grid-template-columns: 92px 1fr auto; align-items: center; gap: 10px; }
+.bc-lab { font-size: 12px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bc-track { height: 9px; background: var(--rule); border-radius: 5px; overflow: hidden; }
+.bc-track i { display: block; height: 100%; border-radius: 5px; }
+.bc-val { font-size: 12px; color: var(--text); font-family: var(--font-jetbrains, monospace); }
+.corr-milestones { margin-top: 22px; border: 1px solid var(--rule); border-radius: 12px; padding: 18px; }
+.corr-milestones ul { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 0; }
+.corr-milestones li { display: flex; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--rule); }
+.corr-milestones li:last-child { border-bottom: none; }
+.cm-date { font-family: var(--font-jetbrains, monospace); font-size: 11.5px; color: var(--brass, #B5891E); min-width: 92px; }
+.cm-label { font-size: 14px; color: var(--text); }
+.chart-src { font-size: 11.5px; color: var(--text-dim); margin-top: 14px; line-height: 1.5; }
+
+/* Clickable node cards on corridor page */
+.node-card-link { display: flex; flex-direction: column; gap: 8px; text-decoration: none; color: inherit;
+  border-top: 3px solid var(--accent); transition: border-color .2s, transform .2s; }
+.node-card-link:hover { transform: translateY(-2px); }
+.ncl-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+.ncl-go { margin-top: auto; font-size: 13px; color: var(--accent); font-weight: 500; }
+.node-stage { font-size: 11px; padding: 2px 9px; border-radius: 12px; border: 1px solid; white-space: nowrap; }
+.node-stage.sm { font-size: 10px; padding: 1px 7px; }
+
+/* Node detail page */
+.node-head-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 12px; }
+.node-state { font-size: 13px; color: var(--text-muted); }
+.node-status-detail { font-size: 12px; color: var(--text-dim); font-family: var(--font-jetbrains, monospace); }
+.node-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 18px; }
+.node-stat { display: flex; flex-direction: column; gap: 3px; padding: 16px 18px; border: 1px solid var(--rule); border-radius: 12px; background: var(--bg-2, rgba(255,255,255,0.02)); }
+.ns-v { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
+.ns-l { font-size: 12px; color: var(--text-muted); }
+.node-para { font-size: 16px; line-height: 1.7; color: var(--text-muted); margin-bottom: 14px; }
+.node-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 14px; margin: 22px 0; }
+.node-facts dt { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--text-dim); }
+.node-facts dd { font-size: 14px; color: var(--text); margin: 3px 0 0; }
+.node-h2 { font-size: 19px; font-weight: 600; margin: 28px 0 12px; }
+.node-timeline { list-style: none; margin: 0; padding: 0; }
+.node-timeline li { display: flex; gap: 14px; padding: 11px 0; border-bottom: 1px solid var(--rule); }
+.node-timeline li:last-child { border-bottom: none; }
+.nt-date { font-family: var(--font-jetbrains, monospace); font-size: 12px; color: var(--brass, #B5891E); min-width: 84px; }
+.nt-label { font-size: 14px; color: var(--text); }
+.node-sources { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.node-sources a { font-size: 14px; color: var(--text-muted); }
+.node-sources a:hover { color: var(--accent, var(--brass)); }
+.node-foot { display: flex; justify-content: space-between; gap: 14px; margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--rule); }
+
+@media (max-width: 640px) { .bar-chart li { grid-template-columns: 80px 1fr auto; } }
