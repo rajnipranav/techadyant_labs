@@ -1852,7 +1852,7 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
    ===================================================================== */
 .cnmap { background: radial-gradient(120% 100% at 55% 35%, #13132a 0%, #0d0d1c 55%, #0a0a13 100%);
   border: 1px solid var(--rule); border-radius: 14px; padding: 8px; }
-.cnmap svg { width: 100%; height: auto; display: block; }
+.cnmap svg { display: block; margin: 0 auto; width: auto; height: auto; max-width: 100%; max-height: 540px; }
 .cnmap-end { font: 600 7px/1 var(--font-jetbrains, monospace); fill: #E8E8F0; letter-spacing: .02em; }
 .cnmap-node { cursor: pointer; }
 .cnmap-node:focus { outline: none; }
