@@ -51,6 +51,11 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
   const areaMax = Math.max(1, ...areaData.map((d) => d.val));
   const invData = dn.filter((n) => n.investmentCr).map((n) => ({ name: n.name.replace(/ IMC.*| \(.*/, ''), val: n.investmentCr as number })).sort((a, b) => b.val - a.val);
   const invMax = Math.max(1, ...invData.map((d) => d.val));
+  const extraKw = deep ? [...deep.nodes.map((n) => n.name), ...deep.nodes.flatMap((n) => (n.companies ?? []).map((co) => co.name))] : [];
+  const nodeItemList = deep ? {
+    '@context': 'https://schema.org', '@type': 'ItemList', name: `${c.name} — industrial nodes`,
+    itemListElement: deep.nodes.map((n, i) => ({ '@type': 'ListItem', position: i + 1, name: n.name, item: `${SITE}/corridors/${c.slug}/${n.slug}/` })),
+  } : null;
 
   return (
     <>
@@ -64,9 +69,10 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
           name: `${c.name} (${c.abbr}) — corridor profile`,
           description: `Status, anchor nodes, programme and related research for India’s ${c.name}.`,
           path: `/corridors/${c.slug}/`,
-          keywords: [c.name, c.abbr, 'India', 'industrial corridor', 'NICDP', ...c.states.split(',').map((s) => s.trim())],
+          keywords: [c.name, c.abbr, 'India', 'industrial corridor', 'NICDP', ...c.states.split(',').map((s) => s.trim()), ...extraKw],
         }),
         faqLd(c.faq),
+        ...(nodeItemList ? [nodeItemList] : []),
       ]} />
 
       {/* 1 · Header */}

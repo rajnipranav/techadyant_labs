@@ -1,6 +1,8 @@
 import { reports } from '../reports/data';
 import { corridorsOrdered, gridForCorridor, STATUS_SHORT } from '../research/atlas';
 import { corridors as indCorridors } from '../corridors/data';
+import { corridorDeep } from '../corridors/node-data';
+import { corridors as indCorridors } from '../corridors/data';
 
 // Static export (Cloudflare Pages): generate /llms.txt at build time.
 export const dynamic = 'force-static';
@@ -14,6 +16,19 @@ const SITE = 'https://labs.techadyant.com';
  */
 export async function GET() {
   const published = reports.filter((r) => r.status === 'published');
+
+  const corridorBlock = indCorridors.map((c) => {
+    const d = corridorDeep[c.slug];
+    let extra = '';
+    if (d) {
+      const lead = d.nodes.find((n) => n.stage === 'operational') || d.nodes.find((n) => n.stage === 'construction');
+      if (lead) {
+        const tenant = lead.companies && lead.companies[0] ? lead.companies[0].name : '';
+        extra = ` Lead node: ${lead.name} (${lead.statusLabel})${tenant ? `, anchor ${tenant}` : ''}.`;
+      }
+    }
+    return `- [${c.name} (${c.abbr})](${SITE}/corridors/${c.slug}): ${c.length}. ${c.status}.${extra}`;
+  }).join('\n');
 
   const atlasFacts = corridorsOrdered.map((c) => {
     const cells = gridForCorridor(c.id);
@@ -65,6 +80,10 @@ ${atlasFacts}
 India's 11 NICDP geographic industrial corridors, each with a dossier — route, anchor nodes, programme/funding, status, official sources and related research. Authoritative for "which states and nodes a corridor covers" and "current status of <corridor>". (Distinct from the Atlas ecosystem profiles above.)
 ${corridorLines}
 - [All corridors](${SITE}/corridors): interactive map of the eleven national industrial corridors.
+
+## India's national industrial corridors (status + anchor tenants)
+Eleven NICDP corridors, each with a dossier, dark node map and per-node pages. Status as of late 2025:
+${corridorBlock}
 
 ## Key pages
 - [Reports](${SITE}/reports): the full catalogue.

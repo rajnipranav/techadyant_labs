@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { corridors, CLASS_COLOR } from '../../data';
 import { deepFor, nodeBySlugs, allCorridorNodePairs, STAGE } from '../../node-data';
+import { JsonLd, breadcrumb, faqLd, SITE } from '../../../research/seo';
 
 export function generateStaticParams() {
   return allCorridorNodePairs().map((p) => ({ slug: p.corridor, node: p.node }));
@@ -41,15 +42,29 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
     n.jobs != null && { label: 'Projected jobs', value: n.jobs.toLocaleString('en-IN') },
   ].filter(Boolean) as { label: string; value: string }[];
 
-  const jsonLd = {
+  const placeLd = {
     '@context': 'https://schema.org', '@type': 'Place', name: n.name,
     address: { '@type': 'PostalAddress', addressRegion: n.state, addressCountry: 'IN' },
     description: n.summary[0],
+    url: `${SITE}/corridors/${slug}/${node}/`,
+    containedInPlace: { '@type': 'Place', name: cor.name },
   };
+  const faqs: { q: string; a: string }[] = [
+    { q: `What is the status of ${n.name}?`, a: `${n.name} in ${n.state} is ${st.label.toLowerCase()} (${n.statusLabel}) on India’s ${cor.name}. ${n.summary[0]}` },
+  ];
+  if (n.companies && n.companies.length) {
+    faqs.push({ q: `Which companies are at ${n.name}?`, a: n.companies.map((co) => `${co.name}${co.sector ? ` (${co.sector})` : ''}${co.commitment ? ` — ${co.commitment}` : ''}`).join('; ') + '.' });
+  } else if (n.industries && n.industries.length) {
+    faqs.push({ q: `What industries are coming up at ${n.name}?`, a: `${n.industries.join(', ')}. (No anchor tenants are publicly named at this stage.)` });
+  }
+  const crumb = breadcrumb([
+    { name: 'Home', path: '/' }, { name: 'Corridors', path: '/corridors/' },
+    { name: cor.abbr, path: `/corridors/${slug}/` }, { name: n.name, path: `/corridors/${slug}/${node}/` },
+  ]);
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <JsonLd data={[crumb, placeLd, faqLd(faqs)]} />
       <header className="ed-page-head" style={{ ['--accent' as string]: accent }}>
         <div className="wrap inner">
           <div className="ed-breadcrumb">
