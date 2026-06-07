@@ -389,6 +389,124 @@ export const corridorDeep: Record<string, CorridorDeep> = {
     ],
     sources: [DPIIT, { label: 'NICDC — DMIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/delhi-mumbai-industrial-corridor-dmic' }, { label: 'Invest India — Blueprints of success', url: 'https://www.investindia.gov.in/blogs/blueprints-success' }],
   },
+  'vizag-chennai': {
+    slug: 'vizag-chennai',
+    intro: [
+      'The Visakhapatnam–Chennai Industrial Corridor (VCIC) is India’s first coastal industrial corridor — the ~800 km Andhra Pradesh first phase of the larger East Coast Economic Corridor (Kolkata–Tuticorin). Unusually for the national corridors, its lead partner is the Asian Development Bank, which approved US$631 million in 2016 (a US$500 m multitranche facility plus a US$125 m policy loan), with a further ~US$141 m Tranche-2 sanctioned in 2023.',
+      'It is executed by the Andhra Pradesh government through APIIC and node SPVs under the AP Industrial Corridor Development Authority (APICDA), not NICDC. Of its identified nodes, the status hierarchy is clear: Kopparthy is operational (an electronics cluster with Dixon as anchor), Visakhapatnam and Chittoor are under construction (ADB Tranche-2 trunk works, foundation stones laid), and Machilipatnam and Donakonda were identified but never prioritised.',
+      'VCIC’s long-run ADB case is large — manufacturing share of corridor-district GDP rising past 20% and up to ~9.5 million jobs by 2045 — but the live, on-the-ground story today is concentrated at Kopparthy and the Nakkapalli pharma zone near Vizag.',
+    ],
+    facts: [
+      { k: 'Length', v: '~800 km (Andhra Pradesh coast)' },
+      { k: 'Part of', v: 'East Coast Economic Corridor (ECEC) — phase 1' },
+      { k: 'Lead partner', v: 'Asian Development Bank (ADB)' },
+      { k: 'ADB finance', v: 'US$631 m (2016) + ~US$141 m Tranche-2 (2023)' },
+      { k: 'Developer', v: 'GoAP via APIIC + node SPVs; APICDA authority' },
+      { k: 'Nodes', v: 'Vizag, Chittoor, Kopparthy, Machilipatnam, Donakonda' },
+      { k: 'Long-run target', v: '~9.5 m jobs in corridor districts by 2045 (ADB)' },
+    ],
+    nodes: [
+      {
+        slug: 'kopparthy', name: 'Kopparthy (KIA / YSR EMC)', state: 'Andhra Pradesh', stage: 'operational',
+        statusLabel: 'Operational · electronics cluster live', coords: [193, 419],
+        areaAc: 2596, projectCostCr: 1264, sectors: 'Electronics, MDF, solar, Li-ion',
+        nearest: 'Kadapa (YSR district)',
+        developer: 'APIIC / Kopparthy Industrial Area (KIA) node; YSR Electronic Manufacturing Cluster under MeitY EMC-2.0',
+        companies: [
+          { name: 'Dixon Technologies', sector: 'Electronics (EMS)', commitment: '₹300 cr · ~1,800 jobs · 70 acres (EMC anchor)' },
+          { name: 'Greenpanel Industries', sector: 'MDF / wood panels', commitment: 'Operating plant in the hub' },
+          { name: 'Digicon Solution', sector: 'Electronics', commitment: 'Part of a ~₹600 cr investor group' },
+          { name: 'Celkon Resolute', sector: 'Mobiles / electronics', commitment: 'Part of the ~₹600 cr investor group' },
+        ],
+        industries: ['Electronics manufacturing (EMS)', 'MDF / wood panels', 'Solar PV modules', 'Li-ion batteries', 'MSME manufacturing'],
+        infrastructure: ['YSR Jagananna Mega Industrial Hub + EMC inaugurated Dec 2021', 'YSR Electronic Manufacturing Cluster: 801 acres under MeitY EMC-2.0 (₹350 cr central grant)', 'KIA Phase-1: 2,595.74 acres, ~₹1,264 cr trunk infrastructure', 'Ready-to-occupy sheds and serviced plots; on the VCIC alignment near Kadapa'],
+        incentives: 'MeitY EMC-2.0 grant + AP electronics manufacturing incentives; plug-and-play sheds — the corridor’s most ready-to-occupy node.',
+        summary: [
+          'Kopparthy is the only VCIC node with units on the ground. The YSR Electronic Manufacturing Cluster (801 acres, backed by MeitY’s EMC-2.0 scheme) is anchored by Dixon Technologies (₹300 cr, ~1,800 jobs) and includes an operating Greenpanel MDF plant, with a further ~₹600 cr group of electronics investors. It is the corridor’s electronics-manufacturing proof point.',
+        ],
+        sections: [{ heading: 'Anchor tenants & demand signals', body: ['Unlike the corridor’s greenfield nodes, Kopparthy already has a named anchor (Dixon) and operating units — the clearest demand signal on VCIC. A reported ~₹600 cr four-company electronics group (Digicon, Celkon and others) is single-source and worth re-confirming; battery (Avenge) and solar (Ronu) interest is at preliminary-talks stage.'] }],
+        timeline: [
+          { date: 'Dec 2021', label: 'Mega Industrial Hub + EMC inaugurated' },
+          { date: '2022', label: 'MeitY EMC-2.0 grant; Dixon anchor allotment' },
+        ],
+        sources: [
+          { label: 'APEDB — Electronic Manufacturing Cluster', url: 'https://apedb.gov.in/electronic-manufacturing-cluster.html' },
+          { label: 'BizzBuzz — Dixon at Kadapa EMC', url: 'https://www.bizzbuzz.news/economy/meity-aid-to-kadapa-emc-dixon-to-invest-rs-300-crore-1011502' },
+        ],
+      },
+      {
+        slug: 'visakhapatnam', name: 'Visakhapatnam node (Nakkapalli / Rambilli)', state: 'Andhra Pradesh', stage: 'construction',
+        statusLabel: 'Under construction · ADB Tranche-2 works', coords: [258.2, 374.2],
+        areaAc: 2002, investmentCr: 1877, sectors: 'Pharma / bulk drugs, chemicals', nearest: 'Anakapalli / Visakhapatnam',
+        developer: 'Visakhapatnam Industrial Node Development Corporation Ltd (SPV, incorporated Sep 2018)',
+        industries: ['Pharmaceuticals & bulk drugs', 'Specialty chemicals', 'General manufacturing'],
+        infrastructure: ['AP Bulk Drug Park at Nakkapalli: ~2,001.8 acres; GoAP sanction ₹1,876.66 cr; PM foundation stone 8 Jan 2025', 'Start-up clusters: Rambilli (160 ha) + Nakkapalli (441 ha)', 'Bulk water transmission line + widening of the 13.8 km Atchutapuram–Anakapalli road to NH-16 (ADB Tranche-2)', 'Visakhapatnam Port + NH-16 corridor'],
+        incentives: 'Common-infrastructure pharma zone (Bulk Drug Park scheme); AP industrial incentives; Vizag region targeting a leading pharma cluster.',
+        summary: [
+          'The Visakhapatnam node is being built around the AP Bulk Drug Park at Nakkapalli (~2,001 acres, ₹1,876.66 cr sanction), whose foundation stone the Prime Minister laid in January 2025, plus the Rambilli cluster. It is a common-infrastructure pharma-and-chemicals zone funded under ADB Tranche-2 — trunk works under way.',
+        ],
+        sections: [noTenants('The Bulk Drug Park is a shared-infrastructure pharma zone rather than a single-anchor site, so tenant allotment follows the common facilities; no individual companies are publicly committed yet as of early 2025.')],
+        timeline: [
+          { date: 'Sep 2018', label: 'Node SPV incorporated' },
+          { date: '2023', label: 'ADB Tranche-2 infrastructure sanctioned' },
+          { date: 'Jan 2025', label: 'PM foundation stone — Nakkapalli Bulk Drug Park' },
+        ],
+        sources: [
+          { label: 'PIB PRID 2091262', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2091262' },
+          { label: 'ADB project 48434-004 (Tranche 2)', url: 'https://www.adb.org/projects/48434-004/main' },
+        ],
+      },
+      {
+        slug: 'chittoor', name: 'Chittoor node (Srikalahasti–Yerpedu / Naidupeta)', state: 'Andhra Pradesh', stage: 'construction',
+        statusLabel: 'Under construction · ADB Tranche-2 works', coords: [198, 442],
+        sectors: 'Electronics, auto, textiles', nearest: 'Tirupati / Sri City belt',
+        developer: 'Chittoor Industrial Node Development Corporation Ltd (SPV, incorporated Oct 2018)',
+        industries: ['Electronics', 'Automobiles & components', 'Textiles', 'General manufacturing'],
+        infrastructure: ['Start-up clusters: Chittoor-South (938 ha) + Naidupeta', 'ADB Tranche-2: internal infrastructure + a 9.5 km access road (Chittoor-South) and 8.7 km access road (Naidupeta)', 'Earlier ADB works: Yerpedu–Srikalahasti energy subproject; Naidupeta economic zone + effluent treatment', 'Adjacent to the Tirupati–Sri City manufacturing belt; near Chennai'],
+        incentives: 'AP industrial incentives; sits beside the established Sri City / Tirupati ecosystem, lowering ramp-up risk.',
+        summary: [
+          'The Chittoor node — Chittoor-South plus the Naidupeta cluster near Tirupati — is the corridor’s southern, Chennai-facing anchor, with ADB Tranche-2 funding internal infrastructure and access roads. The existing Naidupeta APIIC park already hosts operating units, giving the broader node industry on the ground even as the new VCIC cluster is built.',
+        ],
+        sections: [{ heading: 'Anchor tenants & demand signals', body: ['The adjacent Naidupeta APIIC park already hosts operating units — Hindustan National Glass, Loyal Textiles, Ardee Industries and Prime Electric among them — but these predate the VCIC cluster and sit around the node rather than as new VCIC-cluster allotments. No new anchor for the VCIC Chittoor-South cluster is publicly confirmed yet; the Sri City/Tirupati electronics belt next door is the demand catchment.'] }],
+        timeline: [
+          { date: 'Oct 2018', label: 'Node SPV incorporated' },
+          { date: '2023', label: 'ADB Tranche-2 internal infrastructure + access roads' },
+        ],
+        sources: [{ label: 'ADB project 48434-004 (Tranche 2)', url: 'https://www.adb.org/projects/48434-004/main' }],
+      },
+      {
+        slug: 'machilipatnam', name: 'Machilipatnam node', state: 'Andhra Pradesh', stage: 'planned',
+        statusLabel: 'Identified · not prioritised', coords: [227, 395],
+        sectors: 'Port-linked manufacturing', nearest: 'Machilipatnam (Krishna)',
+        summary: [
+          'Machilipatnam was identified as a VCIC node but not prioritised — ADB master planning was completed only for Visakhapatnam and Chittoor, so there is no VCIC-cluster construction or named tenant here. (Separate Machilipatnam port/SEZ activity exists but is not the VCIC node.)',
+        ],
+        sources: [{ label: 'PIB PRID 1579552', url: 'https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1579552' }],
+      },
+      {
+        slug: 'donakonda', name: 'Donakonda node', state: 'Andhra Pradesh', stage: 'planned',
+        statusLabel: 'Identified · not prioritised', coords: [208, 410],
+        sectors: 'General manufacturing', nearest: 'Donakonda (Prakasam)',
+        summary: [
+          'Donakonda in Prakasam district is an identified VCIC node that was not prioritised for development — no master plan, cluster works or tenants. It remains a watch-list location rather than an investable node today.',
+        ],
+        sources: [{ label: 'PIB PRID 1579552', url: 'https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1579552' }],
+      },
+    ],
+    milestones: [
+      { date: 'Sep 2016', label: 'ADB approves US$631 m for VCIC' },
+      { date: 'Oct 2017', label: 'APICDA constituted' },
+      { date: '2018', label: 'Visakhapatnam + Chittoor node SPVs incorporated' },
+      { date: 'Dec 2021', label: 'Kopparthy Mega Industrial Hub + EMC inaugurated' },
+      { date: '2023', label: 'ADB Tranche-2 (~US$141 m) sanctioned' },
+      { date: 'Jan 2025', label: 'PM foundation stone — Nakkapalli Bulk Drug Park' },
+    ],
+    sources: [
+      { label: 'ADB — VCIC (48434-005)', url: 'https://www.adb.org/projects/48434-005/main' },
+      { label: 'ADB — VCIC Tranche 2 (48434-004)', url: 'https://www.adb.org/projects/48434-004/main' },
+      { label: 'AP Industries — VCIC', url: 'https://www.apindustries.gov.in/VCIC/' },
+    ],
+  },
 };
 
 export const deepFor = (slug: string): CorridorDeep | undefined => corridorDeep[slug];
