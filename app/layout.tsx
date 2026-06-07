@@ -8,6 +8,7 @@ import { AuthProvider } from './components/AuthProvider';
 import { AuthControls } from './components/AuthControls';
 import { AuthModal } from './components/AuthModal';
 import { MobileNav } from './components/MobileNav';
+import { MastheadSearch } from './components/MastheadSearch';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
 const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-jetbrains', display: 'swap' });
@@ -49,7 +50,6 @@ const NAV_LINKS = [
   { href: '/corridors', label: 'Corridors' },
   { href: '/signals', label: 'Signals' },
   { href: '/research', label: 'Atlas' },
-  { href: '/search', label: 'Search' },
   { href: '/newsletter', label: 'Sanket' },
   { href: '/services', label: 'Services' },
   { href: '/about', label: 'About' },
@@ -130,6 +130,7 @@ gtag('config', 'G-916MZ965VB');`,
                 </ul>
 
                 <div className="masthead-actions">
+                  <MastheadSearch />
                   <ThemeToggle />
                   <Link href="/#subscribe" className="btn-subscribe">Subscribe</Link>
                   <AuthControls />

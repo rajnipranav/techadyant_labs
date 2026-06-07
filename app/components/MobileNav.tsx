@@ -62,6 +62,9 @@ export function MobileNav({ links }: { links: NavLink[] }) {
         aria-hidden={!open}
       >
         <ul role="list">
+          <li>
+            <Link href="/search" onClick={() => setOpen(false)}>Search</Link>
+          </li>
           {links.map(({ href, label }) => (
             <li key={href}>
               <Link href={href} onClick={() => setOpen(false)}>
