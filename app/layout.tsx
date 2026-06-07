@@ -49,6 +49,7 @@ const NAV_LINKS = [
   { href: '/corridors', label: 'Corridors' },
   { href: '/signals', label: 'Signals' },
   { href: '/research', label: 'Atlas' },
+  { href: '/search', label: 'Search' },
   { href: '/newsletter', label: 'Sanket' },
   { href: '/services', label: 'Services' },
   { href: '/about', label: 'About' },
