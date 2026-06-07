@@ -83,8 +83,47 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
           <div><dt>Sectors</dt><dd>{n.sectors}</dd></div>
           {n.anchors && <div><dt>Anchor</dt><dd>{n.anchors}</dd></div>}
           {n.nearest && <div><dt>Nearest hub</dt><dd>{n.nearest}</dd></div>}
+          {n.developer && <div><dt>Developer / SPV</dt><dd>{n.developer}</dd></div>}
+          {n.epc && <div><dt>EPC contractor</dt><dd>{n.epc}</dd></div>}
           <div><dt>Status</dt><dd>{n.statusLabel}</dd></div>
         </div>
+
+        {n.companies && n.companies.length > 0 && (
+          <>
+            <h2 className="node-h2">Companies &amp; commitments</h2>
+            <table className="node-companies">
+              <thead><tr><th>Company</th><th>Sector</th><th>Commitment</th></tr></thead>
+              <tbody>
+                {n.companies.map((co, i) => (
+                  <tr key={i}><td>{co.name}</td><td>{co.sector ?? '—'}</td><td>{co.commitment ?? co.note ?? '—'}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </>
+        )}
+
+        {n.industries && n.industries.length > 0 && (
+          <>
+            <h2 className="node-h2">Industries coming up</h2>
+            <div className="node-chips">{n.industries.map((x, i) => <span key={i}>{x}</span>)}</div>
+          </>
+        )}
+
+        {n.infrastructure && n.infrastructure.length > 0 && (
+          <>
+            <h2 className="node-h2">Infrastructure &amp; connectivity</h2>
+            <ul className="node-infra" role="list">{n.infrastructure.map((x, i) => <li key={i}>{x}</li>)}</ul>
+          </>
+        )}
+
+        {n.incentives && <p className="node-para"><strong>Incentives &amp; land:</strong> {n.incentives}</p>}
+
+        {n.sections && n.sections.map((sec, i) => (
+          <div key={i}>
+            <h2 className="node-h2">{sec.heading}</h2>
+            {sec.body.map((para, j) => <p key={j} className="node-para">{para}</p>)}
+          </div>
+        ))}
 
         {n.timeline && n.timeline.length > 0 && (
           <>

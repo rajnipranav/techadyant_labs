@@ -1919,3 +1919,14 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .node-foot { display: flex; justify-content: space-between; gap: 14px; margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--rule); }
 
 @media (max-width: 640px) { .bar-chart li { grid-template-columns: 80px 1fr auto; } }
+
+/* Node deep-tier blocks (companies / industries / infrastructure) */
+.node-companies { width: 100%; border-collapse: collapse; margin: 4px 0 8px; }
+.node-companies th, .node-companies td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--rule); font-size: 14px; }
+.node-companies th { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--text-dim); font-weight: 600; }
+.node-companies td:first-child { color: var(--text); font-weight: 500; }
+.node-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.node-chips span { font-size: 13px; padding: 5px 12px; border-radius: 18px; border: 1px solid var(--rule); color: var(--text-muted); background: var(--bg-2, rgba(255,255,255,0.02)); }
+.node-infra { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.node-infra li { font-size: 14px; color: var(--text-muted); line-height: 1.55; padding-left: 16px; position: relative; }
+.node-infra li::before { content: "→"; position: absolute; left: 0; color: var(--accent, var(--brass)); }
