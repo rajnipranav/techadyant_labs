@@ -148,6 +148,7 @@ export function CorridorMap({ focus, navigate = true, field = true }: { focus?: 
       {tip && (
         <div className="cmap-tip" style={{ left: tip.x, top: tip.y, opacity: 1 }}>
           <b>{tip.c.name}</b><span>{tip.c.status.split('·')[0].trim()}</span>
+          {navigate && <em className="cmap-tip-go">Open dossier →</em>}
         </div>
       )}
     </div>
