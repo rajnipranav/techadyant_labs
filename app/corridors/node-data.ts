@@ -598,6 +598,290 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       { label: 'JICA master plan', url: 'https://openjicareport.jica.go.jp/pdf/12249322.pdf' },
     ],
   },
+  'odisha-economic': {
+    slug: 'odisha-economic',
+    intro: [
+      'The Odisha Economic Corridor (OEC) runs ~600 km along NH-16 — the northern stretch of the East Coast Industrial Corridor, linking to VCIC. ADB prepared the concept plan and NICDIT approved its inclusion in August 2020, with two priority node-zones identified: GBK (Gopalpur–Bhubaneswar–Kalinganagar) and PKDS (Paradip–Kendrapada–Dhamra–Subarnarekha), ~11,366 acres in all.',
+      'As of the DPIIT status report (31 Oct 2025), the NICDP nodes are on hold — land at both GBK and PKDS is not confirmed, and the state is studying alternative parcels. So while Odisha’s coast is one of India’s most industrialised, the corridor’s own nodes have not yet broken ground.',
+      'The crucial distinction: the operating steel economy at Kalinganagar (Tata Steel, NINL, Jindal, VISA) is a separate state-led complex adjacent to the proposed GBK node, not the NICDP node itself. We show it as context, not as corridor delivery.',
+    ],
+    facts: [
+      { k: 'Length', v: '~600 km along NH-16' },
+      { k: 'State', v: 'Odisha' },
+      { k: 'Part of', v: 'East Coast Industrial Corridor (links to VCIC)' },
+      { k: 'Concept plan', v: 'Asian Development Bank' },
+      { k: 'Developer', v: 'NICDC / NICDIT (approved Aug 2020)' },
+      { k: 'Nodes', v: 'GBK + PKDS (~11,366 acres) — currently on hold' },
+    ],
+    nodes: [
+      {
+        slug: 'gbk', name: 'GBK Zone (Gopalpur–Bhubaneswar–Kalinganagar)', state: 'Odisha', stage: 'planned',
+        statusLabel: 'On hold · land not confirmed', coords: [295, 331], areaAc: 6153, sectors: 'Steel & metals, manufacturing', nearest: 'Bhubaneswar / Jajpur',
+        summary: [
+          'GBK is the OEC’s northern node-zone, anchored conceptually on the Kalinganagar steel belt. The NICDP node is on hold pending land confirmation, but the adjoining Kalinganagar Industrial Complex (state-led, ~13,000 acres) is one of India’s largest operating steel hubs — Tata Steel inaugurated a 5-MTPA Phase-II expansion (~₹27,000 cr) there in May 2025, alongside NINL, Jindal and VISA. The opportunity is real; the corridor node is the part that has not yet moved.',
+        ],
+        sections: [{ heading: 'Adjacent operating economy', body: ['The Kalinganagar/Jajpur steel cluster — Tata Steel (now ~8 MTPA at Kalinganagar after the 2025 expansion), NINL, Jindal Steel, VISA Steel, MESCO — is the live industrial story on this stretch, but it is a state IDCO complex that predates and sits beside the NICDP GBK node rather than being delivered by it.'] }],
+        sources: [{ label: 'DPIIT status report (31 Oct 2025)', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }, { label: 'Tata Steel — Kalinganagar Phase-II', url: 'https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-inaugurates-phase-ii-expansion-of-kalinganagar-operations/' }],
+      },
+      {
+        slug: 'pkds', name: 'PKDS Zone (Paradip–Kendrapada–Dhamra–Subarnarekha)', state: 'Odisha', stage: 'planned',
+        statusLabel: 'On hold · land not confirmed', coords: [306, 330], areaAc: 6618, sectors: 'Petrochemicals, ports & logistics', nearest: 'Paradip / Dhamra ports',
+        summary: [
+          'PKDS is the OEC’s coastal, port-linked node-zone around Paradip and Dhamra — petrochemicals and logistics on paper. Like GBK it is on hold for want of confirmed land. The Paradip petrochemical/port economy (IOCL, IFFCO, the deep-draft ports) exists independently of the NICDP node.',
+        ],
+        sources: [{ label: 'DPIIT status report (31 Oct 2025)', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }],
+      },
+    ],
+    milestones: [
+      { date: 'Aug 2020', label: 'NICDIT approves OEC inclusion' },
+      { date: '2023', label: 'Alternative (Ganjam salt-land) parcels under study' },
+      { date: 'Oct 2025', label: 'DPIIT: development on hold, land unconfirmed' },
+    ],
+    sources: [{ label: 'NICDC — OEC executive summary', url: 'https://api.nicdc.in/upload/image/OECExecutiveSummaryReport.pdf' }, { label: 'DPIIT status report (31 Oct 2025)', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }],
+  },
+  'hyderabad-nagpur': {
+    slug: 'hyderabad-nagpur',
+    intro: [
+      'The Hyderabad–Nagpur Industrial Corridor (HNIC) runs along NH-44, with a single priority node in Telangana: Zaheerabad. CCEA approved it on 28 August 2024 and TGIIC is the state partner; the node is now in EPC procurement.',
+    ],
+    facts: [
+      { k: 'Backbone', v: 'NH-44 (Hyderabad–Nagpur)' },
+      { k: 'States', v: 'Telangana (priority node); Maharashtra in influence area' },
+      { k: 'Developer', v: 'NICDIT + TGIIC' },
+      { k: 'CCEA approval', v: '28 Aug 2024' },
+      { k: 'Node', v: 'Zaheerabad (Phase-1 3,909 of ~12,635 acres)' },
+    ],
+    nodes: [
+      {
+        slug: 'zaheerabad', name: 'Zaheerabad NIMZ', state: 'Telangana', stage: 'construction',
+        statusLabel: 'EPC procurement (2nd call)', coords: [176, 372], areaAc: 3909, projectCostCr: 2361, investmentCr: 10000, jobs: 174000,
+        sectors: 'Auto, electrical, food, machinery, metals', nearest: 'Zaheerabad (Sangareddy)',
+        developer: 'Telangana State Industrial Infrastructure Corporation (TGIIC) + NICDIT',
+        industries: ['Automobiles', 'Electrical equipment', 'Food processing', 'Machinery', 'Metals & transport equipment'],
+        infrastructure: ['Phase-1 activation 3,909 acres (of a ~12,635-acre NIMZ); project cost ₹2,361 cr', 'Environmental clearance Apr 2022; PMC LoA Jul 2025; 2nd-call EPC tender floated 28 Oct 2025', 'NH-44 frontage; targets ~₹10,000 cr investment and ~1,74,000 jobs'],
+        incentives: 'Telangana TS-iPASS incentives; National Investment & Manufacturing Zone (NIMZ) benefits.',
+        summary: [
+          'Zaheerabad in Sangareddy is HNIC’s only node — a large NIMZ whose 3,909-acre Phase-1 (of ~12,635 acres) is in EPC procurement, with a second-call tender floated in October 2025. Funded and moving, but pre-construction with no tenants yet.',
+        ],
+        sections: [noTenants('The node is at EPC-tender stage; no anchor allotments are public yet. Its diversified target mix (auto, electrical, food, machinery, metals) and ~1.74 lakh job projection make it Telangana’s largest single corridor bet.')],
+        timeline: [
+          { date: 'Aug 2024', label: 'CCEA approval' },
+          { date: 'Dec 2024', label: 'State agreements executed' },
+          { date: 'Oct 2025', label: '2nd-call EPC tender floated' },
+        ],
+        sources: [{ label: 'DPIIT status report (31 Oct 2025)', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }, { label: 'India Investment Grid — Zaheerabad', url: 'https://indiainvestmentgrid.gov.in/opportunities/nip-project/601812' }],
+      },
+    ],
+    milestones: [
+      { date: 'Aug 2024', label: 'CCEA approves Zaheerabad node' },
+      { date: 'Jul 2025', label: 'PMC onboarded' },
+      { date: 'Oct 2025', label: '2nd-call EPC tender floated' },
+    ],
+    sources: [{ label: 'DPIIT status report (31 Oct 2025)', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }],
+  },
+  'hyderabad-warangal': {
+    slug: 'hyderabad-warangal',
+    intro: [
+      'The Hyderabad–Warangal Industrial Corridor (HWIC) runs 235 km along NH-163. As a national-programme corridor it is the weakest of the set: its proposed NICDP node — Hyderabad Pharma City — was withdrawn from the programme in June 2022 and later scrapped at scale by the state.',
+      'The real on-the-ground industry on this axis is the state-led Kakatiya Mega Textile Park near Warangal, which is genuinely operational with named anchors — but it sits outside the NICDP node structure. We show both, clearly labelled.',
+    ],
+    facts: [
+      { k: 'Length', v: '235 km along NH-163' },
+      { k: 'State', v: 'Telangana' },
+      { k: 'NICDP node', v: 'Hyderabad Pharma City — withdrawn (Jun 2022)' },
+      { k: 'Live industry', v: 'Kakatiya Mega Textile Park (state-led)' },
+    ],
+    nodes: [
+      {
+        slug: 'kakatiya-textile-park', name: 'Kakatiya Mega Textile Park, Warangal', state: 'Telangana', stage: 'operational',
+        statusLabel: 'Operational · state-led (outside NICDP node list)', coords: [203, 368], areaAc: 2000, sectors: 'Textiles & apparel',
+        developer: 'Telangana (TGIIC) — “farm-to-fashion” textile park',
+        companies: [
+          { name: 'Ganesha Ecosphere', sector: 'Recycled polyester / textiles', commitment: '~₹950 cr invested; operations commenced' },
+          { name: 'Youngone Corporation (South Korea)', sector: 'Apparel', commitment: '~₹1,000 cr; phased build-out' },
+          { name: 'Kitex Garments', sector: 'Integrated fibre-to-apparel', commitment: 'Foundation laid; recruiting at scale' },
+        ],
+        industries: ['Technical & recycled textiles', 'Apparel & garments', 'Integrated fibre-to-fashion'],
+        infrastructure: ['~2,000-acre integrated “farm-to-fashion” park near Warangal', '14 firms committed ~₹3,080 cr for expansion (2025)', 'On the NH-163 Hyderabad–Warangal axis'],
+        incentives: 'Telangana textile incentives; common effluent & utilities (PM-MITRA-style park).',
+        summary: [
+          'The Kakatiya Mega Textile Park is the genuine industrial story on the Hyderabad–Warangal axis — a ~2,000-acre operational textile park with named anchors (Ganesha Ecosphere ~₹950 cr, Youngone ~₹1,000 cr, Kitex). It is state-led and not formally a NICDP corridor node, but it is what is actually producing here.',
+        ],
+        sections: [{ heading: 'Status note', body: ['We include this park because it is the operational reality on the corridor axis; its designation as an HWIC “node” is unverified — it is a Telangana/PM-MITRA-style textile park, not a node in the DPIIT proforma.'] }],
+        sources: [{ label: 'Telangana textile park coverage', url: 'https://www.fibre2fashion.com/news/textile-news/kakatiya-mega-textile-park' }],
+      },
+      {
+        slug: 'hyderabad-pharma-city', name: 'Hyderabad Pharma City', state: 'Telangana', stage: 'planned',
+        statusLabel: 'Withdrawn from NICDP (Jun 2022) · state-rescoped', sectors: 'Pharmaceuticals / life sciences', nearest: 'Hyderabad',
+        summary: [
+          'Hyderabad Pharma City was HWIC’s proposed NICDP node but NICDIT withdrew it in June 2022 after the state did not confirm it, and the new Telangana government later scrapped the ~14,000-acre BRS-era plan in favour of distributed pharma clusters and a Genome Valley expansion. It is no longer a live corridor node.',
+        ],
+        sources: [{ label: 'DPIIT status report (31 Oct 2025)', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }],
+      },
+    ],
+    sources: [{ label: 'DPIIT status report (31 Oct 2025)', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }],
+  },
+  'hyderabad-bengaluru': {
+    slug: 'hyderabad-bengaluru',
+    intro: [
+      'The Hyderabad–Bengaluru Industrial Corridor (HBIC) runs along NH-44 in Andhra Pradesh, and is the most advanced of the newer southern corridors: both its nodes — Orvakal and Kopparthy — received Prime-Ministerial foundation stones on 16 October 2025, with EPC contractors on board and land and equity released.',
+      'A structural note: Kopparthy is officially cross-listed as a VCIC node, folded into the same AP SPV as Orvakal. We profile it here too because it is an HBIC anchor, but its primary corridor listing is VCIC.',
+    ],
+    facts: [
+      { k: 'Backbone', v: 'NH-44 (Hyderabad–Bengaluru)' },
+      { k: 'State', v: 'Andhra Pradesh' },
+      { k: 'Developer', v: 'AP Industrial Corridor Infrastructure Development Corp + NICDIT' },
+      { k: 'CCEA approval', v: '28 Aug 2024' },
+      { k: 'Nodes', v: 'Orvakal + Kopparthy (PM foundation 16 Oct 2025)' },
+    ],
+    nodes: [
+      {
+        slug: 'orvakal', name: 'Orvakal node', state: 'Andhra Pradesh', stage: 'construction',
+        statusLabel: 'Construction-initiating · EPC awarded', coords: [183, 406], areaAc: 4742, projectCostCr: 2786, investmentCr: 12000, jobs: 45000,
+        sectors: 'Aerospace & defence, engineering, steel', nearest: 'Kurnool · Orvakal airport',
+        developer: 'AP Industrial Corridor Infrastructure Development Corporation + NICDIT',
+        companies: [
+          { name: 'Aerpace Industries', sector: 'Drones / UAVs', commitment: 'MoU for India’s first “Drone City”, ~300 acres near Kurnool airport' },
+          { name: 'Jayaraj Ispat', sector: 'Steel', commitment: 'Steel unit — operations launched' },
+        ],
+        industries: ['Aerospace & defence', 'Drones / UAVs', 'Light engineering', 'Steel & non-metallic minerals', 'Renewables', 'Textiles', 'Gems & jewellery'],
+        infrastructure: ['NICDIT footprint 4,742 acres (of 9,305); Phase-1 activation 2,621 acres; ~₹2,786 cr infrastructure', 'PM foundation stone 16 Oct 2025; EPC LoA 9 Oct 2025; 1,292 acres + ₹500 cr equity transferred', 'Adjacent to Orvakal (Kurnool) airport; NH-44; targets ~₹12,000 cr investment, ~45,000 jobs'],
+        incentives: 'AP industrial incentives; airport-adjacency anchoring an aerospace/drone cluster.',
+        summary: [
+          'Orvakal in Kurnool is HBIC’s lead node and one of the most advanced of the newer corridors — PM foundation stone and EPC award both in October 2025, land and equity released. It already has early named tenants: Aerpace’s “Drone City” MoU near Kurnool airport and a Jayaraj Ispat steel unit, around an aerospace-and-engineering positioning.',
+        ],
+        sections: [{ heading: 'Anchor tenants & demand signals', body: ['Unusually for a node this early, Orvakal has named commitments — Aerpace (drones/UAVs, ~300 acres) and Jayaraj Ispat (steel) — leveraging the adjacent Orvakal airport to seed an aerospace and defence cluster. The tenant list is still thin but real.'] }],
+        timeline: [
+          { date: 'Aug 2024', label: 'CCEA approval' },
+          { date: 'Oct 2025', label: 'PM foundation stone; EPC LoA; land + equity transferred' },
+        ],
+        sources: [{ label: 'Deccan Herald — Orvakal master plan', url: 'https://www.deccanherald.com/india/andhra-pradesh/andhra-publishes-final-master-plan-for-orvakal-node-under-hyderabad-bengaluru-industrial-corridor-3620128' }, { label: 'SiliconIndia — Aerpace Drone City', url: 'https://www.siliconindia.com/news/general/andhra-pradesh-launches-indias-first-drone-city-with-aerpace-nid-238495-cid-1.html' }],
+      },
+      {
+        slug: 'kopparthy-hbic', name: 'Kopparthy (shared with VCIC)', state: 'Andhra Pradesh', stage: 'construction',
+        statusLabel: 'Construction-initiating · cross-listed VCIC node', coords: [193, 419], areaAc: 2595, projectCostCr: 1274,
+        sectors: 'Electronics, MSME, renewables', nearest: 'Kadapa (YSR)',
+        developer: 'AP Industrial Corridor Infrastructure Development Corporation + NICDIT',
+        industries: ['Electronics manufacturing (EMC)', 'MSME', 'Solar / renewables', 'General manufacturing'],
+        infrastructure: ['NICDIT footprint 2,595 acres (of ~5,760); part of the YSR Jagananna Mega Industrial Hub + EMC', 'PM foundation stone 16 Oct 2025; EPC LoA 9 Oct 2025; 878 acres + ₹300 cr equity transferred', 'Master plan notified 11 Sep 2025; EC Aug 2024'],
+        summary: [
+          'Kopparthy is folded into the same AP SPV as Orvakal and got its PM foundation stone alongside it in October 2025. It is primarily the VCIC electronics node (Dixon-anchored EMC) — see the Vizag–Chennai profile for its full tenant file — and is shown here because it is also an HBIC anchor.',
+        ],
+        sections: [{ heading: 'Cross-listed node', body: ['Kopparthy’s full intelligence file (Dixon Technologies anchor, YSR EMC under MeitY EMC-2.0) is on the Vizag–Chennai corridor page, where it is the primary listing. The HBIC SPV co-develops it with Orvakal.'] }],
+        sources: [{ label: 'DPIIT status report (31 Oct 2025)', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }],
+      },
+    ],
+    milestones: [
+      { date: 'Aug 2024', label: 'CCEA approves HBIC + Orvakal' },
+      { date: 'Sep 2025', label: 'Orvakal + Kopparthy master plans notified' },
+      { date: '16 Oct 2025', label: 'PM foundation stones; EPC LoAs issued' },
+    ],
+    sources: [{ label: 'DPIIT status report (31 Oct 2025)', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }],
+  },
+  'bengaluru-mumbai': {
+    slug: 'bengaluru-mumbai',
+    intro: [
+      'The Bengaluru–Mumbai Industrial Corridor (BMIC) runs ~1,000 km across Karnataka and Maharashtra along NH-48, with NICDC developing it alongside KIADB (Karnataka) and MIDC (Maharashtra). It has two priority nodes — Dharwad and Satara — of which Dharwad is the active one.',
+    ],
+    facts: [
+      { k: 'Length', v: '~1,000 km along NH-48' },
+      { k: 'States', v: 'Karnataka, Maharashtra' },
+      { k: 'Developer', v: 'NICDC + KIADB (Dharwad) / MIDC (Satara)' },
+      { k: 'Target', v: '~₹3 lakh cr investment; ~2.5 m jobs (corridor-wide)' },
+      { k: 'Nodes', v: 'Dharwad (active), Satara (master-planning)' },
+    ],
+    nodes: [
+      {
+        slug: 'dharwad', name: 'Dharwad node', state: 'Karnataka', stage: 'construction',
+        statusLabel: 'Under development · MMLP tendering', coords: [139, 406], areaAc: 6042,
+        sectors: 'Heavy engineering, auto, aerospace, defence', nearest: 'Dharwad / Hubballi',
+        developer: 'NICDC + Karnataka Industrial Areas Development Board (KIADB)',
+        industries: ['Heavy engineering', 'Automobiles & ancillary', 'Aerospace & defence', 'Logistics'],
+        infrastructure: ['~6,042-acre priority node; master plan complete', 'Phase-1 = a Multi-Modal Logistics Park (MMLP) on turnkey design-build + 5-year O&M; Phases 2–3 industrial layouts', 'NH-48 frontage; Bengaluru–Mumbai rail; Dabhol–Bengaluru gas pipeline'],
+        incentives: 'Karnataka industrial incentives; sits in the established Hubballi–Dharwad industrial belt.',
+        summary: [
+          'Dharwad is BMIC’s lead node — master plan locked and KIADB tendering the first works (a Multi-Modal Logistics Park). It targets heavy engineering, automobiles and an aerospace/defence cluster, riding the established Hubballi–Dharwad industrial belt.',
+        ],
+        sections: [{ heading: 'Anchor tenants & demand signals', body: ['No tenants are confirmed inside the notified node yet. In the wider Dharwad industrial area, Nidec inaugurated a ~₹600 cr motor plant (~3,000 jobs projected) — adjacent activity that signals the catchment, though it is not verified as sited inside the BMIC node boundary.'] }],
+        timeline: [{ date: '2021', label: 'BMIC nodes notified' }, { date: '2025', label: 'Dharwad master plan + MMLP tendering' }],
+        sources: [{ label: 'PIB PRID 1775265', url: 'https://pib.gov.in/PressReleasePage.aspx?PRID=1775265' }, { label: 'NICDC — BMIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/bengaluru-mumbai-industrial-corridor' }],
+      },
+      {
+        slug: 'satara', name: 'Satara node', state: 'Maharashtra', stage: 'planned',
+        statusLabel: 'Master-planning · pre-implementation', coords: [124, 371], areaAc: 12355, sectors: 'General manufacturing', nearest: 'Satara',
+        summary: [
+          'Satara is BMIC’s larger (~12,355-acre) Maharashtra node, but the slower of the two: land has been certified available and consultants appointed for preliminary engineering and the detailed master plan. Pre-implementation — no trunk works or tenants yet.',
+        ],
+        sources: [{ label: 'NICDC — BMIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/bengaluru-mumbai-industrial-corridor' }],
+      },
+    ],
+    milestones: [{ date: '2021', label: 'BMIC nodes notified' }, { date: '2025', label: 'Dharwad MMLP tendering; Satara master-planning' }],
+    sources: [{ label: 'NICDC — BMIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/bengaluru-mumbai-industrial-corridor' }],
+  },
+  'cbic-kochi-extension': {
+    slug: 'cbic-kochi-extension',
+    intro: [
+      'The CBIC extension to Kochi (via Coimbatore) carries the Chennai–Bengaluru corridor south into Tamil Nadu and Kerala, with NICDC and state SPVs (KICDC in Kerala, SIPCOT in Tamil Nadu). Its two priority nodes are Palakkad and Salem–Dharmapuri — and Palakkad is notably advanced: Kerala became the first state to finalise an EPC contract for core infrastructure under the national programme.',
+    ],
+    facts: [
+      { k: 'States', v: 'Tamil Nadu, Kerala' },
+      { k: 'Developer', v: 'NICDC + KICDC (Kerala) / SIPCOT (Tamil Nadu)' },
+      { k: 'Nodes', v: 'Palakkad (EPC awarded), Salem–Dharmapuri (master-planning)' },
+      { k: 'Milestone', v: 'Kerala first to finalise core-infra EPC under NICDP' },
+    ],
+    nodes: [
+      {
+        slug: 'palakkad', name: 'Palakkad node', state: 'Kerala', stage: 'construction',
+        statusLabel: 'Under construction · EPC awarded', coords: [162, 480], areaAc: 1710, projectCostCr: 3806, investmentCr: 8729, jobs: 51000,
+        sectors: 'Manufacturing, logistics, innovation', nearest: 'Palakkad (Pudussery)',
+        developer: 'Kerala Industrial Corridor Development Corporation (KICDC) + NICDC',
+        epc: 'Dilip Buildcon (74%) + PSP Projects JV — EPC LoA Sep 2025, ₹1,115.37 cr, 42-month build',
+        industries: ['Advanced manufacturing', 'Logistics', 'Innovation / R&D'],
+        infrastructure: ['1,710 acres (Pudussery Central, Pudussery West, Kannambra); ~82% land acquired', 'Project cost ₹3,806 cr; investment potential ₹8,729 cr; ~51,000 jobs', 'EPC by Dilip Buildcon–PSP Projects JV (₹1,115 cr, 42 months)'],
+        incentives: 'Kerala industrial incentives; first NICDP node in the country to award its core-infrastructure EPC.',
+        summary: [
+          'Palakkad is the flagship of the Kochi extension and one of the more advanced nodes in the whole programme: Kerala awarded the EPC for trunk infrastructure to a Dilip Buildcon–PSP Projects JV (₹1,115 cr) in September 2025, with ~82% of the 1,710-acre site acquired. Construction-stage, ahead of most peers.',
+        ],
+        sections: [noTenants('The node is at trunk-infrastructure construction; anchor industrial tenants are not yet public. Its early EPC award (the first under NICDP) puts it ahead of most newer nodes on delivery.')],
+        timeline: [{ date: 'Aug 2024', label: '~82% land acquired' }, { date: 'Sep 2025', label: 'EPC LoA to DBL–PSP JV (₹1,115 cr)' }],
+        sources: [{ label: 'Business Standard — Palakkad EPC', url: 'https://www.business-standard.com/markets/capital-market-news/dilip-buildcon-wins-rs-1-115-cr-kerala-industrial-corridor-project-from-kicdc-125092400110_1.html' }, { label: 'NICDC — Palakkad', url: 'https://nicdc.in/projects/12-new-projects/palakkad-kerala' }],
+      },
+      {
+        slug: 'salem-dharmapuri', name: 'Salem–Dharmapuri node', state: 'Tamil Nadu', stage: 'planned',
+        statusLabel: 'Master-planning', coords: [184, 466], areaAc: 1773, sectors: 'Manufacturing cluster', nearest: 'Salem / Dharmapuri',
+        summary: [
+          'The Salem–Dharmapuri IMC (~1,773 acres) is the Tamil Nadu node of the extension, a step behind Palakkad — demarcated, with the detailed master plan and preliminary engineering for roads and utilities commissioned. Pre-construction; no tenants yet.',
+        ],
+        sources: [{ label: 'NICDC — Dharmapuri–Salem', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/dharmapuri-salem-tamil-nadu' }],
+      },
+    ],
+    milestones: [{ date: 'Aug 2024', label: 'Palakkad ~82% land acquired' }, { date: 'Sep 2025', label: 'Palakkad EPC awarded (first under NICDP)' }],
+    sources: [{ label: 'NICDC — CBIC to Kochi (ECKC)', url: 'https://api.nicdc.in/upload/image/ExecutivesummaryreportECKC.pdf' }],
+  },
+  'delhi-nagpur': {
+    slug: 'delhi-nagpur',
+    intro: [
+      'The Delhi–Nagpur Industrial Corridor (DNIC) is the newest and least-developed of the eleven — planned along NH-44 and the future North–South Dedicated Freight Corridor. As of mid-2025 it is at perspective-plan stage only: a consultant is preparing the plan, but no nodes are notified or approved.',
+      'Two early land conversations exist — a proposed parcel at Wardha (Maharashtra, near MIDC Butibori) and discussions with the Bundelkhand Industrial Development Authority in UP — but neither is a confirmed node. Treat DNIC as a watch-list corridor, not yet investable.',
+    ],
+    facts: [
+      { k: 'Alignment', v: 'NH-44 + future North–South DFC' },
+      { k: 'Influence states', v: 'Delhi, UP, Rajasthan, MP, Maharashtra' },
+      { k: 'Developer', v: 'NICDC (perspective-plan consultant appointed)' },
+      { k: 'Status', v: 'Perspective-plan stage — no notified nodes' },
+    ],
+    nodes: [
+      {
+        slug: 'perspective-plan', name: 'Perspective-plan stage', state: 'Multiple', stage: 'planned',
+        statusLabel: 'No notified nodes yet', sectors: 'To be defined',
+        summary: [
+          'DNIC has no notified nodes. The corridor depends on the North–South DFC backbone and is at perspective-planning. Early, unconfirmed land conversations include a proposed Wardha parcel near MIDC Butibori (Maharashtra) and talks with the Bundelkhand Industrial Development Authority (UP). Nothing is investable yet.',
+        ],
+        sources: [{ label: 'NICDC — DMU report (31 Jul 2025)', url: 'https://nicdc.in/assets/pdfs/01_DMU_Report_31_Jul_2025.pdf' }],
+      },
+    ],
+    sources: [{ label: 'NICDC — DNIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/delhi-nagpur-industrial-corridor-dnic' }],
+  },
 };
 
 export const deepFor = (slug: string): CorridorDeep | undefined => corridorDeep[slug];
