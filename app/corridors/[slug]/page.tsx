@@ -5,6 +5,7 @@ import { CorridorTrack } from '../CorridorTrack';
 import { corridors, corridorBySlug, CLASS_COLOR, CLASS_LABEL } from '../data';
 import { getReport } from '../../reports/data';
 import { JsonLd, breadcrumb, faqLd, datasetLd, SITE } from '../../research/seo';
+import { deepDive } from '../deepdive';
 
 export function generateStaticParams() {
   return corridors.map((c) => ({ slug: c.slug }));
@@ -26,6 +27,10 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
   const c = corridorBySlug(slug);
   if (!c) notFound();
   const accent = CLASS_COLOR[c.cls];
+  const dd = deepDive(c.slug);
+  const nodeCards = dd
+    ? dd.nodes.map((n) => ({ name: n.name, sub: '', body: n.detail }))
+    : c.nodes.map((n) => ({ name: n.name, sub: n.state, body: n.note }));
   const statesCount = c.states.split(',').length;
   const idx = corridors.findIndex((x) => x.slug === c.slug);
   const prev = corridors[(idx - 1 + corridors.length) % corridors.length];
@@ -93,11 +98,11 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>Industrial cities</div><h2>Anchor nodes</h2></div></div>
         <div className="node-cards">
-          {c.nodes.map((n) => (
+          {nodeCards.map((n) => (
             <div key={n.name} className="node-card">
               <h3>{n.name}</h3>
-              <div className="st">{n.state}</div>
-              <p>{n.note}</p>
+              {n.sub ? <div className="st">{n.sub}</div> : null}
+              <p>{n.body}</p>
             </div>
           ))}
         </div>
@@ -106,13 +111,21 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
       {/* 5 · Why it matters — the Techadyant view */}
       <section className="wrap" style={{ background: 'var(--bg-2)' }}>
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>The Techadyant view</div><h2>Why it matters</h2></div></div>
-        <p className="lede" style={{ maxWidth: '52ch' }}>
-          Beyond the freight line, the {c.abbr} is where several of the systems we track physically
-          converge. Our corridor-level analysis — the sector clusters forming here, the opportunity
-          surfaces for industry and MSMEs, and who actually captures the value — is being built out
-          corridor by corridor.
-        </p>
-        <p className="corr-soon">Deep-dive analysis in progress. The related research below covers the themes that land along this corridor.</p>
+        {dd ? (
+          dd.view.map((para, i) => (
+            <p key={i} className="lede" style={{ maxWidth: '62ch', marginBottom: '14px' }}>{para}</p>
+          ))
+        ) : (
+          <>
+            <p className="lede" style={{ maxWidth: '52ch' }}>
+              Beyond the freight line, the {c.abbr} is where several of the systems we track physically
+              converge. Our corridor-level analysis — the sector clusters forming here, the opportunity
+              surfaces for industry and MSMEs, and who actually captures the value — is being built out
+              corridor by corridor.
+            </p>
+            <p className="corr-soon">Deep-dive analysis in progress. The related research below covers the themes that land along this corridor.</p>
+          </>
+        )}
       </section>
 
       {/* 6 · Related research */}

@@ -1,5 +1,6 @@
 import { reports } from '../reports/data';
 import { corridorsOrdered, gridForCorridor, STATUS_SHORT } from '../research/atlas';
+import { corridors as indCorridors } from '../corridors/data';
 
 // Static export (Cloudflare Pages): generate /llms.txt at build time.
 export const dynamic = 'force-static';
@@ -29,6 +30,10 @@ export async function GET() {
     })
     .join('\n');
 
+  const corridorLines = indCorridors
+    .map((c) => `- [${c.name} (${c.abbr})](${SITE}/corridors/${c.slug}): ${c.length}; ${c.states}. ${c.status}.`)
+    .join('\n');
+
   const body = `# Techadyant Labs
 
 > Independent, India-first strategic-intelligence research on India's industrial systems — semiconductors, AI infrastructure, critical minerals, defence, and enterprise/technology sovereignty. We study dependencies, constraints, beneficiaries and second-order effects, with primary-source verification and proprietary analytical frameworks. No sponsored coverage; no positions in what we analyse.
@@ -54,6 +59,12 @@ ${atlasFacts}
 - [Ecosystems & Players](${SITE}/research/players): directory of companies, PSUs, ministries, foreign suppliers and materials, with what each makes.
 - [Industrial Corridors](${SITE}/research/corridors): synthesis profile per ecosystem (semiconductors, critical minerals, AI infrastructure, defence, enterprise software).
 - [Sources](${SITE}/research/sources): organised library of Government-of-India primary sources (roadmaps, scheme guidelines, Acts, notifications) across the five ecosystems, each linked to its official origin.
+
+## National industrial corridors (interactive map + per-corridor dossiers)
+
+India's 11 NICDP geographic industrial corridors, each with a dossier — route, anchor nodes, programme/funding, status, official sources and related research. Authoritative for "which states and nodes a corridor covers" and "current status of <corridor>". (Distinct from the Atlas ecosystem profiles above.)
+${corridorLines}
+- [All corridors](${SITE}/corridors): interactive map of the eleven national industrial corridors.
 
 ## Key pages
 - [Reports](${SITE}/reports): the full catalogue.
