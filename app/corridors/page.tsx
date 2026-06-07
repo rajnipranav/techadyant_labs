@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { CorridorMap } from './CorridorMap';
-import { corridors, CLASS_COLOR, CLASS_LABEL } from './data';
+import { corridors, corridorBySlug, CLASS_COLOR, CLASS_LABEL } from './data';
+import { leaderboard, TIER_COLOR } from './corridor-intel';
 import { JsonLd, breadcrumb, SITE } from '../research/seo';
 
 export const metadata: Metadata = {
@@ -58,6 +59,29 @@ export default function CorridorsIndex() {
           </div>
         </div>
       </header>
+
+      <section className="wrap">
+        <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: '#C9A84C' }}>Readiness ranking</div><h2>The eleven, scored</h2></div></div>
+        <p style={{ color: 'var(--text-muted)', fontSize: '14px', maxWidth: '64ch', marginBottom: '16px' }}>
+          Each corridor scored 0–100 on maturity, capital momentum, connectivity and opportunity openness — the Techadyant Corridor Readiness Score. Higher means closer to investable today.
+        </p>
+        <ul className="ci-lead">
+          {leaderboard.map((row, i) => {
+            const c = corridorBySlug(row.slug);
+            if (!c) return null;
+            return (
+              <li key={row.slug}>
+                <Link href={`/corridors/${row.slug}`}>
+                  <span className="rk">{i + 1}</span>
+                  <span className="nm">{shortName(c.name)}</span>
+                  <span className="ci-leadbar"><i style={{ width: `${row.total}%`, background: TIER_COLOR[row.tier] }} /></span>
+                  <span className="sc">{row.total}<span className="tr" style={{ color: TIER_COLOR[row.tier] }}>{row.tier}</span></span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
     </>
   );
 }

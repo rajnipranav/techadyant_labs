@@ -6,6 +6,7 @@ import { corridors, corridorBySlug, CLASS_COLOR, CLASS_LABEL } from '../data';
 import { getReport } from '../../reports/data';
 import { JsonLd, breadcrumb, faqLd, datasetLd, SITE } from '../../research/seo';
 import { deepDive } from '../deepdive';
+import { corridorIntel, TIER_COLOR, STAGE_COLOR, STAGE_LABEL, rankOf, leaderboard } from '../corridor-intel';
 
 export function generateStaticParams() {
   return corridors.map((c) => ({ slug: c.slug }));
@@ -28,6 +29,9 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
   if (!c) notFound();
   const accent = CLASS_COLOR[c.cls];
   const dd = deepDive(c.slug);
+  const ci = corridorIntel(c.slug);
+  const rank = rankOf(c.slug);
+  const totalCorr = leaderboard.length;
   const nodeCards = dd
     ? dd.nodes.map((n) => ({ name: n.name, sub: '', body: n.detail }))
     : c.nodes.map((n) => ({ name: n.name, sub: n.state, body: n.note }));
@@ -76,6 +80,30 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
         </div>
       </header>
 
+      {ci && (
+        <section className="wrap" style={{ paddingBottom: 0 }}>
+          <div className="ci-score">
+            <div className="ci-score-num">
+              <div className="n" style={{ color: accent }}>{ci.score.total}</div>
+              <div className="d">/100 readiness</div>
+              <div className="ci-tier" style={{ color: TIER_COLOR[ci.score.tier] }}>{ci.score.tier}</div>
+            </div>
+            <div className="ci-axes">
+              {(([['Maturity', ci.score.maturity], ['Capital momentum', ci.score.capital], ['Connectivity', ci.score.connectivity], ['Opportunity', ci.score.opportunity]]) as [string, number][]).map(([lab, v]) => (
+                <div className="ci-axis" key={lab}>
+                  <span className="lab">{lab}</span>
+                  <span className="ci-bar"><i style={{ width: `${(v / 25) * 100}%`, background: accent }} /></span>
+                  <span className="val">{v}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <p style={{ fontSize: '12.5px', color: 'var(--text-dim)', marginTop: '10px', maxWidth: '64ch' }}>
+            The Techadyant Corridor Readiness Score rates maturity, capital momentum, connectivity and opportunity openness (each 0–25). This corridor ranks <strong style={{ color: 'var(--text-muted)' }}>#{rank} of {totalCorr}</strong>. <Link href="/corridors" style={{ color: accent }}>Compare all corridors →</Link>
+          </p>
+        </section>
+      )}
+
       {/* 2 · Map */}
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>Where it runs</div><h2>On the map</h2></div>
@@ -92,20 +120,53 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
           <li><div className="k">Programme</div><div className="v">{c.programme}</div></li>
           <li><div className="k">Status</div><div className="v">{c.status}</div></li>
         </ul>
+        {ci && (
+          <>
+            <div className="ci-snap" style={{ marginTop: '18px' }}>
+              {ci.spv ? <div><div className="k">Lead developer</div><div className="v">{ci.spv}</div></div> : null}
+              {ci.funding ? <div><div className="k">Funding</div><div className="v">{ci.funding}</div></div> : null}
+              {ci.dfc ? <div><div className="k">Freight corridor</div><div className="v">{ci.dfc}</div></div> : null}
+              {ci.investment ? <div><div className="k">Investment</div><div className="v">{ci.investment}</div></div> : null}
+              {ci.jobs ? <div><div className="k">Jobs target</div><div className="v">{ci.jobs}</div></div> : null}
+            </div>
+            <div className="ci-chips" style={{ marginTop: '16px' }}>
+              {ci.connectivity.map((x) => <span className="ci-chip" key={x}>{x}</span>)}
+            </div>
+          </>
+        )}
       </section>
 
       {/* 4 · Anchor nodes */}
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>Industrial cities</div><h2>Anchor nodes</h2></div></div>
-        <div className="node-cards">
-          {nodeCards.map((n) => (
-            <div key={n.name} className="node-card">
-              <h3>{n.name}</h3>
-              {n.sub ? <div className="st">{n.sub}</div> : null}
-              <p>{n.body}</p>
-            </div>
-          ))}
-        </div>
+        {ci ? (
+          <div className="ci-tablewrap">
+            <table className="ci-table">
+              <thead><tr><th>Node</th><th>Area</th><th>Sectors</th><th>Anchor / status</th><th>Stage</th></tr></thead>
+              <tbody>
+                {ci.nodes.map((n) => (
+                  <tr key={n.name}>
+                    <td><span className="nm">{n.name}</span>{n.land ? <span style={{ fontSize: '12px' }}>{n.land}</span> : null}</td>
+                    <td>{n.area ?? '—'}</td>
+                    <td>{n.sectors ?? '—'}</td>
+                    <td>{n.anchor ?? n.note ?? '—'}</td>
+                    <td><span className="ci-stage"><i style={{ background: STAGE_COLOR[n.stage] }} />{STAGE_LABEL[n.stage]}</span></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : (
+          <div className="node-cards">
+            {nodeCards.map((n) => (
+              <div key={n.name} className="node-card">
+                <h3>{n.name}</h3>
+                {n.sub ? <div className="st">{n.sub}</div> : null}
+                <p>{n.body}</p>
+              </div>
+            ))}
+          </div>
+        )}
       </section>
 
       {/* 5 · Why it matters — the Techadyant view */}

@@ -10,8 +10,10 @@
 <text x="198.0" y="316.0" font-family="Arial" font-size="3.16" font-weight="bold" fill="#16233a" text-anchor="middle">Nagpur</text>
 <text x="105.2" y="167.1" font-family="Georgia,serif" font-size="5.02" fill="#16233a">Delhi–Nagpur Industrial Corridor</text>
 <text x="105.2" y="171.5" font-family="Arial" font-size="2.43" fill="#6a7689">DNIC · 5 states · Planned</text>
-<line x1="232.8" y1="344.4" x2="238.0" y2="344.4" stroke="#B23B33" stroke-width="0.97" stroke-dasharray="4 3"/><text x="239.6" y="345.4" font-family="Arial" font-size="2.3" fill="#3a4a60">Corridor route</text>
-<rect x="233.8" y="347.3" width="1.9" height="1.9" transform="rotate(45 234.7 348.3)" fill="#FFFFFF" stroke="#2563A8" stroke-width="0.55"/><text x="239.6" y="349.3" font-family="Arial" font-size="2.3" fill="#3a4a60">Industrial node</text>
-<line x1="232.8" y1="351.5" x2="238.0" y2="351.5" stroke="#9AA3B0" stroke-opacity="0.95" stroke-width="0.42"/><text x="239.6" y="352.5" font-family="Arial" font-size="2.3" fill="#3a4a60">States traversed</text>
+<line x1="230.4" y1="333.9" x2="235.5" y2="333.9" stroke="#B23B33" stroke-width="0.97" stroke-dasharray="4 3"/><text x="237.2" y="334.8" font-family="Arial" font-size="2.2" fill="#3a4a60">Corridor route</text>
+<rect x="231.3" y="336.8" width="1.9" height="1.9" transform="rotate(45 232.3 337.8)" fill="#FFFFFF" stroke="#0F8E78" stroke-width="0.62"/><text x="237.2" y="338.6" font-family="Arial" font-size="2.2" fill="#3a4a60">Operational node</text>
+<rect x="231.3" y="340.7" width="1.9" height="1.9" transform="rotate(45 232.3 341.6)" fill="#FFFFFF" stroke="#B5891E" stroke-width="0.62"/><text x="237.2" y="342.4" font-family="Arial" font-size="2.2" fill="#3a4a60">Under construction</text>
+<rect x="231.3" y="344.6" width="1.9" height="1.9" transform="rotate(45 232.3 345.5)" fill="#FFFFFF" stroke="#5B6B82" stroke-width="0.62"/><text x="237.2" y="346.3" font-family="Arial" font-size="2.2" fill="#3a4a60">Planned node</text>
+<line x1="230.4" y1="349.4" x2="235.5" y2="349.4" stroke="#9AA3B0" stroke-width="0.97"/><text x="237.2" y="350.4" font-family="Arial" font-size="2.2" fill="#3a4a60">States traversed</text>
 <text x="105.2" y="355.9" font-family="Arial" font-size="1.98" fill="#9aa3b2">Source: NICDC · National Industrial Corridor Development Programme.  © Techadyant Labs</text>
 </svg>
