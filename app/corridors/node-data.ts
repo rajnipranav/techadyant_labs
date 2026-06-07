@@ -507,6 +507,97 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       { label: 'AP Industries — VCIC', url: 'https://www.apindustries.gov.in/VCIC/' },
     ],
   },
+  'chennai-bengaluru': {
+    slug: 'chennai-bengaluru',
+    intro: [
+      'The Chennai–Bengaluru Industrial Corridor (CBIC) runs ~560 km along the NH-48 axis across three southern states — Tamil Nadu, Andhra Pradesh and Karnataka — with the master plan prepared by JICA and development led by NICDC (GoI 49%, JBIC 26%). Its 20-year master-plan estimate runs to ~US$181 billion, dominated by energy and transport.',
+      'It has three Phase-1 nodes. The CCEA approved trunk infrastructure for two of them on 30 December 2020 — Krishnapatnam (₹2,139 cr) and Tumakuru (₹1,702 cr) — and both are now under construction toward plug-and-play readiness around 2026–27. The third, Ponneri in Tamil Nadu, remains at master-plan stage.',
+      'Tumakuru is the corridor’s most-activated node, and unusually it already has named industrial momentum: a co-located Japanese Industrial Township that is fully occupied, plus a new 300-acre Japanese township announced in 2025. Krishnapatnam (KRIS City) is the large port-linked bet next to Krishnapatnam Port; Ponneri is an engineering hub still on the drawing board.',
+    ],
+    facts: [
+      { k: 'Length', v: '~560 km along NH-48 (Chennai–Bengaluru)' },
+      { k: 'States', v: 'Tamil Nadu, Andhra Pradesh, Karnataka (16 districts)' },
+      { k: 'Developer', v: 'NICDC (GoI 49% / JBIC 26%); state SPVs (KIADB, SIPCOT, APIIC)' },
+      { k: 'Master plan', v: 'JICA — Comprehensive Integrated Regional Master Plan' },
+      { k: 'Programme estimate', v: '~US$181 bn over 20 years' },
+      { k: 'Nodes', v: 'Tumakuru, Krishnapatnam (KRIS City), Ponneri' },
+      { k: 'CCEA approval', v: 'Tumakuru + Krishnapatnam trunk infra, 30 Dec 2020' },
+    ],
+    nodes: [
+      {
+        slug: 'tumakuru', name: 'Tumakuru node (Vasanthanarasapura)', state: 'Karnataka', stage: 'construction',
+        statusLabel: 'Under construction · Phase-A allotment open', coords: [169, 440],
+        areaAc: 8484, projectCostCr: 1702, jobs: 88500, sectors: 'Precision mfg, electronics, auto, machine tools',
+        nearest: 'Tumakuru · ~120 km from Bengaluru (NH-48)',
+        developer: 'CBIC Tumakuru Industrial Township Ltd (state SPV via KIADB)',
+        companies: [
+          { name: 'Japan Industrial Township (existing, 160 acres)', sector: 'Japanese precision mfg / auto / electronics', commitment: '107 companies — fully occupied' },
+          { name: 'New 300-acre Japanese Industrial Township (JIT)', sector: 'Japanese manufacturing', commitment: 'Announced Nov 2025; allotment opening' },
+        ],
+        industries: ['Precision manufacturing', 'Electronics', 'Automotive & components', 'Machine tools'],
+        infrastructure: ['~8,484-acre node (3 phases); Phase-A activation ~1,722 acres acquired', 'Trunk infrastructure ₹1,701.81 cr (CCEA-approved 2020); plug-and-play targeted late 2026', 'NH-48 frontage; rail links to Chennai and Bengaluru ports', 'Co-located Japanese Industrial Township ecosystem at Vasanthanarasapura'],
+        incentives: 'Karnataka industrial incentives + a dedicated Japanese-township track; Phase-A industrial-plot allotment open (late 2025).',
+        summary: [
+          'Tumakuru, near Bengaluru on NH-48, is the corridor’s most-activated node — PM-foundation in 2023, Phase-A trunk infrastructure under way, and plot allotment now open. Its distinctive asset is the co-located Japanese Industrial Township: an existing 160-acre park with 107 companies fully occupied, now extended by a new 300-acre Japanese township announced in 2025.',
+        ],
+        sections: [{ heading: 'Anchor tenants & demand signals', body: ['Individual CBIC Phase-A allottees are not yet publicly named, but Tumakuru has the strongest demand signal on the corridor: the adjoining Japanese Industrial Township is fully occupied by 107 firms, and a 300-acre extension was announced in November 2025 — a rare case of proven, named-cluster demand pulling a corridor node forward.'] }],
+        timeline: [
+          { date: 'Dec 2020', label: 'CCEA approves trunk infrastructure' },
+          { date: '2023', label: 'PM lays foundation stone for the township' },
+          { date: 'Nov 2025', label: '300-acre Japanese township announced; Phase-A allotment open' },
+        ],
+        sources: [
+          { label: 'PIB PRID 1684631 (CCEA approval)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=1684631' },
+          { label: 'NICDC — CBIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/chennai-bengaluru-industrial-corridor' },
+        ],
+      },
+      {
+        slug: 'krishnapatnam', name: 'Krishnapatnam (KRIS City)', state: 'Andhra Pradesh', stage: 'construction',
+        statusLabel: 'Under construction · Phase-1 EPC', coords: [212, 425],
+        areaAc: 11098, projectCostCr: 2139, investmentCr: 10500, jobs: 98000, sectors: 'Textiles, food, auto, electronics, metals',
+        nearest: 'Krishnapatnam Port (NH-16)',
+        developer: 'Krishnapatnam Industrial City Development Ltd (NICDIT + APIIC 50:50 SPV)',
+        industries: ['Textiles & apparel', 'Food processing', 'Automobiles', 'Electronics', 'Engineering & metals', 'Port-linked logistics & warehousing'],
+        infrastructure: ['~11,098-acre greenfield smart city (Phase-1 ~2,500 acres); trunk infrastructure ₹2,139.44 cr (CCEA-approved 2020)', 'Targeted manufacturing investment ~₹10,500 cr; Phase-1 plug-and-play by end-2026 / early 2027', 'Adjacent to Krishnapatnam Port; NH-16; rail-linked; near Tirupati airport', 'Large 100–200-acre plots created for port-linked heavy industry'],
+        incentives: 'AP industrial incentives; port-adjacency for EXIM-oriented manufacturing; PM-dedicated greenfield smart city.',
+        summary: [
+          'Krishnapatnam / KRIS City is CBIC’s large coastal bet — an ~11,098-acre greenfield smart industrial city beside Krishnapatnam Port whose foundation stone the Prime Minister laid in January 2025. Phase-1 (~2,500 acres) is in EPC, targeting ~₹10,500 cr of manufacturing investment and ~98,000 jobs, with large plots shaped for port-linked heavy industry.',
+        ],
+        sections: [noTenants('Sector targeting (textiles, food, auto, electronics, metals, port logistics) is announced and large port-linked plots are being created, but no individual anchor tenant or MoU is on the public record at the node yet — expected at this pre-allotment, EPC stage.')],
+        timeline: [
+          { date: 'Dec 2020', label: 'CCEA approves trunk infrastructure' },
+          { date: 'Jan 2025', label: 'PM lays foundation stone (KRIS City)' },
+          { date: '2026–27', label: 'Phase-1 plug-and-play infrastructure targeted' },
+        ],
+        sources: [
+          { label: 'PIB PRID 1684631 (CCEA approval)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=1684631' },
+          { label: 'NICDC — Krishnapatnam', url: 'https://nicdc.in/projects/4-projects-nearing-completion/krishnapatnam-industrial-area-andhra-pradesh' },
+        ],
+      },
+      {
+        slug: 'ponneri', name: 'Ponneri node (Engineering Hub)', state: 'Tamil Nadu', stage: 'planned',
+        statusLabel: 'Master-plan stage', coords: [214, 440],
+        areaAc: 3375, sectors: 'Engineering, logistics', nearest: 'Ponneri · ~35 km N of Chennai',
+        summary: [
+          'Ponneri in Tiruvallur, ~35 km north of Chennai, is master-planned by JICA as an “engineering hub” adjacent to the Chennai, Kattupalli and Ennore ports. It is the least advanced CBIC node — detailed master plan and preliminary engineering done, but no Cabinet trunk-infra approval or construction comparable to Tumakuru and Krishnapatnam, and no tenants yet.',
+        ],
+        sources: [{ label: 'NICDC — Ponneri', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/ponneri-industrial-area-tamil-nadu' }],
+      },
+    ],
+    milestones: [
+      { date: '2014–15', label: 'JICA master plan (~US$181 bn / 20 yr estimate)' },
+      { date: '30 Dec 2020', label: 'CCEA approves Tumakuru + Krishnapatnam trunk infra' },
+      { date: '2023', label: 'PM lays foundation stone, Tumakuru township' },
+      { date: '8 Jan 2025', label: 'PM lays foundation stone, Krishnapatnam / KRIS City' },
+      { date: 'Nov 2025', label: '300-acre Japanese township announced, Tumakuru' },
+      { date: '2026–27', label: 'Phase-1 plug-and-play targeted (Tumakuru + Krishnapatnam)' },
+    ],
+    sources: [
+      { label: 'NICDC — CBIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/chennai-bengaluru-industrial-corridor' },
+      { label: 'PIB PRID 1684631', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=1684631' },
+      { label: 'JICA master plan', url: 'https://openjicareport.jica.go.jp/pdf/12249322.pdf' },
+    ],
+  },
 };
 
 export const deepFor = (slug: string): CorridorDeep | undefined => corridorDeep[slug];
