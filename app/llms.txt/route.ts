@@ -2,7 +2,6 @@ import { reports } from '../reports/data';
 import { corridorsOrdered, gridForCorridor, STATUS_SHORT } from '../research/atlas';
 import { corridors as indCorridors } from '../corridors/data';
 import { corridorDeep } from '../corridors/node-data';
-import { corridors as indCorridors } from '../corridors/data';
 
 // Static export (Cloudflare Pages): generate /llms.txt at build time.
 export const dynamic = 'force-static';
