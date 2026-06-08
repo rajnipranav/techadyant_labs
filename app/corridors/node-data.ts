@@ -125,18 +125,42 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       },
       {
         slug: 'agra', name: 'Agra IMC', state: 'Uttar Pradesh', stage: 'approved',
-        statusLabel: 'Approved · court bottleneck', coords: [178, 214], areaAc: 1058, investmentCr: 3400,
-        sectors: 'E-mobility, leather, garments, food processing, packaging', nearest: 'Agra',
-        developer: 'AKIC IMC Agra-Prayagraj Ltd (shared SPV; incorporated 30 Jan 2025; state partner UPSIDA)',
+        statusLabel: 'Approved · land acquisition · TTZ-constrained', coords: [178, 214],
+        areaAc: 1058, projectCostCr: 1812, investmentCr: 3447, jobs: 69516,
+        sectors: 'Leather & footwear, engineering, ESDM, food, defence', nearest: 'New Tundla EDFC station (22 km)',
+        developer: 'AKIC Integrated Manufacturing Cluster Agra-Prayagraj Ltd (Centre–UPSIDA JV; incorporated 30 Jan 2025)',
+        industries: ['Leather articles & footwear', 'Engineering & fabrication', 'ESDM / electronics', 'Food processing & beverages', 'Medicine & medical consumables', 'Defence & technical textiles (UPDIC)'],
+        infrastructure: ['1,058-acre IMC; land use 444 ac (42%) industrial, 362 ac (34%) green, ₹3.64 cr/acre, plots 0.6–7.18 acres', 'New Tundla EDFC station ~22 km; Kuberpur Halt 3 km; Agra Cantt 21 km', 'Yamuna Expressway + NH-19 (Agra–Kolkata) 2 km; Inner Ring Road through the site; Agra–Lucknow Expressway linkage', 'Agra airport 25 km; Noida International (Jewar) 140 km; 205 km from Delhi NCR'],
+        incentives: 'Designed for non-polluting industries + expansion land for existing Agra units; EDFC freight access; UP industrial + Defence-Industrial-Corridor incentives.',
         summary: [
-          'Agra is CCEA-approved with its SPV (shared with Prayagraj) incorporated on 30 January 2025 and environmental clearance from 2023. Its bottleneck is unusual: tree-felling approval inside the Taj Trapezium Zone is pending before the Supreme Court, which gates site preparation. Sector positioning leans to e-mobility, leather and garments — Agra’s existing clusters.',
+          'IMC Agra is one of the rare Indian industrial sites sitting at a three-way convergence — a national AKIC manufacturing cluster, a node of the UP Defence Industrial Corridor, and India’s largest legacy footwear hub, all in one district. The 1,058-acre IMC (₹1,812 cr build, ₹3,447 cr investment potential, ~69,516 jobs) is CCEA-approved with its Centre–UPSIDA SPV incorporated in January 2025, designed for non-polluting industry on the EDFC freight backbone.',
+          'It is approved but not yet built: land acquisition is under way and site clearance is gated by the Taj Trapezium Zone regime. The honest read is a diversification play layered on a legacy monocluster — footwear plus an engineering/ESDM/e-mobility pivot riding the freight corridor, with defence as a forward option.',
+        ],
+        sections: [
+          { heading: 'A Defence Industrial Corridor node', body: [
+            'Agra is one of the six nodes of the Uttar Pradesh Defence Industrial Corridor (developed by UPEIDA), alongside Kanpur, Jhansi, Lucknow, Aligarh and Chitrakoot. As of September 2025 the Agra node carried ~₹407 cr of investment proposals with ~120 ha acquired — the corridor’s least-developed node, with no allottees publicly named yet.',
+            'The corridor’s marquee defence anchors sit at other nodes — BrahMos Aerospace (Lucknow, BrahMos-NG missiles), Adani Defence (Kanpur, ammunition, ₹1,500 cr), Aerolloy titanium and Amitec electronic-warfare systems. For Agra, the state plan flags a Defence Park, a technical-textiles hub and auto-component/electronics development. Treat Agra’s defence role as optionality, not yet capacity.',
+          ] },
+          { heading: 'India’s footwear capital — the demand catchment', body: [
+            'Agra is India’s largest footwear cluster: roughly 65% of domestic footwear demand and ~28% of national footwear exports, ~250 mechanised units plus ~5,000 cottage units, and around 400,000 jobs. The IMC is explicitly designed partly as expansion land for these existing units, and Agra’s Foundry Nagar gives it a metal-casting/light-engineering ancillary base — a ready demand-and-supply ecosystem most greenfield corridor nodes lack.',
+          ] },
+          { heading: 'The Taj Trapezium Zone constraint', body: [
+            'The binding caveat: Supreme Court orders (reaffirmed May 2025) bar tree-felling within a 5 km radius of the Taj Mahal without permission and cap polluting industry across the wider Taj Trapezium Zone. This is precisely why the IMC is positioned for non-polluting sectors, and why Agra’s long-promised leather/tanning park has stalled for over a decade. Any Agra manufacturing plan must be designed around the TTZ from the outset.',
+          ] },
         ],
         timeline: [
-          { date: 'Aug 2024', label: 'CCEA approval' },
+          { date: '2023', label: 'Environmental clearance' },
+          { date: 'Aug 2024', label: 'CCEA approval (one of 12 new IMCs)' },
           { date: 'Jan 2025', label: 'Agra–Prayagraj SPV incorporated' },
-          { date: 'Pending', label: 'Taj Trapezium Zone clearance (Supreme Court)' },
+          { date: 'May 2025', label: 'Supreme Court reaffirms TTZ tree-felling regime' },
+          { date: '2026–29', label: 'IIG project window (build to ~Apr 2029)' },
         ],
-        sources: [DPIIT, { label: 'PIB PRID 2071860', url: 'https://pib.gov.in/PressReleasePage.aspx?PRID=2071860' }],
+        sources: [
+          { label: 'NICDC — IMC Agra', url: 'https://nicdc.in/projects/12-new-projects/imc-agra-uttar-pradesh' },
+          { label: 'India Investment Grid — IMC Agra (#707418)', url: 'https://indiainvestmentgrid.gov.in/opportunities/nip-project/707418' },
+          { label: 'Invest UP — UP Defence Industrial Corridor (23 Sep 2025)', url: 'https://invest.up.gov.in/wp-content/uploads/2025/10/3-Eng-PressRelease_UPDIC_23Sep_2025_041025.pdf' },
+          { label: 'AFMEC — Agra footwear industry overview', url: 'https://www.afmec.org/industry-overview' },
+        ],
       },
       {
         slug: 'prayagraj', name: 'Prayagraj IMC', state: 'Uttar Pradesh', stage: 'construction',
