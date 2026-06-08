@@ -125,40 +125,49 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       },
       {
         slug: 'agra', name: 'Agra IMC', state: 'Uttar Pradesh', stage: 'approved',
-        statusLabel: 'Approved · land acquisition · TTZ-constrained', coords: [178, 214],
+        statusLabel: 'Approved · SPV signed · TTZ-constrained', coords: [178, 214],
         areaAc: 1058, projectCostCr: 1812, investmentCr: 3447, jobs: 69516,
-        sectors: 'Leather & footwear, engineering, ESDM, food, defence', nearest: 'New Tundla EDFC station (22 km)',
-        developer: 'AKIC Integrated Manufacturing Cluster Agra-Prayagraj Ltd (Centre–UPSIDA JV; incorporated 30 Jan 2025)',
-        industries: ['Leather articles & footwear', 'Engineering & fabrication', 'ESDM / electronics', 'Food processing & beverages', 'Medicine & medical consumables', 'Defence & technical textiles (UPDIC)'],
-        infrastructure: ['1,058-acre IMC; land use 444 ac (42%) industrial, 362 ac (34%) green, ₹3.64 cr/acre, plots 0.6–7.18 acres', 'New Tundla EDFC station ~22 km; Kuberpur Halt 3 km; Agra Cantt 21 km', 'Yamuna Expressway + NH-19 (Agra–Kolkata) 2 km; Inner Ring Road through the site; Agra–Lucknow Expressway linkage', 'Agra airport 25 km; Noida International (Jewar) 140 km; 205 km from Delhi NCR'],
-        incentives: 'Designed for non-polluting industries + expansion land for existing Agra units; EDFC freight access; UP industrial + Defence-Industrial-Corridor incentives.',
+        sectors: 'Leather & footwear, food processing, engineering, ESDM, medical', nearest: 'New Tundla EDFC station (25 km)',
+        developer: 'Integrated Manufacturing Cluster Agra-Prayagraj Ltd (NICDC–UPSIDA JV; State Support & Shareholder Agreements signed 8 Nov 2024)',
+        industries: ['Leather articles & apparel', 'Food processing & beverage', 'Engineering & fabrication', 'Medicine & medical consumables', 'Electronics System Design & Manufacturing (ESDM)'],
+        infrastructure: ['1,058 ac (428 ha). Land use: industrial 443.8 ac (41.9%), green/parks 362.1 ac (34.2%, high — a TTZ compliance feature), roads 181.1 ac (17.1%), utilities 29.5 ac, amenities 27.3 ac, commercial 10.6 ac, residential 3.9 ac', 'Eastern DFC: 25 km to New Tundla station; proposed NW-110 (Yamuna) waterway terminal ~1 km', 'Yamuna Expressway + NH-19 (Agra–Kolkata) 2 km north; Agra–Lucknow Expressway linkage', 'Agra airport 25 km; Noida International (Jewar) 140 km'],
+        incentives: 'Non-polluting (green-category) units qualify under the UP Industrial Investment & Employment Promotion Policy 2022 (capital subsidy, GST reimbursement, land concessions). Defence/aerospace units at the UPDIC node additionally fall under the UP Defence & Aerospace Manufacturing Policy 2018 — 25% subsidy on plant & machinery (cap ₹25 cr), 100% stamp-duty exemption, interest subsidy.',
         summary: [
-          'IMC Agra is one of the rare Indian industrial sites sitting at a three-way convergence — a national AKIC manufacturing cluster, a node of the UP Defence Industrial Corridor, and India’s largest legacy footwear hub, all in one district. The 1,058-acre IMC (₹1,812 cr build, ₹3,447 cr investment potential, ~69,516 jobs) is CCEA-approved with its Centre–UPSIDA SPV incorporated in January 2025, designed for non-polluting industry on the EDFC freight backbone.',
-          'It is approved but not yet built: land acquisition is under way and site clearance is gated by the Taj Trapezium Zone regime. The honest read is a diversification play layered on a legacy monocluster — footwear plus an engineering/ESDM/e-mobility pivot riding the freight corridor, with defence as a forward option.',
+          'IMC Agra sits at a rare three-way convergence — a national AKIC manufacturing cluster, a node of the UP Defence Industrial Corridor, and India’s largest legacy footwear hub, all in one district. The 1,058-acre IMC (₹1,812 cr build, ₹3,447 cr investment potential, ~69,516 jobs) is developed by the NICDC–UPSIDA SPV, whose State Support and Shareholder Agreements were signed on 8 November 2024, and is designed for non-polluting industry on the Eastern DFC freight backbone.',
+          'It is sanctioned but not yet built: master planning and environmental clearance are done, land is being assembled, and the permissible-industry envelope is gated by the Taj Trapezium Zone. The honest read is a diversification play layered on a legacy monocluster — footwear plus an engineering/ESDM/food pivot riding the freight corridor, with defence as a forward option rather than committed capacity.',
         ],
         sections: [
           { heading: 'A Defence Industrial Corridor node', body: [
-            'Agra is one of the six nodes of the Uttar Pradesh Defence Industrial Corridor (developed by UPEIDA), alongside Kanpur, Jhansi, Lucknow, Aligarh and Chitrakoot. As of September 2025 the Agra node carried ~₹407 cr of investment proposals with ~120 ha acquired — the corridor’s least-developed node, with no allottees publicly named yet.',
-            'The corridor’s marquee defence anchors sit at other nodes — BrahMos Aerospace (Lucknow, BrahMos-NG missiles), Adani Defence (Kanpur, ammunition, ₹1,500 cr), Aerolloy titanium and Amitec electronic-warfare systems. For Agra, the state plan flags a Defence Park, a technical-textiles hub and auto-component/electronics development. Treat Agra’s defence role as optionality, not yet capacity.',
+            'Agra is one of the six nodes of the Uttar Pradesh Defence Industrial Corridor (developed by UPEIDA), alongside Kanpur, Jhansi, Lucknow, Aligarh and Chitrakoot. As of September 2025 the Agra node carried ~₹407 cr of investment proposals, and land allotment at Agra was set to begin shortly as of December 2025 — making it the corridor’s least-developed node, with no allottees publicly named yet.',
+            'The corridor’s marquee defence anchors sit at other nodes, not at Agra: Jhansi (~₹11,276 cr, 17 firms, including BrahMos Aerospace and Bharat Dynamics), Lucknow (~₹4,850 cr, 16 firms, including Tata Advanced Systems and Adani Defence), Kanpur (~₹1,283 cr, including L&T Defence, PTC Industries and MKU) and Aligarh (~₹3,872 cr, including Rolex Rings and Shakti Forgings). Across the corridor UPEIDA reports ~₹33,896 cr of investment (September 2025). For Agra the state plan flags a Defence Park, technical-textiles and electronics development — so treat its defence role as optionality, not yet capacity.',
           ] },
           { heading: 'India’s footwear capital — the demand catchment', body: [
-            'Agra is India’s largest footwear cluster: roughly 65% of domestic footwear demand and ~28% of national footwear exports, ~250 mechanised units plus ~5,000 cottage units, and around 400,000 jobs. The IMC is explicitly designed partly as expansion land for these existing units, and Agra’s Foundry Nagar gives it a metal-casting/light-engineering ancillary base — a ready demand-and-supply ecosystem most greenfield corridor nodes lack.',
+            'Agra is India’s largest footwear cluster — roughly 200 mechanised units (AFMEC) plus ~500 domestic-brand manufacturers (ASMA), a combined capacity near 500,000 pairs a day, and a workforce in the hundreds of thousands across the wider ecosystem. AFMEC’s 100-plus members export about ₹3,000 cr a year and target ₹10,000 cr. Established exporters include Dawar Footwear Industries, Virola International, Gupta HC Overseas, Nuova Shoes and Leiner Shoes.',
+            'None of these firms is an IMC allottee yet — they are the demand-and-supply base the cluster can draw on. The IMC is designed partly as expansion land for them, and Agra’s Foundry Nagar adds a metal-casting and light-engineering base, though many of those foundries were named in the original Taj-pollution case and have had to convert to gas or relocate.',
           ] },
           { heading: 'The Taj Trapezium Zone constraint', body: [
-            'The binding caveat: Supreme Court orders (reaffirmed May 2025) bar tree-felling within a 5 km radius of the Taj Mahal without permission and cap polluting industry across the wider Taj Trapezium Zone. This is precisely why the IMC is positioned for non-polluting sectors, and why Agra’s long-promised leather/tanning park has stalled for over a decade. Any Agra manufacturing plan must be designed around the TTZ from the outset.',
+            'The binding caveat. In March 2026 the Supreme Court disposed of the original 1984 M.C. Mehta petition that had governed the Taj Trapezium Zone, but immediately registered four new suo-motu petitions — a TTZ vision document, tree-planting and green cover, the regulation of industries, and water bodies — and retained a strict regime on tree-felling.',
+            'Polluting industry remains capped across the zone, which is exactly why the IMC is positioned for non-polluting (green-category) sectors and why ~34% of its land is reserved as green cover for compliance. The live “regulation of industries” case means the permissible-industry list can still move, so any Agra manufacturing plan must be designed around the TTZ from the outset.',
+          ] },
+          { heading: 'Risks & open questions', body: [
+            'No anchor tenants yet: as of mid-2026 no private company has a confirmed land allotment at IMC Agra or the UPDIC Agra node. Agra attracted ~78 investment MoUs worth ~₹13,543 cr at the 2023 UP Global Investors Summit, but those are statements of intent, not committed allotments.',
+            'Land and water: the share of the 1,058 acres physically transferred to the SPV is not yet public, and Agra’s depleting water table means the cluster will lean on treated-sewage/STP water — the supply arrangement is not yet detailed. A mild cost discrepancy also persists (₹1,812 cr full development cost per NICDC versus a ₹1,046 cr core-infrastructure figure reported elsewhere).',
           ] },
         ],
         timeline: [
           { date: '2023', label: 'Environmental clearance' },
-          { date: 'Aug 2024', label: 'CCEA approval (one of 12 new IMCs)' },
-          { date: 'Jan 2025', label: 'Agra–Prayagraj SPV incorporated' },
-          { date: 'May 2025', label: 'Supreme Court reaffirms TTZ tree-felling regime' },
-          { date: '2026–29', label: 'IIG project window (build to ~Apr 2029)' },
+          { date: 'Aug 2024', label: 'CCEA approval (one of the 12 new IMCs)' },
+          { date: 'Nov 2024', label: 'State Support & Shareholder Agreements signed (NICDC–UPSIDA SPV)' },
+          { date: '2025', label: 'Master planning complete; UPDIC Agra-node allotment to begin' },
+          { date: 'Mar 2026', label: 'Supreme Court disposes M.C. Mehta TTZ petition; 4 suo-motu cases registered' },
+          { date: '2026–29', label: 'Build window (~36 months from construction start)' },
         ],
         sources: [
           { label: 'NICDC — IMC Agra', url: 'https://nicdc.in/projects/12-new-projects/imc-agra-uttar-pradesh' },
-          { label: 'India Investment Grid — IMC Agra (#707418)', url: 'https://indiainvestmentgrid.gov.in/opportunities/nip-project/707418' },
+          { label: 'PIB — NICDC–UPSIDA partner for Agra & Prayagraj clusters (8 Nov 2024)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2071860' },
           { label: 'Invest UP — UP Defence Industrial Corridor (23 Sep 2025)', url: 'https://invest.up.gov.in/wp-content/uploads/2025/10/3-Eng-PressRelease_UPDIC_23Sep_2025_041025.pdf' },
+          { label: 'Supreme Court Observer — Taj Trapezium PIL reorganised (11 Mar 2026)', url: 'https://www.scobserver.in/supreme-court-observer-law-reports-scolr/taj-trapezium-pil-reorganised/' },
+          { label: 'CSE — Agra footwear production capacity', url: 'https://www.cseindia.org/content/downloadreports/12354' },
           { label: 'AFMEC — Agra footwear industry overview', url: 'https://www.afmec.org/industry-overview' },
         ],
       },
@@ -913,27 +922,3 @@ export const nodeBySlugs = (slug: string, node: string): DeepNode | undefined =>
   corridorDeep[slug]?.nodes.find((n) => n.slug === node);
 export const allCorridorNodePairs = (): { corridor: string; node: string }[] =>
   Object.values(corridorDeep).flatMap((c) => c.nodes.map((n) => ({ corridor: c.slug, node: n.slug })));
-
-// The NICDC "12 New Projects" — the 12 Integrated Manufacturing Clusters grouped under
-// nicdc.in/projects/12-new-projects (CCEA approved 11 on 28 Aug 2024 for Rs 28,602 cr;
-// NICDC files Hisar alongside them as the 12th). Each maps to the corridor it sits on.
-export const NEW_IMCS: { node: string; corridor: string }[] = [
-  { node: 'khurpia', corridor: 'amritsar-kolkata' },
-  { node: 'rajpura-patiala', corridor: 'amritsar-kolkata' },
-  { node: 'hisar', corridor: 'amritsar-kolkata' },
-  { node: 'agra', corridor: 'amritsar-kolkata' },
-  { node: 'prayagraj', corridor: 'amritsar-kolkata' },
-  { node: 'gaya', corridor: 'amritsar-kolkata' },
-  { node: 'dighi-port', corridor: 'delhi-mumbai' },
-  { node: 'jodhpur-pali-marwar', corridor: 'delhi-mumbai' },
-  { node: 'kopparthy', corridor: 'vizag-chennai' },
-  { node: 'orvakal', corridor: 'hyderabad-bengaluru' },
-  { node: 'zaheerabad', corridor: 'hyderabad-nagpur' },
-  { node: 'palakkad', corridor: 'cbic-kochi-extension' },
-];
-
-export interface NewImc { node: DeepNode; corridor: string }
-export const newImcNodes = (): NewImc[] =>
-  NEW_IMCS
-    .map((x) => ({ node: nodeBySlugs(x.corridor, x.node), corridor: x.corridor }))
-    .filter((x): x is NewImc => Boolean(x.node));
