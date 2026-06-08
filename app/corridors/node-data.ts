@@ -922,3 +922,27 @@ export const nodeBySlugs = (slug: string, node: string): DeepNode | undefined =>
   corridorDeep[slug]?.nodes.find((n) => n.slug === node);
 export const allCorridorNodePairs = (): { corridor: string; node: string }[] =>
   Object.values(corridorDeep).flatMap((c) => c.nodes.map((n) => ({ corridor: c.slug, node: n.slug })));
+
+// The NICDC "12 New Projects" — the 12 Integrated Manufacturing Clusters grouped under
+// nicdc.in/projects/12-new-projects (CCEA approved 11 on 28 Aug 2024 for Rs 28,602 cr;
+// NICDC files Hisar alongside them as the 12th). Each maps to the corridor it sits on.
+export const NEW_IMCS: { node: string; corridor: string }[] = [
+  { node: 'khurpia', corridor: 'amritsar-kolkata' },
+  { node: 'rajpura-patiala', corridor: 'amritsar-kolkata' },
+  { node: 'hisar', corridor: 'amritsar-kolkata' },
+  { node: 'agra', corridor: 'amritsar-kolkata' },
+  { node: 'prayagraj', corridor: 'amritsar-kolkata' },
+  { node: 'gaya', corridor: 'amritsar-kolkata' },
+  { node: 'dighi-port', corridor: 'delhi-mumbai' },
+  { node: 'jodhpur-pali-marwar', corridor: 'delhi-mumbai' },
+  { node: 'kopparthy', corridor: 'vizag-chennai' },
+  { node: 'orvakal', corridor: 'hyderabad-bengaluru' },
+  { node: 'zaheerabad', corridor: 'hyderabad-nagpur' },
+  { node: 'palakkad', corridor: 'cbic-kochi-extension' },
+];
+
+export interface NewImc { node: DeepNode; corridor: string }
+export const newImcNodes = (): NewImc[] =>
+  NEW_IMCS
+    .map((x) => ({ node: nodeBySlugs(x.corridor, x.node), corridor: x.corridor }))
+    .filter((x): x is NewImc => Boolean(x.node));
