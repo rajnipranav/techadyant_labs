@@ -61,6 +61,17 @@ export default function CorridorsIndex() {
       </header>
 
       <section className="wrap">
+        <Link href="/corridors/new-imcs" className="imc-banner">
+          <div>
+            <div className="ed-kicker" style={{ color: '#C9A84C' }}>NICDP · August 2024</div>
+            <strong>India’s 12 new Integrated Manufacturing Clusters</strong>
+            <span>The fresh ₹28,602 cr tranche of greenfield smart cities — mapped, scored and linked to each profile.</span>
+          </div>
+          <span className="imc-banner-go">Open the map →</span>
+        </Link>
+      </section>
+
+      <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: '#C9A84C' }}>Readiness ranking</div><h2>The eleven, scored</h2></div></div>
         <p style={{ color: 'var(--text-muted)', fontSize: '14px', maxWidth: '64ch', marginBottom: '16px' }}>
           Each corridor scored 0–100 on maturity, capital momentum, connectivity and opportunity openness — the Techadyant Corridor Readiness Score. Higher means closer to investable today.
