@@ -48,6 +48,42 @@ const synced: Record<string, SyncedMeta> = metaJson as Record<string, SyncedMeta
  *  `npm run sync-meta` after a PDF is added/updated. */
 const baseReports: ReportMeta[] = [
   {
+    slug: 'who-builds-indias-drones',
+    title: 'Who Builds India’s Drones?',
+    subtitle: 'India’s Drone Manufacturing Ecosystem — Strategic Dependencies, Supply-Chain Gaps, and the Opportunity Surfaces Beyond Assembly',
+    domain: 'Defence & Dual-Use',
+    edition: 'Strategic Opportunity · Edition 1 · v1.0',
+    published: '2026-06-09',
+    publishedLabel: 'June 2026',
+    readingTime: '~ 2.5h read',
+    status: 'published',
+    accent: '#2BC5B4',
+    summary:
+      'India has built a drone assembly industry, not a drone manufacturing one — and its own customs data prove it: in FY2025-26 India imported about US$8 million of finished drones but roughly US$767 million of drone and aircraft parts. The 2022 import ban relocated the dependency upstream rather than removing it, into the rare-earth magnets, lithium-ion cells and flight-controller silicon that are 78–90% Chinese. This report maps that dependency layer by layer, scores 100 opportunity surfaces and 50 components on six proprietary frameworks (DLI, DSCDM, DCS, DIRM, DCRI, DOSF), quantifies the value India leaves on the table (≈43% captured today, ≈66% achievable — a reshoring prize of ~US$1.1bn a year by 2030), and sets out a selective-sovereignty path to 2035. Thirteen chapters, sixteen figures, a 100-opportunity registry, a 50-component Drone Sovereignty Index and thirteen reference appendices.',
+    access: 'paid',
+    price: 6999,
+    currency: 'INR',
+    hasPdf: true,
+    pages: 150,
+    cover: '/covers/who-builds-indias-drones.jpg',
+    previewObject: 'reports-free/Who-Builds-Indias-Drones-Free-Edition.pdf',
+    previewPages: 15,
+    dateModified: '2026-06-09',
+    keywords: [
+      'who builds India’s drones', 'India drone manufacturing', 'India drone supply chain',
+      'drone component import dependence', 'rare-earth magnets drones India', 'lithium-ion cells drones',
+      'flight controller silicon India', 'counter-UAS India', 'drone localization India',
+      'Make in India drones', 'drone opportunity India', 'selective sovereignty drones',
+    ],
+    faq: [
+      { q: 'Does India manufacture its own drones?', a: 'Largely no — India assembles drones rather than manufacturing them. In FY2025-26 India imported only about US$8 million of finished drones but roughly US$767 million of drone and aircraft parts, about a hundred times more. The platforms are integrated in India; the components that decide what they can do are imported.' },
+      { q: 'Why did India’s 2022 drone import ban not build a domestic supply chain?', a: 'The 2022 ban prohibited finished foreign drones but left components free to import. It created a protected market for assembly without building the component base beneath it, so the dependency moved upstream — from the finished drone to the magnets, cells and chips inside it — rather than disappearing.' },
+      { q: 'Which drone components does India import from China?', a: 'The critical ones. China supplies about 78% of India’s rare-earth permanent-magnet imports, about 84% of its lithium-ion cell imports, and the bulk of small-drone flight controllers and motors. China’s 2025 rare-earth export controls showed this dependency can be used as leverage.' },
+      { q: 'How much economic value does India capture from its drone industry?', a: 'By a value-weighted model of component localisation, India captures roughly 43% of its drone market’s value today and could reach about two-thirds if the upstream gaps were closed — a reshoring prize of roughly US$1.1 billion a year by 2030, concentrated in propulsion, sensors, electronics and power.' },
+      { q: 'What are the best drone-economy opportunities in India?', a: 'On the report’s Drone Opportunity Surface Framework, four surfaces clear the Build-now bar: autonomy and mission software, counter-unmanned-systems, battery packs and management systems, and test-and-certification infrastructure — each combining real strategic value with capability India already has.' },
+    ],
+  },
+  {
     slug: 'the-opportunity-beyond-the-fab',
     title: 'The Opportunity Beyond the Fab',
     subtitle: 'Startup and MSME Opportunities Emerging from India’s Technology Sovereignty Economy (2026–2035)',

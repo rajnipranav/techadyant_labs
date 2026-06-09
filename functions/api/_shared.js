@@ -7,6 +7,13 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'who-builds-indias-drones': {
+    access: 'paid',
+    priceInr: 6999,
+    object: "who-build-india's drones.pdf",
+    filename: 'Who-Builds-Indias-Drones-Techadyant-Labs.pdf',
+    title: 'Who Builds India’s Drones?',
+  },
   'the-opportunity-beyond-the-fab': {
     access: 'paid',
     priceInr: 6999,
