@@ -226,6 +226,20 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
         </section>
       )}
 
+      {published && meta.faq && meta.faq.length > 0 ? (
+        <section className="wrap-narrow report-faq" aria-labelledby="faq-h">
+          <h2 id="faq-h">Frequently asked questions</h2>
+          <dl className="faq-list">
+            {meta.faq.map((f, i) => (
+              <div className="faq-item" key={i}>
+                <dt>{f.q}</dt>
+                <dd>{f.a}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      ) : null}
+
       <div className="report-cta">
         <div className="report-cta-inner">
           <div>

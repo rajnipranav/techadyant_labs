@@ -50,6 +50,7 @@ const NAV_LINKS = [
   { href: '/corridors', label: 'Corridors' },
   { href: '/signals', label: 'Signals' },
   { href: '/research', label: 'Atlas' },
+  { href: '/insights', label: 'Insights' },
   { href: '/newsletter', label: 'Sanket' },
   { href: '/services', label: 'Services' },
   { href: '/about', label: 'About' },
@@ -169,6 +170,7 @@ gtag('config', 'G-916MZ965VB');`,
                     <li><Link href="/signals">Signals</Link></li>
                     <li><Link href="/newsletter">Sanket</Link></li>
                     <li><Link href="/research">The Atlas</Link></li>
+                    <li><Link href="/insights">Insights</Link></li>
                   </ul>
                 </div>
 
