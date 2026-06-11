@@ -48,6 +48,42 @@ const synced: Record<string, SyncedMeta> = metaJson as Record<string, SyncedMeta
  *  `npm run sync-meta` after a PDF is added/updated. */
 const baseReports: ReportMeta[] = [
   {
+    slug: 'indias-drone-battery-ecosystem',
+    title: 'India’s Drone Battery Ecosystem',
+    subtitle: 'Flight Risk — Securing India’s Drone Battery Ecosystem from Strategic Dependencies to an Industrial Opportunity',
+    domain: 'Defence & Dual-Use',
+    edition: 'Strategic Opportunity · Edition 1 · v1.0',
+    published: '2026-06-11',
+    publishedLabel: 'June 2026',
+    readingTime: '~ 2.5h read',
+    status: 'published',
+    accent: '#2BC5B4',
+    summary:
+      'India is building a world-class drone industry on an imported energy core. Of every ₹100 of value an Indian drone OEM earns, more than ₹50 leaves the country for a concentrated, overwhelmingly Chinese, battery supply chain; India scores just 30/100 on the Drone Battery Sovereignty Index. The report maps the dependency layer by layer, quantifies the ~US$10.8bn opportunity by 2030, and shows why the fastest route to value is the intelligent layer — BMS, analytics, certification and recycling — where capture jumps from ~5% to 35–40% without first solving cell manufacturing. Two proprietary frameworks (the DBSI and the five-level Readiness Model), thirty-plus figures, a ten-chart CXO dashboard, four 2035 scenarios, six appendices and a companion Excel data pack.',
+    access: 'paid',
+    price: 6999,
+    currency: 'INR',
+    hasPdf: true,
+    pages: 145,
+    cover: '/covers/indias-drone-battery-ecosystem.jpg',
+    previewObject: 'reports-free/India-Drone-Battery-Ecosystem-Free-Edition.pdf',
+    previewPages: 14,
+    dateModified: '2026-06-11',
+    keywords: [
+      'India drone batteries', 'drone battery supply chain', 'China battery dependency',
+      'high-C cells drones', 'BMS India', 'battery sovereignty India', 'lithium-ion imports India',
+      'sodium-ion drones', 'battery recycling India', 'drone certification India',
+      'Drone Battery Sovereignty Index', 'India drone battery market',
+    ],
+    faq: [
+      { q: 'How dependent is India on China for drone batteries?', a: 'China controls roughly 78–84% of the lithium-ion cells and permanent magnets India’s drone fleet depends on, by customs value. There is no domestic aviation-grade high-C cell manufacturer and almost no buffer stock, so a single export halt could idle commercial and defence drone lines within weeks.' },
+      { q: 'How big is India’s drone battery market?', a: 'Techadyant Labs estimates the India-addressable drone-battery market at about US$10.8 billion by 2030, across defence, agriculture, logistics and mapping.' },
+      { q: 'How much of a drone battery’s value can India capture?', a: 'About 40%. The cell is roughly 60% of pack cost and ~100% imported, but the enclosure, thermal management, BMS firmware, analytics, integration and certification — the other ~40% — are capturable in India today, and carry the highest margins.' },
+      { q: 'What is the Drone Battery Sovereignty Index?', a: 'A 0–100 index scoring a country across the six battery value-chain layers. India scores 30 — last among major battery nations — but leads at the pack and software layers where margin concentrates.' },
+      { q: 'What should India do first to build battery sovereignty?', a: 'Capture the intelligent layer now — smart BMS, analytics, certification and recycling — which lifts value capture from ~5% to 35–40% without first solving cell manufacturing. Cell and material sovereignty are a parallel, longer-horizon national programme.' },
+    ],
+  },
+  {
     slug: 'who-builds-indias-drones',
     title: 'Who Builds India’s Drones?',
     subtitle: 'India’s Drone Manufacturing Ecosystem — Strategic Dependencies, Supply-Chain Gaps, and the Opportunity Surfaces Beyond Assembly',
