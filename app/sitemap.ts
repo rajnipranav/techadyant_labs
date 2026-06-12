@@ -29,8 +29,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/briefings`, lastModified: now, changeFrequency: 'weekly',  priority: 0.7 },
     { url: `${SITE}/research`,  lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE}/about`,     lastModified: now, changeFrequency: 'yearly',  priority: 0.4 },
-    { url: `${SITE}/insights`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${SITE}/insights/india-drone-battery-ecosystem`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${SITE}/research/dependencies`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE}/research/players`,      lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
     { url: `${SITE}/research/methodology`,  lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
