@@ -1982,3 +1982,51 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .faq-item dt{font-weight:700;font-size:1.05rem;margin:0 0 6px;color:var(--text,#e8e8f0);}
 .faq-item dd{margin:0;color:var(--text-muted,#a8a8bd);line-height:1.6;}
 
+
+/* Reports page — "Why these reports matter" value band */
+.why-reports {
+  margin: 4px 0 44px;
+  padding: 30px 0 8px;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.why-reports .why-head { max-width: 720px; margin-bottom: 26px; }
+.why-reports .why-lede {
+  margin: 10px 0 0;
+  font-size: 17px;
+  line-height: 1.55;
+  color: var(--text);
+}
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px 30px;
+}
+.why-item h3 {
+  margin: 0 0 6px;
+  font-size: 15px;
+  letter-spacing: .01em;
+  color: var(--brass, var(--accent));
+}
+.why-item p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-dim);
+}
+.why-method {
+  margin: 26px 0 6px;
+  padding-top: 18px;
+  border-top: 1px dashed var(--border);
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--text-muted, var(--text-dim));
+  max-width: 760px;
+}
+@media (max-width: 860px) {
+  .why-grid { grid-template-columns: 1fr 1fr; }
+  .why-reports .why-lede { font-size: 16px; }
+}
+@media (max-width: 560px) {
+  .why-grid { grid-template-columns: 1fr; }
+}
