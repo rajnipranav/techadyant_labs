@@ -48,6 +48,42 @@ const synced: Record<string, SyncedMeta> = metaJson as Record<string, SyncedMeta
  *  `npm run sync-meta` after a PDF is added/updated. */
 const baseReports: ReportMeta[] = [
   {
+    slug: 'india-drone-propulsion-opportunity',
+    title: 'India’s Drone Propulsion Opportunity',
+    subtitle: 'How Domestic Manufacturing, Defence Demand and Policy Tailwinds Are Building a $1 Billion Market for Motors, ESCs and Jet Propulsion by 2036',
+    domain: 'Defence & Dual-Use',
+    edition: 'Strategic Opportunity · Edition 1 · v1.0',
+    published: '2026-06-14',
+    publishedLabel: 'June 2026',
+    readingTime: '~ 2h read',
+    status: 'published',
+    accent: '#2BC5B4',
+    summary:
+      'India has localised drone assembly faster than almost any advanced-manufacturing sector — drone-component imports fell from over 80% in 2020 to below 40% by 2025 — but the dependency moved upstream rather than disappearing. This report puts the propulsion stack (motors, ESCs, propellers and the emerging jet/hybrid segment) under the lens: a US$95M market in 2025 growing to US$350M by 2030 at a 29.8% CAGR, where motors and ESCs are now assembled in India while the rare-earth magnets and ESC microcontrollers inside them remain 80–100% imported. It maps the supply chain layer by layer, scores margins and the competitive landscape, models defence demand (15,650+ propulsion units to 2030) and landed costs, and runs a ten-year forecast with three scenarios. Fifteen chapters, 45+ figures and tables, and a companion Excel data pack with a 50+ supplier directory and technical-specifications database.',
+    access: 'paid',
+    price: 4999,
+    currency: 'INR',
+    hasPdf: true,
+    pages: 196,
+    cover: '/covers/india-drone-propulsion-opportunity.jpg',
+    previewObject: 'india-drone-propulsion-opportunity-preview.pdf',
+    previewPages: 14,
+    dateModified: '2026-06-14',
+    keywords: [
+      'India drone propulsion', 'drone motor manufacturing India', 'BLDC drone motors India', 'drone ESC India',
+      'electronic speed controller India', 'drone propulsion market India', 'rare-earth magnet drones India', 'REPM scheme',
+      'drone propeller manufacturing', 'micro turbojet India', 'drone propulsion supply chain', 'Make in India drones',
+      'defence drone procurement India', 'drone propulsion investment',
+    ],
+    faq: [
+      { q: 'How big is India’s drone propulsion market?', a: 'About US$95 million in 2025, modelled to reach roughly US$350 million by 2030 (a 29.8% CAGR) and US$600 million–1.3 billion by 2036 depending on scenario. Motors are the largest segment, ESCs hold the highest margins, and the jet/hybrid segment is the fastest-growing.' },
+      { q: 'Does India manufacture its own drone motors and ESCs?', a: 'It assembles them. Motor and ESC assembly have genuinely localised — Reflex Drive, Vector Technics and Zepco hold a combined ~65% domestic share — but the rare-earth magnets inside motors are roughly 80% Chinese and the microcontrollers and power MOSFETs inside ESCs are effectively 100% imported.' },
+      { q: 'Are Chinese drone components still cheaper than Indian ones?', a: 'No longer. After customs duty, GST, freight and financing, Chinese motors, ESCs and propellers now land in India 5–10% more expensively than comparable domestic parts — a structural price inversion that saves OEMs roughly US$50–100 per propulsion set.' },
+      { q: 'What is the ESC semiconductor bottleneck in India’s drone industry?', a: 'Every Indian ESC relies on imported microcontrollers (predominantly STMicroelectronics and Texas Instruments) and power MOSFETs. A global shortage or export restriction would halt domestic drone production within weeks, and a commercial domestic alternative is three to five years away.' },
+      { q: 'Where are the best drone-propulsion opportunities in India?', a: 'The highest-risk, highest-return surface is fabless ESC semiconductor design; the moderate play is motor-assembly scaling for export; the lowest-risk is composite (CFRP) propeller manufacturing. Defence is the demand engine, with over 15,650 propulsion units projected for induction between 2025 and 2030.' },
+    ],
+  },
+  {
     slug: 'indias-drone-battery-ecosystem',
     title: 'India’s Drone Battery Ecosystem',
     subtitle: 'Flight Risk — Securing India’s Drone Battery Ecosystem from Strategic Dependencies to an Industrial Opportunity',

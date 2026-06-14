@@ -15,6 +15,7 @@ import { ReportContent as SapFlagshipContent, toc as sapFlagshipToc } from '../c
 import { ReportContent as OppContent, toc as oppToc } from '../content/the-opportunity-beyond-the-fab';
 import { ReportContent as DroneContent, toc as droneToc } from '../content/who-builds-indias-drones';
 import { ReportContent as BatteryContent, toc as batteryToc } from '../content/indias-drone-battery-ecosystem';
+import { ReportContent as PropulsionContent, toc as propulsionToc } from '../content/india-drone-propulsion-opportunity';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -27,6 +28,7 @@ const registry: Record<string, ReportModule> = {
   'the-opportunity-beyond-the-fab': { toc: oppToc, Content: OppContent },
   'who-builds-indias-drones': { toc: droneToc, Content: DroneContent },
   'indias-drone-battery-ecosystem': { toc: batteryToc, Content: BatteryContent },
+  'india-drone-propulsion-opportunity': { toc: propulsionToc, Content: PropulsionContent },
 };
 
 export function generateStaticParams() {
