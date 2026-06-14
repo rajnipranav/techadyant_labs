@@ -66,7 +66,7 @@ const baseReports: ReportMeta[] = [
     hasPdf: true,
     pages: 196,
     cover: '/covers/india-drone-propulsion-opportunity.jpg',
-    previewObject: 'india-drone-propulsion-opportunity-preview.pdf',
+    previewObject: 'reports-free/Indias-Drone-Propulsion-Opportunity-Free-Edition.pdf',
     previewPages: 14,
     dateModified: '2026-06-14',
     keywords: [
