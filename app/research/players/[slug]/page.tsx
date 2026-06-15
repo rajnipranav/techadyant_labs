@@ -65,8 +65,8 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/research">Atlas</Link><span className="sep">/</span>
-            <Link href="/research/players">Players</Link><span className="sep">/</span><span>{p.name}</span>
+            <Link href="/research/">Atlas</Link><span className="sep">/</span>
+            <Link href="/research/players/">Players</Link><span className="sep">/</span><span>{p.name}</span>
           </div>
           <h1>{p.name}</h1>
           <div className="player-meta">
@@ -78,7 +78,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
             {corridors.map((code) => {
               const m = meta(code);
               return (
-                <Link key={code} href={`/research/dependencies#${m.slug}`} className="player-corr-chip" style={{ ['--accent' as string]: m.accent }}>
+                <Link key={code} href={`/research/dependencies/#${m.slug}`} className="player-corr-chip" style={{ ['--accent' as string]: m.accent }}>
                   {corridorByCode(code)?.label ?? code}
                 </Link>
               );
@@ -99,7 +99,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
                   <li key={i} className="player-edge">
                     <span className="pe-verb">{verb}</span>
                     {otherP ? (
-                      <Link href={`/research/players/${playerSlug(e.otherId)}`} className="pe-other">{e.other}</Link>
+                      <Link href={`/research/players/${playerSlug(e.otherId)}/`} className="pe-other">{e.other}</Link>
                     ) : <span className="pe-other">{e.other}</span>}
                     {e.rel.description && <span className="pe-desc">— {e.rel.description}</span>}
                   </li>
@@ -112,8 +112,8 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
         )}
 
         <div className="player-foot">
-          <Link href="/research/players" className="see-all">← All players</Link>
-          <Link href="/reports" className="see-all">Related reports →</Link>
+          <Link href="/research/players/" className="see-all">← All players</Link>
+          <Link href="/reports/" className="see-all">Related reports →</Link>
         </div>
       </section>
     </>

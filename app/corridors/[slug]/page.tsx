@@ -80,7 +80,7 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/corridors">Corridors</Link><span className="sep">/</span><span>{label}</span>
+            <Link href="/corridors/">Corridors</Link><span className="sep">/</span><span>{label}</span>
           </div>
           <span className="corr-chip" style={{ color: accent }}>
             {(c.tag ? c.tag + ' · ' : '') + 'Corridor ' + String(c.num).padStart(2, '0')}
@@ -115,7 +115,7 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
             </div>
           </div>
           <p style={{ fontSize: '12.5px', color: 'var(--text-dim)', marginTop: '10px', maxWidth: '64ch' }}>
-            The Techadyant Corridor Readiness Score rates maturity, capital momentum, connectivity and opportunity openness (each 0–25). This corridor ranks <strong style={{ color: 'var(--text-muted)' }}>#{rank} of {totalCorr}</strong>. <Link href="/corridors" style={{ color: accent }}>Compare all corridors →</Link>
+            The Techadyant Corridor Readiness Score rates maturity, capital momentum, connectivity and opportunity openness (each 0–25). This corridor ranks <strong style={{ color: 'var(--text-muted)' }}>#{rank} of {totalCorr}</strong>. <Link href="/corridors/" style={{ color: accent }}>Compare all corridors →</Link>
           </p>
         </section>
       )}
@@ -123,7 +123,7 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
       {/* 2 · Map */}
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>Where it runs</div><h2>On the map</h2></div>
-          <Link href="/corridors" className="see-all">All 11 corridors →</Link></div>
+          <Link href="/corridors/" className="see-all">All 11 corridors →</Link></div>
         {deep ? <CorridorNodeMap slug={c.slug} /> : <img src={`/figures/corridors/${c.slug}.svg`} alt={`Map of the ${c.name} — route, anchor nodes and states traversed`} className="corr-figure" loading="lazy" />}
       </section>
 
@@ -195,7 +195,7 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
         {deep ? (
           <div className="node-cards">
             {deep.nodes.map((n) => (
-              <Link key={n.slug} href={`/corridors/${c.slug}/${n.slug}`} className="node-card node-card-link" style={{ ['--accent' as string]: NSTAGE[n.stage].color }}>
+              <Link key={n.slug} href={`/corridors/${c.slug}/${n.slug}/`} className="node-card node-card-link" style={{ ['--accent' as string]: NSTAGE[n.stage].color }}>
                 <div className="ncl-top">
                   <h3>{n.name}</h3>
                   <span className="node-stage sm" style={{ color: NSTAGE[n.stage].color, borderColor: NSTAGE[n.stage].color }}>{NSTAGE[n.stage].label}</span>
@@ -259,11 +259,11 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
       {/* 6 · Related research */}
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>From the desk</div><h2>Related research</h2></div>
-          <Link href="/reports" className="see-all">All reports →</Link></div>
+          <Link href="/reports/" className="see-all">All reports →</Link></div>
         {rel.length > 0 ? (
           <div className="corr-rel">
             {rel.map((r) => (
-              <Link key={r.slug} href={`/reports/${r.slug}`}>
+              <Link key={r.slug} href={`/reports/${r.slug}/`}>
                 <span className="rk">{r.access === 'free' ? 'Free report' : 'Paid report'}</span>
                 <span className="rt">{r.title}</span>
               </Link>
@@ -291,8 +291,8 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
         <CorridorTrack slug={c.slug} label={`${label} corridor`} />
 
         <nav className="corr-prevnext" style={{ marginTop: 40 }}>
-          <Link href={`/corridors/${prev.slug}`}><span className="pn-k">← Previous</span>{prev.name}</Link>
-          <Link href={`/corridors/${next.slug}`} style={{ textAlign: 'right' }}><span className="pn-k">Next →</span>{next.name}</Link>
+          <Link href={`/corridors/${prev.slug}/`}><span className="pn-k">← Previous</span>{prev.name}</Link>
+          <Link href={`/corridors/${next.slug}/`} style={{ textAlign: 'right' }}><span className="pn-k">Next →</span>{next.name}</Link>
         </nav>
       </section>
     </>

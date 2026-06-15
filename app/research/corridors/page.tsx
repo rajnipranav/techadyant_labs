@@ -27,7 +27,7 @@ export default function CorridorsIndex() {
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/research">Atlas</Link><span className="sep">/</span><span>Corridors</span>
+            <Link href="/research/">Atlas</Link><span className="sep">/</span><span>Corridors</span>
           </div>
           <h1>Industrial Corridors</h1>
           <p className="lede">
@@ -47,7 +47,7 @@ export default function CorridorsIndex() {
             const cells = gridForCorridor(c.id);
             const players = playersForCorridor(c.code).length;
             return (
-              <Link key={c.code} href={`/research/corridors/${m.slug}`} className="atlas-card" style={{ ['--accent' as string]: m.accent }}>
+              <Link key={c.code} href={`/research/corridors/${m.slug}/`} className="atlas-card" style={{ ['--accent' as string]: m.accent }}>
                 <div className="atlas-card-head"><h3>{c.label}</h3><span className="atlas-card-no">{String(c.id).padStart(2, '0')}</span></div>
                 <p className="atlas-card-tag">{m.tagline}</p>
                 <div className="corr-index">

@@ -28,7 +28,7 @@ export default function BriefingsPage() {
       <section className="wrap">
         <div className="briefings rule-top">
           {briefings.map((b) => (
-            <Link key={b.title} href={`/briefings/${b.slug}`} className="briefing" style={{ gridTemplateColumns: '150px 1fr auto', alignItems: 'start', padding: '26px 0' }}>
+            <Link key={b.title} href={`/briefings/${b.slug}/`} className="briefing" style={{ gridTemplateColumns: '150px 1fr auto', alignItems: 'start', padding: '26px 0' }}>
               <span className="briefing-date">{b.date}</span>
               <div>
                 <span className="briefing-title">

@@ -27,7 +27,7 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
         <div className="inner" style={{ maxWidth: 820 }}>
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/signals">Signals</Link><span className="sep">/</span>
+            <Link href="/signals/">Signals</Link><span className="sep">/</span>
             <span>{s.no}</span>
           </div>
           <div className="r-tag">

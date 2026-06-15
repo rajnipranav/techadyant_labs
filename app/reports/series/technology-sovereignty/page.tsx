@@ -24,10 +24,10 @@ export default function SeriesPage() {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: 'The Technology Sovereignty Series — Techadyant Labs',
-    url: 'https://labs.techadyant.com/reports/series/technology-sovereignty',
+    url: 'https://labs.techadyant.com/reports/series/technology-sovereignty/',
     description: metadata.description,
     hasPart: VOLUMES.filter((v) => v.slug && getReport(v.slug)).map((v) => ({
-      '@type': 'Report', name: v.title, url: `https://labs.techadyant.com/reports/${v.slug}`,
+      '@type': 'Report', name: v.title, url: `https://labs.techadyant.com/reports/${v.slug}/`,
     })),
   };
 
@@ -38,7 +38,7 @@ export default function SeriesPage() {
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/reports">Reports</Link><span className="sep">/</span><span>Technology Sovereignty Series</span>
+            <Link href="/reports/">Reports</Link><span className="sep">/</span><span>Technology Sovereignty Series</span>
           </div>
           <h1>The Technology Sovereignty Series</h1>
           <p className="lede">
@@ -74,13 +74,13 @@ export default function SeriesPage() {
               </div>
             );
             return live ? (
-              <Link key={v.title} href={`/reports/${v.slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>{inner}</Link>
+              <Link key={v.title} href={`/reports/${v.slug}/`} style={{ textDecoration: 'none', color: 'inherit' }}>{inner}</Link>
             ) : (
               <div key={v.title}>{inner}</div>
             );
           })}
         </div>
-        <p style={{ marginTop: 40 }}><Link href="/reports" className="btn-ed btn-ed-ghost">← All reports</Link></p>
+        <p style={{ marginTop: 40 }}><Link href="/reports/" className="btn-ed btn-ed-ghost">← All reports</Link></p>
       </section>
     </>
   );

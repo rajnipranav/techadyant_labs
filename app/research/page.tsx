@@ -84,7 +84,7 @@ export default function AtlasOverview() {
             return (
               <Link
                 key={c.code}
-                href={`/research/dependencies#${m.slug}`}
+                href={`/research/dependencies/#${m.slug}`}
                 className="atlas-card"
                 style={{ ['--accent' as string]: m.accent }}
               >
@@ -118,7 +118,7 @@ export default function AtlasOverview() {
             <div className="ed-kicker"><span className="live" /> What’s changed</div>
             <h2>Latest developments</h2>
           </div>
-          <Link href="/signals" className="see-all">All signals →</Link>
+          <Link href="/signals/" className="see-all">All signals →</Link>
         </div>
         <ul className="atlas-feed" role="list">
           {recentEvents(7).map((e) => {
@@ -138,17 +138,17 @@ export default function AtlasOverview() {
 
       <section className="wrap" style={{ background: 'var(--bg-2)' }}>
         <div className="atlas-entrypoints">
-          <Link href="/research/dependencies" className="atlas-entry">
+          <Link href="/research/dependencies/" className="atlas-entry">
             <div className="ae-k">Import Dependency Map</div>
             <p>Where India stands across every value-chain layer, with the rationale and source behind each score.</p>
             <span className="see-all">Open the map →</span>
           </Link>
-          <Link href="/research/players" className="atlas-entry">
+          <Link href="/research/players/" className="atlas-entry">
             <div className="ae-k">Ecosystems &amp; Players</div>
             <p>{atlas.players.length} companies, PSUs, ministries, foreign suppliers and materials — filter by ecosystem, type and origin.</p>
             <span className="see-all">Browse players →</span>
           </Link>
-          <Link href="/research/sources" className="atlas-entry">
+          <Link href="/research/sources/" className="atlas-entry">
             <div className="ae-k">Sources</div>
             <p>India’s industrial-policy record — roadmaps, schemes, Acts and notifications — in one organised, searchable library.</p>
             <span className="see-all">Open the library →</span>

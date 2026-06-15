@@ -81,7 +81,7 @@ function articleJsonLd(meta: ReturnType<typeof getReport>) {
       .slice(0, 6)
       .map((k) => ({ '@type': 'Thing', name: k })),
     image: meta.cover ? `https://labs.techadyant.com${meta.cover}` : undefined,
-    url: `https://labs.techadyant.com/reports/${meta.slug}`,
+    url: `https://labs.techadyant.com/reports/${meta.slug}/`,
     author: {
       '@type': 'Organization',
       name: 'Techadyant Labs',
@@ -99,7 +99,7 @@ function articleJsonLd(meta: ReturnType<typeof getReport>) {
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://labs.techadyant.com/reports/${meta.slug}`,
+      '@id': `https://labs.techadyant.com/reports/${meta.slug}/`,
     },
   };
   return JSON.stringify(data);
@@ -155,7 +155,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           <div>
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/reports">Reports</Link><span className="sep">/</span>
+            <Link href="/reports/">Reports</Link><span className="sep">/</span>
             <span>{meta.domain}</span>
           </div>
           <div className="r-tag">★ {meta.edition}</div>

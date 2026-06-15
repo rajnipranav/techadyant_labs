@@ -25,7 +25,7 @@ export default function NewsletterPage() {
           </p>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 22 }}>
             <Link href="/#subscribe" className="btn-ed btn-ed-primary">Subscribe <span className="arr">→</span></Link>
-            <Link href={`/newsletter/${latest.slug}`} className="btn-ed btn-ed-ghost">Read the latest issue <span className="arr">→</span></Link>
+            <Link href={`/newsletter/${latest.slug}/`} className="btn-ed btn-ed-ghost">Read the latest issue <span className="arr">→</span></Link>
           </div>
         </div>
       </header>
@@ -51,7 +51,7 @@ export default function NewsletterPage() {
             .nl-card-cover::after{ background:linear-gradient(0deg, var(--surface) 2%, transparent 32%); } .nl-card-body{ padding:26px 24px; } }
         `}</style>
         <div className="nl-card">
-          <Link href={`/newsletter/${latest.slug}`} className="nl-card-cover" aria-label={`Read Sanket — ${latest.month}`}>
+          <Link href={`/newsletter/${latest.slug}/`} className="nl-card-cover" aria-label={`Read Sanket — ${latest.month}`}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={latest.cover} alt={`Sanket — ${latest.month}: ${latest.title}`} />
             <span className="nl-card-badge">◆ {latest.no}</span>
@@ -61,7 +61,7 @@ export default function NewsletterPage() {
             <h3 className="serif" style={{ fontSize: 'clamp(22px,2.6vw,30px)', margin: '0 0 14px', lineHeight: 1.25 }}>{latest.title}</h3>
             <p style={{ color: 'var(--text-muted)', lineHeight: 1.65, fontSize: 16, marginBottom: 24 }}>{latest.standfirst}</p>
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-              <Link href={`/newsletter/${latest.slug}`} className="btn-ed btn-ed-primary">Read online <span className="arr">→</span></Link>
+              <Link href={`/newsletter/${latest.slug}/`} className="btn-ed btn-ed-primary">Read online <span className="arr">→</span></Link>
               <a href={latest.pdf} className="btn-ed btn-ed-ghost" download>Download PDF <span className="arr">↓</span></a>
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function NewsletterPage() {
         </div>
         <div className="briefings rule-top">
           {issues.map((i) => (
-            <Link key={i.slug} href={`/newsletter/${i.slug}`} className="briefing" style={{ gridTemplateColumns: '150px 1fr auto', alignItems: 'start', padding: '26px 0' }}>
+            <Link key={i.slug} href={`/newsletter/${i.slug}/`} className="briefing" style={{ gridTemplateColumns: '150px 1fr auto', alignItems: 'start', padding: '26px 0' }}>
               <span className="briefing-date">{i.month}</span>
               <div>
                 <span className="briefing-title">
@@ -102,9 +102,9 @@ export default function NewsletterPage() {
           <div className="pb-body">
             <p style={{ color: 'var(--text-muted)', fontSize: 14.5, lineHeight: 1.65 }}>
               It pairs with our long-form work. Start with a flagship report —{' '}
-              <Link href="/reports">Reports</Link> — track structural change as it surfaces in{' '}
-              <Link href="/signals">Signals</Link>, or commission bespoke research and DPRs via{' '}
-              <Link href="/services">Services</Link>.
+              <Link href="/reports/">Reports</Link> — track structural change as it surfaces in{' '}
+              <Link href="/signals/">Signals</Link>, or commission bespoke research and DPRs via{' '}
+              <Link href="/services/">Services</Link>.
             </p>
           </div>
         </div>

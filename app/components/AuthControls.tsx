@@ -22,7 +22,7 @@ export function AuthControls() {
   const initial = (user.email || '?').charAt(0).toUpperCase();
   return (
     <div className="auth-account">
-      <Link href="/account" className="auth-avatar" aria-label="Your account" title={user.email || 'Account'}>
+      <Link href="/account/" className="auth-avatar" aria-label="Your account" title={user.email || 'Account'}>
         {initial}
       </Link>
       <button className="auth-signout" onClick={() => signOut()} title="Sign out">

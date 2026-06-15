@@ -98,8 +98,8 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/corridors">Corridors</Link><span className="sep">/</span>
-            <Link href={`/corridors/${slug}`}>{cor.abbr}</Link><span className="sep">/</span><span>{n.name}</span>
+            <Link href="/corridors/">Corridors</Link><span className="sep">/</span>
+            <Link href={`/corridors/${slug}/`}>{cor.abbr}</Link><span className="sep">/</span><span>{n.name}</span>
           </div>
           <h1>{n.name}</h1>
           <div className="node-head-meta">
@@ -186,9 +186,9 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
         </ul>
 
         <div className="node-foot">
-          {prev ? <Link href={`/corridors/${slug}/${prev.slug}`} className="see-all">← {prev.name.replace(/ IMC.*| \(.*/, '')}</Link> : <span />}
-          <Link href={`/corridors/${slug}`} className="see-all">All {cor.abbr} nodes</Link>
-          {next ? <Link href={`/corridors/${slug}/${next.slug}`} className="see-all">{next.name.replace(/ IMC.*| \(.*/, '')} →</Link> : <span />}
+          {prev ? <Link href={`/corridors/${slug}/${prev.slug}/`} className="see-all">← {prev.name.replace(/ IMC.*| \(.*/, '')}</Link> : <span />}
+          <Link href={`/corridors/${slug}/`} className="see-all">All {cor.abbr} nodes</Link>
+          {next ? <Link href={`/corridors/${slug}/${next.slug}/`} className="see-all">{next.name.replace(/ IMC.*| \(.*/, '')} →</Link> : <span />}
         </div>
       </section>
     </>

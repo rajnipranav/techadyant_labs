@@ -49,7 +49,7 @@ export default function NewImcsPage() {
     name: 'India’s 12 new Integrated Manufacturing Clusters',
     itemListElement: items.map((x, i) => ({
       '@type': 'ListItem', position: i + 1, name: x.node.name,
-      url: `${SITE}/corridors/${x.corridor}/${x.node.slug}`,
+      url: `${SITE}/corridors/${x.corridor}/${x.node.slug}/`,
     })),
   };
 
@@ -75,7 +75,7 @@ export default function NewImcsPage() {
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/corridors">Corridors</Link><span className="sep">/</span><span>12 new IMCs</span>
+            <Link href="/corridors/">Corridors</Link><span className="sep">/</span><span>12 new IMCs</span>
           </div>
           <p className="ed-kicker">National Industrial Corridor Development Programme</p>
           <h1>India’s 12 new Integrated Manufacturing Clusters</h1>
@@ -118,7 +118,7 @@ export default function NewImcsPage() {
             const c = corridorBySlug(corridor);
             const st = STAGE[n.stage];
             return (
-              <Link key={n.slug} href={`/corridors/${corridor}/${n.slug}`} className="imc-card">
+              <Link key={n.slug} href={`/corridors/${corridor}/${n.slug}/`} className="imc-card">
                 <div className="imc-card-top">
                   <span className="imc-stage" style={{ color: st.color, borderColor: st.color }}>{st.label}</span>
                   {c ? <span className="imc-corr">{c.abbr}</span> : null}

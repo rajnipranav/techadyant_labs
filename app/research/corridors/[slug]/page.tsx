@@ -62,8 +62,8 @@ export default async function CorridorProfile({ params }: { params: Promise<{ sl
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/research">Atlas</Link><span className="sep">/</span>
-            <Link href="/research/corridors">Corridors</Link><span className="sep">/</span><span>{c.label}</span>
+            <Link href="/research/">Atlas</Link><span className="sep">/</span>
+            <Link href="/research/corridors/">Corridors</Link><span className="sep">/</span><span>{c.label}</span>
           </div>
           <h1>{c.label}</h1>
           <p className="lede">{m.tagline}</p>
@@ -79,7 +79,7 @@ export default async function CorridorProfile({ params }: { params: Promise<{ sl
       {/* Dependency grid */}
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: m.accent }}>Value chain</div><h2>Where India stands</h2></div>
-          <Link href={`/research/dependencies#${m.slug}`} className="see-all">Full detail →</Link></div>
+          <Link href={`/research/dependencies/#${m.slug}`} className="see-all">Full detail →</Link></div>
         <div className="corr-grid">
           {cells.map((cell) => (
             <div key={cell.layer_id} className="corr-grid-row">
@@ -95,11 +95,11 @@ export default async function CorridorProfile({ params }: { params: Promise<{ sl
       {chokes.length > 0 && (
         <section className="wrap" style={{ background: 'var(--bg-2)' }}>
           <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: m.accent }}>Dependency</div><h2>Chokepoints</h2></div>
-            <Link href={`/research/supply-chains#${m.slug}`} className="see-all">Supply chains →</Link></div>
+            <Link href={`/research/supply-chains/#${m.slug}`} className="see-all">Supply chains →</Link></div>
           <div className="choke-list">
             {chokes.map((ch) => (
               <div key={ch.id} className="choke-row" style={{ ['--accent' as string]: m.accent }}>
-                <Link href={`/research/players/${playerSlug(ch.id)}`} className="choke-node">{ch.name}</Link>
+                <Link href={`/research/players/${playerSlug(ch.id)}/`} className="choke-node">{ch.name}</Link>
                 <span className="choke-count">{ch.inbound} dependents</span>
               </div>
             ))}
@@ -110,10 +110,10 @@ export default async function CorridorProfile({ params }: { params: Promise<{ sl
       {/* Players */}
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: m.accent }}>Ecosystem</div><h2>Key players</h2></div>
-          <Link href="/research/players" className="see-all">All players →</Link></div>
+          <Link href="/research/players/" className="see-all">All players →</Link></div>
         <div className="corr-players">
           {players.slice(0, 18).map((p) => (
-            <Link key={p.id} href={`/research/players/${playerSlug(p.id)}`} className="corr-player" style={{ ['--accent' as string]: m.accent }}>
+            <Link key={p.id} href={`/research/players/${playerSlug(p.id)}/`} className="corr-player" style={{ ['--accent' as string]: m.accent }}>
               <span className="cp-name">{p.name}</span>
               <span className={`ply-flag ${p.country === 'IN' ? 'dom' : 'frn'}`}>{p.country}</span>
             </Link>
@@ -140,7 +140,7 @@ export default async function CorridorProfile({ params }: { params: Promise<{ sl
       {sources.length > 0 && (
         <section className="wrap">
           <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: m.accent }}>Evidence</div><h2>Primary sources</h2></div>
-            <Link href="/research/sources" className="see-all">All sources →</Link></div>
+            <Link href="/research/sources/" className="see-all">All sources →</Link></div>
           <div className="corr-sources">
             {sources.map((src) => {
               const link = bestLink(src);
@@ -159,8 +159,8 @@ export default async function CorridorProfile({ params }: { params: Promise<{ sl
       <section className="wrap-narrow">
         <TrackCorridor code={c.code} label={c.label} accent={m.accent} />
         <div className="player-foot">
-          <Link href="/research/corridors" className="see-all">← All corridors</Link>
-          <Link href="/reports" className="see-all">Related reports →</Link>
+          <Link href="/research/corridors/" className="see-all">← All corridors</Link>
+          <Link href="/reports/" className="see-all">Related reports →</Link>
         </div>
       </section>
     </>

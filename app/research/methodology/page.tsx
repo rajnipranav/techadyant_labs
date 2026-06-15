@@ -37,7 +37,7 @@ export default function MethodologyPage() {
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/research">Atlas</Link><span className="sep">/</span><span>Methodology</span>
+            <Link href="/research/">Atlas</Link><span className="sep">/</span><span>Methodology</span>
           </div>
           <h1>How the Atlas is built</h1>
           <p className="lede">
@@ -85,7 +85,7 @@ export default function MethodologyPage() {
         </p>
         <p>
           The Atlas is free. The full reasoning behind each ecosystem lives in our{' '}
-          <Link href="/reports">long-form reports</Link>.
+          <Link href="/reports/">long-form reports</Link>.
         </p>
       </section>
     </>

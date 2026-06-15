@@ -111,7 +111,7 @@ export function CorridorMap({ focus, navigate = true, field = true }: { focus?: 
     const w = wrapRef.current?.getBoundingClientRect(); if (!w) return;
     setTip({ x: e.clientX - w.left, y: e.clientY - w.top, c });
   }
-  const go = (slug: string) => { if (navigate) router.push(`/corridors/${slug}`); };
+  const go = (slug: string) => { if (navigate) router.push(`/corridors/${slug}/`); };
 
   return (
     <div className="cmap-wrap" ref={wrapRef}>

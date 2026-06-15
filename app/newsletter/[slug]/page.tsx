@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const i = getIssue(slug);
   if (!i) return {};
-  const url = `https://labs.techadyant.com/newsletter/${i.slug}`;
+  const url = `https://labs.techadyant.com/newsletter/${i.slug}/`;
   const img = `https://labs.techadyant.com${i.ogImage}`;
   const title = `Sanket — ${i.month}: ${i.title}`;
   return {
@@ -45,8 +45,8 @@ function issueJsonLd(i: NonNullable<ReturnType<typeof getIssue>>) {
     dateModified: '2026-05-31',
     isAccessibleForFree: true,
     image: [`https://labs.techadyant.com${i.ogImage}`],
-    url: `https://labs.techadyant.com/newsletter/${i.slug}`,
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://labs.techadyant.com/newsletter/${i.slug}` },
+    url: `https://labs.techadyant.com/newsletter/${i.slug}/`,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://labs.techadyant.com/newsletter/${i.slug}/` },
     author: { '@type': 'Organization', name: 'Techadyant Labs', url: 'https://labs.techadyant.com' },
     publisher: {
       '@type': 'Organization', name: 'Techadyant Labs', url: 'https://labs.techadyant.com',
@@ -70,7 +70,7 @@ export default async function IssuePage({ params }: { params: Promise<{ slug: st
         <div className="inner" style={{ maxWidth: 860 }}>
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/newsletter">Sanket</Link><span className="sep">/</span>
+            <Link href="/newsletter/">Sanket</Link><span className="sep">/</span>
             <span>{i.no}</span>
           </div>
           <div className="r-tag">◆ Sanket · {i.no} · {i.month}</div>

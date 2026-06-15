@@ -188,11 +188,11 @@ export function IssueContent() {
         caption="The global AI hardware stack — India’s opportunity zone in the ecosystem." />
 
       <Callout label="Go Deeper" tone={TEAL}>
-        <p style={{ marginTop: 0 }}>The full report behind this month’s thesis publishes 15 June: <Link href="/reports" style={{ color: TEAL }}>The Packaging Frontier</Link>. Related reading from the Labs:</p>
+        <p style={{ marginTop: 0 }}>The full report behind this month’s thesis publishes 15 June: <Link href="/reports/" style={{ color: TEAL }}>The Packaging Frontier</Link>. Related reading from the Labs:</p>
         <ul style={{ margin: 0, paddingLeft: 20, lineHeight: 1.8 }}>
-          <li><Link href="/reports/india-fab-ecosystem" style={{ color: 'var(--primary, #818CF8)' }}>Who Really Benefits from India’s Fab Ecosystem?</Link></li>
-          <li><Link href="/reports/india-ai-industrial-transition-2026-2035" style={{ color: 'var(--primary, #818CF8)' }}>India’s AI Industrial Transition (2026–2035)</Link> — free</li>
-          <li>Commission bespoke research or a DPR → <Link href="/services" style={{ color: 'var(--primary, #818CF8)' }}>labs.techadyant.com/services</Link></li>
+          <li><Link href="/reports/india-fab-ecosystem/" style={{ color: 'var(--primary, #818CF8)' }}>Who Really Benefits from India’s Fab Ecosystem?</Link></li>
+          <li><Link href="/reports/india-ai-industrial-transition-2026-2035/" style={{ color: 'var(--primary, #818CF8)' }}>India’s AI Industrial Transition (2026–2035)</Link> — free</li>
+          <li>Commission bespoke research or a DPR → <Link href="/services/" style={{ color: 'var(--primary, #818CF8)' }}>labs.techadyant.com/services</Link></li>
         </ul>
       </Callout>
     </div>

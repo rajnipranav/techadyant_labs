@@ -29,7 +29,7 @@ export default async function BriefingPage({ params }: { params: Promise<{ slug:
         <div className="inner" style={{ maxWidth: 820 }}>
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/briefings">Briefings</Link><span className="sep">/</span>
+            <Link href="/briefings/">Briefings</Link><span className="sep">/</span>
             <span>{b.tag}</span>
           </div>
           <div className="r-tag">{live ? '◆ Briefing' : '◇ In preparation'}{' · '}{b.tag}</div>

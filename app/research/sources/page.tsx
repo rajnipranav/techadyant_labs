@@ -37,7 +37,7 @@ export default function SourcesPage() {
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/research">Atlas</Link><span className="sep">/</span><span>Sources</span>
+            <Link href="/research/">Atlas</Link><span className="sep">/</span><span>Sources</span>
           </div>
           <h1>Sources</h1>
           <p className="lede">

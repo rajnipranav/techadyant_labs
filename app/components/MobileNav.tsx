@@ -63,7 +63,7 @@ export function MobileNav({ links }: { links: NavLink[] }) {
       >
         <ul role="list">
           <li>
-            <Link href="/search" onClick={() => setOpen(false)}>Search</Link>
+            <Link href="/search/" onClick={() => setOpen(false)}>Search</Link>
           </li>
           {links.map(({ href, label }) => (
             <li key={href}>

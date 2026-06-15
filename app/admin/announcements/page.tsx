@@ -38,7 +38,7 @@ export default function AnnouncementsPage() {
     setD((p) => ({
       ...p, report_slug: slug,
       subject: p.subject || `New report — ${r.title}`,
-      body: p.body || `We've just published **${r.title}**.\n\n${r.subtitle || ''}\n\n${r.summary || ''}\n\nRead it here: [${r.title}](${SITE}/reports/${r.slug}/)\n\n— Techadyant Labs`,
+      body: p.body || `We've just published **${r.title}**.\n\n${r.subtitle || ''}\n\n${r.summary || ''}\n\nRead it here: [${r.title}](${SITE}/reports/${r.slug}/)\n\n— Techadyant Labs/`,
     }));
   }
 

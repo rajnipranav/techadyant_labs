@@ -36,12 +36,12 @@ export default async function ThemeHub({ params }: { params: Promise<{ theme: st
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: `${t.domain} — Techadyant Labs`,
-    url: `https://labs.techadyant.com/reports/theme/${t.slug}`,
+    url: `https://labs.techadyant.com/reports/theme/${t.slug}/`,
     about: t.domain,
     hasPart: published.map((r) => ({
       '@type': 'Report',
       name: r.title,
-      url: `https://labs.techadyant.com/reports/${r.slug}`,
+      url: `https://labs.techadyant.com/reports/${r.slug}/`,
       isAccessibleForFree: r.access === 'free',
     })),
   };
@@ -53,7 +53,7 @@ export default async function ThemeHub({ params }: { params: Promise<{ theme: st
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/reports">Reports</Link><span className="sep">/</span><span>{t.domain}</span>
+            <Link href="/reports/">Reports</Link><span className="sep">/</span><span>{t.domain}</span>
           </div>
           <h1>{t.domain}</h1>
           <p className="lede">
@@ -71,7 +71,7 @@ export default async function ThemeHub({ params }: { params: Promise<{ theme: st
               {published.map((r) => {
                 const free = r.access === 'free';
                 return (
-                  <Link key={r.slug} href={`/reports/${r.slug}`} className="report-card">
+                  <Link key={r.slug} href={`/reports/${r.slug}/`} className="report-card">
                     <div className="rc-cover-top">
                       <ReportCover report={r} variant="card" />
                       <span className={`report-card-badge ${free ? 'badge-free' : 'badge-price'}`}>{free ? 'Free' : formatPrice(r)}</span>
@@ -115,7 +115,7 @@ export default async function ThemeHub({ params }: { params: Promise<{ theme: st
           </>
         )}
 
-        <p style={{ marginTop: 48 }}><Link href="/reports" className="btn-ed btn-ed-ghost">← All reports</Link></p>
+        <p style={{ marginTop: 48 }}><Link href="/reports/" className="btn-ed btn-ed-ghost">← All reports</Link></p>
       </section>
     </>
   );

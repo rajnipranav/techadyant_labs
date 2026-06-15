@@ -82,9 +82,9 @@ export default function ReportsIndex() {
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center', marginBottom: 22, fontSize: 13 }}>
           <span style={{ color: 'var(--text-dim)', textTransform: 'uppercase', letterSpacing: '.08em', fontSize: 11 }}>Browse by theme</span>
           {THEMES.filter((t) => t.count > 0).map((t) => (
-            <Link key={t.slug} href={`/reports/theme/${t.slug}`} style={{ color: 'var(--text-dim)', borderBottom: '1px solid transparent' }}>{t.domain}</Link>
+            <Link key={t.slug} href={`/reports/theme/${t.slug}/`} style={{ color: 'var(--text-dim)', borderBottom: '1px solid transparent' }}>{t.domain}</Link>
           ))}
-          <Link href="/reports/series/technology-sovereignty" style={{ color: 'var(--accent, #C9A84C)', borderBottom: '1px solid transparent' }}>Technology Sovereignty Series →</Link>
+          <Link href="/reports/series/technology-sovereignty/" style={{ color: 'var(--accent, #C9A84C)', borderBottom: '1px solid transparent' }}>Technology Sovereignty Series →</Link>
         </div>
 
         <ReportsBrowser />

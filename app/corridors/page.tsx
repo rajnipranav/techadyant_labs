@@ -18,7 +18,7 @@ export default function CorridorsIndex() {
   const itemList = {
     '@context': 'https://schema.org', '@type': 'ItemList',
     name: 'India’s national industrial corridors',
-    itemListElement: corridors.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, url: `${SITE}/corridors/${c.slug}` })),
+    itemListElement: corridors.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, url: `${SITE}/corridors/${c.slug}/` })),
   };
   return (
     <>
@@ -44,7 +44,7 @@ export default function CorridorsIndex() {
               <ul className="cidx-list">
                 {corridors.map((c) => (
                   <li key={c.slug}>
-                    <Link href={`/corridors/${c.slug}`}>
+                    <Link href={`/corridors/${c.slug}/`}>
                       <span className="n">{c.num}</span>
                       <span className="sw" style={{ background: CLASS_COLOR[c.cls] }} />
                       <span>{shortName(c.name)}</span>
@@ -61,7 +61,7 @@ export default function CorridorsIndex() {
       </header>
 
       <section className="wrap">
-        <Link href="/corridors/new-imcs" className="imc-banner">
+        <Link href="/corridors/new-imcs/" className="imc-banner">
           <div>
             <div className="ed-kicker" style={{ color: '#C9A84C' }}>NICDP · August 2024</div>
             <strong>India’s 12 new Integrated Manufacturing Clusters</strong>
@@ -82,7 +82,7 @@ export default function CorridorsIndex() {
             if (!c) return null;
             return (
               <li key={row.slug}>
-                <Link href={`/corridors/${row.slug}`}>
+                <Link href={`/corridors/${row.slug}/`}>
                   <span className="rk">{i + 1}</span>
                   <span className="nm">{shortName(c.name)}</span>
                   <span className="ci-leadbar"><i style={{ width: `${row.total}%`, background: TIER_COLOR[row.tier] }} /></span>

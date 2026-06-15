@@ -89,7 +89,7 @@ function SearchResults() {
               onSubmit={(e) => {
                 e.preventDefault();
                 const value = (new FormData(e.currentTarget).get('q') as string || '').trim();
-                if (value) router.push(`/search?q=${encodeURIComponent(value)}`);
+                if (value) router.push(`/search/?q=${encodeURIComponent(value)}`);
               }}
             >
               <input
@@ -108,7 +108,7 @@ function SearchResults() {
           <div style={{ marginTop: 28, color: 'var(--text-muted)' }}>Enter a query to search reports, signals, corridors and players.</div>
         ) : total === 0 ? (
           <div style={{ color: 'var(--text-muted)', marginTop: 28 }}>
-            No results for “{query}”. Try simpler terms, or browse <Link href="/reports">reports</Link> and <Link href="/research">the Atlas</Link> directly.
+            No results for “{query}”. Try simpler terms, or browse <Link href="/reports/">reports</Link> and <Link href="/research/">the Atlas</Link> directly.
           </div>
         ) : (
           <div style={{ display: 'flex', flexDirection: 'column', gap: 36, marginTop: 28 }}>

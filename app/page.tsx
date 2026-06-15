@@ -50,10 +50,10 @@ export default function HomePage() {
           </p>
 
           <div className="ed-hero-actions">
-            <Link href={`/reports/${featured.slug}`} className="btn-ed btn-ed-primary">
+            <Link href={`/reports/${featured.slug}/`} className="btn-ed btn-ed-primary">
               Read the featured report <span className="arr">→</span>
             </Link>
-            <Link href="/signals" className="btn-ed btn-ed-ghost">
+            <Link href="/signals/" className="btn-ed btn-ed-ghost">
               Latest signals <span className="arr">→</span>
             </Link>
           </div>
@@ -92,7 +92,7 @@ export default function HomePage() {
           </p>
         </div>
 
-        <Link href={`/reports/${featured.slug}`} className="featured" aria-label={featured.title}>
+        <Link href={`/reports/${featured.slug}/`} className="featured" aria-label={featured.title}>
           <div className="featured-visual">
             <span className="featured-tag">★ Featured</span>
             {featured.cover ? (
@@ -127,14 +127,14 @@ export default function HomePage() {
             <div className="ed-kicker"><span className="live" /> Latest signals</div>
             <h2 id="signals-h">Intelligence dispatches</h2>
           </div>
-          <Link href="/signals" className="see-all">All signals →</Link>
+          <Link href="/signals/" className="see-all">All signals →</Link>
         </div>
 
         <div className="signals-grid">
           {signals.map((s) => (
             <Link
               key={s.slug}
-              href={`/signals/${s.slug}`}
+              href={`/signals/${s.slug}/`}
               className={`signal${s.status === 'placeholder' ? ' signal-placeholder' : ''}`}
             >
               <div className="signal-meta">
@@ -160,7 +160,7 @@ export default function HomePage() {
             <div className="ed-kicker">The Atlas</div>
             <h2 id="atlas-h">India’s industrial systems, mapped</h2>
           </div>
-          <Link href="/research" className="see-all">Open the Atlas →</Link>
+          <Link href="/research/" className="see-all">Open the Atlas →</Link>
         </div>
         <p className="section-note" style={{ maxWidth: '70ch', marginBottom: 24 }}>
           A living, free reference — the players in each ecosystem, what they make, and the
@@ -173,7 +173,7 @@ export default function HomePage() {
             return (
               <Link
                 key={c.code}
-                href={`/research/dependencies#${m.slug}`}
+                href={`/research/dependencies/#${m.slug}`}
                 className="atlas-card"
                 style={{ ['--accent' as string]: m.accent }}
               >
@@ -199,12 +199,12 @@ export default function HomePage() {
             <div className="ed-kicker">Strategic briefings</div>
             <h2 id="brief-h">Executive-ready analysis</h2>
           </div>
-          <Link href="/briefings" className="see-all">All briefings →</Link>
+          <Link href="/briefings/" className="see-all">All briefings →</Link>
         </div>
 
         <div className="briefings">
           {briefings.map((b) => (
-            <Link key={b.title} href={`/briefings/${b.slug}`} className="briefing">
+            <Link key={b.title} href={`/briefings/${b.slug}/`} className="briefing">
               <span className="briefing-date">{b.date}</span>
               <span className="briefing-title">
                 {b.title}
@@ -228,7 +228,7 @@ export default function HomePage() {
             <div className="ed-kicker">About the platform</div>
             <h2 id="about-h">An independent research lab</h2>
           </div>
-          <Link href="/about" className="see-all">Read more →</Link>
+          <Link href="/about/" className="see-all">Read more →</Link>
         </div>
 
         <div className="platform-band">

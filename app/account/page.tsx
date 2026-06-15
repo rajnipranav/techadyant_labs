@@ -82,7 +82,7 @@ export default function AccountPage() {
                 <p className="serif" style={{ marginBottom: 16 }}>
                   You haven’t purchased any reports yet. Browse the catalogue to get started.
                 </p>
-                <Link href="/reports" className="btn-ed btn-ed-ghost">Browse reports <span className="arr">→</span></Link>
+                <Link href="/reports/" className="btn-ed btn-ed-ghost">Browse reports <span className="arr">→</span></Link>
               </div>
             ) : (
               <div className="briefings rule-top">
@@ -90,7 +90,7 @@ export default function AccountPage() {
                   const r = reports.find((x) => x.slug === e.report_slug);
                   return (
                     <div key={e.report_slug} className="briefing" style={{ gridTemplateColumns: '1fr auto', alignItems: 'center' }}>
-                      <Link href={`/reports/${e.report_slug}`} className="briefing-title">{r?.title ?? e.report_slug}</Link>
+                      <Link href={`/reports/${e.report_slug}/`} className="briefing-title">{r?.title ?? e.report_slug}</Link>
                       <button className="see-all" style={{ background: 'none', border: 'none', cursor: 'pointer' }} onClick={() => download(e.report_slug)}>Download PDF ↓</button>
                     </div>
                   );

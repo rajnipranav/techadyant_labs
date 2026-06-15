@@ -49,7 +49,7 @@ export default function SignalsIndex() {
             return s.status === 'placeholder' ? (
               <div key={s.slug} className="signal-row" style={{ opacity: 0.62 }}>{inner}</div>
             ) : (
-              <Link key={s.slug} href={`/signals/${s.slug}`} className="signal-row">{inner}</Link>
+              <Link key={s.slug} href={`/signals/${s.slug}/`} className="signal-row">{inner}</Link>
             );
           })}
         </div>

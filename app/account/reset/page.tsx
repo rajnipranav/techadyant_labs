@@ -36,7 +36,7 @@ export default function ResetPasswordPage() {
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/account">Account</Link><span className="sep">/</span><span>Reset password</span>
+            <Link href="/account/">Account</Link><span className="sep">/</span><span>Reset password</span>
           </div>
           <h1>Set a new password</h1>
           <p className="lede">Choose a new password for your Techadyant Labs account.</p>
@@ -53,7 +53,7 @@ export default function ResetPasswordPage() {
           <div className="exec-summary">
             <div className="es-label">Password updated</div>
             <p className="serif" style={{ marginBottom: 16 }}>Your password has been changed. Redirecting to your account…</p>
-            <Link href="/account" className="btn-ed btn-ed-primary">Go to account <span className="arr">→</span></Link>
+            <Link href="/account/" className="btn-ed btn-ed-primary">Go to account <span className="arr">→</span></Link>
           </div>
         ) : (
           <form onSubmit={submit} className="exec-summary" style={{ maxWidth: 460 }}>

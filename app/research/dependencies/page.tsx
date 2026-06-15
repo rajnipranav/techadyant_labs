@@ -37,7 +37,7 @@ export default function DependenciesPage() {
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/research">Atlas</Link><span className="sep">/</span><span>Import Dependencies</span>
+            <Link href="/research/">Atlas</Link><span className="sep">/</span><span>Import Dependencies</span>
           </div>
           <h1>Import Dependency Map</h1>
           <p className="lede">

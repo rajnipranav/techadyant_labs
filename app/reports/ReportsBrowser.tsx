@@ -30,7 +30,7 @@ function chipStyle(active: boolean): React.CSSProperties {
 function Card({ r }: { r: ReportMeta }) {
   const free = r.access === 'free';
   return (
-    <Link href={`/reports/${r.slug}`} className="report-card">
+    <Link href={`/reports/${r.slug}/`} className="report-card">
       <div className="rc-cover-top">
         <ReportCover report={r} variant="card" />
         <span className={`report-card-badge ${free ? 'badge-free' : 'badge-price'}`}>{free ? 'Free' : formatPrice(r)}</span>

@@ -74,7 +74,7 @@ export function PlayersView({ players, corridors }: { players: Player[]; corrido
 
       <div className="ply-grid">
         {filtered.map((p) => (
-          <Link key={p.id} href={`/research/players/${p.slug}`} className="ply-card">
+          <Link key={p.id} href={`/research/players/${p.slug}/`} className="ply-card">
             <header>
               <h3>{p.name}</h3>
               <span className={`ply-flag ${p.country === 'IN' ? 'dom' : 'frn'}`}>{p.country}</span>

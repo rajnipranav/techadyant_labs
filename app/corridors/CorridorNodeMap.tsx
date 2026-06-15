@@ -20,7 +20,7 @@ export function CorridorNodeMap({ slug }: { slug: string }) {
   const ends = [route[0], route[route.length - 1]];
   const [startLabel, endLabel] = c.name.replace(/ Industrial Corridor.*/, '').replace(/ Economic Corridor.*/, '').split('–');
 
-  const go = (s: string) => router.push(`/corridors/${slug}/${s}`);
+  const go = (s: string) => router.push(`/corridors/${slug}/${s}/`);
   // For each terminus: the node sitting on it (so we don't double-draw), else the nearest node to link to.
   const nodeAt = (p: [number, number]) => {
     const within = nodes.filter((n) => dist(n.coords, p) <= 6);

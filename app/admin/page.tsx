@@ -70,7 +70,7 @@ export default function AdminOverview() {
         </Panel>
       )}
 
-      <Panel title="Entities by corridor" action={<Link className="admin-btn" href="/admin/sid/entities">Open explorer</Link>}>
+      <Panel title="Entities by corridor" action={<Link className="admin-btn" href="/admin/sid/entities/">Open explorer</Link>}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
           {corr.map(([k, v]) => (
             <div key={k} style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
@@ -85,7 +85,7 @@ export default function AdminOverview() {
       </Panel>
 
       {corridors.length > 0 && (
-        <Panel title="Dependency Capture map" action={<Link className="admin-btn" href="/admin/sid/capture">Open map</Link>}>
+        <Panel title="Dependency Capture map" action={<Link className="admin-btn" href="/admin/sid/capture/">Open map</Link>}>
           <div style={{ display: 'grid', gridTemplateColumns: `120px repeat(${layers.length}, 1fr)`, gap: 4 }}>
             <div />
             {layers.map(([ord, label]) => <div key={ord} style={{ fontSize: 10, color: 'var(--admin-muted)', textAlign: 'center' }}>{label}</div>)}

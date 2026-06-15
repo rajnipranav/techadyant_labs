@@ -2242,25 +2242,25 @@ export function ReportContent() {
         <div className="es-label">Related signals — launching with this report</div>
         <ul>
           <li>
-            <a href="/signals/advanced-packaging-binding-constraint">
+            <a href="/signals/advanced-packaging-binding-constraint/">
               Advanced packaging is India’s binding AI constraint
             </a>{' '}
             — links into <a href="#sec-11">Section 11</a>.
           </li>
           <li>
-            <a href="/signals/visakhapatnam-coastal-ai">
+            <a href="/signals/visakhapatnam-coastal-ai/">
               The Visakhapatnam coastal-AI thesis in one chart
             </a>{' '}
             — links into <a href="#sec-25">Section 25</a>.
           </li>
           <li>
-            <a href="/signals/ai-opportunity-surfaces-india">
+            <a href="/signals/ai-opportunity-surfaces-india/">
               Eight opportunity surfaces from India’s AI infrastructure cycle
             </a>{' '}
             — links into <a href="#sec-30a">Section 30A</a>.
           </li>
           <li>
-            <a href="/signals/ai-corridor-competition">
+            <a href="/signals/ai-corridor-competition/">
               The corridor logic: why state competition decides India’s AI geography
             </a>{' '}
             — links into <a href="#sec-18">Part V</a>.

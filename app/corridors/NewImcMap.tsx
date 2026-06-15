@@ -31,8 +31,8 @@ export function NewImcMap() {
                aria-label={`${n.name}, ${n.state} — ${STAGE[n.stage].label}`}
                onMouseEnter={() => setHover(n.slug)} onMouseLeave={() => setHover(null)}
                onFocus={() => setHover(n.slug)} onBlur={() => setHover(null)}
-               onClick={() => router.push(`/corridors/${corridor}/${n.slug}`)}
-               onKeyDown={(e) => { if (e.key === 'Enter') router.push(`/corridors/${corridor}/${n.slug}`); }}>
+               onClick={() => router.push(`/corridors/${corridor}/${n.slug}/`)}
+               onKeyDown={(e) => { if (e.key === 'Enter') router.push(`/corridors/${corridor}/${n.slug}/`); }}>
               {on && <circle cx={x} cy={y} r={10} fill="none" stroke={col} strokeOpacity={0.5} strokeWidth={1.2} />}
               <circle cx={x} cy={y} r={on ? 6.5 : 4.6} fill={col} stroke="#0a0a13" strokeWidth={1} />
               <text x={left ? x - 7 : x + 7} y={y + 3} textAnchor={left ? 'end' : 'start'}

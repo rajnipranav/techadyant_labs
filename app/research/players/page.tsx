@@ -31,7 +31,7 @@ export default function PlayersPage() {
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/research">Atlas</Link><span className="sep">/</span><span>Ecosystems &amp; Players</span>
+            <Link href="/research/">Atlas</Link><span className="sep">/</span><span>Ecosystems &amp; Players</span>
           </div>
           <h1>Ecosystems &amp; Players</h1>
           <p className="lede">

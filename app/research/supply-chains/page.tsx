@@ -23,7 +23,7 @@ export default function SupplyChainsPage() {
         <div className="wrap inner">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
-            <Link href="/research">Atlas</Link><span className="sep">/</span><span>Supply Chains</span>
+            <Link href="/research/">Atlas</Link><span className="sep">/</span><span>Supply Chains</span>
           </div>
           <h1>Supply Chains &amp; Chokepoints</h1>
           <p className="lede">
@@ -49,11 +49,11 @@ export default function SupplyChainsPage() {
             <div className="choke-list">
               {chokes.map((ch) => (
                 <div key={ch.id} className="choke-row" style={{ ['--accent' as string]: m.accent }}>
-                  <Link href={`/research/players/${playerSlug(ch.id)}`} className="choke-node">{ch.name}</Link>
+                  <Link href={`/research/players/${playerSlug(ch.id)}/`} className="choke-node">{ch.name}</Link>
                   <span className="choke-count">{ch.inbound} dependent{ch.inbound > 1 ? 's' : ''}</span>
                   <div className="choke-deps">
                     {ch.players.slice(0, 10).map((d) => (
-                      <Link key={d.id} href={`/research/players/${playerSlug(d.id)}`} className="choke-dep">{d.name}</Link>
+                      <Link key={d.id} href={`/research/players/${playerSlug(d.id)}/`} className="choke-dep">{d.name}</Link>
                     ))}
                     {ch.players.length > 10 && <span className="choke-dep more">+{ch.players.length - 10}</span>}
                   </div>
