@@ -90,7 +90,7 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
           <div className="corr-stats">
             <div><span className="cs-n" style={{ color: accent }}>{c.length.split(' · ')[0]}</span><span className="cs-l">Length</span></div>
             <div><span className="cs-n">{statesCount}</span><span className="cs-l">States</span></div>
-            <div><span className="cs-n">{c.nodes.length}</span><span className="cs-l">Anchor nodes</span></div>
+            <div><span className="cs-n">{(deep?.nodes.length ?? c.nodes.length)}</span><span className="cs-l">Anchor nodes</span></div>
             <div><span className="cs-n" style={{ color: accent, fontSize: '1rem' }}>{CLASS_LABEL[c.cls]}</span><span className="cs-l">Status</span></div>
           </div>
         </div>

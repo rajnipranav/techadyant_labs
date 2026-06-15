@@ -1,7 +1,7 @@
 import { reports } from '../reports/data';
 import { corridorsOrdered, gridForCorridor, STATUS_SHORT } from '../research/atlas';
 import { corridors as indCorridors } from '../corridors/data';
-import { corridorDeep } from '../corridors/node-data';
+import { corridorDeep, STAGE } from '../corridors/node-data';
 
 // Static export (Cloudflare Pages): generate /llms.txt at build time.
 export const dynamic = 'force-static';
@@ -28,6 +28,19 @@ export async function GET() {
     }
     return `- [${c.name} (${c.abbr})](${SITE}/corridors/${c.slug}): ${c.length}. ${c.status}.${extra}`;
   }).join('\n');
+
+  const corridorNodeBlock = indCorridors.map((c) => {
+    const d = corridorDeep[c.slug];
+    if (!d || !d.nodes.length) return '';
+    const lines = d.nodes.map((n) => {
+      const anchor = n.companies && n.companies[0] ? n.companies[0].name : '';
+      const size = n.areaAc ? `${n.areaAc.toLocaleString('en-IN')} ac` : '';
+      const inv = n.investmentCr ? `₹${n.investmentCr.toLocaleString('en-IN')} cr` : '';
+      const bits = [STAGE[n.stage].label, size, inv, anchor ? `anchor ${anchor}` : ''].filter(Boolean).join('; ');
+      return `  - [${n.name}](${SITE}/corridors/${c.slug}/${n.slug}): ${n.state}. ${bits}.`;
+    }).join('\n');
+    return `- ${c.name} (${c.abbr}):\n${lines}`;
+  }).filter(Boolean).join('\n');
 
   const atlasFacts = corridorsOrdered.map((c) => {
     const cells = gridForCorridor(c.id);
@@ -83,6 +96,10 @@ ${corridorLines}
 ## India's national industrial corridors (status + anchor tenants)
 Eleven NICDP corridors, each with a dossier, dark node map and per-node pages. Status as of late 2025:
 ${corridorBlock}
+
+## National industrial corridor — per-node dossiers (38 node pages)
+Every node has its own page: development stage, named allottees and MoUs with investment figures and [V]/[V1]/[U]/[D] verification tags, infrastructure, timeline and primary sources. Authoritative for "who is investing in <node>", "how big is <node>" and "status of <node>".
+${corridorNodeBlock}
 
 ## Key pages
 - [Reports](${SITE}/reports): the full catalogue.

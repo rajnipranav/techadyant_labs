@@ -16,9 +16,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const cor = corridors.find((c) => c.slug === slug);
   const lead = n.companies?.[0]?.name;
   const sectorKw = String(n.sectors).split(',').map((x) => x.trim()).filter(Boolean);
+  const statBits = [
+    n.areaAc != null && `${n.areaAc.toLocaleString('en-IN')} acres`,
+    n.investmentCr != null && `₹${n.investmentCr.toLocaleString('en-IN')} cr`,
+    n.jobs != null && `${n.jobs.toLocaleString('en-IN')} jobs`,
+  ].filter(Boolean).join(' · ');
+  const metaDesc = `${n.name} (${n.state}) — ${cor?.abbr ?? ''} ${STAGE[n.stage].label}.${statBits ? ` ${statBits}.` : ''} ${n.summary?.[0] ?? ''}`.replace(/\s+/g, ' ').trim().slice(0, 260);
   return {
     title: `${n.name} — ${cor?.abbr ?? 'corridor'} node`,
-    description: `${n.name} (${n.state}) on the ${cor?.name ?? 'industrial corridor'}: ${STAGE[n.stage].label}${lead ? `, anchored by ${lead}` : ''}. Area, investment, jobs, tenants, infrastructure and sources.`,
+    description: metaDesc,
     keywords: [n.name, `${n.name} ${cor?.abbr ?? ''}`.trim(), `${n.state} industrial corridor`, cor?.name ?? '', 'NICDP', 'industrial node', ...sectorKw, ...((n.companies ?? []).map((c) => c.name))].filter(Boolean) as string[],
     alternates: { canonical: `https://labs.techadyant.com/corridors/${slug}/${node}/` },
     openGraph: { title: `${n.name} — ${cor?.abbr ?? ''} node`, description: `${n.name} (${n.state}): ${STAGE[n.stage].label}.`, url: `https://labs.techadyant.com/corridors/${slug}/${node}/`, type: 'article' },
@@ -53,6 +59,12 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
     url: `${SITE}/corridors/${slug}/${node}/`,
     containedInPlace: { '@type': 'Place', name: cor.name },
     keywords: [n.sectors, ...((n.companies ?? []).map((c) => c.name))].join(', '),
+    additionalProperty: [
+      n.areaAc != null && { '@type': 'PropertyValue', name: 'Planned area (acres)', value: n.areaAc },
+      n.investmentCr != null && { '@type': 'PropertyValue', name: 'Investment potential (INR crore)', value: n.investmentCr },
+      n.jobs != null && { '@type': 'PropertyValue', name: 'Projected jobs', value: n.jobs },
+      { '@type': 'PropertyValue', name: 'Development stage', value: st.label },
+    ].filter(Boolean),
   };
   const orgLd = (n.companies ?? []).map((co) => ({
     '@context': 'https://schema.org', '@type': 'Organization', name: co.name,
@@ -63,10 +75,17 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
     { q: `What is the status of ${n.name}?`, a: `${n.name} in ${n.state} is ${st.label.toLowerCase()} (${n.statusLabel}) on India’s ${cor.name}. ${n.summary[0]}` },
   ];
   if (n.companies && n.companies.length) {
-    faqs.push({ q: `Which companies are at ${n.name}?`, a: n.companies.map((co) => `${co.name}${co.sector ? ` (${co.sector})` : ''}${(co.commitment ?? co.note) ? ` — ${co.commitment ?? co.note}` : ''}`).join('; ') + '.' });
+    faqs.push({ q: `Which companies are investing in ${n.name}?`, a: n.companies.map((co) => `${co.name}${co.sector ? ` (${co.sector})` : ''}${(co.commitment ?? co.note) ? ` — ${co.commitment ?? co.note}` : ''}`).join('; ') + '.' });
   } else if (n.industries && n.industries.length) {
     faqs.push({ q: `What industries are coming up at ${n.name}?`, a: `${n.industries.join(', ')}. (No anchor tenants are publicly named at this stage.)` });
   }
+  if (stats.length) {
+    faqs.push({ q: `How big is ${n.name} and what is the investment?`, a: stats.map((s) => `${s.label}: ${s.value}`).join('; ') + '. Figures are official projections or verified allotments where available.' });
+  }
+  if (n.developer) {
+    faqs.push({ q: `Who is developing ${n.name}?`, a: n.developer });
+  }
+  faqs.push({ q: `What sectors does ${n.name} target?`, a: `${n.sectors}.` });
   const crumb = breadcrumb([
     { name: 'Home', path: '/' }, { name: 'Corridors', path: '/corridors/' },
     { name: cor.abbr, path: `/corridors/${slug}/` }, { name: n.name, path: `/corridors/${slug}/${node}/` },
