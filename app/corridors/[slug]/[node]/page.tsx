@@ -14,10 +14,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const n = nodeBySlugs(slug, node);
   if (!n) return { title: 'Node' };
   const cor = corridors.find((c) => c.slug === slug);
+  const lead = n.companies?.[0]?.name;
+  const sectorKw = String(n.sectors).split(',').map((x) => x.trim()).filter(Boolean);
   return {
     title: `${n.name} — ${cor?.abbr ?? 'corridor'} node`,
-    description: `${n.name} (${n.state}): ${STAGE[n.stage].label}. ${n.summary[0]?.slice(0, 150) ?? ''}`,
+    description: `${n.name} (${n.state}) on the ${cor?.name ?? 'industrial corridor'}: ${STAGE[n.stage].label}${lead ? `, anchored by ${lead}` : ''}. Area, investment, jobs, tenants, infrastructure and sources.`,
+    keywords: [n.name, `${n.name} ${cor?.abbr ?? ''}`.trim(), `${n.state} industrial corridor`, cor?.name ?? '', 'NICDP', 'industrial node', ...sectorKw, ...((n.companies ?? []).map((c) => c.name))].filter(Boolean) as string[],
     alternates: { canonical: `https://labs.techadyant.com/corridors/${slug}/${node}/` },
+    openGraph: { title: `${n.name} — ${cor?.abbr ?? ''} node`, description: `${n.name} (${n.state}): ${STAGE[n.stage].label}.`, url: `https://labs.techadyant.com/corridors/${slug}/${node}/`, type: 'article' },
   };
 }
 
@@ -48,12 +52,18 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
     description: n.summary[0],
     url: `${SITE}/corridors/${slug}/${node}/`,
     containedInPlace: { '@type': 'Place', name: cor.name },
+    keywords: [n.sectors, ...((n.companies ?? []).map((c) => c.name))].join(', '),
   };
+  const orgLd = (n.companies ?? []).map((co) => ({
+    '@context': 'https://schema.org', '@type': 'Organization', name: co.name,
+    ...(co.sector ? { description: co.sector } : {}),
+    location: { '@type': 'Place', name: n.name, address: { '@type': 'PostalAddress', addressRegion: n.state, addressCountry: 'IN' }, containedInPlace: { '@type': 'Place', name: cor.name } },
+  }));
   const faqs: { q: string; a: string }[] = [
     { q: `What is the status of ${n.name}?`, a: `${n.name} in ${n.state} is ${st.label.toLowerCase()} (${n.statusLabel}) on India’s ${cor.name}. ${n.summary[0]}` },
   ];
   if (n.companies && n.companies.length) {
-    faqs.push({ q: `Which companies are at ${n.name}?`, a: n.companies.map((co) => `${co.name}${co.sector ? ` (${co.sector})` : ''}${co.commitment ? ` — ${co.commitment}` : ''}`).join('; ') + '.' });
+    faqs.push({ q: `Which companies are at ${n.name}?`, a: n.companies.map((co) => `${co.name}${co.sector ? ` (${co.sector})` : ''}${(co.commitment ?? co.note) ? ` — ${co.commitment ?? co.note}` : ''}`).join('; ') + '.' });
   } else if (n.industries && n.industries.length) {
     faqs.push({ q: `What industries are coming up at ${n.name}?`, a: `${n.industries.join(', ')}. (No anchor tenants are publicly named at this stage.)` });
   }
@@ -64,7 +74,7 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
 
   return (
     <>
-      <JsonLd data={[crumb, placeLd, faqLd(faqs)]} />
+      <JsonLd data={[crumb, placeLd, faqLd(faqs), ...orgLd]} />
       <header className="ed-page-head" style={{ ['--accent' as string]: accent }}>
         <div className="wrap inner">
           <div className="ed-breadcrumb">
