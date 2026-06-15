@@ -11,13 +11,15 @@ export function generateStaticParams() {
   return allPlayers.map((p) => ({ slug: playerSlug(p.id) }));
 }
 
+const clampDesc = (s: string, n = 158): string => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const p = playerBySlug(slug);
   if (!p) return { title: 'Player' };
   return {
     title: `${p.name} — ${p.type}`,
-    description: p.description || `${p.name} in India’s industrial systems.`,
+    description: clampDesc((p.description && p.description.length >= 110) ? p.description : `${p.name} — ${p.type} in India’s industrial systems: its role, corridor links and key relationships.${p.description ? ' ' + p.description : ''}`),
     alternates: { canonical: `${SITE}/research/players/${slug}/` },
   };
 }

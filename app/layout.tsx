@@ -39,20 +39,29 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName: 'Techadyant Labs',
+    url: 'https://labs.techadyant.com',
     title: 'Techadyant Labs — Strategic intelligence on India’s industrial systems',
     description:
       'Independent strategic intelligence on India’s industrial transformation, infrastructure systems and emerging technologies.',
+    images: [{ url: '/og/default.png', width: 1200, height: 630, alt: 'Techadyant Labs — strategic intelligence on India’s industrial systems' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Techadyant Labs — Strategic intelligence on India’s industrial systems',
+    description:
+      'Independent strategic intelligence on India’s industrial transformation, infrastructure systems and emerging technologies.',
+    images: ['/og/default.png'],
   },
 };
 
 const NAV_LINKS = [
-  { href: '/reports', label: 'Reports' },
-  { href: '/corridors', label: 'Corridors' },
-  { href: '/signals', label: 'Signals' },
-  { href: '/research', label: 'Atlas' },
-  { href: '/newsletter', label: 'Sanket' },
-  { href: '/services', label: 'Services' },
-  { href: '/about', label: 'About' },
+  { href: '/reports/', label: 'Reports' },
+  { href: '/corridors/', label: 'Corridors' },
+  { href: '/signals/', label: 'Signals' },
+  { href: '/research/', label: 'Atlas' },
+  { href: '/newsletter/', label: 'Sanket' },
+  { href: '/services/', label: 'Services' },
+  { href: '/about/', label: 'About' },
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -164,30 +173,30 @@ gtag('config', 'G-916MZ965VB');`,
                 <div>
                   <h4>Publication</h4>
                   <ul role="list">
-                    <li><Link href="/reports">Reports</Link></li>
-                    <li><Link href="/corridors">Corridors</Link></li>
-                    <li><Link href="/signals">Signals</Link></li>
-                    <li><Link href="/newsletter">Sanket</Link></li>
-                    <li><Link href="/research">The Atlas</Link></li>
+                    <li><Link href="/reports/">Reports</Link></li>
+                    <li><Link href="/corridors/">Corridors</Link></li>
+                    <li><Link href="/signals/">Signals</Link></li>
+                    <li><Link href="/newsletter/">Sanket</Link></li>
+                    <li><Link href="/research/">The Atlas</Link></li>
                   </ul>
                 </div>
 
                 <div>
                   <h4>Ecosystems</h4>
                   <ul role="list">
-                    <li><Link href="/research/dependencies#semiconductors">Semiconductors</Link></li>
-                    <li><Link href="/research/dependencies#critical-minerals">Critical minerals</Link></li>
-                    <li><Link href="/research/dependencies#ai-infrastructure">AI infrastructure</Link></li>
-                    <li><Link href="/research/dependencies#enterprise-software">Enterprise software</Link></li>
+                    <li><Link href="/research/dependencies/#semiconductors">Semiconductors</Link></li>
+                    <li><Link href="/research/dependencies/#critical-minerals">Critical minerals</Link></li>
+                    <li><Link href="/research/dependencies/#ai-infrastructure">AI infrastructure</Link></li>
+                    <li><Link href="/research/dependencies/#enterprise-software">Enterprise software</Link></li>
                   </ul>
                 </div>
 
                 <div>
                   <h4>Platform</h4>
                   <ul role="list">
-                    <li><Link href="/about">About the platform</Link></li>
-                    <li><Link href="/services">Commission research</Link></li>
-                    <li><Link href="/account">Account</Link></li>
+                    <li><Link href="/about/">About the platform</Link></li>
+                    <li><Link href="/services/">Commission research</Link></li>
+                    <li><Link href="/account/">Account</Link></li>
                     <li><Link href="/#subscribe">Subscribe</Link></li>
                     <li><a href="https://techadyant.com">Techadyant — main site</a></li>
                     <li><a href="mailto:labs@techadyant.com">labs@techadyant.com</a></li>

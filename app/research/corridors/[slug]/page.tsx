@@ -16,13 +16,15 @@ export function generateStaticParams() {
 
 const bySlug = (slug: string) => corridorsOrdered.find((c) => meta(c.code).slug === slug);
 
+const clampDesc = (s: string, n = 158): string => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const c = bySlug(slug);
   if (!c) return { title: 'Corridor' };
   return {
     title: `${c.label} — ecosystem profile`,
-    description: `India’s ${c.label} ecosystem: import dependency, key players, chokepoints and developments. ${meta(c.code).tagline}`,
+    description: clampDesc(`India’s ${c.label} ecosystem: import dependency, key players, chokepoints and developments. ${meta(c.code).tagline}`),
     alternates: { canonical: `${SITE}/research/corridors/${meta(c.code).slug}/` },
   };
 }

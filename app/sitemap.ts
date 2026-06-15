@@ -23,18 +23,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Stable top-level pages.
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE}/`,          lastModified: now, changeFrequency: 'weekly',  priority: 1.0 },
-    { url: `${SITE}/reports`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.9 },
-    { url: `${SITE}/signals`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
-    { url: `${SITE}/newsletter`,lastModified: now, changeFrequency: 'weekly',  priority: 0.85 },
-    { url: `${SITE}/briefings`, lastModified: now, changeFrequency: 'weekly',  priority: 0.7 },
-    { url: `${SITE}/research`,  lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${SITE}/about`,     lastModified: now, changeFrequency: 'yearly',  priority: 0.4 },
-    { url: `${SITE}/research/dependencies`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${SITE}/research/players`,      lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
-    { url: `${SITE}/research/methodology`,  lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${SITE}/research/supply-chains`, lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
-    { url: `${SITE}/research/corridors`,     lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${SITE}/research/sources`,       lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
+    { url: `${SITE}/reports/`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.9 },
+    { url: `${SITE}/signals/`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
+    { url: `${SITE}/newsletter/`,lastModified: now, changeFrequency: 'weekly',  priority: 0.85 },
+    { url: `${SITE}/briefings/`, lastModified: now, changeFrequency: 'weekly',  priority: 0.7 },
+    { url: `${SITE}/research/`,  lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${SITE}/about/`,     lastModified: now, changeFrequency: 'yearly',  priority: 0.4 },
+    { url: `${SITE}/research/dependencies/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE}/research/players/`,      lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
+    { url: `${SITE}/research/methodology/`,  lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${SITE}/research/supply-chains/`, lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
+    { url: `${SITE}/research/corridors/`,     lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE}/research/sources/`,       lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
   ];
 
   // Published reports (skip forthcoming — they have placeholder pages with
@@ -42,7 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const reportRoutes: MetadataRoute.Sitemap = reports
     .filter((r) => r.status === 'published')
     .map((r) => ({
-      url: `${SITE}/reports/${r.slug}`,
+      url: `${SITE}/reports/${r.slug}/`,
       lastModified: new Date(r.published),
       changeFrequency: 'monthly' as const,
       priority: r.access === 'free' ? 0.95 : 0.85,
@@ -52,7 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const signalRoutes: MetadataRoute.Sitemap = signals
     .filter((s) => s.status !== 'placeholder')
     .map((s) => ({
-      url: `${SITE}/signals/${s.slug}`,
+      url: `${SITE}/signals/${s.slug}/`,
       lastModified: new Date(s.date),
       changeFrequency: 'monthly' as const,
       priority: 0.6,
@@ -64,19 +64,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const themeHubRoutes: MetadataRoute.Sitemap = THEMES
     .filter((t) => t.count > 0)
     .map((t) => ({
-      url: `${SITE}/reports/theme/${t.slug}`,
+      url: `${SITE}/reports/theme/${t.slug}/`,
       lastModified: now,
       changeFrequency: 'monthly' as const,
       priority: 0.65,
     }));
 
   const seriesRoutes: MetadataRoute.Sitemap = [
-    { url: `${SITE}/reports/series/technology-sovereignty`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${SITE}/reports/series/technology-sovereignty/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
   ];
 
   // Strategic Signals issues.
   const issueRoutes: MetadataRoute.Sitemap = issues.map((i) => ({
-    url: `${SITE}/newsletter/${i.slug}`,
+    url: `${SITE}/newsletter/${i.slug}/`,
     lastModified: new Date(i.date),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
@@ -84,21 +84,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Atlas — per-corridor profiles and per-player detail pages (high GEO value).
   const corridorRoutes: MetadataRoute.Sitemap = corridorsOrdered.map((c) => ({
-    url: `${SITE}/research/corridors/${corridorMeta(c.code).slug}`,
+    url: `${SITE}/research/corridors/${corridorMeta(c.code).slug}/`,
     lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7,
   }));
   const playerRoutes: MetadataRoute.Sitemap = allPlayers.map((pl) => ({
-    url: `${SITE}/research/players/${playerSlug(pl.id)}`,
+    url: `${SITE}/research/players/${playerSlug(pl.id)}/`,
     lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5,
   }));
 
   const indCorridorRoutes: MetadataRoute.Sitemap = [
-    { url: `${SITE}/corridors`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 },
-    { url: `${SITE}/corridors/new-imcs`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.75 },
-    ...indCorridors.map((c) => ({ url: `${SITE}/corridors/${c.slug}`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7 })),
+    { url: `${SITE}/corridors/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 },
+    { url: `${SITE}/corridors/new-imcs/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.75 },
+    ...indCorridors.map((c) => ({ url: `${SITE}/corridors/${c.slug}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7 })),
   ];
 
-  const corridorNodeRoutes: MetadataRoute.Sitemap = allCorridorNodePairs().map((p) => ({ url: `${SITE}/corridors/${p.corridor}/${p.node}`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 }));
+  const corridorNodeRoutes: MetadataRoute.Sitemap = allCorridorNodePairs().map((p) => ({ url: `${SITE}/corridors/${p.corridor}/${p.node}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 }));
 
   return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes];
 }

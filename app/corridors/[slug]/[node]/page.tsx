@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     n.investmentCr != null && `₹${n.investmentCr.toLocaleString('en-IN')} cr`,
     n.jobs != null && `${n.jobs.toLocaleString('en-IN')} jobs`,
   ].filter(Boolean).join(' · ');
-  const metaDesc = `${n.name} (${n.state}) — ${cor?.abbr ?? ''} ${STAGE[n.stage].label}.${statBits ? ` ${statBits}.` : ''} ${n.summary?.[0] ?? ''}`.replace(/\s+/g, ' ').trim().slice(0, 260);
+  const metaDesc = `${n.name} (${n.state}) — ${cor?.abbr ?? ''} ${STAGE[n.stage].label}.${statBits ? ` ${statBits}.` : ''} ${n.summary?.[0] ?? ''}`.replace(/\s+/g, ' ').trim().replace(/^(.{0,155}\S)(?:\s[\s\S]*)?$/, '$1');
   return {
     title: `${n.name} — ${cor?.abbr ?? 'corridor'} node`,
     description: metaDesc,
