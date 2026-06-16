@@ -41,7 +41,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const r = getReport(slug);
   if (!r) return {};
-  const ogImage = slug === 'the-sap-question' ? '/og/the-sap-question-flagship.png' : r.cover;
+  const OG_OVERRIDES: Record<string, string> = {
+    'the-sap-question': '/og/the-sap-question-flagship.png',
+    'india-drone-sensors-payloads-imaging-market': '/og/india-drone-sensors-payloads-imaging-market.png',
+  };
+  const ogImage = OG_OVERRIDES[slug] ?? r.cover;
   const url = `https://labs.techadyant.com/reports/${slug}/`;
   return {
     title: r.title,
