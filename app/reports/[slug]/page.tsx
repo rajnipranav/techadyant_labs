@@ -228,8 +228,21 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
         </section>
       )}
 
+      {published && meta.sources && meta.sources.length > 0 ? (
+        <section className="wrap-narrow report-sources" style={{ paddingBottom: 24 }}>
+          <h2 style={{ fontSize: 18, marginBottom: 10 }}>Primary sources</h2>
+          <ul style={{ display: 'flex', flexWrap: 'wrap', gap: 8, paddingLeft: 18 }}>
+            {meta.sources.map((src, idx) => (
+              <li key={idx}>
+                <a href={src} target="_blank" rel="noreferrer" style={{ color: 'var(--link, #6cb0ff)' }}>{src}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
       {published && meta.faq && meta.faq.length > 0 ? (
-        <section className="wrap-narrow report-faq" aria-labelledby="faq-h">
+        <div className="report-faq" aria-labelledby="faq-h">
           <h2 id="faq-h">Frequently asked questions</h2>
           <dl className="faq-list">
             {meta.faq.map((f, i) => (
@@ -239,9 +252,27 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
               </div>
             ))}
           </dl>
-        </section>
+        </div>
       ) : null}
 
+      {published ? (
+        <section className="wrap-narrow" style={{ padding: '0 0 28px' }}>
+          <div
+            style={{
+              borderTop: '1px solid rgba(201,168,76,.18)',
+              paddingTop: 14,
+              fontSize: 12,
+              color: 'var(--text-muted)',
+              lineHeight: 1.55,
+            }}
+          >
+            <strong style={{ color: 'var(--accent, #C9A84C)', marginRight: 8 }}>Evidence labels</strong>
+            <span>
+              [V] verified · [V1] single-source · [U] unverified · [modelled] analytical projection
+            </span>
+          </div>
+        </section>
+      ) : null}
       <div className="report-cta">
         <div className="report-cta-inner">
           <div>

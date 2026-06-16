@@ -295,6 +295,11 @@ const baseReports: ReportMeta[] = [
     accent: '#38e1c4',
     summary:
       'Back-end assembly, test and advanced packaging is where a large share of near-term semiconductor employment and value addition will accrue in India. A structural look at the OSAT layer.',
+    sources: [
+      'https://www.meity.gov.in/content/semiconductor',
+      'https://www.indiaincorner.com/ism/',
+      'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567',
+    ],
     access: 'paid',
     price: 4900,
     currency: 'INR',

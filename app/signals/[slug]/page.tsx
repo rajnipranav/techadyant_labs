@@ -21,8 +21,44 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
   const s = getSignal(slug);
   if (!s) notFound();
 
+  const signalJsonLd = s.status === 'live'
+    ? JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: s.title,
+        description: s.excerpt,
+        inLanguage: 'en-IN',
+        datePublished: s.date,
+        dateModified: s.date,
+        isAccessibleForFree: true,
+        url: `https://labs.techadyant.com/signals/${s.slug}/`,
+        author: {
+          '@type': 'Organization',
+          name: 'Techadyant Labs',
+          url: 'https://labs.techadyant.com',
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Techadyant Labs',
+          url: 'https://labs.techadyant.com',
+          logo: { '@type': 'ImageObject', url: 'https://labs.techadyant.com/logo.png' },
+        },
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': `https://labs.techadyant.com/signals/${s.slug}/`,
+        },
+      })
+    : null;
+
   return (
     <article>
+      {signalJsonLd && (
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: signalJsonLd }}
+        />
+      )}
       <header className="report-hero">
         <div className="inner" style={{ maxWidth: 820 }}>
           <div className="ed-breadcrumb">
@@ -45,12 +81,42 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
       </header>
 
       <div className="wrap-narrow" style={{ paddingTop: 48, paddingBottom: 64 }}>
-        {s.takeaways && s.takeaways.length > 0 && (
+        {s.takeaways && s.takeaways.length > 0 && !(['monitoring','placeholder'].includes(s.status)) && (
           <div className="exec-summary">
             <div className="es-label">Signal in brief</div>
             <ul>
               {s.takeaways.map((t, i) => <li key={i}>{t}</li>)}
             </ul>
+          </div>
+        )}
+
+        {s.status !== 'placeholder' && ((s.takeaways && s.takeaways.length > 0) || (s.sources && s.sources.length > 0)) && (
+          <div style={{
+            border: '1px solid rgba(201,168,76,.25)',
+            background: 'rgba(201,168,76,.06)',
+            color: 'var(--text-body)',
+            padding: '18px 20px',
+            borderRadius: 12,
+            marginBottom: 22,
+            fontSize: 15,
+            lineHeight: 1.55,
+          }}>
+            {s.takeaways && s.takeaways.length > 0 ? (
+              <>
+                <div style={{ textTransform: 'uppercase', letterSpacing: '.12em', fontSize: 11, color: 'var(--accent, #C9A84C)', marginBottom: 8 }}>Key claims</div>
+                <ul style={{ margin: 0, paddingLeft: 18 }}>
+                  {s.takeaways.map((t, i) => <li key={i} style={{ marginBottom: 6 }}>{t}</li>)}
+                </ul>
+              </>
+            ) : null}
+            {s.sources && s.sources.length > 0 ? (
+              <>
+                <div style={{ textTransform: 'uppercase', letterSpacing: '.12em', fontSize: 11, color: 'var(--accent, #C9A84C)', marginTop: 12, marginBottom: 8 }}>Primary sources</div>
+                <ul style={{ margin: 0, paddingLeft: 18 }}>
+                  {s.sources.map((src, i) => <li key={i} style={{ marginBottom: 6 }}><a href={src} target="_blank" rel="noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>{src}</a></li>)}
+                </ul>
+              </>
+            ) : null}
           </div>
         )}
 

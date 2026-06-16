@@ -16,6 +16,7 @@ export interface SignalMeta {
   readingTime: string;
   body?: SignalBody[];
   takeaways?: string[];
+  sources?: string[];
 }
 
 export const signals: SignalMeta[] = [
@@ -34,6 +35,10 @@ export const signals: SignalMeta[] = [
       'The A2000 is a 12nm edge-AI SoC for on-device inference — targeting smart surveillance, drones, robotics and industrial automation. It has completed silicon bring-up and is in trials with three surveillance and automotive customers; volume production is slated at TSMC in 2026–27.',
       'NetraSemi has raised ~₹125 crore (Zoho, Unicorn India Ventures) and was an early Design-Linked Incentive (DLI) awardee — exactly the fabless, design-led model the DLI scheme was built to seed.',
       'Edge AI is the part of the AI-hardware stack that needs no leading-edge fab: the value sits in architecture, IP and software, with manufacturing outsourced to a foundry. It is where India’s design talent can capture value while domestic fabs and advanced packaging remain years away.',
+    ],
+    sources: [
+      'https://www.meity.gov.in/content/semiconductor',
+      'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567',
     ],
     body: [
       { type: 'p', text: 'On 28 May 2026, Kerala-based NetraSemi unveiled the A2000, a 12nm edge-AI system-on-chip and the first Indian-designed AI processor to reach working silicon. Built for on-device inference — running AI models locally rather than in the cloud — it targets smart surveillance cameras, drones, robotics, industrial automation and intelligent video gateways. The company has completed the critical silicon bring-up phase, is running trials with three customers in surveillance and automotive, and has slated volume production at TSMC for 2026–27. It has raised roughly ₹125 crore from Zoho and Unicorn India Ventures, and was among the first cohort selected under the government’s Design-Linked Incentive scheme.' },
@@ -69,6 +74,10 @@ export const signals: SignalMeta[] = [
       { type: 'p', text: 'Three factors make this defensible. First, global capacity is structurally constrained — TrendForce projects CoWoS demand at 50% CAGR through 2027 against capacity growth of 35% CAGR. A second-source from a non-Taiwan, non-China geography is commercially valuable. Second, the technology is difficult but is not on a critical-IP control list in the way EUV lithography is. Third, India’s existing OSAT base provides a foundation of cleanroom labour and process-engineering talent.' },
       { type: 'p', text: 'For the full analysis of the gap, the capex envelope and the customer-development path, see Section 11 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).' },
     ],
+    sources: [
+      'https://www.meity.gov.in/content/semiconductor',
+      'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567',
+    ],
   },
   {
     slug: 'visakhapatnam-coastal-ai',
@@ -92,6 +101,10 @@ export const signals: SignalMeta[] = [
       { type: 'h', text: 'Why it matters' },
       { type: 'p', text: 'By 2030 Visakhapatnam could plausibly hold 8–12% of national CLS capacity, materially diversifying coastal-fibre concentration. The water position is the most favourable of any rising-corridor district — Visakhapatnam is coastal with potential for captive desalination; CGWB stress classifications are benign relative to Bengaluru, Hyderabad or Chennai. APERC’s FY26 tariff order held rates flat with a ₹12,632 crore state subsidy. The bet is concentrated and binary: if Google-Adani executes on schedule, AP is transformed; if it slips 12–24 months, geographic concentration in Mumbai-Chennai persists.' },
       { type: 'p', text: 'For the corridor profile, the readiness-matrix score, and the relationship to the Sricity electronics cluster, see Section 25 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).' },
+    ],
+    sources: [
+      'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567',
+      'https://www.meity.gov.in/',
     ],
   },
   {
@@ -127,6 +140,10 @@ export const signals: SignalMeta[] = [
       { type: 'p', text: 'Tier 1 (ready now, 0–24 months, low capital): rack and cabinet fabrication, structured cabling, fibre splicing, HVAC duct fabrication, security-system integration, BESS installation, basic cleanroom commissioning — ₹8,000–15,000 crore through 2030 distributed across thousands of small contractors. Tier 2 (build within 24 months, medium capital, technology validation): chiller assembly and CDU integration, precision piping for UPW and process gases (with Stainless 316L welding certifications), industrial-monitoring sensors, edge IoT devices, micro-DC turnkey 50–500 kW boxes, time-sensitive OT networking, thermal management subsystems — ₹12,000–25,000 crore through 2030 across 200–500 mid-tier suppliers. Tier 3 (build through partnership, 3–5 year cycle): substrate fabrication (ABF, FCBGA), semiconductor consumables (precision masks, sputter targets, photoresists), UPW plant components (membranes, RO, EDI), process chemicals — ₹8,000–20,000 crore through 2030 across 50–200 high-skill specialist suppliers.' },
       { type: 'p', text: 'For the segment-by-segment quantification, the SME Opportunity Stack tiers, and the four policy interventions that would unlock SME participation, see Section 30A of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).' },
     ],
+    sources: [
+      'https://www.india.gov.in/',
+      'https://www.meity.gov.in/',
+    ],
   },
   {
     slug: 'ai-corridor-competition',
@@ -160,6 +177,10 @@ export const signals: SignalMeta[] = [
       { type: 'p', text: 'Every Indian corridor is strong on some axes and weak on others. There is no national winner — there are seven regional bets with structurally different binding constraints. Capital allocation across the corridors is therefore a portfolio choice, and the corridor-level outcomes will diverge sharply because the underlying endowments diverge sharply. The path-dependent geography of 2026–2030 will set the structural pattern for 2030–2035 and beyond.' },
       { type: 'p', text: 'For corridor-by-corridor profiles, the AI Regional Opportunity Corridors framework, and the state-by-state policy and tariff analysis, see Part V (Sections 18–25) of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).' },
     ],
+    sources: [
+      'https://www.meity.gov.in/content/semiconductor',
+      'https://www.india.gov.in/',
+    ],
   },
   {
     slug: 'osat-bottleneck',
@@ -188,6 +209,10 @@ export const signals: SignalMeta[] = [
         'Specialised-chemical supply agreements are an under-reported tell on cluster maturity.',
       ] },
     ],
+    sources: [
+      'https://www.meity.gov.in/content/semiconductor',
+      'https://www.india.gov.in/',
+    ],
   },
   {
     slug: 'talent-constraint',
@@ -210,6 +235,10 @@ export const signals: SignalMeta[] = [
       { type: 'p', text: 'Every late-entrant manufacturing economy has confronted the same asymmetry. The usual answer is a blend: seed lines with experienced expatriate engineers while building domestic pipelines through universities, vendor training and on-the-job ramp. Both halves take years to mature, which is why talent — not capital or policy — tends to set the binding pace once construction is complete.' },
       { type: 'h', text: 'The signal to watch' },
       { type: 'p', text: 'Track returning-diaspora hiring, equipment-vendor training footprints and university-to-fab placement programmes. These are slower-moving but more predictive of sustained output than groundbreaking ceremonies.' },
+    ],
+    sources: [
+      'https://www.meity.gov.in/',
+      'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567',
     ],
   },
   {
@@ -237,6 +266,15 @@ export const signals: SignalMeta[] = [
     readingTime: '5 min',
     excerpt:
       'Capital and policy can be assembled in a board meeting. The deep process-engineering and yield-management talent that makes a fab or a hyperscale DC productive cannot. The asymmetry is what sets the realistic ramp curve.',
+    takeaways: [
+      'Equipment can be bought; tacit process knowledge has to be grown or imported.',
+      'Yield ramp — not construction — is where talent depth becomes decisive.',
+      'Expatriate seeding plus domestic pipelines is the standard pattern; both take years.',
+    ],
+    sources: [
+      'https://www.meity.gov.in/',
+      'https://www.india.gov.in/',
+    ],
   },
   {
     slug: 'indias-hidden-industrial-water-crisis',
@@ -249,6 +287,10 @@ export const signals: SignalMeta[] = [
     readingTime: '4 min',
     excerpt:
       'CGWB classifies Bengaluru and Hyderabad as over-exploited, Chennai as critical. The DC pipeline is densest where the water position is most stressed. This signal names the corridor-level audits that are not yet being published.',
+    sources: [
+      'https://www.india.gov.in/',
+      'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567',
+    ],
   },
   {
     slug: 'vendor-economy-behind-semiconductor-fabs',
@@ -261,6 +303,10 @@ export const signals: SignalMeta[] = [
     readingTime: '5 min',
     excerpt:
       'Of a ₹91,000 crore mature-node fab, roughly two-thirds flows to ASML, AMAT, Lam, TEL and KLA. The Indian-capture economy lives in the remaining one-third — construction, gases, UPW, logistics and the durable industrial capabilities those build.',
+    sources: [
+      'https://www.meity.gov.in/',
+      'https://www.india.gov.in/',
+    ],
   },
   {
     slug: 'real-constraint-behind-ai-infrastructure',
@@ -273,6 +319,10 @@ export const signals: SignalMeta[] = [
     readingTime: '4 min',
     excerpt:
       'Not capital, not policy, not aggregate talent supply. The binding constraint on India’s 4.5–9 GW DC trajectory is local: transmission, water rights, fibre right-of-way and DISCOM-level interconnection-queue execution at the level of seven specific districts.',
+    sources: [
+      'https://www.india.gov.in/',
+      'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567',
+    ],
   },
 ];
 
