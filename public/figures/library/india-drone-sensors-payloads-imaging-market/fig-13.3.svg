@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="900" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">The First 90 Days, by Stakeholder</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">30-60-90 day action plan across five stakeholder groups in India&#x27;s drone-sensor market</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 13.3 &#183; Techadyant Labs &#183; 2026</text>
+<rect x="370.0" y="156" width="374.6666666666667" height="34" rx="8" fill="#2BC5B4"/>
+<text x="557.3333333333334" y="179" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">30 DAYS</text>
+<rect x="762.6666666666667" y="156" width="374.6666666666667" height="34" rx="8" fill="#C9A84C"/>
+<text x="950.0000000000001" y="179" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">60 DAYS</text>
+<rect x="1155.3333333333335" y="156" width="374.6666666666667" height="34" rx="8" fill="#0F1828"/>
+<text x="1342.6666666666667" y="179" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">90 DAYS</text>
+<text x="70" y="179" font-size="16" fill="#4A5567" text-anchor="start" font-weight="700">Stakeholder</text>
+<rect x="70" y="200" width="288" height="118" rx="10" fill="rgba(15,24,40,0.06)" stroke="rgba(15,24,40,0.12)" stroke-width="1"/>
+<text x="88" y="254.0" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Drone OEMs &amp; payload</text>
+<text x="88" y="280.0" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">integrators</text>
+<rect x="370.0" y="200" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="370.0" y="200" width="6" height="118" rx="3" fill="#2BC5B4"/>
+<text x="392.0" y="245.0" font-size="15.5" fill="#4A5567" text-anchor="start">Audit import dependence; identify top 3</text>
+<text x="392.0" y="269.0" font-size="15.5" fill="#4A5567" text-anchor="start">sensor categories by import value.</text>
+<rect x="762.6666666666667" y="200" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="762.6666666666667" y="200" width="6" height="118" rx="3" fill="#C9A84C"/>
+<text x="784.6666666666667" y="245.0" font-size="15.5" fill="#4A5567" text-anchor="start">Open talks with Eon Space (thermal) and</text>
+<text x="784.6666666666667" y="269.0" font-size="15.5" fill="#4A5567" text-anchor="start">LiDAR integrators.</text>
+<rect x="1155.3333333333335" y="200" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="1155.3333333333335" y="200" width="6" height="118" rx="3" fill="#0F1828"/>
+<text x="1177.3333333333335" y="245.0" font-size="15.5" fill="#4A5567" text-anchor="start">File DGCA Type Certification for at</text>
+<text x="1177.3333333333335" y="269.0" font-size="15.5" fill="#4A5567" text-anchor="start">least one new payload.</text>
+<rect x="70" y="330" width="288" height="118" rx="10" fill="rgba(15,24,40,0.06)" stroke="rgba(15,24,40,0.12)" stroke-width="1"/>
+<text x="88" y="397.0" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Sensor manufacturers</text>
+<rect x="370.0" y="330" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="370.0" y="330" width="6" height="118" rx="3" fill="#2BC5B4"/>
+<text x="392.0" y="363.0" font-size="15.5" fill="#4A5567" text-anchor="start">Define target sensor category &amp; value</text>
+<text x="392.0" y="387.0" font-size="15.5" fill="#4A5567" text-anchor="start">proposition (cost, performance, lead</text>
+<text x="392.0" y="411.0" font-size="15.5" fill="#4A5567" text-anchor="start">time).</text>
+<rect x="762.6666666666667" y="330" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="762.6666666666667" y="330" width="6" height="118" rx="3" fill="#C9A84C"/>
+<text x="784.6666666666667" y="375.0" font-size="15.5" fill="#4A5567" text-anchor="start">Build prototype / complete calibration;</text>
+<text x="784.6666666666667" y="399.0" font-size="15.5" fill="#4A5567" text-anchor="start">file provisional patents.</text>
+<rect x="1155.3333333333335" y="330" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="1155.3333333333335" y="330" width="6" height="118" rx="3" fill="#0F1828"/>
+<text x="1177.3333333333335" y="375.0" font-size="15.5" fill="#4A5567" text-anchor="start">Open partnership talks with 2-3 OEMs;</text>
+<text x="1177.3333333333335" y="399.0" font-size="15.5" fill="#4A5567" text-anchor="start">apply for PLI scheme.</text>
+<rect x="70" y="460" width="288" height="118" rx="10" fill="rgba(15,24,40,0.06)" stroke="rgba(15,24,40,0.12)" stroke-width="1"/>
+<text x="88" y="527.0" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Investors</text>
+<rect x="370.0" y="460" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="370.0" y="460" width="6" height="118" rx="3" fill="#2BC5B4"/>
+<text x="392.0" y="493.0" font-size="15.5" fill="#4A5567" text-anchor="start">Map the sensor-startup landscape;</text>
+<text x="392.0" y="517.0" font-size="15.5" fill="#4A5567" text-anchor="start">prioritise Eon Space, LiDAR, fusion</text>
+<text x="392.0" y="541.0" font-size="15.5" fill="#4A5567" text-anchor="start">software.</text>
+<rect x="762.6666666666667" y="460" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="762.6666666666667" y="460" width="6" height="118" rx="3" fill="#C9A84C"/>
+<text x="784.6666666666667" y="505.0" font-size="15.5" fill="#4A5567" text-anchor="start">Due diligence on 2-3 targets — IP,</text>
+<text x="784.6666666666667" y="529.0" font-size="15.5" fill="#4A5567" text-anchor="start">regulatory pathway, customer traction.</text>
+<rect x="1155.3333333333335" y="460" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="1155.3333333333335" y="460" width="6" height="118" rx="3" fill="#0F1828"/>
+<text x="1177.3333333333335" y="505.0" font-size="15.5" fill="#4A5567" text-anchor="start">Term sheet for 1-2 deals; explore</text>
+<text x="1177.3333333333335" y="529.0" font-size="15.5" fill="#4A5567" text-anchor="start">co-investment with OEM partners.</text>
+<rect x="70" y="590" width="288" height="118" rx="10" fill="rgba(15,24,40,0.06)" stroke="rgba(15,24,40,0.12)" stroke-width="1"/>
+<text x="88" y="644.0" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Government /</text>
+<text x="88" y="670.0" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">policymakers</text>
+<rect x="370.0" y="590" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="370.0" y="590" width="6" height="118" rx="3" fill="#2BC5B4"/>
+<text x="392.0" y="635.0" font-size="15.5" fill="#4A5567" text-anchor="start">Publish standardised payload-interface</text>
+<text x="392.0" y="659.0" font-size="15.5" fill="#4A5567" text-anchor="start">consultation paper.</text>
+<rect x="762.6666666666667" y="590" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="762.6666666666667" y="590" width="6" height="118" rx="3" fill="#C9A84C"/>
+<text x="784.6666666666667" y="635.0" font-size="15.5" fill="#4A5567" text-anchor="start">Announce PLI extension for sensor</text>
+<text x="784.6666666666667" y="659.0" font-size="15.5" fill="#4A5567" text-anchor="start">components (LiDAR, IMU, multispectral).</text>
+<rect x="1155.3333333333335" y="590" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="1155.3333333333335" y="590" width="6" height="118" rx="3" fill="#0F1828"/>
+<text x="1177.3333333333335" y="635.0" font-size="15.5" fill="#4A5567" text-anchor="start">Release BVLOS commercial framework</text>
+<text x="1177.3333333333335" y="659.0" font-size="15.5" fill="#4A5567" text-anchor="start">(draft) for public comment.</text>
+<rect x="70" y="720" width="288" height="118" rx="10" fill="rgba(15,24,40,0.06)" stroke="rgba(15,24,40,0.12)" stroke-width="1"/>
+<text x="88" y="774.0" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">End users</text>
+<text x="88" y="800.0" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">(enterprises)</text>
+<rect x="370.0" y="720" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="370.0" y="720" width="6" height="118" rx="3" fill="#2BC5B4"/>
+<text x="392.0" y="753.0" font-size="15.5" fill="#4A5567" text-anchor="start">Identify 2-3 assets for pilot</text>
+<text x="392.0" y="777.0" font-size="15.5" fill="#4A5567" text-anchor="start">(power-line segment, stockpile, farm</text>
+<text x="392.0" y="801.0" font-size="15.5" fill="#4A5567" text-anchor="start">block).</text>
+<rect x="762.6666666666667" y="720" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="762.6666666666667" y="720" width="6" height="118" rx="3" fill="#C9A84C"/>
+<text x="784.6666666666667" y="765.0" font-size="15.5" fill="#4A5567" text-anchor="start">Issue RFP to DaaS providers (IdeaForge,</text>
+<text x="784.6666666666667" y="789.0" font-size="15.5" fill="#4A5567" text-anchor="start">Garuda, General Aeronautics).</text>
+<rect x="1155.3333333333335" y="720" width="374.6666666666667" height="118" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.13)" stroke-width="1.2"/>
+<rect x="1155.3333333333335" y="720" width="6" height="118" rx="3" fill="#0F1828"/>
+<text x="1177.3333333333335" y="765.0" font-size="15.5" fill="#4A5567" text-anchor="start">Execute pilot; collect baseline (manual</text>
+<text x="1177.3333333333335" y="789.0" font-size="15.5" fill="#4A5567" text-anchor="start">inspection cost, time).</text>
+<text x="60" y="872" font-size="15" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+</svg>

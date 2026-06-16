@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="900" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Report Scope Framework</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">What this study covers across the drone sensing value chain</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 2.1 &#183; Techadyant Labs &#183; 2026</text>
+<rect x="300" y="150" width="1000" height="132" rx="12" fill="rgba(15,24,40,0.06)" stroke="#0F1828" stroke-width="2"/>
+<text x="800.0" y="194" font-size="24" fill="#0F1828" text-anchor="middle" font-weight="800">END-USE SECTORS</text>
+<text x="800.0" y="232" font-size="17.5" fill="#4A5567" text-anchor="middle">Agriculture · Infrastructure · Mining · Defence · Logistics · Smart Cities</text>
+<rect x="1150" y="164" width="134" height="30" rx="15" fill="rgba(74,85,103,0.15)"/>
+<text x="1217" y="184" font-size="14" fill="#4A5567" text-anchor="middle" font-weight="700">CONTEXT</text>
+<line x1="800.0" y1="301" x2="800.0" y2="286" stroke="#C9A84C" stroke-width="3"/><polygon points="800.0,286 804.3,296.1 795.7,296.1" fill="#C9A84C"/>
+<rect x="300" y="304" width="1000" height="132" rx="12" fill="rgba(43,197,180,0.1)" stroke="#2BC5B4" stroke-width="2"/>
+<text x="800.0" y="348" font-size="24" fill="#0F1828" text-anchor="middle" font-weight="800">INTEGRATED PAYLOADS</text>
+<text x="800.0" y="386" font-size="17.5" fill="#4A5567" text-anchor="middle">EO/IR Gimbals · LiDAR+RGB Units · Multispectral Arrays · SAR Pods</text>
+<rect x="1150" y="318" width="134" height="30" rx="15" fill="rgba(43,197,180,0.15)"/>
+<text x="1217" y="338" font-size="14" fill="#2BC5B4" text-anchor="middle" font-weight="700">IN SCOPE</text>
+<line x1="800.0" y1="455" x2="800.0" y2="440" stroke="#C9A84C" stroke-width="3"/><polygon points="800.0,440 804.3,450.1 795.7,450.1" fill="#C9A84C"/>
+<rect x="300" y="458" width="1000" height="132" rx="12" fill="rgba(43,197,180,0.1)" stroke="#2BC5B4" stroke-width="2"/>
+<text x="800.0" y="502" font-size="24" fill="#0F1828" text-anchor="middle" font-weight="800">SENSOR MODULES</text>
+<text x="800.0" y="540" font-size="17.5" fill="#4A5567" text-anchor="middle">RTK GPS · 6-Axis IMU · Thermal Cores · LiDAR Scanners · Multispectral</text>
+<rect x="1150" y="472" width="134" height="30" rx="15" fill="rgba(43,197,180,0.15)"/>
+<text x="1217" y="492" font-size="14" fill="#2BC5B4" text-anchor="middle" font-weight="700">IN SCOPE</text>
+<line x1="800.0" y1="609" x2="800.0" y2="594" stroke="#C9A84C" stroke-width="3"/><polygon points="800.0,594 804.3,604.1 795.7,604.1" fill="#C9A84C"/>
+<rect x="300" y="612" width="1000" height="132" rx="12" fill="rgba(43,197,180,0.1)" stroke="#2BC5B4" stroke-width="2"/>
+<text x="800.0" y="656" font-size="24" fill="#0F1828" text-anchor="middle" font-weight="800">DISCRETE SENSORS</text>
+<text x="800.0" y="694" font-size="17.5" fill="#4A5567" text-anchor="middle">GNSS Chips · MEMS Accelerometers · Magnetometers · Barometers</text>
+<rect x="1150" y="626" width="134" height="30" rx="15" fill="rgba(43,197,180,0.15)"/>
+<text x="1217" y="646" font-size="14" fill="#2BC5B4" text-anchor="middle" font-weight="700">IN SCOPE</text>
+<rect x="300" y="772" width="1000" height="72" rx="12" fill="rgba(200,68,59,0.08)" stroke="#C8443B" stroke-width="1.6"/>
+<text x="800.0" y="802" font-size="18" fill="#C8443B" text-anchor="middle" font-weight="800">OUT OF SCOPE</text>
+<text x="800.0" y="828" font-size="16.5" fill="#4A5567" text-anchor="middle">Airframes · Propulsion · Batteries · GCS Hardware · Standalone Software</text>
+<text x="260" y="320" font-size="15" fill="#4A5567" text-anchor="middle">Value</text>
+<text x="260" y="342" font-size="15" fill="#4A5567" text-anchor="middle">capture</text>
+<text x="60" y="872" font-size="15" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+<text x="1540" y="872" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Schematic</text>
+</svg>

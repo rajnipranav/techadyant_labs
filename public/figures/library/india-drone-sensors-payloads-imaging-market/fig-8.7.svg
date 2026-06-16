@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 829" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="829" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Emerging Sensors Sit Early on India&#x27;s Curve</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Eight next-wave sensor technologies by India TRL and impact</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 8.7 &#183; Techadyant Labs &#183; 2026</text>
+<rect x="120" y="180" width="900" height="560" rx="12" fill="#ffffff" stroke="rgba(15,24,40,0.15)" stroke-width="1.5"/>
+<line x1="200.0" y1="210" x2="200.0" y2="670" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="200.0" y="696" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">1</text>
+<line x1="296.25" y1="210" x2="296.25" y2="670" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="296.25" y="696" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2</text>
+<line x1="392.5" y1="210" x2="392.5" y2="670" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="392.5" y="696" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">3</text>
+<line x1="488.75" y1="210" x2="488.75" y2="670" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="488.75" y="696" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">4</text>
+<line x1="585.0" y1="210" x2="585.0" y2="670" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="585.0" y="696" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">5</text>
+<line x1="681.25" y1="210" x2="681.25" y2="670" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="681.25" y="696" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">6</text>
+<line x1="777.5" y1="210" x2="777.5" y2="670" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="777.5" y="696" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">7</text>
+<line x1="873.75" y1="210" x2="873.75" y2="670" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="873.75" y="696" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">8</text>
+<line x1="970.0" y1="210" x2="970.0" y2="670" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="970.0" y="696" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">9</text>
+<text x="585.0" y="722" font-size="16" fill="#0F1828" text-anchor="middle" font-weight="600">India TRL  (lower-left = early-stage)</text>
+<text x="154" y="460.0" font-size="16" fill="#0F1828" font-weight="600" text-anchor="middle" transform="rotate(-90 154 460.0)">Potential impact on India drone market</text>
+<line x1="200" y1="283.0" x2="970" y2="283.0" stroke="rgba(74,85,103,0.1)" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="976" y="288.0" font-size="12" fill="#4A5567" text-anchor="start" font-style="italic">Very high</text>
+<line x1="200" y1="369.0" x2="970" y2="369.0" stroke="rgba(74,85,103,0.1)" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="976" y="374.0" font-size="12" fill="#4A5567" text-anchor="start" font-style="italic">High</text>
+<line x1="200" y1="489.4" x2="970" y2="489.4" stroke="rgba(74,85,103,0.1)" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="976" y="494.4" font-size="12" fill="#4A5567" text-anchor="start" font-style="italic">Medium</text>
+<circle cx="238.5" cy="265.8" r="13" fill="#2BC5B4"/>
+<circle cx="238.5" cy="265.8" r="20" fill="none" stroke="#2BC5B4" stroke-width="1.5" opacity="0.35"/>
+<text x="238.5" y="235.8" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">Neuromorphic sensors</text>
+<text x="238.5" y="217.8" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="238.5" y="295.8" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2035+</text>
+<circle cx="286.625" cy="351.8" r="13" fill="#2BC5B4"/>
+<circle cx="286.625" cy="351.8" r="20" fill="none" stroke="#2BC5B4" stroke-width="1.5" opacity="0.35"/>
+<text x="286.625" y="385.8" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">Event-based cameras</text>
+<text x="286.625" y="403.8" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2030+</text>
+<circle cx="382.875" cy="274.4" r="13" fill="#2BC5B4"/>
+<circle cx="382.875" cy="274.4" r="20" fill="none" stroke="#2BC5B4" stroke-width="1.5" opacity="0.35"/>
+<text x="382.875" y="244.39999999999998" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">Quantum sensors</text>
+<text x="382.875" y="226.39999999999998" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="382.875" y="304.4" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2032+</text>
+<circle cx="392.5" cy="394.8" r="13" fill="#2BC5B4"/>
+<circle cx="392.5" cy="394.8" r="20" fill="none" stroke="#2BC5B4" stroke-width="1.5" opacity="0.35"/>
+<text x="392.5" y="428.8" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">FMCW LiDAR</text>
+<text x="392.5" y="446.8" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2030+</text>
+<circle cx="517.625" cy="326.0" r="13" fill="#2BC5B4"/>
+<circle cx="517.625" cy="326.0" r="20" fill="none" stroke="#2BC5B4" stroke-width="1.5" opacity="0.35"/>
+<text x="517.625" y="296.0" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">Radar-on-chip</text>
+<text x="517.625" y="278.0" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="517.625" y="356.0" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2029-30</text>
+<circle cx="536.875" cy="429.2" r="13" fill="#2BC5B4"/>
+<circle cx="536.875" cy="429.2" r="20" fill="none" stroke="#2BC5B4" stroke-width="1.5" opacity="0.35"/>
+<text x="536.875" y="463.2" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">SWIR sensors</text>
+<text x="536.875" y="481.2" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2029-30</text>
+<circle cx="382.875" cy="498.0" r="13" fill="#2BC5B4"/>
+<circle cx="382.875" cy="498.0" r="20" fill="none" stroke="#2BC5B4" stroke-width="1.5" opacity="0.35"/>
+<text x="382.875" y="468.0" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">Gas sensor arrays</text>
+<text x="382.875" y="450.0" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="382.875" y="528.0" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2028-29</text>
+<circle cx="613.875" cy="472.2" r="13" fill="#2BC5B4"/>
+<circle cx="613.875" cy="472.2" r="20" fill="none" stroke="#2BC5B4" stroke-width="1.5" opacity="0.35"/>
+<text x="613.875" y="506.2" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">Hyperspectral mini.</text>
+<text x="613.875" y="524.2" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2028-29</text>
+<rect x="1080" y="180" width="440" height="560" rx="12" fill="rgba(74,85,103,0.04)" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<text x="1104" y="218" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">Expected commercial scale</text>
+<text x="1104" y="242" font-size="15" fill="#4A5567" text-anchor="start" font-style="italic">India, 2028-2032</text>
+<rect x="1104" y="272" width="72" height="24" rx="5" fill="#2BC5B4" opacity="0.85"/>
+<text x="1140" y="288" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2028-29</text>
+<text x="1188" y="288" font-size="14" fill="#0F1828" text-anchor="start">Hyperspectral mini., gas arrays</text>
+<rect x="1104" y="324" width="72" height="24" rx="5" fill="#2BC5B4" opacity="0.85"/>
+<text x="1140" y="340" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2029-30</text>
+<text x="1188" y="340" font-size="14" fill="#0F1828" text-anchor="start">SWIR, radar-on-chip</text>
+<rect x="1104" y="376" width="72" height="24" rx="5" fill="#2BC5B4" opacity="0.85"/>
+<text x="1140" y="392" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2030+</text>
+<text x="1188" y="392" font-size="14" fill="#0F1828" text-anchor="start">FMCW LiDAR, event cameras</text>
+<rect x="1104" y="428" width="72" height="24" rx="5" fill="#2BC5B4" opacity="0.85"/>
+<text x="1140" y="444" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2032+</text>
+<text x="1188" y="444" font-size="14" fill="#0F1828" text-anchor="start">Quantum sensors</text>
+<rect x="1104" y="480" width="72" height="24" rx="5" fill="#2BC5B4" opacity="0.85"/>
+<text x="1140" y="496" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2035+</text>
+<text x="1188" y="496" font-size="14" fill="#0F1828" text-anchor="start">Neuromorphic sensors</text>
+<line x1="1104" y1="534" x2="1496" y2="534" stroke="rgba(74,85,103,0.2)" stroke-width="1"/>
+<text x="1104" y="560" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">All eight have active India R&amp;D</text>
+<text x="1104" y="588" font-size="14" fill="#4A5567" text-anchor="start">(IITs, IISc, BEL, DRDO, startups),</text>
+<text x="1104" y="612" font-size="14" fill="#4A5567" text-anchor="start">but mostly at TRL 1-4 — global</text>
+<text x="1104" y="636" font-size="14" fill="#4A5567" text-anchor="start">leaders are at TRL 5-7.</text>
+<text x="60" y="801" font-size="15" fill="#4A5567">Source: Techadyant Labs analysis; Prophesee, Aeva, Imec, Infineon, IISc, DRDO.</text>
+<text x="1540" y="801" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

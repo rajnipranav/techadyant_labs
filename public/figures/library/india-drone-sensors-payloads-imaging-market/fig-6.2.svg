@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 947" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="947" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Seven Steps to a Type Certificate</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">DGCA drone registration &amp; type-certification process for sensor payloads</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 6.2 &#183; Techadyant Labs &#183; 2026</text>
+<rect x="40.0" y="180" width="320" height="72" rx="12" fill="#2BC5B4"/>
+<circle cx="74.0" cy="216.0" r="22" fill="#FBF9F4"/>
+<text x="74.0" y="224.0" font-size="24" fill="#2BC5B4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">1</text>
+<text x="110.0" y="223.0" font-size="18" fill="#FBF9F4" text-anchor="start" font-weight="700">Design &amp; Development</text>
+<rect x="40.0" y="264" width="320" height="98" rx="10" fill="#FFFFFF" stroke="rgba(43,197,180,0.5)" stroke-width="1.3"/>
+<circle cx="62.0" cy="283" r="3.2" fill="#2BC5B4"/>
+<text x="74.0" y="288" font-size="15" fill="#0F1828" text-anchor="start">Define payload configs</text>
+<circle cx="62.0" cy="309" r="3.2" fill="#2BC5B4"/>
+<text x="74.0" y="314" font-size="15" fill="#0F1828" text-anchor="start">Select sensors</text>
+<circle cx="62.0" cy="335" r="3.2" fill="#2BC5B4"/>
+<text x="74.0" y="340" font-size="15" fill="#0F1828" text-anchor="start">Integrate &amp; test</text>
+<line x1="366.0" y1="216.0" x2="422.0" y2="216.0" stroke="rgba(15,24,40,0.35)" stroke-width="3.5"/>
+<polygon points="422.0,207.0 438.0,216.0 422.0,225.0" fill="rgba(15,24,40,0.55)"/>
+<rect x="440.0" y="180" width="320" height="72" rx="12" fill="#2BC5B4"/>
+<circle cx="474.0" cy="216.0" r="22" fill="#FBF9F4"/>
+<text x="474.0" y="224.0" font-size="24" fill="#2BC5B4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2</text>
+<text x="510.0" y="210" font-size="18" fill="#FBF9F4" text-anchor="start" font-weight="700">Application Submission</text>
+<text x="510.0" y="234" font-size="18" fill="#FBF9F4" text-anchor="start" font-weight="700"></text>
+<rect x="440.0" y="264" width="320" height="72" rx="10" fill="#FFFFFF" stroke="rgba(43,197,180,0.5)" stroke-width="1.3"/>
+<circle cx="462.0" cy="283" r="3.2" fill="#2BC5B4"/>
+<text x="474.0" y="288" font-size="15" fill="#0F1828" text-anchor="start">Submit to DGCA</text>
+<circle cx="462.0" cy="309" r="3.2" fill="#2BC5B4"/>
+<text x="474.0" y="314" font-size="15" fill="#0F1828" text-anchor="start">via Digital Sky</text>
+<line x1="766.0" y1="216.0" x2="822.0" y2="216.0" stroke="rgba(15,24,40,0.35)" stroke-width="3.5"/>
+<polygon points="822.0,207.0 838.0,216.0 822.0,225.0" fill="rgba(15,24,40,0.55)"/>
+<rect x="840.0" y="180" width="320" height="72" rx="12" fill="#2BC5B4"/>
+<circle cx="874.0" cy="216.0" r="22" fill="#FBF9F4"/>
+<text x="874.0" y="224.0" font-size="24" fill="#2BC5B4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">3</text>
+<text x="910.0" y="223.0" font-size="18" fill="#FBF9F4" text-anchor="start" font-weight="700">Technical Evaluation</text>
+<rect x="840.0" y="264" width="320" height="72" rx="10" fill="#FFFFFF" stroke="rgba(43,197,180,0.5)" stroke-width="1.3"/>
+<circle cx="862.0" cy="283" r="3.2" fill="#2BC5B4"/>
+<text x="874.0" y="288" font-size="15" fill="#0F1828" text-anchor="start">DGCA reviews</text>
+<circle cx="862.0" cy="309" r="3.2" fill="#2BC5B4"/>
+<text x="874.0" y="314" font-size="15" fill="#0F1828" text-anchor="start">design documentation</text>
+<line x1="1166.0" y1="216.0" x2="1222.0" y2="216.0" stroke="rgba(15,24,40,0.35)" stroke-width="3.5"/>
+<polygon points="1222.0,207.0 1238.0,216.0 1222.0,225.0" fill="rgba(15,24,40,0.55)"/>
+<rect x="1240.0" y="180" width="320" height="72" rx="12" fill="#2BC5B4"/>
+<circle cx="1274.0" cy="216.0" r="22" fill="#FBF9F4"/>
+<text x="1274.0" y="224.0" font-size="24" fill="#2BC5B4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">4</text>
+<text x="1310.0" y="223.0" font-size="18" fill="#FBF9F4" text-anchor="start" font-weight="700">Flight Testing</text>
+<rect x="1240.0" y="264" width="320" height="98" rx="10" fill="#FFFFFF" stroke="rgba(43,197,180,0.5)" stroke-width="1.3"/>
+<circle cx="1262.0" cy="283" r="3.2" fill="#2BC5B4"/>
+<text x="1274.0" y="288" font-size="15" fill="#0F1828" text-anchor="start">Hover &amp; waypoint nav</text>
+<circle cx="1262.0" cy="309" r="3.2" fill="#2BC5B4"/>
+<text x="1274.0" y="314" font-size="15" fill="#0F1828" text-anchor="start">Emergency recovery</text>
+<circle cx="1262.0" cy="335" r="3.2" fill="#2BC5B4"/>
+<text x="1274.0" y="340" font-size="15" fill="#0F1828" text-anchor="start">Payload operation</text>
+<rect x="40.0" y="432" width="320" height="72" rx="12" fill="#C9A84C"/>
+<circle cx="74.0" cy="468.0" r="22" fill="#FBF9F4"/>
+<text x="74.0" y="476.0" font-size="24" fill="#C9A84C" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">5</text>
+<text x="110.0" y="475.0" font-size="18" fill="#FBF9F4" text-anchor="start" font-weight="700">EMI / EMC Compliance</text>
+<rect x="40.0" y="516" width="320" height="72" rx="10" fill="#FFFFFF" stroke="rgba(201,168,76,0.5)" stroke-width="1.3"/>
+<circle cx="62.0" cy="535" r="3.2" fill="#C9A84C"/>
+<text x="74.0" y="540" font-size="15" fill="#0F1828" text-anchor="start">Radiated emissions</text>
+<circle cx="62.0" cy="561" r="3.2" fill="#C9A84C"/>
+<text x="74.0" y="566" font-size="15" fill="#0F1828" text-anchor="start">Immunity testing</text>
+<line x1="366.0" y1="468.0" x2="422.0" y2="468.0" stroke="rgba(15,24,40,0.35)" stroke-width="3.5"/>
+<polygon points="422.0,459.0 438.0,468.0 422.0,477.0" fill="rgba(15,24,40,0.55)"/>
+<rect x="440.0" y="432" width="320" height="72" rx="12" fill="#C9A84C"/>
+<circle cx="474.0" cy="468.0" r="22" fill="#FBF9F4"/>
+<text x="474.0" y="476.0" font-size="24" fill="#C9A84C" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">6</text>
+<text x="510.0" y="462" font-size="18" fill="#FBF9F4" text-anchor="start" font-weight="700">Data Security</text>
+<text x="510.0" y="486" font-size="18" fill="#FBF9F4" text-anchor="start" font-weight="700">Validation</text>
+<rect x="440.0" y="516" width="320" height="98" rx="10" fill="#FFFFFF" stroke="rgba(201,168,76,0.5)" stroke-width="1.3"/>
+<circle cx="462.0" cy="535" r="3.2" fill="#C9A84C"/>
+<text x="474.0" y="540" font-size="15" fill="#0F1828" text-anchor="start">Encryption validation</text>
+<circle cx="462.0" cy="561" r="3.2" fill="#C9A84C"/>
+<text x="474.0" y="566" font-size="15" fill="#0F1828" text-anchor="start">Data-log review</text>
+<circle cx="462.0" cy="587" r="3.2" fill="#C9A84C"/>
+<text x="474.0" y="592" font-size="15" fill="#0F1828" text-anchor="start">Remote-ID compliance</text>
+<line x1="766.0" y1="468.0" x2="822.0" y2="468.0" stroke="rgba(15,24,40,0.35)" stroke-width="3.5"/>
+<polygon points="822.0,459.0 838.0,468.0 822.0,477.0" fill="rgba(15,24,40,0.55)"/>
+<rect x="840.0" y="432" width="320" height="72" rx="12" fill="#0F1828"/>
+<circle cx="874.0" cy="468.0" r="22" fill="#FBF9F4"/>
+<text x="874.0" y="476.0" font-size="24" fill="#0F1828" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">7</text>
+<text x="910.0" y="462" font-size="18" fill="#FBF9F4" text-anchor="start" font-weight="700">Type Certificate</text>
+<text x="910.0" y="486" font-size="18" fill="#FBF9F4" text-anchor="start" font-weight="700">Issued</text>
+<rect x="840.0" y="516" width="320" height="98" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.5)" stroke-width="1.3"/>
+<circle cx="862.0" cy="535" r="3.2" fill="#0F1828"/>
+<text x="874.0" y="540" font-size="15" fill="#0F1828" text-anchor="start">Valid for 3 years</text>
+<circle cx="862.0" cy="561" r="3.2" fill="#0F1828"/>
+<text x="874.0" y="566" font-size="15" fill="#0F1828" text-anchor="start">Platform-specific</text>
+<circle cx="862.0" cy="587" r="3.2" fill="#0F1828"/>
+<text x="874.0" y="592" font-size="15" fill="#0F1828" text-anchor="start">Payload configs listed</text>
+<path d="M 1400.0 370 L 1400.0 400 L 200.0 400 L 200.0 424" fill="none" stroke="rgba(15,24,40,0.3)" stroke-width="3" stroke-dasharray="2,0"/>
+<polygon points="191.0,424 200.0,438 209.0,424" fill="rgba(15,24,40,0.5)"/>
+<rect x="40" y="664" width="1520" height="130" rx="12" fill="rgba(201,168,76,0.1)" stroke="#C9A84C" stroke-width="1.5"/>
+<text x="62" y="698" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">POST-CERTIFICATION  (every 3 years or on design change)</text>
+<rect x="70" y="718" width="380" height="52" rx="10" fill="#FFFFFF" stroke="#C9A84C" stroke-width="1.3"/>
+<text x="260.0" y="750" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700">Renewal Application</text>
+<line x1="462" y1="744" x2="522" y2="744" stroke="#C9A84C" stroke-width="3.5"/>
+<polygon points="522,735 538,744 522,753" fill="#C9A84C"/>
+<rect x="540" y="718" width="380" height="52" rx="10" fill="#FFFFFF" stroke="#C9A84C" stroke-width="1.3"/>
+<text x="730.0" y="750" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700">Design-Change Approval</text>
+<line x1="932" y1="744" x2="992" y2="744" stroke="#C9A84C" stroke-width="3.5"/>
+<polygon points="992,735 1008,744 992,753" fill="#C9A84C"/>
+<rect x="1010" y="718" width="380" height="52" rx="10" fill="#FFFFFF" stroke="#C9A84C" stroke-width="1.3"/>
+<text x="1200.0" y="750" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700">Audit by DGCA</text>
+<text x="60" y="828" font-size="17" fill="#4A5567" text-anchor="start" font-weight="700">Timeline: 6-12 months (first certification)  |  3-6 months (subsequent)</text>
+<text x="60" y="856" font-size="17" fill="#4A5567" text-anchor="start" font-weight="700">Estimated cost: USD 50,000-150,000 per payload configuration</text>
+<text x="60" y="919" font-size="15" fill="#4A5567">Source: DGCA; Digital Sky; Drone Rules 2021. Techadyant Labs analysis.</text>
+<text x="1540" y="919" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Schematic</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 793" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="793" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Sensor-Startup Funding Peaked, Then Cooled</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">India drone-sensor startups, capital raised and deal count, 2021-2026</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 9.3 &#183; Techadyant Labs &#183; 2026</text>
+<line x1="140" y1="640.0" x2="1080" y2="640.0" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="126" y="645.0" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">0</text>
+<line x1="140" y1="552.0" x2="1080" y2="552.0" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="126" y="557.0" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">5</text>
+<line x1="140" y1="464.0" x2="1080" y2="464.0" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="126" y="469.0" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">10</text>
+<line x1="140" y1="376.0" x2="1080" y2="376.0" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="126" y="381.0" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">15</text>
+<line x1="140" y1="288.0" x2="1080" y2="288.0" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="126" y="293.0" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">20</text>
+<line x1="140" y1="200.0" x2="1080" y2="200.0" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="126" y="205.0" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">25</text>
+<text x="126" y="174" font-size="15" fill="#4A5567" text-anchor="start" font-weight="600">Funding (USD M)</text>
+<text x="1094" y="645.0" font-size="14" fill="#2BC5B4" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">0</text>
+<text x="1094" y="425.0" font-size="14" fill="#2BC5B4" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">5</text>
+<text x="1094" y="205.0" font-size="14" fill="#2BC5B4" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">10</text>
+<text x="1094" y="174" font-size="15" fill="#2BC5B4" text-anchor="end" font-weight="600">Deals</text>
+<rect x="183.33333333333331" y="534.4" width="70" height="105.60000000000002" rx="5" fill="#C9A84C"/>
+<text x="218.33333333333331" y="560.4" font-size="16" fill="#FBF9F4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">6</text>
+<text x="218.33333333333331" y="670" font-size="16" fill="#0F1828" text-anchor="middle" font-weight="600" font-family="'JetBrains Mono','Courier New',monospace">2021</text>
+<rect x="340.0" y="481.6" width="70" height="158.39999999999998" rx="5" fill="#C9A84C"/>
+<text x="375.0" y="507.6" font-size="16" fill="#FBF9F4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">9</text>
+<text x="375.0" y="670" font-size="16" fill="#0F1828" text-anchor="middle" font-weight="600" font-family="'JetBrains Mono','Courier New',monospace">2022</text>
+<rect x="496.66666666666663" y="393.59999999999997" width="70" height="246.40000000000003" rx="5" fill="#C9A84C"/>
+<text x="531.6666666666666" y="419.59999999999997" font-size="16" fill="#FBF9F4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">14</text>
+<text x="531.6666666666666" y="670" font-size="16" fill="#0F1828" text-anchor="middle" font-weight="600" font-family="'JetBrains Mono','Courier New',monospace">2023</text>
+<rect x="653.3333333333333" y="252.8" width="70" height="387.2" rx="5" fill="#C9A84C"/>
+<text x="688.3333333333333" y="278.8" font-size="16" fill="#FBF9F4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">22</text>
+<text x="688.3333333333333" y="670" font-size="16" fill="#0F1828" text-anchor="middle" font-weight="600" font-family="'JetBrains Mono','Courier New',monospace">2024</text>
+<rect x="810.0" y="217.60000000000002" width="70" height="422.4" rx="5" fill="#C9A84C"/>
+<text x="845.0" y="243.60000000000002" font-size="16" fill="#FBF9F4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">24</text>
+<text x="845.0" y="670" font-size="16" fill="#0F1828" text-anchor="middle" font-weight="600" font-family="'JetBrains Mono','Courier New',monospace">2025</text>
+<rect x="966.6666666666666" y="358.4" width="70" height="281.6" rx="5" fill="#C9A84C"/>
+<text x="1001.6666666666666" y="384.4" font-size="16" fill="#FBF9F4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">16</text>
+<text x="1001.6666666666666" y="670" font-size="16" fill="#0F1828" text-anchor="middle" font-weight="600" font-family="'JetBrains Mono','Courier New',monospace">2026</text>
+<polyline points="218.33333333333331,508.0 375.0,464.0 531.6666666666666,376.0 688.3333333333333,244.0 845.0,288.0 1001.6666666666666,420.0" fill="none" stroke="#2BC5B4" stroke-width="3"/>
+<circle cx="218.33333333333331" cy="508.0" r="6" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2"/>
+<text x="234.33333333333331" y="530.0" font-size="14" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">3</text>
+<circle cx="375.0" cy="464.0" r="6" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2"/>
+<text x="391.0" y="486.0" font-size="14" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">4</text>
+<circle cx="531.6666666666666" cy="376.0" r="6" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2"/>
+<text x="547.6666666666666" y="398.0" font-size="14" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">6</text>
+<circle cx="688.3333333333333" cy="244.0" r="6" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2"/>
+<text x="704.3333333333333" y="266.0" font-size="14" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">9</text>
+<circle cx="845.0" cy="288.0" r="6" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2"/>
+<text x="861.0" y="310.0" font-size="14" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">8</text>
+<circle cx="1001.6666666666666" cy="420.0" r="6" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2"/>
+<text x="1017.6666666666666" y="442.0" font-size="14" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">5</text>
+<line x1="140" y1="640" x2="1080" y2="640" stroke="#0F1828" stroke-width="2"/>
+<rect x="140" y="688" width="22" height="16" rx="3" fill="#C9A84C"/>
+<text x="170" y="702" font-size="15" fill="#4A5567" text-anchor="start">Funding raised (USD M)</text>
+<line x1="400" y1="696" x2="440" y2="696" stroke="#2BC5B4" stroke-width="3"/>
+<circle cx="420" cy="696" r="5" fill="#2BC5B4"/>
+<text x="450" y="702" font-size="15" fill="#4A5567" text-anchor="start">Number of deals</text>
+<rect x="1150" y="200" width="390" height="440" rx="10" fill="rgba(15,24,40,0.05)" stroke="rgba(15,24,40,0.2)" stroke-width="1.5"/>
+<text x="1170" y="234" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">What the trend shows</text>
+<text x="1170" y="268" font-size="15" fill="#4A5567" text-anchor="start">Funding peaked in 2024-2025 (Eon Space</text>
+<text x="1170" y="294" font-size="15" fill="#4A5567" text-anchor="start">Labs Series A and others).</text>
+<text x="1170" y="346" font-size="15" fill="#4A5567" text-anchor="start">2026 slowdown reflects a broad VC</text>
+<text x="1170" y="372" font-size="15" fill="#4A5567" text-anchor="start">pullback - not drone-specific.</text>
+<text x="1170" y="424" font-size="15" fill="#4A5567" text-anchor="start">Most rounds are early-stage (Seed /</text>
+<text x="1170" y="450" font-size="15" fill="#4A5567" text-anchor="start">Series A); growth capital is scarce.</text>
+<text x="1170" y="502" font-size="15" fill="#4A5567" text-anchor="start">Defence-focused startups draw iDEX</text>
+<text x="1170" y="528" font-size="15" fill="#4A5567" text-anchor="start">grants more than equity.</text>
+<text x="60" y="765" font-size="15" fill="#4A5567">Source: Funding announcements, Tracxn. Techadyant Labs analysis.</text>
+<text x="1540" y="765" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

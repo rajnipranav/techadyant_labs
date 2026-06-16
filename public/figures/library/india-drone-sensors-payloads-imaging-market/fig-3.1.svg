@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 688" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="688" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Evolution of India&#x27;s Drone Industry</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Key regulatory and market milestones · 2014–2026</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 3.1 &#183; Techadyant Labs &#183; 2026</text>
+<line x1="150" y1="300" x2="1450" y2="300" stroke="rgba(15,24,40,0.3)" stroke-width="3"/>
+<text x="60" y="538" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Market maturity</text>
+<rect x="150" y="560" width="1300" height="40" rx="8" fill="rgba(15,24,40,0.08)"/>
+<rect x="150" y="560" width="780.0" height="40" rx="8" fill="rgba(43,197,180,0.55)"/>
+<text x="158" y="587" font-size="14" fill="#4A5567" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">2014 · ~5%</text>
+<text x="922.0" y="587" font-size="14" fill="#0F1828" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2026 · ~60%</text>
+<circle cx="150.0" cy="300" r="13" fill="#4A5567" stroke="#FBF9F4" stroke-width="3"/>
+<text x="150.0" y="300" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="150.0" y="340" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<line x1="150.0" y1="286" x2="150.0" y2="246" stroke="rgba(74,85,103,0.6)" stroke-width="2"/>
+<rect x="50.0" y="150" width="200" height="96" rx="10" fill="#FFFFFF" stroke="#4A5567" stroke-width="2"/>
+<rect x="50.0" y="150" width="200" height="30" rx="10" fill="rgba(74,85,103,0.18)"/>
+<text x="150.0" y="172" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">2014</text>
+<text x="150.0" y="202" font-size="16.5" fill="#0F1828" text-anchor="middle" font-weight="700">Pre-Regulation</text>
+<text x="150.0" y="224" font-size="13.5" fill="#4A5567" text-anchor="middle">Informal imports; no</text>
+<text x="150.0" y="242" font-size="13.5" fill="#4A5567" text-anchor="middle">framework</text>
+<circle cx="366.66666666666663" cy="300" r="13" fill="#4A5567" stroke="#FBF9F4" stroke-width="3"/>
+<text x="366.66666666666663" y="300" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="366.66666666666663" y="340" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<line x1="366.66666666666663" y1="314" x2="366.66666666666663" y2="342" stroke="rgba(74,85,103,0.6)" stroke-width="2"/>
+<rect x="266.66666666666663" y="344" width="200" height="96" rx="10" fill="#FFFFFF" stroke="#4A5567" stroke-width="2"/>
+<rect x="266.66666666666663" y="344" width="200" height="30" rx="10" fill="rgba(74,85,103,0.18)"/>
+<text x="366.66666666666663" y="366" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">2018</text>
+<text x="366.66666666666663" y="396" font-size="16.5" fill="#0F1828" text-anchor="middle" font-weight="700">First DGCA CAR</text>
+<text x="366.66666666666663" y="418" font-size="13.5" fill="#4A5567" text-anchor="middle">CAR 2018 issued</text>
+<circle cx="583.3333333333333" cy="300" r="13" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="3"/>
+<text x="583.3333333333333" y="300" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="583.3333333333333" y="340" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<line x1="583.3333333333333" y1="286" x2="583.3333333333333" y2="246" stroke="rgba(43,197,180,0.6)" stroke-width="2"/>
+<rect x="483.33333333333326" y="150" width="200" height="96" rx="10" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="483.33333333333326" y="150" width="200" height="30" rx="10" fill="rgba(43,197,180,0.18)"/>
+<text x="583.3333333333333" y="172" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">2021</text>
+<text x="583.3333333333333" y="202" font-size="16.5" fill="#0F1828" text-anchor="middle" font-weight="700">Drone Rules + PLI</text>
+<text x="583.3333333333333" y="224" font-size="13.5" fill="#4A5567" text-anchor="middle">Liberalisation; PLI</text>
+<text x="583.3333333333333" y="242" font-size="13.5" fill="#4A5567" text-anchor="middle">announced</text>
+<circle cx="800.0" cy="300" r="13" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="3"/>
+<text x="800.0" y="300" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="800.0" y="340" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<line x1="800.0" y1="314" x2="800.0" y2="342" stroke="rgba(43,197,180,0.6)" stroke-width="2"/>
+<rect x="700.0" y="344" width="200" height="96" rx="10" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="700.0" y="344" width="200" height="30" rx="10" fill="rgba(43,197,180,0.18)"/>
+<text x="800.0" y="366" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">2022</text>
+<text x="800.0" y="396" font-size="16.5" fill="#0F1828" text-anchor="middle" font-weight="700">Digital Sky live</text>
+<text x="800.0" y="418" font-size="13.5" fill="#4A5567" text-anchor="middle">Online registration</text>
+<text x="800.0" y="436" font-size="13.5" fill="#4A5567" text-anchor="middle">platform</text>
+<circle cx="1016.6666666666666" cy="300" r="13" fill="#C9A84C" stroke="#FBF9F4" stroke-width="3"/>
+<text x="1016.6666666666666" y="300" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="1016.6666666666666" y="340" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<line x1="1016.6666666666666" y1="286" x2="1016.6666666666666" y2="246" stroke="rgba(201,168,76,0.6)" stroke-width="2"/>
+<rect x="916.6666666666666" y="150" width="200" height="96" rx="10" fill="#FFFFFF" stroke="#C9A84C" stroke-width="2"/>
+<rect x="916.6666666666666" y="150" width="200" height="30" rx="10" fill="rgba(201,168,76,0.18)"/>
+<text x="1016.6666666666666" y="172" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">2023</text>
+<text x="1016.6666666666666" y="202" font-size="16.5" fill="#0F1828" text-anchor="middle" font-weight="700">BVLOS Pilots</text>
+<text x="1016.6666666666666" y="224" font-size="13.5" fill="#4A5567" text-anchor="middle">First BVLOS approvals</text>
+<circle cx="1233.3333333333333" cy="300" r="13" fill="#C9A84C" stroke="#FBF9F4" stroke-width="3"/>
+<text x="1233.3333333333333" y="300" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="1233.3333333333333" y="340" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<line x1="1233.3333333333333" y1="314" x2="1233.3333333333333" y2="342" stroke="rgba(201,168,76,0.6)" stroke-width="2"/>
+<rect x="1133.3333333333333" y="344" width="200" height="96" rx="10" fill="#FFFFFF" stroke="#C9A84C" stroke-width="2"/>
+<rect x="1133.3333333333333" y="344" width="200" height="30" rx="10" fill="rgba(201,168,76,0.18)"/>
+<text x="1233.3333333333333" y="366" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">2024</text>
+<text x="1233.3333333333333" y="396" font-size="16.5" fill="#0F1828" text-anchor="middle" font-weight="700">Drone Shakti</text>
+<text x="1233.3333333333333" y="418" font-size="13.5" fill="#4A5567" text-anchor="middle">Agri programme launched</text>
+<circle cx="1450.0" cy="300" r="13" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="3"/>
+<text x="1450.0" y="300" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="1450.0" y="340" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<line x1="1450.0" y1="286" x2="1450.0" y2="246" stroke="rgba(43,197,180,0.6)" stroke-width="2"/>
+<rect x="1350.0" y="150" width="200" height="96" rx="10" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="1350.0" y="150" width="200" height="30" rx="10" fill="rgba(43,197,180,0.18)"/>
+<text x="1450.0" y="172" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">2026</text>
+<text x="1450.0" y="202" font-size="16.5" fill="#0F1828" text-anchor="middle" font-weight="700">Type Certification</text>
+<text x="1450.0" y="224" font-size="13.5" fill="#4A5567" text-anchor="middle">ideaForge Q6 V2 GEO</text>
+<text x="1450.0" y="242" font-size="13.5" fill="#4A5567" text-anchor="middle">certified</text>
+<text x="60" y="660" font-size="15" fill="#4A5567">Source: DGCA; Ministry of Civil Aviation; PIB. Techadyant Labs analysis.</text>
+</svg>

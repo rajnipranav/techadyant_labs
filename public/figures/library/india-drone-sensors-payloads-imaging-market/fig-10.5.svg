@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="900" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Defence Demands a Different Sensor</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Defence drone missions and how requirements diverge from commercial</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 10.5 &#183; Techadyant Labs &#183; 2026</text>
+<text x="60" y="162" font-size="16" fill="#2BC5B4" text-anchor="start" font-weight="700">MISSION TYPES</text>
+<rect x="60" y="180" width="720" height="148" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.18)" stroke-width="1.5"/>
+<rect x="60" y="180" width="8" height="148" rx="4" fill="#2BC5B4"/>
+<text x="84" y="218" font-size="23" fill="#0F1828" text-anchor="start" font-weight="700">ISR</text>
+<text x="84" y="242" font-size="15" fill="#4A5567" text-anchor="start">Intelligence, surveillance, reconnaissance</text>
+<circle cx="90" cy="266" r="4" fill="#2BC5B4"/>
+<text x="102" y="272" font-size="15" fill="#0F1828" text-anchor="start">EO/IR (cooled, long-range)</text>
+<circle cx="90" cy="290" r="4" fill="#2BC5B4"/>
+<text x="102" y="296" font-size="15" fill="#0F1828" text-anchor="start">SWIR (haze penetration)</text>
+<circle cx="90" cy="314" r="4" fill="#2BC5B4"/>
+<text x="102" y="320" font-size="15" fill="#0F1828" text-anchor="start">LiDAR (3D), SAR (all-weather)</text>
+<rect x="60" y="346" width="720" height="148" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.18)" stroke-width="1.5"/>
+<rect x="60" y="346" width="8" height="148" rx="4" fill="#2BC5B4"/>
+<text x="84" y="384" font-size="23" fill="#0F1828" text-anchor="start" font-weight="700">Targeting</text>
+<text x="84" y="408" font-size="15" fill="#4A5567" text-anchor="start">Designation for guided munitions</text>
+<circle cx="90" cy="432" r="4" fill="#2BC5B4"/>
+<text x="102" y="438" font-size="15" fill="#0F1828" text-anchor="start">Laser rangefinder (LRF)</text>
+<circle cx="90" cy="456" r="4" fill="#2BC5B4"/>
+<text x="102" y="462" font-size="15" fill="#0F1828" text-anchor="start">Laser designator</text>
+<circle cx="90" cy="480" r="4" fill="#2BC5B4"/>
+<text x="102" y="486" font-size="15" fill="#0F1828" text-anchor="start">EO/IR (tracking mode)</text>
+<rect x="60" y="512" width="720" height="148" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.18)" stroke-width="1.5"/>
+<rect x="60" y="512" width="8" height="148" rx="4" fill="#2BC5B4"/>
+<text x="84" y="550" font-size="23" fill="#0F1828" text-anchor="start" font-weight="700">EW / SIGINT</text>
+<text x="84" y="574" font-size="15" fill="#4A5567" text-anchor="start">Electronic warfare &amp; signals intel</text>
+<circle cx="90" cy="598" r="4" fill="#2BC5B4"/>
+<text x="102" y="604" font-size="15" fill="#0F1828" text-anchor="start">RF sensors (direction finding)</text>
+<circle cx="90" cy="622" r="4" fill="#2BC5B4"/>
+<text x="102" y="628" font-size="15" fill="#0F1828" text-anchor="start">Spectrum analyser modules</text>
+<circle cx="90" cy="646" r="4" fill="#2BC5B4"/>
+<text x="102" y="652" font-size="15" fill="#0F1828" text-anchor="start">COMINT / ELINT payloads</text>
+<rect x="60" y="678" width="720" height="148" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.18)" stroke-width="1.5"/>
+<rect x="60" y="678" width="8" height="148" rx="4" fill="#2BC5B4"/>
+<text x="84" y="716" font-size="23" fill="#0F1828" text-anchor="start" font-weight="700">BDA</text>
+<text x="84" y="740" font-size="15" fill="#4A5567" text-anchor="start">Battle damage assessment</text>
+<circle cx="90" cy="764" r="4" fill="#2BC5B4"/>
+<text x="102" y="770" font-size="15" fill="#0F1828" text-anchor="start">High-res RGB + SWIR</text>
+<circle cx="90" cy="788" r="4" fill="#2BC5B4"/>
+<text x="102" y="794" font-size="15" fill="#0F1828" text-anchor="start">LiDAR (3D damage model)</text>
+<text x="820" y="162" font-size="16" fill="#C8443B" text-anchor="start" font-weight="700">SENSOR REQUIREMENTS - DEFENCE vs COMMERCIAL</text>
+<rect x="820" y="180" width="720" height="46" rx="8" fill="#0F1828"/>
+<text x="838" y="210" font-size="16" fill="#FBF9F4" text-anchor="start" font-weight="700">Parameter</text>
+<text x="1080" y="210" font-size="16" fill="#C9A84C" text-anchor="start" font-weight="700">Defence grade</text>
+<text x="1360" y="210" font-size="16" fill="#2BC5B4" text-anchor="start" font-weight="700">Commercial</text>
+<rect x="820" y="226" width="720" height="46" rx="0" fill="#FBF9F4"/>
+<text x="838" y="256" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Operating temp</text>
+<text x="1080" y="256" font-size="15" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">-40 to +70°C</text>
+<text x="1360" y="256" font-size="15" fill="#4A5567" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">-20 to +55°C</text>
+<rect x="820" y="272" width="720" height="46" rx="0" fill="rgba(15,24,40,0.05)"/>
+<text x="838" y="302" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Ruggedisation</text>
+<text x="1080" y="302" font-size="15" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">MIL-STD-810</text>
+<text x="1360" y="302" font-size="15" fill="#4A5567" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">Not required</text>
+<rect x="820" y="318" width="720" height="46" rx="0" fill="#FBF9F4"/>
+<text x="838" y="348" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Data security</text>
+<text x="1080" y="348" font-size="15" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">AES-256, tamper-proof</text>
+<text x="1360" y="348" font-size="15" fill="#4A5567" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">Basic encryption</text>
+<rect x="820" y="364" width="720" height="46" rx="0" fill="rgba(15,24,40,0.05)"/>
+<text x="838" y="394" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Latency</text>
+<text x="1080" y="394" font-size="15" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">&lt;100 ms end-to-end</text>
+<text x="1360" y="394" font-size="15" fill="#4A5567" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">Seconds acceptable</text>
+<rect x="820" y="410" width="720" height="46" rx="0" fill="#FBF9F4"/>
+<text x="838" y="440" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Detection range</text>
+<text x="1080" y="440" font-size="15" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">5 km+ thermal / 10 km+ EO/IR</text>
+<text x="1360" y="440" font-size="15" fill="#4A5567" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">1-2 km typical</text>
+<rect x="820" y="456" width="720" height="46" rx="0" fill="rgba(15,24,40,0.05)"/>
+<text x="838" y="486" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Supply chain</text>
+<text x="1080" y="486" font-size="15" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">Indigenous preferred</text>
+<text x="1360" y="486" font-size="15" fill="#4A5567" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">Import permitted</text>
+<rect x="820" y="502" width="720" height="46" rx="0" fill="#FBF9F4"/>
+<text x="838" y="532" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Certification</text>
+<text x="1080" y="532" font-size="15" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">MIL-STD, defence QA</text>
+<text x="1360" y="532" font-size="15" fill="#4A5567" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">DGCA (commercial)</text>
+<rect x="820" y="548" width="720" height="46" rx="0" fill="rgba(15,24,40,0.05)"/>
+<text x="838" y="578" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">ASP per payload</text>
+<text x="1080" y="578" font-size="15" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">USD 20k - 200k</text>
+<text x="1360" y="578" font-size="15" fill="#4A5567" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">USD 2k - 20k</text>
+<rect x="820" y="180" width="720" height="414" rx="8" fill="none" stroke="rgba(15,24,40,0.25)" stroke-width="1.5"/>
+<rect x="820" y="616" width="720" height="84" rx="10" fill="rgba(201,168,76,0.08)" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+<text x="838" y="646" font-size="16" fill="#0F1828" text-anchor="start" font-weight="700">Why it matters</text>
+<text x="838" y="672" font-size="15" fill="#4A5567" text-anchor="start">Highest per-unit value, longest cycles (2-5 yrs). IAF Mehar</text>
+<text x="838" y="692" font-size="15" fill="#4A5567" text-anchor="start">Baba swarm tender explicitly seeks indigenous radar / EO/IR.</text>
+<text x="60" y="872" font-size="15" fill="#4A5567">Source: Army / IAF / Navy tenders, iDEX. Techadyant Labs analysis.</text>
+<text x="1540" y="872" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

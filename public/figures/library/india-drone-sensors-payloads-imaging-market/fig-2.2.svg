@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 839" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="839" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Analytical Methodology Flow</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Six-stage research process from collection to refinement</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 2.2 &#183; Techadyant Labs &#183; 2026</text>
+<rect x="60" y="160" width="470" height="70" rx="10" fill="#2BC5B4"/>
+<circle cx="100" cy="195.0" r="22" fill="rgba(15,24,40,0.25)"/>
+<text x="100" y="203.0" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">1</text>
+<text x="138" y="204.0" font-size="23" fill="#FFFFFF" text-anchor="start" font-weight="800">Data Collection</text>
+<line x1="295.0" y1="234" x2="295.0" y2="264" stroke="#4A5567" stroke-width="2.5"/><polygon points="295.0,264 290.7,253.9 299.3,253.9" fill="#4A5567"/>
+<rect x="60" y="270" width="470" height="170" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<circle cx="90" cy="304" r="5" fill="#2BC5B4"/>
+<text x="108" y="310" font-size="18" fill="#4A5567" text-anchor="start">Secondary databases</text>
+<circle cx="90" cy="344" r="5" fill="#2BC5B4"/>
+<text x="108" y="350" font-size="18" fill="#4A5567" text-anchor="start">Expert interviews</text>
+<circle cx="90" cy="384" r="5" fill="#2BC5B4"/>
+<text x="108" y="390" font-size="18" fill="#4A5567" text-anchor="start">Industry survey</text>
+<line x1="534" y1="195.0" x2="561" y2="195.0" stroke="#C9A84C" stroke-width="3"/><polygon points="561,195.0 550.9,199.3 550.9,190.7" fill="#C9A84C"/>
+<rect x="565" y="160" width="470" height="70" rx="10" fill="#2BC5B4"/>
+<circle cx="605" cy="195.0" r="22" fill="rgba(15,24,40,0.25)"/>
+<text x="605" y="203.0" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">2</text>
+<text x="643" y="204.0" font-size="23" fill="#FFFFFF" text-anchor="start" font-weight="800">Data Validation</text>
+<line x1="800.0" y1="234" x2="800.0" y2="264" stroke="#4A5567" stroke-width="2.5"/><polygon points="800.0,264 795.7,253.9 804.3,253.9" fill="#4A5567"/>
+<rect x="565" y="270" width="470" height="170" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<circle cx="595" cy="304" r="5" fill="#2BC5B4"/>
+<text x="613" y="310" font-size="18" fill="#4A5567" text-anchor="start">Cross-source checks</text>
+<circle cx="595" cy="344" r="5" fill="#2BC5B4"/>
+<text x="613" y="350" font-size="18" fill="#4A5567" text-anchor="start">Expert review</text>
+<circle cx="595" cy="384" r="5" fill="#2BC5B4"/>
+<text x="613" y="390" font-size="18" fill="#4A5567" text-anchor="start">Consistency tests</text>
+<line x1="1039" y1="195.0" x2="1066" y2="195.0" stroke="#C9A84C" stroke-width="3"/><polygon points="1066,195.0 1055.9,199.3 1055.9,190.7" fill="#C9A84C"/>
+<rect x="1070" y="160" width="470" height="70" rx="10" fill="#C9A84C"/>
+<circle cx="1110" cy="195.0" r="22" fill="rgba(15,24,40,0.25)"/>
+<text x="1110" y="203.0" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">3</text>
+<text x="1148" y="204.0" font-size="23" fill="#0F1828" text-anchor="start" font-weight="800">Triangulation</text>
+<line x1="1305.0" y1="234" x2="1305.0" y2="264" stroke="#4A5567" stroke-width="2.5"/><polygon points="1305.0,264 1300.7,253.9 1309.3,253.9" fill="#4A5567"/>
+<rect x="1070" y="270" width="470" height="170" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<circle cx="1100" cy="304" r="5" fill="#C9A84C"/>
+<text x="1118" y="310" font-size="18" fill="#4A5567" text-anchor="start">Top-down: revenue models</text>
+<circle cx="1100" cy="344" r="5" fill="#C9A84C"/>
+<text x="1118" y="350" font-size="18" fill="#4A5567" text-anchor="start">Bottom-up: fleet × sensors</text>
+<circle cx="1100" cy="384" r="5" fill="#C9A84C"/>
+<text x="1118" y="390" font-size="18" fill="#4A5567" text-anchor="start">Reconcile estimates</text>
+<rect x="60" y="470" width="470" height="70" rx="10" fill="#C9A84C"/>
+<circle cx="100" cy="505.0" r="22" fill="rgba(15,24,40,0.25)"/>
+<text x="100" y="513.0" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">4</text>
+<text x="138" y="514.0" font-size="23" fill="#0F1828" text-anchor="start" font-weight="800">Forecast Modelling</text>
+<line x1="295.0" y1="544" x2="295.0" y2="574" stroke="#4A5567" stroke-width="2.5"/><polygon points="295.0,574 290.7,563.9 299.3,563.9" fill="#4A5567"/>
+<rect x="60" y="580" width="470" height="170" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<circle cx="90" cy="614" r="5" fill="#C9A84C"/>
+<text x="108" y="620" font-size="18" fill="#4A5567" text-anchor="start">Base · Bull · Bear cases</text>
+<circle cx="90" cy="654" r="5" fill="#C9A84C"/>
+<text x="108" y="660" font-size="18" fill="#4A5567" text-anchor="start">Sensitivity analysis</text>
+<circle cx="90" cy="694" r="5" fill="#C9A84C"/>
+<text x="108" y="700" font-size="18" fill="#4A5567" text-anchor="start">Scenario probabilities</text>
+<line x1="534" y1="505.0" x2="561" y2="505.0" stroke="#C9A84C" stroke-width="3"/><polygon points="561,505.0 550.9,509.3 550.9,500.7" fill="#C9A84C"/>
+<rect x="565" y="470" width="470" height="70" rx="10" fill="#2BC5B4"/>
+<circle cx="605" cy="505.0" r="22" fill="rgba(15,24,40,0.25)"/>
+<text x="605" y="513.0" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">5</text>
+<text x="643" y="514.0" font-size="23" fill="#FFFFFF" text-anchor="start" font-weight="800">Segmentation</text>
+<line x1="800.0" y1="544" x2="800.0" y2="574" stroke="#4A5567" stroke-width="2.5"/><polygon points="800.0,574 795.7,563.9 804.3,563.9" fill="#4A5567"/>
+<rect x="565" y="580" width="470" height="170" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<circle cx="595" cy="614" r="5" fill="#2BC5B4"/>
+<text x="613" y="620" font-size="18" fill="#4A5567" text-anchor="start">By sensor type</text>
+<circle cx="595" cy="654" r="5" fill="#2BC5B4"/>
+<text x="613" y="660" font-size="18" fill="#4A5567" text-anchor="start">By end-use sector</text>
+<circle cx="595" cy="694" r="5" fill="#2BC5B4"/>
+<text x="613" y="700" font-size="18" fill="#4A5567" text-anchor="start">By UAV category</text>
+<line x1="1039" y1="505.0" x2="1066" y2="505.0" stroke="#C9A84C" stroke-width="3"/><polygon points="1066,505.0 1055.9,509.3 1055.9,500.7" fill="#C9A84C"/>
+<rect x="1070" y="470" width="470" height="70" rx="10" fill="#2BC5B4"/>
+<circle cx="1110" cy="505.0" r="22" fill="rgba(15,24,40,0.25)"/>
+<text x="1110" y="513.0" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">6</text>
+<text x="1148" y="514.0" font-size="23" fill="#FFFFFF" text-anchor="start" font-weight="800">Validation &amp; Refinement</text>
+<line x1="1305.0" y1="544" x2="1305.0" y2="574" stroke="#4A5567" stroke-width="2.5"/><polygon points="1305.0,574 1300.7,563.9 1309.3,563.9" fill="#4A5567"/>
+<rect x="1070" y="580" width="470" height="170" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<circle cx="1100" cy="614" r="5" fill="#2BC5B4"/>
+<text x="1118" y="620" font-size="18" fill="#4A5567" text-anchor="start">Client feedback</text>
+<circle cx="1100" cy="654" r="5" fill="#2BC5B4"/>
+<text x="1118" y="660" font-size="18" fill="#4A5567" text-anchor="start">Expert-panel review</text>
+<circle cx="1100" cy="694" r="5" fill="#2BC5B4"/>
+<text x="1118" y="700" font-size="18" fill="#4A5567" text-anchor="start">Final calibration</text>
+<text x="60" y="811" font-size="15" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+<text x="1540" y="811" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Schematic</text>
+</svg>

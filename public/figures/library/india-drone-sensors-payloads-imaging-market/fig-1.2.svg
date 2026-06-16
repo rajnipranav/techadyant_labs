@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="900" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Five-Point Action Plan for Stakeholders</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Priority moves for OEMs, integrators, DaaS operators and investors</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 1.2 &#183; Techadyant Labs &#183; 2026</text>
+<rect x="60" y="148" width="1480" height="128" rx="12" fill="#FFFFFF" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<circle cx="118" cy="212.0" r="40" fill="#C9A84C"/>
+<text x="118" y="227.0" font-size="44" fill="#0F1828" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">1</text>
+<text x="188" y="192" font-size="25" fill="#0F1828" text-anchor="start" font-weight="800">ACCELERATE CERTIFICATION</text>
+<text x="188" y="228" font-size="18" fill="#4A5567" text-anchor="start">DGCA Type Certification is the gatekeeper to commercial revenue. Prioritise</text>
+<text x="188" y="254" font-size="18" fill="#4A5567" text-anchor="start">certification for your highest-margin payload configurations.</text>
+<rect x="60" y="290" width="1480" height="128" rx="12" fill="#FFFFFF" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<circle cx="118" cy="354.0" r="40" fill="#2BC5B4"/>
+<text x="118" y="369.0" font-size="44" fill="#FFFFFF" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">2</text>
+<text x="188" y="334" font-size="25" fill="#0F1828" text-anchor="start" font-weight="800">LOCALISE STRATEGIC COMPONENTS</text>
+<text x="188" y="370" font-size="18" fill="#4A5567" text-anchor="start">Import dependence on germanium, LiDAR and IMU is unsustainable. Partner with</text>
+<text x="188" y="396" font-size="18" fill="#4A5567" text-anchor="start">indigenous developers or build in-house alternatives.</text>
+<rect x="60" y="432" width="1480" height="128" rx="12" fill="#FFFFFF" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<circle cx="118" cy="496.0" r="40" fill="#C9A84C"/>
+<text x="118" y="511.0" font-size="44" fill="#0F1828" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">3</text>
+<text x="188" y="476" font-size="25" fill="#0F1828" text-anchor="start" font-weight="800">SHIFT TO DATA MONETISATION</text>
+<text x="188" y="512" font-size="18" fill="#4A5567" text-anchor="start">Hardware margins are compressing. Build analytics platforms that convert sensor data</text>
+<text x="188" y="538" font-size="18" fill="#4A5567" text-anchor="start">into actionable insight for end-users.</text>
+<rect x="60" y="574" width="1480" height="128" rx="12" fill="#FFFFFF" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<circle cx="118" cy="638.0" r="40" fill="#2BC5B4"/>
+<text x="118" y="653.0" font-size="44" fill="#FFFFFF" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">4</text>
+<text x="188" y="618" font-size="25" fill="#0F1828" text-anchor="start" font-weight="800">PURSUE SENSOR-FUSION INTEGRATION</text>
+<text x="188" y="654" font-size="18" fill="#4A5567" text-anchor="start">Enterprise buyers prefer single integrated payloads over discrete sensors. Develop</text>
+<text x="188" y="680" font-size="18" fill="#4A5567" text-anchor="start">pre-calibrated, multi-sensor modules.</text>
+<rect x="60" y="716" width="1480" height="128" rx="12" fill="#FFFFFF" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<circle cx="118" cy="780.0" r="40" fill="#C9A84C"/>
+<text x="118" y="795.0" font-size="44" fill="#0F1828" text-anchor="middle" font-weight="800" font-family="'JetBrains Mono','Courier New',monospace">5</text>
+<text x="188" y="760" font-size="25" fill="#0F1828" text-anchor="start" font-weight="800">MONITOR REGULATORY MILESTONES</text>
+<text x="188" y="796" font-size="18" fill="#4A5567" text-anchor="start">BVLOS liberalisation (expected 2027–28) will double the addressable market. Ready</text>
+<text x="188" y="822" font-size="18" fill="#4A5567" text-anchor="start">sensor platforms for BVLOS operations.</text>
+<text x="60" y="872" font-size="15" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+</svg>

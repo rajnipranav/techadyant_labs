@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 853" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="853" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Where to Place Sensor Bets</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">End-use sectors by 2026 demand share and 2026-35 growth</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 10.1 &#183; Techadyant Labs &#183; 2026</text>
+<rect x="577.1428571428571" y="200" width="502.8571428571429" height="238.09523809523807" rx="0" fill="rgba(43,197,180,0.1)"/>
+<rect x="200" y="200" width="377.1428571428571" height="238.09523809523807" rx="0" fill="rgba(201,168,76,0.1)"/>
+<rect x="577.1428571428571" y="438.0952380952381" width="502.8571428571429" height="261.9047619047619" rx="0" fill="rgba(15,24,40,0.05)"/>
+<rect x="200" y="438.0952380952381" width="377.1428571428571" height="261.9047619047619" rx="0" fill="rgba(200,68,59,0.07)"/>
+<line x1="577.1428571428571" y1="200" x2="577.1428571428571" y2="700" stroke="rgba(15,24,40,0.3)" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="200" y1="438.0952380952381" x2="1080" y2="438.0952380952381" stroke="rgba(15,24,40,0.3)" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="200" y1="200" x2="200" y2="700" stroke="#0F1828" stroke-width="2"/>
+<line x1="200" y1="700" x2="1080" y2="700" stroke="#0F1828" stroke-width="2"/>
+<text x="200.0" y="730" font-size="14" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">0%</text>
+<line x1="200.0" y1="700" x2="200.0" y2="706" stroke="#0F1828" stroke-width="1"/>
+<text x="451.42857142857144" y="730" font-size="14" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">10%</text>
+<line x1="451.42857142857144" y1="700" x2="451.42857142857144" y2="706" stroke="#0F1828" stroke-width="1"/>
+<text x="702.8571428571429" y="730" font-size="14" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">20%</text>
+<line x1="702.8571428571429" y1="700" x2="702.8571428571429" y2="706" stroke="#0F1828" stroke-width="1"/>
+<text x="954.2857142857142" y="730" font-size="14" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">30%</text>
+<line x1="954.2857142857142" y1="700" x2="954.2857142857142" y2="706" stroke="#0F1828" stroke-width="1"/>
+<text x="186" y="705.0" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">0%</text>
+<line x1="194" y1="700.0" x2="200" y2="700.0" stroke="#0F1828" stroke-width="1"/>
+<text x="186" y="585.952380952381" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">10%</text>
+<line x1="194" y1="580.952380952381" x2="200" y2="580.952380952381" stroke="#0F1828" stroke-width="1"/>
+<text x="186" y="466.9047619047619" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">20%</text>
+<line x1="194" y1="461.9047619047619" x2="200" y2="461.9047619047619" stroke="#0F1828" stroke-width="1"/>
+<text x="186" y="347.85714285714283" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">30%</text>
+<line x1="194" y1="342.85714285714283" x2="200" y2="342.85714285714283" stroke="#0F1828" stroke-width="1"/>
+<text x="186" y="228.80952380952385" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">40%</text>
+<line x1="194" y1="223.80952380952385" x2="200" y2="223.80952380952385" stroke="#0F1828" stroke-width="1"/>
+<text x="40" y="450.0" font-size="16" fill="#4A5567" font-weight="600" text-anchor="middle" transform="rotate(-90 40 450.0)">Growth rate (CAGR 2026-35)</text>
+<text x="640.0" y="762" font-size="16" fill="#4A5567" text-anchor="middle" font-weight="600">Market share (% of total sensor demand, 2026)</text>
+<text x="1066" y="226" font-size="15" fill="#2BC5B4" text-anchor="end" font-weight="700">PRIORITY 1 - Invest heavily</text>
+<text x="214" y="226" font-size="15" fill="#C9A84C" text-anchor="start" font-weight="700">PRIORITY 2 - Build for the future</text>
+<text x="1066" y="684" font-size="15" fill="#4A5567" text-anchor="end" font-weight="700">PRIORITY 3 - Maintain &amp; differentiate</text>
+<text x="214" y="684" font-size="15" fill="#C8443B" text-anchor="start" font-weight="700">PRIORITY 4 - Selective / avoid</text>
+<circle cx="614.8571428571429" cy="378.57142857142856" r="13" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2.5"/>
+<text x="632.8571428571429" y="384.57142857142856" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Infrastructure</text>
+<circle cx="702.8571428571429" cy="438.0952380952381" r="13" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2.5"/>
+<text x="720.8571428571429" y="444.0952380952381" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Agriculture</text>
+<circle cx="300.57142857142856" cy="259.5238095238095" r="13" fill="#C9A84C" stroke="#FBF9F4" stroke-width="2.5"/>
+<text x="318.57142857142856" y="265.5238095238095" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">BVLOS Logistics</text>
+<circle cx="878.8571428571429" cy="414.2857142857143" r="13" fill="#C9A84C" stroke="#FBF9F4" stroke-width="2.5"/>
+<text x="896.8571428571429" y="420.2857142857143" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Defence</text>
+<circle cx="476.57142857142856" cy="509.5238095238095" r="13" fill="#4A5567" stroke="#FBF9F4" stroke-width="2.5"/>
+<text x="494.57142857142856" y="515.5238095238095" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Mining</text>
+<circle cx="501.7142857142857" cy="557.1428571428571" r="13" fill="#C8443B" stroke="#FBF9F4" stroke-width="2.5"/>
+<text x="519.7142857142858" y="563.1428571428571" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Consumer</text>
+<rect x="1150" y="200" width="390" height="500" rx="10" fill="rgba(15,24,40,0.05)" stroke="rgba(15,24,40,0.2)" stroke-width="1.5"/>
+<text x="1170" y="234" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Reading the matrix</text>
+<rect x="1170" y="256" width="14" height="14" rx="3" fill="#2BC5B4"/>
+<text x="1194" y="272" font-size="16" fill="#0F1828" text-anchor="start" font-weight="700">P1 Invest</text>
+<text x="1194" y="296" font-size="14" fill="#4A5567" text-anchor="start">Infrastructure (25-30% growth,</text>
+<text x="1194" y="318" font-size="14" fill="#4A5567" text-anchor="start">15-18% share); Agriculture (20-25%,</text>
+<text x="1194" y="340" font-size="14" fill="#4A5567" text-anchor="start">18-22% of commercial).</text>
+<rect x="1170" y="368" width="14" height="14" rx="3" fill="#C9A84C"/>
+<text x="1194" y="384" font-size="16" fill="#0F1828" text-anchor="start" font-weight="700">P2 Build</text>
+<text x="1194" y="408" font-size="14" fill="#4A5567" text-anchor="start">BVLOS logistics (35-40%, &lt;5%);</text>
+<text x="1194" y="430" font-size="14" fill="#4A5567" text-anchor="start">Defence (22-26%, 25-30% - high ASP).</text>
+<rect x="1170" y="460" width="14" height="14" rx="3" fill="#4A5567"/>
+<text x="1194" y="476" font-size="16" fill="#0F1828" text-anchor="start" font-weight="700">P3 Maintain</text>
+<text x="1194" y="500" font-size="14" fill="#4A5567" text-anchor="start">Mining (15-18%, 10-12%) -</text>
+<text x="1194" y="522" font-size="14" fill="#4A5567" text-anchor="start">stable, not high-growth.</text>
+<rect x="1170" y="552" width="14" height="14" rx="3" fill="#C8443B"/>
+<text x="1194" y="568" font-size="16" fill="#0F1828" text-anchor="start" font-weight="700">P4 Selective</text>
+<text x="1194" y="592" font-size="14" fill="#4A5567" text-anchor="start">Consumer (10-15% growth,</text>
+<text x="1194" y="614" font-size="14" fill="#4A5567" text-anchor="start">10-15% share) - low margins.</text>
+<text x="60" y="825" font-size="15" fill="#4A5567">Source: Sectoral demand estimates. Techadyant Labs analysis.</text>
+<text x="1540" y="825" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

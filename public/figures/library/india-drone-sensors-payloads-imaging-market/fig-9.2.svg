@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="900" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">How India&#x27;s Sensor Ecosystem Connects</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Suppliers, distributors, integrators and end-users; partnerships 2024-2026</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 9.2 &#183; Techadyant Labs &#183; 2026</text>
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#4A5567"/></marker></defs>
+<text x="60" y="166" font-size="16" fill="#4A5567" text-anchor="start" font-weight="700">INTERNATIONAL SUPPLIERS</text>
+<rect x="60.0" y="180" width="200" height="58" rx="8" fill="rgba(15,24,40,0.06)" stroke="rgba(15,24,40,0.35)" stroke-width="1.5"/>
+<text x="160.0" y="206" font-size="19" fill="#0F1828" text-anchor="middle" font-weight="700">u-blox</text>
+<text x="160.0" y="227" font-size="15" fill="#4A5567" text-anchor="middle">GNSS</text>
+<rect x="380.0" y="180" width="200" height="58" rx="8" fill="rgba(15,24,40,0.06)" stroke="rgba(15,24,40,0.35)" stroke-width="1.5"/>
+<text x="480.0" y="206" font-size="19" fill="#0F1828" text-anchor="middle" font-weight="700">Hesai</text>
+<text x="480.0" y="227" font-size="15" fill="#4A5567" text-anchor="middle">LiDAR</text>
+<rect x="700.0" y="180" width="200" height="58" rx="8" fill="rgba(15,24,40,0.06)" stroke="rgba(15,24,40,0.35)" stroke-width="1.5"/>
+<text x="800.0" y="206" font-size="19" fill="#0F1828" text-anchor="middle" font-weight="700">FLIR</text>
+<text x="800.0" y="227" font-size="15" fill="#4A5567" text-anchor="middle">Thermal</text>
+<rect x="1020.0" y="180" width="200" height="58" rx="8" fill="rgba(15,24,40,0.06)" stroke="rgba(15,24,40,0.35)" stroke-width="1.5"/>
+<text x="1120.0" y="206" font-size="19" fill="#0F1828" text-anchor="middle" font-weight="700">MicaSense</text>
+<text x="1120.0" y="227" font-size="15" fill="#4A5567" text-anchor="middle">Multispectral</text>
+<rect x="1340.0" y="180" width="200" height="58" rx="8" fill="rgba(15,24,40,0.06)" stroke="rgba(15,24,40,0.35)" stroke-width="1.5"/>
+<text x="1440.0" y="206" font-size="19" fill="#0F1828" text-anchor="middle" font-weight="700">Bosch</text>
+<text x="1440.0" y="227" font-size="15" fill="#4A5567" text-anchor="middle">IMU</text>
+<rect x="60" y="300" width="1480" height="58" rx="8" fill="rgba(201,168,76,0.18)" stroke="#C9A84C" stroke-width="1.5"/>
+<text x="800.0" y="325" font-size="19" fill="#0F1828" text-anchor="middle" font-weight="700">DISTRIBUTORS / IMPORT CHANNELS</text>
+<text x="800.0" y="347" font-size="15" fill="#4A5567" text-anchor="middle">eInfochips, Anshuman Tech, multiple small importers</text>
+<line x1="160.0" y1="238" x2="160.0" y2="298" stroke="rgba(15,24,40,0.5)" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="480.0" y1="238" x2="480.0" y2="298" stroke="rgba(15,24,40,0.5)" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="800.0" y1="238" x2="800.0" y2="298" stroke="rgba(15,24,40,0.5)" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="1120.0" y1="238" x2="1120.0" y2="298" stroke="rgba(15,24,40,0.5)" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="1440.0" y1="238" x2="1440.0" y2="298" stroke="rgba(15,24,40,0.5)" stroke-width="2" marker-end="url(#ah)"/>
+<text x="60" y="412" font-size="16" fill="#2BC5B4" text-anchor="start" font-weight="700">TIER 2 / TIER 3 (INDIA)</text>
+<rect x="60.0" y="430" width="348" height="70" rx="8" fill="rgba(43,197,180,0.16)" stroke="#2BC5B4" stroke-width="2"/>
+<text x="234.0" y="460" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">IdeaForge</text>
+<text x="234.0" y="483" font-size="15" fill="#4A5567" text-anchor="middle">OEM + payload</text>
+<rect x="437.3333333333333" y="430" width="348" height="70" rx="8" fill="rgba(43,197,180,0.16)" stroke="#2BC5B4" stroke-width="2"/>
+<text x="611.3333333333333" y="460" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">Eon Space Labs</text>
+<text x="611.3333333333333" y="483" font-size="15" fill="#4A5567" text-anchor="middle">Thermal optics</text>
+<rect x="814.6666666666666" y="430" width="348" height="70" rx="8" fill="rgba(43,197,180,0.16)" stroke="#2BC5B4" stroke-width="2"/>
+<text x="988.6666666666666" y="460" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">Garuda</text>
+<text x="988.6666666666666" y="483" font-size="15" fill="#4A5567" text-anchor="middle">DaaS + payload</text>
+<rect x="1192.0" y="430" width="348" height="70" rx="8" fill="rgba(201,168,76,0.16)" stroke="#C9A84C" stroke-width="2"/>
+<text x="1366.0" y="460" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">BEL</text>
+<text x="1366.0" y="483" font-size="15" fill="#4A5567" text-anchor="middle">Defence radar</text>
+<rect x="60.0" y="526" width="348" height="70" rx="8" fill="rgba(43,197,180,0.16)" stroke="#2BC5B4" stroke-width="2"/>
+<text x="234.0" y="556" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">Dhaksha</text>
+<text x="234.0" y="579" font-size="15" fill="#4A5567" text-anchor="middle">Survey</text>
+<rect x="437.3333333333333" y="526" width="348" height="70" rx="8" fill="rgba(43,197,180,0.16)" stroke="#2BC5B4" stroke-width="2"/>
+<text x="611.3333333333333" y="556" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">General Aeronautics</text>
+<text x="611.3333333333333" y="579" font-size="15" fill="#4A5567" text-anchor="middle">Mining</text>
+<rect x="814.6666666666666" y="526" width="348" height="70" rx="8" fill="rgba(201,168,76,0.16)" stroke="#C9A84C" stroke-width="2"/>
+<text x="988.6666666666666" y="556" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">Tonbo Imaging</text>
+<text x="988.6666666666666" y="579" font-size="15" fill="#4A5567" text-anchor="middle">Defence EO/IR</text>
+<rect x="1192.0" y="526" width="348" height="70" rx="8" fill="rgba(201,168,76,0.16)" stroke="#C9A84C" stroke-width="2"/>
+<text x="1366.0" y="556" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">NewSpace Research</text>
+<text x="1366.0" y="579" font-size="15" fill="#4A5567" text-anchor="middle">Swarm</text>
+<line x1="234.0" y1="358" x2="234.0" y2="428" stroke="rgba(15,24,40,0.4)" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="611.3333333333333" y1="358" x2="611.3333333333333" y2="428" stroke="rgba(15,24,40,0.4)" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="988.6666666666666" y1="358" x2="988.6666666666666" y2="428" stroke="rgba(15,24,40,0.4)" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="1366.0" y1="358" x2="1366.0" y2="428" stroke="rgba(15,24,40,0.4)" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="60" y="628" width="1480" height="56" rx="8" fill="rgba(15,24,40,0.85)"/>
+<text x="800.0" y="662" font-size="20" fill="#FBF9F4" text-anchor="middle" font-weight="700">END-USERS  -  Commercial . Defence . Government</text>
+<line x1="234.0" y1="596" x2="234.0" y2="626" stroke="rgba(15,24,40,0.4)" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="611.3333333333333" y1="596" x2="611.3333333333333" y2="626" stroke="rgba(15,24,40,0.4)" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="988.6666666666666" y1="596" x2="988.6666666666666" y2="626" stroke="rgba(15,24,40,0.4)" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="1366.0" y1="596" x2="1366.0" y2="626" stroke="rgba(15,24,40,0.4)" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="60" y="714" width="1480" height="116" rx="8" fill="rgba(43,197,180,0.07)" stroke="rgba(43,197,180,0.4)" stroke-width="1.5"/>
+<text x="78" y="740" font-size="17" fill="#0F1828" text-anchor="start" font-weight="700">Key partnerships (2024-2026)</text>
+<text x="78.0" y="770" font-size="15" fill="#4A5567" text-anchor="start">•  IdeaForge + Eon Space Labs - germanium-free thermal on Q6 V2 GEO</text>
+<text x="818.0" y="770" font-size="15" fill="#4A5567" text-anchor="start">•  BEL + IdeaForge - defence payload (radar + EO/IR)</text>
+<text x="78.0" y="800" font-size="15" fill="#4A5567" text-anchor="start">•  Garuda + Eon Space Labs - thermal for agri-surveillance</text>
+<text x="818.0" y="800" font-size="15" fill="#4A5567" text-anchor="start">•  IdeaForge + u-blox (via distributor) - RTK GNSS modules</text>
+<text x="60" y="872" font-size="15" fill="#4A5567">Source: Company announcements, industry interviews. Techadyant Labs analysis.</text>
+<text x="1540" y="872" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Schematic</text>
+</svg>

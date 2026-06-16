@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 857" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="857" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Sensors Are a Tenth of DaaS Cost</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">DaaS unit economics per flight hour, infrastructure inspection · representative, INR</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 11.2 &#183; Techadyant Labs &#183; 2026</text>
+<text x="70" y="164" font-size="18" fill="#4A5567" text-anchor="start" font-weight="700">Revenue per flight hour</text>
+<text x="70" y="208" font-size="42" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">INR 15,000</text>
+<text x="72" y="234" font-size="16" fill="#4A5567" text-anchor="start">USD 180 · infrastructure inspection</text>
+<text x="424" y="285" font-size="17" fill="#0F1828" text-anchor="end">Drone depreciation</text>
+<rect x="440" y="265" width="400" height="28" rx="5" fill="rgba(15,24,40,0.06)"/>
+<rect x="440" y="265" width="400.0" height="28" rx="5" fill="rgba(200,68,59,0.78)"/>
+<text x="858" y="285" font-size="16" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">INR 2,500</text>
+<text x="990" y="285" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">17%</text>
+<text x="424" y="337" font-size="17" fill="#0F1828" text-anchor="end">Sensor depreciation</text>
+<rect x="440" y="317" width="400" height="28" rx="5" fill="rgba(15,24,40,0.06)"/>
+<rect x="440" y="317" width="240.0" height="28" rx="5" fill="rgba(200,68,59,0.78)"/>
+<text x="858" y="337" font-size="16" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">INR 1,500</text>
+<text x="990" y="337" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">10%</text>
+<text x="424" y="389" font-size="17" fill="#0F1828" text-anchor="end">Software &amp; data processing</text>
+<rect x="440" y="369" width="400" height="28" rx="5" fill="rgba(15,24,40,0.06)"/>
+<rect x="440" y="369" width="240.0" height="28" rx="5" fill="rgba(200,68,59,0.78)"/>
+<text x="858" y="389" font-size="16" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">INR 1,500</text>
+<text x="990" y="389" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">10%</text>
+<text x="424" y="441" font-size="17" fill="#0F1828" text-anchor="end">Pilot salary (allocated)</text>
+<rect x="440" y="421" width="400" height="28" rx="5" fill="rgba(15,24,40,0.06)"/>
+<rect x="440" y="421" width="160.0" height="28" rx="5" fill="rgba(200,68,59,0.78)"/>
+<text x="858" y="441" font-size="16" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">INR 1,000</text>
+<text x="990" y="441" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">7%</text>
+<text x="424" y="493" font-size="17" fill="#0F1828" text-anchor="end">Maintenance &amp; calibration</text>
+<rect x="440" y="473" width="400" height="28" rx="5" fill="rgba(15,24,40,0.06)"/>
+<rect x="440" y="473" width="160.0" height="28" rx="5" fill="rgba(200,68,59,0.78)"/>
+<text x="858" y="493" font-size="16" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">INR 1,000</text>
+<text x="990" y="493" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">7%</text>
+<text x="424" y="545" font-size="17" fill="#0F1828" text-anchor="end">Logistics (travel to site)</text>
+<rect x="440" y="525" width="400" height="28" rx="5" fill="rgba(15,24,40,0.06)"/>
+<rect x="440" y="525" width="160.0" height="28" rx="5" fill="rgba(200,68,59,0.78)"/>
+<text x="858" y="545" font-size="16" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">INR 1,000</text>
+<text x="990" y="545" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">7%</text>
+<text x="424" y="597" font-size="17" fill="#0F1828" text-anchor="end">Sales &amp; marketing</text>
+<rect x="440" y="577" width="400" height="28" rx="5" fill="rgba(15,24,40,0.06)"/>
+<rect x="440" y="577" width="160.0" height="28" rx="5" fill="rgba(200,68,59,0.78)"/>
+<text x="858" y="597" font-size="16" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">INR 1,000</text>
+<text x="990" y="597" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">7%</text>
+<text x="424" y="649" font-size="17" fill="#0F1828" text-anchor="end">Insurance</text>
+<rect x="440" y="629" width="400" height="28" rx="5" fill="rgba(15,24,40,0.06)"/>
+<rect x="440" y="629" width="80.0" height="28" rx="5" fill="rgba(200,68,59,0.78)"/>
+<text x="858" y="649" font-size="16" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">INR 500</text>
+<text x="990" y="649" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">3%</text>
+<text x="424" y="701" font-size="17" fill="#0F1828" text-anchor="end">Overhead (G&amp;A)</text>
+<rect x="440" y="681" width="400" height="28" rx="5" fill="rgba(15,24,40,0.06)"/>
+<rect x="440" y="681" width="80.0" height="28" rx="5" fill="rgba(200,68,59,0.78)"/>
+<text x="858" y="701" font-size="16" fill="#0F1828" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">INR 500</text>
+<text x="990" y="701" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">3%</text>
+<rect x="1090" y="248" width="440" height="250" rx="14" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.5"/>
+<text x="1114" y="290" font-size="20" fill="#0F1828" text-anchor="start" font-weight="700">Cost vs. profit</text>
+<rect x="1114" y="310" width="392" height="38" rx="8" fill="rgba(15,24,40,0.06)"/>
+<rect x="1114" y="310" width="274.4" height="38" rx="8" fill="rgba(200,68,59,0.78)"/>
+<rect x="1388.4" y="310" width="117.6" height="38" rx="8" fill="#2BC5B4"/>
+<text x="1251.2" y="335" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700">Total cost 70%</text>
+<text x="1447.2" y="335" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">GP 30%</text>
+<text x="1114" y="388" font-size="17" fill="#4A5567" text-anchor="start">Total cost</text>
+<text x="1506" y="388" font-size="19" fill="#C8443B" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">INR 10,500</text>
+<text x="1114" y="416" font-size="17" fill="#4A5567" text-anchor="start">Gross profit</text>
+<text x="1506" y="416" font-size="19" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">INR 4,500</text>
+<line x1="1114" y1="430" x2="1506" y2="430" stroke="rgba(15,24,40,0.15)" stroke-width="1"/>
+<text x="1114" y="458" font-size="17" fill="#4A5567" text-anchor="start">Net margin after overhead</text>
+<text x="1506" y="458" font-size="19" fill="#0F1828" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">20-25%</text>
+<rect x="1090" y="518" width="440" height="250" rx="14" fill="rgba(201,168,76,0.1)" stroke="#C9A84C" stroke-width="1.5"/>
+<text x="1114" y="554" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">What it means for sensor makers</text>
+<circle cx="1120" cy="577" r="3.5" fill="#C9A84C"/>
+<text x="1134" y="582" font-size="15" fill="#0F1828" text-anchor="start">Sensor depreciation is 10% of revenue —</text>
+<text x="1134" y="603" font-size="15" fill="#0F1828" text-anchor="start">buyers are price-sensitive</text>
+<circle cx="1120" cy="628" r="3.5" fill="#C9A84C"/>
+<text x="1134" y="633" font-size="15" fill="#0F1828" text-anchor="start">Reliability (low maintenance) matters as</text>
+<text x="1134" y="654" font-size="15" fill="#0F1828" text-anchor="start">much as specs</text>
+<circle cx="1120" cy="679" r="3.5" fill="#C9A84C"/>
+<text x="1134" y="684" font-size="15" fill="#0F1828" text-anchor="start">Swappable payloads raise fleet utilisation</text>
+<circle cx="1120" cy="709" r="3.5" fill="#C9A84C"/>
+<text x="1134" y="714" font-size="15" fill="#0F1828" text-anchor="start">Longer calibration intervals cut downtime</text>
+<circle cx="1120" cy="739" r="3.5" fill="#C9A84C"/>
+<text x="1134" y="744" font-size="15" fill="#0F1828" text-anchor="start">PaaS shifts sensor cost from Capex to Opex</text>
+<text x="60" y="829" font-size="15" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+<text x="1540" y="829" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

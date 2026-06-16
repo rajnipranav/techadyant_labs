@@ -16,6 +16,7 @@ import { ReportContent as OppContent, toc as oppToc } from '../content/the-oppor
 import { ReportContent as DroneContent, toc as droneToc } from '../content/who-builds-indias-drones';
 import { ReportContent as BatteryContent, toc as batteryToc } from '../content/indias-drone-battery-ecosystem';
 import { ReportContent as PropulsionContent, toc as propulsionToc } from '../content/india-drone-propulsion-opportunity';
+import { ReportContent as SensorsContent, toc as sensorsToc } from '../content/india-drone-sensors-payloads-imaging-market';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -29,6 +30,7 @@ const registry: Record<string, ReportModule> = {
   'who-builds-indias-drones': { toc: droneToc, Content: DroneContent },
   'indias-drone-battery-ecosystem': { toc: batteryToc, Content: BatteryContent },
   'india-drone-propulsion-opportunity': { toc: propulsionToc, Content: PropulsionContent },
+  'india-drone-sensors-payloads-imaging-market': { toc: sensorsToc, Content: SensorsContent },
 };
 
 export function generateStaticParams() {

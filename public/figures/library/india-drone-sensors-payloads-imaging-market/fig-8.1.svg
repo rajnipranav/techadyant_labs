@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="900" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">India Sensor Readiness Lags in Fabrication</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Technology Readiness Level by sensor category — India domestic capability, 2026</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 8.1 &#183; Techadyant Labs &#183; 2026</text>
+<line x1="606.6666666666666" y1="150" x2="606.6666666666666" y2="764" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="606.6666666666666" y="140" font-size="15" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">1</text>
+<line x1="693.3333333333333" y1="150" x2="693.3333333333333" y2="764" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="693.3333333333333" y="140" font-size="15" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2</text>
+<line x1="780.0" y1="150" x2="780.0" y2="764" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="780.0" y="140" font-size="15" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">3</text>
+<line x1="866.6666666666666" y1="150" x2="866.6666666666666" y2="764" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="866.6666666666666" y="140" font-size="15" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">4</text>
+<line x1="953.3333333333334" y1="150" x2="953.3333333333334" y2="764" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="953.3333333333334" y="140" font-size="15" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">5</text>
+<line x1="1040.0" y1="150" x2="1040.0" y2="764" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="1040.0" y="140" font-size="15" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">6</text>
+<line x1="1126.6666666666665" y1="150" x2="1126.6666666666665" y2="764" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="1126.6666666666665" y="140" font-size="15" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">7</text>
+<line x1="1213.3333333333333" y1="150" x2="1213.3333333333333" y2="764" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="1213.3333333333333" y="140" font-size="15" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">8</text>
+<line x1="1300.0" y1="150" x2="1300.0" y2="764" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="1300.0" y="140" font-size="15" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">9</text>
+<text x="910.0" y="114" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">India domestic TRL  (1 → 9)</text>
+<text x="1318" y="114" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Years to close</text>
+<rect x="520" y="166" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="166" width="563.3333333333335" height="30" rx="4" fill="#2BC5B4"/>
+<text x="506" y="189.0" font-size="16" fill="#0F1828" text-anchor="end">Sensor fusion software</text>
+<text x="1093.3333333333335" y="189.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 6.5</text>
+<text x="1318" y="189.0" font-size="14" fill="#4A5567" text-anchor="start">1 yr gap</text>
+<rect x="520" y="212" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="212" width="563.3333333333335" height="30" rx="4" fill="#2BC5B4"/>
+<text x="506" y="235.0" font-size="16" fill="#0F1828" text-anchor="end">Germanium-free thermal</text>
+<text x="1093.3333333333335" y="235.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 6.5</text>
+<text x="1318" y="235.0" font-size="14" fill="#4A5567" text-anchor="start">India leads</text>
+<rect x="520" y="258" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="258" width="563.3333333333335" height="30" rx="4" fill="#2BC5B4"/>
+<text x="506" y="281.0" font-size="16" fill="#0F1828" text-anchor="end">GNSS / RTK modules (assembly)</text>
+<text x="1093.3333333333335" y="281.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 6.5</text>
+<text x="1318" y="281.0" font-size="14" fill="#4A5567" text-anchor="start">2-3 yr</text>
+<rect x="520" y="304" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="304" width="476.66666666666674" height="30" rx="4" fill="#C9A84C"/>
+<text x="506" y="327.0" font-size="16" fill="#0F1828" text-anchor="end">IMU modules (assembly)</text>
+<text x="1006.6666666666667" y="327.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 5.5</text>
+<text x="1318" y="327.0" font-size="14" fill="#4A5567" text-anchor="start">3 yr</text>
+<rect x="520" y="350" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="350" width="476.66666666666674" height="30" rx="4" fill="#C9A84C"/>
+<text x="506" y="373.0" font-size="16" fill="#0F1828" text-anchor="end">Multispectral integrated arrays</text>
+<text x="1006.6666666666667" y="373.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 5.5</text>
+<text x="1318" y="373.0" font-size="14" fill="#4A5567" text-anchor="start">2 yr</text>
+<rect x="520" y="396" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="396" width="303.33333333333326" height="30" rx="4" fill="#C8443B"/>
+<text x="506" y="419.0" font-size="16" fill="#0F1828" text-anchor="end">Hyperspectral</text>
+<text x="833.3333333333333" y="419.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 3.5</text>
+<text x="1318" y="419.0" font-size="14" fill="#4A5567" text-anchor="start">2 yr</text>
+<rect x="520" y="442" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="442" width="303.33333333333326" height="30" rx="4" fill="#C8443B"/>
+<text x="506" y="465.0" font-size="16" fill="#0F1828" text-anchor="end">Drone-scale radar</text>
+<text x="833.3333333333333" y="465.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 3.5</text>
+<text x="1318" y="465.0" font-size="14" fill="#4A5567" text-anchor="start">3 yr</text>
+<rect x="520" y="488" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="488" width="216.66666666666674" height="30" rx="4" fill="#C8443B"/>
+<text x="506" y="511.0" font-size="16" fill="#0F1828" text-anchor="end">GNSS receiver ICs (design only)</text>
+<text x="746.6666666666667" y="511.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 2.5</text>
+<text x="1318" y="511.0" font-size="14" fill="#4A5567" text-anchor="start">6-7 yr</text>
+<rect x="520" y="534" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="534" width="216.66666666666674" height="30" rx="4" fill="#C8443B"/>
+<text x="506" y="557.0" font-size="16" fill="#0F1828" text-anchor="end">IMU MEMS chips (design only)</text>
+<text x="746.6666666666667" y="557.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 2.5</text>
+<text x="1318" y="557.0" font-size="14" fill="#4A5567" text-anchor="start">6 yr</text>
+<rect x="520" y="580" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="580" width="216.66666666666674" height="30" rx="4" fill="#C8443B"/>
+<text x="506" y="603.0" font-size="16" fill="#0F1828" text-anchor="end">Thermal germanium-based</text>
+<text x="746.6666666666667" y="603.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 2.5</text>
+<text x="1318" y="603.0" font-size="14" fill="#4A5567" text-anchor="start">6 yr</text>
+<rect x="520" y="626" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="626" width="216.66666666666674" height="30" rx="4" fill="#C8443B"/>
+<text x="506" y="649.0" font-size="16" fill="#0F1828" text-anchor="end">Multispectral filter arrays</text>
+<text x="746.6666666666667" y="649.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 2.5</text>
+<text x="1318" y="649.0" font-size="14" fill="#4A5567" text-anchor="start">5 yr</text>
+<rect x="520" y="672" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="672" width="130.0" height="30" rx="4" fill="#C8443B"/>
+<text x="506" y="695.0" font-size="16" fill="#0F1828" text-anchor="end">LiDAR mechanical</text>
+<text x="660.0" y="695.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 1.5</text>
+<text x="1318" y="695.0" font-size="14" fill="#4A5567" text-anchor="start">7 yr</text>
+<rect x="520" y="718" width="780" height="30" rx="4" fill="rgba(74,85,103,0.06)"/>
+<rect x="520" y="718" width="130.0" height="30" rx="4" fill="#C8443B"/>
+<text x="506" y="741.0" font-size="16" fill="#0F1828" text-anchor="end">LiDAR solid-state</text>
+<text x="660.0" y="741.0" font-size="14" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TRL 1.5</text>
+<text x="1318" y="741.0" font-size="14" fill="#4A5567" text-anchor="start">5 yr</text>
+<rect x="520" y="774" width="18" height="18" rx="3" fill="#2BC5B4"/>
+<text x="546" y="788" font-size="15" fill="#4A5567" text-anchor="start">Integration / software (TRL 6+) — narrow gap</text>
+<rect x="968.4" y="774" width="18" height="18" rx="3" fill="#C9A84C"/>
+<text x="994.4" y="788" font-size="15" fill="#4A5567" text-anchor="start">R&amp;D / partial (TRL 4-5)</text>
+<rect x="1236.1999999999998" y="774" width="18" height="18" rx="3" fill="#C8443B"/>
+<text x="1262.1999999999998" y="788" font-size="15" fill="#4A5567" text-anchor="start">Fabrication gap (TRL 1-3)</text>
+<text x="520" y="822" font-size="16" fill="#0F1828" text-anchor="start" font-weight="600">Key insight: India leads only in germanium-free thermal. Gaps widest in fabrication (MEMS, LiDAR engines, GNSS ICs).</text>
+<text x="60" y="872" font-size="15" fill="#4A5567">Source: Techadyant Labs analysis; company disclosures (IdeaForge, BEL, Eon Space Labs).</text>
+</svg>

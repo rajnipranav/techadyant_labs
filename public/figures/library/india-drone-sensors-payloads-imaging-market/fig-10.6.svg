@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1080" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="1080" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Which Sensor for Which Disaster</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Disaster-response drone sensor suite by event type</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 10.6 &#183; Techadyant Labs &#183; 2026</text>
+<text x="84" y="164" font-size="15" fill="#4A5567" text-anchor="start" font-weight="700">DISASTER TYPE</text>
+<text x="420" y="164" font-size="15" fill="#2BC5B4" text-anchor="start" font-weight="700">PRIMARY SENSORS</text>
+<text x="1000" y="164" font-size="15" fill="#C9A84C" text-anchor="start" font-weight="700">SECONDARY SENSORS</text>
+<rect x="60" y="184" width="1480" height="120" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.15)" stroke-width="1.5"/>
+<rect x="80" y="214.0" width="300" height="60" rx="10" fill="rgba(200,68,59,0.14)" stroke="#C8443B" stroke-width="1.5"/>
+<text x="230" y="252.0" font-size="24" fill="#0F1828" text-anchor="middle" font-weight="700">Flood</text>
+<circle cx="432" cy="222" r="5" fill="#2BC5B4"/>
+<text x="448" y="228" font-size="17" fill="#0F1828" text-anchor="start">LiDAR (terrain change)</text>
+<circle cx="432" cy="252" r="5" fill="#2BC5B4"/>
+<text x="448" y="258" font-size="17" fill="#0F1828" text-anchor="start">RGB (inundation extent)</text>
+<circle cx="1012" cy="222" r="5" fill="#C9A84C"/>
+<text x="1028" y="228" font-size="17" fill="#4A5567" text-anchor="start">Thermal (stranded persons)</text>
+<rect x="60" y="322" width="1480" height="120" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.15)" stroke-width="1.5"/>
+<rect x="80" y="352.0" width="300" height="60" rx="10" fill="rgba(200,68,59,0.14)" stroke="#C8443B" stroke-width="1.5"/>
+<text x="230" y="390.0" font-size="24" fill="#0F1828" text-anchor="middle" font-weight="700">Cyclone</text>
+<circle cx="432" cy="360" r="5" fill="#2BC5B4"/>
+<text x="448" y="366" font-size="17" fill="#0F1828" text-anchor="start">RGB (damage assessment)</text>
+<circle cx="432" cy="390" r="5" fill="#2BC5B4"/>
+<text x="448" y="396" font-size="17" fill="#0F1828" text-anchor="start">LiDAR (debris volume)</text>
+<circle cx="1012" cy="360" r="5" fill="#C9A84C"/>
+<text x="1028" y="366" font-size="17" fill="#4A5567" text-anchor="start">Multispectral (vegetation damage)</text>
+<rect x="60" y="460" width="1480" height="120" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.15)" stroke-width="1.5"/>
+<rect x="80" y="490.0" width="300" height="60" rx="10" fill="rgba(200,68,59,0.14)" stroke="#C8443B" stroke-width="1.5"/>
+<text x="230" y="528.0" font-size="24" fill="#0F1828" text-anchor="middle" font-weight="700">Earthquake</text>
+<circle cx="432" cy="498" r="5" fill="#2BC5B4"/>
+<text x="448" y="504" font-size="17" fill="#0F1828" text-anchor="start">RGB (collapse ID)</text>
+<circle cx="432" cy="528" r="5" fill="#2BC5B4"/>
+<text x="448" y="534" font-size="17" fill="#0F1828" text-anchor="start">Thermal (survivor detection)</text>
+<circle cx="1012" cy="498" r="5" fill="#C9A84C"/>
+<text x="1028" y="504" font-size="17" fill="#4A5567" text-anchor="start">LiDAR (deformation)</text>
+<circle cx="1012" cy="528" r="5" fill="#C9A84C"/>
+<text x="1028" y="534" font-size="17" fill="#4A5567" text-anchor="start">Gas sensors (leak detection)</text>
+<rect x="60" y="598" width="1480" height="120" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.15)" stroke-width="1.5"/>
+<rect x="80" y="628.0" width="300" height="60" rx="10" fill="rgba(200,68,59,0.14)" stroke="#C8443B" stroke-width="1.5"/>
+<text x="230" y="666.0" font-size="24" fill="#0F1828" text-anchor="middle" font-weight="700">Landslide</text>
+<circle cx="432" cy="636" r="5" fill="#2BC5B4"/>
+<text x="448" y="642" font-size="17" fill="#0F1828" text-anchor="start">LiDAR (slope deformation,</text>
+<circle cx="432" cy="666" r="5" fill="#2BC5B4"/>
+<text x="448" y="672" font-size="17" fill="#0F1828" text-anchor="start">volume estimation)</text>
+<circle cx="1012" cy="636" r="5" fill="#C9A84C"/>
+<text x="1028" y="642" font-size="17" fill="#4A5567" text-anchor="start">RGB (visual inspection)</text>
+<rect x="60" y="736" width="1480" height="120" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.15)" stroke-width="1.5"/>
+<rect x="80" y="766.0" width="300" height="60" rx="10" fill="rgba(200,68,59,0.14)" stroke="#C8443B" stroke-width="1.5"/>
+<text x="230" y="804.0" font-size="24" fill="#0F1828" text-anchor="middle" font-weight="700">Forest fire</text>
+<circle cx="432" cy="774" r="5" fill="#2BC5B4"/>
+<text x="448" y="780" font-size="17" fill="#0F1828" text-anchor="start">Thermal (fire front, hotspots)</text>
+<circle cx="432" cy="804" r="5" fill="#2BC5B4"/>
+<text x="448" y="810" font-size="17" fill="#0F1828" text-anchor="start">RGB (smoke plume)</text>
+<circle cx="1012" cy="774" r="5" fill="#C9A84C"/>
+<text x="1028" y="780" font-size="17" fill="#4A5567" text-anchor="start">SWIR (re-burn detection)</text>
+<rect x="60" y="880" width="1480" height="108" rx="10" fill="rgba(201,168,76,0.08)" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+<text x="80" y="910" font-size="17" fill="#0F1828" text-anchor="start" font-weight="700">Procurement model</text>
+<text x="80" y="938" font-size="15" fill="#4A5567" text-anchor="start">NDMA and state SDMAs hold limited drone fleets; most response runs on DaaS</text>
+<text x="80" y="962" font-size="15" fill="#4A5567" text-anchor="start">emergency contracts. Demand is episodic - dual-use (disaster + commercial) sensors</text>
+<text x="80" y="986" font-size="15" fill="#4A5567" text-anchor="start">de-risk it for dedicated manufacturers.</text>
+<text x="60" y="1052" font-size="15" fill="#4A5567">Source: NDMA, SDMA deployment patterns. Techadyant Labs analysis.</text>
+<text x="1540" y="1052" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Schematic</text>
+</svg>
