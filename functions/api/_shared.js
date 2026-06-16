@@ -7,6 +7,14 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'the-end-of-the-application-era': {
+    access: 'free',
+    bucket: 'reports-free',
+    publicBucket: true,
+    object: 'The-End-of-the-Application-Era.pdf',
+    filename: 'The-End-of-the-Application-Era-Techadyant-Labs.pdf',
+    title: 'Who Captures Computing When the Application Disappears?',
+  },
   'india-drone-sensors-payloads-imaging-market': {
     access: 'paid',
     priceInr: 6999,

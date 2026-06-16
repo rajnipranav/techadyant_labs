@@ -49,6 +49,39 @@ const synced: Record<string, SyncedMeta> = metaJson as Record<string, SyncedMeta
  *  `npm run sync-meta` after a PDF is added/updated. */
 const baseReports: ReportMeta[] = [
   {
+    slug: 'the-end-of-the-application-era',
+    title: 'Who Captures Computing When the Application Disappears?',
+    subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
+    domain: 'AI Infrastructure',
+    edition: 'Strategic Foresight · Technology Sovereignty Series · v1.0',
+    published: '2026-06-16',
+    publishedLabel: 'June 2026',
+    readingTime: '~ 2.5h read',
+    status: 'published',
+    accent: '#818CF8',
+    summary:
+      'Every fifteen-to-twenty years the operating system is redesigned, and agentic AI is the trigger for the next one. As work shifts from applications a human opens to goals an agent pursues, the three foundations of the modern OS — CPU-centric scheduling, human-login security and application-siloed state — break at once. This report argues that value migrates down from the application layer into four control primitives — accelerated inference, identity, memory and scheduling (AIMS) — and scores who is positioned to own them on a proprietary Agent-Native Capture Index (ANCI): in 2026 there is no Primitive Owner, and the leaders win on breadth, not depth. It maps the Post-Application Stack layer by layer, traces the hardware chokepoints (advanced packaging, HBM, export policy), and sets out where India — strong in public digital infrastructure and sovereign compute, dependent on the AIMS primitives — can capture the next layer rather than the last one. Eight parts, twenty-six chapters, eighteen figures and the PAS / AIMS / ANCI framework family. Free, and readable in full on this page.',
+    access: 'free',
+    hasPdf: true,
+    pages: 151,
+    cover: '/covers/the-end-of-the-application-era.jpg',
+    previewObject: 'reports-free/The-End-of-the-Application-Era.pdf',
+    previewPages: 151,
+    dateModified: '2026-06-16',
+    keywords: [
+      'end of the application era', 'agentic AI operating system', 'post-application stack', 'AIMS framework',
+      'agent-native capture index', 'future of computing', 'AI operating system', 'agent infrastructure',
+      'India AI sovereignty', 'sovereign compute India', 'advanced packaging chokepoint', 'operating system redesign AI',
+    ],
+    faq: [
+      { q: 'What does “the end of the application era” mean?', a: 'It means the application — the unit we install, trust and open — is becoming friction as work shifts to AI agents that pursue goals across many tools at once. Operating-system dominance has shifted roughly every one to two decades, always when the dominant workload rebalances rather than when features grow; agentic AI is that rebalancing, and it breaks CPU-centric scheduling, human-login security and application-siloed state simultaneously.' },
+      { q: 'What replaces the application as the unit of computing?', a: 'Four control primitives the report groups as AIMS — Accelerated inference, Identity, Memory and Scheduling. Value migrates down from the application layer into these primitives, which become the real operating system of the agent era. The report formalises them in an eight-layer Post-Application Stack (PAS).' },
+      { q: 'What is the Agent-Native Capture Index (ANCI)?', a: 'ANCI is the report’s 0–100 framework scoring who controls the AIMS primitives. Its headline finding for 2026 is that there is no Primitive Owner: today’s leaders win on breadth across the stack, not depth in any single primitive — which is precisely why the layer is still contestable.' },
+      { q: 'How does agentic AI change operating-system security?', a: 'It inverts it. Existing models secure human logins, but machine workloads are now using those logins. The report argues trust will move to capability tokens and delegation policy — securing what an agent is permitted to do, for whom, and for how long — rather than who is signed in.' },
+      { q: 'Where can India capture value in the post-application era?', a: 'India is AIMS-dependent but sovereignty-strong: its public digital infrastructure (Aadhaar, UPI, MOSIP) and expanding sovereign compute give it a credible, time-limited advantage. The leapfrog runs through agent-aware design of that public infrastructure and through the identity and consent layer — not through trying to out-build hyperscalers on raw compute.' },
+    ],
+  },
+  {
     slug: 'india-drone-sensors-payloads-imaging-market',
     title: 'India Drone Sensors, Payloads & Imaging Systems Market',
     subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',

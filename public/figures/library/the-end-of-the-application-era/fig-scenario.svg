@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="900" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="8" fill="#C9A84C"/>
+<text x="60" y="62" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#0F1828">India 2035 - Four Scenarios by Capture Tier</text>
+<text x="60" y="92" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#4A5567">One origin, four endpoints; the decisive lever is converting L8 into identity (I).</text>
+<text x="1540" y="40" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4A5567" text-anchor="end">Figure 5 &#183; Techadyant Labs &#183; 2026</text>
+<rect x="360" y="610.0" width="820" height="110.0" fill="#E8E5DD"/>
+<text x="1192" y="670.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567">Absent</text>
+<rect x="360" y="500.0" width="820" height="110.0" fill="#d5d4cf"/>
+<text x="1192" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567">Dependent</text>
+<rect x="360" y="390.0" width="820" height="110.0" fill="#c6dfd6"/>
+<text x="1192" y="450.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567">Contender</text>
+<rect x="360" y="280.0" width="820" height="110.0" fill="#f2ead6"/>
+<text x="1192" y="340.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567">Layer Leader</text>
+<rect x="360" y="170.0" width="820" height="110.0" fill="#eaddbb"/>
+<text x="1192" y="230.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567">Primitive Owner</text>
+<line x1="360" y1="170" x2="360" y2="720" stroke="#0F1828" stroke-width="2"/>
+<text x="346" y="725.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567" text-anchor="end">0</text>
+<text x="346" y="615.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567" text-anchor="end">20</text>
+<text x="346" y="505.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567" text-anchor="end">40</text>
+<text x="346" y="395.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567" text-anchor="end">60</text>
+<text x="346" y="285.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567" text-anchor="end">80</text>
+<text x="346" y="175.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567" text-anchor="end">100</text>
+<text x="316" y="445.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567" text-anchor="middle" transform="rotate(-90 316 445.0)">projected ANCI</text>
+<text x="360" y="754" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828">2026 (baseline)</text>
+<text x="1180" y="754" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="end">2035</text>
+<circle cx="360" cy="549.5" r="7" fill="#0F1828"/><text x="372" y="537.5" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0F1828">India 31</text>
+<line x1="360" y1="549.5" x2="1180" y2="582.5" stroke="#4A5567" stroke-width="3"/><circle cx="1180" cy="582.5" r="6" fill="#4A5567"/>
+<text x="1168" y="572.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="end">Consumer Nation ~25</text>
+<line x1="360" y1="549.5" x2="1180" y2="511.0" stroke="#4A5567" stroke-width="3"/><circle cx="1180" cy="511.0" r="6" fill="#4A5567"/>
+<text x="1168" y="501.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="end">Services Nation ~38</text>
+<line x1="360" y1="549.5" x2="1180" y2="379.0" stroke="#2BC5B4" stroke-width="3"/><circle cx="1180" cy="379.0" r="6" fill="#2BC5B4"/>
+<text x="1168" y="369.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="end">Agent-Platform Nation ~62</text>
+<line x1="360" y1="549.5" x2="1180" y2="280.0" stroke="#C9A84C" stroke-width="3"/><circle cx="1180" cy="280.0" r="6" fill="#C9A84C"/>
+<text x="1168" y="270.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="end">AI Sovereign Power ~80</text>
+<line x1="1140" y1="511.0" x2="1140" y2="379.0" stroke="#C8443B" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="1080" y="445.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#C8443B" text-anchor="end">the L8-Identity</text>
+<text x="1080" y="463.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#C8443B" text-anchor="end">conversion</text>
+<line x1="60" y1="854" x2="1540" y2="854" stroke="#E8E5DD" stroke-width="1"/>
+<text x="60" y="876" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4A5567">Source: Techadyant Labs scenarios. Modelled / Forecast. Techadyant Labs analysis.</text>
+</svg>

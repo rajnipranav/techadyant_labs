@@ -17,6 +17,7 @@ import { ReportContent as DroneContent, toc as droneToc } from '../content/who-b
 import { ReportContent as BatteryContent, toc as batteryToc } from '../content/indias-drone-battery-ecosystem';
 import { ReportContent as PropulsionContent, toc as propulsionToc } from '../content/india-drone-propulsion-opportunity';
 import { ReportContent as SensorsContent, toc as sensorsToc } from '../content/india-drone-sensors-payloads-imaging-market';
+import { ReportContent as EoaeContent, toc as eoaeToc } from '../content/the-end-of-the-application-era';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -31,6 +32,7 @@ const registry: Record<string, ReportModule> = {
   'indias-drone-battery-ecosystem': { toc: batteryToc, Content: BatteryContent },
   'india-drone-propulsion-opportunity': { toc: propulsionToc, Content: PropulsionContent },
   'india-drone-sensors-payloads-imaging-market': { toc: sensorsToc, Content: SensorsContent },
+  'the-end-of-the-application-era': { toc: eoaeToc, Content: EoaeContent },
 };
 
 export function generateStaticParams() {
@@ -44,6 +46,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const OG_OVERRIDES: Record<string, string> = {
     'the-sap-question': '/og/the-sap-question-flagship.png',
     'india-drone-sensors-payloads-imaging-market': '/og/india-drone-sensors-payloads-imaging-market.png',
+    'the-end-of-the-application-era': '/og/the-end-of-the-application-era.png',
   };
   const ogImage = OG_OVERRIDES[slug] ?? r.cover;
   const url = `https://labs.techadyant.com/reports/${slug}/`;

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg"><rect width="1600" height="900" fill="#FBF9F4"/><rect width="1600" height="8" fill="#C9A84C"/><text x="60" y="62" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#0F1828">Where the Agentic Stack Is Controlled</text><text x="60" y="90" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#4A5567">The L1-L2 substrate narrows to packaging, memory, and export policy.</text><text x="1540" y="40" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4A5567" text-anchor="end">Figure 6.1 &#183; Techadyant Labs &#183; 2026</text><text x="800" y="210" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#4A5567" text-anchor="middle">The agentic stack narrows to a few physical and policy chokepoints</text>
+<rect x="300" y="270" width="1000" height="90" rx="8" fill="#f3dcd6" stroke="#C8443B" stroke-width="2"/>
+<text x="330" y="308" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828">Advanced packaging (CoWoS)</text>
+<text x="330" y="336" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4A5567">TSMC - sold out into 2026</text>
+<circle cx="1250" cy="315" r="14" fill="#C8443B"/>
+<rect x="300" y="378" width="1000" height="90" rx="8" fill="#f3dcd6" stroke="#C8443B" stroke-width="2"/>
+<text x="330" y="416" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828">HBM3E memory</text>
+<text x="330" y="444" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4A5567">SK Hynix / Samsung / Micron</text>
+<circle cx="1250" cy="423" r="14" fill="#C8443B"/>
+<rect x="300" y="486" width="1000" height="90" rx="8" fill="#f3ecd9" stroke="#C9A84C" stroke-width="2"/>
+<text x="330" y="524" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828">Leading-edge logic</text>
+<text x="330" y="552" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4A5567">TSMC / Taiwan concentration</text>
+<circle cx="1250" cy="531" r="14" fill="#C9A84C"/>
+<rect x="300" y="594" width="1000" height="90" rx="8" fill="#f3ecd9" stroke="#C9A84C" stroke-width="2"/>
+<text x="330" y="632" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828">Export-control policy</text>
+<text x="330" y="660" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4A5567">US BIS - case-by-case (Jan 2026)</text>
+<circle cx="1250" cy="639" r="14" fill="#C9A84C"/>
+<text x="800" y="730" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4A5567" text-anchor="middle">Red = binding supply constraint &#183; Brass = policy / concentration lever</text><line x1="60" y1="854" x2="1540" y2="854" stroke="#E8E5DD"/><text x="60" y="876" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4A5567">Source: TSMC; TrendForce; US BIS final rule (2026-01-13); NVIDIA 10-Q FY2026. Techadyant Labs analysis.</text></svg>

@@ -1,0 +1,148 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="900" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="8" fill="#C9A84C"/>
+<text x="60" y="62" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#0F1828">Agent-Native Capture Index - 2026</text>
+<text x="60" y="92" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#4A5567">No Primitive Owner: leaders win on breadth. NVIDIA A=24 is one hot cell, exposed elsewhere.</text>
+<text x="1540" y="40" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4A5567" text-anchor="end">Figure 3 &#183; Techadyant Labs &#183; 2026</text>
+<text x="586" y="128" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567" text-anchor="middle">AIMS primitive (0-25)</text>
+<text x="922.0" y="128" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567" text-anchor="middle">ANCI (0-100)</text>
+<text x="465.0" y="144" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828" text-anchor="middle">A</text>
+<text x="543.0" y="144" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828" text-anchor="middle">I</text>
+<text x="621.0" y="144" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828" text-anchor="middle">M</text>
+<text x="699.0" y="144" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828" text-anchor="middle">S</text>
+<line x1="892.0" y1="144" x2="892.0" y2="770" stroke="#cfc9ba" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="952.0" y1="144" x2="952.0" y2="770" stroke="#cfc9ba" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="1012.0" y1="144" x2="1012.0" y2="770" stroke="#cfc9ba" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="60" y="185.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#0F1828">Microsoft</text>
+<rect x="430" y="150" width="70" height="58" rx="4" fill="#7ed3c6" stroke="#d8d4c8"/>
+<text x="465.0" y="186.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">14</text>
+<rect x="508" y="150" width="70" height="58" rx="4" fill="#51cbbc" stroke="#d8d4c8"/>
+<text x="543.0" y="186.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">20</text>
+<rect x="586" y="150" width="70" height="58" rx="4" fill="#60cebf" stroke="#d8d4c8"/>
+<text x="621.0" y="186.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">18</text>
+<rect x="664" y="150" width="70" height="58" rx="4" fill="#58cdbe" stroke="#d8d4c8"/>
+<text x="699.0" y="186.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">19</text>
+<rect x="772" y="160" width="300" height="38" rx="4" fill="#E8E5DD"/>
+<rect x="772" y="160" width="213.0" height="38" rx="4" fill="#C9A84C"/>
+<text x="997.0" y="185.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828">71</text>
+<text x="1142" y="185.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567">Layer Leader</text>
+<text x="60" y="247.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#0F1828">Google / Alphabet</text>
+<rect x="430" y="212" width="70" height="58" rx="4" fill="#49cabb" stroke="#d8d4c8"/>
+<text x="465.0" y="248.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">21</text>
+<rect x="508" y="212" width="70" height="58" rx="4" fill="#7ed3c6" stroke="#d8d4c8"/>
+<text x="543.0" y="248.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">14</text>
+<rect x="586" y="212" width="70" height="58" rx="4" fill="#58cdbe" stroke="#d8d4c8"/>
+<text x="621.0" y="248.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">19</text>
+<rect x="664" y="212" width="70" height="58" rx="4" fill="#67cfc1" stroke="#d8d4c8"/>
+<text x="699.0" y="248.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">17</text>
+<rect x="772" y="222" width="300" height="38" rx="4" fill="#E8E5DD"/>
+<rect x="772" y="222" width="213.0" height="38" rx="4" fill="#C9A84C"/>
+<text x="997.0" y="247.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828">71</text>
+<text x="1142" y="247.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567">Layer Leader</text>
+<text x="60" y="309.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#0F1828">Amazon / AWS</text>
+<rect x="430" y="274" width="70" height="58" rx="4" fill="#51cbbc" stroke="#d8d4c8"/>
+<text x="465.0" y="310.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">20</text>
+<rect x="508" y="274" width="70" height="58" rx="4" fill="#6fd1c3" stroke="#d8d4c8"/>
+<text x="543.0" y="310.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">16</text>
+<rect x="586" y="274" width="70" height="58" rx="4" fill="#86d4c8" stroke="#d8d4c8"/>
+<text x="621.0" y="310.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">13</text>
+<rect x="664" y="274" width="70" height="58" rx="4" fill="#6fd1c3" stroke="#d8d4c8"/>
+<text x="699.0" y="310.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">16</text>
+<rect x="772" y="284" width="300" height="38" rx="4" fill="#E8E5DD"/>
+<rect x="772" y="284" width="195.0" height="38" rx="4" fill="#C9A84C"/>
+<text x="979.0" y="309.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828">65</text>
+<text x="1142" y="309.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567">Layer Leader</text>
+<text x="60" y="371.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#0F1828">OpenAI</text>
+<rect x="430" y="336" width="70" height="58" rx="4" fill="#9cd8cd" stroke="#d8d4c8"/>
+<text x="465.0" y="372.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">10</text>
+<rect x="508" y="336" width="70" height="58" rx="4" fill="#8dd6c9" stroke="#d8d4c8"/>
+<text x="543.0" y="372.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">12</text>
+<rect x="586" y="336" width="70" height="58" rx="4" fill="#6fd1c3" stroke="#d8d4c8"/>
+<text x="621.0" y="372.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">16</text>
+<rect x="664" y="336" width="70" height="58" rx="4" fill="#60cebf" stroke="#d8d4c8"/>
+<text x="699.0" y="372.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">18</text>
+<rect x="772" y="346" width="300" height="38" rx="4" fill="#E8E5DD"/>
+<rect x="772" y="346" width="168.0" height="38" rx="4" fill="#2BC5B4"/>
+<text x="952.0" y="371.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828">56</text>
+<text x="1142" y="371.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567">Contender</text>
+<text x="60" y="433.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#0F1828">Apple</text>
+<rect x="430" y="398" width="70" height="58" rx="4" fill="#7ed3c6" stroke="#d8d4c8"/>
+<text x="465.0" y="434.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">14</text>
+<rect x="508" y="398" width="70" height="58" rx="4" fill="#77d2c4" stroke="#d8d4c8"/>
+<text x="543.0" y="434.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">15</text>
+<rect x="586" y="398" width="70" height="58" rx="4" fill="#86d4c8" stroke="#d8d4c8"/>
+<text x="621.0" y="434.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">13</text>
+<rect x="664" y="398" width="70" height="58" rx="4" fill="#8dd6c9" stroke="#d8d4c8"/>
+<text x="699.0" y="434.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">12</text>
+<rect x="772" y="408" width="300" height="38" rx="4" fill="#E8E5DD"/>
+<rect x="772" y="408" width="162.0" height="38" rx="4" fill="#2BC5B4"/>
+<text x="946.0" y="433.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828">54</text>
+<text x="1142" y="433.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567">Contender</text>
+<text x="60" y="495.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#0F1828">Anthropic</text>
+<rect x="430" y="460" width="70" height="58" rx="4" fill="#a4d9ce" stroke="#d8d4c8"/>
+<text x="465.0" y="496.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">9</text>
+<rect x="508" y="460" width="70" height="58" rx="4" fill="#86d4c8" stroke="#d8d4c8"/>
+<text x="543.0" y="496.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">13</text>
+<rect x="586" y="460" width="70" height="58" rx="4" fill="#7ed3c6" stroke="#d8d4c8"/>
+<text x="621.0" y="496.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">14</text>
+<rect x="664" y="460" width="70" height="58" rx="4" fill="#60cebf" stroke="#d8d4c8"/>
+<text x="699.0" y="496.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">18</text>
+<rect x="772" y="470" width="300" height="38" rx="4" fill="#E8E5DD"/>
+<rect x="772" y="470" width="162.0" height="38" rx="4" fill="#2BC5B4"/>
+<text x="946.0" y="495.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828">54</text>
+<text x="1142" y="495.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567">Contender</text>
+<text x="60" y="557.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#0F1828">Open-source / Linux</text>
+<rect x="430" y="522" width="70" height="58" rx="4" fill="#acdbd0" stroke="#d8d4c8"/>
+<text x="465.0" y="558.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">8</text>
+<rect x="508" y="522" width="70" height="58" rx="4" fill="#77d2c4" stroke="#d8d4c8"/>
+<text x="543.0" y="558.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">15</text>
+<rect x="586" y="522" width="70" height="58" rx="4" fill="#86d4c8" stroke="#d8d4c8"/>
+<text x="621.0" y="558.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">13</text>
+<rect x="664" y="522" width="70" height="58" rx="4" fill="#6fd1c3" stroke="#d8d4c8"/>
+<text x="699.0" y="558.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">16</text>
+<rect x="772" y="532" width="300" height="38" rx="4" fill="#E8E5DD"/>
+<rect x="772" y="532" width="156.0" height="38" rx="4" fill="#2BC5B4"/>
+<text x="940.0" y="557.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828">52</text>
+<text x="1142" y="557.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567">Contender</text>
+<text x="60" y="619.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#0F1828">NVIDIA</text>
+<rect x="430" y="584" width="70" height="58" rx="4" fill="#33c6b6" stroke="#d8d4c8"/>
+<text x="465.0" y="620.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">24</text>
+<rect x="508" y="584" width="70" height="58" rx="4" fill="#c2dfd5" stroke="#d8d4c8"/>
+<text x="543.0" y="620.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">5</text>
+<rect x="586" y="584" width="70" height="58" rx="4" fill="#a4d9ce" stroke="#d8d4c8"/>
+<text x="621.0" y="620.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">9</text>
+<rect x="664" y="584" width="70" height="58" rx="4" fill="#86d4c8" stroke="#d8d4c8"/>
+<text x="699.0" y="620.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">13</text>
+<rect x="772" y="594" width="300" height="38" rx="4" fill="#E8E5DD"/>
+<rect x="772" y="594" width="153.0" height="38" rx="4" fill="#2BC5B4"/>
+<text x="937.0" y="619.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828">51</text>
+<text x="1142" y="619.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567">Contender</text>
+<text x="60" y="681.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#0F1828">Meta</text>
+<rect x="430" y="646" width="70" height="58" rx="4" fill="#6fd1c3" stroke="#d8d4c8"/>
+<text x="465.0" y="682.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FBF9F4" text-anchor="middle">16</text>
+<rect x="508" y="646" width="70" height="58" rx="4" fill="#acdbd0" stroke="#d8d4c8"/>
+<text x="543.0" y="682.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">8</text>
+<rect x="586" y="646" width="70" height="58" rx="4" fill="#7ed3c6" stroke="#d8d4c8"/>
+<text x="621.0" y="682.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">14</text>
+<rect x="664" y="646" width="70" height="58" rx="4" fill="#9cd8cd" stroke="#d8d4c8"/>
+<text x="699.0" y="682.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">10</text>
+<rect x="772" y="656" width="300" height="38" rx="4" fill="#E8E5DD"/>
+<rect x="772" y="656" width="144.0" height="38" rx="4" fill="#2BC5B4"/>
+<text x="928.0" y="681.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828">48</text>
+<text x="1142" y="681.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567">Contender</text>
+<text x="60" y="743.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#0F1828">India (nation)</text>
+<rect x="430" y="708" width="70" height="58" rx="4" fill="#bbddd3" stroke="#d8d4c8"/>
+<text x="465.0" y="744.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">6</text>
+<rect x="508" y="708" width="70" height="58" rx="4" fill="#9cd8cd" stroke="#d8d4c8"/>
+<text x="543.0" y="744.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">10</text>
+<rect x="586" y="708" width="70" height="58" rx="4" fill="#b3dcd2" stroke="#d8d4c8"/>
+<text x="621.0" y="744.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">7</text>
+<rect x="664" y="708" width="70" height="58" rx="4" fill="#acdbd0" stroke="#d8d4c8"/>
+<text x="699.0" y="744.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">8</text>
+<rect x="772" y="718" width="300" height="38" rx="4" fill="#E8E5DD"/>
+<rect x="772" y="718" width="93.0" height="38" rx="4" fill="#4A5567"/>
+<text x="877.0" y="743.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828">31</text>
+<text x="1142" y="743.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4A5567">Dependent</text>
+<line x1="60" y1="854" x2="1540" y2="854" stroke="#E8E5DD" stroke-width="1"/>
+<text x="60" y="876" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4A5567">Source: Techadyant Labs ANCI scorecard (Appendix G). Modelled, 2026 baseline. Techadyant Labs analysis.</text>
+</svg>

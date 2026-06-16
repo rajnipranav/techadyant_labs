@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg"><rect width="1600" height="900" fill="#FBF9F4"/><rect width="1600" height="8" fill="#C9A84C"/><text x="60" y="62" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#0F1828">The 2035 Outcome Space</text><text x="60" y="90" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#4A5567">Hybrid kernels, not pure replacement, are the base case (Big-Five claim 5).</text><text x="1540" y="40" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4A5567" text-anchor="end">Figure 8.1 &#183; Techadyant Labs &#183; 2026</text><line x1="800" y1="200" x2="800" y2="700" stroke="#4A5567" stroke-width="2"/><line x1="300" y1="450" x2="1300" y2="450" stroke="#4A5567" stroke-width="2"/>
+<text x="800" y="180" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0F1828" text-anchor="middle">AI-native replacement</text>
+<text x="800" y="725" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0F1828" text-anchor="middle">Incumbent OS persists</text>
+<text x="290" y="455" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0F1828" text-anchor="end">Concentrated</text>
+<text x="1310" y="455" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0F1828" text-anchor="start">Distributed</text>
+<rect x="380" y="280" width="360" height="100" rx="10" fill="#dfdfdd" stroke="#4A5567" stroke-width="2"/>
+<text x="560" y="324" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="middle">Single AI-native winner</text>
+<text x="560" y="352" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567" text-anchor="middle">low prob</text>
+<rect x="870" y="280" width="360" height="100" rx="10" fill="#daf1ea" stroke="#2BC5B4" stroke-width="2"/>
+<text x="1050" y="324" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="middle">Multi-platform AI-native</text>
+<text x="1050" y="352" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567" text-anchor="middle">medium</text>
+<rect x="380" y="525" width="360" height="100" rx="10" fill="#f3ecd9" stroke="#C9A84C" stroke-width="2"/>
+<text x="560" y="569" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="middle">Hyperscaler hybrid hegemony</text>
+<text x="560" y="597" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567" text-anchor="middle">base case</text>
+<rect x="870" y="525" width="360" height="100" rx="10" fill="#daf1ea" stroke="#2BC5B4" stroke-width="2"/>
+<text x="1050" y="569" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="middle">Open hybrid + sovereign stacks</text>
+<text x="1050" y="597" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4A5567" text-anchor="middle">plausible</text><line x1="60" y1="854" x2="1540" y2="854" stroke="#E8E5DD"/><text x="60" y="876" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4A5567">Source: Techadyant Labs scenario analysis.</text><text x="1540" y="876" font-family="Arial, Helvetica, sans-serif" font-size="12" font-style="italic" fill="#C9A84C" text-anchor="end">Forecast</text></svg>
