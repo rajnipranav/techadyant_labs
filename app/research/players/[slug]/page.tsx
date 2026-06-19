@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const p = playerBySlug(slug);
   if (!p) return { title: 'Player' };
   return {
-    title: `${p.name} — ${p.type}`,
+    title: p.name,
     description: clampDesc((p.description && p.description.length >= 110) ? p.description : `${p.name} — ${p.type} in India’s industrial systems: its role, corridor links and key relationships.${p.description ? ' ' + p.description : ''}`),
     alternates: { canonical: `${SITE}/research/players/${slug}/` },
   };

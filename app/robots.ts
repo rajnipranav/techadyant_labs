@@ -7,7 +7,7 @@ export const dynamic = 'force-static';
 const SITE = 'https://labs.techadyant.com';
 
 // Public surface every crawler may read; the JSON/transactional API is off-limits.
-const DISALLOW = ['/api/', '/account', '/_next/', '/previews/'];
+const DISALLOW = ['/api/'];  // only the JSON BFF; never block /_next/ assets (Google needs JS/CSS)
 
 // AI answer-engine crawlers we explicitly welcome (GEO: we WANT to be cited in
 // ChatGPT / Perplexity / Google AI Overviews / Claude answers).

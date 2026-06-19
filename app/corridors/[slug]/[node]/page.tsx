@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   ].filter(Boolean).join(' · ');
   const metaDesc = `${n.name} (${n.state}) — ${cor?.abbr ?? ''} ${STAGE[n.stage].label}.${statBits ? ` ${statBits}.` : ''} ${n.summary?.[0] ?? ''}`.replace(/\s+/g, ' ').trim().replace(/^(.{0,155}\S)(?:\s[\s\S]*)?$/, '$1');
   return {
-    title: `${n.name} — ${cor?.abbr ?? 'corridor'} node`,
+    title: `${n.name.replace(/ \(.*/, '')} — ${cor?.abbr ?? 'corridor'}`,
     description: metaDesc,
     keywords: [n.name, `${n.name} ${cor?.abbr ?? ''}`.trim(), `${n.state} industrial corridor`, cor?.name ?? '', 'NICDP', 'industrial node', ...sectorKw, ...((n.companies ?? []).map((c) => c.name))].filter(Boolean) as string[],
     alternates: { canonical: `https://labs.techadyant.com/corridors/${slug}/${node}/` },

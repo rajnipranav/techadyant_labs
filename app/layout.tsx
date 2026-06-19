@@ -39,7 +39,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName: 'Techadyant Labs',
-    url: 'https://labs.techadyant.com',
     title: 'Techadyant Labs — Strategic intelligence on India’s industrial systems',
     description:
       'Independent strategic intelligence on India’s industrial transformation, infrastructure systems and emerging technologies.',
@@ -68,6 +67,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <head>
+        {/* Ahrefs Web Analytics */}
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="Y7lh3MfNTHQxHSi1yMvaYg" async></script>
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-916MZ965VB"></script>
         <script
