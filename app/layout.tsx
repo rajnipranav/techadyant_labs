@@ -200,7 +200,12 @@ gtag('config', 'G-916MZ965VB');`,
                     <li><Link href="/account/">Account</Link></li>
                     <li><Link href="/#subscribe">Subscribe</Link></li>
                     <li><a href="https://techadyant.com">Techadyant — main site</a></li>
-                    <li><a href="mailto:labs@techadyant.com">labs@techadyant.com</a></li>
+                    <li
+                      dangerouslySetInnerHTML={{
+                        __html:
+                          '<!--email_off--><a href="mailto:labs@techadyant.com">labs@techadyant.com</a><!--/email_off-->',
+                      }}
+                    />
                   </ul>
                 </div>
               </div>
