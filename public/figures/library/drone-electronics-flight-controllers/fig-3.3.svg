@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 678" width="1600" height="678">
+<rect x="0" y="0" width="1600" height="678" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">The 39% figure vs. reality</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Official figure vs. estimated total-market dependence</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 3.3 · Techadyant Labs · 2026</text>
+<rect x="46.0" y="128.0" width="740.0" height="60.0" rx="8" fill="#0F1828"/>
+<text x="66.0" y="166.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#C9A84C" text-anchor="start">OFFICIAL FIGURE — 39% (Lok Sabha, April 2025)</text>
+<rect x="46.0" y="200.0" width="360.0" height="300.0" rx="8" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="1.8"/>
+<text x="66.0" y="232.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#2BC5B4" text-anchor="start">WHAT IT INCLUDES</text>
+<text x="70.0" y="266.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#2BC5B4" text-anchor="start">✓</text>
+<text x="96.0" y="266.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">DGCA Type Certified small drones</text>
+<text x="70.0" y="306.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#2BC5B4" text-anchor="start">✓</text>
+<text x="96.0" y="306.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">Registered with UIN</text>
+<text x="70.0" y="346.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#2BC5B4" text-anchor="start">✓</text>
+<text x="96.0" y="346.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">Formal manufacturer imports</text>
+<rect x="426.0" y="200.0" width="360.0" height="300.0" rx="8" fill="#FFFFFF" stroke="#C8443B" stroke-width="1.8"/>
+<text x="446.0" y="232.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#C8443B" text-anchor="start">WHAT IT EXCLUDES</text>
+<text x="450.0" y="266.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#C8443B" text-anchor="start">✗</text>
+<text x="476.0" y="266.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">Nano drones (&lt;250g)</text>
+<text x="450.0" y="306.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#C8443B" text-anchor="start">✗</text>
+<text x="476.0" y="306.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">Micro drones (250g–2kg)</text>
+<text x="450.0" y="346.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#C8443B" text-anchor="start">✗</text>
+<text x="476.0" y="346.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">Uncertified drones</text>
+<text x="450.0" y="386.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#C8443B" text-anchor="start">✗</text>
+<text x="476.0" y="386.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">Informal-channel imports</text>
+<text x="450.0" y="426.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#C8443B" text-anchor="start">✗</text>
+<text x="476.0" y="426.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">Aftermarket FC sales</text>
+<text x="826.0" y="160.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#C8443B" text-anchor="start">ESTIMATED ACTUAL DEPENDENCE — 70–80%</text>
+<rect x="826.0" y="200.0" width="700.0" height="40.0" rx="4" fill="#E8E5DD"/>
+<rect x="826.0" y="200.0" width="550.0" height="40.0" rx="4" fill="#C8443B"/>
+<text x="836.0" y="226.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="start">Pixhawk ecosystem (Chinese mfrs)</text>
+<text x="1536.0" y="226.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#0F1828" text-anchor="start">50–60%</text>
+<rect x="826.0" y="258.0" width="700.0" height="40.0" rx="4" fill="#E8E5DD"/>
+<rect x="826.0" y="258.0" width="130.0" height="40.0" rx="4" fill="#D86F62"/>
+<text x="836.0" y="284.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0F1828" text-anchor="start">DJI (consumer + commercial)</text>
+<text x="1536.0" y="284.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#0F1828" text-anchor="start">13%</text>
+<rect x="826.0" y="316.0" width="700.0" height="40.0" rx="4" fill="#E8E5DD"/>
+<rect x="826.0" y="316.0" width="80.0" height="40.0" rx="4" fill="#4A5567"/>
+<text x="836.0" y="342.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="start">Other imported</text>
+<text x="1536.0" y="342.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#0F1828" text-anchor="start">8%</text>
+<rect x="826.0" y="374.0" width="700.0" height="40.0" rx="4" fill="#E8E5DD"/>
+<rect x="826.0" y="374.0" width="80.0" height="40.0" rx="4" fill="#2BC5B4"/>
+<text x="836.0" y="400.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="start">Indigenous (ideaForge, Zuppa)</text>
+<text x="1536.0" y="400.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#0F1828" text-anchor="start">8%</text>
+<text x="826.0" y="438.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">Imported total ≈ 70–80% of fleet by FC origin</text>
+<rect x="46.0" y="540.0" width="1480.0" height="70.0" rx="8" fill="#C8443B"/>
+<text x="66.0" y="584.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="start">THE GAP:  39% official  vs.  70–80% estimated  =  31–41 percentage-point undercount</text>
+<line x1="46.0" y1="638.0" x2="1554.0" y2="638.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="660.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Lok Sabha (3 Apr 2025); industry triangulation  Techadyant Labs analysis.</text>
+<text x="1554.0" y="660.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">Estimated</text>
+</svg>

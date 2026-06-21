@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 588" width="1600" height="588">
+<rect x="0" y="0" width="1600" height="588" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">FC / AI startup investment landscape</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">By stage, with representative companies</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 12.1 · Techadyant Labs · 2026</text>
+<rect x="60.0" y="170.0" width="350.0" height="56.0" rx="8" fill="#2BC5B4"/>
+<text x="235.0" y="196.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">SEED</text>
+<text x="235.0" y="217.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="600" fill="#FFFFFF" text-anchor="middle">USD 0.5–2M</text>
+<rect x="60.0" y="256.0" width="350.0" height="64.0" rx="8" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="1.8"/>
+<text x="235.0" y="294.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">Yaanendriya (AI FCS)</text>
+<rect x="60.0" y="334.0" width="350.0" height="64.0" rx="8" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="1.8"/>
+<text x="235.0" y="372.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">Zuppa (FC mfg)</text>
+<line x1="410.0" y1="198.0" x2="430.0" y2="198.0" stroke="#C9A84C" stroke-width="2.6" opacity="1"/>
+<polygon points="437.0,198.0 427.0,193.0 427.0,203.0" fill="#C9A84C" opacity="1"/>
+<rect x="437.0" y="170.0" width="350.0" height="56.0" rx="8" fill="#C9A84C"/>
+<text x="612.0" y="196.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="middle">EARLY</text>
+<text x="612.0" y="217.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">USD 2–10M</text>
+<rect x="437.0" y="256.0" width="350.0" height="64.0" rx="8" fill="#FFFFFF" stroke="#C9A84C" stroke-width="1.8"/>
+<text x="612.0" y="294.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">Tsalla (AI Pilot)</text>
+<rect x="437.0" y="334.0" width="350.0" height="64.0" rx="8" fill="#FFFFFF" stroke="#C9A84C" stroke-width="1.8"/>
+<text x="612.0" y="372.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">Inferigence (Chetas)</text>
+<line x1="787.0" y1="198.0" x2="807.0" y2="198.0" stroke="#C9A84C" stroke-width="2.6" opacity="1"/>
+<polygon points="814.0,198.0 804.0,193.0 804.0,203.0" fill="#C9A84C" opacity="1"/>
+<rect x="814.0" y="170.0" width="350.0" height="56.0" rx="8" fill="#C9A84C"/>
+<text x="989.0" y="196.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="middle">GROWTH</text>
+<text x="989.0" y="217.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">USD 10–50M</text>
+<rect x="814.0" y="256.0" width="350.0" height="64.0" rx="8" fill="#FFFFFF" stroke="#C9A84C" stroke-width="1.8"/>
+<text x="989.0" y="294.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">ideaForge (complete stack)</text>
+<rect x="814.0" y="334.0" width="350.0" height="64.0" rx="8" fill="#FFFFFF" stroke="#C9A84C" stroke-width="1.8"/>
+<text x="989.0" y="372.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">Raphe mPhibr (defence)</text>
+<line x1="1164.0" y1="198.0" x2="1184.0" y2="198.0" stroke="#C9A84C" stroke-width="2.6" opacity="1"/>
+<polygon points="1191.0,198.0 1181.0,193.0 1181.0,203.0" fill="#C9A84C" opacity="1"/>
+<rect x="1191.0" y="170.0" width="350.0" height="56.0" rx="8" fill="#0F1828"/>
+<text x="1366.0" y="196.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#C9A84C" text-anchor="middle">LATE</text>
+<text x="1366.0" y="217.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="600" fill="#E8E5DD" text-anchor="middle">USD 50M+</text>
+<rect x="1191.0" y="256.0" width="350.0" height="64.0" rx="8" fill="#FFFFFF" stroke="#0F1828" stroke-width="1.8"/>
+<text x="1366.0" y="294.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">IPO (rumoured)</text>
+<rect x="1191.0" y="334.0" width="350.0" height="64.0" rx="8" fill="#FFFFFF" stroke="#0F1828" stroke-width="1.8"/>
+<text x="1366.0" y="372.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">M&amp;A?</text>
+<rect x="46.0" y="424.0" width="1508.0" height="96.0" rx="8" fill="#E8E5DD" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="66.0" y="452.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0F1828" text-anchor="start">INVESTOR TYPES BY STAGE</text>
+<circle cx="60.0" cy="471.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="72.0" y="476.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">Seed: angels, early-stage VC, iDEX grants</text>
+<circle cx="60.0" cy="497.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="72.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">Early: VC (defence-tech focus), corporate venture (OEMs)</text>
+<circle cx="794.0" cy="471.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="806.0" y="476.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">Growth: large VC, PE, strategic investors</text>
+<circle cx="794.0" cy="497.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="806.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">Late: PE, public markets, strategic acquisition</text>
+<line x1="46.0" y1="548.0" x2="1554.0" y2="548.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="570.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Tracxn / Venture Intelligence  Techadyant Labs analysis.</text>
+<text x="1554.0" y="570.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">Representative</text>
+</svg>

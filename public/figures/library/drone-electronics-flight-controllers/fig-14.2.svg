@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 908" width="1600" height="908">
+<rect x="0" y="0" width="1600" height="908" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">Opportunity prioritisation matrix</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">High impact vs. ease of execution</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 14.2 · Techadyant Labs · 2026</text>
+<rect x="300.0" y="150.0" width="590.0" height="300.0" rx="0" fill="#C9A84C" opacity="0.06"/>
+<rect x="890.0" y="150.0" width="590.0" height="300.0" rx="0" fill="#C9A84C" opacity="0.12"/>
+<rect x="300.0" y="450.0" width="590.0" height="300.0" rx="0" fill="#E8E5DD" opacity="0.4"/>
+<rect x="890.0" y="450.0" width="590.0" height="300.0" rx="0" fill="#E8E5DD" opacity="0.4"/>
+<rect x="300.0" y="150.0" width="1180.0" height="600.0" rx="0" fill="none" stroke="#4A5567" stroke-width="1.6"/>
+<line x1="300.0" y1="450.0" x2="1480.0" y2="450.0" stroke="#4A5567" stroke-width="1.4" opacity="1"/>
+<line x1="890.0" y1="150.0" x2="890.0" y2="750.0" stroke="#4A5567" stroke-width="1.4" opacity="1"/>
+<text x="284.0" y="142.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0F1828" text-anchor="start">High impact</text>
+<line x1="270.0" y1="750.0" x2="270.0" y2="133.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<polygon points="270.0,140.0 265.0,130.0 275.0,130.0" fill="#4A5567" opacity="1"/>
+<line x1="300.0" y1="780.0" x2="1483.0" y2="780.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<polygon points="1490.0,780.0 1480.0,775.0 1480.0,785.0" fill="#4A5567" opacity="1"/>
+<text x="1480.0" y="804.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0F1828" text-anchor="end">High ease (ease of execution) →</text>
+<text x="910.0" y="178.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#9c7f2e" text-anchor="start">ACT NOW</text>
+<text x="910.0" y="200.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">High impact · high ease</text>
+<circle cx="916.0" cy="223.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="928.0" y="228.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Indigenous FC manufacturing (Zuppa)</text>
+<circle cx="916.0" cy="251.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="928.0" y="256.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">FC assembly &amp; integration services</text>
+<circle cx="916.0" cy="279.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="928.0" y="284.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">AI autonomy software</text>
+<circle cx="916.0" cy="307.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="928.0" y="312.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Sense-and-avoid (Inferigence)</text>
+<text x="320.0" y="178.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#9c7f2e" text-anchor="start">BUILD FOR FUTURE</text>
+<text x="320.0" y="200.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">High impact · low ease</text>
+<circle cx="326.0" cy="223.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="338.0" y="228.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">GPS-denied navigation (Tsalla)</text>
+<circle cx="326.0" cy="251.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="338.0" y="256.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Swarm intelligence (IAF)</text>
+<circle cx="326.0" cy="279.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="338.0" y="284.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Indigenous FC processor (RISC-V)</text>
+<circle cx="326.0" cy="307.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="338.0" y="312.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">MEMS IMU domestic fabrication</text>
+<text x="910.0" y="478.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#4A5567" text-anchor="start">MAINTAIN</text>
+<text x="910.0" y="500.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">Low impact · high ease</text>
+<circle cx="916.0" cy="523.0" r="3.0" fill="#4A5567" opacity="1"/>
+<text x="928.0" y="528.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Open-source firmware localisation</text>
+<circle cx="916.0" cy="551.0" r="3.0" fill="#4A5567" opacity="1"/>
+<text x="928.0" y="556.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Defence procurement (515 WS)</text>
+<circle cx="916.0" cy="579.0" r="3.0" fill="#4A5567" opacity="1"/>
+<text x="928.0" y="584.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">PLI scheme compliance services</text>
+<text x="320.0" y="478.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#4A5567" text-anchor="start">AVOID</text>
+<text x="320.0" y="500.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">Low impact · low ease</text>
+<circle cx="326.0" cy="523.0" r="3.0" fill="#4A5567" opacity="1"/>
+<text x="338.0" y="528.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Edge AI hardware (domestic)</text>
+<circle cx="326.0" cy="551.0" r="3.0" fill="#4A5567" opacity="1"/>
+<text x="338.0" y="556.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">AI certification framework</text>
+<text x="890.0" y="836.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#4A5567" text-anchor="middle">Impact = market size + growth + strategic importance   ·   Ease = time-to-market + capital + regulation + competition</text>
+<line x1="46.0" y1="868.0" x2="1554.0" y2="868.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="890.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Techadyant Labs prioritisation.  Techadyant Labs analysis.</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 803" width="1600" height="803">
+<rect x="0" y="0" width="1600" height="803" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">Four-dimensional segmentation framework</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">How the market is disaggregated</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 7.1 · Techadyant Labs · 2026</text>
+<circle cx="800.0" cy="470.0" r="86.0" fill="#0F1828" opacity="1"/>
+<text x="800.0" y="464.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#C9A84C" text-anchor="middle">FC / AI</text>
+<text x="800.0" y="490.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#C9A84C" text-anchor="middle">MARKET</text>
+<line x1="800.0" y1="470.0" x2="540.0" y2="170.0" stroke="#D9D4C8" stroke-width="2" opacity="1"/>
+<rect x="330.0" y="75.0" width="420.0" height="190.0" rx="10" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="330.0" y="75.0" width="420.0" height="38.0" rx="10" fill="#2BC5B4"/>
+<rect x="330.0" y="95.0" width="420.0" height="18.0" rx="0" fill="#2BC5B4"/>
+<text x="540.0" y="101.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">BY COMPONENT TYPE</text>
+<circle cx="354.0" cy="134.0" r="3.0" fill="#2BC5B4" opacity="1"/>
+<text x="368.0" y="139.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Flight controllers</text>
+<circle cx="354.0" cy="159.0" r="3.0" fill="#2BC5B4" opacity="1"/>
+<text x="368.0" y="164.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">AI autonomy software</text>
+<circle cx="354.0" cy="184.0" r="3.0" fill="#2BC5B4" opacity="1"/>
+<text x="368.0" y="189.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Ground control station</text>
+<circle cx="354.0" cy="209.0" r="3.0" fill="#2BC5B4" opacity="1"/>
+<text x="368.0" y="214.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Integration services</text>
+<circle cx="354.0" cy="234.0" r="3.0" fill="#2BC5B4" opacity="1"/>
+<text x="368.0" y="239.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Supporting components</text>
+<line x1="800.0" y1="470.0" x2="1060.0" y2="170.0" stroke="#D9D4C8" stroke-width="2" opacity="1"/>
+<rect x="850.0" y="75.0" width="420.0" height="190.0" rx="10" fill="#FFFFFF" stroke="#C9A84C" stroke-width="2"/>
+<rect x="850.0" y="75.0" width="420.0" height="38.0" rx="10" fill="#C9A84C"/>
+<rect x="850.0" y="95.0" width="420.0" height="18.0" rx="0" fill="#C9A84C"/>
+<text x="1060.0" y="101.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">BY END-USE SECTOR</text>
+<circle cx="874.0" cy="134.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="888.0" y="139.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Defence / Government</text>
+<circle cx="874.0" cy="159.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="888.0" y="164.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Commercial</text>
+<circle cx="874.0" cy="184.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="888.0" y="189.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Consumer</text>
+<line x1="800.0" y1="470.0" x2="540.0" y2="640.0" stroke="#D9D4C8" stroke-width="2" opacity="1"/>
+<rect x="330.0" y="545.0" width="420.0" height="190.0" rx="10" fill="#FFFFFF" stroke="#C9A84C" stroke-width="2"/>
+<rect x="330.0" y="545.0" width="420.0" height="38.0" rx="10" fill="#C9A84C"/>
+<rect x="330.0" y="565.0" width="420.0" height="18.0" rx="0" fill="#C9A84C"/>
+<text x="540.0" y="571.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">BY AUTONOMY LEVEL</text>
+<circle cx="354.0" cy="604.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="368.0" y="609.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Level 1 (human-in-loop)</text>
+<circle cx="354.0" cy="629.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="368.0" y="634.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Level 2 (human-on-loop)</text>
+<circle cx="354.0" cy="654.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="368.0" y="659.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Level 3 (mission autonomy)</text>
+<circle cx="354.0" cy="679.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="368.0" y="684.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Level 4 (swarm)</text>
+<line x1="800.0" y1="470.0" x2="1060.0" y2="640.0" stroke="#D9D4C8" stroke-width="2" opacity="1"/>
+<rect x="850.0" y="545.0" width="420.0" height="190.0" rx="10" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="850.0" y="545.0" width="420.0" height="38.0" rx="10" fill="#2BC5B4"/>
+<rect x="850.0" y="565.0" width="420.0" height="18.0" rx="0" fill="#2BC5B4"/>
+<text x="1060.0" y="571.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">BY UAV TYPE</text>
+<circle cx="874.0" cy="604.0" r="3.0" fill="#2BC5B4" opacity="1"/>
+<text x="888.0" y="609.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Nano</text>
+<circle cx="874.0" cy="629.0" r="3.0" fill="#2BC5B4" opacity="1"/>
+<text x="888.0" y="634.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Micro</text>
+<circle cx="874.0" cy="654.0" r="3.0" fill="#2BC5B4" opacity="1"/>
+<text x="888.0" y="659.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Small</text>
+<circle cx="874.0" cy="679.0" r="3.0" fill="#2BC5B4" opacity="1"/>
+<text x="888.0" y="684.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Medium</text>
+<circle cx="874.0" cy="704.0" r="3.0" fill="#2BC5B4" opacity="1"/>
+<text x="888.0" y="709.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Large</text>
+<circle cx="800.0" cy="470.0" r="86.0" fill="#0F1828" opacity="1"/>
+<text x="800.0" y="464.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#C9A84C" text-anchor="middle">FC / AI</text>
+<text x="800.0" y="490.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#C9A84C" text-anchor="middle">MARKET</text>
+<line x1="46.0" y1="763.0" x2="1554.0" y2="763.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="785.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Techadyant Labs segmentation framework.  Techadyant Labs analysis.</text>
+</svg>

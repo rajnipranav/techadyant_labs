@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 453" width="1600" height="453">
+<rect x="0" y="0" width="1600" height="453" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">The drone autonomy value chain</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Where India captures value (teal) and where it leaks abroad (crimson)</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure VC · Techadyant Labs · 2026</text>
+<rect x="46.0" y="140.0" width="198.3" height="210.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="145.1" y="174.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">Semi-</text>
+<text x="145.1" y="196.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">conductors</text>
+<rect x="119.1" y="236.0" width="52.0" height="86.0" rx="4" fill="#C8443B" opacity="0.85"/>
+<rect x="119.1" y="319.4" width="52.0" height="2.6" rx="4" fill="#2BC5B4"/>
+<text x="145.1" y="344.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#C8443B" text-anchor="middle">3%</text>
+<text x="145.1" y="362.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">captured</text>
+<line x1="244.3" y1="245.0" x2="257.3" y2="245.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<polygon points="264.3,245.0 254.3,240.0 254.3,250.0" fill="#4A5567" opacity="1"/>
+<rect x="264.3" y="140.0" width="198.3" height="210.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="363.4" y="174.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">FC</text>
+<text x="363.4" y="196.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">Hardware</text>
+<rect x="337.4" y="236.0" width="52.0" height="86.0" rx="4" fill="#C8443B" opacity="0.85"/>
+<rect x="337.4" y="296.2" width="52.0" height="25.8" rx="4" fill="#2BC5B4"/>
+<text x="363.4" y="344.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#C8443B" text-anchor="middle">30%</text>
+<text x="363.4" y="362.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">captured</text>
+<line x1="462.6" y1="245.0" x2="475.6" y2="245.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<polygon points="482.6,245.0 472.6,240.0 472.6,250.0" fill="#4A5567" opacity="1"/>
+<rect x="482.6" y="140.0" width="198.3" height="210.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="581.7" y="174.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">Firmware</text>
+<rect x="555.7" y="236.0" width="52.0" height="86.0" rx="4" fill="#C8443B" opacity="0.85"/>
+<rect x="555.7" y="261.8" width="52.0" height="60.2" rx="4" fill="#2BC5B4"/>
+<text x="581.7" y="344.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#2BC5B4" text-anchor="middle">70%</text>
+<text x="581.7" y="362.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">captured</text>
+<line x1="680.9" y1="245.0" x2="693.9" y2="245.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<polygon points="700.9,245.0 690.9,240.0 690.9,250.0" fill="#4A5567" opacity="1"/>
+<rect x="700.9" y="140.0" width="198.3" height="210.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="800.0" y="174.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">AI</text>
+<text x="800.0" y="196.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">Layer</text>
+<rect x="774.0" y="236.0" width="52.0" height="86.0" rx="4" fill="#C8443B" opacity="0.85"/>
+<rect x="774.0" y="274.7" width="52.0" height="47.3" rx="4" fill="#2BC5B4"/>
+<text x="800.0" y="344.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#2BC5B4" text-anchor="middle">55%</text>
+<text x="800.0" y="362.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">captured</text>
+<line x1="899.1" y1="245.0" x2="912.1" y2="245.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<polygon points="919.1,245.0 909.1,240.0 909.1,250.0" fill="#4A5567" opacity="1"/>
+<rect x="919.1" y="140.0" width="198.3" height="210.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="1018.3" y="174.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">Mission</text>
+<text x="1018.3" y="196.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">Software</text>
+<rect x="992.3" y="236.0" width="52.0" height="86.0" rx="4" fill="#C8443B" opacity="0.85"/>
+<rect x="992.3" y="257.5" width="52.0" height="64.5" rx="4" fill="#2BC5B4"/>
+<text x="1018.3" y="344.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#2BC5B4" text-anchor="middle">75%</text>
+<text x="1018.3" y="362.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">captured</text>
+<line x1="1117.4" y1="245.0" x2="1130.4" y2="245.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<polygon points="1137.4,245.0 1127.4,240.0 1127.4,250.0" fill="#4A5567" opacity="1"/>
+<rect x="1137.4" y="140.0" width="198.3" height="210.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="1236.6" y="174.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">Drone</text>
+<text x="1236.6" y="196.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">OEM</text>
+<rect x="1210.6" y="236.0" width="52.0" height="86.0" rx="4" fill="#C8443B" opacity="0.85"/>
+<rect x="1210.6" y="253.2" width="52.0" height="68.8" rx="4" fill="#2BC5B4"/>
+<text x="1236.6" y="344.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#2BC5B4" text-anchor="middle">80%</text>
+<text x="1236.6" y="362.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">captured</text>
+<line x1="1335.7" y1="245.0" x2="1348.7" y2="245.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<polygon points="1355.7,245.0 1345.7,240.0 1345.7,250.0" fill="#4A5567" opacity="1"/>
+<rect x="1355.7" y="140.0" width="198.3" height="210.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="1454.9" y="174.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="middle">Operator</text>
+<rect x="1428.9" y="236.0" width="52.0" height="86.0" rx="4" fill="#C8443B" opacity="0.85"/>
+<rect x="1428.9" y="244.6" width="52.0" height="77.4" rx="4" fill="#2BC5B4"/>
+<text x="1454.9" y="344.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#2BC5B4" text-anchor="middle">90%</text>
+<text x="1454.9" y="362.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">captured</text>
+<rect x="46.0" y="368.0" width="16.0" height="16.0" rx="0" fill="#2BC5B4"/>
+<text x="68.0" y="381.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">India value captured</text>
+<rect x="300.0" y="368.0" width="16.0" height="16.0" rx="0" fill="#C8443B" opacity="0.85"/>
+<text x="322.0" y="381.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">Value leaked abroad</text>
+<text x="1554.0" y="381.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#4A5567" text-anchor="end" font-style="italic">Strategic value concentrates at the two ends — silicon and certified autonomy.</text>
+<line x1="46.0" y1="413.0" x2="1554.0" y2="413.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="435.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Techadyant Labs value-chain model.  Techadyant Labs analysis.</text>
+<text x="1554.0" y="435.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">Capture shares modelled</text>
+</svg>

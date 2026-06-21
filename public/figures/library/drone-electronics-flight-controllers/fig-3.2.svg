@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 864" width="1600" height="864">
+<rect x="0" y="0" width="1600" height="864" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">India drone autonomy ecosystem map</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Five-layer model, hardware to end users</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 3.2 · Techadyant Labs · 2026</text>
+<rect x="46.0" y="122.0" width="1508.0" height="112.0" rx="8" fill="#FFFFFF" stroke="#0F1828" stroke-width="2"/>
+<rect x="46.0" y="122.0" width="360.0" height="112.0" rx="8" fill="#0F1828"/>
+<rect x="386.0" y="122.0" width="20.0" height="112.0" rx="0" fill="#0F1828"/>
+<text x="66.0" y="172.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="start">LAYER 5</text>
+<text x="66.0" y="196.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#FFFFFF" text-anchor="start">END USERS</text>
+<text x="426.0" y="166.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">Defence (Army, IAF, Navy) | Government (DGCA, State Depts) | Commercial (Agri,</text>
+<text x="426.0" y="188.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">Infra, Mining)</text>
+<line x1="226.0" y1="234.0" x2="226.0" y2="239.0" stroke="#4A5567" stroke-width="2.2" opacity="1"/>
+<polygon points="226.0,246.0 221.0,236.0 231.0,236.0" fill="#4A5567" opacity="1"/>
+<rect x="46.0" y="246.0" width="1508.0" height="112.0" rx="8" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="46.0" y="246.0" width="360.0" height="112.0" rx="8" fill="#2BC5B4"/>
+<rect x="386.0" y="246.0" width="20.0" height="112.0" rx="0" fill="#2BC5B4"/>
+<text x="66.0" y="296.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#0F1828" text-anchor="start">LAYER 4</text>
+<text x="66.0" y="320.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="start">AI AUTONOMY SOFTWARE</text>
+<text x="426.0" y="290.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">Tsalla (AI Pilot) | Inferigence Quotient (Chetas, 7Sense) | Zuppa (disseminated</text>
+<text x="426.0" y="312.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">control)</text>
+<line x1="226.0" y1="358.0" x2="226.0" y2="363.0" stroke="#4A5567" stroke-width="2.2" opacity="1"/>
+<polygon points="226.0,370.0 221.0,360.0 231.0,360.0" fill="#4A5567" opacity="1"/>
+<rect x="46.0" y="370.0" width="1508.0" height="112.0" rx="8" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="46.0" y="370.0" width="360.0" height="112.0" rx="8" fill="#2BC5B4"/>
+<rect x="386.0" y="370.0" width="20.0" height="112.0" rx="0" fill="#2BC5B4"/>
+<text x="66.0" y="420.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#0F1828" text-anchor="start">LAYER 3</text>
+<text x="66.0" y="444.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="start">FLIGHT CONTROLLER FIRMWARE</text>
+<text x="426.0" y="414.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">ArduPilot (open-source) | PX4 (open-source) | Zuppa | ideaForge (proprietary)</text>
+<line x1="226.0" y1="482.0" x2="226.0" y2="487.0" stroke="#4A5567" stroke-width="2.2" opacity="1"/>
+<polygon points="226.0,494.0 221.0,484.0 231.0,484.0" fill="#4A5567" opacity="1"/>
+<rect x="46.0" y="494.0" width="1508.0" height="112.0" rx="8" fill="#FFFFFF" stroke="#C9A84C" stroke-width="2"/>
+<rect x="46.0" y="494.0" width="360.0" height="112.0" rx="8" fill="#C9A84C"/>
+<rect x="386.0" y="494.0" width="20.0" height="112.0" rx="0" fill="#C9A84C"/>
+<text x="66.0" y="544.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#0F1828" text-anchor="start">LAYER 2</text>
+<text x="66.0" y="568.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="start">FC HARDWARE (ASSEMBLY / INTEGRATION)</text>
+<text x="426.0" y="538.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">Zuppa | ideaForge | Yaanendriya | Smaller integrators</text>
+<line x1="226.0" y1="606.0" x2="226.0" y2="611.0" stroke="#4A5567" stroke-width="2.2" opacity="1"/>
+<polygon points="226.0,618.0 221.0,608.0 231.0,608.0" fill="#4A5567" opacity="1"/>
+<rect x="46.0" y="618.0" width="1508.0" height="112.0" rx="8" fill="#FFFFFF" stroke="#C8443B" stroke-width="2"/>
+<rect x="46.0" y="618.0" width="360.0" height="112.0" rx="8" fill="#C8443B"/>
+<rect x="386.0" y="618.0" width="20.0" height="112.0" rx="0" fill="#C8443B"/>
+<text x="66.0" y="668.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="start">LAYER 1</text>
+<text x="66.0" y="692.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#FFFFFF" text-anchor="start">FC COMPONENTS (IMPORTED)</text>
+<text x="426.0" y="662.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">Processors (STM32) | IMU (Bosch, STM, TDK) | GPS (u-blox, Quectel) | Baro/Mag</text>
+<text x="426.0" y="684.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="start">(Bosch, Honeywell)</text>
+<text x="426.0" y="714.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#C8443B" text-anchor="start">Suppliers: Holybro, CUAV, mRobotics (China)  |  CubePilot (Australia)  |  DJI (China)</text>
+<rect x="46.0" y="744.0" width="1508.0" height="52.0" rx="8" fill="#E8E5DD" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="66.0" y="775.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="start">REGULATORY &amp; POLICY CONTEXT:   DGCA  |  MeitY (PLI Scheme)  |  Ministry of Defence (iDEX)  |  Army 515 Base Workshop</text>
+<line x1="46.0" y1="824.0" x2="1554.0" y2="824.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="846.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Techadyant Labs ecosystem mapping.  Techadyant Labs analysis.</text>
+</svg>

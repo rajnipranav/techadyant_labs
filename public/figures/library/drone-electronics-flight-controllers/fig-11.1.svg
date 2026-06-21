@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 854" width="1600" height="854">
+<rect x="0" y="0" width="1600" height="854" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">Market structure — concentration analysis (HHI)</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Four tiers, Herfindahl-Hirschman Index</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 11.1 · Techadyant Labs · 2026</text>
+<text x="60.0" y="124.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">HHI scale:  0–1,500 unconcentrated   ·   1,500–2,500 moderately concentrated   ·   2,500–10,000 highly concentrated</text>
+<rect x="60.0" y="160.0" width="442.5" height="620.0" rx="0" fill="#2BC5B4" opacity="0.05"/>
+<rect x="797.5" y="160.0" width="442.5" height="620.0" rx="0" fill="#C8443B" opacity="0.05"/>
+<text x="60.0" y="182.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">TIER 1 — FC Components (importers/distributors)</text>
+<rect x="60.0" y="194.0" width="1180.0" height="40.0" rx="4" fill="#E8E5DD"/>
+<rect x="60.0" y="194.0" width="295.0" height="40.0" rx="4" fill="#2BC5B4"/>
+<text x="369.0" y="222.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="16" font-weight="700" fill="#0F1828" text-anchor="start">HHI ≈ 1,000</text>
+<text x="60.0" y="262.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Many intl suppliers; Chinese collectively dominant but individually &lt;20%</text>
+<text x="60.0" y="342.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">TIER 2 — FC Assembly (indigenous + imported modules)</text>
+<rect x="60.0" y="354.0" width="1180.0" height="40.0" rx="4" fill="#E8E5DD"/>
+<rect x="60.0" y="354.0" width="531.0" height="40.0" rx="4" fill="#C9A84C"/>
+<text x="605.0" y="382.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="16" font-weight="700" fill="#0F1828" text-anchor="start">HHI ≈ 1,800</text>
+<text x="60.0" y="422.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Top 3: Holybro (import), ideaForge, Zuppa</text>
+<text x="60.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">TIER 3 — AI Autonomy Software</text>
+<rect x="60.0" y="514.0" width="1180.0" height="40.0" rx="4" fill="#E8E5DD"/>
+<rect x="60.0" y="514.0" width="354.0" height="40.0" rx="4" fill="#2BC5B4"/>
+<text x="428.0" y="542.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="16" font-weight="700" fill="#0F1828" text-anchor="start">HHI ≈ 1,200</text>
+<text x="60.0" y="582.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Multiple startups; no clear market leader</text>
+<text x="60.0" y="662.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">TIER 4 — Complete Stack (drone+FC+GCS+cloud)</text>
+<rect x="60.0" y="674.0" width="1180.0" height="40.0" rx="4" fill="#E8E5DD"/>
+<rect x="60.0" y="674.0" width="1032.5" height="40.0" rx="4" fill="#C8443B"/>
+<text x="1106.5" y="702.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="16" font-weight="700" fill="#0F1828" text-anchor="start">HHI ≈ 3,500</text>
+<text x="60.0" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Dominated by ideaForge (commercial) and Raphe mPhibr (defence)</text>
+<line x1="60.0" y1="160.0" x2="60.0" y2="760.0" stroke="#D9D4C8" stroke-width="1" stroke-dasharray="3 4" opacity="1"/>
+<text x="60.0" y="782.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">0</text>
+<line x1="502.5" y1="160.0" x2="502.5" y2="760.0" stroke="#D9D4C8" stroke-width="1" stroke-dasharray="3 4" opacity="1"/>
+<text x="502.5" y="782.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">1,500</text>
+<line x1="797.5" y1="160.0" x2="797.5" y2="760.0" stroke="#D9D4C8" stroke-width="1" stroke-dasharray="3 4" opacity="1"/>
+<text x="797.5" y="782.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">2,500</text>
+<line x1="1240.0" y1="160.0" x2="1240.0" y2="760.0" stroke="#D9D4C8" stroke-width="1" stroke-dasharray="3 4" opacity="1"/>
+<text x="1240.0" y="782.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">4,000</text>
+<line x1="46.0" y1="814.0" x2="1554.0" y2="814.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="836.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Triangulated market shares  Techadyant Labs analysis.</text>
+<text x="1554.0" y="836.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">Estimated HHI</text>
+</svg>

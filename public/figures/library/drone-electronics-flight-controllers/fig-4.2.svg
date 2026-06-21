@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 818" width="1600" height="818">
+<rect x="0" y="0" width="1600" height="818" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">Pixhawk ecosystem dependency — import flow</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">From open-source firmware to Indian OEMs</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 4.2 · Techadyant Labs · 2026</text>
+<rect x="390.0" y="120.0" width="820.0" height="56.0" rx="8" fill="#0F1828"/>
+<text x="800.0" y="148.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">GLOBAL OPEN-SOURCE FIRMWARE — ArduPilot / PX4 (free, global community)</text>
+<line x1="800.0" y1="176.0" x2="800.0" y2="199.0" stroke="#4A5567" stroke-width="2.2" opacity="1"/>
+<polygon points="800.0,206.0 795.0,196.0 805.0,196.0" fill="#4A5567" opacity="1"/>
+<rect x="390.0" y="206.0" width="820.0" height="52.0" rx="8" fill="#4A5567"/>
+<text x="800.0" y="232.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">PIXHAWK HARDWARE STANDARD — open hardware specification (licensed)</text>
+<line x1="800.0" y1="258.0" x2="800.0" y2="290.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<line x1="360.0" y1="290.0" x2="1240.0" y2="290.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<line x1="360.0" y1="290.0" x2="360.0" y2="313.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<polygon points="360.0,320.0 355.0,310.0 365.0,310.0" fill="#4A5567" opacity="1"/>
+<rect x="170.0" y="320.0" width="380.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#C8443B" stroke-width="2"/>
+<text x="360.0" y="358.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828" text-anchor="middle">Holybro (China)</text>
+<text x="360.0" y="386.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#C8443B" text-anchor="middle">60–70% market</text>
+<line x1="360.0" y1="406.0" x2="360.0" y2="438.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<line x1="800.0" y1="290.0" x2="800.0" y2="313.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<polygon points="800.0,320.0 795.0,310.0 805.0,310.0" fill="#4A5567" opacity="1"/>
+<rect x="610.0" y="320.0" width="380.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#C8443B" stroke-width="2"/>
+<text x="800.0" y="358.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828" text-anchor="middle">CUAV (China)</text>
+<text x="800.0" y="386.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#C8443B" text-anchor="middle">15–20% market</text>
+<line x1="800.0" y1="406.0" x2="800.0" y2="438.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<line x1="1240.0" y1="290.0" x2="1240.0" y2="313.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<polygon points="1240.0,320.0 1235.0,310.0 1245.0,310.0" fill="#4A5567" opacity="1"/>
+<rect x="1050.0" y="320.0" width="380.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="2"/>
+<text x="1240.0" y="358.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828" text-anchor="middle">CubePilot (Australia)</text>
+<text x="1240.0" y="386.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#2BC5B4" text-anchor="middle">5–10% market</text>
+<line x1="1240.0" y1="406.0" x2="1240.0" y2="438.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<line x1="360.0" y1="438.0" x2="1240.0" y2="438.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<line x1="800.0" y1="438.0" x2="800.0" y2="463.0" stroke="#4A5567" stroke-width="2" opacity="1"/>
+<polygon points="800.0,470.0 795.0,460.0 805.0,460.0" fill="#4A5567" opacity="1"/>
+<rect x="350.0" y="470.0" width="900.0" height="76.0" rx="8" fill="#C9A84C"/>
+<text x="800.0" y="500.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0F1828" text-anchor="middle">INDIA — import through distributors</text>
+<text x="800.0" y="526.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="middle">Estimated import value: USD 50–80 million annually (flight controllers only)</text>
+<line x1="800.0" y1="546.0" x2="800.0" y2="569.0" stroke="#4A5567" stroke-width="2.2" opacity="1"/>
+<polygon points="800.0,576.0 795.0,566.0 805.0,566.0" fill="#4A5567" opacity="1"/>
+<rect x="350.0" y="576.0" width="900.0" height="120.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="370.0" y="606.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F1828" text-anchor="start">INDIAN DRONE OEMs</text>
+<circle cx="364.0" cy="627.0" r="3.0" fill="#2BC5B4" opacity="1"/>
+<text x="376.0" y="632.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#0F1828" text-anchor="start">ideaForge — proprietary FC (not Pixhawk)</text>
+<circle cx="364.0" cy="653.0" r="3.0" fill="#C8443B" opacity="1"/>
+<text x="376.0" y="658.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#0F1828" text-anchor="start">Garuda Aerospace — Pixhawk-based</text>
+<circle cx="364.0" cy="679.0" r="3.0" fill="#C8443B" opacity="1"/>
+<text x="376.0" y="684.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#0F1828" text-anchor="start">Dhaksha — Pixhawk-based</text>
+<circle cx="824.0" cy="627.0" r="3.0" fill="#C8443B" opacity="1"/>
+<text x="836.0" y="632.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#0F1828" text-anchor="start">General Aeronautics — Pixhawk-based</text>
+<circle cx="824.0" cy="653.0" r="3.0" fill="#C8443B" opacity="1"/>
+<text x="836.0" y="658.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#0F1828" text-anchor="start">Others — Pixhawk-based</text>
+<rect x="350.0" y="704.0" width="900.0" height="46.0" rx="8" fill="#C8443B"/>
+<text x="800.0" y="733.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">KEY DEPENDENCY: Indian OEMs (except ideaForge) rely on Chinese-made Pixhawk clones</text>
+<line x1="46.0" y1="778.0" x2="1554.0" y2="778.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="800.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Industry triangulation  Techadyant Labs analysis.</text>
+<text x="1554.0" y="800.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">Estimated shares</text>
+</svg>

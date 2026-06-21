@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" width="1600" height="760">
+<rect x="0" y="0" width="1600" height="760" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">AI autonomy software stack</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Four layers, with India capability by layer</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 5.4 · Techadyant Labs · 2026</text>
+<rect x="46.0" y="126.0" width="1180.0" height="114.0" rx="8" fill="#FFFFFF" stroke="#C8443B" stroke-width="2"/>
+<rect x="46.0" y="126.0" width="14.0" height="114.0" rx="8" fill="#C8443B"/>
+<text x="80.0" y="166.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="start">LAYER 4 — DECISION MAKING</text>
+<text x="80.0" y="202.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">Mission planning · contingency handling · dynamic replanning · goal reasoning</text>
+<rect x="1250.0" y="126.0" width="304.0" height="114.0" rx="8" fill="#E8E5DD" stroke="#C8443B" stroke-width="1.6"/>
+<text x="1402.0" y="164.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#4A5567" text-anchor="middle">India capability</text>
+<text x="1402.0" y="190.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">Emerging (Tsalla)</text>
+<line x1="636.0" y1="240.0" x2="636.0" y2="247.0" stroke="#4A5567" stroke-width="2.2" opacity="1"/>
+<polygon points="636.0,254.0 631.0,244.0 641.0,244.0" fill="#4A5567" opacity="1"/>
+<rect x="46.0" y="254.0" width="1180.0" height="114.0" rx="8" fill="#FFFFFF" stroke="#D86F62" stroke-width="2"/>
+<rect x="46.0" y="254.0" width="14.0" height="114.0" rx="8" fill="#D86F62"/>
+<text x="80.0" y="294.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="start">LAYER 3 — PLANNING &amp; CONTROL</text>
+<text x="80.0" y="330.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">Path planning · trajectory optimisation · collision avoidance · swarm coordination</text>
+<rect x="1250.0" y="254.0" width="304.0" height="114.0" rx="8" fill="#E8E5DD" stroke="#D86F62" stroke-width="1.6"/>
+<text x="1402.0" y="292.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#4A5567" text-anchor="middle">India capability</text>
+<text x="1402.0" y="318.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">Basic (Inferigence Chetas)</text>
+<line x1="636.0" y1="368.0" x2="636.0" y2="375.0" stroke="#4A5567" stroke-width="2.2" opacity="1"/>
+<polygon points="636.0,382.0 631.0,372.0 641.0,372.0" fill="#4A5567" opacity="1"/>
+<rect x="46.0" y="382.0" width="1180.0" height="114.0" rx="8" fill="#FFFFFF" stroke="#C9A84C" stroke-width="2"/>
+<rect x="46.0" y="382.0" width="14.0" height="114.0" rx="8" fill="#C9A84C"/>
+<text x="80.0" y="422.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="start">LAYER 2 — PERCEPTION</text>
+<text x="80.0" y="458.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">Computer vision · object detection · object tracking · sensor fusion (VIO)</text>
+<rect x="1250.0" y="382.0" width="304.0" height="114.0" rx="8" fill="#E8E5DD" stroke="#C9A84C" stroke-width="1.6"/>
+<text x="1402.0" y="420.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#4A5567" text-anchor="middle">India capability</text>
+<text x="1402.0" y="446.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">Emerging (Inferigence 7Sense,</text>
+<text x="1402.0" y="464.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">Tsalla)</text>
+<line x1="636.0" y1="496.0" x2="636.0" y2="503.0" stroke="#4A5567" stroke-width="2.2" opacity="1"/>
+<polygon points="636.0,510.0 631.0,500.0 641.0,500.0" fill="#4A5567" opacity="1"/>
+<rect x="46.0" y="510.0" width="1180.0" height="114.0" rx="8" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="46.0" y="510.0" width="14.0" height="114.0" rx="8" fill="#2BC5B4"/>
+<text x="80.0" y="550.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="start">LAYER 1 — SENSOR DRIVERS &amp; DATA FUSION</text>
+<text x="80.0" y="586.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">Camera/IMU/GPS drivers · Kalman filter · sensor synchronisation</text>
+<rect x="1250.0" y="510.0" width="304.0" height="114.0" rx="8" fill="#E8E5DD" stroke="#2BC5B4" stroke-width="1.6"/>
+<text x="1402.0" y="548.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#4A5567" text-anchor="middle">India capability</text>
+<text x="1402.0" y="574.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">Mature (open-source, some</text>
+<text x="1402.0" y="592.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">proprietary)</text>
+<rect x="46.0" y="640.0" width="1508.0" height="52.0" rx="8" fill="#0F1828"/>
+<text x="66.0" y="671.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#E8E5DD" text-anchor="start">INDIA: strong software talent, but embedded/real-time edge AI and edge-AI hardware remain the gaps; open-source contribution is low.</text>
+<line x1="46.0" y1="720.0" x2="1554.0" y2="720.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Techadyant Labs analysis.  Techadyant Labs analysis.</text>
+</svg>

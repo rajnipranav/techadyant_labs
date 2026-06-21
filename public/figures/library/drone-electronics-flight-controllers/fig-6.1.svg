@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 880" width="1600" height="880">
+<rect x="0" y="0" width="1600" height="880" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">Six key market drivers — contribution weightage</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Base scenario, 2026–2035</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 6.1 · Techadyant Labs · 2026</text>
+<text x="70.0" y="150.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">BVLOS commercial approval</text>
+<rect x="70.0" y="162.0" width="820.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="70.0" y="162.0" width="751.7" height="34.0" rx="4" fill="#C9A84C"/>
+<text x="835.7" y="186.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="16" font-weight="700" fill="#0F1828" text-anchor="start">25–30%</text>
+<text x="70.0" y="218.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="start">Mandates sense-and-avoid (Level 2), redundant FCs; creates BVLOS logistics segment.</text>
+<text x="70.0" y="268.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">PLI scheme &amp; 40% localisation mandate</text>
+<rect x="70.0" y="280.0" width="820.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="70.0" y="280.0" width="615.0" height="34.0" rx="4" fill="#C9A84C"/>
+<text x="699.0" y="304.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="16" font-weight="700" fill="#0F1828" text-anchor="start">20–25%</text>
+<text x="70.0" y="336.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="start">Incentivises domestic FC manufacturing; demand-pull for indigenous FCs.</text>
+<text x="70.0" y="386.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">Defence modernisation &amp; EW resilience</text>
+<rect x="70.0" y="398.0" width="820.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="70.0" y="398.0" width="478.3" height="34.0" rx="4" fill="#2BC5B4"/>
+<text x="562.3" y="422.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="16" font-weight="700" fill="#0F1828" text-anchor="start">15–20%</text>
+<text x="70.0" y="454.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="start">Operation Sindoor exposed vulnerabilities; GPS-denied &amp; EW-resilient FCs prioritised.</text>
+<text x="70.0" y="504.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">Defence tech funding surge</text>
+<rect x="70.0" y="516.0" width="820.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="70.0" y="516.0" width="369.0" height="34.0" rx="4" fill="#2BC5B4"/>
+<text x="453.0" y="540.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="16" font-weight="700" fill="#0F1828" text-anchor="start">12–15%</text>
+<text x="70.0" y="572.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="start">USD 307M in 2024-25 (71% since 2014) into drone/anti-drone startups.</text>
+<text x="70.0" y="622.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">Commercial drone fleet expansion</text>
+<rect x="70.0" y="634.0" width="820.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="70.0" y="634.0" width="300.7" height="34.0" rx="4" fill="#4A5567"/>
+<text x="384.7" y="658.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="16" font-weight="700" fill="#0F1828" text-anchor="start">10–12%</text>
+<text x="70.0" y="690.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="start">Agriculture (Drone Shakti), infrastructure, mining drive volume growth.</text>
+<text x="70.0" y="740.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">Export market development</text>
+<rect x="70.0" y="752.0" width="820.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="70.0" y="752.0" width="246.0" height="34.0" rx="4" fill="#4A5567"/>
+<text x="330.0" y="776.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="16" font-weight="700" fill="#0F1828" text-anchor="start">8–10%</text>
+<text x="70.0" y="808.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="start">Indigenous FC/AI becomes export-competitive (SE Asia, Africa, Middle East).</text>
+<line x1="46.0" y1="840.0" x2="1554.0" y2="840.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="862.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Techadyant Labs multi-factor driver model.  Techadyant Labs analysis.</text>
+<text x="1554.0" y="862.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">Indicative weights</text>
+</svg>

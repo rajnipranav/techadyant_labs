@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 834" width="1600" height="834">
+<rect x="0" y="0" width="1600" height="834" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">India drone FC / AI technology roadmap, 2026–2035</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Commercial/operational vs. R&amp;D / import-dependent</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 13.2 · Techadyant Labs · 2026</text>
+<text x="494.0" y="136.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" font-weight="600" fill="#4A5567" text-anchor="middle">2026</text>
+<line x1="440.0" y1="150.0" x2="440.0" y2="766.0" stroke="#D9D4C8" stroke-width="1" opacity="0.6"/>
+<text x="602.0" y="136.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" font-weight="600" fill="#4A5567" text-anchor="middle">2027</text>
+<line x1="548.0" y1="150.0" x2="548.0" y2="766.0" stroke="#D9D4C8" stroke-width="1" opacity="0.6"/>
+<text x="710.0" y="136.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" font-weight="600" fill="#4A5567" text-anchor="middle">2028</text>
+<line x1="656.0" y1="150.0" x2="656.0" y2="766.0" stroke="#D9D4C8" stroke-width="1" opacity="0.6"/>
+<text x="818.0" y="136.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" font-weight="600" fill="#4A5567" text-anchor="middle">2029</text>
+<line x1="764.0" y1="150.0" x2="764.0" y2="766.0" stroke="#D9D4C8" stroke-width="1" opacity="0.6"/>
+<text x="926.0" y="136.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" font-weight="600" fill="#4A5567" text-anchor="middle">2030</text>
+<line x1="872.0" y1="150.0" x2="872.0" y2="766.0" stroke="#D9D4C8" stroke-width="1" opacity="0.6"/>
+<text x="1034.0" y="136.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" font-weight="600" fill="#4A5567" text-anchor="middle">2031</text>
+<line x1="980.0" y1="150.0" x2="980.0" y2="766.0" stroke="#D9D4C8" stroke-width="1" opacity="0.6"/>
+<text x="1142.0" y="136.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" font-weight="600" fill="#4A5567" text-anchor="middle">2032</text>
+<line x1="1088.0" y1="150.0" x2="1088.0" y2="766.0" stroke="#D9D4C8" stroke-width="1" opacity="0.6"/>
+<text x="1250.0" y="136.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" font-weight="600" fill="#4A5567" text-anchor="middle">2033</text>
+<line x1="1196.0" y1="150.0" x2="1196.0" y2="766.0" stroke="#D9D4C8" stroke-width="1" opacity="0.6"/>
+<text x="1358.0" y="136.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" font-weight="600" fill="#4A5567" text-anchor="middle">2034</text>
+<line x1="1304.0" y1="150.0" x2="1304.0" y2="766.0" stroke="#D9D4C8" stroke-width="1" opacity="0.6"/>
+<text x="1466.0" y="136.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" font-weight="600" fill="#4A5567" text-anchor="middle">2035</text>
+<line x1="1412.0" y1="150.0" x2="1412.0" y2="766.0" stroke="#D9D4C8" stroke-width="1" opacity="0.6"/>
+<text x="60.0" y="186.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="start">40% Localisation target</text>
+<rect x="440.0" y="162.0" width="0.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="440.0" y="162.0" width="1080.0" height="34.0" rx="4" fill="#C9A84C"/>
+<text x="60.0" y="242.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="start">BVLOS commercial approval</text>
+<rect x="440.0" y="218.0" width="216.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="656.0" y="218.0" width="864.0" height="34.0" rx="4" fill="#C9A84C"/>
+<text x="60.0" y="298.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="start">GPS-denied navigation</text>
+<rect x="440.0" y="274.0" width="432.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="872.0" y="274.0" width="648.0" height="34.0" rx="4" fill="#C9A84C"/>
+<text x="60.0" y="354.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="start">Sense-and-avoid</text>
+<rect x="440.0" y="330.0" width="432.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="872.0" y="330.0" width="648.0" height="34.0" rx="4" fill="#C9A84C"/>
+<text x="60.0" y="410.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="start">Indigenous FC processor (RISC-V)</text>
+<rect x="440.0" y="386.0" width="972.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="1412.0" y="386.0" width="108.0" height="34.0" rx="4" fill="#2BC5B4"/>
+<text x="60.0" y="466.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="start">Swarm intelligence (Mehar Baba)</text>
+<rect x="440.0" y="442.0" width="648.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="1088.0" y="442.0" width="432.0" height="34.0" rx="4" fill="#2BC5B4"/>
+<text x="60.0" y="522.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="start">AI certification framework</text>
+<rect x="440.0" y="498.0" width="972.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="1412.0" y="498.0" width="108.0" height="34.0" rx="4" fill="#2BC5B4"/>
+<text x="60.0" y="578.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="600" fill="#0F1828" text-anchor="start">Edge AI hardware (domestic)</text>
+<rect x="440.0" y="554.0" width="972.0" height="34.0" rx="4" fill="#E8E5DD"/>
+<rect x="1412.0" y="554.0" width="108.0" height="34.0" rx="4" fill="#2BC5B4"/>
+<rect x="60.0" y="620.0" width="18.0" height="18.0" rx="0" fill="#C9A84C"/>
+<text x="86.0" y="635.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">Commercial / operational scale (early-window)</text>
+<rect x="520.0" y="620.0" width="18.0" height="18.0" rx="0" fill="#2BC5B4"/>
+<text x="546.0" y="635.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">Operational scale (later-window)</text>
+<rect x="940.0" y="620.0" width="18.0" height="18.0" rx="0" fill="#E8E5DD" stroke="#D9D4C8" stroke-width="1"/>
+<text x="966.0" y="635.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">R&amp;D / prototype / import-dependent</text>
+<rect x="46.0" y="664.0" width="1508.0" height="86.0" rx="8" fill="#0F1828"/>
+<text x="66.0" y="692.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#C9A84C" text-anchor="start">KEY MILESTONES</text>
+<text x="66.0" y="716.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#E8E5DD" text-anchor="start">2026 new PLI + 515 WS MoUs  ·  2027-28 BVLOS approval + 40% deadline  ·  2028-29 GPS-denied nav (defence)</text>
+<text x="66.0" y="738.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#E8E5DD" text-anchor="start">2029-30 sense-and-avoid mandatory  ·  2030-32 swarm (defence)  ·  2032-35 indigenous FC processor pilot</text>
+<line x1="46.0" y1="794.0" x2="1554.0" y2="794.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="816.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Techadyant Labs roadmap synthesis.  Techadyant Labs analysis.</text>
+<text x="1554.0" y="816.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">Forecast</text>
+</svg>

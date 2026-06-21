@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 910" width="1600" height="910">
+<rect x="0" y="0" width="1600" height="910" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">Drone autonomy levels (1–4)</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Operator role, capability and India status</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 5.1 · Techadyant Labs · 2026</text>
+<rect x="46.0" y="124.0" width="1508.0" height="118.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="46.0" y="124.0" width="200.0" height="118.0" rx="8" fill="#4A5567"/>
+<rect x="196.0" y="124.0" width="50.0" height="118.0" rx="0" fill="#4A5567"/>
+<text x="146.0" y="181.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">LEVEL 1</text>
+<text x="270.0" y="162.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="start">Human-in-the-loop (waypoint navigation)</text>
+<text x="270.0" y="190.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">Operator sets waypoints, monitors, handles emergencies. Position/altitude hold,</text>
+<text x="270.0" y="210.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">return-to-home.</text>
+<text x="1180.0" y="162.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#4A5567" text-anchor="start">India status</text>
+<text x="1180.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">MATURE (all commercial drones)</text>
+<text x="1180.0" y="216.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#4A5567" text-anchor="start">2026 share</text>
+<text x="1300.0" y="216.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#4A5567" text-anchor="start">60–70%</text>
+<rect x="46.0" y="256.0" width="1508.0" height="118.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="46.0" y="256.0" width="200.0" height="118.0" rx="8" fill="#2BC5B4"/>
+<rect x="196.0" y="256.0" width="50.0" height="118.0" rx="0" fill="#2BC5B4"/>
+<text x="146.0" y="313.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">LEVEL 2</text>
+<text x="270.0" y="294.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="start">Human-on-the-loop (collision avoidance)</text>
+<text x="270.0" y="322.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">Operator supervises; drone avoids obstacles, follows dynamic targets, adapts path.</text>
+<text x="1180.0" y="294.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#4A5567" text-anchor="start">India status</text>
+<text x="1180.0" y="316.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">EMERGING (Inferigence Chetas, Tsalla)</text>
+<text x="1180.0" y="348.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#4A5567" text-anchor="start">2026 share</text>
+<text x="1300.0" y="348.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#2BC5B4" text-anchor="start">20–25%</text>
+<rect x="46.0" y="388.0" width="1508.0" height="118.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="46.0" y="388.0" width="200.0" height="118.0" rx="8" fill="#C9A84C"/>
+<rect x="196.0" y="388.0" width="50.0" height="118.0" rx="0" fill="#C9A84C"/>
+<text x="146.0" y="445.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="700" fill="#0F1828" text-anchor="middle">LEVEL 3</text>
+<text x="270.0" y="426.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="start">Human-out-of-the-loop (mission autonomy)</text>
+<text x="270.0" y="454.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">Operator sets objectives only; drone plans and executes the full mission.</text>
+<text x="1180.0" y="426.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#4A5567" text-anchor="start">India status</text>
+<text x="1180.0" y="448.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">DEFENCE FOCUS (Tsalla AI Pilot, Zuppa)</text>
+<text x="1180.0" y="480.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#4A5567" text-anchor="start">2026 share</text>
+<text x="1300.0" y="480.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#0F1828" text-anchor="start">5–10%</text>
+<rect x="46.0" y="520.0" width="1508.0" height="118.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="46.0" y="520.0" width="200.0" height="118.0" rx="8" fill="#C8443B"/>
+<rect x="196.0" y="520.0" width="50.0" height="118.0" rx="0" fill="#C8443B"/>
+<text x="146.0" y="577.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">LEVEL 4</text>
+<text x="270.0" y="558.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="start">Fully autonomous swarm</text>
+<text x="270.0" y="586.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">Coordinated swarm, emergent behaviour, collective decision-making.</text>
+<text x="1180.0" y="558.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#4A5567" text-anchor="start">India status</text>
+<text x="1180.0" y="580.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">R&amp;D (IAF Mehar Baba, DRDO)</text>
+<text x="1180.0" y="612.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#4A5567" text-anchor="start">2026 share</text>
+<text x="1300.0" y="612.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#C8443B" text-anchor="start">&lt;5%</text>
+<text x="60.0" y="676.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0F1828" text-anchor="start">EVOLUTION OF INDIA CAPABILITY (2026 → 2035, base scenario)</text>
+<text x="60.0" y="716.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0F1828" text-anchor="start">Level 1</text>
+<rect x="200.0" y="698.0" width="900.0" height="24.0" rx="4" fill="#E8E5DD"/>
+<rect x="200.0" y="698.0" width="864.0" height="24.0" rx="4" fill="#C9A84C"/>
+<text x="1114.0" y="716.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#4A5567" text-anchor="start">Mature; remains majority of commercial drones</text>
+<text x="60.0" y="756.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0F1828" text-anchor="start">Level 2</text>
+<rect x="200.0" y="738.0" width="900.0" height="24.0" rx="4" fill="#E8E5DD"/>
+<rect x="200.0" y="738.0" width="648.0" height="24.0" rx="4" fill="#C9A84C"/>
+<text x="1114.0" y="756.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#4A5567" text-anchor="start">Rapid growth with BVLOS approval</text>
+<text x="60.0" y="796.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0F1828" text-anchor="start">Level 3</text>
+<rect x="200.0" y="778.0" width="900.0" height="24.0" rx="4" fill="#E8E5DD"/>
+<rect x="200.0" y="778.0" width="378.0" height="24.0" rx="4" fill="#C9A84C"/>
+<text x="1114.0" y="796.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#4A5567" text-anchor="start">Defence focus; commercial by 2030</text>
+<text x="60.0" y="836.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0F1828" text-anchor="start">Level 4</text>
+<rect x="200.0" y="818.0" width="900.0" height="24.0" rx="4" fill="#E8E5DD"/>
+<rect x="200.0" y="818.0" width="144.0" height="24.0" rx="4" fill="#C9A84C"/>
+<text x="1114.0" y="836.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#4A5567" text-anchor="start">R&amp;D; defence by 2030</text>
+<line x1="46.0" y1="870.0" x2="1554.0" y2="870.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="892.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Industry interviews  Techadyant Labs analysis.</text>
+<text x="1554.0" y="892.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">2035 indicative</text>
+</svg>

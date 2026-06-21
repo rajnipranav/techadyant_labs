@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 824" width="1600" height="824">
+<rect x="0" y="0" width="1600" height="824" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">India drone FC / AI partnership map</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">From international suppliers to end users</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 11.2 · Techadyant Labs · 2026</text>
+<text x="60.0" y="124.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#4A5567" text-anchor="start">INTERNATIONAL SUPPLIERS</text>
+<rect x="120.0" y="134.0" width="300.0" height="50.0" rx="8" fill="#FFFFFF" stroke="#C8443B" stroke-width="1.8"/>
+<text x="270.0" y="165.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">Holybro (China)</text>
+<rect x="444.0" y="134.0" width="300.0" height="50.0" rx="8" fill="#FFFFFF" stroke="#C8443B" stroke-width="1.8"/>
+<text x="594.0" y="165.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">DJI (China)</text>
+<rect x="768.0" y="134.0" width="300.0" height="50.0" rx="8" fill="#FFFFFF" stroke="#4A5567" stroke-width="1.8"/>
+<text x="918.0" y="165.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">CubePilot (Australia)</text>
+<rect x="1092.0" y="134.0" width="300.0" height="50.0" rx="8" fill="#FFFFFF" stroke="#4A5567" stroke-width="1.8"/>
+<text x="1242.0" y="165.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="middle">STM (Europe)</text>
+<line x1="800.0" y1="184.0" x2="800.0" y2="213.0" stroke="#4A5567" stroke-width="2.2" opacity="1"/>
+<polygon points="800.0,220.0 795.0,210.0 805.0,210.0" fill="#4A5567" opacity="1"/>
+<rect x="120.0" y="220.0" width="1360.0" height="44.0" rx="8" fill="#4A5567"/>
+<text x="800.0" y="248.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">DISTRIBUTORS / IMPORT CHANNELS</text>
+<line x1="800.0" y1="264.0" x2="800.0" y2="293.0" stroke="#4A5567" stroke-width="2.2" opacity="1"/>
+<polygon points="800.0,300.0 795.0,290.0 805.0,290.0" fill="#4A5567" opacity="1"/>
+<rect x="120.0" y="314.0" width="1360.0" height="250.0" rx="10" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="140.0" y="344.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0F1828" text-anchor="start">TIER 2 / TIER 3 (INDIA)</text>
+<rect x="170.0" y="370.0" width="260.0" height="76.0" rx="8" fill="#E8E5DD" stroke="#C9A84C" stroke-width="2"/>
+<text x="300.0" y="404.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="middle">ideaForge</text>
+<text x="300.0" y="428.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="middle">Complete stack</text>
+<rect x="510.0" y="370.0" width="260.0" height="76.0" rx="8" fill="#E8E5DD" stroke="#2BC5B4" stroke-width="2"/>
+<text x="640.0" y="404.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="middle">Zuppa</text>
+<text x="640.0" y="428.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="middle">FC mfg</text>
+<rect x="850.0" y="370.0" width="260.0" height="76.0" rx="8" fill="#E8E5DD" stroke="#2BC5B4" stroke-width="2"/>
+<text x="980.0" y="404.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="middle">Tsalla</text>
+<text x="980.0" y="428.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="middle">AI Pilot</text>
+<rect x="1170.0" y="370.0" width="260.0" height="76.0" rx="8" fill="#E8E5DD" stroke="#2BC5B4" stroke-width="2"/>
+<text x="1300.0" y="404.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="middle">Inferigence</text>
+<text x="1300.0" y="428.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="middle">Chetas</text>
+<rect x="170.0" y="474.0" width="260.0" height="76.0" rx="8" fill="#E8E5DD" stroke="#C9A84C" stroke-width="2"/>
+<text x="300.0" y="508.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="middle">Yaanendriya</text>
+<text x="300.0" y="532.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="middle">AI FCS</text>
+<rect x="510.0" y="474.0" width="260.0" height="76.0" rx="8" fill="#E8E5DD" stroke="#0F1828" stroke-width="2"/>
+<text x="640.0" y="508.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="middle">BEL</text>
+<text x="640.0" y="532.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="middle">Defence PSU</text>
+<rect x="850.0" y="474.0" width="260.0" height="76.0" rx="8" fill="#E8E5DD" stroke="#0F1828" stroke-width="2"/>
+<text x="980.0" y="508.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="middle">Raphe mPhibr</text>
+<text x="980.0" y="532.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#4A5567" text-anchor="middle">Defence leader</text>
+<line x1="300.0" y1="446.0" x2="300.0" y2="474.0" stroke="#C9A84C" stroke-width="2" opacity="1"/>
+<text x="316.0" y="464.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#C9A84C" text-anchor="start" font-style="italic">Army 515 WS MoU</text>
+<line x1="800.0" y1="564.0" x2="800.0" y2="593.0" stroke="#4A5567" stroke-width="2.2" opacity="1"/>
+<polygon points="800.0,600.0 795.0,590.0 805.0,590.0" fill="#4A5567" opacity="1"/>
+<rect x="120.0" y="600.0" width="1360.0" height="44.0" rx="8" fill="#0F1828"/>
+<text x="800.0" y="628.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#C9A84C" text-anchor="middle">END-USERS (Defence, Commercial)</text>
+<rect x="46.0" y="660.0" width="1508.0" height="96.0" rx="8" fill="#E8E5DD" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="66.0" y="688.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0F1828" text-anchor="start">KEY PARTNERSHIPS (2024–2026)</text>
+<circle cx="60.0" cy="707.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="72.0" y="712.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">Yaanendriya + Army 515 WS — AI-enabled FCS development &amp; validation</text>
+<circle cx="60.0" cy="733.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="72.0" y="738.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">ideaForge + Eon Space Labs — germanium-free thermal integration</text>
+<circle cx="794.0" cy="707.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="806.0" y="712.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">Inferigence + HAL — Chetas collision avoidance (Tejas → drones)</text>
+<circle cx="794.0" cy="733.0" r="3.0" fill="#C9A84C" opacity="1"/>
+<text x="806.0" y="738.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#0F1828" text-anchor="start">Tsalla + Indian Navy/Army — AI Pilot for confined-space &amp; logistics</text>
+<line x1="46.0" y1="784.0" x2="1554.0" y2="784.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="806.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Company announcements; Army 515 WS; Techadyant Labs analysis.  Techadyant Labs analysis.</text>
+</svg>

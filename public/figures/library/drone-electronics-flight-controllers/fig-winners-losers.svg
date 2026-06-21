@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 831" width="1600" height="831">
+<rect x="0" y="0" width="1600" height="831" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">Winners and losers across the four policy levers</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Structural advantage by actor archetype</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure WL · Techadyant Labs · 2026</text>
+<text x="710.0" y="138.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#0F1828" text-anchor="middle">PLI scheme</text>
+<text x="890.0" y="138.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#0F1828" text-anchor="middle">Army 515</text>
+<text x="1070.0" y="138.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#0F1828" text-anchor="middle">BVLOS</text>
+<text x="1250.0" y="138.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#0F1828" text-anchor="middle">Procurement</text>
+<text x="1430.0" y="138.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#0F1828" text-anchor="middle">Net</text>
+<text x="60.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">Vertically integrated OEM (ideaForge)</text>
+<rect x="624.0" y="154.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="710.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="804.0" y="154.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="890.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="984.0" y="154.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1070.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="1164.0" y="154.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1250.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="1344.0" y="154.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1430.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Strong win</text>
+<text x="60.0" y="242.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">Patented FC startup (Zuppa)</text>
+<rect x="624.0" y="212.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="710.0" y="242.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="804.0" y="212.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="890.0" y="242.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="984.0" y="212.0" width="172.0" height="50.0" rx="6" fill="#E8E5DD"/>
+<text x="1070.0" y="242.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Neutral</text>
+<rect x="1164.0" y="212.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1250.0" y="242.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="1344.0" y="212.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1430.0" y="242.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<text x="60.0" y="300.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">EW / GPS-denied specialist (Tsalla)</text>
+<rect x="624.0" y="270.0" width="172.0" height="50.0" rx="6" fill="#E8E5DD"/>
+<text x="710.0" y="300.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Neutral</text>
+<rect x="804.0" y="270.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="890.0" y="300.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="984.0" y="270.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1070.0" y="300.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="1164.0" y="270.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1250.0" y="300.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="1344.0" y="270.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1430.0" y="300.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<text x="60.0" y="358.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">Army-validated entrant (Yaanendriya)</text>
+<rect x="624.0" y="328.0" width="172.0" height="50.0" rx="6" fill="#E8E5DD"/>
+<text x="710.0" y="358.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Neutral</text>
+<rect x="804.0" y="328.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="890.0" y="358.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="984.0" y="328.0" width="172.0" height="50.0" rx="6" fill="#E8E5DD"/>
+<text x="1070.0" y="358.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Neutral</text>
+<rect x="1164.0" y="328.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1250.0" y="358.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="1344.0" y="328.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1430.0" y="358.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<text x="60.0" y="416.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">Defence prime / PSU (BEL, Raphe)</text>
+<rect x="624.0" y="386.0" width="172.0" height="50.0" rx="6" fill="#E8E5DD"/>
+<text x="710.0" y="416.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Neutral</text>
+<rect x="804.0" y="386.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="890.0" y="416.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="984.0" y="386.0" width="172.0" height="50.0" rx="6" fill="#E8E5DD"/>
+<text x="1070.0" y="416.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Neutral</text>
+<rect x="1164.0" y="386.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1250.0" y="416.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="1344.0" y="386.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1430.0" y="416.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<text x="60.0" y="474.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">Domestic EMS / PCB supplier</text>
+<rect x="624.0" y="444.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="710.0" y="474.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Win</text>
+<rect x="804.0" y="444.0" width="172.0" height="50.0" rx="6" fill="#E8E5DD"/>
+<text x="890.0" y="474.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Neutral</text>
+<rect x="984.0" y="444.0" width="172.0" height="50.0" rx="6" fill="#E8E5DD"/>
+<text x="1070.0" y="474.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Neutral</text>
+<rect x="1164.0" y="444.0" width="172.0" height="50.0" rx="6" fill="#E8E5DD"/>
+<text x="1250.0" y="474.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Neutral</text>
+<rect x="1344.0" y="444.0" width="172.0" height="50.0" rx="6" fill="#2BC5B4"/>
+<text x="1430.0" y="474.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Benefit</text>
+<text x="60.0" y="532.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">OEM reliant on imported FCs</text>
+<rect x="624.0" y="502.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="710.0" y="532.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="804.0" y="502.0" width="172.0" height="50.0" rx="6" fill="#E8E5DD"/>
+<text x="890.0" y="532.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Neutral</text>
+<rect x="984.0" y="502.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="1070.0" y="532.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="1164.0" y="502.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="1250.0" y="532.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="1344.0" y="502.0" width="172.0" height="50.0" rx="6" fill="#D86F62"/>
+<text x="1430.0" y="532.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Exposed</text>
+<text x="60.0" y="590.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">Pixhawk-clone importer</text>
+<rect x="624.0" y="560.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="710.0" y="590.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="804.0" y="560.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="890.0" y="590.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="984.0" y="560.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="1070.0" y="590.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="1164.0" y="560.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="1250.0" y="590.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="1344.0" y="560.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="1430.0" y="590.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Strong lose</text>
+<text x="60.0" y="648.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">Uncertified software-only &#x27;AI&#x27;</text>
+<rect x="624.0" y="618.0" width="172.0" height="50.0" rx="6" fill="#E8E5DD"/>
+<text x="710.0" y="648.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Neutral</text>
+<rect x="804.0" y="618.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="890.0" y="648.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="984.0" y="618.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="1070.0" y="648.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="1164.0" y="618.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="1250.0" y="648.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="1344.0" y="618.0" width="172.0" height="50.0" rx="6" fill="#D86F62"/>
+<text x="1430.0" y="648.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Exposed</text>
+<text x="60.0" y="706.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="#0F1828" text-anchor="start">Foreign (Chinese) FC supplier</text>
+<rect x="624.0" y="676.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="710.0" y="706.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="804.0" y="676.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="890.0" y="706.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="984.0" y="676.0" width="172.0" height="50.0" rx="6" fill="#E8E5DD"/>
+<text x="1070.0" y="706.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Neutral</text>
+<rect x="1164.0" y="676.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="1250.0" y="706.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Lose</text>
+<rect x="1344.0" y="676.0" width="172.0" height="50.0" rx="6" fill="#C8443B"/>
+<text x="1430.0" y="706.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Strong lose</text>
+<rect x="60.0" y="746.0" width="16.0" height="16.0" rx="0" fill="#2BC5B4"/>
+<text x="82.0" y="759.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#0F1828" text-anchor="start">Win</text>
+<rect x="260.0" y="746.0" width="16.0" height="16.0" rx="0" fill="#2BC5B4"/>
+<text x="282.0" y="759.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#0F1828" text-anchor="start">Benefit</text>
+<rect x="460.0" y="746.0" width="16.0" height="16.0" rx="0" fill="#E8E5DD"/>
+<text x="482.0" y="759.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#0F1828" text-anchor="start">Neutral</text>
+<rect x="660.0" y="746.0" width="16.0" height="16.0" rx="0" fill="#D86F62"/>
+<text x="682.0" y="759.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#0F1828" text-anchor="start">Exposed</text>
+<rect x="860.0" y="746.0" width="16.0" height="16.0" rx="0" fill="#C8443B"/>
+<text x="882.0" y="759.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#0F1828" text-anchor="start">Lose</text>
+<line x1="46.0" y1="791.0" x2="1554.0" y2="791.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="813.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Policy and procurement analysis.  Techadyant Labs analysis.</text>
+<text x="1554.0" y="813.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">Assessment modelled</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 842" width="1600" height="842">
+<rect x="0" y="0" width="1600" height="842" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">From 39% to 70–80% — the import-dependence build-up</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">How excluded categories raise the true figure</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 8.1 · Techadyant Labs · 2026</text>
+<text x="120.0" y="202.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">Official figure</text>
+<rect x="120.0" y="210.0" width="530.4" height="46.0" rx="4" fill="#0F1828"/>
+<text x="664.4" y="240.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#0F1828" text-anchor="start">39%</text>
+<text x="120.0" y="288.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">DGCA Type Certified small drones only</text>
+<text x="120.0" y="342.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">+ Nano + Micro drones</text>
+<rect x="120.0" y="350.0" width="530.4" height="46.0" rx="4" fill="#E8E5DD"/>
+<rect x="650.4" y="350.0" width="340.0" height="46.0" rx="4" fill="#C9A84C"/>
+<text x="1004.4" y="380.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#0F1828" text-anchor="start">64%</text>
+<text x="120.0" y="428.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">85–90% of fleet by unit volume; mostly imported FCs (+20–30 pts)</text>
+<text x="120.0" y="482.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">+ Uncertified + aftermarket</text>
+<rect x="120.0" y="490.0" width="870.4" height="46.0" rx="4" fill="#E8E5DD"/>
+<rect x="990.4" y="490.0" width="136.0" height="46.0" rx="4" fill="#C9A84C"/>
+<text x="1140.4" y="520.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#0F1828" text-anchor="start">74%</text>
+<text x="120.0" y="568.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Grey market, hobbyist, replacement FCs (+10–15 pts)</text>
+<text x="120.0" y="622.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0F1828" text-anchor="start">+ DJI complete drones</text>
+<rect x="120.0" y="630.0" width="1006.4" height="46.0" rx="4" fill="#E8E5DD"/>
+<rect x="1126.4" y="630.0" width="81.6" height="46.0" rx="4" fill="#C9A84C"/>
+<text x="1222.0" y="660.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#C8443B" text-anchor="start">70–80%</text>
+<text x="120.0" y="708.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Fully imported, integrated FCs not in the 39% (+10–15 pts)</text>
+<line x1="120.0" y1="750.0" x2="1480.0" y2="750.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="120.0" y="770.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">0</text>
+<text x="256.0" y="770.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">10</text>
+<text x="392.0" y="770.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">20</text>
+<text x="528.0" y="770.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">30</text>
+<text x="664.0" y="770.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">40</text>
+<text x="800.0" y="770.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">50</text>
+<text x="936.0" y="770.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">60</text>
+<text x="1072.0" y="770.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">70</text>
+<text x="1208.0" y="770.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">80</text>
+<text x="1344.0" y="770.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">90</text>
+<text x="1480.0" y="770.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#4A5567" text-anchor="middle">100</text>
+<line x1="46.0" y1="802.0" x2="1554.0" y2="802.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="824.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Lok Sabha (3 Apr 2025); industry triangulation  Techadyant Labs analysis.</text>
+<text x="1554.0" y="824.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">Estimated build-up</text>
+</svg>

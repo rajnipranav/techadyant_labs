@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 908" width="1600" height="908">
+<rect x="0" y="0" width="1600" height="908" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">Indigenous FC supply chain — current state (2026)</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Where value sits, and the critical import gap</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 8.2 · Techadyant Labs · 2026</text>
+<rect x="60.0" y="128.0" width="1000.0" height="120.0" rx="10" fill="#C8443B"/>
+<text x="84.0" y="166.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="start">IMPORTED COMPONENTS</text>
+<text x="1036.0" y="166.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#C9A84C" text-anchor="end">70–80% of value</text>
+<text x="84.0" y="198.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#FFFFFF" text-anchor="start">Processor (STM32) · IMU (Bosch, STM) · GPS (u-blox) · Baro/Mag (Bosch) — source: Europe /</text>
+<text x="84.0" y="220.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#FFFFFF" text-anchor="start">China / USA</text>
+<line x1="560.0" y1="248.0" x2="560.0" y2="269.0" stroke="#4A5567" stroke-width="2.4" opacity="1"/>
+<polygon points="560.0,276.0 555.0,266.0 565.0,266.0" fill="#4A5567" opacity="1"/>
+<rect x="60.0" y="276.0" width="1000.0" height="120.0" rx="10" fill="#2BC5B4"/>
+<text x="84.0" y="314.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="start">DOMESTIC ASSEMBLY / INTEGRATION</text>
+<text x="1036.0" y="314.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#4A5567" text-anchor="end">20–30% of value</text>
+<text x="84.0" y="346.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">PCB fab · placement · soldering · testing · firmware flashing — India capability HIGH</text>
+<text x="84.0" y="368.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">(Zuppa, ideaForge, Yaanendriya)</text>
+<line x1="560.0" y1="396.0" x2="560.0" y2="417.0" stroke="#4A5567" stroke-width="2.4" opacity="1"/>
+<polygon points="560.0,424.0 555.0,414.0 565.0,414.0" fill="#4A5567" opacity="1"/>
+<rect x="60.0" y="424.0" width="1000.0" height="120.0" rx="10" fill="#C9A84C"/>
+<text x="84.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="start">FIRMWARE DEVELOPMENT</text>
+<text x="1036.0" y="462.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#4A5567" text-anchor="end">software (not counted in localisation %)</text>
+<text x="84.0" y="494.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">ArduPilot / PX4 (global) · proprietary (Zuppa, ideaForge) — India open-source contribution</text>
+<text x="84.0" y="516.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">LOW</text>
+<line x1="560.0" y1="544.0" x2="560.0" y2="565.0" stroke="#4A5567" stroke-width="2.4" opacity="1"/>
+<polygon points="560.0,572.0 555.0,562.0 565.0,562.0" fill="#4A5567" opacity="1"/>
+<rect x="60.0" y="572.0" width="1000.0" height="120.0" rx="10" fill="#2BC5B4"/>
+<text x="84.0" y="610.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="start">AI AUTONOMY SOFTWARE LAYER</text>
+<text x="1036.0" y="610.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#4A5567" text-anchor="end">added value</text>
+<text x="84.0" y="642.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#4A5567" text-anchor="start">Tsalla AI Pilot · Inferigence Chetas/7Sense · Zuppa (developing) — India capability EMERGING</text>
+<line x1="560.0" y1="692.0" x2="560.0" y2="713.0" stroke="#4A5567" stroke-width="2.4" opacity="1"/>
+<polygon points="560.0,720.0 555.0,710.0 565.0,710.0" fill="#4A5567" opacity="1"/>
+<rect x="60.0" y="720.0" width="1000.0" height="120.0" rx="10" fill="#0F1828"/>
+<text x="84.0" y="758.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="start">COMPLETE DRONE OEM INTEGRATION</text>
+<text x="84.0" y="790.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#FFFFFF" text-anchor="start">ideaForge · Garuda (Pixhawk) · Dhaksha (Pixhawk) · General Aeronautics (Pixhawk)</text>
+<rect x="1130.0" y="128.0" width="424.0" height="120.0" rx="10" fill="#E8E5DD" stroke="#C8443B" stroke-width="2"/>
+<text x="1342.0" y="168.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#C8443B" text-anchor="middle">CRITICAL GAP</text>
+<text x="1342.0" y="200.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="middle">Processors and MEMS sensors are</text>
+<text x="1342.0" y="220.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="middle">~100% imported — no domestic</text>
+<text x="1342.0" y="240.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#0F1828" text-anchor="middle">fabrication.</text>
+<line x1="46.0" y1="868.0" x2="1554.0" y2="868.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="890.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Industry interviews; import data.  Techadyant Labs analysis.</text>
+<text x="1554.0" y="890.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">Value shares estimated</text>
+</svg>

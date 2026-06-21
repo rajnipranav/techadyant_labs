@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 718" width="1600" height="718">
+<rect x="0" y="0" width="1600" height="718" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">Drone autonomy regulatory timeline, 2014–2026</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Milestones with FC / AI implications</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 9.1 · Techadyant Labs · 2026</text>
+<line x1="110.0" y1="470.0" x2="1490.0" y2="470.0" stroke="#0F1828" stroke-width="3" opacity="1"/>
+<circle cx="110.0" cy="470.0" r="8.0" fill="#4A5567" opacity="1"/>
+<line x1="110.0" y1="470.0" x2="110.0" y2="320.0" stroke="#4A5567" stroke-width="1.6" stroke-dasharray="4 4" opacity="1"/>
+<rect x="18.0" y="210.0" width="184.0" height="150.0" rx="8" fill="#FFFFFF" stroke="#4A5567" stroke-width="1.8"/>
+<text x="110.0" y="240.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="20" font-weight="700" fill="#4A5567" text-anchor="middle">2018</text>
+<text x="110.0" y="264.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">CAR drone categories</text>
+<text x="110.0" y="282.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">foundation for FC</text>
+<text x="110.0" y="297.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">requirements by weight</text>
+<circle cx="263.3" cy="470.0" r="8.0" fill="#2BC5B4" opacity="1"/>
+<line x1="263.3" y1="470.0" x2="263.3" y2="620.0" stroke="#2BC5B4" stroke-width="1.6" stroke-dasharray="4 4" opacity="1"/>
+<rect x="171.3" y="500.0" width="184.0" height="150.0" rx="8" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="1.8"/>
+<text x="263.3" y="530.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="20" font-weight="700" fill="#2BC5B4" text-anchor="middle">2021</text>
+<text x="263.3" y="554.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">Drone Rules</text>
+<text x="263.3" y="572.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">liberalised</text>
+<text x="263.3" y="590.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">commercial operations</text>
+<text x="263.3" y="605.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">enabled — FC demand</text>
+<circle cx="416.7" cy="470.0" r="8.0" fill="#2BC5B4" opacity="1"/>
+<line x1="416.7" y1="470.0" x2="416.7" y2="320.0" stroke="#2BC5B4" stroke-width="1.6" stroke-dasharray="4 4" opacity="1"/>
+<rect x="324.7" y="210.0" width="184.0" height="150.0" rx="8" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="1.8"/>
+<text x="416.7" y="240.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="20" font-weight="700" fill="#2BC5B4" text-anchor="middle">2021</text>
+<text x="416.7" y="264.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">First PLI (INR 120 Cr)</text>
+<text x="416.7" y="300.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">limited FC localisation</text>
+<text x="416.7" y="315.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">impact</text>
+<circle cx="570.0" cy="470.0" r="8.0" fill="#2BC5B4" opacity="1"/>
+<line x1="570.0" y1="470.0" x2="570.0" y2="620.0" stroke="#2BC5B4" stroke-width="1.6" stroke-dasharray="4 4" opacity="1"/>
+<rect x="478.0" y="500.0" width="184.0" height="150.0" rx="8" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="1.8"/>
+<text x="570.0" y="530.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="20" font-weight="700" fill="#2BC5B4" text-anchor="middle">2022</text>
+<text x="570.0" y="554.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">Digital Sky live</text>
+<text x="570.0" y="572.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">remote ID drives</text>
+<text x="570.0" y="587.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">FC-integrated tracking</text>
+<circle cx="723.3" cy="470.0" r="8.0" fill="#C9A84C" opacity="1"/>
+<line x1="723.3" y1="470.0" x2="723.3" y2="320.0" stroke="#C9A84C" stroke-width="1.6" stroke-dasharray="4 4" opacity="1"/>
+<rect x="631.3" y="210.0" width="184.0" height="150.0" rx="8" fill="#FFFFFF" stroke="#C9A84C" stroke-width="1.8"/>
+<text x="723.3" y="240.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">2023</text>
+<text x="723.3" y="264.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">First BVLOS pilots</text>
+<text x="723.3" y="282.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">demonstrate need for</text>
+<text x="723.3" y="297.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">sense-and-avoid</text>
+<circle cx="876.7" cy="470.0" r="8.0" fill="#C9A84C" opacity="1"/>
+<line x1="876.7" y1="470.0" x2="876.7" y2="620.0" stroke="#C9A84C" stroke-width="1.6" stroke-dasharray="4 4" opacity="1"/>
+<rect x="784.7" y="500.0" width="184.0" height="150.0" rx="8" fill="#FFFFFF" stroke="#C9A84C" stroke-width="1.8"/>
+<text x="876.7" y="530.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">2024</text>
+<text x="876.7" y="554.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">Drone Shakti launched</text>
+<text x="876.7" y="572.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">agri subsidies drive</text>
+<text x="876.7" y="587.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">volume FC demand</text>
+<circle cx="1030.0" cy="470.0" r="8.0" fill="#C8443B" opacity="1"/>
+<line x1="1030.0" y1="470.0" x2="1030.0" y2="320.0" stroke="#C8443B" stroke-width="1.6" stroke-dasharray="4 4" opacity="1"/>
+<rect x="938.0" y="210.0" width="184.0" height="150.0" rx="8" fill="#FFFFFF" stroke="#C8443B" stroke-width="1.8"/>
+<text x="1030.0" y="240.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="20" font-weight="700" fill="#C8443B" text-anchor="middle">2025</text>
+<text x="1030.0" y="264.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">Lok Sabha — 39% from</text>
+<text x="1030.0" y="282.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">China</text>
+<text x="1030.0" y="300.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">government acknowledges</text>
+<text x="1030.0" y="315.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">vulnerability</text>
+<circle cx="1183.3" cy="470.0" r="8.0" fill="#C8443B" opacity="1"/>
+<line x1="1183.3" y1="470.0" x2="1183.3" y2="620.0" stroke="#C8443B" stroke-width="1.6" stroke-dasharray="4 4" opacity="1"/>
+<rect x="1091.3" y="500.0" width="184.0" height="150.0" rx="8" fill="#FFFFFF" stroke="#C8443B" stroke-width="1.8"/>
+<text x="1183.3" y="530.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="20" font-weight="700" fill="#C8443B" text-anchor="middle">2025</text>
+<text x="1183.3" y="554.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">Operation Sindoor</text>
+<text x="1183.3" y="572.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">exposes EW vulnerabilities</text>
+<text x="1183.3" y="587.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">of imported FCs</text>
+<circle cx="1336.7" cy="470.0" r="8.0" fill="#C9A84C" opacity="1"/>
+<line x1="1336.7" y1="470.0" x2="1336.7" y2="320.0" stroke="#C9A84C" stroke-width="1.6" stroke-dasharray="4 4" opacity="1"/>
+<rect x="1244.7" y="210.0" width="184.0" height="150.0" rx="8" fill="#FFFFFF" stroke="#C9A84C" stroke-width="1.8"/>
+<text x="1336.7" y="240.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">2026</text>
+<text x="1336.7" y="264.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">Army 515 WS MoUs</text>
+<text x="1336.7" y="282.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">structured defence-startup</text>
+<text x="1336.7" y="297.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">collaboration</text>
+<circle cx="1490.0" cy="470.0" r="8.0" fill="#C9A84C" opacity="1"/>
+<line x1="1490.0" y1="470.0" x2="1490.0" y2="620.0" stroke="#C9A84C" stroke-width="1.6" stroke-dasharray="4 4" opacity="1"/>
+<rect x="1398.0" y="500.0" width="184.0" height="150.0" rx="8" fill="#FFFFFF" stroke="#C9A84C" stroke-width="1.8"/>
+<text x="1490.0" y="530.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle">2026</text>
+<text x="1490.0" y="554.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="middle">New PLI (INR 2,000 Cr)</text>
+<text x="1490.0" y="590.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">40% localisation mandate</text>
+<text x="1490.0" y="605.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="middle">for FCs</text>
+<line x1="46.0" y1="678.0" x2="1554.0" y2="678.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="700.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: DGCA; MoCA; Lok Sabha; Techadyant Labs analysis.  Techadyant Labs analysis.</text>
+</svg>

@@ -36,6 +36,13 @@ export const REPORTS = {
     filename: 'Indias-Drone-Battery-Ecosystem-Techadyant-Labs.pdf',
     title: 'India’s Drone Battery Ecosystem',
   },
+  'drone-electronics-flight-controllers': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'Drone-Electronics-Flight-Controllers.pdf',
+    filename: 'Who-Controls-Indias-Drones-Techadyant-Labs.pdf',
+    title: 'Who Controls India’s Drones?',
+  },
   'who-builds-indias-drones': {
     access: 'paid',
     priceInr: 6999,

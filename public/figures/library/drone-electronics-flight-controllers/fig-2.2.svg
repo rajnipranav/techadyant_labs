@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 608" width="1600" height="608">
+<rect x="0" y="0" width="1600" height="608" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">Analytical methodology flow</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Six-step triangulated estimation</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 2.2 · Techadyant Labs · 2026</text>
+<rect x="46.0" y="160.0" width="470.0" height="88.0" rx="8" fill="#0F1828"/>
+<text x="66.0" y="190.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#C9A84C" text-anchor="start">STEP 1</text>
+<text x="66.0" y="222.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="start">Data collection</text>
+<rect x="46.0" y="258.0" width="470.0" height="72.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="64.0" y="284.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Lok Sabha data · PLI scheme · iDEX grants ·</text>
+<text x="64.0" y="304.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">interviews · survey</text>
+<line x1="516.0" y1="204.0" x2="558.0" y2="204.0" stroke="#C9A84C" stroke-width="2.6" opacity="1"/>
+<polygon points="565.0,204.0 555.0,199.0 555.0,209.0" fill="#C9A84C" opacity="1"/>
+<rect x="565.0" y="160.0" width="470.0" height="88.0" rx="8" fill="#0F1828"/>
+<text x="585.0" y="190.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#C9A84C" text-anchor="start">STEP 2</text>
+<text x="585.0" y="222.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="start">Data validation</text>
+<rect x="565.0" y="258.0" width="470.0" height="72.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="583.0" y="284.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Cross-source checks · expert review</text>
+<line x1="1035.0" y1="204.0" x2="1077.0" y2="204.0" stroke="#C9A84C" stroke-width="2.6" opacity="1"/>
+<polygon points="1084.0,204.0 1074.0,199.0 1074.0,209.0" fill="#C9A84C" opacity="1"/>
+<rect x="1084.0" y="160.0" width="470.0" height="88.0" rx="8" fill="#0F1828"/>
+<text x="1104.0" y="190.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#C9A84C" text-anchor="start">STEP 3</text>
+<text x="1104.0" y="222.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="start">Triangulation</text>
+<rect x="1084.0" y="258.0" width="470.0" height="72.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="1102.0" y="284.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Top-down: fleet × FC/drone · Bottom-up: import data</text>
+<text x="1102.0" y="304.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">× markup</text>
+<rect x="46.0" y="370.0" width="470.0" height="88.0" rx="8" fill="#0F1828"/>
+<text x="66.0" y="400.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#C9A84C" text-anchor="start">STEP 4</text>
+<text x="66.0" y="432.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="start">Forecast modelling</text>
+<rect x="46.0" y="468.0" width="470.0" height="72.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="64.0" y="494.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Base · bull · bear · sensitivity analysis</text>
+<line x1="516.0" y1="414.0" x2="558.0" y2="414.0" stroke="#C9A84C" stroke-width="2.6" opacity="1"/>
+<polygon points="565.0,414.0 555.0,409.0 555.0,419.0" fill="#C9A84C" opacity="1"/>
+<rect x="565.0" y="370.0" width="470.0" height="88.0" rx="8" fill="#0F1828"/>
+<text x="585.0" y="400.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#C9A84C" text-anchor="start">STEP 5</text>
+<text x="585.0" y="432.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="start">Segmentation</text>
+<rect x="565.0" y="468.0" width="470.0" height="72.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="583.0" y="494.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">By FC type · autonomy level · end-use sector</text>
+<line x1="1035.0" y1="414.0" x2="1077.0" y2="414.0" stroke="#C9A84C" stroke-width="2.6" opacity="1"/>
+<polygon points="1084.0,414.0 1074.0,409.0 1074.0,419.0" fill="#C9A84C" opacity="1"/>
+<rect x="1084.0" y="370.0" width="470.0" height="88.0" rx="8" fill="#0F1828"/>
+<text x="1104.0" y="400.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#C9A84C" text-anchor="start">STEP 6</text>
+<text x="1104.0" y="432.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="start">Validation &amp; refinement</text>
+<rect x="1084.0" y="468.0" width="470.0" height="72.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<text x="1102.0" y="494.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Client feedback · expert panel review</text>
+<line x1="1319.0" y1="336.0" x2="1319.0" y2="359.0" stroke="#C9A84C" stroke-width="2.6" opacity="1"/>
+<polygon points="1319.0,366.0 1314.0,356.0 1324.0,356.0" fill="#C9A84C" opacity="1"/>
+<line x1="46.0" y1="568.0" x2="1554.0" y2="568.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="590.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Techadyant Labs methodology.  Techadyant Labs analysis.</text>
+</svg>

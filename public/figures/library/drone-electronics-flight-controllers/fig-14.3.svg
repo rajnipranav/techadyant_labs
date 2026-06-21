@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1062" width="1600" height="1062">
+<rect x="0" y="0" width="1600" height="1062" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">30-60-90 day action plan by stakeholder</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Immediate steps for six actor groups</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 14.3 · Techadyant Labs · 2026</text>
+<rect x="336.0" y="128.0" width="1218.0" height="40.0" rx="6" fill="#0F1828"/>
+<text x="539.0" y="154.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#C9A84C" text-anchor="middle">30 DAYS</text>
+<text x="945.0" y="154.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#C9A84C" text-anchor="middle">60 DAYS</text>
+<text x="1351.0" y="154.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#C9A84C" text-anchor="middle">90 DAYS</text>
+<rect x="46.0" y="176.0" width="280.0" height="128.0" rx="8" fill="#0F1828"/>
+<text x="186.0" y="246.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">DRONE OEMs</text>
+<rect x="336.0" y="176.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="350.0" y="206.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Audit FC import dependence;</text>
+<text x="350.0" y="225.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">calculate current localisation %</text>
+<rect x="742.0" y="176.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="756.0" y="206.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Open discussions with Zuppa &amp;</text>
+<text x="756.0" y="225.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Yaanendriya for PLI-compliant FCs</text>
+<rect x="1148.0" y="176.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="1162.0" y="206.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Build roadmap to 40% localisation;</text>
+<text x="1162.0" y="225.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">file PLI application</text>
+<rect x="46.0" y="314.0" width="280.0" height="128.0" rx="8" fill="#0F1828"/>
+<text x="186.0" y="384.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">FC / AI STARTUPS</text>
+<rect x="336.0" y="314.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="350.0" y="344.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Assess PLI eligibility; prepare</text>
+<text x="350.0" y="363.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">application</text>
+<rect x="742.0" y="314.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="756.0" y="344.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">File provisional patents; start iDEX</text>
+<text x="756.0" y="363.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">application (if defence)</text>
+<rect x="1148.0" y="314.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="1162.0" y="344.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Engage Army 515 WS; seek STQC</text>
+<text x="1162.0" y="363.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">certification</text>
+<rect x="46.0" y="452.0" width="280.0" height="128.0" rx="8" fill="#0F1828"/>
+<text x="186.0" y="522.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">INVESTORS</text>
+<rect x="336.0" y="452.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="350.0" y="482.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Map the FC/AI startup landscape;</text>
+<text x="350.0" y="501.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">prioritise targets</text>
+<rect x="742.0" y="452.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="756.0" y="482.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Due diligence on 2–3 targets; focus</text>
+<text x="756.0" y="501.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">on IP &amp; defence validation</text>
+<rect x="1148.0" y="452.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="1162.0" y="482.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Term sheet for 1–2; explore</text>
+<text x="1162.0" y="501.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">co-investment with OEMs</text>
+<rect x="46.0" y="590.0" width="280.0" height="128.0" rx="8" fill="#0F1828"/>
+<text x="186.0" y="660.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">GOVERNMENT / POLICY</text>
+<rect x="336.0" y="590.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="350.0" y="620.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Clarify processor exemption in PLI</text>
+<text x="350.0" y="639.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">guidelines</text>
+<rect x="742.0" y="590.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="756.0" y="620.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Release draft BVLOS commercial</text>
+<text x="756.0" y="639.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">framework for comment</text>
+<rect x="1148.0" y="590.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="1162.0" y="620.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Announce 515 WS model expansion to</text>
+<text x="1162.0" y="639.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">other commands</text>
+<rect x="46.0" y="728.0" width="280.0" height="128.0" rx="8" fill="#0F1828"/>
+<text x="186.0" y="798.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">DEFENCE PROCUREMENT</text>
+<rect x="336.0" y="728.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="350.0" y="758.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Publish FC/AI requirements roadmap</text>
+<text x="350.0" y="777.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">2026–2030</text>
+<rect x="742.0" y="728.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="756.0" y="758.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Issue iDEX grants for GPS-denied nav</text>
+<text x="756.0" y="777.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">&amp; sense-and-avoid</text>
+<rect x="1148.0" y="728.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="1162.0" y="758.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Expand 515 WS MoUs to more FC/AI</text>
+<text x="1162.0" y="777.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">startups</text>
+<rect x="46.0" y="866.0" width="280.0" height="128.0" rx="8" fill="#0F1828"/>
+<text x="186.0" y="936.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">END USERS (COMMERCIAL)</text>
+<rect x="336.0" y="866.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="350.0" y="896.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Assess BVLOS readiness of current</text>
+<text x="350.0" y="915.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">fleet</text>
+<rect x="742.0" y="866.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="756.0" y="896.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Request BVLOS-ready platforms</text>
+<text x="756.0" y="915.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">(sense-and-avoid)</text>
+<rect x="1148.0" y="866.0" width="398.0" height="128.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.2"/>
+<text x="1162.0" y="896.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">Plan pilots for post-BVLOS</text>
+<text x="1162.0" y="915.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#0F1828" text-anchor="start">operations</text>
+<line x1="46.0" y1="1022.0" x2="1554.0" y2="1022.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="1044.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Techadyant Labs action framework.  Techadyant Labs analysis.</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 928" width="1600" height="928">
+<rect x="0" y="0" width="1600" height="928" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">India drone flight controller &amp; AI market at a glance</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">2026 baseline, forecasts to 2035</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 1.1 · Techadyant Labs · 2026</text>
+<rect x="46.0" y="118.0" width="494.0" height="200.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="46.0" y="118.0" width="6.0" height="200.0" rx="0" fill="#2BC5B4"/>
+<text x="68.0" y="148.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#4A5567" text-anchor="start" letter-spacing="0.5">2026 MARKET SIZE</text>
+<text x="68.0" y="186.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">USD 150–200 Mn</text>
+<text x="68.0" y="210.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Flight controllers + AI autonomy</text>
+<rect x="552.0" y="118.0" width="494.0" height="200.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="552.0" y="118.0" width="6.0" height="200.0" rx="0" fill="#C9A84C"/>
+<text x="574.0" y="148.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#4A5567" text-anchor="start" letter-spacing="0.5">2035 FORECAST</text>
+<text x="574.0" y="186.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">USD 800–1,200 Mn</text>
+<text x="574.0" y="210.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Base scenario range</text>
+<rect x="1058.0" y="118.0" width="494.0" height="200.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="1058.0" y="118.0" width="6.0" height="200.0" rx="0" fill="#2BC5B4"/>
+<text x="1080.0" y="148.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#4A5567" text-anchor="start" letter-spacing="0.5">CAGR (2026–2035)</text>
+<text x="1080.0" y="186.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">18–25%</text>
+<text x="1080.0" y="210.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">Base scenario</text>
+<rect x="46.0" y="330.0" width="494.0" height="200.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="46.0" y="330.0" width="6.0" height="200.0" rx="0" fill="#C8443B"/>
+<text x="68.0" y="360.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#4A5567" text-anchor="start" letter-spacing="0.5">IMPORT DEPENDENCE</text>
+<text x="68.0" y="398.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">39% official</text>
+<text x="68.0" y="422.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">70–80% estimated (total market)</text>
+<rect x="552.0" y="330.0" width="494.0" height="200.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="552.0" y="330.0" width="6.0" height="200.0" rx="0" fill="#C9A84C"/>
+<text x="574.0" y="360.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#4A5567" text-anchor="start" letter-spacing="0.5">NEW PLI SCHEME</text>
+<text x="574.0" y="398.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">INR 2,000 Cr</text>
+<text x="574.0" y="422.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">approx. USD 240 million</text>
+<rect x="1058.0" y="330.0" width="494.0" height="200.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="1058.0" y="330.0" width="6.0" height="200.0" rx="0" fill="#C9A84C"/>
+<text x="1080.0" y="360.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#4A5567" text-anchor="start" letter-spacing="0.5">LOCALISATION TARGET</text>
+<text x="1080.0" y="398.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">40%</text>
+<text x="1080.0" y="422.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">of key components by FY2027-28</text>
+<rect x="46.0" y="542.0" width="494.0" height="200.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="46.0" y="542.0" width="6.0" height="200.0" rx="0" fill="#2BC5B4"/>
+<text x="68.0" y="572.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#4A5567" text-anchor="start" letter-spacing="0.5">DEFENCE TECH FUNDING</text>
+<text x="68.0" y="610.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">USD 432 Mn</text>
+<text x="68.0" y="634.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">since 2014; USD 307 Mn in 2024-25</text>
+<rect x="552.0" y="542.0" width="494.0" height="200.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="552.0" y="542.0" width="6.0" height="200.0" rx="0" fill="#C8443B"/>
+<text x="574.0" y="572.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#4A5567" text-anchor="start" letter-spacing="0.5">AUTONOMOUS IMPORTS</text>
+<text x="574.0" y="610.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">66.4% CAGR</text>
+<text x="574.0" y="634.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">2020–2024</text>
+<rect x="1058.0" y="542.0" width="494.0" height="200.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="1058.0" y="542.0" width="6.0" height="200.0" rx="0" fill="#4A5567"/>
+<text x="1080.0" y="572.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#4A5567" text-anchor="start" letter-spacing="0.5">STARTUPS CLAIMING AI</text>
+<text x="1080.0" y="610.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">89%</text>
+<text x="1080.0" y="634.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start">but few certified solutions</text>
+<rect x="46.0" y="760.0" width="1508.0" height="46.0" rx="6" fill="#0F1828"/>
+<text x="66.0" y="789.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#E8E5DD" text-anchor="start">KEY POLICY DRIVERS:  New PLI (INR 2,000 Cr)  |  iDEX grants  |  Army 515 WS MoUs  |  BVLOS (2027-28)</text>
+<rect x="46.0" y="814.0" width="1508.0" height="46.0" rx="6" fill="none" stroke="#C9A84C" stroke-width="1.6"/>
+<text x="66.0" y="843.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#0F1828" text-anchor="start">KEY INDIGENOUS PLAYERS:  Zuppa  |  Tsalla Aerospace  |  Inferigence Quotient  |  Yaanendriya  |  ideaForge</text>
+<line x1="46.0" y1="888.0" x2="1554.0" y2="888.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="910.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Lok Sabha (3 Apr 2025); PLI scheme documents; Tracxn / Venture Intelligence.  Techadyant Labs analysis.</text>
+</svg>

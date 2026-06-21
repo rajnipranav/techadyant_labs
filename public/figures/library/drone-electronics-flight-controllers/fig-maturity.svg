@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 876" width="1600" height="876">
+<rect x="0" y="0" width="1600" height="876" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">India drone autonomy maturity model</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Five levels, with value migrating up the ladder</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure MM · Techadyant Labs · 2026</text>
+<rect x="60.0" y="648.0" width="288.0" height="122.0" rx="8" fill="#FFFFFF" stroke="#4A5567" stroke-width="2"/>
+<rect x="60.0" y="648.0" width="288.0" height="38.0" rx="8" fill="#4A5567"/>
+<rect x="60.0" y="668.0" width="288.0" height="18.0" rx="0" fill="#4A5567"/>
+<text x="76.0" y="674.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#FFFFFF" text-anchor="start">L1 — Remote / waypoint control</text>
+<text x="76.0" y="710.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">Mature — all OEMs</text>
+<text x="76.0" y="726.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">2026 share</text>
+<text x="332.0" y="726.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#0F1828" text-anchor="end">60–70%</text>
+<text x="76.0" y="752.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">2035 share</text>
+<text x="332.0" y="752.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#4A5567" text-anchor="end">20–30%</text>
+<rect x="358.0" y="526.0" width="288.0" height="244.0" rx="8" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="358.0" y="526.0" width="288.0" height="38.0" rx="8" fill="#2BC5B4"/>
+<rect x="358.0" y="546.0" width="288.0" height="18.0" rx="0" fill="#2BC5B4"/>
+<text x="374.0" y="552.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#FFFFFF" text-anchor="start">L2 — Assisted</text>
+<text x="374.0" y="588.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">Emerging</text>
+<text x="374.0" y="726.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">2026 share</text>
+<text x="630.0" y="726.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#0F1828" text-anchor="end">20–25%</text>
+<text x="374.0" y="752.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">2035 share</text>
+<text x="630.0" y="752.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#2BC5B4" text-anchor="end">40–50%</text>
+<rect x="656.0" y="404.0" width="288.0" height="366.0" rx="8" fill="#FFFFFF" stroke="#C9A84C" stroke-width="2"/>
+<rect x="656.0" y="404.0" width="288.0" height="38.0" rx="8" fill="#C9A84C"/>
+<rect x="656.0" y="424.0" width="288.0" height="18.0" rx="0" fill="#C9A84C"/>
+<text x="672.0" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#0F1828" text-anchor="start">L3 — Autonomous mission execution</text>
+<text x="672.0" y="466.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">Defence focus</text>
+<text x="672.0" y="726.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">2026 share</text>
+<text x="928.0" y="726.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#0F1828" text-anchor="end">5–10%</text>
+<text x="672.0" y="752.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">2035 share</text>
+<text x="928.0" y="752.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#0F1828" text-anchor="end">20–25%</text>
+<rect x="954.0" y="282.0" width="288.0" height="488.0" rx="8" fill="#FFFFFF" stroke="#C9A84C" stroke-width="2"/>
+<rect x="954.0" y="282.0" width="288.0" height="38.0" rx="8" fill="#C9A84C"/>
+<rect x="954.0" y="302.0" width="288.0" height="18.0" rx="0" fill="#C9A84C"/>
+<text x="970.0" y="308.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#0F1828" text-anchor="start">L4 — Collaborative operation</text>
+<text x="970.0" y="344.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">Early R&amp;D</text>
+<text x="970.0" y="726.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">2026 share</text>
+<text x="1226.0" y="726.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#0F1828" text-anchor="end">&lt;5%</text>
+<text x="970.0" y="752.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">2035 share</text>
+<text x="1226.0" y="752.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#0F1828" text-anchor="end">5–10%</text>
+<rect x="1252.0" y="160.0" width="288.0" height="610.0" rx="8" fill="#FFFFFF" stroke="#C8443B" stroke-width="2"/>
+<rect x="1252.0" y="160.0" width="288.0" height="38.0" rx="8" fill="#C8443B"/>
+<rect x="1252.0" y="180.0" width="288.0" height="18.0" rx="0" fill="#C8443B"/>
+<text x="1268.0" y="186.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#FFFFFF" text-anchor="start">L5 — Swarm</text>
+<text x="1268.0" y="222.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">Research</text>
+<text x="1268.0" y="726.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">2026 share</text>
+<text x="1524.0" y="726.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#0F1828" text-anchor="end">&lt;1%</text>
+<text x="1268.0" y="752.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">2035 share</text>
+<text x="1524.0" y="752.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" font-weight="700" fill="#C8443B" text-anchor="end">5–10%</text>
+<line x1="204.0" y1="632.0" x2="1396.0" y2="144.0" stroke="#C9A84C" stroke-width="2.4" stroke-dasharray="7 5" opacity="1"/>
+<polygon points="1396.0,144.0 1384.0,136.0 1384.0,152.0" fill="#C9A84C" opacity="1"/>
+<text x="800.0" y="374.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#9c7f2e" text-anchor="middle">Margin &amp; strategic value rise up the ladder</text>
+<text x="60.0" y="804.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">Each step up the ladder raises the premium on edge-AI inference and EW-resilient autonomy — India&#x27;s Critical-tier dependencies.</text>
+<line x1="46.0" y1="836.0" x2="1554.0" y2="836.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="858.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: Industry interviews  Techadyant Labs analysis.</text>
+<text x="1554.0" y="858.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">Shares modelled</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 664" width="1600" height="664">
+<rect x="0" y="0" width="1600" height="664" fill="#FBF9F4"/>
+<text x="46.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0F1828" text-anchor="start">Evolution of drone autonomy in India, 2014–2026</text>
+<text x="46.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4A5567" text-anchor="start">Four phases, with autonomy level and import dependence</text>
+<rect x="46.0" y="98.0" width="64.0" height="4.0" rx="0" fill="#C9A84C"/>
+<text x="1554.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" fill="#4A5567" text-anchor="end">Figure 3.1 · Techadyant Labs · 2026</text>
+<rect x="46.0" y="126.0" width="366.0" height="470.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="46.0" y="126.0" width="366.0" height="70.0" rx="8" fill="#4A5567"/>
+<rect x="46.0" y="166.0" width="366.0" height="30.0" rx="0" fill="#4A5567"/>
+<text x="66.0" y="156.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="start">PHASE 1</text>
+<text x="66.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="start">Pre-Regulatory</text>
+<text x="66.0" y="222.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">Pre-2018 to 2021</text>
+<circle cx="70.0" cy="249.0" r="3.2" fill="#4A5567" opacity="1"/>
+<text x="84.0" y="254.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Imported DJI drones</text>
+<circle cx="70.0" cy="279.0" r="3.2" fill="#4A5567" opacity="1"/>
+<text x="84.0" y="284.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Pixhawk dominance</text>
+<circle cx="70.0" cy="309.0" r="3.2" fill="#4A5567" opacity="1"/>
+<text x="84.0" y="314.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Basic waypoint nav</text>
+<circle cx="70.0" cy="339.0" r="3.2" fill="#4A5567" opacity="1"/>
+<text x="84.0" y="344.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">No domestic FC mfg</text>
+<line x1="62.0" y1="470.0" x2="396.0" y2="470.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="66.0" y="500.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#4A5567" text-anchor="start">Autonomy level</text>
+<text x="66.0" y="526.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#0F1828" text-anchor="start">Level 1</text>
+<text x="66.0" y="556.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#4A5567" text-anchor="start">Import dependence</text>
+<text x="66.0" y="582.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#C8443B" text-anchor="start">90–95%</text>
+<line x1="412.0" y1="161.0" x2="421.0" y2="161.0" stroke="#0F1828" stroke-width="2.4" opacity="1"/>
+<polygon points="428.0,161.0 418.0,156.0 418.0,166.0" fill="#0F1828" opacity="1"/>
+<rect x="426.0" y="126.0" width="366.0" height="470.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="426.0" y="126.0" width="366.0" height="70.0" rx="8" fill="#2BC5B4"/>
+<rect x="426.0" y="166.0" width="366.0" height="30.0" rx="0" fill="#2BC5B4"/>
+<text x="446.0" y="156.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="start">PHASE 2</text>
+<text x="446.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="start">First Indigenous</text>
+<text x="446.0" y="222.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">2021–2024</text>
+<circle cx="450.0" cy="249.0" r="3.2" fill="#2BC5B4" opacity="1"/>
+<text x="464.0" y="254.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">ideaForge proprietary FC</text>
+<circle cx="450.0" cy="279.0" r="3.2" fill="#2BC5B4" opacity="1"/>
+<text x="464.0" y="284.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Zuppa patented FC</text>
+<circle cx="450.0" cy="309.0" r="3.2" fill="#2BC5B4" opacity="1"/>
+<text x="464.0" y="314.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">First PLI (INR 120 Cr)</text>
+<line x1="442.0" y1="470.0" x2="776.0" y2="470.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="446.0" y="500.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#4A5567" text-anchor="start">Autonomy level</text>
+<text x="446.0" y="526.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#0F1828" text-anchor="start">Level 1–2</text>
+<text x="446.0" y="556.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#4A5567" text-anchor="start">Import dependence</text>
+<text x="446.0" y="582.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#C8443B" text-anchor="start">80–85%</text>
+<line x1="792.0" y1="161.0" x2="801.0" y2="161.0" stroke="#0F1828" stroke-width="2.4" opacity="1"/>
+<polygon points="808.0,161.0 798.0,156.0 798.0,166.0" fill="#0F1828" opacity="1"/>
+<rect x="806.0" y="126.0" width="366.0" height="470.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="806.0" y="126.0" width="366.0" height="70.0" rx="8" fill="#2BC5B4"/>
+<rect x="806.0" y="166.0" width="366.0" height="30.0" rx="0" fill="#2BC5B4"/>
+<text x="826.0" y="156.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="start">PHASE 3</text>
+<text x="826.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="start">AI Autonomy Emergence</text>
+<text x="826.0" y="222.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">2024–2026</text>
+<circle cx="830.0" cy="249.0" r="3.2" fill="#2BC5B4" opacity="1"/>
+<text x="844.0" y="254.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Tsalla AI Pilot</text>
+<circle cx="830.0" cy="279.0" r="3.2" fill="#2BC5B4" opacity="1"/>
+<text x="844.0" y="284.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Inferigence Chetas</text>
+<circle cx="830.0" cy="309.0" r="3.2" fill="#2BC5B4" opacity="1"/>
+<text x="844.0" y="314.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Army 515 WS MoUs</text>
+<circle cx="830.0" cy="339.0" r="3.2" fill="#2BC5B4" opacity="1"/>
+<text x="844.0" y="344.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Defence funding (USD 307M)</text>
+<line x1="822.0" y1="470.0" x2="1156.0" y2="470.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="826.0" y="500.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#4A5567" text-anchor="start">Autonomy level</text>
+<text x="826.0" y="526.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#0F1828" text-anchor="start">Level 2–3</text>
+<text x="826.0" y="556.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#4A5567" text-anchor="start">Import dependence</text>
+<text x="826.0" y="582.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#C8443B" text-anchor="start">70–80%</text>
+<line x1="1172.0" y1="161.0" x2="1181.0" y2="161.0" stroke="#0F1828" stroke-width="2.4" opacity="1"/>
+<polygon points="1188.0,161.0 1178.0,156.0 1178.0,166.0" fill="#0F1828" opacity="1"/>
+<rect x="1186.0" y="126.0" width="366.0" height="470.0" rx="8" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="1.4"/>
+<rect x="1186.0" y="126.0" width="366.0" height="70.0" rx="8" fill="#C9A84C"/>
+<rect x="1186.0" y="166.0" width="366.0" height="30.0" rx="0" fill="#C9A84C"/>
+<text x="1206.0" y="156.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#0F1828" text-anchor="start">PHASE 4</text>
+<text x="1206.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0F1828" text-anchor="start">PLI-Driven Localisation</text>
+<text x="1206.0" y="222.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4A5567" text-anchor="start" font-style="italic">2026–2030 (proj.)</text>
+<circle cx="1210.0" cy="249.0" r="3.2" fill="#C9A84C" opacity="1"/>
+<text x="1224.0" y="254.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">40% localisation mandate</text>
+<circle cx="1210.0" cy="279.0" r="3.2" fill="#C9A84C" opacity="1"/>
+<text x="1224.0" y="284.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">BVLOS sense-and-avoid</text>
+<circle cx="1210.0" cy="309.0" r="3.2" fill="#C9A84C" opacity="1"/>
+<text x="1224.0" y="314.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">EW-resilient FC mandatory</text>
+<circle cx="1210.0" cy="339.0" r="3.2" fill="#C9A84C" opacity="1"/>
+<text x="1224.0" y="344.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#0F1828" text-anchor="start">Export development</text>
+<line x1="1202.0" y1="470.0" x2="1536.0" y2="470.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="1206.0" y="500.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#4A5567" text-anchor="start">Autonomy level</text>
+<text x="1206.0" y="526.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#0F1828" text-anchor="start">Level 2–4</text>
+<text x="1206.0" y="556.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#4A5567" text-anchor="start">Import dependence</text>
+<text x="1206.0" y="582.0" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#0F1828" text-anchor="start">50–60% (target)</text>
+<line x1="46.0" y1="624.0" x2="1554.0" y2="624.0" stroke="#D9D4C8" stroke-width="1" opacity="1"/>
+<text x="46.0" y="646.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#4A5567" text-anchor="start">Source: DGCA; Lok Sabha (Apr 2025); PLI scheme  Techadyant Labs analysis.</text>
+<text x="1554.0" y="646.0" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#C9A84C" text-anchor="end" font-style="italic">Phase 4 projected</text>
+</svg>
