@@ -7,6 +7,15 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'indias-unmanned-warfare-transformation': {
+    access: 'paid',
+    priceInr: 7499,
+    object: 'indias-unmanned-warfare-transformation.pdf',
+    filename: 'Indias-Unmanned-Warfare-Transformation-Techadyant-Labs.pdf',
+    deckObject: 'indias-unmanned-warfare-transformation-investor-deck.pptx',
+    deckFilename: 'Indias-Unmanned-Warfare-Transformation-Investor-Deck.pptx',
+    title: 'India\u2019s Unmanned Warfare Transformation',
+  },
   'the-end-of-the-application-era': {
     access: 'free',
     bucket: 'reports-free',

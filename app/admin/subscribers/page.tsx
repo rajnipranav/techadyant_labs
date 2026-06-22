@@ -3,15 +3,31 @@
 import { useEffect, useMemo, useState } from 'react';
 import { api } from '../api';
 import { Loading, ErrorBox, StatCard, Panel } from '../ui';
+import { issues } from '../../newsletter/data';
 
 interface Stats { total: number; active: number; unsubscribed: number; by_source: { source: string; total: number; active: number }[]; }
 interface Sub { id: string; email: string; source: string; country: string | null; unsubscribed: boolean; created_at: string; }
+
+const SITE = 'https://labs.techadyant.com';
 
 export default function SubscribersPage() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [rows, setRows] = useState<Sub[] | null>(null);
   const [q, setQ] = useState('');
   const [err, setErr] = useState<string | null>(null);
+
+  // --- Send latest Sanket issue ---
+  const latest = issues[0];
+  const nlSubject = `${latest.title} · Sanket ${latest.no}`;
+  const nlBody =
+    `**Sanket — ${latest.no} · ${latest.month}**\n\n` +
+    `${latest.standfirst}\n\n` +
+    `Read it online: [${latest.title}](${SITE}/newsletter/${latest.slug}/)` +
+    (latest.pdfReady ? `\n\nDownload the PDF: [${latest.title} (PDF)](${latest.pdf})` : '') +
+    `\n\n— Techadyant Labs`;
+  const [nlId, setNlId] = useState<string | null>(null);
+  const [nlBusy, setNlBusy] = useState(false);
+  const [nlMsg, setNlMsg] = useState<string | null>(null);
 
   const load = () => {
     api<Stats>('/subscribers/stats').then(setStats).catch((e) => setErr(String(e.message || e)));
@@ -20,6 +36,29 @@ export default function SubscribersPage() {
   useEffect(load, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const filtered = useMemo(() => rows || [], [rows]);
+
+  async function nlSave(): Promise<string> {
+    const res = await api<{ id: string }>('/broadcasts/save', {
+      method: 'POST',
+      body: JSON.stringify({ id: nlId, subject: nlSubject, body: nlBody, segment: 'all', report_slug: null }),
+    });
+    setNlId(res.id);
+    return res.id;
+  }
+  async function nlTest() {
+    setNlBusy(true); setNlMsg(null);
+    try { const id = nlId || (await nlSave()); const r = await api<{ sent_to: string }>('/broadcasts/test', { method: 'POST', body: JSON.stringify({ id }) }); setNlMsg(`Test sent to ${r.sent_to}.`); }
+    catch (e) { setNlMsg('Failed: ' + String((e as Error).message)); }
+    finally { setNlBusy(false); }
+  }
+  async function nlSend() {
+    const n = stats?.active ?? 0;
+    if (!confirm(`Send "${nlSubject}" to all ${n} active subscribers? This cannot be undone.`)) return;
+    setNlBusy(true); setNlMsg(null);
+    try { const id = nlId || (await nlSave()); const r = await api<{ recipients: number; sent: number }>('/broadcasts/send', { method: 'POST', body: JSON.stringify({ id }) }); setNlMsg(`Sent to ${r.sent}/${r.recipients} subscribers.`); setNlId(null); }
+    catch (e) { setNlMsg('Failed: ' + String((e as Error).message)); }
+    finally { setNlBusy(false); }
+  }
 
   function exportCsv() {
     if (!rows) return;
@@ -37,8 +76,24 @@ export default function SubscribersPage() {
   return (
     <>
       <h1 className="admin-h1">Subscribers</h1>
-      <p className="admin-sub">The Dispatch mailing list (Research Reports project). Welcome email + unsubscribe are automatic. <button className="admin-btn" style={{ marginLeft: 8 }} onClick={testWelcome}>Send welcome preview to me</button></p>
+      <p className="admin-sub">Sanket mailing list (Research Reports project). Welcome email + unsubscribe are automatic. <button className="admin-btn" style={{ marginLeft: 8 }} onClick={testWelcome}>Send welcome preview to me</button></p>
       {err && <ErrorBox error={err} />}
+
+      <Panel title="Send the latest Sanket issue" action={<a className="admin-btn" href="/admin/announcements">Full composer →</a>}>
+        <p className="admin-sub" style={{ marginTop: 0 }}>
+          Latest: <strong>Sanket {latest.no} — {latest.title}</strong> ({latest.month}).{' '}
+          {latest.pdfReady ? 'The email links to the online issue and the PDF.' : 'The PDF is not live yet — the email will link to the online issue only.'}
+        </p>
+        <p className="admin-sub" style={{ marginBottom: 14 }}>
+          Subject: <code>{nlSubject}</code> · Recipients: all active subscribers{stats ? ` (${stats.active})` : ''}. Each email carries its own unsubscribe link.
+        </p>
+        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+          <button className="admin-btn" disabled={nlBusy} onClick={nlTest}>Send test to me</button>
+          <button className="admin-btn" disabled={nlBusy} onClick={nlSend} style={{ borderColor: 'var(--admin-teal, #1D9E75)' }}>Send latest newsletter to all →</button>
+        </div>
+        {nlMsg && <p className="admin-sub" style={{ color: 'var(--admin-teal, #1D9E75)', marginTop: 12, marginBottom: 0 }}>{nlMsg}</p>}
+      </Panel>
+
       {!stats && !err && <Loading />}
       {stats && (
         <>

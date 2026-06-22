@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="Arial, Helvetica, sans-serif">
+<rect width="800" height="460" fill="#FBF9F4"/>
+<rect x="0" y="0" width="800" height="6" fill="#0F1828"/>
+<text x="40" y="44" font-size="22" font-weight="700" fill="#0F1828">The Attritable Warfare Index</text>
+<text x="40" y="68" font-size="13" fill="#4A5567">Which categories migrate to mass — by cost, survivability, replaceability, autonomy</text>
+<text x="760" y="30" font-size="11" fill="#4A5567" text-anchor="end">Techadyant Labs &#183; 2026</text>
+<line x1="250" y1="114" x2="250" y2="400" stroke="#E8E5DD" stroke-width="1"/>
+<text x="250" y="418" font-size="10" fill="#4A5567" text-anchor="middle">0</text>
+<line x1="368" y1="114" x2="368" y2="400" stroke="#E8E5DD" stroke-width="1"/>
+<text x="368" y="418" font-size="10" fill="#4A5567" text-anchor="middle">25</text>
+<line x1="485" y1="114" x2="485" y2="400" stroke="#E8E5DD" stroke-width="1"/>
+<text x="485" y="418" font-size="10" fill="#4A5567" text-anchor="middle">50</text>
+<line x1="602" y1="114" x2="602" y2="400" stroke="#E8E5DD" stroke-width="1"/>
+<text x="602" y="418" font-size="10" fill="#4A5567" text-anchor="middle">75</text>
+<line x1="720" y1="114" x2="720" y2="400" stroke="#E8E5DD" stroke-width="1"/>
+<text x="720" y="418" font-size="10" fill="#4A5567" text-anchor="middle">100</text>
+<text x="720" y="436" font-size="10.5" fill="#4A5567" text-anchor="end">Attritability score (0–100)</text>
+<text x="44" y="139" font-size="12" font-weight="700" fill="#0F1828">FPV strike drone</text>
+<rect x="250" y="124" width="432" height="20" rx="3" fill="#C8443B"/>
+<text x="690" y="139" font-size="11" font-weight="700" fill="#0F1828">92</text>
+<text x="44" y="179" font-size="12" font-weight="700" fill="#0F1828">Short-range loitering munition</text>
+<rect x="250" y="164" width="395" height="20" rx="3" fill="#C8443B"/>
+<text x="653" y="179" font-size="11" font-weight="700" fill="#0F1828">84</text>
+<text x="44" y="219" font-size="12" font-weight="700" fill="#0F1828">Counter-UAS interceptor</text>
+<rect x="250" y="204" width="367" height="20" rx="3" fill="#C9A84C"/>
+<text x="625" y="219" font-size="11" font-weight="700" fill="#0F1828">78</text>
+<text x="44" y="259" font-size="12" font-weight="700" fill="#0F1828">Tactical ISR drone</text>
+<rect x="250" y="244" width="291" height="20" rx="3" fill="#C9A84C"/>
+<text x="549" y="259" font-size="11" font-weight="700" fill="#0F1828">62</text>
+<text x="44" y="299" font-size="12" font-weight="700" fill="#0F1828">Logistics drone</text>
+<rect x="250" y="284" width="258" height="20" rx="3" fill="#C9A84C"/>
+<text x="516" y="299" font-size="11" font-weight="700" fill="#0F1828">55</text>
+<text x="44" y="339" font-size="12" font-weight="700" fill="#0F1828">MALE ISR platform</text>
+<rect x="250" y="324" width="132" height="20" rx="3" fill="#0F1828"/>
+<text x="390" y="339" font-size="11" font-weight="700" fill="#0F1828">28</text>
+<text x="44" y="379" font-size="12" font-weight="700" fill="#0F1828">HALE / HAPS platform</text>
+<rect x="250" y="364" width="66" height="20" rx="3" fill="#0F1828"/>
+<text x="324" y="379" font-size="11" font-weight="700" fill="#0F1828">14</text>
+<text x="44" y="436" font-size="10" fill="#4A5567">High scorers dominate unit volume and reward mass manufacture; low scorers are exquisite, bought in dozens.</text>
+<line x1="40" y1="426" x2="760" y2="426" stroke="#E8E5DD" stroke-width="1"/>
+<text x="40" y="444" font-size="10" fill="#4A5567">Source: Indian Army UAS &amp; Loitering Munitions roadmap (reconstructed); Techadyant Labs analysis.</text>
+<text x="760" y="444" font-size="10" font-style="italic" fill="#C9A84C" text-anchor="end">Framework / Modelled</text>
+</svg>

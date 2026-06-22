@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Arial, Helvetica, sans-serif">
+<rect width="800" height="500" fill="#FBF9F4"/>
+<rect x="0" y="0" width="800" height="6" fill="#0F1828"/>
+<text x="40" y="44" font-size="22" font-weight="700" fill="#0F1828">Where to deploy capital first</text>
+<text x="40" y="68" font-size="13" fill="#4A5567">Subsystem addressable pool vs entry difficulty</text>
+<text x="760" y="30" font-size="11" fill="#4A5567" text-anchor="end">Techadyant Labs &#183; 2026</text>
+<rect x="150" y="120" width="550" height="300" fill="none" stroke="#4A5567" stroke-width="1"/>
+<line x1="150" y1="120" x2="150" y2="420" stroke="#E8E5DD" stroke-width="1"/>
+<line x1="425" y1="120" x2="425" y2="420" stroke="#E8E5DD" stroke-width="1"/>
+<line x1="700" y1="120" x2="700" y2="420" stroke="#E8E5DD" stroke-width="1"/>
+<text x="425.0" y="448" font-size="11" fill="#0F1828" text-anchor="middle">Entry difficulty  &#8594;</text>
+<text x="132" y="270.0" font-size="11" fill="#0F1828" text-anchor="middle" transform="rotate(-90 132 270.0)">Addressable pool (INR cr)  &#8594;</text>
+<circle cx="601" cy="145" r="27" fill="#C9A84C" opacity="0.85" stroke="#0F1828"/>
+<text x="601" y="112" font-size="11" font-weight="700" fill="#0F1828" text-anchor="middle">Propulsion &amp; power</text>
+<text x="601" y="98" font-size="9" fill="#4A5567" text-anchor="middle">Build-now / position-early</text>
+<circle cx="579" cy="170" r="26" fill="#2BC5B4" opacity="0.85" stroke="#0F1828"/>
+<text x="579" y="138" font-size="11" font-weight="700" fill="#0F1828" text-anchor="middle">Sensing &amp; payloads</text>
+<text x="579" y="124" font-size="9" fill="#4A5567" text-anchor="middle">Build-now</text>
+<circle cx="398" cy="245" r="22" fill="#0f8e78" opacity="0.85" stroke="#0F1828"/>
+<text x="398" y="217" font-size="11" font-weight="700" fill="#0F1828" text-anchor="middle">Autonomy &amp; software</text>
+<text x="398" y="203" font-size="9" fill="#4A5567" text-anchor="middle">Build-now</text>
+<circle cx="425" cy="282" r="20" fill="#C9A84C" opacity="0.85" stroke="#0F1828"/>
+<text x="425" y="256" font-size="11" font-weight="700" fill="#0F1828" text-anchor="middle">Communications &amp; RF</text>
+<text x="425" y="242" font-size="9" fill="#4A5567" text-anchor="middle">Build-now</text>
+<circle cx="618" cy="308" r="19" fill="#C8443B" opacity="0.85" stroke="#0F1828"/>
+<text x="618" y="282" font-size="11" font-weight="700" fill="#0F1828" text-anchor="middle">Compute &amp; semis</text>
+<text x="618" y="268" font-size="9" fill="#4A5567" text-anchor="middle">Position-early</text>
+<line x1="40" y1="466" x2="760" y2="466" stroke="#E8E5DD" stroke-width="1"/>
+<text x="40" y="484" font-size="10" fill="#4A5567">Source: Indian Army UAS &amp; Loitering Munitions roadmap (reconstructed); Techadyant Labs analysis.</text>
+<text x="760" y="484" font-size="10" font-style="italic" fill="#C9A84C" text-anchor="end">Modelled</text>
+</svg>

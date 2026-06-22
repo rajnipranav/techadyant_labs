@@ -104,7 +104,7 @@ export default function AboutPage() {
             <p>Start with the current edition, or follow the signals as they publish.</p>
           </div>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-            <Link href="/reports/india-fab-ecosystem/" className="btn-ed btn-ed-primary">Featured report <span className="arr">→</span></Link>
+            <Link href="/reports/indias-unmanned-warfare-transformation/" className="btn-ed btn-ed-primary">Featured report <span className="arr">→</span></Link>
             <Link href="/#subscribe" className="btn-ed btn-ed-ghost">Subscribe <span className="arr">→</span></Link>
           </div>
         </div>

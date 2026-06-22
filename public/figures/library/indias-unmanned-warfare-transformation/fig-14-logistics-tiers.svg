@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" font-family="Arial, Helvetica, sans-serif">
+<rect width="780" height="420" fill="#FBF9F4"/>
+<rect x="0" y="0" width="780" height="6" fill="#0F1828"/>
+<text x="40" y="44" font-size="22" font-weight="700" fill="#0F1828">Unmanned logistics across three payload tiers</text>
+<text x="40" y="68" font-size="13" fill="#4A5567">From last-mile resupply to high-altitude heavy lift</text>
+<text x="740" y="30" font-size="11" fill="#4A5567" text-anchor="end">Techadyant Labs &#183; 2026</text>
+<line x1="70" y1="128" x2="70" y2="330" stroke="#E8E5DD" stroke-width="1"/>
+<text x="70" y="348" font-size="10" fill="#4A5567" text-anchor="middle">5</text>
+<line x1="258" y1="128" x2="258" y2="330" stroke="#E8E5DD" stroke-width="1"/>
+<text x="258" y="348" font-size="10" fill="#4A5567" text-anchor="middle">20</text>
+<line x1="477" y1="128" x2="477" y2="330" stroke="#E8E5DD" stroke-width="1"/>
+<text x="477" y="348" font-size="10" fill="#4A5567" text-anchor="middle">100</text>
+<line x1="695" y1="128" x2="695" y2="330" stroke="#E8E5DD" stroke-width="1"/>
+<text x="695" y="348" font-size="10" fill="#4A5567" text-anchor="middle">500</text>
+<text x="720" y="368" font-size="11" fill="#4A5567" text-anchor="end">Payload (kg, log)</text>
+<rect x="70" y="140" width="188" height="36" rx="4" fill="#2BC5B4"/>
+<text x="80" y="164" font-size="13" font-weight="700" fill="#fff">Light logistics</text>
+<text x="268" y="156" font-size="10.5" fill="#0F1828" font-weight="700">5–20 kg</text>
+<text x="268" y="171" font-size="10" fill="#4A5567">Ammunition, medicines, rations</text>
+<rect x="258" y="208" width="219" height="36" rx="4" fill="#C9A84C"/>
+<text x="268" y="232" font-size="13" font-weight="700" fill="#fff">Medium logistics</text>
+<text x="487" y="224" font-size="10.5" fill="#0F1828" font-weight="700">20–100 kg</text>
+<text x="487" y="239" font-size="10" fill="#4A5567">Forward posts, sustainment</text>
+<rect x="477" y="276" width="219" height="36" rx="4" fill="#C8443B"/>
+<text x="487" y="300" font-size="13" font-weight="700" fill="#fff">Heavy logistics</text>
+<text x="705" y="292" font-size="10.5" fill="#0F1828" font-weight="700">100–500 kg</text>
+<text x="705" y="307" font-size="10" fill="#4A5567">Mountain warfare: Siachen, E. Ladakh</text>
+<line x1="40" y1="386" x2="740" y2="386" stroke="#E8E5DD" stroke-width="1"/>
+<text x="40" y="404" font-size="10" fill="#4A5567">Source: Indian Army UAS &amp; Loitering Munitions roadmap (reconstructed); Techadyant Labs analysis.</text>
+<text x="740" y="404" font-size="10" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

@@ -20,6 +20,7 @@ export interface ReportMeta {
   price?: number;          // INR (whole rupees), required when access === 'paid'
   currency?: 'INR';
   hasPdf: boolean;         // whether a downloadable PDF exists in private storage
+  hasDeck?: boolean;       // true if purchase also unlocks a bundled investor deck (PPTX)
   pages?: number;          // PDF page count (display only) — overridden by report-meta.json when present
   cover?: string;          // optional cover image URL; if absent a branded cover is generated
 
@@ -48,6 +49,42 @@ const synced: Record<string, SyncedMeta> = metaJson as Record<string, SyncedMeta
  *  real numbers come from app/reports/report-meta.json, written by
  *  `npm run sync-meta` after a PDF is added/updated. */
 const baseReports: ReportMeta[] = [
+  {
+    slug: 'indias-unmanned-warfare-transformation',
+    title: 'India’s Unmanned Warfare Transformation',
+    subtitle: 'Reconstructing the Indian Army Roadmap for Unmanned Aerial Systems and Loitering Munitions, 2026–2035 — and Pricing the Industrial Opportunity Beneath It',
+    domain: 'Defence & Dual-Use',
+    edition: 'Strategic Intelligence · Edition 2 · v2.0',
+    published: '2026-06-22',
+    publishedLabel: 'June 2026',
+    readingTime: '~ 2h read',
+    status: 'published',
+    accent: '#C9A84C',
+    summary:
+      'India’s Army is not buying drones — it is rebuilding the architecture of land warfare around unmanned, autonomous and attritable systems, a procurement signal of INR 1.0–1.9 lakh crore through 2035 against a INR 2–3 lakh crore economic footprint. This report reconstructs that roadmap and prices the opportunity beneath it, and its central finding is uncomfortable for an industry organised around airframes: the money, the margin and the sovereignty sit not in the platform the Army buys but in the subsystems it buys again with every unit — a roughly INR 40,000 crore import-substitution prize in sensors, seekers, propulsion, RF and silicon. Eighteen chapters, thirty-one figures and fifty-three tables; three proprietary frameworks (the Autonomous Warfare Stack, the Attritable Warfare Index and the Drone Industrial Sovereignty Matrix); a full market model (TAM/SAM/SOM, a procurement-wave model and an indigenous-content model); the competitive landscape and capability-gap map; strategic implications with playbooks for startups, MSMEs, large firms and venture investors; three quantified scenarios and a risk heat map. Every purchase includes a twenty-five-slide investor briefing deck (editable).',
+    access: 'paid',
+    price: 7499,
+    currency: 'INR',
+    hasPdf: true,
+    hasDeck: true,
+    pages: 172,
+    cover: '/covers/indias-unmanned-warfare-transformation.jpg',
+    previewObject: 'reports-free/Unmanned-Warfare-Free-Edition.pdf',
+    previewPages: 20,
+    dateModified: '2026-06-22',
+    keywords: [
+      'India unmanned warfare', 'Indian Army drone roadmap', 'loitering munitions India', 'counter-UAS India',
+      'drone subsystem opportunity', 'defence electronics India', 'rare-earth magnets drones', 'flight-control silicon India',
+      'India drone market 2035', 'attritable warfare', 'autonomous systems India', 'drone investment opportunity India',
+    ],
+    faq: [
+      { q: 'How big is India’s military drone and loitering-munition market?', a: 'The reconstructed Indian Army roadmap implies a procurement pool of about INR 1.0–1.9 lakh crore through 2035 (a mid case near INR 1,45,000 crore), with a broader economic footprint of INR 2–3 lakh crore. Of that, roughly 78 per cent is policy-addressable by Indian industry and about INR 84,000 crore is realistically capturable. These are transparent reconstructions, not official figures.' },
+      { q: 'Why is the value in drone subsystems rather than the airframe?', a: 'A loitering munition is bought and consumed once, but its seeker, flight-control silicon, radio and magnets are bought again across every variant, refresh and export order. Integration earns 8–12 per cent; the subsystem layers earn 30–70 per cent. The roughly INR 40,000 crore import-substitution prize sits almost entirely below the platform.' },
+      { q: 'Which drone subsystems is India most dependent on imports for?', a: 'The decisive ones. Rare-earth magnets are near-100 per cent imported and under Chinese export control; flight-control silicon is about 90 per cent Chinese-origin; cooled-infrared seekers and gallium-nitride RF are foreign-sourced. India is 45–55 per cent import-dependent on components, and the imported half is the militarily decisive half.' },
+      { q: 'Where should investors and manufacturers focus in India’s drone economy?', a: 'On the layer below the airframe. Autonomy and mission software and sensing are the clearest build-now calls — highest margins, strongest defensibility, shortest time to capability. Counter-UAS is the second market and the logical anchor for component sovereignty. The report scores each layer and sets out playbooks for startups, MSMEs, large firms and venture investors.' },
+      { q: 'What does the report include, and what comes with purchase?', a: 'Eighteen chapters, thirty-one figures and fifty-three tables, with three proprietary frameworks, a full market model, the competitive landscape, strategic implications, three scenarios and a risk register. Every purchase also includes an editable twenty-five-slide investor briefing deck for taking the thesis into a room.' },
+    ],
+  },
   {
     slug: 'the-end-of-the-application-era',
     title: 'Who Captures Computing When the Application Disappears?',
@@ -623,7 +660,7 @@ export const reports: ReportMeta[] = baseReports.map((r) => {
     pages: m.pages ?? r.pages,
     readingTime: m.readingTime ?? r.readingTime,
   };
-});
+}).sort((a, b) => (b.published || '').localeCompare(a.published || ''));
 
 export const getReport = (slug: string) => reports.find((r) => r.slug === slug);
 

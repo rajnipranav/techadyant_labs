@@ -7,11 +7,12 @@ interface Props {
   readingTime: string;
   previewObject?: string;
   previewPages?: number;
+  deckLabel?: string;
 }
 
 /** Top-of-report access panel. Renders inside ReportCommerceProvider. */
-export function ReportAccess({ pages, readingTime, previewObject, previewPages }: Props) {
-  const { access, priceLabel, entitled, checking, busy, message, purchase, download } = useReportCommerce();
+export function ReportAccess({ pages, readingTime, previewObject, previewPages, deckLabel }: Props) {
+  const { access, priceLabel, entitled, checking, busy, message, purchase, download, downloadDeck } = useReportCommerce();
 
   const meta = [pages ? `${pages}-page PDF` : null, readingTime, 'Figures & citations included']
     .filter(Boolean).join(' · ');
@@ -65,7 +66,12 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages }
           <button className="btn-ed btn-ed-primary ra-btn" onClick={download} disabled={busy}>
             {busy ? 'Preparing…' : 'Download PDF'} <span className="arr">↓</span>
           </button>
-          <p className="ra-fine">You own this report · lifetime access.</p>
+          {deckLabel ? (
+            <button className="btn-ed btn-ed-ghost ra-btn" onClick={() => downloadDeck()} disabled={busy} style={{ marginTop: 8 }}>
+              {deckLabel} <span className="arr">↓</span>
+            </button>
+          ) : null}
+          <p className="ra-fine">You own this report · lifetime access. Your purchase includes the investor deck.</p>
         </>
       ) : checking ? (
         <p className="ra-fine">Checking your access…</p>

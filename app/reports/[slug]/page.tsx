@@ -19,6 +19,7 @@ import { ReportContent as BatteryContent, toc as batteryToc } from '../content/i
 import { ReportContent as PropulsionContent, toc as propulsionToc } from '../content/india-drone-propulsion-opportunity';
 import { ReportContent as SensorsContent, toc as sensorsToc } from '../content/india-drone-sensors-payloads-imaging-market';
 import { ReportContent as EoaeContent, toc as eoaeToc } from '../content/the-end-of-the-application-era';
+import { ReportContent as UnmannedContent, toc as unmannedToc } from '../content/indias-unmanned-warfare-transformation';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -35,6 +36,7 @@ const registry: Record<string, ReportModule> = {
   'india-drone-propulsion-opportunity': { toc: propulsionToc, Content: PropulsionContent },
   'india-drone-sensors-payloads-imaging-market': { toc: sensorsToc, Content: SensorsContent },
   'the-end-of-the-application-era': { toc: eoaeToc, Content: EoaeContent },
+  'indias-unmanned-warfare-transformation': { toc: unmannedToc, Content: UnmannedContent },
 };
 
 export function generateStaticParams() {
@@ -197,6 +199,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
               readingTime={meta.readingTime}
               previewObject={meta.previewObject}
               previewPages={meta.previewPages}
+              deckLabel={meta.hasDeck ? 'Download the investor deck (PPTX)' : undefined}
             />
           </section>
 

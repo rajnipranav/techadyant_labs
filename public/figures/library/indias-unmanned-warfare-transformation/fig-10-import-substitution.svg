@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 470" font-family="Arial, Helvetica, sans-serif">
+<rect width="780" height="470" fill="#FBF9F4"/>
+<rect x="0" y="0" width="780" height="6" fill="#0F1828"/>
+<text x="40" y="44" font-size="22" font-weight="700" fill="#0F1828">The deepest dependencies are also the biggest openings</text>
+<text x="40" y="68" font-size="13" fill="#4A5567">Import exposure vs domestic substitution opportunity, key subsystems</text>
+<text x="740" y="30" font-size="11" fill="#4A5567" text-anchor="end">Techadyant Labs &#183; 2026</text>
+<text x="280" y="124" font-size="11" font-weight="700" fill="#0F1828" text-anchor="middle">Import dependence</text>
+<text x="520" y="124" font-size="11" font-weight="700" fill="#0F1828" text-anchor="middle">Substitution opportunity</text>
+<text x="44" y="165" font-size="13" font-weight="700" fill="#0F1828">Semiconductors</text>
+<rect x="240" y="140" width="180" height="40" rx="3" fill="#C8443B"/>
+<text x="330" y="165" font-size="11.5" font-weight="700" fill="#fff" text-anchor="middle">Very High</text>
+<rect x="460" y="140" width="180" height="40" rx="3" fill="#2BC5B4"/>
+<text x="550" y="165" font-size="11.5" font-weight="700" fill="#06302c" text-anchor="middle">Massive</text>
+<text x="44" y="211" font-size="13" font-weight="700" fill="#0F1828">Micro-turbines</text>
+<rect x="240" y="186" width="180" height="40" rx="3" fill="#C8443B"/>
+<text x="330" y="211" font-size="11.5" font-weight="700" fill="#fff" text-anchor="middle">Very High</text>
+<rect x="460" y="186" width="180" height="40" rx="3" fill="#7ec9bf"/>
+<text x="550" y="211" font-size="11.5" font-weight="700" fill="#06302c" text-anchor="middle">Large</text>
+<text x="44" y="257" font-size="13" font-weight="700" fill="#0F1828">Thermal sensors</text>
+<rect x="240" y="232" width="180" height="40" rx="3" fill="#C8443B"/>
+<text x="330" y="257" font-size="11.5" font-weight="700" fill="#fff" text-anchor="middle">Very High</text>
+<rect x="460" y="232" width="180" height="40" rx="3" fill="#2BC5B4"/>
+<text x="550" y="257" font-size="11.5" font-weight="700" fill="#06302c" text-anchor="middle">Massive</text>
+<text x="44" y="303" font-size="13" font-weight="700" fill="#0F1828">SAR</text>
+<rect x="240" y="278" width="180" height="40" rx="3" fill="#C8443B"/>
+<text x="330" y="303" font-size="11.5" font-weight="700" fill="#fff" text-anchor="middle">Very High</text>
+<rect x="460" y="278" width="180" height="40" rx="3" fill="#2BC5B4"/>
+<text x="550" y="303" font-size="11.5" font-weight="700" fill="#06302c" text-anchor="middle">Massive</text>
+<text x="44" y="349" font-size="13" font-weight="700" fill="#0F1828">RF electronics</text>
+<rect x="240" y="324" width="180" height="40" rx="3" fill="#d98a4a"/>
+<text x="330" y="349" font-size="11.5" font-weight="700" fill="#fff" text-anchor="middle">High</text>
+<rect x="460" y="324" width="180" height="40" rx="3" fill="#2BC5B4"/>
+<text x="550" y="349" font-size="11.5" font-weight="700" fill="#06302c" text-anchor="middle">Massive</text>
+<text x="44" y="395" font-size="13" font-weight="700" fill="#0F1828">Batteries</text>
+<rect x="240" y="370" width="180" height="40" rx="3" fill="#d98a4a"/>
+<text x="330" y="395" font-size="11.5" font-weight="700" fill="#fff" text-anchor="middle">High</text>
+<rect x="460" y="370" width="180" height="40" rx="3" fill="#7ec9bf"/>
+<text x="550" y="395" font-size="11.5" font-weight="700" fill="#06302c" text-anchor="middle">Large</text>
+<text x="44" y="441" font-size="13" font-weight="700" fill="#0F1828">SDRs</text>
+<rect x="240" y="416" width="180" height="40" rx="3" fill="#d98a4a"/>
+<text x="330" y="441" font-size="11.5" font-weight="700" fill="#fff" text-anchor="middle">High</text>
+<rect x="460" y="416" width="180" height="40" rx="3" fill="#7ec9bf"/>
+<text x="550" y="441" font-size="11.5" font-weight="700" fill="#06302c" text-anchor="middle">Large</text>
+<text x="44" y="484" font-size="11" fill="#4A5567">Highest dependence concentrates in sensing, RF and compute &#8212; the deepest sovereignty gaps.</text>
+<line x1="40" y1="436" x2="740" y2="436" stroke="#E8E5DD" stroke-width="1"/>
+<text x="40" y="454" font-size="10" fill="#4A5567">Source: Indian Army UAS &amp; Loitering Munitions roadmap (reconstructed); Techadyant Labs analysis.</text>
+<text x="740" y="454" font-size="10" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

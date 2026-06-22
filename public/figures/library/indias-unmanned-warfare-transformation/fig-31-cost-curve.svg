@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="Arial, Helvetica, sans-serif">
+<rect width="800" height="440" fill="#FBF9F4"/>
+<rect x="0" y="0" width="800" height="6" fill="#0F1828"/>
+<text x="40" y="44" font-size="22" font-weight="700" fill="#0F1828">Precision, two orders of magnitude cheaper</text>
+<text x="40" y="68" font-size="13" fill="#4A5567">Why attritable drones reshape the economics of strike</text>
+<text x="760" y="30" font-size="11" fill="#4A5567" text-anchor="end">Techadyant Labs &#183; 2026</text>
+<line x1="90" y1="360" x2="740" y2="360" stroke="#E8E5DD" stroke-width="1"/>
+<text x="82" y="364" font-size="10" fill="#4A5567" text-anchor="end">~1/100</text>
+<line x1="90" y1="240" x2="740" y2="240" stroke="#E8E5DD" stroke-width="1"/>
+<text x="82" y="244" font-size="10" fill="#4A5567" text-anchor="end">~1/10</text>
+<line x1="90" y1="120" x2="740" y2="120" stroke="#E8E5DD" stroke-width="1"/>
+<text x="82" y="124" font-size="10" fill="#4A5567" text-anchor="end">baseline</text>
+<polyline points="171,120 334,147 496,209 659,324" fill="none" stroke="#C8443B" stroke-width="3"/>
+<circle cx="171" cy="120" r="7" fill="#0F1828"/>
+<text x="171" y="106" font-size="10.5" font-weight="700" fill="#0F1828" text-anchor="middle">Manned strike / artillery</text>
+<circle cx="334" cy="147" r="7" fill="#0F1828"/>
+<text x="334" y="133" font-size="10.5" font-weight="700" fill="#0F1828" text-anchor="middle">Cruise / guided missile</text>
+<circle cx="496" cy="209" r="7" fill="#0F1828"/>
+<text x="496" y="195" font-size="10.5" font-weight="700" fill="#0F1828" text-anchor="middle">Loitering munition</text>
+<circle cx="659" cy="324" r="7" fill="#0F1828"/>
+<text x="659" y="310" font-size="10.5" font-weight="700" fill="#0F1828" text-anchor="middle">FPV strike drone</text>
+<text x="90" y="100" font-size="11" fill="#4A5567">Relative cost per precision engagement (log scale)</text>
+<text x="740" y="390" font-size="11" fill="#C8443B" text-anchor="end" font-weight="700">~100x cheaper</text>
+<line x1="40" y1="406" x2="760" y2="406" stroke="#E8E5DD" stroke-width="1"/>
+<text x="40" y="424" font-size="10" fill="#4A5567">Source: Indian Army UAS &amp; Loitering Munitions roadmap (reconstructed); Techadyant Labs analysis.</text>
+<text x="760" y="424" font-size="10" font-style="italic" fill="#C9A84C" text-anchor="end">Schematic / Indicative</text>
+</svg>

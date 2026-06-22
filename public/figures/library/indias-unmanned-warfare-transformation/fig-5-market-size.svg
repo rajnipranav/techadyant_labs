@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" font-family="Arial, Helvetica, sans-serif">
+<rect width="820" height="470" fill="#FBF9F4"/>
+<rect x="0" y="0" width="820" height="6" fill="#0F1828"/>
+<text x="40" y="44" font-size="22" font-weight="700" fill="#0F1828">A market worth INR 1–1.9 lakh crore through 2035</text>
+<text x="40" y="68" font-size="13" fill="#4A5567">Indicative procurement value by segment</text>
+<text x="780" y="30" font-size="11" fill="#4A5567" text-anchor="end">Techadyant Labs &#183; 2026</text>
+<line x1="200" y1="114" x2="200" y2="360" stroke="#E8E5DD" stroke-width="1"/>
+<text x="200" y="378" font-size="10" fill="#4A5567" text-anchor="middle">0k</text>
+<line x1="360" y1="114" x2="360" y2="360" stroke="#E8E5DD" stroke-width="1"/>
+<text x="360" y="378" font-size="10" fill="#4A5567" text-anchor="middle">20k</text>
+<line x1="520" y1="114" x2="520" y2="360" stroke="#E8E5DD" stroke-width="1"/>
+<text x="520" y="378" font-size="10" fill="#4A5567" text-anchor="middle">40k</text>
+<line x1="680" y1="114" x2="680" y2="360" stroke="#E8E5DD" stroke-width="1"/>
+<text x="680" y="378" font-size="10" fill="#4A5567" text-anchor="middle">60k</text>
+<text x="720" y="398" font-size="11" fill="#4A5567" text-anchor="end">INR crore</text>
+<text x="44" y="144" font-size="13" font-weight="700" fill="#0F1828">Strike systems</text>
+<rect x="440" y="128" width="240" height="22" rx="3" fill="#C8443B"/>
+<text x="688" y="144" font-size="11" fill="#4A5567">30k–60k</text>
+<text x="44" y="202" font-size="13" font-weight="700" fill="#0F1828">Surveillance</text>
+<rect x="400" y="186" width="120" height="22" rx="3" fill="#C9A84C"/>
+<text x="528" y="202" font-size="11" fill="#4A5567">25k–40k</text>
+<text x="44" y="260" font-size="13" font-weight="700" fill="#0F1828">Special mission</text>
+<rect x="360" y="244" width="160" height="22" rx="3" fill="#0F1828"/>
+<text x="528" y="260" font-size="11" fill="#4A5567">20k–40k</text>
+<text x="44" y="318" font-size="13" font-weight="700" fill="#0F1828">Logistics</text>
+<rect x="320" y="302" width="120" height="22" rx="3" fill="#4A5567"/>
+<text x="448" y="318" font-size="11" fill="#4A5567">15k–30k</text>
+<text x="44" y="376" font-size="13" font-weight="700" fill="#0F1828">Counter-UAS</text>
+<rect x="280" y="360" width="80" height="22" rx="3" fill="#2BC5B4"/>
+<text x="368" y="376" font-size="11" fill="#4A5567">10k–20k</text>
+<rect x="44" y="398" width="700" height="36" rx="4" fill="#0F1828"/>
+<text x="60" y="421" font-size="12" fill="#ffffff">Total opportunity</text>
+<text x="300" y="421" font-size="12" font-weight="700" fill="#C9A84C">Conservative: INR 100,000 cr (~US$12 bn)</text>
+<text x="600" y="421" font-size="12" font-weight="700" fill="#2BC5B4">Accelerated: INR 190,000 cr (~US$23 bn)</text>
+<line x1="40" y1="436" x2="780" y2="436" stroke="#E8E5DD" stroke-width="1"/>
+<text x="40" y="454" font-size="10" fill="#4A5567">Source: Indian Army UAS &amp; Loitering Munitions roadmap (reconstructed); Techadyant Labs analysis.</text>
+<text x="780" y="454" font-size="10" font-style="italic" fill="#C9A84C" text-anchor="end">Forecast</text>
+</svg>

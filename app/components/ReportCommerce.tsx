@@ -30,6 +30,7 @@ interface CommerceCtx {
   message: { kind: 'info' | 'error' | 'success'; text: string } | null;
   purchase: () => Promise<void>;
   download: () => Promise<void>;
+  downloadDeck: () => Promise<void>;
 }
 
 const Ctx = createContext<CommerceCtx | null>(null);
@@ -73,6 +74,24 @@ export function ReportCommerceProvider({
       }
       // Navigate to the short-lived signed URL. Supabase serves it with
       // Content-Disposition: attachment so the browser triggers a download.
+      window.location.assign(data.url);
+    } catch {
+      setMessage({ kind: 'error', text: 'Something went wrong starting the download.' });
+    } finally { setBusy(false); }
+  }, [access, accessToken, slug]);
+
+  const downloadDeck = useCallback(async () => {
+    setBusy(true); setMessage(null);
+    try {
+      const headers: Record<string, string> = {};
+      if (access === 'paid' && accessToken) headers.Authorization = `Bearer ${accessToken}`;
+      const res = await fetch(`/api/download?report=${encodeURIComponent(slug)}&asset=deck`, { headers });
+      let data: any = null;
+      try { data = await res.json(); } catch {}
+      if (!res.ok || !data?.url) {
+        setMessage({ kind: 'error', text: (data && data.message) || 'The deck is not available yet.' });
+        return;
+      }
       window.location.assign(data.url);
     } catch {
       setMessage({ kind: 'error', text: 'Something went wrong starting the download.' });
@@ -135,7 +154,7 @@ export function ReportCommerceProvider({
     }
   }, [user, accessToken, slug, title, openSignIn]);
 
-  const value: CommerceCtx = { slug, access, priceLabel, entitled, checking, busy, message, purchase, download };
+  const value: CommerceCtx = { slug, access, priceLabel, entitled, checking, busy, message, purchase, download, downloadDeck };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }
 

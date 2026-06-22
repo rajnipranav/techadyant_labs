@@ -28,13 +28,13 @@ export const issues: IssueMeta[] = [
     published: '2026-06-30',
     title: 'Assembly Is Not Sovereignty',
     standfirst:
-      'Eight reports this month, one structural finding: India assembles — but the value lives upstream, in the layers it does not own. From the parts inside its drones to the software it runs on.',
+      'Nine reports this month, one structural finding: India assembles — but the value lives upstream, in the layers it does not own. From the parts inside its drones to the software it runs on.',
     readingTime: '9-min read',
     card: '/covers/sanket-june-2026.png',
     cover: '/newsletter/june-at-a-glance.png',
     ogImage: '/newsletter/june-at-a-glance.png',
     pdf: PDF_BASE + encodeURIComponent('sanket-june-26.pdf'),
-    pdfReady: false,
+    pdfReady: true,
     status: 'live',
   },
   {

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 460" font-family="Arial, Helvetica, sans-serif">
+<rect width="820" height="460" fill="#FBF9F4"/>
+<rect x="0" y="0" width="820" height="6" fill="#0F1828"/>
+<text x="40" y="44" font-size="22" font-weight="700" fill="#0F1828">Strike systems dominate projected demand</text>
+<text x="40" y="68" font-size="13" fill="#4A5567">Indicative unit demand by capability pillar, 2026–2035</text>
+<text x="780" y="30" font-size="11" fill="#4A5567" text-anchor="end">Techadyant Labs &#183; 2026</text>
+<line x1="190" y1="114" x2="190" y2="370" stroke="#E8E5DD" stroke-width="1"/>
+<text x="190" y="388" font-size="10" fill="#4A5567" text-anchor="middle">5k</text>
+<line x1="273" y1="114" x2="273" y2="370" stroke="#E8E5DD" stroke-width="1"/>
+<text x="273" y="388" font-size="10" fill="#4A5567" text-anchor="middle">10k</text>
+<line x1="464" y1="114" x2="464" y2="370" stroke="#E8E5DD" stroke-width="1"/>
+<text x="464" y="388" font-size="10" fill="#4A5567" text-anchor="middle">50k</text>
+<line x1="547" y1="114" x2="547" y2="370" stroke="#E8E5DD" stroke-width="1"/>
+<text x="547" y="388" font-size="10" fill="#4A5567" text-anchor="middle">100k</text>
+<line x1="738" y1="114" x2="738" y2="370" stroke="#E8E5DD" stroke-width="1"/>
+<text x="738" y="388" font-size="10" fill="#4A5567" text-anchor="middle">500k</text>
+<text x="760" y="408" font-size="11" fill="#4A5567" text-anchor="end">Estimated units, 2026–2035 (log scale)</text>
+<text x="44" y="144" font-size="13" font-weight="700" fill="#0F1828">Strike systems</text>
+<rect x="610" y="128" width="102" height="22" rx="3" fill="#C8443B"/>
+<text x="720" y="144" font-size="11" fill="#4A5567">170k–400k</text>
+<text x="44" y="202" font-size="13" font-weight="700" fill="#0F1828">Special mission</text>
+<rect x="349" y="186" width="127" height="22" rx="3" fill="#0F1828"/>
+<text x="483" y="202" font-size="11" fill="#4A5567">19k–55k</text>
+<text x="44" y="260" font-size="13" font-weight="700" fill="#0F1828">Surveillance</text>
+<rect x="246" y="244" width="75" height="22" rx="3" fill="#C9A84C"/>
+<text x="329" y="260" font-size="11" fill="#4A5567">8k–15k</text>
+<text x="44" y="318" font-size="13" font-weight="700" fill="#0F1828">Logistics</text>
+<rect x="284" y="302" width="88" height="22" rx="3" fill="#4A5567"/>
+<text x="380" y="318" font-size="11" fill="#4A5567">11k–23k</text>
+<text x="44" y="376" font-size="13" font-weight="700" fill="#0F1828">Counter-UAS</text>
+<rect x="238" y="360" width="90" height="22" rx="3" fill="#2BC5B4"/>
+<text x="336" y="376" font-size="11" fill="#4A5567">7k–16k</text>
+<text x="44" y="408" font-size="11" fill="#0F1828" font-weight="700">Total: 215,000 – 500,000+ systems</text>
+<line x1="40" y1="426" x2="780" y2="426" stroke="#E8E5DD" stroke-width="1"/>
+<text x="40" y="444" font-size="10" fill="#4A5567">Source: Indian Army UAS &amp; Loitering Munitions roadmap (reconstructed); Techadyant Labs analysis.</text>
+<text x="780" y="444" font-size="10" font-style="italic" fill="#C9A84C" text-anchor="end">Forecast</text>
+</svg>

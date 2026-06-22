@@ -127,8 +127,14 @@ export async function onRequestGet(context) {
       try { rows = await er.res.json(); } catch {}
       if (!Array.isArray(rows) || rows.length === 0) return json(402, { error: 'payment_required', trail });
 
+      // optional bundled asset (e.g. investor deck) — same entitlement unlocks it
+      const asset = url.searchParams.get('asset');
+      const useDeck = asset === 'deck' && entry.deckObject;
+      const signObject = useDeck ? entry.deckObject : entry.object;
+      const dlFilename = useDeck ? (entry.deckFilename || `${slug}.pptx`) : (entry.filename || `${slug}.pdf`);
+
       // sign
-      const signEndpoint = `${env.SUPABASE_URL}/storage/v1/object/sign/${env.REPORTS_BUCKET}/${encodeURIComponent(entry.object)}`;
+      const signEndpoint = `${env.SUPABASE_URL}/storage/v1/object/sign/${env.REPORTS_BUCKET}/${encodeURIComponent(signObject)}`;
       const sr = await fetchWithTimeout('sign', signEndpoint, {
         method: 'POST',
         headers: {
@@ -148,7 +154,7 @@ export async function onRequestGet(context) {
       const path = signed.signedURL || signed.signedUrl || signed.signed_url;
       if (!path) return json(502, { error: 'sign_no_url', body: signed, trail });
 
-      const filename = entry.filename || `${slug}.pdf`;
+      const filename = dlFilename;
       const base = `${env.SUPABASE_URL}/storage/v1${path}`;
       const sep = base.includes('?') ? '&' : '?';
       const finalUrl = `${base}${sep}download=${encodeURIComponent(filename)}`;

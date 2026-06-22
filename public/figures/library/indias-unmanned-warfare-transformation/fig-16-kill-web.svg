@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 548" font-family="Arial, Helvetica, sans-serif">
+<rect width="780" height="548" fill="#FBF9F4"/>
+<rect x="0" y="0" width="780" height="6" fill="#0F1828"/>
+<text x="40" y="44" font-size="22" font-weight="700" fill="#0F1828">Drones become battlefield infrastructure, not platforms</text>
+<text x="40" y="68" font-size="13" fill="#4A5567">The sense-decide-engage-assess loop the roadmap connects</text>
+<text x="740" y="30" font-size="11" fill="#4A5567" text-anchor="end">Techadyant Labs &#183; 2026</text>
+<defs><marker id="a2" markerWidth="10" markerHeight="10" refX="6" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#4A5567"/></marker></defs>
+<line x1="427" y1="217" x2="468" y2="258" stroke="#4A5567" stroke-width="2" marker-end="url(#a2)" opacity="0.55"/>
+<line x1="473" y1="337" x2="432" y2="378" stroke="#4A5567" stroke-width="2" marker-end="url(#a2)" opacity="0.55"/>
+<line x1="353" y1="383" x2="312" y2="342" stroke="#4A5567" stroke-width="2" marker-end="url(#a2)" opacity="0.55"/>
+<line x1="307" y1="263" x2="348" y2="222" stroke="#4A5567" stroke-width="2" marker-end="url(#a2)" opacity="0.55"/>
+<circle cx="390" cy="180" r="52" fill="#2BC5B4"/>
+<text x="390" y="186" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">Sense</text>
+<text x="390" y="114" font-size="11" fill="#4A5567" text-anchor="middle">ISR / surveillance</text>
+<circle cx="510" cy="300" r="52" fill="#0F1828"/>
+<text x="510" y="306" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">Decide</text>
+<text x="510" y="374" font-size="11" fill="#4A5567" text-anchor="middle">AI / C2 / fusion</text>
+<circle cx="390" cy="420" r="52" fill="#C8443B"/>
+<text x="390" y="426" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">Engage</text>
+<text x="390" y="494" font-size="11" fill="#4A5567" text-anchor="middle">Strike / loitering munitions</text>
+<circle cx="270" cy="300" r="52" fill="#C9A84C"/>
+<text x="270" y="306" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">Assess</text>
+<text x="270" y="374" font-size="11" fill="#4A5567" text-anchor="middle">BDA / relay</text>
+<text x="390" y="298" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">Networked</text>
+<text x="390" y="316" font-size="12.5" font-weight="700" fill="#0F1828" text-anchor="middle">kill-web</text>
+<line x1="40" y1="514" x2="740" y2="514" stroke="#E8E5DD" stroke-width="1"/>
+<text x="40" y="532" font-size="10" fill="#4A5567">Source: Indian Army UAS &amp; Loitering Munitions roadmap (reconstructed); Techadyant Labs analysis.</text>
+<text x="740" y="532" font-size="10" font-style="italic" fill="#C9A84C" text-anchor="end">Schematic</text>
+</svg>

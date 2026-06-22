@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 490" font-family="Arial, Helvetica, sans-serif">
+<rect width="780" height="490" fill="#FBF9F4"/>
+<rect x="0" y="0" width="780" height="6" fill="#0F1828"/>
+<text x="40" y="44" font-size="22" font-weight="700" fill="#0F1828">The unmanned systems technology stack</text>
+<text x="40" y="68" font-size="13" fill="#4A5567">Seven interconnected layers, airframe to effect</text>
+<text x="740" y="30" font-size="11" fill="#4A5567" text-anchor="end">Techadyant Labs &#183; 2026</text>
+<text x="150" y="98" font-size="11" fill="#4A5567">Value migrates upward &#8594; software, AI and sensing capture the most</text>
+<rect x="150" y="110" width="480" height="42" rx="3" fill="#C8443B"/>
+<text x="166" y="136" font-size="13.5" font-weight="700" fill="#fff">Weapons &amp; Effects</text>
+<text x="136" y="136" font-size="11" fill="#4A5567" text-anchor="end">Layer 7</text>
+<text x="644" y="136" font-size="10.5" fill="#4A5567">Operational outcomes</text>
+<rect x="150" y="160" width="480" height="42" rx="3" fill="#0F1828"/>
+<text x="166" y="186" font-size="13.5" font-weight="700" fill="#fff">Mission Systems &amp; AI</text>
+<text x="136" y="186" font-size="11" fill="#4A5567" text-anchor="end">Layer 6</text>
+<text x="644" y="186" font-size="10.5" fill="#4A5567">Decision-making</text>
+<rect x="150" y="210" width="480" height="42" rx="3" fill="#C9A84C"/>
+<text x="166" y="236" font-size="13.5" font-weight="700" fill="#fff">Communications &amp; Networking</text>
+<text x="136" y="236" font-size="11" fill="#4A5567" text-anchor="end">Layer 5</text>
+<text x="644" y="236" font-size="10.5" fill="#4A5567">Connectivity</text>
+<rect x="150" y="260" width="480" height="42" rx="3" fill="#2BC5B4"/>
+<text x="166" y="286" font-size="13.5" font-weight="700" fill="#06302c">Sensors &amp; Payloads</text>
+<text x="136" y="286" font-size="11" fill="#4A5567" text-anchor="end">Layer 4</text>
+<text x="644" y="286" font-size="10.5" fill="#4A5567">Situational awareness</text>
+<rect x="150" y="310" width="480" height="42" rx="3" fill="#7c8aa0"/>
+<text x="166" y="336" font-size="13.5" font-weight="700" fill="#fff">Navigation &amp; Flight Control</text>
+<text x="136" y="336" font-size="11" fill="#4A5567" text-anchor="end">Layer 3</text>
+<text x="644" y="336" font-size="10.5" fill="#4A5567">Autonomous operation</text>
+<rect x="150" y="360" width="480" height="42" rx="3" fill="#4A5567"/>
+<text x="166" y="386" font-size="13.5" font-weight="700" fill="#fff">Power &amp; Propulsion</text>
+<text x="136" y="386" font-size="11" fill="#4A5567" text-anchor="end">Layer 2</text>
+<text x="644" y="386" font-size="10.5" fill="#4A5567">Energy &amp; movement</text>
+<rect x="150" y="410" width="480" height="42" rx="3" fill="#1d2d47"/>
+<text x="166" y="436" font-size="13.5" font-weight="700" fill="#fff">Airframe &amp; Structures</text>
+<text x="136" y="436" font-size="11" fill="#4A5567" text-anchor="end">Layer 1</text>
+<text x="644" y="436" font-size="10.5" fill="#4A5567">Physical platform</text>
+<defs><marker id="ar" markerWidth="9" markerHeight="9" refX="5" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#C9A84C"/></marker></defs>
+<line x1="758" y1="454" x2="758" y2="118" stroke="#C9A84C" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="40" y1="456" x2="740" y2="456" stroke="#E8E5DD" stroke-width="1"/>
+<text x="40" y="474" font-size="10" fill="#4A5567">Source: Indian Army UAS &amp; Loitering Munitions roadmap (reconstructed); Techadyant Labs analysis.</text>
+<text x="740" y="474" font-size="10" font-style="italic" fill="#C9A84C" text-anchor="end">Schematic</text>
+</svg>

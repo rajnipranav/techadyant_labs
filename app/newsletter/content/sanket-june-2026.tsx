@@ -136,7 +136,7 @@ export function IssueContent() {
       {/* BOTTOM LINE */}
       <Callout label="The Bottom Line" tone={BRASS}>
         <ul style={{ margin: 0, paddingLeft: 20, lineHeight: 1.7 }}>
-          <li>One finding ran through all eight of this month’s reports: India <strong>assembles</strong> — the value lives offshore, in the components it imports.</li>
+          <li>One finding ran through all nine of this month’s reports: India <strong>assembles</strong> — the value lives offshore, in the components it imports.</li>
           <li>Drones make it literal: India imported <strong>$8M of finished drones</strong> last year — and <strong>$767M of the parts</strong> inside them, plus $4.7bn of cells.</li>
           <li>The same pattern runs through software (foreign ERP), AI infrastructure (imported silicon) and minerals (imported magnets).</li>
           <li>The opening is upstream and ownable — components, packaging, cells, magnets, flight-control silicon — where <strong>~₹23 of every ₹100</strong> currently leaks abroad.</li>
@@ -147,7 +147,7 @@ export function IssueContent() {
       {/* THESIS */}
       <Kicker>This Month’s Thesis</Kicker>
       <h2 id="thesis" style={h2}>Assembly Is Not Sovereignty</h2>
-      <p>For a decade India’s industrial story was told in headline numbers — plants opened, PLI disbursed, assembly lines lit. This month, across eight Techadyant reports spanning drones, semiconductors, enterprise software and AI infrastructure, the same structural fact kept surfacing: hosting a value chain is not the same as capturing it.</p>
+      <p>For a decade India’s industrial story was told in headline numbers — plants opened, PLI disbursed, assembly lines lit. This month, across nine Techadyant reports spanning drones, semiconductors, enterprise software and AI infrastructure, the same structural fact kept surfacing: hosting a value chain is not the same as capturing it.</p>
       <p>Drones are the clearest proof. India has built a credible integration and operations layer — it assembles, flies and fields drones at scale. But the motors, cells, flight controllers and sensors are imported. Customs settles the argument: $8M of finished drones came in last year against $767M of parts. India buys the parts, not the planes.</p>
       <p>The pattern repeats by corridor. In enterprise software the country runs on foreign ERP it does not control; in AI infrastructure it is racing to host data centres on silicon it does not make; in critical minerals it mines what it cannot yet refine. Each is a different layer of the same dependency.</p>
       <p style={{ marginBottom: 30 }}>The opening is upstream, and it is real. The value India fails to capture — components, processing, cells, magnets, design-to-silicon — is exactly where June’s policy moved: ISM 2.0, the rare-earth magnet scheme, dedicated mineral corridors. The window is measured in quarters. The test is whether the value-add line moves — not whether more ribbons are cut.</p>
@@ -212,9 +212,10 @@ export function IssueContent() {
 
       {/* FROM THE LAB */}
       <Kicker>From the Lab This Month</Kicker>
-      <h2 id="from-the-lab" style={h2}>Eight Reports, One Lens</h2>
+      <h2 id="from-the-lab" style={h2}>Nine Reports, One Lens</h2>
       <p style={{ marginBottom: 8 }}>June’s research, each in a line and a number — the evidence behind this month’s thesis.</p>
       <ul style={{ margin: '0 0 30px', paddingLeft: 20, lineHeight: 1.9 }}>
+        <li><Link href="/reports/indias-unmanned-warfare-transformation/" style={{ color: 'var(--primary, #818CF8)' }}>India’s Unmanned Warfare Transformation</Link> — the Army’s UAS and loitering-munition roadmap to 2035, and the ~₹40,000 cr subsystem prize beneath the airframe.</li>
         <li><Link href="/reports/who-builds-indias-drones/" style={{ color: 'var(--primary, #818CF8)' }}>Who Builds India’s Drones?</Link> — $767M of parts vs $8M of finished drones.</li>
         <li><Link href="/reports/india-drone-propulsion-opportunity/" style={{ color: 'var(--primary, #818CF8)' }}>India’s Drone Propulsion Opportunity</Link> — a ~$1bn motor, ESC and jet-propulsion market by 2036.</li>
         <li><Link href="/reports/indias-drone-battery-ecosystem/" style={{ color: 'var(--primary, #818CF8)' }}>India’s Drone Battery Ecosystem</Link> — the cell-not-pack gap: ~60GWh pack vs ~1GWh cell.</li>

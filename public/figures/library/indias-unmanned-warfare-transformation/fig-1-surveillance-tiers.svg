@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 470" font-family="Arial, Helvetica, sans-serif">
+<rect width="780" height="470" fill="#FBF9F4"/>
+<rect x="0" y="0" width="780" height="6" fill="#0F1828"/>
+<text x="40" y="44" font-size="22" font-weight="700" fill="#0F1828">The surveillance architecture spans five altitude tiers</text>
+<text x="40" y="68" font-size="13" fill="#4A5567">Where each ISR platform class sits by operating altitude and radius</text>
+<text x="740" y="30" font-size="11" fill="#4A5567" text-anchor="end">Techadyant Labs &#183; 2026</text>
+<text x="40" y="100" font-size="12" fill="#4A5567">Altitude (ft)</text>
+<text x="720" y="435" font-size="12" fill="#4A5567" text-anchor="end">Operating radius (km, log)</text>
+<line x1="95" y1="395" x2="720" y2="395" stroke="#E8E5DD" stroke-width="1"/>
+<text x="87" y="399" font-size="10" fill="#4A5567" text-anchor="end">0k</text>
+<line x1="95" y1="324" x2="720" y2="324" stroke="#E8E5DD" stroke-width="1"/>
+<text x="87" y="328" font-size="10" fill="#4A5567" text-anchor="end">20k</text>
+<line x1="95" y1="252" x2="720" y2="252" stroke="#E8E5DD" stroke-width="1"/>
+<text x="87" y="256" font-size="10" fill="#4A5567" text-anchor="end">40k</text>
+<line x1="95" y1="181" x2="720" y2="181" stroke="#E8E5DD" stroke-width="1"/>
+<text x="87" y="185" font-size="10" fill="#4A5567" text-anchor="end">60k</text>
+<line x1="95" y1="110" x2="720" y2="110" stroke="#E8E5DD" stroke-width="1"/>
+<text x="87" y="114" font-size="10" fill="#4A5567" text-anchor="end">80k</text>
+<text x="95" y="413" font-size="10" fill="#4A5567" text-anchor="middle">20</text>
+<text x="296" y="413" font-size="10" fill="#4A5567" text-anchor="middle">100</text>
+<text x="433" y="413" font-size="10" fill="#4A5567" text-anchor="middle">300</text>
+<text x="583" y="413" font-size="10" fill="#4A5567" text-anchor="middle">1000</text>
+<text x="720" y="413" font-size="10" fill="#4A5567" text-anchor="middle">3000</text>
+<circle cx="669" cy="163" r="9" fill="#C9A84C" stroke="#0F1828" stroke-width="1"/>
+<text x="655" y="159" font-size="12" font-weight="700" fill="#0F1828" text-anchor="end">HALE</text>
+<text x="655" y="174" font-size="9.5" fill="#4A5567" text-anchor="end">Strategic ISR / SIGINT</text>
+<circle cx="634" cy="138" r="9" fill="#2BC5B4" stroke="#0F1828" stroke-width="1"/>
+<text x="620" y="134" font-size="12" font-weight="700" fill="#0F1828" text-anchor="end">HAPS</text>
+<text x="620" y="150" font-size="9.5" fill="#4A5567" text-anchor="end">Pseudo-satellite, persistent</text>
+<circle cx="583" cy="288" r="9" fill="#C9A84C" stroke="#0F1828" stroke-width="1"/>
+<text x="569" y="284" font-size="12" font-weight="700" fill="#0F1828" text-anchor="end">MALE</text>
+<text x="569" y="299" font-size="9.5" fill="#4A5567" text-anchor="end">Theatre ISR / armed</text>
+<circle cx="433" cy="338" r="9" fill="#0F1828" stroke="#0F1828" stroke-width="1"/>
+<text x="447" y="334" font-size="12" font-weight="700" fill="#0F1828" text-anchor="start">Long-range UALS</text>
+<text x="447" y="349" font-size="9.5" fill="#4A5567" text-anchor="start">Corps / division</text>
+<circle cx="209" cy="377" r="9" fill="#4A5567" stroke="#0F1828" stroke-width="1"/>
+<text x="223" y="373" font-size="12" font-weight="700" fill="#0F1828" text-anchor="start">Short-range UALS</text>
+<text x="223" y="388" font-size="9.5" fill="#4A5567" text-anchor="start">Tactical / unit</text>
+<line x1="40" y1="436" x2="740" y2="436" stroke="#E8E5DD" stroke-width="1"/>
+<text x="40" y="454" font-size="10" fill="#4A5567">Source: Indian Army UAS &amp; Loitering Munitions roadmap (reconstructed); Techadyant Labs analysis.</text>
+<text x="740" y="454" font-size="10" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative / Schematic</text>
+</svg>
