@@ -53,7 +53,7 @@ export default function NewsletterPage() {
         <div className="nl-card">
           <Link href={`/newsletter/${latest.slug}/`} className="nl-card-cover" aria-label={`Read Sanket — ${latest.month}`}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={latest.cover} alt={`Sanket — ${latest.month}: ${latest.title}`} />
+            <img src={latest.card ?? latest.cover} alt={`Sanket — ${latest.month}: ${latest.title}`} />
             <span className="nl-card-badge">◆ {latest.no}</span>
           </Link>
           <div className="nl-card-body">
@@ -62,7 +62,9 @@ export default function NewsletterPage() {
             <p style={{ color: 'var(--text-muted)', lineHeight: 1.65, fontSize: 16, marginBottom: 24 }}>{latest.standfirst}</p>
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
               <Link href={`/newsletter/${latest.slug}/`} className="btn-ed btn-ed-primary">Read online <span className="arr">→</span></Link>
-              <a href={latest.pdf} className="btn-ed btn-ed-ghost" download>Download PDF <span className="arr">↓</span></a>
+              {latest.pdfReady
+                ? <a href={latest.pdf} className="btn-ed btn-ed-ghost" download>Download PDF <span className="arr">↓</span></a>
+                : <span className="btn-ed btn-ed-ghost" style={{ opacity: 0.6, cursor: 'default' }}>PDF · {latest.date}</span>}
             </div>
           </div>
         </div>

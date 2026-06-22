@@ -2,12 +2,14 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { issues, getIssue } from '../data';
-import { IssueContent } from '../content/strategic-signals-may-2026';
+import { IssueContent as MayContent } from '../content/strategic-signals-may-2026';
+import { IssueContent as JuneContent } from '../content/sanket-june-2026';
 
 interface IssueModule { Content: () => React.ReactElement }
 
 const registry: Record<string, IssueModule> = {
-  'sanket-may-2026': { Content: IssueContent },
+  'sanket-may-2026': { Content: MayContent },
+  'sanket-june-2026': { Content: JuneContent },
 };
 
 export function generateStaticParams() {
@@ -25,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `Sanket — ${i.month}`,
     description: i.standfirst,
     alternates: { canonical: url },
-    keywords: ['Sanket', 'Techadyant Labs', 'India semiconductors', 'advanced packaging', 'AI infrastructure', 'strategic intelligence', i.month],
+    keywords: ['Sanket', 'Techadyant Labs', 'India industrial systems', 'semiconductors', 'critical minerals', 'defence', 'AI infrastructure', 'strategic intelligence', i.month],
     openGraph: {
       type: 'article', url, title, description: i.standfirst, siteName: 'Techadyant Labs',
       images: [{ url: img, width: 1000, height: 1750 }],
@@ -41,8 +43,8 @@ function issueJsonLd(i: NonNullable<ReturnType<typeof getIssue>>) {
     headline: `Sanket — ${i.month}: ${i.title}`,
     description: i.standfirst,
     inLanguage: 'en-IN',
-    datePublished: '2026-05-31',
-    dateModified: '2026-05-31',
+    datePublished: i.published,
+    dateModified: i.published,
     isAccessibleForFree: true,
     image: [`https://labs.techadyant.com${i.ogImage}`],
     url: `https://labs.techadyant.com/newsletter/${i.slug}/`,
@@ -83,7 +85,9 @@ export default async function IssuePage({ params }: { params: Promise<{ slug: st
             <div><div className="bk">Author</div><div className="bv">Techadyant Labs · Research</div></div>
           </div>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 24 }}>
-            <a href={i.pdf} className="btn-ed btn-ed-primary" download>Download PDF <span className="arr">↓</span></a>
+            {i.pdfReady
+              ? <a href={i.pdf} className="btn-ed btn-ed-primary" download>Download PDF <span className="arr">↓</span></a>
+              : <span className="btn-ed btn-ed-ghost" style={{ opacity: 0.6, cursor: 'default' }}>PDF · {i.date}</span>}
             <Link href="/#subscribe" className="btn-ed btn-ed-ghost">Subscribe <span className="arr">→</span></Link>
           </div>
         </div>
@@ -100,7 +104,9 @@ export default async function IssuePage({ params }: { params: Promise<{ slug: st
             <p>Monthly strategic intelligence on India’s industrial systems — independent and infrequent.</p>
           </div>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-            <a href={i.pdf} className="btn-ed btn-ed-primary" download>Download PDF <span className="arr">↓</span></a>
+            {i.pdfReady
+              ? <a href={i.pdf} className="btn-ed btn-ed-primary" download>Download PDF <span className="arr">↓</span></a>
+              : null}
             <Link href="/#subscribe" className="btn-ed btn-ed-ghost">Subscribe <span className="arr">→</span></Link>
           </div>
         </div>
