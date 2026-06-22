@@ -421,7 +421,7 @@ const baseReports: ReportMeta[] = [
     hasPdf: true,
     pages: 28,
     cover: '/covers/india-fab-ecosystem.jpg',
-    previewObject: 'india-fab-ecosystem-preview.pdf',
+    previewObject: 'reports-free/Who-Really-Benefits-from-Indias-Fab-Ecosystem-Free-Edition.pdf',
     previewPages: 12,
   },
   {

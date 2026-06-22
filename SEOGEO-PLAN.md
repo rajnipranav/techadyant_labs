@@ -4,6 +4,8 @@ Source of truth for growth work on https://labs.techadyant.com/
 ## 1. Executive Summary
 Techadyant Labs has a strong niche: India-first industrial systems intelligence. The potential is high because the topic is strategic, undercovered, and relevant to policy, procurement, and venture audiences. Current risk is low discoverability: core metadata, knowledge-graph signals, and backlink authority are incomplete. This plan closes that gap with a tiered roadmap and a daily execution system.
 
+For day-to-day operations, **`WEBSITE-MANAGER.md`** is the operating manual. This document remains the strategic plan and task log.
+
 ## 2. Current-State Assessment (Observed)
 - Clear value proposition on homepage: industrial corridors, reports, signals, atlas, services.
 - Strong topical cluster keywords already implied: AI infrastructure, semiconductors, advanced packaging, OSAT, drone battery ecosystem, coastal AI, talent constraint, Indian industry corridors.
@@ -91,8 +93,14 @@ Use this cadence to keep the program moving without bottlenecks.
 | 2026-06-16 | Wrote ready-to-send outreach drafts and action playbook for backlink creation | Completed | Execute outreach sends for first 4 Tier 1 targets and update log outcomes | SEOGEO-OUTREACH-DRAFTS.md / SEOGEO-BACKLINK-ACTIONS.md / SEOGEO-OUTREACH-LOG.md | Hermes + Operator |
 | 2026-06-16 | Verified send capability on current host and identified blocker: no mail tool present | Blocked | Operator should send drafts to Tier 1 targets as-is; next Hermes task is non-outreach workflow | Outreach execution environment | Hermes |
 | 2026-06-16 | Verified internal linking surface and missing theme/crosslinks surface | Blocked | Operator to provide first outreach recipient or approve skipping outreach to continue; I should continue with LinkedIn/growth work next | Internal linking + outreach blocker | Hermes |
-| 2026-06-16 | Wrote GEO-LINKEDIN-PACKAGE.md with post bank and report-to-LinkedIn mapping | Completed | Publish first LinkedIn post draft and add site link CTA in engagement queue | LinkedIn growth package | Hermes |
-
+|| 2026-06-16 | Wrote GEO-LINKEDIN-PACKAGE.md with post bank and report-to-LinkedIn mapping | Completed | Publish first LinkedIn post draft and add site link CTA in engagement queue | LinkedIn growth package | Hermes |
+|| 2026-06-22 | Took over permanent website management from Claude coworker onboard | Completed | Absorbed all coworker workstreams (Atlas, Corridors, Admin, Reports, Signals) into daily rhythm | WEBSITE-MANAGER.md | Hermes |
+|| 2026-06-22 | Created WEBSITE-MANAGER.md — comprehensive operating manual | Completed | Daily 4-step rhythm established; cron jobs to be scheduled | WEBSITE-MANAGER.md | Hermes |
+|| 2026-06-22 | Audit Atlas completeness: all 6 modules live, bake script ready | Completed | Verify `bake-sid.mjs` integrates with Supabase service-role and freshens `_atlas.json` on each deploy | scripts/bake-sid.mjs | Hermes |
+|| 2026-06-22 | Audit corridor completeness: all 11 corridors to frozen standard | Completed | Back-fill nodes when PIB/IIG/state releases new data; verify `node-data.ts` type-checks | app/corridors/node-data.ts | Hermes |
+|| 2026-06-22 | Audit admin panel: 16 pages live, Cloudflare Access gated | Completed | Review candidacy queue + subscribers weekly | app/admin/ | Hermes |
+|| 2026-06-22 | India Fab Ecosystem report: config ready, entry in reports/data.ts | Ready | Publish PDF to Supabase `reports-free` and verify previewObject URL resolves 200 | report-configs/india-fab-ecosystem.json | Operator + Hermes |
+|
 ## 10. Daily Execution Strategy (Repeatable)
 Do not improvise work selection. Use this sequence each day so progress is measurable and maintainable.
 
