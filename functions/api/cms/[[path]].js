@@ -73,7 +73,8 @@ export async function onRequest(context) {
 
   try {
     for (const table of CMS_TABLES) {
-      if (route === `/cms/${table}`) {
+      const base = '/' + table.replace(/^cms_/, '');
+      if (route === base) {
         if (request.method === 'GET') {
           const select = q.get('select') || '*';
           const order = q.get('order') || 'created_at.desc';
@@ -94,7 +95,7 @@ export async function onRequest(context) {
           return json(r.ok ? 200 : 502, await r.json());
         }
       }
-      if (route.startsWith(`/cms/${table}/`)) {
+      if (route.startsWith(base + '/')) {
         const slug = route.split('/').pop();
         if (request.method === 'GET') {
           const r = await fetch(`${S}/rest/v1/${table}?slug=eq.${encodeURIComponent(slug)}&select=*`, {
