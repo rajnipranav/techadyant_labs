@@ -12,9 +12,9 @@ function json(status, body) {
   });
 }
 
-async function accessEmailFromJwt(request) {
+async function accessEmailFromJwt(request, env) {
   try {
-    const team = process.env.CF_ACCESS_TEAM_DOMAIN || 'lingering-union-aa4c.cloudflareaccess.com';
+    const team = (env && env.CF_ACCESS_TEAM_DOMAIN) || 'lingering-union-aa4c.cloudflareaccess.com';
     let token = request.headers.get('Cf-Access-Jwt-Assertion');
     if (!token) {
       const m = (request.headers.get('Cookie') || '').match(/CF_Authorization=([^;]+)/);
