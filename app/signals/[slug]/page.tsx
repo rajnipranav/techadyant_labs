@@ -81,7 +81,7 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
             <div><div className="bk">Reference</div><div className="bv">{s.no}</div></div>
             <div><div className="bk">Domain</div><div className="bv">{s.domain}</div></div>
             <div><div className="bk">Dated</div><div className="bv">{s.dateLabel}</div></div>
-            {s.readingTime.trim() && <div><div className="bk">Read</div><div className="bv">{s.readingTime}</div></div>}
+            {(s.readingTime || '').trim() && <div><div className="bk">Read</div><div className="bv">{s.readingTime}</div></div>}
           </div>
         </div>
       </header>
