@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
+import { Suspense, useEffect, useState, useCallback } from 'react';
 import { useSearchParams } from 'next/navigation';
 
 const API = '/api/cms';
@@ -31,6 +31,14 @@ function Field(props: { label: string; value: any; onChange: (v: string) => void
 }
 
 export default function CmsAdmin() {
+  return (
+    <Suspense fallback={<p style={{ color: '#9898A8' }}>Loading…</p>}>
+      <CmsAdminInner />
+    </Suspense>
+  );
+}
+
+function CmsAdminInner() {
   const params = useSearchParams();
   const initial = (params.get('type') as CmsType) || 'reports';
   const [type, setType] = useState<CmsType>(initial);

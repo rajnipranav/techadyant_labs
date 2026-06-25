@@ -45,7 +45,8 @@ function tsString(s) {
 }
 
 function tsValue(v) {
-  if (v === null || v === undefined) return 'null';
+  if (v === null) return 'null';
+  if (v === undefined) return 'undefined';
   if (typeof v === 'string') return `'${v.replace(/'/g, "\\'")}'`;
   if (typeof v === 'number') return String(v);
   if (typeof v === 'boolean') return String(v);
