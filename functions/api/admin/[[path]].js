@@ -84,7 +84,13 @@ function b64urlBytes(s) {
 // CF_Authorization cookie) against the team JWKS, return the email claim.
 async function accessEmailFromJwt(request, env) {
   try {
-    const team = env.CF_ACCESS_TEAM_DOMAIN || 'lining-union-aa4c.cloudflareaccess.com';
+    const configTeam = (env.CF_ACCESS_TEAM_DOMAIN || '').toLowerCase().trim();
+    const expectedTeams = [
+      configTeam,
+      'lingering-union-aa4c.cloudflareaccess.com',
+      'lining-union-aa4c.cloudflareaccess.com'
+    ].filter(Boolean);
+
     let token = request.headers.get('Cf-Access-Jwt-Assertion');
     if (!token) {
       const m = (request.headers.get('Cookie') || '').match(/CF_Authorization=([^;]+)/);
@@ -103,15 +109,32 @@ async function accessEmailFromJwt(request, env) {
     if (payload.exp && Math.floor(Date.now() / 1000) > payload.exp) {
       return { error: `JWT has expired (exp: ${payload.exp}, current: ${Math.floor(Date.now() / 1000)})` };
     }
+
+    if (!payload.iss) return { error: 'JWT payload is missing the iss (issuer) claim' };
+    let issDomain = '';
+    try {
+      const issUrl = new URL(payload.iss);
+      issDomain = issUrl.hostname.toLowerCase();
+    } catch (e) {
+      return { error: `Invalid URL format in iss claim: ${payload.iss}` };
+    }
+
+    if (!expectedTeams.includes(issDomain)) {
+      return {
+        error: `JWT issuer '${issDomain}' is not in the trusted team domains list`,
+        trustedTeams: expectedTeams
+      };
+    }
+
     let certs;
     try {
-      const certsRes = await fetch(`https://${team}/cdn-cgi/access/certs`);
+      const certsRes = await fetch(`https://${issDomain}/cdn-cgi/access/certs`);
       if (!certsRes.ok) {
-        return { error: `Failed to fetch certs from https://${team}/cdn-cgi/access/certs: HTTP ${certsRes.status}` };
+        return { error: `Failed to fetch certs from https://${issDomain}/cdn-cgi/access/certs: HTTP ${certsRes.status}` };
       }
       certs = await certsRes.json();
     } catch (e) {
-      return { error: `Failed to fetch certs from https://${team}/cdn-cgi/access/certs: ${e.message}` };
+      return { error: `Failed to fetch certs from https://${issDomain}/cdn-cgi/access/certs: ${e.message}` };
     }
     const jwk = (certs.keys || []).find((k) => k.kid === header.kid);
     if (!jwk) return { error: `No JWK key found for kid: ${header.kid}` };
