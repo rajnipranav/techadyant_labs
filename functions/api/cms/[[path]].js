@@ -72,58 +72,65 @@ export async function onRequest(context) {
   const q = new URL(request.url).searchParams;
 
   try {
-    for (const table of CMS_TABLES) {
-      const base = '/' + table.replace(/^cms_/, '');
-      if (route === base) {
-        if (request.method === 'GET') {
-          const select = q.get('select') || '*';
-          const order = q.get('order') || 'created_at.desc';
-          const limit = q.get('limit') || '100';
-          const offset = q.get('offset') || '0';
-          const r = await fetch(`${S}/rest/v1/${table}?select=${select}&order=${order}&limit=${limit}.eq.${offset}`, {
-            headers: { apikey: SK, Authorization: `Bearer ${SK}` },
-          });
-          return json(r.ok ? 200 : 502, await r.json());
-        }
-        if (request.method === 'POST') {
-          const body = await request.json();
-          const r = await fetch(`${S}/rest/v1/${table}`, {
-            method: 'POST',
-            headers: { apikey: SK, Authorization: `Bearer ${SK}`, 'content-type': 'application/json', Prefer: 'resolution=merge-duplicates' },
-            body: JSON.stringify(body),
-          });
-          return json(r.ok ? 200 : 502, await r.json());
-        }
+    const CMS_ROUTES = {
+      reports: 'cms_reports',
+      signals: 'cms_signals',
+      briefings: 'cms_briefings',
+      newsletters: 'cms_newsletters',
+      pages: 'cms_pages',
+    };
+
+    const path = route.slice(1);
+    const [resource, ...rest] = path.split('/');
+    const table = CMS_ROUTES[resource];
+    if (!table) return json(404, { error: 'unknown CMS route', route });
+    const slug = rest[0] || null;
+
+    if (!slug) {
+      if (request.method === 'GET') {
+        const select = q.get('select') || '*';
+        const order = q.get('order') || 'created_at.desc';
+        const limit = q.get('limit') || '100';
+        const offset = q.get('offset') || '0';
+        const r = await fetch(`${S}/rest/v1/${table}?select=${select}&order=${order}&limit=${limit}.eq.${offset}`, {
+          headers: { apikey: SK, Authorization: `Bearer ${SK}` },
+        });
+        return json(r.ok ? 200 : 502, await r.json());
       }
-      if (route.startsWith(base + '/')) {
-        const slug = route.split('/').pop();
-        if (request.method === 'GET') {
-          const r = await fetch(`${S}/rest/v1/${table}?slug=eq.${encodeURIComponent(slug)}&select=*`, {
-            headers: { apikey: SK, Authorization: `Bearer ${SK}` },
-          });
-          const data = await r.json();
-          return json(200, Array.isArray(data) ? data[0] || null : data);
-        }
-        if (request.method === 'PUT' || request.method === 'PATCH') {
-          const body = await request.json();
-          const r = await fetch(`${S}/rest/v1/${table}?slug=eq.${encodeURIComponent(slug)}`, {
-            method: 'PATCH',
-            headers: { apikey: SK, Authorization: `Bearer ${SK}`, 'content-type': 'application/json', Prefer: 'resolution=merge-duplicates' },
-            body: JSON.stringify(body),
-          });
-          return json(r.ok ? 200 : 502, await r.json());
-        }
-        if (request.method === 'DELETE') {
-          const r = await fetch(`${S}/rest/v1/${table}?slug=eq.${encodeURIComponent(slug)}`, {
-            method: 'DELETE',
-            headers: { apikey: SK, Authorization: `Bearer ${SK}` },
-          });
-          return json(r.ok ? 204 : 502, {});
-        }
+      if (request.method === 'POST') {
+        const body = await request.json();
+        const r = await fetch(`${S}/rest/v1/${table}`, {
+          method: 'POST',
+          headers: { apikey: SK, Authorization: `Bearer ${SK}`, 'content-type': 'application/json', Prefer: 'resolution=merge-duplicates' },
+          body: JSON.stringify(body),
+        });
+        return json(r.ok ? 200 : 502, await r.json());
+      }
+    } else {
+      if (request.method === 'GET') {
+        const r = await fetch(`${S}/rest/v1/${table}?slug=eq.${encodeURIComponent(slug)}&select=*`, {
+          headers: { apikey: SK, Authorization: `Bearer ${SK}` },
+        });
+        const data = await r.json();
+        return json(200, Array.isArray(data) ? data[0] || null : data);
+      }
+      if (request.method === 'PUT' || request.method === 'PATCH') {
+        const body = await request.json();
+        const r = await fetch(`${S}/rest/v1/${table}?slug=eq.${encodeURIComponent(slug)}`, {
+          method: 'PATCH',
+          headers: { apikey: SK, Authorization: `Bearer ${SK}`, 'content-type': 'application/json', Prefer: 'resolution=merge-duplicates' },
+          body: JSON.stringify(body),
+        });
+        return json(r.ok ? 200 : 502, await r.json());
+      }
+      if (request.method === 'DELETE') {
+        const r = await fetch(`${S}/rest/v1/${table}?slug=eq.${encodeURIComponent(slug)}`, {
+          method: 'DELETE',
+          headers: { apikey: SK, Authorization: `Bearer ${SK}` },
+        });
+        return json(r.ok ? 204 : 502, {});
       }
     }
-
-    return json(404, { error: 'unknown CMS route', route });
   } catch (e) {
     return json(500, { error: String(e) });
   }
