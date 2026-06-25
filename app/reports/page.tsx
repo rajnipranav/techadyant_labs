@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { reports, formatPrice } from './data';
+import { reports as staticReports, formatPrice } from './data';
 import { ReportCover } from '../components/ReportCover';
 import ReportsBrowser from './ReportsBrowser';
+
 import { THEMES } from './themes';
+import { getReports } from '../lib/cms';
 
 export const metadata: Metadata = {
   title: 'Reports',
@@ -34,7 +36,14 @@ const WHY = [
   },
 ];
 
-export default function ReportsIndex() {
+export default async function ReportsIndex() {
+  let reports: any[] = staticReports;
+  try {
+    const cms = await getReports();
+    if (cms.length) reports = cms;
+  } catch {}
+
+  const published = reports.filter((r) => r.status === 'published');
   const forthcoming = reports.filter((r) => r.status === 'forthcoming');
 
   return (
@@ -87,7 +96,7 @@ export default function ReportsIndex() {
           <Link href="/reports/series/technology-sovereignty/" style={{ color: 'var(--accent, #C9A84C)', borderBottom: '1px solid transparent' }}>Technology Sovereignty Series →</Link>
         </div>
 
-        <ReportsBrowser />
+        <ReportsBrowser initialData={published} />
 
         <div className="ed-kicker" style={{ margin: '56px 0 28px' }}>Forthcoming</div>
         <div className="report-cards">

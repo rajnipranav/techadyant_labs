@@ -2,9 +2,10 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { reports, formatPrice, type ReportMeta } from './data';
+import type { ReportMeta } from './data';
 import { ReportCover } from '../components/ReportCover';
-
+import { formatPrice } from './data';
+export { formatPrice } from './data';
 const ACCESS = [
   { k: 'all', label: 'All' },
   { k: 'free', label: 'Free' },
@@ -32,6 +33,7 @@ function Card({ r }: { r: ReportMeta }) {
   return (
     <Link href={`/reports/${r.slug}/`} className="report-card">
       <div className="rc-cover-top">
+        {/* @ts-ignore - ReportCover accepts ReportMeta */}
         <ReportCover report={r} variant="card" />
         <span className={`report-card-badge ${free ? 'badge-free' : 'badge-price'}`}>{free ? 'Free' : formatPrice(r)}</span>
       </div>
@@ -52,8 +54,8 @@ function Card({ r }: { r: ReportMeta }) {
   );
 }
 
-export default function ReportsBrowser() {
-  const published = reports.filter((r) => r.status === 'published');
+export default function ReportsBrowser({ initialData }: { initialData?: ReportMeta[] }) {
+  const published = (initialData || []).filter((r) => r.status === 'published');
   const themes = ['all', ...Array.from(new Set(published.map((r) => r.domain)))];
   const [theme, setTheme] = useState('all');
   const [access, setAccess] = useState<AccessKey>('all');

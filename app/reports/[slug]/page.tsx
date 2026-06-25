@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { reports, getReport, formatPrice } from '../data';
+import { reports as staticReports, getReport as staticGetReport, formatPrice } from '../data';
+import { getReports, getReportBySlug } from '../../lib/cms';
 import { ReportCommerceProvider } from '../../components/ReportCommerce';
 import { ReportAccess } from '../../components/ReportAccess';
 import { PremiumBody } from '../../components/PremiumBody';
@@ -39,14 +40,20 @@ const registry: Record<string, ReportModule> = {
   'indias-unmanned-warfare-transformation': { toc: unmannedToc, Content: UnmannedContent },
 };
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  let reports: any[] = staticReports;
+  try {
+    const cms = await getReports(); if (cms.length) reports = cms as any[];
+    if (cms.length) reports = cms as any[];
+  } catch {}
   return reports.map((r) => ({ slug: r.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const r = getReport(slug);
+  const r = await getReportBySlug(slug) || staticGetReport(slug);
   if (!r) return {};
+  (r as any);
   const OG_OVERRIDES: Record<string, string> = {
     'the-sap-question': '/og/the-sap-question-flagship.png',
     'india-drone-sensors-payloads-imaging-market': '/og/india-drone-sensors-payloads-imaging-market.png',
@@ -75,7 +82,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
-function articleJsonLd(meta: ReturnType<typeof getReport>) {
+function articleJsonLd(meta: any) {
   if (!meta) return null;
   const data = {
     '@context': 'https://schema.org',
@@ -92,7 +99,7 @@ function articleJsonLd(meta: ReturnType<typeof getReport>) {
       : [meta.domain, 'India technology sovereignty', 'strategic intelligence', 'industrial systems']).join(', '),
     about: (meta.keywords && meta.keywords.length ? meta.keywords : [meta.domain])
       .slice(0, 6)
-      .map((k) => ({ '@type': 'Thing', name: k })),
+      .map((k: string) => ({ '@type': 'Thing', name: k })),
     image: meta.cover ? `https://labs.techadyant.com${meta.cover}` : undefined,
     url: `https://labs.techadyant.com/reports/${meta.slug}/`,
     author: {
@@ -118,12 +125,12 @@ function articleJsonLd(meta: ReturnType<typeof getReport>) {
   return JSON.stringify(data);
 }
 
-function faqJsonLd(meta: ReturnType<typeof getReport>) {
+function faqJsonLd(meta: any) {
   if (!meta || !meta.faq || !meta.faq.length) return null;
   return JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: meta.faq.map((f) => ({
+    mainEntity: meta.faq.map((f: any) => ({
       '@type': 'Question',
       name: f.q,
       acceptedAnswer: { '@type': 'Answer', text: f.a },
@@ -133,7 +140,8 @@ function faqJsonLd(meta: ReturnType<typeof getReport>) {
 
 export default async function ReportPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const meta = getReport(slug);
+  let meta: any = await getReportBySlug(slug);
+  if (!meta) meta = staticGetReport(slug);
   if (!meta) notFound();
 
   const mod = registry[slug];
@@ -142,8 +150,8 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
   const faqJson = faqJsonLd(meta);
   const supabaseBase = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://lkqojucjkpxhcngtstfy.supabase.co';
   const fullPdfUrl =
-    meta.access === 'free' && meta.previewObject && meta.previewObject.includes('/')
-      ? `${supabaseBase}/storage/v1/object/public/${meta.previewObject}`
+    meta.access === 'free' && meta.preview_object && meta.preview_object.includes('/')
+      ? `${supabaseBase}/storage/v1/object/public/${meta.preview_object}`
       : null;
 
   return (
@@ -175,13 +183,13 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           <h1>{meta.title}</h1>
           <p className="r-sub">{meta.subtitle}</p>
           <div className="report-byline">
-            <div><div className="bk">Published</div><div className="bv">{meta.publishedLabel}</div></div>
+            <div><div className="bk">Published</div><div className="bv">{meta.published_label}</div></div>
             <div><div className="bk">Domain</div><div className="bv">{meta.domain}</div></div>
-            <div><div className="bk">Reading time</div><div className="bv">{meta.readingTime}</div></div>
+            <div><div className="bk">Reading time</div><div className="bv">{meta.reading_time}</div></div>
             <div><div className="bk">Author</div><div className="bv">Techadyant Labs · Research</div></div>
           </div>
           </div>
-          <div className="rhg-cover"><ReportCover report={meta} /></div>
+          <div className="rhg-cover"><ReportCover report={meta as any} /></div>
           </div>
         </div>
       </header>
@@ -190,16 +198,16 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
         <ReportCommerceProvider
           slug={meta.slug}
           access={meta.access}
-          priceLabel={formatPrice(meta)}
+          priceLabel={formatPrice(meta as any)}
           title={meta.title}
         >
           <section className="wrap-narrow" style={{ paddingTop: 40, paddingBottom: 8 }}>
             <ReportAccess
-              pages={meta.pages}
-              readingTime={meta.readingTime}
-              previewObject={meta.previewObject}
-              previewPages={meta.previewPages}
-              deckLabel={meta.hasDeck ? 'Download the investor deck (PPTX)' : undefined}
+              pages={meta.pages ?? undefined}
+              readingTime={meta.reading_time}
+              previewObject={meta.preview_object}
+              previewPages={meta.preview_pages ?? undefined}
+              deckLabel={meta.has_deck ? 'Download the investor deck (PPTX)' : undefined}
             />
           </section>
 
@@ -246,7 +254,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
         <section className="wrap-narrow report-sources" style={{ paddingBottom: 24 }}>
           <h2 style={{ fontSize: 18, marginBottom: 10 }}>Primary sources</h2>
           <ul style={{ display: 'flex', flexWrap: 'wrap', gap: 8, paddingLeft: 18 }}>
-            {meta.sources.map((src, idx) => (
+            {meta.sources.map((src: string, idx: number) => (
               <li key={idx}>
                 <a href={src} target="_blank" rel="noreferrer" style={{ color: 'var(--link, #6cb0ff)' }}>{src}</a>
               </li>
@@ -259,7 +267,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
         <div className="report-faq" aria-labelledby="faq-h">
           <h2 id="faq-h">Frequently asked questions</h2>
           <dl className="faq-list">
-            {meta.faq.map((f, i) => (
+            {meta.faq.map((f: { q: string; a: string }, i: number) => (
               <div className="faq-item" key={i}>
                 <dt>{f.q}</dt>
                 <dd>{f.a}</dd>

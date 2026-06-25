@@ -1,9 +1,15 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { signals, getSignal } from '../data';
+import { signals as staticSignals, getSignal as staticGetSignal } from '../data';
+import { getSignals, getSignalBySlug } from '../../lib/cms';
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  let signals: any[] = staticSignals;
+  try {
+    const cms = await getSignals(); if (cms.length) signals = cms as any[];
+    if (cms.length) signals = cms;
+  } catch {}
   return signals.map((s) => ({ slug: s.slug }));
 }
 
@@ -11,14 +17,14 @@ export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
   const { slug } = await params;
-  const s = getSignal(slug);
+  const s: any = await getSignalBySlug(slug) || staticGetSignal(slug);
   if (!s) return {};
   return { title: s.title, description: s.excerpt };
 }
 
 export default async function SignalPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const s = getSignal(slug);
+  const s: any = await getSignalBySlug(slug) || staticGetSignal(slug);
   if (!s) notFound();
 
   const signalJsonLd = s.status === 'live'
@@ -85,7 +91,7 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
           <div className="exec-summary">
             <div className="es-label">Signal in brief</div>
             <ul>
-              {s.takeaways.map((t, i) => <li key={i}>{t}</li>)}
+              {s.takeaways.map((t: string, i: number) => <li key={i}>{t}</li>)}
             </ul>
           </div>
         )}
@@ -105,7 +111,7 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
               <>
                 <div style={{ textTransform: 'uppercase', letterSpacing: '.12em', fontSize: 11, color: 'var(--accent, #C9A84C)', marginBottom: 8 }}>Key claims</div>
                 <ul style={{ margin: 0, paddingLeft: 18 }}>
-                  {s.takeaways.map((t, i) => <li key={i} style={{ marginBottom: 6 }}>{t}</li>)}
+                  {s.takeaways.map((t: string, i: number) => <li key={i} style={{ marginBottom: 6 }}>{t}</li>)}
                 </ul>
               </>
             ) : null}
@@ -113,7 +119,7 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
               <>
                 <div style={{ textTransform: 'uppercase', letterSpacing: '.12em', fontSize: 11, color: 'var(--accent, #C9A84C)', marginTop: 12, marginBottom: 8 }}>Primary sources</div>
                 <ul style={{ margin: 0, paddingLeft: 18 }}>
-                  {s.sources.map((src, i) => <li key={i} style={{ marginBottom: 6 }}><a href={src} target="_blank" rel="noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>{src}</a></li>)}
+                  {s.sources.map((src: string, i: number) => <li key={i} style={{ marginBottom: 6 }}><a href={src} target="_blank" rel="noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>{src}</a></li>)}
                 </ul>
               </>
             ) : null}
@@ -122,10 +128,10 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
 
         <div className="report-body" style={{ padding: 0 }}>
           {s.body ? (
-            s.body.map((blk, i) => {
+            s.body.map((blk: { type: string; text?: string; items?: string[] }, i: number) => {
               if (blk.type === 'h') return <h3 key={i} className="serif">{blk.text}</h3>;
               if (blk.type === 'list')
-                return <ul key={i}>{blk.items?.map((it, j) => <li key={j}>{it}</li>)}</ul>;
+                return <ul key={i}>{blk.items?.map((it: string, j: number) => <li key={j}>{it}</li>)}</ul>;
               return <p key={i}>{blk.text}</p>;
             })
           ) : (

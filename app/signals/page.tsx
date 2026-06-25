@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { signals } from './data';
+import { signals as staticSignals } from './data';
+import { getSignals } from '../lib/cms';
 
 export const metadata: Metadata = {
   title: 'Signals',
@@ -8,7 +9,12 @@ export const metadata: Metadata = {
     'Concise strategic intelligence dispatches on India’s industrial systems — observations and analytical notes, not opinion or news aggregation.',
 };
 
-export default function SignalsIndex() {
+export default async function SignalsIndex() {
+  let signals: any[] = staticSignals;
+  try {
+    const cms = await getSignals(); if (cms.length) signals = cms as any[];
+    if (cms.length) signals = cms;
+  } catch {}
   return (
     <>
       <header className="ed-page-head">
