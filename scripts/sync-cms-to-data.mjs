@@ -140,10 +140,78 @@ async function syncSignals() {
   return { path: path.join(ROOT, 'app/signals/data.ts'), content: header + body };
 }
 
+function mapCmsBriefingToMeta(b) {
+  const seo = b.seo || {};
+  return {
+    date: b.published || '',
+    slug: b.slug,
+    status: b.status === 'published' ? 'live' : 'forthcoming',
+    title: b.title,
+    tag: seo.tag || 'Strategic note',
+    read: seo.read || '',
+    blurb: b.summary || '',
+    takeaways: Array.isArray(seo.takeaways) ? [...seo.takeaways] : undefined,
+    body: Array.isArray(seo.body) ? [...seo.body] : undefined
+  };
+}
+
+async function syncBriefings() {
+  const { data, error } = await db.from('cms_briefings').select('*').order('created_at', { ascending: false });
+  if (error) { console.error('CMS briefings fetch failed:', error.message); return null; }
+  const rows = (data || []);
+  const mapped = rows.map(mapCmsBriefingToMeta);
+  const header = `export interface BriefingBody {\n  type: 'p' | 'h' | 'list';\n  text?: string;\n  items?: string[];\n}\n\n` +
+    `export interface BriefingMeta {\n  slug: string;\n  date: string;\n  title: string;\n  tag: string;\n` +
+    `  read: string;\n  blurb: string;\n  status: 'live' | 'forthcoming';\n` +
+    `  takeaways?: string[];\n  body?: BriefingBody[];\n}\n\n`;
+  const body = `export const briefings: BriefingMeta[] = ${tsValue(mapped)};\n\n` +
+    `export const getBriefing = (slug: string) => briefings.find((b) => b.slug === slug);\n`;
+  return { path: path.join(ROOT, 'app/briefings/data.ts'), content: header + body };
+}
+
+function mapCmsNewsletterToMeta(n) {
+  const seo = n.seo || {};
+  const PDF_BASE = 'https://lkqojucjkpxhcngtstfy.supabase.co/storage/v1/object/public/reports-free/';
+  return {
+    slug: n.slug,
+    no: seo.no || '',
+    month: seo.month || '',
+    date: n.date || '',
+    published: seo.published || '',
+    title: n.title,
+    standfirst: n.description || '',
+    readingTime: seo.readingTime || '',
+    card: seo.card || '',
+    cover: seo.cover || '',
+    ogImage: seo.ogImage || '',
+    pdf: seo.pdf || (PDF_BASE + encodeURIComponent(n.slug + '.pdf')),
+    pdfReady: !!seo.pdfReady,
+    status: seo.status || 'live'
+  };
+}
+
+async function syncNewsletters() {
+  const { data, error } = await db.from('cms_newsletters').select('*').order('created_at', { ascending: false });
+  if (error) { console.error('CMS newsletters fetch failed:', error.message); return null; }
+  const rows = (data || []);
+  const mapped = rows.map(mapCmsNewsletterToMeta);
+  const header = `export interface IssueMeta {\n  slug: string;\n  no: string;\n  month: string;\n  date: string;\n` +
+    `  published: string;\n  title: string;\n  standfirst: string;\n  readingTime: string;\n` +
+    `  card: string;\n  cover: string;\n  ogImage: string;\n  pdf: string;\n  pdfReady: boolean;\n  status: 'live' | 'forthcoming';\n}\n\n`;
+  const body = `export const issues: IssueMeta[] = ${tsValue(mapped)};\n\n` +
+    `export const getIssue = (slug: string) => issues.find((i) => i.slug === slug);\n`;
+  return { path: path.join(ROOT, 'app/newsletter/data.ts'), content: header + body };
+}
+
 async function main() {
   console.log('Syncing CMS -> static data.ts files…');
-  const [reports, signals] = await Promise.all([syncReports(), syncSignals()]);
-  for (const f of [reports, signals].filter(Boolean)) {
+  const [reports, signals, briefings, newsletters] = await Promise.all([
+    syncReports(),
+    syncSignals(),
+    syncBriefings(),
+    syncNewsletters()
+  ]);
+  for (const f of [reports, signals, briefings, newsletters].filter(Boolean)) {
     fs.writeFileSync(f.path, f.content, 'utf8');
     console.log(`  wrote ${f.path}`);
   }

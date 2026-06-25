@@ -49,11 +49,11 @@ async function main() {
   const reportsPath = path.join(ROOT, 'app/reports/data.ts');
   const reportsSrc = fs.readFileSync(reportsPath, 'utf8');
 
-  // Extract the baseReports array using a simple regex
+  // Extract the reports array using a simple regex
   // We eval the module to get the actual array — safe for this controlled file
-  const m = reportsSrc.match(/const baseReports: ReportMeta\[\] = (\[[\s\S]*?\]);/);
+  const m = reportsSrc.match(/export const reports: ReportMeta\[\] = (\[[\s\S]*?\]);/);
   if (!m) {
-    console.error('Could not find baseReports array in app/reports/data.ts');
+    console.error('Could not find reports array in app/reports/data.ts');
     process.exit(1);
   }
 
@@ -108,33 +108,113 @@ async function main() {
 
   // Load signals data.ts
   const signalsPath = path.join(ROOT, 'app/signals/data.ts');
-  const signalsSrc = fs.readFileSync(signalsPath, 'utf8');
-  const sigMatch = signalsSrc.match(/export const signals: SignalMeta\[\] = (\[[\s\S]*?\]);/);
-  if (sigMatch) {
-    const sigFn = new Function('return ' + sigMatch[1] + ';');
-    const signals = sigFn();
-    const cmsSignals = signals.map((s) => ({
-      slug: s.slug,
-      no: s.no || '',
-      title: s.title,
-      domain: s.domain || '',
-      date: s.date || '',
-      date_label: s.dateLabel || '',
-      status: s.status || 'live',
-      excerpt: s.excerpt || '',
-      reading_time: s.readingTime || '',
-      body: s.body || [],
-      takeaways: s.takeaways || [],
-      sources: s.sources || [],
-      accent: '#F5B544',
-      category: '',
-      priority: 'medium',
-      seo: {},
-    }));
-    await upsert('cms_signals', cmsSignals);
-  } else {
-    console.warn('Could not find signals array in app/signals/data.ts');
+  if (fs.existsSync(signalsPath)) {
+    const signalsSrc = fs.readFileSync(signalsPath, 'utf8');
+    const sigMatch = signalsSrc.match(/export const signals: SignalMeta\[\] = (\[[\s\S]*?\]);/);
+    if (sigMatch) {
+      const sigFn = new Function('return ' + sigMatch[1] + ';');
+      const signals = sigFn();
+      const cmsSignals = signals.map((s) => ({
+        slug: s.slug,
+        no: s.no || '',
+        title: s.title,
+        domain: s.domain || '',
+        date: s.date || '',
+        date_label: s.dateLabel || '',
+        status: s.status || 'live',
+        excerpt: s.excerpt || '',
+        reading_time: s.readingTime || '',
+        body: s.body || [],
+        takeaways: s.takeaways || [],
+        sources: s.sources || [],
+        accent: '#F5B544',
+        category: '',
+        priority: 'medium',
+        seo: {},
+      }));
+      await upsert('cms_signals', cmsSignals);
+    } else {
+      console.warn('Could not find signals array in app/signals/data.ts');
+    }
   }
+
+  // Load briefings data.ts
+  const briefingsPath = path.join(ROOT, 'app/briefings/data.ts');
+  if (fs.existsSync(briefingsPath)) {
+    const briefingsSrc = fs.readFileSync(briefingsPath, 'utf8');
+    const briefMatch = briefingsSrc.match(/export const briefings: BriefingMeta\[\] = (\[[\s\S]*?\]);/);
+    if (briefMatch) {
+      const briefFn = new Function('return ' + briefMatch[1] + ';');
+      const briefings = briefFn();
+      const cmsBriefings = briefings.map((b) => ({
+        slug: b.slug,
+        title: b.title,
+        summary: b.blurb || '',
+        published: b.date || '',
+        status: b.status === 'live' ? 'published' : 'forthcoming',
+        accent: b.accent || '#818CF8',
+        seo: {
+          tag: b.tag || 'Strategic note',
+          read: b.read || '',
+          takeaways: b.takeaways || [],
+          body: b.body || []
+        }
+      }));
+      await upsert('cms_briefings', cmsBriefings);
+    } else {
+      console.warn('Could not find briefings array in app/briefings/data.ts');
+    }
+  }
+
+  // Load newsletter data.ts
+  const newsletterPath = path.join(ROOT, 'app/newsletter/data.ts');
+  if (fs.existsSync(newsletterPath)) {
+    const newsletterSrc = fs.readFileSync(newsletterPath, 'utf8');
+    const nlMatch = newsletterSrc.match(/export const issues: IssueMeta\[\] = (\[[\s\S]*?\]);/);
+    if (nlMatch) {
+      const nlFn = new Function('const PDF_BASE = "https://lkqojucjkpxhcngtstfy.supabase.co/storage/v1/object/public/reports-free/"; return ' + nlMatch[1] + ';');
+      const issues = nlFn();
+      const cmsNewsletters = issues.map((i) => ({
+        slug: i.slug,
+        title: i.title,
+        date: i.date || '',
+        description: i.standfirst || '',
+        accent: i.accent || '#F5B544',
+        seo: {
+          no: i.no || '',
+          month: i.month || '',
+          published: i.published || '',
+          readingTime: i.readingTime || '',
+          card: i.card || '',
+          cover: i.cover || '',
+          ogImage: i.ogImage || '',
+          pdf: i.pdf || '',
+          pdfReady: !!i.pdfReady,
+          status: i.status || 'live'
+        }
+      }));
+      await upsert('cms_newsletters', cmsNewsletters);
+    } else {
+      console.warn('Could not find issues array in app/newsletter/data.ts');
+    }
+  }
+
+  // Seed default pages
+  const cmsPages = [
+    {
+      slug: 'about',
+      title: 'About Techadyant Labs',
+      content: '# About Techadyant Labs\n\nTechadyant Labs studies India’s industrial transformation, infrastructure systems, and emerging strategic technologies.',
+      seo: { description: 'About Techadyant Labs independent strategic intelligence platform.' }
+    },
+    {
+      slug: 'services',
+      title: 'Our Services',
+      content: '# Our Services\n\nWe provide independent research, custom briefings, and strategic advisory services.',
+      seo: { description: 'Services provided by Techadyant Labs.' }
+    }
+  ];
+  await upsert('cms_pages', cmsPages);
 
   console.log('Migration complete.');
 }
