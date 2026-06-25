@@ -90,23 +90,52 @@ async function accessEmailFromJwt(request, env) {
       const m = (request.headers.get('Cookie') || '').match(/CF_Authorization=([^;]+)/);
       if (m) token = m[1];
     }
-    if (!token) return null;
+    if (!token) return { error: 'No Cf-Access-Jwt-Assertion header and no CF_Authorization cookie found' };
     const [h, p, s] = token.split('.');
-    if (!h || !p || !s) return null;
-    const header = JSON.parse(b64urlDecode(h));
-    const payload = JSON.parse(b64urlDecode(p));
-    if (payload.exp && Math.floor(Date.now() / 1000) > payload.exp) return null;
-    const certs = await fetch(`https://${team}/cdn-cgi/access/certs`).then((r) => r.json());
+    if (!h || !p || !s) return { error: 'JWT token has invalid format (does not contain 3 parts)' };
+    let header, payload;
+    try {
+      header = JSON.parse(b64urlDecode(h));
+      payload = JSON.parse(b64urlDecode(p));
+    } catch (e) {
+      return { error: `Failed to decode JWT header/payload: ${e.message}` };
+    }
+    if (payload.exp && Math.floor(Date.now() / 1000) > payload.exp) {
+      return { error: `JWT has expired (exp: ${payload.exp}, current: ${Math.floor(Date.now() / 1000)})` };
+    }
+    let certs;
+    try {
+      const certsRes = await fetch(`https://${team}/cdn-cgi/access/certs`);
+      if (!certsRes.ok) {
+        return { error: `Failed to fetch certs from https://${team}/cdn-cgi/access/certs: HTTP ${certsRes.status}` };
+      }
+      certs = await certsRes.json();
+    } catch (e) {
+      return { error: `Failed to fetch certs from https://${team}/cdn-cgi/access/certs: ${e.message}` };
+    }
     const jwk = (certs.keys || []).find((k) => k.kid === header.kid);
-    if (!jwk) return null;
-    const key = await crypto.subtle.importKey('jwk',
-      { kty: jwk.kty, n: jwk.n, e: jwk.e, alg: 'RS256', ext: true },
-      { name: 'RSASSA-PKCS1-v1_5', hash: 'SHA-256' }, false, ['verify']);
-    const ok = await crypto.subtle.verify('RSASSA-PKCS1-v1_5', key,
-      b64urlBytes(s), new TextEncoder().encode(`${h}.${p}`));
-    if (!ok) return null;
+    if (!jwk) return { error: `No JWK key found for kid: ${header.kid}` };
+    let key;
+    try {
+      key = await crypto.subtle.importKey('jwk',
+        { kty: jwk.kty, n: jwk.n, e: jwk.e, alg: 'RS256', ext: true },
+        { name: 'RSASSA-PKCS1-v1_5', hash: 'SHA-256' }, false, ['verify']);
+    } catch (e) {
+      return { error: `Failed to import JWK key: ${e.message}` };
+    }
+    let ok;
+    try {
+      ok = await crypto.subtle.verify('RSASSA-PKCS1-v1_5', key,
+        b64urlBytes(s), new TextEncoder().encode(`${h}.${p}`));
+    } catch (e) {
+      return { error: `Signature verification error: ${e.message}` };
+    }
+    if (!ok) return { error: 'Signature verification failed' };
+    if (!payload.email) return { error: 'JWT payload has no email field' };
     return (payload.email || '').toLowerCase();
-  } catch (_e) { return null; }
+  } catch (e) {
+    return { error: `Unexpected error in accessEmailFromJwt: ${e.message || String(e)}` };
+  }
 }
 
 export async function onRequest(context) {
@@ -117,9 +146,27 @@ export async function onRequest(context) {
   // Identity: prefer the convenience header; otherwise verify the Access session
   // JWT (CF_Authorization cookie) — works even where the header isn't injected.
   let who = (request.headers.get('Cf-Access-Authenticated-User-Email') || '').toLowerCase();
-  if (!who) who = (await accessEmailFromJwt(request, env)) || '';
+  let jwtError = null;
+  if (!who) {
+    const res = await accessEmailFromJwt(request, env);
+    if (res && typeof res === 'object' && 'error' in res) {
+      jwtError = res.error;
+    } else {
+      who = res || '';
+    }
+  }
   if (!devBypass) {
-    if (!who) return json(403, { error: 'no Access identity — log in via Cloudflare Access at /admin first (no header and no valid CF_Authorization cookie present)' });
+    if (!who) {
+      const cookieHeader = request.headers.get('Cookie') || '';
+      const jwtHeader = request.headers.get('Cf-Access-Jwt-Assertion');
+      return json(403, {
+        error: 'no Access identity — log in via Cloudflare Access at /admin first (no header and no valid CF_Authorization cookie present)',
+        details: jwtError || 'No Cf-Access-Jwt-Assertion header and no CF_Authorization cookie present',
+        hasJwtHeader: !!jwtHeader,
+        hasCookie: cookieHeader.includes('CF_Authorization='),
+        cookieNames: cookieHeader.split(';').map(c => c.split('=')[0].trim())
+      });
+    }
     if (!allow.includes(who)) return json(403, { error: 'email not in ADMIN_EMAIL allow-list', got: who, expected: allow });
   }
 
