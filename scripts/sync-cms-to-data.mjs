@@ -108,8 +108,7 @@ async function syncReports() {
   if (error) { console.error('CMS reports fetch failed:', error.message); return []; }
   const rows = (data || []);
   const mapped = rows.map(mapCmsReportToMeta);
-  const header = `import type { ReportMeta } from './report-meta.json';\n\n` +
-    `export type AccessTier = 'free' | 'paid';\n\n` +
+  const header = `export type AccessTier = 'free' | 'paid';\n\n` +
     `export interface ReportMeta {\n` +
     `  slug: string;\n  title: string;\n  subtitle: string;\n  domain: string;\n  edition: string;\n` +
     `  published: string;\n  publishedLabel: string;\n  readingTime: string;\n  status: 'published' | 'forthcoming';\n` +

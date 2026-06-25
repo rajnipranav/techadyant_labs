@@ -1,5 +1,3 @@
-import type { ReportMeta } from './report-meta.json';
-
 export type AccessTier = 'free' | 'paid';
 
 export interface ReportMeta {
