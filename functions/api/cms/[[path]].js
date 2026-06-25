@@ -14,7 +14,7 @@ function json(status, body) {
 
 async function accessEmailFromJwt(request, env) {
   try {
-    const team = (env && env.CF_ACCESS_TEAM_DOMAIN) || 'lingering-union-aa4c.cloudflareaccess.com';
+    const team = (env && env.CF_ACCESS_TEAM_DOMAIN) || 'lining-union-aa4c.cloudflareaccess.com';
     let token = request.headers.get('Cf-Access-Jwt-Assertion');
     if (!token) {
       const m = (request.headers.get('Cookie') || '').match(/CF_Authorization=([^;]+)/);
@@ -39,17 +39,7 @@ async function accessEmailFromJwt(request, env) {
   } catch (_e) { return null; }
 }
 
-function b64urlDecode(s) {
-  s = s.replace(/-/g, '+').replace(/_/g, '/');
-  while (s.length % 4) s += '=';
-  return atob(s);
-}
-function b64urlBytes(s) {
-  const bin = b64urlDecode(s);
-  const out = new Uint8Array(bin.length);
-  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
-  return out;
-}
+
 
 const CMS_TABLES = ['cms_reports', 'cms_signals', 'cms_briefings', 'cms_newsletters', 'cms_pages'];
 
@@ -65,7 +55,7 @@ export async function onRequest(context) {
   if (!who) who = (await accessEmailFromJwt(request, env)) || '';
   if (!devBypass) {
     if (!who) return json(403, { error: 'no Access identity' });
-    if (!allow.length === 0 || !allow.includes(who)) return json(403, { error: 'email not in ADMIN_EMAIL allow-list', got: who, expected: allow });
+    if (allow.length === 0 || !allow.includes(who)) return json(403, { error: 'email not in ADMIN_EMAIL allow-list', got: who, expected: allow });
   }
 
   const route = '/' + (context.params.path || []).join('/');
@@ -92,7 +82,7 @@ export async function onRequest(context) {
         const order = q.get('order') || 'created_at.desc';
         const limit = q.get('limit') || '100';
         const offset = q.get('offset') || '0';
-        const r = await fetch(`${S}/rest/v1/${table}?select=${select}&order=${order}&limit=${limit}.eq.${offset}`, {
+        const r = await fetch(`${S}/rest/v1/${table}?select=${select}&order=${order}&limit=${limit}&offset=${offset}`, {
           headers: { apikey: SK, Authorization: `Bearer ${SK}` },
         });
         return json(r.ok ? 200 : 502, await r.json());

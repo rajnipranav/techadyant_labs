@@ -84,7 +84,7 @@ function b64urlBytes(s) {
 // CF_Authorization cookie) against the team JWKS, return the email claim.
 async function accessEmailFromJwt(request, env) {
   try {
-    const team = env.CF_ACCESS_TEAM_DOMAIN || 'lingering-union-aa4c.cloudflareaccess.com';
+    const team = env.CF_ACCESS_TEAM_DOMAIN || 'lining-union-aa4c.cloudflareaccess.com';
     let token = request.headers.get('Cf-Access-Jwt-Assertion');
     if (!token) {
       const m = (request.headers.get('Cookie') || '').match(/CF_Authorization=([^;]+)/);
