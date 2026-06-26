@@ -29,7 +29,7 @@ export interface ReportMeta {
 
 export const syncedAt = new Date().toISOString();
 
-export const reports: ReportMeta[] = [{
+const baseReports: ReportMeta[] = [{
   slug: 'india-fab-ecosystem',
   title: 'Who Really Benefits from India’s Fab Ecosystem?',
   subtitle: 'The Hidden Industrial Transformation Behind India’s Semiconductor Mission',
@@ -567,7 +567,7 @@ export const reports: ReportMeta[] = [{
   status: 'forthcoming',
   summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
   accent: '#6366F1',
-  access: 'free',
+  access: 'paid',
   price: 4900,
   currency: 'INR',
   hasPdf: false,
@@ -667,7 +667,7 @@ export const reports: ReportMeta[] = [{
   status: 'forthcoming',
   summary: 'A 300 mm fab consumes ~4 million litres of ultrapure water per day; an Indian advanced-packaging facility would add more. This report audits the water position of each Indian semiconductor cluster against CGWB block-level extraction data, and names the regulatory reforms that would close the supply gap.',
   accent: '#F5B544',
-  access: 'free',
+  access: 'paid',
   price: 4900,
   currency: 'INR',
   hasPdf: false,
@@ -742,7 +742,7 @@ export const reports: ReportMeta[] = [{
   status: 'forthcoming',
   summary: 'The arithmetic of Q-Day — the moment large-scale quantum computers break classical public-key cryptography — is no longer purely theoretical. This report maps India’s position: the NIST PQC standards, the CERT-In and MeitY migration posture, the BFSI exposure, and the corridor-level industrial implications.',
   accent: '#38e1c4',
-  access: 'free',
+  access: 'paid',
   price: 4900,
   currency: 'INR',
   hasPdf: false,
@@ -757,9 +757,25 @@ export const reports: ReportMeta[] = [{
   dateModified: '2027-01-16'
 }];
 
+// Display order: published reports newest-first (by publish date),
+// then forthcoming reports soonest-first. All consumers (the reports
+// index, home, theme hubs, sitemap) read this sorted array.
+const statusRank = (s: ReportMeta['status']) => (s === 'published' ? 0 : 1);
+export const reports: ReportMeta[] = [...baseReports].sort((a, b) => {
+  const sr = statusRank(a.status) - statusRank(b.status);
+  if (sr !== 0) return sr;
+  if (a.status === 'published') {
+    // newest published first
+    return a.published < b.published ? 1 : a.published > b.published ? -1 : 0;
+  }
+  // forthcoming: nearest upcoming first
+  return a.published < b.published ? -1 : a.published > b.published ? 1 : 0;
+});
+
 export function formatPrice(r: ReportMeta): string {
-  if (!r.price) return r.access === 'free' ? 'Free' : '';
-  return `₹${(r.price / 100).toLocaleString('en-IN')}`;
+  if (r.access === 'free') return 'Free';
+  if (!r.price) return '';
+  return `₹${r.price.toLocaleString('en-IN')}`;
 }
 
 export function getReport(slug: string): ReportMeta | undefined {
