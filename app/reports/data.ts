@@ -29,7 +29,7 @@ export interface ReportMeta {
 
 export const syncedAt = new Date().toISOString();
 
-const baseReports: ReportMeta[] = [{
+export const reports: ReportMeta[] = [{
   slug: 'india-fab-ecosystem',
   title: 'Who Really Benefits from India’s Fab Ecosystem?',
   subtitle: 'The Hidden Industrial Transformation Behind India’s Semiconductor Mission',
@@ -346,6 +346,46 @@ const baseReports: ReportMeta[] = [{
   sources: ['https://www.meity.gov.in/content/semiconductor', 'https://www.indiaincorner.com/ism/', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567'],
   dateModified: '2026-06-15'
 }, {
+  slug: 'india-drone-sensors-payloads-imaging-market',
+  title: 'India Drone Sensors, Payloads & Imaging Systems Market',
+  subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-06-16',
+  publishedLabel: 'June 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'A drone is only as capable as what it can sense, and India imports most of that capability. The market for drone sensors, payloads and imaging systems is valued at roughly US$190–210 million in 2026 and modelled to reach US$1.1–1.5 billion by 2035 at a 22–26% CAGR — but 70–80% of high-grade sensor demand is met by imports: LiDAR is about 85% imported, thermal about 80%, and inertial measurement units about 70%, sourced mainly from China, Taiwan and the United States. This report sizes the market segment by segment (sensor type, end-use sector, UAV class, component tier and region), maps the import-dependence and localisation roadmap, profiles the competitive landscape — ideaForge, Eon Space Labs, Garuda Aerospace, BEL and the international suppliers — and runs a ten-year forecast across three scenarios. It tracks the structural shifts now reshaping value capture: the move from discrete sensors to integrated, pre-calibrated payloads, the rise of Drone-as-a-Service and data monetisation over hardware, and indigenous breakthroughs such as Eon Space Labs’ germanium-free thermal imaging that cuts system cost 60–70%. Thirteen chapters, 50 figures, 137 tables, and a full segmentation and forecast model.',
+  accent: '#2BC5B4',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 143,
+  cover: '/covers/india-drone-sensors-payloads-imaging-market.jpg',
+  previewObject: 'reports-free/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
+  previewPages: 6,
+  keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
+  faq: [{
+  a: 'About US$190–210 million in 2026, modelled to reach US$1.1–1.5 billion by 2035 — a 22–26% CAGR. LiDAR is the fastest-growing category at over 35% CAGR, driven by infrastructure inspection, mining volumetrics and corridor mapping.',
+  q: 'How big is India’s drone sensors and payloads market?'
+}, {
+  a: 'Heavily. Roughly 70–80% of high-grade drone-sensor demand is imported — about 85% of LiDAR, 80% of thermal cores and 70% of inertial measurement units — sourced mainly from China, Taiwan and the United States. The localisation gap, not the platform, is where the strategic exposure sits.',
+  q: 'How dependent is India on imported drone sensors?'
+}, {
+  a: 'It is an indigenous thermal-imaging approach pioneered by Eon Space Labs that avoids germanium optics, whose 2024 supply crisis brought seven-month lead times and ten-fold cost spikes. The germanium-free architecture lowers system cost by 60–70% and reaches roughly 80% local manufacturing, proving import dependence can be engineered around rather than simply replicated.',
+  q: 'What is germanium-free thermal imaging and why does it matter?'
+}, {
+  a: 'Drone-as-a-Service. Value is shifting from selling hardware to monetising the data the sensors capture, with DaaS margins of 50–65% against hardware margins of 25–35%. Buyers increasingly want actionable intelligence — orthomosaics, point clouds, NDVI layers — not raw sensors.',
+  q: 'Which business model is winning in India’s drone-sensing market?'
+}, {
+  a: 'ideaForge leads on certification and integrated payload ecosystems; Eon Space Labs holds proprietary germanium-free thermal with about 80% localisation; Garuda Aerospace runs the largest agricultural DaaS fleet; and BEL brings defence-PSU radar capability. International suppliers still hold the high-spec LiDAR and thermal cores.',
+  q: 'Who are the leading players in India’s drone sensor and payload market?'
+}],
+  sources: [],
+  dateModified: '2026-06-16'
+}, {
   slug: 'the-end-of-the-application-era',
   title: 'Who Captures Computing When the Application Disappears?',
   subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
@@ -382,46 +422,6 @@ const baseReports: ReportMeta[] = [{
 }, {
   a: 'India is AIMS-dependent but sovereignty-strong: its public digital infrastructure (Aadhaar, UPI, MOSIP) and expanding sovereign compute give it a credible, time-limited advantage. The leapfrog runs through agent-aware design of that public infrastructure and through the identity and consent layer — not through trying to out-build hyperscalers on raw compute.',
   q: 'Where can India capture value in the post-application era?'
-}],
-  sources: [],
-  dateModified: '2026-06-16'
-}, {
-  slug: 'india-drone-sensors-payloads-imaging-market',
-  title: 'India Drone Sensors, Payloads & Imaging Systems Market',
-  subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Opportunity · Edition 1 · v1.0',
-  published: '2026-06-16',
-  publishedLabel: 'June 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'A drone is only as capable as what it can sense, and India imports most of that capability. The market for drone sensors, payloads and imaging systems is valued at roughly US$190–210 million in 2026 and modelled to reach US$1.1–1.5 billion by 2035 at a 22–26% CAGR — but 70–80% of high-grade sensor demand is met by imports: LiDAR is about 85% imported, thermal about 80%, and inertial measurement units about 70%, sourced mainly from China, Taiwan and the United States. This report sizes the market segment by segment (sensor type, end-use sector, UAV class, component tier and region), maps the import-dependence and localisation roadmap, profiles the competitive landscape — ideaForge, Eon Space Labs, Garuda Aerospace, BEL and the international suppliers — and runs a ten-year forecast across three scenarios. It tracks the structural shifts now reshaping value capture: the move from discrete sensors to integrated, pre-calibrated payloads, the rise of Drone-as-a-Service and data monetisation over hardware, and indigenous breakthroughs such as Eon Space Labs’ germanium-free thermal imaging that cuts system cost 60–70%. Thirteen chapters, 50 figures, 137 tables, and a full segmentation and forecast model.',
-  accent: '#2BC5B4',
-  access: 'paid',
-  price: 6999,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 143,
-  cover: '/covers/india-drone-sensors-payloads-imaging-market.jpg',
-  previewObject: 'reports-free/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
-  previewPages: 6,
-  keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
-  faq: [{
-  a: 'About US$190–210 million in 2026, modelled to reach US$1.1–1.5 billion by 2035 — a 22–26% CAGR. LiDAR is the fastest-growing category at over 35% CAGR, driven by infrastructure inspection, mining volumetrics and corridor mapping.',
-  q: 'How big is India’s drone sensors and payloads market?'
-}, {
-  a: 'Heavily. Roughly 70–80% of high-grade drone-sensor demand is imported — about 85% of LiDAR, 80% of thermal cores and 70% of inertial measurement units — sourced mainly from China, Taiwan and the United States. The localisation gap, not the platform, is where the strategic exposure sits.',
-  q: 'How dependent is India on imported drone sensors?'
-}, {
-  a: 'It is an indigenous thermal-imaging approach pioneered by Eon Space Labs that avoids germanium optics, whose 2024 supply crisis brought seven-month lead times and ten-fold cost spikes. The germanium-free architecture lowers system cost by 60–70% and reaches roughly 80% local manufacturing, proving import dependence can be engineered around rather than simply replicated.',
-  q: 'What is germanium-free thermal imaging and why does it matter?'
-}, {
-  a: 'Drone-as-a-Service. Value is shifting from selling hardware to monetising the data the sensors capture, with DaaS margins of 50–65% against hardware margins of 25–35%. Buyers increasingly want actionable intelligence — orthomosaics, point clouds, NDVI layers — not raw sensors.',
-  q: 'Which business model is winning in India’s drone-sensing market?'
-}, {
-  a: 'ideaForge leads on certification and integrated payload ecosystems; Eon Space Labs holds proprietary germanium-free thermal with about 80% localisation; Garuda Aerospace runs the largest agricultural DaaS fleet; and BEL brings defence-PSU radar capability. International suppliers still hold the high-spec LiDAR and thermal cores.',
-  q: 'Who are the leading players in India’s drone sensor and payload market?'
 }],
   sources: [],
   dateModified: '2026-06-16'
@@ -531,18 +531,18 @@ const baseReports: ReportMeta[] = [{
   sources: [],
   dateModified: '2026-07-10'
 }, {
-  slug: 'india-edge-ai-economy',
-  title: 'India’s Edge AI Economy',
-  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
-  domain: 'Edge AI & Semiconductors',
-  edition: 'Edge AI Series · I · forthcoming',
+  slug: 'india-ai-power-infrastructure-gap',
+  title: 'India’s AI Power Infrastructure Gap',
+  subtitle: 'Why DC build-out is constrained by transmission, not generation',
+  domain: 'AI Infrastructure',
+  edition: 'forthcoming',
   published: '2026-08-15',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h read',
   status: 'forthcoming',
-  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
-  accent: '#38e1c4',
-  access: 'paid',
+  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
+  accent: '#6366F1',
+  access: 'free',
   price: 4900,
   currency: 'INR',
   hasPdf: false,
@@ -556,17 +556,17 @@ const baseReports: ReportMeta[] = [{
   sources: [],
   dateModified: '2026-08-15'
 }, {
-  slug: 'india-ai-power-infrastructure-gap',
-  title: 'India’s AI Power Infrastructure Gap',
-  subtitle: 'Why DC build-out is constrained by transmission, not generation',
-  domain: 'AI Infrastructure',
-  edition: 'forthcoming',
+  slug: 'india-edge-ai-economy',
+  title: 'India’s Edge AI Economy',
+  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
+  domain: 'Edge AI & Semiconductors',
+  edition: 'Edge AI Series · I · forthcoming',
   published: '2026-08-15',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h read',
   status: 'forthcoming',
-  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
-  accent: '#6366F1',
+  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
+  accent: '#38e1c4',
   access: 'paid',
   price: 4900,
   currency: 'INR',
@@ -667,7 +667,7 @@ const baseReports: ReportMeta[] = [{
   status: 'forthcoming',
   summary: 'A 300 mm fab consumes ~4 million litres of ultrapure water per day; an Indian advanced-packaging facility would add more. This report audits the water position of each Indian semiconductor cluster against CGWB block-level extraction data, and names the regulatory reforms that would close the supply gap.',
   accent: '#F5B544',
-  access: 'paid',
+  access: 'free',
   price: 4900,
   currency: 'INR',
   hasPdf: false,
@@ -742,7 +742,7 @@ const baseReports: ReportMeta[] = [{
   status: 'forthcoming',
   summary: 'The arithmetic of Q-Day — the moment large-scale quantum computers break classical public-key cryptography — is no longer purely theoretical. This report maps India’s position: the NIST PQC standards, the CERT-In and MeitY migration posture, the BFSI exposure, and the corridor-level industrial implications.',
   accent: '#38e1c4',
-  access: 'paid',
+  access: 'free',
   price: 4900,
   currency: 'INR',
   hasPdf: false,
@@ -757,25 +757,9 @@ const baseReports: ReportMeta[] = [{
   dateModified: '2027-01-16'
 }];
 
-// Display order: published reports newest-first (by publish date),
-// then forthcoming reports soonest-first. All consumers (the reports
-// index, home, theme hubs, sitemap) read this sorted array.
-const statusRank = (s: ReportMeta['status']) => (s === 'published' ? 0 : 1);
-export const reports: ReportMeta[] = [...baseReports].sort((a, b) => {
-  const sr = statusRank(a.status) - statusRank(b.status);
-  if (sr !== 0) return sr;
-  if (a.status === 'published') {
-    // newest published first
-    return a.published < b.published ? 1 : a.published > b.published ? -1 : 0;
-  }
-  // forthcoming: nearest upcoming first
-  return a.published < b.published ? -1 : a.published > b.published ? 1 : 0;
-});
-
 export function formatPrice(r: ReportMeta): string {
-  if (r.access === 'free') return 'Free';
-  if (!r.price) return '';
-  return `₹${r.price.toLocaleString('en-IN')}`;
+  if (!r.price) return r.access === 'free' ? 'Free' : '';
+  return `₹${(r.price / 100).toLocaleString('en-IN')}`;
 }
 
 export function getReport(slug: string): ReportMeta | undefined {
