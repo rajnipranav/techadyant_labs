@@ -5,7 +5,7 @@ import { ReportCover } from '../components/ReportCover';
 import ReportsBrowser from './ReportsBrowser';
 
 import { THEMES } from './themes';
-import { getReports } from '../lib/cms';
+import { getReportsMeta } from '../lib/cms';
 
 export const metadata: Metadata = {
   title: 'Reports',
@@ -39,7 +39,7 @@ const WHY = [
 export default async function ReportsIndex() {
   let reports: any[] = staticReports;
   try {
-    const cms = await getReports();
+    const cms = await getReportsMeta();
     if (cms.length) reports = cms;
   } catch {}
 

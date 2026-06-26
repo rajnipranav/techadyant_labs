@@ -5,6 +5,7 @@
  */
 
 import { getSupabase } from './supabase';
+import type { ReportMeta } from '../reports/data';
 
 export type CmsReport = {
   slug: string;
@@ -97,6 +98,59 @@ async function fromSupabase<T>(table: string): Promise<T[]> {
 
 export async function getReports(): Promise<CmsReport[]> {
   return fromSupabase<CmsReport>('cms_reports');
+}
+
+/** Convert a snake_case CMS row into the camelCase ReportMeta shape the UI
+ *  components (cards, detail header, price badges) expect. */
+export function cmsToReportMeta(c: CmsReport): ReportMeta {
+  return {
+    slug: c.slug,
+    title: c.title,
+    subtitle: c.subtitle,
+    domain: c.domain,
+    edition: c.edition,
+    published: c.published,
+    publishedLabel: c.published_label,
+    readingTime: c.reading_time,
+    status: c.status,
+    summary: c.summary,
+    accent: c.accent,
+    access: c.access,
+    price: c.price ?? undefined,
+    currency: (c.currency as 'INR') || 'INR',
+    hasPdf: c.has_pdf,
+    hasDeck: c.has_deck,
+    pages: c.pages ?? undefined,
+    cover: c.cover || undefined,
+    previewObject: c.preview_object || undefined,
+    previewPages: c.preview_pages ?? undefined,
+    keywords: c.keywords || [],
+    faq: c.faq || [],
+    sources: c.sources || [],
+    dateModified: c.date_modified || undefined,
+  };
+}
+
+/** Catalogue display order: published reports newest-first by publish date,
+ *  then forthcoming reports soonest-first. Independent of DB row insertion
+ *  order (created_at), which is identical across the seeded rows. */
+const statusRank = (s: ReportMeta['status']) => (s === 'published' ? 0 : 1);
+export function sortReportsMeta(list: ReportMeta[]): ReportMeta[] {
+  return [...list].sort((a, b) => {
+    const sr = statusRank(a.status) - statusRank(b.status);
+    if (sr !== 0) return sr;
+    if (a.status === 'published') {
+      return a.published < b.published ? 1 : a.published > b.published ? -1 : 0;
+    }
+    return a.published < b.published ? -1 : a.published > b.published ? 1 : 0;
+  });
+}
+
+/** Reports in the correct UI shape and order. Use this in pages, not the raw
+ *  getReports(), so price/date fields render and the sequence is newest-first. */
+export async function getReportsMeta(): Promise<ReportMeta[]> {
+  const rows = await getReports();
+  return sortReportsMeta(rows.map(cmsToReportMeta));
 }
 
 export async function getSignals(): Promise<CmsSignal[]> {
