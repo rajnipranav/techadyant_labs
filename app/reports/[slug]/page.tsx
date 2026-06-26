@@ -51,45 +51,56 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const r = await getReportBySlug(slug) || staticGetReport(slug);
+  const r: any = await getReportBySlug(slug) || staticGetReport(slug);
   if (!r) return {};
-  (r as any);
+  const seo = (r.seo || {}) as Record<string, any>;
   const OG_OVERRIDES: Record<string, string> = {
     'the-sap-question': '/og/the-sap-question-flagship.png',
     'india-drone-sensors-payloads-imaging-market': '/og/india-drone-sensors-payloads-imaging-market.png',
     'the-end-of-the-application-era': '/og/the-end-of-the-application-era.png',
   };
-  const ogImage = OG_OVERRIDES[slug] ?? r.cover;
-  const url = `https://labs.techadyant.com/reports/${slug}/`;
-  return {
-    title: r.title,
-    description: r.summary,
+  // CMS SEO overrides take precedence, then per-slug OG override, then defaults.
+  const url = seo.canonical || `https://labs.techadyant.com/reports/${slug}/`;
+  const title = seo.metaTitle || r.title;
+  const description = seo.metaDescription || r.summary;
+  const ogTitle = seo.ogTitle || title;
+  const ogDescription = seo.ogDescription || r.subtitle || description;
+  const ogImage = seo.ogImage || OG_OVERRIDES[slug] || r.cover;
+  const md: Metadata = {
+    title,
+    description,
     alternates: { canonical: url },
     openGraph: {
-      title: r.title,
-      description: r.subtitle,
+      title: ogTitle,
+      description: ogDescription,
       url,
       type: 'article',
       siteName: 'Techadyant Labs',
-      images: ogImage ? [{ url: ogImage, width: 1200, height: 630, alt: r.title }] : undefined,
+      images: ogImage ? [{ url: ogImage, width: 1200, height: 630, alt: ogTitle }] : undefined,
     },
     twitter: {
-      card: 'summary_large_image',
-      title: r.title,
-      description: r.subtitle,
+      card: (seo.twitterCard as 'summary' | 'summary_large_image') || 'summary_large_image',
+      title: ogTitle,
+      description: ogDescription,
       images: ogImage ? [ogImage] : undefined,
     },
   };
+  if (seo.noindex) md.robots = { index: false, follow: false };
+  return md;
 }
 
 function articleJsonLd(meta: any) {
   if (!meta) return null;
+  const seo = meta.seo || {};
+  const rawImg = seo.ogImage || meta.cover;
+  const image = rawImg ? (/^https?:\/\//.test(rawImg) ? rawImg : `https://labs.techadyant.com${rawImg}`) : undefined;
+  const canonical = seo.canonical || `https://labs.techadyant.com/reports/${meta.slug}/`;
   const data = {
     '@context': 'https://schema.org',
     '@type': 'Report',
     headline: meta.title,
     alternativeHeadline: meta.subtitle,
-    description: meta.summary,
+    description: seo.metaDescription || meta.summary,
     inLanguage: 'en-IN',
     datePublished: meta.published,
     dateModified: meta.dateModified ?? meta.published,
@@ -100,8 +111,8 @@ function articleJsonLd(meta: any) {
     about: (meta.keywords && meta.keywords.length ? meta.keywords : [meta.domain])
       .slice(0, 6)
       .map((k: string) => ({ '@type': 'Thing', name: k })),
-    image: meta.cover ? `https://labs.techadyant.com${meta.cover}` : undefined,
-    url: `https://labs.techadyant.com/reports/${meta.slug}/`,
+    image,
+    url: canonical,
     author: {
       '@type': 'Organization',
       name: 'Techadyant Labs',

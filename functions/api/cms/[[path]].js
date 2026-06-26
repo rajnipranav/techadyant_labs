@@ -150,6 +150,43 @@ export async function onRequest(context) {
 
     const path = route.slice(1);
     const [resource, ...rest] = path.split('/');
+
+    // Publish → trigger a Cloudflare Pages rebuild so CMS edits go live.
+    // Requires the CF_DEPLOY_HOOK_URL env var (Pages → Settings → Deploy hooks).
+    if (resource === '_deploy') {
+      if (request.method !== 'POST') return json(405, { error: 'POST only' });
+      const hook = env.CF_DEPLOY_HOOK_URL;
+      if (!hook) return json(400, { error: 'CF_DEPLOY_HOOK_URL not set — add a Cloudflare Pages Deploy Hook URL to the project env.' });
+      try {
+        const r = await fetch(hook, { method: 'POST' });
+        const txt = await r.text().catch(() => '');
+        return json(r.ok ? 200 : 502, { ok: r.ok, status: r.status, response: txt.slice(0, 500) });
+      } catch (e) {
+        return json(502, { error: `Deploy hook call failed: ${String(e)}` });
+      }
+    }
+
+    // Cover-image upload → stores in the public `covers` Storage bucket and
+    // returns a public URL the editor drops into the report's `cover` field.
+    if (resource === '_upload') {
+      if (request.method !== 'POST') return json(405, { error: 'POST only' });
+      let form;
+      try { form = await request.formData(); } catch { return json(400, { error: 'expected multipart/form-data' }); }
+      const file = form.get('file');
+      if (!file || typeof file === 'string') return json(400, { error: 'no file field' });
+      const rawSlug = (form.get('slug') || 'cover').toString().toLowerCase().replace(/[^a-z0-9-]/g, '-').replace(/-+/g, '-').slice(0, 60) || 'cover';
+      const type = file.type || 'image/jpeg';
+      const ext = ({ 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp', 'image/avif': 'avif' })[type] || 'jpg';
+      const name = `${rawSlug}-${Date.now()}.${ext}`;
+      const up = await fetch(`${S}/storage/v1/object/covers/${name}`, {
+        method: 'POST',
+        headers: { apikey: SK, Authorization: `Bearer ${SK}`, 'content-type': type, 'x-upsert': 'true' },
+        body: await file.arrayBuffer(),
+      });
+      if (!up.ok) return json(502, { error: 'upload failed', status: up.status, detail: (await up.text().catch(() => '')).slice(0, 300) });
+      return json(200, { url: `${S}/storage/v1/object/public/covers/${name}`, name });
+    }
+
     const table = CMS_ROUTES[resource];
     if (!table) return json(404, { error: 'unknown CMS route', route });
     const slug = rest[0] || null;
