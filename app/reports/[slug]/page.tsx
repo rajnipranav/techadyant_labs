@@ -95,12 +95,16 @@ function articleJsonLd(meta: any) {
   const rawImg = seo.ogImage || meta.cover;
   const image = rawImg ? (/^https?:\/\//.test(rawImg) ? rawImg : `https://labs.techadyant.com${rawImg}`) : undefined;
   const canonical = seo.canonical || `https://labs.techadyant.com/reports/${meta.slug}/`;
+  const aboutSrc = (seo.entities && seo.entities.length)
+    ? seo.entities
+    : (meta.keywords && meta.keywords.length ? meta.keywords : [meta.domain]);
   const data = {
     '@context': 'https://schema.org',
-    '@type': 'Report',
+    '@type': seo.schemaType || 'Report',
     headline: meta.title,
     alternativeHeadline: meta.subtitle,
     description: seo.metaDescription || meta.summary,
+    abstract: seo.aiSummary || undefined,
     inLanguage: 'en-IN',
     datePublished: meta.published,
     dateModified: meta.dateModified ?? meta.published,
@@ -108,9 +112,7 @@ function articleJsonLd(meta: any) {
     keywords: (meta.keywords && meta.keywords.length
       ? meta.keywords
       : [meta.domain, 'India technology sovereignty', 'strategic intelligence', 'industrial systems']).join(', '),
-    about: (meta.keywords && meta.keywords.length ? meta.keywords : [meta.domain])
-      .slice(0, 6)
-      .map((k: string) => ({ '@type': 'Thing', name: k })),
+    about: aboutSrc.slice(0, 8).map((k: string) => ({ '@type': 'Thing', name: k })),
     image,
     url: canonical,
     author: {

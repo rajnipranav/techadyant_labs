@@ -170,6 +170,63 @@ function SeoPanel(props: { value: any; setValue: (v: any) => void }) {
   );
 }
 
+function FaqEditor(props: { value: { q: string; a: string }[]; onChange: (v: { q: string; a: string }[]) => void }) {
+  const items = Array.isArray(props.value) ? props.value : [];
+  const set = (i: number, patch: Record<string, any>) => props.onChange(items.map((it, idx) => (idx === i ? { ...it, ...patch } : it)));
+  const add = () => props.onChange([...items, { q: '', a: '' }]);
+  const del = (i: number) => props.onChange(items.filter((_, idx) => idx !== i));
+  const fld: React.CSSProperties = { width: '100%', background: 'var(--admin-surface)', color: '#E8E8F0', border: '1px solid var(--admin-border)', padding: '8px 10px', borderRadius: 6, fontSize: 13 };
+  return (
+    <div style={{ gridColumn: '1 / -1', display: 'grid', gap: 10 }}>
+      <div style={{ fontSize: 11, color: '#8A8A98' }}>Each Q/A becomes a FAQ rich result and an answer AI engines can cite. Phrase questions the way a reader would ask them; answer in 2–3 sentences, conclusion first.</div>
+      {items.map((it, i) => (
+        <div key={i} style={{ border: '1px solid var(--admin-border)', borderRadius: 6, padding: 10 }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
+            <span style={{ fontSize: 11, color: '#8A8A98', fontWeight: 700 }}>Q{i + 1}</span>
+            <button type="button" onClick={() => del(i)} style={{ background: 'none', border: '1px solid var(--admin-border)', color: '#E24B4A', borderRadius: 4, fontSize: 11, cursor: 'pointer', padding: '2px 8px' }}>Remove</button>
+          </div>
+          <input style={fld} placeholder="Question — e.g. Does India manufacture its own drones?" value={it.q || ''} onChange={(e) => set(i, { q: e.target.value })} />
+          <textarea style={{ ...fld, minHeight: 60, marginTop: 6 }} placeholder="Answer — 2–3 sentences, lead with the conclusion." value={it.a || ''} onChange={(e) => set(i, { a: e.target.value })} />
+        </div>
+      ))}
+      <button type="button" onClick={add} style={{ justifySelf: 'start', background: 'none', border: '1px dashed var(--admin-border)', color: '#C7C7D2', borderRadius: 6, fontSize: 12, cursor: 'pointer', padding: '6px 12px' }}>+ Add question</button>
+    </div>
+  );
+}
+
+function GeoPanel(props: { value: any; setValue: (v: any) => void }) {
+  const value = props.value;
+  const seo = value.seo || {};
+  const setSeo = (patch: Record<string, any>) => props.setValue({ ...value, seo: { ...seo, ...patch } });
+  const fld: React.CSSProperties = { width: '100%', background: 'var(--admin-surface)', color: '#E8E8F0', border: '1px solid var(--admin-border)', padding: '8px 10px', borderRadius: 6, fontSize: 13 };
+  const lbl: React.CSSProperties = { display: 'block', fontSize: 12, fontWeight: 600, color: '#C7C7D2', marginBottom: 4 };
+  const hint: React.CSSProperties = { display: 'block', fontSize: 11, color: '#8A8A98', marginTop: 4, lineHeight: 1.4 };
+  const aiLen = (seo.aiSummary || '').length;
+  const entities = Array.isArray(seo.entities) ? seo.entities : [];
+  return (
+    <div style={{ gridColumn: '1 / -1', border: '1px solid var(--admin-border)', borderRadius: 8, padding: 14, background: 'rgba(255,255,255,.02)', display: 'grid', gap: 12 }}>
+      <div style={{ fontSize: 13, fontWeight: 700, color: '#E8E8F0' }}>AI answer optimisation (GEO)</div>
+      <label><span style={lbl}>AI answer summary <span style={{ float: 'right', fontWeight: 400, color: aiLen > 320 ? '#E24B4A' : '#8A8A98' }}>{aiLen} chars</span></span>
+        <textarea style={{ ...fld, minHeight: 70 }} value={seo.aiSummary || ''} placeholder="The 2–3 sentence answer an AI engine can quote verbatim. Lead with the conclusion and the key number." onChange={(e) => setSeo({ aiSummary: e.target.value })} />
+        <span style={hint}>Surfaced in the page’s structured data and /llms.txt for answer engines (ChatGPT, Claude, Perplexity, Google AI). Aim ≤ ~320 chars.</span></label>
+      <label><span style={lbl}>Entities / about (comma-separated)</span>
+        <input style={fld} value={entities.join(', ')} placeholder="ideaForge, rare-earth magnets, India Semiconductor Mission" onChange={(e) => setSeo({ entities: e.target.value.split(',').map((s) => s.trim()).filter(Boolean) })} />
+        <span style={hint}>The real-world things this report is about — companies, schemes, materials. Becomes schema.org <code>about</code>. Defaults to keywords if blank.</span></label>
+      <label><span style={lbl}>Structured-data type</span>
+        <select style={fld} value={seo.schemaType || 'Report'} onChange={(e) => setSeo({ schemaType: e.target.value })}>
+          <option value="Report">Report (default)</option>
+          <option value="Article">Article</option>
+          <option value="AnalysisNewsArticle">AnalysisNewsArticle</option>
+          <option value="Dataset">Dataset</option>
+        </select>
+        <span style={hint}>The schema.org @type for this page’s JSON-LD. Use Report for analyses, Dataset for data-led pieces.</span></label>
+      <label style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+        <input type="checkbox" checked={seo.llmsInclude !== false} onChange={(e) => setSeo({ llmsInclude: e.target.checked })} />
+        <span style={{ fontSize: 13, color: '#C7C7D2' }}>List this report in <code>/llms.txt</code> for AI answer engines</span></label>
+    </div>
+  );
+}
+
 export default function CmsAdmin() {
   return (
     <Suspense fallback={<p style={{ color: '#9898A8' }}>Loading…</p>}>
@@ -436,7 +493,7 @@ function CmsForm(props: { type: CmsType; value: any; onChange: (v: any) => void;
             <Field label="Preview pages" type="number" value={value.preview_pages ?? ''} placeholder="14"
               hint="Page count of the preview PDF (display only)." onChange={(t) => update({ ...value, preview_pages: t === '' ? null : Number(t) })} />
 
-            <SectionHead title="Content & SEO basics" desc="Summary, keywords, sources and FAQ. (Full SEO/GEO panels arrive in the next phase.)" />
+            <SectionHead title="Content" desc="Summary, keywords and primary sources. Search and AI settings are in the SEO, GEO and FAQ panels below." />
             <Field label="Summary" full textarea rows={120} value={value.summary || ''} placeholder="2–4 sentence abstract for the card and the meta-description fallback."
               hint="Shown on the report card; used as the search/social description if no SEO description is set."
               onChange={(t) => update({ ...value, summary: t })} />
@@ -445,15 +502,18 @@ function CmsForm(props: { type: CmsType; value: any; onChange: (v: any) => void;
               onChange={(t) => update({ ...value, keywords: t.split(',').map((s) => s.trim()).filter(Boolean) })} />
             <Field label="Sources (one URL per line)" full textarea value={Array.isArray(value.sources) ? value.sources.join('\n') : ''} placeholder={'https://pib.gov.in/…'}
               hint="Primary-source URLs, one per line." onChange={(t) => update({ ...value, sources: t.split('\n').map((s) => s.trim()).filter(Boolean) })} />
-            <Field label="FAQ (JSON array of { q, a })" full textarea rows={140} value={jsonFields.faq || ''}
-              hint={'Powers the FAQ rich result (GEO). Example: [{ "q": "…", "a": "…" }]'}
-              onChange={(t) => updateJson('faq', t)} />
             <Field label="Body params (JSON)" full textarea value={jsonFields['body_params'] || ''}
               hint="Advanced: parameters passed to the report's body component. Leave as-is if unsure."
               onChange={(t) => updateJson('body_params', t)} />
 
             <SectionHead title="SEO" desc="Search-engine and social appearance. Each field falls back to the report defaults above if left blank." />
             <SeoPanel value={value} setValue={update} />
+
+            <SectionHead title="GEO / AI answer" desc="Optimise how AI answer engines summarise and cite this report." />
+            <GeoPanel value={value} setValue={update} />
+
+            <SectionHead title="FAQ" desc="Q&A pairs powering the FAQ rich result and citable AI answers." />
+            <FaqEditor value={Array.isArray(value.faq) ? value.faq : []} onChange={(v) => update({ ...value, faq: v })} />
           </>
         )}
 

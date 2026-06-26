@@ -84,6 +84,7 @@ function mapCmsReportToMeta(r) {
     faq: Array.isArray(r.faq) ? [...r.faq] : [],
     sources: Array.isArray(r.sources) ? [...r.sources] : [],
     dateModified: r.date_modified || r.published || '',
+    seo: r.seo && typeof r.seo === 'object' ? r.seo : {},
   };
 }
 
@@ -116,7 +117,7 @@ async function syncReports() {
     `  summary: string;\n  accent: string;\n  access: AccessTier;\n  price?: number;\n  currency?: 'INR';\n` +
     `  hasPdf: boolean;\n  hasDeck?: boolean;\n  pages?: number;\n  cover?: string;\n` +
     `  previewObject?: string;\n  previewPages?: number;\n  keywords?: string[];\n  faq?: { q: string; a: string }[];\n` +
-    `  sources?: string[];\n  dateModified?: string;\n}\n\n` +
+    `  sources?: string[];\n  dateModified?: string;\n  seo?: Record<string, any>;\n}\n\n` +
     `export const syncedAt = new Date().toISOString();\n\n`;
   const body = `export const reports: ReportMeta[] = ${tsValue(mapped)};\n\n` +
     `export function formatPrice(r: ReportMeta): string {\n` +

@@ -25,6 +25,7 @@ export interface ReportMeta {
   faq?: { q: string; a: string }[];
   sources?: string[];
   dateModified?: string;
+  seo?: Record<string, any>;
 }
 
 export const syncedAt = new Date().toISOString();

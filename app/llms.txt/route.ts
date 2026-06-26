@@ -14,7 +14,7 @@ const SITE = 'https://labs.techadyant.com';
  * accurately. Regenerated on every deploy, so new reports appear automatically.
  */
 export async function GET() {
-  const published = reports.filter((r) => r.status === 'published');
+  const published = reports.filter((r) => r.status === 'published' && (r as any).seo?.llmsInclude !== false);
 
   const corridorBlock = indCorridors.map((c) => {
     const d = corridorDeep[c.slug];
@@ -53,7 +53,8 @@ export async function GET() {
   const reportLines = published
     .map((r) => {
       const access = r.access === 'free' ? 'Free' : `Paid (₹${r.price ?? ''})`;
-      return `- [${r.title}](${SITE}/reports/${r.slug}): ${r.subtitle} — ${access}. ${r.summary}`;
+      const blurb = (r as any).seo?.aiSummary || r.summary;
+      return `- [${r.title}](${SITE}/reports/${r.slug}): ${r.subtitle} — ${access}. ${blurb}`;
     })
     .join('\n');
 
