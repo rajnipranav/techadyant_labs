@@ -105,7 +105,7 @@ function mapCmsSignalToMeta(s) {
 }
 
 async function syncReports() {
-  const { data, error } = await db.from('cms_reports').select('*').order('published', { ascending: true });
+  const { data, error } = await db.from('cms_reports').select('*').order('published', { ascending: false });
   if (error) { console.error('CMS reports fetch failed:', error.message); return []; }
   const rows = (data || []);
   const mapped = rows.map(mapCmsReportToMeta);
@@ -120,7 +120,7 @@ async function syncReports() {
     `export const syncedAt = new Date().toISOString();\n\n`;
   const body = `export const reports: ReportMeta[] = ${tsValue(mapped)};\n\n` +
     `export function formatPrice(r: ReportMeta): string {\n` +
-    `  if (!r.price) return r.access === 'free' ? 'Free' : '';\n  return \`₹\${(r.price / 100).toLocaleString('en-IN')}\`;\n}\n\n` +
+    `  if (r.access === 'free') return 'Free';\n  if (!r.price) return '';\n  return \`₹\${r.price.toLocaleString('en-IN')}\`;\n}\n\n` +
     `export function getReport(slug: string): ReportMeta | undefined {\n  return reports.find((r) => r.slug === slug);\n}\n`;
   return { path: path.join(ROOT, 'app/reports/data.ts'), content: header + body };
 }

@@ -531,18 +531,18 @@ export const reports: ReportMeta[] = [{
   sources: [],
   dateModified: '2026-07-10'
 }, {
-  slug: 'india-ai-power-infrastructure-gap',
-  title: 'India’s AI Power Infrastructure Gap',
-  subtitle: 'Why DC build-out is constrained by transmission, not generation',
-  domain: 'AI Infrastructure',
-  edition: 'forthcoming',
+  slug: 'india-edge-ai-economy',
+  title: 'India’s Edge AI Economy',
+  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
+  domain: 'Edge AI & Semiconductors',
+  edition: 'Edge AI Series · I · forthcoming',
   published: '2026-08-15',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h read',
   status: 'forthcoming',
-  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
-  accent: '#6366F1',
-  access: 'free',
+  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
+  accent: '#38e1c4',
+  access: 'paid',
   price: 4900,
   currency: 'INR',
   hasPdf: false,
@@ -556,17 +556,17 @@ export const reports: ReportMeta[] = [{
   sources: [],
   dateModified: '2026-08-15'
 }, {
-  slug: 'india-edge-ai-economy',
-  title: 'India’s Edge AI Economy',
-  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
-  domain: 'Edge AI & Semiconductors',
-  edition: 'Edge AI Series · I · forthcoming',
+  slug: 'india-ai-power-infrastructure-gap',
+  title: 'India’s AI Power Infrastructure Gap',
+  subtitle: 'Why DC build-out is constrained by transmission, not generation',
+  domain: 'AI Infrastructure',
+  edition: 'forthcoming',
   published: '2026-08-15',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h read',
   status: 'forthcoming',
-  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
-  accent: '#38e1c4',
+  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
+  accent: '#6366F1',
   access: 'paid',
   price: 4900,
   currency: 'INR',
@@ -667,7 +667,7 @@ export const reports: ReportMeta[] = [{
   status: 'forthcoming',
   summary: 'A 300 mm fab consumes ~4 million litres of ultrapure water per day; an Indian advanced-packaging facility would add more. This report audits the water position of each Indian semiconductor cluster against CGWB block-level extraction data, and names the regulatory reforms that would close the supply gap.',
   accent: '#F5B544',
-  access: 'free',
+  access: 'paid',
   price: 4900,
   currency: 'INR',
   hasPdf: false,
@@ -742,7 +742,7 @@ export const reports: ReportMeta[] = [{
   status: 'forthcoming',
   summary: 'The arithmetic of Q-Day — the moment large-scale quantum computers break classical public-key cryptography — is no longer purely theoretical. This report maps India’s position: the NIST PQC standards, the CERT-In and MeitY migration posture, the BFSI exposure, and the corridor-level industrial implications.',
   accent: '#38e1c4',
-  access: 'free',
+  access: 'paid',
   price: 4900,
   currency: 'INR',
   hasPdf: false,
@@ -758,8 +758,9 @@ export const reports: ReportMeta[] = [{
 }];
 
 export function formatPrice(r: ReportMeta): string {
-  if (!r.price) return r.access === 'free' ? 'Free' : '';
-  return `₹${(r.price / 100).toLocaleString('en-IN')}`;
+  if (r.access === 'free') return 'Free';
+  if (!r.price) return '';
+  return `₹${r.price.toLocaleString('en-IN')}`;
 }
 
 export function getReport(slug: string): ReportMeta | undefined {
