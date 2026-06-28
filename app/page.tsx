@@ -18,6 +18,12 @@ export const metadata: Metadata = {
 const featured = getReport('indias-unmanned-warfare-transformation')!;
 const briefings = allBriefings.slice(0, 3);
 
+const STATS = [
+  { n: '18+', l: 'Chapters per edition' },
+  { n: '50+', l: 'Proprietary data tables' },
+  { n: '30-yr', l: 'Forecast models' },
+];
+
 export default function HomePage() {
   return (
     <>
@@ -76,6 +82,27 @@ export default function HomePage() {
             <div className="m-k">Cadence</div>
             <div className="m-v">Reports · Signals · Briefings</div>
           </div>
+        </div>
+      </section>
+
+      {/* ── By the numbers ── */}
+      <section className="wrap" style={{ paddingTop: 28, paddingBottom: 28 }} aria-label="By the numbers">
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))',
+            border: '1px solid var(--border, rgba(255,255,255,.12))',
+            borderRadius: 12,
+            overflow: 'hidden',
+            background: 'var(--bg-2, rgba(255,255,255,.02))',
+          }}
+        >
+          {STATS.map((s, i) => (
+            <div key={s.l} style={{ padding: '22px 20px', borderLeft: i === 0 ? 'none' : '1px solid var(--border, rgba(255,255,255,.08))' }}>
+              <div style={{ fontSize: 30, fontWeight: 700, letterSpacing: '-.01em', color: 'var(--text, #e9e7e0)', fontFamily: 'var(--font-jetbrains, monospace)' }}>{s.n}</div>
+              <div style={{ fontSize: 12.5, color: 'var(--text-muted, #9aa3b2)', marginTop: 6, textTransform: 'uppercase', letterSpacing: '.06em' }}>{s.l}</div>
+            </div>
+          ))}
         </div>
       </section>
 

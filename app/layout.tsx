@@ -196,7 +196,9 @@ gtag('config', 'G-916MZ965VB');`,
                   <h4>Platform</h4>
                   <ul role="list">
                     <li><Link href="/about/">About the platform</Link></li>
+                    <li><Link href="/methodology/">Methodology</Link></li>
                     <li><Link href="/services/">Commission research</Link></li>
+                    <li><Link href="/methodology/#independence">Independence policy</Link></li>
                     <li><Link href="/account/">Account</Link></li>
                     <li><Link href="/#subscribe">Subscribe</Link></li>
                     <li><a href="https://techadyant.com">Techadyant — main site</a></li>

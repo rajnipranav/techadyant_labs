@@ -167,6 +167,16 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
       ? `${supabaseBase}/storage/v1/object/public/${meta.preview_object}`
       : null;
 
+  // "What's inside" — derived from the report's own fields, plus any custom
+  // line items set per-report in the CMS (seo.includes).
+  const whatsInside: string[] = [];
+  if (meta.pages) whatsInside.push(`Full ${meta.pages}-page report (PDF)`);
+  if (meta.has_deck) whatsInside.push('Editable investor briefing deck (PPTX)');
+  if (Array.isArray(meta.seo?.includes)) whatsInside.push(...meta.seo.includes.filter(Boolean));
+  whatsInside.push('Proprietary analytical frameworks & scorecards');
+  whatsInside.push('Primary-source citations with verification labels');
+  if (meta.preview_object) whatsInside.push('Free condensed preview edition');
+
   return (
     <>
       {ldJson && (
@@ -222,6 +232,19 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
               previewPages={meta.preview_pages ?? undefined}
               deckLabel={meta.has_deck ? 'Download the investor deck (PPTX)' : undefined}
             />
+          </section>
+
+          <section className="wrap-narrow" style={{ paddingTop: 8, paddingBottom: 8 }}>
+            <div style={{ border: '1px solid var(--border, rgba(255,255,255,.12))', borderRadius: 12, padding: '22px 22px', background: 'var(--bg-2, rgba(255,255,255,.02))' }}>
+              <div className="ed-kicker" style={{ marginBottom: 14 }}>What’s inside</div>
+              <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '10px 28px' }}>
+                {whatsInside.map((it) => (
+                  <li key={it} style={{ display: 'flex', gap: 10, fontSize: 14, color: 'var(--text-dim, #c7c7d2)', lineHeight: 1.5 }}>
+                    <span style={{ color: 'var(--brass, #C9A84C)', fontWeight: 700 }}>✓</span>{it}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </section>
 
           {mod ? (

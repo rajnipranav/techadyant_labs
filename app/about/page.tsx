@@ -61,6 +61,33 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="wrap-narrow">
+        <div className="section-head-ed">
+          <div><div className="ed-kicker" style={{ color: 'var(--brass, #C9A84C)' }}>Founding thesis</div><h2>Why this exists</h2></div>
+        </div>
+        <blockquote
+          style={{
+            margin: 0,
+            borderLeft: '3px solid var(--brass, #C9A84C)',
+            padding: '8px 0 8px 24px',
+            fontSize: 22,
+            lineHeight: 1.5,
+            fontWeight: 600,
+            color: 'var(--text, #e9e7e0)',
+          }}
+        >
+          India is entering its next industrial decade. The gap between policy intent and
+          industrial execution is where the real risk — and opportunity — lives.
+        </blockquote>
+        <p className="serif" style={{ marginTop: 18, color: 'var(--text-muted, #9aa3b2)' }}>
+          Announcements are abundant; structural analysis of whether they can be executed is
+          not. Capacity targets assume power, water, materials, equipment and talent that may
+          not yet exist. Techadyant Labs was founded to close that gap — to measure the
+          distance between what is announced and what can actually be built, and to map who
+          captures the value in between.
+        </p>
+      </section>
+
       <section className="wrap">
         <div className="section-head-ed">
           <div><div className="ed-kicker">What we publish</div><h2>Three forms of output</h2></div>
