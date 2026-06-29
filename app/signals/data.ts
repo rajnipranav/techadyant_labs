@@ -282,6 +282,70 @@ export const signals: SignalMeta[] = [{
   takeaways: [],
   sources: ['https://www.meity.gov.in/', 'https://www.india.gov.in/']
 }, {
+  slug: 'jewar-electronics-manufacturing-ecosystem',
+  no: 'S-013',
+  title: 'Jewar Isn\'t Becoming an Airport City. It\'s Becoming an Electronics Ecosystem.',
+  domain: 'Electronics Manufacturing',
+  date: '2026-06-29',
+  dateLabel: '29 June 2026',
+  status: 'live',
+  excerpt: 'The headline calls Jewar a semiconductor hub. The more consequential shift is that India is placing chip assembly, PCB fabrication, component manufacturing and an international airport inside a single corridor — moving the unit of industrial competition from the factory to the ecosystem.',
+  readingTime: '6 min',
+  body: [{
+  text: 'The announcement is being read as a semiconductor story — Jewar becomes North India\'s chip hub. That framing undersells what is happening. For the first time in India, the separate layers of an electronics economy — semiconductor assembly, printed-circuit-board fabrication, component manufacturing, air-cargo logistics and an international gateway — are being placed inside a single, roughly fifty-kilometre geography. The more important development is not that another factory is being built. It is that the unit of industrial competition is moving from the factory to the ecosystem.',
+  type: 'p'
+}, {
+  text: 'What was actually announced',
+  type: 'h'
+}, {
+  text: 'On 27 June 2026, foundation stones were laid at Yamuna City, near Jewar, for two electronics projects worth about Rs 6,750 crore. ASCENT-K Circuit — a joint venture with Korea\'s KCC — will invest roughly Rs 3,250 crore in advanced, high-density, multi-layer printed circuit boards. Amber Enterprises will invest about Rs 3,500 crore in HVAC components and PCB assembly. Together the two plants are expected to employ around 3,000 people.',
+  type: 'p'
+}, {
+  text: 'They do not sit in isolation. They are adjacent to the Rs 3,700 crore HCL-Foxconn outsourced assembly and test (OSAT) facility approved under the India Semiconductor Mission — the sixth unit nationally and the first in Uttar Pradesh — which is to package display-driver chips at a planned 20,000 wafers a month, with commercial output targeted for 2027. Around them sit the newly inaugurated Jewar international airport, the Yamuna Expressway and proximity to the Delhi-Mumbai Industrial Corridor. A chip-assembly layer, a board-fabrication layer, a component layer and a logistics layer — within one corridor.',
+  type: 'p'
+}, {
+  text: 'Why this is an ecosystem story, not a factory story',
+  type: 'h'
+}, {
+  text: 'Electronics competitiveness is decided less by any single plant than by what surrounds it. Lead times, freight costs, the density of nearby suppliers, shared utilities and a common pool of trained labour are what make a location cheap and fast to manufacture in. When PCB fabrication, PCB assembly, chip packaging and component production sit within an hour of each other and of an air-cargo terminal, the cost of building electronics there falls — and the advantage attaches to the place rather than to any one firm.',
+  type: 'p'
+}, {
+  text: 'This is the pattern behind every electronics region that became globally competitive. Shenzhen, Suzhou, Hsinchu and Penang did not win on national champions; they won on clusters — thick webs of suppliers, sub-assemblers, tool shops and logistics that let a design move from prototype to volume without leaving the region. India has so far built mostly isolated anchors. Jewar is the first place where the pieces are being positioned closely enough to ask whether a genuine cluster can form.',
+  type: 'p'
+}, {
+  text: 'Co-location changes the unit economics in concrete ways. A board fabricated, populated and tested within the same corridor avoids weeks of inbound and outbound freight, the working capital tied up in transit, and the customs friction between each cross-border hop. For an air-freight-intensive industry, an international cargo gateway inside the cluster compresses the distance between an Indian line and a global customer. In thin-margin electronics these are not marginal savings — they are often the difference between a competitive quote and an uncompetitive one.',
+  type: 'p'
+}, {
+  text: 'The PCB layer is the hidden middle',
+  type: 'h'
+}, {
+  text: 'The printed circuit board is the substrate beneath almost every electronic system — telecom equipment, vehicles, defence electronics, drones, medical devices and consumer hardware all rest on it. India imports an estimated Rs 40,000 crore of PCBs a year, and the bill concentrates in precisely the advanced, high-density, multi-layer boards the Jewar investment targets. Localising this layer therefore carries leverage across many sectors at once, which is what makes it more strategically interesting than any single end-product line.',
+  type: 'p'
+}, {
+  text: 'The choice of advanced multi-layer and HDI boards matters. Single- and double-sided boards are largely commoditised and low-value; the import bill, and the technical barrier, sit in the high-layer-count, fine-pitch boards that telecom, automotive electronics, defence and high-end computing require. Targeting that tier is the difference between import substitution at the bottom of the value curve and real capability at the top of it.',
+  type: 'p'
+}, {
+  text: 'The caution is familiar from our other work. Bare-board fabrication itself depends on inputs that remain largely imported — copper-clad laminates, photoresists and specialty process chemicals, and the drilling, plating and lamination equipment that defines yield. Assembly and fabrication can localise quickly; the materials and machinery beneath them move far more slowly. Without that upstream migration, the dependency does not disappear — it relocates one layer up the chain.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Supplier migration: whether laminate, chemical, connector and equipment makers establish inside the corridor, or the anchor plants simply import inputs and ship boards out.', 'Logistics depth: air-cargo capacity and bonded warehousing at Jewar, since high-value electronics is freight-time-sensitive.', 'Internal linkage: whether the OSAT\'s display drivers feed local board assembly, or are exported while assemblers source their chips elsewhere.', 'Talent: the depth of PCB and process-engineering skills, which set yield once construction is finished.', 'Utilities: reliable power and water quality — the quiet preconditions for plating and semiconductor-grade processes.']
+}, {
+  text: 'The tell is straightforward. An ecosystem is forming when the second- and third-tier suppliers move — not when the anchors cut ribbons.',
+  type: 'p'
+}, {
+  text: 'The strategic read',
+  type: 'h'
+}, {
+  text: 'India\'s bet here is geography as industrial advantage: that convergence lowers the cost of doing electronics enough to make a location, not a company, the moat. The risk is the one our drone and semiconductor work keeps surfacing — the anchor without an ecosystem, a marquee plant that imports most of its value and performs only final assembly locally. Jewar is the first credible test of whether India can build an integrated electronics ecosystem rather than another set of isolated factories. That distinction — system versus factory — is the one worth tracking, and it is the question we will follow.',
+  type: 'p'
+}],
+  takeaways: ['Two electronics projects worth Rs 6,750 crore — ASCENT-K Circuit (Rs 3,250 crore, advanced multi-layer PCBs) and Amber Enterprises (Rs 3,500 crore, HVAC components and PCB assembly) — were announced at Jewar on 27 June 2026.', 'They sit beside the Rs 3,700 crore HCL-Foxconn OSAT (the sixth India Semiconductor Mission unit, the first in Uttar Pradesh) and the new Jewar international airport — chip assembly, PCB, components and logistics in one corridor.', 'PCB localisation has cross-sector leverage (telecom, automotive, defence, drones, medical) against a roughly Rs 40,000 crore annual import bill, but laminates, chemicals and equipment remain upstream import dependencies.', 'The real test is supplier migration and logistics depth, not anchor groundbreakings: ecosystems form when tier-2 and tier-3 suppliers co-locate.'],
+  sources: ['https://www.indiatvnews.com/uttar-pradesh/jewar-set-to-become-north-india-s-silicon-valley-as-yogi-vaishnaw-launch-rs-6-750-crore-electronics-project-2026-06-27-1046352', 'https://hcl.com/media_management/hcl-group-and-hon-hai-technology-group-foxconn-join-hands-to-set-up-semiconductor-manufacturing-unit-in-uttar-pradesh/', 'https://www.moneycontrol.com/news/business/jewar-set-to-become-india-s-leading-electronics-semiconductor-hub-ashwini-vaishnaw-13960175.html']
+}, {
   slug: 'real-constraint-behind-ai-infrastructure',
   no: 'S-008',
   title: 'The real constraint behind AI infrastructure',

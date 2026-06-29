@@ -54,7 +54,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2027-01-16'
+  dateModified: '2027-01-16',
+  seo: {
+
+}
 }, {
   slug: 'india-semiconductor-supply-chain-missing-links',
   title: 'India’s Semiconductor Supply Chain Missing Links and Industrial Opportunity Surfaces',
@@ -79,7 +82,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-12-12'
+  dateModified: '2026-12-12',
+  seo: {
+
+}
 }, {
   slug: 'india-industrial-machine-vision',
   title: 'Industrial Machine Vision in India',
@@ -104,7 +110,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-11-15'
+  dateModified: '2026-11-15',
+  seo: {
+
+}
 }, {
   slug: 'water-behind-indias-semiconductor-ambitions',
   title: 'Water Behind India’s Semiconductor Ambitions',
@@ -129,7 +138,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-11-14'
+  dateModified: '2026-11-14',
+  seo: {
+
+}
 }, {
   slug: 'industrial-logistics-behind-manufacturing-india',
   title: 'Industrial Logistics Behind Manufacturing India',
@@ -154,7 +166,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-10-10'
+  dateModified: '2026-10-10',
+  seo: {
+
+}
 }, {
   slug: 'india-sensor-economy',
   title: 'The Sensor Economy of India',
@@ -179,7 +194,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-09-30'
+  dateModified: '2026-09-30',
+  seo: {
+
+}
 }, {
   slug: 'cooling-economy-of-india',
   title: 'The Cooling Economy of India',
@@ -204,7 +222,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-09-12'
+  dateModified: '2026-09-12',
+  seo: {
+
+}
 }, {
   slug: 'india-edge-ai-economy',
   title: 'India’s Edge AI Economy',
@@ -229,7 +250,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-08-15'
+  dateModified: '2026-08-15',
+  seo: {
+
+}
 }, {
   slug: 'india-ai-power-infrastructure-gap',
   title: 'India’s AI Power Infrastructure Gap',
@@ -254,7 +278,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-08-15'
+  dateModified: '2026-08-15',
+  seo: {
+
+}
 }, {
   slug: 'industrial-water-economy',
   title: 'The Industrial Water Economy',
@@ -279,7 +306,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-07-10'
+  dateModified: '2026-07-10',
+  seo: {
+
+}
 }, {
   slug: 'indias-unmanned-warfare-transformation',
   title: 'India’s Unmanned Warfare Transformation',
@@ -319,7 +349,10 @@ export const reports: ReportMeta[] = [{
   q: 'What does the report include, and what comes with purchase?'
 }],
   sources: [],
-  dateModified: '2026-06-22'
+  dateModified: '2026-06-22',
+  seo: {
+
+}
 }, {
   slug: 'drone-electronics-flight-controllers',
   title: 'Who Controls India’s Drones?',
@@ -359,7 +392,10 @@ export const reports: ReportMeta[] = [{
   q: 'What is the hardest part of localising flight controllers?'
 }],
   sources: [],
-  dateModified: '2026-06-21'
+  dateModified: '2026-06-21',
+  seo: {
+
+}
 }, {
   slug: 'india-drone-sensors-payloads-imaging-market',
   title: 'India Drone Sensors, Payloads & Imaging Systems Market',
@@ -399,7 +435,10 @@ export const reports: ReportMeta[] = [{
   q: 'Who are the leading players in India’s drone sensor and payload market?'
 }],
   sources: [],
-  dateModified: '2026-06-16'
+  dateModified: '2026-06-16',
+  seo: {
+
+}
 }, {
   slug: 'the-end-of-the-application-era',
   title: 'Who Captures Computing When the Application Disappears?',
@@ -439,7 +478,10 @@ export const reports: ReportMeta[] = [{
   q: 'Where can India capture value in the post-application era?'
 }],
   sources: [],
-  dateModified: '2026-06-16'
+  dateModified: '2026-06-16',
+  seo: {
+
+}
 }, {
   slug: 'osat-and-the-packaging-frontier',
   title: 'The Packaging Frontier',
@@ -464,7 +506,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: ['https://www.meity.gov.in/content/semiconductor', 'https://www.indiaincorner.com/ism/', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567'],
-  dateModified: '2026-06-15'
+  dateModified: '2026-06-15',
+  seo: {
+
+}
 }, {
   slug: 'india-drone-propulsion-opportunity',
   title: 'India’s Drone Propulsion Opportunity',
@@ -504,7 +549,10 @@ export const reports: ReportMeta[] = [{
   q: 'Where are the best drone-propulsion opportunities in India?'
 }],
   sources: [],
-  dateModified: '2026-06-14'
+  dateModified: '2026-06-14',
+  seo: {
+
+}
 }, {
   slug: 'indias-drone-battery-ecosystem',
   title: 'India’s Drone Battery Ecosystem',
@@ -544,7 +592,10 @@ export const reports: ReportMeta[] = [{
   q: 'What should India do first to build battery sovereignty?'
 }],
   sources: [],
-  dateModified: '2026-06-11'
+  dateModified: '2026-06-11',
+  seo: {
+
+}
 }, {
   slug: 'who-builds-indias-drones',
   title: 'Who Builds India’s Drones?',
@@ -584,7 +635,10 @@ export const reports: ReportMeta[] = [{
   q: 'What are the best drone-economy opportunities in India?'
 }],
   sources: [],
-  dateModified: '2026-06-09'
+  dateModified: '2026-06-09',
+  seo: {
+
+}
 }, {
   slug: 'the-opportunity-beyond-the-fab',
   title: 'The Opportunity Beyond the Fab',
@@ -618,7 +672,10 @@ export const reports: ReportMeta[] = [{
   q: 'Can an MSME or startup enter the semiconductor economy without building a fab?'
 }],
   sources: [],
-  dateModified: '2026-06-03'
+  dateModified: '2026-06-03',
+  seo: {
+
+}
 }, {
   slug: 'the-sap-question',
   title: 'The SAP Question',
@@ -655,7 +712,10 @@ export const reports: ReportMeta[] = [{
   q: 'Can India build sovereign enterprise software?'
 }],
   sources: [],
-  dateModified: '2026-06-01'
+  dateModified: '2026-06-01',
+  seo: {
+
+}
 }, {
   slug: 'who-actually-captures-the-india-us-minerals-alliance',
   title: 'Who Actually Captures the India–US Minerals Alliance?',
@@ -680,7 +740,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-05-30'
+  dateModified: '2026-05-30',
+  seo: {
+
+}
 }, {
   slug: 'india-battlefield-automation-gap',
   title: 'India’s Battlefield Automation Gap',
@@ -705,7 +768,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-05-30'
+  dateModified: '2026-05-30',
+  seo: {
+
+}
 }, {
   slug: 'india-ai-industrial-transition-2026-2035',
   title: 'India’s AI Industrial Transition and Infrastructure Transformation',
@@ -730,7 +796,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-05-29'
+  dateModified: '2026-05-29',
+  seo: {
+
+}
 }, {
   slug: 'india-fab-ecosystem',
   title: 'Who Really Benefits from India’s Fab Ecosystem?',
@@ -755,7 +824,10 @@ export const reports: ReportMeta[] = [{
   keywords: [],
   faq: [],
   sources: [],
-  dateModified: '2026-05-20'
+  dateModified: '2026-05-20',
+  seo: {
+
+}
 }];
 
 export function formatPrice(r: ReportMeta): string {
