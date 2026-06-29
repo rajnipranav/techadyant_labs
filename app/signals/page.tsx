@@ -43,7 +43,7 @@ export default async function SignalsIndex() {
                     {s.status === 'live' && <span className="sig-status"><span className="dot" /> Live</span>}
                     {s.status === 'monitoring' && <span style={{ color: 'var(--text-muted)' }}>Monitoring</span>}
                     {s.status === 'placeholder' && <span style={{ color: 'var(--text-dim)' }}>Draft · placeholder</span>}
-                    <span className="sig-date">{s.dateLabel}{(s.readingTime || '').trim() ? ` · ${s.readingTime}` : ''}</span>
+                    <span className="sig-date">{s.dateLabel ?? s.date_label}{(((s.readingTime ?? s.reading_time) || '') as string).trim() ? ` · ${s.readingTime ?? s.reading_time}` : ''}</span>
                   </div>
                   <div className="signal-title" style={s.status === 'placeholder' ? { fontStyle: 'italic', color: 'var(--text-dim)' } : undefined}>
                     {s.title}
