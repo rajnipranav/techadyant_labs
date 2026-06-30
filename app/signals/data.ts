@@ -22,19 +22,6 @@ export interface SignalMeta {
 export const syncedAt = new Date().toISOString();
 
 export const signals: SignalMeta[] = [{
-  slug: 'dholera-water-signal',
-  no: 'S-001',
-  title: 'Dholera Water Signal',
-  domain: 'Industrial Infrastructure',
-  date: '2026-05-12',
-  dateLabel: '12 May 2026',
-  status: 'placeholder',
-  excerpt: 'Placeholder — analysis of water sourcing, allocation and resilience dependencies forming around the Dholera industrial corridor. To be published.',
-  readingTime: '— ',
-  body: [],
-  takeaways: [],
-  sources: []
-}, {
   slug: 'talent-constraint',
   no: 'S-002',
   title: 'Why Talent May Become the Real Constraint',
@@ -249,12 +236,36 @@ export const signals: SignalMeta[] = [{
   domain: 'Strategic Technology',
   date: '2026-06-12',
   dateLabel: '12 Jun 2026',
-  status: 'monitoring',
+  status: 'live',
   excerpt: 'Capital and policy can be assembled in a board meeting. The deep process-engineering and yield-management talent that makes a fab or a hyperscale DC productive cannot. The asymmetry is what sets the realistic ramp curve.',
   readingTime: '5 min',
-  body: [],
+  body: [{
+  text: 'India\'s industrial-policy instruments are overwhelmingly capital instruments — capex subsidies, production-linked incentives, viability-gap funding. They are well-designed for what capital solves: getting a fab or a hyperscale data centre financed and built. They are far weaker on the problem that actually sets the ramp once the building exists, which is talent — the deep process-engineering and yield-management capability that turns installed capacity into competitive output.',
+  type: 'p'
+}, {
+  text: 'The asymmetry is structural. A fab can be financed in a board meeting and built in two to three years; the tacit knowledge to run it at competitive yield is accumulated over careers and cannot be procured on the same timeline. A subsidy can close a financing gap overnight; it cannot close a capability gap. When policy over-indexes on capex and under-invests in pipelines, the predictable result is built capacity that ramps slowly because the people to run it are scarce.',
+  type: 'p'
+}, {
+  text: 'Subsidies buy buildings; talent runs them',
+  type: 'h'
+}, {
+  text: 'This is visible across India\'s strategic-technology push. The semiconductor mission and the AI-infrastructure build-out both carry generous capital support and comparatively thin, slower-moving talent programmes. The standard answer wherever late entrants have succeeded is a deliberate blend: seed the first lines with experienced expatriate and returning-diaspora engineers while building domestic pipelines through universities, vendor-run training and structured on-the-job ramp. Both halves take years — which is exactly why they should be funded with the same urgency as the capex, and earlier.',
+  type: 'p'
+}, {
+  text: 'The implication is not to cut subsidies but to pair them. A capex subsidy with no matched talent programme funds a building that under-utilises; a talent programme with no capex funds engineers with nowhere to work. The two are complements, and India\'s current mix leans heavily toward the first.',
+  type: 'p'
+}, {
+  text: 'The signal to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The ratio of talent-pipeline funding to capex subsidy in semiconductor and AI-infrastructure schemes.', 'Returning-diaspora and expatriate hiring at the first fabs and hyperscale campuses.', 'University-to-fab and vendor-training placement programmes, and their throughput.', 'Utilisation and yield-ramp rates once facilities are commissioned — the real test of talent depth.']
+}, {
+  text: 'Capital is the easy half of industrial policy and talent is the hard half, and India\'s instruments are calibrated for the easy half. The economies that converted subsidies into competitive industries funded the people with the same seriousness as the plants. Whether India does the same is the variable that separates built capacity from productive capacity.',
+  type: 'p'
+}],
   takeaways: ['Equipment can be bought; tacit process knowledge has to be grown or imported.', 'Yield ramp — not construction — is where talent depth becomes decisive.', 'Expatriate seeding plus domestic pipelines is the standard pattern; both take years.'],
-  sources: ['https://www.meity.gov.in/', 'https://www.india.gov.in/']
+  sources: ['https://www.ism.gov.in/', 'https://indiaai.gov.in/']
 }, {
   slug: 'indias-hidden-industrial-water-crisis',
   no: 'S-010',
@@ -262,12 +273,36 @@ export const signals: SignalMeta[] = [{
   domain: 'Industrial Infrastructure',
   date: '2026-06-19',
   dateLabel: '19 Jun 2026',
-  status: 'monitoring',
+  status: 'live',
   excerpt: 'CGWB classifies Bengaluru and Hyderabad as over-exploited, Chennai as critical. The DC pipeline is densest where the water position is most stressed. This signal names the corridor-level audits that are not yet being published.',
   readingTime: '4 min',
-  body: [],
-  takeaways: [],
-  sources: ['https://www.india.gov.in/', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567']
+  body: [{
+  text: 'India\'s industrial-water risk is hiding in plain sight. The Central Ground Water Board\'s assessment places many of the urban units around Bengaluru and Hyderabad in the over-exploited category and Chennai\'s position as critical — and these are precisely the metros where the data-centre and advanced-manufacturing pipeline is densest. The geography of new high-water-intensity industry overlaps with the geography of water stress.',
+  type: 'p'
+}, {
+  text: 'Data centres, through cooling and humidity control, and fabs, through ultrapure water, are among the most water-intensive facilities being built, and they are landing in city-regions whose groundwater is already drawn down faster than it recharges. The mitigation — municipal supply, treated-wastewater reuse and recycling — exists, but it competes with household and agricultural demand and leans on monsoon-sensitive surface sources.',
+  type: 'p'
+}, {
+  text: 'Why this stays hidden',
+  type: 'h'
+}, {
+  text: 'The risk is under-discussed because it is assessed at the wrong resolution. National water-availability figures look adequate; CGWB categories are reported by assessment unit; and individual project clearances treat water as a line item rather than a system. What does not exist publicly is the corridor-level audit: for a given industrial cluster, the firm water available across sources, the committed industrial draw, the competing municipal and agricultural demand, and the resilience under a weak monsoon. Without it, water risk is invisible until it binds.',
+  type: 'p'
+}, {
+  text: 'This is the Dholera lesson generalised. Dholera\'s exposure is a single canal; the metros\' exposure is over-drawn aquifers plus monsoon-dependent reservoirs. In both cases the binding question is corridor-level, and in both the audit is missing.',
+  type: 'p'
+}, {
+  text: 'The signal to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['CGWB category changes in the assessment units hosting data-centre and fab clusters.', 'Treated-wastewater reuse ratios actually achieved by industrial clusters, versus targets.', 'Water allocations granted to new industrial load against municipal and agricultural demand.', 'Whether any state publishes a corridor-level industrial-water audit.']
+}, {
+  text: 'The water position will not announce itself. It will surface as a permitting delay, a tanker bill, or a curtailed ramp in a dry year. The clusters to watch are the ones where the pipeline is densest and the aquifer is already over-exploited — and the document to demand is the corridor-level audit that no one is yet publishing.',
+  type: 'p'
+}],
+  takeaways: ['Central Ground Water Board assessments place urban units around Bengaluru and Hyderabad as over-exploited and Chennai as critical — the same metros where the data-centre and fab pipeline is densest.', 'Data centres and fabs are highly water-intensive and are landing where aquifers are already over-drawn and surface water is monsoon-dependent.', 'The missing tool is the corridor-level industrial-water audit; until it is published, water risk stays invisible until it binds.'],
+  sources: ['https://cgwb.gov.in/', 'https://www.niti.gov.in/']
 }, {
   slug: 'vendor-economy-behind-semiconductor-fabs',
   no: 'S-009',
@@ -275,12 +310,36 @@ export const signals: SignalMeta[] = [{
   domain: 'Semiconductor Ecosystems',
   date: '2026-06-26',
   dateLabel: '26 Jun 2026',
-  status: 'monitoring',
+  status: 'live',
   excerpt: 'Of a ₹91,000 crore mature-node fab, roughly two-thirds flows to ASML, AMAT, Lam, TEL and KLA. The Indian-capture economy lives in the remaining one-third — construction, gases, UPW, logistics and the durable industrial capabilities those build.',
   readingTime: '5 min',
-  body: [],
-  takeaways: [],
-  sources: ['https://www.meity.gov.in/', 'https://www.india.gov.in/']
+  body: [{
+  text: 'A fab\'s headline number flatters the local economy. Of the roughly Rs 91,000 crore committed to a mature-node fab, the majority does not stay in India. It flows to the handful of global firms that make the tools — ASML for lithography, Applied Materials, Lam Research and Tokyo Electron for deposition, etch and processing, and KLA for inspection and metrology. Process equipment is typically the largest line in fab capex, often two-thirds to three-quarters of the total.',
+  type: 'p'
+}, {
+  text: 'This is not a criticism; no country, including the most advanced, makes the full set of wafer-fabrication equipment domestically. But it reframes what India is buying with a fab. The wafer-fab-equipment portion is imported capability. The Indian-capture economy lives in the remaining third — and in what that third builds that lasts beyond the single project.',
+  type: 'p'
+}, {
+  text: 'Where India actually captures value',
+  type: 'h'
+}, {
+  text: 'That remaining third is substantial and strategically useful: cleanroom construction and the specialist civil and services trades it trains; industrial and electronic gases and the on-site plants that supply them; ultrapure-water systems; chemicals and slurries; precision logistics and bonded warehousing; facilities management, calibration and equipment-servicing skills. These are lower-glamour than lithography, but they are real industrial capabilities, reusable across fabs, OSATs and other advanced manufacturing, and they are where domestic suppliers can genuinely compete.',
+  type: 'p'
+}, {
+  text: 'The strategic question is whether each fab leaves behind a deeper vendor ecosystem or merely a building. If gas, ultrapure-water, chemical and equipment-service firms localise around the first fabs, the second and third cost less and ramp faster, and the capability compounds. If every fab imports its inputs and flies in its service engineers, capture stays at one-third and never deepens. This is the same assembly-versus-ecosystem distinction that runs through our other work.',
+  type: 'p'
+}, {
+  text: 'The signal to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether industrial-gas, ultrapure-water and chemical suppliers build local plants around the first fabs, or supply from imports.', 'The share of equipment installation, calibration and servicing performed by Indian engineers versus flown-in vendor teams.', 'Cleanroom-construction and specialist-trades capacity that persists between projects.', 'Whether vendor localisation lowers the capex and ramp time of the second and third fabs.']
+}, {
+  text: 'The lithography tools will be imported for the foreseeable future; that is true everywhere. The measure of success is not the tool bill but whether the one-third India does capture compounds into a vendor ecosystem that makes the next fab cheaper — or evaporates when the contractors leave.',
+  type: 'p'
+}],
+  takeaways: ['Roughly two-thirds to three-quarters of a fab\'s capex is imported wafer-fab equipment (ASML, Applied Materials, Lam, Tokyo Electron, KLA); India\'s capture is the remaining third.', 'That third — cleanroom construction, industrial gases, ultrapure water, chemicals, logistics and equipment servicing — is where reusable domestic capability is actually built.', 'The test is whether each fab leaves a deeper vendor ecosystem that lowers the cost of the next, or merely a building.'],
+  sources: ['https://www.meity.gov.in/content/semiconductor', 'https://www.ism.gov.in/']
 }, {
   slug: 'jewar-electronics-manufacturing-ecosystem',
   no: 'S-013',
@@ -346,18 +405,88 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Two electronics projects worth Rs 6,750 crore — ASCENT-K Circuit (Rs 3,250 crore, advanced multi-layer PCBs) and Amber Enterprises (Rs 3,500 crore, HVAC components and PCB assembly) — were announced at Jewar on 27 June 2026.', 'They sit beside the Rs 3,700 crore HCL-Foxconn OSAT (the sixth India Semiconductor Mission unit, the first in Uttar Pradesh) and the new Jewar international airport — chip assembly, PCB, components and logistics in one corridor.', 'PCB localisation has cross-sector leverage (telecom, automotive, defence, drones, medical) against a roughly Rs 40,000 crore annual import bill, but laminates, chemicals and equipment remain upstream import dependencies.', 'The real test is supplier migration and logistics depth, not anchor groundbreakings: ecosystems form when tier-2 and tier-3 suppliers co-locate.'],
   sources: ['https://www.indiatvnews.com/uttar-pradesh/jewar-set-to-become-north-india-s-silicon-valley-as-yogi-vaishnaw-launch-rs-6-750-crore-electronics-project-2026-06-27-1046352', 'https://hcl.com/media_management/hcl-group-and-hon-hai-technology-group-foxconn-join-hands-to-set-up-semiconductor-manufacturing-unit-in-uttar-pradesh/', 'https://www.moneycontrol.com/news/business/jewar-set-to-become-india-s-leading-electronics-semiconductor-hub-ashwini-vaishnaw-13960175.html']
 }, {
+  slug: 'dholera-water-signal',
+  no: 'S-001',
+  title: 'The Dholera Water Signal',
+  domain: 'Industrial Infrastructure',
+  date: '2026-06-30',
+  dateLabel: '30 June 2026',
+  status: 'live',
+  excerpt: 'Dholera\'s industrial ambition rests on a single water artery. The fab can be financed and built on schedule; the water to run it at full utilisation has to arrive every day through the Narmada canal — and that concentration, not land or capital, is the binding constraint.',
+  readingTime: '5 min',
+  body: [{
+  text: 'Dholera is India\'s most advanced greenfield industrial city and the site of its first commercial wafer fab. Its constraint is not land, power or capital — those are committed. It is water, and specifically the fact that almost all of it arrives through one channel: the Narmada canal.',
+  type: 'p'
+}, {
+  text: 'The Rs 91,000 crore Tata-PSMC fab, designed for roughly 50,000 wafers a month, anchors the Dholera Special Investment Region. Dholera\'s current supply is a roughly 50 MLD treatment plant fed from the Narmada canal. The region\'s master-planned demand is far larger — on the order of 947 million litres a day at full build-out, of which around 491 MLD is industrial and 298 MLD residential.',
+  type: 'p'
+}, {
+  text: 'Why water is the binding constraint',
+  type: 'h'
+}, {
+  text: 'A modern fab is among the most water-intensive industrial facilities in existence. Producing ultrapure water — the solvent-grade water used to rinse wafers — consumes roughly 1,400 to 1,600 litres of municipal water for every 1,000 litres of ultrapure water it yields, before any is recovered. A 50,000-wafer line\'s daily draw runs into the millions of litres; co-located assembly, display and component plants add more. The fab can be financed and built on schedule; the water to run it at full utilisation has to be physically delivered, every day, through infrastructure that also serves a city.',
+  type: 'p'
+}, {
+  text: 'The exposure is that this demand rests on essentially one source. The Narmada canal is a shared, allocation-governed system supplying agriculture, drinking water and industry across Gujarat; its delivery varies with the monsoon, reservoir levels and competing claims upstream. A single artery feeding a strategic national asset is a concentration risk, not a detail.',
+  type: 'p'
+}, {
+  text: 'What the state is already signalling',
+  type: 'h'
+}, {
+  text: 'Gujarat\'s response is the clearest evidence of the underlying problem. The state offers a 50 per cent capital subsidy to fab projects that build their own desalination plants — an unusually generous incentive that exists precisely because canal water alone is not treated as a resilient base load. Desalination on the nearby Gulf of Khambhat, treated-wastewater recycling and zero-liquid-discharge are the resilience layer being built around the canal, not instead of it.',
+  type: 'p'
+}, {
+  text: 'The second-order effects matter. Desalination is energy-intensive, which ties Dholera\'s water resilience back to its power system; zero-liquid-discharge and recycling push cost and operational complexity onto every tenant; and brine and effluent loads create their own environmental and regulatory exposure on a sensitive coastline. Water resilience here is not a single project but a system — canal plus desalination plus recycling plus the power to run it.',
+  type: 'p'
+}, {
+  text: 'The signal to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Desalination capacity actually commissioned on the Gulf of Khambhat, versus announced.', 'The recycled-water and zero-liquid-discharge ratio fabs achieve in practice, not on paper.', 'Narmada allocation to Dholera under competing agricultural and urban demand in a weak-monsoon year.', 'Whether the water system build-out keeps pace with the 2026-27 fab ramp, or lags behind it.']
+}, {
+  text: 'The fab will be commissioned on schedule. The question Dholera answers over the next few years is whether the water system beneath it is built as a resilient, multi-source utility — or whether a strategic industrial cluster is left resting on a single canal. The first is infrastructure; the second is a dependency.',
+  type: 'p'
+}],
+  takeaways: ['Dholera\'s build-out — anchored by the Rs 91,000 crore Tata-PSMC fab (~50,000 wafers/month) — depends almost entirely on Narmada-canal water through a roughly 50 MLD plant today, against a master-planned demand near 947 MLD.', 'Ultrapure-water production for a fab consumes about 1.4-1.6 litres of municipal water per litre of UPW before recovery, which is why water — not land, power or capital — is the binding constraint.', 'Gujarat\'s 50 per cent capital subsidy for fab-owned desalination is the clearest signal that canal water alone is not considered a resilient base load.', 'Water resilience at Dholera is a system — canal plus desalination plus recycling plus the power to run it — and the metric that matters is commissioned desalination and real ZLD ratios, not announcements.'],
+  sources: ['https://www.ijsrd.com/articles/LDRPTCP065.pdf', 'https://swarajyamag.com/tech/how-gujarat-is-shaping-up-as-indias-semiconductor-hub-building-on-its-strength-as-an-economic-powerhouse']
+}, {
   slug: 'real-constraint-behind-ai-infrastructure',
   no: 'S-008',
   title: 'The real constraint behind AI infrastructure',
   domain: 'AI Infrastructure',
   date: '2026-07-03',
   dateLabel: '3 Jul 2026',
-  status: 'monitoring',
+  status: 'live',
   excerpt: 'Not capital, not policy, not aggregate talent supply. The binding constraint on India’s 4.5–9 GW DC trajectory is local: transmission, water rights, fibre right-of-way and DISCOM-level interconnection-queue execution at the level of seven specific districts.',
   readingTime: '4 min',
-  body: [],
-  takeaways: [],
-  sources: ['https://www.india.gov.in/', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567']
+  body: [{
+  text: 'India\'s data-centre conversation is dominated by national aggregates — gigawatts announced, billions committed, a national AI mission funded. Those aggregates are real, but they are not where the build-out is won or lost. The binding constraint is local, and unglamorous: transmission, water rights, fibre right-of-way, and the execution capacity of individual distribution utilities.',
+  type: 'p'
+}, {
+  text: 'At the national level India has surplus generation and ample headline capital. Disaggregate to where the hyperscale and colocation pipeline actually clusters — a handful of districts around Mumbai, Chennai, Hyderabad, Pune, Noida and Bengaluru — and the picture changes. A campus needs firm power delivered to a specific substation, an interconnection approved and built by a specific distribution utility, water rights secured against competing urban demand, and fibre routed through congested right-of-way. Each is a local-execution problem on its own timeline, regardless of how much national capital is available.',
+  type: 'p'
+}, {
+  text: 'Why aggregates mislead',
+  type: 'h'
+}, {
+  text: 'Generation surplus does not equal deliverable power at a node. The constraint migrates from generation to transmission and to the last-mile interconnection queue — the sequence in which a utility energises new high-load connections. A campus can be financed and its servers ordered while the grid connection that makes them useful sits in a multi-year queue. Mature markets show the same pattern: in Northern Virginia and Dublin it was the local grid and the interconnection queue, not capital, that set the realistic ramp.',
+  type: 'p'
+}, {
+  text: 'The result is that the realistic 4.5-9 GW trajectory we model for India\'s data-centre build-out through 2030 is set district by district, not nationally. The spread between the low and high case is mostly a function of how quickly a small number of state utilities and transmission planners can execute — not of how much capital or policy intent exists.',
+  type: 'p'
+}, {
+  text: 'The signal to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Interconnection-queue throughput at the distribution utilities serving the top data-centre districts.', 'Dedicated transmission and substation build-out timelines versus campus commissioning dates.', 'Water allocations granted to data-centre clusters against competing municipal demand.', 'Fibre right-of-way approvals in congested metropolitan corridors.']
+}, {
+  text: 'The announcements will continue to be national; the execution will be local. Track the seven or eight districts where the pipeline concentrates, and watch the utilities and transmission planners that serve them — that is where India\'s AI-infrastructure ramp is actually decided.',
+  type: 'p'
+}],
+  takeaways: ['India\'s data-centre constraint is local execution — transmission, interconnection queues, water rights and fibre right-of-way — not national capital, policy or talent.', 'Generation surplus does not equal deliverable power at a node; the bottleneck sits in transmission and the DISCOM interconnection queue.', 'The 4.5-9 GW trajectory to 2030 is set district by district, and the spread reflects how fast a few state utilities can execute.'],
+  sources: ['https://cea.nic.in/', 'https://indiaai.gov.in/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
