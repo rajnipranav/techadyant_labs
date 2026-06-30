@@ -4,8 +4,22 @@ import { AtlasNav } from './AtlasNav';
 import { JsonLd, breadcrumb, SITE, ORG_REF } from './seo';
 import {
   corridorsOrdered, meta, rollup, gridForCorridor, playersForCorridor,
-  STATUS_COLORS, STATUS_SHORT, atlas, lastUpdated, recentEvents, corridorById,
+  STATUS_COLORS, STATUS_SHORT, atlas, lastUpdated,
 } from './atlas';
+import { reports } from '../reports/data';
+import { signals } from '../signals/data';
+
+// Latest developments — driven by the published reports + live signals catalogues,
+// which are regenerated from the CMS on every build. Publishing a new report or
+// signal makes it appear here automatically, newest-first.
+const LATEST = [
+  ...reports
+    .filter((r) => r.status === 'published')
+    .map((r) => ({ date: r.published, kind: 'Report', label: r.domain, title: r.title, href: `/reports/${r.slug}/` })),
+  ...signals
+    .filter((s) => s.status === 'live')
+    .map((s) => ({ date: s.date, kind: 'Signal', label: s.domain, title: s.title, href: `/signals/${s.slug}/` })),
+].sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0)).slice(0, 8);
 
 export const metadata: Metadata = {
   title: 'The Atlas — India’s industrial systems, mapped',
@@ -118,21 +132,19 @@ export default function AtlasOverview() {
             <div className="ed-kicker"><span className="live" /> What’s changed</div>
             <h2>Latest developments</h2>
           </div>
-          <Link href="/signals/" className="see-all">All signals →</Link>
+          <Link href="/reports/" className="see-all">All reports →</Link>
         </div>
         <ul className="atlas-feed" role="list">
-          {recentEvents(7).map((e) => {
-            const c = e.corridor_id ? corridorById(e.corridor_id) : null;
-            const m = c ? meta(c.code) : null;
-            return (
-              <li key={e.id} className="atlas-feed-row">
+          {LATEST.map((e) => (
+            <li key={e.href}>
+              <Link href={e.href} className="atlas-feed-row" style={{ textDecoration: 'none', color: 'inherit' }}>
                 <span className="afr-date">{new Date(e.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
-                {c && m && <span className="afr-corr" style={{ ['--accent' as string]: m.accent }}>{c.label}</span>}
-                <span className="afr-type">{e.type}</span>
+                <span className="afr-corr" style={{ ['--accent' as string]: '#C9A84C' }}>{e.label}</span>
+                <span className="afr-type">{e.kind}</span>
                 <span className="afr-title">{e.title}</span>
-              </li>
-            );
-          })}
+              </Link>
+            </li>
+          ))}
         </ul>
       </section>
 
