@@ -75,39 +75,33 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Assembly, test and packaging (ATMP/OSAT) is the layer most exposed to near-term ramp risk.', 'Substrate, lead-frame and high-purity chemical supply are thin and largely imported.', 'Packaging capacity, not wafer starts, is the more realistic 2026–28 employment story.'],
   sources: ['https://www.meity.gov.in/content/semiconductor', 'https://www.india.gov.in/']
 }, {
-  slug: 'advanced-packaging-binding-constraint',
-  no: 'S-007',
-  title: 'Advanced packaging is India’s binding AI constraint',
+  slug: 'visakhapatnam-coastal-ai',
+  no: 'S-006',
+  title: 'The Visakhapatnam coastal-AI thesis',
   domain: 'AI Infrastructure',
   date: '2026-05-29',
   dateLabel: '29 May 2026',
   status: 'live',
-  excerpt: 'India has built or is building twelve semiconductor projects worth ₹1.65 lakh crore. None of them produces the chips that AI accelerators are made from — because the binding constraint is not the fab, it is advanced packaging.',
-  readingTime: '5 min',
+  excerpt: 'The 71% concentration of India’s submarine-cable capacity at Mumbai and Chennai is the single largest geographic risk to Indian AI infrastructure. Visakhapatnam is the one project that materially diversifies it.',
+  readingTime: '4 min',
   body: [{
-  text: 'The India Semiconductor Mission has, by May 2026, approved twelve projects with cumulative announced capex of approximately ₹1.65 lakh crore — anchored by the Tata-PSMC fab at Dholera (₹91,000 crore, 50,000 WSPM at 28-110 nm), the Tata-TSAT OSAT in Assam (₹27,120 crore), the Micron Sanand OSAT (USD 2.75 billion), and four other OSAT facilities at Sanand and Surat. This is real industrial-policy success. But fabs at mature nodes do not produce the chips that power AI accelerators, and India has no announced CoWoS-class advanced packaging or HBM stacking capability — the two bottlenecks that gate every Nvidia, AMD or Intel AI accelerator made today.',
+  text: 'The geography of AI inference is decided by latency. Below ~50 ms end-to-end the difference is imperceptible; above 100 ms it becomes noticeable; above 200 ms real-time agentic workflows degrade. The latency budget pulls inference toward coastal cities where submarine cables land. India operates 17 international submarine cables across 16-17 cable landing stations. Mumbai hosts eight CLS; Chennai four. Combined, those two cities hold approximately 71% of national CLS capacity — the single largest geographic risk to Indian AI infrastructure.',
   type: 'p'
 }, {
-  text: 'CoWoS capacity has been oversubscribed through at least 2026; HBM3E allocation is fully committed through 2026. The global capacity is concentrated: TSMC ~75% of advanced 2.5D-packaging capacity, ASE ~15%, Amkor ~8%, with Samsung I-Cube and Intel Foveros holding the residual. India’s announced OSAT capacity does not address this — Tata’s Integrated System Packaging at Jagiroad is system-in-package level, not chiplet/HBM-class on an interposer.',
+  text: 'The strategic opening is Visakhapatnam. The Sify-led Open CLS at Visakhapatnam is the regulatory foundation; the AdaniConneX 200 MW → 1 GW campus is the platform; the Google AI hub of USD 15 billion across 2026–2030 (three Madhurawada tech-zone campuses, gigawatt-scale electricity, 100% renewable energy commitment, AdaniConneX scaling to 1 GW, Airtel-Nxtra partner role, associated subsea cable and clean-energy investment) is the economic anchor. Groundbreaking was April 2026.',
   type: 'p'
 }, {
-  text: 'What an Indian advanced-packaging facility would require',
+  text: 'Why it matters',
   type: 'h'
 }, {
-  text: 'A first-generation Indian CoWoP-equivalent facility producing 5,000–10,000 wafer-equivalent units per month requires capex in the range of USD 3–6 billion (₹25,000–50,000 crore) at full ramp — comparable to second-tier global competitors. The equipment list is concentrated in non-Indian OEMs (BESI, ASMPT, Hanmi for bonding; AMAT, Lam for TSV process; Veeco, Onto Innovation for inspection). Lead times in 2026 are 12–18 months for bonding tools and 18–24 months for TSV process tools. Customer qualification cycles from fabless customer to production order are 18–30 months. First commercial AI-class package: 2030–2032.',
+  text: 'By 2030 Visakhapatnam could plausibly hold 8–12% of national CLS capacity, materially diversifying coastal-fibre concentration. The water position is the most favourable of any rising-corridor district — Visakhapatnam is coastal with potential for captive desalination; CGWB stress classifications are benign relative to Bengaluru, Hyderabad or Chennai. APERC’s FY26 tariff order held rates flat with a ₹12,632 crore state subsidy. The bet is concentrated and binary: if Google-Adani executes on schedule, AP is transformed; if it slips 12–24 months, geographic concentration in Mumbai-Chennai persists.',
   type: 'p'
 }, {
-  text: 'The strategic case',
-  type: 'h'
-}, {
-  text: 'Three factors make this defensible. First, global capacity is structurally constrained — TrendForce projects CoWoS demand at 50% CAGR through 2027 against capacity growth of 35% CAGR. A second-source from a non-Taiwan, non-China geography is commercially valuable. Second, the technology is difficult but is not on a critical-IP control list in the way EUV lithography is. Third, India’s existing OSAT base provides a foundation of cleanroom labour and process-engineering talent.',
-  type: 'p'
-}, {
-  text: 'For the full analysis of the gap, the capex envelope and the customer-development path, see Section 11 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
+  text: 'For the corridor profile, the readiness-matrix score, and the relationship to the Sricity electronics cluster, see Section 25 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
   type: 'p'
 }],
-  takeaways: ['Every Nvidia H100, H200, B200, GB200, AMD MI300, Intel Gaudi 3 and Google TPU is a multi-die assembly bonded onto a 2.5D/3D advanced-packaging substrate (TSMC CoWoS, Intel EMIB/Foveros, ASE CoWoP).', 'No Indian OSAT has announced CoWoS-class capability. Tata Assam’s ISP is system-in-package; Micron, CG Semi, Kaynes and HCL-Foxconn are commodity wire-bond/flip-chip/DDIC. The gap is structural.', 'A first-generation Indian advanced-packaging facility needs USD 3–6 billion (₹25,000–50,000 crore) of capex, 12–24 month equipment lead-times, and a 4–5 year build, with first commercial shipment plausible in 2030–2032.'],
-  sources: ['https://www.meity.gov.in/content/semiconductor', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567']
+  takeaways: ['The AdaniConneX Visakhapatnam platform scales from 200 MW initial to 1 GW AI-ready capacity (Adani Group commitment ≈ USD 10 billion / ₹83,000 crore).', 'The associated Google AI hub is USD 15 billion over 2026–2030 across three Madhurawada tech-zone campuses, with a 100% renewable energy commitment and Sify-led Open CLS as the regulatory foundation.', 'Visakhapatnam’s water position (coastal, desalination-eligible, lower CGWB stress) is more favourable than any inland corridor city. The transmission build-out (dedicated 400 kV lines from southern AP) is the principal area of execution risk.'],
+  sources: ['https://pib.gov.in/PressReleasePage.aspx?PRID=2134567', 'https://www.meity.gov.in/']
 }, {
   slug: 'ai-corridor-competition',
   no: 'S-004',
@@ -171,33 +165,39 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Cooling and HVAC for AI infrastructure: ₹7,500–36,000 crore cumulative through 2030, Indian-vendor capture 35–55% by 2030.', 'Industrial automation: Indian-vendor share of a USD 12–18 billion market by 2030 — ₹25,000–60,000 crore through 2030.', 'Edge AI infrastructure across 30–50 Tier-2 cities: ₹10,000–45,000 crore capex, the most accessible category to Indian system integrators.'],
   sources: ['https://www.india.gov.in/', 'https://www.meity.gov.in/']
 }, {
-  slug: 'visakhapatnam-coastal-ai',
-  no: 'S-006',
-  title: 'The Visakhapatnam coastal-AI thesis',
+  slug: 'advanced-packaging-binding-constraint',
+  no: 'S-007',
+  title: 'Advanced packaging is India’s binding AI constraint',
   domain: 'AI Infrastructure',
   date: '2026-05-29',
   dateLabel: '29 May 2026',
   status: 'live',
-  excerpt: 'The 71% concentration of India’s submarine-cable capacity at Mumbai and Chennai is the single largest geographic risk to Indian AI infrastructure. Visakhapatnam is the one project that materially diversifies it.',
-  readingTime: '4 min',
+  excerpt: 'India has built or is building twelve semiconductor projects worth ₹1.65 lakh crore. None of them produces the chips that AI accelerators are made from — because the binding constraint is not the fab, it is advanced packaging.',
+  readingTime: '5 min',
   body: [{
-  text: 'The geography of AI inference is decided by latency. Below ~50 ms end-to-end the difference is imperceptible; above 100 ms it becomes noticeable; above 200 ms real-time agentic workflows degrade. The latency budget pulls inference toward coastal cities where submarine cables land. India operates 17 international submarine cables across 16-17 cable landing stations. Mumbai hosts eight CLS; Chennai four. Combined, those two cities hold approximately 71% of national CLS capacity — the single largest geographic risk to Indian AI infrastructure.',
+  text: 'The India Semiconductor Mission has, by May 2026, approved twelve projects with cumulative announced capex of approximately ₹1.65 lakh crore — anchored by the Tata-PSMC fab at Dholera (₹91,000 crore, 50,000 WSPM at 28-110 nm), the Tata-TSAT OSAT in Assam (₹27,120 crore), the Micron Sanand OSAT (USD 2.75 billion), and four other OSAT facilities at Sanand and Surat. This is real industrial-policy success. But fabs at mature nodes do not produce the chips that power AI accelerators, and India has no announced CoWoS-class advanced packaging or HBM stacking capability — the two bottlenecks that gate every Nvidia, AMD or Intel AI accelerator made today.',
   type: 'p'
 }, {
-  text: 'The strategic opening is Visakhapatnam. The Sify-led Open CLS at Visakhapatnam is the regulatory foundation; the AdaniConneX 200 MW → 1 GW campus is the platform; the Google AI hub of USD 15 billion across 2026–2030 (three Madhurawada tech-zone campuses, gigawatt-scale electricity, 100% renewable energy commitment, AdaniConneX scaling to 1 GW, Airtel-Nxtra partner role, associated subsea cable and clean-energy investment) is the economic anchor. Groundbreaking was April 2026.',
+  text: 'CoWoS capacity has been oversubscribed through at least 2026; HBM3E allocation is fully committed through 2026. The global capacity is concentrated: TSMC ~75% of advanced 2.5D-packaging capacity, ASE ~15%, Amkor ~8%, with Samsung I-Cube and Intel Foveros holding the residual. India’s announced OSAT capacity does not address this — Tata’s Integrated System Packaging at Jagiroad is system-in-package level, not chiplet/HBM-class on an interposer.',
   type: 'p'
 }, {
-  text: 'Why it matters',
+  text: 'What an Indian advanced-packaging facility would require',
   type: 'h'
 }, {
-  text: 'By 2030 Visakhapatnam could plausibly hold 8–12% of national CLS capacity, materially diversifying coastal-fibre concentration. The water position is the most favourable of any rising-corridor district — Visakhapatnam is coastal with potential for captive desalination; CGWB stress classifications are benign relative to Bengaluru, Hyderabad or Chennai. APERC’s FY26 tariff order held rates flat with a ₹12,632 crore state subsidy. The bet is concentrated and binary: if Google-Adani executes on schedule, AP is transformed; if it slips 12–24 months, geographic concentration in Mumbai-Chennai persists.',
+  text: 'A first-generation Indian CoWoP-equivalent facility producing 5,000–10,000 wafer-equivalent units per month requires capex in the range of USD 3–6 billion (₹25,000–50,000 crore) at full ramp — comparable to second-tier global competitors. The equipment list is concentrated in non-Indian OEMs (BESI, ASMPT, Hanmi for bonding; AMAT, Lam for TSV process; Veeco, Onto Innovation for inspection). Lead times in 2026 are 12–18 months for bonding tools and 18–24 months for TSV process tools. Customer qualification cycles from fabless customer to production order are 18–30 months. First commercial AI-class package: 2030–2032.',
   type: 'p'
 }, {
-  text: 'For the corridor profile, the readiness-matrix score, and the relationship to the Sricity electronics cluster, see Section 25 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
+  text: 'The strategic case',
+  type: 'h'
+}, {
+  text: 'Three factors make this defensible. First, global capacity is structurally constrained — TrendForce projects CoWoS demand at 50% CAGR through 2027 against capacity growth of 35% CAGR. A second-source from a non-Taiwan, non-China geography is commercially valuable. Second, the technology is difficult but is not on a critical-IP control list in the way EUV lithography is. Third, India’s existing OSAT base provides a foundation of cleanroom labour and process-engineering talent.',
+  type: 'p'
+}, {
+  text: 'For the full analysis of the gap, the capex envelope and the customer-development path, see Section 11 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
   type: 'p'
 }],
-  takeaways: ['The AdaniConneX Visakhapatnam platform scales from 200 MW initial to 1 GW AI-ready capacity (Adani Group commitment ≈ USD 10 billion / ₹83,000 crore).', 'The associated Google AI hub is USD 15 billion over 2026–2030 across three Madhurawada tech-zone campuses, with a 100% renewable energy commitment and Sify-led Open CLS as the regulatory foundation.', 'Visakhapatnam’s water position (coastal, desalination-eligible, lower CGWB stress) is more favourable than any inland corridor city. The transmission build-out (dedicated 400 kV lines from southern AP) is the principal area of execution risk.'],
-  sources: ['https://pib.gov.in/PressReleasePage.aspx?PRID=2134567', 'https://www.meity.gov.in/']
+  takeaways: ['Every Nvidia H100, H200, B200, GB200, AMD MI300, Intel Gaudi 3 and Google TPU is a multi-die assembly bonded onto a 2.5D/3D advanced-packaging substrate (TSMC CoWoS, Intel EMIB/Foveros, ASE CoWoP).', 'No Indian OSAT has announced CoWoS-class capability. Tata Assam’s ISP is system-in-package; Micron, CG Semi, Kaynes and HCL-Foxconn are commodity wire-bond/flip-chip/DDIC. The gap is structural.', 'A first-generation Indian advanced-packaging facility needs USD 3–6 billion (₹25,000–50,000 crore) of capex, 12–24 month equipment lead-times, and a 4–5 year build, with first commercial shipment plausible in 2030–2032.'],
+  sources: ['https://www.meity.gov.in/content/semiconductor', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567']
 }, {
   slug: 'netrasemi-a2000-edge-ai-silicon',
   no: 'S-012',
@@ -404,6 +404,55 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Two electronics projects worth Rs 6,750 crore — ASCENT-K Circuit (Rs 3,250 crore, advanced multi-layer PCBs) and Amber Enterprises (Rs 3,500 crore, HVAC components and PCB assembly) — were announced at Jewar on 27 June 2026.', 'They sit beside the Rs 3,700 crore HCL-Foxconn OSAT (the sixth India Semiconductor Mission unit, the first in Uttar Pradesh) and the new Jewar international airport — chip assembly, PCB, components and logistics in one corridor.', 'PCB localisation has cross-sector leverage (telecom, automotive, defence, drones, medical) against a roughly Rs 40,000 crore annual import bill, but laminates, chemicals and equipment remain upstream import dependencies.', 'The real test is supplier migration and logistics depth, not anchor groundbreakings: ecosystems form when tier-2 and tier-3 suppliers co-locate.'],
   sources: ['https://www.indiatvnews.com/uttar-pradesh/jewar-set-to-become-north-india-s-silicon-valley-as-yogi-vaishnaw-launch-rs-6-750-crore-electronics-project-2026-06-27-1046352', 'https://hcl.com/media_management/hcl-group-and-hon-hai-technology-group-foxconn-join-hands-to-set-up-semiconductor-manufacturing-unit-in-uttar-pradesh/', 'https://www.moneycontrol.com/news/business/jewar-set-to-become-india-s-leading-electronics-semiconductor-hub-ashwini-vaishnaw-13960175.html']
+}, {
+  slug: 'quantum-orders-industrial-policy',
+  no: 'S-014',
+  title: 'The Quantum Race Has Entered Its Industrial-Policy Phase',
+  domain: 'Strategic Technology',
+  date: '2026-06-30',
+  dateLabel: '30 June 2026',
+  status: 'live',
+  excerpt: 'The headlines are about a quantum computer by 2028. The more important development is that the United States has reclassified quantum from a research programme into an industrial and national-security strategy — with procurement deadlines, standards and supply-chain intent attached. The question for India is what its equivalent roadmap looks like.',
+  readingTime: '6 min',
+  body: [{
+  text: 'The headlines are about a quantum computer by 2028. The more important development is that the United States has reclassified quantum from a research programme into an industrial and national-security strategy — with procurement deadlines, standards and supply-chain intent attached. On 22 June 2026 two executive orders were signed: one to accelerate quantum innovation and commercialisation, the other to force a government-wide migration to post-quantum cryptography. Read together, they are less a science announcement than an industrial policy for the post-quantum era.',
+  type: 'p'
+}, {
+  text: 'What the two orders actually do',
+  type: 'h'
+}, {
+  text: 'The first order — Ushering in the Next Frontier of Quantum Innovation — establishes the Quantum Computer for Application Development and Discovery Science (QC-ADDS) effort, aimed at delivering at least one large-scale quantum computer to a Department of Energy facility for scientific use, and promotes quantum sensing and networking alongside computing. The second — Securing the Nation Against Advanced Cryptographic Attacks — sets hard deadlines: federal agencies must move their most sensitive systems to NIST post-quantum encryption by 31 December 2030 and to post-quantum authentication by 31 December 2031, federal contractors must meet post-quantum cryptographic standards by end-2030, and the Department of Commerce must run a migration pilot due by the end of 2027.',
+  type: 'p'
+}, {
+  text: 'The decisive word in all of that is procurement. Deadlines, plus contractor mandates, plus standards, turn a cryptography transition into a market: every agency, and every company that sells to one, now carries a dated obligation to buy and deploy. That is the mechanism by which research becomes an industry.',
+  type: 'p'
+}, {
+  text: 'Why this is an ecosystem story, not a computing story',
+  type: 'h'
+}, {
+  text: 'The orders treat computing, sensing, networking, cryptography, standards, procurement and manufacturing as one programme rather than funding isolated technologies. The downstream demand is broad. Quantum processors need specialised fabrication, advanced packaging and cryogenic control electronics. Post-quantum migration creates sustained demand for encryption software, hardware security modules, key- and identity-management and compliance services. Quantum sensing pulls in photonics, precision materials and navigation systems for defence and critical infrastructure. And QC-ADDS frames quantum as a tool for materials, chemistry and energy discovery — industrial, not academic. The pattern is the one we keep returning to: a state building an ecosystem, not buying a machine.',
+  type: 'p'
+}, {
+  text: 'Where this lands for India',
+  type: 'h'
+}, {
+  text: 'India is not the subject of these orders, but it is affected by them, and the more useful question for an Indian reader is what equivalent roadmap they imply. India has a National Quantum Mission and CERT-In and MeitY guidance, but it does not yet have the binding, dated procurement architecture the United States has just adopted — the deadlines, the contractor mandates, the standards lock-in. The exposure and the opportunity sit in the same places.',
+  type: 'p'
+}, {
+  text: 'On cryptography, the migration clock is global. Harvest-now-decrypt-later means data exfiltrated today can be broken once a cryptographically relevant quantum computer exists, so Indian banks, telecom operators, defence systems and government records carry the same latent risk regardless of US timelines — which makes post-quantum migration a procurement question for them too, not only a technical one. On hardware, the build-out of quantum processors, cryogenics and sensing opens supply-chain surfaces — advanced packaging, specialised electronics, photonics, precision materials — adjacent to capabilities India is already trying to build in semiconductors and electronics. On sensing, quantum-enabled navigation, underground detection and infrastructure monitoring are under-built in India and dual-use by nature. The common thread is that a US industrial policy sets the standards and the pace; India either aligns deliberately or inherits the timeline by default.',
+  type: 'p'
+}, {
+  text: 'The signal to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether India attaches dated post-quantum migration mandates to government and critical-infrastructure procurement, rather than issuing guidance.', 'NIST-standard alignment in Indian financial-sector and telecom security rules (RBI, SEBI, TRAI, CERT-In).', 'National Quantum Mission allocations that fund hardware supply chains and sensing, not only computing research.', 'Indian cybersecurity vendors building post-quantum, HSM and key-management products versus reselling foreign ones.', 'Whether Indian semiconductor and electronics capacity is positioned for cryogenic electronics, packaging and photonics demand.']
+}, {
+  text: 'The United States has aligned research, procurement, manufacturing, standards and cybersecurity around quantum technologies on a fixed clock. The question that matters for India is not what Washington decided, but what India\'s equivalent roadmap looks like — and whether it arrives as deliberate industrial policy, or as a deadline inherited from someone else\'s.',
+  type: 'p'
+}],
+  takeaways: ['Two US executive orders (22 June 2026) reclassify quantum from research to industrial and national-security strategy — accelerating commercialisation while mandating a dated, government-wide post-quantum cryptography migration.', 'Hard deadlines (federal PQC encryption by 31 Dec 2030, authentication by 2031, contractor standards by 2030, a Commerce pilot by 2027) turn cryptography migration into a procurement market, not just a technical upgrade.', 'The orders create demand across semiconductors, packaging and cryogenics, cybersecurity (PQC, HSMs, key and identity management), quantum sensing and materials — an ecosystem, not a single machine.', 'For India the exposure is identical — harvest-now-decrypt-later threatens banks, telecom, defence and government data — but the binding procurement architecture is missing; the opening is to align standards and fund hardware and sensing, not only research.'],
+  sources: ['https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/', 'https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/', 'https://www.cybersecuritydive.com/news/quantum-cryptography-white-house-executive-order/823530/', 'https://www.reuters.com/legal/litigation/trump-signs-orders-calling-powerful-quantum-computer-targeting-2028-2026-06-22/']
 }, {
   slug: 'dholera-water-signal',
   no: 'S-001',

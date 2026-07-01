@@ -311,6 +311,48 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'beyond-quantum-computing',
+  title: 'Beyond Quantum Computing',
+  subtitle: 'Hidden Industrial Opportunity Surfaces in India\'s Emerging Quantum Ecosystem',
+  domain: 'Strategic Technology',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-07-01',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 2.5h read',
+  status: 'published',
+  summary: 'India\'s quantum conversation is dominated by the race to build a quantum computer. The larger story is the industrial ecosystem forming around it — computing, communication, sensing, cryogenics, photonics and post-quantum security — and where India can actually capture value. Backed by the ₹6,003 crore National Quantum Mission, India leads at the quantum-security and software layers (QKD, QRNG, full-stack systems) yet imports an estimated ~90% of the critical hardware beneath them. This report maps the emerging ecosystem layer by layer, scores the opportunity surfaces, and identifies where India\'s startups, MSMEs and investors can build beyond the quantum computer itself.',
+  accent: '#818CF8',
+  access: 'paid',
+  price: 4999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 135,
+  cover: 'https://lkqojucjkpxhcngtstfy.supabase.co/storage/v1/object/public/covers/beyond-quantum-computing-1782909148721.jpg',
+  previewObject: 'reports-free/beyond-quantum-computing-free.pdf',
+  previewPages: 15,
+  keywords: ['India quantum ecosystem', 'National Quantum Mission', 'QKD India', 'quantum sensing India', 'post-quantum cryptography', 'quantum hardware supply chain', 'QpiAI', 'QNu Labs', 'cryogenics India', 'quantum opportunity India'],
+  faq: [{
+  a: 'The larger opportunity is the surrounding ecosystem — quantum communication and security (QKD/QRNG), sensing, cryogenics, photonics, materials and post-quantum software — where India can capture value without first winning the race to the largest quantum computer.',
+  q: 'What is India\'s opportunity in quantum beyond building a quantum computer?'
+}, {
+  a: 'India imports an estimated ~90% of the critical quantum-computing subsystems — dilution refrigerators, control electronics, lasers, single-photon detectors and high-purity substrates — while leading at the security and software layers.',
+  q: 'How dependent is India on imported quantum hardware?'
+}, {
+  a: 'A Rs 6,003.65 crore national programme (2023-2031) with four thematic hubs — computing, communication, sensing and metrology, and materials and devices — targeting 50-1000 qubit machines and long-range quantum communication.',
+  q: 'What is the National Quantum Mission?'
+}],
+  sources: [],
+  dateModified: '2026-07-01',
+  seo: {
+  entities: ['National Quantum Mission', 'QKD', 'quantum sensing', 'post-quantum cryptography', 'QpiAI', 'QNu Labs'],
+  aiSummary: 'Beyond Quantum Computing maps India\'s emerging quantum ecosystem — computing, communication/security (QKD/QRNG), sensing, cryogenics, photonics, materials and post-quantum software. Backed by the Rs 6,003 crore National Quantum Mission, India leads at the security and software layers but imports ~90% of critical quantum hardware; the report scores the opportunity surfaces for startups, MSMEs and investors.',
+  metaTitle: 'Beyond Quantum Computing: India\'s Quantum Opportunity',
+  schemaType: 'Report',
+  focusKeyword: 'India quantum ecosystem',
+  metaDescription: 'Beyond the race to build a quantum computer lies an industrial ecosystem — QKD, sensing, cryogenics, photonics and post-quantum security. Where India can capture value, backed by the Rs 6,003 crore National Quantum Mission.'
+}
+}, {
   slug: 'indias-unmanned-warfare-transformation',
   title: 'India’s Unmanned Warfare Transformation',
   subtitle: 'Reconstructing the Indian Army Roadmap for Unmanned Aerial Systems and Loitering Munitions, 2026–2035 — and Pricing the Industrial Opportunity Beneath It',
@@ -397,49 +439,6 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
-  slug: 'india-drone-sensors-payloads-imaging-market',
-  title: 'India Drone Sensors, Payloads & Imaging Systems Market',
-  subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Opportunity · Edition 1 · v1.0',
-  published: '2026-06-16',
-  publishedLabel: 'June 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'A drone is only as capable as what it can sense, and India imports most of that capability. The market for drone sensors, payloads and imaging systems is valued at roughly US$190–210 million in 2026 and modelled to reach US$1.1–1.5 billion by 2035 at a 22–26% CAGR — but 70–80% of high-grade sensor demand is met by imports: LiDAR is about 85% imported, thermal about 80%, and inertial measurement units about 70%, sourced mainly from China, Taiwan and the United States. This report sizes the market segment by segment (sensor type, end-use sector, UAV class, component tier and region), maps the import-dependence and localisation roadmap, profiles the competitive landscape — ideaForge, Eon Space Labs, Garuda Aerospace, BEL and the international suppliers — and runs a ten-year forecast across three scenarios. It tracks the structural shifts now reshaping value capture: the move from discrete sensors to integrated, pre-calibrated payloads, the rise of Drone-as-a-Service and data monetisation over hardware, and indigenous breakthroughs such as Eon Space Labs’ germanium-free thermal imaging that cuts system cost 60–70%. Thirteen chapters, 50 figures, 137 tables, and a full segmentation and forecast model.',
-  accent: '#2BC5B4',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 143,
-  cover: '/covers/india-drone-sensors-payloads-imaging-market.jpg',
-  previewObject: 'reports-free/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
-  previewPages: 6,
-  keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
-  faq: [{
-  a: 'About US$190–210 million in 2026, modelled to reach US$1.1–1.5 billion by 2035 — a 22–26% CAGR. LiDAR is the fastest-growing category at over 35% CAGR, driven by infrastructure inspection, mining volumetrics and corridor mapping.',
-  q: 'How big is India’s drone sensors and payloads market?'
-}, {
-  a: 'Heavily. Roughly 70–80% of high-grade drone-sensor demand is imported — about 85% of LiDAR, 80% of thermal cores and 70% of inertial measurement units — sourced mainly from China, Taiwan and the United States. The localisation gap, not the platform, is where the strategic exposure sits.',
-  q: 'How dependent is India on imported drone sensors?'
-}, {
-  a: 'It is an indigenous thermal-imaging approach pioneered by Eon Space Labs that avoids germanium optics, whose 2024 supply crisis brought seven-month lead times and ten-fold cost spikes. The germanium-free architecture lowers system cost by 60–70% and reaches roughly 80% local manufacturing, proving import dependence can be engineered around rather than simply replicated.',
-  q: 'What is germanium-free thermal imaging and why does it matter?'
-}, {
-  a: 'Drone-as-a-Service. Value is shifting from selling hardware to monetising the data the sensors capture, with DaaS margins of 50–65% against hardware margins of 25–35%. Buyers increasingly want actionable intelligence — orthomosaics, point clouds, NDVI layers — not raw sensors.',
-  q: 'Which business model is winning in India’s drone-sensing market?'
-}, {
-  a: 'ideaForge leads on certification and integrated payload ecosystems; Eon Space Labs holds proprietary germanium-free thermal with about 80% localisation; Garuda Aerospace runs the largest agricultural DaaS fleet; and BEL brings defence-PSU radar capability. International suppliers still hold the high-spec LiDAR and thermal cores.',
-  q: 'Who are the leading players in India’s drone sensor and payload market?'
-}],
-  sources: [],
-  dateModified: '2026-06-16',
-  seo: {
-
-}
-}, {
   slug: 'the-end-of-the-application-era',
   title: 'Who Captures Computing When the Application Disappears?',
   subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
@@ -476,6 +475,49 @@ export const reports: ReportMeta[] = [{
 }, {
   a: 'India is AIMS-dependent but sovereignty-strong: its public digital infrastructure (Aadhaar, UPI, MOSIP) and expanding sovereign compute give it a credible, time-limited advantage. The leapfrog runs through agent-aware design of that public infrastructure and through the identity and consent layer — not through trying to out-build hyperscalers on raw compute.',
   q: 'Where can India capture value in the post-application era?'
+}],
+  sources: [],
+  dateModified: '2026-06-16',
+  seo: {
+
+}
+}, {
+  slug: 'india-drone-sensors-payloads-imaging-market',
+  title: 'India Drone Sensors, Payloads & Imaging Systems Market',
+  subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-06-16',
+  publishedLabel: 'June 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'A drone is only as capable as what it can sense, and India imports most of that capability. The market for drone sensors, payloads and imaging systems is valued at roughly US$190–210 million in 2026 and modelled to reach US$1.1–1.5 billion by 2035 at a 22–26% CAGR — but 70–80% of high-grade sensor demand is met by imports: LiDAR is about 85% imported, thermal about 80%, and inertial measurement units about 70%, sourced mainly from China, Taiwan and the United States. This report sizes the market segment by segment (sensor type, end-use sector, UAV class, component tier and region), maps the import-dependence and localisation roadmap, profiles the competitive landscape — ideaForge, Eon Space Labs, Garuda Aerospace, BEL and the international suppliers — and runs a ten-year forecast across three scenarios. It tracks the structural shifts now reshaping value capture: the move from discrete sensors to integrated, pre-calibrated payloads, the rise of Drone-as-a-Service and data monetisation over hardware, and indigenous breakthroughs such as Eon Space Labs’ germanium-free thermal imaging that cuts system cost 60–70%. Thirteen chapters, 50 figures, 137 tables, and a full segmentation and forecast model.',
+  accent: '#2BC5B4',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 143,
+  cover: '/covers/india-drone-sensors-payloads-imaging-market.jpg',
+  previewObject: 'reports-free/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
+  previewPages: 6,
+  keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
+  faq: [{
+  a: 'About US$190–210 million in 2026, modelled to reach US$1.1–1.5 billion by 2035 — a 22–26% CAGR. LiDAR is the fastest-growing category at over 35% CAGR, driven by infrastructure inspection, mining volumetrics and corridor mapping.',
+  q: 'How big is India’s drone sensors and payloads market?'
+}, {
+  a: 'Heavily. Roughly 70–80% of high-grade drone-sensor demand is imported — about 85% of LiDAR, 80% of thermal cores and 70% of inertial measurement units — sourced mainly from China, Taiwan and the United States. The localisation gap, not the platform, is where the strategic exposure sits.',
+  q: 'How dependent is India on imported drone sensors?'
+}, {
+  a: 'It is an indigenous thermal-imaging approach pioneered by Eon Space Labs that avoids germanium optics, whose 2024 supply crisis brought seven-month lead times and ten-fold cost spikes. The germanium-free architecture lowers system cost by 60–70% and reaches roughly 80% local manufacturing, proving import dependence can be engineered around rather than simply replicated.',
+  q: 'What is germanium-free thermal imaging and why does it matter?'
+}, {
+  a: 'Drone-as-a-Service. Value is shifting from selling hardware to monetising the data the sensors capture, with DaaS margins of 50–65% against hardware margins of 25–35%. Buyers increasingly want actionable intelligence — orthomosaics, point clouds, NDVI layers — not raw sensors.',
+  q: 'Which business model is winning in India’s drone-sensing market?'
+}, {
+  a: 'ideaForge leads on certification and integrated payload ecosystems; Eon Space Labs holds proprietary germanium-free thermal with about 80% localisation; Garuda Aerospace runs the largest agricultural DaaS fleet; and BEL brings defence-PSU radar capability. International suppliers still hold the high-spec LiDAR and thermal cores.',
+  q: 'Who are the leading players in India’s drone sensor and payload market?'
 }],
   sources: [],
   dateModified: '2026-06-16',
