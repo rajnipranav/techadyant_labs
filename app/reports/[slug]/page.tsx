@@ -254,7 +254,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
             </ReportReader>
           ) : (
             <section className="wrap-narrow" style={{ paddingTop: 24 }}>
-              <p className="serif" style={{ color: 'var(--text-muted)' }}>The full report is coming online shortly.</p>
+              <p className="serif" style={{ color: 'var(--text-muted)' }}>This report is delivered as a downloadable PDF — use the access panel above to read or download the full edition.</p>
             </section>
           )}
 

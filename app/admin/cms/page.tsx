@@ -275,15 +275,15 @@ function CmsAdminInner() {
     setCreating(false);
   };
 
-  const save = async () => {
-    if (!editing) return;
+  const save = async (): Promise<boolean> => {
+    if (!editing) return false;
     if (type === 'reports') {
       const miss: string[] = [];
       if (!editing.slug) miss.push('slug');
       if (!editing.title) miss.push('title');
       if (!editing.published) miss.push('published date');
       if (editing.access === 'paid' && !editing.price) miss.push('price (required for paid access)');
-      if (miss.length) { setError('Please fill required fields: ' + miss.join(', ')); return; }
+      if (miss.length) { setError('Please fill required fields: ' + miss.join(', ')); return false; }
     }
     setSaving(true);
     setError(null);
@@ -298,7 +298,9 @@ function CmsAdminInner() {
       await load();
       setEditing(null);
       setCreating(false);
-    } catch (e: any) { setError(String(e.message || e)); }
+      setPublishMsg('✓ Saved to the CMS. Click “Publish” to rebuild the site and push it live.');
+      return true;
+    } catch (e: any) { setError(String(e.message || e)); return false; }
     finally { setSaving(false); }
   };
 
@@ -315,8 +317,7 @@ function CmsAdminInner() {
     await load();
   };
 
-  const publish = async () => {
-    if (!confirm('Publish all CMS changes now? This triggers a full site rebuild; changes go live in ~1–2 minutes.')) return;
+  const runDeploy = async (): Promise<boolean> => {
     setPublishing(true);
     setPublishMsg('');
     try {
@@ -324,11 +325,24 @@ function CmsAdminInner() {
       const j = await r.json().catch(() => ({}));
       if (!r.ok) throw new Error(j?.error || `HTTP ${r.status}`);
       setPublishMsg('✓ Rebuild triggered — changes go live in ~1–2 minutes.');
+      return true;
     } catch (e: any) {
       setPublishMsg('Publish failed: ' + String(e.message || e));
+      return false;
     } finally {
       setPublishing(false);
     }
+  };
+
+  const publish = async () => {
+    if (!confirm('Rebuild the site now? This pushes all SAVED CMS changes live in ~1–2 minutes. It does NOT save any form you have open — Save that first.')) return;
+    await runDeploy();
+  };
+
+  // Save the open form, then (only if the save succeeded) trigger the rebuild.
+  const saveAndPublish = async () => {
+    const ok = await save();
+    if (ok) await runDeploy();
   };
 
   const update = (key: string, value: any) => setEditing((prev: any) => ({ ...prev, [key]: value }));
@@ -407,8 +421,9 @@ function CmsAdminInner() {
             value={editing}
             onChange={setEditing}
             onSave={save}
+            onSavePublish={saveAndPublish}
             onCancel={() => { setEditing(null); setCreating(false); }}
-            saving={saving}
+            saving={saving || publishing}
             title={creating ? `New ${type.slice(0, -1)}` : `Edit ${editing.slug}`}
           />
         )}
@@ -417,7 +432,7 @@ function CmsAdminInner() {
   );
 }
 
-function CmsForm(props: { type: CmsType; value: any; onChange: (v: any) => void; onSave: () => void; onCancel: () => void; saving: boolean; title: string }) {
+function CmsForm(props: { type: CmsType; value: any; onChange: (v: any) => void; onSave: () => void; onSavePublish: () => void; onCancel: () => void; saving: boolean; title: string }) {
   const value = props.value;
   const update = props.onChange;
   const [jsonFields, setJsonFields] = useState<Record<string, string>>({});
@@ -558,9 +573,13 @@ function CmsForm(props: { type: CmsType; value: any; onChange: (v: any) => void;
           </>
         )}
 
-        <div style={{ marginTop: 18, display: 'flex', gap: 10 }}>
-          <button className="admin-btn" onClick={props.onSave} disabled={props.saving}>{props.saving ? 'Saving…' : 'Save'}</button>
+        <div style={{ marginTop: 18, display: 'flex', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
+          <button className="admin-btn" style={{ background: '#1D9E75' }} onClick={props.onSavePublish} disabled={props.saving}>{props.saving ? 'Working…' : 'Save & Publish'}</button>
+          <button className="admin-btn" onClick={props.onSave} disabled={props.saving}>{props.saving ? 'Saving…' : 'Save (draft)'}</button>
           <button className="admin-btn" style={{ background: '#333' }} onClick={props.onCancel} disabled={props.saving}>Cancel</button>
+          <span style={{ fontSize: 11, color: '#8A8A98', flexBasis: '100%' }}>
+            <b>Save & Publish</b> stores this report and rebuilds the site (live in ~1–2 min). <b>Save (draft)</b> stores it without rebuilding — use the top “Publish” button later to push all saved changes live. The top “Publish” button never saves an open form.
+          </span>
         </div>
       </div>
     </div>

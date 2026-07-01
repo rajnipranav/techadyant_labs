@@ -7,6 +7,13 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'beyond-quantum-computing': {
+    access: 'paid',
+    priceInr: 4999,
+    object: 'Beyond-Quantum-Computing.pdf',
+    filename: 'Beyond-Quantum-Computing-Techadyant-Labs.pdf',
+    title: 'Beyond Quantum Computing',
+  },
   'indias-unmanned-warfare-transformation': {
     access: 'paid',
     priceInr: 7499,
