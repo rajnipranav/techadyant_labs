@@ -6,8 +6,9 @@ import Link from 'next/link';
 import { reports } from '../reports/data';
 import { signals } from '../signals/data';
 import { allPlayers, playerSlug, corridorsOrdered, meta, corridorByCode } from '../research/atlas';
+import { ENTITY_KIND_LABELS, graphEntities } from '../research/graph';
 
-type Kind = 'report' | 'signal' | 'player' | 'corridor';
+type Kind = 'report' | 'signal' | 'player' | 'corridor' | 'entity';
 interface Item { kind: Kind; title: string; url: string; summary?: string; extra?: string; score: number; }
 interface ResultGroup { key: string; label: string; items: Item[]; }
 
@@ -63,10 +64,19 @@ function SearchResults() {
       })
       .filter((x): x is Item => Boolean(x)).sort((a, b) => b.score - a.score).slice(0, 20);
 
+    const entityItems: Item[] = graphEntities
+      .filter((e) => !['report', 'signal'].includes(e.kind))
+      .map((e): Item | null => {
+        const score = Math.max(matchScore(e.title, q), matchScore(e.summary ?? '', q), matchScore(e.tags.join(' '), q), matchScore(ENTITY_KIND_LABELS[e.kind], q));
+        return score > 0 ? { kind: 'entity' as const, title: e.title, url: `/research/entities/${e.slug}`, summary: e.summary, extra: `${ENTITY_KIND_LABELS[e.kind]}${e.country ? ' · ' + e.country : ''}`, score } : null;
+      })
+      .filter((x): x is Item => Boolean(x)).sort((a, b) => b.score - a.score).slice(0, 20);
+
     return ([
       { key: 'reports', label: 'Reports', items: reportItems },
       { key: 'corridors', label: 'Corridors', items: corridorItems },
       { key: 'signals', label: 'Signals', items: signalItems },
+      { key: 'entities', label: 'Atlas entities', items: entityItems },
       { key: 'players', label: 'Players & suppliers', items: playerItems },
     ] as ResultGroup[]).filter((g) => g.items.length > 0);
   }, [q]);

@@ -4,6 +4,7 @@ import { THEMES } from './reports/themes';
 import { signals } from './signals/data';
 import { issues } from './newsletter/data';
 import { allPlayers, playerSlug, corridorsOrdered, meta as corridorMeta } from './research/atlas';
+import { graphEntities } from './research/graph';
 import { corridors as indCorridors } from './corridors/data';
 import { allCorridorNodePairs } from './corridors/node-data';
 
@@ -31,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/about/`,     lastModified: now, changeFrequency: 'yearly',  priority: 0.4 },
     { url: `${SITE}/methodology/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE}/research/dependencies/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE}/research/entities/`,     lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE}/research/players/`,      lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
     { url: `${SITE}/research/methodology/`,  lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${SITE}/research/supply-chains/`, lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
@@ -92,6 +94,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${SITE}/research/players/${playerSlug(pl.id)}/`,
     lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5,
   }));
+  const entityRoutes: MetadataRoute.Sitemap = graphEntities.map((entity) => ({
+    url: `${SITE}/research/entities/${entity.slug}/`,
+    lastModified: entity.updatedAt ? new Date(entity.updatedAt) : now,
+    changeFrequency: 'monthly' as const,
+    priority: entity.kind === 'company' || entity.kind === 'ecosystem' ? 0.65 : 0.55,
+  }));
 
   const indCorridorRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE}/corridors/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 },
@@ -101,5 +109,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const corridorNodeRoutes: MetadataRoute.Sitemap = allCorridorNodePairs().map((p) => ({ url: `${SITE}/corridors/${p.corridor}/${p.node}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 }));
 
-  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes];
+  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes];
 }
