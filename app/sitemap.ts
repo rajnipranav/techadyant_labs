@@ -3,7 +3,7 @@ import { reports } from './reports/data';
 import { THEMES } from './reports/themes';
 import { signals } from './signals/data';
 import { issues } from './newsletter/data';
-import { allPlayers, playerSlug, corridorsOrdered, meta as corridorMeta } from './research/atlas';
+import { allPlayers, playerSlug, corridorsOrdered, meta as corridorMeta, lastUpdated as atlasUpdated } from './research/atlas';
 import { graphEntities } from './research/graph';
 import { corridors as indCorridors } from './corridors/data';
 import { allCorridorNodePairs } from './corridors/node-data';
@@ -18,8 +18,28 @@ const SITE = 'https://labs.techadyant.com';
  *  picks this up automatically. Updated on every build, so freshly-published
  *  reports/signals/briefings appear in the next deploy's sitemap without any
  *  manual maintenance. */
+// Parse a date string to epoch ms; returns 0 for missing/invalid values so it
+// never throws and never wins the Math.max() below.
+function toTime(d?: string): number {
+  const t = d ? Date.parse(d) : NaN;
+  return Number.isNaN(t) ? 0 : t;
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  // `now` is a STABLE "site last-updated" date derived from real content dates,
+  // NOT the build time. Previously this was `new Date()`, so all 400+ pages
+  // without their own date shared a timestamp that changed on every deploy —
+  // which tells Google nothing about what actually changed and makes it
+  // de-prioritise re-crawling. This value only moves when new content ships.
+  // Per-item pages (reports, signals, issues, entities) keep their own dates.
+  const contentDates: number[] = [
+    ...reports.filter((r) => r.status === 'published').map((r) => toTime(r.published)),
+    ...signals.filter((s) => s.status !== 'placeholder').map((s) => toTime(s.date)),
+    ...issues.map((i) => toTime(i.date)),
+    toTime(atlasUpdated),
+  ];
+  const maxContent = Math.max(0, ...contentDates);
+  const now = maxContent > 0 ? new Date(maxContent) : new Date();
 
   // Stable top-level pages.
   const staticRoutes: MetadataRoute.Sitemap = [
