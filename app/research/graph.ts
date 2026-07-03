@@ -130,7 +130,6 @@ function playerToEntity(player: Player): AtlasGraphEntity {
 
 function reportEntities(): AtlasGraphEntity[] {
   return reports
-    .filter((r) => r.status === 'published')
     .map((r) => ({
       id: idFor('report', r.slug),
       slug: r.slug,
