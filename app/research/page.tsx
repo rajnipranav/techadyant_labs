@@ -165,6 +165,11 @@ export default function AtlasOverview() {
             <p>India’s industrial-policy record — roadmaps, schemes, Acts and notifications — in one organised, searchable library.</p>
             <span className="see-all">Open the library →</span>
           </Link>
+          <Link href="/resources/" className="atlas-entry">
+            <div className="ae-k">Cite &amp; Embed</div>
+            <p>Reference or link the Atlas in your own work — ready-made citations and embed snippets, free with attribution.</p>
+            <span className="see-all">Cite the research →</span>
+          </Link>
         </div>
       </section>
     </>
