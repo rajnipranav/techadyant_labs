@@ -8,6 +8,9 @@ import { ReportAccess } from '../../components/ReportAccess';
 import { PremiumBody } from '../../components/PremiumBody';
 import { ReportCover } from '../../components/ReportCover';
 import { ReportReader, type TocItem } from '../../components/ReportReader';
+import { ShareBar } from '../../components/ShareBar';
+import { RelatedContent } from '../../components/RelatedContent';
+import { Comments } from '../../components/Comments';
 import { ReportContent as FabContent, toc as fabToc } from '../content/india-fab-ecosystem';
 import { ReportContent as AiTransitionContent, toc as aiTransitionToc } from '../content/india-ai-industrial-transition-2026-2035';
 import { ReportContent as MineralsContent, toc as mineralsToc } from '../content/who-actually-captures-the-india-us-minerals-alliance';
@@ -333,6 +336,16 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           </div>
         </section>
       ) : null}
+      {published ? (
+        <>
+          <section className="wrap-narrow" style={{ paddingTop: 8, paddingBottom: 4 }}>
+            <ShareBar title={meta.title} />
+          </section>
+          <RelatedContent kind="report" slug={meta.slug} domain={meta.domain} />
+          <Comments />
+        </>
+      ) : null}
+
       <div className="report-cta">
         <div className="report-cta-inner">
           <div>

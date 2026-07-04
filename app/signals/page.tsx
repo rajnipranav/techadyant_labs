@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { signals as staticSignals } from './data';
 import { getSignals } from '../lib/cms';
+import SignalsBrowser from './SignalsBrowser';
 
 export const metadata: Metadata = {
   title: 'Signals',
@@ -32,33 +33,7 @@ export default async function SignalsIndex() {
       </header>
 
       <section className="wrap">
-        <div className="rule-top">
-          {signals.map((s) => {
-            const inner = (
-              <>
-                <div className="sr-no">{s.no}</div>
-                <div>
-                  <div className="signal-meta">
-                    <span className="sig-domain">{s.domain}</span>
-                    {s.status === 'live' && <span className="sig-status"><span className="dot" /> Live</span>}
-                    {s.status === 'monitoring' && <span style={{ color: 'var(--text-muted)' }}>Monitoring</span>}
-                    {s.status === 'placeholder' && <span style={{ color: 'var(--text-dim)' }}>Draft · placeholder</span>}
-                    <span className="sig-date">{s.dateLabel ?? s.date_label}{(((s.readingTime ?? s.reading_time) || '') as string).trim() ? ` · ${s.readingTime ?? s.reading_time}` : ''}</span>
-                  </div>
-                  <div className="signal-title" style={s.status === 'placeholder' ? { fontStyle: 'italic', color: 'var(--text-dim)' } : undefined}>
-                    {s.title}
-                  </div>
-                  <p className="signal-excerpt">{s.excerpt}</p>
-                </div>
-              </>
-            );
-            return s.status === 'placeholder' ? (
-              <div key={s.slug} className="signal-row" style={{ opacity: 0.62 }}>{inner}</div>
-            ) : (
-              <Link key={s.slug} href={`/signals/${s.slug}/`} className="signal-row">{inner}</Link>
-            );
-          })}
-        </div>
+        <SignalsBrowser initialData={signals} />
       </section>
     </>
   );

@@ -9,6 +9,7 @@ import { AuthControls } from './components/AuthControls';
 import { AuthModal } from './components/AuthModal';
 import { MobileNav } from './components/MobileNav';
 import { MastheadSearch } from './components/MastheadSearch';
+import { Clarity } from './components/Clarity';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
 const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-jetbrains', display: 'swap' });
@@ -222,6 +223,7 @@ gtag('config', 'G-916MZ965VB');`,
             </footer>
 
             <AuthModal />
+            <Clarity />
           </AuthProvider>
         </ThemeProvider>
       </body>

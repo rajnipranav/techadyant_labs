@@ -106,6 +106,34 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── Start here (new-visitor guided path) ── */}
+      <section className="wrap" aria-labelledby="start-here-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker">New to Techadyant Labs?</div>
+            <h2 id="start-here-h">Start here</h2>
+          </div>
+          <p className="section-note">Three ways in, depending on how much time you have.</p>
+        </div>
+        <div className="atlas-entrypoints">
+          <Link href="/research/" className="atlas-entry">
+            <div className="ae-k">Explore · 5 min</div>
+            <p>Open the Atlas — a free, interactive map of India’s industrial ecosystems, their players and the layers India still imports.</p>
+            <span className="see-all">Open the Atlas →</span>
+          </Link>
+          <Link href="/reports/the-end-of-the-application-era/" className="atlas-entry">
+            <div className="ae-k">Read · free report</div>
+            <p>Start with a flagship, open-access report to see how we work a single strategic question through to its beneficiaries.</p>
+            <span className="see-all">Read a free report →</span>
+          </Link>
+          <Link href="/signals/" className="atlas-entry">
+            <div className="ae-k">Skim · latest</div>
+            <p>Browse Signals — compact, information-dense dispatches on structural change as it happens.</p>
+            <span className="see-all">Browse signals →</span>
+          </Link>
+        </div>
+      </section>
+
       {/* ── Featured report ── */}
       <section className="wrap" aria-labelledby="featured-h">
         <div className="section-head-ed">
@@ -123,7 +151,7 @@ export default function HomePage() {
           <div className="featured-visual">
             <span className="featured-tag">★ Featured</span>
             {featured.cover ? (
-              <img className="featured-cover-img" src={featured.cover} alt={`${featured.title} — cover`} />
+              <img className="featured-cover-img" src={featured.cover} alt={`${featured.title} — cover`} loading="lazy" decoding="async" />
             ) : (
               <FeaturedTopology />
             )}

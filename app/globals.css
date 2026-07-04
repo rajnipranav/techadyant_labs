@@ -1525,8 +1525,8 @@ footer { padding: 48px 0 40px; border-top: 1px solid var(--border); color: var(-
 /* Entry points */
 .atlas-entrypoints { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 18px; }
 .atlas-entry { display: flex; flex-direction: column; gap: 8px; padding: 22px; border: 1px solid var(--rule);
-  border-radius: 12px; transition: border-color .2s; }
-.atlas-entry:hover { border-color: var(--brass, #F5B544); }
+  border-radius: 12px; transition: border-color .2s, transform .2s; }
+.atlas-entry:hover { border-color: var(--brass, #F5B544); transform: translateY(-2px); }
 .atlas-entry .ae-k { font-size: 15px; font-weight: 600; color: var(--text); }
 .atlas-entry p { font-size: 13.5px; line-height: 1.55; color: var(--text-muted); }
 

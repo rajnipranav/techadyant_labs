@@ -20,6 +20,8 @@ export function ReportCover({
         className={`report-cover-img${card ? ' rc-embedded' : ''}`}
         src={report.cover}
         alt={`${report.title} — cover`}
+        loading="lazy"
+        decoding="async"
       />
     );
   }

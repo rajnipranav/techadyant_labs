@@ -3,6 +3,10 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { signals as staticSignals, getSignal as staticGetSignal } from '../data';
 import { getSignals, getSignalBySlug } from '../../lib/cms';
+import { SignalReader } from '../../components/SignalReader';
+import { ShareBar } from '../../components/ShareBar';
+import { RelatedContent } from '../../components/RelatedContent';
+import { Comments } from '../../components/Comments';
 
 export async function generateStaticParams() {
   let signals: any[] = staticSignals;
@@ -126,6 +130,8 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
           </div>
         )}
 
+        <SignalReader />
+
         <div className="report-body" style={{ padding: 0 }}>
           {s.body ? (
             s.body.map((blk: { type: string; text?: string; items?: string[] }, i: number) => {
@@ -141,6 +147,10 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
           )}
         </div>
 
+        <div style={{ marginTop: 40, marginBottom: 8 }}>
+          <ShareBar title={s.title} />
+        </div>
+
         <div className="report-cta" style={{ padding: 0, marginTop: 48 }}>
           <div className="report-cta-inner">
             <div>
@@ -151,6 +161,9 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
           </div>
         </div>
       </div>
+
+      <RelatedContent kind="signal" slug={s.slug} domain={s.domain} />
+      <Comments />
     </article>
   );
 }

@@ -3,7 +3,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { formatPrice } from '../../data';
 import { ReportCover } from '../../../components/ReportCover';
-import { THEMES, themeBySlug, reportsByTheme } from '../../themes';
+import { THEMES, themeBySlug, reportsByTheme, themeSlug } from '../../themes';
+import { signals } from '../../../signals/data';
 
 export function generateStaticParams() {
   return THEMES.map((t) => ({ theme: t.slug }));
@@ -31,6 +32,9 @@ export default async function ThemeHub({ params }: { params: Promise<{ theme: st
   const all = reportsByTheme(t.slug);
   const published = all.filter((r) => r.status === 'published');
   const forthcoming = all.filter((r) => r.status === 'forthcoming');
+  const relatedSignals: any[] = signals.filter(
+    (s) => s.status !== 'placeholder' && themeSlug(s.domain) === t.slug,
+  );
 
   const collection = {
     '@context': 'https://schema.org',
@@ -38,12 +42,20 @@ export default async function ThemeHub({ params }: { params: Promise<{ theme: st
     name: `${t.domain} — Techadyant Labs`,
     url: `https://labs.techadyant.com/reports/theme/${t.slug}/`,
     about: t.domain,
-    hasPart: published.map((r) => ({
-      '@type': 'Report',
-      name: r.title,
-      url: `https://labs.techadyant.com/reports/${r.slug}/`,
-      isAccessibleForFree: r.access === 'free',
-    })),
+    hasPart: [
+      ...published.map((r) => ({
+        '@type': 'Report',
+        name: r.title,
+        url: `https://labs.techadyant.com/reports/${r.slug}/`,
+        isAccessibleForFree: r.access === 'free',
+      })),
+      ...relatedSignals.map((s) => ({
+        '@type': 'Article',
+        name: s.title,
+        url: `https://labs.techadyant.com/signals/${s.slug}/`,
+        isAccessibleForFree: true,
+      })),
+    ],
   };
 
   return (
@@ -115,7 +127,39 @@ export default async function ThemeHub({ params }: { params: Promise<{ theme: st
           </>
         )}
 
-        <p style={{ marginTop: 48 }}><Link href="/reports/" className="btn-ed btn-ed-ghost">← All reports</Link></p>
+        {relatedSignals.length > 0 && (
+          <>
+            <div className="ed-kicker" style={{ margin: '56px 0 20px' }}>Signals on this ecosystem</div>
+            <div className="rule-top">
+              {relatedSignals.map((s) => (
+                <Link key={s.slug} href={`/signals/${s.slug}/`} className="signal-row">
+                  <div className="sr-no">{s.no}</div>
+                  <div>
+                    <div className="signal-meta">
+                      <span className="sig-domain">{s.domain}</span>
+                      {s.status === 'live' && <span className="sig-status"><span className="dot" /> Live</span>}
+                      <span className="sig-date">{s.dateLabel ?? s.date_label}</span>
+                    </div>
+                    <div className="signal-title">{s.title}</div>
+                    <p className="signal-excerpt">{s.excerpt}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </>
+        )}
+
+        <div className="report-cta" style={{ marginTop: 48 }}>
+          <div className="report-cta-inner">
+            <div>
+              <h3>Map this ecosystem</h3>
+              <p>See where India stands across the value chain — players, dependencies and scores — in the free Atlas.</p>
+            </div>
+            <Link href="/research/" className="btn-ed btn-ed-primary">Open the Atlas <span className="arr">→</span></Link>
+          </div>
+        </div>
+
+        <p style={{ marginTop: 32 }}><Link href="/reports/" className="btn-ed btn-ed-ghost">← All reports</Link></p>
       </section>
     </>
   );
