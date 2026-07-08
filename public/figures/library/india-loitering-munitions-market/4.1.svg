@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 841.89 595.28">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #1a2a4a;
+        stroke: #0b1a33;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10 {
+        stroke-miterlimit: 3.37;
+      }
+
+      .st0, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st10 {
+        stroke-width: 1.68px;
+      }
+
+      .st11 {
+        fill: #e9dcf5;
+      }
+
+      .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24 {
+        isolation: isolate;
+      }
+
+      .st11, .st12, .st13, .st14, .st17, .st19, .st21 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st11, .st12, .st13, .st14, .st19 {
+        font-size: 10.94px;
+      }
+
+      .st1 {
+        stroke-width: 2.53px;
+      }
+
+      .st1, .st5 {
+        stroke: #64748b;
+      }
+
+      .st1, .st5, .st8 {
+        fill: none;
+      }
+
+      .st2 {
+        fill: #c62828;
+        stroke: #9e1a1a;
+      }
+
+      .st3 {
+        fill: #047857;
+        stroke: #065f46;
+      }
+
+      .st12 {
+        fill: #d6f0e6;
+      }
+
+      .st13 {
+        fill: #e0f2f0;
+      }
+
+      .st14 {
+        fill: #f5d6d6;
+      }
+
+      .st15 {
+        font-size: 12.63px;
+      }
+
+      .st15, .st16, .st18, .st20, .st22, .st23, .st24 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st15, .st18, .st6 {
+        fill: #fff;
+      }
+
+      .st16 {
+        font-size: 15.15px;
+      }
+
+      .st16, .st20, .st23 {
+        fill: #0b1a33;
+      }
+
+      .st4 {
+        fill: #6b21a5;
+        stroke: #581c87;
+      }
+
+      .st17 {
+        fill: #ccd9e8;
+      }
+
+      .st17, .st22 {
+        font-size: 13.47px;
+      }
+
+      .st18 {
+        font-size: 16.84px;
+      }
+
+      .st19 {
+        fill: #d6e0f5;
+      }
+
+      .st20 {
+        font-size: 21.89px;
+      }
+
+      .st6, .st9 {
+        stroke: #cbd5e1;
+      }
+
+      .st7 {
+        fill: #1d4ed8;
+        stroke: #1e3a8a;
+      }
+
+      .st8 {
+        stroke: #e2e8f0;
+      }
+
+      .st9 {
+        fill: #f8fafc;
+        stroke-width: 1.26px;
+      }
+
+      .st21 {
+        fill: #334155;
+        font-size: 11.79px;
+      }
+
+      .st25 {
+        fill: #f0f4f8;
+      }
+
+      .st22, .st24 {
+        fill: #475569;
+      }
+
+      .st10 {
+        fill: #0d7c6e;
+        stroke: #0a5c52;
+      }
+
+      .st23 {
+        font-size: 20.21px;
+      }
+
+      .st24 {
+        font-size: 10.1px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2">
+    <rect class="st25" x=".17" y="1.86" width="841.89" height="591.19"/>
+  </g>
+  <g id="Layer_1">
+    <text class="st20" transform="translate(242.75 40.86)"><tspan x="0" y="0">Figure 14 — Shaktibaan Org Chart</tspan></text>
+    <rect class="st0" x="252.57" y="70.33" width="336.76" height="58.93" rx="8.42" ry="8.42"/>
+    <text class="st18" transform="translate(318.52 95.58)"><tspan x="0" y="0">SHAKTIBAAN REGIMENT</tspan></text>
+    <text class="st17" transform="translate(353.19 116.63)"><tspan x="0" y="0">HQ &amp; Signal Company</tspan></text>
+    <line class="st1" x1="420.94" y1="129.26" x2="420.94" y2="150.31"/>
+    <line class="st1" x1="134.7" y1="150.31" x2="707.19" y2="150.31"/>
+    <line class="st1" x1="134.7" y1="150.31" x2="134.7" y2="167.14"/>
+    <line class="st1" x1="277.57" y1="150.31" x2="277.57" y2="167.14"/>
+    <line class="st1" x1="420.43" y1="150.31" x2="420.43" y2="167.14"/>
+    <line class="st1" x1="564.13" y1="150.31" x2="564.13" y2="167.14"/>
+    <line class="st1" x1="707.19" y1="150.31" x2="707.19" y2="167.14"/>
+    <rect class="st10" x="75.77" y="167.14" width="117.86" height="79.98" rx="6.74" ry="6.74"/>
+    <text class="st15" transform="translate(97.28 194.93)"><tspan x="0" y="0">ISR &amp; Target</tspan></text>
+    <text class="st15" transform="translate(100.33 211.77)"><tspan x="0" y="0">Acquisition</tspan></text>
+    <text class="st13" transform="translate(95.78 234.5)"><tspan x="0" y="0">(12 MALE UAS)</tspan></text>
+    <rect class="st4" x="218.63" y="167.14" width="117.86" height="79.98" rx="6.74" ry="6.74"/>
+    <text class="st15" transform="translate(222.01 194.93)"><tspan x="0" y="0">Electronic Warfare</tspan></text>
+    <text class="st15" transform="translate(248.1 211.77)"><tspan x="0" y="0">Squadron</tspan></text>
+    <text class="st11" transform="translate(238.34 234.5)"><tspan x="0" y="0">(24 EW Drones)</tspan></text>
+    <rect class="st2" x="361.5" y="167.14" width="117.86" height="79.98" rx="6.74" ry="6.74"/>
+    <text class="st15" transform="translate(382.52 194.93)"><tspan x="0" y="0">Heavy Strike</tspan></text>
+    <text class="st15" transform="translate(390.97 211.77)"><tspan x="0" y="0">Squadron</tspan></text>
+    <text class="st14" transform="translate(369.93 234.5)"><tspan x="0" y="0">(48 Tube Launchers)</tspan></text>
+    <rect class="st3" x="505.2" y="167.14" width="117.86" height="79.98" rx="6.74" ry="6.74"/>
+    <text class="st15" transform="translate(524.12 194.93)"><tspan x="0" y="0">Swarm Strike</tspan></text>
+    <text class="st15" transform="translate(534.67 211.77)"><tspan x="0" y="0">Squadron</tspan></text>
+    <text class="st12" transform="translate(535.96 234.5)"><tspan x="0" y="0">(12 MTLVs)</tspan></text>
+    <rect class="st7" x="648.26" y="167.14" width="117.86" height="79.98" rx="6.74" ry="6.74"/>
+    <text class="st15" transform="translate(673.16 194.93)"><tspan x="0" y="0">Logistics &amp;</tspan></text>
+    <text class="st15" transform="translate(657.02 211.77)"><tspan x="0" y="0">Maintenance Co.</tspan></text>
+    <text class="st19" transform="translate(684.38 234.5)"><tspan x="0" y="0">(Support)</tspan></text>
+    <text class="st24" transform="translate(75.77 262.93)"><tspan x="0" y="0">Intelligence</tspan></text>
+    <text class="st24" transform="translate(218.63 260.81)"><tspan x="0" y="0">Electronic </tspan><tspan x="0" y="12.12">Attack</tspan></text>
+    <text class="st24" transform="translate(361.5 260.81)"><tspan x="0" y="0">Precision </tspan><tspan x="0" y="12.12">Fire</tspan></text>
+    <text class="st24" transform="translate(505.2 260.81)"><tspan x="0" y="0">Coordinated </tspan><tspan x="0" y="12.12">Swarm</tspan></text>
+    <text class="st24" transform="translate(645.17 260.81)"><tspan x="0" y="0">Sustainment</tspan></text>
+    <line class="st5" x1="134.7" y1="247.12" x2="134.7" y2="276.59"/>
+    <line class="st5" x1="277.57" y1="248.2" x2="277.57" y2="277.66"/>
+    <line class="st5" x1="420.43" y1="248.2" x2="420.43" y2="300.26"/>
+    <line class="st5" x1="563.3" y1="248.2" x2="563.3" y2="277.66"/>
+    <line class="st5" x1="707.19" y1="248.2" x2="707.19" y2="277.66"/>
+    <line class="st5" x1="134.7" y1="276.59" x2="707.19" y2="276.59"/>
+    <rect class="st6" x="101.03" y="306.06" width="639.84" height="67.35" rx="10.1" ry="10.1"/>
+    <line class="st8" x1="420.94" y1="314.48" x2="420.94" y2="364.99"/>
+    <text class="st22" transform="translate(215.84 331.31)"><tspan x="0" y="0">Total Strength</tspan></text>
+    <text class="st23" transform="translate(170 356.57)"><tspan x="0" y="0">650–800 Personnel</tspan></text>
+    <text class="st22" transform="translate(531.65 331.31)"><tspan x="0" y="0">Total Munitions</tspan></text>
+    <text class="st23" transform="translate(481.8 356.57)"><tspan x="0" y="0">~1,500 Ready-to-Fire</tspan></text>
+    <rect class="st9" x="101.03" y="407.08" width="639.84" height="151.54" rx="8.42" ry="8.42"/>
+    <text class="st16" transform="translate(244.13 432.34)"><tspan x="0" y="0">Chapter 11 — The SHAKTIBAAN Regiment Model</tspan></text>
+    <text class="st21" transform="translate(117.86 457.6)"><tspan x="0" y="0">To operationalize massed, coordinated drone warfare at the operational and strategic</tspan></text>
+    <text class="st21" transform="translate(117.86 476.12)"><tspan x="0" y="0">levels, the Indian Army is raising a completely new formation type: the &quot;Shaktibaan&quot;</tspan></text>
+    <text class="st21" transform="translate(117.86 494.64)"><tspan x="0" y="0">(Corps of Power/Strike) Regiment. This is not a traditional artillery or infantry unit</tspan></text>
+    <text class="st21" transform="translate(117.86 513.16)"><tspan x="0" y="0">retrofitted with drones, but a purpose-built, attritable, autonomous precision-strike</tspan></text>
+    <text class="st21" transform="translate(117.86 531.68)"><tspan x="0" y="0">formation designed for modern decentralized warfare.</tspan></text>
+  </g>
+</svg>

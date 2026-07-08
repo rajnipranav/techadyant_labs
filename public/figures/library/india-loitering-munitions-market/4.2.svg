@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 850" width="100%" height="100%">
+  <rect width="1000" height="850" fill="#F8FAFC"/>
+
+  <!-- ====== TITLE ====== -->
+  <text x="500" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0B1A33" text-anchor="middle">Chapter 11 — The SHAKTIBAAN Regiment Model</text>
+
+  <!-- ====== SECTION 1: PROCUREMENT IMPACT ====== -->
+  <rect x="40" y="65" width="920" height="130" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="60" y="95" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0B1A33">Direct Procurement Impact:</text>
+
+  <circle cx="75" cy="120" r="5" fill="#1D4ED8"/>
+  <text x="90" y="125" font-family="Arial, sans-serif" font-size="15" fill="#1E293B">
+    <tspan font-weight="bold">5,000</tspan> Medium Range LMs (for Shaktiabaan + divisional allocation)
+  </text>
+
+  <circle cx="75" cy="148" r="5" fill="#1D4ED8"/>
+  <text x="90" y="153" font-family="Arial, sans-serif" font-size="15" fill="#1E293B">
+    <tspan font-weight="bold">2,000</tspan> Long Range LMs
+  </text>
+
+  <circle cx="75" cy="176" r="5" fill="#1D4ED8"/>
+  <text x="90" y="181" font-family="Arial, sans-serif" font-size="15" fill="#1E293B">
+    <tspan font-weight="bold">2,000</tspan> Swarm systems (or 24,000 swarm nodes)
+  </text>
+
+  <!-- ====== SECTION 2: PERSONNEL REQUIREMENTS TABLE ====== -->
+  <text x="60" y="230" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0B1A33">11.5 Personnel and Training Requirements</text>
+  <text x="60" y="255" font-family="Arial, sans-serif" font-size="14" fill="#475569">Table 64 — Requirement / Per Regiment / 20 Regiments Total</text>
+
+  <!-- Table Headers -->
+  <rect x="40" y="275" width="920" height="40" rx="6" fill="#1A2A4A"/>
+  <text x="200" y="300" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Requirement</text>
+  <line x1="340" y1="275" x2="340" y2="315" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="500" y="300" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Per Regiment</text>
+  <line x1="660" y1="275" x2="660" y2="315" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="800" y="300" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">20 Regiments Total</text>
+
+  <!-- Table Row 1: Personnel -->
+  <rect x="40" y="315" width="920" height="40" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="200" y="340" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#0B1A33" text-anchor="middle">Personnel</text>
+  <line x1="340" y1="315" x2="340" y2="355" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="500" y="340" font-family="Arial, sans-serif" font-size="15" fill="#0B1A33" text-anchor="middle">650–800</text>
+  <line x1="660" y1="315" x2="660" y2="355" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="800" y="340" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1D4ED8" text-anchor="middle">13,000–16,000</text>
+
+  <!-- Table Row 2: Officers -->
+  <rect x="40" y="355" width="920" height="40" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="200" y="380" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#0B1A33" text-anchor="middle">Officers</text>
+  <line x1="340" y1="355" x2="340" y2="395" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="500" y="380" font-family="Arial, sans-serif" font-size="15" fill="#0B1A33" text-anchor="middle">50–60</text>
+  <line x1="660" y1="355" x2="660" y2="395" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="800" y="380" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1D4ED8" text-anchor="middle">1,000–1,200</text>
+
+  <!-- Table Row 3: JCOs -->
+  <rect x="40" y="395" width="920" height="40" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="200" y="420" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#0B1A33" text-anchor="middle">Junior Commissioned Officers</text>
+  <line x1="340" y1="395" x2="340" y2="435" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="500" y="420" font-family="Arial, sans-serif" font-size="15" fill="#0B1A33" text-anchor="middle">100–120</text>
+  <line x1="660" y1="395" x2="660" y2="435" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="800" y="420" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1D4ED8" text-anchor="middle">2,000–2,400</text>
+
+  <!-- Table Row 4: Soldiers -->
+  <rect x="40" y="435" width="920" height="40" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="200" y="460" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#0B1A33" text-anchor="middle">Soldiers (Technical Trades)</text>
+  <line x1="340" y1="435" x2="340" y2="475" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="500" y="460" font-family="Arial, sans-serif" font-size="15" fill="#0B1A33" text-anchor="middle">500–620</text>
+  <line x1="660" y1="435" x2="660" y2="475" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="800" y="460" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1D4ED8" text-anchor="middle">10,000–12,400</text>
+
+  <!-- ====== SECTION 3: TRAINING INFRASTRUCTURE ====== -->
+  <rect x="40" y="500" width="920" height="110" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="60" y="530" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0B1A33">Training Infrastructure:</text>
+
+  <circle cx="75" cy="558" r="5" fill="#1D4ED8"/>
+  <text x="90" y="563" font-family="Arial, sans-serif" font-size="14" fill="#1E293B">1 Drone Training Wing per Regiment (on-site)</text>
+
+  <circle cx="75" cy="583" r="5" fill="#1D4ED8"/>
+  <text x="90" y="588" font-family="Arial, sans-serif" font-size="14" fill="#1E293B">1 Central Training Facility (Army-level) for advanced courses</text>
+
+  <circle cx="75" cy="608" r="5" fill="#1D4ED8"/>
+  <text x="90" y="613" font-family="Arial, sans-serif" font-size="14" fill="#1E293B">1 Joint Simulator Centre for swarm and MUM-T training</text>
+
+  <!-- ====== SECTION 4: ASHMI PLATOON CONCEPT ====== -->
+  <rect x="40" y="635" width="920" height="190" rx="10" fill="#EFF6FF" stroke="#93C5FD" stroke-width="2"/>
+  <text x="500" y="665" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1E3A8A" text-anchor="middle">Chapter 12 — The Ashmi Platoon Concept</text>
+
+  <!-- Figure Reference -->
+  <rect x="80" y="685" width="840" height="35" rx="6" fill="#DBEAFE" stroke="#60A5FA" stroke-width="1"/>
+  <text x="500" y="708" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1E40AF" text-anchor="middle">Figure 15 — Ashmi Platoon Integration</text>
+
+  <!-- Concept Description -->
+  <text x="80" y="745" font-family="Arial, sans-serif" font-size="14" fill="#1E293B">
+    While the Shaktiabaan Regiment handles operational and strategic depth, the "Ashmi"
+  </text>
+  <text x="80" y="768" font-family="Arial, sans-serif" font-size="14" fill="#1E293B">
+    (Blessing/Force Multiplier) Platoon concept revolutionizes tactical combat. It decentralizes
+  </text>
+  <text x="80" y="791" font-family="Arial, sans-serif" font-size="14" fill="#1E293B">
+    precision strike to the lowest tactical echelon: the infantry platoon and squad.
+  </text>
+
+  <!-- ====== FOOTER: ORGANIC FIREPOWER SUMMARY ====== -->
+  <rect x="80" y="810" width="840" height="30" rx="6" fill="#1A2A4A"/>
+  <text x="500" y="830" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    Total Organic Firepower per Platoon: 16 FPVs + 4 Micro-LMs (ASHMI) + 12 FPVs (Squads) = 28 FPVs + 4 Micro-LMs
+  </text>
+</svg>

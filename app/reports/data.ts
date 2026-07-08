@@ -31,6 +31,53 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
+  slug: 'india-loitering-munitions-market',
+  title: 'India’s Loitering Munitions Market Intelligence 2026–2035',
+  subtitle: 'Who arms India’s loitering-munition decade? Demand quantification, category specifications, the supplier map, and the subsystem chokepoints that decide sovereignty.',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-07-08',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India has entered a ten-year window in which loitering munitions move to the centre of its land-warfare doctrine. Operation Sindoor in 2025 turned the shift into a procurement fact — ₹9,100 crore of emergency powers, roughly 80% of the field-formation tranche directed to loitering and kamikaze systems, and a December-2025 DAC clearance of about ₹79,000 crore that named a Loiter Munition System for Artillery Regiments. This market-intelligence report argues India has a sovereignty problem, not a capability one: it can build world-class systems — Nagastra, ALS-50, SkyStriker, ULPGM-V3 — but depends on China for roughly 90% of its flight controllers and rare-earth magnets and about 84% of its lithium-ion cells. It models the ten-year demand bottom-up, maps the domestic and foreign supplier base, scores subsystem sovereignty across the value stack, and sets out a datable path to 2035 — with the Budget FY26-27 earmark of ₹1.39 lakh crore (75% of capital acquisition) for domestic procurement as the protected runway. Six parts, seventeen chapters, twenty-five figures and full appendices.',
+  accent: '#2BC5B4',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 115,
+  cover: '/covers/india-loitering-munitions-market.jpg',
+  previewObject: 'reports-free/India-Loitering-Munitions-Market-Free-Edition.pdf',
+  previewPages: 14,
+  keywords: ['india loitering munitions market', 'loitering munition manufacturers india', 'kamikaze drone india', 'Nagastra loitering munition', 'SkyStriker India', 'ALS-50 Tata', 'India drone warfare procurement', 'loitering munition subsystem imports', 'rare earth magnets drones india', 'Operation Sindoor drone procurement', 'India defence budget 2026 drones', 'attritable precision munitions'],
+  faq: [{
+  a: 'The report models a volume-led ten-year requirement in the low hundreds of thousands of units. Commercial studies size India’s loitering-munition market at roughly US$345m by 2030; programme value is larger because it counts replenishment. The verified budget frame is ₹1.85 lakh crore of capital acquisition in FY26-27, 75% earmarked for domestic procurement.',
+  q: 'How big is India’s loitering-munitions market to 2035?'
+}, {
+  a: 'Economic Explosives/Solar (Nagastra-1/1R), Tata Advanced Systems (ALS-50), Alpha Design–Elbit (SkyStriker), DRDO/Bharat Dynamics/Adani (ULPGM-V3), NewSpace (Sheshnaag), and Zen Technologies (via TISA).',
+  q: 'Who makes loitering munitions in India?'
+}, {
+  a: 'The critical ones: flight controllers (~90% from China), sintered NdFeB magnets with dysprosium and terbium (~90% China, export-licensed since April 2025), lithium-ion cells (~84% China), EO/IR detector cores, and edge-AI silicon.',
+  q: 'What loitering-munition subsystems does India import?'
+}, {
+  a: 'It triggered ₹9,100 crore of emergency-procurement powers, directed about 80% of the field-formation tranche to loitering and kamikaze systems, and led to a December-2025 DAC clearance of about ₹79,000 crore that named a Loiter Munition System for Artillery Regiments.',
+  q: 'What did Operation Sindoor change for loitering-munition procurement?'
+}, {
+  a: 'It is sovereign in warheads, airframe and integration, and NavIC navigation, but dependent on foreign subsystems upstream. The ₹7,280 crore REPM magnet scheme and ₹34,300 crore National Critical Mineral Mission address the gap, but scheme-scale sovereign magnets are unlikely before about 2028.',
+  q: 'Is India self-reliant in loitering munitions?'
+}],
+  sources: [],
+  dateModified: '2026-07-08',
+  seo: {
+  entities: ['Nagastra', 'ALS-50', 'SkyStriker', 'ULPGM-V3', 'Economic Explosives', 'Tata Advanced Systems', 'DRDO', 'Bharat Dynamics', 'Operation Sindoor', 'NdFeB magnets', 'REPM scheme', 'NavIC'],
+  metaTitle: 'India Loitering Munitions Market 2026-2035: Demand, Suppliers & Sovereignty',
+  schemaType: 'Report',
+  focusKeyword: 'india loitering munitions market',
+  metaDescription: 'How many loitering munitions India will buy through 2035, which categories and suppliers win, and the subsystem chokepoints (magnets, seekers, flight controllers) that decide sovereignty.'
+}
+}, {
   slug: 'q-day-india',
   title: 'Q-Day India',
   subtitle: 'India’s readiness for post-quantum cryptography and the migration architecture',

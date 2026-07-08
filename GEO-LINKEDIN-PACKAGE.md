@@ -114,6 +114,31 @@ https://labs.techadyant.com/reports/india-ai-industrial-transition-2026-2035/
 
 #AIInfrastructure #DataCentres #IndustrialPolicy
 
+### Post 5 - Atlas Entity Graph
+!
+India industrial policy is usually reported as announcements:
+fabs, corridors, PLI schemes, drones, minerals.
+
+The dependency sits between the announcements.
+
+Rare earths become magnets.
+Magnets become drone motors.
+Microcontrollers become flight controllers.
+Ultrapure water becomes fab uptime.
+Packaging substrates become OSAT yield.
+
+Techadyant Labs is turning the Atlas into a connected industrial knowledge graph for India's strategic ecosystems.
+
+Start here:
+https://labs.techadyant.com/research/entities/
+
+Useful reference pages:
+https://labs.techadyant.com/research/entities/dholera-sanand-semiconductor-corridor/
+https://labs.techadyant.com/research/entities/drone-electronics-and-propulsion-supply-chain/
+https://labs.techadyant.com/research/entities/rare-earth-magnet-localisation/
+
+#Semiconductors #ManufacturingIndia #SupplyChains #IndustrialPolicy
+
 ## 4. Author / community amplification signals
 The best LinkedIn backlink signal comes from an individual + a company page, not one alone:
 - Author profile: post on company behalf under a named analyst/editor persona.
