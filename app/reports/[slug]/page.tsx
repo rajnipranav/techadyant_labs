@@ -26,6 +26,7 @@ import { ReportContent as EoaeContent, toc as eoaeToc } from '../content/the-end
 import { ReportContent as UnmannedContent, toc as unmannedToc } from '../content/indias-unmanned-warfare-transformation';
 import { ReportContent as QuantumEcoContent, toc as quantumEcoToc } from '../content/beyond-quantum-computing';
 import { ReportContent as LmContent, toc as lmToc } from '../content/india-loitering-munitions-market';
+import { ReportContent as CargoContent, toc as cargoToc } from '../content/india-cargo-drone-market';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -45,6 +46,7 @@ const registry: Record<string, ReportModule> = {
   'indias-unmanned-warfare-transformation': { toc: unmannedToc, Content: UnmannedContent },
   'beyond-quantum-computing': { toc: quantumEcoToc, Content: QuantumEcoContent },
   'india-loitering-munitions-market': { toc: lmToc, Content: LmContent },
+  'india-cargo-drone-market': { toc: cargoToc, Content: CargoContent },
 };
 
 export async function generateStaticParams() {

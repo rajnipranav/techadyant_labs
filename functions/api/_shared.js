@@ -7,6 +7,13 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'india-cargo-drone-market': {
+    access: 'paid',
+    priceInr: 4999,
+    object: 'India_Cargo_Drone_Demand_Intelligence_2026-2035.pdf',
+    filename: 'India-Cargo-Drone-Demand-Intelligence-Techadyant-Labs.pdf',
+    title: 'India\u2019s Cargo Drone Demand Intelligence 2026\u20132035',
+  },
   'india-loitering-munitions-market': {
     access: 'paid',
     priceInr: 6999,

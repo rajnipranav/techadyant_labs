@@ -31,6 +31,52 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
+  slug: 'india-cargo-drone-market',
+  title: 'India’s Cargo Drone Demand Intelligence 2026–2035',
+  subtitle: 'Which industries will fly India’s cargo drones, when, and who captures the ecosystem? Ten demand ecosystems, three scenarios to 2035, a proprietary Adoption Readiness Index™, and the 25 hidden opportunity surfaces from healthcare logistics to MRO.',
+  domain: 'Logistics & Mobility',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-07-09',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India’s civil cargo drone fleet is projected to grow from roughly 850 units in 2026 to between 14,800 and 142,000 units by 2035. This market-intelligence report reframes the question away from “how many drones” toward which industries generate the demand, why, when, and what industrial ecosystems that demand creates. The Base Case places the 2035 fleet at 50,200 units and INR 18,400 crore (USD 2.2 billion) of annual revenue — a 63% CAGR — with an Accelerated case reaching 142,000 units and INR 46,500 crore. Demand concentrates in ten ecosystems, four of which — healthcare logistics, industrial-campus logistics, mining, and agriculture — score as Tier-1 lead adopters on the proprietary Cargo Drone Adoption Readiness Index™. The most valuable plays lie not in drone manufacturing but in the supporting ecosystem: twenty-five hidden opportunity surfaces, the top five (UTM SaaS, MRO hubs, drone-port infrastructure, battery swapping, and motor/composite component manufacturing) representing an INR 5,250 crore addressable market by 2030. Seventeen chapters, twenty tables, twenty figures, three scenarios and full appendices.',
+  accent: '#3E8EDE',
+  access: 'paid',
+  price: 4999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 124,
+  cover: '/covers/india-cargo-drone-market.jpg',
+  previewObject: 'reports-free/India-Cargo-Drone-Market-Free-Edition.pdf',
+  previewPages: 14,
+  keywords: ['india cargo drone market', 'cargo drone demand forecast india', 'india drone logistics market 2035', 'BVLOS cargo drone india', 'drone delivery healthcare india', 'last-mile drone delivery india', 'cargo drone adoption readiness index', 'india drone logistics opportunity', 'UTM SaaS india', 'drone MRO india', 'medical drone delivery india', 'india cargo drone fleet forecast'],
+  faq: [{
+  q: 'How big is India’s cargo drone market by 2035?',
+  a: 'In the Base Case the private-sector fleet reaches about 50,200 units generating INR 18,400 crore (USD 2.2 billion) a year — a 63% CAGR from 2026. Across scenarios the 2035 range is INR 3,700 crore (Conservative) to INR 46,500 crore / USD 5.6 billion (Accelerated).'
+}, {
+  q: 'Which industries will drive cargo drone demand in India?',
+  a: 'Demand concentrates in ten ecosystems. Four score as Tier-1 lead adopters on the Cargo Drone Adoption Readiness Index™ — healthcare logistics, industrial-campus logistics, mining operations, and agriculture — together about 56% of the active fleet by 2030.'
+}, {
+  q: 'What is the biggest cargo drone opportunity for startups and SMEs?',
+  a: 'Not the drones themselves but the supporting ecosystem. The report identifies 25 hidden opportunity surfaces; the top five — UTM SaaS, MRO hubs, drone-port infrastructure, battery swapping, and motor/composite component manufacturing — represent an INR 5,250 crore addressable market by 2030.'
+}, {
+  q: 'Is BVLOS cargo drone delivery legal in India?',
+  a: 'The New Drone Rules 2021, the Drone Airspace Map, the PLI scheme and the 2024 BVLOS certification pathway already make India one of the more liberalised regimes. The remaining pieces — national corridor policy, UTM licensing, drone-port standards and IRDAI insurance guidelines — are expected substantially complete by 2026.'
+}, {
+  q: 'Why is healthcare the strongest cargo drone use case in India?',
+  a: 'Blood, vaccine, organ and emergency-medicine delivery to tier-3 and tier-4 locations offers cost-per-delivery 30–70% better than motorbikes and 60–85% faster response. Rwanda’s Zipline validated the model over eight years; India’s demand surface is roughly twelve times larger by population.'
+}],
+  dateModified: '2026-07-09',
+  seo: {
+    metaTitle: 'India Cargo Drone Market 2026–2035: Demand Forecast, Ecosystems & Opportunities',
+    metaDescription: 'India’s civil cargo drone market to 2035 — fleet and revenue forecasts across three scenarios, ten demand ecosystems, a proprietary Adoption Readiness Index, and 25 hidden opportunity surfaces for OEMs, operators, SMEs and investors.',
+    focusKeyword: 'india cargo drone market',
+    schemaType: 'Report',
+    entities: ['cargo drone', 'BVLOS', 'UTM', 'Drone Rules 2021', 'PLI scheme', 'Zipline', 'healthcare logistics', 'last-mile delivery', 'India logistics', 'DGCA'],
+  },
+}, {
   slug: 'india-loitering-munitions-market',
   title: 'India’s Loitering Munitions Market Intelligence 2026–2035',
   subtitle: 'Who arms India’s loitering-munition decade? Demand quantification, category specifications, the supplier map, and the subsystem chokepoints that decide sovereignty.',
