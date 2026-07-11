@@ -112,6 +112,18 @@ export function SupplierDirectory({ suppliers, meta, facets }: {
 
   useEffect(() => { try { if (localStorage.getItem('atlas_unlocked') === '1') setUnlocked(true); } catch {} }, []);
 
+  // Deep-link filters: hub pages link in with ?category / ?state / ?cert / ?q
+  useEffect(() => {
+    try {
+      const p = new URLSearchParams(window.location.search);
+      const cat = p.get('category'); const st = p.get('state'); const cert = p.get('cert'); const query = p.get('q');
+      if (cat) setFcat(cat);
+      if (st) setFstate(st);
+      if (cert) setFcert(cert);
+      if (query) setQ(query);
+    } catch {}
+  }, []);
+
   const filtered = useMemo(() => {
     const query = q.trim().toLowerCase();
     const out = suppliers.filter((d) => {

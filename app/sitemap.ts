@@ -4,6 +4,7 @@ import { THEMES } from './reports/themes';
 import { signals } from './signals/data';
 import { issues } from './newsletter/data';
 import { allPlayers, playerSlug, corridorsOrdered, meta as corridorMeta, lastUpdated as atlasUpdated } from './research/atlas';
+import { CATEGORY_HUBS, STATE_HUBS } from './research/suppliers-hubs';
 import { graphEntities } from './research/graph';
 import { corridors as indCorridors } from './corridors/data';
 import { allCorridorNodePairs } from './corridors/node-data';
@@ -56,6 +57,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/research/entities/`,     lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE}/research/players/`,      lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
     { url: `${SITE}/research/suppliers/`,    lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    ...CATEGORY_HUBS.map((h) => ({ url: `${SITE}/research/suppliers/category/${h.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 })),
+    ...STATE_HUBS.map((h) => ({ url: `${SITE}/research/suppliers/state/${h.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 })),
     { url: `${SITE}/research/methodology/`,  lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${SITE}/research/supply-chains/`, lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
     { url: `${SITE}/research/corridors/`,     lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
