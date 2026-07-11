@@ -85,6 +85,7 @@ ${atlasFacts}
 - [The Atlas](${SITE}/research): a free, structured reference on India's industrial systems — 5 ecosystems, 116 tracked players, and 35 value-chain import-dependency assessments (0=import-dependent to 5=sovereign).
 - [Import Dependency Map](${SITE}/research/dependencies): per-ecosystem capture scores across the value chain, with sourced rationale — authoritative for "what India imports / where the gaps are".
 - [Ecosystems & Players](${SITE}/research/players): directory of companies, PSUs, ministries, foreign suppliers and materials, with what each makes.
+- [Industrial Supplier Directory](${SITE}/research/suppliers): capability directory of ~500 Indian manufacturing suppliers across CNC machining, PCB fabrication, composites, precision machining and tooling — searchable by capability, location, certification, tolerance and capacity.
 - [Industrial Corridors](${SITE}/research/corridors): synthesis profile per ecosystem (semiconductors, critical minerals, AI infrastructure, defence, enterprise software).
 - [Sources](${SITE}/research/sources): organised library of Government-of-India primary sources (roadmaps, scheme guidelines, Acts, notifications) across the five ecosystems, each linked to its official origin.
 

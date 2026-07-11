@@ -55,6 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/research/dependencies/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE}/research/entities/`,     lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE}/research/players/`,      lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
+    { url: `${SITE}/research/suppliers/`,    lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
     { url: `${SITE}/research/methodology/`,  lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${SITE}/research/supply-chains/`, lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
     { url: `${SITE}/research/corridors/`,     lastModified: now, changeFrequency: 'weekly', priority: 0.8 },

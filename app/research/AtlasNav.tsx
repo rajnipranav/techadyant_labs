@@ -8,6 +8,7 @@ const TABS = [
   { href: '/research/entities', label: 'Entities' },
   { href: '/research/dependencies', label: 'Import Dependencies' },
   { href: '/research/players', label: 'Ecosystems & Players' },
+  { href: '/research/suppliers', label: 'Supplier Directory' },
   { href: '/research/supply-chains', label: 'Supply Chains' },
   { href: '/research/corridors', label: 'Corridors' },
   { href: '/research/sources', label: 'Sources' },
