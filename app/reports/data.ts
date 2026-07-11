@@ -31,6 +31,37 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
+  slug: 'india-industrial-water-opportunity-map',
+  title: 'India’s Industrial Water Opportunity Map',
+  subtitle: 'India’s Industrial Water and Wastewater Infrastructure Market, 2024–2030',
+  domain: 'Industrial Infrastructure',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-07-11',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India’s industrial water and wastewater infrastructure market is projected to grow from USD 2.87 billion in 2024 to USD 4.65 billion by 2030 (Frost & Sullivan) — an 8.3% CAGR driven not by choice but by regulatory enforcement and hydrological constraint. This opportunity map sizes the market across five solution tiers, eight industry verticals and six states, and locates where the returns actually sit: semiconductor-grade ultrapure water, digital and AI water platforms, operations-and-maintenance annuities, and zero-liquid-discharge with resource recovery. It carries decision-grade frameworks — a Policy Risk Matrix, Value Chain Economics, a Five-Forces read and an Investment Heat Map — three named scenarios to 2030, and stakeholder playbooks for investors, technology providers, policymakers and industrial buyers. Twelve chapters, 119 tables, 46 charts, verified company profiles and a full financing analysis.',
+  accent: '#2BA6C6',
+  access: 'paid',
+  price: 4999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 192,
+  cover: '/covers/india-industrial-water-opportunity-map.jpg',
+  previewObject: 'reports-free/India-Industrial-Water-Opportunity-Map - Free.pdf',
+  previewPages: 15,
+  keywords: ['india industrial water market', 'industrial water treatment india', 'zero liquid discharge india', 'ultrapure water semiconductor india', 'india wastewater treatment market', 'water reuse policy india', 'ZLD market india 2030', 'industrial water opportunity india', 'data centre water consumption india', 'green hydrogen water india', 'india water infrastructure investment', 'VA Tech Wabag Ion Exchange Thermax'],
+  faq: [
+    { q: 'How big is India’s industrial water market?', a: 'India’s industrial water and wastewater infrastructure market is estimated at USD 2.87 billion (2024), projected to reach USD 4.65 billion by 2030 at an 8.3% CAGR (Frost & Sullivan). The broader treatment-technology market — municipal and industrial combined — is a differently-drawn USD 2.73 billion (2025) to USD 4.73 billion (2031) market (Mordor Intelligence).' },
+    { q: 'What is driving demand for industrial water treatment in India?', a: 'Regulatory enforcement is the primary driver: the MoEFCC Consent Guidelines 2025, the Maharashtra Safe Reuse Policy 2025, AMRUT 2.0 reuse targets and selective ZLD requirements convert compliance into non-discretionary CAPEX, compounded by demand from semiconductors, data centres and green hydrogen.' },
+    { q: 'Where are the best industrial water opportunities?', a: 'The Investment Heat Map ranks semiconductor-grade ultrapure water, digital and AI water platforms, data-centre water systems, O&M annuity portfolios and ZLD-with-resource-recovery highest on a combined growth, margin and barrier score.' },
+    { q: 'Which states dominate India’s industrial water market?', a: 'Maharashtra, Gujarat, Tamil Nadu and Karnataka account for roughly 69% of national spend; Karnataka and Uttar Pradesh grow fastest by rate.' },
+    { q: 'Who is this report for?', a: 'Investors, water technology and EPC providers, policymakers and regulators, industrial end-users, and multilateral agencies — with a stakeholder-specific playbook for each.' }
+  ],
+  dateModified: '2026-07-11',
+  seo: { entities: ['industrial water','zero liquid discharge','ultrapure water','wastewater treatment','VA Tech Wabag','Ion Exchange','Thermax','MoEFCC Consent Guidelines','AMRUT 2.0','semiconductor water'], metaTitle: 'India Industrial Water Market 2024–2030: Opportunity Map & Forecast', metaDescription: 'India’s industrial water and wastewater market to 2030 — Frost & Sullivan forecasts, ZLD and reuse policy, semiconductor and data-centre water demand, an Investment Heat Map, and where investors and technology providers capture value.', focusKeyword: 'india industrial water market', schemaType: 'Report' },
+}, {
   slug: 'india-cargo-drone-market',
   title: 'India’s Cargo Drone Demand Intelligence 2026–2035',
   subtitle: 'Which industries will fly India’s cargo drones, when, and who captures the ecosystem? Ten demand ecosystems, three scenarios to 2035, a proprietary Adoption Readiness Index™, and the 25 hidden opportunity surfaces from healthcare logistics to MRO.',

@@ -7,6 +7,13 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'india-industrial-water-opportunity-map': {
+    access: 'paid',
+    priceInr: 4999,
+    object: 'India-Industrial-Water-Opportunity-Map.pdf',
+    filename: 'India-Industrial-Water-Opportunity-Map-Techadyant-Labs.pdf',
+    title: 'India\u2019s Industrial Water Opportunity Map',
+  },
   'india-cargo-drone-market': {
     access: 'paid',
     priceInr: 4999,

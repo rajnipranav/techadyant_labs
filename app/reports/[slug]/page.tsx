@@ -27,6 +27,7 @@ import { ReportContent as UnmannedContent, toc as unmannedToc } from '../content
 import { ReportContent as QuantumEcoContent, toc as quantumEcoToc } from '../content/beyond-quantum-computing';
 import { ReportContent as LmContent, toc as lmToc } from '../content/india-loitering-munitions-market';
 import { ReportContent as CargoContent, toc as cargoToc } from '../content/india-cargo-drone-market';
+import { ReportContent as WaterContent, toc as waterToc } from '../content/india-industrial-water-opportunity-map';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -47,6 +48,7 @@ const registry: Record<string, ReportModule> = {
   'beyond-quantum-computing': { toc: quantumEcoToc, Content: QuantumEcoContent },
   'india-loitering-munitions-market': { toc: lmToc, Content: LmContent },
   'india-cargo-drone-market': { toc: cargoToc, Content: CargoContent },
+  'india-industrial-water-opportunity-map': { toc: waterToc, Content: WaterContent },
 };
 
 export async function generateStaticParams() {
