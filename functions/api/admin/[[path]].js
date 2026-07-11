@@ -311,6 +311,21 @@ export async function onRequest(context) {
       const okw = await resendOne(env, { to, subject: '[PREVIEW] Welcome to The Dispatch — Techadyant Labs', html: emailShell(mdToHtml(body), u), text: textVersion(body, u) });
       return okw ? json(200, { ok: true, sent_to: to }) : json(502, { error: 'Resend rejected the preview' });
     }
+    if (request.method === 'POST' && route === '/subscribers/resend-welcome') {
+      if (!env.RESEND_API_KEY) return json(500, { error: 'RESEND_API_KEY not configured' });
+      if (!S || !SK) return json(500, { error: 'website Supabase not configured' });
+      const b = await request.json().catch(() => ({}));
+      const to = String(b.email || '').trim().toLowerCase();
+      if (!to || !to.includes('@')) return json(400, { error: 'valid email required' });
+      // Only re-send to a genuine, still-active subscriber.
+      const chk = await fetch(`${S}/rest/v1/subscribers?select=email&unsubscribed=eq.false&email=eq.${encodeURIComponent(to)}&limit=1`, { headers: { apikey: SK, Authorization: `Bearer ${SK}` } });
+      const found = chk.ok ? await chk.json() : [];
+      if (!Array.isArray(found) || !found.length) return json(404, { error: 'not an active subscriber' });
+      const u = await unsubUrl(env, to);
+      const body = "Welcome to **The Dispatch** — Techadyant Labs' infrequent strategic-intelligence brief on India's industrial systems.\n\nLong-form reports, intelligence signals and executive briefings on semiconductors, AI infrastructure, critical minerals, defence and enterprise-software sovereignty. No sponsored coverage. No spam.\n\nStart with our [latest reports](https://labs.techadyant.com/reports/) and explore [The Atlas](https://labs.techadyant.com/research/) — our live map of India's industrial import-dependencies.";
+      const okw = await resendOne(env, { to, subject: 'Welcome to The Dispatch — Techadyant Labs', html: emailShell(mdToHtml(body), u), text: textVersion(body, u) });
+      return okw ? json(200, { ok: true, sent_to: to }) : json(502, { error: 'Resend rejected the send' });
+    }
     if (route === '/broadcasts')        return reply(await rpc(S, SK, 'broadcast_list'));
     if (route === '/broadcast')         return reply(await rpc(S, SK, 'broadcast_get', { p_id: q.get('id') }));
 
@@ -339,8 +354,19 @@ export async function onRequest(context) {
         return json(200, { ok: true, sent_to: to });
       }
       if (bc.status === 'sent') return json(409, { error: 'this broadcast was already sent' });
-      const rcptRes = await rpc(S, SK, 'broadcast_recipients', { p_segment: bc.segment });
-      const recipients = Array.isArray(rcptRes.data) ? rcptRes.data : [];
+      let recipients;
+      if (typeof bc.segment === 'string' && bc.segment.startsWith('emails:')) {
+        // Explicit recipient list (send to selected). Filter to ACTIVE subscribers
+        // only, so unsubscribed people are never emailed even if selected.
+        const requested = [...new Set(bc.segment.slice(7).split(',').map((s) => s.trim().toLowerCase()).filter(Boolean))];
+        if (!requested.length) return json(400, { error: 'no emails selected' });
+        const inList = requested.map((e) => encodeURIComponent(e)).join(',');
+        const sr = await fetch(`${S}/rest/v1/subscribers?select=email&unsubscribed=eq.false&email=in.(${inList})`, { headers: { apikey: SK, Authorization: `Bearer ${SK}` } });
+        recipients = sr.ok ? (await sr.json()).map((x) => x.email) : [];
+      } else {
+        const rcptRes = await rpc(S, SK, 'broadcast_recipients', { p_segment: bc.segment });
+        recipients = Array.isArray(rcptRes.data) ? rcptRes.data : [];
+      }
       if (!recipients.length) return json(400, { error: 'no active recipients for this segment' });
       if (recipients.length > 500) return json(400, { error: `segment has ${recipients.length} recipients (>500). Use Resend Broadcasts for lists this large.` });
       let sent = 0;
