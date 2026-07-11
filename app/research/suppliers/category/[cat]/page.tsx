@@ -14,8 +14,9 @@ export function generateStaticParams() {
 }
 export const dynamicParams = false;
 
-export function generateMetadata({ params }: { params: { cat: string } }): Metadata {
-  const hub = hubBySlug(params.cat);
+export async function generateMetadata({ params }: { params: Promise<{ cat: string }> }): Promise<Metadata> {
+  const { cat } = await params;
+  const hub = hubBySlug(cat);
   if (!hub) return {};
   const list = suppliersInCategory(hub.category);
   const verified = list.filter((s) => s.verified === 'Yes').length;
@@ -47,8 +48,9 @@ function ServerCard({ s }: { s: Supplier }) {
   );
 }
 
-export default function CategoryHubPage({ params }: { params: { cat: string } }) {
-  const hub = hubBySlug(params.cat);
+export default async function CategoryHubPage({ params }: { params: Promise<{ cat: string }> }) {
+  const { cat } = await params;
+  const hub = hubBySlug(cat);
   if (!hub) notFound();
   const list = suppliersInCategory(hub.category);
   const verified = list.filter((s) => s.verified === 'Yes').length;

@@ -14,8 +14,9 @@ export function generateStaticParams() {
 }
 export const dynamicParams = false;
 
-export function generateMetadata({ params }: { params: { state: string } }): Metadata {
-  const hub = stateHubBySlug(params.state);
+export async function generateMetadata({ params }: { params: Promise<{ state: string }> }): Promise<Metadata> {
+  const { state } = await params;
+  const hub = stateHubBySlug(state);
   if (!hub) return {};
   const list = suppliersInState(hub.state);
   const verified = list.filter((s) => s.verified === 'Yes').length;
@@ -47,8 +48,9 @@ function ServerCard({ s }: { s: Supplier }) {
   );
 }
 
-export default function StateHubPage({ params }: { params: { state: string } }) {
-  const hub = stateHubBySlug(params.state);
+export default async function StateHubPage({ params }: { params: Promise<{ state: string }> }) {
+  const { state } = await params;
+  const hub = stateHubBySlug(state);
   if (!hub) notFound();
   const list = suppliersInState(hub.state);
   const verified = list.filter((s) => s.verified === 'Yes').length;
