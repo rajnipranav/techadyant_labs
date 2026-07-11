@@ -207,6 +207,14 @@ export async function onRequestPost(context) {
         },
       });
       if (!w.ok) console.warn('welcome_email_failed', w);
+      else {
+        // Stamp welcome delivery on the subscriber row (best-effort).
+        await fetch(`${env.SUPABASE_URL}/rest/v1/subscribers?email=eq.${encodeURIComponent(rawEmail)}`, {
+          method: 'PATCH',
+          headers: { apikey: env.SUPABASE_SERVICE_ROLE_KEY, Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`, 'content-type': 'application/json', Prefer: 'return=minimal' },
+          body: JSON.stringify({ welcome_sent: true, welcome_sent_at: new Date().toISOString() }),
+        }).catch(() => {});
+      }
 
       // 4. Notify labs inbox.
       if (env.INBOX_LABS) {

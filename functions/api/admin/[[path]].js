@@ -324,6 +324,13 @@ export async function onRequest(context) {
       const u = await unsubUrl(env, to);
       const body = "Welcome to **The Dispatch** — Techadyant Labs' infrequent strategic-intelligence brief on India's industrial systems.\n\nLong-form reports, intelligence signals and executive briefings on semiconductors, AI infrastructure, critical minerals, defence and enterprise-software sovereignty. No sponsored coverage. No spam.\n\nStart with our [latest reports](https://labs.techadyant.com/reports/) and explore [The Atlas](https://labs.techadyant.com/research/) — our live map of India's industrial import-dependencies.";
       const okw = await resendOne(env, { to, subject: 'Welcome to The Dispatch — Techadyant Labs', html: emailShell(mdToHtml(body), u), text: textVersion(body, u) });
+      if (okw) {
+        await fetch(`${S}/rest/v1/subscribers?email=eq.${encodeURIComponent(to)}`, {
+          method: 'PATCH',
+          headers: { apikey: SK, Authorization: `Bearer ${SK}`, 'content-type': 'application/json', Prefer: 'return=minimal' },
+          body: JSON.stringify({ welcome_sent: true, welcome_sent_at: new Date().toISOString() }),
+        }).catch(() => {});
+      }
       return okw ? json(200, { ok: true, sent_to: to }) : json(502, { error: 'Resend rejected the send' });
     }
     if (route === '/broadcasts')        return reply(await rpc(S, SK, 'broadcast_list'));

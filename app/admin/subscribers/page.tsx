@@ -6,7 +6,7 @@ import { Loading, ErrorBox, StatCard, Panel } from '../ui';
 import { issues } from '../../newsletter/data';
 
 interface Stats { total: number; active: number; unsubscribed: number; by_source: { source: string; total: number; active: number }[]; }
-interface Sub { id: string; email: string; source: string; country: string | null; unsubscribed: boolean; created_at: string; }
+interface Sub { id: string; email: string; source: string; country: string | null; unsubscribed: boolean; created_at: string; welcome_sent?: boolean; welcome_sent_at?: string | null; }
 
 const SITE = 'https://labs.techadyant.com';
 
@@ -183,7 +183,7 @@ export default function SubscribersPage() {
               <table className="admin-table">
                 <thead><tr>
                   <th style={{ width: 28 }}><input type="checkbox" checked={allSelected} onChange={toggleAll} title="Select all active on this page" /></th>
-                  <th>Email</th><th>Source</th><th>Country</th><th>Status</th><th>Joined</th><th></th>
+                  <th>Email</th><th>Source</th><th>Country</th><th>Status</th><th>Welcome</th><th>Joined</th><th></th>
                 </tr></thead>
                 <tbody>
                   {filtered.map((r) => (
@@ -191,6 +191,9 @@ export default function SubscribersPage() {
                       <td><input type="checkbox" disabled={r.unsubscribed} checked={sel.has(r.email)} onChange={() => toggle(r.email)} /></td>
                       <td>{r.email}</td><td>{r.source}</td><td>{r.country || '—'}</td>
                       <td style={{ color: r.unsubscribed ? 'var(--admin-muted)' : 'var(--admin-teal, #1D9E75)' }}>{r.unsubscribed ? 'unsubscribed' : 'active'}</td>
+                      <td title={r.welcome_sent_at ? new Date(r.welcome_sent_at).toLocaleString() : ''} style={{ color: r.welcome_sent ? 'var(--admin-teal, #1D9E75)' : 'var(--admin-muted)', whiteSpace: 'nowrap' }}>
+                        {r.welcome_sent ? `✓ ${r.welcome_sent_at ? new Date(r.welcome_sent_at).toLocaleDateString() : 'sent'}` : '—'}
+                      </td>
                       <td style={{ color: 'var(--admin-muted)' }}>{new Date(r.created_at).toLocaleDateString()}</td>
                       <td style={{ textAlign: 'right', whiteSpace: 'nowrap' }}>
                         {!r.unsubscribed && <button className="admin-btn" style={{ padding: '3px 9px', fontSize: 12 }} onClick={() => resendWelcome(r.email)}>Resend welcome</button>}
