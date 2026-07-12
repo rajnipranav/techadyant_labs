@@ -8,6 +8,7 @@ import { CATEGORY_HUBS, STATE_HUBS } from './research/suppliers-hubs';
 import { graphEntities } from './research/graph';
 import { corridors as indCorridors } from './corridors/data';
 import { allCorridorNodePairs } from './corridors/node-data';
+import platformEntities from './research/_platform.json';
 
 // The project uses `output: 'export'` for Cloudflare Pages static deploy;
 // route handlers must be marked static so they're generated at build time.
@@ -63,6 +64,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/research/supply-chains/`, lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
     { url: `${SITE}/research/corridors/`,     lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE}/research/sources/`,       lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
+    { url: `${SITE}/research/explorer/`,      lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${SITE}/research/search/`,        lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
   ];
 
   // Published reports (skip forthcoming — they have placeholder pages with
@@ -134,5 +137,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const corridorNodeRoutes: MetadataRoute.Sitemap = allCorridorNodePairs().map((p) => ({ url: `${SITE}/corridors/${p.corridor}/${p.node}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 }));
 
-  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes];
+  const platformRoutes: MetadataRoute.Sitemap = (platformEntities as { kind: string; slug: string }[]).map((e) => ({ url: `${SITE}/research/e/${e.kind}/${e.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 }));
+
+  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes];
 }

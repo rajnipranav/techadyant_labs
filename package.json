@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/sync-cms-to-data.mjs && next build && node scripts/indexnow-submit.mjs",
+    "build": "node scripts/sync-cms-to-data.mjs && node scripts/bake-platform.mjs && next build && node scripts/indexnow-submit.mjs",
     "build:only": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -14,7 +14,8 @@
     "publish-report": "node scripts/publish-report.mjs",
     "indexnow": "node scripts/indexnow-submit.mjs",
     "indexnow:all": "node scripts/indexnow-submit.mjs --all",
-    "bake": "node scripts/bake-sid.mjs"
+    "bake": "node scripts/bake-sid.mjs",
+    "bake-platform": "node scripts/bake-platform.mjs"
   },
   "dependencies": {
     "next": "^15.3.1",

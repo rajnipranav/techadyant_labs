@@ -31,130 +31,6 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
-  slug: 'india-industrial-water-opportunity-map',
-  title: 'India’s Industrial Water Opportunity Map',
-  subtitle: 'India’s Industrial Water and Wastewater Infrastructure Market, 2024–2030',
-  domain: 'Industrial Infrastructure',
-  edition: 'Strategic Opportunity · Edition 1 · v1.0',
-  published: '2026-07-11',
-  publishedLabel: 'July 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'India’s industrial water and wastewater infrastructure market is projected to grow from USD 2.87 billion in 2024 to USD 4.65 billion by 2030 (Frost & Sullivan) — an 8.3% CAGR driven not by choice but by regulatory enforcement and hydrological constraint. This opportunity map sizes the market across five solution tiers, eight industry verticals and six states, and locates where the returns actually sit: semiconductor-grade ultrapure water, digital and AI water platforms, operations-and-maintenance annuities, and zero-liquid-discharge with resource recovery. It carries decision-grade frameworks — a Policy Risk Matrix, Value Chain Economics, a Five-Forces read and an Investment Heat Map — three named scenarios to 2030, and stakeholder playbooks for investors, technology providers, policymakers and industrial buyers. Twelve chapters, 119 tables, 46 charts, verified company profiles and a full financing analysis.',
-  accent: '#2BA6C6',
-  access: 'paid',
-  price: 4999,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 192,
-  cover: '/covers/india-industrial-water-opportunity-map.jpg',
-  previewObject: 'reports-free/India-Industrial-Water-Opportunity-Map - Free.pdf',
-  previewPages: 15,
-  keywords: ['india industrial water market', 'industrial water treatment india', 'zero liquid discharge india', 'ultrapure water semiconductor india', 'india wastewater treatment market', 'water reuse policy india', 'ZLD market india 2030', 'industrial water opportunity india', 'data centre water consumption india', 'green hydrogen water india', 'india water infrastructure investment', 'VA Tech Wabag Ion Exchange Thermax'],
-  faq: [
-    { q: 'How big is India’s industrial water market?', a: 'India’s industrial water and wastewater infrastructure market is estimated at USD 2.87 billion (2024), projected to reach USD 4.65 billion by 2030 at an 8.3% CAGR (Frost & Sullivan). The broader treatment-technology market — municipal and industrial combined — is a differently-drawn USD 2.73 billion (2025) to USD 4.73 billion (2031) market (Mordor Intelligence).' },
-    { q: 'What is driving demand for industrial water treatment in India?', a: 'Regulatory enforcement is the primary driver: the MoEFCC Consent Guidelines 2025, the Maharashtra Safe Reuse Policy 2025, AMRUT 2.0 reuse targets and selective ZLD requirements convert compliance into non-discretionary CAPEX, compounded by demand from semiconductors, data centres and green hydrogen.' },
-    { q: 'Where are the best industrial water opportunities?', a: 'The Investment Heat Map ranks semiconductor-grade ultrapure water, digital and AI water platforms, data-centre water systems, O&M annuity portfolios and ZLD-with-resource-recovery highest on a combined growth, margin and barrier score.' },
-    { q: 'Which states dominate India’s industrial water market?', a: 'Maharashtra, Gujarat, Tamil Nadu and Karnataka account for roughly 69% of national spend; Karnataka and Uttar Pradesh grow fastest by rate.' },
-    { q: 'Who is this report for?', a: 'Investors, water technology and EPC providers, policymakers and regulators, industrial end-users, and multilateral agencies — with a stakeholder-specific playbook for each.' }
-  ],
-  dateModified: '2026-07-11',
-  seo: { entities: ['industrial water','zero liquid discharge','ultrapure water','wastewater treatment','VA Tech Wabag','Ion Exchange','Thermax','MoEFCC Consent Guidelines','AMRUT 2.0','semiconductor water'], metaTitle: 'India Industrial Water Market 2024–2030: Opportunity Map & Forecast', metaDescription: 'India’s industrial water and wastewater market to 2030 — Frost & Sullivan forecasts, ZLD and reuse policy, semiconductor and data-centre water demand, an Investment Heat Map, and where investors and technology providers capture value.', focusKeyword: 'india industrial water market', schemaType: 'Report' },
-}, {
-  slug: 'india-cargo-drone-market',
-  title: 'India’s Cargo Drone Demand Intelligence 2026–2035',
-  subtitle: 'Which industries will fly India’s cargo drones, when, and who captures the ecosystem? Ten demand ecosystems, three scenarios to 2035, a proprietary Adoption Readiness Index™, and the 25 hidden opportunity surfaces from healthcare logistics to MRO.',
-  domain: 'Logistics & Mobility',
-  edition: 'Strategic Opportunity · Edition 1 · v1.0',
-  published: '2026-07-09',
-  publishedLabel: 'July 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'India’s civil cargo drone fleet is projected to grow from roughly 850 units in 2026 to between 14,800 and 142,000 units by 2035. This market-intelligence report reframes the question away from “how many drones” toward which industries generate the demand, why, when, and what industrial ecosystems that demand creates. The Base Case places the 2035 fleet at 50,200 units and INR 18,400 crore (USD 2.2 billion) of annual revenue — a 63% CAGR — with an Accelerated case reaching 142,000 units and INR 46,500 crore. Demand concentrates in ten ecosystems, four of which — healthcare logistics, industrial-campus logistics, mining, and agriculture — score as Tier-1 lead adopters on the proprietary Cargo Drone Adoption Readiness Index™. The most valuable plays lie not in drone manufacturing but in the supporting ecosystem: twenty-five hidden opportunity surfaces, the top five (UTM SaaS, MRO hubs, drone-port infrastructure, battery swapping, and motor/composite component manufacturing) representing an INR 5,250 crore addressable market by 2030. Seventeen chapters, twenty tables, twenty figures, three scenarios and full appendices.',
-  accent: '#3E8EDE',
-  access: 'paid',
-  price: 4999,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 124,
-  cover: '/covers/india-cargo-drone-market.jpg',
-  previewObject: 'reports-free/India-Cargo-Drone-Market-Free-Edition.pdf',
-  previewPages: 14,
-  keywords: ['india cargo drone market', 'cargo drone demand forecast india', 'india drone logistics market 2035', 'BVLOS cargo drone india', 'drone delivery healthcare india', 'last-mile drone delivery india', 'cargo drone adoption readiness index', 'india drone logistics opportunity', 'UTM SaaS india', 'drone MRO india', 'medical drone delivery india', 'india cargo drone fleet forecast'],
-  faq: [{
-  q: 'How big is India’s cargo drone market by 2035?',
-  a: 'In the Base Case the private-sector fleet reaches about 50,200 units generating INR 18,400 crore (USD 2.2 billion) a year — a 63% CAGR from 2026. Across scenarios the 2035 range is INR 3,700 crore (Conservative) to INR 46,500 crore / USD 5.6 billion (Accelerated).'
-}, {
-  q: 'Which industries will drive cargo drone demand in India?',
-  a: 'Demand concentrates in ten ecosystems. Four score as Tier-1 lead adopters on the Cargo Drone Adoption Readiness Index™ — healthcare logistics, industrial-campus logistics, mining operations, and agriculture — together about 56% of the active fleet by 2030.'
-}, {
-  q: 'What is the biggest cargo drone opportunity for startups and SMEs?',
-  a: 'Not the drones themselves but the supporting ecosystem. The report identifies 25 hidden opportunity surfaces; the top five — UTM SaaS, MRO hubs, drone-port infrastructure, battery swapping, and motor/composite component manufacturing — represent an INR 5,250 crore addressable market by 2030.'
-}, {
-  q: 'Is BVLOS cargo drone delivery legal in India?',
-  a: 'The New Drone Rules 2021, the Drone Airspace Map, the PLI scheme and the 2024 BVLOS certification pathway already make India one of the more liberalised regimes. The remaining pieces — national corridor policy, UTM licensing, drone-port standards and IRDAI insurance guidelines — are expected substantially complete by 2026.'
-}, {
-  q: 'Why is healthcare the strongest cargo drone use case in India?',
-  a: 'Blood, vaccine, organ and emergency-medicine delivery to tier-3 and tier-4 locations offers cost-per-delivery 30–70% better than motorbikes and 60–85% faster response. Rwanda’s Zipline validated the model over eight years; India’s demand surface is roughly twelve times larger by population.'
-}],
-  dateModified: '2026-07-09',
-  seo: {
-    metaTitle: 'India Cargo Drone Market 2026–2035: Demand Forecast, Ecosystems & Opportunities',
-    metaDescription: 'India’s civil cargo drone market to 2035 — fleet and revenue forecasts across three scenarios, ten demand ecosystems, a proprietary Adoption Readiness Index, and 25 hidden opportunity surfaces for OEMs, operators, SMEs and investors.',
-    focusKeyword: 'india cargo drone market',
-    schemaType: 'Report',
-    entities: ['cargo drone', 'BVLOS', 'UTM', 'Drone Rules 2021', 'PLI scheme', 'Zipline', 'healthcare logistics', 'last-mile delivery', 'India logistics', 'DGCA'],
-  },
-}, {
-  slug: 'india-loitering-munitions-market',
-  title: 'India’s Loitering Munitions Market Intelligence 2026–2035',
-  subtitle: 'Who arms India’s loitering-munition decade? Demand quantification, category specifications, the supplier map, and the subsystem chokepoints that decide sovereignty.',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Opportunity · Edition 1 · v1.0',
-  published: '2026-07-08',
-  publishedLabel: 'July 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'India has entered a ten-year window in which loitering munitions move to the centre of its land-warfare doctrine. Operation Sindoor in 2025 turned the shift into a procurement fact — ₹9,100 crore of emergency powers, roughly 80% of the field-formation tranche directed to loitering and kamikaze systems, and a December-2025 DAC clearance of about ₹79,000 crore that named a Loiter Munition System for Artillery Regiments. This market-intelligence report argues India has a sovereignty problem, not a capability one: it can build world-class systems — Nagastra, ALS-50, SkyStriker, ULPGM-V3 — but depends on China for roughly 90% of its flight controllers and rare-earth magnets and about 84% of its lithium-ion cells. It models the ten-year demand bottom-up, maps the domestic and foreign supplier base, scores subsystem sovereignty across the value stack, and sets out a datable path to 2035 — with the Budget FY26-27 earmark of ₹1.39 lakh crore (75% of capital acquisition) for domestic procurement as the protected runway. Six parts, seventeen chapters, twenty-five figures and full appendices.',
-  accent: '#2BC5B4',
-  access: 'paid',
-  price: 6999,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 115,
-  cover: '/covers/india-loitering-munitions-market.jpg',
-  previewObject: 'reports-free/India-Loitering-Munitions-Market-Free-Edition.pdf',
-  previewPages: 14,
-  keywords: ['india loitering munitions market', 'loitering munition manufacturers india', 'kamikaze drone india', 'Nagastra loitering munition', 'SkyStriker India', 'ALS-50 Tata', 'India drone warfare procurement', 'loitering munition subsystem imports', 'rare earth magnets drones india', 'Operation Sindoor drone procurement', 'India defence budget 2026 drones', 'attritable precision munitions'],
-  faq: [{
-  a: 'The report models a volume-led ten-year requirement in the low hundreds of thousands of units. Commercial studies size India’s loitering-munition market at roughly US$345m by 2030; programme value is larger because it counts replenishment. The verified budget frame is ₹1.85 lakh crore of capital acquisition in FY26-27, 75% earmarked for domestic procurement.',
-  q: 'How big is India’s loitering-munitions market to 2035?'
-}, {
-  a: 'Economic Explosives/Solar (Nagastra-1/1R), Tata Advanced Systems (ALS-50), Alpha Design–Elbit (SkyStriker), DRDO/Bharat Dynamics/Adani (ULPGM-V3), NewSpace (Sheshnaag), and Zen Technologies (via TISA).',
-  q: 'Who makes loitering munitions in India?'
-}, {
-  a: 'The critical ones: flight controllers (~90% from China), sintered NdFeB magnets with dysprosium and terbium (~90% China, export-licensed since April 2025), lithium-ion cells (~84% China), EO/IR detector cores, and edge-AI silicon.',
-  q: 'What loitering-munition subsystems does India import?'
-}, {
-  a: 'It triggered ₹9,100 crore of emergency-procurement powers, directed about 80% of the field-formation tranche to loitering and kamikaze systems, and led to a December-2025 DAC clearance of about ₹79,000 crore that named a Loiter Munition System for Artillery Regiments.',
-  q: 'What did Operation Sindoor change for loitering-munition procurement?'
-}, {
-  a: 'It is sovereign in warheads, airframe and integration, and NavIC navigation, but dependent on foreign subsystems upstream. The ₹7,280 crore REPM magnet scheme and ₹34,300 crore National Critical Mineral Mission address the gap, but scheme-scale sovereign magnets are unlikely before about 2028.',
-  q: 'Is India self-reliant in loitering munitions?'
-}],
-  sources: [],
-  dateModified: '2026-07-08',
-  seo: {
-  entities: ['Nagastra', 'ALS-50', 'SkyStriker', 'ULPGM-V3', 'Economic Explosives', 'Tata Advanced Systems', 'DRDO', 'Bharat Dynamics', 'Operation Sindoor', 'NdFeB magnets', 'REPM scheme', 'NavIC'],
-  metaTitle: 'India Loitering Munitions Market 2026-2035: Demand, Suppliers & Sovereignty',
-  schemaType: 'Report',
-  focusKeyword: 'india loitering munitions market',
-  metaDescription: 'How many loitering munitions India will buy through 2035, which categories and suppliers win, and the subsystem chokepoints (magnets, seekers, flight controllers) that decide sovereignty.'
-}
-}, {
   slug: 'q-day-india',
   title: 'Q-Day India',
   subtitle: 'India’s readiness for post-quantum cryptography and the migration architecture',
@@ -351,34 +227,6 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
-  slug: 'india-edge-ai-economy',
-  title: 'India’s Edge AI Economy',
-  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
-  domain: 'Edge AI & Semiconductors',
-  edition: 'Edge AI Series · I · forthcoming',
-  published: '2026-08-15',
-  publishedLabel: 'Forthcoming',
-  readingTime: '~ 2h read',
-  status: 'forthcoming',
-  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
-  accent: '#38e1c4',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: false,
-  hasDeck: false,
-  pages: undefined,
-  cover: '',
-  previewObject: '',
-  previewPages: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-08-15',
-  seo: {
-
-}
-}, {
   slug: 'india-ai-power-infrastructure-gap',
   title: 'India’s AI Power Infrastructure Gap',
   subtitle: 'Why DC build-out is constrained by transmission, not generation',
@@ -407,6 +255,81 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'india-edge-ai-economy',
+  title: 'India’s Edge AI Economy',
+  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
+  domain: 'Edge AI & Semiconductors',
+  edition: 'Edge AI Series · I · forthcoming',
+  published: '2026-08-15',
+  publishedLabel: 'Forthcoming',
+  readingTime: '~ 2h read',
+  status: 'forthcoming',
+  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
+  accent: '#38e1c4',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: false,
+  hasDeck: false,
+  pages: undefined,
+  cover: '',
+  previewObject: '',
+  previewPages: undefined,
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-08-15',
+  seo: {
+
+}
+}, {
+  slug: 'india-industrial-water-opportunity-map',
+  title: 'India\'s Industrial Water Opportunity Map',
+  subtitle: 'India\'s Industrial Water and Wastewater Infrastructure Market, 2024–2030',
+  domain: 'Industrial Infrastructure',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-07-11',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India\'s industrial water and wastewater infrastructure market is projected to grow from USD 2.87 billion in 2024 to USD 4.65 billion by 2030 (Frost & Sullivan) — an 8.3% CAGR driven not by choice but by regulatory enforcement and hydrological constraint. This opportunity map sizes the market across five solution tiers, eight industry verticals and six states, and locates where the returns actually sit: semiconductor-grade ultrapure water, digital and AI water platforms, operations-and-maintenance annuities, and zero-liquid-discharge with resource recovery. It carries decision-grade frameworks — a Policy Risk Matrix, Value Chain Economics, a Five-Forces read and an Investment Heat Map — three named scenarios to 2030, and stakeholder playbooks for investors, technology providers, policymakers and industrial buyers. Twelve chapters, 119 tables, 46 charts, verified company profiles and a full financing analysis, with every market figure attributed to its source.',
+  accent: '#2BA6C6',
+  access: 'paid',
+  price: 4999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 192,
+  cover: '/covers/india-industrial-water-opportunity-map.jpg',
+  previewObject: 'reports-free/India-Industrial-Water-Opportunity-Map - Free.pdf',
+  previewPages: 15,
+  keywords: ['india industrial water market', 'industrial water treatment india', 'zero liquid discharge india', 'ultrapure water semiconductor india', 'india wastewater treatment market', 'water reuse policy india', 'ZLD market india 2030', 'industrial water opportunity india', 'data centre water consumption india', 'green hydrogen water india', 'india water infrastructure investment', 'VA Tech Wabag Ion Exchange Thermax'],
+  faq: [{
+  a: 'India\'s industrial water and wastewater infrastructure market is estimated at USD 2.87 billion (2024), projected to reach USD 4.65 billion by 2030 at an 8.3% CAGR (Frost & Sullivan). The broader water and wastewater treatment technology market — municipal and industrial combined — is a differently-drawn USD 2.73 billion (2025) to USD 4.73 billion (2031) market (Mordor Intelligence).',
+  q: 'How big is India\'s industrial water market?'
+}, {
+  a: 'Regulatory enforcement is the primary driver, not optionality: the MoEFCC Consent Guidelines 2025, the Maharashtra Safe Reuse Policy 2025, AMRUT 2.0 reuse targets and selective ZLD requirements convert compliance into non-discretionary CAPEX. Water scarcity and high-growth demand from semiconductors, data centres and green hydrogen compound it.',
+  q: 'What is driving demand for industrial water treatment in India?'
+}, {
+  a: 'The Investment Heat Map ranks semiconductor-grade ultrapure water, digital and AI water platforms, data-centre water systems, O&M annuity portfolios and ZLD-with-resource-recovery highest on a combined growth, margin and barrier score.',
+  q: 'Where are the best industrial water opportunities?'
+}, {
+  a: 'Maharashtra, Gujarat, Tamil Nadu and Karnataka account for roughly 69% of national spend; Karnataka and Uttar Pradesh are the fastest-growing by rate, driven by semiconductor fabs and municipal-industrial reuse respectively.',
+  q: 'Which states dominate India\'s industrial water market?'
+}, {
+  a: 'Investors and financial institutions, water technology and EPC providers, policymakers and regulators, industrial end-users, and multilateral and development agencies — with a stakeholder-specific playbook for each.',
+  q: 'Who is this report for?'
+}],
+  sources: [],
+  dateModified: '2026-07-11',
+  seo: {
+  entities: ['industrial water', 'zero liquid discharge', 'ultrapure water', 'wastewater treatment', 'water reuse', 'VA Tech Wabag', 'Ion Exchange', 'Thermax', 'MoEFCC Consent Guidelines', 'AMRUT 2.0', 'semiconductor water', 'green hydrogen water'],
+  metaTitle: 'India Industrial Water Market 2024–2030: Opportunity Map & Forecast',
+  schemaType: 'Report',
+  focusKeyword: 'india industrial water market',
+  metaDescription: 'India\'s industrial water and wastewater market to 2030 — Frost & Sullivan forecasts, ZLD and reuse policy, semiconductor and data-centre water demand, an Investment Heat Map, and where investors and technology providers capture value.'
+}
+}, {
   slug: 'industrial-water-economy',
   title: 'The Industrial Water Economy',
   subtitle: 'Mapping the Water Dependencies of India’s New Manufacturing Corridors',
@@ -433,6 +356,100 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-07-10',
   seo: {
 
+}
+}, {
+  slug: 'india-cargo-drone-market',
+  title: 'India’s Cargo Drone Demand Intelligence 2026–2035',
+  subtitle: 'Which industries will fly India’s cargo drones, when, and who captures the ecosystem? Ten demand ecosystems, three scenarios to 2035, a proprietary Adoption Readiness Index™, and the 25 hidden opportunity surfaces from healthcare logistics to MRO.',
+  domain: 'Logistics & Mobility',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-07-09',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India’s civil cargo drone fleet is projected to grow from roughly 850 units in 2026 to between 14,800 and 142,000 units by 2035. This market-intelligence report reframes the question away from “how many drones” toward which industries generate the demand, why, when, and what industrial ecosystems that demand creates. The Base Case places the 2035 fleet at 50,200 units and INR 18,400 crore (USD 2.2 billion) of annual revenue — a 63% CAGR — with an Accelerated case reaching 142,000 units and INR 46,500 crore. Demand concentrates in ten ecosystems, of which four — healthcare logistics, industrial-campus logistics, mining, and agriculture — score as Tier-1 lead adopters on the proprietary Cargo Drone Adoption Readiness Index™. The most valuable plays lie not in drone manufacturing but in the supporting ecosystem: twenty-five hidden opportunity surfaces are identified, the top five (UTM SaaS, MRO hubs, drone-port infrastructure, battery swapping, and motor/composite component manufacturing) representing an INR 5,250 crore addressable market by 2030. Seventeen chapters, twenty tables, twenty figures, three scenarios and full appendices.',
+  accent: '#3E8EDE',
+  access: 'paid',
+  price: 4999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 124,
+  cover: '/covers/india-cargo-drone-market.jpg',
+  previewObject: 'reports-free/India-Cargo-Drone-Market-Free-Edition.pdf',
+  previewPages: 14,
+  keywords: ['india cargo drone market', 'cargo drone demand forecast india', 'india drone logistics market 2035', 'BVLOS cargo drone india', 'drone delivery healthcare india', 'last-mile drone delivery india', 'cargo drone adoption readiness index', 'india drone logistics opportunity', 'UTM SaaS india', 'drone MRO india', 'medical drone delivery india', 'india cargo drone fleet forecast'],
+  faq: [{
+  a: 'In the Base Case the private-sector fleet reaches about 50,200 units generating INR 18,400 crore (USD 2.2 billion) a year — a 63% CAGR from 2026. Across scenarios the 2035 range is INR 3,700 crore (Conservative) to INR 46,500 crore / USD 5.6 billion (Accelerated).',
+  q: 'How big is India’s cargo drone market by 2035?'
+}, {
+  a: 'Demand concentrates in ten ecosystems. Four score as Tier-1 lead adopters on the Cargo Drone Adoption Readiness Index™ — healthcare logistics, industrial-campus logistics, mining operations, and agriculture — together about 56% of the active fleet by 2030.',
+  q: 'Which industries will drive cargo drone demand in India?'
+}, {
+  a: 'Not the drones themselves but the supporting ecosystem. The report identifies 25 hidden opportunity surfaces; the top five — UTM SaaS, MRO hubs, drone-port infrastructure, battery swapping, and motor/composite component manufacturing — represent an INR 5,250 crore addressable market by 2030.',
+  q: 'What is the biggest cargo drone opportunity for startups and SMEs?'
+}, {
+  a: 'The New Drone Rules 2021, the Drone Airspace Map, the PLI scheme and the 2024 BVLOS certification pathway already make India one of the more liberalised regimes. The remaining pieces — national corridor policy, UTM licensing, drone-port standards and IRDAI insurance guidelines — are expected substantially complete by 2026.',
+  q: 'Is BVLOS cargo drone delivery legal in India?'
+}, {
+  a: 'Blood, vaccine, organ and emergency-medicine delivery to tier-3 and tier-4 locations offers cost-per-delivery 30–70% better than motorbikes and 60–85% faster response. Rwanda’s Zipline validated the model over eight years; India’s demand surface is roughly twelve times larger by population.',
+  q: 'Why is healthcare the strongest cargo drone use case in India?'
+}],
+  sources: [],
+  dateModified: '2026-07-09',
+  seo: {
+  entities: ['cargo drone', 'BVLOS', 'UTM', 'Drone Rules 2021', 'PLI scheme', 'Zipline', 'healthcare logistics', 'last-mile delivery', 'India logistics', 'DGCA'],
+  metaTitle: 'India Cargo Drone Market 2026–2035: Demand Forecast, Ecosystems & Opportunities',
+  schemaType: 'Report',
+  focusKeyword: 'india cargo drone market',
+  metaDescription: 'India’s civil cargo drone market to 2035 — fleet and revenue forecasts across three scenarios, ten demand ecosystems, a proprietary Adoption Readiness Index, and 25 hidden opportunity surfaces for OEMs, operators, SMEs and investors.'
+}
+}, {
+  slug: 'india-loitering-munitions-market',
+  title: 'India’s Loitering Munitions Market Intelligence 2026–2035',
+  subtitle: 'Who arms India’s loitering-munition decade? Demand quantification, category specifications, the supplier map, and the subsystem chokepoints that decide sovereignty.',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-07-08',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India has entered a ten-year window in which loitering munitions move to the centre of its land-warfare doctrine. Operation Sindoor in 2025 turned the shift into a procurement fact — ₹9,100 crore of emergency powers, roughly 80% of the field-formation tranche directed to loitering and kamikaze systems, and a December-2025 DAC clearance of about ₹79,000 crore that named a Loiter Munition System for Artillery Regiments. This market-intelligence report argues India has a sovereignty problem, not a capability one: it can build world-class systems — Nagastra, ALS-50, SkyStriker, ULPGM-V3 — but depends on China for roughly 90% of its flight controllers and rare-earth magnets and about 84% of its lithium-ion cells. It models the ten-year demand bottom-up, maps the domestic and foreign supplier base, scores subsystem sovereignty across the value stack, and sets out a datable path to 2035 — with the Budget FY26-27 earmark of ₹1.39 lakh crore (75% of capital acquisition) for domestic procurement as the protected runway. Six parts, seventeen chapters, twenty-five figures and full appendices.',
+  accent: '#2BC5B4',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 115,
+  cover: '/covers/india-loitering-munitions-market.jpg',
+  previewObject: 'reports-free/India-Loitering-Munitions-Market-Free-Edition.pdf',
+  previewPages: 14,
+  keywords: ['india loitering munitions market', 'loitering munition manufacturers india', 'kamikaze drone india', 'Nagastra loitering munition', 'SkyStriker India', 'ALS-50 Tata', 'India drone warfare procurement', 'loitering munition subsystem imports', 'rare earth magnets drones india', 'Operation Sindoor drone procurement', 'India defence budget 2026 drones', 'attritable precision munitions'],
+  faq: [{
+  a: 'The report models a volume-led ten-year requirement in the low hundreds of thousands of units. Commercial studies size India’s loitering-munition market at roughly US$345m by 2030; programme value is larger because it counts replenishment. The verified budget frame is ₹1.85 lakh crore of capital acquisition in FY26-27, 75% earmarked for domestic procurement.',
+  q: 'How big is India’s loitering-munitions market to 2035?'
+}, {
+  a: 'Economic Explosives/Solar (Nagastra-1/1R), Tata Advanced Systems (ALS-50), Alpha Design–Elbit (SkyStriker), DRDO/Bharat Dynamics/Adani (ULPGM-V3), NewSpace (Sheshnaag), and Zen Technologies (via TISA).',
+  q: 'Who makes loitering munitions in India?'
+}, {
+  a: 'The critical ones: flight controllers (~90% from China), sintered NdFeB magnets with dysprosium and terbium (~90% China, export-licensed since April 2025), lithium-ion cells (~84% China), EO/IR detector cores, and edge-AI silicon.',
+  q: 'What loitering-munition subsystems does India import?'
+}, {
+  a: 'It triggered ₹9,100 crore of emergency-procurement powers, directed about 80% of the field-formation tranche to loitering and kamikaze systems, and led to a December-2025 DAC clearance of about ₹79,000 crore that named a Loiter Munition System for Artillery Regiments.',
+  q: 'What did Operation Sindoor change for loitering-munition procurement?'
+}, {
+  a: 'It is sovereign in warheads, airframe and integration, and NavIC navigation, but dependent on foreign subsystems upstream. The ₹7,280 crore REPM magnet scheme and ₹34,300 crore National Critical Mineral Mission address the gap, but scheme-scale sovereign magnets are unlikely before about 2028.',
+  q: 'Is India self-reliant in loitering munitions?'
+}],
+  sources: [],
+  dateModified: '2026-07-08',
+  seo: {
+  entities: ['Nagastra', 'ALS-50', 'SkyStriker', 'ULPGM-V3', 'Economic Explosives', 'Tata Advanced Systems', 'DRDO', 'Bharat Dynamics', 'Operation Sindoor', 'NdFeB magnets', 'REPM scheme', 'NavIC'],
+  metaTitle: 'India Loitering Munitions Market 2026-2035: Demand, Suppliers & Sovereignty',
+  schemaType: 'Report',
+  focusKeyword: 'india loitering munitions market',
+  metaDescription: 'How many loitering munitions India will buy through 2035, which categories and suppliers win, and the subsystem chokepoints (magnets, seekers, flight controllers) that decide sovereignty.'
 }
 }, {
   slug: 'beyond-quantum-computing',
@@ -571,53 +588,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'Around 90% of small-drone flight controllers come from China. The market, the silicon, and how India builds a trusted flight-controller and drone-electronics stack.'
 }
 }, {
-  slug: 'india-drone-sensors-payloads-imaging-market',
-  title: 'India Drone Sensors, Payloads & Imaging Systems Market',
-  subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Opportunity · Edition 1 · v1.0',
-  published: '2026-06-16',
-  publishedLabel: 'June 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'A drone is only as capable as what it can sense, and India imports most of that capability. The market for drone sensors, payloads and imaging systems is valued at roughly US$190–210 million in 2026 and modelled to reach US$1.1–1.5 billion by 2035 at a 22–26% CAGR — but 70–80% of high-grade sensor demand is met by imports: LiDAR is about 85% imported, thermal about 80%, and inertial measurement units about 70%, sourced mainly from China, Taiwan and the United States. This report sizes the market segment by segment (sensor type, end-use sector, UAV class, component tier and region), maps the import-dependence and localisation roadmap, profiles the competitive landscape — ideaForge, Eon Space Labs, Garuda Aerospace, BEL and the international suppliers — and runs a ten-year forecast across three scenarios. It tracks the structural shifts now reshaping value capture: the move from discrete sensors to integrated, pre-calibrated payloads, the rise of Drone-as-a-Service and data monetisation over hardware, and indigenous breakthroughs such as Eon Space Labs’ germanium-free thermal imaging that cuts system cost 60–70%. Thirteen chapters, 50 figures, 137 tables, and a full segmentation and forecast model.',
-  accent: '#2BC5B4',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 143,
-  cover: '/covers/india-drone-sensors-payloads-imaging-market.jpg',
-  previewObject: 'reports-free/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
-  previewPages: 6,
-  keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
-  faq: [{
-  a: 'About US$190–210 million in 2026, modelled to reach US$1.1–1.5 billion by 2035 — a 22–26% CAGR. LiDAR is the fastest-growing category at over 35% CAGR, driven by infrastructure inspection, mining volumetrics and corridor mapping.',
-  q: 'How big is India’s drone sensors and payloads market?'
-}, {
-  a: 'Heavily. Roughly 70–80% of high-grade drone-sensor demand is imported — about 85% of LiDAR, 80% of thermal cores and 70% of inertial measurement units — sourced mainly from China, Taiwan and the United States. The localisation gap, not the platform, is where the strategic exposure sits.',
-  q: 'How dependent is India on imported drone sensors?'
-}, {
-  a: 'It is an indigenous thermal-imaging approach pioneered by Eon Space Labs that avoids germanium optics, whose 2024 supply crisis brought seven-month lead times and ten-fold cost spikes. The germanium-free architecture lowers system cost by 60–70% and reaches roughly 80% local manufacturing, proving import dependence can be engineered around rather than simply replicated.',
-  q: 'What is germanium-free thermal imaging and why does it matter?'
-}, {
-  a: 'Drone-as-a-Service. Value is shifting from selling hardware to monetising the data the sensors capture, with DaaS margins of 50–65% against hardware margins of 25–35%. Buyers increasingly want actionable intelligence — orthomosaics, point clouds, NDVI layers — not raw sensors.',
-  q: 'Which business model is winning in India’s drone-sensing market?'
-}, {
-  a: 'ideaForge leads on certification and integrated payload ecosystems; Eon Space Labs holds proprietary germanium-free thermal with about 80% localisation; Garuda Aerospace runs the largest agricultural DaaS fleet; and BEL brings defence-PSU radar capability. International suppliers still hold the high-spec LiDAR and thermal cores.',
-  q: 'Who are the leading players in India’s drone sensor and payload market?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['EO/IR sensors', 'LiDAR', 'thermal imaging', 'drone payloads', 'remote sensing', 'gimbals'],
-  metaTitle: 'India Drone Sensors, Payloads & Imaging Systems Market 2026',
-  schemaType: 'Report',
-  focusKeyword: 'India drone sensors market',
-  metaDescription: 'India\'s drone sensor and payload market mapped: EO/IR gimbals, LiDAR, thermal and multispectral imaging, remote-sensing payloads — market structure, import dependence and the localisation opportunity.'
-}
-}, {
   slug: 'the-end-of-the-application-era',
   title: 'Who Captures Computing When the Application Disappears?',
   subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
@@ -663,6 +633,53 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'AI agents replacing applications',
   metaDescription: 'As AI agents replace applications as the primary interface to computing, value moves to inference, identity, memory and scheduling. Who captures the post-application stack — and where India stands. Free report.'
+}
+}, {
+  slug: 'india-drone-sensors-payloads-imaging-market',
+  title: 'India Drone Sensors, Payloads & Imaging Systems Market',
+  subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-06-16',
+  publishedLabel: 'June 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'A drone is only as capable as what it can sense, and India imports most of that capability. The market for drone sensors, payloads and imaging systems is valued at roughly US$190–210 million in 2026 and modelled to reach US$1.1–1.5 billion by 2035 at a 22–26% CAGR — but 70–80% of high-grade sensor demand is met by imports: LiDAR is about 85% imported, thermal about 80%, and inertial measurement units about 70%, sourced mainly from China, Taiwan and the United States. This report sizes the market segment by segment (sensor type, end-use sector, UAV class, component tier and region), maps the import-dependence and localisation roadmap, profiles the competitive landscape — ideaForge, Eon Space Labs, Garuda Aerospace, BEL and the international suppliers — and runs a ten-year forecast across three scenarios. It tracks the structural shifts now reshaping value capture: the move from discrete sensors to integrated, pre-calibrated payloads, the rise of Drone-as-a-Service and data monetisation over hardware, and indigenous breakthroughs such as Eon Space Labs’ germanium-free thermal imaging that cuts system cost 60–70%. Thirteen chapters, 50 figures, 137 tables, and a full segmentation and forecast model.',
+  accent: '#2BC5B4',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 143,
+  cover: '/covers/india-drone-sensors-payloads-imaging-market.jpg',
+  previewObject: 'reports-free/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
+  previewPages: 6,
+  keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
+  faq: [{
+  a: 'About US$190–210 million in 2026, modelled to reach US$1.1–1.5 billion by 2035 — a 22–26% CAGR. LiDAR is the fastest-growing category at over 35% CAGR, driven by infrastructure inspection, mining volumetrics and corridor mapping.',
+  q: 'How big is India’s drone sensors and payloads market?'
+}, {
+  a: 'Heavily. Roughly 70–80% of high-grade drone-sensor demand is imported — about 85% of LiDAR, 80% of thermal cores and 70% of inertial measurement units — sourced mainly from China, Taiwan and the United States. The localisation gap, not the platform, is where the strategic exposure sits.',
+  q: 'How dependent is India on imported drone sensors?'
+}, {
+  a: 'It is an indigenous thermal-imaging approach pioneered by Eon Space Labs that avoids germanium optics, whose 2024 supply crisis brought seven-month lead times and ten-fold cost spikes. The germanium-free architecture lowers system cost by 60–70% and reaches roughly 80% local manufacturing, proving import dependence can be engineered around rather than simply replicated.',
+  q: 'What is germanium-free thermal imaging and why does it matter?'
+}, {
+  a: 'Drone-as-a-Service. Value is shifting from selling hardware to monetising the data the sensors capture, with DaaS margins of 50–65% against hardware margins of 25–35%. Buyers increasingly want actionable intelligence — orthomosaics, point clouds, NDVI layers — not raw sensors.',
+  q: 'Which business model is winning in India’s drone-sensing market?'
+}, {
+  a: 'ideaForge leads on certification and integrated payload ecosystems; Eon Space Labs holds proprietary germanium-free thermal with about 80% localisation; Garuda Aerospace runs the largest agricultural DaaS fleet; and BEL brings defence-PSU radar capability. International suppliers still hold the high-spec LiDAR and thermal cores.',
+  q: 'Who are the leading players in India’s drone sensor and payload market?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['EO/IR sensors', 'LiDAR', 'thermal imaging', 'drone payloads', 'remote sensing', 'gimbals'],
+  metaTitle: 'India Drone Sensors, Payloads & Imaging Systems Market 2026',
+  schemaType: 'Report',
+  focusKeyword: 'India drone sensors market',
+  metaDescription: 'India\'s drone sensor and payload market mapped: EO/IR gimbals, LiDAR, thermal and multispectral imaging, remote-sensing payloads — market structure, import dependence and the localisation opportunity.'
 }
 }, {
   slug: 'osat-and-the-packaging-frontier',

@@ -5,6 +5,8 @@ import { usePathname } from 'next/navigation';
 
 const TABS = [
   { href: '/research', label: 'Overview' },
+  { href: '/research/explorer', label: 'Explorer' },
+  { href: '/research/search', label: 'Search' },
   { href: '/research/entities', label: 'Entities' },
   { href: '/research/dependencies', label: 'Import Dependencies' },
   { href: '/research/players', label: 'Ecosystems & Players' },
