@@ -34,6 +34,15 @@ function chip(active: boolean): React.CSSProperties {
     whiteSpace: 'nowrap',
   };
 }
+function seg(active: boolean, brass = false): React.CSSProperties {
+  return {
+    cursor: 'pointer', border: 'none', background: 'transparent',
+    color: active ? (brass ? 'var(--bg, #0b0b14)' : 'var(--bg, #0b0b14)') : 'var(--text-dim, #9aa3b2)',
+    fontSize: 13.5, fontWeight: active ? 700 : 500, padding: '7px 16px', borderRadius: 8,
+    whiteSpace: 'nowrap', transition: 'color .15s',
+    ...(active ? { background: brass ? 'var(--brass, #C9A84C)' : 'var(--text, #e9e7e0)' } : {}),
+  };
+}
 function score(v: number | null | undefined, lbl: string) {
   if (v == null) return null;
   return (
@@ -65,15 +74,24 @@ export function PatentsView({ data }: { data: Data }) {
 
   return (
     <>
+      {/* Prominent India-first scope toggle */}
+      <div style={{ display: 'inline-flex', gap: 4, padding: 4, borderRadius: 11, border: '1px solid var(--border, rgba(255,255,255,.16))', background: 'var(--bg-2, rgba(255,255,255,.03))', marginBottom: 16 }}>
+        <button style={seg(!indiaOnly)} onClick={() => { setIndiaOnly(false); reset(); }}>
+          All patents · {meta.total.toLocaleString('en-IN')}
+        </button>
+        <button style={seg(indiaOnly, true)} onClick={() => { setIndiaOnly(true); reset(); }}>
+          🇮🇳 India-first · {meta.india.toLocaleString('en-IN')}
+        </button>
+      </div>
+
       <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', alignItems: 'baseline', marginBottom: 16, color: 'var(--text-muted, #9aa3b2)', fontSize: 13 }}>
-        <span><strong style={{ color: 'var(--text, #e9e7e0)', fontSize: 15 }}>{meta.total.toLocaleString('en-IN')}</strong> patents mapped</span>
-        <span><strong style={{ color: 'var(--brass, #C9A84C)' }}>{meta.india.toLocaleString('en-IN')}</strong> India-origin filings</span>
+        <span><strong style={{ color: 'var(--text, #e9e7e0)', fontSize: 15 }}>{filtered.length.toLocaleString('en-IN')}</strong> {indiaOnly ? 'India-origin' : ''} patents{industry ? ` in ${label(industry)}` : ''}</span>
         <span>{meta.byIndustry.length} industries</span>
         <span style={{ fontFamily: 'var(--font-jetbrains, monospace)', fontSize: 12 }}>updated {meta.updated}</span>
       </div>
 
-      <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 12 }}>
-        <button style={chip(industry === '')} onClick={() => { setIndustry(''); reset(); }}>All {meta.total}</button>
+      <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 14 }}>
+        <button style={chip(industry === '')} onClick={() => { setIndustry(''); reset(); }}>All sectors</button>
         {meta.byIndustry.map((f) => (
           <button key={f.i} style={chip(industry === f.i)} onClick={() => { setIndustry(f.i); reset(); }}>
             {label(f.i)} {f.c}
@@ -81,16 +99,11 @@ export function PatentsView({ data }: { data: Data }) {
         ))}
       </div>
 
-      <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', alignItems: 'center', marginBottom: 20 }}>
-        <input
-          placeholder="Search by title, applicant or patent number…" value={q}
-          onChange={(e) => { setQ(e.target.value); reset(); }}
-          style={{ flex: '1 1 320px', maxWidth: 480, background: 'var(--bg-2, rgba(255,255,255,.03))', color: 'var(--text, #e9e7e0)', border: '1px solid var(--border, rgba(255,255,255,.16))', borderRadius: 8, padding: '9px 12px', fontSize: 14 }}
-        />
-        <button style={chip(indiaOnly)} onClick={() => { setIndiaOnly((v) => !v); reset(); }}>
-          {indiaOnly ? '✓ ' : ''}India only
-        </button>
-      </div>
+      <input
+        placeholder="Search by title, applicant or patent number…" value={q}
+        onChange={(e) => { setQ(e.target.value); reset(); }}
+        style={{ width: '100%', maxWidth: 520, marginBottom: 20, background: 'var(--bg-2, rgba(255,255,255,.03))', color: 'var(--text, #e9e7e0)', border: '1px solid var(--border, rgba(255,255,255,.16))', borderRadius: 8, padding: '10px 12px', fontSize: 14 }}
+      />
 
       <div className="ed-kicker" style={{ marginBottom: 12 }}>{filtered.length.toLocaleString('en-IN')} results</div>
 
