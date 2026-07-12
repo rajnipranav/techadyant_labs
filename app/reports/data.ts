@@ -31,6 +31,53 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
+  slug: 'the-sme-playbook-for-indias-drone-economy',
+  title: 'The SME Playbook for India’s Drone Economy',
+  subtitle: 'A commercially actionable guide for investors with ₹50 lakh–₹5 crore. Eight opportunity segments scored on investment, gross margin, payback and SME suitability — from MRO and training to software, inspection and component manufacturing — plus a decision matrix, per-segment entry roadmaps and 24-month action agenda.',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-07-12',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 2.5h read',
+  status: 'published',
+  summary: 'India’s drone economy has matured into a regulated, commercially viable industry — 38,500+ registered drones, 39,890 certified pilots and 244 DGCA-approved RPTOs by February 2026, against a market valued near USD 798 million in 2025 and projected toward USD 3.9 billion by 2035. This playbook is written for the ₹50 lakh–₹5 crore investor. It scores eight business segments — component manufacturing, MRO, fleet operations, training, payload systems, software, infrastructure and inspection services — on capital required, gross margin, payback period and SME suitability, and shows where value actually accrues: upstream in components, and downstream in the aftermarket and services layer over the airframe, not in assembly. MRO, training and inspection services rate ‘Very High’ SME suitability with 12–18 month paybacks; software carries the highest margins at 60–85%. Each segment gets a step-by-step entry roadmap; the report closes with an investment decision matrix, risk-mitigation strategies, a 24-month action agenda and profile-specific recommendations. Thirteen chapters, twenty-six figures, extensive tables and full regulatory, scheme and RPTO appendices.',
+  accent: '#2BC5B4',
+  access: 'paid',
+  price: 4999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 172,
+  cover: '/covers/the-sme-playbook-for-indias-drone-economy.jpg',
+  previewObject: 'reports-free/SME-Playbook-Indias-Drone-Economy-Free.pdf',
+  previewPages: 16,
+  keywords: ['india drone economy investment', 'drone business opportunity india', 'drone MRO business india', 'drone pilot training business india', 'drone inspection services india', 'drone software startup india', 'drone component manufacturing india', 'drone PLI scheme india', 'SME drone business india', 'how to start a drone business india', 'drone fleet operations india', 'drone investment 50 lakh to 5 crore'],
+  faq: [{
+  a: 'This playbook is built around the ₹50 lakh–₹5 crore capital band. The lowest-capital, highest-suitability entries are MRO (₹50 lakh–₹2 crore), pilot training (₹50 lakh–₹2 crore) and inspection services (₹50 lakh–₹3 crore); component manufacturing and payload systems sit at the higher ₹2–5 crore end.',
+  q: 'How much does it cost to start a drone business in India?'
+}, {
+  a: 'On the report’s eight-segment matrix, software carries the highest gross margins (60–85%) and training the highest among physical businesses (40–60%). MRO, training and inspection services all rate ‘Very High’ SME suitability with 12–18 month payback windows.',
+  q: 'Which drone business has the best margins and fastest payback for an SME?'
+}, {
+  a: 'India’s drones market was valued at roughly USD 798 million in 2025 and is projected to reach about USD 3.9 billion by 2035 (Expert Market Research, ~17.3% CAGR); estimates across sources range from USD 1.39 billion to USD 3.93 billion depending on scope.',
+  q: 'How big is India’s drone market?'
+}, {
+  a: 'The existing PLI scheme (₹120 crore outlay, up to 20% of value addition) already benefits MSMEs, and Budget 2026 is expected to introduce a two-tier ~₹10,000 crore manufacturing incentive under the Drone Shakti banner with a 50–60% domestic-content requirement. Namo Drone Didi and DGCA’s DigitalSky single-window platform lower entry barriers further.',
+  q: 'What government schemes support drone entrepreneurs in India?'
+}, {
+  a: 'Not in airframe assembly. The playbook shows value concentrating upstream in components and downstream in the aftermarket and services layer — MRO, training, inspection, fleet operations and software — where SMEs can build defensible positions without competing head-on with capital-intensive OEMs.',
+  q: 'Where does the value actually accrue in India’s drone economy?'
+}],
+  sources: [],
+  dateModified: '2026-07-12',
+  seo: {
+  entities: ['drone economy', 'MRO', 'BVLOS', 'DGCA', 'PLI scheme', 'Drone Shakti', 'Namo Drone Didi', 'DigitalSky', 'RPTO', 'MSME'],
+  metaTitle: 'The SME Playbook for India’s Drone Economy (2026): 8 Business Segments Scored',
+  schemaType: 'Report',
+  focusKeyword: 'india drone economy investment',
+  metaDescription: 'How to invest ₹50 lakh–₹5 crore in India’s drone economy. Eight business segments — MRO, training, inspection, software, fleet ops, components, payloads, infrastructure — scored on capital, margin, payback and SME suitability, with entry roadmaps and a decision matrix.'
+}
+}, {
   slug: 'q-day-india',
   title: 'Q-Day India',
   subtitle: 'India’s readiness for post-quantum cryptography and the migration architecture',
