@@ -32,8 +32,10 @@ async function main() {
     return;
   }
   const data = await r.json();
-  if (!Array.isArray(data)) {
-    console.warn('[bake-platform] unexpected payload — keeping committed snapshot');
+  if (!Array.isArray(data) || data.length === 0) {
+    // Never overwrite the committed non-empty snapshot with an empty array —
+    // an empty _platform.json makes the /research/e/[kind]/[slug] export build fail.
+    console.warn('[bake-platform] empty/invalid payload — keeping committed snapshot');
     return;
   }
   writeFileSync(OUT, JSON.stringify(data));
