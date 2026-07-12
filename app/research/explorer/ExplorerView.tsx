@@ -2,6 +2,12 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import platform from '../_platform.json';
+
+// Only entities that were actually baked into static pages are linkable.
+// Long-tail entities (e.g. freshly-ingested patents) show as non-link cards
+// so we never link to a page that wasn't generated.
+const BAKED = new Set((platform as { kind: string; slug: string }[]).map((e) => `${e.kind}/${e.slug}`));
 
 const KINDS = [
   { code: '', label: 'All' },
@@ -81,7 +87,7 @@ export function ExplorerView() {
                   {e.description && <p style={{ fontSize: 13, color: 'var(--text-muted, #9aa3b2)', lineHeight: 1.45, margin: 0, display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{e.description}</p>}
                 </div>
               );
-              return OBJECT_KINDS.has(e.kind) && e.slug
+              return OBJECT_KINDS.has(e.kind) && e.slug && BAKED.has(`${e.kind}/${e.slug}`)
                 ? <Link key={e.id} href={`/research/e/${e.kind}/${e.slug}/`} style={{ textDecoration: 'none' }}>{card}</Link>
                 : <div key={e.id}>{card}</div>;
             })}

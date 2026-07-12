@@ -2,6 +2,10 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import platform from '../_platform.json';
+
+// Only baked entities are linkable (long-tail entities show as non-link cards).
+const BAKED = new Set((platform as { kind: string; slug: string }[]).map((e) => `${e.kind}/${e.slug}`));
 
 const OBJECT_KINDS = new Set([
   'technology', 'mineral_material', 'product', 'process', 'standard', 'patent', 'university',
@@ -57,7 +61,7 @@ export function SearchView() {
             );
             return (
               <li key={e.id}>
-                {OBJECT_KINDS.has(e.kind) && e.slug
+                {OBJECT_KINDS.has(e.kind) && e.slug && BAKED.has(`${e.kind}/${e.slug}`)
                   ? <Link href={`/research/e/${e.kind}/${e.slug}/`} style={style}>{inner}</Link>
                   : <div style={style}>{inner}</div>}
               </li>
