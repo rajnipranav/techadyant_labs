@@ -536,6 +536,55 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['India\'s data-centre constraint is local execution — transmission, interconnection queues, water rights and fibre right-of-way — not national capital, policy or talent.', 'Generation surplus does not equal deliverable power at a node; the bottleneck sits in transmission and the DISCOM interconnection queue.', 'The 4.5-9 GW trajectory to 2030 is set district by district, and the spread reflects how fast a few state utilities can execute.'],
   sources: ['https://cea.nic.in/', 'https://indiaai.gov.in/']
+}, {
+  slug: 'container-sovereignty-trade-infrastructure',
+  no: 'S-015',
+  title: 'Container manufacturing is really a trade-infrastructure signal',
+  domain: 'Industrial Infrastructure',
+  date: '2026-07-13',
+  dateLabel: '13 July 2026',
+  status: 'live',
+  excerpt: 'The headline is that India wants to manufacture shipping containers. The strategic signal is larger: India is beginning to localize a physical layer of global trade infrastructure, with spillovers into steel, coatings, rail freight, ports, cold chain, defence logistics and containerized infrastructure.',
+  readingTime: '6 min',
+  body: [{
+  text: 'The headline is easy to misread: India starts manufacturing shipping containers. The better question is what industrial ecosystems become possible when India localizes container manufacturing. A shipping container is not just a steel box. It is a standardised unit of global trade infrastructure: the object that lets ports, ships, railheads, inland depots, warehouses, exporters and insurers operate as one system.',
+  type: 'p'
+}, {
+  text: 'That is why this signal belongs in the Atlas. Container manufacturing sits at the intersection of steel, fabrication, marine coatings, precision fittings, inspection, leasing, port logistics, rail freight, cold chain and defence logistics. If the capability stays at dry-box assembly, the opportunity is thin and cost-exposed. If it moves into specialised containers and the component ecosystem beneath them, it becomes a strategic industrial surface.',
+  type: 'p'
+}, {
+  text: 'The hidden opportunity is not the box',
+  type: 'h'
+}, {
+  text: 'The commodity dry container is a hard market. China has scale, integrated suppliers and price discipline. India has already seen first-wave entrants struggle when steel costs, small order sizes and Chinese pricing compressed margins. The more durable opportunity is therefore not only to replicate the cheapest standard container. It is to move up the stack: reefers for pharma, seafood and food exports; tank and chemical containers; hazardous-goods boxes; defence containers; battery transport containers; modular hospitals; disaster-relief units; containerised data centres and edge-compute units.',
+  type: 'p'
+}, {
+  text: 'Each of those products pulls a deeper domestic supplier base. A reefer container needs insulation, refrigeration systems, sensors and validation. A tank container needs pressure-vessel capability, valves, seals and certification. A defence container needs ruggedisation, power, communications and deployable systems integration. A modular data-centre container needs power distribution, cooling, fire suppression, racks and monitoring. The value shifts from welding a box to building a repeatable industrial platform.',
+  type: 'p'
+}, {
+  text: 'The dependency map',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Weathering steel and structural sections: the cost and availability of container-grade steel sets the base economics.', 'Marine coatings and corrosion protection: a localisation surface adjacent to ports, ship repair and offshore equipment.', 'Corner castings, locking systems, hinges, seals and ISO fittings: the SME component layer that determines whether domestic assembly has depth.', 'Testing, certification and repair yards: the infrastructure that makes containers bankable for leasing companies and global shipping lines.', 'Refrigeration, tank systems and telematics: the higher-margin specialised-container layer where India can avoid a pure commodity fight.']
+}, {
+  text: 'This makes the right framing broader than a container-industry note. The report question is: who builds India\'s trade infrastructure? Containers are one chapter, but so are cargo-handling systems, multimodal logistics parks, inland container depots, rail freight interfaces, leasing pools, repair yards, tracking systems and port-adjacent manufacturing clusters.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether policy support creates a durable cluster around steel supply, testing, coating, components and repair, or only subsidises final assembly.', 'Whether Indian manufacturers win specialised-container categories before they try to match Chinese dry-container scale.', 'Whether Gujarat, with Mundra, Kandla, Pipavav and an existing fabrication base, becomes the first credible container ecosystem.', 'Whether Dedicated Freight Corridors, ICDs and multimodal logistics parks generate predictable domestic demand for containers and repairs.', 'Whether defence, pharma, seafood, agriculture and data-centre buyers specify domestic specialised containers as procurement categories.']
+}, {
+  text: 'The strategic read',
+  type: 'h'
+}, {
+  text: 'India is trying to localize one of the physical standards beneath global trade. That matters because trade sovereignty is not only about ports or ships; it is also about the containers, fittings, depots, repair yards, tracking systems and specialised modules that let exports move reliably. The signal to track is whether container manufacturing becomes another isolated production push, or the entry point into a broader trade-infrastructure ecosystem.',
+  type: 'p'
+}],
+  takeaways: ['Container manufacturing is a trade-infrastructure signal, not only a steel-box manufacturing story.', 'The highest-value path is specialised containers - reefers, tanks, chemical, defence, battery, medical and modular data-centre units - rather than only commodity dry containers.', 'The SME opportunity sits in weathering steel access, coatings, corner castings, seals, locking systems, testing, repair, telematics and leasing infrastructure.', 'The Atlas should track container manufacturing as a supply chain linked to ports, rail freight, cold chain, defence logistics, industrial corridors and AI infrastructure.'],
+  sources: ['https://timesofindia.indiatimes.com/city/ahmedabad/times-dhandho-gujarat-container-industrys-resurgence-unboxed/articleshow/128713762.cms', 'https://shipmin.gov.in/', 'https://sagarmala.gov.in/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
