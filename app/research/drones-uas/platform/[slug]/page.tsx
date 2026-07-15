@@ -8,8 +8,9 @@ export const dynamicParams = false;
 
 const num = (v: number | null, u: string) => (v == null ? null : `${v.toLocaleString('en-IN')}${u}`);
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const p = platformBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const p = platformBySlug(slug);
   if (!p) return { title: 'Platform — UAS Atlas' };
   const bits = [p.category, p.origin, p.mfr].filter(Boolean).join(' · ');
   return {
@@ -19,8 +20,9 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-export default function PlatformPage({ params }: { params: { slug: string } }) {
-  const p = platformBySlug(params.slug);
+export default async function PlatformPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const p = platformBySlug(slug);
   if (!p) return <><AtlasNav /><section className="wrap"><p>Platform not found.</p></section></>;
   const proc = procForPlatform(p.name);
   const comps = componentsForPlatform(p.id);

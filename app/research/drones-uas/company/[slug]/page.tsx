@@ -6,8 +6,9 @@ import { companies, companyBySlug, platformsForCompany, componentsForCompany } f
 export function generateStaticParams() { return companies.map((c) => ({ slug: c.slug })); }
 export const dynamicParams = false;
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const c = companyBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const c = companyBySlug(slug);
   if (!c) return { title: 'Company — UAS Atlas' };
   return {
     title: `${c.name} — India UAS Atlas${c.country ? ` (${c.country})` : ''}`,
@@ -16,8 +17,9 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-export default function CompanyPage({ params }: { params: { slug: string } }) {
-  const c = companyBySlug(params.slug);
+export default async function CompanyPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const c = companyBySlug(slug);
   if (!c) return <><AtlasNav /><section className="wrap"><p>Company not found.</p></section></>;
   const plats = platformsForCompany(c.name);
   const comps = componentsForCompany(c.name);
