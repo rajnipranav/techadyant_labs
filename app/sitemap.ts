@@ -10,6 +10,7 @@ import { corridors as indCorridors } from './corridors/data';
 import { allCorridorNodePairs } from './corridors/node-data';
 import platformEntities from './research/_platform.json';
 import droneAtlas from './research/_drones.json';
+import cuasAtlas from './research/_cuas.json';
 
 // The project uses `output: 'export'` for Cloudflare Pages static deploy;
 // route handlers must be marked static so they're generated at build time.
@@ -147,5 +148,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...da.platforms.map((pp) => ({ url: `${SITE}/research/drones-uas/platform/${pp.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 })),
     ...da.companies.map((cc) => ({ url: `${SITE}/research/drones-uas/company/${cc.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 })),
   ];
-  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes];
+  const ca = cuasAtlas as { systems: { slug: string }[]; manufacturers: { slug: string }[] };
+  const cuasRoutes: MetadataRoute.Sitemap = [
+    { url: `${SITE}/research/counter-uas/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    ...ca.systems.map((x) => ({ url: `${SITE}/research/counter-uas/system/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.55 })),
+    ...ca.manufacturers.map((x) => ({ url: `${SITE}/research/counter-uas/manufacturer/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 })),
+  ];
+  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes, ...cuasRoutes];
 }

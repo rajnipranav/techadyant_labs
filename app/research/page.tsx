@@ -143,6 +143,26 @@ export default function AtlasOverview() {
             </div>
             <span className="atlas-card-go">Explore the ecosystem →</span>
           </Link>
+          <Link href="/research/counter-uas/" className="atlas-card" style={{ ['--accent' as string]: '#E24B4A' }}>
+            <div className="atlas-card-head">
+              <h3>Counter-UAS</h3>
+              <span className="atlas-card-no">07</span>
+            </div>
+            <p className="atlas-card-tag">India&apos;s counter-drone shield — who detects, tracks and defeats the drone threat.</p>
+            <div className="atlas-strip" aria-hidden="true">
+              {['#C0563B', '#C99A3B', '#C99A3B', '#2BC5B4', '#C99A3B', '#2BC5B4'].map((bg, i) => (
+                <span key={i} style={{ background: bg }} />
+              ))}
+            </div>
+            <div className="atlas-card-stats">
+              <span><b>60</b> systems · <b>24</b> Indian</span>
+              <span>43 makers</span>
+            </div>
+            <div className="atlas-card-weak">
+              Critical import dep: <strong>AESA GaN / FPGA</strong> · Import-dependent
+            </div>
+            <span className="atlas-card-go">Explore the shield →</span>
+          </Link>
         </div>
       </section>
 
