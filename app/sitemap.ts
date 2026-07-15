@@ -66,6 +66,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/research/sources/`,       lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
     { url: `${SITE}/research/explorer/`,      lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${SITE}/research/patents/`,       lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${SITE}/research/drones-uas/`,   lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE}/research/search/`,        lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
   ];
 

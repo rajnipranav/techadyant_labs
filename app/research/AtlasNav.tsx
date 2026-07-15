@@ -7,6 +7,7 @@ const TABS = [
   { href: '/research', label: 'Overview' },
   { href: '/research/explorer', label: 'Explorer' },
   { href: '/research/patents', label: 'Patents' },
+  { href: '/research/drones-uas', label: 'Unmanned Systems' },
   { href: '/research/search', label: 'Search' },
   { href: '/research/entities', label: 'Entities' },
   { href: '/research/dependencies', label: 'Import Dependencies' },

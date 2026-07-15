@@ -82,7 +82,7 @@ export default function AtlasOverview() {
         <div className="section-head-ed">
           <div>
             <div className="ed-kicker">Start here</div>
-            <h2>The five ecosystems</h2>
+            <h2>The ecosystems we map</h2>
           </div>
           <p className="section-note">
             Each ecosystem is scored across its value chain on a 0–5 capture scale — from
@@ -123,6 +123,26 @@ export default function AtlasOverview() {
               </Link>
             );
           })}
+          <Link href="/research/drones-uas/" className="atlas-card" style={{ ['--accent' as string]: '#2BC5B4' }}>
+            <div className="atlas-card-head">
+              <h3>Unmanned Systems</h3>
+              <span className="atlas-card-no">06</span>
+            </div>
+            <p className="atlas-card-tag">India flies and assembles more drones than it builds — the components still come from abroad.</p>
+            <div className="atlas-strip" aria-hidden="true">
+              {['#C0563B', '#C0563B', '#C99A3B', '#C99A3B', '#2BC5B4', '#C99A3B'].map((bg, i) => (
+                <span key={i} style={{ background: bg }} />
+              ))}
+            </div>
+            <div className="atlas-card-stats">
+              <span><b>3</b> of <b>6</b> layers import-dependent</span>
+              <span>90 players</span>
+            </div>
+            <div className="atlas-card-weak">
+              Weakest link: <strong>Propulsion &amp; Power</strong> · Import-dependent
+            </div>
+            <span className="atlas-card-go">Explore the ecosystem →</span>
+          </Link>
         </div>
       </section>
 
