@@ -21,9 +21,9 @@ export default function PatentsPage() {
     description:
       `A curated monitor of ${meta.total.toLocaleString('en-IN')} Indian patent filings in strategic industries, drawn from the Indian Patent Office weekly journals and classified by sector and applicant.`,
     url: 'https://labs.techadyant.com/research/patents/',
-    isPartOf: { '@id': 'https://labs.techadyant.com/#website' },
+    includedInDataCatalog: { '@type': 'DataCatalog', name: 'The Atlas — Techadyant Labs', url: 'https://labs.techadyant.com/research/' }, license: 'https://creativecommons.org/licenses/by/4.0/',
     creator: { '@type': 'Organization', name: 'Techadyant Labs' },
-    spatialCoverage: { '@type': 'Country', name: 'India' },
+    spatialCoverage: { '@type': 'Place', name: 'India' },
     isBasedOn: 'Indian Patent Office weekly patent journals',
     keywords: [
       'India patents', 'Indian Patent Office', 'semiconductor patents India', 'drone patents India',

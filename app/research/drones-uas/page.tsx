@@ -30,9 +30,9 @@ export default function DronesPage() {
       name: 'India Unmanned Aerial Systems (UAS) Ecosystem',
       description: `A curated map of India’s drone ecosystem — ${meta.platforms} platforms, ${meta.companies} companies, disclosed government procurement, components, import dependencies and opportunity surfaces.`,
       url: 'https://labs.techadyant.com/research/drones-uas/',
-      isPartOf: { '@id': 'https://labs.techadyant.com/#website' },
+      includedInDataCatalog: { '@type': 'DataCatalog', name: 'The Atlas — Techadyant Labs', url: 'https://labs.techadyant.com/research/' }, license: 'https://creativecommons.org/licenses/by/4.0/',
       creator: { '@type': 'Organization', name: 'Techadyant Labs' },
-      spatialCoverage: { '@type': 'Country', name: 'India' },
+      spatialCoverage: { '@type': 'Place', name: 'India' },
       keywords: ['India drones', 'India UAS', 'drone manufacturers India', 'drone procurement India', 'UAV platforms India', 'loitering munitions India', 'drone components import dependency', 'India defence drones', 'drone ecosystem India'],
     },
     {

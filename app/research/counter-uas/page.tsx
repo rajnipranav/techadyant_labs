@@ -26,8 +26,8 @@ export default function CuasPage() {
   const ld = [
     { '@context': 'https://schema.org', '@type': 'Dataset', name: 'India Counter-UAS (Counter-Drone) Ecosystem',
       description: `A curated map of India’s counter-drone ecosystem — ${meta.systems} systems, ${meta.manufacturers} manufacturers, deployments, procurement, the counter-UAS kill chain, components and import dependencies.`,
-      url: 'https://labs.techadyant.com/research/counter-uas/', isPartOf: { '@id': 'https://labs.techadyant.com/#website' },
-      creator: { '@type': 'Organization', name: 'Techadyant Labs' }, spatialCoverage: { '@type': 'Country', name: 'India' },
+      url: 'https://labs.techadyant.com/research/counter-uas/', includedInDataCatalog: { '@type': 'DataCatalog', name: 'The Atlas — Techadyant Labs', url: 'https://labs.techadyant.com/research/' }, license: 'https://creativecommons.org/licenses/by/4.0/',
+      creator: { '@type': 'Organization', name: 'Techadyant Labs' }, spatialCoverage: { '@type': 'Place', name: 'India' },
       keywords: ['India counter-UAS', 'counter-drone systems India', 'C-UAS India', 'anti-drone systems', 'drone jammer India', 'directed energy weapon India', 'BEL counter drone', 'DRDO counter drone', 'India air defence drones'] },
     { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
   ];

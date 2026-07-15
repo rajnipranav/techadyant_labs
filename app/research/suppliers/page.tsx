@@ -38,7 +38,7 @@ export default function SuppliersPage() {
           '@context': 'https://schema.org', '@type': 'Dataset',
           name: 'India Industrial Supplier Atlas',
           description: `Capability directory of ${m.total} Indian manufacturing suppliers across CNC, PCB, composites, precision machining and tooling — with location, certification, tolerance, capacity and verification status.`,
-          url: `${SITE}/research/suppliers/`, creator: ORG_REF, publisher: ORG_REF,
+          url: `${SITE}/research/suppliers/`, creator: ORG_REF, publisher: ORG_REF, license: 'https://creativecommons.org/licenses/by/4.0/',
           dateModified: m.updated, version: m.version, isAccessibleForFree: true,
           keywords: ['India manufacturing suppliers', 'CNC machining India', 'PCB manufacturers India', 'composite fabricators', 'precision machining', 'toolmakers', 'contract manufacturing directory', 'China plus one sourcing India'],
           variableMeasured: ['capability category', 'sub-specialty', 'location', 'certifications', 'tolerance band', 'monthly capacity', 'lead time', 'export experience', 'verification status'],
