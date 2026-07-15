@@ -9,9 +9,10 @@ type Procure = { id: string; platform: string; agency: string; qty: number | nul
 type Component = { id: string; name: string; type: string; mfr: string; supplier: string; specs: string; used_in: number };
 type Sov = { rank: number; component: string; layer: string; india: number; china: number; importance: string; risk: number };
 type Opp = { rank: number; opportunity: string; category: string; tam: string; capital: string; timeline: string; export: string; dosf: number; tier: string };
+type Playbook = { venture: string; investment: string; talent: string; certification: string; regulation: string; margins: string; failure: string; edge: string };
 type Row = Record<string, string>;
-type Meta = { updated: string; platforms: number; companies: number; indianCompanies: number; procurementRows: number; procurementInrCr: number; components: number; sovereignty: number; criticalDeps: number; opportunities: number; buildNow: number; agencies: number; incidents: number; regulations: number; testingLabs: number; mro: number; training: number; corridors: number; parks: number; startups: number; byCategory: { c: string; n: number }[]; byRole: { r: string; n: number }[]; byTier: { t: string; n: number }[]; topOperators: { a: string; n: number }[] };
-type Data = { meta: Meta; platforms: Platform[]; companies: Company[]; procurement: Procure[]; components: Component[]; sovereignty: Sov[]; opportunities: Opp[]; importDeps: Row[]; agencies: Row[]; incidents: Row[]; regulations: Row[]; standards: Row[]; testingLabs: Row[]; mro: Row[]; training: Row[]; corridors: Row[]; parks: Row[]; research: Row[]; universities: Row[]; startups: Row[]; investments: Row[]; payloads: Row[]; sensors: Row[]; software: Row[]; power: Row[]; comms: Row[] };
+type Meta = { updated: string; platforms: number; companies: number; indianCompanies: number; procurementRows: number; procurementInrCr: number; components: number; sovereignty: number; criticalDeps: number; opportunities: number; buildNow: number; agencies: number; incidents: number; regulations: number; testingLabs: number; mro: number; training: number; corridors: number; parks: number; startups: number; byCategory: { c: string; n: number }[]; byRole: { r: string; n: number }[]; byTier: { t: string; n: number }[]; topOperators: { a: string; n: number }[]; procByYear: { year: string; inr_cr: number; n: number }[]; procByAgency: { agency: string; inr_cr: number; n: number }[] };
+type Data = { meta: Meta; platforms: Platform[]; companies: Company[]; procurement: Procure[]; components: Component[]; sovereignty: Sov[]; opportunities: Opp[]; importDeps: Row[]; agencies: Row[]; incidents: Row[]; regulations: Row[]; standards: Row[]; testingLabs: Row[]; mro: Row[]; training: Row[]; corridors: Row[]; parks: Row[]; research: Row[]; universities: Row[]; startups: Row[]; investments: Row[]; payloads: Row[]; sensors: Row[]; software: Row[]; power: Row[]; comms: Row[]; playbooks: Playbook[]; certification: Row[] };
 
 const REPORT: Record<string, { slug: string; title: string }> = {
   flagship: { slug: 'who-builds-indias-drones', title: 'Who Builds India’s Drones?' },
@@ -32,7 +33,8 @@ function catReport(cat: string): (keyof typeof REPORT) | null { const c = cat.to
 function subsystemReport(t: string): (keyof typeof REPORT) | null { const s = t.toLowerCase(); if (/engine|propuls|motor|propeller/.test(s)) return 'propulsion'; if (/batter|cell|power/.test(s)) return 'battery'; if (/flight controller|autopilot|avionic|fpga|processor|mcu|electronic/.test(s)) return 'electronics'; if (/camera|eo|ir|thermal|lidar|sensor|radar|payload|imag|sar/.test(s)) return 'sensors'; return null; }
 function oppReport(o: Opp): (keyof typeof REPORT) | null { const s = `${o.opportunity} ${o.category}`.toLowerCase(); if (/engine|propuls/.test(s)) return 'propulsion'; if (/batter|cell|power|energy/.test(s)) return 'battery'; if (/sensor|payload|camera|eo|ir|imag|sar|lidar/.test(s)) return 'sensors'; if (/flight controller|autopilot|avionic|electronic|semiconductor|autonomy|software|vision/.test(s)) return 'electronics'; if (/loiter|munition/.test(s)) return 'loiter'; if (/cargo|logistic|delivery/.test(s)) return 'cargo'; return null; }
 
-const TABS = ['Overview', 'Platforms', 'Procurement', 'Companies', 'Components', 'Opportunities', 'Regulation', 'Ecosystem'] as const;
+function ventureReport(v: string): (keyof typeof REPORT) { const x = v.toLowerCase(); if (/motor|propuls/.test(x)) return 'propulsion'; if (/batter/.test(x)) return 'battery'; if (/sensor|eo|ir/.test(x)) return 'sensors'; if (/counter/.test(x)) return 'warfare'; if (/\brf\b|communication/.test(x)) return 'electronics'; return 'flagship'; }
+const TABS = ['Overview', 'Platforms', 'Procurement', 'Companies', 'Components', 'Opportunities', 'Playbook', 'Regulation', 'Ecosystem'] as const;
 type Tab = typeof TABS[number];
 function chip(a: boolean): React.CSSProperties { return { cursor: 'pointer', border: '1px solid var(--border, rgba(255,255,255,.16))', background: a ? 'var(--text, #e9e7e0)' : 'transparent', color: a ? 'var(--bg, #0b0b14)' : 'var(--text-dim, #9aa3b2)', borderRadius: 999, padding: '5px 13px', fontSize: 13, fontWeight: a ? 700 : 500, whiteSpace: 'nowrap' }; }
 function tabBtn(a: boolean): React.CSSProperties { return { cursor: 'pointer', border: 'none', background: 'transparent', color: a ? 'var(--text, #e9e7e0)' : 'var(--text-dim, #9aa3b2)', fontSize: 14, fontWeight: a ? 700 : 500, padding: '9px 2px', borderBottom: a ? '2px solid var(--brass, #C9A84C)' : '2px solid transparent', whiteSpace: 'nowrap' }; }
@@ -66,7 +68,7 @@ export function DronesView({ data }: { data: Data }) {
   const [tab, setTab] = useState<Tab>('Overview');
   const [pcat, setPcat] = useState(''); const [prole, setProle] = useState(''); const [porigin, setPorigin] = useState('');
   const [corigin, setCorigin] = useState(''); const [ctype, setCtype] = useState(''); const [otier, setOtier] = useState('');
-  const [sImp, setSImp] = useState(''); const [q, setQ] = useState(''); const [limit, setLimit] = useState(60);
+  const [sImp, setSImp] = useState(''); const [pagency, setPagency] = useState(''); const [q, setQ] = useState(''); const [limit, setLimit] = useState(60);
   const reset = () => setLimit(60);
   const go = (t: Tab) => { setTab(t); setQ(''); reset(); };
 
@@ -82,7 +84,7 @@ export function DronesView({ data }: { data: Data }) {
   const comps = useMemo(() => data.components.filter((x) => (!ctype || x.type === ctype) && (!q || `${x.name} ${x.supplier} ${x.specs}`.toLowerCase().includes(q.toLowerCase()))), [data.components, ctype, q]);
   const opps = useMemo(() => data.opportunities.filter((o) => (!otier || o.tier === otier) && (!q || o.opportunity.toLowerCase().includes(q.toLowerCase()))), [data.opportunities, otier, q]);
   const sov = useMemo(() => data.sovereignty.filter((s) => !sImp || s.importance === sImp), [data.sovereignty, sImp]);
-  const proc = useMemo(() => [...data.procurement].sort((a, b) => (b.inr_cr || 0) - (a.inr_cr || 0)), [data.procurement]);
+  const proc = useMemo(() => data.procurement.filter((p) => !pagency || p.agency === pagency).sort((a, b) => (b.inr_cr || 0) - (a.inr_cr || 0)), [data.procurement, pagency]);
   const compTypes = useMemo(() => Array.from(new Set(data.components.map((c) => c.type).filter(Boolean))), [data.components]);
   const search = (ph: string) => <input placeholder={ph} value={q} onChange={(e) => { setQ(e.target.value); reset(); }} style={{ flex: '1 1 240px', maxWidth: 380, background: 'var(--bg-2, rgba(255,255,255,.03))', color: 'var(--text)', border: '1px solid var(--border, rgba(255,255,255,.16))', borderRadius: 8, padding: '9px 12px', fontSize: 13.5 }} />;
   const more = (n: number, tot: number) => n < tot && <div style={{ textAlign: 'center', marginTop: 20 }}><button onClick={() => setLimit((l) => l + 60)} style={{ ...chip(false), padding: '9px 20px', fontSize: 14 }}>Show more ({tot - n})</button></div>;
@@ -181,7 +183,21 @@ export function DronesView({ data }: { data: Data }) {
         <>
           <p style={{ margin: '0 0 14px', fontSize: 14, color: 'var(--text-dim)', lineHeight: 1.6, maxWidth: 720 }}>{meta.procurementRows} disclosed contracts totalling <strong style={{ color: 'var(--brass)' }}>{inr(meta.procurementInrCr)}</strong>, ranked by value. India&apos;s drone build-out is demand-led and institutional.</p>
           <div style={{ marginBottom: 16 }}><DeepDive k="warfare" /></div>
-          <div style={{ ...kick, marginBottom: 12 }}>Largest contracts</div>
+          <div style={{ ...kick, marginBottom: 10 }}>Spend by year</div>
+          <div style={{ display: 'grid', gap: 5, marginBottom: 22 }}>
+            {meta.procByYear.map((y) => { const mx = Math.max(...meta.procByYear.map((z) => z.inr_cr)); return (
+              <div key={y.year} style={{ display: 'grid', gridTemplateColumns: '46px 1fr 96px', gap: 10, alignItems: 'center' }}>
+                <span style={{ fontSize: 12, color: 'var(--text-dim)', fontFamily: 'var(--font-jetbrains, monospace)' }}>{y.year}</span>
+                <span style={{ height: 10, borderRadius: 3, background: 'var(--brass)', opacity: .55, width: `${Math.round((y.inr_cr / mx) * 100)}%` }} />
+                <span style={{ fontSize: 11.5, color: 'var(--text-muted)', fontFamily: 'var(--font-jetbrains, monospace)' }}>{inr(y.inr_cr)}</span>
+              </div>); })}
+          </div>
+          <div style={{ ...kick, marginBottom: 10 }}>Top buyers by value</div>
+          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 18 }}>
+            <button style={chip(pagency === '')} onClick={() => { setPagency(''); reset(); }}>All agencies</button>
+            {meta.procByAgency.map((a) => <button key={a.agency} style={chip(pagency === a.agency)} onClick={() => { setPagency(a.agency); reset(); }}>{a.agency.length > 26 ? a.agency.slice(0, 26) + '…' : a.agency} · {inr(a.inr_cr)}</button>)}
+          </div>
+          <div style={{ ...kick, marginBottom: 12 }}>{pagency ? pagency : 'Largest'} contracts</div>
           <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 10 }}>
             {proc.slice(0, limit).map((p) => (
               <li key={p.id} style={{ ...card, display: 'flex', gap: 12, flexWrap: 'wrap', alignItems: 'baseline', justifyContent: 'space-between' }}>
@@ -311,9 +327,43 @@ export function DronesView({ data }: { data: Data }) {
         </>
       )}
 
+      {tab === 'Playbook' && (
+        <>
+          <p style={{ margin: '0 0 18px', fontSize: 14, color: 'var(--text-dim)', lineHeight: 1.6, maxWidth: 720 }}>How to build each kind of drone venture in India — investment, talent, certification, margins, failure modes and the durable edge. A founder&apos;s and investor&apos;s operating manual from our drone research; figures are indicative bands.</p>
+          <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 12 }}>
+            {data.playbooks.map((pb) => (
+              <li key={pb.venture} style={card}>
+                <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', alignItems: 'baseline', marginBottom: 8 }}>
+                  <span style={{ fontWeight: 700, fontSize: 15.5, color: 'var(--text)' }}>{pb.venture}</span>
+                  <DeepDive k={ventureReport(pb.venture)} />
+                </div>
+                <div style={{ display: 'grid', gap: 5, fontSize: 13, lineHeight: 1.5 }}>
+                  {([['Investment', pb.investment], ['Talent', pb.talent], ['Certification', pb.certification], ['Regulation', pb.regulation], ['Margins', pb.margins], ['Failure modes', pb.failure], ['Edge that lasts', pb.edge]] as [string, string][]).filter(([, v]) => v).map(([l, v]) => (
+                    <div key={l}><span style={{ color: 'var(--brass)', fontWeight: 600 }}>{l}:</span> <span style={{ color: 'var(--text-dim)' }}>{v}</span></div>
+                  ))}
+                </div>
+              </li>
+            ))}
+          </ul>
+          <div style={{ marginTop: 18 }}><DeepDive k="sme" /></div>
+        </>
+      )}
+
       {tab === 'Regulation' && (
         <>
           <p style={{ margin: '0 0 18px', fontSize: 14, color: 'var(--text-dim)', lineHeight: 1.6, maxWidth: 720 }}>The rules, certifications and safety record governing India&apos;s drones — DGCA, QCI, and the incident record.</p>
+          <div style={{ ...card, padding: '16px 18px', marginBottom: 26 }}>
+            <div style={{ ...kick, marginBottom: 12 }}>Certification &amp; regulatory pathway</div>
+            <ol style={{ margin: 0, paddingLeft: 18, display: 'grid', gap: 10 }}>
+              {data.certification.map((st, i) => (
+                <li key={i} style={{ fontSize: 13, lineHeight: 1.55 }}>
+                  <span style={{ fontWeight: 700, color: 'var(--text)' }}>{st.step}</span>
+                  {st.body && <span style={{ color: 'var(--brass)' }}> · {st.body}</span>}
+                  {st.detail && <div style={{ color: 'var(--text-dim)', marginTop: 2 }}>{st.detail}</div>}
+                </li>
+              ))}
+            </ol>
+          </div>
           <div style={{ ...kick, marginBottom: 12 }}>Regulations & policy · {data.regulations.length}</div>
           <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 10, marginBottom: 28 }}>
             {data.regulations.map((r, i) => (

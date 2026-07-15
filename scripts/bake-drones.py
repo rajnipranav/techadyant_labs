@@ -109,6 +109,46 @@ opps=[{"rank":int(x["rank"]),"opportunity":c(x["opportunity"],80),"category":c(x
   "tam":c(x["tam"],3),"capital":c(x["capital"],14),"timeline":c(x["timeline"],10),"export":c(x["export"],10),
   "dosf":round(float(x["dosf"]),1),"tier":c(x["tier"],16)} for x in rd("registry-scores.csv")]
 
+
+# --- Phase 3: procurement rollups, manufacturing playbook, certification pathway ---
+from collections import defaultdict
+_py=defaultdict(lambda:[0,0])
+for p in procurement:
+    y=(p["date"] or "")[:4]
+    if y.isdigit() and p["inr_cr"]:
+        _py[y][0]+=p["inr_cr"]; _py[y][1]+=1
+procByYear=[{"year":y,"inr_cr":round(v[0]),"n":v[1]} for y,v in sorted(_py.items())]
+_pa=defaultdict(lambda:[0,0])
+for p in procurement:
+    if p["agency"] and p["inr_cr"]:
+        _pa[p["agency"]][0]+=p["inr_cr"]; _pa[p["agency"]][1]+=1
+procByAgency=[{"agency":a,"inr_cr":round(v[0]),"n":v[1]} for a,v in sorted(_pa.items(),key=lambda kv:-kv[1][0])[:10]]
+
+# parse Manufacturing Playbook (Appendix J)
+playbooks=[]
+try:
+    jtxt=open(os.path.join(WF,"draft-appendix-j.md"),encoding="utf-8").read()
+    for m in re.finditer(r'### J\.\d+\s+([^\n]+)\n(.+?)(?=\n### |\Z)', jtxt, re.S):
+        title=m.group(1).strip(); body=m.group(2)
+        if title.lower().startswith("how to use"): continue
+        def fld(label):
+            mm=re.search(r'\*\*'+label+r'[^:]*:\*\*\s*(.+?)(?=\s*\*\*[A-Z]|\Z)', body, re.S)
+            return re.sub(r'\s+',' ',mm.group(1)).strip().rstrip('.') if mm else ""
+        playbooks.append({"venture":title,"investment":fld("Investment"),"talent":fld("Talent"),
+            "certification":fld("Certification"),"regulation":fld("Regulation"),"margins":fld("Margins"),
+            "failure":fld("Failure modes"),"edge":fld("Edge")})
+except Exception as e:
+    print("playbook parse warn:",e)
+
+# certification pathway (verified from the drone reports; DGCA/QCI/NTH/CEMILAC regime)
+CERT=[
+ {"step":"Register the drone (UIN)","body":"DGCA Digital Sky","detail":"All drones up to 500 kg register on the Digital Sky portal for a Unique Identification Number. Drone Rules 2021 cut the forms from 25 to 5 and approvals from 72 to 4; ~90% of airspace is Green Zone up to 400 ft."},
+ {"step":"Type Certification (civil)","body":"QCI / NTH (National Test House, Ghaziabad)","detail":"Civil platforms need DGCA type certification via the QCI-run scheme; NTH Ghaziabad became the designated type-certification body in Dec 2023. Indicative fee ~₹1.5 lakh; throughput ~3–6 months per model — the structural bottleneck."},
+ {"step":"Safety, EMI/EMC & environmental testing","body":"QCI-accredited / NABL labs","detail":"Certification requires EMI/EMC, environmental and safety testing at accredited labs — the reason independent testing capacity is itself a high-margin opportunity."},
+ {"step":"Airworthiness (military)","body":"CEMILAC / DRDO","detail":"Defence platforms are certified for airworthiness through CEMILAC/DRDO rather than DGCA; provenance and qualification matter more than price."},
+ {"step":"Import compliance","body":"DGFT","detail":"The 2022 policy bans import of complete drones (CBU/SKD/CKD) but leaves components 'Free' — the paradox that shapes where value is added. Advanced optics/RF carry export-control considerations."},
+]
+
 # meta
 roles=Counter()
 for p in platforms:
@@ -127,13 +167,14 @@ meta={"updated":datetime.date.today().isoformat(),
   "byCategory":[{"c":k,"n":v} for k,v in cats.most_common()],
   "byRole":[{"r":k,"n":v} for k,v in roles.most_common(12)],
   "byTier":[{"t":k,"n":v} for k,v in tiers.most_common()],
-  "topOperators":[{"a":a["name"],"n":a["count"]} for a in sorted(agencies,key=lambda x:-(x["count"] or 0))[:8] if a["count"]]}
+  "topOperators":[{"a":a["name"],"n":a["count"]} for a in sorted(agencies,key=lambda x:-(x["count"] or 0))[:8] if a["count"]],
+  "procByYear":procByYear,"procByAgency":procByAgency,"playbooks":len(playbooks)}
 out={"meta":meta,"platforms":platforms,"companies":companies,"procurement":procurement,"components":components,
   "sovereignty":sov,"opportunities":opps,"importDeps":importdeps,"agencies":agencies,"incidents":incid,
   "regulations":regulations,"standards":standards,"testingLabs":testingLabs,"mro":mro,"training":training,
   "corridors":corridors,"parks":parks,"research":research,"universities":universities,"startups":startups,
   "investments":investments,"payloads":payloads,"sensors":sensors,"software":software,"power":powersys,
-  "comms":comms,"relationships":relationships}
+  "comms":comms,"relationships":relationships,"playbooks":playbooks,"certification":CERT}
 p="app/research/_drones.json"
 json.dump(out,open(p,"w",encoding="utf-8"),ensure_ascii=False,separators=(",",":"))
 chk=json.load(open(p,encoding="utf-8"))
