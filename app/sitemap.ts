@@ -9,6 +9,7 @@ import { graphEntities } from './research/graph';
 import { corridors as indCorridors } from './corridors/data';
 import { allCorridorNodePairs } from './corridors/node-data';
 import platformEntities from './research/_platform.json';
+import droneAtlas from './research/_drones.json';
 
 // The project uses `output: 'export'` for Cloudflare Pages static deploy;
 // route handlers must be marked static so they're generated at build time.
@@ -141,5 +142,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const platformRoutes: MetadataRoute.Sitemap = (platformEntities as { kind: string; slug: string }[]).map((e) => ({ url: `${SITE}/research/e/${e.kind}/${e.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 }));
 
-  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes];
+  const da = droneAtlas as { platforms: { slug: string }[]; companies: { slug: string }[] };
+  const droneEntityRoutes: MetadataRoute.Sitemap = [
+    ...da.platforms.map((pp) => ({ url: `${SITE}/research/drones-uas/platform/${pp.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 })),
+    ...da.companies.map((cc) => ({ url: `${SITE}/research/drones-uas/company/${cc.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 })),
+  ];
+  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes];
 }

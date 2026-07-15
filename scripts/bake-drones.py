@@ -26,6 +26,9 @@ def g(d,*keys):
         for kk in d:
             if kk.lower().replace(" ","_")==k.lower().replace(" ","_"): return d[kk]
     return ""
+def slugify(x):
+    import re as _r
+    return _r.sub(r'-+','-',_r.sub(r'[^a-z0-9]+','-',str(x).lower())).strip('-')[:52]
 def c(s,cap=220): return (str(s).strip() if s not in (None,"") else "")[:cap]
 def numi(s):
     m=re.search(r'-?\d[\d,]*\.?\d*', str(s or "")); return float(m.group().replace(',','')) if m else None
@@ -40,7 +43,7 @@ platforms=[]
 for d in dm:
     did=g(d,"Drone_ID")
     if not did: continue
-    platforms.append({"id":did,"name":c(g(d,"Platform_Name")),"variant":c(g(d,"Variant"),60),
+    platforms.append({"id":did,"slug":slugify(g(d,"Platform_Name"))+"-"+did.lower(),"name":c(g(d,"Platform_Name")),"variant":c(g(d,"Variant"),60),
       "category":c(g(d,"Category"),40),"origin":c(g(d,"Country_of_Origin"),40),
       "mfr":c(mname(g(d,"Manufacturer_ID")),60),"operator":c(aname(g(d,"Primary_Operator_ID")),60),
       "mtow":numi(g(d,"MTOW_kg")),"payload":numi(g(d,"Payload_kg")),"endurance":numi(g(d,"Endurance_hr")),
@@ -51,7 +54,7 @@ for d in dm:
       "inducted":c(g(d,"First_Inducted"),10),"inservice":numi(g(d,"Qty_In_Service")),
       "unitcost":numi(g(d,"Unit_Cost_USD")),"export":c(g(d,"Export_Status"),30),
       "desc":c(g(d,"Description"),260),"conf":c(g(d,"Confidence_Tier"),16)})
-companies=[{"id":m.get("Manufacturer_ID",""),"name":c(g(m,"Manufacturer_Name")),"country":c(g(m,"Country"),40),
+companies=[{"id":m.get("Manufacturer_ID",""),"slug":slugify(g(m,"Manufacturer_Name"))+"-"+str(m.get("Manufacturer_ID","")).lower(),"name":c(g(m,"Manufacturer_Name")),"country":c(g(m,"Country"),40),
   "type":c(g(m,"Type"),40),"parent":c(g(m,"Parent"),60),"hq":c(g(m,"HQ"),60),"founded":c(g(m,"Year_Founded"),10),
   "products":c(g(m,"Key_Products"),160),"indig":c(g(m,"Indigenous_Content"),20),"dgca":c(g(m,"DGCA_Certified"),12),
   "web":c(g(m,"Website"),120)} for m in mfrs if g(m,"Manufacturer_Name")]
@@ -66,7 +69,7 @@ for p in pr:
 cm=read(B,"Components")
 components=[{"id":x.get("Component_ID",""),"name":c(g(x,"Component_Name")),"type":c(g(x,"Component_Type"),40),
   "mfr":c(mname(g(x,"Manufacturer_ID")),50),"supplier":c(g(x,"Supplier"),70),"specs":c(g(x,"Key_Specs"),140),
-  "used_in":len([y for y in str(g(x,"Used_In_Drones")).split(";") if y.strip()])} for x in cm if g(x,"Component_Name")]
+  "used_in":len([y for y in str(g(x,"Used_In_Drones")).split(";") if y.strip()]),"used_in_ids":[y.strip() for y in str(g(x,"Used_In_Drones")).split(";") if y.strip()][:12]} for x in cm if g(x,"Component_Name")]
 agencies=[{"id":a.get("Agency_ID",""),"name":c(g(a,"Agency_Name")),"type":c(g(a,"Agency_Type"),30),
   "parent":c(g(a,"Parent_Org"),50),"role":c(g(a,"Role_Re_Drones"),90),"count":numi(g(a,"Drone_Count"))}
   for a in agys if g(a,"Agency_Name") and g(a,"Country")=="India"]

@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
 
-type Platform = { id: string; name: string; variant: string; category: string; origin: string; mfr: string; operator: string; mtow: number | null; payload: number | null; endurance: number | null; range: number | null; ceiling: number | null; speed: number | null; power: string; roles: string; sensors: string; payloads: string; ai: string; indig: number | null; status: string; inducted: string; inservice: number | null; unitcost: number | null; export: string; desc: string; conf: string };
-type Company = { id: string; name: string; country: string; type: string; parent: string; hq: string; founded: string; products: string; indig: string; dgca: string; web: string };
+type Platform = { id: string; slug: string; name: string; variant: string; category: string; origin: string; mfr: string; operator: string; mtow: number | null; payload: number | null; endurance: number | null; range: number | null; ceiling: number | null; speed: number | null; power: string; roles: string; sensors: string; payloads: string; ai: string; indig: number | null; status: string; inducted: string; inservice: number | null; unitcost: number | null; export: string; desc: string; conf: string };
+type Company = { id: string; slug: string; name: string; country: string; type: string; parent: string; hq: string; founded: string; products: string; indig: string; dgca: string; web: string };
 type Procure = { id: string; platform: string; agency: string; qty: number | null; inr_cr: number | null; usd_m: number | null; date: string; delivery: string; method: string };
 type Component = { id: string; name: string; type: string; mfr: string; supplier: string; specs: string; used_in: number };
 type Sov = { rank: number; component: string; layer: string; india: number; china: number; importance: string; risk: number };
@@ -68,7 +68,7 @@ export function DronesView({ data }: { data: Data }) {
   const [tab, setTab] = useState<Tab>('Overview');
   const [pcat, setPcat] = useState(''); const [prole, setProle] = useState(''); const [porigin, setPorigin] = useState('');
   const [corigin, setCorigin] = useState(''); const [ctype, setCtype] = useState(''); const [otier, setOtier] = useState('');
-  const [sImp, setSImp] = useState(''); const [pagency, setPagency] = useState(''); const [q, setQ] = useState(''); const [limit, setLimit] = useState(60);
+  const [sImp, setSImp] = useState(''); const [slayer, setSlayer] = useState(''); const [pagency, setPagency] = useState(''); const [q, setQ] = useState(''); const [limit, setLimit] = useState(60);
   const reset = () => setLimit(60);
   const go = (t: Tab) => { setTab(t); setQ(''); reset(); };
 
@@ -83,7 +83,7 @@ export function DronesView({ data }: { data: Data }) {
   const cos = useMemo(() => data.companies.filter((x) => (corigin === 'India' ? x.country === 'India' : corigin === 'Foreign' ? x.country !== 'India' : true) && (!q || `${x.name} ${x.hq} ${x.products}`.toLowerCase().includes(q.toLowerCase()))), [data.companies, corigin, q]);
   const comps = useMemo(() => data.components.filter((x) => (!ctype || x.type === ctype) && (!q || `${x.name} ${x.supplier} ${x.specs}`.toLowerCase().includes(q.toLowerCase()))), [data.components, ctype, q]);
   const opps = useMemo(() => data.opportunities.filter((o) => (!otier || o.tier === otier) && (!q || o.opportunity.toLowerCase().includes(q.toLowerCase()))), [data.opportunities, otier, q]);
-  const sov = useMemo(() => data.sovereignty.filter((s) => !sImp || s.importance === sImp), [data.sovereignty, sImp]);
+  const sov = useMemo(() => data.sovereignty.filter((s) => (!sImp || s.importance === sImp) && (!slayer || s.layer === slayer)), [data.sovereignty, sImp, slayer]);
   const proc = useMemo(() => data.procurement.filter((p) => !pagency || p.agency === pagency).sort((a, b) => (b.inr_cr || 0) - (a.inr_cr || 0)), [data.procurement, pagency]);
   const compTypes = useMemo(() => Array.from(new Set(data.components.map((c) => c.type).filter(Boolean))), [data.components]);
   const search = (ph: string) => <input placeholder={ph} value={q} onChange={(e) => { setQ(e.target.value); reset(); }} style={{ flex: '1 1 240px', maxWidth: 380, background: 'var(--bg-2, rgba(255,255,255,.03))', color: 'var(--text)', border: '1px solid var(--border, rgba(255,255,255,.16))', borderRadius: 8, padding: '9px 12px', fontSize: 13.5 }} />;
@@ -158,7 +158,7 @@ export function DronesView({ data }: { data: Data }) {
             {plats.slice(0, limit).map((p) => (
               <li key={p.id} style={card}>
                 <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', alignItems: 'baseline' }}>
-                  <span style={{ fontWeight: 700, fontSize: 15, color: 'var(--text)' }}>{p.name}</span>
+                  <Link href={`/research/drones-uas/platform/${p.slug}/`} style={{ fontWeight: 700, fontSize: 15, color: 'var(--text)', textDecoration: 'none' }}>{p.name}</Link>
                   {p.variant && <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>{p.variant}</span>}
                   <span style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.05em', color: 'var(--brass)' }}>{p.category}</span>
                   <span style={{ fontSize: 11, color: p.origin === 'India' ? 'var(--brass)' : 'var(--text-muted)', fontFamily: 'var(--font-jetbrains, monospace)' }}>{p.origin}</span>
@@ -221,7 +221,7 @@ export function DronesView({ data }: { data: Data }) {
             {cos.slice(0, limit).map((x) => (
               <li key={x.id} style={card}>
                 <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', alignItems: 'baseline' }}>
-                  <span style={{ fontWeight: 700, fontSize: 14.5, color: 'var(--text)' }}>{x.name}</span>
+                  <Link href={`/research/drones-uas/company/${x.slug}/`} style={{ fontWeight: 700, fontSize: 14.5, color: 'var(--text)', textDecoration: 'none' }}>{x.name}</Link>
                   <span style={{ fontSize: 11, color: x.country === 'India' ? 'var(--brass)' : 'var(--text-muted)', fontFamily: 'var(--font-jetbrains, monospace)' }}>{x.country}</span>
                   {x.type && <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>· {x.type}</span>}
                   {x.dgca && x.dgca.toLowerCase().startsWith('y') && <span style={{ fontSize: 11, color: 'var(--brass)' }}>· DGCA-certified</span>}
@@ -237,11 +237,13 @@ export function DronesView({ data }: { data: Data }) {
 
       {tab === 'Components' && (
         <>
-          <div style={{ ...kick, marginBottom: 8 }}>Component Sovereignty Index — India vs China</div>
+          <div style={{ fontSize: 12.5, color: 'var(--text-muted)', marginBottom: 14 }}>This layer connects to <Link href="/research/dependencies/#semiconductors" style={{ color: 'var(--link, #6cb0ff)' }}>Semiconductors</Link>, <Link href="/research/dependencies/#critical-minerals" style={{ color: 'var(--link, #6cb0ff)' }}>Critical Minerals</Link> and <Link href="/research/dependencies/#ai-infrastructure" style={{ color: 'var(--link, #6cb0ff)' }}>AI Infrastructure</Link> in the Atlas.</div>
+          <div style={{ ...kick, marginBottom: 8 }}>Component Sovereignty Index — the import-substitution finder</div>
           <p style={{ margin: '0 0 12px', fontSize: 13, color: 'var(--text-dim)', maxWidth: 700 }}>{meta.criticalDeps} components are rated Critical dependencies. Each scored 0–100 on Indian vs Chinese capability.</p>
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 14 }}>
             {['', 'Critical', 'High', 'Medium'].map((im) => <button key={im || 'a'} style={chip(sImp === im)} onClick={() => setSImp(im)}>{im || 'All'}{im ? ` ${data.sovereignty.filter((s) => s.importance === im).length}` : ''}</button>)}
           </div>
+          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 14 }}><button style={chip(slayer === '')} onClick={() => setSlayer('')}>All layers</button>{Array.from(new Set(data.sovereignty.map((s) => s.layer))).map((L) => <button key={L} style={chip(slayer === L)} onClick={() => setSlayer(L)}>{L}</button>)}</div>
           <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 8, marginBottom: 28 }}>
             {sov.map((s) => (
               <li key={s.rank} style={{ ...card, padding: '11px 14px' }}>
