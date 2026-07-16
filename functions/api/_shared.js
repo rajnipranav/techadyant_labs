@@ -7,6 +7,13 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'semicon-2-0-opportunity-map': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'semicon 2.0 opportunity map.pdf',
+    filename: 'The-Semicon-2-0-Opportunity-Map-Techadyant-Labs.pdf',
+    title: 'The Semicon 2.0 Opportunity Map',
+  },
   'the-sme-playbook-for-indias-drone-economy': {
     access: 'paid',
     priceInr: 4999,

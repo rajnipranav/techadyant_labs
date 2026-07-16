@@ -29,6 +29,7 @@ import { ReportContent as LmContent, toc as lmToc } from '../content/india-loite
 import { ReportContent as CargoContent, toc as cargoToc } from '../content/india-cargo-drone-market';
 import { ReportContent as WaterContent, toc as waterToc } from '../content/india-industrial-water-opportunity-map';
 import { ReportContent as SmeContent, toc as smeToc } from '../content/the-sme-playbook-for-indias-drone-economy';
+import { ReportContent as SemiconContent, toc as semiconToc } from '../content/semicon-2-0-opportunity-map';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -51,6 +52,7 @@ const registry: Record<string, ReportModule> = {
   'india-cargo-drone-market': { toc: cargoToc, Content: CargoContent },
   'india-industrial-water-opportunity-map': { toc: waterToc, Content: WaterContent },
   'the-sme-playbook-for-indias-drone-economy': { toc: smeToc, Content: SmeContent },
+  'semicon-2-0-opportunity-map': { toc: semiconToc, Content: SemiconContent },
 };
 
 export async function generateStaticParams() {

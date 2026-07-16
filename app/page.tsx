@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'Independent, India-first strategic research on industrial transformation, infrastructure systems, semiconductors, AI infrastructure and second-order economic change.',
 };
 
-const featured = getReport('indias-unmanned-warfare-transformation')!;
+const featured = getReport('semicon-2-0-opportunity-map')!;
 const briefings = allBriefings.slice(0, 3);
 
 const STATS = [
