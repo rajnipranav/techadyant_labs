@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { inlineLinks } from '../../lib/inlineLinks';
 import { signals as staticSignals, getSignal as staticGetSignal } from '../data';
 import { getSignals, getSignalBySlug } from '../../lib/cms';
 import { SignalReader } from '../../components/SignalReader';
@@ -137,8 +138,8 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
             s.body.map((blk: { type: string; text?: string; items?: string[] }, i: number) => {
               if (blk.type === 'h') return <h3 key={i} className="serif">{blk.text}</h3>;
               if (blk.type === 'list')
-                return <ul key={i}>{blk.items?.map((it: string, j: number) => <li key={j}>{it}</li>)}</ul>;
-              return <p key={i}>{blk.text}</p>;
+                return <ul key={i}>{blk.items?.map((it: string, j: number) => <li key={j}>{inlineLinks(it)}</li>)}</ul>;
+              return <p key={i}>{inlineLinks(blk.text)}</p>;
             })
           ) : (
             <p className="serif" style={{ fontStyle: 'italic', color: 'var(--text-muted)' }}>

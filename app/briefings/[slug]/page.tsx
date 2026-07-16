@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { briefings, getBriefing } from '../data';
+import { inlineLinks } from '../../lib/inlineLinks';
 
 export function generateStaticParams() {
   return briefings.map((b) => ({ slug: b.slug }));
@@ -55,8 +56,8 @@ export default async function BriefingPage({ params }: { params: Promise<{ slug:
             b.body.map((blk, i) => {
               if (blk.type === 'h') return <h3 key={i} className="serif">{blk.text}</h3>;
               if (blk.type === 'list')
-                return <ul key={i}>{blk.items?.map((it, j) => <li key={j}>{it}</li>)}</ul>;
-              return <p key={i}>{blk.text}</p>;
+                return <ul key={i}>{blk.items?.map((it, j) => <li key={j}>{inlineLinks(it)}</li>)}</ul>;
+              return <p key={i}>{inlineLinks(blk.text)}</p>;
             })
           ) : (
             <>
