@@ -18,6 +18,14 @@ export const metadata: Metadata = {
 const featured = getReport('semicon-2-0-opportunity-map')!;
 const briefings = allBriefings.slice(0, 3);
 
+// Latest signals for the homepage "Intelligence dispatches" grid.
+// Signals are baked oldest-first; show the newest live ones and let older ones
+// drop off automatically as new signals publish. Newest-first, capped at 6.
+const latestSignals = [...signals]
+  .filter((s) => s.status === 'live')
+  .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0))
+  .slice(0, 6);
+
 const STATS = [
   { n: '18+', l: 'Chapters per edition' },
   { n: '50+', l: 'Proprietary data tables' },
@@ -186,7 +194,7 @@ export default function HomePage() {
         </div>
 
         <div className="signals-grid">
-          {signals.map((s) => (
+          {latestSignals.map((s) => (
             <Link
               key={s.slug}
               href={`/signals/${s.slug}/`}
