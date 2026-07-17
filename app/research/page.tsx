@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AtlasNav } from './AtlasNav';
+import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardFull } from './extra-ecosystems';
 import { JsonLd, breadcrumb, SITE, ORG_REF } from './seo';
 import {
   corridorsOrdered, meta, rollup, gridForCorridor, playersForCorridor,
@@ -123,46 +124,7 @@ export default function AtlasOverview() {
               </Link>
             );
           })}
-          <Link href="/research/drones-uas/" className="atlas-card" style={{ ['--accent' as string]: '#2BC5B4' }}>
-            <div className="atlas-card-head">
-              <h3>Unmanned Systems</h3>
-              <span className="atlas-card-no">06</span>
-            </div>
-            <p className="atlas-card-tag">India flies and assembles more drones than it builds — the components still come from abroad.</p>
-            <div className="atlas-strip" aria-hidden="true">
-              {['#C0563B', '#C0563B', '#C99A3B', '#C99A3B', '#2BC5B4', '#C99A3B'].map((bg, i) => (
-                <span key={i} style={{ background: bg }} />
-              ))}
-            </div>
-            <div className="atlas-card-stats">
-              <span><b>3</b> of <b>6</b> layers import-dependent</span>
-              <span>90 players</span>
-            </div>
-            <div className="atlas-card-weak">
-              Weakest link: <strong>Propulsion &amp; Power</strong> · Import-dependent
-            </div>
-            <span className="atlas-card-go">Explore the ecosystem →</span>
-          </Link>
-          <Link href="/research/counter-uas/" className="atlas-card" style={{ ['--accent' as string]: '#E24B4A' }}>
-            <div className="atlas-card-head">
-              <h3>Counter-UAS</h3>
-              <span className="atlas-card-no">07</span>
-            </div>
-            <p className="atlas-card-tag">India&apos;s counter-drone shield — who detects, tracks and defeats the drone threat.</p>
-            <div className="atlas-strip" aria-hidden="true">
-              {['#C0563B', '#C99A3B', '#C99A3B', '#2BC5B4', '#C99A3B', '#2BC5B4'].map((bg, i) => (
-                <span key={i} style={{ background: bg }} />
-              ))}
-            </div>
-            <div className="atlas-card-stats">
-              <span><b>60</b> systems · <b>24</b> Indian</span>
-              <span>43 makers</span>
-            </div>
-            <div className="atlas-card-weak">
-              Critical import dep: <strong>AESA GaN / FPGA</strong> · Import-dependent
-            </div>
-            <span className="atlas-card-go">Explore the shield →</span>
-          </Link>
+          {EXTRA_ECOSYSTEMS.map((e) => <ExtraEcosystemCardFull key={e.key} e={e} />)}
         </div>
       </section>
 

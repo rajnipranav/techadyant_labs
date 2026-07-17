@@ -7,6 +7,7 @@ import { FeaturedTopology } from './components/ThemeIcon';
 import { reports, getReport } from './reports/data';
 import { signals } from './signals/data';
 import { corridorsOrdered, meta, rollup } from './research/atlas';
+import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardSimple } from './research/extra-ecosystems';
 import { briefings as allBriefings } from './briefings/data';
 
 export const metadata: Metadata = {
@@ -252,6 +253,7 @@ export default function HomePage() {
               </Link>
             );
           })}
+          {EXTRA_ECOSYSTEMS.map((e) => <ExtraEcosystemCardSimple key={e.key} e={e} />)}
         </div>
       </section>
 
