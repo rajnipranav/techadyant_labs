@@ -2282,12 +2282,15 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 
 /* ---- Atlas sub-nav dropdowns ---- */
 .atlas-nav .has-menu { position: relative; }
-.atlas-nav .has-menu > button { background: none; border: 0; cursor: pointer; font: inherit; color: inherit; padding: 0; display: inline-flex; align-items: center; gap: 4px; }
+.atlas-nav .has-menu > button { background: none; border: 0; border-bottom: 2px solid transparent; cursor: pointer; font: inherit; font-size: 13px; color: var(--text-muted); white-space: nowrap; padding: 3px 0; display: inline-flex; align-items: center; gap: 4px; }
+.atlas-nav .has-menu > button:hover { color: var(--text); }
+.atlas-nav .has-menu > button.is-active { color: var(--text); border-color: var(--brass, #F5B544); }
 .atlas-nav .caret { font-size: .62em; opacity: .55; }
-.atlas-submenu { display: none; position: absolute; top: 100%; left: 0; min-width: 210px; background: var(--bg-2, #131a24); border: 1px solid var(--border); border-radius: 10px; padding: 6px; margin-top: 10px; z-index: 60; box-shadow: 0 14px 34px rgba(0,0,0,.45); }
-.atlas-nav .has-menu:hover > .atlas-submenu, .atlas-nav .has-menu:focus-within > .atlas-submenu, .atlas-nav .has-menu.is-open > .atlas-submenu { display: block; }
-.atlas-submenu li { display: block; }
-.atlas-submenu a { display: block; padding: 8px 12px; border-radius: 7px; white-space: nowrap; font-size: .88rem; text-decoration: none; color: var(--text-dim); }
-.atlas-submenu a:hover { background: rgba(255,255,255,.05); color: var(--text); }
-.atlas-submenu a.is-active { color: var(--brass); }
-@media (max-width: 860px) { .atlas-submenu { position: static; box-shadow: none; margin-top: 4px; min-width: 0; } }
+/* specificity must beat `.atlas-nav ul { display: flex }` (line ~1495) */
+.atlas-nav ul.atlas-submenu { display: none; position: absolute; top: 100%; left: 0; min-width: 212px; flex-direction: column; flex-wrap: nowrap; gap: 2px; background: var(--bg-2, #131a24); border: 1px solid var(--border); border-radius: 10px; padding: 6px; margin-top: 10px; z-index: 60; box-shadow: 0 14px 34px rgba(0,0,0,.45); }
+.atlas-nav .has-menu:hover > ul.atlas-submenu, .atlas-nav .has-menu:focus-within > ul.atlas-submenu, .atlas-nav .has-menu.is-open > ul.atlas-submenu { display: flex; }
+.atlas-nav ul.atlas-submenu li { display: block; }
+.atlas-nav ul.atlas-submenu a { display: block; padding: 8px 12px; border: 0; border-radius: 7px; white-space: nowrap; font-size: .86rem; color: var(--text-dim); }
+.atlas-nav ul.atlas-submenu a:hover { background: rgba(255,255,255,.05); color: var(--text); }
+.atlas-nav ul.atlas-submenu a.is-active { color: var(--brass, #F5B544); }
+@media (max-width: 860px) { .atlas-nav ul.atlas-submenu { position: static; box-shadow: none; margin-top: 4px; min-width: 0; } }

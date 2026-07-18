@@ -243,7 +243,6 @@ export default function HomePage() {
               >
                 <div className="atlas-card-head">
                   <h3>{c.label}</h3>
-                  <span className="atlas-card-no">{String(c.id).padStart(2, '0')}</span>
                 </div>
                 <p className="atlas-card-tag">{m.tagline}</p>
                 <div className="atlas-card-stats">

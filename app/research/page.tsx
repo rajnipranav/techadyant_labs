@@ -80,7 +80,6 @@ export default function AtlasOverview() {
             Built from our research database, not the press release.
           </p>
           <div className="atlas-meta-row">
-            <span><b>{atlas.corridors.length}</b> industries</span>
             <span><b>{atlas.players.length}</b> tracked players</span>
             <span><b>{atlas.relationships.length}</b> relationships</span>
             <span className="atlas-updated">Updated {updated}</span>
@@ -96,7 +95,6 @@ export default function AtlasOverview() {
         <div className="atlas-paths">
           {PATHS.map((p) => (
             <Link key={p.href} href={p.href} className="atlas-path">
-              <span className="ap-k">{p.k}</span>
               <h3>{p.name}</h3>
               <p>{p.desc}</p>
               <span className="atlas-card-go">{p.cta} →</span>
@@ -117,7 +115,7 @@ export default function AtlasOverview() {
             const s = pillarStats(c.code);
             return (
               <Link key={c.code} href={`/research/pillars/${m.slug}/`} className="atlas-card" style={{ ['--accent' as string]: m.accent }}>
-                <div className="atlas-card-head"><h3>{c.label}</h3><span className="atlas-card-no">{String(c.id).padStart(2, '0')}</span></div>
+                <div className="atlas-card-head"><h3>{c.label}</h3></div>
                 <p className="atlas-card-tag">{m.tagline}</p>
                 <LayerStrip corridorId={c.id} />
                 <div className="atlas-card-stats">

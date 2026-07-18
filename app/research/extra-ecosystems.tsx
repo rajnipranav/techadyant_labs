@@ -62,7 +62,6 @@ export function ExtraEcosystemCardFull({ e }: { e: ExtraEcosystem }) {
     <Link href={e.href} className="atlas-card" style={{ ['--accent' as string]: e.accent }}>
       <div className="atlas-card-head">
         <h3>{e.label}</h3>
-        <span className="atlas-card-no">{e.no}</span>
       </div>
       <p className="atlas-card-tag">{e.tagline}</p>
       <div className="atlas-strip" aria-hidden="true">
@@ -86,7 +85,6 @@ export function ExtraEcosystemCardSimple({ e }: { e: ExtraEcosystem }) {
     <Link href={e.href} className="atlas-card" style={{ ['--accent' as string]: e.accent }}>
       <div className="atlas-card-head">
         <h3>{e.label}</h3>
-        <span className="atlas-card-no">{e.no}</span>
       </div>
       <p className="atlas-card-tag">{e.tagline}</p>
       <div className="atlas-card-stats">

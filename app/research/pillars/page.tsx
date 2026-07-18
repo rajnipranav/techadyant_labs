@@ -40,7 +40,7 @@ export default function PillarsIndex() {
             const s = pillarStats(c.code);
             return (
               <Link key={c.code} href={`/research/pillars/${m.slug}/`} className="atlas-card" style={{ ['--accent' as string]: m.accent }}>
-                <div className="atlas-card-head"><h3>{c.label}</h3><span className="atlas-card-no">{String(c.id).padStart(2, '0')}</span></div>
+                <div className="atlas-card-head"><h3>{c.label}</h3></div>
                 <p className="atlas-card-tag">{PILLAR_THESIS[c.code]}</p>
                 <div className="atlas-card-stats">
                   <span><b>{s.players}</b> players</span>
