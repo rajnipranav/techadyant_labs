@@ -7,6 +7,7 @@ import {
   STATUS_COLORS, atlas, lastUpdated,
 } from './atlas';
 import { pillarStats } from './pillars';
+import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardFull } from './extra-ecosystems';
 import { reports } from '../reports/data';
 import { signals } from '../signals/data';
 
@@ -29,8 +30,6 @@ const PATHS = [
 ];
 
 const DATABASES = [
-  { href: '/research/drones-uas/', name: 'Unmanned Systems', desc: 'India’s drone ecosystem end to end — platforms, makers, components, procurement.' },
-  { href: '/research/counter-uas/', name: 'Counter-UAS', desc: 'The counter-drone shield: who detects, tracks and defeats the threat, mapped.' },
   { href: '/research/patents/', name: 'Patent Monitor', desc: 'India-origin patent filings across strategic technologies, by sector and applicant.' },
   { href: '/research/suppliers/', name: 'Supplier Directory', desc: '498 Indian manufacturing suppliers — CNC, PCB, composites, precision machining, toolmaking.' },
 ];
@@ -108,7 +107,7 @@ export default function AtlasOverview() {
 
       {/* ── The industries (pillar maps) ── */}
       <section className="wrap" style={{ background: 'var(--bg-2)' }}>
-        <div className="section-head-ed"><div><div className="ed-kicker">The industries</div><h2>Five strategic pillars, mapped</h2></div>
+        <div className="section-head-ed"><div><div className="ed-kicker">The industries</div><h2>The strategic pillars, mapped</h2></div>
           <Link href="/research/pillars/" className="see-all">All pillar maps →</Link>
         </div>
         <div className="atlas-cards">
@@ -129,6 +128,7 @@ export default function AtlasOverview() {
               </Link>
             );
           })}
+          {EXTRA_ECOSYSTEMS.map((e) => <ExtraEcosystemCardFull key={e.key} e={e} />)}
         </div>
       </section>
 

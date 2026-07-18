@@ -75,6 +75,40 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Assembly, test and packaging (ATMP/OSAT) is the layer most exposed to near-term ramp risk.', 'Substrate, lead-frame and high-purity chemical supply are thin and largely imported.', 'Packaging capacity, not wafer starts, is the more realistic 2026–28 employment story.'],
   sources: ['https://www.meity.gov.in/content/semiconductor', 'https://www.india.gov.in/']
 }, {
+  slug: 'advanced-packaging-binding-constraint',
+  no: 'S-007',
+  title: 'Advanced packaging is India’s binding AI constraint',
+  domain: 'AI Infrastructure',
+  date: '2026-05-29',
+  dateLabel: '29 May 2026',
+  status: 'live',
+  excerpt: 'India has built or is building twelve semiconductor projects worth ₹1.65 lakh crore. None of them produces the chips that AI accelerators are made from — because the binding constraint is not the fab, it is advanced packaging.',
+  readingTime: '5 min',
+  body: [{
+  text: 'The India Semiconductor Mission has, by May 2026, approved twelve projects with cumulative announced capex of approximately ₹1.65 lakh crore — anchored by the Tata-PSMC fab at Dholera (₹91,000 crore, 50,000 WSPM at 28-110 nm), the Tata-TSAT OSAT in Assam (₹27,120 crore), the Micron Sanand OSAT (USD 2.75 billion), and four other OSAT facilities at Sanand and Surat. This is real industrial-policy success. But fabs at mature nodes do not produce the chips that power AI accelerators, and India has no announced CoWoS-class advanced packaging or HBM stacking capability — the two bottlenecks that gate every Nvidia, AMD or Intel AI accelerator made today.',
+  type: 'p'
+}, {
+  text: 'CoWoS capacity has been oversubscribed through at least 2026; HBM3E allocation is fully committed through 2026. The global capacity is concentrated: TSMC ~75% of advanced 2.5D-packaging capacity, ASE ~15%, Amkor ~8%, with Samsung I-Cube and Intel Foveros holding the residual. India’s announced OSAT capacity does not address this — Tata’s Integrated System Packaging at Jagiroad is system-in-package level, not chiplet/HBM-class on an interposer.',
+  type: 'p'
+}, {
+  text: 'What an Indian advanced-packaging facility would require',
+  type: 'h'
+}, {
+  text: 'A first-generation Indian CoWoP-equivalent facility producing 5,000–10,000 wafer-equivalent units per month requires capex in the range of USD 3–6 billion (₹25,000–50,000 crore) at full ramp — comparable to second-tier global competitors. The equipment list is concentrated in non-Indian OEMs (BESI, ASMPT, Hanmi for bonding; AMAT, Lam for TSV process; Veeco, Onto Innovation for inspection). Lead times in 2026 are 12–18 months for bonding tools and 18–24 months for TSV process tools. Customer qualification cycles from fabless customer to production order are 18–30 months. First commercial AI-class package: 2030–2032.',
+  type: 'p'
+}, {
+  text: 'The strategic case',
+  type: 'h'
+}, {
+  text: 'Three factors make this defensible. First, global capacity is structurally constrained — TrendForce projects CoWoS demand at 50% CAGR through 2027 against capacity growth of 35% CAGR. A second-source from a non-Taiwan, non-China geography is commercially valuable. Second, the technology is difficult but is not on a critical-IP control list in the way EUV lithography is. Third, India’s existing OSAT base provides a foundation of cleanroom labour and process-engineering talent.',
+  type: 'p'
+}, {
+  text: 'For the full analysis of the gap, the capex envelope and the customer-development path, see Section 11 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
+  type: 'p'
+}],
+  takeaways: ['Every Nvidia H100, H200, B200, GB200, AMD MI300, Intel Gaudi 3 and Google TPU is a multi-die assembly bonded onto a 2.5D/3D advanced-packaging substrate (TSMC CoWoS, Intel EMIB/Foveros, ASE CoWoP).', 'No Indian OSAT has announced CoWoS-class capability. Tata Assam’s ISP is system-in-package; Micron, CG Semi, Kaynes and HCL-Foxconn are commodity wire-bond/flip-chip/DDIC. The gap is structural.', 'A first-generation Indian advanced-packaging facility needs USD 3–6 billion (₹25,000–50,000 crore) of capex, 12–24 month equipment lead-times, and a 4–5 year build, with first commercial shipment plausible in 2030–2032.'],
+  sources: ['https://www.meity.gov.in/content/semiconductor', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567']
+}, {
   slug: 'visakhapatnam-coastal-ai',
   no: 'S-006',
   title: 'The Visakhapatnam coastal-AI thesis',
@@ -164,40 +198,6 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Cooling and HVAC for AI infrastructure: ₹7,500–36,000 crore cumulative through 2030, Indian-vendor capture 35–55% by 2030.', 'Industrial automation: Indian-vendor share of a USD 12–18 billion market by 2030 — ₹25,000–60,000 crore through 2030.', 'Edge AI infrastructure across 30–50 Tier-2 cities: ₹10,000–45,000 crore capex, the most accessible category to Indian system integrators.'],
   sources: ['https://www.india.gov.in/', 'https://www.meity.gov.in/']
-}, {
-  slug: 'advanced-packaging-binding-constraint',
-  no: 'S-007',
-  title: 'Advanced packaging is India’s binding AI constraint',
-  domain: 'AI Infrastructure',
-  date: '2026-05-29',
-  dateLabel: '29 May 2026',
-  status: 'live',
-  excerpt: 'India has built or is building twelve semiconductor projects worth ₹1.65 lakh crore. None of them produces the chips that AI accelerators are made from — because the binding constraint is not the fab, it is advanced packaging.',
-  readingTime: '5 min',
-  body: [{
-  text: 'The India Semiconductor Mission has, by May 2026, approved twelve projects with cumulative announced capex of approximately ₹1.65 lakh crore — anchored by the Tata-PSMC fab at Dholera (₹91,000 crore, 50,000 WSPM at 28-110 nm), the Tata-TSAT OSAT in Assam (₹27,120 crore), the Micron Sanand OSAT (USD 2.75 billion), and four other OSAT facilities at Sanand and Surat. This is real industrial-policy success. But fabs at mature nodes do not produce the chips that power AI accelerators, and India has no announced CoWoS-class advanced packaging or HBM stacking capability — the two bottlenecks that gate every Nvidia, AMD or Intel AI accelerator made today.',
-  type: 'p'
-}, {
-  text: 'CoWoS capacity has been oversubscribed through at least 2026; HBM3E allocation is fully committed through 2026. The global capacity is concentrated: TSMC ~75% of advanced 2.5D-packaging capacity, ASE ~15%, Amkor ~8%, with Samsung I-Cube and Intel Foveros holding the residual. India’s announced OSAT capacity does not address this — Tata’s Integrated System Packaging at Jagiroad is system-in-package level, not chiplet/HBM-class on an interposer.',
-  type: 'p'
-}, {
-  text: 'What an Indian advanced-packaging facility would require',
-  type: 'h'
-}, {
-  text: 'A first-generation Indian CoWoP-equivalent facility producing 5,000–10,000 wafer-equivalent units per month requires capex in the range of USD 3–6 billion (₹25,000–50,000 crore) at full ramp — comparable to second-tier global competitors. The equipment list is concentrated in non-Indian OEMs (BESI, ASMPT, Hanmi for bonding; AMAT, Lam for TSV process; Veeco, Onto Innovation for inspection). Lead times in 2026 are 12–18 months for bonding tools and 18–24 months for TSV process tools. Customer qualification cycles from fabless customer to production order are 18–30 months. First commercial AI-class package: 2030–2032.',
-  type: 'p'
-}, {
-  text: 'The strategic case',
-  type: 'h'
-}, {
-  text: 'Three factors make this defensible. First, global capacity is structurally constrained — TrendForce projects CoWoS demand at 50% CAGR through 2027 against capacity growth of 35% CAGR. A second-source from a non-Taiwan, non-China geography is commercially valuable. Second, the technology is difficult but is not on a critical-IP control list in the way EUV lithography is. Third, India’s existing OSAT base provides a foundation of cleanroom labour and process-engineering talent.',
-  type: 'p'
-}, {
-  text: 'For the full analysis of the gap, the capex envelope and the customer-development path, see Section 11 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
-  type: 'p'
-}],
-  takeaways: ['Every Nvidia H100, H200, B200, GB200, AMD MI300, Intel Gaudi 3 and Google TPU is a multi-die assembly bonded onto a 2.5D/3D advanced-packaging substrate (TSMC CoWoS, Intel EMIB/Foveros, ASE CoWoP).', 'No Indian OSAT has announced CoWoS-class capability. Tata Assam’s ISP is system-in-package; Micron, CG Semi, Kaynes and HCL-Foxconn are commodity wire-bond/flip-chip/DDIC. The gap is structural.', 'A first-generation Indian advanced-packaging facility needs USD 3–6 billion (₹25,000–50,000 crore) of capex, 12–24 month equipment lead-times, and a 4–5 year build, with first commercial shipment plausible in 2030–2032.'],
-  sources: ['https://www.meity.gov.in/content/semiconductor', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567']
 }, {
   slug: 'netrasemi-a2000-edge-ai-silicon',
   no: 'S-012',
@@ -405,6 +405,52 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Two electronics projects worth Rs 6,750 crore — ASCENT-K Circuit (Rs 3,250 crore, advanced multi-layer PCBs) and Amber Enterprises (Rs 3,500 crore, HVAC components and PCB assembly) — were announced at Jewar on 27 June 2026.', 'They sit beside the Rs 3,700 crore HCL-Foxconn OSAT (the sixth India Semiconductor Mission unit, the first in Uttar Pradesh) and the new Jewar international airport — chip assembly, PCB, components and logistics in one corridor.', 'PCB localisation has cross-sector leverage (telecom, automotive, defence, drones, medical) against a roughly Rs 40,000 crore annual import bill, but laminates, chemicals and equipment remain upstream import dependencies.', 'The real test is supplier migration and logistics depth, not anchor groundbreakings: ecosystems form when tier-2 and tier-3 suppliers co-locate.'],
   sources: ['https://www.indiatvnews.com/uttar-pradesh/jewar-set-to-become-north-india-s-silicon-valley-as-yogi-vaishnaw-launch-rs-6-750-crore-electronics-project-2026-06-27-1046352', 'https://hcl.com/media_management/hcl-group-and-hon-hai-technology-group-foxconn-join-hands-to-set-up-semiconductor-manufacturing-unit-in-uttar-pradesh/', 'https://www.moneycontrol.com/news/business/jewar-set-to-become-india-s-leading-electronics-semiconductor-hub-ashwini-vaishnaw-13960175.html']
 }, {
+  slug: 'dholera-water-signal',
+  no: 'S-001',
+  title: 'The Dholera Water Signal',
+  domain: 'Industrial Infrastructure',
+  date: '2026-06-30',
+  dateLabel: '30 June 2026',
+  status: 'live',
+  excerpt: 'Dholera\'s industrial ambition rests on a single water artery. The fab can be financed and built on schedule; the water to run it at full utilisation has to arrive every day through the Narmada canal — and that concentration, not land or capital, is the binding constraint.',
+  readingTime: '5 min',
+  body: [{
+  text: 'Dholera is India\'s most advanced greenfield industrial city and the site of its first commercial wafer fab. Its constraint is not land, power or capital — those are committed. It is water, and specifically the fact that almost all of it arrives through one channel: the Narmada canal.',
+  type: 'p'
+}, {
+  text: 'The Rs 91,000 crore Tata-PSMC fab, designed for roughly 50,000 wafers a month, anchors the Dholera Special Investment Region. Dholera\'s current supply is a roughly 50 MLD treatment plant fed from the Narmada canal. The region\'s master-planned demand is far larger — on the order of 947 million litres a day at full build-out, of which around 491 MLD is industrial and 298 MLD residential.',
+  type: 'p'
+}, {
+  text: 'Why water is the binding constraint',
+  type: 'h'
+}, {
+  text: 'A modern fab is among the most water-intensive industrial facilities in existence. Producing ultrapure water — the solvent-grade water used to rinse wafers — consumes roughly 1,400 to 1,600 litres of municipal water for every 1,000 litres of ultrapure water it yields, before any is recovered. A 50,000-wafer line\'s daily draw runs into the millions of litres; co-located assembly, display and component plants add more. The fab can be financed and built on schedule; the water to run it at full utilisation has to be physically delivered, every day, through infrastructure that also serves a city.',
+  type: 'p'
+}, {
+  text: 'The exposure is that this demand rests on essentially one source. The Narmada canal is a shared, allocation-governed system supplying agriculture, drinking water and industry across Gujarat; its delivery varies with the monsoon, reservoir levels and competing claims upstream. A single artery feeding a strategic national asset is a concentration risk, not a detail.',
+  type: 'p'
+}, {
+  text: 'What the state is already signalling',
+  type: 'h'
+}, {
+  text: 'Gujarat\'s response is the clearest evidence of the underlying problem. The state offers a 50 per cent capital subsidy to fab projects that build their own desalination plants — an unusually generous incentive that exists precisely because canal water alone is not treated as a resilient base load. Desalination on the nearby Gulf of Khambhat, treated-wastewater recycling and zero-liquid-discharge are the resilience layer being built around the canal, not instead of it.',
+  type: 'p'
+}, {
+  text: 'The second-order effects matter. Desalination is energy-intensive, which ties Dholera\'s water resilience back to its power system; zero-liquid-discharge and recycling push cost and operational complexity onto every tenant; and brine and effluent loads create their own environmental and regulatory exposure on a sensitive coastline. Water resilience here is not a single project but a system — canal plus desalination plus recycling plus the power to run it.',
+  type: 'p'
+}, {
+  text: 'The signal to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Desalination capacity actually commissioned on the Gulf of Khambhat, versus announced.', 'The recycled-water and zero-liquid-discharge ratio fabs achieve in practice, not on paper.', 'Narmada allocation to Dholera under competing agricultural and urban demand in a weak-monsoon year.', 'Whether the water system build-out keeps pace with the 2026-27 fab ramp, or lags behind it.']
+}, {
+  text: 'The fab will be commissioned on schedule. The question Dholera answers over the next few years is whether the water system beneath it is built as a resilient, multi-source utility — or whether a strategic industrial cluster is left resting on a single canal. The first is infrastructure; the second is a dependency.',
+  type: 'p'
+}],
+  takeaways: ['Dholera\'s build-out — anchored by the Rs 91,000 crore Tata-PSMC fab (~50,000 wafers/month) — depends almost entirely on Narmada-canal water through a roughly 50 MLD plant today, against a master-planned demand near 947 MLD.', 'Ultrapure-water production for a fab consumes about 1.4-1.6 litres of municipal water per litre of UPW before recovery, which is why water — not land, power or capital — is the binding constraint.', 'Gujarat\'s 50 per cent capital subsidy for fab-owned desalination is the clearest signal that canal water alone is not considered a resilient base load.', 'Water resilience at Dholera is a system — canal plus desalination plus recycling plus the power to run it — and the metric that matters is commissioned desalination and real ZLD ratios, not announcements.'],
+  sources: ['https://www.ijsrd.com/articles/LDRPTCP065.pdf', 'https://swarajyamag.com/tech/how-gujarat-is-shaping-up-as-indias-semiconductor-hub-building-on-its-strength-as-an-economic-powerhouse']
+}, {
   slug: 'quantum-orders-industrial-policy',
   no: 'S-014',
   title: 'The Quantum Race Has Entered Its Industrial-Policy Phase',
@@ -453,52 +499,6 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Two US executive orders (22 June 2026) reclassify quantum from research to industrial and national-security strategy — accelerating commercialisation while mandating a dated, government-wide post-quantum cryptography migration.', 'Hard deadlines (federal PQC encryption by 31 Dec 2030, authentication by 2031, contractor standards by 2030, a Commerce pilot by 2027) turn cryptography migration into a procurement market, not just a technical upgrade.', 'The orders create demand across semiconductors, packaging and cryogenics, cybersecurity (PQC, HSMs, key and identity management), quantum sensing and materials — an ecosystem, not a single machine.', 'For India the exposure is identical — harvest-now-decrypt-later threatens banks, telecom, defence and government data — but the binding procurement architecture is missing; the opening is to align standards and fund hardware and sensing, not only research.'],
   sources: ['https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/', 'https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/', 'https://www.cybersecuritydive.com/news/quantum-cryptography-white-house-executive-order/823530/', 'https://www.reuters.com/legal/litigation/trump-signs-orders-calling-powerful-quantum-computer-targeting-2028-2026-06-22/']
-}, {
-  slug: 'dholera-water-signal',
-  no: 'S-001',
-  title: 'The Dholera Water Signal',
-  domain: 'Industrial Infrastructure',
-  date: '2026-06-30',
-  dateLabel: '30 June 2026',
-  status: 'live',
-  excerpt: 'Dholera\'s industrial ambition rests on a single water artery. The fab can be financed and built on schedule; the water to run it at full utilisation has to arrive every day through the Narmada canal — and that concentration, not land or capital, is the binding constraint.',
-  readingTime: '5 min',
-  body: [{
-  text: 'Dholera is India\'s most advanced greenfield industrial city and the site of its first commercial wafer fab. Its constraint is not land, power or capital — those are committed. It is water, and specifically the fact that almost all of it arrives through one channel: the Narmada canal.',
-  type: 'p'
-}, {
-  text: 'The Rs 91,000 crore Tata-PSMC fab, designed for roughly 50,000 wafers a month, anchors the Dholera Special Investment Region. Dholera\'s current supply is a roughly 50 MLD treatment plant fed from the Narmada canal. The region\'s master-planned demand is far larger — on the order of 947 million litres a day at full build-out, of which around 491 MLD is industrial and 298 MLD residential.',
-  type: 'p'
-}, {
-  text: 'Why water is the binding constraint',
-  type: 'h'
-}, {
-  text: 'A modern fab is among the most water-intensive industrial facilities in existence. Producing ultrapure water — the solvent-grade water used to rinse wafers — consumes roughly 1,400 to 1,600 litres of municipal water for every 1,000 litres of ultrapure water it yields, before any is recovered. A 50,000-wafer line\'s daily draw runs into the millions of litres; co-located assembly, display and component plants add more. The fab can be financed and built on schedule; the water to run it at full utilisation has to be physically delivered, every day, through infrastructure that also serves a city.',
-  type: 'p'
-}, {
-  text: 'The exposure is that this demand rests on essentially one source. The Narmada canal is a shared, allocation-governed system supplying agriculture, drinking water and industry across Gujarat; its delivery varies with the monsoon, reservoir levels and competing claims upstream. A single artery feeding a strategic national asset is a concentration risk, not a detail.',
-  type: 'p'
-}, {
-  text: 'What the state is already signalling',
-  type: 'h'
-}, {
-  text: 'Gujarat\'s response is the clearest evidence of the underlying problem. The state offers a 50 per cent capital subsidy to fab projects that build their own desalination plants — an unusually generous incentive that exists precisely because canal water alone is not treated as a resilient base load. Desalination on the nearby Gulf of Khambhat, treated-wastewater recycling and zero-liquid-discharge are the resilience layer being built around the canal, not instead of it.',
-  type: 'p'
-}, {
-  text: 'The second-order effects matter. Desalination is energy-intensive, which ties Dholera\'s water resilience back to its power system; zero-liquid-discharge and recycling push cost and operational complexity onto every tenant; and brine and effluent loads create their own environmental and regulatory exposure on a sensitive coastline. Water resilience here is not a single project but a system — canal plus desalination plus recycling plus the power to run it.',
-  type: 'p'
-}, {
-  text: 'The signal to watch',
-  type: 'h'
-}, {
-  type: 'list',
-  items: ['Desalination capacity actually commissioned on the Gulf of Khambhat, versus announced.', 'The recycled-water and zero-liquid-discharge ratio fabs achieve in practice, not on paper.', 'Narmada allocation to Dholera under competing agricultural and urban demand in a weak-monsoon year.', 'Whether the water system build-out keeps pace with the 2026-27 fab ramp, or lags behind it.']
-}, {
-  text: 'The fab will be commissioned on schedule. The question Dholera answers over the next few years is whether the water system beneath it is built as a resilient, multi-source utility — or whether a strategic industrial cluster is left resting on a single canal. The first is infrastructure; the second is a dependency.',
-  type: 'p'
-}],
-  takeaways: ['Dholera\'s build-out — anchored by the Rs 91,000 crore Tata-PSMC fab (~50,000 wafers/month) — depends almost entirely on Narmada-canal water through a roughly 50 MLD plant today, against a master-planned demand near 947 MLD.', 'Ultrapure-water production for a fab consumes about 1.4-1.6 litres of municipal water per litre of UPW before recovery, which is why water — not land, power or capital — is the binding constraint.', 'Gujarat\'s 50 per cent capital subsidy for fab-owned desalination is the clearest signal that canal water alone is not considered a resilient base load.', 'Water resilience at Dholera is a system — canal plus desalination plus recycling plus the power to run it — and the metric that matters is commissioned desalination and real ZLD ratios, not announcements.'],
-  sources: ['https://www.ijsrd.com/articles/LDRPTCP065.pdf', 'https://swarajyamag.com/tech/how-gujarat-is-shaping-up-as-indias-semiconductor-hub-building-on-its-strength-as-an-economic-powerhouse']
 }, {
   slug: 'real-constraint-behind-ai-infrastructure',
   no: 'S-008',
@@ -585,6 +585,58 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Container manufacturing is a trade-infrastructure signal, not only a steel-box manufacturing story.', 'The highest-value path is specialised containers - reefers, tanks, chemical, defence, battery, medical and modular data-centre units - rather than only commodity dry containers.', 'The SME opportunity sits in weathering steel access, coatings, corner castings, seals, locking systems, testing, repair, telematics and leasing infrastructure.', 'The Atlas should track container manufacturing as a supply chain linked to ports, rail freight, cold chain, defence logistics, industrial corridors and AI infrastructure.'],
   sources: ['https://timesofindia.indiatimes.com/city/ahmedabad/times-dhandho-gujarat-container-industrys-resurgence-unboxed/articleshow/128713762.cms', 'https://shipmin.gov.in/', 'https://sagarmala.gov.in/']
+}, {
+  slug: 'semicon-2-0-ecosystem-shift',
+  no: 'S-016',
+  title: 'Semicon 2.0 Confirms India\'s Shift from Fab Projects to Ecosystem Building',
+  domain: 'Semiconductors',
+  date: '2026-07-16',
+  dateLabel: '16 July 2026',
+  status: 'live',
+  excerpt: 'Most coverage will lead with the Rs 1.27 lakh crore. The real story is one sentence - "building the complete ecosystem" - and a second pillar that finally incentivises the machines, materials, chemicals and gases beneath the fab.',
+  readingTime: '7 min',
+  body: [{
+  text: 'The headline writes itself: the Union Cabinet has cleared Semicon 2.0, the second phase of the India Semiconductor Mission, with a Rs 1.27 lakh crore outlay - alongside a Rs 62,500 crore second phase of the mobile-manufacturing scheme. The number will dominate the coverage. It is also the least interesting thing about the announcement.',
+  type: 'p'
+}, {
+  text: 'The line that matters is the one about scope. Semicon 1.0 was, in practice, a campaign to attract anchor investments - win a fab, win an ATMP plant, put India on the map. Semicon 2.0 is framed around a different idea: building the complete ecosystem. The second phase is organised around six pillars that span the entire value chain - design, machines and materials, fabs, ATMP and advanced packaging, R&D, and talent. That is not a bigger incentive. It is a different theory of how a semiconductor industry is actually built.',
+  type: 'p'
+}, {
+  text: 'What actually changed',
+  type: 'h'
+}, {
+  text: 'Phase one treated the fab as the prize. Phase two treats the fab as one layer of a stack. Pillar one deepens chip design and IP, building on the 105 design startups already in the ecosystem. Pillar three still covers fabs. But pillars two, four, five and six are where the shift lives: the machines, materials, chemicals and gases a fab consumes; advanced packaging and OSAT; the R&D to move from today\'s 28-110nm nodes toward more advanced ones; and the talent pipeline of 315 universities and roughly 68,000 students trained on industry EDA tools. The message is that semiconductor competitiveness is decided across the whole industrial stack, not at the fab door.',
+  type: 'p'
+}, {
+  text: 'The pillar most coverage will miss',
+  type: 'h'
+}, {
+  text: 'Read pillar two slowly: companies involved in manufacturing the machines, and in making the materials, chemicals and gases essential for semiconductor manufacturing, will be incentivised. That single sentence redirects policy attention to the layers almost no one studies - lithography support equipment, metrology, vacuum systems, gas delivery and abatement, wafer-handling robotics and cleanroom systems; photoresists, etchants, CMP slurries and pads, high-purity solvents and specialty gases; silicon, silicon carbide, gallium nitride, quartz, wafers and substrates. These are the true dependencies of a fab economy, and until now they sat outside the incentive frame.',
+  type: 'p'
+}, {
+  text: 'This is also where the opportunity is most widely distributed. A fab is a billion-dollar bet made by a handful of players. The equipment, chemicals and precision-manufacturing layers are an SME and mid-cap opportunity - precision machining, cleanroom construction, ultrapure water and gas handling, process instrumentation, calibration, metrology, specialty packaging and maintenance services. Semicon 2.0\'s second pillar is, in effect, a demand signal for exactly that base.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether the machines-and-materials pillar is notified with real allocations and eligibility rules, or remains a line in a press release - the difference between a demand signal and an actual market.', 'Whether the 105 design startups convert into products and IP that fabs and OSATs can build, rather than a pipeline that stalls at tape-out.', 'The node ambition: moving from 28-110nm toward advanced nodes is a decade-long industrial and R&D commitment, not a budget cycle.', 'Whether ATMP and OSAT deepen into genuine advanced packaging - the value-capture layer - rather than commodity assembly.', 'Whether the programme genuinely broadens beyond anchor investors to the equipment, chemicals and precision-manufacturing SMEs the second pillar names.']
+}, {
+  text: 'The strategic read',
+  type: 'h'
+}, {
+  text: 'Strip away the headline number and Semicon 2.0 is the government formally adopting the ecosystem thesis: that a semiconductor industry is an industrial system - design, materials, chemicals, equipment, packaging, R&D and talent - and that owning the fab means little without the layers around it. For India, that reframes the question from can we win a fab? to can we build the stack a fab needs? The leverage, and most of the addressable opportunity, sits in the layers the second pillar has just brought inside the tent.',
+  type: 'p'
+}, {
+  text: 'Go deeper',
+  type: 'h'
+}, {
+  text: 'Techadyant Labs has mapped this shift in full: [The Semicon 2.0 Opportunity Map](/reports/semicon-2-0-opportunity-map/) sizes the Rs 45,500 crore serviceable opportunity across the eight upstream streams beyond the fab, ranks them, and sorts them into three capital-allocation tiers.',
+  type: 'p'
+}],
+  takeaways: ['The significance is not the Rs 1.27 lakh crore - it is the explicit move from anchor-investment attraction (Semicon 1.0) to complete-ecosystem building across six pillars.', 'Pillar two - machines, materials, chemicals and gases - is the quiet centre of gravity: the equipment and specialty-chemical layers most analysts ignore.', 'The opportunity surfaces are heavily SME-shaped: precision machining, cleanroom systems, gas and ultrapure-water handling, metrology, CMP consumables and wafer-handling automation.', 'Semicon 2.0 validates the Atlas thesis - semiconductor competitiveness is an industrial-stack question, from design IP to specialty chemicals to equipment.'],
+  sources: ['https://pib.gov.in/', 'https://www.business-standard.com/industry/news/cabinet-clears-india-semiconductor-mission-2-mobile-manufacturing-126071500754_1.html', 'https://swarajyamag.com/tech/what-is-semicon-20-inside-indias-rs-127-lakh-crore-six-pillar-strategy-to-become-a-major-global-semiconductor-player', 'https://www.dqindia.com/semiconductors/cabinet-approves-semicon-20-government-delivers-on-commitment-for-long-term-policy-support-to-semiconductors-in-india-12166952']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
