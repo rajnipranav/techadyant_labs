@@ -79,7 +79,7 @@ function RoadmapFigure() {
                 <text x={x} y="86" fill={p.c} fontSize="13" fontWeight="700" fontFamily="JetBrains Mono, monospace">{p.yrs}</text>
                 <text x={x} y="150" fill="#e9e7e0" fontSize="14" fontWeight="700" fontFamily="Inter, sans-serif">{p.name}</text>
                 <foreignObject x={x - 14} y="162" width="210" height="72">
-                  <div xmlns="http://www.w3.org/1999/xhtml" style={{ color: '#b6b4ac', font: '12px Inter, sans-serif', lineHeight: 1.35 }}>{p.body}</div>
+                  <div style={{ color: '#b6b4ac', font: '12px Inter, sans-serif', lineHeight: 1.35 }}>{p.body}</div>
                 </foreignObject>
               </g>
             );
