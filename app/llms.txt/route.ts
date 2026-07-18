@@ -94,6 +94,7 @@ ${atlasFacts}
   - [Precision machining suppliers](${SITE}/research/suppliers/category/precision-machining)
   - [Toolmakers, dies & moulds](${SITE}/research/suppliers/category/toolmaking)
 - [Industrial Corridors](${SITE}/research/corridors): synthesis profile per ecosystem (semiconductors, critical minerals, AI infrastructure, defence, enterprise software).
+- [Pillar maps](${SITE}/research/pillars): each strategic industry as a system map — value-chain streams, the chokepoints inside them, and who controls each layer.
 - [Sources](${SITE}/research/sources): organised library of Government-of-India primary sources (roadmaps, scheme guidelines, Acts, notifications) across the five ecosystems, each linked to its official origin.
 
 ## National industrial corridors (interactive map + per-corridor dossiers)

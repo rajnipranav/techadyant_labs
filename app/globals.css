@@ -2218,3 +2218,43 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .sa-blink{ display:inline-flex; align-items:center; gap:7px; font-size:13px; color:var(--text); background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:7px 13px; text-decoration:none; transition:border-color .15s, color .15s; }
 .sa-blink:hover{ border-color:var(--brass); color:var(--brass-cream); }
 .sa-blink span{ font-family:var(--font-jetbrains,monospace); font-size:11px; color:var(--text-dim); }
+
+/* ---- Pillar deep-view (/research/pillars) ---- */
+.pillar-stack { display: flex; flex-direction: column; gap: 10px; }
+.pstack-row { border: 1px solid var(--border); border-left: 4px solid var(--risk, var(--brass)); border-radius: 10px; background: var(--bg-2); padding: 14px 16px; }
+.pstack-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.pstack-head h3 { margin: 0; font-size: 1.02rem; }
+.pstack-head h3 a { color: inherit; text-decoration: none; }
+.pstack-head h3 a:hover { text-decoration: underline; }
+.pstack-risk { font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; color: var(--risk, var(--brass)); white-space: nowrap; }
+.pstack-members { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.pm { font-size: .78rem; padding: 3px 9px; border-radius: 20px; text-decoration: none; border: 1px solid var(--border); color: var(--text-dim); }
+.pm:hover { color: var(--text); }
+.pm-foreign { border-color: rgba(178,59,59,.5); color: #e08a8a; }
+.pm-india { border-color: rgba(79,168,139,.5); color: #7fd3b6; }
+.pm-neutral { border-color: var(--border); color: var(--text-muted); }
+.pstack-legend { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 14px; font-size: .76rem; color: var(--text-muted); }
+.pstack-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: middle; }
+.pstack-legend .pm-india { background: #4FA88B; } .pstack-legend .pm-foreign { background: #B23B3B; } .pstack-legend .pm-neutral { background: #8792a3; }
+.pchoke-table { display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.pchoke-row { display: grid; grid-template-columns: 1.3fr 1.6fr .7fr 2fr; gap: 12px; padding: 11px 14px; border-top: 1px solid var(--border); font-size: .86rem; align-items: start; }
+.pchoke-row:first-child { border-top: 0; }
+.pchoke-h { background: var(--bg-2); font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; color: var(--text-muted); }
+.pchoke-row a { color: inherit; text-decoration: none; } .pchoke-row a:hover { text-decoration: underline; }
+.pchoke-rel { color: var(--text-dim); } .pchoke-rel a { color: var(--text); }
+.pchoke-mag { font-family: var(--mono, ui-monospace, monospace); font-weight: 700; color: var(--brass); }
+.pchoke-note { color: var(--text-muted); font-size: .8rem; }
+.prole { padding: 12px 0; border-top: 1px solid var(--border); }
+.prole:first-child { border-top: 0; }
+.prole-label { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--text-muted); margin-bottom: 8px; }
+.prole-label span { color: var(--text-dim); }
+.prole-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.prole-chip { font-size: .82rem; padding: 4px 11px; border-radius: 20px; border: 1px solid var(--border); color: var(--text-dim); text-decoration: none; }
+.prole-chip:hover { color: var(--text); border-color: var(--brass); }
+.prole-chip.is-foreign { border-color: rgba(178,59,59,.4); } .prole-chip.is-india { border-color: rgba(79,168,139,.4); }
+.pcross { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.pcross li { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 9px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-2); font-size: .86rem; }
+.pcross-a { color: var(--text); } .pcross-rel { color: var(--text-muted); font-size: .78rem; }
+.pcross-b { color: var(--text); text-decoration: none; } .pcross-b:hover { text-decoration: underline; }
+.pcross-pill { margin-left: auto; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--brass); text-decoration: none; border: 1px solid var(--border); border-radius: 20px; padding: 2px 10px; }
+@media (max-width: 720px) { .pchoke-row { grid-template-columns: 1fr 1fr; } .pchoke-note { display: none; } }
