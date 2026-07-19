@@ -31,6 +31,7 @@ import { ReportContent as WaterContent, toc as waterToc } from '../content/india
 import { ReportContent as SmeContent, toc as smeToc } from '../content/the-sme-playbook-for-indias-drone-economy';
 import { ReportContent as SemiconContent, toc as semiconToc } from '../content/semicon-2-0-opportunity-map';
 import { ReportContent as CriticalMineralsRoadmapContent, toc as criticalMineralsRoadmapToc } from '../content/critical-minerals-strategic-roadmap';
+import { ReportContent as QuantumSupplyContent, toc as quantumSupplyToc } from '../content/quantum-supply-chain';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -55,6 +56,7 @@ const registry: Record<string, ReportModule> = {
   'the-sme-playbook-for-indias-drone-economy': { toc: smeToc, Content: SmeContent },
   'semicon-2-0-opportunity-map': { toc: semiconToc, Content: SemiconContent },
   'critical-minerals-strategic-roadmap': { toc: criticalMineralsRoadmapToc, Content: CriticalMineralsRoadmapContent },
+  'quantum-supply-chain': { toc: quantumSupplyToc, Content: QuantumSupplyContent },
 };
 
 export async function generateStaticParams() {

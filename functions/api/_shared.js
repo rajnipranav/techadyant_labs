@@ -28,6 +28,13 @@ export const REPORTS = {
     filename: 'India-Industrial-Water-Opportunity-Map-Techadyant-Labs.pdf',
     title: 'India\u2019s Industrial Water Opportunity Map',
   },
+  'quantum-supply-chain': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'Techadyant_Quantum_SupplyChain.pdf',
+    filename: 'The-Hidden-Supply-Chain-of-Quantum-Computing-Techadyant-Labs.pdf',
+    title: 'The Hidden Supply Chain of Quantum Computing',
+  },
   'india-cargo-drone-market': {
     access: 'paid',
     priceInr: 4999,
