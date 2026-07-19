@@ -1,0 +1,65 @@
+name: GSC sitemap ping + deploy
+
+on:
+  schedule:
+    - cron: '45 0 * * *'   # 00:45 UTC = 06:15 IST daily
+  workflow_dispatch:
+
+jobs:
+  gsc-submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit sitemap to Google Search Console
+        env:
+          GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
+          GSC_CLIENT_SECRET: ${{ secrets.GSC_CLIENT_SECRET }}
+          GSC_REFRESH_TOKEN: ${{ secrets.GSC_REFRESH_TOKEN }}
+          GSC_PROPERTY_URL: ${{ secrets.GSC_PROPERTY_URL }}
+        run: |
+          if [ -z "$GSC_CLIENT_ID" ] || [ -z "$GSC_CLIENT_SECRET" ] || [ -z "$GSC_REFRESH_TOKEN" ] || [ -z "$GSC_PROPERTY_URL" ]; then
+            echo "::warning::GSC secrets not fully configured — skipping"
+            exit 0
+          fi
+
+          # 1. Refresh access token
+          ACCESS_TOKEN=$(curl -sS -X POST 'https://oauth2.googleapis.com/token' \
+            -H 'Content-Type: application/x-www-form-urlencoded' \
+            -d "client_id=$GSC_CLIENT_ID" \
+            -d "client_secret=$GSC_CLIENT_SECRET" \
+            -d "refresh_token=$GSC_REFRESH_TOKEN" \
+            -d "grant_type=refresh_token" | jq -r '.access_token')
+
+          if [ -z "$ACCESS_TOKEN" ] || [ "$ACCESS_TOKEN" = "null" ]; then
+            echo "::error::Failed to refresh Google access token"
+            exit 1
+          fi
+
+          echo "✓ Access token refreshed"
+
+          # 2. Submit sitemap to GSC
+          SITEMAP_URL="https://labs.techadyant.com/sitemap.xml"
+          PROPERTY=$(node -e "console.log(encodeURIComponent(process.env.GSC_PROPERTY_URL))")
+          RES=$(curl -sS -o /dev/null -w '%{http_code}' \
+            -H "Authorization: Bearer $ACCESS_TOKEN" \
+            -H "Content-Type: application/json" \
+            -X POST \
+            -d "{\"url\":\"$SITEMAP_URL\"}" \
+            "https://searchconsole.googleapis.com/webmasters/v3/sites/$PROPERTY/sitemaps/$SITEMAP_URL")
+
+          if [ "$RES" = "200" ] || [ "$RES" = "201" ] || [ "$RES" = "204" ]; then
+            echo "✓ GSC sitemap submitted (HTTP $RES)"
+          else
+            echo "::warning::GSC sitemap submission returned HTTP $RES"
+          fi
+
+      - name: Trigger Cloudflare Pages deploy
+        if: always()
+        env:
+          CF_DEPLOY_HOOK: ${{ secrets.CF_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$CF_DEPLOY_HOOK" ]; then
+            echo "::warning::CF_DEPLOY_HOOK not configured — skipping deploy trigger"
+            exit 0
+          fi
+          CODE=$(curl -fsS -o /dev/null -w '%{http_code}' -X POST "$CF_DEPLOY_HOOK")
+          echo "✓ Cloudflare deploy hook responded HTTP $CODE"
