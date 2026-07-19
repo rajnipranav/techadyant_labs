@@ -637,7 +637,227 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The significance is not the Rs 1.27 lakh crore - it is the explicit move from anchor-investment attraction (Semicon 1.0) to complete-ecosystem building across six pillars.', 'Pillar two - machines, materials, chemicals and gases - is the quiet centre of gravity: the equipment and specialty-chemical layers most analysts ignore.', 'The opportunity surfaces are heavily SME-shaped: precision machining, cleanroom systems, gas and ultrapure-water handling, metrology, CMP consumables and wafer-handling automation.', 'Semicon 2.0 validates the Atlas thesis - semiconductor competitiveness is an industrial-stack question, from design IP to specialty chemicals to equipment.'],
   sources: ['https://pib.gov.in/', 'https://www.business-standard.com/industry/news/cabinet-clears-india-semiconductor-mission-2-mobile-manufacturing-126071500754_1.html', 'https://swarajyamag.com/tech/what-is-semicon-20-inside-indias-rs-127-lakh-crore-six-pillar-strategy-to-become-a-major-global-semiconductor-player', 'https://www.dqindia.com/semiconductors/cabinet-approves-semicon-20-government-delivers-on-commitment-for-long-term-policy-support-to-semiconductors-in-india-12166952']
-}];
+},
+{
+  slug: 'mineral-security-to-processing-thesis',
+  no: 'S-017',
+  title: 'From Mineral Security to Mineral Processing — Why the Midstream Layer Decides Competitiveness',
+  domain: 'Critical Minerals',
+  date: '2026-07-19',
+  dateLabel: '19 July 2026',
+  status: 'live',
+  excerpt: 'India has secured mineral acreage abroad and is building domestic capacity; the missing layer is processing — the refining, separation and chemicals step that converts ore into feedstock. Whoever owns that layer owns the rent.',
+  readingTime: '7 min',
+  body: [
+    { text: 'India has done the hard part of the upstream equation: long-term lithium, cobalt, nickel and REE agreements in Australia, Africa and South America; domestic coal and lignite blocks; the auction pipeline for offshore and critical minerals. But securing an ore block is not the same as controlling the metal. The value is added in the midstream — beneficiation, refining, separation and high-purity chemical production — and that is where India remains thin.', type: 'p' },
+    { text: 'China illustrates the architecture: roughly 90% of global rare-earth separation, roughly 70% of lithium chemical refining and the dominant share of cobalt refining and precursor production sit in one country. The upstream deposits are distributed; the midstream is highly concentrated. That concentration is the leverage point.', type: 'p' },
+    { text: 'The India opportunity', type: 'h' },
+    { text: 'India already has the demand pull — semiconductors, AI infrastructure, EV batteries, defence magnet motors, renewable-energy inverters — each with different purity and specification requirements. What it lacks is a coherent midstream strategy that treats processing as industrial policy rather than commodity extraction. A domestic refining and chemicals base would simultaneously reduce import dependence, create an SME-grade equipment and chemicals market, and give downstream manufacturers a controllable supply base.', type: 'p' },
+    { text: 'The exposure', type: 'h' },
+    { text: 'Processing is capital- and chemistry-intensive, not just ore-intensive. A modern lithium refinery costs USD 400–800 million before working capital. A rare-earth separation train is similarly heavy, with lead times of 18–30 months for critical columns, solvents and controls. The talent — solvent-extraction engineers, process chemists, metallurgists — is concentrated in a handful of geographies. Technology transfer is therefore the real constraint, not money.', type: 'p' },
+    { text: 'What to watch', type: 'h' },
+    { type: 'list', items: [
+      'Whether the Khanij Bids include midstream processing mandates or domestic-value-addition conditions.',
+      'Indian partnerships in separation technology and whether they transfer know-how or merely license equipment.',
+      'The pace and scale of lithium and nickel refinery announcements in Gujarat, Tamil Nadu and Andhra Pradesh.',
+      'Whether rare-earth separation is funded as a strategic national capability rather than left to market pricing.',
+      'Export-control alignment with the Minerals Security Partnership and Quad supply-chain frameworks.'
+    ] },
+    { text: 'The signal is not scarcity of ore. The signal is that downstream value in every critical-mineral chain concentrates at the processing node, and that node is currently owned elsewhere. India\'s next mineral-security win is not another acreage agreement. It is a refinery.', type: 'p' }
+  ],
+  takeaways: [
+    'The midstream — refining, separation and high-purity chemical production — is where mineral value concentrates and where China holds dominant leverage.',
+    'India has secured upstream acreage; the binding constraint is processing know-how, chemistry capability and controlled feedstock supply.',
+    'A domestic mineral-processing base converts critical minerals from a geopolitical exposure into an industrial-policy asset.'
+  ],
+  sources: ['https://ibm.gov.in/', 'https://pib.gov.in/', 'https://www.india.gov.in/']
+},
+{
+  slug: 'rare-earth-magnets-motors-chokepoint',
+  no: 'S-018',
+  title: 'Rare Earth Separation → Magnets → Motors: The Defence and Robotics Chokepoint',
+  domain: 'Critical Minerals & Defence',
+  date: '2026-07-19',
+  dateLabel: '19 July 2026',
+  status: 'live',
+  excerpt: 'China controls roughly 90% of global rare-earth separation and the dominant share of sintered NdFeB magnet output. Every Indian precision motor — drone, robot, defence actuator — sits upstream of that bottleneck.',
+  readingTime: '7 min',
+  body: [
+    { text: 'The rare-earth value chain runs from bastnaesite or ion-adsorption clay through separation into La, Ce, Pr, Nd and heavy REMs, then into metal alloys, sintered or bonded magnets, and finally into the motors and actuators that use them. India has neither commercial-scale heavy-rare-earth separation nor sintered NdFeB manufacturing capacity. Every kilogram of NdFeB magnet used domestically is currently imported, almost entirely from China.', type: 'p' },
+    { text: 'Why this matters for defence and robotics', type: 'h' },
+    { text: 'A single small military drone or loitering munition uses multiple brushless DC motors with sintered NdFeB rotors. A 6-axis robot uses 6. Multiply that across DRDO programmes, Army maritime surveillance drones and future combat-robot platforms — the volumes are large enough to matter, and the specifications are high enough that commodity substitutes are not always suitable.', type: 'p' },
+    { text: 'NdFeB demand forecast', type: 'h' },
+    { text: 'Global NdFeB demand is expected to grow from roughly 200,000 tonnes per year in 2024 toward 300,000–380,000 tpa by 2030. India\'s domestic demand is an order of magnitude smaller today — perhaps 1,500–3,000 tpa across all uses — but is growing fast as drone manufacturing scales. The strategic point is not current volume; it is that the entire base sits on a single-source supply chain with no domestic alternative.', type: 'p' },
+    { text: 'The Indian response so far', type: 'h' },
+    { text: 'The government has amended the Mines and Minerals Act to bring atomic minerals into the licensing fold; the Khanij Bids include monazite and beach-sand streams in Kerala, Tamil Nadu and Odisha; and the Department of Atomic Energy has domestic monazite-processing capability for light REMs. But converting monazite or any Indian rare-earth concentrate into separated high-purity Nd, Dy and Tb metal, and then into sintered magnets meeting defence-grade specs, requires dedicated capacity that does not yet exist at commercial scale.', type: 'p' },
+    { text: 'What to watch', type: 'h' },
+    { type: 'list', items: [
+      'Whether the rare-earth processing mandate is attached to specific Khanij Bid blocks or remains advisory.',
+      'Any sintered NdFeB or heavy-RE metal announcements — these are rare and meaningful when they appear.',
+      'Defence acquisition orders for indigenously designed motors and actuators as a demand anchor for domestic magnet production.',
+      'Quad or MSP supply-chain projects that include rare-earth separation outside China — Japan, Australia and Canada are the likely partners.'
+    ] },
+    { text: 'The chokepoint is structural: the ore is here; the chemistry is elsewhere. Closing it requires a deliberate build, not a policy statement.', type: 'p' }
+  ],
+  takeaways: [
+    'China holds roughly 90% of global rare-earth separation and the dominant share of sintered NdFeB output — India imports all of its magnet-grade REM feed.',
+    'India has monazite and beach-sand resources and DAE separation capability for light REMs, but no commercial heavy-RE or sintered NdFeB capacity.',
+    'Defence drones, military robotics, EV traction and industrial automation translate rare-earth availability into a direct strategic-capability question.'
+  ],
+  sources: ['https://ibm.gov.in/', 'https://pib.gov.in/', 'https://www.usgs.gov/']
+},
+{
+  slug: 'high-purity-minerals-for-semiconductors',
+  no: 'S-019',
+  title: 'High-Purity Minerals Enter the Semiconductor Feedstock Chain',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-07-19',
+  dateLabel: '19 July 2026',
+  status: 'live',
+  excerpt: 'Gallium, germanium, electronic-grade chemicals and high-purity targets are the quiet dependencies beneath every fab. China already accounts for the dominant share of refining; India is building the demand side without the supply base.',
+  readingTime: '7 min',
+  body: [
+    { text: 'When analysts write about semiconductor supply chains they describe the fab: the lithography, deposition and etch tools, the cleanroom, the wafer starts and the packaging lines. What they leave out is the feedstock chemistry that sits upstream of all of that — the 99.9999% pure gases, the sputtering targets, the photoresists, the CVD precursors, the high-purity gallium and germanium. Without those inputs, the most expensive fab in the world produces nothing.', type: 'p' },
+    { text: 'Gallium and germanium', type: 'h' },
+    { text: 'China produces the overwhelming majority of primary gallium and germanium metal and compounds. In 2023 it introduced export licences and then export restrictions on both, precisely because they are inputs into infrared optics, semiconductors and advanced substrates rather than end products. India has modest bauxite and coal-based germanium by-product streams but no high-scale refining or 7N–7N5 purity upgrading.', type: 'p' },
+    { text: 'From minerals to chips', type: 'h' },
+    { text: 'High-purity gallium is used to make GaAs and GaN substrates for RF, power and optoelectronic devices. Germanium enters silicon-germanium alloys for advanced logic and image sensors. Electronic-grade sulfuric acid, hydrogen peroxide and isopropanol are consumed in wafer cleaning in kilogram-per-wafer quantities. CMP slurries and photoresists are applied at every critical layer. These are not exotic niche inputs; they are the consumables that a running fab cannot run out of.', type: 'p' },
+    { text: 'The Indian opportunity', type: 'h' },
+    { text: 'India\'s semiconductor demand is set by the Ministry of Electronics and IT\'s own projections — USD 450–500 billion electronics output by 2029–30, with semiconductor consumption scaling from an estimated USD 20–25 billion today toward USD 60–80 billion by 2030. The materials that feed that demand are almost entirely imported. A domestic high-purity chemicals and metals base would serve every announced fab and OSAT simultaneously, giving it a market anchor from day one.', type: 'p' },
+    { text: 'What to watch', type: 'h' },
+    { type: 'list', items: [
+      'Any gallium or germanium refining capacity announcements — even pilot-scale — as a leading indicator of strategic intent.',
+      'Whether DST/MeitY R&D funding for electronic-grade chemicals translates into pilot plants rather than publications.',
+      'Import volumes of electronic-grade acids, solvents, photoresists and high-purity metals from Korea, Japan and Taiwan.',
+      'Whether Indian fabs and OSATs sign long-term offtake agreements for domestic high-purity feedstock before commissioning.',
+      'Technology-transfer deals with Japanese, Korean or European specialty-chemical firms that include know-how rather than only equipment supply.'
+    ] },
+    { text: 'Semiconductor competitiveness is decided layer by layer, and the materials layer is the one India currently imports almost completely. The question is not whether India can build fabs; it is whether it builds the chemistry the fabs consume.', type: 'p' }
+  ],
+  takeaways: [
+    'High-purity gallium, germanium, electronic-grade chemicals and CMP consumables are the quiet dependencies beneath every fab and OSAT line.',
+    'China dominates refining and purification of these materials; India has the demand but not the supply base.',
+    'A domestic high-purity materials sector would serve every Indian fab and OSAT simultaneously, making it a natural anchor investment in Semicon 2.0\'s second pillar.'
+  ],
+  sources: ['https://pib.gov.in/', 'https://www.meity.gov.in/', 'https://www.usgs.gov/']
+},
+{
+  slug: 'refinery-equipment-technology-transfer',
+  no: 'S-020',
+  title: 'The Refinery Equipment and Technology-Transfer Layer Beneath Mineral Processing',
+  domain: 'Industrial Infrastructure & Manufacturing',
+  date: '2026-07-19',
+  dateLabel: '19 July 2026',
+  status: 'live',
+  excerpt: 'Mineral processing plants are built by EPC contractors using proprietary separation technology. The equipment and know-how beneath every refinery announcement is the real leverage point — and the surface where Indian industry can compete.',
+  readingTime: '7 min',
+  body: [
+    { text: 'Every announcement of a lithium refinery, rare-earth separation plant or high-purity chemical facility conceals a second story: the origin of the technology and the identity of the EPC contractor. A solvent-extraction train for lithium carbonate with 99.5% purity is not commodity civil engineering. It is proprietary column design, mixer-settler hydraulics, solvent chemistry, impurity profiles and controls logic — usually held by a small number of specialists in Europe, Japan and China.', type: 'p' },
+    { text: 'The equipment stack', type: 'h' },
+    { type: 'list', items: [
+      'Solvent extraction: mixer-settlers, pulse and packed columns, centrifugal contactors — lead times 12–18 months.',
+      'Hydrometallurgical reactors: autoclaves, pressure leach vessels, thickeners, filters — pressure-vessel codes, corrosion alloys.',
+      'Ion exchange and chromatography: specialised resins, guard columns, elution systems.',
+      'Crystallisation and drying: forced-circulation crystallisers, spray dryers, fluidised beds.',
+      'Process control: SCADA, analysers, inline ICP-OES for quality assurance.',
+      'Utilities: ultrapure water, clean steam, nitrogen blanketing, waste-neutralisation circuits.'
+    ] },
+    { text: 'The European case', type: 'h' },
+    { text: 'The reference to European technology is an example of the broader pattern, not the story itself. Several mid-tier hydromet and solvent-extraction specialists in Europe and Japan have proven technology for lithium, REE and battery-metal streams. What matters is not their nationality; it is whether the Indian partner structure transfers enough know-how to replicate and improve the plant without recurring foreign support, or whether it becomes a black-box dependency.', type: 'p' },
+    { text: 'The Indian opportunity', type: 'h' },
+    { text: 'Large EPC and process-engineering firms already deliver turnkey process plants domestically. The gap is not basic EPC capability. The gap is the know-how layer: proprietary separation chemistry, metallurgical process design, and the ability to operate and tune complex hydromet circuits at commercial scale. Firms that capture that capability now, through JV technology-acquisition or systematic reverse-engineering of first-generation plants, will own the repeat-order layer when the second and third Indian refineries are bid.', type: 'p' },
+    { text: 'What to watch', type: 'h' },
+    { type: 'list', items: [
+      'EPC/technology-licensing announcements for lithium, REE and high-purity metal refineries.',
+      'Whether JV structures include technology-transfer clauses, local engineering content commitments and training mandates.',
+      'Indian instrumentation and control firms entering the hydromet stack — a leading indicator of domestic capability depth.',
+      'The durability of first-generation refineries: ramp rates, yield performance and solvent-management records are the metrics to watch, not groundbreaking photographs.'
+    ] },
+    { text: 'The picks-and-shovels layer is where the repeatable Indian industrial capability is built. Mine ownership is a one-off; refinery equipment and engineering know-how is a durable, exportable platform.', type: 'p' }
+  ],
+  takeaways: [
+    'Every refinery announcement hides a second story — the origin of the separation technology and the identity of the EPC contractor.',
+    'The equipment and know-how layer — solvent extraction, hydromet, ion exchange, crystallisation — is the real leverage point and where Indian industry can build durable advantage.',
+    'Technology transfer, not just equipment supply, is the metric that separates genuine capability build from another import-dependent greenfield.'
+  ],
+  sources: ['https://ibm.gov.in/', 'https://pib.gov.in/', 'https://www.india.gov.in/']
+},
+{
+  slug: 'battery-materials-processing-india',
+  no: 'S-021',
+  title: 'Battery Materials Processing — Lithium, Cobalt, Nickel and the Cell-Ecosystem Opportunity',
+  domain: 'Energy Storage & Industrial Infrastructure',
+  date: '2026-07-19',
+  dateLabel: '19 July 2026',
+  status: 'live',
+  excerpt: 'India is committing to gigafactory-scale cell manufacturing; the upstream chemistry — refining, precursor, cathode, anode — is where most of the value and most of the import risk actually sits.',
+  readingTime: '7 min',
+  body: [
+    { text: 'A lithium-ion cell contains roughly 40% cathode chemistry by value, 25% anode, 15% casing and current collectors, 10% electrolyte and separator, and 10% assembly. Of those, India has credible indigenous capacity only in some casing, current collector and basic separator supply. Cathode active material, anode graphite, battery-grade lithium carbonate or hydroxide, cobalt sulphate and nickel-cobalt-manganese precursor are all largely imported. That is where the value concentrates, and that is where the domestic opportunity sits.', type: 'p' },
+    { text: 'The demand is structural', type: 'h' },
+    { text: 'India\'s EV road map targets 30% EV penetration by 2030, which implies roughly 80–120 GWh of annual cell demand by the end of the decade, against a current domestic cell-manufacturing base that is still scaling. Even conservative penetration scenarios land in the 60–100 GWh range by 2030. Energy storage systems, grid-scale BESS and defence-electric vehicles add more. That is a large, predictable domestic pull for upstream chemistry.', type: 'p' },
+    { text: 'The processing steps', type: 'h' },
+    { type: 'list', items: [
+      'Lithium refining: spodumene or leach-lithium conversion to battery-grade carbonate or hydroxide — USD 500–800 million per 20,000 tpa plant, 18–24 month build.',
+      'Nickel and cobalt refining: HPAL or chloride leaching to MHP / cobalt sulphate; India uses some MHP but no large domestic cobalt-sulphate line.',
+      'Precursor synthesis: NCM, NCA, LFP precursor — a high-purity, tightly controlled synthesis step where yield and particle-size distribution dominate cost.',
+      'Cathode active material: calcination, coating, drying — the highest-margin step in the cell chain once precursor is secured.',
+      'Anode: purified graphite, artificial graphite synthesis — largely imported today despite graphite reserves.',
+      'Electrolyte and separator: fluorinated solvents, PVDF, ceramic-coated separators — specialty-chemical inputs with domestic pilot-stage capability.'
+    ] },
+    { text: 'The opportunity map', type: 'h' },
+    { text: 'The nearest-term, highest-certainty Indian opportunity is cathode active material and precursor synthesis because the demand signal is domestic gigafactory offtake. The biggest import-dependence exposure is battery-grade lithium and cobalt chemicals, because the feedstock comes from abroad and the refining sits in China. An Indian midstream that can offer long-term offtake contracts tied to domestic cell production would change the investment case for every upstream lithium, nickel and cobalt project.', type: 'p' },
+    { text: 'What to watch', type: 'h' },
+    { type: 'list', items: [
+      'Gigafactory offtake agreements with domestic cell makers as the anchor for upstream CAPEX.',
+      'Any lithium-refinery or precursor-plant announcements in Gujarat, Tamil Nadu or Andhra Pradesh.',
+      'Khanij Bids and overseas lithium-cobalt-nickel agreements that include processing commitments, not just ore ownership.',
+      'Battery Material PLI or similar demand-pull policy — catalytic for the same reason semiconductor PLIs were catalytic.'
+    ] },
+    { text: 'Battery materials processing is the largest processing demand-pull India has, because the cell is the universal intermediate — EV, storage, defence electric platforms, inverters, robotics all converge on the same chemistry. The question is whether India builds the chemistry first and the cells second, or the cells first and remains dependent on imported active material forever.', type: 'p' }
+  ],
+  takeaways: [
+    'Cathode active material, precursor synthesis and battery-grade lithium/cobalt/nickel refining hold most of the cell-chain value and most of the import risk.',
+    'India has EV, stationary-storage and defence-electric demand that can anchor upstream chemistry investments — if offtake contracts are credible.',
+    'The sequence that matters is chemistry first, cells second: without domestic active material, gigafactories remain assembly dependency.'
+  ],
+  sources: ['https://pib.gov.in/', 'https://ibm.gov.in/', 'https://www.india.gov.in/']
+},
+{
+  slug: 'india-asia-mineral-processing-hub',
+  no: 'S-022',
+  title: 'Can India Be Asia\'s Mineral-Processing Hub?',
+  domain: 'Critical Minerals & Economic Geography',
+  date: '2026-07-19',
+  dateLabel: '19 July 2026',
+  status: 'live',
+  excerpt: 'India has the ore, the energy-transition demand and the policy intent. Whether it can become the processing hub for Asian critical minerals depends on three execution bets — refinery policy, partner selection and talent — rather than geology.',
+  readingTime: '8 min',
+  body: [
+    { text: 'The prevailing framing treats India as a minerals consumer or, at best, an upstream miner. The different question is whether India can capture the midstream: the refining, separation and high-purity chemical production that every manufacturer in Asia needs but that is currently concentrated in one geography. The answer is structurally plausible but execution-conditional — three bets decide it.', type: 'p' },
+    { text: 'The base case', type: 'h' },
+    { text: 'India has multiple advantages that most prospective processing hubs lack. It has domestic critical-mineral deposits plus long-term access to Australian, African and South American feedstock; cheap domestic coal and increasingly cheap solar power; a large domestic demand pull from semiconductors, EV, defence and AI infrastructure; and a policy architecture that treats critical minerals as strategic. It also has one structural disadvantage: the midstream talent base is small, the technology is proprietary, and the incumbent in China has 25 years of scale learning.', type: 'p' },
+    { text: 'The three execution bets', type: 'h' },
+    { type: 'list', items: [
+      'Refinery policy — whether India attaches domestic-value-addition conditions to mineral imports and critical-minerals auctions, or treats processing as a private-sector decision.',
+      'Partner selection — whether technology-transfer partnerships are structured as genuine capability build or as black-box equipment supply with Indian civil works.',
+      'Talent — whether India builds a refinery-chemistry and hydromet-engineering pipeline in the 18–36 month window that the first-generation plants need, or imports operation teams for a decade.'
+    ] },
+    { text: 'The competitive set', type: 'h' },
+    { text: 'Indonesia, Chile, Australia and Canada are all pursuing midstream lithium and nickel capacity with different success. Indonesia used export bans to force nickel refining domestic; the result was significant investment, but also a WTO dispute and environmental critique. Chile and Australia have the ore and a growing refining base but not the downstream chemistry. Canada has the critical-minerals policy but not yet the scale. India is entering this field later but with the largest single demand pool in Asia and the most capital-efficient power position.', type: 'p' },
+    { text: 'Three scenarios', type: 'h' },
+    { text: 'Base case — 35-45% probability: India builds 10–15 mtpa equivalent critical-mineral processing capacity by 2035, anchored by domestic demand but not enough to serve regional markets meaningfully. Accelerated case — 25% probability: India attaches processing mandates to mineral concessions, signs technology-transfer partnerships, and graduates 1,000+ hydromet and separation engineers by 2030. Stalled case — 40% probability: Refinery announcements outrun execution; first-generation plants miss yield and cost targets; the hub aspiration remains unrealised.', type: 'p' },
+    { text: 'The verdict', type: 'h' },
+    { text: 'India can be Asia\'s processing hub in the same way it can be a semiconductor manufacturer: it is not a geology question, it is a policy, technology-transfer and execution question. The minerals are here. The market is here. The policy intent is here. What is missing is the deliberate midstream architecture that connects those three things into an industrial system.', type: 'p' }
+  ],
+  takeaways: [
+    'India has a structurally plausible path to becoming Asia\'s critical-mineral processing hub; the constraint is execution, not ore or demand.',
+    'Three bets decide the outcome: processing mandates in mineral policy, genuine technology-transfer partnerships, and a hydromet/separation-chemistry talent pipeline.',
+    'Indonesia shows what export-linked processing mandates can achieve in 3–5 years; India has better power and a larger domestic market but less coercive policy instruments.'
+  ],
+  sources: ['https://ibm.gov.in/', 'https://pib.gov.in/', 'https://www.india.gov.in/']
+}
+];
 
 export function getSignal(slug: string): SignalMeta | undefined {
   return signals.find((s) => s.slug === slug);
