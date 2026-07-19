@@ -77,9 +77,12 @@ export default function NewsletterPage() {
         </div>
         <div className="briefings rule-top">
           {issues.map((i) => (
-            <Link key={i.slug} href={`/newsletter/${i.slug}/`} className="briefing" style={{ gridTemplateColumns: '150px 1fr auto', alignItems: 'start', padding: '26px 0' }}>
-              <span className="briefing-date">{i.month}</span>
+            <Link key={i.slug} href={`/newsletter/${i.slug}/`} className="briefing" style={{ gridTemplateColumns: '84px 1fr auto', gap: 22, alignItems: 'start', padding: '22px 0' }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={i.card ?? i.cover} alt={`Sanket ${i.month} — ${i.title} cover`}
+                style={{ width: 84, height: 112, objectFit: 'cover', objectPosition: 'top center', borderRadius: 8, border: '1px solid var(--border)', background: '#0B0F1A', display: 'block' }} />
               <div>
+                <span className="briefing-date" style={{ display: 'block', marginBottom: 6 }}>{i.month}</span>
                 <span className="briefing-title">
                   {i.no} — {i.title}
                   <span className="b-tag">Sanket</span>
