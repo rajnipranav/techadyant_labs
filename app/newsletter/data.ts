@@ -16,6 +16,21 @@ export interface IssueMeta {
 }
 
 export const issues: IssueMeta[] = [{
+  slug: 'sanket-july-2026',
+  no: 'Issue 03',
+  month: 'July 2026',
+  date: '19 July 2026',
+  published: '2026-07-19',
+  title: 'The Opportunity Economy',
+  standfirst: 'Eight reports this month, one map: the layers India can build and own — sized, ranked and mostly upstream of the platform. June named the problem; July prices the opportunity.',
+  readingTime: '9-min read',
+  card: 'https://library.techadyant.com/covers/sanket-july-26.png',
+  cover: '/newsletter/july-at-a-glance.png',
+  ogImage: '/newsletter/july-at-a-glance.png',
+  pdf: 'https://library.techadyant.com/free%20reports/sanket-july-26.pdf',
+  pdfReady: true,
+  status: 'live'
+}, {
   slug: 'sanket-june-2026',
   no: 'Issue 02',
   month: 'June 2026',
@@ -27,7 +42,7 @@ export const issues: IssueMeta[] = [{
   card: '/covers/sanket-june-2026.png',
   cover: '/newsletter/june-at-a-glance.png',
   ogImage: '/newsletter/june-at-a-glance.png',
-  pdf: 'https://lkqojucjkpxhcngtstfy.supabase.co/storage/v1/object/public/reports-free/sanket-june-26.pdf',
+  pdf: 'https://library.techadyant.com/free%20reports/sanket-june-26.pdf',
   pdfReady: true,
   status: 'live'
 }, {
@@ -42,7 +57,7 @@ export const issues: IssueMeta[] = [{
   card: '/covers/sanket-may-2026.jpg',
   cover: '/newsletter/strategic-intelligence.svg',
   ogImage: '/newsletter/global_stack.png',
-  pdf: 'https://lkqojucjkpxhcngtstfy.supabase.co/storage/v1/object/public/reports-free/sanket-may-26.pdf',
+  pdf: 'https://library.techadyant.com/free%20reports/sanket-may-26.pdf',
   pdfReady: true,
   status: 'live'
 }];

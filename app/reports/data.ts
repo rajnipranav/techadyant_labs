@@ -227,34 +227,6 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
-  slug: 'india-ai-power-infrastructure-gap',
-  title: 'India’s AI Power Infrastructure Gap',
-  subtitle: 'Why DC build-out is constrained by transmission, not generation',
-  domain: 'AI Infrastructure',
-  edition: 'forthcoming',
-  published: '2026-08-15',
-  publishedLabel: 'Forthcoming',
-  readingTime: '~ 2h read',
-  status: 'forthcoming',
-  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
-  accent: '#6366F1',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: false,
-  hasDeck: false,
-  pages: undefined,
-  cover: '',
-  previewObject: '',
-  previewPages: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-08-15',
-  seo: {
-
-}
-}, {
   slug: 'india-edge-ai-economy',
   title: 'India’s Edge AI Economy',
   subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
@@ -283,6 +255,130 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'india-ai-power-infrastructure-gap',
+  title: 'India’s AI Power Infrastructure Gap',
+  subtitle: 'Why DC build-out is constrained by transmission, not generation',
+  domain: 'AI Infrastructure',
+  edition: 'forthcoming',
+  published: '2026-08-15',
+  publishedLabel: 'Forthcoming',
+  readingTime: '~ 2h read',
+  status: 'forthcoming',
+  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
+  accent: '#6366F1',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: false,
+  hasDeck: false,
+  pages: undefined,
+  cover: '',
+  previewObject: '',
+  previewPages: undefined,
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-08-15',
+  seo: {
+
+}
+}, {
+  slug: 'quantum-supply-chain',
+  title: 'The Hidden Supply Chain of Quantum Computing',
+  subtitle: 'Cryogenics, Control Electronics, Photonics and India\'s Missing Industrial Base',
+  domain: 'Strategic Technology',
+  edition: 'Strategic Intelligence Report · Edition 3 · 2026',
+  published: '2026-07-19',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'The world watches the qubit; the value, the margin and the dependency sit everywhere else. This report maps the hidden supply chain beneath quantum computing — cryogenics, control electronics, photonics, packaging and high-purity materials — where a 100-qubit machine\'s cost actually accrues (the qubit chip is under 8%; the hidden stack is about 63% of a ~$5.15M system). It scores India\'s capability layer by layer against the global frontier, finds near-total import dependency and single-source chokepoints across every critical component, sizes the patent, funding and talent gaps, and sets out a ten-year, ~$5.25 billion industrial roadmap to build a defensible position. 150+ pages, 69 figures, 20 tables, five appendices with company, startup, policy and funding databases, and a 17-sheet data workbook.',
+  accent: '#2BC5B4',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 150,
+  cover: 'https://library.techadyant.com/covers/quantum%20supply%20chain.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Quantum_SupplyChain%20-%20free.pdf',
+  previewPages: 15,
+  keywords: ['quantum computing supply chain', 'quantum computing india', 'dilution refrigerator', 'cryogenics quantum', 'quantum control electronics', 'QKD india', 'national quantum mission', 'quantum hardware supply chain', 'quantum photonics', 'quantum computing components', 'india quantum industrial base', 'quantum patents india'],
+  faq: [{
+  a: 'The layers beneath the qubit — cryogenics (dilution refrigerators), control electronics, photonics, packaging and high-purity materials. On a 100-qubit superconducting computer costing ~$5.15M, the qubit chip is under 8% of cost; the hidden stack is about 63%.',
+  q: 'What is the hidden supply chain of quantum computing?'
+}, {
+  a: 'Effectively 100% on critical components. Every quantum-critical component category exceeds an HHI of 2500 (single-source concentration), and India lags the global frontier by 2–4 TRL levels across the stack.',
+  q: 'How dependent is India on imports for quantum components?'
+}, {
+  a: 'The report models a ten-year, ~$5.25 billion industrial roadmap across cryogenics, control electronics and photonics, with a talent build-out to close a ~21,000-FTE gap by 2030.',
+  q: 'What would it cost India to build a quantum industrial base?'
+}, {
+  a: 'Not in the qubit. Software and QKD hold ~70% of the margin pool, and value migrates toward control and integration — the report forecasts software\'s share of value rising from 42% to 62%.',
+  q: 'Where does the value in quantum computing actually sit?'
+}, {
+  a: 'India\'s ~$1.1B national programme is about 7% of China\'s and 60% of the USA\'s; China files ~41% of global quantum patents, and India is ~$205M short of even a 4% global funding share.',
+  q: 'How does India compare on quantum funding and patents?'
+}],
+  sources: ['https://dst.gov.in/', 'https://pib.gov.in/'],
+  dateModified: '2026-07-19',
+  seo: {
+  entities: ['quantum computing', 'dilution refrigerator', 'cryogenics', 'QKD', 'control electronics', 'National Quantum Mission', 'quantum supply chain'],
+  aiSummary: 'Maps the hidden supply chain beneath quantum computing — cryogenics, control electronics, photonics, packaging and materials — where ~63% of a quantum computer\'s cost and most of the margin sit. Scores India\'s capability layer by layer, finds ~100% import dependency and single-source chokepoints across every critical component, and sets out a ten-year, ~$5.25B industrial roadmap.',
+  metaTitle: 'The Hidden Quantum Supply Chain: India\'s Missing Industrial Base (2026)',
+  schemaType: 'Report',
+  focusKeyword: 'quantum computing supply chain',
+  metaDescription: 'The qubit is under 8% of a quantum computer\'s cost. This report maps the hidden supply chain — cryogenics, control electronics, photonics — India\'s import dependency and chokepoints, and a ten-year $5.25B industrial roadmap.'
+}
+}, {
+  slug: 'critical-minerals-strategic-roadmap',
+  title: 'Securing India\'s Industrial Future',
+  subtitle: 'A Strategic Roadmap for Critical Minerals and Materials Dependency, 2026–2035',
+  domain: 'Critical Minerals & Strategic Materials',
+  edition: 'Strategic Risk Report · Volume I · 2026–2035',
+  published: '2026-07-18',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 3h read',
+  status: 'published',
+  summary: 'India has secured access to critical minerals but not the capability to process them. This report maps India\'s dependency on critical minerals and advanced materials across the full value chain — upstream exploration, the midstream processing and refining bottleneck where China holds an estimated 60–90% of global capacity, and downstream demand from EVs, defence and net-zero energy — and quantifies it through a multi-dimensional Critical Mineral Vulnerability Matrix. It reads the National Critical Mineral Mission (₹16,300 crore) and the ₹1,500 crore Critical Mineral Recycling Incentive Scheme against the scale of the gap, and sets out a three-phase strategic roadmap to 2035 across policy, midstream capacity, circular economy and downstream integration. 169 pages, 16 figures, 29 tables, a 12-sheet workbook and an executive edition; verified to primary government sources, with all modelled estimates labelled.',
+  accent: '#C9A84C',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 174,
+  cover: 'https://library.techadyant.com/covers/Critical-Minerals-Strategic-Roadmap.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Critical-Minerals-Strategic-Roadmap.pdf',
+  previewPages: 174,
+  keywords: ['india critical minerals strategy', 'national critical mineral mission', 'NCMM', 'critical minerals processing india', 'rare earth india', 'lithium india', 'critical minerals recycling india', 'midstream refining india', 'critical minerals supply chain india', 'india rare earth magnets', 'critical minerals roadmap 2035', 'mineral security india'],
+  faq: [{
+  a: 'Not reserves — processing. China controls an estimated 60–90% of global midstream separation, refining and magnet-making capacity, and India has almost none. Securing mines abroad does little if the refined material and magnets still come from a single country.',
+  q: 'What is India\'s biggest critical-minerals vulnerability?'
+}, {
+  a: 'A Government of India programme approved in January 2025 with a ₹16,300 crore outlay (plus an expected ~₹18,000 crore of PSU and other investment) spanning exploration, overseas acquisition, processing and recycling of critical minerals across the value chain.',
+  q: 'What is the National Critical Mineral Mission?'
+}, {
+  a: 'Through the National Critical Mineral Mission, the ₹1,500 crore Critical Mineral Recycling Incentive Scheme (September 2025), rare-earth magnet incentives and dedicated rare-earth corridors. The report sets out a three-phase roadmap to 2035 to build refining and alloy-conversion capacity.',
+  q: 'How does India plan to close the midstream processing gap?'
+}, {
+  a: 'Electric vehicles, defence and net-zero energy. EV retail penetration crossed 11% in mid-2026, renewable capacity reached ~150 GW solar and ~56 GW wind, and the FY2026-27 defence budget rose to ₹7.85 lakh crore — each pulling on lithium, cobalt, nickel and rare earths India largely imports.',
+  q: 'Which sectors drive India\'s critical-minerals demand?'
+}, {
+  a: 'A three-phase 2026–2035 plan sequencing policy and fiscal architecture, midstream processing and refining capacity, a circular-economy and recycling layer, and downstream integration — prioritised through a vulnerability matrix that ranks which minerals and sectors to act on first.',
+  q: 'What does the strategic roadmap recommend?'
+}],
+  sources: ['https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2097309&lang=2&reg=48', 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2163454&lang=2&reg=3', 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221612&lang=1&reg=3'],
+  dateModified: '2026-07-18',
+  seo: {
+  entities: ['National Critical Mineral Mission', 'critical minerals', 'rare earths', 'lithium', 'midstream processing', 'NdFeB magnets', 'critical minerals recycling'],
+  aiSummary: 'India has secured access to critical minerals but not the capability to process them. This roadmap maps India\'s dependency across upstream, midstream and downstream, quantifies it through a Critical Mineral Vulnerability Matrix, reads the National Critical Mineral Mission (₹16,300 crore) and the ₹1,500 crore recycling scheme against the midstream gap (China 60–90% of processing), and sets out a three-phase strategic roadmap to 2035.',
+  metaTitle: 'India Critical Minerals Strategy & Roadmap 2026–2035',
+  schemaType: 'Report',
+  focusKeyword: 'india critical minerals strategy',
+  metaDescription: 'India imports most of its critical minerals and nearly all midstream processing. A strategic roadmap for 2026–2035 — the vulnerability matrix, the refining and magnet gap, the National Critical Mineral Mission, recycling, and a three-phase plan.'
+}
+}, {
   slug: 'semicon-2-0-opportunity-map',
   title: 'The Semicon 2.0 Opportunity Map',
   subtitle: 'India funds the fab — but 65% of semiconductor value, and 78% of the margin, sits in the eight upstream streams it still imports. A stream-by-stream map of the Rs 45,500 crore serviceable opportunity beyond fabrication — materials, chemicals, equipment, precision manufacturing, packaging, testing, automation and industrial software — ranked and sorted into three capital-allocation tiers.',
@@ -300,8 +396,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 180,
-  cover: '/covers/semicon-2-0-opportunity-map.jpg',
-  previewObject: 'reports-free/semicon 2.0 opportunity map - free.pdf',
+  cover: 'https://library.techadyant.com/covers/semicon%202.0%20opportunity%20map.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/semicon%202.0%20opportunity%20map%20-%20free.pdf',
   previewPages: 25,
   keywords: ['india semiconductor mission 2.0', 'semicon 2.0', 'india semiconductor opportunity', 'semiconductor materials india', 'semiconductor equipment india', 'photoresist india', 'specialty gases semiconductor india', 'advanced packaging OSAT india', 'semiconductor supply chain india', 'ISM 2.0 outlay', 'india chip ecosystem investment', 'semiconductor value chain india'],
   faq: [{
@@ -348,8 +444,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 172,
-  cover: '/covers/the-sme-playbook-for-indias-drone-economy.jpg',
-  previewObject: 'reports-free/SME-Playbook-Indias-Drone-Economy-Free.pdf',
+  cover: 'https://library.techadyant.com/covers/SME%20Drone%20Playbook.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/SME-Playbook-Indias-Drone-Economy-Free.pdf',
   previewPages: 16,
   keywords: ['india drone economy investment', 'drone business opportunity india', 'drone MRO business india', 'drone pilot training business india', 'drone inspection services india', 'drone software startup india', 'drone component manufacturing india', 'drone PLI scheme india', 'SME drone business india', 'how to start a drone business india', 'drone fleet operations india', 'drone investment 50 lakh to 5 crore'],
   faq: [{
@@ -395,8 +491,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 192,
-  cover: '/covers/india-industrial-water-opportunity-map.jpg',
-  previewObject: 'reports-free/India-Industrial-Water-Opportunity-Map - Free.pdf',
+  cover: 'https://library.techadyant.com/covers/India-Industrial-Water-Opportunity-Map.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India-Industrial-Water-Opportunity-Map%20-%20Free.pdf',
   previewPages: 15,
   keywords: ['india industrial water market', 'industrial water treatment india', 'zero liquid discharge india', 'ultrapure water semiconductor india', 'india wastewater treatment market', 'water reuse policy india', 'ZLD market india 2030', 'industrial water opportunity india', 'data centre water consumption india', 'green hydrogen water india', 'india water infrastructure investment', 'VA Tech Wabag Ion Exchange Thermax'],
   faq: [{
@@ -470,8 +566,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 124,
-  cover: '/covers/india-cargo-drone-market.jpg',
-  previewObject: 'reports-free/India-Cargo-Drone-Market-Free-Edition.pdf',
+  cover: 'https://library.techadyant.com/covers/indian-cargo-drone-civil-market-intellience.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India-Cargo-Drone-Market-Free-Edition.pdf',
   previewPages: 14,
   keywords: ['india cargo drone market', 'cargo drone demand forecast india', 'india drone logistics market 2035', 'BVLOS cargo drone india', 'drone delivery healthcare india', 'last-mile drone delivery india', 'cargo drone adoption readiness index', 'india drone logistics opportunity', 'UTM SaaS india', 'drone MRO india', 'medical drone delivery india', 'india cargo drone fleet forecast'],
   faq: [{
@@ -517,8 +613,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 115,
-  cover: '/covers/india-loitering-munitions-market.jpg',
-  previewObject: 'reports-free/India-Loitering-Munitions-Market-Free-Edition.pdf',
+  cover: 'https://library.techadyant.com/covers/India%27s-loitering-munition-market-intelligence.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India-Loitering-Munitions-Market-Free-Edition.pdf',
   previewPages: 14,
   keywords: ['india loitering munitions market', 'loitering munition manufacturers india', 'kamikaze drone india', 'Nagastra loitering munition', 'SkyStriker India', 'ALS-50 Tata', 'India drone warfare procurement', 'loitering munition subsystem imports', 'rare earth magnets drones india', 'Operation Sindoor drone procurement', 'India defence budget 2026 drones', 'attritable precision munitions'],
   faq: [{
@@ -564,8 +660,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 135,
-  cover: 'https://lkqojucjkpxhcngtstfy.supabase.co/storage/v1/object/public/covers/beyond-quantum-computing-1782909148721.jpg',
-  previewObject: 'reports-free/beyond-quantum-computing-free.pdf',
+  cover: 'https://library.techadyant.com/covers/beyond-quantum-computing-1782909148721.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/beyond-quantum-computing-free.pdf',
   previewPages: 15,
   keywords: ['India quantum ecosystem', 'National Quantum Mission', 'QKD India', 'quantum sensing India', 'post-quantum cryptography', 'quantum hardware supply chain', 'QpiAI', 'QNu Labs', 'cryogenics India', 'quantum opportunity India'],
   faq: [{
@@ -606,8 +702,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: true,
   pages: 172,
-  cover: '/covers/indias-unmanned-warfare-transformation.jpg',
-  previewObject: 'reports-free/Unmanned-Warfare-Free-Edition.pdf',
+  cover: 'https://library.techadyant.com/covers/indias-unmanned-warfare-transformation.png',
+  previewObject: 'https://library.techadyant.com/free%20reports/Unmanned-Warfare-Free-Edition.pdf',
   previewPages: 20,
   keywords: ['India unmanned warfare', 'Indian Army drone roadmap', 'loitering munitions India', 'counter-UAS India', 'drone subsystem opportunity', 'defence electronics India', 'rare-earth magnets drones', 'flight-control silicon India', 'India drone market 2035', 'attritable warfare', 'autonomous systems India', 'drone investment opportunity India'],
   faq: [{
@@ -653,8 +749,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 130,
-  cover: '/covers/Drone-Electronics-Flight-Controllers.jpg',
-  previewObject: 'reports-free/Who-Controls-Indias-Drones-Free-Edition.pdf',
+  cover: 'https://library.techadyant.com/covers/Drone-Electronics-Flight-Controllers.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Who-Controls-Indias-Drones-Free-Edition.pdf',
   previewPages: 14,
   keywords: ['who controls India’s drones', 'India flight controller', 'drone autonomy India', 'flight controller import dependence China', 'GPS-denied navigation', 'electronic warfare drones India', 'drone PLI scheme 40% localisation', 'indigenous flight controller', 'Zuppa Tsalla ideaForge', 'RISC-V flight controller', 'counter-UAS India', 'drone control stack', 'MEMS IMU India'],
   faq: [{
@@ -700,8 +796,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 151,
-  cover: '/covers/the-end-of-the-application-era.jpg',
-  previewObject: 'reports-free/The-End-of-the-Application-Era.pdf',
+  cover: 'https://library.techadyant.com/covers/the%20end%20of%20application%20era.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/The-End-of-the-Application-Era.pdf',
   previewPages: 151,
   keywords: ['end of the application era', 'agentic AI operating system', 'post-application stack', 'AIMS framework', 'agent-native capture index', 'future of computing', 'AI operating system', 'agent infrastructure', 'India AI sovereignty', 'sovereign compute India', 'advanced packaging chokepoint', 'operating system redesign AI'],
   faq: [{
@@ -747,8 +843,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 143,
-  cover: '/covers/india-drone-sensors-payloads-imaging-market.jpg',
-  previewObject: 'reports-free/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
+  cover: 'https://library.techadyant.com/covers/India-Drone-Sensors-Payloads-Imaging-Market.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
   previewPages: 6,
   keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
   faq: [{
@@ -822,8 +918,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 196,
-  cover: '/covers/india-drone-propulsion-opportunity.jpg',
-  previewObject: 'reports-free/Indias-Drone-Propulsion-Opportunity-Free-Edition.pdf',
+  cover: 'https://library.techadyant.com/covers/drone-propulsion-opportunity.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Indias-Drone-Propulsion-Opportunity-Free-Edition.pdf',
   previewPages: 14,
   keywords: ['India drone propulsion', 'drone motor manufacturing India', 'BLDC drone motors India', 'drone ESC India', 'electronic speed controller India', 'drone propulsion market India', 'rare-earth magnet drones India', 'REPM scheme', 'drone propeller manufacturing', 'micro turbojet India', 'drone propulsion supply chain', 'Make in India drones', 'defence drone procurement India', 'drone propulsion investment'],
   faq: [{
@@ -869,8 +965,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 145,
-  cover: '/covers/indias-drone-battery-ecosystem.jpg',
-  previewObject: 'reports-free/India-Drone-Battery-Ecosystem-Free-Edition.pdf',
+  cover: 'https://library.techadyant.com/covers/drone%20battery%20ecosystem.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India-Drone-Battery-Ecosystem-Free-Edition.pdf',
   previewPages: 14,
   keywords: ['India drone batteries', 'drone battery supply chain', 'China battery dependency', 'high-C cells drones', 'BMS India', 'battery sovereignty India', 'lithium-ion imports India', 'sodium-ion drones', 'battery recycling India', 'drone certification India', 'Drone Battery Sovereignty Index', 'India drone battery market'],
   faq: [{
@@ -916,8 +1012,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 150,
-  cover: '/covers/who-builds-indias-drones.jpg',
-  previewObject: 'reports-free/Who-Builds-Indias-Drones-Free-Edition.pdf',
+  cover: 'https://library.techadyant.com/covers/who-build-india%27s%20drones.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Who-Builds-Indias-Drones-Free-Edition.pdf',
   previewPages: 6,
   keywords: ['who builds India’s drones', 'India drone manufacturing', 'India drone supply chain', 'drone component import dependence', 'rare-earth magnets drones India', 'lithium-ion cells drones', 'flight controller silicon India', 'counter-UAS India', 'drone localization India', 'Make in India drones', 'drone opportunity India', 'selective sovereignty drones'],
   faq: [{
@@ -963,8 +1059,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 144,
-  cover: '/covers/the-opportunity-beyond-the-fab.jpg?v=2',
-  previewObject: 'reports-free/Opportunity-Beyond-Fab-Executive-Brief.pdf',
+  cover: 'https://library.techadyant.com/covers/the-opportunity-beyond-fab.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Opportunity-Beyond-Fab-Executive-Brief.pdf',
   previewPages: 20,
   keywords: ['India semiconductor opportunity', 'startup opportunities India semiconductors', 'MSME semiconductor supply chain', 'OSAT India', 'advanced packaging India', 'RISC-V India', 'chip design services export', 'technology sovereignty India', 'India Semiconductor Mission opportunity', 'beyond the fab'],
   faq: [{
@@ -1004,8 +1100,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 180,
-  cover: '/covers/the-sap-question.jpg',
-  previewObject: 'reports-free/the-sap-questions.pdf',
+  cover: 'https://library.techadyant.com/covers/the-sap-question.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/the-sap-questions.pdf',
   previewPages: 180,
   keywords: ['SAP India', 'enterprise software sovereignty', 'India ERP dependency', 'foreign software dependence India', 'SAP ECC 2027 deadline', 'sovereign software India', 'Enterprise Dependency Index', 'India technology sovereignty', 'Zoho ERP', 'digital public infrastructure'],
   faq: [{
@@ -1031,48 +1127,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India\'s public and private core systems run on foreign enterprise software. The SAP Question maps the dependence, the risks and the sovereign ERP opportunity. Free full report.'
 }
 }, {
-  slug: 'india-battlefield-automation-gap',
-  title: 'India’s Battlefield Automation Gap',
-  subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
-  domain: 'Defence & Dual-Use',
-  edition: 'Edition 01 · Strategic Intelligence · v1.0',
-  published: '2026-05-30',
-  publishedLabel: 'May 2026',
-  readingTime: '~ 2h 30m read',
-  status: 'published',
-  summary: 'Battlefield automation is an industrial-capability race, not a procurement race. Using a proprietary Battlefield Automation Readiness Index (BARI), this report scores India against China and the United States across eight industrial layers — sensors, rugged electronics, batteries, tactical communications, autonomy software, testing and manufacturing — maps where the gap concentrates, reads it sector by sector, and identifies the startup, SME and policy opportunities that would close it. Published free, given its relevance to government-led initiatives.',
-  accent: '#FB923C',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 130,
-  cover: '/covers/india-battlefield-automation-gap.jpg',
-  previewObject: '',
-  previewPages: undefined,
-  keywords: ['battlefield automation India', 'military drones India', 'counter-drone systems India', 'loitering munitions India', 'Indian Army drones', 'defence autonomy India', 'unmanned systems India', 'counter-UAS India', 'drone warfare India', 'India defence technology'],
-  faq: [{
-  a: 'It is the distance between how modern battles are now fought — massed low-cost drones, loitering munitions, electronic warfare and increasingly autonomous systems — and what India\'s forces can field and sustain at scale from domestic industry. The report maps that gap layer by layer.',
-  q: 'What is India\'s battlefield automation gap?'
-}, {
-  a: 'Ukraine and Operation Sindoor showed cheap unmanned systems deciding engagements against far more expensive platforms. India\'s post-Sindoor emergency procurement pushed a large share of field-formation budgets into drones, counter-drone and loitering-munition programmes, making automation the fastest-moving line in Indian defence spending.',
-  q: 'Why do drones matter so much for India\'s defence?'
-}, {
-  a: 'India has credible drone integrators — ideaForge, NewSpace Research, Solar Industries and others — but the component base beneath them (flight controllers, motors and magnets, battery cells, sensors, RF links) remains heavily import-dependent, which is the vulnerability the report examines.',
-  q: 'Does India build its own military drones?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['Indian Army', 'drones', 'loitering munitions', 'counter-UAS', 'Operation Sindoor', 'electronic warfare'],
-  aiSummary: 'Assesses India\'s readiness for automated warfare: the doctrine shift to massed drones and loitering munitions, post-Operation Sindoor procurement, the counter-UAS layer, and the import-dependent component base beneath India\'s drone integrators. Free to read.',
-  metaTitle: 'India\'s Battlefield Automation Gap: Drones, Counter-UAS, Autonomy',
-  schemaType: 'Report',
-  focusKeyword: 'battlefield automation India',
-  metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
-}
-}, {
   slug: 'who-actually-captures-the-india-us-minerals-alliance',
   title: 'Who Actually Captures the India–US Minerals Alliance?',
   subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
@@ -1090,8 +1144,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 125,
-  cover: '/covers/who-actually-captures-the-india-us-minerals-alliance.jpg',
-  previewObject: 'reports-free/who-actually-captures-the-india-us-minerals-alliance-CONDENSED.pdf',
+  cover: 'https://library.techadyant.com/covers/who-actually-captures-the-india-us-minerals-alliance.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/who-actually-captures-the-india-us-minerals-alliance-free.pdf',
   previewPages: 14,
   keywords: ['India US critical minerals', 'critical minerals India', 'rare earth elements India', 'National Critical Mineral Mission', 'rare earth magnets India', 'mineral supply chain India', 'India mineral security', 'critical minerals partnership', 'rare earth processing India', 'lithium supply chain India'],
   faq: [{
@@ -1115,6 +1169,48 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
 }
 }, {
+  slug: 'india-battlefield-automation-gap',
+  title: 'India’s Battlefield Automation Gap',
+  subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
+  domain: 'Defence & Dual-Use',
+  edition: 'Edition 01 · Strategic Intelligence · v1.0',
+  published: '2026-05-30',
+  publishedLabel: 'May 2026',
+  readingTime: '~ 2h 30m read',
+  status: 'published',
+  summary: 'Battlefield automation is an industrial-capability race, not a procurement race. Using a proprietary Battlefield Automation Readiness Index (BARI), this report scores India against China and the United States across eight industrial layers — sensors, rugged electronics, batteries, tactical communications, autonomy software, testing and manufacturing — maps where the gap concentrates, reads it sector by sector, and identifies the startup, SME and policy opportunities that would close it. Published free, given its relevance to government-led initiatives.',
+  accent: '#FB923C',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 130,
+  cover: 'https://library.techadyant.com/covers/India%27s%20Battlefield%20Automation%20Gap.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/india-battlefield-automation-gap-free.pdf',
+  previewPages: undefined,
+  keywords: ['battlefield automation India', 'military drones India', 'counter-drone systems India', 'loitering munitions India', 'Indian Army drones', 'defence autonomy India', 'unmanned systems India', 'counter-UAS India', 'drone warfare India', 'India defence technology'],
+  faq: [{
+  a: 'It is the distance between how modern battles are now fought — massed low-cost drones, loitering munitions, electronic warfare and increasingly autonomous systems — and what India\'s forces can field and sustain at scale from domestic industry. The report maps that gap layer by layer.',
+  q: 'What is India\'s battlefield automation gap?'
+}, {
+  a: 'Ukraine and Operation Sindoor showed cheap unmanned systems deciding engagements against far more expensive platforms. India\'s post-Sindoor emergency procurement pushed a large share of field-formation budgets into drones, counter-drone and loitering-munition programmes, making automation the fastest-moving line in Indian defence spending.',
+  q: 'Why do drones matter so much for India\'s defence?'
+}, {
+  a: 'India has credible drone integrators — ideaForge, NewSpace Research, Solar Industries and others — but the component base beneath them (flight controllers, motors and magnets, battery cells, sensors, RF links) remains heavily import-dependent, which is the vulnerability the report examines.',
+  q: 'Does India build its own military drones?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['Indian Army', 'drones', 'loitering munitions', 'counter-UAS', 'Operation Sindoor', 'electronic warfare'],
+  aiSummary: 'Assesses India\'s readiness for automated warfare: the doctrine shift to massed drones and loitering munitions, post-Operation Sindoor procurement, the counter-UAS layer, and the import-dependent component base beneath India\'s drone integrators. Free to read.',
+  metaTitle: 'India\'s Battlefield Automation Gap: Drones, Counter-UAS, Autonomy',
+  schemaType: 'Report',
+  focusKeyword: 'battlefield automation India',
+  metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
+}
+}, {
   slug: 'india-ai-industrial-transition-2026-2035',
   title: 'India’s AI Industrial Transition and Infrastructure Transformation',
   subtitle: 'A strategic-intelligence map of compute, semiconductors, power, water, regional corridors, and the second-order industrial reshaping of India',
@@ -1132,8 +1228,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: undefined,
-  cover: '/covers/india-ai-industrial-transition-2026-2035.jpg',
-  previewObject: '',
+  cover: 'https://library.techadyant.com/covers/India%E2%80%99s%20AI%20Industrial%20Transition%20and%20Infrastructure%20Transformation%20%282026%E2%80%932035%29.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India-ai-industrial-transition-2026-2035.pdf',
   previewPages: undefined,
   keywords: ['India AI infrastructure', 'India data centre capacity', 'AI data centres in India', 'IndiaAI Mission', 'India GPU imports', 'India Semiconductor Mission', 'AI power demand India', 'data centre power consumption India', 'India AI corridors', 'hyperscaler investment India', 'India compute build-out', 'AI infrastructure report India'],
   faq: [{
@@ -1180,8 +1276,8 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 28,
-  cover: '/covers/india-fab-ecosystem.jpg',
-  previewObject: 'reports-free/Who-Really-Benefits-from-Indias-Fab-Ecosystem-Free-Edition.pdf',
+  cover: 'https://library.techadyant.com/covers/india-fab-ecosystem.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/india-fab-ecosystem-free.pdf',
   previewPages: 12,
   keywords: ['India Semiconductor Mission', 'semiconductor fabs in India', 'India chip manufacturing', 'Dholera semiconductor fab', 'Tata Electronics fab', 'Micron Sanand', 'OSAT India', 'ATMP India', 'semiconductor investment India', 'India fab ecosystem'],
   faq: [{

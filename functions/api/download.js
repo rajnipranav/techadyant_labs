@@ -1,54 +1,90 @@
 /**
- * Secure report PDF delivery — Cloudflare Pages Function.
+ * Secure report delivery from Cloudflare R2 — Pages Function.
  *
- * GET /api/download?report=<slug>
- *   - free reports: served to anyone, no registration.
- *   - paid reports: require Authorization: Bearer <supabase token> AND a
- *     verified entitlement row. Fail-closed otherwise.
+ * GET /api/download?report=<slug>[&asset=deck]
+ *   Auth + entitlement checks stay on Supabase (Postgres) — unchanged.
+ *   File bytes are served from R2:
+ *     - Paid → a short-lived R2 presigned S3 URL is returned as { url, filename };
+ *              the browser navigates to it. Same contract as before → no frontend change.
+ *     - Free → the public R2 custom-domain URL. (In practice free reports and paid
+ *              free-previews are served directly from cms_reports.preview_object on the
+ *              report page and do NOT route through here; this path is a safe fallback.)
  *
- * Returns JSON `{ url, filename }` pointing at a 60-second Supabase Storage
- * signed URL. Frontend navigates the browser to it; Supabase serves the file
- * with Content-Disposition: attachment (forced via ?download=<name>).
+ * Env (Pages → Settings → Environment variables):
+ *   SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY   — auth + entitlements (unchanged)
+ *   R2_S3_ENDPOINT     — https://<accountid>.r2.cloudflarestorage.com
+ *   R2_ACCESS_KEY_ID   — R2 S3 API token (Object Read is enough)
+ *   R2_SECRET_ACCESS_KEY
+ *   R2_BUCKET          — private bucket holding paid PDFs/decks, e.g. techadyant-reports
+ *   R2_PUBLIC_BASE     — public bucket custom domain, e.g. https://library.techadyant.com
+ *   R2_FREE_PREFIX     — (optional) folder prefix for free PDFs in the public bucket.
+ *                        Defaults to "free reports". Set to "" for bucket root.
  *
  * Diagnostics:
- *   ?probe=1        → env presence + code version, no outbound calls
- *   ?probe=user     → auth lookup only, returns user id or error
- *   ?probe=ent      → auth + entitlement check, returns boolean
- *   ?probe=storage  → bypass auth/ent, do sign call only (requires &report=)
- *   ?trace=1        → on the real path, return timings for each stage
+ *   ?probe=1     → env presence + code version, no outbound calls
+ *   ?probe=key   → show the R2 object key + fully-encoded key for &report=, no signing
  */
-import { REPORTS, json, getUserFromRequest, hasEntitlement } from './_shared.js';
+import { AwsClient } from 'aws4fetch';
+import { REPORTS, json } from './_shared.js';
 
-const CODE_VERSION = 'download-v4-timeouts';
-const FETCH_TIMEOUT_MS = 8000;
+const CODE_VERSION = 'download-r2-v1';
+const TTL = 90; // presigned-URL lifetime, seconds
 
-async function fetchWithTimeout(label, url, init = {}) {
-  const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
-  const t0 = Date.now();
-  try {
-    const r = await fetch(url, { ...init, signal: ctrl.signal });
-    return { ok: true, res: r, ms: Date.now() - t0, label };
-  } catch (e) {
-    return {
-      ok: false,
-      label,
-      ms: Date.now() - t0,
-      timeout: e && e.name === 'AbortError',
-      message: e && e.message ? e.message : String(e),
-    };
-  } finally {
-    clearTimeout(t);
-  }
+/**
+ * RFC 3986 percent-encoding of an S3 object key, preserving "/" between path
+ * segments. This matches the canonical-URI encoding R2/S3 use to validate a
+ * SigV4 presigned request, so keys containing spaces or apostrophes (e.g.
+ * "who-build-india's drones.pdf") sign and resolve correctly. encodeURIComponent
+ * leaves !'()* unencoded, so we finish the job to be fully RFC 3986 compliant.
+ */
+function encodeKey(key) {
+  return String(key)
+    .split('/')
+    .map((seg) =>
+      encodeURIComponent(seg).replace(
+        /[!'()*]/g,
+        (c) => '%' + c.charCodeAt(0).toString(16).toUpperCase()
+      )
+    )
+    .join('/');
 }
 
-export async function onRequestGet(context) {
-  const { request, env } = context;
+async function verifyEntitled(env, token, slug) {
+  const ur = await fetch(`${env.SUPABASE_URL}/auth/v1/user`, {
+    headers: { apikey: env.SUPABASE_SERVICE_ROLE_KEY, Authorization: `Bearer ${token}` },
+  });
+  if (!ur.ok) return { ok: false, code: 401, error: 'auth_invalid' };
+  const user = await ur.json().catch(() => null);
+  if (!user || !user.id) return { ok: false, code: 401, error: 'auth_no_user' };
+  const er = await fetch(
+    `${env.SUPABASE_URL}/rest/v1/entitlements?select=id&user_id=eq.${encodeURIComponent(user.id)}&report_slug=eq.${encodeURIComponent(slug)}&limit=1`,
+    { headers: { apikey: env.SUPABASE_SERVICE_ROLE_KEY, Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}` } }
+  );
+  if (!er.ok) return { ok: false, code: 502, error: 'entitlement_fetch_failed' };
+  const rows = await er.json().catch(() => []);
+  if (!Array.isArray(rows) || rows.length === 0) return { ok: false, code: 402, error: 'payment_required' };
+  return { ok: true };
+}
+
+async function presign(env, objectKey, filename) {
+  const client = new AwsClient({
+    accessKeyId: env.R2_ACCESS_KEY_ID,
+    secretAccessKey: env.R2_SECRET_ACCESS_KEY,
+    service: 's3',
+    region: 'auto',
+  });
+  const endpoint = env.R2_S3_ENDPOINT.replace(/\/$/, '');
+  const u = new URL(`${endpoint}/${env.R2_BUCKET}/${encodeKey(objectKey)}`);
+  u.searchParams.set('X-Amz-Expires', String(TTL));
+  u.searchParams.set('response-content-disposition', `attachment; filename="${filename.replace(/"/g, '')}"`);
+  const signed = await client.sign(u.toString(), { method: 'GET', aws: { signQuery: true } });
+  return signed.url;
+}
+
+export async function onRequestGet({ request, env }) {
   try {
     const url = new URL(request.url);
     const probe = url.searchParams.get('probe');
-    const trace = url.searchParams.get('trace') === '1';
-    const trail = [];
 
     if (probe === '1') {
       return json(200, {
@@ -57,163 +93,57 @@ export async function onRequestGet(context) {
         have: {
           SUPABASE_URL: !!env.SUPABASE_URL,
           SUPABASE_SERVICE_ROLE_KEY: !!env.SUPABASE_SERVICE_ROLE_KEY,
-          REPORTS_BUCKET: !!env.REPORTS_BUCKET,
-          REPORTS_BUCKET_value: env.REPORTS_BUCKET || null,
+          R2_S3_ENDPOINT: !!env.R2_S3_ENDPOINT,
+          R2_ACCESS_KEY_ID: !!env.R2_ACCESS_KEY_ID,
+          R2_SECRET_ACCESS_KEY: !!env.R2_SECRET_ACCESS_KEY,
+          R2_BUCKET: env.R2_BUCKET || null,
+          R2_PUBLIC_BASE: env.R2_PUBLIC_BASE || null,
         },
         knownReports: Object.keys(REPORTS),
       });
     }
 
-    if (probe === 'user') {
-      const r = await fetchWithTimeout('auth_user', `${env.SUPABASE_URL}/auth/v1/user`, {
-        headers: {
-          apikey: env.SUPABASE_SERVICE_ROLE_KEY,
-          Authorization: request.headers.get('authorization') || '',
-        },
-      });
-      if (!r.ok) return json(502, { error: 'probe_user_fetch_failed', ...r });
-      let body = null;
-      try { body = await r.res.json(); } catch {}
-      return json(200, { codeVersion: CODE_VERSION, status: r.res.status, ms: r.ms, body });
-    }
-
     const slug = url.searchParams.get('report');
-
-    if (probe === 'storage') {
-      const entry = slug && REPORTS[slug];
-      if (!entry) return json(404, { error: 'not_found' });
-      const endpoint = `${env.SUPABASE_URL}/storage/v1/object/sign/${env.REPORTS_BUCKET}/${encodeURIComponent(entry.object)}`;
-      const r = await fetchWithTimeout('sign', endpoint, {
-        method: 'POST',
-        headers: {
-          apikey: env.SUPABASE_SERVICE_ROLE_KEY,
-          Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
-          'content-type': 'application/json',
-        },
-        body: JSON.stringify({ expiresIn: 60 }),
-      });
-      if (!r.ok) return json(502, { error: 'probe_storage_fetch_failed', ...r, endpoint });
-      let body = null; let raw = '';
-      try { raw = await r.res.text(); body = JSON.parse(raw); } catch {}
-      return json(200, { codeVersion: CODE_VERSION, status: r.res.status, ms: r.ms, body, raw: body ? undefined : raw.slice(0, 300), endpoint });
-    }
-
     const entry = slug && REPORTS[slug];
     if (!entry) return json(404, { error: 'not_found', codeVersion: CODE_VERSION });
 
-    // --- real path ---
+    if (probe === 'key') {
+      const asset = url.searchParams.get('asset');
+      const useDeck = asset === 'deck' && entry.deckObject;
+      const objectKey = useDeck ? entry.deckObject : entry.object;
+      return json(200, { codeVersion: CODE_VERSION, access: entry.access, objectKey, encoded: encodeKey(objectKey) });
+    }
+
+    // ── Paid: auth + entitlement (Supabase), then presigned R2 URL ──
     if (entry.access === 'paid') {
-      const t0 = Date.now();
       const auth = request.headers.get('authorization') || '';
       const token = auth.startsWith('Bearer ') ? auth.slice(7) : null;
       if (!token) return json(401, { error: 'auth_required', message: 'Please sign in to download this report.' });
 
-      const ur = await fetchWithTimeout('auth_user', `${env.SUPABASE_URL}/auth/v1/user`, {
-        headers: { apikey: env.SUPABASE_SERVICE_ROLE_KEY, Authorization: `Bearer ${token}` },
-      });
-      trail.push({ stage: 'auth_user', ms: ur.ms, ok: ur.ok, timeout: ur.timeout, status: ur.res?.status });
-      if (!ur.ok) return json(502, { error: 'auth_fetch_failed', trail });
-      if (!ur.res.ok) return json(401, { error: 'auth_invalid', status: ur.res.status, trail });
-      let user;
-      try { user = await ur.res.json(); } catch { return json(502, { error: 'auth_bad_json', trail }); }
-      if (!user || !user.id) return json(401, { error: 'auth_no_user', trail });
+      const chk = await verifyEntitled(env, token, slug);
+      if (!chk.ok) return json(chk.code, { error: chk.error });
 
-      const er = await fetchWithTimeout('entitlement',
-        `${env.SUPABASE_URL}/rest/v1/entitlements?select=id&user_id=eq.${encodeURIComponent(user.id)}&report_slug=eq.${encodeURIComponent(slug)}&limit=1`,
-        { headers: { apikey: env.SUPABASE_SERVICE_ROLE_KEY, Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}` } });
-      trail.push({ stage: 'entitlement', ms: er.ms, ok: er.ok, timeout: er.timeout, status: er.res?.status });
-      if (!er.ok) return json(502, { error: 'entitlement_fetch_failed', trail });
-      let rows = [];
-      try { rows = await er.res.json(); } catch {}
-      if (!Array.isArray(rows) || rows.length === 0) return json(402, { error: 'payment_required', trail });
-
-      // optional bundled asset (e.g. investor deck) — same entitlement unlocks it
       const asset = url.searchParams.get('asset');
       const useDeck = asset === 'deck' && entry.deckObject;
-      const signObject = useDeck ? entry.deckObject : entry.object;
-      const dlFilename = useDeck ? (entry.deckFilename || `${slug}.pptx`) : (entry.filename || `${slug}.pdf`);
+      const objectKey = useDeck ? entry.deckObject : entry.object;
+      const filename = useDeck ? (entry.deckFilename || `${slug}.pptx`) : (entry.filename || `${slug}.pdf`);
 
-      // sign
-      const signEndpoint = `${env.SUPABASE_URL}/storage/v1/object/sign/${env.REPORTS_BUCKET}/${encodeURIComponent(signObject)}`;
-      const sr = await fetchWithTimeout('sign', signEndpoint, {
-        method: 'POST',
-        headers: {
-          apikey: env.SUPABASE_SERVICE_ROLE_KEY,
-          Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
-          'content-type': 'application/json',
-        },
-        body: JSON.stringify({ expiresIn: 60 }),
-      });
-      trail.push({ stage: 'sign', ms: sr.ms, ok: sr.ok, timeout: sr.timeout, status: sr.res?.status });
-      if (!sr.ok) return json(502, { error: 'sign_fetch_failed', trail });
-      if (!sr.res.ok) {
-        let detail = ''; try { detail = (await sr.res.text()).slice(0, 300); } catch {}
-        return json(502, { error: 'sign_error', status: sr.res.status, detail, trail });
+      if (!env.R2_S3_ENDPOINT || !env.R2_BUCKET || !env.R2_ACCESS_KEY_ID || !env.R2_SECRET_ACCESS_KEY) {
+        return json(503, { error: 'storage_unconfigured', codeVersion: CODE_VERSION });
       }
-      let signed; try { signed = await sr.res.json(); } catch { return json(502, { error: 'sign_bad_json', trail }); }
-      const path = signed.signedURL || signed.signedUrl || signed.signed_url;
-      if (!path) return json(502, { error: 'sign_no_url', body: signed, trail });
-
-      const filename = dlFilename;
-      const base = `${env.SUPABASE_URL}/storage/v1${path}`;
-      const sep = base.includes('?') ? '&' : '?';
-      const finalUrl = `${base}${sep}download=${encodeURIComponent(filename)}`;
-      const totalMs = Date.now() - t0;
-
-      return json(200, trace
-        ? { url: finalUrl, filename, expiresIn: 60, codeVersion: CODE_VERSION, totalMs, trail }
-        : { url: finalUrl, filename, expiresIn: 60, codeVersion: CODE_VERSION });
+      const signedUrl = await presign(env, objectKey, filename);
+      return json(200, { url: signedUrl, filename, expiresIn: TTL, codeVersion: CODE_VERSION });
     }
 
-    // free reports
-    if (!env.SUPABASE_URL) {
-      return json(503, { error: 'storage_unconfigured' });
-    }
-
-    // ── Public-bucket fast path ─────────────────────────────────────────────
-    // For entries marked `publicBucket: true`, the file lives in a Supabase
-    // Storage bucket whose policies allow anonymous reads. We don't need to
-    // sign anything — just return the public object URL. This works without a
-    // SERVICE_ROLE_KEY and never expires.
-    if (entry.publicBucket) {
-      const bucket = entry.bucket || env.REPORTS_BUCKET;
-      if (!bucket) return json(503, { error: 'storage_unconfigured', message: 'No bucket configured.' });
-      const filename = entry.filename || `${slug}.pdf`;
-      const publicUrl =
-        `${env.SUPABASE_URL}/storage/v1/object/public/${bucket}/${encodeURIComponent(entry.object)}` +
-        `?download=${encodeURIComponent(filename)}`;
-      return json(200, { url: publicUrl, filename, codeVersion: CODE_VERSION, public: true });
-    }
-
-    // Otherwise (legacy free path) sign a short-lived URL against the private bucket.
-    if (!env.SUPABASE_SERVICE_ROLE_KEY || !(entry.bucket || env.REPORTS_BUCKET)) {
-      return json(503, { error: 'storage_unconfigured' });
-    }
-    const bucket = entry.bucket || env.REPORTS_BUCKET;
-    const signEndpoint = `${env.SUPABASE_URL}/storage/v1/object/sign/${bucket}/${encodeURIComponent(entry.object)}`;
-    const sr = await fetchWithTimeout('sign', signEndpoint, {
-      method: 'POST',
-      headers: {
-        apikey: env.SUPABASE_SERVICE_ROLE_KEY,
-        Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
-        'content-type': 'application/json',
-      },
-      body: JSON.stringify({ expiresIn: 60 }),
-    });
-    if (!sr.ok) return json(502, { error: 'sign_fetch_failed', ...sr });
-    if (!sr.res.ok) return json(502, { error: 'sign_error', status: sr.res.status });
-    let signed; try { signed = await sr.res.json(); } catch { return json(502, { error: 'sign_bad_json' }); }
-    const path = signed.signedURL || signed.signedUrl || signed.signed_url;
-    if (!path) return json(502, { error: 'sign_no_url', body: signed });
+    // ── Free: public R2 custom-domain URL (fallback; UI normally uses preview_object) ──
+    if (!env.R2_PUBLIC_BASE) return json(503, { error: 'storage_unconfigured', codeVersion: CODE_VERSION });
     const filename = entry.filename || `${slug}.pdf`;
-    const finalUrl = `${env.SUPABASE_URL}/storage/v1${path}${path.includes('?') ? '&' : '?'}download=${encodeURIComponent(filename)}`;
-    return json(200, { url: finalUrl, filename, expiresIn: 60, codeVersion: CODE_VERSION });
+    const base = env.R2_PUBLIC_BASE.replace(/\/$/, '');
+    const prefix = (env.R2_FREE_PREFIX ?? 'free reports').replace(/^\/|\/$/g, '');
+    const key = prefix ? `${prefix}/${entry.object}` : entry.object;
+    const publicUrl = `${base}/${encodeKey(key)}?download=${encodeURIComponent(filename)}`;
+    return json(200, { url: publicUrl, filename, public: true, codeVersion: CODE_VERSION });
   } catch (e) {
-    return json(500, {
-      error: 'exception',
-      message: e && e.message ? e.message : String(e),
-      stack: e && e.stack ? String(e.stack).slice(0, 800) : undefined,
-      codeVersion: CODE_VERSION,
-    });
+    return json(500, { error: 'exception', message: (e && e.message) || String(e), codeVersion: CODE_VERSION });
   }
 }

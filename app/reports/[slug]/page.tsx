@@ -183,7 +183,9 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
   const supabaseBase = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://lkqojucjkpxhcngtstfy.supabase.co';
   const fullPdfUrl =
     meta.access === 'free' && meta.preview_object && meta.preview_object.includes('/')
-      ? `${supabaseBase}/storage/v1/object/public/${meta.preview_object}`
+      ? (meta.preview_object.startsWith('http')
+          ? meta.preview_object
+          : `${supabaseBase}/storage/v1/object/public/${meta.preview_object}`)
       : null;
 
   // "What's inside" — derived from the report's own fields, plus any custom
