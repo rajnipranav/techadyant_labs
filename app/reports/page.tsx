@@ -40,7 +40,10 @@ export default async function ReportsIndex() {
   let reports: any[] = staticReports;
   try {
     const cms = await getReportsMeta();
-    if (cms.length) reports = cms;
+    if (cms.length) {
+      const cmsSlugs = new Set(cms.map((r) => r.slug));
+      reports = [...cms, ...staticReports.filter((r) => !cmsSlugs.has(r.slug))];
+    }
   } catch {}
 
   const published = reports.filter((r) => r.status === 'published');
