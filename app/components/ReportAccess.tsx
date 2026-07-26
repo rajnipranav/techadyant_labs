@@ -17,15 +17,15 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages, 
   const meta = [pages ? `${pages}-page PDF` : null, readingTime, 'Figures & citations included']
     .filter(Boolean).join(' · ');
 
-  // previewObject may be: an absolute URL; a "<bucket>/<path>" reference served from a
-  // Supabase public bucket (built from NEXT_PUBLIC_SUPABASE_URL); or a bare filename
-  // under /public/previews/.
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+  // previewObject may be: an absolute URL; a "<bucket>/<path>" reference served from
+  // the public R2 bucket/library domain; or a bare filename under /public/previews/.
+  const r2Base = process.env.NEXT_PUBLIC_R2_PUBLIC_BASE || 'https://library.techadyant.com';
+  const r2Prefix = (process.env.NEXT_PUBLIC_R2_FREE_PREFIX || 'free reports').replace(/^\/|\/$/g, '');
   const previewHref = previewObject
     ? /^https?:\/\//.test(previewObject)
       ? previewObject
       : previewObject.includes('/')
-        ? `${supabaseUrl}/storage/v1/object/public/${previewObject}`
+        ? `${r2Base}/${r2Prefix ? r2Prefix + '/' : ''}${previewObject}`
         : `/previews/${previewObject}`
     : null;
 

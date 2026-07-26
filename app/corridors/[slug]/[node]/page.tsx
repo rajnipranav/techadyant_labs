@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { corridors, CLASS_COLOR } from '../../data';
 import { deepFor, nodeBySlugs, allCorridorNodePairs, STAGE } from '../../node-data';
+import CorridorGLMap from '../../CorridorGLMap';
+import { corridorFeatures, nodeFeatures } from '../../corridor-geojson';
 import { JsonLd, breadcrumb, faqLd, SITE } from '../../../research/seo';
 
 export function generateStaticParams() {
@@ -119,6 +121,10 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
           </div>
         </section>
       )}
+
+      <section className="wrap">
+        <CorridorGLMap corridors={corridorFeatures()} nodes={nodeFeatures()} focus={slug} focusNode={node} compact />
+      </section>
 
       <section className="wrap-narrow">
         {n.summary.map((p, i) => <p key={i} className="node-para">{p}</p>)}

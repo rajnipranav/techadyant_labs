@@ -11,7 +11,7 @@
  *   - app/reports/content/<slug>.tsx            (optional online reading version)
  *   - app/reports/[slug]/page.tsx               (registry import + entry, if content added)
  *   - public/covers/<slug>.<ext>                (cover image, if uploaded)
- * Supabase PDF uploads are done by you, separately, before using this.
+ * PDF/preview uploads are done with R2; Supabase is only used for auth/entitlements.
  */
 import http from 'node:http';
 import fs from 'node:fs';

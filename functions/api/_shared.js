@@ -67,9 +67,8 @@ export const REPORTS = {
   },
   'the-end-of-the-application-era': {
     access: 'free',
-    bucket: 'reports-free',
     publicBucket: true,
-    object: 'The-End-of-the-Application-Era.pdf',
+    object: 'free reports/The-End-of-the-Application-Era.pdf',
     filename: 'The-End-of-the-Application-Era-Techadyant-Labs.pdf',
     title: 'Who Captures Computing When the Application Disappears?',
   },
@@ -126,7 +125,8 @@ export const REPORTS = {
     access: 'free',
     bucket: 'reports-free',
     publicBucket: true,
-    object: 'India-ai-industrial-transition-2026-2035.pdf',
+        object: 'free reports/India-ai-industrial-transition-2026-2035.pdf',
+
     filename: 'Indias-AI-Industrial-Transition-and-Infrastructure-Transformation-2026-2035-Techadyant-Labs.pdf',
     title: 'India’s AI Industrial Transition and Infrastructure Transformation',
   },
@@ -134,7 +134,8 @@ export const REPORTS = {
     access: 'free',
     bucket: 'reports-free',
     publicBucket: true,
-    object: 'india-battlefield-automation-gap-free.pdf',
+        object: 'free reports/india-battlefield-automation-gap-free.pdf',
+
     filename: 'Indias-Battlefield-Automation-Gap-Techadyant-Labs.pdf',
     title: 'India’s Battlefield Automation Gap',
   },
@@ -144,6 +145,13 @@ export const REPORTS = {
     object: 'who-actually-captures-the-india-us-minerals-alliance.pdf',
     filename: 'Who-Actually-Captures-the-India-US-Minerals-Alliance-Techadyant-Labs.pdf',
     title: 'Who Actually Captures the India–US Minerals Alliance?',
+  },
+  'dholera-semiconductor-supplier-ecosystem': {
+    access: 'paid',
+    priceInr: 5900,
+    object: 'dholera-semiconductor-supplier-ecosystem.pdf',
+    filename: 'Dholera-Semiconductor-Supplier-Ecosystem-Techadyant-Labs.pdf',
+    title: "India's Semiconductor Supplier Ecosystem: The Dholera Play",
   },
 };
 

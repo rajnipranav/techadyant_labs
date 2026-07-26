@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { CorridorMap } from './CorridorMap';
+import CorridorGLMap from './CorridorGLMap';
+import { corridorFeatures, nodeFeatures } from './corridor-geojson';
 import { corridors, corridorBySlug, CLASS_COLOR, CLASS_LABEL } from './data';
 import { leaderboard, TIER_COLOR } from './corridor-intel';
 import { JsonLd, breadcrumb, SITE } from '../research/seo';
@@ -59,6 +61,14 @@ export default function CorridorsIndex() {
           </div>
         </div>
       </header>
+
+      <section className="wrap">
+        <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: '#C9A84C' }}>Interactive map</div><h2>Explore the corridors geographically</h2></div></div>
+        <p style={{ color: 'var(--text-muted)', fontSize: '14px', maxWidth: '64ch', marginBottom: '16px' }}>
+          The eleven corridors and their anchor nodes on a live map — coloured by readiness tier and node stage. Click any line or node to open its dossier.
+        </p>
+        <CorridorGLMap corridors={corridorFeatures()} nodes={nodeFeatures()} />
+      </section>
 
       <section className="wrap">
         <Link href="/corridors/new-imcs/" className="imc-banner">

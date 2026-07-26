@@ -1,0 +1,30 @@
+{
+  "slug": "dholera-semiconductor-supplier-ecosystem",
+  "title": "India's Semiconductor Supplier Ecosystem: The Dholera Play",
+  "subtitle": "Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.",
+  "domain": "Semiconductor Ecosystems",
+  "edition": "Edition 01",
+  "published": "2026-07-26",
+  "publishedLabel": "July 2026",
+  "summary": "A ground-up supplier ecosystem assessment for Dholera, covering wafer fab equipment, materials, chemicals, packaging, testing and the industrial policy levers needed to move from announcement to output.",
+  "accent": "#F5B544",
+  "status": "published",
+  "access": "paid",
+  "price": 5900,
+  "previewPages": 14,
+  "downloadFilename": "Dholera-Semiconductor-Supplier-Ecosystem-Techadyant-Labs.pdf",
+  "source": {
+    "pdf": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Techadyant_Dholera_Supplier_Ecosystem_Report/Dholera-Supplier-Ecosystem-Report.pdf",
+    "preview": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Techadyant_Dholera_Supplier_Ecosystem_Report/Dholera-Supplier-Ecosystem-Report-Free.pdf",
+    "cover": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Techadyant_Dholera_Supplier_Ecosystem_Report/Dholera Semiconductor ecosystem.jpg"
+  },
+  "signal": {
+    "no": "S-023",
+    "excerpt": "Dholera's supplier ecosystem is now mapped at component level. This report identifies the build-ready anchor investments, gaps and policy levers for a fab-led node.",
+    "takeaways": [
+      "Wafer fab equipment and chemicals remain the highest-value localisation gaps in Gujarat's semiconductor push.",
+      "Dholera's supplier readiness varies sharply across packaging/testing versus front-end fab materials.",
+      "Industrial policy, power and water infrastructure are now the binding constraints, not capital alone."
+    ]
+  }
+}

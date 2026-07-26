@@ -3,19 +3,19 @@
  * One-shot publishing pipeline for a new report.
  *
  * Usage:
- *   npm run publish-report -- <slug>              # local-only (no Supabase upload)
- *   npm run publish-report -- <slug> --upload     # also uploads the full PDF
- *   npm run publish-report -- <slug> --dry-run    # plan only, no changes
- *   npm run publish-report -- <slug> --no-sync    # skip the sync-meta step
+ *   npm run publish-report -- <slug>                         # local-only (no upload)
+ *   npm run publish-report -- <slug> --upload-r2             # upload full PDF + preview to Cloudflare R2
+ *   npm run publish-report -- <slug> --dry-run               # plan only, no changes
+ *   npm run publish-report -- <slug> --no-sync               # skip the sync-meta step
  *
  * Reads report-configs/<slug>.json. Validates everything (config fields,
  * asset existence, slug consistency, no `.pdf.pdf` filenames). Copies the
- * preview + cover into public/. Optionally uploads the full PDF to Supabase
- * Storage (private `reports` bucket). Inserts or updates the catalogue
- * entry in app/reports/data.ts and functions/api/_shared.js using a
- * brace-balanced parser — idempotent and safe to re-run.
+ * preview + cover into public/. Optionally uploads the full PDF to R2.
+ * Inserts or updates the catalogue entry in app/reports/data.ts and
+ * functions/api/_shared.js using a brace-balanced parser — idempotent and
+ * safe to re-run.
  *
- * Dependencies: Node 18+ built-ins only.
+ * Dependencies: Node 18+ built-ins + aws4fetch for R2 uploads.
  */
 import { readFileSync, writeFileSync, existsSync, copyFileSync, mkdirSync, statSync } from 'node:fs';
 import { join, resolve, basename, dirname } from 'node:path';
@@ -26,7 +26,7 @@ const REPO = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const argv = process.argv.slice(2);
 const slug = argv.find((a) => !a.startsWith('--'));
 const opts = {
-  upload: argv.includes('--upload'),
+  uploadR2: argv.includes('--upload-r2'),
   noSync: argv.includes('--no-sync'),
   dryRun: argv.includes('--dry-run'),
 };
@@ -104,8 +104,9 @@ if (coverPath) {
   ok(`Copied cover → public/covers/${slug}.${ext}`);
 }
 
-// ── 5. Optional: upload full PDF to Supabase ─────────────────────────────
-if (opts.upload) {
+// ── 5. Optional: upload full PDF + preview to R2 ────────────────────────
+if (opts.uploadR2) {
+  const { AwsClient } = await import('aws4fetch');
   const envPath = join(REPO, '.env.local');
   let env = { ...process.env };
   if (existsSync(envPath)) {
@@ -114,33 +115,30 @@ if (opts.upload) {
       if (m) env[m[1]] = m[2].replace(/^["']|["']$/g, '');
     }
   }
-  const url = env.SUPABASE_URL;
-  const key = env.SUPABASE_SERVICE_ROLE_KEY;
-  const bucket = env.REPORTS_BUCKET || 'reports';
-  if (!url || !key) die(`--upload requires SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY in .env.local or env.`);
-  const object = `${slug}.pdf`;
-  const endpoint = `${url}/storage/v1/object/${bucket}/${object}`;
-  info(`Uploading to ${bucket}/${object} (${(pdfSize / 1048576).toFixed(2)} MB)...`);
-  const buf = readFileSync(fullPdfPath);
-  const res = await fetch(endpoint, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${key}`,
-      apikey: key,
-      'content-type': 'application/pdf',
-      'x-upsert': 'true',
-    },
-    body: buf,
-  });
-  if (!res.ok) die(`Supabase upload failed: ${res.status} ${await res.text().catch(()=>'')}`);
-  ok(`Uploaded → ${bucket}/${object}`);
+  const endpoint = env.R2_S3_ENDPOINT;
+  const accessKey = env.R2_ACCESS_KEY_ID;
+  const secretKey = env.R2_SECRET_ACCESS_KEY;
+  const bucket = env.R2_BUCKET || 'techadyant-reports';
+  const prefix = (env.R2_OBJECT_PREFIX || 'reports').replace(/^\/|\/$/g, '');
+  if (!endpoint || !accessKey || !secretKey) die('--upload-r2 requires R2_S3_ENDPOINT, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY');
+
+  const client = new AwsClient({ accessKeyId: accessKey, secretAccessKey: secretKey, service: 's3', region: 'auto' });
+  const baseObj = prefix ? `${prefix}/${slug}.pdf` : `${slug}.pdf`;
+  await uploadR2(client, endpoint, bucket, baseObj, fullPdfPath);
+  ok(`Uploaded paid report PDF → ${bucket}/${baseObj}`);
+
+  if (previewPath) {
+    const previewObj = prefix ? `${prefix}/free reports/${slug}-preview.pdf` : `free reports/${slug}-preview.pdf`;
+    await uploadR2(client, endpoint, bucket, previewObj, previewPath);
+    ok(`Uploaded preview → ${bucket}/${previewObj}`);
+  }
 }
 
 // ── 6. Insert/update entry in app/reports/data.ts ────────────────────────
 const dataTsPath = join(REPO, 'app', 'reports', 'data.ts');
 let dataTs = readFileSync(dataTsPath, 'utf8');
 const tsEntry = renderTsEntry(cfg);
-dataTs = upsertInArrayLiteral(dataTs, 'const baseReports: ReportMeta[] = [', 'slug', slug, tsEntry);
+dataTs = upsertInArrayLiteral(dataTs, 'export const reports: ReportMeta[] = [', 'slug', slug, tsEntry);
 writeFileSync(dataTsPath, dataTs);
 ok(`app/reports/data.ts: ${dataTs.includes(`slug: '${slug}'`) ? 'entry present' : 'INSERT FAILED'}`);
 
@@ -455,3 +453,10 @@ function loadEnv() {
 }
 
 function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+async function uploadR2(client, endpoint, bucket, objectKey, filePath) {
+  const u = new URL(`${endpoint.replace(/\/$/, '')}/${bucket}/${objectKey}`);
+  const res = await client.sign(u.toString(), { method: 'PUT', headers: { 'content-type': 'application/pdf' } });
+  const r = await fetch(res.url, { method: 'PUT', headers: { 'content-type': 'application/pdf' }, body: readFileSync(filePath) });
+  if (!r.ok) die(`R2 upload failed: ${r.status} ${await r.text().catch(() => '')}`);
+}

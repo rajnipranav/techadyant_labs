@@ -2294,3 +2294,20 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .atlas-nav ul.atlas-submenu a:hover { background: rgba(255,255,255,.05); color: var(--text); }
 .atlas-nav ul.atlas-submenu a.is-active { color: var(--brass, #F5B544); }
 @media (max-width: 860px) { .atlas-nav ul.atlas-submenu { position: static; box-shadow: none; margin-top: 4px; min-width: 0; } }
+
+/* ── Corridor MapLibre GL map (/corridors) ─────────────────────────────── */
+.cgl{border:1px solid var(--border);border-radius:10px;overflow:hidden;background:var(--surface)}
+.cgl-bar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:10px 12px;border-bottom:1px solid var(--border);font-size:12px}
+.cgl-title{font-weight:600;color:var(--text-dim);margin-right:2px}
+.cgl-chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border:1px solid var(--border);border-radius:999px;background:transparent;color:var(--text);cursor:pointer;font-size:12px}
+.cgl-chip i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.cgl-chip.on{border-color:var(--brass-cream,#C9A84C);background:rgba(201,168,76,.12)}
+.cgl-legend{display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px;margin-left:auto;color:var(--text-muted)}
+.cgl-legend b{color:var(--text-dim);font-weight:600}
+.cgl-legend span{display:inline-flex;align-items:center;gap:5px}
+.cgl-legend i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.cgl-map{height:560px;width:100%}
+.cgl-note{margin:0;padding:8px 12px;border-top:1px solid var(--border);font-size:11px;color:var(--text-muted)}
+.cgl .maplibregl-popup-content{font-size:12px;line-height:1.45;padding:8px 10px;border-radius:8px}
+@media(max-width:640px){.cgl-map{height:420px}.cgl-legend{margin-left:0;width:100%}}
+.cgl-compact .cgl-map{height:380px}

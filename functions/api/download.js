@@ -27,7 +27,7 @@
 import { AwsClient } from 'aws4fetch';
 import { REPORTS, json } from './_shared.js';
 
-const CODE_VERSION = 'download-r2-v1';
+const CODE_VERSION = 'download-r2-v2';
 const TTL = 90; // presigned-URL lifetime, seconds
 
 /**
@@ -140,8 +140,10 @@ export async function onRequestGet({ request, env }) {
     const filename = entry.filename || `${slug}.pdf`;
     const base = env.R2_PUBLIC_BASE.replace(/\/$/, '');
     const prefix = (env.R2_FREE_PREFIX ?? 'free reports').replace(/^\/|\/$/g, '');
-    const key = prefix ? `${prefix}/${entry.object}` : entry.object;
-    const publicUrl = `${base}/${encodeKey(key)}?download=${encodeURIComponent(filename)}`;
+    const objectKey = entry.object.startsWith('http') ? null : entry.object;
+    const publicUrl = objectKey
+      ? `${base}/${encodeKey(`${prefix}/${objectKey}`)}?download=${encodeURIComponent(filename)}`
+      : entry.object;
     return json(200, { url: publicUrl, filename, public: true, codeVersion: CODE_VERSION });
   } catch (e) {
     return json(500, { error: 'exception', message: (e && e.message) || String(e), codeVersion: CODE_VERSION });

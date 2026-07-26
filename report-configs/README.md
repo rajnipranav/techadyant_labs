@@ -6,12 +6,12 @@ One JSON config per report. Drives the `npm run publish-report` automation.
 
 1. Copy `_template.json` to `<your-slug>.json`. Use the same slug as your PDF filename (lowercase, hyphenated).
 2. Fill in the required fields. Point `source.pdf`, `source.preview`, `source.cover` at your local files.
-3. (Optional) Add a `signal` block to also publish a signal announcing this report.
+3. (Optional) Add a `signal` block to also publish a signal entry announcing this report.
 4. (Optional) Add a `briefing` block to also add a briefing entry that references this report.
 5. Run from the repo root:
 
-       npm run publish-report -- <your-slug>           # local-only (no Supabase upload)
-       npm run publish-report -- <your-slug> --upload  # also uploads the full PDF to Supabase
+       npm run publish-report -- <your-slug>           # local-only (no upload)
+       npm run publish-report -- <your-slug> --upload-r2 # upload full PDF + preview to Cloudflare R2
 
 6. Review `git status`, then commit and push:
 
@@ -24,8 +24,8 @@ One JSON config per report. Drives the `npm run publish-report` automation.
 - Validates every required field and asset (catches the `.pdf.pdf` trap).
 - Copies the preview PDF to `public/previews/<slug>-preview.pdf`.
 - Copies the cover image to `public/covers/<slug>.jpg`.
-- Optionally uploads the full PDF to your Supabase `reports` bucket.
-- Inserts or updates the entry in `app/reports/data.ts` and `functions/api/_shared.js` (idempotent — safe to re-run).
+- Uploads full PDF and preview to Cloudflare R2 when using `--upload-r2`.
+- Inserts or updates the entry in `app/reports/data.ts` and `functions/api/_shared.js`.
 - If the config has a `signal` block: inserts/updates `app/signals/data.ts` (keyed by signal slug).
 - If the config has a `briefing` block: inserts/updates `app/briefings/data.ts` (keyed by briefing title).
 - Runs `npm run sync-meta` to refresh page count + reading time.
@@ -62,18 +62,22 @@ Add a `briefing` block to add an entry to the briefings page and homepage:
 
 All five fields are required when the block is present. Briefings are keyed by title (no slug field), so re-running the script with the same `briefing.title` updates in place.
 
-## Required env (only if using `--upload`)
+## Required env for R2 upload
 
 Create `.env.local` in the repo root (gitignored):
 
-    SUPABASE_URL=https://<your-project>.supabase.co
-    SUPABASE_SERVICE_ROLE_KEY=eyJ...
-    REPORTS_BUCKET=reports
+    R2_S3_ENDPOINT=https://<accountid>.r2.cloudflarestorage.com
+    R2_ACCESS_KEY_ID=<R2 S3 API token>
+    R2_SECRET_ACCESS_KEY=<R2 S3 API secret>
+    R2_BUCKET=labs-techadyant-library
+    R2_OBJECT_PREFIX=reports
+    R2_PUBLIC_BASE=https://library.techadyant.com
+    R2_FREE_PREFIX=free reports
 
-These are read only when you pass `--upload`. Local-only runs work without them.
+These are read only when you pass `--upload-r2`. Local-only runs work without them.
 
 ## Slug rules
 
 - Lowercase letters, digits, hyphens only.
-- Same string used in: config filename, PDF filename in Supabase, cover image filename, preview PDF filename, and the `slug` field inside the config.
+- Same string used in: config filename, PDF filename in R2, cover image filename, preview PDF filename, and the `slug` field inside the config.
 - The script verifies all of these match before writing anything.

@@ -7,7 +7,8 @@ import { getReport } from '../../reports/data';
 import { JsonLd, breadcrumb, faqLd, datasetLd, SITE } from '../../research/seo';
 import { deepDive } from '../deepdive';
 import { corridorIntel, TIER_COLOR, STAGE_COLOR, STAGE_LABEL, rankOf, leaderboard } from '../corridor-intel';
-import { CorridorNodeMap } from '../CorridorNodeMap';
+import CorridorGLMap from '../CorridorGLMap';
+import { corridorFeatures, nodeFeatures } from '../corridor-geojson';
 import { deepFor, STAGE as NSTAGE, type NodeStage } from '../node-data';
 
 export function generateStaticParams() {
@@ -124,7 +125,7 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>Where it runs</div><h2>On the map</h2></div>
           <Link href="/corridors/" className="see-all">All 11 corridors →</Link></div>
-        {deep ? <CorridorNodeMap slug={c.slug} /> : <img src={`/figures/corridors/${c.slug}.svg`} alt={`Map of the ${c.name} — route, anchor nodes and states traversed`} className="corr-figure" loading="lazy" />}
+        <CorridorGLMap corridors={corridorFeatures()} nodes={nodeFeatures()} focus={c.slug} />
       </section>
 
       {/* 2b · Corridor insights (charts) */}
