@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1040" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="1040" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">LiDAR Moves From Spinning Mirrors to FMCW</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Three generations of drone LiDAR and India&#x27;s 2026 adoption mix</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 5.2 &#183; Techadyant Labs &#183; 2026</text>
+<line x1="120" y1="160" x2="1480" y2="160" stroke="rgba(15,24,40,0.3)" stroke-width="3"/>
+<polygon points="1480,152 1500,160 1480,168" fill="rgba(15,24,40,0.5)"/>
+<text x="120" y="144" font-size="15" fill="#4A5567" text-anchor="start" font-style="italic">Technology maturity</text>
+<circle cx="260.0" cy="160" r="11" fill="#C9A84C" stroke="#FBF9F4" stroke-width="3"/>
+<line x1="260.0" y1="171" x2="260.0" y2="210" stroke="rgba(15,24,40,0.25)" stroke-width="2"/>
+<rect x="40.0" y="210" width="440" height="620" rx="14" fill="#FFFFFF" stroke="#C9A84C" stroke-width="2.5"/>
+<rect x="40.0" y="210" width="440" height="72" rx="14" fill="#C9A84C"/>
+<rect x="40.0" y="240" width="440" height="42" rx="0" fill="#C9A84C"/>
+<text x="260.0" y="240" font-size="16" fill="#FBF9F4" text-anchor="middle" font-weight="700">Generation 1</text>
+<text x="260.0" y="268" font-size="23" fill="#FBF9F4" text-anchor="middle" font-weight="700">MECHANICAL LiDAR</text>
+<text x="260.0" y="306" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2000s-2020s</text>
+<text x="260.0" y="338" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700">Rotating mirror</text>
+<text x="64.0" y="372" font-size="15" fill="#4A5567" text-anchor="start">Field of view</text>
+<text x="64.0" y="396" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">360 deg</text>
+<line x1="64.0" y1="410" x2="456.0" y2="410" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="64.0" y="430" font-size="15" fill="#4A5567" text-anchor="start">Moving parts</text>
+<text x="64.0" y="454" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Yes - reliability down</text>
+<line x1="64.0" y1="468" x2="456.0" y2="468" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="64.0" y="488" font-size="15" fill="#4A5567" text-anchor="start">Range</text>
+<text x="64.0" y="512" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">100-300 m</text>
+<line x1="64.0" y1="526" x2="456.0" y2="526" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="64.0" y="546" font-size="15" fill="#4A5567" text-anchor="start">Cost</text>
+<text x="64.0" y="570" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">$5,000-50,000</text>
+<line x1="64.0" y1="584" x2="456.0" y2="584" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="64.0" y="604" font-size="15" fill="#4A5567" text-anchor="start">Best for</text>
+<text x="64.0" y="628" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Surveying, mapping</text>
+<line x1="64.0" y1="746" x2="456.0" y2="746" stroke="rgba(15,24,40,0.18)" stroke-width="1.5"/>
+<text x="64.0" y="768" font-size="14" fill="#4A5567" text-anchor="start">India market status (2026)</text>
+<text x="64.0" y="800" font-size="26" fill="#C9A84C" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">95%</text>
+<text x="129.0" y="800" font-size="16" fill="#4A5567" text-anchor="start">of 2026 India sales</text>
+<circle cx="800.0" cy="160" r="11" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="3"/>
+<line x1="800.0" y1="171" x2="800.0" y2="210" stroke="rgba(15,24,40,0.25)" stroke-width="2"/>
+<rect x="580.0" y="210" width="440" height="620" rx="14" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="2.5"/>
+<rect x="580.0" y="210" width="440" height="72" rx="14" fill="#2BC5B4"/>
+<rect x="580.0" y="240" width="440" height="42" rx="0" fill="#2BC5B4"/>
+<text x="800.0" y="240" font-size="16" fill="#FBF9F4" text-anchor="middle" font-weight="700">Generation 2</text>
+<text x="800.0" y="268" font-size="23" fill="#FBF9F4" text-anchor="middle" font-weight="700">SOLID-STATE LiDAR</text>
+<text x="800.0" y="306" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2018-2030+</text>
+<text x="800.0" y="338" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700">Fixed beam (Flash / OPA)</text>
+<text x="604.0" y="372" font-size="15" fill="#4A5567" text-anchor="start">Field of view</text>
+<text x="604.0" y="396" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">60-120 deg</text>
+<line x1="604.0" y1="410" x2="996.0" y2="410" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="604.0" y="430" font-size="15" fill="#4A5567" text-anchor="start">Moving parts</text>
+<text x="604.0" y="454" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">None - reliability up</text>
+<line x1="604.0" y1="468" x2="996.0" y2="468" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="604.0" y="488" font-size="15" fill="#4A5567" text-anchor="start">Range</text>
+<text x="604.0" y="512" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">50-150 m</text>
+<line x1="604.0" y1="526" x2="996.0" y2="526" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="604.0" y="546" font-size="15" fill="#4A5567" text-anchor="start">Cost</text>
+<text x="604.0" y="570" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">$1,000-5,000</text>
+<line x1="604.0" y1="584" x2="996.0" y2="584" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="604.0" y="604" font-size="15" fill="#4A5567" text-anchor="start">Best for</text>
+<text x="604.0" y="628" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Autonomous nav, obstacle avoid</text>
+<line x1="604.0" y1="746" x2="996.0" y2="746" stroke="rgba(15,24,40,0.18)" stroke-width="1.5"/>
+<text x="604.0" y="768" font-size="14" fill="#4A5567" text-anchor="start">India market status (2026)</text>
+<text x="604.0" y="800" font-size="26" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">5%</text>
+<text x="652.0" y="800" font-size="16" fill="#4A5567" text-anchor="start">of 2026 India sales</text>
+<circle cx="1340.0" cy="160" r="11" fill="#0F1828" stroke="#FBF9F4" stroke-width="3"/>
+<line x1="1340.0" y1="171" x2="1340.0" y2="210" stroke="rgba(15,24,40,0.25)" stroke-width="2"/>
+<rect x="1120.0" y="210" width="440" height="620" rx="14" fill="#FFFFFF" stroke="#0F1828" stroke-width="2.5"/>
+<rect x="1120.0" y="210" width="440" height="72" rx="14" fill="#0F1828"/>
+<rect x="1120.0" y="240" width="440" height="42" rx="0" fill="#0F1828"/>
+<text x="1340.0" y="240" font-size="16" fill="#FBF9F4" text-anchor="middle" font-weight="700">Generation 3</text>
+<text x="1340.0" y="268" font-size="23" fill="#FBF9F4" text-anchor="middle" font-weight="700">FMCW LiDAR</text>
+<text x="1340.0" y="306" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2025-2035+</text>
+<text x="1340.0" y="338" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700">Frequency modulation</text>
+<text x="1144.0" y="372" font-size="15" fill="#4A5567" text-anchor="start">Field of view</text>
+<text x="1144.0" y="396" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">120-360 deg</text>
+<line x1="1144.0" y1="410" x2="1536.0" y2="410" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="1144.0" y="430" font-size="15" fill="#4A5567" text-anchor="start">Moving parts</text>
+<text x="1144.0" y="454" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">None - reliability up</text>
+<line x1="1144.0" y1="468" x2="1536.0" y2="468" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="1144.0" y="488" font-size="15" fill="#4A5567" text-anchor="start">Range</text>
+<text x="1144.0" y="512" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">200-500 m+</text>
+<line x1="1144.0" y1="526" x2="1536.0" y2="526" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="1144.0" y="546" font-size="15" fill="#4A5567" text-anchor="start">Cost</text>
+<text x="1144.0" y="570" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">$2,000-10,000 (falling)</text>
+<line x1="1144.0" y1="584" x2="1536.0" y2="584" stroke="rgba(15,24,40,0.1)" stroke-width="1"/>
+<text x="1144.0" y="604" font-size="15" fill="#4A5567" text-anchor="start">Best for</text>
+<text x="1144.0" y="628" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Long range, velocity sensing</text>
+<line x1="1144.0" y1="746" x2="1536.0" y2="746" stroke="rgba(15,24,40,0.18)" stroke-width="1.5"/>
+<text x="1144.0" y="768" font-size="14" fill="#4A5567" text-anchor="start">India market status (2026)</text>
+<text x="1144.0" y="800" font-size="26" fill="#4A5567" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">Pilot</text>
+<text x="1243.0" y="800" font-size="16" fill="#4A5567" text-anchor="start">projects only</text>
+<rect x="40" y="864" width="1520" height="86" rx="10" fill="rgba(15,24,40,0.05)"/>
+<text x="62" y="894" font-size="17" fill="#0F1828" text-anchor="start" font-weight="700">India-specific dynamics</text>
+<text x="62" y="922" font-size="16" fill="#4A5567" text-anchor="start">No domestic scanner manufacturing (100% import for hardware) | integration at payload level (ideaForge) |</text>
+<text x="62" y="944" font-size="16" fill="#4A5567" text-anchor="start">BEL / DRDO defence LiDAR at TRL 4-5 | high price sensitivity makes cost reduction critical for volume.</text>
+<text x="60" y="1012" font-size="15" fill="#4A5567">Source: vendor specifications; BEL / DRDO programme disclosures. Techadyant Labs analysis.</text>
+<text x="1540" y="1012" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

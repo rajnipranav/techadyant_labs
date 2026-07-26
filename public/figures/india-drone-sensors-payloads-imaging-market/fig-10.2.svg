@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 945" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="945" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Five Ways Drones Sense the Farm</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Agriculture sensing applications, sensors and adoption status, 2026</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 10.2 &#183; Techadyant Labs &#183; 2026</text>
+<rect x="60.0" y="170" width="720.0" height="210" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.18)" stroke-width="1.5"/>
+<rect x="78.0" y="188" width="42" height="42" rx="8" fill="#0F1828"/>
+<text x="99.0" y="217" font-size="22" fill="#FBF9F4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">1</text>
+<text x="134.0" y="208" font-size="21" fill="#0F1828" text-anchor="start" font-weight="700">Crop health monitoring (NDVI)</text>
+<rect x="617.0" y="188" width="145" height="34" rx="17" fill="rgba(43,197,180,0.2)" stroke="#2BC5B4" stroke-width="1.5"/>
+<text x="689.5" y="211" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">Adoption: High</text>
+<text x="82.0" y="248" font-size="14" fill="#2BC5B4" text-anchor="start" font-weight="700">Sensors</text>
+<text x="82.0" y="272" font-size="15" fill="#4A5567" text-anchor="start">Multispectral (5-band) + RTK GPS</text>
+<text x="82.0" y="336" font-size="14" fill="#2BC5B4" text-anchor="start" font-weight="700">Output</text>
+<text x="82.0" y="358" font-size="15" fill="#0F1828" text-anchor="start">NDVI map identifies stressed areas; drives variable-rate fertiliser / pesticide.</text>
+<rect x="820.0" y="170" width="720.0" height="210" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.18)" stroke-width="1.5"/>
+<rect x="838.0" y="188" width="42" height="42" rx="8" fill="#0F1828"/>
+<text x="859.0" y="217" font-size="22" fill="#FBF9F4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2</text>
+<text x="894.0" y="208" font-size="21" fill="#0F1828" text-anchor="start" font-weight="700">Variable rate application (VRA)</text>
+<rect x="1360.0" y="188" width="162" height="34" rx="17" fill="rgba(201,168,76,0.2)" stroke="#C9A84C" stroke-width="1.5"/>
+<text x="1441.0" y="211" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">Adoption: Medium</text>
+<text x="842.0" y="248" font-size="14" fill="#C9A84C" text-anchor="start" font-weight="700">Sensors</text>
+<text x="842.0" y="272" font-size="15" fill="#4A5567" text-anchor="start">Flow, pressure, tank-level sensors</text>
+<text x="842.0" y="294" font-size="15" fill="#4A5567" text-anchor="start">+ RTK GPS</text>
+<text x="842.0" y="336" font-size="14" fill="#C9A84C" text-anchor="start" font-weight="700">Output</text>
+<text x="842.0" y="358" font-size="15" fill="#0F1828" text-anchor="start">Precision spraying of inputs only where needed.</text>
+<rect x="60.0" y="408" width="720.0" height="210" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.18)" stroke-width="1.5"/>
+<rect x="78.0" y="426" width="42" height="42" rx="8" fill="#0F1828"/>
+<text x="99.0" y="455" font-size="22" fill="#FBF9F4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">3</text>
+<text x="134.0" y="446" font-size="21" fill="#0F1828" text-anchor="start" font-weight="700">Soil mapping &amp; analysis</text>
+<rect x="566.0" y="426" width="196" height="34" rx="17" fill="rgba(201,168,76,0.2)" stroke="#C9A84C" stroke-width="1.5"/>
+<text x="664.0" y="449" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">Adoption: Low-Medium</text>
+<text x="82.0" y="486" font-size="14" fill="#C9A84C" text-anchor="start" font-weight="700">Sensors</text>
+<text x="82.0" y="510" font-size="15" fill="#4A5567" text-anchor="start">Multispectral + Thermal (moisture)</text>
+<text x="82.0" y="532" font-size="15" fill="#4A5567" text-anchor="start">+ RTK GPS</text>
+<text x="82.0" y="574" font-size="14" fill="#C9A84C" text-anchor="start" font-weight="700">Output</text>
+<text x="82.0" y="596" font-size="15" fill="#0F1828" text-anchor="start">Soil health, moisture and compaction maps for precision planting.</text>
+<rect x="820.0" y="408" width="720.0" height="210" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.18)" stroke-width="1.5"/>
+<rect x="838.0" y="426" width="42" height="42" rx="8" fill="#0F1828"/>
+<text x="859.0" y="455" font-size="22" fill="#FBF9F4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">4</text>
+<text x="894.0" y="446" font-size="21" fill="#0F1828" text-anchor="start" font-weight="700">Stand count &amp; yield estimation</text>
+<rect x="1385.0" y="426" width="137" height="34" rx="17" fill="rgba(200,68,59,0.2)" stroke="#C8443B" stroke-width="1.5"/>
+<text x="1453.5" y="449" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">Adoption: Low</text>
+<text x="842.0" y="486" font-size="14" fill="#C8443B" text-anchor="start" font-weight="700">Sensors</text>
+<text x="842.0" y="510" font-size="15" fill="#4A5567" text-anchor="start">High-res RGB + edge AI</text>
+<text x="842.0" y="574" font-size="14" fill="#C8443B" text-anchor="start" font-weight="700">Output</text>
+<text x="842.0" y="596" font-size="15" fill="#0F1828" text-anchor="start">Plant counting, emergence rate and yield prediction.</text>
+<rect x="60.0" y="646" width="720.0" height="210" rx="12" fill="rgba(15,24,40,0.04)" stroke="rgba(15,24,40,0.18)" stroke-width="1.5"/>
+<rect x="78.0" y="664" width="42" height="42" rx="8" fill="#0F1828"/>
+<text x="99.0" y="693" font-size="22" fill="#FBF9F4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">5</text>
+<text x="134.0" y="684" font-size="21" fill="#0F1828" text-anchor="start" font-weight="700">Irrigation management</text>
+<rect x="625.0" y="664" width="137" height="34" rx="17" fill="rgba(200,68,59,0.2)" stroke="#C8443B" stroke-width="1.5"/>
+<text x="693.5" y="687" font-size="14" fill="#0F1828" text-anchor="middle" font-weight="700">Adoption: Low</text>
+<text x="82.0" y="724" font-size="14" fill="#C8443B" text-anchor="start" font-weight="700">Sensors</text>
+<text x="82.0" y="748" font-size="15" fill="#4A5567" text-anchor="start">Thermal (canopy temp) +</text>
+<text x="82.0" y="770" font-size="15" fill="#4A5567" text-anchor="start">Multispectral (water stress)</text>
+<text x="82.0" y="812" font-size="14" fill="#C8443B" text-anchor="start" font-weight="700">Output</text>
+<text x="82.0" y="834" font-size="15" fill="#0F1828" text-anchor="start">Precision irrigation scheduling to cut water waste.</text>
+<text x="60" y="917" font-size="15" fill="#4A5567">Source: Ministry of Agriculture, Drone Shakti, operator data. Techadyant Labs analysis.</text>
+<text x="1540" y="917" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 919" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="919" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Spectral Resolution Climbs From 3 to 100+ Bands</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">RGB vs multispectral vs hyperspectral — band coverage and use cases</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 8.5 &#183; Techadyant Labs &#183; 2026</text>
+<line x1="180.0" y1="168" x2="180.0" y2="540" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="180.0" y="160" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">400</text>
+<line x1="242.85714285714286" y1="168" x2="242.85714285714286" y2="540" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="242.85714285714286" y="160" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">500</text>
+<line x1="305.7142857142857" y1="168" x2="305.7142857142857" y2="540" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="305.7142857142857" y="160" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">600</text>
+<line x1="368.57142857142856" y1="168" x2="368.57142857142856" y2="540" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="368.57142857142856" y="160" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">700</text>
+<line x1="431.42857142857144" y1="168" x2="431.42857142857144" y2="540" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="431.42857142857144" y="160" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">800</text>
+<line x1="494.2857142857143" y1="168" x2="494.2857142857143" y2="540" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="494.2857142857143" y="160" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">900</text>
+<line x1="557.1428571428571" y1="168" x2="557.1428571428571" y2="540" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="557.1428571428571" y="160" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">1000</text>
+<line x1="871.4285714285714" y1="168" x2="871.4285714285714" y2="540" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="871.4285714285714" y="160" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">1500</text>
+<line x1="1185.7142857142858" y1="168" x2="1185.7142857142858" y2="540" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="1185.7142857142858" y="160" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2000</text>
+<line x1="1500.0" y1="168" x2="1500.0" y2="540" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="1500.0" y="160" font-size="13" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2500</text>
+<text x="1500" y="136" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">nm</text>
+<text x="274.2857142857143" y="532" font-size="15" fill="#4A5567" text-anchor="middle" font-style="italic">Visible</text>
+<text x="462.85714285714283" y="532" font-size="15" fill="#4A5567" text-anchor="middle" font-style="italic">NIR</text>
+<text x="1028.5714285714284" y="532" font-size="15" fill="#4A5567" text-anchor="middle" font-style="italic">SWIR</text>
+<text x="180" y="190" font-size="17" fill="#0F1828" text-anchor="start" font-weight="700">RGB camera — 3 bands</text>
+<rect x="211.42857142857142" y="208" width="25.14285714285714" height="58" rx="3" fill="#2BC5B4" opacity="0.85"/><text x="224.0" y="242.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">B</text>
+<rect x="242.85714285714286" y="208" width="44.00000000000003" height="58" rx="3" fill="#2BC5B4" opacity="0.85"/><text x="264.8571428571429" y="242.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">G</text>
+<rect x="312.0" y="208" width="44.0" height="58" rx="3" fill="#C8443B" opacity="0.85"/><text x="334.0" y="242.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">R</text>
+<text x="180" y="305" font-size="17" fill="#0F1828" text-anchor="start" font-weight="700">Multispectral — 5-10 discrete bands</text>
+<rect x="205.14285714285714" y="323" width="12.571428571428584" height="58" rx="3" fill="#C9A84C" opacity="0.85"/>
+<text x="211.42857142857144" y="317" font-size="11" fill="#4A5567" text-anchor="middle">Coast</text>
+<rect x="224.0" y="323" width="31.428571428571445" height="58" rx="3" fill="#C9A84C" opacity="0.85"/><text x="239.71428571428572" y="357.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">Blue</text>
+<rect x="268.0" y="323" width="25.14285714285711" height="58" rx="3" fill="#C9A84C" opacity="0.85"/><text x="280.57142857142856" y="357.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">Green</text>
+<rect x="337.1428571428571" y="323" width="18.85714285714289" height="58" rx="3" fill="#C9A84C" opacity="0.85"/>
+<text x="346.57142857142856" y="317" font-size="11" fill="#4A5567" text-anchor="middle">Red</text>
+<rect x="374.8571428571429" y="323" width="18.857142857142833" height="58" rx="3" fill="#C9A84C" opacity="0.85"/>
+<text x="384.28571428571433" y="317" font-size="11" fill="#4A5567" text-anchor="middle">RedEdge</text>
+<rect x="431.42857142857144" y="323" width="50.28571428571428" height="58" rx="3" fill="#C9A84C" opacity="0.85"/><text x="456.57142857142856" y="357.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">NIR</text>
+<text x="180" y="420" font-size="17" fill="#0F1828" text-anchor="start" font-weight="700">Hyperspectral — 100+ contiguous 10-20 nm bands</text>
+<defs><linearGradient id="hsg" x1="0" x2="1"><stop offset="0" stop-color="#2BC5B4"/><stop offset="0.4" stop-color="#C9A84C"/><stop offset="1" stop-color="#C8443B"/></linearGradient></defs>
+<rect x="180.0" y="438" width="1320.0" height="58" rx="3" fill="url(#hsg)"/>
+<line x1="180.0" y1="438" x2="180.0" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="198.85714285714286" y1="438" x2="198.85714285714286" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="217.71428571428572" y1="438" x2="217.71428571428572" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="236.57142857142856" y1="438" x2="236.57142857142856" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="255.42857142857144" y1="438" x2="255.42857142857144" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="274.2857142857143" y1="438" x2="274.2857142857143" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="293.1428571428571" y1="438" x2="293.1428571428571" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="312.0" y1="438" x2="312.0" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="330.8571428571429" y1="438" x2="330.8571428571429" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="349.71428571428567" y1="438" x2="349.71428571428567" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="368.57142857142856" y1="438" x2="368.57142857142856" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="387.42857142857144" y1="438" x2="387.42857142857144" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="406.2857142857143" y1="438" x2="406.2857142857143" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="425.1428571428571" y1="438" x2="425.1428571428571" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="444.0" y1="438" x2="444.0" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="462.85714285714283" y1="438" x2="462.85714285714283" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="481.7142857142857" y1="438" x2="481.7142857142857" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="500.57142857142856" y1="438" x2="500.57142857142856" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="519.4285714285713" y1="438" x2="519.4285714285713" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="538.2857142857142" y1="438" x2="538.2857142857142" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="557.1428571428571" y1="438" x2="557.1428571428571" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="576.0" y1="438" x2="576.0" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="594.8571428571429" y1="438" x2="594.8571428571429" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="613.7142857142858" y1="438" x2="613.7142857142858" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="632.5714285714286" y1="438" x2="632.5714285714286" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="651.4285714285714" y1="438" x2="651.4285714285714" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="670.2857142857142" y1="438" x2="670.2857142857142" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="689.1428571428571" y1="438" x2="689.1428571428571" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="708.0" y1="438" x2="708.0" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="726.8571428571429" y1="438" x2="726.8571428571429" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="745.7142857142857" y1="438" x2="745.7142857142857" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="764.5714285714286" y1="438" x2="764.5714285714286" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="783.4285714285714" y1="438" x2="783.4285714285714" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="802.2857142857142" y1="438" x2="802.2857142857142" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="821.1428571428571" y1="438" x2="821.1428571428571" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="840.0" y1="438" x2="840.0" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="858.8571428571428" y1="438" x2="858.8571428571428" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="877.7142857142858" y1="438" x2="877.7142857142858" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="896.5714285714286" y1="438" x2="896.5714285714286" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="915.4285714285714" y1="438" x2="915.4285714285714" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="934.2857142857142" y1="438" x2="934.2857142857142" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="953.1428571428572" y1="438" x2="953.1428571428572" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="972.0" y1="438" x2="972.0" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="990.8571428571429" y1="438" x2="990.8571428571429" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1009.7142857142857" y1="438" x2="1009.7142857142857" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1028.5714285714287" y1="438" x2="1028.5714285714287" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1047.4285714285716" y1="438" x2="1047.4285714285716" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1066.2857142857142" y1="438" x2="1066.2857142857142" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1085.142857142857" y1="438" x2="1085.142857142857" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1104.0" y1="438" x2="1104.0" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1122.857142857143" y1="438" x2="1122.857142857143" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1141.7142857142858" y1="438" x2="1141.7142857142858" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1160.5714285714284" y1="438" x2="1160.5714285714284" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1179.4285714285716" y1="438" x2="1179.4285714285716" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1198.2857142857142" y1="438" x2="1198.2857142857142" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1217.142857142857" y1="438" x2="1217.142857142857" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1236.0" y1="438" x2="1236.0" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1254.857142857143" y1="438" x2="1254.857142857143" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1273.7142857142858" y1="438" x2="1273.7142857142858" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1292.5714285714287" y1="438" x2="1292.5714285714287" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1311.4285714285713" y1="438" x2="1311.4285714285713" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1330.2857142857142" y1="438" x2="1330.2857142857142" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1349.142857142857" y1="438" x2="1349.142857142857" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1368.0" y1="438" x2="1368.0" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1386.857142857143" y1="438" x2="1386.857142857143" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1405.7142857142858" y1="438" x2="1405.7142857142858" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1424.5714285714284" y1="438" x2="1424.5714285714284" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1443.4285714285716" y1="438" x2="1443.4285714285716" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1462.2857142857142" y1="438" x2="1462.2857142857142" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<line x1="1481.142857142857" y1="438" x2="1481.142857142857" y2="496" stroke="rgba(15,24,40,0.25)" stroke-width="0.6"/>
+<text x="840.0" y="472.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">each 10-20 nm band = distinct spectral signature</text>
+<text x="180" y="580" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">Applications &amp; India adoption (2026)</text>
+<text x="180" y="614" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Application</text>
+<text x="540" y="614" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">RGB</text>
+<text x="700" y="614" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Multispectral</text>
+<text x="900" y="614" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Hyperspectral</text>
+<text x="1120" y="614" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">India adoption</text>
+<line x1="180" y1="628" x2="1440" y2="628" stroke="rgba(74,85,103,0.25)" stroke-width="1"/>
+<text x="180" y="658" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Crop health (NDVI)</text>
+<text x="540" y="658" font-size="14" fill="#C8443B" text-anchor="start">No</text>
+<text x="700" y="658" font-size="14" fill="#0F1828" text-anchor="start">Yes — standard</text>
+<text x="900" y="658" font-size="14" fill="#0F1828" text-anchor="start">Overkill</text>
+<rect x="1120" y="643" width="16" height="16" rx="3" fill="#2BC5B4"/>
+<text x="1144" y="658" font-size="14" fill="#0F1828" text-anchor="start">High (Drone Shakti)</text>
+<text x="180" y="692" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Soil mapping</text>
+<text x="540" y="692" font-size="14" fill="#C8443B" text-anchor="start">No</text>
+<text x="700" y="692" font-size="14" fill="#0F1828" text-anchor="start">Yes</text>
+<text x="900" y="692" font-size="14" fill="#0F1828" text-anchor="start">Better</text>
+<rect x="1120" y="677" width="16" height="16" rx="3" fill="#C9A84C"/>
+<text x="1144" y="692" font-size="14" fill="#0F1828" text-anchor="start">Medium</text>
+<text x="180" y="726" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Pest detection</text>
+<text x="540" y="726" font-size="14" fill="#C8443B" text-anchor="start">No</text>
+<text x="700" y="726" font-size="14" fill="#0F1828" text-anchor="start">Yes (early)</text>
+<text x="900" y="726" font-size="14" fill="#0F1828" text-anchor="start">Yes (earlier)</text>
+<rect x="1120" y="711" width="16" height="16" rx="3" fill="#C9A84C"/>
+<text x="1144" y="726" font-size="14" fill="#0F1828" text-anchor="start">Low-Medium</text>
+<text x="180" y="760" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Mineral exploration</text>
+<text x="540" y="760" font-size="14" fill="#C8443B" text-anchor="start">No</text>
+<text x="700" y="760" font-size="14" fill="#0F1828" text-anchor="start">Limited</text>
+<text x="900" y="760" font-size="14" fill="#0F1828" text-anchor="start">Ideal</text>
+<rect x="1120" y="745" width="16" height="16" rx="3" fill="#C8443B"/>
+<text x="1144" y="760" font-size="14" fill="#0F1828" text-anchor="start">Low (mining R&amp;D)</text>
+<text x="180" y="794" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Water quality</text>
+<text x="540" y="794" font-size="14" fill="#C8443B" text-anchor="start">No</text>
+<text x="700" y="794" font-size="14" fill="#0F1828" text-anchor="start">Yes (basic)</text>
+<text x="900" y="794" font-size="14" fill="#0F1828" text-anchor="start">Detailed</text>
+<rect x="1120" y="779" width="16" height="16" rx="3" fill="#C8443B"/>
+<text x="1144" y="794" font-size="14" fill="#0F1828" text-anchor="start">Low</text>
+<text x="180" y="828" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Defence target detect</text>
+<text x="540" y="828" font-size="14" fill="#C8443B" text-anchor="start">No</text>
+<text x="700" y="828" font-size="14" fill="#0F1828" text-anchor="start">Limited</text>
+<text x="900" y="828" font-size="14" fill="#0F1828" text-anchor="start">Emerging</text>
+<rect x="1120" y="813" width="16" height="16" rx="3" fill="#C8443B"/>
+<text x="1144" y="828" font-size="14" fill="#0F1828" text-anchor="start">R&amp;D (DRDO)</text>
+<text x="60" y="891" font-size="15" fill="#4A5567">Source: Techadyant Labs analysis; MicaSense, Sentera, Parrot, IdeaForge, Garuda.</text>
+</svg>

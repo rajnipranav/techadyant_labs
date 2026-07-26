@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1130" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="1130" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">India Wins Where It Integrates, Not Where It Fabs</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Drone-sensor value chain: discrete components to integrated payloads, 2026</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 5.3 &#183; Techadyant Labs &#183; 2026</text>
+<text x="60" y="168" font-size="18" fill="#4A5567" text-anchor="start" font-style="italic">Value-add and gross margin rise as you move up the tier ladder -&gt;</text>
+<line x1="518.0" y1="560.0" x2="543.0" y2="560.0" stroke="rgba(15,24,40,0.35)" stroke-width="4"/>
+<polygon points="543.0,549.0 561.0,560.0 543.0,571.0" fill="rgba(15,24,40,0.55)"/>
+<rect x="40.0" y="200" width="470" height="720" rx="14" fill="#FFFFFF" stroke="#C8443B" stroke-width="2.5"/>
+<rect x="40.0" y="200" width="470" height="86" rx="14" fill="#C8443B"/>
+<rect x="40.0" y="240" width="470" height="46" rx="0" fill="#C8443B"/>
+<text x="66.0" y="238" font-size="17" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TIER 1</text>
+<text x="66.0" y="270" font-size="25" fill="#0F1828" text-anchor="start" font-weight="700">Discrete Components</text>
+<text x="66.0" y="326" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">What it covers</text>
+<circle cx="73.0" cy="351" r="3.5" fill="#C8443B"/>
+<text x="86.0" y="356" font-size="17" fill="#0F1828" text-anchor="start">Raw MEMS chips</text>
+<circle cx="73.0" cy="383" r="3.5" fill="#C8443B"/>
+<text x="86.0" y="388" font-size="17" fill="#0F1828" text-anchor="start">GNSS receiver ICs</text>
+<circle cx="73.0" cy="415" r="3.5" fill="#C8443B"/>
+<text x="86.0" y="420" font-size="17" fill="#0F1828" text-anchor="start">LiDAR scanner engines</text>
+<circle cx="73.0" cy="447" r="3.5" fill="#C8443B"/>
+<text x="86.0" y="452" font-size="17" fill="#0F1828" text-anchor="start">Thermal detector arrays</text>
+<circle cx="73.0" cy="479" r="3.5" fill="#C8443B"/>
+<text x="86.0" y="484" font-size="17" fill="#0F1828" text-anchor="start">Magnetometers, baro sensors</text>
+<rect x="64.0" y="540" width="422" height="56" rx="8" fill="rgba(200,68,59,0.1)"/>
+<text x="80.0" y="564" font-size="15" fill="#4A5567" text-anchor="start">Gross margin</text>
+<text x="470.0" y="578" font-size="21" fill="#C8443B" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">20-30%</text>
+<rect x="64.0" y="610" width="422" height="56" rx="8" fill="rgba(200,68,59,0.1)"/>
+<text x="80.0" y="634" font-size="15" fill="#4A5567" text-anchor="start">India capability</text>
+<text x="470.0" y="648" font-size="21" fill="#C8443B" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">Very low (&lt;5%)</text>
+<rect x="64.0" y="680" width="422" height="56" rx="8" fill="rgba(200,68,59,0.1)"/>
+<text x="80.0" y="704" font-size="15" fill="#4A5567" text-anchor="start">Import dependence</text>
+<text x="470.0" y="718" font-size="21" fill="#C8443B" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">90-95%</text>
+<line x1="64.0" y1="758" x2="486.0" y2="758" stroke="rgba(15,24,40,0.12)" stroke-width="1"/>
+<text x="66.0" y="784" font-size="15" fill="#4A5567" text-anchor="start" font-style="italic">Global: Bosch, STM, TDK, u-blox, Velodyne, FLIR</text>
+<line x1="1043.0" y1="560.0" x2="1068.0" y2="560.0" stroke="rgba(15,24,40,0.35)" stroke-width="4"/>
+<polygon points="1068.0,549.0 1086.0,560.0 1068.0,571.0" fill="rgba(15,24,40,0.55)"/>
+<rect x="565.0" y="200" width="470" height="720" rx="14" fill="#FFFFFF" stroke="#C9A84C" stroke-width="2.5"/>
+<rect x="565.0" y="200" width="470" height="86" rx="14" fill="#C9A84C"/>
+<rect x="565.0" y="240" width="470" height="46" rx="0" fill="#C9A84C"/>
+<text x="591.0" y="238" font-size="17" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TIER 2</text>
+<text x="591.0" y="270" font-size="25" fill="#0F1828" text-anchor="start" font-weight="700">Modules &amp; Subsystems</text>
+<text x="591.0" y="326" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">What it covers</text>
+<circle cx="598.0" cy="351" r="3.5" fill="#C9A84C"/>
+<text x="611.0" y="356" font-size="17" fill="#0F1828" text-anchor="start">RTK GPS modules</text>
+<circle cx="598.0" cy="383" r="3.5" fill="#C9A84C"/>
+<text x="611.0" y="388" font-size="17" fill="#0F1828" text-anchor="start">6/9-axis IMU boards</text>
+<circle cx="598.0" cy="415" r="3.5" fill="#C9A84C"/>
+<text x="611.0" y="420" font-size="17" fill="#0F1828" text-anchor="start">Thermal camera modules</text>
+<circle cx="598.0" cy="447" r="3.5" fill="#C9A84C"/>
+<text x="611.0" y="452" font-size="17" fill="#0F1828" text-anchor="start">Housed LiDAR scanners</text>
+<circle cx="598.0" cy="479" r="3.5" fill="#C9A84C"/>
+<text x="611.0" y="484" font-size="17" fill="#0F1828" text-anchor="start">Pre-calibrated multispectral arrays</text>
+<rect x="589.0" y="540" width="422" height="56" rx="8" fill="rgba(201,168,76,0.1)"/>
+<text x="605.0" y="564" font-size="15" fill="#4A5567" text-anchor="start">Gross margin</text>
+<text x="995.0" y="578" font-size="21" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">30-40%</text>
+<rect x="589.0" y="610" width="422" height="56" rx="8" fill="rgba(201,168,76,0.1)"/>
+<text x="605.0" y="634" font-size="15" fill="#4A5567" text-anchor="start">India capability</text>
+<text x="995.0" y="648" font-size="21" fill="#C9A84C" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">Low (10-15%)</text>
+<rect x="589.0" y="680" width="422" height="56" rx="8" fill="rgba(200,68,59,0.1)"/>
+<text x="605.0" y="704" font-size="15" fill="#4A5567" text-anchor="start">Import dependence</text>
+<text x="995.0" y="718" font-size="21" fill="#C8443B" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">80-85%</text>
+<line x1="589.0" y1="758" x2="1011.0" y2="758" stroke="rgba(15,24,40,0.12)" stroke-width="1"/>
+<text x="591.0" y="784" font-size="15" fill="#4A5567" text-anchor="start" font-style="italic">India: ideaForge (in-house), Eon Space Labs, BEL</text>
+<rect x="1090.0" y="200" width="470" height="720" rx="14" fill="#FFFFFF" stroke="#2BC5B4" stroke-width="2.5"/>
+<rect x="1090.0" y="200" width="470" height="86" rx="14" fill="#2BC5B4"/>
+<rect x="1090.0" y="240" width="470" height="46" rx="0" fill="#2BC5B4"/>
+<text x="1116.0" y="238" font-size="17" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">TIER 3</text>
+<text x="1116.0" y="270" font-size="25" fill="#0F1828" text-anchor="start" font-weight="700">Integrated Payloads</text>
+<text x="1116.0" y="326" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">What it covers</text>
+<circle cx="1123.0" cy="351" r="3.5" fill="#2BC5B4"/>
+<text x="1136.0" y="356" font-size="17" fill="#0F1828" text-anchor="start">EO/IR gimbals (thermal+RGB+LRF)</text>
+<circle cx="1123.0" cy="383" r="3.5" fill="#2BC5B4"/>
+<text x="1136.0" y="388" font-size="17" fill="#0F1828" text-anchor="start">LiDAR+IMU+RGB units</text>
+<circle cx="1123.0" cy="415" r="3.5" fill="#2BC5B4"/>
+<text x="1136.0" y="420" font-size="17" fill="#0F1828" text-anchor="start">Multispectral + RTK arrays</text>
+<circle cx="1123.0" cy="447" r="3.5" fill="#2BC5B4"/>
+<text x="1136.0" y="452" font-size="17" fill="#0F1828" text-anchor="start">Fusion payloads with onboard AI</text>
+<rect x="1114.0" y="508" width="422" height="56" rx="8" fill="rgba(43,197,180,0.1)"/>
+<text x="1130.0" y="532" font-size="15" fill="#4A5567" text-anchor="start">Gross margin</text>
+<text x="1520.0" y="546" font-size="21" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">45-60%</text>
+<rect x="1114.0" y="578" width="422" height="56" rx="8" fill="rgba(43,197,180,0.1)"/>
+<text x="1130.0" y="602" font-size="15" fill="#4A5567" text-anchor="start">India capability</text>
+<text x="1520.0" y="616" font-size="21" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">Medium (40-50%)</text>
+<rect x="1114.0" y="648" width="422" height="56" rx="8" fill="rgba(43,197,180,0.1)"/>
+<text x="1130.0" y="672" font-size="15" fill="#4A5567" text-anchor="start">Import dependence</text>
+<text x="1520.0" y="686" font-size="21" fill="#2BC5B4" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">40-50%</text>
+<line x1="1114.0" y1="726" x2="1536.0" y2="726" stroke="rgba(15,24,40,0.12)" stroke-width="1"/>
+<text x="1116.0" y="752" font-size="15" fill="#4A5567" text-anchor="start" font-style="italic">India: ideaForge, Eon Space Labs, Garuda, Dhaksha</text>
+<rect x="40" y="954" width="1520" height="92" rx="10" fill="rgba(43,197,180,0.1)" stroke="#2BC5B4" stroke-width="1.5"/>
+<text x="62" y="986" font-size="17" fill="#0F1828" text-anchor="start" font-weight="700">Strategic implication</text>
+<text x="62" y="1014" font-size="16" fill="#4A5567" text-anchor="start">India&#x27;s advantage sits in Tier 3 integration and emerging Tier 2 assembly. Tier 1 component fabrication needs</text>
+<text x="62" y="1036" font-size="16" fill="#4A5567" text-anchor="start">semiconductor fabs and advanced materials unlikely to mature in India before 2030-2035.</text>
+<text x="60" y="1102" font-size="15" fill="#4A5567">Source: company disclosures; Techadyant Labs analysis.</text>
+<text x="1540" y="1102" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>
