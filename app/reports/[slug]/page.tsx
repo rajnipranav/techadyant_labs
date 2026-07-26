@@ -32,6 +32,7 @@ import { ReportContent as SmeContent, toc as smeToc } from '../content/the-sme-p
 import { ReportContent as SemiconContent, toc as semiconToc } from '../content/semicon-2-0-opportunity-map';
 import { ReportContent as CriticalMineralsRoadmapContent, toc as criticalMineralsRoadmapToc } from '../content/critical-minerals-strategic-roadmap';
 import { ReportContent as QuantumSupplyContent, toc as quantumSupplyToc } from '../content/quantum-supply-chain';
+import { ReportContent as DholeraContent, toc as dholeraToc } from '../content/dholera-semiconductor-supplier-ecosystem';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -57,6 +58,7 @@ const registry: Record<string, ReportModule> = {
   'semicon-2-0-opportunity-map': { toc: semiconToc, Content: SemiconContent },
   'critical-minerals-strategic-roadmap': { toc: criticalMineralsRoadmapToc, Content: CriticalMineralsRoadmapContent },
   'quantum-supply-chain': { toc: quantumSupplyToc, Content: QuantumSupplyContent },
+  'dholera-semiconductor-supplier-ecosystem': { toc: dholeraToc, Content: DholeraContent },
 };
 
 export async function generateStaticParams() {
