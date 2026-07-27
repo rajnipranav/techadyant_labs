@@ -318,6 +318,43 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
 }
 }, {
+  slug: 'india-industrial-waste-recycling-economy',
+  title: 'India\'s Industrial Waste & Recycling Economy',
+  subtitle: 'Battery metals, e-waste, chemical recovery and the secondary-industrial opportunity across Indian recycling corridors',
+  domain: 'Industrial Waste & Recycling',
+  edition: 'Edition 01',
+  published: '2026-07-26',
+  publishedLabel: 'July 2026',
+  readingTime: '26 min read',
+  status: 'published',
+  summary: 'India\'s industrial waste and recycling economy is shifting from downstream disposal to upstream industrial infrastructure. This report maps the battery-metal, e-waste and chemical-recovery corridors where value actually accrues.',
+  accent: '#C9A84C',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 120,
+  cover: '/covers/india-industrial-waste-recycling-economy.jpg',
+  previewObject: 'https://library.techadyant.com/free reports/India-Industrial-Waste-Recycling-Economy-Free.pdf',
+  previewPages: 20,
+  keywords: ['India industrial waste recycling economy', 'battery metals India', 'e-waste recycling India', 'black mass India', 'chemical recovery India', 'critical minerals recycling India', 'secondary industrial India', 'recycling corridors India'],
+  faq: [{
+  a: 'The report sizes the secondary-industrial opportunity across battery metals, e-waste recovery and chemical recycling corridors, with a serviceable market estimate through 2030.',
+  q: 'What is the addressable market for India’s recycling economy?'
+}],
+  sources: ['CPCB e-waste data', 'Ministry of Environment circular-economy notifications', 'Battery recycling industry surveys 2025-2026'],
+  dateModified: '2026-07-27',
+  seo: {
+  entities: ['Industrial Waste & Recycling', 'battery metals', 'e-waste', 'black mass', 'chemical recovery', 'critical minerals recycling'],
+  includes: ['26 chapters and 31 figures', 'Full report PDF', 'Primary-source citations with verification labels'],
+  canonical: 'https://labs.techadyant.com/reports/india-industrial-waste-recycling-economy/',
+  metaTitle: 'India\'s Industrial Waste & Recycling Economy | Techadyant Labs',
+  schemaType: 'Report',
+  focusKeyword: 'India industrial waste recycling economy',
+  metaDescription: 'Strategic intelligence on India\'s industrial waste and recycling economy — battery metals, e-waste, black mass, chemical recovery and secondary-industrial corridors.'
+}
+}, {
   slug: 'quantum-supply-chain',
   title: 'The Hidden Supply Chain of Quantum Computing',
   subtitle: 'Cryogenics, Control Electronics, Photonics and India\'s Missing Industrial Base',

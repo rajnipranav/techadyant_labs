@@ -1,0 +1,30 @@
+{
+  "slug": "india-industrial-waste-recycling-economy",
+  "title": "India's Industrial Waste & Recycling Economy",
+  "subtitle": "Battery metals, e-waste, chemical recovery and the secondary-industrial opportunity across Indian recycling corridors",
+  "domain": "Industrial Waste & Recycling",
+  "edition": "Edition 01",
+  "published": "2026-07-26",
+  "publishedLabel": "July 2026",
+  "summary": "A strategic read across India's emergent recycling economy — battery metals, e-waste streams, black mass, chemical recovery and the investment logic of secondary industrial corridors.",
+  "accent": "#C9A84C",
+  "status": "published",
+  "access": "paid",
+  "price": 4900,
+  "previewPages": 20,
+  "downloadFilename": "India-Industrial-Waste-Recycling-Economy-Techadyant-Labs.pdf",
+  "source": {
+    "pdf": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Techadyant_Recycling_Economy_Report_Package/Recycling_Economy.pdf",
+    "preview": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Techadyant_Recycling_Economy_Report_Package/Recycling_Economy - free.pdf",
+    "cover": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Techadyant_Recycling_Economy_Report_Package/cover.jpg"
+  },
+  "signal": {
+    "no": "S-024",
+    "excerpt": "India's recycling economy is shifting from waste management to industrial infrastructure — battery metals, e-waste and chemical recovery are becoming strategic corridors.",
+    "takeaways": [
+      "Battery metals and black mass recovery are emerging as high-value secondary-industrial nodes in India's recycling economy.",
+      "E-waste streams now carry recoverable aluminium, copper, lithium and critical-mineral fractions that domestic capacity does not fully capture.",
+      "Chemical recovery and refining are the binding constraints — not collection — and define where investment actually accrues."
+    ]
+  }
+}
