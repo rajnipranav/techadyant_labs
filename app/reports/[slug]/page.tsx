@@ -33,6 +33,7 @@ import { ReportContent as SemiconContent, toc as semiconToc } from '../content/s
 import { ReportContent as CriticalMineralsRoadmapContent, toc as criticalMineralsRoadmapToc } from '../content/critical-minerals-strategic-roadmap';
 import { ReportContent as QuantumSupplyContent, toc as quantumSupplyToc } from '../content/quantum-supply-chain';
 import { ReportContent as DholeraContent, toc as dholeraToc } from '../content/dholera-semiconductor-supplier-ecosystem';
+import { ReportContent as RecyclingContent, toc as recyclingToc } from '../content/india-industrial-waste-recycling-economy';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -59,6 +60,7 @@ const registry: Record<string, ReportModule> = {
   'critical-minerals-strategic-roadmap': { toc: criticalMineralsRoadmapToc, Content: CriticalMineralsRoadmapContent },
   'quantum-supply-chain': { toc: quantumSupplyToc, Content: QuantumSupplyContent },
   'dholera-semiconductor-supplier-ecosystem': { toc: dholeraToc, Content: DholeraContent },
+  'india-industrial-waste-recycling-economy': { toc: recyclingToc, Content: RecyclingContent },
 };
 
 export async function generateStaticParams() {
