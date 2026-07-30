@@ -20,22 +20,36 @@ const kick: React.CSSProperties = { fontSize: 11, letterSpacing: '.14em', textTr
 const REPORT = { slug: 'indias-unmanned-warfare-transformation', title: 'India’s Unmanned Warfare Transformation' };
 function DeepDive() { return <Link href={`/reports/${REPORT.slug}/`} style={{ display: 'inline-block', fontSize: 12.5, color: 'var(--brass, #C9A84C)', textDecoration: 'none', border: '1px solid var(--border, rgba(255,255,255,.16))', borderRadius: 999, padding: '4px 12px' }}>Deep dive: {REPORT.title} →</Link>; }
 
-// India equirectangular projection (coarse mainland silhouette, self-contained)
-const OUTLINE: [number, number][] = [[35.5,77],[34,78.8],[32.7,79.2],[30.4,81],[30,81.4],[28.2,84],[27.9,88.2],[27.2,88.9],[26.5,89.7],[25,89.9],[24,88.2],[22.2,88.9],[21.6,87.2],[19.8,85.8],[17.7,83.3],[15.9,80.3],[13.1,80.3],[10.3,79.9],[8,77.5],[8.4,76.9],[9.9,76.2],[12.8,74.8],[15,73.9],[19,72.8],[20.8,72.6],[22.4,69],[23.7,68.2],[24.7,71],[25.4,70.6],[27.9,70.9],[30.2,74.3],[32.3,75.1],[34.3,74],[35.5,77]];
-const LAT0 = 37.5, LAT1 = 6, LNG0 = 67.5, LNG1 = 98, W = 300, H = 330;
-const px = (lng: number) => ((lng - LNG0) / (LNG1 - LNG0)) * W;
-const py = (lat: number) => ((LAT0 - lat) / (LAT0 - LAT1)) * H;
+import { INDIA_OUTLINE } from '../../corridors/data';
+
+// Calibration: 2D affine mapping lat/lng to the canonical India-outline SVG space
+// Used in corridors/app with viewBox="34 6 448 548"
+const LNG_A = 13.058220421270264;
+const LNG_B = -0.1775752897650214;
+const LNG_C = -830.466943584663;
+const LAT_A = -0.3683745615340685;
+const LAT_B = -16.049271517785876;
+const LAT_C = 680.4917400671699;
+
 function DeployMap({ deps }: { deps: Dep[] }) {
-  const path = 'M ' + OUTLINE.map(([la, ln]) => `${px(ln).toFixed(1)} ${py(la).toFixed(1)}`).join(' L ') + ' Z';
+  const path = 'M ' + INDIA_OUTLINE.split(' L ').map((seg) => {
+    const trimmed = seg.replace(/^M/, '').trim();
+    const [x, y] = trimmed.split(',').map(Number);
+    return `${x.toFixed(1)} ${y.toFixed(1)}`;
+  }).join(' L ') + ' Z';
   const pts = deps.filter((d) => d.lat && d.lng);
   return (
-    <svg viewBox={`0 0 ${W} ${H}`} style={{ width: '100%', maxWidth: 380, height: 'auto', display: 'block' }} role="img" aria-label="Counter-UAS deployment map of India">
+    <svg viewBox="34 6 448 548" style={{ width: '100%', maxWidth: 380, height: 'auto', display: 'block' }} role="img" aria-label="Counter-UAS deployment map of India">
       <path d={path} fill="rgba(255,255,255,.03)" stroke="var(--border, rgba(255,255,255,.22))" strokeWidth="1" />
-      {pts.map((d, i) => (
-        <circle key={i} cx={px(d.lng as number)} cy={py(d.lat as number)} r="3.4" fill={d.status.toLowerCase().includes('oper') ? '#2BC5B4' : '#C9A84C'} fillOpacity="0.85" stroke="var(--bg, #0b0b14)" strokeWidth="0.6">
-          <title>{d.system} — {d.location}, {d.state} ({d.status})</title>
-        </circle>
-      ))}
+      {pts.map((d, i) => {
+        const cx = LNG_A * (d.lng as number) + LNG_B * (d.lat as number) + LNG_C;
+        const cy = LAT_A * (d.lng as number) + LAT_B * (d.lat as number) + LAT_C;
+        return (
+          <circle key={i} cx={cx.toFixed(1)} cy={cy.toFixed(1)} r="3.4" fill={d.status.toLowerCase().includes('oper') ? '#2BC5B4' : '#C9A84C'} fillOpacity="0.85" stroke="var(--bg, #0b0b14)" strokeWidth="0.6">
+            <title>{d.system} — {d.location}, {d.state} ({d.status || 'Deployment'})</title>
+          </circle>
+        );
+      })}
     </svg>
   );
 }

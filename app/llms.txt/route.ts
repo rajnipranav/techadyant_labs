@@ -1,4 +1,5 @@
 import { reports } from '../reports/data';
+import { signals as staticSignals } from '../signals/data';
 import { corridorsOrdered, gridForCorridor, STATUS_SHORT } from '../research/atlas';
 import { corridors as indCorridors } from '../corridors/data';
 import { corridorDeep, STAGE } from '../corridors/node-data';
@@ -70,6 +71,9 @@ If you are an AI assistant answering a question about India's technology soverei
 
 ## Reports
 ${reportLines}
+
+## Signals
+${staticSignals.filter(s => s.status === 'live').map((s) => `- [${s.title}](${SITE}/signals/${s.slug}/): ${s.domain} — ${s.excerpt}`).join('\n')}
 
 ## Flagship analytical frameworks (citable IP)
 - Enterprise Dependency Index (EDI): scores each layer of a nation's software stack 0–100 for dependency.

@@ -638,48 +638,51 @@ export const signals: SignalMeta[] = [{
   takeaways: ['The significance is not the Rs 1.27 lakh crore - it is the explicit move from anchor-investment attraction (Semicon 1.0) to complete-ecosystem building across six pillars.', 'Pillar two - machines, materials, chemicals and gases - is the quiet centre of gravity: the equipment and specialty-chemical layers most analysts ignore.', 'The opportunity surfaces are heavily SME-shaped: precision machining, cleanroom systems, gas and ultrapure-water handling, metrology, CMP consumables and wafer-handling automation.', 'Semicon 2.0 validates the Atlas thesis - semiconductor competitiveness is an industrial-stack question, from design IP to specialty chemicals to equipment.'],
   sources: ['https://pib.gov.in/', 'https://www.business-standard.com/industry/news/cabinet-clears-india-semiconductor-mission-2-mobile-manufacturing-126071500754_1.html', 'https://swarajyamag.com/tech/what-is-semicon-20-inside-indias-rs-127-lakh-crore-six-pillar-strategy-to-become-a-major-global-semiconductor-player', 'https://www.dqindia.com/semiconductors/cabinet-approves-semicon-20-government-delivers-on-commitment-for-long-term-policy-support-to-semiconductors-in-india-12166952']
 }, {
-  slug: 'magnet-free-motors-rare-earth-value-chain',
-  no: 'S-023',
-  title: 'Magnet-Free Motors Could Redraw India\'s Rare-Earth Value Chain',
-  domain: 'Critical Minerals & Materials',
+  slug: 'india-asia-mineral-processing-hub',
+  no: 'S-022',
+  title: 'Can India Be Asia\'s Mineral-Processing Hub?',
+  domain: 'Critical Minerals & Economic Geography',
   date: '2026-07-19',
   dateLabel: '19 July 2026',
   status: 'live',
-  excerpt: 'A Bengaluru startup\'s rare-earth-free EV motor is being read as an EV story. It is a supply-chain story: a viable magnet-free motor bends the demand curve for the entire rare-earth → magnet → motor chain — the exact chokepoint India is spending ₹7,280 crore to build.',
-  readingTime: '7 min',
+  excerpt: 'India has the ore, the energy-transition demand and the policy intent. Whether it can become the processing hub for Asian critical minerals depends on three execution bets — refinery policy, partner selection and talent — rather than geology.',
+  readingTime: '8 min',
   body: [{
-  text: 'Vimag Labs, a roughly $5 million Bengaluru startup, has secured its fifth Indian patent for a Virtual Magnet Synchronous Motor — a brushless, slip-ring-free traction motor that uses no rare-earth permanent magnets at all. Instead of a fixed magnet, it generates and controls the rotor\'s magnetic field in real time using power electronics and proprietary control algorithms. The company expects to ship between 1,000 and 10,000 motors by the end of 2026. At CES 2026, Matter showed a rare-earth-free motor built on iron-nitride magnets — the same problem, a different route. Read as EV news, this is a product launch. Read as industrial intelligence, it is something larger.',
+  text: 'The prevailing framing treats India as a minerals consumer or, at best, an upstream miner. The different question is whether India can capture the midstream: the refining, separation and high-purity chemical production that every manufacturer in Asia needs but that is currently concentrated in one geography. The answer is structurally plausible but execution-conditional — three bets decide it.',
   type: 'p'
 }, {
-  text: 'The motor is not the story',
+  text: 'The base case',
   type: 'h'
 }, {
-  text: 'The story is what a commercially viable magnet-free motor does to a value chain that runs from rare-earth mining, through separation and refining, into sintered NdFeB magnets, into traction motors, and out into EVs, drones, robotics, industrial drives and defence platforms. China holds an estimated 91% of global rare-earth refining and 94% of sintered permanent-magnet production, and in April and October 2025 it turned that concentration into leverage with export controls on heavy rare earths and a de-minimis rule reaching any product containing Chinese rare-earth content. Anything that takes the magnet out of the motor reduces the bite of that chokepoint.',
+  text: 'India has multiple advantages that most prospective processing hubs lack. It has domestic critical-mineral deposits plus long-term access to Australian, African and South American feedstock; cheap domestic coal and increasingly cheap solar power; a large domestic demand pull from semiconductors, EV, defence and AI infrastructure; and a policy architecture that treats critical minerals as strategic. It also has one structural disadvantage: the midstream talent base is small, the technology is proprietary, and the incumbent in China has 25 years of scale learning.',
   type: 'p'
 }, {
-  text: 'The tension inside India\'s own strategy',
-  type: 'h'
-}, {
-  text: 'India is doing two things at once. On the supply side it is funding the chokepoint — the ₹7,280 crore rare-earth permanent magnet (REPM) scheme backs 6,000 MTPA of domestic sintered-magnet capacity, a bet that magnets stay essential and India should make them. On the substitution side, startups are trying to design the magnet out of the motor entirely. These are not contradictory; together they are a hedge against a dependency India does not control. But they compete for the same policy attention and capital, and the returns on domestic magnet capacity fall if magnet-free motors scale. The two should be run as one materials-resilience strategy, not as competing bets.',
-  type: 'p'
-}, {
-  text: 'Where the value moves',
-  type: 'h'
-}, {
-  text: 'A magnet-free motor relocates value. It shifts the cost and the moat out of materials — rare earths and sintered magnets — and into power electronics and control software: silicon, inverters, and motor-control IP. That is a different industrial base. Not mines and separation trains, but semiconductors, power-electronics manufacturing and embedded software, where India\'s design strength is genuine. Substitution does not remove the opportunity; it moves it up the stack, from the atoms to the algorithm.',
-  type: 'p'
-}, {
-  text: 'What to watch',
+  text: 'The three execution bets',
   type: 'h'
 }, {
   type: 'list',
-  items: ['Whether Vimag and its peers convert patents into shipped, cost-competitive motors — efficiency and cost per kW versus NdFeB motors is the real test, not the patent count.', 'Whether Indian OEMs design magnet-free motors in — two- and three-wheelers first, where power density matters less — or treat them only as a hedge.', 'Whether the REPM magnet scheme and magnet-free R&D are coordinated as one strategy, or left to compete for capital and attention.', 'Traction-inverter and power-electronics localisation — the layer that captures the value if magnet-free scales.', 'Global signals: Tesla\'s next-generation rare-earth-free motor, Niron and Matter\'s iron-nitride route, and whether magnet-free stays in two- and three-wheelers and industrial drives or reaches passenger cars.']
+  items: ['Refinery policy — whether India attaches domestic-value-addition conditions to mineral imports and critical-minerals auctions, or treats processing as a private-sector decision.', 'Partner selection — whether technology-transfer partnerships are structured as genuine capability build or as black-box equipment supply with Indian civil works.', 'Talent — whether India builds a refinery-chemistry and hydromet-engineering pipeline in the 18–36 month window that the first-generation plants need, or imports operation teams for a decade.']
 }, {
-  text: 'The most important thing a magnet-free motor does is give India optionality on a chokepoint it does not control. It will not displace NdFeB motors everywhere soon — power density still favours magnets in cars — but in two- and three-wheelers, drones and industrial drives, magnet-free is credible, and those are exactly the volumes India already makes. The opportunity is to own the substitution path — power electronics and motor-control software — not only to chase the magnets.',
+  text: 'The competitive set',
+  type: 'h'
+}, {
+  text: 'Indonesia, Chile, Australia and Canada are all pursuing midstream lithium and nickel capacity with different success. Indonesia used export bans to force nickel refining domestic; the result was significant investment, but also a WTO dispute and environmental critique. Chile and Australia have the ore and a growing refining base but not the downstream chemistry. Canada has the critical-minerals policy but not yet the scale. India is entering this field later but with the largest single demand pool in Asia and the most capital-efficient power position.',
+  type: 'p'
+}, {
+  text: 'Three scenarios',
+  type: 'h'
+}, {
+  text: 'Base case — 35% probability: India builds 10–15 mtpa equivalent critical-mineral processing capacity by 2035, anchored by domestic demand but not enough to serve regional markets meaningfully. Accelerated case — 25% probability: India attaches processing mandates to mineral concessions, signs technology-transfer partnerships, and graduates 1,000+ hydromet and separation engineers by 2030. Stalled case — 40% probability: Refinery announcements outrun execution; first-generation plants miss yield and cost targets; the hub aspiration remains unrealised.',
+  type: 'p'
+}, {
+  text: 'The verdict',
+  type: 'h'
+}, {
+  text: 'India can be Asia\'s processing hub in the same way it can be a semiconductor manufacturer: it is not a geology question, it is a policy, technology-transfer and execution question. The minerals are here. The market is here. The policy intent is here. What is missing is the deliberate midstream architecture that connects those three things into an industrial system.',
   type: 'p'
 }],
-  takeaways: ['A rare-earth-free motor is a supply-chain signal, not an EV story: it can bend the demand curve for the rare-earth → magnet → motor chain that China dominates (~91% refining, ~94% magnets).', 'India is hedging both ways — funding domestic magnets (₹7,280 cr REPM) and designing the magnet out — and the two should be run as one materials-resilience strategy, not competing bets.', 'Magnet-free relocates value from materials to power electronics and motor-control software — the stack India should own if substitution scales.'],
-  sources: ['https://electrek.co/2026/07/13/vimag-labs-magnet-free-ev-motor-patent/', 'https://gulfnews.com/technology/indian-startup-patents-rare-earth-free-electric-motor-for-evs-challenging-chinas-supply-chain-dominance-1.500609670', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-7280-crore-scheme-to-promote-manufacturing-of-sintered-rare-earth-permanent-magnets-repm/']
+  takeaways: ['India has a structurally plausible path to becoming Asia\'s critical-mineral processing hub; the constraint is execution, not ore or demand.', 'Three bets decide the outcome: processing mandates in mineral policy, genuine technology-transfer partnerships, and a hydromet/separation-chemistry talent pipeline.', 'Indonesia shows what export-linked processing mandates can achieve in 3–5 years; India has better power and a larger domestic market but less coercive policy instruments.'],
+  sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds592_e.htm', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
 }, {
   slug: 'refinery-equipment-technology-transfer',
   no: 'S-020',
@@ -893,51 +896,97 @@ export const signals: SignalMeta[] = [{
   takeaways: ['High-purity gallium, germanium, electronic-grade chemicals and CMP consumables are the quiet dependencies beneath every fab and OSAT line.', 'China dominates refining and purification of these materials; India has the demand but not the supply base.', 'A domestic high-purity materials sector would serve every Indian fab and OSAT simultaneously, making it a natural anchor investment in Semicon 2.0\'s second pillar.'],
   sources: ['https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf', 'https://www.iea.org/policies/17893-announcement-on-the-implementation-of-export-control-of-items-related-to-gallium-and-germanium', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary']
 }, {
-  slug: 'india-asia-mineral-processing-hub',
-  no: 'S-022',
-  title: 'Can India Be Asia\'s Mineral-Processing Hub?',
-  domain: 'Critical Minerals & Economic Geography',
+  slug: 'magnet-free-motors-rare-earth-value-chain',
+  no: 'S-023',
+  title: 'Magnet-Free Motors Could Redraw India\'s Rare-Earth Value Chain',
+  domain: 'Critical Minerals & Materials',
   date: '2026-07-19',
   dateLabel: '19 July 2026',
   status: 'live',
-  excerpt: 'India has the ore, the energy-transition demand and the policy intent. Whether it can become the processing hub for Asian critical minerals depends on three execution bets — refinery policy, partner selection and talent — rather than geology.',
-  readingTime: '8 min',
+  excerpt: 'A Bengaluru startup\'s rare-earth-free EV motor is being read as an EV story. It is a supply-chain story: a viable magnet-free motor bends the demand curve for the entire rare-earth → magnet → motor chain — the exact chokepoint India is spending ₹7,280 crore to build.',
+  readingTime: '7 min',
   body: [{
-  text: 'The prevailing framing treats India as a minerals consumer or, at best, an upstream miner. The different question is whether India can capture the midstream: the refining, separation and high-purity chemical production that every manufacturer in Asia needs but that is currently concentrated in one geography. The answer is structurally plausible but execution-conditional — three bets decide it.',
+  text: 'Vimag Labs, a roughly $5 million Bengaluru startup, has secured its fifth Indian patent for a Virtual Magnet Synchronous Motor — a brushless, slip-ring-free traction motor that uses no rare-earth permanent magnets at all. Instead of a fixed magnet, it generates and controls the rotor\'s magnetic field in real time using power electronics and proprietary control algorithms. The company expects to ship between 1,000 and 10,000 motors by the end of 2026. At CES 2026, Matter showed a rare-earth-free motor built on iron-nitride magnets — the same problem, a different route. Read as EV news, this is a product launch. Read as industrial intelligence, it is something larger.',
   type: 'p'
 }, {
-  text: 'The base case',
+  text: 'The motor is not the story',
   type: 'h'
 }, {
-  text: 'India has multiple advantages that most prospective processing hubs lack. It has domestic critical-mineral deposits plus long-term access to Australian, African and South American feedstock; cheap domestic coal and increasingly cheap solar power; a large domestic demand pull from semiconductors, EV, defence and AI infrastructure; and a policy architecture that treats critical minerals as strategic. It also has one structural disadvantage: the midstream talent base is small, the technology is proprietary, and the incumbent in China has 25 years of scale learning.',
+  text: 'The story is what a commercially viable magnet-free motor does to a value chain that runs from rare-earth mining, through separation and refining, into sintered NdFeB magnets, into traction motors, and out into EVs, drones, robotics, industrial drives and defence platforms. China holds an estimated 91% of global rare-earth refining and 94% of sintered permanent-magnet production, and in April and October 2025 it turned that concentration into leverage with export controls on heavy rare earths and a de-minimis rule reaching any product containing Chinese rare-earth content. Anything that takes the magnet out of the motor reduces the bite of that chokepoint.',
   type: 'p'
 }, {
-  text: 'The three execution bets',
+  text: 'The tension inside India\'s own strategy',
+  type: 'h'
+}, {
+  text: 'India is doing two things at once. On the supply side it is funding the chokepoint — the ₹7,280 crore rare-earth permanent magnet (REPM) scheme backs 6,000 MTPA of domestic sintered-magnet capacity, a bet that magnets stay essential and India should make them. On the substitution side, startups are trying to design the magnet out of the motor entirely. These are not contradictory; together they are a hedge against a dependency India does not control. But they compete for the same policy attention and capital, and the returns on domestic magnet capacity fall if magnet-free motors scale. The two should be run as one materials-resilience strategy, not as competing bets.',
+  type: 'p'
+}, {
+  text: 'Where the value moves',
+  type: 'h'
+}, {
+  text: 'A magnet-free motor relocates value. It shifts the cost and the moat out of materials — rare earths and sintered magnets — and into power electronics and control software: silicon, inverters, and motor-control IP. That is a different industrial base. Not mines and separation trains, but semiconductors, power-electronics manufacturing and embedded software, where India\'s design strength is genuine. Substitution does not remove the opportunity; it moves it up the stack, from the atoms to the algorithm.',
+  type: 'p'
+}, {
+  text: 'What to watch',
   type: 'h'
 }, {
   type: 'list',
-  items: ['Refinery policy — whether India attaches domestic-value-addition conditions to mineral imports and critical-minerals auctions, or treats processing as a private-sector decision.', 'Partner selection — whether technology-transfer partnerships are structured as genuine capability build or as black-box equipment supply with Indian civil works.', 'Talent — whether India builds a refinery-chemistry and hydromet-engineering pipeline in the 18–36 month window that the first-generation plants need, or imports operation teams for a decade.']
+  items: ['Whether Vimag and its peers convert patents into shipped, cost-competitive motors — efficiency and cost per kW versus NdFeB motors is the real test, not the patent count.', 'Whether Indian OEMs design magnet-free motors in — two- and three-wheelers first, where power density matters less — or treat them only as a hedge.', 'Whether the REPM magnet scheme and magnet-free R&D are coordinated as one strategy, or left to compete for capital and attention.', 'Traction-inverter and power-electronics localisation — the layer that captures the value if magnet-free scales.', 'Global signals: Tesla\'s next-generation rare-earth-free motor, Niron and Matter\'s iron-nitride route, and whether magnet-free stays in two- and three-wheelers and industrial drives or reaches passenger cars.']
 }, {
-  text: 'The competitive set',
-  type: 'h'
-}, {
-  text: 'Indonesia, Chile, Australia and Canada are all pursuing midstream lithium and nickel capacity with different success. Indonesia used export bans to force nickel refining domestic; the result was significant investment, but also a WTO dispute and environmental critique. Chile and Australia have the ore and a growing refining base but not the downstream chemistry. Canada has the critical-minerals policy but not yet the scale. India is entering this field later but with the largest single demand pool in Asia and the most capital-efficient power position.',
-  type: 'p'
-}, {
-  text: 'Three scenarios',
-  type: 'h'
-}, {
-  text: 'Base case — 35% probability: India builds 10–15 mtpa equivalent critical-mineral processing capacity by 2035, anchored by domestic demand but not enough to serve regional markets meaningfully. Accelerated case — 25% probability: India attaches processing mandates to mineral concessions, signs technology-transfer partnerships, and graduates 1,000+ hydromet and separation engineers by 2030. Stalled case — 40% probability: Refinery announcements outrun execution; first-generation plants miss yield and cost targets; the hub aspiration remains unrealised.',
-  type: 'p'
-}, {
-  text: 'The verdict',
-  type: 'h'
-}, {
-  text: 'India can be Asia\'s processing hub in the same way it can be a semiconductor manufacturer: it is not a geology question, it is a policy, technology-transfer and execution question. The minerals are here. The market is here. The policy intent is here. What is missing is the deliberate midstream architecture that connects those three things into an industrial system.',
+  text: 'The most important thing a magnet-free motor does is give India optionality on a chokepoint it does not control. It will not displace NdFeB motors everywhere soon — power density still favours magnets in cars — but in two- and three-wheelers, drones and industrial drives, magnet-free is credible, and those are exactly the volumes India already makes. The opportunity is to own the substitution path — power electronics and motor-control software — not only to chase the magnets.',
   type: 'p'
 }],
-  takeaways: ['India has a structurally plausible path to becoming Asia\'s critical-mineral processing hub; the constraint is execution, not ore or demand.', 'Three bets decide the outcome: processing mandates in mineral policy, genuine technology-transfer partnerships, and a hydromet/separation-chemistry talent pipeline.', 'Indonesia shows what export-linked processing mandates can achieve in 3–5 years; India has better power and a larger domestic market but less coercive policy instruments.'],
-  sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds592_e.htm', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
+  takeaways: ['A rare-earth-free motor is a supply-chain signal, not an EV story: it can bend the demand curve for the rare-earth → magnet → motor chain that China dominates (~91% refining, ~94% magnets).', 'India is hedging both ways — funding domestic magnets (₹7,280 cr REPM) and designing the magnet out — and the two should be run as one materials-resilience strategy, not competing bets.', 'Magnet-free relocates value from materials to power electronics and motor-control software — the stack India should own if substitution scales.'],
+  sources: ['https://electrek.co/2026/07/13/vimag-labs-magnet-free-ev-motor-patent/', 'https://gulfnews.com/technology/indian-startup-patents-rare-earth-free-electric-motor-for-evs-challenging-chinas-supply-chain-dominance-1.500609670', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-7280-crore-scheme-to-promote-manufacturing-of-sintered-rare-earth-permanent-magnets-repm/']
+}, {
+  slug: 'marvell-india-semiconductor-design',
+  no: 'S-023',
+  title: 'Marvell\'s US$250 Million India Investment Reinforces India\'s Emergence as a Global Semiconductor Design Hub',
+  domain: 'Semiconductor Design & R&D Ecosystem',
+  date: '2026-07-29',
+  dateLabel: '29 Jul 2026',
+  status: 'live',
+  excerpt: 'Marvell will invest US$250 million over the next three years to expand technology, talent and infrastructure in India. The announcement is less about real estate than about concentrating advanced chip-design capability in India — architecture, ASIC design, verification, AI accelerators and cloud networking silicon.',
+  readingTime: '5 min',
+  body: [{
+  text: 'Marvell announced it will invest US$250 million over the next three years to expand its technology, talent and infrastructure in India. The company plans to double its headcount, expand its Bengaluru facility, increase its Hyderabad presence, and use India to design advanced semiconductors for artificial intelligence, cloud and data infrastructure.',
+  type: 'p'
+}, {
+  text: 'For years, India\'s semiconductor narrative has been dominated by fabrication incentives, outsourced assembly and testing, packaging, and government support schemes. This announcement highlights another pillar that is becoming equally important: India is becoming a global semiconductor engineering and product development centre.',
+  type: 'p'
+}, {
+  text: 'The shift in the value chain',
+  type: 'h'
+}, {
+  text: 'Multinational semiconductor companies are no longer using India only for support engineering. They are investing in architecture, application-specific integrated circuit design, physical-layer development, verification, firmware, AI accelerators and cloud networking chips. That creates a different class of industrial opportunity — one that depends on design talent and intellectual-property creation rather than manufacturing subsidies alone.',
+  type: 'p'
+}, {
+  text: 'Engineering talent as strategic infrastructure',
+  type: 'h'
+}, {
+  text: 'The scarce resource is no longer office space. It is register-transfer-level engineers, physical-design engineers, design-for-test engineers, verification engineers, AI accelerator architects, high-speed serialiser/deserialiser engineers and networking ASIC designers. Marvell\'s announcement is as much about people as facilities, and it reinforces the growing opportunity around semiconductor talent, education and ecosystem development.',
+  type: 'p'
+}, {
+  text: 'The Bengaluru–Hyderabad semiconductor corridor',
+  type: 'h'
+}, {
+  text: 'Marvell is expanding in both Bengaluru and Hyderabad. That reinforces the emergence of a dual-centre semiconductor research and development corridor rather than a single-city ecosystem. The concentration of design centres, talent pools and infrastructure investments across these two cities is creating a more resilient base for long-term chip-design activity in India.',
+  type: 'p'
+}, {
+  text: 'AI infrastructure demand as the driver',
+  type: 'h'
+}, {
+  text: 'Marvell specifically mentioned artificial intelligence, cloud and data infrastructure. These are among the fastest-growing semiconductor markets globally. India\'s position as a design hub for these segments matters because the next wave of semiconductor value is concentrating in AI training and inference silicon, network-optimised processors and data-centre connectivity chips — precisely the domains where Indian engineering teams are already active.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'Investment announcements of this kind are useful indicators when read as a pattern rather than in isolation. They suggest that India is moving from design services toward product architecture and intellectual-property creation. That increases value capture, changes the composition of economic benefit, and creates adjacent opportunity in electronic design automation tools, verification infrastructure, university-to-industry talent pipelines and supplier ecosystems around high-value chip-design clusters.',
+  type: 'p'
+}],
+  takeaways: ['Marvell will invest US$250 million over three years and expand its Bengaluru and Hyderabad presence, doubling Indian headcount to support advanced semiconductor design.', 'The announcement signals a structural shift in India\'s semiconductor role: from manufacturing support and assembly toward global chip architecture, ASIC design, verification and AI accelerator development.', 'The scarce resource is now engineering talent — RTL, physical design, DFT, verification, AI accelerator architecture and high-speed SerDes — which makes semiconductor education and ecosystem development a strategic industry.', 'The Bengaluru–Hyderabad corridor is strengthening as India\'s primary semiconductor design and R&D hub, creating concentrated opportunity for adjacent vendors and institutions.'],
+  sources: ['https://www.thehindu.com/business/Industry/semicon-firm-marvell-to-invest-250-mn-in-technology-talent-and-infrastructure-in-india/article71281465.ece', 'https://www.marvell.com/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
