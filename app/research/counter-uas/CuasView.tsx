@@ -23,24 +23,27 @@ function DeepDive() { return <Link href={`/reports/${REPORT.slug}/`} style={{ di
 import { INDIA_OUTLINE } from '../../corridors/data';
 
 // Calibration: 2D affine mapping lat/lng to the canonical India-outline SVG space
-// Used in corridors/app with viewBox="34 6 448 548"
-const LNG_A = 13.058220421270264;
-const LNG_B = -0.1775752897650214;
-const LNG_C = -830.466943584663;
-const LAT_A = -0.3683745615340685;
-const LAT_B = -16.049271517785876;
-const LAT_C = 680.4917400671699;
+// Derived from corridor anchor positions in the absolute SVG-space map (`0 0 550 563.58`)
+const LNG_A = 13.06538;
+const LNG_B = -0.15374;
+const LNG_C = -830.5;
+const LAT_A = -0.47098;
+const LAT_B = -15.09358;
+const LAT_C = 679.0;
 
 function DeployMap({ deps }: { deps: Dep[] }) {
-  const path = 'M ' + INDIA_OUTLINE.split(' L ').map((seg) => {
-    const trimmed = seg.replace(/^M/, '').trim();
-    const [x, y] = trimmed.split(',').map(Number);
-    return `${x.toFixed(1)} ${y.toFixed(1)}`;
-  }).join(' L ') + ' Z';
+  const coords = useMemo(() => {
+    const m = INDIA_OUTLINE.match(/-?\d+(?:\.\d+)?/g);
+    const out: string[] = [];
+    if (m && m.length >= 2) {
+      for (let i = 0; i < m.length; i += 2) out.push(`${m[i]} ${m[i + 1]}`);
+    }
+    return out.length ? `M ${out.join(' L ')} Z` : '';
+  }, []);
   const pts = deps.filter((d) => d.lat && d.lng);
   return (
-    <svg viewBox="34 6 448 548" style={{ width: '100%', maxWidth: 380, height: 'auto', display: 'block' }} role="img" aria-label="Counter-UAS deployment map of India">
-      <path d={path} fill="rgba(255,255,255,.03)" stroke="var(--border, rgba(255,255,255,.22))" strokeWidth="1" />
+    <svg viewBox="0 0 550 563.58" style={{ width: '100%', maxWidth: 380, height: 'auto', display: 'block' }} role="img" aria-label="Counter-UAS deployment map of India">
+      <path d={coords} fill="rgba(255,255,255,.03)" stroke="var(--border, rgba(255,255,255,.22))" strokeWidth="1" />
       {pts.map((d, i) => {
         const cx = LNG_A * (d.lng as number) + LNG_B * (d.lat as number) + LNG_C;
         const cy = LAT_A * (d.lng as number) + LAT_B * (d.lat as number) + LAT_C;
