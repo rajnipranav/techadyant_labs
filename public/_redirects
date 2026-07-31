@@ -39,6 +39,3 @@
 /research/players/submarine-air-independent-propulsion/ /research/dependencies/ 301
 /research/players/counter-uas-anti-drone-systems /research/counter-uas/ 301
 /research/players/counter-uas-anti-drone-systems/ /research/counter-uas/ 301
-
-# Stale Atlas /research chunk after redeploy -> current exported chunk
-/_next/static/chunks/app/research/page-c2e86caf89a9c92d.js /_next/static/chunks/app/research/page-99b57fd7b782c02e.js 301
