@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { DronesView } from './DronesView';
 import { DronesTrack } from './DronesTrack';
+import { companies, platforms } from './data';
 import dronesData from '../_drones.json';
 
 const meta = (dronesData as { meta: { platforms: number; companies: number; indianCompanies: number; procurementInrCr: number; agencies: number; opportunities: number; buildNow: number; criticalDeps: number } }).meta;
@@ -87,6 +88,31 @@ export default function DronesPage() {
             <div className="ed-kicker" style={{ marginBottom: 8 }}>Are we missing your company?</div>
             <p style={{ margin: '0 0 12px', fontSize: 14, color: 'var(--text-dim)', lineHeight: 1.6 }}>Building drones, components, software or services in India? Tell us and we&apos;ll add you to the Atlas.</p>
             <a href="mailto:hello@techadyant.com?subject=Add%20my%20company%20to%20the%20UAS%20Atlas" style={{ color: 'var(--brass, #C9A84C)', fontWeight: 700 }}>Submit your company →</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Server-rendered directory — gives every company/platform page an incoming internal link
+          (the interactive DronesView is client-side, so its links weren't crawlable → orphan pages
+          in Ahrefs Site Audit, July 2026). */}
+      <section className="wrap">
+        <div className="section-head-ed"><div><div className="ed-kicker">Directory</div><h2>Every platform &amp; maker in the Atlas</h2></div></div>
+        <div className="atlas-dir">
+          <div>
+            <h3>Companies ({companies.length})</h3>
+            <ul className="atlas-dir-list">
+              {companies.map((c) => (
+                <li key={c.slug}><Link href={`/research/drones-uas/company/${c.slug}/`}>{c.name}</Link></li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h3>Platforms ({platforms.length})</h3>
+            <ul className="atlas-dir-list">
+              {platforms.map((p) => (
+                <li key={p.slug}><Link href={`/research/drones-uas/platform/${p.slug}/`}>{p.name}{p.variant ? ` · ${p.variant}` : ''}</Link></li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>

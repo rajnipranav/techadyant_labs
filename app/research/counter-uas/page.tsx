@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { CuasView } from './CuasView';
 import { CuasTrack } from './CuasTrack';
+import { systems, manufacturers } from './data';
 import cuasData from '../_cuas.json';
 
 const meta = (cuasData as { meta: { systems: number; indianSystems: number; manufacturers: number; procurementCr: number; deployments: number; criticalComponents: number; avgIndigenous: number } }).meta;
@@ -71,6 +72,30 @@ export default function CuasPage() {
             <div className="ed-kicker" style={{ marginBottom: 8 }}>Are we missing your system?</div>
             <p style={{ margin: '0 0 12px', fontSize: 14, color: 'var(--text-dim)', lineHeight: 1.6 }}>Building counter-drone systems, sensors or effectors in India? Tell us and we&apos;ll add you to the Atlas.</p>
             <a href="mailto:hello@techadyant.com?subject=Add%20my%20counter-UAS%20system%20to%20the%20Atlas" style={{ color: 'var(--brass, #C9A84C)', fontWeight: 700 }}>Submit your system →</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Server-rendered directory — gives every system/manufacturer page an incoming internal
+          link (the interactive CuasView is client-side → its links were orphaned in Ahrefs, Jul 2026). */}
+      <section className="wrap">
+        <div className="section-head-ed"><div><div className="ed-kicker">Directory</div><h2>Every system &amp; maker in the Atlas</h2></div></div>
+        <div className="atlas-dir">
+          <div>
+            <h3>Systems ({systems.length})</h3>
+            <ul className="atlas-dir-list">
+              {systems.map((s) => (
+                <li key={s.slug}><Link href={`/research/counter-uas/system/${s.slug}/`}>{s.name}{s.variant ? ` · ${s.variant}` : ''}</Link></li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h3>Manufacturers ({manufacturers.length})</h3>
+            <ul className="atlas-dir-list">
+              {manufacturers.map((m) => (
+                <li key={m.slug}><Link href={`/research/counter-uas/manufacturer/${m.slug}/`}>{m.name}</Link></li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>

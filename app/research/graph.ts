@@ -211,6 +211,12 @@ function curatedEntities(): AtlasGraphEntity[] {
 const playerEntities = allPlayers.map(playerToEntity);
 const allEntities = [...playerEntities, ...reportEntities(), ...signalEntities(), ...curatedEntities(), ...curatedSeedEntities];
 
+// Every player also appears as a graph entity at /research/entities/<slug> with the SAME
+// slug as its /research/players/<slug> page — a duplicate that splits ranking signal (GSC,
+// July 2026). The entity page canonicalises to the players URL for these, consolidating signal.
+const playerSlugSet = new Set(playerEntities.map((e) => e.slug));
+export const isPlayerSlug = (slug: string): boolean => playerSlugSet.has(slug);
+
 const playerIds = new Set(allPlayers.map((p) => p.id));
 
 function relationKind(type: string): AtlasRelationshipKind {

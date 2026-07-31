@@ -39,3 +39,13 @@
 /research/players/submarine-air-independent-propulsion/ /research/dependencies/ 301
 /research/players/counter-uas-anti-drone-systems /research/counter-uas/ 301
 /research/players/counter-uas-anti-drone-systems/ /research/counter-uas/ 301
+
+# --- Catch-all safety net (SEO, Jul 2026) ---------------------------------
+# Any entity/player/graph detail page that no longer exists after a SID re-bake
+# (curation or name drift) 301s to its directory instead of returning 404.
+# Cloudflare Pages serves matching static files FIRST, so every live page is
+# unaffected; only genuinely-missing URLs reach these rules. The specific rules
+# above take precedence (first match wins).
+/research/players/*   /research/players/   301
+/research/entities/*  /research/entities/  301
+/research/e/*         /research/entities/  301

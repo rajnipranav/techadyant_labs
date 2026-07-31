@@ -7,6 +7,7 @@ import {
   ENTITY_KIND_LABELS,
   entityBySlug,
   graphEntities,
+  isPlayerSlug,
   relatedEdges,
   relatedEntities,
 } from '../../graph';
@@ -25,7 +26,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${entity.title} - Atlas Entity`,
     description: clamp(entity.summary || `${entity.title} in the Techadyant Atlas knowledge graph.`),
-    alternates: { canonical: `${SITE}/research/entities/${entity.slug}/` },
+    // Players also live at /research/players/<slug>; canonicalise there so Google consolidates
+    // the two duplicate URLs' ranking signal onto one page (GSC July 2026 fix).
+    alternates: {
+      canonical: isPlayerSlug(entity.slug)
+        ? `${SITE}/research/players/${entity.slug}/`
+        : `${SITE}/research/entities/${entity.slug}/`,
+    },
   };
 }
 

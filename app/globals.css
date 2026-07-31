@@ -2311,3 +2311,12 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .cgl .maplibregl-popup-content{font-size:12px;line-height:1.45;padding:8px 10px;border-radius:8px}
 @media(max-width:640px){.cgl-map{height:420px}.cgl-legend{margin-left:0;width:100%}}
 .cgl-compact .cgl-map{height:380px}
+
+/* Atlas SSR directory (drones-uas / counter-uas index — de-orphan child pages, Jul 2026) */
+.atlas-dir{display:grid;gap:28px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.atlas-dir h3{font-size:14px;margin:0 0 10px;color:var(--text-dim)}
+.atlas-dir-list{list-style:none;margin:0;padding:0;columns:2;column-gap:20px}
+.atlas-dir-list li{break-inside:avoid;margin:0 0 6px;font-size:13px;line-height:1.4}
+.atlas-dir-list a{color:var(--text);text-decoration:none}
+.atlas-dir-list a:hover{color:var(--brass,#C9A84C);text-decoration:underline}
+@media(max-width:640px){.atlas-dir-list{columns:1}}

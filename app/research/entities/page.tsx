@@ -70,8 +70,11 @@ export default function EntitiesPage() {
                   <span>{entities.length}</span>
                 </div>
                 {entities.length > 0 ? (
+                  // Link EVERY entity, not just the first 8 — this index is the crawlable
+                  // directory that gives each Atlas entity page an incoming internal link
+                  // (fixes ~hundreds of orphan pages flagged by Ahrefs Site Audit, July 2026).
                   <ul role="list" className="entity-link-list">
-                    {entities.slice(0, 8).map((entity) => (
+                    {entities.map((entity) => (
                       <li key={entity.id}>
                         <Link href={entity.href}>{entity.title}</Link>
                         {entity.subtitle ? <span>{entity.subtitle}</span> : null}
