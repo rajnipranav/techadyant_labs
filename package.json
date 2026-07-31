@@ -7,7 +7,7 @@
     "build": "node scripts/sync-cms-to-data.mjs && node scripts/bake-sid.mjs && node scripts/bake-platform.mjs && next build && node scripts/indexnow-submit.mjs",
     "build:only": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "sync-meta": "node scripts/sync-report-meta.mjs",
     "sync-cms": "node scripts/sync-cms-to-data.mjs",
     "migrate-cms": "node scripts/migrate-to-cms.mjs",

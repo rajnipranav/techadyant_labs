@@ -16,6 +16,7 @@ const NAV: NavGroup[] = [
       { href: '/research/pillars/ai-infrastructure', label: 'AI Infrastructure' },
       { href: '/research/pillars/defence', label: 'Defence' },
       { href: '/research/pillars/enterprise-software', label: 'Enterprise Software' },
+      { href: '/research/critical-manufacturing-dependencies', label: 'Critical Manufacturing Dependencies' },
       { href: '/research/drones-uas', label: 'Unmanned Systems' },
       { href: '/research/counter-uas', label: 'Counter-UAS' },
       { href: '/research/pillars', label: 'All pillar maps →' },
