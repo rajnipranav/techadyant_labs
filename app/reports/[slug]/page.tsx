@@ -176,6 +176,37 @@ function faqJsonLd(meta: any) {
   });
 }
 
+// Priced-Product markup for PAID reports. A paid report is a purchasable digital
+// product, so it may carry Product + Offer structured data (this is what makes it a
+// valid Google "product snippet" — the Report markup above stays for article/scholar
+// treatment). Free reports emit no Offer and are not products.
+function productJsonLd(meta: any) {
+  if (!meta || meta.access !== 'paid' || !meta.price) return null;
+  const seo = meta.seo || {};
+  const canonical = seo.canonical || `https://labs.techadyant.com/reports/${meta.slug}/`;
+  const rawImg = seo.ogImage || meta.cover;
+  const image = rawImg ? (/^https?:\/\//.test(rawImg) ? rawImg : `https://labs.techadyant.com${rawImg}`) : undefined;
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: meta.title,
+    image,
+    description: seo.metaDescription || meta.summary,
+    category: meta.domain,
+    brand: { '@type': 'Brand', name: 'Techadyant Labs' },
+    url: canonical,
+    offers: {
+      '@type': 'Offer',
+      price: String(meta.price),
+      priceCurrency: meta.currency || 'INR',
+      availability: 'https://schema.org/InStock',
+      url: canonical,
+      priceValidUntil: '2027-12-31',
+      seller: { '@type': 'Organization', name: 'Techadyant Labs' },
+    },
+  });
+}
+
 export default async function ReportPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   let meta: any = await getReportBySlug(slug);
@@ -186,6 +217,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
   const published = meta.status === 'published';
   const ldJson = articleJsonLd(meta);
   const faqJson = faqJsonLd(meta);
+  const productJson = productJsonLd(meta);
   const r2Base = process.env.NEXT_PUBLIC_R2_PUBLIC_BASE || 'https://library.techadyant.com';
   const r2Prefix = (process.env.NEXT_PUBLIC_R2_FREE_PREFIX || 'free reports').replace(/^\/|\/$/g, '');
   const fullPdfUrl =
@@ -219,6 +251,13 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           type="application/ld+json"
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: faqJson }}
+        />
+      )}
+      {productJson && (
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: productJson }}
         />
       )}
       <header className="report-hero">

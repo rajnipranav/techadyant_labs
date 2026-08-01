@@ -31,53 +31,6 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
-  slug: 'india-critical-manufacturing-dependencies',
-  title: 'India’s Critical Manufacturing Dependencies',
-  subtitle: 'What should India manufacture domestically over the next decade — why, where, how, and who should build it? 312 strategic import surfaces scored across twelve mega-sectors on the Critical Manufacturing Dependency Index, with twelve executable opportunity zones.',
-  domain: 'Critical Manufacturing Dependencies',
-  edition: 'Strategic Intelligence · Edition I · v1.0',
-  published: '2026-08-01',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'India does not have an import problem; it has an industrial-capability problem disguised as one. This inaugural edition treats the customs ledger as a diagnostic signal, identifying, scoring and decomposing 312 strategic opportunity surfaces across twelve mega-sectors on the proprietary Critical Manufacturing Dependency Index and nine companion indices. India’s manufacturing value added is about $470 billion — 2.9% of the global total — while roughly $506 billion of its $672 billion merchandise imports are strategic. Two imperatives govern the response: localise the single-source chokepoints before the volume (a $400 million EUV-photoresist import is more urgent than a $4 billion commodity), and descend the industrial stack from final assembly toward components, materials, machinery and test-and-certification. The report concentrates capital on twelve executable opportunity zones — from semiconductors in Dholera to Li-ion cells in the Chennai corridor — within a roughly $480 billion, largely private, phased localisation envelope over 2026–2035, set against $5.6 trillion of strategic imports if nothing changes. Thirteen chapters, 46 tables, 30 figures, the underlying CMDD database and full appendices.',
-  accent: '#1F5C8C',
-  access: 'paid',
-  price: 6999,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 132,
-  cover: 'https://library.techadyant.com/covers/india-critical-manufacturing-dependencies.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/India-Critical-Manufacturing-Dependencies-2026-Free-Edition.pdf',
-  previewPages: 16,
-  keywords: ['india critical manufacturing dependencies', 'india import dependency', 'critical manufacturing dependency index', 'india import substitution 2035', 'india manufacturing localisation', 'semiconductor import dependency india', 'india supply chain sovereignty', 'india manufacturing value added', 'india chokepoint imports', 'PLI scheme performance india', 'india manufacturing opportunity zones', 'india industrial capability gap'],
-  faq: [{
-  a: 'The Critical Manufacturing Dependency Index (CMDI) is a 0–100 score of how strategically import-dependent India is for a product, weighting import value, supply risk, strategic importance, industrial multiplier and substitutability. It is designed to rank by strategic danger rather than by import value, so single-source chokepoints surface above large commodities.',
-  q: 'What is the Critical Manufacturing Dependency Index?'
-}, {
-  a: 'The report identifies, scores and decomposes 312 strategic opportunity surfaces across twelve mega-sectors, drawn from roughly $506 billion of strategic imports within India’s $672 billion annual merchandise import bill.',
-  q: 'How many products does the report cover?'
-}, {
-  a: 'The deepest dependencies combine high import value, concentrated foreign supply and near-zero domestic capability — EUV photoresist, leading-edge logic chips (7nm and below), combat aero-engines, and DRAM and NAND memory. Every one is effectively single-source.',
-  q: 'What are India’s deepest manufacturing dependencies?'
-}, {
-  a: 'The full localisation envelope is roughly $480 billion of largely private, phased capital over 2026–2035, concentrated on twelve executable opportunity zones — set against about $5.6 trillion of strategic imports over the same period if current trajectories continue.',
-  q: 'How much capital would localisation require?'
-}, {
-  a: 'Two disciplines govern every target: cost-parity (a localised product that cannot reach competitive cost is a permanent subsidy, not sovereignty) and a subsidy-exit condition. The report scores 312 surfaces precisely so capital concentrates where the return is defensible, not everywhere.',
-  q: 'Does the report address the risk of protectionism?'
-}],
-  sources: [],
-  dateModified: '2026-08-01',
-  seo: {
-  entities: ['Critical Manufacturing Dependency Index', 'import substitution', 'India Semiconductor Mission', 'PLI scheme', 'manufacturing value added', 'EUV photoresist', 'supply chain sovereignty', 'Dholera', 'Make in India', 'DGCIS'],
-  metaTitle: 'India’s Critical Manufacturing Dependencies 2026: 312 Import Surfaces, Scored',
-  schemaType: 'Report',
-  focusKeyword: 'india critical manufacturing dependencies',
-  metaDescription: 'India’s strategic import dependencies scored on the Critical Manufacturing Dependency Index — 312 surfaces across twelve sectors, the deepest chokepoints, twelve opportunity zones and a $480 billion localisation map to 2035.'
-}
-}, {
   slug: 'q-day-india',
   title: 'Q-Day India',
   subtitle: 'India’s readiness for post-quantum cryptography and the migration architecture',
@@ -328,6 +281,53 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-08-15',
   seo: {
 
+}
+}, {
+  slug: 'india-critical-manufacturing-dependencies',
+  title: 'India’s Critical Manufacturing Dependencies',
+  subtitle: 'What should India manufacture domestically over the next decade — why, where, how, and who should build it? 312 strategic import surfaces scored across twelve mega-sectors on the Critical Manufacturing Dependency Index, with twelve executable opportunity zones.',
+  domain: 'Critical Manufacturing Dependencies',
+  edition: 'Strategic Intelligence · Edition I · v1.0',
+  published: '2026-08-01',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India does not have an import problem; it has an industrial-capability problem disguised as one. This inaugural edition treats the customs ledger as a diagnostic signal, identifying, scoring and decomposing 312 strategic opportunity surfaces across twelve mega-sectors on the proprietary Critical Manufacturing Dependency Index and nine companion indices. India’s manufacturing value added is about $470 billion — 2.9% of the global total — while roughly $506 billion of its $672 billion merchandise imports are strategic. Two imperatives govern the response: localise the single-source chokepoints before the volume (a $400 million EUV-photoresist import is more urgent than a $4 billion commodity), and descend the industrial stack from final assembly toward components, materials, machinery and test-and-certification. The report concentrates capital on twelve executable opportunity zones — from semiconductors in Dholera to Li-ion cells in the Chennai corridor — within a roughly $480 billion, largely private, phased localisation envelope over 2026–2035, set against $5.6 trillion of strategic imports if nothing changes. Thirteen chapters, 46 tables, 30 figures, the underlying CMDD database and full appendices.',
+  accent: '#1F5C8C',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 132,
+  cover: 'https://library.techadyant.com/covers/india-critical-manufacturing-dependencies.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India-Critical-Manufacturing-Dependencies-2026-Free-Edition.pdf',
+  previewPages: 16,
+  keywords: ['india critical manufacturing dependencies', 'india import dependency', 'critical manufacturing dependency index', 'india import substitution 2035', 'india manufacturing localisation', 'semiconductor import dependency india', 'india supply chain sovereignty', 'india manufacturing value added', 'india chokepoint imports', 'PLI scheme performance india', 'india manufacturing opportunity zones', 'india industrial capability gap'],
+  faq: [{
+  a: 'The Critical Manufacturing Dependency Index (CMDI) is a 0–100 score of how strategically import-dependent India is for a product, weighting import value, supply risk, strategic importance, industrial multiplier and substitutability. It is designed to rank by strategic danger rather than by import value, so single-source chokepoints surface above large commodities.',
+  q: 'What is the Critical Manufacturing Dependency Index?'
+}, {
+  a: 'The report identifies, scores and decomposes 312 strategic opportunity surfaces across twelve mega-sectors, drawn from roughly $506 billion of strategic imports within India’s $672 billion annual merchandise import bill.',
+  q: 'How many products does the report cover?'
+}, {
+  a: 'The deepest dependencies combine high import value, concentrated foreign supply and near-zero domestic capability — EUV photoresist, leading-edge logic chips (7nm and below), combat aero-engines, and DRAM and NAND memory. Every one is effectively single-source.',
+  q: 'What are India’s deepest manufacturing dependencies?'
+}, {
+  a: 'The full localisation envelope is roughly $480 billion of largely private, phased capital over 2026–2035, concentrated on twelve executable opportunity zones — set against about $5.6 trillion of strategic imports over the same period if current trajectories continue.',
+  q: 'How much capital would localisation require?'
+}, {
+  a: 'Two disciplines govern every target: cost-parity (a localised product that cannot reach competitive cost is a permanent subsidy, not sovereignty) and a subsidy-exit condition. The report scores 312 surfaces precisely so capital concentrates where the return is defensible, not everywhere.',
+  q: 'Does the report address the risk of protectionism?'
+}],
+  sources: [],
+  dateModified: '2026-08-01',
+  seo: {
+  entities: ['Critical Manufacturing Dependency Index', 'import substitution', 'India Semiconductor Mission', 'PLI scheme', 'manufacturing value added', 'EUV photoresist', 'supply chain sovereignty', 'Dholera', 'Make in India', 'DGCIS'],
+  metaTitle: 'India’s Critical Manufacturing Dependencies 2026: 312 Import Surfaces, Scored',
+  schemaType: 'Report',
+  focusKeyword: 'india critical manufacturing dependencies',
+  metaDescription: 'India’s strategic import dependencies scored on the Critical Manufacturing Dependency Index — 312 surfaces across twelve sectors, the deepest chokepoints, twelve opportunity zones and a $480 billion localisation map to 2035.'
 }
 }, {
   slug: 'dholera-semiconductor-supplier-ecosystem',

@@ -31,7 +31,7 @@ export default async function PlatformPage({ params }: { params: Promise<{ slug:
   const specs = [num(p.mtow, ' kg MTOW'), num(p.payload, ' kg payload'), num(p.endurance, ' hr endurance'), num(p.range, ' km range'), num(p.ceiling, ' m ceiling'), num(p.speed, ' km/h'), p.power].filter(Boolean) as string[];
   const totalProc = proc.reduce((s, x) => s + (x.inr_cr || 0), 0);
   const ld = {
-    '@context': 'https://schema.org', '@type': 'Product', name: p.name, category: p.category,
+    '@context': 'https://schema.org', '@type': 'Thing', name: p.name, category: p.category,
     description: p.desc || `${p.name} unmanned aerial system`, manufacturer: { '@type': 'Organization', name: p.mfr },
     countryOfOrigin: p.origin, url: `https://labs.techadyant.com/research/drones-uas/platform/${p.slug}/`,
   };

@@ -24,7 +24,7 @@ export default async function SystemPage({ params }: { params: Promise<{ slug: s
   const deps = deploymentsForSystem(s.id, s.name);
   const it = intelForSystem(s.name, s.id);
   const cslug = mfrSlug(s.mfr);
-  const ld = { '@context': 'https://schema.org', '@type': 'Product', name: s.name, category: 'Counter-UAS system', manufacturer: { '@type': 'Organization', name: s.mfr }, countryOfOrigin: s.country, url: `https://labs.techadyant.com/research/counter-uas/system/${s.slug}/` };
+  const ld = { '@context': 'https://schema.org', '@type': 'Thing', name: s.name, category: 'Counter-UAS system', manufacturer: { '@type': 'Organization', name: s.mfr }, countryOfOrigin: s.country, url: `https://labs.techadyant.com/research/counter-uas/system/${s.slug}/` };
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />

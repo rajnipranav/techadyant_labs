@@ -51,7 +51,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
       <JsonLd data={[
         breadcrumb([{ name: 'Home', path: '/' }, { name: 'Dependencies', path: '/dependencies/' }, { name: 'Products', path: '/dependencies/products/' }, { name: p.name, path: `/dependencies/products/${p.product_id}/` }]),
         faqLd(faqs),
-        { '@context': 'https://schema.org', '@type': 'Product', name: p.name, category: sector?.name, description: p.why_it_matters, additionalProperty: [
+        { '@context': 'https://schema.org', '@type': 'Thing', name: p.name, category: sector?.name, description: p.why_it_matters, additionalProperty: [
           { '@type': 'PropertyValue', name: 'Critical Manufacturing Dependency Index', value: p.cmdi },
           { '@type': 'PropertyValue', name: 'Localisation Potential Index', value: p.lpi },
           { '@type': 'PropertyValue', name: 'Import value (USD bn)', value: p.import_usd_bn },
