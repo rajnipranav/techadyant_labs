@@ -11,6 +11,7 @@ import { allCorridorNodePairs } from './corridors/node-data';
 import platformEntities from './research/_platform.json';
 import droneAtlas from './research/_drones.json';
 import cuasAtlas from './research/_cuas.json';
+import { products as depProducts, sectors as depSectors, states as depStates } from './dependencies/data';
 
 // The project uses `output: 'export'` for Cloudflare Pages static deploy;
 // route handlers must be marked static so they're generated at build time.
@@ -156,5 +157,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...ca.systems.map((x) => ({ url: `${SITE}/research/counter-uas/system/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.55 })),
     ...ca.manufacturers.map((x) => ({ url: `${SITE}/research/counter-uas/manufacturer/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 })),
   ];
-  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes, ...cuasRoutes];
+  const depRoutes: MetadataRoute.Sitemap = [
+    { url: `${SITE}/dependencies/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 },
+    { url: `${SITE}/dependencies/products/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.75 },
+    ...depSectors.map((s) => ({ url: `${SITE}/dependencies/sectors/${s.sector_id}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7 })),
+    ...depStates.map((s) => ({ url: `${SITE}/dependencies/states/${s.state_id}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 })),
+    ...depProducts.map((p) => ({ url: `${SITE}/dependencies/products/${p.product_id}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 })),
+  ];
+
+  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes, ...cuasRoutes, ...depRoutes];
 }
