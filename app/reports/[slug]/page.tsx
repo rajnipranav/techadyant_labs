@@ -34,6 +34,7 @@ import { ReportContent as CriticalMineralsRoadmapContent, toc as criticalMineral
 import { ReportContent as QuantumSupplyContent, toc as quantumSupplyToc } from '../content/quantum-supply-chain';
 import { ReportContent as DholeraContent, toc as dholeraToc } from '../content/dholera-semiconductor-supplier-ecosystem';
 import { ReportContent as RecyclingContent, toc as recyclingToc } from '../content/india-industrial-waste-recycling-economy';
+import { ReportContent as CmddContent, toc as cmddToc } from '../content/india-critical-manufacturing-dependencies';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -61,6 +62,7 @@ const registry: Record<string, ReportModule> = {
   'quantum-supply-chain': { toc: quantumSupplyToc, Content: QuantumSupplyContent },
   'dholera-semiconductor-supplier-ecosystem': { toc: dholeraToc, Content: DholeraContent },
   'india-industrial-waste-recycling-economy': { toc: recyclingToc, Content: RecyclingContent },
+  'india-critical-manufacturing-dependencies': { toc: cmddToc, Content: CmddContent },
 };
 
 export async function generateStaticParams() {

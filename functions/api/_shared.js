@@ -7,6 +7,13 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'india-critical-manufacturing-dependencies': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'India-Critical-Manufacturing-Dependencies-2026.pdf',
+    filename: 'India-Critical-Manufacturing-Dependencies-2026-Techadyant-Labs.pdf',
+    title: 'India’s Critical Manufacturing Dependencies',
+  },
   'semicon-2-0-opportunity-map': {
     access: 'paid',
     priceInr: 6999,

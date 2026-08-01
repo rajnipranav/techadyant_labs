@@ -44,8 +44,9 @@ export default function DependenciesHub() {
           <h1>India&apos;s Manufacturing Dependency Monitor</h1>
           <p className="lede">
             Where does India remain strategically dependent on imports, how is that changing, and where are the next
-            industrial opportunities emerging? A living index over {products.length} strategic products, twelve sectors,
-            and thirty-six states — scored, sourced and confidence-tagged.
+            industrial opportunities emerging? A living index over {products.length} strategic products — a curated
+            subset of the CMDD&apos;s 312 tracked opportunity surfaces — across twelve sectors and thirty-six states,
+            scored, sourced and confidence-tagged.
           </p>
         </div>
       </header>
