@@ -170,7 +170,7 @@ export default function DependenciesHub() {
       <section className="wrap">
         <p className="note-fine">
           Source: Techadyant Labs — Critical Manufacturing Dependencies (Edition I). This monitor is a modelled intelligence
-          layer; the published report is the Edition-I snapshot, and the index is re-scored over time. Every value is
+          layer — the Edition-I snapshot — re-scored over time. Every value is
           confidence-tagged and, where verified, sourced.
         </p>
       </section>

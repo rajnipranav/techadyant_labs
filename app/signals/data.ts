@@ -987,6 +987,300 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Marvell will invest US$250 million over three years and expand its Bengaluru and Hyderabad presence, doubling Indian headcount to support advanced semiconductor design.', 'The announcement signals a structural shift in India\'s semiconductor role: from manufacturing support and assembly toward global chip architecture, ASIC design, verification and AI accelerator development.', 'The scarce resource is now engineering talent — RTL, physical design, DFT, verification, AI accelerator architecture and high-speed SerDes — which makes semiconductor education and ecosystem development a strategic industry.', 'The Bengaluru–Hyderabad corridor is strengthening as India\'s primary semiconductor design and R&D hub, creating concentrated opportunity for adjacent vendors and institutions.'],
   sources: ['https://www.thehindu.com/business/Industry/semicon-firm-marvell-to-invest-250-mn-in-technology-talent-and-infrastructure-in-india/article71281465.ece', 'https://www.marvell.com/']
+}, {
+  slug: 'critical-manufacturing-dependency-index-launch',
+  no: 'S-024',
+  title: 'India Now Has a Structured Map of Where It Stays Import-Dependent',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-07-31',
+  dateLabel: '31 Jul 2026',
+  status: 'live',
+  excerpt: 'Techadyant\'s new Critical Manufacturing Dependency Index (CMDI) scores India\'s strategic imports on a common ruler — import value, supply risk, strategic importance, industrial multiplier and substitutability — turning a scattered import problem into a rankable, trackable dependency map.',
+  readingTime: '5 min',
+  body: [{
+  text: 'For years India\'s import-dependence has been discussed product by product and headline by headline. The Critical Manufacturing Dependency Index (CMDI) replaces that with one structured instrument: every strategic import is scored 0-100 on the same five weighted variables — import value (0.30), supply risk (0.25), strategic importance (0.20), industrial multiplier (0.15) and substitutability (0.10).',
+  type: 'p'
+}, {
+  text: 'Why a single index matters',
+  type: 'h'
+}, {
+  text: 'A common ruler makes dependencies comparable. A product with a high import bill but many suppliers is a different problem from one with a small bill but a single foreign source. The CMDI separates the two, and pairs each product with a Localization Potential Index (how feasibly India can make it) and an Investment Attractiveness Index (whether the economics work). Together they turn a risk list into a decision tool.',
+  type: 'p'
+}, {
+  text: 'From list to living monitor',
+  type: 'h'
+}, {
+  text: 'Because the index is formula-driven, it can be re-scored as trade data, capacity and policy change — so dependency becomes something you track over time, not a one-off audit. That is the shift the CMDI enables: a repeatable read on where India remains strategically exposed and where the exposure is easing.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'The value is not any single score but the framework: it lets capital, policy and industry argue from the same map. The next question it forces is sequencing — which of the highest-scoring dependencies are worth localising first, given that the ones with the greatest strategic weight are often the hardest to build.',
+  type: 'p'
+}],
+  takeaways: ['The CMDI scores strategic imports on one 0-100 ruler (import value, supply risk, strategic importance, industrial multiplier, substitutability), making India\'s dependencies directly comparable for the first time.', 'Paired with a Localization Potential Index and Investment Attractiveness Index, it converts a risk list into a decision tool — separating what is worth localising from what is merely large.', 'Because it is formula-driven, dependency becomes trackable over time rather than a one-off audit — the basis for a recurring national dependency monitor.', 'The hardest dependencies (highest strategic weight) are often the least localisable, so the index\'s real use is sequencing scarce capital and policy.'],
+  sources: ['https://labs.techadyant.com/research/dependencies', 'https://tradestat.commerce.gov.in']
+}, {
+  slug: 'india-manufacturing-chokepoints-cmdi',
+  no: 'S-025',
+  title: 'India\'s Deepest Chokepoints: EUV Photoresist, Leading-Edge Logic and Aero-Engines',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-07-31',
+  dateLabel: '31 Jul 2026',
+  status: 'live',
+  excerpt: 'The products that score highest on dependency — EUV photoresists (CMDI 95), sub-7nm logic ICs (94) and combat aero-engine turbofans (92) — are precisely the ones India can least localise in the near term (localisation scores of 5-28), a mismatch that defines the sovereignty problem.',
+  readingTime: '5 min',
+  body: [{
+  text: 'At the top of the dependency ranking sit products where India has almost no domestic capability: EUV photoresists (CMDI 95, supplier concentration HHI 8,200, Japan), logic ICs at 7nm and below (CMDI 94, Taiwan), and combat aero-engine turbofans (CMDI 92, United States). Each combines a high import bill, an extremely concentrated supplier base and deep strategic weight.',
+  type: 'p'
+}, {
+  text: 'The chokepoint mismatch',
+  type: 'h'
+}, {
+  text: 'What makes these chokepoints, not just imports, is that their Localization Potential is the lowest on the board — 5 for EUV resist, 8 for leading-edge logic, 28 for aero-engines. The things India most needs to make are the things it is least ready to make. Chasing them first burns capital on the slowest wins.',
+  type: 'p'
+}, {
+  text: 'Localise the chokepoint, not the volume',
+  type: 'h'
+}, {
+  text: 'The strategic reading is to attack the narrow, high-leverage chokepoints deliberately and over a long horizon (technology partnerships, talent, patient capital), while not mistaking a large but substitutable import for a genuine vulnerability. A concentrated single-source input worth a few hundred million dollars can matter more than a multi-billion-dollar import with many suppliers.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'These are Position-early or Watch bets, not quick wins — worth pursuing for sovereignty reasons but not expected to pay back fast. The near-term returns live elsewhere: dependencies that are still high but far more localisable.',
+  type: 'p'
+}],
+  takeaways: ['The highest-dependency products — EUV photoresist (CMDI 95), sub-7nm logic (94), combat aero-engines (92) — are the least localisable (scores 5-28): the core sovereignty mismatch.', 'They share extreme supplier concentration (HHI 4,800-8,200) and single-country sources (Japan, Taiwan, USA), so a cut-off risk outweighs the raw import bill.', 'These are long-horizon, partnership-and-talent bets — attack the narrow chokepoint deliberately rather than chasing volume.', 'A concentrated single-source input can matter more than a far larger import with many suppliers — the index makes that visible.'],
+  sources: ['https://tradestat.commerce.gov.in', 'https://labs.techadyant.com/research/dependencies']
+}, {
+  slug: 'india-build-now-localisation-surfaces',
+  no: 'S-026',
+  title: 'Where Dependency Meets Feasibility: SiC Power and Display-Driver ICs Are the Build-Now Surfaces',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-07-31',
+  dateLabel: '31 Jul 2026',
+  status: 'live',
+  excerpt: 'Not every deep dependency is a hard problem. Silicon-carbide power semiconductors (dependency 82, localisation 62, investment attractiveness 80) and display-driver ICs (dependency 80, localisation 62, attractiveness 78) combine high exposure with genuine feasibility — the surfaces where capital should move first.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The opposite corner of the map from the chokepoints is where the near-term opportunity sits: products India imports heavily but could realistically make. Silicon-carbide (SiC) power semiconductors score 82 on dependency yet 62 on localisation potential and 80 on investment attractiveness. Display-driver ICs are similar (80 / 62 / 78). These are not moonshots; they are viable industrial ventures with a real import to displace.',
+  type: 'p'
+}, {
+  text: 'The three-index test',
+  type: 'h'
+}, {
+  text: 'Reading dependency, localisation and investment attractiveness together is what separates a Build-now surface from a Watch item. EUV resist scores 95 on dependency but 5 on localisation — a Watch bet. SiC scores lower on dependency but far higher on feasibility and economics — a Build-now bet. The prize is not always where the dependency is deepest; it is where deep-enough dependency meets buildable capability and workable returns.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'For investors and policymakers the actionable list is the high-dependency, high-localisation, high-attractiveness intersection — power electronics (SiC, GaN), display drivers and similar mid-stream components. They reduce a real import while paying back on commercial terms, which is what makes an industrial-policy bet durable rather than subsidy-dependent.',
+  type: 'p'
+}],
+  takeaways: ['SiC power semiconductors (dependency 82, localisation 62, attractiveness 80) and display-driver ICs (80/62/78) are the clearest Build-now surfaces: deep import, buildable, bankable.', 'Reading the three indices together separates Build-now from Watch — EUV resist (95 dependency / 5 localisation) is a Watch bet; SiC is a Build-now bet.', 'The biggest prize is not the deepest dependency but where deep-enough dependency meets feasibility and returns — mid-stream power electronics and drivers.', 'Ventures at this intersection displace real imports while paying back commercially, making the policy bet durable rather than subsidy-dependent.'],
+  sources: ['https://labs.techadyant.com/research/dependencies']
+}, {
+  slug: 'india-pli-uneven-record-component-gap',
+  no: 'S-027',
+  title: 'PLI\'s Uneven Record Exposes the Component Gap Beneath Assembly',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-07-31',
+  dateLabel: '31 Jul 2026',
+  status: 'live',
+  excerpt: 'Mobile-manufacturing PLI has drawn 312% of its targeted investment, but Electronic Components sits at 68% and Bulk Drugs at 48% — evidence that incentivising finished products localises assembly while the dependency migrates one layer down, into the components.',
+  readingTime: '5 min',
+  body: [{
+  text: 'The Production-Linked Incentive schemes have a split record. Mobile manufacturing has realised roughly 312% of its targeted investment and textiles 117% — clear outperformers. But Electronic Components sits at 68% utilisation, Bulk Drugs at 48%, and White Goods at 67%. The pattern is not random.',
+  type: 'p'
+}, {
+  text: 'Assembly localises, dependency migrates',
+  type: 'h'
+}, {
+  text: 'The schemes that outperformed reward finished-product assembly, where India already had a base to scale. The laggards are the upstream component and active-ingredient lines — exactly the layers that finished-goods incentives do not reach. So localising the phone or the formulation shifts the import bill from the product to its components and precursors, rather than eliminating it. The dependency moves one tier down the stack.',
+  type: 'p'
+}, {
+  text: 'The ecosystem gap',
+  type: 'h'
+}, {
+  text: 'This is the structural gap the dependency lens exposes: PLI targets products; the L0-L3 ecosystem layers beneath them are not incentivised. Until the component, material and equipment tiers are pulled in — with instruments matched to their longer paybacks and thinner early economics — assembly success will keep masking upstream dependence.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'The next generation of incentive design has to fund the chain, not just the output: component-line capex, materials, test-and-certification and equipment, where the imports actually concentrate. The PLI utilisation numbers are an early map of where that redesign is most overdue — components and bulk drugs first.',
+  type: 'p'
+}],
+  takeaways: ['PLI utilisation is split: mobile manufacturing ~312% and textiles 117% (outperformed) versus Electronic Components 68% and Bulk Drugs 48% (below target).', 'Finished-product incentives localise assembly where a base existed; the upstream component and active-ingredient tiers they do not reach are the laggards.', 'So localising the product shifts the import bill to its components and precursors — the dependency migrates one layer down the stack rather than disappearing.', 'The fix is incentive design that funds the chain (component capex, materials, test-cert, equipment), not just the output — components and bulk drugs first.'],
+  sources: ['https://www.investindia.gov.in/schemes/production-linked-incentive-scheme', 'https://www.pib.gov.in']
+}, {
+  slug: 'india-build-the-stack-not-assembly',
+  no: 'S-028',
+  title: 'India\'s Real Dependency Is One Layer Below the Product',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-07-31',
+  dateLabel: '31 Jul 2026',
+  status: 'live',
+  excerpt: 'Across sectors the same pattern repeats: India assembles the finished good but imports the layers beneath it. The dependency lens resolves this by decomposing every product into localisable units — and the vulnerability almost always sits in the component, material and equipment tiers, not the assembly.',
+  readingTime: '4 min',
+  body: [{
+  text: 'Decompose any strategic product into its layers — finished good, sub-assembly, component, material, equipment — and India\'s position is consistent: strong at assembly, thin below it. The phone is assembled here; the display driver, the RF front-end and the memory are imported. The drone is built here; the flight controller, motors and cells are imported. The pattern is structural, not sectoral.',
+  type: 'p'
+}, {
+  text: 'Why final-assembly metrics mislead',
+  type: 'h'
+}, {
+  text: 'Counting finished-goods output or export value flatters the picture because it captures the layer India already holds. Value and vulnerability live upstream, in the component and material tiers where a handful of foreign firms dominate. A country can lead the world in assembling a product and still control very little of the value or the security of its supply.',
+  type: 'p'
+}, {
+  text: 'Build the stack, not the assembly',
+  type: 'h'
+}, {
+  text: 'The strategic implication is to industrialise the layers, not just the endpoint: pull component lines, specialty materials, and manufacturing equipment into the incentive and capital stack. That is harder and slower than final assembly — the economics are thinner early and the paybacks longer — which is precisely why it does not happen on its own and why it is the work that actually reduces dependence.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'Read every localisation claim by asking which layer it touches. Assembly wins are real but shallow; the durable gains are the unglamorous component, material and equipment tiers where the imports concentrate and the moats are built.',
+  type: 'p'
+}],
+  takeaways: ['Decomposed into layers, India\'s position is consistent across sectors: strong at assembly, import-dependent in the component, material and equipment tiers beneath.', 'Finished-goods output and export metrics flatter the picture because they measure the one layer India already holds; value and vulnerability sit upstream.', 'Reducing dependence means industrialising the layers — component lines, specialty materials, equipment — not just the endpoint, which is harder and slower and so does not happen on its own.', 'Every localisation claim should be read by which layer it touches: assembly wins are shallow; component/material/equipment wins are durable.'],
+  sources: ['https://labs.techadyant.com/research/dependencies']
+}, {
+  slug: 'india-state-manufacturing-capability-rankings',
+  no: 'S-029',
+  title: 'Which States Are Positioned to Reduce India\'s Import Dependence',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-07-31',
+  dateLabel: '31 Jul 2026',
+  status: 'live',
+  excerpt: 'On a composite Manufacturing Capability Index, Maharashtra (82), Gujarat (81), Tamil Nadu (79) and Karnataka (77) lead — but the forward-looking sub-scores tell the sharper story: Gujarat tops the pipeline and future-readiness axes on the back of its semiconductor and chemicals bets.',
+  readingTime: '4 min',
+  body: [{
+  text: 'Dependency reduction is ultimately built in specific places. Scoring all states on a composite Manufacturing Capability Index across thirteen sub-dimensions puts Maharashtra first (82), then Gujarat (81), Tamil Nadu (79) and Karnataka (77), with Telangana (71) and Andhra Pradesh (68) forming the next tier.',
+  type: 'p'
+}, {
+  text: 'Present strength versus forward trajectory',
+  type: 'h'
+}, {
+  text: 'The composite rewards existing output and employment, where Maharashtra and Tamil Nadu are strong. But the pipeline and future-readiness sub-scores — new projects, policy momentum, sunrise sectors — favour Gujarat, which leads on both, reflecting its semiconductor (Dholera), chemicals and renewables commitments. Andhra Pradesh scores highest of all on the future axis relative to its base, a lower-ranked state moving fast.',
+  type: 'p'
+}, {
+  text: 'Why the split matters',
+  type: 'h'
+}, {
+  text: 'The states that will localise the deepest dependencies are not simply today\'s largest manufacturers but those combining capability with a credible forward pipeline in the high-dependency sectors — semiconductors, power electronics, specialty chemicals. That is a narrower list than the headline ranking, and it is where the next chokepoint-localisation plants will most plausibly land.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'For investors and central policymakers the map is a siting tool: match a high-dependency, high-localisation product to the state whose capability and pipeline actually fit it, rather than defaulting to the largest incumbent.',
+  type: 'p'
+}],
+  takeaways: ['On a 13-dimension Manufacturing Capability Index, Maharashtra (82), Gujarat (81), Tamil Nadu (79) and Karnataka (77) lead; Telangana and Andhra Pradesh form the next tier.', 'Present strength (output, employment) favours Maharashtra/Tamil Nadu, but pipeline and future-readiness favour Gujarat — its semiconductor, chemicals and renewables bets.', 'The states that localise the deepest dependencies combine capability with a credible forward pipeline in high-dependency sectors — a narrower list than the headline ranking.', 'The ranking is a siting tool: match a high-dependency, localisable product to the state whose capability and pipeline fit, not the largest incumbent by default.'],
+  sources: ['https://labs.techadyant.com/corridors']
+}, {
+  slug: 'india-eight-structural-gaps-dependency',
+  no: 'S-030',
+  title: 'Eight Structural Gaps Decide Whether India\'s Dependency Actually Falls',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-07-31',
+  dateLabel: '31 Jul 2026',
+  status: 'live',
+  excerpt: 'Below the product-level dependencies sit eight economy-wide gaps — manufacturing R&D at 0.3% of GDP versus Germany\'s 2.8%, a 500,000-worker skills shortfall, thin test-and-certification capacity, costlier project finance and absence from RCEP and CPTPP — that constrain every localisation attempt, with a ₹1.14 lakh crore fix identified.',
+  readingTime: '5 min',
+  body: [{
+  text: 'Product-level dependency is downstream of a few structural conditions. Eight recur across sectors: an ecosystem gap (incentives target products, not the layers beneath), a talent gap (a shortage of roughly 500,000 skilled manufacturing workers), an R&D gap (manufacturing R&D at 0.3% of manufacturing GDP against Germany\'s 2.8% and Korea\'s 3.5%), a test-and-certification gap (6-12 month delays, certification done abroad), a capital gap (project finance 200-300 basis points costlier than China or Vietnam), an FTA gap (outside RCEP and CPTPP, EU and UK deals unsigned), a cluster-coordination gap, and an industrial-AI gap.',
+  type: 'p'
+}, {
+  text: 'Why these bind',
+  type: 'h'
+}, {
+  text: 'Each gap raises the cost or lowers the feasibility of localising anything. Cheap foreign finance and mature ecosystems are why the same plant pencils out abroad and not in India; weak test-cert adds months and dollars to every qualification; missing FTAs hand a tariff disadvantage to Vietnam and Mexico. These are horizontal constraints — fixing them lifts every dependency at once, which no single product incentive can.',
+  type: 'p'
+}, {
+  text: 'The fix has a price tag',
+  type: 'h'
+}, {
+  text: 'The identified incremental budget to close the gaps is about ₹1,14,500 crore over FY2026-30 — a large but bounded number, and small against the recurring import bill it is meant to reduce. The point is that dependency reduction is as much about these enabling conditions as about any marquee factory.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'Track the horizontal reforms — an R&D uplift, a manufacturing-skills programme, national test-cert infrastructure, the UK and EU FTAs — as leading indicators. Movement there will do more for dependency across the board than another product-specific scheme.',
+  type: 'p'
+}],
+  takeaways: ['Eight economy-wide gaps constrain every localisation attempt: ecosystem, talent (~500K shortfall), R&D (0.3% vs Germany 2.8%/Korea 3.5%), test-cert, capital, FTAs, clusters, industrial AI.', 'They are horizontal — costlier finance, weak test-cert and missing FTAs raise the cost or lower the feasibility of localising anything, so fixing them lifts all dependencies at once.', 'The identified fix is ~₹1.14 lakh crore over FY2026-30 — large but bounded, and small against the recurring import bill it targets.', 'The horizontal reforms (R&D uplift, skills, national test-cert, UK/EU FTAs) are the leading indicators to watch — they move dependency more than any single product scheme.'],
+  sources: ['https://www.pib.gov.in', 'https://labs.techadyant.com/research/dependencies']
+}, {
+  slug: 'india-twelve-opportunity-zones-industrial-capital',
+  no: 'S-031',
+  title: 'Twelve Zones Where India\'s Industrial Capital Should Concentrate',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-07-31',
+  dateLabel: '31 Jul 2026',
+  status: 'live',
+  excerpt: 'Rather than spreading effort across hundreds of imports, the dependency framework narrows the field to twelve opportunity zones and a top-ten of opportunity surfaces — the intersection of deep-enough dependency, real localisation potential and workable economics — where concentrated capital and policy would move the dependency index most.',
+  readingTime: '4 min',
+  body: [{
+  text: 'A dependency map with hundreds of entries is a risk list, not a strategy. The framework\'s final move is to concentrate: it filters the full import surface down to twelve opportunity zones and a ranked top-ten of opportunity surfaces, selected where dependency is deep enough to matter, localisation is genuinely feasible, and the investment economics work.',
+  type: 'p'
+}, {
+  text: 'Concentration over breadth',
+  type: 'h'
+}, {
+  text: 'The logic mirrors how industrial policy actually succeeds — a handful of well-capitalised, well-sited bets rather than thin support spread everywhere. Concentrating capital, talent and policy on twelve zones creates the ecosystem density (suppliers, skills, test infrastructure) that no scattered approach reaches, and it is that density, not the individual plant, that durably reduces dependence.',
+  type: 'p'
+}, {
+  text: 'An investment envelope, not a wish list',
+  type: 'h'
+}, {
+  text: 'Because each surface carries localisation and investment-attractiveness scores, the twelve zones come with an order-of-magnitude investment envelope and a sequencing logic — which to start now (Build-now surfaces like power electronics and specialty materials) and which to position early. That turns a national dependency problem into a finite, fundable programme.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'For anyone allocating industrial capital — private investors, DFIs or the state — the twelve zones are the shortlist worth underwriting first. The value of the exercise is subtraction: it says as clearly what to deprioritise as what to fund.',
+  type: 'p'
+}],
+  takeaways: ['The framework narrows hundreds of imports to twelve opportunity zones and a top-ten of surfaces — the intersection of deep-enough dependency, feasible localisation and workable economics.', 'Concentration beats breadth: a few well-capitalised, well-sited bets build the ecosystem density (suppliers, skills, test infra) that durably reduces dependence.', 'Because each surface is scored, the zones carry an investment envelope and sequencing — Build-now surfaces (power electronics, specialty materials) first, others positioned early.', 'The exercise is as valuable for what it says to deprioritise as for what to fund — turning a national dependency problem into a finite, fundable programme.'],
+  sources: ['https://labs.techadyant.com/research/dependencies']
+}, {
+  slug: 'india-critical-manufacturing-dependency-report-edition-1',
+  no: 'S-032',
+  title: 'Techadyant Publishes Edition I of India\'s Critical Manufacturing Dependencies',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-07-31',
+  dateLabel: '31 Jul 2026',
+  status: 'live',
+  excerpt: 'Techadyant Labs has released Edition I of India\'s Critical Manufacturing Dependencies — a framework-led report scoring the top strategic imports on ten proprietary indices, mapping opportunity surfaces, PLI performance, state capability and the policy gaps, and seeding a recurring national dependency monitor.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Edition I of India\'s Critical Manufacturing Dependencies brings the pieces together: a five-stage analytical pipeline, a five-level product taxonomy across twelve mega-sectors, and ten proprietary indices led by the Critical Manufacturing Dependency Index. It scores the top strategic imports, maps the localisation and investment opportunity, benchmarks PLI performance and state capability, and sets out the structural gaps and a phased policy roadmap.',
+  type: 'p'
+}, {
+  text: 'A program, not a one-off',
+  type: 'h'
+}, {
+  text: 'The report is designed as the foundation of an ongoing effort rather than a single publication — a repeatable method for reading where India remains strategically import-dependent, how that is changing, and where the next industrial opportunities are emerging. The index it introduces can be re-scored as the data moves, which is what makes a recurring dependency monitor possible.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'For readers it consolidates a scattered debate into one framework and one set of comparable scores. Its companion signals break out the specific findings — the deepest chokepoints, the Build-now surfaces, the PLI component gap, the state map and the structural constraints — each as a discrete piece of dependency intelligence.',
+  type: 'p'
+}],
+  takeaways: ['Edition I introduces a five-stage pipeline, a five-level taxonomy across twelve mega-sectors and ten proprietary indices led by the CMDI, scoring India\'s top strategic imports.', 'It maps localisation and investment opportunity, benchmarks PLI performance and state capability, and sets out the structural gaps with a phased roadmap.', 'It is built as the foundation of a recurring national dependency monitor, not a one-off report — the index can be re-scored as the data moves.', 'Companion signals break out the specific findings as discrete dependency intelligence: chokepoints, Build-now surfaces, the PLI component gap, the state map and the structural gaps.'],
+  sources: ['https://labs.techadyant.com/research/dependencies']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
