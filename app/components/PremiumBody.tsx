@@ -52,7 +52,7 @@ export function PremiumBody() {
         <ul className="pg-locked">
           {LOCKED_SECTIONS.map((s) => <li key={s}><span className="pg-lock">🔒</span>{s}</li>)}
         </ul>
-        <button className="btn-ed btn-ed-primary pg-btn" onClick={purchase} disabled={busy || checking}>
+        <button className="btn-ed btn-ed-primary pg-btn" onClick={() => purchase()} disabled={busy || checking}>
           {checking ? 'Checking access…' : busy ? 'Opening checkout…' : `Unlock for ${priceLabel}`} <span className="arr">→</span>
         </button>
         <p className="pg-fine">
