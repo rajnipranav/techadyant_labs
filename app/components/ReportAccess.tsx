@@ -12,7 +12,8 @@ interface Props {
 
 /** Top-of-report access panel. Renders inside ReportCommerceProvider. */
 export function ReportAccess({ pages, readingTime, previewObject, previewPages, deckLabel }: Props) {
-  const { access, priceLabel, entitled, checking, busy, message, purchase, download, downloadDeck } = useReportCommerce();
+  const { access, priceLabel, entitled, checking, busy, message, purchase, download, downloadDeck,
+    hasData, dataPriceLabel, dataEntitled, downloadData } = useReportCommerce();
 
   const meta = [pages ? `${pages}-page PDF` : null, readingTime, 'Figures & citations included']
     .filter(Boolean).join(' · ');
@@ -66,18 +67,33 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages, 
           <button className="btn-ed btn-ed-primary ra-btn" onClick={download} disabled={busy}>
             {busy ? 'Preparing…' : 'Download PDF'} <span className="arr">↓</span>
           </button>
+          {hasData && dataEntitled ? (
+            <button className="btn-ed btn-ed-ghost ra-btn" onClick={() => downloadData()} disabled={busy} style={{ marginTop: 8 }}>
+              Download data pack (XLSX) <span className="arr">↓</span>
+            </button>
+          ) : null}
           {deckLabel ? (
             <button className="btn-ed btn-ed-ghost ra-btn" onClick={() => downloadDeck()} disabled={busy} style={{ marginTop: 8 }}>
               {deckLabel} <span className="arr">↓</span>
             </button>
           ) : null}
-          <p className="ra-fine">You own this report · lifetime access. Your purchase includes the investor deck.</p>
+          <p className="ra-fine">You own this report · lifetime access.{dataEntitled ? ' Your purchase includes the data pack.' : ''}</p>
         </>
       ) : checking ? (
         <p className="ra-fine">Checking your access…</p>
+      ) : hasData ? (
+        <>
+          <button className="btn-ed btn-ed-primary ra-btn" onClick={() => purchase('report')} disabled={busy}>
+            {busy ? 'Opening checkout…' : `Report — ${priceLabel}`} <span className="arr">→</span>
+          </button>
+          <button className="btn-ed btn-ed-primary ra-btn" onClick={() => purchase('report_plus_data')} disabled={busy} style={{ marginTop: 8 }}>
+            {busy ? 'Opening checkout…' : `Report + Data pack${dataPriceLabel ? ` — ${dataPriceLabel}` : ''}`} <span className="arr">→</span>
+          </button>
+          <p className="ra-fine">The data pack adds the full underlying dataset (Excel) behind the report — figures, scores and sources. One-time purchase · lifetime access · Razorpay.</p>
+        </>
       ) : (
         <>
-          <button className="btn-ed btn-ed-primary ra-btn" onClick={purchase} disabled={busy}>
+          <button className="btn-ed btn-ed-primary ra-btn" onClick={() => purchase('report')} disabled={busy}>
             {busy ? 'Opening checkout…' : `Buy the complete report — ${priceLabel}`} <span className="arr">→</span>
           </button>
           <p className="ra-fine">One-time purchase · lifetime access · secure checkout via Razorpay.</p>

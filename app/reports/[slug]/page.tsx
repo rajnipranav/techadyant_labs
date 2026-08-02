@@ -237,6 +237,12 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
   whatsInside.push('Primary-source citations with verification labels');
   if (meta.preview_object) whatsInside.push('Free condensed preview edition');
 
+  // Report + Data tier (CMS: has_data / price_with_data). Present only when the report ships a data pack.
+  const hasData = Boolean((meta as any).has_data ?? (meta as any).hasData);
+  const dataPriceRaw = (meta as any).price_with_data ?? (meta as any).priceWithData;
+  const dataPriceLabel = dataPriceRaw ? `₹${Number(dataPriceRaw).toLocaleString('en-IN')}` : undefined;
+  if (hasData) whatsInside.push('Optional data pack — the full underlying dataset (Excel)');
+
   return (
     <>
       {ldJson && (
@@ -290,6 +296,8 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           access={meta.access}
           priceLabel={formatPrice(meta as any)}
           title={meta.title}
+          hasData={hasData}
+          dataPriceLabel={dataPriceLabel}
         >
           <section className="wrap-narrow" style={{ paddingTop: 40, paddingBottom: 8 }}>
             <ReportAccess

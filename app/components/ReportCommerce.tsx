@@ -20,6 +20,9 @@ function loadRazorpay(): Promise<boolean> {
   });
 }
 
+type Tier = 'report' | 'report_plus_data';
+const DATA_TIERS = ['report_plus_data', 'data_only', 'bundle'];
+
 interface CommerceCtx {
   slug: string;
   access: 'free' | 'paid';
@@ -28,20 +31,27 @@ interface CommerceCtx {
   checking: boolean;
   busy: boolean;
   message: { kind: 'info' | 'error' | 'success'; text: string } | null;
-  purchase: () => Promise<void>;
+  purchase: (tier?: Tier) => Promise<void>;
   download: () => Promise<void>;
   downloadDeck: () => Promise<void>;
+  // Report + Data tier
+  hasData: boolean;
+  dataPriceLabel?: string;
+  dataEntitled: boolean;
+  downloadData: () => Promise<void>;
 }
 
 const Ctx = createContext<CommerceCtx | null>(null);
 
 export function ReportCommerceProvider({
-  slug, access, priceLabel, title, children,
+  slug, access, priceLabel, title, hasData = false, dataPriceLabel, children,
 }: {
-  slug: string; access: 'free' | 'paid'; priceLabel: string; title: string; children: ReactNode;
+  slug: string; access: 'free' | 'paid'; priceLabel: string; title: string;
+  hasData?: boolean; dataPriceLabel?: string; children: ReactNode;
 }) {
   const { user, accessToken, openSignIn } = useAuth();
   const [entitled, setEntitled] = useState(access === 'free');
+  const [dataEntitled, setDataEntitled] = useState(false);
   const [checking, setChecking] = useState(access === 'paid');
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState<CommerceCtx['message']>(null);
@@ -49,11 +59,13 @@ export function ReportCommerceProvider({
   const refresh = useCallback(async () => {
     if (access === 'free') { setEntitled(true); setChecking(false); return; }
     const supabase = getSupabase();
-    if (!supabase || !user) { setEntitled(false); setChecking(false); return; }
+    if (!supabase || !user) { setEntitled(false); setDataEntitled(false); setChecking(false); return; }
     setChecking(true);
     const { data } = await supabase
-      .from('entitlements').select('id').eq('user_id', user.id).eq('report_slug', slug).limit(1);
-    setEntitled(Boolean(data && data.length));
+      .from('entitlements').select('id,tier').eq('user_id', user.id).eq('report_slug', slug).limit(1);
+    const row = data && data.length ? data[0] : null;
+    setEntitled(Boolean(row));
+    setDataEntitled(Boolean(row && DATA_TIERS.includes((row as any).tier)));
     setChecking(false);
   }, [access, slug, user]);
 
@@ -98,14 +110,32 @@ export function ReportCommerceProvider({
     } finally { setBusy(false); }
   }, [access, accessToken, slug]);
 
-  const purchase = useCallback(async () => {
+  const downloadData = useCallback(async () => {
+    setBusy(true); setMessage(null);
+    try {
+      const headers: Record<string, string> = {};
+      if (access === 'paid' && accessToken) headers.Authorization = `Bearer ${accessToken}`;
+      const res = await fetch(`/api/download?report=${encodeURIComponent(slug)}&asset=data`, { headers });
+      let data: any = null;
+      try { data = await res.json(); } catch {}
+      if (!res.ok || !data?.url) {
+        setMessage({ kind: 'error', text: (data && data.message) || 'The data pack is not available.' });
+        return;
+      }
+      window.location.assign(data.url);
+    } catch {
+      setMessage({ kind: 'error', text: 'Something went wrong starting the download.' });
+    } finally { setBusy(false); }
+  }, [access, accessToken, slug]);
+
+  const purchase = useCallback(async (tier: Tier = 'report') => {
     if (!user) { openSignIn('Sign in to purchase and unlock this report.'); return; }
     setBusy(true); setMessage(null);
     try {
       const res = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'content-type': 'application/json', Authorization: `Bearer ${accessToken}` },
-        body: JSON.stringify({ report: slug }),
+        body: JSON.stringify({ report: slug, tier }),
       });
       if (!res.ok) {
         let text = 'Checkout is unavailable right now.';
@@ -140,6 +170,7 @@ export function ReportCommerceProvider({
           });
           if (v.ok) {
             setEntitled(true);
+            if (tier === 'report_plus_data') setDataEntitled(true);
             setMessage({ kind: 'success', text: 'Payment confirmed — your report is unlocked.' });
           } else {
             setMessage({ kind: 'error', text: 'Payment received but verification is pending. Refresh in a moment.' });
@@ -154,7 +185,10 @@ export function ReportCommerceProvider({
     }
   }, [user, accessToken, slug, title, openSignIn]);
 
-  const value: CommerceCtx = { slug, access, priceLabel, entitled, checking, busy, message, purchase, download, downloadDeck };
+  const value: CommerceCtx = {
+    slug, access, priceLabel, entitled, checking, busy, message, purchase, download, downloadDeck,
+    hasData, dataPriceLabel, dataEntitled, downloadData,
+  };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }
 

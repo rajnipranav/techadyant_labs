@@ -36,9 +36,10 @@ export async function onRequestPost(context) {
     const slug = notes.report;
     const userId = notes.user_id;
     const email = notes.email || null;
+    const tier = notes.tier || 'report';
 
     if (orderId) await markOrderPaid(env, orderId, paymentId);
-    if (slug && userId) await grantEntitlement(env, { userId, email, slug, orderId: null });
+    if (slug && userId) await grantEntitlement(env, { userId, email, slug, orderId: null, tier });
   }
 
   // Always 200 so Razorpay doesn't retry indefinitely on handled events.

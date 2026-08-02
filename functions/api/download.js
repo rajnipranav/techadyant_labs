@@ -25,7 +25,7 @@
  *   ?probe=key   → show the R2 object key + fully-encoded key for &report=, no signing
  */
 import { AwsClient } from 'aws4fetch';
-import { REPORTS, json } from './_shared.js';
+import { REPORTS, json, tierGrantsData } from './_shared.js';
 
 const CODE_VERSION = 'download-r2-v2';
 const TTL = 90; // presigned-URL lifetime, seconds
@@ -57,13 +57,13 @@ async function verifyEntitled(env, token, slug) {
   const user = await ur.json().catch(() => null);
   if (!user || !user.id) return { ok: false, code: 401, error: 'auth_no_user' };
   const er = await fetch(
-    `${env.SUPABASE_URL}/rest/v1/entitlements?select=id&user_id=eq.${encodeURIComponent(user.id)}&report_slug=eq.${encodeURIComponent(slug)}&limit=1`,
+    `${env.SUPABASE_URL}/rest/v1/entitlements?select=id,tier&user_id=eq.${encodeURIComponent(user.id)}&report_slug=eq.${encodeURIComponent(slug)}&limit=1`,
     { headers: { apikey: env.SUPABASE_SERVICE_ROLE_KEY, Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}` } }
   );
   if (!er.ok) return { ok: false, code: 502, error: 'entitlement_fetch_failed' };
   const rows = await er.json().catch(() => []);
   if (!Array.isArray(rows) || rows.length === 0) return { ok: false, code: 402, error: 'payment_required' };
-  return { ok: true };
+  return { ok: true, tier: rows[0].tier || 'report' };
 }
 
 async function presign(env, objectKey, filename) {
@@ -125,8 +125,15 @@ export async function onRequestGet({ request, env }) {
 
       const asset = url.searchParams.get('asset');
       const useDeck = asset === 'deck' && entry.deckObject;
-      const objectKey = useDeck ? entry.deckObject : entry.object;
-      const filename = useDeck ? (entry.deckFilename || `${slug}.pptx`) : (entry.filename || `${slug}.pdf`);
+      const useData = asset === 'data' && entry.dataObject;
+      // The data pack is a premium tier — only report+data (or higher) buyers get it.
+      if (useData && !tierGrantsData(chk.tier)) {
+        return json(402, { error: 'data_tier_required', message: 'Your purchase does not include the data pack.' });
+      }
+      const objectKey = useData ? entry.dataObject : useDeck ? entry.deckObject : entry.object;
+      const filename = useData
+        ? (entry.dataFilename || `${slug}.xlsx`)
+        : useDeck ? (entry.deckFilename || `${slug}.pptx`) : (entry.filename || `${slug}.pdf`);
 
       if (!env.R2_S3_ENDPOINT || !env.R2_BUCKET || !env.R2_ACCESS_KEY_ID || !env.R2_SECRET_ACCESS_KEY) {
         return json(503, { error: 'storage_unconfigured', codeVersion: CODE_VERSION });

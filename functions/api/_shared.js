@@ -13,6 +13,10 @@ export const REPORTS = {
     object: 'India-Critical-Manufacturing-Dependencies-2026.pdf',
     filename: 'India-Critical-Manufacturing-Dependencies-2026-Techadyant-Labs.pdf',
     title: 'India’s Critical Manufacturing Dependencies',
+    // Report + Data tier: the CMDD workbook. Price authority for the data tier.
+    priceWithDataInr: 11999,
+    dataObject: 'data/India-Critical-Manufacturing-Dependencies-Data-Pack.xlsx',
+    dataFilename: 'India-Critical-Manufacturing-Dependencies-Data-Pack-Techadyant-Labs.xlsx',
   },
   'semicon-2-0-opportunity-map': {
     access: 'paid',
@@ -214,8 +218,21 @@ export async function hasEntitlement(env, userId, slug) {
   return Array.isArray(rows) && rows.length > 0;
 }
 
-/** Insert an entitlement (idempotent on user_id+report_slug). */
-export async function grantEntitlement(env, { userId, email, slug, orderId }) {
+// ── Product tiers ──────────────────────────────────────────────────────────
+// The tier a buyer holds is the license. Every paid entitlement grants the base
+// asset (the PDF); the deck stays an ungated bonus for back-compat. A data-bearing
+// tier additionally unlocks ?asset=data. New tiers (data_only, bundle, sub) slot
+// in here without touching the rest of the flow.
+export const DATA_TIERS = new Set(['report_plus_data', 'data_only', 'bundle']);
+export function tierGrantsData(tier) { return DATA_TIERS.has(String(tier || 'report')); }
+/** Rank so an upgrade never downgrades an existing entitlement. */
+const TIER_RANK = { report: 0, report_plus_data: 2, data_only: 1, bundle: 3 };
+export function tierRank(t) { return TIER_RANK[String(t || 'report')] ?? 0; }
+
+/** Insert an entitlement (idempotent on user_id+report_slug), carrying its tier.
+ *  If the buyer already owns a lower tier, upgrade the row's tier in place. */
+export async function grantEntitlement(env, { userId, email, slug, orderId, tier }) {
+  const t = String(tier || 'report');
   await fetch(`${env.SUPABASE_URL}/rest/v1/entitlements`, {
     method: 'POST',
     headers: {
@@ -224,8 +241,35 @@ export async function grantEntitlement(env, { userId, email, slug, orderId }) {
       'content-type': 'application/json',
       Prefer: 'resolution=ignore-duplicates,return=minimal',
     },
-    body: JSON.stringify({ user_id: userId, email: email || null, report_slug: slug, order_id: orderId || null }),
+    body: JSON.stringify({ user_id: userId, email: email || null, report_slug: slug, order_id: orderId || null, tier: t }),
   });
+  // Upgrade path: if the row already existed at a lower tier, bump it.
+  if (tierRank(t) > 0) {
+    await fetch(
+      `${env.SUPABASE_URL}/rest/v1/entitlements?user_id=eq.${encodeURIComponent(userId)}&report_slug=eq.${encodeURIComponent(slug)}`,
+      {
+        method: 'PATCH',
+        headers: {
+          apikey: env.SUPABASE_SERVICE_ROLE_KEY,
+          Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
+          'content-type': 'application/json',
+          Prefer: 'return=minimal',
+        },
+        body: JSON.stringify({ tier: t }),
+      }
+    );
+  }
+}
+
+/** Read the authoritative tier + slug recorded for a Razorpay order at checkout. */
+export async function getOrder(env, razorpayOrderId) {
+  const res = await fetch(
+    `${env.SUPABASE_URL}/rest/v1/orders?select=report_slug,tier,amount_inr&razorpay_order_id=eq.${encodeURIComponent(razorpayOrderId)}&limit=1`,
+    { headers: { apikey: env.SUPABASE_SERVICE_ROLE_KEY, Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}` } }
+  );
+  if (!res.ok) return null;
+  const rows = await res.json().catch(() => []);
+  return Array.isArray(rows) && rows.length ? rows[0] : null;
 }
 
 export async function markOrderPaid(env, razorpayOrderId, razorpayPaymentId) {

@@ -7,7 +7,7 @@
  * and grants the entitlement immediately (for instant unlock). The webhook is
  * the redundant, authoritative backup in case the browser never returns.
  */
-import { REPORTS, json, getUserFromRequest, hmacSha256Hex, safeEqual, markOrderPaid, grantEntitlement } from './_shared.js';
+import { REPORTS, json, getUserFromRequest, hmacSha256Hex, safeEqual, markOrderPaid, grantEntitlement, getOrder } from './_shared.js';
 
 export async function onRequestPost(context) {
   const { request, env } = context;
@@ -32,8 +32,12 @@ export async function onRequestPost(context) {
     return json(400, { error: 'invalid_signature' });
   }
 
-  await markOrderPaid(env, razorpay_order_id, razorpay_payment_id);
-  await grantEntitlement(env, { userId: user.id, email: user.email, slug: report });
+  // The tier is authoritative from the order we recorded at checkout, not the client.
+  const order = await getOrder(env, razorpay_order_id);
+  const tier = order?.tier || 'report';
 
-  return json(200, { ok: true });
+  await markOrderPaid(env, razorpay_order_id, razorpay_payment_id);
+  await grantEntitlement(env, { userId: user.id, email: user.email, slug: report, tier });
+
+  return json(200, { ok: true, tier });
 }

@@ -80,6 +80,9 @@ function mapCmsReportToMeta(r) {
     cover: r.cover || '',
     previewObject: r.preview_object || '',
     previewPages: r.preview_pages ?? undefined,
+    hasData: !!r.has_data,
+    priceWithData: r.price_with_data ?? undefined,
+    dataFilename: r.data_filename || undefined,
     keywords: Array.isArray(r.keywords) ? [...r.keywords] : [],
     faq: Array.isArray(r.faq) ? [...r.faq] : [],
     sources: Array.isArray(r.sources) ? [...r.sources] : [],
@@ -116,7 +119,7 @@ async function syncReports() {
     `  published: string;\n  publishedLabel: string;\n  readingTime: string;\n  status: 'published' | 'forthcoming';\n` +
     `  summary: string;\n  accent: string;\n  access: AccessTier;\n  price?: number;\n  currency?: 'INR';\n` +
     `  hasPdf: boolean;\n  hasDeck?: boolean;\n  pages?: number;\n  cover?: string;\n` +
-    `  previewObject?: string;\n  previewPages?: number;\n  keywords?: string[];\n  faq?: { q: string; a: string }[];\n` +
+    `  previewObject?: string;\n  previewPages?: number;\n  hasData?: boolean;\n  priceWithData?: number;\n  dataFilename?: string;\n  keywords?: string[];\n  faq?: { q: string; a: string }[];\n` +
     `  sources?: string[];\n  dateModified?: string;\n  seo?: Record<string, any>;\n}\n\n` +
     `export const syncedAt = new Date().toISOString();\n\n`;
   const body = `export const reports: ReportMeta[] = ${tsValue(mapped)};\n\n` +

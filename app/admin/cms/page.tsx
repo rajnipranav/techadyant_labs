@@ -401,7 +401,7 @@ function CmsAdminInner() {
                     <td>{r.title}</td>
                     <td><StatusBadge status={r.status} /></td>
                     {type === 'reports' && <td>{r.access}</td>}
-                    {type === 'reports' && <td>{r.price ?? '--'}</td>}
+                    {type === 'reports' && <td>{r.price ?? '--'}{r.has_data && r.price_with_data ? ` / ${r.price_with_data}` : ''}</td>}
                     <td style={{ fontSize: 12 }}>{r.updated_at ? new Date(r.updated_at).toLocaleDateString() : '--'}</td>
                     <td style={{ textAlign: 'right', whiteSpace: 'nowrap' }}>
                       <button className="admin-btn" style={{ padding: '4px 10px', fontSize: 12 }} onClick={() => startEdit(r)}>Edit</button>
@@ -497,6 +497,25 @@ function CmsForm(props: { type: CmsType; value: any; onChange: (v: any) => void;
               hint="Whether a downloadable PDF exists in storage." onChange={(t) => update({ ...value, has_pdf: t === 'true' })} />
             <Field label="Has deck" as="select" options={['true', 'false']} value={String(value.has_deck ?? false)}
               hint="Whether an investor/briefing deck ships with purchase." onChange={(t) => update({ ...value, has_deck: t === 'true' })} />
+            {value.access === 'paid' && (
+              <Field label="Has data pack" as="select" options={['true', 'false']} value={String(value.has_data ?? false)}
+                hint="Sells a second 'Report + Data' tier (PDF + Excel). Two buy buttons appear on the report page."
+                onChange={(t) => update({ ...value, has_data: t === 'true' })} />
+            )}
+            {value.access === 'paid' && value.has_data ? (
+              <>
+                <Field label="Data price (INR, whole rupees)" type="number" value={value.price_with_data ?? ''} placeholder="11999"
+                  hint={value.price_with_data
+                    ? `Report + Data tier. MUST equal _shared.js priceWithDataInr (the amount actually charged). Displays as ₹${Number(value.price_with_data).toLocaleString('en-IN')}.`
+                    : 'The Report + Data price. Must match _shared.js priceWithDataInr — that is the server-authoritative charged amount; this field is the label.'}
+                  onChange={(t) => update({ ...value, price_with_data: t === '' ? null : Number(t) })} />
+                <Field label="Data object (storage key)" value={value.data_object || ''} placeholder="data/My-Report-Data-Pack.xlsx"
+                  hint="Key in the private techadyant-reports bucket. Also set dataObject in _shared.js."
+                  onChange={(t) => update({ ...value, data_object: t })} />
+                <Field label="Data filename (download name)" value={value.data_filename || ''} placeholder="My-Report-Data-Pack-Techadyant-Labs.xlsx"
+                  hint="What the buyer's browser saves the Excel as." onChange={(t) => update({ ...value, data_filename: t })} />
+              </>
+            ) : null}
             <Field label="Pages" type="number" value={value.pages ?? ''} placeholder="150"
               hint="PDF page count (display only)." onChange={(t) => update({ ...value, pages: t === '' ? null : Number(t) })} />
 

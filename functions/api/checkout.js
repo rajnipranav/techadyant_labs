@@ -6,7 +6,7 @@
  * order row, returns the data the browser needs to open Razorpay Checkout.
  * Grants nothing — entitlement is only written after a verified payment.
  */
-import { REPORTS, json, getUserFromRequest } from './_shared.js';
+import { REPORTS, json, getUserFromRequest, tierGrantsData } from './_shared.js';
 
 export async function onRequestPost(context) {
   const { request, env } = context;
@@ -26,7 +26,15 @@ export async function onRequestPost(context) {
       return json(404, { error: 'not_purchasable', message: 'This report is not purchasable.' });
     }
 
-    const amountPaise = entry.priceInr * 100;
+    // Tier selection. Only the report / report+data tiers are offered here; the
+    // data tier requires the report to actually have a data pack + a data price.
+    const wantsData = body?.tier === 'report_plus_data';
+    if (wantsData && (!entry.dataObject || !entry.priceWithDataInr)) {
+      return json(400, { error: 'no_data_tier', message: 'This report has no data pack.' });
+    }
+    const tier = wantsData ? 'report_plus_data' : 'report';
+    const priceInr = wantsData ? entry.priceWithDataInr : entry.priceInr;
+    const amountPaise = priceInr * 100;
     // Razorpay receipt must be <= 40 chars. Report + user live in `notes`.
     const receipt = `r_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
 
@@ -40,7 +48,7 @@ export async function onRequestPost(context) {
         amount: amountPaise,
         currency: 'INR',
         receipt,
-        notes: { report: slug, user_id: user.id, email: user.email || '' },
+        notes: { report: slug, user_id: user.id, email: user.email || '', tier },
       }),
     });
     if (!rzpRes.ok) {
@@ -64,10 +72,11 @@ export async function onRequestPost(context) {
         user_id: user.id,
         email: user.email || null,
         report_slug: slug,
-        amount_inr: entry.priceInr,
+        amount_inr: priceInr,
         currency: 'INR',
         status: 'created',
         razorpay_order_id: order.id,
+        tier,
       }),
     });
 

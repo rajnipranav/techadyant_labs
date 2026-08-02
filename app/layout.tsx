@@ -82,7 +82,8 @@ gtag('config', 'G-916MZ965VB');`,
           }}
         />
         {/* Site-level entity graph: makes "Techadyant Labs" a recognised entity for
-            search + AI engines (E-E-A-T / GEO). */}
+            search + AI engines (E-E-A-T / GEO). Includes LocalBusiness for
+            Google Business Profile / local SEO (service-area business). */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -106,6 +107,52 @@ gtag('config', 'G-916MZ965VB');`,
                     'industrial strategy',
                   ],
                   sameAs: ['https://techadyant.com'],
+                },
+                {
+                  '@type': 'LocalBusiness',
+                  '@id': 'https://labs.techadyant.com/#localbusiness',
+                  name: 'Techadyant Labs',
+                  url: 'https://labs.techadyant.com',
+                  logo: 'https://labs.techadyant.com/logo.png',
+                  description:
+                    'Independent strategic intelligence platform focused on India\'s industrial transformation, infrastructure systems and emerging strategic technologies. Commission bespoke research and Detailed Project Reports (DPRs).',
+                  email: 'labs@techadyant.com',
+                  telephone: '+91-XXXXXXXXXX', // REPLACE with your business phone
+                  address: {
+                    '@type': 'PostalAddress',
+                    addressCountry: 'IN',
+                    addressRegion: 'Delhi', // REPLACE with your state/region
+                    addressLocality: 'New Delhi', // REPLACE with your city
+                  },
+                  areaServed: {
+                    '@type': 'Country',
+                    name: 'India',
+                  },
+                  priceRange: '$$$',
+                  currenciesAccepted: 'INR',
+                  paymentAccepted: 'Bank Transfer, UPI',
+                  openingHoursSpecification: [
+                    {
+                      '@type': 'OpeningHoursSpecification',
+                      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+                      opens: '09:00',
+                      closes: '18:00',
+                      validFrom: '2026-01-01',
+                      validThrough: '2026-12-31',
+                    },
+                  ],
+                  knowsAbout: [
+                    'India semiconductor industry',
+                    'enterprise software sovereignty',
+                    'AI infrastructure',
+                    'critical minerals',
+                    'India technology policy',
+                    'industrial strategy',
+                    'defence manufacturing',
+                    'detailed project reports',
+                  ],
+                  sameAs: ['https://techadyant.com'],
+                  parentOrganization: { '@id': 'https://labs.techadyant.com/#org' },
                 },
                 {
                   '@type': 'WebSite',
@@ -200,6 +247,7 @@ gtag('config', 'G-916MZ965VB');`,
                     <li><Link href="/about/">About the platform</Link></li>
                     <li><Link href="/methodology/">Methodology</Link></li>
                     <li><Link href="/services/">Commission research</Link></li>
+                    <li><Link href="/contact/">Contact</Link></li>
                     <li><Link href="/methodology/#independence">Independence policy</Link></li>
                     <li><Link href="/account/">Account</Link></li>
                     <li><Link href="/#subscribe">Subscribe</Link></li>
