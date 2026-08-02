@@ -34,6 +34,52 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
+  slug: 'indian-navy-autonomous-maritime',
+  title: 'The Indian Navy’s Autonomous Maritime Transformation 2026–2035',
+  subtitle: 'Platforms are downstream of ecosystems. What industrial substrate must India build to field an autonomous fleet — and who captures the ₹1.2 lakh crore market beneath USVs, UUVs, XLUUVs and naval UAVs?',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Intelligence · Edition 1 · v1.0',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India’s naval autonomous transformation over 2026–2035 is technically feasible and strategically necessary — but its pace will be set less by platform decisions than by the maturation of the underlying industrial substrate. This strategic-intelligence assessment argues that platforms are downstream of ecosystems, and identifies three binding constraints: semiconductor access (marine-grade FPGAs, RF integrated circuits, AI-edge NPUs), test-and-certification throughput (DGQA and CemILAC capacity), and a projected 12,000–18,000-engineer workforce deficit by 2030. If those are addressed, the Navy can field a credible force posture under the recommended ‘Autonomous Power’ scenario — 80+ USVs, 25+ UUVs including XLUUVs, and 180+ naval UAVs by 2035 — and Indian industry can capture ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The report ranks 58 industrial opportunity surfaces (nine Strategic Anchors), scores India against six comparator navies, maps the DRDO/DPSU/private/startup ecosystem, and models four scenarios to 2035. Twelve chapters, ~35 figures, eight proprietary frameworks and full appendices.',
+  accent: '#2E6497',
+  access: 'paid',
+  price: 5900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 153,
+  cover: 'https://library.techadyant.com/covers/Indian_Navy_Autonomous_Maritime.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Indian_Navy_Autonomous_Maritime_Free.pdf',
+  previewPages: 15,
+  keywords: ['india naval autonomous systems market', 'indian navy USV', 'unmanned underwater vehicle india', 'XLUUV india', 'naval UAV india', 'maritime autonomy india', 'indian navy unmanned roadmap', 'autonomous maritime market india', 'MUM-T india navy', 'naval defence industrial base india', 'DGQA certification autonomous systems', 'india naval drone opportunity'],
+  faq: [{
+  q: 'How big is India’s naval autonomous systems market by 2035?',
+  a: 'In the recommended ‘Autonomous Power’ scenario, Indian industry captures about ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore of it export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The top-30 opportunity surfaces alone represent ~₹48,000 crore of 2035 addressable market potential.'
+}, {
+  q: 'What autonomous fleet can the Indian Navy realistically field by 2035?',
+  a: 'Under the recommended scenario the report models 80+ unmanned surface vessels, 25+ unmanned underwater vehicles including 4–6 extra-large UUVs (XLUUVs), and 180+ naval UAVs including carrier UAVs and swarm squadrons.'
+}, {
+  q: 'What are the binding constraints on India’s naval autonomy?',
+  a: 'Three substrate constraints set the pace: semiconductor access (marine-grade FPGAs, RF integrated circuits and AI-edge NPUs), test-and-certification throughput at DGQA and CemILAC, and a projected 12,000–18,000-engineer workforce deficit by 2030 under business-as-usual.'
+}, {
+  q: 'Who are the key players in India’s naval autonomous ecosystem?',
+  a: 'DRDO laboratories (NSTL, NPOL, NMRL, ADE and others), DPSUs (BEL, Cochin Shipyard), private majors (L&T Defence), and startups such as Sagar Defence Engineering and NewSpace Research & Technologies.'
+}, {
+  q: 'Where are the biggest industrial opportunities?',
+  a: 'The report ranks 58 industrial opportunity surfaces, of which nine are Strategic Anchors — including quantum inertial navigation, XLUUV hull and energy systems, naval autonomy middleware, sonar arrays, AIP fuel cells, marine lithium-ion cells and navigation-grade IMUs.'
+}],
+  dateModified: '2026-08-02',
+  seo: {
+    metaTitle: 'India Naval Autonomous Systems Market 2026–2035: USV, UUV, XLUUV & Naval UAV',
+    metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.',
+    focusKeyword: 'india naval autonomous systems market',
+    schemaType: 'Report',
+    entities: ['USV', 'UUV', 'XLUUV', 'naval UAV', 'MUM-T', 'Indian Navy', 'DRDO', 'autonomous maritime', 'DGQA', 'semiconductor'],
+  },
+}, {
   slug: 'q-day-india',
   title: 'Q-Day India',
   subtitle: 'India’s readiness for post-quantum cryptography and the migration architecture',

@@ -7,6 +7,13 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'indian-navy-autonomous-maritime': {
+    access: 'paid',
+    priceInr: 5900,
+    object: 'Indian_Navy_Autonomous_Maritime.pdf',
+    filename: 'Indian-Navy-Autonomous-Maritime-Transformation-Techadyant-Labs.pdf',
+    title: 'The Indian Navy\u2019s Autonomous Maritime Transformation 2026\u20132035',
+  },
   'india-critical-manufacturing-dependencies': {
     access: 'paid',
     priceInr: 6999,
