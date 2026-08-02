@@ -36,10 +36,12 @@ import { ReportContent as QuantumSupplyContent, toc as quantumSupplyToc } from '
 import { ReportContent as DholeraContent, toc as dholeraToc } from '../content/dholera-semiconductor-supplier-ecosystem';
 import { ReportContent as RecyclingContent, toc as recyclingToc } from '../content/india-industrial-waste-recycling-economy';
 import { ReportContent as CmddContent, toc as cmddToc } from '../content/india-critical-manufacturing-dependencies';
+import { ReportContent as QDayContent, toc as qDayToc } from '../content/q-day-india';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
 const registry: Record<string, ReportModule> = {
+  'q-day-india': { toc: qDayToc, Content: QDayContent },
   'india-fab-ecosystem': { toc: fabToc, Content: FabContent },
   'india-ai-industrial-transition-2026-2035': { toc: aiTransitionToc, Content: AiTransitionContent },
   'who-actually-captures-the-india-us-minerals-alliance': { toc: mineralsToc, Content: MineralsContent },

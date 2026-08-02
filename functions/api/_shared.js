@@ -7,12 +7,23 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'q-day-india': {
+    access: 'free',
+    publicBucket: true,
+    object: 'free reports/Techadyant_Labs_QDay_Report.pdf',
+    filename: 'Q-Day-India-Techadyant-Labs.pdf',
+    title: 'Q-Day India',
+  },
   'indian-navy-autonomous-maritime': {
     access: 'paid',
     priceInr: 5900,
     object: 'Indian_Navy_Autonomous_Maritime.pdf',
     filename: 'Indian-Navy-Autonomous-Maritime-Transformation-Techadyant-Labs.pdf',
     title: 'The Indian Navy\u2019s Autonomous Maritime Transformation 2026\u20132035',
+    // Report + Data tier: the naval-autonomy workbook. Price authority for the data tier.
+    priceWithDataInr: 10900,
+    dataObject: 'data/Indian_Navy_Autonomous_Maritime.xlsx',
+    dataFilename: 'Indian-Navy-Autonomous-Maritime-Data-Pack-Techadyant-Labs.xlsx',
   },
   'india-critical-manufacturing-dependencies': {
     access: 'paid',

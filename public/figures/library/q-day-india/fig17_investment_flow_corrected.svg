@@ -1,0 +1,134 @@
+<svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1FC2D9"/>
+      <stop offset="100%" stop-color="#0F9DB3"/>
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F4E8C"/>
+      <stop offset="100%" stop-color="#163A6B"/>
+    </linearGradient>
+    <linearGradient id="darkNavyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12233F"/>
+      <stop offset="100%" stop-color="#0A1626"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0A472"/>
+      <stop offset="100%" stop-color="#E38A4D"/>
+    </linearGradient>
+    <linearGradient id="grayGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B96A8"/>
+      <stop offset="100%" stop-color="#6B7688"/>
+    </linearGradient>
+
+    <!-- arrowheads, one per flow color so links stay traceable -->
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0F9DB3"/>
+    </marker>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E8C"/>
+    </marker>
+    <marker id="arrow-darknavy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#12233F"/>
+    </marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E38A4D"/>
+    </marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6B7688"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="560" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="450" y="34" text-anchor="middle" font-size="17" font-weight="bold" fill="#12233F">
+    India PQC &amp; Quantum-Security Investment Flow — 2024-25 (₹ Crore, Techadyant estimate)
+  </text>
+
+  <!-- Column headers -->
+  <text x="120" y="70" text-anchor="middle" font-size="13" font-weight="bold" fill="#12233F">Capital Sources</text>
+  <text x="450" y="70" text-anchor="middle" font-size="13" font-weight="bold" fill="#12233F">Academic &amp; Applied R&amp;D</text>
+  <text x="770" y="70" text-anchor="middle" font-size="13" font-weight="bold" fill="#12233F">Testing &amp; Certification</text>
+
+  <!-- ===== Column 1: Capital Sources ===== -->
+  <!-- Strategic Investors -->
+  <rect x="20" y="95" width="200" height="46" rx="4" fill="url(#grayGrad)"/>
+  <text x="120" y="123" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">Strategic Investors</text>
+
+  <!-- PE/VC -->
+  <rect x="20" y="151" width="200" height="46" rx="4" fill="url(#grayGrad)"/>
+  <text x="120" y="179" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">PE / VC</text>
+
+  <!-- DST NQM -->
+  <rect x="20" y="207" width="200" height="46" rx="4" fill="url(#tealGrad)"/>
+  <text x="120" y="235" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">DST NQM</text>
+
+  <!-- MeitY NIDHI -->
+  <rect x="20" y="263" width="200" height="46" rx="4" fill="url(#navyGrad)"/>
+  <text x="120" y="291" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">MeitY NIDHI</text>
+
+  <!-- GoI Budget -->
+  <rect x="20" y="319" width="200" height="180" rx="4" fill="url(#darkNavyGrad)"/>
+  <text x="120" y="413" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">GoI Budget</text>
+
+  <!-- ===== Column 2: Academic & Applied R&D ===== -->
+  <rect x="350" y="140" width="200" height="70" rx="4" fill="url(#navyGrad)"/>
+  <text x="450" y="180" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">Captive (TCS / HCL)</text>
+
+  <rect x="350" y="240" width="200" height="70" rx="4" fill="url(#orangeGrad)"/>
+  <text x="450" y="272" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">Indian Startups</text>
+  <text x="450" y="290" text-anchor="middle" font-size="11" fill="#FFFFFF">(QNu / BQP / DataGrid)</text>
+
+  <rect x="350" y="340" width="200" height="70" rx="4" fill="url(#darkNavyGrad)"/>
+  <text x="450" y="372" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">Govt Labs</text>
+  <text x="450" y="390" text-anchor="middle" font-size="11" fill="#FFFFFF">(CDAC / DRDO)</text>
+
+  <!-- ===== Column 3: Testing & Certification ===== -->
+  <rect x="680" y="110" width="200" height="60" rx="4" fill="url(#orangeGrad)"/>
+  <text x="780" y="145" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">Integration / SI</text>
+
+  <rect x="680" y="190" width="200" height="60" rx="4" fill="url(#tealGrad)"/>
+  <text x="780" y="225" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">QKD Systems</text>
+
+  <rect x="680" y="270" width="200" height="60" rx="4" fill="url(#darkNavyGrad)"/>
+  <text x="780" y="305" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">PQC Algorithms</text>
+
+  <rect x="680" y="350" width="200" height="60" rx="4" fill="url(#grayGrad)"/>
+  <text x="780" y="385" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">Hardware / HSM</text>
+
+  <!-- ================= FLOWS: Column 1 -> Column 2 ================= -->
+  <!-- Strategic Investors -> Captive -->
+  <path d="M220,118 C300,118 300,175 350,175" fill="none" stroke="#6B7688" stroke-width="2.2" marker-end="url(#arrow-gray)"/>
+  <!-- PE/VC -> Indian Startups -->
+  <path d="M220,174 C300,174 300,275 350,275" fill="none" stroke="#6B7688" stroke-width="2.2" marker-end="url(#arrow-gray)"/>
+  <!-- DST NQM -> Indian Startups -->
+  <path d="M220,230 C300,230 300,265 350,265" fill="none" stroke="#0F9DB3" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+  <!-- DST NQM -> Govt Labs -->
+  <path d="M220,232 C300,232 300,365 350,365" fill="none" stroke="#0F9DB3" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+  <!-- MeitY NIDHI -> Indian Startups -->
+  <path d="M220,286 C300,286 300,285 350,285" fill="none" stroke="#1F4E8C" stroke-width="2.2" marker-end="url(#arrow-navy)"/>
+  <!-- GoI Budget -> Govt Labs -->
+  <path d="M220,395 C290,395 290,385 350,385" fill="none" stroke="#12233F" stroke-width="2.2" marker-end="url(#arrow-darknavy)"/>
+  <!-- GoI Budget -> Captive (PSU tie-ups) -->
+  <path d="M220,360 C300,360 300,195 350,195" fill="none" stroke="#12233F" stroke-width="2.2" marker-end="url(#arrow-darknavy)"/>
+
+  <!-- ================= FLOWS: Column 2 -> Column 3 ================= -->
+  <!-- Captive -> Integration/SI -->
+  <path d="M550,160 C620,160 620,140 680,140" fill="none" stroke="#1F4E8C" stroke-width="2.2" marker-end="url(#arrow-navy)"/>
+  <!-- Captive -> PQC Algorithms -->
+  <path d="M550,195 C620,195 620,300 680,300" fill="none" stroke="#1F4E8C" stroke-width="2.2" marker-end="url(#arrow-navy)"/>
+  <!-- Indian Startups -> QKD Systems -->
+  <path d="M550,260 C620,260 620,220 680,220" fill="none" stroke="#E38A4D" stroke-width="2.2" marker-end="url(#arrow-orange)"/>
+  <!-- Indian Startups -> Hardware/HSM -->
+  <path d="M550,295 C620,295 620,380 680,380" fill="none" stroke="#E38A4D" stroke-width="2.2" marker-end="url(#arrow-orange)"/>
+  <!-- Govt Labs -> PQC Algorithms -->
+  <path d="M550,360 C620,360 620,315 680,315" fill="none" stroke="#12233F" stroke-width="2.2" marker-end="url(#arrow-darknavy)"/>
+  <!-- Govt Labs -> Hardware/HSM -->
+  <path d="M550,390 C620,390 620,395 680,395" fill="none" stroke="#12233F" stroke-width="2.2" marker-end="url(#arrow-darknavy)"/>
+
+  <!-- Footnote -->
+  <text x="450" y="540" text-anchor="middle" font-size="10" fill="#6B7688" font-style="italic">
+    Line color indicates capital/output source for traceability. Widths are illustrative, not volume-weighted.
+  </text>
+</svg>
