@@ -34,39 +34,6 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
-  slug: 'q-day-india',
-  title: 'Q-Day India',
-  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
-  domain: 'Strategic Technology',
-  edition: '2026 free edition',
-  published: '2026-08-02',
-  publishedLabel: '2 August 2026',
-  readingTime: '~ 90 min read',
-  status: 'published',
-  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems.',
-  accent: '#38e1c4',
-  access: 'free',
-  price: undefined,
-  currency: undefined,
-  hasPdf: true,
-  hasDeck: false,
-  pages: 152,
-  cover: 'https://library.techadyant.com/covers/Techadyant_Labs_QDay_Report.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
-  previewPages: 152,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity'],
-  faq: [{ q: 'What is Q-Day?', a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break public-key cryptography used in today’s digital systems. It is uncertain in timing, but migration must begin earlier for long-life data and complex infrastructure.' }, { q: 'What should Indian organisations do first?', a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement and test post-quantum migration before large-scale rollout.' }],
-  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
-  dateModified: '2026-08-02',
-  seo: {
-    metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness and Migration',
-    metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness: crypto-agility, long-life data, sector priorities and a migration architecture for Q-Day.',
-    focusKeyword: 'post-quantum cryptography India'
-  }
-}, {
   slug: 'india-semiconductor-supply-chain-missing-links',
   title: 'India’s Semiconductor Supply Chain Missing Links and Industrial Opportunity Surfaces',
   subtitle: 'Substrates, gases, photoresists, equipment subcomponents — the layers no one is building',
@@ -313,6 +280,53 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-08-15',
   seo: {
 
+}
+}, {
+  slug: 'q-day-india',
+  title: 'Q-Day India',
+  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
+  domain: 'Strategic Technology',
+  edition: 'Strategic Risk · 2026 Free Edition',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 90 min read',
+  status: 'published',
+  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
+  accent: '#38E1C4',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 152,
+  cover: 'https://library.techadyant.com/covers/Techadyant_Labs_QDay_Report.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
+  previewPages: 152,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
+  faq: [{
+  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
+  q: 'What is Q-Day?'
+}, {
+  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
+  q: 'What should Indian organisations do first?'
+}, {
+  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
+  q: 'Why migrate before Q-Day arrives?'
+}, {
+  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
+  q: 'Which sectors are most exposed in India?'
+}],
+  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
+  dateModified: '2026-08-02',
+  seo: {
+  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
+  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
+  schemaType: 'Report',
+  focusKeyword: 'post-quantum cryptography India',
+  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
 }
 }, {
   slug: 'indian-navy-autonomous-maritime',

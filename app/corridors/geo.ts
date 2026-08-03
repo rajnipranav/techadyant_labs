@@ -16,7 +16,9 @@ export const nodeGeo: Record<string, NodeGeo> = {
   "amritsar-kolkata/gaya": { c: [84.9994, 24.7969], src: "gazetteer" },
   "amritsar-kolkata/jharkhand": { c: [86.1511, 23.6693], src: "gazetteer" },
   "amritsar-kolkata/raghunathpur": { c: [86.63, 23.55], src: "gazetteer" },
-  "delhi-mumbai/dholera-sir": { c: [72.61, 22.25], src: "gis" },
+  // Corrected 2026-08-02: was [72.61, 22.25] (~42 km east in Gulf of Khambhat).
+  // Now activation-area centroid from verified plus-code coordinates.
+  "delhi-mumbai/dholera-sir": { c: [72.194, 22.240], src: "verified" },
   "delhi-mumbai/auric-shendra-bidkin": { c: [75.86, 19.99], src: "gis" },
   "delhi-mumbai/iitgnl-greater-noida": { c: [77.5, 28.47], src: "gis" },
   "delhi-mumbai/vikram-udyogpuri": { c: [75.7873, 23.1765], src: "gis" },
