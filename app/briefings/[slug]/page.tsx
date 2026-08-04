@@ -24,8 +24,25 @@ export default async function BriefingPage({ params }: { params: Promise<{ slug:
 
   const live = b.status === 'live';
 
+  const breadcrumbJsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://labs.techadyant.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Briefings', item: 'https://labs.techadyant.com/briefings/' },
+      { '@type': 'ListItem', position: 3, name: b.title, item: `https://labs.techadyant.com/briefings/${b.slug}/` },
+    ],
+  });
+
   return (
     <article>
+      {breadcrumbJsonLd && (
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: breadcrumbJsonLd }}
+        />
+      )}
       <header className="report-hero">
         <div className="inner" style={{ maxWidth: 820 }}>
           <div className="ed-breadcrumb">

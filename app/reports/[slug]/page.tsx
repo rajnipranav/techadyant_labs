@@ -118,6 +118,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return md;
 }
 
+function breadcrumbJsonLd(meta: any) {
+  const seo = meta.seo || {};
+  const canonical = seo.canonical || `https://labs.techadyant.com/reports/${meta.slug}/`;
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://labs.techadyant.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Reports', item: 'https://labs.techadyant.com/reports/' },
+      { '@type': 'ListItem', position: 3, name: meta.title, item: canonical },
+    ],
+  });
+}
+
 function articleJsonLd(meta: any) {
   if (!meta) return null;
   const seo = meta.seo || {};
@@ -247,8 +261,17 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
   const dataPriceLabel = dataPriceRaw ? `₹${Number(dataPriceRaw).toLocaleString('en-IN')}` : undefined;
   if (hasData) whatsInside.push('Optional data pack — the full underlying dataset (Excel)');
 
+  const breadcrumbJson = breadcrumbJsonLd(meta);
+
   return (
     <>
+      {breadcrumbJson && (
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: breadcrumbJson }}
+        />
+      )}
       {ldJson && (
         <script
           type="application/ld+json"

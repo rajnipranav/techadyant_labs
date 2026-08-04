@@ -8,9 +8,25 @@ import { THEMES } from './themes';
 import { getReportsMeta } from '../lib/cms';
 
 export const metadata: Metadata = {
-  title: 'Reports',
+  title: "Strategic Intelligence Reports on India's Industrial Systems [2026]",
   description:
-    'Decision-grade research on India’s strategic industries — semiconductors, defence, AI infrastructure, critical minerals and technology sovereignty. Each report works a single question through its dependencies, chokepoints and beneficiaries.',
+    "Free & paid research on India's industrial transformation: semiconductors, AI infrastructure, critical minerals, defence drones, and enterprise software sovereignty. Each report maps dependencies, chokepoints and beneficiaries.",
+  openGraph: {
+    title: "Strategic Intelligence Reports on India's Industrial Systems [2026]",
+    description:
+      "Free & paid research on India's industrial transformation: semiconductors, AI infrastructure, critical minerals, defence drones, and enterprise software sovereignty.",
+    url: 'https://labs.techadyant.com/reports/',
+    type: 'website',
+    siteName: 'Techadyant Labs',
+    images: [{ url: '/og/default.png', width: 1200, height: 630, alt: 'Techadyant Labs Strategic Reports' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Strategic Intelligence Reports on India's Industrial Systems [2026]",
+    description:
+      "Free & paid research on India's industrial transformation: semiconductors, AI infrastructure, critical minerals, defence drones, and enterprise software sovereignty.",
+    images: ['/og/default.png'],
+  },
 };
 
 const WHY = [

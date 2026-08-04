@@ -8,10 +8,26 @@ import { leaderboard, TIER_COLOR } from './corridor-intel';
 import { JsonLd, breadcrumb, SITE } from '../research/seo';
 
 export const metadata: Metadata = {
-  title: 'India’s 11 national industrial corridors — interactive map',
+  title: "India's 11 National Industrial Corridors — Interactive Map & Investor Dossier [2026]",
   description:
-    'An interactive map of India’s eleven national industrial corridors (DMIC, CBIC, AKIC, VCIC and more). Click any corridor for its status, anchor nodes, programme, official sources and related research — in one place.',
+    "Interactive map of India's 11 NICDP corridors: DMIC, AKIC, CBIC, VCIC, HNIC and more. Click any corridor for IMC node status, investment programme, state coverage, and related reports.",
   alternates: { canonical: `${SITE}/corridors/` },
+  openGraph: {
+    title: "India's 11 National Industrial Corridors — Interactive Map & Investor Dossier [2026]",
+    description:
+      "Interactive map of India's 11 NICDP corridors: DMIC, AKIC, CBIC, VCIC, HNIC and more. Click any corridor for IMC node status, investment programme, state coverage, and related reports.",
+    url: `${SITE}/corridors/`,
+    type: 'website',
+    siteName: 'Techadyant Labs',
+    images: [{ url: '/og/default.png', width: 1200, height: 630, alt: 'India Industrial Corridors Map' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "India's 11 National Industrial Corridors — Interactive Map & Investor Dossier [2026]",
+    description:
+      "Interactive map of India's 11 NICDP corridors: DMIC, AKIC, CBIC, VCIC, HNIC and more. Click any corridor for IMC node status, investment programme, state coverage, and related reports.",
+    images: ['/og/default.png'],
+  },
 };
 
 const shortName = (n: string) => n.replace(' Industrial Corridor', '').replace(' Economic Corridor', ' (OEC)');

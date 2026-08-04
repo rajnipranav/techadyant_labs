@@ -74,6 +74,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/research/patents/`,       lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${SITE}/research/drones-uas/`,   lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE}/research/search/`,        lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${SITE}/research/explainers/oscom-odisha/`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${SITE}/corridors/explainers/industrial-corridors-guide/`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
   ];
 
   // Published reports (skip forthcoming — they have placeholder pages with

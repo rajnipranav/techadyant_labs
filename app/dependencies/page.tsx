@@ -14,10 +14,26 @@ const delta = +(overallIndex - (first?.overall_index ?? overallIndex)).toFixed(1
 const improving = delta < 0; // lower index = less dependent = improving
 
 export const metadata: Metadata = {
-  title: 'India Manufacturing Dependency Monitor — Critical Imports, Scored',
+  title: 'India Import Dependency Index 2026: Critical Manufacturing & Market Share Map',
   description:
-    `A living index of where India stays import-dependent in manufacturing: ${products.length} strategic products across 12 sectors scored on the Critical Manufacturing Dependency Index, with localisation potential, opportunity surfaces and state capability. Free from Techadyant Labs.`,
+    `Comprehensive index of India’s manufacturing import dependencies: 12 sectors, semiconductor & defence import substitution, market sizes, and localization opportunities. Scored on the CMDI index.`,
   alternates: { canonical: `${SITE}/dependencies/` },
+  openGraph: {
+    title: 'India Import Dependency Index 2026: Critical Manufacturing & Market Share Map',
+    description:
+      `Comprehensive index of India’s manufacturing import dependencies: 12 sectors, semiconductor & defence import substitution, market sizes, and localization opportunities. Scored on the CMDI index.`,
+    url: `${SITE}/dependencies/`,
+    type: 'website',
+    siteName: 'Techadyant Labs',
+    images: [{ url: '/og/default.png', width: 1200, height: 630, alt: 'India Manufacturing Dependency Monitor' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'India Import Dependency Index 2026: Critical Manufacturing & Market Share Map',
+    description:
+      `Comprehensive index of India’s manufacturing import dependencies: 12 sectors, semiconductor & defence import substitution, market sizes, and localization opportunities. Scored on the CMDI index.`,
+    images: ['/og/default.png'],
+  },
 };
 
 const FAQ = [

@@ -14,22 +14,38 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; node: string }> }): Promise<Metadata> {
   const { slug, node } = await params;
   const n = nodeBySlugs(slug, node);
-  if (!n) return { title: 'Node' };
+  if (!n) return { title: 'Industrial Node Profile' };
   const cor = corridors.find((c) => c.slug === slug);
-  const lead = n.companies?.[0]?.name;
   const sectorKw = String(n.sectors).split(',').map((x) => x.trim()).filter(Boolean);
   const statBits = [
     n.areaAc != null && `${n.areaAc.toLocaleString('en-IN')} acres`,
-    n.investmentCr != null && `₹${n.investmentCr.toLocaleString('en-IN')} cr`,
+    n.investmentCr != null && `₹${n.investmentCr.toLocaleString('en-IN')} cr investment`,
     n.jobs != null && `${n.jobs.toLocaleString('en-IN')} jobs`,
-  ].filter(Boolean).join(' · ');
-  const metaDesc = `${n.name} (${n.state}) — ${cor?.abbr ?? ''} ${STAGE[n.stage].label}.${statBits ? ` ${statBits}.` : ''} ${n.summary?.[0] ?? ''}`.replace(/\s+/g, ' ').trim().replace(/^(.{0,155}\S)(?:\s[\s\S]*)?$/, '$1');
+  ].filter(Boolean).join(', ');
+
+  const nodeName = n.name.replace(/ \(.*/, '');
+  const title = `${nodeName} (${n.state}) — ${cor?.abbr ?? 'Corridor'} Node: ${STAGE[n.stage].label} [2026]`;
+  const metaDesc = `${nodeName} industrial node, ${n.state}: ${statBits ? statBits + '. ' : ''}${STAGE[n.stage].label}. ${cor?.name ?? ''} anchor. Sectors: ${sectorKw.slice(0, 3).join(', ')}.`.replace(/\s+/g, ' ').trim().slice(0, 158);
+  const nodeUrl = `https://labs.techadyant.com/corridors/${slug}/${node}/`;
   return {
-    title: `${n.name.replace(/ \(.*/, '')} — ${cor?.abbr ?? 'corridor'}`,
+    title,
     description: metaDesc,
     keywords: [n.name, `${n.name} ${cor?.abbr ?? ''}`.trim(), `${n.state} industrial corridor`, cor?.name ?? '', 'NICDP', 'industrial node', ...sectorKw, ...((n.companies ?? []).map((c) => c.name))].filter(Boolean) as string[],
-    alternates: { canonical: `https://labs.techadyant.com/corridors/${slug}/${node}/` },
-    openGraph: { title: `${n.name} — ${cor?.abbr ?? ''} node`, description: `${n.name} (${n.state}): ${STAGE[n.stage].label}.`, url: `https://labs.techadyant.com/corridors/${slug}/${node}/`, type: 'article' },
+    alternates: { canonical: nodeUrl },
+    openGraph: {
+      title,
+      description: metaDesc,
+      url: nodeUrl,
+      type: 'article',
+      siteName: 'Techadyant Labs',
+      images: [{ url: '/og/default.png', width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description: metaDesc,
+      images: ['/og/default.png'],
+    },
   };
 }
 

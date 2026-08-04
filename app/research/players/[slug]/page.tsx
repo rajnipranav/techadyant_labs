@@ -16,11 +16,32 @@ const clampDesc = (s: string, n = 158): string => (s.length <= n ? s : s.slice(0
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const p = playerBySlug(slug);
-  if (!p) return { title: 'Player' };
+  if (!p) return { title: 'Industrial Player Profile' };
+
+  const title = `${p.name}: Industrial Capabilities & Supply Chain Profile`;
+  const descRaw = (p.description && p.description.length >= 110)
+    ? p.description
+    : `${p.name} (${p.type}) in India's industrial ecosystem: manufacturing footprint, capabilities, corridor links and key relationships.`;
+  const description = clampDesc(descRaw);
+
   return {
-    title: p.name,
-    description: clampDesc((p.description && p.description.length >= 110) ? p.description : `${p.name} — ${p.type} in India’s industrial systems: its role, corridor links and key relationships.${p.description ? ' ' + p.description : ''}`),
+    title,
+    description,
     alternates: { canonical: `${SITE}/research/players/${slug}/` },
+    openGraph: {
+      title,
+      description,
+      url: `${SITE}/research/players/${slug}/`,
+      type: 'article',
+      siteName: 'Techadyant Labs',
+      images: [{ url: '/og/default.png', width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/og/default.png'],
+    },
   };
 }
 

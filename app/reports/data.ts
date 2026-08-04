@@ -835,10 +835,10 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-07-09',
   seo: {
   entities: ['cargo drone', 'BVLOS', 'UTM', 'Drone Rules 2021', 'PLI scheme', 'Zipline', 'healthcare logistics', 'last-mile delivery', 'India logistics', 'DGCA'],
-  metaTitle: 'India Cargo Drone Market 2026–2035: Demand Forecast, Ecosystems & Opportunities',
+  metaTitle: 'India Cargo Drone Market 2035: ₹18,400 Cr Demand Forecast & 25 Opportunities',
   schemaType: 'Report',
   focusKeyword: 'india cargo drone market',
-  metaDescription: 'India’s civil cargo drone market to 2035 — fleet and revenue forecasts across three scenarios, ten demand ecosystems, a proprietary Adoption Readiness Index, and 25 hidden opportunity surfaces for OEMs, operators, SMEs and investors.'
+  metaDescription: 'India cargo drone market: Base Case 50,200 fleet units, ₹18,400 Cr revenue by 2035. 10 demand ecosystems scored on Adoption Readiness Index. 25 hidden opportunity surfaces mapped.'
 }
 }, {
   slug: 'india-loitering-munitions-market',
@@ -885,10 +885,10 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-07-08',
   seo: {
   entities: ['Nagastra', 'ALS-50', 'SkyStriker', 'ULPGM-V3', 'Economic Explosives', 'Tata Advanced Systems', 'DRDO', 'Bharat Dynamics', 'Operation Sindoor', 'NdFeB magnets', 'REPM scheme', 'NavIC'],
-  metaTitle: 'India Loitering Munitions Market 2026-2035: Demand, Suppliers & Sovereignty',
+  metaTitle: 'India Loitering Munitions Market 2026–2035: ₹79,000 Cr Pipeline & Who Wins',
   schemaType: 'Report',
   focusKeyword: 'india loitering munitions market',
-  metaDescription: 'How many loitering munitions India will buy through 2035, which categories and suppliers win, and the subsystem chokepoints (magnets, seekers, flight controllers) that decide sovereignty.'
+  metaDescription: 'India's ₹79,000 Cr loitering munitions decade post-Operation Sindoor: demand model, Nagastra/ALS-50/SkyStriker supplier map, and the flight controller & magnet chokepoints that decide sovereignty.'
 }
 }, {
   slug: 'beyond-quantum-computing',
@@ -1543,10 +1543,10 @@ export const reports: ReportMeta[] = [{
   seo: {
   entities: ['IndiaAI Mission', 'India Semiconductor Mission', 'data centres', 'GPUs', 'NVIDIA', 'hyperscalers', 'Dholera', 'Bengaluru'],
   aiSummary: 'A baseline architecture for India\'s 2026–2035 AI industrial transition: data-centre capacity growing from ~1.5 GW towards 9 GW, the IndiaAI Mission\'s 34,000+ subsidised GPUs, the GPU import-dependency stack, grid stress rising from ~13 TWh to ~57 TWh, water and cooling constraints, and seven regional AI opportunity corridors across Karnataka, Telangana, Tamil Nadu, Maharashtra, Gujarat, UP/NCR and Andhra Pradesh. Free to read in full.',
-  metaTitle: 'India AI Infrastructure 2026–2035: Data Centres, GPUs, Power',
+  metaTitle: 'India AI Industrial Transition 2026–2035: 1.5 GW to 9 GW, Free Report',
   schemaType: 'Report',
-  focusKeyword: 'India AI infrastructure',
-  metaDescription: 'India\'s AI build-out mapped as industrial infrastructure: data-centre capacity from ~1.5 GW towards 9 GW, IndiaAI Mission GPUs, grid and water stress, and seven regional AI corridors. Free full-length report.'
+  focusKeyword: 'India AI industrial transition',
+  metaDescription: 'Free full-length report: India\'s AI build-out as industrial infrastructure — data centres from 1.5 GW to 9 GW, IndiaAI Mission GPUs, grid & water stress, 7 regional AI corridors mapped to 2035.'
 }
 }, {
   slug: 'india-fab-ecosystem',

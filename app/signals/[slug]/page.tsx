@@ -32,6 +32,16 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
   const s: any = await getSignalBySlug(slug) || staticGetSignal(slug);
   if (!s) notFound();
 
+  const breadcrumbJsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://labs.techadyant.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Signals', item: 'https://labs.techadyant.com/signals/' },
+      { '@type': 'ListItem', position: 3, name: s.title, item: `https://labs.techadyant.com/signals/${s.slug}/` },
+    ],
+  });
+
   const signalJsonLd = s.status === 'live'
     ? JSON.stringify({
         '@context': 'https://schema.org',
@@ -63,6 +73,13 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
 
   return (
     <article>
+      {breadcrumbJsonLd && (
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: breadcrumbJsonLd }}
+        />
+      )}
       {signalJsonLd && (
         <script
           type="application/ld+json"

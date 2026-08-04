@@ -23,15 +23,31 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const entity = entityBySlug(slug);
   if (!entity) return { title: 'Atlas Entity' };
+
+  const title = `${entity.title}: Industrial Profile & Supply Chain Dossier`;
+  const description = clamp(entity.summary || `Strategic intelligence & industrial profile for ${entity.title} in India's technology ecosystem.`);
+
   return {
-    title: `${entity.title} - Atlas Entity`,
-    description: clamp(entity.summary || `${entity.title} in the Techadyant Atlas knowledge graph.`),
-    // Players also live at /research/players/<slug>; canonicalise there so Google consolidates
-    // the two duplicate URLs' ranking signal onto one page (GSC July 2026 fix).
+    title,
+    description,
     alternates: {
       canonical: isPlayerSlug(entity.slug)
         ? `${SITE}/research/players/${entity.slug}/`
         : `${SITE}/research/entities/${entity.slug}/`,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${SITE}/research/entities/${entity.slug}/`,
+      type: 'article',
+      siteName: 'Techadyant Labs',
+      images: [{ url: '/og/default.png', width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/og/default.png'],
     },
   };
 }

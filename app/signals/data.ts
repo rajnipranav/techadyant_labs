@@ -1281,6 +1281,67 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Edition I introduces a five-stage pipeline, a five-level taxonomy across twelve mega-sectors and ten proprietary indices led by the CMDI, scoring India\'s top strategic imports.', 'It maps localisation and investment opportunity, benchmarks PLI performance and state capability, and sets out the structural gaps with a phased roadmap.', 'It is built as the foundation of a recurring national dependency monitor, not a one-off report — the index can be re-scored as the data moves.', 'Companion signals break out the specific findings as discrete dependency intelligence: chokepoints, Build-now surfaces, the PLI component gap, the state map and the structural gaps.'],
   sources: ['https://labs.techadyant.com/research/dependencies']
+}, {
+  slug: 'india-glass-substrate-frontier-entry',
+  no: 'S-033',
+  title: 'India\'s Deepest Chip Gap Is Being Filled at the Frontier — on Foreign Balance Sheets',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-08-03',
+  dateLabel: '3 Aug 2026',
+  status: 'live',
+  excerpt: 'IC substrates are one of the few layers where India has no producer at all and three firms hold ~70% of the world market. The first plant to address it — Intel and 3DGS, US$3.3bn in Odisha — is building glass-core substrates, a technology nobody has in volume production anywhere. India is entering this layer at the frontier rather than a generation behind. It is also entering it as a host, not an owner.',
+  readingTime: '6 min',
+  body: [{
+  text: 'India now has twelve approved semiconductor manufacturing units carrying more than Rs 1.64 lakh crore of cumulative investment, and Semicon 2.0 has formally extended incentives to the machines, materials and chemicals beneath the fab. The obvious question is who answers that call. The first substantive answer is unusual enough to be worth reading carefully.',
+  type: 'p'
+}, {
+  text: 'The gap being filled',
+  type: 'h'
+}, {
+  text: 'IC substrates — the engineered interposer that carries a die and connects it to the board — are among the hardest layers in the stack to enter. Three firms, Shinko, IBIDEN and Unimicron, hold roughly 70% of the world market. India has no producer at any scale. In our dependency mapping it sits in the same tier as photoresist and CMP slurry: not merely imported, but imported from a market structure with no alternative supplier to switch to.',
+  type: 'p'
+}, {
+  text: 'In May 2026 the government announced that Intel and 3D Glass Solutions will invest about US$3.3 billion in a substrate plant in the Bhubaneswar-Khurda region of Odisha, built over five to six years. The stated output is roughly 70,000 glass substrates a year alongside some 50 million assembled units and close to 13,000 advanced 3D heterogeneous-integration modules. Ground was broken in April.',
+  type: 'p'
+}, {
+  text: 'Why the technology choice is the real story',
+  type: 'h'
+}, {
+  text: 'India has usually entered semiconductor layers late — mature nodes, commodity assembly, a generation or more behind the frontier. This is different. Glass-core substrates are pre-commercial almost everywhere. Intel\'\'s own first volume glass site is expected to be in New Mexico, with production so far confined to a pilot line. SKC\'\'s subsidiary Absolics is racing to be the first commercial producer by the end of 2026; Samsung Electro-Mechanics is running a pilot with mass production targeted after 2027; TSMC\'\'s panel-level packaging roadmap points to 2028.',
+  type: 'p'
+}, {
+  text: 'So the Odisha plant is not a hand-me-down. It places India inside a technology race that is still being run, in a layer that advanced packaging is making more valuable each year as performance gains migrate from the transistor to the interconnect. That is a materially better position than being handed a depreciated line.',
+  type: 'p'
+}, {
+  text: 'The part that should temper the enthusiasm',
+  type: 'h'
+}, {
+  text: 'The capability is arriving, but the ownership is not Indian. This is a US firm and a US technology partner siting capacity in India — welcome, and consistent with what an incentive scheme is designed to produce, but it does not by itself create an Indian substrate industry. The distinction matters because it is the same distinction that runs through our work on assembly versus ecosystem: hosting a capability and owning one produce very different second-order effects. A hosted plant creates jobs, supplier demand and process knowledge. An owned capability creates pricing power and the option to serve other customers.',
+  type: 'p'
+}, {
+  text: 'The same pattern is visible one layer over. Fujifilm signed an MoU with Gujarat in July 2026 to explore a chip-materials base at Dholera, aimed at the photoresist and process-chemicals gap. Two of the deepest chokepoints in India\'\'s chip stack are being addressed at once — and in both cases the entrant is the incumbent, relocating capacity, rather than an Indian firm entering.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether the Odisha plant\'\'s Indian supplier base develops around it — glass handling, cleanroom services, metrology, chemicals — or whether inputs and engineers are imported for the full five-to-six-year build.', 'Whether any Indian firm or research group enters substrate development, through Semicon 2.0\'\'s second pillar or otherwise. Today there is none; the gap analysis that claims one should be treated sceptically.', 'Whether glass-core substrates reach volume anywhere. If the technology slips, a plant sited on it slips with it — frontier entry carries frontier risk.', 'Whether the Fujifilm MoU converts into a notified investment or stays an intention. MoUs and financial closes are different verbs.', 'Whether advanced packaging in India deepens toward substrate and interposer work, or stays at wire-bond and commodity assembly.']
+}, {
+  text: 'The strategic read',
+  type: 'h'
+}, {
+  text: 'For a decade the honest description of India\'\'s semiconductor position was that it participated in the layers where value had already been commoditised. Two announcements in ten weeks put India inside two layers where value is still concentrated and, in the substrate case, still being created. That is a genuine change in kind, not degree. The unresolved question is whether India ends the decade as the place where these layers are made, or as the place that owns them — and nothing in the current announcements settles it either way.',
+  type: 'p'
+}, {
+  text: 'Go deeper',
+  type: 'h'
+}, {
+  text: 'The full dependency picture across the semiconductor stack is mapped in the [Atlas dependency view](/research/dependencies). [The Semicon 2.0 Opportunity Map](/reports/semicon-2-0-opportunity-map/) sizes and ranks the upstream streams beyond the fab.',
+  type: 'p'
+}],
+  takeaways: ['IC substrates are one of India\'s deepest chip-stack gaps — no domestic producer, and roughly 70% of the world market held by Shinko, IBIDEN and Unimicron.', 'Intel and 3D Glass Solutions are investing about US$3.3bn in Bhubaneswar-Khurda, Odisha over five to six years — roughly 70,000 glass substrates a year plus assembled units and 3D heterogeneous-integration modules.', 'Glass-core substrates are pre-commercial worldwide (Absolics targeting end-2026, Samsung post-2027, TSMC panel-level ~2028), so India is entering this layer at the frontier rather than a generation behind.', 'Both first movers into India\'s deepest chokepoints — Intel/3DGS in substrates, Fujifilm in process chemicals — are foreign incumbents relocating capacity, not Indian firms entering. Hosting a capability and owning one are different things.'],
+  sources: ['https://www.reuters.com/world/india/intel-3dgs-set-up-33-billion-substrate-plant-indias-odisha-state-2026-05-29/', 'https://www.trendforce.com/news/2026/06/01/news-intel-advances-glass-substrate-push-with-3dgs-us3-3-billion-india-plant-set-for-five-to-six-year-buildout/', 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284784', 'https://evertiq.com/design/2026-07-01-fujifilm-partners-with-gujarat-to-boost-chip-materials-manufacturing']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

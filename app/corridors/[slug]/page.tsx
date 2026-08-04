@@ -18,11 +18,30 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const c = corridorBySlug(slug);
-  if (!c) return { title: 'Corridor' };
+  if (!c) return { title: 'Industrial Corridor' };
+
+  const nodeNames = c.nodes.slice(0, 3).map((n) => n.name).join(', ');
+  const title = `${c.name} (${c.abbr}): Map, Nodes & Status [2026]`;
+  const description = `Complete investor guide & map for India's ${c.name} (${c.abbr}). Infrastructure status, state coverage (${c.states}), anchor nodes (${nodeNames}), and project developments.`;
+
   return {
-    title: `${c.name} (${c.abbr}) — status, nodes & investor dossier`,
-    description: `${c.blurb} ${c.length}. Status, anchor nodes, programme, official sources and related research for India’s ${c.name}.`,
+    title,
+    description,
     alternates: { canonical: `${SITE}/corridors/${c.slug}/` },
+    openGraph: {
+      title,
+      description,
+      url: `${SITE}/corridors/${c.slug}/`,
+      type: 'article',
+      siteName: 'Techadyant Labs',
+      images: [{ url: '/og/default.png', width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/og/default.png'],
+    },
   };
 }
 
