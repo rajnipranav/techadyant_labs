@@ -133,7 +133,7 @@ map.on('load',()=>{
    const d=elMk(`<span class="dotm" style="${dotStyle}"></span><span class="lbm">${esc(p.name)}</span>`,'mk anch');
    d.onclick=(ev)=>{ev.stopPropagation();selectAnchor(p);};
    anchorMarkers[p.name]=new maplibregl.Marker({element:d,anchor:'top'}).setLngLat(f.geometry.coordinates).addTo(map);});
- renderNode();drawLegend('anchors');
+ renderNode();drawLegend('anchors');setPlan(true);
 });
 
 // ---- bloom the opportunity surface with markers ----

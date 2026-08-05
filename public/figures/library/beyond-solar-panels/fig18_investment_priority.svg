@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 792 475.2">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2 {
+        fill: #4a90e2;
+      }
+
+      .st0, .st3, .st4, .st5, .st6, .st7, .st8 {
+        stroke-linejoin: round;
+      }
+
+      .st0, .st3, .st6 {
+        fill-opacity: .78;
+        stroke: #fff;
+        stroke-opacity: .78;
+        stroke-width: 2px;
+      }
+
+      .st9 {
+        clip-path: url(#clippath-21);
+      }
+
+      .st10, .st11, .st1, .st12, .st13, .st14, .st2, .st15, .st16, .st17, .st18, .st19 {
+        isolation: isolate;
+      }
+
+      .st10, .st20, .st12, .st18, .st21 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st10, .st20, .st12, .st21 {
+        font-size: 8px;
+      }
+
+      .st10, .st20, .st4, .st14, .st22, .st17, .st18 {
+        fill: #4a5568;
+      }
+
+      .st23 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st24 {
+        clip-path: url(#clippath-7);
+      }
+
+      .st25 {
+        clip-path: url(#clippath-17);
+      }
+
+      .st11 {
+        stroke: #e63946;
+      }
+
+      .st11, .st1, .st16 {
+        opacity: .06;
+      }
+
+      .st11, .st3, .st15 {
+        fill: #e63946;
+      }
+
+      .st26 {
+        clip-path: url(#clippath-15);
+      }
+
+      .st27 {
+        clip-path: url(#clippath-18);
+      }
+
+      .st28 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st29 {
+        clip-path: url(#clippath-22);
+      }
+
+      .st30 {
+        clip-path: url(#clippath-23);
+      }
+
+      .st1 {
+        stroke: #4a90e2;
+      }
+
+      .st31 {
+        clip-path: url(#clippath-9);
+      }
+
+      .st32 {
+        clip-path: url(#clippath-10);
+      }
+
+      .st33 {
+        fill: #fff;
+      }
+
+      .st12, .st13, .st21 {
+        fill: #0a2540;
+      }
+
+      .st34 {
+        clip-path: url(#clippath-11);
+      }
+
+      .st35, .st36, .st7, .st8 {
+        fill: none;
+      }
+
+      .st4 {
+        stroke: #4a5568;
+      }
+
+      .st4, .st7, .st8 {
+        stroke-width: .8px;
+      }
+
+      .st13, .st14, .st2, .st22, .st15, .st17, .st19 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st13, .st2, .st22, .st15, .st19 {
+        font-size: 12px;
+      }
+
+      .st14 {
+        font-size: 9.5px;
+      }
+
+      .st37 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st38 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st39 {
+        clip-path: url(#clippath-20);
+      }
+
+      .st40 {
+        clip-path: url(#clippath-8);
+      }
+
+      .st41 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st42 {
+        clip-path: url(#clippath-12);
+      }
+
+      .st43 {
+        clip-path: url(#clippath-14);
+      }
+
+      .st16 {
+        stroke: #f4a261;
+      }
+
+      .st16, .st6, .st19 {
+        fill: #f4a261;
+      }
+
+      .st44 {
+        clip-path: url(#clippath-19);
+      }
+
+      .st17 {
+        font-size: 6.65px;
+      }
+
+      .st18 {
+        font-size: 10px;
+      }
+
+      .st36 {
+        stroke: #a0aec0;
+      }
+
+      .st36, .st5 {
+        stroke-width: .6px;
+      }
+
+      .st36, .st7, .st8 {
+        stroke-linecap: square;
+      }
+
+      .st5 {
+        stroke: #000;
+      }
+
+      .st7 {
+        stroke-opacity: .95;
+      }
+
+      .st7, .st8 {
+        stroke: #e2e8f0;
+      }
+
+      .st45 {
+        clip-path: url(#clippath-16);
+      }
+
+      .st46 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st47 {
+        clip-path: url(#clippath-13);
+      }
+
+      .st48 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <rect class="st35" x="79.2" y="45.53" width="673.2" height="342.14"/>
+    </clipPath>
+  </defs>
+  <path class="st33" d="M79.2,387.67h673.2V45.53H79.2v342.14Z"/>
+  <g class="st48">
+    <path class="st7" d="M79.2,387.67V45.53"/>
+  </g>
+  <path id="m1d0de6ab20" class="st4" d="M79.2,387.67v3"/>
+  <text class="st14" transform="translate(70.84 400.41)"><tspan x="0" y="0">1</tspan></text>
+  <text class="st14" transform="translate(76.88 400.41)"><tspan x="0" y="0">0</tspan></text>
+  <text class="st22" transform="translate(82.17 400.41)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st17" transform="translate(83.02 396.59)"><tspan x="0" y="0">2</tspan></text>
+  <g class="st37">
+    <path class="st7" d="M432.94,387.67V45.53"/>
+  </g>
+  <path id="m1d0de6ab201" data-name="m1d0de6ab20" class="st4" d="M432.94,387.67v3"/>
+  <text class="st14" transform="translate(424.58 400.41)"><tspan x="0" y="0">1</tspan></text>
+  <text class="st14" transform="translate(430.62 400.41)"><tspan x="0" y="0">0</tspan></text>
+  <text class="st22" transform="translate(435.91 400.41)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st17" transform="translate(436.76 396.59)"><tspan x="0" y="0">3</tspan></text>
+  <path id="m7f40ca9eeb" class="st5" d="M185.69,387.67v2"/>
+  <path id="m7f40ca9eeb1" data-name="m7f40ca9eeb" class="st5" d="M247.98,387.67v2"/>
+  <path id="m7f40ca9eeb2" data-name="m7f40ca9eeb" class="st5" d="M292.17,387.67v2"/>
+  <path id="m7f40ca9eeb3" data-name="m7f40ca9eeb" class="st5" d="M326.45,387.67v2"/>
+  <path id="m7f40ca9eeb4" data-name="m7f40ca9eeb" class="st5" d="M354.46,387.67v2"/>
+  <path id="m7f40ca9eeb5" data-name="m7f40ca9eeb" class="st5" d="M378.15,387.67v2"/>
+  <path id="m7f40ca9eeb6" data-name="m7f40ca9eeb" class="st5" d="M398.66,387.67v2"/>
+  <path id="m7f40ca9eeb7" data-name="m7f40ca9eeb" class="st5" d="M416.75,387.67v2"/>
+  <path id="m7f40ca9eeb8" data-name="m7f40ca9eeb" class="st5" d="M539.43,387.67v2"/>
+  <path id="m7f40ca9eeb9" data-name="m7f40ca9eeb" class="st5" d="M601.72,408.67v2"/>
+  <path id="m7f40ca9eeb10" data-name="m7f40ca9eeb" class="st5" d="M645.91,408.67v2"/>
+  <path id="m7f40ca9eeb11" data-name="m7f40ca9eeb" class="st5" d="M680.19,408.67v2"/>
+  <path id="m7f40ca9eeb12" data-name="m7f40ca9eeb" class="st5" d="M708.2,408.67v2"/>
+  <path id="m7f40ca9eeb13" data-name="m7f40ca9eeb" class="st5" d="M731.89,408.67v2"/>
+  <path id="m7f40ca9eeb14" data-name="m7f40ca9eeb" class="st5" d="M752.4,408.67v2"/>
+  <text class="st13" transform="translate(296.09 414.96)"><tspan x="0" y="0">Capital Required per GW (₹ Crore, log scale)</tspan></text>
+  <g class="st46">
+    <path class="st7" d="M79.2,387.67h673.2"/>
+  </g>
+  <path id="mf7c289c1f5" class="st4" d="M79.2,387.67h-3"/>
+  <text class="st14" transform="translate(67.42 391.28)"><tspan x="0" y="0">0</tspan></text>
+  <g class="st41">
+    <path class="st7" d="M79.2,334.21h673.2"/>
+  </g>
+  <path id="mf7c289c1f51" data-name="mf7c289c1f5" class="st4" d="M79.2,334.21h-3"/>
+  <text class="st14" transform="translate(67.42 337.82)"><tspan x="0" y="0">5</tspan></text>
+  <g class="st28">
+    <path class="st7" d="M79.2,280.75h673.2"/>
+  </g>
+  <path id="mf7c289c1f52" data-name="mf7c289c1f5" class="st4" d="M79.2,280.75h-3"/>
+  <text class="st14" transform="translate(62.13 284.36)"><tspan x="0" y="0">10</tspan></text>
+  <g class="st38">
+    <path class="st7" d="M79.2,227.29h673.2"/>
+  </g>
+  <path id="mf7c289c1f53" data-name="mf7c289c1f5" class="st4" d="M79.2,227.29h-3"/>
+  <text class="st14" transform="translate(62.13 230.9)"><tspan x="0" y="0">15</tspan></text>
+  <g class="st23">
+    <path class="st7" d="M79.2,173.83h673.2"/>
+  </g>
+  <path id="mf7c289c1f54" data-name="mf7c289c1f5" class="st4" d="M79.2,173.83h-3"/>
+  <text class="st14" transform="translate(62.13 177.44)"><tspan x="0" y="0">20</tspan></text>
+  <g class="st24">
+    <path class="st7" d="M79.2,120.37h673.2"/>
+  </g>
+  <path id="mf7c289c1f55" data-name="mf7c289c1f5" class="st4" d="M79.2,120.37h-3"/>
+  <text class="st14" transform="translate(62.13 123.98)"><tspan x="0" y="0">25</tspan></text>
+  <g class="st40">
+    <path class="st7" d="M79.2,66.91h673.2"/>
+  </g>
+  <path id="mf7c289c1f56" data-name="mf7c289c1f5" class="st4" d="M79.2,66.91h-3"/>
+  <text class="st14" transform="translate(62.13 70.52)"><tspan x="0" y="0">30</tspan></text>
+  <text class="st13" transform="translate(54.45 258.27) rotate(-90)"><tspan x="0" y="0">Project IRR (%)</tspan></text>
+  <g class="st31">
+    <path class="st1" d="M79.2,227.29h673.2V45.53H79.2v181.76Z"/>
+  </g>
+  <g class="st32">
+    <path class="st16" d="M79.2,302.14h673.2v-74.84H79.2v74.84Z"/>
+  </g>
+  <g class="st34">
+    <path class="st11" d="M79.2,387.67h673.2v-85.54H79.2v85.54Z"/>
+  </g>
+  <path class="st36" d="M79.2,387.67V45.53"/>
+  <path class="st36" d="M79.2,387.67h673.2"/>
+  <g class="st42">
+    <path id="m2d1ccb83e2" class="st0" d="M354.46,205.46c2.72,0,5.32-1.08,7.25-3s3-4.53,3-7.25-1.08-5.32-3-7.25-4.53-3-7.25-3-5.32,1.08-7.25,3-3,4.53-3,7.25,1.08,5.32,3,7.25,4.53,3,7.25,3Z"/>
+  </g>
+  <g class="st47">
+    <path id="m2d1ccb83e21" data-name="m2d1ccb83e2" class="st0" d="M310.27,162.69c2.72,0,5.32-1.08,7.25-3s3-4.53,3-7.25-1.08-5.32-3-7.25-4.53-3-7.25-3-5.32,1.08-7.25,3-3,4.53-3,7.25,1.08,5.32,3,7.25,4.53,3,7.25,3Z"/>
+  </g>
+  <g class="st43">
+    <path id="m2d1ccb83e22" data-name="m2d1ccb83e2" class="st0" d="M271.66,216.15c2.72,0,5.32-1.08,7.25-3s3-4.53,3-7.25-1.08-5.32-3-7.25-4.53-3-7.25-3-5.32,1.08-7.25,3-3,4.53-3,7.25,1.08,5.32,3,7.25,4.53,3,7.25,3Z"/>
+  </g>
+  <g class="st26">
+    <path id="m2d1ccb83e23" data-name="m2d1ccb83e2" class="st0" d="M185.69,119.93c2.72,0,5.32-1.08,7.25-3s3-4.53,3-7.25-1.08-5.32-3-7.25-4.53-3-7.25-3-5.32,1.08-7.25,3-3,4.53-3,7.25,1.08,5.32,3,7.25,4.53,3,7.25,3Z"/>
+  </g>
+  <g class="st45">
+    <path id="m2d1ccb83e24" data-name="m2d1ccb83e2" class="st0" d="M219.97,141.31c2.72,0,5.32-1.08,7.25-3s3-4.53,3-7.25-1.08-5.32-3-7.25-4.53-3-7.25-3-5.32,1.08-7.25,3-3,4.53-3,7.25,1.08,5.32,3,7.25,4.53,3,7.25,3Z"/>
+  </g>
+  <g class="st25">
+    <path id="m2d1ccb83e25" data-name="m2d1ccb83e2" class="st0" d="M141.49,173.39c2.72,0,5.32-1.08,7.25-3s3-4.53,3-7.25-1.08-5.32-3-7.25-4.53-3-7.25-3-5.32,1.08-7.25,3-3,4.53-3,7.25,1.08,5.32,3,7.25,4.53,3,7.25,3Z"/>
+  </g>
+  <g class="st27">
+    <path id="m7395bc537b" class="st6" d="M495.23,280.31c2.72,0,5.32-1.08,7.25-3s3-4.53,3-7.25-1.08-5.32-3-7.25-4.53-3-7.25-3-5.32,1.08-7.25,3-3,4.53-3,7.25,1.08,5.32,3,7.25,4.53,3,7.25,3Z"/>
+  </g>
+  <g class="st44">
+    <path id="m7395bc537b1" data-name="m7395bc537b" class="st6" d="M523.24,301.69c2.72,0,5.32-1.08,7.25-3s3-4.53,3-7.25-1.08-5.32-3-7.25-4.53-3-7.25-3-5.32,1.08-7.25,3-3,4.53-3,7.25,1.08,5.32,3,7.25,4.53,3,7.25,3Z"/>
+  </g>
+  <g class="st39">
+    <path id="m7395bc537b2" data-name="m7395bc537b" class="st6" d="M495.23,323.07c2.72,0,5.32-1.08,7.25-3s3-4.53,3-7.25-1.08-5.32-3-7.25-4.53-3-7.25-3-5.32,1.08-7.25,3-3,4.53-3,7.25,1.08,5.32,3,7.25,4.53,3,7.25,3Z"/>
+  </g>
+  <g class="st9">
+    <path id="m9d1fb268f1" class="st3" d="M680.19,333.77c2.72,0,5.32-1.08,7.25-3s3-4.53,3-7.25-1.08-5.32-3-7.25-4.53-3-7.25-3-5.32,1.08-7.25,3-3,4.53-3,7.25,1.08,5.32,3,7.25,4.53,3,7.25,3Z"/>
+  </g>
+  <g class="st29">
+    <path id="m9d1fb268f11" data-name="m9d1fb268f1" class="st3" d="M601.72,344.46c2.72,0,5.32-1.08,7.25-3s3-4.53,3-7.25-1.08-5.32-3-7.25-4.53-3-7.25-3-5.32,1.08-7.25,3-3,4.53-3,7.25,1.08,5.32,3,7.25,4.53,3,7.25,3Z"/>
+  </g>
+  <g class="st30">
+    <path id="m9d1fb268f12" data-name="m9d1fb268f1" class="st3" d="M398.66,365.84c2.72,0,5.32-1.08,7.25-3s3-4.53,3-7.25-1.08-5.32-3-7.25-4.53-3-7.25-3-5.32,1.08-7.25,3-3,4.53-3,7.25,1.08,5.32,3,7.25,4.53,3,7.25,3Z"/>
+  </g>
+  <text class="st2" transform="translate(672.3 109.3)"><tspan x="0" y="0">Tier 1 zone</tspan></text>
+  <text class="st19" transform="translate(672.3 280.37)"><tspan x="0" y="0">Tier 2 zone</tspan></text>
+  <text class="st15" transform="translate(672.3 365.9)"><tspan x="0" y="0">Tier 3 zone</tspan></text>
+  <text class="st13" transform="translate(323.45 187.03)"><tspan x="0" y="0">Solar Glass</tspan></text>
+  <text class="st13" transform="translate(281.25 144.27)"><tspan x="0" y="0">Ind. Gases</tspan></text>
+  <text class="st13" transform="translate(236.98 197.73)"><tspan x="0" y="0">Spec. Chem.</tspan></text>
+  <text class="st13" transform="translate(149.66 101.5)"><tspan x="0" y="0">Encapsulants</tspan></text>
+  <text class="st13" transform="translate(192.63 122.88)"><tspan x="0" y="0">Al Frames</tspan></text>
+  <text class="st13" transform="translate(100.8 154.96)"><tspan x="0" y="0">Junction Boxes</tspan></text>
+  <text class="st13" transform="translate(453 261.88)"><tspan x="0" y="0">Cells (TOPCon)</tspan></text>
+  <text class="st13" transform="translate(504.46 283.26)"><tspan x="0" y="0">Wafers</tspan></text>
+  <text class="st13" transform="translate(468.89 304.58)"><tspan x="0" y="0">Ingot (Cz)</tspan></text>
+  <text class="st13" transform="translate(651.85 336.27)"><tspan x="0" y="0">Polysilicon</tspan></text>
+  <text class="st13" transform="translate(573.03 326.03)"><tspan x="0" y="0">Equipment</tspan></text>
+  <text class="st13" transform="translate(362.98 347.41)"><tspan x="0" y="0">Tandem R&amp;D</tspan></text>
+  <path class="st8" d="M15.84,432.82h760.32"/>
+  <text class="st13" transform="translate(15.84 20.3)"><tspan x="0" y="0">Investment Priority Matrix: Three Capital-Allocation Tiers</tspan></text>
+  <text class="st18" transform="translate(15.84 33.65)"><tspan x="0" y="0">Tier 1 is the actionable private-capital frontier; Tier 3 needs sovereign backing</tspan></text>
+  <text class="st20" transform="translate(15.84 444.39)"><tspan x="0" y="0">SOURCE</tspan></text>
+  <text class="st10" transform="translate(59.4 444.53)"><tspan x="0" y="0">Techadyant Labs Investment Tiering Framework (2026).</tspan></text>
+  <text class="st21" transform="translate(15.84 458.89)"><tspan x="0" y="0">KEY INSIGHT</tspan></text>
+  <text class="st12" transform="translate(77.32 459.03)"><tspan x="0" y="0">Tier 1 (₹200-600 Cr/GW, 16-30% IRR) — six materials layers clear the hurdle today.</tspan></text>
+</svg>

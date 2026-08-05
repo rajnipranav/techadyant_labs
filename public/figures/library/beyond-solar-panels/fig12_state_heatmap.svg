@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 792 432">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2 {
+        font-size: 8px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st9, .st6 {
+        fill: #4a5568;
+      }
+
+      .st0, .st3, .st5, .st7, .st8 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st1, .st2, .st6 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st10, .st8 {
+        fill: #fff;
+      }
+
+      .st2, .st3, .st5, .st7 {
+        fill: #0a2540;
+      }
+
+      .st11, .st12, .st13 {
+        fill: none;
+      }
+
+      .st9 {
+        stroke: #4a5568;
+      }
+
+      .st9, .st12, .st13 {
+        stroke-width: .8px;
+      }
+
+      .st9, .st13 {
+        stroke-linejoin: round;
+      }
+
+      .st3, .st8 {
+        font-size: 12px;
+      }
+
+      .st12 {
+        stroke: #000;
+      }
+
+      .st12, .st13 {
+        stroke-linecap: square;
+      }
+
+      .st5 {
+        font-size: 9px;
+      }
+
+      .st6 {
+        font-size: 10px;
+      }
+
+      .st7 {
+        font-size: 9.5px;
+      }
+
+      .st13 {
+        stroke: #e2e8f0;
+      }
+
+      .st14 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st11" x="142.56" y="49.12" width="514.8" height="302.4"/>
+    </clipPath>
+  </defs>
+  <g id="axes_1">
+    <g id="patch_2">
+      <path class="st10" d="M142.56,351.52h514.8V49.12H142.56v302.4Z"/>
+    </g>
+    <g class="st14">
+      <image id="image376faa2945" class="st4" width="715" height="420" transform="translate(142.56 351.52) scale(.72 -.72)" xlink:href="data:image/png;base64,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"/>
+    </g>
+    <g id="matplotlib.axis_1">
+      <g id="xtick_1">
+        <g id="text_1">
+          <text class="st5" transform="translate(167.34 361.86)"><tspan x="0" y="0">Infra-</tspan></text>
+          <text class="st5" transform="translate(158.91 371.94)"><tspan x="0" y="0">structure</tspan></text>
+        </g>
+      </g>
+      <g id="xtick_2">
+        <g id="text_2">
+          <text class="st5" transform="translate(240.87 361.86)"><tspan x="0" y="0">Policy</tspan></text>
+        </g>
+      </g>
+      <g id="xtick_3">
+        <g id="text_3">
+          <text class="st5" transform="translate(312.41 361.86)"><tspan x="0" y="0">Labour</tspan></text>
+        </g>
+      </g>
+      <g id="xtick_4">
+        <g id="text_4">
+          <text class="st5" transform="translate(391.04 361.86)"><tspan x="0" y="0">Port</tspan></text>
+          <text class="st5" transform="translate(384.55 371.94)"><tspan x="0" y="0">Access</tspan></text>
+        </g>
+      </g>
+      <g id="xtick_5">
+        <g id="text_5">
+          <text class="st5" transform="translate(459.9 361.86)"><tspan x="0" y="0">Power</tspan></text>
+          <text class="st5" transform="translate(463.5 371.94)"><tspan x="0" y="0">Cost</tspan></text>
+        </g>
+      </g>
+      <g id="xtick_6">
+        <g id="text_6">
+          <text class="st5" transform="translate(525.04 361.86)"><tspan x="0" y="0">Ecosystem</tspan></text>
+        </g>
+      </g>
+      <g id="xtick_7">
+        <g id="text_7">
+          <text class="st5" transform="translate(610.58 361.86)"><tspan x="0" y="0">Land</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="matplotlib.axis_2">
+      <g id="ytick_1">
+        <g id="text_8">
+          <text class="st7" transform="translate(107.91 71.63)"><tspan x="0" y="0">Gujarat</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_2">
+        <g id="text_9">
+          <text class="st7" transform="translate(91.54 109.43)"><tspan x="0" y="0">Tamil Nadu</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_3">
+        <g id="text_10">
+          <text class="st7" transform="translate(85.73 147.23)"><tspan x="0" y="0">Maharashtra</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_4">
+        <g id="text_11">
+          <text class="st7" transform="translate(95.22 185.03)"><tspan x="0" y="0">Telangana</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_5">
+        <g id="text_12">
+          <text class="st7" transform="translate(70.4 222.83)"><tspan x="0" y="0">Andhra Pradesh</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_6">
+        <g id="text_13">
+          <text class="st7" transform="translate(95.75 260.63)"><tspan x="0" y="0">Karnataka</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_7">
+        <g id="text_14">
+          <text class="st7" transform="translate(108.96 298.43)"><tspan x="0" y="0">Odisha</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_8">
+        <g id="text_15">
+          <text class="st7" transform="translate(96.28 336.23)"><tspan x="0" y="0">Rajasthan</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="text_16">
+      <text class="st8" transform="translate(175.99 71.06)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g id="text_17">
+      <text class="st8" transform="translate(249.54 71.06)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g id="text_18">
+      <text class="st8" transform="translate(323.08 71.06)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_19">
+      <text class="st8" transform="translate(393.29 71.06)"><tspan x="0" y="0">10</tspan></text>
+    </g>
+    <g id="text_20">
+      <text class="st8" transform="translate(470.17 71.06)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_21">
+      <text class="st8" transform="translate(543.71 71.06)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g id="text_22">
+      <text class="st8" transform="translate(617.25 71.06)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_23">
+      <text class="st8" transform="translate(175.99 108.86)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_24">
+      <text class="st8" transform="translate(249.54 108.86)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g id="text_25">
+      <text class="st8" transform="translate(323.08 108.86)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g id="text_26">
+      <text class="st8" transform="translate(396.62 108.86)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g id="text_27">
+      <text class="st8" transform="translate(470.17 108.86)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_28">
+      <text class="st8" transform="translate(543.71 108.86)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g id="text_29">
+      <text class="st8" transform="translate(617.25 108.86)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_30">
+      <text class="st8" transform="translate(175.99 146.66)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_31">
+      <text class="st8" transform="translate(249.54 146.66)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_32">
+      <text class="st8" transform="translate(323.08 146.66)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_33">
+      <text class="st8" transform="translate(396.62 146.66)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_34">
+      <text class="st8" transform="translate(470.17 146.66)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_35">
+      <text class="st8" transform="translate(543.71 146.66)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_36">
+      <text class="st3" transform="translate(617.25 146.66)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <g id="text_37">
+      <text class="st8" transform="translate(175.99 184.46)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_38">
+      <text class="st8" transform="translate(249.54 184.46)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g id="text_39">
+      <text class="st8" transform="translate(323.08 184.46)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_40">
+      <text class="st3" transform="translate(396.62 184.46)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <g id="text_41">
+      <text class="st8" transform="translate(470.17 184.46)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_42">
+      <text class="st8" transform="translate(543.71 184.46)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_43">
+      <text class="st8" transform="translate(617.25 184.46)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_44">
+      <text class="st8" transform="translate(175.99 222.26)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_45">
+      <text class="st8" transform="translate(249.54 222.26)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_46">
+      <text class="st8" transform="translate(323.08 222.26)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_47">
+      <text class="st8" transform="translate(396.62 222.26)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_48">
+      <text class="st8" transform="translate(470.17 222.26)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_49">
+      <text class="st3" transform="translate(543.71 222.26)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <g id="text_50">
+      <text class="st8" transform="translate(617.25 222.26)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_51">
+      <text class="st8" transform="translate(175.99 260.06)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_52">
+      <text class="st8" transform="translate(249.54 260.06)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_53">
+      <text class="st8" transform="translate(323.08 260.06)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g id="text_54">
+      <text class="st3" transform="translate(396.62 260.06)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <g id="text_55">
+      <text class="st3" transform="translate(470.17 260.06)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <g id="text_56">
+      <text class="st8" transform="translate(543.71 260.06)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g id="text_57">
+      <text class="st8" transform="translate(617.25 260.06)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_58">
+      <text class="st3" transform="translate(175.99 297.86)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <g id="text_59">
+      <text class="st8" transform="translate(249.54 297.86)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_60">
+      <text class="st3" transform="translate(323.08 297.86)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <g id="text_61">
+      <text class="st8" transform="translate(396.62 297.86)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_62">
+      <text class="st8" transform="translate(470.17 297.86)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g id="text_63">
+      <text class="st3" transform="translate(543.71 297.86)"><tspan x="0" y="0">5</tspan></text>
+    </g>
+    <g id="text_64">
+      <text class="st8" transform="translate(617.25 297.86)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g id="text_65">
+      <text class="st3" transform="translate(175.99 335.66)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <g id="text_66">
+      <text class="st8" transform="translate(249.54 335.66)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g id="text_67">
+      <text class="st3" transform="translate(323.08 335.66)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <g id="text_68">
+      <text class="st3" transform="translate(396.62 335.66)"><tspan x="0" y="0">5</tspan></text>
+    </g>
+    <g id="text_69">
+      <text class="st8" transform="translate(470.17 335.66)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g id="text_70">
+      <text class="st3" transform="translate(543.71 335.66)"><tspan x="0" y="0">5</tspan></text>
+    </g>
+    <g id="text_71">
+      <text class="st8" transform="translate(617.25 335.66)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+  </g>
+  <g id="axes_2">
+    <g id="patch_3">
+      <path class="st10" d="M681.12,351.52h15.84V49.12h-15.84v302.4Z"/>
+    </g>
+    <image id="imaged8afd94b4a" class="st4" width="22" height="420" transform="translate(681.12 351.52) scale(.72 -.72)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAGlCAYAAAAVqr1XAAAACXBIWXMAAA9gAAAPYAF6eEWNAAAB5klEQVR4nO2cwW0DQQwDleD6bzePAD43QT4GQxUgiCA1u2vD/vn7f98L15Nvefe8l+/6G+94d09h0NKkhUE77rfk50eVu1+a1A0UzEbJ5csjBQIKCdKFM4q0UYWmbvcHlHyBNuoGlHRxIgUCSgPScvc5ZxTqiM4XJ1JyoHAiJQcKJ1IDitn9ASVf8kjJgcKJlBwonEgNKPniuD+g5AsUqU8hUyD58o36uOW73W8BpdCUIx8UqYZRnxmVLjv63JFC3aUaN5R4S5J8zusEJN8dKRD5OejTv6Ll5M83JeVULZ/0iuYY5b7zcz6W42yU3KjOEY2Rz5nU/jk/ZtLKXWpGxUt/6S00nVH5at35KRc0DvrsRhWagi69JKBQItX55swtH+R+oSkIKJyDT75RHPnuSIGAAoK0e6PsR7QbKCCeur854wAFFKm9ouNNOfI5GyUHijtSMypfdvK7IzX5ZvmcjZLL50QKJZ8zaaWpWX7pGVl48IPkj/zxppyNQsmnTNr5LySMfPekIPnLabwpZ1LSf3a5jXLLH/ryJZ9Ujj65+5xJ5TnlTCqXvyM6Xy2gUOTfm/8xU2vSilFm+ZxIzah8tYwyy+dEavLN8jkb9Vzha2OOfM6k8pxydl8unxOpyTfL52wURz6nvrwLHAJ5K7NBAAAAAElFTkSuQmCC"/>
+    <g id="matplotlib.axis_4">
+      <g id="ytick_9">
+        <g id="line2d_16">
+          <path id="m34aa2c8c3f" class="st9" d="M696.96,351.52h3.5"/>
+        </g>
+        <g id="text_72">
+          <text class="st0" transform="translate(703.96 354.56)"><tspan x="0" y="0">4</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_10">
+        <g id="line2d_17">
+          <path id="m34aa2c8c3f1" data-name="m34aa2c8c3f" class="st9" d="M696.96,301.12h3.5"/>
+        </g>
+        <g id="text_73">
+          <text class="st0" transform="translate(703.96 304.16)"><tspan x="0" y="0">5</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_11">
+        <g id="line2d_18">
+          <path id="m34aa2c8c3f2" data-name="m34aa2c8c3f" class="st9" d="M696.96,250.72h3.5"/>
+        </g>
+        <g id="text_74">
+          <text class="st0" transform="translate(703.96 253.76)"><tspan x="0" y="0">6</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_12">
+        <g id="line2d_19">
+          <path id="m34aa2c8c3f3" data-name="m34aa2c8c3f" class="st9" d="M696.96,200.32h3.5"/>
+        </g>
+        <g id="text_75">
+          <text class="st0" transform="translate(703.96 203.36)"><tspan x="0" y="0">7</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_13">
+        <g id="line2d_20">
+          <path id="m34aa2c8c3f4" data-name="m34aa2c8c3f" class="st9" d="M696.96,149.92h3.5"/>
+        </g>
+        <g id="text_76">
+          <text class="st0" transform="translate(703.96 152.96)"><tspan x="0" y="0">8</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_14">
+        <g id="line2d_21">
+          <path id="m34aa2c8c3f5" data-name="m34aa2c8c3f" class="st9" d="M696.96,99.52h3.5"/>
+        </g>
+        <g id="text_77">
+          <text class="st0" transform="translate(703.96 102.56)"><tspan x="0" y="0">9</tspan></text>
+        </g>
+      </g>
+      <g id="ytick_15">
+        <g id="line2d_22">
+          <path id="m34aa2c8c3f6" data-name="m34aa2c8c3f" class="st9" d="M696.96,49.12h3.5"/>
+        </g>
+        <g id="text_78">
+          <text class="st0" transform="translate(703.96 52.16)"><tspan x="0" y="0">10</tspan></text>
+        </g>
+      </g>
+      <g id="text_79">
+        <text class="st5" transform="translate(724.98 247.84) rotate(-90)"><tspan x="0" y="0">Readiness Score (0-10)</tspan></text>
+      </g>
+    </g>
+    <g id="patch_4">
+      <path class="st12" d="M681.12,351.52h15.84V49.12h-15.84v302.4Z"/>
+    </g>
+  </g>
+  <g id="line2d_23">
+    <path class="st13" d="M15.84,392.56h760.32"/>
+  </g>
+  <g id="text_80">
+    <text class="st3" transform="translate(15.84 18.79)"><tspan x="0" y="0">Solar Manufacturing Readiness: State Comparison Heatmap</tspan></text>
+  </g>
+  <g id="text_81">
+    <text class="st6" transform="translate(15.84 30.84)"><tspan x="0" y="0">Gujarat and Tamil Nadu lead on integrated readiness</tspan></text>
+  </g>
+  <g id="text_82">
+    <text class="st1" transform="translate(15.84 403.27)"><tspan x="0" y="0">SOURCE</tspan></text>
+  </g>
+  <g id="text_83">
+    <text class="st1" transform="translate(59.4 403.41)"><tspan x="0" y="0">Techadyant Labs State Readiness Index, 2026.</tspan></text>
+  </g>
+  <g id="text_84">
+    <text class="st2" transform="translate(15.84 417.91)"><tspan x="0" y="0">KEY INSIGHT</tspan></text>
+  </g>
+  <g id="text_85">
+    <text class="st2" transform="translate(70.32 418.05)"><tspan x="0" y="0">Odisha/Rajasthan lead on power cost &amp; land — suited for polysilicon and ingots.</tspan></text>
+  </g>
+</svg>

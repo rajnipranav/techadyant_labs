@@ -34,6 +34,56 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
+  slug: 'beyond-solar-panels',
+  title: 'Beyond Solar Panels',
+  subtitle: 'India built the world’s largest solar-deployment machine — but value and vulnerability live upstream of the panel. Mapping the hidden industrial stack: polysilicon, wafers, cells, glass, gases, chemicals and manufacturing equipment.',
+  domain: 'Solar & Clean-Energy Manufacturing',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India has built one of the world’s largest solar-deployment machines — 162.15 GW of installed solar capacity by 30 June 2026 (MNRE), against a 2030 objective of 280 GW of solar within 500 GW of non-fossil capacity. But deployment has outrun manufacturing depth. This report reframes the question away from module assembly toward the industrial system beneath it: capability inverts value across the stack — India is strongest downstream in modules (~172 GW of ALMM-listed capacity) and materially weaker upstream in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and production equipment, where China holds roughly 85% of solar supply-chain capacity and about 95% of wafer capacity (IEA 2026). Across thirteen chapters it maps the manufacturing stack, the hidden material and equipment foundations, localisation economics, the industrial opportunity surfaces, state-level clusters, technology transitions and a roadmap to solar-manufacturing sovereignty. Fifty-three tables, twenty-two figures and seven appendices; a companion data workbook is available with the data tier.',
+  accent: '#E8A33D',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 144,
+  cover: 'https://library.techadyant.com/covers/Beyond-Solar-Panels-Indian-Industrial-Intelligence.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Beyond-Solar-Panels-Indian-Industrial-Intelligence-Free.pdf',
+  previewPages: 22,
+  hasData: true,
+  priceWithData: 9999,
+  dataFilename: 'Beyond-Solar-Panels-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['india solar manufacturing', 'solar polysilicon india', 'solar wafer manufacturing india', 'india solar cell manufacturing', 'solar manufacturing equipment india', 'ALMM india', 'solar PLI india', 'solar supply chain china dependence', 'solar glass india', 'india solar sovereignty', 'solar manufacturing opportunity india', 'beyond solar panels'],
+  faq: [{
+  q: 'Why does India need to look beyond solar panels?',
+  a: 'India’s module-assembly base has scaled fast (~172 GW of ALMM-listed capacity), but the value and the vulnerability sit upstream — in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and manufacturing equipment, where domestic depth is materially weaker.'
+}, {
+  q: 'How dependent is India on China for solar manufacturing?',
+  a: 'Structurally. The IEA’s 2026 estimates place China at roughly 85% of solar supply-chain production capacity and about 95% of PV wafer capacity, deepest in the upstream layers — polysilicon, wafers, cells and production equipment.'
+}, {
+  q: 'What is India’s installed solar capacity and 2030 target?',
+  a: 'India had 162.15 GW of installed solar capacity as at 30 June 2026 (MNRE). The national 2030 objective is 280 GW of solar within 500 GW of non-fossil capacity.'
+}, {
+  q: 'Where are the biggest industrial opportunities in solar manufacturing?',
+  a: 'Across the stack — upstream materials (polysilicon, wafers, specialty chemicals, industrial gases, solar glass), cells and manufacturing equipment — with localisation economics, state-level clusters and an investment-intelligence playbook.'
+}, {
+  q: 'How current are the figures in this report?',
+  a: 'The edition uses the latest official releases — MNRE data to 30 June 2026, the ALMM capacity update, the PLI tranche outlays (Tranche I ₹4,500 crore / 8,737 MW; Tranche II ₹19,500 crore / 39,600 MW) and the 2025 BCD/AIDC duty structure. Modelled value-share figures are labelled as Techadyant Labs illustrative models.'
+}],
+  sources: ['MNRE physical-progress data (30 June 2026)', 'PIB / Government of India releases on ALMM and PLI', 'IEA 2026 solar supply-chain estimates', 'Techadyant Labs analysis'],
+  dateModified: '2026-08-02',
+  seo: {
+    metaTitle: 'Beyond Solar Panels: India’s Solar Manufacturing Stack & Opportunity (2026)',
+    metaDescription: 'India’s solar manufacturing beyond module assembly — polysilicon, wafers, cells, glass, equipment. Localisation economics, China dependence, opportunity surfaces and a roadmap to solar-manufacturing sovereignty.',
+    focusKeyword: 'india solar manufacturing',
+    schemaType: 'Report',
+    entities: ['solar manufacturing', 'polysilicon', 'solar wafer', 'solar cell', 'ALMM', 'PLI', 'solar glass', 'IEA', 'MNRE', 'photovoltaics'],
+  },
+}, {
   slug: 'india-semiconductor-supply-chain-missing-links',
   title: 'India’s Semiconductor Supply Chain Missing Links and Industrial Opportunity Surfaces',
   subtitle: 'Substrates, gases, photoresists, equipment subcomponents — the layers no one is building',

@@ -138,9 +138,12 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
         </section>
       )}
 
-      <section className="wrap">
-        <CorridorGLMap corridors={corridorFeatures()} nodes={nodeFeatures()} focus={slug} focusNode={node} compact />
-      </section>
+      {/* Dholera has its own dedicated opportunity map below, so the corridor context map is redundant there. */}
+      {!(slug === 'delhi-mumbai' && node === 'dholera-sir') && (
+        <section className="wrap">
+          <CorridorGLMap corridors={corridorFeatures()} nodes={nodeFeatures()} focus={slug} focusNode={node} compact />
+        </section>
+      )}
 
       {slug === 'delhi-mumbai' && node === 'dholera-sir' && (
         <section className="wrap">

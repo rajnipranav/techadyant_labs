@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 720 475.2">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st0, .st1, .st2, .st4 {
+        font-size: 8px;
+      }
+
+      .st0, .st1, .st3 {
+        fill: #4a5568;
+      }
+
+      .st0, .st2, .st5, .st3, .st6 {
+        isolation: isolate;
+      }
+
+      .st7 {
+        fill: #4a90e2;
+      }
+
+      .st7, .st8, .st9, .st10 {
+        stroke: #fff;
+        stroke-width: 2.5px;
+      }
+
+      .st2, .st5, .st4 {
+        fill: #0a2540;
+      }
+
+      .st5, .st6 {
+        font-family: ArialMT, Arial;
+        font-size: 12px;
+      }
+
+      .st8 {
+        fill: #2ec4b6;
+      }
+
+      .st9 {
+        fill: #f4a261;
+      }
+
+      .st3 {
+        font-size: 10px;
+      }
+
+      .st10 {
+        fill: #e63946;
+      }
+
+      .st6 {
+        fill: #fff;
+      }
+
+      .st11 {
+        fill: none;
+        stroke: #e2e8f0;
+        stroke-linecap: square;
+        stroke-linejoin: round;
+        stroke-width: .8px;
+      }
+    </style>
+  </defs>
+  <path class="st7" d="M360,101.69c-25.94,0-51.38,7.17-73.49,20.73s-40.06,32.96-51.83,56.07c-11.78,23.11-16.93,49.04-14.9,74.89,2.04,25.86,11.18,50.66,26.43,71.64l47.79-34.72c-8.84-12.17-14.15-26.55-15.33-41.55-1.18-15,1.81-30.03,8.64-43.44,6.83-13.4,17.24-24.66,30.06-32.52,12.83-7.86,27.58-12.02,42.63-12.02v-59.08Z"/>
+  <path class="st9" d="M246.2,325.03c17.46,24.03,42.08,41.92,70.33,51.1s58.69,9.18,86.93,0c28.25-9.18,52.87-27.07,70.33-51.1s26.86-52.98,26.86-82.68h-59.08c0,17.23-5.46,34.02-15.58,47.95-10.13,13.94-24.41,24.31-40.79,29.64-16.38,5.32-34.04,5.32-50.42,0-16.38-5.32-30.67-15.7-40.79-29.64l-47.79,34.72Z"/>
+  <path class="st10" d="M500.66,242.35c0-26.69-7.6-52.83-21.9-75.37-14.3-22.53-34.72-40.54-58.87-51.9l-25.15,53.45c14.01,6.59,25.85,17.03,34.15,30.1,8.29,13.07,12.7,28.23,12.7,43.71h59.08Z"/>
+  <path class="st8" d="M419.89,115.08c-9.34-4.39-19.13-7.75-29.21-10-10.07-2.25-20.36-3.39-30.68-3.39v59.08c5.99,0,11.95.66,17.8,1.96,5.84,1.31,11.52,3.25,16.94,5.8l25.15-53.45Z"/>
+  <text class="st5" transform="translate(131.16 169.41)"><tspan x="0" y="0">Tier 1 — Act Now</tspan></text>
+  <text class="st5" transform="translate(45.94 183.05)"><tspan x="0" y="0">(Materials: Glass, Gases, Chems)</tspan></text>
+  <text class="st6" transform="translate(250.24 195.58)"><tspan x="0" y="0">35%</tspan></text>
+  <text class="st5" transform="translate(407.81 386.77)"><tspan x="0" y="0">Tier 2 — Co-Invest</tspan></text>
+  <text class="st5" transform="translate(407.81 399.41)"><tspan x="0" y="0">(Cells, Wafers, Ingots)</tspan></text>
+  <text class="st6" transform="translate(381.89 349.73)"><tspan x="0" y="0">40%</tspan></text>
+  <text class="st5" transform="translate(490.64 156.67)"><tspan x="0" y="0">Tier 3 — Sovereign</tspan></text>
+  <text class="st5" transform="translate(490.64 169.39)"><tspan x="0" y="0">(Polysilicon, Equipment)</tspan></text>
+  <text class="st6" transform="translate(440.63 186.6)"><tspan x="0" y="0">18%</tspan></text>
+  <text class="st5" transform="translate(393.75 88.62)"><tspan x="0" y="0">R&amp;D &amp; Test Infra</tspan></text>
+  <text class="st5" transform="translate(393.75 101.26)"><tspan x="0" y="0">(Tandem, Metrology)</tspan></text>
+  <text class="st6" transform="translate(375.26 138.32)"><tspan x="0" y="0">7%</tspan></text>
+  <text class="st5" transform="translate(313.32 233.49)"><tspan x="0" y="0">RECOMMENDED</tspan></text>
+  <text class="st5" transform="translate(335.7 245.25)"><tspan x="0" y="0">CAPITAL</tspan></text>
+  <text class="st5" transform="translate(323.07 257.01)"><tspan x="0" y="0">ALLOCATION</tspan></text>
+  <path class="st11" d="M14.4,422.82h691.2"/>
+  <text class="st5" transform="translate(14.4 20.36)"><tspan x="0" y="0">Recommended Capital Allocation Across Tiers</tspan></text>
+  <text class="st3" transform="translate(14.4 33.65)"><tspan x="0" y="0">Tier 2 (40%) deserves the largest stake — where sovereignty is won or lost</tspan></text>
+  <text class="st1" transform="translate(14.4 436.39)"><tspan x="0" y="0">SOURCE</tspan></text>
+  <text class="st0" transform="translate(54 436.53)"><tspan x="0" y="0">Techadyant Labs boardroom playbook (2026).</tspan></text>
+  <text class="st4" transform="translate(14.4 450.89)"><tspan x="0" y="0">KEY INSIGHT</tspan></text>
+  <text class="st2" transform="translate(69.2 451.03)"><tspan x="0" y="0">Government co-investment de-risks Tier 2 equity — making it investable for strategic capital.</tspan></text>
+</svg>

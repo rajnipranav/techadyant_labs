@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 460.8">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9 {
+        isolation: isolate;
+      }
+
+      .st0, .st2 {
+        font-size: 8px;
+      }
+
+      .st0, .st2, .st6, .st9 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st0, .st6, .st9 {
+        fill: #4a5568;
+      }
+
+      .st10 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st11 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st1 {
+        fill: #4a90e2;
+      }
+
+      .st1, .st3, .st5, .st8 {
+        opacity: .95;
+        stroke: #fff;
+        stroke-width: 1.2px;
+      }
+
+      .st2, .st4 {
+        fill: #0a2540;
+      }
+
+      .st12, .st13 {
+        fill: none;
+      }
+
+      .st3 {
+        fill: #e63946;
+      }
+
+      .st4, .st7 {
+        font-family: ArialMT, Arial;
+        font-size: 12px;
+      }
+
+      .st5 {
+        fill: #f4a261;
+      }
+
+      .st14 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st15 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st16 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st6 {
+        font-size: 10px;
+      }
+
+      .st7 {
+        fill: #fff;
+      }
+
+      .st13 {
+        stroke: #e2e8f0;
+        stroke-linecap: square;
+        stroke-linejoin: round;
+        stroke-width: .8px;
+      }
+
+      .st17 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st8 {
+        fill: #8b0000;
+      }
+
+      .st18 {
+        clip-path: url(#clippath);
+      }
+
+      .st9 {
+        font-size: 8.5px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st12" x="36" y="44.3" width="648" height="359.42"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st12" x="36" y="44.3" width="648" height="359.42"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st12" x="36" y="44.3" width="648" height="359.42"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st12" x="36" y="44.3" width="648" height="359.42"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st12" x="36" y="44.3" width="648" height="359.42"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st12" x="36" y="44.3" width="648" height="359.42"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st12" x="36" y="44.3" width="648" height="359.42"/>
+    </clipPath>
+  </defs>
+  <g id="patch_2">
+    <g class="st18">
+      <path class="st1" d="M275.76,363.67h168.48l14.58,40.05h-197.64l14.58-40.05Z"/>
+    </g>
+  </g>
+  <g id="patch_3">
+    <g class="st14">
+      <path class="st5" d="M261.18,316.43h197.64l14.58,40.05h-226.8l14.58-40.05Z"/>
+    </g>
+  </g>
+  <g id="patch_4">
+    <g class="st17">
+      <path class="st3" d="M246.6,269.19h226.8l14.58,40.05h-255.96l14.58-40.05Z"/>
+    </g>
+  </g>
+  <g id="patch_5">
+    <g class="st16">
+      <path class="st3" d="M232.02,221.95h255.96l14.58,40.05H217.44l14.58-40.05Z"/>
+    </g>
+  </g>
+  <g id="patch_6">
+    <g class="st11">
+      <path class="st8" d="M217.44,174.72h285.12l14.58,40.05H202.86l14.58-40.05Z"/>
+    </g>
+  </g>
+  <g id="patch_7">
+    <g class="st15">
+      <path class="st3" d="M202.86,127.48h314.28l14.58,40.05H188.28l14.58-40.05Z"/>
+    </g>
+  </g>
+  <g id="patch_8">
+    <g class="st10">
+      <path class="st5" d="M188.28,80.24h343.44l14.58,40.05H173.7l14.58-40.05Z"/>
+    </g>
+  </g>
+  <g id="text_1">
+    <text class="st7" transform="translate(340.32 386.59)"><tspan x="0" y="0">Module</tspan></text>
+  </g>
+  <g id="text_2">
+    <text class="st4" transform="translate(607.19 387.01)"><tspan x="0" y="0">50%</tspan></text>
+  </g>
+  <g id="text_3">
+    <text class="st9" transform="translate(60.71 386.51)"><tspan x="0" y="0">Assembled domestically</tspan></text>
+  </g>
+  <g id="text_4">
+    <text class="st7" transform="translate(349.66 339.35)"><tspan x="0" y="0">Cell</tspan></text>
+  </g>
+  <g id="text_5">
+    <text class="st4" transform="translate(607.19 339.77)"><tspan x="0" y="0">18%</tspan></text>
+  </g>
+  <g id="text_6">
+    <text class="st9" transform="translate(72.03 339.27)"><tspan x="0" y="0">PLI-driven expansion</tspan></text>
+  </g>
+  <g id="text_7">
+    <text class="st7" transform="translate(344.22 292.12)"><tspan x="0" y="0">Wafer</tspan></text>
+  </g>
+  <g id="text_8">
+    <text class="st4" transform="translate(610.53 292.53)"><tspan x="0" y="0">5%</tspan></text>
+  </g>
+  <g id="text_9">
+    <text class="st9" transform="translate(72.05 292.03)"><tspan x="0" y="0">Critical structural gap</tspan></text>
+  </g>
+  <g id="text_10">
+    <text class="st7" transform="translate(346.66 244.79)"><tspan x="0" y="0">Ingot</tspan></text>
+  </g>
+  <g id="text_11">
+    <text class="st4" transform="translate(610.53 245.29)"><tspan x="0" y="0">2%</tspan></text>
+  </g>
+  <g id="text_12">
+    <text class="st9" transform="translate(94.72 244.79)"><tspan x="0" y="0">Pilot-scale only</tspan></text>
+  </g>
+  <g id="text_13">
+    <text class="st7" transform="translate(331.66 197.6)"><tspan x="0" y="0">Polysilicon</tspan></text>
+  </g>
+  <g id="text_14">
+    <text class="st4" transform="translate(610.53 198.05)"><tspan x="0" y="0">0%</tspan></text>
+  </g>
+  <g id="text_15">
+    <text class="st9" transform="translate(48.87 197.56)"><tspan x="0" y="0">Zero indigenous production</tspan></text>
+  </g>
+  <g id="text_16">
+    <text class="st7" transform="translate(331.32 150.4)"><tspan x="0" y="0">Equipment</tspan></text>
+  </g>
+  <g id="text_17">
+    <text class="st4" transform="translate(610.53 150.81)"><tspan x="0" y="0">3%</tspan></text>
+  </g>
+  <g id="text_18">
+    <text class="st9" transform="translate(65.89 150.32)"><tspan x="0" y="0">Deepest capability gap</tspan></text>
+  </g>
+  <g id="text_19">
+    <text class="st7" transform="translate(310.98 103.16)"><tspan x="0" y="0">Materials &amp; Gases</tspan></text>
+  </g>
+  <g id="text_20">
+    <text class="st4" transform="translate(607.19 103.57)"><tspan x="0" y="0">10%</tspan></text>
+  </g>
+  <g id="text_21">
+    <text class="st9" transform="translate(40.86 103.08)"><tspan x="0" y="0">Solar grades largely imported</tspan></text>
+  </g>
+  <text class="st4" transform="translate(594.27 68.29)"><tspan x="0" y="0">DOMESTIC</tspan></text>
+  <text class="st4" transform="translate(603.12 80.81)"><tspan x="0" y="0">SHARE</tspan></text>
+  <g id="line2d_1">
+    <path class="st13" d="M14.4,423.06h691.2"/>
+  </g>
+  <g id="text_23">
+    <text class="st4" transform="translate(14.4 19.8)"><tspan x="0" y="0">India&apos;s Solar Manufacturing Pyramid: Capability Inverts Value</tspan></text>
+  </g>
+  <g id="text_24">
+    <text class="st6" transform="translate(14.4 32.71)"><tspan x="0" y="0">India is strongest where value is lowest — a structural inversion</tspan></text>
+  </g>
+  <g id="text_25">
+    <text class="st0" transform="translate(14.4 435.35)"><tspan x="0" y="0">SOURCE</tspan></text>
+  </g>
+  <g id="text_26">
+    <text class="st0" transform="translate(54 435.49)"><tspan x="0" y="0">Techadyant Labs analysis of MNRE, ALMM list, company filings (FY24-25).</tspan></text>
+  </g>
+  <g id="text_27">
+    <text class="st2" transform="translate(14.4 448.57)"><tspan x="0" y="0">KEY INSIGHT</tspan></text>
+  </g>
+  <g id="text_28">
+    <text class="st2" transform="translate(70.2 448.7)"><tspan x="0" y="0">Six of seven layers fall below 20% domestic share — the sovereignty deficit.</tspan></text>
+  </g>
+</svg>

@@ -7,6 +7,17 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'beyond-solar-panels': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'Beyond-Solar-Panels-Indian-Industrial-Intelligence.pdf',
+    filename: 'Beyond-Solar-Panels-Indian-Industrial-Intelligence-Techadyant-Labs.pdf',
+    title: 'Beyond Solar Panels',
+    // Report + Data tier
+    priceWithDataInr: 9999,
+    dataObject: 'data/Beyond-Solar-Panels-Indian-Industrial-Intelligence.xlsx',
+    dataFilename: 'Beyond-Solar-Panels-Data-Pack-Techadyant-Labs.xlsx',
+  },
   'q-day-india': {
     access: 'free',
     publicBucket: true,
