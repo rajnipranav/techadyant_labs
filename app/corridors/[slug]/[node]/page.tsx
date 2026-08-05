@@ -142,6 +142,27 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
         <CorridorGLMap corridors={corridorFeatures()} nodes={nodeFeatures()} focus={slug} focusNode={node} compact />
       </section>
 
+      {slug === 'delhi-mumbai' && node === 'dholera-sir' && (
+        <section className="wrap">
+          <div className="dholera-embed">
+            <div className="de-head">
+              <h2>Dholera opportunity map</h2>
+              <p>
+                Anchor projects plotted on satellite imagery. Select one to open the supplier ecosystem and
+                opportunity surface it pulls, or toggle the 2010&ndash;2040 draft development plan to read the
+                planned zoning beneath.{' '}
+                <a href="/maps/dholera-sir.html" target="_blank" rel="noopener noreferrer">Open full screen &#8599;</a>
+              </p>
+            </div>
+            <iframe
+              src="/maps/dholera-sir.html"
+              title="Dholera SIR industrial intelligence and opportunity map"
+              loading="lazy"
+            />
+          </div>
+        </section>
+      )}
+
       <section className="wrap-narrow">
         {n.summary.map((p, i) => <p key={i} className="node-para">{p}</p>)}
 

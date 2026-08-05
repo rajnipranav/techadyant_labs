@@ -2380,3 +2380,13 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .dep-dim-bar{height:7px;border-radius:4px;background:var(--bg-2);overflow:hidden}.dep-dim-bar i{display:block;height:100%}
 .dep-dim-l{display:flex;justify-content:space-between;margin-top:3px;font-size:12.5px}.dep-dim-l b{font-weight:700}
 @media(max-width:640px){.dep-index-v{font-size:42px}.dep-list li a{grid-template-columns:44px 1fr auto}.dep-psrc{display:none}}
+
+/* --- Dholera opportunity map embed (corridor node page) --- */
+.dholera-embed{border:1px solid var(--border);border-radius:10px;overflow:hidden;background:var(--surface)}
+.dholera-embed .de-head{padding:14px 16px;border-bottom:1px solid var(--border)}
+.dholera-embed .de-head h2{margin:0 0 4px;font-size:15px;letter-spacing:.01em}
+.dholera-embed .de-head p{margin:0;font-size:13px;line-height:1.55;color:var(--text-dim)}
+.dholera-embed .de-head a{color:var(--brass);text-decoration:none;white-space:nowrap}
+.dholera-embed .de-head a:hover{text-decoration:underline}
+.dholera-embed iframe{display:block;width:100%;height:640px;border:0;background:#0d1420}
+@media(max-width:860px){.dholera-embed iframe{height:560px}}
