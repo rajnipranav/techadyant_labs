@@ -24,7 +24,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const entity = entityBySlug(slug);
   if (!entity) return { title: 'Atlas Entity' };
 
-  const title = `${entity.title}: Industrial Profile & Supply Chain Dossier`;
+  // Front-load the entity name; drop the long boilerplate that pushed the matched
+  // name behind generic words and truncated in the SERP (throttles entity-query CTR).
+  const title = `${entity.title} — profile, capabilities & India supply chain`;
   const description = clamp(entity.summary || `Strategic intelligence & industrial profile for ${entity.title} in India's technology ecosystem.`);
 
   return {

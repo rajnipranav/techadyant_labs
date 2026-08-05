@@ -18,7 +18,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const p = playerBySlug(slug);
   if (!p) return { title: 'Industrial Player Profile' };
 
-  const title = `${p.name}: Industrial Capabilities & Supply Chain Profile`;
+  // Front-load the entity name (the thing people actually search) with a short,
+  // natural qualifier — the old boilerplate suffix pushed the matched name behind
+  // generic words and truncated in the SERP, throttling CTR on page-1 entity queries.
+  const title = `${p.name} — profile, capabilities & India supply chain`;
   const descRaw = (p.description && p.description.length >= 110)
     ? p.description
     : `${p.name} (${p.type}) in India's industrial ecosystem: manufacturing footprint, capabilities, corridor links and key relationships.`;
