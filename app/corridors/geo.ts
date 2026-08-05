@@ -4,7 +4,9 @@
 // reconciliation. All are centroid-approximate — refine node points / corridor lines in QGIS.
 // Regenerate: industrial corridors/reconcile/ (extract.js + reconcile.py). Keyed 'corridor/nodeSlug'.
 
-export type CoordSource = 'gis' | 'gazetteer' | 'affine';
+// 'verified' = coordinate confirmed against an authoritative source (decoded Google Maps plus code
+// cross-checked on satellite imagery), not a centroid approximation.
+export type CoordSource = 'gis' | 'gazetteer' | 'affine' | 'verified';
 export interface NodeGeo { c: [number, number]; src: CoordSource; }
 
 export const nodeGeo: Record<string, NodeGeo> = {
