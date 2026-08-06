@@ -1,0 +1,31 @@
+{
+  "slug": "india-green-hydrogen",
+  "title": "The Hydrogen Mirage or Machine?",
+  "subtitle": "India's green-hydrogen industrial reality — electrolysers, catalysts, and whether the molecule can be made without importing the machine.",
+  "domain": "Strategic Technology",
+  "edition": "Edition 01",
+  "published": "2026-08-06",
+  "publishedLabel": "August 2026",
+  "summary": "India has committed ₹19,744 crore to green hydrogen. The question is not whether the molecule can be made, but whether the electrolyser, catalysts, membranes and critical materials can be made domestically. This report maps the machine, the dependency and the path to genuine industrial transformation.",
+  "accent": "#C9A84C",
+  "status": "published",
+  "access": "paid",
+  "price": 4900,
+  "previewPages": 20,
+  "downloadFilename": "India-Green-Hydrogen-Techadyant-Labs.pdf",
+  "source": {
+    "pdf": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Techadyant_Labs_Green_Hydrogen_Report_Package/Techadyant_Labs_Green_Hydrogen_Report_CLEANED.docx",
+    "preview": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Techadyant_Labs_Green_Hydrogen_Report_Package/Techadyant_Labs_Green_Hydrogen_Report_CLEANED.docx",
+    "cover": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Techadyant_Labs_Green_Hydrogen_Report_Package/the-hydrogen-mirage-or-machine.png"
+  },
+  "signal": {
+    "no": "S-037",
+    "excerpt": "India's green-hydrogen programme can succeed, but only if the next twenty-four months are devoted to supply-side industrial transformation — not just demand-side incentives.",
+    "takeaways": [
+      "India's NGHM outlay of ₹19,744 crore is modest by international standards; policy design quality is the differentiator.",
+      "Six critical materials cluster at zero Indian supply and zero processing — iridium, platinum, ruthenium, PFSA membrane.",
+      "SIGHT Mode I absorbs 76% of outlay; R&D gets 2.3%. The mismatch between incentive structure and dependency risk is structural.",
+      "A 30% domestic value-addition mandate, phased in 36 months, is the single highest-impact policy intervention available."
+    ]
+  }
+}

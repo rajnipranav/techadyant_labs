@@ -193,6 +193,13 @@ export const REPORTS = {
     filename: 'Dholera-Semiconductor-Supplier-Ecosystem-Techadyant-Labs.pdf',
     title: "India's Semiconductor Supplier Ecosystem: The Dholera Play",
   },
+  'india-green-hydrogen': {
+    access: 'paid',
+    priceInr: 4900,
+    object: 'india-green-hydrogen.pdf',
+    filename: 'India-Green-Hydrogen-Techadyant-Labs.pdf',
+    title: "The Hydrogen Mirage or Machine?",
+  },
 };
 
 export function json(status, body) {
