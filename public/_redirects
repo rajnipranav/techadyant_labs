@@ -40,12 +40,14 @@
 /research/players/counter-uas-anti-drone-systems /research/counter-uas/ 301
 /research/players/counter-uas-anti-drone-systems/ /research/counter-uas/ 301
 
-# --- Catch-all safety net (SEO, Jul 2026) ---------------------------------
-# Any entity/player/graph detail page that no longer exists after a SID re-bake
-# (curation or name drift) 301s to its directory instead of returning 404.
-# Cloudflare Pages serves matching static files FIRST, so every live page is
-# unaffected; only genuinely-missing URLs reach these rules. The specific rules
-# above take precedence (first match wins).
-/research/players/*   /research/players/   301
-/research/entities/*  /research/entities/  301
-/research/e/*         /research/entities/  301
+# --- REMOVED 2026-08-06: catch-all splat rules caused a redirect loop -------
+# The rules /research/players/* -> /research/players/ (and the entities and
+# /e/ equivalents) were added in July 2026 to soften post-rebake 404s. They
+# were wrong on two counts:
+#   1. In Cloudflare _redirects a splat matches ZERO or more characters, so
+#      /research/players/ matched its own rule and 301'd to itself — an
+#      infinite loop that took the whole directory offline.
+#   2. _redirects are evaluated BEFORE static assets on Pages, so live detail
+#      pages were caught too, not just missing ones.
+# Missing entity pages should simply 404; that is honest and Google de-indexes
+# them cleanly. The specific one-to-one redirects above are unaffected.
