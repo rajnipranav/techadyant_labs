@@ -1342,6 +1342,81 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['IC substrates are one of India\'s deepest chip-stack gaps — no domestic producer, and roughly 70% of the world market held by Shinko, IBIDEN and Unimicron.', 'Intel and 3D Glass Solutions are investing about US$3.3bn in Bhubaneswar-Khurda, Odisha over five to six years — roughly 70,000 glass substrates a year plus assembled units and 3D heterogeneous-integration modules.', 'Glass-core substrates are pre-commercial worldwide (Absolics targeting end-2026, Samsung post-2027, TSMC panel-level ~2028), so India is entering this layer at the frontier rather than a generation behind.', 'Both first movers into India\'s deepest chokepoints — Intel/3DGS in substrates, Fujifilm in process chemicals — are foreign incumbents relocating capacity, not Indian firms entering. Hosting a capability and owning one are different things.'],
   sources: ['https://www.reuters.com/world/india/intel-3dgs-set-up-33-billion-substrate-plant-indias-odisha-state-2026-05-29/', 'https://www.trendforce.com/news/2026/06/01/news-intel-advances-glass-substrate-push-with-3dgs-us3-3-billion-india-plant-set-for-five-to-six-year-buildout/', 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284784', 'https://evertiq.com/design/2026-07-01-fujifilm-partners-with-gujarat-to-boost-chip-materials-manufacturing']
+}, {
+  slug: 'india-indigenous-turbojet-engine',
+  no: 'S-034',
+  title: 'India Builds the Engine Its Loitering Munitions Were Missing',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-05',
+  dateLabel: 'August 2026',
+  status: 'live',
+  excerpt: 'DRDO\'s first indigenous 350 kg thrust-class expendable turbojet closes a propulsion chokepoint that had capped the range and payload of India\'s cruise missiles and loitering munitions.',
+  readingTime: '2 min read',
+  body: [{
+  text: 'DRDO\'s Gas Turbine Research Establishment (GTRE), with Hyderabad-based Azad Engineering as the production partner, has realised India\'s first indigenous expendable turbojet in the 350 kg thrust class. The fully built engine was delivered to GTRE on 22 July 2026.',
+  type: 'p'
+}, {
+  text: 'The significance is not the engine; it is the dependency it removes. Small jet propulsion for expendable platforms — cruise missiles, loitering munitions, target drones — has been one of the layers India could not make, forcing imports or constraining the range and payload of otherwise indigenous systems. Only a handful of countries hold this capability.',
+  type: 'p'
+}, {
+  text: 'This is the propulsion chokepoint from our loitering-munitions and drone work made concrete. An expendable engine must be cheap enough to throw away yet reliable enough to fly once — a harder commercial problem than a reusable one, and the reason a domestic production line matters more than a one-off prototype.',
+  type: 'p'
+}, {
+  text: 'The opening now sits downstream of GTRE: the supplier base for turbine discs, blades, combustors and fuel systems that an expendable engine consumes in volume. A private manufacturer taking the build is the signal to watch — it points to a components ecosystem, not just a lab result.',
+  type: 'p'
+}],
+  takeaways: ['India\'s first indigenous 350 kg thrust-class expendable turbojet was delivered to GTRE on 22 July 2026.', 'Designed by DRDO\'s GTRE and built by Azad Engineering (Hyderabad) — a DRDO-plus-private-industry model.', 'Targets cruise missiles, loitering munitions and UAVs, removing an import chokepoint on range and payload.', 'Value now migrates to the expendable-engine component base — discs, blades, combustors — built for volume.'],
+  sources: ['Organiser (24 Jul 2026): https://organiser.org/2026/07/24/371428/bharat/drdo-develops-indias-first-indigenous-350-kg-thrust-class-expendable-turbojet-engine/', 'IndianWeb2 (Jul 2026): https://www.indianweb2.com/2026/07/india-unveils-first-indigenous-350kg.html', 'BIS Infotech: https://www.bisinfotech.com/drdo-advances-indigenous-aerospace-with-turbojet-engine/']
+}, {
+  slug: 'asip-osat-visakhapatnam',
+  no: 'S-035',
+  title: 'India\'s Chip Strategy Moves From Design Services to a Packaging Line',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-08-05',
+  dateLabel: 'August 2026',
+  status: 'live',
+  excerpt: 'PM Modi laid the foundation for ASIP Technologies\' Rs 2,500 crore OSAT plant in Visakhapatnam — South India\'s first ISM-approved chip unit, and a step down the value chain from design into physical manufacturing.',
+  readingTime: '2 min read',
+  body: [{
+  text: 'On 1 August 2026 the Prime Minister laid the foundation stone for ASIP Technologies\' Rs 2,500 crore (about US$260 million) OSAT — outsourced semiconductor assembly and test — facility at Tarluvada, Visakhapatnam. It is South India\'s first unit approved under the India Semiconductor Mission.',
+  type: 'p'
+}, {
+  text: 'The plant will package and test chips — not fabricate them — starting with wire-bond and flip-chip BGA and adding 2.5D/3D advanced packaging within two to three years, at a planned 96 million chips a year, with South Korea\'s APACT as technology partner.',
+  type: 'p'
+}, {
+  text: 'India\'s semiconductor strength has been design services — the front end. Assembly, test and packaging is the back end where physical value and jobs sit, and where India has depended almost entirely on overseas lines. A domestic OSAT node narrows that gap for AI, high-performance-computing and data-centre parts.',
+  type: 'p'
+}, {
+  text: 'OSAT is the most localisable layer of the chip stack — a Build-now surface in our dependency work. The line pulls a supplier chain behind it: leadframes, organic substrates, bonding wire, moulding compound, high-purity gases and test equipment, most still imported. The packaging plant is the anchor; the materials tail is the opportunity.',
+  type: 'p'
+}],
+  takeaways: ['ASIP Technologies broke ground on a Rs 2,500 cr (~$260M) OSAT plant at Visakhapatnam — South India\'s first ISM-approved unit.', 'Packaging + test (not a fab): wire-bond/FC-BGA now, 2.5D/3D within 2-3 years; ~96M chips/yr; APACT (Korea) as tech partner.', 'Moves India\'s chip play from design services into physical back-end manufacturing.', 'The real opening is the imported materials tail behind OSAT — substrates, bonding wire, moulding compound, gases.'],
+  sources: ['Evertiq (4 Aug 2026): https://evertiq.com/news/2026-08-04-asip-breaks-ground-on-260-million-osat-facility-in-india', 'Business Standard (1 Aug 2026): https://www.business-standard.com/india-news/pm-modi-lays-foundation-stone-asip-semiconductor-plant-visakhapatnam-126080100662_1.html', 'The Hans India: https://www.thehansindia.com/news/cities/visakhapatnam/modi-lays-stone-for-souths-1st-ism-approved-chip-unit-in-ap-1104105']
+}, {
+  slug: 'india-uk-autonomous-systems-working-group',
+  no: 'S-036',
+  title: 'India and the UK Choose Co-Development Over Procurement',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-05',
+  dateLabel: 'August 2026',
+  status: 'live',
+  excerpt: 'At Farnborough, India and the UK launched an industry-led working group on autonomous and uncrewed systems — a structural shift from buying platforms to building them together.',
+  readingTime: '2 min read',
+  body: [{
+  text: 'India and the United Kingdom launched the India-UK Autonomous Platforms and Uncrewed Systems Working Group at the Farnborough International Air Show 2026. It is industry-led, sitting under the UK India Business Council-SIDM joint framework and the India-UK Defence Industrial Roadmap within the Vision 2035 partnership.',
+  type: 'p'
+}, {
+  text: 'The intent is to convert strategic roadmaps into joint industrial outcomes across autonomous, uncrewed and underwater systems — co-development and joint R&D rather than a buyer-seller platform sale.',
+  type: 'p'
+}, {
+  text: 'For India the value is structural. Autonomy, counter-drone and seabed-sensor networks are complex, capability-thin layers, and developing them in isolation is slow and risky. A co-development framework is a route to the technology base India\'s own strategy flags as missing — provided it transfers capability, not just badges a purchase.',
+  type: 'p'
+}, {
+  text: 'The test is whether the working group produces Indian-owned IP and a domestic supplier base, or becomes an import channel with a partnership label. Watch the first joint programmes and their local-content and IP terms.',
+  type: 'p'
+}],
+  takeaways: ['India and the UK launched an industry-led Autonomous Platforms & Uncrewed Systems Working Group at Farnborough 2026.', 'Sits under the India-UK Defence Industrial Roadmap / Vision 2035; focus on autonomous, uncrewed and underwater systems.', 'Signals co-development and joint R&D over transactional procurement.', 'The value depends on real technology transfer and Indian IP — not a rebadged import.'],
+  sources: ['The Print (2026): https://theprint.in/world/new-india-uk-industry-initiative-to-boost-defence-tech-collaboration/2993802/', 'Indian Defence News (Aug 2026): https://www.indiandefensenews.in/2026/08/india-and-uk-launch-autonomous.html', 'Business Upturn: https://businessupturn.com/nation/india-uk-launch-joint-industry-working-group-on-autonomous-platforms-and-uncrewed-systems/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
