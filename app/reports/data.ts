@@ -349,7 +349,7 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 144,
-  cover: 'https://library.techadyant.com/covers/Beyond-Solar-Panels-Indian-Industrial-Intelligence%20.jpg',
+  cover: 'https://library.techadyant.com/covers/Beyond-Solar-Panels-Indian-Industrial-Intelligence.jpg',
   previewObject: 'https://library.techadyant.com/free%20reports/Beyond-Solar-Panels-Indian-Industrial-Intelligence-Free.pdf',
   previewPages: 22,
   hasData: true,

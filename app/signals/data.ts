@@ -1348,10 +1348,10 @@ export const signals: SignalMeta[] = [{
   title: 'India Builds the Engine Its Loitering Munitions Were Missing',
   domain: 'Defence & Dual-Use',
   date: '2026-08-05',
-  dateLabel: 'August 2026',
+  dateLabel: '5 Aug 2026',
   status: 'live',
   excerpt: 'DRDO\'s first indigenous 350 kg thrust-class expendable turbojet closes a propulsion chokepoint that had capped the range and payload of India\'s cruise missiles and loitering munitions.',
-  readingTime: '2 min read',
+  readingTime: '2 min',
   body: [{
   text: 'DRDO\'s Gas Turbine Research Establishment (GTRE), with Hyderabad-based Azad Engineering as the production partner, has realised India\'s first indigenous expendable turbojet in the 350 kg thrust class. The fully built engine was delivered to GTRE on 22 July 2026.',
   type: 'p'
@@ -1373,10 +1373,10 @@ export const signals: SignalMeta[] = [{
   title: 'India\'s Chip Strategy Moves From Design Services to a Packaging Line',
   domain: 'Semiconductor Ecosystems',
   date: '2026-08-05',
-  dateLabel: 'August 2026',
+  dateLabel: '5 Aug 2026',
   status: 'live',
   excerpt: 'PM Modi laid the foundation for ASIP Technologies\' Rs 2,500 crore OSAT plant in Visakhapatnam — South India\'s first ISM-approved chip unit, and a step down the value chain from design into physical manufacturing.',
-  readingTime: '2 min read',
+  readingTime: '2 min',
   body: [{
   text: 'On 1 August 2026 the Prime Minister laid the foundation stone for ASIP Technologies\' Rs 2,500 crore (about US$260 million) OSAT — outsourced semiconductor assembly and test — facility at Tarluvada, Visakhapatnam. It is South India\'s first unit approved under the India Semiconductor Mission.',
   type: 'p'
@@ -1398,10 +1398,10 @@ export const signals: SignalMeta[] = [{
   title: 'India and the UK Choose Co-Development Over Procurement',
   domain: 'Defence & Dual-Use',
   date: '2026-08-05',
-  dateLabel: 'August 2026',
+  dateLabel: '5 Aug 2026',
   status: 'live',
   excerpt: 'At Farnborough, India and the UK launched an industry-led working group on autonomous and uncrewed systems — a structural shift from buying platforms to building them together.',
-  readingTime: '2 min read',
+  readingTime: '2 min',
   body: [{
   text: 'India and the United Kingdom launched the India-UK Autonomous Platforms and Uncrewed Systems Working Group at the Farnborough International Air Show 2026. It is industry-led, sitting under the UK India Business Council-SIDM joint framework and the India-UK Defence Industrial Roadmap within the Vision 2035 partnership.',
   type: 'p'
