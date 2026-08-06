@@ -34,56 +34,6 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
-  slug: 'beyond-solar-panels',
-  title: 'Beyond Solar Panels',
-  subtitle: 'India built the world’s largest solar-deployment machine — but value and vulnerability live upstream of the panel. Mapping the hidden industrial stack: polysilicon, wafers, cells, glass, gases, chemicals and manufacturing equipment.',
-  domain: 'Solar & Clean-Energy Manufacturing',
-  edition: 'Strategic Opportunity · Edition 1 · v1.0',
-  published: '2026-08-02',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'India has built one of the world’s largest solar-deployment machines — 162.15 GW of installed solar capacity by 30 June 2026 (MNRE), against a 2030 objective of 280 GW of solar within 500 GW of non-fossil capacity. But deployment has outrun manufacturing depth. This report reframes the question away from module assembly toward the industrial system beneath it: capability inverts value across the stack — India is strongest downstream in modules (~172 GW of ALMM-listed capacity) and materially weaker upstream in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and production equipment, where China holds roughly 85% of solar supply-chain capacity and about 95% of wafer capacity (IEA 2026). Across thirteen chapters it maps the manufacturing stack, the hidden material and equipment foundations, localisation economics, the industrial opportunity surfaces, state-level clusters, technology transitions and a roadmap to solar-manufacturing sovereignty. Fifty-three tables, twenty-two figures and seven appendices; a companion data workbook is available with the data tier.',
-  accent: '#E8A33D',
-  access: 'paid',
-  price: 6999,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 144,
-  cover: 'https://library.techadyant.com/covers/Beyond-Solar-Panels-Indian-Industrial-Intelligence.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Beyond-Solar-Panels-Indian-Industrial-Intelligence-Free.pdf',
-  previewPages: 22,
-  hasData: true,
-  priceWithData: 9999,
-  dataFilename: 'Beyond-Solar-Panels-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: ['india solar manufacturing', 'solar polysilicon india', 'solar wafer manufacturing india', 'india solar cell manufacturing', 'solar manufacturing equipment india', 'ALMM india', 'solar PLI india', 'solar supply chain china dependence', 'solar glass india', 'india solar sovereignty', 'solar manufacturing opportunity india', 'beyond solar panels'],
-  faq: [{
-  q: 'Why does India need to look beyond solar panels?',
-  a: 'India’s module-assembly base has scaled fast (~172 GW of ALMM-listed capacity), but the value and the vulnerability sit upstream — in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and manufacturing equipment, where domestic depth is materially weaker.'
-}, {
-  q: 'How dependent is India on China for solar manufacturing?',
-  a: 'Structurally. The IEA’s 2026 estimates place China at roughly 85% of solar supply-chain production capacity and about 95% of PV wafer capacity, deepest in the upstream layers — polysilicon, wafers, cells and production equipment.'
-}, {
-  q: 'What is India’s installed solar capacity and 2030 target?',
-  a: 'India had 162.15 GW of installed solar capacity as at 30 June 2026 (MNRE). The national 2030 objective is 280 GW of solar within 500 GW of non-fossil capacity.'
-}, {
-  q: 'Where are the biggest industrial opportunities in solar manufacturing?',
-  a: 'Across the stack — upstream materials (polysilicon, wafers, specialty chemicals, industrial gases, solar glass), cells and manufacturing equipment — with localisation economics, state-level clusters and an investment-intelligence playbook.'
-}, {
-  q: 'How current are the figures in this report?',
-  a: 'The edition uses the latest official releases — MNRE data to 30 June 2026, the ALMM capacity update, the PLI tranche outlays (Tranche I ₹4,500 crore / 8,737 MW; Tranche II ₹19,500 crore / 39,600 MW) and the 2025 BCD/AIDC duty structure. Modelled value-share figures are labelled as Techadyant Labs illustrative models.'
-}],
-  sources: ['MNRE physical-progress data (30 June 2026)', 'PIB / Government of India releases on ALMM and PLI', 'IEA 2026 solar supply-chain estimates', 'Techadyant Labs analysis'],
-  dateModified: '2026-08-02',
-  seo: {
-    metaTitle: 'Beyond Solar Panels: India’s Solar Manufacturing Stack & Opportunity (2026)',
-    metaDescription: 'India’s solar manufacturing beyond module assembly — polysilicon, wafers, cells, glass, equipment. Localisation economics, China dependence, opportunity surfaces and a roadmap to solar-manufacturing sovereignty.',
-    focusKeyword: 'india solar manufacturing',
-    schemaType: 'Report',
-    entities: ['solar manufacturing', 'polysilicon', 'solar wafer', 'solar cell', 'ALMM', 'PLI', 'solar glass', 'IEA', 'MNRE', 'photovoltaics'],
-  },
-}, {
   slug: 'india-semiconductor-supply-chain-missing-links',
   title: 'India’s Semiconductor Supply Chain Missing Links and Industrial Opportunity Surfaces',
   subtitle: 'Substrates, gases, photoresists, equipment subcomponents — the layers no one is building',
@@ -332,53 +282,6 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
-  slug: 'q-day-india',
-  title: 'Q-Day India',
-  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
-  domain: 'Strategic Technology',
-  edition: 'Strategic Risk · 2026 Free Edition',
-  published: '2026-08-02',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 90 min read',
-  status: 'published',
-  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
-  accent: '#38E1C4',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 152,
-  cover: 'https://library.techadyant.com/covers/Techadyant_Labs_QDay_Report.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
-  previewPages: 152,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
-  faq: [{
-  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
-  q: 'What is Q-Day?'
-}, {
-  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
-  q: 'What should Indian organisations do first?'
-}, {
-  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
-  q: 'Why migrate before Q-Day arrives?'
-}, {
-  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
-  q: 'Which sectors are most exposed in India?'
-}],
-  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
-  dateModified: '2026-08-02',
-  seo: {
-  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
-  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
-  schemaType: 'Report',
-  focusKeyword: 'post-quantum cryptography India',
-  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
-}
-}, {
   slug: 'indian-navy-autonomous-maritime',
   title: 'The Indian Navy’s Autonomous Maritime Transformation 2026–2035',
   subtitle: 'Platforms are downstream of ecosystems. What industrial substrate must India build to field an autonomous fleet — and who captures the ₹1.2 lakh crore market beneath USVs, UUVs, XLUUVs and naval UAVs?',
@@ -427,6 +330,103 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'india naval autonomous systems market',
   metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.'
+}
+}, {
+  slug: 'beyond-solar-panels',
+  title: 'Beyond Solar Panels',
+  subtitle: 'India built the world’s largest solar-deployment machine — but value and vulnerability live upstream of the panel. Mapping the hidden industrial stack: polysilicon, wafers, cells, glass, gases, chemicals and manufacturing equipment.',
+  domain: 'Solar & Clean-Energy Manufacturing',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India has built one of the world’s largest solar-deployment machines — 162.15 GW of installed solar capacity by 30 June 2026 (MNRE), against a 2030 objective of 280 GW of solar within 500 GW of non-fossil capacity. But deployment has outrun manufacturing depth. This report reframes the question away from module assembly toward the industrial system beneath it: capability inverts value across the stack — India is strongest downstream in modules (~172 GW of ALMM-listed capacity) and materially weaker upstream in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and production equipment, where China holds roughly 85% of solar supply-chain capacity and about 95% of wafer capacity (IEA 2026). Across thirteen chapters it maps the manufacturing stack, the hidden material and equipment foundations, localisation economics, the industrial opportunity surfaces, state-level clusters, technology transitions and a roadmap to solar-manufacturing sovereignty — with an investment-intelligence playbook. Fifty-three tables, twenty-two figures and seven appendices; a companion data workbook is available with the data tier.',
+  accent: '#E8A33D',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 144,
+  cover: 'https://library.techadyant.com/covers/Beyond-Solar-Panels-Indian-Industrial-Intelligence%20.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Beyond-Solar-Panels-Indian-Industrial-Intelligence-Free.pdf',
+  previewPages: 22,
+  hasData: true,
+  priceWithData: 9999,
+  dataFilename: 'Beyond-Solar-Panels-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['india solar manufacturing', 'solar polysilicon india', 'solar wafer manufacturing india', 'india solar cell manufacturing', 'solar manufacturing equipment india', 'ALMM india', 'solar PLI india', 'solar supply chain china dependence', 'solar glass india', 'india solar sovereignty', 'solar manufacturing opportunity india', 'beyond solar panels'],
+  faq: [{
+  a: 'India’s module-assembly base has scaled fast (~172 GW of ALMM-listed capacity), but the value and the vulnerability sit upstream — in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and manufacturing equipment, where domestic depth is materially weaker. The report maps that hidden industrial stack.',
+  q: 'Why does India need to look beyond solar panels?'
+}, {
+  a: 'Structurally. The IEA’s 2026 estimates place China at roughly 85% of solar supply-chain production capacity and about 95% of PV wafer capacity. India’s dependence is deepest in the upstream layers — polysilicon, wafers, cells and production equipment.',
+  q: 'How dependent is India on China for solar manufacturing?'
+}, {
+  a: 'India had 162.15 GW of installed solar capacity as at 30 June 2026 (MNRE). The national 2030 objective is 280 GW of solar within 500 GW of non-fossil capacity.',
+  q: 'What is India’s installed solar capacity and 2030 target?'
+}, {
+  a: 'The report ranks industrial opportunity surfaces across the stack — upstream materials (polysilicon, wafers, specialty chemicals, industrial gases, solar glass), cells, and manufacturing equipment — with localisation economics, state-level clusters and an investment-intelligence playbook.',
+  q: 'Where are the biggest industrial opportunities in solar manufacturing?'
+}, {
+  a: 'The edition uses the latest official releases — MNRE physical-progress data to 30 June 2026, the ALMM manufacturing-capacity update, the PLI tranche outlays (Tranche I ₹4,500 crore / 8,737 MW; Tranche II ₹19,500 crore / 39,600 MW) and the 2025 BCD/AIDC duty structure. Modelled value-share figures are labelled as Techadyant Labs illustrative models.',
+  q: 'How current are the figures in this report?'
+}],
+  sources: ['MNRE physical-progress data (30 June 2026)', 'PIB / Government of India releases on ALMM and PLI', 'IEA 2026 solar supply-chain estimates', 'Techadyant Labs analysis'],
+  dateModified: '2026-08-02',
+  seo: {
+  entities: ['solar manufacturing', 'polysilicon', 'solar wafer', 'solar cell', 'ALMM', 'PLI', 'solar glass', 'IEA', 'MNRE', 'photovoltaics'],
+  metaTitle: 'Beyond Solar Panels: India’s Solar Manufacturing Stack & Opportunity (2026)',
+  schemaType: 'Report',
+  focusKeyword: 'india solar manufacturing',
+  metaDescription: 'India’s solar manufacturing beyond module assembly — polysilicon, wafers, cells, glass, equipment. Localisation economics, China dependence, opportunity surfaces and a roadmap to solar-manufacturing sovereignty.'
+}
+}, {
+  slug: 'q-day-india',
+  title: 'Q-Day India',
+  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
+  domain: 'Strategic Technology',
+  edition: 'Strategic Risk · 2026 Free Edition',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 90 min read',
+  status: 'published',
+  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
+  accent: '#38E1C4',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 152,
+  cover: 'https://library.techadyant.com/covers/Techadyant_Labs_QDay_Report.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
+  previewPages: 152,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
+  faq: [{
+  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
+  q: 'What is Q-Day?'
+}, {
+  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
+  q: 'What should Indian organisations do first?'
+}, {
+  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
+  q: 'Why migrate before Q-Day arrives?'
+}, {
+  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
+  q: 'Which sectors are most exposed in India?'
+}],
+  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
+  dateModified: '2026-08-02',
+  seo: {
+  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
+  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
+  schemaType: 'Report',
+  focusKeyword: 'post-quantum cryptography India',
+  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
 }
 }, {
   slug: 'india-critical-manufacturing-dependencies',
@@ -479,6 +479,44 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s strategic import dependencies scored on the Critical Manufacturing Dependency Index — 312 surfaces across twelve sectors, the deepest chokepoints, twelve opportunity zones and a $480 billion localisation map to 2035.'
 }
 }, {
+  slug: 'dholera-semiconductor-supplier-ecosystem',
+  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
+  domain: 'Semiconductor Ecosystems',
+  edition: 'Edition 01',
+  published: '2026-07-26',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 30 min read',
+  status: 'published',
+  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
+  accent: '#F5B544',
+  access: 'paid',
+  price: 5900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 28,
+  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
+  previewPages: 14,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-07-26',
+  seo: {
+  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
+  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  schemaType: 'Report',
+  focusKeyword: 'Dholera semiconductor ecosystem',
+  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
+  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
+}
+}, {
   slug: 'india-industrial-waste-recycling-economy',
   title: 'India\'s Industrial Waste & Recycling Economy',
   subtitle: 'Battery metals, e-waste, chemical recovery and the secondary-industrial opportunity across Indian recycling corridors',
@@ -517,44 +555,6 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India industrial waste recycling economy',
   metaDescription: 'Strategic intelligence on India\'s industrial waste and recycling economy — battery metals, e-waste, black mass, chemical recovery and secondary-industrial corridors.'
-}
-}, {
-  slug: 'dholera-semiconductor-supplier-ecosystem',
-  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
-  domain: 'Semiconductor Ecosystems',
-  edition: 'Edition 01',
-  published: '2026-07-26',
-  publishedLabel: 'July 2026',
-  readingTime: '~ 30 min read',
-  status: 'published',
-  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
-  accent: '#F5B544',
-  access: 'paid',
-  price: 5900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 28,
-  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
-  previewPages: 14,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-07-26',
-  seo: {
-  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
-  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  schemaType: 'Report',
-  focusKeyword: 'Dholera semiconductor ecosystem',
-  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
-  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
 }
 }, {
   slug: 'quantum-supply-chain',
