@@ -396,7 +396,11 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           <ul style={{ display: 'flex', flexWrap: 'wrap', gap: 8, paddingLeft: 18 }}>
             {meta.sources.map((src: string, idx: number) => (
               <li key={idx}>
-                <a href={src} target="_blank" rel="noreferrer" style={{ color: 'var(--link, #6cb0ff)' }}>{src}</a>
+                {/^https?:\/\//i.test(src) ? (
+                  <a href={src} target="_blank" rel="noreferrer" style={{ color: 'var(--link, #6cb0ff)' }}>{src}</a>
+                ) : (
+                  <span style={{ color: 'var(--text-muted)' }}>{src}</span>
+                )}
               </li>
             ))}
           </ul>

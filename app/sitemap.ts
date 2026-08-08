@@ -168,5 +168,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...depProducts.map((p) => ({ url: `${SITE}/dependencies/products/${p.product_id}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 })),
   ];
 
-  return [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes, ...cuasRoutes, ...depRoutes];
+  // Retired /research/players/ category pages that 301-redirect via public/_redirects.
+  // A sitemap must list only canonical 200 URLs, never redirects — Google was
+  // flagging these as "Page with redirect". Exclude them from the final output.
+  const RETIRED_PLAYER_PATHS = new Set<string>(
+    [
+      'aerospace-composites-and-carbon-fibre', 'aesa-radar-and-gan-t-r-modules', 'ai-autonomy-and-target-recognition',
+      'c4isr-and-network-centric-software', 'cooled-ir-focal-plane-arrays', 'counter-uas-anti-drone-systems',
+      'defence-grade-semiconductors', 'electronic-warfare-and-elint', 'eo-ir-sensors-and-seekers',
+      'fighter-aero-engines-gas-turbine', 'high-energy-li-ion-cells', 'hypersonics-and-scramjet-propulsion',
+      'loitering-munitions', 'quantum-technologies-qkd-sensing', 'rare-earth-permanent-magnets-ndfeb',
+      'small-arms-and-ammunition', 'software-defined-radio-and-secure-comms', 'submarine-air-independent-propulsion',
+      'tactical-and-strategic-missiles',
+    ].map((s) => `${SITE}/research/players/${s}/`),
+  );
+
+  const allRoutes = [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes, ...cuasRoutes, ...depRoutes];
+
+  return allRoutes.filter((r) => !RETIRED_PLAYER_PATHS.has(r.url as string));
 }

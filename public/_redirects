@@ -40,6 +40,12 @@
 /research/players/counter-uas-anti-drone-systems /research/counter-uas/ 301
 /research/players/counter-uas-anti-drone-systems/ /research/counter-uas/ 301
 
+# Pages removed in the graph rebake (fixes GSC 404, Aug 2026). One-to-one only — no splat (see note below).
+/research/entities/khanij-bidesh-india-limited /research/dependencies/ 301
+/research/entities/khanij-bidesh-india-limited/ /research/dependencies/ 301
+/research/players/amazon-web-services-india /research/dependencies/ 301
+/research/players/amazon-web-services-india/ /research/dependencies/ 301
+
 # --- REMOVED 2026-08-06: catch-all splat rules caused a redirect loop -------
 # The rules /research/players/* -> /research/players/ (and the entities and
 # /e/ equivalents) were added in July 2026 to soften post-rebake 404s. They

@@ -141,7 +141,7 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
               <>
                 <div style={{ textTransform: 'uppercase', letterSpacing: '.12em', fontSize: 11, color: 'var(--accent, #C9A84C)', marginTop: 12, marginBottom: 8 }}>Primary sources</div>
                 <ul style={{ margin: 0, paddingLeft: 18 }}>
-                  {s.sources.map((src: string, i: number) => <li key={i} style={{ marginBottom: 6 }}><a href={src} target="_blank" rel="noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>{src}</a></li>)}
+                  {s.sources.map((src: string, i: number) => <li key={i} style={{ marginBottom: 6 }}>{/^https?:\/\//i.test(src) ? <a href={src} target="_blank" rel="noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>{src}</a> : <span>{src}</span>}</li>)}
                 </ul>
               </>
             ) : null}
