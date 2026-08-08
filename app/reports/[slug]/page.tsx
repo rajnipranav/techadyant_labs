@@ -29,6 +29,7 @@ import { ReportContent as LmContent, toc as lmToc } from '../content/india-loite
 import { ReportContent as CargoContent, toc as cargoToc } from '../content/india-cargo-drone-market';
 import { ReportContent as NavyContent, toc as navyToc } from '../content/indian-navy-autonomous-maritime';
 import { ReportContent as SolarContent, toc as solarToc } from '../content/beyond-solar-panels';
+import { ReportContent as GreenH2Content, toc as greenH2Toc } from '../content/india-green-hydrogen';
 import { ReportContent as WaterContent, toc as waterToc } from '../content/india-industrial-water-opportunity-map';
 import { ReportContent as SmeContent, toc as smeToc } from '../content/the-sme-playbook-for-indias-drone-economy';
 import { ReportContent as SemiconContent, toc as semiconToc } from '../content/semicon-2-0-opportunity-map';
@@ -61,6 +62,7 @@ const registry: Record<string, ReportModule> = {
   'india-cargo-drone-market': { toc: cargoToc, Content: CargoContent },
   'indian-navy-autonomous-maritime': { toc: navyToc, Content: NavyContent },
   'beyond-solar-panels': { toc: solarToc, Content: SolarContent },
+  'india-green-hydrogen': { toc: greenH2Toc, Content: GreenH2Content },
   'india-industrial-water-opportunity-map': { toc: waterToc, Content: WaterContent },
   'the-sme-playbook-for-indias-drone-economy': { toc: smeToc, Content: SmeContent },
   'semicon-2-0-opportunity-map': { toc: semiconToc, Content: SemiconContent },

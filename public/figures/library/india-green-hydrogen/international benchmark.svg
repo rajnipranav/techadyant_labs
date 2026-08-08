@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1680 1000">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #e4e7ec;
+      }
+
+      .st0, .st1, .st2, .st3 {
+        fill: none;
+      }
+
+      .st4, .st5 {
+        fill: #e8912e;
+      }
+
+      .st6 {
+        fill: #fbfcfe;
+        stroke: #c9ced6;
+      }
+
+      .st6, .st2 {
+        stroke-width: 1.2px;
+      }
+
+      .st7 {
+        font-size: 9px;
+      }
+
+      .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20 {
+        isolation: isolate;
+      }
+
+      .st7, .st9, .st12, .st13, .st14, .st16, .st20 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st7, .st14, .st18 {
+        fill: #667085;
+      }
+
+      .st1 {
+        stroke: #98a2b3;
+        stroke-dasharray: 6 4;
+        stroke-width: 1.4px;
+      }
+
+      .st8 {
+        fill: #1f2937;
+      }
+
+      .st8, .st10, .st11, .st15, .st17, .st19 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st8, .st17 {
+        font-size: 11.5px;
+      }
+
+      .st21 {
+        fill-opacity: .5;
+        stroke: #4a6fa0;
+      }
+
+      .st21, .st22, .st3 {
+        stroke-width: 1.6px;
+      }
+
+      .st21, .st23 {
+        fill: #7a9cc6;
+      }
+
+      .st9, .st11, .st12, .st13 {
+        fill: #333f4e;
+      }
+
+      .st9, .st16, .st19 {
+        font-size: 11px;
+      }
+
+      .st2 {
+        stroke: #667085;
+      }
+
+      .st24 {
+        fill: #fff;
+        stroke: #e1e4e8;
+      }
+
+      .st10 {
+        fill: #101828;
+        font-size: 12px;
+        letter-spacing: .12em;
+      }
+
+      .st11, .st13, .st15, .st18 {
+        font-size: 10px;
+      }
+
+      .st12 {
+        font-size: 10.5px;
+      }
+
+      .st25 {
+        fill-opacity: .8;
+      }
+
+      .st25, .st5 {
+        stroke-width: 2px;
+      }
+
+      .st25, .st26 {
+        stroke: #16324f;
+      }
+
+      .st25, .st26, .st27 {
+        fill: #3a76b0;
+      }
+
+      .st14, .st20 {
+        font-size: 9.5px;
+      }
+
+      .st22 {
+        fill-opacity: .55;
+        stroke: #1f6b6b;
+      }
+
+      .st22, .st28 {
+        fill: #2e8b8b;
+      }
+
+      .st15 {
+        letter-spacing: .15em;
+      }
+
+      .st15, .st20 {
+        fill: #98a2b3;
+      }
+
+      .st5 {
+        fill-opacity: .85;
+      }
+
+      .st5, .st3 {
+        stroke: #8a4b1f;
+      }
+
+      .st26 {
+        fill-opacity: .6;
+        stroke-width: 1.8px;
+      }
+
+      .st16 {
+        fill: #475467;
+      }
+
+      .st17 {
+        fill: #8a4b1f;
+      }
+
+      .st18 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st19 {
+        fill: #16324f;
+        letter-spacing: .14em;
+      }
+    </style>
+  </defs>
+  <rect class="st6" x="120" y="140" width="980" height="720"/>
+  <g>
+    <line class="st0" x1="120" y1="300" x2="1100" y2="300"/>
+    <line class="st0" x1="120" y1="440" x2="1100" y2="440"/>
+    <line class="st0" x1="120" y1="580" x2="1100" y2="580"/>
+    <line class="st0" x1="120" y1="720" x2="1100" y2="720"/>
+    <line class="st0" x1="193" y1="140" x2="193" y2="860"/>
+    <line class="st0" x1="291" y1="140" x2="291" y2="860"/>
+    <line class="st0" x1="389" y1="140" x2="389" y2="860"/>
+    <line class="st0" x1="519" y1="140" x2="519" y2="860"/>
+    <line class="st0" x1="618" y1="140" x2="618" y2="860"/>
+    <line class="st0" x1="716" y1="140" x2="716" y2="860"/>
+    <line class="st0" x1="846" y1="140" x2="846" y2="860"/>
+    <line class="st0" x1="944" y1="140" x2="944" y2="860"/>
+    <line class="st0" x1="1042" y1="140" x2="1042" y2="860"/>
+  </g>
+  <line class="st1" x1="120" y1="776" x2="1100" y2="776"/>
+  <text class="st18" transform="translate(126 768)"><tspan x="0" y="0">China cost floor — USD 1.8/kg (2030F)</tspan></text>
+  <text class="st15" transform="translate(150 200)"><tspan x="0" y="0">HIGH-COST / IMPORT-LED</tspan></text>
+  <text class="st20" transform="translate(150 215)"><tspan x="0" y="0">Japan • Germany • South Korea</tspan></text>
+  <text class="st15" transform="translate(150 838)"><tspan x="0" y="0">EXPORT ASPIANTS — COMPETITIVE COST, SMALL SCALE</tspan></text>
+  <text class="st15" transform="translate(760 845)"><tspan x="0" y="0">SCALE + COST LEADERS</tspan></text>
+  <g>
+    <text class="st16" transform="translate(94.71 164)"><tspan x="0" y="0">4.0</tspan></text>
+    <text class="st16" transform="translate(94.71 304)"><tspan x="0" y="0">3.5</tspan></text>
+    <text class="st16" transform="translate(94.71 444)"><tspan x="0" y="0">3.0</tspan></text>
+    <text class="st16" transform="translate(94.71 584)"><tspan x="0" y="0">2.5</tspan></text>
+    <text class="st16" transform="translate(94.71 724)"><tspan x="0" y="0">2.0</tspan></text>
+    <text class="st16" transform="translate(94.71 864)"><tspan x="0" y="0">1.5</tspan></text>
+    <text class="st16" transform="translate(185.35 882)"><tspan x="0" y="0">0.5</tspan></text>
+    <text class="st16" transform="translate(287.94 882)"><tspan x="0" y="0">1</tspan></text>
+    <text class="st16" transform="translate(385.94 882)"><tspan x="0" y="0">2</tspan></text>
+    <text class="st16" transform="translate(515.94 882)"><tspan x="0" y="0">5</tspan></text>
+    <text class="st16" transform="translate(611.88 882)"><tspan x="0" y="0">10</tspan></text>
+    <text class="st16" transform="translate(709.88 882)"><tspan x="0" y="0">20</tspan></text>
+    <text class="st16" transform="translate(839.88 882)"><tspan x="0" y="0">50</tspan></text>
+    <text class="st16" transform="translate(934.82 882)"><tspan x="0" y="0">100</tspan></text>
+    <text class="st16" transform="translate(1032.8235 882)"><tspan x="0" y="0">200</tspan></text>
+  </g>
+  <text class="st10" transform="translate(384.34 910)"><tspan x="0" y="0">TARGET GREEN H2 PRODUCTION 2030 (MMT/yr, LOG SCALE) →</tspan></text>
+  <text class="st10" transform="translate(45 586.93) rotate(-90)"><tspan x="0" y="0">LCOH 2030F (USD/kg)</tspan></text>
+  <circle class="st22" cx="291" cy="496" r="12.1"/>
+  <circle class="st22" cx="487" cy="664" r="13.9"/>
+  <circle class="st22" cx="338" cy="636" r="9.9"/>
+  <circle class="st22" cx="348" cy="608" r="9.3"/>
+  <circle class="st22" cx="374" cy="692" r="10.3"/>
+  <circle class="st21" cx="618" cy="580" r="19.7"/>
+  <circle class="st21" cx="161" cy="440" r="8.5"/>
+  <circle class="st21" cx="338" cy="300" r="7"/>
+  <circle class="st21" cx="382" cy="300" r="9.1"/>
+  <circle class="st25" cx="1042" cy="776" r="31"/>
+  <circle class="st26" cx="618" cy="720" r="22"/>
+  <circle class="st5" cx="519" cy="720" r="17"/>
+  <circle class="st3" cx="519" cy="720" r="21.5"/>
+  <g>
+    <text class="st8" transform="translate(174 436)"><tspan x="0" y="0">Japan</tspan></text>
+    <text class="st8" transform="translate(276.14 296)"><tspan x="0" y="0">Germany</tspan></text>
+    <text class="st8" transform="translate(395 304)"><tspan x="0" y="0">South Korea</tspan></text>
+    <text class="st8" transform="translate(306 492)"><tspan x="0" y="0">Australia</tspan></text>
+    <text class="st8" transform="translate(302.05 604)"><tspan x="0" y="0">Egypt</tspan></text>
+    <text class="st8" transform="translate(299.72 650)"><tspan x="0" y="0">UAE</tspan></text>
+    <text class="st8" transform="translate(388 708)"><tspan x="0" y="0">Brazil</tspan></text>
+    <text class="st8" transform="translate(452.06 640)"><tspan x="0" y="0">Saudi Arabia</tspan></text>
+    <text class="st8" transform="translate(610.01 550)"><tspan x="0" y="0">EU</tspan></text>
+    <text class="st17" transform="translate(505.58 757)"><tspan x="0" y="0">India</tspan></text>
+    <text class="st8" transform="translate(605.86 766)"><tspan x="0" y="0">USA</tspan></text>
+    <text class="st8" transform="translate(1026.0275 727)"><tspan x="0" y="0">China</tspan></text>
+  </g>
+  <g>
+    <text class="st7" transform="translate(565.66 616)"><tspan x="0" y="0">10 MMT • 80 GW • $4.9bn</tspan></text>
+    <text class="st7" transform="translate(469.16 771)"><tspan x="0" y="0">5 MMT • 60 GW • $2.4bn</tspan></text>
+    <text class="st7" transform="translate(563.16 780)"><tspan x="0" y="0">10 MMT • 100 GW • $9.7bn</tspan></text>
+    <text class="st7" transform="translate(985.91 741)"><tspan x="0" y="0">200 MMT • 200 GW • $25bn</tspan></text>
+  </g>
+  <g>
+    <rect class="st24" x="1150" y="140" width="500" height="170" rx="6" ry="6"/>
+    <text class="st19" transform="translate(1170 166)"><tspan x="0" y="0">HOW TO READ THIS EXHIBIT</tspan></text>
+    <text class="st9" transform="translate(1170 188)"><tspan x="0" y="0">• X = 2030 production target (log scale); Y = LCOH outlook (USD/kg).</tspan></text>
+    <text class="st9" transform="translate(1170 206)"><tspan x="0" y="0">• Bubble area = electrolyser capacity ambition (GW); colour = posture.</tspan></text>
+    <text class="st9" transform="translate(1170 224)"><tspan x="0" y="0">• Dashed line = China&apos;s cost floor; lower-right = scale + cost advantage.</tspan></text>
+    <circle class="st2" cx="1190" cy="268" r="7"/>
+    <text class="st14" transform="translate(1203 272)"><tspan x="0" y="0">10 GW</tspan></text>
+    <circle class="st2" cx="1268" cy="268" r="15.6"/>
+    <text class="st14" transform="translate(1290 272)"><tspan x="0" y="0">50 GW</tspan></text>
+    <circle class="st2" cx="1382" cy="268" r="31"/>
+    <text class="st14" transform="translate(1420 272)"><tspan x="0" y="0">200 GW</tspan></text>
+  </g>
+  <g>
+    <rect class="st24" x="1150" y="330" width="500" height="150" rx="6" ry="6"/>
+    <text class="st19" transform="translate(1170 356)"><tspan x="0" y="0">STRATEGIC POSTURE (COLOUR)</tspan></text>
+    <circle class="st28" cx="1178" cy="378" r="6"/>
+    <text class="st12" transform="translate(1192 382)"><tspan x="0" y="0">Export-led — Australia, Saudi Arabia, UAE, Egypt, Brazil</tspan></text>
+    <circle class="st23" cx="1178" cy="404" r="6"/>
+    <text class="st12" transform="translate(1192 408)"><tspan x="0" y="0">Import-led / niche demand — EU, Japan, Germany, S. Korea</tspan></text>
+    <circle class="st27" cx="1178" cy="430" r="6"/>
+    <text class="st12" transform="translate(1192 434)"><tspan x="0" y="0">Manufacturing on-shoring — China, USA</tspan></text>
+    <circle class="st4" cx="1178" cy="456" r="6"/>
+    <text class="st12" transform="translate(1192 460)"><tspan x="0" y="0">Demand-led import substitution — India (report focus)</tspan></text>
+  </g>
+  <g>
+    <rect class="st24" x="1150" y="500" width="500" height="300" rx="6" ry="6"/>
+    <text class="st19" transform="translate(1170 526)"><tspan x="0" y="0">COUNTRY SNAPSHOT (TABLE 14.1)</tspan></text>
+    <g>
+      <text class="st14" transform="translate(1192 546)"><tspan x="0" y="0">Country</tspan></text>
+      <text class="st14" transform="translate(1378.3699 546)"><tspan x="0" y="0">MMT</tspan></text>
+      <text class="st14" transform="translate(1443.644 546)"><tspan x="0" y="0">GW</tspan></text>
+      <text class="st14" transform="translate(1484.054 546)"><tspan x="0" y="0">Outlay $bn</tspan></text>
+      <text class="st14" transform="translate(1563.0103 546)"><tspan x="0" y="0">LCOH $/kg</tspan></text>
+    </g>
+    <g>
+      <circle class="st27" cx="1176" cy="562" r="4"/>
+      <text class="st13" transform="translate(1192 566)"><tspan x="0" y="0">China</tspan></text>
+      <text class="st13" transform="translate(1383.3154 566)"><tspan x="0" y="0">200</tspan></text>
+      <text class="st13" transform="translate(1443.3154 566)"><tspan x="0" y="0">200</tspan></text>
+      <text class="st13" transform="translate(1510.5371 566)"><tspan x="0" y="0">25.0</tspan></text>
+      <text class="st13" transform="translate(1596.0986 566)"><tspan x="0" y="0">1.8</tspan></text>
+      <circle class="st23" cx="1176" cy="582" r="4"/>
+      <text class="st13" transform="translate(1192 586)"><tspan x="0" y="0">EU</tspan></text>
+      <text class="st13" transform="translate(1388.877 586)"><tspan x="0" y="0">10</tspan></text>
+      <text class="st13" transform="translate(1448.877 586)"><tspan x="0" y="0">80</tspan></text>
+      <text class="st13" transform="translate(1510.5371 586)"><tspan x="0" y="0">4.85</tspan></text>
+      <text class="st13" transform="translate(1596.0986 586)"><tspan x="0" y="0">2.5</tspan></text>
+      <circle class="st27" cx="1176" cy="602" r="4"/>
+      <text class="st13" transform="translate(1192 606)"><tspan x="0" y="0">USA</tspan></text>
+      <text class="st13" transform="translate(1388.877 606)"><tspan x="0" y="0">10</tspan></text>
+      <text class="st13" transform="translate(1443.3154 606)"><tspan x="0" y="0">100</tspan></text>
+      <text class="st13" transform="translate(1516.0986 606)"><tspan x="0" y="0">9.7</tspan></text>
+      <text class="st13" transform="translate(1596.0986 606)"><tspan x="0" y="0">2.0</tspan></text>
+      <circle class="st4" cx="1176" cy="622" r="4"/>
+      <text class="st11" transform="translate(1192 626)"><tspan x="0" y="0">India</tspan></text>
+      <text class="st13" transform="translate(1394.4385 626)"><tspan x="0" y="0">5</tspan></text>
+      <text class="st13" transform="translate(1448.877 626)"><tspan x="0" y="0">60</tspan></text>
+      <text class="st13" transform="translate(1510.5371 626)"><tspan x="0" y="0">2.37</tspan></text>
+      <text class="st13" transform="translate(1596.0986 626)"><tspan x="0" y="0">2.0</tspan></text>
+      <circle class="st28" cx="1176" cy="642" r="4"/>
+      <text class="st13" transform="translate(1192 646)"><tspan x="0" y="0">Saudi Arabia</tspan></text>
+      <text class="st13" transform="translate(1394.4385 646)"><tspan x="0" y="0">4</tspan></text>
+      <text class="st13" transform="translate(1448.877 646)"><tspan x="0" y="0">40</tspan></text>
+      <text class="st13" transform="translate(1510.5371 646)"><tspan x="0" y="0">12.0</tspan></text>
+      <text class="st13" transform="translate(1596.0986 646)"><tspan x="0" y="0">2.2</tspan></text>
+      <circle class="st23" cx="1176" cy="662" r="4"/>
+      <text class="st13" transform="translate(1192 666)"><tspan x="0" y="0">South Korea</tspan></text>
+      <text class="st13" transform="translate(1386.0986 666)"><tspan x="0" y="0">1.9</tspan></text>
+      <text class="st13" transform="translate(1448.877 666)"><tspan x="0" y="0">17</tspan></text>
+      <text class="st13" transform="translate(1516.0986 666)"><tspan x="0" y="0">2.4</tspan></text>
+      <text class="st13" transform="translate(1596.0986 666)"><tspan x="0" y="0">3.5</tspan></text>
+      <circle class="st28" cx="1176" cy="682" r="4"/>
+      <text class="st13" transform="translate(1192 686)"><tspan x="0" y="0">Brazil</tspan></text>
+      <text class="st13" transform="translate(1386.0986 686)"><tspan x="0" y="0">1.8</tspan></text>
+      <text class="st13" transform="translate(1448.877 686)"><tspan x="0" y="0">22</tspan></text>
+      <text class="st13" transform="translate(1516.0986 686)"><tspan x="0" y="0">1.9</tspan></text>
+      <text class="st13" transform="translate(1596.0986 686)"><tspan x="0" y="0">2.1</tspan></text>
+      <circle class="st28" cx="1176" cy="702" r="4"/>
+      <text class="st13" transform="translate(1192 706)"><tspan x="0" y="0">Egypt</tspan></text>
+      <text class="st13" transform="translate(1386.0986 706)"><tspan x="0" y="0">1.5</tspan></text>
+      <text class="st13" transform="translate(1448.877 706)"><tspan x="0" y="0">18</tspan></text>
+      <text class="st13" transform="translate(1516.0986 706)"><tspan x="0" y="0">4.5</tspan></text>
+      <text class="st13" transform="translate(1596.0986 706)"><tspan x="0" y="0">2.4</tspan></text>
+      <circle class="st23" cx="1176" cy="722" r="4"/>
+      <text class="st13" transform="translate(1192 726)"><tspan x="0" y="0">Germany</tspan></text>
+      <text class="st13" transform="translate(1386.0986 726)"><tspan x="0" y="0">1.4</tspan></text>
+      <text class="st13" transform="translate(1448.877 726)"><tspan x="0" y="0">10</tspan></text>
+      <text class="st13" transform="translate(1510.5371 726)"><tspan x="0" y="0">10.0</tspan></text>
+      <text class="st13" transform="translate(1596.0986 726)"><tspan x="0" y="0">3.5</tspan></text>
+      <circle class="st28" cx="1176" cy="742" r="4"/>
+      <text class="st13" transform="translate(1192 746)"><tspan x="0" y="0">UAE</tspan></text>
+      <text class="st13" transform="translate(1386.0986 746)"><tspan x="0" y="0">1.4</tspan></text>
+      <text class="st13" transform="translate(1448.877 746)"><tspan x="0" y="0">20</tspan></text>
+      <text class="st13" transform="translate(1516.0986 746)"><tspan x="0" y="0">6.0</tspan></text>
+      <text class="st13" transform="translate(1596.0986 746)"><tspan x="0" y="0">2.3</tspan></text>
+      <circle class="st28" cx="1176" cy="762" r="4"/>
+      <text class="st13" transform="translate(1192 766)"><tspan x="0" y="0">Australia</tspan></text>
+      <text class="st13" transform="translate(1386.0986 766)"><tspan x="0" y="0">1.0</tspan></text>
+      <text class="st13" transform="translate(1448.877 766)"><tspan x="0" y="0">30</tspan></text>
+      <text class="st13" transform="translate(1516.0986 766)"><tspan x="0" y="0">2.9</tspan></text>
+      <text class="st13" transform="translate(1596.0986 766)"><tspan x="0" y="0">2.8</tspan></text>
+      <circle class="st23" cx="1176" cy="782" r="4"/>
+      <text class="st13" transform="translate(1192 786)"><tspan x="0" y="0">Japan</tspan></text>
+      <text class="st13" transform="translate(1386.0986 786)"><tspan x="0" y="0">0.4</tspan></text>
+      <text class="st13" transform="translate(1448.877 786)"><tspan x="0" y="0">15</tspan></text>
+      <text class="st13" transform="translate(1516.0986 786)"><tspan x="0" y="0">1.5</tspan></text>
+      <text class="st13" transform="translate(1596.0986 786)"><tspan x="0" y="0">3.0</tspan></text>
+    </g>
+  </g>
+</svg>

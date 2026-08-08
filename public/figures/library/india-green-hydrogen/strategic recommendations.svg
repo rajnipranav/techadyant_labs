@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1680 1120">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3 {
+        fill: #fff;
+      }
+
+      .st0, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15 {
+        isolation: isolate;
+      }
+
+      .st0, .st4, .st6, .st7, .st9, .st14 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st0, .st15 {
+        font-size: 8.5px;
+      }
+
+      .st1 {
+        stroke: #d9dce1;
+      }
+
+      .st16 {
+        stroke: #dde1e6;
+      }
+
+      .st16, .st17 {
+        fill: none;
+      }
+
+      .st2 {
+        stroke: #c77e1d;
+        stroke-width: 2px;
+      }
+
+      .st17 {
+        stroke: #e8ebef;
+      }
+
+      .st4, .st8, .st11, .st13 {
+        font-size: 9.5px;
+      }
+
+      .st4, .st9 {
+        fill: #1f2937;
+      }
+
+      .st5, .st10, .st11, .st13, .st15 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st5, .st11, .st15 {
+        fill: #667085;
+      }
+
+      .st5, .st12 {
+        font-size: 9px;
+      }
+
+      .st6 {
+        fill: #475467;
+      }
+
+      .st6, .st7, .st9, .st14 {
+        font-size: 11px;
+      }
+
+      .st6, .st7, .st14 {
+        letter-spacing: .14em;
+      }
+
+      .st7, .st8, .st13 {
+        fill: #8a6d1f;
+      }
+
+      .st8 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st18 {
+        fill: #b4443c;
+      }
+
+      .st3 {
+        stroke: #e1e4e8;
+      }
+
+      .st19 {
+        fill: #7d5ba6;
+      }
+
+      .st10 {
+        fill: #333f4e;
+        font-size: 10.5px;
+      }
+
+      .st20 {
+        fill: #5b6470;
+      }
+
+      .st21 {
+        fill-opacity: .55;
+      }
+
+      .st21, .st22 {
+        fill: #f8efd9;
+      }
+
+      .st22 {
+        fill-opacity: .28;
+      }
+
+      .st12 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .st12, .st23 {
+        fill: #c77e1d;
+      }
+
+      .st24 {
+        fill: #2e6da8;
+      }
+
+      .st25 {
+        fill: #2e8b8b;
+      }
+
+      .st26 {
+        fill: #4c8a52;
+      }
+
+      .st14, .st27 {
+        fill: #16324f;
+      }
+    </style>
+  </defs>
+  <rect class="st21" x="254.05" y="116.49" width="270" height="768"/>
+  <rect class="st22" x="524.05" y="116.49" width="270" height="768"/>
+  <g>
+    <line class="st16" x1="254.05" y1="116.49" x2="254.05" y2="884.49"/>
+    <line class="st16" x1="524.05" y1="116.49" x2="524.05" y2="884.49"/>
+    <line class="st16" x1="794.05" y1="116.49" x2="794.05" y2="884.49"/>
+    <line class="st16" x1="1064.05" y1="116.49" x2="1064.05" y2="884.49"/>
+    <line class="st16" x1="1334.05" y1="116.49" x2="1334.05" y2="884.49"/>
+    <line class="st16" x1="1604.05" y1="116.49" x2="1604.05" y2="884.49"/>
+  </g>
+  <g>
+    <line class="st17" x1="44.05" y1="212.49" x2="1604.05" y2="212.49"/>
+    <line class="st17" x1="44.05" y1="308.49" x2="1604.05" y2="308.49"/>
+    <line class="st17" x1="44.05" y1="404.49" x2="1604.05" y2="404.49"/>
+    <line class="st17" x1="44.05" y1="500.49" x2="1604.05" y2="500.49"/>
+    <line class="st17" x1="44.05" y1="596.49" x2="1604.05" y2="596.49"/>
+    <line class="st17" x1="44.05" y1="692.49" x2="1604.05" y2="692.49"/>
+    <line class="st17" x1="44.05" y1="788.49" x2="1604.05" y2="788.49"/>
+    <line class="st17" x1="44.05" y1="884.49" x2="1604.05" y2="884.49"/>
+  </g>
+  <g>
+    <text class="st7" transform="translate(351.85 92.49)"><tspan x="0" y="0">IMMEDIATE</tspan></text>
+    <text class="st13" transform="translate(351.22 107.49)"><tspan x="0" y="0">0–12m • 7 actions</tspan></text>
+    <text class="st7" transform="translate(636.05 92.49)"><tspan x="0" y="0">SHORT</tspan></text>
+    <text class="st13" transform="translate(623.59 107.49)"><tspan x="0" y="0">0–24m • 1 action</tspan></text>
+    <text class="st6" transform="translate(902.25 92.49)"><tspan x="0" y="0">MEDIUM</tspan></text>
+    <text class="st11" transform="translate(888.57 107.49)"><tspan x="0" y="0">12–24m • 4 actions</tspan></text>
+    <text class="st6" transform="translate(1150.7814 92.4865)"><tspan x="0" y="0">MEDIUM-LONG</tspan></text>
+    <text class="st11" transform="translate(1160.9497 107.4865)"><tspan x="0" y="0">12–36m • 1 action</tspan></text>
+    <text class="st6" transform="translate(1450.1664 92.4865)"><tspan x="0" y="0">LONG</tspan></text>
+    <text class="st11" transform="translate(1430.9497 107.4865)"><tspan x="0" y="0">24–60m • 1 action</tspan></text>
+  </g>
+  <text class="st8" transform="translate(648.84 904.49)"><tspan x="0" y="0">Shaded = launch-within-12-months window: 8 of 14 actions (incl. R7) must start by Q1 2027</tspan></text>
+  <g>
+    <rect class="st27" x="48.05" y="158.49" width="12" height="12"/>
+    <text class="st9" transform="translate(66.05 168.49)"><tspan x="0" y="0">Government of India</tspan></text>
+    <rect class="st24" x="48.05" y="248.49" width="12" height="12"/>
+    <text class="st9" transform="translate(66.05 256.49)"><tspan x="0" y="0">Ministries &amp; regulators</tspan></text>
+    <text class="st5" transform="translate(66.05 270.49)"><tspan x="0" y="0">MNRE • DST • BIS • MoPNG • Steel</tspan></text>
+    <rect class="st25" x="48.05" y="350.49" width="12" height="12"/>
+    <text class="st9" transform="translate(66.05 360.49)"><tspan x="0" y="0">Indian corporates</tspan></text>
+    <rect class="st23" x="48.05" y="446.49" width="12" height="12"/>
+    <text class="st9" transform="translate(66.05 456.49)"><tspan x="0" y="0">Investors (VC/PE • Infra/PE)</tspan></text>
+    <rect class="st26" x="48.05" y="542.49" width="12" height="12"/>
+    <text class="st9" transform="translate(66.05 552.49)"><tspan x="0" y="0">Banks / NBFCs</tspan></text>
+    <rect class="st18" x="48.05" y="638.49" width="12" height="12"/>
+    <text class="st9" transform="translate(66.05 648.49)"><tspan x="0" y="0">Defence planners</tspan></text>
+    <rect class="st20" x="48.05" y="734.49" width="12" height="12"/>
+    <text class="st9" transform="translate(66.05 744.49)"><tspan x="0" y="0">State governments</tspan></text>
+    <rect class="st19" x="48.05" y="830.49" width="12" height="12"/>
+    <text class="st9" transform="translate(66.05 840.49)"><tspan x="0" y="0">Academia &amp; startups</tspan></text>
+  </g>
+  <g>
+    <rect class="st2" x="264.05" y="144.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st27" x="264.05" y="144.49" width="4" height="40"/>
+    <circle class="st27" cx="279.05" cy="164.49" r="8"/>
+    <text class="st0" transform="translate(273.62 167.49)"><tspan x="0" y="0">R2</tspan></text>
+    <text class="st4" transform="translate(293.05 160.49)"><tspan x="0" y="0">30% domestic value-addition (SIGHT)</tspan></text>
+    <text class="st15" transform="translate(293.05 174.49)"><tspan x="0" y="0">Adds 4–6 GW domestic stack by 2030</tspan></text>
+    <text class="st12" transform="translate(497.3 156.49)"><tspan x="0" y="0">★</tspan></text>
+  </g>
+  <g>
+    <rect class="st2" x="804.05" y="144.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st27" x="804.05" y="144.49" width="4" height="40"/>
+    <circle class="st27" cx="819.05" cy="164.49" r="8"/>
+    <text class="st0" transform="translate(813.62 167.49)"><tspan x="0" y="0">R1</tspan></text>
+    <text class="st4" transform="translate(833.05 160.49)"><tspan x="0" y="0">Critical Materials Reserve (ANRF)</tspan></text>
+    <text class="st15" transform="translate(833.05 174.49)"><tspan x="0" y="0">Cuts import volatility 30%; 12-mo cover</tspan></text>
+    <text class="st12" transform="translate(1037.304 156.4865)"><tspan x="0" y="0">★</tspan></text>
+  </g>
+  <g>
+    <rect class="st2" x="264.05" y="240.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st24" x="264.05" y="240.49" width="4" height="40"/>
+    <circle class="st24" cx="279.05" cy="260.49" r="8"/>
+    <text class="st0" transform="translate(273.62 263.49)"><tspan x="0" y="0">R3</tspan></text>
+    <text class="st4" transform="translate(293.05 256.49)"><tspan x="0" y="0">3 National Catalyst Centres, ₹4,000 cr</tspan></text>
+    <text class="st15" transform="translate(293.05 270.49)"><tspan x="0" y="0">Cuts PGM imports 40% by 2032</tspan></text>
+    <text class="st12" transform="translate(497.3 252.49)"><tspan x="0" y="0">★</tspan></text>
+  </g>
+  <g>
+    <rect class="st1" x="804.05" y="215.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st24" x="804.05" y="215.49" width="4" height="40"/>
+    <circle class="st24" cx="819.05" cy="235.49" r="8"/>
+    <text class="st0" transform="translate(813.62 238.49)"><tspan x="0" y="0">R4</tspan></text>
+    <text class="st4" transform="translate(833.05 231.49)"><tspan x="0" y="0">Green H2 certification = EU/US equiv.</tspan></text>
+    <text class="st15" transform="translate(833.05 245.49)"><tspan x="0" y="0">Enables $5–8bn/yr exports</tspan></text>
+  </g>
+  <g>
+    <rect class="st2" x="804.05" y="265.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st24" x="804.05" y="265.49" width="4" height="40"/>
+    <circle class="st24" cx="819.05" cy="285.49" r="8"/>
+    <text class="st0" transform="translate(813.62 288.49)"><tspan x="0" y="0">R5</tspan></text>
+    <text class="st4" transform="translate(833.05 281.49)"><tspan x="0" y="0">Blending mandate 25%/50% + steel DRI</tspan></text>
+    <text class="st15" transform="translate(833.05 295.49)"><tspan x="0" y="0">2.5 MMT captive demand</tspan></text>
+    <text class="st12" transform="translate(1037.304 277.4865)"><tspan x="0" y="0">★</tspan></text>
+  </g>
+  <g>
+    <rect class="st1" x="264.05" y="336.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st25" x="264.05" y="336.49" width="4" height="40"/>
+    <circle class="st25" cx="279.05" cy="356.49" r="8"/>
+    <text class="st0" transform="translate(273.62 359.49)"><tspan x="0" y="0">R6</tspan></text>
+    <text class="st4" transform="translate(293.05 352.49)"><tspan x="0" y="0">Hydrogen Industrial Alliance</tspan></text>
+    <text class="st15" transform="translate(293.05 366.49)"><tspan x="0" y="0">Cuts R&amp;D capex 50% (Sematech model)</tspan></text>
+  </g>
+  <g>
+    <rect class="st1" x="534.05" y="336.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st25" x="534.05" y="336.49" width="4" height="40"/>
+    <circle class="st25" cx="549.05" cy="356.49" r="8"/>
+    <text class="st0" transform="translate(543.62 359.49)"><tspan x="0" y="0">R7</tspan></text>
+    <text class="st4" transform="translate(563.05 352.49)"><tspan x="0" y="0">15-yr offtake (IOCL/BPCL/SAIL)</tspan></text>
+    <text class="st15" transform="translate(563.05 366.49)"><tspan x="0" y="0">Unlocks ₹2.5 lakh crore project finance</tspan></text>
+  </g>
+  <g>
+    <rect class="st1" x="264.05" y="432.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st23" x="264.05" y="432.49" width="4" height="40"/>
+    <circle class="st23" cx="279.05" cy="452.49" r="8"/>
+    <text class="st0" transform="translate(273.62 455.49)"><tspan x="0" y="0">R8</tspan></text>
+    <text class="st4" transform="translate(293.05 448.49)"><tspan x="0" y="0">VC/PE: AEM, SOEC, PGM-free startups</tspan></text>
+    <text class="st15" transform="translate(293.05 462.49)"><tspan x="0" y="0">10× return potential by 2030</tspan></text>
+  </g>
+  <g>
+    <rect class="st1" x="1074.05" y="432.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st23" x="1074.05" y="432.49" width="4" height="40"/>
+    <circle class="st23" cx="1089.05" cy="452.49" r="8"/>
+    <text class="st0" transform="translate(1083.6212 455.4865)"><tspan x="0" y="0">R9</tspan></text>
+    <text class="st4" transform="translate(1103.0541 448.4865)"><tspan x="0" y="0">Infra PE: H2 pipeline + storage SPVs</tspan></text>
+    <text class="st15" transform="translate(1103.0541 462.4865)"><tspan x="0" y="0">IRR 11–13% regulated returns</tspan></text>
+  </g>
+  <g>
+    <rect class="st1" x="804.05" y="528.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st26" x="804.05" y="528.49" width="4" height="40"/>
+    <circle class="st26" cx="819.05" cy="548.49" r="8"/>
+    <text class="st0" transform="translate(811.26 551.49)"><tspan x="0" y="0">R10</tspan></text>
+    <text class="st4" transform="translate(833.05 544.49)"><tspan x="0" y="0">Green H2 project bonds + sovereign FLG</tspan></text>
+    <text class="st15" transform="translate(833.05 558.49)"><tspan x="0" y="0">Lowers cost of debt 200 bps</tspan></text>
+  </g>
+  <g>
+    <rect class="st1" x="1344.05" y="624.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st18" x="1344.05" y="624.49" width="4" height="40"/>
+    <circle class="st18" cx="1359.05" cy="644.49" r="8"/>
+    <text class="st0" transform="translate(1351.4921 647.4865)"><tspan x="0" y="0">R11</tspan></text>
+    <text class="st4" transform="translate(1373.0541 640.4865)"><tspan x="0" y="0">H2 stockpile + dual-use rail/naval</tspan></text>
+    <text class="st15" transform="translate(1373.0541 654.4865)"><tspan x="0" y="0">Cuts fuel import 8–12%</tspan></text>
+  </g>
+  <g>
+    <rect class="st1" x="264.05" y="720.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st20" x="264.05" y="720.49" width="4" height="40"/>
+    <circle class="st20" cx="279.05" cy="740.49" r="8"/>
+    <text class="st0" transform="translate(271.26 743.49)"><tspan x="0" y="0">R12</tspan></text>
+    <text class="st4" transform="translate(293.05 736.49)"><tspan x="0" y="0">Green H2 Zones + water rights</tspan></text>
+    <text class="st15" transform="translate(293.05 750.49)"><tspan x="0" y="0">Clusters: Gujarat, AP, Odisha</tspan></text>
+  </g>
+  <g>
+    <rect class="st1" x="264.05" y="791.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st19" x="264.05" y="791.49" width="4" height="40"/>
+    <circle class="st19" cx="279.05" cy="811.49" r="8"/>
+    <text class="st0" transform="translate(271.26 814.49)"><tspan x="0" y="0">R13</tspan></text>
+    <text class="st4" transform="translate(293.05 807.49)"><tspan x="0" y="0">20 Chairs + 5,000 M.Tech scholarships</tspan></text>
+    <text class="st15" transform="translate(293.05 821.49)"><tspan x="0" y="0">Closes 60,000 skill gap by 2030</tspan></text>
+  </g>
+  <g>
+    <rect class="st1" x="264.05" y="841.49" width="250" height="40" rx="5" ry="5"/>
+    <rect class="st19" x="264.05" y="841.49" width="4" height="40"/>
+    <circle class="st19" cx="279.05" cy="861.49" r="8"/>
+    <text class="st0" transform="translate(271.26 864.49)"><tspan x="0" y="0">R14</tspan></text>
+    <text class="st4" transform="translate(293.05 857.49)"><tspan x="0" y="0">PGM-free catalysts, AEM, ionic comps.</tspan></text>
+    <text class="st15" transform="translate(293.05 871.49)"><tspan x="0" y="0">5–10% global IP share by 2032</tspan></text>
+  </g>
+  <g>
+    <rect class="st3" x="44.01" y="918.35" width="740" height="95" rx="6" ry="6"/>
+    <text class="st14" transform="translate(64.01 943.35)"><tspan x="0" y="0">SEQUENCING (CH. 16)</tspan></text>
+    <text class="st10" transform="translate(64.01 963.35)"><tspan x="0" y="0">0–12m: Reserve + R&amp;D Mission + Alliance + Zones → 12–24m: mandates, certification, project bonds</tspan></text>
+    <text class="st10" transform="translate(64.01 979.35)"><tspan x="0" y="0">→ 12–36m: pipeline/storage SPVs → 24–60m: defence stockpile &amp; dual-use mobility.</tspan></text>
+    <text class="st10" transform="translate(64.01 995.35)"><tspan x="0" y="0">Mutually reinforcing: Reserve hedges R&amp;D risk; R&amp;D delivers IP the mandate requires; mandate unlocks bankability.</tspan></text>
+  </g>
+</svg>

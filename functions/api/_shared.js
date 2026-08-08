@@ -196,9 +196,13 @@ export const REPORTS = {
   'india-green-hydrogen': {
     access: 'paid',
     priceInr: 4900,
-    object: 'india-green-hydrogen.pdf',
-    filename: 'India-Green-Hydrogen-Techadyant-Labs.pdf',
+    object: 'Green_Hydrogen_Report.pdf',
+    filename: 'India-Green-Hydrogen-Mirage-or-Machine-Techadyant-Labs.pdf',
     title: "The Hydrogen Mirage or Machine?",
+    // Report + Data tier
+    priceWithDataInr: 7900,
+    dataObject: 'data/Green_Hydrogen_Report.xlsx',
+    dataFilename: 'Green-Hydrogen-Mirage-or-Machine-Data-Pack-Techadyant-Labs.xlsx',
   },
 };
 
