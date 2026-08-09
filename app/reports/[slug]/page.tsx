@@ -39,6 +39,7 @@ import { ReportContent as DholeraContent, toc as dholeraToc } from '../content/d
 import { ReportContent as RecyclingContent, toc as recyclingToc } from '../content/india-industrial-waste-recycling-economy';
 import { ReportContent as CmddContent, toc as cmddToc } from '../content/india-critical-manufacturing-dependencies';
 import { ReportContent as QDayContent, toc as qDayToc } from '../content/q-day-india';
+import { ReportContent as KalpasarContent, toc as kalpasarToc } from '../content/kalpasar-economic-impact';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -71,6 +72,7 @@ const registry: Record<string, ReportModule> = {
   'dholera-semiconductor-supplier-ecosystem': { toc: dholeraToc, Content: DholeraContent },
   'india-industrial-waste-recycling-economy': { toc: recyclingToc, Content: RecyclingContent },
   'india-critical-manufacturing-dependencies': { toc: cmddToc, Content: CmddContent },
+  'kalpasar-economic-impact': { toc: kalpasarToc, Content: KalpasarContent },
 };
 
 export async function generateStaticParams() {
