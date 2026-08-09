@@ -282,6 +282,37 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'kalpasar-economic-impact',
+  title: 'Kalpasar Economic Impact Assessment',
+  subtitle: 'A platform-infrastructure lens on India’s unsanctioned multi-billion-dollar bay project',
+  domain: 'Industrial & Deep Tech',
+  edition: 'Assessment',
+  published: '2026-08-09',
+  publishedLabel: 'Live',
+  readingTime: '~ 60 min read',
+  status: 'published',
+  summary: 'This report assesses the economic and strategic implications of the Kalpasar bay project through a platform-infrastructure framework, covering dependency surfaces, financing pathways, and implementation milestones.',
+  accent: '#C9A84C',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: undefined,
+  cover: 'https://library.techadyant.com/covers/kalpasar_economic_impact_assessment.jpg',
+  previewObject: '',
+  previewPages: 0,
+  hasData: true,
+  priceWithData: 9900,
+  dataFilename: 'Kalpasar_Economic_Impact_Workbook.xlsx',
+  keywords: ['Kalpasar', 'bay project', 'economic impact', 'India infrastructure', 'platform assessment'],
+  faq: [],
+  sources: [],
+  dateModified: '2026-08-09',
+  seo: {
+
+}
+}, {
   slug: 'india-green-hydrogen',
   title: 'The Hydrogen Mirage or Machine?',
   subtitle: 'India’s green-hydrogen industrial reality — electrolysers, catalysts, and whether the molecule can be made without importing the machine.',
@@ -529,6 +560,44 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s strategic import dependencies scored on the Critical Manufacturing Dependency Index — 312 surfaces across twelve sectors, the deepest chokepoints, twelve opportunity zones and a $480 billion localisation map to 2035.'
 }
 }, {
+  slug: 'dholera-semiconductor-supplier-ecosystem',
+  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
+  domain: 'Semiconductor Ecosystems',
+  edition: 'Edition 01',
+  published: '2026-07-26',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 30 min read',
+  status: 'published',
+  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
+  accent: '#F5B544',
+  access: 'paid',
+  price: 5900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 28,
+  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
+  previewPages: 14,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-07-26',
+  seo: {
+  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
+  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  schemaType: 'Report',
+  focusKeyword: 'Dholera semiconductor ecosystem',
+  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
+  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
+}
+}, {
   slug: 'india-industrial-waste-recycling-economy',
   title: 'India\'s Industrial Waste & Recycling Economy',
   subtitle: 'Battery metals, e-waste, chemical recovery and the secondary-industrial opportunity across Indian recycling corridors',
@@ -567,44 +636,6 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India industrial waste recycling economy',
   metaDescription: 'Strategic intelligence on India\'s industrial waste and recycling economy — battery metals, e-waste, black mass, chemical recovery and secondary-industrial corridors.'
-}
-}, {
-  slug: 'dholera-semiconductor-supplier-ecosystem',
-  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
-  domain: 'Semiconductor Ecosystems',
-  edition: 'Edition 01',
-  published: '2026-07-26',
-  publishedLabel: 'July 2026',
-  readingTime: '~ 30 min read',
-  status: 'published',
-  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
-  accent: '#F5B544',
-  access: 'paid',
-  price: 5900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 28,
-  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
-  previewPages: 14,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-07-26',
-  seo: {
-  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
-  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  schemaType: 'Report',
-  focusKeyword: 'Dholera semiconductor ecosystem',
-  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
-  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
 }
 }, {
   slug: 'quantum-supply-chain',
@@ -1508,51 +1539,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India\'s public and private core systems run on foreign enterprise software. The SAP Question maps the dependence, the risks and the sovereign ERP opportunity. Free full report.'
 }
 }, {
-  slug: 'india-battlefield-automation-gap',
-  title: 'India’s Battlefield Automation Gap',
-  subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
-  domain: 'Defence & Dual-Use',
-  edition: 'Edition 01 · Strategic Intelligence · v1.0',
-  published: '2026-05-30',
-  publishedLabel: 'May 2026',
-  readingTime: '~ 2h 30m read',
-  status: 'published',
-  summary: 'Battlefield automation is an industrial-capability race, not a procurement race. Using a proprietary Battlefield Automation Readiness Index (BARI), this report scores India against China and the United States across eight industrial layers — sensors, rugged electronics, batteries, tactical communications, autonomy software, testing and manufacturing — maps where the gap concentrates, reads it sector by sector, and identifies the startup, SME and policy opportunities that would close it. Published free, given its relevance to government-led initiatives.',
-  accent: '#FB923C',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 130,
-  cover: 'https://library.techadyant.com/covers/India%27s%20Battlefield%20Automation%20Gap.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/india-battlefield-automation-gap-free.pdf',
-  previewPages: undefined,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['battlefield automation India', 'military drones India', 'counter-drone systems India', 'loitering munitions India', 'Indian Army drones', 'defence autonomy India', 'unmanned systems India', 'counter-UAS India', 'drone warfare India', 'India defence technology'],
-  faq: [{
-  a: 'It is the distance between how modern battles are now fought — massed low-cost drones, loitering munitions, electronic warfare and increasingly autonomous systems — and what India\'s forces can field and sustain at scale from domestic industry. The report maps that gap layer by layer.',
-  q: 'What is India\'s battlefield automation gap?'
-}, {
-  a: 'Ukraine and Operation Sindoor showed cheap unmanned systems deciding engagements against far more expensive platforms. India\'s post-Sindoor emergency procurement pushed a large share of field-formation budgets into drones, counter-drone and loitering-munition programmes, making automation the fastest-moving line in Indian defence spending.',
-  q: 'Why do drones matter so much for India\'s defence?'
-}, {
-  a: 'India has credible drone integrators — ideaForge, NewSpace Research, Solar Industries and others — but the component base beneath them (flight controllers, motors and magnets, battery cells, sensors, RF links) remains heavily import-dependent, which is the vulnerability the report examines.',
-  q: 'Does India build its own military drones?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['Indian Army', 'drones', 'loitering munitions', 'counter-UAS', 'Operation Sindoor', 'electronic warfare'],
-  aiSummary: 'Assesses India\'s readiness for automated warfare: the doctrine shift to massed drones and loitering munitions, post-Operation Sindoor procurement, the counter-UAS layer, and the import-dependent component base beneath India\'s drone integrators. Free to read.',
-  metaTitle: 'India\'s Battlefield Automation Gap: Drones, Counter-UAS, Autonomy',
-  schemaType: 'Report',
-  focusKeyword: 'battlefield automation India',
-  metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
-}
-}, {
   slug: 'who-actually-captures-the-india-us-minerals-alliance',
   title: 'Who Actually Captures the India–US Minerals Alliance?',
   subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
@@ -1596,6 +1582,51 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India US critical minerals',
   metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
+}
+}, {
+  slug: 'india-battlefield-automation-gap',
+  title: 'India’s Battlefield Automation Gap',
+  subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
+  domain: 'Defence & Dual-Use',
+  edition: 'Edition 01 · Strategic Intelligence · v1.0',
+  published: '2026-05-30',
+  publishedLabel: 'May 2026',
+  readingTime: '~ 2h 30m read',
+  status: 'published',
+  summary: 'Battlefield automation is an industrial-capability race, not a procurement race. Using a proprietary Battlefield Automation Readiness Index (BARI), this report scores India against China and the United States across eight industrial layers — sensors, rugged electronics, batteries, tactical communications, autonomy software, testing and manufacturing — maps where the gap concentrates, reads it sector by sector, and identifies the startup, SME and policy opportunities that would close it. Published free, given its relevance to government-led initiatives.',
+  accent: '#FB923C',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 130,
+  cover: 'https://library.techadyant.com/covers/India%27s%20Battlefield%20Automation%20Gap.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/india-battlefield-automation-gap-free.pdf',
+  previewPages: undefined,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['battlefield automation India', 'military drones India', 'counter-drone systems India', 'loitering munitions India', 'Indian Army drones', 'defence autonomy India', 'unmanned systems India', 'counter-UAS India', 'drone warfare India', 'India defence technology'],
+  faq: [{
+  a: 'It is the distance between how modern battles are now fought — massed low-cost drones, loitering munitions, electronic warfare and increasingly autonomous systems — and what India\'s forces can field and sustain at scale from domestic industry. The report maps that gap layer by layer.',
+  q: 'What is India\'s battlefield automation gap?'
+}, {
+  a: 'Ukraine and Operation Sindoor showed cheap unmanned systems deciding engagements against far more expensive platforms. India\'s post-Sindoor emergency procurement pushed a large share of field-formation budgets into drones, counter-drone and loitering-munition programmes, making automation the fastest-moving line in Indian defence spending.',
+  q: 'Why do drones matter so much for India\'s defence?'
+}, {
+  a: 'India has credible drone integrators — ideaForge, NewSpace Research, Solar Industries and others — but the component base beneath them (flight controllers, motors and magnets, battery cells, sensors, RF links) remains heavily import-dependent, which is the vulnerability the report examines.',
+  q: 'Does India build its own military drones?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['Indian Army', 'drones', 'loitering munitions', 'counter-UAS', 'Operation Sindoor', 'electronic warfare'],
+  aiSummary: 'Assesses India\'s readiness for automated warfare: the doctrine shift to massed drones and loitering munitions, post-Operation Sindoor procurement, the counter-UAS layer, and the import-dependent component base beneath India\'s drone integrators. Free to read.',
+  metaTitle: 'India\'s Battlefield Automation Gap: Drones, Counter-UAS, Autonomy',
+  schemaType: 'Report',
+  focusKeyword: 'battlefield automation India',
+  metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
 }
 }, {
   slug: 'india-ai-industrial-transition-2026-2035',
@@ -1693,26 +1724,7 @@ export const reports: ReportMeta[] = [{
   focusKeyword: 'India semiconductor fab ecosystem',
   metaDescription: 'India\'s ₹1.6 lakh crore semiconductor mission is a story about land, water, power, packaging and people — and who captures the value when a state manufactures its way up the technology stack.'
 }
-}
-  {
-    slug: 'kalpasar-economic-impact',
-    title: 'Kalpasar Economic Impact Assessment',
-    subtitle: 'A platform-infrastructure lens on India’s unsanctioned multi-billion-dollar bay project — water, industry, logistics and the path from proposal to implementation.',
-    domain: 'Infrastructure & Water Economics',
-    edition: 'Edition 01',
-    published: '2026-08-09',
-    publishedLabel: 'August 2026',
-    readingTime: '— min read',
-    status: 'published',
-    accent: '#C9A84C',
-    summary:
-      'Kalpasar is not a single dam. This report assesses its 20-chamber freshwater dividend, industrial ecosystem, logistics compression, and the sovereign financing required to move from proposal to implementation.',
-    access: 'free',
-    hasPdf: true,
-    pages: 94,
-    cover: '/covers/kalpasar-economic-impact.jpg',
-  },
-];
+}];
 
 export function formatPrice(r: ReportMeta): string {
   if (r.access === 'free') return 'Free';

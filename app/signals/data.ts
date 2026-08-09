@@ -1592,30 +1592,7 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Gujarat\'s Department of Science and Technology, through GSEM, is establishing a ChipIN Extension Centre and VLSI Design CoE at the GTU campus in collaboration with C-DAC.', 'The centre will provide cloud-based access to advanced EDA tools (Cadence, Synopsys, Siemens) to engineering colleges across Gujarat in a phased manner.', 'Students can have chip designs fabricated through the Multi-Project Wafer (MPW) programme - the full journey from design to physical silicon testing.', 'A two-day orientation programme beginning 7 August 2026 drew more than 30 academic institutions, reflecting broad state-level engagement.'],
   sources: ['DeshGujarat (07 Aug 2026): https://deshgujarat.com/2026/08/07/gujarat-govt-gtu-c-dac-partner-to-set-up-chipin-centre-of-excellence-in-vlsi-design/', 'ET Government (08 Aug 2026): https://government.economictimes.indiatimes.com/news/technology/gujarat-to-focus-on-chip-design-to-advance-in-semiconductor-value-chain-setting-up-new-facility/133047778']
-}
-  {
-    slug: 'kalpasar-economic-impact-launch',
-    no: 'S-038',
-    title: 'New report: Kalpasar Economic Impact Assessment',
-    domain: 'Infrastructure & Water Economics',
-    date: '2026-08-09',
-    dateLabel: 'August 2026',
-    status: 'live',
-    readingTime: '2 min',
-    excerpt:
-      'Kalpasar is a platform project, not just a dam. The freshwater dividend, industrial corridor and logistics compression together justify sovereign-led concessional financing.',
-    takeaways: [
-      "Kalpasar generates a dependable freshwater yield of 7,800 MCM/year — the project's principal economic driver.",
-      'The closure-dam crest carries an 8-lane road that cuts Saurashtra–mainland distance by ~220 km.',
-      'Equity IRR is ~1% under the current DPR; financial viability requires concessional sovereign finance, not pure market funding.',
-      'The report ships with the full Excel workbook — financial model, company database, startup tracker, funding sources and risk register.'
-    ],
-    body: [
-      { type: 'p', text: 'Kalpasar is not a single dam. This report assesses its 20-chamber freshwater dividend, industrial ecosystem, logistics compression, and the sovereign financing required to move from proposal to implementation.' },
-      { type: 'p', text: 'Read the full report at /reports/kalpasar-economic-impact/.' }
-    ],
-  },
-];
+}];
 
 export function getSignal(slug: string): SignalMeta | undefined {
   return signals.find((s) => s.slug === slug);
