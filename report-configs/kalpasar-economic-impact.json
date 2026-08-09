@@ -1,35 +1,36 @@
 {
   "slug": "kalpasar-economic-impact",
   "title": "Kalpasar Economic Impact Assessment",
-  "subtitle": "A platform-infrastructure lens on India’s unsanctioned multi-billion-dollar bay project — water, industry, logistics and the path from proposal to implementation.",
-  "domain": "Infrastructure & Water Economics",
-  "edition": "Edition 01",
+  "subtitle": "A platform-infrastructure lens on India’s unsanctioned multi-billion-dollar bay project",
+  "domain": "Industrial & Deep Tech",
+  "edition": "Assessment",
   "published": "2026-08-09",
-  "publishedLabel": "August 2026",
-  "summary": "Kalpasar is not a single dam. This report assesses its 20-chamber freshwater dividend, industrial ecosystem, logistics compression, and the sovereign financing required to move from proposal to implementation.",
-  "accent": "#C9A84C",
+  "publishedLabel": "Live",
+  "readingTime": "~ 60 min read",
   "status": "published",
+  "summary": "This strategic assessment examines the Kalpasar bay project through a platform-infrastructure lens, evaluating why a project conceived as a national game-changer has remained in discussion for decades without construction, financial close or binding environmental clearance. The report maps the engineering dependency surfaces — dam engineering, marine works, power evacuation, coastal-zone clearance and water-rights allocation — and explains why fragmented agency accountability has prevented a credible implementation sequence. It reviews the financing pathways that would be required for a project of this scale, from central budget and public-private partnership variants to blended multilateral and commercial debt structures, and explains why lenders require conditions that have not yet been met. The analysis also traces the milestone dependencies: detailed project report, independent peer review, inter-state agreement, land acquisition, long-lead marine procurement and financing close. Across six chapters the report provides a structured pre-project roadmap, dependency mapping, implementation risk analysis and a clear verdict: Kalpasar is defensible as a strategic idea, but it is not yet ready to build.",
+  "accent": "#C9A84C",
   "access": "free",
-  "price": 0,
-  "previewPages": 0,
-  "downloadFilename": "Kalpasar-Economic-Impact-Assessment-Techadyant-Labs.pdf",
-  "source": {
-    "pdf": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Kalpasar_Economic_Impact_Package/Kalpasar_Economic_Impact_Package_v2/Kalpasar_Economic_Impact_Assessment.pdf",
-    "preview": null,
-    "cover": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Kalpasar_Economic_Impact_Package/Kalpasar_Economic_Impact_Package_v2/kalpasar_economic_impact_assessment.jpg"
-  },
-  "has_data": true,
-  "price_with_data": 9900,
+  "price": null,
   "currency": "INR",
-  "pages": 94,
-  "signal": {
-    "no": "S-038",
-    "excerpt": "Kalpasar is a platform project, not just a dam. The freshwater dividend, industrial corridor and logistics compression together justify sovereign-led concessional financing.",
-    "takeaways": [
-      "Kalpasar generates a dependable freshwater yield of 7,800 MCM/year — the project's principal economic driver.",
-      "The closure-dam crest carries an 8-lane road that cuts Saurashtra–mainland distance by ~220 km.",
-      "Equity IRR is ~1% under the current DPR; financial viability requires concessional sovereign finance, not pure market funding.",
-      "The report ships with the full Excel workbook — financial model, company database, startup tracker, funding sources and risk register."
-    ]
-  }
+  "hasPdf": true,
+  "hasDeck": false,
+  "pages": null,
+  "cover": "https://library.techadyant.com/covers/kalpasar_economic_impact_assessment.jpg",
+  "preview": null,
+  "previewPages": 0,
+  "hasData": true,
+  "priceWithData": 9900,
+  "dataFilename": "Kalpasar_Economic_Impact_Workbook.xlsx",
+  "keywords": [
+    "Kalpasar",
+    "bay project",
+    "economic impact",
+    "India infrastructure",
+    "platform assessment"
+  ],
+  "faq": [],
+  "sources": [],
+  "dateModified": "2026-08-09",
+  "seo": {}
 }
