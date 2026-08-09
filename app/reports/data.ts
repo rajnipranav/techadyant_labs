@@ -1693,7 +1693,26 @@ export const reports: ReportMeta[] = [{
   focusKeyword: 'India semiconductor fab ecosystem',
   metaDescription: 'India\'s ₹1.6 lakh crore semiconductor mission is a story about land, water, power, packaging and people — and who captures the value when a state manufactures its way up the technology stack.'
 }
-}];
+}
+  {
+    slug: 'kalpasar-economic-impact',
+    title: 'Kalpasar Economic Impact Assessment',
+    subtitle: 'A platform-infrastructure lens on India’s unsanctioned multi-billion-dollar bay project — water, industry, logistics and the path from proposal to implementation.',
+    domain: 'Infrastructure & Water Economics',
+    edition: 'Edition 01',
+    published: '2026-08-09',
+    publishedLabel: 'August 2026',
+    readingTime: '— min read',
+    status: 'published',
+    accent: '#C9A84C',
+    summary:
+      'Kalpasar is not a single dam. This report assesses its 20-chamber freshwater dividend, industrial ecosystem, logistics compression, and the sovereign financing required to move from proposal to implementation.',
+    access: 'free',
+    hasPdf: true,
+    pages: 94,
+    cover: '/covers/kalpasar-economic-impact.jpg',
+  },
+];
 
 export function formatPrice(r: ReportMeta): string {
   if (r.access === 'free') return 'Free';
