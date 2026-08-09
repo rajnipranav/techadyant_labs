@@ -1,0 +1,35 @@
+{
+  "slug": "kalpasar-economic-impact",
+  "title": "Kalpasar Economic Impact Assessment",
+  "subtitle": "A platform-infrastructure lens on India’s unsanctioned multi-billion-dollar bay project — water, industry, logistics and the path from proposal to implementation.",
+  "domain": "Infrastructure & Water Economics",
+  "edition": "Edition 01",
+  "published": "2026-08-09",
+  "publishedLabel": "August 2026",
+  "summary": "Kalpasar is not a single dam. This report assesses its 20-chamber freshwater dividend, industrial ecosystem, logistics compression, and the sovereign financing required to move from proposal to implementation.",
+  "accent": "#C9A84C",
+  "status": "published",
+  "access": "free",
+  "price": 0,
+  "previewPages": 0,
+  "downloadFilename": "Kalpasar-Economic-Impact-Assessment-Techadyant-Labs.pdf",
+  "source": {
+    "pdf": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Kalpasar_Economic_Impact_Package/Kalpasar_Economic_Impact_Package_v2/Kalpasar_Economic_Impact_Assessment.pdf",
+    "preview": null,
+    "cover": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/06_Industrial & Deep Tech/Kalpasar_Economic_Impact_Package/Kalpasar_Economic_Impact_Package_v2/kalpasar_economic_impact_assessment.jpg"
+  },
+  "has_data": true,
+  "price_with_data": 9900,
+  "currency": "INR",
+  "pages": 94,
+  "signal": {
+    "no": "S-038",
+    "excerpt": "Kalpasar is a platform project, not just a dam. The freshwater dividend, industrial corridor and logistics compression together justify sovereign-led concessional financing.",
+    "takeaways": [
+      "Kalpasar generates a dependable freshwater yield of 7,800 MCM/year — the project's principal economic driver.",
+      "The closure-dam crest carries an 8-lane road that cuts Saurashtra–mainland distance by ~220 km.",
+      "Equity IRR is ~1% under the current DPR; financial viability requires concessional sovereign finance, not pure market funding.",
+      "The report ships with the full Excel workbook — financial model, company database, startup tracker, funding sources and risk register."
+    ]
+  }
+}

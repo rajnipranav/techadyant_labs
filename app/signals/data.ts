@@ -638,48 +638,48 @@ export const signals: SignalMeta[] = [{
   takeaways: ['The significance is not the Rs 1.27 lakh crore - it is the explicit move from anchor-investment attraction (Semicon 1.0) to complete-ecosystem building across six pillars.', 'Pillar two - machines, materials, chemicals and gases - is the quiet centre of gravity: the equipment and specialty-chemical layers most analysts ignore.', 'The opportunity surfaces are heavily SME-shaped: precision machining, cleanroom systems, gas and ultrapure-water handling, metrology, CMP consumables and wafer-handling automation.', 'Semicon 2.0 validates the Atlas thesis - semiconductor competitiveness is an industrial-stack question, from design IP to specialty chemicals to equipment.'],
   sources: ['https://pib.gov.in/', 'https://www.business-standard.com/industry/news/cabinet-clears-india-semiconductor-mission-2-mobile-manufacturing-126071500754_1.html', 'https://swarajyamag.com/tech/what-is-semicon-20-inside-indias-rs-127-lakh-crore-six-pillar-strategy-to-become-a-major-global-semiconductor-player', 'https://www.dqindia.com/semiconductors/cabinet-approves-semicon-20-government-delivers-on-commitment-for-long-term-policy-support-to-semiconductors-in-india-12166952']
 }, {
-  slug: 'high-purity-minerals-for-semiconductors',
-  no: 'S-019',
-  title: 'High-Purity Minerals Enter the Semiconductor Feedstock Chain',
-  domain: 'Semiconductor Ecosystems',
+  slug: 'magnet-free-motors-rare-earth-value-chain',
+  no: 'S-023',
+  title: 'Magnet-Free Motors Could Redraw India\'s Rare-Earth Value Chain',
+  domain: 'Critical Minerals & Materials',
   date: '2026-07-19',
   dateLabel: '19 July 2026',
   status: 'live',
-  excerpt: 'Gallium, germanium, electronic-grade chemicals and high-purity targets are the quiet dependencies beneath every fab. China already accounts for the dominant share of refining; India is building the demand side without the supply base.',
+  excerpt: 'A Bengaluru startup\'s rare-earth-free EV motor is being read as an EV story. It is a supply-chain story: a viable magnet-free motor bends the demand curve for the entire rare-earth → magnet → motor chain — the exact chokepoint India is spending ₹7,280 crore to build.',
   readingTime: '7 min',
   body: [{
-  text: 'When analysts write about semiconductor supply chains they describe the fab: the lithography, deposition and etch tools, the cleanroom, the wafer starts and the packaging lines. What they leave out is the feedstock chemistry that sits upstream of all of that — the 99.9999% pure gases, the sputtering targets, the photoresists, the CVD precursors, the high-purity gallium and germanium. Without those inputs, the most expensive fab in the world produces nothing.',
+  text: 'Vimag Labs, a roughly $5 million Bengaluru startup, has secured its fifth Indian patent for a Virtual Magnet Synchronous Motor — a brushless, slip-ring-free traction motor that uses no rare-earth permanent magnets at all. Instead of a fixed magnet, it generates and controls the rotor\'s magnetic field in real time using power electronics and proprietary control algorithms. The company expects to ship between 1,000 and 10,000 motors by the end of 2026. At CES 2026, Matter showed a rare-earth-free motor built on iron-nitride magnets — the same problem, a different route. Read as EV news, this is a product launch. Read as industrial intelligence, it is something larger.',
   type: 'p'
 }, {
-  text: 'Gallium and germanium',
+  text: 'The motor is not the story',
   type: 'h'
 }, {
-  text: 'China produces the overwhelming majority of primary gallium and germanium metal and compounds. In 2023 it introduced export licences and then export restrictions on both, precisely because they are inputs into infrared optics, semiconductors and advanced substrates rather than end products. India has modest bauxite and coal-based germanium by-product streams but no high-scale refining or 7N–7N5 purity upgrading.',
+  text: 'The story is what a commercially viable magnet-free motor does to a value chain that runs from rare-earth mining, through separation and refining, into sintered NdFeB magnets, into traction motors, and out into EVs, drones, robotics, industrial drives and defence platforms. China holds an estimated 91% of global rare-earth refining and 94% of sintered permanent-magnet production, and in April and October 2025 it turned that concentration into leverage with export controls on heavy rare earths and a de-minimis rule reaching any product containing Chinese rare-earth content. Anything that takes the magnet out of the motor reduces the bite of that chokepoint.',
   type: 'p'
 }, {
-  text: 'From minerals to chips',
+  text: 'The tension inside India\'s own strategy',
   type: 'h'
 }, {
-  text: 'High-purity gallium is used to make GaAs and GaN substrates for RF, power and optoelectronic devices. Germanium enters silicon-germanium alloys for advanced logic and image sensors. Electronic-grade sulfuric acid, hydrogen peroxide and isopropanol are consumed in wafer cleaning in kilogram-per-wafer quantities. CMP slurries and photoresists are applied at every critical layer. These are not exotic niche inputs; they are the consumables that a running fab cannot run out of.',
+  text: 'India is doing two things at once. On the supply side it is funding the chokepoint — the ₹7,280 crore rare-earth permanent magnet (REPM) scheme backs 6,000 MTPA of domestic sintered-magnet capacity, a bet that magnets stay essential and India should make them. On the substitution side, startups are trying to design the magnet out of the motor entirely. These are not contradictory; together they are a hedge against a dependency India does not control. But they compete for the same policy attention and capital, and the returns on domestic magnet capacity fall if magnet-free motors scale. The two should be run as one materials-resilience strategy, not as competing bets.',
   type: 'p'
 }, {
-  text: 'The Indian opportunity',
+  text: 'Where the value moves',
   type: 'h'
 }, {
-  text: 'India\'s semiconductor demand is set by the Ministry of Electronics and IT\'s own projections — USD 450–500 billion electronics output by 2029–30, with semiconductor consumption scaling from an estimated USD 20–25 billion today toward USD 60–80 billion by 2030. The materials that feed that demand are almost entirely imported. A domestic high-purity chemicals and metals base would serve every announced fab and OSAT simultaneously, giving it a market anchor from day one.',
+  text: 'A magnet-free motor relocates value. It shifts the cost and the moat out of materials — rare earths and sintered magnets — and into power electronics and control software: silicon, inverters, and motor-control IP. That is a different industrial base. Not mines and separation trains, but semiconductors, power-electronics manufacturing and embedded software, where India\'s design strength is genuine. Substitution does not remove the opportunity; it moves it up the stack, from the atoms to the algorithm.',
   type: 'p'
 }, {
   text: 'What to watch',
   type: 'h'
 }, {
   type: 'list',
-  items: ['Any gallium or germanium refining capacity announcements — even pilot-scale — as a leading indicator of strategic intent.', 'Whether DST/MeitY R&D funding for electronic-grade chemicals translates into pilot plants rather than publications.', 'Import volumes of electronic-grade acids, solvents, photoresists and high-purity metals from Korea, Japan and Taiwan.', 'Whether Indian fabs and OSATs sign long-term offtake agreements for domestic high-purity feedstock before commissioning.', 'Technology-transfer deals with Japanese, Korean or European specialty-chemical firms that include know-how rather than only equipment supply.']
+  items: ['Whether Vimag and its peers convert patents into shipped, cost-competitive motors — efficiency and cost per kW versus NdFeB motors is the real test, not the patent count.', 'Whether Indian OEMs design magnet-free motors in — two- and three-wheelers first, where power density matters less — or treat them only as a hedge.', 'Whether the REPM magnet scheme and magnet-free R&D are coordinated as one strategy, or left to compete for capital and attention.', 'Traction-inverter and power-electronics localisation — the layer that captures the value if magnet-free scales.', 'Global signals: Tesla\'s next-generation rare-earth-free motor, Niron and Matter\'s iron-nitride route, and whether magnet-free stays in two- and three-wheelers and industrial drives or reaches passenger cars.']
 }, {
-  text: 'Semiconductor competitiveness is decided layer by layer, and the materials layer is the one India currently imports almost completely. The question is not whether India can build fabs; it is whether it builds the chemistry the fabs consume.',
+  text: 'The most important thing a magnet-free motor does is give India optionality on a chokepoint it does not control. It will not displace NdFeB motors everywhere soon — power density still favours magnets in cars — but in two- and three-wheelers, drones and industrial drives, magnet-free is credible, and those are exactly the volumes India already makes. The opportunity is to own the substitution path — power electronics and motor-control software — not only to chase the magnets.',
   type: 'p'
 }],
-  takeaways: ['High-purity gallium, germanium, electronic-grade chemicals and CMP consumables are the quiet dependencies beneath every fab and OSAT line.', 'China dominates refining and purification of these materials; India has the demand but not the supply base.', 'A domestic high-purity materials sector would serve every Indian fab and OSAT simultaneously, making it a natural anchor investment in Semicon 2.0\'s second pillar.'],
-  sources: ['https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf', 'https://www.iea.org/policies/17893-announcement-on-the-implementation-of-export-control-of-items-related-to-gallium-and-germanium', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary']
+  takeaways: ['A rare-earth-free motor is a supply-chain signal, not an EV story: it can bend the demand curve for the rare-earth → magnet → motor chain that China dominates (~91% refining, ~94% magnets).', 'India is hedging both ways — funding domestic magnets (₹7,280 cr REPM) and designing the magnet out — and the two should be run as one materials-resilience strategy, not competing bets.', 'Magnet-free relocates value from materials to power electronics and motor-control software — the stack India should own if substitution scales.'],
+  sources: ['https://electrek.co/2026/07/13/vimag-labs-magnet-free-ev-motor-patent/', 'https://gulfnews.com/technology/indian-startup-patents-rare-earth-free-electric-motor-for-evs-challenging-chinas-supply-chain-dominance-1.500609670', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-7280-crore-scheme-to-promote-manufacturing-of-sintered-rare-earth-permanent-magnets-repm/']
 }, {
   slug: 'refinery-equipment-technology-transfer',
   no: 'S-020',
@@ -850,6 +850,49 @@ export const signals: SignalMeta[] = [{
   takeaways: ['China holds roughly 90% of global rare-earth separation and the dominant share of sintered NdFeB output — India imports all of its magnet-grade REM feed.', 'India has monazite and beach-sand resources and DAE separation capability for light REMs, but no commercial heavy-RE or sintered NdFeB capacity.', 'Defence drones, military robotics, EV traction and industrial automation translate rare-earth availability into a direct strategic-capability question.'],
   sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-rare-earths.pdf', 'https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-7280-crore-scheme-to-promote-manufacturing-of-sintered-rare-earth-permanent-magnets-repm/']
 }, {
+  slug: 'high-purity-minerals-for-semiconductors',
+  no: 'S-019',
+  title: 'High-Purity Minerals Enter the Semiconductor Feedstock Chain',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-07-19',
+  dateLabel: '19 July 2026',
+  status: 'live',
+  excerpt: 'Gallium, germanium, electronic-grade chemicals and high-purity targets are the quiet dependencies beneath every fab. China already accounts for the dominant share of refining; India is building the demand side without the supply base.',
+  readingTime: '7 min',
+  body: [{
+  text: 'When analysts write about semiconductor supply chains they describe the fab: the lithography, deposition and etch tools, the cleanroom, the wafer starts and the packaging lines. What they leave out is the feedstock chemistry that sits upstream of all of that — the 99.9999% pure gases, the sputtering targets, the photoresists, the CVD precursors, the high-purity gallium and germanium. Without those inputs, the most expensive fab in the world produces nothing.',
+  type: 'p'
+}, {
+  text: 'Gallium and germanium',
+  type: 'h'
+}, {
+  text: 'China produces the overwhelming majority of primary gallium and germanium metal and compounds. In 2023 it introduced export licences and then export restrictions on both, precisely because they are inputs into infrared optics, semiconductors and advanced substrates rather than end products. India has modest bauxite and coal-based germanium by-product streams but no high-scale refining or 7N–7N5 purity upgrading.',
+  type: 'p'
+}, {
+  text: 'From minerals to chips',
+  type: 'h'
+}, {
+  text: 'High-purity gallium is used to make GaAs and GaN substrates for RF, power and optoelectronic devices. Germanium enters silicon-germanium alloys for advanced logic and image sensors. Electronic-grade sulfuric acid, hydrogen peroxide and isopropanol are consumed in wafer cleaning in kilogram-per-wafer quantities. CMP slurries and photoresists are applied at every critical layer. These are not exotic niche inputs; they are the consumables that a running fab cannot run out of.',
+  type: 'p'
+}, {
+  text: 'The Indian opportunity',
+  type: 'h'
+}, {
+  text: 'India\'s semiconductor demand is set by the Ministry of Electronics and IT\'s own projections — USD 450–500 billion electronics output by 2029–30, with semiconductor consumption scaling from an estimated USD 20–25 billion today toward USD 60–80 billion by 2030. The materials that feed that demand are almost entirely imported. A domestic high-purity chemicals and metals base would serve every announced fab and OSAT simultaneously, giving it a market anchor from day one.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Any gallium or germanium refining capacity announcements — even pilot-scale — as a leading indicator of strategic intent.', 'Whether DST/MeitY R&D funding for electronic-grade chemicals translates into pilot plants rather than publications.', 'Import volumes of electronic-grade acids, solvents, photoresists and high-purity metals from Korea, Japan and Taiwan.', 'Whether Indian fabs and OSATs sign long-term offtake agreements for domestic high-purity feedstock before commissioning.', 'Technology-transfer deals with Japanese, Korean or European specialty-chemical firms that include know-how rather than only equipment supply.']
+}, {
+  text: 'Semiconductor competitiveness is decided layer by layer, and the materials layer is the one India currently imports almost completely. The question is not whether India can build fabs; it is whether it builds the chemistry the fabs consume.',
+  type: 'p'
+}],
+  takeaways: ['High-purity gallium, germanium, electronic-grade chemicals and CMP consumables are the quiet dependencies beneath every fab and OSAT line.', 'China dominates refining and purification of these materials; India has the demand but not the supply base.', 'A domestic high-purity materials sector would serve every Indian fab and OSAT simultaneously, making it a natural anchor investment in Semicon 2.0\'s second pillar.'],
+  sources: ['https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf', 'https://www.iea.org/policies/17893-announcement-on-the-implementation-of-export-control-of-items-related-to-gallium-and-germanium', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary']
+}, {
   slug: 'india-asia-mineral-processing-hub',
   no: 'S-022',
   title: 'Can India Be Asia\'s Mineral-Processing Hub?',
@@ -895,49 +938,6 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['India has a structurally plausible path to becoming Asia\'s critical-mineral processing hub; the constraint is execution, not ore or demand.', 'Three bets decide the outcome: processing mandates in mineral policy, genuine technology-transfer partnerships, and a hydromet/separation-chemistry talent pipeline.', 'Indonesia shows what export-linked processing mandates can achieve in 3–5 years; India has better power and a larger domestic market but less coercive policy instruments.'],
   sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds592_e.htm', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
-}, {
-  slug: 'magnet-free-motors-rare-earth-value-chain',
-  no: 'S-023',
-  title: 'Magnet-Free Motors Could Redraw India\'s Rare-Earth Value Chain',
-  domain: 'Critical Minerals & Materials',
-  date: '2026-07-19',
-  dateLabel: '19 July 2026',
-  status: 'live',
-  excerpt: 'A Bengaluru startup\'s rare-earth-free EV motor is being read as an EV story. It is a supply-chain story: a viable magnet-free motor bends the demand curve for the entire rare-earth → magnet → motor chain — the exact chokepoint India is spending ₹7,280 crore to build.',
-  readingTime: '7 min',
-  body: [{
-  text: 'Vimag Labs, a roughly $5 million Bengaluru startup, has secured its fifth Indian patent for a Virtual Magnet Synchronous Motor — a brushless, slip-ring-free traction motor that uses no rare-earth permanent magnets at all. Instead of a fixed magnet, it generates and controls the rotor\'s magnetic field in real time using power electronics and proprietary control algorithms. The company expects to ship between 1,000 and 10,000 motors by the end of 2026. At CES 2026, Matter showed a rare-earth-free motor built on iron-nitride magnets — the same problem, a different route. Read as EV news, this is a product launch. Read as industrial intelligence, it is something larger.',
-  type: 'p'
-}, {
-  text: 'The motor is not the story',
-  type: 'h'
-}, {
-  text: 'The story is what a commercially viable magnet-free motor does to a value chain that runs from rare-earth mining, through separation and refining, into sintered NdFeB magnets, into traction motors, and out into EVs, drones, robotics, industrial drives and defence platforms. China holds an estimated 91% of global rare-earth refining and 94% of sintered permanent-magnet production, and in April and October 2025 it turned that concentration into leverage with export controls on heavy rare earths and a de-minimis rule reaching any product containing Chinese rare-earth content. Anything that takes the magnet out of the motor reduces the bite of that chokepoint.',
-  type: 'p'
-}, {
-  text: 'The tension inside India\'s own strategy',
-  type: 'h'
-}, {
-  text: 'India is doing two things at once. On the supply side it is funding the chokepoint — the ₹7,280 crore rare-earth permanent magnet (REPM) scheme backs 6,000 MTPA of domestic sintered-magnet capacity, a bet that magnets stay essential and India should make them. On the substitution side, startups are trying to design the magnet out of the motor entirely. These are not contradictory; together they are a hedge against a dependency India does not control. But they compete for the same policy attention and capital, and the returns on domestic magnet capacity fall if magnet-free motors scale. The two should be run as one materials-resilience strategy, not as competing bets.',
-  type: 'p'
-}, {
-  text: 'Where the value moves',
-  type: 'h'
-}, {
-  text: 'A magnet-free motor relocates value. It shifts the cost and the moat out of materials — rare earths and sintered magnets — and into power electronics and control software: silicon, inverters, and motor-control IP. That is a different industrial base. Not mines and separation trains, but semiconductors, power-electronics manufacturing and embedded software, where India\'s design strength is genuine. Substitution does not remove the opportunity; it moves it up the stack, from the atoms to the algorithm.',
-  type: 'p'
-}, {
-  text: 'What to watch',
-  type: 'h'
-}, {
-  type: 'list',
-  items: ['Whether Vimag and its peers convert patents into shipped, cost-competitive motors — efficiency and cost per kW versus NdFeB motors is the real test, not the patent count.', 'Whether Indian OEMs design magnet-free motors in — two- and three-wheelers first, where power density matters less — or treat them only as a hedge.', 'Whether the REPM magnet scheme and magnet-free R&D are coordinated as one strategy, or left to compete for capital and attention.', 'Traction-inverter and power-electronics localisation — the layer that captures the value if magnet-free scales.', 'Global signals: Tesla\'s next-generation rare-earth-free motor, Niron and Matter\'s iron-nitride route, and whether magnet-free stays in two- and three-wheelers and industrial drives or reaches passenger cars.']
-}, {
-  text: 'The most important thing a magnet-free motor does is give India optionality on a chokepoint it does not control. It will not displace NdFeB motors everywhere soon — power density still favours magnets in cars — but in two- and three-wheelers, drones and industrial drives, magnet-free is credible, and those are exactly the volumes India already makes. The opportunity is to own the substitution path — power electronics and motor-control software — not only to chase the magnets.',
-  type: 'p'
-}],
-  takeaways: ['A rare-earth-free motor is a supply-chain signal, not an EV story: it can bend the demand curve for the rare-earth → magnet → motor chain that China dominates (~91% refining, ~94% magnets).', 'India is hedging both ways — funding domestic magnets (₹7,280 cr REPM) and designing the magnet out — and the two should be run as one materials-resilience strategy, not competing bets.', 'Magnet-free relocates value from materials to power electronics and motor-control software — the stack India should own if substitution scales.'],
-  sources: ['https://electrek.co/2026/07/13/vimag-labs-magnet-free-ev-motor-patent/', 'https://gulfnews.com/technology/indian-startup-patents-rare-earth-free-electric-motor-for-evs-challenging-chinas-supply-chain-dominance-1.500609670', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-7280-crore-scheme-to-promote-manufacturing-of-sintered-rare-earth-permanent-magnets-repm/']
 }, {
   slug: 'marvell-india-semiconductor-design',
   no: 'S-023',
@@ -1343,31 +1343,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['IC substrates are one of India\'s deepest chip-stack gaps — no domestic producer, and roughly 70% of the world market held by Shinko, IBIDEN and Unimicron.', 'Intel and 3D Glass Solutions are investing about US$3.3bn in Bhubaneswar-Khurda, Odisha over five to six years — roughly 70,000 glass substrates a year plus assembled units and 3D heterogeneous-integration modules.', 'Glass-core substrates are pre-commercial worldwide (Absolics targeting end-2026, Samsung post-2027, TSMC panel-level ~2028), so India is entering this layer at the frontier rather than a generation behind.', 'Both first movers into India\'s deepest chokepoints — Intel/3DGS in substrates, Fujifilm in process chemicals — are foreign incumbents relocating capacity, not Indian firms entering. Hosting a capability and owning one are different things.'],
   sources: ['https://www.reuters.com/world/india/intel-3dgs-set-up-33-billion-substrate-plant-indias-odisha-state-2026-05-29/', 'https://www.trendforce.com/news/2026/06/01/news-intel-advances-glass-substrate-push-with-3dgs-us3-3-billion-india-plant-set-for-five-to-six-year-buildout/', 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284784', 'https://evertiq.com/design/2026-07-01-fujifilm-partners-with-gujarat-to-boost-chip-materials-manufacturing']
 }, {
-  slug: 'india-uk-autonomous-systems-working-group',
-  no: 'S-036',
-  title: 'India and the UK Choose Co-Development Over Procurement',
-  domain: 'Defence & Dual-Use',
-  date: '2026-08-05',
-  dateLabel: '5 Aug 2026',
-  status: 'live',
-  excerpt: 'At Farnborough, India and the UK launched an industry-led working group on autonomous and uncrewed systems — a structural shift from buying platforms to building them together.',
-  readingTime: '2 min',
-  body: [{
-  text: 'India and the United Kingdom launched the India-UK Autonomous Platforms and Uncrewed Systems Working Group at the Farnborough International Airshow (6-7 August 2026). It is industry-led, sitting under the UK India Business Council (UKIBC)-Society of Indian Defence Manufacturers (SIDM) joint framework and the India-UK Defence Industrial Roadmap within the Vision 2035 partnership. It is co-chaired by Dr Helen Almey, Head of Capability Engagement at ADS Group, on the UK side and Sameer Joshi, CEO of NewSpace Research and Technologies, on the Indian side, and is tasked with identifying joint development projects, manufacturing partnerships, supply-chain integration and technology innovation across aerial, land and underwater autonomous systems.',
-  type: 'p'
-}, {
-  text: 'The launch marks a structural shift from government-to-government dialogue toward joint industrial outcomes - co-development and joint R&D rather than a buyer-seller platform sale. SIDM Director General K Ramesh described it as the operational framework needed to translate high-level roadmaps into commercial projects, and said it would be the first of several capability-focused sub-groups covering critical defence sectors.',
-  type: 'p'
-}, {
-  text: 'For India the value is structural. Autonomy, counter-drone and seabed-sensor networks are complex, capability-thin layers, and developing them in isolation is slow and risky. A co-development framework is a route to the technology base India\'s own strategy flags as missing. Particular emphasis on underwater autonomous systems reflects Indo-Pacific maritime priorities, and the appointment of a private Indian innovator, NewSpace, as India co-chair signals that domestic industry is now shaping the bilateral agenda rather than merely participating in it.',
-  type: 'p'
-}, {
-  text: 'The test is whether the working group produces Indian-owned IP and a domestic supplier base - concrete joint programmes within 12 months, and the model replicated across other defence domains - or becomes an import channel with a partnership label. Watch the first joint programmes and their local-content and IP terms.',
-  type: 'p'
-}],
-  takeaways: ['India and the UK launched an industry-led Autonomous Platforms & Uncrewed Systems Working Group at Farnborough 2026 (6-7 August).', 'It is co-chaired by Sameer Joshi (NewSpace Research and Technologies, India) and Dr Helen Almey (ADS Group, UK), under the UKIBC-SIDM framework.', 'The first of several planned sub-groups under the India-UK Defence Industrial Roadmap / Vision 2035; covers aerial, land and underwater systems, with emphasis on underwater for Indo-Pacific security.', 'Signals co-development and joint R&D over transactional procurement; the value depends on real technology transfer and Indian IP.'],
-  sources: ['Raksha Anirveda (05 Aug 2026): https://raksha-anirveda.com/bilateral-defence-tech-cooperation-india-and-uk-launch-autonomous-platforms-and-uncrewed-systems-working-group/', 'IDRW (04 Aug 2026): https://idrw.org/uncrewed-alliance-newspace-ceo-sameer-joshi-named-india-co-chair-of-new-india-uk-autonomous-systems-working-group/', 'Indian Masterminds (04 Aug 2026): https://indianmasterminds.com/news/defence/india-uk-cooperation-autonomous-platforms-uncrewed-systems-working-group-launch-221521/', 'The Print (2026): https://theprint.in/world/new-india-uk-industry-initiative-to-boost-defence-tech-collaboration/2993802/']
-}, {
   slug: 'asip-osat-visakhapatnam',
   no: 'S-035',
   title: 'India\'s Chip Strategy Moves From Design Services to a Packaging Line',
@@ -1392,6 +1367,31 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['ASIP Technologies broke ground on a Rs 2,500 cr (~$260M) OSAT plant at Visakhapatnam — South India\'s first ISM-approved unit.', 'Packaging + test (not a fab): wire-bond/FC-BGA now, 2.5D/3D within 2-3 years; ~96M chips/yr; APACT (Korea) as tech partner.', 'Moves India\'s chip play from design services into physical back-end manufacturing.', 'The real opening is the imported materials tail behind OSAT — substrates, bonding wire, moulding compound, gases.'],
   sources: ['Evertiq (4 Aug 2026): https://evertiq.com/news/2026-08-04-asip-breaks-ground-on-260-million-osat-facility-in-india', 'Business Standard (1 Aug 2026): https://www.business-standard.com/india-news/pm-modi-lays-foundation-stone-asip-semiconductor-plant-visakhapatnam-126080100662_1.html', 'The Hans India: https://www.thehansindia.com/news/cities/visakhapatnam/modi-lays-stone-for-souths-1st-ism-approved-chip-unit-in-ap-1104105']
+}, {
+  slug: 'india-uk-autonomous-systems-working-group',
+  no: 'S-036',
+  title: 'India and the UK Choose Co-Development Over Procurement',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-05',
+  dateLabel: '5 Aug 2026',
+  status: 'live',
+  excerpt: 'At Farnborough, India and the UK launched an industry-led working group on autonomous and uncrewed systems — a structural shift from buying platforms to building them together.',
+  readingTime: '2 min',
+  body: [{
+  text: 'India and the United Kingdom launched the India-UK Autonomous Platforms and Uncrewed Systems Working Group at the Farnborough International Airshow (6-7 August 2026). It is industry-led, sitting under the UK India Business Council (UKIBC)-Society of Indian Defence Manufacturers (SIDM) joint framework and the India-UK Defence Industrial Roadmap within the Vision 2035 partnership. It is co-chaired by Dr Helen Almey, Head of Capability Engagement at ADS Group, on the UK side and Sameer Joshi, CEO of NewSpace Research and Technologies, on the Indian side, and is tasked with identifying joint development projects, manufacturing partnerships, supply-chain integration and technology innovation across aerial, land and underwater autonomous systems.',
+  type: 'p'
+}, {
+  text: 'The launch marks a structural shift from government-to-government dialogue toward joint industrial outcomes - co-development and joint R&D rather than a buyer-seller platform sale. SIDM Director General K Ramesh described it as the operational framework needed to translate high-level roadmaps into commercial projects, and said it would be the first of several capability-focused sub-groups covering critical defence sectors.',
+  type: 'p'
+}, {
+  text: 'For India the value is structural. Autonomy, counter-drone and seabed-sensor networks are complex, capability-thin layers, and developing them in isolation is slow and risky. A co-development framework is a route to the technology base India\'s own strategy flags as missing. Particular emphasis on underwater autonomous systems reflects Indo-Pacific maritime priorities, and the appointment of a private Indian innovator, NewSpace, as India co-chair signals that domestic industry is now shaping the bilateral agenda rather than merely participating in it.',
+  type: 'p'
+}, {
+  text: 'The test is whether the working group produces Indian-owned IP and a domestic supplier base - concrete joint programmes within 12 months, and the model replicated across other defence domains - or becomes an import channel with a partnership label. Watch the first joint programmes and their local-content and IP terms.',
+  type: 'p'
+}],
+  takeaways: ['India and the UK launched an industry-led Autonomous Platforms & Uncrewed Systems Working Group at Farnborough 2026 (6-7 August).', 'It is co-chaired by Sameer Joshi (NewSpace Research and Technologies, India) and Dr Helen Almey (ADS Group, UK), under the UKIBC-SIDM framework.', 'The first of several planned sub-groups under the India-UK Defence Industrial Roadmap / Vision 2035; covers aerial, land and underwater systems, with emphasis on underwater for Indo-Pacific security.', 'Signals co-development and joint R&D over transactional procurement; the value depends on real technology transfer and Indian IP.'],
+  sources: ['Raksha Anirveda (05 Aug 2026): https://raksha-anirveda.com/bilateral-defence-tech-cooperation-india-and-uk-launch-autonomous-platforms-and-uncrewed-systems-working-group/', 'IDRW (04 Aug 2026): https://idrw.org/uncrewed-alliance-newspace-ceo-sameer-joshi-named-india-co-chair-of-new-india-uk-autonomous-systems-working-group/', 'Indian Masterminds (04 Aug 2026): https://indianmasterminds.com/news/defence/india-uk-cooperation-autonomous-platforms-uncrewed-systems-working-group-launch-221521/', 'The Print (2026): https://theprint.in/world/new-india-uk-industry-initiative-to-boost-defence-tech-collaboration/2993802/']
 }, {
   slug: 'india-indigenous-turbojet-engine',
   no: 'S-034',
@@ -1418,30 +1418,30 @@ export const signals: SignalMeta[] = [{
   takeaways: ['India\'s first indigenous 350 kg thrust-class expendable turbojet was delivered to GTRE on 22 July 2026.', 'Designed by DRDO\'s GTRE and built by Azad Engineering (Hyderabad) — a DRDO-plus-private-industry model.', 'Targets cruise missiles, loitering munitions and UAVs, removing an import chokepoint on range and payload.', 'Value now migrates to the expendable-engine component base — discs, blades, combustors — built for volume.'],
   sources: ['Organiser (24 Jul 2026): https://organiser.org/2026/07/24/371428/bharat/drdo-develops-indias-first-indigenous-350-kg-thrust-class-expendable-turbojet-engine/', 'IndianWeb2 (Jul 2026): https://www.indianweb2.com/2026/07/india-unveils-first-indigenous-350kg.html', 'BIS Infotech: https://www.bisinfotech.com/drdo-advances-indigenous-aerospace-with-turbojet-engine/']
 }, {
-  slug: 'indiaai-mission-gpu-compute-expansion',
-  no: 'S-038',
-  title: 'India Expands Sovereign AI Compute with 15,916 New GPUs under IndiaAI Mission',
-  domain: 'AI Infrastructure',
+  slug: 'hindustan-copper-uzbekistan-minerals-partnership',
+  no: 'S-039',
+  title: 'Hindustan Copper Explores Strategic Critical Minerals Partnership with Uzbekistan',
+  domain: 'Critical Minerals & Materials',
   date: '2026-08-07',
   dateLabel: '7 Aug 2026',
   status: 'live',
-  excerpt: 'The government expanded AI compute under the IndiaAI Mission by 15,916 GPUs - taking the empanelled national pool to 34,333 - and ordered a ~1.1 EFLOPS high-performance system, deepening India\'s push for sovereign compute.',
+  excerpt: 'Hindustan Copper Limited (HCL) has initiated strategic discussions with Uzbekistan to secure critical mineral supplies, aligning with India\'s broader push to diversify its supply chains away from Chinese dominance.',
   readingTime: '2 min',
   body: [{
-  text: 'On August 6, 2026, the Ministry of Electronics & IT highlighted a major expansion of AI compute infrastructure under the IndiaAI Mission, adding 15,916 GPUs to the national compute network. The addition builds on the existing 18,417 empanelled GPUs, taking the common compute pool to 34,333 GPUs, against a stated target of 100,000 GPUs by end-2026. The Government had approved the IndiaAI Mission on March 7, 2024, with a total outlay of Rs. 10,371.92 crore over five years. The initiative has empaneled 15 Compute Service Providers and approved 237 projects for subsidized compute support, sanctioning 93.18 lakh GPU hours. Additionally, a Purchase Order has been issued for a High-Performance AI Compute System of approximately 1.1 EFLOPS at the NIC Data Centre, Shastri Park, Delhi.',
+  text: 'Hindustan Copper Limited (HCL), India\'s only vertically integrated copper-producing public sector enterprise, held a strategic meeting with Laziz Kudratov, Minister of Investments, Industry and Trade of the Republic of Uzbekistan, to explore business opportunities in the critical minerals sector. The discussions focused on identifying mutually beneficial investment opportunities in exploration, mining, mineral development, and value addition. This engagement occurred amid broader high-level diplomatic talks, including External Affairs Minister S. Jaishankar\'s meeting with Uzbekistan Foreign Minister Bakhtiyor Saidov in New Delhi on August 4, 2026, which emphasized expanding the bilateral partnership into mining and rare earth minerals.',
   type: 'p'
 }, {
-  text: 'Strategically, this infrastructure build-out addresses India\'s critical dependency on foreign computing resources for advanced AI development. By establishing a sovereign compute grid, India aims to democratize access to high-performance computing for domestic startups, academic institutions, and public-sector entities. The Mission also supports the development of indigenous foundation models; pursuant to a Call for Proposals issued on January 30, 2025, 20 indigenous foundation model proposals (comprising 12 Large Multimodal Models and 8 Small Language Models) have been identified for support, with intellectual property retained by the applicants.',
+  text: 'This move is strategically significant as India seeks to secure reliable supply chains for minerals essential to clean energy transitions, advanced manufacturing, and technological innovation. The global supply of rare earth elements and critical minerals remains highly concentrated, with China dominating much of the world\'s rare earth processing and magnet production. By partnering with resource-rich nations like Uzbekistan, India aims to diversify its import sources and build resilient, geopolitically secure supply chains.',
   type: 'p'
 }, {
-  text: 'The dependency frame centres on the global race for GPU capacity and semiconductor self-reliance. India\'s compute ecosystem currently relies on globally sourced GPUs procured through empaneled providers. The expansion of domestic infrastructure is a direct response to supply chain vulnerabilities highlighted by global trade tensions. This aligns with the broader semiconductor strategy, including the Union Cabinet\'s approval of Semicon 2.0 on July 15, 2026, with an outlay of Rs. 1,27,500 crore to accelerate the design and development of Indian-designed chips and expand fabrication units.',
+  text: 'The dependency frame highlights India\'s vulnerability to supply disruptions in critical materials required for electric vehicles, renewable energy infrastructure, and defence technologies. While India has ambitious plans for domestic manufacturing in these sectors, its heavy reliance on imported raw materials poses a strategic risk. Expanding partnerships across Eurasia, including Australia-India collaboration and engagements in Central Asia, is central to mitigating this vulnerability.',
   type: 'p'
 }, {
-  text: 'The opportunity lies in establishing India as a globally competitive hub for AI development, less dependent on foreign hardware monopolies. The test to watch is the operational deployment and utilization of the 1.1 EFLOPS HPC system at the NIC Data Centre, and whether the empaneled compute providers can deliver the promised capacity effectively to domestic developers and researchers.',
+  text: 'The opportunity for India lies in leveraging its manufacturing expertise and global market networks in exchange for secure access to Uzbekistan\'s raw materials. The test to watch will be the translation of these exploratory discussions into concrete, long-term bilateral agreements and the successful integration of Uzbek minerals into India\'s industrial supply chain.',
   type: 'p'
 }],
-  takeaways: ['The IndiaAI Mission added 15,916 GPUs, taking the empanelled compute pool to 34,333 (target: 100,000 by end-2026).', 'A Purchase Order was issued for a ~1.1 EFLOPS High-Performance AI Compute System at the NIC Data Centre, Delhi.', '20 indigenous foundation model proposals (12 LMMs, 8 SLMs) have been identified for support under the Mission.', 'The Cabinet approved Semicon 2.0 with an outlay of Rs. 1,27,500 crore to boost semiconductor manufacturing.'],
-  sources: ['Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295477', 'Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295483']
+  takeaways: ['HCL met with the Uzbekistan Minister of Investments to explore critical minerals collaboration.', 'The talks align with broader diplomatic efforts to expand India-Uzbekistan strategic partnerships.', 'India is actively diversifying its mineral supply sources to reduce dependence on single suppliers.', 'Uzbekistan is emerging as a key partner for India in securing rare earth and critical minerals.'],
+  sources: ['The Newsman of India (06 Aug 2026): https://thenewsmanofindia.com/hindustan-copper-explores-strategic-partnership-with-uzbekistan-in-critical-minerals-sector/', 'The Tribune / ANI (03 Aug 2026): https://www.tribuneindia.com/news/bilateral-trade/uzbekistan-invites-indian-investment-in-mining-rare-earths-targets-usd-2-bn-trade-with-india-next-year']
 }, {
   slug: 'army-2715-logistic-drones-rfi',
   no: 'S-037',
@@ -1468,30 +1468,30 @@ export const signals: SignalMeta[] = [{
   takeaways: ['The MoD issued an RFI on August 5, 2026, for 2,715 logistic drones graded by operational altitude.', 'The procurement falls under the Buy (Indian-IDDM) route, favouring indigenous platforms.', 'Drones must integrate NavIC navigation and be hardened against electronic jamming and spoofing.', 'The requirement marks a nearly five-fold increase in drone procurement compared to the 2022 baseline.'],
   sources: ['The Tribune India (06 Aug 2026): https://www.tribuneindia.com/news/defence/army-seeks-over-2700-logistics-drones-for-high-altitude-frontline-supply-missions/', 'India Sentinels (06 Aug 2026): https://www.indiasentinels.com/army/ministry-of-defence-seeks-2715-logistic-drones-for-indian-armys-china-pakistan-border-supply-chain-7553']
 }, {
-  slug: 'hindustan-copper-uzbekistan-minerals-partnership',
-  no: 'S-039',
-  title: 'Hindustan Copper Explores Strategic Critical Minerals Partnership with Uzbekistan',
-  domain: 'Critical Minerals & Materials',
+  slug: 'indiaai-mission-gpu-compute-expansion',
+  no: 'S-038',
+  title: 'India Expands Sovereign AI Compute with 15,916 New GPUs under IndiaAI Mission',
+  domain: 'AI Infrastructure',
   date: '2026-08-07',
   dateLabel: '7 Aug 2026',
   status: 'live',
-  excerpt: 'Hindustan Copper Limited (HCL) has initiated strategic discussions with Uzbekistan to secure critical mineral supplies, aligning with India\'s broader push to diversify its supply chains away from Chinese dominance.',
+  excerpt: 'The government expanded AI compute under the IndiaAI Mission by 15,916 GPUs - taking the empanelled national pool to 34,333 - and ordered a ~1.1 EFLOPS high-performance system, deepening India\'s push for sovereign compute.',
   readingTime: '2 min',
   body: [{
-  text: 'Hindustan Copper Limited (HCL), India\'s only vertically integrated copper-producing public sector enterprise, held a strategic meeting with Laziz Kudratov, Minister of Investments, Industry and Trade of the Republic of Uzbekistan, to explore business opportunities in the critical minerals sector. The discussions focused on identifying mutually beneficial investment opportunities in exploration, mining, mineral development, and value addition. This engagement occurred amid broader high-level diplomatic talks, including External Affairs Minister S. Jaishankar\'s meeting with Uzbekistan Foreign Minister Bakhtiyor Saidov in New Delhi on August 4, 2026, which emphasized expanding the bilateral partnership into mining and rare earth minerals.',
+  text: 'On August 6, 2026, the Ministry of Electronics & IT highlighted a major expansion of AI compute infrastructure under the IndiaAI Mission, adding 15,916 GPUs to the national compute network. The addition builds on the existing 18,417 empanelled GPUs, taking the common compute pool to 34,333 GPUs, against a stated target of 100,000 GPUs by end-2026. The Government had approved the IndiaAI Mission on March 7, 2024, with a total outlay of Rs. 10,371.92 crore over five years. The initiative has empaneled 15 Compute Service Providers and approved 237 projects for subsidized compute support, sanctioning 93.18 lakh GPU hours. Additionally, a Purchase Order has been issued for a High-Performance AI Compute System of approximately 1.1 EFLOPS at the NIC Data Centre, Shastri Park, Delhi.',
   type: 'p'
 }, {
-  text: 'This move is strategically significant as India seeks to secure reliable supply chains for minerals essential to clean energy transitions, advanced manufacturing, and technological innovation. The global supply of rare earth elements and critical minerals remains highly concentrated, with China dominating much of the world\'s rare earth processing and magnet production. By partnering with resource-rich nations like Uzbekistan, India aims to diversify its import sources and build resilient, geopolitically secure supply chains.',
+  text: 'Strategically, this infrastructure build-out addresses India\'s critical dependency on foreign computing resources for advanced AI development. By establishing a sovereign compute grid, India aims to democratize access to high-performance computing for domestic startups, academic institutions, and public-sector entities. The Mission also supports the development of indigenous foundation models; pursuant to a Call for Proposals issued on January 30, 2025, 20 indigenous foundation model proposals (comprising 12 Large Multimodal Models and 8 Small Language Models) have been identified for support, with intellectual property retained by the applicants.',
   type: 'p'
 }, {
-  text: 'The dependency frame highlights India\'s vulnerability to supply disruptions in critical materials required for electric vehicles, renewable energy infrastructure, and defence technologies. While India has ambitious plans for domestic manufacturing in these sectors, its heavy reliance on imported raw materials poses a strategic risk. Expanding partnerships across Eurasia, including Australia-India collaboration and engagements in Central Asia, is central to mitigating this vulnerability.',
+  text: 'The dependency frame centres on the global race for GPU capacity and semiconductor self-reliance. India\'s compute ecosystem currently relies on globally sourced GPUs procured through empaneled providers. The expansion of domestic infrastructure is a direct response to supply chain vulnerabilities highlighted by global trade tensions. This aligns with the broader semiconductor strategy, including the Union Cabinet\'s approval of Semicon 2.0 on July 15, 2026, with an outlay of Rs. 1,27,500 crore to accelerate the design and development of Indian-designed chips and expand fabrication units.',
   type: 'p'
 }, {
-  text: 'The opportunity for India lies in leveraging its manufacturing expertise and global market networks in exchange for secure access to Uzbekistan\'s raw materials. The test to watch will be the translation of these exploratory discussions into concrete, long-term bilateral agreements and the successful integration of Uzbek minerals into India\'s industrial supply chain.',
+  text: 'The opportunity lies in establishing India as a globally competitive hub for AI development, less dependent on foreign hardware monopolies. The test to watch is the operational deployment and utilization of the 1.1 EFLOPS HPC system at the NIC Data Centre, and whether the empaneled compute providers can deliver the promised capacity effectively to domestic developers and researchers.',
   type: 'p'
 }],
-  takeaways: ['HCL met with the Uzbekistan Minister of Investments to explore critical minerals collaboration.', 'The talks align with broader diplomatic efforts to expand India-Uzbekistan strategic partnerships.', 'India is actively diversifying its mineral supply sources to reduce dependence on single suppliers.', 'Uzbekistan is emerging as a key partner for India in securing rare earth and critical minerals.'],
-  sources: ['The Newsman of India (06 Aug 2026): https://thenewsmanofindia.com/hindustan-copper-explores-strategic-partnership-with-uzbekistan-in-critical-minerals-sector/', 'The Tribune / ANI (03 Aug 2026): https://www.tribuneindia.com/news/bilateral-trade/uzbekistan-invites-indian-investment-in-mining-rare-earths-targets-usd-2-bn-trade-with-india-next-year']
+  takeaways: ['The IndiaAI Mission added 15,916 GPUs, taking the empanelled compute pool to 34,333 (target: 100,000 by end-2026).', 'A Purchase Order was issued for a ~1.1 EFLOPS High-Performance AI Compute System at the NIC Data Centre, Delhi.', '20 indigenous foundation model proposals (12 LMMs, 8 SLMs) have been identified for support under the Mission.', 'The Cabinet approved Semicon 2.0 with an outlay of Rs. 1,27,500 crore to boost semiconductor manufacturing.'],
+  sources: ['Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295477', 'Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295483']
 }, {
   slug: 'lt-semiconductor-technologies-osat-shift-india',
   no: 'S-040',
@@ -1542,6 +1542,56 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['L&T\'s Precision Engineering and Systems division expects revenue to triple over five years, driven by drone and UAV manufacturing expansion.', 'The division showcased the Vedh Mk1 drone and Chanakya autonomy platform at Manthan: Drone Demo Day in Bengaluru on 7 August 2026.', 'L&T expects to deliver 100 new Teer drones to the Indian Air Force, with production already underway.', 'India\'s UAV market is projected to reach around USD 3.2 billion by 2030; L&T is investing in new electronics manufacturing facilities to expand capacity.'],
   sources: ['Reuters (07 Aug 2026): https://www.reuters.com/world/india/lt-says-unit-that-houses-drones-see-threefold-revenue-growth-over-five-years-2026-08-07/', 'Economic Times (07 Aug 2026): https://m.economictimes.com/news/defence/lt-says-unit-that-houses-drones-to-see-threefold-revenue-growth-over-five-years/articleshow/133032316.cms']
+}, {
+  slug: 'india-joins-france-fcas-sixth-generation-fighter-programme',
+  no: 'S-042',
+  title: 'India Moves to Join France-Led FCAS Sixth-Generation Fighter Programme',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-09',
+  dateLabel: '9 Aug 2026',
+  status: 'live',
+  excerpt: 'India has begun efforts to co-join the French-led Future Combat Air System (FCAS), a sixth-generation fighter programme, as disclosed in the Parliamentary Standing Committee on Defence\'s report tabled on 7 August 2026. The move follows Germany\'s exit from FCAS and positions India alongside France in next-generation combat aviation - though the form of participation is not yet defined.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Defence Ministry has informed Parliament that it has initiated efforts in a concerted manner to co-join the French-led Future Combat Air System (FCAS), a sixth-generation fighter programme. The disclosure was contained in the Parliamentary Standing Committee on Defence\'s report tabled on 7 August 2026, which urged the Ministry to chalk out a trajectory and advance the planning process for developing and inducting sixth-generation aircraft. India\'s interest lies with FCAS rather than the rival British-Italian-Japanese Global Combat Air Programme (GCAP), which is developing the Tempest aircraft. FCAS was originally conceived by France, Germany and Spain but was reshaped after Germany abandoned the crewed-fighter component in June 2026, following disagreements between Dassault Aviation and Airbus over workshare and intellectual property.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in India\'s decision to pursue a technology pathway that its indigenous Advanced Medium Combat Aircraft (AMCA) programme alone cannot provide. Sixth-generation systems are being developed as a system of systems, with crewed fighters operating alongside unmanned remote carriers, loyal-wingman drones, advanced sensors, electronic warfare capabilities and networked combat clouds. This architecture demands capabilities in artificial intelligence, cyber warfare, directed-energy weapons and manned-unmanned teaming that extend well beyond India\'s current fifth-generation development horizon. The AMCA remains targeted for a first flight around 2029, while the FCAS aircraft is expected to fly in the 2028-29 timeframe.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is notable on multiple levels. India\'s fighter fleet remains below authorised squadron strength, and the indigenous AMCA programme is still under development. By joining FCAS, India gains a potential route to technologies - gallium-nitride transistors for advanced radars, variable-cycle engines, all-aspect stealth shaping - that would take considerably longer to develop independently. At the same time, this creates a new dependency on French technology transfer and intellectual-property access, which must be negotiated within the broader India-France Special Global Strategic Partnership. The government has not disclosed the precise form of India\'s proposed participation, whether as an observer, development partner or production workshare recipient.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether the Standing Committee\'s request for a detailed status report, roadmap and timeline produces concrete milestones for India\'s participation in FCAS, and whether India\'s operational vision - which includes carrier operability and nuclear-delivery capabilities that align with French doctrine - can be translated into specific technology-transfer agreements. The concurrent Safran-GTRE partnership on a 120kN high-thrust engine for the AMCA Mk2 suggests a dual-track strategy: indigenous fifth-generation capability alongside international sixth-generation partnership.',
+  type: 'p'
+}],
+  takeaways: ['India has begun efforts to co-join the French-led Future Combat Air System (FCAS), as disclosed in the Parliamentary Standing Committee on Defence\'s report tabled on 7 August 2026.', 'FCAS is a sixth-generation fighter programme featuring AI integration, electronic warfare, manned-unmanned teaming and networked combat-cloud capabilities.', 'Germany exited the FCAS crewed-fighter component in June 2026 after disputes between Dassault Aviation and Airbus over workshare and IP.', 'The panel has asked the Ministry for a detailed status report, roadmap and timeline for India\'s sixth-generation fighter capability; the form of India\'s participation is not yet defined.'],
+  sources: ['The New Indian Express (08 Aug 2026): https://www.newindianexpress.com/india/2026/Aug/08/india-opts-for-france-led-fcas-to-enter-sixth-generation-fighter-race', 'Business Standard (08 Aug 2026): https://www.business-standard.com/external-affairs-defence-security/news/defence-ministry-begins-efforts-to-join-sixth-gen-fighter-programme-panel-126080800026_1.html', 'The Print (08 Aug 2026): https://theprint.in/defence/and-its-official-india-in-talks-with-france-to-join-6th-gen-fighter-programme-fcas/3009124/']
+}, {
+  slug: 'gujarat-chipin-extension-centre-vlsi-design-coe',
+  no: 'S-043',
+  title: 'Gujarat Extends Its Semiconductor Bet From Fabs to Chip Design',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-08-09',
+  dateLabel: '9 Aug 2026',
+  status: 'live',
+  excerpt: 'Gujarat, through the Gujarat State Electronics Mission (GSEM), is setting up a ChipIN Extension Centre and a Centre of Excellence for VLSI Design with Gujarat Technological University (GTU) and C-DAC - a move to build state-level chip-design capability beyond fabrication and assembly.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Gujarat government\'s Department of Science and Technology, operating through the Gujarat State Electronics Mission (GSEM), has proposed establishing a ChipIN Extension Centre and a Centre of Excellence (CoE) for Very Large Scale Integration (VLSI) Design. The centre will be located at the Gujarat Technological University (GTU) campus and developed in collaboration with the Centre for Development of Advanced Computing (C-DAC). A two-day orientation programme began on 7 August 2026, with more than 30 academic institutions from across Gujarat participating. The initiative aims to give engineering colleges cloud-based access to advanced Electronic Design Automation (EDA) tools - including those from Cadence, Synopsys and Siemens - in a phased manner, alongside expert training on the full semiconductor design workflow.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in Gujarat\'s deliberate move to ascend the semiconductor value chain beyond manufacturing. The state already hosts significant fabrication and assembly investments, including Tata Electronics\' planned fab in Dholera and Micron\'s assembly-and-testing facility in Sanand. By adding chip-design capability, Gujarat is positioning itself to capture higher-value activities in the semiconductor ecosystem, where design IP and architecture development command substantially greater margins than backend assembly and testing.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is instructive. Chip design in India has historically been concentrated in Karnataka (Bengaluru) and Hyderabad, with limited capability development in Gujarat despite its manufacturing base. This initiative addresses a structural gap by providing students and researchers a route to fabrication through the Multi-Project Wafer (MPW) programme, enabling academic chip designs to be converted into physical silicon for testing. This hands-on pathway from design to fabrication is rare in Indian higher education and could stimulate a new generation of semiconductor startups in the state.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether the phased rollout of EDA-tool access reaches a critical mass of engineering colleges, and whether the MPW fabrication pipeline produces commercially viable chip designs from academic institutions. Success will depend on sustained industry engagement, the availability of experienced VLSI professionals as trainers, and the alignment of curricula with industry requirements. If it works, the model could be replicated across other states pursuing semiconductor-ecosystem development under the Semicon 2.0 framework.',
+  type: 'p'
+}],
+  takeaways: ['Gujarat\'s Department of Science and Technology, through GSEM, is establishing a ChipIN Extension Centre and VLSI Design CoE at the GTU campus in collaboration with C-DAC.', 'The centre will provide cloud-based access to advanced EDA tools (Cadence, Synopsys, Siemens) to engineering colleges across Gujarat in a phased manner.', 'Students can have chip designs fabricated through the Multi-Project Wafer (MPW) programme - the full journey from design to physical silicon testing.', 'A two-day orientation programme beginning 7 August 2026 drew more than 30 academic institutions, reflecting broad state-level engagement.'],
+  sources: ['DeshGujarat (07 Aug 2026): https://deshgujarat.com/2026/08/07/gujarat-govt-gtu-c-dac-partner-to-set-up-chipin-centre-of-excellence-in-vlsi-design/', 'ET Government (08 Aug 2026): https://government.economictimes.indiatimes.com/news/technology/gujarat-to-focus-on-chip-design-to-advance-in-semiconductor-value-chain-setting-up-new-facility/133047778']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
