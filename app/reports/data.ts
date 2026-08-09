@@ -284,14 +284,14 @@ export const reports: ReportMeta[] = [{
 }, {
   slug: 'india-green-hydrogen',
   title: 'The Hydrogen Mirage or Machine?',
-  subtitle: 'India\'s green-hydrogen industrial reality — electrolysers, catalysts, and whether the molecule can be made without importing the machine.',
+  subtitle: 'India’s green-hydrogen industrial reality — electrolysers, catalysts, and whether the molecule can be made without importing the machine.',
   domain: 'Solar & Clean-Energy Manufacturing',
   edition: 'Strategic Intelligence Series · Q1 2026 · Volume I',
   published: '2026-08-08',
   publishedLabel: 'August 2026',
   readingTime: '~ 2h read',
   status: 'published',
-  summary: 'India has committed ₹19,744 crore to green hydrogen. The question is not whether the molecule can be made, but whether the electrolyser, catalysts, membranes and critical materials can be made domestically. This report maps the machine, the dependency and the path to genuine industrial transformation.',
+  summary: 'Green hydrogen has moved in thirty months from the margins of Indian energy policy to its centre: the National Green Hydrogen Mission committed ₹19,744 crore in January 2023, and the SIGHT scheme (₹17,490 crore — about ₹4,440 crore for electrolyser manufacturing and ~₹13,050 crore for production) targets 5 MMT of green hydrogen and 60 GW of electrolysers by 2030. This strategic-intelligence report argues India has built its policy around the molecule but not the machine. Green hydrogen is a molecule; the electrolyser is the machine that makes it — and the machine depends on catalysts (iridium and platinum, of which India produces zero), PFSA membranes (IP held by three Western firms), and critical materials India barely processes. India’s effective electrolyser output is under 1 GW against China’s ~45 GW, and China holds ~60% of global manufacturing capacity. Across eighteen chapters the report maps the six supply-side vulnerabilities, the LCOH economics, the SIGHT programme, demand across refining/steel/fertiliser, the strategic control points, and three 2035 scenarios — Mirage, Muddle or Machine — with the base case (Muddle) missing the 5 MMT target by ~30%. Fifty-plus data tables, ~24 figures, and a companion data workbook.',
   accent: '#3DD68C',
   access: 'paid',
   price: 4900,
@@ -305,12 +305,31 @@ export const reports: ReportMeta[] = [{
   hasData: true,
   priceWithData: 7900,
   dataFilename: 'Green-Hydrogen-Mirage-or-Machine-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: [],
-  faq: [],
-  sources: ['https://www.meity.gov.in/', 'https://pib.gov.in/'],
-  dateModified: '2026-08-06',
+  keywords: ['india green hydrogen', 'electrolyser manufacturing india', 'national green hydrogen mission', 'SIGHT scheme', 'green hydrogen LCOH india', 'iridium PEM electrolyser', 'PFSA membrane nafion', 'green hydrogen policy india', 'green ammonia india', 'hydrogen steel H2-DRI', 'india hydrogen supply chain', 'hydrogen mirage or machine'],
+  faq: [{
+  a: 'That India has built its green-hydrogen policy around the molecule but not the machine. Green hydrogen is a molecule; the electrolyser is the machine that makes it — and India has a credible programme for the molecule (targets, mission money, offtake) but not yet for the machine (electrolyser manufacturing, catalysts, membranes and critical materials).',
+  q: 'What is the report’s central argument?'
+}, {
+  a: 'The National Green Hydrogen Mission committed ₹19,744 crore (January 2023). Within it, the SIGHT scheme is ₹17,490 crore — about ₹4,440 crore for electrolyser-manufacturing incentives (Component I) and ~₹13,050 crore for green-hydrogen production incentives (Component II) — alongside ₹1,466 crore for pilots and ₹400 crore for R&D.',
+  q: 'How much money has India committed to green hydrogen?'
+}, {
+  a: 'Because the machine depends on layers India does not own: iridium and platinum catalysts (India produces zero of either; global iridium supply is only ~7 tonnes/yr), PFSA (Nafion) membranes whose IP sits with three Western firms, and critical materials India processes at 0–3%. India’s effective electrolyser output is under 1 GW versus China’s ~45 GW.',
+  q: 'Why is the electrolyser the binding constraint?'
+}, {
+  a: 'On the report’s base case — the ‘Muddle’ scenario (55% probability) — India reaches ~3.5 MMT by 2030, about 30% below the 5 MMT target. Only the ‘Machine’ scenario (25%), contingent on four supply-side interventions by 2027, hits ~5.5 MMT on time; the ‘Mirage’ scenario (20%) locks India into grey hydrogen and imports.',
+  q: 'Will India hit its 2030 green-hydrogen targets?'
+}, {
+  a: 'The value-capture layer is in catalysts, membranes, AEM/SOEC deep-tech, and midstream compression and storage — not in commoditised AWE/PEM stack assembly. The report’s explicit ‘avoid’ list is pure-play stack assemblers without differentiated IP and hydrogen-mobility pure-plays.',
+  q: 'Where should investors and builders focus?'
+}],
+  sources: ['National Green Hydrogen Mission / MNRE and PSA documentation (Jan 2023)', 'MNRE SIGHT scheme guidelines', 'IEA Global Hydrogen Review 2025', 'PGM-market pricing sources; BNEF/IRENA hydrogen data', 'Techadyant Labs analysis'],
+  dateModified: '2026-08-08',
   seo: {
-
+  entities: ['green hydrogen', 'electrolyser', 'National Green Hydrogen Mission', 'SIGHT scheme', 'iridium', 'PEM', 'PFSA membrane', 'LCOH', 'green ammonia', 'MNRE'],
+  metaTitle: 'India Green Hydrogen: Mirage or Machine? Electrolyser & Policy Reality (2026)',
+  schemaType: 'Report',
+  focusKeyword: 'india green hydrogen',
+  metaDescription: 'India’s green-hydrogen industrial reality — the NGHM and SIGHT money, electrolyser manufacturing, iridium/platinum catalysts, PFSA membranes, LCOH, and three 2035 scenarios (Mirage, Muddle, Machine).'
 }
 }, {
   slug: 'beyond-solar-panels',
