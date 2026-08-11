@@ -301,6 +301,88 @@ export async function grantEntitlement(env, { userId, email, slug, orderId, tier
   }
 }
 
+// ── Company details (for receipts/invoices) — TechAdyant Private Limited ──
+export const COMPANY = {
+  name: 'TechAdyant Private Limited',
+  brand: 'Techadyant Labs',
+  cin: 'U62099KA2026PTC220459',
+  pan: 'AANCT1174G',
+  gstin: '', // set once GST registration completes -> receipts become GST tax invoices
+  address: 'House No. 550 (A), Datta Galli, Vadagaon, M. Vadgaon, Belagavi (Belgaum) – 590005, Karnataka, India',
+  email: 'info@techadyant.com',
+};
+
+/** Assign (idempotently) an invoice number to a paid order; returns it or null. */
+export async function assignInvoiceNo(env, razorpayOrderId) {
+  try {
+    const r = await fetch(`${env.SUPABASE_URL}/rest/v1/rpc/assign_invoice_no`, {
+      method: 'POST',
+      headers: { apikey: env.SUPABASE_SERVICE_ROLE_KEY, Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`, 'content-type': 'application/json' },
+      body: JSON.stringify({ p_rzp_order: razorpayOrderId }),
+    });
+    if (!r.ok) return null;
+    return await r.json().catch(() => null);
+  } catch { return null; }
+}
+
+/** Send the buyer an order confirmation + receipt via Resend. Fire-and-forget. */
+export async function sendReceiptEmail(env, { email, title, slug, tier, amountInr, invoiceNo, orderId, paymentId }) {
+  if (!env.RESEND_API_KEY || !email) return;
+  const from = env.FROM_EMAIL || 'labs@techadyant.com';
+  const site = env.SITE_URL || 'https://labs.techadyant.com';
+  const tierLabel = String(tier) === 'report_plus_data' ? 'Report + Data' : 'Report';
+  const amt = amountInr != null ? `₹${Number(amountInr).toLocaleString('en-IN')}` : '';
+  const html = `<div style="font-family:Arial,sans-serif;max-width:560px;margin:auto;color:#1a2432">
+    <p style="font-size:18px;font-weight:700;color:#0B1D33;margin:0 0 4px">Techadyant Labs</p>
+    <p style="letter-spacing:2px;font-size:11px;color:#5A7080;margin:0 0 18px">STRATEGIC INTELLIGENCE</p>
+    <p>Thank you for your purchase. Your report is unlocked and ready to download.</p>
+    <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:14px">
+      <tr><td style="padding:6px 0;color:#5A7080">Report</td><td style="padding:6px 0;text-align:right"><b>${title || slug}</b></td></tr>
+      <tr><td style="padding:6px 0;color:#5A7080">Licence</td><td style="padding:6px 0;text-align:right">${tierLabel}</td></tr>
+      <tr><td style="padding:6px 0;color:#5A7080">Amount paid</td><td style="padding:6px 0;text-align:right">${amt}</td></tr>
+      ${invoiceNo ? `<tr><td style="padding:6px 0;color:#5A7080">Invoice</td><td style="padding:6px 0;text-align:right">${invoiceNo}</td></tr>` : ''}
+      <tr><td style="padding:6px 0;color:#5A7080">Payment ID</td><td style="padding:6px 0;text-align:right">${paymentId || ''}</td></tr>
+    </table>
+    <p style="margin:22px 0"><a href="${site}/reports/${slug}/" style="background:#1F5C8C;color:#fff;padding:12px 22px;border-radius:6px;text-decoration:none;font-weight:700">Access your report →</a></p>
+    <p style="font-size:13px;color:#5A7080">Sign in with this email to download the PDF${String(tier) === 'report_plus_data' ? ' and the Excel data pack' : ''} from the report page or your account. Need a formal invoice for your records? Reply to this email.</p>
+    <hr style="border:none;border-top:1px solid #e3e8ee;margin:22px 0">
+    <p style="font-size:11px;color:#8593A6">${COMPANY.name} · CIN ${COMPANY.cin} · ${COMPANY.email}<br>${COMPANY.name} is not presently registered under GST (registration in process); no GST has been charged.</p>
+  </div>`;
+  const text = `Thank you for your purchase.\n\nReport: ${title || slug}\nLicence: ${tierLabel}\nAmount paid: ${amt}\n${invoiceNo ? 'Invoice: ' + invoiceNo + '\n' : ''}Payment ID: ${paymentId || ''}\n\nAccess your report: ${site}/reports/${slug}/\nSign in with this email to download. Reply for a formal invoice.\n\n${COMPANY.name} · ${COMPANY.email}`;
+  try {
+    await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json' },
+      body: JSON.stringify({ from: `Techadyant Labs <${from}>`, to: [email], subject: `Your report is ready${invoiceNo ? ' — Invoice ' + invoiceNo : ''}`, html, text, reply_to: COMPANY.email }),
+    });
+    if (env.INBOX_LABS) {
+      await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json' },
+        body: JSON.stringify({ from: `Techadyant Labs <${from}>`, to: [env.INBOX_LABS], subject: `💰 Sale: ${title || slug} (${tierLabel}) ${amt}`, text: `${email} bought ${slug} [${tier}] ${amt}. Invoice ${invoiceNo || '-'}. Order ${orderId}.` }),
+      });
+    }
+  } catch { /* email must never block the grant */ }
+}
+
+/** Atomically claim the "receipt sent" flag for an order. Returns true exactly once
+ *  (for the first caller), so verify-payment + webhook never double-email. */
+export async function claimReceipt(env, razorpayOrderId) {
+  try {
+    const r = await fetch(
+      `${env.SUPABASE_URL}/rest/v1/orders?razorpay_order_id=eq.${encodeURIComponent(razorpayOrderId)}&receipt_sent_at=is.null`,
+      {
+        method: 'PATCH',
+        headers: { apikey: env.SUPABASE_SERVICE_ROLE_KEY, Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`, 'content-type': 'application/json', Prefer: 'return=representation' },
+        body: JSON.stringify({ receipt_sent_at: new Date().toISOString() }),
+      }
+    );
+    if (!r.ok) return false;
+    const rows = await r.json().catch(() => []);
+    return Array.isArray(rows) && rows.length > 0;
+  } catch { return false; }
+}
+
 /** Read the authoritative tier + slug recorded for a Razorpay order at checkout. */
 export async function getOrder(env, razorpayOrderId) {
   const res = await fetch(

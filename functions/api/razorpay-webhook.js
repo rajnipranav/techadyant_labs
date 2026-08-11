@@ -8,7 +8,7 @@
  * verifies the signature over the RAW body, then marks the order paid and
  * grants the entitlement (idempotent). Never trusts the client.
  */
-import { json, hmacSha256Hex, safeEqual, markOrderPaid, grantEntitlement } from './_shared.js';
+import { REPORTS, json, hmacSha256Hex, safeEqual, markOrderPaid, grantEntitlement, getOrder, assignInvoiceNo, sendReceiptEmail, claimReceipt } from './_shared.js';
 
 export async function onRequestPost(context) {
   const { request, env } = context;
@@ -40,6 +40,20 @@ export async function onRequestPost(context) {
 
     if (orderId) await markOrderPaid(env, orderId, paymentId);
     if (slug && userId) await grantEntitlement(env, { userId, email, slug, orderId: null, tier });
+
+    // Backup path: assign invoice + send receipt exactly once (verify-payment usually
+    // does this first; claimReceipt guarantees the email isn't sent twice).
+    if (orderId && slug && email) {
+      const invoiceNo = await assignInvoiceNo(env, orderId);
+      const ord = await getOrder(env, orderId);
+      const entry = REPORTS[slug] || {};
+      if (await claimReceipt(env, orderId)) {
+        await sendReceiptEmail(env, {
+          email, title: entry.title, slug, tier,
+          amountInr: ord?.amount_inr, invoiceNo, orderId, paymentId,
+        });
+      }
+    }
   }
 
   // Always 200 so Razorpay doesn't retry indefinitely on handled events.

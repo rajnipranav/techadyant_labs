@@ -988,40 +988,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Marvell will invest US$250 million over three years and expand its Bengaluru and Hyderabad presence, doubling Indian headcount to support advanced semiconductor design.', 'The announcement signals a structural shift in India\'s semiconductor role: from manufacturing support and assembly toward global chip architecture, ASIC design, verification and AI accelerator development.', 'The scarce resource is now engineering talent — RTL, physical design, DFT, verification, AI accelerator architecture and high-speed SerDes — which makes semiconductor education and ecosystem development a strategic industry.', 'The Bengaluru–Hyderabad corridor is strengthening as India\'s primary semiconductor design and R&D hub, creating concentrated opportunity for adjacent vendors and institutions.'],
   sources: ['https://www.thehindu.com/business/Industry/semicon-firm-marvell-to-invest-250-mn-in-technology-talent-and-infrastructure-in-india/article71281465.ece', 'https://www.marvell.com/']
 }, {
-  slug: 'critical-manufacturing-dependency-index-launch',
-  no: 'S-024',
-  title: 'India Now Has a Structured Map of Where It Stays Import-Dependent',
-  domain: 'Critical Manufacturing Dependencies',
-  date: '2026-07-31',
-  dateLabel: '31 Jul 2026',
-  status: 'live',
-  excerpt: 'Techadyant\'s new Critical Manufacturing Dependency Index (CMDI) scores India\'s strategic imports on a common ruler — import value, supply risk, strategic importance, industrial multiplier and substitutability — turning a scattered import problem into a rankable, trackable dependency map.',
-  readingTime: '5 min',
-  body: [{
-  text: 'For years India\'s import-dependence has been discussed product by product and headline by headline. The Critical Manufacturing Dependency Index (CMDI) replaces that with one structured instrument: every strategic import is scored 0-100 on the same five weighted variables — import value (0.30), supply risk (0.25), strategic importance (0.20), industrial multiplier (0.15) and substitutability (0.10).',
-  type: 'p'
-}, {
-  text: 'Why a single index matters',
-  type: 'h'
-}, {
-  text: 'A common ruler makes dependencies comparable. A product with a high import bill but many suppliers is a different problem from one with a small bill but a single foreign source. The CMDI separates the two, and pairs each product with a Localization Potential Index (how feasibly India can make it) and an Investment Attractiveness Index (whether the economics work). Together they turn a risk list into a decision tool.',
-  type: 'p'
-}, {
-  text: 'From list to living monitor',
-  type: 'h'
-}, {
-  text: 'Because the index is formula-driven, it can be re-scored as trade data, capacity and policy change — so dependency becomes something you track over time, not a one-off audit. That is the shift the CMDI enables: a repeatable read on where India remains strategically exposed and where the exposure is easing.',
-  type: 'p'
-}, {
-  text: 'What the signal means',
-  type: 'h'
-}, {
-  text: 'The value is not any single score but the framework: it lets capital, policy and industry argue from the same map. The next question it forces is sequencing — which of the highest-scoring dependencies are worth localising first, given that the ones with the greatest strategic weight are often the hardest to build.',
-  type: 'p'
-}],
-  takeaways: ['The CMDI scores strategic imports on one 0-100 ruler (import value, supply risk, strategic importance, industrial multiplier, substitutability), making India\'s dependencies directly comparable for the first time.', 'Paired with a Localization Potential Index and Investment Attractiveness Index, it converts a risk list into a decision tool — separating what is worth localising from what is merely large.', 'Because it is formula-driven, dependency becomes trackable over time rather than a one-off audit — the basis for a recurring national dependency monitor.', 'The hardest dependencies (highest strategic weight) are often the least localisable, so the index\'s real use is sequencing scarce capital and policy.'],
-  sources: ['https://labs.techadyant.com/research/dependencies', 'https://tradestat.commerce.gov.in']
-}, {
   slug: 'india-manufacturing-chokepoints-cmdi',
   no: 'S-025',
   title: 'India\'s Deepest Chokepoints: EUV Photoresist, Leading-Edge Logic and Aero-Engines',
@@ -1055,6 +1021,40 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The highest-dependency products — EUV photoresist (CMDI 95), sub-7nm logic (94), combat aero-engines (92) — are the least localisable (scores 5-28): the core sovereignty mismatch.', 'They share extreme supplier concentration (HHI 4,800-8,200) and single-country sources (Japan, Taiwan, USA), so a cut-off risk outweighs the raw import bill.', 'These are long-horizon, partnership-and-talent bets — attack the narrow chokepoint deliberately rather than chasing volume.', 'A concentrated single-source input can matter more than a far larger import with many suppliers — the index makes that visible.'],
   sources: ['https://tradestat.commerce.gov.in', 'https://labs.techadyant.com/research/dependencies']
+}, {
+  slug: 'critical-manufacturing-dependency-index-launch',
+  no: 'S-024',
+  title: 'India Now Has a Structured Map of Where It Stays Import-Dependent',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-07-31',
+  dateLabel: '31 Jul 2026',
+  status: 'live',
+  excerpt: 'Techadyant\'s new Critical Manufacturing Dependency Index (CMDI) scores India\'s strategic imports on a common ruler — import value, supply risk, strategic importance, industrial multiplier and substitutability — turning a scattered import problem into a rankable, trackable dependency map.',
+  readingTime: '5 min',
+  body: [{
+  text: 'For years India\'s import-dependence has been discussed product by product and headline by headline. The Critical Manufacturing Dependency Index (CMDI) replaces that with one structured instrument: every strategic import is scored 0-100 on the same five weighted variables — import value (0.30), supply risk (0.25), strategic importance (0.20), industrial multiplier (0.15) and substitutability (0.10).',
+  type: 'p'
+}, {
+  text: 'Why a single index matters',
+  type: 'h'
+}, {
+  text: 'A common ruler makes dependencies comparable. A product with a high import bill but many suppliers is a different problem from one with a small bill but a single foreign source. The CMDI separates the two, and pairs each product with a Localization Potential Index (how feasibly India can make it) and an Investment Attractiveness Index (whether the economics work). Together they turn a risk list into a decision tool.',
+  type: 'p'
+}, {
+  text: 'From list to living monitor',
+  type: 'h'
+}, {
+  text: 'Because the index is formula-driven, it can be re-scored as trade data, capacity and policy change — so dependency becomes something you track over time, not a one-off audit. That is the shift the CMDI enables: a repeatable read on where India remains strategically exposed and where the exposure is easing.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'The value is not any single score but the framework: it lets capital, policy and industry argue from the same map. The next question it forces is sequencing — which of the highest-scoring dependencies are worth localising first, given that the ones with the greatest strategic weight are often the hardest to build.',
+  type: 'p'
+}],
+  takeaways: ['The CMDI scores strategic imports on one 0-100 ruler (import value, supply risk, strategic importance, industrial multiplier, substitutability), making India\'s dependencies directly comparable for the first time.', 'Paired with a Localization Potential Index and Investment Attractiveness Index, it converts a risk list into a decision tool — separating what is worth localising from what is merely large.', 'Because it is formula-driven, dependency becomes trackable over time rather than a one-off audit — the basis for a recurring national dependency monitor.', 'The hardest dependencies (highest strategic weight) are often the least localisable, so the index\'s real use is sequencing scarce capital and policy.'],
+  sources: ['https://labs.techadyant.com/research/dependencies', 'https://tradestat.commerce.gov.in']
 }, {
   slug: 'india-build-now-localisation-surfaces',
   no: 'S-026',
@@ -1343,31 +1343,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['IC substrates are one of India\'s deepest chip-stack gaps — no domestic producer, and roughly 70% of the world market held by Shinko, IBIDEN and Unimicron.', 'Intel and 3D Glass Solutions are investing about US$3.3bn in Bhubaneswar-Khurda, Odisha over five to six years — roughly 70,000 glass substrates a year plus assembled units and 3D heterogeneous-integration modules.', 'Glass-core substrates are pre-commercial worldwide (Absolics targeting end-2026, Samsung post-2027, TSMC panel-level ~2028), so India is entering this layer at the frontier rather than a generation behind.', 'Both first movers into India\'s deepest chokepoints — Intel/3DGS in substrates, Fujifilm in process chemicals — are foreign incumbents relocating capacity, not Indian firms entering. Hosting a capability and owning one are different things.'],
   sources: ['https://www.reuters.com/world/india/intel-3dgs-set-up-33-billion-substrate-plant-indias-odisha-state-2026-05-29/', 'https://www.trendforce.com/news/2026/06/01/news-intel-advances-glass-substrate-push-with-3dgs-us3-3-billion-india-plant-set-for-five-to-six-year-buildout/', 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284784', 'https://evertiq.com/design/2026-07-01-fujifilm-partners-with-gujarat-to-boost-chip-materials-manufacturing']
 }, {
-  slug: 'india-indigenous-turbojet-engine',
-  no: 'S-034',
-  title: 'India Builds the Engine Its Loitering Munitions Were Missing',
-  domain: 'Defence & Dual-Use',
-  date: '2026-08-05',
-  dateLabel: '5 Aug 2026',
-  status: 'live',
-  excerpt: 'DRDO\'s first indigenous 350 kg thrust-class expendable turbojet closes a propulsion chokepoint that had capped the range and payload of India\'s cruise missiles and loitering munitions.',
-  readingTime: '2 min',
-  body: [{
-  text: 'DRDO\'s Gas Turbine Research Establishment (GTRE), with Hyderabad-based Azad Engineering as the production partner, has realised India\'s first indigenous expendable turbojet in the 350 kg thrust class. The fully built engine was delivered to GTRE on 22 July 2026.',
-  type: 'p'
-}, {
-  text: 'The significance is not the engine; it is the dependency it removes. Small jet propulsion for expendable platforms — cruise missiles, loitering munitions, target drones — has been one of the layers India could not make, forcing imports or constraining the range and payload of otherwise indigenous systems. Only a handful of countries hold this capability.',
-  type: 'p'
-}, {
-  text: 'This is the propulsion chokepoint from our loitering-munitions and drone work made concrete. An expendable engine must be cheap enough to throw away yet reliable enough to fly once — a harder commercial problem than a reusable one, and the reason a domestic production line matters more than a one-off prototype.',
-  type: 'p'
-}, {
-  text: 'The opening now sits downstream of GTRE: the supplier base for turbine discs, blades, combustors and fuel systems that an expendable engine consumes in volume. A private manufacturer taking the build is the signal to watch — it points to a components ecosystem, not just a lab result.',
-  type: 'p'
-}],
-  takeaways: ['India\'s first indigenous 350 kg thrust-class expendable turbojet was delivered to GTRE on 22 July 2026.', 'Designed by DRDO\'s GTRE and built by Azad Engineering (Hyderabad) — a DRDO-plus-private-industry model.', 'Targets cruise missiles, loitering munitions and UAVs, removing an import chokepoint on range and payload.', 'Value now migrates to the expendable-engine component base — discs, blades, combustors — built for volume.'],
-  sources: ['Organiser (24 Jul 2026): https://organiser.org/2026/07/24/371428/bharat/drdo-develops-indias-first-indigenous-350-kg-thrust-class-expendable-turbojet-engine/', 'IndianWeb2 (Jul 2026): https://www.indianweb2.com/2026/07/india-unveils-first-indigenous-350kg.html', 'BIS Infotech: https://www.bisinfotech.com/drdo-advances-indigenous-aerospace-with-turbojet-engine/']
-}, {
   slug: 'asip-osat-visakhapatnam',
   no: 'S-035',
   title: 'India\'s Chip Strategy Moves From Design Services to a Packaging Line',
@@ -1392,6 +1367,31 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['ASIP Technologies broke ground on a Rs 2,500 cr (~$260M) OSAT plant at Visakhapatnam — South India\'s first ISM-approved unit.', 'Packaging + test (not a fab): wire-bond/FC-BGA now, 2.5D/3D within 2-3 years; ~96M chips/yr; APACT (Korea) as tech partner.', 'Moves India\'s chip play from design services into physical back-end manufacturing.', 'The real opening is the imported materials tail behind OSAT — substrates, bonding wire, moulding compound, gases.'],
   sources: ['Evertiq (4 Aug 2026): https://evertiq.com/news/2026-08-04-asip-breaks-ground-on-260-million-osat-facility-in-india', 'Business Standard (1 Aug 2026): https://www.business-standard.com/india-news/pm-modi-lays-foundation-stone-asip-semiconductor-plant-visakhapatnam-126080100662_1.html', 'The Hans India: https://www.thehansindia.com/news/cities/visakhapatnam/modi-lays-stone-for-souths-1st-ism-approved-chip-unit-in-ap-1104105']
+}, {
+  slug: 'india-indigenous-turbojet-engine',
+  no: 'S-034',
+  title: 'India Builds the Engine Its Loitering Munitions Were Missing',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-05',
+  dateLabel: '5 Aug 2026',
+  status: 'live',
+  excerpt: 'DRDO\'s first indigenous 350 kg thrust-class expendable turbojet closes a propulsion chokepoint that had capped the range and payload of India\'s cruise missiles and loitering munitions.',
+  readingTime: '2 min',
+  body: [{
+  text: 'DRDO\'s Gas Turbine Research Establishment (GTRE), with Hyderabad-based Azad Engineering as the production partner, has realised India\'s first indigenous expendable turbojet in the 350 kg thrust class. The fully built engine was delivered to GTRE on 22 July 2026.',
+  type: 'p'
+}, {
+  text: 'The significance is not the engine; it is the dependency it removes. Small jet propulsion for expendable platforms — cruise missiles, loitering munitions, target drones — has been one of the layers India could not make, forcing imports or constraining the range and payload of otherwise indigenous systems. Only a handful of countries hold this capability.',
+  type: 'p'
+}, {
+  text: 'This is the propulsion chokepoint from our loitering-munitions and drone work made concrete. An expendable engine must be cheap enough to throw away yet reliable enough to fly once — a harder commercial problem than a reusable one, and the reason a domestic production line matters more than a one-off prototype.',
+  type: 'p'
+}, {
+  text: 'The opening now sits downstream of GTRE: the supplier base for turbine discs, blades, combustors and fuel systems that an expendable engine consumes in volume. A private manufacturer taking the build is the signal to watch — it points to a components ecosystem, not just a lab result.',
+  type: 'p'
+}],
+  takeaways: ['India\'s first indigenous 350 kg thrust-class expendable turbojet was delivered to GTRE on 22 July 2026.', 'Designed by DRDO\'s GTRE and built by Azad Engineering (Hyderabad) — a DRDO-plus-private-industry model.', 'Targets cruise missiles, loitering munitions and UAVs, removing an import chokepoint on range and payload.', 'Value now migrates to the expendable-engine component base — discs, blades, combustors — built for volume.'],
+  sources: ['Organiser (24 Jul 2026): https://organiser.org/2026/07/24/371428/bharat/drdo-develops-indias-first-indigenous-350-kg-thrust-class-expendable-turbojet-engine/', 'IndianWeb2 (Jul 2026): https://www.indianweb2.com/2026/07/india-unveils-first-indigenous-350kg.html', 'BIS Infotech: https://www.bisinfotech.com/drdo-advances-indigenous-aerospace-with-turbojet-engine/']
 }, {
   slug: 'india-uk-autonomous-systems-working-group',
   no: 'S-036',
@@ -1617,6 +1617,31 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Uttar Pradesh received investment commitments exceeding Rs 45,000 crore from eight companies in Gautam Buddha Nagar, announced 8 August 2026 (25,000+ direct jobs).', 'HCL-Foxconn, through India Chip Pvt. Ltd., will invest Rs 3,706 crore in a semiconductor unit with special incentives under the state\'s Semiconductor Policy 2024.', 'Ascent Circuits will invest Rs 3,250 crore to manufacture flexible PCBs, high-density interconnect PCBs and semiconductor substrates.', 'SAEL Solar is developing an integrated solar-cell and module facility at Jewar - 5 GW of cells and 5 GW of modules across 200 acres in YEIDA\'s Sector 8.'],
   sources: ['The Financial Express (08 Aug 2026): https://www.financialexpress.com/business/industry-uttar-pradesh-lands-major-investment-commitments-eight-firms-commit-rs-45000-crore-in-semiconductor-green-energy-sectors-4313980/', 'Indian Masterminds (08 Aug 2026): https://indianmasterminds.com/news/uttar-pradesh-rs-45000-crore-investment-hcl-foxconn-avada-222468/']
+}, {
+  slug: 'india-data-centre-capacity-surges-four-fold',
+  no: 'S-045',
+  title: 'India\'s Data-Centre Capacity Quadruples to 1,575 MW on AI Demand',
+  domain: 'AI Infrastructure',
+  date: '2026-08-11',
+  dateLabel: '11 Aug 2026',
+  status: 'live',
+  excerpt: 'India\'s operational data-centre capacity has risen more than four-fold - from about 375 MW in 2020 to roughly 1,575 MW - on AI and high-performance-computing demand, per a Lok Sabha reply. The scale-up advances sovereign compute but concentrates power and water demand in corridors already classified as stressed.',
+  readingTime: '2 min',
+  body: [{
+  text: 'India\'s operational data-centre capacity has risen more than four-fold, from about 375 MW in 2020 to roughly 1,575 MW now, driven by artificial-intelligence and high-performance-computing demand. The figure was given by Minister of State for Electronics & IT Jitin Prasada in a written reply to the Lok Sabha on 5 August 2026, which also noted that the IndiaAI Mission is building a sovereign AI stack - compute, foundation models and indigenous applications - while the government puts in place measures for the environmentally sustainable expansion of AI infrastructure and data centres.',
+  type: 'p'
+}, {
+  text: 'The strategic significance is twofold. First, AI workloads require dense compute, and India\'s earlier capacity constraints limited the scale of domestic model training and inference; a four-fold increase lets hyperscalers and research institutions keep more data and computation within Indian jurisdiction, reinforcing the sovereign-AI narrative. Second, the expansion concentrates additional electricity and water demand - a modern hyperscale data centre draws both continuously - in the same handful of corridors where India\'s digital infrastructure already clusters.',
+  type: 'p'
+}, {
+  text: 'The dependency frame connects directly to the power-and-water constraint. Bengaluru and Hyderabad are both classified by the Central Ground Water Board as over-exploited, and Chennai has experienced Day-Zero conditions. If the build-out continues toward the multi-gigawatt scale projected for 2030 while remaining tied to conventional grid supply in these stressed corridors, AI infrastructure will increasingly compete with residential and agricultural users for the same water and power - the binding constraint is local, not national.',
+  type: 'p'
+}, {
+  text: 'The test to watch is where the next tranche of capacity lands: in water-abundant or renewable-rich corridors such as Gujarat, Rajasthan or the north-eastern states, or in the default clusters around Bengaluru, Hyderabad, Mumbai and Chennai. The government\'s choice of which corridors receive AI-compute incentives will determine whether this surge alleviates or amplifies India\'s infrastructure stress.',
+  type: 'p'
+}],
+  takeaways: ['India\'s data-centre capacity has risen more than four-fold, from ~375 MW (2020) to ~1,575 MW, on AI/HPC demand (Lok Sabha written reply, 5 August 2026).', 'MoS MeitY Jitin Prasada attributed the growth to AI and the IndiaAI Mission\'s sovereign-compute push, with measures flagged for environmentally sustainable expansion.', 'Principal AI corridors face acute water stress - Bengaluru and Hyderabad are CGWB over-exploited; Chennai has seen Day-Zero conditions.', 'The test is whether new capacity concentrates in water-abundant or renewable-rich corridors, or amplifies stress in the metro clusters.'],
+  sources: ['ANI (05 Aug 2026): https://www.aninews.in/news/business/indias-data-centre-capacity-rises-over-four-fold-to-1575-mw-as-ai-demand-accelerates-govt20260805171543/', 'The Tribune (05 Aug 2026): https://www.tribuneindia.com/news/business/indias-data-centre-capacity-rises-over-four-fold-to-1575-mw-as-ai-demand-accelerates-govt/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
