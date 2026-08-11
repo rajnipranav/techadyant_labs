@@ -7,7 +7,7 @@
  * and grants the entitlement immediately (for instant unlock). The webhook is
  * the redundant, authoritative backup in case the browser never returns.
  */
-import { REPORTS, json, getUserFromRequest, hmacSha256Hex, safeEqual, markOrderPaid, grantEntitlement, getOrder, assignInvoiceNo, sendReceiptEmail, claimReceipt } from './_shared.js';
+import { REPORTS, json, getUserFromRequest, hmacSha256Hex, safeEqual, markOrderPaid, grantEntitlement, getOrder, assignInvoiceNo, sendReceiptEmail, claimReceipt, upsertSubscriber } from './_shared.js';
 
 export async function onRequestPost(context) {
   const { request, env } = context;
@@ -42,6 +42,7 @@ export async function onRequestPost(context) {
   // Invoice number + confirmation/receipt email (never block the unlock on these).
   const invoiceNo = await assignInvoiceNo(env, razorpay_order_id);
   const entry = REPORTS[report] || {};
+  await upsertSubscriber(env, user.email, 'purchase');
   if (await claimReceipt(env, razorpay_order_id)) {
     await sendReceiptEmail(env, {
       email: user.email, title: entry.title, slug: report, tier,

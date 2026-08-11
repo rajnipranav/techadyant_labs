@@ -345,6 +345,7 @@ export async function sendReceiptEmail(env, { email, title, slug, tier, amountIn
     </table>
     <p style="margin:22px 0"><a href="${site}/reports/${slug}/" style="background:#1F5C8C;color:#fff;padding:12px 22px;border-radius:6px;text-decoration:none;font-weight:700">Access your report →</a></p>
     <p style="font-size:13px;color:#5A7080">Sign in with this email to download the PDF${String(tier) === 'report_plus_data' ? ' and the Excel data pack' : ''} from the report page or your account. Need a formal invoice for your records? Reply to this email.</p>
+    <p style="font-size:12px;color:#8593A6">As a reader, we'll occasionally email you when a relevant new report or briefing is published. You can unsubscribe at any time.</p>
     <hr style="border:none;border-top:1px solid #e3e8ee;margin:22px 0">
     <p style="font-size:11px;color:#8593A6">${COMPANY.name} · CIN ${COMPANY.cin} · ${COMPANY.email}<br>${COMPANY.name} is not presently registered under GST (registration in process); no GST has been charged.</p>
   </div>`;
@@ -363,6 +364,75 @@ export async function sendReceiptEmail(env, { email, title, slug, tier, amountIn
       });
     }
   } catch { /* email must never block the grant */ }
+}
+
+/** Printable HTML invoice for a paid order. GST-aware: when COMPANY.gstin is set it
+ *  becomes a Tax Invoice with an 18% split; until then it is a plain (non-GST) invoice. */
+export function renderInvoiceHtml({ invoiceNo, dateLabel, buyerEmail, buyerName, title, tier, amountInr, paymentId, orderId }) {
+  const amt = Number(amountInr || 0);
+  const inr = (n) => 'INR ' + Number(n).toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const tierLabel = String(tier) === 'report_plus_data' ? 'Report + Data' : 'Report';
+  const gst = COMPANY.gstin ? amt - amt / 1.18 : 0;
+  const taxable = amt - gst;
+  const isTax = !!COMPANY.gstin;
+  const gstRows = isTax
+    ? `<tr><td class="lbl">Taxable value</td><td class="r">${inr(taxable)}</td></tr>
+       <tr><td class="lbl">GST @ 18%</td><td class="r">${inr(gst)}</td></tr>`
+    : `<tr><td class="lbl">GST</td><td class="r">Not applicable</td></tr>`;
+  const gstNote = isTax
+    ? `GSTIN: ${COMPANY.gstin}. Tax charged under SAC 998431 (online information/database services).`
+    : `${COMPANY.name} is not presently registered under GST (registration in process); accordingly no GST has been charged. A revised GST tax invoice can be issued on request once registration is complete.`;
+  return `<!doctype html><html><head><meta charset="utf-8"><title>Invoice ${invoiceNo || ''}</title><style>
+@page{size:A4;margin:18mm}*{font-family:Arial,Helvetica,sans-serif;color:#1a2432;box-sizing:border-box}
+body{font-size:12px;line-height:1.5;max-width:800px;margin:24px auto;padding:0 16px}
+.top{display:flex;justify-content:space-between;border-bottom:3px solid #1F5C8C;padding-bottom:14px}
+.brand{font-size:20px;font-weight:700;color:#0B1D33}.brand small{display:block;font-size:10px;font-weight:400;color:#5A7080;letter-spacing:2px;margin-top:2px}
+.inv-tag{text-align:right}.inv-tag h1{font-size:22px;margin:0;color:#1F5C8C;letter-spacing:2px}.inv-tag .meta{font-size:12px;color:#5A7080;margin-top:6px}
+.parties{display:flex;justify-content:space-between;margin-top:22px;gap:30px}.box{width:48%}
+.box h3{font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#1F5C8C;margin:0 0 6px}.box p{margin:1px 0}
+table{width:100%;border-collapse:collapse;margin-top:26px}
+th{background:#0B1D33;color:#fff;text-align:left;padding:9px 10px;font-size:10px;text-transform:uppercase}
+td{padding:11px 10px;border-bottom:1px solid #e3e8ee;vertical-align:top}.r{text-align:right}
+.tot{width:60%;margin-left:40%;margin-top:8px}.tot td{border:none;padding:5px 10px}.tot .lbl{text-align:right;color:#5A7080}
+.grand td{border-top:2px solid #1F5C8C;font-size:15px;font-weight:700;color:#0B1D33;padding-top:9px}
+.paid{display:inline-block;background:#0F8E78;color:#fff;padding:4px 12px;border-radius:4px;font-weight:700;letter-spacing:1px;font-size:11px}
+.pay{margin-top:20px;background:#f4f7fa;border:1px solid #e3e8ee;border-radius:6px;padding:12px 14px;font-size:11px}
+.note{margin-top:20px;font-size:10px;color:#5A7080;border-top:1px solid #e3e8ee;padding-top:12px}
+.print{margin:14px 0;font-size:11px}@media print{.print{display:none}}
+</style></head><body>
+<div class="print"><button onclick="window.print()">Print / Save as PDF</button></div>
+<div class="top"><div><div class="brand">${COMPANY.name}<small>TECHADYANT LABS — STRATEGIC INTELLIGENCE</small></div></div>
+<div class="inv-tag"><h1>${isTax ? 'TAX INVOICE' : 'INVOICE'}</h1><div class="meta"><b>Invoice No:</b> ${invoiceNo || '—'}<br><b>Date:</b> ${dateLabel || ''}<br><b>Status:</b> <span class="paid">PAID</span></div></div></div>
+<div class="parties">
+<div class="box"><h3>From</h3><p><b>${COMPANY.name}</b></p><p>${COMPANY.address}</p><p style="margin-top:6px">CIN: ${COMPANY.cin}</p><p>PAN: ${COMPANY.pan}</p><p>GSTIN: ${COMPANY.gstin || 'Not registered (registration in process)'}</p><p>${COMPANY.email}</p></div>
+<div class="box"><h3>Bill To</h3><p><b>${buyerName || (buyerEmail || '').split('@')[0]}</b></p><p>${buyerEmail || ''}</p><p style="margin-top:6px;color:#8593A6">Buyer GSTIN / address: as provided by customer</p></div>
+</div>
+<table><thead><tr><th style="width:64%">Description</th><th class="r">Qty</th><th class="r">Amount (INR)</th></tr></thead>
+<tbody><tr><td><b>${title || ''}</b><br><span style="color:#5A7080">Strategic-intelligence report — <b>${tierLabel}</b> licence (digital delivery).</span></td><td class="r">1</td><td class="r">${amt.toLocaleString('en-IN', { minimumFractionDigits: 2 })}</td></tr></tbody></table>
+<table class="tot"><tr><td class="lbl">Subtotal</td><td class="r">${inr(amt)}</td></tr>${gstRows}<tr class="grand"><td class="lbl">Total Paid</td><td class="r">${inr(amt)}</td></tr></table>
+<div class="pay"><b>Payment received</b> via Razorpay.<br>Payment ID: ${paymentId || '—'} · Order ID: ${orderId || '—'}</div>
+<div class="note">This is a digital product delivered electronically to the purchaser's account at labs.techadyant.com; no physical shipment is made. ${gstNote} This invoice is computer-generated and valid without signature.</div>
+</body></html>`;
+}
+
+/** Add a buyer to the mailing list on purchase (soft opt-in on the customer
+ *  relationship). Idempotent + safe: on_conflict=email with ignore-duplicates, so a
+ *  brand-new email is added but any existing row — including someone who previously
+ *  UNSUBSCRIBED — is left completely untouched. Fire-and-forget. */
+export async function upsertSubscriber(env, email, source = 'purchase') {
+  if (!email) return;
+  try {
+    await fetch(`${env.SUPABASE_URL}/rest/v1/subscribers?on_conflict=email`, {
+      method: 'POST',
+      headers: {
+        apikey: env.SUPABASE_SERVICE_ROLE_KEY,
+        Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
+        'content-type': 'application/json',
+        Prefer: 'resolution=ignore-duplicates,return=minimal',
+      },
+      body: JSON.stringify({ email, source, confirmed: true, confirmed_at: new Date().toISOString() }),
+    });
+  } catch { /* never block the purchase */ }
 }
 
 /** Atomically claim the "receipt sent" flag for an order. Returns true exactly once

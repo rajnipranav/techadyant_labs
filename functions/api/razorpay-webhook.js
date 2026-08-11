@@ -8,7 +8,7 @@
  * verifies the signature over the RAW body, then marks the order paid and
  * grants the entitlement (idempotent). Never trusts the client.
  */
-import { REPORTS, json, hmacSha256Hex, safeEqual, markOrderPaid, grantEntitlement, getOrder, assignInvoiceNo, sendReceiptEmail, claimReceipt } from './_shared.js';
+import { REPORTS, json, hmacSha256Hex, safeEqual, markOrderPaid, grantEntitlement, getOrder, assignInvoiceNo, sendReceiptEmail, claimReceipt, upsertSubscriber } from './_shared.js';
 
 export async function onRequestPost(context) {
   const { request, env } = context;
@@ -44,6 +44,7 @@ export async function onRequestPost(context) {
     // Backup path: assign invoice + send receipt exactly once (verify-payment usually
     // does this first; claimReceipt guarantees the email isn't sent twice).
     if (orderId && slug && email) {
+      await upsertSubscriber(env, email, 'purchase');
       const invoiceNo = await assignInvoiceNo(env, orderId);
       const ord = await getOrder(env, orderId);
       const entry = REPORTS[slug] || {};

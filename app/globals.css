@@ -2390,3 +2390,15 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .dholera-embed .de-head a:hover{text-decoration:underline}
 .dholera-embed iframe{display:block;width:100%;height:640px;border:0;background:#0d1420}
 @media(max-width:860px){.dholera-embed iframe{height:560px}}
+
+/* ── Account / buyer portal library ── */
+.acct-lib{ display:flex; flex-direction:column; gap:12px; margin-top:8px; }
+.acct-item{ display:flex; justify-content:space-between; align-items:center; gap:16px; padding:16px 18px;
+  border:1px solid var(--border, rgba(255,255,255,.12)); border-radius:12px; background:var(--bg-2, rgba(255,255,255,.02)); flex-wrap:wrap; }
+.acct-item-main{ min-width:200px; flex:1; }
+.acct-title{ font-weight:600; font-size:1.02rem; color:var(--text); text-decoration:none; }
+.acct-title:hover{ color:var(--brass, #C9A84C); }
+.acct-meta{ font-size:.8rem; color:var(--text-muted); margin-top:4px; }
+.acct-actions{ display:flex; gap:8px; flex-wrap:wrap; }
+.acct-btn{ padding:8px 14px; font-size:.85rem; }
+@media(max-width:560px){ .acct-item{ flex-direction:column; align-items:flex-start; } .acct-actions{ width:100%; } }
