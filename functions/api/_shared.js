@@ -332,29 +332,85 @@ export async function sendReceiptEmail(env, { email, title, slug, tier, amountIn
   const site = env.SITE_URL || 'https://labs.techadyant.com';
   const tierLabel = String(tier) === 'report_plus_data' ? 'Report + Data' : 'Report';
   const amt = amountInr != null ? `₹${Number(amountInr).toLocaleString('en-IN')}` : '';
-  const html = `<div style="font-family:Arial,sans-serif;max-width:560px;margin:auto;color:#1a2432">
-    <p style="font-size:18px;font-weight:700;color:#0B1D33;margin:0 0 4px">Techadyant Labs</p>
-    <p style="letter-spacing:2px;font-size:11px;color:#5A7080;margin:0 0 18px">STRATEGIC INTELLIGENCE</p>
-    <p>Thank you for your purchase. Your report is unlocked and ready to download.</p>
-    <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:14px">
-      <tr><td style="padding:6px 0;color:#5A7080">Report</td><td style="padding:6px 0;text-align:right"><b>${title || slug}</b></td></tr>
-      <tr><td style="padding:6px 0;color:#5A7080">Licence</td><td style="padding:6px 0;text-align:right">${tierLabel}</td></tr>
-      <tr><td style="padding:6px 0;color:#5A7080">Amount paid</td><td style="padding:6px 0;text-align:right">${amt}</td></tr>
-      ${invoiceNo ? `<tr><td style="padding:6px 0;color:#5A7080">Invoice</td><td style="padding:6px 0;text-align:right">${invoiceNo}</td></tr>` : ''}
-      <tr><td style="padding:6px 0;color:#5A7080">Payment ID</td><td style="padding:6px 0;text-align:right">${paymentId || ''}</td></tr>
-    </table>
-    <p style="margin:22px 0"><a href="${site}/reports/${slug}/" style="background:#1F5C8C;color:#fff;padding:12px 22px;border-radius:6px;text-decoration:none;font-weight:700">Access your report →</a></p>
-    <p style="font-size:13px;color:#5A7080">Sign in with this email to download the PDF${String(tier) === 'report_plus_data' ? ' and the Excel data pack' : ''} from the report page or your account. Need a formal invoice for your records? Reply to this email.</p>
-    <p style="font-size:12px;color:#8593A6">As a reader, we'll occasionally email you when a relevant new report or briefing is published. You can unsubscribe at any time.</p>
-    <hr style="border:none;border-top:1px solid #e3e8ee;margin:22px 0">
-    <p style="font-size:11px;color:#8593A6">${COMPANY.name} · CIN ${COMPANY.cin} · ${COMPANY.email}<br>${COMPANY.name} is not presently registered under GST (registration in process); no GST has been charged.</p>
+  const isData = String(tier) === 'report_plus_data';
+  const host = site.replace(/^https?:\/\//, '');
+  const dataStep = isData
+    ? `<li style="margin-bottom:11px"><b>Download the Excel data pack.</b> Your <b>Report + Data</b> licence includes the full underlying dataset — use the “Data (XLSX)” button next to the report in your library.</li>`
+    : '';
+  const gstFoot = COMPANY.gstin
+    ? `GSTIN: ${COMPANY.gstin}`
+    : `${COMPANY.name} is not presently registered under GST (registration in process); no GST has been charged on this purchase.`;
+  const html = `<div style="font-family:Arial,Helvetica,sans-serif;max-width:600px;margin:auto;color:#1a2432;font-size:15px;line-height:1.6">
+    <div style="border-bottom:3px solid #1F5C8C;padding-bottom:14px;margin-bottom:22px">
+      <div style="font-size:20px;font-weight:700;color:#0B1D33">Techadyant Labs</div>
+      <div style="letter-spacing:2px;font-size:11px;color:#5A7080;margin-top:2px">STRATEGIC INTELLIGENCE</div>
+    </div>
+
+    <p>Thank you for your purchase — your report is unlocked and ready. This email is your receipt and everything you need to access it.</p>
+
+    <div style="background:#f4f7fa;border:1px solid #e3e8ee;border-radius:8px;padding:14px 18px;margin:20px 0">
+      <table style="width:100%;border-collapse:collapse;font-size:14px">
+        <tr><td style="padding:5px 0;color:#5A7080">Report</td><td style="padding:5px 0;text-align:right"><b>${title || slug}</b></td></tr>
+        <tr><td style="padding:5px 0;color:#5A7080">Licence</td><td style="padding:5px 0;text-align:right">${tierLabel}${isData ? ' (PDF + Excel data pack)' : ''}</td></tr>
+        <tr><td style="padding:5px 0;color:#5A7080">Amount paid</td><td style="padding:5px 0;text-align:right">${amt}</td></tr>
+        ${invoiceNo ? `<tr><td style="padding:5px 0;color:#5A7080">Invoice</td><td style="padding:5px 0;text-align:right">${invoiceNo}</td></tr>` : ''}
+        <tr><td style="padding:5px 0;color:#5A7080">Payment ID</td><td style="padding:5px 0;text-align:right">${paymentId || ''}</td></tr>
+      </table>
+    </div>
+
+    <p style="text-align:center;margin:24px 0"><a href="${site}/account/" style="background:#1F5C8C;color:#fff;padding:13px 30px;border-radius:6px;text-decoration:none;font-weight:700;display:inline-block">Go to your library →</a></p>
+
+    <h3 style="color:#0B1D33;font-size:16px;margin:26px 0 10px">How to access your report</h3>
+    <ol style="padding-left:20px;margin:0">
+      <li style="margin-bottom:11px"><b>Sign in with this email address</b> (${email}) at <a href="${site}/account/">${host}/account</a>. Use the same email you purchased with — your access is tied to it.</li>
+      <li style="margin-bottom:11px"><b>Open “Your account”</b> to see your library, with every report you own.</li>
+      <li style="margin-bottom:11px"><b>Download the PDF</b> using the “PDF” button next to the report. The link is personal to your account.</li>
+      ${dataStep}
+      <li style="margin-bottom:11px"><b>Re-download any time.</b> Your access is lifetime — return to your library whenever you need the files again.</li>
+    </ol>
+
+    <h3 style="color:#0B1D33;font-size:16px;margin:26px 0 10px">Your invoice</h3>
+    <p style="margin:0">In your library, click <b>Invoice</b> next to the report — it opens a printable invoice you can save as a PDF. ${COMPANY.gstin ? '' : 'We are completing GST registration; a GST tax invoice can be issued on request once it is live. '}Need anything specific for your records? Just reply to this email.</p>
+
+    <h3 style="color:#0B1D33;font-size:16px;margin:26px 0 10px">Staying in touch</h3>
+    <p style="margin:0">As a reader you’ll occasionally hear from us when a relevant new report or briefing is published — nothing more, and you can unsubscribe from those in one click. Receipts and account emails are always sent regardless.</p>
+
+    <p style="margin:24px 0 0">Questions, or want a walkthrough of the report for your team? Reply here or write to <a href="mailto:${COMPANY.email}">${COMPANY.email}</a>. We read every message.</p>
+
+    <hr style="border:none;border-top:1px solid #e3e8ee;margin:26px 0">
+    <p style="font-size:11px;color:#8593A6;line-height:1.6">
+      ${COMPANY.name} · CIN ${COMPANY.cin} · PAN ${COMPANY.pan}<br>
+      ${COMPANY.address}<br>
+      ${COMPANY.email} · labs.techadyant.com<br>
+      ${gstFoot}
+    </p>
   </div>`;
-  const text = `Thank you for your purchase.\n\nReport: ${title || slug}\nLicence: ${tierLabel}\nAmount paid: ${amt}\n${invoiceNo ? 'Invoice: ' + invoiceNo + '\n' : ''}Payment ID: ${paymentId || ''}\n\nAccess your report: ${site}/reports/${slug}/\nSign in with this email to download. Reply for a formal invoice.\n\n${COMPANY.name} · ${COMPANY.email}`;
+  const text = `Thank you for your purchase — your report is ready.
+
+Report: ${title || slug}
+Licence: ${tierLabel}${isData ? ' (PDF + Excel data pack)' : ''}
+Amount paid: ${amt}
+${invoiceNo ? 'Invoice: ' + invoiceNo + '\n' : ''}Payment ID: ${paymentId || ''}
+
+HOW TO ACCESS
+1. Sign in with this email (${email}) at ${site}/account
+2. Open "Your account" to see your library
+3. Click "PDF" to download the report${isData ? '\n4. Click "Data (XLSX)" to download the data pack' : ''}
+Your access is lifetime — re-download any time.
+
+YOUR INVOICE
+Open ${site}/account and click "Invoice" next to the report to view or print it. Reply to this email if you need anything specific.
+
+You'll occasionally get emails about new reports; unsubscribe any time.
+Questions? Reply here or ${COMPANY.email}.
+
+${COMPANY.name} · CIN ${COMPANY.cin} · ${COMPANY.address} · ${COMPANY.email}
+${gstFoot}`;
   try {
     await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json' },
-      body: JSON.stringify({ from: `Techadyant Labs <${from}>`, to: [email], subject: `Your report is ready${invoiceNo ? ' — Invoice ' + invoiceNo : ''}`, html, text, reply_to: COMPANY.email }),
+      body: JSON.stringify({ from: `Techadyant Labs <${from}>`, to: [email], subject: `Your Techadyant Labs report is ready — access, download & invoice${invoiceNo ? ' · ' + invoiceNo : ''}`, html, text, reply_to: COMPANY.email }),
     });
     if (env.INBOX_LABS) {
       await fetch('https://api.resend.com/emails', {
