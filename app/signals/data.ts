@@ -1343,6 +1343,31 @@ export const signals: SignalMeta[] = [{
   takeaways: ['IC substrates are one of India\'s deepest chip-stack gaps — no domestic producer, and roughly 70% of the world market held by Shinko, IBIDEN and Unimicron.', 'Intel and 3D Glass Solutions are investing about US$3.3bn in Bhubaneswar-Khurda, Odisha over five to six years — roughly 70,000 glass substrates a year plus assembled units and 3D heterogeneous-integration modules.', 'Glass-core substrates are pre-commercial worldwide (Absolics targeting end-2026, Samsung post-2027, TSMC panel-level ~2028), so India is entering this layer at the frontier rather than a generation behind.', 'Both first movers into India\'s deepest chokepoints — Intel/3DGS in substrates, Fujifilm in process chemicals — are foreign incumbents relocating capacity, not Indian firms entering. Hosting a capability and owning one are different things.'],
   sources: ['https://www.reuters.com/world/india/intel-3dgs-set-up-33-billion-substrate-plant-indias-odisha-state-2026-05-29/', 'https://www.trendforce.com/news/2026/06/01/news-intel-advances-glass-substrate-push-with-3dgs-us3-3-billion-india-plant-set-for-five-to-six-year-buildout/', 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284784', 'https://evertiq.com/design/2026-07-01-fujifilm-partners-with-gujarat-to-boost-chip-materials-manufacturing']
 }, {
+  slug: 'india-indigenous-turbojet-engine',
+  no: 'S-034',
+  title: 'India Builds the Engine Its Loitering Munitions Were Missing',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-05',
+  dateLabel: '5 Aug 2026',
+  status: 'live',
+  excerpt: 'DRDO\'s first indigenous 350 kg thrust-class expendable turbojet closes a propulsion chokepoint that had capped the range and payload of India\'s cruise missiles and loitering munitions.',
+  readingTime: '2 min',
+  body: [{
+  text: 'DRDO\'s Gas Turbine Research Establishment (GTRE), with Hyderabad-based Azad Engineering as the production partner, has realised India\'s first indigenous expendable turbojet in the 350 kg thrust class. The fully built engine was delivered to GTRE on 22 July 2026.',
+  type: 'p'
+}, {
+  text: 'The significance is not the engine; it is the dependency it removes. Small jet propulsion for expendable platforms — cruise missiles, loitering munitions, target drones — has been one of the layers India could not make, forcing imports or constraining the range and payload of otherwise indigenous systems. Only a handful of countries hold this capability.',
+  type: 'p'
+}, {
+  text: 'This is the propulsion chokepoint from our loitering-munitions and drone work made concrete. An expendable engine must be cheap enough to throw away yet reliable enough to fly once — a harder commercial problem than a reusable one, and the reason a domestic production line matters more than a one-off prototype.',
+  type: 'p'
+}, {
+  text: 'The opening now sits downstream of GTRE: the supplier base for turbine discs, blades, combustors and fuel systems that an expendable engine consumes in volume. A private manufacturer taking the build is the signal to watch — it points to a components ecosystem, not just a lab result.',
+  type: 'p'
+}],
+  takeaways: ['India\'s first indigenous 350 kg thrust-class expendable turbojet was delivered to GTRE on 22 July 2026.', 'Designed by DRDO\'s GTRE and built by Azad Engineering (Hyderabad) — a DRDO-plus-private-industry model.', 'Targets cruise missiles, loitering munitions and UAVs, removing an import chokepoint on range and payload.', 'Value now migrates to the expendable-engine component base — discs, blades, combustors — built for volume.'],
+  sources: ['Organiser (24 Jul 2026): https://organiser.org/2026/07/24/371428/bharat/drdo-develops-indias-first-indigenous-350-kg-thrust-class-expendable-turbojet-engine/', 'IndianWeb2 (Jul 2026): https://www.indianweb2.com/2026/07/india-unveils-first-indigenous-350kg.html', 'BIS Infotech: https://www.bisinfotech.com/drdo-advances-indigenous-aerospace-with-turbojet-engine/']
+}, {
   slug: 'asip-osat-visakhapatnam',
   no: 'S-035',
   title: 'India\'s Chip Strategy Moves From Design Services to a Packaging Line',
@@ -1393,30 +1418,30 @@ export const signals: SignalMeta[] = [{
   takeaways: ['India and the UK launched an industry-led Autonomous Platforms & Uncrewed Systems Working Group at Farnborough 2026 (6-7 August).', 'It is co-chaired by Sameer Joshi (NewSpace Research and Technologies, India) and Dr Helen Almey (ADS Group, UK), under the UKIBC-SIDM framework.', 'The first of several planned sub-groups under the India-UK Defence Industrial Roadmap / Vision 2035; covers aerial, land and underwater systems, with emphasis on underwater for Indo-Pacific security.', 'Signals co-development and joint R&D over transactional procurement; the value depends on real technology transfer and Indian IP.'],
   sources: ['Raksha Anirveda (05 Aug 2026): https://raksha-anirveda.com/bilateral-defence-tech-cooperation-india-and-uk-launch-autonomous-platforms-and-uncrewed-systems-working-group/', 'IDRW (04 Aug 2026): https://idrw.org/uncrewed-alliance-newspace-ceo-sameer-joshi-named-india-co-chair-of-new-india-uk-autonomous-systems-working-group/', 'Indian Masterminds (04 Aug 2026): https://indianmasterminds.com/news/defence/india-uk-cooperation-autonomous-platforms-uncrewed-systems-working-group-launch-221521/', 'The Print (2026): https://theprint.in/world/new-india-uk-industry-initiative-to-boost-defence-tech-collaboration/2993802/']
 }, {
-  slug: 'india-indigenous-turbojet-engine',
-  no: 'S-034',
-  title: 'India Builds the Engine Its Loitering Munitions Were Missing',
-  domain: 'Defence & Dual-Use',
-  date: '2026-08-05',
-  dateLabel: '5 Aug 2026',
+  slug: 'indiaai-mission-gpu-compute-expansion',
+  no: 'S-038',
+  title: 'India Expands Sovereign AI Compute with 15,916 New GPUs under IndiaAI Mission',
+  domain: 'AI Infrastructure',
+  date: '2026-08-07',
+  dateLabel: '7 Aug 2026',
   status: 'live',
-  excerpt: 'DRDO\'s first indigenous 350 kg thrust-class expendable turbojet closes a propulsion chokepoint that had capped the range and payload of India\'s cruise missiles and loitering munitions.',
+  excerpt: 'The government expanded AI compute under the IndiaAI Mission by 15,916 GPUs - taking the empanelled national pool to 34,333 - and ordered a ~1.1 EFLOPS high-performance system, deepening India\'s push for sovereign compute.',
   readingTime: '2 min',
   body: [{
-  text: 'DRDO\'s Gas Turbine Research Establishment (GTRE), with Hyderabad-based Azad Engineering as the production partner, has realised India\'s first indigenous expendable turbojet in the 350 kg thrust class. The fully built engine was delivered to GTRE on 22 July 2026.',
+  text: 'On August 6, 2026, the Ministry of Electronics & IT highlighted a major expansion of AI compute infrastructure under the IndiaAI Mission, adding 15,916 GPUs to the national compute network. The addition builds on the existing 18,417 empanelled GPUs, taking the common compute pool to 34,333 GPUs, against a stated target of 100,000 GPUs by end-2026. The Government had approved the IndiaAI Mission on March 7, 2024, with a total outlay of Rs. 10,371.92 crore over five years. The initiative has empaneled 15 Compute Service Providers and approved 237 projects for subsidized compute support, sanctioning 93.18 lakh GPU hours. Additionally, a Purchase Order has been issued for a High-Performance AI Compute System of approximately 1.1 EFLOPS at the NIC Data Centre, Shastri Park, Delhi.',
   type: 'p'
 }, {
-  text: 'The significance is not the engine; it is the dependency it removes. Small jet propulsion for expendable platforms — cruise missiles, loitering munitions, target drones — has been one of the layers India could not make, forcing imports or constraining the range and payload of otherwise indigenous systems. Only a handful of countries hold this capability.',
+  text: 'Strategically, this infrastructure build-out addresses India\'s critical dependency on foreign computing resources for advanced AI development. By establishing a sovereign compute grid, India aims to democratize access to high-performance computing for domestic startups, academic institutions, and public-sector entities. The Mission also supports the development of indigenous foundation models; pursuant to a Call for Proposals issued on January 30, 2025, 20 indigenous foundation model proposals (comprising 12 Large Multimodal Models and 8 Small Language Models) have been identified for support, with intellectual property retained by the applicants.',
   type: 'p'
 }, {
-  text: 'This is the propulsion chokepoint from our loitering-munitions and drone work made concrete. An expendable engine must be cheap enough to throw away yet reliable enough to fly once — a harder commercial problem than a reusable one, and the reason a domestic production line matters more than a one-off prototype.',
+  text: 'The dependency frame centres on the global race for GPU capacity and semiconductor self-reliance. India\'s compute ecosystem currently relies on globally sourced GPUs procured through empaneled providers. The expansion of domestic infrastructure is a direct response to supply chain vulnerabilities highlighted by global trade tensions. This aligns with the broader semiconductor strategy, including the Union Cabinet\'s approval of Semicon 2.0 on July 15, 2026, with an outlay of Rs. 1,27,500 crore to accelerate the design and development of Indian-designed chips and expand fabrication units.',
   type: 'p'
 }, {
-  text: 'The opening now sits downstream of GTRE: the supplier base for turbine discs, blades, combustors and fuel systems that an expendable engine consumes in volume. A private manufacturer taking the build is the signal to watch — it points to a components ecosystem, not just a lab result.',
+  text: 'The opportunity lies in establishing India as a globally competitive hub for AI development, less dependent on foreign hardware monopolies. The test to watch is the operational deployment and utilization of the 1.1 EFLOPS HPC system at the NIC Data Centre, and whether the empaneled compute providers can deliver the promised capacity effectively to domestic developers and researchers.',
   type: 'p'
 }],
-  takeaways: ['India\'s first indigenous 350 kg thrust-class expendable turbojet was delivered to GTRE on 22 July 2026.', 'Designed by DRDO\'s GTRE and built by Azad Engineering (Hyderabad) — a DRDO-plus-private-industry model.', 'Targets cruise missiles, loitering munitions and UAVs, removing an import chokepoint on range and payload.', 'Value now migrates to the expendable-engine component base — discs, blades, combustors — built for volume.'],
-  sources: ['Organiser (24 Jul 2026): https://organiser.org/2026/07/24/371428/bharat/drdo-develops-indias-first-indigenous-350-kg-thrust-class-expendable-turbojet-engine/', 'IndianWeb2 (Jul 2026): https://www.indianweb2.com/2026/07/india-unveils-first-indigenous-350kg.html', 'BIS Infotech: https://www.bisinfotech.com/drdo-advances-indigenous-aerospace-with-turbojet-engine/']
+  takeaways: ['The IndiaAI Mission added 15,916 GPUs, taking the empanelled compute pool to 34,333 (target: 100,000 by end-2026).', 'A Purchase Order was issued for a ~1.1 EFLOPS High-Performance AI Compute System at the NIC Data Centre, Delhi.', '20 indigenous foundation model proposals (12 LMMs, 8 SLMs) have been identified for support under the Mission.', 'The Cabinet approved Semicon 2.0 with an outlay of Rs. 1,27,500 crore to boost semiconductor manufacturing.'],
+  sources: ['Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295477', 'Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295483']
 }, {
   slug: 'hindustan-copper-uzbekistan-minerals-partnership',
   no: 'S-039',
@@ -1467,31 +1492,6 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The MoD issued an RFI on August 5, 2026, for 2,715 logistic drones graded by operational altitude.', 'The procurement falls under the Buy (Indian-IDDM) route, favouring indigenous platforms.', 'Drones must integrate NavIC navigation and be hardened against electronic jamming and spoofing.', 'The requirement marks a nearly five-fold increase in drone procurement compared to the 2022 baseline.'],
   sources: ['The Tribune India (06 Aug 2026): https://www.tribuneindia.com/news/defence/army-seeks-over-2700-logistics-drones-for-high-altitude-frontline-supply-missions/', 'India Sentinels (06 Aug 2026): https://www.indiasentinels.com/army/ministry-of-defence-seeks-2715-logistic-drones-for-indian-armys-china-pakistan-border-supply-chain-7553']
-}, {
-  slug: 'indiaai-mission-gpu-compute-expansion',
-  no: 'S-038',
-  title: 'India Expands Sovereign AI Compute with 15,916 New GPUs under IndiaAI Mission',
-  domain: 'AI Infrastructure',
-  date: '2026-08-07',
-  dateLabel: '7 Aug 2026',
-  status: 'live',
-  excerpt: 'The government expanded AI compute under the IndiaAI Mission by 15,916 GPUs - taking the empanelled national pool to 34,333 - and ordered a ~1.1 EFLOPS high-performance system, deepening India\'s push for sovereign compute.',
-  readingTime: '2 min',
-  body: [{
-  text: 'On August 6, 2026, the Ministry of Electronics & IT highlighted a major expansion of AI compute infrastructure under the IndiaAI Mission, adding 15,916 GPUs to the national compute network. The addition builds on the existing 18,417 empanelled GPUs, taking the common compute pool to 34,333 GPUs, against a stated target of 100,000 GPUs by end-2026. The Government had approved the IndiaAI Mission on March 7, 2024, with a total outlay of Rs. 10,371.92 crore over five years. The initiative has empaneled 15 Compute Service Providers and approved 237 projects for subsidized compute support, sanctioning 93.18 lakh GPU hours. Additionally, a Purchase Order has been issued for a High-Performance AI Compute System of approximately 1.1 EFLOPS at the NIC Data Centre, Shastri Park, Delhi.',
-  type: 'p'
-}, {
-  text: 'Strategically, this infrastructure build-out addresses India\'s critical dependency on foreign computing resources for advanced AI development. By establishing a sovereign compute grid, India aims to democratize access to high-performance computing for domestic startups, academic institutions, and public-sector entities. The Mission also supports the development of indigenous foundation models; pursuant to a Call for Proposals issued on January 30, 2025, 20 indigenous foundation model proposals (comprising 12 Large Multimodal Models and 8 Small Language Models) have been identified for support, with intellectual property retained by the applicants.',
-  type: 'p'
-}, {
-  text: 'The dependency frame centres on the global race for GPU capacity and semiconductor self-reliance. India\'s compute ecosystem currently relies on globally sourced GPUs procured through empaneled providers. The expansion of domestic infrastructure is a direct response to supply chain vulnerabilities highlighted by global trade tensions. This aligns with the broader semiconductor strategy, including the Union Cabinet\'s approval of Semicon 2.0 on July 15, 2026, with an outlay of Rs. 1,27,500 crore to accelerate the design and development of Indian-designed chips and expand fabrication units.',
-  type: 'p'
-}, {
-  text: 'The opportunity lies in establishing India as a globally competitive hub for AI development, less dependent on foreign hardware monopolies. The test to watch is the operational deployment and utilization of the 1.1 EFLOPS HPC system at the NIC Data Centre, and whether the empaneled compute providers can deliver the promised capacity effectively to domestic developers and researchers.',
-  type: 'p'
-}],
-  takeaways: ['The IndiaAI Mission added 15,916 GPUs, taking the empanelled compute pool to 34,333 (target: 100,000 by end-2026).', 'A Purchase Order was issued for a ~1.1 EFLOPS High-Performance AI Compute System at the NIC Data Centre, Delhi.', '20 indigenous foundation model proposals (12 LMMs, 8 SLMs) have been identified for support under the Mission.', 'The Cabinet approved Semicon 2.0 with an outlay of Rs. 1,27,500 crore to boost semiconductor manufacturing.'],
-  sources: ['Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295477', 'Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295483']
 }, {
   slug: 'lt-semiconductor-technologies-osat-shift-india',
   no: 'S-040',
@@ -1592,6 +1592,31 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Gujarat\'s Department of Science and Technology, through GSEM, is establishing a ChipIN Extension Centre and VLSI Design CoE at the GTU campus in collaboration with C-DAC.', 'The centre will provide cloud-based access to advanced EDA tools (Cadence, Synopsys, Siemens) to engineering colleges across Gujarat in a phased manner.', 'Students can have chip designs fabricated through the Multi-Project Wafer (MPW) programme - the full journey from design to physical silicon testing.', 'A two-day orientation programme beginning 7 August 2026 drew more than 30 academic institutions, reflecting broad state-level engagement.'],
   sources: ['DeshGujarat (07 Aug 2026): https://deshgujarat.com/2026/08/07/gujarat-govt-gtu-c-dac-partner-to-set-up-chipin-centre-of-excellence-in-vlsi-design/', 'ET Government (08 Aug 2026): https://government.economictimes.indiatimes.com/news/technology/gujarat-to-focus-on-chip-design-to-advance-in-semiconductor-value-chain-setting-up-new-facility/133047778']
+}, {
+  slug: 'uttar-pradesh-lands-45000-crore-semiconductor-solar-investments',
+  no: 'S-044',
+  title: 'Uttar Pradesh Lands Rs 45,000 Crore Across Chips, Electronics and Solar',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-08-10',
+  dateLabel: '10 Aug 2026',
+  status: 'live',
+  excerpt: 'Uttar Pradesh has secured investment commitments exceeding Rs 45,000 crore from eight companies across semiconductor, electronics and renewable-energy sectors, concentrated in Gautam Buddha Nagar. HCL-Foxconn\'s India Chip Pvt. Ltd. will invest Rs 3,706 crore in a semiconductor unit, and Ascent Circuits Rs 3,250 crore for PCBs and semiconductor substrates.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Uttar Pradesh has secured investment commitments exceeding Rs 45,000 crore from eight companies, concentrated primarily in Gautam Buddha Nagar. The commitments span semiconductor manufacturing, electronics, renewable energy and advanced manufacturing, and are expected to generate more than 25,000 direct jobs. The tally was confirmed by the state government\'s Invest UP portal and reported by The Financial Express and Indian Masterminds on 8 August 2026. The companies involved include HCL-Foxconn (through India Chip Pvt. Ltd.), Avaada Electro, Amber Enterprises, SAEL Solar, Oriana Power, CESC Green Power, Ascent Circuits and IB Solar.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in the sectoral composition. While renewable energy accounts for the largest share, at over Rs 32,000 crore, the semiconductor and electronics component is a meaningful addition to India\'s domestic supply chain. HCL-Foxconn\'s India Chip Pvt. Ltd. will invest Rs 3,706 crore in a semiconductor unit (a display-driver chip facility already approved under the India Semiconductor Mission), creating about 3,000 jobs, with special incentives under Uttar Pradesh\'s Semiconductor Policy 2024. Ascent Circuits will invest Rs 3,250 crore to manufacture flexible printed circuit boards, high-density interconnect PCBs and semiconductor substrates - components essential for mobile phones, automotive systems and consumer electronics.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is notable. Gautam Buddha Nagar - encompassing Noida, Greater Noida and Jewar - is emerging as a counterweight to Karnataka and Gujarat in India\'s semiconductor geography. The region already hosts Samsung\'s mobile-manufacturing facility and is now attracting semiconductor and PCB-substrate investment. SAEL Solar\'s integrated solar-cell and module facility at Jewar, with planned capacity of 5 GW of cells and 5 GW of modules across 200 acres in YEIDA\'s Sector 8, further deepens the industrial ecosystem. The convergence of semiconductor, electronics and solar manufacturing in a single district creates supply-chain synergies that reduce dependence on imported components and finished goods.',
+  type: 'p'
+}, {
+  text: 'The test to watch is execution speed. Six of the eight projects have been assisted under the Industrial Investment and Employment Promotion (IIEP) Policy 2022, while HCL-Foxconn draws special incentives under the Semiconductor Policy 2024 intended to accelerate approvals. The state\'s single-window clearance system will be tested against the complexity of semiconductor construction - specialised infrastructure, cleanroom requirements and technology-transfer arrangements. If executed on schedule, this cluster could establish Uttar Pradesh as India\'s third major semiconductor hub after Gujarat and Karnataka.',
+  type: 'p'
+}],
+  takeaways: ['Uttar Pradesh received investment commitments exceeding Rs 45,000 crore from eight companies in Gautam Buddha Nagar, announced 8 August 2026 (25,000+ direct jobs).', 'HCL-Foxconn, through India Chip Pvt. Ltd., will invest Rs 3,706 crore in a semiconductor unit with special incentives under the state\'s Semiconductor Policy 2024.', 'Ascent Circuits will invest Rs 3,250 crore to manufacture flexible PCBs, high-density interconnect PCBs and semiconductor substrates.', 'SAEL Solar is developing an integrated solar-cell and module facility at Jewar - 5 GW of cells and 5 GW of modules across 200 acres in YEIDA\'s Sector 8.'],
+  sources: ['The Financial Express (08 Aug 2026): https://www.financialexpress.com/business/industry-uttar-pradesh-lands-major-investment-commitments-eight-firms-commit-rs-45000-crore-in-semiconductor-green-energy-sectors-4313980/', 'Indian Masterminds (08 Aug 2026): https://indianmasterminds.com/news/uttar-pradesh-rs-45000-crore-investment-hcl-foxconn-avada-222468/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

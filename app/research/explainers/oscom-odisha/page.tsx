@@ -149,7 +149,7 @@ export default function OscomOdishaPage() {
             To dive deeper into India’s critical minerals and rare earths supply chain, explore our dedicated intelligence resources:
           </p>
           <div style={{ display: 'grid', gap: 12, marginTop: 16 }}>
-            <Link href="/research/players/irel-india-limited/" className="atlas-path" style={{ display: 'block' }}>
+            <Link href="/research/entities/irel-india-limited/" className="atlas-path" style={{ display: 'block' }}>
               <strong>IREL (India) Limited Company Profile →</strong>
               <p style={{ margin: '4px 0 0 0', fontSize: '0.9rem', color: 'var(--fg-dim)' }}>Trace IREL’s corporate structure, facility locations, and mineral processing output.</p>
             </Link>
