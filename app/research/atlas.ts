@@ -40,6 +40,7 @@ export const CORRIDOR_META: Record<string, CorridorMeta> = {
   ai_infrastructure:   { code: 'ai_infrastructure',   slug: 'ai-infrastructure',   accent: '#38E1C4', tagline: 'Compute, power and the silicon every Indian data centre imports.' },
   defence:             { code: 'defence',             slug: 'defence',             accent: '#FB923C', tagline: 'Indigenous platforms riding on foreign engines and electronics.' },
   enterprise_software: { code: 'enterprise_software', slug: 'enterprise-software', accent: '#818CF8', tagline: 'The software stack running Indian industry — and who owns each layer.' },
+  ai_medtech:          { code: 'ai_medtech',          slug: 'ai-medtech',          accent: '#34D399', tagline: 'India writes the medical AI; the imaging hardware that feeds it is imported.' },
 };
 
 export const STATUS_COLORS: string[] = ['#B23B3B', '#C2603A', '#C99A3A', '#9AA63A', '#4FA88B', '#2F8F7F'];

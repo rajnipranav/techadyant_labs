@@ -11,6 +11,7 @@ export const PILLAR_THESIS: Record<string, string> = {
   ai_infrastructure: 'India is building data centres at scale, yet the compute, memory and silicon inside them are almost entirely imported.',
   defence: 'India integrates world-class platforms on a subsystem base — engines, seekers, RF electronics — it does not yet own.',
   enterprise_software: 'The software stack running Indian industry — ERP, cloud and databases — is overwhelmingly foreign-owned, layer by layer.',
+  ai_medtech: 'India has world-class medical-AI software, but every X-ray tube, detector, image sensor and GPU that produces the data it reads is imported.',
 };
 
 export const PILLAR_SLUGS: string[] = Object.values(CORRIDOR_META).map((m) => m.slug);

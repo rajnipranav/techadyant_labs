@@ -75,65 +75,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Assembly, test and packaging (ATMP/OSAT) is the layer most exposed to near-term ramp risk.', 'Substrate, lead-frame and high-purity chemical supply are thin and largely imported.', 'Packaging capacity, not wafer starts, is the more realistic 2026–28 employment story.'],
   sources: ['https://www.meity.gov.in/content/semiconductor', 'https://www.india.gov.in/']
 }, {
-  slug: 'ai-opportunity-surfaces-india',
-  no: 'S-005',
-  title: 'Eight opportunity surfaces from India’s AI infrastructure cycle',
-  domain: 'Industrial Opportunity',
-  date: '2026-05-29',
-  dateLabel: '29 May 2026',
-  status: 'live',
-  excerpt: 'India’s AI infrastructure cycle creates a ₹80,000–150,000 crore aggregate Indian-vendor opportunity through 2030. ₹28,000–60,000 crore of it is addressable to SMEs. Eight industrial segments capture most of it.',
-  readingTime: '5 min',
-  body: [{
-  text: 'India’s AI infrastructure cycle is the largest single addressable opportunity of the decade for Indian industrial equipment and services. The aggregate Indian-vendor opportunity through 2030 sums to ₹80,000–150,000 crore (USD 10–18 billion) across eight industrial segments, of which ₹28,000–60,000 crore is addressable to SMEs across three accessibility tiers.',
-  type: 'p'
-}, {
-  text: 'The eight segments',
-  type: 'h'
-}, {
-  type: 'list',
-  items: ['Industrial cooling and HVAC: ₹7,500–36,000 crore cumulative through 2030; Indian capture 35–55% (Voltas, Blue Star, Carrier-Midea India, Eureka Forbes Industrial, Thermax).', 'Semiconductor-grade specialty gases: by 2032 ₹5,000–7,500 crore per year market; Indian capture 40–55% (Linde India, Inox Air Products) — ₹2,000–4,000 crore per year by 2032.', 'Edge AI infrastructure deployment in 30–50 Tier-2 cities: ₹10,000–45,000 crore capex through 2030 — most accessible category to Indian system integrators.', 'AI-enabled industrial automation: ₹25,000–60,000 crore through 2030 (Indian share of USD 12–18 billion market).', 'Cleanroom systems and precision construction: ₹5,000–15,000 crore through 2032 (Praj, L&T, Tata Projects, Macawber Beekay, Astha Cleantech).', 'Power conditioning and DC-side electricals: ₹25,000–50,000 crore cumulative; Indian capture 40–60%.', 'Specialty industrial software and platforms: ₹12,000–25,000 crore through 2030; Indian capture 50–65%.', 'Fibre deployment and structured cabling: ₹17,000–33,000 crore cumulative; Indian capture 70–85% (Sterlite, Aksh, Polycab, KEI).']
-}, {
-  text: 'SME participation',
-  type: 'h'
-}, {
-  text: 'Tier 1 (ready now, 0–24 months, low capital): rack and cabinet fabrication, structured cabling, fibre splicing, HVAC duct fabrication, security-system integration, BESS installation, basic cleanroom commissioning — ₹8,000–15,000 crore through 2030 distributed across thousands of small contractors. Tier 2 (build within 24 months, medium capital, technology validation): chiller assembly and CDU integration, precision piping for UPW and process gases (with Stainless 316L welding certifications), industrial-monitoring sensors, edge IoT devices, micro-DC turnkey 50–500 kW boxes, time-sensitive OT networking, thermal management subsystems — ₹12,000–25,000 crore through 2030 across 200–500 mid-tier suppliers. Tier 3 (build through partnership, 3–5 year cycle): substrate fabrication (ABF, FCBGA), semiconductor consumables (precision masks, sputter targets, photoresists), UPW plant components (membranes, RO, EDI), process chemicals — ₹8,000–20,000 crore through 2030 across 50–200 high-skill specialist suppliers.',
-  type: 'p'
-}, {
-  text: 'For the segment-by-segment quantification, the SME Opportunity Stack tiers, and the four policy interventions that would unlock SME participation, see Section 30A of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
-  type: 'p'
-}],
-  takeaways: ['Cooling and HVAC for AI infrastructure: ₹7,500–36,000 crore cumulative through 2030, Indian-vendor capture 35–55% by 2030.', 'Industrial automation: Indian-vendor share of a USD 12–18 billion market by 2030 — ₹25,000–60,000 crore through 2030.', 'Edge AI infrastructure across 30–50 Tier-2 cities: ₹10,000–45,000 crore capex, the most accessible category to Indian system integrators.'],
-  sources: ['https://www.india.gov.in/', 'https://www.meity.gov.in/']
-}, {
-  slug: 'visakhapatnam-coastal-ai',
-  no: 'S-006',
-  title: 'The Visakhapatnam coastal-AI thesis',
-  domain: 'AI Infrastructure',
-  date: '2026-05-29',
-  dateLabel: '29 May 2026',
-  status: 'live',
-  excerpt: 'The 71% concentration of India’s submarine-cable capacity at Mumbai and Chennai is the single largest geographic risk to Indian AI infrastructure. Visakhapatnam is the one project that materially diversifies it.',
-  readingTime: '4 min',
-  body: [{
-  text: 'The geography of AI inference is decided by latency. Below ~50 ms end-to-end the difference is imperceptible; above 100 ms it becomes noticeable; above 200 ms real-time agentic workflows degrade. The latency budget pulls inference toward coastal cities where submarine cables land. India operates 17 international submarine cables across 16-17 cable landing stations. Mumbai hosts eight CLS; Chennai four. Combined, those two cities hold approximately 71% of national CLS capacity — the single largest geographic risk to Indian AI infrastructure.',
-  type: 'p'
-}, {
-  text: 'The strategic opening is Visakhapatnam. The Sify-led Open CLS at Visakhapatnam is the regulatory foundation; the AdaniConneX 200 MW → 1 GW campus is the platform; the Google AI hub of USD 15 billion across 2026–2030 (three Madhurawada tech-zone campuses, gigawatt-scale electricity, 100% renewable energy commitment, AdaniConneX scaling to 1 GW, Airtel-Nxtra partner role, associated subsea cable and clean-energy investment) is the economic anchor. Groundbreaking was April 2026.',
-  type: 'p'
-}, {
-  text: 'Why it matters',
-  type: 'h'
-}, {
-  text: 'By 2030 Visakhapatnam could plausibly hold 8–12% of national CLS capacity, materially diversifying coastal-fibre concentration. The water position is the most favourable of any rising-corridor district — Visakhapatnam is coastal with potential for captive desalination; CGWB stress classifications are benign relative to Bengaluru, Hyderabad or Chennai. APERC’s FY26 tariff order held rates flat with a ₹12,632 crore state subsidy. The bet is concentrated and binary: if Google-Adani executes on schedule, AP is transformed; if it slips 12–24 months, geographic concentration in Mumbai-Chennai persists.',
-  type: 'p'
-}, {
-  text: 'For the corridor profile, the readiness-matrix score, and the relationship to the Sricity electronics cluster, see Section 25 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
-  type: 'p'
-}],
-  takeaways: ['The AdaniConneX Visakhapatnam platform scales from 200 MW initial to 1 GW AI-ready capacity (Adani Group commitment ≈ USD 10 billion / ₹83,000 crore).', 'The associated Google AI hub is USD 15 billion over 2026–2030 across three Madhurawada tech-zone campuses, with a 100% renewable energy commitment and Sify-led Open CLS as the regulatory foundation.', 'Visakhapatnam’s water position (coastal, desalination-eligible, lower CGWB stress) is more favourable than any inland corridor city. The transmission build-out (dedicated 400 kV lines from southern AP) is the principal area of execution risk.'],
-  sources: ['https://pib.gov.in/PressReleasePage.aspx?PRID=2134567', 'https://www.meity.gov.in/']
-}, {
   slug: 'advanced-packaging-binding-constraint',
   no: 'S-007',
   title: 'Advanced packaging is India’s binding AI constraint',
@@ -198,6 +139,65 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['No Indian corridor is strong on all six axes (compute, power, water, fibre, semiconductor adjacency, talent). Every regional bet involves a structural trade-off.', 'Karnataka has the talent and policy depth but not the water. Tamil Nadu has electronics manufacturing and coastal-fibre but tightening water. Gujarat has the semiconductors but not the data centres. Andhra Pradesh is rising fastest on Google-Adani Visakhapatnam.', 'Capital allocation across Indian corridors is a portfolio choice, not a single bet. The binding constraint in each corridor is different — and is the right unit of policy and execution.'],
   sources: ['https://www.meity.gov.in/content/semiconductor', 'https://www.india.gov.in/']
+}, {
+  slug: 'ai-opportunity-surfaces-india',
+  no: 'S-005',
+  title: 'Eight opportunity surfaces from India’s AI infrastructure cycle',
+  domain: 'Industrial Opportunity',
+  date: '2026-05-29',
+  dateLabel: '29 May 2026',
+  status: 'live',
+  excerpt: 'India’s AI infrastructure cycle creates a ₹80,000–150,000 crore aggregate Indian-vendor opportunity through 2030. ₹28,000–60,000 crore of it is addressable to SMEs. Eight industrial segments capture most of it.',
+  readingTime: '5 min',
+  body: [{
+  text: 'India’s AI infrastructure cycle is the largest single addressable opportunity of the decade for Indian industrial equipment and services. The aggregate Indian-vendor opportunity through 2030 sums to ₹80,000–150,000 crore (USD 10–18 billion) across eight industrial segments, of which ₹28,000–60,000 crore is addressable to SMEs across three accessibility tiers.',
+  type: 'p'
+}, {
+  text: 'The eight segments',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Industrial cooling and HVAC: ₹7,500–36,000 crore cumulative through 2030; Indian capture 35–55% (Voltas, Blue Star, Carrier-Midea India, Eureka Forbes Industrial, Thermax).', 'Semiconductor-grade specialty gases: by 2032 ₹5,000–7,500 crore per year market; Indian capture 40–55% (Linde India, Inox Air Products) — ₹2,000–4,000 crore per year by 2032.', 'Edge AI infrastructure deployment in 30–50 Tier-2 cities: ₹10,000–45,000 crore capex through 2030 — most accessible category to Indian system integrators.', 'AI-enabled industrial automation: ₹25,000–60,000 crore through 2030 (Indian share of USD 12–18 billion market).', 'Cleanroom systems and precision construction: ₹5,000–15,000 crore through 2032 (Praj, L&T, Tata Projects, Macawber Beekay, Astha Cleantech).', 'Power conditioning and DC-side electricals: ₹25,000–50,000 crore cumulative; Indian capture 40–60%.', 'Specialty industrial software and platforms: ₹12,000–25,000 crore through 2030; Indian capture 50–65%.', 'Fibre deployment and structured cabling: ₹17,000–33,000 crore cumulative; Indian capture 70–85% (Sterlite, Aksh, Polycab, KEI).']
+}, {
+  text: 'SME participation',
+  type: 'h'
+}, {
+  text: 'Tier 1 (ready now, 0–24 months, low capital): rack and cabinet fabrication, structured cabling, fibre splicing, HVAC duct fabrication, security-system integration, BESS installation, basic cleanroom commissioning — ₹8,000–15,000 crore through 2030 distributed across thousands of small contractors. Tier 2 (build within 24 months, medium capital, technology validation): chiller assembly and CDU integration, precision piping for UPW and process gases (with Stainless 316L welding certifications), industrial-monitoring sensors, edge IoT devices, micro-DC turnkey 50–500 kW boxes, time-sensitive OT networking, thermal management subsystems — ₹12,000–25,000 crore through 2030 across 200–500 mid-tier suppliers. Tier 3 (build through partnership, 3–5 year cycle): substrate fabrication (ABF, FCBGA), semiconductor consumables (precision masks, sputter targets, photoresists), UPW plant components (membranes, RO, EDI), process chemicals — ₹8,000–20,000 crore through 2030 across 50–200 high-skill specialist suppliers.',
+  type: 'p'
+}, {
+  text: 'For the segment-by-segment quantification, the SME Opportunity Stack tiers, and the four policy interventions that would unlock SME participation, see Section 30A of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
+  type: 'p'
+}],
+  takeaways: ['Cooling and HVAC for AI infrastructure: ₹7,500–36,000 crore cumulative through 2030, Indian-vendor capture 35–55% by 2030.', 'Industrial automation: Indian-vendor share of a USD 12–18 billion market by 2030 — ₹25,000–60,000 crore through 2030.', 'Edge AI infrastructure across 30–50 Tier-2 cities: ₹10,000–45,000 crore capex, the most accessible category to Indian system integrators.'],
+  sources: ['https://www.india.gov.in/', 'https://www.meity.gov.in/']
+}, {
+  slug: 'visakhapatnam-coastal-ai',
+  no: 'S-006',
+  title: 'The Visakhapatnam coastal-AI thesis',
+  domain: 'AI Infrastructure',
+  date: '2026-05-29',
+  dateLabel: '29 May 2026',
+  status: 'live',
+  excerpt: 'The 71% concentration of India’s submarine-cable capacity at Mumbai and Chennai is the single largest geographic risk to Indian AI infrastructure. Visakhapatnam is the one project that materially diversifies it.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The geography of AI inference is decided by latency. Below ~50 ms end-to-end the difference is imperceptible; above 100 ms it becomes noticeable; above 200 ms real-time agentic workflows degrade. The latency budget pulls inference toward coastal cities where submarine cables land. India operates 17 international submarine cables across 16-17 cable landing stations. Mumbai hosts eight CLS; Chennai four. Combined, those two cities hold approximately 71% of national CLS capacity — the single largest geographic risk to Indian AI infrastructure.',
+  type: 'p'
+}, {
+  text: 'The strategic opening is Visakhapatnam. The Sify-led Open CLS at Visakhapatnam is the regulatory foundation; the AdaniConneX 200 MW → 1 GW campus is the platform; the Google AI hub of USD 15 billion across 2026–2030 (three Madhurawada tech-zone campuses, gigawatt-scale electricity, 100% renewable energy commitment, AdaniConneX scaling to 1 GW, Airtel-Nxtra partner role, associated subsea cable and clean-energy investment) is the economic anchor. Groundbreaking was April 2026.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'By 2030 Visakhapatnam could plausibly hold 8–12% of national CLS capacity, materially diversifying coastal-fibre concentration. The water position is the most favourable of any rising-corridor district — Visakhapatnam is coastal with potential for captive desalination; CGWB stress classifications are benign relative to Bengaluru, Hyderabad or Chennai. APERC’s FY26 tariff order held rates flat with a ₹12,632 crore state subsidy. The bet is concentrated and binary: if Google-Adani executes on schedule, AP is transformed; if it slips 12–24 months, geographic concentration in Mumbai-Chennai persists.',
+  type: 'p'
+}, {
+  text: 'For the corridor profile, the readiness-matrix score, and the relationship to the Sricity electronics cluster, see Section 25 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
+  type: 'p'
+}],
+  takeaways: ['The AdaniConneX Visakhapatnam platform scales from 200 MW initial to 1 GW AI-ready capacity (Adani Group commitment ≈ USD 10 billion / ₹83,000 crore).', 'The associated Google AI hub is USD 15 billion over 2026–2030 across three Madhurawada tech-zone campuses, with a 100% renewable energy commitment and Sify-led Open CLS as the regulatory foundation.', 'Visakhapatnam’s water position (coastal, desalination-eligible, lower CGWB stress) is more favourable than any inland corridor city. The transmission build-out (dedicated 400 kV lines from southern AP) is the principal area of execution risk.'],
+  sources: ['https://pib.gov.in/PressReleasePage.aspx?PRID=2134567', 'https://www.meity.gov.in/']
 }, {
   slug: 'netrasemi-a2000-edge-ai-silicon',
   no: 'S-012',
@@ -638,6 +638,49 @@ export const signals: SignalMeta[] = [{
   takeaways: ['The significance is not the Rs 1.27 lakh crore - it is the explicit move from anchor-investment attraction (Semicon 1.0) to complete-ecosystem building across six pillars.', 'Pillar two - machines, materials, chemicals and gases - is the quiet centre of gravity: the equipment and specialty-chemical layers most analysts ignore.', 'The opportunity surfaces are heavily SME-shaped: precision machining, cleanroom systems, gas and ultrapure-water handling, metrology, CMP consumables and wafer-handling automation.', 'Semicon 2.0 validates the Atlas thesis - semiconductor competitiveness is an industrial-stack question, from design IP to specialty chemicals to equipment.'],
   sources: ['https://pib.gov.in/', 'https://www.business-standard.com/industry/news/cabinet-clears-india-semiconductor-mission-2-mobile-manufacturing-126071500754_1.html', 'https://swarajyamag.com/tech/what-is-semicon-20-inside-indias-rs-127-lakh-crore-six-pillar-strategy-to-become-a-major-global-semiconductor-player', 'https://www.dqindia.com/semiconductors/cabinet-approves-semicon-20-government-delivers-on-commitment-for-long-term-policy-support-to-semiconductors-in-india-12166952']
 }, {
+  slug: 'high-purity-minerals-for-semiconductors',
+  no: 'S-019',
+  title: 'High-Purity Minerals Enter the Semiconductor Feedstock Chain',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-07-19',
+  dateLabel: '19 July 2026',
+  status: 'live',
+  excerpt: 'Gallium, germanium, electronic-grade chemicals and high-purity targets are the quiet dependencies beneath every fab. China already accounts for the dominant share of refining; India is building the demand side without the supply base.',
+  readingTime: '7 min',
+  body: [{
+  text: 'When analysts write about semiconductor supply chains they describe the fab: the lithography, deposition and etch tools, the cleanroom, the wafer starts and the packaging lines. What they leave out is the feedstock chemistry that sits upstream of all of that — the 99.9999% pure gases, the sputtering targets, the photoresists, the CVD precursors, the high-purity gallium and germanium. Without those inputs, the most expensive fab in the world produces nothing.',
+  type: 'p'
+}, {
+  text: 'Gallium and germanium',
+  type: 'h'
+}, {
+  text: 'China produces the overwhelming majority of primary gallium and germanium metal and compounds. In 2023 it introduced export licences and then export restrictions on both, precisely because they are inputs into infrared optics, semiconductors and advanced substrates rather than end products. India has modest bauxite and coal-based germanium by-product streams but no high-scale refining or 7N–7N5 purity upgrading.',
+  type: 'p'
+}, {
+  text: 'From minerals to chips',
+  type: 'h'
+}, {
+  text: 'High-purity gallium is used to make GaAs and GaN substrates for RF, power and optoelectronic devices. Germanium enters silicon-germanium alloys for advanced logic and image sensors. Electronic-grade sulfuric acid, hydrogen peroxide and isopropanol are consumed in wafer cleaning in kilogram-per-wafer quantities. CMP slurries and photoresists are applied at every critical layer. These are not exotic niche inputs; they are the consumables that a running fab cannot run out of.',
+  type: 'p'
+}, {
+  text: 'The Indian opportunity',
+  type: 'h'
+}, {
+  text: 'India\'s semiconductor demand is set by the Ministry of Electronics and IT\'s own projections — USD 450–500 billion electronics output by 2029–30, with semiconductor consumption scaling from an estimated USD 20–25 billion today toward USD 60–80 billion by 2030. The materials that feed that demand are almost entirely imported. A domestic high-purity chemicals and metals base would serve every announced fab and OSAT simultaneously, giving it a market anchor from day one.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Any gallium or germanium refining capacity announcements — even pilot-scale — as a leading indicator of strategic intent.', 'Whether DST/MeitY R&D funding for electronic-grade chemicals translates into pilot plants rather than publications.', 'Import volumes of electronic-grade acids, solvents, photoresists and high-purity metals from Korea, Japan and Taiwan.', 'Whether Indian fabs and OSATs sign long-term offtake agreements for domestic high-purity feedstock before commissioning.', 'Technology-transfer deals with Japanese, Korean or European specialty-chemical firms that include know-how rather than only equipment supply.']
+}, {
+  text: 'Semiconductor competitiveness is decided layer by layer, and the materials layer is the one India currently imports almost completely. The question is not whether India can build fabs; it is whether it builds the chemistry the fabs consume.',
+  type: 'p'
+}],
+  takeaways: ['High-purity gallium, germanium, electronic-grade chemicals and CMP consumables are the quiet dependencies beneath every fab and OSAT line.', 'China dominates refining and purification of these materials; India has the demand but not the supply base.', 'A domestic high-purity materials sector would serve every Indian fab and OSAT simultaneously, making it a natural anchor investment in Semicon 2.0\'s second pillar.'],
+  sources: ['https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf', 'https://www.iea.org/policies/17893-announcement-on-the-implementation-of-export-control-of-items-related-to-gallium-and-germanium', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary']
+}, {
   slug: 'magnet-free-motors-rare-earth-value-chain',
   no: 'S-023',
   title: 'Magnet-Free Motors Could Redraw India\'s Rare-Earth Value Chain',
@@ -681,48 +724,51 @@ export const signals: SignalMeta[] = [{
   takeaways: ['A rare-earth-free motor is a supply-chain signal, not an EV story: it can bend the demand curve for the rare-earth → magnet → motor chain that China dominates (~91% refining, ~94% magnets).', 'India is hedging both ways — funding domestic magnets (₹7,280 cr REPM) and designing the magnet out — and the two should be run as one materials-resilience strategy, not competing bets.', 'Magnet-free relocates value from materials to power electronics and motor-control software — the stack India should own if substitution scales.'],
   sources: ['https://electrek.co/2026/07/13/vimag-labs-magnet-free-ev-motor-patent/', 'https://gulfnews.com/technology/indian-startup-patents-rare-earth-free-electric-motor-for-evs-challenging-chinas-supply-chain-dominance-1.500609670', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-7280-crore-scheme-to-promote-manufacturing-of-sintered-rare-earth-permanent-magnets-repm/']
 }, {
-  slug: 'refinery-equipment-technology-transfer',
-  no: 'S-020',
-  title: 'The Refinery Equipment and Technology-Transfer Layer Beneath Mineral Processing',
-  domain: 'Industrial Infrastructure & Manufacturing',
+  slug: 'india-asia-mineral-processing-hub',
+  no: 'S-022',
+  title: 'Can India Be Asia\'s Mineral-Processing Hub?',
+  domain: 'Critical Minerals & Economic Geography',
   date: '2026-07-19',
   dateLabel: '19 July 2026',
   status: 'live',
-  excerpt: 'Mineral processing plants are built by EPC contractors using proprietary separation technology. The equipment and know-how beneath every refinery announcement is the real leverage point — and the surface where Indian industry can compete.',
-  readingTime: '7 min',
+  excerpt: 'India has the ore, the energy-transition demand and the policy intent. Whether it can become the processing hub for Asian critical minerals depends on three execution bets — refinery policy, partner selection and talent — rather than geology.',
+  readingTime: '8 min',
   body: [{
-  text: 'Every announcement of a lithium refinery, rare-earth separation plant or high-purity chemical facility conceals a second story: the origin of the technology and the identity of the EPC contractor. A solvent-extraction train for lithium carbonate with 99.5% purity is not commodity civil engineering. It is proprietary column design, mixer-settler hydraulics, solvent chemistry, impurity profiles and controls logic — usually held by a small number of specialists in Europe, Japan and China.',
+  text: 'The prevailing framing treats India as a minerals consumer or, at best, an upstream miner. The different question is whether India can capture the midstream: the refining, separation and high-purity chemical production that every manufacturer in Asia needs but that is currently concentrated in one geography. The answer is structurally plausible but execution-conditional — three bets decide it.',
   type: 'p'
 }, {
-  text: 'The equipment stack',
+  text: 'The base case',
+  type: 'h'
+}, {
+  text: 'India has multiple advantages that most prospective processing hubs lack. It has domestic critical-mineral deposits plus long-term access to Australian, African and South American feedstock; cheap domestic coal and increasingly cheap solar power; a large domestic demand pull from semiconductors, EV, defence and AI infrastructure; and a policy architecture that treats critical minerals as strategic. It also has one structural disadvantage: the midstream talent base is small, the technology is proprietary, and the incumbent in China has 25 years of scale learning.',
+  type: 'p'
+}, {
+  text: 'The three execution bets',
   type: 'h'
 }, {
   type: 'list',
-  items: ['Solvent extraction: mixer-settlers, pulse and packed columns, centrifugal contactors — lead times 12–18 months.', 'Hydrometallurgical reactors: autoclaves, pressure leach vessels, thickeners, filters — pressure-vessel codes, corrosion alloys.', 'Ion exchange and chromatography: specialised resins, guard columns, elution systems.', 'Crystallisation and drying: forced-circulation crystallisers, spray dryers, fluidised beds.', 'Process control: SCADA, analysers, inline ICP-OES for quality assurance.', 'Utilities: ultrapure water, clean steam, nitrogen blanketing, waste-neutralisation circuits.']
+  items: ['Refinery policy — whether India attaches domestic-value-addition conditions to mineral imports and critical-minerals auctions, or treats processing as a private-sector decision.', 'Partner selection — whether technology-transfer partnerships are structured as genuine capability build or as black-box equipment supply with Indian civil works.', 'Talent — whether India builds a refinery-chemistry and hydromet-engineering pipeline in the 18–36 month window that the first-generation plants need, or imports operation teams for a decade.']
 }, {
-  text: 'The European case',
+  text: 'The competitive set',
   type: 'h'
 }, {
-  text: 'The reference to European technology is an example of the broader pattern, not the story itself. Several mid-tier hydromet and solvent-extraction specialists in Europe and Japan have proven technology for lithium, REE and battery-metal streams. What matters is not their nationality; it is whether the Indian partner structure transfers enough know-how to replicate and improve the plant without recurring foreign support, or whether it becomes a black-box dependency.',
+  text: 'Indonesia, Chile, Australia and Canada are all pursuing midstream lithium and nickel capacity with different success. Indonesia used export bans to force nickel refining domestic; the result was significant investment, but also a WTO dispute and environmental critique. Chile and Australia have the ore and a growing refining base but not the downstream chemistry. Canada has the critical-minerals policy but not yet the scale. India is entering this field later but with the largest single demand pool in Asia and the most capital-efficient power position.',
   type: 'p'
 }, {
-  text: 'The Indian opportunity',
+  text: 'Three scenarios',
   type: 'h'
 }, {
-  text: 'Large EPC and process-engineering firms already deliver turnkey process plants domestically. The gap is not basic EPC capability. The gap is the know-how layer: proprietary separation chemistry, metallurgical process design, and the ability to operate and tune complex hydromet circuits at commercial scale. Firms that capture that capability now, through JV technology-acquisition or systematic reverse-engineering of first-generation plants, will own the repeat-order layer when the second and third Indian refineries are bid.',
+  text: 'Base case — 35% probability: India builds 10–15 mtpa equivalent critical-mineral processing capacity by 2035, anchored by domestic demand but not enough to serve regional markets meaningfully. Accelerated case — 25% probability: India attaches processing mandates to mineral concessions, signs technology-transfer partnerships, and graduates 1,000+ hydromet and separation engineers by 2030. Stalled case — 40% probability: Refinery announcements outrun execution; first-generation plants miss yield and cost targets; the hub aspiration remains unrealised.',
   type: 'p'
 }, {
-  text: 'What to watch',
+  text: 'The verdict',
   type: 'h'
 }, {
-  type: 'list',
-  items: ['EPC/technology-licensing announcements for lithium, REE and high-purity metal refineries.', 'Whether JV structures include technology-transfer clauses, local engineering content commitments and training mandates.', 'Indian instrumentation and control firms entering the hydromet stack — a leading indicator of domestic capability depth.', 'The durability of first-generation refineries: ramp rates, yield performance and solvent-management records are the metrics to watch, not groundbreaking photographs.']
-}, {
-  text: 'The picks-and-shovels layer is where the repeatable Indian industrial capability is built. Mine ownership is a one-off; refinery equipment and engineering know-how is a durable, exportable platform.',
+  text: 'India can be Asia\'s processing hub in the same way it can be a semiconductor manufacturer: it is not a geology question, it is a policy, technology-transfer and execution question. The minerals are here. The market is here. The policy intent is here. What is missing is the deliberate midstream architecture that connects those three things into an industrial system.',
   type: 'p'
 }],
-  takeaways: ['Every refinery announcement hides a second story — the origin of the separation technology and the identity of the EPC contractor.', 'The equipment and know-how layer — solvent extraction, hydromet, ion exchange, crystallisation — is the real leverage point and where Indian industry can build durable advantage.', 'Technology transfer, not just equipment supply, is the metric that separates genuine capability build from another import-dependent greenfield.'],
-  sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
+  takeaways: ['India has a structurally plausible path to becoming Asia\'s critical-mineral processing hub; the constraint is execution, not ore or demand.', 'Three bets decide the outcome: processing mandates in mineral policy, genuine technology-transfer partnerships, and a hydromet/separation-chemistry talent pipeline.', 'Indonesia shows what export-linked processing mandates can achieve in 3–5 years; India has better power and a larger domestic market but less coercive policy instruments.'],
+  sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds592_e.htm', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
 }, {
   slug: 'battery-materials-processing-india',
   no: 'S-021',
@@ -766,6 +812,49 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Cathode active material, precursor synthesis and battery-grade lithium/cobalt/nickel refining hold most of the cell-chain value and most of the import risk.', 'India has EV, stationary-storage and defence-electric demand that can anchor upstream chemistry investments — if offtake contracts are credible.', 'The sequence that matters is chemistry first, cells second: without domestic active material, gigafactories remain assembly dependency.'],
   sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
+}, {
+  slug: 'refinery-equipment-technology-transfer',
+  no: 'S-020',
+  title: 'The Refinery Equipment and Technology-Transfer Layer Beneath Mineral Processing',
+  domain: 'Industrial Infrastructure & Manufacturing',
+  date: '2026-07-19',
+  dateLabel: '19 July 2026',
+  status: 'live',
+  excerpt: 'Mineral processing plants are built by EPC contractors using proprietary separation technology. The equipment and know-how beneath every refinery announcement is the real leverage point — and the surface where Indian industry can compete.',
+  readingTime: '7 min',
+  body: [{
+  text: 'Every announcement of a lithium refinery, rare-earth separation plant or high-purity chemical facility conceals a second story: the origin of the technology and the identity of the EPC contractor. A solvent-extraction train for lithium carbonate with 99.5% purity is not commodity civil engineering. It is proprietary column design, mixer-settler hydraulics, solvent chemistry, impurity profiles and controls logic — usually held by a small number of specialists in Europe, Japan and China.',
+  type: 'p'
+}, {
+  text: 'The equipment stack',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Solvent extraction: mixer-settlers, pulse and packed columns, centrifugal contactors — lead times 12–18 months.', 'Hydrometallurgical reactors: autoclaves, pressure leach vessels, thickeners, filters — pressure-vessel codes, corrosion alloys.', 'Ion exchange and chromatography: specialised resins, guard columns, elution systems.', 'Crystallisation and drying: forced-circulation crystallisers, spray dryers, fluidised beds.', 'Process control: SCADA, analysers, inline ICP-OES for quality assurance.', 'Utilities: ultrapure water, clean steam, nitrogen blanketing, waste-neutralisation circuits.']
+}, {
+  text: 'The European case',
+  type: 'h'
+}, {
+  text: 'The reference to European technology is an example of the broader pattern, not the story itself. Several mid-tier hydromet and solvent-extraction specialists in Europe and Japan have proven technology for lithium, REE and battery-metal streams. What matters is not their nationality; it is whether the Indian partner structure transfers enough know-how to replicate and improve the plant without recurring foreign support, or whether it becomes a black-box dependency.',
+  type: 'p'
+}, {
+  text: 'The Indian opportunity',
+  type: 'h'
+}, {
+  text: 'Large EPC and process-engineering firms already deliver turnkey process plants domestically. The gap is not basic EPC capability. The gap is the know-how layer: proprietary separation chemistry, metallurgical process design, and the ability to operate and tune complex hydromet circuits at commercial scale. Firms that capture that capability now, through JV technology-acquisition or systematic reverse-engineering of first-generation plants, will own the repeat-order layer when the second and third Indian refineries are bid.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['EPC/technology-licensing announcements for lithium, REE and high-purity metal refineries.', 'Whether JV structures include technology-transfer clauses, local engineering content commitments and training mandates.', 'Indian instrumentation and control firms entering the hydromet stack — a leading indicator of domestic capability depth.', 'The durability of first-generation refineries: ramp rates, yield performance and solvent-management records are the metrics to watch, not groundbreaking photographs.']
+}, {
+  text: 'The picks-and-shovels layer is where the repeatable Indian industrial capability is built. Mine ownership is a one-off; refinery equipment and engineering know-how is a durable, exportable platform.',
+  type: 'p'
+}],
+  takeaways: ['Every refinery announcement hides a second story — the origin of the separation technology and the identity of the EPC contractor.', 'The equipment and know-how layer — solvent extraction, hydromet, ion exchange, crystallisation — is the real leverage point and where Indian industry can build durable advantage.', 'Technology transfer, not just equipment supply, is the metric that separates genuine capability build from another import-dependent greenfield.'],
+  sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
 }, {
   slug: 'mineral-security-to-processing-thesis',
   no: 'S-017',
@@ -850,95 +939,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['China holds roughly 90% of global rare-earth separation and the dominant share of sintered NdFeB output — India imports all of its magnet-grade REM feed.', 'India has monazite and beach-sand resources and DAE separation capability for light REMs, but no commercial heavy-RE or sintered NdFeB capacity.', 'Defence drones, military robotics, EV traction and industrial automation translate rare-earth availability into a direct strategic-capability question.'],
   sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-rare-earths.pdf', 'https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-7280-crore-scheme-to-promote-manufacturing-of-sintered-rare-earth-permanent-magnets-repm/']
 }, {
-  slug: 'high-purity-minerals-for-semiconductors',
-  no: 'S-019',
-  title: 'High-Purity Minerals Enter the Semiconductor Feedstock Chain',
-  domain: 'Semiconductor Ecosystems',
-  date: '2026-07-19',
-  dateLabel: '19 July 2026',
-  status: 'live',
-  excerpt: 'Gallium, germanium, electronic-grade chemicals and high-purity targets are the quiet dependencies beneath every fab. China already accounts for the dominant share of refining; India is building the demand side without the supply base.',
-  readingTime: '7 min',
-  body: [{
-  text: 'When analysts write about semiconductor supply chains they describe the fab: the lithography, deposition and etch tools, the cleanroom, the wafer starts and the packaging lines. What they leave out is the feedstock chemistry that sits upstream of all of that — the 99.9999% pure gases, the sputtering targets, the photoresists, the CVD precursors, the high-purity gallium and germanium. Without those inputs, the most expensive fab in the world produces nothing.',
-  type: 'p'
-}, {
-  text: 'Gallium and germanium',
-  type: 'h'
-}, {
-  text: 'China produces the overwhelming majority of primary gallium and germanium metal and compounds. In 2023 it introduced export licences and then export restrictions on both, precisely because they are inputs into infrared optics, semiconductors and advanced substrates rather than end products. India has modest bauxite and coal-based germanium by-product streams but no high-scale refining or 7N–7N5 purity upgrading.',
-  type: 'p'
-}, {
-  text: 'From minerals to chips',
-  type: 'h'
-}, {
-  text: 'High-purity gallium is used to make GaAs and GaN substrates for RF, power and optoelectronic devices. Germanium enters silicon-germanium alloys for advanced logic and image sensors. Electronic-grade sulfuric acid, hydrogen peroxide and isopropanol are consumed in wafer cleaning in kilogram-per-wafer quantities. CMP slurries and photoresists are applied at every critical layer. These are not exotic niche inputs; they are the consumables that a running fab cannot run out of.',
-  type: 'p'
-}, {
-  text: 'The Indian opportunity',
-  type: 'h'
-}, {
-  text: 'India\'s semiconductor demand is set by the Ministry of Electronics and IT\'s own projections — USD 450–500 billion electronics output by 2029–30, with semiconductor consumption scaling from an estimated USD 20–25 billion today toward USD 60–80 billion by 2030. The materials that feed that demand are almost entirely imported. A domestic high-purity chemicals and metals base would serve every announced fab and OSAT simultaneously, giving it a market anchor from day one.',
-  type: 'p'
-}, {
-  text: 'What to watch',
-  type: 'h'
-}, {
-  type: 'list',
-  items: ['Any gallium or germanium refining capacity announcements — even pilot-scale — as a leading indicator of strategic intent.', 'Whether DST/MeitY R&D funding for electronic-grade chemicals translates into pilot plants rather than publications.', 'Import volumes of electronic-grade acids, solvents, photoresists and high-purity metals from Korea, Japan and Taiwan.', 'Whether Indian fabs and OSATs sign long-term offtake agreements for domestic high-purity feedstock before commissioning.', 'Technology-transfer deals with Japanese, Korean or European specialty-chemical firms that include know-how rather than only equipment supply.']
-}, {
-  text: 'Semiconductor competitiveness is decided layer by layer, and the materials layer is the one India currently imports almost completely. The question is not whether India can build fabs; it is whether it builds the chemistry the fabs consume.',
-  type: 'p'
-}],
-  takeaways: ['High-purity gallium, germanium, electronic-grade chemicals and CMP consumables are the quiet dependencies beneath every fab and OSAT line.', 'China dominates refining and purification of these materials; India has the demand but not the supply base.', 'A domestic high-purity materials sector would serve every Indian fab and OSAT simultaneously, making it a natural anchor investment in Semicon 2.0\'s second pillar.'],
-  sources: ['https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf', 'https://www.iea.org/policies/17893-announcement-on-the-implementation-of-export-control-of-items-related-to-gallium-and-germanium', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary']
-}, {
-  slug: 'india-asia-mineral-processing-hub',
-  no: 'S-022',
-  title: 'Can India Be Asia\'s Mineral-Processing Hub?',
-  domain: 'Critical Minerals & Economic Geography',
-  date: '2026-07-19',
-  dateLabel: '19 July 2026',
-  status: 'live',
-  excerpt: 'India has the ore, the energy-transition demand and the policy intent. Whether it can become the processing hub for Asian critical minerals depends on three execution bets — refinery policy, partner selection and talent — rather than geology.',
-  readingTime: '8 min',
-  body: [{
-  text: 'The prevailing framing treats India as a minerals consumer or, at best, an upstream miner. The different question is whether India can capture the midstream: the refining, separation and high-purity chemical production that every manufacturer in Asia needs but that is currently concentrated in one geography. The answer is structurally plausible but execution-conditional — three bets decide it.',
-  type: 'p'
-}, {
-  text: 'The base case',
-  type: 'h'
-}, {
-  text: 'India has multiple advantages that most prospective processing hubs lack. It has domestic critical-mineral deposits plus long-term access to Australian, African and South American feedstock; cheap domestic coal and increasingly cheap solar power; a large domestic demand pull from semiconductors, EV, defence and AI infrastructure; and a policy architecture that treats critical minerals as strategic. It also has one structural disadvantage: the midstream talent base is small, the technology is proprietary, and the incumbent in China has 25 years of scale learning.',
-  type: 'p'
-}, {
-  text: 'The three execution bets',
-  type: 'h'
-}, {
-  type: 'list',
-  items: ['Refinery policy — whether India attaches domestic-value-addition conditions to mineral imports and critical-minerals auctions, or treats processing as a private-sector decision.', 'Partner selection — whether technology-transfer partnerships are structured as genuine capability build or as black-box equipment supply with Indian civil works.', 'Talent — whether India builds a refinery-chemistry and hydromet-engineering pipeline in the 18–36 month window that the first-generation plants need, or imports operation teams for a decade.']
-}, {
-  text: 'The competitive set',
-  type: 'h'
-}, {
-  text: 'Indonesia, Chile, Australia and Canada are all pursuing midstream lithium and nickel capacity with different success. Indonesia used export bans to force nickel refining domestic; the result was significant investment, but also a WTO dispute and environmental critique. Chile and Australia have the ore and a growing refining base but not the downstream chemistry. Canada has the critical-minerals policy but not yet the scale. India is entering this field later but with the largest single demand pool in Asia and the most capital-efficient power position.',
-  type: 'p'
-}, {
-  text: 'Three scenarios',
-  type: 'h'
-}, {
-  text: 'Base case — 35% probability: India builds 10–15 mtpa equivalent critical-mineral processing capacity by 2035, anchored by domestic demand but not enough to serve regional markets meaningfully. Accelerated case — 25% probability: India attaches processing mandates to mineral concessions, signs technology-transfer partnerships, and graduates 1,000+ hydromet and separation engineers by 2030. Stalled case — 40% probability: Refinery announcements outrun execution; first-generation plants miss yield and cost targets; the hub aspiration remains unrealised.',
-  type: 'p'
-}, {
-  text: 'The verdict',
-  type: 'h'
-}, {
-  text: 'India can be Asia\'s processing hub in the same way it can be a semiconductor manufacturer: it is not a geology question, it is a policy, technology-transfer and execution question. The minerals are here. The market is here. The policy intent is here. What is missing is the deliberate midstream architecture that connects those three things into an industrial system.',
-  type: 'p'
-}],
-  takeaways: ['India has a structurally plausible path to becoming Asia\'s critical-mineral processing hub; the constraint is execution, not ore or demand.', 'Three bets decide the outcome: processing mandates in mineral policy, genuine technology-transfer partnerships, and a hydromet/separation-chemistry talent pipeline.', 'Indonesia shows what export-linked processing mandates can achieve in 3–5 years; India has better power and a larger domestic market but less coercive policy instruments.'],
-  sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds592_e.htm', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
-}, {
   slug: 'marvell-india-semiconductor-design',
   no: 'S-023',
   title: 'Marvell\'s US$250 Million India Investment Reinforces India\'s Emergence as a Global Semiconductor Design Hub',
@@ -988,39 +988,39 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Marvell will invest US$250 million over three years and expand its Bengaluru and Hyderabad presence, doubling Indian headcount to support advanced semiconductor design.', 'The announcement signals a structural shift in India\'s semiconductor role: from manufacturing support and assembly toward global chip architecture, ASIC design, verification and AI accelerator development.', 'The scarce resource is now engineering talent — RTL, physical design, DFT, verification, AI accelerator architecture and high-speed SerDes — which makes semiconductor education and ecosystem development a strategic industry.', 'The Bengaluru–Hyderabad corridor is strengthening as India\'s primary semiconductor design and R&D hub, creating concentrated opportunity for adjacent vendors and institutions.'],
   sources: ['https://www.thehindu.com/business/Industry/semicon-firm-marvell-to-invest-250-mn-in-technology-talent-and-infrastructure-in-india/article71281465.ece', 'https://www.marvell.com/']
 }, {
-  slug: 'india-manufacturing-chokepoints-cmdi',
-  no: 'S-025',
-  title: 'India\'s Deepest Chokepoints: EUV Photoresist, Leading-Edge Logic and Aero-Engines',
+  slug: 'india-eight-structural-gaps-dependency',
+  no: 'S-030',
+  title: 'Eight Structural Gaps Decide Whether India\'s Dependency Actually Falls',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
   dateLabel: '31 Jul 2026',
   status: 'live',
-  excerpt: 'The products that score highest on dependency — EUV photoresists (CMDI 95), sub-7nm logic ICs (94) and combat aero-engine turbofans (92) — are precisely the ones India can least localise in the near term (localisation scores of 5-28), a mismatch that defines the sovereignty problem.',
+  excerpt: 'Below the product-level dependencies sit eight economy-wide gaps — manufacturing R&D at 0.3% of GDP versus Germany\'s 2.8%, a 500,000-worker skills shortfall, thin test-and-certification capacity, costlier project finance and absence from RCEP and CPTPP — that constrain every localisation attempt, with a ₹1.14 lakh crore fix identified.',
   readingTime: '5 min',
   body: [{
-  text: 'At the top of the dependency ranking sit products where India has almost no domestic capability: EUV photoresists (CMDI 95, supplier concentration HHI 8,200, Japan), logic ICs at 7nm and below (CMDI 94, Taiwan), and combat aero-engine turbofans (CMDI 92, United States). Each combines a high import bill, an extremely concentrated supplier base and deep strategic weight.',
+  text: 'Product-level dependency is downstream of a few structural conditions. Eight recur across sectors: an ecosystem gap (incentives target products, not the layers beneath), a talent gap (a shortage of roughly 500,000 skilled manufacturing workers), an R&D gap (manufacturing R&D at 0.3% of manufacturing GDP against Germany\'s 2.8% and Korea\'s 3.5%), a test-and-certification gap (6-12 month delays, certification done abroad), a capital gap (project finance 200-300 basis points costlier than China or Vietnam), an FTA gap (outside RCEP and CPTPP, EU and UK deals unsigned), a cluster-coordination gap, and an industrial-AI gap.',
   type: 'p'
 }, {
-  text: 'The chokepoint mismatch',
+  text: 'Why these bind',
   type: 'h'
 }, {
-  text: 'What makes these chokepoints, not just imports, is that their Localization Potential is the lowest on the board — 5 for EUV resist, 8 for leading-edge logic, 28 for aero-engines. The things India most needs to make are the things it is least ready to make. Chasing them first burns capital on the slowest wins.',
+  text: 'Each gap raises the cost or lowers the feasibility of localising anything. Cheap foreign finance and mature ecosystems are why the same plant pencils out abroad and not in India; weak test-cert adds months and dollars to every qualification; missing FTAs hand a tariff disadvantage to Vietnam and Mexico. These are horizontal constraints — fixing them lifts every dependency at once, which no single product incentive can.',
   type: 'p'
 }, {
-  text: 'Localise the chokepoint, not the volume',
+  text: 'The fix has a price tag',
   type: 'h'
 }, {
-  text: 'The strategic reading is to attack the narrow, high-leverage chokepoints deliberately and over a long horizon (technology partnerships, talent, patient capital), while not mistaking a large but substitutable import for a genuine vulnerability. A concentrated single-source input worth a few hundred million dollars can matter more than a multi-billion-dollar import with many suppliers.',
+  text: 'The identified incremental budget to close the gaps is about ₹1,14,500 crore over FY2026-30 — a large but bounded number, and small against the recurring import bill it is meant to reduce. The point is that dependency reduction is as much about these enabling conditions as about any marquee factory.',
   type: 'p'
 }, {
   text: 'What the signal means',
   type: 'h'
 }, {
-  text: 'These are Position-early or Watch bets, not quick wins — worth pursuing for sovereignty reasons but not expected to pay back fast. The near-term returns live elsewhere: dependencies that are still high but far more localisable.',
+  text: 'Track the horizontal reforms — an R&D uplift, a manufacturing-skills programme, national test-cert infrastructure, the UK and EU FTAs — as leading indicators. Movement there will do more for dependency across the board than another product-specific scheme.',
   type: 'p'
 }],
-  takeaways: ['The highest-dependency products — EUV photoresist (CMDI 95), sub-7nm logic (94), combat aero-engines (92) — are the least localisable (scores 5-28): the core sovereignty mismatch.', 'They share extreme supplier concentration (HHI 4,800-8,200) and single-country sources (Japan, Taiwan, USA), so a cut-off risk outweighs the raw import bill.', 'These are long-horizon, partnership-and-talent bets — attack the narrow chokepoint deliberately rather than chasing volume.', 'A concentrated single-source input can matter more than a far larger import with many suppliers — the index makes that visible.'],
-  sources: ['https://tradestat.commerce.gov.in', 'https://labs.techadyant.com/research/dependencies']
+  takeaways: ['Eight economy-wide gaps constrain every localisation attempt: ecosystem, talent (~500K shortfall), R&D (0.3% vs Germany 2.8%/Korea 3.5%), test-cert, capital, FTAs, clusters, industrial AI.', 'They are horizontal — costlier finance, weak test-cert and missing FTAs raise the cost or lower the feasibility of localising anything, so fixing them lifts all dependencies at once.', 'The identified fix is ~₹1.14 lakh crore over FY2026-30 — large but bounded, and small against the recurring import bill it targets.', 'The horizontal reforms (R&D uplift, skills, national test-cert, UK/EU FTAs) are the leading indicators to watch — they move dependency more than any single product scheme.'],
+  sources: ['https://www.pib.gov.in', 'https://labs.techadyant.com/research/dependencies']
 }, {
   slug: 'critical-manufacturing-dependency-index-launch',
   no: 'S-024',
@@ -1055,6 +1055,40 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The CMDI scores strategic imports on one 0-100 ruler (import value, supply risk, strategic importance, industrial multiplier, substitutability), making India\'s dependencies directly comparable for the first time.', 'Paired with a Localization Potential Index and Investment Attractiveness Index, it converts a risk list into a decision tool — separating what is worth localising from what is merely large.', 'Because it is formula-driven, dependency becomes trackable over time rather than a one-off audit — the basis for a recurring national dependency monitor.', 'The hardest dependencies (highest strategic weight) are often the least localisable, so the index\'s real use is sequencing scarce capital and policy.'],
   sources: ['https://labs.techadyant.com/research/dependencies', 'https://tradestat.commerce.gov.in']
+}, {
+  slug: 'india-manufacturing-chokepoints-cmdi',
+  no: 'S-025',
+  title: 'India\'s Deepest Chokepoints: EUV Photoresist, Leading-Edge Logic and Aero-Engines',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-07-31',
+  dateLabel: '31 Jul 2026',
+  status: 'live',
+  excerpt: 'The products that score highest on dependency — EUV photoresists (CMDI 95), sub-7nm logic ICs (94) and combat aero-engine turbofans (92) — are precisely the ones India can least localise in the near term (localisation scores of 5-28), a mismatch that defines the sovereignty problem.',
+  readingTime: '5 min',
+  body: [{
+  text: 'At the top of the dependency ranking sit products where India has almost no domestic capability: EUV photoresists (CMDI 95, supplier concentration HHI 8,200, Japan), logic ICs at 7nm and below (CMDI 94, Taiwan), and combat aero-engine turbofans (CMDI 92, United States). Each combines a high import bill, an extremely concentrated supplier base and deep strategic weight.',
+  type: 'p'
+}, {
+  text: 'The chokepoint mismatch',
+  type: 'h'
+}, {
+  text: 'What makes these chokepoints, not just imports, is that their Localization Potential is the lowest on the board — 5 for EUV resist, 8 for leading-edge logic, 28 for aero-engines. The things India most needs to make are the things it is least ready to make. Chasing them first burns capital on the slowest wins.',
+  type: 'p'
+}, {
+  text: 'Localise the chokepoint, not the volume',
+  type: 'h'
+}, {
+  text: 'The strategic reading is to attack the narrow, high-leverage chokepoints deliberately and over a long horizon (technology partnerships, talent, patient capital), while not mistaking a large but substitutable import for a genuine vulnerability. A concentrated single-source input worth a few hundred million dollars can matter more than a multi-billion-dollar import with many suppliers.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'These are Position-early or Watch bets, not quick wins — worth pursuing for sovereignty reasons but not expected to pay back fast. The near-term returns live elsewhere: dependencies that are still high but far more localisable.',
+  type: 'p'
+}],
+  takeaways: ['The highest-dependency products — EUV photoresist (CMDI 95), sub-7nm logic (94), combat aero-engines (92) — are the least localisable (scores 5-28): the core sovereignty mismatch.', 'They share extreme supplier concentration (HHI 4,800-8,200) and single-country sources (Japan, Taiwan, USA), so a cut-off risk outweighs the raw import bill.', 'These are long-horizon, partnership-and-talent bets — attack the narrow chokepoint deliberately rather than chasing volume.', 'A concentrated single-source input can matter more than a far larger import with many suppliers — the index makes that visible.'],
+  sources: ['https://tradestat.commerce.gov.in', 'https://labs.techadyant.com/research/dependencies']
 }, {
   slug: 'india-build-now-localisation-surfaces',
   no: 'S-026',
@@ -1186,40 +1220,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['On a 13-dimension Manufacturing Capability Index, Maharashtra (82), Gujarat (81), Tamil Nadu (79) and Karnataka (77) lead; Telangana and Andhra Pradesh form the next tier.', 'Present strength (output, employment) favours Maharashtra/Tamil Nadu, but pipeline and future-readiness favour Gujarat — its semiconductor, chemicals and renewables bets.', 'The states that localise the deepest dependencies combine capability with a credible forward pipeline in high-dependency sectors — a narrower list than the headline ranking.', 'The ranking is a siting tool: match a high-dependency, localisable product to the state whose capability and pipeline fit, not the largest incumbent by default.'],
   sources: ['https://labs.techadyant.com/corridors']
 }, {
-  slug: 'india-eight-structural-gaps-dependency',
-  no: 'S-030',
-  title: 'Eight Structural Gaps Decide Whether India\'s Dependency Actually Falls',
-  domain: 'Critical Manufacturing Dependencies',
-  date: '2026-07-31',
-  dateLabel: '31 Jul 2026',
-  status: 'live',
-  excerpt: 'Below the product-level dependencies sit eight economy-wide gaps — manufacturing R&D at 0.3% of GDP versus Germany\'s 2.8%, a 500,000-worker skills shortfall, thin test-and-certification capacity, costlier project finance and absence from RCEP and CPTPP — that constrain every localisation attempt, with a ₹1.14 lakh crore fix identified.',
-  readingTime: '5 min',
-  body: [{
-  text: 'Product-level dependency is downstream of a few structural conditions. Eight recur across sectors: an ecosystem gap (incentives target products, not the layers beneath), a talent gap (a shortage of roughly 500,000 skilled manufacturing workers), an R&D gap (manufacturing R&D at 0.3% of manufacturing GDP against Germany\'s 2.8% and Korea\'s 3.5%), a test-and-certification gap (6-12 month delays, certification done abroad), a capital gap (project finance 200-300 basis points costlier than China or Vietnam), an FTA gap (outside RCEP and CPTPP, EU and UK deals unsigned), a cluster-coordination gap, and an industrial-AI gap.',
-  type: 'p'
-}, {
-  text: 'Why these bind',
-  type: 'h'
-}, {
-  text: 'Each gap raises the cost or lowers the feasibility of localising anything. Cheap foreign finance and mature ecosystems are why the same plant pencils out abroad and not in India; weak test-cert adds months and dollars to every qualification; missing FTAs hand a tariff disadvantage to Vietnam and Mexico. These are horizontal constraints — fixing them lifts every dependency at once, which no single product incentive can.',
-  type: 'p'
-}, {
-  text: 'The fix has a price tag',
-  type: 'h'
-}, {
-  text: 'The identified incremental budget to close the gaps is about ₹1,14,500 crore over FY2026-30 — a large but bounded number, and small against the recurring import bill it is meant to reduce. The point is that dependency reduction is as much about these enabling conditions as about any marquee factory.',
-  type: 'p'
-}, {
-  text: 'What the signal means',
-  type: 'h'
-}, {
-  text: 'Track the horizontal reforms — an R&D uplift, a manufacturing-skills programme, national test-cert infrastructure, the UK and EU FTAs — as leading indicators. Movement there will do more for dependency across the board than another product-specific scheme.',
-  type: 'p'
-}],
-  takeaways: ['Eight economy-wide gaps constrain every localisation attempt: ecosystem, talent (~500K shortfall), R&D (0.3% vs Germany 2.8%/Korea 3.5%), test-cert, capital, FTAs, clusters, industrial AI.', 'They are horizontal — costlier finance, weak test-cert and missing FTAs raise the cost or lower the feasibility of localising anything, so fixing them lifts all dependencies at once.', 'The identified fix is ~₹1.14 lakh crore over FY2026-30 — large but bounded, and small against the recurring import bill it targets.', 'The horizontal reforms (R&D uplift, skills, national test-cert, UK/EU FTAs) are the leading indicators to watch — they move dependency more than any single product scheme.'],
-  sources: ['https://www.pib.gov.in', 'https://labs.techadyant.com/research/dependencies']
-}, {
   slug: 'india-twelve-opportunity-zones-industrial-capital',
   no: 'S-031',
   title: 'Twelve Zones Where India\'s Industrial Capital Should Concentrate',
@@ -1343,31 +1343,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['IC substrates are one of India\'s deepest chip-stack gaps — no domestic producer, and roughly 70% of the world market held by Shinko, IBIDEN and Unimicron.', 'Intel and 3D Glass Solutions are investing about US$3.3bn in Bhubaneswar-Khurda, Odisha over five to six years — roughly 70,000 glass substrates a year plus assembled units and 3D heterogeneous-integration modules.', 'Glass-core substrates are pre-commercial worldwide (Absolics targeting end-2026, Samsung post-2027, TSMC panel-level ~2028), so India is entering this layer at the frontier rather than a generation behind.', 'Both first movers into India\'s deepest chokepoints — Intel/3DGS in substrates, Fujifilm in process chemicals — are foreign incumbents relocating capacity, not Indian firms entering. Hosting a capability and owning one are different things.'],
   sources: ['https://www.reuters.com/world/india/intel-3dgs-set-up-33-billion-substrate-plant-indias-odisha-state-2026-05-29/', 'https://www.trendforce.com/news/2026/06/01/news-intel-advances-glass-substrate-push-with-3dgs-us3-3-billion-india-plant-set-for-five-to-six-year-buildout/', 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284784', 'https://evertiq.com/design/2026-07-01-fujifilm-partners-with-gujarat-to-boost-chip-materials-manufacturing']
 }, {
-  slug: 'asip-osat-visakhapatnam',
-  no: 'S-035',
-  title: 'India\'s Chip Strategy Moves From Design Services to a Packaging Line',
-  domain: 'Semiconductor Ecosystems',
-  date: '2026-08-05',
-  dateLabel: '5 Aug 2026',
-  status: 'live',
-  excerpt: 'PM Modi laid the foundation for ASIP Technologies\' Rs 2,500 crore OSAT plant in Visakhapatnam — South India\'s first ISM-approved chip unit, and a step down the value chain from design into physical manufacturing.',
-  readingTime: '2 min',
-  body: [{
-  text: 'On 1 August 2026 the Prime Minister laid the foundation stone for ASIP Technologies\' Rs 2,500 crore (about US$260 million) OSAT — outsourced semiconductor assembly and test — facility at Tarluvada, Visakhapatnam. It is South India\'s first unit approved under the India Semiconductor Mission.',
-  type: 'p'
-}, {
-  text: 'The plant will package and test chips — not fabricate them — starting with wire-bond and flip-chip BGA and adding 2.5D/3D advanced packaging within two to three years, at a planned 96 million chips a year, with South Korea\'s APACT as technology partner.',
-  type: 'p'
-}, {
-  text: 'India\'s semiconductor strength has been design services — the front end. Assembly, test and packaging is the back end where physical value and jobs sit, and where India has depended almost entirely on overseas lines. A domestic OSAT node narrows that gap for AI, high-performance-computing and data-centre parts.',
-  type: 'p'
-}, {
-  text: 'OSAT is the most localisable layer of the chip stack — a Build-now surface in our dependency work. The line pulls a supplier chain behind it: leadframes, organic substrates, bonding wire, moulding compound, high-purity gases and test equipment, most still imported. The packaging plant is the anchor; the materials tail is the opportunity.',
-  type: 'p'
-}],
-  takeaways: ['ASIP Technologies broke ground on a Rs 2,500 cr (~$260M) OSAT plant at Visakhapatnam — South India\'s first ISM-approved unit.', 'Packaging + test (not a fab): wire-bond/FC-BGA now, 2.5D/3D within 2-3 years; ~96M chips/yr; APACT (Korea) as tech partner.', 'Moves India\'s chip play from design services into physical back-end manufacturing.', 'The real opening is the imported materials tail behind OSAT — substrates, bonding wire, moulding compound, gases.'],
-  sources: ['Evertiq (4 Aug 2026): https://evertiq.com/news/2026-08-04-asip-breaks-ground-on-260-million-osat-facility-in-india', 'Business Standard (1 Aug 2026): https://www.business-standard.com/india-news/pm-modi-lays-foundation-stone-asip-semiconductor-plant-visakhapatnam-126080100662_1.html', 'The Hans India: https://www.thehansindia.com/news/cities/visakhapatnam/modi-lays-stone-for-souths-1st-ism-approved-chip-unit-in-ap-1104105']
-}, {
   slug: 'india-indigenous-turbojet-engine',
   no: 'S-034',
   title: 'India Builds the Engine Its Loitering Munitions Were Missing',
@@ -1418,6 +1393,56 @@ export const signals: SignalMeta[] = [{
   takeaways: ['India and the UK launched an industry-led Autonomous Platforms & Uncrewed Systems Working Group at Farnborough 2026 (6-7 August).', 'It is co-chaired by Sameer Joshi (NewSpace Research and Technologies, India) and Dr Helen Almey (ADS Group, UK), under the UKIBC-SIDM framework.', 'The first of several planned sub-groups under the India-UK Defence Industrial Roadmap / Vision 2035; covers aerial, land and underwater systems, with emphasis on underwater for Indo-Pacific security.', 'Signals co-development and joint R&D over transactional procurement; the value depends on real technology transfer and Indian IP.'],
   sources: ['Raksha Anirveda (05 Aug 2026): https://raksha-anirveda.com/bilateral-defence-tech-cooperation-india-and-uk-launch-autonomous-platforms-and-uncrewed-systems-working-group/', 'IDRW (04 Aug 2026): https://idrw.org/uncrewed-alliance-newspace-ceo-sameer-joshi-named-india-co-chair-of-new-india-uk-autonomous-systems-working-group/', 'Indian Masterminds (04 Aug 2026): https://indianmasterminds.com/news/defence/india-uk-cooperation-autonomous-platforms-uncrewed-systems-working-group-launch-221521/', 'The Print (2026): https://theprint.in/world/new-india-uk-industry-initiative-to-boost-defence-tech-collaboration/2993802/']
 }, {
+  slug: 'asip-osat-visakhapatnam',
+  no: 'S-035',
+  title: 'India\'s Chip Strategy Moves From Design Services to a Packaging Line',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-08-05',
+  dateLabel: '5 Aug 2026',
+  status: 'live',
+  excerpt: 'PM Modi laid the foundation for ASIP Technologies\' Rs 2,500 crore OSAT plant in Visakhapatnam — South India\'s first ISM-approved chip unit, and a step down the value chain from design into physical manufacturing.',
+  readingTime: '2 min',
+  body: [{
+  text: 'On 1 August 2026 the Prime Minister laid the foundation stone for ASIP Technologies\' Rs 2,500 crore (about US$260 million) OSAT — outsourced semiconductor assembly and test — facility at Tarluvada, Visakhapatnam. It is South India\'s first unit approved under the India Semiconductor Mission.',
+  type: 'p'
+}, {
+  text: 'The plant will package and test chips — not fabricate them — starting with wire-bond and flip-chip BGA and adding 2.5D/3D advanced packaging within two to three years, at a planned 96 million chips a year, with South Korea\'s APACT as technology partner.',
+  type: 'p'
+}, {
+  text: 'India\'s semiconductor strength has been design services — the front end. Assembly, test and packaging is the back end where physical value and jobs sit, and where India has depended almost entirely on overseas lines. A domestic OSAT node narrows that gap for AI, high-performance-computing and data-centre parts.',
+  type: 'p'
+}, {
+  text: 'OSAT is the most localisable layer of the chip stack — a Build-now surface in our dependency work. The line pulls a supplier chain behind it: leadframes, organic substrates, bonding wire, moulding compound, high-purity gases and test equipment, most still imported. The packaging plant is the anchor; the materials tail is the opportunity.',
+  type: 'p'
+}],
+  takeaways: ['ASIP Technologies broke ground on a Rs 2,500 cr (~$260M) OSAT plant at Visakhapatnam — South India\'s first ISM-approved unit.', 'Packaging + test (not a fab): wire-bond/FC-BGA now, 2.5D/3D within 2-3 years; ~96M chips/yr; APACT (Korea) as tech partner.', 'Moves India\'s chip play from design services into physical back-end manufacturing.', 'The real opening is the imported materials tail behind OSAT — substrates, bonding wire, moulding compound, gases.'],
+  sources: ['Evertiq (4 Aug 2026): https://evertiq.com/news/2026-08-04-asip-breaks-ground-on-260-million-osat-facility-in-india', 'Business Standard (1 Aug 2026): https://www.business-standard.com/india-news/pm-modi-lays-foundation-stone-asip-semiconductor-plant-visakhapatnam-126080100662_1.html', 'The Hans India: https://www.thehansindia.com/news/cities/visakhapatnam/modi-lays-stone-for-souths-1st-ism-approved-chip-unit-in-ap-1104105']
+}, {
+  slug: 'army-2715-logistic-drones-rfi',
+  no: 'S-037',
+  title: 'Army Floats RFI for 2,715 Logistic Drones to Resupply High-Altitude Frontiers',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-07',
+  dateLabel: '7 Aug 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Defence has issued a Request for Information (RFI) for 2,715 logistic drones, marking the largest single procurement of its kind to resupply high-altitude border posts along the LAC and LoC.',
+  readingTime: '2 min',
+  body: [{
+  text: 'On August 5, 2026, the Ministry of Defence\'s Directorate General of Capability Development issued a Request for Information (RFI) for 2,715 logistic drones for the Indian Army. This requirement is graded into three categories: low-altitude (up to 6,000 feet), mid-altitude (6,000-12,000 feet), and high-altitude (12,000-20,000 feet). The procurement falls under the Buy (Indian-IDDM) route of the Defence Acquisition Procedure 2020, mandating that the platforms be designed, developed, and manufactured in India. The systems must operate in temperatures ranging from -30C to 50C, endure at least 1,000 landings over a service life of seven years or more, utilise NavIC alongside GPS and GLONASS, and be hardened against electronic jamming and spoofing.',
+  type: 'p'
+}, {
+  text: 'This development represents a fundamental shift in the Indian Army\'s logistical calculus for the high Himalayas. Traditional supply chains along the Line of Actual Control (LAC) and Line of Control (LoC) rely heavily on porters, mules, and helicopter sorties using aging Cheetah fleets. These methods are manpower-intensive, vulnerable to extreme weather, and operationally constrained during peak winter. By integrating unmanned aerial systems into the last-mile supply chain, the Army aims to sustain forward posts in Jammu & Kashmir, Ladakh, Himachal Pradesh, Uttarakhand, Sikkim, and Arunachal Pradesh more reliably during both peace and wartime.',
+  type: 'p'
+}, {
+  text: 'The scale of this procurement highlights the rapid acceleration of India\'s unmanned logistics capability. The Army previously floated an RFI for 570 drones in December 2022, followed by a fast-track tender for 363 units in 2023, and another RFI in 2025. The latest requirement of 2,715 units represents a nearly five-fold increase over the 2022 baseline. This trend mirrors the broader integration of drones across India\'s border forces, including the 2023 procurement of 130 tethered surveillance systems for the LAC and the establishment of the Border Security Force\'s dedicated drone warfare school at Tekanpur in August 2025.',
+  type: 'p'
+}, {
+  text: 'The strategic opportunity lies in establishing a resilient, indigenous supply chain for high-altitude operations. The test to watch is whether domestic manufacturers can meet the stringent technical requirements - specifically, the integration of NavIC navigation, LIDAR-based obstacle detection, and military-grade electronic countermeasures - within the specified cost and delivery parameters. Success in this procurement will validate the Indian drone industry\'s capacity to produce rugged, combat-ready logistics platforms, reducing the Army\'s reliance on risky and expensive manned aerial resupply.',
+  type: 'p'
+}],
+  takeaways: ['The MoD issued an RFI on August 5, 2026, for 2,715 logistic drones graded by operational altitude.', 'The procurement falls under the Buy (Indian-IDDM) route, favouring indigenous platforms.', 'Drones must integrate NavIC navigation and be hardened against electronic jamming and spoofing.', 'The requirement marks a nearly five-fold increase in drone procurement compared to the 2022 baseline.'],
+  sources: ['The Tribune India (06 Aug 2026): https://www.tribuneindia.com/news/defence/army-seeks-over-2700-logistics-drones-for-high-altitude-frontline-supply-missions/', 'India Sentinels (06 Aug 2026): https://www.indiasentinels.com/army/ministry-of-defence-seeks-2715-logistic-drones-for-indian-armys-china-pakistan-border-supply-chain-7553']
+}, {
   slug: 'indiaai-mission-gpu-compute-expansion',
   no: 'S-038',
   title: 'India Expands Sovereign AI Compute with 15,916 New GPUs under IndiaAI Mission',
@@ -1467,31 +1492,6 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['HCL met with the Uzbekistan Minister of Investments to explore critical minerals collaboration.', 'The talks align with broader diplomatic efforts to expand India-Uzbekistan strategic partnerships.', 'India is actively diversifying its mineral supply sources to reduce dependence on single suppliers.', 'Uzbekistan is emerging as a key partner for India in securing rare earth and critical minerals.'],
   sources: ['The Newsman of India (06 Aug 2026): https://thenewsmanofindia.com/hindustan-copper-explores-strategic-partnership-with-uzbekistan-in-critical-minerals-sector/', 'The Tribune / ANI (03 Aug 2026): https://www.tribuneindia.com/news/bilateral-trade/uzbekistan-invites-indian-investment-in-mining-rare-earths-targets-usd-2-bn-trade-with-india-next-year']
-}, {
-  slug: 'army-2715-logistic-drones-rfi',
-  no: 'S-037',
-  title: 'Army Floats RFI for 2,715 Logistic Drones to Resupply High-Altitude Frontiers',
-  domain: 'Defence & Dual-Use',
-  date: '2026-08-07',
-  dateLabel: '7 Aug 2026',
-  status: 'live',
-  excerpt: 'The Ministry of Defence has issued a Request for Information (RFI) for 2,715 logistic drones, marking the largest single procurement of its kind to resupply high-altitude border posts along the LAC and LoC.',
-  readingTime: '2 min',
-  body: [{
-  text: 'On August 5, 2026, the Ministry of Defence\'s Directorate General of Capability Development issued a Request for Information (RFI) for 2,715 logistic drones for the Indian Army. This requirement is graded into three categories: low-altitude (up to 6,000 feet), mid-altitude (6,000-12,000 feet), and high-altitude (12,000-20,000 feet). The procurement falls under the Buy (Indian-IDDM) route of the Defence Acquisition Procedure 2020, mandating that the platforms be designed, developed, and manufactured in India. The systems must operate in temperatures ranging from -30C to 50C, endure at least 1,000 landings over a service life of seven years or more, utilise NavIC alongside GPS and GLONASS, and be hardened against electronic jamming and spoofing.',
-  type: 'p'
-}, {
-  text: 'This development represents a fundamental shift in the Indian Army\'s logistical calculus for the high Himalayas. Traditional supply chains along the Line of Actual Control (LAC) and Line of Control (LoC) rely heavily on porters, mules, and helicopter sorties using aging Cheetah fleets. These methods are manpower-intensive, vulnerable to extreme weather, and operationally constrained during peak winter. By integrating unmanned aerial systems into the last-mile supply chain, the Army aims to sustain forward posts in Jammu & Kashmir, Ladakh, Himachal Pradesh, Uttarakhand, Sikkim, and Arunachal Pradesh more reliably during both peace and wartime.',
-  type: 'p'
-}, {
-  text: 'The scale of this procurement highlights the rapid acceleration of India\'s unmanned logistics capability. The Army previously floated an RFI for 570 drones in December 2022, followed by a fast-track tender for 363 units in 2023, and another RFI in 2025. The latest requirement of 2,715 units represents a nearly five-fold increase over the 2022 baseline. This trend mirrors the broader integration of drones across India\'s border forces, including the 2023 procurement of 130 tethered surveillance systems for the LAC and the establishment of the Border Security Force\'s dedicated drone warfare school at Tekanpur in August 2025.',
-  type: 'p'
-}, {
-  text: 'The strategic opportunity lies in establishing a resilient, indigenous supply chain for high-altitude operations. The test to watch is whether domestic manufacturers can meet the stringent technical requirements - specifically, the integration of NavIC navigation, LIDAR-based obstacle detection, and military-grade electronic countermeasures - within the specified cost and delivery parameters. Success in this procurement will validate the Indian drone industry\'s capacity to produce rugged, combat-ready logistics platforms, reducing the Army\'s reliance on risky and expensive manned aerial resupply.',
-  type: 'p'
-}],
-  takeaways: ['The MoD issued an RFI on August 5, 2026, for 2,715 logistic drones graded by operational altitude.', 'The procurement falls under the Buy (Indian-IDDM) route, favouring indigenous platforms.', 'Drones must integrate NavIC navigation and be hardened against electronic jamming and spoofing.', 'The requirement marks a nearly five-fold increase in drone procurement compared to the 2022 baseline.'],
-  sources: ['The Tribune India (06 Aug 2026): https://www.tribuneindia.com/news/defence/army-seeks-over-2700-logistics-drones-for-high-altitude-frontline-supply-missions/', 'India Sentinels (06 Aug 2026): https://www.indiasentinels.com/army/ministry-of-defence-seeks-2715-logistic-drones-for-indian-armys-china-pakistan-border-supply-chain-7553']
 }, {
   slug: 'lt-semiconductor-technologies-osat-shift-india',
   no: 'S-040',
@@ -1642,6 +1642,56 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['India\'s data-centre capacity has risen more than four-fold, from ~375 MW (2020) to ~1,575 MW, on AI/HPC demand (Lok Sabha written reply, 5 August 2026).', 'MoS MeitY Jitin Prasada attributed the growth to AI and the IndiaAI Mission\'s sovereign-compute push, with measures flagged for environmentally sustainable expansion.', 'Principal AI corridors face acute water stress - Bengaluru and Hyderabad are CGWB over-exploited; Chennai has seen Day-Zero conditions.', 'The test is whether new capacity concentrates in water-abundant or renewable-rich corridors, or amplifies stress in the metro clusters.'],
   sources: ['ANI (05 Aug 2026): https://www.aninews.in/news/business/indias-data-centre-capacity-rises-over-four-fold-to-1575-mw-as-ai-demand-accelerates-govt20260805171543/', 'The Tribune (05 Aug 2026): https://www.tribuneindia.com/news/business/indias-data-centre-capacity-rises-over-four-fold-to-1575-mw-as-ai-demand-accelerates-govt/']
+}, {
+  slug: 'd-propulse-demonstrates-india-first-rotating-detonation-engine-trl5',
+  no: 'S-046',
+  title: 'D-Propulse Validates India\'s First Indigenous Rotating Detonation Engine at TRL-5',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-12',
+  dateLabel: '12 Aug 2026',
+  status: 'live',
+  excerpt: 'IIT Madras-incubated startup D-Propulse has hot-fired India\'s first indigenous 5 kN air-breathing Rotating Detonation Engine, with an aerospike nozzle, to Technology Readiness Level 5 at DRDO\'s DRDL in Hyderabad - targeting a flight-ready engine by December 2027 for cruise missiles, target drones and high-speed UAVs.',
+  readingTime: '3 min',
+  body: [{
+  text: 'D-Propulse, an IIT Madras-incubated defence-propulsion startup, has hot-fired India\'s first indigenous 5-kilonewton (5 kN) air-breathing Rotating Detonation Engine (RDE), integrated with an aerospike nozzle, at DRDO\'s Defence Research and Development Laboratory (DRDL) in Hyderabad. The demonstration reached Technology Readiness Level 5 (TRL-5) - the transition from laboratory-scale validation to an integrated prototype tested in a relevant operational environment - producing 5 kN of thrust even under reduced air-mass-flow conditions. The company, chaired by former DRDO chief Dr Vijay Kumar Saraswat, is targeting a flight-ready engine by December 2027 for cruise missiles, target drones and high-speed unmanned aerial vehicles.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in the propulsion technology itself. Rotating Detonation Engines use pressure-gain combustion - continuously rotating supersonic detonation waves around an annular chamber - rather than conventional deflagration, improving thermodynamic efficiency by 15-25 per cent over conventional air-breathing propulsion. The absence of moving parts inside the combustor means precision machining replaces turbine assemblies, with direct implications for cost-effective, mass-producible propulsion. At a time when affordable unmanned systems are reshaping warfare, this places India among a small group of nations actively developing RDE technology, alongside the United States and China.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is clear. India currently imports critical propulsion technologies for its missile and drone programmes. D-Propulse\'s TRL-5 result - validated at a government DRDO facility - shows that Indian startups can now deliver next-generation propulsion within India\'s existing defence-testing infrastructure. Founder Saurav Jha has said the proof motor was built as a flight-capable design rather than a laboratory demonstrator, signalling intent toward operational deployment rather than academic validation.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether D-Propulse meets its December 2027 flight-ready target. Between TRL-5 and operational deployment lies qualification testing, airframe-integration studies and validation across the full flight envelope for cruise missiles, target drones and high-speed UAVs. If achieved, it would be the first indigenous RDE-powered munition system in India - reducing dependence on imported propulsion and enabling longer-range, higher-payload platforms without increasing size.',
+  type: 'p'
+}],
+  takeaways: ['D-Propulse, an IIT Madras-incubated startup, hot-fired India\'s first indigenous 5 kN air-breathing Rotating Detonation Engine (with aerospike nozzle) at DRDO\'s DRDL, Hyderabad.', 'The engine reached Technology Readiness Level 5 (TRL-5), producing 5 kN thrust even under reduced air-mass-flow conditions.', 'The RDE offers 15-25 per cent higher thermodynamic efficiency than conventional air-breathing propulsion, with no moving parts inside the combustor.', 'D-Propulse, chaired by former DRDO chief Dr V. K. Saraswat, targets a flight-ready engine by December 2027 for cruise missiles, target drones and high-speed UAVs.'],
+  sources: ['ET Manufacturing (29 Jul 2026): https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/d-propulse-demonstrates-indias-first-indigenous-5-kn-rotating-detonation-engine/132706779', 'India Strategic (2026): https://www.indiastrategic.in/indias-first-indigenous-5-kn-rotating-detonation-engine-validated-at-trl-5-d-propulse-targets-flight-ready-system-by-december-2027/', 'Bharat Shakti (2026): https://bharatshakti.in/private-firm-tests-indigenous-5-kn-rotating-detonation-engine-eyes-prototype-by-2027/']
+}, {
+  slug: 'msc-flags-off-first-import-rail-shipment-adani-icd-malur-bengaluru',
+  no: 'S-047',
+  title: 'MSC Runs Its First Import Rake Through Adani\'s Malur Inland Terminal',
+  domain: 'Logistics & Mobility',
+  date: '2026-08-12',
+  dateLabel: '12 Aug 2026',
+  status: 'live',
+  excerpt: 'Mediterranean Shipping Company (MSC), the world\'s largest container carrier, has moved its first import shipment as a full train rake through the newly launched Adani ICD Malur near Bengaluru - a milestone for South India\'s shift from port-centric road haulage to rail-led inland terminals.',
+  readingTime: '2 min',
+  body: [{
+  text: 'Mediterranean Shipping Company (MSC), the world\'s largest container carrier, has moved its first import shipment through the newly launched Adani ICD Malur near Bengaluru, arriving as a full train rake of containers - an operational milestone for both MSC and Adani Logistics. The facility sits on the Bengaluru-Chennai railway trunk line, with a dedicated rail siding plus road access via NE7 and NH44; it spans around 30 acres, with a further 21 acres earmarked for expansion, and includes terminal and gate operating systems, real-time control-tower capabilities, warehousing and customs infrastructure.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in the shift from port-centric cargo movement towards integrated port-rail-road-inland-terminal networks. Bengaluru\'s manufacturing, automotive, electronics, aerospace and technology base generates substantial import and export demand. A strategically positioned Inland Container Depot (ICD) with direct rail connectivity brings international containerised cargo closer to production centres and reduces dependence on road-based long-haul from distant ports, connecting to gateways including Kattupalli, Ennore, Vizhinjam, Chennai and JNPT through Adani Ports\' multimodal network.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is clear. South India\'s manufacturing clusters have historically depended on road transport from Chennai and Krishnapatnam ports, creating congestion, cost inflation and reliability risk. Adani ICD Malur - at the intersection of Karnataka, Andhra Pradesh and Tamil Nadu - offers a rail-first alternative that consolidates container flows, improves rail utilisation and adds predictability to inland transport. An earlier block-train operation under a Maersk-Volvo Group tie-up (auto parts from Ennore Port) demonstrated the facility\'s potential; MSC\'s entry as a second major carrier validates it as a shared logistics platform.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether additional global shipping lines follow MSC and Maersk in routing import volumes through Malur. Success depends on achieving enough cargo density to justify regular block-train operations, which in turn lowers per-container cost and improves transit reliability. If Malur establishes itself as a shared multimodal gateway serving multiple carriers and diverse cargo, it could catalyse a broader shift in South India\'s logistics architecture - from port-centric movement towards integrated inland-terminal networks.',
+  type: 'p'
+}],
+  takeaways: ['MSC moved its first import shipment through Adani ICD Malur near Bengaluru as a full train rake of containers.', 'The facility spans around 30 acres (21 more earmarked for expansion) on the Bengaluru-Chennai trunk line, with road access via NE7 and NH44.', 'The milestone follows an earlier Maersk-Volvo Group block train (auto parts from Ennore Port), validating Malur as a shared multimodal platform.', 'Adani ICD Malur serves Bengaluru\'s manufacturing clusters and the wider industrial belt across Karnataka, Andhra Pradesh and Tamil Nadu.'],
+  sources: ['India Shipping News (10 Aug 2026): https://indiashippingnews.com/export/msc-marks-first-import-rail-milestone-at-adani-icd-malur-strengthening-bengalurus-gateway-to-global-trade/', 'Maritime Gateway (10 Aug 2026): https://www.maritimegateway.com/msc-marks-first-import-rail-milestone-at-adani-icd-malur-strengthening-bengalurus-gateway-to-global-trade/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
