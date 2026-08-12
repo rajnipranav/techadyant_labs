@@ -4,7 +4,7 @@ import { HeroCanvas } from './components/HeroCanvas';
 import { CorridorMap } from './corridors/CorridorMap';
 import { Newsletter } from './components/Newsletter';
 import { FeaturedTopology } from './components/ThemeIcon';
-import { reports, getReport } from './reports/data';
+import { reports } from './reports/data';
 import { signals } from './signals/data';
 import { corridorsOrdered, meta, rollup } from './research/atlas';
 import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardSimple } from './research/extra-ecosystems';
@@ -16,7 +16,14 @@ export const metadata: Metadata = {
     'Independent, India-first strategic research on industrial transformation, infrastructure systems, semiconductors, AI infrastructure and second-order economic change.',
 };
 
-const featured = getReport('semicon-2-0-opportunity-map')!;
+// RULE: the home page always features the newest PUBLISHED report (by published date).
+// `reports` is CMS-generated at build, so publishing a new report auto-updates this on
+// the next deploy — no manual change needed. Falls back to the first entry if none are
+// yet published.
+const featured =
+  [...reports]
+    .filter((r) => r.status === 'published')
+    .sort((a, b) => (b.published || '').localeCompare(a.published || ''))[0] ?? reports[0];
 const briefings = allBriefings.slice(0, 3);
 
 // Latest signals for the homepage "Intelligence dispatches" grid.

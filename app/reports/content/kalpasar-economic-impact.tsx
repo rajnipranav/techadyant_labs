@@ -14,21 +14,22 @@ export function ReportContent() {
     <>
       <p className="reader-lead">
         Kalpasar is not a single dam. It is a multi-billion-dollar platform proposal that would dam the Gulf of
-        Khambhat, create a freshwater reservoir, generate hydro and tidal power, and connect Gujarat with
-        Maharashtra across a 30 km causeway. The project has been discussed for decades without a binding
+        Khambhat, create a freshwater reservoir, generate captive solar and wind power, and shorten the road
+        and rail distance between Saurashtra and mainland Gujarat across a roughly 60 km closure dam. The
+        project has been discussed for decades without a binding
         financial close, environmental clearance or land-assembly order. This report assesses why.
       </p>
 
       <h2 id="overview">Project overview</h2>
       <p>
-        The proposed dam would stretch across the Gulf of Khambhat, separating the Arabian Sea from a proposed
-        1,600 sq km reservoir. Original cost estimates ranged from ₹55,000 crore to over ₹1.5 lakh crore,
-        with construction timelines of 10 to 15 years. The project remains unsanctioned, with feasibility,
-        environmental impact and funding still unresolved.
+        The proposed closure dam would stretch roughly 60 km across the Gulf of Khambhat, separating the Arabian
+        Sea from a proposed 1,600 sq km reservoir. The current Detailed Project Report puts the capital cost at approximately
+        ₹1,33,246 crore, with construction timelines of 10 to 15 years. The project remains unsanctioned, with
+        feasibility, environmental impact and funding still unresolved.
       </p>
       <p>
-        The strategic interest lies in what Kalpasar would actually deliver: freshwater storage, peaking power,
-        tidal energy, a road-rail link, and coastal land-reclamation. Each of these benefits depends on separate
+        The strategic interest lies in what Kalpasar would actually deliver: freshwater storage, captive solar
+        and wind power, a road-rail link, and coastal land-reclamation. Each of these benefits depends on separate
         engineering, financing and governance systems that have not been integrated into a single accountable
         programme.
       </p>
@@ -89,7 +90,7 @@ export function ReportContent() {
       <h2 id="conclusion">Conclusion</h2>
       <p>
         Kalpasar remains a strategic idea in search of an implementation system. The underlying logic — coastal
-        water security, renewable peaking power, and a new national corridor — is defensible. But ideas without
+        water security, captive renewable power, and a new national corridor — is defensible. But ideas without
         dependency discipline remain proposals, not projects.
       </p>
       <p>
