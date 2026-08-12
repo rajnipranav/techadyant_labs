@@ -231,11 +231,26 @@ function productJsonLd(meta: any) {
   });
 }
 
+function fmtDate(d?: string): string {
+  if (!d) return '';
+  const t = Date.parse(d);
+  if (Number.isNaN(t)) return d;
+  return new Date(t).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+const lifecycleLabel = (l: string) =>
+  ({ updated: 'Updated edition', corrected: 'Corrected', superseded: 'Superseded' } as Record<string, string>)[l] || l;
+const lifecycleTone = (l: string) =>
+  ({ updated: '#34D399', corrected: '#FB923C', superseded: '#8CA0C0' } as Record<string, string>)[l] || 'var(--text-dim)';
+
 export default async function ReportPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   let meta: any = await getReportBySlug(slug);
   if (!meta) meta = staticGetReport(slug);
   if (!meta) notFound();
+
+  const lastReviewedLabel = fmtDate(meta.last_reviewed || meta.date_modified || meta.published);
+  const updates: { date: string; kind: string; summary: string }[] =
+    Array.isArray(meta.updates) ? meta.updates : [];
 
   const mod = registry[slug];
   const published = meta.status === 'published';
@@ -315,8 +330,18 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
             <div><div className="bk">Published</div><div className="bv">{meta.published_label}</div></div>
             <div><div className="bk">Domain</div><div className="bv">{meta.domain}</div></div>
             <div><div className="bk">Reading time</div><div className="bv">{meta.reading_time}</div></div>
+            {(meta.last_reviewed || meta.date_modified) && (
+              <div><div className="bk">Last reviewed</div><div className="bv">{lastReviewedLabel}</div></div>
+            )}
             <div><div className="bk">Author</div><div className="bv">Techadyant Labs · Research</div></div>
           </div>
+          {meta.lifecycle && meta.lifecycle !== 'current' && (
+            <div style={{ marginTop: 12 }}>
+              <span style={{ fontSize: 12, fontWeight: 600, letterSpacing: '.03em', textTransform: 'uppercase', padding: '4px 10px', borderRadius: 20, border: '1px solid var(--border)', color: lifecycleTone(meta.lifecycle), background: 'rgba(255,255,255,.03)' }}>
+                {lifecycleLabel(meta.lifecycle)}
+              </span>
+            </div>
+          )}
           </div>
           <div className="rhg-cover"><ReportCover report={meta as any} /></div>
           </div>
@@ -354,6 +379,24 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
               </ul>
             </div>
           </section>
+
+          {updates.length > 0 && (
+            <section className="wrap-narrow" style={{ paddingTop: 8, paddingBottom: 8 }}>
+              <div style={{ border: '1px solid var(--border, rgba(255,255,255,.12))', borderRadius: 12, padding: '20px 22px', background: 'var(--bg-2, rgba(255,255,255,.02))' }}>
+                <div className="ed-kicker" style={{ marginBottom: 12 }}>Updates &amp; corrections</div>
+                <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 12 }}>
+                  {updates.map((u, i) => (
+                    <li key={i} style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: 12, alignItems: 'baseline' }}>
+                      <span style={{ fontFamily: 'var(--font-jetbrains, monospace)', fontSize: 12, color: 'var(--text-muted)', whiteSpace: 'nowrap' }}>{fmtDate(u.date)}</span>
+                      <span style={{ fontSize: 14, lineHeight: 1.55, color: 'var(--text-dim, #c7c7d2)' }}>
+                        <strong style={{ textTransform: 'capitalize', color: u.kind === 'correction' ? '#FB923C' : 'inherit' }}>{u.kind}:</strong>{' '}{u.summary}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+          )}
 
           {mod ? (
             <ReportReader toc={mod.toc} title={meta.title}>

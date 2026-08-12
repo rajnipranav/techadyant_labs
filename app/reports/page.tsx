@@ -114,6 +114,7 @@ export default async function ReportsIndex() {
             <Link key={t.slug} href={`/reports/theme/${t.slug}/`} style={{ color: 'var(--text-dim)', borderBottom: '1px solid transparent' }}>{t.domain}</Link>
           ))}
           <Link href="/reports/series/technology-sovereignty/" style={{ color: 'var(--accent, #C9A84C)', borderBottom: '1px solid transparent' }}>Technology Sovereignty Series →</Link>
+          <Link href="/licensing/" style={{ color: 'var(--text-dim)', borderBottom: '1px solid transparent', marginLeft: 'auto' }}>Team &amp; institutional licensing →</Link>
         </div>
 
         <ReportsBrowser initialData={published} />

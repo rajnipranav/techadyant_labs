@@ -172,12 +172,41 @@ export function ReportCommerceProvider({
             setEntitled(true);
             if (tier === 'report_plus_data') setDataEntitled(true);
             setMessage({ kind: 'success', text: 'Payment confirmed — your report is unlocked.' });
+            // GA4 ecommerce conversion. order.amount is in paise → rupees.
+            try {
+              const g = (window as any).gtag;
+              if (typeof g === 'function') {
+                const value = (Number(order.amount) || 0) / 100;
+                g('event', 'purchase', {
+                  transaction_id: resp.razorpay_payment_id || order.orderId,
+                  value,
+                  currency: order.currency || 'INR',
+                  items: [{
+                    item_id: slug,
+                    item_name: order.reportTitle || title,
+                    item_category: tier === 'report_plus_data' ? 'Report + Data' : 'Report',
+                    price: value,
+                    quantity: 1,
+                  }],
+                });
+              }
+            } catch {}
           } else {
             setMessage({ kind: 'error', text: 'Payment received but verification is pending. Refresh in a moment.' });
           }
           setBusy(false);
         },
       });
+      try {
+        const g = (window as any).gtag;
+        if (typeof g === 'function') {
+          const value = (Number(order.amount) || 0) / 100;
+          g('event', 'begin_checkout', {
+            value, currency: order.currency || 'INR',
+            items: [{ item_id: slug, item_name: order.reportTitle || title, item_category: tier === 'report_plus_data' ? 'Report + Data' : 'Report', price: value, quantity: 1 }],
+          });
+        }
+      } catch {}
       rzp.open();
     } catch {
       setMessage({ kind: 'error', text: 'Something went wrong opening checkout.' });

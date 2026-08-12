@@ -33,6 +33,23 @@ const PROCESS = [
   { n: '04', k: 'Delivery', v: 'A decision-grade document — and a walkthrough. Revisions within the agreed scope are included.' },
 ];
 
+// Indicative engagement shapes. Fees are quoted per project after scoping —
+// these give a sense of size, timeline and format, not a price list.
+const ENGAGEMENTS = [
+  { k: 'Strategic briefing', time: '2–3 weeks', fmt: '15–30 pp', v: 'A focused answer to one question — a market, a dependency, a policy shift, a build-vs-buy call.' },
+  { k: 'Full research report', time: '4–8 weeks', fmt: '60–150 pp + data', v: 'A complete study to our published standard, scoped to your decision, with figures, frameworks and a sourced data pack.' },
+  { k: 'Detailed Project Report', time: '6–12 weeks', fmt: 'DPR + workbook', v: 'Investment- and approval-grade — technical scope, capacity and demand rationale, capex and phasing, regulatory pathway, risk.' },
+  { k: 'Retained intelligence', time: 'Ongoing', fmt: 'Monthly', v: 'A standing brief on a sector or corridor you need to track — signals, developments and quarterly deep-dives.' },
+];
+
+// Proof assets: our published reports ARE the sample deliverables. These are
+// confirmed live slugs; the free ones can be read in full without purchase.
+const PROOF = [
+  { slug: 'the-sap-question', label: 'The SAP Question', note: 'Free — read the full report to see the standard' },
+  { slug: 'who-builds-indias-drones', label: "Who Builds India's Drones?", note: 'Flagship — frameworks, dependency mapping, 100-opportunity registry' },
+  { slug: 'india-critical-manufacturing-dependencies', label: 'Critical Manufacturing Dependencies', note: 'Index-led flagship with a companion data pack' },
+];
+
 export default function ServicesPage() {
   return (
     <>
@@ -95,6 +112,49 @@ export default function ServicesPage() {
             </div>
           ))}
         </div>
+      </section>
+
+      <section className="wrap">
+        <div className="section-head-ed">
+          <div><div className="ed-kicker">Engagement types</div><h2>Pick the shape that fits the decision</h2></div>
+        </div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(240px,1fr))', gap: 18 }}>
+          {ENGAGEMENTS.map((e) => (
+            <div key={e.k} style={{ border: '1px solid var(--border)', borderRadius: 12, padding: '18px 18px 16px' }}>
+              <h3 style={{ margin: '0 0 8px', fontSize: 17 }}>{e.k}</h3>
+              <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 10 }}>
+                <span className="chip">{e.time}</span>
+                <span className="chip">{e.fmt}</span>
+              </div>
+              <p style={{ fontSize: 14, color: 'var(--text-muted)', lineHeight: 1.6, margin: 0 }}>{e.v}</p>
+            </div>
+          ))}
+        </div>
+        <p style={{ fontSize: 13.5, color: 'var(--text-muted)', marginTop: 16 }}>
+          Fees are fixed per project and quoted after a short scoping call — no open-ended retainers unless you want one.
+        </p>
+      </section>
+
+      <section className="wrap">
+        <div className="section-head-ed">
+          <div><div className="ed-kicker">See the standard</div><h2>Our published work is the sample deliverable</h2></div>
+        </div>
+        <p style={{ color: 'var(--text-muted)', fontSize: 15, lineHeight: 1.65, maxWidth: '64ch', marginBottom: 18 }}>
+          We don’t ask you to take the quality on trust. Commissioned work is held to exactly the standard
+          of what we publish — the same evidence discipline, figures and framework rigour. Read a report end
+          to end before you commission one.
+        </p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(240px,1fr))', gap: 16 }}>
+          {PROOF.map((p) => (
+            <Link key={p.slug} href={`/reports/${p.slug}/`} style={{ display: 'block', border: '1px solid var(--border)', borderRadius: 12, padding: '16px 16px 14px', textDecoration: 'none', color: 'inherit' }}>
+              <div style={{ fontWeight: 600, marginBottom: 6 }}>{p.label} <span className="arr" style={{ color: 'var(--accent, #C9A84C)' }}>→</span></div>
+              <p style={{ fontSize: 13, color: 'var(--text-muted)', lineHeight: 1.55, margin: 0 }}>{p.note}</p>
+            </Link>
+          ))}
+        </div>
+        <p style={{ fontSize: 14, marginTop: 16 }}>
+          <Link href="/reports/">Browse all published reports →</Link>
+        </p>
       </section>
 
       <section className="wrap">

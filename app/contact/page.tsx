@@ -50,8 +50,10 @@ export default function ContactPage() {
           <div className="prac" style={{ borderTop: '1px solid var(--border)', paddingTop: 16 }}>
             <div className="chip" style={{ marginBottom: 12 }}>Postal address</div>
             <address style={{ fontStyle: 'normal', margin: 0, fontSize: 15, lineHeight: 1.7, color: 'var(--text-muted)' }}>
-              Techadyant Labs<br />
-              New Delhi, India<br />
+              TechAdyant Private Limited<br />
+              House No. 550 (A), Datta Galli<br />
+              Vadagaon, M. Vadgaon<br />
+              Belagavi (Belgaum) – 590005, Karnataka, India<br />
               <span style={{ color: 'var(--text-dim)' }}>Service area: Pan-India</span>
             </address>
           </div>

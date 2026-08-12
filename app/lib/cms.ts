@@ -32,6 +32,9 @@ export type CmsReport = {
   faq: { q: string; a: string }[];
   sources: string[];
   date_modified: string;
+  last_reviewed: string | null;
+  lifecycle: 'current' | 'updated' | 'corrected' | 'superseded';
+  updates: { date: string; kind: string; summary: string }[];
   body_component: string;
   body_params: Record<string, any>;
   seo: Record<string, any>;

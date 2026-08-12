@@ -439,7 +439,7 @@ function CmsForm(props: { type: CmsType; value: any; onChange: (v: any) => void;
 
   useEffect(() => {
     const init: Record<string, string> = {};
-    for (const k of ['faq', 'body_params', 'seo', 'body']) {
+    for (const k of ['faq', 'body_params', 'seo', 'body', 'updates']) {
       if (value[k] !== undefined) init[k] = JSON.stringify(value[k], null, 2);
     }
     setJsonFields(init);
@@ -539,6 +539,16 @@ function CmsForm(props: { type: CmsType; value: any; onChange: (v: any) => void;
             <Field label="Body params (JSON)" full textarea value={jsonFields['body_params'] || ''}
               hint="Advanced: parameters passed to the report's body component. Leave as-is if unsure."
               onChange={(t) => updateJson('body_params', t)} />
+
+            <SectionHead title="Evidence & lifecycle" desc="Editorial review date, lifecycle state, and the public corrections/updates log (shown on the report and at /corrections)." />
+            <Field label="Last reviewed" type="date" value={value.last_reviewed || ''} placeholder="2026-08-12"
+              hint="Human 'last reviewed' date shown in the byline. Falls back to the modified/published date if blank."
+              onChange={(t) => update({ ...value, last_reviewed: t || null })} />
+            <Field label="Lifecycle" as="select" options={['current', 'updated', 'corrected', 'superseded']} value={value.lifecycle || 'current'}
+              hint="Shows a badge on the report when not 'current'." onChange={(t) => update({ ...value, lifecycle: t })} />
+            <Field label="Updates & corrections (JSON)" full textarea value={jsonFields['updates'] || ''}
+              hint={'Array of { "date": "2026-08-12", "kind": "correction|update|revision", "summary": "…what changed" }. Newest first. Appears on the report and on /corrections.'}
+              onChange={(t) => updateJson('updates', t)} />
 
             <SectionHead title="SEO" desc="Search-engine and social appearance. Each field falls back to the report defaults above if left blank." />
             <SeoPanel value={value} setValue={update} />
