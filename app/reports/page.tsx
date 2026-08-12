@@ -6,6 +6,7 @@ import ReportsBrowser from './ReportsBrowser';
 
 import { THEMES } from './themes';
 import { getReportsMeta } from '../lib/cms';
+import { FeedbackForm } from '../components/FeedbackForm';
 
 export const metadata: Metadata = {
   title: "Strategic Intelligence Reports on India's Industrial Systems [2026]",
@@ -137,6 +138,15 @@ export default async function ReportsIndex() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div style={{ margin: '64px auto 8px', maxWidth: 620 }}>
+          <div className="ed-kicker" style={{ marginBottom: 12 }}>Didn&rsquo;t find what you were looking for?</div>
+          <p style={{ color: 'var(--text-dim)', fontSize: 15, lineHeight: 1.65, margin: '0 0 20px' }}>
+            Tell us the report or sector you need. We publish based on what our readers are actually trying to
+            decide — every request goes into our research pipeline.
+          </p>
+          <FeedbackForm source="reports-index" />
         </div>
       </section>
     </>

@@ -255,6 +255,7 @@ gtag('config', 'G-916MZ965VB');`,
                     <li><Link href="/about/">About the platform</Link></li>
                     <li><Link href="/methodology/">Methodology</Link></li>
                     <li><Link href="/services/">Commission research</Link></li>
+                    <li><Link href="/feedback/">Request a report</Link></li>
                     <li><Link href="/contact/">Contact</Link></li>
                     <li><Link href="/methodology/#independence">Independence policy</Link></li>
                     <li><Link href="/account/">Account</Link></li>
@@ -266,6 +267,16 @@ gtag('config', 'G-916MZ965VB');`,
                           '<!--email_off--><a href="mailto:labs@techadyant.com">labs@techadyant.com</a><!--/email_off-->',
                       }}
                     />
+                  </ul>
+                </div>
+
+                <div>
+                  <h4>Legal</h4>
+                  <ul role="list">
+                    <li><Link href="/support/">Support</Link></li>
+                    <li><Link href="/refund/">Refund &amp; cancellation</Link></li>
+                    <li><Link href="/terms/">Terms</Link></li>
+                    <li><Link href="/privacy/">Privacy</Link></li>
                   </ul>
                 </div>
               </div>

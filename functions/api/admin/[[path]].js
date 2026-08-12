@@ -302,6 +302,11 @@ export async function onRequest(context) {
     }
 
     if (route === '/sales')             return reply(await rpc(S, SK, 'admin_sales'));
+    if (route === '/feedback')          return reply(await rpc(S, SK, 'admin_feedback'));
+    if (request.method === 'POST' && route === '/feedback/update') {
+      const b = await request.json();
+      return reply(await rpc(S, SK, 'admin_feedback_update', { p_id: b.id, p_status: b.status || null, p_note: b.note ?? null }));
+    }
     if (route === '/subscribers/stats') return reply(await rpc(S, SK, 'subscriber_stats'));
     if (route === '/subscribers/list')  return reply(await rpc(S, SK, 'subscriber_list', { p_source: q.get('source') || null, p_q: q.get('q') || null, p_limit: Number(q.get('limit') || 500), p_offset: Number(q.get('offset') || 0) }));
     if (request.method === 'POST' && route === '/subscribers/test-welcome') {

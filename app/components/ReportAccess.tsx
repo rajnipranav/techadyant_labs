@@ -114,6 +114,13 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages, 
       {message && (
         <p className={`ra-msg ${message.kind === 'error' ? 'ra-msg-error' : ''}`} role="status">{message.text}</p>
       )}
+
+      {!entitled && (
+        <p className="ra-fine" style={{ marginTop: 10, opacity: 0.75 }}>
+          Digital product — access is granted instantly and is non-refundable once downloaded. See our{' '}
+          <a href="/refund/">refund policy</a> and <a href="/terms/">terms</a>.
+        </p>
+      )}
     </div>
   );
 }
