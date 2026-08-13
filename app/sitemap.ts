@@ -58,6 +58,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/contact/`,   lastModified: now, changeFrequency: 'yearly',  priority: 0.5 },
     { url: `${SITE}/resources/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE}/methodology/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${SITE}/engage/`,    lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${SITE}/licensing/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE}/shape/`,     lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE}/support/`,   lastModified: now, changeFrequency: 'yearly', priority: 0.4 },

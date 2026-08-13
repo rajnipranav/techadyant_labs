@@ -200,7 +200,7 @@ gtag('config', 'G-916MZ965VB');`,
                 <div className="masthead-actions">
                   <MastheadSearch />
                   <ThemeToggle />
-                  <Link href="/#subscribe" className="btn-subscribe">Subscribe</Link>
+                  <Link href="/engage/" className="btn-subscribe">Engage</Link>
                   <AuthControls />
                   <MobileNav links={NAV_LINKS} />
                 </div>
@@ -253,6 +253,7 @@ gtag('config', 'G-916MZ965VB');`,
                 <div>
                   <h4>Platform</h4>
                   <ul role="list">
+                    <li><Link href="/engage/"><strong>Engage</strong></Link></li>
                     <li><Link href="/about/">About the platform</Link></li>
                     <li><Link href="/methodology/">Methodology</Link></li>
                     <li><Link href="/services/">Commission research</Link></li>

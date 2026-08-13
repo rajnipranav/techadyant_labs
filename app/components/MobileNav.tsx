@@ -73,8 +73,8 @@ export function MobileNav({ links }: { links: NavLink[] }) {
             </li>
           ))}
           <li className="mobile-nav-cta">
-            <Link href="/#subscribe" onClick={() => setOpen(false)}>
-              Subscribe
+            <Link href="/engage/" onClick={() => setOpen(false)}>
+              Engage
             </Link>
           </li>
         </ul>
