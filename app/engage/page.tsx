@@ -1,27 +1,26 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Newsletter } from '../components/Newsletter';
+import { EngageSubscribe } from './EngageSubscribe';
 
 export const metadata: Metadata = {
   title: 'Engage with Techadyant',
   description:
-    'Subscribe to the intelligence brief, shape what we research next, or get in touch. Everything you need to engage with Techadyant Labs — in one place.',
+    'Subscribe to the intelligence brief, shape what we research next, or get in touch. One place for every way to engage with Techadyant Labs.',
   alternates: { canonical: 'https://labs.techadyant.com/engage/' },
 };
 
-const cardStyle: React.CSSProperties = {
-  border: '1px solid var(--border)', borderRadius: 16, padding: '24px 22px',
-  background: 'var(--surface)', display: 'flex', flexDirection: 'column', gap: 12,
-};
-const kicker: React.CSSProperties = {
-  fontFamily: 'var(--font-jetbrains, monospace)', fontSize: 11, letterSpacing: '.16em',
-  textTransform: 'uppercase', color: 'var(--brass-cream, #C9A84C)',
-};
+/* Inline icons (stroke, currentColor) */
+const IconMail = () => (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg>);
+const IconTarget = () => (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="5" /><circle cx="12" cy="12" r="1.6" fill="currentColor" /></svg>);
+const IconChat = () => (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15a2 2 0 0 1-2 2H8l-4 4V5a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2z" /></svg>);
+const IconBrief = () => (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="7" width="18" height="13" rx="2" /><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" /></svg>);
+const IconBuilding = () => (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M3 21h18" /><path d="M5 21V5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v16" /><path d="M13 9h5a1 1 0 0 1 1 1v11" /><path d="M8 8h2M8 12h2M8 16h2" /></svg>);
+const IconInfo = () => (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9" /><path d="M12 11v5" /><path d="M12 7.5h.01" /></svg>);
+const IconBook = () => (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z" /><path d="M4 19a2 2 0 0 0 2 2h13" /><path d="M9 7h6M9 11h6" /></svg>);
 
-const WORK = [
-  { href: '/services/', k: 'Commission research', d: 'Bespoke studies and investment-grade DPRs, held to the standard of our published work.' },
-  { href: '/licensing/', k: 'Team & institutional licensing', d: 'Multi-seat, organisation-wide and data-redistribution licensing, with a procurement route.' },
-];
+const BRASS = '#F5B544';
+const INDIGO = '#818CF8';
+const TEAL = '#2BC5B4';
 
 const SUPPORT = [
   { href: '/support/', l: 'Support' },
@@ -34,82 +33,76 @@ const SUPPORT = [
 export default function EngagePage() {
   return (
     <>
-      <header className="ed-page-head"><div className="wrap inner">
-        <div className="ed-breadcrumb"><Link href="/">Home</Link><span className="sep">/</span><span>Engage</span></div>
-        <h1>Engage with Techadyant</h1>
-        <p className="lede">
-          Three ways to be part of the work: get our intelligence brief, help decide what we research next, or reach
-          us directly. Everything is in one place — no hunting.
-        </p>
-      </div></header>
+      <div className="eng-hero">
+        <span className="eng-eyebrow">Engage</span>
+        <h1>Get involved with Techadyant</h1>
+        <p>Three clear ways to be part of the work — subscribe for the brief, tell us what to research next, or reach us directly.</p>
+      </div>
 
-      <section className="wrap" style={{ paddingTop: 8 }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(300px,1fr))', gap: 20 }}>
-          {/* Subscribe — inline, frictionless */}
-          <div style={cardStyle}>
-            <div style={kicker}>Subscribe</div>
-            <h2 style={{ margin: 0, fontSize: 21 }}>Get the intelligence brief</h2>
-            <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: 14.5, lineHeight: 1.6 }}>
-              Long-form reports, intelligence signals and briefings on India&rsquo;s industrial systems. Infrequent, no
-              sponsored coverage, unsubscribe anytime.
-            </p>
-            <div style={{ marginTop: 'auto' }}><Newsletter source="engage" /></div>
+      <div className="eng-wrap">
+        {/* PRIMARY — three big tiles */}
+        <div className="eng-grid">
+          {/* Subscribe (form inline) */}
+          <div className="eng-tile" style={{ ['--ic' as any]: BRASS }}>
+            <div className="eng-ic"><IconMail /></div>
+            <h2>Subscribe</h2>
+            <p>Reports, signals and briefings on India&rsquo;s industrial systems — delivered when they publish. Infrequent, no sponsored coverage.</p>
+            <div className="eng-foot"><EngageSubscribe /></div>
           </div>
 
-          {/* Shape */}
-          <div style={cardStyle}>
-            <div style={kicker}>Shape our research</div>
-            <h2 style={{ margin: 0, fontSize: 21 }}>Tell us what to research next</h2>
-            <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: 14.5, lineHeight: 1.6 }}>
-              We research the questions our readers actually need answered. Suggest a topic, ask a research question,
-              flag a gap, or help improve the Atlas — your input shapes what we publish and build.
-            </p>
-            <div style={{ marginTop: 'auto', paddingTop: 8 }}>
-              <Link className="btn-ed btn-ed-primary" href="/shape/">Shape Techadyant <span className="arr">→</span></Link>
-            </div>
-          </div>
+          {/* Shape (whole tile links) */}
+          <Link className="eng-tile" href="/shape/" style={{ ['--ic' as any]: INDIGO }}>
+            <div className="eng-ic"><IconTarget /></div>
+            <h2>Shape our research</h2>
+            <p>Suggest a topic, ask a research question, flag a gap or improve the Atlas. Your input decides what we publish and build next.</p>
+            <div className="eng-foot"><span className="eng-cta">Shape Techadyant →</span></div>
+          </Link>
 
-          {/* Contact */}
-          <div style={cardStyle}>
-            <div style={kicker}>Contact</div>
-            <h2 style={{ margin: 0, fontSize: 21 }}>Talk to us</h2>
-            <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: 14.5, lineHeight: 1.6 }}>
-              For editorial enquiries, media, partnerships or anything about a purchase or your account. We reply within
-              two working days.
-            </p>
-            <div style={{ marginTop: 'auto', paddingTop: 8, display: 'flex', gap: 14, alignItems: 'center', flexWrap: 'wrap' }}>
-              <Link className="btn-ed btn-ed-ghost" href="/contact/">Contact us <span className="arr">→</span></Link>
-              <a href="mailto:labs@techadyant.com" style={{ fontSize: 13.5, color: 'var(--text-muted)' }}>labs@techadyant.com</a>
-            </div>
-          </div>
+          {/* Contact (whole tile links) */}
+          <Link className="eng-tile" href="/contact/" style={{ ['--ic' as any]: TEAL }}>
+            <div className="eng-ic"><IconChat /></div>
+            <h2>Contact us</h2>
+            <p>Editorial enquiries, media, partnerships, or anything about a purchase or your account. We reply within two working days.</p>
+            <div className="eng-foot"><span className="eng-cta">Get in touch →</span></div>
+          </Link>
         </div>
-      </section>
 
-      <section className="wrap">
-        <div className="section-head-ed">
-          <div><div className="ed-kicker">Work with us</div><h2>Commission or license the research</h2></div>
+        {/* WHO WE ARE — About now lives inside Engage */}
+        <div className="eng-sec-h">Who we are</div>
+        <div className="eng-secondary">
+          <Link className="eng-wide" href="/about/" style={{ ['--ic' as any]: TEAL }}>
+            <div className="eng-ic"><IconInfo /></div>
+            <div><h3>About the platform</h3><p>An independent, India-first research lab — who we are, how we think, and what we stand for.</p></div>
+            <span className="eng-arrow" aria-hidden>→</span>
+          </Link>
+          <Link className="eng-wide" href="/methodology/" style={{ ['--ic' as any]: INDIGO }}>
+            <div className="eng-ic"><IconBook /></div>
+            <div><h3>How we work</h3><p>Our research methodology, evidence and confidence standards, and independence policy.</p></div>
+            <span className="eng-arrow" aria-hidden>→</span>
+          </Link>
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(280px,1fr))', gap: 18 }}>
-          {WORK.map((w) => (
-            <Link key={w.href} href={w.href} style={{ ...cardStyle, textDecoration: 'none', color: 'inherit', gap: 8 }}>
-              <h3 style={{ margin: 0, fontSize: 18 }}>{w.k} <span className="arr" style={{ color: 'var(--accent, #C9A84C)' }}>→</span></h3>
-              <p style={{ margin: 0, fontSize: 13.5, color: 'var(--text-muted)', lineHeight: 1.55 }}>{w.d}</p>
-            </Link>
-          ))}
-        </div>
-      </section>
 
-      <section className="wrap-narrow" style={{ paddingBottom: 44 }}>
-        <div className="ed-kicker" style={{ marginBottom: 12 }}>Support &amp; policies</div>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px 22px', fontSize: 14.5 }}>
-          {SUPPORT.map((s, i) => (
-            <span key={s.href} style={{ display: 'inline-flex', gap: '10px 22px' }}>
-              <Link href={s.href}>{s.l}</Link>
-              {i < SUPPORT.length - 1 && <span style={{ color: 'var(--text-dim)' }} aria-hidden>·</span>}
-            </span>
-          ))}
+        {/* SECONDARY — work with us */}
+        <div className="eng-sec-h">Work with us</div>
+        <div className="eng-secondary">
+          <Link className="eng-wide" href="/services/" style={{ ['--ic' as any]: BRASS }}>
+            <div className="eng-ic"><IconBrief /></div>
+            <div><h3>Commission research</h3><p>Bespoke studies and investment-grade DPRs, to the standard of our published work.</p></div>
+            <span className="eng-arrow" aria-hidden>→</span>
+          </Link>
+          <Link className="eng-wide" href="/licensing/" style={{ ['--ic' as any]: INDIGO }}>
+            <div className="eng-ic"><IconBuilding /></div>
+            <div><h3>Team &amp; institutional licensing</h3><p>Multi-seat, organisation-wide and data-redistribution licensing, with a procurement route.</p></div>
+            <span className="eng-arrow" aria-hidden>→</span>
+          </Link>
         </div>
-      </section>
+
+        {/* SUPPORT & POLICIES — visible pills */}
+        <div className="eng-sec-h">Support &amp; policies</div>
+        <div className="eng-pills">
+          {SUPPORT.map((s) => <Link key={s.href} className="eng-pill" href={s.href}>{s.l}</Link>)}
+        </div>
+      </div>
     </>
   );
 }

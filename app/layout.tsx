@@ -62,7 +62,6 @@ const NAV_LINKS = [
   { href: '/research/', label: 'Atlas' },
   { href: '/newsletter/', label: 'Sanket' },
   { href: '/services/', label: 'Services' },
-  { href: '/about/', label: 'About' },
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
