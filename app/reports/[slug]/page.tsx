@@ -41,6 +41,7 @@ import { ReportContent as RecyclingContent, toc as recyclingToc } from '../conte
 import { ReportContent as CmddContent, toc as cmddToc } from '../content/india-critical-manufacturing-dependencies';
 import { ReportContent as QDayContent, toc as qDayToc } from '../content/q-day-india';
 import { ReportContent as KalpasarContent, toc as kalpasarToc } from '../content/kalpasar-economic-impact';
+import { ReportContent as IafContent, toc as iafToc } from '../content/iaf-autonomous-air-power';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -74,6 +75,7 @@ const registry: Record<string, ReportModule> = {
   'india-industrial-waste-recycling-economy': { toc: recyclingToc, Content: RecyclingContent },
   'india-critical-manufacturing-dependencies': { toc: cmddToc, Content: CmddContent },
   'kalpasar-economic-impact': { toc: kalpasarToc, Content: KalpasarContent },
+  'iaf-autonomous-air-power': { toc: iafToc, Content: IafContent },
 };
 
 export async function generateStaticParams() {

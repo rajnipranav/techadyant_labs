@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 850 650">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 20px;
+      }
+
+      .st0, .st1, .st2, .st3 {
+        fill: #0b2545;
+      }
+
+      .st0, .st4, .st5, .st3, .st6, .st7, .st8 {
+        isolation: isolate;
+      }
+
+      .st0, .st5, .st3 {
+        font-family: Calibri-Bold, Calibri;
+        font-weight: 700;
+      }
+
+      .st1, .st9, .st10, .st11, .st12, .st13 {
+        fill-opacity: .85;
+      }
+
+      .st1, .st9, .st11, .st2, .st12, .st13 {
+        stroke: #fff;
+      }
+
+      .st1, .st9, .st11, .st12, .st13 {
+        stroke-width: 2px;
+      }
+
+      .st9 {
+        fill: #75b8ea;
+      }
+
+      .st4, .st10, .st5 {
+        fill: #fff;
+      }
+
+      .st4, .st6, .st7 {
+        font-family: Calibri, Calibri;
+      }
+
+      .st4, .st7, .st8 {
+        font-size: 10px;
+      }
+
+      .st11 {
+        fill: #ed981d;
+      }
+
+      .st5 {
+        font-size: 13px;
+      }
+
+      .st2 {
+        stroke-width: 1.5px;
+      }
+
+      .st3 {
+        font-size: 11px;
+      }
+
+      .st6 {
+        font-size: 12px;
+      }
+
+      .st6, .st8 {
+        fill: #6b7280;
+      }
+
+      .st7 {
+        fill: #1f2937;
+      }
+
+      .st12 {
+        fill: #f7b852;
+      }
+
+      .st8 {
+        font-family: Calibri-Italic, Calibri;
+        font-style: italic;
+      }
+
+      .st13 {
+        fill: #a0c4d9;
+      }
+    </style>
+  </defs>
+  <text class="st0" transform="translate(219.63 36)"><tspan x="0" y="0">Air Defence Industrial Ecosystem™ (ADIE) — India</tspan></text>
+  <text class="st6" transform="translate(265.04 58)"><tspan x="0" y="0">5 concentric rings — Prime, Tier-1, Tier-2, SME, Startup/Academia</tspan></text>
+  <circle class="st13" cx="425" cy="355" r="260"/>
+  <circle class="st9" cx="425" cy="355" r="210"/>
+  <circle class="st11" cx="425" cy="355" r="160"/>
+  <circle class="st12" cx="425" cy="355" r="110"/>
+  <circle class="st1" cx="425" cy="355" r="60"/>
+  <text class="st5" transform="translate(407.3 347)"><tspan x="0" y="0">PRIME</tspan></text>
+  <text class="st4" transform="translate(401.19 367)"><tspan x="0" y="0">HAL · DRDO</tspan></text>
+  <rect class="st10" x="315" y="95" width="220" height="20"/>
+  <text class="st3" transform="translate(355.46 110)"><tspan x="0" y="0">Ring 5 — Academia &amp; Startups</tspan></text>
+  <rect class="st10" x="315" y="145" width="220" height="20"/>
+  <text class="st3" transform="translate(351.21 160)"><tspan x="0" y="0">Ring 4 — SME &amp; Specialist Tier-2</tspan></text>
+  <rect class="st10" x="315" y="195" width="220" height="20"/>
+  <text class="st3" transform="translate(373.06 210)"><tspan x="0" y="0">Ring 3 — Tier-1 Private</tspan></text>
+  <rect class="st10" x="315" y="245" width="220" height="20"/>
+  <text class="st3" transform="translate(376.51 260)"><tspan x="0" y="0">Ring 2 — Tier-1 DPSU</tspan></text>
+  <rect class="st10" x="315" y="295" width="220" height="20"/>
+  <text class="st3" transform="translate(350.27 310)"><tspan x="0" y="0">Ring 1 — Prime Integrator + R&amp;D</tspan></text>
+  <circle class="st2" cx="425" cy="600" r="4"/>
+  <text class="st7" transform="translate(379.69 625)"><tspan x="0" y="0">HAL — Prime airframe</tspan></text>
+  <circle class="st2" cx="637.2" cy="477.5" r="4"/>
+  <text class="st7" transform="translate(658.8 490)"><tspan x="0" y="0">DRDO ADE — UCAV/CCA design</tspan></text>
+  <circle class="st2" cx="637.2" cy="232.5" r="4"/>
+  <text class="st7" transform="translate(658.8 220)"><tspan x="0" y="0">LRDE — Radar/Sensors</tspan></text>
+  <circle class="st2" cx="194.8" cy="271.2" r="4"/>
+  <text class="st7" transform="translate(105 262.7)"><tspan x="0" y="0">GTRE — Engines</tspan></text>
+  <circle class="st2" cx="194.8" cy="438.8" r="4"/>
+  <text class="st7" transform="translate(84.42 447.3)"><tspan x="0" y="0">CAIR — AI/Autonomy</tspan></text>
+  <circle class="st2" cx="425" cy="550" r="4"/>
+  <text class="st7" transform="translate(385.44 575)"><tspan x="0" y="0">BEL — Avionics/EW</tspan></text>
+  <circle class="st2" cx="425" cy="163" r="4"/>
+  <text class="st7" transform="translate(391.32 135)"><tspan x="0" y="0">BDL — Weapons</tspan></text>
+  <circle class="st2" cx="620" cy="355" r="4"/>
+  <text class="st7" transform="translate(645 355)"><tspan x="0" y="0">ISRO — Space/HAPS</tspan></text>
+  <circle class="st2" cx="527.5" cy="457.5" r="4"/>
+  <text class="st7" transform="translate(545.2 475.2)"><tspan x="0" y="0">TASL — Private airframe</tspan></text>
+  <circle class="st2" cx="322.5" cy="457.5" r="4"/>
+  <text class="st7" transform="translate(247.15 475.2)"><tspan x="0" y="0">Adani — UAVs</tspan></text>
+  <circle class="st2" cx="322.5" cy="252.5" r="4"/>
+  <text class="st7" transform="translate(242.51 234.8)"><tspan x="0" y="0">L&amp;T — Systems</tspan></text>
+  <circle class="st2" cx="492.2" cy="284.8" r="4"/>
+  <text class="st7" transform="translate(509.9 270.1)"><tspan x="0" y="0">MIDHANI — Metals</tspan></text>
+  <circle class="st2" cx="330" cy="355" r="4"/>
+  <text class="st7" transform="translate(237.75 355)"><tspan x="0" y="0">CEMILAC — Cert</tspan></text>
+  <circle class="st2" cx="447.5" cy="394" r="4"/>
+  <text class="st7" transform="translate(460 415.6)"><tspan x="0" y="0">ideaForge — Tactical UAV</tspan></text>
+  <circle class="st2" cx="447.5" cy="316" r="4"/>
+  <text class="st7" transform="translate(460 293.4)"><tspan x="0" y="0">NewSpace — AI/Swarm</tspan></text>
+  <circle class="st2" cx="402.5" cy="394" r="4"/>
+  <text class="st7" transform="translate(299.82 415.6)"><tspan x="0" y="0">IIT-B / IISc — Research</tspan></text>
+  <circle class="st2" cx="402.5" cy="316" r="4"/>
+  <text class="st7" transform="translate(319.96 292.4)"><tspan x="0" y="0">NAL — Aero R&amp;D</tspan></text>
+  <text class="st8" transform="translate(193.9 635)"><tspan x="0" y="0">Note: Concentric rings represent depth; capability flows inward (SME → Prime) and outward (Prime → ecosystem).</tspan></text>
+</svg>

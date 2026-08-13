@@ -204,7 +204,19 @@ export const REPORTS = {
     dataObject: 'data/Green_Hydrogen_Report.xlsx',
     dataFilename: 'Green-Hydrogen-Mirage-or-Machine-Data-Pack-Techadyant-Labs.xlsx',
   },
+  'iaf-autonomous-air-power': {
+    access: 'paid',
+    priceInr: 5900,
+    object: 'IAF_Autonomous_Air_Power_Roadmap_2026-2035.pdf',
+    filename: 'IAF-Autonomous-Air-Power-Roadmap-2026-2035-Techadyant-Labs.pdf',
+    title: 'IAF Autonomous Air Power Roadmap 2026\u20132035',
+    // Report + Data tier: the IAF UAS workbook. Price authority for the data tier.
+    priceWithDataInr: 8900,
+    dataObject: 'data/IAF_Autonomous_Air_Power_Data_Workbook.xlsx',
+    dataFilename: 'IAF-Autonomous-Air-Power-Data-Pack-Techadyant-Labs.xlsx',
+  },
 };
+
 
 export function json(status, body) {
   return new Response(JSON.stringify(body), {

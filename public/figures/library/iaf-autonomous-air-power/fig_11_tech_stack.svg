@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 850.39 651.97">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 9px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10 {
+        isolation: isolate;
+      }
+
+      .st0, .st2, .st8 {
+        font-family: Calibri, Calibri;
+      }
+
+      .st0, .st5 {
+        fill: #1f2937;
+      }
+
+      .st1 {
+        font-size: 20px;
+      }
+
+      .st1, .st3, .st4, .st5, .st6, .st7, .st9 {
+        font-family: Calibri-Bold, Calibri;
+        font-weight: 700;
+      }
+
+      .st1, .st7 {
+        fill: #0b2545;
+      }
+
+      .st11, .st3 {
+        fill: #d4820a;
+      }
+
+      .st12 {
+        fill: #f7f7f4;
+        stroke: #e5e7eb;
+        stroke-width: .5px;
+      }
+
+      .st2, .st8, .st10 {
+        fill: #6b7280;
+      }
+
+      .st2, .st10 {
+        font-size: 10px;
+      }
+
+      .st3, .st4, .st6, .st8 {
+        font-size: 12px;
+      }
+
+      .st4, .st13 {
+        fill: #e89e1b;
+      }
+
+      .st14, .st6, .st9 {
+        fill: #c0392b;
+      }
+
+      .st5, .st7, .st9 {
+        font-size: 11px;
+      }
+
+      .st15 {
+        fill: none;
+        stroke: #c0392b;
+        stroke-dasharray: 4 3;
+        stroke-width: 2px;
+      }
+
+      .st16 {
+        fill: #5b8db8;
+      }
+
+      .st10 {
+        font-family: Calibri-Italic, Calibri;
+        font-style: italic;
+      }
+
+      .st17 {
+        fill: #1b7d46;
+      }
+    </style>
+  </defs>
+  <text class="st1" transform="translate(157.82 32.98)"><tspan x="0" y="0">Technology Stack — 15 Domains, India vs Frontier</tspan></text>
+  <text class="st8" transform="translate(193.46 54.98)"><tspan x="0" y="0">Bar length = India capability (1-5). Frontier = 5.0 reference line shown.</tspan></text>
+  <line class="st15" x1="528.38" y1="71.98" x2="528.38" y2="596.98"/>
+  <text class="st9" transform="translate(533.38 71.98)"><tspan x="0" y="0">Frontier (5.0)</tspan></text>
+  <text class="st5" transform="translate(64.72 103.98)"><tspan x="0" y="0">AI Models (LLM/perception)</tspan></text>
+  <rect class="st12" x="208.38" y="86.98" width="320" height="26"/>
+  <rect class="st11" x="208.38" y="86.98" width="128" height="26" rx="2" ry="2"/>
+  <text class="st3" transform="translate(344.38 103.98)"><tspan x="0" y="0">2/5</tspan></text>
+  <text class="st2" transform="translate(608.38 103.98)"><tspan x="0" y="0">Gap: -3</tspan></text>
+  <text class="st5" transform="translate(59.35 137.98)"><tspan x="0" y="0">Semiconductors (28nm node)</tspan></text>
+  <rect class="st12" x="208.38" y="120.98" width="320" height="26"/>
+  <rect class="st11" x="208.38" y="120.98" width="128" height="26" rx="2" ry="2"/>
+  <text class="st3" transform="translate(344.38 137.98)"><tspan x="0" y="0">2/5</tspan></text>
+  <text class="st2" transform="translate(608.38 137.98)"><tspan x="0" y="0">Gap: -3</tspan></text>
+  <text class="st5" transform="translate(71.71 171.98)"><tspan x="0" y="0">Semiconductors (rad-hard)</tspan></text>
+  <rect class="st12" x="208.38" y="154.98" width="320" height="26"/>
+  <rect class="st14" x="208.38" y="154.98" width="64" height="26" rx="2" ry="2"/>
+  <text class="st6" transform="translate(280.38 171.98)"><tspan x="0" y="0">1/5</tspan></text>
+  <text class="st2" transform="translate(608.38 171.98)"><tspan x="0" y="0">Gap: -4</tspan></text>
+  <text class="st5" transform="translate(73.53 205.98)"><tspan x="0" y="0">AESA Radar (T/R modules)</tspan></text>
+  <rect class="st12" x="208.38" y="188.98" width="320" height="26"/>
+  <rect class="st13" x="208.38" y="188.98" width="192" height="26" rx="2" ry="2"/>
+  <text class="st4" transform="translate(408.38 205.98)"><tspan x="0" y="0">3/5</tspan></text>
+  <text class="st2" transform="translate(608.38 205.98)"><tspan x="0" y="0">Gap: -2</tspan></text>
+  <text class="st5" transform="translate(105.41 239.98)"><tspan x="0" y="0">Mission Computers</tspan></text>
+  <rect class="st12" x="208.38" y="222.98" width="320" height="26"/>
+  <rect class="st13" x="208.38" y="222.98" width="192" height="26" rx="2" ry="2"/>
+  <text class="st4" transform="translate(408.38 239.98)"><tspan x="0" y="0">3/5</tspan></text>
+  <text class="st2" transform="translate(608.38 239.98)"><tspan x="0" y="0">Gap: -2</tspan></text>
+  <text class="st5" transform="translate(107.3 273.98)"><tspan x="0" y="0">EW (Internal Suite)</tspan></text>
+  <rect class="st12" x="208.38" y="256.98" width="320" height="26"/>
+  <rect class="st13" x="208.38" y="256.98" width="192" height="26" rx="2" ry="2"/>
+  <text class="st4" transform="translate(408.38 273.98)"><tspan x="0" y="0">3/5</tspan></text>
+  <text class="st2" transform="translate(608.38 273.98)"><tspan x="0" y="0">Gap: -2</tspan></text>
+  <text class="st5" transform="translate(67.23 307.98)"><tspan x="0" y="0">Communications (SDR/TDL)</tspan></text>
+  <rect class="st12" x="208.38" y="290.98" width="320" height="26"/>
+  <rect class="st13" x="208.38" y="290.98" width="192" height="26" rx="2" ry="2"/>
+  <text class="st4" transform="translate(408.38 307.98)"><tspan x="0" y="0">3/5</tspan></text>
+  <text class="st2" transform="translate(608.38 307.98)"><tspan x="0" y="0">Gap: -2</tspan></text>
+  <text class="st5" transform="translate(86.48 341.98)"><tspan x="0" y="0">Satcom (Ka-band AESA)</tspan></text>
+  <rect class="st12" x="208.38" y="324.98" width="320" height="26"/>
+  <rect class="st11" x="208.38" y="324.98" width="128" height="26" rx="2" ry="2"/>
+  <text class="st3" transform="translate(344.38 341.98)"><tspan x="0" y="0">2/5</tspan></text>
+  <text class="st2" transform="translate(608.38 341.98)"><tspan x="0" y="0">Gap: -3</tspan></text>
+  <text class="st5" transform="translate(55.7 375.98)"><tspan x="0" y="0">Navigation (NavIC integration)</tspan></text>
+  <rect class="st12" x="208.38" y="358.98" width="320" height="26"/>
+  <rect class="st13" x="208.38" y="358.98" width="192" height="26" rx="2" ry="2"/>
+  <text class="st4" transform="translate(408.38 375.98)"><tspan x="0" y="0">3/5</tspan></text>
+  <text class="st2" transform="translate(608.38 375.98)"><tspan x="0" y="0">Gap: -2</tspan></text>
+  <text class="st5" transform="translate(68.57 409.98)"><tspan x="0" y="0">Sensors (EO/IR Focal Plane)</tspan></text>
+  <rect class="st12" x="208.38" y="392.98" width="320" height="26"/>
+  <rect class="st11" x="208.38" y="392.98" width="128" height="26" rx="2" ry="2"/>
+  <text class="st3" transform="translate(344.38 409.98)"><tspan x="0" y="0">2/5</tspan></text>
+  <text class="st2" transform="translate(608.38 409.98)"><tspan x="0" y="0">Gap: -3</tspan></text>
+  <text class="st5" transform="translate(80.79 443.98)"><tspan x="0" y="0">Sensors (ELINT/COMINT)</tspan></text>
+  <rect class="st12" x="208.38" y="426.98" width="320" height="26"/>
+  <rect class="st13" x="208.38" y="426.98" width="192" height="26" rx="2" ry="2"/>
+  <text class="st4" transform="translate(408.38 443.98)"><tspan x="0" y="0">3/5</tspan></text>
+  <text class="st2" transform="translate(608.38 443.98)"><tspan x="0" y="0">Gap: -2</tspan></text>
+  <text class="st5" transform="translate(61.68 477.98)"><tspan x="0" y="0">Power Systems (HAPS-grade)</tspan></text>
+  <rect class="st12" x="208.38" y="460.98" width="320" height="26"/>
+  <rect class="st11" x="208.38" y="460.98" width="128" height="26" rx="2" ry="2"/>
+  <text class="st3" transform="translate(344.38 477.98)"><tspan x="0" y="0">2/5</tspan></text>
+  <text class="st2" transform="translate(608.38 477.98)"><tspan x="0" y="0">Gap: -3</tspan></text>
+  <text class="st5" transform="translate(73.99 511.98)"><tspan x="0" y="0">Composite Structures (LO)</tspan></text>
+  <rect class="st12" x="208.38" y="494.98" width="320" height="26"/>
+  <rect class="st11" x="208.38" y="494.98" width="128" height="26" rx="2" ry="2"/>
+  <text class="st3" transform="translate(344.38 511.98)"><tspan x="0" y="0">2/5</tspan></text>
+  <text class="st2" transform="translate(608.38 511.98)"><tspan x="0" y="0">Gap: -3</tspan></text>
+  <text class="st5" transform="translate(75.52 545.98)"><tspan x="0" y="0">Jet Engines (UCAV/AMCA)</tspan></text>
+  <rect class="st12" x="208.38" y="528.98" width="320" height="26"/>
+  <rect class="st11" x="208.38" y="528.98" width="128" height="26" rx="2" ry="2"/>
+  <text class="st3" transform="translate(344.38 545.98)"><tspan x="0" y="0">2/5</tspan></text>
+  <text class="st2" transform="translate(608.38 545.98)"><tspan x="0" y="0">Gap: -3</tspan></text>
+  <text class="st5" transform="translate(75.12 579.98)"><tspan x="0" y="0">Batteries (Energy Density)</tspan></text>
+  <rect class="st12" x="208.38" y="562.98" width="320" height="26"/>
+  <rect class="st11" x="208.38" y="562.98" width="128" height="26" rx="2" ry="2"/>
+  <text class="st3" transform="translate(344.38 579.98)"><tspan x="0" y="0">2/5</tspan></text>
+  <text class="st2" transform="translate(608.38 579.98)"><tspan x="0" y="0">Gap: -3</tspan></text>
+  <text class="st7" transform="translate(208.38 616.98)"><tspan x="0" y="0">Capability level:</tspan></text>
+  <rect class="st14" x="333.38" y="604.98" width="14" height="14"/>
+  <text class="st0" transform="translate(350.38 616.98)"><tspan x="0" y="0">1 Critical gap</tspan></text>
+  <rect class="st11" x="433.38" y="604.98" width="14" height="14"/>
+  <text class="st0" transform="translate(450.38 616.98)"><tspan x="0" y="0">2 Major gap</tspan></text>
+  <rect class="st13" x="523.38" y="604.98" width="14" height="14"/>
+  <text class="st0" transform="translate(540.38 616.98)"><tspan x="0" y="0">3 Closing</tspan></text>
+  <rect class="st16" x="613.38" y="604.98" width="14" height="14"/>
+  <text class="st0" transform="translate(630.38 616.98)"><tspan x="0" y="0">4 Near-frontier</tspan></text>
+  <rect class="st17" x="728.38" y="604.98" width="14" height="14"/>
+  <text class="st0" transform="translate(745.38 616.98)"><tspan x="0" y="0">5 At frontier</tspan></text>
+  <text class="st10" transform="translate(157.94 647.17)"><tspan x="0" y="0">India averages 2.3/5 across 15 technology domains. Largest gaps: rad-hard semiconductors (-4), HAPS power systems (-3).</tspan></text>
+</svg>

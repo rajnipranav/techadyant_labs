@@ -282,6 +282,56 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'iaf-autonomous-air-power',
+  title: 'IAF Autonomous Air Power Roadmap 2026–2035',
+  subtitle: 'What industrial substrate must India build for autonomous air power — and how the IAF closes a 34/100 readiness gap against the USAF\'s 88 benchmark by 2035.',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Intelligence · Edition 1 · v1.0',
+  published: '2026-08-14',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India enters 2026–2035 with an assessed Air Autonomy Readiness Index of 34/100 — less than half the USAF benchmark of 88 — and the gap is concentrated in the AI software stack (-56 vs USAF) rather than aircraft. This strategic-intelligence assessment argues that the decade\'s defining task is the industrial substrate beneath autonomous air power: four critical-risk dependencies — semiconductors, AI compute, jet engines and carbon fibre — each scored 20/25 on the Strategic Dependency Matrix, none fully mitigable before 2030. The cost-exchange ratio has flipped nearly three orders of magnitude (1.5:1 in 1990 to a projected ~750:1 for autonomous swarms vs exquisite SAMs by 2035), making exquisite-heavy air defence structurally unaffordable against autonomous mass. If India holds the intervention path, the report models AARI 58–62 by 2035 (42–46 under no intervention); a 31-squadron IAF in MUM-T configuration delivers the combat mass of a 60+ squadron legacy force. The IOSM ranks 75 opportunity surfaces; recommendation R2 proposes a $5B/10-year Autonomous Aerospace Fund. Twelve chapters, six appendices, six proprietary frameworks.',
+  accent: '#5B8DB8',
+  access: 'paid',
+  price: 5900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 142,
+  cover: 'https://library.techadyant.com/covers/IAF_Autonomous_Air_Power_Roadmap_2026-2035.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/IAF_Autonomous_Air_Power_Roadmap_2026-2035_Free.pdf',
+  previewPages: 29,
+  hasData: true,
+  priceWithData: 8900,
+  dataFilename: 'IAF-Autonomous-Air-Power-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['india autonomous air power', 'IAF unmanned combat aerial vehicle', 'india UCAV roadmap', 'CATS Warrior india', 'air autonomy readiness index', 'india AI software defense', 'india jet engine dependency', 'autonomous air defence india', 'IAF 2035 roadmap', 'india strategic dependency defence', 'PLAAF AI swarm threat india', 'india drone cost exchange ratio'],
+  faq: [{
+  a: 'India scores 34/100 on the Air Autonomy Readiness Index vs USAF 88, PLAAF 72, RAF 71 and RAAF 66. The largest absolute gaps are AI Software Stack (-56 vs USAF) and Platform Maturity (-54). The report models AARI 58-62 by 2035 under intervention scenarios and 42-46 under no intervention.',
+  q: 'How ready is India for autonomous air power?'
+}, {
+  a: 'Four vectors score 20/25 (Critical) on the Strategic Dependency Matrix: semiconductors (advanced node ≤28nm), AI compute (H100/H200-class GPUs), jet engines (UCAV/AMCA-class) and carbon fibre (PAN precursor). A further four — IR detector arrays, IMU/INS, AESA T/R modules and rare-earth magnets — score 16/25 (High). None of the four critical vectors is fully mitigable before 2030.',
+  q: 'What are India\'s most critical strategic dependencies in autonomous air?'
+}, {
+  a: 'The ratio of defender cost to attacker cost has moved from ~1.5:1 (1990) to ~12:1 for fifth-generation fighters, ~90:1 for cheap drones (Bayraktar vs Pantsir) and a projected ~750:1 for autonomous swarms vs exquisite SAMs by 2035 — nearly three orders of magnitude. It implies an exquisite-heavy air-defence architecture (S-400, Patriot, MR-SAM, Akash) faces acute affordability pressure against sustained autonomous mass.',
+  q: 'What is the cost-exchange ratio and why does it matter?'
+}, {
+  a: 'The report assesses the CATS Warrior IOC of 2030 as the single most consequential programme date in the IAF\'s decade: a slip to 2032 cascades force-structure crossover past 2035. Three subsystems determine it — the small turbofan engine, electronic warfare and the tactical data link. In MUM-T configuration, a 31-squadron IAF delivers the combat mass of a 60+ squadron legacy force.',
+  q: 'Why is the CATS Warrior 2030 IOC so important?'
+}, {
+  a: 'The Industrial Opportunity Surface Matrix ranks 75 opportunity surfaces across eight clusters; the Top-25 is concentrated in AI Software (10), Avionics (5) and Sensors/EW (4). Recommendation R2 proposes a $5B/10-year Autonomous Aerospace Fund mirroring that cluster distribution. The Excel companion workbook carries live, formula-driven IOSM scoring.',
+  q: 'Where should Indian industry build in autonomous air?'
+}],
+  sources: ['IISS Military Balance', 'US DoD China Military Power Report', 'CSIS and RUSI analyses', 'MoD / PIB releases and parliamentary testimony', 'USAF CCA programme documents; Boeing F-47 announcement (March 2025)', 'Ukraine, Red Sea and Israel-Lebanon engagement data (Techadyant Labs analysis)', 'Techadyant Labs proprietary frameworks and scoring'],
+  dateModified: '2026-08-14',
+  seo: {
+  entities: ['Indian Air Force', 'AARI', 'CATS Warrior', 'Ghatak', 'UCAV', 'MUM-T', 'GJ-11', 'NGAD', 'F-47', 'AI Software Stack', 'Strategic Dependency Matrix', 'IOSM', 'Autonomous Aerospace Fund'],
+  metaTitle: 'IAF Autonomous Air Power Roadmap 2026–2035: India UCAV & Air Autonomy Strategy',
+  schemaType: 'Report',
+  focusKeyword: 'india autonomous air power roadmap',
+  metaDescription: 'India\'s autonomous-air readiness gap (AARI 34 vs USAF 88), the 2035 projection (58–62 vs 42–46), four critical dependencies scored 20/25, the cost-exchange revolution and 75 IOSM opportunity surfaces for Indian industry.'
+}
+}, {
   slug: 'kalpasar-economic-impact',
   title: 'Kalpasar Economic Impact Assessment',
   subtitle: 'A platform-infrastructure lens on India’s unsanctioned multi-billion-dollar bay project',
@@ -361,6 +411,53 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'india green hydrogen',
   metaDescription: 'India’s green-hydrogen industrial reality — the NGHM and SIGHT money, electrolyser manufacturing, iridium/platinum catalysts, PFSA membranes, LCOH, and three 2035 scenarios (Mirage, Muddle, Machine).'
+}
+}, {
+  slug: 'q-day-india',
+  title: 'Q-Day India',
+  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
+  domain: 'Strategic Technology',
+  edition: 'Strategic Risk · 2026 Free Edition',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 90 min read',
+  status: 'published',
+  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
+  accent: '#38E1C4',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 152,
+  cover: 'https://library.techadyant.com/covers/Techadyant_Labs_QDay_Report.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
+  previewPages: 152,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
+  faq: [{
+  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
+  q: 'What is Q-Day?'
+}, {
+  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
+  q: 'What should Indian organisations do first?'
+}, {
+  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
+  q: 'Why migrate before Q-Day arrives?'
+}, {
+  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
+  q: 'Which sectors are most exposed in India?'
+}],
+  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
+  dateModified: '2026-08-02',
+  seo: {
+  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
+  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
+  schemaType: 'Report',
+  focusKeyword: 'post-quantum cryptography India',
+  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
 }
 }, {
   slug: 'beyond-solar-panels',
@@ -463,53 +560,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.'
 }
 }, {
-  slug: 'q-day-india',
-  title: 'Q-Day India',
-  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
-  domain: 'Strategic Technology',
-  edition: 'Strategic Risk · 2026 Free Edition',
-  published: '2026-08-02',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 90 min read',
-  status: 'published',
-  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
-  accent: '#38E1C4',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 152,
-  cover: 'https://library.techadyant.com/covers/Techadyant_Labs_QDay_Report.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
-  previewPages: 152,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
-  faq: [{
-  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
-  q: 'What is Q-Day?'
-}, {
-  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
-  q: 'What should Indian organisations do first?'
-}, {
-  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
-  q: 'Why migrate before Q-Day arrives?'
-}, {
-  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
-  q: 'Which sectors are most exposed in India?'
-}],
-  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
-  dateModified: '2026-08-02',
-  seo: {
-  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
-  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
-  schemaType: 'Report',
-  focusKeyword: 'post-quantum cryptography India',
-  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
-}
-}, {
   slug: 'india-critical-manufacturing-dependencies',
   title: 'India’s Critical Manufacturing Dependencies',
   subtitle: 'What should India manufacture domestically over the next decade — why, where, how, and who should build it? 312 strategic import surfaces scored across twelve mega-sectors on the Critical Manufacturing Dependency Index, with twelve executable opportunity zones.',
@@ -560,6 +610,44 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s strategic import dependencies scored on the Critical Manufacturing Dependency Index — 312 surfaces across twelve sectors, the deepest chokepoints, twelve opportunity zones and a $480 billion localisation map to 2035.'
 }
 }, {
+  slug: 'dholera-semiconductor-supplier-ecosystem',
+  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
+  domain: 'Semiconductor Ecosystems',
+  edition: 'Edition 01',
+  published: '2026-07-26',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 30 min read',
+  status: 'published',
+  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
+  accent: '#F5B544',
+  access: 'paid',
+  price: 5900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 28,
+  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
+  previewPages: 14,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-07-26',
+  seo: {
+  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
+  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  schemaType: 'Report',
+  focusKeyword: 'Dholera semiconductor ecosystem',
+  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
+  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
+}
+}, {
   slug: 'india-industrial-waste-recycling-economy',
   title: 'India\'s Industrial Waste & Recycling Economy',
   subtitle: 'Battery metals, e-waste, chemical recovery and the secondary-industrial opportunity across Indian recycling corridors',
@@ -598,44 +686,6 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India industrial waste recycling economy',
   metaDescription: 'Strategic intelligence on India\'s industrial waste and recycling economy — battery metals, e-waste, black mass, chemical recovery and secondary-industrial corridors.'
-}
-}, {
-  slug: 'dholera-semiconductor-supplier-ecosystem',
-  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
-  domain: 'Semiconductor Ecosystems',
-  edition: 'Edition 01',
-  published: '2026-07-26',
-  publishedLabel: 'July 2026',
-  readingTime: '~ 30 min read',
-  status: 'published',
-  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
-  accent: '#F5B544',
-  access: 'paid',
-  price: 5900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 28,
-  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
-  previewPages: 14,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-07-26',
-  seo: {
-  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
-  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  schemaType: 'Report',
-  focusKeyword: 'Dholera semiconductor ecosystem',
-  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
-  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
 }
 }, {
   slug: 'quantum-supply-chain',
@@ -1167,56 +1217,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'Around 90% of small-drone flight controllers come from China. The market, the silicon, and how India builds a trusted flight-controller and drone-electronics stack.'
 }
 }, {
-  slug: 'the-end-of-the-application-era',
-  title: 'Who Captures Computing When the Application Disappears?',
-  subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
-  domain: 'AI Infrastructure',
-  edition: 'Strategic Foresight · Technology Sovereignty Series · v1.0',
-  published: '2026-06-16',
-  publishedLabel: 'June 2026',
-  readingTime: '~ 2.5h read',
-  status: 'published',
-  summary: 'Every fifteen-to-twenty years the operating system is redesigned, and agentic AI is the trigger for the next one. As work shifts from applications a human opens to goals an agent pursues, the three foundations of the modern OS — CPU-centric scheduling, human-login security and application-siloed state — break at once. This report argues that value migrates down from the application layer into four control primitives — accelerated inference, identity, memory and scheduling (AIMS) — and scores who is positioned to own them on a proprietary Agent-Native Capture Index (ANCI): in 2026 there is no Primitive Owner, and the leaders win on breadth, not depth. It maps the Post-Application Stack layer by layer, traces the hardware chokepoints (advanced packaging, HBM, export policy), and sets out where India — strong in public digital infrastructure and sovereign compute, dependent on the AIMS primitives — can capture the next layer rather than the last one. Eight parts, twenty-six chapters, eighteen figures and the PAS / AIMS / ANCI framework family. Free, and readable in full on this page.',
-  accent: '#818CF8',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 151,
-  cover: 'https://library.techadyant.com/covers/the%20end%20of%20application%20era.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/The-End-of-the-Application-Era.pdf',
-  previewPages: 151,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['end of the application era', 'agentic AI operating system', 'post-application stack', 'AIMS framework', 'agent-native capture index', 'future of computing', 'AI operating system', 'agent infrastructure', 'India AI sovereignty', 'sovereign compute India', 'advanced packaging chokepoint', 'operating system redesign AI'],
-  faq: [{
-  a: 'It means the application — the unit we install, trust and open — is becoming friction as work shifts to AI agents that pursue goals across many tools at once. Operating-system dominance has shifted roughly every one to two decades, always when the dominant workload rebalances rather than when features grow; agentic AI is that rebalancing, and it breaks CPU-centric scheduling, human-login security and application-siloed state simultaneously.',
-  q: 'What does “the end of the application era” mean?'
-}, {
-  a: 'Four control primitives the report groups as AIMS — Accelerated inference, Identity, Memory and Scheduling. Value migrates down from the application layer into these primitives, which become the real operating system of the agent era. The report formalises them in an eight-layer Post-Application Stack (PAS).',
-  q: 'What replaces the application as the unit of computing?'
-}, {
-  a: 'ANCI is the report’s 0–100 framework scoring who controls the AIMS primitives. Its headline finding for 2026 is that there is no Primitive Owner: today’s leaders win on breadth across the stack, not depth in any single primitive — which is precisely why the layer is still contestable.',
-  q: 'What is the Agent-Native Capture Index (ANCI)?'
-}, {
-  a: 'It inverts it. Existing models secure human logins, but machine workloads are now using those logins. The report argues trust will move to capability tokens and delegation policy — securing what an agent is permitted to do, for whom, and for how long — rather than who is signed in.',
-  q: 'How does agentic AI change operating-system security?'
-}, {
-  a: 'India is AIMS-dependent but sovereignty-strong: its public digital infrastructure (Aadhaar, UPI, MOSIP) and expanding sovereign compute give it a credible, time-limited advantage. The leapfrog runs through agent-aware design of that public infrastructure and through the identity and consent layer — not through trying to out-build hyperscalers on raw compute.',
-  q: 'Where can India capture value in the post-application era?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['AI agents', 'MCP', 'post-application stack', 'hyperscalers', 'NVIDIA', 'India Stack'],
-  metaTitle: 'AI Agents and the End of the Application Era: Who Captures Computing?',
-  schemaType: 'Report',
-  focusKeyword: 'AI agents replacing applications',
-  metaDescription: 'As AI agents replace applications as the primary interface to computing, value moves to inference, identity, memory and scheduling. Who captures the post-application stack — and where India stands. Free report.'
-}
-}, {
   slug: 'india-drone-sensors-payloads-imaging-market',
   title: 'India Drone Sensors, Payloads & Imaging Systems Market',
   subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
@@ -1265,6 +1265,56 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India drone sensors market',
   metaDescription: 'India\'s drone sensor and payload market mapped: EO/IR gimbals, LiDAR, thermal and multispectral imaging, remote-sensing payloads — market structure, import dependence and the localisation opportunity.'
+}
+}, {
+  slug: 'the-end-of-the-application-era',
+  title: 'Who Captures Computing When the Application Disappears?',
+  subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
+  domain: 'AI Infrastructure',
+  edition: 'Strategic Foresight · Technology Sovereignty Series · v1.0',
+  published: '2026-06-16',
+  publishedLabel: 'June 2026',
+  readingTime: '~ 2.5h read',
+  status: 'published',
+  summary: 'Every fifteen-to-twenty years the operating system is redesigned, and agentic AI is the trigger for the next one. As work shifts from applications a human opens to goals an agent pursues, the three foundations of the modern OS — CPU-centric scheduling, human-login security and application-siloed state — break at once. This report argues that value migrates down from the application layer into four control primitives — accelerated inference, identity, memory and scheduling (AIMS) — and scores who is positioned to own them on a proprietary Agent-Native Capture Index (ANCI): in 2026 there is no Primitive Owner, and the leaders win on breadth, not depth. It maps the Post-Application Stack layer by layer, traces the hardware chokepoints (advanced packaging, HBM, export policy), and sets out where India — strong in public digital infrastructure and sovereign compute, dependent on the AIMS primitives — can capture the next layer rather than the last one. Eight parts, twenty-six chapters, eighteen figures and the PAS / AIMS / ANCI framework family. Free, and readable in full on this page.',
+  accent: '#818CF8',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 151,
+  cover: 'https://library.techadyant.com/covers/the%20end%20of%20application%20era.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/The-End-of-the-Application-Era.pdf',
+  previewPages: 151,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['end of the application era', 'agentic AI operating system', 'post-application stack', 'AIMS framework', 'agent-native capture index', 'future of computing', 'AI operating system', 'agent infrastructure', 'India AI sovereignty', 'sovereign compute India', 'advanced packaging chokepoint', 'operating system redesign AI'],
+  faq: [{
+  a: 'It means the application — the unit we install, trust and open — is becoming friction as work shifts to AI agents that pursue goals across many tools at once. Operating-system dominance has shifted roughly every one to two decades, always when the dominant workload rebalances rather than when features grow; agentic AI is that rebalancing, and it breaks CPU-centric scheduling, human-login security and application-siloed state simultaneously.',
+  q: 'What does “the end of the application era” mean?'
+}, {
+  a: 'Four control primitives the report groups as AIMS — Accelerated inference, Identity, Memory and Scheduling. Value migrates down from the application layer into these primitives, which become the real operating system of the agent era. The report formalises them in an eight-layer Post-Application Stack (PAS).',
+  q: 'What replaces the application as the unit of computing?'
+}, {
+  a: 'ANCI is the report’s 0–100 framework scoring who controls the AIMS primitives. Its headline finding for 2026 is that there is no Primitive Owner: today’s leaders win on breadth across the stack, not depth in any single primitive — which is precisely why the layer is still contestable.',
+  q: 'What is the Agent-Native Capture Index (ANCI)?'
+}, {
+  a: 'It inverts it. Existing models secure human logins, but machine workloads are now using those logins. The report argues trust will move to capability tokens and delegation policy — securing what an agent is permitted to do, for whom, and for how long — rather than who is signed in.',
+  q: 'How does agentic AI change operating-system security?'
+}, {
+  a: 'India is AIMS-dependent but sovereignty-strong: its public digital infrastructure (Aadhaar, UPI, MOSIP) and expanding sovereign compute give it a credible, time-limited advantage. The leapfrog runs through agent-aware design of that public infrastructure and through the identity and consent layer — not through trying to out-build hyperscalers on raw compute.',
+  q: 'Where can India capture value in the post-application era?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['AI agents', 'MCP', 'post-application stack', 'hyperscalers', 'NVIDIA', 'India Stack'],
+  metaTitle: 'AI Agents and the End of the Application Era: Who Captures Computing?',
+  schemaType: 'Report',
+  focusKeyword: 'AI agents replacing applications',
+  metaDescription: 'As AI agents replace applications as the primary interface to computing, value moves to inference, identity, memory and scheduling. Who captures the post-application stack — and where India stands. Free report.'
 }
 }, {
   slug: 'osat-and-the-packaging-frontier',
