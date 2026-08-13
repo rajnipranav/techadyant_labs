@@ -88,7 +88,7 @@ export default async function CorrectionsPage() {
         )}
 
         <p className="note-fine" style={{ marginTop: 28 }}>
-          Spotted something that needs correcting? <Link href="/feedback/">Tell us</Link> — we take accuracy seriously and
+          Spotted something that needs correcting? <Link href="/shape/">Tell us</Link> — we take accuracy seriously and
           act on credible reports quickly. See also our <Link href="/methodology/">methodology</Link>.
         </p>
       </section>

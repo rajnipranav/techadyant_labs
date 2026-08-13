@@ -257,7 +257,7 @@ gtag('config', 'G-916MZ965VB');`,
                     <li><Link href="/methodology/">Methodology</Link></li>
                     <li><Link href="/services/">Commission research</Link></li>
                     <li><Link href="/licensing/">Team &amp; institutional licensing</Link></li>
-                    <li><Link href="/feedback/">Request a report</Link></li>
+                    <li><Link href="/shape/">Shape Techadyant</Link></li>
                     <li><Link href="/contact/">Contact</Link></li>
                     <li><Link href="/methodology/#independence">Independence policy</Link></li>
                     <li><Link href="/account/">Account</Link></li>

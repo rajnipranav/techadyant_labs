@@ -19,7 +19,11 @@
  */
 import { json } from './_shared.js';
 
-const TYPES = ['report_request', 'site_gap', 'report_rating', 'general'];
+const TYPES = [
+  'report_request', 'site_gap', 'report_rating', 'general',
+  'research_suggestion', 'research_question', 'feature_request', 'atlas_contribution', 'content_feedback',
+];
+const HELPFUL = ['yes', 'partly', 'no'];
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
 function escapeHtml(s) {
@@ -62,7 +66,11 @@ async function addSubscriber(env, email, source) {
 async function notifyAdmin(env, row) {
   if (!env.RESEND_API_KEY || !env.INBOX_LABS) return;
   const from = env.FROM_EMAIL || 'labs@techadyant.com';
-  const label = { report_request: 'Report request', site_gap: 'Site gap / not found', report_rating: 'Report rating', general: 'Feedback' }[row.type] || 'Feedback';
+  const label = {
+    report_request: 'Report request', research_suggestion: 'Research suggestion', research_question: 'Research question',
+    feature_request: 'Feature suggestion', atlas_contribution: 'Atlas contribution',
+    site_gap: 'Site gap / not found', report_rating: 'Report rating', content_feedback: 'Content feedback', general: 'Feedback',
+  }[row.type] || 'Feedback';
   const html = `<!doctype html><html><body style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:14px;line-height:1.5;color:#222;padding:16px">
 <p><strong>New ${escapeHtml(label)}</strong></p>
 <table cellpadding="6" cellspacing="0" border="0" style="border-collapse:collapse">
@@ -71,7 +79,10 @@ async function notifyAdmin(env, row) {
   ${row.topic ? `<tr><td style="color:#666">Topic</td><td>${escapeHtml(row.topic)}</td></tr>` : ''}
   ${row.report_slug ? `<tr><td style="color:#666">Report</td><td>${escapeHtml(row.report_slug)}</td></tr>` : ''}
   ${row.rating ? `<tr><td style="color:#666">Rating</td><td>${escapeHtml(row.rating)}/5</td></tr>` : ''}
+  ${row.helpful ? `<tr><td style="color:#666">Helpful?</td><td>${escapeHtml(row.helpful)}</td></tr>` : ''}
   ${row.message ? `<tr><td style="color:#666;vertical-align:top">Message</td><td>${escapeHtml(row.message)}</td></tr>` : ''}
+  ${row.decision_context ? `<tr><td style="color:#666;vertical-align:top">Decision</td><td>${escapeHtml(row.decision_context)}</td></tr>` : ''}
+  ${row.gap ? `<tr><td style="color:#666;vertical-align:top">Still looking for</td><td>${escapeHtml(row.gap)}</td></tr>` : ''}
   ${row.page_url ? `<tr><td style="color:#666">Page</td><td>${escapeHtml(row.page_url)}</td></tr>` : ''}
   <tr><td style="color:#666">Country</td><td>${escapeHtml(row.country || '—')}</td></tr>
 </table>
@@ -101,11 +112,26 @@ export async function onRequestPost(context) {
     const reportSlug = String(body.report_slug || '').trim().slice(0, 200);
     const pageUrl = String(body.page_url || '').trim().slice(0, 500);
     const source = String(body.source || 'feedback-form').slice(0, 64);
+    const decisionContext = String(body.decision_context || '').trim().slice(0, 2000);
+    const gap = String(body.gap || '').trim().slice(0, 2000);
+    const contentType = String(body.content_type || '').trim().slice(0, 40);
+    const helpful = HELPFUL.includes(body.helpful) ? body.helpful : null;
     let rating = parseInt(body.rating, 10);
     if (!(rating >= 1 && rating <= 5)) rating = null;
+    // Form-specific extras kept in a jsonb blob (audience, research types,
+    // willingness-to-pay, entity type, source URLs, etc.). Bounded + string-coerced.
+    let details = {};
+    if (body.details && typeof body.details === 'object' && !Array.isArray(body.details)) {
+      for (const [k, v] of Object.entries(body.details)) {
+        if (typeof k !== 'string') continue;
+        if (Array.isArray(v)) details[k.slice(0, 40)] = v.slice(0, 20).map((x) => String(x).slice(0, 120));
+        else if (v != null) details[k.slice(0, 40)] = String(v).slice(0, 500);
+        if (Object.keys(details).length > 25) break;
+      }
+    }
 
     // Require at least something to act on.
-    if (!message && !topic && !rating) {
+    if (!message && !topic && !rating && !helpful && !gap) {
       return json(400, { error: 'empty', message: 'Please add a message, a topic or a rating.' });
     }
     if (email && (!EMAIL_RE.test(email) || email.length > 254)) {
@@ -127,6 +153,11 @@ export async function onRequestPost(context) {
       topic: topic || null,
       report_slug: reportSlug || null,
       rating,
+      decision_context: decisionContext || null,
+      gap: gap || null,
+      helpful,
+      content_type: contentType || null,
+      details,
       page_url: pageUrl || null,
       source,
       country,

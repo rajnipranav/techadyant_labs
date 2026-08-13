@@ -59,7 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/resources/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE}/methodology/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE}/licensing/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${SITE}/feedback/`,  lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${SITE}/shape/`,     lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE}/support/`,   lastModified: now, changeFrequency: 'yearly', priority: 0.4 },
     { url: `${SITE}/corrections/`, lastModified: now, changeFrequency: 'weekly', priority: 0.4 },
     { url: `${SITE}/refund/`,    lastModified: now, changeFrequency: 'yearly', priority: 0.3 },

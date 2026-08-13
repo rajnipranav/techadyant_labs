@@ -307,6 +307,19 @@ export async function onRequest(context) {
       const b = await request.json();
       return reply(await rpc(S, SK, 'admin_feedback_update', { p_id: b.id, p_status: b.status || null, p_note: b.note ?? null }));
     }
+    if (route === '/radar')             return reply(await rpc(S, SK, 'admin_radar'));
+    if (request.method === 'POST' && route === '/radar/save') {
+      const b = await request.json();
+      return reply(await rpc(S, SK, 'admin_radar_save', {
+        p_id: b.id || null, p_topic: b.topic, p_description: b.description ?? null, p_research_type: b.research_type ?? null,
+        p_status: b.status || null, p_linked_slug: b.linked_slug ?? null, p_linked_type: b.linked_type ?? null,
+        p_from_demand: b.from_demand ?? null, p_sort: b.sort ?? null, p_is_public: b.is_public ?? null,
+      }));
+    }
+    if (request.method === 'POST' && route === '/radar/delete') {
+      const b = await request.json();
+      return reply(await rpc(S, SK, 'admin_radar_delete', { p_id: b.id }));
+    }
     if (route === '/subscribers/stats') return reply(await rpc(S, SK, 'subscriber_stats'));
     if (route === '/subscribers/list')  return reply(await rpc(S, SK, 'subscriber_list', { p_source: q.get('source') || null, p_q: q.get('q') || null, p_limit: Number(q.get('limit') || 500), p_offset: Number(q.get('offset') || 0) }));
     if (request.method === 'POST' && route === '/subscribers/test-welcome') {

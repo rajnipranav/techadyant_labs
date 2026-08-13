@@ -8,6 +8,7 @@ import { ReportAccess } from '../../components/ReportAccess';
 import { PremiumBody } from '../../components/PremiumBody';
 import { ReportCover } from '../../components/ReportCover';
 import { ReportReader, type TocItem } from '../../components/ReportReader';
+import { MicroFeedback } from '../../components/MicroFeedback';
 import { ShareBar } from '../../components/ShareBar';
 import { RelatedContent } from '../../components/RelatedContent';
 import { Comments } from '../../components/Comments';
@@ -425,6 +426,13 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
               </p>
             </section>
           ) : null}
+
+          <section className="wrap-narrow" style={{ paddingTop: 8, paddingBottom: 8 }}>
+            <MicroFeedback contentType="report" contentId={meta.slug} prompt="Did this research answer your question?" />
+            <p className="note-fine" style={{ marginTop: 12 }}>
+              Want us to go deeper on this — or research something adjacent? <Link href="/shape/">Shape what we research next →</Link>
+            </p>
+          </section>
         </ReportCommerceProvider>
       ) : (
         <section className="wrap-narrow" style={{ paddingTop: 56 }}>

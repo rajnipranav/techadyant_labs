@@ -21,7 +21,7 @@ const NAV = [
   },
   { group: 'Publishing', items: [{ href: '/admin/pipeline', label: 'Research pipeline' }, { href: '/admin/promotion', label: 'Promotion tracker' }] },
   { group: 'Commerce', items: [{ href: '/admin/sales', label: 'Sales & customers' }] },
-  { group: 'Voice of customer', items: [{ href: '/admin/feedback', label: 'Feedback & requests' }] },
+  { group: 'Voice of customer', items: [{ href: '/admin/feedback', label: 'Feedback & requests' }, { href: '/admin/radar', label: 'Research Radar' }] },
   { group: 'Audience', items: [{ href: '/admin/subscribers', label: 'Subscribers' }, { href: '/admin/announcements', label: 'Announcements' }] },
   { group: 'Feeds & ops', items: [{ href: '/admin/signals', label: 'Signals' }, { href: '/admin/ops', label: 'Workflow runs' }, { href: '/admin/site', label: 'Site management' }] },
   { group: 'CMS', items: [{ href: '/admin/cms', label: 'Reports' }, { href: '/admin/cms?type=signals', label: 'Signals' }, { href: '/admin/cms?type=briefings', label: 'Briefings' }, { href: '/admin/cms?type=newsletters', label: 'Newsletters' }, { href: '/admin/cms?type=pages', label: 'Pages' }] },

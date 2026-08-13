@@ -988,39 +988,39 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Marvell will invest US$250 million over three years and expand its Bengaluru and Hyderabad presence, doubling Indian headcount to support advanced semiconductor design.', 'The announcement signals a structural shift in India\'s semiconductor role: from manufacturing support and assembly toward global chip architecture, ASIC design, verification and AI accelerator development.', 'The scarce resource is now engineering talent — RTL, physical design, DFT, verification, AI accelerator architecture and high-speed SerDes — which makes semiconductor education and ecosystem development a strategic industry.', 'The Bengaluru–Hyderabad corridor is strengthening as India\'s primary semiconductor design and R&D hub, creating concentrated opportunity for adjacent vendors and institutions.'],
   sources: ['https://www.thehindu.com/business/Industry/semicon-firm-marvell-to-invest-250-mn-in-technology-talent-and-infrastructure-in-india/article71281465.ece', 'https://www.marvell.com/']
 }, {
-  slug: 'india-eight-structural-gaps-dependency',
-  no: 'S-030',
-  title: 'Eight Structural Gaps Decide Whether India\'s Dependency Actually Falls',
+  slug: 'india-twelve-opportunity-zones-industrial-capital',
+  no: 'S-031',
+  title: 'Twelve Zones Where India\'s Industrial Capital Should Concentrate',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
   dateLabel: '31 Jul 2026',
   status: 'live',
-  excerpt: 'Below the product-level dependencies sit eight economy-wide gaps — manufacturing R&D at 0.3% of GDP versus Germany\'s 2.8%, a 500,000-worker skills shortfall, thin test-and-certification capacity, costlier project finance and absence from RCEP and CPTPP — that constrain every localisation attempt, with a ₹1.14 lakh crore fix identified.',
-  readingTime: '5 min',
+  excerpt: 'Rather than spreading effort across hundreds of imports, the dependency framework narrows the field to twelve opportunity zones and a top-ten of opportunity surfaces — the intersection of deep-enough dependency, real localisation potential and workable economics — where concentrated capital and policy would move the dependency index most.',
+  readingTime: '4 min',
   body: [{
-  text: 'Product-level dependency is downstream of a few structural conditions. Eight recur across sectors: an ecosystem gap (incentives target products, not the layers beneath), a talent gap (a shortage of roughly 500,000 skilled manufacturing workers), an R&D gap (manufacturing R&D at 0.3% of manufacturing GDP against Germany\'s 2.8% and Korea\'s 3.5%), a test-and-certification gap (6-12 month delays, certification done abroad), a capital gap (project finance 200-300 basis points costlier than China or Vietnam), an FTA gap (outside RCEP and CPTPP, EU and UK deals unsigned), a cluster-coordination gap, and an industrial-AI gap.',
+  text: 'A dependency map with hundreds of entries is a risk list, not a strategy. The framework\'s final move is to concentrate: it filters the full import surface down to twelve opportunity zones and a ranked top-ten of opportunity surfaces, selected where dependency is deep enough to matter, localisation is genuinely feasible, and the investment economics work.',
   type: 'p'
 }, {
-  text: 'Why these bind',
+  text: 'Concentration over breadth',
   type: 'h'
 }, {
-  text: 'Each gap raises the cost or lowers the feasibility of localising anything. Cheap foreign finance and mature ecosystems are why the same plant pencils out abroad and not in India; weak test-cert adds months and dollars to every qualification; missing FTAs hand a tariff disadvantage to Vietnam and Mexico. These are horizontal constraints — fixing them lifts every dependency at once, which no single product incentive can.',
+  text: 'The logic mirrors how industrial policy actually succeeds — a handful of well-capitalised, well-sited bets rather than thin support spread everywhere. Concentrating capital, talent and policy on twelve zones creates the ecosystem density (suppliers, skills, test infrastructure) that no scattered approach reaches, and it is that density, not the individual plant, that durably reduces dependence.',
   type: 'p'
 }, {
-  text: 'The fix has a price tag',
+  text: 'An investment envelope, not a wish list',
   type: 'h'
 }, {
-  text: 'The identified incremental budget to close the gaps is about ₹1,14,500 crore over FY2026-30 — a large but bounded number, and small against the recurring import bill it is meant to reduce. The point is that dependency reduction is as much about these enabling conditions as about any marquee factory.',
+  text: 'Because each surface carries localisation and investment-attractiveness scores, the twelve zones come with an order-of-magnitude investment envelope and a sequencing logic — which to start now (Build-now surfaces like power electronics and specialty materials) and which to position early. That turns a national dependency problem into a finite, fundable programme.',
   type: 'p'
 }, {
   text: 'What the signal means',
   type: 'h'
 }, {
-  text: 'Track the horizontal reforms — an R&D uplift, a manufacturing-skills programme, national test-cert infrastructure, the UK and EU FTAs — as leading indicators. Movement there will do more for dependency across the board than another product-specific scheme.',
+  text: 'For anyone allocating industrial capital — private investors, DFIs or the state — the twelve zones are the shortlist worth underwriting first. The value of the exercise is subtraction: it says as clearly what to deprioritise as what to fund.',
   type: 'p'
 }],
-  takeaways: ['Eight economy-wide gaps constrain every localisation attempt: ecosystem, talent (~500K shortfall), R&D (0.3% vs Germany 2.8%/Korea 3.5%), test-cert, capital, FTAs, clusters, industrial AI.', 'They are horizontal — costlier finance, weak test-cert and missing FTAs raise the cost or lower the feasibility of localising anything, so fixing them lifts all dependencies at once.', 'The identified fix is ~₹1.14 lakh crore over FY2026-30 — large but bounded, and small against the recurring import bill it targets.', 'The horizontal reforms (R&D uplift, skills, national test-cert, UK/EU FTAs) are the leading indicators to watch — they move dependency more than any single product scheme.'],
-  sources: ['https://www.pib.gov.in', 'https://labs.techadyant.com/research/dependencies']
+  takeaways: ['The framework narrows hundreds of imports to twelve opportunity zones and a top-ten of surfaces — the intersection of deep-enough dependency, feasible localisation and workable economics.', 'Concentration beats breadth: a few well-capitalised, well-sited bets build the ecosystem density (suppliers, skills, test infra) that durably reduces dependence.', 'Because each surface is scored, the zones carry an investment envelope and sequencing — Build-now surfaces (power electronics, specialty materials) first, others positioned early.', 'The exercise is as valuable for what it says to deprioritise as for what to fund — turning a national dependency problem into a finite, fundable programme.'],
+  sources: ['https://labs.techadyant.com/research/dependencies']
 }, {
   slug: 'critical-manufacturing-dependency-index-launch',
   no: 'S-024',
@@ -1220,39 +1220,39 @@ export const signals: SignalMeta[] = [{
   takeaways: ['On a 13-dimension Manufacturing Capability Index, Maharashtra (82), Gujarat (81), Tamil Nadu (79) and Karnataka (77) lead; Telangana and Andhra Pradesh form the next tier.', 'Present strength (output, employment) favours Maharashtra/Tamil Nadu, but pipeline and future-readiness favour Gujarat — its semiconductor, chemicals and renewables bets.', 'The states that localise the deepest dependencies combine capability with a credible forward pipeline in high-dependency sectors — a narrower list than the headline ranking.', 'The ranking is a siting tool: match a high-dependency, localisable product to the state whose capability and pipeline fit, not the largest incumbent by default.'],
   sources: ['https://labs.techadyant.com/corridors']
 }, {
-  slug: 'india-twelve-opportunity-zones-industrial-capital',
-  no: 'S-031',
-  title: 'Twelve Zones Where India\'s Industrial Capital Should Concentrate',
+  slug: 'india-eight-structural-gaps-dependency',
+  no: 'S-030',
+  title: 'Eight Structural Gaps Decide Whether India\'s Dependency Actually Falls',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
   dateLabel: '31 Jul 2026',
   status: 'live',
-  excerpt: 'Rather than spreading effort across hundreds of imports, the dependency framework narrows the field to twelve opportunity zones and a top-ten of opportunity surfaces — the intersection of deep-enough dependency, real localisation potential and workable economics — where concentrated capital and policy would move the dependency index most.',
-  readingTime: '4 min',
+  excerpt: 'Below the product-level dependencies sit eight economy-wide gaps — manufacturing R&D at 0.3% of GDP versus Germany\'s 2.8%, a 500,000-worker skills shortfall, thin test-and-certification capacity, costlier project finance and absence from RCEP and CPTPP — that constrain every localisation attempt, with a ₹1.14 lakh crore fix identified.',
+  readingTime: '5 min',
   body: [{
-  text: 'A dependency map with hundreds of entries is a risk list, not a strategy. The framework\'s final move is to concentrate: it filters the full import surface down to twelve opportunity zones and a ranked top-ten of opportunity surfaces, selected where dependency is deep enough to matter, localisation is genuinely feasible, and the investment economics work.',
+  text: 'Product-level dependency is downstream of a few structural conditions. Eight recur across sectors: an ecosystem gap (incentives target products, not the layers beneath), a talent gap (a shortage of roughly 500,000 skilled manufacturing workers), an R&D gap (manufacturing R&D at 0.3% of manufacturing GDP against Germany\'s 2.8% and Korea\'s 3.5%), a test-and-certification gap (6-12 month delays, certification done abroad), a capital gap (project finance 200-300 basis points costlier than China or Vietnam), an FTA gap (outside RCEP and CPTPP, EU and UK deals unsigned), a cluster-coordination gap, and an industrial-AI gap.',
   type: 'p'
 }, {
-  text: 'Concentration over breadth',
+  text: 'Why these bind',
   type: 'h'
 }, {
-  text: 'The logic mirrors how industrial policy actually succeeds — a handful of well-capitalised, well-sited bets rather than thin support spread everywhere. Concentrating capital, talent and policy on twelve zones creates the ecosystem density (suppliers, skills, test infrastructure) that no scattered approach reaches, and it is that density, not the individual plant, that durably reduces dependence.',
+  text: 'Each gap raises the cost or lowers the feasibility of localising anything. Cheap foreign finance and mature ecosystems are why the same plant pencils out abroad and not in India; weak test-cert adds months and dollars to every qualification; missing FTAs hand a tariff disadvantage to Vietnam and Mexico. These are horizontal constraints — fixing them lifts every dependency at once, which no single product incentive can.',
   type: 'p'
 }, {
-  text: 'An investment envelope, not a wish list',
+  text: 'The fix has a price tag',
   type: 'h'
 }, {
-  text: 'Because each surface carries localisation and investment-attractiveness scores, the twelve zones come with an order-of-magnitude investment envelope and a sequencing logic — which to start now (Build-now surfaces like power electronics and specialty materials) and which to position early. That turns a national dependency problem into a finite, fundable programme.',
+  text: 'The identified incremental budget to close the gaps is about ₹1,14,500 crore over FY2026-30 — a large but bounded number, and small against the recurring import bill it is meant to reduce. The point is that dependency reduction is as much about these enabling conditions as about any marquee factory.',
   type: 'p'
 }, {
   text: 'What the signal means',
   type: 'h'
 }, {
-  text: 'For anyone allocating industrial capital — private investors, DFIs or the state — the twelve zones are the shortlist worth underwriting first. The value of the exercise is subtraction: it says as clearly what to deprioritise as what to fund.',
+  text: 'Track the horizontal reforms — an R&D uplift, a manufacturing-skills programme, national test-cert infrastructure, the UK and EU FTAs — as leading indicators. Movement there will do more for dependency across the board than another product-specific scheme.',
   type: 'p'
 }],
-  takeaways: ['The framework narrows hundreds of imports to twelve opportunity zones and a top-ten of surfaces — the intersection of deep-enough dependency, feasible localisation and workable economics.', 'Concentration beats breadth: a few well-capitalised, well-sited bets build the ecosystem density (suppliers, skills, test infra) that durably reduces dependence.', 'Because each surface is scored, the zones carry an investment envelope and sequencing — Build-now surfaces (power electronics, specialty materials) first, others positioned early.', 'The exercise is as valuable for what it says to deprioritise as for what to fund — turning a national dependency problem into a finite, fundable programme.'],
-  sources: ['https://labs.techadyant.com/research/dependencies']
+  takeaways: ['Eight economy-wide gaps constrain every localisation attempt: ecosystem, talent (~500K shortfall), R&D (0.3% vs Germany 2.8%/Korea 3.5%), test-cert, capital, FTAs, clusters, industrial AI.', 'They are horizontal — costlier finance, weak test-cert and missing FTAs raise the cost or lower the feasibility of localising anything, so fixing them lifts all dependencies at once.', 'The identified fix is ~₹1.14 lakh crore over FY2026-30 — large but bounded, and small against the recurring import bill it targets.', 'The horizontal reforms (R&D uplift, skills, national test-cert, UK/EU FTAs) are the leading indicators to watch — they move dependency more than any single product scheme.'],
+  sources: ['https://www.pib.gov.in', 'https://labs.techadyant.com/research/dependencies']
 }, {
   slug: 'india-critical-manufacturing-dependency-report-edition-1',
   no: 'S-032',
@@ -1343,31 +1343,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['IC substrates are one of India\'s deepest chip-stack gaps — no domestic producer, and roughly 70% of the world market held by Shinko, IBIDEN and Unimicron.', 'Intel and 3D Glass Solutions are investing about US$3.3bn in Bhubaneswar-Khurda, Odisha over five to six years — roughly 70,000 glass substrates a year plus assembled units and 3D heterogeneous-integration modules.', 'Glass-core substrates are pre-commercial worldwide (Absolics targeting end-2026, Samsung post-2027, TSMC panel-level ~2028), so India is entering this layer at the frontier rather than a generation behind.', 'Both first movers into India\'s deepest chokepoints — Intel/3DGS in substrates, Fujifilm in process chemicals — are foreign incumbents relocating capacity, not Indian firms entering. Hosting a capability and owning one are different things.'],
   sources: ['https://www.reuters.com/world/india/intel-3dgs-set-up-33-billion-substrate-plant-indias-odisha-state-2026-05-29/', 'https://www.trendforce.com/news/2026/06/01/news-intel-advances-glass-substrate-push-with-3dgs-us3-3-billion-india-plant-set-for-five-to-six-year-buildout/', 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284784', 'https://evertiq.com/design/2026-07-01-fujifilm-partners-with-gujarat-to-boost-chip-materials-manufacturing']
 }, {
-  slug: 'india-indigenous-turbojet-engine',
-  no: 'S-034',
-  title: 'India Builds the Engine Its Loitering Munitions Were Missing',
-  domain: 'Defence & Dual-Use',
-  date: '2026-08-05',
-  dateLabel: '5 Aug 2026',
-  status: 'live',
-  excerpt: 'DRDO\'s first indigenous 350 kg thrust-class expendable turbojet closes a propulsion chokepoint that had capped the range and payload of India\'s cruise missiles and loitering munitions.',
-  readingTime: '2 min',
-  body: [{
-  text: 'DRDO\'s Gas Turbine Research Establishment (GTRE), with Hyderabad-based Azad Engineering as the production partner, has realised India\'s first indigenous expendable turbojet in the 350 kg thrust class. The fully built engine was delivered to GTRE on 22 July 2026.',
-  type: 'p'
-}, {
-  text: 'The significance is not the engine; it is the dependency it removes. Small jet propulsion for expendable platforms — cruise missiles, loitering munitions, target drones — has been one of the layers India could not make, forcing imports or constraining the range and payload of otherwise indigenous systems. Only a handful of countries hold this capability.',
-  type: 'p'
-}, {
-  text: 'This is the propulsion chokepoint from our loitering-munitions and drone work made concrete. An expendable engine must be cheap enough to throw away yet reliable enough to fly once — a harder commercial problem than a reusable one, and the reason a domestic production line matters more than a one-off prototype.',
-  type: 'p'
-}, {
-  text: 'The opening now sits downstream of GTRE: the supplier base for turbine discs, blades, combustors and fuel systems that an expendable engine consumes in volume. A private manufacturer taking the build is the signal to watch — it points to a components ecosystem, not just a lab result.',
-  type: 'p'
-}],
-  takeaways: ['India\'s first indigenous 350 kg thrust-class expendable turbojet was delivered to GTRE on 22 July 2026.', 'Designed by DRDO\'s GTRE and built by Azad Engineering (Hyderabad) — a DRDO-plus-private-industry model.', 'Targets cruise missiles, loitering munitions and UAVs, removing an import chokepoint on range and payload.', 'Value now migrates to the expendable-engine component base — discs, blades, combustors — built for volume.'],
-  sources: ['Organiser (24 Jul 2026): https://organiser.org/2026/07/24/371428/bharat/drdo-develops-indias-first-indigenous-350-kg-thrust-class-expendable-turbojet-engine/', 'IndianWeb2 (Jul 2026): https://www.indianweb2.com/2026/07/india-unveils-first-indigenous-350kg.html', 'BIS Infotech: https://www.bisinfotech.com/drdo-advances-indigenous-aerospace-with-turbojet-engine/']
-}, {
   slug: 'india-uk-autonomous-systems-working-group',
   no: 'S-036',
   title: 'India and the UK Choose Co-Development Over Procurement',
@@ -1418,30 +1393,30 @@ export const signals: SignalMeta[] = [{
   takeaways: ['ASIP Technologies broke ground on a Rs 2,500 cr (~$260M) OSAT plant at Visakhapatnam — South India\'s first ISM-approved unit.', 'Packaging + test (not a fab): wire-bond/FC-BGA now, 2.5D/3D within 2-3 years; ~96M chips/yr; APACT (Korea) as tech partner.', 'Moves India\'s chip play from design services into physical back-end manufacturing.', 'The real opening is the imported materials tail behind OSAT — substrates, bonding wire, moulding compound, gases.'],
   sources: ['Evertiq (4 Aug 2026): https://evertiq.com/news/2026-08-04-asip-breaks-ground-on-260-million-osat-facility-in-india', 'Business Standard (1 Aug 2026): https://www.business-standard.com/india-news/pm-modi-lays-foundation-stone-asip-semiconductor-plant-visakhapatnam-126080100662_1.html', 'The Hans India: https://www.thehansindia.com/news/cities/visakhapatnam/modi-lays-stone-for-souths-1st-ism-approved-chip-unit-in-ap-1104105']
 }, {
-  slug: 'army-2715-logistic-drones-rfi',
-  no: 'S-037',
-  title: 'Army Floats RFI for 2,715 Logistic Drones to Resupply High-Altitude Frontiers',
+  slug: 'india-indigenous-turbojet-engine',
+  no: 'S-034',
+  title: 'India Builds the Engine Its Loitering Munitions Were Missing',
   domain: 'Defence & Dual-Use',
-  date: '2026-08-07',
-  dateLabel: '7 Aug 2026',
+  date: '2026-08-05',
+  dateLabel: '5 Aug 2026',
   status: 'live',
-  excerpt: 'The Ministry of Defence has issued a Request for Information (RFI) for 2,715 logistic drones, marking the largest single procurement of its kind to resupply high-altitude border posts along the LAC and LoC.',
+  excerpt: 'DRDO\'s first indigenous 350 kg thrust-class expendable turbojet closes a propulsion chokepoint that had capped the range and payload of India\'s cruise missiles and loitering munitions.',
   readingTime: '2 min',
   body: [{
-  text: 'On August 5, 2026, the Ministry of Defence\'s Directorate General of Capability Development issued a Request for Information (RFI) for 2,715 logistic drones for the Indian Army. This requirement is graded into three categories: low-altitude (up to 6,000 feet), mid-altitude (6,000-12,000 feet), and high-altitude (12,000-20,000 feet). The procurement falls under the Buy (Indian-IDDM) route of the Defence Acquisition Procedure 2020, mandating that the platforms be designed, developed, and manufactured in India. The systems must operate in temperatures ranging from -30C to 50C, endure at least 1,000 landings over a service life of seven years or more, utilise NavIC alongside GPS and GLONASS, and be hardened against electronic jamming and spoofing.',
+  text: 'DRDO\'s Gas Turbine Research Establishment (GTRE), with Hyderabad-based Azad Engineering as the production partner, has realised India\'s first indigenous expendable turbojet in the 350 kg thrust class. The fully built engine was delivered to GTRE on 22 July 2026.',
   type: 'p'
 }, {
-  text: 'This development represents a fundamental shift in the Indian Army\'s logistical calculus for the high Himalayas. Traditional supply chains along the Line of Actual Control (LAC) and Line of Control (LoC) rely heavily on porters, mules, and helicopter sorties using aging Cheetah fleets. These methods are manpower-intensive, vulnerable to extreme weather, and operationally constrained during peak winter. By integrating unmanned aerial systems into the last-mile supply chain, the Army aims to sustain forward posts in Jammu & Kashmir, Ladakh, Himachal Pradesh, Uttarakhand, Sikkim, and Arunachal Pradesh more reliably during both peace and wartime.',
+  text: 'The significance is not the engine; it is the dependency it removes. Small jet propulsion for expendable platforms — cruise missiles, loitering munitions, target drones — has been one of the layers India could not make, forcing imports or constraining the range and payload of otherwise indigenous systems. Only a handful of countries hold this capability.',
   type: 'p'
 }, {
-  text: 'The scale of this procurement highlights the rapid acceleration of India\'s unmanned logistics capability. The Army previously floated an RFI for 570 drones in December 2022, followed by a fast-track tender for 363 units in 2023, and another RFI in 2025. The latest requirement of 2,715 units represents a nearly five-fold increase over the 2022 baseline. This trend mirrors the broader integration of drones across India\'s border forces, including the 2023 procurement of 130 tethered surveillance systems for the LAC and the establishment of the Border Security Force\'s dedicated drone warfare school at Tekanpur in August 2025.',
+  text: 'This is the propulsion chokepoint from our loitering-munitions and drone work made concrete. An expendable engine must be cheap enough to throw away yet reliable enough to fly once — a harder commercial problem than a reusable one, and the reason a domestic production line matters more than a one-off prototype.',
   type: 'p'
 }, {
-  text: 'The strategic opportunity lies in establishing a resilient, indigenous supply chain for high-altitude operations. The test to watch is whether domestic manufacturers can meet the stringent technical requirements - specifically, the integration of NavIC navigation, LIDAR-based obstacle detection, and military-grade electronic countermeasures - within the specified cost and delivery parameters. Success in this procurement will validate the Indian drone industry\'s capacity to produce rugged, combat-ready logistics platforms, reducing the Army\'s reliance on risky and expensive manned aerial resupply.',
+  text: 'The opening now sits downstream of GTRE: the supplier base for turbine discs, blades, combustors and fuel systems that an expendable engine consumes in volume. A private manufacturer taking the build is the signal to watch — it points to a components ecosystem, not just a lab result.',
   type: 'p'
 }],
-  takeaways: ['The MoD issued an RFI on August 5, 2026, for 2,715 logistic drones graded by operational altitude.', 'The procurement falls under the Buy (Indian-IDDM) route, favouring indigenous platforms.', 'Drones must integrate NavIC navigation and be hardened against electronic jamming and spoofing.', 'The requirement marks a nearly five-fold increase in drone procurement compared to the 2022 baseline.'],
-  sources: ['The Tribune India (06 Aug 2026): https://www.tribuneindia.com/news/defence/army-seeks-over-2700-logistics-drones-for-high-altitude-frontline-supply-missions/', 'India Sentinels (06 Aug 2026): https://www.indiasentinels.com/army/ministry-of-defence-seeks-2715-logistic-drones-for-indian-armys-china-pakistan-border-supply-chain-7553']
+  takeaways: ['India\'s first indigenous 350 kg thrust-class expendable turbojet was delivered to GTRE on 22 July 2026.', 'Designed by DRDO\'s GTRE and built by Azad Engineering (Hyderabad) — a DRDO-plus-private-industry model.', 'Targets cruise missiles, loitering munitions and UAVs, removing an import chokepoint on range and payload.', 'Value now migrates to the expendable-engine component base — discs, blades, combustors — built for volume.'],
+  sources: ['Organiser (24 Jul 2026): https://organiser.org/2026/07/24/371428/bharat/drdo-develops-indias-first-indigenous-350-kg-thrust-class-expendable-turbojet-engine/', 'IndianWeb2 (Jul 2026): https://www.indianweb2.com/2026/07/india-unveils-first-indigenous-350kg.html', 'BIS Infotech: https://www.bisinfotech.com/drdo-advances-indigenous-aerospace-with-turbojet-engine/']
 }, {
   slug: 'indiaai-mission-gpu-compute-expansion',
   no: 'S-038',
@@ -1467,6 +1442,31 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The IndiaAI Mission added 15,916 GPUs, taking the empanelled compute pool to 34,333 (target: 100,000 by end-2026).', 'A Purchase Order was issued for a ~1.1 EFLOPS High-Performance AI Compute System at the NIC Data Centre, Delhi.', '20 indigenous foundation model proposals (12 LMMs, 8 SLMs) have been identified for support under the Mission.', 'The Cabinet approved Semicon 2.0 with an outlay of Rs. 1,27,500 crore to boost semiconductor manufacturing.'],
   sources: ['Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295477', 'Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295483']
+}, {
+  slug: 'army-2715-logistic-drones-rfi',
+  no: 'S-037',
+  title: 'Army Floats RFI for 2,715 Logistic Drones to Resupply High-Altitude Frontiers',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-07',
+  dateLabel: '7 Aug 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Defence has issued a Request for Information (RFI) for 2,715 logistic drones, marking the largest single procurement of its kind to resupply high-altitude border posts along the LAC and LoC.',
+  readingTime: '2 min',
+  body: [{
+  text: 'On August 5, 2026, the Ministry of Defence\'s Directorate General of Capability Development issued a Request for Information (RFI) for 2,715 logistic drones for the Indian Army. This requirement is graded into three categories: low-altitude (up to 6,000 feet), mid-altitude (6,000-12,000 feet), and high-altitude (12,000-20,000 feet). The procurement falls under the Buy (Indian-IDDM) route of the Defence Acquisition Procedure 2020, mandating that the platforms be designed, developed, and manufactured in India. The systems must operate in temperatures ranging from -30C to 50C, endure at least 1,000 landings over a service life of seven years or more, utilise NavIC alongside GPS and GLONASS, and be hardened against electronic jamming and spoofing.',
+  type: 'p'
+}, {
+  text: 'This development represents a fundamental shift in the Indian Army\'s logistical calculus for the high Himalayas. Traditional supply chains along the Line of Actual Control (LAC) and Line of Control (LoC) rely heavily on porters, mules, and helicopter sorties using aging Cheetah fleets. These methods are manpower-intensive, vulnerable to extreme weather, and operationally constrained during peak winter. By integrating unmanned aerial systems into the last-mile supply chain, the Army aims to sustain forward posts in Jammu & Kashmir, Ladakh, Himachal Pradesh, Uttarakhand, Sikkim, and Arunachal Pradesh more reliably during both peace and wartime.',
+  type: 'p'
+}, {
+  text: 'The scale of this procurement highlights the rapid acceleration of India\'s unmanned logistics capability. The Army previously floated an RFI for 570 drones in December 2022, followed by a fast-track tender for 363 units in 2023, and another RFI in 2025. The latest requirement of 2,715 units represents a nearly five-fold increase over the 2022 baseline. This trend mirrors the broader integration of drones across India\'s border forces, including the 2023 procurement of 130 tethered surveillance systems for the LAC and the establishment of the Border Security Force\'s dedicated drone warfare school at Tekanpur in August 2025.',
+  type: 'p'
+}, {
+  text: 'The strategic opportunity lies in establishing a resilient, indigenous supply chain for high-altitude operations. The test to watch is whether domestic manufacturers can meet the stringent technical requirements - specifically, the integration of NavIC navigation, LIDAR-based obstacle detection, and military-grade electronic countermeasures - within the specified cost and delivery parameters. Success in this procurement will validate the Indian drone industry\'s capacity to produce rugged, combat-ready logistics platforms, reducing the Army\'s reliance on risky and expensive manned aerial resupply.',
+  type: 'p'
+}],
+  takeaways: ['The MoD issued an RFI on August 5, 2026, for 2,715 logistic drones graded by operational altitude.', 'The procurement falls under the Buy (Indian-IDDM) route, favouring indigenous platforms.', 'Drones must integrate NavIC navigation and be hardened against electronic jamming and spoofing.', 'The requirement marks a nearly five-fold increase in drone procurement compared to the 2022 baseline.'],
+  sources: ['The Tribune India (06 Aug 2026): https://www.tribuneindia.com/news/defence/army-seeks-over-2700-logistics-drones-for-high-altitude-frontline-supply-missions/', 'India Sentinels (06 Aug 2026): https://www.indiasentinels.com/army/ministry-of-defence-seeks-2715-logistic-drones-for-indian-armys-china-pakistan-border-supply-chain-7553']
 }, {
   slug: 'hindustan-copper-uzbekistan-minerals-partnership',
   no: 'S-039',
@@ -1692,6 +1692,81 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['MSC moved its first import shipment through Adani ICD Malur near Bengaluru as a full train rake of containers.', 'The facility spans around 30 acres (21 more earmarked for expansion) on the Bengaluru-Chennai trunk line, with road access via NE7 and NH44.', 'The milestone follows an earlier Maersk-Volvo Group block train (auto parts from Ennore Port), validating Malur as a shared multimodal platform.', 'Adani ICD Malur serves Bengaluru\'s manufacturing clusters and the wider industrial belt across Karnataka, Andhra Pradesh and Tamil Nadu.'],
   sources: ['India Shipping News (10 Aug 2026): https://indiashippingnews.com/export/msc-marks-first-import-rail-milestone-at-adani-icd-malur-strengthening-bengalurus-gateway-to-global-trade/', 'Maritime Gateway (10 Aug 2026): https://www.maritimegateway.com/msc-marks-first-import-rail-milestone-at-adani-icd-malur-strengthening-bengalurus-gateway-to-global-trade/']
+}, {
+  slug: 'indian-navy-issues-rfi-ship-launched-loitering-munition-1000km-range',
+  no: 'S-048',
+  title: 'Indian Navy Issues RFI for Ship-Launched Loitering Munitions With 1,000 km Range',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-13',
+  dateLabel: '13 Aug 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Defence has issued a Request for Information for ship-launched loitering munitions with a strike range of at least 1,000 km and nine hours of loiter endurance - reportedly valued at Rs 15,000-18,000 crore - routed to Indian industry under Buy (Indian-IDDM) preference.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Ministry of Defence has issued a Request for Information (RFI) for a ship-launched medium-range loitering-munition system for the Indian Navy, the first stage of the tendering process. Reported on 13 August 2026, the RFI specifies a strike range of at least 1,000 kilometres, loiter endurance of nine hours or more, cruising speed above 75 knots and terminal attack speed exceeding 200 knots. The system must operate at a ceiling of 15,000 feet with a radar cross-section below one square metre, and carry an electro-optical and infrared seeker for day-and-night target identification. The procurement is expected to be routed to Indian industry under Buy (Indian-IDDM), Buy (Indian) and Buy & Make (Indian) preference categories, with potential contenders including Solar Industries, Nibe, Bharat Forge and Tata Advanced Systems. Sources cited by NDTV Profit estimate the programme value at Rs 15,000-18,000 crore.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in the shift from cruise missiles to loitering munitions as a naval long-range precision-strike option. Ship-launched loitering munitions combine surveillance and strike in a single system - flying to a target area, circling to search, then diving in a terminal attack - blurring the line between a reconnaissance drone and a precision-guided missile. At a cost well below cruise missiles, they suit mass deployment and saturation attacks that can overwhelm adversary defences, and a 1,000 km range extends India\'s naval strike envelope deep into contested zones against both maritime and land targets from stand-off distance.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is clear. India\'s naval long-range strike has historically leaned on cruise-missile programmes such as BrahMos and Nirbhay. By seeking indigenous loitering munitions under Buy (Indian-IDDM) - the highest preference for domestically designed and developed systems - the Ministry is deliberately routing this capability through domestic industry. The requirement for dual RF and SATCOM data links, autonomous navigation between pre-set coordinates, and hand-off of control between ships and shore stations reflects a demanding systems-integration challenge that Indian manufacturers must now meet.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether the RFI progresses to a formal tender with a shortlist of Indian manufacturers, and whether the estimated Rs 15,000-18,000 crore programme draws sufficient domestic industrial capacity to meet the nine-hour endurance and 1,000 km range specifications. If executed under Buy (Indian-IDDM), it would be one of the largest indigenous naval strike-munition programmes in India\'s history, reshaping maritime deterrence without committing manned platforms to direct risk.',
+  type: 'p'
+}],
+  takeaways: ['The MoD issued an RFI for ship-launched loitering munitions with a strike range of at least 1,000 km and nine hours of loiter endurance.', 'The system must cruise above 75 knots and reach terminal-attack speeds over 200 knots, at a 15,000 ft ceiling with a sub-1 sq m radar cross-section.', 'The procurement is expected under Buy (Indian-IDDM) preference, with potential contenders including Solar Industries, Nibe, Bharat Forge and Tata Advanced Systems.', 'Sources (NDTV Profit) estimate the programme value at Rs 15,000-18,000 crore - among the largest indigenous naval strike-munition programmes.'],
+  sources: ['The Tribune (13 Aug 2026): https://www.tribuneindia.com/news/defence/indian-navy-moves-to-acquire-ship-launched-kamikaze-drones/', 'NDTV Profit (13 Aug 2026): https://www.ndtvprofit.com/economy/bharat-forge-solar-industries-in-fray-for-navys-rs-18-000-crore-loitering-munition-project-report-11901187', 'Marine Insight (13 Aug 2026): https://www.marineinsight.com/indian-navy-to-acquire-new-class-of-ship-launched-kamikaze-drones-that-can-hit-targets-1000-km-away/', 'IDRW (13 Aug 2026): https://idrw.org/mod-issues-rfi-for-ship-launched-loitering-munition-with-1000km-range-and-9-hour-loiter-time-for-indian-navy/']
+}, {
+  slug: 'indian-air-force-pokhran-unmanned-systems-showcase-september-2026',
+  no: 'S-049',
+  title: 'Indian Air Force to Evaluate Indigenous Unmanned Systems at Pokhran in September',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-13',
+  dateLabel: '13 Aug 2026',
+  status: 'live',
+  excerpt: 'The Indian Air Force will hold a dedicated Unmanned Systems Capability Demonstration at the Pokhran Firing Range on 14-16 September 2026, facilitated by SIDM, to evaluate indigenous one-way attack drones, swarm drones and logistics UAVs with ranges exceeding 1,000 km.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Indian Air Force is preparing a dedicated Unmanned Systems Capability Demonstration at the Pokhran Firing Range in Rajasthan, scheduled for 14-16 September 2026. Facilitated by the Society of Indian Defence Manufacturers (SIDM), the event will bring Indian defence companies and startups before Air Force leadership to showcase indigenously developed unmanned platforms. Per The Economic Times, the demonstration will feature one-way attack drones, long-range loitering munitions, swarm drones, cargo UAVs and logistics drones for casualty evacuation, medical-supply delivery and cargo transport to troops at extreme altitudes. The Air Force is specifically interested in drones with a range beyond 1,000 km that can relay live video to the operator, and swarm systems with a range exceeding 300 km.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in the specificity of the evaluation. The Air Force is targeting defined capability gaps - long-range strike (1,000+ km), swarm operations (300+ km), electronic-warfare emitter tracking and high-altitude logistics - rather than staging a general show. Given the heavy use of jammers and spoofing on the modern battlefield, it is also seeking drones able to track and eliminate electronic-warfare emitters. This signals a shift from platform-centric procurement to capability-centric evaluation, assessing multiple indigenous systems simultaneously against operational requirements.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is clear. India\'s long-range strike has historically depended on imported platforms and cruise missiles. The Pokhran demonstration is a deliberate effort to evaluate indigenous alternatives for roles that would otherwise require foreign procurement. The focus on one-way attack drones - used extensively in the Ukraine and West Asia conflicts - reflects lessons that low-cost, mass-deployable unmanned systems can be decisive; running the evaluation at a live firing range lets the Air Force assess live-fire performance, sensor integration and operational reliability in a realistic environment.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether the demonstration converts into formal procurement contracts for specific systems, particularly in the 1,000+ km category. The interest in drones that relay live video at extreme range points to a beyond-visual-line-of-sight requirement with real-time intelligence. Actionable procurement decisions out of Pokhran would mark a significant step in India\'s indigenous unmanned-warfare capability and establish domestic manufacturers as credible suppliers of long-range precision unmanned platforms.',
+  type: 'p'
+}],
+  takeaways: ['The Indian Air Force will hold an Unmanned Systems Capability Demonstration at the Pokhran Firing Range on 14-16 September 2026, facilitated by SIDM.', 'The IAF is specifically seeking one-way attack drones with ranges beyond 1,000 km and swarm systems with ranges over 300 km.', 'The demonstration will also evaluate logistics drones for casualty evacuation, medical-supply delivery and cargo transport at extreme altitudes.', 'The IAF wants drones able to track and eliminate electronic-warfare emitters amid heavy jamming and spoofing on modern battlefields.'],
+  sources: ['The Economic Times (12 Aug 2026): https://m.economictimes.com/news/defence/defence-industry-to-showcase-indigenous-unmanned-systems-at-pokhran-event-indian-air-force/articleshow/133164825.cms', 'AngelOne (12 Aug 2026): https://www.angelone.in/news/economy/indian-air-force-pokhran-drone-showcase-to-feature-1-000-km-range-unmanned-systems', 'GKToday (13 Aug 2026): https://www.gktoday.in/indigenous-unmanned-systems-to-be-showcased-at-pokhran/']
+}, {
+  slug: 'izi-demonstrates-vana-tethered-drone-indian-army-5000-unit-procurement',
+  no: 'S-050',
+  title: 'Bhopal\'s IZI Pitches Its VANA UAV for the Army\'s 5,000-Drone Requirement',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-13',
+  dateLabel: '13 Aug 2026',
+  status: 'live',
+  excerpt: 'Bhopal-based IZI demonstrated its indigenous VANA multi-role UAV to the Indian Army - a sub-4.5 kg system deployable in under 60 seconds, with thermal sensors that spot a person at ~800 m and vehicles at ~2.4 km - as the Army runs an RFI for 5,000 tethered drone systems for frontier surveillance.',
+  readingTime: '2 min',
+  body: [{
+  text: 'Bhopal-based drone manufacturer IZI has demonstrated its indigenously developed VANA multi-role unmanned aerial vehicle to the Indian Army, reported on 12 August 2026. VANA has a take-off weight under 4.5 kilograms and can be deployed in under 60 seconds; the VANA Pro variant offers flight endurance of up to 120 minutes and an operational range of up to 24 kilometres. Its thermal cameras can detect a person at about 800 metres and a vehicle at roughly 2.4 kilometres, in fog or darkness; the platform operates from -15C to +55C, withstands winds up to 15 metres per second, and adds swarm, acoustic and GPS-denied capabilities. The demonstration positions VANA as a contender for the Army\'s requirement for 5,000 tethered drone systems, set out in a 2025 Request for Information.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in the scale of the Army\'s requirement. Tethered drones stay connected to a ground power source by cable, enabling far longer persistent observation than free-flying battery platforms - useful for border observation posts, base-perimeter security and critical-infrastructure protection along India\'s frontiers. A 5,000-unit programme would represent a substantial build-out of persistent, low-cost aerial surveillance sourced from domestic industry.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is clear. India\'s persistent border-surveillance capability has historically leaned on imported platforms and fixed sensor networks. An indigenous platform such as VANA, manufactured in Madhya Pradesh, offers a cost-effective alternative and keeps the sensor, software and support chain onshore. The Army\'s positive reception at the demonstration opens technical and operational discussions on fit for the 5,000-unit requirement.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether VANA enters the Army\'s formal procurement pipeline for the 5,000-unit tethered-drone programme, and whether IZI\'s manufacturing capacity can meet a defence-scale order. If adopted, it would mark a meaningful scaling of indigenous persistent-surveillance systems along India\'s borders and reduce dependence on imported platforms.',
+  type: 'p'
+}],
+  takeaways: ['IZI, a Bhopal-based manufacturer, demonstrated its indigenous VANA multi-role UAV to the Indian Army (reported 12 Aug 2026).', 'VANA weighs under 4.5 kg and deploys in under 60 seconds; the VANA Pro variant offers up to 120 minutes endurance and ~24 km range.', 'Its thermal sensors detect a person at ~800 m and a vehicle at ~2.4 km, in fog or darkness, with swarm, acoustic and GPS-denied capabilities.', 'The Army has a 2025 RFI for 5,000 tethered drone systems for frontier surveillance, for which VANA is positioned as a contender.'],
+  sources: ['The Week (12 Aug 2026): https://www.theweek.in/news/defence/2026/08/12/indias-vana-drone-showcased-to-indian-army-it-can-can-be-deployed-in-60-seconds-spot-vehicles-from-24km-away.html', 'BIS Infotech (12 Aug 2026): https://www.bisinfotech.com/izi-advances-vana-indias-indigenous-multi-role-uav-with-swarm-capabilities/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
