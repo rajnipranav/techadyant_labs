@@ -3757,12 +3757,12 @@
       "locations": [
         "Figeac (France)"
       ],
-      "capability": "Composite propeller design and manufacture — FH386 6-blade composite propeller for the Airbus C-295; propellers for ATR 42/72, Airbus A400M.",
+      "capability": "Composite propeller design and manufacture — 568F-5 6-blade composite propeller for the Airbus C-295; FH386 8-blade composite propeller for the Airbus A400M; propellers for ATR 42/72.",
       "programmes": [
         "prog-c295-india",
         "prog-a400m-europe"
       ],
-      "role": "Propeller OEM for C-295 (FH386) and A400M",
+      "role": "Propeller OEM for C-295 (568F-5) and A400M (FH386)",
       "tier_per_programme": [
         {
           "programme_id": "prog-c295-india",
@@ -4890,7 +4890,7 @@
       "context": {
         "programme_id": "prog-c295-india",
         "platform_id": "plat-c295",
-        "scope": "Ratier-Figeac FH386 6-blade composite propeller supply (2 per aircraft)"
+        "scope": "Ratier-Figeac 568F-5 6-blade composite propeller supply (2 per aircraft)"
       },
       "tier": "tier-1",
       "confidence": "confirmed",
@@ -6055,7 +6055,7 @@
       "platform_id": "plat-c295",
       "system": "Propulsion",
       "subsystem": "Propeller",
-      "component": "Ratier-Figeac FH386 6-blade composite propeller",
+      "component": "Ratier-Figeac 568F-5 6-blade composite propeller",
       "technology": "Composite construction; constant-speed, full-feathering, reversing; beta-range ground operations",
       "function": "Converts engine shaft power to thrust; provides ground maneuvering and reverse thrust",
       "major_oem_id": "org-ratier",
@@ -7346,7 +7346,7 @@
       "system_id": "sys-c295-propulsion-propeller",
       "system": "Propulsion",
       "subsystem": "Propeller",
-      "component": "Ratier-Figeac FH386 6-blade composite propeller",
+      "component": "Ratier-Figeac 568F-5 6-blade composite propeller",
       "localization_status": "imported",
       "assembly_in_india": false,
       "manufacturing_in_india": false,
@@ -7359,7 +7359,7 @@
       "localization_depth": "L0",
       "technology_dependency": "TD0",
       "localization_target": "L2 (blade manufacture) in 5-7 years under Ratier-Figeac partnership",
-      "evidence_summary": "Ratier-Figeac FH386 imported complete. Indian composite manufacturing capacity at TASL / TLMAL is adjacent but not configured for propeller manufacture.",
+      "evidence_summary": "Ratier-Figeac 568F-5 imported complete. Indian composite manufacturing capacity at TASL / TLMAL is adjacent but not configured for propeller manufacture.",
       "sources": [
         {
           "id": "src-ratier-fh386",
@@ -9025,7 +9025,7 @@
     },
     {
       "id": "dep-c295-propeller",
-      "dependency": "Ratier-Figeac FH386 composite propeller",
+      "dependency": "Ratier-Figeac 568F-5 composite propeller",
       "aircraft_id": "plat-c295",
       "aircraft": "C-295",
       "system_id": "sys-c295-propulsion-propeller",
