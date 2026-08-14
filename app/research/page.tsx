@@ -33,7 +33,6 @@ const DATABASES = [
   { href: '/research/patents/', name: 'Patent Monitor', desc: 'India-origin patent filings across strategic technologies, by sector and applicant.' },
   { href: '/research/suppliers/', name: 'Supplier Directory', desc: '498 Indian manufacturing suppliers — CNC, PCB, composites, precision machining, toolmaking.' },
   { href: '/research/critical-manufacturing-dependencies', name: 'Critical Manufacturing Dependencies', desc: 'Chart-first intelligence on India’s import dependence: dependency indices, sector decompositions, cluster geography, localization timelines, and investment opportunity.' },
-  { href: '/research/military-aerospace', name: 'Military Aerospace Atlas', desc: "India’s military transport aircraft manufacturing ecosystem – 12 platforms, 51 companies, 21 scored import dependencies, 30 programme milestones, MRO and clusters." },
 ];
 
 const TOOLS = [

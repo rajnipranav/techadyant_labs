@@ -30,7 +30,7 @@ const FAQ: { q: string; a: string }[] = [
   },
   {
     q: 'Why is the C-390 programme labelled indicative?',
-    a: `Source verification (Aug 2026) found no evidence of an IAF selection of the C-390 or of an Embraer-HAL MoU. Embraer's documented C-390 India partner is Mahindra Defence (MoU Feb 2024); the IAF Medium Transport Aircraft competition was still open. ${m.indicativeRecords} of ${m.platforms + m.companies + m.suppliers + m.systems + m.localization + m.dependencies + m.opportunities + m.geoSites + m.mro + m.programmes} records are labelled indicative in the UI where their sources could not be fully verified.`,
+    a: `Source verification (Aug 2026) found no evidence of an IAF selection of the C-390 or of an Embraer-HAL MoU. Embraer's documented C-390 India partner is Mahindra Defence (MoU Feb 2024); the IAF Medium Transport Aircraft competition was still open. ${m.indicativeRecords} of ${m.records} records are labelled indicative in the UI where their sources could not be fully verified.`,
   },
   {
     q: 'Where is India’s aerospace manufacturing concentrated?',
@@ -92,7 +92,7 @@ export default function AerospacePage() {
           <div className="ed-kicker" style={{ color: 'var(--brass-cream, #E6D1A0)' }}>Military Aerospace · India</div>
           <h1>Who builds India&apos;s military transport aircraft?</h1>
           <p className="lede">
-            India&apos;s military transport aircraft manufacturing ecosystem, mapped: {m.platforms} platforms, {m.companies} companies,
+            India&apos;s military transport aircraft manufacturing ecosystem, mapped: {m.platforms} platforms, {m.companies} companies,{' '}
             {m.suppliers} supplier relationships, {m.dependencies} scored import dependencies and {m.programmes} programme milestones -
             from the Tata-Airbus C-295 FAL at Vadodara to the IAF&apos;s legacy An-32 and Il-76 fleets. Every figure traces to a verified
             source: {m.sourcesResolved} of {m.sources} sources resolved to primary documents in the August 2026 provenance audit,
@@ -141,7 +141,7 @@ export default function AerospacePage() {
           <div className="sa-browse-h" style={{ marginTop: 18 }}>Every dependency ({dependencies.length})</div>
           <div className="sa-browse-row">
             {dependencies.map((x) => (
-              <Link key={x.slug} href={`/research/military-aerospace/dependency/${x.slug}/`} className="sa-blink">{x.component || x.dependency}</Link>
+              <Link key={x.slug} href={`/research/military-aerospace/dependency/${x.slug}/`} className="sa-blink">{x.dependency}</Link>
             ))}
           </div>
         </div>

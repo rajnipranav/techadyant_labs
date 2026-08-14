@@ -33,7 +33,7 @@ export type Programme = { id: string; programme_id: string; programme: string; p
 export type Meta = {
   updated: string; atlasVersion: string; platforms: number; companies: number; suppliers: number; systems: number; programmes: number;
   localization: number; geoSites: number; clusters: number; dependencies: number; opportunities: number; mro: number; sources: number;
-  sourcesResolved: number; sourcesUnresolved: number; indicativeRecords: number;
+  sourcesResolved: number; sourcesUnresolved: number; indicativeRecords: number; records: number;
   platformByCategory: { k: string; n: number }[]; platformByStatus: { k: string; n: number }[]; companyByType: { k: string; n: number }[];
   supplierByTier: { k: string; n: number }[]; dependencyByCriticality: { k: string; n: number }[]; dependencyByConcentration: { k: string; n: number }[];
   localizationByDepth: { k: string; n: number }[]; localizationByStatus: { k: string; n: number }[]; clusterByState: { k: string; n: number }[];

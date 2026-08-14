@@ -96,6 +96,7 @@ const meta = {
   dependencies: dep.length,
   opportunities: opp.length,
   mro: mro.length,
+  records: plat.length + comp.length + sup.length + sys.length + loc.length + dep.length + opp.length + geo.records.length + mro.length + prog.length,
   sources: sources.length,
   sourcesResolved: sources.filter((s) => s.verification && s.verification.verdict !== 'UNRESOLVED' && s.verification.verdict !== 'RETIRED').length,
   sourcesUnresolved: sources.filter((s) => s.verification && (s.verification.verdict === 'UNRESOLVED' || s.verification.verdict === 'RETIRED')).length,

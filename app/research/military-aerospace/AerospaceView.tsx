@@ -83,7 +83,7 @@ function DependencyMatrix({ deps }: { deps: Dependency[] }) {
           {rows.map((d) => (
             <div key={d.id} className="ma-mrow" style={{ gridTemplateColumns: `minmax(190px, 1.6fr) repeat(${aircraft.length}, 1fr) 90px` }}>
               <Link href={`/research/military-aerospace/dependency/${d.slug}/`} style={{ fontSize: 12, color: 'var(--text)', textDecoration: 'none' }}>
-                {d.component || d.dependency}{d.indicative && <Ind n="" />}
+                {d.dependency}{d.indicative && <Ind n="" />}
               </Link>
               {aircraft.map((a) => {
                 const hit = (d.aircraft || '').split('(')[0].trim() === a;
@@ -154,7 +154,7 @@ function ClusterMap({ sites, clusters }: { sites: GeoRec[]; clusters: GeoCluster
     return out.length ? `M ${out.join(' L ')} Z` : '';
   }, []);
   const pts = sites.filter((s) => s.lat && s.lng);
-  const byCluster = (c: string) => sites.filter((s) => s.industrial_cluster === c).length;
+  const byCluster = (c: GeoCluster) => sites.filter((s) => c.company_ids.includes(s.company_id)).length;
   return (
     <div className="ma-chart">
       <div className="ma-chart-title">Geography of the ecosystem <span className="ma-chart-sub">{sites.length} sites · {clusters.length} evidence-backed clusters</span></div>
@@ -176,7 +176,7 @@ function ClusterMap({ sites, clusters }: { sites: GeoRec[]; clusters: GeoCluster
             <li key={c.id} style={{ ...card, padding: '10px 12px' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10 }}>
                 <span style={{ fontWeight: 700, fontSize: 13, color: 'var(--text)' }}>{c.name}</span>
-                <span style={{ fontSize: 11, color: 'var(--brass-cream, #E6D1A0)', fontFamily: 'var(--font-jetbrains, monospace)' }}>{byCluster(c.id)} sites</span>
+                <span style={{ fontSize: 11, color: 'var(--brass-cream, #E6D1A0)', fontFamily: 'var(--font-jetbrains, monospace)' }}>{byCluster(c)} sites · {c.company_ids.length} companies</span>
               </div>
               <div style={{ fontSize: 12, color: 'var(--text-dim)', marginTop: 3 }}>{c.state} · {c.evidence_strength}</div>
             </li>
@@ -282,10 +282,10 @@ export function AerospaceView({ data }: { data: Data }) {
           <div style={{ display: 'grid', gap: 12, gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))' }}>
             {[
               ['Platforms', `${m.platforms}`, 'C-295 to Il-76MD, mapped with Indian production status'],
-              ['Companies', `${m.companies}`, `${m.companyByType[0]?.k ?? 'primes'} led, Tier-1 to Tier-3 tracked`],
+              ['Companies', `${m.companies}`, 'HAL and Tata-Airbus led; Tier-1 to Tier-3 tracked'],
               ['Import dependencies', `${m.dependencies}`, `${m.dependencyByCriticality.find((x) => x.k === 'CRITICAL')?.n ?? 0} critical · ${m.dependencyByConcentration.find((x) => x.k === 'single-source')?.n ?? 0} single-source`],
               ['Sources verified', `${m.sourcesResolved}/${m.sources}`, `${m.sourcesUnresolved} still indicative - labelled in the UI`],
-              ['Indicative records', `${m.indicativeRecords}`, 'of 256 records - visibly labelled, not rendered as fact'],
+              ['Indicative records', `${m.indicativeRecords}`, `of ${m.records} records - visibly labelled, not rendered as fact`],
             ].map(([k, v, s]) => (
               <div key={k} style={{ ...card }}>
                 <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'var(--text-dim)' }}>{k}</div>

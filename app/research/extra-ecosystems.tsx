@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { meta as aeroMeta } from './military-aerospace/data';
 
 /**
  * Atlas ecosystems that live OUTSIDE the five SID corridors (which auto-populate
@@ -53,6 +54,21 @@ export const EXTRA_ECOSYSTEMS: ExtraEcosystem[] = [
     weakName: 'AESA GaN / FPGA',
     weakStatus: 'Import-dependent',
     go: 'Explore the shield →',
+  },
+  {
+    key: 'military-aerospace',
+    label: 'Military Aerospace',
+    no: '08',
+    href: '/research/military-aerospace/',
+    accent: '#6CB0FF',
+    tagline: 'India assembles transport aircraft it does not design — the engines, avionics and actuators still come from abroad.',
+    strip: ['#C0563B', '#C0563B', '#C99A3B', '#C99A3B', '#2BC5B4', '#2BC5B4'],
+    stat: <><b>{aeroMeta.platforms}</b> platforms · <b>{aeroMeta.companies}</b> companies</>,
+    stat2: `${aeroMeta.dependencies} dependencies`,
+    weakPrefix: 'Critical import dep',
+    weakName: 'Engines & FADEC',
+    weakStatus: 'Import-dependent',
+    go: 'Explore the ecosystem ',
   },
 ];
 
