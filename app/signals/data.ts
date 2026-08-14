@@ -75,39 +75,33 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Assembly, test and packaging (ATMP/OSAT) is the layer most exposed to near-term ramp risk.', 'Substrate, lead-frame and high-purity chemical supply are thin and largely imported.', 'Packaging capacity, not wafer starts, is the more realistic 2026–28 employment story.'],
   sources: ['https://www.meity.gov.in/content/semiconductor', 'https://www.india.gov.in/']
 }, {
-  slug: 'advanced-packaging-binding-constraint',
-  no: 'S-007',
-  title: 'Advanced packaging is India’s binding AI constraint',
+  slug: 'visakhapatnam-coastal-ai',
+  no: 'S-006',
+  title: 'The Visakhapatnam coastal-AI thesis',
   domain: 'AI Infrastructure',
   date: '2026-05-29',
   dateLabel: '29 May 2026',
   status: 'live',
-  excerpt: 'India has built or is building twelve semiconductor projects worth ₹1.65 lakh crore. None of them produces the chips that AI accelerators are made from — because the binding constraint is not the fab, it is advanced packaging.',
-  readingTime: '5 min',
+  excerpt: 'The 71% concentration of India’s submarine-cable capacity at Mumbai and Chennai is the single largest geographic risk to Indian AI infrastructure. Visakhapatnam is the one project that materially diversifies it.',
+  readingTime: '4 min',
   body: [{
-  text: 'The India Semiconductor Mission has, by May 2026, approved twelve projects with cumulative announced capex of approximately ₹1.65 lakh crore — anchored by the Tata-PSMC fab at Dholera (₹91,000 crore, 50,000 WSPM at 28-110 nm), the Tata-TSAT OSAT in Assam (₹27,120 crore), the Micron Sanand OSAT (USD 2.75 billion), and four other OSAT facilities at Sanand and Surat. This is real industrial-policy success. But fabs at mature nodes do not produce the chips that power AI accelerators, and India has no announced CoWoS-class advanced packaging or HBM stacking capability — the two bottlenecks that gate every Nvidia, AMD or Intel AI accelerator made today.',
+  text: 'The geography of AI inference is decided by latency. Below ~50 ms end-to-end the difference is imperceptible; above 100 ms it becomes noticeable; above 200 ms real-time agentic workflows degrade. The latency budget pulls inference toward coastal cities where submarine cables land. India operates 17 international submarine cables across 16-17 cable landing stations. Mumbai hosts eight CLS; Chennai four. Combined, those two cities hold approximately 71% of national CLS capacity — the single largest geographic risk to Indian AI infrastructure.',
   type: 'p'
 }, {
-  text: 'CoWoS capacity has been oversubscribed through at least 2026; HBM3E allocation is fully committed through 2026. The global capacity is concentrated: TSMC ~75% of advanced 2.5D-packaging capacity, ASE ~15%, Amkor ~8%, with Samsung I-Cube and Intel Foveros holding the residual. India’s announced OSAT capacity does not address this — Tata’s Integrated System Packaging at Jagiroad is system-in-package level, not chiplet/HBM-class on an interposer.',
+  text: 'The strategic opening is Visakhapatnam. The Sify-led Open CLS at Visakhapatnam is the regulatory foundation; the AdaniConneX 200 MW → 1 GW campus is the platform; the Google AI hub of USD 15 billion across 2026–2030 (three Madhurawada tech-zone campuses, gigawatt-scale electricity, 100% renewable energy commitment, AdaniConneX scaling to 1 GW, Airtel-Nxtra partner role, associated subsea cable and clean-energy investment) is the economic anchor. Groundbreaking was April 2026.',
   type: 'p'
 }, {
-  text: 'What an Indian advanced-packaging facility would require',
+  text: 'Why it matters',
   type: 'h'
 }, {
-  text: 'A first-generation Indian CoWoP-equivalent facility producing 5,000–10,000 wafer-equivalent units per month requires capex in the range of USD 3–6 billion (₹25,000–50,000 crore) at full ramp — comparable to second-tier global competitors. The equipment list is concentrated in non-Indian OEMs (BESI, ASMPT, Hanmi for bonding; AMAT, Lam for TSV process; Veeco, Onto Innovation for inspection). Lead times in 2026 are 12–18 months for bonding tools and 18–24 months for TSV process tools. Customer qualification cycles from fabless customer to production order are 18–30 months. First commercial AI-class package: 2030–2032.',
+  text: 'By 2030 Visakhapatnam could plausibly hold 8–12% of national CLS capacity, materially diversifying coastal-fibre concentration. The water position is the most favourable of any rising-corridor district — Visakhapatnam is coastal with potential for captive desalination; CGWB stress classifications are benign relative to Bengaluru, Hyderabad or Chennai. APERC’s FY26 tariff order held rates flat with a ₹12,632 crore state subsidy. The bet is concentrated and binary: if Google-Adani executes on schedule, AP is transformed; if it slips 12–24 months, geographic concentration in Mumbai-Chennai persists.',
   type: 'p'
 }, {
-  text: 'The strategic case',
-  type: 'h'
-}, {
-  text: 'Three factors make this defensible. First, global capacity is structurally constrained — TrendForce projects CoWoS demand at 50% CAGR through 2027 against capacity growth of 35% CAGR. A second-source from a non-Taiwan, non-China geography is commercially valuable. Second, the technology is difficult but is not on a critical-IP control list in the way EUV lithography is. Third, India’s existing OSAT base provides a foundation of cleanroom labour and process-engineering talent.',
-  type: 'p'
-}, {
-  text: 'For the full analysis of the gap, the capex envelope and the customer-development path, see Section 11 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
+  text: 'For the corridor profile, the readiness-matrix score, and the relationship to the Sricity electronics cluster, see Section 25 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
   type: 'p'
 }],
-  takeaways: ['Every Nvidia H100, H200, B200, GB200, AMD MI300, Intel Gaudi 3 and Google TPU is a multi-die assembly bonded onto a 2.5D/3D advanced-packaging substrate (TSMC CoWoS, Intel EMIB/Foveros, ASE CoWoP).', 'No Indian OSAT has announced CoWoS-class capability. Tata Assam’s ISP is system-in-package; Micron, CG Semi, Kaynes and HCL-Foxconn are commodity wire-bond/flip-chip/DDIC. The gap is structural.', 'A first-generation Indian advanced-packaging facility needs USD 3–6 billion (₹25,000–50,000 crore) of capex, 12–24 month equipment lead-times, and a 4–5 year build, with first commercial shipment plausible in 2030–2032.'],
-  sources: ['https://www.meity.gov.in/content/semiconductor', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567']
+  takeaways: ['The AdaniConneX Visakhapatnam platform scales from 200 MW initial to 1 GW AI-ready capacity (Adani Group commitment ≈ USD 10 billion / ₹83,000 crore).', 'The associated Google AI hub is USD 15 billion over 2026–2030 across three Madhurawada tech-zone campuses, with a 100% renewable energy commitment and Sify-led Open CLS as the regulatory foundation.', 'Visakhapatnam’s water position (coastal, desalination-eligible, lower CGWB stress) is more favourable than any inland corridor city. The transmission build-out (dedicated 400 kV lines from southern AP) is the principal area of execution risk.'],
+  sources: ['https://pib.gov.in/PressReleasePage.aspx?PRID=2134567', 'https://www.meity.gov.in/']
 }, {
   slug: 'ai-corridor-competition',
   no: 'S-004',
@@ -171,33 +165,39 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Cooling and HVAC for AI infrastructure: ₹7,500–36,000 crore cumulative through 2030, Indian-vendor capture 35–55% by 2030.', 'Industrial automation: Indian-vendor share of a USD 12–18 billion market by 2030 — ₹25,000–60,000 crore through 2030.', 'Edge AI infrastructure across 30–50 Tier-2 cities: ₹10,000–45,000 crore capex, the most accessible category to Indian system integrators.'],
   sources: ['https://www.india.gov.in/', 'https://www.meity.gov.in/']
 }, {
-  slug: 'visakhapatnam-coastal-ai',
-  no: 'S-006',
-  title: 'The Visakhapatnam coastal-AI thesis',
+  slug: 'advanced-packaging-binding-constraint',
+  no: 'S-007',
+  title: 'Advanced packaging is India’s binding AI constraint',
   domain: 'AI Infrastructure',
   date: '2026-05-29',
   dateLabel: '29 May 2026',
   status: 'live',
-  excerpt: 'The 71% concentration of India’s submarine-cable capacity at Mumbai and Chennai is the single largest geographic risk to Indian AI infrastructure. Visakhapatnam is the one project that materially diversifies it.',
-  readingTime: '4 min',
+  excerpt: 'India has built or is building twelve semiconductor projects worth ₹1.65 lakh crore. None of them produces the chips that AI accelerators are made from — because the binding constraint is not the fab, it is advanced packaging.',
+  readingTime: '5 min',
   body: [{
-  text: 'The geography of AI inference is decided by latency. Below ~50 ms end-to-end the difference is imperceptible; above 100 ms it becomes noticeable; above 200 ms real-time agentic workflows degrade. The latency budget pulls inference toward coastal cities where submarine cables land. India operates 17 international submarine cables across 16-17 cable landing stations. Mumbai hosts eight CLS; Chennai four. Combined, those two cities hold approximately 71% of national CLS capacity — the single largest geographic risk to Indian AI infrastructure.',
+  text: 'The India Semiconductor Mission has, by May 2026, approved twelve projects with cumulative announced capex of approximately ₹1.65 lakh crore — anchored by the Tata-PSMC fab at Dholera (₹91,000 crore, 50,000 WSPM at 28-110 nm), the Tata-TSAT OSAT in Assam (₹27,120 crore), the Micron Sanand OSAT (USD 2.75 billion), and four other OSAT facilities at Sanand and Surat. This is real industrial-policy success. But fabs at mature nodes do not produce the chips that power AI accelerators, and India has no announced CoWoS-class advanced packaging or HBM stacking capability — the two bottlenecks that gate every Nvidia, AMD or Intel AI accelerator made today.',
   type: 'p'
 }, {
-  text: 'The strategic opening is Visakhapatnam. The Sify-led Open CLS at Visakhapatnam is the regulatory foundation; the AdaniConneX 200 MW → 1 GW campus is the platform; the Google AI hub of USD 15 billion across 2026–2030 (three Madhurawada tech-zone campuses, gigawatt-scale electricity, 100% renewable energy commitment, AdaniConneX scaling to 1 GW, Airtel-Nxtra partner role, associated subsea cable and clean-energy investment) is the economic anchor. Groundbreaking was April 2026.',
+  text: 'CoWoS capacity has been oversubscribed through at least 2026; HBM3E allocation is fully committed through 2026. The global capacity is concentrated: TSMC ~75% of advanced 2.5D-packaging capacity, ASE ~15%, Amkor ~8%, with Samsung I-Cube and Intel Foveros holding the residual. India’s announced OSAT capacity does not address this — Tata’s Integrated System Packaging at Jagiroad is system-in-package level, not chiplet/HBM-class on an interposer.',
   type: 'p'
 }, {
-  text: 'Why it matters',
+  text: 'What an Indian advanced-packaging facility would require',
   type: 'h'
 }, {
-  text: 'By 2030 Visakhapatnam could plausibly hold 8–12% of national CLS capacity, materially diversifying coastal-fibre concentration. The water position is the most favourable of any rising-corridor district — Visakhapatnam is coastal with potential for captive desalination; CGWB stress classifications are benign relative to Bengaluru, Hyderabad or Chennai. APERC’s FY26 tariff order held rates flat with a ₹12,632 crore state subsidy. The bet is concentrated and binary: if Google-Adani executes on schedule, AP is transformed; if it slips 12–24 months, geographic concentration in Mumbai-Chennai persists.',
+  text: 'A first-generation Indian CoWoP-equivalent facility producing 5,000–10,000 wafer-equivalent units per month requires capex in the range of USD 3–6 billion (₹25,000–50,000 crore) at full ramp — comparable to second-tier global competitors. The equipment list is concentrated in non-Indian OEMs (BESI, ASMPT, Hanmi for bonding; AMAT, Lam for TSV process; Veeco, Onto Innovation for inspection). Lead times in 2026 are 12–18 months for bonding tools and 18–24 months for TSV process tools. Customer qualification cycles from fabless customer to production order are 18–30 months. First commercial AI-class package: 2030–2032.',
   type: 'p'
 }, {
-  text: 'For the corridor profile, the readiness-matrix score, and the relationship to the Sricity electronics cluster, see Section 25 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
+  text: 'The strategic case',
+  type: 'h'
+}, {
+  text: 'Three factors make this defensible. First, global capacity is structurally constrained — TrendForce projects CoWoS demand at 50% CAGR through 2027 against capacity growth of 35% CAGR. A second-source from a non-Taiwan, non-China geography is commercially valuable. Second, the technology is difficult but is not on a critical-IP control list in the way EUV lithography is. Third, India’s existing OSAT base provides a foundation of cleanroom labour and process-engineering talent.',
+  type: 'p'
+}, {
+  text: 'For the full analysis of the gap, the capex envelope and the customer-development path, see Section 11 of India’s AI Industrial Transition and Infrastructure Transformation (2026–2035).',
   type: 'p'
 }],
-  takeaways: ['The AdaniConneX Visakhapatnam platform scales from 200 MW initial to 1 GW AI-ready capacity (Adani Group commitment ≈ USD 10 billion / ₹83,000 crore).', 'The associated Google AI hub is USD 15 billion over 2026–2030 across three Madhurawada tech-zone campuses, with a 100% renewable energy commitment and Sify-led Open CLS as the regulatory foundation.', 'Visakhapatnam’s water position (coastal, desalination-eligible, lower CGWB stress) is more favourable than any inland corridor city. The transmission build-out (dedicated 400 kV lines from southern AP) is the principal area of execution risk.'],
-  sources: ['https://pib.gov.in/PressReleasePage.aspx?PRID=2134567', 'https://www.meity.gov.in/']
+  takeaways: ['Every Nvidia H100, H200, B200, GB200, AMD MI300, Intel Gaudi 3 and Google TPU is a multi-die assembly bonded onto a 2.5D/3D advanced-packaging substrate (TSMC CoWoS, Intel EMIB/Foveros, ASE CoWoP).', 'No Indian OSAT has announced CoWoS-class capability. Tata Assam’s ISP is system-in-package; Micron, CG Semi, Kaynes and HCL-Foxconn are commodity wire-bond/flip-chip/DDIC. The gap is structural.', 'A first-generation Indian advanced-packaging facility needs USD 3–6 billion (₹25,000–50,000 crore) of capex, 12–24 month equipment lead-times, and a 4–5 year build, with first commercial shipment plausible in 2030–2032.'],
+  sources: ['https://www.meity.gov.in/content/semiconductor', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567']
 }, {
   slug: 'netrasemi-a2000-edge-ai-silicon',
   no: 'S-012',
@@ -724,52 +724,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['A rare-earth-free motor is a supply-chain signal, not an EV story: it can bend the demand curve for the rare-earth → magnet → motor chain that China dominates (~91% refining, ~94% magnets).', 'India is hedging both ways — funding domestic magnets (₹7,280 cr REPM) and designing the magnet out — and the two should be run as one materials-resilience strategy, not competing bets.', 'Magnet-free relocates value from materials to power electronics and motor-control software — the stack India should own if substitution scales.'],
   sources: ['https://electrek.co/2026/07/13/vimag-labs-magnet-free-ev-motor-patent/', 'https://gulfnews.com/technology/indian-startup-patents-rare-earth-free-electric-motor-for-evs-challenging-chinas-supply-chain-dominance-1.500609670', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-7280-crore-scheme-to-promote-manufacturing-of-sintered-rare-earth-permanent-magnets-repm/']
 }, {
-  slug: 'india-asia-mineral-processing-hub',
-  no: 'S-022',
-  title: 'Can India Be Asia\'s Mineral-Processing Hub?',
-  domain: 'Critical Minerals & Economic Geography',
-  date: '2026-07-19',
-  dateLabel: '19 July 2026',
-  status: 'live',
-  excerpt: 'India has the ore, the energy-transition demand and the policy intent. Whether it can become the processing hub for Asian critical minerals depends on three execution bets — refinery policy, partner selection and talent — rather than geology.',
-  readingTime: '8 min',
-  body: [{
-  text: 'The prevailing framing treats India as a minerals consumer or, at best, an upstream miner. The different question is whether India can capture the midstream: the refining, separation and high-purity chemical production that every manufacturer in Asia needs but that is currently concentrated in one geography. The answer is structurally plausible but execution-conditional — three bets decide it.',
-  type: 'p'
-}, {
-  text: 'The base case',
-  type: 'h'
-}, {
-  text: 'India has multiple advantages that most prospective processing hubs lack. It has domestic critical-mineral deposits plus long-term access to Australian, African and South American feedstock; cheap domestic coal and increasingly cheap solar power; a large domestic demand pull from semiconductors, EV, defence and AI infrastructure; and a policy architecture that treats critical minerals as strategic. It also has one structural disadvantage: the midstream talent base is small, the technology is proprietary, and the incumbent in China has 25 years of scale learning.',
-  type: 'p'
-}, {
-  text: 'The three execution bets',
-  type: 'h'
-}, {
-  type: 'list',
-  items: ['Refinery policy — whether India attaches domestic-value-addition conditions to mineral imports and critical-minerals auctions, or treats processing as a private-sector decision.', 'Partner selection — whether technology-transfer partnerships are structured as genuine capability build or as black-box equipment supply with Indian civil works.', 'Talent — whether India builds a refinery-chemistry and hydromet-engineering pipeline in the 18–36 month window that the first-generation plants need, or imports operation teams for a decade.']
-}, {
-  text: 'The competitive set',
-  type: 'h'
-}, {
-  text: 'Indonesia, Chile, Australia and Canada are all pursuing midstream lithium and nickel capacity with different success. Indonesia used export bans to force nickel refining domestic; the result was significant investment, but also a WTO dispute and environmental critique. Chile and Australia have the ore and a growing refining base but not the downstream chemistry. Canada has the critical-minerals policy but not yet the scale. India is entering this field later but with the largest single demand pool in Asia and the most capital-efficient power position.',
-  type: 'p'
-}, {
-  text: 'Three scenarios',
-  type: 'h'
-}, {
-  text: 'Base case — 35% probability: India builds 10–15 mtpa equivalent critical-mineral processing capacity by 2035, anchored by domestic demand but not enough to serve regional markets meaningfully. Accelerated case — 25% probability: India attaches processing mandates to mineral concessions, signs technology-transfer partnerships, and graduates 1,000+ hydromet and separation engineers by 2030. Stalled case — 40% probability: Refinery announcements outrun execution; first-generation plants miss yield and cost targets; the hub aspiration remains unrealised.',
-  type: 'p'
-}, {
-  text: 'The verdict',
-  type: 'h'
-}, {
-  text: 'India can be Asia\'s processing hub in the same way it can be a semiconductor manufacturer: it is not a geology question, it is a policy, technology-transfer and execution question. The minerals are here. The market is here. The policy intent is here. What is missing is the deliberate midstream architecture that connects those three things into an industrial system.',
-  type: 'p'
-}],
-  takeaways: ['India has a structurally plausible path to becoming Asia\'s critical-mineral processing hub; the constraint is execution, not ore or demand.', 'Three bets decide the outcome: processing mandates in mineral policy, genuine technology-transfer partnerships, and a hydromet/separation-chemistry talent pipeline.', 'Indonesia shows what export-linked processing mandates can achieve in 3–5 years; India has better power and a larger domestic market but less coercive policy instruments.'],
-  sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds592_e.htm', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
-}, {
   slug: 'battery-materials-processing-india',
   no: 'S-021',
   title: 'Battery Materials Processing — Lithium, Cobalt, Nickel and the Cell-Ecosystem Opportunity',
@@ -856,6 +810,52 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Every refinery announcement hides a second story — the origin of the separation technology and the identity of the EPC contractor.', 'The equipment and know-how layer — solvent extraction, hydromet, ion exchange, crystallisation — is the real leverage point and where Indian industry can build durable advantage.', 'Technology transfer, not just equipment supply, is the metric that separates genuine capability build from another import-dependent greenfield.'],
   sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
 }, {
+  slug: 'india-asia-mineral-processing-hub',
+  no: 'S-022',
+  title: 'Can India Be Asia\'s Mineral-Processing Hub?',
+  domain: 'Critical Minerals & Economic Geography',
+  date: '2026-07-19',
+  dateLabel: '19 July 2026',
+  status: 'live',
+  excerpt: 'India has the ore, the energy-transition demand and the policy intent. Whether it can become the processing hub for Asian critical minerals depends on three execution bets — refinery policy, partner selection and talent — rather than geology.',
+  readingTime: '8 min',
+  body: [{
+  text: 'The prevailing framing treats India as a minerals consumer or, at best, an upstream miner. The different question is whether India can capture the midstream: the refining, separation and high-purity chemical production that every manufacturer in Asia needs but that is currently concentrated in one geography. The answer is structurally plausible but execution-conditional — three bets decide it.',
+  type: 'p'
+}, {
+  text: 'The base case',
+  type: 'h'
+}, {
+  text: 'India has multiple advantages that most prospective processing hubs lack. It has domestic critical-mineral deposits plus long-term access to Australian, African and South American feedstock; cheap domestic coal and increasingly cheap solar power; a large domestic demand pull from semiconductors, EV, defence and AI infrastructure; and a policy architecture that treats critical minerals as strategic. It also has one structural disadvantage: the midstream talent base is small, the technology is proprietary, and the incumbent in China has 25 years of scale learning.',
+  type: 'p'
+}, {
+  text: 'The three execution bets',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Refinery policy — whether India attaches domestic-value-addition conditions to mineral imports and critical-minerals auctions, or treats processing as a private-sector decision.', 'Partner selection — whether technology-transfer partnerships are structured as genuine capability build or as black-box equipment supply with Indian civil works.', 'Talent — whether India builds a refinery-chemistry and hydromet-engineering pipeline in the 18–36 month window that the first-generation plants need, or imports operation teams for a decade.']
+}, {
+  text: 'The competitive set',
+  type: 'h'
+}, {
+  text: 'Indonesia, Chile, Australia and Canada are all pursuing midstream lithium and nickel capacity with different success. Indonesia used export bans to force nickel refining domestic; the result was significant investment, but also a WTO dispute and environmental critique. Chile and Australia have the ore and a growing refining base but not the downstream chemistry. Canada has the critical-minerals policy but not yet the scale. India is entering this field later but with the largest single demand pool in Asia and the most capital-efficient power position.',
+  type: 'p'
+}, {
+  text: 'Three scenarios',
+  type: 'h'
+}, {
+  text: 'Base case — 35% probability: India builds 10–15 mtpa equivalent critical-mineral processing capacity by 2035, anchored by domestic demand but not enough to serve regional markets meaningfully. Accelerated case — 25% probability: India attaches processing mandates to mineral concessions, signs technology-transfer partnerships, and graduates 1,000+ hydromet and separation engineers by 2030. Stalled case — 40% probability: Refinery announcements outrun execution; first-generation plants miss yield and cost targets; the hub aspiration remains unrealised.',
+  type: 'p'
+}, {
+  text: 'The verdict',
+  type: 'h'
+}, {
+  text: 'India can be Asia\'s processing hub in the same way it can be a semiconductor manufacturer: it is not a geology question, it is a policy, technology-transfer and execution question. The minerals are here. The market is here. The policy intent is here. What is missing is the deliberate midstream architecture that connects those three things into an industrial system.',
+  type: 'p'
+}],
+  takeaways: ['India has a structurally plausible path to becoming Asia\'s critical-mineral processing hub; the constraint is execution, not ore or demand.', 'Three bets decide the outcome: processing mandates in mineral policy, genuine technology-transfer partnerships, and a hydromet/separation-chemistry talent pipeline.', 'Indonesia shows what export-linked processing mandates can achieve in 3–5 years; India has better power and a larger domestic market but less coercive policy instruments.'],
+  sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds592_e.htm', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
+}, {
   slug: 'mineral-security-to-processing-thesis',
   no: 'S-017',
   title: 'From Mineral Security to Mineral Processing — Why the Midstream Layer Decides Competitiveness',
@@ -940,7 +940,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-rare-earths.pdf', 'https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-7280-crore-scheme-to-promote-manufacturing-of-sintered-rare-earth-permanent-magnets-repm/']
 }, {
   slug: 'marvell-india-semiconductor-design',
-  no: 'S-023',
+  no: 'S-052',
   title: 'Marvell\'s US$250 Million India Investment Reinforces India\'s Emergence as a Global Semiconductor Design Hub',
   domain: 'Semiconductor Design & R&D Ecosystem',
   date: '2026-07-29',
@@ -988,39 +988,39 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Marvell will invest US$250 million over three years and expand its Bengaluru and Hyderabad presence, doubling Indian headcount to support advanced semiconductor design.', 'The announcement signals a structural shift in India\'s semiconductor role: from manufacturing support and assembly toward global chip architecture, ASIC design, verification and AI accelerator development.', 'The scarce resource is now engineering talent — RTL, physical design, DFT, verification, AI accelerator architecture and high-speed SerDes — which makes semiconductor education and ecosystem development a strategic industry.', 'The Bengaluru–Hyderabad corridor is strengthening as India\'s primary semiconductor design and R&D hub, creating concentrated opportunity for adjacent vendors and institutions.'],
   sources: ['https://www.thehindu.com/business/Industry/semicon-firm-marvell-to-invest-250-mn-in-technology-talent-and-infrastructure-in-india/article71281465.ece', 'https://www.marvell.com/']
 }, {
-  slug: 'india-twelve-opportunity-zones-industrial-capital',
-  no: 'S-031',
-  title: 'Twelve Zones Where India\'s Industrial Capital Should Concentrate',
+  slug: 'india-pli-uneven-record-component-gap',
+  no: 'S-027',
+  title: 'PLI\'s Uneven Record Exposes the Component Gap Beneath Assembly',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
   dateLabel: '31 Jul 2026',
   status: 'live',
-  excerpt: 'Rather than spreading effort across hundreds of imports, the dependency framework narrows the field to twelve opportunity zones and a top-ten of opportunity surfaces — the intersection of deep-enough dependency, real localisation potential and workable economics — where concentrated capital and policy would move the dependency index most.',
-  readingTime: '4 min',
+  excerpt: 'Mobile-manufacturing PLI has drawn 312% of its targeted investment, but Electronic Components sits at 68% and Bulk Drugs at 48% — evidence that incentivising finished products localises assembly while the dependency migrates one layer down, into the components.',
+  readingTime: '5 min',
   body: [{
-  text: 'A dependency map with hundreds of entries is a risk list, not a strategy. The framework\'s final move is to concentrate: it filters the full import surface down to twelve opportunity zones and a ranked top-ten of opportunity surfaces, selected where dependency is deep enough to matter, localisation is genuinely feasible, and the investment economics work.',
+  text: 'The Production-Linked Incentive schemes have a split record. Mobile manufacturing has realised roughly 312% of its targeted investment and textiles 117% — clear outperformers. But Electronic Components sits at 68% utilisation, Bulk Drugs at 48%, and White Goods at 67%. The pattern is not random.',
   type: 'p'
 }, {
-  text: 'Concentration over breadth',
+  text: 'Assembly localises, dependency migrates',
   type: 'h'
 }, {
-  text: 'The logic mirrors how industrial policy actually succeeds — a handful of well-capitalised, well-sited bets rather than thin support spread everywhere. Concentrating capital, talent and policy on twelve zones creates the ecosystem density (suppliers, skills, test infrastructure) that no scattered approach reaches, and it is that density, not the individual plant, that durably reduces dependence.',
+  text: 'The schemes that outperformed reward finished-product assembly, where India already had a base to scale. The laggards are the upstream component and active-ingredient lines — exactly the layers that finished-goods incentives do not reach. So localising the phone or the formulation shifts the import bill from the product to its components and precursors, rather than eliminating it. The dependency moves one tier down the stack.',
   type: 'p'
 }, {
-  text: 'An investment envelope, not a wish list',
+  text: 'The ecosystem gap',
   type: 'h'
 }, {
-  text: 'Because each surface carries localisation and investment-attractiveness scores, the twelve zones come with an order-of-magnitude investment envelope and a sequencing logic — which to start now (Build-now surfaces like power electronics and specialty materials) and which to position early. That turns a national dependency problem into a finite, fundable programme.',
+  text: 'This is the structural gap the dependency lens exposes: PLI targets products; the L0-L3 ecosystem layers beneath them are not incentivised. Until the component, material and equipment tiers are pulled in — with instruments matched to their longer paybacks and thinner early economics — assembly success will keep masking upstream dependence.',
   type: 'p'
 }, {
   text: 'What the signal means',
   type: 'h'
 }, {
-  text: 'For anyone allocating industrial capital — private investors, DFIs or the state — the twelve zones are the shortlist worth underwriting first. The value of the exercise is subtraction: it says as clearly what to deprioritise as what to fund.',
+  text: 'The next generation of incentive design has to fund the chain, not just the output: component-line capex, materials, test-and-certification and equipment, where the imports actually concentrate. The PLI utilisation numbers are an early map of where that redesign is most overdue — components and bulk drugs first.',
   type: 'p'
 }],
-  takeaways: ['The framework narrows hundreds of imports to twelve opportunity zones and a top-ten of surfaces — the intersection of deep-enough dependency, feasible localisation and workable economics.', 'Concentration beats breadth: a few well-capitalised, well-sited bets build the ecosystem density (suppliers, skills, test infra) that durably reduces dependence.', 'Because each surface is scored, the zones carry an investment envelope and sequencing — Build-now surfaces (power electronics, specialty materials) first, others positioned early.', 'The exercise is as valuable for what it says to deprioritise as for what to fund — turning a national dependency problem into a finite, fundable programme.'],
-  sources: ['https://labs.techadyant.com/research/dependencies']
+  takeaways: ['PLI utilisation is split: mobile manufacturing ~312% and textiles 117% (outperformed) versus Electronic Components 68% and Bulk Drugs 48% (below target).', 'Finished-product incentives localise assembly where a base existed; the upstream component and active-ingredient tiers they do not reach are the laggards.', 'So localising the product shifts the import bill to its components and precursors — the dependency migrates one layer down the stack rather than disappearing.', 'The fix is incentive design that funds the chain (component capex, materials, test-cert, equipment), not just the output — components and bulk drugs first.'],
+  sources: ['https://www.investindia.gov.in/schemes/production-linked-incentive-scheme', 'https://www.pib.gov.in']
 }, {
   slug: 'critical-manufacturing-dependency-index-launch',
   no: 'S-024',
@@ -1117,40 +1117,6 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['SiC power semiconductors (dependency 82, localisation 62, attractiveness 80) and display-driver ICs (80/62/78) are the clearest Build-now surfaces: deep import, buildable, bankable.', 'Reading the three indices together separates Build-now from Watch — EUV resist (95 dependency / 5 localisation) is a Watch bet; SiC is a Build-now bet.', 'The biggest prize is not the deepest dependency but where deep-enough dependency meets feasibility and returns — mid-stream power electronics and drivers.', 'Ventures at this intersection displace real imports while paying back commercially, making the policy bet durable rather than subsidy-dependent.'],
   sources: ['https://labs.techadyant.com/research/dependencies']
-}, {
-  slug: 'india-pli-uneven-record-component-gap',
-  no: 'S-027',
-  title: 'PLI\'s Uneven Record Exposes the Component Gap Beneath Assembly',
-  domain: 'Critical Manufacturing Dependencies',
-  date: '2026-07-31',
-  dateLabel: '31 Jul 2026',
-  status: 'live',
-  excerpt: 'Mobile-manufacturing PLI has drawn 312% of its targeted investment, but Electronic Components sits at 68% and Bulk Drugs at 48% — evidence that incentivising finished products localises assembly while the dependency migrates one layer down, into the components.',
-  readingTime: '5 min',
-  body: [{
-  text: 'The Production-Linked Incentive schemes have a split record. Mobile manufacturing has realised roughly 312% of its targeted investment and textiles 117% — clear outperformers. But Electronic Components sits at 68% utilisation, Bulk Drugs at 48%, and White Goods at 67%. The pattern is not random.',
-  type: 'p'
-}, {
-  text: 'Assembly localises, dependency migrates',
-  type: 'h'
-}, {
-  text: 'The schemes that outperformed reward finished-product assembly, where India already had a base to scale. The laggards are the upstream component and active-ingredient lines — exactly the layers that finished-goods incentives do not reach. So localising the phone or the formulation shifts the import bill from the product to its components and precursors, rather than eliminating it. The dependency moves one tier down the stack.',
-  type: 'p'
-}, {
-  text: 'The ecosystem gap',
-  type: 'h'
-}, {
-  text: 'This is the structural gap the dependency lens exposes: PLI targets products; the L0-L3 ecosystem layers beneath them are not incentivised. Until the component, material and equipment tiers are pulled in — with instruments matched to their longer paybacks and thinner early economics — assembly success will keep masking upstream dependence.',
-  type: 'p'
-}, {
-  text: 'What the signal means',
-  type: 'h'
-}, {
-  text: 'The next generation of incentive design has to fund the chain, not just the output: component-line capex, materials, test-and-certification and equipment, where the imports actually concentrate. The PLI utilisation numbers are an early map of where that redesign is most overdue — components and bulk drugs first.',
-  type: 'p'
-}],
-  takeaways: ['PLI utilisation is split: mobile manufacturing ~312% and textiles 117% (outperformed) versus Electronic Components 68% and Bulk Drugs 48% (below target).', 'Finished-product incentives localise assembly where a base existed; the upstream component and active-ingredient tiers they do not reach are the laggards.', 'So localising the product shifts the import bill to its components and precursors — the dependency migrates one layer down the stack rather than disappearing.', 'The fix is incentive design that funds the chain (component capex, materials, test-cert, equipment), not just the output — components and bulk drugs first.'],
-  sources: ['https://www.investindia.gov.in/schemes/production-linked-incentive-scheme', 'https://www.pib.gov.in']
 }, {
   slug: 'india-build-the-stack-not-assembly',
   no: 'S-028',
@@ -1254,6 +1220,40 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Eight economy-wide gaps constrain every localisation attempt: ecosystem, talent (~500K shortfall), R&D (0.3% vs Germany 2.8%/Korea 3.5%), test-cert, capital, FTAs, clusters, industrial AI.', 'They are horizontal — costlier finance, weak test-cert and missing FTAs raise the cost or lower the feasibility of localising anything, so fixing them lifts all dependencies at once.', 'The identified fix is ~₹1.14 lakh crore over FY2026-30 — large but bounded, and small against the recurring import bill it targets.', 'The horizontal reforms (R&D uplift, skills, national test-cert, UK/EU FTAs) are the leading indicators to watch — they move dependency more than any single product scheme.'],
   sources: ['https://www.pib.gov.in', 'https://labs.techadyant.com/research/dependencies']
 }, {
+  slug: 'india-twelve-opportunity-zones-industrial-capital',
+  no: 'S-031',
+  title: 'Twelve Zones Where India\'s Industrial Capital Should Concentrate',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-07-31',
+  dateLabel: '31 Jul 2026',
+  status: 'live',
+  excerpt: 'Rather than spreading effort across hundreds of imports, the dependency framework narrows the field to twelve opportunity zones and a top-ten of opportunity surfaces — the intersection of deep-enough dependency, real localisation potential and workable economics — where concentrated capital and policy would move the dependency index most.',
+  readingTime: '4 min',
+  body: [{
+  text: 'A dependency map with hundreds of entries is a risk list, not a strategy. The framework\'s final move is to concentrate: it filters the full import surface down to twelve opportunity zones and a ranked top-ten of opportunity surfaces, selected where dependency is deep enough to matter, localisation is genuinely feasible, and the investment economics work.',
+  type: 'p'
+}, {
+  text: 'Concentration over breadth',
+  type: 'h'
+}, {
+  text: 'The logic mirrors how industrial policy actually succeeds — a handful of well-capitalised, well-sited bets rather than thin support spread everywhere. Concentrating capital, talent and policy on twelve zones creates the ecosystem density (suppliers, skills, test infrastructure) that no scattered approach reaches, and it is that density, not the individual plant, that durably reduces dependence.',
+  type: 'p'
+}, {
+  text: 'An investment envelope, not a wish list',
+  type: 'h'
+}, {
+  text: 'Because each surface carries localisation and investment-attractiveness scores, the twelve zones come with an order-of-magnitude investment envelope and a sequencing logic — which to start now (Build-now surfaces like power electronics and specialty materials) and which to position early. That turns a national dependency problem into a finite, fundable programme.',
+  type: 'p'
+}, {
+  text: 'What the signal means',
+  type: 'h'
+}, {
+  text: 'For anyone allocating industrial capital — private investors, DFIs or the state — the twelve zones are the shortlist worth underwriting first. The value of the exercise is subtraction: it says as clearly what to deprioritise as what to fund.',
+  type: 'p'
+}],
+  takeaways: ['The framework narrows hundreds of imports to twelve opportunity zones and a top-ten of surfaces — the intersection of deep-enough dependency, feasible localisation and workable economics.', 'Concentration beats breadth: a few well-capitalised, well-sited bets build the ecosystem density (suppliers, skills, test infra) that durably reduces dependence.', 'Because each surface is scored, the zones carry an investment envelope and sequencing — Build-now surfaces (power electronics, specialty materials) first, others positioned early.', 'The exercise is as valuable for what it says to deprioritise as for what to fund — turning a national dependency problem into a finite, fundable programme.'],
+  sources: ['https://labs.techadyant.com/research/dependencies']
+}, {
   slug: 'india-critical-manufacturing-dependency-report-edition-1',
   no: 'S-032',
   title: 'Techadyant Publishes Edition I of India\'s Critical Manufacturing Dependencies',
@@ -1343,31 +1343,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['IC substrates are one of India\'s deepest chip-stack gaps — no domestic producer, and roughly 70% of the world market held by Shinko, IBIDEN and Unimicron.', 'Intel and 3D Glass Solutions are investing about US$3.3bn in Bhubaneswar-Khurda, Odisha over five to six years — roughly 70,000 glass substrates a year plus assembled units and 3D heterogeneous-integration modules.', 'Glass-core substrates are pre-commercial worldwide (Absolics targeting end-2026, Samsung post-2027, TSMC panel-level ~2028), so India is entering this layer at the frontier rather than a generation behind.', 'Both first movers into India\'s deepest chokepoints — Intel/3DGS in substrates, Fujifilm in process chemicals — are foreign incumbents relocating capacity, not Indian firms entering. Hosting a capability and owning one are different things.'],
   sources: ['https://www.reuters.com/world/india/intel-3dgs-set-up-33-billion-substrate-plant-indias-odisha-state-2026-05-29/', 'https://www.trendforce.com/news/2026/06/01/news-intel-advances-glass-substrate-push-with-3dgs-us3-3-billion-india-plant-set-for-five-to-six-year-buildout/', 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284784', 'https://evertiq.com/design/2026-07-01-fujifilm-partners-with-gujarat-to-boost-chip-materials-manufacturing']
 }, {
-  slug: 'india-uk-autonomous-systems-working-group',
-  no: 'S-036',
-  title: 'India and the UK Choose Co-Development Over Procurement',
-  domain: 'Defence & Dual-Use',
-  date: '2026-08-05',
-  dateLabel: '5 Aug 2026',
-  status: 'live',
-  excerpt: 'At Farnborough, India and the UK launched an industry-led working group on autonomous and uncrewed systems — a structural shift from buying platforms to building them together.',
-  readingTime: '2 min',
-  body: [{
-  text: 'India and the United Kingdom launched the India-UK Autonomous Platforms and Uncrewed Systems Working Group at the Farnborough International Airshow (6-7 August 2026). It is industry-led, sitting under the UK India Business Council (UKIBC)-Society of Indian Defence Manufacturers (SIDM) joint framework and the India-UK Defence Industrial Roadmap within the Vision 2035 partnership. It is co-chaired by Dr Helen Almey, Head of Capability Engagement at ADS Group, on the UK side and Sameer Joshi, CEO of NewSpace Research and Technologies, on the Indian side, and is tasked with identifying joint development projects, manufacturing partnerships, supply-chain integration and technology innovation across aerial, land and underwater autonomous systems.',
-  type: 'p'
-}, {
-  text: 'The launch marks a structural shift from government-to-government dialogue toward joint industrial outcomes - co-development and joint R&D rather than a buyer-seller platform sale. SIDM Director General K Ramesh described it as the operational framework needed to translate high-level roadmaps into commercial projects, and said it would be the first of several capability-focused sub-groups covering critical defence sectors.',
-  type: 'p'
-}, {
-  text: 'For India the value is structural. Autonomy, counter-drone and seabed-sensor networks are complex, capability-thin layers, and developing them in isolation is slow and risky. A co-development framework is a route to the technology base India\'s own strategy flags as missing. Particular emphasis on underwater autonomous systems reflects Indo-Pacific maritime priorities, and the appointment of a private Indian innovator, NewSpace, as India co-chair signals that domestic industry is now shaping the bilateral agenda rather than merely participating in it.',
-  type: 'p'
-}, {
-  text: 'The test is whether the working group produces Indian-owned IP and a domestic supplier base - concrete joint programmes within 12 months, and the model replicated across other defence domains - or becomes an import channel with a partnership label. Watch the first joint programmes and their local-content and IP terms.',
-  type: 'p'
-}],
-  takeaways: ['India and the UK launched an industry-led Autonomous Platforms & Uncrewed Systems Working Group at Farnborough 2026 (6-7 August).', 'It is co-chaired by Sameer Joshi (NewSpace Research and Technologies, India) and Dr Helen Almey (ADS Group, UK), under the UKIBC-SIDM framework.', 'The first of several planned sub-groups under the India-UK Defence Industrial Roadmap / Vision 2035; covers aerial, land and underwater systems, with emphasis on underwater for Indo-Pacific security.', 'Signals co-development and joint R&D over transactional procurement; the value depends on real technology transfer and Indian IP.'],
-  sources: ['Raksha Anirveda (05 Aug 2026): https://raksha-anirveda.com/bilateral-defence-tech-cooperation-india-and-uk-launch-autonomous-platforms-and-uncrewed-systems-working-group/', 'IDRW (04 Aug 2026): https://idrw.org/uncrewed-alliance-newspace-ceo-sameer-joshi-named-india-co-chair-of-new-india-uk-autonomous-systems-working-group/', 'Indian Masterminds (04 Aug 2026): https://indianmasterminds.com/news/defence/india-uk-cooperation-autonomous-platforms-uncrewed-systems-working-group-launch-221521/', 'The Print (2026): https://theprint.in/world/new-india-uk-industry-initiative-to-boost-defence-tech-collaboration/2993802/']
-}, {
   slug: 'asip-osat-visakhapatnam',
   no: 'S-035',
   title: 'India\'s Chip Strategy Moves From Design Services to a Packaging Line',
@@ -1418,30 +1393,30 @@ export const signals: SignalMeta[] = [{
   takeaways: ['India\'s first indigenous 350 kg thrust-class expendable turbojet was delivered to GTRE on 22 July 2026.', 'Designed by DRDO\'s GTRE and built by Azad Engineering (Hyderabad) — a DRDO-plus-private-industry model.', 'Targets cruise missiles, loitering munitions and UAVs, removing an import chokepoint on range and payload.', 'Value now migrates to the expendable-engine component base — discs, blades, combustors — built for volume.'],
   sources: ['Organiser (24 Jul 2026): https://organiser.org/2026/07/24/371428/bharat/drdo-develops-indias-first-indigenous-350-kg-thrust-class-expendable-turbojet-engine/', 'IndianWeb2 (Jul 2026): https://www.indianweb2.com/2026/07/india-unveils-first-indigenous-350kg.html', 'BIS Infotech: https://www.bisinfotech.com/drdo-advances-indigenous-aerospace-with-turbojet-engine/']
 }, {
-  slug: 'indiaai-mission-gpu-compute-expansion',
-  no: 'S-038',
-  title: 'India Expands Sovereign AI Compute with 15,916 New GPUs under IndiaAI Mission',
-  domain: 'AI Infrastructure',
-  date: '2026-08-07',
-  dateLabel: '7 Aug 2026',
+  slug: 'india-uk-autonomous-systems-working-group',
+  no: 'S-036',
+  title: 'India and the UK Choose Co-Development Over Procurement',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-05',
+  dateLabel: '5 Aug 2026',
   status: 'live',
-  excerpt: 'The government expanded AI compute under the IndiaAI Mission by 15,916 GPUs - taking the empanelled national pool to 34,333 - and ordered a ~1.1 EFLOPS high-performance system, deepening India\'s push for sovereign compute.',
+  excerpt: 'At Farnborough, India and the UK launched an industry-led working group on autonomous and uncrewed systems — a structural shift from buying platforms to building them together.',
   readingTime: '2 min',
   body: [{
-  text: 'On August 6, 2026, the Ministry of Electronics & IT highlighted a major expansion of AI compute infrastructure under the IndiaAI Mission, adding 15,916 GPUs to the national compute network. The addition builds on the existing 18,417 empanelled GPUs, taking the common compute pool to 34,333 GPUs, against a stated target of 100,000 GPUs by end-2026. The Government had approved the IndiaAI Mission on March 7, 2024, with a total outlay of Rs. 10,371.92 crore over five years. The initiative has empaneled 15 Compute Service Providers and approved 237 projects for subsidized compute support, sanctioning 93.18 lakh GPU hours. Additionally, a Purchase Order has been issued for a High-Performance AI Compute System of approximately 1.1 EFLOPS at the NIC Data Centre, Shastri Park, Delhi.',
+  text: 'India and the United Kingdom launched the India-UK Autonomous Platforms and Uncrewed Systems Working Group at the Farnborough International Airshow (6-7 August 2026). It is industry-led, sitting under the UK India Business Council (UKIBC)-Society of Indian Defence Manufacturers (SIDM) joint framework and the India-UK Defence Industrial Roadmap within the Vision 2035 partnership. It is co-chaired by Dr Helen Almey, Head of Capability Engagement at ADS Group, on the UK side and Sameer Joshi, CEO of NewSpace Research and Technologies, on the Indian side, and is tasked with identifying joint development projects, manufacturing partnerships, supply-chain integration and technology innovation across aerial, land and underwater autonomous systems.',
   type: 'p'
 }, {
-  text: 'Strategically, this infrastructure build-out addresses India\'s critical dependency on foreign computing resources for advanced AI development. By establishing a sovereign compute grid, India aims to democratize access to high-performance computing for domestic startups, academic institutions, and public-sector entities. The Mission also supports the development of indigenous foundation models; pursuant to a Call for Proposals issued on January 30, 2025, 20 indigenous foundation model proposals (comprising 12 Large Multimodal Models and 8 Small Language Models) have been identified for support, with intellectual property retained by the applicants.',
+  text: 'The launch marks a structural shift from government-to-government dialogue toward joint industrial outcomes - co-development and joint R&D rather than a buyer-seller platform sale. SIDM Director General K Ramesh described it as the operational framework needed to translate high-level roadmaps into commercial projects, and said it would be the first of several capability-focused sub-groups covering critical defence sectors.',
   type: 'p'
 }, {
-  text: 'The dependency frame centres on the global race for GPU capacity and semiconductor self-reliance. India\'s compute ecosystem currently relies on globally sourced GPUs procured through empaneled providers. The expansion of domestic infrastructure is a direct response to supply chain vulnerabilities highlighted by global trade tensions. This aligns with the broader semiconductor strategy, including the Union Cabinet\'s approval of Semicon 2.0 on July 15, 2026, with an outlay of Rs. 1,27,500 crore to accelerate the design and development of Indian-designed chips and expand fabrication units.',
+  text: 'For India the value is structural. Autonomy, counter-drone and seabed-sensor networks are complex, capability-thin layers, and developing them in isolation is slow and risky. A co-development framework is a route to the technology base India\'s own strategy flags as missing. Particular emphasis on underwater autonomous systems reflects Indo-Pacific maritime priorities, and the appointment of a private Indian innovator, NewSpace, as India co-chair signals that domestic industry is now shaping the bilateral agenda rather than merely participating in it.',
   type: 'p'
 }, {
-  text: 'The opportunity lies in establishing India as a globally competitive hub for AI development, less dependent on foreign hardware monopolies. The test to watch is the operational deployment and utilization of the 1.1 EFLOPS HPC system at the NIC Data Centre, and whether the empaneled compute providers can deliver the promised capacity effectively to domestic developers and researchers.',
+  text: 'The test is whether the working group produces Indian-owned IP and a domestic supplier base - concrete joint programmes within 12 months, and the model replicated across other defence domains - or becomes an import channel with a partnership label. Watch the first joint programmes and their local-content and IP terms.',
   type: 'p'
 }],
-  takeaways: ['The IndiaAI Mission added 15,916 GPUs, taking the empanelled compute pool to 34,333 (target: 100,000 by end-2026).', 'A Purchase Order was issued for a ~1.1 EFLOPS High-Performance AI Compute System at the NIC Data Centre, Delhi.', '20 indigenous foundation model proposals (12 LMMs, 8 SLMs) have been identified for support under the Mission.', 'The Cabinet approved Semicon 2.0 with an outlay of Rs. 1,27,500 crore to boost semiconductor manufacturing.'],
-  sources: ['Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295477', 'Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295483']
+  takeaways: ['India and the UK launched an industry-led Autonomous Platforms & Uncrewed Systems Working Group at Farnborough 2026 (6-7 August).', 'It is co-chaired by Sameer Joshi (NewSpace Research and Technologies, India) and Dr Helen Almey (ADS Group, UK), under the UKIBC-SIDM framework.', 'The first of several planned sub-groups under the India-UK Defence Industrial Roadmap / Vision 2035; covers aerial, land and underwater systems, with emphasis on underwater for Indo-Pacific security.', 'Signals co-development and joint R&D over transactional procurement; the value depends on real technology transfer and Indian IP.'],
+  sources: ['Raksha Anirveda (05 Aug 2026): https://raksha-anirveda.com/bilateral-defence-tech-cooperation-india-and-uk-launch-autonomous-platforms-and-uncrewed-systems-working-group/', 'IDRW (04 Aug 2026): https://idrw.org/uncrewed-alliance-newspace-ceo-sameer-joshi-named-india-co-chair-of-new-india-uk-autonomous-systems-working-group/', 'Indian Masterminds (04 Aug 2026): https://indianmasterminds.com/news/defence/india-uk-cooperation-autonomous-platforms-uncrewed-systems-working-group-launch-221521/', 'The Print (2026): https://theprint.in/world/new-india-uk-industry-initiative-to-boost-defence-tech-collaboration/2993802/']
 }, {
   slug: 'army-2715-logistic-drones-rfi',
   no: 'S-037',
@@ -1493,30 +1468,30 @@ export const signals: SignalMeta[] = [{
   takeaways: ['HCL met with the Uzbekistan Minister of Investments to explore critical minerals collaboration.', 'The talks align with broader diplomatic efforts to expand India-Uzbekistan strategic partnerships.', 'India is actively diversifying its mineral supply sources to reduce dependence on single suppliers.', 'Uzbekistan is emerging as a key partner for India in securing rare earth and critical minerals.'],
   sources: ['The Newsman of India (06 Aug 2026): https://thenewsmanofindia.com/hindustan-copper-explores-strategic-partnership-with-uzbekistan-in-critical-minerals-sector/', 'The Tribune / ANI (03 Aug 2026): https://www.tribuneindia.com/news/bilateral-trade/uzbekistan-invites-indian-investment-in-mining-rare-earths-targets-usd-2-bn-trade-with-india-next-year']
 }, {
-  slug: 'lt-semiconductor-technologies-osat-shift-india',
-  no: 'S-040',
-  title: 'L&T Semiconductor Shifts Chip Packaging Operations to India',
-  domain: 'Semiconductor Ecosystems',
-  date: '2026-08-08',
-  dateLabel: '8 Aug 2026',
+  slug: 'indiaai-mission-gpu-compute-expansion',
+  no: 'S-038',
+  title: 'India Expands Sovereign AI Compute with 15,916 New GPUs under IndiaAI Mission',
+  domain: 'AI Infrastructure',
+  date: '2026-08-07',
+  dateLabel: '7 Aug 2026',
   status: 'live',
-  excerpt: 'L&T Semiconductor Technologies (LTSCT) is shifting its outsourced assembly and testing (OSAT) operations from overseas facilities to India, partnering with domestic providers including Tata Electronics - a step in localising the semiconductor backend supply chain.',
-  readingTime: '3 min',
+  excerpt: 'The government expanded AI compute under the IndiaAI Mission by 15,916 GPUs - taking the empanelled national pool to 34,333 - and ordered a ~1.1 EFLOPS high-performance system, deepening India\'s push for sovereign compute.',
+  readingTime: '2 min',
   body: [{
-  text: 'L&T Semiconductor Technologies (LTSCT), the fabless semiconductor design arm of Larsen & Toubro, has announced the relocation of its outsourced semiconductor assembly and testing (OSAT) operations from overseas facilities to India. The company has initiated active engagements with domestic OSAT providers, most notably Tata Electronics, whose semiconductor assembly and testing facility in Sanand, Gujarat is preparing for commercial operations. LTSCT designs chips ranging from 12 nanometre to 95 nanometre nodes and has invested USD 100 million in chip design to date, with an average investment of USD 30 million per chip.',
+  text: 'On August 6, 2026, the Ministry of Electronics & IT highlighted a major expansion of AI compute infrastructure under the IndiaAI Mission, adding 15,916 GPUs to the national compute network. The addition builds on the existing 18,417 empanelled GPUs, taking the common compute pool to 34,333 GPUs, against a stated target of 100,000 GPUs by end-2026. The Government had approved the IndiaAI Mission on March 7, 2024, with a total outlay of Rs. 10,371.92 crore over five years. The initiative has empaneled 15 Compute Service Providers and approved 237 projects for subsidized compute support, sanctioning 93.18 lakh GPU hours. Additionally, a Purchase Order has been issued for a High-Performance AI Compute System of approximately 1.1 EFLOPS at the NIC Data Centre, Shastri Park, Delhi.',
   type: 'p'
 }, {
-  text: 'The strategic significance lies in the maturation of India\'s domestic OSAT ecosystem. LTSCT CEO Sandeep Kumar stated that Indian OSAT players currently cover approximately 50 of the 500 semiconductor package types globally, and that India\'s assembly and testing infrastructure has reached a stage where it can compete on cost-efficiency and technical capability with established global facilities. The company, which derives 30 per cent of its revenue from India despite the country accounting for only 10 per cent of global semiconductor demand, expects to break even within two years at revenues of USD 150-200 million.',
+  text: 'Strategically, this infrastructure build-out addresses India\'s critical dependency on foreign computing resources for advanced AI development. By establishing a sovereign compute grid, India aims to democratize access to high-performance computing for domestic startups, academic institutions, and public-sector entities. The Mission also supports the development of indigenous foundation models; pursuant to a Call for Proposals issued on January 30, 2025, 20 indigenous foundation model proposals (comprising 12 Large Multimodal Models and 8 Small Language Models) have been identified for support, with intellectual property retained by the applicants.',
   type: 'p'
 }, {
-  text: 'The dependency frame is notable: while LTSCT is localising its backend (OSAT) operations, wafer fabrication remains abroad at facilities in the United States, Taiwan and Japan. Kumar indicated the company would consider fabricating chips at Tata Electronics\' planned fab - expected to be operational by mid-2028 - only if pricing is globally competitive. This conditional stance highlights that India\'s semiconductor localisation is progressing in stages: backend capabilities are mature enough to attract domestic chip designers, while front-end fabrication remains dependent on international foundries and the viability of domestic alternatives.',
+  text: 'The dependency frame centres on the global race for GPU capacity and semiconductor self-reliance. India\'s compute ecosystem currently relies on globally sourced GPUs procured through empaneled providers. The expansion of domestic infrastructure is a direct response to supply chain vulnerabilities highlighted by global trade tensions. This aligns with the broader semiconductor strategy, including the Union Cabinet\'s approval of Semicon 2.0 on July 15, 2026, with an outlay of Rs. 1,27,500 crore to accelerate the design and development of Indian-designed chips and expand fabrication units.',
   type: 'p'
 }, {
-  text: 'The test to watch is whether Tata Electronics\' Sanand fab achieves commercial production by mid-2028 as planned, and whether LTSCT\'s shift of OSAT operations triggers a broader migration of other fabless companies to India\'s domestic packaging ecosystem. Under the proposed Semicon 2.0 framework, large companies are now eligible for chip design incentives for the first time, which could further accelerate localisation across the value chain.',
+  text: 'The opportunity lies in establishing India as a globally competitive hub for AI development, less dependent on foreign hardware monopolies. The test to watch is the operational deployment and utilization of the 1.1 EFLOPS HPC system at the NIC Data Centre, and whether the empaneled compute providers can deliver the promised capacity effectively to domestic developers and researchers.',
   type: 'p'
 }],
-  takeaways: ['L&T Semiconductor Technologies (LTSCT) is shifting its OSAT (assembly and testing) operations from overseas to India, partnering with Tata Electronics.', 'Indian OSAT players currently cover approximately 50 of 500 global semiconductor package types, with capabilities expanding rapidly.', 'LTSCT has invested USD 100 million in chip design (12nm to 95nm nodes) and expects break-even at USD 150-200 million revenues within two years.', 'Wafer fabrication remains abroad (US, Taiwan, Japan); LTSCT will consider Tata Electronics\' Sanand fab once it achieves commercial production, targeted for mid-2028.'],
-  sources: ['Business Standard (04 Aug 2026): https://www.business-standard.com/industry/news/l-t-semiconductor-goes-local-with-chip-backend-shifts-osat-to-india-126080300783_1.html', 'BIS Infotech (07 Aug 2026): https://www.bisinfotech.com/l-t-semiconductor-technologies-shifts-osat-operations-to-india-in-major-boost-to-local-chip-ecosystem/']
+  takeaways: ['The IndiaAI Mission added 15,916 GPUs, taking the empanelled compute pool to 34,333 (target: 100,000 by end-2026).', 'A Purchase Order was issued for a ~1.1 EFLOPS High-Performance AI Compute System at the NIC Data Centre, Delhi.', '20 indigenous foundation model proposals (12 LMMs, 8 SLMs) have been identified for support under the Mission.', 'The Cabinet approved Semicon 2.0 with an outlay of Rs. 1,27,500 crore to boost semiconductor manufacturing.'],
+  sources: ['Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295477', 'Press Information Bureau (06 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295483']
 }, {
   slug: 'lt-precision-engineering-drone-revenue-threefold-growth',
   no: 'S-041',
@@ -1543,30 +1518,30 @@ export const signals: SignalMeta[] = [{
   takeaways: ['L&T\'s Precision Engineering and Systems division expects revenue to triple over five years, driven by drone and UAV manufacturing expansion.', 'The division showcased the Vedh Mk1 drone and Chanakya autonomy platform at Manthan: Drone Demo Day in Bengaluru on 7 August 2026.', 'L&T expects to deliver 100 new Teer drones to the Indian Air Force, with production already underway.', 'India\'s UAV market is projected to reach around USD 3.2 billion by 2030; L&T is investing in new electronics manufacturing facilities to expand capacity.'],
   sources: ['Reuters (07 Aug 2026): https://www.reuters.com/world/india/lt-says-unit-that-houses-drones-see-threefold-revenue-growth-over-five-years-2026-08-07/', 'Economic Times (07 Aug 2026): https://m.economictimes.com/news/defence/lt-says-unit-that-houses-drones-to-see-threefold-revenue-growth-over-five-years/articleshow/133032316.cms']
 }, {
-  slug: 'india-joins-france-fcas-sixth-generation-fighter-programme',
-  no: 'S-042',
-  title: 'India Moves to Join France-Led FCAS Sixth-Generation Fighter Programme',
-  domain: 'Defence & Dual-Use',
-  date: '2026-08-09',
-  dateLabel: '9 Aug 2026',
+  slug: 'lt-semiconductor-technologies-osat-shift-india',
+  no: 'S-040',
+  title: 'L&T Semiconductor Shifts Chip Packaging Operations to India',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-08-08',
+  dateLabel: '8 Aug 2026',
   status: 'live',
-  excerpt: 'India has begun efforts to co-join the French-led Future Combat Air System (FCAS), a sixth-generation fighter programme, as disclosed in the Parliamentary Standing Committee on Defence\'s report tabled on 7 August 2026. The move follows Germany\'s exit from FCAS and positions India alongside France in next-generation combat aviation - though the form of participation is not yet defined.',
+  excerpt: 'L&T Semiconductor Technologies (LTSCT) is shifting its outsourced assembly and testing (OSAT) operations from overseas facilities to India, partnering with domestic providers including Tata Electronics - a step in localising the semiconductor backend supply chain.',
   readingTime: '3 min',
   body: [{
-  text: 'The Defence Ministry has informed Parliament that it has initiated efforts in a concerted manner to co-join the French-led Future Combat Air System (FCAS), a sixth-generation fighter programme. The disclosure was contained in the Parliamentary Standing Committee on Defence\'s report tabled on 7 August 2026, which urged the Ministry to chalk out a trajectory and advance the planning process for developing and inducting sixth-generation aircraft. India\'s interest lies with FCAS rather than the rival British-Italian-Japanese Global Combat Air Programme (GCAP), which is developing the Tempest aircraft. FCAS was originally conceived by France, Germany and Spain but was reshaped after Germany abandoned the crewed-fighter component in June 2026, following disagreements between Dassault Aviation and Airbus over workshare and intellectual property.',
+  text: 'L&T Semiconductor Technologies (LTSCT), the fabless semiconductor design arm of Larsen & Toubro, has announced the relocation of its outsourced semiconductor assembly and testing (OSAT) operations from overseas facilities to India. The company has initiated active engagements with domestic OSAT providers, most notably Tata Electronics, whose semiconductor assembly and testing facility in Sanand, Gujarat is preparing for commercial operations. LTSCT designs chips ranging from 12 nanometre to 95 nanometre nodes and has invested USD 100 million in chip design to date, with an average investment of USD 30 million per chip.',
   type: 'p'
 }, {
-  text: 'The strategic significance lies in India\'s decision to pursue a technology pathway that its indigenous Advanced Medium Combat Aircraft (AMCA) programme alone cannot provide. Sixth-generation systems are being developed as a system of systems, with crewed fighters operating alongside unmanned remote carriers, loyal-wingman drones, advanced sensors, electronic warfare capabilities and networked combat clouds. This architecture demands capabilities in artificial intelligence, cyber warfare, directed-energy weapons and manned-unmanned teaming that extend well beyond India\'s current fifth-generation development horizon. The AMCA remains targeted for a first flight around 2029, while the FCAS aircraft is expected to fly in the 2028-29 timeframe.',
+  text: 'The strategic significance lies in the maturation of India\'s domestic OSAT ecosystem. LTSCT CEO Sandeep Kumar stated that Indian OSAT players currently cover approximately 50 of the 500 semiconductor package types globally, and that India\'s assembly and testing infrastructure has reached a stage where it can compete on cost-efficiency and technical capability with established global facilities. The company, which derives 30 per cent of its revenue from India despite the country accounting for only 10 per cent of global semiconductor demand, expects to break even within two years at revenues of USD 150-200 million.',
   type: 'p'
 }, {
-  text: 'The dependency frame is notable on multiple levels. India\'s fighter fleet remains below authorised squadron strength, and the indigenous AMCA programme is still under development. By joining FCAS, India gains a potential route to technologies - gallium-nitride transistors for advanced radars, variable-cycle engines, all-aspect stealth shaping - that would take considerably longer to develop independently. At the same time, this creates a new dependency on French technology transfer and intellectual-property access, which must be negotiated within the broader India-France Special Global Strategic Partnership. The government has not disclosed the precise form of India\'s proposed participation, whether as an observer, development partner or production workshare recipient.',
+  text: 'The dependency frame is notable: while LTSCT is localising its backend (OSAT) operations, wafer fabrication remains abroad at facilities in the United States, Taiwan and Japan. Kumar indicated the company would consider fabricating chips at Tata Electronics\' planned fab - expected to be operational by mid-2028 - only if pricing is globally competitive. This conditional stance highlights that India\'s semiconductor localisation is progressing in stages: backend capabilities are mature enough to attract domestic chip designers, while front-end fabrication remains dependent on international foundries and the viability of domestic alternatives.',
   type: 'p'
 }, {
-  text: 'The test to watch is whether the Standing Committee\'s request for a detailed status report, roadmap and timeline produces concrete milestones for India\'s participation in FCAS, and whether India\'s operational vision - which includes carrier operability and nuclear-delivery capabilities that align with French doctrine - can be translated into specific technology-transfer agreements. The concurrent Safran-GTRE partnership on a 120kN high-thrust engine for the AMCA Mk2 suggests a dual-track strategy: indigenous fifth-generation capability alongside international sixth-generation partnership.',
+  text: 'The test to watch is whether Tata Electronics\' Sanand fab achieves commercial production by mid-2028 as planned, and whether LTSCT\'s shift of OSAT operations triggers a broader migration of other fabless companies to India\'s domestic packaging ecosystem. Under the proposed Semicon 2.0 framework, large companies are now eligible for chip design incentives for the first time, which could further accelerate localisation across the value chain.',
   type: 'p'
 }],
-  takeaways: ['India has begun efforts to co-join the French-led Future Combat Air System (FCAS), as disclosed in the Parliamentary Standing Committee on Defence\'s report tabled on 7 August 2026.', 'FCAS is a sixth-generation fighter programme featuring AI integration, electronic warfare, manned-unmanned teaming and networked combat-cloud capabilities.', 'Germany exited the FCAS crewed-fighter component in June 2026 after disputes between Dassault Aviation and Airbus over workshare and IP.', 'The panel has asked the Ministry for a detailed status report, roadmap and timeline for India\'s sixth-generation fighter capability; the form of India\'s participation is not yet defined.'],
-  sources: ['The New Indian Express (08 Aug 2026): https://www.newindianexpress.com/india/2026/Aug/08/india-opts-for-france-led-fcas-to-enter-sixth-generation-fighter-race', 'Business Standard (08 Aug 2026): https://www.business-standard.com/external-affairs-defence-security/news/defence-ministry-begins-efforts-to-join-sixth-gen-fighter-programme-panel-126080800026_1.html', 'The Print (08 Aug 2026): https://theprint.in/defence/and-its-official-india-in-talks-with-france-to-join-6th-gen-fighter-programme-fcas/3009124/']
+  takeaways: ['L&T Semiconductor Technologies (LTSCT) is shifting its OSAT (assembly and testing) operations from overseas to India, partnering with Tata Electronics.', 'Indian OSAT players currently cover approximately 50 of 500 global semiconductor package types, with capabilities expanding rapidly.', 'LTSCT has invested USD 100 million in chip design (12nm to 95nm nodes) and expects break-even at USD 150-200 million revenues within two years.', 'Wafer fabrication remains abroad (US, Taiwan, Japan); LTSCT will consider Tata Electronics\' Sanand fab once it achieves commercial production, targeted for mid-2028.'],
+  sources: ['Business Standard (04 Aug 2026): https://www.business-standard.com/industry/news/l-t-semiconductor-goes-local-with-chip-backend-shifts-osat-to-india-126080300783_1.html', 'BIS Infotech (07 Aug 2026): https://www.bisinfotech.com/l-t-semiconductor-technologies-shifts-osat-operations-to-india-in-major-boost-to-local-chip-ecosystem/']
 }, {
   slug: 'gujarat-chipin-extension-centre-vlsi-design-coe',
   no: 'S-043',
@@ -1592,6 +1567,31 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Gujarat\'s Department of Science and Technology, through GSEM, is establishing a ChipIN Extension Centre and VLSI Design CoE at the GTU campus in collaboration with C-DAC.', 'The centre will provide cloud-based access to advanced EDA tools (Cadence, Synopsys, Siemens) to engineering colleges across Gujarat in a phased manner.', 'Students can have chip designs fabricated through the Multi-Project Wafer (MPW) programme - the full journey from design to physical silicon testing.', 'A two-day orientation programme beginning 7 August 2026 drew more than 30 academic institutions, reflecting broad state-level engagement.'],
   sources: ['DeshGujarat (07 Aug 2026): https://deshgujarat.com/2026/08/07/gujarat-govt-gtu-c-dac-partner-to-set-up-chipin-centre-of-excellence-in-vlsi-design/', 'ET Government (08 Aug 2026): https://government.economictimes.indiatimes.com/news/technology/gujarat-to-focus-on-chip-design-to-advance-in-semiconductor-value-chain-setting-up-new-facility/133047778']
+}, {
+  slug: 'india-joins-france-fcas-sixth-generation-fighter-programme',
+  no: 'S-042',
+  title: 'India Moves to Join France-Led FCAS Sixth-Generation Fighter Programme',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-09',
+  dateLabel: '9 Aug 2026',
+  status: 'live',
+  excerpt: 'India has begun efforts to co-join the French-led Future Combat Air System (FCAS), a sixth-generation fighter programme, as disclosed in the Parliamentary Standing Committee on Defence\'s report tabled on 7 August 2026. The move follows Germany\'s exit from FCAS and positions India alongside France in next-generation combat aviation - though the form of participation is not yet defined.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Defence Ministry has informed Parliament that it has initiated efforts in a concerted manner to co-join the French-led Future Combat Air System (FCAS), a sixth-generation fighter programme. The disclosure was contained in the Parliamentary Standing Committee on Defence\'s report tabled on 7 August 2026, which urged the Ministry to chalk out a trajectory and advance the planning process for developing and inducting sixth-generation aircraft. India\'s interest lies with FCAS rather than the rival British-Italian-Japanese Global Combat Air Programme (GCAP), which is developing the Tempest aircraft. FCAS was originally conceived by France, Germany and Spain but was reshaped after Germany abandoned the crewed-fighter component in June 2026, following disagreements between Dassault Aviation and Airbus over workshare and intellectual property.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in India\'s decision to pursue a technology pathway that its indigenous Advanced Medium Combat Aircraft (AMCA) programme alone cannot provide. Sixth-generation systems are being developed as a system of systems, with crewed fighters operating alongside unmanned remote carriers, loyal-wingman drones, advanced sensors, electronic warfare capabilities and networked combat clouds. This architecture demands capabilities in artificial intelligence, cyber warfare, directed-energy weapons and manned-unmanned teaming that extend well beyond India\'s current fifth-generation development horizon. The AMCA remains targeted for a first flight around 2029, while the FCAS aircraft is expected to fly in the 2028-29 timeframe.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is notable on multiple levels. India\'s fighter fleet remains below authorised squadron strength, and the indigenous AMCA programme is still under development. By joining FCAS, India gains a potential route to technologies - gallium-nitride transistors for advanced radars, variable-cycle engines, all-aspect stealth shaping - that would take considerably longer to develop independently. At the same time, this creates a new dependency on French technology transfer and intellectual-property access, which must be negotiated within the broader India-France Special Global Strategic Partnership. The government has not disclosed the precise form of India\'s proposed participation, whether as an observer, development partner or production workshare recipient.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether the Standing Committee\'s request for a detailed status report, roadmap and timeline produces concrete milestones for India\'s participation in FCAS, and whether India\'s operational vision - which includes carrier operability and nuclear-delivery capabilities that align with French doctrine - can be translated into specific technology-transfer agreements. The concurrent Safran-GTRE partnership on a 120kN high-thrust engine for the AMCA Mk2 suggests a dual-track strategy: indigenous fifth-generation capability alongside international sixth-generation partnership.',
+  type: 'p'
+}],
+  takeaways: ['India has begun efforts to co-join the French-led Future Combat Air System (FCAS), as disclosed in the Parliamentary Standing Committee on Defence\'s report tabled on 7 August 2026.', 'FCAS is a sixth-generation fighter programme featuring AI integration, electronic warfare, manned-unmanned teaming and networked combat-cloud capabilities.', 'Germany exited the FCAS crewed-fighter component in June 2026 after disputes between Dassault Aviation and Airbus over workshare and IP.', 'The panel has asked the Ministry for a detailed status report, roadmap and timeline for India\'s sixth-generation fighter capability; the form of India\'s participation is not yet defined.'],
+  sources: ['The New Indian Express (08 Aug 2026): https://www.newindianexpress.com/india/2026/Aug/08/india-opts-for-france-led-fcas-to-enter-sixth-generation-fighter-race', 'Business Standard (08 Aug 2026): https://www.business-standard.com/external-affairs-defence-security/news/defence-ministry-begins-efforts-to-join-sixth-gen-fighter-programme-panel-126080800026_1.html', 'The Print (08 Aug 2026): https://theprint.in/defence/and-its-official-india-in-talks-with-france-to-join-6th-gen-fighter-programme-fcas/3009124/']
 }, {
   slug: 'uttar-pradesh-lands-45000-crore-semiconductor-solar-investments',
   no: 'S-044',
@@ -1643,31 +1643,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['India\'s data-centre capacity has risen more than four-fold, from ~375 MW (2020) to ~1,575 MW, on AI/HPC demand (Lok Sabha written reply, 5 August 2026).', 'MoS MeitY Jitin Prasada attributed the growth to AI and the IndiaAI Mission\'s sovereign-compute push, with measures flagged for environmentally sustainable expansion.', 'Principal AI corridors face acute water stress - Bengaluru and Hyderabad are CGWB over-exploited; Chennai has seen Day-Zero conditions.', 'The test is whether new capacity concentrates in water-abundant or renewable-rich corridors, or amplifies stress in the metro clusters.'],
   sources: ['ANI (05 Aug 2026): https://www.aninews.in/news/business/indias-data-centre-capacity-rises-over-four-fold-to-1575-mw-as-ai-demand-accelerates-govt20260805171543/', 'The Tribune (05 Aug 2026): https://www.tribuneindia.com/news/business/indias-data-centre-capacity-rises-over-four-fold-to-1575-mw-as-ai-demand-accelerates-govt/']
 }, {
-  slug: 'd-propulse-demonstrates-india-first-rotating-detonation-engine-trl5',
-  no: 'S-046',
-  title: 'D-Propulse Validates India\'s First Indigenous Rotating Detonation Engine at TRL-5',
-  domain: 'Defence & Dual-Use',
-  date: '2026-08-12',
-  dateLabel: '12 Aug 2026',
-  status: 'live',
-  excerpt: 'IIT Madras-incubated startup D-Propulse has hot-fired India\'s first indigenous 5 kN air-breathing Rotating Detonation Engine, with an aerospike nozzle, to Technology Readiness Level 5 at DRDO\'s DRDL in Hyderabad - targeting a flight-ready engine by December 2027 for cruise missiles, target drones and high-speed UAVs.',
-  readingTime: '3 min',
-  body: [{
-  text: 'D-Propulse, an IIT Madras-incubated defence-propulsion startup, has hot-fired India\'s first indigenous 5-kilonewton (5 kN) air-breathing Rotating Detonation Engine (RDE), integrated with an aerospike nozzle, at DRDO\'s Defence Research and Development Laboratory (DRDL) in Hyderabad. The demonstration reached Technology Readiness Level 5 (TRL-5) - the transition from laboratory-scale validation to an integrated prototype tested in a relevant operational environment - producing 5 kN of thrust even under reduced air-mass-flow conditions. The company, chaired by former DRDO chief Dr Vijay Kumar Saraswat, is targeting a flight-ready engine by December 2027 for cruise missiles, target drones and high-speed unmanned aerial vehicles.',
-  type: 'p'
-}, {
-  text: 'The strategic significance lies in the propulsion technology itself. Rotating Detonation Engines use pressure-gain combustion - continuously rotating supersonic detonation waves around an annular chamber - rather than conventional deflagration, improving thermodynamic efficiency by 15-25 per cent over conventional air-breathing propulsion. The absence of moving parts inside the combustor means precision machining replaces turbine assemblies, with direct implications for cost-effective, mass-producible propulsion. At a time when affordable unmanned systems are reshaping warfare, this places India among a small group of nations actively developing RDE technology, alongside the United States and China.',
-  type: 'p'
-}, {
-  text: 'The dependency frame is clear. India currently imports critical propulsion technologies for its missile and drone programmes. D-Propulse\'s TRL-5 result - validated at a government DRDO facility - shows that Indian startups can now deliver next-generation propulsion within India\'s existing defence-testing infrastructure. Founder Saurav Jha has said the proof motor was built as a flight-capable design rather than a laboratory demonstrator, signalling intent toward operational deployment rather than academic validation.',
-  type: 'p'
-}, {
-  text: 'The test to watch is whether D-Propulse meets its December 2027 flight-ready target. Between TRL-5 and operational deployment lies qualification testing, airframe-integration studies and validation across the full flight envelope for cruise missiles, target drones and high-speed UAVs. If achieved, it would be the first indigenous RDE-powered munition system in India - reducing dependence on imported propulsion and enabling longer-range, higher-payload platforms without increasing size.',
-  type: 'p'
-}],
-  takeaways: ['D-Propulse, an IIT Madras-incubated startup, hot-fired India\'s first indigenous 5 kN air-breathing Rotating Detonation Engine (with aerospike nozzle) at DRDO\'s DRDL, Hyderabad.', 'The engine reached Technology Readiness Level 5 (TRL-5), producing 5 kN thrust even under reduced air-mass-flow conditions.', 'The RDE offers 15-25 per cent higher thermodynamic efficiency than conventional air-breathing propulsion, with no moving parts inside the combustor.', 'D-Propulse, chaired by former DRDO chief Dr V. K. Saraswat, targets a flight-ready engine by December 2027 for cruise missiles, target drones and high-speed UAVs.'],
-  sources: ['ET Manufacturing (29 Jul 2026): https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/d-propulse-demonstrates-indias-first-indigenous-5-kn-rotating-detonation-engine/132706779', 'India Strategic (2026): https://www.indiastrategic.in/indias-first-indigenous-5-kn-rotating-detonation-engine-validated-at-trl-5-d-propulse-targets-flight-ready-system-by-december-2027/', 'Bharat Shakti (2026): https://bharatshakti.in/private-firm-tests-indigenous-5-kn-rotating-detonation-engine-eyes-prototype-by-2027/']
-}, {
   slug: 'msc-flags-off-first-import-rail-shipment-adani-icd-malur-bengaluru',
   no: 'S-047',
   title: 'MSC Runs Its First Import Rake Through Adani\'s Malur Inland Terminal',
@@ -1692,6 +1667,31 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['MSC moved its first import shipment through Adani ICD Malur near Bengaluru as a full train rake of containers.', 'The facility spans around 30 acres (21 more earmarked for expansion) on the Bengaluru-Chennai trunk line, with road access via NE7 and NH44.', 'The milestone follows an earlier Maersk-Volvo Group block train (auto parts from Ennore Port), validating Malur as a shared multimodal platform.', 'Adani ICD Malur serves Bengaluru\'s manufacturing clusters and the wider industrial belt across Karnataka, Andhra Pradesh and Tamil Nadu.'],
   sources: ['India Shipping News (10 Aug 2026): https://indiashippingnews.com/export/msc-marks-first-import-rail-milestone-at-adani-icd-malur-strengthening-bengalurus-gateway-to-global-trade/', 'Maritime Gateway (10 Aug 2026): https://www.maritimegateway.com/msc-marks-first-import-rail-milestone-at-adani-icd-malur-strengthening-bengalurus-gateway-to-global-trade/']
+}, {
+  slug: 'd-propulse-demonstrates-india-first-rotating-detonation-engine-trl5',
+  no: 'S-046',
+  title: 'D-Propulse Validates India\'s First Indigenous Rotating Detonation Engine at TRL-5',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-12',
+  dateLabel: '12 Aug 2026',
+  status: 'live',
+  excerpt: 'IIT Madras-incubated startup D-Propulse has hot-fired India\'s first indigenous 5 kN air-breathing Rotating Detonation Engine, with an aerospike nozzle, to Technology Readiness Level 5 at DRDO\'s DRDL in Hyderabad - targeting a flight-ready engine by December 2027 for cruise missiles, target drones and high-speed UAVs.',
+  readingTime: '3 min',
+  body: [{
+  text: 'D-Propulse, an IIT Madras-incubated defence-propulsion startup, has hot-fired India\'s first indigenous 5-kilonewton (5 kN) air-breathing Rotating Detonation Engine (RDE), integrated with an aerospike nozzle, at DRDO\'s Defence Research and Development Laboratory (DRDL) in Hyderabad. The demonstration reached Technology Readiness Level 5 (TRL-5) - the transition from laboratory-scale validation to an integrated prototype tested in a relevant operational environment - producing 5 kN of thrust even under reduced air-mass-flow conditions. The company, chaired by former DRDO chief Dr Vijay Kumar Saraswat, is targeting a flight-ready engine by December 2027 for cruise missiles, target drones and high-speed unmanned aerial vehicles.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in the propulsion technology itself. Rotating Detonation Engines use pressure-gain combustion - continuously rotating supersonic detonation waves around an annular chamber - rather than conventional deflagration, improving thermodynamic efficiency by 15-25 per cent over conventional air-breathing propulsion. The absence of moving parts inside the combustor means precision machining replaces turbine assemblies, with direct implications for cost-effective, mass-producible propulsion. At a time when affordable unmanned systems are reshaping warfare, this places India among a small group of nations actively developing RDE technology, alongside the United States and China.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is clear. India currently imports critical propulsion technologies for its missile and drone programmes. D-Propulse\'s TRL-5 result - validated at a government DRDO facility - shows that Indian startups can now deliver next-generation propulsion within India\'s existing defence-testing infrastructure. Founder Saurav Jha has said the proof motor was built as a flight-capable design rather than a laboratory demonstrator, signalling intent toward operational deployment rather than academic validation.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether D-Propulse meets its December 2027 flight-ready target. Between TRL-5 and operational deployment lies qualification testing, airframe-integration studies and validation across the full flight envelope for cruise missiles, target drones and high-speed UAVs. If achieved, it would be the first indigenous RDE-powered munition system in India - reducing dependence on imported propulsion and enabling longer-range, higher-payload platforms without increasing size.',
+  type: 'p'
+}],
+  takeaways: ['D-Propulse, an IIT Madras-incubated startup, hot-fired India\'s first indigenous 5 kN air-breathing Rotating Detonation Engine (with aerospike nozzle) at DRDO\'s DRDL, Hyderabad.', 'The engine reached Technology Readiness Level 5 (TRL-5), producing 5 kN thrust even under reduced air-mass-flow conditions.', 'The RDE offers 15-25 per cent higher thermodynamic efficiency than conventional air-breathing propulsion, with no moving parts inside the combustor.', 'D-Propulse, chaired by former DRDO chief Dr V. K. Saraswat, targets a flight-ready engine by December 2027 for cruise missiles, target drones and high-speed UAVs.'],
+  sources: ['ET Manufacturing (29 Jul 2026): https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/d-propulse-demonstrates-indias-first-indigenous-5-kn-rotating-detonation-engine/132706779', 'India Strategic (2026): https://www.indiastrategic.in/indias-first-indigenous-5-kn-rotating-detonation-engine-validated-at-trl-5-d-propulse-targets-flight-ready-system-by-december-2027/', 'Bharat Shakti (2026): https://bharatshakti.in/private-firm-tests-indigenous-5-kn-rotating-detonation-engine-eyes-prototype-by-2027/']
 }, {
   slug: 'indian-navy-issues-rfi-ship-launched-loitering-munition-1000km-range',
   no: 'S-048',
@@ -1767,6 +1767,31 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['IZI, a Bhopal-based manufacturer, demonstrated its indigenous VANA multi-role UAV to the Indian Army (reported 12 Aug 2026).', 'VANA weighs under 4.5 kg and deploys in under 60 seconds; the VANA Pro variant offers up to 120 minutes endurance and ~24 km range.', 'Its thermal sensors detect a person at ~800 m and a vehicle at ~2.4 km, in fog or darkness, with swarm, acoustic and GPS-denied capabilities.', 'The Army has a 2025 RFI for 5,000 tethered drone systems for frontier surveillance, for which VANA is positioned as a contender.'],
   sources: ['The Week (12 Aug 2026): https://www.theweek.in/news/defence/2026/08/12/indias-vana-drone-showcased-to-indian-army-it-can-can-be-deployed-in-60-seconds-spot-vehicles-from-24km-away.html', 'BIS Infotech (12 Aug 2026): https://www.bisinfotech.com/izi-advances-vana-indias-indigenous-multi-role-uav-with-swarm-capabilities/']
+}, {
+  slug: 'bel-600-crore-chitrakoot-defence-unit',
+  no: 'S-051',
+  title: 'BEL Proposes Rs 600 Crore Defence Electronics Unit at Chitrakoot in Bundelkhand',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-14',
+  dateLabel: '14 Aug 2026',
+  status: 'live',
+  excerpt: 'Bharat Electronics Limited (BEL) has proposed a Rs 600+ crore investment (initial outlay Rs 562.5 crore) for a defence manufacturing and MRO facility at the Chitrakoot node of the UP Defence Industrial Corridor. The state High-Level Empowered Committee approved a Letter of Comfort on 11 August, with the proposal now advancing through state approval.',
+  readingTime: '2 min',
+  body: [{
+  text: 'Bharat Electronics Limited (BEL), India\'s state-owned defence electronics public sector undertaking, has proposed an investment exceeding Rs 600 crore - with an initial outlay of Rs 562.5 crore - to establish a defence manufacturing facility at the Chitrakoot node of the Uttar Pradesh Defence Industrial Corridor (UPDIC). On 11 August 2026 the High-Level Empowered Committee (HLEC), chaired by Uttar Pradesh Chief Secretary S.P. Goyal, approved the grant of a Letter of Comfort (LoC) to BEL for the proposal, which is now advancing through the state approval process. Approximately 75 hectares of land have already been allotted to BEL at the Chitrakoot node.',
+  type: 'p'
+}, {
+  text: 'This matters strategically because it extends India\'s defence electronics manufacturing base into Bundelkhand, one of the country\'s most industrially underdeveloped regions. The facility is planned to include a dedicated Maintenance, Repair and Overhaul (MRO) capability alongside manufacturing lines supporting QRSM (Quick Reaction Surface-to-Air Missile), Air Defence Systems and Next Generation Radar Systems. BEL has become the anchor investor for the Chitrakoot node, building on the broader momentum of the UPDIC since its inception.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is twofold. First, air defence radar and surface-to-air missile systems remain among India\'s most import-sensitive categories; domestic MRO and manufacturing capacity reduces dependence on foreign OEMs for lifecycle support. Second, regional dispersal of defence production - away from the traditional Bengaluru-Hyderabad-Pune triangle - builds supply chain resilience against concentrated disruption while creating a skilled workforce in a region with limited industrial alternatives. The test to watch is whether the state\'s final approval holds and whether BEL\'s project timeline is met, given that similar regional defence corridor commitments have taken 18-36 months from LoC to ground-breaking.',
+  type: 'p'
+}, {
+  text: 'The opportunity for defence MSMEs is direct: BEL has historically engaged local component suppliers at its regional units, and the Chitrakoot node is expected to catalyse a supply chain ecosystem in the Bundelkhand belt. Watch for the formal approval announcement and any subsequent MoU signing ceremony with Invest UP.',
+  type: 'p'
+}],
+  takeaways: ['BEL proposed a Rs 600+ crore investment (initial outlay Rs 562.5 crore) for a defence manufacturing and MRO unit at the Chitrakoot node of the UP Defence Industrial Corridor.', 'The UP High-Level Empowered Committee, chaired by Chief Secretary S.P. Goyal, approved a Letter of Comfort for the proposal on 11 August 2026.', 'Around 75 hectares of land have already been allotted to BEL at Chitrakoot; the facility will support QRSM, Air Defence Systems and Next Generation Radar Systems.', 'The unit adds MRO and manufacturing depth in Bundelkhand, a region with limited industrial base, and is expected to draw defence MSME suppliers.'],
+  sources: ['Drishti IAS (13 Aug 2026): https://www.drishtiias.com/state-pcs-current-affairs/bel-to-set-up-indian-rupee600-crore-defence-manufacturing-unit-in-chitrakoot', 'Dainik Jagran (12 Aug 2026): https://www.jagran.com/uttar-pradesh/lucknow-city-bel-defence-manufacturing-unit-will-be-in-chitrakoot-600-crore-investment-in-up-defence-corridor-40337755.html', 'The Industry Outlook (12 Aug 2026): https://www.theindustryoutlook.com/machinery-and-equipment/news/bel-s-inr-600-crore-bet-could-open-doors-for-defense-msmes-nwid-17964.html']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
