@@ -19,6 +19,7 @@ const NAV: NavGroup[] = [
       { href: '/research/critical-manufacturing-dependencies', label: 'Critical Manufacturing Dependencies' },
       { href: '/research/drones-uas', label: 'Unmanned Systems' },
       { href: '/research/counter-uas', label: 'Counter-UAS' },
+      { href: '/research/military-aerospace', label: 'Military Aerospace' },
       { href: '/research/pillars', label: 'All pillar maps →' },
     ],
   },

@@ -11,6 +11,7 @@ import { allCorridorNodePairs } from './corridors/node-data';
 import platformEntities from './research/_platform.json';
 import droneAtlas from './research/_drones.json';
 import cuasAtlas from './research/_cuas.json';
+import aerospaceAtlas from './research/_aerospace.json';
 import { products as depProducts, sectors as depSectors, states as depStates } from './dependencies/data';
 
 // The project uses `output: 'export'` for Cloudflare Pages static deploy;
@@ -168,6 +169,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...ca.systems.map((x) => ({ url: `${SITE}/research/counter-uas/system/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.55 })),
     ...ca.manufacturers.map((x) => ({ url: `${SITE}/research/counter-uas/manufacturer/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 })),
   ];
+  const aa = aerospaceAtlas as { platforms: { slug: string }[]; companies: { slug: string }[]; dependencies: { slug: string }[] };
+  const aerospaceRoutes: MetadataRoute.Sitemap = [
+    { url: `${SITE}/research/military-aerospace/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 },
+    ...aa.platforms.map((x) => ({ url: `${SITE}/research/military-aerospace/platform/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 })),
+    ...aa.companies.map((x) => ({ url: `${SITE}/research/military-aerospace/company/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.55 })),
+    ...aa.dependencies.map((x) => ({ url: `${SITE}/research/military-aerospace/dependency/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.55 })),
+  ];
   const depRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE}/dependencies/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 },
     { url: `${SITE}/dependencies/products/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.75 },
@@ -191,7 +199,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ].map((s) => `${SITE}/research/players/${s}/`),
   );
 
-  const allRoutes = [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes, ...cuasRoutes, ...depRoutes];
+  const allRoutes = [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes, ...cuasRoutes, ...aerospaceRoutes, ...depRoutes];
 
   return allRoutes.filter((r) => !RETIRED_PLAYER_PATHS.has(r.url as string));
 }
