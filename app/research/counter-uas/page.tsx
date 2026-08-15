@@ -6,9 +6,10 @@ import { CuasTrack } from './CuasTrack';
 import { systems, manufacturers } from './data';
 import cuasData from '../_cuas.json';
 
-const meta = (cuasData as { meta: { systems: number; indianSystems: number; manufacturers: number; procurementCr: number; deployments: number; criticalComponents: number; avgIndigenous: number } }).meta;
+const meta = (cuasData as { meta: { systems: number; indianSystems: number; manufacturers: number; indianManufacturers: number; agencies: number; procurementCr: number; deployments: number; components: number; criticalComponents: number; technologies: number; incidents: number; trials: number; avgIndigenous: number } }).meta;
 
 const FAQ: { q: string; a: string }[] = [
+  { q: "How big is India's counter-UAS market?", a: `The observable market surface is INR ${meta.procurementCr} crore of disclosed procurement across ${meta.agencies} agencies, tracked in this Atlas: ${meta.systems} systems (${meta.indianSystems} Indian) from ${meta.manufacturers} manufacturers, with Rafael, DroneShield, BEL, IAI, RTX and Elbit leading. Demand is accelerating - the August 2026 Indian Army order for 840 one-way attack drones widens the threat surface these systems must counter.` },
   { q: 'What counter-drone (C-UAS) systems does India have?', a: `The Atlas tracks ${meta.systems} counter-UAS systems, of which ${meta.indianSystems} are Indian-made — from BEL, DRDO, Zen Technologies, Big Bang Boom and others — filterable by class, mobility and the drone types they counter.` },
   { q: 'How much has India spent on counter-UAS procurement?', a: `Disclosed contracts total ₹${meta.procurementCr.toLocaleString('en-IN')} crore across ${meta.deployments} known deployments, led by the Army, Air Force and paramilitary — a market that accelerated sharply after Operation Sindoor.` },
   { q: 'How does a counter-drone system work?', a: 'Through a kill chain: detect (radar, RF, EO/IR, acoustic), track, identify, then defeat the drone by soft-kill (RF jamming / GNSS spoofing), hard-kill (kinetic), directed energy (laser/microwave), or an interceptor drone. The Kill Chain tab breaks down each layer.' },
@@ -17,9 +18,9 @@ const FAQ: { q: string; a: string }[] = [
 ];
 
 export const metadata: Metadata = {
-  title: 'India Counter-UAS (Counter-Drone) Atlas — Systems, Makers, Deployments',
+  title: 'India Counter-UAS Market & Atlas: 60 Systems, 43 Makers, INR 374 Cr Procurement',
   description:
-    `A living map of India’s counter-drone ecosystem: ${meta.systems} C-UAS systems, ${meta.manufacturers} manufacturers, ₹${meta.procurementCr.toLocaleString('en-IN')} crore of procurement, ${meta.deployments} deployments, the detect-to-defeat kill chain, components and import dependencies. Free from Techadyant Labs.`,
+    `India's counter-UAS (counter-drone) market: ${meta.systems} systems tracked, ${meta.manufacturers} manufacturers, ${meta.indianSystems} Indian-built, and INR ${meta.procurementCr} crore of disclosed procurement across ${meta.agencies} agencies - the detect-to-defeat kill chain, components, import dependencies and the market map. Free from Techadyant Labs.`,
   alternates: { canonical: 'https://labs.techadyant.com/research/counter-uas/' },
 };
 
