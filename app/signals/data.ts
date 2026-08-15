@@ -1470,7 +1470,7 @@ export const signals: SignalMeta[] = [{
 }, {
   slug: 'indiaai-mission-gpu-compute-expansion',
   no: 'S-040',
-  title: 'India Expands Sovereign AI Compute with 15,916 New GPUs under IndiaAI Mission',
+  title: 'IndiaAI Mission: 15,916 New GPUs Expand Sovereign AI Compute',
   domain: 'AI Infrastructure',
   date: '2026-08-07',
   dateLabel: '7 Aug 2026',
@@ -1495,7 +1495,7 @@ export const signals: SignalMeta[] = [{
 }, {
   slug: 'lt-precision-engineering-drone-revenue-threefold-growth',
   no: 'S-041',
-  title: 'L&T\'s Drone Division Targets Threefold Revenue Growth in Five Years',
+  title: 'L&T Drone Division Targets Threefold Revenue Growth',
   domain: 'Defence & Dual-Use',
   date: '2026-08-08',
   dateLabel: '8 Aug 2026',

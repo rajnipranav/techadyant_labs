@@ -65,3 +65,7 @@
 # Legacy IREL OSCOM player slug (player renamed in graph rebake) -> current IREL player page
 /research/players/irel-odisha-sand-complex-oscom-chhatrapur /research/players/irel-india-limited 301
 /research/players/irel-odisha-sand-complex-oscom-chhatrapur/ /research/players/irel-india-limited/ 301
+
+# Legacy IREL OSCOM entity slug (entity renamed in graph rebake) -> current IREL entity page
+/research/entities/irel-odisha-sand-complex-oscom-chhatrapur /research/entities/irel-india-limited 301
+/research/entities/irel-odisha-sand-complex-oscom-chhatrapur/ /research/entities/irel-india-limited/ 301

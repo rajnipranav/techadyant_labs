@@ -413,56 +413,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s green-hydrogen industrial reality — the NGHM and SIGHT money, electrolyser manufacturing, iridium/platinum catalysts, PFSA membranes, LCOH, and three 2035 scenarios (Mirage, Muddle, Machine).'
 }
 }, {
-  slug: 'beyond-solar-panels',
-  title: 'Beyond Solar Panels',
-  subtitle: 'India built the world’s largest solar-deployment machine — but value and vulnerability live upstream of the panel. Mapping the hidden industrial stack: polysilicon, wafers, cells, glass, gases, chemicals and manufacturing equipment.',
-  domain: 'Solar & Clean-Energy Manufacturing',
-  edition: 'Strategic Opportunity · Edition 1 · v1.0',
-  published: '2026-08-02',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'India has built one of the world’s largest solar-deployment machines — 162.15 GW of installed solar capacity by 30 June 2026 (MNRE), against a 2030 objective of 280 GW of solar within 500 GW of non-fossil capacity. But deployment has outrun manufacturing depth. This report reframes the question away from module assembly toward the industrial system beneath it: capability inverts value across the stack — India is strongest downstream in modules (~172 GW of ALMM-listed capacity) and materially weaker upstream in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and production equipment, where China holds roughly 85% of solar supply-chain capacity and about 95% of wafer capacity (IEA 2026). Across thirteen chapters it maps the manufacturing stack, the hidden material and equipment foundations, localisation economics, the industrial opportunity surfaces, state-level clusters, technology transitions and a roadmap to solar-manufacturing sovereignty — with an investment-intelligence playbook. Fifty-three tables, twenty-two figures and seven appendices; a companion data workbook is available with the data tier.',
-  accent: '#E8A33D',
-  access: 'paid',
-  price: 6999,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 144,
-  cover: 'https://library.techadyant.com/covers/Beyond-Solar-Panels-Indian-Industrial-Intelligence.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Beyond-Solar-Panels-Indian-Industrial-Intelligence-Free.pdf',
-  previewPages: 22,
-  hasData: true,
-  priceWithData: 9999,
-  dataFilename: 'Beyond-Solar-Panels-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: ['india solar manufacturing', 'solar polysilicon india', 'solar wafer manufacturing india', 'india solar cell manufacturing', 'solar manufacturing equipment india', 'ALMM india', 'solar PLI india', 'solar supply chain china dependence', 'solar glass india', 'india solar sovereignty', 'solar manufacturing opportunity india', 'beyond solar panels'],
-  faq: [{
-  a: 'India’s module-assembly base has scaled fast (~172 GW of ALMM-listed capacity), but the value and the vulnerability sit upstream — in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and manufacturing equipment, where domestic depth is materially weaker. The report maps that hidden industrial stack.',
-  q: 'Why does India need to look beyond solar panels?'
-}, {
-  a: 'Structurally. The IEA’s 2026 estimates place China at roughly 85% of solar supply-chain production capacity and about 95% of PV wafer capacity. India’s dependence is deepest in the upstream layers — polysilicon, wafers, cells and production equipment.',
-  q: 'How dependent is India on China for solar manufacturing?'
-}, {
-  a: 'India had 162.15 GW of installed solar capacity as at 30 June 2026 (MNRE). The national 2030 objective is 280 GW of solar within 500 GW of non-fossil capacity.',
-  q: 'What is India’s installed solar capacity and 2030 target?'
-}, {
-  a: 'The report ranks industrial opportunity surfaces across the stack — upstream materials (polysilicon, wafers, specialty chemicals, industrial gases, solar glass), cells, and manufacturing equipment — with localisation economics, state-level clusters and an investment-intelligence playbook.',
-  q: 'Where are the biggest industrial opportunities in solar manufacturing?'
-}, {
-  a: 'The edition uses the latest official releases — MNRE physical-progress data to 30 June 2026, the ALMM manufacturing-capacity update, the PLI tranche outlays (Tranche I ₹4,500 crore / 8,737 MW; Tranche II ₹19,500 crore / 39,600 MW) and the 2025 BCD/AIDC duty structure. Modelled value-share figures are labelled as Techadyant Labs illustrative models.',
-  q: 'How current are the figures in this report?'
-}],
-  sources: ['MNRE physical-progress data (30 June 2026)', 'PIB / Government of India releases on ALMM and PLI', 'IEA 2026 solar supply-chain estimates', 'Techadyant Labs analysis'],
-  dateModified: '2026-08-02',
-  seo: {
-  entities: ['solar manufacturing', 'polysilicon', 'solar wafer', 'solar cell', 'ALMM', 'PLI', 'solar glass', 'IEA', 'MNRE', 'photovoltaics'],
-  metaTitle: 'Beyond Solar Panels: India’s Solar Manufacturing Stack & Opportunity (2026)',
-  schemaType: 'Report',
-  focusKeyword: 'india solar manufacturing',
-  metaDescription: 'India’s solar manufacturing beyond module assembly — polysilicon, wafers, cells, glass, equipment. Localisation economics, China dependence, opportunity surfaces and a roadmap to solar-manufacturing sovereignty.'
-}
-}, {
   slug: 'indian-navy-autonomous-maritime',
   title: 'The Indian Navy’s Autonomous Maritime Transformation 2026–2035',
   subtitle: 'Platforms are downstream of ecosystems. What industrial substrate must India build to field an autonomous fleet — and who captures the ₹1.2 lakh crore market beneath USVs, UUVs, XLUUVs and naval UAVs?',
@@ -560,6 +510,56 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
 }
 }, {
+  slug: 'beyond-solar-panels',
+  title: 'Beyond Solar Panels',
+  subtitle: 'India built the world’s largest solar-deployment machine — but value and vulnerability live upstream of the panel. Mapping the hidden industrial stack: polysilicon, wafers, cells, glass, gases, chemicals and manufacturing equipment.',
+  domain: 'Solar & Clean-Energy Manufacturing',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India has built one of the world’s largest solar-deployment machines — 162.15 GW of installed solar capacity by 30 June 2026 (MNRE), against a 2030 objective of 280 GW of solar within 500 GW of non-fossil capacity. But deployment has outrun manufacturing depth. This report reframes the question away from module assembly toward the industrial system beneath it: capability inverts value across the stack — India is strongest downstream in modules (~172 GW of ALMM-listed capacity) and materially weaker upstream in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and production equipment, where China holds roughly 85% of solar supply-chain capacity and about 95% of wafer capacity (IEA 2026). Across thirteen chapters it maps the manufacturing stack, the hidden material and equipment foundations, localisation economics, the industrial opportunity surfaces, state-level clusters, technology transitions and a roadmap to solar-manufacturing sovereignty — with an investment-intelligence playbook. Fifty-three tables, twenty-two figures and seven appendices; a companion data workbook is available with the data tier.',
+  accent: '#E8A33D',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 144,
+  cover: 'https://library.techadyant.com/covers/Beyond-Solar-Panels-Indian-Industrial-Intelligence.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Beyond-Solar-Panels-Indian-Industrial-Intelligence-Free.pdf',
+  previewPages: 22,
+  hasData: true,
+  priceWithData: 9999,
+  dataFilename: 'Beyond-Solar-Panels-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['india solar manufacturing', 'solar polysilicon india', 'solar wafer manufacturing india', 'india solar cell manufacturing', 'solar manufacturing equipment india', 'ALMM india', 'solar PLI india', 'solar supply chain china dependence', 'solar glass india', 'india solar sovereignty', 'solar manufacturing opportunity india', 'beyond solar panels'],
+  faq: [{
+  a: 'India’s module-assembly base has scaled fast (~172 GW of ALMM-listed capacity), but the value and the vulnerability sit upstream — in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and manufacturing equipment, where domestic depth is materially weaker. The report maps that hidden industrial stack.',
+  q: 'Why does India need to look beyond solar panels?'
+}, {
+  a: 'Structurally. The IEA’s 2026 estimates place China at roughly 85% of solar supply-chain production capacity and about 95% of PV wafer capacity. India’s dependence is deepest in the upstream layers — polysilicon, wafers, cells and production equipment.',
+  q: 'How dependent is India on China for solar manufacturing?'
+}, {
+  a: 'India had 162.15 GW of installed solar capacity as at 30 June 2026 (MNRE). The national 2030 objective is 280 GW of solar within 500 GW of non-fossil capacity.',
+  q: 'What is India’s installed solar capacity and 2030 target?'
+}, {
+  a: 'The report ranks industrial opportunity surfaces across the stack — upstream materials (polysilicon, wafers, specialty chemicals, industrial gases, solar glass), cells, and manufacturing equipment — with localisation economics, state-level clusters and an investment-intelligence playbook.',
+  q: 'Where are the biggest industrial opportunities in solar manufacturing?'
+}, {
+  a: 'The edition uses the latest official releases — MNRE physical-progress data to 30 June 2026, the ALMM manufacturing-capacity update, the PLI tranche outlays (Tranche I ₹4,500 crore / 8,737 MW; Tranche II ₹19,500 crore / 39,600 MW) and the 2025 BCD/AIDC duty structure. Modelled value-share figures are labelled as Techadyant Labs illustrative models.',
+  q: 'How current are the figures in this report?'
+}],
+  sources: ['MNRE physical-progress data (30 June 2026)', 'PIB / Government of India releases on ALMM and PLI', 'IEA 2026 solar supply-chain estimates', 'Techadyant Labs analysis'],
+  dateModified: '2026-08-02',
+  seo: {
+  entities: ['solar manufacturing', 'polysilicon', 'solar wafer', 'solar cell', 'ALMM', 'PLI', 'solar glass', 'IEA', 'MNRE', 'photovoltaics'],
+  metaTitle: 'Beyond Solar Panels: India’s Solar Manufacturing Stack & Opportunity (2026)',
+  schemaType: 'Report',
+  focusKeyword: 'india solar manufacturing',
+  metaDescription: 'India’s solar manufacturing beyond module assembly — polysilicon, wafers, cells, glass, equipment. Localisation economics, China dependence, opportunity surfaces and a roadmap to solar-manufacturing sovereignty.'
+}
+}, {
   slug: 'india-critical-manufacturing-dependencies',
   title: 'India’s Critical Manufacturing Dependencies',
   subtitle: 'What should India manufacture domestically over the next decade — why, where, how, and who should build it? 312 strategic import surfaces scored across twelve mega-sectors on the Critical Manufacturing Dependency Index, with twelve executable opportunity zones.',
@@ -610,44 +610,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s strategic import dependencies scored on the Critical Manufacturing Dependency Index — 312 surfaces across twelve sectors, the deepest chokepoints, twelve opportunity zones and a $480 billion localisation map to 2035.'
 }
 }, {
-  slug: 'dholera-semiconductor-supplier-ecosystem',
-  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
-  domain: 'Semiconductor Ecosystems',
-  edition: 'Edition 01',
-  published: '2026-07-26',
-  publishedLabel: 'July 2026',
-  readingTime: '~ 30 min read',
-  status: 'published',
-  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
-  accent: '#F5B544',
-  access: 'paid',
-  price: 5900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 28,
-  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
-  previewPages: 14,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-07-26',
-  seo: {
-  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
-  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  schemaType: 'Report',
-  focusKeyword: 'Dholera semiconductor ecosystem',
-  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
-  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
-}
-}, {
   slug: 'india-industrial-waste-recycling-economy',
   title: 'India\'s Industrial Waste & Recycling Economy',
   subtitle: 'Battery metals, e-waste, chemical recovery and the secondary-industrial opportunity across Indian recycling corridors',
@@ -686,6 +648,44 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India industrial waste recycling economy',
   metaDescription: 'Strategic intelligence on India\'s industrial waste and recycling economy — battery metals, e-waste, black mass, chemical recovery and secondary-industrial corridors.'
+}
+}, {
+  slug: 'dholera-semiconductor-supplier-ecosystem',
+  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
+  domain: 'Semiconductor Ecosystems',
+  edition: 'Edition 01',
+  published: '2026-07-26',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 30 min read',
+  status: 'published',
+  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
+  accent: '#F5B544',
+  access: 'paid',
+  price: 5900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 28,
+  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
+  previewPages: 14,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-07-26',
+  seo: {
+  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
+  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  schemaType: 'Report',
+  focusKeyword: 'Dholera semiconductor ecosystem',
+  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
+  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
 }
 }, {
   slug: 'quantum-supply-chain',
@@ -1261,10 +1261,10 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-07-02',
   seo: {
   entities: ['AI agents', 'MCP', 'post-application stack', 'hyperscalers', 'NVIDIA', 'India Stack'],
-  metaTitle: 'AI Agents and the End of the Application Era: Who Captures Computing?',
+  metaTitle: 'AI Agents Replacing Applications: The End of the Application Era',
   schemaType: 'Report',
   focusKeyword: 'AI agents replacing applications',
-  metaDescription: 'As AI agents replace applications as the primary interface to computing, value moves to inference, identity, memory and scheduling. Who captures the post-application stack — and where India stands. Free report.'
+  metaDescription: 'As AI agents replace applications as the primary interface to computing, value moves to inference, identity, memory and scheduling. Who captures the post-application stack - and where India stands. Free report.'
 }
 }, {
   slug: 'india-drone-sensors-payloads-imaging-market',
@@ -1589,51 +1589,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India\'s public and private core systems run on foreign enterprise software. The SAP Question maps the dependence, the risks and the sovereign ERP opportunity. Free full report.'
 }
 }, {
-  slug: 'india-battlefield-automation-gap',
-  title: 'India’s Battlefield Automation Gap',
-  subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
-  domain: 'Defence & Dual-Use',
-  edition: 'Edition 01 · Strategic Intelligence · v1.0',
-  published: '2026-05-30',
-  publishedLabel: 'May 2026',
-  readingTime: '~ 2h 30m read',
-  status: 'published',
-  summary: 'Battlefield automation is an industrial-capability race, not a procurement race. Using a proprietary Battlefield Automation Readiness Index (BARI), this report scores India against China and the United States across eight industrial layers — sensors, rugged electronics, batteries, tactical communications, autonomy software, testing and manufacturing — maps where the gap concentrates, reads it sector by sector, and identifies the startup, SME and policy opportunities that would close it. Published free, given its relevance to government-led initiatives.',
-  accent: '#FB923C',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 130,
-  cover: 'https://library.techadyant.com/covers/India%27s%20Battlefield%20Automation%20Gap.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/india-battlefield-automation-gap-free.pdf',
-  previewPages: undefined,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['battlefield automation India', 'military drones India', 'counter-drone systems India', 'loitering munitions India', 'Indian Army drones', 'defence autonomy India', 'unmanned systems India', 'counter-UAS India', 'drone warfare India', 'India defence technology'],
-  faq: [{
-  a: 'It is the distance between how modern battles are now fought — massed low-cost drones, loitering munitions, electronic warfare and increasingly autonomous systems — and what India\'s forces can field and sustain at scale from domestic industry. The report maps that gap layer by layer.',
-  q: 'What is India\'s battlefield automation gap?'
-}, {
-  a: 'Ukraine and Operation Sindoor showed cheap unmanned systems deciding engagements against far more expensive platforms. India\'s post-Sindoor emergency procurement pushed a large share of field-formation budgets into drones, counter-drone and loitering-munition programmes, making automation the fastest-moving line in Indian defence spending.',
-  q: 'Why do drones matter so much for India\'s defence?'
-}, {
-  a: 'India has credible drone integrators — ideaForge, NewSpace Research, Solar Industries and others — but the component base beneath them (flight controllers, motors and magnets, battery cells, sensors, RF links) remains heavily import-dependent, which is the vulnerability the report examines.',
-  q: 'Does India build its own military drones?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['Indian Army', 'drones', 'loitering munitions', 'counter-UAS', 'Operation Sindoor', 'electronic warfare'],
-  aiSummary: 'Assesses India\'s readiness for automated warfare: the doctrine shift to massed drones and loitering munitions, post-Operation Sindoor procurement, the counter-UAS layer, and the import-dependent component base beneath India\'s drone integrators. Free to read.',
-  metaTitle: 'India\'s Battlefield Automation Gap: Drones, Counter-UAS, Autonomy',
-  schemaType: 'Report',
-  focusKeyword: 'battlefield automation India',
-  metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
-}
-}, {
   slug: 'who-actually-captures-the-india-us-minerals-alliance',
   title: 'Who Actually Captures the India–US Minerals Alliance?',
   subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
@@ -1677,6 +1632,51 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India US critical minerals',
   metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
+}
+}, {
+  slug: 'india-battlefield-automation-gap',
+  title: 'India’s Battlefield Automation Gap',
+  subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
+  domain: 'Defence & Dual-Use',
+  edition: 'Edition 01 · Strategic Intelligence · v1.0',
+  published: '2026-05-30',
+  publishedLabel: 'May 2026',
+  readingTime: '~ 2h 30m read',
+  status: 'published',
+  summary: 'Battlefield automation is an industrial-capability race, not a procurement race. Using a proprietary Battlefield Automation Readiness Index (BARI), this report scores India against China and the United States across eight industrial layers — sensors, rugged electronics, batteries, tactical communications, autonomy software, testing and manufacturing — maps where the gap concentrates, reads it sector by sector, and identifies the startup, SME and policy opportunities that would close it. Published free, given its relevance to government-led initiatives.',
+  accent: '#FB923C',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 130,
+  cover: 'https://library.techadyant.com/covers/India%27s%20Battlefield%20Automation%20Gap.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/india-battlefield-automation-gap-free.pdf',
+  previewPages: undefined,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['battlefield automation India', 'military drones India', 'counter-drone systems India', 'loitering munitions India', 'Indian Army drones', 'defence autonomy India', 'unmanned systems India', 'counter-UAS India', 'drone warfare India', 'India defence technology'],
+  faq: [{
+  a: 'It is the distance between how modern battles are now fought — massed low-cost drones, loitering munitions, electronic warfare and increasingly autonomous systems — and what India\'s forces can field and sustain at scale from domestic industry. The report maps that gap layer by layer.',
+  q: 'What is India\'s battlefield automation gap?'
+}, {
+  a: 'Ukraine and Operation Sindoor showed cheap unmanned systems deciding engagements against far more expensive platforms. India\'s post-Sindoor emergency procurement pushed a large share of field-formation budgets into drones, counter-drone and loitering-munition programmes, making automation the fastest-moving line in Indian defence spending.',
+  q: 'Why do drones matter so much for India\'s defence?'
+}, {
+  a: 'India has credible drone integrators — ideaForge, NewSpace Research, Solar Industries and others — but the component base beneath them (flight controllers, motors and magnets, battery cells, sensors, RF links) remains heavily import-dependent, which is the vulnerability the report examines.',
+  q: 'Does India build its own military drones?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['Indian Army', 'drones', 'loitering munitions', 'counter-UAS', 'Operation Sindoor', 'electronic warfare'],
+  aiSummary: 'Assesses India\'s readiness for automated warfare: the doctrine shift to massed drones and loitering munitions, post-Operation Sindoor procurement, the counter-UAS layer, and the import-dependent component base beneath India\'s drone integrators. Free to read.',
+  metaTitle: 'India\'s Battlefield Automation Gap: Drones, Counter-UAS, Autonomy',
+  schemaType: 'Report',
+  focusKeyword: 'battlefield automation India',
+  metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
 }
 }, {
   slug: 'india-ai-industrial-transition-2026-2035',
