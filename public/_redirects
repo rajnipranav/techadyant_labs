@@ -61,3 +61,7 @@
 #      pages were caught too, not just missing ones.
 # Missing entity pages should simply 404; that is honest and Google de-indexes
 # them cleanly. The specific one-to-one redirects above are unaffected.
+
+# Legacy IREL OSCOM player slug (player renamed in graph rebake) -> current IREL player page
+/research/players/irel-odisha-sand-complex-oscom-chhatrapur /research/players/irel-india-limited 301
+/research/players/irel-odisha-sand-complex-oscom-chhatrapur/ /research/players/irel-india-limited/ 301
