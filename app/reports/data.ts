@@ -220,17 +220,17 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
-  slug: 'india-edge-ai-economy',
-  title: 'India’s Edge AI Economy',
-  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
-  domain: 'Edge AI & Semiconductors',
-  edition: 'Edge AI Series · I · forthcoming',
+  slug: 'india-ai-power-infrastructure-gap',
+  title: 'India’s AI Power Infrastructure Gap',
+  subtitle: 'Why DC build-out is constrained by transmission, not generation',
+  domain: 'AI Infrastructure',
+  edition: 'forthcoming',
   published: '2026-08-15',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h read',
   status: 'forthcoming',
-  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
-  accent: '#38e1c4',
+  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
+  accent: '#6366F1',
   access: 'paid',
   price: 4900,
   currency: 'INR',
@@ -251,17 +251,67 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
-  slug: 'india-ai-power-infrastructure-gap',
-  title: 'India’s AI Power Infrastructure Gap',
-  subtitle: 'Why DC build-out is constrained by transmission, not generation',
-  domain: 'AI Infrastructure',
-  edition: 'forthcoming',
+  slug: 'beyond-sea-drones-india-autonomous-maritime-systems',
+  title: 'Beyond Sea Drones: India\'s Autonomous Maritime Systems Ecosystem 2026-2035',
+  subtitle: 'Technologies, supply chains and industrial opportunities in India\'s USV/UUV ecosystem — three market scenarios to 2035, a 12-country Maritime Autonomy Readiness Index, 100 ranked opportunities and a 2026-2035 industrial roadmap.',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Intelligence · Edition 1 · v2.0',
+  published: '2026-08-15',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 3h read',
+  status: 'published',
+  summary: 'India\'s autonomous maritime systems (USV/UUV) market is projected to grow from a INR 2,200 crore 2026 baseline to INR 11,500 crore (Constrained), INR 35,000 crore (Baseline) or INR 55,000 crore (Accelerated) by 2035. This strategic intelligence report maps the ecosystem from primary sources, with every major claim numbered and verification-labelled [IN-XXX]. India ranks 9/12 on the proprietary Maritime Autonomy Readiness Index with a composite 4.5/10: fourteen active programmes and eight iDEX awards exist, but the subsystem base is only 15-70% indigenous (AI silicon ~15%, battery cells ~35%) and there is no certification authority. The report reframes the debate from platforms to subsystems, quantifies the MDA and ASW coverage gaps, benchmarks six countries (US, China, UK, Israel, South Korea, Singapore) with reconstructed 2024 budgets, and scores 100 opportunities on the 9-dimension Opportunity Priority Index (OPI) — 24 "Star" opportunities score 80+, led by an 11-metre ASW USV at 88. It closes with a three-phase 2026-2035 roadmap (INR 14,600 crore Phase I, 8-12x return on capital) and 45 recommendations across government (12), the Indian Navy (10), industry (10), startups (10) and investors (8). 136 pages, 29 chapters, 53 figures, 15 tables, 125 numbered sources and full appendices A-L, mirrored in a 17-sheet data workbook.',
+  accent: '#16425B',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 136,
+  cover: 'https://library.techadyant.com/covers/beyond-sea-drones-indian-navy.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_BeyondSeaDrones_Report_Free.pdf',
+  previewPages: 14,
+  hasData: true,
+  priceWithData: 9999,
+  dataFilename: 'Techadyant_BeyondSeaDrones_Workbook.xlsx',
+  keywords: ['beyond sea drones india', 'india autonomous maritime systems', 'indian navy USV', 'unmanned surface vehicles india', 'underwater unmanned vehicles india', 'maritime autonomy market india 2035', 'indian navy MDA gap', 'autonomous ASW India', 'USV UUV startups india', 'naval drone ecosystem india', 'maritime autonomy readiness index', 'Make in India naval drones'],
+  faq: [{
+  a: 'INR 11,500 crore (Constrained), INR 35,000 crore (Baseline) or INR 55,000 crore (Accelerated) by 2035, from a INR 2,200 crore 2026 baseline. The Accelerated case assumes a 2026-27 anchor-programme decision; the report sizes the INR 20,000 crore gap recoverable through early decisions.',
+  q: 'How big is India\'s autonomous maritime systems market by 2035?'
+}, {
+  a: 'Rank 9/12 on the Maritime Autonomy Readiness Index with a composite 4.5/10. Fourteen active programmes and eight iDEX awards exist, but the subsystem base is 15-70% indigenous and there is no certification authority. The gap is industrial, not technological.',
+  q: 'Where does India stand in maritime autonomy today?'
+}, {
+  a: 'AI silicon (~15% indigenous), battery cells (~35%), certification, and a 36-60 month procurement cycle versus 12-24 months for the US. The Dependency Index scores 40+ subsystems for sovereignty to separate strategic chokepoints from manageable ones.',
+  q: 'What are India\'s critical gaps in USV/UUV subsystems?'
+}, {
+  a: 'One hundred opportunities scored on the 9-dimension Opportunity Priority Index (OPI); 24 "Star" opportunities score 80+, led by an 11-metre ASW USV at 88. Twenty-five hidden opportunity surfaces sit in the supporting ecosystem — subsystems, test ranges, certification — not platforms.',
+  q: 'What is the biggest autonomous maritime opportunity for India?'
+}, {
+  a: 'Every major claim is a numbered, verification-labelled citation [IN-XXX] against 125 sources across six source tiers. Fact, estimate, inference and forecast are visibly separated, and the full dataset ships in a 17-sheet Excel workbook mirroring appendices D-K.',
+  q: 'Why is this report different from other market studies?'
+}],
+  sources: [],
+  dateModified: '2026-08-15',
+  seo: {
+  entities: ['USV', 'UUV', 'Indian Navy', 'maritime autonomy', 'ASW', 'MDA', 'Opportunity Priority Index', 'Make in India', 'Indo-Pacific', 'autonomous maritime systems'],
+  metaTitle: 'India Autonomous Maritime Systems Market 2026-2035: USV/UUV Ecosystem, Readiness Index & Opportunities',
+  schemaType: 'Report',
+  focusKeyword: 'india autonomous maritime systems market',
+  metaDescription: 'India\'s USV/UUV ecosystem to 2035 — three market scenarios (INR 11,500-55,000 crore), a 12-country Maritime Autonomy Readiness Index (India 9/12), 100 OPI-ranked opportunities led by an 11m ASW USV, and a 2026-2035 industrial roadmap for OEMs, Navy, investors, MSMEs and policymakers.'
+}
+}, {
+  slug: 'india-edge-ai-economy',
+  title: 'India’s Edge AI Economy',
+  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
+  domain: 'Edge AI & Semiconductors',
+  edition: 'Edge AI Series · I · forthcoming',
   published: '2026-08-15',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h read',
   status: 'forthcoming',
-  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
-  accent: '#6366F1',
+  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
+  accent: '#38e1c4',
   access: 'paid',
   price: 4900,
   currency: 'INR',
@@ -1592,51 +1642,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India\'s public and private core systems run on foreign enterprise software. The SAP Question maps the dependence, the risks and the sovereign ERP opportunity. Free full report.'
 }
 }, {
-  slug: 'who-actually-captures-the-india-us-minerals-alliance',
-  title: 'Who Actually Captures the India–US Minerals Alliance?',
-  subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
-  domain: 'Critical Minerals & Strategic Materials',
-  edition: 'Edition 01 · Strategic Intelligence · v1.0',
-  published: '2026-05-30',
-  publishedLabel: 'May 2026',
-  readingTime: '~ 2h 30m read',
-  status: 'published',
-  summary: 'The 26 May 2026 India–US critical-minerals framework is read as a mining deal. It is better understood as a midstream deal: the leverage sits in separation, refining and magnets — roughly 85–92% controlled by China — not in reserves. Using a proprietary four-chokepoint framework, this report scores India sector by sector — semiconductors, electronics, defence, EVs, energy and AI infrastructure — and asks who actually captures the value as the alliance moves from signature to execution.',
-  accent: '#C9A84C',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 125,
-  cover: 'https://library.techadyant.com/covers/who-actually-captures-the-india-us-minerals-alliance.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/who-actually-captures-the-india-us-minerals-alliance-free.pdf',
-  previewPages: 14,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['India US critical minerals', 'critical minerals India', 'rare earth elements India', 'National Critical Mineral Mission', 'rare earth magnets India', 'mineral supply chain India', 'India mineral security', 'critical minerals partnership', 'rare earth processing India', 'lithium supply chain India'],
-  faq: [{
-  a: 'A widening set of agreements aligning Indian and American critical-mineral supply chains — exploration, processing, recycling and magnet manufacturing — as both countries reduce dependence on Chinese processing. The report maps which firms, states and layers of the chain actually capture the value.',
-  q: 'What is the India–US critical minerals partnership?'
-}, {
-  a: 'India\'s National Critical Mineral Mission, approved in January 2025 with an outlay of about ₹34,300 crore over seven years, funds exploration, acquisition of overseas assets, processing capacity and recycling for minerals such as lithium, cobalt and rare earths.',
-  q: 'What is the National Critical Mineral Mission?'
-}, {
-  a: 'India mines some rare earths through IREL but has no commercial sintered NdFeB magnet capacity today. A scheme approved in November 2025 — about ₹6,450 crore in sales-linked incentives plus ₹750 crore in capital subsidy for 6,000 MTPA — aims to create domestic capacity around 2028.',
-  q: 'Does India produce rare earth magnets?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['National Critical Mineral Mission', 'rare earths', 'IREL', 'NdFeB magnets', 'lithium', 'supply chains'],
-  aiSummary: 'Maps the India–US critical minerals alliance from mine to magnet: where processing chokepoints sit, what the National Critical Mineral Mission (₹34,300 crore) and the rare-earth magnet scheme change, and which Indian firms and states are positioned to capture value.',
-  metaTitle: 'India–US Critical Minerals Alliance: Who Captures the Value?',
-  schemaType: 'Report',
-  focusKeyword: 'India US critical minerals',
-  metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
-}
-}, {
   slug: 'india-battlefield-automation-gap',
   title: 'India’s Battlefield Automation Gap',
   subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
@@ -1680,6 +1685,51 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'battlefield automation India',
   metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
+}
+}, {
+  slug: 'who-actually-captures-the-india-us-minerals-alliance',
+  title: 'Who Actually Captures the India–US Minerals Alliance?',
+  subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
+  domain: 'Critical Minerals & Strategic Materials',
+  edition: 'Edition 01 · Strategic Intelligence · v1.0',
+  published: '2026-05-30',
+  publishedLabel: 'May 2026',
+  readingTime: '~ 2h 30m read',
+  status: 'published',
+  summary: 'The 26 May 2026 India–US critical-minerals framework is read as a mining deal. It is better understood as a midstream deal: the leverage sits in separation, refining and magnets — roughly 85–92% controlled by China — not in reserves. Using a proprietary four-chokepoint framework, this report scores India sector by sector — semiconductors, electronics, defence, EVs, energy and AI infrastructure — and asks who actually captures the value as the alliance moves from signature to execution.',
+  accent: '#C9A84C',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 125,
+  cover: 'https://library.techadyant.com/covers/who-actually-captures-the-india-us-minerals-alliance.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/who-actually-captures-the-india-us-minerals-alliance-free.pdf',
+  previewPages: 14,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['India US critical minerals', 'critical minerals India', 'rare earth elements India', 'National Critical Mineral Mission', 'rare earth magnets India', 'mineral supply chain India', 'India mineral security', 'critical minerals partnership', 'rare earth processing India', 'lithium supply chain India'],
+  faq: [{
+  a: 'A widening set of agreements aligning Indian and American critical-mineral supply chains — exploration, processing, recycling and magnet manufacturing — as both countries reduce dependence on Chinese processing. The report maps which firms, states and layers of the chain actually capture the value.',
+  q: 'What is the India–US critical minerals partnership?'
+}, {
+  a: 'India\'s National Critical Mineral Mission, approved in January 2025 with an outlay of about ₹34,300 crore over seven years, funds exploration, acquisition of overseas assets, processing capacity and recycling for minerals such as lithium, cobalt and rare earths.',
+  q: 'What is the National Critical Mineral Mission?'
+}, {
+  a: 'India mines some rare earths through IREL but has no commercial sintered NdFeB magnet capacity today. A scheme approved in November 2025 — about ₹6,450 crore in sales-linked incentives plus ₹750 crore in capital subsidy for 6,000 MTPA — aims to create domestic capacity around 2028.',
+  q: 'Does India produce rare earth magnets?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['National Critical Mineral Mission', 'rare earths', 'IREL', 'NdFeB magnets', 'lithium', 'supply chains'],
+  aiSummary: 'Maps the India–US critical minerals alliance from mine to magnet: where processing chokepoints sit, what the National Critical Mineral Mission (₹34,300 crore) and the rare-earth magnet scheme change, and which Indian firms and states are positioned to capture value.',
+  metaTitle: 'India–US Critical Minerals Alliance: Who Captures the Value?',
+  schemaType: 'Report',
+  focusKeyword: 'India US critical minerals',
+  metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
 }
 }, {
   slug: 'india-ai-industrial-transition-2026-2035',
