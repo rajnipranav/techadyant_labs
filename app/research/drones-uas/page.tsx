@@ -77,6 +77,27 @@ export default function DronesPage() {
         </div>
       </section>
 
+      <section className="wrap" style={{ background: 'var(--bg-2)' }}>
+        <div className="section-head-ed"><div><div className="ed-kicker">Market intelligence</div><h2>Deeper market reports</h2></div></div>
+        <div style={{ display: 'grid', gap: 16, gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
+          <Link href="/reports/india-cargo-drone-market/" style={{ border: '1px solid var(--border, rgba(255,255,255,.12))', borderRadius: 12, padding: '20px 22px', background: 'var(--bg-2, rgba(255,255,255,.02))', display: 'block', textDecoration: 'none' }}>
+            <div className="ed-kicker" style={{ marginBottom: 8 }}>Cargo & logistics</div>
+            <h3 style={{ margin: '0 0 8px', fontSize: 17 }}>India Cargo Drone Market 2026-2035</h3>
+            <p style={{ margin: 0, fontSize: 14, color: 'var(--text-dim)', lineHeight: 1.6 }}>124-page demand intelligence: 850 civil cargo drones in 2026 to 50,200 (base case) by 2035 - INR 18,400 crore annual revenue - across ten demand ecosystems and three scenarios.</p>
+          </Link>
+          <Link href="/reports/india-loitering-munitions-market/" style={{ border: '1px solid var(--border, rgba(255,255,255,.12))', borderRadius: 12, padding: '20px 22px', background: 'var(--bg-2, rgba(255,255,255,.02))', display: 'block', textDecoration: 'none' }}>
+            <div className="ed-kicker" style={{ marginBottom: 8 }}>Defence</div>
+            <h3 style={{ margin: '0 0 8px', fontSize: 17 }}>India's Loitering Munitions Market Intelligence 2026-2035</h3>
+            <p style={{ margin: 0, fontSize: 14, color: 'var(--text-dim)', lineHeight: 1.6 }}>Who arms India's loitering-munition decade - demand quantification, category specifications, the supplier map and the subsystem chokepoints that decide sovereignty.</p>
+          </Link>
+          <Link href="/reports/india-drone-sensors-payloads-imaging-market/" style={{ border: '1px solid var(--border, rgba(255,255,255,.12))', borderRadius: 12, padding: '20px 22px', background: 'var(--bg-2, rgba(255,255,255,.02))', display: 'block', textDecoration: 'none' }}>
+            <div className="ed-kicker" style={{ marginBottom: 8 }}>Sensors & payloads</div>
+            <h3 style={{ margin: '0 0 8px', fontSize: 17 }}>India Drone Sensors, Payloads & Imaging Systems Market</h3>
+            <p style={{ margin: 0, fontSize: 14, color: 'var(--text-dim)', lineHeight: 1.6 }}>Market size, segmentation, supply-chain dependence and the 2026-2035 forecast for the sensing layer inside India's drones.</p>
+          </Link>
+        </div>
+      </section>
+
       <section className="wrap">
         <div style={{ display: 'grid', gap: 22, gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
           <div style={{ border: '1px solid var(--border, rgba(255,255,255,.12))', borderRadius: 12, padding: '20px 22px', background: 'var(--bg-2, rgba(255,255,255,.02))' }}>
