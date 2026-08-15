@@ -20,6 +20,10 @@ out/
 .DS_Store
 Thumbs.db
 
+# SEO credentials & tokens (never commit)
+seo-credentials/
+seo-tokens/
+
 # Debug logs
 npm-debug.log*
 
