@@ -130,7 +130,7 @@ async function syncReports() {
 }
 
 async function syncSignals() {
-  const { data, error } = await db.from('cms_signals').select('*').order('date', { ascending: true });
+  const { data, error } = await db.from('cms_signals').select('*').order('date', { ascending: true }).order('no', { ascending: true });
   if (error) { console.error('CMS signals fetch failed:', error.message); return []; }
   const rows = (data || []);
   const mapped = rows.map(mapCmsSignalToMeta);

@@ -23,7 +23,7 @@ export const syncedAt = new Date().toISOString();
 
 export const signals: SignalMeta[] = [{
   slug: 'talent-constraint',
-  no: 'S-002',
+  no: 'S-001',
   title: 'Why Talent May Become the Real Constraint',
   domain: 'Strategic Technology',
   date: '2026-05-18',
@@ -48,7 +48,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.meity.gov.in/', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567']
 }, {
   slug: 'osat-bottleneck',
-  no: 'S-003',
+  no: 'S-002',
   title: 'India’s Hidden OSAT Bottleneck',
   domain: 'Semiconductors',
   date: '2026-05-24',
@@ -76,7 +76,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.meity.gov.in/content/semiconductor', 'https://www.india.gov.in/']
 }, {
   slug: 'visakhapatnam-coastal-ai',
-  no: 'S-006',
+  no: 'S-003',
   title: 'The Visakhapatnam coastal-AI thesis',
   domain: 'AI Infrastructure',
   date: '2026-05-29',
@@ -166,7 +166,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.india.gov.in/', 'https://www.meity.gov.in/']
 }, {
   slug: 'advanced-packaging-binding-constraint',
-  no: 'S-007',
+  no: 'S-006',
   title: 'Advanced packaging is India’s binding AI constraint',
   domain: 'AI Infrastructure',
   date: '2026-05-29',
@@ -200,7 +200,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.meity.gov.in/content/semiconductor', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567']
 }, {
   slug: 'netrasemi-a2000-edge-ai-silicon',
-  no: 'S-012',
+  no: 'S-007',
   title: 'India’s first edge-AI chip is a design-led bet',
   domain: 'Edge AI & Semiconductors',
   date: '2026-05-30',
@@ -231,7 +231,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.meity.gov.in/content/semiconductor', 'https://pib.gov.in/PressReleasePage.aspx?PRID=2134567']
 }, {
   slug: 'talent-may-matter-more-than-subsidies',
-  no: 'S-011',
+  no: 'S-008',
   title: 'Why talent may matter more than subsidies',
   domain: 'Strategic Technology',
   date: '2026-06-12',
@@ -268,7 +268,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.ism.gov.in/', 'https://indiaai.gov.in/']
 }, {
   slug: 'indias-hidden-industrial-water-crisis',
-  no: 'S-010',
+  no: 'S-009',
   title: 'India’s hidden industrial water crisis',
   domain: 'Industrial Infrastructure',
   date: '2026-06-19',
@@ -305,7 +305,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://cgwb.gov.in/', 'https://www.niti.gov.in/']
 }, {
   slug: 'vendor-economy-behind-semiconductor-fabs',
-  no: 'S-009',
+  no: 'S-010',
   title: 'The vendor economy behind semiconductor fabs',
   domain: 'Semiconductor Ecosystems',
   date: '2026-06-26',
@@ -342,7 +342,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.meity.gov.in/content/semiconductor', 'https://www.ism.gov.in/']
 }, {
   slug: 'jewar-electronics-manufacturing-ecosystem',
-  no: 'S-013',
+  no: 'S-011',
   title: 'Jewar Isn\'t Becoming an Airport City. It\'s Becoming an Electronics Ecosystem.',
   domain: 'Electronics Manufacturing',
   date: '2026-06-29',
@@ -406,7 +406,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.indiatvnews.com/uttar-pradesh/jewar-set-to-become-north-india-s-silicon-valley-as-yogi-vaishnaw-launch-rs-6-750-crore-electronics-project-2026-06-27-1046352', 'https://hcl.com/media_management/hcl-group-and-hon-hai-technology-group-foxconn-join-hands-to-set-up-semiconductor-manufacturing-unit-in-uttar-pradesh/', 'https://www.moneycontrol.com/news/business/jewar-set-to-become-india-s-leading-electronics-semiconductor-hub-ashwini-vaishnaw-13960175.html']
 }, {
   slug: 'dholera-water-signal',
-  no: 'S-001',
+  no: 'S-012',
   title: 'The Dholera Water Signal',
   domain: 'Industrial Infrastructure',
   date: '2026-06-30',
@@ -452,7 +452,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.ijsrd.com/articles/LDRPTCP065.pdf', 'https://swarajyamag.com/tech/how-gujarat-is-shaping-up-as-indias-semiconductor-hub-building-on-its-strength-as-an-economic-powerhouse']
 }, {
   slug: 'quantum-orders-industrial-policy',
-  no: 'S-014',
+  no: 'S-013',
   title: 'The Quantum Race Has Entered Its Industrial-Policy Phase',
   domain: 'Strategic Technology',
   date: '2026-06-30',
@@ -501,7 +501,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/', 'https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/', 'https://www.cybersecuritydive.com/news/quantum-cryptography-white-house-executive-order/823530/', 'https://www.reuters.com/legal/litigation/trump-signs-orders-calling-powerful-quantum-computer-targeting-2028-2026-06-22/']
 }, {
   slug: 'real-constraint-behind-ai-infrastructure',
-  no: 'S-008',
+  no: 'S-014',
   title: 'The real constraint behind AI infrastructure',
   domain: 'AI Infrastructure',
   date: '2026-07-03',
@@ -639,7 +639,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://pib.gov.in/', 'https://www.business-standard.com/industry/news/cabinet-clears-india-semiconductor-mission-2-mobile-manufacturing-126071500754_1.html', 'https://swarajyamag.com/tech/what-is-semicon-20-inside-indias-rs-127-lakh-crore-six-pillar-strategy-to-become-a-major-global-semiconductor-player', 'https://www.dqindia.com/semiconductors/cabinet-approves-semicon-20-government-delivers-on-commitment-for-long-term-policy-support-to-semiconductors-in-india-12166952']
 }, {
   slug: 'high-purity-minerals-for-semiconductors',
-  no: 'S-019',
+  no: 'S-017',
   title: 'High-Purity Minerals Enter the Semiconductor Feedstock Chain',
   domain: 'Semiconductor Ecosystems',
   date: '2026-07-19',
@@ -682,7 +682,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf', 'https://www.iea.org/policies/17893-announcement-on-the-implementation-of-export-control-of-items-related-to-gallium-and-germanium', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary']
 }, {
   slug: 'magnet-free-motors-rare-earth-value-chain',
-  no: 'S-023',
+  no: 'S-018',
   title: 'Magnet-Free Motors Could Redraw India\'s Rare-Earth Value Chain',
   domain: 'Critical Minerals & Materials',
   date: '2026-07-19',
@@ -725,7 +725,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://electrek.co/2026/07/13/vimag-labs-magnet-free-ev-motor-patent/', 'https://gulfnews.com/technology/indian-startup-patents-rare-earth-free-electric-motor-for-evs-challenging-chinas-supply-chain-dominance-1.500609670', 'https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-7280-crore-scheme-to-promote-manufacturing-of-sintered-rare-earth-permanent-magnets-repm/']
 }, {
   slug: 'battery-materials-processing-india',
-  no: 'S-021',
+  no: 'S-019',
   title: 'Battery Materials Processing — Lithium, Cobalt, Nickel and the Cell-Ecosystem Opportunity',
   domain: 'Energy Storage & Industrial Infrastructure',
   date: '2026-07-19',
@@ -811,7 +811,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
 }, {
   slug: 'india-asia-mineral-processing-hub',
-  no: 'S-022',
+  no: 'S-021',
   title: 'Can India Be Asia\'s Mineral-Processing Hub?',
   domain: 'Critical Minerals & Economic Geography',
   date: '2026-07-19',
@@ -857,7 +857,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds592_e.htm', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309']
 }, {
   slug: 'mineral-security-to-processing-thesis',
-  no: 'S-017',
+  no: 'S-022',
   title: 'From Mineral Security to Mineral Processing — Why the Midstream Layer Decides Competitiveness',
   domain: 'Critical Minerals',
   date: '2026-07-19',
@@ -897,7 +897,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097309', 'https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf']
 }, {
   slug: 'rare-earth-magnets-motors-chokepoint',
-  no: 'S-018',
+  no: 'S-023',
   title: 'Rare Earth Separation → Magnets → Motors: The Defence and Robotics Chokepoint',
   domain: 'Critical Minerals & Defence',
   date: '2026-07-19',
@@ -940,7 +940,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary', 'https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-rare-earths.pdf', 'https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-7280-crore-scheme-to-promote-manufacturing-of-sintered-rare-earth-permanent-magnets-repm/']
 }, {
   slug: 'marvell-india-semiconductor-design',
-  no: 'S-052',
+  no: 'S-024',
   title: 'Marvell\'s US$250 Million India Investment Reinforces India\'s Emergence as a Global Semiconductor Design Hub',
   domain: 'Semiconductor Design & R&D Ecosystem',
   date: '2026-07-29',
@@ -989,7 +989,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.thehindu.com/business/Industry/semicon-firm-marvell-to-invest-250-mn-in-technology-talent-and-infrastructure-in-india/article71281465.ece', 'https://www.marvell.com/']
 }, {
   slug: 'india-build-the-stack-not-assembly',
-  no: 'S-028',
+  no: 'S-025',
   title: 'India\'s Real Dependency Is One Layer Below the Product',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
@@ -1023,7 +1023,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://labs.techadyant.com/research/dependencies']
 }, {
   slug: 'critical-manufacturing-dependency-index-launch',
-  no: 'S-024',
+  no: 'S-026',
   title: 'India Now Has a Structured Map of Where It Stays Import-Dependent',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
@@ -1057,7 +1057,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://labs.techadyant.com/research/dependencies', 'https://tradestat.commerce.gov.in']
 }, {
   slug: 'india-manufacturing-chokepoints-cmdi',
-  no: 'S-025',
+  no: 'S-027',
   title: 'India\'s Deepest Chokepoints: EUV Photoresist, Leading-Edge Logic and Aero-Engines',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
@@ -1091,7 +1091,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://tradestat.commerce.gov.in', 'https://labs.techadyant.com/research/dependencies']
 }, {
   slug: 'india-build-now-localisation-surfaces',
-  no: 'S-026',
+  no: 'S-028',
   title: 'Where Dependency Meets Feasibility: SiC Power and Display-Driver ICs Are the Build-Now Surfaces',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
@@ -1119,7 +1119,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://labs.techadyant.com/research/dependencies']
 }, {
   slug: 'india-pli-uneven-record-component-gap',
-  no: 'S-027',
+  no: 'S-029',
   title: 'PLI\'s Uneven Record Exposes the Component Gap Beneath Assembly',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
@@ -1153,7 +1153,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.investindia.gov.in/schemes/production-linked-incentive-scheme', 'https://www.pib.gov.in']
 }, {
   slug: 'india-state-manufacturing-capability-rankings',
-  no: 'S-029',
+  no: 'S-030',
   title: 'Which States Are Positioned to Reduce India\'s Import Dependence',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
@@ -1187,7 +1187,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://labs.techadyant.com/corridors']
 }, {
   slug: 'india-eight-structural-gaps-dependency',
-  no: 'S-030',
+  no: 'S-031',
   title: 'Eight Structural Gaps Decide Whether India\'s Dependency Actually Falls',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
@@ -1221,7 +1221,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://www.pib.gov.in', 'https://labs.techadyant.com/research/dependencies']
 }, {
   slug: 'india-twelve-opportunity-zones-industrial-capital',
-  no: 'S-031',
+  no: 'S-032',
   title: 'Twelve Zones Where India\'s Industrial Capital Should Concentrate',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
@@ -1255,7 +1255,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://labs.techadyant.com/research/dependencies']
 }, {
   slug: 'india-critical-manufacturing-dependency-report-edition-1',
-  no: 'S-032',
+  no: 'S-033',
   title: 'Techadyant Publishes Edition I of India\'s Critical Manufacturing Dependencies',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
@@ -1283,7 +1283,7 @@ export const signals: SignalMeta[] = [{
   sources: ['https://labs.techadyant.com/research/dependencies']
 }, {
   slug: 'india-glass-substrate-frontier-entry',
-  no: 'S-033',
+  no: 'S-034',
   title: 'India\'s Deepest Chip Gap Is Being Filled at the Frontier — on Foreign Balance Sheets',
   domain: 'Semiconductor Ecosystems',
   date: '2026-08-03',
@@ -1369,7 +1369,7 @@ export const signals: SignalMeta[] = [{
   sources: ['Evertiq (4 Aug 2026): https://evertiq.com/news/2026-08-04-asip-breaks-ground-on-260-million-osat-facility-in-india', 'Business Standard (1 Aug 2026): https://www.business-standard.com/india-news/pm-modi-lays-foundation-stone-asip-semiconductor-plant-visakhapatnam-126080100662_1.html', 'The Hans India: https://www.thehansindia.com/news/cities/visakhapatnam/modi-lays-stone-for-souths-1st-ism-approved-chip-unit-in-ap-1104105']
 }, {
   slug: 'india-indigenous-turbojet-engine',
-  no: 'S-034',
+  no: 'S-036',
   title: 'India Builds the Engine Its Loitering Munitions Were Missing',
   domain: 'Defence & Dual-Use',
   date: '2026-08-05',
@@ -1394,7 +1394,7 @@ export const signals: SignalMeta[] = [{
   sources: ['Organiser (24 Jul 2026): https://organiser.org/2026/07/24/371428/bharat/drdo-develops-indias-first-indigenous-350-kg-thrust-class-expendable-turbojet-engine/', 'IndianWeb2 (Jul 2026): https://www.indianweb2.com/2026/07/india-unveils-first-indigenous-350kg.html', 'BIS Infotech: https://www.bisinfotech.com/drdo-advances-indigenous-aerospace-with-turbojet-engine/']
 }, {
   slug: 'india-uk-autonomous-systems-working-group',
-  no: 'S-036',
+  no: 'S-037',
   title: 'India and the UK Choose Co-Development Over Procurement',
   domain: 'Defence & Dual-Use',
   date: '2026-08-05',
@@ -1419,7 +1419,7 @@ export const signals: SignalMeta[] = [{
   sources: ['Raksha Anirveda (05 Aug 2026): https://raksha-anirveda.com/bilateral-defence-tech-cooperation-india-and-uk-launch-autonomous-platforms-and-uncrewed-systems-working-group/', 'IDRW (04 Aug 2026): https://idrw.org/uncrewed-alliance-newspace-ceo-sameer-joshi-named-india-co-chair-of-new-india-uk-autonomous-systems-working-group/', 'Indian Masterminds (04 Aug 2026): https://indianmasterminds.com/news/defence/india-uk-cooperation-autonomous-platforms-uncrewed-systems-working-group-launch-221521/', 'The Print (2026): https://theprint.in/world/new-india-uk-industry-initiative-to-boost-defence-tech-collaboration/2993802/']
 }, {
   slug: 'army-2715-logistic-drones-rfi',
-  no: 'S-037',
+  no: 'S-038',
   title: 'Army Floats RFI for 2,715 Logistic Drones to Resupply High-Altitude Frontiers',
   domain: 'Defence & Dual-Use',
   date: '2026-08-07',
@@ -1469,7 +1469,7 @@ export const signals: SignalMeta[] = [{
   sources: ['The Newsman of India (06 Aug 2026): https://thenewsmanofindia.com/hindustan-copper-explores-strategic-partnership-with-uzbekistan-in-critical-minerals-sector/', 'The Tribune / ANI (03 Aug 2026): https://www.tribuneindia.com/news/bilateral-trade/uzbekistan-invites-indian-investment-in-mining-rare-earths-targets-usd-2-bn-trade-with-india-next-year']
 }, {
   slug: 'indiaai-mission-gpu-compute-expansion',
-  no: 'S-038',
+  no: 'S-040',
   title: 'India Expands Sovereign AI Compute with 15,916 New GPUs under IndiaAI Mission',
   domain: 'AI Infrastructure',
   date: '2026-08-07',
@@ -1519,7 +1519,7 @@ export const signals: SignalMeta[] = [{
   sources: ['Reuters (07 Aug 2026): https://www.reuters.com/world/india/lt-says-unit-that-houses-drones-see-threefold-revenue-growth-over-five-years-2026-08-07/', 'Economic Times (07 Aug 2026): https://m.economictimes.com/news/defence/lt-says-unit-that-houses-drones-to-see-threefold-revenue-growth-over-five-years/articleshow/133032316.cms']
 }, {
   slug: 'lt-semiconductor-technologies-osat-shift-india',
-  no: 'S-040',
+  no: 'S-042',
   title: 'L&T Semiconductor Shifts Chip Packaging Operations to India',
   domain: 'Semiconductor Ecosystems',
   date: '2026-08-08',
@@ -1544,7 +1544,7 @@ export const signals: SignalMeta[] = [{
   sources: ['Business Standard (04 Aug 2026): https://www.business-standard.com/industry/news/l-t-semiconductor-goes-local-with-chip-backend-shifts-osat-to-india-126080300783_1.html', 'BIS Infotech (07 Aug 2026): https://www.bisinfotech.com/l-t-semiconductor-technologies-shifts-osat-operations-to-india-in-major-boost-to-local-chip-ecosystem/']
 }, {
   slug: 'india-joins-france-fcas-sixth-generation-fighter-programme',
-  no: 'S-042',
+  no: 'S-043',
   title: 'India Moves to Join France-Led FCAS Sixth-Generation Fighter Programme',
   domain: 'Defence & Dual-Use',
   date: '2026-08-09',
@@ -1569,7 +1569,7 @@ export const signals: SignalMeta[] = [{
   sources: ['The New Indian Express (08 Aug 2026): https://www.newindianexpress.com/india/2026/Aug/08/india-opts-for-france-led-fcas-to-enter-sixth-generation-fighter-race', 'Business Standard (08 Aug 2026): https://www.business-standard.com/external-affairs-defence-security/news/defence-ministry-begins-efforts-to-join-sixth-gen-fighter-programme-panel-126080800026_1.html', 'The Print (08 Aug 2026): https://theprint.in/defence/and-its-official-india-in-talks-with-france-to-join-6th-gen-fighter-programme-fcas/3009124/']
 }, {
   slug: 'gujarat-chipin-extension-centre-vlsi-design-coe',
-  no: 'S-043',
+  no: 'S-044',
   title: 'Gujarat Extends Its Semiconductor Bet From Fabs to Chip Design',
   domain: 'Semiconductor Ecosystems',
   date: '2026-08-09',
@@ -1594,7 +1594,7 @@ export const signals: SignalMeta[] = [{
   sources: ['DeshGujarat (07 Aug 2026): https://deshgujarat.com/2026/08/07/gujarat-govt-gtu-c-dac-partner-to-set-up-chipin-centre-of-excellence-in-vlsi-design/', 'ET Government (08 Aug 2026): https://government.economictimes.indiatimes.com/news/technology/gujarat-to-focus-on-chip-design-to-advance-in-semiconductor-value-chain-setting-up-new-facility/133047778']
 }, {
   slug: 'uttar-pradesh-lands-45000-crore-semiconductor-solar-investments',
-  no: 'S-044',
+  no: 'S-045',
   title: 'Uttar Pradesh Lands Rs 45,000 Crore Across Chips, Electronics and Solar',
   domain: 'Semiconductor Ecosystems',
   date: '2026-08-10',
@@ -1619,7 +1619,7 @@ export const signals: SignalMeta[] = [{
   sources: ['The Financial Express (08 Aug 2026): https://www.financialexpress.com/business/industry-uttar-pradesh-lands-major-investment-commitments-eight-firms-commit-rs-45000-crore-in-semiconductor-green-energy-sectors-4313980/', 'Indian Masterminds (08 Aug 2026): https://indianmasterminds.com/news/uttar-pradesh-rs-45000-crore-investment-hcl-foxconn-avada-222468/']
 }, {
   slug: 'india-data-centre-capacity-surges-four-fold',
-  no: 'S-045',
+  no: 'S-046',
   title: 'India\'s Data-Centre Capacity Quadruples to 1,575 MW on AI Demand',
   domain: 'AI Infrastructure',
   date: '2026-08-11',
@@ -1644,7 +1644,7 @@ export const signals: SignalMeta[] = [{
   sources: ['ANI (05 Aug 2026): https://www.aninews.in/news/business/indias-data-centre-capacity-rises-over-four-fold-to-1575-mw-as-ai-demand-accelerates-govt20260805171543/', 'The Tribune (05 Aug 2026): https://www.tribuneindia.com/news/business/indias-data-centre-capacity-rises-over-four-fold-to-1575-mw-as-ai-demand-accelerates-govt/']
 }, {
   slug: 'd-propulse-demonstrates-india-first-rotating-detonation-engine-trl5',
-  no: 'S-046',
+  no: 'S-047',
   title: 'D-Propulse Validates India\'s First Indigenous Rotating Detonation Engine at TRL-5',
   domain: 'Defence & Dual-Use',
   date: '2026-08-12',
@@ -1669,7 +1669,7 @@ export const signals: SignalMeta[] = [{
   sources: ['ET Manufacturing (29 Jul 2026): https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/d-propulse-demonstrates-indias-first-indigenous-5-kn-rotating-detonation-engine/132706779', 'India Strategic (2026): https://www.indiastrategic.in/indias-first-indigenous-5-kn-rotating-detonation-engine-validated-at-trl-5-d-propulse-targets-flight-ready-system-by-december-2027/', 'Bharat Shakti (2026): https://bharatshakti.in/private-firm-tests-indigenous-5-kn-rotating-detonation-engine-eyes-prototype-by-2027/']
 }, {
   slug: 'msc-flags-off-first-import-rail-shipment-adani-icd-malur-bengaluru',
-  no: 'S-047',
+  no: 'S-048',
   title: 'MSC Runs Its First Import Rake Through Adani\'s Malur Inland Terminal',
   domain: 'Logistics & Mobility',
   date: '2026-08-12',
@@ -1694,7 +1694,7 @@ export const signals: SignalMeta[] = [{
   sources: ['India Shipping News (10 Aug 2026): https://indiashippingnews.com/export/msc-marks-first-import-rail-milestone-at-adani-icd-malur-strengthening-bengalurus-gateway-to-global-trade/', 'Maritime Gateway (10 Aug 2026): https://www.maritimegateway.com/msc-marks-first-import-rail-milestone-at-adani-icd-malur-strengthening-bengalurus-gateway-to-global-trade/']
 }, {
   slug: 'indian-navy-issues-rfi-ship-launched-loitering-munition-1000km-range',
-  no: 'S-048',
+  no: 'S-049',
   title: 'Indian Navy Issues RFI for Ship-Launched Loitering Munitions With 1,000 km Range',
   domain: 'Defence & Dual-Use',
   date: '2026-08-13',
@@ -1719,7 +1719,7 @@ export const signals: SignalMeta[] = [{
   sources: ['The Tribune (13 Aug 2026): https://www.tribuneindia.com/news/defence/indian-navy-moves-to-acquire-ship-launched-kamikaze-drones/', 'NDTV Profit (13 Aug 2026): https://www.ndtvprofit.com/economy/bharat-forge-solar-industries-in-fray-for-navys-rs-18-000-crore-loitering-munition-project-report-11901187', 'Marine Insight (13 Aug 2026): https://www.marineinsight.com/indian-navy-to-acquire-new-class-of-ship-launched-kamikaze-drones-that-can-hit-targets-1000-km-away/', 'IDRW (13 Aug 2026): https://idrw.org/mod-issues-rfi-for-ship-launched-loitering-munition-with-1000km-range-and-9-hour-loiter-time-for-indian-navy/']
 }, {
   slug: 'indian-air-force-pokhran-unmanned-systems-showcase-september-2026',
-  no: 'S-049',
+  no: 'S-050',
   title: 'Indian Air Force to Evaluate Indigenous Unmanned Systems at Pokhran in September',
   domain: 'Defence & Dual-Use',
   date: '2026-08-13',
@@ -1744,7 +1744,7 @@ export const signals: SignalMeta[] = [{
   sources: ['The Economic Times (12 Aug 2026): https://m.economictimes.com/news/defence/defence-industry-to-showcase-indigenous-unmanned-systems-at-pokhran-event-indian-air-force/articleshow/133164825.cms', 'AngelOne (12 Aug 2026): https://www.angelone.in/news/economy/indian-air-force-pokhran-drone-showcase-to-feature-1-000-km-range-unmanned-systems', 'GKToday (13 Aug 2026): https://www.gktoday.in/indigenous-unmanned-systems-to-be-showcased-at-pokhran/']
 }, {
   slug: 'izi-demonstrates-vana-tethered-drone-indian-army-5000-unit-procurement',
-  no: 'S-050',
+  no: 'S-051',
   title: 'Bhopal\'s IZI Pitches Its VANA UAV for the Army\'s 5,000-Drone Requirement',
   domain: 'Defence & Dual-Use',
   date: '2026-08-13',
@@ -1769,7 +1769,7 @@ export const signals: SignalMeta[] = [{
   sources: ['The Week (12 Aug 2026): https://www.theweek.in/news/defence/2026/08/12/indias-vana-drone-showcased-to-indian-army-it-can-can-be-deployed-in-60-seconds-spot-vehicles-from-24km-away.html', 'BIS Infotech (12 Aug 2026): https://www.bisinfotech.com/izi-advances-vana-indias-indigenous-multi-role-uav-with-swarm-capabilities/']
 }, {
   slug: 'bel-600-crore-chitrakoot-defence-unit',
-  no: 'S-051',
+  no: 'S-052',
   title: 'BEL Proposes Rs 600 Crore Defence Electronics Unit at Chitrakoot in Bundelkhand',
   domain: 'Defence & Dual-Use',
   date: '2026-08-14',
