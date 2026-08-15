@@ -80,3 +80,15 @@ node scripts/bake-aerospace.mjs   # idempotent; dataset is the source of truth
 npm run build:only                # type-check + static export (avoids IndexNow/CMS side-effects)
 ```
 The bake script no longer carries a corrections map — all factual fixes live in the Atlas JSON files.
+
+## 7. Cleanup pass (brief 3, 2026-08-14) — five defects closed
+
+| # | Defect | Fix |
+|---|---|---|
+| 1 | Card in the wrong section | Removed from `DATABASES` (Deep databases back to three entries); added to `EXTRA_ECOSYSTEMS` in `app/research/extra-ecosystems.tsx` with counts imported from the aerospace `data.ts` (12 platforms, 52 companies, 21 dependencies). Appears automatically on the /research pillars grid **and** the home-page Atlas grid via `ExtraEcosystemCardFull`/`ExtraEcosystemCardSimple`. |
+| 2 | Every cluster showed "0 sites" | `GeoRec.industrial_cluster` stores the cluster **name**, but the view joined against the cluster **id** (`c.id`), which never matched. Join now runs on `c.company_ids.includes(s.company_id)` (the baker already preserved `company_ids`), and each cluster shows **both** numbers: sites mapped and member companies. Verified in the built HTML: 12/9, 4/3, 1/1, 2/1, 2/2, 5/2, 2/2, 4/1, 4/1. |
+| 3 | Two rows both "Composite propeller" | The matrix (and the browse strip) used the generic `component`; both propeller dependencies share `component: "Composite propeller"`. Now render the specific `dependency` label: **Ratier-Figeac 568F-5 composite propeller** (C-295, oligopoly) vs **Dowty R391 composite propeller** (C-130J, single-source). |
+| 4 | "92 of 256" vs "92 of 257" | The stat card hardcoded 256 while the FAQ computed 257. Added `meta.records` (computed once in the bake: 257) and both surfaces read `m.records`. Built output shows "92 of 257" in four places, "92 of 256" nowhere. |
+| 5 | String slips | Lede comma: `companies,{' '}{m.suppliers}` (JSX collapses the newline). Companies stat card: raw `join()` of the type array replaced with human copy: "HAL and Tata-Airbus led; Tier-1 to Tier-3 tracked". |
+
+**Verification:** `next build` passes (1,398 pages); /research shows the card in the pillars grid with Deep databases back to three; the home Atlas grid picks the card up automatically; no cluster shows 0 sites; the two propellers are distinguishable in the matrix; the record count is identical everywhere; all detail routes render; `_redirects` untouched (no splat, no loops). Commit: see git log.
