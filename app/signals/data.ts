@@ -988,39 +988,39 @@ export const signals: SignalMeta[] = [{
   takeaways: ['Marvell will invest US$250 million over three years and expand its Bengaluru and Hyderabad presence, doubling Indian headcount to support advanced semiconductor design.', 'The announcement signals a structural shift in India\'s semiconductor role: from manufacturing support and assembly toward global chip architecture, ASIC design, verification and AI accelerator development.', 'The scarce resource is now engineering talent — RTL, physical design, DFT, verification, AI accelerator architecture and high-speed SerDes — which makes semiconductor education and ecosystem development a strategic industry.', 'The Bengaluru–Hyderabad corridor is strengthening as India\'s primary semiconductor design and R&D hub, creating concentrated opportunity for adjacent vendors and institutions.'],
   sources: ['https://www.thehindu.com/business/Industry/semicon-firm-marvell-to-invest-250-mn-in-technology-talent-and-infrastructure-in-india/article71281465.ece', 'https://www.marvell.com/']
 }, {
-  slug: 'india-pli-uneven-record-component-gap',
-  no: 'S-027',
-  title: 'PLI\'s Uneven Record Exposes the Component Gap Beneath Assembly',
+  slug: 'india-build-the-stack-not-assembly',
+  no: 'S-028',
+  title: 'India\'s Real Dependency Is One Layer Below the Product',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
   dateLabel: '31 Jul 2026',
   status: 'live',
-  excerpt: 'Mobile-manufacturing PLI has drawn 312% of its targeted investment, but Electronic Components sits at 68% and Bulk Drugs at 48% — evidence that incentivising finished products localises assembly while the dependency migrates one layer down, into the components.',
-  readingTime: '5 min',
+  excerpt: 'Across sectors the same pattern repeats: India assembles the finished good but imports the layers beneath it. The dependency lens resolves this by decomposing every product into localisable units — and the vulnerability almost always sits in the component, material and equipment tiers, not the assembly.',
+  readingTime: '4 min',
   body: [{
-  text: 'The Production-Linked Incentive schemes have a split record. Mobile manufacturing has realised roughly 312% of its targeted investment and textiles 117% — clear outperformers. But Electronic Components sits at 68% utilisation, Bulk Drugs at 48%, and White Goods at 67%. The pattern is not random.',
+  text: 'Decompose any strategic product into its layers — finished good, sub-assembly, component, material, equipment — and India\'s position is consistent: strong at assembly, thin below it. The phone is assembled here; the display driver, the RF front-end and the memory are imported. The drone is built here; the flight controller, motors and cells are imported. The pattern is structural, not sectoral.',
   type: 'p'
 }, {
-  text: 'Assembly localises, dependency migrates',
+  text: 'Why final-assembly metrics mislead',
   type: 'h'
 }, {
-  text: 'The schemes that outperformed reward finished-product assembly, where India already had a base to scale. The laggards are the upstream component and active-ingredient lines — exactly the layers that finished-goods incentives do not reach. So localising the phone or the formulation shifts the import bill from the product to its components and precursors, rather than eliminating it. The dependency moves one tier down the stack.',
+  text: 'Counting finished-goods output or export value flatters the picture because it captures the layer India already holds. Value and vulnerability live upstream, in the component and material tiers where a handful of foreign firms dominate. A country can lead the world in assembling a product and still control very little of the value or the security of its supply.',
   type: 'p'
 }, {
-  text: 'The ecosystem gap',
+  text: 'Build the stack, not the assembly',
   type: 'h'
 }, {
-  text: 'This is the structural gap the dependency lens exposes: PLI targets products; the L0-L3 ecosystem layers beneath them are not incentivised. Until the component, material and equipment tiers are pulled in — with instruments matched to their longer paybacks and thinner early economics — assembly success will keep masking upstream dependence.',
+  text: 'The strategic implication is to industrialise the layers, not just the endpoint: pull component lines, specialty materials, and manufacturing equipment into the incentive and capital stack. That is harder and slower than final assembly — the economics are thinner early and the paybacks longer — which is precisely why it does not happen on its own and why it is the work that actually reduces dependence.',
   type: 'p'
 }, {
   text: 'What the signal means',
   type: 'h'
 }, {
-  text: 'The next generation of incentive design has to fund the chain, not just the output: component-line capex, materials, test-and-certification and equipment, where the imports actually concentrate. The PLI utilisation numbers are an early map of where that redesign is most overdue — components and bulk drugs first.',
+  text: 'Read every localisation claim by asking which layer it touches. Assembly wins are real but shallow; the durable gains are the unglamorous component, material and equipment tiers where the imports concentrate and the moats are built.',
   type: 'p'
 }],
-  takeaways: ['PLI utilisation is split: mobile manufacturing ~312% and textiles 117% (outperformed) versus Electronic Components 68% and Bulk Drugs 48% (below target).', 'Finished-product incentives localise assembly where a base existed; the upstream component and active-ingredient tiers they do not reach are the laggards.', 'So localising the product shifts the import bill to its components and precursors — the dependency migrates one layer down the stack rather than disappearing.', 'The fix is incentive design that funds the chain (component capex, materials, test-cert, equipment), not just the output — components and bulk drugs first.'],
-  sources: ['https://www.investindia.gov.in/schemes/production-linked-incentive-scheme', 'https://www.pib.gov.in']
+  takeaways: ['Decomposed into layers, India\'s position is consistent across sectors: strong at assembly, import-dependent in the component, material and equipment tiers beneath.', 'Finished-goods output and export metrics flatter the picture because they measure the one layer India already holds; value and vulnerability sit upstream.', 'Reducing dependence means industrialising the layers — component lines, specialty materials, equipment — not just the endpoint, which is harder and slower and so does not happen on its own.', 'Every localisation claim should be read by which layer it touches: assembly wins are shallow; component/material/equipment wins are durable.'],
+  sources: ['https://labs.techadyant.com/research/dependencies']
 }, {
   slug: 'critical-manufacturing-dependency-index-launch',
   no: 'S-024',
@@ -1118,39 +1118,39 @@ export const signals: SignalMeta[] = [{
   takeaways: ['SiC power semiconductors (dependency 82, localisation 62, attractiveness 80) and display-driver ICs (80/62/78) are the clearest Build-now surfaces: deep import, buildable, bankable.', 'Reading the three indices together separates Build-now from Watch — EUV resist (95 dependency / 5 localisation) is a Watch bet; SiC is a Build-now bet.', 'The biggest prize is not the deepest dependency but where deep-enough dependency meets feasibility and returns — mid-stream power electronics and drivers.', 'Ventures at this intersection displace real imports while paying back commercially, making the policy bet durable rather than subsidy-dependent.'],
   sources: ['https://labs.techadyant.com/research/dependencies']
 }, {
-  slug: 'india-build-the-stack-not-assembly',
-  no: 'S-028',
-  title: 'India\'s Real Dependency Is One Layer Below the Product',
+  slug: 'india-pli-uneven-record-component-gap',
+  no: 'S-027',
+  title: 'PLI\'s Uneven Record Exposes the Component Gap Beneath Assembly',
   domain: 'Critical Manufacturing Dependencies',
   date: '2026-07-31',
   dateLabel: '31 Jul 2026',
   status: 'live',
-  excerpt: 'Across sectors the same pattern repeats: India assembles the finished good but imports the layers beneath it. The dependency lens resolves this by decomposing every product into localisable units — and the vulnerability almost always sits in the component, material and equipment tiers, not the assembly.',
-  readingTime: '4 min',
+  excerpt: 'Mobile-manufacturing PLI has drawn 312% of its targeted investment, but Electronic Components sits at 68% and Bulk Drugs at 48% — evidence that incentivising finished products localises assembly while the dependency migrates one layer down, into the components.',
+  readingTime: '5 min',
   body: [{
-  text: 'Decompose any strategic product into its layers — finished good, sub-assembly, component, material, equipment — and India\'s position is consistent: strong at assembly, thin below it. The phone is assembled here; the display driver, the RF front-end and the memory are imported. The drone is built here; the flight controller, motors and cells are imported. The pattern is structural, not sectoral.',
+  text: 'The Production-Linked Incentive schemes have a split record. Mobile manufacturing has realised roughly 312% of its targeted investment and textiles 117% — clear outperformers. But Electronic Components sits at 68% utilisation, Bulk Drugs at 48%, and White Goods at 67%. The pattern is not random.',
   type: 'p'
 }, {
-  text: 'Why final-assembly metrics mislead',
+  text: 'Assembly localises, dependency migrates',
   type: 'h'
 }, {
-  text: 'Counting finished-goods output or export value flatters the picture because it captures the layer India already holds. Value and vulnerability live upstream, in the component and material tiers where a handful of foreign firms dominate. A country can lead the world in assembling a product and still control very little of the value or the security of its supply.',
+  text: 'The schemes that outperformed reward finished-product assembly, where India already had a base to scale. The laggards are the upstream component and active-ingredient lines — exactly the layers that finished-goods incentives do not reach. So localising the phone or the formulation shifts the import bill from the product to its components and precursors, rather than eliminating it. The dependency moves one tier down the stack.',
   type: 'p'
 }, {
-  text: 'Build the stack, not the assembly',
+  text: 'The ecosystem gap',
   type: 'h'
 }, {
-  text: 'The strategic implication is to industrialise the layers, not just the endpoint: pull component lines, specialty materials, and manufacturing equipment into the incentive and capital stack. That is harder and slower than final assembly — the economics are thinner early and the paybacks longer — which is precisely why it does not happen on its own and why it is the work that actually reduces dependence.',
+  text: 'This is the structural gap the dependency lens exposes: PLI targets products; the L0-L3 ecosystem layers beneath them are not incentivised. Until the component, material and equipment tiers are pulled in — with instruments matched to their longer paybacks and thinner early economics — assembly success will keep masking upstream dependence.',
   type: 'p'
 }, {
   text: 'What the signal means',
   type: 'h'
 }, {
-  text: 'Read every localisation claim by asking which layer it touches. Assembly wins are real but shallow; the durable gains are the unglamorous component, material and equipment tiers where the imports concentrate and the moats are built.',
+  text: 'The next generation of incentive design has to fund the chain, not just the output: component-line capex, materials, test-and-certification and equipment, where the imports actually concentrate. The PLI utilisation numbers are an early map of where that redesign is most overdue — components and bulk drugs first.',
   type: 'p'
 }],
-  takeaways: ['Decomposed into layers, India\'s position is consistent across sectors: strong at assembly, import-dependent in the component, material and equipment tiers beneath.', 'Finished-goods output and export metrics flatter the picture because they measure the one layer India already holds; value and vulnerability sit upstream.', 'Reducing dependence means industrialising the layers — component lines, specialty materials, equipment — not just the endpoint, which is harder and slower and so does not happen on its own.', 'Every localisation claim should be read by which layer it touches: assembly wins are shallow; component/material/equipment wins are durable.'],
-  sources: ['https://labs.techadyant.com/research/dependencies']
+  takeaways: ['PLI utilisation is split: mobile manufacturing ~312% and textiles 117% (outperformed) versus Electronic Components 68% and Bulk Drugs 48% (below target).', 'Finished-product incentives localise assembly where a base existed; the upstream component and active-ingredient tiers they do not reach are the laggards.', 'So localising the product shifts the import bill to its components and precursors — the dependency migrates one layer down the stack rather than disappearing.', 'The fix is incentive design that funds the chain (component capex, materials, test-cert, equipment), not just the output — components and bulk drugs first.'],
+  sources: ['https://www.investindia.gov.in/schemes/production-linked-incentive-scheme', 'https://www.pib.gov.in']
 }, {
   slug: 'india-state-manufacturing-capability-rankings',
   no: 'S-029',
@@ -1543,31 +1543,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['L&T Semiconductor Technologies (LTSCT) is shifting its OSAT (assembly and testing) operations from overseas to India, partnering with Tata Electronics.', 'Indian OSAT players currently cover approximately 50 of 500 global semiconductor package types, with capabilities expanding rapidly.', 'LTSCT has invested USD 100 million in chip design (12nm to 95nm nodes) and expects break-even at USD 150-200 million revenues within two years.', 'Wafer fabrication remains abroad (US, Taiwan, Japan); LTSCT will consider Tata Electronics\' Sanand fab once it achieves commercial production, targeted for mid-2028.'],
   sources: ['Business Standard (04 Aug 2026): https://www.business-standard.com/industry/news/l-t-semiconductor-goes-local-with-chip-backend-shifts-osat-to-india-126080300783_1.html', 'BIS Infotech (07 Aug 2026): https://www.bisinfotech.com/l-t-semiconductor-technologies-shifts-osat-operations-to-india-in-major-boost-to-local-chip-ecosystem/']
 }, {
-  slug: 'gujarat-chipin-extension-centre-vlsi-design-coe',
-  no: 'S-043',
-  title: 'Gujarat Extends Its Semiconductor Bet From Fabs to Chip Design',
-  domain: 'Semiconductor Ecosystems',
-  date: '2026-08-09',
-  dateLabel: '9 Aug 2026',
-  status: 'live',
-  excerpt: 'Gujarat, through the Gujarat State Electronics Mission (GSEM), is setting up a ChipIN Extension Centre and a Centre of Excellence for VLSI Design with Gujarat Technological University (GTU) and C-DAC - a move to build state-level chip-design capability beyond fabrication and assembly.',
-  readingTime: '3 min',
-  body: [{
-  text: 'The Gujarat government\'s Department of Science and Technology, operating through the Gujarat State Electronics Mission (GSEM), has proposed establishing a ChipIN Extension Centre and a Centre of Excellence (CoE) for Very Large Scale Integration (VLSI) Design. The centre will be located at the Gujarat Technological University (GTU) campus and developed in collaboration with the Centre for Development of Advanced Computing (C-DAC). A two-day orientation programme began on 7 August 2026, with more than 30 academic institutions from across Gujarat participating. The initiative aims to give engineering colleges cloud-based access to advanced Electronic Design Automation (EDA) tools - including those from Cadence, Synopsys and Siemens - in a phased manner, alongside expert training on the full semiconductor design workflow.',
-  type: 'p'
-}, {
-  text: 'The strategic significance lies in Gujarat\'s deliberate move to ascend the semiconductor value chain beyond manufacturing. The state already hosts significant fabrication and assembly investments, including Tata Electronics\' planned fab in Dholera and Micron\'s assembly-and-testing facility in Sanand. By adding chip-design capability, Gujarat is positioning itself to capture higher-value activities in the semiconductor ecosystem, where design IP and architecture development command substantially greater margins than backend assembly and testing.',
-  type: 'p'
-}, {
-  text: 'The dependency frame is instructive. Chip design in India has historically been concentrated in Karnataka (Bengaluru) and Hyderabad, with limited capability development in Gujarat despite its manufacturing base. This initiative addresses a structural gap by providing students and researchers a route to fabrication through the Multi-Project Wafer (MPW) programme, enabling academic chip designs to be converted into physical silicon for testing. This hands-on pathway from design to fabrication is rare in Indian higher education and could stimulate a new generation of semiconductor startups in the state.',
-  type: 'p'
-}, {
-  text: 'The test to watch is whether the phased rollout of EDA-tool access reaches a critical mass of engineering colleges, and whether the MPW fabrication pipeline produces commercially viable chip designs from academic institutions. Success will depend on sustained industry engagement, the availability of experienced VLSI professionals as trainers, and the alignment of curricula with industry requirements. If it works, the model could be replicated across other states pursuing semiconductor-ecosystem development under the Semicon 2.0 framework.',
-  type: 'p'
-}],
-  takeaways: ['Gujarat\'s Department of Science and Technology, through GSEM, is establishing a ChipIN Extension Centre and VLSI Design CoE at the GTU campus in collaboration with C-DAC.', 'The centre will provide cloud-based access to advanced EDA tools (Cadence, Synopsys, Siemens) to engineering colleges across Gujarat in a phased manner.', 'Students can have chip designs fabricated through the Multi-Project Wafer (MPW) programme - the full journey from design to physical silicon testing.', 'A two-day orientation programme beginning 7 August 2026 drew more than 30 academic institutions, reflecting broad state-level engagement.'],
-  sources: ['DeshGujarat (07 Aug 2026): https://deshgujarat.com/2026/08/07/gujarat-govt-gtu-c-dac-partner-to-set-up-chipin-centre-of-excellence-in-vlsi-design/', 'ET Government (08 Aug 2026): https://government.economictimes.indiatimes.com/news/technology/gujarat-to-focus-on-chip-design-to-advance-in-semiconductor-value-chain-setting-up-new-facility/133047778']
-}, {
   slug: 'india-joins-france-fcas-sixth-generation-fighter-programme',
   no: 'S-042',
   title: 'India Moves to Join France-Led FCAS Sixth-Generation Fighter Programme',
@@ -1592,6 +1567,31 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['India has begun efforts to co-join the French-led Future Combat Air System (FCAS), as disclosed in the Parliamentary Standing Committee on Defence\'s report tabled on 7 August 2026.', 'FCAS is a sixth-generation fighter programme featuring AI integration, electronic warfare, manned-unmanned teaming and networked combat-cloud capabilities.', 'Germany exited the FCAS crewed-fighter component in June 2026 after disputes between Dassault Aviation and Airbus over workshare and IP.', 'The panel has asked the Ministry for a detailed status report, roadmap and timeline for India\'s sixth-generation fighter capability; the form of India\'s participation is not yet defined.'],
   sources: ['The New Indian Express (08 Aug 2026): https://www.newindianexpress.com/india/2026/Aug/08/india-opts-for-france-led-fcas-to-enter-sixth-generation-fighter-race', 'Business Standard (08 Aug 2026): https://www.business-standard.com/external-affairs-defence-security/news/defence-ministry-begins-efforts-to-join-sixth-gen-fighter-programme-panel-126080800026_1.html', 'The Print (08 Aug 2026): https://theprint.in/defence/and-its-official-india-in-talks-with-france-to-join-6th-gen-fighter-programme-fcas/3009124/']
+}, {
+  slug: 'gujarat-chipin-extension-centre-vlsi-design-coe',
+  no: 'S-043',
+  title: 'Gujarat Extends Its Semiconductor Bet From Fabs to Chip Design',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-08-09',
+  dateLabel: '9 Aug 2026',
+  status: 'live',
+  excerpt: 'Gujarat, through the Gujarat State Electronics Mission (GSEM), is setting up a ChipIN Extension Centre and a Centre of Excellence for VLSI Design with Gujarat Technological University (GTU) and C-DAC - a move to build state-level chip-design capability beyond fabrication and assembly.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Gujarat government\'s Department of Science and Technology, operating through the Gujarat State Electronics Mission (GSEM), has proposed establishing a ChipIN Extension Centre and a Centre of Excellence (CoE) for Very Large Scale Integration (VLSI) Design. The centre will be located at the Gujarat Technological University (GTU) campus and developed in collaboration with the Centre for Development of Advanced Computing (C-DAC). A two-day orientation programme began on 7 August 2026, with more than 30 academic institutions from across Gujarat participating. The initiative aims to give engineering colleges cloud-based access to advanced Electronic Design Automation (EDA) tools - including those from Cadence, Synopsys and Siemens - in a phased manner, alongside expert training on the full semiconductor design workflow.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in Gujarat\'s deliberate move to ascend the semiconductor value chain beyond manufacturing. The state already hosts significant fabrication and assembly investments, including Tata Electronics\' planned fab in Dholera and Micron\'s assembly-and-testing facility in Sanand. By adding chip-design capability, Gujarat is positioning itself to capture higher-value activities in the semiconductor ecosystem, where design IP and architecture development command substantially greater margins than backend assembly and testing.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is instructive. Chip design in India has historically been concentrated in Karnataka (Bengaluru) and Hyderabad, with limited capability development in Gujarat despite its manufacturing base. This initiative addresses a structural gap by providing students and researchers a route to fabrication through the Multi-Project Wafer (MPW) programme, enabling academic chip designs to be converted into physical silicon for testing. This hands-on pathway from design to fabrication is rare in Indian higher education and could stimulate a new generation of semiconductor startups in the state.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether the phased rollout of EDA-tool access reaches a critical mass of engineering colleges, and whether the MPW fabrication pipeline produces commercially viable chip designs from academic institutions. Success will depend on sustained industry engagement, the availability of experienced VLSI professionals as trainers, and the alignment of curricula with industry requirements. If it works, the model could be replicated across other states pursuing semiconductor-ecosystem development under the Semicon 2.0 framework.',
+  type: 'p'
+}],
+  takeaways: ['Gujarat\'s Department of Science and Technology, through GSEM, is establishing a ChipIN Extension Centre and VLSI Design CoE at the GTU campus in collaboration with C-DAC.', 'The centre will provide cloud-based access to advanced EDA tools (Cadence, Synopsys, Siemens) to engineering colleges across Gujarat in a phased manner.', 'Students can have chip designs fabricated through the Multi-Project Wafer (MPW) programme - the full journey from design to physical silicon testing.', 'A two-day orientation programme beginning 7 August 2026 drew more than 30 academic institutions, reflecting broad state-level engagement.'],
+  sources: ['DeshGujarat (07 Aug 2026): https://deshgujarat.com/2026/08/07/gujarat-govt-gtu-c-dac-partner-to-set-up-chipin-centre-of-excellence-in-vlsi-design/', 'ET Government (08 Aug 2026): https://government.economictimes.indiatimes.com/news/technology/gujarat-to-focus-on-chip-design-to-advance-in-semiconductor-value-chain-setting-up-new-facility/133047778']
 }, {
   slug: 'uttar-pradesh-lands-45000-crore-semiconductor-solar-investments',
   no: 'S-044',
@@ -1643,31 +1643,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['India\'s data-centre capacity has risen more than four-fold, from ~375 MW (2020) to ~1,575 MW, on AI/HPC demand (Lok Sabha written reply, 5 August 2026).', 'MoS MeitY Jitin Prasada attributed the growth to AI and the IndiaAI Mission\'s sovereign-compute push, with measures flagged for environmentally sustainable expansion.', 'Principal AI corridors face acute water stress - Bengaluru and Hyderabad are CGWB over-exploited; Chennai has seen Day-Zero conditions.', 'The test is whether new capacity concentrates in water-abundant or renewable-rich corridors, or amplifies stress in the metro clusters.'],
   sources: ['ANI (05 Aug 2026): https://www.aninews.in/news/business/indias-data-centre-capacity-rises-over-four-fold-to-1575-mw-as-ai-demand-accelerates-govt20260805171543/', 'The Tribune (05 Aug 2026): https://www.tribuneindia.com/news/business/indias-data-centre-capacity-rises-over-four-fold-to-1575-mw-as-ai-demand-accelerates-govt/']
 }, {
-  slug: 'msc-flags-off-first-import-rail-shipment-adani-icd-malur-bengaluru',
-  no: 'S-047',
-  title: 'MSC Runs Its First Import Rake Through Adani\'s Malur Inland Terminal',
-  domain: 'Logistics & Mobility',
-  date: '2026-08-12',
-  dateLabel: '12 Aug 2026',
-  status: 'live',
-  excerpt: 'Mediterranean Shipping Company (MSC), the world\'s largest container carrier, has moved its first import shipment as a full train rake through the newly launched Adani ICD Malur near Bengaluru - a milestone for South India\'s shift from port-centric road haulage to rail-led inland terminals.',
-  readingTime: '2 min',
-  body: [{
-  text: 'Mediterranean Shipping Company (MSC), the world\'s largest container carrier, has moved its first import shipment through the newly launched Adani ICD Malur near Bengaluru, arriving as a full train rake of containers - an operational milestone for both MSC and Adani Logistics. The facility sits on the Bengaluru-Chennai railway trunk line, with a dedicated rail siding plus road access via NE7 and NH44; it spans around 30 acres, with a further 21 acres earmarked for expansion, and includes terminal and gate operating systems, real-time control-tower capabilities, warehousing and customs infrastructure.',
-  type: 'p'
-}, {
-  text: 'The strategic significance lies in the shift from port-centric cargo movement towards integrated port-rail-road-inland-terminal networks. Bengaluru\'s manufacturing, automotive, electronics, aerospace and technology base generates substantial import and export demand. A strategically positioned Inland Container Depot (ICD) with direct rail connectivity brings international containerised cargo closer to production centres and reduces dependence on road-based long-haul from distant ports, connecting to gateways including Kattupalli, Ennore, Vizhinjam, Chennai and JNPT through Adani Ports\' multimodal network.',
-  type: 'p'
-}, {
-  text: 'The dependency frame is clear. South India\'s manufacturing clusters have historically depended on road transport from Chennai and Krishnapatnam ports, creating congestion, cost inflation and reliability risk. Adani ICD Malur - at the intersection of Karnataka, Andhra Pradesh and Tamil Nadu - offers a rail-first alternative that consolidates container flows, improves rail utilisation and adds predictability to inland transport. An earlier block-train operation under a Maersk-Volvo Group tie-up (auto parts from Ennore Port) demonstrated the facility\'s potential; MSC\'s entry as a second major carrier validates it as a shared logistics platform.',
-  type: 'p'
-}, {
-  text: 'The test to watch is whether additional global shipping lines follow MSC and Maersk in routing import volumes through Malur. Success depends on achieving enough cargo density to justify regular block-train operations, which in turn lowers per-container cost and improves transit reliability. If Malur establishes itself as a shared multimodal gateway serving multiple carriers and diverse cargo, it could catalyse a broader shift in South India\'s logistics architecture - from port-centric movement towards integrated inland-terminal networks.',
-  type: 'p'
-}],
-  takeaways: ['MSC moved its first import shipment through Adani ICD Malur near Bengaluru as a full train rake of containers.', 'The facility spans around 30 acres (21 more earmarked for expansion) on the Bengaluru-Chennai trunk line, with road access via NE7 and NH44.', 'The milestone follows an earlier Maersk-Volvo Group block train (auto parts from Ennore Port), validating Malur as a shared multimodal platform.', 'Adani ICD Malur serves Bengaluru\'s manufacturing clusters and the wider industrial belt across Karnataka, Andhra Pradesh and Tamil Nadu.'],
-  sources: ['India Shipping News (10 Aug 2026): https://indiashippingnews.com/export/msc-marks-first-import-rail-milestone-at-adani-icd-malur-strengthening-bengalurus-gateway-to-global-trade/', 'Maritime Gateway (10 Aug 2026): https://www.maritimegateway.com/msc-marks-first-import-rail-milestone-at-adani-icd-malur-strengthening-bengalurus-gateway-to-global-trade/']
-}, {
   slug: 'd-propulse-demonstrates-india-first-rotating-detonation-engine-trl5',
   no: 'S-046',
   title: 'D-Propulse Validates India\'s First Indigenous Rotating Detonation Engine at TRL-5',
@@ -1692,6 +1667,31 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['D-Propulse, an IIT Madras-incubated startup, hot-fired India\'s first indigenous 5 kN air-breathing Rotating Detonation Engine (with aerospike nozzle) at DRDO\'s DRDL, Hyderabad.', 'The engine reached Technology Readiness Level 5 (TRL-5), producing 5 kN thrust even under reduced air-mass-flow conditions.', 'The RDE offers 15-25 per cent higher thermodynamic efficiency than conventional air-breathing propulsion, with no moving parts inside the combustor.', 'D-Propulse, chaired by former DRDO chief Dr V. K. Saraswat, targets a flight-ready engine by December 2027 for cruise missiles, target drones and high-speed UAVs.'],
   sources: ['ET Manufacturing (29 Jul 2026): https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/d-propulse-demonstrates-indias-first-indigenous-5-kn-rotating-detonation-engine/132706779', 'India Strategic (2026): https://www.indiastrategic.in/indias-first-indigenous-5-kn-rotating-detonation-engine-validated-at-trl-5-d-propulse-targets-flight-ready-system-by-december-2027/', 'Bharat Shakti (2026): https://bharatshakti.in/private-firm-tests-indigenous-5-kn-rotating-detonation-engine-eyes-prototype-by-2027/']
+}, {
+  slug: 'msc-flags-off-first-import-rail-shipment-adani-icd-malur-bengaluru',
+  no: 'S-047',
+  title: 'MSC Runs Its First Import Rake Through Adani\'s Malur Inland Terminal',
+  domain: 'Logistics & Mobility',
+  date: '2026-08-12',
+  dateLabel: '12 Aug 2026',
+  status: 'live',
+  excerpt: 'Mediterranean Shipping Company (MSC), the world\'s largest container carrier, has moved its first import shipment as a full train rake through the newly launched Adani ICD Malur near Bengaluru - a milestone for South India\'s shift from port-centric road haulage to rail-led inland terminals.',
+  readingTime: '2 min',
+  body: [{
+  text: 'Mediterranean Shipping Company (MSC), the world\'s largest container carrier, has moved its first import shipment through the newly launched Adani ICD Malur near Bengaluru, arriving as a full train rake of containers - an operational milestone for both MSC and Adani Logistics. The facility sits on the Bengaluru-Chennai railway trunk line, with a dedicated rail siding plus road access via NE7 and NH44; it spans around 30 acres, with a further 21 acres earmarked for expansion, and includes terminal and gate operating systems, real-time control-tower capabilities, warehousing and customs infrastructure.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in the shift from port-centric cargo movement towards integrated port-rail-road-inland-terminal networks. Bengaluru\'s manufacturing, automotive, electronics, aerospace and technology base generates substantial import and export demand. A strategically positioned Inland Container Depot (ICD) with direct rail connectivity brings international containerised cargo closer to production centres and reduces dependence on road-based long-haul from distant ports, connecting to gateways including Kattupalli, Ennore, Vizhinjam, Chennai and JNPT through Adani Ports\' multimodal network.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is clear. South India\'s manufacturing clusters have historically depended on road transport from Chennai and Krishnapatnam ports, creating congestion, cost inflation and reliability risk. Adani ICD Malur - at the intersection of Karnataka, Andhra Pradesh and Tamil Nadu - offers a rail-first alternative that consolidates container flows, improves rail utilisation and adds predictability to inland transport. An earlier block-train operation under a Maersk-Volvo Group tie-up (auto parts from Ennore Port) demonstrated the facility\'s potential; MSC\'s entry as a second major carrier validates it as a shared logistics platform.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether additional global shipping lines follow MSC and Maersk in routing import volumes through Malur. Success depends on achieving enough cargo density to justify regular block-train operations, which in turn lowers per-container cost and improves transit reliability. If Malur establishes itself as a shared multimodal gateway serving multiple carriers and diverse cargo, it could catalyse a broader shift in South India\'s logistics architecture - from port-centric movement towards integrated inland-terminal networks.',
+  type: 'p'
+}],
+  takeaways: ['MSC moved its first import shipment through Adani ICD Malur near Bengaluru as a full train rake of containers.', 'The facility spans around 30 acres (21 more earmarked for expansion) on the Bengaluru-Chennai trunk line, with road access via NE7 and NH44.', 'The milestone follows an earlier Maersk-Volvo Group block train (auto parts from Ennore Port), validating Malur as a shared multimodal platform.', 'Adani ICD Malur serves Bengaluru\'s manufacturing clusters and the wider industrial belt across Karnataka, Andhra Pradesh and Tamil Nadu.'],
+  sources: ['India Shipping News (10 Aug 2026): https://indiashippingnews.com/export/msc-marks-first-import-rail-milestone-at-adani-icd-malur-strengthening-bengalurus-gateway-to-global-trade/', 'Maritime Gateway (10 Aug 2026): https://www.maritimegateway.com/msc-marks-first-import-rail-milestone-at-adani-icd-malur-strengthening-bengalurus-gateway-to-global-trade/']
 }, {
   slug: 'indian-navy-issues-rfi-ship-launched-loitering-munition-1000km-range',
   no: 'S-048',
@@ -1792,6 +1792,81 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['BEL proposed a Rs 600+ crore investment (initial outlay Rs 562.5 crore) for a defence manufacturing and MRO unit at the Chitrakoot node of the UP Defence Industrial Corridor.', 'The UP High-Level Empowered Committee, chaired by Chief Secretary S.P. Goyal, approved a Letter of Comfort for the proposal on 11 August 2026.', 'Around 75 hectares of land have already been allotted to BEL at Chitrakoot; the facility will support QRSM, Air Defence Systems and Next Generation Radar Systems.', 'The unit adds MRO and manufacturing depth in Bundelkhand, a region with limited industrial base, and is expected to draw defence MSME suppliers.'],
   sources: ['Drishti IAS (13 Aug 2026): https://www.drishtiias.com/state-pcs-current-affairs/bel-to-set-up-indian-rupee600-crore-defence-manufacturing-unit-in-chitrakoot', 'Dainik Jagran (12 Aug 2026): https://www.jagran.com/uttar-pradesh/lucknow-city-bel-defence-manufacturing-unit-will-be-in-chitrakoot-600-crore-investment-in-up-defence-corridor-40337755.html', 'The Industry Outlook (12 Aug 2026): https://www.theindustryoutlook.com/machinery-and-equipment/news/bel-s-inr-600-crore-bet-could-open-doors-for-defense-msmes-nwid-17964.html']
+}, {
+  slug: 'indian-army-orders-840-one-way-attack-drones-tata-nibe',
+  no: 'S-053',
+  title: 'Indian Army orders 840 one-way attack drones worth Rs 1,577 crore',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-15',
+  dateLabel: '15 Aug 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Defence signed two contracts worth Rs 1,577 crore with Tata Advanced Systems Ltd and Nibe Pvt Ltd on 14 August for 840 loitering munitions capable of striking targets beyond 100 km in jammed and spoofed environments. Delivery is expected within 12 months under the Buy Indian (IDDM) fast-track procedure.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Ministry of Defence signed two contracts on Friday, 14 August 2026, worth Rs 1,577 crore with Tata Advanced Systems Ltd (TASL) and Nibe Pvt Ltd for loitering munitions — one-way attack drones — and associated equipment for the Indian Army. The procurement covers 840 long-range attack drones capable of striking targets at a range exceeding 100 km and operating in environments with dense electronic jamming and GPS spoofing. Tata Advanced Systems will supply 64% of the order (approximately 538 units) and Nibe the remaining 36% (approximately 302 units). The systems are being procured under the Buy Indian (Indigenously Designed, Developed and Manufactured) category through a fast-track procedure, with delivery expected within 12 months of contract signing.',
+  type: 'p'
+}, {
+  text: 'This is the first major order for drones placed under the fast-track procurement procedure, which enables the armed forces to begin receiving supplies within six months of contract signing. The drones were designed to be resistant to jamming and spoofing from takeoff, incorporating lessons learnt during Operation Sindoor. Extensive trials were conducted in deliberately degraded electronic environments, including jamming conditions from the point of launch. The systems are intended to take down enemy artillery positions deep across the border, a role that loitering munitions have proven decisive in the Ukraine-Russia conflict and the West Asia campaigns.',
+  type: 'p'
+}, {
+  text: 'The strategic significance lies in the shift from procurement to volume induction. The Indian Army\'s Technology Roadmap for Unmanned Aerial Systems and Loitering Munitions, unveiled in April 2026, identifies a requirement spanning 80 different types of unmanned systems across roles including intelligence, surveillance and reconnaissance, precision strikes, munition dropping, air defence, jamming, mine warfare, data relay and logistics. The army plans to induct tens of thousands of locally made unmanned aerial systems and loitering munitions over the next five years. This Rs 1,577 crore order is the first concrete step in that volume build-up — the test will be whether subsequent orders follow at the same pace and whether the domestic industrial base can scale to meet the roadmap targets.',
+  type: 'p'
+}, {
+  text: 'The opportunity for defence MSMEs is direct: the split between Tata and Nibe indicates that the government is deliberately cultivating a second and third tier of domestic loitering munition manufacturers rather than concentrating the entire order with a single large prime. Watch for follow-on contracts under the same fast-track procedure, particularly for systems with ranges exceeding 1,500 km that the army is reported to be evaluating.',
+  type: 'p'
+}],
+  takeaways: ['MoD signed contracts worth Rs 1,577 crore on 14 August 2026 with Tata Advanced Systems and Nibe Pvt Ltd', '840 one-way attack drones (loitering munitions) capable of striking targets beyond 100 km range', 'Systems are jamming- and spoofing-resistant from takeoff, incorporating lessons from Operation Sindoor', 'Tata supplies 64% (approx 538 units), Nibe supplies 36% (approx 302 units)', 'First major drone order under fast-track procurement procedure; delivery within 12 months', 'Procured under Buy Indian (IDDM) category; army plans to induct tens of thousands of UAS over next 5 years'],
+  sources: ['The Economic Times (14 August 2026): https://m.economictimes.com/news/defence/indian-army-orders-840-one-way-attack-drones-from-tata-nibe-for-1577-crore/articleshow/133249026.cms', 'Hindustan Times (14 August 2026): https://www.hindustantimes.com/india-news/indian-army-to-get-loitering-munitions-worth-rs-1-577-crore-101786720788685.html', 'India Sentinels (14 August 2026): https://www.indiasentinels.com/defence-ministry/mod/mod-signs-rs-1577-crore-contracts-with-tata-and-nibe-for-loiter-munition-systems-for-the-indian-army-7561']
+}, {
+  slug: 'lt-together-ai-nvidia-b300-ai-factory-chennai',
+  no: 'S-054',
+  title: 'L&T wins Rs 15,000 crore order to build India\'s largest AI factory',
+  domain: 'AI Infrastructure',
+  date: '2026-08-15',
+  dateLabel: '15 Aug 2026',
+  status: 'live',
+  excerpt: 'L&T, through its subsidiary LTN Compute (Vyoma.AI), secured an order worth Rs 10,000–15,000 crore from US-based Together AI to deploy 10,000 NVIDIA B300 GPUs at its Chennai data centre campus — India\'s largest single-cluster AI infrastructure deployment.',
+  readingTime: '2 min',
+  body: [{
+  text: 'Larsen & Toubro announced on Thursday, 13 August 2026, that its AI infrastructure subsidiary LTN Compute — part of the Vyoma.AI business — has secured an order worth Rs 10,000 to 15,000 crore (approximately $1.05 to 1.57 billion) from US-based AI cloud platform Together AI. The order involves deploying 10,000 NVIDIA B300 GPUs at L&T\'s Chennai data centre campus to build India\'s largest single-cluster AI Factory. The AI Factory will power Together AI\'s AI-native cloud platform for large-scale inference, fine-tuning and training workloads. Phase 1 of the Chennai campus is designed for 250 MW of compute capacity with power infrastructure readiness of 150 MVA, and the overall site is gigawatt-scale, providing a foundation for future expansion.',
+  type: 'p'
+}, {
+  text: 'This matters strategically because it marks L&T\'s formal entry into the AI Factory business — a segment where hyperscale compute infrastructure is becoming a foundational industrial asset, akin to power generation or telecommunications networks. NVIDIA\'s B300 ranks among the most powerful chips available for AI inference tasks, and a 10,000-GPU cluster represents the largest such deployment in India. The order positions India as a credible location for global AI infrastructure investment, extending beyond the existing IndiaAI Mission compute deployments to serve international AI innovators.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is twofold. First, the hardware remains entirely dependent on NVIDIA\'s GPU supply chain — the B300 is sourced from TSMC\'s fabrication ecosystem, meaning India\'s AI infrastructure build-out is anchored to the same semiconductor dependency that affects the global industry. Second, the power infrastructure requirement (250 MW Phase 1, gigawatt-scale campus) places enormous demand on Tamil Nadu\'s electricity grid and underscores the criticality of power availability as a constraint on AI infrastructure scaling. The test to watch is whether L&T can secure the necessary power allocation and whether subsequent orders follow from other global AI players seeking capacity in India.',
+  type: 'p'
+}, {
+  text: 'The opportunity for the Indian ecosystem is in the supporting value chain: data centre construction, power equipment, cooling systems, network infrastructure, and AI infrastructure operations. Watch for the timeline to Phase 1 commissioning and whether the Chennai campus attracts additional AI workload customers beyond Together AI.',
+  type: 'p'
+}],
+  takeaways: ['L&T secured order worth Rs 10,000–15,000 crore (up to $1.57 billion) from US-based Together AI', '10,000 NVIDIA B300 GPUs to be deployed at Chennai data centre campus — India\'s largest single-cluster AI infrastructure', 'Phase 1 designed for 250 MW compute capacity with 150 MVA power infrastructure readiness', 'Chennai campus is gigawatt-scale AI infrastructure site, part of L&T\'s Gigawatt AI Infrastructure Mission', 'Order announced 13 August 2026; marks L&T\'s foray into the AI Factory business'],
+  sources: ['Reuters (13 August 2026): https://www.reuters.com/world/india/indias-larsen-toubro-secures-order-build-ai-factory-nvidia-2026-08-13/', 'L&T Press Release (13 August 2026): https://www.larsentoubro.com/pressreleases/2026/2026-08-13-larsen-toubro-secures-mega-order-as-part-of-a-strategic-partnership-with-together-ai-to-build-india-s-largest-nvidia-b300-ai-factory', 'Moneycontrol (13 August 2026): https://www.moneycontrol.com/news/business/l-t-secures-mega-order-for-build-india-s-largest-nvidia-b300-ai-factory-for-together-ai-14004367.html']
+}, {
+  slug: 'vedanta-punnam-manganese-block-andhra-pradesh',
+  no: 'S-055',
+  title: 'Vedanta wins bid for Punnam manganese block in Andhra Pradesh',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-08-15',
+  dateLabel: '15 Aug 2026',
+  status: 'live',
+  excerpt: 'Vedanta Ltd was declared the successful bidder for the Punnam Manganese Block in Andhra Pradesh on 13 August 2026. The block spreads over 152 hectares and is at the G4 stage of exploration. Manganese is critical for ferro-manganese and silico-manganese alloys essential for steel production.',
+  readingTime: '2 min',
+  body: [{
+  text: 'Vedanta Ltd announced on Friday, 14 August 2026, that it has been declared the successful bidder for the Punnam Manganese Block in the state of Andhra Pradesh, following a letter dated 13 August 2026 from the relevant authorities after fulfilling required statutory compliances. The block spreads over 152 hectares and is currently at the G4 stage of exploration — the initial phase of mineral exploration that focuses on broad-scale geological surveys to identify potential mineral deposits. The acquisition was disclosed through a filing to the Bombay Stock Exchange.',
+  type: 'p'
+}, {
+  text: 'This matters strategically because manganese is a critical input for producing ferro-manganese and silico-manganese alloys, which are essential for imparting strength and toughness to steel. India\'s steel industry — the world\'s second largest — is heavily dependent on imported manganese ore. Vedanta stated that the acquisition will contribute to the country\'s growing manganese requirements by enhancing domestic resource availability and reducing dependence on imports.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is significant: India currently imports a substantial share of its manganese requirements, primarily from Gabon, South Africa and Australia. Domestic mining expansion for critical minerals is a priority under India\'s Critical Minerals policy, and this block represents a concrete step in building domestic supply for a material that sits at the intersection of steel manufacturing and battery technology (manganese is a key cathode material in lithium-ion batteries). However, the block is at the G4 exploration stage, meaning commercial extraction is still several years away. The test to watch is whether Vedanta progresses the block through G3, G2 and G1 stages to a mining lease, and whether the broader Andhra Pradesh manganese belt sees additional bids.',
+  type: 'p'
+}, {
+  text: 'The opportunity for downstream users is in securing long-term domestic supply agreements once the block reaches production stage. Watch for the exploration timeline and whether other critical mineral blocks in Andhra Pradesh are awarded in the current auction round.',
+  type: 'p'
+}],
+  takeaways: ['Vedanta Ltd declared successful bidder for Punnam Manganese Block in Andhra Pradesh on 13 August 2026', 'Block spreads over 152 hectares at G4 stage of exploration (initial geological survey phase)', 'Manganese is critical for ferro-manganese and silico-manganese alloys essential for steel production', 'Acquisition aims to reduce India\'s dependence on manganese imports and enhance domestic resource availability', 'Disclosed via BSE filing; statutory compliances fulfilled before bid confirmation'],
+  sources: ['ET Manufacturing (14 August 2026): https://manufacturing.economictimes.indiatimes.com/news/industry/vedanta-emerges-successful-bidder-for-manganese-block-in-andhra-pradesh/133243001', 'Vedanta Ltd BSE Filing (13 August 2026): https://www.bseindia.com/ (via Vedanta official statement)']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
