@@ -31,7 +31,8 @@ First run opens a browser for one-time authorisation. The token is cached in
 Output: `seo-reports/gsc-YYYY-MM-DD.md` - top queries, top pages, CTR
 opportunities (>=100 impressions with CTR <2%), 28-day window.
 
-Optional env: `GSC_SITE` (default `sc-domain:labs.techadyant.com`),
+Optional env: `GSC_SITE` (default: auto-discovered from your Search Console
+properties - handles both URL-prefix and domain properties),
 `GSC_CLIENT_SECRET` (path override).
 
 ## 2. Ahrefs -> `scripts/ahrefs-report.mjs`
