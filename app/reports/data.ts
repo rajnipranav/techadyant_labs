@@ -413,53 +413,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s green-hydrogen industrial reality — the NGHM and SIGHT money, electrolyser manufacturing, iridium/platinum catalysts, PFSA membranes, LCOH, and three 2035 scenarios (Mirage, Muddle, Machine).'
 }
 }, {
-  slug: 'q-day-india',
-  title: 'Q-Day India',
-  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
-  domain: 'Strategic Technology',
-  edition: 'Strategic Risk · 2026 Free Edition',
-  published: '2026-08-02',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 90 min read',
-  status: 'published',
-  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
-  accent: '#38E1C4',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 152,
-  cover: 'https://library.techadyant.com/covers/Techadyant_Labs_QDay_Report.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
-  previewPages: 152,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
-  faq: [{
-  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
-  q: 'What is Q-Day?'
-}, {
-  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
-  q: 'What should Indian organisations do first?'
-}, {
-  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
-  q: 'Why migrate before Q-Day arrives?'
-}, {
-  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
-  q: 'Which sectors are most exposed in India?'
-}],
-  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
-  dateModified: '2026-08-02',
-  seo: {
-  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
-  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
-  schemaType: 'Report',
-  focusKeyword: 'post-quantum cryptography India',
-  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
-}
-}, {
   slug: 'beyond-solar-panels',
   title: 'Beyond Solar Panels',
   subtitle: 'India built the world’s largest solar-deployment machine — but value and vulnerability live upstream of the panel. Mapping the hidden industrial stack: polysilicon, wafers, cells, glass, gases, chemicals and manufacturing equipment.',
@@ -558,6 +511,53 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'india naval autonomous systems market',
   metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.'
+}
+}, {
+  slug: 'q-day-india',
+  title: 'Q-Day India',
+  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
+  domain: 'Strategic Technology',
+  edition: 'Strategic Risk · 2026 Free Edition',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 90 min read',
+  status: 'published',
+  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
+  accent: '#38E1C4',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 152,
+  cover: 'https://library.techadyant.com/covers/Techadyant_Labs_QDay_Report.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
+  previewPages: 152,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
+  faq: [{
+  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
+  q: 'What is Q-Day?'
+}, {
+  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
+  q: 'What should Indian organisations do first?'
+}, {
+  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
+  q: 'Why migrate before Q-Day arrives?'
+}, {
+  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
+  q: 'Which sectors are most exposed in India?'
+}],
+  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
+  dateModified: '2026-08-02',
+  seo: {
+  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
+  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
+  schemaType: 'Report',
+  focusKeyword: 'post-quantum cryptography India',
+  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
 }
 }, {
   slug: 'india-critical-manufacturing-dependencies',
@@ -1217,56 +1217,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'Around 90% of small-drone flight controllers come from China. The market, the silicon, and how India builds a trusted flight-controller and drone-electronics stack.'
 }
 }, {
-  slug: 'india-drone-sensors-payloads-imaging-market',
-  title: 'India Drone Sensors, Payloads & Imaging Systems Market',
-  subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Opportunity · Edition 1 · v1.0',
-  published: '2026-06-16',
-  publishedLabel: 'June 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'A drone is only as capable as what it can sense, and India imports most of that capability. The market for drone sensors, payloads and imaging systems is valued at roughly US$190–210 million in 2026 and modelled to reach US$1.1–1.5 billion by 2035 at a 22–26% CAGR — but 70–80% of high-grade sensor demand is met by imports: LiDAR is about 85% imported, thermal about 80%, and inertial measurement units about 70%, sourced mainly from China, Taiwan and the United States. This report sizes the market segment by segment (sensor type, end-use sector, UAV class, component tier and region), maps the import-dependence and localisation roadmap, profiles the competitive landscape — ideaForge, Eon Space Labs, Garuda Aerospace, BEL and the international suppliers — and runs a ten-year forecast across three scenarios. It tracks the structural shifts now reshaping value capture: the move from discrete sensors to integrated, pre-calibrated payloads, the rise of Drone-as-a-Service and data monetisation over hardware, and indigenous breakthroughs such as Eon Space Labs’ germanium-free thermal imaging that cuts system cost 60–70%. Thirteen chapters, 50 figures, 137 tables, and a full segmentation and forecast model.',
-  accent: '#2BC5B4',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 143,
-  cover: 'https://library.techadyant.com/covers/India-Drone-Sensors-Payloads-Imaging-Market.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
-  previewPages: 6,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
-  faq: [{
-  a: 'About US$190–210 million in 2026, modelled to reach US$1.1–1.5 billion by 2035 — a 22–26% CAGR. LiDAR is the fastest-growing category at over 35% CAGR, driven by infrastructure inspection, mining volumetrics and corridor mapping.',
-  q: 'How big is India’s drone sensors and payloads market?'
-}, {
-  a: 'Heavily. Roughly 70–80% of high-grade drone-sensor demand is imported — about 85% of LiDAR, 80% of thermal cores and 70% of inertial measurement units — sourced mainly from China, Taiwan and the United States. The localisation gap, not the platform, is where the strategic exposure sits.',
-  q: 'How dependent is India on imported drone sensors?'
-}, {
-  a: 'It is an indigenous thermal-imaging approach pioneered by Eon Space Labs that avoids germanium optics, whose 2024 supply crisis brought seven-month lead times and ten-fold cost spikes. The germanium-free architecture lowers system cost by 60–70% and reaches roughly 80% local manufacturing, proving import dependence can be engineered around rather than simply replicated.',
-  q: 'What is germanium-free thermal imaging and why does it matter?'
-}, {
-  a: 'Drone-as-a-Service. Value is shifting from selling hardware to monetising the data the sensors capture, with DaaS margins of 50–65% against hardware margins of 25–35%. Buyers increasingly want actionable intelligence — orthomosaics, point clouds, NDVI layers — not raw sensors.',
-  q: 'Which business model is winning in India’s drone-sensing market?'
-}, {
-  a: 'ideaForge leads on certification and integrated payload ecosystems; Eon Space Labs holds proprietary germanium-free thermal with about 80% localisation; Garuda Aerospace runs the largest agricultural DaaS fleet; and BEL brings defence-PSU radar capability. International suppliers still hold the high-spec LiDAR and thermal cores.',
-  q: 'Who are the leading players in India’s drone sensor and payload market?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['EO/IR sensors', 'LiDAR', 'thermal imaging', 'drone payloads', 'remote sensing', 'gimbals'],
-  metaTitle: 'India Drone Sensors, Payloads & Imaging Systems Market 2026',
-  schemaType: 'Report',
-  focusKeyword: 'India drone sensors market',
-  metaDescription: 'India\'s drone sensor and payload market mapped: EO/IR gimbals, LiDAR, thermal and multispectral imaging, remote-sensing payloads — market structure, import dependence and the localisation opportunity.'
-}
-}, {
   slug: 'the-end-of-the-application-era',
   title: 'Who Captures Computing When the Application Disappears?',
   subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
@@ -1315,6 +1265,56 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'AI agents replacing applications',
   metaDescription: 'As AI agents replace applications as the primary interface to computing, value moves to inference, identity, memory and scheduling. Who captures the post-application stack — and where India stands. Free report.'
+}
+}, {
+  slug: 'india-drone-sensors-payloads-imaging-market',
+  title: 'India Drone Sensors, Payloads & Imaging Systems Market',
+  subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-06-16',
+  publishedLabel: 'June 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'A drone is only as capable as what it can sense, and India imports most of that capability. The market for drone sensors, payloads and imaging systems is valued at roughly US$190–210 million in 2026 and modelled to reach US$1.1–1.5 billion by 2035 at a 22–26% CAGR — but 70–80% of high-grade sensor demand is met by imports: LiDAR is about 85% imported, thermal about 80%, and inertial measurement units about 70%, sourced mainly from China, Taiwan and the United States. This report sizes the market segment by segment (sensor type, end-use sector, UAV class, component tier and region), maps the import-dependence and localisation roadmap, profiles the competitive landscape — ideaForge, Eon Space Labs, Garuda Aerospace, BEL and the international suppliers — and runs a ten-year forecast across three scenarios. It tracks the structural shifts now reshaping value capture: the move from discrete sensors to integrated, pre-calibrated payloads, the rise of Drone-as-a-Service and data monetisation over hardware, and indigenous breakthroughs such as Eon Space Labs’ germanium-free thermal imaging that cuts system cost 60–70%. Thirteen chapters, 50 figures, 137 tables, and a full segmentation and forecast model.',
+  accent: '#2BC5B4',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 143,
+  cover: 'https://library.techadyant.com/covers/India-Drone-Sensors-Payloads-Imaging-Market.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
+  previewPages: 6,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
+  faq: [{
+  a: 'About US$190–210 million in 2026, modelled to reach US$1.1–1.5 billion by 2035 — a 22–26% CAGR. LiDAR is the fastest-growing category at over 35% CAGR, driven by infrastructure inspection, mining volumetrics and corridor mapping.',
+  q: 'How big is India’s drone sensors and payloads market?'
+}, {
+  a: 'Heavily. Roughly 70–80% of high-grade drone-sensor demand is imported — about 85% of LiDAR, 80% of thermal cores and 70% of inertial measurement units — sourced mainly from China, Taiwan and the United States. The localisation gap, not the platform, is where the strategic exposure sits.',
+  q: 'How dependent is India on imported drone sensors?'
+}, {
+  a: 'It is an indigenous thermal-imaging approach pioneered by Eon Space Labs that avoids germanium optics, whose 2024 supply crisis brought seven-month lead times and ten-fold cost spikes. The germanium-free architecture lowers system cost by 60–70% and reaches roughly 80% local manufacturing, proving import dependence can be engineered around rather than simply replicated.',
+  q: 'What is germanium-free thermal imaging and why does it matter?'
+}, {
+  a: 'Drone-as-a-Service. Value is shifting from selling hardware to monetising the data the sensors capture, with DaaS margins of 50–65% against hardware margins of 25–35%. Buyers increasingly want actionable intelligence — orthomosaics, point clouds, NDVI layers — not raw sensors.',
+  q: 'Which business model is winning in India’s drone-sensing market?'
+}, {
+  a: 'ideaForge leads on certification and integrated payload ecosystems; Eon Space Labs holds proprietary germanium-free thermal with about 80% localisation; Garuda Aerospace runs the largest agricultural DaaS fleet; and BEL brings defence-PSU radar capability. International suppliers still hold the high-spec LiDAR and thermal cores.',
+  q: 'Who are the leading players in India’s drone sensor and payload market?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['EO/IR sensors', 'LiDAR', 'thermal imaging', 'drone payloads', 'remote sensing', 'gimbals'],
+  metaTitle: 'India Drone Sensors, Payloads & Imaging Systems Market 2026',
+  schemaType: 'Report',
+  focusKeyword: 'India drone sensors market',
+  metaDescription: 'India\'s drone sensor and payload market mapped: EO/IR gimbals, LiDAR, thermal and multispectral imaging, remote-sensing payloads — market structure, import dependence and the localisation opportunity.'
 }
 }, {
   slug: 'osat-and-the-packaging-frontier',
@@ -1589,51 +1589,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India\'s public and private core systems run on foreign enterprise software. The SAP Question maps the dependence, the risks and the sovereign ERP opportunity. Free full report.'
 }
 }, {
-  slug: 'who-actually-captures-the-india-us-minerals-alliance',
-  title: 'Who Actually Captures the India–US Minerals Alliance?',
-  subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
-  domain: 'Critical Minerals & Strategic Materials',
-  edition: 'Edition 01 · Strategic Intelligence · v1.0',
-  published: '2026-05-30',
-  publishedLabel: 'May 2026',
-  readingTime: '~ 2h 30m read',
-  status: 'published',
-  summary: 'The 26 May 2026 India–US critical-minerals framework is read as a mining deal. It is better understood as a midstream deal: the leverage sits in separation, refining and magnets — roughly 85–92% controlled by China — not in reserves. Using a proprietary four-chokepoint framework, this report scores India sector by sector — semiconductors, electronics, defence, EVs, energy and AI infrastructure — and asks who actually captures the value as the alliance moves from signature to execution.',
-  accent: '#C9A84C',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 125,
-  cover: 'https://library.techadyant.com/covers/who-actually-captures-the-india-us-minerals-alliance.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/who-actually-captures-the-india-us-minerals-alliance-free.pdf',
-  previewPages: 14,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['India US critical minerals', 'critical minerals India', 'rare earth elements India', 'National Critical Mineral Mission', 'rare earth magnets India', 'mineral supply chain India', 'India mineral security', 'critical minerals partnership', 'rare earth processing India', 'lithium supply chain India'],
-  faq: [{
-  a: 'A widening set of agreements aligning Indian and American critical-mineral supply chains — exploration, processing, recycling and magnet manufacturing — as both countries reduce dependence on Chinese processing. The report maps which firms, states and layers of the chain actually capture the value.',
-  q: 'What is the India–US critical minerals partnership?'
-}, {
-  a: 'India\'s National Critical Mineral Mission, approved in January 2025 with an outlay of about ₹34,300 crore over seven years, funds exploration, acquisition of overseas assets, processing capacity and recycling for minerals such as lithium, cobalt and rare earths.',
-  q: 'What is the National Critical Mineral Mission?'
-}, {
-  a: 'India mines some rare earths through IREL but has no commercial sintered NdFeB magnet capacity today. A scheme approved in November 2025 — about ₹6,450 crore in sales-linked incentives plus ₹750 crore in capital subsidy for 6,000 MTPA — aims to create domestic capacity around 2028.',
-  q: 'Does India produce rare earth magnets?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['National Critical Mineral Mission', 'rare earths', 'IREL', 'NdFeB magnets', 'lithium', 'supply chains'],
-  aiSummary: 'Maps the India–US critical minerals alliance from mine to magnet: where processing chokepoints sit, what the National Critical Mineral Mission (₹34,300 crore) and the rare-earth magnet scheme change, and which Indian firms and states are positioned to capture value.',
-  metaTitle: 'India–US Critical Minerals Alliance: Who Captures the Value?',
-  schemaType: 'Report',
-  focusKeyword: 'India US critical minerals',
-  metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
-}
-}, {
   slug: 'india-battlefield-automation-gap',
   title: 'India’s Battlefield Automation Gap',
   subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
@@ -1677,6 +1632,51 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'battlefield automation India',
   metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
+}
+}, {
+  slug: 'who-actually-captures-the-india-us-minerals-alliance',
+  title: 'Who Actually Captures the India–US Minerals Alliance?',
+  subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
+  domain: 'Critical Minerals & Strategic Materials',
+  edition: 'Edition 01 · Strategic Intelligence · v1.0',
+  published: '2026-05-30',
+  publishedLabel: 'May 2026',
+  readingTime: '~ 2h 30m read',
+  status: 'published',
+  summary: 'The 26 May 2026 India–US critical-minerals framework is read as a mining deal. It is better understood as a midstream deal: the leverage sits in separation, refining and magnets — roughly 85–92% controlled by China — not in reserves. Using a proprietary four-chokepoint framework, this report scores India sector by sector — semiconductors, electronics, defence, EVs, energy and AI infrastructure — and asks who actually captures the value as the alliance moves from signature to execution.',
+  accent: '#C9A84C',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 125,
+  cover: 'https://library.techadyant.com/covers/who-actually-captures-the-india-us-minerals-alliance.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/who-actually-captures-the-india-us-minerals-alliance-free.pdf',
+  previewPages: 14,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['India US critical minerals', 'critical minerals India', 'rare earth elements India', 'National Critical Mineral Mission', 'rare earth magnets India', 'mineral supply chain India', 'India mineral security', 'critical minerals partnership', 'rare earth processing India', 'lithium supply chain India'],
+  faq: [{
+  a: 'A widening set of agreements aligning Indian and American critical-mineral supply chains — exploration, processing, recycling and magnet manufacturing — as both countries reduce dependence on Chinese processing. The report maps which firms, states and layers of the chain actually capture the value.',
+  q: 'What is the India–US critical minerals partnership?'
+}, {
+  a: 'India\'s National Critical Mineral Mission, approved in January 2025 with an outlay of about ₹34,300 crore over seven years, funds exploration, acquisition of overseas assets, processing capacity and recycling for minerals such as lithium, cobalt and rare earths.',
+  q: 'What is the National Critical Mineral Mission?'
+}, {
+  a: 'India mines some rare earths through IREL but has no commercial sintered NdFeB magnet capacity today. A scheme approved in November 2025 — about ₹6,450 crore in sales-linked incentives plus ₹750 crore in capital subsidy for 6,000 MTPA — aims to create domestic capacity around 2028.',
+  q: 'Does India produce rare earth magnets?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['National Critical Mineral Mission', 'rare earths', 'IREL', 'NdFeB magnets', 'lithium', 'supply chains'],
+  aiSummary: 'Maps the India–US critical minerals alliance from mine to magnet: where processing chokepoints sit, what the National Critical Mineral Mission (₹34,300 crore) and the rare-earth magnet scheme change, and which Indian firms and states are positioned to capture value.',
+  metaTitle: 'India–US Critical Minerals Alliance: Who Captures the Value?',
+  schemaType: 'Report',
+  focusKeyword: 'India US critical minerals',
+  metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
 }
 }, {
   slug: 'india-ai-industrial-transition-2026-2035',
@@ -1724,10 +1724,10 @@ export const reports: ReportMeta[] = [{
   seo: {
   entities: ['IndiaAI Mission', 'India Semiconductor Mission', 'data centres', 'GPUs', 'NVIDIA', 'hyperscalers', 'Dholera', 'Bengaluru'],
   aiSummary: 'A baseline architecture for India\'s 2026–2035 AI industrial transition: data-centre capacity growing from ~1.5 GW towards 9 GW, the IndiaAI Mission\'s 34,000+ subsidised GPUs, the GPU import-dependency stack, grid stress rising from ~13 TWh to ~57 TWh, water and cooling constraints, and seven regional AI opportunity corridors across Karnataka, Telangana, Tamil Nadu, Maharashtra, Gujarat, UP/NCR and Andhra Pradesh. Free to read in full.',
-  metaTitle: 'India AI Infrastructure 2026–2035: Data Centres, GPUs, Power',
+  metaTitle: 'India\'s AI Industrial Transition & Infrastructure Transformation',
   schemaType: 'Report',
   focusKeyword: 'India AI infrastructure',
-  metaDescription: 'India\'s AI build-out mapped as industrial infrastructure: data-centre capacity from ~1.5 GW towards 9 GW, IndiaAI Mission GPUs, grid and water stress, and seven regional AI corridors. Free full-length report.'
+  metaDescription: 'India\'s 2026-2035 AI industrial transition mapped: ten anchor numbers, six theses, compute and semiconductor build-out, power and water constraints across seven corridors.'
 }
 }, {
   slug: 'india-fab-ecosystem',
