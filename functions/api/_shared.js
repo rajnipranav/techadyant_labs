@@ -215,6 +215,17 @@ export const REPORTS = {
     dataObject: 'data/IAF_Autonomous_Air_Power_Data_Workbook.xlsx',
     dataFilename: 'IAF-Autonomous-Air-Power-Data-Pack-Techadyant-Labs.xlsx',
   },
+  'beyond-sea-drones-india-autonomous-maritime-systems': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'Techadyant_BeyondSeaDrones_Report.pdf',
+    filename: 'Beyond-Sea-Drones-Indias-Autonomous-Maritime-Systems-2026-2035-Techadyant-Labs.pdf',
+    title: 'Beyond Sea Drones: India\u2019s Autonomous Maritime Systems Ecosystem 2026\u20132035',
+    // Report + Data tier
+    priceWithDataInr: 9999,
+    dataObject: 'data/Techadyant_BeyondSeaDrones_Workbook.xlsx',
+    dataFilename: 'Beyond-Sea-Drones-Data-Pack-Techadyant-Labs.xlsx',
+  },
 };
 
 
