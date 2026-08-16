@@ -85,7 +85,7 @@ export default function CorridorsIndex() {
                 <span><i style={{ background: CLASS_COLOR.buildout }} />{CLASS_LABEL.buildout}</span>
                 <span><i style={{ background: CLASS_COLOR.planned }} />{CLASS_LABEL.planned}</span>
               </div>
-              <StateFilter corridors={corridors} shortName={shortName} />
+              <StateFilter corridors={corridors} />
             </div>
             <div>
               <CorridorMap navigate />

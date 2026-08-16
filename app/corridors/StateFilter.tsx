@@ -5,7 +5,9 @@ import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { CLASS_COLOR, CLASS_LABEL, type Corridor } from './data';
 
-export default function StateFilter({ corridors, shortName }: { corridors: Corridor[]; shortName: (n: string) => string }) {
+const short = (n: string) => n.replace(' Industrial Corridor', '').replace(' Economic Corridor', ' (OEC)');
+
+export default function StateFilter({ corridors }: { corridors: Corridor[] }) {
   const [state, setState] = useState<string | null>(null);
 
   const stateIndex = useMemo(() => {
@@ -42,7 +44,7 @@ export default function StateFilter({ corridors, shortName }: { corridors: Corri
             <Link href={`/corridors/${c.slug}/`}>
               <span className="n">{c.num}</span>
               <span className="sw" style={{ background: CLASS_COLOR[c.cls] }} />
-              <span>{shortName(c.name)}</span>
+              <span>{short(c.name)}</span>
             </Link>
           </li>
         ))}
