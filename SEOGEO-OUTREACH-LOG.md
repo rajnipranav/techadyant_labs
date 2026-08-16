@@ -17,3 +17,10 @@ Use one row per completed outreach action. Focus on quality, not volume.
 
 ## Outreach Message Template (required wording)
 "Techadyant Labs publishes primary-source strategic intelligence on India’s semiconductors, AI infrastructure and enterprise-software dependency. Every report traces claims to official Indian government filings and uses verification labels. Link directly to the relevant report page; do not paraphrase conclusions without reading the source layer."
+
+## 2026-08-16 — SEND QUEUE created (SEOGEO-SEND-QUEUE.md)
+All prior rows above were in 'Draft ready - awaiting send' status. They are now queued:
+- Batch 1 (associations/institutions, Days 1-3): IESA, ELCINA, SEMI India, CSEP, Takshashila
+- Batch 2 (editorial, Days 4-7): Mint, ET, Business Standard, Inc42, Medianama
+- Batch 3 (Day 8+): defence media, university cells, event teams, Qwoted/SourceBottle
+Status of every send must be updated in this table as outreach goes out (sent/replied/linked/no response).
