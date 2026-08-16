@@ -31,7 +31,6 @@ export default async function ThemeHub({ params }: { params: Promise<{ theme: st
 
   const all = reportsByTheme(t.slug);
   const published = all.filter((r) => r.status === 'published');
-  const forthcoming = all.filter((r) => r.status === 'forthcoming');
   const relatedSignals: any[] = signals.filter(
     (s) => s.status !== 'placeholder' && themeSlug(s.domain) === t.slug,
   );
@@ -70,7 +69,7 @@ export default async function ThemeHub({ params }: { params: Promise<{ theme: st
           <h1>{t.domain}</h1>
           <p className="lede">
             Techadyant Labs research on {t.domain.toLowerCase()} in India — the dependencies, constraints and
-            opportunity surfaces that decide the real outcome. {published.length} published · {forthcoming.length} forthcoming.
+            opportunity surfaces that decide the real outcome. {published.length} published reports.
           </p>
         </div>
       </header>
@@ -105,27 +104,6 @@ export default async function ThemeHub({ params }: { params: Promise<{ theme: st
           </>
         )}
 
-        {forthcoming.length > 0 && (
-          <>
-            <div className="ed-kicker" style={{ margin: '56px 0 28px' }}>Forthcoming</div>
-            <div className="report-cards">
-              {forthcoming.map((r) => (
-                <div key={r.slug} className="report-card is-forthcoming">
-                  <div className="rc-cover-top">
-                    <ReportCover report={r} variant="card" />
-                    <span className="report-card-badge badge-soon">Forthcoming</span>
-                  </div>
-                  <div className="report-card-body">
-                    <span className="report-card-domain">{r.domain}</span>
-                    <h3>{r.title}</h3>
-                    <span className="rc-card-sub">{r.subtitle}</span>
-                    <p className="rc-card-summary">{r.summary}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </>
-        )}
 
         {relatedSignals.length > 0 && (
           <>

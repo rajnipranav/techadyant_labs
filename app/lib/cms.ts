@@ -16,7 +16,7 @@ export type CmsReport = {
   published: string;
   published_label: string;
   reading_time: string;
-  status: 'published' | 'forthcoming';
+  status: 'published' | 'forthcoming' | 'draft';
   summary: string;
   accent: string;
   access: 'free' | 'paid';
@@ -64,7 +64,7 @@ export type CmsBriefing = {
   title: string;
   summary: string;
   published: string;
-  status: 'published' | 'forthcoming';
+  status: 'published' | 'forthcoming' | 'draft';
   accent: string;
   seo: Record<string, any>;
 };

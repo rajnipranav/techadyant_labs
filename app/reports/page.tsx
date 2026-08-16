@@ -64,7 +64,6 @@ export default async function ReportsIndex() {
   } catch {}
 
   const published = reports.filter((r) => r.status === 'published');
-  const forthcoming = reports.filter((r) => r.status === 'forthcoming');
 
   return (
     <>
@@ -118,28 +117,6 @@ export default async function ReportsIndex() {
         </div>
 
         <ReportsBrowser initialData={published} />
-
-        <div className="ed-kicker" style={{ margin: '56px 0 28px' }}>Forthcoming</div>
-        <div className="report-cards">
-          {forthcoming.map((r) => (
-            <div key={r.slug} className="report-card is-forthcoming">
-              <div className="rc-cover-top">
-                <ReportCover report={r} variant="card" />
-                <span className="report-card-badge badge-soon">Forthcoming</span>
-              </div>
-              <div className="report-card-body">
-                <span className="report-card-domain">{r.domain}</span>
-                <h3>{r.title}</h3>
-                <span className="rc-card-sub">{r.subtitle}</span>
-                <p className="rc-card-summary">{r.summary}</p>
-                <div className="report-card-foot">
-                  <span className="report-card-price">{formatPrice(r)}</span>
-                  <span className="report-card-cta" style={{ color: 'var(--text-dim)' }}>{r.readingTime}</span>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
 
         <div style={{ margin: '64px auto 8px', maxWidth: 620 }}>
           <div className="ed-kicker" style={{ marginBottom: 12 }}>Didn&rsquo;t find what you were looking for?</div>
