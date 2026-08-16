@@ -1,4 +1,4 @@
-<svg viewBox="0 0 1000 300" role="img" aria-label="Dependency Index composite risk ranking">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="Dependency Index composite risk ranking">
     <g font-family="Inter, Arial">
     <g font-size="10.5" fill="#f1f5f9" text-anchor="end">
       <text x="185" y="52">AI compute silicon</text><text x="185" y="94">Battery cells</text><text x="185" y="136">Encryption chips</text><text x="185" y="178">Strategic-grade INS</text><text x="185" y="220">PMN-PT transducers</text><text x="185" y="262">Pressure-hull materials</text>
