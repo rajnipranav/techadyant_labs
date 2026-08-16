@@ -13,6 +13,7 @@ import droneAtlas from './research/_drones.json';
 import cuasAtlas from './research/_cuas.json';
 import aerospaceAtlas from './research/_aerospace.json';
 import { products as depProducts, sectors as depSectors, states as depStates } from './dependencies/data';
+import { EXEC_SUMMARIES } from './reports/executive-summaries/registry';
 
 // The project uses `output: 'export'` for Cloudflare Pages static deploy;
 // route handlers must be marked static so they're generated at build time.
@@ -93,6 +94,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((r) => r.status === 'published')
     .map((r) => ({
       url: `${SITE}/reports/${r.slug}/`,
+    ...Object.keys(EXEC_SUMMARIES).map((slug) => ({
+      url: `${SITE}/reports/${slug}/executive-summary/`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    })),
       lastModified: new Date(r.published),
       changeFrequency: 'monthly' as const,
       priority: r.access === 'free' ? 0.95 : 0.85,
@@ -199,7 +206,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ].map((s) => `${SITE}/research/players/${s}/`),
   );
 
-  const allRoutes = [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes, ...cuasRoutes, ...aerospaceRoutes, ...depRoutes];
+  const allRoutes = [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...execSummaryRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes, ...cuasRoutes, ...aerospaceRoutes, ...depRoutes];
 
   return allRoutes.filter((r) => !RETIRED_PLAYER_PATHS.has(r.url as string));
 }

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 1000 250" role="img" aria-label="Techadyant Strategic Chain: maritime threat to 2035 industrial outcome">
+    <g font-family="Inter, Arial">
+    <g font-size="10.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">
+      <rect x="10" y="30" width="128" height="74" rx="8" fill="#1a2332" stroke="#3b82f6" stroke-width="1.5"/><text x="74" y="58">MARITIME</text><text x="74" y="72">THREAT</text><text x="74" y="92" font-size="8.5" font-weight="400" fill="#cbd5e1">PLAN 4–6 IOR incursions/yr</text>
+      <rect x="152" y="30" width="128" height="74" rx="8" fill="#1a2332" stroke="#3b82f6" stroke-width="1.5"/><text x="216" y="58">MDA</text><text x="216" y="72">GAP</text><text x="216" y="92" font-size="8.5" font-weight="400" fill="#cbd5e1">30–40% of requirement</text>
+      <rect x="294" y="30" width="128" height="74" rx="8" fill="#1a2332" stroke="#3b82f6" stroke-width="1.5"/><text x="358" y="58">AUTONOMY</text><text x="358" y="72">DEMAND</text><text x="358" y="92" font-size="8.5" font-weight="400" fill="#cbd5e1">persistence · scale · risk</text>
+      <rect x="436" y="30" width="128" height="74" rx="8" fill="#1a2332" stroke="#3b82f6" stroke-width="1.5"/><text x="500" y="58">PROGRAMME</text><text x="500" y="72">PIPELINE</text><text x="500" y="92" font-size="8.5" font-weight="400" fill="#cbd5e1">14 programmes · ₹9,000 cr</text>
+      <rect x="578" y="30" width="128" height="74" rx="8" fill="#1a2332" stroke="#3b82f6" stroke-width="1.5"/><text x="642" y="58">INDUSTRIAL</text><text x="642" y="72">ECOSYSTEM</text><text x="642" y="92" font-size="8.5" font-weight="400" fill="#cbd5e1">8 clusters · demand-anchored</text>
+      <rect x="720" y="30" width="128" height="74" rx="8" fill="#1a2332" stroke="#f59e0b" stroke-width="1.5"/><text x="784" y="58">SUBSYSTEM</text><text x="784" y="72">INDIGENISATION</text><text x="784" y="92" font-size="8.5" font-weight="400" fill="#f59e0b">15–70% today</text>
+      <rect x="862" y="30" width="128" height="74" rx="8" fill="#3b82f6"/><text x="926" y="58">2035</text><text x="926" y="72">OUTCOME</text><text x="926" y="92" font-size="8.5" font-weight="400" fill="#f1f5f9">₹55,000 cr · rank 6</text>
+    </g>
+    <g fill="#94a3b8"><path d="M138 62 l10 5 -10 5z"/><path d="M280 62 l10 5 -10 5z"/><path d="M422 62 l10 5 -10 5z"/><path d="M564 62 l10 5 -10 5z"/><path d="M706 62 l10 5 -10 5z"/><path d="M848 62 l10 5 -10 5z"/></g>
+    <text x="10" y="126" font-size="10.5" fill="#ef4444" font-weight="700">CASCADE RISK — failure at any layer cascades upward; today the weakest link is subsystem indigenisation.</text>
+    <rect x="10" y="140" width="980" height="70" rx="8" fill="#151f2e" stroke="#f59e0b" stroke-width="1"/>
+    <text x="26" y="166" font-size="11" font-weight="700" fill="#f59e0b">CENTRAL THESIS</text>
+    <text x="26" y="186" font-size="10.5" fill="#f1f5f9">The opportunity is subsystems, software, industrialisation and supply chain — not platforms. Value is captured by those who control the subsystems;</text>
+    <text x="26" y="200" font-size="10.5" fill="#cbd5e1">India's strategic and commercial value capture depends on subsystem indigenisation, not platform indigenisation.</text>
+    </g>
+  </svg>

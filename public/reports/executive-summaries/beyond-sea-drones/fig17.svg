@@ -1,0 +1,16 @@
+<svg viewBox="0 0 1000 340" role="img" aria-label="Readiness by dimension: India versus United States and China">
+    <g font-family="Inter, Arial">
+    <g stroke="rgba(255,255,255,.08)"><line x1="40" y1="60" x2="960" y2="60"/><line x1="40" y1="120" x2="960" y2="120"/><line x1="40" y1="180" x2="960" y2="180"/><line x1="40" y1="240" x2="960" y2="240"/></g>
+    <line x1="40" y1="300" x2="960" y2="300" stroke="#94a3b8"/>
+    <g font-size="9" fill="#94a3b8" text-anchor="end"><text x="34" y="64">10</text><text x="34" y="124">8</text><text x="34" y="184">6</text><text x="34" y="244">4</text><text x="34" y="304">0</text></g>
+    <g><rect x="60" y="84" width="26" height="216" fill="#3b82f6"/><rect x="90" y="84" width="26" height="216" fill="#ef4444"/><rect x="120" y="180" width="26" height="120" fill="#f59e0b"/><text x="103" y="318" font-size="10" fill="#cbd5e1" text-anchor="middle">Platforms</text></g>
+    <g><rect x="215" y="84" width="26" height="216" fill="#3b82f6"/><rect x="245" y="108" width="26" height="192" fill="#ef4444"/><rect x="275" y="156" width="26" height="144" fill="#f59e0b"/><text x="258" y="318" font-size="10" fill="#cbd5e1" text-anchor="middle">Sensors</text></g>
+    <g><rect x="370" y="84" width="26" height="216" fill="#3b82f6"/><rect x="400" y="108" width="26" height="192" fill="#ef4444"/><rect x="430" y="180" width="26" height="120" fill="#f59e0b"/><text x="413" y="318" font-size="10" fill="#cbd5e1" text-anchor="middle">AI</text></g>
+    <g><rect x="525" y="84" width="26" height="216" fill="#3b82f6"/><rect x="555" y="84" width="26" height="216" fill="#ef4444"/><rect x="585" y="180" width="26" height="120" fill="#f59e0b"/><text x="568" y="318" font-size="10" fill="#cbd5e1" text-anchor="middle">Industrial base</text></g>
+    <g><rect x="680" y="132" width="26" height="168" fill="#3b82f6"/><rect x="710" y="84" width="26" height="216" fill="#ef4444"/><rect x="740" y="228" width="26" height="72" fill="#f59e0b"/><text x="723" y="318" font-size="10" fill="#cbd5e1" text-anchor="middle">Exports</text></g>
+    <g><rect x="835" y="84" width="26" height="216" fill="#3b82f6"/><rect x="865" y="108" width="26" height="192" fill="#ef4444"/><rect x="895" y="204" width="26" height="96" fill="#f59e0b"/><text x="878" y="318" font-size="10" fill="#cbd5e1" text-anchor="middle">Policy</text></g>
+    <rect x="600" y="20" width="14" height="10" fill="#3b82f6"/><text x="620" y="29" font-size="10" fill="#cbd5e1">United States (8.7)</text>
+    <rect x="720" y="20" width="14" height="10" fill="#ef4444"/><text x="740" y="29" font-size="10" fill="#cbd5e1">China (8.3)</text>
+    <rect x="810" y="20" width="14" height="10" fill="#f59e0b"/><text x="830" y="29" font-size="10" fill="#cbd5e1">India (4.5, rank 9)</text>
+    </g>
+  </svg>

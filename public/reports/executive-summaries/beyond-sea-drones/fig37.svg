@@ -1,0 +1,22 @@
+<svg viewBox="0 0 1000 300" role="img" aria-label="Dependency Index composite risk ranking">
+    <g font-family="Inter, Arial">
+    <g font-size="10.5" fill="#f1f5f9" text-anchor="end">
+      <text x="185" y="52">AI compute silicon</text><text x="185" y="94">Battery cells</text><text x="185" y="136">Encryption chips</text><text x="185" y="178">Strategic-grade INS</text><text x="185" y="220">PMN-PT transducers</text><text x="185" y="262">Pressure-hull materials</text>
+    </g>
+    <rect x="195" y="38" width="665" height="20" fill="#ef4444"/>
+    <rect x="195" y="80" width="630" height="20" fill="#ef4444"/>
+    <rect x="195" y="122" width="595" height="20" fill="#f97316"/>
+    <rect x="195" y="164" width="560" height="20" fill="#f97316"/>
+    <rect x="195" y="206" width="560" height="20" fill="#f97316"/>
+    <rect x="195" y="248" width="525" height="20" fill="#f59e0b"/>
+    <g font-size="10" font-weight="700">
+      <text x="868" y="52" fill="#ef4444">9.5 · 15% indig · 80% China</text>
+      <text x="833" y="94" fill="#ef4444">9.0 · 35% · 75%</text>
+      <text x="798" y="136" fill="#f97316">8.5 · 45% · 75%</text>
+      <text x="763" y="178" fill="#f97316">8.0 · 40% · 30%</text>
+      <text x="763" y="220" fill="#f97316">8.0 · 0% · 60%</text>
+      <text x="728" y="262" fill="#f59e0b">7.5 · 35% · 55%</text>
+    </g>
+    <text x="195" y="292" font-size="9.5" fill="#94a3b8">Composite risk = (criticality × concentration × China exposure) ÷ (11 − substitution time). China is principal supplier in 8 of 11 classes [Ch 20].</text>
+    </g>
+  </svg>

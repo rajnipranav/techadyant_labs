@@ -1,0 +1,22 @@
+<svg viewBox="0 0 1000 320" role="img" aria-label="Three scenarios: 11,500, 35,000 and 55,000 crore by 2035">
+    <g font-family="Inter, Arial">
+    <g stroke="rgba(255,255,255,.08)"><line x1="60" y1="40" x2="940" y2="40"/><line x1="60" y1="120" x2="940" y2="120"/><line x1="60" y1="200" x2="940" y2="200"/></g>
+    <line x1="60" y1="280" x2="940" y2="280" stroke="#94a3b8"/>
+    <rect x="150" y="230" width="140" height="50" fill="#64748b"/>
+    <rect x="450" y="127" width="140" height="153" fill="#3b82f6"/>
+    <rect x="750" y="40" width="140" height="240" fill="#14b8a6"/>
+    <g font-size="12" font-weight="700" text-anchor="middle">
+      <text x="220" y="220" fill="#cbd5e1">₹11,500 cr</text>
+      <text x="520" y="117" fill="#f1f5f9">₹35,000 cr</text>
+      <text x="820" y="30" fill="#f1f5f9">₹55,000 cr</text>
+    </g>
+    <g font-size="10" fill="#94a3b8" text-anchor="middle">
+      <text x="220" y="300">Constrained · 18% CAGR · 25%</text>
+      <text x="520" y="300">Baseline · 42% CAGR · 50%</text>
+      <text x="820" y="300">Accelerated · 55% CAGR · 25%</text>
+    </g>
+    <line x1="595" y1="127" x2="745" y2="127" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="670" y="117" font-size="10" fill="#f59e0b" text-anchor="middle" font-weight="700">₹20,000 cr recoverable gap</text>
+    <text x="60" y="316" font-size="9.5" fill="#94a3b8">Constrained: 50 startups · 12,000 FTEs · 45% indigenous. Accelerated: 140+ startups · 38,000 FTEs · 78% indigenous · rank 6 [◆★ IN-003].</text>
+    </g>
+  </svg>

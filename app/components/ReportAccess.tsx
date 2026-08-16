@@ -1,6 +1,7 @@
 'use client';
 
 import { useReportCommerce } from './ReportCommerce';
+import { hasExecutiveSummary } from '../reports/executive-summaries/registry';
 
 interface Props {
   pages?: number;
@@ -12,7 +13,7 @@ interface Props {
 
 /** Top-of-report access panel. Renders inside ReportCommerceProvider. */
 export function ReportAccess({ pages, readingTime, previewObject, previewPages, deckLabel }: Props) {
-  const { access, priceLabel, entitled, checking, busy, message, purchase, download, downloadDeck,
+  const { slug, access, priceLabel, entitled, checking, busy, message, purchase, download, downloadDeck,
     hasData, dataPriceLabel, dataEntitled, downloadData } = useReportCommerce();
 
   const meta = [pages ? `${pages}-page PDF` : null, readingTime, 'Figures & citations included']
@@ -100,7 +101,16 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages, 
         </>
       )}
 
-      {previewHref && (
+      {slug && hasExecutiveSummary(slug) ? (
+        <div className="ra-preview">
+          <a className="btn-ed btn-ed-ghost ra-preview-btn" href={`/reports/${slug}/executive-summary/`}>
+            Free executive summary <span className="arr">→</span>
+          </a>
+          <p className="ra-fine ra-preview-fine">
+            Free condensed edition — the thesis, the framework and the headline findings, with figures. Read online; subscribe to download the PDF.
+          </p>
+        </div>
+      ) : previewHref ? (
         <div className="ra-preview">
           <a className="btn-ed btn-ed-ghost ra-preview-btn" href={previewHref} target="_blank" rel="noopener" download>
             {previewLabel} <span className="arr">↓</span>
@@ -109,7 +119,7 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages, 
             Free condensed edition — the thesis, the framework and the headline findings, with figures. No signup required.
           </p>
         </div>
-      )}
+      ) : null}
 
       {message && (
         <p className={`ra-msg ${message.kind === 'error' ? 'ra-msg-error' : ''}`} role="status">{message.text}</p>
