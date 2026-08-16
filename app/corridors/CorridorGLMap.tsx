@@ -3,7 +3,8 @@
 // Interactive MapLibre GL map of the 11 corridors + their deep nodes.
 // Data is passed in from the server (built by corridor-geojson.ts from the authoritative
 // modules), so node-data.ts never enters the client bundle — only the small GeoJSON does.
-// Free tiles: OpenFreeMap (no API key). maplibre-gl is imported inside the effect so it
+// Satellite GIS basemap (Esri World Imagery + reference labels; free tiles, no API key).
+// maplibre-gl is imported inside the effect so it
 // never runs during SSR / static export.
 //
 // Modes:
@@ -51,7 +52,27 @@ export default function CorridorGLMap({ corridors, nodes, focus, focusNode, comp
       if (cancelled || !ref.current) return;
       map = new maplibregl.Map({
         container: ref.current,
-        style: 'https://tiles.openfreemap.org/styles/positron',
+        style: {
+          version: 8,
+          sources: {
+            sat: {
+              type: 'raster',
+              tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
+              tileSize: 256,
+              attribution: 'Imagery © Esri, Maxar, Earthstar Geographics',
+            },
+            ref: {
+              type: 'raster',
+              tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}'],
+              tileSize: 256,
+              attribution: '© Esri',
+            },
+          },
+          layers: [
+            { id: 'sat', type: 'raster', source: 'sat' },
+            { id: 'ref', type: 'raster', source: 'ref' },
+          ],
+        },
         center: [81, 22.5],
         zoom: 3.7,
         minZoom: 3,
@@ -60,7 +81,7 @@ export default function CorridorGLMap({ corridors, nodes, focus, focusNode, comp
       });
       mapRef.current = map;
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
-      map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: '© OpenFreeMap · © OpenStreetMap contributors' }));
+      map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Satellite © Esri, Maxar, Earthstar Geographics' }));
 
       // Keep the map correct on resize / mobile rotation (MapLibre needs an explicit resize()).
       const ro = new ResizeObserver(() => { if (mapRef.current) mapRef.current.resize(); });
@@ -72,22 +93,27 @@ export default function CorridorGLMap({ corridors, nodes, focus, focusNode, comp
         map.addSource('nodes', { type: 'geojson', data: nodes });
 
         map.addLayer({
+          id: 'corridor-casing', type: 'line', source: 'corridors',
+          layout: { 'line-cap': 'round', 'line-join': 'round' },
+          paint: { 'line-color': '#ffffff', 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 4, 8, 6.5], 'line-opacity': 0.4 },
+        });
+        map.addLayer({
           id: 'corridor-lines', type: 'line', source: 'corridors',
           layout: { 'line-cap': 'round', 'line-join': 'round' },
-          paint: { 'line-color': ['get', 'color'], 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 2, 8, 4], 'line-opacity': 0.85 },
+          paint: { 'line-color': ['get', 'color'], 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 2, 8, 4], 'line-opacity': 0.95 },
         });
         map.addLayer({
           id: 'node-points', type: 'circle', source: 'nodes',
           paint: {
             'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 4, 8, 9],
             'circle-color': ['get', 'stageColor'],
-            'circle-stroke-width': 1.5, 'circle-stroke-color': '#ffffff',
+            'circle-stroke-width': 2, 'circle-stroke-color': '#ffffff',
           },
         });
         map.addLayer({
           id: 'node-labels', type: 'symbol', source: 'nodes', minzoom: focus ? 5 : 5.5,
           layout: { 'text-field': ['get', 'name'], 'text-size': 11, 'text-offset': [0, 1.1], 'text-anchor': 'top' },
-          paint: { 'text-color': '#1a2b45', 'text-halo-color': '#ffffff', 'text-halo-width': 1.2 },
+          paint: { 'text-color': '#ffffff', 'text-halo-color': '#1a2b45', 'text-halo-width': 1.8 },
         });
         // highlight ring for the focused node
         if (focusNode) {
@@ -122,6 +148,7 @@ export default function CorridorGLMap({ corridors, nodes, focus, focusNode, comp
 
         // ── focus mode: isolate one corridor + fit ──
         if (focus) {
+          map.setFilter('corridor-casing', ['==', ['get', 'slug'], focus]);
           map.setFilter('corridor-lines', ['==', ['get', 'slug'], focus]);
           map.setFilter('node-points', ['==', ['get', 'corridor'], focus]);
           map.setFilter('node-labels', ['==', ['get', 'corridor'], focus]);
@@ -151,7 +178,7 @@ export default function CorridorGLMap({ corridors, nodes, focus, focusNode, comp
     const map = mapRef.current;
     if (!map || !ready) return;
     const f = tier === 'all' ? null : (['==', ['get', 'tier'], tier] as unknown);
-    ['corridor-lines', 'node-points', 'node-labels'].forEach((id) => {
+    ['corridor-casing', 'corridor-lines', 'node-points', 'node-labels'].forEach((id) => {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       if (map.getLayer(id)) map.setFilter(id, f as any);
     });
@@ -179,7 +206,7 @@ export default function CorridorGLMap({ corridors, nodes, focus, focusNode, comp
         </span>
       </div>
       <div ref={ref} className="cgl-map" aria-label="Interactive map of India’s national industrial corridors" />
-      <p className="cgl-note">Click a corridor or node to open its dossier. Node positions are centroid-approximate. Base map © OpenFreeMap · © OpenStreetMap contributors.</p>
+      <p className="cgl-note">Click a corridor or node to open its dossier. Node positions are centroid-approximate. Satellite imagery © Esri, Maxar, Earthstar Geographics.</p>
     </div>
   );
 }

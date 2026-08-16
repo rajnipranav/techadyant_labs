@@ -1996,6 +1996,8 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 
 .nimap-wrap { max-width:560px; margin:0 auto; }
 .nimap svg { width:100%; height:auto; max-height:600px; display:block; }
+.nimap-gl { width:100%; height:560px; border-radius:12px; overflow:hidden; background:#0d1522; border:1px solid var(--border, rgba(255,255,255,.08)); }
+@media (max-width:720px){ .nimap-gl{ height:420px; } }
 .nimap-node { cursor:pointer; }
 .nimap-label { fill:var(--text-muted); font-size:8px; font-family:var(--font-inter),sans-serif; pointer-events:none; }
 .nimap-label.on { fill:var(--text); font-weight:600; }
