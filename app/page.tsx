@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { HeroCanvas } from './components/HeroCanvas';
 import { CorridorMap } from './corridors/CorridorMap';
+import { corridors as nicdpCorridors } from './corridors/data';
 import { Newsletter } from './components/Newsletter';
 import { FeaturedTopology } from './components/ThemeIcon';
 import { reports } from './reports/data';
@@ -9,12 +10,14 @@ import { signals } from './signals/data';
 import { corridorsOrdered, meta, rollup } from './research/atlas';
 import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardSimple } from './research/extra-ecosystems';
 import { briefings as allBriefings } from './briefings/data';
+import { allCorridorNodePairs } from './corridors/node-data';
+import { issues as newsletterIssues } from './newsletter/data';
 
 export const metadata: Metadata = {
   title: 'Strategic intelligence on India’s industrial systems',
   description:
-    'Independent, India-first strategic research on industrial transformation, infrastructure systems, semiconductors, AI infrastructure and second-order economic change.',
-    alternates: { canonical: 'https://labs.techadyant.com/' },
+    'Independent, India-first strategic research on industrial transformation, infrastructure systems, semiconductors, AI infrastructure and second-order economic change — with living surfaces: national corridor maps, import-dependency atlases and a monthly strategic brief.',
+  alternates: { canonical: 'https://labs.techadyant.com/' },
 };
 
 // RULE: the home page always features the newest PUBLISHED report (by published date).
@@ -28,17 +31,29 @@ const featured =
 const briefings = allBriefings.slice(0, 3);
 
 // Latest signals for the homepage "Intelligence dispatches" grid.
-// Signals are baked oldest-first; show the newest live ones and let older ones
-// drop off automatically as new signals publish. Newest-first, capped at 6.
 const latestSignals = [...signals]
   .filter((s) => s.status === 'live')
   .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0))
   .slice(0, 6);
 
-const STATS = [
-  { n: '18+', l: 'Chapters per edition' },
-  { n: '50+', l: 'Proprietary data tables' },
-  { n: '30-yr', l: 'Forecast models' },
+// ── Platform-wide numbers (auto-derived from data modules; never stale) ──
+const corridorsCount = nicdpCorridors.length;
+const nodesCount = allCorridorNodePairs().length;
+const ecosystemsCount = corridorsOrdered.length + EXTRA_ECOSYSTEMS.length;
+const liveSignalsCount = signals.filter((s) => s.status === 'live').length;
+const reportCount = reports.length;
+const depLayersCount = corridorsOrdered.reduce(
+  (acc, c) => acc + (rollup(c.id)?.importDependent ?? 0), 0);
+const latestIssue = [...newsletterIssues].filter((i) => i.status === 'live')[0] ?? newsletterIssues[0];
+
+const PLATFORM: { k: string; href: string; n: string; l: string }[] = [
+  { k: 'Reports', href: '/reports/', n: `${reportCount}`, l: 'Long-form research + executive summaries, one strategic question at a time.' },
+  { k: 'Corridors', href: '/corridors/', n: `${corridorsCount} · ${nodesCount}`, l: 'National corridors, node dossiers, satellite GIS maps and opportunity surfaces.' },
+  { k: 'Atlas', href: '/research/', n: `${ecosystemsCount}`, l: 'A free interactive map of India’s industrial ecosystems, players and import layers.' },
+  { k: 'Dependencies', href: '/research/dependencies/', n: `${depLayersCount}`, l: 'Import-dependency layers — what India still imports, ecosystem by ecosystem.' },
+  { k: 'Signals', href: '/signals/', n: `${liveSignalsCount}`, l: 'Compact, information-dense dispatches on structural change as it happens.' },
+  { k: 'Sanket', href: '/newsletter/', n: 'monthly', l: 'The monthly strategic-intelligence brief, distilled from the signal engine.' },
+  { k: 'Services', href: '/services/', n: 'DPR-ready', l: 'Commissioned research, investment-grade DPRs, briefings and licensing.' },
 ];
 
 export default function HomePage() {
@@ -66,19 +81,25 @@ export default function HomePage() {
           </h1>
 
           <p className="lede">
-            Independent, long-form research on industrial infrastructure, semiconductors,
-            AI infrastructure and the second-order economic effects of India’s
-            manufacturing transition — written for people who need to understand systems,
-            not headlines.
+            Independent, long-form research on industrial infrastructure, semiconductors and
+            AI infrastructure — plus living intelligence surfaces: national corridor maps,
+            import-dependency atlases and a monthly strategic brief. Built for people who
+            need to understand systems, not headlines.
           </p>
 
           <div className="ed-hero-actions">
             <Link href={`/reports/${featured.slug}/`} className="btn-ed btn-ed-primary">
               Read the featured report <span className="arr">→</span>
             </Link>
-            <Link href="/signals/" className="btn-ed btn-ed-ghost">
-              Latest signals <span className="arr">→</span>
+            <Link href="/corridors/" className="btn-ed btn-ed-ghost">
+              Explore corridors <span className="arr">→</span>
             </Link>
+          </div>
+
+          <div className="ed-hero-links">
+            <Link href="/signals/">Signals</Link><span className="sep">·</span>
+            <Link href="/research/">Atlas</Link><span className="sep">·</span>
+            <Link href="/services/">Commission research</Link>
           </div>
         </div>
 
@@ -88,8 +109,8 @@ export default function HomePage() {
             <div className="m-v">Industrial systems & infrastructure</div>
           </div>
           <div>
-            <div className="m-k">Method</div>
-            <div className="m-v">Long-form, systems-level analysis</div>
+            <div className="m-k">Surfaces</div>
+            <div className="m-v">Reports · Corridors · Atlas · Signals</div>
           </div>
           <div>
             <div className="m-k">Orientation</div>
@@ -97,57 +118,47 @@ export default function HomePage() {
           </div>
           <div>
             <div className="m-k">Cadence</div>
-            <div className="m-v">Reports · Signals · Briefings</div>
+            <div className="m-v">Reports · Signals · Sanket monthly</div>
           </div>
         </div>
       </section>
 
-      {/* ── By the numbers ── */}
-      <section className="wrap" style={{ paddingTop: 28, paddingBottom: 28 }} aria-label="By the numbers">
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))',
-            border: '1px solid var(--border, rgba(255,255,255,.12))',
-            borderRadius: 12,
-            overflow: 'hidden',
-            background: 'var(--bg-2, rgba(255,255,255,.02))',
-          }}
-        >
-          {STATS.map((s, i) => (
-            <div key={s.l} style={{ padding: '22px 20px', borderLeft: i === 0 ? 'none' : '1px solid var(--border, rgba(255,255,255,.08))' }}>
-              <div style={{ fontSize: 30, fontWeight: 700, letterSpacing: '-.01em', color: 'var(--text, #e9e7e0)', fontFamily: 'var(--font-jetbrains, monospace)' }}>{s.n}</div>
-              <div style={{ fontSize: 12.5, color: 'var(--text-muted, #9aa3b2)', marginTop: 6, textTransform: 'uppercase', letterSpacing: '.06em' }}>{s.l}</div>
-            </div>
+      {/* ── The platform (breadth at first sight) ── */}
+      <section className="wrap" style={{ paddingTop: 30 }} aria-labelledby="platform-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker">The platform</div>
+            <h2 id="platform-h">Seven surfaces, one intelligence stack</h2>
+          </div>
+          <p className="section-note">Long-form research, living maps, dispatches and commissioned work — everything the lab produces, in one place.</p>
+        </div>
+        <div className="platform-strip">
+          {PLATFORM.map((p) => (
+            <Link key={p.k} href={p.href} className="platform-card">
+              <div className="pc-head"><span className="pc-k">{p.k}</span><span className="pc-n">{p.n}</span></div>
+              <p className="pc-l">{p.l}</p>
+              <span className="pc-go">Open <span className="arr">→</span></span>
+            </Link>
           ))}
         </div>
       </section>
 
-      {/* ── Start here (new-visitor guided path) ── */}
-      <section className="wrap" aria-labelledby="start-here-h">
-        <div className="section-head-ed">
-          <div>
-            <div className="ed-kicker">New to Techadyant Labs?</div>
-            <h2 id="start-here-h">Start here</h2>
-          </div>
-          <p className="section-note">Three ways in, depending on how much time you have.</p>
-        </div>
-        <div className="atlas-entrypoints">
-          <Link href="/research/" className="atlas-entry">
-            <div className="ae-k">Explore · 5 min</div>
-            <p>Open the Atlas — a free, interactive map of India’s industrial ecosystems, their players and the layers India still imports.</p>
-            <span className="see-all">Open the Atlas →</span>
-          </Link>
-          <Link href="/reports/the-end-of-the-application-era/" className="atlas-entry">
-            <div className="ae-k">Read · free report</div>
-            <p>Start with a flagship, open-access report to see how we work a single strategic question through to its beneficiaries.</p>
-            <span className="see-all">Read a free report →</span>
-          </Link>
-          <Link href="/signals/" className="atlas-entry">
-            <div className="ae-k">Skim · latest</div>
-            <p>Browse Signals — compact, information-dense dispatches on structural change as it happens.</p>
-            <span className="see-all">Browse signals →</span>
-          </Link>
+      {/* ── By the numbers (platform-wide) ── */}
+      <section className="wrap" style={{ paddingTop: 6, paddingBottom: 10 }} aria-label="Platform by the numbers">
+        <div className="home-stats">
+          {[
+            { n: `${corridorsCount}`, l: 'National corridors', href: '/corridors/' },
+            { n: `${nodesCount}`, l: 'Deep-researched nodes', href: '/corridors/' },
+            { n: `${liveSignalsCount}`, l: 'Live signals', href: '/signals/' },
+            { n: `${ecosystemsCount}`, l: 'Ecosystems in the Atlas', href: '/research/' },
+            { n: `${depLayersCount}`, l: 'Import-dependent layers', href: '/research/dependencies/' },
+            { n: `${reportCount}`, l: 'Report editions', href: '/reports/' },
+          ].map((s, i) => (
+            <Link key={s.l} href={s.href} className="home-stat" style={{ borderLeft: i === 0 ? 'none' : undefined }}>
+              <div className="hs-n">{s.n}</div>
+              <div className="hs-l">{s.l} <span className="arr">→</span></div>
+            </Link>
+          ))}
         </div>
       </section>
 
@@ -192,6 +203,36 @@ export default function HomePage() {
         </Link>
       </section>
 
+      {/* ── Corridors teaser ── */}
+      <section className="wrap" aria-labelledby="corr-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker">Corridors intelligence</div>
+            <h2 id="corr-h">India’s industrial corridors, mapped to the node</h2>
+          </div>
+          <Link href="/corridors/" className="see-all">Open the corridors map →</Link>
+        </div>
+        <div className="corr-teaser">
+          <div className="corr-teaser-map">
+            <CorridorMap navigate={false} />
+          </div>
+          <div className="corr-teaser-body">
+            <p>
+              The lab’s most interactive surface: all {corridorsCount} national industrial corridors and{' '}
+              {nodesCount} deep-researched nodes on satellite GIS maps — with opportunity maps for Dholera,
+              AURIC, IITGNL and Tumakuru, a state filter, an 11×9 comparison table and a full dataset export.
+            </p>
+            <div className="corr-teaser-stats">
+              <span><b>{corridorsCount}</b> corridors</span>
+              <span><b>{nodesCount}</b> deep nodes</span>
+              <span><b>4</b> opportunity maps</span>
+              <span><b>CSV</b> dataset export</span>
+            </div>
+            <Link href="/corridors/" className="btn-ed btn-ed-primary">Explore the corridors <span className="arr">→</span></Link>
+          </div>
+        </div>
+      </section>
+
       {/* ── Latest signals ── */}
       <section className="wrap" style={{ background: 'var(--bg-2)' }} aria-labelledby="signals-h">
         <div className="section-head-ed">
@@ -225,8 +266,37 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── Dependencies heatmap teaser ── */}
+      <section className="wrap" aria-labelledby="dep-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker">Dependencies</div>
+            <h2 id="dep-h">The layers India still imports</h2>
+          </div>
+          <Link href="/research/dependencies/" className="see-all">Open the dependency atlas →</Link>
+        </div>
+        <p className="section-note" style={{ maxWidth: '70ch', marginBottom: 20 }}>
+          For each ecosystem the Atlas tracks, how many value-chain layers are import-dependent.
+          The bars are live data from the rollup — the longer the bar, the thinner India’s ownership.
+        </p>
+        <div className="dep-heat">
+          {corridorsOrdered.map((c) => {
+            const m = meta(c.code);
+            const r = rollup(c.id);
+            const pct = r.cells ? Math.round((r.importDependent / r.cells) * 100) : 0;
+            return (
+              <Link key={c.code} href={`/research/dependencies/#${m.slug}`} className="dep-row" style={{ ['--accent' as string]: m.accent }}>
+                <span className="dep-name">{c.label}</span>
+                <span className="dep-bar"><i style={{ width: `${pct}%`, background: m.accent }} /></span>
+                <span className="dep-num">{r.importDependent}/{r.cells} layers</span>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
       {/* ── The Atlas ── */}
-      <section className="wrap" aria-labelledby="atlas-h">
+      <section className="wrap" style={{ background: 'var(--bg-2)' }} aria-labelledby="atlas-h">
         <div className="section-head-ed">
           <div>
             <div className="ed-kicker">The Atlas</div>
@@ -265,7 +335,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Strategic briefings ── */}
-      <section className="wrap" style={{ background: 'var(--bg-2)' }} aria-labelledby="brief-h">
+      <section className="wrap" aria-labelledby="brief-h">
         <div className="section-head-ed">
           <div>
             <div className="ed-kicker">Strategic briefings</div>
@@ -288,9 +358,60 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Newsletter ── */}
-      <section className="wrap-narrow">
-        <Newsletter />
+      {/* ── Services ── */}
+      <section className="wrap" style={{ background: 'var(--bg-2)' }} aria-labelledby="svc-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker">Services</div>
+            <h2 id="svc-h">The lab, commissioned</h2>
+          </div>
+          <Link href="/services/" className="see-all">All services →</Link>
+        </div>
+        <div className="svc-band">
+          <Link href="/services/" className="svc-card">
+            <div className="svc-k">Bespoke research</div>
+            <p>Market &amp; ecosystem mapping, supply-chain dependency analysis, policy and beneficiary assessment — aimed at your decision.</p>
+            <span className="svc-go">Commission research →</span>
+          </Link>
+          <Link href="/services/" className="svc-card">
+            <div className="svc-k">Detailed Project Reports</div>
+            <p>Investment- and approval-grade DPRs for technology, industrial and strategic projects — sourced, structured for lenders and government counterparts.</p>
+            <span className="svc-go">Commission a DPR →</span>
+          </Link>
+          <Link href="/engage/" className="svc-card">
+            <div className="svc-k">Briefings &amp; licensing</div>
+            <p>Executive strategic briefings on demand, plus licensing of the Atlas, corridor datasets and report content.</p>
+            <span className="svc-go">Engage the lab →</span>
+          </Link>
+        </div>
+      </section>
+
+      {/* ── Sanket spotlight ── */}
+      <section className="wrap" aria-labelledby="sanket-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker">Sanket · monthly</div>
+            <h2 id="sanket-h">The strategic-intelligence brief</h2>
+          </div>
+          <Link href="/newsletter/" className="see-all">All issues →</Link>
+        </div>
+        <div className="sanket-spot">
+          {latestIssue && (
+            <Link href={`/newsletter/${latestIssue.slug}/`} className="sanket-issue">
+              <img src={latestIssue.cover} alt={`${latestIssue.no} cover`} loading="lazy" decoding="async" />
+              <div className="sanket-issue-body">
+                <div className="si-meta">{latestIssue.no} · {latestIssue.month} · {latestIssue.readingTime}</div>
+                <div className="si-title">{latestIssue.title}</div>
+                <p className="si-stand">{latestIssue.standfirst}</p>
+                <span className="btn-ed btn-ed-primary">Read the issue <span className="arr">→</span></span>
+              </div>
+            </Link>
+          )}
+          <div className="sanket-signup">
+            <p className="ss-lead">One issue a month. The few signals that move the board — semiconductors, AI infrastructure, critical minerals, defence.</p>
+            <Newsletter />
+          </div>
+        </div>
       </section>
 
       {/* ── About the platform ── */}
