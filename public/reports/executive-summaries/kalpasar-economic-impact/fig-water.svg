@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="Kalpasar water allocation: irrigation 42, industrial 28, drinking 14, ecological 10, losses 6 percent" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="300" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Annual freshwater allocation under Kalpasar (7,800 MCM/yr dependable)</text>
+<rect x="28" y="64" width="396" height="30" rx="3" fill="#38BDF8"/>
+<text x="226" y="84" font-size="12" font-weight="700" fill="#0b1220" text-anchor="middle">42%</text>
+<rect x="424.48" y="64" width="264" height="30" rx="3" fill="#14B8A6"/>
+<text x="557" y="84" font-size="12" font-weight="700" fill="#0b1220" text-anchor="middle">28%</text>
+<rect x="688.8" y="64" width="132" height="30" rx="3" fill="#2DD4BF"/>
+<text x="755" y="84" font-size="12" font-weight="700" fill="#0b1220" text-anchor="middle">14%</text>
+<rect x="820.9599999999999" y="64" width="94" height="30" rx="3" fill="#475569"/>
+<text x="868" y="84" font-size="12" font-weight="700" fill="#0b1220" text-anchor="middle">10%</text>
+<rect x="915.3599999999999" y="64" width="57" height="30" rx="3" fill="#334155"/>
+<text x="944" y="84" font-size="12" font-weight="700" fill="#0b1220" text-anchor="middle">6%</text>
+<rect x="60" y="109" width="12" height="12" rx="3" fill="#38BDF8"/>
+<text x="80" y="120" font-size="11" fill="#cbd5e1">Irrigation - 42% of volume</text>
+<rect x="60" y="133" width="12" height="12" rx="3" fill="#14B8A6"/>
+<text x="80" y="144" font-size="11" fill="#cbd5e1">Industrial - 28% of volume</text>
+<rect x="60" y="157" width="12" height="12" rx="3" fill="#2DD4BF"/>
+<text x="80" y="168" font-size="11" fill="#cbd5e1">Drinking - 14% of volume</text>
+<rect x="60" y="181" width="12" height="12" rx="3" fill="#475569"/>
+<text x="80" y="192" font-size="11" fill="#cbd5e1">Ecological - 10% of volume</text>
+<rect x="60" y="205" width="12" height="12" rx="3" fill="#334155"/>
+<text x="80" y="216" font-size="11" fill="#cbd5e1">Net losses - 6% of volume</text>
+<rect x="28" y="226" width="944" height="60" rx="10" fill="#122b3a" stroke="#14B8A6" stroke-width="1"/>
+<text x="46" y="250" font-size="11.5" font-weight="700" fill="#2DD4BF">THE REVENUE ASYMMETRY</text>
+<text x="46" y="272" font-size="11" fill="#cbd5e1">Industrial use: 28% of volume, 75% of revenue (Rs 5,166 cr/yr at Rs 18/m3). Irrigation: 42% of volume, 16% of revenue. Total direct revenue ~Rs 6,800 cr/yr.</text></svg>

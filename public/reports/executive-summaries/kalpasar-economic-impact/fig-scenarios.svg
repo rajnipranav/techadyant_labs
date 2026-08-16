@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="Kalpasar GDP scenarios by 2050: accelerated 36, base 28, downside 12 lakh crore" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="300" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Cumulative GDP impact by 2050 (Rs lakh crore)</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">The strategic cost of delay: ~Rs 24 lakh crore of foregone GDP over 2025-2050</text>
+<rect x="120" y="-28" width="180" height="288" rx="8" fill="#14B8A6"/>
+<text x="210" y="-38" font-size="15" font-weight="800" fill="#f1f5f9" text-anchor="middle">Rs 36 L cr</text>
+<text x="210" y="282" font-size="11" fill="#cbd5e1" text-anchor="middle">Accelerated (2036)</text>
+<rect x="380" y="36" width="180" height="224" rx="8" fill="#2DD4BF"/>
+<text x="470" y="26" font-size="15" font-weight="800" fill="#f1f5f9" text-anchor="middle">Rs 28 L cr</text>
+<text x="470" y="282" font-size="11" fill="#cbd5e1" text-anchor="middle">Base (2039)</text>
+<rect x="640" y="164" width="180" height="96" rx="8" fill="#ef4444"/>
+<text x="730" y="154" font-size="15" font-weight="800" fill="#f1f5f9" text-anchor="middle">Rs 12 L cr</text>
+<text x="730" y="282" font-size="11" fill="#cbd5e1" text-anchor="middle">Downside (2045+)</text>
+<text x="28" y="232" font-size="10.5" fill="#94a3b8">Full operation:</text>
+<text x="28" y="248" font-size="10.5" fill="#94a3b8">Base 2039 - 302,000 jobs,</text>
+<text x="28" y="264" font-size="10.5" fill="#94a3b8">+0.3-0.4 pp GSDP.</text>
+<text x="28" y="280" font-size="10.5" fill="#94a3b8">Annual direct revenue</text>
+<text x="28" y="296" font-size="10.5" fill="#94a3b8">~Rs 11,528 cr by 2045.</text></svg>

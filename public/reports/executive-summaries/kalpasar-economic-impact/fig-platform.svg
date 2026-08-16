@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-label="Platform comparators capex vs induced investment: Golden Quadrilateral 60k to 450k, Kalpasar 133k to 280k crore" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="320" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Platform infrastructure - capex vs induced investment (Rs crore)</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">India has built four such platforms; each generated multiples of its cost in induced activity</text>
+<text x="316" y="89" font-size="10.5" fill="#cbd5e1" text-anchor="end">Golden Quadrilateral (2012)</text>
+<rect x="330" y="76" width="102" height="13" rx="3.5" fill="#475569"/>
+<text x="438.0" y="88" font-size="10.5" fill="#cbd5e1">60k</text>
+<rect x="330" y="91" width="765" height="13" rx="3.5" fill="#14B8A6"/>
+<text x="1101.0" y="103" font-size="10.5" font-weight="700" fill="#2DD4BF">450k induced</text>
+<text x="316" y="133" font-size="10.5" fill="#cbd5e1" text-anchor="end">Dedicated Freight Corridor</text>
+<rect x="330" y="120" width="221" height="13" rx="3.5" fill="#475569"/>
+<text x="557.0" y="132" font-size="10.5" fill="#cbd5e1">130k</text>
+<text x="316" y="177" font-size="10.5" fill="#cbd5e1" text-anchor="end">Sardar Sarovar Dam (2017)</text>
+<rect x="330" y="164" width="119" height="13" rx="3.5" fill="#475569"/>
+<text x="455.0" y="176" font-size="10.5" fill="#cbd5e1">70k</text>
+<text x="316" y="221" font-size="10.5" fill="#cbd5e1" text-anchor="end">National Solar Mission</text>
+<rect x="330" y="208" width="340" height="13" rx="3.5" fill="#475569"/>
+<text x="676.0" y="220" font-size="10.5" fill="#cbd5e1">200k</text>
+<text x="316" y="265" font-size="10.5" fill="#cbd5e1" text-anchor="end">Kalpasar (projected)</text>
+<rect x="330" y="252" width="227" height="13" rx="3.5" fill="#475569"/>
+<text x="562.5182" y="264" font-size="10.5" fill="#cbd5e1">133k</text>
+<rect x="330" y="267" width="476" height="13" rx="3.5" fill="#14B8A6"/>
+<text x="812.0" y="279" font-size="10.5" font-weight="700" fill="#2DD4BF">280k induced</text>
+<rect x="28" y="276" width="944" height="34" rx="8" fill="#122b3a" stroke="#14B8A6" stroke-width="1"/>
+<text x="46" y="298" font-size="11" fill="#cbd5e1">GQ cost Rs 60,000 cr, induced ~Rs 4,50,000 cr. Kalpasar: Rs 1,33,246 cr capex catalysing ~Rs 2,80,000 cr induced investment.</text></svg>

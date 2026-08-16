@@ -73,6 +73,15 @@ export const EXEC_SUMMARIES: Record<string, ExecSummaryMeta> = {
     readingTime: '~7 min',
     ogImage: 'https://library.techadyant.com/covers/Techadyant_Labs_QDay_Report.jpg',
   },
+  'kalpasar-economic-impact': {
+    title: "Kalpasar: India's Rs 1.33 Lakh Crore Bay Project",
+    description:
+      'Free assessment of the Rs 1.33 lakh crore Gulf of Khambhat closure dam: 21.5% economic IRR vs ~1% equity IRR, and why it is unsanctioned after 40 years.',
+    published: '2026-08-16',
+    publishedLabel: '16 Aug 2026',
+    readingTime: '~7 min',
+    ogImage: 'https://labs.techadyant.com/covers/kalpasar-economic-impact.jpg',
+  },
 };
 
 export const EXEC_SUMMARY_SLUGS = Object.keys(EXEC_SUMMARIES);

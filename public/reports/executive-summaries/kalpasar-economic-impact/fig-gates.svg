@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="Kalpasar critical path gates from EIA terms of reference 2026 to full operation 2039" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="300" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Implementation critical path - six gates</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">Every milestone is conditional on approvals not yet granted; 40 years of study without sanction is the largest execution risk</text>
+<line x1="60" y1="200" x2="960" y2="200" stroke="#334155" stroke-width="2"/>
+<circle cx="60" cy="200" r="6" fill="#14B8A6"/>
+<text x="60" y="226" font-size="11" font-weight="700" fill="#f1f5f9" text-anchor="middle">2026-27</text>
+<text x="60" y="182" font-size="10" fill="#cbd5e1" text-anchor="middle">EIA ToR</text>
+<text x="60" y="168" font-size="10" fill="#cbd5e1" text-anchor="middle">approval</text>
+<circle cx="210" cy="200" r="6" fill="#14B8A6"/>
+<text x="210" y="226" font-size="11" font-weight="700" fill="#f1f5f9" text-anchor="middle">Q4 2028</text>
+<text x="210" y="182" font-size="10" fill="#cbd5e1" text-anchor="middle">Environmental</text>
+<text x="210" y="168" font-size="10" fill="#cbd5e1" text-anchor="middle">clearance</text>
+<circle cx="360" cy="200" r="6" fill="#f59e0b"/>
+<text x="360" y="226" font-size="11" font-weight="700" fill="#f1f5f9" text-anchor="middle">Q4 2030</text>
+<text x="360" y="182" font-size="10" fill="#cbd5e1" text-anchor="middle">Financial</text>
+<text x="360" y="168" font-size="10" fill="#cbd5e1" text-anchor="middle">close (~50%)</text>
+<circle cx="510" cy="200" r="6" fill="#2DD4BF"/>
+<text x="510" y="226" font-size="11" font-weight="700" fill="#f1f5f9" text-anchor="middle">Q4 2031</text>
+<text x="510" y="182" font-size="10" fill="#cbd5e1" text-anchor="middle">Land</text>
+<text x="510" y="168" font-size="10" fill="#cbd5e1" text-anchor="middle">acquisition</text>
+<circle cx="660" cy="200" r="6" fill="#2DD4BF"/>
+<text x="660" y="226" font-size="11" font-weight="700" fill="#f1f5f9" text-anchor="middle">Q1 2032</text>
+<text x="660" y="182" font-size="10" fill="#cbd5e1" text-anchor="middle">Construction</text>
+<text x="660" y="168" font-size="10" fill="#cbd5e1" text-anchor="middle">begins</text>
+<circle cx="810" cy="200" r="6" fill="#38BDF8"/>
+<text x="810" y="226" font-size="11" font-weight="700" fill="#f1f5f9" text-anchor="middle">Q2 2038</text>
+<text x="810" y="182" font-size="10" fill="#cbd5e1" text-anchor="middle">Staged</text>
+<text x="810" y="168" font-size="10" fill="#cbd5e1" text-anchor="middle">impoundment</text>
+<circle cx="960" cy="200" r="6" fill="#38BDF8"/>
+<text x="960" y="226" font-size="11" font-weight="700" fill="#f1f5f9" text-anchor="middle">Q1 2039</text>
+<text x="960" y="182" font-size="10" fill="#cbd5e1" text-anchor="middle">Full</text>
+<text x="960" y="168" font-size="10" fill="#cbd5e1" text-anchor="middle">operation</text>
+<rect x="28" y="240" width="944" height="48" rx="10" fill="#122b3a" stroke="#f59e0b" stroke-width="1"/>
+<text x="46" y="262" font-size="11" fill="#f1f5f9">A 2-year delay in any milestone pushes commissioning past 2040 and erodes the economic IRR by ~145 basis points.</text>
+<text x="46" y="280" font-size="11" fill="#cbd5e1">Closure-dam main sea-crossing: ~6 years, monsoon-window constrained; longest-lead item on the critical path.</text></svg>
