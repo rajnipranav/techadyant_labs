@@ -3,6 +3,7 @@ import { CmddSummary } from './cmdd';
 import { IafSummary } from './iaf';
 import { NavySummary } from './navy';
 import { SolarSummary } from './solar';
+import { GhSummary } from './gh';
 
 /** Maps executive-summary slugs to their content components. The route renders
  *  whatever this map provides; keep it in sync with EXEC_SUMMARIES (registry). */
@@ -12,4 +13,5 @@ export const EXEC_CONTENT: Record<string, () => React.ReactElement> = {
   'iaf-autonomous-air-power': IafSummary,
   'indian-navy-autonomous-maritime': NavySummary,
   'beyond-solar-panels': SolarSummary,
+  'india-green-hydrogen': GhSummary,
 };

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-label="Electrolyser manufacturing: India output under 1 GW, nameplate 3 GW, announced 14 GW, China 45 GW" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="320" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Electrolyser manufacturing reality - nameplate GW/year</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">The 60 GW NGHM target demands roughly a 20x scale-up of India effective output</text>
+<text x="306" y="98" font-size="11.5" fill="#cbd5e1" text-anchor="end">India - effective output</text>
+<rect x="320" y="84" width="10" height="16" rx="3.5" fill="#ef4444"/>
+<text x="338" y="98" font-size="11.5" font-weight="700" fill="#f1f5f9">1 GW</text>
+<text x="790" y="98" font-size="10" fill="#94a3b8">under 1 GW actual</text>
+<text x="306" y="138" font-size="11.5" fill="#cbd5e1" text-anchor="end">India - operational nameplate</text>
+<rect x="320" y="124" width="30" height="16" rx="3.5" fill="#f59e0b"/>
+<text x="358" y="138" font-size="11.5" font-weight="700" fill="#f1f5f9">3 GW</text>
+<text x="790" y="138" font-size="10" fill="#94a3b8">3 GW</text>
+<text x="306" y="178" font-size="11.5" fill="#cbd5e1" text-anchor="end">India - announced (18 plants)</text>
+<rect x="320" y="164" width="140" height="16" rx="3.5" fill="#3DD68C"/>
+<text x="468" y="178" font-size="11.5" font-weight="700" fill="#f1f5f9">14 GW</text>
+<text x="790" y="178" font-size="10" fill="#94a3b8">14 GW planned</text>
+<text x="306" y="218" font-size="11.5" fill="#cbd5e1" text-anchor="end">China - nameplate</text>
+<rect x="320" y="204" width="450" height="16" rx="3.5" fill="#3b82f6"/>
+<text x="778" y="218" font-size="11.5" font-weight="700" fill="#f1f5f9">45 GW</text>
+<text x="790" y="218" font-size="10" fill="#94a3b8">~60% of global capacity</text>
+<text x="28" y="278" font-size="11" fill="#94a3b8">The India-China installed-capacity gap widens from ~14 GW (2024) to ~109 GW (2030) in the base case. SIGHT Mode I is only partially subscribed.</text>
+<text x="28" y="302" font-size="11" fill="#94a3b8">Stack-level intellectual property remains imported; final-assembly operations dominate.</text></svg>

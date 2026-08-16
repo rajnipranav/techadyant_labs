@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="LCOH from Rs 350 per kg in 2025 to Rs 170 target by 2030, grey parity Rs 150" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="300" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Levelised cost of hydrogen - Rs per kg (alkaline, base case)</text>
+<rect x="800" y="76" width="44" height="22" rx="4" fill="#f59e0b"/>
+<text x="800" y="118" font-size="12" font-weight="700" fill="#f1f5f9" text-anchor="middle">Rs 350</text>
+<text x="100" y="92" font-size="10.5" fill="#94a3b8">2025: 2.3x grey cost</text>
+<line x1="400" y1="60" x2="400" y2="150" stroke="#64748b" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="400" y="168" font-size="10.5" fill="#94a3b8" text-anchor="middle">grey parity ~Rs 150</text>
+<line x1="800" y1="140" x2="440" y2="140" stroke="#3DD68C" stroke-width="2.5"/>
+<circle cx="440" cy="140" r="5" fill="#3DD68C"/>
+<rect x="440" y="126" width="44" height="22" rx="4" fill="#3DD68C"/>
+<text x="440" y="120" font-size="12" font-weight="700" fill="#3DD68C" text-anchor="middle">Rs 170</text>
+<text x="440" y="148" font-size="10.5" fill="#94a3b8">2030 target (with SIGHT)</text>
+<rect x="28" y="186" width="944" height="84" rx="10" fill="#151f2e" stroke="#3DD68C" stroke-width="1"/>
+<text x="46" y="210" font-size="11.5" font-weight="700" fill="#3DD68C">WHAT THE TARGET REQUIRES</text>
+<text x="46" y="230" font-size="11" fill="#f1f5f9">Capex USD 700/kW to 250/kW · capacity factor 50% to 70% · electricity Rs 6/kWh to 3.5/kWh</text>
+<text x="46" y="250" font-size="11" fill="#cbd5e1">Electricity is 56% of LCOH; capex amortisation 17%. Without SIGHT, grey parity is unlikely before 2032.</text></svg>

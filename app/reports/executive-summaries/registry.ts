@@ -55,6 +55,15 @@ export const EXEC_SUMMARIES: Record<string, ExecSummaryMeta> = {
     readingTime: '~6 min',
     ogImage: 'https://library.techadyant.com/covers/Beyond-Solar-Panels-Indian-Industrial-Intelligence.jpg',
   },
+  'india-green-hydrogen': {
+    title: "The Hydrogen Mirage or Machine? India's Green Hydrogen Reality",
+    description:
+      "Free executive summary. India committed Rs 19,744 cr to green hydrogen, but the electrolyser is ~60% Chinese-built and 100% PGM-dependent. Scenarios to 2030.",
+    published: '2026-08-16',
+    publishedLabel: '16 Aug 2026',
+    readingTime: '~6 min',
+    ogImage: 'https://library.techadyant.com/covers/Green_Hydrogen_Report.jpg',
+  },
 };
 
 export const EXEC_SUMMARY_SLUGS = Object.keys(EXEC_SUMMARIES);

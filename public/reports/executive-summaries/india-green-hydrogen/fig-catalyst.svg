@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-label="Iridium constraint: 7 tonnes annual global supply vs 250 kg India need at 1 GW and over 2x supply at 60 GW" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="320" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">The iridium constraint - PEM catalysts</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">India produces zero iridium and platinum; both are required for PEM electrolysers</text>
+<text x="280" y="86" font-size="11.5" fill="#cbd5e1" text-anchor="end">Global iridium supply</text>
+<rect x="290" y="74" width="140" height="18" rx="4" fill="#3b82f6"/>
+<text x="440" y="88" font-size="12" font-weight="700" fill="#f1f5f9">~7 t/yr</text>
+<text x="560" y="88" font-size="10.5" fill="#94a3b8">South Africa + Russia supply &gt;95%; ~85% a PGM-mining by-product</text>
+<text x="280" y="126" font-size="11.5" fill="#cbd5e1" text-anchor="end">India requirement at 1 GW</text>
+<rect x="290" y="114" width="70" height="18" rx="4" fill="#3DD68C"/>
+<text x="370" y="128" font-size="12" font-weight="700" fill="#f1f5f9">~250 kg</text>
+<text x="560" y="128" font-size="10.5" fill="#94a3b8">= 3.5% of annual global supply</text>
+<text x="280" y="166" font-size="11.5" fill="#cbd5e1" text-anchor="end">India requirement at 60 GW</text>
+<rect x="290" y="154" width="280" height="18" rx="4" fill="#ef4444"/>
+<text x="580" y="168" font-size="12" font-weight="700" fill="#f1f5f9">&gt;2x annual global supply</text>
+<rect x="28" y="196" width="944" height="66" rx="10" fill="#151f2e" stroke="#f59e0b" stroke-width="1"/>
+<text x="46" y="220" font-size="11.5" font-weight="700" fill="#f59e0b">PRICE SIGNAL</text>
+<text x="46" y="240" font-size="11" fill="#f1f5f9">Iridium traded ~USD 5,200/oz at end-2025 and rose above USD 8,000/oz by mid-2026. No Indian substitute is at commercial readiness; no catalyst R&amp;D programme can deliver one before 2030.</text></svg>
