@@ -46,6 +46,15 @@ export const EXEC_SUMMARIES: Record<string, ExecSummaryMeta> = {
     readingTime: '~6 min',
     ogImage: 'https://library.techadyant.com/covers/Indian_Navy_Autonomous_Maritime.jpg',
   },
+  'beyond-solar-panels': {
+    title: "Beyond Solar Panels: India's Hidden Industrial Foundations",
+    description:
+      "Free executive summary. 162.15 GW deployed, but value lies upstream: China holds ~85% of supply-chain capacity; Tier 1 materials offer 16-30% IRRs.",
+    published: '2026-08-16',
+    publishedLabel: '16 Aug 2026',
+    readingTime: '~6 min',
+    ogImage: 'https://library.techadyant.com/covers/Beyond-Solar-Panels-Indian-Industrial-Intelligence.jpg',
+  },
 };
 
 export const EXEC_SUMMARY_SLUGS = Object.keys(EXEC_SUMMARIES);

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="China share of solar capacity: wafer 96 percent, PV wafer 95 percent, supply chain 85 percent, mid-stream 50 to 65 percent" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="300" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">China’s grip by layer - share of global capacity</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">IEA 2026 estimates; capacity, not output - shares vary by layer and definition</text>
+<text x="316" y="97" font-size="11.5" fill="#cbd5e1" text-anchor="end">Wafer layer (concentration risk)</text>
+<rect x="330" y="84" width="518" height="16" rx="3.5" fill="#ef4444"/>
+<text x="856.4000000000001" y="97" font-size="11.5" font-weight="700" fill="#f1f5f9">96%</text>
+<text x="880" y="97" font-size="10" fill="#94a3b8">most acute exposure</text>
+<text x="316" y="133" font-size="11.5" fill="#cbd5e1" text-anchor="end">PV wafer capacity</text>
+<rect x="330" y="120" width="513" height="16" rx="3.5" fill="#ef4444"/>
+<text x="851.0" y="133" font-size="11.5" font-weight="700" fill="#f1f5f9">95%</text>
+<text x="880" y="133" font-size="10" fill="#94a3b8">IEA 2026</text>
+<text x="316" y="169" font-size="11.5" fill="#cbd5e1" text-anchor="end">Solar supply-chain capacity</text>
+<rect x="330" y="156" width="459" height="16" rx="3.5" fill="#E8A33D"/>
+<text x="797.0" y="169" font-size="11.5" font-weight="700" fill="#f1f5f9">85%</text>
+<text x="880" y="169" font-size="10" fill="#94a3b8">IEA 2026</text>
+<text x="316" y="205" font-size="11.5" fill="#cbd5e1" text-anchor="end">Mid-stream materials (glass, gases, chemicals)</text>
+<rect x="330" y="192" width="308" height="16" rx="3.5" fill="#2E6497"/>
+<text x="645.8" y="205" font-size="11.5" font-weight="700" fill="#f1f5f9">57%</text>
+<text x="880" y="205" font-size="10" fill="#94a3b8">50-65%; grip weakest here</text>
+<text x="28" y="272" font-size="11" fill="#94a3b8">India’s supply chain is 70-95% dependent on China for the most strategic layers; a geopolitical disruption would spike prices 35-50% and delay build-out 3-5 years.</text></svg>

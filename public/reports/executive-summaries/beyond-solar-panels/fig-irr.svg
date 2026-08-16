@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-label="Project IRR by layer from 22 to 30 percent for encapsulants down to 4 to 9 percent for polysilicon" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="330" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Project IRR by layer - greenfield 1 GW-equivalent (2026)</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">Mid-stream materials clear the private-equity hurdle today; polysilicon does not</text>
+<text x="286" y="99" font-size="11.5" fill="#cbd5e1" text-anchor="end">Encapsulants</text>
+<rect x="542" y="86" width="88" height="15" rx="3.5" fill="#E8A33D"/>
+<text x="638" y="99" font-size="11.5" font-weight="700" fill="#f1f5f9">22-30%</text>
+<text x="700" y="99" font-size="10" fill="#94a3b8">₹200 cr/GW</text>
+<text x="286" y="129" font-size="11.5" fill="#cbd5e1" text-anchor="end">Industrial gases</text>
+<rect x="498" y="116" width="88" height="15" rx="3.5" fill="#E8A33D"/>
+<text x="594" y="129" font-size="11.5" font-weight="700" fill="#f1f5f9">18-26%</text>
+<text x="700" y="129" font-size="10" fill="#94a3b8">₹450 cr/GW</text>
+<text x="286" y="159" font-size="11.5" fill="#cbd5e1" text-anchor="end">Solar glass</text>
+<rect x="476" y="146" width="66" height="15" rx="3.5" fill="#E8A33D"/>
+<text x="550" y="159" font-size="11.5" font-weight="700" fill="#f1f5f9">16-22%</text>
+<text x="700" y="159" font-size="10" fill="#94a3b8">₹600 cr/GW</text>
+<text x="286" y="189" font-size="11.5" fill="#cbd5e1" text-anchor="end">Specialty chemicals</text>
+<rect x="454" y="176" width="66" height="15" rx="3.5" fill="#E8A33D"/>
+<text x="528" y="189" font-size="11.5" font-weight="700" fill="#f1f5f9">14-20%</text>
+<text x="700" y="189" font-size="10" fill="#94a3b8">₹350 cr/GW</text>
+<text x="286" y="219" font-size="11.5" fill="#cbd5e1" text-anchor="end">Polysilicon</text>
+<rect x="344" y="206" width="55" height="15" rx="3.5" fill="#ef4444"/>
+<text x="407" y="219" font-size="11.5" font-weight="700" fill="#f1f5f9">4-9%</text>
+<text x="700" y="219" font-size="10" fill="#94a3b8">₹8,500 cr/GW</text>
+<text x="286" y="249" font-size="11.5" fill="#cbd5e1" text-anchor="end">Module assembly</text>
+<rect x="366" y="236" width="66" height="15" rx="3.5" fill="#64748b"/>
+<text x="440" y="249" font-size="11.5" font-weight="700" fill="#f1f5f9">6-12%</text>
+<text x="700" y="249" font-size="10" fill="#94a3b8">saturated; oversupply risk</text>
+<line x1="454" y1="80" x2="454" y2="266" stroke="#f1f5f9" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="454" y="280" font-size="10" fill="#f1f5f9" text-anchor="middle">typical PE hurdle ~14%</text>
+<text x="28" y="310" font-size="11" fill="#94a3b8">Source: Techadyant localisation-economics model - company filings, NREL cost benchmarks, BNEF Tier-1 survey.</text></svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-label="India solar capability by layer: modules 172 GW, cells 27 GW, wafers nil, polysilicon nil" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="330" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Capability inverts value across the stack</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">India is strongest downstream where value is lowest; upstream foundations remain 85-100% imported</text>
+<text x="266" y="101" font-size="12" fill="#cbd5e1" text-anchor="end">Modules</text>
+<rect x="280" y="86" width="447" height="17" rx="3.5" fill="#2E6497"/>
+<text x="735.2" y="100" font-size="11.5" font-weight="700" fill="#f1f5f9">172 GW</text>
+<text x="760" y="100" font-size="10" fill="#94a3b8">~172 GW ALMM-listed capacity</text>
+<text x="266" y="145" font-size="12" fill="#cbd5e1" text-anchor="end">Cells</text>
+<rect x="280" y="130" width="70" height="17" rx="3.5" fill="#3b82f6"/>
+<text x="358.2" y="144" font-size="11.5" font-weight="700" fill="#f1f5f9">27 GW</text>
+<text x="760" y="144" font-size="10" fill="#94a3b8">~27 GW (2025 release); ~80% imported at scale</text>
+<text x="266" y="189" font-size="12" fill="#cbd5e1" text-anchor="end">Wafers and ingots</text>
+<rect x="280" y="174" width="8" height="17" rx="3.5" fill="#E8A33D"/>
+<text x="295.8" y="188" font-size="11.5" font-weight="700" fill="#f1f5f9">3 GW</text>
+<text x="760" y="188" font-size="10" fill="#94a3b8">~nil domestic; China ~95% of wafer capacity</text>
+<text x="266" y="233" font-size="12" fill="#cbd5e1" text-anchor="end">Polysilicon</text>
+<rect x="280" y="218" width="6" height="17" rx="3.5" fill="#ef4444"/>
+<text x="294" y="232" font-size="11.5" font-weight="700" fill="#f87171">~0</text>
+<text x="760" y="232" font-size="10" fill="#94a3b8">No domestic capacity; 100% imported</text>
+<text x="28" y="300" font-size="11" fill="#94a3b8">Capability is highest where value is lowest - the structural inversion that defines India's solar challenge. Source: MNRE, ALMM list, company filings.</text></svg>
