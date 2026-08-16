@@ -54,6 +54,7 @@ export default function CorridorGLMap({ corridors, nodes, focus, focusNode, comp
         container: ref.current,
         style: {
           version: 8,
+          glyphs: 'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
           sources: {
             sat: {
               type: 'raster',
