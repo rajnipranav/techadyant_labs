@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-label="Naval autonomy readiness: India 2.6 vs US 4.5, with software, MUM-T and certification dimensions" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="330" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Strategic Posture Map — autonomous naval readiness (0–5)</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">Eight dimensions; 3 = operational capability, 5 = world-class. India 2.6 vs US benchmark 4.5; 2035 target 4.3.</text>
+<text x="246" y="99" font-size="12" fill="#cbd5e1" text-anchor="end">Aggregate posture</text>
+<rect x="260" y="84" width="229" height="16" rx="3.5" fill="#2E6497"/>
+<text x="496.8" y="97" font-size="11.5" font-weight="700" fill="#f1f5f9">2.6</text>
+<rect x="260" y="105" width="396" height="6" rx="2" fill="#334155"/>
+<text x="664.0" y="112" font-size="10" fill="#94a3b8">US 4.5</text>
+<line x1="638" y1="82" x2="638" y2="114" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="638" y="124" font-size="9.5" fill="#f59e0b" text-anchor="middle">2035 target 4.3</text>
+<text x="246" y="153" font-size="12" fill="#cbd5e1" text-anchor="end">Autonomy software</text>
+<rect x="260" y="138" width="211" height="16" rx="3.5" fill="#f59e0b"/>
+<text x="479.2" y="151" font-size="11.5" font-weight="700" fill="#f1f5f9">2.4</text>
+<rect x="260" y="159" width="405" height="6" rx="2" fill="#334155"/>
+<text x="672.8" y="166" font-size="10" fill="#94a3b8">US 4.6</text>
+<line x1="630" y1="136" x2="630" y2="168" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="630" y="178" font-size="9.5" fill="#f59e0b" text-anchor="middle">2035 target 4.2</text>
+<text x="246" y="207" font-size="12" fill="#cbd5e1" text-anchor="end">Manned-unmanned teaming</text>
+<rect x="260" y="192" width="176" height="16" rx="3.5" fill="#f59e0b"/>
+<text x="444.0" y="205" font-size="11.5" font-weight="700" fill="#f1f5f9">2.0</text>
+<rect x="260" y="213" width="370" height="6" rx="2" fill="#334155"/>
+<text x="637.6" y="220" font-size="10" fill="#94a3b8">US 4.2</text>
+<text x="246" y="261" font-size="12" fill="#cbd5e1" text-anchor="end">Test and certification</text>
+<rect x="260" y="246" width="194" height="16" rx="3.5" fill="#f59e0b"/>
+<text x="461.6" y="259" font-size="11.5" font-weight="700" fill="#f1f5f9">2.2</text>
+<rect x="260" y="267" width="387" height="6" rx="2" fill="#334155"/>
+<text x="655.2" y="274" font-size="10" fill="#94a3b8">US 4.4</text>
+<text x="28" y="314" font-size="11" fill="#94a3b8">Closing the 1.9-point gap to the US benchmark requires ~6.4% compound annual improvement per dimension.</text></svg>

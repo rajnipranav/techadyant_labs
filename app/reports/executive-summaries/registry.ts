@@ -37,6 +37,15 @@ export const EXEC_SUMMARIES: Record<string, ExecSummaryMeta> = {
     readingTime: '~6 min',
     ogImage: 'https://library.techadyant.com/covers/IAF_Autonomous_Air_Power_Roadmap_2026-2035.jpg',
   },
+  'indian-navy-autonomous-maritime': {
+    title: "The Indian Navy's Autonomous Maritime Transformation, 2026-2035",
+    description:
+      "Free executive summary. India's naval autonomy readiness is 2.6/5 vs US 4.5; a ~Rs 1.2 lakh crore market; three binding substrate constraints set the pace.",
+    published: '2026-08-16',
+    publishedLabel: '16 Aug 2026',
+    readingTime: '~6 min',
+    ogImage: 'https://library.techadyant.com/covers/Indian_Navy_Autonomous_Maritime.jpg',
+  },
 };
 
 export const EXEC_SUMMARY_SLUGS = Object.keys(EXEC_SUMMARIES);
