@@ -141,7 +141,7 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
       )}
 
       {/* Dholera has its own dedicated opportunity map below, so the corridor context map is redundant there. */}
-      {!(slug === 'delhi-mumbai' && (node === 'dholera-sir' || node === 'auric-shendra-bidkin')) && (
+      {!(slug === 'delhi-mumbai' && (node === 'dholera-sir' || node === 'auric-shendra-bidkin' || node === 'iitgnl-greater-noida')) && (
         <section className="wrap">
           <CorridorGLMap corridors={corridorFeatures()} nodes={nodeFeatures()} focus={slug} focusNode={node} compact />
         </section>
@@ -183,6 +183,27 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
             <iframe
               src="/maps/auric-shendra-bidkin.html"
               title="AURIC Shendra-Bidkin industrial intelligence and opportunity map"
+              loading="lazy"
+            />
+          </div>
+        </section>
+      )}
+
+      {slug === 'delhi-mumbai' && node === 'iitgnl-greater-noida' && (
+        <section className="wrap">
+          <div className="dholera-embed">
+            <div className="de-head">
+              <h2>IITGNL opportunity map</h2>
+              <p>
+                Anchor projects and the NCR context (Bodaki railhead, Dadri DFC junction, Jewar airport) on satellite
+                imagery. Select an anchor to open the supplier ecosystem and opportunity surface it pulls. All
+                positions are approximate regional context, not survey data.{' '}
+                <a href="/maps/iitgnl-greater-noida.html" target="_blank" rel="noopener noreferrer">Open full screen &#8599;</a>
+              </p>
+            </div>
+            <iframe
+              src="/maps/iitgnl-greater-noida.html"
+              title="IITGNL Greater Noida industrial intelligence and opportunity map"
               loading="lazy"
             />
           </div>
