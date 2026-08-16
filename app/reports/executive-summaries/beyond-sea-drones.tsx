@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from './executive-summary.module.css';
-import { ExecutiveSummaryGate } from '../../../components/ExecutiveSummaryGate';
+import { ExecutiveSummaryGate } from '../../components/ExecutiveSummaryGate';
 
 const SLUG = 'beyond-sea-drones-india-autonomous-maritime-systems';
 const REPORT_URL = `/reports/${SLUG}/`;

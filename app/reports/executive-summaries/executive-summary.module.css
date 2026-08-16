@@ -128,5 +128,4 @@
 
 @media print {
   .sumWrap { max-width: 100%; padding: 0; color: #000; }
-  body { background: #fff !important; }
 }
