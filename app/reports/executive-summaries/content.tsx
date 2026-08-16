@@ -4,6 +4,7 @@ import { IafSummary } from './iaf';
 import { NavySummary } from './navy';
 import { SolarSummary } from './solar';
 import { GhSummary } from './gh';
+import { QdSummary } from './qd';
 
 /** Maps executive-summary slugs to their content components. The route renders
  *  whatever this map provides; keep it in sync with EXEC_SUMMARIES (registry). */
@@ -14,4 +15,5 @@ export const EXEC_CONTENT: Record<string, () => React.ReactElement> = {
   'indian-navy-autonomous-maritime': NavySummary,
   'beyond-solar-panels': SolarSummary,
   'india-green-hydrogen': GhSummary,
+  'q-day-india': QdSummary,
 };

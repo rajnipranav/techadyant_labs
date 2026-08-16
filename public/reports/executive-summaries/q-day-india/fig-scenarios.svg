@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="Scenario probability trajectories 2026 to 2033: Drift 50 to 10, Catch-Up 40 to 25, Sovereign-Leap 10 to 65 percent" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="300" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Strategic trajectory probability, 2026-2033</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">With the recommended policy set notified in 2026, Sovereign-Leap becomes the modal outcome by 2031</text>
+<line x1="80" y1="240" x2="920" y2="240" stroke="#334155" stroke-width="1.5"/>
+<line x1="80" y1="50" x2="80" y2="240" stroke="#334155" stroke-width="1.5"/>
+<text x="70" y="244" font-size="10" fill="#64748b" text-anchor="end">0%</text>
+<line x1="80" y1="240" x2="84" y2="240" stroke="#475569" stroke-width="1"/>
+<text x="70" y="196" font-size="10" fill="#64748b" text-anchor="end">25%</text>
+<line x1="80" y1="192" x2="84" y2="192" stroke="#475569" stroke-width="1"/>
+<text x="70" y="149" font-size="10" fill="#64748b" text-anchor="end">50%</text>
+<line x1="80" y1="145" x2="84" y2="145" stroke="#475569" stroke-width="1"/>
+<text x="70" y="101" font-size="10" fill="#64748b" text-anchor="end">75%</text>
+<line x1="80" y1="97" x2="84" y2="97" stroke="#475569" stroke-width="1"/>
+<text x="70" y="54" font-size="10" fill="#64748b" text-anchor="end">100%</text>
+<line x1="80" y1="50" x2="84" y2="50" stroke="#475569" stroke-width="1"/>
+<text x="80" y="256" font-size="10" fill="#94a3b8" text-anchor="middle">2026</text>
+<text x="350" y="256" font-size="10" fill="#94a3b8" text-anchor="middle">2029</text>
+<text x="520" y="256" font-size="10" fill="#94a3b8" text-anchor="middle">2031</text>
+<text x="920" y="256" font-size="10" fill="#94a3b8" text-anchor="middle">2033</text>
+<line x1="80" y1="145" x2="920" y2="221" stroke="#ef4444" stroke-width="2.5"/>
+<text x="920" y="213" font-size="11.5" font-weight="700" fill="#ef4444" text-anchor="end">Drift 50% -> 10%</text>
+<line x1="80" y1="164" x2="920" y2="192" stroke="#f59e0b" stroke-width="2.5"/>
+<text x="920" y="184" font-size="11.5" font-weight="700" fill="#f59e0b" text-anchor="end">Catch-Up 40% -> 25%</text>
+<line x1="80" y1="221" x2="920" y2="116" stroke="#38BDF8" stroke-width="2.5"/>
+<text x="920" y="134" font-size="11.5" font-weight="700" fill="#38BDF8" text-anchor="end">Sovereign-Leap 10% -> 65%</text>
+<text x="28" y="284" font-size="11" fill="#94a3b8">Without aggressive 2026 policy action, Drift dominates through 2028 and the CNSA 2.0 window is missed.</text></svg>

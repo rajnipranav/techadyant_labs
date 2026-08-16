@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="HND exposure: four sectors carry 87 percent of national vulnerable traffic, healthcare and power 70 to 78 percent" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="300" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Harvest-now-decrypt-later exposure</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">Four sectors carry an estimated 87% of national HND-vulnerable traffic</text>
+<rect x="28" y="76" width="758" height="26" rx="6" fill="#151f2e" stroke="#38BDF8" stroke-width="1"/>
+<rect x="30" y="78" width="659" height="22" rx="5" fill="#38BDF8"/>
+<text x="806" y="94" font-size="12.5" font-weight="700" fill="#f1f5f9">87%</text>
+<text x="30" y="92" font-size="11" font-weight="700" fill="#0b1220">Defence C2 + BFSI + Telecom + Govt digital</text>
+<text x="300" y="124" font-size="11" fill="#94a3b8">Remaining sectors: 13% of HND-vulnerable traffic</text>
+<text x="28" y="158" font-size="11.5" font-weight="700" fill="#f1f5f9">High-band exposure in long-life data sectors</text>
+<text x="28" y="189" font-size="11" fill="#cbd5e1">Healthcare (long-life records)</text>
+<rect x="360" y="176" width="326" height="15" rx="4" fill="#f59e0b"/>
+<text x="693.6" y="189" font-size="11" font-weight="700" fill="#f1f5f9">70-78%</text>
+<text x="28" y="219" font-size="11" fill="#cbd5e1">Power (SCADA control systems)</text>
+<rect x="360" y="206" width="326" height="15" rx="4" fill="#f59e0b"/>
+<text x="693.6" y="219" font-size="11" font-weight="700" fill="#f1f5f9">70-78%</text>
+<text x="28" y="258" font-size="11" fill="#94a3b8">Long-life data - biometric templates, defence command-and-control transcripts, sovereign bond issuance - has a confidentiality horizon measured in decades.</text>
+<text x="28" y="282" font-size="11" fill="#94a3b8">A CRQC arriving in 2033 retroactively compromises traffic harvested in 2026.</text></svg>

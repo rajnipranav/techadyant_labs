@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="PQC deadline stack timeline 2026 to 2033 with Q-Day modal window 2031 to 2035" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="300" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">The deadline stack, 2026-2033</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">Exogenous deadlines converge before the modal Q-Day window opens</text>
+<line x1="60" y1="170" x2="960" y2="170" stroke="#334155" stroke-width="2"/>
+<rect x="703" y="156" width="514" height="28" rx="5" fill="#38BDF8" opacity="0.25"/>
+<text x="960" y="148" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle">Q-DAY MODAL WINDOW 2031-35</text>
+<circle cx="60" cy="170" r="5.5" fill="#38BDF8"/>
+<text x="60" y="194" font-size="11.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">2026</text>
+<text x="60" y="130" font-size="10" fill="#cbd5e1" text-anchor="middle">National PQC</text>
+<text x="60" y="116" font-size="10" fill="#cbd5e1" text-anchor="middle">Mandate (MeitY)</text>
+<circle cx="189" cy="170" r="5.5" fill="#38BDF8"/>
+<text x="189" y="194" font-size="11.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">2027</text>
+<text x="189" y="214" font-size="10" fill="#cbd5e1" text-anchor="middle">New systems</text>
+<text x="189" y="228" font-size="10" fill="#cbd5e1" text-anchor="middle">PQC-only</text>
+<circle cx="317" cy="170" r="5.5" fill="#38BDF8"/>
+<text x="317" y="194" font-size="11.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">2028</text>
+<text x="317" y="130" font-size="10" fill="#cbd5e1" text-anchor="middle">Sovereign stack;</text>
+<text x="317" y="116" font-size="10" fill="#cbd5e1" text-anchor="middle">PQC-native e-Rupee</text>
+<circle cx="446" cy="170" r="5.5" fill="#38BDF8"/>
+<text x="446" y="194" font-size="11.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">2029</text>
+<text x="446" y="214" font-size="10" fill="#cbd5e1" text-anchor="middle">Quad interop;</text>
+<text x="446" y="228" font-size="10" fill="#cbd5e1" text-anchor="middle">CRQC 10-18%</text>
+<circle cx="574" cy="170" r="5.5" fill="#ef4444"/>
+<text x="574" y="194" font-size="11.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">2030</text>
+<text x="574" y="130" font-size="10" fill="#cbd5e1" text-anchor="middle">CNSA 2.0 preferential;</text>
+<text x="574" y="116" font-size="10" fill="#cbd5e1" text-anchor="middle">defence interop binding</text>
+<circle cx="960" cy="170" r="5.5" fill="#ef4444"/>
+<text x="960" y="194" font-size="11.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">2033</text>
+<text x="960" y="214" font-size="10" fill="#cbd5e1" text-anchor="middle">CNSA 2.0 final;</text>
+<text x="960" y="228" font-size="10" fill="#cbd5e1" text-anchor="middle">all regulated systems</text>
+<text x="28" y="282" font-size="11" fill="#94a3b8">SWIFT PQC migration and Quad interoperability impose the same window on Indian financial messaging and defence systems.</text></svg>

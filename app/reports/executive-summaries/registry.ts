@@ -64,6 +64,15 @@ export const EXEC_SUMMARIES: Record<string, ExecSummaryMeta> = {
     readingTime: '~6 min',
     ogImage: 'https://library.techadyant.com/covers/Green_Hydrogen_Report.jpg',
   },
+  'q-day-india': {
+    title: 'Q-Day India: Post-Quantum Readiness, 2026-2033',
+    description:
+      "Free strategic report. India has roughly four years before CNSA 2.0, SWIFT and Quad deadlines force post-quantum migration. 87% of national HND-vulnerable traffic sits in four sectors.",
+    published: '2026-08-16',
+    publishedLabel: '16 Aug 2026',
+    readingTime: '~7 min',
+    ogImage: 'https://library.techadyant.com/covers/Techadyant_Labs_QDay_Report.jpg',
+  },
 };
 
 export const EXEC_SUMMARY_SLUGS = Object.keys(EXEC_SUMMARIES);
