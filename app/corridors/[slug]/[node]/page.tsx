@@ -141,7 +141,7 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
       )}
 
       {/* Dholera has its own dedicated opportunity map below, so the corridor context map is redundant there. */}
-      {!(slug === 'delhi-mumbai' && (node === 'dholera-sir' || node === 'auric-shendra-bidkin' || node === 'iitgnl-greater-noida')) && (
+      {!(slug === 'delhi-mumbai' && (node === 'dholera-sir' || node === 'auric-shendra-bidkin' || node === 'iitgnl-greater-noida')) && !(slug === 'chennai-bengaluru' && node === 'tumakuru') && (
         <section className="wrap">
           <CorridorGLMap corridors={corridorFeatures()} nodes={nodeFeatures()} focus={slug} focusNode={node} compact />
         </section>
@@ -204,6 +204,27 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
             <iframe
               src="/maps/iitgnl-greater-noida.html"
               title="IITGNL Greater Noida industrial intelligence and opportunity map"
+              loading="lazy"
+            />
+          </div>
+        </section>
+      )}
+
+      {slug === 'chennai-bengaluru' && node === 'tumakuru' && (
+        <section className="wrap">
+          <div className="dholera-embed">
+            <div className="de-head">
+              <h2>Tumakuru opportunity map</h2>
+              <p>
+                The machine-tool park, the Japanese enclaves and Havells on satellite imagery, with Bengaluru and
+                Tumakuru-city context. Select an anchor to open the supplier ecosystem and opportunity surface it
+                pulls. All positions are approximate regional context, not survey data.{' '}
+                <a href="/maps/tumakuru.html" target="_blank" rel="noopener noreferrer">Open full screen &#8599;</a>
+              </p>
+            </div>
+            <iframe
+              src="/maps/tumakuru.html"
+              title="Tumakuru node industrial intelligence and opportunity map"
               loading="lazy"
             />
           </div>

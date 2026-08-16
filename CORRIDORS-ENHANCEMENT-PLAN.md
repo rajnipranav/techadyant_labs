@@ -6,7 +6,7 @@ Prepared: 2026-08-16 (after full audit: code, data layer, live DOM measurements 
 - Phase 1 shipped: Dholera map mobile rebuild, GL map resize handler, mobile hero collapse, compact control bar, placeholder rewording.
 - Phase 2 shipped: comparison table (11x9), /corridors/methodology/, freshness stamp, NodeCardGrid stage filters, corridor-nodes.csv (38 nodes, CC BY 4.0).
 - Verified live via CDP at 390px: hero 1177->816px, dholera provenance/plan off by default + badge no overflow + 56vh map, table 11 rows, chips 5, csv 200.
-- Phase 3 status (commits 0a23825 + ec7d59a, live 2026-08-16): supplier-opportunity blocks on ALL 38 nodes DONE; state filter DONE; "What's new" feed DONE; AURIC + IITGNL opportunity maps DONE (2 of 3 flagship maps; one more node map optional - candidates Tumakuru/Kopparthy/Krishnapatnam). Build fix note: never pass functions as props to client components (StateFilter shortName bug broke CF prerender - fixed in 0a23825).
+- Phase 3 status (commits 0a23825 + ec7d59a, live 2026-08-16): supplier-opportunity blocks on ALL 38 nodes DONE; state filter DONE; "What's new" feed DONE; AURIC + IITGNL + Tumakuru opportunity maps DONE (all 3 flagship maps). Build fix note: never pass functions as props to client components (StateFilter shortName bug broke CF prerender - fixed in 0a23825).
 
 ## Audit summary — what's strong
 

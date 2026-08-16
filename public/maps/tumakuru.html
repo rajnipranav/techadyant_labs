@@ -1,0 +1,254 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tumakuru Node (Vasanthanarasapura) — Industrial Intelligence &amp; Opportunity Map</title>
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<style>
+ :root{--navy:#1a2b45;--brass:#C9A84C;--line:#e3e7ee;--dim:#5b6b82}
+ *{box-sizing:border-box}
+ body{margin:0;font-family:system-ui,Segoe UI,Roboto,sans-serif;color:var(--navy)}
+ .app{display:flex;height:100vh;width:100vw;overflow:hidden}
+ .map-wrap{position:relative;flex:1;min-width:0}#map{position:absolute;inset:0}
+ .badge{position:absolute;top:10px;left:10px;z-index:2;background:rgba(26,43,69,.86);color:#fff;padding:6px 12px;border-radius:6px;font-size:12px;max-width:58%}
+ .badge b{color:var(--brass)}
+ .ctrls{position:absolute;top:10px;right:52px;z-index:2;display:flex;gap:6px;flex-wrap:wrap;max-width:300px;justify-content:flex-end}
+ .ctrl{background:rgba(255,255,255,.94);border:1px solid #cfd6e0;border-radius:6px;padding:6px 10px;font-size:12px;cursor:pointer;font-weight:600;color:var(--navy)}
+ .ctrl.on{background:#2B79C5;color:#fff;border-color:#2B79C5}
+ .mlegend{position:absolute;bottom:14px;left:10px;z-index:2;background:rgba(255,255,255,.94);border:1px solid #cfd6e0;border-radius:6px;padding:8px 10px;font-size:11px;line-height:1.7;max-width:320px}
+ .mlegend .r{display:flex;align-items:center;gap:6px}
+ .sw{width:12px;height:12px;border-radius:50%;display:inline-block}.sw.rect{width:14px;height:10px;border-radius:1px}
+ .mk{cursor:pointer;display:flex;flex-direction:column;align-items:center;line-height:1}
+ .dotm{width:15px;height:15px;border-radius:50%;border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.55)}
+ .ringm{width:15px;height:15px;border-radius:50%;border:3px solid;background:rgba(255,255,255,.62);box-shadow:0 0 0 2px rgba(0,0,0,.22)}
+ .lbm{margin-top:3px;font-size:10.5px;font-weight:600;color:#fff;text-shadow:0 1px 3px #000,0 0 2px #000;white-space:nowrap;max-width:140px;overflow:hidden;text-overflow:ellipsis}
+ .mk.dim{opacity:.35}
+ .panel{width:400px;flex:0 0 400px;border-left:1px solid var(--line);overflow-y:auto;background:#fff}
+ .hd{padding:16px;border-bottom:1px solid var(--line)}
+ .kick{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--brass);font-weight:700}
+ h1{margin:4px 0 2px;font-size:20px}.sub{color:var(--dim);font-size:12px}
+ .stage{display:inline-block;margin-top:8px;font-size:11px;font-weight:600;border:1px solid;border-radius:999px;padding:2px 9px}
+ .grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:var(--line)}
+ .cell{background:#fff;padding:10px 12px}.cell .v{font-size:14px;font-weight:700}.cell .l{font-size:10px;color:var(--dim);margin-top:1px}
+ .sec{padding:14px 16px;border-bottom:1px solid var(--line)}
+ .sec h2{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--dim);margin:0 0 8px}
+ .lead{font-size:13px;line-height:1.5;margin:0}
+ .an{display:flex;gap:9px;align-items:flex-start;padding:9px 0;border-top:1px solid #f0f2f6;cursor:pointer}
+ .an:first-child{border-top:0}.an:hover{background:#faf7ee}
+ .dot{width:11px;height:11px;border-radius:50%;margin-top:3px;flex:0 0 11px}
+ .an .n{font-size:13px;font-weight:600}.an .m{font-size:11px;color:var(--dim)}
+ .chip{display:inline-block;font-size:10px;font-weight:700;padding:1px 7px;border-radius:999px;margin-left:6px;vertical-align:middle}
+ .tabs{display:flex;border-bottom:1px solid var(--line)}
+ .tab{flex:1;text-align:center;padding:11px;font-size:12px;font-weight:600;cursor:pointer;color:var(--dim);border-bottom:2px solid transparent}
+ .tab.on{color:var(--navy);border-bottom-color:var(--brass)}
+ .opp{padding:11px 0;border-top:1px solid #f0f2f6;cursor:pointer}.opp:first-child{border-top:0}.opp:hover{background:#faf9f4}.opp.hi{background:#fbf6e7}
+ .opp .t{font-size:13px;font-weight:600}.opp .why{font-size:12px;color:#3a4a63;line-height:1.45;margin:3px 0 0}
+ .opp .mx{font-size:11px;color:var(--dim);margin-top:4px;display:flex;flex-wrap:wrap;gap:8px}.opp .mx b{color:var(--navy)}
+ .eco{display:flex;gap:9px;padding:8px 0;border-top:1px solid #f0f2f6;font-size:12px}.eco:first-child{border-top:0}
+ .eco .ly{font-weight:600;flex:0 0 42%}.eco .st{color:var(--dim)}
+ .src a{display:block;font-size:12px;color:#2E6497;text-decoration:none;padding:3px 0}.src a:hover{text-decoration:underline}
+ .back{font-size:12px;color:var(--brass);cursor:pointer;font-weight:600}
+ .note{font-size:11px;color:var(--dim);padding:12px 16px;line-height:1.5}
+ .siting-badge{display:inline-block;font-size:10px;font-weight:700;padding:1px 7px;border-radius:999px;margin-left:6px;vertical-align:middle}
+ @media(max-width:860px){
+  .app{flex-direction:column}
+  .map-wrap{flex:0 0 56vh}
+  .panel{width:100%;flex:1;border-left:0;border-top:1px solid var(--line)}
+  .badge{max-width:calc(100% - 20px);right:10px;font-size:11.5px;line-height:1.45;padding:7px 10px;word-break:break-word}
+  .ctrls{top:auto;bottom:8px;left:8px;right:8px;max-width:none;justify-content:center;gap:5px;flex-wrap:nowrap}
+  .ctrl{padding:5px 9px;font-size:11px}
+  .mlegend{top:74px;bottom:auto;left:8px;max-width:calc(100% - 16px);max-height:32vh;overflow-y:auto;font-size:10.5px;padding:6px 8px}
+  .lbm{font-size:9.5px;max-width:92px;line-height:1.15}
+ }
+</style>
+</head>
+<body>
+<div class="app"><div class="map-wrap">
+ <div class="badge" id="badge">Tumakuru node (Vasanthanarasapura) · <b>click an anchor</b> to bloom its opportunity surface on the map</div>
+ <div class="ctrls">
+   <div class="ctrl" id="ctxbtn">🗺 Zone &amp; region context</div>
+   <div class="ctrl" id="resetbtn" style="display:none">↺ All anchors</div>
+ </div>
+ <div class="mlegend" id="mlegend"></div>
+ <div id="map"></div>
+ <div class="note" style="position:absolute;bottom:14px;right:10px;z-index:2;background:rgba(255,255,255,.92);border:1px solid #cfd6e0;border-radius:6px;max-width:300px">
+   All pins are <b>approximate regional context</b>, not survey data — positions sit inside the wider Vasanthanarasapura estate. Verify plot locations with KIADB/CBIC before acting.
+ </div>
+</div>
+<aside class="panel" id="panel"></aside></div>
+
+<script type="application/json" id="geo-json">{"type":"FeatureCollection","features":[
+ {"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[77.095,13.305],[77.205,13.305],[77.205,13.195],[77.095,13.195],[77.095,13.305]]]},"properties":{"kind":"zone","name":"Tumakuru node (approx)","detail":"8,500-ac phased smart city around Vasanthanarasapura, south-east of Tumakuru city","siting":"approximate","color":"#C9A84C"}},
+ {"type":"Feature","geometry":{"type":"Point","coordinates":[77.162,13.234]},"properties":{"kind":"anchor","cat":"mt","color":"#C9A84C","name":"Machine Tool Park (TMTP)","tenant":"Tumakuru Machine Tool Park — IMTMA technical partner","status":"Operational","investment":"₹508 cr dev · 530 ac · 158 plots","jobs":"—","target":"—","note":"India's first integrated machine-tool park; 22 large-company plots (128 ac) taken.","verified":"[V]","coordSource":"approx","siting":"approximate","sitingNote":"Approximate position within the wider Vasanthanarasapura estate."}},
+ {"type":"Feature","geometry":{"type":"Point","coordinates":[77.134,13.258]},"properties":{"kind":"anchor","cat":"auto","color":"#C9A84C","name":"Japan Industrial Township","tenant":"Japanese-firm enclave","status":"Fully occupied","investment":"160 ac · 107 companies","jobs":"—","target":"—","note":"Fully occupied Japanese enclave opposite the machine-tool park, incl. Toyota.","verified":"[V]","coordSource":"approx","siting":"approximate","sitingNote":"Approximate position — reported as opposite TMTP."}},
+ {"type":"Feature","geometry":{"type":"Point","coordinates":[77.187,13.212]},"properties":{"kind":"anchor","cat":"none","color":"#C9A84C","name":"Japan Industrial Park (new)","tenant":"Japanese-firm enclave (Phase II)","status":"Announced Nov 2025","investment":"300 ac","jobs":"—","target":"Allotment opening","note":"New 300-ac Japanese enclave announced Nov 2025; no allottees disclosed yet — no opportunity surface modelled.","verified":"[V1]","coordSource":"approx","siting":"approximate","sitingNote":"Approximate position within the node area."}},
+ {"type":"Feature","geometry":{"type":"Point","coordinates":[77.124,13.272]},"properties":{"kind":"anchor","cat":"elec","color":"#C9A84C","name":"Havells India (wire & cable)","tenant":"Havells India Ltd","status":"Allotted May 2016","investment":"62.09 ac","jobs":"—","target":"—","note":"Wire-and-cable plant at Vasanthanarasapura Industrial Area.","verified":"[V]","coordSource":"approx","siting":"approximate","sitingNote":"Approximate position within the node area."}},
+ {"type":"Feature","geometry":{"type":"Point","coordinates":[77.101,13.339]},"properties":{"kind":"place","cat":"place","color":"#95A5A6","name":"Tumakuru city (railway ~25 km)","tenant":"—","status":"—","investment":"—","jobs":"—","target":"—","note":"City and railhead the node draws labour and logistics from.","verified":"","coordSource":"approx","siting":"approximate"}},
+ {"type":"Feature","geometry":{"type":"Point","coordinates":[76.98,12.97]},"properties":{"kind":"place","cat":"place","color":"#8E44AD","name":"Bengaluru ~120 km (airport ~115 km)","tenant":"—","status":"—","investment":"—","jobs":"—","target":"—","note":"Bengaluru market and Kempegowda airport context to the south.","verified":"","coordSource":"approx","siting":"approximate"}}
+]}</script></script>
+<script type="application/json" id="sectors-json">{
+ "mt":{"label":"Machine tools & precision manufacturing","depth":"first-pass","summary":"The machine-tool park pulls the entire precision supply chain: spindles, ball screws, carbide tooling, castings and metrology. Karnataka already accounts for ~52% of India's machine-tool output and ~62% of exports — the gap is in high-precision, import-concentrated content.","ecosystem":[
+  {"layer":"CNC spindles & ball screws","status":"Import-heavy","players":"Global: THK, NSK, Bosch Rexroth","importDep":80},
+  {"layer":"Carbide & indexable tooling","status":"Import-heavy","players":"Sandvik, Kennametal, Walter","importDep":70},
+  {"layer":"Precision castings & forgings","status":"Localising","players":"Indian foundries","importDep":55},
+  {"layer":"Metrology & calibration labs","status":"Service gap","players":"NABL-aligned labs","importDep":45},
+  {"layer":"Automation & robotics integration","status":"Localising","players":"Indian integrators","importDep":50},
+  {"layer":"Heat treatment & finishing","status":"Localising","players":"Job shops","importDep":55}],
+  "opportunities":[
+   {"name":"Metrology & calibration labs","tier":"Build-now","importDep":45,"why":"Every precision shop needs traceable measurement; service-led, capital-light.","evidence":"[V1] modelled"},
+   {"name":"CNC accessories & workholding","tier":"Build-now","importDep":50,"why":"Consumable-heavy layer that scales with machine-tool output.","evidence":"[V1] modelled"},
+   {"name":"Precision castings & forgings","tier":"Build-now","importDep":55,"why":"Local foundry base exists; precision grade is the gap.","evidence":"[V1] modelled"},
+   {"name":"Ball screws & spindles","tier":"Position-early","importDep":80,"why":"Highest-value motion components, almost fully imported.","evidence":"[V1] modelled"},
+   {"name":"Carbide & indexable tooling","tier":"Position-early","importDep":70,"why":"Import-concentrated consumable with strong substitution economics.","evidence":"[V1] modelled"},
+   {"name":"Heat treatment services","tier":"Build-now","importDep":55,"why":"Shared capital asset the park's job shops need.","evidence":"[V1] modelled"}],
+  "source":"Techadyant sector taxonomy (first-pass; import-dependency from the Dholera supplier workbook + cross-report modelling)"},
+ "auto":{"label":"Auto components & e-mobility","depth":"first-pass","summary":"A fully occupied Japanese township with Toyota anchors the automotive base. The supply chain it pulls — harnesses, die-castings, rubber & plastics, and increasingly EV content — is largely localisable.","ecosystem":[
+  {"layer":"Wiring harnesses","status":"Localising","players":"Indian + Japanese harness makers","importDep":45},
+  {"layer":"Die-casting & forging","status":"Local base","players":"NCR/South Indian foundries","importDep":55},
+  {"layer":"Rubber & plastics","status":"Local base","players":"Tier-2 suppliers","importDep":50},
+  {"layer":"EV drivetrain & batteries","status":"Import-heavy","players":"Cell makers, powertrain imports","importDep":75},
+  {"layer":"Powertrain components","status":"Localising","players":"Tier-1 makers","importDep":55},
+  {"layer":"Tool rooms","status":"Partial","players":"Captive + job shops","importDep":60}],
+  "opportunities":[
+   {"name":"Die-casting & forging","tier":"Build-now","importDep":55,"why":"Japanese OEM standards make local capacity scarce but demand real.","evidence":"[V1] modelled"},
+   {"name":"Wiring harnesses","tier":"Build-now","importDep":45,"why":"Labour-adjacent assembly that follows vehicle plants.","evidence":"[V1] modelled"},
+   {"name":"Tool rooms","tier":"Build-now","importDep":60,"why":"Dies and moulds are the persistent gap across automotive.","evidence":"[V1] modelled"},
+   {"name":"EV drivetrain components","tier":"Position-early","importDep":75,"why":"e-mobility content shifts the component mix toward imports today.","evidence":"[V1] modelled"},
+   {"name":"Battery pack assembly","tier":"Position-early","importDep":80,"why":"Cell chemistry stays imported; pack assembly localises first.","evidence":"[V1] modelled"}],
+  "source":"Techadyant sector taxonomy (first-pass)"},
+ "elec":{"label":"Electronics & electricals","depth":"first-pass","summary":"Havells anchors the electricals layer: wire & cable, switchgear, and the appliance-component chain around them. NCR and South India have the EMS base; the appliance-grade content is the opening.","ecosystem":[
+  {"layer":"Wire & cable","status":"Local base","players":"Havells, Polycab, KEI","importDep":35},
+  {"layer":"Switchgear & protection","status":"Localising","players":"Havells, Siemens, L&T","importDep":45},
+  {"layer":"PCBA / EMS assembly","status":"Local base","players":"Indian EMS + global EMS","importDep":50},
+  {"layer":"Appliance components","status":"Import-concentrated","players":"Compressors, motors imported","importDep":55},
+  {"layer":"LED & lighting","status":"Local base","players":"Indian makers","importDep":50},
+  {"layer":"Testing & certification labs","status":"Service-led","players":"BIS/NABL labs","importDep":40}],
+  "opportunities":[
+   {"name":"Wire & cable supply chain","tier":"Build-now","importDep":35,"why":"Anchor demand already local; upstream (copper, compounds) is the layer to add.","evidence":"[V1] modelled"},
+   {"name":"Switchgear & protection","tier":"Build-now","importDep":45,"why":"Scales with industrial + construction demand across the node.","evidence":"[V1] modelled"},
+   {"name":"Testing & certification labs","tier":"Build-now","importDep":40,"why":"BIS/NABL demand is brand-agnostic and recurring.","evidence":"[V1] modelled"},
+   {"name":"PCBA / EMS assembly","tier":"Position-early","importDep":50,"why":"Appliance volumes give an EMS base critical mass.","evidence":"[V1] modelled"},
+   {"name":"Appliance components","tier":"Position-early","importDep":55,"why":"Compressors/motors stay import-concentrated; substitution play.","evidence":"[V1] modelled"}],
+  "source":"Techadyant sector taxonomy (first-pass)"}
+}</script></script>
+<script type="application/json" id="node-json">{"name":"Tumakuru node (Vasanthanarasapura)","corridor":"Chennai–Bengaluru Industrial Corridor (CBIC)","state":"Karnataka","stage":"Operational — machine-tool park & Japanese belt live; Phase 1 building toward end-2026","area":"8,500 ac","trunkInfra":"₹13,717 cr (JICA)","jobs":"2,20,000","sectors":"Machine tools, precision manufacturing, electronics, auto components, food products, textiles & apparel, pharmaceuticals, engineering","developer":"CBIC Tumakuru Industrial Township Ltd (state SPV via KIADB) — 50:50 NICDIT : KIADB/GoK; SHA & SSA signed 30 Oct 2018","headline":"India's first machine-tool park — 530 ac, 158 ready-to-build plots — is operational with 22 large-company plots (128 ac) taken, and a fully occupied 160-ac Japan Industrial Township sits opposite (107 firms incl. Toyota). Phase 1 (1,736 ac) is under construction toward end-2026; a new 300-ac Japan Industrial Park was announced Nov 2025. Karnataka holds ~52% of India's machine-tool output and ~62% of exports.","sources":[{"label":"Tumakuru node page — Techadyant Labs","url":"https://labs.techadyant.com/corridors/chennai-bengaluru/tumakuru/"},{"label":"Indian Express — Tumakuru industrial smart city","url":"https://indianexpress.com/article/cities/bangalore/invest-karnataka-25-tumakurus-industrial-smart-city-2026-piyush-goyal-9833519/lite/"},{"label":"Deccan Herald — India's first machine-tool park ready","url":"https://www.deccanherald.com/amp/story/business/india-s-first-machine-tool-park-ready-for-investors-in-karnataka-956526.html"},{"label":"JICA — CBIC Tumakuru node development plan (2016)","url":"https://openjicareport.jica.go.jp/pdf/12249330.pdf"}]}</script></script>
+
+<script>
+function loadJson(id){const el=document.getElementById(id);return el?JSON.parse(el.textContent):null;}
+const GEO=loadJson('geo-json');
+const SECTORS=loadJson('sectors-json');
+const NODE=loadJson('node-json');
+const anchors=GEO.features.filter(f=>f.properties.kind==='anchor');
+const places=GEO.features.filter(f=>f.properties.kind==='place');
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const TIER={'Build-now':'#0F8E78','Position-early':'#B5891E','Watch':'#8593A6'};
+const tchip=t=>`<span class="chip" style="background:${TIER[t]}22;color:${TIER[t]}">${esc(t)}</span>`;
+const schip=s=>{const m={'verified':['#e6f4ee','#0F8E78'],'indicative':['#fdf3e0','#B5891E'],'undisclosed':['#fdeaea','#C0392B'],'approximate':['#fdf3e0','#B5891E']};const g=m[s]||['#eef1f5','#5b6b82'];return `<span class="siting-badge" style="background:${g[0]};color:${g[1]}">${esc(s)}</span>`;};
+const short=n=>n.replace(/\s*[\(/].*$/,'').replace(/ &.*$/,'').slice(0,24);
+function elMk(html,cls){const d=document.createElement('div');d.className=cls;d.innerHTML=html;return d;}
+const style={version:8,sources:{sat:{type:'raster',tiles:['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],tileSize:256,attribution:'Imagery © Esri, Maxar'},ref:{type:'raster',tiles:['https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}'],tileSize:256,attribution:'© Esri'}},layers:[{id:'sat',type:'raster',source:'sat'},{id:'ref',type:'raster',source:'ref'}]};
+const map=new maplibregl.Map({container:'map',style,center:[77.15,13.26],zoom:11,minZoom:6,maxZoom:15,attributionControl:false});
+map.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-right');
+map.addControl(new maplibregl.AttributionControl({compact:true}));
+const EMPTY={type:'FeatureCollection',features:[]};
+const anchorMarkers={}; let bloomMarkers=[]; let ctxOn=false;
+
+map.on('load',()=>{
+ map.addSource('zones',{type:'geojson',data:GEO});
+ map.addLayer({id:'zone-fill',type:'fill',source:'zones',filter:['==',['get','kind'],'zone'],paint:{'fill-color':['get','color'],'fill-opacity':0.14}});
+ map.addLayer({id:'zone-line',type:'line',source:'zones',filter:['==',['get','kind'],'zone'],paint:{'line-color':['get','color'],'line-width':1.4,'line-dasharray':[3,3],'line-opacity':0.75}});
+ map.addSource('bloomlines',{type:'geojson',data:EMPTY});
+ map.addLayer({id:'bloom-line',type:'line',source:'bloomlines',paint:{'line-color':['get','color'],'line-width':1.3,'line-dasharray':[2,2],'line-opacity':0.75}});
+ anchors.forEach(f=>{const p=f.properties;
+   const d=elMk(`<span class="dotm" style="background:${p.color}"></span><span class="lbm">${esc(p.name)}</span>`,'mk anch');
+   d.onclick=(ev)=>{ev.stopPropagation();selectAnchor(p);};
+   anchorMarkers[p.name]=new maplibregl.Marker({element:d,anchor:'top'}).setLngLat(f.geometry.coordinates).addTo(map);});
+ places.forEach(f=>{const p=f.properties;
+   const d=elMk(`<span class="dotm" style="background:${p.color}"></span><span class="lbm">${esc(p.name)}</span>`,'mk anch');
+   d.onclick=(ev)=>{ev.stopPropagation();selectAnchor(p);};
+   anchorMarkers[p.name]=new maplibregl.Marker({element:d,anchor:'top'}).setLngLat(f.geometry.coordinates).addTo(map);});
+ renderNode();drawLegend('anchors');
+});
+
+let CUR=null;
+function bloomFor(p){
+ clearBloom();
+ const S=SECTORS[p.cat]; if(!S)return;
+ const a=anchors.find(x=>x.properties.name===p.name)||places.find(x=>x.properties.name===p.name); if(!a)return;
+ const c=a.geometry.coordinates;
+ const opp=S.opportunities; const N=opp.length; const R=0.03; const clat=Math.cos(c[1]*Math.PI/180)||1;
+ const lines=[]; let w=180,s=90,e=-180,n=-90;
+ const ext=(x,y)=>{w=Math.min(w,x);e=Math.max(e,x);s=Math.min(s,y);n=Math.max(n,y);}; ext(c[0],c[1]);
+ Object.entries(anchorMarkers).forEach(([nm,mk])=>mk.getElement().classList.toggle('dim',nm!==p.name));
+ opp.forEach((o,i)=>{
+   const ang=(-90+i*(360/N))*Math.PI/180; const lon=c[0]+R*Math.cos(ang)/clat, lat=c[1]+R*Math.sin(ang);
+   lines.push({type:'Feature',geometry:{type:'LineString',coordinates:[c,[lon,lat]]},properties:{color:TIER[o.tier]}});
+   const d=elMk(`<span class="ringm" style="border-color:${TIER[o.tier]}"></span><span class="lbm">${esc(short(o.name))}</span>`,'mk opp');
+   d.title=`OPPORTUNITY · ${o.tier} — ${o.name}`;
+   d.onclick=(ev)=>{ev.stopPropagation();highlightOpp(p.cat+'-'+i);};
+   bloomMarkers.push(new maplibregl.Marker({element:d,anchor:'top'}).setLngLat([lon,lat]).addTo(map));
+   ext(lon,lat);
+ });
+ map.getSource('bloomlines').setData({type:'FeatureCollection',features:lines});
+ map.fitBounds([[w,s],[e,n]],{padding:{top:80,bottom:80,left:80,right:80},maxZoom:13,duration:700});
+}
+function clearBloom(){bloomMarkers.forEach(m=>m.remove());bloomMarkers=[];if(map.getSource('bloomlines'))map.getSource('bloomlines').setData(EMPTY);Object.values(anchorMarkers).forEach(mk=>mk.getElement().classList.remove('dim'));}
+function highlightOpp(oid){const el=document.querySelector(`.opp[data-oid="${oid}"]`);if(el){document.querySelectorAll('.opp').forEach(x=>x.classList.remove('hi'));el.classList.add('hi');el.scrollIntoView({block:'center',behavior:'smooth'});const tab=document.querySelector('.tab[data-t="opp"]');if(tab&&!tab.classList.contains('on'))tab.click();}}
+
+// ---- NCR context toggle ----
+function setCtx(on){
+ ctxOn=on;
+ ['zone-fill','zone-line'].forEach(id=>map.setLayoutProperty(id,'visibility',on?'visible':'none'));
+ document.getElementById('ctxbtn').classList.toggle('on',on);
+ if(on) drawLegend('zones'); else drawLegend('anchors');
+}
+document.getElementById('ctxbtn').onclick=()=>{ setCtx(!ctxOn); };
+document.getElementById('resetbtn').onclick=resetView;
+function resetView(){CUR=null;clearBloom();document.getElementById('resetbtn').style.display='none';document.getElementById('badge').innerHTML='Tumakuru node (Vasanthanarasapura) · <b>click an anchor</b> to bloom its opportunity surface on the map';map.flyTo({center:[77.15,13.26],zoom:11,duration:600});drawLegend('anchors');renderNode();}
+
+function drawLegend(mode){const L=document.getElementById('mlegend');
+ if(mode==='opp'){L.innerHTML=`<div style="font-weight:700;margin-bottom:3px">Opportunity surface</div><div class="r"><span class="sw" style="background:#0F8E78"></span>Build-now</div><div class="r"><span class="sw" style="background:#B5891E"></span>Position-early</div><div class="r"><span class="sw" style="background:#8593A6"></span>Watch</div>`;return;}
+ if(mode==='zones'){L.innerHTML=`<div style="font-weight:700;margin-bottom:3px">Node zone + region context</div><div class="r"><span class="sw rect" style="background:#C9A84C"></span>Tumakuru node area (approx)</div><p style="margin:4px 0 0;font-size:10px;color:#5b6b82">Context pins: Tumakuru city (railway) and Bengaluru market context.</p>`;return;}
+ L.innerHTML=`<div style="font-weight:700;margin-bottom:3px">Anchors (approximate)</div>`+anchors.map(f=>`<div class="r"><span class="sw" style="background:${f.properties.color}"></span>${esc(f.properties.name)}</div>`).join('')+`<p style="margin:4px 0 0;font-size:10px;color:#5b6b82">All positions approximate (±1–3 km).</p>`;
+}
+
+function renderNode(){
+ const P=document.getElementById('panel');
+ const secs=Object.entries(SECTORS).map(([k,s])=>`<div class="sec"><h2>${esc(s.label)} <span style="font-weight:400;text-transform:none;letter-spacing:0;color:#5b6b82">(first-pass)</span></h2><p class="lead">${esc(s.summary)}</p></div>`).join('');
+ P.innerHTML=`<div class="hd"><div class="back" id="bk">← Tumakuru overview</div><div class="kick">${esc(NODE.corridor)}</div><h1>${esc(NODE.name)}</h1><div class="sub">${esc(NODE.state)} · ${esc(NODE.stage)}</div><span class="stage" style="color:#0F8E78;border-color:#0F8E78">Operational</span></div>
+ <div class="grid"><div class="cell"><div class="v">${esc(NODE.area)}</div><div class="l">Area</div></div><div class="cell"><div class="v">${esc(NODE.trunkInfra)}</div><div class="l">Trunk infra</div></div><div class="cell"><div class="v">₹33,000 cr</div><div class="l">Projected private inv.</div></div></div>
+ <div class="sec"><h2>The read</h2><p class="lead">${esc(NODE.headline)}</p></div>
+ <div class="sec"><h2>Anchor projects</h2>`+anchors.map(f=>{const p=f.properties;return `<div class="an" data-anchor="${esc(p.name)}"><span class="dot" style="background:${p.color}"></span><div><div class="n">${esc(p.name)} ${p.siting?schip(p.siting):''}</div><div class="m">${esc(p.tenant)} · ${esc(p.status)}${p.investment&&p.investment!=='—'?` · ${esc(p.investment)}`:''}</div></div></div>`;}).join('')+`</div>
+ <div class="sec"><h2>Opportunity surface</h2>`+secs+`</div>
+ <div class="sec"><h2>Sources</h2><div class="src">`+NODE.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>`).join('')+`</div></div>
+ <div class="note">Opportunity layers are first-pass, derived from Techadyant's sector taxonomy (import-dependency figures from the Dholera supplier workbook and cross-report modelling). They are indicative — verify each layer against current tenders before acting. Positions are approximate; confirm plot locations with KIADB/CBIC.</div>`;
+ document.querySelectorAll('.an').forEach(el=>el.onclick=()=>{const nm=el.dataset.anchor;const f=anchors.find(x=>x.properties.name===nm);if(f)selectAnchor(f.properties);});
+ const bk=document.getElementById('bk'); if(bk)bk.onclick=resetView;
+}
+function renderAnchorOnly(p){
+ const P=document.getElementById('panel');
+ P.innerHTML=`<div class="hd"><div class="back" id="bk">← ${esc(p.name)}</div><div class="kick">Anchor profile</div><h1>${esc(p.name)}</h1><div class="sub">${esc(p.tenant||'')} · ${esc(p.status||'')}</div>${p.siting?schip(p.siting):''}</div>
+ <div class="sec"><h2>What we know</h2><p class="lead">${esc(p.note||'')}</p></div>
+ <div class="sec"><h2>Why no opportunity surface</h2><p class="lead">This anchor has no modelled sector bloom yet — announced Nov 2025 with allotments opening and no allottees disclosed, so we do not fabricate an ecosystem. The map will gain its opportunity surface as allotments are confirmed.</p></div>
+ <div class="note">${esc(p.sitingNote||'')}</div>`;
+ const bk=document.getElementById('bk'); if(bk)bk.onclick=()=>{clearBloom();CUR=null;document.getElementById('resetbtn').style.display='none';renderNode();};
+}
+function renderOpp(p){
+ const S=SECTORS[p.cat]; if(!S){renderAnchorOnly(p);return;}
+ const P=document.getElementById('panel');
+ P.innerHTML=`<div class="hd"><div class="back" id="bk">← ${esc(p.name)}</div><div class="kick">Opportunity surface</div><h1>${esc(p.name)}</h1><div class="sub">${esc(p.tenant||'')} · ${esc(p.status||'')}</div>${p.siting?schip(p.siting):''}</div>
+ <div class="sec"><h2>${esc(S.label)} — what it pulls</h2><p class="lead">${esc(S.summary)}</p></div>
+ <div class="sec"><h2>Ecosystem layers</h2>`+S.ecosystem.map(e=>`<div class="eco"><div class="ly">${esc(e.layer)}</div><div class="st">${esc(e.status)}${e.importDep!=null?` · ${e.importDep}% imp.`:' · n/a'}</div></div>`).join('')+`</div>
+ <div class="sec"><h2>Opportunities</h2>`+S.opportunities.map((o,i)=>`<div class="opp" data-oid="${esc(p.cat)}-${i}"><div class="t">${esc(o.name)} ${tchip(o.tier)}</div><div class="why">${esc(o.why)}</div><div class="mx"><span>Import dep: <b>${o.importDep!=null?o.importDep+'%':'—'}</b></span><span>Evidence: <b>${esc(o.evidence)}</b></span></div></div>`).join('')+`</div>
+ <div class="note">${esc(S.source)}</div>`;
+ const bk=document.getElementById('bk'); if(bk)bk.onclick=()=>{clearBloom();CUR=null;document.getElementById('resetbtn').style.display='none';document.getElementById('badge').innerHTML='Tumakuru node (Vasanthanarasapura) · <b>click an anchor</b> to bloom its opportunity surface on the map';renderNode();};
+}
+function selectAnchor(p){
+ CUR=p;
+ document.getElementById('resetbtn').style.display='';
+ document.getElementById('badge').innerHTML=`<b>${esc(p.name)}</b> — ${esc(p.note||'')}`;
+ bloomFor(p);
+ renderOpp(p);
+ drawLegend('opp');
+}
+</script>
+</body></html>
