@@ -94,16 +94,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((r) => r.status === 'published')
     .map((r) => ({
       url: `${SITE}/reports/${r.slug}/`,
-    ...Object.keys(EXEC_SUMMARIES).map((slug) => ({
-      url: `${SITE}/reports/${slug}/executive-summary/`,
-      lastModified: now,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    })),
       lastModified: new Date(r.published),
       changeFrequency: 'monthly' as const,
       priority: r.access === 'free' ? 0.95 : 0.85,
     }));
+
+  // Free executive-summary pages (indexable condensed editions per report).
+  const execSummaryRoutes: MetadataRoute.Sitemap = Object.keys(EXEC_SUMMARIES).map((slug) => ({
+    url: `${SITE}/reports/${slug}/executive-summary/`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }));
 
   // Live + monitoring signals (skip 'placeholder' status).
   const signalRoutes: MetadataRoute.Sitemap = signals
