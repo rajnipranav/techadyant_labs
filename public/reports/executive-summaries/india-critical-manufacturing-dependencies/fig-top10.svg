@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-label="Top ten opportunity surfaces by CMDI score" font-family="Inter, Arial">
+<text x="20" y="52" font-size="12" fill="#94a3b8">Top-10 opportunity surfaces by CMDI (0–100)</text>
+<text x="20" y="44" font-size="11.5" fill="#e2e8f0">Compound semiconductors (SiC, GaN)</text>
+<rect x="380" y="28" width="500" height="22" rx="4" fill="#1a2332"/>
+<rect x="380" y="28" width="425.0" height="22" rx="4" fill="#3b82f6"/>
+<text x="815.0" y="44" font-size="12" font-weight="700" fill="#f1f5f9">85</text>
+<text x="20" y="70" font-size="11.5" fill="#e2e8f0">Li-ion cell manufacturing (50+ GWh)</text>
+<rect x="380" y="54" width="500" height="22" rx="4" fill="#1a2332"/>
+<rect x="380" y="54" width="410.0" height="22" rx="4" fill="#3b82f6"/>
+<text x="800.0" y="70" font-size="12" font-weight="700" fill="#f1f5f9">82</text>
+<text x="20" y="96" font-size="11.5" fill="#e2e8f0">Solar wafer & cell (top-3 global)</text>
+<rect x="380" y="80" width="500" height="22" rx="4" fill="#1a2332"/>
+<rect x="380" y="80" width="390.0" height="22" rx="4" fill="#3b82f6"/>
+<text x="780.0" y="96" font-size="12" font-weight="700" fill="#f1f5f9">78</text>
+<text x="20" y="122" font-size="11.5" fill="#e2e8f0">EV power electronics</text>
+<rect x="380" y="106" width="500" height="22" rx="4" fill="#1a2332"/>
+<rect x="380" y="106" width="390.0" height="22" rx="4" fill="#3b82f6"/>
+<text x="780.0" y="122" font-size="12" font-weight="700" fill="#f1f5f9">78</text>
+<text x="20" y="148" font-size="11.5" fill="#e2e8f0">CNC 5-axis machine tools</text>
+<rect x="380" y="132" width="500" height="22" rx="4" fill="#1a2332"/>
+<rect x="380" y="132" width="375.0" height="22" rx="4" fill="#3b82f6"/>
+<text x="765.0" y="148" font-size="12" font-weight="700" fill="#f1f5f9">75</text>
+<text x="20" y="174" font-size="11.5" fill="#e2e8f0">Specialty steel (40 grades)</text>
+<rect x="380" y="158" width="500" height="22" rx="4" fill="#1a2332"/>
+<rect x="380" y="158" width="360.0" height="22" rx="4" fill="#f59e0b"/>
+<text x="750.0" y="174" font-size="12" font-weight="700" fill="#f1f5f9">72</text>
+<text x="20" y="200" font-size="11.5" fill="#e2e8f0">Pharma API backward integration</text>
+<rect x="380" y="184" width="500" height="22" rx="4" fill="#1a2332"/>
+<rect x="380" y="184" width="350.0" height="22" rx="4" fill="#f59e0b"/>
+<text x="740.0" y="200" font-size="12" font-weight="700" fill="#f1f5f9">70</text>
+<text x="20" y="226" font-size="11.5" fill="#e2e8f0">Medical device assembly</text>
+<rect x="380" y="210" width="500" height="22" rx="4" fill="#1a2332"/>
+<rect x="380" y="210" width="350.0" height="22" rx="4" fill="#f59e0b"/>
+<text x="740.0" y="226" font-size="12" font-weight="700" fill="#f1f5f9">70</text>
+<text x="20" y="252" font-size="11.5" fill="#e2e8f0">Green hydrogen electrolysers (1 GW+)</text>
+<rect x="380" y="236" width="500" height="22" rx="4" fill="#1a2332"/>
+<rect x="380" y="236" width="340.0" height="22" rx="4" fill="#94a3b8"/>
+<text x="730.0" y="252" font-size="12" font-weight="700" fill="#f1f5f9">68</text>
+<text x="20" y="278" font-size="11.5" fill="#e2e8f0">Wind turbine gearbox & generator</text>
+<rect x="380" y="262" width="500" height="22" rx="4" fill="#1a2332"/>
+<rect x="380" y="262" width="325.0" height="22" rx="4" fill="#94a3b8"/>
+<text x="715.0" y="278" font-size="12" font-weight="700" fill="#f1f5f9">65</text>
+</svg>

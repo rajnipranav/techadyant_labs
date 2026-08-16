@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-label="Manufacturing value added: India 470 billion dollars versus Korea, United States, China" font-family="Inter, Arial">
+<text x="20" y="40" font-size="12" fill="#94a3b8">Manufacturing value added, 2023 (US$ billion) — India is 2.9% of global MVA</text>
+<rect x="100.0" y="165.9" width="120" height="14.1" rx="6" fill="#f59e0b"/>
+<text x="160.0" y="155.9" font-size="13" font-weight="700" fill="#f1f5f9" text-anchor="middle">470</text>
+<text x="160.0" y="202" font-size="12" fill="#cbd5e1" text-anchor="middle">India</text>
+<rect x="270.0" y="164.1" width="120" height="15.9" rx="6" fill="#94a3b8"/>
+<text x="330.0" y="154.1" font-size="13" font-weight="700" fill="#f1f5f9" text-anchor="middle">530</text>
+<text x="330.0" y="202" font-size="12" fill="#cbd5e1" text-anchor="middle">S. Korea</text>
+<rect x="440.0" y="163.2" width="120" height="16.8" rx="6" fill="#94a3b8"/>
+<text x="500.0" y="153.2" font-size="13" font-weight="700" fill="#f1f5f9" text-anchor="middle">560</text>
+<text x="500.0" y="202" font-size="12" fill="#cbd5e1" text-anchor="middle">Italy</text>
+<rect x="610.0" y="105.3" width="120" height="74.7" rx="6" fill="#3b82f6"/>
+<text x="670.0" y="95.3" font-size="13" font-weight="700" fill="#f1f5f9" text-anchor="middle">2,490</text>
+<text x="670.0" y="202" font-size="12" fill="#cbd5e1" text-anchor="middle">United States</text>
+<rect x="780.0" y="40.19999999999999" width="120" height="139.8" rx="6" fill="#3b82f6"/>
+<text x="840.0" y="30.19999999999999" font-size="13" font-weight="700" fill="#f1f5f9" text-anchor="middle">4,660</text>
+<text x="840.0" y="202" font-size="12" fill="#cbd5e1" text-anchor="middle">China</text>
+<text x="20" y="290" font-size="11" fill="#cbd5e1">India manufactures, in absolute dollars, less than Italy — with eighteen times South Korea’s population.</text>
+</svg>

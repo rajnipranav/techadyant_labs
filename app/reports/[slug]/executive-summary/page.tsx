@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { EXEC_SUMMARIES, EXEC_SUMMARY_SLUGS } from '../../executive-summaries/registry';
-import { BeyondSeaDronesSummary } from '../../executive-summaries/beyond-sea-drones';
+import { EXEC_CONTENT } from '../../executive-summaries/content';
 
 export const dynamic = 'force-static';
 
@@ -46,15 +46,12 @@ export default async function ExecutiveSummaryPage({
 }) {
   const { slug } = await params;
   const meta = EXEC_SUMMARIES[slug];
-  if (!meta) return notFound();
+  const Content = EXEC_CONTENT[slug];
+  if (!meta || !Content) return notFound();
 
-  // Only the shipped summaries render here; add a branch per report below.
-  if (slug === 'beyond-sea-drones-india-autonomous-maritime-systems') {
-    return (
-      <main>
-        <BeyondSeaDronesSummary />
-      </main>
-    );
-  }
-  return notFound();
+  return (
+    <main>
+      <Content />
+    </main>
+  );
 }

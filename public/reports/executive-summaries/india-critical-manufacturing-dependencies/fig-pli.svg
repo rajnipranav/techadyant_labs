@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="PLI scheme utilisation: 88 percent mobile manufacturing versus 18 percent semiconductors" font-family="Inter, Arial">
+<text x="20" y="40" font-size="12" fill="#94a3b8">PLI utilisation, FY2024 — the gap is capability, not incentive size</text>
+<text x="20" y="82" font-size="11.5" fill="#e2e8f0">Mobile manufacturing</text>
+<rect x="380" y="64" width="500" height="26" rx="4" fill="#1a2332"/>
+<rect x="380" y="64" width="440.0" height="26" rx="4" fill="#34d399"/>
+<text x="830.0" y="82" font-size="12" font-weight="700" fill="#f1f5f9">88%</text>
+<text x="20" y="124" font-size="11.5" fill="#e2e8f0">Pharma APIs</text>
+<rect x="380" y="106" width="500" height="26" rx="4" fill="#1a2332"/>
+<rect x="380" y="106" width="390.0" height="26" rx="4" fill="#34d399"/>
+<text x="780.0" y="124" font-size="12" font-weight="700" fill="#f1f5f9">78%</text>
+<text x="20" y="166" font-size="11.5" fill="#e2e8f0">Drones</text>
+<rect x="380" y="148" width="500" height="26" rx="4" fill="#1a2332"/>
+<rect x="380" y="148" width="170.0" height="26" rx="4" fill="#f59e0b"/>
+<text x="560.0" y="166" font-size="12" font-weight="700" fill="#f1f5f9">34%</text>
+<text x="20" y="208" font-size="11.5" fill="#e2e8f0">Electronic components</text>
+<rect x="380" y="190" width="500" height="26" rx="4" fill="#1a2332"/>
+<rect x="380" y="190" width="130.0" height="26" rx="4" fill="#f59e0b"/>
+<text x="520.0" y="208" font-size="12" font-weight="700" fill="#f1f5f9">26%</text>
+<text x="20" y="250" font-size="11.5" fill="#e2e8f0">Semiconductors</text>
+<rect x="380" y="232" width="500" height="26" rx="4" fill="#1a2332"/>
+<rect x="380" y="232" width="90.0" height="26" rx="4" fill="#ef4444"/>
+<text x="480.0" y="250" font-size="12" font-weight="700" fill="#f1f5f9">18%</text>
+<text x="20" y="300" font-size="11" fill="#cbd5e1">The ₹76,000 cr semiconductor PLI is the largest single outlay — and the least utilised.</text>
+</svg>

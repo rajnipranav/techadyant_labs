@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" role="img" aria-label="CMDI scoring chain: five weighted factors to localisation priority" font-family="Inter, Arial">
+<rect x="20" y="40" width="150" height="86" rx="10" fill="#1a2332" stroke="#3b82f6" stroke-width="1.5"/>
+<text x="95.0" y="74" font-size="12.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">IMPORT</text>
+<text x="95.0" y="90" font-size="12.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">VALUE</text>
+<path d="M174 83.0 l13 0" stroke="#94a3b8" stroke-width="2"/>
+<path d="M187 78.0 l6 5 -6 5z" fill="#94a3b8"/>
+<rect x="196" y="40" width="150" height="86" rx="10" fill="#1a2332" stroke="#3b82f6" stroke-width="1.5"/>
+<text x="271.0" y="74" font-size="12.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">SUPPLY</text>
+<text x="271.0" y="90" font-size="12.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">RISK</text>
+<path d="M350 83.0 l13 0" stroke="#94a3b8" stroke-width="2"/>
+<path d="M363 78.0 l6 5 -6 5z" fill="#94a3b8"/>
+<rect x="372" y="40" width="150" height="86" rx="10" fill="#1a2332" stroke="#3b82f6" stroke-width="1.5"/>
+<text x="447.0" y="74" font-size="12.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">STRATEGIC</text>
+<text x="447.0" y="90" font-size="12.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">IMPORTANCE</text>
+<path d="M526 83.0 l13 0" stroke="#94a3b8" stroke-width="2"/>
+<path d="M539 78.0 l6 5 -6 5z" fill="#94a3b8"/>
+<rect x="548" y="40" width="150" height="86" rx="10" fill="#1a2332" stroke="#3b82f6" stroke-width="1.5"/>
+<text x="623.0" y="74" font-size="12.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">INDUSTRIAL</text>
+<text x="623.0" y="90" font-size="12.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">MULTIPLIER</text>
+<path d="M702 83.0 l13 0" stroke="#94a3b8" stroke-width="2"/>
+<path d="M715 78.0 l6 5 -6 5z" fill="#94a3b8"/>
+<rect x="724" y="40" width="150" height="86" rx="10" fill="#1a2332" stroke="#3b82f6" stroke-width="1.5"/>
+<text x="799.0" y="74" font-size="12.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">SUBSTITUT-</text>
+<text x="799.0" y="90" font-size="12.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">ABILITY</text>
+<rect x="880" y="40" width="120" height="86" rx="10" fill="#3b82f6"/>
+<text x="940.0" y="78" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">CMDI</text>
+<text x="940.0" y="98" font-size="11" fill="#dbeafe" text-anchor="middle">0–100</text>
+<path d="M880 83.0 l16 0" stroke="#94a3b8" stroke-width="2"/>
+<path d="M896 78.0 l6 5 -6 5z" fill="#94a3b8"/>
+<rect x="20" y="160" width="1040" height="74" rx="10" fill="#151f2e" stroke="#f59e0b" stroke-width="1"/>
+<text x="36" y="188" font-size="12" font-weight="700" fill="#f59e0b">WHY IT MATTERS</text>
+<text x="36" y="208" font-size="11" fill="#f1f5f9">Rank by strategic danger, not import value: a $400M single-source EUV-photoresist import outranks a $4B commodity.</text>
+<text x="36" y="224" font-size="11" fill="#cbd5e1">Chokepoints first → then volume. Every score is a localisation priority, not a trade statistic.</text>
+</svg>
