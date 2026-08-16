@@ -28,18 +28,32 @@ const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
 const MAX_AGE_DAYS = Number(process.env.INDEXNOW_MAX_AGE_DAYS || 7);
 const ENDPOINT = 'https://api.indexnow.org/IndexNow';
 const ALL = process.argv.includes('--all');
+const LIVE = process.argv.includes('--live');
 
 const log = (...a) => console.log('[indexnow]', ...a);
 
 async function main() {
   if (process.env.INDEXNOW_DISABLE === '1') return log('disabled via INDEXNOW_DISABLE');
 
-  const sitemapPath = ['out/sitemap.xml', 'out/sitemap.xml/index.html', '.next/server/app/sitemap.xml.body']
-    .map((p) => resolve(process.cwd(), p))
-    .find((p) => existsSync(p));
-  if (!sitemapPath) return log('no sitemap.xml found after build — skipping');
-
-  const xml = readFileSync(sitemapPath, 'utf8');
+  let xml;
+  if (LIVE) {
+    // Post-deploy mode: read the sitemap from the live site so the ping
+    // always reflects what is actually deployed (works from CI after a
+    // Cloudflare Pages build has landed).
+    try {
+      const res = await fetch(`https://${HOST}/sitemap.xml`);
+      if (!res.ok) return log(`live sitemap fetch failed (HTTP ${res.status}) — skipping`);
+      xml = await res.text();
+    } catch (err) {
+      return log('live sitemap fetch failed — skipping:', err?.message || err);
+    }
+  } else {
+    const sitemapPath = ['out/sitemap.xml', 'out/sitemap.xml/index.html', '.next/server/app/sitemap.xml.body']
+      .map((p) => resolve(process.cwd(), p))
+      .find((p) => existsSync(p));
+    if (!sitemapPath) return log('no sitemap.xml found after build — skipping');
+    xml = readFileSync(sitemapPath, 'utf8');
+  }
   const entries = [...xml.matchAll(/<url>([\s\S]*?)<\/url>/g)].map((m) => {
     const block = m[1];
     const loc = (block.match(/<loc>(.*?)<\/loc>/) || [])[1];

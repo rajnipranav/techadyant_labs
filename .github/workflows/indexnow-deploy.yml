@@ -1,0 +1,24 @@
+name: IndexNow post-deploy ping
+
+# Pings IndexNow AFTER Cloudflare Pages has finished deploying (build-time
+# pings in npm run build fire before the new URLs are live). Waits for the
+# deploy window, then submits the full live sitemap so Bing/ChatGPT-search
+# re-crawls new reports, signals and issues immediately.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Wait for Cloudflare Pages deploy
+        run: sleep 480
+
+      - name: Submit all live URLs to IndexNow
+        continue-on-error: true
+        run: node scripts/indexnow-submit.mjs --live --all

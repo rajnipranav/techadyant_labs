@@ -4,6 +4,7 @@ import { issues } from './data';
 
 export const metadata: Metadata = {
   title: 'Sanket — monthly intelligence',
+  alternates: { canonical: 'https://labs.techadyant.com/newsletter/' },
   description:
     'Sanket is Techadyant Labs’ monthly strategic-intelligence brief on India’s industrial systems — distilled from a live signal engine into the few signals that move the board.',
 };

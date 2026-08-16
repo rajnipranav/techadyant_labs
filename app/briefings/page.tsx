@@ -4,6 +4,7 @@ import { briefings } from './data';
 
 export const metadata: Metadata = {
   title: 'Strategic briefings',
+  alternates: { canonical: 'https://labs.techadyant.com/briefings/' },
   description:
     'Short, executive-ready analytical outputs on India’s industrial systems — frameworks, notes and decision-oriented reads.',
 };

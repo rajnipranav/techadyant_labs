@@ -10,6 +10,7 @@ import { FeedbackForm } from '../components/FeedbackForm';
 
 export const metadata: Metadata = {
   title: "Strategic Intelligence Reports on India's Industrial Systems [2026]",
+  alternates: { canonical: 'https://labs.techadyant.com/reports/' },
   description:
     "Free & paid research on India's industrial transformation: semiconductors, AI infrastructure, critical minerals, defence drones, and enterprise software sovereignty. Each report maps dependencies, chokepoints and beneficiaries.",
   openGraph: {

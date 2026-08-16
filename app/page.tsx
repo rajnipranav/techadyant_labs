@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: 'Strategic intelligence on India’s industrial systems',
   description:
     'Independent, India-first strategic research on industrial transformation, infrastructure systems, semiconductors, AI infrastructure and second-order economic change.',
+    alternates: { canonical: 'https://labs.techadyant.com/' },
 };
 
 // RULE: the home page always features the newest PUBLISHED report (by published date).

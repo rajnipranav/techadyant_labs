@@ -5,7 +5,8 @@ import { getSignals } from '../lib/cms';
 import SignalsBrowser from './SignalsBrowser';
 
 export const metadata: Metadata = {
-  title: 'Signals',
+  title: 'Strategic Signals on India’s Industrial Systems',
+  alternates: { canonical: 'https://labs.techadyant.com/signals/' },
   description:
     'Concise strategic intelligence dispatches on India’s industrial systems — observations and analytical notes, not opinion or news aggregation.',
 };
