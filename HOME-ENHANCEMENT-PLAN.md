@@ -2,7 +2,7 @@
 
 Prepared: 2026-08-16 (after code audit of `app/page.tsx`, site-wide section inventory, and data-layer counts).
 
-## Status: Audit complete — plan ready, not yet implemented
+## Status: Phase A DONE (commit 242229e, live 2026-08-16) — hero rework, seven-surface platform strip, platform stats band, corridors teaser, dependencies heatmap, services band, Sanket spotlight. Phase B & C pending.
 
 ## Why this plan exists
 
