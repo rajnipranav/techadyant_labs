@@ -9,7 +9,7 @@ export interface ReportMeta {
   published: string;
   publishedLabel: string;
   readingTime: string;
-  status: 'published' | 'forthcoming' | 'draft';
+  status: 'published' | 'forthcoming';
   summary: string;
   accent: string;
   access: AccessTier;
@@ -42,7 +42,7 @@ export const reports: ReportMeta[] = [{
   published: '2026-12-12',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h 30m read',
-  status: 'draft',
+  status: 'forthcoming',
   summary: 'The 12 ISM-approved projects describe what India is building. This report describes what India is not building — the materials, substrates, equipment subcomponents and consumables that determine whether the fabs and OSATs actually run at competitive yield and cost.',
   accent: '#F5B544',
   access: 'paid',
@@ -73,7 +73,7 @@ export const reports: ReportMeta[] = [{
   published: '2026-11-15',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 90 min read',
-  status: 'draft',
+  status: 'forthcoming',
   summary: 'Machine vision — the cameras, optics, lighting and edge-inference software that let machines inspect and guide themselves — is becoming the quality backbone of Indian electronics, automotive and pharmaceutical manufacturing, growing at roughly 14% a year. This report maps the machine-vision stack, its import-heavy hardware layer and its software-and-integration value, and where Indian firms can move from deploying foreign systems to building them.',
   accent: '#818CF8',
   access: 'paid',
@@ -104,7 +104,7 @@ export const reports: ReportMeta[] = [{
   published: '2026-11-14',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 90 min read',
-  status: 'draft',
+  status: 'forthcoming',
   summary: 'A 300 mm fab consumes ~4 million litres of ultrapure water per day; an Indian advanced-packaging facility would add more. This report audits the water position of each Indian semiconductor cluster against CGWB block-level extraction data, and names the regulatory reforms that would close the supply gap.',
   accent: '#F5B544',
   access: 'paid',
@@ -135,7 +135,7 @@ export const reports: ReportMeta[] = [{
   published: '2026-10-10',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h read',
-  status: 'draft',
+  status: 'forthcoming',
   summary: 'The logistics modernisation programme is the most institutionally-anchored AI-deployment programme in India. This report maps the layered system — DFC, KAVACH 4.0, Gati Shakti, ULIP, the PM Gati Shakti Network Planning Group — that determines manufacturing competitiveness through 2030.',
   accent: '#6366F1',
   access: 'paid',
@@ -166,7 +166,7 @@ export const reports: ReportMeta[] = [{
   published: '2026-09-30',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h read',
-  status: 'draft',
+  status: 'forthcoming',
   summary: 'Every autonomous system, smart device and inspection line begins with a sensor — and India imports an estimated 65–75% of its sensor components by value, with domestic value-add concentrated in assembly. As the smart-sensor market scales toward ~US$9.8 billion by 2030, this report maps India’s sensor supply chain — MEMS, image, thermal, inertial and environmental — the depth of the import dependence, and the localisation, design and packaging opportunities the edge-AI wave opens.',
   accent: '#22D3EE',
   access: 'paid',
@@ -197,7 +197,7 @@ export const reports: ReportMeta[] = [{
   published: '2026-09-12',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 90 min read',
-  status: 'draft',
+  status: 'forthcoming',
   summary: 'AI workloads push rack density 4–10× above traditional IT. The cooling architecture that follows — direct-liquid, immersion, hybrid evaporative — defines a ₹7,500–36,000 crore Indian industrial market through 2030. This report sizes it.',
   accent: '#38e1c4',
   access: 'paid',
@@ -228,7 +228,7 @@ export const reports: ReportMeta[] = [{
   published: '2026-08-15',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h read',
-  status: 'draft',
+  status: 'forthcoming',
   summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
   accent: '#6366F1',
   access: 'paid',
@@ -309,7 +309,7 @@ export const reports: ReportMeta[] = [{
   published: '2026-08-15',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h read',
-  status: 'draft',
+  status: 'forthcoming',
   summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
   accent: '#38e1c4',
   access: 'paid',
@@ -999,7 +999,7 @@ export const reports: ReportMeta[] = [{
   published: '2026-07-10',
   publishedLabel: 'Forthcoming',
   readingTime: '20 min read',
-  status: 'draft',
+  status: 'forthcoming',
   summary: 'Ultrapure water is a precondition for advanced manufacturing. This report maps the water dependencies forming around India’s emerging industrial corridors and the second-order risks they create.',
   accent: '#6366F1',
   access: 'paid',
@@ -1378,7 +1378,7 @@ export const reports: ReportMeta[] = [{
   published: '2026-06-15',
   publishedLabel: 'Forthcoming',
   readingTime: '18 min read',
-  status: 'draft',
+  status: 'forthcoming',
   summary: 'Back-end assembly, test and advanced packaging is where a large share of near-term semiconductor employment and value addition will accrue in India. A structural look at the OSAT layer.',
   accent: '#38e1c4',
   access: 'paid',
