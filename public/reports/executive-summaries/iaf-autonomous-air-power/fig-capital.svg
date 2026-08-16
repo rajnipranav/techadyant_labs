@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="Capital allocation to autonomous platforms under 2 percent today to 8 percent by 2030" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="300" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Capital allocation to autonomous platforms — IAF capital budget</text>
+<rect x="220" y="266" width="150" height="4" fill="#334155"/>
+<rect x="220" y="260" width="150" height="6" rx="2" fill="#5B8DB8"/>
+<text x="295" y="300" font-size="13" font-weight="700" fill="#f1f5f9" text-anchor="middle">&lt;2%</text>
+<text x="295" y="318" font-size="10.5" fill="#94a3b8" text-anchor="middle">FY 2024-25</text>
+<text x="405" y="300" font-size="22" font-weight="700" fill="#f59e0b" text-anchor="middle">→</text>
+<rect x="460" y="242" width="150" height="24" rx="3" fill="#f59e0b"/>
+<text x="535" y="262" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">8%</text>
+<text x="535" y="300" font-size="13" font-weight="700" fill="#f1f5f9" text-anchor="middle">by 2030</text>
+<text x="535" y="318" font-size="10.5" fill="#94a3b8" text-anchor="middle">recommended</text>
+<text x="405" y="180" font-size="12" font-weight="700" fill="#f59e0b" text-anchor="middle">4× shift</text>
+<rect x="220" y="190" width="560" height="84" rx="10" fill="#151f2e" stroke="#f59e0b" stroke-width="1"/>
+<text x="236" y="212" font-size="11.5" font-weight="700" fill="#f59e0b">WHY IT MATTERS</text>
+<text x="236" y="232" font-size="11" fill="#f1f5f9">Without the shift, the force-structure crossover — when unmanned squadron-equivalents</text>
+<text x="236" y="248" font-size="11" fill="#f1f5f9">exceed manned adds — slips past 2035. Recommended funding: $5B Autonomous Aerospace Fund</text>
+<text x="236" y="264" font-size="11" fill="#f1f5f9">(10 years, public + private VC) and a $1B Applied Autonomous Systems Mission.</text></svg>

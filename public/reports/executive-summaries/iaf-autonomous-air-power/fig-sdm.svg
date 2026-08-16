@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" role="img" aria-label="Strategic Dependency Matrix eight vectors with 20/25 critical and 16/25 high scores" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="380" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Strategic Dependency Matrix — 8 vectors, risk /25</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">Risk Score = Criticality × India Exposure × (6 − Substitutability) ÷ 5 · 20–25 critical · 12–19 high</text>
+<line x1="290" y1="76" x2="290" y2="316" stroke="#1e293b" stroke-width="1"/>
+<text x="290" y="330" font-size="10" fill="#64748b" text-anchor="middle">0</text>
+<line x1="350" y1="76" x2="350" y2="316" stroke="#1e293b" stroke-width="1"/>
+<text x="350" y="330" font-size="10" fill="#64748b" text-anchor="middle">5</text>
+<line x1="410" y1="76" x2="410" y2="316" stroke="#1e293b" stroke-width="1"/>
+<text x="410" y="330" font-size="10" fill="#64748b" text-anchor="middle">10</text>
+<line x1="470" y1="76" x2="470" y2="316" stroke="#1e293b" stroke-width="1"/>
+<text x="470" y="330" font-size="10" fill="#64748b" text-anchor="middle">15</text>
+<line x1="530" y1="76" x2="530" y2="316" stroke="#1e293b" stroke-width="1"/>
+<text x="530" y="330" font-size="10" fill="#64748b" text-anchor="middle">20</text>
+<line x1="590" y1="76" x2="590" y2="316" stroke="#1e293b" stroke-width="1"/>
+<text x="590" y="330" font-size="10" fill="#64748b" text-anchor="middle">25</text>
+<rect x="530" y="76" width="60" height="240" fill="#ef4444" opacity="0.07"/>
+<rect x="434" y="76" width="96" height="240" fill="#f59e0b" opacity="0.06"/>
+<text x="560" y="92" font-size="9.5" fill="#f87171" text-anchor="middle">CRITICAL</text>
+<text x="482" y="92" font-size="9.5" fill="#f59e0b" text-anchor="middle">HIGH</text>
+<text x="278" y="118" font-size="11.5" fill="#cbd5e1" text-anchor="end">Semiconductors (≤28nm)</text>
+<rect x="290" y="104" width="240" height="16" rx="3.5" fill="#ef4444"/>
+<text x="538" y="117" font-size="11.5" font-weight="700" fill="#f1f5f9">20/25</text>
+<text x="278" y="144" font-size="11.5" fill="#cbd5e1" text-anchor="end">AI Compute (H100/H200-class)</text>
+<rect x="290" y="130" width="240" height="16" rx="3.5" fill="#ef4444"/>
+<text x="538" y="143" font-size="11.5" font-weight="700" fill="#f1f5f9">20/25</text>
+<text x="278" y="170" font-size="11.5" fill="#cbd5e1" text-anchor="end">Jet Engines (UCAV/AMCA-class)</text>
+<rect x="290" y="156" width="240" height="16" rx="3.5" fill="#ef4444"/>
+<text x="538" y="169" font-size="11.5" font-weight="700" fill="#f1f5f9">20/25</text>
+<text x="278" y="196" font-size="11.5" fill="#cbd5e1" text-anchor="end">Carbon Fibre (PAN precursor)</text>
+<rect x="290" y="182" width="240" height="16" rx="3.5" fill="#ef4444"/>
+<text x="538" y="195" font-size="11.5" font-weight="700" fill="#f1f5f9">20/25</text>
+<text x="278" y="222" font-size="11.5" fill="#cbd5e1" text-anchor="end">IR Detector Arrays (MCT/InSb)</text>
+<rect x="290" y="208" width="192" height="16" rx="3.5" fill="#5B8DB8"/>
+<text x="490" y="221" font-size="11.5" font-weight="700" fill="#f1f5f9">16/25</text>
+<text x="278" y="248" font-size="11.5" fill="#cbd5e1" text-anchor="end">IMU/INS (FOG/RLG grade)</text>
+<rect x="290" y="234" width="192" height="16" rx="3.5" fill="#5B8DB8"/>
+<text x="490" y="247" font-size="11.5" font-weight="700" fill="#f1f5f9">16/25</text>
+<text x="278" y="274" font-size="11.5" fill="#cbd5e1" text-anchor="end">AESA T/R Modules (GaAs/GaN)</text>
+<rect x="290" y="260" width="192" height="16" rx="3.5" fill="#5B8DB8"/>
+<text x="490" y="273" font-size="11.5" font-weight="700" fill="#f1f5f9">16/25</text>
+<text x="278" y="300" font-size="11.5" fill="#cbd5e1" text-anchor="end">Rare-Earth Magnets (NdFeB)</text>
+<rect x="290" y="286" width="192" height="16" rx="3.5" fill="#5B8DB8"/>
+<text x="490" y="299" font-size="11.5" font-weight="700" fill="#f1f5f9">16/25</text>
+<text x="28" y="356" font-size="11" fill="#94a3b8">None of the four critical vectors is fully mitigable before 2030; partial mitigation is feasible for all eight within 2026–2035.</text></svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-label="Cost-exchange ratio 1.5:1 in 1990 to 750:1 by 2035 on a log scale" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="340" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Cost-exchange ratio: defender cost vs attacker cost (log scale)</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">From 1.5:1 in 1990 to a projected ~750:1 for autonomous swarms vs exquisite SAMs by 2035</text>
+<line x1="320" y1="323" x2="940" y2="323" stroke="#1e293b" stroke-width="1"/>
+<text x="310" y="327" font-size="10" fill="#64748b" text-anchor="end">1:1</text>
+<line x1="320" y1="246" x2="940" y2="246" stroke="#1e293b" stroke-width="1"/>
+<text x="310" y="250" font-size="10" fill="#64748b" text-anchor="end">10:1</text>
+<line x1="320" y1="168" x2="940" y2="168" stroke="#1e293b" stroke-width="1"/>
+<text x="310" y="172" font-size="10" fill="#64748b" text-anchor="end">100:1</text>
+<line x1="320" y1="90" x2="940" y2="90" stroke="#1e293b" stroke-width="1"/>
+<text x="310" y="94" font-size="10" fill="#64748b" text-anchor="end">1000:1</text>
+<path d="M382 310 L692 239 L779 171 L804 144 L940 100" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
+<circle cx="382" cy="310" r="5" fill="#5B8DB8"/>
+<text x="382" y="298" font-size="11.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">1.5:1</text>
+<text x="382" y="311" font-size="10" fill="#94a3b8" text-anchor="middle">1990</text>
+<circle cx="692" cy="239" r="5" fill="#5B8DB8"/>
+<text x="692" y="261" font-size="11.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">~12:1</text>
+<text x="692" y="274" font-size="10" fill="#94a3b8" text-anchor="middle">2015</text>
+<circle cx="779" cy="171" r="5" fill="#5B8DB8"/>
+<text x="779" y="159" font-size="11.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">~90:1</text>
+<text x="779" y="172" font-size="10" fill="#94a3b8" text-anchor="middle">2022</text>
+<circle cx="804" cy="144" r="5" fill="#5B8DB8"/>
+<text x="804" y="166" font-size="11.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">~200:1</text>
+<text x="804" y="179" font-size="10" fill="#94a3b8" text-anchor="middle">2024</text>
+<circle cx="940" cy="100" r="5" fill="#f59e0b"/>
+<text x="940" y="88" font-size="11.5" font-weight="700" fill="#f1f5f9" text-anchor="middle">~750:1</text>
+<text x="940" y="101" font-size="10" fill="#94a3b8" text-anchor="middle">2035</text>
+<text x="28" y="326" font-size="11" fill="#94a3b8">Sources: Ukraine (Bayraktar vs Pantsir ~90:1; Shahed-136 vs S-300 ~200:1), Red Sea (~50–100:1), Techadyant Labs model for 2035 swarms.</text></svg>

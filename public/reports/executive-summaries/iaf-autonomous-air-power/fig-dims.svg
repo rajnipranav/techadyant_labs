@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-label="India Air Autonomy Readiness Index six dimension scores" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="330" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">India AARI — six dimensions (0–100 each)</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">Composite 34/100 — the average of six equally weighted dimensions</text>
+<line x1="250" y1="84" x2="250" y2="286" stroke="#1e293b" stroke-width="1"/>
+<text x="250" y="298" font-size="10" fill="#64748b" text-anchor="middle">0</text>
+<line x1="362" y1="84" x2="362" y2="286" stroke="#1e293b" stroke-width="1"/>
+<text x="362" y="298" font-size="10" fill="#64748b" text-anchor="middle">20</text>
+<line x1="474" y1="84" x2="474" y2="286" stroke="#1e293b" stroke-width="1"/>
+<text x="474" y="298" font-size="10" fill="#64748b" text-anchor="middle">40</text>
+<line x1="586" y1="84" x2="586" y2="286" stroke="#1e293b" stroke-width="1"/>
+<text x="586" y="298" font-size="10" fill="#64748b" text-anchor="middle">60</text>
+<line x1="698" y1="84" x2="698" y2="286" stroke="#1e293b" stroke-width="1"/>
+<text x="698" y="298" font-size="10" fill="#64748b" text-anchor="middle">80</text>
+<line x1="810" y1="84" x2="810" y2="286" stroke="#1e293b" stroke-width="1"/>
+<text x="810" y="298" font-size="10" fill="#64748b" text-anchor="middle">100</text>
+<line x1="440" y1="84" x2="440" y2="286" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="440" y="310" font-size="10.5" fill="#f59e0b" text-anchor="middle">composite 34</text>
+<text x="238" y="106" font-size="12" fill="#cbd5e1" text-anchor="end">Doctrine and Concept Dev</text>
+<rect x="250" y="92" width="179" height="17" rx="3.5" fill="#5B8DB8"/>
+<text x="437.2" y="106" font-size="12" font-weight="700" fill="#f1f5f9">32</text>
+<text x="238" y="136" font-size="12" fill="#cbd5e1" text-anchor="end">Platform Maturity</text>
+<rect x="250" y="122" width="157" height="17" rx="3.5" fill="#5B8DB8"/>
+<text x="414.79999999999995" y="136" font-size="12" font-weight="700" fill="#f1f5f9">28</text>
+<text x="238" y="166" font-size="12" fill="#cbd5e1" text-anchor="end">Industrial Ecosystem</text>
+<rect x="250" y="152" width="230" height="17" rx="3.5" fill="#5B8DB8"/>
+<text x="487.6" y="166" font-size="12" font-weight="700" fill="#f1f5f9">41</text>
+<text x="238" y="196" font-size="12" fill="#cbd5e1" text-anchor="end">AI Software Stack</text>
+<rect x="250" y="182" width="196" height="17" rx="3.5" fill="#f59e0b"/>
+<text x="454.0" y="196" font-size="12" font-weight="700" fill="#f1f5f9">35</text>
+<text x="238" y="226" font-size="12" fill="#cbd5e1" text-anchor="end">Test, Cert and Airworthiness</text>
+<rect x="250" y="212" width="213" height="17" rx="3.5" fill="#5B8DB8"/>
+<text x="470.79999999999995" y="226" font-size="12" font-weight="700" fill="#f1f5f9">38</text>
+<text x="238" y="256" font-size="12" fill="#cbd5e1" text-anchor="end">Operational Integration</text>
+<rect x="250" y="242" width="168" height="17" rx="3.5" fill="#5B8DB8"/>
+<text x="426.0" y="256" font-size="12" font-weight="700" fill="#f1f5f9">30</text>
+<text x="28" y="326" font-size="11" fill="#94a3b8">AI Software Stack is the largest deficit: 35 vs USAF 91 (−56) — sovereign compute and AI-on-edge inference are the principal interventions.</text></svg>

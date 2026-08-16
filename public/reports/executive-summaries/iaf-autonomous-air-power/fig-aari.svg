@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-label="Air Autonomy Readiness Index: India 34 vs USAF 88, PLAAF 72, RAF 71, RAAF 66" font-family="Inter, Arial">
+<rect x="0" y="0" width="1000" height="330" fill="transparent"/>
+<text x="28" y="36" font-size="15" font-weight="700" fill="#f1f5f9">Air Autonomy Readiness Index — composite, 0–100</text>
+<text x="28" y="56" font-size="11.5" fill="#94a3b8">Six equally weighted dimensions: Doctrine · Platform · Industrial · AI Software · Test and Cert · Ops Integration</text>
+<rect x="574" y="76" width="17" height="196" fill="#f59e0b" opacity="0.10"/>
+<line x1="582" y1="76" x2="582" y2="272" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="582" y="292" font-size="11" fill="#f59e0b" text-anchor="middle">2035 target: 58–62 (intervention)</text>
+<line x1="330" y1="76" x2="330" y2="272" stroke="#1e293b" stroke-width="1"/>
+<text x="330" y="284" font-size="10" fill="#64748b" text-anchor="middle">0</text>
+<line x1="435" y1="76" x2="435" y2="272" stroke="#1e293b" stroke-width="1"/>
+<text x="435" y="284" font-size="10" fill="#64748b" text-anchor="middle">25</text>
+<line x1="540" y1="76" x2="540" y2="272" stroke="#1e293b" stroke-width="1"/>
+<text x="540" y="284" font-size="10" fill="#64748b" text-anchor="middle">50</text>
+<line x1="645" y1="76" x2="645" y2="272" stroke="#1e293b" stroke-width="1"/>
+<text x="645" y="284" font-size="10" fill="#64748b" text-anchor="middle">75</text>
+<line x1="750" y1="76" x2="750" y2="272" stroke="#1e293b" stroke-width="1"/>
+<text x="750" y="284" font-size="10" fill="#64748b" text-anchor="middle">100</text>
+<text x="318" y="101" font-size="12.5" fill="#cbd5e1" text-anchor="end">India (2026)</text>
+<rect x="330" y="86" width="143" height="18" rx="4" fill="#5B8DB8"/>
+<text x="482.8" y="100" font-size="12.5" font-weight="700" fill="#f1f5f9">34</text>
+<text x="318" y="131" font-size="12.5" fill="#cbd5e1" text-anchor="end">RAAF (Australia)</text>
+<rect x="330" y="116" width="277" height="18" rx="4" fill="#334155"/>
+<text x="617.2" y="130" font-size="12.5" font-weight="700" fill="#f1f5f9">66</text>
+<text x="318" y="161" font-size="12.5" fill="#cbd5e1" text-anchor="end">RAF (UK)</text>
+<rect x="330" y="146" width="298" height="18" rx="4" fill="#334155"/>
+<text x="638.2" y="160" font-size="12.5" font-weight="700" fill="#f1f5f9">71</text>
+<text x="318" y="191" font-size="12.5" fill="#cbd5e1" text-anchor="end">PLAAF (China)</text>
+<rect x="330" y="176" width="302" height="18" rx="4" fill="#334155"/>
+<text x="642.4000000000001" y="190" font-size="12.5" font-weight="700" fill="#f1f5f9">72</text>
+<text x="318" y="221" font-size="12.5" fill="#cbd5e1" text-anchor="end">USAF (US)</text>
+<rect x="330" y="206" width="370" height="18" rx="4" fill="#3b82f6"/>
+<text x="709.6" y="220" font-size="12.5" font-weight="700" fill="#f1f5f9">88</text>
+<text x="733.6" y="220" font-size="10.5" fill="#94a3b8">gap −54</text>
+<text x="28" y="312" font-size="11" fill="#94a3b8">India trails every peer on every dimension — the largest single gap is AI Software Stack (−56 vs USAF).</text></svg>
