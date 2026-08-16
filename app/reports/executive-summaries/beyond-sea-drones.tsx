@@ -10,6 +10,9 @@ const PDF_URL =
 
 const FIG = '/reports/executive-summaries/beyond-sea-drones/';
 
+const COVER = 'https://library.techadyant.com/covers/beyond_sea-drones-indian-navy.jpg';
+const COVER_CAP = 'Edition cover · 136 pages · v2.0 (2026)';
+
 const keyNumbers = [
   { val: '₹55,000 cr', label: '2035 market, Accelerated scenario (from ₹2,200 cr in 2026)', src: 'Techadyant Model — IN-003' },
   { val: '4.5 / 10', label: 'Maritime Autonomy Readiness Index — rank 9 of 12', src: 'Readiness Index — IN-014' },
@@ -146,23 +149,35 @@ export function BeyondSeaDronesSummary() {
       </Link>
 
       <header className={styles.hero}>
-        <div className={styles.kicker}>Defence &amp; Dual-Use · Strategic Intelligence · v2.0 (2026)</div>
-        <h1 className={styles.h1}>Beyond Sea Drones: India&rsquo;s Maritime Autonomy, 2026&ndash;2035</h1>
-        <p className={styles.subtitle}>
-          The subsystem, software and supply-chain map of the ₹55,000 crore opportunity — scored
-          across 12 nations, 100 opportunities and 125 tiered sources.
-        </p>
-        <div className={styles.metaRow}>
-          <span>Published <b>15 Aug 2026</b></span>
-          <span>Domain <b>Defence &amp; Dual-Use</b></span>
-          <span>Reading time <b>~6 min</b></span>
-          <span>Last reviewed <b>15 Aug 2026</b></span>
-          <span>Author <b>Techadyant Labs · Research</b></span>
+        <div className={styles.heroGrid}>
+          <div>
+            <div className={styles.kicker}>Defence &amp; Dual-Use · Strategic Intelligence · v2.0 (2026)</div>
+            <h1 className={styles.h1}>Beyond Sea Drones: India&rsquo;s Maritime Autonomy, 2026&ndash;2035</h1>
+            <p className={styles.subtitle}>
+              The subsystem, software and supply-chain map of the ₹55,000 crore opportunity — scored
+              across 12 nations, 100 opportunities and 125 tiered sources.
+            </p>
+            <div className={styles.metaRow}>
+              <span>Published <b>15 Aug 2026</b></span>
+              <span>Domain <b>Defence &amp; Dual-Use</b></span>
+              <span>Reading time <b>~6 min</b></span>
+              <span>Last reviewed <b>15 Aug 2026</b></span>
+              <span>Author <b>Techadyant Labs · Research</b></span>
+            </div>
+          </div>
+          <figure className={styles.coverCard}>
+            <img src={COVER} alt="Beyond Sea Drones report cover" loading="eager" />
+            <figcaption className={styles.coverCap}>{COVER_CAP}</figcaption>
+          </figure>
         </div>
       </header>
 
       <section className={styles.section} id="thesis">
-        <h2>The Thesis</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>01</span>
+          <h2>The Thesis</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <p className={styles.lead}>
           Techadyant Labs&rsquo; 2026 assessment finds India&rsquo;s autonomous maritime sector faces a
           structural &ldquo;subsystem gap&rdquo;: while hull fabrication is domestic, critical components like AI
@@ -175,7 +190,11 @@ export function BeyondSeaDronesSummary() {
       </section>
 
       <section className={styles.section} id="key-numbers">
-        <h2>Key Numbers</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>02</span>
+          <h2>Key Numbers</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <div className={styles.statsGrid}>
           {keyNumbers.map((s) => (
             <div className={styles.statCard} key={s.label}>
@@ -188,7 +207,11 @@ export function BeyondSeaDronesSummary() {
       </section>
 
       <section className={styles.section} id="findings">
-        <h2>Key Findings</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>03</span>
+          <h2>Key Findings</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <div className={styles.findingsGrid}>
           {findings.map((f) => (
             <div className={styles.findingCard} key={f.h}>
@@ -201,7 +224,11 @@ export function BeyondSeaDronesSummary() {
       </section>
 
       <section className={styles.section} id="framework">
-        <h2>The Framework</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>04</span>
+          <h2>The Framework</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <div className={styles.frameworkBox}>
           <p>
             The <strong>Maritime Autonomy Readiness Index</strong> scores 12 nations across nine weighted
@@ -246,7 +273,11 @@ export function BeyondSeaDronesSummary() {
       </section>
 
       <section className={`${styles.section} ${styles.impl}`} id="implications">
-        <h2>What It Means</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>05</span>
+          <h2>What It Means</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <p>
           <strong>For policymakers:</strong> the <Num>~₹14,600 crore</Num> Phase I requirement is not new
           money but a reallocation (~3% of MoD capital) that unlocks a 3–5x private-capital
@@ -267,7 +298,11 @@ export function BeyondSeaDronesSummary() {
       </section>
 
       <section className={styles.section} id="tables">
-        <h2>The Numbers, Tabulated</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>06</span>
+          <h2>The Numbers, Tabulated</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <div className={styles.tableWrap}>
           <table className={styles.table}>
             <caption className="sr-only">Scenario comparison</caption>
@@ -315,7 +350,11 @@ export function BeyondSeaDronesSummary() {
       </section>
 
       <section className={styles.section} id="watch">
-        <h2>What to Watch</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>07</span>
+          <h2>What to Watch</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <ul className={styles.watchList}>
           <li><span className={styles.watchDate}>2026</span><div className={styles.watchText}>Notification of the <strong>Autonomous Maritime Industrial Policy</strong> and launch of the <Num>₹2,000 cr/yr</Num> Anchor Programme (2026–28), scaling to ₹4,200 cr/yr by 2030.</div></li>
           <li><span className={styles.watchDate}>2027</span><div className={styles.watchText}><strong>Karwar deep-water test range</strong> operational and the <strong>Autonomous Systems Certification Authority (ASCA)</strong> established.</div></li>
@@ -325,7 +364,11 @@ export function BeyondSeaDronesSummary() {
       </section>
 
       <section className={`${styles.section} ${styles.faq}`} id="faq">
-        <h2>Frequently Asked Questions</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>08</span>
+          <h2>Frequently Asked Questions</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         {faqs.map((f) => (
           <details key={f.q}>
             <summary>{f.q}</summary>
@@ -335,7 +378,11 @@ export function BeyondSeaDronesSummary() {
       </section>
 
       <section className={`${styles.section} ${styles.sources}`} id="sources">
-        <h2>Sources &amp; Methodology</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>09</span>
+          <h2>Sources &amp; Methodology</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <p style={{ color: 'var(--text-muted)', fontSize: 14.5, lineHeight: 1.7, marginBottom: 14 }}>
           Derived from <em>Beyond Sea Drones</em> v2.0 (2026). Evidence labels: [V] verified · [V1]
           single-source · [U] unverified · [modelled]. Primary sources:

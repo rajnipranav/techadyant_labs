@@ -10,6 +10,9 @@ const PDF_URL =
 
 const FIG = '/reports/executive-summaries/india-critical-manufacturing-dependencies/';
 
+const COVER = 'https://library.techadyant.com/covers/india-critical-manufacturing-dependencies.jpg';
+const COVER_CAP = 'Edition cover · 132 pages · Edition I';
+
 const keyNumbers = [
   { val: '$506B', label: 'Strategic import surface — ~75% of the $672B annual merchandise bill', src: 'UN Comtrade + DGCI&S — Verified' },
   { val: '312', label: 'Localisable opportunity surfaces across 12 mega-sectors', src: 'CMDD Database — Edition I' },
@@ -177,23 +180,35 @@ export function CmddSummary() {
       </Link>
 
       <header className={styles.hero}>
-        <div className={styles.kicker}>Industrial Intelligence · Strategic Import Dependencies · Edition I</div>
-        <h1 className={styles.h1}>India&rsquo;s Critical Manufacturing Dependencies, 2026&ndash;2035</h1>
-        <p className={styles.subtitle}>
-          The $506 billion strategic import surface, decomposed into 312 localisable opportunity
-          surfaces — and the ~$480 billion, largely private envelope to close it.
-        </p>
-        <div className={styles.metaRow}>
-          <span>Published <b>01 Aug 2026</b></span>
-          <span>Domain <b>Industrial Intelligence</b></span>
-          <span>Reading time <b>~6 min</b></span>
-          <span>Last reviewed <b>01 Aug 2026</b></span>
-          <span>Author <b>Techadyant Labs · Research</b></span>
+        <div className={styles.heroGrid}>
+          <div>
+            <div className={styles.kicker}>Industrial Intelligence · Strategic Import Dependencies · Edition I</div>
+            <h1 className={styles.h1}>India&rsquo;s Critical Manufacturing Dependencies, 2026&ndash;2035</h1>
+            <p className={styles.subtitle}>
+              The $506 billion strategic import surface, decomposed into 312 localisable opportunity
+              surfaces — and the ~$480 billion, largely private envelope to close it.
+            </p>
+            <div className={styles.metaRow}>
+              <span>Published <b>01 Aug 2026</b></span>
+              <span>Domain <b>Industrial Intelligence</b></span>
+              <span>Reading time <b>~6 min</b></span>
+              <span>Last reviewed <b>01 Aug 2026</b></span>
+              <span>Author <b>Techadyant Labs · Research</b></span>
+            </div>
+          </div>
+          <figure className={styles.coverCard}>
+            <img src={COVER} alt="India's Critical Manufacturing Dependencies report cover" loading="eager" />
+            <figcaption className={styles.coverCap}>{COVER_CAP}</figcaption>
+          </figure>
         </div>
       </header>
 
       <section className={styles.section} id="thesis">
-        <h2>The Thesis</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>01</span>
+          <h2>The Thesis</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <p className={styles.lead}>
           India does not have an import problem; it has an <strong>industrial-capability problem
           disguised as one</strong>. Every import line is a fingerprint of capability that does not yet
@@ -206,7 +221,11 @@ export function CmddSummary() {
       </section>
 
       <section className={styles.section} id="key-numbers">
-        <h2>Key Numbers</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>02</span>
+          <h2>Key Numbers</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <div className={styles.statsGrid}>
           {keyNumbers.map((s) => (
             <div className={styles.statCard} key={s.label}>
@@ -219,7 +238,11 @@ export function CmddSummary() {
       </section>
 
       <section className={styles.section} id="findings">
-        <h2>Key Findings</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>03</span>
+          <h2>Key Findings</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <div className={styles.findingsGrid}>
           {findings.map((f) => (
             <div className={styles.findingCard} key={f.h}>
@@ -232,7 +255,11 @@ export function CmddSummary() {
       </section>
 
       <section className={styles.section} id="framework">
-        <h2>The Framework</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>04</span>
+          <h2>The Framework</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <div className={styles.frameworkBox}>
           <p>
             The <strong>Critical Manufacturing Dependency Framework</strong> scores every strategically
@@ -284,7 +311,11 @@ export function CmddSummary() {
       </section>
 
       <section className={`${styles.section} ${styles.impl}`} id="implications">
-        <h2>What It Means</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>05</span>
+          <h2>What It Means</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <p>
           <strong>For policymakers:</strong> shift from incentive deployment to capability building.
           The ₹76,000 cr semiconductor PLI cannot operate a 28nm fab without photoresist, lithography,
@@ -305,7 +336,11 @@ export function CmddSummary() {
       </section>
 
       <section className={styles.section} id="tables">
-        <h2>The Numbers, Tabulated</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>06</span>
+          <h2>The Numbers, Tabulated</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <div className={styles.tableWrap}>
           <table className={styles.table}>
             <caption className="sr-only">Top ten opportunity surfaces with CMDI, LPI, IAI and capex</caption>
@@ -348,7 +383,11 @@ export function CmddSummary() {
       </section>
 
       <section className={styles.section} id="watch">
-        <h2>What to Watch</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>07</span>
+          <h2>What to Watch</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <ul className={styles.watchList}>
           {watch.map((w) => (
             <li key={w.date}>
@@ -360,7 +399,11 @@ export function CmddSummary() {
       </section>
 
       <section className={`${styles.section} ${styles.faq}`} id="faq">
-        <h2>Frequently Asked Questions</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>08</span>
+          <h2>Frequently Asked Questions</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         {faqs.map((f) => (
           <details key={f.q}>
             <summary>{f.q}</summary>
@@ -370,7 +413,11 @@ export function CmddSummary() {
       </section>
 
       <section className={`${styles.section} ${styles.sources}`} id="sources">
-        <h2>Sources &amp; Methodology</h2>
+        <div className={styles.secTitleRow}>
+          <span className={styles.secNum}>09</span>
+          <h2>Sources &amp; Methodology</h2>
+          <span className={styles.secRule} aria-hidden="true" />
+        </div>
         <p style={{ color: 'var(--text-muted)', fontSize: 14.5, lineHeight: 1.7, marginBottom: 14 }}>
           Derived from <em>India&rsquo;s Critical Manufacturing Dependencies</em> Edition I (2026).
           Confidence markers: Verified Fact / Reasoned Estimate / Strategic Inference. Primary sources:

@@ -1,7 +1,7 @@
 .sumWrap {
-  max-width: 1100px;
+  max-width: 1120px;
   margin: 0 auto;
-  padding: 44px 20px 72px;
+  padding: 40px 20px 72px;
 }
 
 .backLink {
@@ -10,7 +10,7 @@
   font-size: 12.5px;
   letter-spacing: .04em;
   color: var(--gold);
-  margin-bottom: 26px;
+  margin-bottom: 22px;
 }
 .backLink:hover { text-decoration: underline; }
 
@@ -23,58 +23,135 @@
   margin-bottom: 12px;
 }
 
-.hero { border-bottom: 1px solid var(--border); padding-bottom: 30px; margin-bottom: 44px; }
+/* ---------- hero ---------- */
+.hero { border-bottom: 1px solid var(--border); padding-bottom: 30px; margin-bottom: 40px; }
+.heroGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 44px;
+  align-items: start;
+}
 .h1 {
-  font-size: clamp(30px, 4.5vw, 46px);
+  font-size: clamp(30px, 4.5vw, 44px);
   line-height: 1.14;
   letter-spacing: -0.01em;
   color: var(--text);
   margin: 0 0 14px;
   font-weight: 700;
 }
-.subtitle { font-size: clamp(16px, 2vw, 19px); color: var(--text-muted); max-width: 860px; line-height: 1.6; }
+.subtitle { font-size: clamp(16px, 2vw, 18px); color: var(--text-muted); max-width: 720px; line-height: 1.62; }
 .metaRow {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 26px;
+  gap: 8px;
   margin-top: 22px;
+}
+.metaRow span {
   font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace;
-  font-size: 12px;
+  font-size: 11px;
+  letter-spacing: .02em;
   color: var(--text-dim);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px;
+  white-space: nowrap;
 }
 .metaRow b { color: var(--text-muted); font-weight: 600; }
 
-.section { margin-bottom: 52px; scroll-margin-top: 24px; }
-.section h2 { font-size: clamp(20px, 2.6vw, 26px); margin: 0 0 16px; color: var(--text); }
+.coverCard {
+  border: 1px solid var(--border-strong);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--surface);
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.38);
+}
+.coverCard img { display: block; width: 100%; height: auto; }
+.coverCap {
+  padding: 9px 14px;
+  font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace;
+  font-size: 10.5px;
+  color: var(--text-dim);
+  border-top: 1px solid var(--border);
+}
+
+/* ---------- sections ---------- */
+.section { margin-bottom: 40px; scroll-margin-top: 24px; }
+.secTitleRow { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+.secNum {
+  font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--gold);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 3px 8px;
+  line-height: 1.4;
+}
+.secTitleRow h2 { font-size: clamp(20px, 2.6vw, 25px); margin: 0; color: var(--text); }
+.secRule { flex: 1; height: 1px; background: linear-gradient(90deg, var(--border-strong), transparent); }
 .lead { font-size: clamp(17px, 2vw, 19px); line-height: 1.7; color: var(--text); }
+.lead strong { color: var(--gold); font-weight: 600; }
 
-.statsGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
-.statCard { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 16px; }
-.statVal { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: clamp(22px, 3vw, 30px); font-weight: 700; color: var(--gold); line-height: 1.2; }
+/* ---------- stat cards ---------- */
+.statsGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.statCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 16px;
+  transition: border-color .15s ease, transform .15s ease;
+}
+.statCard:hover { border-color: rgba(245, 181, 68, .5); transform: translateY(-1px); }
+.statVal { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: clamp(22px, 3vw, 28px); font-weight: 700; color: var(--gold); line-height: 1.2; }
 .statLabel { font-size: 13px; color: var(--text-muted); margin-top: 6px; line-height: 1.45; }
-.statSrc { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 11px; color: var(--text-dim); margin-top: 8px; }
+.statSrc { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 10.5px; color: var(--text-dim); margin-top: 8px; }
 
-.findingsGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
-.findingCard { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px 18px; }
+/* ---------- findings ---------- */
+.findingsGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+.findingCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 2px solid rgba(245, 181, 68, .35);
+  border-radius: 14px;
+  padding: 20px 18px;
+  transition: border-color .15s ease, transform .15s ease;
+}
+.findingCard:hover { border-top-color: var(--gold); transform: translateY(-1px); }
 .findingCard h3 { font-size: 12.5px; letter-spacing: .05em; text-transform: uppercase; color: var(--brass); margin: 0 0 10px; font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; }
 .findingClaim { font-size: 15.5px; line-height: 1.65; color: var(--text); margin: 0 0 10px; }
 .findingNum { color: var(--gold); font-weight: 700; font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; }
-.findingSrc { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 11px; color: var(--text-dim); }
+.findingSrc { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 10.5px; color: var(--text-dim); }
 
-.frameworkBox { background: var(--surface-2); border-left: 3px solid var(--brass); border-radius: 0 14px 14px 0; padding: 20px 22px; line-height: 1.75; font-size: 16px; color: var(--text); margin: 0 0 24px; }
+/* ---------- framework box ---------- */
+.frameworkBox {
+  background: linear-gradient(135deg, var(--surface-2), var(--surface));
+  border-left: 3px solid var(--brass);
+  border-radius: 0 14px 14px 0;
+  padding: 22px 24px;
+  line-height: 1.75;
+  font-size: 16px;
+  color: var(--text);
+  margin: 0 0 24px;
+}
+.frameworkBox strong { color: var(--gold); }
 
-.figure { margin: 28px 0; }
+/* ---------- figures ---------- */
+.figure { margin: 26px 0; }
 .figure img { border: 1px solid var(--border); border-radius: 14px; background: var(--surface); width: 100%; height: auto; }
-.figcaption { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 11.5px; color: var(--text-dim); margin-top: 8px; line-height: 1.55; }
+.figcaption { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 11px; color: var(--text-dim); margin-top: 8px; line-height: 1.55; }
 
+/* ---------- implications ---------- */
 .impl p { margin: 0 0 14px; line-height: 1.75; color: var(--text); font-size: 16px; }
 .impl strong { color: var(--gold); }
 
-.tableWrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 14px; margin-bottom: 18px; }
+/* ---------- tables ---------- */
+.tableWrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 14px; margin-bottom: 16px; }
 .table { width: 100%; border-collapse: collapse; font-size: 14px; }
 .table th {
   font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace;
-  font-size: 11.5px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: .05em;
   color: var(--text-muted);
@@ -86,30 +163,48 @@
 }
 .table td { padding: 11px 14px; border-bottom: 1px solid var(--border); color: var(--text); vertical-align: top; }
 .table tr:last-child td { border-bottom: none; }
+.table tbody tr { transition: background .12s ease; }
+.table tbody tr:hover { background: var(--surface-2); }
 
+/* ---------- watch list ---------- */
 .watchList { list-style: none; margin: 0; padding: 0; }
 .watchList li { display: flex; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--border); align-items: baseline; }
 .watchList li:last-child { border-bottom: none; }
-.watchDate { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 13px; color: var(--gold); font-weight: 700; min-width: 56px; }
+.watchDate {
+  font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace;
+  font-size: 13px;
+  color: var(--gold);
+  font-weight: 700;
+  min-width: 56px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-align: center;
+  padding: 3px 8px;
+}
 .watchText { line-height: 1.65; color: var(--text); font-size: 15.5px; }
 
-.faq details { border: 1px solid var(--border); border-radius: 12px; background: var(--surface); margin-bottom: 10px; }
+/* ---------- faq ---------- */
+.faq details { border: 1px solid var(--border); border-radius: 12px; background: var(--surface); margin-bottom: 10px; transition: border-color .15s ease; }
+.faq details[open] { border-color: var(--border-strong); }
 .faq summary { cursor: pointer; padding: 16px 18px; font-weight: 600; font-size: 15.5px; color: var(--text); list-style: none; }
 .faq summary::-webkit-details-marker { display: none; }
 .faq summary::after { content: '+'; float: right; color: var(--gold); font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-weight: 400; }
 .faq details[open] summary::after { content: '\2013'; }
 .faqAnswer { padding: 0 18px 16px; font-size: 15px; line-height: 1.7; color: var(--text-muted); }
 
+/* ---------- sources ---------- */
 .sources ol { padding-left: 22px; color: var(--text-muted); font-size: 14.5px; line-height: 1.8; margin: 0; }
 .sources li { margin-bottom: 6px; }
 .sources a { color: var(--gold); }
 
-.conversionGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 44px; }
+/* ---------- conversion ---------- */
+.conversionGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 40px; }
 .buyCard { background: linear-gradient(180deg, var(--surface-2), var(--surface)); border: 1px solid var(--border-strong); border-radius: 16px; padding: 26px 24px; }
 .buyCard h3, .emailGate h3 { font-size: 12.5px; font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; letter-spacing: .06em; text-transform: uppercase; color: var(--brass); margin: 0 0 12px; }
 .price { font-size: 34px; font-weight: 700; color: var(--text); font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; margin: 0 0 10px; }
 .buyCard p, .emailGate p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-.btnPrimary, .btnSecondary { display: block; width: 100%; text-align: center; padding: 13px 18px; border-radius: 10px; font-weight: 600; font-size: 15px; margin-top: 12px; transition: opacity .15s; text-decoration: none; }
+.btnPrimary, .btnSecondary { display: block; width: 100%; text-align: center; padding: 13px 18px; border-radius: 10px; font-weight: 600; font-size: 15px; margin-top: 12px; transition: opacity .15s, border-color .15s; text-decoration: none; }
 .btnPrimary { background: var(--gold); color: #06121a; }
 .btnPrimary:hover { opacity: .88; }
 .btnSecondary { background: var(--surface-2); border: 1px solid var(--border-strong); color: var(--text); }
@@ -117,11 +212,14 @@
 .emailGate { background: var(--surface); border: 1px dashed var(--border-strong); border-radius: 16px; padding: 26px 24px; }
 .microcopy { font-size: 12px; color: var(--text-dim); margin-top: 10px; }
 
+/* ---------- related ---------- */
 .related { margin-top: 40px; display: flex; flex-wrap: wrap; gap: 10px; }
-.related a { border: 1px solid var(--border); border-radius: 999px; padding: 8px 16px; font-size: 13.5px; color: var(--text-muted); text-decoration: none; }
+.related a { border: 1px solid var(--border); border-radius: 999px; padding: 8px 16px; font-size: 13.5px; color: var(--text-muted); text-decoration: none; transition: border-color .15s, color .15s; }
 .related a:hover { border-color: var(--gold); color: var(--gold); }
 
-@media (max-width: 720px) {
+@media (max-width: 920px) {
+  .heroGrid { grid-template-columns: 1fr; gap: 22px; }
+  .coverCard { max-width: 340px; }
   .conversionGrid { grid-template-columns: 1fr; }
   .findingsGrid { grid-template-columns: 1fr; }
 }
