@@ -8,6 +8,7 @@ import { JsonLd, breadcrumb, faqLd, datasetLd, SITE } from '../../research/seo';
 import { deepDive } from '../deepdive';
 import { corridorIntel, TIER_COLOR, STAGE_COLOR, STAGE_LABEL, rankOf, leaderboard } from '../corridor-intel';
 import CorridorGLMap from '../CorridorGLMap';
+import NodeCardGrid from '../NodeCardGrid';
 import { corridorFeatures, nodeFeatures } from '../corridor-geojson';
 import { deepFor, STAGE as NSTAGE, type NodeStage } from '../node-data';
 
@@ -135,7 +136,7 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
             </div>
           </div>
           <p style={{ fontSize: '12.5px', color: 'var(--text-dim)', marginTop: '10px', maxWidth: '64ch' }}>
-            The Techadyant Corridor Readiness Score rates maturity, capital momentum, connectivity and opportunity openness (each 0–25). This corridor ranks <strong style={{ color: 'var(--text-muted)' }}>#{rank} of {totalCorr}</strong>. <Link href="/corridors/" style={{ color: accent }}>Compare all corridors →</Link>
+            The Techadyant Corridor Readiness Score rates maturity, capital momentum, connectivity and opportunity openness (each 0–25). This corridor ranks <strong style={{ color: 'var(--text-muted)' }}>#{rank} of {totalCorr}</strong>. <Link href="/corridors/" style={{ color: accent }}>Compare all corridors →</Link> <Link href="/corridors/methodology/" style={{ color: accent }}>Score methodology →</Link>
           </p>
         </section>
       )}
@@ -213,19 +214,18 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>Industrial cities</div><h2>Anchor nodes</h2></div></div>
         {deep ? (
-          <div className="node-cards">
-            {deep.nodes.map((n) => (
-              <Link key={n.slug} href={`/corridors/${c.slug}/${n.slug}/`} className="node-card node-card-link" style={{ ['--accent' as string]: NSTAGE[n.stage].color }}>
-                <div className="ncl-top">
-                  <h3>{n.name}</h3>
-                  <span className="node-stage sm" style={{ color: NSTAGE[n.stage].color, borderColor: NSTAGE[n.stage].color }}>{NSTAGE[n.stage].label}</span>
-                </div>
-                <div className="st">{n.state}{n.areaAc ? ` · ${n.areaAc.toLocaleString('en-IN')} ac` : ''}{n.investmentCr ? ` · ₹${n.investmentCr.toLocaleString('en-IN')} cr` : ''}</div>
-                <p>{n.summary[0]}</p>
-                <span className="ncl-go">View node →</span>
-              </Link>
-            ))}
-          </div>
+          <NodeCardGrid
+            corridor={c.slug}
+            nodes={deep.nodes.map((n) => ({
+              slug: n.slug,
+              name: n.name,
+              state: n.state,
+              stage: n.stage,
+              areaAc: n.areaAc ?? null,
+              investmentCr: n.investmentCr ?? null,
+              summary0: n.summary[0] ?? null,
+            }))}
+          />
         ) : ci ? (
           <div className="ci-tablewrap">
             <table className="ci-table">
@@ -271,7 +271,10 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
               surfaces for industry and MSMEs, and who actually captures the value — is being built out
               corridor by corridor.
             </p>
-            <p className="corr-soon">Deep-dive analysis in progress. The related research below covers the themes that land along this corridor.</p>
+            <p className="corr-soon">
+              Our corridor-level analysis is being built out corridor by corridor. The official programme figures for
+              the {c.abbr} are above; the related research below covers the themes that land along this corridor.
+            </p>
           </>
         )}
       </section>

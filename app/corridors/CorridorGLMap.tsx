@@ -37,6 +37,7 @@ export default function CorridorGLMap({ corridors, nodes, focus, focusNode, comp
   const ref = useRef<HTMLDivElement>(null);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const mapRef = useRef<any>(null);
+  const resizeObserverRef = useRef<ResizeObserver | null>(null);
   const router = useRouter();
   const [tier, setTier] = useState('all');
   const [ready, setReady] = useState(false);
@@ -60,6 +61,11 @@ export default function CorridorGLMap({ corridors, nodes, focus, focusNode, comp
       mapRef.current = map;
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
       map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: '© OpenFreeMap · © OpenStreetMap contributors' }));
+
+      // Keep the map correct on resize / mobile rotation (MapLibre needs an explicit resize()).
+      const ro = new ResizeObserver(() => { if (mapRef.current) mapRef.current.resize(); });
+      if (ref.current) ro.observe(ref.current);
+      resizeObserverRef.current = ro;
 
       map.on('load', () => {
         map.addSource('corridors', { type: 'geojson', data: corridors });
@@ -136,7 +142,7 @@ export default function CorridorGLMap({ corridors, nodes, focus, focusNode, comp
       });
     })();
 
-    return () => { cancelled = true; if (map) map.remove(); };
+    return () => { cancelled = true; resizeObserverRef.current?.disconnect(); resizeObserverRef.current = null; if (map) map.remove(); };
   }, [corridors, nodes, focus, focusNode, router]);
 
   // tier filter — national view only (never fight the focus filter)

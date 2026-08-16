@@ -160,6 +160,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const indCorridorRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE}/corridors/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 },
     { url: `${SITE}/corridors/new-imcs/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.75 },
+  { url: `${SITE}/corridors/methodology/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 },
     ...indCorridors.map((c) => ({ url: `${SITE}/corridors/${c.slug}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7 })),
   ];
 

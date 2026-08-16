@@ -1811,6 +1811,7 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 
 .cidx-hero{display:grid;grid-template-columns:0.82fr 1.18fr;gap:2vw;align-items:center}
 @media(max-width:880px){.cidx-hero{grid-template-columns:1fr;gap:1rem}}
+@media(max-width:880px){.cidx-hero .cmap-wrap{display:none}}
 .cidx-legend{display:flex;gap:18px;font-size:12.5px;color:var(--text-muted);margin-top:14px}
 .cidx-legend i{display:inline-block;width:20px;height:3px;border-radius:2px;margin-right:7px;vertical-align:middle}
 .cidx-list{list-style:none;padding:0;margin:14px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:2px 22px}
@@ -2309,7 +2310,7 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .cgl-map{height:560px;width:100%}
 .cgl-note{margin:0;padding:8px 12px;border-top:1px solid var(--border);font-size:11px;color:var(--text-muted)}
 .cgl .maplibregl-popup-content{font-size:12px;line-height:1.45;padding:8px 10px;border-radius:8px}
-@media(max-width:640px){.cgl-map{height:420px}.cgl-legend{margin-left:0;width:100%}}
+@media(max-width:640px){.cgl-map{height:420px}.cgl-legend{margin-left:0;width:100%}.cgl-bar{gap:5px;padding:8px 10px}.cgl-chip{padding:3px 8px;font-size:11px}.cgl-title{font-size:11px}}
 .cgl-compact .cgl-map{height:380px}
 
 /* Atlas SSR directory (drones-uas / counter-uas index — de-orphan child pages, Jul 2026) */
@@ -2463,3 +2464,28 @@ a.eng-tile { text-decoration:none; color:inherit; }
 @media (max-width:640px){
   .ma-chart { padding:14px; }
 }
+
+
+/* ===== Corridors comparison table (/corridors) ===== */
+.cmp-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:12px;background:var(--surface)}
+.cmp-table{width:100%;border-collapse:collapse;font-size:13px;min-width:880px}
+.cmp-table th{position:sticky;top:0;background:var(--bg-2,#0d1420);text-align:left;padding:10px 12px;font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--text-dim);border-bottom:1px solid var(--border);white-space:nowrap}
+.cmp-table td{padding:10px 12px;border-bottom:1px solid var(--rule,#1c2636);vertical-align:top;line-height:1.45}
+.cmp-table tr:last-child td{border-bottom:0}
+.cmp-table tbody tr:hover td{background:rgba(255,255,255,.03)}
+.cmp-table a{color:var(--text);text-decoration:none;font-weight:600}
+.cmp-table a:hover{color:var(--brass)}
+.cmp-stag{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:7px;vertical-align:middle}
+.cmp-score{font-weight:800;font-size:15px}
+.cmp-tier{display:inline-block;font-size:10.5px;font-weight:700;padding:1px 8px;border-radius:999px;margin-left:6px}
+.cmp-fresh{font-size:12px;color:var(--text-muted);margin-top:10px;line-height:1.6}
+.cmp-fresh a{color:var(--brass);text-decoration:none}
+.cmp-fresh a:hover{text-decoration:underline}
+
+/* ===== Node card stage filter (corridor dossiers) ===== */
+.ncf-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.ncf-chip{padding:4px 12px;border:1px solid var(--border);border-radius:999px;background:transparent;color:var(--text);cursor:pointer;font-size:12.5px;transition:border-color .15s,background .15s}
+.ncf-chip:hover{border-color:var(--text-dim)}
+.ncf-chip.on{border-color:#C9A84C;background:rgba(201,168,76,.14);color:#EFE3BE}
+.ncf-chip .cnt{color:var(--text-dim);font-size:11px;margin-left:4px}
+.ncf-empty{color:var(--text-dim);font-size:13.5px;padding:8px 2px}
