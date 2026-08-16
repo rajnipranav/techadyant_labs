@@ -1867,6 +1867,56 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Vedanta Ltd declared successful bidder for Punnam Manganese Block in Andhra Pradesh on 13 August 2026', 'Block spreads over 152 hectares at G4 stage of exploration (initial geological survey phase)', 'Manganese is critical for ferro-manganese and silico-manganese alloys essential for steel production', 'Acquisition aims to reduce India\'s dependence on manganese imports and enhance domestic resource availability', 'Disclosed via BSE filing; statutory compliances fulfilled before bid confirmation'],
   sources: ['ET Manufacturing (14 August 2026): https://manufacturing.economictimes.indiatimes.com/news/industry/vedanta-emerges-successful-bidder-for-manganese-block-in-andhra-pradesh/133243001', 'Vedanta Ltd BSE Filing (13 August 2026): https://www.bseindia.com/ (via Vedanta official statement)']
+}, {
+  slug: 'pm-modi-5-8-semiconductor-plants-7-8-years',
+  no: 'S-056',
+  title: 'PM Modi sets trajectory: 5-8 more semiconductor plants in 7-8 years',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-08-16',
+  dateLabel: '16 Aug 2026',
+  status: 'live',
+  excerpt: 'Prime Minister Narendra Modi announced from the Red Fort on 15 August 2026 that three major semiconductor plants are already operational in India, with an additional five to eight plants expected to come online over the next seven to eight years.',
+  readingTime: '2 min',
+  body: [{
+  text: 'In his Independence Day address from the Red Fort on 15 August 2026, Prime Minister Narendra Modi stated that India already has three major semiconductor plants that are operational, with their products destined for export. He projected that an additional five to eight semiconductor plants will become operational over the next seven to eight years. The Prime Minister noted that for years, India discussed semiconductors but lacked large-scale manufacturing facilities, a gap the country is now systematically closing through the India Semiconductor Mission framework and its successor, Semicon 2.0, which was approved with an outlay of Rs 1,27,500 crore in July 2026. Twelve manufacturing units have already been approved under the first India Semiconductor Mission.',
+  type: 'p'
+}, {
+  text: 'This is the first time the Prime Minister has committed to a specific quantitative trajectory for India\'s semiconductor manufacturing expansion. The statement is significant because it signals government confidence in the current pipeline of approved projects and sets an explicit expectation for continued capacity addition through the early 2030s. The mention of exports from the three operational plants also indicates that India\'s semiconductor manufacturing is intended to serve global supply chains, not merely domestic demand.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is clear: India currently imports virtually all its semiconductor requirements. The three operational plants represent the first domestic manufacturing base, but they cover only a fraction of total demand across consumer electronics, automotive, telecom, and defence applications. The 5-8 plant trajectory, if realised, would still leave India dependent on imports for advanced-node logic chips, but it would establish a meaningful foothold in mature-node manufacturing for specific end-use sectors.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether the announced 5-8 plants materialise within the stated timeframe, and at what node sizes they will operate. The India Semiconductor Mission 2.0 (Rs 1.27 lakh crore) provides the fiscal framework, but the specific projects have not yet been named. Additionally, the Prime Minister\'s announcement that the government will train one crore youth in AI skills over the next year suggests a parallel push on the talent side, which is essential for both chip design and AI-driven semiconductor applications.',
+  type: 'p'
+}],
+  takeaways: ['Three major semiconductor plants are operational in India; PM Modi announced 5-8 more expected in the next 7-8 years from the Red Fort on 15 August 2026', 'Products from the three operational plants will be exported, indicating India\'s entry into global semiconductor supply chains', 'Semicon 2.0 was approved in July 2026 with an outlay of Rs 1,27,500 crore; 12 manufacturing units already approved under the first India Semiconductor Mission', 'Government will train one crore youth in AI skills over the next year, supporting the semiconductor and AI talent pipeline'],
+  sources: ['Business Standard (15 August 2026): https://www.business-standard.com/india-news/modi-independence-day-semiconductor-plants-ai-skilling-red-fort-speech-126081500228_1.html', 'The Times of India (15 August 2026): https://timesofindia.indiatimes.com/business/india-business/pm-modi-independence-day-speech-indias-big-semiconductor-push-pm-modi-says-5-8-plants-coming-up-in-few-years-stresses-self-reliance-in-chips/articleshow/133255271.cms', 'Press Information Bureau (15 August 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2298883']
+}, {
+  slug: 'aheesa-first-pass-silicon-vihaan-networking-soc',
+  no: 'S-057',
+  title: 'Aheesa achieves first-pass silicon success with VIHAAN networking SoC',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-08-16',
+  dateLabel: '16 Aug 2026',
+  status: 'live',
+  excerpt: 'Chennai-based Aheesa Digital Innovations achieved first-pass silicon success with VIHAAN, an indigenous broadband networking System-on-Chip built on the VEGA microprocessor, on 15 August 2026. Production tape-out is targeted for 2027.',
+  readingTime: '2 min',
+  body: [{
+  text: 'Aheesa Digital Innovations, a Chennai-based fabless semiconductor startup backed by the Design Linked Incentive (DLI) Scheme, achieved first-pass silicon success with its VIHAAN chip on 15 August 2026. VIHAAN is a networking System-on-Chip (SoC) purpose-built for fibre broadband applications, designed using the indigenous VEGA microprocessor developed by Incore Semiconductor. The chip was initially taped out on Republic Day (26 January 2026) and has now been validated in silicon. Aheesa will proceed towards production tape-out, targeted for 2027. The company raised approximately Rs 40 crore earlier this year from the Tamil Nadu Infrastructure Fund Management Corporation (TNIFMC) through the Tamil Nadu Emerging Sector Seed Fund (TNESSF), alongside other private investors.',
+  type: 'p'
+}, {
+  text: 'First-pass silicon success is a significant technical milestone in chip development. It means the chip functioned correctly on its first fabricated iteration, without requiring design corrections. This is particularly notable for a startup, as first-pass success reduces both time-to-market and development costs substantially. The use of the indigenous VEGA microprocessor also demonstrates that Indian chip design is increasingly building on domestically developed IP cores rather than exclusively licensing foreign architectures.',
+  type: 'p'
+}, {
+  text: 'The dependency frame: fibre broadband is a critical infrastructure component for India\'s digital economy, and networking SoCs for optical fibre equipment have traditionally been sourced from foreign suppliers such as Broadcom, Marvell, and Realtek. A domestically designed SoC for this application, if it reaches volume production, would reduce import dependence in a segment that is essential for rural broadband expansion and 5G backhaul. The DLI Scheme\'s broader track record — 35 tape-outs and over US$100 million in cumulative VC funding across supported companies — indicates a maturing design ecosystem.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether VIHAAN achieves volume production by 2027 and secures design wins with fibre broadband equipment manufacturers. Success would validate the DLI Scheme\'s model of supporting Indian fabless companies and could encourage further investment in networking silicon. The parallel achievement by other DLI-backed companies — Vervesemi\'s BLDC motor controller, Netrasemi\'s 12nm Vision SoC, and OptoML\'s compute-in-memory SoC — suggests the ecosystem is producing multiple validated designs across different application domains simultaneously.',
+  type: 'p'
+}],
+  takeaways: ['Aheesa Digital Innovations (Chennai) achieved first-pass silicon success with VIHAAN networking SoC on 15 August 2026, after taping out on Republic Day 2026', 'VIHAAN is purpose-built for fibre broadband and built on the indigenous VEGA microprocessor by Incore Semiconductor', 'Company raised Rs 40 crore from TNIFMC through TNESSF and other private investors to accelerate product development', 'DLI Scheme-backed companies have cumulatively achieved 35 chip design tape-outs and raised over US$100 million in VC funding'],
+  sources: ['Press Information Bureau (15 August 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2299883', 'Hindu Business Line (15 August 2026): https://www.thehindubusinessline.com/info-tech/indian-semiconductor-startup-aheesa-achieves-first-pass-success-with-vihaan-chip/article71349976.ece', 'NewKerala (15 August 2026): https://www.newkerala.com/news/a/dli-backed-indian-chip-startup-achieves-first-pass-silicon-success-491.htm']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
