@@ -2,6 +2,12 @@
 
 Prepared: 2026-08-16 (after full audit: code, data layer, live DOM measurements at 390px/1440px, and screenshot review).
 
+## Status: Phase 1 & 2 DONE (commit 9500521, live 2026-08-16)
+- Phase 1 shipped: Dholera map mobile rebuild, GL map resize handler, mobile hero collapse, compact control bar, placeholder rewording.
+- Phase 2 shipped: comparison table (11x9), /corridors/methodology/, freshness stamp, NodeCardGrid stage filters, corridor-nodes.csv (38 nodes, CC BY 4.0).
+- Verified live via CDP at 390px: hero 1177->816px, dholera provenance/plan off by default + badge no overflow + 56vh map, table 11 rows, chips 5, csv 200.
+- Phase 3 (opportunity maps for Sanand/AURIC/Greater Noida, supplier-opportunity blocks, quarterly delta feed, state filter) remains open.
+
 ## Audit summary — what's strong
 
 - **Data layer is rich**: all 11 corridors have Readiness Scores (4 axes), tiers, SPV/funding/DFC/investment/jobs; **38 deep nodes** carry stage, area, investment, jobs, sectors, companies+commitments, infrastructure, incentives, timeline, sections, sources; deep-dive "view" paragraphs exist for all 11.
