@@ -66,6 +66,18 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
   const label = c.name.replace(' Industrial Corridor', '').replace(' Economic Corridor', '');
   const deep = deepFor(c.slug);
   const dn = deep?.nodes ?? [];
+  const MONTHS: Record<string, number> = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+  const dateKey = (d: string): number => {
+    const m = String(d).match(/(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i);
+    const y = String(d).match(/(20\d{2})/);
+    const year = y ? Number(y[1]) : 0;
+    const mon = m ? (MONTHS[m[1].toLowerCase()] ?? 12) : 12;
+    return year * 100 + mon;
+  };
+  const recent = dn
+    .flatMap((n) => (n.timeline ?? []).map((tl) => ({ date: tl.date, label: tl.label, node: n.name })))
+    .sort((a, b) => dateKey(b.date) - dateKey(a.date))
+    .slice(0, 6);
   const stageOrder: NodeStage[] = ['construction', 'approved', 'operational', 'planned'];
   const stageSplit = stageOrder.map((stg) => ({ stage: stg, count: dn.filter((n) => n.stage === stg).length })).filter((x) => x.count > 0);
   const areaData = dn.filter((n) => n.areaAc).map((n) => ({ name: n.name.replace(/ IMC.*| \(.*/, ''), val: n.areaAc as number })).sort((a, b) => b.val - a.val);
@@ -182,6 +194,26 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
             </div>
           )}
           <p className="chart-src">Source: DPIIT/NICDC status report (31 Oct 2025) + PIB / India Investment Grid. Investment-potential and jobs figures are official projections.</p>
+        </section>
+      )}
+
+      {recent.length > 0 && (
+        <section className="wrap" style={{ background: 'var(--bg-2)' }}>
+          <div className="section-head-ed">
+            <div>
+              <div className="ed-kicker" style={{ color: accent }}>Tracked developments</div>
+              <h2>What's new on this corridor</h2>
+            </div>
+          </div>
+          <ul className="corr-milestones" role="list" style={{ marginTop: 4 }}>
+            {recent.map((r, i) => (
+              <li key={i}>
+                <span className="cm-date">{r.date}</span>
+                <span className="cm-label">{r.label} <em className="cm-node">— {r.node}</em></span>
+              </li>
+            ))}
+          </ul>
+          <p className="chart-src">Node-level developments tracked from DPIIT/NICDC status reports and PIB releases; each node page carries its full timeline and linked primary sources.</p>
         </section>
       )}
 

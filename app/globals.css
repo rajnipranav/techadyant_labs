@@ -2489,3 +2489,29 @@ a.eng-tile { text-decoration:none; color:inherit; }
 .ncf-chip.on{border-color:#C9A84C;background:rgba(201,168,76,.14);color:#EFE3BE}
 .ncf-chip .cnt{color:var(--text-dim);font-size:11px;margin-left:4px}
 .ncf-empty{color:var(--text-dim);font-size:13.5px;padding:8px 2px}
+
+
+/* ===== Phase 3: node supplier-opportunity surface ===== */
+.node-pulls{margin:26px 0 10px}
+.np-card{border:1px solid var(--border);border-radius:12px;background:var(--bg-2,#0d1420);padding:16px 18px;margin-bottom:14px}
+.np-card h3{margin:0 0 4px;font-size:15.5px}
+.np-note{font-size:13px;color:var(--text-muted);line-height:1.6;margin:0 0 12px;max-width:72ch}
+.np-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:560px}
+.np-table th{text-align:left;padding:7px 10px;font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--text-dim);border-bottom:1px solid var(--border)}
+.np-table td{padding:7px 10px;border-bottom:1px solid var(--rule,#1c2636);vertical-align:top;line-height:1.45}
+.np-table tr:last-child td{border-bottom:0}
+.np-tier{font-size:11px;font-weight:700;white-space:nowrap}
+.np-disc{font-size:12px;color:var(--text-muted);line-height:1.6;max-width:80ch;margin:6px 2px 0}
+.np-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:10px}
+
+/* ===== Phase 3: state filter (index) ===== */
+.cidx-states{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 2px}
+.cidx-state-chip{padding:3px 10px;border:1px solid var(--border);border-radius:999px;background:transparent;color:var(--text);cursor:pointer;font-size:12px;transition:border-color .15s,background .15s}
+.cidx-state-chip:hover{border-color:var(--text-dim)}
+.cidx-state-chip.on{border-color:#C9A84C;background:rgba(201,168,76,.14);color:#EFE3BE}
+.cidx-state-chip .cnt{color:var(--text-dim);font-size:10.5px;margin-left:3px}
+.cidx-state-note{font-size:12px;color:var(--text-muted);margin:10px 0 0}
+.cidx-state-clear{background:none;border:none;color:#C9A84C;cursor:pointer;font-size:12px;padding:0;text-decoration:underline}
+
+/* ===== Phase 3: whats-new node attribution ===== */
+.cm-node{font-style:normal;color:var(--text-dim);font-size:12px}

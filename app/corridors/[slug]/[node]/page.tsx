@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { corridors, CLASS_COLOR } from '../../data';
 import { deepFor, nodeBySlugs, allCorridorNodePairs, STAGE } from '../../node-data';
 import CorridorGLMap from '../../CorridorGLMap';
+import { pullsFor } from '../../opportunity';
 import { corridorFeatures, nodeFeatures } from '../../corridor-geojson';
 import { JsonLd, breadcrumb, faqLd, SITE } from '../../../research/seo';
 
@@ -89,6 +90,7 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
     ...(co.sector ? { description: co.sector } : {}),
     location: { '@type': 'Place', name: n.name, address: { '@type': 'PostalAddress', addressRegion: n.state, addressCountry: 'IN' }, containedInPlace: { '@type': 'Place', name: cor.name } },
   }));
+  const pulls = pullsFor(n.sectors);
   const faqs: { q: string; a: string }[] = [
     { q: `What is the status of ${n.name}?`, a: `${n.name} in ${n.state} is ${st.label.toLowerCase()} (${n.statusLabel}) on India’s ${cor.name}. ${n.summary[0]}` },
   ];
@@ -139,7 +141,7 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
       )}
 
       {/* Dholera has its own dedicated opportunity map below, so the corridor context map is redundant there. */}
-      {!(slug === 'delhi-mumbai' && node === 'dholera-sir') && (
+      {!(slug === 'delhi-mumbai' && (node === 'dholera-sir' || node === 'auric-shendra-bidkin')) && (
         <section className="wrap">
           <CorridorGLMap corridors={corridorFeatures()} nodes={nodeFeatures()} focus={slug} focusNode={node} compact />
         </section>
@@ -166,8 +168,64 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
         </section>
       )}
 
+      {slug === 'delhi-mumbai' && node === 'auric-shendra-bidkin' && (
+        <section className="wrap">
+          <div className="dholera-embed">
+            <div className="de-head">
+              <h2>AURIC opportunity map</h2>
+              <p>
+                Anchor projects and the surrounding Aurangabad auto belt on satellite imagery. Select an anchor to
+                open the supplier ecosystem and opportunity surface it pulls. All positions are approximate regional
+                context, not survey data.{' '}
+                <a href="/maps/auric-shendra-bidkin.html" target="_blank" rel="noopener noreferrer">Open full screen &#8599;</a>
+              </p>
+            </div>
+            <iframe
+              src="/maps/auric-shendra-bidkin.html"
+              title="AURIC Shendra-Bidkin industrial intelligence and opportunity map"
+              loading="lazy"
+            />
+          </div>
+        </section>
+      )}
+
       <section className="wrap-narrow">
         {n.summary.map((p, i) => <p key={i} className="node-para">{p}</p>)}
+
+        {pulls.length > 0 && (
+          <section className="node-pulls" aria-labelledby="node-pulls-h">
+            <h2 className="node-h2" id="node-pulls-h">What this node pulls — supplier opportunity surface</h2>
+            {pulls.map((pu) => (
+              <div key={pu.label} className="np-card">
+                <h3>{pu.label}</h3>
+                <p className="np-note">{pu.note}</p>
+                <table className="np-table">
+                  <thead>
+                    <tr><th>Layer</th><th>Status</th><th>What the anchor pulls</th><th>Import dep.</th><th>Entry</th></tr>
+                  </thead>
+                  <tbody>
+                    {pu.layers.map((ly) => (
+                      <tr key={ly.layer}>
+                        <td><b>{ly.layer}</b></td>
+                        <td>{ly.status}</td>
+                        <td>{ly.what}</td>
+                        <td>{ly.importDep != null ? `${ly.importDep}%` : '—'}</td>
+                        <td><span className="np-tier" style={{ color: ly.tier === 'Build-now' ? '#0F8E78' : ly.tier === 'Position-early' ? '#B5891E' : '#8593A6' }}>{ly.tier}</span></td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ))}
+            <p className="np-disc">
+              Indicative opportunity surface derived from the node's sector profile and Techadyant sector-level research
+              (import-dependency figures from the Dholera supplier workbook and cross-report modelling). Not
+              node-specific verified commitments — verify each layer against current tenders and anchor statements
+              before acting. Entry tiers: Build-now (capital-light, local base exists), Position-early (gap to close),
+              Watch (long-horizon, high-IP).
+            </p>
+          </section>
+        )}
 
         <div className="node-facts">
           <div><dt>Sectors</dt><dd>{n.sectors}</dd></div>

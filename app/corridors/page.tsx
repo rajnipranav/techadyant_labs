@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { CorridorMap } from './CorridorMap';
+import StateFilter from './StateFilter';
 import CorridorGLMap from './CorridorGLMap';
 import { corridorFeatures, nodeFeatures } from './corridor-geojson';
 import { corridors, corridorBySlug, CLASS_COLOR, CLASS_LABEL } from './data';
@@ -84,17 +85,7 @@ export default function CorridorsIndex() {
                 <span><i style={{ background: CLASS_COLOR.buildout }} />{CLASS_LABEL.buildout}</span>
                 <span><i style={{ background: CLASS_COLOR.planned }} />{CLASS_LABEL.planned}</span>
               </div>
-              <ul className="cidx-list">
-                {corridors.map((c) => (
-                  <li key={c.slug}>
-                    <Link href={`/corridors/${c.slug}/`}>
-                      <span className="n">{c.num}</span>
-                      <span className="sw" style={{ background: CLASS_COLOR[c.cls] }} />
-                      <span>{shortName(c.name)}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              <StateFilter corridors={corridors} shortName={shortName} />
             </div>
             <div>
               <CorridorMap navigate />
