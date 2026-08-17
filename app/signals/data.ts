@@ -1954,7 +1954,7 @@ export const signals: SignalMeta[] = [{
   title: 'Kawa UAV achieves India\'s first indigenous jet-powered loitering munition flight',
   domain: 'Defence & Dual-Use',
   date: '2026-08-17',
-  dateLabel: 'August 2026',
+  dateLabel: '17 Aug 2026',
   status: 'live',
   excerpt: 'Kawa UAV Pvt. Ltd. (HoverIt), headquartered in the Uttar Pradesh Defence Industrial Corridor, conducted the maiden flight of Divyastra Mk3 on 11 August 2026 — the first flight of a 100% indigenously designed, developed and manufactured jet-powered loitering munition in India.',
   readingTime: '3 min read',
