@@ -2558,21 +2558,31 @@ a.eng-tile { text-decoration:none; color:inherit; }
 .svc-card p{font-size:12.5px;line-height:1.55;color:var(--text-muted,#9aa3b2);margin:0}
 .svc-go{font-size:12px;font-weight:600;color:var(--brass,#C9A84C);margin-top:auto}
 .sanket-spot{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:18px;align-items:stretch}
-.sanket-issue{display:flex;gap:18px;border:1px solid var(--border,rgba(255,255,255,.1));border-radius:14px;padding:16px;background:var(--bg-2,rgba(255,255,255,.02));text-decoration:none;transition:border-color .15s}
+.sanket-issue{position:relative;display:block;overflow:hidden;min-height:340px;border:1px solid var(--border,rgba(255,255,255,.1));border-radius:14px;background:var(--bg-2,rgba(255,255,255,.02));text-decoration:none;transition:border-color .15s}
 .sanket-issue:hover{border-color:rgba(201,168,76,.55)}
-.sanket-issue img{width:130px;height:auto;border-radius:8px;object-fit:cover;flex:0 0 130px;border:1px solid var(--border-strong,rgba(255,255,255,.14))}
-.sanket-issue-body{display:flex;flex-direction:column;gap:8px;min-width:0}
-.si-meta{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--brass,#C9A84C);font-weight:700}
-.si-title{font-size:19px;font-weight:700;color:var(--text,#e9e7e0);line-height:1.25}
-.si-stand{font-size:12.5px;line-height:1.55;color:var(--text-muted,#9aa3b2);margin:0}
+.sanket-issue img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.sanket-issue:hover img{transform:scale(1.035)}
+.sanket-issue-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,14,.05) 0%,rgba(8,10,14,.28) 48%,rgba(8,10,14,.94) 100%)}
+.sanket-issue-body{position:absolute;left:0;right:0;bottom:0;display:flex;flex-direction:column;gap:8px;padding:24px;z-index:1}
+.si-badge{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--brass,#C9A84C);font-weight:700}
+.si-title{font-size:22px;font-weight:700;color:#fff;line-height:1.22;max-width:24em}
+.si-stand{font-size:13px;line-height:1.55;color:rgba(233,231,224,.82);margin:0;max-width:38em}
+.si-cta{display:inline-flex;align-items:center;gap:6px;width:fit-content;margin-top:4px;padding:9px 16px;border-radius:9px;background:var(--brass,#C9A84C);color:#14161a;font-size:13px;font-weight:700;box-shadow:0 2px 10px rgba(0,0,0,.28)}
+.sanket-issue:hover .si-cta{background:#d9b95e}
 .sanket-signup{display:flex;flex-direction:column;justify-content:center;gap:14px;border:1px solid var(--border,rgba(255,255,255,.1));border-radius:14px;padding:22px;background:var(--bg-2,rgba(255,255,255,.02))}
 .ss-lead{font-size:13px;line-height:1.6;color:var(--text-muted,#9aa3b2);margin:0}
+.sanket-signup .newsletter{padding:clamp(20px,3vw,30px);border-radius:14px}
+.sanket-signup .newsletter .nl-kicker{margin-bottom:10px;font-size:10.5px}
+.sanket-signup .newsletter h2{font-size:clamp(19px,2vw,23px);margin-bottom:8px;letter-spacing:-0.015em}
+.sanket-signup .newsletter p{font-size:14px;line-height:1.55;margin-bottom:18px}
 @media (max-width:860px){
   .corr-teaser{grid-template-columns:1fr}
   .corr-teaser-map{min-height:230px}
   .sanket-spot{grid-template-columns:1fr}
   .dep-row{grid-template-columns:minmax(120px,1fr) minmax(90px,1.6fr);grid-template-areas:"name num" "bar bar"}
   .dep-name{grid-area:name}.dep-num{grid-area:num;text-align:right}.dep-bar{grid-area:bar}
-  .sanket-issue{flex-direction:column}
-  .sanket-issue img{width:100%;flex:none;max-height:190px;object-fit:cover}
+  .sanket-issue{min-height:300px}
+  .sanket-issue-body{padding:18px}
+  .si-title{font-size:19px}
+  .si-stand{font-size:12.5px}
 }

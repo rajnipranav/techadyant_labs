@@ -397,14 +397,15 @@ export default function HomePage() {
         </div>
         <div className="sanket-spot">
           {latestIssue && (
-            <Link href={`/newsletter/${latestIssue.slug}/`} className="sanket-issue">
-              <img src={latestIssue.cover} alt={`${latestIssue.no} cover`} loading="lazy" decoding="async" />
-              <div className="sanket-issue-body">
-                <div className="si-meta">{latestIssue.no} · {latestIssue.month} · {latestIssue.readingTime}</div>
-                <div className="si-title">{latestIssue.title}</div>
-                <p className="si-stand">{latestIssue.standfirst}</p>
-                <span className="btn-ed btn-ed-primary">Read the issue <span className="arr">→</span></span>
-              </div>
+            <Link href={`/newsletter/${latestIssue.slug}/`} className="sanket-issue" aria-label={`Read Sanket ${latestIssue.no}: ${latestIssue.title}`}>
+              <img src={latestIssue.cover} alt={`${latestIssue.no} cover — ${latestIssue.title}`} loading="lazy" decoding="async" />
+              <span className="sanket-issue-shade" aria-hidden="true" />
+              <span className="sanket-issue-body">
+                <span className="si-badge">{latestIssue.no} · {latestIssue.month} · {latestIssue.readingTime}</span>
+                <span className="si-title">{latestIssue.title}</span>
+                <span className="si-stand">{latestIssue.standfirst}</span>
+                <span className="si-cta">Read the issue <span className="arr">→</span></span>
+              </span>
             </Link>
           )}
           <div className="sanket-signup">
