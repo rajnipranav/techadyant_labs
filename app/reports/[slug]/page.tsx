@@ -42,6 +42,7 @@ import { ReportContent as CmddContent, toc as cmddToc } from '../content/india-c
 import { ReportContent as QDayContent, toc as qDayToc } from '../content/q-day-india';
 import { ReportContent as KalpasarContent, toc as kalpasarToc } from '../content/kalpasar-economic-impact';
 import { ReportContent as IafContent, toc as iafToc } from '../content/iaf-autonomous-air-power';
+import { ReportContent as IndustrialAiContent, toc as industrialAiToc } from '../content/industrial-ai-in-indian-manufacturing';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -76,6 +77,7 @@ const registry: Record<string, ReportModule> = {
   'india-critical-manufacturing-dependencies': { toc: cmddToc, Content: CmddContent },
   'kalpasar-economic-impact': { toc: kalpasarToc, Content: KalpasarContent },
   'iaf-autonomous-air-power': { toc: iafToc, Content: IafContent },
+  'industrial-ai-in-indian-manufacturing': { toc: industrialAiToc, Content: IndustrialAiContent },
 };
 
 export async function generateStaticParams() {
