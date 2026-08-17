@@ -31,7 +31,6 @@ export const issues: IssueMeta[] = [{
   pdfReady: true,
   status: 'live'
 }, {
-
   slug: 'sanket-july-2026',
   no: 'Issue 03',
   month: 'July 2026',
