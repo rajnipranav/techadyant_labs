@@ -17,6 +17,9 @@ export default async function SignalsIndex() {
     const cms = await getSignals(); if (cms.length) signals = cms as any[];
     if (cms.length) signals = cms;
   } catch {}
+  // Display in serial order, newest signal first (by signal number desc).
+  const signalNo = (s: any) => parseInt(String(s.no ?? '').replace(/\D/g, ''), 10) || 0;
+  signals = [...signals].sort((a, b) => signalNo(b) - signalNo(a));
   return (
     <>
       <header className="ed-page-head">
