@@ -232,7 +232,7 @@ export const reports: ReportMeta[] = [{
   summary: 'The strategic question for Indian manufacturing in 2026 is no longer whether to deploy industrial AI, but where, in what sequence, and against what governance. This playbook sizes the Indian industrial-AI market at $4.8–6.2B by 2030 (32–38% CAGR), locates ~70% of addressable value in three operational levers — downtime, yield/scrap and energy — and quantifies the economics: a 2.4–3.2× TCO multiple over software cost, a 58% base-case three-year ROI for SMEs with a 14-month median payback, and a 35–45% pilot scale-up failure rate driven overwhelmingly by data (28%) and strategic (22%) failures rather than algorithms. 137 pages, 36 exhibits and a companion workbook with parameterised financial models.',
   accent: '#38e1c4',
   access: 'paid',
-  price: 75000,
+  price: 9900,
   currency: 'INR',
   hasPdf: true,
   hasDeck: false,
@@ -240,9 +240,9 @@ export const reports: ReportMeta[] = [{
   cover: '/covers/industrial-ai-in-indian-manufacturing.jpg',
   previewObject: 'industrial-ai-in-indian-manufacturing-preview.pdf',
   previewPages: 11,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
+  hasData: true,
+  priceWithData: 14900,
+  dataFilename: 'Industrial-AI-in-Indian-Manufacturing-Data-Pack-Techadyant-Labs.xlsx',
   keywords: ['industrial AI India', 'AI in manufacturing India', 'Industry 4.0 India', 'predictive maintenance manufacturing', 'industrial automation India', 'AI adoption manufacturing', 'smart manufacturing India', 'Edge AI manufacturing', 'manufacturing AI ROI', 'India AI mission manufacturing'],
   faq: [{
   a: 'The realistic 3-year ROI range for Indian SME manufacturers is 28% to 88%, with a base-case cumulative ROI of 58% and a median payback period of 14 months for mid-sized plants deploying focused use cases like vision quality and predictive maintenance.',
@@ -263,7 +263,7 @@ export const reports: ReportMeta[] = [{
   sources: ['Techadyant Labs internal deployment and failure-mode database (2022–2025)', 'Ministry of Electronics and Information Technology (MeitY) – IndiaAI Mission documentation', 'Ministry of MSME & DPIIT – Udyam registration data and PLI scheme progress reports', 'Reserve Bank of India (RBI) – Industrial Outlook Surveys (2024–25)', 'FICCI Manufacturing Surveys (2024–25) on operational constraints', 'Bureau of Energy Efficiency (BEE) – PAT scheme energy intensity data'],
   dateModified: '2026-08-17',
   seo: {
-  includes: ['Companion Excel workbook with parameterised financial models', '36 editable SVG exhibits']
+
 }
 }, {
   slug: 'india-ai-power-infrastructure-gap',

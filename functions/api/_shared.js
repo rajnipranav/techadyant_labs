@@ -228,10 +228,13 @@ export const REPORTS = {
   },
   'industrial-ai-in-indian-manufacturing': {
     access: 'paid',
-    priceInr: 75000,
+    priceInr: 9900,
     object: 'industrial-ai-in-indian-manufacturing.pdf',
     filename: 'Industrial-AI-in-Indian-Manufacturing-Techadyant-Labs.pdf',
     title: "Industrial AI in Indian Manufacturing",
+    priceWithDataInr: 14900,
+    dataObject: 'data/Industrial-AI-in-Indian-Manufacturing-Workbook.xlsx',
+    dataFilename: 'Industrial-AI-in-Indian-Manufacturing-Data-Pack-Techadyant-Labs.xlsx',
   },
 };
 
