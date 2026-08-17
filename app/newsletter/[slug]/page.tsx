@@ -5,12 +5,14 @@ import { issues, getIssue } from '../data';
 import { IssueContent as MayContent } from '../content/strategic-signals-may-2026';
 import { IssueContent as JuneContent } from '../content/sanket-june-2026';
 import { IssueContent as JulyContent } from '../content/sanket-july-2026';
+import { IssueContent as AugustContent } from '../content/sanket-august-2026';
 
 interface IssueModule { Content: () => React.ReactElement }
 
 const registry: Record<string, IssueModule> = {
   'sanket-may-2026': { Content: MayContent },
   'sanket-june-2026': { Content: JuneContent },
+  'sanket-august-2026': { Content: AugustContent },
   'sanket-july-2026': { Content: JulyContent },
 };
 

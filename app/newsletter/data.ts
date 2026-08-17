@@ -16,6 +16,22 @@ export interface IssueMeta {
 }
 
 export const issues: IssueMeta[] = [{
+  slug: 'sanket-august-2026',
+  no: 'Issue 04',
+  month: 'August 2026',
+  date: '17 August 2026',
+  published: '2026-08-17',
+  title: 'Pricing the Gap',
+  standfirst: 'Three service roadmaps, one composite index, 312 import surfaces - August was the month India put a number on what it does not make. July priced the opportunity; August priced the gap. The question now is whether the numbers build anything.',
+  readingTime: '10-min read',
+  card: '/covers/sanket-august-2026.jpg',
+  cover: '/newsletter/august-at-a-glance.png',
+  ogImage: '/newsletter/august-at-a-glance.png',
+  pdf: 'https://library.techadyant.com/free%20reports/sanket-aug-26.pdf',
+  pdfReady: false,
+  status: 'live'
+}, {
+
   slug: 'sanket-july-2026',
   no: 'Issue 03',
   month: 'July 2026',
