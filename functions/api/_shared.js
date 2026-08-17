@@ -226,6 +226,13 @@ export const REPORTS = {
     dataObject: 'data/Techadyant_BeyondSeaDrones_Workbook.xlsx',
     dataFilename: 'Beyond-Sea-Drones-Data-Pack-Techadyant-Labs.xlsx',
   },
+  'industrial-ai-in-indian-manufacturing': {
+    access: 'paid',
+    priceInr: 75000,
+    object: 'industrial-ai-in-indian-manufacturing.pdf',
+    filename: 'Industrial-AI-in-Indian-Manufacturing-Techadyant-Labs.pdf',
+    title: "Industrial AI in Indian Manufacturing",
+  },
 };
 
 

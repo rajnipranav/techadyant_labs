@@ -220,6 +220,52 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'industrial-ai-in-indian-manufacturing',
+  title: 'Industrial AI in Indian Manufacturing',
+  subtitle: 'Where, how and in what sequence Indian manufacturers should deploy industrial AI — priced against the loss base, not the vendor slide.',
+  domain: 'Edge AI & Industrial Automation',
+  edition: 'Strategic Intelligence Report · First Edition · January 2026',
+  published: '2026-08-17',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 2.5h read',
+  status: 'published',
+  summary: 'The strategic question for Indian manufacturing in 2026 is no longer whether to deploy industrial AI, but where, in what sequence, and against what governance. This playbook sizes the Indian industrial-AI market at $4.8–6.2B by 2030 (32–38% CAGR), locates ~70% of addressable value in three operational levers — downtime, yield/scrap and energy — and quantifies the economics: a 2.4–3.2× TCO multiple over software cost, a 58% base-case three-year ROI for SMEs with a 14-month median payback, and a 35–45% pilot scale-up failure rate driven overwhelmingly by data (28%) and strategic (22%) failures rather than algorithms. 137 pages, 36 exhibits and a companion workbook with parameterised financial models.',
+  accent: '#38e1c4',
+  access: 'paid',
+  price: 75000,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 137,
+  cover: '/covers/industrial-ai-in-indian-manufacturing.jpg',
+  previewObject: 'industrial-ai-in-indian-manufacturing-preview.pdf',
+  previewPages: 11,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['industrial AI India', 'AI in manufacturing India', 'Industry 4.0 India', 'predictive maintenance manufacturing', 'industrial automation India', 'AI adoption manufacturing', 'smart manufacturing India', 'Edge AI manufacturing', 'manufacturing AI ROI', 'India AI mission manufacturing'],
+  faq: [{
+  a: 'The realistic 3-year ROI range for Indian SME manufacturers is 28% to 88%, with a base-case cumulative ROI of 58% and a median payback period of 14 months for mid-sized plants deploying focused use cases like vision quality and predictive maintenance.',
+  q: 'What is the ROI of industrial AI for Indian SMEs?'
+}, {
+  a: 'Total cost of ownership (TCO) is 2.4 to 3.2 times the AI software cost. For a mid-sized Indian plant, the all-in 3-year TCO is typically ₹2.5 to ₹5 crore, with systems integration the largest single component at 20–26% of the total.',
+  q: 'How much does an industrial AI deployment actually cost?'
+}, {
+  a: 'Automotive components, pharmaceuticals, electronics manufacturing and specialty chemicals are priority sectors combining high value pools with high readiness. Food processing and textiles have large value pools but require significant data-foundation investment first due to low instrumentation.',
+  q: 'Which manufacturing sectors are most ready for AI adoption?'
+}, {
+  a: '35% to 45% of pilots that attempt scale-up underperform materially. The dominant failure modes are data-related (28%), strategic (22%) and organisational (19%) — technology and algorithm selection are rarely the primary cause of failure.',
+  q: 'Why do industrial AI pilots fail to scale?'
+}, {
+  a: 'The Indian industrial AI market is projected to grow from a 2025 baseline of $1.1–$1.3 billion to $4.8–$6.2 billion by 2030, a 32–38% CAGR. In an accelerated policy and capital scenario it could reach $14–$18 billion by 2035.',
+  q: 'What is the projected market size for industrial AI in India?'
+}],
+  sources: ['Techadyant Labs internal deployment and failure-mode database (2022–2025)', 'Ministry of Electronics and Information Technology (MeitY) – IndiaAI Mission documentation', 'Ministry of MSME & DPIIT – Udyam registration data and PLI scheme progress reports', 'Reserve Bank of India (RBI) – Industrial Outlook Surveys (2024–25)', 'FICCI Manufacturing Surveys (2024–25) on operational constraints', 'Bureau of Energy Efficiency (BEE) – PAT scheme energy intensity data'],
+  dateModified: '2026-08-17',
+  seo: {
+  includes: ['Companion Excel workbook with parameterised financial models', '36 editable SVG exhibits']
+}
+}, {
   slug: 'india-ai-power-infrastructure-gap',
   title: 'India’s AI Power Infrastructure Gap',
   subtitle: 'Why DC build-out is constrained by transmission, not generation',
@@ -660,44 +706,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s strategic import dependencies scored on the Critical Manufacturing Dependency Index — 312 surfaces across twelve sectors, the deepest chokepoints, twelve opportunity zones and a $480 billion localisation map to 2035.'
 }
 }, {
-  slug: 'dholera-semiconductor-supplier-ecosystem',
-  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
-  domain: 'Semiconductor Ecosystems',
-  edition: 'Edition 01',
-  published: '2026-07-26',
-  publishedLabel: 'July 2026',
-  readingTime: '~ 30 min read',
-  status: 'published',
-  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
-  accent: '#F5B544',
-  access: 'paid',
-  price: 5900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 28,
-  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
-  previewPages: 14,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-07-26',
-  seo: {
-  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
-  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  schemaType: 'Report',
-  focusKeyword: 'Dholera semiconductor ecosystem',
-  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
-  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
-}
-}, {
   slug: 'india-industrial-waste-recycling-economy',
   title: 'India\'s Industrial Waste & Recycling Economy',
   subtitle: 'Battery metals, e-waste, chemical recovery and the secondary-industrial opportunity across Indian recycling corridors',
@@ -736,6 +744,44 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India industrial waste recycling economy',
   metaDescription: 'Strategic intelligence on India\'s industrial waste and recycling economy — battery metals, e-waste, black mass, chemical recovery and secondary-industrial corridors.'
+}
+}, {
+  slug: 'dholera-semiconductor-supplier-ecosystem',
+  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
+  domain: 'Semiconductor Ecosystems',
+  edition: 'Edition 01',
+  published: '2026-07-26',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 30 min read',
+  status: 'published',
+  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
+  accent: '#F5B544',
+  access: 'paid',
+  price: 5900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 28,
+  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
+  previewPages: 14,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-07-26',
+  seo: {
+  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
+  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  schemaType: 'Report',
+  focusKeyword: 'Dholera semiconductor ecosystem',
+  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
+  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
 }
 }, {
   slug: 'quantum-supply-chain',
@@ -1642,51 +1688,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India\'s public and private core systems run on foreign enterprise software. The SAP Question maps the dependence, the risks and the sovereign ERP opportunity. Free full report.'
 }
 }, {
-  slug: 'india-battlefield-automation-gap',
-  title: 'India’s Battlefield Automation Gap',
-  subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
-  domain: 'Defence & Dual-Use',
-  edition: 'Edition 01 · Strategic Intelligence · v1.0',
-  published: '2026-05-30',
-  publishedLabel: 'May 2026',
-  readingTime: '~ 2h 30m read',
-  status: 'published',
-  summary: 'Battlefield automation is an industrial-capability race, not a procurement race. Using a proprietary Battlefield Automation Readiness Index (BARI), this report scores India against China and the United States across eight industrial layers — sensors, rugged electronics, batteries, tactical communications, autonomy software, testing and manufacturing — maps where the gap concentrates, reads it sector by sector, and identifies the startup, SME and policy opportunities that would close it. Published free, given its relevance to government-led initiatives.',
-  accent: '#FB923C',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 130,
-  cover: 'https://library.techadyant.com/covers/India%27s%20Battlefield%20Automation%20Gap.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/india-battlefield-automation-gap-free.pdf',
-  previewPages: undefined,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['battlefield automation India', 'military drones India', 'counter-drone systems India', 'loitering munitions India', 'Indian Army drones', 'defence autonomy India', 'unmanned systems India', 'counter-UAS India', 'drone warfare India', 'India defence technology'],
-  faq: [{
-  a: 'It is the distance between how modern battles are now fought — massed low-cost drones, loitering munitions, electronic warfare and increasingly autonomous systems — and what India\'s forces can field and sustain at scale from domestic industry. The report maps that gap layer by layer.',
-  q: 'What is India\'s battlefield automation gap?'
-}, {
-  a: 'Ukraine and Operation Sindoor showed cheap unmanned systems deciding engagements against far more expensive platforms. India\'s post-Sindoor emergency procurement pushed a large share of field-formation budgets into drones, counter-drone and loitering-munition programmes, making automation the fastest-moving line in Indian defence spending.',
-  q: 'Why do drones matter so much for India\'s defence?'
-}, {
-  a: 'India has credible drone integrators — ideaForge, NewSpace Research, Solar Industries and others — but the component base beneath them (flight controllers, motors and magnets, battery cells, sensors, RF links) remains heavily import-dependent, which is the vulnerability the report examines.',
-  q: 'Does India build its own military drones?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['Indian Army', 'drones', 'loitering munitions', 'counter-UAS', 'Operation Sindoor', 'electronic warfare'],
-  aiSummary: 'Assesses India\'s readiness for automated warfare: the doctrine shift to massed drones and loitering munitions, post-Operation Sindoor procurement, the counter-UAS layer, and the import-dependent component base beneath India\'s drone integrators. Free to read.',
-  metaTitle: 'India\'s Battlefield Automation Gap: Drones, Counter-UAS, Autonomy',
-  schemaType: 'Report',
-  focusKeyword: 'battlefield automation India',
-  metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
-}
-}, {
   slug: 'who-actually-captures-the-india-us-minerals-alliance',
   title: 'Who Actually Captures the India–US Minerals Alliance?',
   subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
@@ -1730,6 +1731,51 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India US critical minerals',
   metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
+}
+}, {
+  slug: 'india-battlefield-automation-gap',
+  title: 'India’s Battlefield Automation Gap',
+  subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
+  domain: 'Defence & Dual-Use',
+  edition: 'Edition 01 · Strategic Intelligence · v1.0',
+  published: '2026-05-30',
+  publishedLabel: 'May 2026',
+  readingTime: '~ 2h 30m read',
+  status: 'published',
+  summary: 'Battlefield automation is an industrial-capability race, not a procurement race. Using a proprietary Battlefield Automation Readiness Index (BARI), this report scores India against China and the United States across eight industrial layers — sensors, rugged electronics, batteries, tactical communications, autonomy software, testing and manufacturing — maps where the gap concentrates, reads it sector by sector, and identifies the startup, SME and policy opportunities that would close it. Published free, given its relevance to government-led initiatives.',
+  accent: '#FB923C',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 130,
+  cover: 'https://library.techadyant.com/covers/India%27s%20Battlefield%20Automation%20Gap.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/india-battlefield-automation-gap-free.pdf',
+  previewPages: undefined,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['battlefield automation India', 'military drones India', 'counter-drone systems India', 'loitering munitions India', 'Indian Army drones', 'defence autonomy India', 'unmanned systems India', 'counter-UAS India', 'drone warfare India', 'India defence technology'],
+  faq: [{
+  a: 'It is the distance between how modern battles are now fought — massed low-cost drones, loitering munitions, electronic warfare and increasingly autonomous systems — and what India\'s forces can field and sustain at scale from domestic industry. The report maps that gap layer by layer.',
+  q: 'What is India\'s battlefield automation gap?'
+}, {
+  a: 'Ukraine and Operation Sindoor showed cheap unmanned systems deciding engagements against far more expensive platforms. India\'s post-Sindoor emergency procurement pushed a large share of field-formation budgets into drones, counter-drone and loitering-munition programmes, making automation the fastest-moving line in Indian defence spending.',
+  q: 'Why do drones matter so much for India\'s defence?'
+}, {
+  a: 'India has credible drone integrators — ideaForge, NewSpace Research, Solar Industries and others — but the component base beneath them (flight controllers, motors and magnets, battery cells, sensors, RF links) remains heavily import-dependent, which is the vulnerability the report examines.',
+  q: 'Does India build its own military drones?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['Indian Army', 'drones', 'loitering munitions', 'counter-UAS', 'Operation Sindoor', 'electronic warfare'],
+  aiSummary: 'Assesses India\'s readiness for automated warfare: the doctrine shift to massed drones and loitering munitions, post-Operation Sindoor procurement, the counter-UAS layer, and the import-dependent component base beneath India\'s drone integrators. Free to read.',
+  metaTitle: 'India\'s Battlefield Automation Gap: Drones, Counter-UAS, Autonomy',
+  schemaType: 'Report',
+  focusKeyword: 'battlefield automation India',
+  metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
 }
 }, {
   slug: 'india-ai-industrial-transition-2026-2035',

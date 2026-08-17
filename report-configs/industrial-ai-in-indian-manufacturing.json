@@ -1,0 +1,21 @@
+{
+  "slug": "industrial-ai-in-indian-manufacturing",
+  "title": "Industrial AI in Indian Manufacturing",
+  "subtitle": "Where, how and in what sequence Indian manufacturers should deploy industrial AI — priced against the loss base, not the vendor slide.",
+  "domain": "Edge AI & Industrial Automation",
+  "edition": "Strategic Intelligence Report · First Edition · January 2026",
+  "published": "2026-08-17",
+  "publishedLabel": "August 2026",
+  "summary": "The strategic question for Indian manufacturing in 2026 is no longer whether to deploy industrial AI, but where, in what sequence, and against what governance. This playbook sizes the Indian industrial-AI market at $4.8–6.2B by 2030 (32–38% CAGR), locates ~70% of addressable value in three operational levers — downtime, yield/scrap and energy — and quantifies the economics: a 2.4–3.2× TCO multiple over software cost, a 58% base-case three-year ROI for SMEs with a 14-month median payback, and a 35–45% pilot scale-up failure rate driven overwhelmingly by data (28%) and strategic (22%) failures rather than algorithms. 137 pages, 36 exhibits and a companion workbook with parameterised financial models.",
+  "accent": "#38e1c4",
+  "status": "published",
+  "access": "paid",
+  "price": 75000,
+  "previewPages": 11,
+  "downloadFilename": "Industrial-AI-in-Indian-Manufacturing-Techadyant-Labs.pdf",
+  "source": {
+    "pdf": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/03_AI & Edge AI/Techadyant_Industrial_AI_Playbook_Package_publish_Ready/Techadyant_Industrial_AI_Report.pdf",
+    "preview": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/03_AI & Edge AI/Techadyant_Industrial_AI_Playbook_Package_publish_Ready/Techadyant_Industrial_AI_Report_Free.pdf",
+    "cover": "D:/techadyant/labs_techadyant/Reports and DPR/In-progress/03_AI & Edge AI/Techadyant_Industrial_AI_Playbook_Package_publish_Ready/industrial_ai_playbook.jpg"
+  }
+}
