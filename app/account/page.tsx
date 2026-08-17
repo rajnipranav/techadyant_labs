@@ -42,6 +42,8 @@ export default function AccountPage() {
   const { user, loading, configured, openSignIn, signOut, accessToken } = useAuth();
   const [ents, setEnts] = useState<Ent[] | null>(null);
   const [orders, setOrders] = useState<Ord[] | null>(null);
+  const [nlStatus, setNlStatus] = useState<{ subscribed: boolean; confirmed: boolean } | null>(null);
+  const [nlBusy, setNlBusy] = useState(false);
   const [tab, setTab] = useState<Tab>('library');
   const [busy, setBusy] = useState<string | null>(null);
 
@@ -55,6 +57,21 @@ export default function AccountPage() {
       .eq('user_id', user.id).eq('status', 'paid').order('created_at', { ascending: false })
       .then(({ data }) => setOrders((data as Ord[]) ?? []));
   }, [user]);
+
+  useEffect(() => {
+    if (!user) return;
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch('/api/newsletter', { headers: accessToken ? { Authorization: `Bearer ${accessToken}` } : {} });
+        const data = res.ok ? await res.json() : null;
+        if (!cancelled) setNlStatus(data ?? { subscribed: false, confirmed: false });
+      } catch {
+        if (!cancelled) setNlStatus({ subscribed: false, confirmed: false });
+      }
+    })();
+    return () => { cancelled = true; };
+  }, [user, accessToken]);
 
   const download = useCallback(async (slug: string, asset?: 'data') => {
     setBusy(slug + (asset || ''));
@@ -76,6 +93,19 @@ export default function AccountPage() {
       const w = window.open('', '_blank');
       if (w) { w.document.open(); w.document.write(html); w.document.close(); }
     } finally { setBusy(null); }
+  }, [accessToken]);
+
+  const setNewsletter = useCallback(async (action: 'subscribe' | 'unsubscribe') => {
+    setNlBusy(true);
+    try {
+      const res = await fetch('/api/newsletter', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...(accessToken ? { Authorization: `Bearer ${accessToken}` } : {}) },
+        body: JSON.stringify({ action }),
+      });
+      const data = res.ok ? await res.json() : null;
+      if (data && typeof data.subscribed === 'boolean') setNlStatus(data);
+    } finally { setNlBusy(false); }
   }, [accessToken]);
 
   const owned = ents?.length ?? 0;
@@ -280,8 +310,21 @@ export default function AccountPage() {
                       <Link href="/account/reset/" className="btn-ed btn-ed-ghost">Reset password</Link>
                     </div>
                     <div className="pref-row">
-                      <div><div className="pref-k">Newsletter — Sanket</div><div className="pref-v">Manage your email preferences and briefings.</div></div>
-                      <Link href="/newsletter/" className="btn-ed btn-ed-ghost">Manage</Link>
+                      <div>
+                        <div className="pref-k">Newsletter — Sanket</div>
+                        <div className="pref-v">
+                          {nlStatus === null
+                            ? 'Checking your subscription…'
+                            : nlStatus.subscribed
+                              ? 'Active — you receive The Dispatch.'
+                              : 'Inactive — you are not subscribed.'}
+                        </div>
+                      </div>
+                      {nlStatus !== null && (
+                        nlStatus.subscribed
+                          ? <button className="btn-ed btn-ed-ghost" disabled={nlBusy} onClick={() => setNewsletter('unsubscribe')}>{nlBusy ? 'Updating…' : 'Unsubscribe'}</button>
+                          : <button className="btn-ed btn-ed-primary" disabled={nlBusy} onClick={() => setNewsletter('subscribe')}>{nlBusy ? 'Updating…' : 'Subscribe'}</button>
+                      )}
                     </div>
                     <div className="pref-row">
                       <div><div className="pref-k">Account</div><div className="pref-v">Sign out of this device.</div></div>
