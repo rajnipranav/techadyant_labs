@@ -7,6 +7,7 @@ import { getSignals, getSignalBySlug } from '../../lib/cms';
 import { SignalReader } from '../../components/SignalReader';
 import { ShareBar } from '../../components/ShareBar';
 import { RelatedContent } from '../../components/RelatedContent';
+import { MicroFeedback } from '../../components/MicroFeedback';
 import { Comments } from '../../components/Comments';
 
 export async function generateStaticParams() {
@@ -179,6 +180,12 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
           </div>
         </div>
       </div>
+
+      {s.status !== 'placeholder' && (
+        <section className="wrap-narrow" style={{ paddingTop: 8, paddingBottom: 8 }}>
+          <MicroFeedback contentType="signal" contentId={s.slug} prompt="Was this signal useful?" />
+        </section>
+      )}
 
       <RelatedContent kind="signal" slug={s.slug} domain={s.domain} />
       <Comments />

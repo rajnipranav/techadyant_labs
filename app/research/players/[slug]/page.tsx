@@ -6,6 +6,7 @@ import {
   allPlayers, playerSlug, playerBySlug, relationshipsFor, meta, corridorByCode,
 } from '../../atlas';
 import { JsonLd, breadcrumb, SITE } from '../../seo';
+import { MicroFeedback } from '../../../components/MicroFeedback';
 
 export function generateStaticParams() {
   return allPlayers.map((p) => ({ slug: playerSlug(p.id) }));
@@ -134,6 +135,10 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
         ) : (
           <p className="player-empty">No mapped relationships yet for this entity.</p>
         )}
+
+        <div style={{ marginTop: 24 }}>
+          <MicroFeedback contentType="atlas" contentId={slug} prompt="Is anything missing on this entity?" />
+        </div>
 
         <div className="player-foot">
           <Link href="/research/players/" className="see-all">← All players</Link>
