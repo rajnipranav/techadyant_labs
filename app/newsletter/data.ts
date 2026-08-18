@@ -25,8 +25,8 @@ export const issues: IssueMeta[] = [{
   standfirst: 'Three service roadmaps, one composite index, 312 import surfaces - August was the month India put a number on what it does not make. July priced the opportunity; August priced the gap. The question now is whether the numbers build anything.',
   readingTime: '10-min read',
   card: 'https://library.techadyant.com/covers/sanket_aug_26.jpg',
-  cover: '/newsletter/august-at-a-glance.png',
-  ogImage: '/newsletter/august-at-a-glance.png',
+  cover: 'https://library.techadyant.com/covers/sanket_aug_26.jpg',
+  ogImage: 'https://library.techadyant.com/covers/sanket_aug_26.jpg',
   pdf: 'https://library.techadyant.com/free%20reports/sanket-aug-26-v2.pdf',
   pdfReady: true,
   status: 'live'

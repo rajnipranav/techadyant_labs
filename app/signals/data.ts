@@ -1973,6 +1973,56 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Kawa UAV Pvt. Ltd. (HoverIt) conducted the maiden flight of Divyastra Mk3 on 11 August 2026 at a designated drone testing airstrip in Uttar Pradesh.', 'The platform is claimed as India\'s first 100% indigenously designed, developed and manufactured jet-powered loitering munition.', 'The turbojet engine was designed and developed by DG Propulsion, a separate Indian propulsion technology company.', 'The programme moved from concept to maiden flight within seven months (initiated January 2026, flew August 2026).'],
   sources: ['The Times of India (16 Aug 2026): https://timesofindia.indiatimes.com/defence/news/indian-co-on-up-defence-corridor-successfully-conducts-maiden-test-flight-of-indigenously-developed-jet-powered-loitering-munition/articleshow/133277851.cms', 'Business Today (16 Aug 2026): https://www.businesstoday.in/india/story/divyastra-mk3-lucknow-defence-startup-tests-indias-first-fully-indigenous-jet-powered-loitering-munition-549461-2026-08-16']
+}, {
+  slug: 'india-leases-two-mq-9b-seaguardian-indian-navy-indian-ocean-surveillance',
+  no: 'S-059',
+  title: 'India Leases Two MQ-9B SeaGuardians to Close the Navy\'s Surveillance Gap',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-18',
+  dateLabel: '18 Aug 2026',
+  status: 'live',
+  excerpt: 'India has signed a roughly Rs 1,943 crore (about US$203 million) contract with General Atomics to lease two MQ-9B SeaGuardian HALE RPAS for the Indian Navy for 30 months - immediate maritime domain awareness over the Indian Ocean Region, ahead of the larger 31-drone purchase.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Ministry of Defence signed a contract with General Atomics Aeronautical Systems Inc on 17 August 2026 in New Delhi to lease two MQ-9B SeaGuardian high-altitude long-endurance (HALE) remotely piloted aircraft systems for the Indian Navy. The 30-month lease is valued at approximately Rs 1,943 crore (around US$203 million). The systems will provide persistent intelligence, surveillance and reconnaissance coverage over the maritime domain, strengthening India\'s ability to monitor the Indian Ocean Region.',
+  type: 'p'
+}, {
+  text: 'The SeaGuardian variant is purpose-built for maritime patrol: over 30 hours endurance, altitudes above 40,000 feet, advanced ISR payloads and a self-contained anti-submarine-warfare mission kit - the most capable persistent aerial surveillance asset the Navy will operate in the near term. The timing is deliberate, amid the conflict in West Asia and China\'s increasing naval presence in the Indian Ocean Region, where persistent aerial surveillance has been the Navy\'s weakest layer relative to its surface fleet.',
+  type: 'p'
+}, {
+  text: 'The lease sits within a larger architecture. India has already signed a US$3 billion-plus deal to procure 31 MQ-9B drones for tri-service use under Foreign Military Sales - 15 SeaGuardians for the Navy and eight SkyGuardians each for the Air Force and Army - alongside a contract for performance-based logistics and depot-level MRO within India. That purchase will take years to deliver; the two leased aircraft are an immediate bridge, putting MALE-class maritime ISR into naval hands within months while de-risking the larger buy through early operator exposure.',
+  type: 'p'
+}, {
+  text: 'The broader implication is structural: India is running a two-speed US-technology pathway in the maritime domain - a quick lease for immediate capability and a long-lead purchase for sustained fleet strength. This pattern, already visible in communications satellites and maritime patrol aircraft, suggests leasing is becoming a deliberate instrument of Indian capability acquisition rather than an ad-hoc workaround, with the in-country MRO and performance-based-logistics commitments signalling intent to move sustainment onto Indian soil.',
+  type: 'p'
+}],
+  takeaways: ['The Indian Navy signed a 30-month, ~Rs 1,943 crore (~US$203 million) lease for two MQ-9B SeaGuardian HALE RPAS from General Atomics on 17 August 2026.', 'The SeaGuardian offers over 30 hours endurance at 40,000+ feet with ISR payloads and a self-contained anti-submarine-warfare mission kit.', 'The lease bridges the gap ahead of India\'s US$3 billion-plus purchase of 31 MQ-9B drones (15 Navy SeaGuardians, 16 SkyGuardians for the Air Force and Army).', 'The larger deal includes in-country MRO and performance-based logistics, moving sustainment of US-origin RPAS onto Indian soil.'],
+  sources: ['Business Today (17 Aug 2026): https://www.businesstoday.in/india/story/ocean-sentinels-india-inks-rs1943-crore-lease-for-two-mq-9b-sea-guardian-drones-549640-2026-08-17', 'NDTV (17 Aug 2026): https://www.ndtv.com/world-news/india-signs-rs-1-900-crore-deal-to-lease-2-mq-9b-seaguardian-drones-11920544', 'The Times of India (17 Aug 2026): https://timesofindia.indiatimes.com/defence/news/navy-gets-mq-9b-boost-india-leases-2-sea-guardians-for-indian-ocean-surveillance/articleshow/133292605.cms']
+}, {
+  slug: 'indian-army-orders-indrajaal-ranger-mobile-counter-drone-system',
+  no: 'S-060',
+  title: 'India Orders Rs 155 Crore Indrajaal Ranger Mobile Counter-Drone Vehicles',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-18',
+  dateLabel: '18 Aug 2026',
+  status: 'live',
+  excerpt: 'Government agencies have ordered the Indrajaal Ranger - India\'s only ARDTC-approved mobile anti-drone patrol vehicle - in orders totalling about Rs 155 crore, from a consortium of Indrajaal Autonomous Defense Systems and Sigma Advanced Systems. Unlike fixed counter-UAS defences, the Ranger detects, tracks and neutralises drones - including hijacking them mid-flight - while on the move.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Government agencies have placed orders totalling approximately Rs 155 crore for the Indrajaal Ranger, a vehicle-mounted mobile counter-drone platform, from a consortium comprising Indrajaal Autonomous Defense Systems (Hyderabad) and Sigma Advanced Systems. The orders split into a Rs 145 crore procurement for border-security deployment and a separate Rs 10 crore order from an urban police force for VVIP protection and urban security. Built on a Toyota Hilux platform and powered by Indrajaal\'s SkyOS command layer, the Ranger is described as the country\'s only ARDTC-approved anti-drone patrol vehicle, having been evaluated by government agencies and selected by the Ministry of Home Affairs.',
+  type: 'p'
+}, {
+  text: 'The capability architecture is what makes it strategically interesting. Conventional counter-UAS systems in India protect fixed installations; the Ranger is built for protection on the move - convoy routes, forward posts and porous border stretches where drones are used for reconnaissance, contraband drops and ammunition delivery. Its kill chain combines a cyber-takeover layer (Retractor) that hijacks a rogue drone mid-flight for recovery and forensics; a virtual-boundary layer (Lakshman Rekha) using GNSS spoofing and RF jamming; and a physical Net Interceptor for when electronic countermeasures fall short - all within a four-kilometre envelope, coordinated by an AI processing core, and retaining full capability at high travel speeds.',
+  type: 'p'
+}, {
+  text: 'The procurement reflects a measurable shift in how India confronts the drone threat. Cross-border incursions carrying weapons and narcotics have made porous borders the principal vulnerability, and the move marks a shift from protecting installations to protecting corridors. That the same platform is being adopted by an urban police force for VVIP protection indicates dual-use diffusion of military counter-UAS technology into homeland security - consistent with the global expansion of counter-drone capability beyond conventional battlefields.',
+  type: 'p'
+}, {
+  text: 'The industrial dimension matters as much as the military one. Indrajaal is a Hyderabad-based Indian company, and the consortium pairs the systems designer with a defence manufacturer (Sigma Advanced Systems) for production and delivery - the indigenous-design-plus-domestic-manufacturing model India is increasingly pursuing across its drone ecosystem. The Ranger\'s selection through government evaluations and its ARDTC approval position it as a reference architecture other counter-UAS developers will be measured against.',
+  type: 'p'
+}],
+  takeaways: ['Government agencies ordered the Indrajaal Ranger mobile counter-drone vehicle from an Indrajaal-Sigma Advanced Systems consortium, in orders totalling ~Rs 155 crore.', 'The orders split into a Rs 145 crore border-security procurement and a Rs 10 crore urban-police order for VVIP protection and urban security.', 'The platform neutralises drones within a 4 km envelope via cyber takeover, GNSS spoofing, RF jamming and physical interception - and stays operational while on the move at high speeds.', 'It is India\'s only ARDTC-approved anti-drone patrol vehicle (Toyota Hilux-based, SkyOS-powered), evaluated by government agencies and selected by the Ministry of Home Affairs.'],
+  sources: ['The Week (17 Aug 2026): https://www.theweek.in/news/defence/2026/08/17/indian-army-orders-mobile-anti-drone-system-what-can-indrajaal-ranger-do.html', 'India Today (17 Aug 2026): https://www.indiatoday.in/india/story/mobile-anti-drone-systems-india-orders-rs-155-crore-indrajaal-ranger-borders-urban-security-2973563-2026-08-17', 'Indian Defence News (17 Aug 2026): https://www.indiandefensenews.in/2026/08/indrajaal-and-sigma-secure-155-crore.html']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
