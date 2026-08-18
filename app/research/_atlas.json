@@ -1051,7 +1051,9 @@
    "name": "Advanced Systems Laboratory",
    "type": "Research Institution",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "research_institution",
    "description": "ASL; Hyderabad; Agni strategic missile family, submarine-launched K-series."
   },
@@ -1082,7 +1084,9 @@
    "name": "Aeronautical Development Establishment",
    "type": "Research Institution",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "research_institution",
    "description": "ADE; Bengaluru; UAVs (Rustom-II/Tapas-BH, Nishant), LCA flight control, weapon integration."
   },
@@ -1091,7 +1095,9 @@
    "name": "Aerospace composites & carbon fibre",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "Layup capability exists; PAN precursor and high-modulus fibre imported."
   },
@@ -1100,7 +1106,9 @@
    "name": "AESA radar & GaN T/R modules",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "Uttam AESA indigenous; GaN T/R module fabrication still partly imported."
   },
@@ -1153,7 +1161,9 @@
    "name": "AI, autonomy & target recognition",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "Software is India's comparative strength; ATR, swarm and mission-autonomy competitive."
   },
@@ -1392,7 +1402,9 @@
    "name": "Antimony",
    "type": "Mineral / Material",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "mineral_material",
    "description": "Flame retardants, lead-acid batteries, semiconductor dopants. China mine production = 60,000 t of 100,000 t world total in 2024 (60% share)."
   },
@@ -1445,7 +1457,9 @@
    "name": "Arista Networks",
    "type": "Foreign Supplier",
    "country": "US",
-   "corridors": null,
+   "corridors": [
+    "ai_infrastructure"
+   ],
    "type_code": "foreign_supplier",
    "description": "Arista Networks is a major Ethernet switching supplier for cloud and AI data centres."
   },
@@ -1698,7 +1712,9 @@
    "name": "Battrixx (Kabra Extrusiontechnik)",
    "type": "Private Company",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "company",
    "description": "Battery packs. Based in Pune, Maharashtra; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -1730,8 +1746,7 @@
    "type": "PSU / CPSE",
    "country": "IN",
    "corridors": [
-    "defence",
-    "enterprise_software"
+    "defence"
    ],
    "type_code": "psu",
    "description": "Dominant defence-electronics prime — radar, EW, fire-control, SAM electronics; load-bearing for nearly every system."
@@ -1847,6 +1862,17 @@
    "description": "BPL official site describes product portfolio; long-established Indian MedTech manufacturer."
   },
   {
+   "id": "cb666294-36b8-41a2-8b53-8882f33eccb5",
+   "name": "BrahMos Aerospace",
+   "type": "Joint Venture",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "jv",
+   "description": "BrahMos Aerospace; Indo-Russian JV (DRDO 50.5%, NPO Mashinostroyenia 49.5%); supersonic cruise missile (~Mach 2.8)."
+  },
+  {
    "id": "b57bd0ff-9b0c-470b-8ba9-19cc195bcbd1",
    "name": "BrahMos Aerospace Private Limited",
    "type": "Joint Venture",
@@ -1906,7 +1932,9 @@
    "name": "BYD",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "foreign_supplier",
    "description": "Battery cells and EVs. Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -1981,7 +2009,9 @@
    "name": "C4ISR & network-centric software",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "Systems-integration and battle-management software a domestic strength."
   },
@@ -2078,7 +2108,9 @@
    "name": "Carbon fibre (PAN-based)",
    "type": "Mineral / Material",
    "country": "JP",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "mineral_material",
    "description": "Carbon fibre; missile/airframe composite; Toray (JP), Hexcel (US), SGL (DE) dominate; MIDHANI pilot."
   },
@@ -2098,7 +2130,9 @@
    "name": "CATL",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "foreign_supplier",
    "description": "Battery cells; the world's largest lithium-ion cell maker. Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -2164,7 +2198,9 @@
    "name": "CERT-In Cyber Security Directions (28 April 2022)",
    "type": "Standard / Certification",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "enterprise_software"
+   ],
    "type_code": "standard",
    "description": "6-hour cyber-incident reporting, VPN KYC, on-soil log retention for Indian entities."
   },
@@ -2206,7 +2242,9 @@
    "name": "CG Semi Sanand OSAT",
    "type": "Facility / Plant",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "semiconductors"
+   ],
    "type_code": "facility",
    "description": "CG Power, Renesas and Stars Microelectronics backend facility in Gujarat."
   },
@@ -2237,7 +2275,9 @@
    "name": "China Northern Rare Earth Group",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "foreign_supplier",
    "description": "Rare-earth mining and magnet feedstock; anchors China's ~90% share of global NdFeB. Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -2323,7 +2363,9 @@
    "name": "Combat Vehicles Research and Development Establishment",
    "type": "Research Institution",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "research_institution",
    "description": "CVRDE; Chennai; Arjun MBT, Arjun Mk-1A, T-90 Bhishma upgrades, BMP variants."
   },
@@ -2376,7 +2418,9 @@
    "name": "Cooled IR focal-plane arrays",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "Near-total import of cooled IR FPAs. A foundational sensor chokepoint."
   },
@@ -2396,7 +2440,9 @@
    "name": "Counter-UAS / anti-drone systems",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "Active operational pull post-Op Sindoor; soft-kill strong, DEW hard-kill emerging."
   },
@@ -2526,7 +2572,9 @@
    "name": "CUAV",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "foreign_supplier",
    "description": "Flight controllers / autopilot hardware (open-source ecosystem). Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -2557,7 +2605,9 @@
    "name": "D-Propulse",
    "type": "Private Company",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "company",
    "description": "IIT Madras-incubated defence-propulsion startup, chaired by former DRDO chief Dr V. K. Saraswat. In 2026 hot-fired India's first indigenous 5 kN air-breathing Rotating Detonation Engine (with aerospike nozzle) to TRL-5 at DRDO's DRDL, Hyderabad; targeting a flight-ready engine by"
   },
@@ -2632,7 +2682,9 @@
    "name": "Defence Acquisition Council",
    "type": "Govt Body / Regulator",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "govt_body",
    "description": "DAC under MoD; approves capital acquisitions above thresholds; chaired by Raksha Mantri."
   },
@@ -2641,7 +2693,9 @@
    "name": "Defence Acquisition Procedure 2020",
    "type": "Standard / Certification",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "standard",
    "description": "DAP 2020; governs capital procurement; introduced Buy(Indian-IDDM), Make-I/II, Strategic Partnership model."
   },
@@ -2650,7 +2704,9 @@
    "name": "Defence Avionics Research Establishment",
    "type": "Research Institution",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "research_institution",
    "description": "DARE; Bengaluru; EW suites (Tarang RWR, Mayavi SPJ), mission computers, avionics for LCA/Su-30."
   },
@@ -2659,7 +2715,9 @@
    "name": "Defence Research and Development Laboratory",
    "type": "Research Institution",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "research_institution",
    "description": "DRDL; Hyderabad; Akash SAM, Astra BVR, BrahMos, strategic systems integration."
   },
@@ -2669,8 +2727,7 @@
    "type": "Research Institution",
    "country": "IN",
    "corridors": [
-    "defence",
-    "semiconductors"
+    "defence"
    ],
    "type_code": "research_institution",
    "description": "Apex defence-design/IP authority (~50 labs); designs the systems DPSUs build; holds indigenous GaN/SiC breakthrough."
@@ -2692,7 +2749,9 @@
    "name": "Defence-grade semiconductors",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "semiconductors"
+   ],
    "type_code": "technology",
    "description": "Rad-hard / trusted chips imported; ISM fabs not yet at defence node maturity."
   },
@@ -2723,7 +2782,9 @@
    "name": "Department of Defence Research and Development",
    "type": "Govt Body / Regulator",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "govt_body",
    "description": "DDR&D under MoD; headed by DRDO Chairman; runs strategic research and development."
   },
@@ -2732,7 +2793,9 @@
    "name": "Department of Military Affairs",
    "type": "Govt Body / Regulator",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "govt_body",
    "description": "DMA created 2019; Chief of Defence Staff as secretary; tri-service integration and civil-military coordination."
   },
@@ -2796,7 +2859,9 @@
    "name": "Digital Personal Data Protection Rules, 2025",
    "type": "Standard / Certification",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "enterprise_software"
+   ],
    "type_code": "standard",
    "description": "Operational rules under the DPDP Act; notified 13 Nov 2025."
   },
@@ -2805,7 +2870,9 @@
    "name": "Directorate General of Civil Aviation",
    "type": "Govt Body / Regulator",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "govt_body",
    "description": "India's civil-aviation regulator; administers the Drone Rules 2021, drone type certification and the UIN registry (38,575 drones registered as of Feb 2026)."
   },
@@ -2848,7 +2915,9 @@
    "name": "DJI",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "foreign_supplier",
    "description": "Finished drones; ~70% of the global commercial and >90% of the consumer market. Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -2901,7 +2970,9 @@
    "name": "Drone Rules 2021",
    "type": "Standard / Certification",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "standard",
    "description": "India's civil drone regulatory framework: forms cut 25 to 5, approvals 72 to 4, drones to 500 kg, ~90% of airspace Green Zone to 400 ft."
   },
@@ -3009,7 +3080,9 @@
    "name": "Electronic warfare & ELINT",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "DLRL + Astra Microwave + Data Patterns give real depth; some RF front-ends imported."
   },
@@ -3018,7 +3091,9 @@
    "name": "Electronics and Radar Development Establishment",
    "type": "Research Institution",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "research_institution",
    "description": "LRDE; Bengaluru; Ashoka/LSTAR L-band radar, Arudhra MPR, Aslesha MMW, Uttam AESA, NETRA AEW."
   },
@@ -3038,7 +3113,9 @@
    "name": "Emergency Procurement (MoD)",
    "type": "Scheme / Programme",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "scheme",
    "description": "EP power delegated to services; ~₹500 cr per case; 24-month delivery window; simplified procedure."
   },
@@ -3091,7 +3168,9 @@
    "name": "EO/IR sensors & seekers",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "Tonbo/others integrate well but IR detectors and seeker cores are imported."
   },
@@ -3111,7 +3190,9 @@
    "name": "EVE Energy",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "foreign_supplier",
    "description": "Lithium-ion battery cells. Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -3153,7 +3234,9 @@
    "name": "Fighter aero-engines (gas turbine)",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "Kaveri did not reach production; fighters fly on imported GE/Saturn cores. The deepest single gap."
   },
@@ -3284,9 +3367,7 @@
    "type": "Mineral / Material",
    "country": "CN",
    "corridors": [
-    "critical_minerals",
-    "defence",
-    "semiconductors"
+    "defence"
    ],
    "type_code": "mineral_material",
    "description": "Critical input for GaN/compound-semi and RF/power devices; China controls ~98-99% with export controls."
@@ -3301,6 +3382,17 @@
    ],
    "type_code": "technology",
    "description": "GaN-on-SiC monolithic microwave ICs; backbone of modern AESA radar, EW, seekers; ~90% import dependent."
+  },
+  {
+   "id": "d2ce9535-d71c-4940-bbe9-df6bf070558f",
+   "name": "Garden Reach Shipbuilders & Engineers",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "psu",
+   "description": "GRSE; Kolkata; P17A frigates (share), ASW corvettes (Kamorta-class), LCU Mk-IV, fuel tankers."
   },
   {
    "id": "97d58b57-0408-4a48-8a6f-35deddcec64f",
@@ -3318,7 +3410,9 @@
    "name": "Garuda Aerospace",
    "type": "Private Company",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "company",
    "description": "Agriculture / multi-use drones. Based in Chennai, Tamil Nadu; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -3327,7 +3421,9 @@
    "name": "Gas Turbine Research Establishment",
    "type": "Research Institution",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "research_institution",
    "description": "GTRE; Bengaluru; Kaveri engine (unfulfilled thrust target); aero-engine co-development lead."
   },
@@ -3358,7 +3454,9 @@
    "name": "General Aeronautics",
    "type": "Private Company",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "company",
    "description": "Agriculture drones (Reliance-backed). Based in Bengaluru, Karnataka; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -3378,7 +3476,9 @@
    "name": "Germanium",
    "type": "Mineral / Material",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "mineral_material",
    "description": "Infrared optics, fibre optics, space photovoltaics. China is the leading global producer (~60% of mine/refinery output; 68% per USGS-cited ~2021 data)"
   },
@@ -3521,7 +3621,9 @@
    "name": "Grepow",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "foreign_supplier",
    "description": "Drone-specific Li-Po batteries (Tattu / Gens Ace brands). Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -3541,7 +3643,9 @@
    "name": "Gujarat State Electronics Mission",
    "type": "Govt Body / Regulator",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "semiconductors"
+   ],
    "type_code": "govt_body",
    "description": "Gujarat's state electronics mission under the Department of Science & Technology; driving the state's move up the semiconductor value chain, incl. the ChipIN Extension Centre & VLSI Design CoE (Aug 2026)."
   },
@@ -3614,7 +3718,9 @@
    "name": "Heavyweight torpedoes & UW weapons",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "Varunastra indigenous; some homing and propulsion subsystems imported."
   },
@@ -3733,7 +3839,9 @@
    "name": "Hobbywing",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "foreign_supplier",
    "description": "Electronic speed controllers; global ESC leader. Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -3742,7 +3850,9 @@
    "name": "Holybro",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "foreign_supplier",
    "description": "Flight controllers / autopilot hardware (Pixhawk ecosystem). Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -3773,7 +3883,9 @@
    "name": "Hypersonics & scramjet propulsion",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "HSTDV flight-tested; a frontier where India is a credible early mover."
   },
@@ -4147,7 +4259,9 @@
    "name": "Instruments Research and Development Establishment",
    "type": "Research Institution",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "research_institution",
    "description": "IRDE; Dehradun; EO-IR systems, night-vision, holographic sights, missile optical seekers."
   },
@@ -4189,7 +4303,9 @@
    "name": "Inverted Energy",
    "type": "Private Company",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "company",
    "description": "Battery packs / BMS. Based in Delhi, Delhi; stage: Startup. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -4218,7 +4334,9 @@
    "name": "IoTechWorld Avigation",
    "type": "Private Company",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "company",
    "description": "Agriculture drones (Agribot). Based in Gurugram, Haryana; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -4338,7 +4456,9 @@
    "name": "JL MAG Rare-Earth",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "foreign_supplier",
    "description": "Sintered NdFeB magnets; leading global producer. Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -4422,7 +4542,9 @@
    "name": "Kaynes Semicon Sanand backend platform",
    "type": "Facility / Plant",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "semiconductors"
+   ],
    "type_code": "facility",
    "description": "Kaynes Semicon's Sanand backend platform (OSAT, reliability, testing, packaging)."
   },
@@ -4509,7 +4631,9 @@
    "name": "L&T Semiconductor Technologies",
    "type": "Private Company",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "semiconductors"
+   ],
    "type_code": "company",
    "description": "Fabless semiconductor design arm of Larsen & Toubro; designs chips at 12-95nm nodes (USD 100m invested to date). In Aug 2026 announced shift of its OSAT (assembly & testing) operations from overseas to India, partnering domestic providers including Tata Electronics."
   },
@@ -4639,7 +4763,9 @@
    "name": "Lockheed Martin",
    "type": "Foreign Supplier",
    "country": "US",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "foreign_supplier",
    "description": "Lockheed Martin; C-130J-30, MH-60R Seahawk, F-21 (MRFA candidate); ~$5 bn India book."
   },
@@ -4648,7 +4774,9 @@
    "name": "Log9 Materials",
    "type": "Private Company",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "company",
    "description": "Batteries / cells. Based in Bengaluru, Karnataka; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -4668,7 +4796,9 @@
    "name": "Loitering munitions",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "Domestic integration strong; seekers and some subsystems imported."
   },
@@ -4710,7 +4840,9 @@
    "name": "MALE / HALE UAV platforms",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "TAPAS-BH delays; high-end ISR met by imported MQ-9B. Integration ahead of payload."
   },
@@ -4969,6 +5101,17 @@
    "description": "Miniratna drilling/exploration CPSE; converts GSI prospects into auctionable resources; co-owns KABIL."
   },
   {
+   "id": "678d8807-b810-4fbe-ba84-45bfe496d942",
+   "name": "Ministry of Defence",
+   "type": "Ministry / Department",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "ministry",
+   "description": "Apex ministry for national defence; oversees DDP, DDR&D (DRDO), DMA, DESW; ~₹6.21 lakh crore FY25 budget."
+  },
+  {
    "id": "b3822a21-67c7-40d4-b033-379609bfdf9c",
    "name": "Ministry of Defence (Government of India)",
    "type": "Ministry / Department",
@@ -5022,7 +5165,6 @@
    "type": "PSU / CPSE",
    "country": "IN",
    "corridors": [
-    "critical_minerals",
     "defence"
    ],
    "type_code": "psu",
@@ -5158,7 +5300,9 @@
    "name": "National Quantum Mission",
    "type": "Scheme / Programme",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "ai_infrastructure"
+   ],
    "type_code": "scheme",
    "description": "Rs 6,003 crore mission (2023) across quantum computing, communication, sensing and materials; Budget 2026-27 allocation raised to Rs 900 crore."
   },
@@ -5178,7 +5322,9 @@
    "name": "National Test House",
    "type": "Govt Body / Regulator",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "govt_body",
    "description": "Government test laboratory, Ghaziabad; designated drone type-certification body (Dec 2023)."
   },
@@ -5209,7 +5355,9 @@
    "name": "Naval propulsion (marine engines)",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "Warships run on imported MTU/GE/Pielstick; indigenisation early."
   },
@@ -5251,7 +5399,9 @@
    "name": "Nickel (battery-grade sulphate)",
    "type": "Mineral / Material",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "mineral_material",
    "description": "High-purity nickel sulphate is the battery-relevant form."
   },
@@ -5626,7 +5776,9 @@
    "name": "QNu Labs",
    "type": "Private Company",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "enterprise_software"
+   ],
    "type_code": "company",
    "description": "Quantum-safe security: QKD and QRNG products; NQM-supported. Profiled in Beyond Quantum Computing (Techadyant Labs, 2026)."
   },
@@ -5635,7 +5787,9 @@
    "name": "Qorvo",
    "type": "Foreign Supplier",
    "country": "US",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "foreign_supplier",
    "description": "Qorvo; GaN RF MMICs for radar/EW, 5G and defence; secondary GaN chokepoint."
   },
@@ -5666,7 +5820,9 @@
    "name": "Quantum technologies (QKD, sensing)",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "DRDO/ISRO QKD demos; early TRL but a genuine leapfrog surface."
   },
@@ -5686,7 +5842,9 @@
    "name": "Radiolink",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "foreign_supplier",
    "description": "Flight controllers and RC links. Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -5722,6 +5880,17 @@
    ],
    "type_code": "company",
    "description": "Military UAVs / heavy-lift. Based in Noida, Uttar Pradesh; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
+  },
+  {
+   "id": "42c3405b-f882-42fa-a8de-30e68ae1f27f",
+   "name": "Raphe mPhibr Pvt Ltd",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Raphe mPhibr; UAVs (Vibhram HS, R-Hawk), counter-UAS, drones; iDEX and large EP orders; MEA strategic partner."
   },
   {
    "id": "4fc2e513-7852-4c26-b711-d7dbcd2fd0ac",
@@ -5851,7 +6020,9 @@
    "name": "Research Centre Imarat",
    "type": "Research Institution",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "research_institution",
    "description": "RCI; Hyderabad; missile seekers (RF, IIR), navigation, BrahMos navigation, BMD kill vehicle."
   },
@@ -5915,7 +6086,9 @@
    "name": "Rosoboronexport",
    "type": "Foreign Supplier",
    "country": "RU",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "foreign_supplier",
    "description": "Rosoboronexport; Su-30MKI, MiG-29K, S-400, T-90, Igla-S, BrahMos Russian side; sanctioned by OFAC."
   },
@@ -6491,7 +6664,9 @@
    "name": "Sintered NdFeB magnet manufacturing",
    "type": "Opportunity surface",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "opportunity_surface",
    "description": "Anchor opportunity for the Rs.7,280 crore Ministry of Heavy Industries scheme (6,000 MTPA target)."
   },
@@ -6533,7 +6708,9 @@
    "name": "Small arms & ammunition",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "Mature domestic base; selective propellant and specialty rounds imported."
   },
@@ -6553,7 +6730,9 @@
    "name": "Software-defined radio & secure comms",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "SDR and crypto maturing; some RF and waveform IP still external."
   },
@@ -6695,7 +6874,7 @@
    "type": "Foreign Supplier",
    "country": "CH",
    "corridors": [
-    "semiconductors"
+    "defence"
    ],
    "type_code": "foreign_supplier",
    "description": "SiC power devices; also the STM32 MCU family that dominates drone flight controllers. Named in the incumbent map of The Opportunity Beyond the Fab (Techadyant Labs, 2026)."
@@ -6738,7 +6917,9 @@
    "name": "Subex",
    "type": "Private Company",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "enterprise_software"
+   ],
    "type_code": "company",
    "description": "Listed Bengaluru telecom-analytics company; parent of the Sectrio OT/ICS security business."
   },
@@ -6747,7 +6928,9 @@
    "name": "Submarine air-independent propulsion",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "DRDO fuel-cell AIP indigenous and maturing for Kalvari retrofit."
   },
@@ -6800,7 +6983,9 @@
    "name": "SunnySky",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "foreign_supplier",
    "description": "Drone BLDC motors. Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -6854,7 +7039,9 @@
    "name": "T-Motor",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "foreign_supplier",
    "description": "Drone BLDC motors and ESCs; the global small-drone propulsion volume base. Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -6863,7 +7050,9 @@
    "name": "Tactical & strategic missiles",
    "type": "Technology",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "technology",
    "description": "DRDO depth: Astra, BrahMos, Agni, Akash. Among India's strongest sovereign capabilities."
   },
@@ -7150,7 +7339,9 @@
    "name": "Thales Group",
    "type": "Foreign Supplier",
    "country": "FR",
-   "corridors": null,
+   "corridors": [
+    "defence"
+   ],
    "type_code": "foreign_supplier",
    "description": "Thales; radar components, EW, IFF, optronics, RBE2 (Rafale); joint venture with BEL (BEL-Thassa)."
   },
@@ -7312,7 +7503,9 @@
    "name": "Tungsten",
    "type": "Mineral / Material",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "mineral_material",
    "description": "Hardmetals, machining, defence penetrators. China mine production = 67,000 t of 81,000 t world total in 2024 (82.7%); holds ~52% of world reserves (2."
   },
@@ -7440,7 +7633,9 @@
    "name": "Urban mining / critical mineral recycling",
    "type": "Opportunity surface",
    "country": "IN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "opportunity_surface",
    "description": "Backed by the Rs.1,500 crore Ministry of Mines scheme (3 Sep 2025); 270-300 kt/year capacity target."
   },
@@ -7569,8 +7764,7 @@
    "type": "Foreign Supplier",
    "country": "US",
    "corridors": [
-    "defence",
-    "semiconductors"
+    "defence"
    ],
    "type_code": "foreign_supplier",
    "description": "SiC devices and substrates. Named in the incumbent map of The Opportunity Beyond the Fab (Techadyant Labs, 2026)."
@@ -7635,7 +7829,9 @@
    "name": "Zhongke Sanhuan",
    "type": "Foreign Supplier",
    "country": "CN",
-   "corridors": null,
+   "corridors": [
+    "critical_minerals"
+   ],
    "type_code": "foreign_supplier",
    "description": "Sintered NdFeB magnets. Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
@@ -7683,7 +7879,7 @@
    "label": "AI MedTech"
   }
  ],
- "generated_at": "2026-08-17T16:15:08.196415+00:00",
+ "generated_at": "2026-08-18T01:53:29.173325+00:00",
  "relationships": [
   {
    "type": "controls",
