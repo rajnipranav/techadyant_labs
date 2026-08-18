@@ -969,6 +969,15 @@
    "description": "Adani-Total gas JV; industrial gas pipeline"
   },
   {
+   "id": "f4970f5e-8550-4b9f-b5b9-0e6b878b7079",
+   "name": "AdaniConneX",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "company",
+   "description": "AdaniConneX is a data-centre joint platform with hyperscale sites across Chennai, Hyderabad, Navi Mumbai, Noida and Pune."
+  },
+  {
    "id": "ba98ea0b-f5bf-4391-8892-78716e520184",
    "name": "AdaniConneX Chennai 1",
    "type": "Facility / Plant",
@@ -1653,6 +1662,28 @@
    "description": "Avalon Technologies provides EMS and precision manufacturing for medical devices."
   },
   {
+   "id": "7b21b357-369c-497f-bde2-e0d75f1b532b",
+   "name": "AWS Asia Pacific (Hyderabad)",
+   "type": "Facility / Plant",
+   "country": "IN",
+   "corridors": [
+    "enterprise_software"
+   ],
+   "type_code": "facility",
+   "description": "Referenced in Atlas relationships."
+  },
+  {
+   "id": "e5b5e083-a7a2-4c4d-b595-61c6fa294899",
+   "name": "AWS Asia Pacific (Mumbai)",
+   "type": "Facility / Plant",
+   "country": "IN",
+   "corridors": [
+    "enterprise_software"
+   ],
+   "type_code": "facility",
+   "description": "Referenced in Atlas relationships."
+  },
+  {
    "id": "a8e2fcad-8522-4e5b-8cde-c476fb3f233b",
    "name": "Ayushman Bharat Digital Mission (ABDM)",
    "type": "Scheme / Programme",
@@ -1684,6 +1715,28 @@
    ],
    "type_code": "foreign_supplier",
    "description": "Wafer handling and automation"
+  },
+  {
+   "id": "4039be0b-0466-477e-a5da-363f7c07b51c",
+   "name": "Azure Central India (Pune)",
+   "type": "Facility / Plant",
+   "country": "IN",
+   "corridors": [
+    "enterprise_software"
+   ],
+   "type_code": "facility",
+   "description": "Referenced in Atlas relationships."
+  },
+  {
+   "id": "5a9b63b3-5def-4719-8225-1d4bdce9c58f",
+   "name": "Azure South India (Chennai)",
+   "type": "Facility / Plant",
+   "country": "IN",
+   "corridors": [
+    "enterprise_software"
+   ],
+   "type_code": "facility",
+   "description": "Referenced in Atlas relationships."
   },
   {
    "id": "fb74eca1-99c5-49e2-a47c-6d7d6825984c",
@@ -1915,6 +1968,17 @@
    ],
    "type_code": "foreign_supplier",
    "description": "Broadcom is a key AI-networking and custom-silicon supplier, relevant to Ethernet fabrics and hyperscaler ASIC programmes."
+  },
+  {
+   "id": "09f3fb20-8452-4324-8a2b-ef90a8df63f2",
+   "name": "Broadcom Inc.",
+   "type": "Private Company",
+   "country": "US",
+   "corridors": [
+    "enterprise_software"
+   ],
+   "type_code": "company",
+   "description": "Referenced in Atlas relationships."
   },
   {
    "id": "9dd9e795-d6e7-4432-bd76-872f6c5eedcd",
@@ -2568,6 +2632,15 @@
    "description": "CSIR-NCL: polymers and advanced materials characterisation"
   },
   {
+   "id": "ca1dfab8-e907-4071-8d7b-831c87b862c3",
+   "name": "CtrlS Datacenters",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "company",
+   "description": "CtrlS is an Indian data-centre operator with a large footprint across Mumbai, Chennai, Hyderabad, Noida, Bengaluru, Kolkata and edge sites."
+  },
+  {
    "id": "b6e8d4a9-ba09-4430-a4c9-caaad76f3444",
    "name": "CtrlS Datacenters Limited",
    "type": "Private Company",
@@ -3032,6 +3105,15 @@
    "description": "Dry film resist for packaging; dielectrics"
   },
   {
+   "id": "036e2cb5-eee4-40f8-bf5f-e1a472ab2f7e",
+   "name": "E2E Networks",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "company",
+   "description": "E2E Networks is one of the eligible IndiaAI compute bidders listed by PIB. It is a domestic cloud/GPU-access challenger in the common-compute layer."
+  },
+  {
    "id": "40a1c233-c85a-41ef-b0cc-3a00d8f3b8a9",
    "name": "E2E Networks Limited",
    "type": "Private Company",
@@ -3494,6 +3576,15 @@
    "description": "National exploration agency; 1,200 NCMM exploration projects; the upstream resource-definition chokepoint."
   },
   {
+   "id": "e8a9ef30-1a00-4fcb-a04a-4d2e15508114",
+   "name": "Geological Survey of India (GSI)",
+   "type": "Govt Body / Regulator",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "govt_body",
+   "description": "Attached office of the Ministry of Mines; premier earth-science organisation."
+  },
+  {
    "id": "b22e1e80-e36a-4422-8527-683ff4dce940",
    "name": "Germanium",
    "type": "Mineral / Material",
@@ -3514,6 +3605,17 @@
    ],
    "type_code": "product",
    "description": "Germanium lenses for thermal imaging; import-dependent chokepoint (DSI rank 6). EON Space Labs develops germanium-free alternatives. Catalogued in Who Builds India's Drones? (Techadyant Labs, 2026)."
+  },
+  {
+   "id": "419f7a86-81cf-4261-ba1f-c07b7991c501",
+   "name": "GitHub, Inc.",
+   "type": "Private Company",
+   "country": "US",
+   "corridors": [
+    "enterprise_software"
+   ],
+   "type_code": "company",
+   "description": "Referenced in Atlas relationships."
   },
   {
    "id": "c9792375-db53-4d78-9854-067588c74db8",
@@ -3560,6 +3662,35 @@
    "description": "Public-private JV operating the GST return-filing system."
   },
   {
+   "id": "4866e86b-835e-4935-9fcb-da3a07556b6b",
+   "name": "Google Cloud",
+   "type": "Private Company",
+   "country": "US",
+   "corridors": null,
+   "type_code": "company",
+   "description": "Google Cloud operates Indian cloud regions beginning with Mumbai and later Delhi, giving enterprises in-country cloud options for AI and data workload"
+  },
+  {
+   "id": "466b340d-0e09-404c-9d87-2d359418c598",
+   "name": "Google Cloud (Alphabet)",
+   "type": "Private Company",
+   "country": "US",
+   "corridors": null,
+   "type_code": "company",
+   "description": "Third hyperscaler in India. Mumbai region launched 2017; second region in Delhi NCR announced 2020 and live subsequently. MeitY-empanelled."
+  },
+  {
+   "id": "ec9993e8-7bae-4a83-a810-0f0d02eda034",
+   "name": "Google Cloud Delhi NCR region",
+   "type": "Facility / Plant",
+   "country": "IN",
+   "corridors": [
+    "enterprise_software"
+   ],
+   "type_code": "facility",
+   "description": "Referenced in Atlas relationships."
+  },
+  {
    "id": "f542e4cc-68be-4245-bbcd-412375606101",
    "name": "Google Cloud India",
    "type": "Private Company",
@@ -3570,6 +3701,17 @@
    ],
    "type_code": "company",
    "description": "$15bn AP project; Jamnagar region for Reliance + Visakhapatnam campus with Adani; equity in Jio."
+  },
+  {
+   "id": "25a97939-3ce6-443c-9d94-36fa6db2be42",
+   "name": "Google Cloud Mumbai region",
+   "type": "Facility / Plant",
+   "country": "IN",
+   "corridors": [
+    "enterprise_software"
+   ],
+   "type_code": "facility",
+   "description": "Referenced in Atlas relationships."
   },
   {
    "id": "7d3162de-741d-4320-90af-4fb7358f0494",
@@ -4066,6 +4208,17 @@
    "description": "RISC-V processor IP and SoC company (SHAKTI lineage, IIT Madras ecosystem), Chennai. India challenger in the one open IP layer. Named in The Opportunity Beyond the Fab (Techadyant Labs, 2026)."
   },
   {
+   "id": "6714182c-9473-48eb-9156-8aa19e5f9c83",
+   "name": "India",
+   "type": "Country",
+   "country": "IN",
+   "corridors": [
+    "critical_minerals"
+   ],
+   "type_code": "country",
+   "description": "Referenced in Atlas relationships."
+  },
+  {
    "id": "7961b993-657c-42e9-b34b-797c20d5ca60",
    "name": "India Cellular and Electronics Association (ICEA)",
    "type": "Industry Body",
@@ -4496,6 +4649,15 @@
    "description": "Jio Jamnagar data centre hosts JioAICloud according to JioAICloud's FAQ."
   },
   {
+   "id": "fa8e5ee3-51e6-4467-bad2-3665d1a48687",
+   "name": "Jio Platforms",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "company",
+   "description": "Jio Platforms is a bidder in the IndiaAI compute procurement list and operates JioAICloud hosted at Jio's Jamnagar data centre."
+  },
+  {
    "id": "5d4222e2-3cc4-4921-a209-e1d46e02b507",
    "name": "Jio Platforms Limited",
    "type": "Private Company",
@@ -4669,6 +4831,15 @@
    ],
    "type_code": "company",
    "description": "Ola-backed Indian AI/cloud platform building indigenous models and AI cloud infrastructure."
+  },
+  {
+   "id": "eb54850d-aaa8-4f44-8fda-1581b2dc7eac",
+   "name": "Krutrim SI Designs",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "company",
+   "description": "Krutrim is an Indian AI-cloud and sovereign compute challenger with GPU VMs, GPU bare metal and AI Pods documented in its cloud platform materials."
   },
   {
    "id": "1c446f04-9a52-47ee-b398-cebea33058bd",
@@ -4902,6 +5073,17 @@
    "description": "TAPAS-BH delays; high-end ISR met by imported MQ-9B. Integration ahead of payload."
   },
   {
+   "id": "7e9cd5b5-1621-4465-bf72-bfa47db5b9da",
+   "name": "ManageEngine (Zoho Corp)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "enterprise_software"
+   ],
+   "type_code": "company",
+   "description": "Referenced in Atlas relationships."
+  },
+  {
    "id": "b9cd4bf9-39ff-4d15-bc98-86cf395c4ca2",
    "name": "Mas India",
    "type": "Private Company",
@@ -5089,6 +5271,15 @@
    "description": "Microsoft India site documents AI for Health programmes including partnerships with Indian MedTech firms."
   },
   {
+   "id": "8836004b-19a1-4d2c-8354-6f6cb4d62062",
+   "name": "Microsoft Azure",
+   "type": "Private Company",
+   "country": "US",
+   "corridors": null,
+   "type_code": "company",
+   "description": "Microsoft is a major India cloud and AI-infrastructure hyperscaler."
+  },
+  {
    "id": "a3fac599-0ac5-47c6-a072-4615f1fa75f8",
    "name": "Microsoft Azure India",
    "type": "Private Company",
@@ -5121,6 +5312,15 @@
    ],
    "type_code": "company",
    "description": "NdFeB rare-earth magnets. Based in Hyderabad, Telangana; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
+  },
+  {
+   "id": "c80fafa7-2093-42c3-b860-b6aea6fbc223",
+   "name": "Midwest Advanced Materials (MAM)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "company",
+   "description": "Hyderabad-based private firm (a diversification arm of listed Midwest Ltd., founded 1981) building India's first commercial sintered NdFeB rare-earth"
   },
   {
    "id": "d1278ab5-cd9b-4d0c-90e9-230a7781a685",
@@ -5189,6 +5389,15 @@
    ],
    "type_code": "ministry",
    "description": "Parent ministry owning Semicon India, ISM, SPECS, DLI, SCL and IndiaAI Mission; the policy/budget chokepoint."
+  },
+  {
+   "id": "370b65e2-aebb-4958-9159-b0b7c18b4497",
+   "name": "Ministry of Electronics and Information Technology (MeitY)",
+   "type": "Ministry / Department",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "ministry",
+   "description": "Owner of DPDP Act 2023 and Rules 2025, MeghRaj cloud policy, MeitY Cloud Empanelment regime and India Stack initiatives."
   },
   {
    "id": "8bf1a69a-ce12-420f-a858-b16b6f55858d",
@@ -5315,6 +5524,15 @@
    "description": "Integrated aluminium PSU; developing India's first gallium extraction (Damanjodi) and red-mud REE recovery; co-owns KABIL."
   },
   {
+   "id": "5284b2e2-b018-4ca4-a54d-3e4984d85616",
+   "name": "National Aluminium Company Limited (NALCO)",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "psu",
+   "description": "Navratna PSU under the Ministry of Mines; India's largest integrated aluminium producer."
+  },
+  {
    "id": "c413b6f3-a884-4cf4-9afa-7e041515894b",
    "name": "National Critical Mineral Mission",
    "type": "Scheme / Programme",
@@ -5327,6 +5545,15 @@
    ],
    "type_code": "scheme",
    "description": "Rs 34,300 cr 7-year whole-of-value-chain mission: exploration, foreign assets, processing, recycling, stockpiling."
+  },
+  {
+   "id": "fe10c9f4-605e-4625-b5e9-02edf151b149",
+   "name": "National Critical Mineral Mission (NCMM)",
+   "type": "Scheme / Programme",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "scheme",
+   "description": "Total outlay Rs.34,300 crore over 7 years (FY 2024-25 to FY 2030-31): Rs.16,300 crore government expenditure + Rs.18,000 crore expected PSU/industry i"
   },
   {
    "id": "fbb70bdb-cbae-4a08-8267-9e2c9d8c93c1",
@@ -5505,6 +5732,17 @@
    "description": "Referenced in Defence Atlas relationships."
   },
   {
+   "id": "770f299a-ecdb-4539-a2e8-4a103d8d9749",
+   "name": "NTPC Mining Ltd",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "critical_minerals"
+   ],
+   "type_code": "company",
+   "description": "Referenced in Atlas relationships."
+  },
+  {
    "id": "61cb224c-5413-4f17-a515-fb0289e2fb19",
    "name": "NTT Bengaluru 4 campus",
    "type": "Facility / Plant",
@@ -5527,6 +5765,15 @@
    "description": "Largest colocation operator in India by share; ~500 MW Mumbai; IndiaAI second-tender qualified."
   },
   {
+   "id": "38296746-9971-4379-813f-8e1f31747e65",
+   "name": "NTT Global Data Centers India",
+   "type": "Private Company",
+   "country": "JP",
+   "corridors": null,
+   "type_code": "company",
+   "description": "NTT is one of India's largest data-centre operators."
+  },
+  {
    "id": "a1c8845f-faf2-42ec-98f9-530de8154904",
    "name": "NTT Noida 2 campus",
    "type": "Facility / Plant",
@@ -5536,6 +5783,15 @@
    ],
    "type_code": "facility",
    "description": "NTT Noida 2 is a Delhi NCR campus with 52.8 MW planned critical IT load across two data centres; the first data centre supports 22.4 MW."
+  },
+  {
+   "id": "5f9388fc-f30a-4d08-836f-b0c1facf462e",
+   "name": "NVIDIA",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": null,
+   "type_code": "foreign_supplier",
+   "description": "NVIDIA is the dominant AI-accelerator supplier. OECD's AI-infrastructure review cites estimates above 80 percent share for GPU chips used in AI, and I"
   },
   {
    "id": "4457cb01-b1cb-4cd4-976b-4fc9610121e1",
@@ -5560,6 +5816,17 @@
    ],
    "type_code": "company",
    "description": "Bharti Airtel's DC subsidiary; couples compute capacity to Airtel's subsea backbone."
+  },
+  {
+   "id": "299cd579-ff66-4f30-9a72-87ff298a911d",
+   "name": "Oil India Limited",
+   "type": "PSU / CPSE",
+   "country": "IN",
+   "corridors": [
+    "critical_minerals"
+   ],
+   "type_code": "psu",
+   "description": "Referenced in Atlas relationships."
   },
   {
    "id": "a4efcec5-beb1-43c6-8062-70fc0dc8ed9e",
@@ -6027,6 +6294,15 @@
    "description": "RBI circular of 6 April 2018 mandating on-soil storage of payment-system data."
   },
   {
+   "id": "675ae958-1711-412b-ab18-73084acef5a4",
+   "name": "Reasi Lithium Deposit",
+   "type": "Mine",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "mine",
+   "description": "GSI-announced inferred lithium resource of 5.9 million tonnes in Reasi district, Jammu & Kashmir (February 2023)."
+  },
+  {
    "id": "8f69010d-2263-439c-a1ee-14d9539ab490",
    "name": "Reasi Lithium Deposit (Salal-Haimana, J&K)",
    "type": "Facility / Plant",
@@ -6315,6 +6591,15 @@
    ],
    "type_code": "scheme",
    "description": "Rs 7,280 cr scheme (Nov 2025) to build 6,000 MTPA NdFeB magnet capacity; India's instrument to close the magnet import gap."
+  },
+  {
+   "id": "4151e242-760d-48fd-8297-44e07f1ec7d3",
+   "name": "Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnets (REPM)",
+   "type": "Scheme / Programme",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "scheme",
+   "description": "Total outlay Rs.7,280 crore: Rs.6,450 crore sales-linked incentives (5 years) + Rs.750 crore capital subsidy."
   },
   {
    "id": "0db281ea-d099-422f-bcce-8985d5d04366",
@@ -6924,6 +7209,17 @@
    "description": "Major Indian fluorochemicals supplier; specialty gas precursor"
   },
   {
+   "id": "c4de1791-24e4-4521-b6c8-132e947be862",
+   "name": "Sri Lanka",
+   "type": "Country",
+   "country": "LK",
+   "corridors": [
+    "critical_minerals"
+   ],
+   "type_code": "country",
+   "description": "Referenced in Atlas relationships."
+  },
+  {
    "id": "776c9bcf-7f8e-4dcc-8fac-63d25dda19d4",
    "name": "ST Telemedia Global Data Centres (India)",
    "type": "Private Company",
@@ -7202,6 +7498,15 @@
    "description": "Indian silica and lithium carbonate; potential fab-grade chemicals"
   },
   {
+   "id": "58eb36f6-3346-4c87-a69b-a26b0557eed3",
+   "name": "Tata Communications",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "company",
+   "description": "Tata Communications offers sovereign and AI cloud infrastructure, including NVIDIA GPU-backed Vayu AI Cloud, and is building AI-ready network connecti"
+  },
+  {
    "id": "1771d6a8-246b-41a4-befc-672454fe1d23",
    "name": "Tata Communications Limited",
    "type": "Private Company",
@@ -7311,6 +7616,17 @@
    ],
    "type_code": "company",
    "description": "Fab entity notified for the Dholera SEZ semiconductor fabrication facility."
+  },
+  {
+   "id": "7aa235a7-6329-4f3f-aa6b-f4541992ba51",
+   "name": "Tata Sons (Tata Group)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "enterprise_software"
+   ],
+   "type_code": "company",
+   "description": "Referenced in Atlas relationships."
   },
   {
    "id": "c7fa8639-f98f-42c2-9cbd-fd6728b81679",
@@ -7858,6 +8174,15 @@
    "description": "Yotta D1 is a Greater Noida hyperscale facility listed at 30 MW IT load, expandable to 50 MW across the campus."
   },
   {
+   "id": "a8f061b0-2975-456a-be0d-bfff3d9b782e",
+   "name": "Yotta Data Services",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": null,
+   "type_code": "company",
+   "description": "Yotta is an Indian data-centre and GPU-cloud provider."
+  },
+  {
    "id": "8ca96aa2-4d11-49bb-bf64-e82d709f2b83",
    "name": "Yotta Data Services Private Limited",
    "type": "Private Company",
@@ -7945,7 +8270,7 @@
    "label": "AI MedTech"
   }
  ],
- "generated_at": "2026-08-18T02:21:57.653395+00:00",
+ "generated_at": "2026-08-18T10:48:13.907536+00:00",
  "relationships": [
   {
    "type": "controls",
@@ -13792,6 +14117,18 @@
    "description": "Based in Ahmedabad, Gujarat."
   },
   {
+   "type": "operates",
+   "unit": "mw_it_load",
+   "source": "Yotta Data Services",
+   "target": "Yotta NM1 Navi Mumbai",
+   "magnitude": 52,
+   "source_id": "a8f061b0-2975-456a-be0d-bfff3d9b782e",
+   "target_id": "98bb779b-de7f-4a9f-ab74-c39e0697de28",
+   "type_label": "Operates",
+   "corridor_id": 3,
+   "description": "Yotta lists NM1 at 52 MW IT load."
+  },
+  {
    "type": "located_in",
    "unit": null,
    "source": "Data Patterns (India) Limited",
@@ -19636,6 +19973,18 @@
    "description": "PIB SEZ notification names Dholera, Gujarat."
   },
   {
+   "type": "regulates",
+   "unit": "ban_suspended_nov_2025",
+   "source": "China",
+   "target": "Gallium, germanium and antimony exports to the United States",
+   "magnitude": 1,
+   "source_id": "f7248880-32ce-426d-adbb-f5dd87ad1735",
+   "target_id": "5976613e-dd70-4209-8596-68d6e52970ce",
+   "type_label": "Regulates",
+   "corridor_id": 2,
+   "description": "US export ban imposed 3 Dec 2024; suspended for one year on 9 Nov 2025 under the Busan trade truce."
+  },
+  {
    "type": "located_in",
    "unit": null,
    "source": "Sanand semiconductor cluster",
@@ -19646,6 +19995,30 @@
    "type_label": "Located in",
    "corridor_id": 1,
    "description": "Sanand is in Gujarat."
+  },
+  {
+   "type": "controls",
+   "unit": "pct_global_2024",
+   "source": "China",
+   "target": "Antimony mine production",
+   "magnitude": 60,
+   "source_id": "f7248880-32ce-426d-adbb-f5dd87ad1735",
+   "target_id": "7416fa04-f633-41db-81d6-c339fd67362e",
+   "type_label": "Owns / Controls",
+   "corridor_id": 2,
+   "description": "USGS MCS 2025: China 60,000 t of 100,000 t world total in 2024."
+  },
+  {
+   "type": "regulates",
+   "unit": "attached_office",
+   "source": "Ministry of Mines",
+   "target": "Geological Survey of India (GSI)",
+   "magnitude": 1,
+   "source_id": "40e1d66a-87e9-4ad7-89fc-5e281626c0e0",
+   "target_id": "e8a9ef30-1a00-4fcb-a04a-4d2e15508114",
+   "type_label": "Regulates",
+   "corridor_id": 2,
+   "description": "GSI is an attached office of the Ministry of Mines."
   },
   {
    "type": "supplies_to",
@@ -19672,6 +20045,30 @@
    "description": "Part of the Japanese photoresist oligopoly (~87-91 percent combined)."
   },
   {
+   "type": "funds",
+   "unit": "inr_cr_outlay_7yr",
+   "source": "Ministry of Mines",
+   "target": "National Critical Mineral Mission (NCMM)",
+   "magnitude": 34300,
+   "source_id": "40e1d66a-87e9-4ad7-89fc-5e281626c0e0",
+   "target_id": "fe10c9f4-605e-4625-b5e9-02edf151b149",
+   "type_label": "Funds",
+   "corridor_id": 2,
+   "description": "Total outlay Rs.34,300 crore over 7 years (FY24-25 to FY30-31): Rs.16,300 cr government + Rs.18,000 cr expected PSU/indu"
+  },
+  {
+   "type": "supports",
+   "unit": "value_chain_focus",
+   "source": "National Critical Mineral Mission (NCMM)",
+   "target": "Rare-earth separation and refining (Nd, Pr, Dy, Tb)",
+   "magnitude": 1,
+   "source_id": "fe10c9f4-605e-4625-b5e9-02edf151b149",
+   "target_id": "f931080b-2eeb-4a8e-be69-699cf7d7cad6",
+   "type_label": "supports",
+   "corridor_id": 2,
+   "description": "NCMM covers full value chain: exploration → mining → beneficiation → processing → recovery."
+  },
+  {
    "type": "located_in",
    "unit": null,
    "source": "Kaynes Semicon Private Limited",
@@ -19682,6 +20079,18 @@
    "type_label": "Located in",
    "corridor_id": 1,
    "description": "Kaynes backend platform in Sanand."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "Tata Consultancy Services",
+   "target": "TCS BaNCS",
+   "magnitude": null,
+   "source_id": "e3d818f9-1884-4d6a-81b6-6929c69ddb02",
+   "target_id": "8c08b4cb-065e-422a-8ff6-8e6b480b607e",
+   "type_label": "Develops",
+   "corridor_id": 5,
+   "description": "TCS BaNCS is a banking, financial markets and insurance product suite."
   },
   {
    "type": "supplies_to",
@@ -19696,6 +20105,78 @@
    "description": "Key electronic specialty gas player."
   },
   {
+   "type": "owns",
+   "unit": null,
+   "source": "Microsoft Corporation",
+   "target": "GitHub, Inc.",
+   "magnitude": null,
+   "source_id": "c5ce0be7-dcf6-4987-8391-14231c1ed3cc",
+   "target_id": "419f7a86-81cf-4261-ba1f-c07b7991c501",
+   "type_label": "owns",
+   "corridor_id": 5,
+   "description": "Microsoft acquired GitHub in 2018 — strategic control of Indian developers'' default source-control platform."
+  },
+  {
+   "type": "owns",
+   "unit": null,
+   "source": "Broadcom Inc.",
+   "target": "VMware (Broadcom)",
+   "magnitude": null,
+   "source_id": "09f3fb20-8452-4324-8a2b-ef90a8df63f2",
+   "target_id": "904992d5-5431-4552-ae70-893257821552",
+   "type_label": "owns",
+   "corridor_id": 5,
+   "description": "Broadcom acquired VMware in November 2023 — reshaping Indian virtualisation licensing and partner economics."
+  },
+  {
+   "type": "imports_from",
+   "unit": null,
+   "source": "SAP SE",
+   "target": "Germany",
+   "magnitude": null,
+   "source_id": "25bc8943-9b3a-49da-9891-c1560d451a5f",
+   "target_id": "dfa4ca48-2ed5-4e88-a72c-9921734f54ce",
+   "type_label": "imports from",
+   "corridor_id": 5,
+   "description": "Indian enterprise ERP imported from SAP SE HQ in Walldorf, Germany."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "Oracle Corporation",
+   "target": "Oracle Database",
+   "magnitude": null,
+   "source_id": "d1301922-6457-4668-a28a-1430af381ca0",
+   "target_id": "a1f50eaf-680f-4586-ad22-dce9a73a45da",
+   "type_label": "Develops",
+   "corridor_id": 5,
+   "description": "Foundational RDBMS in Indian BFSI, telecom and government systems."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "Salesforce, Inc.",
+   "target": "Salesforce Customer 360 (Sales/Service Cloud)",
+   "magnitude": null,
+   "source_id": "2bd85e7b-9183-4ae5-b4fb-f04e1ee41183",
+   "target_id": "2a83e9d5-17b5-476b-8c32-ca1a076338b2",
+   "type_label": "Develops",
+   "corridor_id": 5,
+   "description": "Core CRM product portfolio for the Indian enterprise market."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "Zoho Corporation",
+   "target": "Zoho One suite",
+   "magnitude": null,
+   "source_id": "372aaae7-dcd3-4b1a-abfe-428a995c8b23",
+   "target_id": "55ac41bb-5df2-4fae-af57-5049e9196555",
+   "type_label": "Develops",
+   "corridor_id": 5,
+   "description": "Zoho One is a 55+-app all-in-one suite spanning CRM, productivity, ERP and analytics."
+  },
+  {
    "type": "located_in",
    "unit": null,
    "source": "Jagiroad semiconductor cluster",
@@ -19706,6 +20187,78 @@
    "type_label": "Located in",
    "corridor_id": 1,
    "description": "Cluster is in Assam."
+  },
+  {
+   "type": "customer_of",
+   "unit": null,
+   "source": "HCLTech",
+   "target": "Microsoft Corporation",
+   "magnitude": null,
+   "source_id": "19204ae0-318e-4be6-ba41-6357448379fe",
+   "target_id": "c5ce0be7-dcf6-4987-8391-14231c1ed3cc",
+   "type_label": "Customer of",
+   "corridor_id": 5,
+   "description": "HCLTech runs large internal Microsoft stack and resells HCL Software products."
+  },
+  {
+   "type": "subsidiary_of",
+   "unit": null,
+   "source": "Tata Consultancy Services",
+   "target": "Tata Sons (Tata Group)",
+   "magnitude": null,
+   "source_id": "e3d818f9-1884-4d6a-81b6-6929c69ddb02",
+   "target_id": "7aa235a7-6329-4f3f-aa6b-f4541992ba51",
+   "type_label": "Subsidiary of",
+   "corridor_id": 5,
+   "description": "TCS is the principal technology-services arm of the Tata Group."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "Infosys",
+   "target": "Finacle (core banking)",
+   "magnitude": null,
+   "source_id": "e24e5f3d-e9ed-4590-870b-f637d76a8f51",
+   "target_id": "cd1e089f-8310-4516-bb11-2d27af2bd9e6",
+   "type_label": "Develops",
+   "corridor_id": 5,
+   "description": "Finacle is Infosys''s flagship core-banking product used by Indian and global banks."
+  },
+  {
+   "type": "regulates",
+   "unit": null,
+   "source": "Ministry of Electronics and Information Technology (MeitY)",
+   "target": "Digital Personal Data Protection Act, 2023",
+   "magnitude": null,
+   "source_id": "370b65e2-aebb-4958-9159-b0b7c18b4497",
+   "target_id": "18f7d24a-a7b9-468d-b191-5968a83d99d4",
+   "type_label": "Regulates",
+   "corridor_id": 5,
+   "description": "MeitY is the administering ministry for the DPDP Act and Rules."
+  },
+  {
+   "type": "researches",
+   "unit": null,
+   "source": "C-DAC",
+   "target": "Sovereign cloud building blocks",
+   "magnitude": null,
+   "source_id": "e20d8f2a-f8c3-4264-ab80-75e822ba2efb",
+   "target_id": "ada45e07-f684-4c5e-a632-182a170f884c",
+   "type_label": "researches",
+   "corridor_id": 5,
+   "description": "C-DAC R&D includes cloud, HPC and Indian-language NLP components feeding sovereign-stack initiatives."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "SAP SE",
+   "target": "SAP S/4HANA",
+   "magnitude": null,
+   "source_id": "25bc8943-9b3a-49da-9891-c1560d451a5f",
+   "target_id": "66afe571-5d92-4dbc-aa6a-418aea726f73",
+   "type_label": "Develops",
+   "corridor_id": 5,
+   "description": "S/4HANA is the flagship ERP; ongoing migration drives Indian services revenue."
   },
   {
    "type": "supplies_to",
@@ -19852,6 +20405,30 @@
    "description": "Defence-production ERP on SAP + GRC"
   },
   {
+   "type": "operates",
+   "unit": null,
+   "source": "Google Cloud (Alphabet)",
+   "target": "Google Cloud Delhi NCR region",
+   "magnitude": null,
+   "source_id": "466b340d-0e09-404c-9d87-2d359418c598",
+   "target_id": "ec9993e8-7bae-4a83-a810-0f0d02eda034",
+   "type_label": "Operates",
+   "corridor_id": 5,
+   "description": "Second Google Cloud India region; live after 2020 announcement."
+  },
+  {
+   "type": "controls",
+   "unit": null,
+   "source": "Ministry of Electronics and Information Technology (MeitY)",
+   "target": "MeghRaj (GI Cloud)",
+   "magnitude": null,
+   "source_id": "370b65e2-aebb-4958-9159-b0b7c18b4497",
+   "target_id": "a3e5e2f5-948e-4e88-a00c-19b0d6f0af9c",
+   "type_label": "Owns / Controls",
+   "corridor_id": 5,
+   "description": "MeitY owns the MeghRaj policy; NIC operates the cloud."
+  },
+  {
    "type": "located_in",
    "unit": null,
    "source": "CG Semi Private Limited",
@@ -19874,6 +20451,18 @@
    "type_label": "Partners / JV with",
    "corridor_id": 1,
    "description": "Stars provides packaging technology."
+  },
+  {
+   "type": "operates",
+   "unit": "launch_year",
+   "source": "Amazon Web Services",
+   "target": "AWS Asia Pacific (Mumbai)",
+   "magnitude": 2016,
+   "source_id": "54105f0e-8dd0-49d0-81d5-1fac0f2ce6b5",
+   "target_id": "e5b5e083-a7a2-4c4d-b595-61c6fa294899",
+   "type_label": "Operates",
+   "corridor_id": 5,
+   "description": "Mumbai region launched June 2016."
   },
   {
    "type": "owns",
@@ -31432,6 +32021,18 @@
    "description": "The CMP pad manufacturing gap is the absence of any Indian CMP pad producer; DuPont holds ~70% global share"
   },
   {
+   "type": "certifies",
+   "unit": null,
+   "source": "Google Cloud (Alphabet)",
+   "target": "MeitY Cloud Empanelment (CSP regime)",
+   "magnitude": null,
+   "source_id": "466b340d-0e09-404c-9d87-2d359418c598",
+   "target_id": "4853a371-cc5c-489e-afbc-225775cead61",
+   "type_label": "certifies",
+   "corridor_id": 5,
+   "description": "Google Cloud India region is MeitY-empanelled."
+  },
+  {
    "type": "supplies_to",
    "unit": null,
    "source": "Shapoorji Pallonji & Co.",
@@ -31814,6 +32415,546 @@
    "type_label": "imports from",
    "corridor_id": 1,
    "description": "Tamil Nadu imports ~50% of IC substrates from Taiwan (Unimicron, ASE)"
+  },
+  {
+   "type": "operates",
+   "unit": "launch_year",
+   "source": "Amazon Web Services",
+   "target": "AWS Asia Pacific (Hyderabad)",
+   "magnitude": 2022,
+   "source_id": "54105f0e-8dd0-49d0-81d5-1fac0f2ce6b5",
+   "target_id": "7b21b357-369c-497f-bde2-e0d75f1b532b",
+   "type_label": "Operates",
+   "corridor_id": 5,
+   "description": "Hyderabad region launched November 2022 — second India region."
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Microsoft Corporation",
+   "target": "Azure South India (Chennai)",
+   "magnitude": null,
+   "source_id": "c5ce0be7-dcf6-4987-8391-14231c1ed3cc",
+   "target_id": "5a9b63b3-5def-4719-8225-1d4bdce9c58f",
+   "type_label": "Operates",
+   "corridor_id": 5,
+   "description": "Second of two Microsoft-owned India regions."
+  },
+  {
+   "type": "operates",
+   "unit": "launch_year",
+   "source": "Google Cloud (Alphabet)",
+   "target": "Google Cloud Mumbai region",
+   "magnitude": 2017,
+   "source_id": "466b340d-0e09-404c-9d87-2d359418c598",
+   "target_id": "25a97939-3ce6-443c-9d94-36fa6db2be42",
+   "type_label": "Operates",
+   "corridor_id": 5,
+   "description": "First Google Cloud India region launched 2017."
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "Zoho Corporation",
+   "target": "ManageEngine (Zoho Corp)",
+   "magnitude": null,
+   "source_id": "372aaae7-dcd3-4b1a-abfe-428a995c8b23",
+   "target_id": "7e9cd5b5-1621-4465-bf72-bfa47db5b9da",
+   "type_label": "related to",
+   "corridor_id": 5,
+   "description": "ManageEngine is the enterprise IT management division of Zoho Corporation, competing with ServiceNow/SolarWinds."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "ServiceNow, Inc.",
+   "target": "Now Platform",
+   "magnitude": null,
+   "source_id": "ea4d2059-2a21-415e-8de9-e89ceb19dde6",
+   "target_id": "e90417f2-7adf-4ae0-80a0-e348efc31e65",
+   "type_label": "Develops",
+   "corridor_id": 5,
+   "description": "Platform underpinning ITSM, ITOM, HRSD, CSM and SecOps modules."
+  },
+  {
+   "type": "regulates",
+   "unit": null,
+   "source": "Ministry of Electronics and Information Technology (MeitY)",
+   "target": "MeitY Cloud Empanelment (CSP regime)",
+   "magnitude": null,
+   "source_id": "370b65e2-aebb-4958-9159-b0b7c18b4497",
+   "target_id": "4853a371-cc5c-489e-afbc-225775cead61",
+   "type_label": "Regulates",
+   "corridor_id": 5,
+   "description": "MeitY empanelment governs CSP eligibility for government workloads."
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Microsoft Corporation",
+   "target": "Azure Central India (Pune)",
+   "magnitude": null,
+   "source_id": "c5ce0be7-dcf6-4987-8391-14231c1ed3cc",
+   "target_id": "4039be0b-0466-477e-a5da-363f7c07b51c",
+   "type_label": "Operates",
+   "corridor_id": 5,
+   "description": "One of three Azure India regions; paired with South India (Chennai)."
+  },
+  {
+   "type": "beneficiary_of",
+   "unit": "potential_beneficiary",
+   "source": "Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnets (REPM)",
+   "target": "IREL (India) Limited",
+   "magnitude": 1,
+   "source_id": "4151e242-760d-48fd-8297-44e07f1ec7d3",
+   "target_id": "ac729ed6-f592-455e-8bff-0674a71c7b97",
+   "type_label": "Beneficiary of",
+   "corridor_id": 2,
+   "description": "Reuters (Sep 2025) named IREL as one of two recipients of government REPM-related funding alongside MAM."
+  },
+  {
+   "type": "partners_with",
+   "unit": "mou_19sep2025",
+   "source": "Hindustan Copper Limited (HCL)",
+   "target": "Oil India Limited",
+   "magnitude": 1,
+   "source_id": "e4e39518-f978-4998-8d70-ad6afb88c197",
+   "target_id": "299cd579-ff66-4f30-9a72-87ff298a911d",
+   "type_label": "Partners / JV with",
+   "corridor_id": 2,
+   "description": "MoU for exploration/development of critical and strategic minerals."
+  },
+  {
+   "type": "partners_with",
+   "unit": "mou_02dec2025",
+   "source": "Hindustan Copper Limited (HCL)",
+   "target": "NTPC Mining Ltd",
+   "magnitude": 1,
+   "source_id": "e4e39518-f978-4998-8d70-ad6afb88c197",
+   "target_id": "770f299a-ecdb-4539-a2e8-4a103d8d9749",
+   "type_label": "Partners / JV with",
+   "corridor_id": 2,
+   "description": "MoU to jointly bid for copper and critical-mineral auctions."
+  },
+  {
+   "type": "controls",
+   "unit": "pct_global_2024",
+   "source": "China",
+   "target": "Gallium primary low-purity production",
+   "magnitude": 99,
+   "source_id": "f7248880-32ce-426d-adbb-f5dd87ad1735",
+   "target_id": "9942148e-d017-46fb-b3f5-8fd717691a21",
+   "type_label": "Owns / Controls",
+   "corridor_id": 2,
+   "description": "USGS MCS 2025: China accounted for 99% of worldwide primary low-purity gallium production in 2024 (98% in 2023)."
+  },
+  {
+   "type": "manufactures",
+   "unit": "tpa_initial",
+   "source": "Midwest Advanced Materials (MAM)",
+   "target": "Sintered NdFeB Permanent Magnet Manufacturing",
+   "magnitude": 500,
+   "source_id": "c80fafa7-2093-42c3-b860-b6aea6fbc223",
+   "target_id": "ad441ee3-de5e-40fa-85a9-79026a3a269d",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 2,
+   "description": "500 tpa NdFeB magnet plant in Hyderabad; targeting 5,000 tpa within 24-36 months."
+  },
+  {
+   "type": "imports_from",
+   "unit": "pct_ree_refining_dependence",
+   "source": "India",
+   "target": "China",
+   "magnitude": 91,
+   "source_id": "6714182c-9473-48eb-9156-8aa19e5f9c83",
+   "target_id": "f7248880-32ce-426d-adbb-f5dd87ad1735",
+   "type_label": "imports from",
+   "corridor_id": 2,
+   "description": "India is nearly fully import-dependent for refined rare-earth oxides and finished NdFeB magnets; the 91% figure reflects"
+  },
+  {
+   "type": "researches",
+   "unit": "exploration_pipeline",
+   "source": "Geological Survey of India (GSI)",
+   "target": "Rare Earth Elements (magnet: Nd, Pr, Dy, Tb)",
+   "magnitude": 1,
+   "source_id": "e8a9ef30-1a00-4fcb-a04a-4d2e15508114",
+   "target_id": "4fc2e513-7852-4c26-b711-d7dbcd2fd0ac",
+   "type_label": "researches",
+   "corridor_id": 2,
+   "description": "1,200 GSI exploration projects targeted under NCMM between FY24-25 and FY30-31."
+  },
+  {
+   "type": "controls",
+   "unit": "pct_global_2024",
+   "source": "China",
+   "target": "Battery-grade Nickel Chemicals (Sulphate)",
+   "magnitude": 60,
+   "source_id": "f7248880-32ce-426d-adbb-f5dd87ad1735",
+   "target_id": "a98dcf24-670f-4d2e-95d5-82a0615fa2a3",
+   "type_label": "Owns / Controls",
+   "corridor_id": 2,
+   "description": "China accounted for 60% of global nickel-chemical production in 2024 and retains dominance through 2040 (IEA Outlook 202"
+  },
+  {
+   "type": "regulates",
+   "unit": "policy_active",
+   "source": "China",
+   "target": "Gallium exports (licensing regime)",
+   "magnitude": 1,
+   "source_id": "f7248880-32ce-426d-adbb-f5dd87ad1735",
+   "target_id": "52dd82b9-32d6-498a-bafb-77da50e46784",
+   "type_label": "Regulates",
+   "corridor_id": 2,
+   "description": "MOFCOM announced export licensing for 8 gallium products on 3 Jul 2023, effective 1 Aug 2023."
+  },
+  {
+   "type": "supports",
+   "unit": "component",
+   "source": "National Critical Mineral Mission (NCMM)",
+   "target": "Critical Mineral Recycling Incentive Scheme",
+   "magnitude": 1,
+   "source_id": "fe10c9f4-605e-4625-b5e9-02edf151b149",
+   "target_id": "e8e00a75-6e0b-4459-8aa5-40db09a78e47",
+   "type_label": "supports",
+   "corridor_id": 2,
+   "description": "Recycling is a named component of NCMM; the Rs.1,500 cr scheme operationalises it."
+  },
+  {
+   "type": "controls",
+   "unit": "pct_global_production_2024",
+   "source": "China",
+   "target": "Sintered NdFeB Permanent Magnet Manufacturing",
+   "magnitude": 94,
+   "source_id": "f7248880-32ce-426d-adbb-f5dd87ad1735",
+   "target_id": "ad441ee3-de5e-40fa-85a9-79026a3a269d",
+   "type_label": "Owns / Controls",
+   "corridor_id": 2,
+   "description": "China produced 94% of global sintered NdFeB permanent magnets in 2024 (IEA)."
+  },
+  {
+   "type": "regulates",
+   "unit": "policy_active",
+   "source": "China",
+   "target": "Antimony exports (licensing regime)",
+   "magnitude": 1,
+   "source_id": "f7248880-32ce-426d-adbb-f5dd87ad1735",
+   "target_id": "78982cbc-cfea-4b93-8e2e-009e32ecd3fc",
+   "type_label": "Regulates",
+   "corridor_id": 2,
+   "description": "China announced export licensing for 6 antimony-related categories on 15 Aug 2024, effective 15 Sep 2024."
+  },
+  {
+   "type": "controls",
+   "unit": "pct_global_2024",
+   "source": "China",
+   "target": "Germanium mine/refinery production",
+   "magnitude": 60,
+   "source_id": "f7248880-32ce-426d-adbb-f5dd87ad1735",
+   "target_id": "01f46d94-4d42-4e89-bd98-35317448bcb4",
+   "type_label": "Owns / Controls",
+   "corridor_id": 2,
+   "description": "USGS MCS 2025 does not publish a single percentage; USITC (2023) and CSIS corroborate ~60%, with 68% reflecting ~2021 da"
+  },
+  {
+   "type": "regulates",
+   "unit": "policy_active",
+   "source": "China",
+   "target": "Germanium exports (licensing regime)",
+   "magnitude": 1,
+   "source_id": "f7248880-32ce-426d-adbb-f5dd87ad1735",
+   "target_id": "371f1872-3dbe-416c-8d64-51ad45141810",
+   "type_label": "Regulates",
+   "corridor_id": 2,
+   "description": "MOFCOM announced export licensing for 6 germanium products on 3 Jul 2023, effective 1 Aug 2023."
+  },
+  {
+   "type": "owns",
+   "unit": "pct_equity",
+   "source": "National Aluminium Company Limited (NALCO)",
+   "target": "Khanij Bidesh India Limited (KABIL)",
+   "magnitude": 40,
+   "source_id": "5284b2e2-b018-4ca4-a54d-3e4984d85616",
+   "target_id": "b9a095f1-5461-4400-a0e2-dd9a1a091943",
+   "type_label": "owns",
+   "corridor_id": 2,
+   "description": "Largest of three JV partners; publicly contemplating raising stake to 50%."
+  },
+  {
+   "type": "funds",
+   "unit": "inr_cr_outlay",
+   "source": "Ministry of Heavy Industries",
+   "target": "Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnets (REPM)",
+   "magnitude": 7280,
+   "source_id": "8bf1a69a-ce12-420f-a858-b16b6f55858d",
+   "target_id": "4151e242-760d-48fd-8297-44e07f1ec7d3",
+   "type_label": "Funds",
+   "corridor_id": 2,
+   "description": "Rs.6,450 cr sales-linked incentives + Rs.750 cr capital subsidy. 6,000 MTPA target. Cabinet-approved 26 Nov 2025."
+  },
+  {
+   "type": "competes_with",
+   "unit": "blocks_won_each",
+   "source": "Vedanta Limited",
+   "target": "Hindustan Zinc Limited (HZL)",
+   "magnitude": 10,
+   "source_id": "1e27342f-0303-47a6-8bdc-dacfe5cddb3f",
+   "target_id": "620779a1-fe9e-4b71-aac6-faa0dd816f37",
+   "type_label": "Competes with",
+   "corridor_id": 2,
+   "description": "Note: HZL is itself a Vedanta Group subsidiary; both entities bid independently in critical-mineral auctions."
+  },
+  {
+   "type": "beneficiary_of",
+   "unit": "potential_beneficiary",
+   "source": "Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnets (REPM)",
+   "target": "Midwest Advanced Materials (MAM)",
+   "magnitude": 1,
+   "source_id": "4151e242-760d-48fd-8297-44e07f1ec7d3",
+   "target_id": "c80fafa7-2093-42c3-b860-b6aea6fbc223",
+   "type_label": "Beneficiary of",
+   "corridor_id": 2,
+   "description": "Reuters (Sep 2025) named MAM as a private recipient of government REPM-related funding."
+  },
+  {
+   "type": "researches",
+   "unit": "mt_inferred_reasi",
+   "source": "Geological Survey of India (GSI)",
+   "target": "Lithium",
+   "magnitude": 5.9,
+   "source_id": "e8a9ef30-1a00-4fcb-a04a-4d2e15508114",
+   "target_id": "0cbabe08-a040-434d-bd7f-6ea23185c269",
+   "type_label": "researches",
+   "corridor_id": 2,
+   "description": "GSI announced a 5.9-million-tonne inferred lithium resource in Reasi, J&K, in February 2023 (widely reported in secondar"
+  },
+  {
+   "type": "imports_from",
+   "unit": "lithium_pipeline",
+   "source": "India",
+   "target": "Argentina",
+   "magnitude": 1,
+   "source_id": "6714182c-9473-48eb-9156-8aa19e5f9c83",
+   "target_id": "d7befdf5-78d2-4263-857e-c2e22be0a487",
+   "type_label": "imports from",
+   "corridor_id": 2,
+   "description": "KABIL''s 5-block acquisition creates a strategic future import pipeline."
+  },
+  {
+   "type": "imports_from",
+   "unit": "monazite_feedstock",
+   "source": "Midwest Advanced Materials (MAM)",
+   "target": "Sri Lanka",
+   "magnitude": 1,
+   "source_id": "c80fafa7-2093-42c3-b860-b6aea6fbc223",
+   "target_id": "c4de1791-24e4-4521-b6c8-132e947be862",
+   "type_label": "imports from",
+   "corridor_id": 2,
+   "description": "MAM has upstream feedstock linkage via Sri Lankan monazite mines (Reuters, Sep 2025)."
+  },
+  {
+   "type": "controls",
+   "unit": "pct_global_2024",
+   "source": "China",
+   "target": "Tungsten mine production",
+   "magnitude": 83,
+   "source_id": "f7248880-32ce-426d-adbb-f5dd87ad1735",
+   "target_id": "27eaa827-1e93-4fae-90d1-9840f947fb69",
+   "type_label": "Owns / Controls",
+   "corridor_id": 2,
+   "description": "USGS MCS 2025: China 67,000 t of 81,000 t world total in 2024 (82.7%); ~52% of world reserves."
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Jio Platforms",
+   "target": "Jio Jamnagar data centre",
+   "magnitude": null,
+   "source_id": "fa8e5ee3-51e6-4467-bad2-3665d1a48687",
+   "target_id": "f464d84f-0ac9-4017-811a-33a4ea1f92e0",
+   "type_label": "Operates",
+   "corridor_id": 3,
+   "description": "JioAICloud says it is hosted in Jio''s Jamnagar data centre."
+  },
+  {
+   "type": "beneficiary_of",
+   "unit": null,
+   "source": "E2E Networks",
+   "target": "IndiaAI Mission",
+   "magnitude": null,
+   "source_id": "036e2cb5-eee4-40f8-bf5f-e1a472ab2f7e",
+   "target_id": "4781964c-172a-4562-b51d-67ae8dccfbbb",
+   "type_label": "Beneficiary of",
+   "corridor_id": 3,
+   "description": "PIB lists E2E Networks among technically qualified IndiaAI compute bidders."
+  },
+  {
+   "type": "supports",
+   "unit": null,
+   "source": "Tata Communications",
+   "target": "AI cluster networking fabric",
+   "magnitude": null,
+   "source_id": "58eb36f6-3346-4c87-a69b-a26b0557eed3",
+   "target_id": "13041200-4eb4-4051-90b0-2dc652dcbc77",
+   "type_label": "supports",
+   "corridor_id": 3,
+   "description": "Tata Communications and AWS announced an AI-ready network connecting AWS locations in Mumbai, Hyderabad and Chennai."
+  },
+  {
+   "type": "operates",
+   "unit": "mw_full_it_load",
+   "source": "AdaniConneX",
+   "target": "AdaniConneX Chennai 1",
+   "magnitude": 33,
+   "source_id": "f4970f5e-8550-4b9f-b5b9-0e6b878b7079",
+   "target_id": "ba98ea0b-f5bf-4391-8892-78716e520184",
+   "type_label": "Operates",
+   "corridor_id": 3,
+   "description": "Chennai 1 scales to 33 MW IT load; phase 1 live at 17 MW."
+  },
+  {
+   "type": "invests_in",
+   "unit": "usd_mn_2026_2029",
+   "source": "Microsoft Azure",
+   "target": "Data-centre build-out (opportunity surface)",
+   "magnitude": 17500,
+   "source_id": "8836004b-19a1-4d2c-8354-6f6cb4d62062",
+   "target_id": "a863c7be-e13d-4743-96a0-dec14bf06a5d",
+   "type_label": "Invests in",
+   "corridor_id": 3,
+   "description": "Microsoft announced US$17.5bn India investment over CY2026-2029."
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Google Cloud",
+   "target": "Data-centre build-out (opportunity surface)",
+   "magnitude": null,
+   "source_id": "4866e86b-835e-4935-9fcb-da3a07556b6b",
+   "target_id": "a863c7be-e13d-4743-96a0-dec14bf06a5d",
+   "type_label": "Operates",
+   "corridor_id": 3,
+   "description": "Google Cloud operates Mumbai and Delhi India cloud regions."
+  },
+  {
+   "type": "operates",
+   "unit": "mw_planned_it_load",
+   "source": "NTT Global Data Centers India",
+   "target": "NTT Bengaluru 4 campus",
+   "magnitude": 67.2,
+   "source_id": "38296746-9971-4379-813f-8e1f31747e65",
+   "target_id": "61cb224c-5413-4f17-a515-fb0289e2fb19",
+   "type_label": "Operates",
+   "corridor_id": 3,
+   "description": "NTT Bengaluru 4 planned critical IT load."
+  },
+  {
+   "type": "operates",
+   "unit": "mw_potential_it_load",
+   "source": "AdaniConneX",
+   "target": "AdaniConneX Noida facility",
+   "magnitude": 150,
+   "source_id": "f4970f5e-8550-4b9f-b5b9-0e6b878b7079",
+   "target_id": "283f5077-8226-4cab-9188-90cf58ffcf9e",
+   "type_label": "Operates",
+   "corridor_id": 3,
+   "description": "AdaniConneX lists Noida potential IT load."
+  },
+  {
+   "type": "operates",
+   "unit": "mw_it_load",
+   "source": "Yotta Data Services",
+   "target": "Yotta D1 Greater Noida",
+   "magnitude": 30,
+   "source_id": "a8f061b0-2975-456a-be0d-bfff3d9b782e",
+   "target_id": "a814041b-b38c-4682-94de-a8e1b69df20b",
+   "type_label": "Operates",
+   "corridor_id": 3,
+   "description": "Yotta lists D1 at 30 MW IT load, expandable to 50 MW."
+  },
+  {
+   "type": "supports",
+   "unit": null,
+   "source": "Krutrim SI Designs",
+   "target": "Sovereign compute / GPU-as-a-service (opportunity surface)",
+   "magnitude": null,
+   "source_id": "eb54850d-aaa8-4f44-8fda-1581b2dc7eac",
+   "target_id": "4a537c5f-7be3-4874-8462-81276084fa30",
+   "type_label": "supports",
+   "corridor_id": 3,
+   "description": "Tracked as a domestic AI-cloud challenger; capacity requires deeper verification."
+  },
+  {
+   "type": "competes_with",
+   "unit": null,
+   "source": "AMD",
+   "target": "NVIDIA",
+   "magnitude": null,
+   "source_id": "3b494f0b-2d1a-40b1-93b4-75192554aba5",
+   "target_id": "5f9388fc-f30a-4d08-836f-b0c1facf462e",
+   "type_label": "Competes with",
+   "corridor_id": 3,
+   "description": "AMD is NVIDIA''s main merchant GPU rival and appears on IndiaAI instances."
+  },
+  {
+   "type": "supports",
+   "unit": null,
+   "source": "Tata Communications",
+   "target": "Sovereign compute / GPU-as-a-service (opportunity surface)",
+   "magnitude": null,
+   "source_id": "58eb36f6-3346-4c87-a69b-a26b0557eed3",
+   "target_id": "4a537c5f-7be3-4874-8462-81276084fa30",
+   "type_label": "supports",
+   "corridor_id": 3,
+   "description": "Tata Communications offers NVIDIA GPU-backed Vayu AI Cloud."
+  },
+  {
+   "type": "operates",
+   "unit": "mw_planned_it_load",
+   "source": "NTT Global Data Centers India",
+   "target": "NTT Noida 2 campus",
+   "magnitude": 52.8,
+   "source_id": "38296746-9971-4379-813f-8e1f31747e65",
+   "target_id": "a1c8845f-faf2-42ec-98f9-530de8154904",
+   "type_label": "Operates",
+   "corridor_id": 3,
+   "description": "NTT Noida 2 planned critical IT load."
+  },
+  {
+   "type": "supports",
+   "unit": "mw_infrastructure",
+   "source": "CtrlS Datacenters",
+   "target": "Data-centre build-out (opportunity surface)",
+   "magnitude": 370,
+   "source_id": "ca1dfab8-e907-4071-8d7b-831c87b862c3",
+   "target_id": "a863c7be-e13d-4743-96a0-dec14bf06a5d",
+   "type_label": "supports",
+   "corridor_id": 3,
+   "description": "CtrlS states it provides over 370 MW of resilient infrastructure."
+  },
+  {
+   "type": "controls",
+   "unit": "pct_market",
+   "source": "NVIDIA",
+   "target": "AI accelerators (GPU)",
+   "magnitude": 80,
+   "source_id": "5f9388fc-f30a-4d08-836f-b0c1facf462e",
+   "target_id": "2ee0b6c9-eabc-423d-9188-9e8754c598b4",
+   "type_label": "Owns / Controls",
+   "corridor_id": 3,
+   "description": "OECD cites estimates above 80 percent share for GPU chips used in AI."
+  },
+  {
+   "type": "beneficiary_of",
+   "unit": "gpu_committed",
+   "source": "Yotta Data Services",
+   "target": "IndiaAI Mission",
+   "magnitude": 9216,
+   "source_id": "a8f061b0-2975-456a-be0d-bfff3d9b782e",
+   "target_id": "4781964c-172a-4562-b51d-67ae8dccfbbb",
+   "type_label": "Beneficiary of",
+   "corridor_id": 3,
+   "description": "Yotta says it will provide 9,216 advanced GPUs under IndiaAI."
   }
  ],
  "status_levels": [
