@@ -914,6 +914,17 @@
    "description": "3D Glass Solutions (3DGS), a US semiconductor technology company founded in 2005, developing glass-core and high-density interconnect substrates. Intel-backed; building a US$3.3bn substrate plant at Bhubaneswar-Khurda, Odisha."
   },
   {
+   "id": "b603d08d-0625-49d6-b872-962ece12b1f9",
+   "name": "Aadhaar Tech Solutions",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "b5e47240-4786-4d92-9806-110fd1c411ce",
    "name": "Aarti Industries — Electronic Materials Division",
    "type": "Private Company",
@@ -936,6 +947,17 @@
    "description": "Indian specialty intermediates; potential precursor supplier"
   },
   {
+   "id": "e202767a-1835-4b48-a7a4-ff3e3d7ebdbe",
+   "name": "ADA",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
    "id": "5e6e2d8c-9cea-4b61-929a-658c0826b853",
    "name": "Adani Defence & Aerospace",
    "type": "Private Company",
@@ -945,6 +967,39 @@
    ],
    "type_code": "company",
    "description": "UAVs / defence integration. Based in Ahmedabad, Gujarat; stage: Conglomerate. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
+  },
+  {
+   "id": "2f12fa53-fadd-4aea-b629-7709d7fe5f51",
+   "name": "Adani Defence and Aerospace",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "d45037e3-822f-4896-881a-9eb077974255",
+   "name": "Adani Defence Interceptor Drone",
+   "type": "UAS Platform (drone)",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "uas_platform",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "de1bb4f1-4b94-4932-b9f2-1cbc5a8d8a30",
+   "name": "Adani Elbit",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
   },
   {
    "id": "cd3124f6-73fe-40d4-9670-c371cc809cb3",
@@ -1022,6 +1077,17 @@
    "description": "Indian chlor-alkali and specialty chemicals"
   },
   {
+   "id": "d6976ddb-5c0a-44e7-bc86-17dca7cb92dc",
+   "name": "ADRDE (DRDO)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
    "id": "5b776afb-3c99-4911-a67c-6fe873610e18",
    "name": "Advanced Micro Devices, Inc.",
    "type": "Foreign Supplier",
@@ -1078,6 +1144,72 @@
    "description": "ATE duopoly with Teradyne; memory test leader"
   },
   {
+   "id": "440037df-6fb9-4ec4-9e09-f004d45f4b7d",
+   "name": "Aebird Aerospace",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "756fed7d-9802-4871-be93-ff5c22711d9f",
+   "name": "Aerial Delivery Research & Development Establishment (ADRDE), DRDO",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
+   "id": "fc631901-0b2b-4bd8-8675-70aac574b561",
+   "name": "Aeriosense",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "2257ceea-31bf-4c1c-b1c5-cd74405cf920",
+   "name": "Aero Positioning",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "9833a978-92f2-42cb-8438-c22e1047a65f",
+   "name": "Aerochief Aerospace",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "675d5f2c-5ea8-4536-9772-e1de0af25219",
+   "name": "Aerogramme",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "bfcc8ecc-eb40-43f0-b230-cbcb326357ca",
    "name": "Aeronautical Development Agency",
    "type": "Research Institution",
@@ -1109,6 +1241,17 @@
    ],
    "type_code": "technology",
    "description": "Layup capability exists; PAN precursor and high-modulus fibre imported."
+  },
+  {
+   "id": "fbe07369-0093-444a-aeb7-291a10339591",
+   "name": "AeroVironment Inc.",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "10869162-835a-4c69-b837-5acdbd4cdc58",
@@ -1272,6 +1415,17 @@
    ],
    "type_code": "research_institution",
    "description": "AIIMS Delhi partners with multiple AI MedTech startups for clinical validation."
+  },
+  {
+   "id": "d6ca655d-332d-4952-9375-64d0c84aeb7c",
+   "name": "Alpha Design Technologies Pvt Ltd",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "afb01e18-9745-4322-b02f-a0e856542c34",
@@ -1506,6 +1660,17 @@
    "description": "World's largest OSAT. Named in the incumbent map of The Opportunity Beyond the Fab (Techadyant Labs, 2026)."
   },
   {
+   "id": "1b78f84c-d8ce-4d6e-b78e-d23f5aa59b3d",
+   "name": "Aselsan",
+   "type": "Foreign Supplier",
+   "country": "TR",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
+  },
+  {
    "id": "003a8ba2-3e87-4390-b604-9e1b68b1310a",
    "name": "ASM Technologies — Semiconductor Division",
    "type": "Private Company",
@@ -1548,6 +1713,17 @@
    ],
    "type_code": "company",
    "description": "Drone software / data platform (Reliance-owned). Based in Bengaluru, Karnataka; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
+  },
+  {
+   "id": "e76ed066-7acb-4c6b-b352-69b1ce18f7c4",
+   "name": "Asteria Aerospace Ltd",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "699bf683-6723-4a63-b969-41a515689b5c",
@@ -1606,6 +1782,17 @@
    "description": "AT&S India Nanjangud: India's first manufacturer of High Frequency and High Density Interconnect PCBs"
   },
   {
+   "id": "c3798bbf-726e-42a0-9e0a-5b936ce65033",
+   "name": "Athergrid Energy",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "f9c0310f-9fcf-4543-83a1-3edb8e6560da",
    "name": "Atotech India (MKS)",
    "type": "Foreign Supplier",
@@ -1615,6 +1802,17 @@
    ],
    "type_code": "foreign_supplier",
    "description": "Plating equipment for IC substrates"
+  },
+  {
+   "id": "ca575595-7e7f-4a2f-b1c3-931250d88b5a",
+   "name": "Atsuya Technologies",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "776e635c-4665-4db4-b271-b47b6f793e2e",
@@ -1660,6 +1858,28 @@
    ],
    "type_code": "company",
    "description": "Avalon Technologies provides EMS and precision manufacturing for medical devices."
+  },
+  {
+   "id": "0c101a60-3812-45a2-8fa0-5e495cbc81a5",
+   "name": "Aviation Industry Corp of China (AVIC)",
+   "type": "Foreign Supplier",
+   "country": "CN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "4ce37242-3879-4e7b-87a9-8884bd33c468",
+   "name": "Avighna Aerospace",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "7b21b357-369c-497f-bde2-e0d75f1b532b",
@@ -1739,6 +1959,17 @@
    "description": "Referenced in Atlas relationships."
   },
   {
+   "id": "123cacb2-754f-4848-ac33-d659d55159e5",
+   "name": "Bangalore Aeroverse Pvt Ltd",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "fb74eca1-99c5-49e2-a47c-6d7d6825984c",
    "name": "BASF SE — Electronic Materials",
    "type": "Foreign Supplier",
@@ -1772,6 +2003,17 @@
    "description": "Battery packs. Based in Pune, Maharashtra; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
   {
+   "id": "3f84794b-a2c2-4c98-a4e0-e495982bc787",
+   "name": "Baykar Technologies",
+   "type": "Foreign Supplier",
+   "country": "TR",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "74c9d039-7aef-43f1-b1e5-aae7c50903b2",
    "name": "Besi — BE Semiconductor Industries",
    "type": "Foreign Supplier",
@@ -1781,6 +2023,17 @@
    ],
    "type_code": "foreign_supplier",
    "description": "Die bonding equipment leader; hybrid bonding"
+  },
+  {
+   "id": "72b85a8b-ed03-4823-91c8-ca0715bf2def",
+   "name": "BGS Systems (Bharat Global Systems)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
   },
   {
    "id": "f6877a4d-e14d-4a4f-8b0f-cc8ea80f7bef",
@@ -1827,6 +2080,17 @@
    "description": "BEL test lab: defence electronics testing; collaboration with Tata Electronics for semiconductor fabrication"
   },
   {
+   "id": "e205ae56-7ffa-45be-973c-7e5a2f6e9438",
+   "name": "Bharat Forge",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "0f20ed14-69d6-4b6f-87e8-449e2850ee91",
    "name": "Bharat Forge Limited (Kalyani Strategic Systems)",
    "type": "Private Company",
@@ -1836,6 +2100,17 @@
    ],
    "type_code": "company",
    "description": "Private artillery/forgings prime; lead ATAGS supplier, AMCA consortium lead; controls gun-forging/barrel capacity."
+  },
+  {
+   "id": "97bce694-7c42-4f61-a391-02685ce965e1",
+   "name": "Bharat Heavy Electricals Ltd (BHEL)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "9c029cbc-faa3-4744-84cd-f75c80772bc9",
@@ -1871,6 +2146,17 @@
    "description": "Owns Nxtra and Mumbai/Chennai cable landings (2Africa Pearls, SEA-ME-WE-6); a subsea-landing chokepoint."
   },
   {
+   "id": "e0f9fe00-770f-45ce-a1a3-3dcbfaea8174",
+   "name": "Big Bang Boom Interceptor Drone",
+   "type": "UAS Platform (drone)",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "uas_platform",
+   "description": "Counter-UAS Atlas."
+  },
+  {
    "id": "04a409db-470b-47bb-a698-867115df6be8",
    "name": "Big Bang Boom Solutions",
    "type": "Private Company",
@@ -1893,6 +2179,17 @@
    "description": "Brushless DC motors for UAV propulsion, dependent on sintered NdFeB magnets. DSI risk: India lacks a domestic motor base at drone grade. Catalogued in Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
   {
+   "id": "7d288813-24c4-413f-872a-daaed3ebd216",
+   "name": "BlueHalo",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
+  },
+  {
    "id": "5f793ce7-3610-41e6-b628-083011739320",
    "name": "Boeing",
    "type": "Foreign Supplier",
@@ -1913,6 +2210,17 @@
    ],
    "type_code": "foreign_supplier",
    "description": "Boeing Defense; AH-64E Apache, CH-47F Chinook, P-8I Poseidon; ~$20 bn cumulative India book."
+  },
+  {
+   "id": "8bba2ce2-55b3-4df8-bb49-cf732c173a77",
+   "name": "BonV Aero",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "b53f0fd7-a018-42a2-8894-e2ebc09182c5",
@@ -1979,6 +2287,17 @@
    ],
    "type_code": "company",
    "description": "Referenced in Atlas relationships."
+  },
+  {
+   "id": "6d5323b8-d552-4914-acb5-cf2036152527",
+   "name": "BRP-Rotax",
+   "type": "Foreign Supplier",
+   "country": "AT",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "UAS Master Atlas (defence)."
   },
   {
    "id": "9dd9e795-d6e7-4432-bd76-872f6c5eedcd",
@@ -2190,6 +2509,17 @@
    "description": "Carbon fibre; missile/airframe composite; Toray (JP), Hexcel (US), SGL (DE) dominate; MIDHANI pilot."
   },
   {
+   "id": "d3588441-0ced-43d6-b019-a8272b00d8ac",
+   "name": "Carbon-based UAV Solutions",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "06bc78ba-722a-4c2a-9f5f-b6feaa9df966",
    "name": "Carl Zeiss",
    "type": "Foreign Supplier",
@@ -2346,6 +2676,17 @@
    "description": "Strategic-intelligence chokepoint for critical-mineral refining."
   },
   {
+   "id": "7203c4e3-9442-49f9-b57d-032f8f9c9079",
+   "name": "China Aerospace Science & Technology Corp (CASC)",
+   "type": "Foreign Supplier",
+   "country": "CN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "3b7e8553-943f-4486-89d7-e052a17d7ac5",
    "name": "China Northern Rare Earth Group",
    "type": "Foreign Supplier",
@@ -2423,6 +2764,17 @@
    "description": "Builder of the indigenous aircraft carrier Vikrant; the only Indian yard proven on carrier integration."
   },
   {
+   "id": "0d0dc5ea-a6f8-4e9b-9219-51ee9f2f8a04",
+   "name": "Cognida.ai",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "42448d42-83a9-4e15-9ff6-05effe769af7",
    "name": "Cohizon Life Sciences (formerly Sajjan India Ltd.)",
    "type": "Private Company",
@@ -2487,6 +2839,17 @@
    ],
    "type_code": "company",
    "description": "CDIL: India's pioneer semiconductor manufacturer since 1964; ISM-approved expansion at Mohali"
+  },
+  {
+   "id": "965c25ef-b779-42c8-ab6a-eae1671f61bb",
+   "name": "Controp Precision Technologies",
+   "type": "Foreign Supplier",
+   "country": "IL",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "b1f3d736-8e28-4cb1-8f9e-36a8f32e9fdb",
@@ -2663,6 +3026,17 @@
    "description": "Flight controllers / autopilot hardware (open-source ecosystem). Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
   {
+   "id": "b1458aa7-81c4-413e-b475-234b19bfd975",
+   "name": "Curphy Aero Systems",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "e29dcd36-ac4e-4624-adf7-b135e6044fd6",
    "name": "Cyient (Cyient DLM)",
    "type": "Private Company",
@@ -2683,6 +3057,17 @@
    ],
    "type_code": "company",
    "description": "Indian EMS with defence focus"
+  },
+  {
+   "id": "73e65fbe-f3b1-48ad-8060-2987c9319710",
+   "name": "Cyient Ltd",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "ccdc42ca-f722-4484-be18-8d7d85385d80",
@@ -2749,6 +3134,50 @@
    ],
    "type_code": "opportunity_surface",
    "description": "Data-centre electrical and mechanical components is an AI Infrastructure opportunity surface in corridor 3."
+  },
+  {
+   "id": "51133b2f-42e2-445c-9d76-da394b550887",
+   "name": "DCM Shriram Industries",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "6a8a7b70-ee99-4ea3-b1a2-bf99ba06af92",
+   "name": "DEAL (DRDO)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
+   "id": "3ce4f6ef-aad5-4d0d-99e4-b66b106a862a",
+   "name": "Dedrone (Axon) Interceptor Concept",
+   "type": "UAS Platform (drone)",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "uas_platform",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "8babd924-01fd-48c6-9797-ac35aa057651",
+   "name": "Dedrone (now part of Axon)",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
   },
   {
    "id": "ef7ad8b2-ab04-4e53-a063-a06a7b00c9fa",
@@ -2928,6 +3357,17 @@
    "description": "DHL Global Forwarding India: hazmat and bonded warehousing for semiconductor imports"
   },
   {
+   "id": "1a501c6d-4c97-4f84-aa08-1633ec5f9477",
+   "name": "Diamond Aircraft Industries",
+   "type": "Foreign Supplier",
+   "country": "AT",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "18f7d24a-a7b9-468d-b191-5968a83d99d4",
    "name": "Digital Personal Data Protection Act, 2023",
    "type": "Standard / Certification",
@@ -3006,6 +3446,28 @@
    "description": "Finished drones; ~70% of the global commercial and >90% of the consumer market. Mapped in the China supply-chain appendix of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
   {
+   "id": "fb56e971-720f-446a-86b2-2732896e6549",
+   "name": "DLR Systems",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "b49cb16a-2889-4503-83e2-996da8012867",
+   "name": "DLRL (DRDO)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
    "id": "f844b067-5705-4bca-a22e-454fe5a51fc6",
    "name": "Docturnal",
    "type": "Private Company",
@@ -3017,6 +3479,50 @@
    "description": "Docturnal official site describes TimBre cough-based TB screening; USAID India has supported innovation engagements."
   },
   {
+   "id": "16df8c4d-f08c-413b-9b76-29e9a780dbf5",
+   "name": "DRDO — Aerial Delivery Research & Development Establishment (ADRDE)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "79149ab5-0ca7-4a4b-b2a8-16767848b3a1",
+   "name": "DRDO Net-Carrying Interceptor Drone",
+   "type": "UAS Platform (drone)",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "uas_platform",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "d8315d99-0e69-490d-9d8a-73548a48897c",
+   "name": "DRDO R&DE Pune",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
+   "id": "738dc7bd-2dfd-4895-9c56-342367338625",
+   "name": "Drona Aviation",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "6f859a25-d872-4d66-8307-c8133c3560ed",
    "name": "Drone battery packs",
    "type": "Product / Component",
@@ -3026,6 +3532,17 @@
    ],
    "type_code": "product",
    "description": "Li-ion/Li-Po packs with BMS assembled for UAVs; India packs domestically but imports nearly all cells (~84% of Li-ion cell imports from China, FY25-26 customs). Catalogued in Who Builds India's Drones? (Techadyant Labs, 2026)."
+  },
+  {
+   "id": "050d67a1-c295-4d50-8e18-725e2548c0f1",
+   "name": "Drone Federation of India (DFI)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "47065355-aa57-497c-bcf9-032132c386dd",
@@ -3059,6 +3576,28 @@
    ],
    "type_code": "standard",
    "description": "India's civil drone regulatory framework: forms cut 25 to 5, approvals 72 to 4, drones to 500 kg, ~90% of airspace Green Zone to 400 ft."
+  },
+  {
+   "id": "cfddf998-8512-4234-b6a9-e8e0e11a8cef",
+   "name": "DroneShield",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "e7513097-d493-4142-abaa-3a5344cceb2e",
+   "name": "DroneTech Lab",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "2e2f143f-9299-482e-8f36-930620c110ce",
@@ -3123,6 +3662,39 @@
    ],
    "type_code": "company",
    "description": "First IndiaAI provider to deploy 100% of committed GPUs; the proof-of-execution node for the GPU pillar."
+  },
+  {
+   "id": "a05459a0-08ed-43e8-8700-76a60db3daf6",
+   "name": "Economic Explosives Limited",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
+   "id": "578dcc43-50d2-4b30-bf10-ff9e1babcc14",
+   "name": "Edall Systems",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
+   "id": "b1aac76b-699a-4c4c-ad89-2d8edcb72445",
+   "name": "Edall Systems Pvt Ltd",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "996b04b3-6bb8-4a40-934b-1bb53fd17993",
@@ -3200,6 +3772,17 @@
    ],
    "type_code": "scheme",
    "description": "ECMS component-manufacturing incentive framework covering sub-assemblies, bare components and capital equipment."
+  },
+  {
+   "id": "2f57b400-f9ab-4dca-9f05-efc2a2e8affa",
+   "name": "Elta Systems",
+   "type": "Foreign Supplier",
+   "country": "IL",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "33a732fb-13e0-4ab0-a1b5-a73b33ac44a0",
@@ -3290,6 +3873,28 @@
    "description": "Germanium-free thermal cameras. Based in Pune, Maharashtra; stage: Startup. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
   {
+   "id": "d0bd6987-4640-4dc5-8f2b-65ea0f2af24b",
+   "name": "Epirus",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "9d745a73-0232-4e3a-a8bf-dce58369fb83",
+   "name": "Ethereal Aviation",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "32b2d556-5a4e-481b-97bf-ab678d10a703",
    "name": "EVE Energy",
    "type": "Foreign Supplier",
@@ -3343,6 +3948,39 @@
    ],
    "type_code": "technology",
    "description": "Kaveri did not reach production; fighters fly on imported GE/Saturn cores. The deepest single gap."
+  },
+  {
+   "id": "5ba25ce3-e87b-4d54-a7c0-ffacd9692092",
+   "name": "FLYEAA Robotics",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "7f68fab0-5925-4a18-93ec-ab1c474f986b",
+   "name": "Fortem DroneHunter",
+   "type": "UAS Platform (drone)",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "uas_platform",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "b28287ed-b177-43db-af6d-5cc216cb52f6",
+   "name": "Fortem Technologies",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
   },
   {
    "id": "6adedc77-eb0f-4abe-9e4c-f5239251e9d8",
@@ -3521,6 +4159,17 @@
    "description": "Agriculture / multi-use drones. Based in Chennai, Tamil Nadu; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
   {
+   "id": "45078def-fe96-43be-a608-4f10624a8396",
+   "name": "Garuda Aerospace Pvt Ltd",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "109eb639-6539-4655-8560-5ea2005ffcc9",
    "name": "Gas Turbine Research Establishment",
    "type": "Research Institution",
@@ -3563,6 +4212,28 @@
    ],
    "type_code": "company",
    "description": "Agriculture drones (Reliance-backed). Based in Bengaluru, Karnataka; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
+  },
+  {
+   "id": "184d5f6f-ef65-46e1-8d50-9b4e946726d2",
+   "name": "General Aeronautics Pvt Ltd",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "5536e739-8450-423a-b11c-857d10435222",
+   "name": "General Atomics Aeronautical Systems (GA-ASI)",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "545634ce-ffe3-419c-9006-849c4078ffda",
@@ -3900,6 +4571,17 @@
    "description": "Indian graphite electrodes; large-capacity domestic"
   },
   {
+   "id": "4d0a4c2c-5085-4d55-a863-5d67c885261c",
+   "name": "Heliper Systems",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
    "id": "602fb7e4-5ab6-45d1-8c42-1c2529c4c81d",
    "name": "HEMC (Hindustan Electro-Medical Components)",
    "type": "Private Company",
@@ -3920,6 +4602,17 @@
    ],
    "type_code": "foreign_supplier",
    "description": "Dominant die-attach and underfill supplier"
+  },
+  {
+   "id": "3d254d02-a056-4fea-a973-85d8a969c68b",
+   "name": "HENSOLDT",
+   "type": "Foreign Supplier",
+   "country": "DE",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
   },
   {
    "id": "5801bd8d-a2c7-4d5a-9c6c-559e44319877",
@@ -4118,6 +4811,28 @@
    ],
    "type_code": "company",
    "description": "Tactical / surveillance UAVs. Based in Navi Mumbai, Maharashtra; stage: Listed. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
+  },
+  {
+   "id": "165fcd33-6a81-4156-9630-51694a84cfcc",
+   "name": "ideaForge Technology Ltd",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "ae61ae09-be55-4a31-9dda-e1584ac5d843",
+   "name": "IG Drones",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "49f25070-9391-4c0d-bdf6-698a706e7cc5",
@@ -4408,6 +5123,17 @@
    "description": "Indian PNG and CNG supplier"
   },
   {
+   "id": "b9db1041-503f-47fb-b990-61d2aaf4950f",
+   "name": "Indrones Solutions",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
    "id": "38765ee9-71ed-4f55-be43-0819e154ccd5",
    "name": "Infineon Technologies",
    "type": "Foreign Supplier",
@@ -4549,6 +5275,17 @@
    "description": "Agriculture drones (Agribot). Based in Gurugram, Haryana; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
   {
+   "id": "87eda806-9f01-4c8f-a250-597ba3837c08",
+   "name": "IoTrek Robotics",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "9b09cdd2-3324-4bb7-a0ae-58ff97c72ca3",
    "name": "IQE plc",
    "type": "Foreign Supplier",
@@ -4614,6 +5351,17 @@
    ],
    "type_code": "foreign_supplier",
    "description": "IAI; Heron TP / MK-II, Searcher II, Harop loitering munition, Barak-8/MRSAM, Green Pine radar (BMD)."
+  },
+  {
+   "id": "f705caae-d660-46fe-96b5-9650b598bb10",
+   "name": "Israel Aerospace Industries (IAI) / ELTA",
+   "type": "Foreign Supplier",
+   "country": "IL",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
   },
   {
    "id": "54c132b2-f5c1-4d15-9066-41c03e132700",
@@ -4700,6 +5448,28 @@
    ],
    "type_code": "company",
    "description": "Kalyani; ATAGS, Bharat 52, Bharat 45 howitzers, armoured vehicles (Garuda), ULH; artillery anchor."
+  },
+  {
+   "id": "298d092c-53e9-46ce-b2e4-dc0a0897bac9",
+   "name": "Kalyani Strategic Systems",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "1d0938f6-fd36-459f-ad5a-8f576376767c",
+   "name": "Kalyani Strategic Systems (Bharat Forge)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Counter-UAS Atlas."
   },
   {
    "id": "aade4ddf-6c87-43e7-924e-d1c2341419cf",
@@ -4822,6 +5592,28 @@
    "description": "Process control / metrology leader; ~62% gross margin. Named in the incumbent map of The Opportunity Beyond the Fab (Techadyant Labs, 2026)."
   },
   {
+   "id": "d9b2624e-f206-47a0-95c4-f6ecfc60ece1",
+   "name": "KNDS France",
+   "type": "Foreign Supplier",
+   "country": "FR",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "df7d1c78-0445-4454-9d87-d0ebda53408c",
+   "name": "Kritikal SecureScan",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Counter-UAS Atlas."
+  },
+  {
    "id": "14e517ec-cb81-4abf-8522-20fb59fe7a94",
    "name": "Krutrim",
    "type": "Private Company",
@@ -4864,6 +5656,28 @@
    "description": "Fabless semiconductor design arm of Larsen & Toubro; designs chips at 12-95nm nodes (USD 100m invested to date). In Aug 2026 announced shift of its OSAT (assembly & testing) operations from overseas to India, partnering domestic providers including Tata Electronics."
   },
   {
+   "id": "65c7746a-e0f4-4585-a460-6cc3db5a80ff",
+   "name": "L3Harris Technologies",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "440f1a11-ff60-4dc2-a2fa-249fc38bfcfc",
+   "name": "L3Harris Wescam",
+   "type": "Foreign Supplier",
+   "country": "CA",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "62fc5a4b-d5ad-4029-8263-7456aa2fe929",
    "name": "Lam Research Corporation",
    "type": "Foreign Supplier",
@@ -4884,6 +5698,17 @@
    ],
    "type_code": "company",
    "description": "L&T provides precision engineering capability with potential for medical device manufacturing."
+  },
+  {
+   "id": "25c4918d-7564-4752-b7b5-2796f1a0ec7b",
+   "name": "Larsen & Toubro (L&T) Defence",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Counter-UAS Atlas."
   },
   {
    "id": "6d6f5f51-cc13-4d49-8b91-4d3430b2a28c",
@@ -4917,6 +5742,17 @@
    ],
    "type_code": "company",
    "description": "Largest private defence-engineering prime; K9 Vajra producer, AMCA consortium lead with BEL."
+  },
+  {
+   "id": "0b5f351d-817d-4c71-8731-28c444442380",
+   "name": "Leonardo",
+   "type": "Foreign Supplier",
+   "country": "IT",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
   },
   {
    "id": "bebf1acd-b098-4efe-8ee4-9aac2fde8bed",
@@ -5029,6 +5865,17 @@
    "description": "Domestic integration strong; seekers and some subsystems imported."
   },
   {
+   "id": "357f8d24-5ad9-4d1c-96ef-5a496da44e15",
+   "name": "LRDE (DRDO)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
    "id": "fc52fc1a-08f0-442f-8f97-f6f24a149d70",
    "name": "Lumisens",
    "type": "Private Company",
@@ -5038,6 +5885,17 @@
    ],
    "type_code": "company",
    "description": "Lumisens website exists; minimal verifiable clinical evidence — moved to Research Leads."
+  },
+  {
+   "id": "65dce638-b783-4259-94e7-f70305c75d6c",
+   "name": "Lycoming Engines (Textron Aviation, USA)",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "UAS Master Atlas (defence)."
   },
   {
    "id": "d9810e95-9cff-490e-9249-a92cad16b8d8",
@@ -5060,6 +5918,17 @@
    ],
    "type_code": "company",
    "description": "Indian PNG and CNG supplier"
+  },
+  {
+   "id": "a9e27b44-6307-4b00-a1eb-2ce15702f036",
+   "name": "Maini Precision Products (Maini Materials Movement Pvt Ltd)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
   },
   {
    "id": "5fe8dcd9-2396-463e-be75-4f0a566a9aeb",
@@ -5512,6 +6381,17 @@
    "description": "India's accreditation body for test and calibration labs; issues ISO 17025 accreditations."
   },
   {
+   "id": "ae70e5a9-c5b3-4dc0-a587-59774b086910",
+   "name": "National Aerospace Laboratories",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
    "id": "12c8416b-825d-47c3-9422-039ce9edcc67",
    "name": "National Aluminium Company Limited",
    "type": "PSU / CPSE",
@@ -5666,6 +6546,17 @@
    "description": "Networking and optical interconnects is an AI Infrastructure opportunity surface in corridor 3."
   },
   {
+   "id": "f2cb204b-937b-4ded-a8a2-aa85a676df4e",
+   "name": "NewSpace India Limited (NSIL)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "3f4309d3-a100-4a27-ba3c-5262a029c9b0",
    "name": "NewSpace Research & Technologies",
    "type": "Private Company",
@@ -5721,6 +6612,17 @@
    "description": "National policy think-tank; National Strategy for AI."
   },
   {
+   "id": "5a3d97e8-cd4d-46f5-98a6-2e3aea4d98ae",
+   "name": "Northrop Grumman",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
+  },
+  {
    "id": "da39612d-f8e0-488c-bff5-2ddeeb4ea9c8",
    "name": "NPO Mashinostroyenia",
    "type": "Foreign Supplier",
@@ -5730,6 +6632,39 @@
    ],
    "type_code": "foreign_supplier",
    "description": "Referenced in Defence Atlas relationships."
+  },
+  {
+   "id": "07983b78-02f8-4b81-8f3c-e43d96aee234",
+   "name": "NPO Saturn",
+   "type": "Foreign Supplier",
+   "country": "RU",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "69cc459b-1d03-4acd-87d2-f2222c9b7533",
+   "name": "NPO Saturn (Russia)",
+   "type": "Foreign Supplier",
+   "country": "RU",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
+   "id": "7d65d922-ec0f-4bb3-8b82-237449cbc161",
+   "name": "NRT",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
   },
   {
    "id": "770f299a-ecdb-4539-a2e8-4a103d8d9749",
@@ -5860,6 +6795,17 @@
    ],
    "type_code": "foreign_supplier",
    "description": "SiC power devices. Named in the incumbent map of The Opportunity Beyond the Fab (Techadyant Labs, 2026)."
+  },
+  {
+   "id": "220b80a7-f15c-4e9d-954c-f2f99b61f285",
+   "name": "OpenWorks Engineering (Bordtek)",
+   "type": "Foreign Supplier",
+   "country": "GB",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
   },
   {
    "id": "d9edf129-2f06-4895-b2ac-11704ca45878",
@@ -6008,6 +6954,17 @@
    "description": "Indian adhesives; potential packaging adhesives"
   },
   {
+   "id": "ba8e0daf-fba7-486a-8482-3143f2e9dc71",
+   "name": "PixoAstro Technologies",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "fb141852-4c71-4e3f-a2aa-1c9c774a7dbb",
    "name": "PLI for Medical Devices",
    "type": "Scheme / Programme",
@@ -6070,6 +7027,17 @@
    ],
    "type_code": "foreign_supplier",
    "description": "Taiwanese foundry licensing the Dholera process technology; India's logic-fab process IP depends on PSMC."
+  },
+  {
+   "id": "15e4d7d2-c5ce-4f29-8815-0ea3b90849b4",
+   "name": "Pratt & Whitney",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "ea65f89e-6271-4011-b928-dccdf49e8141",
@@ -6193,6 +7161,17 @@
    "description": "Rafael; Spike ATGM, SPICE 2000, Barak-8/MRSAM (with IAI), Litening targeting pods; ~$1 bn+ annual trade."
   },
   {
+   "id": "16b6c8d4-5135-4758-ac9e-87ba51648199",
+   "name": "Rafael Spike Firefly",
+   "type": "UAS Platform (drone)",
+   "country": "IL",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "uas_platform",
+   "description": "Counter-UAS Atlas."
+  },
+  {
    "id": "89fcab8f-a253-436f-babb-ee742e5c215a",
    "name": "Ramco Systems",
    "type": "Private Company",
@@ -6202,6 +7181,28 @@
    ],
    "type_code": "company",
    "description": "Indian ERP vendor; among the few domestic players in the foreign-dominated ERP top tier."
+  },
+  {
+   "id": "996b2069-a5cb-4260-be60-ffbcc6bb6ea3",
+   "name": "Raphe mPhibr",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "fa9cdce8-d94b-476c-8734-af9166ec6001",
+   "name": "Raphe mPhibr Logistics",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "63db7ed7-7790-4789-b791-7a8991ea8339",
@@ -6281,6 +7282,50 @@
    ],
    "type_code": "process",
    "description": "Upstream of magnet manufacturing; converts mixed rare-earth concentrates into high-purity individual oxides (Nd₂O₃, Pr₆O₁₁, Dy₂O₃, Tb₄O₇)."
+  },
+  {
+   "id": "a99007ab-bbbb-4e08-9d31-2619a1b66c97",
+   "name": "Raytheon",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "e68ad50c-add7-4b9e-a009-bcaf343a9e90",
+   "name": "Raytheon Coyote Block 1",
+   "type": "UAS Platform (drone)",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "uas_platform",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "f9c44bb3-79b2-404b-90a3-08fde0125054",
+   "name": "Raytheon Coyote Block 2",
+   "type": "UAS Platform (drone)",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "uas_platform",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "cb5363f4-432b-4fcf-a2aa-30df1625319e",
+   "name": "Raytheon Technologies (RTX)",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
   },
   {
    "id": "fbb7f80a-a66e-4fe2-a40a-39165e243f08",
@@ -6391,6 +7436,17 @@
    "description": "Showa Denko + Hitachi Chemical merger; CMP/precursor concentration"
   },
   {
+   "id": "73834ee4-e613-4ed4-a568-1b077e05622c",
+   "name": "Rheinmetall",
+   "type": "Foreign Supplier",
+   "country": "DE",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
+  },
+  {
    "id": "ed1ea213-4673-402b-8acb-a33291005a83",
    "name": "RISC-V processor IP",
    "type": "Technology",
@@ -6400,6 +7456,17 @@
    ],
    "type_code": "technology",
    "description": "Open instruction-set processor IP — the open door in an otherwise closed IP layer; no monopoly yet (SiFive ~15%, Andes, Ventana). India's SHAKTI-lineage challengers: InCore, Mindgrove. Mapped in The Opportunity Beyond the Fab (Techadyant Labs, 2026)."
+  },
+  {
+   "id": "e386f347-8a4d-4e40-a070-5d28b92cdd67",
+   "name": "Robin Radar Systems",
+   "type": "Foreign Supplier",
+   "country": "NL",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
   },
   {
    "id": "4767eea7-3e00-49c7-a02f-1ab1810d5955",
@@ -6602,6 +7669,28 @@
    "description": "Total outlay Rs.7,280 crore: Rs.6,450 crore sales-linked incentives (5 years) + Rs.750 crore capital subsidy."
   },
   {
+   "id": "13ec9b71-8371-4360-9a4b-b6bb1fc4bb70",
+   "name": "Schiebel Elektronische Geräte GmbH",
+   "type": "Foreign Supplier",
+   "country": "AT",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "4e84a8a8-9514-4e09-8849-0a055a15f79b",
+   "name": "SDAL",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
    "id": "0db281ea-d099-422f-bcce-8985d5d04366",
    "name": "Sectrio",
    "type": "Private Company",
@@ -6799,6 +7888,17 @@
    ],
    "type_code": "company",
    "description": "SGS India: inspection and testing services"
+  },
+  {
+   "id": "a2da15e0-3d92-4e20-a78c-46f1292fb234",
+   "name": "Shenyang Aircraft Corp (SAC)",
+   "type": "Foreign Supplier",
+   "country": "CN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "c5ecbcbe-0681-458d-bd2a-b2e94b395912",
@@ -7055,6 +8155,17 @@
    "description": "Skanray official site describes X-ray and ICU products; Hindu BusinessLine reported funding rounds."
   },
   {
+   "id": "5fb90536-3bf9-4d9b-9516-60a30857ba5f",
+   "name": "Skydio X10 (Interceptor variant)",
+   "type": "UAS Platform (drone)",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "uas_platform",
+   "description": "Counter-UAS Atlas."
+  },
+  {
    "id": "ae1496d1-2ce0-4f10-8eaa-cae07188ded8",
    "name": "Small arms & ammunition",
    "type": "Technology",
@@ -7099,6 +8210,17 @@
    "description": "Loitering munitions / counter-UAS (Solar Industries subsidiary). Based in Nagpur, Maharashtra; stage: Subsidiary of listed parent. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
   {
+   "id": "d9ebd066-3f40-4e02-9ddf-3d9496c874df",
+   "name": "Solar Industries India",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
    "id": "2ecb83bd-3926-4417-9c01-e699a2ef8a4a",
    "name": "Solar Industries India Limited",
    "type": "Private Company",
@@ -7108,6 +8230,17 @@
    ],
    "type_code": "company",
    "description": "Largest private explosives/ammunition and loitering-munition maker (Nagastra, Pinaka rockets)."
+  },
+  {
+   "id": "0e6d0357-22f8-4035-97be-2d65a329bc9f",
+   "name": "Solar Industries India Ltd",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "9c55794f-6c4f-4d81-93fa-341a215b319e",
@@ -7341,6 +8474,17 @@
    "description": "GaAs, InP substrates for RF and photonics"
   },
   {
+   "id": "97f99762-b423-424e-aa28-673d26085891",
+   "name": "Sunmobility",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "8eea5a55-33df-45be-81a6-a40513f3043f",
    "name": "SunnySky",
    "type": "Foreign Supplier",
@@ -7465,6 +8609,17 @@
    "description": "Japanese precious-metal bonding wire"
   },
   {
+   "id": "e4562f52-b76f-49b4-8749-b9af9131dc8d",
+   "name": "TASL Interceptor Drone Concept",
+   "type": "UAS Platform (drone)",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "uas_platform",
+   "description": "Counter-UAS Atlas."
+  },
+  {
    "id": "9b3e2861-2773-45fe-b28b-47d15a103c5c",
    "name": "Tata Advanced Materials",
    "type": "Private Company",
@@ -7476,6 +8631,17 @@
    "description": "Aerospace composites. Based in Bengaluru, Karnataka; stage: Conglomerate. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
   {
+   "id": "afc2b7bb-897f-494e-9697-9a7847bedd4c",
+   "name": "Tata Advanced Systems (TASL)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Counter-UAS Atlas."
+  },
+  {
    "id": "0e3e2dd8-295d-412d-862f-bc4e112018d8",
    "name": "Tata Advanced Systems Limited",
    "type": "Private Company",
@@ -7485,6 +8651,17 @@
    ],
    "type_code": "company",
    "description": "Leading private aerospace/defence prime; shortlisted for AMCA prototype, ATAGS co-producer, C-295 assembly."
+  },
+  {
+   "id": "70a466db-224c-4f9d-b701-2a017ee4f3cb",
+   "name": "Tata Advanced Systems Ltd (TASL)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "9865d3c1-c28e-4b01-8fbd-5e9019aa10c1",
@@ -7640,6 +8817,17 @@
    "description": "Japanese coater/developer and wafer handling"
   },
   {
+   "id": "50d22cd2-7a6d-4f02-b13f-7873f38ac98b",
+   "name": "TechEagle Ventures",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "42b1dca0-c768-4c6e-b220-69e0103b2f63",
    "name": "Tekscend Photomask (former Toppan Photomasks)",
    "type": "Foreign Supplier",
@@ -7649,6 +8837,17 @@
    ],
    "type_code": "foreign_supplier",
    "description": "Tekscend Photomask (formerly Toppan Photomasks): world premiere provider of photomasks for semiconductors"
+  },
+  {
+   "id": "0d869760-f56b-4acf-a90d-ce1ac19d91d7",
+   "name": "Teledyne FLIR",
+   "type": "Foreign Supplier",
+   "country": "US",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Counter-UAS Atlas."
   },
   {
    "id": "25090eda-bd4c-487e-b4bc-e64511dd6b46",
@@ -7737,6 +8936,17 @@
    ],
    "type_code": "company",
    "description": "Thermax: Indian environmental solutions leader; UPW and HVAC for fabs"
+  },
+  {
+   "id": "36edb6a2-f219-483e-86f8-68af32ba22cd",
+   "name": "Throttle Aerospace Systems",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
   },
   {
    "id": "1092c5f0-b726-4ca9-aaed-8db3edb9d7e2",
@@ -8066,6 +9276,61 @@
    "description": "Major private copper smelter/refiner (Tuticorin shut since 2018); REPM magnet bidder."
   },
   {
+   "id": "85e5520c-1f9d-4c46-857b-4f887126a07c",
+   "name": "Vedarth Trailers",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "79dcd856-ebaf-4b64-97f8-c200d48afe63",
+   "name": "VEGA Integrated Systems",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "5a8eb5da-b1f2-4400-9afd-57c1bda975f0",
+   "name": "Vehicle Research & Development Establishment (VRDE), DRDO",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
+   "id": "6e74842c-ee29-4fb6-828b-6074ced76431",
+   "name": "Vem Technologies Pvt Ltd",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
+   "id": "0de59ddc-b42e-42e9-9a1e-9f73c18a138d",
+   "name": "Vestel Defence",
+   "type": "Foreign Supplier",
+   "country": "TR",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
+  },
+  {
    "id": "b5c15792-a673-499b-b11c-2b08ecf97838",
    "name": "Vimag Labs",
    "type": "Private Company",
@@ -8099,6 +9364,17 @@
    "description": "Voltas: major Indian HVAC supplier"
   },
   {
+   "id": "8c002df8-1fbd-45e3-8eeb-dd437e086e7b",
+   "name": "VRDE (DRDO)",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "UAS Master Atlas (defence)."
+  },
+  {
    "id": "bbb6326b-831a-4782-a578-1f585d230214",
    "name": "VYOMA AI Data Centre (L&T)",
    "type": "Facility / Plant",
@@ -8117,6 +9393,17 @@
    ],
    "type_code": "company",
    "description": "WavyLabs official site describes AI ECG platform; limited independent corroboration of deployments."
+  },
+  {
+   "id": "e0d53ffc-8a38-4036-9d16-6525fe8c7dc6",
+   "name": "WB Electronics SA",
+   "type": "Foreign Supplier",
+   "country": "PL",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "foreign_supplier",
+   "description": "Drone Intelligence Atlas."
   },
   {
    "id": "75c59449-dc1e-46da-861e-1af369e3d56e",
@@ -8205,6 +9492,28 @@
    "description": "Yotta NM1 is a Navi Mumbai Tier IV facility listed by Yotta at 820,000 sq ft, 7,000-plus racks and 52 MW IT load, with the campus scalable to 1 GW."
   },
   {
+   "id": "96340d20-6507-40ff-863b-97bab9d0f0b9",
+   "name": "Zen Interceptor Drone",
+   "type": "UAS Platform (drone)",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "uas_platform",
+   "description": "Counter-UAS Atlas."
+  },
+  {
+   "id": "31c1d115-8774-4502-8378-322ef4715800",
+   "name": "Zen Technologies",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Counter-UAS Atlas."
+  },
+  {
    "id": "90bdceea-45be-4538-a387-fd13a007df04",
    "name": "Zen Technologies Limited",
    "type": "Private Company",
@@ -8270,7 +9579,7 @@
    "label": "AI MedTech"
   }
  ],
- "generated_at": "2026-08-18T10:48:13.907536+00:00",
+ "generated_at": "2026-08-18T11:45:22.544686+00:00",
  "relationships": [
   {
    "type": "controls",
@@ -16781,6 +18090,18 @@
    "description": "Manufactures - India Counter-UAS Atlas"
   },
   {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "ideaForge NETRA V4 PRO",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "56d821e0-8748-49c4-9e52-b3c6e6cde53f",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
    "type": "manufactures",
    "unit": null,
    "source": "Defence Research and Development Organisation",
@@ -20067,6 +21388,18 @@
    "type_label": "supports",
    "corridor_id": 2,
    "description": "NCMM covers full value chain: exploration → mining → beneficiation → processing → recovery."
+  },
+  {
+   "type": "owns",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "DRDO Imperial Eagle",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "3ec8502e-e139-4f56-bf23-1933a7cc2084",
+   "type_label": "owns",
+   "corridor_id": 4,
+   "description": ""
   },
   {
    "type": "located_in",
@@ -23871,6 +25204,18 @@
    "type_label": "imports from",
    "corridor_id": 1,
    "description": "UP imports semiconductor materials from Korea"
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "DRDO Rustom-I",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "a4f23408-89f2-48a2-a7ef-ec4ce0ba55bb",
+   "type_label": "Develops",
+   "corridor_id": 4,
+   "description": ""
   },
   {
    "type": "imports_from",
@@ -27927,6 +29272,18 @@
    "type_label": "Supplies to",
    "corridor_id": 1,
    "description": "Canon supplies i-line lithography tools"
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "DRDO Nishant",
+   "target": "DRDO TAPAS-BH (Rustom-II)",
+   "magnitude": null,
+   "source_id": "28d82345-7953-44c2-b986-b72bcb4be6e5",
+   "target_id": "fe8854b2-e92c-40a8-b618-dfc971abfc58",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": ""
   },
   {
    "type": "develops",
@@ -32525,6 +33882,18 @@
    "description": "MoU for exploration/development of critical and strategic minerals."
   },
   {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Navy",
+   "target": "DRDO TAPAS-BH (Rustom-II)",
+   "magnitude": null,
+   "source_id": "0ec620a3-5fbd-4729-89d5-871a0f44996d",
+   "target_id": "fe8854b2-e92c-40a8-b618-dfc971abfc58",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
    "type": "partners_with",
    "unit": "mou_02dec2025",
    "source": "Hindustan Copper Limited (HCL)",
@@ -32955,6 +34324,3006 @@
    "type_label": "Beneficiary of",
    "corridor_id": 3,
    "description": "Yotta says it will provide 9,216 advanced GPUs under IndiaAI."
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "SWITCH UAV Procurement (Indian Army — High Altitude Variant)",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "94c9d506-6937-4043-beab-a08f058083e6",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "ideaForge NETRA V4 PRO",
+   "target": "SWITCH UAV",
+   "magnitude": null,
+   "source_id": "56d821e0-8748-49c4-9e52-b3c6e6cde53f",
+   "target_id": "cd0745bb-c815-4d96-b947-fafea33ba607",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "partners_with",
+   "unit": null,
+   "source": "DRDO Imperial Eagle",
+   "target": "National Aerospace Laboratories",
+   "magnitude": null,
+   "source_id": "3ec8502e-e139-4f56-bf23-1933a7cc2084",
+   "target_id": "ae70e5a9-c5b3-4dc0-a587-59774b086910",
+   "type_label": "Partners / JV with",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "supplies_to",
+   "unit": null,
+   "source": "Bharat Electronics Limited",
+   "target": "DRDO TAPAS-BH (Rustom-II)",
+   "magnitude": null,
+   "source_id": "e678b1fe-cf31-441d-900b-36383c9975ce",
+   "target_id": "fe8854b2-e92c-40a8-b618-dfc971abfc58",
+   "type_label": "Supplies to",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "part_of",
+   "unit": null,
+   "source": "DRDO Nishant",
+   "target": "Nishant UAV Programme",
+   "magnitude": null,
+   "source_id": "28d82345-7953-44c2-b986-b72bcb4be6e5",
+   "target_id": "68cf5d80-a3d9-41c1-a4b0-916ae9cf0fa4",
+   "type_label": "part of",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "Aeronautical Development Establishment",
+   "target": "DRDO Imperial Eagle",
+   "magnitude": null,
+   "source_id": "04bdd7b4-429f-4fd8-89e5-377658912a06",
+   "target_id": "3ec8502e-e139-4f56-bf23-1933a7cc2084",
+   "type_label": "Develops",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Solar Industries Nagastra-1",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "559a4dc6-d0a9-4e87-84b1-26d993c7d949",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "DRDO Rustom-I",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "a4f23408-89f2-48a2-a7ef-ec4ce0ba55bb",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO TAPAS-BH (Rustom-II)",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "fe8854b2-e92c-40a8-b618-dfc971abfc58",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "part_of",
+   "unit": null,
+   "source": "ideaForge NETRA V4 PRO",
+   "target": "Indian Army Mini-UAV / VTOL ISR Procurement Programme (ideaForge NETRA & SWITCH family)",
+   "magnitude": null,
+   "source_id": "56d821e0-8748-49c4-9e52-b3c6e6cde53f",
+   "target_id": "27fcbf0d-0491-4689-b1df-34a987da2ed7",
+   "type_label": "part of",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "DRDO Imperial Eagle",
+   "target": "DRDO Nishant",
+   "magnitude": null,
+   "source_id": "3ec8502e-e139-4f56-bf23-1933a7cc2084",
+   "target_id": "28d82345-7953-44c2-b986-b72bcb4be6e5",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "DRDO Abhyas",
+   "target": "HAL Lakshya Mk II",
+   "magnitude": null,
+   "source_id": "a9c19fde-bc2f-4668-97c7-c6373503c0df",
+   "target_id": "d6ef2d84-0daf-4d44-bdc7-ddbcf6c5149d",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "Aeronautical Development Establishment",
+   "target": "DRDO Abhyas",
+   "magnitude": null,
+   "source_id": "04bdd7b4-429f-4fd8-89e5-377658912a06",
+   "target_id": "a9c19fde-bc2f-4668-97c7-c6373503c0df",
+   "type_label": "Develops",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "subsidiary_of",
+   "unit": null,
+   "source": "Economic Explosives Limited",
+   "target": "Solar Industries India Limited",
+   "magnitude": null,
+   "source_id": "a05459a0-08ed-43e8-8700-76a60db3daf6",
+   "target_id": "2ecb83bd-3926-4417-9c01-e699a2ef8a4a",
+   "type_label": "Subsidiary of",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "produces",
+   "unit": null,
+   "source": "Nagastra Loitering Munition Program (Indian Army)",
+   "target": "Solar Industries Nagastra-1",
+   "magnitude": null,
+   "source_id": "9be38398-1b72-4588-9d6c-3a2585baea10",
+   "target_id": "559a4dc6-d0a9-4e87-84b1-26d993c7d949",
+   "type_label": "produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "DRDO Rustom-I",
+   "target": "DRDO TAPAS-BH (Rustom-II)",
+   "magnitude": null,
+   "source_id": "a4f23408-89f2-48a2-a7ef-ec4ce0ba55bb",
+   "target_id": "fe8854b2-e92c-40a8-b618-dfc971abfc58",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "partners_with",
+   "unit": null,
+   "source": "DRDO Rustom-I",
+   "target": "Israel Aerospace Industries",
+   "magnitude": null,
+   "source_id": "a4f23408-89f2-48a2-a7ef-ec4ce0ba55bb",
+   "target_id": "9d6c71d5-7014-41b7-adef-06d17322e336",
+   "type_label": "Partners / JV with",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "funds",
+   "unit": null,
+   "source": "Aeronautical Development Establishment",
+   "target": "DRDO Abhyas",
+   "magnitude": null,
+   "source_id": "04bdd7b4-429f-4fd8-89e5-377658912a06",
+   "target_id": "a9c19fde-bc2f-4668-97c7-c6373503c0df",
+   "type_label": "Funds",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "DRDO Nishant",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "28d82345-7953-44c2-b986-b72bcb4be6e5",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "DRDO TAPAS-BH (Rustom-II)",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "fe8854b2-e92c-40a8-b618-dfc971abfc58",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Bharat Electronics Limited",
+   "target": "DRDO Abhyas",
+   "magnitude": null,
+   "source_id": "e678b1fe-cf31-441d-900b-36383c9975ce",
+   "target_id": "a9c19fde-bc2f-4668-97c7-c6373503c0df",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "funds",
+   "unit": null,
+   "source": "Elbit Hermes 900",
+   "target": "Indian Navy MALE UAV Procurement (Drishti 10 Starliner)",
+   "magnitude": null,
+   "source_id": "b74441ce-17be-4473-804d-607eb4d28e2c",
+   "target_id": "9343189c-c6a2-4bbb-9a29-c9f8e0966c18",
+   "type_label": "Funds",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Hindustan Aeronautics Limited",
+   "target": "DRDO TAPAS-BH (Rustom-II)",
+   "magnitude": null,
+   "source_id": "e0766ebf-7f58-462a-96d8-78357c598074",
+   "target_id": "fe8854b2-e92c-40a8-b618-dfc971abfc58",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "DRDO TAPAS-BH (Rustom-II)",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "fe8854b2-e92c-40a8-b618-dfc971abfc58",
+   "type_label": "Develops",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "tests",
+   "unit": null,
+   "source": "DRDO TAPAS-BH (Rustom-II)",
+   "target": "Aeronautical Test Range (ATR), Chitradurga",
+   "magnitude": null,
+   "source_id": "fe8854b2-e92c-40a8-b618-dfc971abfc58",
+   "target_id": "3d7b845d-0b25-49a0-802c-f5f73405f93b",
+   "type_label": "tests",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "part_of",
+   "unit": null,
+   "source": "DRDO Abhyas",
+   "target": "HEAT (High-Speed Expendable Aerial Target) - Abhyas",
+   "magnitude": null,
+   "source_id": "a9c19fde-bc2f-4668-97c7-c6373503c0df",
+   "target_id": "4cf5277b-2514-4fe9-a407-d336ceeb9271",
+   "type_label": "part of",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "IAI Heron",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "987f5c38-9951-4b3e-a025-3dafd63b28ce",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Israel Aerospace Industries",
+   "target": "IAI Heron",
+   "magnitude": null,
+   "source_id": "9d6c71d5-7014-41b7-adef-06d17322e336",
+   "target_id": "987f5c38-9951-4b3e-a025-3dafd63b28ce",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "IAI Heron TP",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "7c387952-2ff2-4d76-9693-fe7305adefd5",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Israel Aerospace Industries",
+   "target": "IAI Heron TP",
+   "magnitude": null,
+   "source_id": "9d6c71d5-7014-41b7-adef-06d17322e336",
+   "target_id": "7c387952-2ff2-4d76-9693-fe7305adefd5",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "IAI Searcher Mk II",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "00f784b8-4120-4781-825a-616997d8a361",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Israel Aerospace Industries",
+   "target": "IAI Searcher Mk II",
+   "magnitude": null,
+   "source_id": "9d6c71d5-7014-41b7-adef-06d17322e336",
+   "target_id": "00f784b8-4120-4781-825a-616997d8a361",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Elbit Hermes 900",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "b74441ce-17be-4473-804d-607eb4d28e2c",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Elbit Systems",
+   "target": "Elbit Hermes 900",
+   "magnitude": null,
+   "source_id": "5d72e590-9983-466d-b794-c54d405ff687",
+   "target_id": "b74441ce-17be-4473-804d-607eb4d28e2c",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Navy",
+   "target": "Adani Drishti-10",
+   "magnitude": null,
+   "source_id": "0ec620a3-5fbd-4729-89d5-871a0f44996d",
+   "target_id": "9cce6e4b-cee1-410c-8078-93829eb4dc06",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO Ghatak",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "194a0545-5c95-48c2-863a-fc4f1480d1b6",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "DRDO SWiFT",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "d9d5d5da-36f2-4e1e-b614-12a0c682e818",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "DRDO Rustom-I",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "a4f23408-89f2-48a2-a7ef-ec4ce0ba55bb",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "DRDO — Aerial Delivery Research & Development Establishment (ADRDE)",
+   "target": "DRDO Nishant",
+   "magnitude": null,
+   "source_id": "16df8c4d-f08c-413b-9b76-29e9a780dbf5",
+   "target_id": "28d82345-7953-44c2-b986-b72bcb4be6e5",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "DRDO Panchi",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "3839eeab-0305-4aba-84f6-cc7f94ceb6a8",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "DRDO — Aerial Delivery Research & Development Establishment (ADRDE)",
+   "target": "DRDO Panchi",
+   "magnitude": null,
+   "source_id": "16df8c4d-f08c-413b-9b76-29e9a780dbf5",
+   "target_id": "3839eeab-0305-4aba-84f6-cc7f94ceb6a8",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "IAI Harop",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "9bb1cb2f-8e59-4720-984c-d5a6d05870a1",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Israel Aerospace Industries",
+   "target": "IAI Harop",
+   "magnitude": null,
+   "source_id": "9d6c71d5-7014-41b7-adef-06d17322e336",
+   "target_id": "9bb1cb2f-8e59-4720-984c-d5a6d05870a1",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "IAI Harpy",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "400f6f0e-3daa-4c63-972c-4bd21fe912b6",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Israel Aerospace Industries",
+   "target": "IAI Harpy",
+   "magnitude": null,
+   "source_id": "9d6c71d5-7014-41b7-adef-06d17322e336",
+   "target_id": "400f6f0e-3daa-4c63-972c-4bd21fe912b6",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Solar Industries India Ltd",
+   "target": "Solar Industries Nagastra-1",
+   "magnitude": null,
+   "source_id": "0e6d0357-22f8-4035-97be-2d65a329bc9f",
+   "target_id": "559a4dc6-d0a9-4e87-84b1-26d993c7d949",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "AV Switchblade 300",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "b2a6e7a5-bc6f-4a1f-a921-e43514444af5",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "AeroVironment Inc.",
+   "target": "AV Switchblade 300",
+   "magnitude": null,
+   "source_id": "fbe07369-0093-444a-aeb7-291a10339591",
+   "target_id": "b2a6e7a5-bc6f-4a1f-a921-e43514444af5",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "WB Group Warmate",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "41e3c9e4-9483-446b-887f-6d828ec0b2b9",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "WB Electronics SA",
+   "target": "WB Group Warmate",
+   "magnitude": null,
+   "source_id": "e0d53ffc-8a38-4036-9d16-6525fe8c7dc6",
+   "target_id": "41e3c9e4-9483-446b-887f-6d828ec0b2b9",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "DRDO Lakshya",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "b03169e1-f46a-4d5f-b069-acbff504edd4",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO Abhyas",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "a9c19fde-bc2f-4668-97c7-c6373503c0df",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "DRDO — Aerial Delivery Research & Development Establishment (ADRDE)",
+   "target": "DRDO Abhyas",
+   "magnitude": null,
+   "source_id": "16df8c4d-f08c-413b-9b76-29e9a780dbf5",
+   "target_id": "a9c19fde-bc2f-4668-97c7-c6373503c0df",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "ideaForge SWITCH",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "6c0da858-512e-4870-83a5-83810c2da716",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "ideaForge Technology Ltd",
+   "target": "ideaForge SWITCH",
+   "magnitude": null,
+   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
+   "target_id": "6c0da858-512e-4870-83a5-83810c2da716",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "ideaForge SWITCH MINI",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "e41297cb-657f-4e18-9453-a108dfe2671a",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "ideaForge Technology Ltd",
+   "target": "ideaForge SWITCH MINI",
+   "magnitude": null,
+   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
+   "target_id": "e41297cb-657f-4e18-9453-a108dfe2671a",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "ideaForge Technology Ltd",
+   "target": "ideaForge NETRA v2",
+   "magnitude": null,
+   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
+   "target_id": "81806eee-231a-47ec-8395-0312b38f07c8",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "National Disaster Response Force (NDRF)",
+   "target": "ideaForge NETRA v2",
+   "magnitude": null,
+   "source_id": "781c5a65-18c3-4138-8b44-de507922cc6b",
+   "target_id": "81806eee-231a-47ec-8395-0312b38f07c8",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "ideaForge Technology Ltd",
+   "target": "ideaForge NETRA V4 PRO",
+   "magnitude": null,
+   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
+   "target_id": "56d821e0-8748-49c4-9e52-b3c6e6cde53f",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "ideaForge Technology Ltd",
+   "target": "ideaForge Q6",
+   "magnitude": null,
+   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
+   "target_id": "c06f238e-d747-4fa6-916e-159eb7eeb688",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "National Disaster Response Force (NDRF)",
+   "target": "ideaForge Q6",
+   "magnitude": null,
+   "source_id": "781c5a65-18c3-4138-8b44-de507922cc6b",
+   "target_id": "c06f238e-d747-4fa6-916e-159eb7eeb688",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO Imperial Eagle",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "3ec8502e-e139-4f56-bf23-1933a7cc2084",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO Black Kite",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "0558ea45-1d2d-48b8-9d9f-cd103a26df59",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO Sling",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "a3641b92-4e11-45a4-a7e4-7f78e4b50190",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Garuda DRONA-1",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "67d07bfd-531e-4c07-8ccf-6651f19da004",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Garuda Aerospace Pvt Ltd",
+   "target": "Garuda DRONA-1",
+   "magnitude": null,
+   "source_id": "45078def-fe96-43be-a608-4f10624a8396",
+   "target_id": "67d07bfd-531e-4c07-8ccf-6651f19da004",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Garuda Aerospace Pvt Ltd",
+   "target": "Garuda KV-1 / Guardian",
+   "magnitude": null,
+   "source_id": "45078def-fe96-43be-a608-4f10624a8396",
+   "target_id": "589a6e14-5aad-4614-9f64-4b7995c4a724",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Border Security Force (BSF)",
+   "target": "Garuda KV-1 / Guardian",
+   "magnitude": null,
+   "source_id": "004bbbe2-5c38-4598-8cbe-2b2cfc1454f4",
+   "target_id": "589a6e14-5aad-4614-9f64-4b7995c4a724",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Garuda Aerospace Pvt Ltd",
+   "target": "Garuda Agri Drone",
+   "magnitude": null,
+   "source_id": "45078def-fe96-43be-a608-4f10624a8396",
+   "target_id": "de1f5432-1315-424d-b1a9-41f23e31d923",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Survey of India",
+   "target": "Garuda Agri Drone",
+   "magnitude": null,
+   "source_id": "8abbf68f-ee3a-4533-90d6-527f87f0723f",
+   "target_id": "de1f5432-1315-424d-b1a9-41f23e31d923",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Garuda Aerospace Pvt Ltd",
+   "target": "Garuda GS-1000",
+   "magnitude": null,
+   "source_id": "45078def-fe96-43be-a608-4f10624a8396",
+   "target_id": "dd41819f-d988-4c71-b1a1-9e3b5414f16b",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Survey of India",
+   "target": "Garuda GS-1000",
+   "magnitude": null,
+   "source_id": "8abbf68f-ee3a-4533-90d6-527f87f0723f",
+   "target_id": "dd41819f-d988-4c71-b1a1-9e3b5414f16b",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Asteria A-200 (Apollo)",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "1bb4c5ef-9e8f-4216-acc2-11ff95d827bb",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Asteria Aerospace Ltd",
+   "target": "Asteria A-200 (Apollo)",
+   "magnitude": null,
+   "source_id": "e76ed066-7acb-4c6b-b352-69b1ce18f7c4",
+   "target_id": "1bb4c5ef-9e8f-4216-acc2-11ff95d827bb",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Asteria Wyvern",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "784071d5-a4af-4805-ab86-fbeb80ddab58",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Asteria Aerospace Ltd",
+   "target": "Asteria Wyvern",
+   "magnitude": null,
+   "source_id": "e76ed066-7acb-4c6b-b352-69b1ce18f7c4",
+   "target_id": "784071d5-a4af-4805-ab86-fbeb80ddab58",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "General Aeronautics Pvt Ltd",
+   "target": "General Aeronautics GA-3",
+   "magnitude": null,
+   "source_id": "184d5f6f-ef65-46e1-8d50-9b4e946726d2",
+   "target_id": "83562527-3886-4a70-9682-d71a4e64fa61",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Survey of India",
+   "target": "General Aeronautics GA-3",
+   "magnitude": null,
+   "source_id": "8abbf68f-ee3a-4533-90d6-527f87f0723f",
+   "target_id": "83562527-3886-4a70-9682-d71a4e64fa61",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "Skye Air Skyship",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "48aa4bff-bc68-4550-9d24-ceb840948235",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "The ePlane Company e200",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "ff5c0592-34a7-4f32-91d0-bef41c5bca34",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "AeroVironment Wasp AE",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "1e3bb745-c179-4c6e-8f6e-4768a2cb8725",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "AeroVironment Inc.",
+   "target": "AeroVironment Wasp AE",
+   "magnitude": null,
+   "source_id": "fbe07369-0093-444a-aeb7-291a10339591",
+   "target_id": "1e3bb745-c179-4c6e-8f6e-4768a2cb8725",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "AeroVironment RQ-11B Raven",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "619bde71-74ba-4b0e-b1b6-c495e306b81e",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "AeroVironment Inc.",
+   "target": "AeroVironment RQ-11B Raven",
+   "magnitude": null,
+   "source_id": "fbe07369-0093-444a-aeb7-291a10339591",
+   "target_id": "619bde71-74ba-4b0e-b1b6-c495e306b81e",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Navy",
+   "target": "Schiebel Camcopter S-100",
+   "magnitude": null,
+   "source_id": "0ec620a3-5fbd-4729-89d5-871a0f44996d",
+   "target_id": "826bd1a9-2071-432a-8057-c00ea018354a",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Schiebel Elektronische Geräte GmbH",
+   "target": "Schiebel Camcopter S-100",
+   "magnitude": null,
+   "source_id": "13ec9b71-8371-4360-9a4b-b6bb1fc4bb70",
+   "target_id": "826bd1a9-2071-432a-8057-c00ea018354a",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Border Security Force (BSF)",
+   "target": "BEL Counter-UAS System",
+   "magnitude": null,
+   "source_id": "004bbbe2-5c38-4598-8cbe-2b2cfc1454f4",
+   "target_id": "bbacea02-65dd-4ef8-9638-0511d51ec39b",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO Airborne SIGINT pod-UAV (concept)",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "02156c4b-aa72-4ac9-a92a-ad793e7584d6",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "Newspace ALFA-S",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "6a2dbe49-58d9-43f5-90fb-17745d2c142b",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "Newspace MeherMuktami HALE",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "c1bcf963-83dc-4983-8e07-bcaa3b0ce1de",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Survey of India",
+   "target": "Marut AG-365",
+   "magnitude": null,
+   "source_id": "8abbf68f-ee3a-4533-90d6-527f87f0723f",
+   "target_id": "422de8af-3042-4fe5-a68e-a63e38fab6e2",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "Aero360 Industrial UAV",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "98f19547-d546-4600-a69f-58c191ffa4bd",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Skylark Skylark-3",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "aef9c304-0e20-4ac3-bc56-1c2ad0f76d2c",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Elbit Systems",
+   "target": "Skylark Skylark-3",
+   "magnitude": null,
+   "source_id": "5d72e590-9983-466d-b794-c54d405ff687",
+   "target_id": "aef9c304-0e20-4ac3-bc56-1c2ad0f76d2c",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "National Disaster Response Force (NDRF)",
+   "target": "DRDO NETRA (original v1)",
+   "magnitude": null,
+   "source_id": "781c5a65-18c3-4138-8b44-de507922cc6b",
+   "target_id": "3becf7ad-756e-4c04-b75a-de71badd1bb2",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "Bangalore Aeroverse Subscale UAV",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "179ad8c2-b3ac-4946-9541-7e2e0b4283b2",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Bangalore Aeroverse Pvt Ltd",
+   "target": "Bangalore Aeroverse Subscale UAV",
+   "magnitude": null,
+   "source_id": "123cacb2-754f-4848-ac33-d659d55159e5",
+   "target_id": "179ad8c2-b3ac-4946-9541-7e2e0b4283b2",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "HAL-IAI Heron TP (planned)",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "8d759a0d-aed9-4e5d-a9b9-d6d4b08c6dd2",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "IAI Searcher Mk III",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "108c8431-0b79-42ed-a356-0ce7b8d1944c",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Israel Aerospace Industries",
+   "target": "IAI Searcher Mk III",
+   "magnitude": null,
+   "source_id": "9d6c71d5-7014-41b7-adef-06d17322e336",
+   "target_id": "108c8431-0b79-42ed-a356-0ce7b8d1944c",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "Aebird Inspecto",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "8f0c94ae-ea44-48fe-9443-dba06ccebd41",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Aebird Aerospace",
+   "target": "Aebird Inspecto",
+   "magnitude": null,
+   "source_id": "440037df-6fb9-4ec4-9e09-f004d45f4b7d",
+   "target_id": "8f0c94ae-ea44-48fe-9443-dba06ccebd41",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Survey of India",
+   "target": "IG Drones Survey Drone",
+   "magnitude": null,
+   "source_id": "8abbf68f-ee3a-4533-90d6-527f87f0723f",
+   "target_id": "497ff85a-ff00-41ff-bc76-3a4e079f6f4a",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "IG Drones",
+   "target": "IG Drones Survey Drone",
+   "magnitude": null,
+   "source_id": "ae61ae09-be55-4a31-9dda-e1584ac5d843",
+   "target_id": "497ff85a-ff00-41ff-bc76-3a4e079f6f4a",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "DroneAcharya Multirotor-X",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "2c3b1ce6-9cf8-459e-89d3-4d872bf31c61",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Survey of India",
+   "target": "DCM Shriram Hexacopter",
+   "magnitude": null,
+   "source_id": "8abbf68f-ee3a-4533-90d6-527f87f0723f",
+   "target_id": "cf534a4c-27d4-47b6-ae4d-1ea8b33a7722",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "DCM Shriram Industries",
+   "target": "DCM Shriram Hexacopter",
+   "magnitude": null,
+   "source_id": "51133b2f-42e2-445c-9d76-da394b550887",
+   "target_id": "cf534a4c-27d4-47b6-ae4d-1ea8b33a7722",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Border Security Force (BSF)",
+   "target": "Adani BEL SM-1 (joint)",
+   "magnitude": null,
+   "source_id": "004bbbe2-5c38-4598-8cbe-2b2cfc1454f4",
+   "target_id": "03b2efba-9d4c-4a27-9931-41ea249a2bde",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "Cyient UAV avionics software platform",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "9be3cc19-becb-4e26-be56-99cdd9d65854",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Cyient Ltd",
+   "target": "Cyient UAV avionics software platform",
+   "magnitude": null,
+   "source_id": "73e65fbe-f3b1-48ad-8060-2987c9319710",
+   "target_id": "9be3cc19-becb-4e26-be56-99cdd9d65854",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO Ulka",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "11d3dad8-4ece-45d1-8da4-64f939053eb5",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "HAL PT-2",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "40bb682b-73fc-4da0-84a3-bc12d2a18c8f",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "Kalyani/Bharat Forge UAV structure kit",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "c69d8bdf-7614-47d4-bda9-a041e6b3e2bb",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Bharat Forge",
+   "target": "Kalyani/Bharat Forge UAV structure kit",
+   "magnitude": null,
+   "source_id": "e205ae56-7ffa-45be-973c-7e5a2f6e9438",
+   "target_id": "c69d8bdf-7614-47d4-bda9-a041e6b3e2bb",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "Alpha Design UAV Avionics Suite",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "34e3ea3a-fe4d-463c-a35c-f1da71ee05a6",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Alpha Design Technologies Pvt Ltd",
+   "target": "Alpha Design UAV Avionics Suite",
+   "magnitude": null,
+   "source_id": "d6ca655d-332d-4952-9375-64d0c84aeb7c",
+   "target_id": "34e3ea3a-fe4d-463c-a35c-f1da71ee05a6",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "Vem Tech GCS-100",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "9a7d70a7-9bb0-43d4-815c-bcd5d8484e38",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Vem Technologies Pvt Ltd",
+   "target": "Vem Tech GCS-100",
+   "magnitude": null,
+   "source_id": "6e74842c-ee29-4fb6-828b-6074ced76431",
+   "target_id": "9a7d70a7-9bb0-43d4-815c-bcd5d8484e38",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "Edall Engine Test Bench",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "ee578648-0b3e-415d-b2ad-7a261299a540",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Edall Systems Pvt Ltd",
+   "target": "Edall Engine Test Bench",
+   "magnitude": null,
+   "source_id": "b1aac76b-699a-4c4c-ad89-2d8edcb72445",
+   "target_id": "ee578648-0b3e-415d-b2ad-7a261299a540",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "DRDO ALS-50",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "df93da5d-50cc-48ca-ac56-0843e7242d6a",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Baykar Bayraktar TB2",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "0b417f54-8dba-4130-a90f-e975c06de2c7",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "BLM-Alpha Industries Alpha-2 (early indigenous)",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "37a5b4fb-8c79-497c-b99a-a5ee32c13a0d",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "DJI Mavic 3",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "2b3ea5d4-c9ae-4e65-a93c-00ed7239fb0f",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "DJI Matrice 300 RTK",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "6df7c9e9-995f-4b98-9e2f-ff2d4f236505",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "DJI Phantom 4 RTK",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "bf560a57-e454-4583-a297-a4182c2aa490",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "DJI Inspire 2",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "5ea99dc4-20e8-4bce-81b9-4eda72cfc7c0",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "DJI Agras T40",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "5446879d-a350-40ff-bfad-30306d649bad",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "BonV Aero Aero-X",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "1757341d-7e19-45a5-93ab-8d578248783d",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "BonV Aero",
+   "target": "BonV Aero Aero-X",
+   "magnitude": null,
+   "source_id": "8bba2ce2-55b3-4df8-bb49-cf732c173a77",
+   "target_id": "1757341d-7e19-45a5-93ab-8d578248783d",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "BonV Aero CloudX",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "c466d903-0bb5-4994-86bb-2ba43729e861",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "BonV Aero",
+   "target": "BonV Aero CloudX",
+   "magnitude": null,
+   "source_id": "8bba2ce2-55b3-4df8-bb49-cf732c173a77",
+   "target_id": "c466d903-0bb5-4994-86bb-2ba43729e861",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Avighna Aerospace",
+   "target": "Avighna Aerospace Avi-1",
+   "magnitude": null,
+   "source_id": "4ce37242-3879-4e7b-87a9-8884bd33c468",
+   "target_id": "ed3707be-8090-4acb-adf3-ae4de87710c0",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Border Security Force (BSF)",
+   "target": "Avighna Aerospace Avi-1",
+   "magnitude": null,
+   "source_id": "004bbbe2-5c38-4598-8cbe-2b2cfc1454f4",
+   "target_id": "ed3707be-8090-4acb-adf3-ae4de87710c0",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Curphy Aero R-1",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "3caefcce-ec2f-45ae-89b7-610ca24082ac",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Curphy Aero Systems",
+   "target": "Curphy Aero R-1",
+   "magnitude": null,
+   "source_id": "b1458aa7-81c4-413e-b475-234b19bfd975",
+   "target_id": "3caefcce-ec2f-45ae-89b7-610ca24082ac",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Bharat Heavy Electricals Ltd (BHEL)",
+   "target": "BHEL DroneMark-1",
+   "magnitude": null,
+   "source_id": "97bce694-7c42-4f61-a391-02685ce965e1",
+   "target_id": "b9fcd540-1dda-4912-b96d-85d13fc4fcce",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "BHEL DroneMark-1",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "b9fcd540-1dda-4912-b96d-85d13fc4fcce",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Defence Research and Development Organisation",
+   "target": "DRDO Fleet Master",
+   "magnitude": null,
+   "source_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "target_id": "1d17f86d-2cdc-49b6-82dc-4638eeced4a9",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO CATS Warrior",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "59793131-6eab-4803-8275-12424f3b501e",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO CATS Hunter",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "b40b5181-ce06-46b8-b4fd-2f7477f288ea",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO CATS Skyway",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "de280593-bf33-4f1a-a397-1a07e40b79dc",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "DRDO ALFA-M",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "a4d06bd3-e497-40f6-ba9c-6b2f52a0a83d",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Turkish Bayraktar Akinci",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "535c4af3-dd4b-49c2-bcbe-7879980f551d",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Turkish Vestel Karayel",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "31ab597f-3645-4c4a-b787-40abac94a980",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Chinese CH-4",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "3ee873ba-2877-4740-a1d8-b6bcd3cae938",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Chinese Wing Loong II",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "de0811fe-2025-4793-8f46-09a7035e011b",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Chinese GJ-11 Sharp Sword",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "3ebd9a10-9748-409b-8bc3-a0d50e236fe6",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Aerochief Aerospace",
+   "target": "Aerochief Skyhawk",
+   "magnitude": null,
+   "source_id": "9833a978-92f2-42cb-8438-c22e1047a65f",
+   "target_id": "d6cdc336-0490-471e-b170-b37baeb238a8",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "Aerochief Skyhawk",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "d6cdc336-0490-471e-b170-b37baeb238a8",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "Aarav Inspecto-Pro",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "0b5fd23d-7f1c-453e-8449-0a457fbdeefb",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Survey of India",
+   "target": "Marut Drones AG-365-S",
+   "magnitude": null,
+   "source_id": "8abbf68f-ee3a-4533-90d6-527f87f0723f",
+   "target_id": "13822586-6fc3-4b11-81cc-01635a3a3deb",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Garuda Aerospace Pvt Ltd",
+   "target": "Garuda Avi-Drone",
+   "magnitude": null,
+   "source_id": "45078def-fe96-43be-a608-4f10624a8396",
+   "target_id": "221e09c5-00ea-4222-b65b-52978b640659",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Border Security Force (BSF)",
+   "target": "Garuda Avi-Drone",
+   "magnitude": null,
+   "source_id": "004bbbe2-5c38-4598-8cbe-2b2cfc1454f4",
+   "target_id": "221e09c5-00ea-4222-b65b-52978b640659",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "ideaForge SWITCH UAV 3.0",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "debaade9-a617-4708-9bc8-f59540139c0d",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "ideaForge Technology Ltd",
+   "target": "ideaForge SWITCH UAV 3.0",
+   "magnitude": null,
+   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
+   "target_id": "debaade9-a617-4708-9bc8-f59540139c0d",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "ideaForge Technology Ltd",
+   "target": "ideaForge Q4 INSPIRE",
+   "magnitude": null,
+   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
+   "target_id": "6120e87f-b019-465e-8936-0f130330bfa0",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "National Disaster Response Force (NDRF)",
+   "target": "ideaForge Q4 INSPIRE",
+   "magnitude": null,
+   "source_id": "781c5a65-18c3-4138-8b44-de507922cc6b",
+   "target_id": "6120e87f-b019-465e-8936-0f130330bfa0",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "ideaForge NETRA V4-MINI",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "45061f19-06e6-41dd-8f38-9955a32abc03",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "ideaForge Technology Ltd",
+   "target": "ideaForge NETRA V4-MINI",
+   "magnitude": null,
+   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
+   "target_id": "45061f19-06e6-41dd-8f38-9955a32abc03",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Bharat Dynamics BDLM-01",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "db0d4fa6-d940-4550-a97c-71d9a71e5da8",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "AV Switchblade 600",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "44cc983c-082c-4647-8a9a-714c69911bb8",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "AeroVironment Inc.",
+   "target": "AV Switchblade 600",
+   "magnitude": null,
+   "source_id": "fbe07369-0093-444a-aeb7-291a10339591",
+   "target_id": "44cc983c-082c-4647-8a9a-714c69911bb8",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "IAI Green Dragon",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "d94045e9-0c7c-4712-9abc-3c7f0debfefb",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Israel Aerospace Industries",
+   "target": "IAI Green Dragon",
+   "magnitude": null,
+   "source_id": "9d6c71d5-7014-41b7-adef-06d17322e336",
+   "target_id": "d94045e9-0c7c-4712-9abc-3c7f0debfefb",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "IAI ROTEM-L",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "e8b5f543-2602-4b75-9628-4f516a98cf96",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Israel Aerospace Industries",
+   "target": "IAI ROTEM-L",
+   "magnitude": null,
+   "source_id": "9d6c71d5-7014-41b7-adef-06d17322e336",
+   "target_id": "e8b5f543-2602-4b75-9628-4f516a98cf96",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "TechEagle Vertiplane X-3",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "35b9e795-0050-4a5d-aaac-7081d51a235e",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "TechEagle Ventures",
+   "target": "TechEagle Vertiplane X-3",
+   "magnitude": null,
+   "source_id": "50d22cd2-7a6d-4f02-b13f-7873f38ac98b",
+   "target_id": "35b9e795-0050-4a5d-aaac-7081d51a235e",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "ePlane e100",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "5bbdd653-75e6-4ca8-9dd0-eb780262902f",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "PixoAstro Technologies",
+   "target": "PixoAstro HOney-B",
+   "magnitude": null,
+   "source_id": "ba8e0daf-fba7-486a-8482-3143f2e9dc71",
+   "target_id": "9eefd6ac-930b-4e6e-8607-b0ffc3aaed3d",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "PixoAstro HOney-B",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "9eefd6ac-930b-4e6e-8607-b0ffc3aaed3d",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "Detect Technologies Detect-1",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "9c7f9016-632b-4989-98d5-3fd151e75557",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Survey of India",
+   "target": "Skylark Drones Surveyor-Pro",
+   "magnitude": null,
+   "source_id": "8abbf68f-ee3a-4533-90d6-527f87f0723f",
+   "target_id": "ef688f98-d4aa-4261-8b5c-cc67faacf6b4",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "DroneAcharya Surveyor-X",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "e1dacf5b-e934-4a50-ac1d-78e5817cd3a6",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "IG Drones Inspector-X",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "a4142432-8f7c-46ed-a8b3-cb878015d700",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "IG Drones",
+   "target": "IG Drones Inspector-X",
+   "magnitude": null,
+   "source_id": "ae61ae09-be55-4a31-9dda-e1584ac5d843",
+   "target_id": "a4142432-8f7c-46ed-a8b3-cb878015d700",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "Aero360 SkyInspect",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "18d867a6-7659-4a0d-a1aa-daa911adf77a",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Border Security Force (BSF)",
+   "target": "Aebird SkyWatch",
+   "magnitude": null,
+   "source_id": "004bbbe2-5c38-4598-8cbe-2b2cfc1454f4",
+   "target_id": "cdcc8ef5-7f05-493e-ba2e-c18297f8046d",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Aebird Aerospace",
+   "target": "Aebird SkyWatch",
+   "magnitude": null,
+   "source_id": "440037df-6fb9-4ec4-9e09-f004d45f4b7d",
+   "target_id": "cdcc8ef5-7f05-493e-ba2e-c18297f8046d",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "DRDO UXV-1",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "0391419f-3777-4f83-b026-4be01dd82b4d",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO Imperial Eagle Mk II",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "415ac5e2-0fea-403c-b9e1-0c37eb77c190",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO Imperial Eagle Mk III",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "aba94b2e-b9ad-4574-bc76-750915835a3d",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "DRDO Sling Mk II",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "5a4a213f-f3b1-4102-8db9-dee4a88b1bd6",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "HAL Lakshya Mk II",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "d6ef2d84-0daf-4d44-bdc7-ddbcf6c5149d",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "HAL Lakshya-2 (PTA)",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "a2288693-194a-496c-ab4b-792d1cc5617f",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Air Force",
+   "target": "General Atomics Avenger (Predator C)",
+   "magnitude": null,
+   "source_id": "36d2ff42-2bc6-48dc-86d7-4115dee7c9ed",
+   "target_id": "b91727bd-11e5-44b4-aaf7-530add1ceea1",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "General Atomics Aeronautical Systems (GA-ASI)",
+   "target": "General Atomics Avenger (Predator C)",
+   "magnitude": null,
+   "source_id": "5536e739-8450-423a-b11c-857d10435222",
+   "target_id": "b91727bd-11e5-44b4-aaf7-530add1ceea1",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "DJI Matrice 350 RTK",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "26348845-91c7-454f-993f-bc9b93ac6ad5",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "DJI Air 3",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "205a0da1-5352-4e22-acc9-6d49ca75ad08",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "DJI Mini 4 Pro",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "5e50a6bd-8f89-4ccb-9e77-f3dd1e3ed1e6",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "DJI Mavic 3 Thermal",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "87043d6b-556c-44fb-8e13-bc2ef13fd721",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Survey of India",
+   "target": "DJI Agras T10",
+   "magnitude": null,
+   "source_id": "8abbf68f-ee3a-4533-90d6-527f87f0723f",
+   "target_id": "d60d118e-d179-4288-b4cc-3810d7324704",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "ideaForge RYN-1 (Rynan)",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "e862c82e-6bd4-4ede-83a6-7c58db6693b0",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "ideaForge Technology Ltd",
+   "target": "ideaForge RYN-1 (Rynan)",
+   "magnitude": null,
+   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
+   "target_id": "e862c82e-6bd4-4ede-83a6-7c58db6693b0",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Bharat Heavy Electricals Ltd (BHEL)",
+   "target": "BHEL CargoMark-1",
+   "magnitude": null,
+   "source_id": "97bce694-7c42-4f61-a391-02685ce965e1",
+   "target_id": "8ee84e71-08be-4c94-a9f8-f0b35f47635f",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "GeM (Government e-Marketplace)",
+   "target": "BHEL CargoMark-1",
+   "magnitude": null,
+   "source_id": "38875d63-64f9-45f3-b876-d5f270642efe",
+   "target_id": "8ee84e71-08be-4c94-a9f8-f0b35f47635f",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "subsidiary_of",
+   "unit": null,
+   "source": "Kalyani Strategic Systems",
+   "target": "Bharat Forge",
+   "magnitude": null,
+   "source_id": "298d092c-53e9-46ce-b2e4-dc0a0897bac9",
+   "target_id": "e205ae56-7ffa-45be-973c-7e5a2f6e9438",
+   "type_label": "Subsidiary of",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "subsidiary_of",
+   "unit": null,
+   "source": "Adani Defence & Aerospace",
+   "target": "Adani Group (non-defence)",
+   "magnitude": null,
+   "source_id": "5e6e2d8c-9cea-4b61-929a-658c0826b853",
+   "target_id": "60f810fb-8574-49ca-b05d-6f72fc2d94e7",
+   "type_label": "Subsidiary of",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Kalyani Strategic Systems (Bharat Forge)",
+   "target": "Kalyani Group Bharat CUAS",
+   "magnitude": null,
+   "source_id": "1d0938f6-fd36-459f-ad5a-8f576376767c",
+   "target_id": "edd7bc1f-006d-4208-9a4e-b03148dd9e75",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Elbit Systems",
+   "target": "ESC BriteCloud (DRFM Decoy - CUAS capable)",
+   "magnitude": null,
+   "source_id": "5d72e590-9983-466d-b794-c54d405ff687",
+   "target_id": "3e8d50f9-f392-49cd-ab8b-2736a845feb4",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Alpha Design Technologies",
+   "target": "Detect & Destroy Anti-Drone System",
+   "magnitude": null,
+   "source_id": "e5f0eb2b-737f-4823-b47a-832529754acb",
+   "target_id": "29d00af9-244c-4fcb-9bbf-0313bf7876bf",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Dedrone (now part of Axon)",
+   "target": "Dedrone (Axon) Interceptor Concept",
+   "magnitude": null,
+   "source_id": "8babd924-01fd-48c6-9797-ac35aa057651",
+   "target_id": "3ce4f6ef-aad5-4d0d-99e4-b66b106a862a",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Zen Technologies",
+   "target": "Zen Anti-Drone System (ZADS)",
+   "magnitude": null,
+   "source_id": "31c1d115-8774-4502-8378-322ef4715800",
+   "target_id": "b328a183-b900-4745-9311-911e9f9e1686",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Rheinmetall",
+   "target": "Rheinmetall Oerlikon Skynex",
+   "magnitude": null,
+   "source_id": "73834ee4-e613-4ed4-a568-1b077e05622c",
+   "target_id": "970df96b-330b-4a27-948f-24d1c2a14d73",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Israel Aerospace Industries",
+   "target": "IAI ELM-2182 (Drone Detection Radar)",
+   "magnitude": null,
+   "source_id": "9d6c71d5-7014-41b7-adef-06d17322e336",
+   "target_id": "bfcfdb6c-4fcb-414c-b8ec-2259034c157b",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Raytheon Technologies (RTX)",
+   "target": "RTX High Energy Laser Weapon System (HELWS)",
+   "magnitude": null,
+   "source_id": "cb5363f4-432b-4fcf-a2aa-30df1625319e",
+   "target_id": "3a95f77a-e299-4b9d-b283-27b46c22312d",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "DroneShield",
+   "target": "DroneGun Tactical",
+   "magnitude": null,
+   "source_id": "cfddf998-8512-4234-b6a9-e8e0e11a8cef",
+   "target_id": "6e2a17c9-e553-4076-a0b4-78f19e9952be",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Rafael Advanced Defense Systems",
+   "target": "Rafael Spike Firefly",
+   "magnitude": null,
+   "source_id": "02f682fa-bf75-4ee2-a49b-e61716f86c84",
+   "target_id": "16b6c8d4-5135-4758-ac9e-87ba51648199",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Big Bang Boom Solutions",
+   "target": "Big Bang Boom Interceptor Drone",
+   "magnitude": null,
+   "source_id": "04a409db-470b-47bb-a698-867115df6be8",
+   "target_id": "e0f9fe00-770f-45ce-a1a3-3dcbfaea8174",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Rafael Advanced Defense Systems",
+   "target": "Iron Beam (Laser CUAS)",
+   "magnitude": null,
+   "source_id": "02f682fa-bf75-4ee2-a49b-e61716f86c84",
+   "target_id": "0aae07ec-d160-496c-b7da-964fa81eaa41",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "DroneShield",
+   "target": "DroneSentry-X",
+   "magnitude": null,
+   "source_id": "cfddf998-8512-4234-b6a9-e8e0e11a8cef",
+   "target_id": "279ce365-f739-446c-98ee-4e402cc6062a",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Robin Radar Systems",
+   "target": "Sapphire Counter-Drone (Dutch origin)",
+   "magnitude": null,
+   "source_id": "e386f347-8a4d-4e40-a070-5d28b92cdd67",
+   "target_id": "eb30dcf8-c6c1-4656-8001-41450c4763b1",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Rafael Advanced Defense Systems",
+   "target": "Rafael Drone Dome",
+   "magnitude": null,
+   "source_id": "02f682fa-bf75-4ee2-a49b-e61716f86c84",
+   "target_id": "b52a6137-e478-40d1-a1d5-4e4a98d0f29a",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Adani Defence and Aerospace",
+   "target": "Defence Anti-Drone System (DADS)",
+   "magnitude": null,
+   "source_id": "2f12fa53-fadd-4aea-b629-7709d7fe5f51",
+   "target_id": "e28edc40-62f2-406e-bc74-394545cc0ddb",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "OpenWorks Engineering (Bordtek)",
+   "target": "Bordtek SkyWall 100",
+   "magnitude": null,
+   "source_id": "220b80a7-f15c-4e9d-954c-f2f99b61f285",
+   "target_id": "498d1957-9b4c-47fb-89e3-52890a21c35d",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Saab",
+   "target": "Saab Giraffe AMB (CUAS variant)",
+   "magnitude": null,
+   "source_id": "c8991621-048e-4eff-9b13-941947d227a2",
+   "target_id": "b7970fbc-af47-4583-a0f8-80dad3a29631",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "BlueHalo",
+   "target": "Blue Halo Locust (Laser)",
+   "magnitude": null,
+   "source_id": "7d288813-24c4-413f-872a-daaed3ebd216",
+   "target_id": "f194012d-2754-44cb-955c-4c94c23e4a21",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Lockheed Martin",
+   "target": "Lockheed Martin ATHENA",
+   "magnitude": null,
+   "source_id": "6f9d1c79-581d-403c-8b1b-d7312d797ea6",
+   "target_id": "1718e05d-87bd-4dc1-9f71-caaeba37292a",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Raytheon Technologies (RTX)",
+   "target": "Raytheon Coyote Block 2",
+   "magnitude": null,
+   "source_id": "cb5363f4-432b-4fcf-a2aa-30df1625319e",
+   "target_id": "f9c44bb3-79b2-404b-90a3-08fde0125054",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Rafael Advanced Defense Systems",
+   "target": "Rafael C-Dome (Naval)",
+   "magnitude": null,
+   "source_id": "02f682fa-bf75-4ee2-a49b-e61716f86c84",
+   "target_id": "53d4d5bf-0ecd-4a66-9bfe-d402e99faa90",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Northrop Grumman",
+   "target": "Northrop Grumman Centurion (C-RAM variant)",
+   "magnitude": null,
+   "source_id": "5a3d97e8-cd4d-46f5-98a6-2e3aea4d98ae",
+   "target_id": "44c9d127-0bb0-420e-a20a-647ef3e7b536",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "DroneShield",
+   "target": "DroneDefender",
+   "magnitude": null,
+   "source_id": "cfddf998-8512-4234-b6a9-e8e0e11a8cef",
+   "target_id": "5e44d8ec-5a6c-4716-bf7d-b70e4417d454",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Fortem Technologies",
+   "target": "Fortem DroneHunter",
+   "magnitude": null,
+   "source_id": "b28287ed-b177-43db-af6d-5cc216cb52f6",
+   "target_id": "7f68fab0-5925-4a18-93ec-ab1c474f986b",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Rafael Advanced Defense Systems",
+   "target": "Skylock Dome (CUAS)",
+   "magnitude": null,
+   "source_id": "02f682fa-bf75-4ee2-a49b-e61716f86c84",
+   "target_id": "404178cd-bb6c-44fe-bb7b-f2bc2eb22f81",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Israel Aerospace Industries (IAI) / ELTA",
+   "target": "Cerberus GL6 (CUAS capable)",
+   "magnitude": null,
+   "source_id": "f705caae-d660-46fe-96b5-9650b598bb10",
+   "target_id": "17678db8-1f01-4cd7-8d59-7f19ccbdca53",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Epirus",
+   "target": "Epirus Leonidas Pod (HPM)",
+   "magnitude": null,
+   "source_id": "d0bd6987-4640-4dc5-8f2b-65ea0f2af24b",
+   "target_id": "04701fba-fc40-4575-8f97-b176525e752d",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Rafael Advanced Defense Systems",
+   "target": "Rafael Litening-5 (EO/IR Pod - CUAS capable)",
+   "magnitude": null,
+   "source_id": "02f682fa-bf75-4ee2-a49b-e61716f86c84",
+   "target_id": "d1e760b6-1021-4dfd-bded-2c26d0ad5f8a",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Zen Technologies",
+   "target": "Zen Interceptor Drone",
+   "magnitude": null,
+   "source_id": "31c1d115-8774-4502-8378-322ef4715800",
+   "target_id": "96340d20-6507-40ff-863b-97bab9d0f0b9",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Adani Defence and Aerospace",
+   "target": "Adani Defence Interceptor Drone",
+   "magnitude": null,
+   "source_id": "2f12fa53-fadd-4aea-b629-7709d7fe5f51",
+   "target_id": "d45037e3-822f-4896-881a-9eb077974255",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Israel Aerospace Industries",
+   "target": "IAI Drone-Guard",
+   "magnitude": null,
+   "source_id": "9d6c71d5-7014-41b7-adef-06d17322e336",
+   "target_id": "b7309524-22c5-49da-b23f-05a49d30bda6",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "VEGA Integrated Systems",
+   "target": "Vajra Sentinel Counter-Drone System",
+   "magnitude": null,
+   "source_id": "79dcd856-ebaf-4b64-97f8-c200d48afe63",
+   "target_id": "ff2b1bf4-8cbd-40c4-8537-5297878c35e6",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Paras Defence and Space Technologies",
+   "target": "Anti-Drone System (X-Mk3)",
+   "magnitude": null,
+   "source_id": "ddfc2771-8091-4750-978a-fbb0c6ffda20",
+   "target_id": "cd80b95e-19dc-4caf-8b60-b7c1661bc586",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Dedrone (now part of Axon)",
+   "target": "DedronePlatform",
+   "magnitude": null,
+   "source_id": "8babd924-01fd-48c6-9797-ac35aa057651",
+   "target_id": "4f65ee49-9f85-41fd-9e08-a50531a6140c",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Elbit Systems",
+   "target": "Elbit Bright Arrow (Soft + Hard Kill)",
+   "magnitude": null,
+   "source_id": "5d72e590-9983-466d-b794-c54d405ff687",
+   "target_id": "6b7e8ad6-352a-4f00-84e1-04def5b9fb40",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Fortem Technologies",
+   "target": "Fortem SkyDome System",
+   "magnitude": null,
+   "source_id": "b28287ed-b177-43db-af6d-5cc216cb52f6",
+   "target_id": "32dcff33-2fb7-4fe8-bacb-b997114a0ab7",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Rafael Advanced Defense Systems",
+   "target": "Spike Firefly (Loitering Munition - Anti-Drone capable)",
+   "magnitude": null,
+   "source_id": "02f682fa-bf75-4ee2-a49b-e61716f86c84",
+   "target_id": "7663cf07-461b-4b0e-8f9d-f3e0166a0052",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "KNDS France",
+   "target": "KNDS France RAPIDFire (Naval CUAS)",
+   "magnitude": null,
+   "source_id": "d9b2624e-f206-47a0-95c4-f6ecfc60ece1",
+   "target_id": "67f9263e-e779-4353-a3e9-d9283b3dfe01",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Raytheon Technologies (RTX)",
+   "target": "Raytheon (RTX) Coyote Block 2",
+   "magnitude": null,
+   "source_id": "cb5363f4-432b-4fcf-a2aa-30df1625319e",
+   "target_id": "735361af-5676-462b-8806-abb6a2c0107f",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "MBDA",
+   "target": "MBDA Sky Warden",
+   "magnitude": null,
+   "source_id": "728e0d6e-2b71-4275-ac54-afe1b006b717",
+   "target_id": "d108fdc3-3311-49c8-88c9-c8bb01559955",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Tata Advanced Systems (TASL)",
+   "target": "TASL Interceptor Drone Concept",
+   "magnitude": null,
+   "source_id": "afc2b7bb-897f-494e-9697-9a7847bedd4c",
+   "target_id": "e4562f52-b76f-49b4-8749-b9af9131dc8d",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Aselsan",
+   "target": "Aselsan REDET (CUAS)",
+   "magnitude": null,
+   "source_id": "1b78f84c-d8ce-4d6e-b78e-d23f5aa59b3d",
+   "target_id": "1e70d78e-47d6-4da7-b2c5-82c806b5da6e",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "HENSOLDT",
+   "target": "HENSOLDT Xpeller Counter-UAS",
+   "magnitude": null,
+   "source_id": "3d254d02-a056-4fea-a973-85d8a969c68b",
+   "target_id": "b8078126-e3f6-4cc7-ae96-ce57f4ae1996",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Tata Advanced Systems (TASL)",
+   "target": "Tata Advanced Systems CUAS",
+   "magnitude": null,
+   "source_id": "afc2b7bb-897f-494e-9697-9a7847bedd4c",
+   "target_id": "bbc8c4c3-76af-44a1-a5a7-4e4935093909",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Leonardo",
+   "target": "Leonardo Falcon Shield",
+   "magnitude": null,
+   "source_id": "0b5f351d-817d-4c71-8731-28c444442380",
+   "target_id": "6d785106-3af3-4fc3-8337-940e723f2d5f",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "L3Harris Technologies",
+   "target": "L3Harris VAMPIRE (CUAS variant)",
+   "magnitude": null,
+   "source_id": "65c7746a-e0f4-4585-a460-6cc3db5a80ff",
+   "target_id": "1c2acb34-e46d-49cf-ac28-0a7dd368c980",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Kritikal SecureScan",
+   "target": "Kriti Counter-Drone System",
+   "magnitude": null,
+   "source_id": "df7d1c78-0445-4454-9d87-d0ebda53408c",
+   "target_id": "91e5d517-b1eb-47dc-9459-ccb540189dbb",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Diehl Defence",
+   "target": "Diehl Defence HPEM (High Power EM)",
+   "magnitude": null,
+   "source_id": "9b4acc91-1491-422f-87f5-cd0169b849dd",
+   "target_id": "ed68f63a-7e4c-4604-a21a-57575713e38d",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
+  },
+  {
+   "type": "manufactures",
+   "unit": null,
+   "source": "Raytheon Technologies (RTX)",
+   "target": "Raytheon Coyote Block 1",
+   "magnitude": null,
+   "source_id": "cb5363f4-432b-4fcf-a2aa-30df1625319e",
+   "target_id": "e68ad50c-add7-4b9e-a009-bcaf343a9e90",
+   "type_label": "Manufactures / Produces",
+   "corridor_id": 4,
+   "description": ""
   }
  ],
  "status_levels": [
