@@ -2029,7 +2029,7 @@ export const signals: SignalMeta[] = [{
   title: 'Three Indian semiconductor plants are now in commercial production; ISM 2.0 approved with Rs 1,27,500 crore outlay',
   domain: 'Semiconductors & Electronics',
   date: '2026-08-19',
-  dateLabel: 'August 2026',
+  dateLabel: '19 Aug 2026',
   status: 'live',
   excerpt: 'MeitY Secretary S Krishnan announced on 18 August that three semiconductor facilities — Micron, Kaynes and CG Semi, all at Sanand in Gujarat — have entered commercial production under ISM 1.0, with five to six projects expected to be live by end-2026. The Union Cabinet has approved ISM 2.0 with an outlay of Rs 1,27,500 crore, and PM Modi will inaugurate SEMICON India 2026 on 17 September.',
   readingTime: '3 min read',
