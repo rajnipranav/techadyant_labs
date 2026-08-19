@@ -6,12 +6,16 @@ interface Props {
   slug: string;
   pdfUrl: string;
   pdfLabel: string;
+  source?: string;
+  intro?: string;
+  buttonLabel?: string;
+  downloadLabel?: string;
 }
 
 /** Email-gate for the free condensed-edition PDF. Subscribes via the site's
  *  /api/subscribe (Cloudflare Pages Function), source-attributed per report,
  *  then unlocks the download for the session (localStorage). */
-export function ExecutiveSummaryGate({ slug, pdfUrl, pdfLabel }: Props) {
+export function ExecutiveSummaryGate({ slug, pdfUrl, pdfLabel, source, intro, buttonLabel, downloadLabel }: Props) {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
   const [unlocked, setUnlocked] = useState(false);
@@ -32,7 +36,7 @@ export function ExecutiveSummaryGate({ slug, pdfUrl, pdfLabel }: Props) {
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ email: email.trim(), source: `report:${slug}-exec-summary` }),
+        body: JSON.stringify({ email: email.trim(), source: source || `report:${slug}-exec-summary` }),
       });
       let data: { ok?: boolean; message?: string } | null = null;
       try { data = await res.json(); } catch {}
@@ -62,7 +66,7 @@ export function ExecutiveSummaryGate({ slug, pdfUrl, pdfLabel }: Props) {
           className="btn-ed btn-ed-primary"
           style={{ display: "inline-block" }}
         >
-          Download the condensed edition (PDF) <span className="arr">&rarr;</span>
+          {downloadLabel || 'Download the condensed edition (PDF)'} <span className="arr">&rarr;</span>
         </a>
       </div>
     );
@@ -71,8 +75,7 @@ export function ExecutiveSummaryGate({ slug, pdfUrl, pdfLabel }: Props) {
   return (
     <div>
       <p style={{ fontSize: 14.5, color: "var(--text-muted)", marginBottom: 14, lineHeight: 1.65 }}>
-        {pdfLabel}. Free to read here; subscribe with an email to download the PDF. We'll also
-        tell you when this assessment changes.
+        {intro ?? `${pdfLabel}. Free to read here; subscribe with an email to download the PDF. We'll also tell you when this assessment changes.`}
       </p>
       <form onSubmit={submit} style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
         <input
@@ -99,7 +102,7 @@ export function ExecutiveSummaryGate({ slug, pdfUrl, pdfLabel }: Props) {
           className="btn-ed btn-ed-primary"
           style={{ borderRadius: 10 }}
         >
-          {status === "sending" ? "Unlocking…" : "Get the PDF"}
+          {status === "sending" ? "Unlocking…" : (buttonLabel || 'Get the PDF')}
         </button>
       </form>
       {status === "error" && (

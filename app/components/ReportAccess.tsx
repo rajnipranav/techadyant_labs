@@ -2,6 +2,7 @@
 
 import { useReportCommerce } from './ReportCommerce';
 import { hasExecutiveSummary } from '../reports/executive-summaries/registry';
+import { ExecutiveSummaryGate } from './ExecutiveSummaryGate';
 
 interface Props {
   pages?: number;
@@ -39,12 +40,15 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages, 
         <div className="ra-head"><span className="ra-price">Free</span></div>
         <p className="ra-meta">{meta}</p>
         {previewHref ? (
-          <>
-            <a className="btn-ed btn-ed-primary ra-btn" href={previewHref} target="_blank" rel="noopener" download>
-              Download PDF <span className="arr">↓</span>
-            </a>
-            <p className="ra-fine">Free — no registration required.</p>
-          </>
+          <ExecutiveSummaryGate
+            slug={slug}
+            pdfUrl={previewHref}
+            pdfLabel={`${pages ? `${pages}-page ` : ''}report PDF`}
+            source={`report:${slug}`}
+            intro="Free report — enter your email to download the full PDF. We'll also send you updates and corrections on this research."
+            buttonLabel="Download PDF"
+            downloadLabel="Download the full report (PDF)"
+          />
         ) : (
           <p className="ra-fine">The PDF is being prepared.</p>
         )}
