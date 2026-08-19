@@ -9,6 +9,8 @@ import { ShareBar } from '../../components/ShareBar';
 import { RelatedContent } from '../../components/RelatedContent';
 import { MicroFeedback } from '../../components/MicroFeedback';
 import { Comments } from '../../components/Comments';
+import { getReport } from '../../reports/data';
+import { SIGNAL_TO_REPORTS } from '../report-links';
 
 export async function generateStaticParams() {
   let signals: any[] = staticSignals;
@@ -183,6 +185,22 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
         <div style={{ marginTop: 40, marginBottom: 8 }}>
           <ShareBar title={s.title} />
         </div>
+
+        {SIGNAL_TO_REPORTS[s.slug] && SIGNAL_TO_REPORTS[s.slug].length ? (
+          <div style={{ marginTop: 34, border: '1px solid rgba(201,168,76,.3)', background: 'rgba(201,168,76,.05)', borderRadius: 14, padding: '20px 22px' }}>
+            <div style={{ textTransform: 'uppercase', letterSpacing: '.12em', fontSize: 11, color: 'var(--accent, #C9A84C)', marginBottom: 12 }}>The full report</div>
+            {SIGNAL_TO_REPORTS[s.slug].map((rs: string) => {
+              const r = getReport(rs);
+              if (!r) return null;
+              return (
+                <Link key={rs} href={`/reports/${rs}/`} style={{ display: 'block', marginBottom: 10, color: 'inherit', textDecoration: 'none' }}>
+                  <div style={{ fontSize: 17, fontWeight: 600, lineHeight: 1.4, marginBottom: 4 }}>{r.title}</div>
+                  <span style={{ color: 'var(--accent, #C9A84C)', fontSize: 14 }}>Read the full report →</span>
+                </Link>
+              );
+            })}
+          </div>
+        ) : null}
 
         <div className="report-cta" style={{ padding: 0, marginTop: 48 }}>
           <div className="report-cta-inner">

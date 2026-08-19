@@ -46,7 +46,7 @@ export const corridors: Corridor[] = [
     pts: [[170.2,446.3],[183,463],[166,467],[154.6,491.6]], pin: [171,478],
     nodes: [{name:"Palakkad",state:"Kerala",note:"Planned node, Kerala gateway"},{name:"Salem / Dharmapuri",state:"Tamil Nadu",note:"Western Tamil Nadu cluster"}],
     official: [{label:"NICDC — National Industrial Corridor Development Corp",url:"https://nicdc.in/"},{label:"Make in India — Industrial Corridors",url:"https://www.makeinindia.com/live-projects-industrial-corridor"},{label:"DPIIT — Industrial Corridors",url:"https://dpiit.gov.in/"}],
-    reports: [],
+    reports: ["the-opportunity-beyond-the-fab"],
     faq: [{q:"What is the CBIC extension to Kochi (via Coimbatore)?",a:"Extends the CBIC spine to Kerala's industrial west coast. It spans Extension and is part of India's National Industrial Corridor Development Programme."},{q:"Which states does the CBIC-K pass through?",a:"Tamil Nadu, Kerala."},{q:"What is the current status of the CBIC-K?",a:"Planned · detailed master planning initiated."}],
   },
   {
@@ -56,7 +56,7 @@ export const corridors: Corridor[] = [
     pts: [[137,154],[151,165],[170.4,200.8],[182,223],[215,235],[285,248],[332,295]], pin: [251,240],
     nodes: [{name:"Raghunathpur",state:"West Bengal",note:"Eastern terminus node"},{name:"Prag-Khurpia Farms",state:"Uttarakhand",note:"IMC under development"},{name:"Rajpura–Patiala",state:"Punjab",note:"IMC under development"},{name:"Hisar",state:"Haryana",note:"IMC under development"},{name:"Gaya",state:"Bihar",note:"IMC under development"}],
     official: [{label:"NICDC — National Industrial Corridor Development Corp",url:"https://nicdc.in/"},{label:"Make in India — Industrial Corridors",url:"https://www.makeinindia.com/live-projects-industrial-corridor"},{label:"DPIIT — Industrial Corridors",url:"https://dpiit.gov.in/"}],
-    reports: [],
+    reports: ["industrial-logistics-behind-manufacturing-india", "india-critical-manufacturing-dependencies"],
     faq: [{q:"What is the Amritsar–Kolkata Industrial Corridor?",a:"The Gangetic-plain manufacturing belt on the Eastern Dedicated Freight Corridor. It spans 1,839 km and is part of India's National Industrial Corridor Development Programme."},{q:"Which states does the AKIC pass through?",a:"Punjab, Haryana, UP, Uttarakhand, Bihar, Jharkhand, West Bengal."},{q:"What is the current status of the AKIC?",a:"In build-out · perspective plan complete; IMCs progressing."}],
   },
   {
@@ -66,7 +66,7 @@ export const corridors: Corridor[] = [
     pts: [[195.5,369],[198,318]], pin: [197,343],
     nodes: [{name:"Zaheerabad",state:"Telangana",note:"12,635-acre node; phase 1 proposed"}],
     official: [{label:"NICDC — National Industrial Corridor Development Corp",url:"https://nicdc.in/"},{label:"Make in India — Industrial Corridors",url:"https://www.makeinindia.com/live-projects-industrial-corridor"},{label:"DPIIT — Industrial Corridors",url:"https://dpiit.gov.in/"}],
-    reports: [],
+    reports: ["semicon-2-0-opportunity-map"],
     faq: [{q:"What is the Hyderabad–Nagpur Industrial Corridor?",a:"Connects central India with the southern industrial cluster. It spans Telangana – Maharashtra and is part of India's National Industrial Corridor Development Programme."},{q:"Which states does the HNIC pass through?",a:"Telangana, Maharashtra."},{q:"What is the current status of the HNIC?",a:"In build-out · phase-1 (3,909 acres) proposed."}],
   },
   {
@@ -76,7 +76,7 @@ export const corridors: Corridor[] = [
     pts: [[195.5,369],[205,367]], pin: [219,367],
     nodes: [{name:"Hyderabad Pharma City (NIMZ)",state:"Telangana",note:"Priority pharma node; ~8,000 acres"}],
     official: [{label:"NICDC — National Industrial Corridor Development Corp",url:"https://nicdc.in/"},{label:"Make in India — Industrial Corridors",url:"https://www.makeinindia.com/live-projects-industrial-corridor"},{label:"DPIIT — Industrial Corridors",url:"https://dpiit.gov.in/"}],
-    reports: [],
+    reports: ["india-critical-manufacturing-dependencies"],
     faq: [{q:"What is the Hyderabad–Warangal Industrial Corridor?",a:"Pharma-anchored corridor between Telangana's two largest hubs. It spans 235 km and is part of India's National Industrial Corridor Development Programme."},{q:"Which states does the HWIC pass through?",a:"Telangana."},{q:"What is the current status of the HWIC?",a:"In build-out · phase-1 ~8,000 acres."}],
   },
   {
@@ -86,7 +86,7 @@ export const corridors: Corridor[] = [
     pts: [[195.5,369],[182,401],[170.2,446.3]], pin: [178,421],
     nodes: [{name:"Orvakal",state:"Andhra Pradesh",note:"4,742-acre mega industrial hub"},{name:"Kopparthy",state:"Andhra Pradesh",note:"Electronics manufacturing cluster"}],
     official: [{label:"NICDC — National Industrial Corridor Development Corp",url:"https://nicdc.in/"},{label:"Make in India — Industrial Corridors",url:"https://www.makeinindia.com/live-projects-industrial-corridor"},{label:"DPIIT — Industrial Corridors",url:"https://dpiit.gov.in/"}],
-    reports: [],
+    reports: ["india-edge-ai-economy", "semicon-2-0-opportunity-map"],
     faq: [{q:"What is the Hyderabad–Bengaluru Industrial Corridor?",a:"Links central India to the southern tech corridor. It spans 3 states and is part of India's National Industrial Corridor Development Programme."},{q:"Which states does the HBIC pass through?",a:"Telangana, Andhra Pradesh, Karnataka."},{q:"What is the current status of the HBIC?",a:"In build-out · master planning complete."}],
   },
   {
@@ -96,7 +96,7 @@ export const corridors: Corridor[] = [
     pts: [[170.2,446.3],[139,406],[112,368],[103.1,355.6]], pin: [123,388],
     nodes: [{name:"Dharwad",state:"Karnataka",note:"Priority node, ~6,042 acres"},{name:"Satara",state:"Maharashtra",note:"~12,355-acre node"}],
     official: [{label:"NICDC — National Industrial Corridor Development Corp",url:"https://nicdc.in/"},{label:"Make in India — Industrial Corridors",url:"https://www.makeinindia.com/live-projects-industrial-corridor"},{label:"DPIIT — Industrial Corridors",url:"https://dpiit.gov.in/"}],
-    reports: [],
+    reports: ["semicon-2-0-opportunity-map"],
     faq: [{q:"What is the Bengaluru–Mumbai Industrial Corridor?",a:"Connects two of India's biggest metros across the Deccan. It spans Karnataka – Maharashtra and is part of India's National Industrial Corridor Development Programme."},{q:"Which states does the BMIC pass through?",a:"Karnataka, Maharashtra."},{q:"What is the current status of the BMIC?",a:"In build-out · consultants appointed."}],
   },
   {
@@ -116,7 +116,7 @@ export const corridors: Corridor[] = [
     pts: [[282,346],[295,331],[299,321]], pin: [295,331],
     nodes: [{name:"Gopalpur–Bhubaneswar–Kalinganagar (Zone 1)",state:"Odisha",note:"GBK industrial belt"},{name:"Paradip–Dhamra–Subarnarekha (Zone 2)",state:"Odisha",note:"PKDS coastal belt"}],
     official: [{label:"NICDC — National Industrial Corridor Development Corp",url:"https://nicdc.in/"},{label:"Make in India — Industrial Corridors",url:"https://www.makeinindia.com/live-projects-industrial-corridor"},{label:"DPIIT — Industrial Corridors",url:"https://dpiit.gov.in/"}],
-    reports: [],
+    reports: ["critical-minerals-strategic-roadmap"],
     faq: [{q:"What is the Odisha Economic Corridor?",a:"Eleven industrial clusters along Odisha's coast, linking to VCIC. It spans ~600 km along NH-16 and is part of India's National Industrial Corridor Development Programme."},{q:"Which states does the OEC pass through?",a:"Odisha."},{q:"What is the current status of the OEC?",a:"In build-out · development activities initiated."}],
   },
   {
@@ -126,7 +126,7 @@ export const corridors: Corridor[] = [
     pts: [[170.4,200.8],[182,223],[198,318]], pin: [190,272],
     nodes: [{name:"Perspective-plan stage",state:"Multiple",note:"Node planning under way along the N–S DFC"}],
     official: [{label:"NICDC — National Industrial Corridor Development Corp",url:"https://nicdc.in/"},{label:"Make in India — Industrial Corridors",url:"https://www.makeinindia.com/live-projects-industrial-corridor"},{label:"DPIIT — Industrial Corridors",url:"https://dpiit.gov.in/"}],
-    reports: [],
+    reports: ["industrial-logistics-behind-manufacturing-india"],
     faq: [{q:"What is the Delhi–Nagpur Industrial Corridor?",a:"Planned spine down the North–South Dedicated Freight Corridor. It spans 5 states and is part of India's National Industrial Corridor Development Programme."},{q:"Which states does the DNIC pass through?",a:"Delhi, UP, Rajasthan, MP, Maharashtra."},{q:"What is the current status of the DNIC?",a:"Planned · perspective plan initiated."}],
   },
 ];
