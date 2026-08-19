@@ -153,10 +153,24 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
 
         <div className="report-body" style={{ padding: 0 }}>
           {s.body ? (
-            s.body.map((blk: { type: string; text?: string; items?: string[] }, i: number) => {
+            s.body.map((blk: { type: string; text?: string; items?: string[]; src?: string; alt?: string; caption?: string }, i: number) => {
               if (blk.type === 'h') return <h3 key={i} className="serif">{blk.text}</h3>;
               if (blk.type === 'list')
                 return <ul key={i}>{blk.items?.map((it: string, j: number) => <li key={j}>{inlineLinks(it)}</li>)}</ul>;
+              if (blk.type === 'quote')
+                return (
+                  <blockquote key={i} style={{ borderLeft: '3px solid var(--accent, #C9A84C)', paddingLeft: 18, margin: '24px 0', fontStyle: 'italic', fontSize: 18, lineHeight: 1.55, color: 'var(--text-body)' }}>
+                    {inlineLinks(blk.text)}
+                  </blockquote>
+                );
+              if (blk.type === 'img')
+                return (
+                  <figure key={i} style={{ margin: '26px 0' }}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={blk.src} alt={blk.alt || ''} loading="lazy" style={{ width: '100%', height: 'auto', borderRadius: 10, border: '1px solid var(--border, rgba(255,255,255,.1))' }} />
+                    {blk.caption ? <figcaption style={{ fontSize: 12, color: 'var(--text-dim, #c7c7d2)', marginTop: 8, textAlign: 'center' }}>{inlineLinks(blk.caption)}</figcaption> : null}
+                  </figure>
+                );
               return <p key={i}>{inlineLinks(blk.text)}</p>;
             })
           ) : (
