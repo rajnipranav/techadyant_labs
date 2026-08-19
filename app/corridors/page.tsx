@@ -6,7 +6,7 @@ import CorridorGLMap from './CorridorGLMap';
 import { corridorFeatures, nodeFeatures } from './corridor-geojson';
 import { corridors, corridorBySlug, CLASS_COLOR, CLASS_LABEL } from './data';
 import { leaderboard, TIER_COLOR, corridorIntel } from './corridor-intel';
-import { deepFor } from './node-data';
+import { deepFor, corridorDeep } from './node-data';
 import { JsonLd, breadcrumb, datasetLd, SITE } from '../research/seo';
 
 export const metadata: Metadata = {
@@ -33,6 +33,20 @@ export const metadata: Metadata = {
 };
 
 const shortName = (n: string) => n.replace(' Industrial Corridor', '').replace(' Economic Corridor', ' (OEC)');
+
+// Recent node-level developments across all corridors (quarterly delta surface).
+const MONTHS: Record<string, number> = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+const dateKey = (d: string): number => {
+  const m = String(d).match(/(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i);
+  const y = String(d).match(/(20\d{2})/);
+  return (y ? Number(y[1]) : 0) * 100 + (m ? (MONTHS[m[1].toLowerCase()] ?? 12) : 12);
+};
+const abbrOf: Record<string, string> = Object.fromEntries(corridors.map((c) => [c.slug, c.abbr]));
+const recentDevelopments = Object.values(corridorDeep)
+  .flatMap((cd) => cd.nodes.flatMap((n) => (n.timeline ?? []).map((tl) => ({ date: tl.date, label: tl.label, node: n.name, corr: cd.slug }))))
+  .filter((x) => dateKey(x.date) <= 202608 && !/target|horizon|reappraisal|projected|build-out/i.test(x.label))
+  .sort((a, b) => dateKey(b.date) - dateKey(a.date))
+  .slice(0, 6);
 
 export default function CorridorsIndex() {
   const itemList = {
@@ -93,6 +107,30 @@ export default function CorridorsIndex() {
           </div>
         </div>
       </header>
+
+      <section className="wrap">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker" style={{ color: '#C9A84C' }}>Tracked developments</div>
+            <h2>What changed this quarter</h2>
+          </div>
+        </div>
+        <p style={{ color: 'var(--text-muted)', fontSize: '14px', maxWidth: '70ch', marginBottom: '6px' }}>
+          The latest node-level developments across the eleven corridors, from DPIIT/NICDC status reports and PIB releases.
+        </p>
+        <ul className="corr-milestones" role="list" style={{ marginTop: 4 }}>
+          {recentDevelopments.map((w, i) => (
+            <li key={i}>
+              <span className="cm-date">{w.date}</span>
+              <span className="cm-label">
+                <Link href={`/corridors/${w.corr}/`} style={{ color: 'var(--link, #6cb0ff)' }}>{w.label}</Link>
+                <em className="cm-node">— {w.node} · {abbrOf[w.corr]}</em>
+              </span>
+            </li>
+          ))}
+        </ul>
+        <p className="chart-src">Node-level developments tracked from DPIIT/NICDC status reports and PIB releases · each dossier carries the full timeline and linked sources.</p>
+      </section>
 
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: '#C9A84C' }}>Interactive map</div><h2>Explore the corridors geographically</h2></div></div>
