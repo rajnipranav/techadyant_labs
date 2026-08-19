@@ -10,13 +10,13 @@ import { signals } from './signals/data';
 import { corridorsOrdered, meta, rollup } from './research/atlas';
 import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardSimple } from './research/extra-ecosystems';
 import { briefings as allBriefings } from './briefings/data';
-import { allCorridorNodePairs } from './corridors/node-data';
+import { allCorridorNodePairs, corridorDeep } from './corridors/node-data';
 import { issues as newsletterIssues } from './newsletter/data';
 
 export const metadata: Metadata = {
-  title: 'Strategic intelligence on India’s industrial systems',
+  title: 'Industrial intelligence on India: corridors, dependency maps & signals',
   description:
-    'Independent, India-first strategic research on industrial transformation, infrastructure systems, semiconductors, AI infrastructure and second-order economic change — with living surfaces: national corridor maps, import-dependency atlases and a monthly strategic brief.',
+    'Independent, India-first research and living data: 11 national industrial corridors on satellite maps, import-dependency atlases, semiconductor and AI-infrastructure reports, signals and a monthly strategic brief — plus commissioned research and DPRs.',
   alternates: { canonical: 'https://labs.techadyant.com/' },
 };
 
@@ -46,6 +46,21 @@ const depLayersCount = corridorsOrdered.reduce(
   (acc, c) => acc + (rollup(c.id)?.importDependent ?? 0), 0);
 const latestIssue = [...newsletterIssues].filter((i) => i.status === 'live')[0] ?? newsletterIssues[0];
 
+// ── Freshness: recent node-level developments across the national corridors ──
+const MONTHS: Record<string, number> = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+const dateKey = (d: string): number => {
+  const m = String(d).match(/(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i);
+  const y = String(d).match(/(20\d{2})/);
+  return (y ? Number(y[1]) : 0) * 100 + (m ? (MONTHS[m[1].toLowerCase()] ?? 12) : 12);
+};
+const nicdpAbbr: Record<string, string> = Object.fromEntries(nicdpCorridors.map((c) => [c.slug, c.abbr]));
+const whatsNew = Object.values(corridorDeep)
+  .flatMap((cd) => cd.nodes.flatMap((n) => (n.timeline ?? []).map((tl) => ({ date: tl.date, label: tl.label, node: n.name, corr: cd.slug }))))
+  .filter((x) => dateKey(x.date) <= 202608 && !/target|horizon|reappraisal|projected|build-out/i.test(x.label))
+  .sort((a, b) => dateKey(b.date) - dateKey(a.date))
+  .slice(0, 4);
+const trackerUpdated = whatsNew[0]?.date ?? '';
+
 const PLATFORM: { k: string; href: string; n: string; l: string }[] = [
   { k: 'Reports', href: '/reports/', n: `${reportCount}`, l: 'Long-form research + executive summaries, one strategic question at a time.' },
   { k: 'Corridors', href: '/corridors/', n: `${corridorsCount} · ${nodesCount}`, l: 'National corridors, node dossiers, satellite GIS maps and opportunity surfaces.' },
@@ -56,9 +71,37 @@ const PLATFORM: { k: string; href: string; n: string; l: string }[] = [
   { k: 'Services', href: '/services/', n: 'DPR-ready', l: 'Commissioned research, investment-grade DPRs, briefings and licensing.' },
 ];
 
+const HOME_LD = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': 'https://labs.techadyant.com/#website',
+      url: 'https://labs.techadyant.com/',
+      name: 'Techadyant Labs',
+      description: 'Independent strategic intelligence on India’s industrial systems.',
+      publisher: { '@type': 'Organization', name: 'Techadyant Labs', url: 'https://labs.techadyant.com/' },
+    },
+    {
+      '@type': 'ItemList',
+      name: 'Techadyant Labs — platform surfaces',
+      itemListElement: PLATFORM.map((p, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: p.k,
+        url: `https://labs.techadyant.com${p.href}`,
+      })),
+    },
+  ],
+};
+
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(HOME_LD) }}
+      />
       {/* ── Editorial hero ── */}
       <section className="ed-hero">
         <HeroCanvas />
@@ -231,6 +274,32 @@ export default function HomePage() {
             <Link href="/corridors/" className="btn-ed btn-ed-primary">Explore the corridors <span className="arr">→</span></Link>
           </div>
         </div>
+      </section>
+
+      {/* ── What's moving (freshness + recent corridor developments) ── */}
+      <section className="wrap" aria-labelledby="now-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker"><span className="live" /> Now · {latestSignals[0]?.dateLabel ?? 'live'}</div>
+            <h2 id="now-h">What changed on the ground</h2>
+          </div>
+          <Link href="/corridors/" className="see-all">Corridor tracker →</Link>
+        </div>
+        <p className="section-note" style={{ maxWidth: '70ch', marginBottom: 18 }}>
+          The most recent node-level developments across the {corridorsCount} national corridors, pulled straight from the corridor tracker’s timelines.
+        </p>
+        <ul className="corr-milestones" role="list">
+          {whatsNew.map((w, i) => (
+            <li key={i}>
+              <span className="cm-date">{w.date}</span>
+              <span className="cm-label">
+                <Link href={`/corridors/${w.corr}/`} style={{ color: 'var(--link, #6cb0ff)' }}>{w.label}</Link>
+                <em className="cm-node">— {w.node} · {nicdpAbbr[w.corr]}</em>
+              </span>
+            </li>
+          ))}
+        </ul>
+        <p className="chart-src">Node-level developments tracked from DPIIT/NICDC status reports and PIB releases · corridor tracker updated {trackerUpdated}.</p>
       </section>
 
       {/* ── Latest signals ── */}
