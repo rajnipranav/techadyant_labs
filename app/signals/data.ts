@@ -1975,7 +1975,7 @@ export const signals: SignalMeta[] = [{
   sources: ['The Times of India (16 Aug 2026): https://timesofindia.indiatimes.com/defence/news/indian-co-on-up-defence-corridor-successfully-conducts-maiden-test-flight-of-indigenously-developed-jet-powered-loitering-munition/articleshow/133277851.cms', 'Business Today (16 Aug 2026): https://www.businesstoday.in/india/story/divyastra-mk3-lucknow-defence-startup-tests-indias-first-fully-indigenous-jet-powered-loitering-munition-549461-2026-08-16']
 }, {
   slug: 'india-leases-two-mq-9b-seaguardian-indian-navy-indian-ocean-surveillance',
-  no: 'S-059',
+  no: 'S-060',
   title: 'India Leases Two MQ-9B SeaGuardians to Close the Navy\'s Surveillance Gap',
   domain: 'Defence & Dual-Use',
   date: '2026-08-18',
@@ -2000,7 +2000,7 @@ export const signals: SignalMeta[] = [{
   sources: ['Business Today (17 Aug 2026): https://www.businesstoday.in/india/story/ocean-sentinels-india-inks-rs1943-crore-lease-for-two-mq-9b-sea-guardian-drones-549640-2026-08-17', 'NDTV (17 Aug 2026): https://www.ndtv.com/world-news/india-signs-rs-1-900-crore-deal-to-lease-2-mq-9b-seaguardian-drones-11920544', 'The Times of India (17 Aug 2026): https://timesofindia.indiatimes.com/defence/news/navy-gets-mq-9b-boost-india-leases-2-sea-guardians-for-indian-ocean-surveillance/articleshow/133292605.cms']
 }, {
   slug: 'indian-army-orders-indrajaal-ranger-mobile-counter-drone-system',
-  no: 'S-060',
+  no: 'S-061',
   title: 'India Orders Rs 155 Crore Indrajaal Ranger Mobile Counter-Drone Vehicles',
   domain: 'Defence & Dual-Use',
   date: '2026-08-18',
@@ -2023,6 +2023,34 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Government agencies ordered the Indrajaal Ranger mobile counter-drone vehicle from an Indrajaal-Sigma Advanced Systems consortium, in orders totalling ~Rs 155 crore.', 'The orders split into a Rs 145 crore border-security procurement and a Rs 10 crore urban-police order for VVIP protection and urban security.', 'The platform neutralises drones within a 4 km envelope via cyber takeover, GNSS spoofing, RF jamming and physical interception - and stays operational while on the move at high speeds.', 'It is India\'s only ARDTC-approved anti-drone patrol vehicle (Toyota Hilux-based, SkyOS-powered), evaluated by government agencies and selected by the Ministry of Home Affairs.'],
   sources: ['The Week (17 Aug 2026): https://www.theweek.in/news/defence/2026/08/17/indian-army-orders-mobile-anti-drone-system-what-can-indrajaal-ranger-do.html', 'India Today (17 Aug 2026): https://www.indiatoday.in/india/story/mobile-anti-drone-systems-india-orders-rs-155-crore-indrajaal-ranger-borders-urban-security-2973563-2026-08-17', 'Indian Defence News (17 Aug 2026): https://www.indiandefensenews.in/2026/08/indrajaal-and-sigma-secure-155-crore.html']
+}, {
+  slug: 'three-indian-semiconductor-plants-live-ism-20-approved-semicon-india-2026',
+  no: 'S-062',
+  title: 'Three Indian semiconductor plants are now in commercial production; ISM 2.0 approved with Rs 1,27,500 crore outlay',
+  domain: 'Semiconductors & Electronics',
+  date: '2026-08-19',
+  dateLabel: 'August 2026',
+  status: 'live',
+  excerpt: 'MeitY Secretary S Krishnan announced on 18 August that three semiconductor facilities — Micron, Kaynes and CG Semi, all at Sanand in Gujarat — have entered commercial production under ISM 1.0, with five to six projects expected to be live by end-2026. The Union Cabinet has approved ISM 2.0 with an outlay of Rs 1,27,500 crore, and PM Modi will inaugurate SEMICON India 2026 on 17 September.',
+  readingTime: '3 min read',
+  body: [{
+  text: 'At a press conference on 18 August 2026 announcing the fifth edition of SEMICON India, MeitY Secretary S Krishnan declared that three major semiconductor facilities approved under the first phase of the India Semiconductor Mission have entered commercial production — Micron, Kaynes and CG Semi, all located at Sanand in Gujarat. The Prime Minister inaugurated the first of these on 28 February 2026, with two more following, and Krishnan projected that five to six projects would be in commercial production by the end of the calendar year. These are the concrete outputs of ISM 1.0, which approved twelve projects worth a combined Rs 1.64 lakh crore across Gujarat, Assam, Uttar Pradesh, Punjab, Odisha and Andhra Pradesh.',
+  type: 'p'
+}, {
+  text: 'The most strategically significant item in the pipeline is the Tata-Powerchip fabrication plant at Dholera, Gujarat. The Rs 91,000 crore facility is designed for 50,000 wafers a month on the 28-nanometre node and targets its first chip in December 2026. If it delivers, it will be the first plant to actually fabricate silicon on Indian soil rather than assembling and packaging imported chips — the step that converts India\'s semiconductor programme from back-end activity into front-end fabrication, the segment with the deepest strategic value.',
+  type: 'p'
+}, {
+  text: 'Alongside the production milestones, the government signalled the next policy phase. The Union Cabinet approved ISM 2.0 on 15 July 2026 with an outlay of Rs 1,27,500 crore — against Rs 76,000 crore for the first phase — and extended the programme\'s timeline from five years to twelve, a change designed for capital projects that take years to build. The second phase widens coverage across six areas: chip design, machines and materials, fabrication units, assembly, testing and packaging with a focus on advanced packaging, research and development in fields such as silicon photonics and power semiconductors, and talent development. Krishnan said the notification for ISM 2.0 would be issued shortly.',
+  type: 'p'
+}, {
+  text: 'The announcement also fixed the date for SEMICON India 2026, themed \'Silicon to Systems: Building the Ecosystem\'. PM Modi will hold a roundtable with global semiconductor chief executives on 16 September and inaugurate the two-day conference and exhibition at Yashobhoomi in New Delhi on 17 September. More than 500 exhibitors, 150 speakers, delegations from over 40 countries and six country pavilions are expected, including ASML, Applied Materials, Lam Research, Tokyo Electron, Infineon, Micron, Tata Electronics, NXP and IBM Research. The government\'s stated ambition is to double India\'s domestic semiconductor demand from $100 billion to $200 billion and place India among the world\'s top five chip ecosystems by 2029.',
+  type: 'p'
+}, {
+  text: 'What makes this a signal rather than another policy announcement is the shift in evidentiary weight. ISM 1.0 is no longer a portfolio of approvals and memorandum of understanding ceremonies — three facilities are shipping commercial product today, and the fabrication frontier (Tata-Powerchip) is months away from first silicon. The doubling of the outlay in ISM 2.0 and the extension of the programme to twelve years indicate the government has moved from seeding the industry to underwriting a multi-decade build-out. The test to watch is whether the Dholera fab achieves its December 2026 first-chip target and whether ISM 2.0\'s notification translates cabinet approval into signed projects.',
+  type: 'p'
+}],
+  takeaways: ['Three ISM 1.0 semiconductor facilities — Micron, Kaynes and CG Semi at Sanand, Gujarat — have entered commercial production, with five to six projects expected live by end-2026.', 'The Rs 91,000 crore Tata-Powerchip fab at Dholera (50,000 wafers/month, 28nm) targets its first chip in December 2026 — the first silicon fabrication on Indian soil.', 'The Union Cabinet approved ISM 2.0 on 15 July 2026 with an outlay of Rs 1,27,500 crore (up from Rs 76,000 crore for ISM 1.0) and a 12-year timeline.', 'PM Modi will hold a global semiconductor CEO roundtable on 16 September and inaugurate SEMICON India 2026 at Yashobhoomi on 17 September, with 500+ exhibitors expected.', 'India\'s domestic semiconductor demand is projected to double from $100 billion to $200 billion, with a top-five global chip ecosystem target by 2029.'],
+  sources: ['The Times of India (18 Aug 2026): https://timesofindia.indiatimes.com/business/india-business/indias-chip-story-enters-next-phase-5-6-semiconductor-projects-may-go-commercial-by-end-of-2026/articleshow/133320153.cms', 'Business Line (18 Aug 2026): https://www.thehindubusinessline.com/info-tech/indias-semiconductor-ecosystem-set-for-expansion-5-6-projects-may-go-live-by-2026-end-meity-secy-s-krishnan/article71359849.ece', 'ThePrint (18 Aug 2026): https://theprint.in/india/semicon-india-2026-pm-modi-to-meet-global-semiconductor-chiefs-as-govt-targets-200-bn-market/3018047/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
