@@ -15,10 +15,6 @@ export function generateStaticParams() {
 const clampDesc = (s: string, n = 158): string => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
 
 const PLAYER_SEO: Record<string, { title: string; description: string }> = {
-  'irel-odisha-sand-complex-oscom-chhatrapur': {
-    title: 'OSCOM Odisha (IREL): Rare Earth Sand Complex & Supply Chain Map',
-    description: "Independent analysis of IREL's OSCOM Odisha sand complex — India's critical rare earth dependency. Supply chain, import bottlenecks and strategic beneficiaries.",
-  },
   'irel-india-limited': {
     title: 'IREL India Limited: Rare Earth Mining, Processing & Strategy',
     description: 'Indian Rare Earths Limited (IREL): beach sand mining, monazite processing and rare earth separation — capacity, import dependencies and technology gaps.',

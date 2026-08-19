@@ -20,9 +20,9 @@ const clamp = (value: string, length = 158) =>
   value.length <= length ? value : `${value.slice(0, length - 1).replace(/\s+\S*$/, '')}...`;
 
 const ENTITY_SEO: Record<string, { title: string; description: string }> = {
-  'irel-odisha-sand-complex-oscom-chhatrapur': {
-    title: "IREL OSCOM Odisha: Rare Earth Extraction & India's Mineral Gap",
-    description: "IREL's OSCOM complex extracts rare earth sands, but China still dominates separation. Full value chain, technology gaps and domestic processing.",
+  'irel-india-limited': {
+    title: "IREL (India) Limited: Rare Earths & Critical Mineral Gap",
+    description: "IREL's OSCOM Odisha sands complex and monazite processing: rare earth extraction, separation and why China still dominates. India's critical mineral value chain.",
   },
   'khanij-bidesh-india-limited-kabil': {
     title: "KABIL: India's Critical Minerals Acquisition Strategy",
