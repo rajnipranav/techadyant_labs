@@ -19,6 +19,17 @@ export function generateStaticParams() {
 const clamp = (value: string, length = 158) =>
   value.length <= length ? value : `${value.slice(0, length - 1).replace(/\s+\S*$/, '')}...`;
 
+const ENTITY_SEO: Record<string, { title: string; description: string }> = {
+  'irel-odisha-sand-complex-oscom-chhatrapur': {
+    title: "IREL OSCOM Odisha: Rare Earth Extraction & India's Mineral Gap",
+    description: "IREL's OSCOM complex extracts rare earth sands, but China still dominates separation. Full value chain, technology gaps and domestic processing.",
+  },
+  'khanij-bidesh-india-limited-kabil': {
+    title: "KABIL: India's Critical Minerals Acquisition Strategy",
+    description: 'Khanij Bidesh India Limited (KABIL): securing lithium, cobalt and rare earths for India through overseas acquisitions and joint ventures.',
+  },
+};
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const entity = entityBySlug(slug);
@@ -26,8 +37,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   // Front-load the entity name; drop the long boilerplate that pushed the matched
   // name behind generic words and truncated in the SERP (throttles entity-query CTR).
-  const title = `${entity.title} — profile, capabilities & India supply chain`;
-  const description = clamp(entity.summary || `Strategic intelligence & industrial profile for ${entity.title} in India's technology ecosystem.`);
+  const ov = ENTITY_SEO[slug];
+  const title = ov?.title || `${entity.title} — profile, capabilities & India supply chain`;
+  const description = clamp(ov?.description || entity.summary || `Strategic intelligence & industrial profile for ${entity.title} in India's technology ecosystem.`);
 
   return {
     title,

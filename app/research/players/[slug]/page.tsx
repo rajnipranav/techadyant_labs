@@ -14,6 +14,17 @@ export function generateStaticParams() {
 
 const clampDesc = (s: string, n = 158): string => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
 
+const PLAYER_SEO: Record<string, { title: string; description: string }> = {
+  'irel-odisha-sand-complex-oscom-chhatrapur': {
+    title: 'OSCOM Odisha (IREL): Rare Earth Sand Complex & Supply Chain Map',
+    description: "Independent analysis of IREL's OSCOM Odisha sand complex — India's critical rare earth dependency. Supply chain, import bottlenecks and strategic beneficiaries.",
+  },
+  'irel-india-limited': {
+    title: 'IREL India Limited: Rare Earth Mining, Processing & Strategy',
+    description: 'Indian Rare Earths Limited (IREL): beach sand mining, monazite processing and rare earth separation — capacity, import dependencies and technology gaps.',
+  },
+};
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const p = playerBySlug(slug);
@@ -22,10 +33,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   // Front-load the entity name (the thing people actually search) with a short,
   // natural qualifier — the old boilerplate suffix pushed the matched name behind
   // generic words and truncated in the SERP, throttling CTR on page-1 entity queries.
-  const title = `${p.name} — profile, capabilities & India supply chain`;
-  const descRaw = (p.description && p.description.length >= 110)
+  const ov = PLAYER_SEO[slug];
+  const title = ov?.title || `${p.name} — profile, capabilities & India supply chain`;
+  const descRaw = ov?.description || ((p.description && p.description.length >= 110)
     ? p.description
-    : `${p.name} (${p.type}) in India's industrial ecosystem: manufacturing footprint, capabilities, corridor links and key relationships.`;
+    : `${p.name} (${p.type}) in India's industrial ecosystem: manufacturing footprint, capabilities, corridor links and key relationships.`);
   const description = clampDesc(descRaw);
 
   return {

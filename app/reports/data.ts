@@ -1115,10 +1115,10 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-07-09',
   seo: {
   entities: ['cargo drone', 'BVLOS', 'UTM', 'Drone Rules 2021', 'PLI scheme', 'Zipline', 'healthcare logistics', 'last-mile delivery', 'India logistics', 'DGCA'],
-  metaTitle: 'India Cargo Drone Market 2026-2035: Demand Forecast, Ecosystems & Opportunities',
+  metaTitle: 'India Cargo Drone Market 2026–2035: Logistics & Last-Mile',
   schemaType: 'Report',
   focusKeyword: 'india cargo drone market',
-  metaDescription: 'India\'s civil cargo drone market to 2035 - fleet and revenue forecasts across three scenarios, ten demand ecosystems led by healthcare and medical delivery, a proprietary Adoption Readiness Index, and 25 hidden opportunity surfaces for OEMs, operators, SMEs and investors.'
+  metaDescription: 'Where cargo drones deploy first in India: defence logistics, e-commerce last-mile, medical supply chains and the regulatory bottlenecks. Forecast to 2035.'
 }
 }, {
   slug: 'india-loitering-munitions-market',
@@ -1165,10 +1165,10 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-07-08',
   seo: {
   entities: ['Nagastra', 'ALS-50', 'SkyStriker', 'ULPGM-V3', 'Economic Explosives', 'Tata Advanced Systems', 'DRDO', 'Bharat Dynamics', 'Operation Sindoor', 'NdFeB magnets', 'REPM scheme', 'NavIC'],
-  metaTitle: 'India Loitering Munitions Market 2026-2035: Demand, Suppliers & Sovereignty',
+  metaTitle: 'India Loitering Munitions Market 2026–2035: Suppliers & Sovereignty',
   schemaType: 'Report',
   focusKeyword: 'india loitering munitions market',
-  metaDescription: 'How many loitering munitions India will buy through 2035, which categories and suppliers win, and the subsystem chokepoints (magnets, seekers, flight controllers) that decide sovereignty.'
+  metaDescription: 'India\'s loitering munitions window to 2035: the categories and suppliers that win, and the seeker, warhead and propulsion choke points.'
 }
 }, {
   slug: 'beyond-quantum-computing',
@@ -1410,10 +1410,10 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-07-02',
   seo: {
   entities: ['AI agents', 'MCP', 'post-application stack', 'hyperscalers', 'NVIDIA', 'India Stack'],
-  metaTitle: 'AI Agents Replacing Applications: The End of the Application Era',
+  metaTitle: 'The End of the Application Era: India\'s Enterprise Software Shift',
   schemaType: 'Report',
   focusKeyword: 'AI agents replacing applications',
-  metaDescription: 'As AI agents replace applications as the primary interface to computing, value moves to inference, identity, memory and scheduling. Who captures the post-application stack - and where India stands. Free report.'
+  metaDescription: 'As AI agents replace applications, value moves to inference, identity, memory and orchestration. IndiaAI compute, sovereign cloud and API-first infrastructure.'
 }
 }, {
   slug: 'osat-and-the-packaging-frontier',
@@ -1823,10 +1823,10 @@ export const reports: ReportMeta[] = [{
   seo: {
   entities: ['IndiaAI Mission', 'India Semiconductor Mission', 'data centres', 'GPUs', 'NVIDIA', 'hyperscalers', 'Dholera', 'Bengaluru'],
   aiSummary: 'A baseline architecture for India\'s 2026–2035 AI industrial transition: data-centre capacity growing from ~1.5 GW towards 9 GW, the IndiaAI Mission\'s 34,000+ subsidised GPUs, the GPU import-dependency stack, grid stress rising from ~13 TWh to ~57 TWh, water and cooling constraints, and seven regional AI opportunity corridors across Karnataka, Telangana, Tamil Nadu, Maharashtra, Gujarat, UP/NCR and Andhra Pradesh. Free to read in full.',
-  metaTitle: 'India\'s AI Industrial Transition & Infrastructure Transformation',
+  metaTitle: 'India AI Industrial Transition 2026–2035: Where to Deploy AI First',
   schemaType: 'Report',
   focusKeyword: 'India AI infrastructure',
-  metaDescription: 'India\'s 2026-2035 AI industrial transition mapped: ten anchor numbers, six theses, compute and semiconductor build-out, power and water constraints across seven corridors.'
+  metaDescription: 'Where, how and in what sequence Indian manufacturers will deploy industrial AI — priced against the loss base, not the vendor slide. Free executive summary.'
 }
 }, {
   slug: 'india-fab-ecosystem',

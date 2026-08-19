@@ -6,13 +6,29 @@ import { companies, companyBySlug, platformsForCompany, componentsForCompany } f
 export function generateStaticParams() { return companies.map((c) => ({ slug: c.slug })); }
 export const dynamicParams = false;
 
+const COMPANY_SEO: Record<string, { title: string; description: string }> = {
+  'drdo-centre-for-airborne-systems-cabs-mfr-031': {
+    title: 'DRDO CABS: Airborne Systems R&D, UAV Programs & Suppliers',
+    description: "Inside DRDO's Centre for Airborne Systems (CABS): Nishant, Lakshya and Imperial Eagle programs, supplier ecosystem and technology transfer.",
+  },
+  'drdo-research-centre-imarat-rci-mfr-033': {
+    title: 'DRDO RCI: Missiles, Loitering Munitions & Guidance Systems',
+    description: "Inside DRDO's Research Centre Imarat (RCI): missile and loitering munition programs, supplier ecosystem and testing infrastructure.",
+  },
+  'drdo-defence-electronics-research-laboratory-dlrl-mfr-032': {
+    title: 'DRDO DLRL: Electronic Warfare, Radar & Avionics R&D',
+    description: "DRDO's Defence Electronics Research Laboratory (DLRL): EW systems, radar and avionics for Tejas, BrahMos and UAVs. Supplier mapping.",
+  },
+};
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const c = companyBySlug(slug);
   if (!c) return { title: 'Company — UAS Atlas' };
+  const ov = COMPANY_SEO[slug];
   return {
-    title: `${c.name} — India UAS Atlas${c.country ? ` (${c.country})` : ''}`,
-    description: `${c.name}: ${[c.type, c.country, c.hq].filter(Boolean).join(' · ')}. ${c.products || 'Drone platforms, components and profile in India\'s UAS ecosystem.'}`.slice(0, 250),
+    title: ov?.title || `${c.name} — India UAS Atlas${c.country ? ` (${c.country})` : ''}`,
+    description: ov?.description || `${c.name}: ${[c.type, c.country, c.hq].filter(Boolean).join(' · ')}. ${c.products || 'Drone platforms, components and profile in India\'s UAS ecosystem.'}`.slice(0, 250),
     alternates: { canonical: `https://labs.techadyant.com/research/drones-uas/company/${c.slug}/` },
   };
 }

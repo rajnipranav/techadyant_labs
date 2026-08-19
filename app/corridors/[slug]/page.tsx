@@ -15,6 +15,17 @@ import { deepFor, STAGE as NSTAGE, type NodeStage } from '../node-data';
 export function generateStaticParams() {
   return corridors.map((c) => ({ slug: c.slug }));
 }
+const CORRIDOR_SEO: Record<string, { title: string; description: string }> = {
+  'amritsar-kolkata': {
+    title: 'Amritsar–Kolkata Industrial Corridor: Node Map & Investment Zones',
+    description: 'Complete guide to the Amritsar–Kolkata Industrial Corridor: 7 states, anchor IMCs and sector-specific manufacturing opportunities for investors.',
+  },
+  'chennai-bengaluru': {
+    title: 'Chennai–Bengaluru Industrial Corridor: Electronics & Defence Hubs',
+    description: "Inside the Chennai–Bengaluru Industrial Corridor: Tamil Nadu, Karnataka and Andhra Pradesh's manufacturing spine — nodes, clusters and supply-chain infrastructure.",
+  },
+};
+
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
@@ -22,8 +33,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!c) return { title: 'Industrial Corridor' };
 
   const nodeNames = c.nodes.slice(0, 3).map((n) => n.name).join(', ');
-  const title = `${c.name} (${c.abbr}): Map, Nodes & Status [2026]`;
-  const description = `Complete investor guide & map for India's ${c.name} (${c.abbr}). Infrastructure status, state coverage (${c.states}), anchor nodes (${nodeNames}), and project developments.`;
+  const ov = CORRIDOR_SEO[slug];
+  const title = ov?.title || `${c.name} (${c.abbr}): Map, Nodes & Status [2026]`;
+  const description = ov?.description || `Complete investor guide & map for India's ${c.name} (${c.abbr}). Infrastructure status, state coverage (${c.states}), anchor nodes (${nodeNames}), and project developments.`;
 
   return {
     title,

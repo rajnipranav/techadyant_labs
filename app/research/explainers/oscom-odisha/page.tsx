@@ -4,14 +4,14 @@ import { AtlasNav } from '../../AtlasNav';
 import { JsonLd, breadcrumb, SITE, ORG_REF } from '../../seo';
 
 export const metadata: Metadata = {
-  title: 'OSCOM Odisha: IREL Mineral Sands Complex - Map, Monazite & Rare Earths',
+  title: 'OSCOM Odisha Explained: IREL’s Rare Earth Complex & Dependency',
   description:
-    'What is OSCOM Odisha? IREL (India) Limited’s Odisha Sands Complex (OSCOM) in Chhatrapur - mineral sands processing, monazite refining, titanium dioxide and India’s rare-earth supply chain, mapped.',
+    'What is OSCOM Odisha? IREL’s Odisha Sands Complex — mineral sands processing, monazite refining and why China still dominates rare earth separation. Mapped.',
   alternates: { canonical: `${SITE}/research/explainers/oscom-odisha/` },
   openGraph: {
-    title: 'OSCOM Odisha: IREL Mineral Sands Complex - Map, Monazite & Rare Earths',
+    title: 'OSCOM Odisha Explained: IREL’s Rare Earth Complex & Dependency',
     description:
-      'What is OSCOM Odisha? IREL (India) Limited’s Odisha Sands Complex (OSCOM) in Chhatrapur - mineral sands processing, monazite refining, titanium dioxide and India’s rare-earth supply chain, mapped.',
+      'What is OSCOM Odisha? IREL’s Odisha Sands Complex — mineral sands processing, monazite refining and why China still dominates rare earth separation. Mapped.',
     url: `${SITE}/research/explainers/oscom-odisha/`,
     type: 'article',
     siteName: 'Techadyant Labs',
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'OSCOM Odisha: IREL Mineral Sands Complex - Map, Monazite & Rare Earths',
+    title: 'OSCOM Odisha Explained: IREL’s Rare Earth Complex & Dependency',
     description:
-      'What is OSCOM Odisha? IREL (India) Limited’s Odisha Sands Complex (OSCOM) in Chhatrapur - mineral sands processing, monazite refining, titanium dioxide and India’s rare-earth supply chain, mapped.',
+      'What is OSCOM Odisha? IREL’s Odisha Sands Complex — mineral sands processing, monazite refining and why China still dominates rare earth separation. Mapped.',
     images: ['/og/default.png'],
   },
 };
@@ -66,9 +66,9 @@ export default function OscomOdishaPage() {
   const articleLd = {
     '@context': 'https://schema.org',
     '@type': 'TechArticle',
-    name: 'OSCOM Odisha: IREL Mineral Sands Complex - Map, Monazite & Rare Earths',
+    name: 'OSCOM Odisha Explained: IREL’s Rare Earth Complex & Dependency',
     description:
-      'What is OSCOM Odisha? IREL (India) Limited’s Odisha Sands Complex (OSCOM) in Chhatrapur - mineral sands processing, monazite refining, titanium dioxide and India’s rare-earth supply chain, mapped.',
+      'What is OSCOM Odisha? IREL’s Odisha Sands Complex — mineral sands processing, monazite refining and why China still dominates rare earth separation. Mapped.',
     url: `${SITE}/research/explainers/oscom-odisha/`,
     publisher: ORG_REF,
     about: [
