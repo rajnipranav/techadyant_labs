@@ -5,6 +5,7 @@ import { AtlasNav } from '../../AtlasNav';
 import { TrackCorridor } from '../../TrackCorridor';
 import { JsonLd, breadcrumb, faqLd, datasetLd, corridorFaq, SITE } from '../../seo';
 import { sourcesByCorridor, bestLink } from '../../sources';
+import { RelatedReportsLinks, ECOSYSTEM_TO_REPORTS } from '../../report-links';
 import {
   corridorsOrdered, meta, corridorByCode, rollup, gridForCorridor, playersForCorridor,
   chokepointsForCorridor, eventsForCorridor, playerSlug, STATUS_COLORS, STATUS_SHORT,
@@ -160,7 +161,7 @@ export default async function CorridorProfile({ params }: { params: Promise<{ sl
         <TrackCorridor code={c.code} label={c.label} accent={m.accent} />
         <div className="player-foot">
           <Link href="/research/corridors/" className="see-all">← All corridors</Link>
-          <Link href="/reports/" className="see-all">Related reports →</Link>
+          {ECOSYSTEM_TO_REPORTS[c.code]?.length ? <RelatedReportsLinks slugs={ECOSYSTEM_TO_REPORTS[c.code]} /> : <Link href="/reports/" className="see-all">Related reports →</Link>}
         </div>
       </section>
     </>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { companies, companyBySlug, platformsForCompany, componentsForCompany } from '../../data';
+import { RelatedReportsLinks, ENTITY_TO_REPORTS } from '../../../report-links';
 
 export function generateStaticParams() { return companies.map((c) => ({ slug: c.slug })); }
 export const dynamicParams = false;
@@ -99,6 +100,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
           </div>
         )}
         <div><Link href="/research/drones-uas/" style={{ color: 'var(--text-dim)', fontSize: 13 }}>← Back to the UAS Atlas</Link></div>
+        {ENTITY_TO_REPORTS[slug]?.length ? <RelatedReportsLinks slugs={ENTITY_TO_REPORTS[slug]} /> : null}
       </section>
     </>
   );

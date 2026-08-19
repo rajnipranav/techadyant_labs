@@ -7,6 +7,7 @@ import {
 } from '../../atlas';
 import { JsonLd, breadcrumb, SITE } from '../../seo';
 import { MicroFeedback } from '../../../components/MicroFeedback';
+import { RelatedReportsLinks, ENTITY_TO_REPORTS } from '../../report-links';
 
 export function generateStaticParams() {
   return allPlayers.map((p) => ({ slug: playerSlug(p.id) }));
@@ -150,7 +151,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
 
         <div className="player-foot">
           <Link href="/research/players/" className="see-all">← All players</Link>
-          <Link href="/reports/" className="see-all">Related reports →</Link>
+          {ENTITY_TO_REPORTS[slug]?.length ? <RelatedReportsLinks slugs={ENTITY_TO_REPORTS[slug]} /> : <Link href="/reports/" className="see-all">Related reports →</Link>}
         </div>
       </section>
     </>

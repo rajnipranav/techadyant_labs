@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { AtlasNav } from '../../AtlasNav';
 import { JsonLd, breadcrumb, SITE, ORG_REF } from '../../seo';
+import { RelatedReportsLinks, ENTITY_TO_REPORTS } from '../../report-links';
 import {
   ENTITY_KIND_LABELS,
   entityBySlug,
@@ -243,6 +244,12 @@ export default async function EntityPage({ params }: { params: Promise<{ slug: s
                   </li>
                 ))}
               </ul>
+            </section>
+          ) : null}
+          {ENTITY_TO_REPORTS[slug]?.length ? (
+            <section className="entity-side-panel">
+              <h2>Related reports</h2>
+              <RelatedReportsLinks slugs={ENTITY_TO_REPORTS[slug]} />
             </section>
           ) : null}
         </aside>
