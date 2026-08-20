@@ -953,9 +953,9 @@ export const reports: ReportMeta[] = [{
   cover: 'https://library.techadyant.com/covers/semicon%202.0%20opportunity%20map.jpg',
   previewObject: 'https://library.techadyant.com/free%20reports/semicon%202.0%20opportunity%20map%20-%20free.pdf',
   previewPages: 25,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
+  hasData: true,
+  priceWithData: 11999,
+  dataFilename: 'The-Semicon-2-0-Opportunity-Map-Data-Pack-Techadyant-Labs.xlsx',
   keywords: ['india semiconductor mission 2.0', 'semicon 2.0', 'india semiconductor opportunity', 'semiconductor materials india', 'semiconductor equipment india', 'photoresist india', 'specialty gases semiconductor india', 'advanced packaging OSAT india', 'semiconductor supply chain india', 'ISM 2.0 outlay', 'india chip ecosystem investment', 'semiconductor value chain india'],
   faq: [{
   a: 'Techadyant Labs defines Semicon 2.0 as the coordinated build-out of the eight-stream semiconductor ecosystem beyond fabrication and OSAT — materials, chemicals, equipment, precision manufacturing, packaging, testing, automation and industrial software. It follows the ~Rs 1.27 lakh crore India Semiconductor Mission 2.0 approved by the Union Cabinet in July 2026, whose second pillar covers machines, materials, chemicals and gases.',

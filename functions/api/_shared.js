@@ -53,6 +53,9 @@ export const REPORTS = {
     object: 'semicon 2.0 opportunity map.pdf',
     filename: 'The-Semicon-2-0-Opportunity-Map-Techadyant-Labs.pdf',
     title: 'The Semicon 2.0 Opportunity Map',
+    priceWithDataInr: 11999,
+    dataObject: 'data/Techadyant_Semicon2_0_DataWorkbook.xlsx',
+    dataFilename: 'The-Semicon-2-0-Opportunity-Map-Data-Pack-Techadyant-Labs.xlsx',
   },
   'the-sme-playbook-for-indias-drone-economy': {
     access: 'paid',
