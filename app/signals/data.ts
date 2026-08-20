@@ -635,7 +635,7 @@ export const signals: SignalMeta[] = [{
   text: 'Go deeper',
   type: 'h'
 }, {
-  text: 'Techadyant Labs has mapped this shift in full: [The Semicon 2.0 Opportunity Map](/reports/semicon-2-0-opportunity-map/) sizes the Rs 45,500 crore serviceable opportunity across the eight upstream streams beyond the fab, ranks them, and sorts them into three capital-allocation tiers.',
+  text: 'Techadyant Labs has mapped this shift in full: [The Semicon 2.0 Opportunity Map](/reports/semicon-2-0-opportunity-map/) sizes the Rs 95,500 crore serviceable (SOM) opportunity across the eight upstream streams beyond the fab, ranks them, and sorts them into three capital-allocation tiers.',
   type: 'p'
 }],
   takeaways: ['The significance is not the Rs 1.27 lakh crore - it is the explicit move from anchor-investment attraction (Semicon 1.0) to complete-ecosystem building across six pillars.', 'Pillar two - machines, materials, chemicals and gases - is the quiet centre of gravity: the equipment and specialty-chemical layers most analysts ignore.', 'The opportunity surfaces are heavily SME-shaped: precision machining, cleanroom systems, gas and ultrapure-water handling, metrology, CMP consumables and wafer-handling automation.', 'Semicon 2.0 validates the Atlas thesis - semiconductor competitiveness is an industrial-stack question, from design IP to specialty chemicals to equipment.'],

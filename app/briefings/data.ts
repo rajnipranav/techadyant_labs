@@ -80,7 +80,7 @@ export const briefings: BriefingMeta[] = [{
   text: 'The full analysis',
   type: 'h'
 }, {
-  text: 'This briefing distils a full Techadyant Labs report: [The Semicon 2.0 Opportunity Map](/reports/semicon-2-0-opportunity-map/) — a stream-by-stream map of the Rs 45,500 crore serviceable opportunity, with all eight upstream streams ranked and sorted into three capital-allocation tiers.',
+  text: 'This briefing distils a full Techadyant Labs report: [The Semicon 2.0 Opportunity Map](/reports/semicon-2-0-opportunity-map/) — a stream-by-stream map of the Rs 95,500 crore serviceable (SOM) opportunity, with all eight upstream streams ranked and sorted into three capital-allocation tiers.',
   type: 'p'
 }]
 }, {

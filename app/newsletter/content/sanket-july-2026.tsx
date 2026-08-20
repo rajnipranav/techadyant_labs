@@ -148,15 +148,15 @@ export function IssueContent() {
       <Kicker>This Month’s Thesis</Kicker>
       <h2 id="thesis" style={h2}>The Opportunity Economy</h2>
       <p>June named the problem: India assembles, but the value lives upstream in the layers it does not own. July answers the obvious next question — so where, precisely, is the opportunity? Read together, this month’s eight Techadyant reports are one thing: a map of India’s opportunity economy — the specific, sized, mostly-upstream layers a founder, a fund or a ministry can actually build and own.</p>
-      <p>The maps are large and they agree with each other. Semicon 2.0 sizes ₹45,500 crore of serviceable opportunity beyond the fab; the quantum ecosystem roughly ₹40,000 crore; industrial water about the same by 2030; civil cargo-drone demand ₹18,400 crore of fleet value by 2035. Four maps alone come to about ₹1.5 lakh crore — before counting the loitering-munition, SME-drone and critical-mineral-processing opportunities sized inside their own reports.</p>
+      <p>The maps are large and they agree with each other. Semicon 2.0 sizes ₹95,500 crore of serviceable (SOM) opportunity beyond the fab; the quantum ecosystem roughly ₹40,000 crore; industrial water about the same by 2030; civil cargo-drone demand ₹18,400 crore of fleet value by 2035. Four maps alone come to about ₹1.5 lakh crore — before counting the loitering-munition, SME-drone and critical-mineral-processing opportunities sized inside their own reports.</p>
       <p>They cluster in the same place. Plot the eight on the Dependency Capture Framework and six of eight target Layers 2 to 4 — processing, materials and components. The opportunity economy is upstream of the visible platform, precisely where India’s capture is thinnest and its import bill highest.</p>
       <p style={{ marginBottom: 30 }}>Policy moved to meet it. Semicon 2.0’s second pillar, the National Critical Mineral Mission’s processing focus, the rare-earth magnet scheme — July’s policy aimed at exactly the layers the maps did. The opportunity is now named and priced. The decade’s question is no longer identification; it is conversion.</p>
 
       {/* ONE CHART */}
       <Kicker>The Opportunity Economy, Sized</Kicker>
       <h2 id="one-chart" style={h2}>This Month’s Maps, in ₹ Crore</h2>
-      <Figure src="/newsletter/july-one-chart.png" alt="The opportunity economy sized: Semicon 2.0 ₹45,500 cr, Quantum ₹43,000 cr, Industrial water ₹40,000 cr, Cargo drones ₹18,400 cr"
-        caption="Four of July’s eight maps size a ~₹1.5 lakh crore serviceable opportunity — concentrated upstream." />
+      <Figure src="/newsletter/july-one-chart.png" alt="The opportunity economy sized: Semicon 2.0 ₹95,500 cr, Quantum ₹43,000 cr, Industrial water ₹40,000 cr, Cargo drones ₹18,400 cr"
+        caption="Four of July’s eight maps size a ~₹2 lakh crore serviceable opportunity — concentrated upstream." />
       <Callout label="The Takeaway" tone={BRASS}>
         <p style={{ margin: 0, fontWeight: 600 }}>The prize is real, and it points upstream — into the processing, materials and components layers India still imports. A market-size deck is not a plant; the test is conversion.</p>
       </Callout>
@@ -174,7 +174,7 @@ export function IssueContent() {
           </tr></thead>
           <tbody>
             {[
-              ['Semiconductor materials & equipment', '₹45,500 cr', 'High', '3–5 yrs', 'Semicon 2.0'],
+              ['Semiconductor materials & equipment', '₹95,500 cr', 'High', '3–5 yrs', 'Semicon 2.0'],
               ['Quantum ecosystem', '~₹40,000 cr', 'Medium', '5–10 yrs', 'National Quantum Mission'],
               ['Industrial water & ZLD', '~₹38,600 cr', 'High', '3–5 yrs', 'Reuse / ZLD mandates'],
               ['Cargo-drone fleet & services', '₹18,400 cr', 'Medium', '5–10 yrs', 'BVLOS corridors'],
@@ -271,7 +271,7 @@ export function IssueContent() {
       <h2 id="from-the-lab" style={h2}>Eight Reports, One Lens</h2>
       <p style={{ marginBottom: 8 }}>July’s research, each in a line and a number — the map behind this month’s thesis.</p>
       <ul style={{ margin: '0 0 30px', paddingLeft: 20, lineHeight: 1.9 }}>
-        <li><Link href="/reports/semicon-2-0-opportunity-map/" style={{ color: 'var(--primary, #818CF8)' }}>The Semicon 2.0 Opportunity Map</Link> — the eight streams beyond the fab; ₹45,500 cr serviceable by 2035.</li>
+        <li><Link href="/reports/semicon-2-0-opportunity-map/" style={{ color: 'var(--primary, #818CF8)' }}>The Semicon 2.0 Opportunity Map</Link> — the eight streams beyond the fab; ₹95,500 cr serviceable by 2035.</li>
         <li><Link href="/reports/critical-minerals-strategic-roadmap/" style={{ color: 'var(--primary, #818CF8)' }}>Securing India’s Industrial Future</Link> — the critical-minerals processing roadmap to 2035; China holds 60–90% of processing (free).</li>
         <li><Link href="/reports/beyond-quantum-computing/" style={{ color: 'var(--primary, #818CF8)' }}>Beyond Quantum Computing</Link> — India’s quantum industrial ecosystem; ~₹40,000 cr TAM by 2035.</li>
         <li><Link href="/reports/india-industrial-water-opportunity-map/" style={{ color: 'var(--primary, #818CF8)' }}>India’s Industrial Water Opportunity Map</Link> — the market regulation is forcing into being; US$2.87bn → 4.65bn by 2030.</li>

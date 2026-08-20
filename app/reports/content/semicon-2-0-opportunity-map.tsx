@@ -3,7 +3,7 @@ import type { TocItem } from '../../components/ReportReader';
 /**
  * Online reading version of "The Semicon 2.0 Opportunity Map".
  * Carries the thesis (India funds the fab; the value sits in the other 65%),
- * the eight-stream framework, the Rs 45,500 cr serviceable opportunity, the
+ * the eight-stream framework, the Rs 95,500 cr obtainable (SOM) opportunity, the
  * import-dependency exposure, the photoresist chokepoint, the three action tiers
  * and the closing strategic window. The full ~180-page edition (15 chapters,
  * 26 figures, appendices, Excel workbook) is the paid PDF.
@@ -13,7 +13,7 @@ import type { TocItem } from '../../components/ReportReader';
 export const toc: TocItem[] = [
   { id: 'the-thesis', label: 'India funds the fab; the value is elsewhere' },
   { id: 'semicon-2', label: 'What Semicon 2.0 is' },
-  { id: 'the-prize', label: 'The prize: a Rs 45,500 crore opportunity' },
+  { id: 'the-prize', label: 'The prize: a Rs 95,500 crore opportunity' },
   { id: 'the-streams', label: 'The eight streams, ranked' },
   { id: 'the-exposure', label: 'How import-dependent India still is' },
   { id: 'chokepoint', label: 'The single scariest chokepoint' },
@@ -113,10 +113,10 @@ export function ReportContent() {
         upstream of the fab, not inside it.
       </p>
 
-      <h2 id="the-prize">The prize: a Rs 45,500 crore opportunity</h2>
+      <h2 id="the-prize">The prize: a Rs 95,500 crore opportunity</h2>
       <p>
-        The ten-year cumulative addressable opportunity across the eight streams is modelled at about &#8377;95,500 crore in
-        geographic terms, of which roughly &#8377;45,500 crore is realistically serviceable by 2035 &mdash; larger than the
+        The ten-year cumulative addressable opportunity across the eight streams is modelled at about &#8377;427,500 crore in
+        geographic terms (TAM), of which India&apos;s serviceable available market (SAM) is &#8377;217,600 crore and the realistically obtainable market (SOM) is about &#8377;95,500 crore by 2035 &mdash; larger than the
         combined market capitalisation of India&apos;s listed semiconductor-ecosystem companies today. These are Techadyant
         Labs&apos; own modelled estimates, presented across Base, Accelerated and Constrained scenarios; they should be read as
         directional sizing of the opportunity, not as forecasts. The point is not the decimal place. It is that a serviceable
