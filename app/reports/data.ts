@@ -229,7 +229,7 @@ export const reports: ReportMeta[] = [{
   publishedLabel: 'August 2026',
   readingTime: '~ 45 min read',
   status: 'published',
-  summary: 'Where can 500 MW to 1 GW of India\'s AI compute be economically sited? A 9-dimension viability index of eight corridors: Hyderabad leads, Gujarat/Andhra Pradesh/Chennai clear the investment-grade threshold, and NCR/Mumbai are structurally constrained.',
+  summary: 'Where should India site 500 MW to 1 GW of AI compute? This report ranks eight Indian corridors on the Techadyant AI Compute Viability Index (T-ACVI) — a nine-dimension framework weighted by infrastructure bindingness: power, water, transmission, land, connectivity, expansion, policy and AI ecosystem. Hyderabad (81.5), Gujarat (77.2), Andhra Pradesh (71.6) and Chennai (71.1) clear the investment-grade threshold, while NCR (63.7) — despite unmatched enterprise demand — suffers a 1.42× water-stress adjustment and a 640-basis-point IRR penalty versus Hyderabad on an identical 100 MW campus (22.8% vs 16.4% base-case IRR). India\'s AI compute demand reaches 1,960 MW by 2035 (28% CAGR), driving a USD 199 billion industrial TAM across compute, power, construction, cooling, connectivity and water. 101 pages, four analytical figures, three proprietary models and a live-formula data pack.',
   accent: '#2BC5B4',
   access: 'paid',
   price: 6999,
@@ -243,12 +243,28 @@ export const reports: ReportMeta[] = [{
   hasData: true,
   priceWithData: 11999,
   dataFilename: 'India-AI-Compute-Corridor-Economics-2026-2035-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: [],
-  faq: [],
-  sources: [],
+  keywords: ['India AI compute corridor', 'AI data centre location India', 'hyperscale data centre India', 'India GPU infrastructure', 'India sovereign AI compute', 'data centre water stress India', 'AI compute investment viability', 'Hyderabad data centre hub', 'India AI infrastructure 2035', 'data centre power evacuation India', 'India AI compute TAM', 'T-ACVI index'],
+  faq: [{
+  a: 'Hyderabad leads India\'s AI compute corridors with a T-ACVI score of 81.5 and a base-case IRR of 22.8% on a 100 MW AI campus, producing USD 620 million NPV over 10 years. Gujarat ranks second at 77.2 with 21.2% IRR and the strongest greenfield fundamentals — the lowest power tariff (₹5.8/kWh) and lowest water stress (WSI 1.8) among assessed corridors.',
+  q: 'Which Indian city is best for AI data centre investment in 2026?'
+}, {
+  a: 'NCR scores 63.7 on the T-ACVI (CAUTION band) due to a Water Stress Index of 4.6 (severe), a 1.42 Water Stress Adjustment Factor (42% water OPEX penalty), 30–36 month substation lead times, and industrial land at USD 1.85 million per acre (4.4× Hyderabad’s USD 0.42 million). Its 100 MW campus IRR is 16.4%, barely above the 15% hurdle rate, and falls to 4.5% under GPU price-collapse scenarios.',
+  q: 'Why is NCR not viable for hyperscale AI data centres?'
+}, {
+  a: 'The Techadyant AI Compute Viability Index scores Indian corridors 0–100 across nine dimensions weighted by infrastructure bindingness: Power Availability (20%), Power Economics (15%), Water/Cooling (15%), Transmission (10%), Land (10%), Connectivity (10%), Expansion Potential (10%), Policy (5%), and AI Ecosystem (5%). The investment-grade threshold is 70+; Hyderabad (81.5), Gujarat (77.2), Andhra Pradesh (71.6) and Chennai (71.1) clear it.',
+  q: 'What is the T-ACVI framework used to rank Indian AI corridors?'
+}, {
+  a: 'Under the Techadyant Labs base case, India\'s AI compute demand grows at 28% CAGR from ~180 MW in 2026 to 1,960 MW by 2035. The conservative scenario (23% CAGR) reaches 1,210 MW; the acceleration scenario (35% CAGR) reaches 4,600 MW — implying the announced 2,200 MW for 2024–2030 will be insufficient within 3–4 years.',
+  q: 'How much AI compute capacity will India need by 2035?'
+}, {
+  a: 'A USD 199 billion industrial opportunity through 2030 across six layers: compute hardware (USD 84B), power infrastructure (USD 38B), construction (USD 28B), cooling (USD 22B), digital (USD 16B) and water systems (USD 11B). ~USD 78 billion (40% of TAM) is serviceable by Indian suppliers, anchored by the ₹3,000 crore PLI for IT Hardware and the India Semiconductor Mission.',
+  q: 'What is the total addressable market for India\'s AI compute industrial supply chain?'
+}],
+  sources: ['WRI Aqueduct 4.0 Water Stress Index', 'Central Ground Water Board (CGWB)', 'Central Electricity Authority (CEA)', 'POWERGRID / POSOCO', 'TGIIC, GIDC, MIDC and NOIDA land filings', 'India Semiconductor Mission (ISM)', 'Production-Linked Incentive (PLI) for IT Hardware'],
   dateModified: '2026-08-19',
   seo: {
-
+  metaTitle: 'India AI Compute Corridor Economics 2026–2035 — Hyderabad vs NCR | Techadyant Labs',
+  metaDescription: 'Eight Indian AI compute corridors ranked on the T-ACVI index: Hyderabad 81.5, Gujarat 77.2, AP 71.6, Chennai 71.1 vs NCR 63.7. 1,960 MW demand by 2035 (28% CAGR), USD 199B industrial TAM, 101 pages.'
 }
 }, {
   slug: 'industrial-ai-in-indian-manufacturing',
