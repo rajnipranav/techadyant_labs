@@ -161,6 +161,17 @@ export const REPORTS = {
     filename: 'Who-Really-Benefits-from-Indias-Fab-Ecosystem-Techadyant-Labs.pdf',
     title: 'Who Really Benefits from India’s Fab Ecosystem?',
   },
+  'india-ai-compute-corridor-economics': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'india-ai-compute-corridor-economics.pdf',
+    filename: 'India-AI-Compute-Corridor-Economics-2026-2035-Techadyant-Labs.pdf',
+    title: 'India AI Compute Corridor Economics, 2026–2035',
+    // Report + Data tier: the AI Compute workbook (9 sheets — live 100/500 MW financial model, reproducible T-ACVI engine, source-traceability columns).
+    priceWithDataInr: 11999,
+    dataObject: 'data/india-ai-compute-corridor-economics.xlsx',
+    dataFilename: 'India-AI-Compute-Corridor-Economics-2026-2035-Data-Pack-Techadyant-Labs.xlsx',
+  },
   'india-ai-industrial-transition-2026-2035': {
     access: 'free',
     bucket: 'reports-free',
@@ -192,6 +203,10 @@ export const REPORTS = {
     object: 'dholera-semiconductor-supplier-ecosystem.pdf',
     filename: 'Dholera-Semiconductor-Supplier-Ecosystem-Techadyant-Labs.pdf',
     title: "India's Semiconductor Supplier Ecosystem: The Dholera Play",
+    // Report + Data tier: the Dholera supplier-ecosystem workbook (17 sheets).
+    priceWithDataInr: 9900,
+    dataObject: 'data/dholera-semiconductor-supplier-ecosystem.xlsx',
+    dataFilename: 'Dholera-Semiconductor-Supplier-Ecosystem-Data-Pack-Techadyant-Labs.xlsx',
   },
   'india-green-hydrogen': {
     access: 'paid',

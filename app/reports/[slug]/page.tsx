@@ -43,6 +43,7 @@ import { ReportContent as QDayContent, toc as qDayToc } from '../content/q-day-i
 import { ReportContent as KalpasarContent, toc as kalpasarToc } from '../content/kalpasar-economic-impact';
 import { ReportContent as IafContent, toc as iafToc } from '../content/iaf-autonomous-air-power';
 import { ReportContent as IndustrialAiContent, toc as industrialAiToc } from '../content/industrial-ai-in-indian-manufacturing';
+import { ReportContent as AiComputeCorridorContent, toc as aiComputeCorridorToc } from '../content/india-ai-compute-corridor-economics';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -78,6 +79,7 @@ const registry: Record<string, ReportModule> = {
   'kalpasar-economic-impact': { toc: kalpasarToc, Content: KalpasarContent },
   'iaf-autonomous-air-power': { toc: iafToc, Content: IafContent },
   'industrial-ai-in-indian-manufacturing': { toc: industrialAiToc, Content: IndustrialAiContent },
+  'india-ai-compute-corridor-economics': { toc: aiComputeCorridorToc, Content: AiComputeCorridorContent },
 };
 
 export async function generateStaticParams() {

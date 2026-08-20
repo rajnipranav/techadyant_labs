@@ -1,0 +1,600 @@
+<style>
+.rv-longform {--bg:#0a0e1a; --bg2:#111827; --bg3:#1a2332; --card:#151f2e;
+  --border:rgba(255,255,255,.08); --text:#f1f5f9; --text2:#cbd5e1; --muted:#94a3b8;
+  --blue:#3b82f6; --teal:#14b8a6; --amber:#f59e0b; --red:#ef4444;
+  --mono:'JetBrains Mono',monospace; --sans:'Inter',system-ui,'Segoe UI',sans-serif; color:var(--text2); font-family:var(--sans); line-height:1.7;}
+.rv-longform {--bg:#0a0e1a; --bg2:#111827; --bg3:#1a2332; --card:#151f2e;
+  --border:rgba(255,255,255,.08); --text:#f1f5f9; --text2:#cbd5e1; --muted:#94a3b8;
+  --blue:#3b82f6; --teal:#14b8a6; --amber:#f59e0b; --red:#ef4444;
+  --mono:'JetBrains Mono',monospace; --sans:'Inter',system-ui,'Segoe UI',sans-serif;}
+.rv-longform *, .rv-longform *::before, .rv-longform *::after {box-sizing:border-box;margin:0;padding:0}
+.rv-longform section {padding:52px 0;border-bottom:1px solid var(--border)}
+.rv-longform h2 {font-size:1.75rem;margin-bottom:26px;color:#fff;font-weight:700}
+.rv-longform h3 {font-size:1.05rem;font-weight:600;color:var(--blue);margin-bottom:10px}
+.rv-longform p {margin-bottom:16px;color:var(--text2)}
+.rv-longform p.lead {font-size:1.08rem;color:var(--text);background:var(--bg2);padding:22px;border-left:3px solid var(--blue)}
+.rv-longform .stats-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);margin:26px 0}
+.rv-longform .stat-card {background:var(--bg2);padding:22px 18px}
+.rv-longform .stat-val {font-family:var(--mono);font-size:1.9rem;font-weight:700;color:var(--amber);line-height:1;margin-bottom:8px}
+.rv-longform .stat-label {font-size:.9rem;color:var(--text2);margin-bottom:10px}
+.rv-longform .stat-src {font-family:var(--mono);font-size:.7rem;color:var(--teal)}
+.rv-longform .findings-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px;margin-top:22px}
+.rv-longform .finding-card {background:var(--card);border:1px solid var(--border);border-radius:8px;padding:22px;transition:border-color .2s,transform .2s}
+.rv-longform .finding-card:hover {border-color:var(--blue);transform:translateY(-2px)}
+.rv-longform .finding-claim {font-weight:400;margin-bottom:10px;color:var(--text2)}
+.rv-longform .finding-num {font-family:var(--mono);color:var(--amber);font-weight:600}
+.rv-longform .finding-src {display:block;font-family:var(--mono);font-size:.7rem;color:var(--muted);margin-top:12px;padding-top:10px;border-top:1px solid var(--border)}
+.rv-longform .framework-box {background:var(--bg2);border-left:3px solid var(--amber);padding:26px;margin:22px 0}
+.rv-longform figure {margin:30px 0;background:var(--bg2);padding:18px;border:1px solid var(--border);border-radius:8px}
+.rv-longform figure svg {width:100%;height:auto;display:block}
+.rv-longform figcaption {font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-top:12px;text-align:center}
+.rv-longform ul.watch-list {list-style:none}
+.rv-longform ul.watch-list li {padding:16px 0;border-bottom:1px solid var(--border);display:flex;gap:16px}
+.rv-longform ul.watch-list li:last-child {border-bottom:none}
+.rv-longform .watch-date {font-family:var(--mono);color:var(--amber);font-weight:600;min-width:70px;font-size:.9rem}
+.rv-longform .watch-text {flex:1;color:var(--text2)}
+.rv-longform table {width:100%;border-collapse:collapse;margin:18px 0;font-size:.88rem;background:var(--card);border:1px solid var(--border)}
+.rv-longform th {background:var(--bg2);color:var(--text);text-align:left;padding:10px;border-bottom:1px solid var(--border)}
+.rv-longform td {padding:9px 10px;border-bottom:1px solid var(--border);color:var(--text2)}
+.rv-longform tr:last-child td {border-bottom:none}
+.rv-longform details {background:var(--card);border:1px solid var(--border);border-radius:8px;margin-bottom:12px}
+.rv-longform summary {padding:16px 18px;cursor:pointer;font-weight:600;color:var(--text);list-style:none;display:flex;justify-content:space-between;align-items:center}
+.rv-longform summary::after {content:'+';font-family:var(--mono);font-size:1.4rem;color:var(--blue);font-weight:300}
+.rv-longform details[open] summary::after {content:'−'}
+.rv-longform details[open] summary {border-bottom:1px solid var(--border);background:var(--bg2)}
+.rv-longform .faq-answer {padding:18px;color:var(--text2);font-size:.95rem}
+@media (max-width:768px){
+
+}
+@media (max-width:640px){
+.rv-longform .stats-grid, .rv-longform .findings-grid {grid-template-columns:1fr}
+}
+</style>
+<section>
+  <div class="container">
+    <h2 id="the-thesis">The Thesis</h2>
+    <p class="lead">India's binding AI infrastructure constraint is no longer GPU availability — it is the geographic availability of power, water, transmission, and land required to host compute at scale. Of eight Indian corridors assessed, only four clear the investment-grade threshold on the Techadyant AI Compute Viability Index (T-ACVI): Hyderabad (81.5), Gujarat (77.2), Andhra Pradesh (71.6), and Chennai (71.1). NCR, despite unmatched enterprise demand, scores 63.7 (CAUTION) — penalised by severe water stress, transmission congestion, and land economics that produce a 640 basis-point IRR penalty versus Hyderabad on an identical 100 MW AI campus.</p>
+    <p>The strategic question for capital allocators, policymakers, and developers is no longer whether India will build AI compute capacity — the demand and capital are confirmed. The binding decision is where that capacity should be located, and what happens to project economics when power, water, cooling, transmission, and land constraints are fully priced in.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="key-numbers">Key Numbers</h2>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-val">81.5</div>
+        <div class="stat-label">Hyderabad T-ACVI score (GO)</div>
+        <div class="stat-src">Techadyant Model ◆ T-ACVI-001</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">63.7</div>
+        <div class="stat-label">NCR T-ACVI score (CAUTION)</div>
+        <div class="stat-src">Techadyant Model ◆ T-ACVI-002</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">22.8%</div>
+        <div class="stat-label">Hyderabad base-case IRR, 100 MW campus</div>
+        <div class="stat-src">Techadyant Model ◆ FIN-014</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">640 bps</div>
+        <div class="stat-label">IRR penalty, NCR vs Hyderabad</div>
+        <div class="stat-src">Techadyant Model ◆ FIN-016</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">1.42×</div>
+        <div class="stat-label">Water Stress Adjustment Factor, NCR</div>
+        <div class="stat-src">Techadyant Model ◆ WAF-003</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">1,960 MW</div>
+        <div class="stat-label">India AI demand 2035 (base case, 28% CAGR)</div>
+        <div class="stat-src">Techadyant Model ◆ DEM-007</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">USD 199B</div>
+        <div class="stat-label">Industrial TAM 2026-2030 across six layers</div>
+        <div class="stat-src">Techadyant Model ◆ TAM-024</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">₹4.5/kWh</div>
+        <div class="stat-label">Hyderabad concessional DC power tariff</div>
+        <div class="stat-src">Telangana IT&amp;AI Policy 2024 ◆ POL-011</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="key-findings">Key Findings</h2>
+    <div class="findings-grid">
+
+      <div class="finding-card">
+        <h3 id="finding-1-constraint-shift">Finding 1 — Constraint shift</h3>
+        <p class="finding-claim">The binding constraint on India's AI build-out has shifted from GPU supply to physical infrastructure: power headroom, transmission evacuation, water availability, and industrial-zoned land.</p>
+        <p class="finding-num">Mumbai, NCR, and Bengaluru are infrastructure-constrained; Hyderabad and Gujarat retain headroom.</p>
+        <span class="finding-src">Source: Techadyant T-ACVI dimensional scoring, 2026 ◆ INF-001</span>
+      </div>
+
+      <div class="finding-card">
+        <h3 id="finding-2-water-as-irr-killer">Finding 2 — Water as IRR killer</h3>
+        <p class="finding-claim">NCR's Water Stress Index of 4.6 (severe) imposes a 42% premium on water-related OPEX via the Water Stress Adjustment Factor, adding approximately USD 9 million per year on a 100 MW campus.</p>
+        <p class="finding-num">WAF of 1.42 reduces NCR IRR by ~380 basis points.</p>
+        <span class="finding-src">Source: Techadyant WAF model, WRI Aqueduct 4.0 ◆ WAT-009</span>
+      </div>
+
+      <div class="finding-card">
+        <h3 id="finding-3-stranded-compute-risk">Finding 3 — Stranded compute risk</h3>
+        <p class="finding-claim">Substation and HV feeder construction in India requires 24-36 months, routinely exceeding data-centre construction lead times of 12-18 months.</p>
+        <p class="finding-num">NCR substation lead time: 30-36 months vs Hyderabad 18-24 months.</p>
+        <span class="finding-src">Source: POWERGRID, CEA, POSOCO ◆ PWR-022</span>
+      </div>
+
+      <div class="finding-card">
+        <h3 id="finding-4-ncr-demand-paradox">Finding 4 — NCR demand paradox</h3>
+        <p class="finding-claim">NCR's unmatched AI ecosystem and enterprise demand depth do not translate into hyperscale viability. It exceeds Hyderabad on only one of eleven T-ACVI dimensions (AI Ecosystem, 8.8 vs 8.5).</p>
+        <p class="finding-num">NCR viable for colocation &amp; edge; marginal above 100 MW hyperscale.</p>
+        <span class="finding-src">Source: Techadyant T-ACVI scorecard ◆ SCR-004</span>
+      </div>
+
+      <div class="finding-card">
+        <h3 id="finding-5-industrial-adjacency-value">Finding 5 — Industrial adjacency value</h3>
+        <p class="finding-claim">The largest value capture lies upstream of data-centre operation — in supplying industrial inputs: substations, DLC systems, immersion pods, BESS, fibre, and GPU servers.</p>
+        <p class="finding-num">Compute hardware USD 84B + Power USD 38B = USD 122B of the USD 199B TAM.</p>
+        <span class="finding-src">Source: Techadyant Industrial Opportunity Model ◆ IND-015</span>
+      </div>
+
+      <div class="finding-card">
+        <h3 id="finding-6-scenario-resilience">Finding 6 — Scenario resilience</h3>
+        <p class="finding-claim">Hyderabad exceeds the 15% PE hurdle rate in four of six scenarios (Conservative, Base, Acceleration, Water-Constrained). NCR clears the hurdle in only one (Acceleration).</p>
+        <p class="finding-num">Probability-weighted IRR: Hyderabad 21.4%, NCR 14.2%.</p>
+        <span class="finding-src">Source: Techadyant Scenario × Region IRR Matrix ◆ SCN-018</span>
+      </div>
+
+      <div class="finding-card">
+        <h3 id="finding-7-land-economics-spread">Finding 7 — Land economics spread</h3>
+        <p class="finding-claim">Industrial-zoned land cost ranges from USD 0.42 million per acre (Hyderabad) to USD 2.40 million per acre (Mumbai) — a 5.7× spread that materially alters CAPEX.</p>
+        <p class="finding-num">Hyderabad 28 acres @ USD 0.42M = USD 12M; Mumbai 15 acres @ USD 2.40M = USD 35M.</p>
+        <span class="finding-src">Source: TGIIC, GIDC, MIDC, NOIDA filings ◆ LND-006</span>
+      </div>
+
+      <div class="finding-card">
+        <h3 id="finding-8-cooling-architecture-trade-off">Finding 8 — Cooling architecture trade-off</h3>
+        <p class="finding-claim">Direct Liquid Cooling (DLC) reduces water consumption from 1.8 L/kWh (chilled water) to 0.7 L/kWh at a 12-15% CAPEX premium, eliminating WAF penalties in water-stressed corridors.</p>
+        <p class="finding-num">NCR WAF drops from 1.42 to 1.22 with DLC adoption.</p>
+        <span class="finding-src">Source: Techadyant Cooling Economics Model ◆ COL-012</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="the-framework">The Framework</h2>
+    <div class="framework-box">
+      <p>This report introduces three proprietary analytical constructs. The <strong>Techadyant AI Compute Viability Index (T-ACVI)</strong> scores Indian corridors on a 0-100 scale across nine dimensions weighted by infrastructure bindingness — Power Availability (20%), Power Economics (15%), Water/Cooling (15%), Transmission (10%), Land (10%), Connectivity (10%), Expansion Potential (10%), Policy (5%), and AI Ecosystem (5%). The <strong>Water Stress Adjustment Factor (WAF)</strong> is a regional and architecture-specific multiplier (1.0-1.5) applied to water-related OPEX, constructed from the WRI Aqueduct 4.0 Water Stress Index, groundwater table decline data from the Central Ground Water Board, and competing demand pressure. The <strong>Hidden Infrastructure Bottleneck Map</strong> classifies each corridor's binding constraint across six categories — power, transmission, water, fibre, land, and expansion potential — identifying which infrastructure investments unlock viability per corridor.</p>
+    </div>
+    <p>For readers new to India's AI infrastructure question, the <a href="/reports/">full report library</a> and the <a href="/atlas/">Techadyant Regional Atlas</a> provide deeper corridor-level treatment. The <a href="/signals/">Signals feed</a> publishes quarterly T-ACVI dimensional updates covering transmission, water, policy, and ecosystem evolution.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="what-it-means">What It Means</h2>
+    <h3 id="for-policymakers">For Policymakers</h3>
+    <p>Policy incentives must shift from demand-side subsidies (CAPEX grants, stamp duty waivers in already-constrained corridors) to supply-side infrastructure investment (transmission augmentation, water recycling, substation capacity in headroom corridors). Subsidising data-centre development in Mumbai or NCR exacerbates the bottleneck. The Telangana AI City model — combining 4,000-acre land allocation with a 400 kV transmission ring and concessional ₹4.5/kWh power tariff — is the most effective policy template observed. Central government should designate 3-5 'AI Industrial Corridors' with integrated land, transmission, water, and renewable energy allocation.</p>
+
+    <h3 id="for-industry">For Industry</h3>
+    <p>Hyperscalers and domestic data-centre operators should anchor hyperscale AI factory capacity in Hyderabad (primary) and Gujarat (secondary), while limiting NCR and Mumbai exposure to colocation and edge workloads below 100 MW. All new-build sites above 50 MW should convert to DLC or immersion cooling architectures — the CAPEX premium is recovered in OPEX within 5 years and removes water-stress risk. Renewable procurement should target 60% renewable fraction by 2028 and 80% by 2032 via hybrid PPAs combining solar, wind, and BESS.</p>
+
+    <h3 id="for-investors">For Investors</h3>
+    <p>PE, sovereign funds, and infrastructure investors should underwrite projects on a T-ACVI-adjusted basis, applying a 200-300 basis point premium to hurdle rates for corridors scoring below 65. The 640 basis-point IRR delta between Hyderabad (22.8%) and NCR (16.4%) on a 100 MW campus is material to fund-level returns. 30-40% of AI infrastructure capital should be allocated to upstream industrial supply — DLC systems, immersion cooling, BESS, substation EPC — rather than to data-centre operation alone, capturing the largest value pool with lower project risk.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="analytical-figures">Analytical Figures</h2>
+
+    <p>The corridor hierarchy is not determined by announced capacity or enterprise demand depth, but by the composite viability score produced by the T-ACVI framework. The figure below shows the headline ranking across eight assessed corridors, with the 70-point investment-grade threshold separating four GO-rated corridors from four CAUTION-rated corridors. Hyderabad's lead is decisive — a 4.3-point margin over second-ranked Gujarat and a 17.8-point margin over NCR — reflecting balanced strength across all nine dimensions rather than dominance on any single factor.</p>
+
+    <figure>
+      <svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="T-ACVI Snapshot — AI Compute Viability by Indian Corridor, 2026">
+        <rect width="800" height="420" fill="#111827"/>
+        <text x="30" y="35" fill="#f1f5f9" font-family="Inter, sans-serif" font-size="16" font-weight="700">T-ACVI Snapshot — Indian AI Corridors, 2026</text>
+        <text x="30" y="55" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="11">Investment-grade threshold: 70+</text>
+        <!-- Threshold line -->
+        <line x1="80" y1="137" x2="770" y2="137" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="4 3"/>
+        <text x="770" y="132" fill="#ef4444" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="end">GO threshold (70)</text>
+        <!-- Bars: y = 380 - (score * 3.2), height = score * 3.2 -->
+        <!-- Hyderabad 81.5 -->
+        <rect x="90" y="119" width="70" height="261" fill="#3b82f6"/>
+        <text x="125" y="112" fill="#f59e0b" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">81.5</text>
+        <text x="125" y="405" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Hyderabad</text>
+        <!-- Gujarat 77.2 -->
+        <rect x="180" y="133" width="70" height="247" fill="#3b82f6"/>
+        <text x="215" y="126" fill="#f59e0b" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">77.2</text>
+        <text x="215" y="405" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Gujarat</text>
+        <!-- AP 71.6 -->
+        <rect x="270" y="151" width="70" height="229" fill="#3b82f6"/>
+        <text x="305" y="144" fill="#f59e0b" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">71.6</text>
+        <text x="305" y="405" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Andhra Pr.</text>
+        <!-- Chennai 71.1 -->
+        <rect x="360" y="152" width="70" height="228" fill="#3b82f6"/>
+        <text x="395" y="145" fill="#f59e0b" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">71.1</text>
+        <text x="395" y="405" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Chennai</text>
+        <!-- NCR 63.7 -->
+        <rect x="450" y="176" width="70" height="204" fill="#f59e0b"/>
+        <text x="485" y="169" fill="#f59e0b" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">63.7</text>
+        <text x="485" y="405" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">NCR</text>
+        <!-- Bengaluru 63.7 -->
+        <rect x="540" y="176" width="70" height="204" fill="#f59e0b"/>
+        <text x="575" y="169" fill="#f59e0b" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">63.7</text>
+        <text x="575" y="405" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Bengaluru</text>
+        <!-- Mumbai 63.4 -->
+        <rect x="630" y="177" width="70" height="203" fill="#f59e0b"/>
+        <text x="665" y="170" fill="#f59e0b" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">63.4</text>
+        <text x="665" y="405" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Mumbai</text>
+        <!-- Pune 60.7 -->
+        <rect x="720" y="186" width="50" height="194" fill="#f59e0b"/>
+        <text x="745" y="179" fill="#f59e0b" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">60.7</text>
+        <text x="745" y="405" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Pune</text>
+      </svg>
+      <figcaption>Figure 1. T-ACVI Snapshot — AI Compute Viability by Indian Corridor, 2026. Source: Techadyant Labs T-ACVI Model. Blue = GO (≥70). Amber = CAUTION (60-69). Red dashed line = investment-grade threshold.</figcaption>
+    </figure>
+
+    <p>The investment-grade band is not homogeneous. Hyderabad's 81.5 is produced by balanced dimensional strength with no single weakness, while Gujarat's 77.2 is driven by infrastructure fundamentals (power, water, land) offset by a weaker AI ecosystem. NCR's 63.7 reflects structural weakness across Water/Cooling (5.8), Transmission Readiness (5.8), and Expansion Potential (5.0) — the three dimensions most critical to hyperscale AI factory economics.</p>
+
+    <p>Project economics under stress scenarios reveal which corridors remain viable when the base-case assumptions deteriorate. The matrix below maps internal rate of return across five corridors and six scenarios. The PE hurdle rate of 15% acts as the capital allocation threshold: Hyderabad clears it in four of six scenarios, Gujarat in three, and NCR in only one. Under GPU Price Collapse (Scenario F), all corridors fall below hurdle, but Hyderabad retains relative resilience at 8.4% versus NCR's 4.5% — confirming that infrastructure fundamentals, not ecosystem depth, determine downside protection.</p>
+
+    <figure>
+      <svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Scenario × Region IRR Matrix — 100 MW AI Campus">
+        <rect width="800" height="460" fill="#111827"/>
+        <text x="30" y="35" fill="#f1f5f9" font-family="Inter, sans-serif" font-size="16" font-weight="700">Scenario × Region IRR Matrix — 100 MW AI Campus</text>
+        <text x="30" y="55" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="11">PE hurdle rate: 15% (red line). Values = IRR (%).</text>
+        <!-- Headers -->
+        <g font-family="JetBrains Mono, monospace" font-size="10" fill="#cbd5e1">
+          <text x="200" y="95" text-anchor="middle">A Conserv.</text>
+          <text x="300" y="95" text-anchor="middle">B Base</text>
+          <text x="400" y="95" text-anchor="middle">C Accel</text>
+          <text x="500" y="95" text-anchor="middle">D Power</text>
+          <text x="600" y="95" text-anchor="middle">E Water</text>
+          <text x="700" y="95" text-anchor="middle">F GPU</text>
+        </g>
+        <!-- Row labels -->
+        <g font-family="Inter, sans-serif" font-size="12" fill="#f1f5f9" font-weight="600">
+          <text x="30" y="140">Hyderabad</text>
+          <text x="30" y="200">Gujarat</text>
+          <text x="30" y="260">Chennai</text>
+          <text x="30" y="320">Mumbai</text>
+          <text x="30" y="380">NCR</text>
+        </g>
+        <!-- Hurdle line (15%) at y position -->
+        <!-- Cell color logic: >=20 green #14b8a6, 15-20 blue #3b82f6, 10-15 amber #f59e0b, <10 red #ef4444 -->
+        <!-- Row 1: Hyderabad 14.5, 22.8, 31.4, 12.6, 18.2, 8.4 -->
+        <rect x="155" y="115" width="90" height="40" fill="#f59e0b" opacity="0.85"/><text x="200" y="140" fill="#0a0e1a" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">14.5</text>
+        <rect x="255" y="115" width="90" height="40" fill="#14b8a6" opacity="0.85"/><text x="300" y="140" fill="#0a0e1a" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">22.8</text>
+        <rect x="355" y="115" width="90" height="40" fill="#14b8a6" opacity="0.85"/><text x="400" y="140" fill="#0a0e1a" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">31.4</text>
+        <rect x="455" y="115" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="500" y="140" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">12.6</text>
+        <rect x="555" y="115" width="90" height="40" fill="#3b82f6" opacity="0.85"/><text x="600" y="140" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">18.2</text>
+        <rect x="655" y="115" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="700" y="140" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">8.4</text>
+        <!-- Row 2: Gujarat 13.6, 21.2, 29.8, 13.4, 18.8, 8.0 -->
+        <rect x="155" y="175" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="200" y="200" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">13.6</text>
+        <rect x="255" y="175" width="90" height="40" fill="#14b8a6" opacity="0.85"/><text x="300" y="200" fill="#0a0e1a" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">21.2</text>
+        <rect x="355" y="175" width="90" height="40" fill="#14b8a6" opacity="0.85"/><text x="400" y="200" fill="#0a0e1a" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">29.8</text>
+        <rect x="455" y="175" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="500" y="200" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">13.4</text>
+        <rect x="555" y="175" width="90" height="40" fill="#3b82f6" opacity="0.85"/><text x="600" y="200" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">18.8</text>
+        <rect x="655" y="175" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="700" y="200" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">8.0</text>
+        <!-- Row 3: Chennai 12.4, 20.6, 28.5, 11.2, 14.8, 7.4 -->
+        <rect x="155" y="235" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="200" y="260" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">12.4</text>
+        <rect x="255" y="235" width="90" height="40" fill="#14b8a6" opacity="0.85"/><text x="300" y="260" fill="#0a0e1a" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">20.6</text>
+        <rect x="355" y="235" width="90" height="40" fill="#14b8a6" opacity="0.85"/><text x="400" y="260" fill="#0a0e1a" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">28.5</text>
+        <rect x="455" y="235" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="500" y="260" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">11.2</text>
+        <rect x="555" y="235" width="90" height="40" fill="#f59e0b" opacity="0.85"/><text x="600" y="260" fill="#0a0e1a" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">14.8</text>
+        <rect x="655" y="235" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="700" y="260" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">7.4</text>
+        <!-- Row 4: Mumbai 10.8, 18.5, 26.2, 8.4, 13.5, 6.2 -->
+        <rect x="155" y="295" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="200" y="320" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">10.8</text>
+        <rect x="255" y="295" width="90" height="40" fill="#3b82f6" opacity="0.85"/><text x="300" y="320" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">18.5</text>
+        <rect x="355" y="295" width="90" height="40" fill="#14b8a6" opacity="0.85"/><text x="400" y="320" fill="#0a0e1a" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">26.2</text>
+        <rect x="455" y="295" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="500" y="320" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">8.4</text>
+        <rect x="555" y="295" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="600" y="320" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">13.5</text>
+        <rect x="655" y="295" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="700" y="320" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">6.2</text>
+        <!-- Row 5: NCR 9.2, 16.4, 24.1, 6.8, 9.6, 4.5 -->
+        <rect x="155" y="355" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="200" y="380" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">9.2</text>
+        <rect x="255" y="355" width="90" height="40" fill="#3b82f6" opacity="0.85"/><text x="300" y="380" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">16.4</text>
+        <rect x="355" y="355" width="90" height="40" fill="#14b8a6" opacity="0.85"/><text x="400" y="380" fill="#0a0e1a" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">24.1</text>
+        <rect x="455" y="355" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="500" y="380" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">6.8</text>
+        <rect x="555" y="355" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="600" y="380" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">9.6</text>
+        <rect x="655" y="355" width="90" height="40" fill="#ef4444" opacity="0.85"/><text x="700" y="380" fill="#fff" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700" text-anchor="middle">4.5</text>
+        <!-- Legend -->
+        <rect x="30" y="420" width="14" height="14" fill="#14b8a6"/><text x="50" y="432" fill="#cbd5e1" font-family="JetBrains Mono, monospace" font-size="10">≥20% IRR</text>
+        <rect x="130" y="420" width="14" height="14" fill="#3b82f6"/><text x="150" y="432" fill="#cbd5e1" font-family="JetBrains Mono, monospace" font-size="10">15-20%</text>
+        <rect x="220" y="420" width="14" height="14" fill="#f59e0b"/><text x="240" y="432" fill="#cbd5e1" font-family="JetBrains Mono, monospace" font-size="10">10-15%</text>
+        <rect x="310" y="420" width="14" height="14" fill="#ef4444"/><text x="330" y="432" fill="#cbd5e1" font-family="JetBrains Mono, monospace" font-size="10">&lt;10%</text>
+      </svg>
+      <figcaption>Figure 2. Scenario × Region IRR Matrix — 100 MW AI Campus. Source: Techadyant Labs scenario analysis, 2026. Six scenarios: A Conservative AI Demand, B Base Case, C AI Acceleration, D Power-Constrained India, E Water-Constrained India, F GPU Price Collapse.</figcaption>
+    </figure>
+
+    <p>The dimensional decomposition explains why Hyderabad leads structurally. The radar below compares Hyderabad (GO, 81.5), NCR (CAUTION, 63.7), and Gujarat (GO, 77.2) across nine T-ACVI dimensions. Hyderabad's profile is balanced — no dimension scores below 7.2 — while NCR's profile is structurally weak on infrastructure dimensions (Water 4.2 inverse-scored, Transmission 5.8, Land 5.5, Expansion 5.0). Gujarat's profile shows infrastructure leadership (Power Economics 8.9, Water 8.6, Land 8.5) offset by ecosystem thinness (AI Ecosystem 6.0, Connectivity 6.8).</p>
+
+    <figure>
+      <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="T-ACVI Dimensional Radar — Hyderabad vs NCR vs Gujarat">
+        <rect width="800" height="500" fill="#111827"/>
+        <text x="400" y="35" fill="#f1f5f9" font-family="Inter, sans-serif" font-size="16" font-weight="700" text-anchor="middle">T-ACVI Dimensional Radar — Hyderabad vs NCR vs Gujarat</text>
+        <text x="400" y="55" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">Scale 0-10. Higher = more viable. 9 dimensions.</text>
+        <!-- Radar center: 400, 270. Radius: 180. 9 axes at 40° increments -->
+        <!-- Axes -->
+        <g stroke="#1f2937" stroke-width="1">
+          <!-- concentric rings -->
+          <circle cx="400" cy="270" r="60" fill="none"/>
+          <circle cx="400" cy="270" r="120" fill="none"/>
+          <circle cx="400" cy="270" r="180" fill="none"/>
+        </g>
+        <!-- Axis lines and labels (9 axes, starting from top, clockwise, 40° apart) -->
+        <!-- Axis 0: Power Availability (top, -90°) -->
+        <line x1="400" y1="270" x2="400" y2="90" stroke="#374151" stroke-width="1"/>
+        <text x="400" y="78" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="11" text-anchor="middle">Power Avail.</text>
+        <!-- Axis 1: Power Economics (-50°) -->
+        <line x1="400" y1="270" x2="538" y2="131" stroke="#374151" stroke-width="1"/>
+        <text x="555" y="125" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="11">Power Econ.</text>
+        <!-- Axis 2: Water/Cooling (-10°) -->
+        <line x1="400" y1="270" x2="577" y2="239" stroke="#374151" stroke-width="1"/>
+        <text x="590" y="240" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="11">Water/Cool</text>
+        <!-- Axis 3: Transmission (30°) -->
+        <line x1="400" y1="270" x2="556" y2="360" stroke="#374151" stroke-width="1"/>
+        <text x="575" y="375" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="11">Transmission</text>
+        <!-- Axis 4: Land (70°) -->
+        <line x1="400" y1="270" x2="462" y2="445" stroke="#374151" stroke-width="1"/>
+        <text x="470" y="465" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="11">Land</text>
+        <!-- Axis 5: Connectivity (110°) -->
+        <line x1="400" y1="270" x2="338" y2="445" stroke="#374151" stroke-width="1"/>
+        <text x="330" y="465" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="11" text-anchor="end">Connectivity</text>
+        <!-- Axis 6: Expansion (150°) -->
+        <line x1="400" y1="270" x2="244" y2="360" stroke="#374151" stroke-width="1"/>
+        <text x="225" y="375" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="11" text-anchor="end">Expansion</text>
+        <!-- Axis 7: Policy (190°) -->
+        <line x1="400" y1="270" x2="223" y2="239" stroke="#374151" stroke-width="1"/>
+        <text x="210" y="240" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="11" text-anchor="end">Policy</text>
+        <!-- Axis 8: AI Ecosystem (230°) -->
+        <line x1="400" y1="270" x2="262" y2="131" stroke="#374151" stroke-width="1"/>
+        <text x="245" y="125" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="11" text-anchor="end">AI Ecosystem</text>
+
+        <!-- Hyderabad polygon (blue) -->
+        <!-- Values: 8.5, 7.8, 7.2, 8.2, 8.0, 8.8, 8.4, 8.6, 8.5. Scale: r = value * 18 -->
+        <!-- r values: 153, 140.4, 129.6, 147.6, 144, 158.4, 151.2, 154.8, 153 -->
+        <polygon points="400,117 508,154 529,247 531,347 450,408 344,418 269,345 246,240 302,155" fill="#3b82f6" fill-opacity="0.3" stroke="#3b82f6" stroke-width="2"/>
+
+        <!-- Gujarat polygon (teal) -->
+        <!-- Values: 8.7, 8.9, 8.6, 8.3, 8.5, 6.8, 8.2, 7.9, 6.0 -->
+        <!-- r values: 156.6, 160.2, 154.8, 149.4, 153, 122.4, 147.6, 142.2, 108 -->
+        <polygon points="400,113 521,147 553,253 536,350 454,413 356,403 286,342 271,248 327,172" fill="#14b8a6" fill-opacity="0.25" stroke="#14b8a6" stroke-width="2"/>
+
+        <!-- NCR polygon (amber) -->
+        <!-- Values: 6.5, 6.2, 4.2, 5.8, 5.5, 8.5, 5.0, 7.0, 8.8 -->
+        <!-- r values: 117, 111.6, 75.6, 104.4, 99, 153, 90, 126, 158.4 -->
+        <polygon points="400,153 485,178 473,249 485,330 433,368 357,422 322,338 275,246 291,150" fill="#f59e0b" fill-opacity="0.25" stroke="#f59e0b" stroke-width="2"/>
+
+        <!-- Legend -->
+        <rect x="620" y="420" width="14" height="14" fill="#3b82f6"/><text x="640" y="432" fill="#cbd5e1" font-family="JetBrains Mono, monospace" font-size="11">Hyderabad (81.5)</text>
+        <rect x="620" y="445" width="14" height="14" fill="#14b8a6"/><text x="640" y="457" fill="#cbd5e1" font-family="JetBrains Mono, monospace" font-size="11">Gujarat (77.2)</text>
+        <rect x="620" y="470" width="14" height="14" fill="#f59e0b"/><text x="640" y="482" fill="#cbd5e1" font-family="JetBrains Mono, monospace" font-size="11">NCR (63.7)</text>
+      </svg>
+      <figcaption>Figure 3. T-ACVI Dimensional Radar — Leading corridors compared. Source: Techadyant Labs T-ACVI dimensional scoring, 2026. Hyderabad's balanced profile contrasts with NCR's infrastructure weakness and Gujarat's ecosystem thinness.</figcaption>
+    </figure>
+
+    <p>The dimensional radar clarifies the strategic allocation thesis. Hyderabad is the only corridor without a dimensional weakness, supporting its role as the primary hyperscale anchor. Gujarat's infrastructure leadership positions it as the strongest greenfield candidate, particularly for renewable-powered compute and industrial-adjacent AI (semiconductor ecosystem at Dholera and Sanand). NCR's structural weakness on water, transmission, and expansion confirms its role as an enterprise colocation and edge AI market, not a hyperscale AI factory location.</p>
+
+    <p>The cost curve below maps the levelised cost of AI compute (LCOAC) — the cost per GPU-hour required to recover CAPEX and OPEX over project life — across cluster scales from 100 MW to 1 GW. Hyderabad's cost curve is the steepest, benefiting most from scale efficiencies in GPU volume procurement, shared transmission infrastructure, and operational leverage. NCR's curve is the flattest, reflecting a structural cost penalty that persists across all scales. The gap between the two curves — approximately USD 0.90 per GPU-hour at both 100 MW and 1 GW — represents the persistent infrastructure penalty of NCR constraints that no amount of ecosystem depth can offset.</p>
+
+    <figure>
+      <svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI Compute Cost Curve — Levelised Cost vs Cluster Scale">
+        <rect width="800" height="420" fill="#111827"/>
+        <text x="30" y="35" fill="#f1f5f9" font-family="Inter, sans-serif" font-size="16" font-weight="700">AI Compute Cost Curve — LCOAC vs Cluster Scale</text>
+        <text x="30" y="55" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="11">USD per GPU-hour. Log scale on cluster size.</text>
+        <!-- Axes -->
+        <line x1="80" y1="370" x2="760" y2="370" stroke="#374151" stroke-width="1"/>
+        <line x1="80" y1="80" x2="80" y2="370" stroke="#374151" stroke-width="1"/>
+        <!-- Y-axis labels (USD/GPU-hour): 4.0, 3.5, 3.0, 2.5, 2.0 -->
+        <g font-family="JetBrains Mono, monospace" font-size="10" fill="#94a3b8">
+          <text x="70" y="92" text-anchor="end">4.00</text>
+          <text x="70" y="156" text-anchor="end">3.50</text>
+          <text x="70" y="220" text-anchor="end">3.00</text>
+          <text x="70" y="284" text-anchor="end">2.50</text>
+          <text x="70" y="348" text-anchor="end">2.00</text>
+          <text x="25" y="225" fill="#cbd5e1" font-size="11" transform="rotate(-90 25 225)" text-anchor="middle">USD/GPU-hour</text>
+        </g>
+        <!-- Grid lines -->
+        <g stroke="#1f2937" stroke-width="1">
+          <line x1="80" y1="88" x2="760" y2="88"/>
+          <line x1="80" y1="152" x2="760" y2="152"/>
+          <line x1="80" y1="216" x2="760" y2="216"/>
+          <line x1="80" y1="280" x2="760" y2="280"/>
+          <line x1="80" y1="344" x2="760" y2="344"/>
+        </g>
+        <!-- X-axis labels (cluster scale, log positions): 100, 250, 500, 1000 -->
+        <g font-family="JetBrains Mono, monospace" font-size="10" fill="#94a3b8" text-anchor="middle">
+          <text x="180" y="388">100 MW</text>
+          <text x="340" y="388">250 MW</text>
+          <text x="500" y="388">500 MW</text>
+          <text x="660" y="388">1 GW</text>
+          <text x="420" y="408" fill="#cbd5e1" font-size="11">Cluster Scale</text>
+        </g>
+        <!-- Hyderabad line (blue): 3.10, 2.60, 2.30, 2.05 -->
+        <!-- Scale: y = 370 - (value - 2.0) * 64 -->
+        <!-- 3.10 -> 370-70.4=299.6, 2.60 -> 370-38.4=331.6, 2.30 -> 370-19.2=350.8, 2.05 -> 370-3.2=366.8 -->
+        <polyline points="180,300 340,332 500,351 660,367" fill="none" stroke="#3b82f6" stroke-width="3"/>
+        <circle cx="180" cy="300" r="5" fill="#3b82f6"/>
+        <circle cx="340" cy="332" r="5" fill="#3b82f6"/>
+        <circle cx="500" cy="351" r="5" fill="#3b82f6"/>
+        <circle cx="660" cy="367" r="5" fill="#3b82f6"/>
+        <text x="180" y="292" fill="#3b82f6" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle">3.10</text>
+        <text x="660" y="360" fill="#3b82f6" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle">2.05</text>
+        <!-- NCR line (amber): 3.85, 3.45, 3.20, 2.95 -->
+        <!-- 3.85 -> 370-118.4=251.6, 3.45 -> 370-92.8=277.2, 3.20 -> 370-76.8=293.2, 2.95 -> 370-60.8=309.2 -->
+        <polyline points="180,252 340,277 500,293 660,309" fill="none" stroke="#f59e0b" stroke-width="3"/>
+        <circle cx="180" cy="252" r="5" fill="#f59e0b"/>
+        <circle cx="340" cy="277" r="5" fill="#f59e0b"/>
+        <circle cx="500" cy="293" r="5" fill="#f59e0b"/>
+        <circle cx="660" cy="309" r="5" fill="#f59e0b"/>
+        <text x="180" y="244" fill="#f59e0b" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle">3.85</text>
+        <text x="660" y="302" fill="#f59e0b" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle">2.95</text>
+        <!-- Shaded gap -->
+        <polygon points="180,300 340,332 500,351 660,367 660,309 500,293 340,277 180,252" fill="#ef4444" fill-opacity="0.08"/>
+        <!-- Legend -->
+        <rect x="600" y="100" width="14" height="3" fill="#3b82f6"/><text x="620" y="105" fill="#cbd5e1" font-family="JetBrains Mono, monospace" font-size="10">Hyderabad</text>
+        <rect x="600" y="120" width="14" height="3" fill="#f59e0b"/><text x="620" y="125" fill="#cbd5e1" font-family="JetBrains Mono, monospace" font-size="10">NCR</text>
+        <rect x="600" y="140" width="14" height="10" fill="#ef4444" opacity="0.3"/><text x="620" y="149" fill="#cbd5e1" font-family="JetBrains Mono, monospace" font-size="10">Structural gap</text>
+      </svg>
+      <figcaption>Figure 4. AI Compute Cost Curve — Levelised Cost of AI Compute vs Cluster Scale. Source: Techadyant Labs cost-curve model, 2026. Hyderabad's steeper curve delivers the largest unit-cost reduction at scale; NCR retains a persistent ~USD 0.90/GPU-hour infrastructure penalty.</figcaption>
+    </figure>
+
+    <p>The cost curve confirms the strategic allocation: hyperscale AI factory economics favour corridors where infrastructure fundamentals compound at scale. Hyderabad's cost advantage widens as clusters grow from 100 MW to 1 GW, supporting the thesis that Telangana AI City Phase 2 (planned 1,500-acre expansion, 2027-2030 commissioning) is the most credible pathway to India's first 1 GW AI cluster. NCR's flatter curve implies that scaling within the corridor does not overcome its structural cost penalty — capital is better deployed to Gujarat or Chennai where scale economics compound rather than plateau.</p>
+
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="the-numbers-tabulated">The Numbers, Tabulated</h2>
+
+    <h3 id="table-1-corridor-t-acvi-scores-and-verdicts">Table 1 — Corridor T-ACVI Scores and Verdicts</h3>
+    <table>
+      <thead>
+        <tr><th>Rank</th><th>Corridor</th><th>T-ACVI Score</th><th>Verdict</th><th>Strategic Role</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Hyderabad</td><td>81.5</td><td>GO</td><td>Primary hyperscale AI corridor</td></tr>
+        <tr><td>2</td><td>Gujarat</td><td>77.2</td><td>GO</td><td>Greenfield hyperscale; investment-grade fundamentals</td></tr>
+        <tr><td>3</td><td>Andhra Pradesh</td><td>71.6</td><td>GO</td><td>Coastal greenfield; strategic reserve</td></tr>
+        <tr><td>4</td><td>Chennai</td><td>71.1</td><td>GO</td><td>Latency hub; selective hyperscale</td></tr>
+        <tr><td>5</td><td>NCR</td><td>63.7</td><td>CAUTION</td><td>Enterprise AI; colocation only</td></tr>
+        <tr><td>6</td><td>Bengaluru</td><td>63.7</td><td>CAUTION</td><td>Talent hub; water-constrained</td></tr>
+        <tr><td>7</td><td>Mumbai</td><td>63.4</td><td>CAUTION</td><td>Demand epicentre; colocation focus</td></tr>
+        <tr><td>8</td><td>Pune</td><td>60.7</td><td>CAUTION</td><td>Mumbai overflow; selective colocation</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="table-2-six-scenarios-five-corridors-irr-matrix">Table 2 — Six Scenarios × Five Corridors IRR Matrix (%)</h3>
+    <table>
+      <thead>
+        <tr><th>Region</th><th>A: Conservative</th><th>B: Base</th><th>C: Acceleration</th><th>D: Power-Const.</th><th>E: Water-Const.</th><th>F: GPU Collapse</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Hyderabad</td><td>14.5</td><td>22.8</td><td>31.4</td><td>12.6</td><td>18.2</td><td>8.4</td></tr>
+        <tr><td>Gujarat</td><td>13.6</td><td>21.2</td><td>29.8</td><td>13.4</td><td>18.8</td><td>8.0</td></tr>
+        <tr><td>Chennai</td><td>12.4</td><td>20.6</td><td>28.5</td><td>11.2</td><td>14.8</td><td>7.4</td></tr>
+        <tr><td>Mumbai</td><td>10.8</td><td>18.5</td><td>26.2</td><td>8.4</td><td>13.5</td><td>6.2</td></tr>
+        <tr><td>NCR</td><td>9.2</td><td>16.4</td><td>24.1</td><td>6.8</td><td>9.6</td><td>4.5</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="table-3-ai-compute-build-out-industrial-tam-2026-2030-usd-billion">Table 3 — AI Compute Build-out Industrial TAM 2026-2030 (USD Billion)</h3>
+    <table>
+      <thead>
+        <tr><th>Layer</th><th>Total TAM</th><th>India-Serviceable</th><th>Capture Horizon</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Compute Hardware (GPU, servers)</td><td>84</td><td>28</td><td>5-10 years (PLI + ISM)</td></tr>
+        <tr><td>Power (substations, BESS, transmission)</td><td>38</td><td>16</td><td>3-5 years</td></tr>
+        <tr><td>Construction (EPC, modular DC)</td><td>28</td><td>12</td><td>Immediate</td></tr>
+        <tr><td>Cooling (DLC, immersion)</td><td>22</td><td>9</td><td>3-5 years</td></tr>
+        <tr><td>Digital (fibre, networking)</td><td>16</td><td>8</td><td>3-5 years</td></tr>
+        <tr><td>Water (recycling, TTW, treatment)</td><td>11</td><td>5</td><td>Immediate</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>199</strong></td><td><strong>78</strong></td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="what-to-watch">What to Watch</h2>
+    <ul class="watch-list">
+      <li>
+        <span class="watch-date">2027</span>
+        <span class="watch-text"><strong>765 kV Hyderabad transmission augmentation</strong> — Commissioning unlocks 500 MW-1 GW AI cluster capacity at Telangana AI City Phase 2. The binding infrastructure threshold for India's first sovereign-scale AI factory.</span>
+      </li>
+      <li>
+        <span class="watch-date">2026-27</span>
+        <span class="watch-text"><strong>MeitY Data Centre Policy finalisation</strong> — Expected to codify tier classification, sustainability norms (mandating DLC or immersion cooling in WSI &gt; 4.0 regions), and single-window clearance for greenfield projects above 50 MW.</span>
+      </li>
+      <li>
+        <span class="watch-date">2027-28</span>
+        <span class="watch-text"><strong>Gujarat semiconductor-DC industrial cluster emergence</strong> — Tata's Dholera fab and Micron's Sanand packaging facility anchor a compounding industrial adjacency that could elevate Gujarat's AI Ecosystem dimension from 6.0 toward Hyderabad's 8.5.</span>
+      </li>
+      <li>
+        <span class="watch-date">2028-30</span>
+        <span class="watch-text"><strong>1 GW AI cluster announcement</strong> — India's first sovereign-scale AI factory (comparable to xAI Memphis or Stargate-class projects) likely to be announced in Telangana AI City Phase 2 or Gujarat, with 700-1,000 MW of dedicated renewable procurement and 765 kV dedicated transmission.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+
+    <details>
+      <summary>Which Indian city is best for AI data centre investment in 2026?</summary>
+      <div class="faq-answer">
+        <p>Hyderabad leads India's AI compute corridors with a T-ACVI score of 81.5 and a base-case IRR of 22.8% on a 100 MW AI campus, producing USD 620 million NPV over 10 years. Gujarat ranks second at 77.2 T-ACVI and 21.2% IRR, offering the strongest greenfield fundamentals with the lowest power tariffs (₹5.8/kWh) and water stress (WSI 1.8) among assessed corridors.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Why is NCR not viable for hyperscale AI data centres?</summary>
+      <div class="faq-answer">
+        <p>NCR scores 63.7 on the T-ACVI (CAUTION band) due to a Water Stress Index of 4.6 (severe), a Water Stress Adjustment Factor of 1.42 imposing a 42% water OPEX penalty, 30-36 month substation lead times, and industrial land costs of USD 1.85 million per acre — 4.4× Hyderabad's USD 0.42 million. Its IRR on a 100 MW AI campus is 16.4%, barely above the 15% PE hurdle rate, and falls to 4.5% under GPU Price Collapse scenarios.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>What is the T-ACVI framework used to rank Indian AI corridors?</summary>
+      <div class="faq-answer">
+        <p>The Techadyant AI Compute Viability Index (T-ACVI) scores Indian corridors on a 0-100 scale across nine dimensions weighted by infrastructure bindingness: Power Availability (20%), Power Economics (15%), Water/Cooling (15%), Transmission (10%), Land (10%), Connectivity (10%), Expansion Potential (10%), Policy (5%), and AI Ecosystem (5%). The investment-grade threshold is 70+. Four of eight corridors clear the threshold: Hyderabad (81.5), Gujarat (77.2), Andhra Pradesh (71.6), and Chennai (71.1).</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How much AI compute capacity will India need by 2035?</summary>
+      <div class="faq-answer">
+        <p>Under the Techadyant Labs base case, India's AI compute demand grows at 28% CAGR from approximately 180 MW in 2026 to 1,960 MW by 2035. The conservative scenario (23% CAGR) reaches 1,210 MW; the acceleration scenario (35% CAGR) reaches 4,600 MW. The forecast implies current announced capacity of 2,200 MW for 2024-2030 will be insufficient within 3-4 years under the base case, supporting a sustained multi-decade investment opportunity.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>What is the total addressable market for India's AI compute industrial supply chain?</summary>
+      <div class="faq-answer">
+        <p>India's AI compute build-out creates a USD 199 billion addressable industrial opportunity across six layers through 2030: Compute hardware (USD 84 billion), Power infrastructure (USD 38 billion), Construction (USD 28 billion), Cooling (USD 22 billion), Digital (USD 16 billion), and Water systems (USD 11 billion). Approximately USD 78 billion (40% of TAM) is serviceable by Indian suppliers, anchored by the ₹3,000 crore PLI for IT Hardware and the India Semiconductor Mission.</p>
+      </div>
+    </details>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="sources-methodology">Sources &amp; Methodology</h2>
+    <p>The analysis in this report is constructed from six research methodologies: secondary research consolidation across 60+ sources, quantitative corridor economics modelling, expert input validation, primary field research on Hyderabad and NCR corridors, international benchmarking (Singapore, Virginia, Ireland), and editorial review for analytical neutrality.</p>
+    <ol>
+      <li>Central Electricity Authority (CEA) — Generation Capacity Report, Transmission Performance Report, 2025.</li>
+      <li>Power System Operation Corporation (POSOCO) — Annual Operational Performance Report, Grid Operations Database, 2025.</li>
+      <li>Power Grid Corporation of India (POWERGRID) — Substation and transmission network data, Green Energy Corridor programme filings.</li>
+      <li>World Resources Institute — WRI Aqueduct 4.0 Water Stress Atlas, 2025.</li>
+      <li>Central Ground Water Board — Ground Water Year Book 2024-25, groundwater classification data.</li>
+      <li>Ministry of Electronics and Information Technology (MeitY) — IndiaAI Mission Document (2024), Draft Data Centre Policy (2025).</li>
+      <li>Government of Telangana — Telangana IT &amp; AI Policy 2024-2029, TGIIC AI City Master Plan.</li>
+      <li>Government of Uttar Pradesh — UP Data Centre Policy 2024.</li>
+      <li>Government of Gujarat — Gujarat DC and Cloud Policy 2024-29, GIDC industrial land data.</li>
+      <li>Government of Tamil Nadu — Tamil Nadu AI Mission Document (2024), SIPCOT industrial land data.</li>
+      <li>Ministry of New and Renewable Energy (MNRE) — Annual Report 2024-25, SECI auction results.</li>
+      <li>Industry market reports — JLL, Cushman &amp; Wakefield, Knight Frank, CBRE (India Data Centre Market 2025).</li>
+      <li>Operator filings — Yotta, CtrlS, Nxtra, STT GDC, NTT, Sify, AdaniConneX, AWS, Microsoft, Google, Tata Communications, Reliance Jio (2024-25 Annual Reports, SEBI/RBI filings).</li>
+      <li>NASSCOM — India Tech Industry Report 2025, Indian Startup Ecosystem Report 2025.</li>
+      <li>ASHRAE TC 9.9 — Thermal Guidelines for Data Processing Environments, 5th Edition (2024).</li>
+    </ol>
+    <p>For the complete methodology documentation, dimensional scoring matrices, and live-formula Excel workbook, see the <a href="/methodology/">Techadyant Labs Methodology page</a>.</p>
+  </div>
+</section>
