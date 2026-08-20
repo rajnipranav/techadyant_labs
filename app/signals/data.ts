@@ -1,7 +1,10 @@
 export interface SignalBody {
-  type: 'p' | 'h' | 'list';
+  type: 'p' | 'h' | 'list' | 'quote' | 'img';
   text?: string;
   items?: string[];
+  src?: string;
+  alt?: string;
+  caption?: string;
 }
 
 export interface SignalMeta {
@@ -2027,12 +2030,12 @@ export const signals: SignalMeta[] = [{
   slug: 'three-indian-semiconductor-plants-live-ism-20-approved-semicon-india-2026',
   no: 'S-062',
   title: 'Three Indian semiconductor plants are now in commercial production; ISM 2.0 approved with Rs 1,27,500 crore outlay',
-  domain: 'Semiconductors & Electronics',
+  domain: 'Semiconductor Ecosystems',
   date: '2026-08-19',
   dateLabel: '19 Aug 2026',
   status: 'live',
   excerpt: 'MeitY Secretary S Krishnan announced on 18 August that three semiconductor facilities — Micron, Kaynes and CG Semi, all at Sanand in Gujarat — have entered commercial production under ISM 1.0, with five to six projects expected to be live by end-2026. The Union Cabinet has approved ISM 2.0 with an outlay of Rs 1,27,500 crore, and PM Modi will inaugurate SEMICON India 2026 on 17 September.',
-  readingTime: '3 min read',
+  readingTime: '3 min',
   body: [{
   text: 'At a press conference on 18 August 2026 announcing the fifth edition of SEMICON India, MeitY Secretary S Krishnan declared that three major semiconductor facilities approved under the first phase of the India Semiconductor Mission have entered commercial production — Micron, Kaynes and CG Semi, all located at Sanand in Gujarat. The Prime Minister inaugurated the first of these on 28 February 2026, with two more following, and Krishnan projected that five to six projects would be in commercial production by the end of the calendar year. These are the concrete outputs of ISM 1.0, which approved twelve projects worth a combined Rs 1.64 lakh crore across Gujarat, Assam, Uttar Pradesh, Punjab, Odisha and Andhra Pradesh.',
   type: 'p'
@@ -2048,6 +2051,33 @@ export const signals: SignalMeta[] = [{
 }, {
   text: 'What makes this a signal rather than another policy announcement is the shift in evidentiary weight. ISM 1.0 is no longer a portfolio of approvals and memorandum of understanding ceremonies — three facilities are shipping commercial product today, and the fabrication frontier (Tata-Powerchip) is months away from first silicon. The doubling of the outlay in ISM 2.0 and the extension of the programme to twelve years indicate the government has moved from seeding the industry to underwriting a multi-decade build-out. The test to watch is whether the Dholera fab achieves its December 2026 first-chip target and whether ISM 2.0\'s notification translates cabinet approval into signed projects.',
   type: 'p'
+}, {
+  text: 'Milestones at a glance',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['ISM 1.0 approvals — 12 projects, Rs 1.64 lakh crore, six states (Delivered).', 'Commercial production — Micron, Kaynes, CG Semi (Sanand, Gujarat) (Live since Feb 2026).', 'First silicon fabrication — Tata-Powerchip, Dholera — Rs 91,000 crore, 50,000 wafers/month, 28nm (Targeting Dec 2026).', 'ISM 2.0 — Rs 1,27,500 crore outlay, 12-year timeline (Cabinet approved 15 Jul 2026).', 'SEMICON India 2026 — CEO roundtable 16 Sep; inauguration 17 Sep, Yashobhoomi (Confirmed).']
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The doubling of the outlay and the extension to twelve years tell you what the government has actually decided: ISM 1.0 was the seed round. ISM 2.0 is the conviction that India\'s chip industry is now a national industrial project, not a policy experiment. — Techadyant Labs analysis',
+  type: 'quote'
+}, {
+  text: 'Two constraints deserve attention. The first is talent: India already accounts for roughly 20 per cent of the world\'s chip design engineers, but scaling from a deep design bench to a full manufacturing workforce is the harder step, and Krishnan\'s framing of India as a potential fabrication-talent exporter for the rest of the world is an early signal of how the government intends to close it. The second is sequencing: the CEO roundtable on 16 September puts the government\'s pitch directly in front of the firms it is courting for fabs and advanced packaging, and its outcomes will determine whether ISM 2.0\'s money converts into signed projects beyond the Gujarat cluster.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Two dated tests. First, the Tata-Powerchip first-chip milestone in December 2026 — fab yields at 28nm on Indian soil are the single most checkable proof point of the whole programme, and any slippage will be read globally as a verdict on India\'s fabrication readiness. Second, the ISM 2.0 notification and its first signed projects: the twelve-year timeline only matters if projects beyond the Gujarat cluster begin to transact. The CEO roundtable on 16 September is the earliest window for announcements.',
+  type: 'p'
+}, {
+  text: 'Related reading',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['[PM Modi sets trajectory: 5-8 more semiconductor plants in 7-8 years](/signals/pm-modi-5-8-semiconductor-plants-7-8-years)', '[Aheesa achieves first-pass silicon success with VIHAAN networking SoC](/signals/aheesa-first-pass-silicon-vihaan-networking-soc)']
 }],
   takeaways: ['Three ISM 1.0 semiconductor facilities — Micron, Kaynes and CG Semi at Sanand, Gujarat — have entered commercial production, with five to six projects expected live by end-2026.', 'The Rs 91,000 crore Tata-Powerchip fab at Dholera (50,000 wafers/month, 28nm) targets its first chip in December 2026 — the first silicon fabrication on Indian soil.', 'The Union Cabinet approved ISM 2.0 on 15 July 2026 with an outlay of Rs 1,27,500 crore (up from Rs 76,000 crore for ISM 1.0) and a 12-year timeline.', 'PM Modi will hold a global semiconductor CEO roundtable on 16 September and inaugurate SEMICON India 2026 at Yashobhoomi on 17 September, with 500+ exhibitors expected.', 'India\'s domestic semiconductor demand is projected to double from $100 billion to $200 billion, with a top-five global chip ecosystem target by 2029.'],
   sources: ['The Times of India (18 Aug 2026): https://timesofindia.indiatimes.com/business/india-business/indias-chip-story-enters-next-phase-5-6-semiconductor-projects-may-go-commercial-by-end-of-2026/articleshow/133320153.cms', 'Business Line (18 Aug 2026): https://www.thehindubusinessline.com/info-tech/indias-semiconductor-ecosystem-set-for-expansion-5-6-projects-may-go-live-by-2026-end-meity-secy-s-krishnan/article71359849.ece', 'ThePrint (18 Aug 2026): https://theprint.in/india/semicon-india-2026-pm-modi-to-meet-global-semiconductor-chiefs-as-govt-targets-200-bn-market/3018047/']

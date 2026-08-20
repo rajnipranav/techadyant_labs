@@ -134,7 +134,7 @@ async function syncSignals() {
   if (error) { console.error('CMS signals fetch failed:', error.message); return []; }
   const rows = (data || []);
   const mapped = rows.map(mapCmsSignalToMeta);
-  const header = `export interface SignalBody {\n  type: 'p' | 'h' | 'list';\n  text?: string;\n  items?: string[];\n}\n\n` +
+  const header = `export interface SignalBody {\n  type: 'p' | 'h' | 'list' | 'quote' | 'img';\n  text?: string;\n  items?: string[];\n  src?: string;\n  alt?: string;\n  caption?: string;\n}\n\n` +
     `export interface SignalMeta {\n  slug: string;\n  no: string;\n  title: string;\n  domain: string;\n` +
     `  date: string;\n  dateLabel: string;\n  status: 'live' | 'monitoring' | 'placeholder';\n` +
     `  excerpt: string;\n  readingTime: string;\n  body?: SignalBody[];\n  takeaways?: string[];\n  sources?: string[];\n}\n\n` +
