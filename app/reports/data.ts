@@ -935,14 +935,14 @@ export const reports: ReportMeta[] = [{
 }, {
   slug: 'semicon-2-0-opportunity-map',
   title: 'The Semicon 2.0 Opportunity Map',
-  subtitle: 'India funds the fab — but 65% of semiconductor value, and 78% of the margin, sits in the eight upstream streams it still imports. A stream-by-stream map of the Rs 45,500 crore serviceable opportunity beyond fabrication — materials, chemicals, equipment, precision manufacturing, packaging, testing, automation and industrial software — ranked and sorted into three capital-allocation tiers.',
+  subtitle: 'India funds the fab — but 65% of semiconductor value, and 78% of the margin, sits in the eight upstream streams it still imports. A stream-by-stream map of the Rs 95,500 crore obtainable (SOM) opportunity beyond fabrication — materials, chemicals, equipment, precision manufacturing, packaging, testing, automation and industrial software — ranked and sorted into three capital-allocation tiers.',
   domain: 'Semiconductors',
   edition: 'Strategic Opportunity · Edition 1 · v2.0',
   published: '2026-07-16',
   publishedLabel: 'July 2026',
   readingTime: '~ 3h read',
   status: 'published',
-  summary: 'In July 2026 the Union Cabinet approved the second phase of the India Semiconductor Mission — a roughly Rs 1.27 lakh crore, six-pillar programme that, for the first time, extends state support beyond fabrication into materials, equipment, chemicals and the wider component ecosystem. This report maps that shift. The fab is only about 35% of the semiconductor value chain; the eight upstream streams beyond it — materials, chemicals, equipment, precision manufacturing, packaging, testing, automation and industrial software — hold roughly 65% of the value and 78% of the gross-margin pool, and India imports almost all of it (an estimated 99% of lithography equipment, 95% of photoresists, 92% of specialty gases). Techadyant Labs sizes the ten-year addressable opportunity at about Rs 95,500 crore, of which ~Rs 45,500 crore is realistically serviceable by 2035, ranks all eight streams, and sorts them into three capital-allocation tiers — what to speed up now, what to invest in with government co-investment, and what needs sovereign patience. Fifteen chapters, twenty-six figures, a ten-sheet data workbook and full appendices; all market-sizing is Techadyant Labs\' own modelling and load-bearing external facts are traced to source.',
+  summary: 'In July 2026 the Union Cabinet approved the second phase of the India Semiconductor Mission — a roughly Rs 1.27 lakh crore, six-pillar programme that, for the first time, extends state support beyond fabrication into materials, equipment, chemicals and the wider component ecosystem. This report maps that shift. The fab is only about 35% of the semiconductor value chain; the eight upstream streams beyond it — materials, chemicals, equipment, precision manufacturing, packaging, testing, automation and industrial software — hold roughly 65% of the value and 78% of the gross-margin pool, and India imports almost all of it (an estimated 99% of lithography equipment, 95% of photoresists, 92% of specialty gases). Techadyant Labs sizes the ten-year geographic addressable market (TAM) at about Rs 427,500 crore, India\'s serviceable available market (SAM) at Rs 217,600 crore, and the realistically obtainable market (SOM) at about Rs 95,500 crore by 2035, ranks all eight streams, and sorts them into three capital-allocation tiers — what to speed up now, what to invest in with government co-investment, and what needs sovereign patience. Fifteen chapters, twenty-six figures, a ten-sheet data workbook and full appendices; all market-sizing is Techadyant Labs\' own modelling and load-bearing external facts are traced to source.',
   accent: '#C9A84C',
   access: 'paid',
   price: 6999,
@@ -961,7 +961,7 @@ export const reports: ReportMeta[] = [{
   a: 'Techadyant Labs defines Semicon 2.0 as the coordinated build-out of the eight-stream semiconductor ecosystem beyond fabrication and OSAT — materials, chemicals, equipment, precision manufacturing, packaging, testing, automation and industrial software. It follows the ~Rs 1.27 lakh crore India Semiconductor Mission 2.0 approved by the Union Cabinet in July 2026, whose second pillar covers machines, materials, chemicals and gases.',
   q: 'What is Semicon 2.0?'
 }, {
-  a: 'The report models about Rs 95,500 crore of ten-year addressable opportunity across the eight streams, of which roughly Rs 45,500 crore is realistically serviceable by 2035 — larger than the combined market capitalisation of India\'s listed semiconductor-ecosystem companies today. These are Techadyant Labs\' own modelled scenario estimates, not forecasts.',
+  a: 'The report models about Rs 427,500 crore of ten-year geographic addressable market across the eight streams, of which India\'s serviceable available market (SAM) is about Rs 217,600 crore and the realistically obtainable market (SOM) is about Rs 95,500 crore by 2035 — larger than the combined market capitalisation of India\'s listed semiconductor-ecosystem companies today. These are Techadyant Labs\' own modelled scenario estimates, not forecasts.',
   q: 'How big is the Semicon 2.0 opportunity?'
 }, {
   a: 'The fab is only about 35% of the semiconductor value chain. The eight upstream streams beyond it hold roughly 65% of the value and 78% of the gross-margin pool — and India imports almost all of it, including an estimated 99% of lithography equipment, 95% of photoresists and 92% of specialty gases.',
@@ -977,11 +977,11 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-07-16',
   seo: {
   entities: ['India Semiconductor Mission', 'ISM 2.0', 'Tata Electronics', 'Micron', 'photoresist', 'OSAT', 'ATMP', 'MeitY', 'advanced packaging', 'semiconductor materials'],
-  aiSummary: 'The Semicon 2.0 Opportunity Map argues India\'s ~Rs 1.27 lakh crore ISM 2.0 (approved July 2026) targets only the fab, which is ~35% of the semiconductor value chain. The other 65% of value and 78% of margin sits in eight upstream streams — materials, chemicals, equipment, precision manufacturing, packaging, testing, automation, industrial software — which India overwhelmingly imports. Techadyant Labs sizes the serviceable opportunity at ~Rs 45,500 crore by 2035, flags photoresist (87–91% Japanese-controlled) as the key chokepoint, and sorts the streams into three capital-allocation tiers.',
-  metaTitle: 'The Semicon 2.0 Opportunity Map: India\'s Rs 45,500 Crore Chip-Ecosystem Play (2026)',
+  aiSummary: 'The Semicon 2.0 Opportunity Map argues India\'s ~Rs 1.27 lakh crore ISM 2.0 (approved July 2026) targets only the fab, which is ~35% of the semiconductor value chain. The other 65% of value and 78% of margin sits in eight upstream streams — materials, chemicals, equipment, precision manufacturing, packaging, testing, automation, industrial software — which India overwhelmingly imports. Techadyant Labs sizes India\'s realistically obtainable market (SOM) at ~Rs 95,500 crore by 2035, flags photoresist (87–91% Japanese-controlled) as the key chokepoint, and sorts the streams into three capital-allocation tiers.',
+  metaTitle: 'The Semicon 2.0 Opportunity Map: India\'s Rs 95,500 Crore Chip-Ecosystem Play (2026)',
   schemaType: 'Report',
   focusKeyword: 'india semiconductor mission 2.0',
-  metaDescription: 'India\'s ISM 2.0 commits ~Rs 1.27 lakh crore — but the fab is only 35% of the value chain. A stream-by-stream map of the Rs 45,500 crore serviceable opportunity in semiconductor materials, equipment, packaging, testing and industrial software, ranked into three capital-allocation tiers.'
+  metaDescription: 'India\'s ISM 2.0 commits ~Rs 1.27 lakh crore — but the fab is only 35% of the value chain. A stream-by-stream map of the Rs 95,500 crore obtainable-market (SOM) opportunity in semiconductor materials, equipment, packaging, testing and industrial software, ranked into three capital-allocation tiers.'
 }
 }, {
   slug: 'the-sme-playbook-for-indias-drone-economy',
