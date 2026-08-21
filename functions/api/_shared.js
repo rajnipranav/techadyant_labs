@@ -77,6 +77,10 @@ export const REPORTS = {
     object: 'Techadyant_Quantum_SupplyChain.pdf',
     filename: 'The-Hidden-Supply-Chain-of-Quantum-Computing-Techadyant-Labs.pdf',
     title: 'The Hidden Supply Chain of Quantum Computing',
+    // Report + Data tier: 17-sheet master data workbook (KPIs, market sizing, 62-company DB, startup/funding/policy DBs, patent landscape, technology mapping, talent pipeline, defence use cases, risk heat map, supply chain dependencies, forecast assumptions, charts source data, supplier directory, reading list).
+    priceWithDataInr: 11999,
+    dataObject: 'data/Techadyant_Quantum_SupplyChain_Workbook.xlsx',
+    dataFilename: 'The-Hidden-Supply-Chain-of-Quantum-Computing-Data-Pack-Techadyant-Labs.xlsx',
   },
   'india-cargo-drone-market': {
     access: 'paid',

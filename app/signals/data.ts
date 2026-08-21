@@ -2081,6 +2081,56 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Three ISM 1.0 semiconductor facilities — Micron, Kaynes and CG Semi at Sanand, Gujarat — have entered commercial production, with five to six projects expected live by end-2026.', 'The Rs 91,000 crore Tata-Powerchip fab at Dholera (50,000 wafers/month, 28nm) targets its first chip in December 2026 — the first silicon fabrication on Indian soil.', 'The Union Cabinet approved ISM 2.0 on 15 July 2026 with an outlay of Rs 1,27,500 crore (up from Rs 76,000 crore for ISM 1.0) and a 12-year timeline.', 'PM Modi will hold a global semiconductor CEO roundtable on 16 September and inaugurate SEMICON India 2026 at Yashobhoomi on 17 September, with 500+ exhibitors expected.', 'India\'s domestic semiconductor demand is projected to double from $100 billion to $200 billion, with a top-five global chip ecosystem target by 2029.'],
   sources: ['The Times of India (18 Aug 2026): https://timesofindia.indiatimes.com/business/india-business/indias-chip-story-enters-next-phase-5-6-semiconductor-projects-may-go-commercial-by-end-of-2026/articleshow/133320153.cms', 'Business Line (18 Aug 2026): https://www.thehindubusinessline.com/info-tech/indias-semiconductor-ecosystem-set-for-expansion-5-6-projects-may-go-live-by-2026-end-meity-secy-s-krishnan/article71359849.ece', 'ThePrint (18 Aug 2026): https://theprint.in/india/semicon-india-2026-pm-modi-to-meet-global-semiconductor-chiefs-as-govt-targets-200-bn-market/3018047/']
+}, {
+  slug: 'india-japan-maritime-security-pact-joint-naval-shipbuilding',
+  no: 'S-063',
+  title: 'India and Japan Sign a Maritime Security Pact and Open the Door to Joint Warship-Building',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-20',
+  dateLabel: '20 Aug 2026',
+  status: 'live',
+  excerpt: 'India and Japan signed a maritime-security Memorandum of Arrangement on 20 August 2026 and agreed to assess joint naval shipbuilding, with the shipborne UNICORN mast confirmed as their flagship defence technology transfer.',
+  readingTime: '3 min',
+  body: [{
+  text: 'On 20 August 2026, defence ministers Rajnath Singh and Shinjiro Koizumi signed a Memorandum of Arrangement on maritime security in New Delhi during Koizumi\'s first visit to India, formalising structured cooperation between the Indian Navy and Japan\'s Maritime Self-Defence Force across search-and-rescue, humanitarian assistance and disaster relief, and the protection of sea lines of communication through mutual naval visits, joint exercises and personnel exchanges. The two sides also agreed to assess joint development in naval shipbuilding and design, pairing Japan\'s warship technology with India\'s production capacity, and confirmed the transfer of the shipborne UNICORN integrated-mast communications antenna as the flagship equipment-transfer project between the two states.',
+  type: 'p'
+}, {
+  text: 'The significance is industrial as much as diplomatic. Japan rarely exports naval design and combat-system technology, and a structured shipbuilding-and-design track gives Indian yards and electronics firms access to mast integration, stealth superstructure and communications know-how that India has historically imported piecemeal. Coming a day after the third India-Japan 2+2 dialogue and against a more contested Indo-Pacific, the pact converts a broad July-summit pledge into a working defence-industrial channel rather than a statement of intent.',
+  type: 'p'
+}, {
+  text: 'For India\'s warship programme the binding constraint has never been hulls but the high-value systems that sit on them - sensors, integrated masts, propulsion and combat management. The UNICORN antenna transfer and the DRDO-ATLA research track target exactly that layer, and a proposed Defence Industry Forum is the mechanism meant to move it from government arrangement to company-to-company work. Whether India captures the technology or merely assembles it will depend on how much design authority the shipbuilding track actually transfers.',
+  type: 'p'
+}, {
+  text: 'The test is conversion. A memorandum of arrangement and an exercise calendar - Dharma Guardian, JIMEX and Veer Guardian - are the easy part; the signal to watch is whether the shipbuilding-and-design assessment produces a co-development project or a firm order, and whether Indian private yards and electronics suppliers are written into it. India\'s naval-industrial base gains most if the pact reaches the supplier tier, not just the two navies.',
+  type: 'p'
+}],
+  takeaways: ['India and Japan signed a maritime-security Memorandum of Arrangement on 20 August 2026 linking the Indian Navy and JMSDF on search-and-rescue, disaster relief and sea-lane protection.', 'The two sides agreed to assess joint naval shipbuilding and design, pairing Japanese warship technology with Indian production capacity.', 'The shipborne UNICORN integrated communications mast is confirmed as the flagship India-Japan defence equipment transfer.', 'DRDO and Japan\'s ATLA will deepen defence R&D cooperation, with a Defence Industry Forum proposed to link the two industrial bases.'],
+  sources: ['Free Press Journal (20 Aug 2026): https://www.freepressjournal.in/india/india-japan-ink-maritime-security-pact-eye-joint-naval-shipbuilding-as-rajnath-singh-shinjiro-koizumi-hold-talks', 'ANI (20 Aug 2026): https://aninews.in/news/world/asia/india-and-japan-step-up-indo-pacific-defence-cooperation-sign-maritime-security-moa20260820151827/', 'The Print (20 Aug 2026): https://theprint.in/diplomacy/india-japan-look-at-joint-naval-shipbuilding-technology-transfer-with-pact-to-deepen-defence-ties/3020296/']
+}, {
+  slug: 'india-armenia-pralay-ballistic-missile-export-talks',
+  no: 'S-064',
+  title: 'India Moves to Export the Pralay Ballistic Missile to Armenia, Its Deepest Strike Deal Yet',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-21',
+  dateLabel: '21 Aug 2026',
+  status: 'live',
+  excerpt: 'India is in advanced cost negotiations to supply Armenia with more than 50 Pralay tactical ballistic missiles - a deal that, if signed, would be India\'s first export of a ballistic-strike system.',
+  readingTime: '3 min',
+  body: [{
+  text: 'India is in advanced cost negotiations to supply Armenia with more than fifty Pralay tactical ballistic missiles, according to reporting on 20 August 2026 - a deal that, if signed, would be India\'s first export of a ballistic-strike system. The export variant of the DRDO-developed Pralay is capped at roughly 290 kilometres to stay compliant with the Missile Technology Control Regime, flies at over Mach 6 with a circular error probable under ten metres, and carries a 350-to-1,000-kilogram warhead. It would sit atop an India-Armenia defence relationship already worth more than 1.5 billion US dollars.',
+  type: 'p'
+}, {
+  text: 'This is a move up the export value chain. India has already sold Armenia the Akash air-defence system, Pinaka rocket artillery and Swathi weapon-locating radars; a quasi-ballistic surface-to-surface missile is a categorically more sensitive class of weapon, and exporting one signals that India can move from defensive and area-fire systems into precision deep-strike. Armenia, rebuilding its arsenal after the loss of assured Russian supply, is functioning as the anchor customer that lets India prove the template.',
+  type: 'p'
+}, {
+  text: 'The regulatory ceiling is the story. The 290-kilometre cap is not a technical limit but an MTCR-driven design choice, and it defines the envelope of what India can sell abroad - a reminder that India\'s missile-export ambitions run through the same non-proliferation architecture its own suppliers once used to constrain it. Domestically, a firm order pulls demand through DRDO and the missile production base, deepening a supply chain that until recently existed only to serve the Indian armed forces.',
+  type: 'p'
+}, {
+  text: 'The signal to watch is whether advanced negotiation becomes a signed, priced contract, and at what value. A concluded Pralay sale would place India among the small group of states that export ballistic missiles and would likely draw third-country interest across South-East Asia and Africa. The opportunity for Indian industry is the export order book itself - but the deal is still talks, not ink, and stage discipline matters here.',
+  type: 'p'
+}],
+  takeaways: ['India is in advanced cost negotiations to export more than 50 Pralay tactical ballistic missiles to Armenia, reported on 20 August 2026 - potentially its first ballistic-missile export.', 'The export Pralay is capped at about 290 km for MTCR compliance, exceeds Mach 6, and carries a 350-1,000 kg warhead.', 'India-Armenia defence trade already exceeds 1.5 billion US dollars, spanning the Akash, Pinaka and Swathi systems.', 'The deal is at the negotiation stage, not signed - a Pralay contract would move India from area-fire to precision deep-strike exports.'],
+  sources: ['Indian Defence News (20 Aug 2026): https://www.indiandefensenews.in/2026/08/armenia-set-to-acquire-over-50-indian.html', 'Indian Defence Research Wing (Aug 2026): https://idrw.org/india-likely-to-approve-armenias-request-for-pralay-missile-supply-after-prolonged-negotiations/', 'The Tribune: https://www.tribuneindia.com/news/india/india-exports-akash-missile-system-to-armenia-in-rs-6000-crore-deal']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
