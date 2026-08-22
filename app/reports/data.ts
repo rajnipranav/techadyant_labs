@@ -360,7 +360,8 @@ export const reports: ReportMeta[] = [{
   metaTitle: 'India Autonomous Maritime Systems Market 2026-2035: USV/UUV Ecosystem, Readiness Index & Opportunities',
   schemaType: 'Report',
   focusKeyword: 'india autonomous maritime systems market',
-  metaDescription: 'India\'s USV/UUV ecosystem to 2035 — three market scenarios (INR 11,500-55,000 crore), a 12-country Maritime Autonomy Readiness Index (India 9/12), 100 OPI-ranked opportunities led by an 11m ASW USV, and a 2026-2035 industrial roadmap for OEMs, Navy, investors, MSMEs and policymakers.'
+  metaDescription: 'India\'s USV/UUV ecosystem to 2035 — three market scenarios (INR 11,500-55,000 crore), a 12-country Maritime Autonomy Readiness Index (India 9/12), 100 OPI-ranked opportunities led by an 11m ASW USV, and a 2026-2035 industrial roadmap for OEMs, Navy, investors, MSMEs and policymakers.',
+  related_reports: ['indian-navy-autonomous-maritime']
 }
 }, {
   slug: 'india-edge-ai-economy',
@@ -556,103 +557,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s green-hydrogen industrial reality — the NGHM and SIGHT money, electrolyser manufacturing, iridium/platinum catalysts, PFSA membranes, LCOH, and three 2035 scenarios (Mirage, Muddle, Machine).'
 }
 }, {
-  slug: 'indian-navy-autonomous-maritime',
-  title: 'The Indian Navy’s Autonomous Maritime Transformation 2026–2035',
-  subtitle: 'Platforms are downstream of ecosystems. What industrial substrate must India build to field an autonomous fleet — and who captures the ₹1.2 lakh crore market beneath USVs, UUVs, XLUUVs and naval UAVs?',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Intelligence · Edition 1 · v1.0',
-  published: '2026-08-02',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'India’s naval autonomous transformation over 2026–2035 is technically feasible and strategically necessary — but its pace will be set less by platform decisions than by the maturation of the underlying industrial substrate. This strategic-intelligence assessment argues that platforms are downstream of ecosystems, and identifies three binding constraints: semiconductor access (marine-grade FPGAs, RF integrated circuits, AI-edge NPUs), test-and-certification throughput (DGQA and CemILAC capacity), and a projected 12,000–18,000-engineer workforce deficit by 2030. If those are addressed, the Navy can field a credible force posture under the recommended ‘Autonomous Power’ scenario — 80+ USVs, 25+ UUVs including XLUUVs, and 180+ naval UAVs by 2035 — and Indian industry can capture ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The report ranks 58 industrial opportunity surfaces (nine Strategic Anchors), scores India against six comparator navies, maps the DRDO/DPSU/private/startup ecosystem, and models four scenarios to 2035. Twelve chapters, ~35 figures, eight proprietary frameworks and full appendices.',
-  accent: '#2E6497',
-  access: 'paid',
-  price: 5900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 153,
-  cover: 'https://library.techadyant.com/covers/Indian_Navy_Autonomous_Maritime.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Indian_Navy_Autonomous_Maritime_Free.pdf',
-  previewPages: 15,
-  hasData: true,
-  priceWithData: 10900,
-  dataFilename: 'Indian-Navy-Autonomous-Maritime-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: ['india naval autonomous systems market', 'indian navy USV', 'unmanned underwater vehicle india', 'XLUUV india', 'naval UAV india', 'maritime autonomy india', 'indian navy unmanned roadmap', 'autonomous maritime market india', 'MUM-T india navy', 'naval defence industrial base india', 'DGQA certification autonomous systems', 'india naval drone opportunity'],
-  faq: [{
-  a: 'In the recommended ‘Autonomous Power’ scenario, Indian industry captures about ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore of it export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The top-30 opportunity surfaces alone represent ~₹48,000 crore of 2035 addressable market potential.',
-  q: 'How big is India’s naval autonomous systems market by 2035?'
-}, {
-  a: 'Under the recommended scenario the report models 80+ unmanned surface vessels, 25+ unmanned underwater vehicles including 4–6 extra-large UUVs (XLUUVs), and 180+ naval UAVs including carrier UAVs and swarm squadrons. Lower scenarios field materially less.',
-  q: 'What autonomous fleet can the Indian Navy realistically field by 2035?'
-}, {
-  a: 'Three substrate constraints set the pace: semiconductor access (marine-grade FPGAs, RF integrated circuits and AI-edge NPUs), test-and-certification throughput at DGQA and CemILAC, and a projected 12,000–18,000-engineer workforce deficit by 2030 under business-as-usual.',
-  q: 'What are the binding constraints on India’s naval autonomy?'
-}, {
-  a: 'DRDO laboratories (NSTL, NPOL, NMRL, ADE and others), DPSUs (BEL, Cochin Shipyard), private majors (L&T Defence), and startups such as Sagar Defence Engineering and NewSpace Research & Technologies — mapped across six stakeholder clusters.',
-  q: 'Who are the key players in India’s naval autonomous ecosystem?'
-}, {
-  a: 'The report ranks 58 industrial opportunity surfaces, of which nine are Strategic Anchors — including quantum inertial navigation, XLUUV hull and energy systems, naval autonomy middleware, sonar transducers and arrays, AIP fuel cells, marine lithium-ion cells and navigation-grade IMUs.',
-  q: 'Where are the biggest industrial opportunities?'
-}],
-  sources: [],
-  dateModified: '2026-08-02',
-  seo: {
-  entities: ['USV', 'UUV', 'XLUUV', 'naval UAV', 'MUM-T', 'Indian Navy', 'DRDO', 'autonomous maritime', 'DGQA', 'semiconductor'],
-  metaTitle: 'India Naval Autonomous Systems Market 2026–2035: USV, UUV, XLUUV & Naval UAV',
-  schemaType: 'Report',
-  focusKeyword: 'india naval autonomous systems market',
-  metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.'
-}
-}, {
-  slug: 'q-day-india',
-  title: 'Q-Day India',
-  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
-  domain: 'Strategic Technology',
-  edition: 'Strategic Risk · 2026 Free Edition',
-  published: '2026-08-02',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 90 min read',
-  status: 'published',
-  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
-  accent: '#38E1C4',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 152,
-  cover: 'https://library.techadyant.com/covers/Techadyant_Labs_QDay_Report.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
-  previewPages: 152,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
-  faq: [{
-  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
-  q: 'What is Q-Day?'
-}, {
-  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
-  q: 'What should Indian organisations do first?'
-}, {
-  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
-  q: 'Why migrate before Q-Day arrives?'
-}, {
-  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
-  q: 'Which sectors are most exposed in India?'
-}],
-  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
-  dateModified: '2026-08-02',
-  seo: {
-  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
-  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
-  schemaType: 'Report',
-  focusKeyword: 'post-quantum cryptography India',
-  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
-}
-}, {
   slug: 'beyond-solar-panels',
   title: 'Beyond Solar Panels',
   subtitle: 'India built the world’s largest solar-deployment machine — but value and vulnerability live upstream of the panel. Mapping the hidden industrial stack: polysilicon, wafers, cells, glass, gases, chemicals and manufacturing equipment.',
@@ -701,6 +605,104 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'india solar manufacturing',
   metaDescription: 'India’s solar manufacturing beyond module assembly — polysilicon, wafers, cells, glass, equipment. Localisation economics, China dependence, opportunity surfaces and a roadmap to solar-manufacturing sovereignty.'
+}
+}, {
+  slug: 'indian-navy-autonomous-maritime',
+  title: 'The Indian Navy’s Autonomous Maritime Transformation 2026–2035',
+  subtitle: 'Platforms are downstream of ecosystems. What industrial substrate must India build to field an autonomous fleet — and who captures the ₹1.2 lakh crore market beneath USVs, UUVs, XLUUVs and naval UAVs?',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Intelligence · Edition 1 · v1.0',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India’s naval autonomous transformation over 2026–2035 is technically feasible and strategically necessary — but its pace will be set less by platform decisions than by the maturation of the underlying industrial substrate. This strategic-intelligence assessment argues that platforms are downstream of ecosystems, and identifies three binding constraints: semiconductor access (marine-grade FPGAs, RF integrated circuits, AI-edge NPUs), test-and-certification throughput (DGQA and CemILAC capacity), and a projected 12,000–18,000-engineer workforce deficit by 2030. If those are addressed, the Navy can field a credible force posture under the recommended ‘Autonomous Power’ scenario — 80+ USVs, 25+ UUVs including XLUUVs, and 180+ naval UAVs by 2035 — and Indian industry can capture ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The report ranks 58 industrial opportunity surfaces (nine Strategic Anchors), scores India against six comparator navies, maps the DRDO/DPSU/private/startup ecosystem, and models four scenarios to 2035. Twelve chapters, ~35 figures, eight proprietary frameworks and full appendices.',
+  accent: '#2E6497',
+  access: 'paid',
+  price: 5900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 153,
+  cover: 'https://library.techadyant.com/covers/Indian_Navy_Autonomous_Maritime.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Indian_Navy_Autonomous_Maritime_Free.pdf',
+  previewPages: 15,
+  hasData: true,
+  priceWithData: 10900,
+  dataFilename: 'Indian-Navy-Autonomous-Maritime-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['india naval autonomous systems market', 'indian navy USV', 'unmanned underwater vehicle india', 'XLUUV india', 'naval UAV india', 'maritime autonomy india', 'indian navy unmanned roadmap', 'autonomous maritime market india', 'MUM-T india navy', 'naval defence industrial base india', 'DGQA certification autonomous systems', 'india naval drone opportunity'],
+  faq: [{
+  a: 'In the recommended ‘Autonomous Power’ scenario, Indian industry captures about ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore of it export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The top-30 opportunity surfaces alone represent ~₹48,000 crore of 2035 addressable market potential.',
+  q: 'How big is India’s naval autonomous systems market by 2035?'
+}, {
+  a: 'Under the recommended scenario the report models 80+ unmanned surface vessels, 25+ unmanned underwater vehicles including 4–6 extra-large UUVs (XLUUVs), and 180+ naval UAVs including carrier UAVs and swarm squadrons. Lower scenarios field materially less.',
+  q: 'What autonomous fleet can the Indian Navy realistically field by 2035?'
+}, {
+  a: 'Three substrate constraints set the pace: semiconductor access (marine-grade FPGAs, RF integrated circuits and AI-edge NPUs), test-and-certification throughput at DGQA and CemILAC, and a projected 12,000–18,000-engineer workforce deficit by 2030 under business-as-usual.',
+  q: 'What are the binding constraints on India’s naval autonomy?'
+}, {
+  a: 'DRDO laboratories (NSTL, NPOL, NMRL, ADE and others), DPSUs (BEL, Cochin Shipyard), private majors (L&T Defence), and startups such as Sagar Defence Engineering and NewSpace Research & Technologies — mapped across six stakeholder clusters.',
+  q: 'Who are the key players in India’s naval autonomous ecosystem?'
+}, {
+  a: 'The report ranks 58 industrial opportunity surfaces, of which nine are Strategic Anchors — including quantum inertial navigation, XLUUV hull and energy systems, naval autonomy middleware, sonar transducers and arrays, AIP fuel cells, marine lithium-ion cells and navigation-grade IMUs.',
+  q: 'Where are the biggest industrial opportunities?'
+}],
+  sources: [],
+  dateModified: '2026-08-02',
+  seo: {
+  entities: ['USV', 'UUV', 'XLUUV', 'naval UAV', 'MUM-T', 'Indian Navy', 'DRDO', 'autonomous maritime', 'DGQA', 'semiconductor'],
+  metaTitle: 'India Naval Autonomous Systems Market 2026–2035: USV, UUV, XLUUV & Naval UAV',
+  schemaType: 'Report',
+  focusKeyword: 'india naval autonomous systems market',
+  metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.',
+  related_reports: ['beyond-sea-drones-india-autonomous-maritime-systems']
+}
+}, {
+  slug: 'q-day-india',
+  title: 'Q-Day India',
+  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
+  domain: 'Strategic Technology',
+  edition: 'Strategic Risk · 2026 Free Edition',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 90 min read',
+  status: 'published',
+  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
+  accent: '#38E1C4',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 152,
+  cover: 'https://library.techadyant.com/covers/Techadyant_Labs_QDay_Report.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
+  previewPages: 152,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
+  faq: [{
+  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
+  q: 'What is Q-Day?'
+}, {
+  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
+  q: 'What should Indian organisations do first?'
+}, {
+  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
+  q: 'Why migrate before Q-Day arrives?'
+}, {
+  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
+  q: 'Which sectors are most exposed in India?'
+}],
+  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
+  dateModified: '2026-08-02',
+  seo: {
+  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
+  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
+  schemaType: 'Report',
+  focusKeyword: 'post-quantum cryptography India',
+  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
 }
 }, {
   slug: 'india-critical-manufacturing-dependencies',
@@ -1735,51 +1737,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India\'s public and private core systems run on foreign enterprise software. The SAP Question maps the dependence, the risks and the sovereign ERP opportunity. Free full report.'
 }
 }, {
-  slug: 'india-battlefield-automation-gap',
-  title: 'India’s Battlefield Automation Gap',
-  subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
-  domain: 'Defence & Dual-Use',
-  edition: 'Edition 01 · Strategic Intelligence · v1.0',
-  published: '2026-05-30',
-  publishedLabel: 'May 2026',
-  readingTime: '~ 2h 30m read',
-  status: 'published',
-  summary: 'Battlefield automation is an industrial-capability race, not a procurement race. Using a proprietary Battlefield Automation Readiness Index (BARI), this report scores India against China and the United States across eight industrial layers — sensors, rugged electronics, batteries, tactical communications, autonomy software, testing and manufacturing — maps where the gap concentrates, reads it sector by sector, and identifies the startup, SME and policy opportunities that would close it. Published free, given its relevance to government-led initiatives.',
-  accent: '#FB923C',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 130,
-  cover: 'https://library.techadyant.com/covers/India%27s%20Battlefield%20Automation%20Gap.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/india-battlefield-automation-gap-free.pdf',
-  previewPages: undefined,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['battlefield automation India', 'military drones India', 'counter-drone systems India', 'loitering munitions India', 'Indian Army drones', 'defence autonomy India', 'unmanned systems India', 'counter-UAS India', 'drone warfare India', 'India defence technology'],
-  faq: [{
-  a: 'It is the distance between how modern battles are now fought — massed low-cost drones, loitering munitions, electronic warfare and increasingly autonomous systems — and what India\'s forces can field and sustain at scale from domestic industry. The report maps that gap layer by layer.',
-  q: 'What is India\'s battlefield automation gap?'
-}, {
-  a: 'Ukraine and Operation Sindoor showed cheap unmanned systems deciding engagements against far more expensive platforms. India\'s post-Sindoor emergency procurement pushed a large share of field-formation budgets into drones, counter-drone and loitering-munition programmes, making automation the fastest-moving line in Indian defence spending.',
-  q: 'Why do drones matter so much for India\'s defence?'
-}, {
-  a: 'India has credible drone integrators — ideaForge, NewSpace Research, Solar Industries and others — but the component base beneath them (flight controllers, motors and magnets, battery cells, sensors, RF links) remains heavily import-dependent, which is the vulnerability the report examines.',
-  q: 'Does India build its own military drones?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['Indian Army', 'drones', 'loitering munitions', 'counter-UAS', 'Operation Sindoor', 'electronic warfare'],
-  aiSummary: 'Assesses India\'s readiness for automated warfare: the doctrine shift to massed drones and loitering munitions, post-Operation Sindoor procurement, the counter-UAS layer, and the import-dependent component base beneath India\'s drone integrators. Free to read.',
-  metaTitle: 'India\'s Battlefield Automation Gap: Drones, Counter-UAS, Autonomy',
-  schemaType: 'Report',
-  focusKeyword: 'battlefield automation India',
-  metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
-}
-}, {
   slug: 'who-actually-captures-the-india-us-minerals-alliance',
   title: 'Who Actually Captures the India–US Minerals Alliance?',
   subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
@@ -1823,6 +1780,51 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India US critical minerals',
   metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
+}
+}, {
+  slug: 'india-battlefield-automation-gap',
+  title: 'India’s Battlefield Automation Gap',
+  subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
+  domain: 'Defence & Dual-Use',
+  edition: 'Edition 01 · Strategic Intelligence · v1.0',
+  published: '2026-05-30',
+  publishedLabel: 'May 2026',
+  readingTime: '~ 2h 30m read',
+  status: 'published',
+  summary: 'Battlefield automation is an industrial-capability race, not a procurement race. Using a proprietary Battlefield Automation Readiness Index (BARI), this report scores India against China and the United States across eight industrial layers — sensors, rugged electronics, batteries, tactical communications, autonomy software, testing and manufacturing — maps where the gap concentrates, reads it sector by sector, and identifies the startup, SME and policy opportunities that would close it. Published free, given its relevance to government-led initiatives.',
+  accent: '#FB923C',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 130,
+  cover: 'https://library.techadyant.com/covers/India%27s%20Battlefield%20Automation%20Gap.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/india-battlefield-automation-gap-free.pdf',
+  previewPages: undefined,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['battlefield automation India', 'military drones India', 'counter-drone systems India', 'loitering munitions India', 'Indian Army drones', 'defence autonomy India', 'unmanned systems India', 'counter-UAS India', 'drone warfare India', 'India defence technology'],
+  faq: [{
+  a: 'It is the distance between how modern battles are now fought — massed low-cost drones, loitering munitions, electronic warfare and increasingly autonomous systems — and what India\'s forces can field and sustain at scale from domestic industry. The report maps that gap layer by layer.',
+  q: 'What is India\'s battlefield automation gap?'
+}, {
+  a: 'Ukraine and Operation Sindoor showed cheap unmanned systems deciding engagements against far more expensive platforms. India\'s post-Sindoor emergency procurement pushed a large share of field-formation budgets into drones, counter-drone and loitering-munition programmes, making automation the fastest-moving line in Indian defence spending.',
+  q: 'Why do drones matter so much for India\'s defence?'
+}, {
+  a: 'India has credible drone integrators — ideaForge, NewSpace Research, Solar Industries and others — but the component base beneath them (flight controllers, motors and magnets, battery cells, sensors, RF links) remains heavily import-dependent, which is the vulnerability the report examines.',
+  q: 'Does India build its own military drones?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['Indian Army', 'drones', 'loitering munitions', 'counter-UAS', 'Operation Sindoor', 'electronic warfare'],
+  aiSummary: 'Assesses India\'s readiness for automated warfare: the doctrine shift to massed drones and loitering munitions, post-Operation Sindoor procurement, the counter-UAS layer, and the import-dependent component base beneath India\'s drone integrators. Free to read.',
+  metaTitle: 'India\'s Battlefield Automation Gap: Drones, Counter-UAS, Autonomy',
+  schemaType: 'Report',
+  focusKeyword: 'battlefield automation India',
+  metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
 }
 }, {
   slug: 'india-ai-industrial-transition-2026-2035',

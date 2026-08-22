@@ -249,6 +249,40 @@ const lifecycleLabel = (l: string) =>
 const lifecycleTone = (l: string) =>
   ({ updated: '#34D399', corrected: '#FB923C', superseded: '#8CA0C0' } as Record<string, string>)[l] || 'var(--text-dim)';
 
+
+// -- CompanionReports: explicit cross-linked reports from seo.related_reports --
+async function CompanionReports({ relatedSlugs }: { relatedSlugs: string[] }) {
+  const items = await Promise.all(
+    relatedSlugs.map(async (s) => {
+      const r = await getReportBySlug(s);
+      if (!r || r.status !== 'published') return null;
+      return r;
+    })
+  );
+  const reports = items.filter((r): r is NonNullable<typeof r> => r !== null);
+  if (!reports.length) return null;
+
+  return (
+    <section className="wrap-narrow" style={{ paddingTop: 16, paddingBottom: 16 }}>
+      <div className="section-head-ed">
+        <div>
+          <div className="ed-kicker">Companion report{reports.length > 1 ? 's' : ''}</div>
+          <h2>Related reading</h2>
+        </div>
+      </div>
+      <div className="atlas-entrypoints">
+        {reports.map((r) => (
+          <Link key={r.slug} href={`/reports/${r.slug}/`} className="atlas-entry">
+            <div className="ae-k">Report · {r.domain}</div>
+            <p>{r.title}</p>
+            <span style={{ fontSize: 13, color: 'var(--text-muted)', lineHeight: 1.5, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{r.subtitle}</span>
+            <span className="see-all">Read →</span>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
 export default async function ReportPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   let meta: any = await getReportBySlug(slug);
@@ -500,6 +534,12 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           </div>
         </section>
       ) : null}
+
+      {/* Companion reports (explicit cross-links from seo.related_reports) */}
+      {published && Array.isArray((meta.seo as any)?.related_reports) && (meta.seo as any).related_reports.length > 0 && (
+        <CompanionReports relatedSlugs={(meta.seo as any).related_reports} />
+      )}
+
       {published ? (
         <>
           <section className="wrap-narrow" style={{ paddingTop: 8, paddingBottom: 4 }}>
