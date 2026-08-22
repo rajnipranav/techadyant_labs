@@ -2131,6 +2131,106 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['India is in advanced cost negotiations to export more than 50 Pralay tactical ballistic missiles to Armenia, reported on 20 August 2026 - potentially its first ballistic-missile export.', 'The export Pralay is capped at about 290 km for MTCR compliance, exceeds Mach 6, and carries a 350-1,000 kg warhead.', 'India-Armenia defence trade already exceeds 1.5 billion US dollars, spanning the Akash, Pinaka and Swathi systems.', 'The deal is at the negotiation stage, not signed - a Pralay contract would move India from area-fire to precision deep-strike exports.'],
   sources: ['Indian Defence News (20 Aug 2026): https://www.indiandefensenews.in/2026/08/armenia-set-to-acquire-over-50-indian.html', 'Indian Defence Research Wing (Aug 2026): https://idrw.org/india-likely-to-approve-armenias-request-for-pralay-missile-supply-after-prolonged-negotiations/', 'The Tribune: https://www.tribuneindia.com/news/india/india-exports-akash-missile-system-to-armenia-in-rs-6000-crore-deal']
+}, {
+  slug: 'four-industrial-corridor-smart-cities-enter-production',
+  no: 'S-065',
+  title: 'Four industrial-corridor smart cities enter production as NICDP crosses Rs 2.21 lakh crore investment',
+  domain: 'Industrial Infrastructure & Manufacturing',
+  date: '2026-08-22',
+  dateLabel: '22 Aug 2026',
+  status: 'live',
+  excerpt: 'Four industrial smart cities under the National Industrial Corridor Development Programme have entered production, with 469 plots allotted across 5,348 acres and an estimated investment potential of Rs 2.21 lakh crore.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Finance Minister Nirmala Sitharaman chaired the third Apex Monitoring Authority meeting of NICDIT on 17 August 2026, disclosing that four industrial smart cities — Dholera, Shendra-Bidkin, Greater Noida and Vikram Udyogpuri — have entered production. Across the programme, 469 plots covering approximately 5,348 acres have been allotted, 134 units are in production and 95 are under construction, with estimated investment potential of Rs 2.21 lakh crore and employment potential of 1.29 lakh persons. The programme now covers 20 approved projects across 13 states and 7 corridors. The meeting also reviewed BHAVYA, which has received 87 applications for up to 20 plug-and-play industrial parks in its first round.',
+  type: 'p'
+}, {
+  text: 'Industrial corridors have historically produced plans and infrastructure announcements faster than factories. The production-stage status of four smart cities, combined with 134 operating units, is the first hard evidence that the pipeline is converting to output. The ministerial emphasis is itself a policy signal: Sitharaman directed that focus move beyond project approvals towards timely completion of infrastructure, land allotment, investment and production, and urged states to resolve bottlenecks around land, connectivity, utilities and SPV powers.',
+  type: 'p'
+}, {
+  text: 'The corridor programme now competes with dedicated missions — chips, defence, electronics — for land, power and talent. The next two years will show whether corridor nodes win anchor manufacturing tenants or become supporting real estate for sector-specific missions.',
+  type: 'p'
+}, {
+  text: 'The pace at which the 95 under-construction units convert to production is the minister\'s own stated measure of progress. BHAVYA\'s first-round approvals from the 87 applications and whether the scheme avoids the land-bank problems of earlier corridor phases will be worth watching. State-level SPV empowerment, flagged by the NITI Aayog Vice-Chairman as the binding constraint on decision speed, is the structural bottleneck to track.',
+  type: 'p'
+}],
+  takeaways: ['Four industrial smart cities (Dholera, Shendra-Bidkin, Greater Noida, Vikram Udyogpuri) have entered production under NICDP.', '469 plots allotted across 5,348 acres; 134 units in production, 95 under construction; Rs 2.21 lakh crore investment potential.', 'BHAVYA received 87 applications for up to 20 plug-and-play industrial parks in its first round.', 'Finance Minister directed focus shift from approvals to production completion; NITI Aayog flagged SPV empowerment as the binding constraint.'],
+  sources: ['Press Information Bureau (17 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300658', 'DD India (18 Aug 2026): https://ddindia.co.in/2026/08/fm-sitharaman-reviews-industrial-corridor-projects-calls-for-faster-infrastructure-and-investment/']
+}, {
+  slug: 'kabil-argentina-lithium-production-4-5-years',
+  no: 'S-066',
+  title: 'KABIL targets lithium production in Argentina within 4-5 years as three-province pipeline takes shape',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-08-22',
+  dateLabel: '22 Aug 2026',
+  status: 'live',
+  excerpt: 'A parliamentary panel report says KABIL expects to start lithium extraction in Argentina within four to five years, building on its 2024 Rs 2,000 crore exploration pact for five Catamarca blocks, with Salta and Jujuy pipelines opening alongside it.',
+  readingTime: '3 min',
+  body: [{
+  text: 'A parliamentary panel report on KABIL\'s operations states that India\'s state-owned Khanij Bidesh India Limited expects to start lithium extraction in Argentina within the next four to five years after completing project feasibility. The base position is the Rs 2,000 crore lithium exploration pact KABIL signed in 2024 for five blocks in Argentina\'s Catamarca province. The pipeline is expanding: Catamarca has offered seven additional greenfield lithium brine blocks under the existing agreement, a preliminary agreement is being negotiated with Salta province, and KABIL is discussing two greenfield brine projects in Jujuy.',
+  type: 'p'
+}, {
+  text: 'KABIL is India\'s sovereign instrument for overseas critical-mineral acquisition, and lithium is the single most politically charged element of that portfolio given China\'s dominance of refining. A stated production timeline of four to five years gives India\'s battery-value-chain planners their first credible anchor for domestic lithium supply. Equally significant is what the panel report exposes: delays attributed to limited expertise in handling lithium brine deposits, the Mali project remaining on hold due to socio-political instability, and the panel\'s own assessment of "limited progress" in securing overseas mineral assets.',
+  type: 'p'
+}, {
+  text: 'The strategic lesson is that capital commitments are the easy part of mineral security; technical capability in brine processing and geopolitical agility are the bottlenecks. If KABIL cannot compress feasibility-to-production below five years, India\'s battery self-sufficiency target will keep slipping.',
+  type: 'p'
+}, {
+  text: 'Feasibility-study milestones for the Catamarca five blocks gate the production timeline. The Salta preliminary agreement\'s conversion to a signed pact and the Rajya Sabha\'s Mines and Minerals (Amendment) Bill, 2026, passed on 13 August, which bars states from taxing mineral rights — a domestic policy change that changes the economics of Indian lithium extraction — are both worth tracking alongside this signal.',
+  type: 'p'
+}],
+  takeaways: ['KABIL expects first lithium extraction in Argentina within 4-5 years from its Catamarca five-block exploration pact.', 'Pipeline expanding to Salta and Jujuy provinces; Catamarca offered seven additional greenfield brine blocks.', 'Parliamentary panel assessed "limited progress" and "prolonged timelines" in KABIL\'s overseas mineral acquisitions.', 'Mali project with Rosatom subsidiary Uranium One remains on hold due to socio-political instability.'],
+  sources: ['Reuters (17 Aug 2026): https://www.reuters.com/world/india/indias-state-owned-kabil-expects-start-lithium-production-argentina-4-5-years-2026-08-17/', 'ThePrint (17 Aug 2026): https://theprint.in/india/governance/from-delays-to-stiff-competition-why-indias-overseas-critical-minerals-quest-is-hitting-roadblocks/3016667/', 'The Indian Express (14 Aug 2026): https://indianexpress.com/article/explained/explained-economics/india-critical-mineral-assets-overseas-hurdles-10832979/']
+}, {
+  slug: 'isro-resumes-launches-gisat-1a-september',
+  no: 'S-067',
+  title: 'ISRO to resume launches with GISAT-1A in September, ending seven-month hiatus as NavIC limps on three satellites',
+  domain: 'Strategic Technology',
+  date: '2026-08-22',
+  dateLabel: '22 Aug 2026',
+  status: 'live',
+  excerpt: 'ISRO will resume launches in the first week of September 2026 with GISAT-1A aboard a GSLV Mk II, ending a seven-month hiatus caused by two PSLV third-stage failures. A follow-on NavIC satellite, NVS-03, is expected by October-November.',
+  readingTime: '3 min',
+  body: [{
+  text: 'After a seven-month operational hiatus, ISRO is set to resume launches in the first week of September 2026 with GISAT-1A (EOS-05) aboard a GSLV Mk II rocket. GISAT-1A is a replacement for GISAT-1, lost in the August 2021 GSLV failure caused by a cryogenic upper-stage valve leak, and carries a 10-year mission life for disaster monitoring, agriculture and forestry imaging. NavIC satellite NVS-03, fuelled and ready at Sriharikota, is expected around October-November. The hiatus followed three failed missions in 2025-26: PSLV-C61 (May 2025) and PSLV-C62 (January 2026), both suffering third-stage anomalies, and GSLV-F15, which deployed NVS-02 but failed to complete orbit-raising manoeuvres.',
+  type: 'p'
+}, {
+  text: 'ISRO enters this launch with a damaged reliability record — three of six missions in 2025-26 failed — and with its navigation constellation operationally impaired at precisely the moment dual-use PNT resilience matters most. GISAT-1A flies on the same GSLV Mk II architecture whose cryogenic stage failed in 2021. A successful September launch restarts ISRO\'s cadence and clears the path for NVS-03 to restore standalone NavIC positioning; a failure would compound both the cadence and credibility problems simultaneously.',
+  type: 'p'
+}, {
+  text: 'NavIC\'s current three-satellite state forces India\'s armed forces to blend GPS, Galileo and GLONASS with degraded domestic positioning — precisely the dependency that sovereign PNT is meant to eliminate. The September launch is the hinge on which the entire FY2027 launch plan turns.',
+  type: 'p'
+}, {
+  text: 'The launch outcome in the first week of September reshapes the FY2027 schedule. Whether the failure-analysis reports remain withheld affects both public accountability and industry confidence in ISRO\'s supply chain. The NVS-03 launch and the timeline for NavIC\'s return to four-satellite standalone operation are the immediate follow-on milestones.',
+  type: 'p'
+}],
+  takeaways: ['ISRO to launch GISAT-1A in first week of September 2026 aboard GSLV Mk II, ending a seven-month launch hiatus.', 'Three of six ISRO missions failed in 2025-26 (PSLV-C61, PSLV-C62, GSLV-F15); NavIC operates on three satellites, one short of standalone positioning.', 'NVS-03 fuelled and ready at Sriharikota, expected launch October-November 2026.', 'Failure-analysis reports for the three failed missions remain unpublished.'],
+  sources: ['The Indian Express (18 Aug 2026): https://indianexpress.com/article/technology/science/after-january-launch-vehicle-debacle-gisat-1a-take-off-in-september-to-end-isros-seven-month-operational-hiatus-10837831/', 'The Hindu (19 Aug 2026): https://www.thehindu.com/sci-tech/science/all-eyes-on-gisat-1a-mission-as-isro-aims-to-mend-faulty-launch-streak/article71363564.ece']
+}, {
+  slug: 'ecms-clears-31-electronics-component-projects-7877-crore',
+  no: 'S-068',
+  title: 'ECMS clears 31 electronics component projects worth Rs 7,877 crore, crossing 106 approvals and Rs 69,548 crore invested',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-08-22',
+  dateLabel: '22 Aug 2026',
+  status: 'live',
+  excerpt: 'MeitY approved 31 new Electronics Component Manufacturing Scheme proposals worth Rs 7,877 crore on 17 August, lifting total sanctions to 106 projects representing Rs 69,548 crore of investment and projected production of Rs 5.34 lakh crore across 15 states.',
+  readingTime: '3 min',
+  body: [{
+  text: 'On 17 August 2026, Electronics and IT Minister Ashwini Vaishnaw approved 31 new proposals under the Electronics Component Manufacturing Scheme worth Rs 7,877 crore, raising total sanctioned applications to 106. The fresh approvals are expected to generate Rs 82,243 crore in production and 9,588 direct jobs. Across all 106 approvals, the scheme represents Rs 69,548 crore of investment — beyond its original Rs 59,350 crore target — and projected production value of Rs 5.34 lakh crore across 15 states, with 74,628 direct jobs and roughly 2.5 lakh including indirect employment. The latest batch included first-ever Indian approvals for filters, coils, speakers, raw materials and three capital equipment projects. Production has begun at 38 projects with 16 under construction.',
+  type: 'p'
+}, {
+  text: 'ECMS is the quiet middle layer of India\'s electronics sovereignty play — between finished-product assembly (PLI) and front-end silicon (ISM) — and its pace has outrun the original plan. India now meets 45 per cent of domestic PCB demand and has begun exporting PCBs, 60 per cent of lithium-ion cell demand for digital applications, 75 per cent of connector demand, is fully self-reliant in relays, and exports optical transceivers. Electronics production reached Rs 13.11 lakh crore in 2025-26 (up 15.8 per cent) with exports above Rs 4 lakh crore, making electronics India\'s third-largest export category.',
+  type: 'p'
+}, {
+  text: 'The policy pattern mirrors the semiconductor logic: policy is moving down the value chain from assembly to components to materials and capital equipment, which is precisely where import dependence concentrates. The 15-state spread builds redundancy into the supply chain that a single-state cluster cannot.',
+  type: 'p'
+}, {
+  text: 'The conversion of 16 under-construction and 80 yet-to-start projects to production is where component schemes usually stall. Domestic capital-equipment approvals represent the deepest level of self-reliance attempted yet. Dixon\'s camera module facility in Noida (four months), Motherson\'s enclosure plant near Chennai and Wipro\'s laminate plant (two to three months) are all flagged as nearing operations.',
+  type: 'p'
+}],
+  takeaways: ['ECMS approved 31 new projects worth Rs 7,877 crore on 17 August 2026; 106 total approvals, Rs 69,548 crore cumulative investment.', 'Projected production value Rs 5.34 lakh crore across 15 states; 74,628 direct jobs and ~2.5 lakh including indirect.', 'India meets 45% of domestic PCB demand, 60% of Li-ion cell demand for digital, 75% of connector demand; fully self-reliant in relays.', 'Production commenced at 38 of 106 projects; 16 under construction; latest batch includes first-ever capital equipment approvals.'],
+  sources: ['Press Information Bureau (20 Aug 2026): https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300625&reg=48&lang=1', 'ThePrint (18 Aug 2026): https://theprint.in/india/centre-clears-31-electronics-components-manufacturing-proposals-worth-7877-crore/3017631/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
