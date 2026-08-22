@@ -63,7 +63,10 @@ export const deepDives: Record<string, DeepDive> = {
       "AKIC is the Gangetic-plain corridor on the Eastern Dedicated Freight Corridor — the longest and least-developed of the flagships, spanning seven states. Its thesis is to reach India's large, lower-cost labour belt (Punjab, UP, Bihar, West Bengal) with freight connectivity that has historically been absent, and to industrialise the east the way the DMIC is industrialising the west.",
       "It is built as a chain of Integrated Manufacturing Clusters rather than a few mega-nodes: Gaya in Bihar (1,670 acres), Raghunathpur in West Bengal (2,483 acres), and Agra and Prayagraj in UP, where a State Support Agreement is signed and land acquisition is under way — alongside northern-leg clusters at Hisar, Rajpura–Patiala and Prag-Khurpia. Most are at land-acquisition or perspective-plan stage.",
       "This is the corridor for labour-intensive manufacturing — textiles, food processing, light engineering and assembly — and for early land and logistics positioning before activation. Returns are longer-dated, but entry costs are correspondingly lower.",
-      "Execution is the binding constraint: land acquisition, multi-state coordination and the Eastern DFC's own ramp-up. Jharkhand's node relocation — land unavailable as of mid-2025, forcing a search for a new site — is a fair marker of the friction here."
+      "Execution is the binding constraint: land acquisition, multi-state coordination and the Eastern DFC's own ramp-up. Jharkhand's node relocation — land unavailable as of mid-2025, forcing a search for a new site — is a fair marker of the friction here.",
+      "Western Uttar Pradesh is developing a dense concentration of manufacturing, airport, semiconductor, electronics and foreign-investment activity at the corridor's western edge — anchored by the Noida International Airport at Jewar, the HCL-Foxconn OSAT semiconductor plant (₹3,706 cr, foundation Feb 2026, operational 2028), and the Escorts Kubota tractor plant (₹2,025 cr, ground-broken Aug 2026). This is not an official AKIC node, but it is becoming analytically important: the Delhi NCR → Dadri/Greater Noida → YEIDA/Jewar → Agra corridor forms an emerging industrial network that could function as a feeder, supplier and value-added gateway into the wider AKIC/EDFC manufacturing system.",
+      "The UP–Japan Investment Meet (Aug 2026) elevated this further. UP's pitch of a 500-acre Japan City in YEIDA Sector 5A — a dedicated Japanese manufacturing and supplier ecosystem, ~70% industrial — is a proposal at this stage (no confirmed investment figure, no land acquisition, no construction timeline). But the Escorts Kubota and Minda Corporation ground-breakings (combined ₹3,191 cr, 10,000+ projected jobs) in nearby sectors signal that Japanese OEM and supplier investment is real and accelerating. The strategic question is whether this cluster becomes a dense Japanese manufacturing base that feeds components, technology and logistics into the AKIC supply chain.",
+      "Three separate official programmes converge physically in this zone: the DMIC/WDFC through Dadri and Greater Noida; the AKIC/EDFC through Agra and Prayagraj; and YEIDA’s own industrial programme anchored by Jewar airport. These are distinct governance structures — but their industrial linkages (automotive components, electronics, semiconductors, logistics) create an analytically significant network that no single corridor programme captures. We track this as an emerging Cross-Corridor Convergence zone."
     ],
     "nodes": [
       {
@@ -85,6 +88,10 @@ export const deepDives: Record<string, DeepDive> = {
       {
         "name": "Prag-Khurpia (Uttarakhand)",
         "detail": "Integrated Manufacturing Cluster under development."
+      },
+      {
+        "name": "YEIDA–Jewar Manufacturing Cluster (UP) [Connected]",
+        "detail": "Not an official AKIC node, but an analytically significant connected industrial cluster: Noida International Airport (Jewar, under construction), HCL-Foxconn semiconductor OSAT (₹3,706 cr, Sector 28, operational 2028), Escorts Kubota tractor plant (₹2,025 cr, Sector 10, ground-broken Aug 2026), proposed 500-acre Japan City (Sector 5A, proposal stage), and Minda Corporation auto-components (₹1,166 cr, Sectors 10 & 24). Sits at the western edge of the AKIC/EDFC network."
       }
     ]
   },

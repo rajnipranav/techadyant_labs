@@ -323,7 +323,110 @@ export default async function CorridorPage({ params }: { params: Promise<{ slug:
         )}
       </section>
 
-      {/* 6 · Related research */}
+      
+      {/* 5b · NEW SIGNAL: Western Gateway / Japan City (AKIC only) */}
+      {slug === 'amritsar-kolkata' && (
+        <section className="wrap" style={{ background: 'var(--brass, #C9A84C)', color: '#1a1a2e', position: 'relative', overflow: 'hidden' }}>
+          <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'linear-gradient(135deg, rgba(46,100,151,0.08) 0%, transparent 60%)', pointerEvents: 'none' }} />
+          <div className="section-head-ed" style={{ position: 'relative' }}>
+            <div>
+              <div className="ed-kicker" style={{ color: '#1a1a2e', opacity: 0.7, letterSpacing: '0.08em' }}>NEW SIGNAL \u00b7 AUGUST 2026</div>
+              <h2 style={{ color: '#1a1a2e', marginTop: 4 }}>Japan City strengthens western UP's manufacturing gateway</h2>
+            </div>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 20, marginTop: 16, position: 'relative' }}>
+            <div>
+              <div style={{ fontSize: 13, fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: 8, opacity: 0.7 }}>Announcement</div>
+              <p style={{ lineHeight: 1.65, fontSize: 15 }}>UP government proposed a 500-acre <strong>Japan City</strong> in YEIDA Sector 5A at the UP\u2013Japan Investment Meet (Aug 18\u201323, 2026), targeting a dedicated Japanese manufacturing and supplier ecosystem (~70% industrial, ~30% commercial/residential).</p>
+            </div>
+            <div>
+              <div style={{ fontSize: 13, fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: 8, opacity: 0.7 }}>Investment commitments</div>
+              <ul style={{ listStyle: 'none', padding: 0, margin: 0, fontSize: 15, lineHeight: 1.7 }}>
+                <li><strong>Escorts Kubota:</strong> \u20b92,025 cr, 154 acres, Sector 10, tractor manufacturing, 3,800+ jobs [V] <em style={{ opacity: 0.6, fontSize: 13 }}>(ground-broken Aug 2026)</em></li>
+                <li><strong>Minda Corporation:</strong> \u20b91,166 cr, Sectors 10 & 24, auto components, 6,440 jobs [V] <em style={{ opacity: 0.6, fontSize: 13 }}>(virtual ground-breaking Aug 2026)</em></li>
+                <li><strong>HCL-Foxconn:</strong> \u20b93,706 cr, 48 acres, Sector 28, semiconductor OSAT, 3,500+ jobs [V] <em style={{ opacity: 0.6, fontSize: 13 }}>(foundation Feb 2026, operational 2028)</em></li>
+              </ul>
+            </div>
+          </div>
+          <div style={{ marginTop: 20, padding: '16px 20px', background: 'rgba(26,26,46,0.08)', borderRadius: 8, position: 'relative' }}>
+            <div style={{ fontSize: 13, fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: 8 }}>Techadyant Interpretation</div>
+            <p style={{ fontSize: 14.5, lineHeight: 1.7, marginBottom: 10 }}><strong>Fact:</strong> Japan City is a proposal at this stage \u2014 no confirmed investment figure, no land acquisition for Sector 5A, no construction timeline. The \u20b93,191 cr widely cited is Escorts Kubota + Minda in separate sectors.</p>
+            <p style={{ fontSize: 14.5, lineHeight: 1.7, marginBottom: 10 }}><strong>Interpretation:</strong> The significance is not the 500-acre proposal itself, but the density of real investment (HCL-Foxconn, Escorts Kubota, Minda) already materialising around Jewar. This cluster is forming a Japanese OEM and supplier base at the western edge of the AKIC/EDFC network.</p>
+            <p style={{ fontSize: 14.5, lineHeight: 1.7 }}><strong>Implication:</strong> If this ecosystem matures, it could function as a semiconductor, automotive-electronics and logistics gateway that feeds components and technology into the wider AKIC supply chain \u2014 potentially accelerating Agra and Prayagraj node activation.</p>
+          </div>
+          <p className="chart-src" style={{ marginTop: 12, position: 'relative' }}>Sources: ThePrint, Moneycontrol, Economic Times, The Hindu, Financial Express, HCL.com, Invest UP (all Aug 2026). Japan City itself: proposal only; investment figures are for adjacent YEIDA sectors.</p>
+        </section>
+      )}
+
+      {/* 5c · Cross-Corridor Convergence (AKIC only) */}
+      {slug === 'amritsar-kolkata' && (
+        <section className="wrap" style={{ paddingTop: 0 }}>
+          <div className="section-head-ed"><div>
+            <div className="ed-kicker" style={{ color: accent }}>Strategic framework</div>
+            <h2>Cross-Corridor Convergence</h2>
+          </div></div>
+          <p className="lede" style={{ maxWidth: '68ch', marginBottom: 20 }}>Three separate official programmes converge physically in the Delhi NCR \u2192 Agra corridor. These are distinct governance structures \u2014 but their industrial linkages create an analytically significant network that no single corridor programme captures.</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 16 }}>
+            <div style={{ border: '1px solid var(--border)', borderRadius: 10, padding: 20 }}>
+              <div style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--text-muted)', marginBottom: 8 }}>DMIC / WDFC</div>
+              <h3 style={{ fontSize: 16, marginBottom: 8 }}>Western Dedicated Freight Corridor</h3>
+              <p style={{ fontSize: 14, lineHeight: 1.6, color: 'var(--text-dim)' }}>Dadri \u2192 Greater NCR \u2192 Noida. Operational corridor. Dadri junction is the physical link point between the WDFC and the AKIC's EDFC network.</p>
+              <div style={{ marginTop: 10, fontSize: 12, color: 'var(--text-muted)' }}>Status: <span style={{ color: '#34D399' }}>Operational</span></div>
+            </div>
+            <div style={{ border: '1px solid var(--border)', borderRadius: 10, padding: 20 }}>
+              <div style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--text-muted)', marginBottom: 8 }}>YEIDA / Jewar</div>
+              <h3 style={{ fontSize: 16, marginBottom: 8 }}>Western UP Manufacturing Cluster</h3>
+              <p style={{ fontSize: 14, lineHeight: 1.6, color: 'var(--text-dim)' }}>Noida International Airport \u2192 Japan City (proposed) \u2192 HCL-Foxconn semiconductor \u2192 Escorts Kubota \u2192 Minda auto components. Not a corridor programme, but an industrial cluster of corridor-scale significance.</p>
+              <div style={{ marginTop: 10, fontSize: 12, color: 'var(--text-muted)' }}>Status: <span style={{ color: '#FBBF24' }}>Emerging</span></div>
+            </div>
+            <div style={{ border: '1px solid var(--border)', borderRadius: 10, padding: 20 }}>
+              <div style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--text-muted)', marginBottom: 8 }}>AKIC / EDFC</div>
+              <h3 style={{ fontSize: 16, marginBottom: 8 }}>Eastern Dedicated Freight Corridor</h3>
+              <p style={{ fontSize: 14, lineHeight: 1.6, color: 'var(--text-dim)' }}>Agra \u2192 Prayagraj \u2192 Varanasi \u2192 eastern manufacturing belt. Agra is the nearest AKIC IMC to the YEIDA cluster, connected via the EDFC.</p>
+              <div style={{ marginTop: 10, fontSize: 12, color: 'var(--text-muted)' }}>Status: <span style={{ color: '#F97316' }}>In build-out</span></div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* 5d · Industrial Network Integration (AKIC only) */}
+      {slug === 'amritsar-kolkata' && (
+        <section className="wrap" style={{ background: 'var(--bg-2)', paddingTop: 0 }}>
+          <div className="section-head-ed"><div>
+            <div className="ed-kicker" style={{ color: accent }}>New analytical dimension</div>
+            <h2>Industrial Network Integration</h2>
+          </div></div>
+          <p style={{ fontSize: 14.5, lineHeight: 1.7, maxWidth: '66ch', marginBottom: 20 }}>The degree to which an industrial corridor node is connected to adjacent manufacturing, logistics, technology, foreign-investment and infrastructure ecosystems <em>outside</em> the formal corridor boundary. We assess the AKIC's western UP interface.</p>
+          <div style={{ border: '1px solid var(--border)', borderRadius: 10, overflow: 'hidden' }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14 }}>
+              <thead><tr style={{ background: 'var(--bg-2)' }}><th style={{ padding: '10px 16px', textAlign: 'left', fontWeight: 600, borderBottom: '1px solid var(--border)' }}>Dimension</th><th style={{ padding: '10px 16px', textAlign: 'left', fontWeight: 600, borderBottom: '1px solid var(--border)' }}>Assessment</th></tr></thead>
+              <tbody>
+                {[['EDFC connectivity','Existing — Agra and Prayagraj IMCs are on the Eastern DFC alignment'],['Manufacturing-node maturity','Developing — Agra (approved), Prayagraj (under construction)'],['Airport integration','Emerging — Jewar airport under construction; EDFC nodes lack direct airport proximity'],['Japanese FDI integration','Emerging / Accelerating — Escorts Kubota ground-broken, Japan City proposed'],['Semiconductor integration','Emerging — HCL-Foxconn OSAT approved May 2025, foundation Feb 2026, operational 2028'],['Supplier-network density','Developing — Minda, Escorts Kubota anchoring; broader clustering not yet visible'],['Cross-corridor integration','High potential — WDFC (Dadri) and EDFC (Agra) junction creates a physical freight bridge']].map(([dim,assess]) => (
+                  <tr key={dim}><td style={{ padding: '10px 16px', borderBottom: '1px solid var(--border)', fontWeight: 500 }}>{dim}</td><td style={{ padding: '10px 16px', borderBottom: '1px solid var(--border)', color: 'var(--text-dim)' }}>{assess}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      {/* 5e · Emerging Research Opportunity (AKIC only) */}
+      {slug === 'amritsar-kolkata' && (
+        <section className="wrap" style={{ paddingTop: 0 }}>
+          <div className="section-head-ed"><div>
+            <div className="ed-kicker" style={{ color: accent }}>Research forward</div>
+            <h2>Emerging Research Opportunity</h2>
+          </div></div>
+          <div style={{ border: '1px solid rgba(201,168,76,0.25)', borderRadius: 10, padding: 24 }}>
+            <h3 style={{ fontSize: 17, marginBottom: 6 }}>Western Uttar Pradesh Industrial Convergence</h3>
+            <p style={{ fontSize: 14, lineHeight: 1.6, color: 'var(--text-dim)', marginBottom: 12 }}>YEIDA · Jewar Airport · Japan City · Semiconductors · DMIC · AKIC · EDFC · Auto Components</p>
+            <p style={{ fontSize: 14.5, lineHeight: 1.7, marginBottom: 14 }}>The physical convergence of the WDFC and EDFC networks through the Delhi NCR → Greater Noida → Agra corridor, combined with semiconductor (HCL-Foxconn), automotive (Escorts Kubota, Minda) and airport infrastructure (Jewar), could justify a dedicated Techadyant Atlas layer tracking company-level investments, supply-chain linkages and corridor-crossing logistics flows.</p>
+            <p style={{ fontSize: 14, lineHeight: 1.6, color: 'var(--text-muted)' }}>Recommended as a future Atlas dataset. Track: YEIDA, Jewar Airport, Japan City, Japanese manufacturers, semiconductor projects, electronics manufacturers, automotive suppliers, DMIC, AKIC, EDFC, logistics infrastructure.</p>
+          </div>
+        </section>
+      )}
+
+{/* 6 · Related research */}
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: accent }}>From the desk</div><h2>Related research</h2></div>
           <Link href="/reports/" className="see-all">All reports →</Link></div>
