@@ -1285,9 +1285,9 @@ export const reports: ReportMeta[] = [{
   cover: 'https://library.techadyant.com/covers/indias-unmanned-warfare-transformation.png',
   previewObject: 'https://library.techadyant.com/free%20reports/Unmanned-Warfare-Free-Edition.pdf',
   previewPages: 20,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
+  hasData: true,
+  priceWithData: 12499,
+  dataFilename: 'Indias-Unmanned-Warfare-Transformation-Data-Pack-Techadyant-Labs.xlsx',
   keywords: ['India unmanned warfare', 'Indian Army drone roadmap', 'loitering munitions India', 'counter-UAS India', 'drone subsystem opportunity', 'defence electronics India', 'rare-earth magnets drones', 'flight-control silicon India', 'India drone market 2035', 'attritable warfare', 'autonomous systems India', 'drone investment opportunity India'],
   faq: [{
   a: 'The reconstructed Indian Army roadmap implies a procurement pool of about INR 1.0–1.9 lakh crore through 2035 (a mid case near INR 1,45,000 crore), with a broader economic footprint of INR 2–3 lakh crore. Of that, roughly 78 per cent is policy-addressable by Indian industry and about INR 84,000 crore is realistically capturable. These are transparent reconstructions, not official figures.',

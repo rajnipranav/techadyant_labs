@@ -111,6 +111,10 @@ export const REPORTS = {
     deckObject: "India's Unmanned Warfare Transformation - Investor Deck.pptx",
     deckFilename: 'Indias-Unmanned-Warfare-Transformation-Investor-Deck.pptx',
     title: 'India\u2019s Unmanned Warfare Transformation',
+    // Report + Data tier: 13-sheet research-grade model workbook (executive dashboard, assumptions & methodology, demand matrix, TAM/SAM/SOM market funnel, procurement-wave profile, indigenous-content & import-substitution bridge, subsystem opportunity matrix, three-scenario sensitivity, company landscape, policy & procurement signals, risks watchlist, sources, model checks).
+    priceWithDataInr: 12499,
+    dataObject: 'data/indias_unmanned_warfare_transformation_model.xlsx',
+    dataFilename: 'Indias-Unmanned-Warfare-Transformation-Data-Pack-Techadyant-Labs.xlsx',
   },
   'the-end-of-the-application-era': {
     access: 'free',
