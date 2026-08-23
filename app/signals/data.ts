@@ -2255,7 +2255,7 @@ export const signals: SignalMeta[] = [{
   type: 'p'
 }],
   takeaways: ['The sixth Positive Indigenisation List, notified on 18 August 2026, covers 405 items worth an estimated Rs 3,070 crore.', 'The list spans 16 Indian Coast Guard and 389 DPSU items across helicopters, combat aircraft, tanks, warships, missiles, radars, sonars and satcom.', 'More than 15,700 defence items have been indigenised over five years, worth about Rs 9,000 crore of import substitution.', 'The SRIJAN portal had offered over 33,000 items by June 2026, including 5,012 from the first five lists.'],
-  sources: ['Press Information Bureau (18 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300723', 'ThePrint (18 Aug 2026): https://theprint.in/india/mod-notifies-6th-positive-indigenisation-list-comprising-405-strategically-important-items/3018279/', 'Moneycontrol (18 Aug 2026): https://www.moneycontrol.com/news/india/defence-ministry-notifies-sixth-positive-indigenisation-list-with-405-items-eyes-rs-3-070-crore-business-potential-14009001.html']
+  sources: ['Ministry of Defence — SRIJAN Defence portal (official sixth PIL item list, downloadable): https://srijandefence.gov.in/Opportunities', 'Press Information Bureau (18 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300723', 'ThePrint (18 Aug 2026): https://theprint.in/india/mod-notifies-6th-positive-indigenisation-list-comprising-405-strategically-important-items/3018279/', 'Moneycontrol (18 Aug 2026): https://www.moneycontrol.com/news/india/defence-ministry-notifies-sixth-positive-indigenisation-list-with-405-items-eyes-rs-3-070-crore-business-potential-14009001.html']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
