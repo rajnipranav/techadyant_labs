@@ -2231,6 +2231,31 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['ECMS approved 31 new projects worth Rs 7,877 crore on 17 August 2026; 106 total approvals, Rs 69,548 crore cumulative investment.', 'Projected production value Rs 5.34 lakh crore across 15 states; 74,628 direct jobs and ~2.5 lakh including indirect.', 'India meets 45% of domestic PCB demand, 60% of Li-ion cell demand for digital, 75% of connector demand; fully self-reliant in relays.', 'Production commenced at 38 of 106 projects; 16 under construction; latest batch includes first-ever capital equipment approvals.'],
   sources: ['Press Information Bureau (20 Aug 2026): https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300625&reg=48&lang=1', 'ThePrint (18 Aug 2026): https://theprint.in/india/centre-clears-31-electronics-components-manufacturing-proposals-worth-7877-crore/3017631/']
+}, {
+  slug: 'sixth-positive-indigenisation-list-405-defence-items',
+  no: 'S-069',
+  title: 'Sixth Positive Indigenisation List adds 405 strategically important defence items, a Rs 3,070 crore opportunity',
+  domain: 'Defence & Dual-Use',
+  date: '2026-08-23',
+  dateLabel: '23 Aug 2026',
+  status: 'live',
+  excerpt: 'The Department of Defence Production notified the sixth Positive Indigenisation List on 18 August, covering 405 strategically important items with an estimated business potential of Rs 3,070 crore. The list reaches below complete platforms into the components, sub-systems, spares, raw materials and defence electronics that determine whether a domestic supply chain is genuinely sovereign.',
+  readingTime: '2 min',
+  body: [{
+  text: 'On 18 August 2026 the Department of Defence Production notified the sixth Positive Indigenisation List: 405 strategically important items with an estimated business potential of Rs 3,070 crore. The list spans 16 items associated with the Indian Coast Guard and 389 with Defence Public Sector Undertakings, and reaches below complete platforms into line-replaceable units, sub-systems, spares, components and raw materials across the Advanced Light Helicopter, Light Utility Helicopter, Su-30MKI, Light Combat Aircraft, AL-31FP engine, T-72 and T-90 tanks, BMP-II, warships, Konkurs-M, Invar and MRSAM missile systems, plus radars, sonars, fire-control systems, satellite communications and high-explosive anti-tank ammunition.',
+  type: 'p'
+}, {
+  text: 'The list matters because it is a depth signal, not just a platform signal. Import dependence rarely sits in the headline platform alone; it persists in the specialised electronics, engine parts, materials and replaceable units that keep a platform available through its service life. Publishing these requirements turns an opaque dependency into a visible industrial opportunity for DPSUs, MSMEs and start-ups. The wider pipeline is now measurable: the SRIJAN portal had offered more than 33,000 defence items by June 2026, including 5,012 from the first five lists, and the ministry reports over 15,700 items indigenised in five years, worth about Rs 9,000 crore of import substitution.',
+  type: 'p'
+}, {
+  text: 'This is a demand signal, not yet a production signal. The list tells Indian industry where foreign supply should eventually become unacceptable, but the sovereignty test comes later: how many of the 405 items move from notification to a qualified domestic supplier, repeat orders and dependable field performance. The most consequential entries are the less visible ones - radar, sonar, fire-control, satellite-communications and engine-related components - because they sit where operational availability, software-defined capability and long-term sustainment intersect.',
+  type: 'p'
+}, {
+  text: 'The first test is whether SRIJAN produces named domestic developers and realistic delivery timelines for high-complexity items rather than only low-value spares. The second is conversion into orders: the ministry reports DPSUs placed about Rs 10,000 crore of orders with domestic vendors through March 2026, and the new list should expand that. The third is whether the sixth list builds durable supplier capability in aerospace engines, missile sub-systems and defence electronics, rather than isolated import-substitution wins.',
+  type: 'p'
+}],
+  takeaways: ['The sixth Positive Indigenisation List, notified on 18 August 2026, covers 405 items worth an estimated Rs 3,070 crore.', 'The list spans 16 Indian Coast Guard and 389 DPSU items across helicopters, combat aircraft, tanks, warships, missiles, radars, sonars and satcom.', 'More than 15,700 defence items have been indigenised over five years, worth about Rs 9,000 crore of import substitution.', 'The SRIJAN portal had offered over 33,000 items by June 2026, including 5,012 from the first five lists.'],
+  sources: ['Press Information Bureau (18 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300723', 'ThePrint (18 Aug 2026): https://theprint.in/india/mod-notifies-6th-positive-indigenisation-list-comprising-405-strategically-important-items/3018279/', 'Moneycontrol (18 Aug 2026): https://www.moneycontrol.com/news/india/defence-ministry-notifies-sixth-positive-indigenisation-list-with-405-items-eyes-rs-3-070-crore-business-potential-14009001.html']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

@@ -313,57 +313,6 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
-  slug: 'beyond-sea-drones-india-autonomous-maritime-systems',
-  title: 'Beyond Sea Drones: India\'s Autonomous Maritime Systems Ecosystem 2026-2035',
-  subtitle: 'Technologies, supply chains and industrial opportunities in India\'s USV/UUV ecosystem — three market scenarios to 2035, a 12-country Maritime Autonomy Readiness Index, 100 ranked opportunities and a 2026-2035 industrial roadmap.',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Intelligence · Edition 1 · v2.0',
-  published: '2026-08-15',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 3h read',
-  status: 'published',
-  summary: 'India\'s autonomous maritime systems (USV/UUV) market is projected to grow from a INR 2,200 crore 2026 baseline to INR 11,500 crore (Constrained), INR 35,000 crore (Baseline) or INR 55,000 crore (Accelerated) by 2035. This strategic intelligence report maps the ecosystem from primary sources, with every major claim numbered and verification-labelled [IN-XXX]. India ranks 9/12 on the proprietary Maritime Autonomy Readiness Index with a composite 4.5/10: fourteen active programmes and eight iDEX awards exist, but the subsystem base is only 15-70% indigenous (AI silicon ~15%, battery cells ~35%) and there is no certification authority. The report reframes the debate from platforms to subsystems, quantifies the MDA and ASW coverage gaps, benchmarks six countries (US, China, UK, Israel, South Korea, Singapore) with reconstructed 2024 budgets, and scores 100 opportunities on the 9-dimension Opportunity Priority Index (OPI) — 24 "Star" opportunities score 80+, led by an 11-metre ASW USV at 88. It closes with a three-phase 2026-2035 roadmap (INR 14,600 crore Phase I, 8-12x return on capital) and 45 recommendations across government (12), the Indian Navy (10), industry (10), startups (10) and investors (8). 136 pages, 29 chapters, 53 figures, 15 tables, 125 numbered sources and full appendices A-L, mirrored in a 17-sheet data workbook.',
-  accent: '#16425B',
-  access: 'paid',
-  price: 6999,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 136,
-  cover: 'https://library.techadyant.com/covers/beyond_sea-drones-indian-navy.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_BeyondSeaDrones_Report%20_Free.pdf',
-  previewPages: 27,
-  hasData: true,
-  priceWithData: 9999,
-  dataFilename: 'Techadyant_BeyondSeaDrones_Workbook.xlsx',
-  keywords: ['beyond sea drones india', 'india autonomous maritime systems', 'indian navy USV', 'unmanned surface vehicles india', 'underwater unmanned vehicles india', 'maritime autonomy market india 2035', 'indian navy MDA gap', 'autonomous ASW India', 'USV UUV startups india', 'naval drone ecosystem india', 'maritime autonomy readiness index', 'Make in India naval drones'],
-  faq: [{
-  a: 'INR 11,500 crore (Constrained), INR 35,000 crore (Baseline) or INR 55,000 crore (Accelerated) by 2035, from a INR 2,200 crore 2026 baseline. The Accelerated case assumes a 2026-27 anchor-programme decision; the report sizes the INR 20,000 crore gap recoverable through early decisions.',
-  q: 'How big is India\'s autonomous maritime systems market by 2035?'
-}, {
-  a: 'Rank 9/12 on the Maritime Autonomy Readiness Index with a composite 4.5/10. Fourteen active programmes and eight iDEX awards exist, but the subsystem base is 15-70% indigenous and there is no certification authority. The gap is industrial, not technological.',
-  q: 'Where does India stand in maritime autonomy today?'
-}, {
-  a: 'AI silicon (~15% indigenous), battery cells (~35%), certification, and a 36-60 month procurement cycle versus 12-24 months for the US. The Dependency Index scores 40+ subsystems for sovereignty to separate strategic chokepoints from manageable ones.',
-  q: 'What are India\'s critical gaps in USV/UUV subsystems?'
-}, {
-  a: 'One hundred opportunities scored on the 9-dimension Opportunity Priority Index (OPI); 24 "Star" opportunities score 80+, led by an 11-metre ASW USV at 88. Twenty-five hidden opportunity surfaces sit in the supporting ecosystem — subsystems, test ranges, certification — not platforms.',
-  q: 'What is the biggest autonomous maritime opportunity for India?'
-}, {
-  a: 'Every major claim is a numbered, verification-labelled citation [IN-XXX] against 125 sources across six source tiers. Fact, estimate, inference and forecast are visibly separated, and the full dataset ships in a 17-sheet Excel workbook mirroring appendices D-K.',
-  q: 'Why is this report different from other market studies?'
-}],
-  sources: [],
-  dateModified: '2026-08-15',
-  seo: {
-  entities: ['USV', 'UUV', 'Indian Navy', 'maritime autonomy', 'ASW', 'MDA', 'Opportunity Priority Index', 'Make in India', 'Indo-Pacific', 'autonomous maritime systems'],
-  metaTitle: 'India Autonomous Maritime Systems Market 2026-2035: USV/UUV Ecosystem, Readiness Index & Opportunities',
-  schemaType: 'Report',
-  focusKeyword: 'india autonomous maritime systems market',
-  metaDescription: 'India\'s USV/UUV ecosystem to 2035 — three market scenarios (INR 11,500-55,000 crore), a 12-country Maritime Autonomy Readiness Index (India 9/12), 100 OPI-ranked opportunities led by an 11m ASW USV, and a 2026-2035 industrial roadmap for OEMs, Navy, investors, MSMEs and policymakers.',
-  related_reports: ['indian-navy-autonomous-maritime']
-}
-}, {
   slug: 'india-edge-ai-economy',
   title: 'India’s Edge AI Economy',
   subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
@@ -426,6 +375,57 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'beyond-sea-drones-india-autonomous-maritime-systems',
+  title: 'Beyond Sea Drones: India\'s Autonomous Maritime Systems Ecosystem 2026-2035',
+  subtitle: 'Technologies, supply chains and industrial opportunities in India\'s USV/UUV ecosystem — three market scenarios to 2035, a 12-country Maritime Autonomy Readiness Index, 100 ranked opportunities and a 2026-2035 industrial roadmap.',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Intelligence · Edition 1 · v2.0',
+  published: '2026-08-15',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 3h read',
+  status: 'published',
+  summary: 'India\'s autonomous maritime systems (USV/UUV) market is projected to grow from a INR 2,200 crore 2026 baseline to INR 11,500 crore (Constrained), INR 35,000 crore (Baseline) or INR 55,000 crore (Accelerated) by 2035. This strategic intelligence report maps the ecosystem from primary sources, with every major claim numbered and verification-labelled [IN-XXX]. India ranks 9/12 on the proprietary Maritime Autonomy Readiness Index with a composite 4.5/10: fourteen active programmes and eight iDEX awards exist, but the subsystem base is only 15-70% indigenous (AI silicon ~15%, battery cells ~35%) and there is no certification authority. The report reframes the debate from platforms to subsystems, quantifies the MDA and ASW coverage gaps, benchmarks six countries (US, China, UK, Israel, South Korea, Singapore) with reconstructed 2024 budgets, and scores 100 opportunities on the 9-dimension Opportunity Priority Index (OPI) — 24 "Star" opportunities score 80+, led by an 11-metre ASW USV at 88. It closes with a three-phase 2026-2035 roadmap (INR 14,600 crore Phase I, 8-12x return on capital) and 45 recommendations across government (12), the Indian Navy (10), industry (10), startups (10) and investors (8). 136 pages, 29 chapters, 53 figures, 15 tables, 125 numbered sources and full appendices A-L, mirrored in a 17-sheet data workbook.',
+  accent: '#16425B',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 136,
+  cover: 'https://library.techadyant.com/covers/beyond_sea-drones-indian-navy.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_BeyondSeaDrones_Report%20_Free.pdf',
+  previewPages: 27,
+  hasData: true,
+  priceWithData: 9999,
+  dataFilename: 'Techadyant_BeyondSeaDrones_Workbook.xlsx',
+  keywords: ['beyond sea drones india', 'india autonomous maritime systems', 'indian navy USV', 'unmanned surface vehicles india', 'underwater unmanned vehicles india', 'maritime autonomy market india 2035', 'indian navy MDA gap', 'autonomous ASW India', 'USV UUV startups india', 'naval drone ecosystem india', 'maritime autonomy readiness index', 'Make in India naval drones'],
+  faq: [{
+  a: 'INR 11,500 crore (Constrained), INR 35,000 crore (Baseline) or INR 55,000 crore (Accelerated) by 2035, from a INR 2,200 crore 2026 baseline. The Accelerated case assumes a 2026-27 anchor-programme decision; the report sizes the INR 20,000 crore gap recoverable through early decisions.',
+  q: 'How big is India\'s autonomous maritime systems market by 2035?'
+}, {
+  a: 'Rank 9/12 on the Maritime Autonomy Readiness Index with a composite 4.5/10. Fourteen active programmes and eight iDEX awards exist, but the subsystem base is 15-70% indigenous and there is no certification authority. The gap is industrial, not technological.',
+  q: 'Where does India stand in maritime autonomy today?'
+}, {
+  a: 'AI silicon (~15% indigenous), battery cells (~35%), certification, and a 36-60 month procurement cycle versus 12-24 months for the US. The Dependency Index scores 40+ subsystems for sovereignty to separate strategic chokepoints from manageable ones.',
+  q: 'What are India\'s critical gaps in USV/UUV subsystems?'
+}, {
+  a: 'One hundred opportunities scored on the 9-dimension Opportunity Priority Index (OPI); 24 "Star" opportunities score 80+, led by an 11-metre ASW USV at 88. Twenty-five hidden opportunity surfaces sit in the supporting ecosystem — subsystems, test ranges, certification — not platforms.',
+  q: 'What is the biggest autonomous maritime opportunity for India?'
+}, {
+  a: 'Every major claim is a numbered, verification-labelled citation [IN-XXX] against 125 sources across six source tiers. Fact, estimate, inference and forecast are visibly separated, and the full dataset ships in a 17-sheet Excel workbook mirroring appendices D-K.',
+  q: 'Why is this report different from other market studies?'
+}],
+  sources: [],
+  dateModified: '2026-08-15',
+  seo: {
+  entities: ['USV', 'UUV', 'Indian Navy', 'maritime autonomy', 'ASW', 'MDA', 'Opportunity Priority Index', 'Make in India', 'Indo-Pacific', 'autonomous maritime systems'],
+  metaTitle: 'India Autonomous Maritime Systems Market 2026-2035: USV/UUV Ecosystem, Readiness Index & Opportunities',
+  schemaType: 'Report',
+  focusKeyword: 'india autonomous maritime systems market',
+  metaDescription: 'India\'s USV/UUV ecosystem to 2035 — three market scenarios (INR 11,500-55,000 crore), a 12-country Maritime Autonomy Readiness Index (India 9/12), 100 OPI-ranked opportunities led by an 11m ASW USV, and a 2026-2035 industrial roadmap for OEMs, Navy, investors, MSMEs and policymakers.',
+  related_reports: ['indian-navy-autonomous-maritime']
+}
+}, {
   slug: 'iaf-autonomous-air-power',
   title: 'IAF Autonomous Air Power Roadmap 2026–2035',
   subtitle: 'What industrial substrate must India build for autonomous air power — and how the IAF closes a 34/100 readiness gap against the USAF\'s 88 benchmark by 2035.',
@@ -473,7 +473,8 @@ export const reports: ReportMeta[] = [{
   metaTitle: 'IAF Autonomous Air Power Roadmap 2026–2035: India UCAV & Air Autonomy Strategy',
   schemaType: 'Report',
   focusKeyword: 'india autonomous air power roadmap',
-  metaDescription: 'India\'s autonomous-air readiness gap (AARI 34 vs USAF 88), the 2035 projection (58–62 vs 42–46), four critical dependencies scored 20/25, the cost-exchange revolution and 75 IOSM opportunity surfaces for Indian industry.'
+  metaDescription: 'India\'s autonomous-air readiness gap (AARI 34 vs USAF 88), the 2035 projection (58–62 vs 42–46), four critical dependencies scored 20/25, the cost-exchange revolution and 75 IOSM opportunity surfaces for Indian industry.',
+  related_reports: ['indias-unmanned-warfare-transformation', 'indian-navy-autonomous-maritime']
 }
 }, {
   slug: 'kalpasar-economic-impact',
@@ -655,7 +656,7 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'india naval autonomous systems market',
   metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.',
-  related_reports: ['beyond-sea-drones-india-autonomous-maritime-systems']
+  related_reports: ['beyond-sea-drones-india-autonomous-maritime-systems', 'indias-unmanned-warfare-transformation', 'iaf-autonomous-air-power']
 }
 }, {
   slug: 'q-day-india',
@@ -1312,7 +1313,8 @@ export const reports: ReportMeta[] = [{
   metaTitle: 'India\'s Army Drone Roadmap: The Unmanned Warfare Transformation',
   schemaType: 'Report',
   focusKeyword: 'Indian Army drone procurement',
-  metaDescription: 'The Indian Army\'s UAS and loitering-munition roadmap implies procurement of ₹1–1.9 lakh crore to 2035 — and a ₹40,000 crore subsystem import-substitution prize. Full analysis.'
+  metaDescription: 'The Indian Army\'s UAS and loitering-munition roadmap implies procurement of ₹1–1.9 lakh crore to 2035 — and a ₹40,000 crore subsystem import-substitution prize. Full analysis.',
+  related_reports: ['iaf-autonomous-air-power', 'indian-navy-autonomous-maritime']
 }
 }, {
   slug: 'drone-electronics-flight-controllers',
