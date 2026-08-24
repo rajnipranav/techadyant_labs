@@ -2256,6 +2256,19 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The sixth Positive Indigenisation List, notified on 18 August 2026, covers 405 items worth an estimated Rs 3,070 crore.', 'The list spans 16 Indian Coast Guard and 389 DPSU items across helicopters, combat aircraft, tanks, warships, missiles, radars, sonars and satcom.', 'More than 15,700 defence items have been indigenised over five years, worth about Rs 9,000 crore of import substitution.', 'The SRIJAN portal had offered over 33,000 items by June 2026, including 5,012 from the first five lists.'],
   sources: ['Ministry of Defence — SRIJAN Defence portal (official sixth PIL item list, downloadable): https://srijandefence.gov.in/Opportunities', 'Press Information Bureau (18 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300723', 'ThePrint (18 Aug 2026): https://theprint.in/india/mod-notifies-6th-positive-indigenisation-list-comprising-405-strategically-important-items/3018279/', 'Moneycontrol (18 Aug 2026): https://www.moneycontrol.com/news/india/defence-ministry-notifies-sixth-positive-indigenisation-list-with-405-items-eyes-rs-3-070-crore-business-potential-14009001.html']
+}, {
+  slug: 'bel-ananth-technologies-defence-aerospace-electronics-mou',
+  no: 'S-070',
+  title: 'BEL and Ananth Technologies sign MoU to jointly develop and manufacture defence and aerospace electronics',
+  domain: 'Defence & Aerospace Industrial Base',
+  date: '2026-08-24',
+  dateLabel: '2026-08-24',
+  status: 'live',
+  excerpt: 'Bharat Electronics Limited and Ananth Technologies signed an MoU in Bengaluru on 19 August 2026 to collaborate on the design, development and manufacturing of advanced electronic systems for defence and aerospace applications. The named areas include missiles, radars, satellites and navigation systems, with the partnership covering system engineering, electronics manufacturing, integration, testing and production.',
+  readingTime: '',
+  body: [],
+  takeaways: [],
+  sources: ['{"publication":"Bharat Electronics Limited","date":"2026-08-20","url":"https://bel-india.in/news-bel/bharat-electronics-ltd-bel-signs-mou-with-ananth-technologies-private-limited-atl/","note":"Official release confirming the 19 August signing, strategic technology areas and end-to-end development and manufacturing scope"}', '{"publication":"Fortune India","date":"2026-08-20","url":"https://www.fortuneindia.com/business-news/ananth-technologies-bel-partner-to-develop-advanced-defence-aerospace-systems/154861","note":"Independent coverage confirming the partnership and complementary BEL–ATL capability base"}', '{"publication":"Asia Pacific Defence Reporter","date":"2026-08-24","url":"https://asiapacificdefencereporter.com/ananth-technologies-and-bel-sign-mou-for-defence-and-aerospace-systems/","note":"Independent specialist coverage confirming the collaboration and defence and space applications"}']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
