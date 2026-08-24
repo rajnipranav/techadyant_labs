@@ -2259,16 +2259,28 @@ export const signals: SignalMeta[] = [{
 }, {
   slug: 'bel-ananth-technologies-defence-aerospace-electronics-mou',
   no: 'S-070',
-  title: 'BEL and Ananth Technologies sign MoU to jointly develop and manufacture defence and aerospace electronics',
-  domain: 'Defence & Aerospace Industrial Base',
+  title: 'BEL and Ananth Technologies Move to Jointly Develop Defence and Aerospace Electronics',
+  domain: 'Defence & Dual-Use',
   date: '2026-08-24',
-  dateLabel: '2026-08-24',
+  dateLabel: '24 Aug 2026',
   status: 'live',
-  excerpt: 'Bharat Electronics Limited and Ananth Technologies signed an MoU in Bengaluru on 19 August 2026 to collaborate on the design, development and manufacturing of advanced electronic systems for defence and aerospace applications. The named areas include missiles, radars, satellites and navigation systems, with the partnership covering system engineering, electronics manufacturing, integration, testing and production.',
-  readingTime: '',
-  body: [],
-  takeaways: [],
-  sources: ['{"publication":"Bharat Electronics Limited","date":"2026-08-20","url":"https://bel-india.in/news-bel/bharat-electronics-ltd-bel-signs-mou-with-ananth-technologies-private-limited-atl/","note":"Official release confirming the 19 August signing, strategic technology areas and end-to-end development and manufacturing scope"}', '{"publication":"Fortune India","date":"2026-08-20","url":"https://www.fortuneindia.com/business-news/ananth-technologies-bel-partner-to-develop-advanced-defence-aerospace-systems/154861","note":"Independent coverage confirming the partnership and complementary BEL–ATL capability base"}', '{"publication":"Asia Pacific Defence Reporter","date":"2026-08-24","url":"https://asiapacificdefencereporter.com/ananth-technologies-and-bel-sign-mou-for-defence-and-aerospace-systems/","note":"Independent specialist coverage confirming the collaboration and defence and space applications"}']
+  excerpt: 'Bharat Electronics and Ananth Technologies have signed an MoU to jointly develop and manufacture advanced electronics across missiles, radars, satellites and navigation systems - a pairing that adds a private-sector route into India\'s defence-electronics stack, though no funded programme is attached yet.',
+  readingTime: '2 min',
+  body: [{
+  text: 'Bharat Electronics Limited (BEL), the Navratna defence public-sector undertaking, and Hyderabad-based Ananth Technologies Private Limited (ATL) signed a memorandum of understanding (MoU) in Bengaluru on 19 August 2026. The agreement covers the joint design, development and manufacture of advanced electronic systems for defence and aerospace applications, with the named focus areas being missiles, radars, satellites and navigation systems. The scope runs from indigenous design and development through system engineering, electronics manufacturing, integration, testing and production for current and future programmes of strategic importance.',
+  type: 'p'
+}, {
+  text: 'The significance is the industrial pairing rather than any single product. BEL brings programme access, production experience and the scale of a major defence-electronics prime, while ATL adds a private-sector capability base in space systems, avionics, navigation and high-reliability electronics built over more than three decades. Together the two position themselves across the electronics, integration and test layer that determines whether an indigenous platform can be sustained domestically.',
+  type: 'p'
+}, {
+  text: 'The dependency frame is the critical one. India remains import-sensitive in high-reliability defence electronics - guidance, radar processing and space-grade avionics - and a private-route complement to BEL\'s prime scale addresses a persistent gap between design intent and volume manufacturing. The MoU establishes a route for joint development and manufacturing, but it does not yet announce a funded programme, production order, system qualification or revenue value; its sovereignty impact will turn on whether the partnership yields a named product, demonstrator or qualified subsystem.',
+  type: 'p'
+}, {
+  text: 'The test to watch is whether a named missile, radar, satellite or navigation programme attaches to the partnership, evidenced by a prototype, qualification milestone or production line - rather than another general restatement of the MoU. A credible exportable system would signal that the pairing has moved from intent to capability delivery.',
+  type: 'p'
+}],
+  takeaways: ['BEL and Hyderabad-based Ananth Technologies signed an MoU in Bengaluru on 19 August 2026 to jointly design, develop and manufacture advanced defence and aerospace electronics.', 'The named focus areas are missiles, radars, satellites and navigation systems, spanning system engineering through manufacturing, integration and testing.', 'The MoU is an industrial-pairing signal - BEL\'s prime scale plus ATL\'s three-decade private capability base - not yet a funded programme or production order.', 'Watch for a named programme, prototype or qualification milestone to confirm the partnership has moved from intent to capability delivery.'],
+  sources: ['Bharat Electronics Limited (20 Aug 2026): https://bel-india.in/news-bel/bharat-electronics-ltd-bel-signs-mou-with-ananth-technologies-private-limited-atl/', 'Fortune India (20 Aug 2026): https://www.fortuneindia.com/business-news/ananth-technologies-bel-partner-to-develop-advanced-defence-aerospace-systems/154861', 'Economic Times (20 Aug 2026): https://government.economictimes.indiatimes.com/news/defence/bel-ananth-technologies-forge-partnership-for-missiles-radars-and-satellite-systems/133353657']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
