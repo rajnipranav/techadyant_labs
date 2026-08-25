@@ -20,6 +20,7 @@ const NAV: NavGroup[] = [
       { href: '/research/drones-uas', label: 'Unmanned Systems' },
       { href: '/research/counter-uas', label: 'Counter-UAS' },
       { href: '/research/military-aerospace', label: 'Military Aerospace' },
+      { href: '/research/space', label: 'Space' },
       { href: '/research/pillars', label: 'All pillar maps →' },
     ],
   },

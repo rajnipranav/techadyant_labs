@@ -4,6 +4,7 @@ import { AtlasNav } from '../AtlasNav';
 import { JsonLd, breadcrumb, SITE, ORG_REF } from '../seo';
 import { corridorsOrdered, meta as cmeta } from '../atlas';
 import { PILLAR_THESIS, pillarStats } from '../pillars';
+import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardFull } from '../extra-ecosystems';
 
 export const metadata: Metadata = {
   title: 'Pillar maps — India’s strategic industries as system maps | The Atlas',
@@ -50,6 +51,7 @@ export default function PillarsIndex() {
               </Link>
             );
           })}
+          {EXTRA_ECOSYSTEMS.map((e) => <ExtraEcosystemCardFull key={e.key} e={e} />)}
         </div>
       </section>
     </>

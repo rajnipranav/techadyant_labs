@@ -12,6 +12,7 @@ import platformEntities from './research/_platform.json';
 import droneAtlas from './research/_drones.json';
 import cuasAtlas from './research/_cuas.json';
 import aerospaceAtlas from './research/_aerospace.json';
+import spaceAtlas from './research/_space.json';
 import { products as depProducts, sectors as depSectors, states as depStates } from './dependencies/data';
 import { EXEC_SUMMARIES } from './reports/executive-summaries/registry';
 
@@ -188,6 +189,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...aa.companies.map((x) => ({ url: `${SITE}/research/military-aerospace/company/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.55 })),
     ...aa.dependencies.map((x) => ({ url: `${SITE}/research/military-aerospace/dependency/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.55 })),
   ];
+  const sp = spaceAtlas as { platforms: { slug: string }[]; companies: { slug: string }[] };
+  const spaceRoutes: MetadataRoute.Sitemap = [
+    { url: `${SITE}/research/space/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 },
+    ...sp.platforms.map((x) => ({ url: `${SITE}/research/space/platform/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 })),
+    ...sp.companies.map((x) => ({ url: `${SITE}/research/space/company/${x.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.55 })),
+  ];
   const depRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE}/dependencies/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 },
     { url: `${SITE}/dependencies/products/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.75 },
@@ -211,7 +218,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ].map((s) => `${SITE}/research/players/${s}/`),
   );
 
-  const allRoutes = [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...execSummaryRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes, ...cuasRoutes, ...aerospaceRoutes, ...depRoutes];
+  const allRoutes = [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...execSummaryRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes, ...cuasRoutes, ...aerospaceRoutes, ...spaceRoutes, ...depRoutes];
 
   return allRoutes.filter((r) => !RETIRED_PLAYER_PATHS.has(r.url as string));
 }

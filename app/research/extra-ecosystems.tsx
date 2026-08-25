@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { meta as aeroMeta } from './military-aerospace/data';
+import { meta as spaceMeta } from './space/data';
 
 /**
  * Atlas ecosystems that live OUTSIDE the five SID corridors (which auto-populate
@@ -69,6 +70,21 @@ export const EXTRA_ECOSYSTEMS: ExtraEcosystem[] = [
     weakName: 'Engines & FADEC',
     weakStatus: 'Import-dependent',
     go: 'Explore the ecosystem ',
+  },
+  {
+    key: 'space',
+    label: 'Space',
+    no: '09',
+    href: '/research/space/',
+    accent: '#A78BFA',
+    tagline: 'India is moving from government missions to a private full-stack space economy — launch, satellites, propulsion and data still lean on imported components.',
+    strip: ['#C0563B', '#C99A3B', '#C99A3B', '#2BC5B4', '#C99A3B', '#2BC5B4'],
+    stat: <><b>{spaceMeta.platforms}</b> platforms · <b>{spaceMeta.companies}</b> companies</>,
+    stat2: `$${spaceMeta.fundingUsdMn} Mn private funding`,
+    weakPrefix: 'Critical import dep',
+    weakName: 'Space-grade electronics',
+    weakStatus: 'Nascent / Import-dependent',
+    go: 'Explore the ecosystem →',
   },
 ];
 
