@@ -34,53 +34,6 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
-  slug: 'india-aerospace-supply-chain-missing-links',
-  title: 'India’s Aerospace Supply Chain: Missing Links',
-  subtitle: 'Missing Links Between Components and Complete Aircraft — Why India Has the Parts but Not the Platforms, and the Industrial Architecture That Closes the Gap',
-  domain: 'Industrial & Deep Tech',
-  edition: 'Volume I · Flagship Edition',
-  published: '2026-08-25',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 40 min read',
-  status: 'published',
-  summary: 'India’s aerospace industry is structurally bifurcated: it has built a globally competitive Tier-2/3 component base, yet still lacks the Tier-1 sub-system integration, unified type certification and serial final-assembly capability required to produce complete aircraft. This strategic-intelligence report identifies three "missing links" — integration, certification and final assembly — and shows why component capability does not automatically aggregate into aircraft capability. Against a $42B total addressable market in 2025, India’s serviceable obtainable market spans a 5× spread by 2035: $21.0B (bull), $11.7B (base) or $4.2B (bear), decided almost entirely by domestic execution inside the 2025–2027 policy window rather than by exogenous demand. The report scores India’s capability across ten dimensions (civil propulsion 1.5/10 vs a 9.5 global frontier), maps an 85%-concentrated engine supply chain, quantifies a 4.2-year average policy-implementation latency, and prescribes eight priority interventions — a National Aerospace Certification Authority, a $1.5B Tier-2/3 Supplier Development Fund, propulsion JVs and five domestic Tier-1 integrators — requiring ~$16.7B of coordinated capital. It also reads India’s emerging space-sector R&D-to-industrialisation model as an institutional analogue, without extending the report’s scope into space.',
-  accent: '#818CF8',
-  access: 'paid',
-  price: 6999,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 116,
-  cover: 'https://library.techadyant.com/covers/indias_aerospace_supply_chain.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Aerospace_Strategic_Intelligence_Report_Free.pdf',
-  previewPages: 15,
-  hasData: true,
-  priceWithData: 11999,
-  dataFilename: 'Indias-Aerospace-Supply-Chain-Missing-Links-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: ['India aerospace supply chain', 'India aerospace manufacturing', 'aircraft integration India', 'Tier-1 aerospace integrator India', 'aerospace type certification India', 'India aero-engine dependency', 'India MRO market', 'UAV eVTOL India', 'aerospace missing links', 'India aerospace 2035 forecast', 'National Aerospace Certification Authority', 'aerospace supplier development fund'],
-  faq: [{
-  q: 'What is the projected size of India’s aerospace market by 2035?',
-  a: 'India’s aerospace Serviceable Obtainable Market (SOM) is projected to reach $21.0 billion in the bull case, $11.7 billion in the base case, or $4.2 billion in the bear case by 2035 — a 5× spread that is dependent almost entirely on domestic policy execution and capital allocation, not on exogenous market size.'
-}, {
-  q: 'Why can’t India produce complete aircraft despite having a component base?',
-  a: 'India lacks three structural "missing links": Tier-1 sub-system integration capability, a unified type certification authority, and serial final-assembly lines. Component manufacturing capability does not automatically aggregate into complete-aircraft capability without these integrating institutions.'
-}, {
-  q: 'What is the average policy implementation latency in India’s aerospace sector?',
-  a: 'Implementation latency averages 4.2 years from policy notification to first procurement impact, based on Techadyant Labs’ analysis of twelve major policy actions between 2001 and 2025 — the principal execution challenge for the 2035 outlook.'
-}, {
-  q: 'How much capital is required to achieve the bull-case scenario?',
-  a: 'The eight top-priority recommendations require approximately $16.7 billion (₹1.39 lakh crore) of coordinated capital deployment over 36 to 60 months, spanning a certification authority, a Tier-2/3 supplier fund, propulsion JVs and five domestic Tier-1 integrator entities.'
-}, {
-  q: 'What is the current capability gap in aerospace propulsion?',
-  a: 'Civil propulsion scores 1.5 out of 10 for India compared to 9.5 for the global frontier — an 8.0-point gap. Geared-turbofan technology shows a similar 8.0-point gap, making it the single deepest capability deficit in the value chain.'
-}],
-  sources: ['Union Budget documents (MoD, MoCA)', 'Ministry of Defence & Ministry of Civil Aviation Annual Reports', 'DPIIT FDI statistics', 'SIDM / CAPA industry forecasts', 'CAG audit reports', 'Techadyant Labs Supplier Directory, Capital Tracker and Capability Assessment Framework'],
-  dateModified: '2026-08-25',
-  seo: {
-  metaTitle: 'India’s Aerospace Supply Chain: Missing Links 2026–2035 | Techadyant Labs',
-  metaDescription: 'Why India has aerospace components but not complete aircraft: the three missing links — integration, certification, final assembly — and a $21B vs $4.2B 2035 outcome.'
-}
-}, {
   slug: 'india-semiconductor-supply-chain-missing-links',
   title: 'India’s Semiconductor Supply Chain Missing Links and Industrial Opportunity Surfaces',
   subtitle: 'Substrates, gases, photoresists, equipment subcomponents — the layers no one is building',
@@ -265,6 +218,53 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-09-12',
   seo: {
 
+}
+}, {
+  slug: 'india-aerospace-supply-chain-missing-links',
+  title: 'India’s Aerospace Supply Chain: Missing Links',
+  subtitle: 'Missing Links Between Components and Complete Aircraft — Why India Has the Parts but Not the Platforms, and the Industrial Architecture That Closes the Gap',
+  domain: 'Industrial & Deep Tech',
+  edition: 'Volume I · Flagship Edition',
+  published: '2026-08-25',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 40 min read',
+  status: 'published',
+  summary: 'India’s aerospace industry is structurally bifurcated: it has built a globally competitive Tier-2/3 component base, yet still lacks the Tier-1 sub-system integration, unified type certification and serial final-assembly capability required to produce complete aircraft. This strategic-intelligence report identifies three "missing links" — integration, certification and final assembly — and shows why component capability does not automatically aggregate into aircraft capability. Against a $42B total addressable market in 2025, India’s serviceable obtainable market spans a 5× spread by 2035: $21.0B (bull), $11.7B (base) or $4.2B (bear), decided almost entirely by domestic execution inside the 2025–2027 policy window rather than by exogenous demand. The report scores India’s capability across ten dimensions (civil propulsion 1.5/10 vs a 9.5 global frontier), maps an 85%-concentrated engine supply chain, quantifies a 4.2-year average policy-implementation latency, and prescribes eight priority interventions — a National Aerospace Certification Authority, a $1.5B Tier-2/3 Supplier Development Fund, propulsion JVs and five domestic Tier-1 integrators — requiring ~$16.7B of coordinated capital. It also reads India’s emerging space-sector R&D-to-industrialisation model as an institutional analogue, without extending the report’s scope into space.',
+  accent: '#818CF8',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 116,
+  cover: 'https://library.techadyant.com/covers/indias_aerospace_supply_chain.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Aerospace_Strategic_Intelligence_Report_Free.pdf',
+  previewPages: 15,
+  hasData: true,
+  priceWithData: 11999,
+  dataFilename: 'Indias-Aerospace-Supply-Chain-Missing-Links-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['India aerospace supply chain', 'India aerospace manufacturing', 'aircraft integration India', 'Tier-1 aerospace integrator India', 'aerospace type certification India', 'India aero-engine dependency', 'India MRO market', 'UAV eVTOL India', 'aerospace missing links', 'India aerospace 2035 forecast', 'National Aerospace Certification Authority', 'aerospace supplier development fund'],
+  faq: [{
+  a: 'India’s aerospace Serviceable Obtainable Market (SOM) is projected to reach $21.0 billion in the bull case, $11.7 billion in the base case, or $4.2 billion in the bear case by 2035 — a 5× spread that is dependent almost entirely on domestic policy execution and capital allocation, not on exogenous market size.',
+  q: 'What is the projected size of India’s aerospace market by 2035?'
+}, {
+  a: 'India lacks three structural "missing links": Tier-1 sub-system integration capability, a unified type certification authority, and serial final-assembly lines. Component manufacturing capability does not automatically aggregate into complete-aircraft capability without these integrating institutions.',
+  q: 'Why can’t India produce complete aircraft despite having a component base?'
+}, {
+  a: 'Implementation latency averages 4.2 years from policy notification to first procurement impact, based on Techadyant Labs’ analysis of twelve major policy actions between 2001 and 2025 — the principal execution challenge for the 2035 outlook.',
+  q: 'What is the average policy implementation latency in India’s aerospace sector?'
+}, {
+  a: 'The eight top-priority recommendations require approximately $16.7 billion (₹1.39 lakh crore) of coordinated capital deployment over 36 to 60 months, spanning a certification authority, a Tier-2/3 supplier fund, propulsion JVs and five domestic Tier-1 integrator entities.',
+  q: 'How much capital is required to achieve the bull-case scenario?'
+}, {
+  a: 'Civil propulsion scores 1.5 out of 10 for India compared to 9.5 for the global frontier — an 8.0-point gap. Geared-turbofan technology shows a similar 8.0-point gap, making it the single deepest capability deficit in the value chain.',
+  q: 'What is the current capability gap in aerospace propulsion?'
+}],
+  sources: ['Union Budget documents (MoD, MoCA)', 'Ministry of Defence & Ministry of Civil Aviation Annual Reports', 'DPIIT FDI statistics', 'SIDM / CAPA industry forecasts', 'CAG audit reports', 'Techadyant Labs Supplier Directory, Capital Tracker and Capability Assessment Framework'],
+  dateModified: '2026-08-25',
+  seo: {
+  metaTitle: 'India’s Aerospace Supply Chain: Missing Links 2026–2035 | Techadyant Labs',
+  metaDescription: 'Why India has aerospace components but not complete aircraft: the three missing links — integration, certification, final assembly — and a $21B vs $4.2B 2035 outcome.'
 }
 }, {
   slug: 'india-ai-compute-corridor-economics',
@@ -1414,56 +1414,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'Around 90% of small-drone flight controllers come from China. The market, the silicon, and how India builds a trusted flight-controller and drone-electronics stack.'
 }
 }, {
-  slug: 'the-end-of-the-application-era',
-  title: 'Who Captures Computing When the Application Disappears?',
-  subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
-  domain: 'AI Infrastructure',
-  edition: 'Strategic Foresight · Technology Sovereignty Series · v1.0',
-  published: '2026-06-16',
-  publishedLabel: 'June 2026',
-  readingTime: '~ 2.5h read',
-  status: 'published',
-  summary: 'Every fifteen-to-twenty years the operating system is redesigned, and agentic AI is the trigger for the next one. As work shifts from applications a human opens to goals an agent pursues, the three foundations of the modern OS — CPU-centric scheduling, human-login security and application-siloed state — break at once. This report argues that value migrates down from the application layer into four control primitives — accelerated inference, identity, memory and scheduling (AIMS) — and scores who is positioned to own them on a proprietary Agent-Native Capture Index (ANCI): in 2026 there is no Primitive Owner, and the leaders win on breadth, not depth. It maps the Post-Application Stack layer by layer, traces the hardware chokepoints (advanced packaging, HBM, export policy), and sets out where India — strong in public digital infrastructure and sovereign compute, dependent on the AIMS primitives — can capture the next layer rather than the last one. Eight parts, twenty-six chapters, eighteen figures and the PAS / AIMS / ANCI framework family. Free, and readable in full on this page.',
-  accent: '#818CF8',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 151,
-  cover: 'https://library.techadyant.com/covers/the%20end%20of%20application%20era.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/The-End-of-the-Application-Era.pdf',
-  previewPages: 151,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['end of the application era', 'agentic AI operating system', 'post-application stack', 'AIMS framework', 'agent-native capture index', 'future of computing', 'AI operating system', 'agent infrastructure', 'India AI sovereignty', 'sovereign compute India', 'advanced packaging chokepoint', 'operating system redesign AI'],
-  faq: [{
-  a: 'It means the application — the unit we install, trust and open — is becoming friction as work shifts to AI agents that pursue goals across many tools at once. Operating-system dominance has shifted roughly every one to two decades, always when the dominant workload rebalances rather than when features grow; agentic AI is that rebalancing, and it breaks CPU-centric scheduling, human-login security and application-siloed state simultaneously.',
-  q: 'What does “the end of the application era” mean?'
-}, {
-  a: 'Four control primitives the report groups as AIMS — Accelerated inference, Identity, Memory and Scheduling. Value migrates down from the application layer into these primitives, which become the real operating system of the agent era. The report formalises them in an eight-layer Post-Application Stack (PAS).',
-  q: 'What replaces the application as the unit of computing?'
-}, {
-  a: 'ANCI is the report’s 0–100 framework scoring who controls the AIMS primitives. Its headline finding for 2026 is that there is no Primitive Owner: today’s leaders win on breadth across the stack, not depth in any single primitive — which is precisely why the layer is still contestable.',
-  q: 'What is the Agent-Native Capture Index (ANCI)?'
-}, {
-  a: 'It inverts it. Existing models secure human logins, but machine workloads are now using those logins. The report argues trust will move to capability tokens and delegation policy — securing what an agent is permitted to do, for whom, and for how long — rather than who is signed in.',
-  q: 'How does agentic AI change operating-system security?'
-}, {
-  a: 'India is AIMS-dependent but sovereignty-strong: its public digital infrastructure (Aadhaar, UPI, MOSIP) and expanding sovereign compute give it a credible, time-limited advantage. The leapfrog runs through agent-aware design of that public infrastructure and through the identity and consent layer — not through trying to out-build hyperscalers on raw compute.',
-  q: 'Where can India capture value in the post-application era?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['AI agents', 'MCP', 'post-application stack', 'hyperscalers', 'NVIDIA', 'India Stack'],
-  metaTitle: 'The End of the Application Era: India\'s Enterprise Software Shift',
-  schemaType: 'Report',
-  focusKeyword: 'AI agents replacing applications',
-  metaDescription: 'As AI agents replace applications, value moves to inference, identity, memory and orchestration. IndiaAI compute, sovereign cloud and API-first infrastructure.'
-}
-}, {
   slug: 'india-drone-sensors-payloads-imaging-market',
   title: 'India Drone Sensors, Payloads & Imaging Systems Market',
   subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
@@ -1512,6 +1462,56 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India drone sensors market',
   metaDescription: 'India\'s drone sensor and payload market mapped: EO/IR gimbals, LiDAR, thermal and multispectral imaging, remote-sensing payloads — market structure, import dependence and the localisation opportunity.'
+}
+}, {
+  slug: 'the-end-of-the-application-era',
+  title: 'Who Captures Computing When the Application Disappears?',
+  subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
+  domain: 'AI Infrastructure',
+  edition: 'Strategic Foresight · Technology Sovereignty Series · v1.0',
+  published: '2026-06-16',
+  publishedLabel: 'June 2026',
+  readingTime: '~ 2.5h read',
+  status: 'published',
+  summary: 'Every fifteen-to-twenty years the operating system is redesigned, and agentic AI is the trigger for the next one. As work shifts from applications a human opens to goals an agent pursues, the three foundations of the modern OS — CPU-centric scheduling, human-login security and application-siloed state — break at once. This report argues that value migrates down from the application layer into four control primitives — accelerated inference, identity, memory and scheduling (AIMS) — and scores who is positioned to own them on a proprietary Agent-Native Capture Index (ANCI): in 2026 there is no Primitive Owner, and the leaders win on breadth, not depth. It maps the Post-Application Stack layer by layer, traces the hardware chokepoints (advanced packaging, HBM, export policy), and sets out where India — strong in public digital infrastructure and sovereign compute, dependent on the AIMS primitives — can capture the next layer rather than the last one. Eight parts, twenty-six chapters, eighteen figures and the PAS / AIMS / ANCI framework family. Free, and readable in full on this page.',
+  accent: '#818CF8',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 151,
+  cover: 'https://library.techadyant.com/covers/the%20end%20of%20application%20era.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/The-End-of-the-Application-Era.pdf',
+  previewPages: 151,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['end of the application era', 'agentic AI operating system', 'post-application stack', 'AIMS framework', 'agent-native capture index', 'future of computing', 'AI operating system', 'agent infrastructure', 'India AI sovereignty', 'sovereign compute India', 'advanced packaging chokepoint', 'operating system redesign AI'],
+  faq: [{
+  a: 'It means the application — the unit we install, trust and open — is becoming friction as work shifts to AI agents that pursue goals across many tools at once. Operating-system dominance has shifted roughly every one to two decades, always when the dominant workload rebalances rather than when features grow; agentic AI is that rebalancing, and it breaks CPU-centric scheduling, human-login security and application-siloed state simultaneously.',
+  q: 'What does “the end of the application era” mean?'
+}, {
+  a: 'Four control primitives the report groups as AIMS — Accelerated inference, Identity, Memory and Scheduling. Value migrates down from the application layer into these primitives, which become the real operating system of the agent era. The report formalises them in an eight-layer Post-Application Stack (PAS).',
+  q: 'What replaces the application as the unit of computing?'
+}, {
+  a: 'ANCI is the report’s 0–100 framework scoring who controls the AIMS primitives. Its headline finding for 2026 is that there is no Primitive Owner: today’s leaders win on breadth across the stack, not depth in any single primitive — which is precisely why the layer is still contestable.',
+  q: 'What is the Agent-Native Capture Index (ANCI)?'
+}, {
+  a: 'It inverts it. Existing models secure human logins, but machine workloads are now using those logins. The report argues trust will move to capability tokens and delegation policy — securing what an agent is permitted to do, for whom, and for how long — rather than who is signed in.',
+  q: 'How does agentic AI change operating-system security?'
+}, {
+  a: 'India is AIMS-dependent but sovereignty-strong: its public digital infrastructure (Aadhaar, UPI, MOSIP) and expanding sovereign compute give it a credible, time-limited advantage. The leapfrog runs through agent-aware design of that public infrastructure and through the identity and consent layer — not through trying to out-build hyperscalers on raw compute.',
+  q: 'Where can India capture value in the post-application era?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['AI agents', 'MCP', 'post-application stack', 'hyperscalers', 'NVIDIA', 'India Stack'],
+  metaTitle: 'The End of the Application Era: India\'s Enterprise Software Shift',
+  schemaType: 'Report',
+  focusKeyword: 'AI agents replacing applications',
+  metaDescription: 'As AI agents replace applications, value moves to inference, identity, memory and orchestration. IndiaAI compute, sovereign cloud and API-first infrastructure.'
 }
 }, {
   slug: 'osat-and-the-packaging-frontier',
