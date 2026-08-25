@@ -34,6 +34,53 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
+  slug: 'india-aerospace-supply-chain-missing-links',
+  title: 'India’s Aerospace Supply Chain: Missing Links',
+  subtitle: 'Missing Links Between Components and Complete Aircraft — Why India Has the Parts but Not the Platforms, and the Industrial Architecture That Closes the Gap',
+  domain: 'Industrial & Deep Tech',
+  edition: 'Volume I · Flagship Edition',
+  published: '2026-08-25',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 40 min read',
+  status: 'published',
+  summary: 'India’s aerospace industry is structurally bifurcated: it has built a globally competitive Tier-2/3 component base, yet still lacks the Tier-1 sub-system integration, unified type certification and serial final-assembly capability required to produce complete aircraft. This strategic-intelligence report identifies three "missing links" — integration, certification and final assembly — and shows why component capability does not automatically aggregate into aircraft capability. Against a $42B total addressable market in 2025, India’s serviceable obtainable market spans a 5× spread by 2035: $21.0B (bull), $11.7B (base) or $4.2B (bear), decided almost entirely by domestic execution inside the 2025–2027 policy window rather than by exogenous demand. The report scores India’s capability across ten dimensions (civil propulsion 1.5/10 vs a 9.5 global frontier), maps an 85%-concentrated engine supply chain, quantifies a 4.2-year average policy-implementation latency, and prescribes eight priority interventions — a National Aerospace Certification Authority, a $1.5B Tier-2/3 Supplier Development Fund, propulsion JVs and five domestic Tier-1 integrators — requiring ~$16.7B of coordinated capital. It also reads India’s emerging space-sector R&D-to-industrialisation model as an institutional analogue, without extending the report’s scope into space.',
+  accent: '#818CF8',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 116,
+  cover: 'https://library.techadyant.com/covers/indias_aerospace_supply_chain.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Aerospace_Strategic_Intelligence_Report_Free.pdf',
+  previewPages: 15,
+  hasData: true,
+  priceWithData: 11999,
+  dataFilename: 'Indias-Aerospace-Supply-Chain-Missing-Links-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['India aerospace supply chain', 'India aerospace manufacturing', 'aircraft integration India', 'Tier-1 aerospace integrator India', 'aerospace type certification India', 'India aero-engine dependency', 'India MRO market', 'UAV eVTOL India', 'aerospace missing links', 'India aerospace 2035 forecast', 'National Aerospace Certification Authority', 'aerospace supplier development fund'],
+  faq: [{
+  q: 'What is the projected size of India’s aerospace market by 2035?',
+  a: 'India’s aerospace Serviceable Obtainable Market (SOM) is projected to reach $21.0 billion in the bull case, $11.7 billion in the base case, or $4.2 billion in the bear case by 2035 — a 5× spread that is dependent almost entirely on domestic policy execution and capital allocation, not on exogenous market size.'
+}, {
+  q: 'Why can’t India produce complete aircraft despite having a component base?',
+  a: 'India lacks three structural "missing links": Tier-1 sub-system integration capability, a unified type certification authority, and serial final-assembly lines. Component manufacturing capability does not automatically aggregate into complete-aircraft capability without these integrating institutions.'
+}, {
+  q: 'What is the average policy implementation latency in India’s aerospace sector?',
+  a: 'Implementation latency averages 4.2 years from policy notification to first procurement impact, based on Techadyant Labs’ analysis of twelve major policy actions between 2001 and 2025 — the principal execution challenge for the 2035 outlook.'
+}, {
+  q: 'How much capital is required to achieve the bull-case scenario?',
+  a: 'The eight top-priority recommendations require approximately $16.7 billion (₹1.39 lakh crore) of coordinated capital deployment over 36 to 60 months, spanning a certification authority, a Tier-2/3 supplier fund, propulsion JVs and five domestic Tier-1 integrator entities.'
+}, {
+  q: 'What is the current capability gap in aerospace propulsion?',
+  a: 'Civil propulsion scores 1.5 out of 10 for India compared to 9.5 for the global frontier — an 8.0-point gap. Geared-turbofan technology shows a similar 8.0-point gap, making it the single deepest capability deficit in the value chain.'
+}],
+  sources: ['Union Budget documents (MoD, MoCA)', 'Ministry of Defence & Ministry of Civil Aviation Annual Reports', 'DPIIT FDI statistics', 'SIDM / CAPA industry forecasts', 'CAG audit reports', 'Techadyant Labs Supplier Directory, Capital Tracker and Capability Assessment Framework'],
+  dateModified: '2026-08-25',
+  seo: {
+  metaTitle: 'India’s Aerospace Supply Chain: Missing Links 2026–2035 | Techadyant Labs',
+  metaDescription: 'Why India has aerospace components but not complete aircraft: the three missing links — integration, certification, final assembly — and a $21B vs $4.2B 2035 outcome.'
+}
+}, {
   slug: 'india-semiconductor-supply-chain-missing-links',
   title: 'India’s Semiconductor Supply Chain Missing Links and Industrial Opportunity Surfaces',
   subtitle: 'Substrates, gases, photoresists, equipment subcomponents — the layers no one is building',

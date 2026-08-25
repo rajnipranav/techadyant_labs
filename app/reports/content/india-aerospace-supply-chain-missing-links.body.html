@@ -1,0 +1,329 @@
+<style>
+.rv-longform { color: var(--text-muted); font-family: var(--font-serif, 'Source Serif 4', Georgia, serif); line-height: 1.7; font-size: 16px; }
+.rv-longform *, .rv-longform *::before, .rv-longform *::after { box-sizing: border-box; margin: 0; padding: 0; }
+.rv-longform section { padding: 48px 0; border-bottom: 1px solid var(--border); }
+.rv-longform h2 { font-size: clamp(20px, 2.6vw, 25px); margin-bottom: 20px; color: var(--text); font-weight: 700; }
+.rv-longform h3 { font-size: 12.5px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--brass); margin-bottom: 10px; font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; }
+.rv-longform p { margin-bottom: 16px; color: var(--text-muted); }
+.rv-longform p.lead { font-size: 18px; line-height: 1.7; color: var(--text); background: var(--surface-2); padding: 22px; border-left: 3px solid var(--brass); border-radius: 0 12px 12px 0; }
+.rv-longform p.lead strong { color: var(--gold); font-weight: 600; }
+.rv-longform .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 26px 0; }
+.rv-longform .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 16px; transition: border-color .15s ease, transform .15s ease; }
+.rv-longform .stat-card:hover { border-color: rgba(245, 181, 68, .5); transform: translateY(-1px); }
+.rv-longform .stat-val { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: clamp(22px, 3vw, 28px); font-weight: 700; color: var(--gold); line-height: 1.2; margin-bottom: 8px; }
+.rv-longform .stat-label { font-size: 13px; color: var(--text-muted); margin-bottom: 10px; line-height: 1.45; }
+.rv-longform .stat-src { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 10.5px; color: var(--text-dim); }
+.rv-longform .findings-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-top: 22px; }
+.rv-longform .finding-card { background: var(--surface); border: 1px solid var(--border); border-top: 2px solid rgba(245, 181, 68, .35); border-radius: 14px; padding: 20px 18px; transition: border-color .15s ease, transform .15s ease; }
+.rv-longform .finding-card:hover { border-top-color: var(--brass); transform: translateY(-1px); }
+.rv-longform .finding-claim { font-size: 15.5px; line-height: 1.65; color: var(--text); margin-bottom: 10px; }
+.rv-longform .finding-num { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; color: var(--gold); font-weight: 700; }
+.rv-longform .finding-src { display: block; font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 10.5px; color: var(--text-dim); margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--border); }
+.rv-longform .framework-box { background: linear-gradient(135deg, var(--surface-2), var(--surface)); border-left: 3px solid var(--brass); border-radius: 0 14px 14px 0; padding: 22px 24px; margin: 22px 0; line-height: 1.75; font-size: 16px; color: var(--text); }
+.rv-longform .framework-box strong { color: var(--gold); }
+.rv-longform .framework-box em { color: var(--periwinkle, #818CF8); font-style: normal; font-weight: 600; }
+.rv-longform figure { margin: 30px 0; background: var(--surface); padding: 18px; border: 1px solid var(--border); border-radius: 14px; }
+.rv-longform figure svg, .rv-longform figure img { width: 100%; height: auto; display: block; }
+.rv-longform figcaption { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 11px; color: var(--text-dim); margin-top: 12px; text-align: center; line-height: 1.55; }
+.rv-longform ul.watch-list { list-style: none; margin: 0; padding: 0; }
+.rv-longform ul.watch-list li { padding: 14px 0; border-bottom: 1px solid var(--border); display: flex; gap: 16px; align-items: baseline; }
+.rv-longform ul.watch-list li:last-child { border-bottom: none; }
+.rv-longform .watch-date { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; color: var(--gold); font-weight: 700; min-width: 56px; font-size: 13px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; text-align: center; padding: 3px 8px; }
+.rv-longform .watch-text { flex: 1; color: var(--text); font-size: 15.5px; line-height: 1.65; }
+.rv-longform table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 14px; background: var(--surface); border: 1px solid var(--border); }
+.rv-longform th { background: var(--surface-2); color: var(--text-muted); text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--border-strong); font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; }
+.rv-longform td { padding: 11px 14px; border-bottom: 1px solid var(--border); color: var(--text); }
+.rv-longform tr:last-child td { border-bottom: none; }
+.rv-longform details { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 10px; }
+.rv-longform summary { padding: 16px 18px; cursor: pointer; font-weight: 600; font-size: 15.5px; color: var(--text); list-style: none; display: flex; justify-content: space-between; align-items: center; }
+.rv-longform summary::after { content: '+'; font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 20px; color: var(--gold); font-weight: 300; }
+.rv-longform details[open] summary::after { content: '\2212'; }
+.rv-longform details[open] summary { border-bottom: 1px solid var(--border); background: var(--surface-2); }
+.rv-longform .faq-answer { padding: 18px; color: var(--text-muted); font-size: 15px; line-height: 1.7; }
+.rv-longform ol.method-list { padding-left: 20px; margin: 8px 0 0; color: var(--text-muted); font-size: 15px; line-height: 1.8; }
+.rv-longform ol.method-list li { margin-bottom: 6px; }
+@media (max-width: 640px) {
+  .rv-longform .stats-grid, .rv-longform .findings-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<section>
+  <div class="container">
+    <h2 id="the-thesis">The Thesis</h2>
+    <p class="lead">India's aerospace industry is structurally bifurcated: it has built a globally competitive Tier-2/3 component base, yet still lacks the <strong>Tier-1 sub-system integration, unified type certification, and serial final-assembly</strong> capabilities needed to produce complete aircraft. Component capability does not automatically aggregate into aircraft capability. Unless these three "missing links" are closed through coordinated institutional reform and capital reallocation inside the 2025&ndash;2027 window, India remains a ~$4.2B component-supplier economy in 2035 &mdash; forfeiting a $21B integrated-aerospace opportunity.</p>
+    <p>The strategic question is no longer whether India can make aerospace parts &mdash; it demonstrably can. It is whether the country can convert a proven component base into integrated, certified, scalable platforms. The 5&times; spread between the bull and bear 2035 outcomes is driven almost entirely by domestic execution on integration and certification, not by exogenous demand.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="key-numbers">Key Numbers</h2>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-val">$42B</div>
+        <div class="stat-label">Total addressable market (2025)</div>
+        <div class="stat-src">Techadyant Model &#9670; IN-001</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">4.2&times;</div>
+        <div class="stat-label">Capital-formation growth, 2015&ndash;2025</div>
+        <div class="stat-src">Techadyant Capital Tracker</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">~600</div>
+        <div class="stat-label">Qualified Tier-2/3 suppliers today</div>
+        <div class="stat-src">Techadyant Supplier Directory</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">4.2 yrs</div>
+        <div class="stat-label">Average policy implementation latency</div>
+        <div class="stat-src">Policy Database Analysis</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">85%</div>
+        <div class="stat-label">Engine demand sourced from 3 countries</div>
+        <div class="stat-src">Supply-Chain Vulnerability Map</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">38%</div>
+        <div class="stat-label">Average PSU programme cost overrun</div>
+        <div class="stat-src">CAG Audit Reports (aggregated)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="key-findings">Key Findings</h2>
+    <div class="findings-grid">
+      <div class="finding-card">
+        <div class="finding-claim">The capability gap is structural, not incremental.</div>
+        <div class="finding-num">Gap exceeds 5 points (0&ndash;10 scale) in 6 of 10 dimensions.</div>
+        <span class="finding-src">Chapter 4 &middot; Capability Maturity Assessment</span>
+      </div>
+      <div class="finding-card">
+        <div class="finding-claim">Type certification is the silent bottleneck.</div>
+        <div class="finding-num">Every indigenous platform delayed 3&ndash;7 years by certification.</div>
+        <span class="finding-src">Chapter 5 &middot; The Missing Links</span>
+      </div>
+      <div class="finding-card">
+        <div class="finding-claim">Capital is available but mis-allocated.</div>
+        <div class="finding-num">Private VC/PE is only 28% of capital vs. a 50%+ benchmark.</div>
+        <span class="finding-src">Chapter 7 &middot; Investment Flows</span>
+      </div>
+      <div class="finding-card">
+        <div class="finding-claim">The propulsion gap is scenario-determinative.</div>
+        <div class="finding-num">Civil propulsion scores 1.5/10 vs. global frontier 9.5/10.</div>
+        <span class="finding-src">Chapter 2 &middot; Value Chain Deconstructed</span>
+      </div>
+      <div class="finding-card">
+        <div class="finding-claim">Tier-2/3 supplier development is the universal multiplier.</div>
+        <div class="finding-num">Bull case scales from ~600 to 2,500 suppliers by 2032.</div>
+        <span class="finding-src">Chapter 5 &middot; Industrial Dependency Matrix</span>
+      </div>
+      <div class="finding-card">
+        <div class="finding-claim">MRO and UAV/eVTOL drive asymmetric returns.</div>
+        <div class="finding-num">Together they account for 88% of bull-case growth.</div>
+        <span class="finding-src">Chapter 3 &middot; Market Sizing &amp; Forecasts</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="the-framework">The Framework</h2>
+    <div class="framework-box">
+      <strong>The Situation&ndash;Complication&ndash;Resolution architecture.</strong> Techadyant Labs evaluates industrial ecosystems through a tripartite lens. The <em>Situation</em> maps the current baseline of capital, policy and capability. The <em>Complication</em> identifies the structural bottlenecks &mdash; the "missing links" &mdash; that prevent baseline inputs from compounding into systemic output. The <em>Resolution</em> prescribes coordinated, parallel interventions across institutional architecture, capital allocation and technology readiness to close the gap within a defined time horizon.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="what-it-means">What It Means</h2>
+    <h3>For policymakers</h3>
+    <p>Incremental policy adjustments will not close the gap; structural institutional reform is required &mdash; specifically a unified National Aerospace Certification Authority (NACA), a $1.5B Aerospace Tier-2/3 Supplier Development Fund, and an aerospace-specific SEZ regime with extended tax holidays. Execution within the 2025&ndash;2027 window is the decisive variable for the 2035 outcome.</p>
+    <h3>For industry (PSUs &amp; private sector)</h3>
+    <p>The existing public-sector architecture cannot deliver the 2035 vision alone. PSUs must re-architect via joint ventures and selective divestment, shifting from monopoly integrators to anchor customers. For the private sector, the highest-value opportunity is not replicating the OEM model but occupying the Tier-1 sub-system integrator layer in avionics, landing gear and composite structures.</p>
+    <h3>For investors</h3>
+    <p>The India aerospace opportunity is real, large and under-capitalised &mdash; but the horizon is 7&ndash;12 years, not 3&ndash;5. Patient capital across five priority surfaces (MRO hub build-out, UAV/drone champions, Tier-2/3 supplier funding, certification-authority build, aerospace workforce) can generate 3&ndash;5&times; returns, with option value in propulsion and eVTOL breakouts offering further upside.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="analytical-figures">Analytical Figures</h2>
+
+    <p>The divergence in India's aerospace trajectory is fundamentally a function of market-capture efficiency. While the Total Addressable Market grows steadily, the Serviceable Obtainable Market &mdash; the revenue Indian industry can realistically capture &mdash; shows a 5&times; spread between the bear and bull scenarios. That spread is not driven by exogenous shocks, but by domestic execution on integration and certification.</p>
+
+    <figure>
+      <svg viewBox="0 0 600 320" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SOM scenarios 2025 to 2035">
+        <line x1="50" y1="280" x2="550" y2="280" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <line x1="50" y1="220" x2="550" y2="220" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+        <line x1="50" y1="160" x2="550" y2="160" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+        <line x1="50" y1="100" x2="550" y2="100" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+        <line x1="50" y1="40" x2="550" y2="40" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+        <text x="40" y="284" fill="#8b8ba7" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="end">$0B</text>
+        <text x="40" y="224" fill="#8b8ba7" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="end">$5B</text>
+        <text x="40" y="164" fill="#8b8ba7" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="end">$10B</text>
+        <text x="40" y="104" fill="#8b8ba7" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="end">$15B</text>
+        <text x="40" y="44" fill="#8b8ba7" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="end">$20B+</text>
+        <rect x="70" y="232" width="60" height="48" fill="#818CF8" rx="2"/>
+        <text x="100" y="225" fill="#F4F4F8" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">$4.0B</text>
+        <text x="100" y="300" fill="#C7C7D2" font-family="'Source Serif 4', serif" font-size="12" text-anchor="middle">2025 Actual</text>
+        <rect x="210" y="229" width="60" height="51" fill="#FB923C" rx="2"/>
+        <text x="240" y="222" fill="#F4F4F8" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">$4.2B</text>
+        <text x="240" y="300" fill="#C7C7D2" font-family="'Source Serif 4', serif" font-size="12" text-anchor="middle">2035 Bear</text>
+        <rect x="350" y="139" width="60" height="141" fill="#F5B544" rx="2"/>
+        <text x="380" y="132" fill="#F4F4F8" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">$11.7B</text>
+        <text x="380" y="300" fill="#C7C7D2" font-family="'Source Serif 4', serif" font-size="12" text-anchor="middle">2035 Base</text>
+        <rect x="490" y="28" width="60" height="252" fill="#00f2ff" rx="2"/>
+        <text x="520" y="21" fill="#F4F4F8" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">$21.0B</text>
+        <text x="520" y="300" fill="#C7C7D2" font-family="'Source Serif 4', serif" font-size="12" text-anchor="middle">2035 Bull</text>
+      </svg>
+      <figcaption>Figure 1 &middot; Serviceable Obtainable Market (SOM) scenarios, 2025&ndash;2035. Source: Techadyant Labs Market Model.</figcaption>
+    </figure>
+
+    <p>The root cause of the SOM divergence lies in sub-system capability maturity. India shows functional competence in airframe structures and testing, but critical deficits in high-control-point sub-systems. The capability-gap matrix below quantifies the disparity against the global frontier (USA, France, UK, Germany, Japan): propulsion and avionics are the deepest structural voids.</p>
+
+    <figure>
+      <svg viewBox="0 0 600 280" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Capability gap matrix for critical sub-systems">
+        <text x="10" y="45" fill="#C7C7D2" font-family="'Source Serif 4', serif" font-size="12" font-weight="600">Propulsion</text>
+        <text x="10" y="105" fill="#C7C7D2" font-family="'Source Serif 4', serif" font-size="12" font-weight="600">Avionics</text>
+        <text x="10" y="165" fill="#C7C7D2" font-family="'Source Serif 4', serif" font-size="12" font-weight="600">Landing Gear</text>
+        <text x="10" y="225" fill="#C7C7D2" font-family="'Source Serif 4', serif" font-size="12" font-weight="600">Final Assembly</text>
+        <rect x="120" y="30" width="388" height="20" fill="rgba(0,242,255,0.18)" rx="2"/>
+        <rect x="120" y="90" width="380" height="20" fill="rgba(0,242,255,0.18)" rx="2"/>
+        <rect x="120" y="150" width="360" height="20" fill="rgba(0,242,255,0.18)" rx="2"/>
+        <rect x="120" y="210" width="360" height="20" fill="rgba(0,242,255,0.18)" rx="2"/>
+        <rect x="120" y="30" width="88" height="20" fill="#FB923C" rx="2"/>
+        <rect x="120" y="90" width="120" height="20" fill="#FB923C" rx="2"/>
+        <rect x="120" y="150" width="140" height="20" fill="#FB923C" rx="2"/>
+        <rect x="120" y="210" width="140" height="20" fill="#FB923C" rx="2"/>
+        <text x="215" y="44" fill="#F4F4F8" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle">2.2 / 9.7</text>
+        <text x="250" y="104" fill="#F4F4F8" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle">3.0 / 9.5</text>
+        <text x="270" y="164" fill="#F4F4F8" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle">3.5 / 9.0</text>
+        <text x="270" y="224" fill="#F4F4F8" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle">3.5 / 9.0</text>
+        <rect x="360" y="250" width="12" height="12" fill="#FB923C" rx="2"/>
+        <text x="378" y="260" fill="#8b8ba7" font-family="'Source Serif 4', serif" font-size="10">India capability</text>
+        <rect x="470" y="250" width="12" height="12" fill="rgba(0,242,255,0.45)" rx="2"/>
+        <text x="488" y="260" fill="#8b8ba7" font-family="'Source Serif 4', serif" font-size="10">Global frontier</text>
+      </svg>
+      <figcaption>Figure 2 &middot; Capability-gap matrix (0&ndash;10 scale) for critical sub-systems. Source: Techadyant Labs Capability Assessment Framework.</figcaption>
+    </figure>
+
+    <p>Closing these gaps requires a fundamental re-allocation of capital. Historically, capital formation has been dominated by government spending and concentrated in Tier-2/3 capacity expansion. The bull case inverts this ratio &mdash; directing private capital toward Tier-1 integrator build-outs and institutional enablers &mdash; lifting total annual capital formation from $4.7B to $13.0B by 2030.</p>
+
+    <figure>
+      <svg viewBox="0 0 600 260" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Capital formation composition 2025 vs 2030 bull target">
+        <rect x="100" y="180" width="80" height="40" fill="#818CF8" rx="2"/>
+        <rect x="100" y="140" width="80" height="40" fill="#00f2ff" rx="2"/>
+        <rect x="100" y="100" width="80" height="40" fill="#F5B544" rx="2"/>
+        <rect x="100" y="85" width="80" height="15" fill="#6b7280" rx="2"/>
+        <text x="140" y="238" fill="#C7C7D2" font-family="'Source Serif 4', serif" font-size="12" text-anchor="middle">2025 Actual</text>
+        <text x="140" y="252" fill="#8b8ba7" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">$4.7B</text>
+        <rect x="350" y="130" width="80" height="90" fill="#818CF8" rx="2"/>
+        <rect x="350" y="60" width="80" height="70" fill="#00f2ff" rx="2"/>
+        <rect x="350" y="10" width="80" height="50" fill="#F5B544" rx="2"/>
+        <rect x="350" y="0" width="80" height="10" fill="#6b7280" rx="2"/>
+        <text x="390" y="238" fill="#C7C7D2" font-family="'Source Serif 4', serif" font-size="12" text-anchor="middle">2030 Bull Target</text>
+        <text x="390" y="252" fill="#8b8ba7" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">$13.0B</text>
+        <rect x="500" y="40" width="12" height="12" fill="#F5B544" rx="2"/>
+        <text x="518" y="50" fill="#8b8ba7" font-family="'Source Serif 4', serif" font-size="10">VC / PE</text>
+        <rect x="500" y="60" width="12" height="12" fill="#00f2ff" rx="2"/>
+        <text x="518" y="70" fill="#8b8ba7" font-family="'Source Serif 4', serif" font-size="10">FDI</text>
+        <rect x="500" y="80" width="12" height="12" fill="#818CF8" rx="2"/>
+        <text x="518" y="90" fill="#8b8ba7" font-family="'Source Serif 4', serif" font-size="10">Government</text>
+        <rect x="500" y="100" width="12" height="12" fill="#6b7280" rx="2"/>
+        <text x="518" y="110" fill="#8b8ba7" font-family="'Source Serif 4', serif" font-size="10">Public Markets</text>
+      </svg>
+      <figcaption>Figure 3 &middot; Capital-formation composition by source, 2025 vs. 2030 bull target. Source: Techadyant Labs Capital Tracker.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="the-numbers-tabulated">The Numbers, Tabulated</h2>
+
+    <h3>Three-scenario outcome comparison (2035)</h3>
+    <table>
+      <thead>
+        <tr><th>Variable</th><th>Bull case</th><th>Base case</th><th>Bear case</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Industry revenue</td><td>$21.0B</td><td>$11.7B</td><td>$4.2B</td></tr>
+        <tr><td>Capability maturity (avg score)</td><td>3.8 / 5.0</td><td>3.0 / 5.0</td><td>2.7 / 5.0</td></tr>
+        <tr><td>Qualified Tier-2/3 suppliers</td><td>2,500</td><td>1,500</td><td>800</td></tr>
+        <tr><td>Aerospace exports</td><td>$5.0B (24% share)</td><td>$2.5B (16% share)</td><td>$0.7B (8% share)</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Top-priority strategic recommendations</h3>
+    <table>
+      <thead>
+        <tr><th>Stakeholder</th><th>Recommendation</th><th>Horizon</th><th>Capital</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Government of India</td><td>Establish National Aerospace Certification Authority (NACA)</td><td>12&ndash;18 months</td><td>$300M (5-yr build-out)</td></tr>
+        <tr><td>Government of India</td><td>Launch $1.5B Aerospace Tier-2/3 Supplier Development Fund</td><td>12 months</td><td>$1.5B (10-yr fund)</td></tr>
+        <tr><td>Public-sector OEMs</td><td>Form 3 strategic propulsion JVs with foreign OEMs</td><td>24 months</td><td>$2.4B (combined)</td></tr>
+        <tr><td>Indian private Tier-1</td><td>Build 5 designated Tier-1 sub-system integrator entities</td><td>36 months</td><td>$3.5B (combined)</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="what-to-watch">What to Watch</h2>
+    <ul class="watch-list">
+      <li><span class="watch-date">Q4 2026</span><span class="watch-text">Operationalisation of the proposed $1.5B Aerospace Tier-2/3 Supplier Development Fund and notification of the aerospace-specific SEZ regime.</span></li>
+      <li><span class="watch-date">Q4 2027</span><span class="watch-text">Statutory establishment and initial operational capability of the National Aerospace Certification Authority (NACA).</span></li>
+      <li><span class="watch-date">2030</span><span class="watch-text">Target operational status of the indigenous AMCA engine and the first two commercial-aircraft Final Assembly Lines (FALs).</span></li>
+      <li><span class="watch-date">2032</span><span class="watch-text">Milestone for scaling the qualified Tier-2/3 supplier base to 2,500 entities and launching a credible civil 70-seater engine programme.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+    <details>
+      <summary>What is the projected size of India's aerospace market by 2035?</summary>
+      <div class="faq-answer">India's aerospace Serviceable Obtainable Market (SOM) is projected to reach $21.0 billion in the bull case, $11.7 billion in the base case, or $4.2 billion in the bear case by 2035. This 5&times; spread is dependent almost entirely on domestic policy execution and capital allocation, not on exogenous market size.</div>
+    </details>
+    <details>
+      <summary>Why can't India produce complete aircraft despite having a component base?</summary>
+      <div class="faq-answer">India lacks three structural "missing links": Tier-1 sub-system integration capability, a unified type certification authority, and serial final-assembly lines. Component manufacturing capability does not automatically aggregate into complete-aircraft capability without these integrating institutions.</div>
+    </details>
+    <details>
+      <summary>What is the average policy implementation latency in India's aerospace sector?</summary>
+      <div class="faq-answer">Implementation latency averages 4.2 years from policy notification to first procurement impact, based on Techadyant Labs' analysis of twelve major policy actions between 2001 and 2025. This latency is the principal execution challenge.</div>
+    </details>
+    <details>
+      <summary>How much capital is required to achieve the bull-case scenario?</summary>
+      <div class="faq-answer">The eight top-priority recommendations require approximately $16.7 billion (&#8377;1.39 lakh crore) of capital deployment over 36 to 60 months. This unlocks the bull-case outcome of additional annual aerospace revenue by 2035.</div>
+    </details>
+    <details>
+      <summary>What is the current capability gap in aerospace propulsion?</summary>
+      <div class="faq-answer">Civil propulsion scores 1.5 out of 10 for India compared to 9.5 for the global frontier &mdash; an 8.0-point gap. Geared-turbofan technology shows a similar 8.0-point gap, making it the single deepest capability deficit in the value chain.</div>
+    </details>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="sources-methodology">Sources &amp; Methodology</h2>
+    <p>This reading edition is derived from the full Tier-1 Strategic Intelligence Report. Primary methodology includes:</p>
+    <ol class="method-list">
+      <li>42 structured expert interviews (PSU executives, private founders, foreign-OEM country managers, MoD/MoCA officials, VC/PE partners, and academic faculty).</li>
+      <li>Triangulated market sizing using Union Budget documents, MoD/MoCA Annual Reports, DPIIT FDI statistics, and SIDM/CAPA industry forecasts.</li>
+      <li>Proprietary Techadyant Labs Capability Assessment Framework (10-dimension, 5-point maturity scale) calibrated against global-frontier benchmarks.</li>
+      <li>27-variable scenario modelling across policy execution, capital formation, capability milestones, supplier base, and export competitiveness.</li>
+    </ol>
+    <p style="margin-top:16px; font-size:14px; color:var(--text-dim);">Evidence labels &mdash; [V] verified &middot; [V1] single-source &middot; [U] unverified &middot; [modelled] analytical projection. Figures are indicative of the full report's models; see the complete edition for source lines and assumptions.</p>
+  </div>
+</section>

@@ -7,6 +7,17 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'india-aerospace-supply-chain-missing-links': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'Aerospace_Strategic_Intelligence_Report.pdf',
+    filename: 'Indias-Aerospace-Supply-Chain-Missing-Links-Techadyant-Labs.pdf',
+    title: 'India’s Aerospace Supply Chain: Missing Links',
+    // Report + Data tier: the aerospace strategic-intelligence workbook. Price authority for the data tier.
+    priceWithDataInr: 11999,
+    dataObject: 'data/Aerospace_Strategic_Intelligence_Report_Workbook.xlsx',
+    dataFilename: 'Indias-Aerospace-Supply-Chain-Missing-Links-Data-Pack-Techadyant-Labs.xlsx',
+  },
   'beyond-solar-panels': {
     access: 'paid',
     priceInr: 6999,
