@@ -14,7 +14,9 @@ import {
 } from '../../graph';
 
 export function generateStaticParams() {
-  return graphEntities.map((entity) => ({ slug: entity.slug }));
+  return graphEntities
+    .filter((entity) => !isPlayerSlug(entity.slug))
+    .map((entity) => ({ slug: entity.slug }));
 }
 
 const clamp = (value: string, length = 158) =>

@@ -10,7 +10,7 @@ const SITE = 'https://labs.techadyant.com';
 // Every indexable page is path-based (static export); query strings are only client-side
 // filters/search (e.g. /research/suppliers?q=…), so blocking `/*?` stops crawl-budget waste
 // on faceted-search URLs that Google was crawling-but-not-indexing (July 2026 GSC finding).
-const DISALLOW = ['/api/', '/*?'];  // JSON BFF + any query-string URL; never block /_next/ assets
+const DISALLOW = ['/api/', '/cdn-cgi/', '/*?'];  // JSON BFF + Cloudflare internal + any query-string URL; never block /_next/ assets
 
 // AI answer-engine crawlers we explicitly welcome (GEO: we WANT to be cited in
 // ChatGPT / Perplexity / Google AI Overviews / Claude answers).

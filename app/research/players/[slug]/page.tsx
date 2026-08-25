@@ -10,7 +10,9 @@ import { MicroFeedback } from '../../../components/MicroFeedback';
 import { RelatedReportsLinks, ENTITY_TO_REPORTS } from '../../report-links';
 
 export function generateStaticParams() {
-  return allPlayers.map((p) => ({ slug: playerSlug(p.id) }));
+  const slugs = allPlayers.map((p) => ({ slug: playerSlug(p.id) }));
+  const ids = allPlayers.filter((p) => p.id !== playerSlug(p.id)).map((p) => ({ slug: p.id }));
+  return [...slugs, ...ids];
 }
 
 const clampDesc = (s: string, n = 158): string => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
@@ -31,6 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   // natural qualifier — the old boilerplate suffix pushed the matched name behind
   // generic words and truncated in the SERP, throttling CTR on page-1 entity queries.
   const ov = PLAYER_SEO[slug];
+  const canonicalSlug = playerSlug(p.id);
   const title = ov?.title || `${p.name} — profile, capabilities & India supply chain`;
   const descRaw = ov?.description || ((p.description && p.description.length >= 110)
     ? p.description
@@ -40,11 +43,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title,
     description,
-    alternates: { canonical: `${SITE}/research/players/${slug}/` },
+    alternates: { canonical: `${SITE}/research/players/${canonicalSlug}/` },
     openGraph: {
       title,
       description,
-      url: `${SITE}/research/players/${slug}/`,
+      url: `${SITE}/research/players/${canonicalSlug}/`,
       type: 'article',
       siteName: 'Techadyant Labs',
       images: [{ url: '/og/default.png', width: 1200, height: 630, alt: title }],

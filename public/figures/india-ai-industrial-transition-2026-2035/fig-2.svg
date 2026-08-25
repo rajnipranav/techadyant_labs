@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 711.36 462.06">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st1 {
+        clip-path: url(#clippath-7);
+      }
+
+      .st2 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st3, .st4 {
+        stroke: #2bc5b4;
+      }
+
+      .st3, .st5, .st6, .st7 {
+        fill: none;
+      }
+
+      .st3, .st6, .st7 {
+        stroke-linecap: square;
+        stroke-linejoin: round;
+        stroke-opacity: .6;
+        stroke-width: 1.2px;
+      }
+
+      .st8, .st9, .st4, .st10, .st11 {
+        fill: #fbf9f4;
+      }
+
+      .st8, .st12, .st13, .st14, .st15, .st16, .st17 {
+        isolation: isolate;
+      }
+
+      .st8, .st13, .st14, .st15 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st8, .st15 {
+        font-size: 10px;
+      }
+
+      .st12, .st13 {
+        font-size: 8px;
+      }
+
+      .st12, .st16, .st17 {
+        fill: #4a5567;
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st4, .st10, .st11 {
+        stroke-width: 1.5px;
+      }
+
+      .st13 {
+        fill: #c0c5cc;
+      }
+
+      .st18 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st6, .st11 {
+        stroke: #c9a84c;
+      }
+
+      .st19 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st20 {
+        clip-path: url(#clippath-8);
+      }
+
+      .st10, .st7 {
+        stroke: #c8443b;
+      }
+
+      .st14 {
+        font-size: 15px;
+      }
+
+      .st14, .st15, .st21 {
+        fill: #0f1828;
+      }
+
+      .st22 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st16 {
+        font-size: 8.5px;
+      }
+
+      .st21 {
+        stroke: #0f1828;
+      }
+
+      .st23 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st17 {
+        font-size: 10.5px;
+      }
+
+      .st24 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st5" x="58.68" y="50.72" width="613.8" height="360.36"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st5" x="58.68" y="50.72" width="613.8" height="360.36"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st5" x="58.68" y="50.72" width="613.8" height="360.36"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st5" x="58.68" y="50.72" width="613.8" height="360.36"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st5" x="58.68" y="50.72" width="613.8" height="360.36"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st5" x="58.68" y="50.72" width="613.8" height="360.36"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st5" x="58.68" y="50.72" width="613.8" height="360.36"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="st5" x="58.68" y="50.72" width="613.8" height="360.36"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="st5" x="58.68" y="50.72" width="613.8" height="360.36"/>
+    </clipPath>
+  </defs>
+  <path class="st9" d="M0,462.06h711.36V0H0v462.06Z"/>
+  <g class="st24">
+    <path class="st6" d="M365.58,230.9L181.44,102.2"/>
+  </g>
+  <g class="st18">
+    <path class="st3" d="M365.58,230.9l184.14-128.7"/>
+  </g>
+  <g class="st23">
+    <path class="st7" d="M365.58,230.9l257.8,51.48"/>
+  </g>
+  <g class="st22">
+    <path class="st6" d="M365.58,230.9v149.29"/>
+  </g>
+  <g class="st2">
+    <path class="st3" d="M365.58,230.9l-257.8,51.48"/>
+  </g>
+  <g class="st19">
+    <path class="st21" d="M365.58,279.8c15.46,0,30.3-5.15,41.23-14.32,10.93-9.17,17.08-21.61,17.08-34.58s-6.14-25.41-17.08-34.58-25.77-14.32-41.23-14.32-30.3,5.15-41.23,14.32-17.08,21.61-17.08,34.58,6.14,25.41,17.08,34.58c10.93,9.17,25.77,14.32,41.23,14.32Z"/>
+  </g>
+  <g class="st0">
+    <path class="st11" d="M120.06,133.09h122.76c2.05,0,3.07-.86,3.07-2.57v-56.63c0-1.72-1.02-2.57-3.07-2.57h-122.76c-2.05,0-3.07.86-3.07,2.57v56.63c0,1.72,1.02,2.57,3.07,2.57Z"/>
+  </g>
+  <text class="st15" transform="translate(139.77 90.05)"><tspan x="0" y="0">Infrastructure-</tspan></text>
+  <text class="st15" transform="translate(146.3 101.25)"><tspan x="0" y="0">capital cycle</tspan></text>
+  <text class="st16" transform="translate(140.53 114.2)"><tspan x="0" y="0">$50B+ hyperscaler</tspan></text>
+  <text class="st16" transform="translate(121.74 123.72)"><tspan x="0" y="0">commitments through 2030</tspan></text>
+  <g class="st1">
+    <path class="st4" d="M488.34,133.09h122.76c2.05,0,3.07-.86,3.07-2.57v-56.63c0-1.72-1.02-2.57-3.07-2.57h-122.76c-2.05,0-3.07.86-3.07,2.57v56.63c0,1.72,1.02,2.57,3.07,2.57Z"/>
+  </g>
+  <text class="st15" transform="translate(507.45 90.05)"><tspan x="0" y="0">Semiconductor</tspan></text>
+  <text class="st15" transform="translate(500.15 101.25)"><tspan x="0" y="0">sovereignty drive</tspan></text>
+  <text class="st16" transform="translate(514.15 114.2)"><tspan x="0" y="0">ISM 12 projects /</tspan></text>
+  <text class="st16" transform="translate(493.99 123.72)"><tspan x="0" y="0">Rs 1.64L crore announced</tspan></text>
+  <rect class="st5" x="58.68" y="50.72" width="613.8" height="360.36"/>
+  <path class="st10" d="M562,313.27h122.76c2.05,0,3.07-.86,3.07-2.57v-56.63c0-1.72-1.02-2.57-3.07-2.57h-122.76c-2.05,0-3.07.86-3.07,2.57v56.63c0,1.72,1.02,2.57,3.07,2.57Z"/>
+  <text class="st15" transform="translate(580.61 270.27)"><tspan x="0" y="0">Grid-and-water</tspan></text>
+  <text class="st15" transform="translate(594.55 281.47)"><tspan x="0" y="0">constraint</tspan></text>
+  <text class="st16" transform="translate(579.43 294.38)"><tspan x="0" y="0">13→57 TWh by 2030</tspan></text>
+  <text class="st16" transform="translate(567.58 303.9)"><tspan x="0" y="0">on over-exploited aquifers</tspan></text>
+  <g class="st20">
+    <path class="st11" d="M304.2,411.08h122.76c2.05,0,3.07-.86,3.07-2.57v-56.63c0-1.72-1.02-2.57-3.07-2.57h-122.76c-2.05,0-3.07.86-3.07,2.57v56.63c0,1.72,1.02,2.57,3.07,2.57Z"/>
+  </g>
+  <text class="st15" transform="translate(320.11 368.05)"><tspan x="0" y="0">Regional capital</tspan></text>
+  <text class="st15" transform="translate(329.97 379.32)"><tspan x="0" y="0">re-allocation</tspan></text>
+  <text class="st16" transform="translate(306.89 392.19)"><tspan x="0" y="0">Seven competing corridors,</tspan></text>
+  <text class="st16" transform="translate(328.3 401.71)"><tspan x="0" y="0">five state policies</tspan></text>
+  <path class="st4" d="M46.4,313.27h122.76c2.05,0,3.07-.86,3.07-2.57v-56.63c0-1.72-1.02-2.57-3.07-2.57H46.4c-2.05,0-3.07.86-3.07,2.57v56.63c0,1.72,1.02,2.57,3.07,2.57Z"/>
+  <text class="st15" transform="translate(78.79 270.27)"><tspan x="0" y="0">Workforce</tspan></text>
+  <text class="st15" transform="translate(63.22 281.47)"><tspan x="0" y="0">re-stratification</tspan></text>
+  <text class="st16" transform="translate(62.64 294.38)"><tspan x="0" y="0">Tier-1 services −42k;</tspan></text>
+  <text class="st16" transform="translate(74.62 303.9)"><tspan x="0" y="0">GCC +110/year</tspan></text>
+  <text class="st8" transform="translate(346.99 216.86)"><tspan x="0" y="0">India&apos;s</tspan></text>
+  <text class="st8" transform="translate(330.92 228.06)"><tspan x="0" y="0">AI Industrial</tspan></text>
+  <text class="st8" transform="translate(337.53 239.26)"><tspan x="0" y="0">Transition</tspan></text>
+  <text class="st8" transform="translate(335.25 250.45)"><tspan x="0" y="0">2026–2035</tspan></text>
+  <text class="st14" transform="translate(7.2 24.68)"><tspan x="0" y="0">Five forces shaping India&apos;s AI transition (2026–2035)</tspan></text>
+  <text class="st17" transform="translate(7.2 43)"><tspan x="0" y="0">Each force operates concurrently; the interaction effects are the subject of Parts II–VIII</tspan></text>
+  <text class="st13" transform="translate(569.6 13.28)"><tspan x="0" y="0">Figure 2 · Techadyant Labs · 2026</tspan></text>
+  <text class="st12" transform="translate(7.2 453.2)"><tspan x="0" y="0">Source: Techadyant Labs framework.</tspan></text>
+</svg>

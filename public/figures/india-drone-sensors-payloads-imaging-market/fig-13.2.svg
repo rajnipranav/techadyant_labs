@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="900" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Where to Place the Bets</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Opportunity prioritisation matrix · impact vs. ease of execution</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 13.2 &#183; Techadyant Labs &#183; 2026</text>
+<defs><marker id="au" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#0F1828"/></marker></defs><rect x="870.0" y="180" width="450.0" height="280.0" rx="0" fill="rgba(43,197,180,0.14)"/>
+<rect x="420" y="180" width="450.0" height="280.0" rx="0" fill="rgba(201,168,76,0.14)"/>
+<rect x="870.0" y="460.0" width="450.0" height="280.0" rx="0" fill="rgba(15,24,40,0.05)"/>
+<rect x="420" y="460.0" width="450.0" height="280.0" rx="0" fill="rgba(200,68,59,0.08)"/>
+<rect x="420" y="180" width="900" height="560" fill="none" stroke="rgba(15,24,40,0.3)" stroke-width="2"/>
+<line x1="870.0" y1="180" x2="870.0" y2="740" stroke="rgba(15,24,40,0.3)" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="420" y1="460.0" x2="1320" y2="460.0" stroke="rgba(15,24,40,0.3)" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="390" y1="740" x2="390" y2="170" stroke="#0F1828" stroke-width="2.5" marker-end="url(#au)"/>
+<line x1="390" y1="740" x2="1330" y2="740" stroke="#0F1828" stroke-width="2.5" marker-end="url(#au)"/>
+<text x="362" y="460.0" font-size="20" font-weight="700" fill="#0F1828" text-anchor="middle" transform="rotate(-90 362 460.0)">Impact (size + growth + margin)</text>
+<text x="870.0" y="776" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">Ease of execution (time + capital + regulation + competition)</text>
+<text x="428" y="776" font-size="15" fill="#4A5567" text-anchor="start">Low</text>
+<text x="1312" y="776" font-size="15" fill="#4A5567" text-anchor="end">High</text>
+<text x="894.0" y="218" font-size="18" fill="#2BC5B4" text-anchor="start" font-weight="700">PRIORITY 1 · ACT NOW</text>
+<text x="894.0" y="242" font-size="14" fill="#4A5567" text-anchor="start" font-style="italic">High impact · high ease</text>
+<circle cx="900.0" cy="270" r="4" fill="#2BC5B4"/>
+<text x="914.0" y="276" font-size="16" fill="#0F1828" text-anchor="start">LiDAR integration (infra/mining)</text>
+<circle cx="900.0" cy="300" r="4" fill="#2BC5B4"/>
+<text x="914.0" y="306" font-size="16" fill="#0F1828" text-anchor="start">Germanium-free thermal (Eon)</text>
+<circle cx="900.0" cy="330" r="4" fill="#2BC5B4"/>
+<text x="914.0" y="336" font-size="16" fill="#0F1828" text-anchor="start">Multispectral agri (Drone Shakti)</text>
+<circle cx="900.0" cy="360" r="4" fill="#2BC5B4"/>
+<text x="914.0" y="366" font-size="16" fill="#0F1828" text-anchor="start">Sensor fusion software</text>
+<circle cx="900.0" cy="390" r="4" fill="#2BC5B4"/>
+<text x="914.0" y="396" font-size="16" fill="#0F1828" text-anchor="start">PaaS subscription models</text>
+<text x="444" y="218" font-size="18" fill="#C9A84C" text-anchor="start" font-weight="700">PRIORITY 2 · BUILD FOR FUTURE</text>
+<text x="444" y="242" font-size="14" fill="#4A5567" text-anchor="start" font-style="italic">High impact · low ease</text>
+<circle cx="450" cy="270" r="4" fill="#C9A84C"/>
+<text x="464" y="276" font-size="16" fill="#0F1828" text-anchor="start">BVLOS sense-and-avoid radar</text>
+<circle cx="450" cy="300" r="4" fill="#C9A84C"/>
+<text x="464" y="306" font-size="16" fill="#0F1828" text-anchor="start">Swarm drone sensors</text>
+<circle cx="450" cy="330" r="4" fill="#C9A84C"/>
+<text x="464" y="336" font-size="16" fill="#0F1828" text-anchor="start">Hyperspectral miniaturisation</text>
+<circle cx="450" cy="360" r="4" fill="#C9A84C"/>
+<text x="464" y="366" font-size="16" fill="#0F1828" text-anchor="start">MEMS IMU domestic fab</text>
+<text x="894.0" y="498.0" font-size="18" fill="#4A5567" text-anchor="start" font-weight="700">PRIORITY 3 · MAINTAIN</text>
+<text x="894.0" y="522.0" font-size="14" fill="#4A5567" text-anchor="start" font-style="italic">Low impact · high ease</text>
+<circle cx="900.0" cy="550.0" r="4" fill="#4A5567"/>
+<text x="914.0" y="556.0" font-size="16" fill="#0F1828" text-anchor="start">RTK GNSS module assembly</text>
+<circle cx="900.0" cy="580.0" r="4" fill="#4A5567"/>
+<text x="914.0" y="586.0" font-size="16" fill="#0F1828" text-anchor="start">Sensor calibration services</text>
+<circle cx="900.0" cy="610.0" r="4" fill="#4A5567"/>
+<text x="914.0" y="616.0" font-size="16" fill="#0F1828" text-anchor="start">IMU module assembly</text>
+<text x="444" y="498.0" font-size="18" fill="#C8443B" text-anchor="start" font-weight="700">PRIORITY 4 · AVOID</text>
+<text x="444" y="522.0" font-size="14" fill="#4A5567" text-anchor="start" font-style="italic">Low impact · low ease</text>
+<circle cx="450" cy="550.0" r="4" fill="#C8443B"/>
+<text x="464" y="556.0" font-size="16" fill="#0F1828" text-anchor="start">Environmental sensors (baro, mag)</text>
+<circle cx="450" cy="580.0" r="4" fill="#C8443B"/>
+<text x="464" y="586.0" font-size="16" fill="#0F1828" text-anchor="start">Consumer drone sensors</text>
+<text x="60" y="872" font-size="15" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+<text x="1540" y="872" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

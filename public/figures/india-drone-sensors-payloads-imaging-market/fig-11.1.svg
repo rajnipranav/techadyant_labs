@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="900" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Margin Climbs as Drones Shift to Data</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Business-model evolution of India&#x27;s drone sensor economy, pre-2021 to 2030 · gross-margin band per phase</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 11.1 &#183; Techadyant Labs &#183; 2026</text>
+<line x1="110" y1="168" x2="1490.0" y2="168" stroke="rgba(15,24,40,0.25)" stroke-width="3"/>
+<circle cx="300.0" cy="168" r="9" fill="#E8E5DD" stroke="#0F1828" stroke-width="2"/>
+<rect x="70.0" y="200" width="460.0" height="470" rx="14" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.5"/>
+<rect x="70.0" y="200" width="460.0" height="64" rx="14" fill="rgba(15,24,40,0.12)"/>
+<rect x="70.0" y="230" width="460.0" height="34" rx="10" fill="rgba(15,24,40,0.12)"/>
+<text x="94.0" y="230" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">PHASE 1 · Pre-2021</text>
+<text x="94.0" y="254" font-size="22" fill="#0F1828" text-anchor="start" font-weight="700">HARDWARE-CENTRIC</text>
+<text x="94.0" y="308" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Pricing model</text>
+<text x="94.0" y="332" font-size="17" fill="#0F1828" text-anchor="start">One-time hardware sale</text>
+<text x="94.0" y="378" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Value capture</text>
+<text x="94.0" y="402" font-size="16" fill="#0F1828" text-anchor="start">Hardware margin; limited</text>
+<text x="94.0" y="424" font-size="16" fill="#0F1828" text-anchor="start">recurring</text>
+<text x="94.0" y="466" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Sensor role</text>
+<text x="94.0" y="488" font-size="16" fill="#0F1828" text-anchor="start">Component of sale</text>
+<text x="94.0" y="584" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Gross margin profile</text>
+<rect x="94.0" y="598" width="412.0" height="26" rx="6" fill="rgba(15,24,40,0.08)"/>
+<rect x="94.0" y="598" width="82.4" height="26" rx="6" fill="rgba(201,168,76,0.6)"/>
+<text x="506.0" y="584" font-size="22" fill="#0F1828" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">15-25%</text>
+<circle cx="800.0" cy="168" r="9" fill="#C9A84C" stroke="#0F1828" stroke-width="2"/>
+<rect x="570.0" y="200" width="460.0" height="470" rx="14" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.5"/>
+<rect x="570.0" y="200" width="460.0" height="64" rx="14" fill="#C9A84C"/>
+<rect x="570.0" y="230" width="460.0" height="34" rx="10" fill="#C9A84C"/>
+<text x="594.0" y="230" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">PHASE 2 · 2021-2024</text>
+<text x="594.0" y="254" font-size="22" fill="#0F1828" text-anchor="start" font-weight="700">DaaS EMERGES</text>
+<text x="594.0" y="308" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Pricing model</text>
+<text x="594.0" y="332" font-size="17" fill="#0F1828" text-anchor="start">Pay-per-use (INR/acre, INR/hr)</text>
+<text x="594.0" y="378" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Value capture</text>
+<text x="594.0" y="402" font-size="16" fill="#0F1828" text-anchor="start">Service margin; fleet</text>
+<text x="594.0" y="424" font-size="16" fill="#0F1828" text-anchor="start">utilisation</text>
+<text x="594.0" y="466" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Sensor role</text>
+<text x="594.0" y="488" font-size="16" fill="#0F1828" text-anchor="start">Enabler of service</text>
+<text x="594.0" y="584" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Gross margin profile</text>
+<rect x="594.0" y="598" width="412.0" height="26" rx="6" fill="rgba(15,24,40,0.08)"/>
+<rect x="594.0" y="598" width="236.9" height="26" rx="6" fill="#C9A84C"/>
+<text x="1006.0" y="584" font-size="22" fill="#0F1828" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">50-65%</text>
+<circle cx="1300.0" cy="168" r="9" fill="#2BC5B4" stroke="#0F1828" stroke-width="2"/>
+<rect x="1070.0" y="200" width="460.0" height="470" rx="14" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.5"/>
+<rect x="1070.0" y="200" width="460.0" height="64" rx="14" fill="#2BC5B4"/>
+<rect x="1070.0" y="230" width="460.0" height="34" rx="10" fill="#2BC5B4"/>
+<text x="1094.0" y="230" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">PHASE 3 · 2024-Present</text>
+<text x="1094.0" y="254" font-size="22" fill="#0F1828" text-anchor="start" font-weight="700">DATA MONETISATION</text>
+<text x="1094.0" y="308" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Pricing model</text>
+<text x="1094.0" y="332" font-size="17" fill="#0F1828" text-anchor="start">Subscription (INR/month) data</text>
+<text x="1094.0" y="378" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Value capture</text>
+<text x="1094.0" y="402" font-size="16" fill="#0F1828" text-anchor="start">Data margin; high recurring</text>
+<text x="1094.0" y="444" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Sensor role</text>
+<text x="1094.0" y="466" font-size="16" fill="#0F1828" text-anchor="start">Data-generation asset</text>
+<text x="1094.0" y="584" font-size="14" fill="#4A5567" text-anchor="start" font-weight="700">Gross margin profile</text>
+<rect x="1094.0" y="598" width="412.0" height="26" rx="6" fill="rgba(15,24,40,0.08)"/>
+<rect x="1094.0" y="598" width="319.3" height="26" rx="6" fill="#2BC5B4"/>
+<text x="1506.0" y="584" font-size="22" fill="#0F1828" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">70-85%</text>
+<rect x="70" y="696" width="1460.0" height="120" rx="14" fill="rgba(201,168,76,0.12)" stroke="#C9A84C" stroke-width="2"/>
+<rect x="70" y="696" width="8" height="120" rx="4" fill="#C9A84C"/>
+<text x="98" y="730" font-size="20" fill="#0F1828" text-anchor="start" font-weight="700">PHASE 4 (2026-2030) EMERGING — Integrated solutions &amp; outcome-based pricing</text>
+<circle cx="104" cy="756" r="3.5" fill="#C9A84C"/>
+<text x="118" y="761" font-size="16" fill="#0F1828" text-anchor="start">Full-stack bundles (hardware + software + analytics + maintenance)</text>
+<circle cx="104" cy="778" r="3.5" fill="#C9A84C"/>
+<text x="118" y="783" font-size="16" fill="#0F1828" text-anchor="start">Outcome-based pricing (INR/tonne measured, INR/km inspected, INR/ha sprayed)</text>
+<circle cx="104" cy="800" r="3.5" fill="#C9A84C"/>
+<text x="118" y="805" font-size="16" fill="#0F1828" text-anchor="start">Sensor-as-a-Service (hardware subscription) · platform ecosystems</text>
+<text x="1506.0" y="794" font-size="15" fill="#C9A84C" text-anchor="end" font-weight="700">Margin: 70-85% (software/data) · 40-50% (integrated hw)</text>
+<text x="60" y="872" font-size="15" fill="#4A5567">Source: Techadyant Labs analysis.</text>
+<text x="1540" y="872" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

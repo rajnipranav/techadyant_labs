@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 785" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="785" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">From Regulatory Vacuum to Commercial Scaling</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">India drone regulation, 2014-2026, with sensor-demand implications</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 6.1 &#183; Techadyant Labs &#183; 2026</text>
+<rect x="70.0" y="150" width="486.66666666666663" height="42" rx="6" fill="rgba(200,68,59,0.18)"/>
+<text x="313.3333333333333" y="177" font-size="16" fill="#C8443B" text-anchor="middle" font-weight="700">Vacuum</text>
+<rect x="556.6666666666666" y="150" width="365.0000000000001" height="42" rx="6" fill="rgba(201,168,76,0.18)"/>
+<text x="739.1666666666667" y="177" font-size="16" fill="#C9A84C" text-anchor="middle" font-weight="700">Restrictive</text>
+<rect x="921.6666666666667" y="150" width="365.0" height="42" rx="6" fill="rgba(43,197,180,0.16)"/>
+<text x="1104.1666666666667" y="177" font-size="16" fill="#2BC5B4" text-anchor="middle" font-weight="700">Liberalising</text>
+<rect x="1286.6666666666667" y="150" width="243.33333333333326" height="42" rx="6" fill="rgba(43,197,180,0.28)"/>
+<text x="1408.3333333333335" y="177" font-size="16" fill="#0F1828" text-anchor="middle" font-weight="700">Mature / scaling</text>
+<line x1="70" y1="240" x2="1530" y2="240" stroke="rgba(15,24,40,0.4)" stroke-width="3"/>
+<line x1="70.0" y1="234" x2="70.0" y2="246" stroke="rgba(15,24,40,0.4)" stroke-width="2"/>
+<text x="70.0" y="224" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2014</text>
+<line x1="313.3333333333333" y1="234" x2="313.3333333333333" y2="246" stroke="rgba(15,24,40,0.4)" stroke-width="2"/>
+<text x="313.3333333333333" y="224" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2016</text>
+<line x1="556.6666666666666" y1="234" x2="556.6666666666666" y2="246" stroke="rgba(15,24,40,0.4)" stroke-width="2"/>
+<text x="556.6666666666666" y="224" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2018</text>
+<line x1="800.0" y1="234" x2="800.0" y2="246" stroke="rgba(15,24,40,0.4)" stroke-width="2"/>
+<text x="800.0" y="224" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2020</text>
+<line x1="1043.3333333333333" y1="234" x2="1043.3333333333333" y2="246" stroke="rgba(15,24,40,0.4)" stroke-width="2"/>
+<text x="1043.3333333333333" y="224" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2022</text>
+<line x1="1286.6666666666667" y1="234" x2="1286.6666666666667" y2="246" stroke="rgba(15,24,40,0.4)" stroke-width="2"/>
+<text x="1286.6666666666667" y="224" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2024</text>
+<line x1="1530.0" y1="234" x2="1530.0" y2="246" stroke="rgba(15,24,40,0.4)" stroke-width="2"/>
+<text x="1530.0" y="224" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2026</text>
+<circle cx="70.0" cy="240" r="9" fill="#4A5567" stroke="#FBF9F4" stroke-width="2.5"/>
+<circle cx="556.6666666666666" cy="240" r="9" fill="#C9A84C" stroke="#FBF9F4" stroke-width="2.5"/>
+<circle cx="921.6666666666667" cy="240" r="9" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2.5"/>
+<circle cx="921.6666666666667" cy="240" r="9" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2.5"/>
+<circle cx="1043.3333333333333" cy="240" r="9" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2.5"/>
+<circle cx="1165.0" cy="240" r="9" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2.5"/>
+<circle cx="1286.6666666666667" cy="240" r="9" fill="#2BC5B4" stroke="#FBF9F4" stroke-width="2.5"/>
+<circle cx="1408.3333333333333" cy="240" r="9" fill="#0F1828" stroke="#FBF9F4" stroke-width="2.5"/>
+<circle cx="1530.0" cy="240" r="9" fill="#0F1828" stroke="#FBF9F4" stroke-width="2.5"/>
+<rect x="70" y="290" width="710.0" height="70" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.2"/>
+<rect x="70" y="290" width="10" height="70" rx="0" fill="#4A5567"/>
+<text x="96" y="320" font-size="20" fill="#4A5567" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2014</text>
+<text x="174" y="320" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">Pre-reg</text>
+<text x="96" y="346" font-size="15" fill="#4A5567" text-anchor="start">Regulatory vacuum - drones legally ambiguous under Aircraft Act 1934.</text>
+<rect x="70" y="374" width="710.0" height="70" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.2"/>
+<rect x="70" y="374" width="10" height="70" rx="0" fill="#2BC5B4"/>
+<text x="96" y="404" font-size="20" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2021</text>
+<text x="174" y="404" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">Drone Rules</text>
+<text x="96" y="430" font-size="15" fill="#4A5567" text-anchor="start">Drone Rules liberalise: prior approval removed, UIN simplified - sensor demand accelerates.</text>
+<rect x="70" y="458" width="710.0" height="70" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.2"/>
+<rect x="70" y="458" width="10" height="70" rx="0" fill="#2BC5B4"/>
+<text x="96" y="488" font-size="20" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2022</text>
+<text x="174" y="488" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">Digital Sky</text>
+<text x="96" y="514" font-size="15" fill="#4A5567" text-anchor="start">Platform live; remote ID &amp; tracking drive GNSS / comms sensor demand.</text>
+<rect x="70" y="542" width="710.0" height="70" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.2"/>
+<rect x="70" y="542" width="10" height="70" rx="0" fill="#2BC5B4"/>
+<text x="96" y="572" font-size="20" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2024</text>
+<text x="174" y="572" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">Drone Shakti</text>
+<text x="96" y="598" font-size="15" fill="#4A5567" text-anchor="start">Agri subsidies drive multispectral &amp; spraying-sensor demand.</text>
+<rect x="70" y="626" width="710.0" height="70" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.2"/>
+<rect x="70" y="626" width="10" height="70" rx="0" fill="#0F1828"/>
+<text x="96" y="656" font-size="20" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2026</text>
+<text x="174" y="656" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">ideaForge cert</text>
+<text x="96" y="682" font-size="15" fill="#4A5567" text-anchor="start">Q6 V2 GEO Type Certification - template for sensor-payload certification.</text>
+<rect x="810.0" y="290" width="710.0" height="70" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.2"/>
+<rect x="810.0" y="290" width="10" height="70" rx="0" fill="#C9A84C"/>
+<text x="836.0" y="320" font-size="20" fill="#C9A84C" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2018</text>
+<text x="914.0" y="320" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">CAR 2018</text>
+<text x="836.0" y="346" font-size="15" fill="#4A5567" text-anchor="start">DGCA CAR sets drone categories (Nano-Large) - foundation for sensor BOM.</text>
+<rect x="810.0" y="374" width="710.0" height="70" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.2"/>
+<rect x="810.0" y="374" width="10" height="70" rx="0" fill="#2BC5B4"/>
+<text x="836.0" y="404" font-size="20" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2021</text>
+<text x="914.0" y="404" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">PLI scheme</text>
+<text x="836.0" y="430" font-size="15" fill="#4A5567" text-anchor="start">PLI announced - domestic sensor integration incentivised.</text>
+<rect x="810.0" y="458" width="710.0" height="70" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.2"/>
+<rect x="810.0" y="458" width="10" height="70" rx="0" fill="#2BC5B4"/>
+<text x="836.0" y="488" font-size="20" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2023</text>
+<text x="914.0" y="488" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">BVLOS pilots</text>
+<text x="836.0" y="514" font-size="15" fill="#4A5567" text-anchor="start">First BVLOS pilots demonstrate need for redundant sensors &amp; obstacle avoidance.</text>
+<rect x="810.0" y="542" width="710.0" height="70" rx="10" fill="#FFFFFF" stroke="rgba(15,24,40,0.15)" stroke-width="1.2"/>
+<rect x="810.0" y="542" width="10" height="70" rx="0" fill="#0F1828"/>
+<text x="836.0" y="572" font-size="20" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2025</text>
+<text x="914.0" y="572" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">Civil Drone Bill</text>
+<text x="836.0" y="598" font-size="15" fill="#4A5567" text-anchor="start">Draft Bill published - continuity of the liberalisation trend.</text>
+<text x="60" y="757" font-size="15" fill="#4A5567">Source: DGCA; Drone Rules 2021; PIB; MoCA. Techadyant Labs analysis.</text>
+</svg>

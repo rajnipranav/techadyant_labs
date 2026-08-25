@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="900" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">India&#x27;s Sensor Capability Gap</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">India 2026 vs global leader, capability score 1-5, by sensor dimension (N=8)</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 7.2 &#183; Techadyant Labs &#183; 2026</text>
+<text x="60" y="150" font-size="22" fill="#4A5567" text-anchor="start">On a 1-5 capability scale, India trails on hardware but leads on germanium-free EO/IR optics</text>
+<rect x="520" y="200" width="720" height="560" rx="10" fill="#FFFFFF" stroke="rgba(74,85,103,0.15)" stroke-width="1"/>
+<line x1="520.0" y1="200" x2="520.0" y2="760" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="520.0" y="786" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">1</text>
+<line x1="700.0" y1="200" x2="700.0" y2="760" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="700.0" y="786" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">2</text>
+<line x1="880.0" y1="200" x2="880.0" y2="760" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="880.0" y="786" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">3</text>
+<line x1="1060.0" y1="200" x2="1060.0" y2="760" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="1060.0" y="786" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">4</text>
+<line x1="1240.0" y1="200" x2="1240.0" y2="760" stroke="rgba(74,85,103,0.12)" stroke-width="1"/>
+<text x="1240.0" y="786" font-size="16" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">5</text>
+<text x="520" y="810" font-size="14" fill="#4A5567" text-anchor="start" font-family="'JetBrains Mono','Courier New',monospace">1 = negligible</text>
+<text x="1240" y="810" font-size="14" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">5 = world-leading</text>
+<text x="60" y="252" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">LiDAR scanner engines</text>
+<text x="60" y="274" font-size="14" fill="#4A5567" text-anchor="start">leader: China / US</text>
+<line x1="520.0" y1="252" x2="1240.0" y2="252" stroke="rgba(74,85,103,0.35)" stroke-width="3"/>
+<circle cx="1240.0" cy="252" r="11" fill="#0F1828"/>
+<circle cx="520.0" cy="252" r="11" fill="#C8443B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="880.0" y="236" font-size="14" fill="#C8443B" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">gap 4</text>
+<rect x="1300" y="234" width="210" height="38" rx="8" fill="rgba(200,68,59,0.16)" stroke="#C8443B" stroke-width="1.2"/>
+<text x="1405" y="258" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Priority 5 (highest)</text>
+<text x="60" y="318" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">Thermal detector arrays</text>
+<text x="60" y="340" font-size="14" fill="#4A5567" text-anchor="start">leader: USA / Israel</text>
+<line x1="700.0" y1="318" x2="1240.0" y2="318" stroke="rgba(74,85,103,0.35)" stroke-width="3"/>
+<circle cx="1240.0" cy="318" r="11" fill="#0F1828"/>
+<circle cx="700.0" cy="318" r="11" fill="#C8443B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="970.0" y="302" font-size="14" fill="#C8443B" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">gap 3</text>
+<rect x="1300" y="300" width="210" height="38" rx="8" fill="rgba(200,68,59,0.16)" stroke="#C8443B" stroke-width="1.2"/>
+<text x="1405" y="324" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Priority 4 (high)</text>
+<text x="60" y="384" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">MEMS IMU chips</text>
+<text x="60" y="406" font-size="14" fill="#4A5567" text-anchor="start">leader: Europe / US</text>
+<line x1="520.0" y1="384" x2="1060.0" y2="384" stroke="rgba(74,85,103,0.35)" stroke-width="3"/>
+<circle cx="1060.0" cy="384" r="11" fill="#0F1828"/>
+<circle cx="520.0" cy="384" r="11" fill="#C8443B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="790.0" y="368" font-size="14" fill="#C8443B" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">gap 3</text>
+<rect x="1300" y="366" width="210" height="38" rx="8" fill="rgba(200,68,59,0.16)" stroke="#C8443B" stroke-width="1.2"/>
+<text x="1405" y="390" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Priority 4 (high)</text>
+<text x="60" y="450" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">Drone-scale radar</text>
+<text x="60" y="472" font-size="14" fill="#4A5567" text-anchor="start">leader: Israel / US</text>
+<line x1="700.0" y1="450" x2="1060.0" y2="450" stroke="rgba(74,85,103,0.35)" stroke-width="3"/>
+<circle cx="1060.0" cy="450" r="11" fill="#0F1828"/>
+<circle cx="700.0" cy="450" r="11" fill="#C8443B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="880.0" y="434" font-size="14" fill="#C8443B" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">gap 2</text>
+<rect x="1300" y="432" width="210" height="38" rx="8" fill="rgba(200,68,59,0.16)" stroke="#C8443B" stroke-width="1.2"/>
+<text x="1405" y="456" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Priority 4 (high)</text>
+<text x="60" y="516" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">GNSS receiver ICs</text>
+<text x="60" y="538" font-size="14" fill="#4A5567" text-anchor="start">leader: US / Taiwan</text>
+<line x1="700.0" y1="516" x2="1060.0" y2="516" stroke="rgba(74,85,103,0.35)" stroke-width="3"/>
+<circle cx="1060.0" cy="516" r="11" fill="#0F1828"/>
+<circle cx="700.0" cy="516" r="11" fill="#C8443B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="880.0" y="500" font-size="14" fill="#C8443B" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">gap 2</text>
+<rect x="1300" y="498" width="210" height="38" rx="8" fill="rgba(201,168,76,0.16)" stroke="#C9A84C" stroke-width="1.2"/>
+<text x="1405" y="522" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Priority 3 (med)</text>
+<text x="60" y="582" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">Multispectral filter arrays</text>
+<text x="60" y="604" font-size="14" fill="#4A5567" text-anchor="start">leader: Europe</text>
+<line x1="520.0" y1="582" x2="1060.0" y2="582" stroke="rgba(74,85,103,0.35)" stroke-width="3"/>
+<circle cx="1060.0" cy="582" r="11" fill="#0F1828"/>
+<circle cx="520.0" cy="582" r="11" fill="#C8443B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="790.0" y="566" font-size="14" fill="#C8443B" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">gap 3</text>
+<rect x="1300" y="564" width="210" height="38" rx="8" fill="rgba(201,168,76,0.16)" stroke="#C9A84C" stroke-width="1.2"/>
+<text x="1405" y="588" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Priority 3 (med)</text>
+<text x="60" y="648" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">Sensor-fusion software</text>
+<text x="60" y="670" font-size="14" fill="#4A5567" text-anchor="start">leader: US / China</text>
+<line x1="880.0" y1="648" x2="1060.0" y2="648" stroke="rgba(74,85,103,0.35)" stroke-width="3"/>
+<circle cx="1060.0" cy="648" r="11" fill="#0F1828"/>
+<circle cx="880.0" cy="648" r="11" fill="#C8443B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="970.0" y="632" font-size="14" fill="#C8443B" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">gap 1</text>
+<rect x="1300" y="630" width="210" height="38" rx="8" fill="rgba(43,197,180,0.16)" stroke="#2BC5B4" stroke-width="1.2"/>
+<text x="1405" y="654" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Priority 2 (low)</text>
+<text x="60" y="714" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">EO/IR optics (Ge-free)</text>
+<text x="60" y="736" font-size="14" fill="#4A5567" text-anchor="start">leader: India leads</text>
+<line x1="880.0" y1="714" x2="1060.0" y2="714" stroke="rgba(74,85,103,0.35)" stroke-width="3"/>
+<circle cx="880.0" cy="714" r="11" fill="#0F1828"/>
+<circle cx="1060.0" cy="714" r="11" fill="#2BC5B4" stroke="#FFFFFF" stroke-width="2"/>
+<text x="970.0" y="698" font-size="14" fill="#2BC5B4" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">+1 lead</text>
+<rect x="1300" y="696" width="210" height="38" rx="8" fill="rgba(200,68,59,0.16)" stroke="#C8443B" stroke-width="1.2"/>
+<text x="1405" y="720" font-size="15" fill="#0F1828" text-anchor="middle" font-weight="700">Priority 5 (highest)</text>
+<circle cx="80" cy="848" r="9" fill="#C8443B"/>
+<text x="96" y="854" font-size="16" fill="#4A5567" text-anchor="start">India 2026</text>
+<circle cx="240" cy="848" r="9" fill="#2BC5B4"/>
+<text x="256" y="854" font-size="16" fill="#4A5567" text-anchor="start">India leads</text>
+<circle cx="400" cy="848" r="9" fill="#0F1828"/>
+<text x="416" y="854" font-size="16" fill="#4A5567" text-anchor="start">Global leader</text>
+<text x="60" y="872" font-size="15" fill="#4A5567">Source: Industry and technology-readiness assessment. Techadyant Labs analysis.</text>
+<text x="1540" y="872" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

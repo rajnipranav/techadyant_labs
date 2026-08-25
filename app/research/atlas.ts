@@ -88,7 +88,9 @@ const _idBySlug = new Map<string, string>();
 export const playerSlug = (id: string): string => _slugById.get(id) ?? id;
 export const playerById = (id: string): Player | undefined => atlas.players.find((p) => p.id === id);
 export const playerBySlug = (slug: string): Player | undefined => {
-  const id = _idBySlug.get(slug); return id ? playerById(id) : undefined;
+  const id = _idBySlug.get(slug);
+  if (id) return playerById(id);
+  return playerById(slug);
 };
 export const allPlayers: Player[] = atlas.players;
 

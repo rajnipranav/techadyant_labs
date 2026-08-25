@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 841" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="841" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Carrier-Phase GNSS Closes the Centimetre Gap</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Positioning accuracy, cost and India availability — GPS vs RTK vs PPK, 2026</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 8.2 &#183; Techadyant Labs &#183; 2026</text>
+<text x="120" y="146" font-size="17" fill="#0F1828" text-anchor="start" font-weight="700">Horizontal accuracy (log scale)</text>
+<line x1="120.0" y1="176" x2="120.0" y2="760" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="120.0" y="168" font-size="14" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">1 cm</text>
+<line x1="379.3581991928099" y1="176" x2="379.3581991928099" y2="760" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="379.3581991928099" y="168" font-size="14" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">10 cm</text>
+<line x1="638.7163983856198" y1="176" x2="638.7163983856198" y2="760" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="638.7163983856198" y="168" font-size="14" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">1 m</text>
+<line x1="820.0" y1="176" x2="820.0" y2="760" stroke="rgba(74,85,103,0.18)" stroke-width="1"/>
+<text x="820.0" y="168" font-size="14" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">5 m</text>
+<rect x="120" y="190" width="700" height="86" rx="6" fill="rgba(74,85,103,0.05)"/>
+<rect x="716.7909959640492" y="198" width="111.20900403595078" height="70" rx="5" fill="#C8443B" opacity="0.18"/>
+<text x="130" y="220" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">Standard GPS</text>
+<text x="130" y="244" font-size="14" fill="#4A5567" text-anchor="start">L1 code-phase</text>
+<text x="814" y="220" font-size="18" fill="#0F1828" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2-5 m</text>
+<rect x="120" y="310" width="700" height="86" rx="6" fill="rgba(74,85,103,0.05)"/>
+<rect x="638.7163983856198" y="318" width="86.07459757842946" height="70" rx="5" fill="#C9A84C" opacity="0.5"/>
+<text x="130" y="340" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">Multi-constellation</text>
+<text x="130" y="364" font-size="14" fill="#4A5567" text-anchor="start">L1+L5</text>
+<text x="814" y="340" font-size="18" fill="#0F1828" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">1-2 m</text>
+<rect x="120" y="430" width="700" height="86" rx="6" fill="rgba(74,85,103,0.05)"/>
+<rect x="120.0" y="438" width="86.07459757842952" height="70" rx="5" fill="#2BC5B4" opacity="1.0"/>
+<text x="130" y="460" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">RTK</text>
+<text x="130" y="484" font-size="14" fill="#4A5567" text-anchor="start">Carrier-phase, real-time</text>
+<text x="814" y="460" font-size="18" fill="#0F1828" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">1-2 cm</text>
+<rect x="120" y="550" width="700" height="86" rx="6" fill="rgba(74,85,103,0.05)"/>
+<rect x="120.0" y="558" width="86.07459757842952" height="70" rx="5" fill="#2BC5B4" opacity="0.7"/>
+<text x="130" y="580" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">PPK</text>
+<text x="130" y="604" font-size="14" fill="#4A5567" text-anchor="start">Post-processed</text>
+<text x="814" y="580" font-size="18" fill="#0F1828" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">1-2 cm</text>
+<rect x="120" y="670" width="700" height="86" rx="6" fill="rgba(74,85,103,0.05)"/>
+<rect x="820.0" y="678" width="8.0" height="70" rx="5" fill="#C9A84C" opacity="0.35"/>
+<text x="130" y="700" font-size="19" fill="#0F1828" text-anchor="start" font-weight="700">NavIC-only</text>
+<text x="130" y="724" font-size="14" fill="#4A5567" text-anchor="start">IRNSS</text>
+<text x="814" y="700" font-size="18" fill="#0F1828" text-anchor="end" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">5-10 m</text>
+<rect x="900" y="160" width="620" height="560" rx="12" fill="#ffffff" stroke="rgba(15,24,40,0.15)" stroke-width="1.5"/>
+<text x="924" y="198" font-size="20" fill="#0F1828" text-anchor="start" font-weight="700">How the corrections work</text>
+<text x="924" y="232" font-size="15" fill="#0F1828" text-anchor="start">Satellites → drone receiver  (code-phase)  =  2-5 m</text>
+<text x="924" y="266" font-size="15" fill="#0F1828" text-anchor="start">+ ground base / NTRIP, carrier-phase  =  RTK 1-2 cm (real-time)</text>
+<text x="924" y="300" font-size="15" fill="#0F1828" text-anchor="start">+ base logging, post-flight processing  =  PPK 1-2 cm (no radio link)</text>
+<line x1="924" y1="336" x2="1496" y2="336" stroke="rgba(74,85,103,0.2)" stroke-width="1"/>
+<text x="924" y="368" font-size="18" fill="#0F1828" text-anchor="start" font-weight="700">India adoption (2026)</text>
+<rect x="924" y="387" width="14" height="14" rx="3" fill="#C8443B"/>
+<text x="948" y="402" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">Standard GPS</text>
+<text x="1496" y="402" font-size="15" fill="#4A5567" text-anchor="end">100% of drones</text>
+<rect x="924" y="419" width="14" height="14" rx="3" fill="#2BC5B4"/>
+<text x="948" y="434" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">RTK</text>
+<text x="1496" y="434" font-size="15" fill="#4A5567" text-anchor="end">40-50% of small/medium</text>
+<rect x="924" y="451" width="14" height="14" rx="3" fill="#2BC5B4"/>
+<text x="948" y="466" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">PPK</text>
+<text x="1496" y="466" font-size="15" fill="#4A5567" text-anchor="end">10-15% of surveying</text>
+<rect x="924" y="483" width="14" height="14" rx="3" fill="#C9A84C"/>
+<text x="948" y="498" font-size="15" fill="#0F1828" text-anchor="start" font-weight="600">NavIC receivers</text>
+<text x="1496" y="498" font-size="15" fill="#4A5567" text-anchor="end">&lt;10% (growing)</text>
+<text x="924" y="536" font-size="14" fill="#4A5567" text-anchor="start">Trend: RTK ASP USD 150-300 → 80-150 by 2030;</text>
+<text x="924" y="560" font-size="14" fill="#4A5567" text-anchor="start">NavIC adoption rises with u-blox / Broadcom support.</text>
+<text x="60" y="813" font-size="15" fill="#4A5567">Source: Techadyant Labs analysis; u-blox, MicaSense, industry data.</text>
+</svg>

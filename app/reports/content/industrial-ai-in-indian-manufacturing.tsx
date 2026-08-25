@@ -318,7 +318,7 @@ export function ReportContent() {
       <p>
         For continuous tracking of the policy shifts affecting these economics, see the{' '}
         <Link href="/signals/">Signals feed</Link>. For sector-level baselines, explore the{' '}
-        <Link href="/atlas/">Indian Manufacturing Atlas</Link>.
+        <Link href="/research/">Indian Manufacturing Atlas</Link>.
       </p>
 
       <h2 id="tables"><span className="h2-no">The numbers, tabulated</span>Scenarios, waves, sectors</h2>

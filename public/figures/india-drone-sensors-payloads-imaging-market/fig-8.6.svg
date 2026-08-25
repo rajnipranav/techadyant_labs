@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 913" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="913" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">Six Sensor Streams Fuse Into One Estimate</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Sensor-fusion and AI processing pipeline for autonomous drones</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 8.6 &#183; Techadyant Labs &#183; 2026</text>
+<rect x="80.0" y="180" width="190" height="78" rx="10" fill="#ffffff" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="80.0" y="180" width="8" height="78" rx="4" fill="#2BC5B4"/>
+<text x="179.0" y="214" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">GNSS</text>
+<text x="179.0" y="238" font-size="14" fill="#4A5567" text-anchor="middle">RTK / PPK</text>
+<rect x="330.0" y="180" width="190" height="78" rx="10" fill="#ffffff" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="330.0" y="180" width="8" height="78" rx="4" fill="#2BC5B4"/>
+<text x="429.0" y="214" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">IMU</text>
+<text x="429.0" y="238" font-size="14" fill="#4A5567" text-anchor="middle">6 / 9 DOF</text>
+<rect x="580.0" y="180" width="190" height="78" rx="10" fill="#ffffff" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="580.0" y="180" width="8" height="78" rx="4" fill="#2BC5B4"/>
+<text x="679.0" y="214" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">LiDAR</text>
+<text x="679.0" y="238" font-size="14" fill="#4A5567" text-anchor="middle">point cloud</text>
+<rect x="830.0" y="180" width="190" height="78" rx="10" fill="#ffffff" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="830.0" y="180" width="8" height="78" rx="4" fill="#2BC5B4"/>
+<text x="929.0" y="214" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">Vision</text>
+<text x="929.0" y="238" font-size="14" fill="#4A5567" text-anchor="middle">RGB</text>
+<rect x="1080.0" y="180" width="190" height="78" rx="10" fill="#ffffff" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="1080.0" y="180" width="8" height="78" rx="4" fill="#2BC5B4"/>
+<text x="1179.0" y="214" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">Thermal</text>
+<text x="1179.0" y="238" font-size="14" fill="#4A5567" text-anchor="middle">thermal image</text>
+<rect x="1330.0" y="180" width="190" height="78" rx="10" fill="#ffffff" stroke="#C9A84C" stroke-width="2"/>
+<rect x="1330.0" y="180" width="8" height="78" rx="4" fill="#C9A84C"/>
+<text x="1429.0" y="214" font-size="20" fill="#0F1828" text-anchor="middle" font-weight="700">Radar</text>
+<text x="1429.0" y="238" font-size="14" fill="#4A5567" text-anchor="middle">optional</text>
+<text x="80" y="166" font-size="15" fill="#4A5567" text-anchor="start" font-weight="700">SENSOR INPUTS</text>
+<line x1="175.0" y1="258" x2="175.0" y2="302" stroke="rgba(15,24,40,0.4)" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="425.0" y1="258" x2="425.0" y2="302" stroke="rgba(15,24,40,0.4)" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="675.0" y1="258" x2="675.0" y2="302" stroke="rgba(15,24,40,0.4)" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="925.0" y1="258" x2="925.0" y2="302" stroke="rgba(15,24,40,0.4)" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="1175.0" y1="258" x2="1175.0" y2="302" stroke="rgba(15,24,40,0.4)" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="1425.0" y1="258" x2="1425.0" y2="302" stroke="rgba(15,24,40,0.4)" stroke-width="2" marker-end="url(#ar)"/>
+<defs><marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#0F1828"/></marker></defs>
+<rect x="80" y="302" width="1440" height="120" rx="12" fill="rgba(15,24,40,0.92)"/>
+<text x="110" y="342" font-size="22" fill="#ffffff" text-anchor="start" font-weight="700">SENSOR FUSION ENGINE</text>
+<text x="110" y="368" font-size="15" fill="rgba(201,168,76,1)" text-anchor="start" font-style="italic">Kalman filter / factor graph</text>
+<circle cx="640" cy="331" r="3.5" fill="#C9A84C"/>
+<text x="654" y="336" font-size="15" fill="#ffffff" text-anchor="start">State estimation (position, velocity, attitude)</text>
+<circle cx="1080" cy="331" r="3.5" fill="#C9A84C"/>
+<text x="1094" y="336" font-size="15" fill="#ffffff" text-anchor="start">Sensor calibration (temporal / spatial alignment)</text>
+<circle cx="640" cy="371" r="3.5" fill="#C9A84C"/>
+<text x="654" y="376" font-size="15" fill="#ffffff" text-anchor="start">Outlier rejection (RANSAC, Mahalanobis)</text>
+<circle cx="1080" cy="371" r="3.5" fill="#C9A84C"/>
+<text x="1094" y="376" font-size="15" fill="#ffffff" text-anchor="start">Uncertainty quantification (covariance)</text>
+<line x1="800.0" y1="422" x2="800.0" y2="462" stroke="rgba(15,24,40,0.4)" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="80" y="462" width="1440" height="110" rx="12" fill="rgba(43,197,180,0.14)" stroke="rgba(43,197,180,0.6)" stroke-width="1.5"/>
+<text x="110" y="498" font-size="21" fill="#0F1828" text-anchor="start" font-weight="700">AI / COMPUTER-VISION PROCESSING</text>
+<circle cx="110" cy="521" r="3.5" fill="#2BC5B4"/>
+<text x="124" y="526" font-size="15" fill="#0F1828" text-anchor="start">Object detection (YOLO, EfficientDet)</text>
+<circle cx="590" cy="521" r="3.5" fill="#2BC5B4"/>
+<text x="604" y="526" font-size="15" fill="#0F1828" text-anchor="start">Tracking (SORT, DeepSORT)</text>
+<circle cx="1070" cy="521" r="3.5" fill="#2BC5B4"/>
+<text x="1084" y="526" font-size="15" fill="#0F1828" text-anchor="start">Classification (ResNet, MobileNet)</text>
+<circle cx="110" cy="551" r="3.5" fill="#2BC5B4"/>
+<text x="124" y="556" font-size="15" fill="#0F1828" text-anchor="start">Semantic segmentation</text>
+<circle cx="590" cy="551" r="3.5" fill="#2BC5B4"/>
+<text x="604" y="556" font-size="15" fill="#0F1828" text-anchor="start">SLAM (visual / LiDAR)</text>
+<circle cx="1070" cy="551" r="3.5" fill="#2BC5B4"/>
+<text x="1084" y="556" font-size="15" fill="#0F1828" text-anchor="start">Change detection</text>
+<line x1="800.0" y1="572" x2="800.0" y2="612" stroke="rgba(15,24,40,0.4)" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="80" y="612" width="1440" height="96" rx="12" fill="rgba(201,168,76,0.18)" stroke="rgba(201,168,76,0.6)" stroke-width="1.5"/>
+<text x="110" y="646" font-size="21" fill="#0F1828" text-anchor="start" font-weight="700">OUTPUTS — ACTIONABLE INSIGHTS</text>
+<rect x="110" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="470" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="830" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="1190" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="110" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="470" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="830" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="1190" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="110" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="470" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="830" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="1190" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="110" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="470" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="830" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="1190" y="662" width="0" height="0" rx="10" fill="#C9A84C"/>
+<rect x="114" y="649" width="14" height="14" rx="3" fill="#C9A84C"/>
+<text x="136" y="661" font-size="15" fill="#0F1828" text-anchor="start">Orthomosaics</text>
+<rect x="472" y="649" width="14" height="14" rx="3" fill="#C9A84C"/>
+<text x="494" y="661" font-size="15" fill="#0F1828" text-anchor="start">Point clouds</text>
+<rect x="830" y="649" width="14" height="14" rx="3" fill="#C9A84C"/>
+<text x="852" y="661" font-size="15" fill="#0F1828" text-anchor="start">NDVI maps</text>
+<rect x="1188" y="649" width="14" height="14" rx="3" fill="#C9A84C"/>
+<text x="1210" y="661" font-size="15" fill="#0F1828" text-anchor="start">3D models</text>
+<rect x="114" y="671" width="14" height="14" rx="3" fill="#C9A84C"/>
+<text x="136" y="683" font-size="15" fill="#0F1828" text-anchor="start">Thermal maps</text>
+<rect x="472" y="671" width="14" height="14" rx="3" fill="#C9A84C"/>
+<text x="494" y="683" font-size="15" fill="#0F1828" text-anchor="start">Crop health</text>
+<rect x="830" y="671" width="14" height="14" rx="3" fill="#C9A84C"/>
+<text x="852" y="683" font-size="15" fill="#0F1828" text-anchor="start">Volumetric data</text>
+<rect x="1188" y="671" width="14" height="14" rx="3" fill="#C9A84C"/>
+<text x="1210" y="683" font-size="15" fill="#0F1828" text-anchor="start">Change detection</text>
+<rect x="80" y="738" width="1440" height="86" rx="10" fill="rgba(74,85,103,0.05)" stroke="rgba(15,24,40,0.12)" stroke-width="1.5"/>
+<text x="104" y="768" font-size="17" fill="#0F1828" text-anchor="start" font-weight="700">India capability:</text>
+<rect x="310" y="756" width="14" height="14" rx="3" fill="#2BC5B4"/>
+<text x="332" y="768" font-size="15" fill="#0F1828" text-anchor="start">Fusion software &amp; AI models — STRONG (IdeaForge FLYGHT CLOUD, startups)</text>
+<rect x="310" y="790" width="14" height="14" rx="3" fill="#C8443B"/>
+<text x="332" y="802" font-size="15" fill="#0F1828" text-anchor="start">Embedded AI hardware (Jetson, Coral) — IMPORT-DEPENDENT (no fab)</text>
+<text x="60" y="885" font-size="15" fill="#4A5567">Source: Techadyant Labs analysis; IdeaForge, Eon Space Labs, industry practice.</text>
+<text x="1540" y="885" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Schematic</text>
+</svg>

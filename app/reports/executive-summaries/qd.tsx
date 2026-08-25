@@ -465,9 +465,9 @@ export function QdSummary() {
       <div className={styles.related}>
         <Link href="/reports/">All reports</Link>
         <Link href="/signals/">Related signals</Link>
-        <Link href="/briefings/">Briefings</Link>
+        <Link href="/newsletter/">Briefings</Link>
         <Link href="/research/">Research</Link>
-        <Link href="/research/strategic-technology/">Strategic Technology</Link>
+        <Link href="/reports/theme/industrial-deep-tech/">Industrial &amp; Deep Tech</Link>
       </div>
     </div>
   );

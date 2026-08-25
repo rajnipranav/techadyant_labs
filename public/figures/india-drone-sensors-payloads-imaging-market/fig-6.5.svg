@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="900" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">The Sensor-Sector Regulatory Wishlist</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Five priority reforms, India drone-sensor stakeholders, 2026</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 6.5 &#183; Techadyant Labs &#183; 2026</text>
+<text x="60" y="150" font-size="22" fill="#4A5567" text-anchor="start">Five reforms industry stakeholders rank as most beneficial to the sensor ecosystem</text>
+<rect x="60" y="195" width="1480" height="112" rx="12" fill="#FFFFFF" stroke="rgba(74,85,103,0.22)" stroke-width="1.2"/>
+<rect x="60" y="195" width="90" height="112" rx="12" fill="#2BC5B4"/>
+<rect x="120" y="195" width="30" height="112" rx="0" fill="#2BC5B4"/>
+<text x="105" y="263.0" font-size="40" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">1</text>
+<text x="180" y="233" font-size="24" fill="#0F1828" text-anchor="start" font-weight="700">Standardised payload certification pathway</text>
+<text x="180" y="267" font-size="18" fill="#4A5567" text-anchor="start">Approved &#x27;plug-in&#x27; payload modules swappable without full re-certification.</text>
+<rect x="1080" y="225" width="420" height="52" rx="10" fill="rgba(43,197,180,0.14)" stroke="#2BC5B4" stroke-width="1.2"/>
+<text x="1290.0" y="257" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700">50-70% less certification time</text>
+<text x="1290.0" y="293" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">expected impact</text>
+<rect x="60" y="323" width="1480" height="112" rx="12" fill="#FFFFFF" stroke="rgba(74,85,103,0.22)" stroke-width="1.2"/>
+<rect x="60" y="323" width="90" height="112" rx="12" fill="#C9A84C"/>
+<rect x="120" y="323" width="30" height="112" rx="0" fill="#C9A84C"/>
+<text x="105" y="391.0" font-size="40" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">2</text>
+<text x="180" y="361" font-size="24" fill="#0F1828" text-anchor="start" font-weight="700">Zero-duty import where no domestic alternative</text>
+<text x="180" y="395" font-size="18" fill="#4A5567" text-anchor="start">Sunset clause to push localisation; replaces today&#x27;s 10-20% duties.</text>
+<rect x="1080" y="353" width="420" height="52" rx="10" fill="rgba(201,168,76,0.14)" stroke="#C9A84C" stroke-width="1.2"/>
+<text x="1290.0" y="385" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700">10-15% lower module cost</text>
+<text x="1290.0" y="421" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">expected impact</text>
+<rect x="60" y="451" width="1480" height="112" rx="12" fill="#FFFFFF" stroke="rgba(74,85,103,0.22)" stroke-width="1.2"/>
+<rect x="60" y="451" width="90" height="112" rx="12" fill="#0F1828"/>
+<rect x="120" y="451" width="30" height="112" rx="0" fill="#0F1828"/>
+<text x="105" y="519.0" font-size="40" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">3</text>
+<text x="180" y="489" font-size="24" fill="#0F1828" text-anchor="start" font-weight="700">Indigenous-sensor procurement mandate</text>
+<text x="180" y="523" font-size="18" fill="#4A5567" text-anchor="start">Minimum 50% domestic value addition for sensor payloads in govt tenders.</text>
+<rect x="1080" y="481" width="420" height="52" rx="10" fill="rgba(15,24,40,0.14)" stroke="#0F1828" stroke-width="1.2"/>
+<text x="1290.0" y="513" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700">Assured demand for local makers</text>
+<text x="1290.0" y="549" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">expected impact</text>
+<rect x="60" y="579" width="1480" height="112" rx="12" fill="#FFFFFF" stroke="rgba(74,85,103,0.22)" stroke-width="1.2"/>
+<rect x="60" y="579" width="90" height="112" rx="12" fill="#2BC5B4"/>
+<rect x="120" y="579" width="30" height="112" rx="0" fill="#2BC5B4"/>
+<text x="105" y="647.0" font-size="40" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">4</text>
+<text x="180" y="617" font-size="24" fill="#0F1828" text-anchor="start" font-weight="700">National sensor calibration infrastructure</text>
+<text x="180" y="651" font-size="18" fill="#4A5567" text-anchor="start">3-4 govt-funded NABL labs (LiDAR, thermal, multispectral); subsidised access.</text>
+<rect x="1080" y="609" width="420" height="52" rx="10" fill="rgba(43,197,180,0.14)" stroke="#2BC5B4" stroke-width="1.2"/>
+<text x="1290.0" y="641" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700">Lead time weeks -&gt; days; 30-50% cheaper</text>
+<text x="1290.0" y="677" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">expected impact</text>
+<rect x="60" y="707" width="1480" height="112" rx="12" fill="#FFFFFF" stroke="rgba(74,85,103,0.22)" stroke-width="1.2"/>
+<rect x="60" y="707" width="90" height="112" rx="12" fill="#C9A84C"/>
+<rect x="120" y="707" width="30" height="112" rx="0" fill="#C9A84C"/>
+<text x="105" y="775.0" font-size="40" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">5</text>
+<text x="180" y="745" font-size="24" fill="#0F1828" text-anchor="start" font-weight="700">Risk-based BVLOS framework for cargo</text>
+<text x="180" y="779" font-size="18" fill="#4A5567" text-anchor="start">Lighter compliance over unpopulated corridors and farmland.</text>
+<rect x="1080" y="737" width="420" height="52" rx="10" fill="rgba(201,168,76,0.14)" stroke="#C9A84C" stroke-width="1.2"/>
+<text x="1290.0" y="769" font-size="18" fill="#0F1828" text-anchor="middle" font-weight="700">Drives sense-and-avoid sensor demand</text>
+<text x="1290.0" y="805" font-size="12" fill="#4A5567" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace">expected impact</text>
+<text x="60" y="872" font-size="15" fill="#4A5567">Source: Industry stakeholder interviews. Techadyant Labs analysis.</text>
+<text x="1540" y="872" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Indicative</text>
+</svg>

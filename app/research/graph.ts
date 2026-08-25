@@ -122,7 +122,7 @@ function playerToEntity(player: Player): AtlasGraphEntity {
     corridors,
     scores: defaultScores({ country: player.country, corridors, kind }),
     sources: [],
-    href: `/research/entities/${slug}/`,
+    href: `/research/players/${slug}/`,
     sourceSystem: 'sid',
     updatedAt: lastUpdated,
   };

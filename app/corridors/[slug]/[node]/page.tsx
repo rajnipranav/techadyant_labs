@@ -156,11 +156,11 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
                 Anchor projects plotted on satellite imagery. Select one to open the supplier ecosystem and
                 opportunity surface it pulls, or toggle the 2010&ndash;2040 draft development plan to read the
                 planned zoning beneath.{' '}
-                <a href="/maps/dholera-sir.html" target="_blank" rel="noopener noreferrer">Open full screen &#8599;</a>
+                <a href="/maps/dholera-sir/" target="_blank" rel="noopener noreferrer">Open full screen &#8599;</a>
               </p>
             </div>
             <iframe
-              src="/maps/dholera-sir.html"
+              src="/maps/dholera-sir/"
               title="Dholera SIR industrial intelligence and opportunity map"
               loading="lazy"
             />
@@ -177,11 +177,11 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
                 Anchor projects and the surrounding Aurangabad auto belt on satellite imagery. Select an anchor to
                 open the supplier ecosystem and opportunity surface it pulls. All positions are approximate regional
                 context, not survey data.{' '}
-                <a href="/maps/auric-shendra-bidkin.html" target="_blank" rel="noopener noreferrer">Open full screen &#8599;</a>
+                <a href="/maps/auric-shendra-bidkin/" target="_blank" rel="noopener noreferrer">Open full screen &#8599;</a>
               </p>
             </div>
             <iframe
-              src="/maps/auric-shendra-bidkin.html"
+              src="/maps/auric-shendra-bidkin/"
               title="AURIC Shendra-Bidkin industrial intelligence and opportunity map"
               loading="lazy"
             />
@@ -198,11 +198,11 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
                 Anchor projects and the NCR context (Bodaki railhead, Dadri DFC junction, Jewar airport) on satellite
                 imagery. Select an anchor to open the supplier ecosystem and opportunity surface it pulls. All
                 positions are approximate regional context, not survey data.{' '}
-                <a href="/maps/iitgnl-greater-noida.html" target="_blank" rel="noopener noreferrer">Open full screen &#8599;</a>
+                <a href="/maps/iitgnl-greater-noida/" target="_blank" rel="noopener noreferrer">Open full screen &#8599;</a>
               </p>
             </div>
             <iframe
-              src="/maps/iitgnl-greater-noida.html"
+              src="/maps/iitgnl-greater-noida/"
               title="IITGNL Greater Noida industrial intelligence and opportunity map"
               loading="lazy"
             />
@@ -219,11 +219,11 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
                 The machine-tool park, the Japanese enclaves and Havells on satellite imagery, with Bengaluru and
                 Tumakuru-city context. Select an anchor to open the supplier ecosystem and opportunity surface it
                 pulls. All positions are approximate regional context, not survey data.{' '}
-                <a href="/maps/tumakuru.html" target="_blank" rel="noopener noreferrer">Open full screen &#8599;</a>
+                <a href="/maps/tumakuru/" target="_blank" rel="noopener noreferrer">Open full screen &#8599;</a>
               </p>
             </div>
             <iframe
-              src="/maps/tumakuru.html"
+              src="/maps/tumakuru/"
               title="Tumakuru node industrial intelligence and opportunity map"
               loading="lazy"
             />

@@ -13,7 +13,7 @@ function Figure({ n, caption, ariaLabel }: FigProps) {
     <figure className="report-figure" id={`fig-${n}`}>
       <div className="fig-frame">
         <img
-          src={`/figures/${SLUG}/fig_${String(n).padStart(2, '0')}_*.svg`}
+          src={`/figures/${SLUG}/fig_${String(n).padStart(2, '0')}.svg`}
           alt={ariaLabel ?? caption}
           loading="lazy"
         />

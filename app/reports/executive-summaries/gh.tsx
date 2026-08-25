@@ -470,9 +470,9 @@ export function GhSummary() {
       <div className={styles.related}>
         <Link href="/reports/">All reports</Link>
         <Link href="/signals/">Related signals</Link>
-        <Link href="/briefings/">Briefings</Link>
+        <Link href="/newsletter/">Briefings</Link>
         <Link href="/research/">Research</Link>
-        <Link href="/research/solar-clean-energy/">Solar &amp; Clean-Energy</Link>
+        <Link href="/reports/theme/solar-clean-energy/">Solar &amp; Clean-Energy</Link>
       </div>
     </div>
   );

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 920" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="920" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">DGCA Type Certification: The Four Sensor Gates</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Type-certification requirements bearing on sensor payloads, India, 2026</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 6.3 &#183; Techadyant Labs &#183; 2026</text>
+<text x="60" y="150" font-size="22" fill="#4A5567" text-anchor="start">Four certification gates a sensor payload must clear for DGCA Type Certification</text>
+<rect x="60" y="190" width="730" height="320" rx="14" fill="#FFFFFF" stroke="rgba(74,85,103,0.25)" stroke-width="1.2"/>
+<rect x="60" y="190" width="10" height="320" rx="0" fill="#C9A84C"/>
+<text x="94" y="240" font-size="30" fill="#C9A84C" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">01</text>
+<text x="152" y="240" font-size="23" fill="#0F1828" text-anchor="start" font-weight="700">PAYLOAD SPECIFICATIONS</text>
+<circle cx="100" cy="276" r="4" fill="#C9A84C"/>
+<text x="118" y="282" font-size="18" fill="#4A5567" text-anchor="start">Complete bill of materials for the sensor payload</text>
+<circle cx="100" cy="310" r="4" fill="#C9A84C"/>
+<text x="118" y="316" font-size="18" fill="#4A5567" text-anchor="start">Datasheets: accuracy, resolution, refresh rate, sensitivity</text>
+<circle cx="100" cy="344" r="4" fill="#C9A84C"/>
+<text x="118" y="350" font-size="18" fill="#4A5567" text-anchor="start">Weight &amp; balance docs per payload configuration</text>
+<circle cx="100" cy="378" r="4" fill="#C9A84C"/>
+<text x="118" y="384" font-size="18" fill="#4A5567" text-anchor="start">Power consumption + thermal management plan</text>
+<circle cx="100" cy="412" r="4" fill="#C9A84C"/>
+<text x="118" y="418" font-size="18" fill="#4A5567" text-anchor="start">Calibration procedure and schedule</text>
+<rect x="810" y="190" width="730" height="320" rx="14" fill="#FFFFFF" stroke="rgba(74,85,103,0.25)" stroke-width="1.2"/>
+<rect x="810" y="190" width="10" height="320" rx="0" fill="#2BC5B4"/>
+<text x="844" y="240" font-size="30" fill="#2BC5B4" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">02</text>
+<text x="902" y="240" font-size="23" fill="#0F1828" text-anchor="start" font-weight="700">EMI / EMC COMPLIANCE</text>
+<circle cx="850" cy="276" r="4" fill="#2BC5B4"/>
+<text x="868" y="282" font-size="18" fill="#4A5567" text-anchor="start">Radiated emissions (30 MHz to 6 GHz): no flight-control interference</text>
+<circle cx="850" cy="310" r="4" fill="#2BC5B4"/>
+<text x="868" y="316" font-size="18" fill="#4A5567" text-anchor="start">Immunity: function under external EM fields (power lines, radio)</text>
+<circle cx="850" cy="344" r="4" fill="#2BC5B4"/>
+<text x="868" y="350" font-size="18" fill="#4A5567" text-anchor="start">Conducted emissions: power-line filtering adequacy</text>
+<rect x="60" y="540" width="730" height="320" rx="14" fill="#FFFFFF" stroke="rgba(74,85,103,0.25)" stroke-width="1.2"/>
+<rect x="60" y="540" width="10" height="320" rx="0" fill="#0F1828"/>
+<text x="94" y="590" font-size="30" fill="#0F1828" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">03</text>
+<text x="152" y="590" font-size="23" fill="#0F1828" text-anchor="start" font-weight="700">ENVIRONMENTAL TESTING</text>
+<circle cx="100" cy="626" r="4" fill="#0F1828"/>
+<text x="118" y="632" font-size="18" fill="#4A5567" text-anchor="start">Temperature: -20 to +55 C (commercial); -40 to +70 C (defence)</text>
+<circle cx="100" cy="660" r="4" fill="#0F1828"/>
+<text x="118" y="666" font-size="18" fill="#4A5567" text-anchor="start">Humidity 0 to 95% non-condensing</text>
+<circle cx="100" cy="694" r="4" fill="#0F1828"/>
+<text x="118" y="700" font-size="18" fill="#4A5567" text-anchor="start">Vibration 5 to 500 Hz, 2g RMS (drone spectrum)</text>
+<circle cx="100" cy="728" r="4" fill="#0F1828"/>
+<text x="118" y="734" font-size="18" fill="#4A5567" text-anchor="start">Ingress: IP54 commercial, IP67 defence/agriculture</text>
+<rect x="810" y="540" width="730" height="320" rx="14" fill="#FFFFFF" stroke="rgba(74,85,103,0.25)" stroke-width="1.2"/>
+<rect x="810" y="540" width="10" height="320" rx="0" fill="#C8443B"/>
+<text x="844" y="590" font-size="30" fill="#C8443B" text-anchor="start" font-weight="700" font-family="'JetBrains Mono','Courier New',monospace">04</text>
+<text x="902" y="590" font-size="23" fill="#0F1828" text-anchor="start" font-weight="700">DATA SECURITY &amp; PRIVACY</text>
+<circle cx="850" cy="626" r="4" fill="#C8443B"/>
+<text x="868" y="632" font-size="18" fill="#4A5567" text-anchor="start">Transmission encryption (AES-128 or equivalent)</text>
+<circle cx="850" cy="660" r="4" fill="#C8443B"/>
+<text x="868" y="666" font-size="18" fill="#4A5567" text-anchor="start">Onboard data storage encryption</text>
+<circle cx="850" cy="694" r="4" fill="#C8443B"/>
+<text x="868" y="700" font-size="18" fill="#4A5567" text-anchor="start">Remote-ID broadcast (Digital Sky protocol)</text>
+<circle cx="850" cy="728" r="4" fill="#C8443B"/>
+<text x="868" y="734" font-size="18" fill="#4A5567" text-anchor="start">No unauthorised data exfiltration</text>
+<text x="60" y="892" font-size="15" fill="#4A5567">Source: DGCA Drone Rules 2021 and amendments; Digital Sky. Techadyant Labs analysis.</text>
+</svg>

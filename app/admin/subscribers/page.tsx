@@ -120,7 +120,7 @@ export default function SubscribersPage() {
       <p className="admin-sub">Sanket mailing list (Research Reports project). Welcome email + unsubscribe are automatic. <button className="admin-btn" style={{ marginLeft: 8 }} onClick={testWelcome}>Send welcome preview to me</button></p>
       {err && <ErrorBox error={err} />}
 
-      <Panel title="Send the latest Sanket issue" action={<a className="admin-btn" href="/admin/announcements">Full composer →</a>}>
+      <Panel title="Send the latest Sanket issue" action={<a className="admin-btn" href="/admin/announcements/">Full composer →</a>}>
         <p className="admin-sub" style={{ marginTop: 0 }}>
           Latest: <strong>Sanket {latest.no} — {latest.title}</strong> ({latest.month}).{' '}
           {latest.pdfReady ? 'The email links to the online issue and the PDF.' : 'The PDF is not live yet — the email will link to the online issue only.'}

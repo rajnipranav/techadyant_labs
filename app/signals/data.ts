@@ -2281,6 +2281,31 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['BEL and Hyderabad-based Ananth Technologies signed an MoU in Bengaluru on 19 August 2026 to jointly design, develop and manufacture advanced defence and aerospace electronics.', 'The named focus areas are missiles, radars, satellites and navigation systems, spanning system engineering through manufacturing, integration and testing.', 'The MoU is an industrial-pairing signal - BEL\'s prime scale plus ATL\'s three-decade private capability base - not yet a funded programme or production order.', 'Watch for a named programme, prototype or qualification milestone to confirm the partnership has moved from intent to capability delivery.'],
   sources: ['Bharat Electronics Limited (20 Aug 2026): https://bel-india.in/news-bel/bharat-electronics-ltd-bel-signs-mou-with-ananth-technologies-private-limited-atl/', 'Fortune India (20 Aug 2026): https://www.fortuneindia.com/business-news/ananth-technologies-bel-partner-to-develop-advanced-defence-aerospace-systems/154861', 'Economic Times (20 Aug 2026): https://government.economictimes.indiatimes.com/news/defence/bel-ananth-technologies-forge-partnership-for-missiles-radars-and-satellite-systems/133353657']
+}, {
+  slug: 'india-brazil-telecommunications-ict-cooperation-mou',
+  no: 'S-071',
+  title: 'India and Brazil Move to Cooperate on 5G/6G, Open RAN and Digital Infrastructure',
+  domain: 'Enterprise & Tech Sovereignty',
+  date: '2026-08-25',
+  dateLabel: '25 Aug 2026',
+  status: 'live',
+  excerpt: 'India and Brazil signed a telecommunications and ICT cooperation MoU in Pune on 21 August 2026 on the BRICS sidelines, covering AI, 5G/6G, Open RAN, LEO satellites and digital public infrastructure - a broad framework for digital-sovereignty coordination between two major democracies, though no funded deployment has yet been announced.',
+  readingTime: '2 min',
+  body: [{
+  text: 'India and Brazil signed a telecommunications and ICT cooperation memorandum of understanding in Pune on 21 August 2026, on the sidelines of the BRICS Communications Ministers and ICT Track meetings. India\'s Communications Minister Jyotiraditya Scindia and Brazil\'s Communications Minister Frederico de Siqueira Filho signed the agreement. The official framework covers exchange of information, experience and best practices, capacity building and exploration of mutually beneficial opportunities across telecommunications policy, artificial intelligence, 5G and 6G, Open RAN, the Internet of Things, direct-to-device connectivity, low-Earth-orbit satellites, non-terrestrial networks, spectrum and satellite-orbit management, digital infrastructure, optical fibre and submarine cables.',
+  type: 'p'
+}, {
+  text: 'The breadth of the framework matters because the next phase of digital sovereignty will be decided across several layers at once: radio access networks, satellite connectivity, spectrum governance, cybersecurity, data infrastructure and the standards that make systems interoperable. Brazil gives India a substantial partner in the Global South with which to exchange implementation experience and coordinate positions in international technology forums. For India, the agreement creates a diplomatic route for its digital public infrastructure and telecom capabilities to travel beyond the domestic market, although no specific commercial deployment or procurement has yet been announced.',
+  type: 'p'
+}, {
+  text: 'This is a strategic technology-cooperation signal, not a delivered infrastructure project. The MoU creates an institutional framework and names important technology areas, but it does not commit either government to a funded network, a jointly developed product or a specific standards outcome. Its value will be measured by what follows: working groups, pilot deployments, standards cooperation, trusted-technology protocols, operator partnerships or a concrete digital-public-infrastructure project. The diplomatic breadth is meaningful; the capability impact remains conditional on execution.',
+  type: 'p'
+}, {
+  text: 'The test to watch is the first implementation instrument under the MoU, such as a joint working group, technical exchange or pilot. Track whether cooperation moves from general ICT dialogue into Open RAN, cybersecurity, satellite connectivity or digital public infrastructure with named institutions and timelines. India\'s BRICS chairship in 2026 is a natural window for standards or connectivity initiatives that use the India-Brazil framework as a practical coalition-building mechanism.',
+  type: 'p'
+}],
+  takeaways: ['India and Brazil signed a telecommunications and ICT cooperation MoU in Pune on 21 August 2026, signed by Communications Minister Jyotiraditya Scindia and Brazil\'s Communications Minister Frederico de Siqueira Filho.', 'The framework spans AI, 5G and 6G, Open RAN, IoT, direct-to-device connectivity, LEO satellites, non-terrestrial networks, spectrum management, cybersecurity, digital public infrastructure, optical fibre and submarine cables.', 'The MoU was signed on the sidelines of the BRICS Communications Ministers and ICT Track meetings, under India\'s 2026 BRICS chairship.', 'No funded network, joint product or specific standards outcome has yet been announced; the signal is institutional-framework scope, not capability delivery.'],
+  sources: ['Press Information Bureau (21 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2302006', 'GKToday (22 Aug 2026): https://www.gktoday.in/india-brazil-sign-mou-on-telecommunications-and-ict/', 'India Brand Equity Foundation (24 Aug 2026): https://www.ibef.org/news/india-brazil-sign-mou-to-deepen-cooperation-in-telecommunications-icts-on-sidelines-of-brics-ict-track-meeting']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

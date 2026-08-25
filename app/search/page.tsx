@@ -84,75 +84,96 @@ function SearchResults() {
   const total = groups.reduce((n, g) => n + g.items.length, 0);
 
   return (
-    <>
-      <header className="ed-page-head">
-        <div className="wrap inner">
-          <div className="ed-breadcrumb">
-            <Link href="/">Home</Link><span className="sep">/</span><span>Search</span>
-          </div>
-          <h1>Search Techadyant Labs</h1>
-          <p className="lede">Search across reports, signals, corridors and ecosystem players.</p>
-          <div style={{ marginTop: 22 }}>
-            <form
-              method="get" action="/search"
-              style={{ display: 'flex', gap: 10, maxWidth: 720 }}
-              onSubmit={(e) => {
-                e.preventDefault();
-                const value = (new FormData(e.currentTarget).get('q') as string || '').trim();
-                if (value) router.push(`/search/?q=${encodeURIComponent(value)}`);
-              }}
-            >
-              <input
-                name="q" defaultValue={query} key={query}
-                placeholder="Search reports, signals, corridors, players…"
-                style={{ flex: 1, padding: '14px 16px', borderRadius: 12, border: '1px solid var(--rule, var(--border))', background: 'var(--bg-2, var(--surface))', color: 'var(--text)', fontSize: 16, outline: 'none' }}
-              />
-              <button type="submit" className="btn-ed btn-ed-primary" style={{ padding: '14px 18px', borderRadius: 12, border: '1px solid transparent' }}>Search</button>
-            </form>
-          </div>
+    <section className="wrap" style={{ paddingBottom: 80 }}>
+      {!q ? (
+        <div style={{ marginTop: 28, color: 'var(--text-muted)' }}>Enter a query to search reports, signals, corridors and players.</div>
+      ) : total === 0 ? (
+        <div style={{ color: 'var(--text-muted)', marginTop: 28 }}>
+          No results for “{query}”. Try simpler terms, or browse <Link href="/reports/">reports</Link> and <Link href="/research/">the Atlas</Link> directly.
         </div>
-      </header>
-
-      <section className="wrap" style={{ paddingBottom: 80 }}>
-        {!q ? (
-          <div style={{ marginTop: 28, color: 'var(--text-muted)' }}>Enter a query to search reports, signals, corridors and players.</div>
-        ) : total === 0 ? (
-          <div style={{ color: 'var(--text-muted)', marginTop: 28 }}>
-            No results for “{query}”. Try simpler terms, or browse <Link href="/reports/">reports</Link> and <Link href="/research/">the Atlas</Link> directly.
-          </div>
-        ) : (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 36, marginTop: 28 }}>
-            {groups.map((group) => (
-              <div key={group.key}>
-                <div style={{ fontSize: 12, textTransform: 'uppercase', letterSpacing: '.12em', color: 'var(--text-dim)', marginBottom: 12 }}>
-                  {group.label} <span style={{ color: 'var(--text-dim)' }}>· {group.items.length}</span>
-                </div>
-                <ul className="rule-top" style={{ display: 'flex', flexDirection: 'column', gap: 10, listStyle: 'none', padding: 0, margin: 0 }}>
-                  {group.items.slice(0, 8).map((item) => (
-                    <li key={`${group.key}-${item.url}`}>
-                      <Link href={item.url} style={{ display: 'flex', flexDirection: 'column', gap: 2, padding: '14px 0', textDecoration: 'none', color: 'inherit' }}>
-                        <span style={{ fontWeight: 600, fontSize: 16 }}>{item.title}</span>
-                        {item.summary ? (
-                          <span style={{ color: 'var(--text-muted)', fontSize: 14, lineHeight: 1.55, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{item.summary}</span>
-                        ) : null}
-                        {item.extra ? <span style={{ fontSize: 12, color: 'var(--text-dim)' }}>{item.extra}</span> : null}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+      ) : (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 36, marginTop: 28 }}>
+          {groups.map((group) => (
+            <div key={group.key}>
+              <div style={{ fontSize: 12, textTransform: 'uppercase', letterSpacing: '.12em', color: 'var(--text-dim)', marginBottom: 12 }}>
+                {group.label} <span style={{ color: 'var(--text-dim)' }}>· {group.items.length}</span>
               </div>
-            ))}
-          </div>
-        )}
-      </section>
-    </>
+              <ul className="rule-top" style={{ display: 'flex', flexDirection: 'column', gap: 10, listStyle: 'none', padding: 0, margin: 0 }}>
+                {group.items.slice(0, 8).map((item) => (
+                  <li key={`${group.key}-${item.url}`}>
+                    <Link href={item.url} style={{ display: 'flex', flexDirection: 'column', gap: 2, padding: '14px 0', textDecoration: 'none', color: 'inherit' }}>
+                      <span style={{ fontWeight: 600, fontSize: 16 }}>{item.title}</span>
+                      {item.summary ? (
+                        <span style={{ color: 'var(--text-muted)', fontSize: 14, lineHeight: 1.55, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{item.summary}</span>
+                      ) : null}
+                      {item.extra ? <span style={{ fontSize: 12, color: 'var(--text-dim)' }}>{item.extra}</span> : null}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
+    </section>
+  );
+}
+
+function SearchHeader() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const query = searchParams.get('q') ?? '';
+
+  return (
+    <header className="ed-page-head">
+      <div className="wrap inner">
+        <div className="ed-breadcrumb">
+          <Link href="/">Home</Link><span className="sep">/</span><span>Search</span>
+        </div>
+        <h1>Search Techadyant Labs</h1>
+        <p className="lede">Search across reports, signals, corridors and ecosystem players.</p>
+        <div style={{ marginTop: 22 }}>
+          <form
+            method="get" action="/search"
+            style={{ display: 'flex', gap: 10, maxWidth: 720 }}
+            onSubmit={(e) => {
+              e.preventDefault();
+              const value = (new FormData(e.currentTarget).get('q') as string || '').trim();
+              if (value) router.push(`/search/?q=${encodeURIComponent(value)}`);
+            }}
+          >
+            <input
+              name="q" defaultValue={query} key={query}
+              placeholder="Search reports, signals, corridors, players…"
+              style={{ flex: 1, padding: '14px 16px', borderRadius: 12, border: '1px solid var(--rule, var(--border))', background: 'var(--bg-2, var(--surface))', color: 'var(--text)', fontSize: 16, outline: 'none' }}
+            />
+            <button type="submit" className="btn-ed btn-ed-primary" style={{ padding: '14px 18px', borderRadius: 12, border: '1px solid transparent' }}>Search</button>
+          </form>
+        </div>
+      </div>
+    </header>
   );
 }
 
 export default function SearchPage() {
   return (
-    <Suspense fallback={<section className="wrap" style={{ padding: '60px 0', color: 'var(--text-muted)' }}>Loading search…</section>}>
-      <SearchResults />
-    </Suspense>
+    <>
+      <Suspense fallback={
+        <header className="ed-page-head">
+          <div className="wrap inner">
+            <div className="ed-breadcrumb">
+              <Link href="/">Home</Link><span className="sep">/</span><span>Search</span>
+            </div>
+            <h1>Search Techadyant Labs</h1>
+            <p className="lede">Search across reports, signals, corridors and ecosystem players.</p>
+          </div>
+        </header>
+      }>
+        <SearchHeader />
+      </Suspense>
+      <Suspense fallback={<section className="wrap" style={{ padding: '60px 0', color: 'var(--text-muted)' }}>Loading search…</section>}>
+        <SearchResults />
+      </Suspense>
+    </>
   );
 }

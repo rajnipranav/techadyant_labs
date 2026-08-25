@@ -5,7 +5,7 @@ import { signals } from './signals/data';
 import { issues } from './newsletter/data';
 import { allPlayers, playerSlug, corridorsOrdered, meta as corridorMeta, lastUpdated as atlasUpdated } from './research/atlas';
 import { CATEGORY_HUBS, STATE_HUBS } from './research/suppliers-hubs';
-import { graphEntities } from './research/graph';
+import { graphEntities, isPlayerSlug } from './research/graph';
 import { corridors as indCorridors } from './corridors/data';
 import { allCorridorNodePairs } from './corridors/node-data';
 import platformEntities from './research/_platform.json';
@@ -150,12 +150,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${SITE}/research/players/${playerSlug(pl.id)}/`,
     lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5,
   }));
-  const entityRoutes: MetadataRoute.Sitemap = graphEntities.map((entity) => ({
-    url: `${SITE}/research/entities/${entity.slug}/`,
-    lastModified: entity.updatedAt ? new Date(entity.updatedAt) : now,
-    changeFrequency: 'monthly' as const,
-    priority: entity.kind === 'company' || entity.kind === 'ecosystem' ? 0.65 : 0.55,
-  }));
+  const entityRoutes: MetadataRoute.Sitemap = graphEntities
+    .filter((entity) => !isPlayerSlug(entity.slug))
+    .map((entity) => ({
+      url: `${SITE}/research/entities/${entity.slug}/`,
+      lastModified: entity.updatedAt ? new Date(entity.updatedAt) : now,
+      changeFrequency: 'monthly' as const,
+      priority: entity.kind === 'ecosystem' ? 0.65 : 0.55,
+    }));
 
   const indCorridorRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE}/corridors/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 },

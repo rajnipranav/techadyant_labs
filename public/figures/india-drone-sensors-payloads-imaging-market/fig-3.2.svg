@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 960" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1600" height="960" fill="#FBF9F4"/>
+<rect x="0" y="0" width="1600" height="10" fill="#0F1828"/>
+<rect x="0" y="10" width="1600" height="3" fill="#C9A84C"/>
+<text x="60" y="74" font-size="38" font-weight="700" fill="#0F1828">India Drone Ecosystem Map</text>
+<text x="62" y="108" font-size="20" fill="#4A5567">Six-layer value stack from components to end-users</text>
+<text x="1540" y="50" font-size="16" fill="#4A5567" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace">Figure 3.2 &#183; Techadyant Labs &#183; 2026</text>
+<rect x="120" y="146" width="1180" height="92" rx="10" fill="rgba(15,24,40,0.1)" stroke="#0F1828" stroke-width="2"/>
+<rect x="120" y="146" width="150" height="92" rx="0" fill="rgba(15,24,40,0.22)"/>
+<text x="195" y="190" font-size="17" fill="#0F1828" text-anchor="middle" font-weight="800">LAYER 6</text>
+<text x="195" y="214" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="292" y="186" font-size="23" fill="#0F1828" text-anchor="start" font-weight="800">End Users</text>
+<text x="292" y="218" font-size="15.5" fill="#4A5567" text-anchor="start">Agriculture · Defence · Infrastructure · Mining · Logistics · Smart Cities</text>
+<rect x="120" y="248" width="1180" height="92" rx="10" fill="rgba(43,197,180,0.1)" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="120" y="248" width="150" height="92" rx="0" fill="rgba(43,197,180,0.22)"/>
+<text x="195" y="292" font-size="17" fill="#0F1828" text-anchor="middle" font-weight="800">LAYER 5</text>
+<text x="195" y="316" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="292" y="288" font-size="23" fill="#0F1828" text-anchor="start" font-weight="800">Software &amp; Analytics</text>
+<text x="292" y="320" font-size="15.5" fill="#4A5567" text-anchor="start">FLYGHT CLOUD · Pix4D · DroneDeploy · India: 15+ analytics startups</text>
+<rect x="120" y="350" width="1180" height="92" rx="10" fill="rgba(43,197,180,0.1)" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="120" y="350" width="150" height="92" rx="0" fill="rgba(43,197,180,0.22)"/>
+<text x="195" y="394" font-size="17" fill="#0F1828" text-anchor="middle" font-weight="800">LAYER 4</text>
+<text x="195" y="418" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="292" y="390" font-size="23" fill="#0F1828" text-anchor="start" font-weight="800">Service Providers (DaaS)</text>
+<text x="292" y="422" font-size="15.5" fill="#4A5567" text-anchor="start">Garuda Aerospace · Asteria · Omnidrone · 200+ registered operators</text>
+<rect x="120" y="452" width="1180" height="92" rx="10" fill="rgba(43,197,180,0.1)" stroke="#2BC5B4" stroke-width="2"/>
+<rect x="120" y="452" width="150" height="92" rx="0" fill="rgba(43,197,180,0.22)"/>
+<text x="195" y="496" font-size="17" fill="#0F1828" text-anchor="middle" font-weight="800">LAYER 3</text>
+<text x="195" y="520" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="292" y="492" font-size="23" fill="#0F1828" text-anchor="start" font-weight="800">Drone OEMs</text>
+<text x="292" y="524" font-size="15.5" fill="#4A5567" text-anchor="start">ideaForge · Dhaksha · General Aeronautics · 50+ domestic manufacturers</text>
+<rect x="120" y="554" width="1180" height="92" rx="10" fill="rgba(201,168,76,0.1)" stroke="#C9A84C" stroke-width="2"/>
+<rect x="120" y="554" width="150" height="92" rx="0" fill="rgba(201,168,76,0.22)"/>
+<text x="195" y="598" font-size="17" fill="#0F1828" text-anchor="middle" font-weight="800">LAYER 2</text>
+<text x="195" y="622" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="292" y="594" font-size="23" fill="#0F1828" text-anchor="start" font-weight="800">Payload Integrators</text>
+<text x="292" y="626" font-size="15.5" fill="#4A5567" text-anchor="start">ideaForge (in-house) · Eon Space Labs · sensors integrated into payloads</text>
+<rect x="120" y="656" width="1180" height="92" rx="10" fill="rgba(200,68,59,0.1)" stroke="#C8443B" stroke-width="2"/>
+<rect x="120" y="656" width="150" height="92" rx="0" fill="rgba(200,68,59,0.22)"/>
+<text x="195" y="700" font-size="17" fill="#0F1828" text-anchor="middle" font-weight="800">LAYER 1</text>
+<text x="195" y="724" font-size="1" fill="#0F1828" text-anchor="start"></text>
+<text x="292" y="696" font-size="23" fill="#0F1828" text-anchor="start" font-weight="800">Sensors &amp; Components</text>
+<text x="292" y="722" font-size="15.5" fill="#4A5567" text-anchor="start">GNSS (u-blox, NovAtel) · IMU (Bosch, TDK) · LiDAR (Velodyne, Ouster) · Thermal</text>
+<text x="292" y="744" font-size="15.5" fill="#4A5567" text-anchor="start">(FLIR)</text>
+<rect x="1048" y="670" width="236" height="28" rx="14" fill="rgba(200,68,59,0.18)"/>
+<text x="1166" y="689" font-size="14" fill="#C8443B" text-anchor="middle" font-weight="700">Import-dependent 70–80%</text>
+<line x1="1350" y1="728" x2="1350" y2="154" stroke="#C9A84C" stroke-width="4"/><polygon points="1350,154 1354.3,164.1 1345.7,164.1" fill="#C9A84C"/>
+<text x="1368" y="396" font-size="16" fill="#C9A84C" text-anchor="start" font-weight="700">Value</text>
+<text x="1368" y="418" font-size="16" fill="#C9A84C" text-anchor="start" font-weight="700">capture</text>
+<text x="1368" y="440" font-size="16" fill="#C9A84C" text-anchor="start" font-weight="700">rises</text>
+<rect x="120" y="766" width="1180" height="72" rx="10" fill="rgba(15,24,40,0.92)"/>
+<text x="144" y="796" font-size="17" fill="#C9A84C" text-anchor="start" font-weight="800">REGULATORY &amp; POLICY BASE</text>
+<text x="144" y="822" font-size="16" fill="#FFFFFF" text-anchor="start">DGCA · MoCA · MeitY · Ministry of Defence   |   Digital Sky · PLI Scheme · Drone Shakti</text>
+<text x="60" y="932" font-size="15" fill="#4A5567">Source: Company disclosures; DGCA; industry associations. Techadyant Labs analysis.</text>
+<text x="1540" y="932" font-size="15" font-style="italic" fill="#C9A84C" text-anchor="end">Schematic</text>
+</svg>

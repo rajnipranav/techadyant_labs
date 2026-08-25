@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 711.36 495.9">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st1 {
+        clip-path: url(#clippath-7);
+      }
+
+      .st2 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st3 {
+        fill: #c9a84c;
+      }
+
+      .st3, .st4, .st5 {
+        stroke: #0f1828;
+      }
+
+      .st3, .st5 {
+        stroke-width: .5px;
+      }
+
+      .st6 {
+        clip-path: url(#clippath-9);
+      }
+
+      .st7, .st8 {
+        fill: #fbf9f4;
+      }
+
+      .st9 {
+        fill: #fff;
+      }
+
+      .st10, .st11, .st12, .st13, .st14, .st15, .st8, .st16 {
+        isolation: isolate;
+      }
+
+      .st10, .st11, .st8 {
+        font-size: 8px;
+      }
+
+      .st10, .st14, .st15, .st16 {
+        fill: #4a5567;
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st11 {
+        fill: #c0c5cc;
+      }
+
+      .st11, .st12, .st13, .st8 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st17 {
+        fill: none;
+      }
+
+      .st12, .st13 {
+        fill: #0f1828;
+      }
+
+      .st12, .st16 {
+        font-size: 10.5px;
+      }
+
+      .st18 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st4 {
+        fill: #e8e5dd;
+        stroke-width: .8px;
+      }
+
+      .st19 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st20 {
+        clip-path: url(#clippath-8);
+      }
+
+      .st13 {
+        font-size: 15px;
+      }
+
+      .st21 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st14 {
+        font-size: 9px;
+      }
+
+      .st15 {
+        font-size: 8.5px;
+      }
+
+      .st22 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st5 {
+        fill: #c8443b;
+      }
+
+      .st23 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st17" x="48.78" y="88.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st17" x="48.78" y="88.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st17" x="48.78" y="88.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st17" x="48.78" y="88.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st17" x="48.78" y="88.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st17" x="48.78" y="88.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st17" x="48.78" y="88.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="st17" x="48.78" y="88.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="st17" x="48.78" y="88.6" width="613.8" height="388.08"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="st17" x="48.78" y="88.6" width="613.8" height="388.08"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2">
+    <path class="st7" d="M0,496.93h711.36V1.03H0v495.9Z"/>
+  </g>
+  <g id="Layer_3">
+    <rect class="st9" x="44.6" y="63.58" width="613.8" height="388.08"/>
+  </g>
+  <g id="Layer_1">
+    <g class="st23">
+      <path class="st4" d="M79.47,156.24h460.35c.82,0,1.23-.37,1.23-1.11v-44.35c0-.74-.41-1.11-1.23-1.11H79.47c-.82,0-1.23.37-1.23,1.11v44.35c0,.74.41,1.11,1.23,1.11Z"/>
+    </g>
+    <g class="st18">
+      <path class="st5" d="M552.1,147.92h85.93c.82,0,1.23-.37,1.23-1.11v-27.72c0-.74-.41-1.11-1.23-1.11h-85.93c-.82,0-1.23.37-1.23,1.11v27.72c0,.74.41,1.11,1.23,1.11Z"/>
+    </g>
+    <g class="st22">
+      <path class="st4" d="M79.47,211.68h460.35c.82,0,1.23-.37,1.23-1.11v-44.35c0-.74-.41-1.11-1.23-1.11H79.47c-.82,0-1.23.37-1.23,1.11v44.35c0,.74.41,1.11,1.23,1.11Z"/>
+    </g>
+    <g class="st21">
+      <path class="st5" d="M552.1,203.36h85.93c.82,0,1.23-.37,1.23-1.11v-27.72c0-.74-.41-1.11-1.23-1.11h-85.93c-.82,0-1.23.37-1.23,1.11v27.72c0,.74.41,1.11,1.23,1.11Z"/>
+    </g>
+    <g class="st2">
+      <path class="st4" d="M79.47,267.12h460.35c.82,0,1.23-.37,1.23-1.11v-44.35c0-.74-.41-1.11-1.23-1.11H79.47c-.82,0-1.23.37-1.23,1.11v44.35c0,.74.41,1.11,1.23,1.11Z"/>
+    </g>
+    <g class="st19">
+      <path class="st5" d="M552.1,258.8h85.93c.82,0,1.23-.37,1.23-1.11v-27.72c0-.74-.41-1.11-1.23-1.11h-85.93c-.82,0-1.23.37-1.23,1.11v27.72c0,.74.41,1.11,1.23,1.11Z"/>
+    </g>
+    <g class="st0">
+      <path class="st4" d="M79.47,322.56h460.35c.82,0,1.23-.37,1.23-1.11v-44.35c0-.74-.41-1.11-1.23-1.11H79.47c-.82,0-1.23.37-1.23,1.11v44.35c0,.74.41,1.11,1.23,1.11Z"/>
+    </g>
+    <g class="st1">
+      <path class="st5" d="M552.1,314.24h85.93c.82,0,1.23-.37,1.23-1.11v-27.72c0-.74-.41-1.11-1.23-1.11h-85.93c-.82,0-1.23.37-1.23,1.11v27.72c0,.74.41,1.11,1.23,1.11Z"/>
+    </g>
+    <g class="st20">
+      <path class="st4" d="M79.47,378h460.35c.82,0,1.23-.37,1.23-1.11v-44.35c0-.74-.41-1.11-1.23-1.11H79.47c-.82,0-1.23.37-1.23,1.11v44.35c0,.74.41,1.11,1.23,1.11Z"/>
+    </g>
+    <g class="st6">
+      <path class="st3" d="M552.1,369.68h85.93c.82,0,1.23-.37,1.23-1.11v-27.72c0-.74-.41-1.11-1.23-1.11h-85.93c-.82,0-1.23.37-1.23,1.11v27.72c0,.74.41,1.11,1.23,1.11Z"/>
+    </g>
+    <path class="st5" d="M552.1,425.12h85.93c.82,0,1.23-.37,1.23-1.11v-27.72c0-.74-.41-1.11-1.23-1.11h-85.93c-.82,0-1.23.37-1.23,1.11v27.72c0,.74.41,1.11,1.23,1.11Z"/>
+    <text class="st12" transform="translate(91.75 126.3)"><tspan x="0" y="0">AI accelerator</tspan></text>
+    <text class="st15" transform="translate(91.75 142.93)"><tspan x="0" y="0">Nvidia H100/H200/B200, AMD MI300, Google TPU, Intel Gaudi</tspan></text>
+    <text class="st8" transform="translate(574.33 135.16)"><tspan x="0" y="0">Imported</tspan></text>
+    <text class="st12" transform="translate(91.75 181.74)"><tspan x="0" y="0">HBM stack (memory)</tspan></text>
+    <text class="st15" transform="translate(91.75 198.37)"><tspan x="0" y="0">SK Hynix · Samsung · Micron — HBM3E fully allocated</tspan></text>
+    <text class="st8" transform="translate(574.33 190.6)"><tspan x="0" y="0">Imported</tspan></text>
+    <text class="st12" transform="translate(91.75 237.18)"><tspan x="0" y="0">Advanced packaging (2.5D/3D)</tspan></text>
+    <text class="st15" transform="translate(91.75 253.81)"><tspan x="0" y="0">TSMC CoWoS · ASE · Amkor — capacity oversubscribed</tspan></text>
+    <text class="st8" transform="translate(550.71 246.04)"><tspan x="0" y="0">Imported · BINDING</tspan></text>
+    <text class="st12" transform="translate(91.75 292.62)"><tspan x="0" y="0">Leading-edge logic wafer (3–5nm)</tspan></text>
+    <text class="st15" transform="translate(91.75 309.25)"><tspan x="0" y="0">TSMC · Samsung · Intel Foundry</tspan></text>
+    <text class="st8" transform="translate(574.33 301.48)"><tspan x="0" y="0">Imported</tspan></text>
+    <text class="st12" transform="translate(91.75 348.06)"><tspan x="0" y="0">Specialty gases &amp; materials</tspan></text>
+    <text class="st15" transform="translate(91.75 364.69)"><tspan x="0" y="0">Linde India · Inox · imports from JP/KR/DE</tspan></text>
+    <text class="st8" transform="translate(581.55 356.92)"><tspan x="0" y="0">Mixed</tspan></text>
+    <text class="st12" transform="translate(91.75 403.5)"><tspan x="0" y="0">Wafer-fab equipment (WFE)</tspan></text>
+    <text class="st15" transform="translate(91.75 420.13)"><tspan x="0" y="0">ASML · AMAT · Lam · TEL · KLA (Big-5 ~70% global)</tspan></text>
+    <text class="st8" transform="translate(574.33 412.36)"><tspan x="0" y="0">Imported</tspan></text>
+    <text class="st14" transform="translate(79.47 96.91)"><tspan x="0" y="0">Layer (top = product → bottom = primary input)</tspan></text>
+    <text class="st14" transform="translate(564.76 96.91)"><tspan x="0" y="0">India position</tspan></text>
+    <text class="st13" transform="translate(26.04 27.84)"><tspan x="0" y="0">GPU dependency stack — India position</tspan></text>
+    <text class="st16" transform="translate(25.59 48.31)"><tspan x="0" y="0">Every AI accelerator in commercial Indian deployment depends on six upstream layers; India participates in two</tspan></text>
+    <text class="st11" transform="translate(569.6 16.28)"><tspan x="0" y="0">Figure 9 · Techadyant Labs · 2026</tspan></text>
+    <text class="st10" transform="translate(7.2 487.04)"><tspan x="0" y="0">Source: TrendForce; SemiAnalysis; ASML investor materials; BIS Federal Register; Micron 10-K; Yole.</tspan></text>
+  </g>
+</svg>

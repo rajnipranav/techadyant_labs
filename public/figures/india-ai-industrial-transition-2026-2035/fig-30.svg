@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 838.08 631.26">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        clip-path: url(#clippath-21);
+      }
+
+      .st1 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st2 {
+        clip-path: url(#clippath-7);
+      }
+
+      .st3 {
+        clip-path: url(#clippath-17);
+      }
+
+      .st4 {
+        stroke: #2bc5b4;
+        stroke-opacity: .8;
+        stroke-width: 2px;
+      }
+
+      .st4, .st5, .st6, .st7 {
+        fill: none;
+      }
+
+      .st4, .st6, .st7 {
+        stroke-linejoin: round;
+      }
+
+      .st4, .st7 {
+        stroke-linecap: square;
+      }
+
+      .st8 {
+        opacity: .92;
+      }
+
+      .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28 {
+        isolation: isolate;
+      }
+
+      .st8, .st14 {
+        fill: #c9a84c;
+        stroke-width: .5px;
+      }
+
+      .st8, .st14, .st29, .st30 {
+        stroke: #0f1828;
+      }
+
+      .st31 {
+        clip-path: url(#clippath-15);
+      }
+
+      .st9, .st11, .st12 {
+        font-size: 8px;
+      }
+
+      .st9, .st12, .st21, .st23 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st9, .st13, .st29, .st18, .st19, .st20, .st21, .st25 {
+        fill: #0f1828;
+      }
+
+      .st32 {
+        clip-path: url(#clippath-18);
+      }
+
+      .st33 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st34 {
+        clip-path: url(#clippath-22);
+      }
+
+      .st35 {
+        clip-path: url(#clippath-23);
+      }
+
+      .st36 {
+        fill: #e8e5dd;
+      }
+
+      .st36, .st6, .st7 {
+        stroke: #c0c5cc;
+      }
+
+      .st36, .st29, .st7, .st30 {
+        stroke-width: .6px;
+      }
+
+      .st10 {
+        font-size: 11px;
+      }
+
+      .st10, .st37, .st16, .st17, .st23, .st26, .st27, .st28 {
+        fill: #fbf9f4;
+      }
+
+      .st10, .st13, .st15, .st16, .st18, .st20, .st25, .st26, .st27 {
+        font-weight: 700;
+      }
+
+      .st10, .st13, .st16, .st18, .st20, .st25, .st26, .st27 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .st38 {
+        clip-path: url(#clippath-9);
+      }
+
+      .st39 {
+        clip-path: url(#clippath-10);
+      }
+
+      .st40 {
+        fill: #fff;
+      }
+
+      .st11, .st15, .st17, .st19, .st22, .st24, .st28 {
+        font-style: italic;
+      }
+
+      .st11, .st15, .st22, .st24 {
+        fill: #4a5567;
+      }
+
+      .st11, .st17, .st19, .st22, .st24, .st28 {
+        font-family: Arial-ItalicMT, Arial;
+      }
+
+      .st41 {
+        clip-path: url(#clippath-11);
+      }
+
+      .st12 {
+        fill: #c0c5cc;
+      }
+
+      .st6 {
+        stroke-dasharray: .4 .66;
+        stroke-opacity: .35;
+        stroke-width: .4px;
+      }
+
+      .st42 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st13, .st22 {
+        font-size: 7px;
+      }
+
+      .st14 {
+        opacity: .65;
+      }
+
+      .st43 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st44 {
+        clip-path: url(#clippath-20);
+      }
+
+      .st15 {
+        font-family: Arial-BoldItalicMT, Arial;
+      }
+
+      .st15, .st18 {
+        font-size: 10px;
+      }
+
+      .st45 {
+        clip-path: url(#clippath-8);
+      }
+
+      .st7 {
+        stroke-opacity: .55;
+      }
+
+      .st46 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st16, .st17 {
+        font-size: 9px;
+      }
+
+      .st47 {
+        clip-path: url(#clippath-12);
+      }
+
+      .st48 {
+        clip-path: url(#clippath-14);
+      }
+
+      .st49 {
+        clip-path: url(#clippath-19);
+      }
+
+      .st30 {
+        fill: #2bc5b4;
+      }
+
+      .st19, .st21, .st23, .st28 {
+        font-size: 7.5px;
+      }
+
+      .st20 {
+        font-size: 15px;
+      }
+
+      .st50 {
+        clip-path: url(#clippath-16);
+      }
+
+      .st51 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st52 {
+        clip-path: url(#clippath-13);
+      }
+
+      .st53 {
+        clip-path: url(#clippath-24);
+      }
+
+      .st24 {
+        font-size: 10.5px;
+      }
+
+      .st54 {
+        clip-path: url(#clippath);
+      }
+
+      .st25, .st26 {
+        font-size: 8.5px;
+      }
+
+      .st27 {
+        font-size: 13px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+    <clipPath id="clippath-24">
+      <rect class="st5" x="68.04" y="65.12" width="725.4" height="498.96"/>
+    </clipPath>
+  </defs>
+  <path class="st37" d="M0,631.26h838.08V0H0v631.26Z"/>
+  <rect class="st40" x="68.04" y="82.89" width="725.4" height="481.19"/>
+  <g class="st54">
+    <path class="st30" d="M95.94,206.49h195.3c1.86,0,2.79-.92,2.79-2.77v-77.62c0-1.85-.93-2.77-2.79-2.77H95.94c-1.86,0-2.79.92-2.79,2.77v77.62c0,1.85.93,2.77,2.79,2.77Z"/>
+  </g>
+  <g class="st42">
+    <path class="st29" d="M330.3,212.03h200.88c1.86,0,2.79-.92,2.79-2.77v-85.93c0-1.85-.93-2.77-2.79-2.77h-200.88c-1.86,0-2.79.92-2.79,2.77v85.93c0,1.85.93,2.77,2.79,2.77Z"/>
+  </g>
+  <g class="st51">
+    <path class="st30" d="M570.24,206.49h195.3c1.86,0,2.79-.92,2.79-2.77v-77.62c0-1.85-.93-2.77-2.79-2.77h-195.3c-1.86,0-2.79.92-2.79,2.77v77.62c0,1.85.93,2.77,2.79,2.77Z"/>
+  </g>
+  <g class="st46">
+    <path class="st8" d="M81.99,333.45h150.66c1.49,0,2.23-.74,2.23-2.22v-80.39c0-1.48-.74-2.22-2.23-2.22H81.99c-1.49,0-2.23.74-2.23,2.22v80.39c0,1.48.74,2.22,2.23,2.22Z"/>
+  </g>
+  <g class="st33">
+    <path class="st8" d="M254.97,333.45h150.66c1.49,0,2.23-.74,2.23-2.22v-80.39c0-1.48-.74-2.22-2.23-2.22h-150.66c-1.49,0-2.23.74-2.23,2.22v80.39c0,1.48.74,2.22,2.23,2.22Z"/>
+  </g>
+  <g class="st43">
+    <path class="st8" d="M439.11,333.45h150.66c1.49,0,2.23-.74,2.23-2.22v-80.39c0-1.48-.74-2.22-2.23-2.22h-150.66c-1.49,0-2.23.74-2.23,2.22v80.39c0,1.48.74,2.22,2.23,2.22Z"/>
+  </g>
+  <g class="st1">
+    <path class="st8" d="M612.09,333.45h150.66c1.49,0,2.23-.74,2.23-2.22v-80.39c0-1.48-.74-2.22-2.23-2.22h-150.66c-1.49,0-2.23.74-2.23,2.22v80.39c0,1.48.74,2.22,2.23,2.22Z"/>
+  </g>
+  <g class="st2">
+    <path class="st36" d="M101.52,454.86h100.44c1.12,0,1.67-.55,1.67-1.66v-72.07c0-1.11-.56-1.66-1.67-1.66h-100.44c-1.12,0-1.67.55-1.67,1.66v72.07c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st45">
+    <path class="st36" d="M213.12,454.86h100.44c1.12,0,1.67-.55,1.67-1.66v-72.07c0-1.11-.56-1.66-1.67-1.66h-100.44c-1.12,0-1.67.55-1.67,1.66v72.07c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st38">
+    <path class="st36" d="M324.72,454.86h100.44c1.12,0,1.67-.55,1.67-1.66v-72.07c0-1.11-.56-1.66-1.67-1.66h-100.44c-1.12,0-1.67.55-1.67,1.66v72.07c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st39">
+    <path class="st36" d="M436.32,454.86h100.44c1.12,0,1.67-.55,1.67-1.66v-72.07c0-1.11-.56-1.66-1.67-1.66h-100.44c-1.12,0-1.67.55-1.67,1.66v72.07c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st41">
+    <path class="st36" d="M547.92,454.86h100.44c1.12,0,1.67-.55,1.67-1.66v-72.07c0-1.11-.56-1.66-1.67-1.66h-100.44c-1.12,0-1.67.55-1.67,1.66v72.07c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st47">
+    <path class="st36" d="M659.52,454.86h100.44c1.12,0,1.67-.55,1.67-1.66v-72.07c0-1.11-.56-1.66-1.67-1.66h-100.44c-1.12,0-1.67.55-1.67,1.66v72.07c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st52">
+    <path class="st14" d="M95.94,543.57h669.6c1.12,0,1.67-.55,1.67-1.66v-36.04c0-1.11-.56-1.66-1.67-1.66H95.94c-1.12,0-1.67.55-1.67,1.66v36.04c0,1.11.56,1.66,1.67,1.66Z"/>
+  </g>
+  <g class="st48">
+    <path class="st4" d="M291.24,164.91l39.06,1.11"/>
+  </g>
+  <g class="st31">
+    <path class="st4" d="M531.18,166.02l39.06-1.11"/>
+  </g>
+  <g class="st50">
+    <path class="st7" d="M157.32,250.84l273.42-41.58"/>
+  </g>
+  <g class="st3">
+    <path class="st7" d="M330.3,250.84l100.44-41.58"/>
+  </g>
+  <g class="st32">
+    <path class="st7" d="M514.44,250.84l-83.7-41.58"/>
+  </g>
+  <g class="st49">
+    <path class="st7" d="M687.42,250.84l-256.68-41.58"/>
+  </g>
+  <g class="st44">
+    <path class="st6" d="M151.74,381.13l279-171.86"/>
+  </g>
+  <g class="st0">
+    <path class="st6" d="M263.34,381.13l167.4-171.86"/>
+  </g>
+  <g class="st34">
+    <path class="st6" d="M374.94,381.13l55.8-171.86"/>
+  </g>
+  <g class="st35">
+    <path class="st6" d="M486.54,381.13l-55.8-171.86"/>
+  </g>
+  <g class="st53">
+    <path class="st6" d="M598.14,381.13l-167.4-171.86"/>
+  </g>
+  <path class="st6" d="M709.74,381.13l-279-171.86"/>
+  <text class="st10" transform="translate(155.19 145.51)"><tspan x="0" y="0">Tata-PSMC fab</tspan></text>
+  <text class="st17" transform="translate(157.58 159.37)"><tspan x="0" y="0">(Dholera, Gujarat)</tspan></text>
+  <text class="st26" transform="translate(137.6 176)"><tspan x="0" y="0">Rs 91,000 cr · 50,000 WSPM</tspan></text>
+  <text class="st23" transform="translate(142.32 188.2)"><tspan x="0" y="0">28–110 nm logic · ASML DUV-i</tspan></text>
+  <text class="st23" transform="translate(156.07 198.17)"><tspan x="0" y="0">Commercial: late 2027</tspan></text>
+  <text class="st27" transform="translate(370.43 139.96)"><tspan x="0" y="0">SANAND CLUSTER</tspan></text>
+  <text class="st17" transform="translate(415.98 154.93)"><tspan x="0" y="0">Gujarat</tspan></text>
+  <text class="st16" transform="translate(360.45 170.45)"><tspan x="0" y="0">Rs 1.25 lakh cr cumulative capex</tspan></text>
+  <text class="st28" transform="translate(361.92 184.31)"><tspan x="0" y="0">4 OSAT tenants · 100k+ direct jobs target</tspan></text>
+  <text class="st23" transform="translate(359.45 197.07)"><tspan x="0" y="0">Gujarat Semi Policy 2022–27 (40% top-up)</tspan></text>
+  <text class="st10" transform="translate(641.51 145.51)"><tspan x="0" y="0">Tata TSAT</tspan></text>
+  <text class="st17" transform="translate(631.55 159.37)"><tspan x="0" y="0">(Jagiroad, Assam)</tspan></text>
+  <text class="st26" transform="translate(609.07 176)"><tspan x="0" y="0">Rs 27,120 cr · 48 M chips/day</tspan></text>
+  <text class="st23" transform="translate(620.02 188.2)"><tspan x="0" y="0">ISP packaging · sister facility</tspan></text>
+  <text class="st23" transform="translate(609.31 198.17)"><tspan x="0" y="0">Operationally linked, not co-located</tspan></text>
+  <text class="st15" transform="translate(369.44 228.67)"><tspan x="0" y="0">SANAND OSAT TENANTS</tspan></text>
+  <text class="st18" transform="translate(140.93 264.7)"><tspan x="0" y="0">Micron</tspan></text>
+  <text class="st9" transform="translate(111.3 279.67)"><tspan x="0" y="0">USD 2.75B / Rs 22,516 cr</tspan></text>
+  <text class="st21" transform="translate(122.51 290.76)"><tspan x="0" y="0">500k sq ft cleanroom</tspan></text>
+  <text class="st19" transform="translate(120.41 301.85)"><tspan x="0" y="0">DRAM + NAND OSAT</tspan></text>
+  <text class="st13" transform="translate(134.36 314.6)"><tspan x="0" y="0">Live Feb 2025</tspan></text>
+  <text class="st18" transform="translate(309.46 264.7)"><tspan x="0" y="0">CG Semi</tspan></text>
+  <text class="st9" transform="translate(309.85 279.67)"><tspan x="0" y="0">Rs 7,600 cr</tspan></text>
+  <text class="st21" transform="translate(295.28 290.76)"><tspan x="0" y="0">15 M units/day target</tspan></text>
+  <text class="st19" transform="translate(296.01 301.85)"><tspan x="0" y="0">Analog + automotive</tspan></text>
+  <text class="st13" transform="translate(313.96 314.6)"><tspan x="0" y="0">Pilot 2025</tspan></text>
+  <text class="st18" transform="translate(474.42 264.7)"><tspan x="0" y="0">Kaynes Semicon</tspan></text>
+  <text class="st9" transform="translate(493.99 279.67)"><tspan x="0" y="0">Rs 3,307 cr</tspan></text>
+  <text class="st21" transform="translate(491.3 290.76)"><tspan x="0" y="0">6 M chips/day</tspan></text>
+  <text class="st19" transform="translate(484.84 301.85)"><tspan x="0" y="0">Power electronics</tspan></text>
+  <text class="st13" transform="translate(478.45 314.6)"><tspan x="0" y="0">Commercial Mar 2026</tspan></text>
+  <text class="st18" transform="translate(634.08 264.7)"><tspan x="0" y="0">Suchi Semicon (Surat)</tspan></text>
+  <text class="st9" transform="translate(670.3 279.67)"><tspan x="0" y="0">Rs 868 cr</tspan></text>
+  <text class="st21" transform="translate(649.9 290.76)"><tspan x="0" y="0">3 M chips/day by 2029</tspan></text>
+  <text class="st19" transform="translate(661.26 301.85)"><tspan x="0" y="0">Power + analog</tspan></text>
+  <text class="st13" transform="translate(654.55 314.6)"><tspan x="0" y="0">Approved May 2026</tspan></text>
+  <text class="st15" transform="translate(341.01 361.72)"><tspan x="0" y="0">INDIAN-SIDE SUPPLIER ECOSYSTEM</tspan></text>
+  <text class="st25" transform="translate(129.31 400.53)"><tspan x="0" y="0">Linde India</tspan></text>
+  <text class="st22" transform="translate(123.31 420.41)"><tspan x="0" y="0">Bulk + specialty</tspan></text>
+  <text class="st22" transform="translate(123.19 428.25)"><tspan x="0" y="0">electronic gases</tspan></text>
+  <text class="st25" transform="translate(228.08 400.53)"><tspan x="0" y="0">Inox Air Products</tspan></text>
+  <text class="st22" transform="translate(233.13 420.41)"><tspan x="0" y="0">ESG Hub Dholera</tspan></text>
+  <text class="st22" transform="translate(235.19 428.25)"><tspan x="0" y="0">Rs 500 cr capex</tspan></text>
+  <text class="st25" transform="translate(336.76 400.53)"><tspan x="0" y="0">L&amp;T / Tata Projects</tspan></text>
+  <text class="st22" transform="translate(356.1 420.41)"><tspan x="0" y="0">EPC + civil</tspan></text>
+  <text class="st22" transform="translate(353.17 428.25)"><tspan x="0" y="0">construction</tspan></text>
+  <text class="st25" transform="translate(455.13 400.53)"><tspan x="0" y="0">Aegis Logistics</tspan></text>
+  <text class="st22" transform="translate(460.48 420.41)"><tspan x="0" y="0">Hazardous-gas</tspan></text>
+  <text class="st22" transform="translate(466.59 428.25)"><tspan x="0" y="0">distribution</tspan></text>
+  <text class="st25" transform="translate(568.62 400.53)"><tspan x="0" y="0">Praj Industries</tspan></text>
+  <text class="st22" transform="translate(570.53 420.41)"><tspan x="0" y="0">Ultrapure water</tspan></text>
+  <text class="st22" transform="translate(583.66 428.25)"><tspan x="0" y="0">systems</tspan></text>
+  <text class="st25" transform="translate(674.56 400.53)"><tspan x="0" y="0">BHEL / ABB India</tspan></text>
+  <text class="st22" transform="translate(676.33 420.41)"><tspan x="0" y="0">Power conditioning</tspan></text>
+  <text class="st22" transform="translate(680.68 428.25)"><tspan x="0" y="0">+ HT switchgear</tspan></text>
+  <text class="st25" transform="translate(365.34 518.06)"><tspan x="0" y="0">DOWNSTREAM BENEFICIARIES</tspan></text>
+  <text class="st9" transform="translate(202.21 533.59)"><tspan x="0" y="0">Auto OEMs · Power electronics · Industrial automation · Consumer electronics PLI · ER&amp;D ecosystem · Indian-fabless customers</tspan></text>
+  <text class="st20" transform="translate(7.76 35.89)"><tspan x="0" y="0">Sanand semiconductor cluster ecosystem — tenants, anchors and supplier network</tspan></text>
+  <text class="st24" transform="translate(7.76 55.89)"><tspan x="0" y="0">Four OSAT tenants at Sanand + Tata-PSMC Dholera fab nearby + Tata TSAT in Assam (sister facility) + India-side supplier ecosystem</tspan></text>
+  <text class="st12" transform="translate(704.72 13.28)"><tspan x="0" y="0">Figure 30 · Techadyant Labs · 2026</tspan></text>
+  <text class="st11" transform="translate(8.28 612.05)"><tspan x="0" y="0">Source: PIB PRIDs 2108602, 2258119, 2161666, 2050859; Micron 10-K; Tata Electronics releases; supplier press materials.</tspan></text>
+</svg>
