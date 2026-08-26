@@ -10,7 +10,10 @@ import {
 } from '../../pillars';
 
 export function generateStaticParams() {
-  return PILLAR_SLUGS.map((corridor) => ({ corridor }));
+  // 'defence' is served by the dedicated static route app/research/pillars/defence/
+  // (the redesigned three-Atlas gateway). Exclude it here so the same path is not
+  // generated twice, which would fail the static export build.
+  return PILLAR_SLUGS.filter((corridor) => corridor !== 'defence').map((corridor) => ({ corridor }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ corridor: string }> }): Promise<Metadata> {
