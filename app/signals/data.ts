@@ -2306,6 +2306,40 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['India and Brazil signed a telecommunications and ICT cooperation MoU in Pune on 21 August 2026, signed by Communications Minister Jyotiraditya Scindia and Brazil\'s Communications Minister Frederico de Siqueira Filho.', 'The framework spans AI, 5G and 6G, Open RAN, IoT, direct-to-device connectivity, LEO satellites, non-terrestrial networks, spectrum management, cybersecurity, digital public infrastructure, optical fibre and submarine cables.', 'The MoU was signed on the sidelines of the BRICS Communications Ministers and ICT Track meetings, under India\'s 2026 BRICS chairship.', 'No funded network, joint product or specific standards outcome has yet been announced; the signal is institutional-framework scope, not capability delivery.'],
   sources: ['Press Information Bureau (21 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2302006', 'GKToday (22 Aug 2026): https://www.gktoday.in/india-brazil-sign-mou-on-telecommunications-and-ict/', 'India Brand Equity Foundation (24 Aug 2026): https://www.ibef.org/news/india-brazil-sign-mou-to-deepen-cooperation-in-telecommunications-icts-on-sidelines-of-brics-ict-track-meeting']
+}, {
+  slug: 'coal-india-singapore-subsidiary-critical-mineral-assets',
+  no: 'S-072',
+  title: 'Coal India incorporates Singapore subsidiary to pursue overseas critical-mineral assets',
+  domain: 'Critical Minerals & Strategic Resources',
+  date: '2026-08-26',
+  dateLabel: '26 Aug 2026',
+  status: 'live',
+  excerpt: 'Coal India incorporated wholly owned CIL Global Pte. Ltd. in Singapore on 24 August 2026 to explore overseas critical-mineral acquisitions, manage international investments and provide structural flexibility for future deals. The move creates an institutional vehicle for diversification beyond coal, but does not yet secure a mine, a production stream or a guaranteed supply contract.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Coal India Limited (CIL) incorporated a wholly owned Singapore subsidiary, CIL Global Pte. Ltd., on 24 August 2026. According to reporting based on the company\'s regulatory filing, the subsidiary is classified as a mining company and will explore and develop overseas opportunities for critical-mineral asset acquisition, manage overseas investments and provide structural flexibility for future acquisitions. Coal India subscribed to 500,000 shares at S$1 each, creating an initial equity investment of S$500,000.[1] [2]',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'The corporate vehicle gives India\'s largest state-controlled miner a dedicated platform for international mineral strategy. Coal India has been examining opportunities across lithium, rare earths, copper, bauxite and related value chains, including possible activity in Chile, Australia, Canada and Africa. These materials feed batteries, electronics, renewable-energy systems, telecommunications and defence equipment. The move therefore links a legacy energy major to the resource base required for India\'s next industrial cycle, while also giving the company a structure for managing acquisitions, partnerships, processing and logistics beyond India\'s borders.[1] [2] [3]',
+  type: 'p'
+}, {
+  text: 'The Techadyant View',
+  type: 'h'
+}, {
+  text: 'This is an important execution signal, but it is not yet a supply-security victory. Incorporating CIL Global converts an overseas-minerals plan into an organisational capability; it does not prove that Coal India has secured an asset or that production will reach India. Reuters reported that the company\'s potential opportunities were still at a preliminary stage, while later coverage confirms the Singapore entity has now been created. The near-term question is whether the subsidiary can move from scouting and due diligence to a commercially viable acquisition, joint venture or offtake agreement.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for the first asset or partner named by CIL Global, especially in lithium, rare earths, copper or graphite. Track whether Coal India uses the platform only for acquisition or also for beneficiation, processing, logistics and offtake, since mine ownership alone does not guarantee resilient supply. Finally, look for a Chile, Australia, Canada or Africa transaction with disclosed terms; until then, the strategic value remains an option-building move rather than delivered mineral security.',
+  type: 'p'
+}],
+  takeaways: ['Coal India now has a dedicated overseas vehicle (CIL Global Pte. Ltd.) for critical-mineral acquisitions, incorporated 24 Aug 2026 with S$500k initial equity.', 'The move operationalises a strategic intent but does not yet deliver a mine, production stream or offtake agreement.', 'Target minerals: lithium, rare earths, copper, bauxite; target geographies include Chile, Australia, Canada, Africa.', 'Key test: whether CIL Global transitions from scouting to a commercial acquisition, JV or offtake deal.'],
+  sources: ['{"publication":"Business Standard","date":"2026-08-25","url":"https://www.business-standard.com/companies/news/coal-india-sets-up-singapore-arm-to-pursue-overseas-critical-mineral-assets-126082401498_1.html","note":"Reports the 24 August incorporation, S$500,000 initial investment, ownership and mandate of CIL Global"}', '{"publication":"Livemint","date":"2026-08-25","url":"https://www.livemint.com/companies/news/coal-india-sets-up-subsidiary-in-singapore-for-global-critical-mineral-assets-11787588049271.html","note":"Independently confirms the subsidiary and places it within Coal India\'s broader diversification and critical-minerals strategy"}', '{"publication":"Reuters","date":"2026-08-20","url":"https://www.reuters.com/business/energy/coal-india-plans-singapore-trading-hub-hunt-critical-mineral-assets-sources-say-2026-08-20/","note":"Pre-incorporation reporting provides context on the planned overseas platform, target geographies and preliminary status of opportunities"}']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
