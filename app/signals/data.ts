@@ -2340,6 +2340,40 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Coal India now has a dedicated overseas vehicle (CIL Global Pte. Ltd.) for critical-mineral acquisitions, incorporated 24 Aug 2026 with S$500k initial equity.', 'The move operationalises a strategic intent but does not yet deliver a mine, production stream or offtake agreement.', 'Target minerals: lithium, rare earths, copper, bauxite; target geographies include Chile, Australia, Canada, Africa.', 'Key test: whether CIL Global transitions from scouting to a commercial acquisition, JV or offtake deal.'],
   sources: ['{"publication":"Business Standard","date":"2026-08-25","url":"https://www.business-standard.com/companies/news/coal-india-sets-up-singapore-arm-to-pursue-overseas-critical-mineral-assets-126082401498_1.html","note":"Reports the 24 August incorporation, S$500,000 initial investment, ownership and mandate of CIL Global"}', '{"publication":"Livemint","date":"2026-08-25","url":"https://www.livemint.com/companies/news/coal-india-sets-up-subsidiary-in-singapore-for-global-critical-mineral-assets-11787588049271.html","note":"Independently confirms the subsidiary and places it within Coal India\'s broader diversification and critical-minerals strategy"}', '{"publication":"Reuters","date":"2026-08-20","url":"https://www.reuters.com/business/energy/coal-india-plans-singapore-trading-hub-hunt-critical-mineral-assets-sources-say-2026-08-20/","note":"Pre-incorporation reporting provides context on the planned overseas platform, target geographies and preliminary status of opportunities"}']
+}, {
+  slug: 'csir-nal-indigenous-micro-gas-turbine-engines-uav',
+  no: 'S-073',
+  title: 'CSIR-NAL unveils three indigenous micro gas-turbine engines for unmanned defence systems',
+  domain: 'Defence Aerospace & Unmanned Systems',
+  date: '2026-08-27',
+  dateLabel: '27 Aug 2026',
+  status: 'live',
+  excerpt: 'CSIR-NAL unveiled the NJ-05, NJ-50 and NJ-100 micro and small gas-turbine engines on 25 August 2026, with thrust capacities of 5 kg, 50 kg and 100 kg. The engines are intended for tactical UAVs, drone interceptors and compact missile systems, creating a domestic propulsion option for small unmanned and defence platforms.',
+  readingTime: '3 min',
+  body: [{
+  text: 'CSIR-National Aerospace Laboratories unveiled three indigenous Micro and Small Gas Turbine Engines in New Delhi on 25 August 2026. The NJ-05 provides 5 kg of thrust, the NJ-50 provides 50 kg and the NJ-100 provides 100 kg. The Ministry of Science & Technology says the engines are intended for applications including tactical unmanned aerial vehicles, drone interceptors and compact missile systems. The technical work includes high-RPM turbomachinery and high-temperature combustion technologies.[1] [2] [3]',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Propulsion is a strategic bottleneck in the unmanned-systems supply chain. A domestic engine family can give Indian designers more control over airframe performance, payload, endurance, availability and export permissions, particularly for small systems where imported powerplants can impose disproportionate cost and supply risk. The three thrust classes also create a potential common propulsion base across multiple platform sizes rather than a single one-off demonstrator. CSIR-NAL describes Indian industry and aerospace start-ups as potential scale manufacturers, linking the laboratory milestone to a possible domestic production ecosystem.[1]',
+  type: 'p'
+}, {
+  text: 'The Techadyant View',
+  type: 'h'
+}, {
+  text: 'This is a genuine subsystem-development milestone, not yet an operational capability. The engines have been unveiled and the underlying technologies demonstrated, but the public release does not establish flight qualification, endurance testing, serial production, customer selection or deployment on a named platform. The strategic question is therefore whether CSIR-NAL can transfer the designs into an industrial process with the reliability, thermal performance and maintenance characteristics required by defence users.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for a named Indian manufacturer or start-up receiving a production or technology-transfer role. Track ground-test and flight-test results, qualification standards, endurance data and integration with a specific UAV, interceptor or missile programme. The strongest follow-on signal would be a funded order, user evaluation or serial-production decision that moves the engines beyond unveiling and into a repeatable defence supply chain.',
+  type: 'p'
+}],
+  takeaways: ['CSIR-NAL unveiled three indigenous micro and small gas-turbine engines — NJ-05, NJ-50, NJ-100 — on 25 August 2026.', 'Thrust range is 5 kg to 100 kg, targeting tactical UAVs, drone interceptors and compact missile systems.', 'This is a demonstration milestone: flight qualification, serial production and deployment are not yet proven.', 'The strongest next signal would be a manufacturer nomination, technology-transfer award, or funded order from a defence user.'],
+  sources: ['{"publication":"Press Information Bureau, Ministry of Science & Technology","date":"2026-08-25","url":"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2303065","note":"Official release confirming the three engines, thrust ratings, intended applications and technical development context"}', '{"publication":"United News of India","date":"2026-08-25","url":"https://www.uniindia.com/csir-nal-unveils-indigenous-gas-turbine-engines/south/news/3953966.html","note":"Independent coverage confirming the unveiling, engine ratings and potential domestic propulsion role"}', '{"publication":"Deccan Herald","date":"2026-08-26","url":"https://www.deccanherald.com/india/csir-nal-unveils-three-indigenous-micro-and-small-gas-turbine-engines-4124176","note":"Independent report confirming the NJ-05, NJ-50 and NJ-100 engines and their UAV and defence applications"}']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
