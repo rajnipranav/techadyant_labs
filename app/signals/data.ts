@@ -2374,6 +2374,40 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['CSIR-NAL unveiled three indigenous micro and small gas-turbine engines — NJ-05, NJ-50, NJ-100 — on 25 August 2026.', 'Thrust range is 5 kg to 100 kg, targeting tactical UAVs, drone interceptors and compact missile systems.', 'This is a demonstration milestone: flight qualification, serial production and deployment are not yet proven.', 'The strongest next signal would be a manufacturer nomination, technology-transfer award, or funded order from a defence user.'],
   sources: ['{"publication":"Press Information Bureau, Ministry of Science & Technology","date":"2026-08-25","url":"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2303065","note":"Official release confirming the three engines, thrust ratings, intended applications and technical development context"}', '{"publication":"United News of India","date":"2026-08-25","url":"https://www.uniindia.com/csir-nal-unveils-indigenous-gas-turbine-engines/south/news/3953966.html","note":"Independent coverage confirming the unveiling, engine ratings and potential domestic propulsion role"}', '{"publication":"Deccan Herald","date":"2026-08-26","url":"https://www.deccanherald.com/india/csir-nal-unveils-three-indigenous-micro-and-small-gas-turbine-engines-4124176","note":"Independent report confirming the NJ-05, NJ-50 and NJ-100 engines and their UAV and defence applications"}']
+}, {
+  slug: 'drdo-conventional-missile-technology-transfer-indian-industry',
+  no: 'S-074',
+  title: 'India opens DRDO conventional-missile technologies to domestic industry',
+  domain: 'Defence Industrial Base & Missiles',
+  date: '2026-08-28',
+  dateLabel: '28 Aug 2026',
+  status: 'live',
+  excerpt: 'Defence Minister Rajnath Singh approved the transfer of DRDO-developed technologies for all conventional missile systems to Indian defence manufacturers. The policy could move more missile programmes from state-led production into a broader industrial base, subject to qualification, certification and regulatory requirements.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Defence Minister Rajnath Singh approved the transfer of technology for all conventional missile systems developed by the Defence Research and Development Organisation to Indian defence manufacturers. The transfer is intended to enable domestic companies to undertake production, subject to applicable technical qualifications, certifications and regulatory requirements. The Hindu reports that the decision is designed to move missile projects from development into industrial-scale production and widen participation by private companies, MSMEs and technology partners.[1] [2]',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'The decision changes the route by which missile know-how can reach the production base. Private firms have supplied components and subsystems for years, but wider technology transfer can allow qualified companies to move closer to system-level manufacturing and prime integration. Economic Times identifies DRDO-developed systems such as Astra, Rudram, the Long Range Anti-Ship Hypersonic Missile and Pralay as examples of the portfolio affected by the policy. A wider industrial pool could improve production capacity, competition, domestic value addition and magazine depth, while creating more opportunities for specialist MSMEs in the missile supply chain.[2]',
+  type: 'p'
+}, {
+  text: 'The Techadyant View',
+  type: 'h'
+}, {
+  text: 'This is a major industrial-policy signal, but not yet a production result. No company-specific technology-transfer agreement, production order, delivery schedule or serial-output target has been announced in the public reporting. Missile production requires demanding testing, quality assurance, propulsion and energetic-materials controls, secure facilities and dependable orders. The policy creates the route; its success will be measured by how many firms qualify, which systems are transferred and whether the procurement system provides sufficient demand to justify industrial investment.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for the first named technology-transfer agreements and the eligibility criteria used to select participating companies. Track whether private firms become system integrators or remain suppliers of components, and whether DRDO establishes clear qualification, testing and certification pathways. The strongest follow-on evidence will be a funded production contract, user evaluation, first delivery or a disclosed increase in capacity for a specific missile family.',
+  type: 'p'
+}],
+  takeaways: ['Defence Minister Rajnath Singh approved DRDO conventional-missile technology transfer to Indian defence manufacturers.', 'Scope covers all DRDO conventional missile systems, including Astra, Rudram, LRAShM and Pralay.', 'Participation is subject to technical qualifications, certifications and regulatory requirements.', 'The strongest next evidence will be named technology-transfer agreements, qualification pathways and funded production contracts.'],
+  sources: ['{"publication":"The Hindu","date":"2026-08-25","url":"https://www.thehindu.com/news/national/govt-approves-transfer-of-drdo-developed-missile-tech-to-indian-defence-industry/article71388248.ece","note":"Confirms the Defence Minister\'s approval, the scope of the transfer and the qualification and certification conditions"}', '{"publication":"The Economic Times","date":"2026-08-26","url":"https://m.economictimes.com/news/defence/rajnath-singh-opens-drdo-missile-tech-to-private-sector/articleshow/133523823.cms","note":"Provides context on the shift from public-sector dominance and identifies representative DRDO missile systems"}', '{"publication":"Al Jazeera","date":"2026-08-26","url":"https://www.aljazeera.com/news/2026/8/26/why-india-is-sharing-missile-secrets-with-its-private-sector","note":"Independently confirms the policy and analyses its implications for private-sector production, prime integration and missile stockpiles"}']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
