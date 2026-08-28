@@ -1,5 +1,6 @@
 // Server-safe data access + helpers for the Military Aerospace Atlas entity pages.
 import raw from '../_aerospace.json';
+import type { PackLayer, PackSignal } from '../AtlasLayers';
 
 export type Source = { id: string; title: string; url: string | null; tier: string; verdict: string | null; resolved: boolean; indicative: boolean };
 export type Platform = {
@@ -42,6 +43,8 @@ export type Meta = {
 };
 
 const d = raw as unknown as {
+  layers?: PackLayer[];
+  signals?: PackSignal[];
   meta: Meta; platforms: Platform[]; companies: Company[]; suppliers: Supplier[]; systems: System[];
   localization: Localization[]; dependencies: Dependency[]; opportunities: Opportunity[];
   geography: { records: GeoRec[]; clusters: GeoCluster[] }; mro: Mro[]; programmes: Programme[];
@@ -83,3 +86,6 @@ export const CRIT_COLOR: Record<string, string> = { CRITICAL: '#E24B4A', HIGH: '
 export const CONC_LABEL: Record<string, string> = { 'single-source': 'Single source', oligopolistic: 'Oligopolistic' };
 export const TIER_LABEL: Record<string, string> = { 'tier-1': 'Tier 1', 'tier-2': 'Tier 2', 'tier-3': 'Tier 3' };
 export const humanCat = (c: string) => (c || '').replace(/-/g, ' ');
+
+export const packLayers = d.layers || [];
+export const packSignals = d.signals || [];

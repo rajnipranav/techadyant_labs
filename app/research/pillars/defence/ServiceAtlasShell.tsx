@@ -9,8 +9,10 @@ import { DefenceTrack } from './DefenceTrack';
 import {
   VIEW_META, VIEW_SERVICES, ROUTE_BY_VIEW, entitiesForServices, statsForView,
   domainsForView, isSystem, isIndustry, entitySlug, asOf,
+  layersForServices, signalsForServices,
   type ViewCode,
 } from './data';
+import { LayerScores, SignalsTimeline } from '../../AtlasLayers';
 
 const BASE = '/research/pillars/defence';
 
@@ -33,6 +35,8 @@ export function ServiceAtlasShell({ view }: { view: ViewCode }) {
   const industry = ents.filter(isIndustry);
   const domains = domainsForView(svc);
   const route = ROUTE_BY_VIEW[view];
+  const packLayers = layersForServices(svc);
+  const packSignals = signalsForServices(svc);
 
   const ld = [
     breadcrumb([
@@ -105,6 +109,15 @@ export function ServiceAtlasShell({ view }: { view: ViewCode }) {
           </div>
         </div>
       </section>
+
+      {(packLayers.length > 0 || packSignals.length > 0) && (
+        <section className="wrap">
+          <div style={{ display: 'grid', gap: 26 }}>
+            <LayerScores layers={packLayers} heading={`${m.label} — value chain, scored`} note="0 import-dependent to 5 sovereign. Aug 2026 research pack; each layer traces to a sourced record." />
+            <SignalsTimeline signals={packSignals} />
+          </div>
+        </section>
+      )}
 
       <section className="wrap">
         <div style={{ display: 'grid', gap: 22, gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>

@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
+import { LayerScores, SignalsTimeline, type PackLayer, type PackSignal } from '../AtlasLayers';
 
 type System = { id: string; slug: string; name: string; variant: string; mfr: string; country: string; indig: number | null; makeInIndia: string; classification: string; domain: string; mobility: string; kill: string[]; counters: string[]; detRange: number | null; neutRange: number | null; reaction: number | null; simTargets: number | null; ai: boolean; fusion: boolean; swarmDet: string; status: string; year: string };
 type Mfr = { id: string; slug: string; name: string; hq: string; country: string; founded: string; portfolio: string; indigenous: string };
@@ -9,7 +10,7 @@ type Dep = { id: string; system: string; location: string; state: string; agency
 type Row = Record<string, string>;
 type Intel = { topic: string; china: string; semi: string; ai: string; swarm: string; ew: string; gps: string; trl: string; indig: string };
 type Meta = { updated: string; systems: number; indianSystems: number; manufacturers: number; indianManufacturers: number; agencies: number; deployments: number; procurementCr: number; procurementRows: number; components: number; criticalComponents: number; technologies: number; incidents: number; avgIndigenous: number; byClassification: { c: string; n: number }[]; byMobility: { c: string; n: number }[]; byState: { c: string; n: number }[]; killLayers: { layer: string; n: number }[]; topManufacturers: { m: string; n: number }[] };
-type Data = { meta: Meta; systems: System[]; manufacturers: Mfr[]; deployments: Dep[]; procurement: Row[]; components: Row[]; technologies: Row[]; detection: Row[]; tracking: Row[]; identification: Row[]; softkill: Row[]; hardkill: Row[]; dew: Row[]; interceptors: Row[]; regulations: Row[]; trials: Row[]; incidents: Row[]; intel: Intel[] };
+type Data = { meta: Meta; systems: System[]; manufacturers: Mfr[]; deployments: Dep[]; procurement: Row[]; components: Row[]; technologies: Row[]; detection: Row[]; tracking: Row[]; identification: Row[]; softkill: Row[]; hardkill: Row[]; dew: Row[]; interceptors: Row[]; regulations: Row[]; trials: Row[]; incidents: Row[]; intel: Intel[]; layers?: PackLayer[]; signals?: PackSignal[] };
 
 const TABS = ['Overview', 'Systems', 'Kill Chain', 'Deployments', 'Manufacturers', 'Procurement', 'Components', 'Technology', 'Regulation', 'Incidents'] as const;
 type Tab = typeof TABS[number];
@@ -130,6 +131,8 @@ export function CuasView({ data }: { data: Data }) {
               <DeployMap deps={data.deployments} />
             </div>
           </div>
+          <LayerScores layers={data.layers || []} heading="Counter-UAS value chain, scored" note="0 import-dependent to 5 sovereign. Aug 2026 research pack; each layer traces to a sourced record." />
+          <SignalsTimeline signals={data.signals || []} />
           <div style={{ ...card, padding: '16px 18px' }}>
             <div style={{ ...kick, marginBottom: 8 }}>The research behind this map</div>
             <p style={{ margin: '0 0 10px', fontSize: 14, color: 'var(--text-dim)', lineHeight: 1.6 }}>Counter-UAS is one of the fastest-moving areas of Indian defence procurement. The deep-dive analysis sits in our unmanned-warfare research.</p>

@@ -3,6 +3,7 @@
 // association on every record — entities are NEVER duplicated across services; views are
 // derived by filtering on the `service` arrays. See DEFENCE-ATLAS-DB-SCHEMA.md.
 import raw from './_defence.json';
+import type { PackLayer, PackSignal } from '../../AtlasLayers';
 
 /* ----------------------------------------------------------------- types */
 export type ServiceCode = 'army' | 'navy' | 'coast_guard' | 'air_force' | 'joint';
@@ -77,6 +78,8 @@ interface DefenceDB {
   dependencies: Dependency[];
   opportunities: Opportunity[];
   sources: Source[];
+  service_layers?: PackLayer[];
+  signals?: PackSignal[];
 }
 
 const db = raw as unknown as DefenceDB;
@@ -342,3 +345,11 @@ export const VIEW_META: Record<ViewCode, ServiceViewMeta> = {
     blurb: 'Fighters and future combat aircraft, air-launched weapons, radar and avionics, and — decisively — the propulsion India does not yet own. Where each platform sits on the imported-to-indigenous ladder.',
   },
 };
+
+/** Aug-2026 research-pack additions, tagged by service code. */
+export const serviceLayers = db.service_layers || [];
+export const packSignals = db.signals || [];
+export const layersForServices = (svc: readonly string[]) =>
+  serviceLayers.filter((l) => !l.service || svc.includes(l.service));
+export const signalsForServices = (svc: readonly string[]) =>
+  packSignals.filter((s) => !s.service || svc.includes(s.service));

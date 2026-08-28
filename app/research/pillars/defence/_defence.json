@@ -1,2184 +1,2682 @@
 {
-  "schema_version": "defence-atlas-2026-08-v1",
-  "as_of": "2026-08-26",
-  "purpose": "Shared Defence Atlas graph seed for Army, Navy & Coast Guard, Air Force and cross-service views.",
-  "principles": [
-    "One canonical entity per real-world organisation/platform/system.",
-    "Service is a many-to-many association; do not duplicate joint entities.",
-    "Claims require source references where current/factual.",
-    "Procurement status distinguishes AoN, contract, delivery and commissioning.",
-    "DAP 2026 is draft and must not be represented as final unless later notified."
-  ],
-  "services": [
-    {
-      "code": "army",
-      "label": "Army",
-      "route": "army"
-    },
-    {
-      "code": "navy",
-      "label": "Navy",
-      "route": "navy-coast-guard"
-    },
-    {
-      "code": "coast_guard",
-      "label": "Coast Guard",
-      "route": "navy-coast-guard"
-    },
-    {
-      "code": "air_force",
-      "label": "Air Force",
-      "route": "air-force"
-    },
-    {
-      "code": "joint",
-      "label": "Joint / Cross-Service",
-      "route": "defence"
-    }
-  ],
-  "domains": {
-    "army": [
-      "land_platforms",
-      "armour",
-      "artillery",
-      "rockets",
-      "missiles",
-      "air_defence",
-      "infantry_systems",
-      "ammunition",
-      "uav",
-      "counter_uas",
-      "electronic_warfare",
-      "c4isr",
-      "mobility",
-      "logistics"
-    ],
-    "navy": [
-      "fleet",
-      "shipbuilding",
-      "submarines",
-      "naval_aviation",
-      "naval_weapons",
-      "asw",
-      "sensors",
-      "sonar",
-      "propulsion",
-      "power",
-      "maritime_comms",
-      "logistics",
-      "mro"
-    ],
-    "coast_guard": [
-      "patrol_vessels",
-      "maritime_surveillance",
-      "aviation",
-      "sensors",
-      "communications",
-      "shipbuilding",
-      "mro"
-    ],
-    "air_force": [
-      "combat_aircraft",
-      "transport",
-      "helicopters",
-      "uav",
-      "ucav",
-      "air_weapons",
-      "air_defence",
-      "radar",
-      "avionics",
-      "ew",
-      "propulsion",
-      "mro"
-    ],
-    "joint": [
-      "missiles",
-      "defence_electronics",
-      "c4isr",
-      "ew",
-      "counter_uas",
-      "space_enabled_systems",
-      "materials",
-      "industrial_policy"
-    ]
+ "schema_version": "defence-atlas-2026-08-v1",
+ "as_of": "2026-08-27",
+ "purpose": "Shared Defence Atlas graph seed for Army, Navy & Coast Guard, Air Force and cross-service views.",
+ "principles": [
+  "One canonical entity per real-world organisation/platform/system.",
+  "Service is a many-to-many association; do not duplicate joint entities.",
+  "Claims require source references where current/factual.",
+  "Procurement status distinguishes AoN, contract, delivery and commissioning.",
+  "DAP 2026 is draft and must not be represented as final unless later notified."
+ ],
+ "services": [
+  {
+   "code": "army",
+   "label": "Army",
+   "route": "army"
   },
-  "entities": [
-    {
-      "id": "org-indian-army",
-      "name": "Indian Army",
-      "type": "service",
-      "service": [
-        "army"
-      ],
-      "country": "IN",
-      "domain": [
-        "land_warfare"
-      ]
-    },
-    {
-      "id": "org-indian-navy",
-      "name": "Indian Navy",
-      "type": "service",
-      "service": [
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "maritime_warfare"
-      ]
-    },
-    {
-      "id": "org-indian-coast-guard",
-      "name": "Indian Coast Guard",
-      "type": "service",
-      "service": [
-        "coast_guard"
-      ],
-      "country": "IN",
-      "domain": [
-        "maritime_security"
-      ]
-    },
-    {
-      "id": "org-iaf",
-      "name": "Indian Air Force",
-      "type": "service",
-      "service": [
-        "air_force"
-      ],
-      "country": "IN",
-      "domain": [
-        "air_power"
-      ]
-    },
-    {
-      "id": "org-mod",
-      "name": "Ministry of Defence",
-      "type": "ministry",
-      "service": [
-        "joint"
-      ],
-      "country": "IN",
-      "domain": [
-        "governance"
-      ]
-    },
-    {
-      "id": "org-ddp",
-      "name": "Department of Defence Production",
-      "type": "govt_body",
-      "service": [
-        "joint"
-      ],
-      "country": "IN",
-      "domain": [
-        "industrial_policy"
-      ]
-    },
-    {
-      "id": "org-drdo",
-      "name": "Defence Research and Development Organisation",
-      "type": "research_institution",
-      "service": [
-        "joint"
-      ],
-      "country": "IN",
-      "domain": [
-        "r_and_d"
-      ]
-    },
-    {
-      "id": "org-hal",
-      "name": "Hindustan Aeronautics Limited",
-      "type": "psu",
-      "service": [
-        "air_force",
-        "navy",
-        "joint"
-      ],
-      "country": "IN",
-      "domain": [
-        "aerospace"
-      ]
-    },
-    {
-      "id": "org-bel",
-      "name": "Bharat Electronics Limited",
-      "type": "psu",
-      "service": [
-        "army",
-        "navy",
-        "air_force",
-        "joint"
-      ],
-      "country": "IN",
-      "domain": [
-        "defence_electronics"
-      ]
-    },
-    {
-      "id": "org-bdl",
-      "name": "Bharat Dynamics Limited",
-      "type": "psu",
-      "service": [
-        "army",
-        "air_force",
-        "navy",
-        "joint"
-      ],
-      "country": "IN",
-      "domain": [
-        "missiles"
-      ]
-    },
-    {
-      "id": "org-mdl",
-      "name": "Mazagon Dock Shipbuilders Limited",
-      "type": "psu",
-      "service": [
-        "navy",
-        "coast_guard"
-      ],
-      "country": "IN",
-      "domain": [
-        "shipbuilding",
-        "submarines"
-      ]
-    },
-    {
-      "id": "org-grse",
-      "name": "Garden Reach Shipbuilders & Engineers",
-      "type": "psu",
-      "service": [
-        "navy",
-        "coast_guard"
-      ],
-      "country": "IN",
-      "domain": [
-        "shipbuilding"
-      ]
-    },
-    {
-      "id": "org-csl",
-      "name": "Cochin Shipyard Limited",
-      "type": "psu",
-      "service": [
-        "navy",
-        "coast_guard"
-      ],
-      "country": "IN",
-      "domain": [
-        "shipbuilding",
-        "repair"
-      ]
-    },
-    {
-      "id": "org-gsl",
-      "name": "Goa Shipyard Limited",
-      "type": "psu",
-      "service": [
-        "navy",
-        "coast_guard"
-      ],
-      "country": "IN",
-      "domain": [
-        "shipbuilding"
-      ]
-    },
-    {
-      "id": "org-hsl",
-      "name": "Hindustan Shipyard Limited",
-      "type": "psu",
-      "service": [
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "shipbuilding",
-        "submarines"
-      ]
-    },
-    {
-      "id": "org-midhani",
-      "name": "Mishra Dhatu Nigam Limited",
-      "type": "psu",
-      "service": [
-        "army",
-        "navy",
-        "air_force",
-        "joint"
-      ],
-      "country": "IN",
-      "domain": [
-        "speciality_materials"
-      ]
-    },
-    {
-      "id": "org-beml",
-      "name": "BEML Limited",
-      "type": "psu",
-      "service": [
-        "army",
-        "joint"
-      ],
-      "country": "IN",
-      "domain": [
-        "mobility",
-        "engineering"
-      ]
-    },
-    {
-      "id": "org-brahmos",
-      "name": "BrahMos Aerospace",
-      "type": "jv",
-      "service": [
-        "army",
-        "navy",
-        "air_force"
-      ],
-      "country": "IN",
-      "domain": [
-        "missiles"
-      ]
-    },
-    {
-      "id": "org-safran",
-      "name": "Safran",
-      "type": "foreign_supplier",
-      "service": [
-        "air_force",
-        "navy"
-      ],
-      "country": "FR",
-      "domain": [
-        "aerospace",
-        "engines",
-        "mro"
-      ]
-    },
-    {
-      "id": "org-ge-aerospace",
-      "name": "GE Aerospace",
-      "type": "foreign_supplier",
-      "service": [
-        "air_force"
-      ],
-      "country": "US",
-      "domain": [
-        "aircraft_engines"
-      ]
-    },
-    {
-      "id": "org-lockheed",
-      "name": "Lockheed Martin",
-      "type": "foreign_supplier",
-      "service": [
-        "air_force"
-      ],
-      "country": "US",
-      "domain": [
-        "aircraft",
-        "weapons"
-      ]
-    },
-    {
-      "id": "org-dassault",
-      "name": "Dassault Aviation",
-      "type": "foreign_supplier",
-      "service": [
-        "air_force",
-        "navy"
-      ],
-      "country": "FR",
-      "domain": [
-        "combat_aircraft"
-      ]
-    },
-    {
-      "id": "org-naval-group",
-      "name": "Naval Group",
-      "type": "foreign_supplier",
-      "service": [
-        "navy"
-      ],
-      "country": "FR",
-      "domain": [
-        "submarines"
-      ]
-    },
-    {
-      "id": "org-thyssenkrupp",
-      "name": "thyssenkrupp Marine Systems",
-      "type": "foreign_supplier",
-      "service": [
-        "navy"
-      ],
-      "country": "DE",
-      "domain": [
-        "submarines"
-      ]
-    },
-    {
-      "id": "org-eads",
-      "name": "Airbus",
-      "type": "foreign_supplier",
-      "service": [
-        "air_force",
-        "joint"
-      ],
-      "country": "EU",
-      "domain": [
-        "transport",
-        "aerospace"
-      ]
-    },
-    {
-      "id": "sys-t90",
-      "name": "T-90 Main Battle Tank",
-      "type": "platform",
-      "service": [
-        "army"
-      ],
-      "country": "IN/RU",
-      "domain": [
-        "armour"
-      ],
-      "status": "operational"
-    },
-    {
-      "id": "sys-t72",
-      "name": "T-72 Main Battle Tank",
-      "type": "platform",
-      "service": [
-        "army"
-      ],
-      "country": "IN/RU",
-      "domain": [
-        "armour"
-      ],
-      "status": "operational"
-    },
-    {
-      "id": "sys-arjun",
-      "name": "Arjun Main Battle Tank",
-      "type": "platform",
-      "service": [
-        "army"
-      ],
-      "country": "IN",
-      "domain": [
-        "armour"
-      ],
-      "status": "operational"
-    },
-    {
-      "id": "sys-bmp2",
-      "name": "BMP-2 / BMP-2K",
-      "type": "platform",
-      "service": [
-        "army"
-      ],
-      "country": "IN/RU",
-      "domain": [
-        "mechanised_infantry"
-      ],
-      "status": "operational"
-    },
-    {
-      "id": "sys-atags",
-      "name": "ATAGS",
-      "type": "weapon",
-      "service": [
-        "army"
-      ],
-      "country": "IN",
-      "domain": [
-        "artillery"
-      ],
-      "status": "induction"
-    },
-    {
-      "id": "sys-dhanush",
-      "name": "Dhanush Gun System",
-      "type": "weapon",
-      "service": [
-        "army"
-      ],
-      "country": "IN",
-      "domain": [
-        "artillery"
-      ],
-      "status": "induction"
-    },
-    {
-      "id": "sys-pinaka",
-      "name": "Pinaka Multi-Barrel Rocket Launcher",
-      "type": "weapon",
-      "service": [
-        "army"
-      ],
-      "country": "IN",
-      "domain": [
-        "rockets",
-        "artillery"
-      ],
-      "status": "operational"
-    },
-    {
-      "id": "sys-akash-army",
-      "name": "Akash Weapon System",
-      "type": "system",
-      "service": [
-        "army",
-        "air_force"
-      ],
-      "country": "IN",
-      "domain": [
-        "air_defence"
-      ],
-      "status": "operational"
-    },
-    {
-      "id": "sys-mrsam",
-      "name": "MRSAM",
-      "type": "system",
-      "service": [
-        "army",
-        "air_force"
-      ],
-      "country": "IN/IL",
-      "domain": [
-        "air_defence"
-      ],
-      "status": "operational"
-    },
-    {
-      "id": "sys-mpatgm",
-      "name": "MPATGM",
-      "type": "weapon",
-      "service": [
-        "army"
-      ],
-      "country": "IN",
-      "domain": [
-        "anti_tank"
-      ],
-      "status": "procurement"
-    },
-    {
-      "id": "sys-akash-tarang",
-      "name": "Akash Tarang Anti-UAV Electronic Warfare System",
-      "type": "system",
-      "service": [
-        "army"
-      ],
-      "country": "IN",
-      "domain": [
-        "counter_uas",
-        "electronic_warfare"
-      ],
-      "status": "procurement"
-    },
-    {
-      "id": "sys-vshorads",
-      "name": "VSHORADS",
-      "type": "system",
-      "service": [
-        "army",
-        "air_force"
-      ],
-      "country": "IN",
-      "domain": [
-        "air_defence"
-      ],
-      "status": "development/procurement"
-    },
-    {
-      "id": "sys-tank-aps",
-      "name": "Active Protection System for Tanks",
-      "type": "system",
-      "service": [
-        "army"
-      ],
-      "country": "IN",
-      "domain": [
-        "armour",
-        "protection"
-      ],
-      "status": "procurement"
-    },
-    {
-      "id": "sys-kamikaze-jet",
-      "name": "Jet-Based Kamikaze Drone System",
-      "type": "system",
-      "service": [
-        "army"
-      ],
-      "country": "IN",
-      "domain": [
-        "loitering_munitions",
-        "uav"
-      ],
-      "status": "procurement"
-    },
-    {
-      "id": "nav-p17a",
-      "name": "Project 17A / Nilgiri-class stealth frigate",
-      "type": "programme",
-      "service": [
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "frigates"
-      ],
-      "status": "in_production"
-    },
-    {
-      "id": "nav-mahendragiri",
-      "name": "INS Mahendragiri",
-      "type": "platform",
-      "service": [
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "frigates"
-      ],
-      "status": "commissioned_2026"
-    },
-    {
-      "id": "nav-dunagiri",
-      "name": "INS Dunagiri",
-      "type": "platform",
-      "service": [
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "frigates"
-      ],
-      "status": "commissioned_2026"
-    },
-    {
-      "id": "nav-taragiri",
-      "name": "INS Taragiri",
-      "type": "platform",
-      "service": [
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "frigates"
-      ],
-      "status": "commissioned_2026"
-    },
-    {
-      "id": "nav-aswswc",
-      "name": "Anti-Submarine Warfare Shallow Water Craft programme",
-      "type": "programme",
-      "service": [
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "asw",
-        "corvettes"
-      ],
-      "status": "in_production"
-    },
-    {
-      "id": "nav-agray",
-      "name": "INS Agray",
-      "type": "platform",
-      "service": [
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "asw",
-        "corvette"
-      ],
-      "status": "commissioned_2026"
-    },
-    {
-      "id": "nav-anjadip",
-      "name": "INS Anjadip",
-      "type": "platform",
-      "service": [
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "asw",
-        "corvette"
-      ],
-      "status": "commissioned_2026"
-    },
-    {
-      "id": "nav-sanshodhak",
-      "name": "INS Sanshodhak",
-      "type": "platform",
-      "service": [
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "survey"
-      ],
-      "status": "commissioned_2026"
-    },
-    {
-      "id": "nav-p75i",
-      "name": "Project 75(I)",
-      "type": "programme",
-      "service": [
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "submarines"
-      ],
-      "status": "procurement"
-    },
-    {
-      "id": "nav-ratna",
-      "name": "Project 75 / Kalvari-class submarines",
-      "type": "programme",
-      "service": [
-        "navy"
-      ],
-      "country": "IN/FR",
-      "domain": [
-        "submarines"
-      ],
-      "status": "in_service_and_follow_on"
-    },
-    {
-      "id": "nav-rafalem",
-      "name": "Rafale-M",
-      "type": "platform",
-      "service": [
-        "navy"
-      ],
-      "country": "IN/FR",
-      "domain": [
-        "naval_aviation"
-      ],
-      "status": "contracted"
-    },
-    {
-      "id": "nav-fuel-barges",
-      "name": "500T Self Propelled Fuel Barges",
-      "type": "programme",
-      "service": [
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "logistics"
-      ],
-      "status": "contracted"
-    },
-    {
-      "id": "air-tejas-mk1a",
-      "name": "LCA Tejas Mk1A",
-      "type": "platform",
-      "service": [
-        "air_force"
-      ],
-      "country": "IN/US",
-      "domain": [
-        "fighter"
-      ],
-      "status": "production"
-    },
-    {
-      "id": "air-tejas-mk2",
-      "name": "LCA Tejas Mk2",
-      "type": "programme",
-      "service": [
-        "air_force"
-      ],
-      "country": "IN",
-      "domain": [
-        "fighter"
-      ],
-      "status": "development"
-    },
-    {
-      "id": "air-amca",
-      "name": "AMCA",
-      "type": "programme",
-      "service": [
-        "air_force"
-      ],
-      "country": "IN",
-      "domain": [
-        "fighter"
-      ],
-      "status": "development"
-    },
-    {
-      "id": "air-mrfa",
-      "name": "Multi Role Fighter Aircraft (MRFA) / Rafale",
-      "type": "programme",
-      "service": [
-        "air_force"
-      ],
-      "country": "IN/FR",
-      "domain": [
-        "fighter"
-      ],
-      "status": "AoN_2026"
-    },
-    {
-      "id": "air-su30mki",
-      "name": "Su-30MKI",
-      "type": "platform",
-      "service": [
-        "air_force"
-      ],
-      "country": "IN/RU",
-      "domain": [
-        "fighter"
-      ],
-      "status": "operational"
-    },
-    {
-      "id": "air-mirage2000",
-      "name": "Mirage 2000",
-      "type": "platform",
-      "service": [
-        "air_force"
-      ],
-      "country": "IN/FR",
-      "domain": [
-        "fighter"
-      ],
-      "status": "operational"
-    },
-    {
-      "id": "air-rafale",
-      "name": "Rafale",
-      "type": "platform",
-      "service": [
-        "air_force"
-      ],
-      "country": "IN/FR",
-      "domain": [
-        "fighter"
-      ],
-      "status": "operational"
-    },
-    {
-      "id": "air-uttam",
-      "name": "UTTAM AESA Radar",
-      "type": "system",
-      "service": [
-        "air_force"
-      ],
-      "country": "IN",
-      "domain": [
-        "radar"
-      ],
-      "status": "development/integration"
-    },
-    {
-      "id": "air-astra",
-      "name": "Astra air-to-air missile family",
-      "type": "weapon",
-      "service": [
-        "air_force",
-        "navy"
-      ],
-      "country": "IN",
-      "domain": [
-        "air_to_air_missile"
-      ],
-      "status": "operational/development"
-    },
-    {
-      "id": "air-rudram2",
-      "name": "RudraM-II",
-      "type": "weapon",
-      "service": [
-        "air_force"
-      ],
-      "country": "IN",
-      "domain": [
-        "air_to_surface",
-        "anti_radiation"
-      ],
-      "status": "tested"
-    },
-    {
-      "id": "air-tara",
-      "name": "TARA Glide Weapon",
-      "type": "weapon",
-      "service": [
-        "air_force"
-      ],
-      "country": "IN",
-      "domain": [
-        "precision_strike"
-      ],
-      "status": "tested"
-    },
-    {
-      "id": "air-as-haps",
-      "name": "Air-Ship Based High Altitude Pseudo Satellite (AS-HAPS)",
-      "type": "programme",
-      "service": [
-        "air_force"
-      ],
-      "country": "IN",
-      "domain": [
-        "high_altitude_pseudo_satellite"
-      ],
-      "status": "AoN_2026"
-    },
-    {
-      "id": "air-lca-engine",
-      "name": "GE F404-GE-IN20 engine for LCA Mk1A",
-      "type": "component",
-      "service": [
-        "air_force"
-      ],
-      "country": "US",
-      "domain": [
-        "aircraft_engine"
-      ],
-      "status": "imported"
-    },
-    {
-      "id": "air-ge414",
-      "name": "GE F414 / India manufacturing pathway",
-      "type": "component",
-      "service": [
-        "air_force"
-      ],
-      "country": "US/IN",
-      "domain": [
-        "aircraft_engine"
-      ],
-      "status": "technology_transfer_pathway"
-    },
-    {
-      "id": "tech-aesa",
-      "name": "AESA radar technology",
-      "type": "technology",
-      "service": [
-        "army",
-        "navy",
-        "air_force"
-      ],
-      "country": "IN/foreign",
-      "domain": [
-        "sensors"
-      ]
-    },
-    {
-      "id": "tech-ew",
-      "name": "Electronic warfare systems",
-      "type": "technology",
-      "service": [
-        "army",
-        "navy",
-        "air_force"
-      ],
-      "country": "IN/foreign",
-      "domain": [
-        "electronic_warfare"
-      ]
-    },
-    {
-      "id": "tech-cuas",
-      "name": "Counter-UAS",
-      "type": "technology",
-      "service": [
-        "army",
-        "navy",
-        "air_force",
-        "coast_guard"
-      ],
-      "country": "IN/foreign",
-      "domain": [
-        "counter_uas"
-      ]
-    },
-    {
-      "id": "tech-propulsion",
-      "name": "Military propulsion",
-      "type": "technology",
-      "service": [
-        "army",
-        "navy",
-        "air_force"
-      ],
-      "country": "IN/foreign",
-      "domain": [
-        "propulsion"
-      ]
-    },
-    {
-      "id": "tech-advanced-materials",
-      "name": "Advanced defence materials and superalloys",
-      "type": "technology",
-      "service": [
-        "army",
-        "navy",
-        "air_force"
-      ],
-      "country": "IN/foreign",
-      "domain": [
-        "materials"
-      ]
-    },
-    {
-      "id": "tech-sonar",
-      "name": "Naval sonar",
-      "type": "technology",
-      "service": [
-        "navy",
-        "coast_guard"
-      ],
-      "country": "IN/foreign",
-      "domain": [
-        "underwater_sensors"
-      ]
-    },
-    {
-      "id": "tech-satellite-comms",
-      "name": "Defence satellite communications",
-      "type": "technology",
-      "service": [
-        "army",
-        "navy",
-        "air_force",
-        "coast_guard"
-      ],
-      "country": "IN/foreign",
-      "domain": [
-        "communications"
-      ]
-    },
-    {
-      "id": "tech-jet-engines",
-      "name": "Military turbofan engines",
-      "type": "technology",
-      "service": [
-        "air_force",
-        "navy"
-      ],
-      "country": "IN/foreign",
-      "domain": [
-        "propulsion"
-      ]
-    }
+  {
+   "code": "navy",
+   "label": "Navy",
+   "route": "navy-coast-guard"
+  },
+  {
+   "code": "coast_guard",
+   "label": "Coast Guard",
+   "route": "navy-coast-guard"
+  },
+  {
+   "code": "air_force",
+   "label": "Air Force",
+   "route": "air-force"
+  },
+  {
+   "code": "joint",
+   "label": "Joint / Cross-Service",
+   "route": "defence"
+  }
+ ],
+ "domains": {
+  "army": [
+   "land_platforms",
+   "armour",
+   "artillery",
+   "rockets",
+   "missiles",
+   "air_defence",
+   "infantry_systems",
+   "ammunition",
+   "uav",
+   "counter_uas",
+   "electronic_warfare",
+   "c4isr",
+   "mobility",
+   "logistics"
   ],
-  "relationships": [
-    {
-      "source": "org-ddp",
-      "type": "policy_owner",
-      "target": "org-mod",
-      "service": [
-        "joint"
-      ]
-    },
-    {
-      "source": "org-drdo",
-      "type": "research_partner",
-      "target": "org-indian-army",
-      "service": [
-        "army"
-      ]
-    },
-    {
-      "source": "org-drdo",
-      "type": "research_partner",
-      "target": "org-indian-navy",
-      "service": [
-        "navy"
-      ]
-    },
-    {
-      "source": "org-drdo",
-      "type": "research_partner",
-      "target": "org-iaf",
-      "service": [
-        "air_force"
-      ]
-    },
-    {
-      "source": "org-hal",
-      "type": "manufactures",
-      "target": "air-tejas-mk1a",
-      "service": [
-        "air_force"
-      ]
-    },
-    {
-      "source": "org-ge-aerospace",
-      "type": "supplies",
-      "target": "air-lca-engine",
-      "service": [
-        "air_force"
-      ]
-    },
-    {
-      "source": "org-hal",
-      "type": "integrates",
-      "target": "air-lca-engine",
-      "service": [
-        "air_force"
-      ]
-    },
-    {
-      "source": "org-bel",
-      "type": "develops_or_supplies",
-      "target": "air-uttam",
-      "service": [
-        "air_force"
-      ]
-    },
-    {
-      "source": "org-bdl",
-      "type": "manufactures_or_integrates",
-      "target": "air-astra",
-      "service": [
-        "air_force"
-      ]
-    },
-    {
-      "source": "org-brahmos",
-      "type": "develops_manufactures",
-      "target": "sys-pinaka",
-      "service": [
-        "army"
-      ]
-    },
-    {
-      "source": "sys-atags",
-      "type": "developed_by",
-      "target": "org-drdo",
-      "service": [
-        "army"
-      ]
-    },
-    {
-      "source": "sys-dhanush",
-      "type": "developed_by",
-      "target": "org-drdo",
-      "service": [
-        "army"
-      ]
-    },
-    {
-      "source": "sys-pinaka",
-      "type": "developed_by",
-      "target": "org-drdo",
-      "service": [
-        "army"
-      ]
-    },
-    {
-      "source": "sys-akash-army",
-      "type": "developed_by",
-      "target": "org-drdo",
-      "service": [
-        "army",
-        "air_force"
-      ]
-    },
-    {
-      "source": "sys-mpatgm",
-      "type": "procurement_signal",
-      "target": "org-indian-army",
-      "service": [
-        "army"
-      ],
-      "source_refs": [
-        "S06"
-      ]
-    },
-    {
-      "source": "sys-akash-tarang",
-      "type": "procurement_signal",
-      "target": "org-indian-army",
-      "service": [
-        "army"
-      ],
-      "source_refs": [
-        "S06"
-      ]
-    },
-    {
-      "source": "sys-mrsam",
-      "type": "procurement_signal",
-      "target": "org-indian-army",
-      "service": [
-        "army"
-      ],
-      "source_refs": [
-        "S06"
-      ]
-    },
-    {
-      "source": "sys-vshorads",
-      "type": "procurement_signal",
-      "target": "org-indian-army",
-      "service": [
-        "army"
-      ],
-      "source_refs": [
-        "S06"
-      ]
-    },
-    {
-      "source": "sys-tank-aps",
-      "type": "procurement_signal",
-      "target": "org-indian-army",
-      "service": [
-        "army"
-      ],
-      "source_refs": [
-        "S06"
-      ]
-    },
-    {
-      "source": "sys-kamikaze-jet",
-      "type": "procurement_signal",
-      "target": "org-indian-army",
-      "service": [
-        "army"
-      ],
-      "source_refs": [
-        "S06"
-      ]
-    },
-    {
-      "source": "sys-dhanush",
-      "type": "procurement_signal",
-      "target": "org-indian-army",
-      "service": [
-        "army"
-      ],
-      "source_refs": [
-        "S05"
-      ]
-    },
-    {
-      "source": "sys-atags",
-      "type": "capability_domain",
-      "target": "sys-dhanush",
-      "service": [
-        "army"
-      ]
-    },
-    {
-      "source": "nav-p17a",
-      "type": "built_by",
-      "target": "org-mdl",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S10",
-        "S14"
-      ]
-    },
-    {
-      "source": "nav-p17a",
-      "type": "built_by",
-      "target": "org-grse",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S11",
-        "S12"
-      ]
-    },
-    {
-      "source": "nav-mahendragiri",
-      "type": "member_of",
-      "target": "nav-p17a",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S10",
-        "S14"
-      ]
-    },
-    {
-      "source": "nav-dunagiri",
-      "type": "member_of",
-      "target": "nav-p17a",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S11"
-      ]
-    },
-    {
-      "source": "nav-taragiri",
-      "type": "member_of",
-      "target": "nav-p17a",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S12"
-      ]
-    },
-    {
-      "source": "nav-aswswc",
-      "type": "built_by",
-      "target": "org-grse",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S13",
-        "S16"
-      ]
-    },
-    {
-      "source": "nav-agray",
-      "type": "member_of",
-      "target": "nav-aswswc",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S13"
-      ]
-    },
-    {
-      "source": "nav-anjadip",
-      "type": "member_of",
-      "target": "nav-aswswc",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S16"
-      ]
-    },
-    {
-      "source": "nav-fuel-barges",
-      "type": "contracted_to",
-      "target": "org-csl",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S15"
-      ]
-    },
-    {
-      "source": "nav-fuel-barges",
-      "type": "contracted_to",
-      "target": "org-grse",
-      "service": [
-        "navy"
-      ]
-    },
-    {
-      "source": "nav-rafalem",
-      "type": "supplier",
-      "target": "org-dassault",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S18"
-      ]
-    },
-    {
-      "source": "nav-rafalem",
-      "type": "industrial_localisation",
-      "target": "org-hal",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S18"
-      ]
-    },
-    {
-      "source": "nav-p75i",
-      "type": "strategic_programme",
-      "target": "org-indian-navy",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S12"
-      ]
-    },
-    {
-      "source": "nav-ratna",
-      "type": "industrial_programme",
-      "target": "org-mdl",
-      "service": [
-        "navy"
-      ]
-    },
-    {
-      "source": "nav-aswswc",
-      "type": "uses",
-      "target": "tech-sonar",
-      "service": [
-        "navy"
-      ],
-      "source_refs": [
-        "S13"
-      ]
-    },
-    {
-      "source": "air-tejas-mk1a",
-      "type": "manufactured_by",
-      "target": "org-hal",
-      "service": [
-        "air_force"
-      ],
-      "source_refs": [
-        "S17"
-      ]
-    },
-    {
-      "source": "air-tejas-mk1a",
-      "type": "uses",
-      "target": "air-lca-engine",
-      "service": [
-        "air_force"
-      ],
-      "source_refs": [
-        "S17"
-      ]
-    },
-    {
-      "source": "air-lca-engine",
-      "type": "supplied_by",
-      "target": "org-ge-aerospace",
-      "service": [
-        "air_force"
-      ],
-      "source_refs": [
-        "S17"
-      ]
-    },
-    {
-      "source": "air-tejas-mk1a",
-      "type": "integrates",
-      "target": "air-uttam",
-      "service": [
-        "air_force"
-      ],
-      "source_refs": [
-        "S17"
-      ]
-    },
-    {
-      "source": "air-mrfa",
-      "type": "AoN",
-      "target": "org-iaf",
-      "service": [
-        "air_force"
-      ],
-      "source_refs": [
-        "S04"
-      ]
-    },
-    {
-      "source": "air-mrfa",
-      "type": "platform_family",
-      "target": "air-rafale",
-      "service": [
-        "air_force"
-      ],
-      "source_refs": [
-        "S04"
-      ]
-    },
-    {
-      "source": "air-as-haps",
-      "type": "AoN",
-      "target": "org-iaf",
-      "service": [
-        "air_force"
-      ],
-      "source_refs": [
-        "S04"
-      ]
-    },
-    {
-      "source": "air-tejas-mk2",
-      "type": "engine_pathway",
-      "target": "air-ge414",
-      "service": [
-        "air_force"
-      ]
-    },
-    {
-      "source": "air-ge414",
-      "type": "technology_transfer",
-      "target": "org-hal",
-      "service": [
-        "air_force"
-      ]
-    },
-    {
-      "source": "air-rudram2",
-      "type": "developed_by",
-      "target": "org-drdo",
-      "service": [
-        "air_force"
-      ],
-      "source_refs": [
-        "S08"
-      ]
-    },
-    {
-      "source": "air-tara",
-      "type": "developed_by",
-      "target": "org-drdo",
-      "service": [
-        "air_force"
-      ],
-      "source_refs": [
-        "S08"
-      ]
-    },
-    {
-      "source": "tech-aesa",
-      "type": "capability",
-      "target": "org-bel",
-      "service": [
-        "army",
-        "navy",
-        "air_force"
-      ]
-    },
-    {
-      "source": "tech-ew",
-      "type": "capability",
-      "target": "org-bel",
-      "service": [
-        "army",
-        "navy",
-        "air_force"
-      ]
-    },
-    {
-      "source": "tech-cuas",
-      "type": "capability",
-      "target": "sys-akash-tarang",
-      "service": [
-        "army"
-      ]
-    },
-    {
-      "source": "tech-propulsion",
-      "type": "industrial_gap",
-      "target": "org-hal",
-      "service": [
-        "air_force",
-        "navy"
-      ]
-    },
-    {
-      "source": "tech-advanced-materials",
-      "type": "supplied_by",
-      "target": "org-midhani",
-      "service": [
-        "army",
-        "navy",
-        "air_force"
-      ]
-    },
-    {
-      "source": "tech-satellite-comms",
-      "type": "capability",
-      "target": "org-bel",
-      "service": [
-        "army",
-        "navy",
-        "air_force",
-        "coast_guard"
-      ]
-    }
+  "navy": [
+   "fleet",
+   "shipbuilding",
+   "submarines",
+   "naval_aviation",
+   "naval_weapons",
+   "asw",
+   "sensors",
+   "sonar",
+   "propulsion",
+   "power",
+   "maritime_comms",
+   "logistics",
+   "mro"
   ],
-  "programmes": [
-    {
-      "id": "prg-dap2026",
-      "name": "Defence Acquisition Procedure 2026",
-      "service": [
-        "joint"
-      ],
-      "type": "policy",
-      "status": "draft_policy_framework",
-      "source_refs": [
-        "S01",
-        "S02"
-      ],
-      "key_data": {
-        "indigenous_content_buy_indian_iddm_percent": 60,
-        "procurement_categories_proposed": 4,
-        "notes": "Draft; do not represent as final law unless later notified."
-      }
-    },
-    {
-      "id": "prg-dpm2025",
-      "name": "Defence Procurement Manual 2025",
-      "service": [
-        "joint"
-      ],
-      "type": "policy",
-      "status": "in_force",
-      "source_refs": [
-        "S09"
-      ]
-    },
-    {
-      "id": "prg-pil6",
-      "name": "Sixth Positive Indigenisation List",
-      "service": [
-        "army",
-        "navy",
-        "coast_guard",
-        "air_force",
-        "joint"
-      ],
-      "type": "indigenisation",
-      "status": "notified",
-      "source_refs": [
-        "S07"
-      ],
-      "key_data": {
-        "items": 405,
-        "estimated_business_potential_inr_crore": 3070,
-        "coast_guard_items": 16,
-        "dpsu_items": 389
-      }
-    },
-    {
-      "id": "prg-lca-mk1a-97",
-      "name": "LCA Mk1A 97-aircraft programme",
-      "service": [
-        "air_force"
-      ],
-      "type": "procurement",
-      "status": "contracted",
-      "source_refs": [
-        "S17"
-      ],
-      "key_data": {
-        "aircraft": 97,
-        "contract_value_inr_crore": 62370,
-        "indigenous_content_percent": 64,
-        "direct_indian_vendor_base": 105,
-        "delivery_start": "2027-28",
-        "delivery_duration_years": 6,
-        "engines": 113
-      }
-    },
-    {
-      "id": "prg-mrfa-2026",
-      "name": "MRFA / Rafale AoN",
-      "service": [
-        "air_force"
-      ],
-      "type": "procurement",
-      "status": "AoN",
-      "source_refs": [
-        "S04"
-      ],
-      "key_data": {
-        "platform": "Rafale",
-        "majority_manufactured_in_india": true
-      }
-    },
-    {
-      "id": "prg-as-haps-2026",
-      "name": "AS-HAPS",
-      "service": [
-        "air_force"
-      ],
-      "type": "procurement",
-      "status": "AoN",
-      "source_refs": [
-        "S04"
-      ]
-    },
-    {
-      "id": "prg-p17a",
-      "name": "Project 17A / Nilgiri-class",
-      "service": [
-        "navy"
-      ],
-      "type": "shipbuilding",
-      "status": "in_production_and_delivery",
-      "source_refs": [
-        "S10",
-        "S11",
-        "S12",
-        "S14"
-      ],
-      "key_data": {
-        "ships": 7,
-        "indigenous_content_percent": "~75 at class/platform level as reported for Mahendragiri",
-        "yards": [
-          "MDL",
-          "GRSE"
-        ]
-      }
-    },
-    {
-      "id": "prg-asw-swc",
-      "name": "ASW Shallow Water Craft",
-      "service": [
-        "navy"
-      ],
-      "type": "shipbuilding",
-      "status": "in_production_and_delivery",
-      "source_refs": [
-        "S13",
-        "S16"
-      ],
-      "key_data": {
-        "ships": 8,
-        "builder": "GRSE"
-      }
-    },
-    {
-      "id": "prg-p75i",
-      "name": "Project 75(I)",
-      "service": [
-        "navy"
-      ],
-      "type": "submarine",
-      "status": "procurement",
-      "source_refs": [
-        "S12"
-      ]
-    },
-    {
-      "id": "prg-fuel-barges",
-      "name": "500T Self Propelled Fuel Barges",
-      "service": [
-        "navy"
-      ],
-      "type": "logistics_shipbuilding",
-      "status": "contracted",
-      "source_refs": [
-        "S15"
-      ],
-      "key_data": {
-        "barges": 4,
-        "shipyard": "Shoft Shipyard Private Limited",
-        "party_type": "MSME"
-      }
-    },
-    {
-      "id": "prg-army-jul2026",
-      "name": "Army July 2026 acquisition package",
-      "service": [
-        "army"
-      ],
-      "type": "procurement",
-      "status": "AoN",
-      "source_refs": [
-        "S06"
-      ],
-      "key_data": {
-        "package_value_inr_crore": 52000,
-        "items": [
-          "Akash Tarang",
-          "MPATGM",
-          "MRSAM",
-          "VSHORADS",
-          "Tank APS",
-          "Jet Based Kamikaze Drone System"
-        ]
-      }
-    },
-    {
-      "id": "prg-army-mar2026",
-      "name": "Army March 2026 acquisition package",
-      "service": [
-        "army"
-      ],
-      "type": "procurement",
-      "status": "AoN",
-      "source_refs": [
-        "S05"
-      ],
-      "key_data": {
-        "package_value_inr_crore": 238000,
-        "items": [
-          "Air Defence Tracked System",
-          "Armour Piercing Tank Ammunition",
-          "High Capacity Radio Relay",
-          "Dhanush Gun System",
-          "Runway Independent Aerial Surveillance System"
-        ]
-      }
-    }
+  "coast_guard": [
+   "patrol_vessels",
+   "maritime_surveillance",
+   "aviation",
+   "sensors",
+   "communications",
+   "shipbuilding",
+   "mro"
   ],
-  "dependencies": [
-    {
-      "id": "dep-lca-f404",
-      "service": [
-        "air_force"
-      ],
-      "dependent": "air-tejas-mk1a",
-      "dependency": "air-lca-engine",
-      "category": "engine",
-      "status": "foreign_supplied",
-      "importance": "critical",
-      "source_refs": [
-        "S17"
-      ]
-    },
-    {
-      "id": "dep-fighter-engines",
-      "service": [
-        "air_force"
-      ],
-      "dependent": "air-tejas-mk2",
-      "dependency": "tech-jet-engines",
-      "category": "propulsion",
-      "status": "strategic_dependency",
-      "importance": "critical",
-      "source_refs": [
-        "S18"
-      ]
-    },
-    {
-      "id": "dep-naval-propulsion",
-      "service": [
-        "navy"
-      ],
-      "dependent": "nav-p17a",
-      "dependency": "tech-propulsion",
-      "category": "marine_propulsion",
-      "status": "mixed_domestic_foreign",
-      "importance": "high"
-    },
-    {
-      "id": "dep-radar",
-      "service": [
-        "army",
-        "navy",
-        "air_force"
-      ],
-      "dependent": "tech-aesa",
-      "dependency": "specialised_rf_components",
-      "category": "electronics",
-      "status": "mixed",
-      "importance": "high"
-    },
-    {
-      "id": "dep-ew",
-      "service": [
-        "army",
-        "navy",
-        "air_force"
-      ],
-      "dependent": "tech-ew",
-      "dependency": "advanced_rf_electronics",
-      "category": "electronics",
-      "status": "mixed",
-      "importance": "high"
-    },
-    {
-      "id": "dep-materials",
-      "service": [
-        "army",
-        "navy",
-        "air_force"
-      ],
-      "dependent": "tech-advanced-materials",
-      "dependency": "speciality_alloys_superalloys",
-      "category": "materials",
-      "status": "domestic_capacity_with_gaps",
-      "importance": "high"
-    },
-    {
-      "id": "dep-sonar",
-      "service": [
-        "navy",
-        "coast_guard"
-      ],
-      "dependent": "tech-sonar",
-      "dependency": "underwater_acoustic_components",
-      "category": "underwater_sensors",
-      "status": "mixed",
-      "importance": "high"
-    },
-    {
-      "id": "dep-cuas",
-      "service": [
-        "army",
-        "navy",
-        "air_force",
-        "coast_guard"
-      ],
-      "dependent": "tech-cuas",
-      "dependency": "sensors_rf_processing_effectors",
-      "category": "counter_uas",
-      "status": "rapidly_evolving",
-      "importance": "high"
-    }
+  "air_force": [
+   "combat_aircraft",
+   "transport",
+   "helicopters",
+   "uav",
+   "ucav",
+   "air_weapons",
+   "air_defence",
+   "radar",
+   "avionics",
+   "ew",
+   "propulsion",
+   "mro"
   ],
-  "opportunities": [
-    {
-      "id": "opp-army-cuas",
-      "service": [
-        "army",
-        "navy",
-        "air_force",
-        "coast_guard"
-      ],
-      "domain": "counter_uas",
-      "thesis": "Layered low-cost detection, RF sensing, EO/IR, command-and-control and effectors are expanding as a recurring procurement need.",
-      "evidence_refs": [
-        "S06",
-        "S07"
-      ]
-    },
-    {
-      "id": "opp-army-aps",
-      "service": [
-        "army"
-      ],
-      "domain": "armour",
-      "thesis": "Active protection systems for tanks have entered a formal Army acquisition signal, creating a domestic subsystem opportunity.",
-      "evidence_refs": [
-        "S06"
-      ]
-    },
-    {
-      "id": "opp-army-ammunition",
-      "service": [
-        "army"
-      ],
-      "domain": "ammunition",
-      "thesis": "Positive indigenisation and Army procurement create recurring localisation opportunities in ammunition, components and spares.",
-      "evidence_refs": [
-        "S05",
-        "S07",
-        "S08"
-      ]
-    },
-    {
-      "id": "opp-navy-ship-components",
-      "service": [
-        "navy",
-        "coast_guard"
-      ],
-      "domain": "shipbuilding",
-      "thesis": "The growing indigenous shipbuilding pipeline expands the addressable market for propulsion, power, sensors, combat systems, marine equipment and maintenance.",
-      "evidence_refs": [
-        "S10",
-        "S13",
-        "S15",
-        "S16"
-      ]
-    },
-    {
-      "id": "opp-navy-underwater",
-      "service": [
-        "navy"
-      ],
-      "domain": "underwater_warfare",
-      "thesis": "ASW craft and submarine programmes sustain demand for sonar, torpedoes, underwater communications and acoustic technologies.",
-      "evidence_refs": [
-        "S13",
-        "S16"
-      ]
-    },
-    {
-      "id": "opp-air-avionics",
-      "service": [
-        "air_force"
-      ],
-      "domain": "avionics",
-      "thesis": "LCA Mk1A localisation demonstrates a widening Indian avionics/content base, but advanced sensors and mission systems remain a strategic growth area.",
-      "evidence_refs": [
-        "S17"
-      ]
-    },
-    {
-      "id": "opp-air-propulsion",
-      "service": [
-        "air_force"
-      ],
-      "domain": "propulsion",
-      "thesis": "Aircraft engine dependence remains one of the highest-value strategic industrial gaps; future manufacturing and technology-transfer pathways are therefore high-priority.",
-      "evidence_refs": [
-        "S17",
-        "S18"
-      ]
-    },
-    {
-      "id": "opp-air-mro",
-      "service": [
-        "air_force",
-        "navy"
-      ],
-      "domain": "mro",
-      "thesis": "Growing indigenous aircraft and naval aviation fleets create long-duration demand for engine, sensor, weapon and airframe MRO.",
-      "evidence_refs": [
-        "S18"
-      ]
-    }
-  ],
-  "sources": [
-    {
-      "id": "S01",
-      "title": "DAP 2026 draft — Ministry of Defence / PIB",
-      "date": "2026-02-13",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227775",
-      "scope": "procurement_policy"
-    },
-    {
-      "id": "S02",
-      "title": "Draft DAP 2026 invited comments — PIB",
-      "date": "2026-02-10",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2226097",
-      "scope": "procurement_policy"
-    },
-    {
-      "id": "S03",
-      "title": "Year of Reforms 2025 — PIB",
-      "date": "2026-01-01",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210549",
-      "scope": "defence_industry"
-    },
-    {
-      "id": "S04",
-      "title": "DAC Rs 3.60 lakh crore AoN — PIB",
-      "date": "2026-02-12",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227018",
-      "scope": "air_force_procurement"
-    },
-    {
-      "id": "S05",
-      "title": "DAC Rs 2.38 lakh crore AoN — PIB",
-      "date": "2026-03-27",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246125",
-      "scope": "army_procurement"
-    },
-    {
-      "id": "S06",
-      "title": "DAC Rs 52,000 crore AoN — PIB",
-      "date": "2026-07-03",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280728",
-      "scope": "army_procurement"
-    },
-    {
-      "id": "S07",
-      "title": "6th Positive Indigenisation List: 405 items — PIB",
-      "date": "2026-08-18",
-      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2300723",
-      "scope": "indigenisation"
-    },
-    {
-      "id": "S08",
-      "title": "India defence strength/self-reliance factsheet — PIB",
-      "date": "2026-08-14",
-      "url": "https://www.pib.gov.in/FactsheetDetails.aspx?id=150909",
-      "scope": "industry_and_indigenisation"
-    },
-    {
-      "id": "S09",
-      "title": "DPM 2025 reforms — PIB",
-      "date": "2025-11-20",
-      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251120699601.pdf",
-      "scope": "revenue_procurement"
-    },
-    {
-      "id": "S10",
-      "title": "Project 17A Mahendragiri delivery — PIB",
-      "date": "2026-05-01",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257237",
-      "scope": "navy"
-    },
-    {
-      "id": "S11",
-      "title": "Project 17A Dunagiri delivery — PIB",
-      "date": "2026-03-31",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247142",
-      "scope": "navy"
-    },
-    {
-      "id": "S12",
-      "title": "Project 17A Taragiri commissioning — PIB",
-      "date": "2026-03-21",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243301",
-      "scope": "navy"
-    },
-    {
-      "id": "S13",
-      "title": "ASW Shallow Water Craft Agray delivery — PIB",
-      "date": "2026-03-30",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247087",
-      "scope": "navy"
-    },
-    {
-      "id": "S14",
-      "title": "Mahendragiri commissioned — PIB",
-      "date": "2026-07-11",
-      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2283586",
-      "scope": "navy"
-    },
-    {
-      "id": "S15",
-      "title": "Shoft Shipyard fuel barges — PIB",
-      "date": "2026-03-03",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2234905",
-      "scope": "navy"
-    },
-    {
-      "id": "S16",
-      "title": "INS Anjadip / SAIL special steel — PIB",
-      "date": "2026-02-26",
-      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteID=158925",
-      "scope": "navy_industrial_base"
-    },
-    {
-      "id": "S17",
-      "title": "LCA Mk1A 97-aircraft contract — PIB",
-      "date": "2025-09-25",
-      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=276527",
-      "scope": "air_force"
-    },
-    {
-      "id": "S18",
-      "title": "Rafale-M / LCA Mk1A procurement summary — PIB",
-      "date": "2026-01-01",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210154",
-      "scope": "air_force_and_navy"
-    },
-    {
-      "id": "S19",
-      "title": "DAP/DPM and defence ecosystem factsheet — PIB",
-      "date": "2026-08-14",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2273854",
-      "scope": "industry"
-    },
-    {
-      "id": "S20",
-      "title": "2026-27 Defence demands for grants — India Budget",
-      "date": "2026",
-      "url": "https://indiabudget.gov.in/doc/eb/sbe19.pdf",
-      "scope": "budget"
-    }
+  "joint": [
+   "missiles",
+   "defence_electronics",
+   "c4isr",
+   "ew",
+   "counter_uas",
+   "space_enabled_systems",
+   "materials",
+   "industrial_policy"
   ]
+ },
+ "entities": [
+  {
+   "id": "org-indian-army",
+   "name": "Indian Army",
+   "type": "service",
+   "service": [
+    "army"
+   ],
+   "country": "IN",
+   "domain": [
+    "land_warfare"
+   ]
+  },
+  {
+   "id": "org-indian-navy",
+   "name": "Indian Navy",
+   "type": "service",
+   "service": [
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "maritime_warfare"
+   ]
+  },
+  {
+   "id": "org-indian-coast-guard",
+   "name": "Indian Coast Guard",
+   "type": "service",
+   "service": [
+    "coast_guard"
+   ],
+   "country": "IN",
+   "domain": [
+    "maritime_security"
+   ]
+  },
+  {
+   "id": "org-iaf",
+   "name": "Indian Air Force",
+   "type": "service",
+   "service": [
+    "air_force"
+   ],
+   "country": "IN",
+   "domain": [
+    "air_power"
+   ]
+  },
+  {
+   "id": "org-mod",
+   "name": "Ministry of Defence",
+   "type": "ministry",
+   "service": [
+    "joint"
+   ],
+   "country": "IN",
+   "domain": [
+    "governance"
+   ]
+  },
+  {
+   "id": "org-ddp",
+   "name": "Department of Defence Production",
+   "type": "govt_body",
+   "service": [
+    "joint"
+   ],
+   "country": "IN",
+   "domain": [
+    "industrial_policy"
+   ]
+  },
+  {
+   "id": "org-drdo",
+   "name": "Defence Research and Development Organisation",
+   "type": "research_institution",
+   "service": [
+    "joint"
+   ],
+   "country": "IN",
+   "domain": [
+    "r_and_d"
+   ]
+  },
+  {
+   "id": "org-hal",
+   "name": "Hindustan Aeronautics Limited",
+   "type": "psu",
+   "service": [
+    "air_force",
+    "navy",
+    "joint"
+   ],
+   "country": "IN",
+   "domain": [
+    "aerospace"
+   ]
+  },
+  {
+   "id": "org-bel",
+   "name": "Bharat Electronics Limited",
+   "type": "psu",
+   "service": [
+    "army",
+    "navy",
+    "air_force",
+    "joint"
+   ],
+   "country": "IN",
+   "domain": [
+    "defence_electronics"
+   ]
+  },
+  {
+   "id": "org-bdl",
+   "name": "Bharat Dynamics Limited",
+   "type": "psu",
+   "service": [
+    "army",
+    "air_force",
+    "navy",
+    "joint"
+   ],
+   "country": "IN",
+   "domain": [
+    "missiles"
+   ]
+  },
+  {
+   "id": "org-mdl",
+   "name": "Mazagon Dock Shipbuilders Limited",
+   "type": "psu",
+   "service": [
+    "navy",
+    "coast_guard"
+   ],
+   "country": "IN",
+   "domain": [
+    "shipbuilding",
+    "submarines"
+   ]
+  },
+  {
+   "id": "org-grse",
+   "name": "Garden Reach Shipbuilders & Engineers",
+   "type": "psu",
+   "service": [
+    "navy",
+    "coast_guard"
+   ],
+   "country": "IN",
+   "domain": [
+    "shipbuilding"
+   ]
+  },
+  {
+   "id": "org-csl",
+   "name": "Cochin Shipyard Limited",
+   "type": "psu",
+   "service": [
+    "navy",
+    "coast_guard"
+   ],
+   "country": "IN",
+   "domain": [
+    "shipbuilding",
+    "repair"
+   ]
+  },
+  {
+   "id": "org-gsl",
+   "name": "Goa Shipyard Limited",
+   "type": "psu",
+   "service": [
+    "navy",
+    "coast_guard"
+   ],
+   "country": "IN",
+   "domain": [
+    "shipbuilding"
+   ]
+  },
+  {
+   "id": "org-hsl",
+   "name": "Hindustan Shipyard Limited",
+   "type": "psu",
+   "service": [
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "shipbuilding",
+    "submarines"
+   ]
+  },
+  {
+   "id": "org-midhani",
+   "name": "Mishra Dhatu Nigam Limited",
+   "type": "psu",
+   "service": [
+    "army",
+    "navy",
+    "air_force",
+    "joint"
+   ],
+   "country": "IN",
+   "domain": [
+    "speciality_materials"
+   ]
+  },
+  {
+   "id": "org-beml",
+   "name": "BEML Limited",
+   "type": "psu",
+   "service": [
+    "army",
+    "joint"
+   ],
+   "country": "IN",
+   "domain": [
+    "mobility",
+    "engineering"
+   ]
+  },
+  {
+   "id": "org-brahmos",
+   "name": "BrahMos Aerospace",
+   "type": "jv",
+   "service": [
+    "army",
+    "navy",
+    "air_force"
+   ],
+   "country": "IN",
+   "domain": [
+    "missiles"
+   ]
+  },
+  {
+   "id": "org-safran",
+   "name": "Safran",
+   "type": "foreign_supplier",
+   "service": [
+    "air_force",
+    "navy"
+   ],
+   "country": "FR",
+   "domain": [
+    "aerospace",
+    "engines",
+    "mro"
+   ]
+  },
+  {
+   "id": "org-ge-aerospace",
+   "name": "GE Aerospace",
+   "type": "foreign_supplier",
+   "service": [
+    "air_force"
+   ],
+   "country": "US",
+   "domain": [
+    "aircraft_engines"
+   ]
+  },
+  {
+   "id": "org-lockheed",
+   "name": "Lockheed Martin",
+   "type": "foreign_supplier",
+   "service": [
+    "air_force"
+   ],
+   "country": "US",
+   "domain": [
+    "aircraft",
+    "weapons"
+   ]
+  },
+  {
+   "id": "org-dassault",
+   "name": "Dassault Aviation",
+   "type": "foreign_supplier",
+   "service": [
+    "air_force",
+    "navy"
+   ],
+   "country": "FR",
+   "domain": [
+    "combat_aircraft"
+   ]
+  },
+  {
+   "id": "org-naval-group",
+   "name": "Naval Group",
+   "type": "foreign_supplier",
+   "service": [
+    "navy"
+   ],
+   "country": "FR",
+   "domain": [
+    "submarines"
+   ]
+  },
+  {
+   "id": "org-thyssenkrupp",
+   "name": "thyssenkrupp Marine Systems",
+   "type": "foreign_supplier",
+   "service": [
+    "navy"
+   ],
+   "country": "DE",
+   "domain": [
+    "submarines"
+   ]
+  },
+  {
+   "id": "org-eads",
+   "name": "Airbus",
+   "type": "foreign_supplier",
+   "service": [
+    "air_force",
+    "joint"
+   ],
+   "country": "EU",
+   "domain": [
+    "transport",
+    "aerospace"
+   ]
+  },
+  {
+   "id": "sys-t90",
+   "name": "T-90 Main Battle Tank",
+   "type": "platform",
+   "service": [
+    "army"
+   ],
+   "country": "IN/RU",
+   "domain": [
+    "armour"
+   ],
+   "status": "operational"
+  },
+  {
+   "id": "sys-t72",
+   "name": "T-72 Main Battle Tank",
+   "type": "platform",
+   "service": [
+    "army"
+   ],
+   "country": "IN/RU",
+   "domain": [
+    "armour"
+   ],
+   "status": "operational"
+  },
+  {
+   "id": "sys-arjun",
+   "name": "Arjun Main Battle Tank",
+   "type": "platform",
+   "service": [
+    "army"
+   ],
+   "country": "IN",
+   "domain": [
+    "armour"
+   ],
+   "status": "operational"
+  },
+  {
+   "id": "sys-bmp2",
+   "name": "BMP-2 / BMP-2K",
+   "type": "platform",
+   "service": [
+    "army"
+   ],
+   "country": "IN/RU",
+   "domain": [
+    "mechanised_infantry"
+   ],
+   "status": "operational"
+  },
+  {
+   "id": "sys-atags",
+   "name": "ATAGS",
+   "type": "weapon",
+   "service": [
+    "army"
+   ],
+   "country": "IN",
+   "domain": [
+    "artillery"
+   ],
+   "status": "induction"
+  },
+  {
+   "id": "sys-dhanush",
+   "name": "Dhanush Gun System",
+   "type": "weapon",
+   "service": [
+    "army"
+   ],
+   "country": "IN",
+   "domain": [
+    "artillery"
+   ],
+   "status": "induction"
+  },
+  {
+   "id": "sys-pinaka",
+   "name": "Pinaka Multi-Barrel Rocket Launcher",
+   "type": "weapon",
+   "service": [
+    "army"
+   ],
+   "country": "IN",
+   "domain": [
+    "rockets",
+    "artillery"
+   ],
+   "status": "operational"
+  },
+  {
+   "id": "sys-akash-army",
+   "name": "Akash Weapon System",
+   "type": "system",
+   "service": [
+    "army",
+    "air_force"
+   ],
+   "country": "IN",
+   "domain": [
+    "air_defence"
+   ],
+   "status": "operational"
+  },
+  {
+   "id": "sys-mrsam",
+   "name": "MRSAM",
+   "type": "system",
+   "service": [
+    "army",
+    "air_force"
+   ],
+   "country": "IN/IL",
+   "domain": [
+    "air_defence"
+   ],
+   "status": "operational"
+  },
+  {
+   "id": "sys-mpatgm",
+   "name": "MPATGM",
+   "type": "weapon",
+   "service": [
+    "army"
+   ],
+   "country": "IN",
+   "domain": [
+    "anti_tank"
+   ],
+   "status": "procurement"
+  },
+  {
+   "id": "sys-akash-tarang",
+   "name": "Akash Tarang Anti-UAV Electronic Warfare System",
+   "type": "system",
+   "service": [
+    "army"
+   ],
+   "country": "IN",
+   "domain": [
+    "counter_uas",
+    "electronic_warfare"
+   ],
+   "status": "procurement"
+  },
+  {
+   "id": "sys-vshorads",
+   "name": "VSHORADS",
+   "type": "system",
+   "service": [
+    "army",
+    "air_force"
+   ],
+   "country": "IN",
+   "domain": [
+    "air_defence"
+   ],
+   "status": "development/procurement"
+  },
+  {
+   "id": "sys-tank-aps",
+   "name": "Active Protection System for Tanks",
+   "type": "system",
+   "service": [
+    "army"
+   ],
+   "country": "IN",
+   "domain": [
+    "armour",
+    "protection"
+   ],
+   "status": "procurement"
+  },
+  {
+   "id": "sys-kamikaze-jet",
+   "name": "Jet-Based Kamikaze Drone System",
+   "type": "system",
+   "service": [
+    "army"
+   ],
+   "country": "IN",
+   "domain": [
+    "loitering_munitions",
+    "uav"
+   ],
+   "status": "procurement"
+  },
+  {
+   "id": "nav-p17a",
+   "name": "Project 17A / Nilgiri-class stealth frigate",
+   "type": "programme",
+   "service": [
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "frigates"
+   ],
+   "status": "in_production"
+  },
+  {
+   "id": "nav-mahendragiri",
+   "name": "INS Mahendragiri",
+   "type": "platform",
+   "service": [
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "frigates"
+   ],
+   "status": "commissioned_2026"
+  },
+  {
+   "id": "nav-dunagiri",
+   "name": "INS Dunagiri",
+   "type": "platform",
+   "service": [
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "frigates"
+   ],
+   "status": "commissioned_2026"
+  },
+  {
+   "id": "nav-taragiri",
+   "name": "INS Taragiri",
+   "type": "platform",
+   "service": [
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "frigates"
+   ],
+   "status": "commissioned_2026"
+  },
+  {
+   "id": "nav-aswswc",
+   "name": "Anti-Submarine Warfare Shallow Water Craft programme",
+   "type": "programme",
+   "service": [
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "asw",
+    "corvettes"
+   ],
+   "status": "in_production"
+  },
+  {
+   "id": "nav-agray",
+   "name": "INS Agray",
+   "type": "platform",
+   "service": [
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "asw",
+    "corvette"
+   ],
+   "status": "commissioned_2026"
+  },
+  {
+   "id": "nav-anjadip",
+   "name": "INS Anjadip",
+   "type": "platform",
+   "service": [
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "asw",
+    "corvette"
+   ],
+   "status": "commissioned_2026"
+  },
+  {
+   "id": "nav-sanshodhak",
+   "name": "INS Sanshodhak",
+   "type": "platform",
+   "service": [
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "survey"
+   ],
+   "status": "commissioned_2026"
+  },
+  {
+   "id": "nav-p75i",
+   "name": "Project 75(I)",
+   "type": "programme",
+   "service": [
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "submarines"
+   ],
+   "status": "procurement"
+  },
+  {
+   "id": "nav-ratna",
+   "name": "Project 75 / Kalvari-class submarines",
+   "type": "programme",
+   "service": [
+    "navy"
+   ],
+   "country": "IN/FR",
+   "domain": [
+    "submarines"
+   ],
+   "status": "in_service_and_follow_on"
+  },
+  {
+   "id": "nav-rafalem",
+   "name": "Rafale-M",
+   "type": "platform",
+   "service": [
+    "navy"
+   ],
+   "country": "IN/FR",
+   "domain": [
+    "naval_aviation"
+   ],
+   "status": "contracted"
+  },
+  {
+   "id": "nav-fuel-barges",
+   "name": "500T Self Propelled Fuel Barges",
+   "type": "programme",
+   "service": [
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "logistics"
+   ],
+   "status": "contracted"
+  },
+  {
+   "id": "air-tejas-mk1a",
+   "name": "LCA Tejas Mk1A",
+   "type": "platform",
+   "service": [
+    "air_force"
+   ],
+   "country": "IN/US",
+   "domain": [
+    "fighter"
+   ],
+   "status": "production"
+  },
+  {
+   "id": "air-tejas-mk2",
+   "name": "LCA Tejas Mk2",
+   "type": "programme",
+   "service": [
+    "air_force"
+   ],
+   "country": "IN",
+   "domain": [
+    "fighter"
+   ],
+   "status": "development"
+  },
+  {
+   "id": "air-amca",
+   "name": "AMCA",
+   "type": "programme",
+   "service": [
+    "air_force"
+   ],
+   "country": "IN",
+   "domain": [
+    "fighter"
+   ],
+   "status": "development"
+  },
+  {
+   "id": "air-mrfa",
+   "name": "Multi Role Fighter Aircraft (MRFA) / Rafale",
+   "type": "programme",
+   "service": [
+    "air_force"
+   ],
+   "country": "IN/FR",
+   "domain": [
+    "fighter"
+   ],
+   "status": "AoN_2026"
+  },
+  {
+   "id": "air-su30mki",
+   "name": "Su-30MKI",
+   "type": "platform",
+   "service": [
+    "air_force"
+   ],
+   "country": "IN/RU",
+   "domain": [
+    "fighter"
+   ],
+   "status": "operational"
+  },
+  {
+   "id": "air-mirage2000",
+   "name": "Mirage 2000",
+   "type": "platform",
+   "service": [
+    "air_force"
+   ],
+   "country": "IN/FR",
+   "domain": [
+    "fighter"
+   ],
+   "status": "operational"
+  },
+  {
+   "id": "air-rafale",
+   "name": "Rafale",
+   "type": "platform",
+   "service": [
+    "air_force"
+   ],
+   "country": "IN/FR",
+   "domain": [
+    "fighter"
+   ],
+   "status": "operational"
+  },
+  {
+   "id": "air-uttam",
+   "name": "UTTAM AESA Radar",
+   "type": "system",
+   "service": [
+    "air_force"
+   ],
+   "country": "IN",
+   "domain": [
+    "radar"
+   ],
+   "status": "development/integration"
+  },
+  {
+   "id": "air-astra",
+   "name": "Astra air-to-air missile family",
+   "type": "weapon",
+   "service": [
+    "air_force",
+    "navy"
+   ],
+   "country": "IN",
+   "domain": [
+    "air_to_air_missile"
+   ],
+   "status": "operational/development"
+  },
+  {
+   "id": "air-rudram2",
+   "name": "RudraM-II",
+   "type": "weapon",
+   "service": [
+    "air_force"
+   ],
+   "country": "IN",
+   "domain": [
+    "air_to_surface",
+    "anti_radiation"
+   ],
+   "status": "tested"
+  },
+  {
+   "id": "air-tara",
+   "name": "TARA Glide Weapon",
+   "type": "weapon",
+   "service": [
+    "air_force"
+   ],
+   "country": "IN",
+   "domain": [
+    "precision_strike"
+   ],
+   "status": "tested"
+  },
+  {
+   "id": "air-as-haps",
+   "name": "Air-Ship Based High Altitude Pseudo Satellite (AS-HAPS)",
+   "type": "programme",
+   "service": [
+    "air_force"
+   ],
+   "country": "IN",
+   "domain": [
+    "high_altitude_pseudo_satellite"
+   ],
+   "status": "AoN_2026"
+  },
+  {
+   "id": "air-lca-engine",
+   "name": "GE F404-GE-IN20 engine for LCA Mk1A",
+   "type": "component",
+   "service": [
+    "air_force"
+   ],
+   "country": "US",
+   "domain": [
+    "aircraft_engine"
+   ],
+   "status": "imported"
+  },
+  {
+   "id": "air-ge414",
+   "name": "GE F414 / India manufacturing pathway",
+   "type": "component",
+   "service": [
+    "air_force"
+   ],
+   "country": "US/IN",
+   "domain": [
+    "aircraft_engine"
+   ],
+   "status": "technology_transfer_pathway"
+  },
+  {
+   "id": "tech-aesa",
+   "name": "AESA radar technology",
+   "type": "technology",
+   "service": [
+    "army",
+    "navy",
+    "air_force"
+   ],
+   "country": "IN/foreign",
+   "domain": [
+    "sensors"
+   ]
+  },
+  {
+   "id": "tech-ew",
+   "name": "Electronic warfare systems",
+   "type": "technology",
+   "service": [
+    "army",
+    "navy",
+    "air_force"
+   ],
+   "country": "IN/foreign",
+   "domain": [
+    "electronic_warfare"
+   ]
+  },
+  {
+   "id": "tech-cuas",
+   "name": "Counter-UAS",
+   "type": "technology",
+   "service": [
+    "army",
+    "navy",
+    "air_force",
+    "coast_guard"
+   ],
+   "country": "IN/foreign",
+   "domain": [
+    "counter_uas"
+   ]
+  },
+  {
+   "id": "tech-propulsion",
+   "name": "Military propulsion",
+   "type": "technology",
+   "service": [
+    "army",
+    "navy",
+    "air_force"
+   ],
+   "country": "IN/foreign",
+   "domain": [
+    "propulsion"
+   ]
+  },
+  {
+   "id": "tech-advanced-materials",
+   "name": "Advanced defence materials and superalloys",
+   "type": "technology",
+   "service": [
+    "army",
+    "navy",
+    "air_force"
+   ],
+   "country": "IN/foreign",
+   "domain": [
+    "materials"
+   ]
+  },
+  {
+   "id": "tech-sonar",
+   "name": "Naval sonar",
+   "type": "technology",
+   "service": [
+    "navy",
+    "coast_guard"
+   ],
+   "country": "IN/foreign",
+   "domain": [
+    "underwater_sensors"
+   ]
+  },
+  {
+   "id": "tech-satellite-comms",
+   "name": "Defence satellite communications",
+   "type": "technology",
+   "service": [
+    "army",
+    "navy",
+    "air_force",
+    "coast_guard"
+   ],
+   "country": "IN/foreign",
+   "domain": [
+    "communications"
+   ]
+  },
+  {
+   "id": "tech-jet-engines",
+   "name": "Military turbofan engines",
+   "type": "technology",
+   "service": [
+    "air_force",
+    "navy"
+   ],
+   "country": "IN/foreign",
+   "domain": [
+    "propulsion"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "org-ddp",
+   "type": "policy_owner",
+   "target": "org-mod",
+   "service": [
+    "joint"
+   ]
+  },
+  {
+   "source": "org-drdo",
+   "type": "research_partner",
+   "target": "org-indian-army",
+   "service": [
+    "army"
+   ]
+  },
+  {
+   "source": "org-drdo",
+   "type": "research_partner",
+   "target": "org-indian-navy",
+   "service": [
+    "navy"
+   ]
+  },
+  {
+   "source": "org-drdo",
+   "type": "research_partner",
+   "target": "org-iaf",
+   "service": [
+    "air_force"
+   ]
+  },
+  {
+   "source": "org-hal",
+   "type": "manufactures",
+   "target": "air-tejas-mk1a",
+   "service": [
+    "air_force"
+   ]
+  },
+  {
+   "source": "org-ge-aerospace",
+   "type": "supplies",
+   "target": "air-lca-engine",
+   "service": [
+    "air_force"
+   ]
+  },
+  {
+   "source": "org-hal",
+   "type": "integrates",
+   "target": "air-lca-engine",
+   "service": [
+    "air_force"
+   ]
+  },
+  {
+   "source": "org-bel",
+   "type": "develops_or_supplies",
+   "target": "air-uttam",
+   "service": [
+    "air_force"
+   ]
+  },
+  {
+   "source": "org-bdl",
+   "type": "manufactures_or_integrates",
+   "target": "air-astra",
+   "service": [
+    "air_force"
+   ]
+  },
+  {
+   "source": "org-brahmos",
+   "type": "develops_manufactures",
+   "target": "sys-pinaka",
+   "service": [
+    "army"
+   ]
+  },
+  {
+   "source": "sys-atags",
+   "type": "developed_by",
+   "target": "org-drdo",
+   "service": [
+    "army"
+   ]
+  },
+  {
+   "source": "sys-dhanush",
+   "type": "developed_by",
+   "target": "org-drdo",
+   "service": [
+    "army"
+   ]
+  },
+  {
+   "source": "sys-pinaka",
+   "type": "developed_by",
+   "target": "org-drdo",
+   "service": [
+    "army"
+   ]
+  },
+  {
+   "source": "sys-akash-army",
+   "type": "developed_by",
+   "target": "org-drdo",
+   "service": [
+    "army",
+    "air_force"
+   ]
+  },
+  {
+   "source": "sys-mpatgm",
+   "type": "procurement_signal",
+   "target": "org-indian-army",
+   "service": [
+    "army"
+   ],
+   "source_refs": [
+    "S06"
+   ]
+  },
+  {
+   "source": "sys-akash-tarang",
+   "type": "procurement_signal",
+   "target": "org-indian-army",
+   "service": [
+    "army"
+   ],
+   "source_refs": [
+    "S06"
+   ]
+  },
+  {
+   "source": "sys-mrsam",
+   "type": "procurement_signal",
+   "target": "org-indian-army",
+   "service": [
+    "army"
+   ],
+   "source_refs": [
+    "S06"
+   ]
+  },
+  {
+   "source": "sys-vshorads",
+   "type": "procurement_signal",
+   "target": "org-indian-army",
+   "service": [
+    "army"
+   ],
+   "source_refs": [
+    "S06"
+   ]
+  },
+  {
+   "source": "sys-tank-aps",
+   "type": "procurement_signal",
+   "target": "org-indian-army",
+   "service": [
+    "army"
+   ],
+   "source_refs": [
+    "S06"
+   ]
+  },
+  {
+   "source": "sys-kamikaze-jet",
+   "type": "procurement_signal",
+   "target": "org-indian-army",
+   "service": [
+    "army"
+   ],
+   "source_refs": [
+    "S06"
+   ]
+  },
+  {
+   "source": "sys-dhanush",
+   "type": "procurement_signal",
+   "target": "org-indian-army",
+   "service": [
+    "army"
+   ],
+   "source_refs": [
+    "S05"
+   ]
+  },
+  {
+   "source": "sys-atags",
+   "type": "capability_domain",
+   "target": "sys-dhanush",
+   "service": [
+    "army"
+   ]
+  },
+  {
+   "source": "nav-p17a",
+   "type": "built_by",
+   "target": "org-mdl",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S10",
+    "S14"
+   ]
+  },
+  {
+   "source": "nav-p17a",
+   "type": "built_by",
+   "target": "org-grse",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S11",
+    "S12"
+   ]
+  },
+  {
+   "source": "nav-mahendragiri",
+   "type": "member_of",
+   "target": "nav-p17a",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S10",
+    "S14"
+   ]
+  },
+  {
+   "source": "nav-dunagiri",
+   "type": "member_of",
+   "target": "nav-p17a",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S11"
+   ]
+  },
+  {
+   "source": "nav-taragiri",
+   "type": "member_of",
+   "target": "nav-p17a",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S12"
+   ]
+  },
+  {
+   "source": "nav-aswswc",
+   "type": "built_by",
+   "target": "org-grse",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S13",
+    "S16"
+   ]
+  },
+  {
+   "source": "nav-agray",
+   "type": "member_of",
+   "target": "nav-aswswc",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S13"
+   ]
+  },
+  {
+   "source": "nav-anjadip",
+   "type": "member_of",
+   "target": "nav-aswswc",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S16"
+   ]
+  },
+  {
+   "source": "nav-fuel-barges",
+   "type": "contracted_to",
+   "target": "org-csl",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S15"
+   ]
+  },
+  {
+   "source": "nav-fuel-barges",
+   "type": "contracted_to",
+   "target": "org-grse",
+   "service": [
+    "navy"
+   ]
+  },
+  {
+   "source": "nav-rafalem",
+   "type": "supplier",
+   "target": "org-dassault",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S18"
+   ]
+  },
+  {
+   "source": "nav-rafalem",
+   "type": "industrial_localisation",
+   "target": "org-hal",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S18"
+   ]
+  },
+  {
+   "source": "nav-p75i",
+   "type": "strategic_programme",
+   "target": "org-indian-navy",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S12"
+   ]
+  },
+  {
+   "source": "nav-ratna",
+   "type": "industrial_programme",
+   "target": "org-mdl",
+   "service": [
+    "navy"
+   ]
+  },
+  {
+   "source": "nav-aswswc",
+   "type": "uses",
+   "target": "tech-sonar",
+   "service": [
+    "navy"
+   ],
+   "source_refs": [
+    "S13"
+   ]
+  },
+  {
+   "source": "air-tejas-mk1a",
+   "type": "manufactured_by",
+   "target": "org-hal",
+   "service": [
+    "air_force"
+   ],
+   "source_refs": [
+    "S17"
+   ]
+  },
+  {
+   "source": "air-tejas-mk1a",
+   "type": "uses",
+   "target": "air-lca-engine",
+   "service": [
+    "air_force"
+   ],
+   "source_refs": [
+    "S17"
+   ]
+  },
+  {
+   "source": "air-lca-engine",
+   "type": "supplied_by",
+   "target": "org-ge-aerospace",
+   "service": [
+    "air_force"
+   ],
+   "source_refs": [
+    "S17"
+   ]
+  },
+  {
+   "source": "air-tejas-mk1a",
+   "type": "integrates",
+   "target": "air-uttam",
+   "service": [
+    "air_force"
+   ],
+   "source_refs": [
+    "S17"
+   ]
+  },
+  {
+   "source": "air-mrfa",
+   "type": "AoN",
+   "target": "org-iaf",
+   "service": [
+    "air_force"
+   ],
+   "source_refs": [
+    "S04"
+   ]
+  },
+  {
+   "source": "air-mrfa",
+   "type": "platform_family",
+   "target": "air-rafale",
+   "service": [
+    "air_force"
+   ],
+   "source_refs": [
+    "S04"
+   ]
+  },
+  {
+   "source": "air-as-haps",
+   "type": "AoN",
+   "target": "org-iaf",
+   "service": [
+    "air_force"
+   ],
+   "source_refs": [
+    "S04"
+   ]
+  },
+  {
+   "source": "air-tejas-mk2",
+   "type": "engine_pathway",
+   "target": "air-ge414",
+   "service": [
+    "air_force"
+   ]
+  },
+  {
+   "source": "air-ge414",
+   "type": "technology_transfer",
+   "target": "org-hal",
+   "service": [
+    "air_force"
+   ]
+  },
+  {
+   "source": "air-rudram2",
+   "type": "developed_by",
+   "target": "org-drdo",
+   "service": [
+    "air_force"
+   ],
+   "source_refs": [
+    "S08"
+   ]
+  },
+  {
+   "source": "air-tara",
+   "type": "developed_by",
+   "target": "org-drdo",
+   "service": [
+    "air_force"
+   ],
+   "source_refs": [
+    "S08"
+   ]
+  },
+  {
+   "source": "tech-aesa",
+   "type": "capability",
+   "target": "org-bel",
+   "service": [
+    "army",
+    "navy",
+    "air_force"
+   ]
+  },
+  {
+   "source": "tech-ew",
+   "type": "capability",
+   "target": "org-bel",
+   "service": [
+    "army",
+    "navy",
+    "air_force"
+   ]
+  },
+  {
+   "source": "tech-cuas",
+   "type": "capability",
+   "target": "sys-akash-tarang",
+   "service": [
+    "army"
+   ]
+  },
+  {
+   "source": "tech-propulsion",
+   "type": "industrial_gap",
+   "target": "org-hal",
+   "service": [
+    "air_force",
+    "navy"
+   ]
+  },
+  {
+   "source": "tech-advanced-materials",
+   "type": "supplied_by",
+   "target": "org-midhani",
+   "service": [
+    "army",
+    "navy",
+    "air_force"
+   ]
+  },
+  {
+   "source": "tech-satellite-comms",
+   "type": "capability",
+   "target": "org-bel",
+   "service": [
+    "army",
+    "navy",
+    "air_force",
+    "coast_guard"
+   ]
+  }
+ ],
+ "programmes": [
+  {
+   "id": "prg-dap2026",
+   "name": "Defence Acquisition Procedure 2026",
+   "service": [
+    "joint"
+   ],
+   "type": "policy",
+   "status": "draft_policy_framework",
+   "source_refs": [
+    "S01",
+    "S02"
+   ],
+   "key_data": {
+    "indigenous_content_buy_indian_iddm_percent": 60,
+    "procurement_categories_proposed": 4,
+    "notes": "Draft; do not represent as final law unless later notified."
+   }
+  },
+  {
+   "id": "prg-dpm2025",
+   "name": "Defence Procurement Manual 2025",
+   "service": [
+    "joint"
+   ],
+   "type": "policy",
+   "status": "in_force",
+   "source_refs": [
+    "S09"
+   ]
+  },
+  {
+   "id": "prg-pil6",
+   "name": "Sixth Positive Indigenisation List",
+   "service": [
+    "army",
+    "navy",
+    "coast_guard",
+    "air_force",
+    "joint"
+   ],
+   "type": "indigenisation",
+   "status": "notified",
+   "source_refs": [
+    "S07"
+   ],
+   "key_data": {
+    "items": 405,
+    "estimated_business_potential_inr_crore": 3070,
+    "coast_guard_items": 16,
+    "dpsu_items": 389
+   }
+  },
+  {
+   "id": "prg-lca-mk1a-97",
+   "name": "LCA Mk1A 97-aircraft programme",
+   "service": [
+    "air_force"
+   ],
+   "type": "procurement",
+   "status": "contracted",
+   "source_refs": [
+    "S17"
+   ],
+   "key_data": {
+    "aircraft": 97,
+    "contract_value_inr_crore": 62370,
+    "indigenous_content_percent": 64,
+    "direct_indian_vendor_base": 105,
+    "delivery_start": "2027-28",
+    "delivery_duration_years": 6,
+    "engines": 113
+   }
+  },
+  {
+   "id": "prg-mrfa-2026",
+   "name": "MRFA / Rafale AoN",
+   "service": [
+    "air_force"
+   ],
+   "type": "procurement",
+   "status": "AoN",
+   "source_refs": [
+    "S04"
+   ],
+   "key_data": {
+    "platform": "Rafale",
+    "majority_manufactured_in_india": true
+   }
+  },
+  {
+   "id": "prg-as-haps-2026",
+   "name": "AS-HAPS",
+   "service": [
+    "air_force"
+   ],
+   "type": "procurement",
+   "status": "AoN",
+   "source_refs": [
+    "S04"
+   ]
+  },
+  {
+   "id": "prg-p17a",
+   "name": "Project 17A / Nilgiri-class",
+   "service": [
+    "navy"
+   ],
+   "type": "shipbuilding",
+   "status": "in_production_and_delivery",
+   "source_refs": [
+    "S10",
+    "S11",
+    "S12",
+    "S14"
+   ],
+   "key_data": {
+    "ships": 7,
+    "indigenous_content_percent": "~75 at class/platform level as reported for Mahendragiri",
+    "yards": [
+     "MDL",
+     "GRSE"
+    ]
+   }
+  },
+  {
+   "id": "prg-asw-swc",
+   "name": "ASW Shallow Water Craft",
+   "service": [
+    "navy"
+   ],
+   "type": "shipbuilding",
+   "status": "in_production_and_delivery",
+   "source_refs": [
+    "S13",
+    "S16"
+   ],
+   "key_data": {
+    "ships": 8,
+    "builder": "GRSE"
+   }
+  },
+  {
+   "id": "prg-p75i",
+   "name": "Project 75(I)",
+   "service": [
+    "navy"
+   ],
+   "type": "submarine",
+   "status": "procurement",
+   "source_refs": [
+    "S12"
+   ]
+  },
+  {
+   "id": "prg-fuel-barges",
+   "name": "500T Self Propelled Fuel Barges",
+   "service": [
+    "navy"
+   ],
+   "type": "logistics_shipbuilding",
+   "status": "contracted",
+   "source_refs": [
+    "S15"
+   ],
+   "key_data": {
+    "barges": 4,
+    "shipyard": "Shoft Shipyard Private Limited",
+    "party_type": "MSME"
+   }
+  },
+  {
+   "id": "prg-army-jul2026",
+   "name": "Army July 2026 acquisition package",
+   "service": [
+    "army"
+   ],
+   "type": "procurement",
+   "status": "AoN",
+   "source_refs": [
+    "S06"
+   ],
+   "key_data": {
+    "package_value_inr_crore": 52000,
+    "items": [
+     "Akash Tarang",
+     "MPATGM",
+     "MRSAM",
+     "VSHORADS",
+     "Tank APS",
+     "Jet Based Kamikaze Drone System"
+    ]
+   }
+  },
+  {
+   "id": "prg-army-mar2026",
+   "name": "Army March 2026 acquisition package",
+   "service": [
+    "army"
+   ],
+   "type": "procurement",
+   "status": "AoN",
+   "source_refs": [
+    "S05"
+   ],
+   "key_data": {
+    "package_value_inr_crore": 238000,
+    "items": [
+     "Air Defence Tracked System",
+     "Armour Piercing Tank Ammunition",
+     "High Capacity Radio Relay",
+     "Dhanush Gun System",
+     "Runway Independent Aerial Surveillance System"
+    ]
+   }
+  }
+ ],
+ "dependencies": [
+  {
+   "id": "dep-lca-f404",
+   "service": [
+    "air_force"
+   ],
+   "dependent": "air-tejas-mk1a",
+   "dependency": "air-lca-engine",
+   "category": "engine",
+   "status": "foreign_supplied",
+   "importance": "critical",
+   "source_refs": [
+    "S17"
+   ]
+  },
+  {
+   "id": "dep-fighter-engines",
+   "service": [
+    "air_force"
+   ],
+   "dependent": "air-tejas-mk2",
+   "dependency": "tech-jet-engines",
+   "category": "propulsion",
+   "status": "strategic_dependency",
+   "importance": "critical",
+   "source_refs": [
+    "S18"
+   ]
+  },
+  {
+   "id": "dep-naval-propulsion",
+   "service": [
+    "navy"
+   ],
+   "dependent": "nav-p17a",
+   "dependency": "tech-propulsion",
+   "category": "marine_propulsion",
+   "status": "mixed_domestic_foreign",
+   "importance": "high"
+  },
+  {
+   "id": "dep-radar",
+   "service": [
+    "army",
+    "navy",
+    "air_force"
+   ],
+   "dependent": "tech-aesa",
+   "dependency": "specialised_rf_components",
+   "category": "electronics",
+   "status": "mixed",
+   "importance": "high"
+  },
+  {
+   "id": "dep-ew",
+   "service": [
+    "army",
+    "navy",
+    "air_force"
+   ],
+   "dependent": "tech-ew",
+   "dependency": "advanced_rf_electronics",
+   "category": "electronics",
+   "status": "mixed",
+   "importance": "high"
+  },
+  {
+   "id": "dep-materials",
+   "service": [
+    "army",
+    "navy",
+    "air_force"
+   ],
+   "dependent": "tech-advanced-materials",
+   "dependency": "speciality_alloys_superalloys",
+   "category": "materials",
+   "status": "domestic_capacity_with_gaps",
+   "importance": "high"
+  },
+  {
+   "id": "dep-sonar",
+   "service": [
+    "navy",
+    "coast_guard"
+   ],
+   "dependent": "tech-sonar",
+   "dependency": "underwater_acoustic_components",
+   "category": "underwater_sensors",
+   "status": "mixed",
+   "importance": "high"
+  },
+  {
+   "id": "dep-cuas",
+   "service": [
+    "army",
+    "navy",
+    "air_force",
+    "coast_guard"
+   ],
+   "dependent": "tech-cuas",
+   "dependency": "sensors_rf_processing_effectors",
+   "category": "counter_uas",
+   "status": "rapidly_evolving",
+   "importance": "high"
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "opp-army-cuas",
+   "service": [
+    "army",
+    "navy",
+    "air_force",
+    "coast_guard"
+   ],
+   "domain": "counter_uas",
+   "thesis": "Layered low-cost detection, RF sensing, EO/IR, command-and-control and effectors are expanding as a recurring procurement need.",
+   "evidence_refs": [
+    "S06",
+    "S07"
+   ]
+  },
+  {
+   "id": "opp-army-aps",
+   "service": [
+    "army"
+   ],
+   "domain": "armour",
+   "thesis": "Active protection systems for tanks have entered a formal Army acquisition signal, creating a domestic subsystem opportunity.",
+   "evidence_refs": [
+    "S06"
+   ]
+  },
+  {
+   "id": "opp-army-ammunition",
+   "service": [
+    "army"
+   ],
+   "domain": "ammunition",
+   "thesis": "Positive indigenisation and Army procurement create recurring localisation opportunities in ammunition, components and spares.",
+   "evidence_refs": [
+    "S05",
+    "S07",
+    "S08"
+   ]
+  },
+  {
+   "id": "opp-navy-ship-components",
+   "service": [
+    "navy",
+    "coast_guard"
+   ],
+   "domain": "shipbuilding",
+   "thesis": "The growing indigenous shipbuilding pipeline expands the addressable market for propulsion, power, sensors, combat systems, marine equipment and maintenance.",
+   "evidence_refs": [
+    "S10",
+    "S13",
+    "S15",
+    "S16"
+   ]
+  },
+  {
+   "id": "opp-navy-underwater",
+   "service": [
+    "navy"
+   ],
+   "domain": "underwater_warfare",
+   "thesis": "ASW craft and submarine programmes sustain demand for sonar, torpedoes, underwater communications and acoustic technologies.",
+   "evidence_refs": [
+    "S13",
+    "S16"
+   ]
+  },
+  {
+   "id": "opp-air-avionics",
+   "service": [
+    "air_force"
+   ],
+   "domain": "avionics",
+   "thesis": "LCA Mk1A localisation demonstrates a widening Indian avionics/content base, but advanced sensors and mission systems remain a strategic growth area.",
+   "evidence_refs": [
+    "S17"
+   ]
+  },
+  {
+   "id": "opp-air-propulsion",
+   "service": [
+    "air_force"
+   ],
+   "domain": "propulsion",
+   "thesis": "Aircraft engine dependence remains one of the highest-value strategic industrial gaps; future manufacturing and technology-transfer pathways are therefore high-priority.",
+   "evidence_refs": [
+    "S17",
+    "S18"
+   ]
+  },
+  {
+   "id": "opp-air-mro",
+   "service": [
+    "air_force",
+    "navy"
+   ],
+   "domain": "mro",
+   "thesis": "Growing indigenous aircraft and naval aviation fleets create long-duration demand for engine, sensor, weapon and airframe MRO.",
+   "evidence_refs": [
+    "S18"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S01",
+   "title": "DAP 2026 draft — Ministry of Defence / PIB",
+   "date": "2026-02-13",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227775",
+   "scope": "procurement_policy"
+  },
+  {
+   "id": "S02",
+   "title": "Draft DAP 2026 invited comments — PIB",
+   "date": "2026-02-10",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2226097",
+   "scope": "procurement_policy"
+  },
+  {
+   "id": "S03",
+   "title": "Year of Reforms 2025 — PIB",
+   "date": "2026-01-01",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210549",
+   "scope": "defence_industry"
+  },
+  {
+   "id": "S04",
+   "title": "DAC Rs 3.60 lakh crore AoN — PIB",
+   "date": "2026-02-12",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227018",
+   "scope": "air_force_procurement"
+  },
+  {
+   "id": "S05",
+   "title": "DAC Rs 2.38 lakh crore AoN — PIB",
+   "date": "2026-03-27",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246125",
+   "scope": "army_procurement"
+  },
+  {
+   "id": "S06",
+   "title": "DAC Rs 52,000 crore AoN — PIB",
+   "date": "2026-07-03",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280728",
+   "scope": "army_procurement"
+  },
+  {
+   "id": "S07",
+   "title": "6th Positive Indigenisation List: 405 items — PIB",
+   "date": "2026-08-18",
+   "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2300723",
+   "scope": "indigenisation"
+  },
+  {
+   "id": "S08",
+   "title": "India defence strength/self-reliance factsheet — PIB",
+   "date": "2026-08-14",
+   "url": "https://www.pib.gov.in/FactsheetDetails.aspx?id=150909",
+   "scope": "industry_and_indigenisation"
+  },
+  {
+   "id": "S09",
+   "title": "DPM 2025 reforms — PIB",
+   "date": "2025-11-20",
+   "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251120699601.pdf",
+   "scope": "revenue_procurement"
+  },
+  {
+   "id": "S10",
+   "title": "Project 17A Mahendragiri delivery — PIB",
+   "date": "2026-05-01",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257237",
+   "scope": "navy"
+  },
+  {
+   "id": "S11",
+   "title": "Project 17A Dunagiri delivery — PIB",
+   "date": "2026-03-31",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247142",
+   "scope": "navy"
+  },
+  {
+   "id": "S12",
+   "title": "Project 17A Taragiri commissioning — PIB",
+   "date": "2026-03-21",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243301",
+   "scope": "navy"
+  },
+  {
+   "id": "S13",
+   "title": "ASW Shallow Water Craft Agray delivery — PIB",
+   "date": "2026-03-30",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247087",
+   "scope": "navy"
+  },
+  {
+   "id": "S14",
+   "title": "Mahendragiri commissioned — PIB",
+   "date": "2026-07-11",
+   "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2283586",
+   "scope": "navy"
+  },
+  {
+   "id": "S15",
+   "title": "Shoft Shipyard fuel barges — PIB",
+   "date": "2026-03-03",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2234905",
+   "scope": "navy"
+  },
+  {
+   "id": "S16",
+   "title": "INS Anjadip / SAIL special steel — PIB",
+   "date": "2026-02-26",
+   "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteID=158925",
+   "scope": "navy_industrial_base"
+  },
+  {
+   "id": "S17",
+   "title": "LCA Mk1A 97-aircraft contract — PIB",
+   "date": "2025-09-25",
+   "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=276527",
+   "scope": "air_force"
+  },
+  {
+   "id": "S18",
+   "title": "Rafale-M / LCA Mk1A procurement summary — PIB",
+   "date": "2026-01-01",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210154",
+   "scope": "air_force_and_navy"
+  },
+  {
+   "id": "S19",
+   "title": "DAP/DPM and defence ecosystem factsheet — PIB",
+   "date": "2026-08-14",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2273854",
+   "scope": "industry"
+  },
+  {
+   "id": "S20",
+   "title": "2026-27 Defence demands for grants — India Budget",
+   "date": "2026",
+   "url": "https://indiabudget.gov.in/doc/eb/sbe19.pdf",
+   "scope": "budget"
+  },
+  {
+   "id": "src-01",
+   "title": "Army Chief: Zorawar induction likely 2028–29",
+   "publisher": "Hindustan Times / RNA",
+   "url": "https://www.hindustantimes.com/india-news/will-induct-zorawar-light-tank-in-2028-29-army-chief-gen-upendra-dwivedi-101780772367368.html",
+   "published_date": "2026-06-07",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27"
+  },
+  {
+   "id": "src-02",
+   "title": "Pinaka long-range guided rockets / family growth (AoN and production)",
+   "publisher": "The Print / Financial Express",
+   "url": "https://theprint.in/defence/200-km-range-astra-missile-120-km-range-pinaka-rockets-on-shopping-list-as-mod-clears-rs-79000-cr-proposals/2814298/",
+   "published_date": "2025-12-29",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27"
+  },
+  {
+   "id": "src-03",
+   "title": "Akash-NG user evaluation trials complete",
+   "publisher": "Moneycontrol / DRDO reporting",
+   "url": "https://www.moneycontrol.com/defence/akash-vs-akash-ng-what-makes-india-s-new-air-defence-missile-more-capable-article-14016060.html",
+   "published_date": "2026-08-26",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27"
+  },
+  {
+   "id": "src-04",
+   "title": "QRSAM order path — BEL activities complete, CCS awaited",
+   "publisher": "Industry concall synthesis / Indian Defence News",
+   "url": "https://www.indiandefensenews.in/2026/08/india-preparing-to-launch-massive-qrsam.html",
+   "published_date": "2026-08-24",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27",
+   "note": "Missile quantity figures are industry commentary pending CCS primary"
+  },
+  {
+   "id": "src-05",
+   "title": "Defence hub — shared industrial base and strategic technologies",
+   "publisher": "Techadyant Labs",
+   "url": "https://labs.techadyant.com/research/pillars/defence/",
+   "published_date": "2026-08-26",
+   "trust_tier": "indicative",
+   "accessed": "2026-08-27",
+   "note": "Internal cross-reference to our own Atlas, not a primary source. Re-tiered from 'official' 2026-08-27: a Techadyant page cannot be an official source for a Techadyant page. Cite the underlying document where a specific figure is needed."
+  },
+  {
+   "id": "src-07",
+   "title": "Army integrated drone detection & interdiction Mk-II AoN",
+   "publisher": "The Print (DAC Dec 2025 package)",
+   "url": "https://theprint.in/defence/200-km-range-astra-missile-120-km-range-pinaka-rockets-on-shopping-list-as-mod-clears-rs-79000-cr-proposals/2814298/",
+   "published_date": "2025-12-29",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27"
+  },
+  {
+   "id": "src-01",
+   "title": "MRFA / additional Rafale AoN and France proposal",
+   "publisher": "India Today / The Aviationist / FE",
+   "url": "https://www.indiatoday.in/india/story/air-force-iaf-document-36-rafales-pakistan-operation-sindoor-loss-claims-2932499-2026-06-23",
+   "published_date": "2026-06-23",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27"
+  },
+  {
+   "id": "src-02",
+   "title": "Tejas Mk1A F404 engine status / programme delays",
+   "publisher": "India Today",
+   "url": "https://www.indiatoday.in/india/story/hal-seventh-ge-engine-tejas-mk1a-sixth-cleared-delivery-push-2946760-2026-07-13",
+   "published_date": "2026-07-13",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27"
+  },
+  {
+   "id": "src-03",
+   "title": "S-400 fourth regiment delivery; additional sets AoN",
+   "publisher": "defence-industry.eu / The Tribune",
+   "url": "https://defence-industry.eu/russian-industry-continues-delivery-of-s-400-ground-based-air-and-missile-defence-system-to-india/",
+   "published_date": "2026-06",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27"
+  },
+  {
+   "id": "src-04",
+   "title": "Astra Mk2 private production opening / Rafale integration path",
+   "publisher": "idrw.org",
+   "url": "https://idrw.org/astra-mk2-opens-indias-last-strategic-defence-manufacturing-frontier-to-private-industry/",
+   "published_date": "2026-08-06",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27"
+  },
+  {
+   "id": "src-05",
+   "title": "C295 India-build (cross-link Military Aerospace)",
+   "publisher": "Airforce Technology",
+   "url": "https://www.airforce-technology.com/news/india-c295-maiden-flight/",
+   "published_date": "2026-06-11",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27"
+  },
+  {
+   "id": "src-01",
+   "title": "Yard 12707 (Surat) and Yard 12651 (Nilgiri) Delivered to Indian Navy",
+   "publisher": "Indian Navy (official)",
+   "url": "https://indiannavy.gov.in/content/yard-12707-surat-and-yard-12651-nilgiri-delivered-indian-navy",
+   "published_date": "2024-12-20",
+   "trust_tier": "official",
+   "accessed": "2026-08-27"
+  },
+  {
+   "id": "src-02",
+   "title": "Project 75I submarine deal: India–Germany near contract after tech review",
+   "publisher": "India Today",
+   "url": "https://www.indiatoday.in/india/story/project-75i-india-germany-submarine-deal-ccs-tech-transfer-review-2937347-2026-06-30",
+   "published_date": "2026-06-30",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27"
+  },
+  {
+   "id": "src-03",
+   "title": "Goa Shipyard hands over ICGS Ajit to Indian Coast Guard",
+   "publisher": "GSL / Indian Masterminds",
+   "url": "https://indianmasterminds.com/news/goa-shipyard-hands-over-icgs-ajit-indian-coast-guard-227559/",
+   "published_date": "2026-08-25",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27"
+  },
+  {
+   "id": "src-04",
+   "title": "Shachi-class patrol vessel (Navy OPV programme)",
+   "publisher": "Wikipedia synthesis of MoD/GSL/GRSE contract facts",
+   "url": "https://en.wikipedia.org/wiki/Shachi-class_patrol_vessel_(2026)",
+   "published_date": "2026",
+   "trust_tier": "indicative",
+   "accessed": "2026-08-27",
+   "note": "Contract value and split from secondary compilation; treat as indicative pending MoD primary"
+  },
+  {
+   "id": "src-05",
+   "title": "TEDBF awaits CCS; first flight possible within 5 years",
+   "publisher": "idrw.org",
+   "url": "https://idrw.org/tedbf-awaits-ccs-approval-first-flight-possible-within-5-years-says-tejas-chief-designer/",
+   "published_date": "2026-07-23",
+   "trust_tier": "credible",
+   "accessed": "2026-08-27"
+  }
+ ],
+ "service_layers": [
+  {
+   "id": "armour",
+   "name": "Armour / light tanks",
+   "score": 2,
+   "status": "Emerging",
+   "note": "Zorawar light tank (DRDO–L&T) in design refinement; induction targeted 2028–29 after armour-weight trade-offs. Arjun/T-series production and upgrades remain mixed indigenous/import.",
+   "dcf_layer": "Manufacturing & Integration",
+   "sources": [
+    "src-01"
+   ],
+   "service": "army"
+  },
+  {
+   "id": "artillery",
+   "name": "Artillery & rocket systems",
+   "score": 3,
+   "status": "Partial",
+   "note": "Pinaka family (Mk1, Enhanced, Guided, long-range path) is indigenous and in production/export; ATAGS and other tube artillery programmes progressive.",
+   "dcf_layer": "Manufacturing & Integration",
+   "sources": [
+    "src-02"
+   ],
+   "service": "army"
+  },
+  {
+   "id": "ad_missiles",
+   "name": "Army air defence missiles",
+   "score": 3,
+   "status": "Partial",
+   "note": "Akash operational; Akash-NG user trials complete (Dec 2025); QRSAM AoN done, CCS clearance awaited for large production cycle.",
+   "dcf_layer": "Manufacturing & Integration",
+   "sources": [
+    "src-03",
+    "src-04"
+   ],
+   "service": "army"
+  },
+  {
+   "id": "seekers",
+   "name": "Seekers / guidance / fire control",
+   "score": 2,
+   "status": "Emerging",
+   "note": "Domestic seeker and guidance packages growing (BDL/BEL/Apollo and peers); high-end RF seekers still partial import.",
+   "dcf_layer": "Components & Inputs",
+   "sources": [
+    "src-04"
+   ],
+   "service": "army"
+  },
+  {
+   "id": "propulsion_land",
+   "name": "Land vehicle / missile propulsion",
+   "score": 1,
+   "status": "Nascent",
+   "note": "Powerpacks for armoured vehicles and some rocket motors remain dependency-sensitive; solid motors for Pinaka/Akash family more mature domestically.",
+   "dcf_layer": "Equipment & Capital Goods",
+   "sources": [
+    "src-01",
+    "src-05"
+   ],
+   "service": "army"
+  },
+  {
+   "id": "c4isr_ew",
+   "name": "C4ISR / EW for land force",
+   "score": 2,
+   "status": "Emerging",
+   "note": "BEL-led electronics dense; advanced EW and sensor fusion still mixed with foreign modules.",
+   "dcf_layer": "Services & IP",
+   "sources": [
+    "src-05"
+   ],
+   "service": "army"
+  },
+  {
+   "id": "fighters",
+   "name": "Combat aircraft (fighters)",
+   "score": 2,
+   "status": "Emerging",
+   "note": "Tejas Mk1A production constrained by engines; Mk2/AMCA path advancing; Rafale fleet 36 in service with MRFA expansion under negotiation.",
+   "dcf_layer": "Manufacturing & Integration",
+   "sources": [
+    "src-01",
+    "src-02"
+   ],
+   "service": "air_force"
+  },
+  {
+   "id": "engines",
+   "name": "Military turbofan engines",
+   "score": 0,
+   "status": "Import-dependent",
+   "note": "F404 for Mk1A, F414 for Mk2/AMCA Mk1 — critical single-source dependency; ToT unresolved.",
+   "dcf_layer": "Equipment & Capital Goods",
+   "sources": [
+    "src-02"
+   ],
+   "service": "air_force"
+  },
+  {
+   "id": "air_defence",
+   "name": "Long-range ground-based AD",
+   "score": 2,
+   "status": "Emerging",
+   "note": "S-400 original five regiments nearing completion 2026; additional sets AoN; indigenous Akash-NG/QRSAM shared with Army.",
+   "dcf_layer": "Manufacturing & Integration",
+   "sources": [
+    "src-03"
+   ],
+   "service": "air_force"
+  },
+  {
+   "id": "air_weapons",
+   "name": "Air-launched weapons (BVR / PGMs)",
+   "score": 3,
+   "status": "Partial",
+   "note": "Astra Mk1/Mk2 path; private industry opening for Mk2 production; Meteor on Rafale; integration of Astra on Rafale planned ~2028.",
+   "dcf_layer": "Components & Inputs",
+   "sources": [
+    "src-04"
+   ],
+   "service": "air_force"
+  },
+  {
+   "id": "avionics",
+   "name": "AESA / EW / avionics",
+   "score": 2,
+   "status": "Emerging",
+   "note": "Uttam AESA GaN path; foreign suites still on imported fighters; EW mixed.",
+   "dcf_layer": "Components & Inputs",
+   "sources": [
+    "src-02"
+   ],
+   "service": "air_force"
+  },
+  {
+   "id": "transport",
+   "name": "Tactical transport (link)",
+   "score": 3,
+   "status": "Partial",
+   "note": "C295 India-build under Military Aerospace Atlas; first India-assembled delivery 2026.",
+   "dcf_layer": "Manufacturing & Integration",
+   "sources": [
+    "src-05"
+   ],
+   "service": "air_force"
+  },
+  {
+   "id": "surface_combatants",
+   "name": "Destroyers / frigates / corvettes",
+   "score": 4,
+   "status": "Substantial",
+   "note": "Project 15B Visakhapatnam-class complete (Surat delivered); Project 17A Nilgiri-class delivering; next-gen destroyer path under study.",
+   "dcf_layer": "Manufacturing & Integration",
+   "sources": [
+    "src-01"
+   ],
+   "service": "navy_coast_guard"
+  },
+  {
+   "id": "submarines",
+   "name": "Conventional submarines",
+   "score": 2,
+   "status": "Emerging",
+   "note": "Kalvari (P75) in service; P75(I) with MDL–TKMS near CCS; AIP ToT critical to programme.",
+   "dcf_layer": "Manufacturing & Integration",
+   "sources": [
+    "src-02"
+   ],
+   "service": "navy_coast_guard"
+  },
+  {
+   "id": "patrol",
+   "name": "OPV / FPV / Coast Guard craft",
+   "score": 4,
+   "status": "Substantial",
+   "note": "GSL and GRSE delivering Fast Patrol Vessels and Shachi-class OPVs with high indigenous content; serial Coast Guard induction ongoing.",
+   "dcf_layer": "Manufacturing & Integration",
+   "sources": [
+    "src-03",
+    "src-04"
+   ],
+   "service": "navy_coast_guard"
+  },
+  {
+   "id": "naval_aviation",
+   "name": "Carrier aviation / TEDBF path",
+   "score": 1,
+   "status": "Nascent",
+   "note": "MiG-29K operational; TEDBF awaits CCS; engine (F414-class) shared dependency with Air Force programmes.",
+   "dcf_layer": "Manufacturing & Integration",
+   "sources": [
+    "src-05"
+   ],
+   "service": "navy_coast_guard"
+  },
+  {
+   "id": "sensors_sonar",
+   "name": "Sonar / naval sensors",
+   "score": 2,
+   "status": "Emerging",
+   "note": "Domestic sonar and combat-management systems improving; high-end towed arrays and some suites still mixed.",
+   "dcf_layer": "Components & Inputs",
+   "sources": [
+    "src-06"
+   ],
+   "service": "navy_coast_guard"
+  },
+  {
+   "id": "propulsion_marine",
+   "name": "Marine propulsion (gas turbines / diesels / AIP)",
+   "score": 1,
+   "status": "Nascent",
+   "note": "COGAG gas turbines and AIP fuel-cell stacks remain foreign-led; domestic diesel and shaft systems stronger on patrol craft.",
+   "dcf_layer": "Equipment & Capital Goods",
+   "sources": [
+    "src-01",
+    "src-02"
+   ],
+   "service": "navy_coast_guard"
+  }
+ ],
+ "signals": [
+  {
+   "date": "2026-06",
+   "title": "Zorawar induction revised to 2028–29",
+   "summary": "Army Chief stated induction likely 2028–29 after design refinement (including armour protection vs 25 t limit). Requirement ~354 tanks; L&T first 59.",
+   "sources": [
+    "src-01"
+   ],
+   "service": "army"
+  },
+  {
+   "date": "2025-12 / 2026",
+   "title": "Pinaka long-range guided rockets AoN",
+   "summary": "DAC accorded AoN for long-range guided Pinaka ammunition (~120 km class discussed); Guided Pinaka validation complete; export batches flagged from Solar facility.",
+   "sources": [
+    "src-02"
+   ],
+   "service": "army"
+  },
+  {
+   "date": "2025-12",
+   "title": "Akash-NG user evaluation trials complete",
+   "summary": "DRDO completed user evaluation trials of Akash-NG; system closer to induction; large production order under consideration.",
+   "sources": [
+    "src-03"
+   ],
+   "service": "army"
+  },
+  {
+   "date": "2026",
+   "title": "QRSAM production order path",
+   "summary": "BEL reports QRSAM-side activities largely complete; CCS clearance awaited for production (industry commentary on ~1,000-missile class order to BDL).",
+   "sources": [
+    "src-04"
+   ],
+   "service": "army"
+  },
+  {
+   "date": "2026",
+   "title": "MRFA / additional Rafale path",
+   "summary": "DAC AoN for additional Rafales under MRFA; France submitted detailed proposal for ~114 aircraft (mix flyaway + India production); negotiations ongoing.",
+   "sources": [
+    "src-01"
+   ],
+   "service": "air_force"
+  },
+  {
+   "date": "2026",
+   "title": "Tejas Mk1A still engine-constrained",
+   "summary": "F404 deliveries resumed after multi-year delay; programme remains >2 years behind original schedule.",
+   "sources": [
+    "src-02"
+   ],
+   "service": "air_force"
+  },
+  {
+   "date": "2026",
+   "title": "S-400 fourth regiment delivery; fifth by end-2026/2027",
+   "summary": "Fourth regimental set deliveries underway 2026; original five-regiment contract completion targeted; additional five sets AoN.",
+   "sources": [
+    "src-03"
+   ],
+   "service": "air_force"
+  },
+  {
+   "date": "2026",
+   "title": "Astra Mk2 private production opening",
+   "summary": "DRDO programme opening serial production to private firms (TASL, Bharat Forge, Mahindra cited); Rafale integration trials targeted ~2028.",
+   "sources": [
+    "src-04"
+   ],
+   "service": "air_force"
+  },
+  {
+   "date": "2026-05+",
+   "title": "AMCA private shortlist RFP",
+   "summary": "Three private-led teams shortlisted; prototype award expected early 2027 (cross-link Military Aerospace).",
+   "sources": [
+    "src-06"
+   ],
+   "service": "air_force"
+  },
+  {
+   "date": "2024-12 / 2025",
+   "title": "P15B complete — INS Surat delivered",
+   "summary": "Fourth and final Project 15B destroyer (Surat) delivered to Indian Navy; class of four indigenous stealth destroyers complete at MDL.",
+   "sources": [
+    "src-01"
+   ],
+   "service": "navy_coast_guard"
+  },
+  {
+   "date": "2026",
+   "title": "Project 75(I) near CCS with MDL–TKMS",
+   "summary": "Sole compliant team; cost negotiations complete; Finance clearance reported; CCS path for six AIP submarines (~₹70–90k Cr); first delivery ~7 years post-contract.",
+   "sources": [
+    "src-02"
+   ],
+   "service": "navy_coast_guard"
+  },
+  {
+   "date": "2026-08",
+   "title": "GSL hands over ICGS Ajit FPV",
+   "summary": "Coast Guard Fast Patrol Vessel with >65% indigenous content handed over; Adamya-class serial induction continuing.",
+   "sources": [
+    "src-03"
+   ],
+   "service": "navy_coast_guard"
+  },
+  {
+   "date": "2026",
+   "title": "Shachi-class OPV launches / delivery from Sep 2026",
+   "summary": "11 Navy OPVs at GSL/GRSE (₹9,781 Cr); first launches in 2026; deliveries scheduled from September 2026.",
+   "sources": [
+    "src-04"
+   ],
+   "service": "navy_coast_guard"
+  },
+  {
+   "date": "2026",
+   "title": "TEDBF awaits CCS",
+   "summary": "Twin Engine Deck-Based Fighter programme positioned for CCS; designer commentary: first flight ~5 years after approval.",
+   "sources": [
+    "src-05"
+   ],
+   "service": "navy_coast_guard"
+  }
+ ]
 }

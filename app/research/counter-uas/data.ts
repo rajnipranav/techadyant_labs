@@ -1,12 +1,13 @@
 // Server-safe data access + helpers for the Counter-UAS Atlas entity pages.
 import raw from '../_cuas.json';
+import type { PackLayer, PackSignal } from '../AtlasLayers';
 
 export type System = { id: string; slug: string; name: string; variant: string; mfr: string; country: string; indig: number | null; makeInIndia: string; classification: string; domain: string; mobility: string; kill: string[]; counters: string[]; detRange: number | null; neutRange: number | null; reaction: number | null; simTargets: number | null; ai: boolean; fusion: boolean; swarmDet: string; status: string; year: string; partners: string; web: string };
 export type Mfr = { id: string; slug: string; name: string; hq: string; country: string; founded: string; portfolio: string; locations: string; exports: string; certifications: string; indigenous: string };
 export type Deployment = { id: string; sysId: string; system: string; location: string; state: string; agency: string; purpose: string; since: string; status: string; lat: number | null; lng: number | null };
 export type Intel = { topic: string; importance: string; trl: string; indig: string; china: string; semi: string; ai: string; swarm: string; ew: string; gps: string; outlook: string };
 
-const d = raw as unknown as { systems: System[]; manufacturers: Mfr[]; deployments: Deployment[]; intel: Intel[] };
+const d = raw as unknown as { systems: System[]; manufacturers: Mfr[]; deployments: Deployment[]; intel: Intel[]; layers?: PackLayer[]; signals?: PackSignal[] };
 export const systems = d.systems;
 export const manufacturers = d.manufacturers;
 export const deployments = d.deployments;
@@ -20,3 +21,6 @@ export const intelForSystem = (name: string, id: string) => intel.find((x) => x.
 export const systemsForMfr = (name: string) => systems.filter((x) => x.mfr === name);
 
 export const REPORT = { slug: 'indias-unmanned-warfare-transformation', title: 'India’s Unmanned Warfare Transformation' };
+
+export const layers = d.layers || [];
+export const signals = d.signals || [];

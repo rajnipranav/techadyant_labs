@@ -5,8 +5,11 @@ import { useMemo, useState } from 'react';
 import { INDIA_OUTLINE } from '../../corridors/data';
 import type { Platform, Company, Dependency, Supplier, System, Localization, Opportunity, GeoRec, GeoCluster, Mro, Programme, Meta, Source } from './data';
 import { DEPTH_ORDER, DEPTH_LABEL, CRIT_COLOR, TIER_LABEL } from './data';
+import { LayerScores, SignalsTimeline, type PackLayer, type PackSignal } from '../AtlasLayers';
 
 type Data = {
+  layers?: PackLayer[];
+  signals?: PackSignal[];
   meta: Meta; platforms: Platform[]; companies: Company[]; suppliers: Supplier[]; systems: System[];
   localization: Localization[]; dependencies: Dependency[]; opportunities: Opportunity[];
   geography: { records: GeoRec[]; clusters: GeoCluster[] }; mro: Mro[]; programmes: Programme[];
@@ -316,6 +319,8 @@ export function AerospaceView({ data }: { data: Data }) {
           </div>
           <ClusterMap sites={d.geography.records} clusters={d.geography.clusters} />
           <ProgrammeTimeline programmes={d.programmes} />
+          <LayerScores layers={d.layers || []} heading="Military aerospace value chain, scored" note="0 import-dependent to 5 sovereign. Aug 2026 research pack; each layer traces to a sourced record." />
+          <SignalsTimeline signals={d.signals || []} />
           <div style={{ ...card, fontSize: 13, color: 'var(--text-dim)', lineHeight: 1.7 }}>
             <b style={{ color: 'var(--text)' }}>Provenance, honestly labelled.</b> {m.sourcesResolved} of {m.sources} sources were resolved to specific primary documents in the August 2026 audit; the remaining {m.sourcesUnresolved} are marked indicative and every record that rests on them carries an <Ind n="" /> badge. Notably, no evidence was found of an IAF selection of the C-390 or of an Embraer-HAL MoU - Embraer&apos;s documented C-390 India partner is Mahindra Defence, and the IAF Medium Transport Aircraft competition remains open. <Link href="/research/methodology/" style={{ color: 'var(--link, #6cb0ff)' }}>Methodology</Link>
           </div>
