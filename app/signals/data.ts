@@ -2408,6 +2408,40 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Defence Minister Rajnath Singh approved DRDO conventional-missile technology transfer to Indian defence manufacturers.', 'Scope covers all DRDO conventional missile systems, including Astra, Rudram, LRAShM and Pralay.', 'Participation is subject to technical qualifications, certifications and regulatory requirements.', 'The strongest next evidence will be named technology-transfer agreements, qualification pathways and funded production contracts.'],
   sources: ['{"publication":"The Hindu","date":"2026-08-25","url":"https://www.thehindu.com/news/national/govt-approves-transfer-of-drdo-developed-missile-tech-to-indian-defence-industry/article71388248.ece","note":"Confirms the Defence Minister\'s approval, the scope of the transfer and the qualification and certification conditions"}', '{"publication":"The Economic Times","date":"2026-08-26","url":"https://m.economictimes.com/news/defence/rajnath-singh-opens-drdo-missile-tech-to-private-sector/articleshow/133523823.cms","note":"Provides context on the shift from public-sector dominance and identifies representative DRDO missile systems"}', '{"publication":"Al Jazeera","date":"2026-08-26","url":"https://www.aljazeera.com/news/2026/8/26/why-india-is-sharing-missile-secrets-with-its-private-sector","note":"Independently confirms the policy and analyses its implications for private-sector production, prime integration and missile stockpiles"}']
+}, {
+  slug: 'semicon-2-0-roadmap-7nm-3nm-100000-design-engineers',
+  no: 'S-075',
+  title: 'Semicon 2.0 sets 7nm-to-3nm chip roadmap and 100,000-design-engineer target',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-08-29',
+  dateLabel: '29 Aug 2026',
+  status: 'live',
+  excerpt: 'Electronics Minister Ashwini Vaishnaw has laid out the detailed implementation roadmap for Semicon 2.0, targeting 7nm-to-3nm chip technology within eight years and the training of 100,000 semiconductor design engineers. The plan marks a shift from fabrication-focused incentives toward a broader ecosystem spanning chip design, manufacturing equipment, materials, advanced packaging and talent.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Union Electronics and IT Minister Ashwini Vaishnaw published a detailed roadmap for Semicon 2.0 on 25 August 2026, setting an explicit target of developing advanced semiconductor process technologies in the 7-nanometre to 3-nanometre range within the next eight years. The government currently operates at 40-nanometre technology. The roadmap also raises the talent target from 85,000 to 100,000 semiconductor design engineers, expands the Chips to Startup programme to more than 320 universities and startups, and broadens the programme beyond fabrication to six building blocks: compute, memory, radio frequency, power, networking and sensors. Domestic manufacturing of semiconductor equipment and 150–500 specialty chemicals, gases and materials used in chipmaking is also included.[1] [2] [3]',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Fabrication is only one layer of a chip supply chain. A fab without domestic design capability, equipment servicing, specialty materials and trained engineers remains exposed to import disruption and foreign IP control. The 7nm-to-3nm target is significant because those nodes are where most advanced AI, telecom, defence and automotive chips are made, and because the equipment, materials and process knowledge for those nodes are concentrated in a small number of countries. If India can develop design IP, equipment and materials domestically, the strategic exposure of its electronics and defence industries falls sharply. The 100,000-engineer target is equally important: it is the labour pipeline that determines whether advanced-node capability stays on paper or becomes repeatable industrial output.[2] [3]',
+  type: 'p'
+}, {
+  text: 'The Techadyant View',
+  type: 'h'
+}, {
+  text: 'This is a credible escalation of ambition, not yet a capability delivered. The roadmap is specific on targets, but advanced-node semiconductor ecosystems have taken existing players decades to build, and India is five years into a deliberate catch-up strategy. The 40nm-to-3nm gap is large, and it requires simultaneous progress in design tools, IP development, equipment localisation, materials supply, cleanroom process engineering and workforce quality — any one of which can become the binding constraint. The more important near-term test is whether the equipment and materials incentives under Semicon 2.0 attract credible domestic manufacturers within the next 18–24 months, because that is the layer most likely to determine whether the advanced-node timeline slips.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Track the first domestic semiconductor equipment and materials projects approved under Semicon 2.0 incentives, especially in gases, chemicals, photomasks and process-tool subsystems. Monitor EDA-tool usage and chip-design tape-outs from Indian academic and startup teams under the Chips to Startup programme. Watch for announcements of Indian-designed chips at or beyond 40nm moving towards customer qualification and production orders. Finally, track whether the 100,000-engineer target translates into actual degree and certification throughput, not just enrolment figures.',
+  type: 'p'
+}],
+  takeaways: ['Semicon 2.0 targets 7nm-to-3nm chip technology within eight years, up from India\'s current 40nm capability.', 'The programme outlay is ₹1,27,500 crore, with expanded focus on chip design, equipment, materials, advanced packaging and talent.', 'The talent target has been raised to 100,000 semiconductor design engineers.', 'The near-term test is whether equipment and materials incentives attract credible domestic manufacturers within 18–24 months.'],
+  sources: ['{"publication":"Ashwini Vaishnaw Substack","date":"2026-08-25","url":"https://ashwinivaishnaw.substack.com/p/how-we-are-building-indias-semiconductor","note":"Minister\'s detailed roadmap post confirming 7nm-to-3nm target, 100,000-design-engineer goal, six chip-design building blocks and expanded ecosystem focus"}', '{"publication":"CNBC TV18","date":"2026-08-26","url":"https://www.cnbctv18.com/technology/india-targets-3-7-nm-chip-technology-in-eight-years-under-semicon-2-0-vaishnaw-19977762.htm","note":"Independent confirmation of the advanced-node target, talent goal and seven-pillar Semicon 2.0 structure"}', '{"publication":"Business Today","date":"2026-08-26","url":"https://www.businesstoday.in/technology/story/from-chips-to-fabs-ashwini-vaishnaw-explains-how-india-is-building-its-semiconductor-ecosystem-551472-2026-08-26","note":"Independent coverage confirming 12 approved units, $20 billion investment, three units in production and the expanded ecosystem strategy"}', '{"publication":"Indian Infrastructure","date":"2026-08-27","url":"https://indianinfrastructure.com/2026/08/27/semicon-2-0-to-target-7nm-3nm-chip-technologies-and-train-100000-design-engineers-says-it-minister/","note":"Independent confirmation of the advanced-node target, 100,000-design-engineer ambition and expanded focus areas"}']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
