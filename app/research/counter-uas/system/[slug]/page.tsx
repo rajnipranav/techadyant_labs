@@ -3,7 +3,11 @@ import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { systems, systemBySlug, deploymentsForSystem, intelForSystem, mfrSlug, REPORT } from '../../data';
 
-export function generateStaticParams() { return systems.map((s) => ({ slug: s.slug })); }
+import { listStaticParamsForBase } from "../../../../lib/loadDossier";
+
+export function generateStaticParams() {
+  return listStaticParamsForBase("/research/counter-uas/system/");
+}
 export const dynamicParams = false;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

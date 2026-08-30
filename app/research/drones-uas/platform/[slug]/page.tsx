@@ -2,8 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { platforms, platformBySlug, procForPlatform, componentsForPlatform, companySlug, REPORTS, categoryReport, crossAtlas } from '../../data';
+import { listStaticParamsForBase } from '../../../../lib/loadDossier';
 
-export function generateStaticParams() { return platforms.map((p) => ({ slug: p.slug })); }
+export function generateStaticParams() { return listStaticParamsForBase("/research/drones-uas/platform/"); }
 export const dynamicParams = false;
 
 const num = (v: number | null, u: string) => (v == null ? null : `${v.toLocaleString('en-IN')}${u}`);

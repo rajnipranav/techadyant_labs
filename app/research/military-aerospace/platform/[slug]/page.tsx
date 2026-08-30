@@ -4,8 +4,10 @@ import { AtlasNav } from '../../../AtlasNav';
 import { platformBySlug, platforms, systemsForPlatform, locForPlatform, depsForPlatform, mroForPlatform, progsForPlatform, companySlug, DEPTH_LABEL } from '../../data';
 import { Sources } from '../../Sources';
 
+import { listStaticParamsForBase } from "../../../../lib/loadDossier";
+
 export function generateStaticParams() {
-  return platforms.map((p) => ({ slug: p.slug }));
+  return listStaticParamsForBase("/research/military-aerospace/platform/");
 }
 export const dynamicParams = false;
 

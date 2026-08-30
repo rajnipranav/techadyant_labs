@@ -8,11 +8,12 @@ import {
   originOf, statusInfo, humanize, sourcesFor,
 } from '../../data';
 import { StatusBadge, OriginBadge, ServiceTag, EntityLink, SourceRefs, card, kick } from '../../ui';
+import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
 
 const BASE = '/research/pillars/defence';
 
 export function generateStaticParams() {
-  return entities.map((e) => ({ slug: entitySlug(e.id) }));
+  return listStaticParamsForBase("/research/pillars/defence/entity/");
 }
 export const dynamicParams = false;
 

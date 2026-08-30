@@ -4,7 +4,11 @@ import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { manufacturers, mfrBySlug, systemsForMfr } from '../../data';
 
-export function generateStaticParams() { return manufacturers.map((m) => ({ slug: m.slug })); }
+import { listStaticParamsForBase } from "../../../../lib/loadDossier";
+
+export function generateStaticParams() {
+  return listStaticParamsForBase("/research/counter-uas/manufacturer/");
+}
 export const dynamicParams = false;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

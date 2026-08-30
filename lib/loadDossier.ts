@@ -677,3 +677,10 @@ export function listDossierSlugs(): string[] {
 export function listDossiersByVertical(vertical: EntityDossier["vertical"]): EntityDossier[] {
   return Object.values(DOSSIER_MAP).filter((d) => d.vertical === vertical);
 }
+
+// Helper: return static params for a route segment that maps to a given base path
+export function listStaticParamsForBase(basePath: string): { slug: string }[] {
+  return Object.values(DOSSIER_MAP)
+    .filter((d) => d.seo.canonical_path?.startsWith(basePath))
+    .map((d) => ({ slug: d.slug }));
+}

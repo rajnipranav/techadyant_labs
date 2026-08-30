@@ -4,8 +4,9 @@ import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { companies, companyBySlug, platformsForCompany, suppliersForCompany, geoForCompany, mroForCompany, TIER_LABEL } from '../../data';
 import { Sources } from '../../Sources';
+import { listStaticParamsForBase } from '../../../../lib/loadDossier';
 
-export function generateStaticParams() { return companies.map((c) => ({ slug: c.slug })); }
+export function generateStaticParams() { return listStaticParamsForBase("/research/military-aerospace/company/"); }
 export const dynamicParams = false;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

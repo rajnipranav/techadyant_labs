@@ -3,8 +3,8 @@ import { companyDossierMetadata, renderCompanyDossierPage } from '../../../../_c
 import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { companies, companyBySlug, platformsForCompany } from '../../data';
-
-export function generateStaticParams() { return companies.map((c) => ({ slug: c.slug })); }
+import { listStaticParamsForBase } from '../../../../lib/loadDossier';
+export function generateStaticParams() { return listStaticParamsForBase("/research/space/company/"); }
 export const dynamicParams = false;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

@@ -9,7 +9,7 @@ import {
   renderDossierPage,
   type DossierPageProps,
 } from "../../../../_dossierPage";
-import { listDossierSlugs } from "../../../../../lib/loadDossier";
+import { listStaticParamsForBase } from "../../../../lib/loadDossier";
 
 export async function generateMetadata({
   params,
@@ -19,13 +19,11 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  const slugs = listDossierSlugs();
-  return slugs.map((slug) => ({ slug }));
+  return listStaticParamsForBase("/research/military-aerospace/entity/");
 }
 
 export default async function Page({ params }: DossierPageProps) {
   const { slug } = await params;
   return renderDossierPage(slug);
 }
-
 
