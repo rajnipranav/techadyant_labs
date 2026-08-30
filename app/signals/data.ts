@@ -2442,6 +2442,80 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Semicon 2.0 targets 7nm-to-3nm chip technology within eight years, up from India\'s current 40nm capability.', 'The programme outlay is ₹1,27,500 crore, with expanded focus on chip design, equipment, materials, advanced packaging and talent.', 'The talent target has been raised to 100,000 semiconductor design engineers.', 'The near-term test is whether equipment and materials incentives attract credible domestic manufacturers within 18–24 months.'],
   sources: ['{"publication":"Ashwini Vaishnaw Substack","date":"2026-08-25","url":"https://ashwinivaishnaw.substack.com/p/how-we-are-building-indias-semiconductor","note":"Minister\'s detailed roadmap post confirming 7nm-to-3nm target, 100,000-design-engineer goal, six chip-design building blocks and expanded ecosystem focus"}', '{"publication":"CNBC TV18","date":"2026-08-26","url":"https://www.cnbctv18.com/technology/india-targets-3-7-nm-chip-technology-in-eight-years-under-semicon-2-0-vaishnaw-19977762.htm","note":"Independent confirmation of the advanced-node target, talent goal and seven-pillar Semicon 2.0 structure"}', '{"publication":"Business Today","date":"2026-08-26","url":"https://www.businesstoday.in/technology/story/from-chips-to-fabs-ashwini-vaishnaw-explains-how-india-is-building-its-semiconductor-ecosystem-551472-2026-08-26","note":"Independent coverage confirming 12 approved units, $20 billion investment, three units in production and the expanded ecosystem strategy"}', '{"publication":"Indian Infrastructure","date":"2026-08-27","url":"https://indianinfrastructure.com/2026/08/27/semicon-2-0-to-target-7nm-3nm-chip-technologies-and-train-100000-design-engineers-says-it-minister/","note":"Independent confirmation of the advanced-node target, 100,000-design-engineer ambition and expanded focus areas"}']
+}, {
+  slug: 'indian-railways-hydrogen-heritage-35-trains-green-hydrogen-cost',
+  no: 'S-076',
+  title: 'Indian Railways targets 35 hydrogen trains under Hydrogen for Heritage as it hunts cheaper green hydrogen',
+  domain: 'Clean Energy & Sustainable Mobility',
+  date: '2026-08-30',
+  dateLabel: '30 Aug 2026',
+  status: 'live',
+  excerpt: 'Indian Railways is pressing ahead with its Hydrogen for Heritage initiative to deploy 35 hydrogen fuel-cell trains on hill and heritage routes where electrification is impractical. After the Jind–Sonipat pilot crossed 2,500 km of commercial service, the transporter is now chasing lower-cost green hydrogen suppliers and offering offtake guarantees to bring down operating costs.',
+  readingTime: '3 min',
+  body: [{
+  text: 'What changed',
+  type: 'h'
+}, {
+  text: 'Indian Railways is actively seeking cheaper green hydrogen suppliers and offering offtake guarantees to reduce the high operating costs of its hydrogen fleet. The first indigenously built hydrogen train, operated on the Jind–Sonipat route since mid-July 2026, has already completed more than 2,500 km of commercial service, giving the railways operational data to support the planned rollout.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'The Hydrogen for Heritage programme targets routes where overhead electrification is uneconomical or environmentally sensitive—such as the Darjeeling Himalayan Railway, Kalka–Shimla Railway, Nilgiri Mountain Railway, Kangra Valley, and others. Hydrogen fuel-cell trains offer zero tailpipe emissions and avoid the visual and ecological impact of overhead catenary on heritage corridors. At ₹80 crore per train and ₹70 crore per route for ground infrastructure, the full 35-train fleet represents a capital commitment of roughly ₹2,800 crore.',
+  type: 'p'
+}, {
+  text: 'What is proven',
+  type: 'h'
+}, {
+  text: 'The 10-coach Jind–Sonipat trainset, built by the Integral Coach Factory in Chennai with integration by Medha Servo Drives, is one of the longest and most powerful hydrogen trainsets in operation globally. Its 3,200 hp propulsion system and 2,600-passenger capacity exceed typical 2–3-coach hydrogen trains in Germany, China, and Japan. A dedicated green hydrogen production and refuelling facility at Jind, with PESO certification and 24/7 safety monitoring, has been validated through real commercial operations. The train emits only water vapour and has already avoided an estimated 36,444 kg of CO₂ equivalent emissions.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'The decisive variable is green hydrogen cost. Indian Railways is exploring offtake guarantees to attract lower-cost suppliers, but no firm deals have been announced. Watch for supplier announcements or tenders tied to specific heritage routes, and for the selection of the next corridors after Jind–Sonipat.',
+  type: 'p'
+}],
+  takeaways: ['Indian Railways is pushing beyond the Jind–Sonipat pilot toward 35 hydrogen trains on heritage and hill routes where electrification is difficult.', 'Operating-cost reduction is the immediate priority: the railways is seeking cheaper green hydrogen and offering offtake guarantees.', 'The programme aligns with the National Green Hydrogen Mission and supports India’s net-zero 2070 target.'],
+  sources: ['Times of India — ‘World’s most powerful: Indian Railways eyes 35 hydrogen trains; looks at cheaper green fuel’, Aug 2026', 'Economic Times — ‘PM Modi flags off India’s first hydrogen-powered train, says wider rollout likely’, Jul 2026', 'AP News — ‘India rolls out first hydrogen-powered train built in the country’, Jul 2026', 'Hindustan Times — ‘HT Explainer | India’s first hydrogen train: All you need to know’, 2026']
+}, {
+  slug: 'amaravati-india-first-quantum-ai-university-nielit-meity',
+  no: 'S-077',
+  title: 'Andhra Pradesh approves India’s first dedicated Quantum and AI university campus in Amaravati',
+  domain: 'Strategic Technology',
+  date: '2026-08-30',
+  dateLabel: '30 Aug 2026',
+  status: 'live',
+  excerpt: 'Andhra Pradesh has approved India’s first dedicated university campus for quantum technologies and artificial intelligence at Amaravati, with MeitY releasing ₹730.7 crore for an 8.5-acre net-zero NIELIT facility. Academic programmes begin at a temporary campus in Guntur from September 2026.',
+  readingTime: '3 min',
+  body: [{
+  text: 'What changed',
+  type: 'h'
+}, {
+  text: 'Andhra Pradesh has officially sanctioned an NIELIT Quantum and AI University campus in Amaravati, funded by a MeitY grant of ₹730.7 crore. Academic and skill-development programmes will start from September 2026 at a temporary facility in Acharya Nagarjuna University in Guntur while the permanent 8.5-acre campus is developed.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'This is India’s first dedicated university campus for quantum and AI, combining quantum computing and communication, AI and machine learning, semiconductor fabrication, chip design, VLSI, embedded systems and high-performance computing under one institution. It is also designed as a net-zero campus with cleanroom nano-fab and cryogenic labs, reflecting the infrastructure standards that frontier-technology programmes now require.',
+  type: 'p'
+}, {
+  text: 'What is proven',
+  type: 'h'
+}, {
+  text: 'The state government approval, MeitY funding and phased academic launch are all confirmed. The campus targets about 8,250 learners over five years, including nearly 1,650 formal degree candidates and 6,600 certification trainees, signalling an explicit intent to bridge the quantum and semiconductor talent gap. No other Indian state currently has an institution of this scope and focus.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Track permanent-campus construction progress, curriculum accreditation, industry research partnerships and student intake in the first September 2026 cohort. The decisive test will be whether the campus produces applied research and spin-offs or remains primarily an academic credential factory.',
+  type: 'p'
+}],
+  takeaways: ['Andhra Pradesh has secured India’s first dedicated quantum and AI university campus, with MeitY backing and ₹730.7 crore in funding.', 'Programmes begin from September 2026, giving the state an early-mover advantage in quantum and semiconductor talent.', 'The net-zero campus with nano-fab and cryogenic labs is designed to match the physical infrastructure needs of frontier-technology research.'],
+  sources: ['Economic Times — ‘Amaravati to get India’s first quantum-AI university’, Aug 2026', 'The Hindu — ‘India’s first dedicated Quantum and AI University campus to come up in Amaravati’, Aug 2026', 'New Indian Express — ‘Amaravati to get India’s first Quantum & AI varsity’, Aug 2026', 'Quantum Computing Report — ‘India’s First Dedicated Quantum and AI University Campus Approved for Amaravati’, Aug 2026']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
