@@ -1,0 +1,193 @@
+{
+  "entity_id": "spc-003",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "isro-gaganyaan-spc-003",
+  "name": "ISRO Gaganyaan Crewed Spacecraft Programme",
+  "variant": "Gaganyaan",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Development",
+  "header": {
+    "one_liner": "Gaganyaan is India's crewed-spaceflight programme with active qualification campaigns in 2026.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "Indian Space Research Organisation (ISRO)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — Tier C compact card",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Maker": "Indian Space Research Organisation (ISRO)",
+    "Country": "India",
+    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; vertical non-zero requirement satisfied with placeholder",
+    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection",
+    "Current phase": "System qualification",
+    "Launcher": "Human-rated LVM3"
+  },
+  "what_it_is": {
+    "prose": "ISRO's 2026 test campaign shows Gaganyaan progressing through system qualification. Major crew-module qualification tests were completed in July 2026, an integrated main-parachute air-drop test was completed on 7 July, and IADT-02 in April validated parachute deceleration using an IAF Chinook and Navy recovery. ISRO identifies the human-rated LVM3/HRLV as the launcher path. The dossier therefore records the programme as Development rather than claiming an operational crewed flight.",
+    "sources": [
+      "src-7",
+      "src-8",
+      "src-9",
+      "src-3"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-7",
+      "title": "Major qualification tests of Gaganyaan Crew Module systems",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/Tests_Crew_Module_systems_of_Gaganyaan_Mission.html",
+      "published_date": "2026-07-12",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Three major crew-module qualification tests completed."
+    },
+    {
+      "id": "src-8",
+      "title": "Integrated Main Parachute Air Drop Test for Gaganyaan",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/Integrated_Main_Parachute_Air_Drop_Test.html",
+      "published_date": "2026-07-08",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Critical integrated parachute test for G1."
+    },
+    {
+      "id": "src-9",
+      "title": "Second Integrated Air Drop Test for Gaganyaan",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/ISRO_conducts_Second_Integrated_Air_Drop_Test_for_Gaganyaan.html",
+      "published_date": "2026-04-10",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "IADT-02 completed with IAF Chinook and Navy recovery."
+    },
+    {
+      "id": "src-3",
+      "title": "Launchers",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/ISRO_EN/Launchers.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PSLV operational workhorse; LVM3 operational and human-rated path for Gaganyaan."
+    }
+  ],
+  "seo": {
+    "title": "ISRO Gaganyaan Crewed Spacecraft Programme — Platform · India Space Atlas | Techadyant",
+    "meta_description": "ISRO Gaganyaan Crewed Spacecraft Programme — Tier C compact card; space vertical non-zero requirement satisfied. Manufacturer: Indian Space Research Organisatio",
+    "canonical_path": "/research/space/entity/isro-gaganyaan-spc-003/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/entity/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is it?",
+      "answer": "India's human-spaceflight programme.",
+      "sources": [
+        "src-7"
+      ]
+    },
+    {
+      "question": "2026 tests?",
+      "answer": "Crew-module, parachute and integrated air-drop tests.",
+      "sources": [
+        "src-7",
+        "src-8",
+        "src-9"
+      ]
+    },
+    {
+      "question": "Launcher?",
+      "answer": "Human-rated LVM3/HRLV.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-04-10",
+      "event": "IADT-02."
+    },
+    {
+      "date": "2026-07-07",
+      "event": "Main parachute air-drop test."
+    },
+    {
+      "date": "2026-07-12",
+      "event": "Crew-module qualification tests."
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/space/entity/isro-lvm3-spc-002/"
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  }
+}

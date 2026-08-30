@@ -1,0 +1,373 @@
+{
+  "entity_id": "atl-cmp-infosys-mfr-080",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "infosys-mfr-080",
+  "name": "Infosys Defence & Aerospace",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/infosys-mfr-080/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Infosys Limited is a Bengaluru-headquartered Indian multinational IT services and consulting company founded in 1981 by N. R. Narayana Murthy and six co-founders. Infosys's Aerospace and Defense consu",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India (Electronics City); Infosys Limited founded 1981",
+    "Type": "Manufacturer (listed)",
+    "Founded": "Infosys Limited founded 2 July 1981 (N. R. Narayana Murthy + 6 co-founders); Aerospace and Defense consulting practice active since 2000s",
+    "India entity": null,
+    "Listed": "Listed — NSE:INFY / BSE:500209; ADR NYSE:INFY; market leader in Indian IT services",
+    "Key India role": "Infosys Limited is a Bengaluru-headquartered Indian multinational IT services and consulting company founded in 1981 by N. R. Narayana Murthy and six co-founders. Infosys's Aerospace and Defense consu"
+  },
+  "what_it_is": {
+    "prose": "Infosys Limited is a Bengaluru-headquartered Indian multinational IT services and consulting company founded in 1981 by N. R. Narayana Murthy and six co-founders. Infosys's Aerospace and Defense consulting practice provides digital transformation, engineering services, cybersecurity and product lifecycle management solutions to global A&D OEMs and government customers. Key partnerships: (1) Rolls-Royce — strategic partnership for sourcing engineering and R&D services for Rolls-Royce's Civil Aerospace business (announced 2 December 2020); transition of significant portion of Rolls-Royce's Bengaluru captive center; (2) Rolls-Royce + Infosys launched joint 'Aerospace Engineering and Digital Innovation Centre' in India (8 April 2022); (3) Infosys Cobalt — cloud-based digital platform adopted by a leading aerostructure manufacturer. Infosys supports Indian defence customers with mission-critical IT systems including ERP, supply chain, MRO and lifecycle management.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "6 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Aerospace and Defense consulting solutions",
+        "role": "OEM",
+        "india_status": "digital transformation, engineering services",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Infosys Cobalt",
+        "role": "OEM",
+        "india_status": "cloud-based digital platform for aerospace & defence (ERP, supply chain, MRO, lifecycle management)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Aerospace Engineering and Digital Innovation Centre (joint with Rolls-Royce, launched April 2022)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Engineering and R&D services for Rolls-Royce Civil Aerospace (strategic partnership December 2020)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Digital commerce solutions for aerospace and defence (quote-to-fulfillment processes)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Cybersecurity solutions for defence IT systems",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "4 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "Rolls-Royce and Infosys announced strategic partnership for aerospace engineering in India on 2 December 2020 — sourcing engineering and R&D services for Rolls-Royce's Civil Aerospace business",
+        "year": "2020",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Infosys and Rolls-Royce launched joint 'Aerospace Engineering and Digital Innovation Centre' in India on 8 April 2022",
+        "year": "2022",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Infosys Aerospace and Defense practice — used by leading aerostructure manufacturer for IT landscape blueprint of acquired entity (Infosys Cobalt)",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Infosys provides aerospace and defence consulting globally with India delivery",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "8 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "3 official, 4 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Infosys Limited founded?",
+      "answer": "Infosys Limited is a Bengaluru-headquartered Indian multinational IT services and consulting company founded in 1981 by N.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "On which stock exchanges is Infosys listed?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which UK aerospace OEM did Infosys partner with for aerospace engineering in December 2020?",
+      "answer": "Key partnerships: (1) Rolls-Royce — strategic partnership for sourcing engineering and R&D services for Rolls-Royce's Civil Aerospace business (announced 2 December 2020); transition of significant portion of Rolls-Royce's Bengaluru captive center; (2) Rolls-Royce + Infosys launched joint 'Aerospace Engineering and Digital Innovation Centre' in India (8 April 2022); (3) Infosys Cobalt — cloud-based digital platform adopted by a leading aerostructure manufacturer.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the name of the joint Infosys-Rolls-Royce centre launched in April 2022?",
+      "answer": "Key partnerships: (1) Rolls-Royce — strategic partnership for sourcing engineering and R&D services for Rolls-Royce's Civil Aerospace business (announced 2 December 2020); transition of significant portion of Rolls-Royce's Bengaluru captive center; (2) Rolls-Royce + Infosys launched joint 'Aerospace Engineering and Digital Innovation Centre' in India (8 April 2022); (3) Infosys Cobalt — cloud-based digital platform adopted by a leading aerostructure manufacturer.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is Infosys Cobalt and how is it used in aerospace and defence?",
+      "answer": "Key partnerships: (1) Rolls-Royce — strategic partnership for sourcing engineering and R&D services for Rolls-Royce's Civil Aerospace business (announced 2 December 2020); transition of significant portion of Rolls-Royce's Bengaluru captive center; (2) Rolls-Royce + Infosys launched joint 'Aerospace Engineering and Digital Innovation Centre' in India (8 April 2022); (3) Infosys Cobalt — cloud-based digital platform adopted by a leading aerostructure manufacturer.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Infosys Aerospace and Defense Consulting — calibrates renewed growth with new digital models for A&D sector",
+      "publisher": "Infosys Official",
+      "url": "https://www.infosys.com/industries/aerospace-defense.html",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "Rolls-Royce and Infosys announced strategic partnership for sourcing engineering and R&D services for Rolls-Royce's Civil Aerospace business (7 Dec 2020)",
+      "publisher": "Rolls-Royce Official",
+      "url": "https://www.rolls-royce.com/media/press-releases/2020/07-12-2020-rr-and-infosys-announce-strategic-partnership-for-aerospace-engineering-in-india.aspx",
+      "published_date": "2020-12-07",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Rolls-Royce and Infosys strategic partnership for aerospace engineering in India (2 Dec 2020)",
+      "publisher": "PR Newswire India",
+      "url": "https://www.prnewswire.com/in/news-releases/rolls-royce-and-infosys-announce-strategic-partnership-for-aerospace-engineering-in-india-812953884.html",
+      "published_date": "2020-12-02",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Rolls-Royce and Infosys announce strategic partnership for aerospace engineering (2 Dec 2020) — sourcing ER&D services for Civil Aerospace business",
+      "publisher": "Airframer",
+      "url": "https://www.airframer.com/news/release/rolls-royce-and-infosys-announce-strategic-partnership-for-aerospace",
+      "published_date": "2020-12-02",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "Rolls-Royce and India's Infosys partner for aerospace engineering (3 Dec 2020) — engineering and R&D services for Civil Aerospace business",
+      "publisher": "Airport Technology",
+      "url": "https://www.airport-technology.com/news/rolls-royce-infosys-aerospace-engineering",
+      "published_date": "2020-12-03",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Infosys and Rolls-Royce launch joint 'Aerospace Engineering and Digital Innovation Centre' in India (8 April 2022)",
+      "publisher": "AviTrader",
+      "url": "https://avitrader.com/2022/04/08/infosys-and-rolls-royce-launch-joint-aerospace-engineering-and-digital-innovation-centre-in-india",
+      "published_date": "2022-04-08",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Infosys Aerospace and Defense practice — digital commerce solutions augment quote-to-fulfillment processes",
+      "publisher": "Infosys Official",
+      "url": "https://www.infosys.com/industries/aerospace-defense/industry-offerings/digital-commerce.html",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Infosys signs large engineering service deal with Rolls-Royce including transition of significant portion of Bengaluru captive center",
+      "publisher": "LinkedIn (Pareekh Jain)",
+      "url": "https://www.linkedin.com/posts/pareekhjain_rolls-royce-and-infosys-announce-strategic-activity-6739799690486906881-dyBL",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Infosys Defence & Aerospace — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Infosys Defence & Aerospace company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/infosys-mfr-080/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/infosys-mfr-080/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

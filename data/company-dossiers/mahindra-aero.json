@@ -1,0 +1,435 @@
+{
+  "entity_id": "atl-cmp-mahindra-aero",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "mahindra-aero",
+  "name": "Mahindra Aerospace",
+  "variant": null,
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/mahindra-aero/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Mahindra Aerospace is the Mahindra Group's aerospace manufacturing arm, founded in 2010 (the Group entered aerospace in 2009 with the simultaneous acquisition of majority stakes in two Australian comp",
+    "chips": [
+      "military-aerospace",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India (Mahindra Aerostructures Pvt Ltd facility near Bengaluru — 25,000 sq.m)",
+    "Type": "Company (listed)",
+    "Founded": "2010 (Mahindra Group entered aerospace manufacturing segment in 2009 with simultaneous acquisition of majority stake in two Australian companies — GippsAero and Aerostaff Australia)",
+    "India entity": null,
+    "Listed": "Not separately listed — wholly-owned subsidiary of Mahindra & Mahindra Ltd (NSE:M&M / BSE:500520)",
+    "Key India role": "Mahindra Aerospace is the Mahindra Group's aerospace manufacturing arm, founded in 2010 (the Group entered aerospace in 2009 with the simultaneous acquisition of majority stakes in two Australian comp"
+  },
+  "what_it_is": {
+    "prose": "Mahindra Aerospace is the Mahindra Group's aerospace manufacturing arm, founded in 2010 (the Group entered aerospace in 2009 with the simultaneous acquisition of majority stakes in two Australian companies — GippsAero (GA8 Airvan manufacturer) and Aerostaff Australia). Mahindra Aerospace was the first Indian private firm to make smaller civil aircraft. Its subsidiary Mahindra Aerostructures Pvt Ltd operates a 25,000 sq.m metallic aerostructures fabrication facility near Bengaluru. Mahindra Aerostructures secured a major contract from Airbus Helicopters on 9 April 2025 to manufacture the main fuselage assembly of the H130 helicopter (shipped to Airbus Helicopters' final assembly line in Marignane, France); followed by the H125 fuselage contract announced 28 August 2025 (in addition to the H130 contract). On 27 October 2025, Mahindra Group formed a strategic alliance with Brazil's Embraer to introduce the C-390 Millennium military transport aircraft to India with local manufacturing, assembly, supply chain and engineering. Mahindra exited the GA8 Airvan programme in November 2023 when GippsAero co-founder George Morgan re-purchased the company. In August 2026, parent Mahindra Defence Systems Ltd incorporated Novavayu Aerospace (30 July 2026) as wholly-owned subsidiary for aircraft manufacturing.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "7 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Mahindra Aerostructures Pvt Ltd (MASPL)",
+        "role": "OEM",
+        "india_status": "25,000 sq.m metallic aerostructures fabrication facility near Bengaluru",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Airbus H130 helicopter main fuselage assembly (contract awarded 9 April 2025, shipped to Airbus Marignane FAL)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Airbus H125 helicopter fuselage (contract awarded 28 August 2025)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Embraer C-390 Millennium",
+        "role": "OEM",
+        "india_status": "strategic alliance with Embraer announced 27 October 2025 (local manufacturing, assembly, supply chain, engineering for India)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "GippsAero GA8 Airvan",
+        "role": "OEM",
+        "india_status": "historically manufactured (Mahindra exited Nov 2023 when co-founder George Morgan re-purchased GippsAero)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Aerostaff Australia",
+        "role": "OEM",
+        "india_status": "aircraft components (acquired 2009)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Novavayu Aerospace",
+        "role": "OEM",
+        "india_status": "wholly-owned MDSL subsidiary incorporated 30 July 2026 for aircraft manufacturing",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "6 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "Mahindra Aerostructures secured H130 fuselage manufacturing contract from Airbus Helicopters on 9 April 2025",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Mahindra Aerostructures secured H125 fuselage contract from Airbus Helicopters on 28 August 2025 (in addition to H130)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Embraer-Mahindra strategic alliance announced 27 October 2025 to introduce C-390 Millennium to India with local manufacturing and assembly",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Mahindra Aerospace exited GippsAero GA8 Airvan programme in November 2023 (co-founder George Morgan re-purchased the Australian company)",
+        "year": "2023",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Mahindra Aerospace acquired majority stake in GippsAero and Aerostaff Australia in 2009-2010 — first Indian private firm to make smaller civil aircraft",
+        "year": "2009",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Australia's CASA grounded GA8 Airvan operations for up to 15 days in July 2019 following a Swedish crash",
+        "year": "2019",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "10 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "2 official, 6 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Mahindra Aerospace founded?",
+      "answer": "Mahindra Aerospace is the Mahindra Group's aerospace manufacturing arm, founded in 2010 (the Group entered aerospace in 2009 with the simultaneous acquisition of majority stakes in two Australian companies — GippsAero (GA8 Airvan manufacturer) and Aerostaff Australia).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Where is Mahindra Aerostructures' manufacturing facility located?",
+      "answer": "Its subsidiary Mahindra Aerostructures Pvt Ltd operates a 25,000 sq.m metallic aerostructures fabrication facility near Bengaluru.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which Airbus helicopter fuselage did Mahindra Aerostructures secure contracts for in 2025?",
+      "answer": "Mahindra Aerostructures secured a major contract from Airbus Helicopters on 9 April 2025 to manufacture the main fuselage assembly of the H130 helicopter (shipped to Airbus Helicopters' final assembly line in Marignane, France); followed by the H125 fuselage contract announced 28 August 2025 (in addition to the H130 contract).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which Brazilian aerospace OEM did Mahindra partner with in October 2025?",
+      "answer": "Mahindra Aerospace is the Mahindra Group's aerospace manufacturing arm, founded in 2010 (the Group entered aerospace in 2009 with the simultaneous acquisition of majority stakes in two Australian companies — GippsAero (GA8 Airvan manufacturer) and Aerostaff Australia).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What was Mahindra Aerospace's relationship with GippsAero GA8 Airvan?",
+      "answer": "Mahindra Aerospace is the Mahindra Group's aerospace manufacturing arm, founded in 2010 (the Group entered aerospace in 2009 with the simultaneous acquisition of majority stakes in two Australian companies — GippsAero (GA8 Airvan manufacturer) and Aerostaff Australia).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When did Mahindra exit the GippsAero GA8 Airvan programme?",
+      "answer": "Mahindra exited the GA8 Airvan programme in November 2023 when GippsAero co-founder George Morgan re-purchased the company.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Mahindra Aerospace — wholly-owned subsidiary of Mahindra & Mahindra Group; leading player in India's aerospace sector",
+      "publisher": "Mahindra Aerospace Official",
+      "url": "https://mahindraaerospace.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "Mahindra Aerostructures secures Airbus H125 helicopter fuselage contract (28 Aug 2025) — in addition to existing H130 contract",
+      "publisher": "Mahindra Official",
+      "url": "https://www.mahindra.com/news-room/press-release/en/mahindra-aerostructures-secures-airbus-h125-helicopter-fuselage-manufacturing-contract",
+      "published_date": "2025-08-28",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Mahindra Aerostructures secures H130 fuselage order from Airbus Helicopters (8 April 2025) — main fuselage assembly shipped to Marignane FAL",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/aerospace-defense/indias-mahindra-aerostructures-secures-order-h130-fuselage-airbus-helicopters-2025-04-09",
+      "published_date": "2025-04-08",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Embraer and Mahindra Group form strategic alliance to introduce composites-intensive C-390 Millennium military transport to India with local manufacturing (27 Oct 2025)",
+      "publisher": "CompositesWorld",
+      "url": "https://www.compositesworld.com/news/embraer-mahindra-group-form-strategic-alliance-to-introduce-c-390-millennium-to-india",
+      "published_date": "2025-10-27",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "Mahindra Aerospace — first Indian private firm to make smaller civil aircraft; part of Mahindra Group",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mahindra_Aerospace",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "In November 2023, GippsAero co-founder George Morgan re-purchased the company from Mahindra and announced intentions to resume GA8 Airvan production",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GippsAero_GA8_Airvan",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "GippsAero manufacturer of Airvan 8 back in Australian hands after co-founder George Morgan bought Mahindra's shares (30 Nov 2023)",
+      "publisher": "Australian Flying",
+      "url": "https://www.australianflying.com.au/latest/co-founder-buys-mahindra-out-of-gippsaero",
+      "published_date": "2023-11-30",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Mahindra entered aerospace manufacturing segment in 2009 with simultaneous acquisition of majority stake in GippsAero and Aerostaff Australia",
+      "publisher": "The Flying Engineer",
+      "url": "https://theflyingengineer.wordpress.com/2013/10/24/serious-business-mahindra-aerospace",
+      "published_date": "2013-10-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Mahindra Aerostructures Pvt Ltd operates a 25,000 sq.m facility (subsidiary of Mahindra Aerospace)",
+      "publisher": "LinkedIn",
+      "url": "https://in.linkedin.com/company/mahindraaero",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "Mahindra Aerospace operates a cutting-edge 25,000 sq.m facility near Bengaluru for precision aerostructures fabrication",
+      "publisher": "Mahindra Aerospace Official",
+      "url": "https://mahindraaerospace.com/about-us",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Mahindra Aerospace — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Mahindra Aerospace company dossier: India military-aerospace role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/military-aerospace/mahindra-aero/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/mahindra-aero/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

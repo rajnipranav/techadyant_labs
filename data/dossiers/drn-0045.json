@@ -1,0 +1,78 @@
+{
+  "entity_id": "drn-0045",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "drn-0045",
+  "name": "DJI Mavic",
+  "variant": "Mavic",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "DJI Mavic — Operational status drone platform.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "See manufacturer dossier",
+    "country": "Mixed",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Name": "DJI Mavic",
+    "Status": "Operational",
+    "Variant": "Mavic"
+  },
+  "what_it_is": {
+    "prose": "Commercial mini-UAV in Indian service.",
+    "sources": []
+  },
+  "open_questions": [
+    "Primary India service source",
+    "Manufacturer verification"
+  ],
+  "sources": [
+    {
+      "id": "src-p1",
+      "title": "DJI Mavic",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Initial placeholder from live hub mapping."
+    }
+  ],
+  "seo": {
+    "title": "DJI Mavic — Platform · India Drones-UAS Atlas | Techadyant",
+    "meta_description": "DJI Mavic platform dossier in the India Drones-UAS Atlas.",
+    "canonical_path": "/research/drones-uas/platform/drn-0045/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/platform/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

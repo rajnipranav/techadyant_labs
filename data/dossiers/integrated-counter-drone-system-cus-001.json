@@ -1,0 +1,428 @@
+{
+  "entity_id": "cus-001",
+  "entity_type": "system",
+  "tier": "A",
+  "noindex": false,
+  "slug": "integrated-counter-drone-system-cus-001",
+  "name": "BEL Integrated Counter Drone System",
+  "variant": "V2 / IDDIS Mk-II",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "DRDO-designed, BEL-produced laser-DEW counter-drone system deployed with the Indian Army; battle-proven in Operation Sindoor.",
+    "chips": [
+      "Hard kill",
+      "Soft kill",
+      "RF jammer",
+      "GNSS spoof",
+      "Laser DEW",
+      "EO/IR",
+      "Radar"
+    ],
+    "maker": "Bharat Electronics Limited (BEL) — production; DRDO (CHESS + LASTEC + LRDE) — design",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "DRDO-designed, BEL-produced; early units imported German fibre-laser source",
+    "mobility_or_class": "Vehicle-mounted / static",
+    "operational_domains": [
+      "land",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Detection_range_radar": "5-8 km (Mk-I)",
+    "Soft_kill_range": "2-5 km (RF + GNSS jamming/spoofing)",
+    "Hard_kill_range": "0.8-1 km (Mk-I 2 kW) / 2 km (Mk-II 10 kW) / 5 km (Mk-IIA Sahastra Shakti 30 kW)",
+    "Hard_kill_mechanism": "Laser Directed Energy Weapon (LDEW)",
+    "First_inducted": "March 2024 (Mk-I, 7 systems to Indian Army)",
+    "Combat_debut": "13 April 2025 (XVI Corps intercept); Operation Sindoor May 2025",
+    "Latest_order": "₹572 crore (16 May 2025, BEL contract with Army Air Defence)",
+    "Planned_variant": "Surya 300 kW, 20 km range (development)"
+  },
+  "what_it_is": {
+    "prose": "The BEL Integrated Counter Drone System (Atlas label 'V2') is the productionized form of DRDO's Integrated Drone Detection & Interdiction System (IDDIS), designed jointly by DRDO's CHESS (Centre for High Energy Systems and Sciences), LASTEC (Laser Science and Technology Centre) and LRDE laboratories and manufactured by Bharat Electronics Limited. The system combines a layered sensor stack — radar, RF direction-finder, and EO/IR — with two defeat layers: a soft-kill RF/GNSS jammer and a hard-kill fibre-laser Directed Energy Weapon. The IDDIS family has three operational marks: Mk-I (2 kW laser, ~1 km hard-kill range, first inducted March 2024 with the Indian Army), Mk-II (10 kW, 2 km range, cleared for induction by the Defence Acquisition Council on 29 December 2025), and Mk-IIA 'Sahastra Shakti' (30 kW, 5 km range, six 5 kW sources in a 2x3 configuration, effective against fixed-wing drones, swarms, and low-RCS missiles). A 300 kW 'Surya' variant targeting 20 km engagements is in development. The system's first reported combat intercept occurred on 13 April 2025 when a Mk-I unit operating with the XVI Corps shot down a Chinese-origin Pakistan-operated drone south of the Pir Panjal. IDDIS was subsequently deployed during Operation Sindoor in May 2025, where BEL confirmed it destroyed several low-RCS Pakistani drones. On 16 May 2025, BEL signed a ₹572 crore contract with the Indian Army's Corps of Army Air Defence for additional systems. The 'V2' label used in the Atlas corresponds most plausibly to the second-generation IDDIS architecture, which replaced the older DRDO D4 system; vendor confirmation of the exact version mapping is an open question.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "kill_chain_or_capability": {
+    "stages": [
+      {
+        "id": "detect",
+        "label": "Detect",
+        "covered": true,
+        "note": "X-band 3D radar + passive RF direction-finder"
+      },
+      {
+        "id": "classify",
+        "label": "Classify",
+        "covered": true,
+        "note": "EO/IR + 360° sensor fusion (Mk-IIA)"
+      },
+      {
+        "id": "track",
+        "label": "Track",
+        "covered": true,
+        "note": "Integrated C2 (Akashteer lineage)"
+      },
+      {
+        "id": "decide",
+        "label": "Decide",
+        "covered": true,
+        "note": "Operator-in-loop; C3 system"
+      },
+      {
+        "id": "defeat",
+        "label": "Defeat",
+        "covered": true,
+        "note": "Soft kill RF/GNSS jammer (2-5 km) + hard kill fibre laser (0.8-5 km depending on variant)"
+      },
+      {
+        "id": "assess",
+        "label": "Assess",
+        "covered": true,
+        "note": "EO/IR post-engagement BDA"
+      }
+    ],
+    "threat_or_target_classes": [
+      "Group 1 UAS",
+      "Group 2 UAS",
+      "FPV drones",
+      "Fixed-wing drones",
+      "Swarm drones",
+      "Low-RCS missiles (Mk-IIA)"
+    ],
+    "sources": [
+      "src-1",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "IDDIS Mk-I entered operational service with the Indian Army in March 2024 with the first lot of seven systems. The system achieved its first reported combat intercept on 13 April 2025 against a Pakistani-operated Chinese drone and was deployed operationally during Operation Sindoor in May 2025. The Defence Acquisition Council cleared Mk-II for induction on 29 December 2025, and BEL signed a ₹572 crore follow-on contract on 16 May 2025. Reports from November 2025 indicate a planned induction of 16 Mk-II systems across the Indian Army and IAF.",
+    "rows": [
+      {
+        "agency": "Indian Army / Corps of Army Air Defence",
+        "context": "First lot of 7 IDDIS Mk-I systems inducted",
+        "year": 2024,
+        "quantity_or_note": "7 systems (March 2024 induction)",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "agency": "Indian Army / Corps of Army Air Defence",
+        "context": "Order for 23 systems",
+        "year": 2024,
+        "quantity_or_note": "₹400 crore (~US$42 million)",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "agency": "Indian Army / XVI Corps",
+        "context": "First reported combat intercept of Pakistani-operated Chinese drone",
+        "year": 2025,
+        "quantity_or_note": "13 April 2025 — single engagement",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "agency": "Operation Sindoor (May 2025)",
+        "context": "IDDIS destroyed several low-RCS Pakistani drones",
+        "year": 2025,
+        "quantity_or_note": "Confirmed by BEL per The Hindu BusinessLine",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Army / Corps of Army Air Defence",
+        "context": "BEL follow-on contract for IDDIS",
+        "year": 2025,
+        "quantity_or_note": "₹572 crore (16 May 2025 signing)",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Defence Acquisition Council",
+        "context": "Mk-II cleared for induction",
+        "year": 2025,
+        "quantity_or_note": "29 December 2025",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "agency": "Indian Army + IAF",
+        "context": "Planned induction of IDDIS Mk-II",
+        "year": 2025,
+        "quantity_or_note": "16 systems (indicative, Nov 2025 reports)",
+        "sources": [
+          "src-4"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact mapping of Atlas 'V2' label to either D4 or IDDIS — vendor confirmation required",
+      "Standalone RF and EO/IR detection ranges for the D4 baseline system",
+      "Indigenous content % not disclosed by BEL or DRDO",
+      "Surya 300 kW variant timeline and customer"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "IDDIS is DRDO-designed and BEL-produced in India; the principal import dependency is the fibre-laser source for the directed-energy weapon. Early units (pre-2017 prototypes) imported the 1 kW-class fibre laser from Germany; the supply chain for production Mk-I/Mk-II/Mk-IIA units is not publicly itemised. FPGA and GaN RF amplifiers for the radar and jammer subsystems are industry-typically imported from the United States, but BEL has not confirmed vendor names.",
+    "items": [
+      {
+        "component": "Fibre laser source (1-30 kW)",
+        "severity": "Critical",
+        "note": "Early units imported from Germany; current production sourcing not disclosed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "component": "FPGA (Xilinx/AMD, Intel/Altera)",
+        "severity": "High",
+        "note": "Industry-typical; vendor not disclosed by BEL",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "GaN RF power amplifier (Qorvo, Wolfspeed, MACOM)",
+        "severity": "High",
+        "note": "Industry-typical; vendor not disclosed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "EO/IR focal-plane arrays",
+        "severity": "Medium",
+        "note": "Industry-typical; vendor not disclosed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (CHESS + LASTEC + LRDE) — fully indigenous design",
+        "sources": [
+          "src-1",
+          "src-4"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL — Indian PSU productioniser",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Fibre laser source imported; FPGA/GaN/EO/IR imported",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "combat_proven",
+        "label": "Combat proven",
+        "value": 5,
+        "note": "Operation Sindoor (May 2025) — first reported laser-DEW combat use",
+        "sources": [
+          "src-3",
+          "src-4"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "BEL FY26 export order book $495M; IDDIS-specific exports not disclosed",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "zen-anti-drone-system-zads-cus-003",
+      "bhargavastra-counter-drone-system-cus-004",
+      "indrajaal-anti-drone-system-cus-005"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "bharat-electronics-limited-bel-mfg-001",
+      "defence-research-and-development-organisation-drdo-mfg-002"
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2017",
+      "event": "DRDO D4 Counter Drone System prototype demonstrated; technology transferred to BEL for productionisation",
+      "sources": [
+        "src-1",
+        "src-4"
+      ]
+    },
+    {
+      "date": "2024-03",
+      "event": "First lot of 7 IDDIS Mk-I systems inducted by Indian Army",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "Order for 23 systems placed (₹400 crore)",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2025-04-13",
+      "event": "First reported combat intercept — Pakistani-operated Chinese drone, XVI Corps",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2025-05",
+      "event": "Operation Sindoor deployment — multiple low-RCS drone kills confirmed by BEL",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2025-05-16",
+      "event": "BEL signs ₹572 crore follow-on contract with Army Air Defence",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "date": "2025-12-29",
+      "event": "Defence Acquisition Council clears IDDIS Mk-II for induction",
+      "sources": [
+        "src-4"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the BEL Integrated Counter Drone System the same as DRDO's D4 system?",
+      "answer": "They are related but distinct generations. D4 is the original DRDO counter-drone system (radar + EO + DF + RF/GPS jammer + LDEW). IDDIS (Integrated Drone Detection & Interdiction System) is the second-generation, laser-DEW-focused successor with three operational marks: Mk-I (2 kW), Mk-II (10 kW), and Mk-IIA 'Sahastra Shakti' (30 kW). The Atlas 'V2' label most plausibly corresponds to IDDIS.",
+      "sources": [
+        "src-1",
+        "src-4"
+      ]
+    },
+    {
+      "question": "Has the system been used in combat?",
+      "answer": "Yes. On 13 April 2025, an IDDIS Mk-I unit operating with the Indian Army's XVI Corps conducted the first reported combat intercept of a Pakistani-operated Chinese-origin drone. The system was subsequently deployed during Operation Sindoor in May 2025, where BEL confirmed it destroyed several low-RCS Pakistani drones.",
+      "sources": [
+        "src-3",
+        "src-4"
+      ]
+    },
+    {
+      "question": "What is the Sahastra Shakti variant?",
+      "answer": "Sahastra Shakti is the operational name for the IDDIS Mk-IIA variant, a 30 kW laser-DEW system using six 5 kW fibre-laser sources in a 2x3 configuration. It has an effective hard-kill range of approximately 5 km and is designed to engage fixed-wing drones, swarm drones, and low-RCS missiles.",
+      "sources": [
+        "src-4"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact mapping of Atlas 'V2' label to either D4 or IDDIS — needs vendor confirmation",
+    "Indigenous content % not disclosed by BEL or DRDO",
+    "FPGA / GaN RF amplifier / EO/IR sensor vendors not publicly documented",
+    "Surya 300 kW variant — timeline, customer, and operational deployment not specified",
+    "Whether IDDIS Mk-II 16-system planned induction has converted to a signed production contract"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Anti-Drone System",
+      "publisher": "Bharat Electronics Limited",
+      "url": "https://bel-india.in/product/anti-drone-system",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official BEL product page describing D4 Counter Drone System architecture"
+    },
+    {
+      "id": "src-2",
+      "title": "BEL signs contract with Army for Indigenous Counter-Drone System, secures orders worth Rs 572 crore",
+      "publisher": "The Economic Times",
+      "url": "https://m.economictimes.com/news/defence/bel-signs-contract-with-army-for-indigenous-counter-drone-system-secures-orders-worth-rs-572-crore/articleshow/121218438.cms",
+      "published_date": "2025-05-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "ANI-sourced; confirms IDDIS contract value"
+    },
+    {
+      "id": "src-3",
+      "title": "BEL signs contract with Indian Army Air Defence to manufacture IDDIS Counter Drone System",
+      "publisher": "The Hindu BusinessLine",
+      "url": "https://www.thehindubusinessline.com/economy/logistics/bel-signs-contract-with-indian-army-air-defence-to-manufacture-iddis-counter-drone-system/article69584305.ece",
+      "published_date": "2025-05-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Confirms Operation Sindoor deployment"
+    },
+    {
+      "id": "src-4",
+      "title": "Integrated Drone Detection & Interdiction System",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Integrated_Drone_Detection_%26_Interdiction_System",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Aggregates credible sources; variant table and service history"
+    }
+  ],
+  "seo": {
+    "title": "BEL Integrated Counter Drone System V2 — System · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "DRDO-designed, BEL-produced laser-DEW counter-drone system (IDDIS) deployed with the Indian Army; battle-proven in Operation Sindoor.",
+    "canonical_path": "/research/counter-uas/system/integrated-counter-drone-system-cus-001/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/counter-uas/manufacturer/bharat-electronics-limited-bel-mfg-001/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

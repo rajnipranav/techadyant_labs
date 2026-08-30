@@ -1,0 +1,368 @@
+{
+  "entity_id": "mfg-024",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "israel-aerospace-industries-iai-elta-mfg-024",
+  "name": "Israel Aerospace Industries (IAI) / ELTA Systems",
+  "variant": "Foreign OEM with India footprint",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Israeli state-owned defence OEM; major India footprint via MRSAM/LR-SAM (Barak-8) co-development ($777M Navy + $630M LRSAM), EL/M-2248 MF-STAR radar (P15B/P17A), Searcher/Heron UAVs (India is largest UAV customer outside Israel).",
+    "chips": [
+      "State-owned",
+      "Israel",
+      "MRSAM",
+      "MF-STAR",
+      "Heron",
+      "Searcher",
+      "Heron TP",
+      "IAI India Pvt Ltd"
+    ],
+    "maker": "Israeli state-owned (Government of Israel)",
+    "country": "Israel",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign OEM — India footprint via JVs, ToT, and direct sales",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Israel Aerospace Industries (IAI) / ELTA Systems",
+    "Ownership": "Israeli state-owned (Government of Israel)",
+    "HQ": "Ben Gurion International Airport, Israel",
+    "Order_book": "Not separately disclosed for India",
+    "Revenue_FY26": "Not separately disclosed for India",
+    "MRSAM_LRSAM": "Joint development with DRDO; India Navy $777M contract for maritime Barak-8; $630M LRSAM for 4 IN ships",
+    "MF_STAR_radar": "EL/M-2248 naval AESA radar (450 km range) — fitted on P15B destroyers (4 ships) + P17A frigates (7 ships)",
+    "Searcher_Mk_II": "UAV in Indian Army, Navy, IAF service",
+    "Heron_UAV": "MALE UAV in Indian armed forces service",
+    "Heron_TP": "Procurement of 4 drones finalised; HAL-IAI Heron TP India manufacturing deal under negotiation (Dec 2025)",
+    "Heron_Mk_II": "Emergency procurement (Navy's first Heron Mk II, Dec 2025)",
+    "India_subsidiary": "IAI India Pvt Ltd office (New Delhi) — full India presence incl. R&D, manufacturing, training, support",
+    "India_UAV_distinction": "India is largest UAV customer outside Israel"
+  },
+  "what_it_is": {
+    "prose": "Israel Aerospace Industries (IAI) is an Israeli state-owned defence OEM headquartered at Ben Gurion International Airport. IAI's ELTA Systems division is a leading radar, electronic warfare, and UAV supplier. IAI has a major India footprint across multiple programmes. IAI is a co-developer (with DRDO) of the MRSAM/LR-SAM (Barak-8) family — the Indian Navy signed a $777 million contract for maritime Barak-8 and a $630 million LRSAM contract for 4 Indian Navy ships. The EL/M-2248 MF-STAR multi-function surveillance radar (450 km range, naval AESA) is fitted on the P15B Visakhapatnam-class destroyers (4 ships commissioned 2021-2024) and the P17A Nilgiri-class frigates (7 ships under construction). India is the largest UAV customer outside Israel for IAI — the Indian Army, Navy, and IAF operate the Searcher Mk II, Heron, and Heron TP UAVs. The Indian Navy received its first Heron Mk II under emergency procurement in December 2025. A HAL-IAI Heron TP India manufacturing deal was under negotiation as of December 2025 (per Eurasian Times). IAI maintains a full India subsidiary — IAI India Private Limited (New Delhi) — with R&D, manufacturing, training, and support capabilities.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7",
+      "src-8"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "IAI has a multi-billion-dollar India footprint. The Indian Navy contracted $777 million for maritime Barak-8 and $630 million for LRSAM (4 ships). The EL/M-2248 MF-STAR radar equips 4 P15B destroyers and 7 P17A frigates. India is the largest UAV customer outside Israel — operating Searcher Mk II, Heron, and Heron TP. The Indian Navy received its first Heron Mk II in December 2025 under emergency procurement. A HAL-IAI Heron TP India manufacturing deal was under negotiation as of December 2025.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Maritime Barak-8 contract (with DRDO co-development)",
+        "year": null,
+        "quantity_or_note": "$777 million",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "LRSAM contract for 4 ships",
+        "year": null,
+        "quantity_or_note": "$630 million",
+        "sources": [
+          "src-6"
+        ]
+      },
+      {
+        "agency": "Indian Navy (P15B destroyers)",
+        "context": "EL/M-2248 MF-STAR radar — 4 ships",
+        "year": null,
+        "quantity_or_note": "INS Visakhapatnam, Mormugao, Imphal, Surat (commissioned 2021-2024)",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Navy (P17A frigates)",
+        "context": "EL/M-2248 MF-STAR radar — 7 ships",
+        "year": null,
+        "quantity_or_note": "Nilgiri-class under construction at MDL + GRSE",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Army, Navy, IAF",
+        "context": "Searcher Mk II + Heron UAVs in service",
+        "year": null,
+        "quantity_or_note": "India is largest UAV customer outside Israel",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Heron Mk II emergency procurement",
+        "year": 2025,
+        "quantity_or_note": "December 2025 — Navy's first Heron Mk II",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "agency": "HAL-IAI",
+        "context": "Heron TP India manufacturing deal under negotiation",
+        "year": 2025,
+        "quantity_or_note": "December 2025 — under negotiation",
+        "sources": [
+          "src-8"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Heron TP India manufacturing deal value + timeline not finalised",
+      "Total Searcher/Heron fleet size in Indian service not officially disclosed",
+      "Heron TP procurement (4 drones) — delivery timeline not confirmed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Foreign OEM — not applicable (Indian import dependencies documented in respective system dossiers).",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "IAI — original equipment designer for MRSAM, MF-STAR, Heron, Searcher",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership (India)",
+        "value": 3,
+        "note": "BEL + BDL produce MRSAM under ToT; Heron TP India manufacturing under negotiation",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 0,
+        "note": "Foreign OEM — all components Israeli-origin",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / India order book",
+        "value": 5,
+        "note": "Multi-billion dollar India footprint across MRSAM, MF-STAR, UAVs",
+        "sources": [
+          "src-5",
+          "src-6"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 5,
+        "note": "IAI is a major global defence exporter; India is largest UAV customer outside Israel",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "mrsam-def-006",
+      "p15b-destroyer-def-007",
+      "p17a-frigate-def-008"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the relationship between IAI and DRDO on the Barak-8 programme?",
+      "answer": "IAI and DRDO co-developed the Barak-8 (MRSAM/LR-SAM) missile family under a strategic partnership. DRDO provides the inertial navigation, mission software, and mobile launchers; IAI/ELTA provides the active radar seeker and key missile components. Indian production is via BEL (radar, C4I) and BDL (missile). The Indian Navy signed a $777 million contract for maritime Barak-8 and a $630 million LRSAM contract for 4 ships.",
+      "sources": [
+        "src-5",
+        "src-6"
+      ]
+    },
+    {
+      "question": "Which Indian Navy ships use the IAI MF-STAR radar?",
+      "answer": "The EL/M-2248 MF-STAR (Multi-Function Surveillance, Track and Guidance) naval AESA radar with 450 km range equips the P15B Visakhapatnam-class destroyers (4 ships: INS Visakhapatnam, Mormugao, Imphal, Surat — all commissioned 2021-2024) and the P17A Nilgiri-class frigates (7 ships under construction at MDL Mumbai and GRSE Kolkata). The radar provides the fire control for the Barak-8/LR-SAM air defence system.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Does India manufacture IAI UAVs?",
+      "answer": "India is in negotiations with IAI for Heron TP manufacturing under a HAL-IAI deal (reported December 2025 by Eurasian Times), but the deal has not been finalised. India does manufacture the IAI Hermes 900 (designated Drishti 10 Starliner in Indian Navy service) under the Adani-Elbit JV at Hyderabad — see Atlas slug mfg-032 (Elbit Systems). The Heron TP itself is not yet manufactured in India.",
+      "sources": [
+        "src-8"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2006",
+      "event": "India selects Barak-8 (MRSAM/LR-SAM) for naval air defence (with IAI/DRDO co-development)",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2014-2016",
+      "event": "P15A Kolkata-class destroyers commissioned with MF-STAR + LR-SAM",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2021-2024",
+      "event": "P15B Visakhapatnam-class destroyers commissioned (4 ships) with MF-STAR + LR-SAM",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2025-12",
+      "event": "Indian Navy receives first Heron Mk II under emergency procurement",
+      "sources": [
+        "src-7"
+      ]
+    },
+    {
+      "date": "2025-12",
+      "event": "HAL-IAI Heron TP India manufacturing deal reported under negotiation",
+      "sources": [
+        "src-8"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Heron TP India manufacturing deal value + timeline not finalised",
+    "Total Searcher/Heron fleet size in Indian service not officially disclosed",
+    "Heron TP procurement (4 drones) — delivery timeline not confirmed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "IAI INDIA",
+      "publisher": "IAI (official)",
+      "url": "https://www.iai.co.il/country/iai-india-pvt-ltd-office",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "India office official page"
+    },
+    {
+      "id": "src-2",
+      "title": "MF STAR ELM-2248 Multi-Function Digital AESA Radar",
+      "publisher": "IAI (official)",
+      "url": "https://www.iai.co.il/product/elm-2248-mf-star",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "MF-STAR radar product page"
+    },
+    {
+      "id": "src-3",
+      "title": "Heron MALE ISR UAV - Multi-Role MALE UAS",
+      "publisher": "IAI (official)",
+      "url": "https://www.iai.co.il/product/heron",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Heron UAV product page"
+    },
+    {
+      "id": "src-4",
+      "title": "Heron TP - MALE UAV Unmanned Aerial System",
+      "publisher": "IAI (official)",
+      "url": "https://www.iai.co.il/product/heron-tp",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Heron TP product page"
+    },
+    {
+      "id": "src-5",
+      "title": "Barak 8",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Barak_8",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "India-Israel co-development; $777M India Navy contract"
+    },
+    {
+      "id": "src-6",
+      "title": "BARAK-8 – Advanced Air & Missile Defence System",
+      "publisher": "SP's Naval Forces",
+      "url": "https://www.spsnavalforces.com/story/?id=811&h=BARAK-8-Advanced-Air-and-Missile-Defence-System",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "$630M LRSAM contract for 4 IN ships"
+    },
+    {
+      "id": "src-7",
+      "title": "Armed Forces Procure Additional Heron Mk II UAVs Under Emergency Provisions",
+      "publisher": "KPIAS Academy (Livefist/ET aggregation)",
+      "url": "https://kpiasacademy.com/armed-forces-to-procure-additional-heron-mk-ii-uavs-under-emergency-provisions",
+      "published_date": "2025-12-02",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Navy's first Heron Mk II"
+    },
+    {
+      "id": "src-8",
+      "title": "Yet India Keeps Buying Israeli Drones! What Makes Heron",
+      "publisher": "The Eurasian Times",
+      "url": "https://www.eurasiantimes.com/what-makes-mk-ii-drones-irresistible-for-indian-military",
+      "published_date": "2025-12-04",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "IAI-HAL Heron TP India manufacturing"
+    }
+  ],
+  "seo": {
+    "title": "Israel Aerospace Industries (IAI) / ELTA Systems — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "Israeli state-owned defence OEM; major India footprint via MRSAM/LR-SAM (Barak-8) co-development ($777M Navy + $630M LRSAM), EL/M-2248 MF-STAR radar (P15B/P17A)",
+    "canonical_path": "/research/counter-uas/manufacturer/israel-aerospace-industries-iai-elta-mfg-024/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

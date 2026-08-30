@@ -1,0 +1,398 @@
+{
+  "entity_id": "bel",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "bel",
+  "name": "Bharat Electronics Limited",
+  "variant": "Navratna PSU",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's largest defence electronics PSU; FY26 revenue ₹27,480 crore (+16% YoY), order book ₹73,882 crore; prime productioniser of DRDO's IDDIS counter-drone system, Akash SAM, and Akashteer AD C&R.",
+    "chips": [
+      "Tier A",
+      "PSU",
+      "Navratna",
+      "Defence electronics",
+      "Radar",
+      "EW",
+      "Laser DEW",
+      "Akash",
+      "BrahMos seeker"
+    ],
+    "maker": "Government of India (MoD)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Deep local content on radars, EW, C4I, simulators, fuzes, batteries; FPGA, GaN RF, EO/IR, laser source imported",
+    "mobility_or_class": "Defence electronics OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air",
+      "space",
+      "cyber"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Bharat Electronics Limited (BEL)",
+    "CIN": "L32309KA1954GOI000787",
+    "Ownership": "PSU (Navratna), under Ministry of Defence, Government of India",
+    "HQ": "Bengaluru, Karnataka, India",
+    "Order_book": "₹73,882 crore as of 1 April 2026 (consolidated, incl. export order book USD 495 million)",
+    "Revenue_FY26": "₹27,479.6 crore (+16.1% YoY)",
+    "PAT_FY26": "₹6,048.5 crore (+14.4% YoY)",
+    "PBT_FY26": "₹8,075 crore (+13.9% YoY)",
+    "Q4_FY26_revenue": "₹10,177.2 crore",
+    "Export_sales_FY26": "USD 141.9 million",
+    "Fresh_orders_FY26": "~₹30,000 crore (incl. export orders USD 346 million)",
+    "Stock_listings": "BSE: 500049, NSE: BEL"
+  },
+  "what_it_is": {
+    "prose": "Bharat Electronics Limited (BEL) is a Navratna Category-I Public Sector Undertaking under the Ministry of Defence, Government of India, headquartered in Bengaluru. Founded in 1954, BEL is India's largest defence electronics OEM and the prime productioniser for many DRDO-developed systems. The company manufactures radars (Akash, Atulya, Weapon Locating Radar Swathi, BEL Shikari, Rohini, Revathi), electronic warfare systems (Sangraha, Samyukta), C4I systems (Akashteer Air Defence Control & Reporting System), simulators and training systems, fuzes, batteries, and laser-based Directed Energy Weapons. BEL's flagship counter-UAS product is the Integrated Drone Detection & Interdiction System (IDDIS) — Atlas slug cus-001 — produced under Transfer of Technology from DRDO's CHESS, LASTEC and LRDE laboratories. IDDIS entered operational service with the Indian Army in March 2024 and was deployed during Operation Sindoor in May 2025, where it conducted the first reported laser-DEW combat intercept of a hostile drone. On 16 May 2025, BEL signed a ₹572 crore contract with the Indian Army's Corps of Army Air Defence for additional IDDIS systems. For FY26, BEL reported revenue from operations of ₹27,479.6 crore (a 16.1% year-on-year increase from ₹23,658 crore in FY25), Profit After Tax of ₹6,048.5 crore (up 14.4% YoY), and a closing order book of ₹73,882 crore (including an export order book of USD 495 million). BEL's export sales for FY26 reached USD 141.9 million.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-6"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "BEL's FY26 was marked by record financial performance and several major contract wins. The Akashteer Air Defence Control & Reporting System, which BEL produces, was battle-proven during Operation Sindoor in May 2025 — the same operation in which BEL's IDDIS counter-drone system was deployed. The ₹572 crore IDDIS follow-on contract was signed on 16 May 2025. BEL's order book at the end of FY26 stood at ₹73,882 crore, the highest in the company's history, with FY26 fresh orders of approximately ₹30,000 crore (including export orders worth USD 346 million). BEL's export order book reached USD 495 million.",
+    "rows": [
+      {
+        "agency": "Indian Army / Corps of Army Air Defence",
+        "context": "BEL follow-on contract for IDDIS counter-drone system",
+        "year": 2025,
+        "quantity_or_note": "₹572 crore (16 May 2025)",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Army / Corps of Army Air Defence",
+        "context": "Akashteer AD C&R System initial contract",
+        "year": 2024,
+        "quantity_or_note": "₹1,982 crore",
+        "sources": [
+          "src-6"
+        ]
+      },
+      {
+        "agency": "Indian Army / Corps of Army Air Defence",
+        "context": "Akashteer additional order",
+        "year": 2025,
+        "quantity_or_note": "₹572 crore (May 2025, counter-drone system)",
+        "sources": [
+          "src-2",
+          "src-6"
+        ]
+      },
+      {
+        "agency": "Export customers (undisclosed)",
+        "context": "FY26 export order book",
+        "year": 2026,
+        "quantity_or_note": "USD 495 million",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Multiple customers",
+        "context": "FY26 fresh orders booked",
+        "year": 2026,
+        "quantity_or_note": "~₹30,000 crore (incl. USD 346 million export)",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "FPGA / GaN / IMU vendor names never disclosed in BEL annual report — only aggregate 'indigenisation %' is reported",
+      "Sahastra Shakti 30 kW laser source origin (Germany) is per Wikipedia; no BEL/DRDO primary confirmation",
+      "Deep-link to BEL 33rd/34th Annual Report PDF not extracted; URLs change yearly"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "BEL is a Navratna PSU with stated vision of 'Atmanirbhar Bharat' and deep local content on radars, EW systems, C4I, simulators, fuzes, and batteries. However, the critical-component layer relies on global supply chains: FPGA (Xilinx/AMD, Intel/Altera — USA), GaN RF power amplifiers (Qorvo, Wolfspeed, MACOM — USA), EO/IR focal-plane arrays (Teledyne FLIR, SCD — USA / Israel), high-energy laser sources for DEW variants (IPG / Trumpf — Germany / USA), and IMU / fibre-optic gyros (Honeywell, Safran, Northrop — USA / France). BEL does not itemise these vendors in its annual report; only an aggregate 'indigenisation percentage' is reported.",
+    "items": [
+      {
+        "component": "FPGA (Xilinx/AMD, Intel/Altera)",
+        "severity": "High",
+        "note": "Signal-processing backbone for radars, EW, seekers",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "GaN RF power amplifiers (Qorvo, Wolfspeed, MACOM)",
+        "severity": "High",
+        "note": "AESA T/R modules, jammers",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "EO/IR focal-plane arrays (Teledyne FLIR, SCD)",
+        "severity": "Medium",
+        "note": "Thermal imaging cores",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "High-energy laser source (IPG / Trumpf)",
+        "severity": "High",
+        "note": "For 10-30 kW DEW variants; Germany source per Wikipedia",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "component": "IMU / fibre-optic gyro (Honeywell, Safran, Northrop)",
+        "severity": "Medium",
+        "note": "Navigation for seekers, simulators",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO-designed systems; BEL in-house design on radars, EW, simulators",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Indian PSU; 9 manufacturing units",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "FPGA, GaN, EO/IR, laser source, IMU all imported",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "₹73,882 crore order book FY26 — record high",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 4,
+        "note": "Export order book USD 495M FY26; export sales USD 141.9M",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "1954",
+      "event": "BEL founded under the Ministry of Defence, Government of India",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2024-03",
+      "event": "First lot of 7 IDDIS Mk-I systems inducted by Indian Army (BEL production)",
+      "sources": [
+        "src-7"
+      ]
+    },
+    {
+      "date": "2025-05",
+      "event": "Operation Sindoor — Akashteer and IDDIS battle-proven",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "date": "2025-05-16",
+      "event": "₹572 crore IDDIS follow-on contract signed with Indian Army Air Defence",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "event": "BEL reports FY26 record turnover ₹26,750 crore (later revised to ₹27,479.6 crore from operations)",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "event": "Times of India confirms FY26 revenue rose 16%",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is BEL's order book and FY26 financial performance?",
+      "answer": "BEL's order book stood at ₹73,882 crore as of 1 April 2026 (consolidated, including an export order book of USD 495 million) — the highest in the company's history. For FY26, BEL reported revenue from operations of ₹27,479.6 crore (up 16.1% YoY from ₹23,658 crore in FY25), Profit After Tax of ₹6,048.5 crore (up 14.4% YoY), and PBT of ₹8,075 crore (up 13.9% YoY). Fresh orders booked in FY26 were approximately ₹30,000 crore, including export orders worth USD 346 million. Export sales for FY26 were USD 141.9 million.",
+      "sources": [
+        "src-1",
+        "src-2",
+        "src-3",
+        "src-4"
+      ]
+    },
+    {
+      "question": "What is BEL's role in Indian counter-UAS?",
+      "answer": "BEL is the prime productioniser of DRDO's Integrated Drone Detection & Interdiction System (IDDIS) — the Atlas slug cus-001 entry. IDDIS Mk-I entered operational service with the Indian Army in March 2024, conducted the first reported laser-DEW combat intercept on 13 April 2025, and was deployed during Operation Sindoor in May 2025. BEL signed a ₹572 crore follow-on contract on 16 May 2025. The IDDIS family includes Mk-I (2 kW laser, ~1 km hard-kill range), Mk-II (10 kW, 2 km range, cleared for induction December 2025), and Mk-IIA 'Sahastra Shakti' (30 kW, 5 km range).",
+      "sources": [
+        "src-2",
+        "src-6"
+      ]
+    },
+    {
+      "question": "What is BEL's role in the BrahMos programme?",
+      "answer": "BEL produces seeker components and integration electronics for the BrahMos supersonic cruise missile programme (BrahMos Aerospace is a JV between DRDO 50.5% and Russia's NPOM 49.5%). BEL also produces the Akash SAM radar and C4I components, and is the productioniser for the IDDIS counter-drone system. BEL's FY26 export order book of USD 495 million includes BrahMos-related components and other defence electronics.",
+      "sources": [
+        "src-1",
+        "src-6"
+      ]
+    }
+  ],
+  "open_questions": [
+    "FPGA / GaN / IMU vendor names never disclosed in BEL annual report",
+    "Sahastra Shakti 30 kW laser source origin (Germany per Wikipedia; no BEL/DRDO primary confirmation)",
+    "Specific IDDIS variant export potential — not yet disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "BEL achieves record turnover of Rs.26,750 Crores",
+      "publisher": "Bharat Electronics Limited",
+      "url": "https://bel-india.in/news-bel/bel-achieves-record-turnover-of-rs-26750-crores",
+      "published_date": "2026-04-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official BEL FY26 results announcement"
+    },
+    {
+      "id": "src-2",
+      "title": "Bharat Electronics Limited Revenue Rises 16% In FY26",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/bharat-electronics-limited-revenue-rises-16-in-fy26/articleshow/131222161.cms",
+      "published_date": "2026-05-20",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "FY26 revenue + order book details"
+    },
+    {
+      "id": "src-3",
+      "title": "BEL posts record ₹26750 crore turnover in FY26",
+      "publisher": "The Hindu BusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/bel-posts-record-26750-crore-turnover-in-fy26-stock-jumps-nearly-6/article70810323.ece",
+      "published_date": "2026-04-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Confirms FY26 turnover"
+    },
+    {
+      "id": "src-4",
+      "title": "Bharat Electronics records 16.2% growth in turnover in FY 2026",
+      "publisher": "Business Standard",
+      "url": "https://www.business-standard.com/markets/capital-market-news/bharat-electronics-records-16-2-growth-in-turnover-in-fy-2026-126040100493_1.html",
+      "published_date": "2026-04-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Confirms FY26 turnover"
+    },
+    {
+      "id": "src-5",
+      "title": "BEL Investors page",
+      "publisher": "Bharat Electronics Limited",
+      "url": "https://bel-india.in/investors",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — BEL investors landing page; specific deep-link to annual report PDF not extracted"
+    },
+    {
+      "id": "src-6",
+      "title": "Akashteer: The Unseen Force Behind India's New War",
+      "publisher": "Press Information Bureau, Ministry of Defence",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2129132",
+      "published_date": "2025-05-16",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PIB confirmation of Akashteer deployment in Operation Sindoor"
+    },
+    {
+      "id": "src-7",
+      "title": "Integrated Drone Detection & Interdiction System",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Integrated_Drone_Detection_%26_Interdiction_System",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Aggregates credible sources on IDDIS variants, German laser source origin"
+    },
+    {
+      "id": "src-8",
+      "title": "BEL Q4 Results 2026 Highlights",
+      "publisher": "LiveMint",
+      "url": "https://www.livemint.com/market/stock-market-news/bel-q4-results-2026-live-bharat-electronics-q4-results-bel-share-price-psu-defence-stock-bel-order-book-19-may-2026-11779167788713.html",
+      "published_date": "2026-05-19",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Q4 FY26 results highlights"
+    }
+  ],
+  "seo": {
+    "title": "Bharat Electronics Limited — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "India's largest defence-electronics PSU; FY26 revenue ₹27,480 cr (+16% YoY), order book ₹73,882 cr; radars, EW, avionics, seekers and mission electronics acro",
+    "canonical_path": "/research/military-aerospace/company/bel/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

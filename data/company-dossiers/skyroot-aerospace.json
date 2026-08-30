@@ -1,0 +1,475 @@
+{
+  "entity_id": "atl-cmp-skyroot-aerospace",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "skyroot-aerospace",
+  "name": "Skyroot Aerospace",
+  "variant": null,
+  "vertical": "space",
+  "parent_hub_path": "/research/space/skyroot-aerospace/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Skyroot Aerospace is a Hyderabad-based private launch vehicle startup founded in 2018 by former ISRO scientists Pawan Kumar Chandana (CEO) and Naga Bharath Daka (COO). Made history on 18 November 2022",
+    "chips": [
+      "space",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Hyderabad, Telangana, India",
+    "Type": "Company (listed)",
+    "Founded": "2018 (by ex-ISRO scientists Pawan Kumar Chandana and Naga Bharath Daka)",
+    "India entity": null,
+    "Listed": "Not listed — private startup; total funding ~$145-160M; valuation $1.1B (unicorn, May 2026); investors include GIC, Sherpalo Ventures, BlackRock, Temasek",
+    "Key India role": "Skyroot Aerospace is a Hyderabad-based private launch vehicle startup founded in 2018 by former ISRO scientists Pawan Kumar Chandana (CEO) and Naga Bharath Daka (COO). Made history on 18 November 2022"
+  },
+  "what_it_is": {
+    "prose": "Skyroot Aerospace is a Hyderabad-based private launch vehicle startup founded in 2018 by former ISRO scientists Pawan Kumar Chandana (CEO) and Naga Bharath Daka (COO). Made history on 18 November 2022 with Vikram-S suborbital launch (Mission Prarambh) — India's first privately developed rocket to reach space. On 18 July 2026, Skyroot's Vikram-1 (4-stage orbital small-lift launch vehicle) made its maiden orbital flight (Mission Aagaman, Demo Flight) from Satish Dhawan Space Centre, becoming the first private Indian company to reach orbit. Vikram-1 places ~250 kg to 500 km LEO. Uses cryogenic upper stage and Kalam-series solid rocket motors — Kalam-5 test fired Dec 2020; Kalam-1200 (first stage of Vikram-1) first static test at SDSC-SHAR 8 Aug 2025; Kalam-250 (235 kN vacuum thrust, largest private Indian propulsion system) tested Mar 2024. Total funding $145M+; $1.1B valuation (May 2026 $60M round led by GIC + Sherpalo Ventures + BlackRock). Multi-launch deal signed with HEX20 (Aug 2026) for 3 dedicated Vikram missions from Q4 2027.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Vikram-S: suborbital all-carbon-composite rocket; first private Indian rocket to space (Mission Prarambh, 18 Nov 2022)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Vikram-1: 4-stage expendable orbital small-lift launch vehicle; first private Indian rocket to orbit (Mission Aagaman demo flight, 18 July 2026); ~250 kg to 500 km LEO",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Vikram-2 / Vikram-3: planned higher-capacity variants in development",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Kalam series solid rocket motors: Kalam-5 (test fired Dec 2020), Kalam-250 (235 kN vacuum thrust",
+        "role": "OEM",
+        "india_status": "largest private Indian propulsion system, tested Mar 2024), Kalam-1200 (first-stage booster of Vikram-1, first static test at SDSC-SHAR 8 Aug 2025)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "7 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "Vikram-S Mission Prarambh — successful suborbital launch from Sriharikota on 18 November 2022 at 11:30 IST; India's first privately developed rocket to space",
+        "year": "2022",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Vikram-1 Mission Aagaman (Demo Flight) — first orbital launch 18 July 2026 at 06:35 UTC from First Launch Pad, SDSC-SHAR; first private Indian company to reach orbit (delayed from original Sept 2025 target)",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Kalam-5 solid propulsion rocket stage successfully test-fired 28 December 2020",
+        "year": "2020",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Kalam-250 engine successfully tested (235 kN vacuum thrust — largest propulsion system in India's private space sector) — March 2024",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "First static test of KALAM 1200 solid motor at SDSC-SHAR — 8 August 2025 (Vikram-1 first-stage booster)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Multi-launch agreement with HEX20 (signed Aug 2026) for 3 dedicated Vikram missions from Q4 2027 to deploy EO and demo satellites",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Series C-equivalent $60M funding round (May 2026) led by GIC + Sherpalo Ventures + BlackRock → $1.1B valuation; total capital ~$145-160M",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "18 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "4 official, 13 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When did Skyroot launch Vikram-1 and what was the significance?",
+      "answer": "18 July 2026 (Mission Aagaman demo flight) from SDSC-SHAR — Skyroot became the first private Indian company to reach orbit",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What was India's first privately developed rocket?",
+      "answer": "Skyroot's Vikram-S, launched 18 November 2022 (Mission Prarambh) — a suborbital flight from Sriharikota",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the Kalam-1200?",
+      "answer": "The first-stage solid motor booster for Skyroot's Vikram-1 launch vehicle — first static test conducted at SDSC-SHAR on 8 August 2025",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is Skyroot's current valuation?",
+      "answer": "$1.1 billion (unicorn status), achieved May 2026 after $60M funding round led by GIC, Sherpalo Ventures and BlackRock; total raised ~$145M",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Skyroot founded by 2 former ISRO scientists Pawan Kumar Chandana and Naga Bharath Daka; HQ Hyderabad",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Skyroot_Aerospace",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "Founded in 2018 by space scientists-turned-entrepreneurs",
+      "publisher": "Skyroot Official",
+      "url": "https://www.skyroot.in/about-skyroot",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Vikram-S is India's first privately built suborbital rocket; maiden flight 18 November 2022 at 11 AM",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vikram-S",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Vikram-S suborbital launch from Skyroot Aerospace Pvt Ltd Hyderabad accomplished successfully on 18 November 2022",
+      "publisher": "ISRO Official",
+      "url": "https://www.isro.gov.in/mission_prarambh.html",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "India's Skyroot launches Vikram-1 — first private orbital rocket mission (18 July 2026); Vikram-S in 2022 was first privately developed rocket from Indian soil",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/science/indias-skyroot-launches-vikram-1-first-private-orbital-rocket-mission-2026-07-18",
+      "published_date": "2026-07-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Vikram-1 is a 4-stage expendable orbital small-lift launch vehicle; flew on 18 July 2026 with private orbital launch capability",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vikram-1",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Skyroot became first private Indian company to reach orbit with Vikram-1 on Saturday; valuation $1.1B with $60M round",
+      "publisher": "Payload Space",
+      "url": "https://payloadspace.com/skyroot-aerospace-reaches-orbit-with-vikram-1-rocket",
+      "published_date": "2026-07-20",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Vikram-1 Aagaman Demo Flight launched from First Launch Pad at SDSC on Saturday July 18 2026 at 06:35 UTC",
+      "publisher": "NextSpaceFlight",
+      "url": "https://nextspaceflight.com/launches/details/8033",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Vikram-1 scheduled under Mission Aagaman between 12 July and 4 August 2026",
+      "publisher": "PIB India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2286011",
+      "published_date": "2026-07-18",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "Maiden flight of Vikram-1 planned for Sept 2025, delayed to July 2026",
+      "publisher": "Gunter's Space Page",
+      "url": "https://space.skyrocket.de/doc_lau/vikram-1.htm",
+      "published_date": "2026-07-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "Skyroot became first Indian company to launch a privately developed rocket to space with Vikram-S suborbital test vehicle in 2022",
+      "publisher": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/skyroot-aerospace-vikram-1-launch",
+      "published_date": "2026-07-27",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "Skyroot successfully test-fires Kalam-5 solid propulsion rocket engine",
+      "publisher": "The Hindu BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/science/skyroot-aerospace-test-fires-solid-propulsion-rocket-engine/article33435557.ece",
+      "published_date": "2020-12-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "First Static Test of KALAM 1200 motor — first stage of Vikram-1 launch vehicle of Skyroot Aerospace at SDSC SHAR",
+      "publisher": "ISRO Official",
+      "url": "https://www.isro.gov.in/Static_test_of_KALAM_1200_solid_motor_SDSC_SHAR.html",
+      "published_date": "2025-08-08",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-14",
+      "title": "Kalam-250 engine (235 kN vacuum thrust) tested — largest propulsion system ever built within India's private space",
+      "publisher": "Defence.in",
+      "url": "https://defence.in/threads/skyroots-kalam-250-engine-successfully-tested-paving-the-way-for-vikram-1-launch.4916",
+      "published_date": "2024-03-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-15",
+      "title": "Vikram-S launched 18 Nov 2022 at 11:30 am IST — India's first privately developed rocket",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2022/11/18/india-successfully-launches-vikram-s-first-privately-made-rocket",
+      "published_date": "2022-11-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-16",
+      "title": "Skyroot raises $60M ahead of first orbital launch attempt — valuation >$1 billion",
+      "publisher": "SpaceNews",
+      "url": "https://spacenews.com/skyroot-raises-60-million-ahead-of-first-orbital-launch-attempt",
+      "published_date": "2026-05-07",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-17",
+      "title": "Skyroot raised $145M from GIC, Sherpalo Ventures, Temasek; valuation $1.11B",
+      "publisher": "Tracxn",
+      "url": "https://tracxn.com/d/companies/skyroot/__WGOtV3U9UvyMfhzGd33vyxEOtq6PfOLQlnCmv14q-14",
+      "published_date": "2026-08",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-18",
+      "title": "Skyroot Aerospace signs multi-launch deal with HEX20 for 3 dedicated Vikram missions from Q4 2027",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/hyderabad/skyroot-aerospace-inks-multi-launch-pact-with-hex20-for-vikram-missions/articleshow/133112903.cms",
+      "published_date": "2026-08-10",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Skyroot Aerospace — Company · India Space Atlas | Techadyant",
+    "meta_description": "Skyroot Aerospace company dossier: India space role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/space/skyroot-aerospace/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/skyroot-aerospace/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

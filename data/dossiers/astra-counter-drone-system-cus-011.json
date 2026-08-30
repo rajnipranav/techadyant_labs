@@ -1,0 +1,225 @@
+{
+  "entity_id": "cus-011",
+  "entity_type": "system",
+  "tier": "B",
+  "noindex": false,
+  "slug": "astra-counter-drone-system-cus-011",
+  "name": "Drishti C-UAS (Astra Microwave)",
+  "variant": "V1 — Atlas slug 'Astra Counter-Drone System'; OEM product name is 'Drishti Counter UAV Radar' / 'C-UAS System'",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Astra Microwave Products (BSE:532493) Drishti Counter UAV Radar — 4 km range for 0.001 sq m targets, 100+ simultaneous tracks; launched Aero India 2023; DRDO Counter-Drone System ToT Apr 2022.",
+    "chips": [
+      "Soft kill",
+      "Hard kill (non-kinetic)",
+      "Active radar",
+      "Passive RF",
+      "Multi-band jammer",
+      "Aero India 2023"
+    ],
+    "maker": "Astra Microwave Products Limited (AMPL), Hyderabad",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Vehicle-mounted / static variants",
+    "operational_domains": [
+      "land",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Astra Microwave Products Limited (AMPL), Hyderabad — BSE:532493, NSE:ASTRAMICRO",
+    "OEM_product_name": "Drishti Counter UAV Radar / C-UAS System (NOT 'Astra Counter-Drone System')",
+    "Drishti_radar_range": "4 km for 0.001 sq m targets (micro drones)",
+    "Simultaneous_tracks": "100+ drones",
+    "Launched": "Aero India 2023 (February 2023)",
+    "DRDO_ToT": "Counter-Drone System Transfer of Technology April 2022 (4 vendors: L&T, Astra, Adani Defence, ECIL)",
+    "JV_partner": "Rafael Comsys Private Limited (₹255.88 cr MoD order 13 Dec 2024)",
+    "AMPL_FY26_revenue": "₹1,163 cr consolidated (+11% YoY)",
+    "AMPL_order_book": "₹4,300 cr record (Aug 2026, post-Uttam HAL contract)"
+  },
+  "what_it_is": {
+    "prose": "The Drishti Counter UAV Radar / C-UAS System is a counter-UAS platform developed by Astra Microwave Products Limited (AMPL) of Hyderabad, launched at Aero India 2023 in February 2023. The Atlas slug 'Astra Counter-Drone System' is an editorial designation; the official OEM product name on astramwp.com is 'Drishti Counter UAV Radar' / 'C-UAS System'. The Drishti radar has a 4 km range for 0.001 sq m targets (micro drones) and can track 100+ drones simultaneously. The complete C-UAS system combines active radar, passive RF sensors, and multi-band jamming (including non-kinetic effectors). Astra Microwave was one of four vendors (alongside L&T, Adani Defence, and ECIL) to receive DRDO's Counter-Drone System Transfer of Technology in April 2022. Astra Microwave also has a joint venture with Rafael Comsys Private Limited, which received a ₹255.88 crore MoD order on 13 December 2024. The Drishti C-UAS is a modest part of Astra Microwave's overall business — the company is primarily an RF/microwave subsystems supplier with a record ₹4,300 crore order book (as of August 2026, post the ₹2,205 crore HAL Uttam AESA contract signed 30 July 2026 for the Tejas Mk-1A programme). FY26 consolidated revenue was ₹1,163 crore (+11% YoY). The Atlas slug should ideally be renamed to 'Drishti C-UAS (Astra Microwave)' to match OEM branding.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Drishti C-UAS was launched at Aero India 2023 (February 2023) and is an operational Astra-branded product. Astra Microwave received DRDO Counter-Drone System Transfer of Technology in April 2022 (one of 4 vendors alongside L&T, Adani Defence, and ECIL). Astra's JV with Rafael Comsys received a ₹255.88 crore MoD order on 13 December 2024. Specific MoD contract value for the Drishti C-UAS alone has not been publicly disclosed.",
+    "rows": [
+      {
+        "agency": "DRDO",
+        "context": "Counter-Drone System ToT to Astra Microwave",
+        "year": 2022,
+        "quantity_or_note": "April 2022 — one of 4 vendors",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "MoD (via Rafael Comsys JV)",
+        "context": "₹255.88 cr MoD order",
+        "year": 2024,
+        "quantity_or_note": "13 December 2024 — JV order; specific Drishti share not disclosed",
+        "sources": []
+      }
+    ],
+    "open_questions": [
+      "Atlas slug 'Astra Counter-Drone System' should be renamed to 'Drishti C-UAS (Astra Microwave)' to match OEM branding",
+      "Specific MoD contract value for Drishti C-UAS not publicly disclosed",
+      "Number of Drishti radars fielded not disclosed",
+      "Drishti C-UAS revenue as % of Astra Microwave total not separately disclosed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "GaN RF substrates",
+        "severity": "High",
+        "note": "Industry-typical — USA (Wolfspeed/Qorvo)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "FPGA (Xilinx/Intel)",
+        "severity": "High",
+        "note": "Industry-typical — USA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "integrated-counter-drone-system-cus-001",
+      "zen-anti-drone-system-zads-cus-003",
+      "vajra-sentinel-counter-drone-system-cus-009"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "Why is the Atlas slug 'Astra Counter-Drone System' instead of 'Drishti'?",
+      "answer": "The official OEM product name on astramwp.com is 'Drishti Counter UAV Radar' / 'C-UAS System'. The Atlas slug 'Astra Counter-Drone System' is an editorial designation that should ideally be renamed to 'Drishti C-UAS (Astra Microwave)' to match OEM branding. This is flagged as an open question for Atlas register correction.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Is Drishti C-UAS Astra Microwave's main product?",
+      "answer": "No. The Drishti C-UAS is a modest part of Astra Microwave's overall business. The company is primarily an RF/microwave subsystems supplier with a record ₹4,300 crore order book (as of August 2026), dominated by the ₹2,205 crore HAL Uttam AESA contract signed 30 July 2026 for the Tejas Mk-1A programme. FY26 consolidated revenue was ₹1,163 crore (+11% YoY). Drishti C-UAS-specific revenue is not separately disclosed.",
+      "sources": [
+        "src-5",
+        "src-6"
+      ]
+    },
+    {
+      "question": "Who are the other DRDO Counter-Drone System ToT recipients?",
+      "answer": "DRDO transferred Counter-Drone System technology to four Indian industry partners in April 2022: Larsen & Toubro (L&T), Astra Microwave, Adani Defence & Aerospace, and Electronics Corporation of India Limited (ECIL). Each vendor produces a variant of the DRDO D4 / IDDIS architecture under the ToT framework. BEL is the prime productioniser of the IDDIS variant (Atlas slug cus-001).",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Atlas slug 'Astra Counter-Drone System' should be renamed to 'Drishti C-UAS (Astra Microwave)' to match OEM branding",
+    "Specific MoD contract value for Drishti C-UAS not publicly disclosed",
+    "Number of Drishti radars fielded not disclosed",
+    "Drishti C-UAS revenue as % of Astra Microwave total not separately disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Perimeter Intrusion Detection Radar",
+      "publisher": "Astra Microwave (official)",
+      "url": "https://astramwp.com/perimeter-intrusion-detection-radar",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Drishti Counter UAV Radar + C-UAS System product page (note: domain root only — specific deep-link to product page not extracted)"
+    },
+    {
+      "id": "src-2",
+      "title": "Product Launch at Aero India 2023 Astra Microwave",
+      "publisher": "Review Vayu (@ReviewVayu) X post",
+      "url": "https://x.com/ReviewVayu/status/1626482639761977345",
+      "published_date": "2023-02",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Drishti radar specs (4 km / 100+ tracks) — Aero India 2023 launch"
+    },
+    {
+      "id": "src-3",
+      "title": "DRDO's Counter Drone System ToT Documents Handed Over to Indian Industry Including L&T, Astra Microwave, Adani Defence, ECIL",
+      "publisher": "Raksha Anirveda",
+      "url": "https://raksha-anirveda.com/drdos-counter-drone-system-tot-documents-handed-over-to-indian-industry-including-lt-astra-microwave-adani-defence-ecil/",
+      "published_date": "2022-04-08",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "ToT context — Astra one of 4 vendors"
+    },
+    {
+      "id": "src-4",
+      "title": "Astra Microwave's Indigenous Radar And CUAS",
+      "publisher": "Indian Defence News",
+      "url": "https://www.indiandefensenews.in/2025/06/astra-microwaves-indigenous-radar-and.html",
+      "published_date": "2025-06-14",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Subsystem sourcing context; C-UAS technical overview"
+    },
+    {
+      "id": "src-5",
+      "title": "Astra Microwave bags ₹2205 crore HAL order for Uttam radar programme",
+      "publisher": "CNBC TV18",
+      "url": "https://www.cnbctv18.com/market/stocks/astra-microwave-bags-rs-2205-crore-hal-order-for-uttam-radar-programme-19958145.htm",
+      "published_date": "2026-07-30",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "₹2,205 cr Uttam HAL order context (Astra's larger business)"
+    },
+    {
+      "id": "src-6",
+      "title": "Earnings call transcript: Astra Microwave Q1 2026 order book hits record",
+      "publisher": "Investing.com",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-astra-microwave-q1-2026-order-book-hits-record-93CH-4850787",
+      "published_date": "2026-08-11",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "₹4,300 cr record order book post-Uttam"
+    }
+  ],
+  "seo": {
+    "title": "Drishti C-UAS (Astra Microwave) — System · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "Astra Microwave Products (BSE:532493) Drishti Counter UAV Radar — 4 km range for 0.001 sq m targets, 100+ simultaneous tracks; launched Aero India 2023; DRDO Co",
+    "canonical_path": "/research/counter-uas/system/astra-counter-drone-system-cus-011/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/counter-uas/"
+    ]
+  }
+}

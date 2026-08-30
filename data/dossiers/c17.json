@@ -1,0 +1,293 @@
+{
+  "entity_id": "c17",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "c17",
+  "name": "Boeing C-17A Globemaster III (India)",
+  "variant": "C-17A Globemaster III",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/platform/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "The IAF operates 11 Boeing C-17A Globemaster III strategic airlifters with No. 81 Squadron 'Skylords' at Hindan; 10 were bought under a ~$4.1 billion 2011 FMS deal with an 11th added in 2019.",
+    "chips": [
+      "A",
+      "India-relevant",
+      "Strategic airlift",
+      "Boeing",
+      "US FMS",
+      "81 Sqn Skylords"
+    ],
+    "maker": "Boeing",
+    "country": "USA",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign-origin (US) platform; no indigenous production content",
+    "mobility_or_class": "Four-engine heavy strategic airlift transport (~77-tonne payload)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Platform": "Boeing C-17A Globemaster III",
+    "Maker": "Boeing (USA)",
+    "Fleet": "11 with the Indian Air Force",
+    "Squadron": "No. 81 Squadron 'Skylords', Hindan Air Force Station",
+    "Squadron_raised": "1 September 2013",
+    "Acquisition": "10 aircraft under ~$4.1 billion (Rs 20,500 crore) US Foreign Military Sale signed June 2011; 11th approved via FMS in 2017 and delivered 2019",
+    "First_delivery": "January 2013 (accepted June 2013)",
+    "Final_delivery": "11th aircraft delivered 26 August 2019",
+    "Engines": "4 x Pratt & Whitney F117-PW-100 turbofan",
+    "Payload": "~77 tonnes maximum"
+  },
+  "what_it_is": {
+    "prose": "The Boeing C-17A Globemaster III is the Indian Air Force's heavy strategic airlift transport, operated by No. 81 Squadron 'Skylords' from Hindan Air Force Station near Delhi. India signed a US Foreign Military Sale for 10 C-17s in June 2011, valued at approximately $4.1 billion (about Rs 20,500 crore), to provide long-range strategic and tactical airlift and to progressively supplement the ageing Il-76 fleet. The first aircraft was delivered in January 2013 and formally accepted in June 2013; No. 81 Squadron was raised on 1 September 2013. Six aircraft were in hand by July 2014 and the initial ten were delivered by 2014. India subsequently obtained an eleventh aircraft — approved through a further US Foreign Military Sale in 2017 — which was delivered on 26 August 2019, taking the fleet to 11. The C-17 is powered by four Pratt & Whitney F117-PW-100 turbofans, can carry a payload on the order of 77 tonnes, and can operate from short, semi-prepared runways, making it central to Indian strategic mobility, high-altitude resupply along the northern borders, and humanitarian assistance and disaster relief. The Atlas treats the C-17 as a foreign-origin (US) platform in Indian service with no indigenous production content.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "India acquired the C-17 through US Foreign Military Sales: 10 aircraft under the ~$4.1 billion June 2011 deal, delivered 2013–2014, and an 11th approved via FMS in 2017 and delivered in August 2019. All 11 are operated by No. 81 Squadron 'Skylords' at Hindan, raised on 1 September 2013.",
+    "rows": [
+      {
+        "agency": "Indian Air Force (via US FMS)",
+        "context": "Initial C-17 acquisition for strategic airlift; No. 81 Squadron 'Skylords', Hindan",
+        "year": 2011,
+        "quantity_or_note": "10 aircraft, ~$4.1 billion (Rs 20,500 crore), signed June 2011; delivered 2013–2014",
+        "sources": [
+          "src-3",
+          "src-4"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (via US FMS)",
+        "context": "Eleventh C-17 approved through a further Foreign Military Sale",
+        "year": 2017,
+        "quantity_or_note": "1 aircraft (US State Dept approval June 2017); delivered 26 August 2019",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Boeing's C-17 production line at Long Beach closed in 2015; long-term fleet sustainment/attrition-replacement path is a standing question not resolved in retrieved primary sources"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The C-17 is a wholly foreign-origin (US) platform acquired via Foreign Military Sales, with no Indian production content. The airframe, its four Pratt & Whitney F117 engines and all mission systems are imported, and the type is sustained through Boeing/US support arrangements. With the C-17 line closed since 2015, sustainment and spares depend entirely on the global support pool.",
+    "items": [
+      {
+        "component": "Complete airframe and systems (Boeing C-17A)",
+        "severity": "Critical",
+        "note": "Foreign-origin platform; no Indian production content; sustained via US/Boeing support with the production line closed since 2015.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "component": "Engines (Pratt & Whitney F117-PW-100)",
+        "severity": "High",
+        "note": "Four per aircraft; U.S.-origin.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 0,
+        "note": "US (Boeing) design; no Indian design role",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 0,
+        "note": "Foreign-built via FMS; no Indian production content",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 0,
+        "note": "Airframe, engines and mission systems all imported",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 3,
+        "note": "11-aircraft fleet; strategically significant heavy-lift capability but small numbers",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 0,
+        "note": "Not applicable — India is an operator, not a producer",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "/research/military-aerospace/platform/ah64/"
+    ],
+    "peer_systems": [
+      "/research/military-aerospace/platform/hs748/"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2011-06",
+      "event": "India signs ~$4.1 billion US FMS for 10 C-17 Globemaster III",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2013-01",
+      "event": "First C-17 delivered to India for testing and training (accepted June 2013)",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2013-09-01",
+      "event": "No. 81 Squadron 'Skylords' raised at Hindan Air Force Station",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2017-06",
+      "event": "US State Department approves FMS for an 11th C-17 for India",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2019-08-26",
+      "event": "11th and final C-17 delivered to the IAF",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How many C-17s does India operate and where are they based?",
+      "answer": "The Indian Air Force operates 11 Boeing C-17A Globemaster III aircraft with No. 81 Squadron 'Skylords' at Hindan Air Force Station near Delhi. The squadron was raised on 1 September 2013.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "How and when did India acquire the C-17?",
+      "answer": "India bought 10 C-17s under a US Foreign Military Sale worth about $4.1 billion (Rs 20,500 crore) signed in June 2011, with deliveries running from January 2013 to 2014. An 11th aircraft was approved through a further FMS in 2017 and delivered on 26 August 2019.",
+      "sources": [
+        "src-2",
+        "src-4"
+      ]
+    },
+    {
+      "question": "Is the C-17 built or partly made in India?",
+      "answer": "No. The C-17 is a wholly US-origin Boeing platform acquired via Foreign Military Sales, with no Indian production content. Its four Pratt & Whitney F117 engines and all systems are imported, and — with the C-17 line closed since 2015 — the fleet is sustained through the global US/Boeing support pool.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Long-term sustainment and any attrition-replacement path after the 2015 closure of the C-17 production line is not resolved in retrieved primary sources"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "No. 81 Squadron IAF",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/No._81_Squadron_IAF",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "No. 81 Squadron 'Sky Lords', 11 C-17, Hindan, raised 1 September 2013; first C-17 delivered Jan 2013, final 11th delivered August 2019."
+    },
+    {
+      "id": "src-2",
+      "title": "Boeing C-17 Globemaster III (India section)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boeing_C-17_Globemaster_III",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "India operates 11 C-17s; 6 by July 2014; 11th approved via FMS June 2017 (~$366M) and delivered 26 August 2019; engines Pratt & Whitney F117-PW-100."
+    },
+    {
+      "id": "src-3",
+      "title": "C-17 Induction: Defining Moment for IAF",
+      "publisher": "SP's Aviation",
+      "url": "https://www.sps-aviation.com/story/?id=1289&h=C-17-Induction-Defining-Moment-for-IAF",
+      "published_date": "2013-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "IAF C-17 induction Sept 2013, No. 81 'Skylords', Hindan; ~77-tonne class heavy lift; Antony called it a 'defining moment'."
+    },
+    {
+      "id": "src-4",
+      "title": "C-17 – A Strong Workhorse",
+      "publisher": "SP's Aviation",
+      "url": "https://www.sps-aviation.com/story/?id=894",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "$4.1 billion (Rs 20,500 crore) June 2011 FMS deal; based at Hindan; ~77-tonne payload; to supplement ageing Il-76 fleet."
+    }
+  ],
+  "seo": {
+    "title": "Boeing C-17A Globemaster III (India) — Platform · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "The IAF operates 11 Boeing C-17A Globemaster III strategic airlifters with No. 81 Squadron 'Skylords' at Hindan; 10 bought under a ~$4.1 billion 2011 FMS deal, an 11th delivered in 2019.",
+    "canonical_path": "/research/military-aerospace/platform/c17/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/platform/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/ah64/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

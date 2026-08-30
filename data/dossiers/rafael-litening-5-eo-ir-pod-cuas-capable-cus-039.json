@@ -1,0 +1,60 @@
+{
+  "entity_id": "cus-039",
+  "entity_type": "system",
+  "tier": "C",
+  "noindex": true,
+  "slug": "rafael-litening-5-eo-ir-pod-cuas-capable-cus-039",
+  "name": "Rafael LITENING-5 EO/IR Pod (CUAS-capable)",
+  "variant": "V1",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-08-29",
+  "status": "Unknown",
+  "header": {
+    "one_liner": "Rafael LITENING-5 EO/IR Pod (CUAS-capable) — Tier C compact card; evidence bar not yet met for a full dossier. Manufacturer: Rafael Advanced Defense Systems. Country: Israel.",
+    "chips": [
+      "Tier C",
+      "Evidence gap"
+    ],
+    "maker": "Rafael Advanced Defense Systems",
+    "country": "Israel",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — Tier C compact card",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Maker": "Rafael Advanced Defense Systems",
+    "Country": "Israel",
+    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; no documented Indian operational/procurement footprint in sources reviewed",
+    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection"
+  },
+  "what_it_is": {
+    "prose": "Rafael LITENING-5 EO/IR Pod (CUAS-capable) (V1) is listed in the Techadyant Atlas register with maker Rafael Advanced Defense Systems and country of origin Israel. However, a thorough review of public primary sources did not surface sufficient evidence to meet the Tier A or B evidence bar for a full dossier — specifically, no documented Indian operational deployment, procurement contract, or combat use was found. This Tier C compact card is therefore marked noindex and the slug is preserved in the register pending future evidence collection. When primary-source evidence becomes available (PIB/MoD releases, exchange filings, OEM IR pages, credible major-news coverage), this dossier can be elevated to Tier B or A.",
+    "sources": []
+  },
+  "open_questions": [
+    "Maker confirmation for Rafael LITENING-5 EO/IR Pod (CUAS-capable) — listed as Rafael Advanced Defense Systems in Atlas register; verify against OEM primary sources",
+    "Documented Indian operational deployment or procurement footprint — not found in sources reviewed",
+    "Detection ranges, defeat mechanisms, indigenous content % — not documented in public sources",
+    "Whether this entity should be retained in the Atlas register or consolidated with a sibling entry"
+  ],
+  "sources": [],
+  "seo": {
+    "title": "Rafael LITENING-5 EO/IR Pod (CUAS-capable) — System · India Counter Uas Atlas | Techadyant",
+    "meta_description": "Rafael LITENING-5 EO/IR Pod (CUAS-capable) — Tier C compact card; evidence bar not yet met for a full dossier. Manufacturer: Rafael Advanced Defense Systems. Co",
+    "canonical_path": "/research/counter-uas/system/rafael-litening-5-eo-ir-pod-cuas-capable-cus-039/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/counter-uas/"
+    ]
+  }
+}

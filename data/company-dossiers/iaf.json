@@ -1,0 +1,248 @@
+{
+  "entity_id": "atl-cmp-iaf",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "iaf",
+  "name": "Indian Air Force (IAF)",
+  "variant": null,
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/iaf/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Indian air service — 1,700+ aircraft; HAL/BEL/BDL/TASL key customers.",
+    "chips": [
+      "military-aerospace",
+      "india-service",
+      "operator"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": [
+      "Air",
+      "Space"
+    ]
+  },
+  "at_a_glance": {
+    "Headquarters": "New Delhi, India",
+    "Type": "Service (Government of India)",
+    "Founded": "1932 (as RIAF; 1950 as IAF)",
+    "India entity": "Indian Air Force, MoD",
+    "Listed": "Not applicable (government service)",
+    "Key India role": "The Indian Air Force is the air arm of the Indian Armed Forces, established 8 October 1932. The IAF operates over 1,700 aircraft including Su-30MKI, MiG-29, Mirage 2000, Rafale, LCA Tejas, and Jaguar "
+  },
+  "what_it_is": {
+    "prose": "The Indian Air Force is the air arm of the Indian Armed Forces, established 8 October 1932. The IAF operates over 1,700 aircraft including Su-30MKI, MiG-29, Mirage 2000, Rafale, LCA Tejas, and Jaguar fighters; C-17, C-130J, IL-76, and An-32 transports; AH-64E Apache, Mi-17, CH-47F Chinook, and ALH Dhruv helicopters. The IAF also operates IAI Heron and Searcher UAVs, DRDO Tapas-BH, and is the lead service for the MQ-9B Predator-B procurement (16 of 31 aircraft). The IAF is a key customer for HAL, BEL, BDL, and TASL products.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "5 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Su-30MKI (260+ in service)",
+        "role": "operator support",
+        "india_status": "HAL licence production",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "LCA Tejas Mk1/Mk1A (40+ in service)",
+        "role": "operator support",
+        "india_status": "HAL production",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "Rafale (36 in service)",
+        "role": "operator support",
+        "india_status": "Dassault supply",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "C-17 Globemaster III (10 in service)",
+        "role": "operator support",
+        "india_status": "Boeing supply",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "IAI Heron UAV",
+        "role": "operator support",
+        "india_status": "IAI supply",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "2 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Balakot airstrike",
+        "context": "Su-30MKI, Mirage 2000, Rafale operations",
+        "year": "2019",
+        "quantity_or_note": "Combat use",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "agency": "Operation Sindoor",
+        "context": "Rafale, Su-30MKI operations",
+        "year": "2025",
+        "quantity_or_note": "Combat use",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ],
+    "open_questions": [
+      "What is the IAF's planned squadron strength by 2030?",
+      "How many MQ-9B Predator-B aircraft will the IAF receive from the 31-aircraft deal?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Limited",
+        "note": "3 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "None%",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was the IAF founded?",
+      "answer": "The Indian Air Force was founded on 8 October 1932 as the Royal Indian Air Force (RIAF); it became the Indian Air Force in 1950 when India became a republic.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "How many aircraft does the IAF operate?",
+      "answer": "The IAF operates over 1,700 aircraft including fighters (Su-30MKI, Rafale, Tejas, Mirage 2000, MiG-29, Jaguar), transports (C-17, C-130J, IL-76, An-32), helicopters (Apache, Chinook, Mi-17, ALH), and UAVs (Heron, Tapas-BH).",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "What is the IAF's planned squadron strength by 2030?",
+    "How many MQ-9B Predator-B aircraft will the IAF receive from the 31-aircraft deal?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Indian Air Force — official site",
+      "publisher": "Indian Air Force (Government of India)",
+      "url": "https://indianairforce.nic.in/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "IAF official website [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    },
+    {
+      "id": "src-02",
+      "title": "IAF aircraft inventory — International Institute for Strategic Studies",
+      "publisher": "IISS (Military Balance)",
+      "url": "https://www.iiss.org/publications/the-military-balance",
+      "published_date": "2024-02-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "IISS Military Balance — IAF inventory"
+    },
+    {
+      "id": "src-03",
+      "title": "IAF Rafale induction — The Hindu",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/iaf-inducts-rafale-fighter-jets/article67543212.ece",
+      "published_date": "2020-09-10",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Coverage of IAF Rafale induction"
+    }
+  ],
+  "seo": {
+    "title": "Indian Air Force (IAF) — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Indian Air Force (IAF) company dossier: India military-aerospace role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/military-aerospace/iaf/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/iaf/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "entity_id": "def-003",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "tejas-mk1a-def-003",
+  "name": "HAL Tejas Mk-1A",
+  "variant": "Mk-1A (single-seat + twin-seat trainer)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Ordered",
+  "header": {
+    "one_liner": "4.5-generation indigenous light fighter; 180 ordered March 2026 (₹62,370 cr); F404 engine critical-path chokepoint with GE Aerospace (only 6 of 99 engines delivered as of April 2026); 64%+ indigenous content on second contract.",
+    "chips": [
+      "Fighter",
+      "4.5-gen",
+      "Indigenous",
+      "F404",
+      "Uttam AESA",
+      "Astra"
+    ],
+    "maker": "Hindustan Aeronautics Limited (HAL) — final integrator; designed by Aeronautical Development Agency (ADA)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Hindustan Aeronautics Limited (HAL); designed by Aeronautical Development Agency (ADA)",
+    "Private_airframe_suppliers": "L&T (wings), VEM Technologies (centre fuselage), Alpha Tocol (rear fuselage)",
+    "Radar_supplier": "Astra Microwave Products for Uttam AESA Active Antenna Array Units",
+    "Indigenous_content": "50% (first aircraft, 2021) → 60% (end of first contract); 64%+ on second (97-aircraft) contract",
+    "Engine": "GE F404-GE-IN20 (USA) — same as Mk-I; F414-GE-INS6 planned for Mk-2",
+    "Avionics": "Uttam AESA radar (indigenous), EL/M-2052 (Israel, on initial Mk1A), Swayam Raksha Kavach EW suite (indigenous), Astra Mk1 BVRAAM + ASRAAM",
+    "Production_capacity": "16/yr (Bengaluru Plants I+II), 24/yr with Nashik (Oct 2024), planned 32/yr with Nashik II"
+  },
+  "what_it_is": {
+    "prose": "The HAL Tejas Mk-1A is a 4.5-generation single-engine delta-wing multirole light fighter developed by Hindustan Aeronautics Limited (HAL) as the final integrator, with design by the Aeronautical Development Agency (ADA). The Mk-1A is an upgrade over the earlier Mk-I, incorporating the indigenous Uttam AESA radar (replacing the Israeli EL/M-2052 used on the initial batch), the indigenous Swayam Raksha Kavach electronic warfare suite, beyond-visual-range Astra Mk-1 air-to-air missiles, and ASRAAM within-visual-range missiles. Private-sector airframe suppliers include L&T (wings), VEM Technologies (centre fuselage), and Alpha Tocol (rear fuselage); Astra Microwave Products supplies Active Antenna Array Units for the Uttam AESA radar under a ₹2,205 crore contract signed 31 July 2026. Indigenous content is 50% on the first aircraft of the 2021 contract, rising to 60% by end of that contract, and 64%+ on the second (97-aircraft) contract signed September 2025. Production capacity is 16 per year at Bengaluru Plants I and II, rising to 24 per year with the Nashik line (operational October 2024), and a planned 32 per year with Nashik II. The Tejas Mk-1A is powered by the GE F404-GE-IN20 engine (USA) — the same engine as the Mk-I. Two major contracts have been signed: the first on 3 February 2021 for 73 Mk-1A and 10 Mk-1 trainers (₹48,000 crore including ₹1,202 crore D&D), and the second on 25 September 2025 for 68 fighters and 29 trainers (97 aircraft total, ₹62,370 crore). HAL also placed a 99-engine contract with GE Aerospace on 17 August 2021 (₹5,375 crore) and a 113-engine contract on 7 November 2025 (₹8,870 crore). On 31 March 2026, HAL announced a third order for 180 Tejas Mk-1A, bringing the total order book for the type to 350 aircraft. The single most critical programme risk is the F404-IN20 engine supply chain: only 6 of 99 engines contracted in August 2021 had been delivered as of April 2026, with the chokepoint traced to a South Korean firm with financial issues. HAL has levied liquidated damages on GE Aerospace and an in-country F404 depot is being established with GE (announced April 2026). First deliveries slipped from February 2024 to March 2026 and remain pending ASQR certification. The Tejas Mk-2 will use the GE F414-INS6 engine, which saw a reported 3x price hike in June 2026.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Tejas Mk-1A programme has three major IAF contracts: (1) 73 Mk-1A + 10 Mk-1 trainers (₹48,000 crore, 3 February 2021); (2) 68 fighters + 29 trainers = 97 aircraft (₹62,370 crore, 25 September 2025); (3) 180 Tejas Mk-1A (₹62,370 crore, March 2026). Total Tejas Mk-1A order book: 350 aircraft. Engine contracts: 99 F404-IN20 (₹5,375 crore, 17 August 2021) + 113 F404-IN20 (₹8,870 crore, 7 November 2025). Astra Microwave received ₹2,205 crore contract on 31 July 2026 for 122 Active Antenna Array Units + 121 Interface Frames for Uttam AESA. First deliveries slipped from February 2024 to March 2026 and remain pending ASQR certification — only 5 of 10 planned FY26 airframes delivered, with 20 airframes ready of the full 180 programme.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "First Mk-1A contract (73 Mk1A + 10 Mk1 trainers)",
+        "year": 2021,
+        "quantity_or_note": "₹48,000 crore (3 February 2021)",
+        "sources": [
+          "src-1",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "HAL-GE Aerospace",
+        "context": "99 F404-IN20 engines + support",
+        "year": 2021,
+        "quantity_or_note": "₹5,375 crore (17 August 2021); delivery by 2029; only 6 delivered as of April 2026",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Second Mk-1A contract (68 fighters + 29 trainers = 97)",
+        "year": 2025,
+        "quantity_or_note": "₹62,370 crore (25 September 2025)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "HAL-GE Aerospace",
+        "context": "113 F404-IN20 engines + support",
+        "year": 2025,
+        "quantity_or_note": "₹8,870 crore (7 November 2025); delivery 2027-32",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "180 LCA Tejas Mk-1A order",
+        "year": 2026,
+        "quantity_or_note": "₹62,370 crore (March 2026)",
+        "sources": [
+          "src-2",
+          "src-6"
+        ]
+      },
+      {
+        "agency": "HAL-Astra Microwave",
+        "context": "122 Active Antenna Array Units + 121 Interface Frames for Uttam AESA",
+        "year": 2026,
+        "quantity_or_note": "₹2,205 crore (31 July 2026)",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "First deliveries slipped from Feb 2024 → March 2026 and remain pending ASQR certification — actual delivery date not confirmed",
+      "HAL imposed damages on GE Aerospace — amount not publicly disclosed",
+      "Tejas Mk-1A export discussions (Argentina, Egypt reported) — outcome not confirmed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
+    "items": [
+      {
+        "component": "Engine F404-IN20",
+        "severity": "Critical",
+        "note": "GE Aerospace USA — only 6 of 99 engines delivered as of April 2026; HAL levying liquidated damages; F404 depot in India planned (April 2026)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "component": "Engine charge amplifier",
+        "severity": "High",
+        "note": "Denmark prohibited export September 2024; HAL reassigned to Bengaluru firm for indigenous development",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "EL/M-2052 radar (initial batch)",
+        "severity": "High",
+        "note": "Being replaced by indigenous Uttam AESA — Israel",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Some components from Israel / Russia / Ukraine",
+        "severity": "Medium",
+        "note": "Russian invasion of Ukraine delayed deliveries",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "ADA + HAL indigenous design; private airframe suppliers L&T, VEM, Alpha Tocol",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "HAL Bengaluru + Nashik; planned 32/yr capacity",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "F404 engine imported (critical chokepoint); charge amplifier Denmark-blocked; EL/M-2052 Israel",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "350 Tejas Mk-1A on order; ₹1.7 lakh cr+ in contracts",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Argentina and Egypt discussions reported; no export contract signed yet",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "zorawar-light-tank-def-001"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "First deliveries slipped from Feb 2024 → March 2026 and remain pending ASQR certification — actual delivery date not confirmed",
+    "HAL imposed damages on GE Aerospace — amount not publicly disclosed",
+    "Tejas Mk-1A export discussions (Argentina, Egypt reported) — outcome not confirmed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "HAL Tejas",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HAL_Tejas",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Comprehensive specifications and procurement timeline"
+    },
+    {
+      "id": "src-2",
+      "title": "HAL outlines major defence orders, production push",
+      "publisher": "Economic Times",
+      "url": "https://m.economictimes.com/news/defence/hindustan-aeronautics-ltd-hal-unveils-ambitious-military-aircraft-production-plans-180-tejas-mk-1a-156-prachand-helicopters-and-more/articleshow/129662418.cms",
+      "published_date": "2026-03-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "180 Tejas Mk-1A order March 2026"
+    },
+    {
+      "id": "src-3",
+      "title": "LCA — HAL Tejas Mk1A product page",
+      "publisher": "Hindustan Aeronautics Limited",
+      "url": "https://hal-india.co.in/product/lca",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "HAL official Tejas product page"
+    },
+    {
+      "id": "src-4",
+      "title": "India and GE Aerospace to build Tejas F404 engine depot",
+      "publisher": "Aerospace Global News",
+      "url": "https://aerospaceglobalnews.com/news/india-tejas-f404-engine0-ge-aerospace",
+      "published_date": "2026-04-14",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "F404 depot in India + only 6 of 99 engines delivered"
+    },
+    {
+      "id": "src-5",
+      "title": "F414 Trap: After 3X Price Hike, Why Swapping U.S. GE Engines for India's Tejas Mk-2, AMCA Won't Be Easy",
+      "publisher": "Air Power Asia",
+      "url": "https://airpowerasia.com/2026/06/29/f414-trap-after-3x-price-hike-why-swapping-u-s-ge-engines-for-indias-tejas-mk-2-amca-wont-be-easy",
+      "published_date": "2026-06-29",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "F414 3x price hike report"
+    },
+    {
+      "id": "src-6",
+      "title": "HAL Secures Strong FY27 Outlook Backed By ₹2,54,538 Crore Order Book",
+      "publisher": "SAHI Markets",
+      "url": "https://www.sahi.com/news/hal-secures-strong-fy27-outlook-backed-by-2-54-538-crore-order-book-2811-PE1_COR",
+      "published_date": "2026-08-04",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "HAL order book context"
+    }
+  ],
+  "seo": {
+    "title": "HAL Tejas Mk-1A — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "4.5-generation indigenous light fighter; 180 ordered March 2026 (₹62,370 cr); F404 engine critical-path chokepoint with GE Aerospace (only 6 of 99 engines deliv",
+    "canonical_path": "/research/pillars/defence/entity/tejas-mk1a-def-003/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/",
+    "submit_correction": "/research/pillars/defence/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why are Tejas Mk-1A deliveries delayed?",
+      "answer": "First deliveries slipped from February 2024 to March 2026 and remain pending ASQR certification. The critical chokepoint is the GE Aerospace F404-IN20 engine supply chain: only 6 of 99 engines contracted in August 2021 had been delivered as of April 2026, with the chokepoint traced to a South Korean firm with financial issues. HAL has levied liquidated damages on GE Aerospace and an in-country F404 depot is being established with GE (announced April 2026). A separate issue was a charge amplifier that Denmark prohibited from exporting in September 2024 — HAL reassigned this to a Bengaluru firm for indigenous development.",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "question": "What is the indigenous content of the Tejas Mk-1A?",
+      "answer": "Indigenous content is 50% on the first aircraft of the 2021 contract, rising to 60% by the end of that contract, and 64%+ on the second (97-aircraft) contract signed September 2025 (per HAL). The indigenous content includes the airframe (L&T wings, VEM centre fuselage, Alpha Tocol rear fuselage), the Uttam AESA radar (DRDO-designed, Astra Microwave Active Antenna Array Units), the Swayam Raksha Kavach EW suite, and the Astra Mk-1 BVRAAM. The single largest imported component is the GE F404-IN20 engine.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Has the Tejas been exported?",
+      "answer": "As of August 2026, the HAL Tejas has not been exported, though discussions have been reported with Argentina and Egypt. Argentina has expressed interest in the Tejas Mk-1A as a replacement for its aging fighter fleet, but no contract has been signed. Egypt has also been reported as a potential customer. The Tejas would compete in the light fighter market against the Pakistani-Chinese JF-17 and the Korean FA-50. HAL's FY26 export revenue was ₹501 crore, driven primarily by Do-228 deliveries to Guyana and Mauritius, not Tejas exports.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021-02-03",
+      "event": "First LCA Tejas Mk-1A contract signed — 73 Mk1A + 10 Mk1 trainers for ₹48,000 crore",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2021-08-17",
+      "event": "HAL-GE Aerospace contract for 99 F404-IN20 engines (₹5,375 crore)",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2024-09",
+      "event": "Denmark prohibits export of engine charge amplifier; HAL reassigns to Bengaluru firm",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2024-10-17",
+      "event": "First LCA Mk-1A flight from Nashik line (LA-5043)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2025-09-25",
+      "event": "Second LCA Tejas Mk-1A contract signed — 97 aircraft for ₹62,370 crore",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2025-11-07",
+      "event": "HAL-GE Aerospace contract for 113 F404-IN20 engines (₹8,870 crore)",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2026-03",
+      "event": "180 LCA Tejas Mk-1A order placed (₹62,370 crore) — total 350 on order",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "event": "India-GE Aerospace F404 depot in India announced",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2026-06",
+      "event": "F414 3x price hike reported; ToT for indigenous production not agreed (affects Tejas Mk-2 and AMCA)",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "event": "HAL-Astra Microwave ₹2,205 crore contract for Uttam AESA Active Antenna Array Units",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ]
+}

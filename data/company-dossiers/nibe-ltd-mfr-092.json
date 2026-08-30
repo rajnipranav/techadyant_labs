@@ -1,0 +1,434 @@
+{
+  "entity_id": "atl-cmp-nibe-ltd-mfr-092",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "nibe-ltd-mfr-092",
+  "name": "Nibe Ltd (formerly Kavita Fabrics Ltd) — NIBE Enterprises defence arm",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/nibe-ltd-mfr-092/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Nibe Limited (formerly Kavita Fabrics Limited) is an India-based defence and aerospace manufacturing company incorporated on 18 October 2005 as a private textile company in Gujarat, and renamed Nibe L",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Pune, Maharashtra, India (Plot No. E-2/2, Phase III MIDC Industrial Area, Nanekarwadi CT, Chakan, Pune, Khed, Maharashtra – 410501)",
+    "Type": "Manufacturer (listed)",
+    "Founded": "Incorporated 18 October 2005 as Kavita Fabrics Private Limited (Gujarat-based textile company); renamed Nibe Limited in July 2020 and pivoted to defence and aerospace manufacturing",
+    "India entity": null,
+    "Listed": "Listed — BSE:535136 / NSE:NIBE; market cap ~₹2,148 Cr; share price ~₹1,389 (Aug 2026)",
+    "Key India role": "Nibe Limited (formerly Kavita Fabrics Limited) is an India-based defence and aerospace manufacturing company incorporated on 18 October 2005 as a private textile company in Gujarat, and renamed Nibe L"
+  },
+  "what_it_is": {
+    "prose": "Nibe Limited (formerly Kavita Fabrics Limited) is an India-based defence and aerospace manufacturing company incorporated on 18 October 2005 as a private textile company in Gujarat, and renamed Nibe Limited in July 2020 after pivoting to defence and aerospace manufacturing. Headquartered at Plot No. E-2/2, Phase III MIDC Industrial Area, Nanekarwadi CT, Chakan, Pune (Maharashtra), Nibe is engaged in fabrication and machining of components used in the defence sector. Products include: jet deflectors (essential components used in missile systems and aircraft), MRSAM cassettes, Modular Bridges, Short Span Bridges, logistical equipment. Nibe has established a new subsidiary Nibe Space Private Limited (76% stake, 2024) for research in space/launch technologies. Nibe secured a USD 17.52 million export order from an Israeli technology firm for rocket launchers (May 2025). The company is also developing small arms and aerospace systems through Nibe Defence and Aerospace Limited subsidiary. Total employees ~349.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "7 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Jet deflectors for missile systems and aircraft",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "MRSAM (Medium Range Surface-to-Air Missile) cassettes",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Modular Bridges and Short Span Bridges (logistical equipment)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Rocket launchers (USD 17.52 million export order from Israeli firm, May 2025)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Small arms (via Nibe Defence and Aerospace subsidiary)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Aerospace systems and components",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Defence electronics (via Nibe Defence and Aerospace subsidiary)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "Nibe Limited secured USD 17.52 million export order from an Israeli technology firm for rocket launchers (24 May 2025, Machinist.in)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Nibe established new subsidiary Nibe Space Private Limited with 76% stake (2024) — focused on space research, launch and satellite technologies",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Nibe Limited (formerly Kavita Fabrics Ltd) renamed in July 2020 and pivoted from textile business to defence/aerospace manufacturing",
+        "year": "2020",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Nibe produces jet deflectors, MRSAM cassettes, modular bridges, short span bridges and other logistical defence equipment",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Nibe Defence and Aerospace subsidiary involved in machining, fabrication, welding of logistical equipment",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "11 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "Medium",
+        "note": "0 official, 7 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What was Nibe Limited's former name?",
+      "answer": "Nibe Limited (formerly Kavita Fabrics Limited) is an India-based defence and aerospace manufacturing company incorporated on 18 October 2005 as a private textile company in Gujarat, and renamed Nibe Limited in July 2020 after pivoting to defence and aerospace manufacturing.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When was Nibe Limited incorporated?",
+      "answer": "Nibe Limited (formerly Kavita Fabrics Limited) is an India-based defence and aerospace manufacturing company incorporated on 18 October 2005 as a private textile company in Gujarat, and renamed Nibe Limited in July 2020 after pivoting to defence and aerospace manufacturing.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "On which stock exchanges is Nibe Limited listed?",
+      "answer": "Nibe Limited (formerly Kavita Fabrics Limited) is an India-based defence and aerospace manufacturing company incorporated on 18 October 2005 as a private textile company in Gujarat, and renamed Nibe Limited in July 2020 after pivoting to defence and aerospace manufacturing.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the value of Nibe Limited's May 2025 Israeli export order for rocket launchers?",
+      "answer": "Nibe secured a USD 17.52 million export order from an Israeli technology firm for rocket launchers (May 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is Nibe Space Private Limited and when was it established?",
+      "answer": "Nibe has established a new subsidiary Nibe Space Private Limited (76% stake, 2024) for research in space/launch technologies.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What defence components does Nibe Limited manufacture?",
+      "answer": "Nibe Limited (formerly Kavita Fabrics Limited) is an India-based defence and aerospace manufacturing company incorporated on 18 October 2005 as a private textile company in Gujarat, and renamed Nibe Limited in July 2020 after pivoting to defence and aerospace manufacturing.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Nibe Limited — defence manufacturing firm creating critical systems and components to strengthen India's self-reliance in defence production; Pune",
+      "publisher": "Nibe Limited Official",
+      "url": "https://nibelimited.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "NIBE Limited — defence and aerospace technology company headquartered in Pune, India; listed on BSE and NSE",
+      "publisher": "InvestorStack",
+      "url": "https://www.investorstack.in/company/bse-nibe",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "NIBE Defence and Aerospace Limited — registered address Plot No. E-2/2 Phase III MIDC Nanekarwadi Chakan Pune Khed Maharashtra 410501; manufacturer of defence electronics, small arms, aerospace system",
+      "publisher": "Tracxn",
+      "url": "https://tracxn.com/d/legal-entities/india/nibe-defence-and-aerospace-limited/__Q9cUZpWpjbA-7ZpYvIOXwFVScsHumwZNXIlRo7AEwqM",
+      "published_date": "2026-07-19",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Nibe produces jet deflectors for missile systems and aircraft; MRSAM cassettes; established Nibe Space Pvt Ltd subsidiary with 76% stake for space research",
+      "publisher": "ValuePickr Forum",
+      "url": "https://forum.valuepickr.com/t/nibe-ltd-manufacturing-of-critical-components-in-defence-industry/150190",
+      "published_date": "2024-07-06",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "Nibe Limited received USD 17.52 million export order for rocket launchers (24 May 2025); manufacturing company in defence and aerospace sectors",
+      "publisher": "Machinist.in",
+      "url": "https://machinist.in/2025/05/nibe-limited-receives-usd-17-52-million-order-for-rocket-launchers",
+      "published_date": "2025-05-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Nibe Ltd formerly Kavita Fabrics Ltd — transitioned from textile business to defence, aerospace and electric vehicles (21 Sept 2024)",
+      "publisher": "Dr Vijay Malik",
+      "url": "https://www.drvijaymalik.com/nibe",
+      "published_date": "2024-09-21",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Nibe Limited formerly Kavita Fabrics Limited incorporated in 2005 as Private Company; engaged in Fabrication & Machining of defence components",
+      "publisher": "India Infoline",
+      "url": "https://www.indiainfoline.com/company/nibe-ltd/summary",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Nibe Limited — formerly Kavita Fabrics Limited; changed name to Nibe Limited in July 2020; incorporated in 2005",
+      "publisher": "Investing.com",
+      "url": "https://www.investing.com/equities/kavita-fabrics-bo-company-profile",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "NIBE Ltd — incorporated as Kavita Fabrics Private Limited on October 18, 2005 under Companies Act (Registration No. U17110GJ2005PTC46929); market cap ₹2,148.55 Cr",
+      "publisher": "Sharekhan",
+      "url": "https://www.sharekhan.com/stock/nibe-ltd",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "NIBE Limited — Indian defence manufacturer — secured USD 17.52 million export order from Israeli technology firm",
+      "publisher": "Projects Today (Facebook)",
+      "url": "https://www.facebook.com/ProjectsToday/posts/nibe-a-pioneering-indian-manufacturer-of-critical-defence-systems-has-bagged-an-/1243957904407792",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "NIBE Defence and Aerospace involved in machining, fabrication, welding of logistical equipment including Modular Bridge and Short Span Bridge",
+      "publisher": "LinkedIn",
+      "url": "https://in.linkedin.com/company/nibe-limited-com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Nibe Ltd (formerly Kavita Fabrics Ltd) — NIBE Enterprises defence arm — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Nibe Ltd (formerly Kavita Fabrics Ltd) — NIBE Enterprises defence arm company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/nibe-ltd-mfr-092/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/nibe-ltd-mfr-092/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

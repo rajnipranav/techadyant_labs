@@ -1,0 +1,349 @@
+{
+  "entity_id": "atl-cmp-mazagon-dock-shipbuilders-limited",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "mazagon-dock-shipbuilders-limited",
+  "name": "Mazagon Dock Shipbuilders Limited (MDL)",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/mazagon-dock-shipbuilders-limited/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "MDL is India's premier defence shipyard, building destroyers, frigates, submarines and offshore patrol vessels for the Indian Navy. Major programmes include: Project 75 (6 Scorpène-class submarines wi",
+    "chips": [
+      "defence",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Mumbai, Maharashtra, India (Mazagon Dock)",
+    "Type": "Company (listed)",
+    "Founded": "1934 (as a private limited company; nationalised 1960); Schedule 'A' CPSE under MoD; Miniratna Category-I",
+    "India entity": null,
+    "Listed": "NSE: MAZDOCK | BSE: 543237 (IPO Oct 12, 2020; issue size ₹443.69 Cr)",
+    "Key India role": "MDL is India's premier defence shipyard, building destroyers, frigates, submarines and offshore patrol vessels for the Indian Navy. Major programmes include: Project 75 (6 Scorpène-class submarines wi"
+  },
+  "what_it_is": {
+    "prose": "MDL is India's premier defence shipyard, building destroyers, frigates, submarines and offshore patrol vessels for the Indian Navy. Major programmes include: Project 75 (6 Scorpène-class submarines with Naval Group France — INS Kalvari through INS Vaghsheer, last delivered Dec 2024); Project 15B (4 Visakhapatnam-class stealth guided-missile destroyers — INS Visakhapatnam commissioned Nov 2021, INS Mormugao Dec 2022, INS Imphal Dec 2023, INS Surat Jan 2025); and Project 17A (3 of 7 Nilgiri-class stealth frigates built at MDL — INS Nilgiri delivered Dec 2024, INS Himgiri delivered Aug 2025). MDL has built 801 vessels since 1960. The Navy is considering procuring three additional Kalvari-class / P-75I-upgraded submarines (Jun 2026).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "3 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Project 75 — Kalvari-class (Scorpène) submarines",
+        "role": "OEM",
+        "india_status": "6 diesel-electric attack submarines built at MDL under transfer of technology from Naval Group (France). INS Kalvari commissioned Dec 2017; INS Vaghsheer (6th) delivered Dec 2024. Navy considering 3 additional subs based on P-75I / upgraded Kalvari tech",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Project 15B — Visakhapatnam-class stealth destroyers",
+        "role": "OEM",
+        "india_status": "4 destroyers (7,300 t displacement, 163 m length). INS Visakhapatnam commissioned Nov 2021; INS Mormugao Dec 2022; INS Imphal (D68) Dec 2023; INS Surat commissioned Jan 15, 2025 — final ship of class",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Project 17A — Nilgiri-class stealth frigates (MDL portion)",
+        "role": "OEM",
+        "india_status": "MDL building 3 of 7 Nilgiri-class (Project 17A) frigates. INS Nilgiri delivered Dec 2024; INS Himgiri delivered Aug 2025; INS Dunagiri (3rd MDL) launched. Remaining 4 built at GRSE. Displacement ~6,670 t, 149 m length, Shakti EW system",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "3 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Project 75 — 6 Scorpène-class submarines delivered",
+        "year": "2017-2024",
+        "quantity_or_note": "6 submarines",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Project 15B — 4 Visakhapatnam-class destroyers commissioned",
+        "year": "2021-2025",
+        "quantity_or_note": "4 destroyers (INS Visakhapatnam, Mormugao, Imphal, Surat)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Project 17A — 3 Nilgiri-class frigates delivered by MDL",
+        "year": "2024-2025",
+        "quantity_or_note": "3 (Nilgiri, Himgiri + 1 launched)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "10 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "3 official, 6 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When did MDL list on the stock exchanges (IPO date)?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "How many Scorpène-class submarines has MDL built under Project 75?",
+      "answer": "Major programmes include: Project 75 (6 Scorpène-class submarines with Naval Group France — INS Kalvari through INS Vaghsheer, last delivered Dec 2024); Project 15B (4 Visakhapatnam-class stealth guided-missile destroyers — INS Visakhapatnam commissioned Nov 2021, INS Mormugao Dec 2022, INS Imphal Dec 2023, INS Surat Jan 2025); and Project 17A (3 of 7 Nilgiri-class stealth frigates built at MDL — INS Nilgiri delivered Dec 2024, INS Himgiri delivered Aug 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When was INS Surat, the last Visakhapatnam-class destroyer, commissioned?",
+      "answer": "Major programmes include: Project 75 (6 Scorpène-class submarines with Naval Group France — INS Kalvari through INS Vaghsheer, last delivered Dec 2024); Project 15B (4 Visakhapatnam-class stealth guided-missile destroyers — INS Visakhapatnam commissioned Nov 2021, INS Mormugao Dec 2022, INS Imphal Dec 2023, INS Surat Jan 2025); and Project 17A (3 of 7 Nilgiri-class stealth frigates built at MDL — INS Nilgiri delivered Dec 2024, INS Himgiri delivered Aug 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which shipyard built the Kalvari-class submarines?",
+      "answer": "Major programmes include: Project 75 (6 Scorpène-class submarines with Naval Group France — INS Kalvari through INS Vaghsheer, last delivered Dec 2024); Project 15B (4 Visakhapatnam-class stealth guided-missile destroyers — INS Visakhapatnam commissioned Nov 2021, INS Mormugao Dec 2022, INS Imphal Dec 2023, INS Surat Jan 2025); and Project 17A (3 of 7 Nilgiri-class stealth frigates built at MDL — INS Nilgiri delivered Dec 2024, INS Himgiri delivered Aug 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "How many Nilgiri-class frigates is MDL building under Project 17A?",
+      "answer": "Major programmes include: Project 75 (6 Scorpène-class submarines with Naval Group France — INS Kalvari through INS Vaghsheer, last delivered Dec 2024); Project 15B (4 Visakhapatnam-class stealth guided-missile destroyers — INS Visakhapatnam commissioned Nov 2021, INS Mormugao Dec 2022, INS Imphal Dec 2023, INS Surat Jan 2025); and Project 17A (3 of 7 Nilgiri-class stealth frigates built at MDL — INS Nilgiri delivered Dec 2024, INS Himgiri delivered Aug 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://mazagondock.in",
+      "publisher": "MDL Official",
+      "url": "https://mazagondock.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.screener.in/company/MAZDOCK/consolidated",
+      "publisher": "Screener.in",
+      "url": "https://www.screener.in/company/MAZDOCK/consolidated",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://en.wikipedia.org/wiki/Mazagon_Dock_Shipbuilders_Limited",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mazagon_Dock_Shipbuilders_Limited",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://en.wikipedia.org/wiki/Project-75_(India)_submarine_acquisition_project",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Project-75_(India)_submarine_acquisition_project",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://en.wikipedia.org/wiki/Kalvari-class_submarine_(2015)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kalvari-class_submarine_(2015)",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://en.wikipedia.org/wiki/Visakhapatnam-class_destroyer",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Visakhapatnam-class_destroyer",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1893036",
+      "publisher": "PIB India",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1893036",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1969358",
+      "publisher": "PIB India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1969358",
+      "published_date": "Oct 20, 2023",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086668&reg=48&lang=2",
+      "publisher": "PIB India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086668&reg=48&lang=2",
+      "published_date": "Dec 20, 2024",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "https://idsa.in/publisher/issuebrief/the-p-75i-saga-and-indias-submarine-building-journey",
+      "publisher": "IDSA",
+      "url": "https://idsa.in/publisher/issuebrief/the-p-75i-saga-and-indias-submarine-building-journey",
+      "published_date": "Mar 12, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Mazagon Dock Shipbuilders Limited (MDL) — Company · India Defence Atlas | Techadyant",
+    "meta_description": "Mazagon Dock Shipbuilders Limited (MDL) company dossier: India defence role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/pillars/defence/entity/mazagon-dock-shipbuilders-limited/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/mazagon-dock-shipbuilders-limited/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

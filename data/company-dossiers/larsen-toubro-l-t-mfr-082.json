@@ -1,0 +1,497 @@
+{
+  "entity_id": "atl-cmp-larsen-toubro-l-t-mfr-082",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "larsen-toubro-l-t-mfr-082",
+  "name": "Larsen & Toubro (L&T) Defence",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/larsen-toubro-l-t-mfr-082/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Larsen & Toubro (L&T) is an Indian multinational EPC and hi-tech manufacturing conglomerate, founded on 7 February 1946 in Mumbai. Its defence arm — operating through L&T Precision Engineering & Syste",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Mumbai, Maharashtra, India (L&T House, N.M. Marg, Ballard Estate); defence manufacturing at Hazira (Gujarat), Talegaon (Maharashtra), Kattupalli (Tamil Nadu)",
+    "Type": "Manufacturer (listed)",
+    "Founded": "7 February 1946 (incorporated as Larsen & Toubro Limited; founders Henning Holck-Larsen and Søren Kristian Toubro established predecessor partnership in 1938)",
+    "India entity": null,
+    "Listed": "Listed — NSE:LT / BSE:500510 (Larsen & Toubro Limited); L&T Precision Engineering & Systems Ltd (LTPES) is the unlisted defence arm",
+    "Key India role": "Larsen & Toubro (L&T) is an Indian multinational EPC and hi-tech manufacturing conglomerate, founded on 7 February 1946 in Mumbai. Its defence arm — operating through L&T Precision Engineering & Syste"
+  },
+  "what_it_is": {
+    "prose": "Larsen & Toubro (L&T) is an Indian multinational EPC and hi-tech manufacturing conglomerate, founded on 7 February 1946 in Mumbai. Its defence arm — operating through L&T Precision Engineering & Systems Ltd (LTPES) and L&T Defence — is one of India's largest private-sector defence manufacturers. Land systems flagship: K9 Vajra-T 155mm/52 calibre tracked self-propelled howitzer (license-built with South Korea's Hanwha Aerospace) — original ₹4,500 Cr contract for 100 units (2017); second ₹7,629 Cr contract signed 23 December 2024 for ~100 additional units; Indian Army planning 300 more K9 Vajra-T (~$2.75B / ₹23,000 Cr) reported June 2026, which would push fleet past 500 systems. L&T is the largest supplier of missile canisters to BrahMos Aerospace and manufactures 50-100 missile launchers per year for Pinaka and MR-SAM programmes; developed the Quadruple Canisterized Inclined Launcher (Quad Launcher) for BrahMos missiles on Indian Navy surface warships (announced May 2018). At Hazira, L&T constructs submarine hulls (including for Arihant-class SSBN programme) and special alloy forgings for defence applications. In naval programmes, L&T entered a teaming agreement with Spain's Navantia for Project-75(I) submarine programme (July 2023, project value >€4.8B) — but the L&T-Navantia bid was eliminated in January 2025 for not meeting Indian Navy technical parameters, with Mazagon Dock-ThyssenKrupp Marine Systems (TKMS) emerging as sole compliant bidder.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "8 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "K9 Vajra-T 155mm/52 calibre tracked self-propelled howitzer (with Hanwha Aerospace; original ₹4,500 Cr contract 2017 for 100 units; second ₹7,629 Cr contract Dec 2024 for ~100 more)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "BrahMos Quadruple Canisterized Inclined Launcher (Quad Launcher) for Indian Navy surface warships (May 2018)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "BrahMos missile canisters",
+        "role": "OEM",
+        "india_status": "L&T is the largest supplier of canisters to BrahMos Aerospace",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Pinaka multi-barrel rocket launcher systems and MR-SAM missile launchers (50-100 per year)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Submarine hulls at Hazira facility (Arihant-class SSBN programme)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Special alloy forgings for defence applications (Hazira)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "WhAP 8x8 wheeled armoured fighting vehicle (showcased at DefExpo 2022)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Project-75(I) submarine",
+        "role": "OEM",
+        "india_status": "partnered with Navantia (Spain) under teaming agreement July 2023 (eliminated Jan 2025)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "7 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "L&T delivered 51 K9 Vajra-T self-propelled howitzers to Indian Army by January 2020 (per Army Technology)",
+        "year": "2020",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "MoD signed ₹7,629 crore contract with L&T on 23 December 2024 for additional K9 Vajra-T 155mm/52 calibre tracked SP howitzers (designated K-9 Vajra-T)",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Indian Army planning 300+ additional K9 Vajra-T howitzers in ~$2.75 billion / ₹23,000 crore deal reported June 2026 — would push fleet past 500 systems",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "L&T Defence to produce Quad Launcher for BRAHMOS missiles on Indian Navy surface warships — announced 18 May 2018",
+        "year": "2018",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "L&T-Navantia teaming agreement signed 10 July 2023 for Project-75(I) submarine programme (project value >€4.8B) — eliminated January 2025 for not meeting technical parameters",
+        "year": "2023",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "L&T is the silent backbone of India's missile launcher ecosystem — 50-100 missile launchers per year for Pinaka and MR-SAM; largest supplier of canisters for BrahMos",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Hazira facility constructs submarine hulls (incl. Arihant-class SSBN) and special alloy forgings for defence applications",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "14 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "4 official, 7 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Larsen & Toubro founded?",
+      "answer": "Larsen & Toubro (L&T) is an Indian multinational EPC and hi-tech manufacturing conglomerate, founded on 7 February 1946 in Mumbai.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "On which stock exchange is L&T listed?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which Indian private company manufactures the K9 Vajra-T self-propelled howitzer?",
+      "answer": "Land systems flagship: K9 Vajra-T 155mm/52 calibre tracked self-propelled howitzer (license-built with South Korea's Hanwha Aerospace) — original ₹4,500 Cr contract for 100 units (2017); second ₹7,629 Cr contract signed 23 December 2024 for ~100 additional units; Indian Army planning 300 more K9 Vajra-T (~$2.75B / ₹23,000 Cr) reported June 2026, which would push fleet past 500 systems.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the value of the December 2024 L&T contract for K9 Vajra-T howitzers?",
+      "answer": "Land systems flagship: K9 Vajra-T 155mm/52 calibre tracked self-propelled howitzer (license-built with South Korea's Hanwha Aerospace) — original ₹4,500 Cr contract for 100 units (2017); second ₹7,629 Cr contract signed 23 December 2024 for ~100 additional units; Indian Army planning 300 more K9 Vajra-T (~$2.75B / ₹23,000 Cr) reported June 2026, which would push fleet past 500 systems.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which launcher did L&T develop for BrahMos missiles on Indian Navy ships?",
+      "answer": "L&T is the largest supplier of missile canisters to BrahMos Aerospace and manufactures 50-100 missile launchers per year for Pinaka and MR-SAM programmes; developed the Quadruple Canisterized Inclined Launcher (Quad Launcher) for BrahMos missiles on Indian Navy surface warships (announced May 2018).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What was L&T's role in the Project-75(I) submarine competition?",
+      "answer": "In naval programmes, L&T entered a teaming agreement with Spain's Navantia for Project-75(I) submarine programme (July 2023, project value >€4.8B) — but the L&T-Navantia bid was eliminated in January 2025 for not meeting Indian Navy technical parameters, with Mazagon Dock-ThyssenKrupp Marine Systems (TKMS) emerging as sole compliant bidder.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "MoD awarded L&T a major contract for supply of K9 Vajra-T 155mm/52 calibre tracked SP howitzers on 23 December 2024",
+      "publisher": "L&T Official",
+      "url": "https://www.larsentoubro.com/pressreleases/2024-12-23-lt-precision-engineering-systems-wins-major-order-for-k9-vajra-t-artillery-platforms",
+      "published_date": "2024-12-23",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "MoD inks ₹7,629 crore contract with L&T for K9 Vajra-T tracked SP howitzers",
+      "publisher": "Ajai Shukla Blog",
+      "url": "https://www.ajaishukla.com/2024/12/mod-inks-rs-7629-crore-contract-with-l.html",
+      "published_date": "2024-12-21",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "L&T delivered 51 self-propelled howitzers to Indian Army by January 2020; original ₹4,500 crore contract from MoD for 100 K9 Vajra-T",
+      "publisher": "Army Technology",
+      "url": "https://www.army-technology.com/news/lt-self-propelled-howitzers-indian-army",
+      "published_date": "2020-01-17",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "India plans to buy 300+ more K9 Vajra-T howitzers in ~$2.75B / ₹23,000 Cr deal (June 2026) — would push fleet past 500 systems",
+      "publisher": "Defence UA",
+      "url": "https://en.defence-ua.com/industries/india_plans_to_buy_300_more_k9_vajra_t_howitzers_in_275bn_deal_pushing_its_fleet_past_500_systems-18794.html",
+      "published_date": "2026-06-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "L&T Defence to produce Quad Launcher for BRAHMOS missiles — designed for inclined launch configuration on Indian Navy surface warships (18 May 2018)",
+      "publisher": "L&T Official (News & Views)",
+      "url": "https://newsnviews.larsentoubro.com/Lists/Posts/Post.aspx?ID=242",
+      "published_date": "2018-05-18",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "L&T developed Quadruple Canisterized Inclined Launcher for BrahMos missile to be installed on Indian Navy surface warships",
+      "publisher": "The Diplomat",
+      "url": "https://thediplomat.com/2018/07/india-expands-brahmos-supersonic-missile-production",
+      "published_date": "2018-07-11",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "L&T and Navantia sign teaming agreement for Project-75 India submarine programme (10 July 2023); project valued at over €4.8 billion — India's largest defence acquisition project",
+      "publisher": "L&T Official",
+      "url": "https://www.larsentoubro.com/pressreleases/2023/2023-07-10-lt-and-navantia-sign-a-teaming-agreement-for-project-75-india-submarine-program",
+      "published_date": "2023-07-10",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "L&T-Navantia out, Mazagon Dock-ThyssenKrupp likely to land ₹70,000 Cr P75I submarine deal (24 Jan 2025)",
+      "publisher": "Indian Express",
+      "url": "https://indianexpress.com/article/cities/bangalore/lt-navantia-out-mazagon-thyssenkrupp-likely-to-land-rs-70k-crore-submarine-deal-9795974",
+      "published_date": "2025-01-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "L&T-Navantia formally eliminated in January 2025 from P75I — MDL-TKMS sole compliant bidder",
+      "publisher": "Army Recognition",
+      "url": "https://www.armyrecognition.com/news/navy-news/2026/india-project-75i-submarine-deal-70000-crore-ccs-approval",
+      "published_date": "2026-08-19",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "L&T is manufacturing 50-100 missile launchers per year for Pinaka and MR-SAM; largest supplier of canisters for BrahMos",
+      "publisher": "Indian Defence Time",
+      "url": "https://www.facebook.com/indiandefencetime/posts/lt-has-become-the-silent-backbone-of-indias-missile-launcher-ecosystem-supportin/999827506282052",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "L&T Defence Hazira site involved in construction of submarine hulls, special alloys forgings for defence applications",
+      "publisher": "DefStrat",
+      "url": "https://www.defstrat.com/news/lt-to-showcase-8x8-wheeled-armoured-fighting-vehicle-at-defexpo-2022",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "K9 Vajra-T: 155mm/52 cal. tracked SP gun — LTPES land platforms artillery systems",
+      "publisher": "L&T Precision Engineering & Systems (LTPES) Official",
+      "url": "https://www.lntpes.com/our-offerings/land-platforms-equipment-and-systems/land-platforms/artillery-systems",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "L&T Limited founded 7 February 1946; HQ Mumbai; Indian multinational conglomerate",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Larsen_%26_Toubro",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-14",
+      "title": "Larsen & Toubro Limited CIN L99999MH1946PLC004768; L&T House, N.M. Marg, Ballard Estate, Mumbai 400 001",
+      "publisher": "L&T Corporate",
+      "url": "https://www.larsentoubro.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    }
+  ],
+  "seo": {
+    "title": "Larsen & Toubro (L&T) Defence — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Larsen & Toubro (L&T) Defence company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/larsen-toubro-l-t-mfr-082/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/larsen-toubro-l-t-mfr-082/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

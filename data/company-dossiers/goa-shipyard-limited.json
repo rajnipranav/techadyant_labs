@@ -1,0 +1,370 @@
+{
+  "entity_id": "atl-cmp-goa-shipyard-limited",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "goa-shipyard-limited",
+  "name": "Goa Shipyard Limited (GSL)",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/goa-shipyard-limited/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "GSL is a Goan defence shipyard specialising in Offshore Patrol Vessels (OPVs), Fast Patrol Vessels (FPVs), Mine Counter-Measure Vessels (MCMVs), and auxiliary ships for the Indian Navy and Indian Coas",
+    "chips": [
+      "defence",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Vasco da Gama, Goa, India (West Coast)",
+    "Type": "Company (listed)",
+    "Founded": "1957 (as Estaleiros Navais de Goa by Portuguese colonial administration; nationalised post-1961 liberation)",
+    "India entity": null,
+    "Listed": "Not listed — Schedule 'B' Miniratna Category-I CPSE under Ministry of Defence",
+    "Key India role": "GSL is a Goan defence shipyard specialising in Offshore Patrol Vessels (OPVs), Fast Patrol Vessels (FPVs), Mine Counter-Measure Vessels (MCMVs), and auxiliary ships for the Indian Navy and Indian Coas"
+  },
+  "what_it_is": {
+    "prose": "GSL is a Goan defence shipyard specialising in Offshore Patrol Vessels (OPVs), Fast Patrol Vessels (FPVs), Mine Counter-Measure Vessels (MCMVs), and auxiliary ships for the Indian Navy and Indian Coast Guard. The yard has built 200+ ships in 56+ years. Major programmes: 5 Sankalp-class Advanced Offshore Patrol Vessels (AOPVs, last delivered Oct 2021); 8 Adamya-class Fast Patrol Vessels for the Indian Coast Guard (lead ship 'Adamya' inducted; 7th FPV delivered Aug 25, 2026); 11 Next Generation Offshore Patrol Vessels (NGOPVs) split with GRSE — lead ship 'Shachi' launched at GSL Mar 31, 2026; MCMV project (12 vessels, ~₹32,000 Cr) awarded by MoD.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Next Generation Offshore Patrol Vessels (NGOPVs) — Shachi class",
+        "role": "OEM",
+        "india_status": "11 NGOPVs split between GSL and GRSE. Lead ship 'Shachi' launched at GSL Mar 31, 2026. Designed for coastal defence, surveillance, SAR, protection of offshore assets, mine warfare",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Adamya-class Fast Patrol Vessels (FPVs)",
+        "role": "OEM",
+        "india_status": "8 FPVs being built for Indian Coast Guard. Lead ship 'Adamya' inducted; 7th FPV delivered Aug 25, 2026. 60% indigenous content, 35 knots, 50 m waterjet-propulsion",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Sankalp-class Advanced Offshore Patrol Vessels (AOPVs)",
+        "role": "OEM",
+        "india_status": "5 AOPVs delivered to Indian Coast Guard (final 4th Sankalp-class delivered Oct 2021); 24 knots top speed, 6,500 nm range, armed with 2x 30 mm CRN-91 naval guns",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Mine Counter-Measure Vessels (MCMVs)",
+        "role": "OEM",
+        "india_status": "12 MCMVs ordered by MoD (~₹32,000 Cr). GSL to build vessels capable of locating, classifying, sweeping and neutralising all types of ground/moored/drift mines",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "3 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Navy / Indian Coast Guard",
+        "context": "NGOPV 'Shachi' launch",
+        "year": "Mar 31, 2026",
+        "quantity_or_note": "1 of 11 NGOPVs (lead ship)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Coast Guard",
+        "context": "Adamya-class FPV — 7th vessel delivered",
+        "year": "Aug 25, 2026",
+        "quantity_or_note": "7 of 8 FPVs",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Coast Guard",
+        "context": "4th Sankalp-class AOPV delivery",
+        "year": "Oct 14, 2021",
+        "quantity_or_note": "1 of 5",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "11 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "4 official, 6 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Goa Shipyard founded?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Is GSL listed on the stock exchange?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the name of the first Next Generation Offshore Patrol Vessel launched by GSL?",
+      "answer": "Major programmes: 5 Sankalp-class Advanced Offshore Patrol Vessels (AOPVs, last delivered Oct 2021); 8 Adamya-class Fast Patrol Vessels for the Indian Coast Guard (lead ship 'Adamya' inducted; 7th FPV delivered Aug 25, 2026); 11 Next Generation Offshore Patrol Vessels (NGOPVs) split with GRSE — lead ship 'Shachi' launched at GSL Mar 31, 2026; MCMV project (12 vessels, ~₹32,000 Cr) awarded by MoD.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "How many MCMVs (Mine Counter-Measure Vessels) is GSL building for the Indian Navy?",
+      "answer": "GSL is a Goan defence shipyard specialising in Offshore Patrol Vessels (OPVs), Fast Patrol Vessels (FPVs), Mine Counter-Measure Vessels (MCMVs), and auxiliary ships for the Indian Navy and Indian Coast Guard.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which class of Fast Patrol Vessels is GSL building for the Indian Coast Guard?",
+      "answer": "Major programmes: 5 Sankalp-class Advanced Offshore Patrol Vessels (AOPVs, last delivered Oct 2021); 8 Adamya-class Fast Patrol Vessels for the Indian Coast Guard (lead ship 'Adamya' inducted; 7th FPV delivered Aug 25, 2026); 11 Next Generation Offshore Patrol Vessels (NGOPVs) split with GRSE — lead ship 'Shachi' launched at GSL Mar 31, 2026; MCMV project (12 vessels, ~₹32,000 Cr) awarded by MoD.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://goashipyard.in",
+      "publisher": "GSL Official",
+      "url": "https://goashipyard.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://goashipyard.in/about-us/history",
+      "publisher": "GSL",
+      "url": "https://goashipyard.in/about-us/history",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://goashipyard.in/products/product-history",
+      "publisher": "GSL",
+      "url": "https://goashipyard.in/products/product-history",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://goashipyard.in/products/mine-counter-measure-vessel-mcmv",
+      "publisher": "GSL",
+      "url": "https://goashipyard.in/products/mine-counter-measure-vessel-mcmv",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://goashipyard.in/products/35-knots-50m-fast-patrol-vessel-fpv-waterjet-propulsion",
+      "publisher": "GSL",
+      "url": "https://goashipyard.in/products/35-knots-50m-fast-patrol-vessel-fpv-waterjet-propulsion",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://en.wikipedia.org/wiki/Goa_Shipyard",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Goa_Shipyard",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://en.wikipedia.org/wiki/Adamya-class_patrol_vessel",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adamya-class_patrol_vessel",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://en.wikipedia.org/wiki/Shachi-class_patrol_vessel_(2026)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shachi-class_patrol_vessel_(2026)",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.bairdmaritime.com/security/non-naval-security/coast-guard/indian-coast-guard-takes-delivery-of-seventh-adamya-class-patrol-vessel",
+      "publisher": "Baird Maritime",
+      "url": "https://www.bairdmaritime.com/security/non-naval-security/coast-guard/indian-coast-guard-takes-delivery-of-seventh-adamya-class-patrol-vessel",
+      "published_date": "Aug 26, 2026",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.globaldefensecorp.com/2021/10/14/goa-shipyard-delivers-fourth-sankalp-class-offshore-patrol-vessel-opv",
+      "publisher": "Global Defense Corp",
+      "url": "https://www.globaldefensecorp.com/2021/10/14/goa-shipyard-delivers-fourth-sankalp-class-offshore-patrol-vessel-opv",
+      "published_date": "Oct 14, 2021",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "https://m.economictimes.com/news/defence/goa-shipyard-looks-at-building-offshore-patrol-vessels-armed-with-missiles/articleshow/47817973.cms",
+      "publisher": "Economic Times",
+      "url": "https://m.economictimes.com/news/defence/goa-shipyard-looks-at-building-offshore-patrol-vessels-armed-with-missiles/articleshow/47817973.cms",
+      "published_date": "Jul 14, 2018",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Goa Shipyard Limited (GSL) — Company · India Defence Atlas | Techadyant",
+    "meta_description": "Goa Shipyard Limited (GSL) company dossier: India defence role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/pillars/defence/entity/goa-shipyard-limited/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/goa-shipyard-limited/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

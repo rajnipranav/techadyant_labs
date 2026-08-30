@@ -1,0 +1,386 @@
+{
+  "entity_id": "mfg-003",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "zen-technologies-mfg-003",
+  "name": "Zen Technologies Limited",
+  "variant": "Listed BSE/NSE",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Hyderabad-listed defence OEM; FY26 revenue ₹688 crore, order book ₹1,336 crore; maker of Zen Anti-Drone System (ZADS) and India's largest defence training simulator portfolio.",
+    "chips": [
+      "Listed",
+      "BSE/NSE",
+      "Counter-UAS",
+      "Simulators",
+      "RCWS",
+      "Anti-drone"
+    ],
+    "maker": "Publicly listed (BSE: 533339, NSE: ZENTEC)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "AS9100D / ISO 27001 / CMMI Level 5 certified; ~90%+ indigenous on simulators; EO/IR and RF SDR imported",
+    "mobility_or_class": "Defence electronics OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "air",
+      "civilian"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Zen Technologies Limited",
+    "Stock_listings": "BSE: 533339, NSE: ZENTEC",
+    "HQ": "Hyderabad, Telangana, India",
+    "Order_book": "₹1,336 crore as of 31 March 2026 (≈2x FY26 revenue)",
+    "Q1_FY27_order_book": "₹1,239.02 crore as of 30 June 2026 (₹920.6 cr equipment + ₹318.4 cr AMC)",
+    "Revenue_FY26": "₹687.7 crore (−29.4% YoY)",
+    "Q1_FY27_revenue": "₹141.64 crore (−10% YoY)",
+    "Q1_FY27_PAT": "₹32 crore (−40% YoY)",
+    "Certifications": "AS9100D, ISO/IEC 27001, CMMI Maturity Level 5"
+  },
+  "what_it_is": {
+    "prose": "Zen Technologies Limited is a Hyderabad-headquartered, BSE/NSE-listed defence OEM founded in 1993. The company operates two principal product lines: counter-UAS (the Zen Anti-Drone System / ZADS — Atlas slug cus-003) and defence training simulators (the largest portfolio of its kind in India, including the Armoured Combat Training Simulator, Live Ranges, and Live & Virtual Simulation systems). Zen also produces a family of Remote Controlled Weapon Stations (RCWS) — Parashu (7.62x51 MMG), Fanish (12.7x108 HMG tank-mounted), Sharur (12.7x99 naval), Prahasta, Hawkeye, and Durgam rugged camera. The company is AS9100D, ISO/IEC 27001, and CMMI Maturity Level 5 certified, with a US subsidiary (Zen Technologies USA Inc). For FY26, Zen reported revenue of ₹687.7 crore (down 29.4% year-on-year) and a closing order book of ₹1,336 crore (approximately 2x FY26 revenue, giving 3-4 years revenue visibility). Q1 FY27 order book was ₹1,239.02 crore as of 30 June 2026. The ZADS platform entered Indian Air Force service in 2021 and has since received multiple follow-on contracts including a ₹289 crore counter-drone contract in November 2025 and a ₹404 crore defence orders package in January 2026 (of which ₹332 crore was for anti-drone systems and ₹72 crore for simulators).",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-5",
+      "src-6"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Zen Technologies' counter-drone business is anchored by recurring Ministry of Defence orders. The first ZADS order was placed by the Indian Air Force in 2021 as part of more than ₹300 crore in armed forces orders. A follow-on procurement order from the Ministry of Defence was placed in September 2023. The Indian Army's Army Air Defence College at Gopalpur received hard-kill variants from mid-2024. A ₹289 crore counter-drone contract was signed in November 2025, followed by a ₹404 crore defence orders package in January 2026 (₹332 crore anti-drone + ₹72 crore simulators). The Q1 FY27 NSE IPCL filing dated 26 July 2026 reported an order book of ₹1,239.02 crore.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "First ZADS order",
+        "year": 2021,
+        "quantity_or_note": "Part of >₹300 crore armed forces orders",
+        "sources": [
+          "src-8"
+        ]
+      },
+      {
+        "agency": "Ministry of Defence",
+        "context": "Follow-on procurement order",
+        "year": 2023,
+        "quantity_or_note": "September 2023",
+        "sources": [
+          "src-8"
+        ]
+      },
+      {
+        "agency": "Indian Army / Army Air Defence College, Gopalpur",
+        "context": "Hard-kill variants received",
+        "year": 2024,
+        "quantity_or_note": "Mid-2024",
+        "sources": [
+          "src-8"
+        ]
+      },
+      {
+        "agency": "Ministry of Defence",
+        "context": "Counter-drone contract",
+        "year": 2025,
+        "quantity_or_note": "₹289 crore (November 2025)",
+        "sources": [
+          "src-8"
+        ]
+      },
+      {
+        "agency": "Ministry of Defence",
+        "context": "Defence orders package (anti-drone + simulators)",
+        "year": 2026,
+        "quantity_or_note": "₹404 crore (January 2026)",
+        "sources": [
+          "src-6"
+        ]
+      }
+    ],
+    "open_questions": [
+      "'ZADS V3' label not confirmed by Zen primary sources — Atlas should use 'ZADS (current generation)' until vendor confirms version",
+      "Export order values split between simulator vs CUAS not disclosed in FY26 results",
+      "Indigenous content % not disclosed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Zen Technologies is AS9100D, ISO/IEC 27001, and CMMI Maturity Level 5 certified, with approximately 90%+ indigenous content on its simulator product line. For the ZADS counter-UAS platform specifically, the principal imported subsystems are EO/IR gimbals and thermal imaging cores (typically sourced from Teledyne FLIR, Controp, or SCD — USA / Israel / Belgium), RF detector SDR front-ends (Ettus / National Instruments / RTL-SDR — USA / Taiwan), and FPGA for signal processing (Xilinx / AMD — USA). The 12.7 mm heavy machine gun used in the kinetic hard-kill variant is a domestically-produced or licensed-pattern weapon.",
+    "items": [
+      {
+        "component": "EO/IR gimbals / thermal cores",
+        "severity": "Medium",
+        "note": "FLIR / Controp / SCD origin typical",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "RF detector SDR front-ends",
+        "severity": "Medium",
+        "note": "Ettus / NI / RTL-SDR",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "FPGA (Xilinx/AMD)",
+        "severity": "Medium",
+        "note": "Signal processing",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Kinetic effector (12.7 mm HMG)",
+        "severity": "Low",
+        "note": "Domestic / Russia / USA pattern depending on variant",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Indigenous design (ZADS, RCWS, simulators)",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Hyderabad facility",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "EO/IR + RF SDR + FPGA imported; mechanical/kinetic domestic",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 3,
+        "note": "₹1,336 cr order book FY26; Q1 FY27 ₹1,239 cr",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 3,
+        "note": "US subsidiary; simulator exports to friendly foreign countries",
+        "sources": [
+          "src-7"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "zen-anti-drone-system-zads-cus-003"
+    ],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "zen-anti-drone-system-zads-cus-003"
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1993",
+      "event": "Zen Technologies founded in Hyderabad",
+      "sources": [
+        "src-7"
+      ]
+    },
+    {
+      "date": "2021",
+      "event": "First ZADS order from Indian Air Force",
+      "sources": [
+        "src-8"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "Hard-kill variants delivered to Army Air Defence College, Gopalpur",
+      "sources": [
+        "src-8"
+      ]
+    },
+    {
+      "date": "2025-11",
+      "event": "₹289 crore counter-drone contract signed with MoD",
+      "sources": [
+        "src-8"
+      ]
+    },
+    {
+      "date": "2026-01",
+      "event": "₹404 crore defence orders package signed (₹332 cr anti-drone + ₹72 cr simulators)",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "event": "Q4 FY26 results — PAT down 69% YoY; shares tumble 11%",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "event": "NSE IPCL filing reports Q1 FY27 order book ₹1,239.02 crore",
+      "sources": [
+        "src-5"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why did Zen Technologies' FY26 revenue decline?",
+      "answer": "Zen Technologies reported FY26 revenue of ₹687.7 crore, down 29.4% year-on-year, with PAT also down 31% YoY. The Q4 FY26 results were particularly weak, with PAT plunging 69% YoY, causing shares to tumble 11% on 4 May 2026. The decline was attributed to revenue timing — large counter-drone orders booked in late FY26 (₹289 cr November 2025, ₹404 cr January 2026) had not yet converted to recognised revenue. The Q1 FY27 order book of ₹1,239 crore (≈2x FY26 revenue) signals recovery visibility.",
+      "sources": [
+        "src-6",
+        "src-5"
+      ]
+    },
+    {
+      "question": "What is Zen Technologies' product portfolio beyond ZADS?",
+      "answer": "Beyond the Zen Anti-Drone System (ZADS), Zen Technologies operates two other major product lines: defence training simulators (the largest portfolio of its kind in India, including the Armoured Combat Training Simulator, Live Ranges, and Live & Virtual Simulation systems) and a family of Remote Controlled Weapon Stations (RCWS) — Parashu (7.62x51 MMG), Fanish (12.7x108 HMG tank-mounted), Sharur (12.7x99 naval), Prahasta, Hawkeye, and Durgam rugged camera. The company is AS9100D, ISO/IEC 27001, and CMMI Maturity Level 5 certified.",
+      "sources": [
+        "src-7"
+      ]
+    },
+    {
+      "question": "What is Zen Technologies' relationship with the Indian armed forces?",
+      "answer": "Zen Technologies has been a long-standing supplier to the Indian armed forces since 1993. The company is the official trainer for Indian Army mechanised forces (Armoured Combat Training Simulator, Live Ranges, Live & Virtual Simulation) and the Indian Air Force (first ZADS order 2021). Zen also supplies the NSG with the Vajra Shot handheld anti-drone gun (a BBBS product, not Zen — correction: Zen's RCWS family includes Parashu, Fanish, Sharur, Prahasta, Hawkeye, and Durgam). The company is AS9100D, ISO/IEC 27001, and CMMI Maturity Level 5 certified, with a US subsidiary (Zen Technologies USA Inc).",
+      "sources": [
+        "src-7",
+        "src-8"
+      ]
+    }
+  ],
+  "open_questions": [
+    "'ZADS V3' label not confirmed by Zen primary sources",
+    "Export order values split between simulator vs CUAS not disclosed in FY26 results",
+    "Indigenous content % not disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Zen Technologies Annual Reports - Investors",
+      "publisher": "Zen Technologies Limited",
+      "url": "https://www.zentechnologies.com/annual-reports",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — Zen annual reports landing page; specific PDF deep-link not extracted"
+    },
+    {
+      "id": "src-2",
+      "title": "Zen Technologies Investors (33rd Annual Report 2025-26)",
+      "publisher": "Zen Technologies Limited",
+      "url": "https://www.zentechnologies.com/investors",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — Zen investors landing page"
+    },
+    {
+      "id": "src-3",
+      "title": "ZEN TECHNOLOGIES LIMITED (ZENTEC.NS) Q4 25/26 earnings call",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZENTEC.NS/earnings/ZENTEC.NS-Q4-2026-earnings_call-545763.html",
+      "published_date": "2026-05-04",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Q4 FY26 earnings call transcript"
+    },
+    {
+      "id": "src-4",
+      "title": "Zen Technologies Q1 FY27 slides",
+      "publisher": "Investing.com",
+      "url": "https://www.investing.com/news/company-news/zen-technologies-q1-fy27-slides-revenue-timing-weighs-on-results-93CH-4814052",
+      "published_date": "2026-07-27",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Q1 FY27 results commentary"
+    },
+    {
+      "id": "src-5",
+      "title": "Zen Technologies IPCL filing 26-Jul-2026",
+      "publisher": "NSE India",
+      "url": "https://nsearchives.nseindia.com/corporate/ZENTEC_26072026235400_IPCLSigned26072026.pdf",
+      "published_date": "2026-07-26",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Q1 FY27 order book ₹1,239.02 cr"
+    },
+    {
+      "id": "src-6",
+      "title": "Zen Technologies shares tumble 11% after Q4 profit plunges 69% YoY",
+      "publisher": "Economic Times",
+      "url": "https://m.economictimes.com/markets/stocks/news/zen-technologies-shares-tumble-11-after-q4-profit-plunges-69-yoy/articleshow/130748592.cms",
+      "published_date": "2026-05-04",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Q4 FY26 results + ₹404 cr Jan 2026 order"
+    },
+    {
+      "id": "src-7",
+      "title": "Zen Technologies Products",
+      "publisher": "Zen Technologies Limited",
+      "url": "https://www.zentechnologies.com/products",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — Zen products landing page"
+    },
+    {
+      "id": "src-8",
+      "title": "Zen Anti-Drone System",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zen_Anti-Drone_System",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Aggregates credible sources on procurement timeline"
+    }
+  ],
+  "seo": {
+    "title": "Zen Technologies Limited — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "Hyderabad-listed defence OEM; FY26 revenue ₹688 crore, order book ₹1,336 crore; maker of Zen Anti-Drone System (ZADS) and India's largest defence simulator portfolio.",
+    "canonical_path": "/research/counter-uas/manufacturer/zen-technologies-mfg-003/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/counter-uas/system/zen-anti-drone-system-zads-cus-003/"
+    ]
+  }
+}

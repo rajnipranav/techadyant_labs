@@ -1,0 +1,227 @@
+{
+  "entity_id": "atl-cmp-nal",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "nal",
+  "name": "National Aerospace Laboratories (NAL)",
+  "variant": null,
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/nal/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "CSIR aerospace lab — SARAS, HANSA-3, NM5; composites for LCA/ISRO.",
+    "chips": [
+      "military-aerospace",
+      "india-r-and-d",
+      "civil-aerospace"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": [
+      "Air"
+    ]
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India",
+    "Type": "CSIR laboratory — aerospace R&D",
+    "Founded": "1959",
+    "India entity": "NAL, CSIR, Bengaluru",
+    "Listed": "Not applicable (government lab)",
+    "Key India role": "NAL is a CSIR laboratory responsible for civilian aerospace R&D including the SARAS multi-role light transport aircraft (prototype flying), the HANSA-3 trainer (certified and in service with flying cl"
+  },
+  "what_it_is": {
+    "prose": "NAL is a CSIR laboratory responsible for civilian aerospace R&D including the SARAS multi-role light transport aircraft (prototype flying), the HANSA-3 trainer (certified and in service with flying clubs), and the NM5 light transport aircraft (in development). NAL also provides wind-tunnel and structural testing services to HAL, ADA, and ISRO. NAL's composites division has supplied composite components to the LCA Tejas programme and ISRO launch vehicles.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "3 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "SARAS light transport aircraft",
+        "role": "OEM",
+        "india_status": "Prototype flying; certification in progress",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "HANSA-3 trainer",
+        "role": "OEM",
+        "india_status": "Certified; in service with flying clubs",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "Composites for LCA Tejas / ISRO",
+        "role": "supplier",
+        "india_status": "Series supply",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "2 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian flying clubs",
+        "context": "HANSA-3 trainer supply",
+        "year": "2000",
+        "quantity_or_note": "Multiple units",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "agency": "ISRO",
+        "context": "Composites for launch vehicles",
+        "year": "2015",
+        "quantity_or_note": "Series supply",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ],
+    "open_questions": [
+      "When will SARAS achieve civil certification?",
+      "Has NAL supplied composites for the AMCA prototype?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Limited",
+        "note": "3 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "None%",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is NAL's main programme?",
+      "answer": "NAL develops civilian aircraft including the SARAS light transport, HANSA-3 trainer (in service), and NM5. NAL also supplies composites to the LCA Tejas and ISRO launch vehicles.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Is NAL a DRDO lab?",
+      "answer": "No. NAL is a laboratory of the Council of Scientific and Industrial Research (CSIR) under the Ministry of Science and Technology, not DRDO.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "When will SARAS achieve civil certification?",
+    "Has NAL supplied composites for the AMCA prototype?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "NAL — official site",
+      "publisher": "NAL (CSIR)",
+      "url": "https://www.nal.res.in/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "NAL official website [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    },
+    {
+      "id": "src-02",
+      "title": "SARAS aircraft — NAL product page",
+      "publisher": "NAL",
+      "url": "https://www.nal.res.in/saras",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "NAL SARAS product page"
+    },
+    {
+      "id": "src-03",
+      "title": "NAL HANSA-3 — The Hindu",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/cities/bangalore/nal-gets-type-certificate-for-hansa-3/article67898765.ece",
+      "published_date": "2000-02-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Coverage of HANSA-3 type certification"
+    }
+  ],
+  "seo": {
+    "title": "National Aerospace Laboratories (NAL) — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "National Aerospace Laboratories (NAL) company dossier: India military-aerospace role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/military-aerospace/nal/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/nal/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

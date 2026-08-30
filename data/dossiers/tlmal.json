@@ -1,0 +1,350 @@
+{
+  "entity_id": "tlmal",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "tlmal",
+  "name": "Tata Lockheed Martin Aerostructures Limited",
+  "variant": "JV: Tata Advanced Systems + Lockheed Martin (Hyderabad, est. 2010)",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Tata-Lockheed Martin JV at Adibatla, Hyderabad; the sole global source of C-130J/LM-100J Super Hercules empennage assemblies (220+ delivered), plus centre wing box and F-16 fighter wings for Lockheed's worldwide supply chain.",
+    "chips": [
+      "Tier A",
+      "JV",
+      "Aerostructures",
+      "C-130J empennage",
+      "F-16 wings",
+      "Make in India",
+      "Export"
+    ],
+    "maker": "JV of Tata Advanced Systems Limited (majority) and Lockheed Martin Aeroframe Corporation",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Airframe assembly & integration in India; raw materials, avionics and platform IP remain with Lockheed Martin (USA)",
+    "mobility_or_class": "Aerostructures JV (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Tata Lockheed Martin Aerostructures Limited (TLMAL)",
+    "Ownership": "Joint venture — Tata Advanced Systems Limited (majority) and Lockheed Martin Aeroframe Corporation (minority)",
+    "Founded": "2010",
+    "Facility": "Adibatla, Hyderabad, Telangana — includes India's first metal-to-metal bonding facility (4,700 sq m, opened April 2018)",
+    "Core_product": "Global single source of C-130J / LM-100J empennage (tail) assemblies — 220+ delivered as of Sept 2024",
+    "Second_line": "F-16 fighter wing (first Made-in-India wing certified 7 December 2021; >70% parts from Indian industry)",
+    "Also_produces": "C-130J centre wing box, secondary structures",
+    "Workforce": "~650 employees (2023)",
+    "Financials": "Not separately disclosed (private JV)"
+  },
+  "what_it_is": {
+    "prose": "Tata Lockheed Martin Aerostructures Limited (TLMAL) is a joint venture between Tata Advanced Systems Limited (TASL) and Lockheed Martin Aeroframe Corporation, established in 2010 and based at the Adibatla aerospace SEZ near Hyderabad, Telangana. TLMAL is the global single source of empennage (tail) assemblies for the C-130J Super Hercules and LM-100J — every new Super Hercules built at Lockheed Martin's Marietta, Georgia line is fitted with a TLMAL-built empennage. The JV had delivered its 200th empennage by August 2023 and more than 220 by September 2024. TLMAL also produces the C-130J centre wing box and, since a March 2023 agreement, F-16 fighter wings for Lockheed Martin's global requirements: the first Made-in-India F-16 wing — a fuel-carrying, 9G, 12,000-hour interchangeable wing with over 70% of parts sourced from Indian industry — was certified by Lockheed Martin on 7 December 2021. The facility, which employs roughly 650 people, houses India's first metal-to-metal bonding line (4,700 sq m, opened April 2018). TLMAL sits at the centre of Lockheed Martin's 'Make in India' aerostructures strategy: it underpins the F-21 offer to the Indian Air Force and, via a September 2024 teaming agreement between Lockheed Martin and TASL, a planned C-130J MRO facility for the IAF's 12 Super Hercules and future Medium Transport Aircraft (MTA) assembly in India.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "TLMAL is a build-to-print / co-production aerostructures supplier rather than a platform operator. Its output flows into Lockheed Martin's global C-130J and F-16 supply chains; Indian relevance is anchored by the IAF's 12 C-130J-30 fleet, the proposed in-country C-130J MRO, and Lockheed's F-21 fighter offer to the IAF.",
+    "rows": [
+      {
+        "agency": "Lockheed Martin (Marietta, USA)",
+        "context": "C-130J / LM-100J empennage assemblies — global single source",
+        "year": "2010-present",
+        "quantity_or_note": "220+ delivered by Sept 2024; ~24/year rate",
+        "sources": [
+          "src-2",
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Lockheed Martin",
+        "context": "F-16 fighter wings for global supply chain",
+        "year": 2021,
+        "quantity_or_note": "First Made-in-India wing certified 7 Dec 2021; >70% Indian parts",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "C-130J-30 fleet — basis for planned in-country MRO (TASL/Lockheed Sept 2024 agreement)",
+        "year": 2024,
+        "quantity_or_note": "12 IAF C-130J aircraft",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (prospective)",
+        "context": "F-21 fighter offer / MRFA — TLMAL wing capability cited as offset base",
+        "year": null,
+        "quantity_or_note": "Contingent on MRFA outcome",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact TLMAL equity split (TASL vs Lockheed Martin) not confirmed in a primary source fetched this session — widely reported as ~74:26",
+      "TLMAL standalone revenue / order book not publicly disclosed (private JV)",
+      "F-16 wing production run rate and cumulative deliveries not published"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "TLMAL performs airframe assembly and integration in India, but the platform IP, most raw materials, avionics and mission systems for the C-130J and F-16 remain with Lockheed Martin (USA). It is a component-tier node in a US-controlled programme.",
+    "items": [
+      {
+        "component": "C-130J / F-16 platform design & type certificate",
+        "severity": "High",
+        "note": "Lockheed Martin (USA) — TLMAL is build-to-print",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Aerospace-grade aluminium/titanium raw stock & fasteners",
+        "severity": "Medium",
+        "note": "Largely imported / OEM-directed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Avionics, engines (Rolls-Royce AE2100 / GE F110)",
+        "severity": "High",
+        "note": "Not in TLMAL scope — supplied within Lockheed programme",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 1,
+        "note": "Build-to-print to Lockheed Martin drawings; no platform IP",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Full aerostructure assembly & integration in India at Adibatla",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": ">70% F-16 wing parts Indian-sourced, but platform, avionics, engine imported",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 3,
+        "note": "220+ empennages; steady ~24/year; F-16 wing line ramping",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 5,
+        "note": "Effectively an export house — sole global C-130J empennage source into Lockheed's worldwide chain",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2010",
+      "event": "TLMAL joint venture formed by TASL and Lockheed Martin",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2018-04",
+      "event": "India's first metal-to-metal bonding facility opened at Adibatla, Hyderabad",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2021-12-07",
+      "event": "First Made-in-India F-16 wing certified by Lockheed Martin",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2023-03",
+      "event": "Agreement to manufacture F-16 wings in India signed",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2023-08-09",
+      "event": "200th C-130J empennage delivered — global single-source milestone",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2024-09-10",
+      "event": "Lockheed Martin-TASL teaming agreement: C-130J MRO in India + MTA; 220+ empennages to date",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "event": "US Ambassador visits Hyderabad facility, citing India as critical link in global C-130J network",
+      "sources": [
+        "src-4"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does TLMAL manufacture?",
+      "answer": "Tata Lockheed Martin Aerostructures Limited (TLMAL) is the global single source of empennage (tail) assemblies for the C-130J Super Hercules and LM-100J — every new Super Hercules built in Marietta, Georgia flies with a TLMAL empennage. It had delivered its 200th empennage by August 2023 and more than 220 by September 2024, at roughly 24 per year. TLMAL also builds the C-130J centre wing box and F-16 fighter wings for Lockheed Martin's global supply chain.",
+      "sources": [
+        "src-2",
+        "src-5"
+      ]
+    },
+    {
+      "question": "Who owns TLMAL and where is it located?",
+      "answer": "TLMAL is a joint venture between Tata Advanced Systems Limited (majority partner) and Lockheed Martin Aeroframe Corporation (minority), formed in 2010. It operates from the Adibatla aerospace SEZ near Hyderabad, Telangana, employing about 650 people and housing India's first metal-to-metal bonding facility (opened April 2018). The exact equity split is widely reported as roughly 74:26 but was not confirmed against a primary source in this build.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What is significant about the Made-in-India F-16 wing?",
+      "answer": "On 7 December 2021 Lockheed Martin certified the first F-16 fighter wing built by TLMAL in Hyderabad — a fuel-carrying, 9G, 12,000-hour interchangeable/replaceable wing with over 70% of detailed parts sourced from Indian industry. It demonstrated that Indian industry can produce flight-critical fighter primary structures and underpins Lockheed Martin's F-21 offer to the Indian Air Force.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact TLMAL equity split (TASL vs Lockheed Martin) not confirmed in a primary source fetched this session — widely reported as ~74:26",
+    "TLMAL standalone revenue / order book not publicly disclosed (private JV)",
+    "F-16 wing production run rate and cumulative deliveries not published"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Tata, Lockheed Martin bring cutting-edge aerospace technology to India",
+      "publisher": "Tata Sons (Tata.com newsroom)",
+      "url": "https://www.tata.com/newsroom/tata-lockheed-martin-new-cutting-edge-aerospace-technology-to-india",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "TLMAL Adibatla metal-to-metal bonding facility, workforce, empennage rate"
+    },
+    {
+      "id": "src-2",
+      "title": "Tata-Lockheed Martin JV delivers 200th C-130J Super Hercules empennage",
+      "publisher": "Business Standard",
+      "url": "https://www.business-standard.com/companies/news/tata-group-reaches-major-c-130j-landmark-for-lockheed-123080900660_1.html",
+      "published_date": "2023-08-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "200th empennage; global single source; JV founded 2010; 650 staff; F-16 wing agreement Mar 2023"
+    },
+    {
+      "id": "src-3",
+      "title": "Lockheed Martin certifies first Made in India F-16 wing",
+      "publisher": "PGurus",
+      "url": "https://www.pgurus.com/lockheed-martin-certifies-first-made-in-india-f-16-wing/",
+      "published_date": "2021-12-07",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "First F-16 wing certified 7 Dec 2021; >70% Indian parts; 150 empennages then"
+    },
+    {
+      "id": "src-4",
+      "title": "US envoy highlights India's expanding role in global C-130J production network",
+      "publisher": "Indian Defense News",
+      "url": "https://www.indiandefensenews.in/2026/08/us-envoy-highlights-indias-expanding.html",
+      "published_date": "2026-08-24",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "US Ambassador Aug 2026 visit; TLMAL exclusive C-130J/LM-100J tail supplier; centre wing box; F-16 wings"
+    },
+    {
+      "id": "src-5",
+      "title": "Lockheed Martin and Tata Advanced Systems announce agreement to expand C-130J Super Hercules opportunities in India",
+      "publisher": "Lockheed Martin (news release)",
+      "url": "https://news.lockheedmartin.com/2024-09-10-Lockheed-Martin-and-Tata-Advanced-Systems-Announce-Agreement-to-Expand-C-130J-Super-Hercules-Opportunities-in-India",
+      "published_date": "2024-09-10",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Sept 2024 teaming: MRO for 12 IAF C-130J + MTA; 220+ empennages; single global source"
+    },
+    {
+      "id": "src-6",
+      "title": "Tata Advanced Systems — Joint Ventures",
+      "publisher": "Tata Advanced Systems Limited",
+      "url": "https://www.tataadvancedsystems.com/joint-ventures",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "TLMAL = global single source for C-130J/LM100J empennages; centre wing box and wings"
+    }
+  ],
+  "seo": {
+    "title": "Tata Lockheed Martin Aerostructures Limited — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Tata-Lockheed Martin JV, Hyderabad; sole global source of C-130J/LM-100J empennage (220+ delivered), plus centre wing box and Made-in-India F-16 fighter wings",
+    "canonical_path": "/research/military-aerospace/company/tlmal/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

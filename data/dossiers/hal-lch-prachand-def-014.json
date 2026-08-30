@@ -1,0 +1,341 @@
+{
+  "entity_id": "def-014",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "hal-lch-prachand-def-014",
+  "name": "HAL LCH Prachand (Light Combat Helicopter)",
+  "variant": "LCH Prachand",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's indigenous light combat helicopter; 15 delivered (IAF + Army), 156 on order end-FY26; optimised for high-altitude CAS; Shakti engine (Safran licence); first IAF LCH unit No. 143 'Gunbirds' operational.",
+    "chips": [
+      "Helicopter",
+      "Combat",
+      "Indigenous",
+      "High altitude",
+      "Shakti engine",
+      "Operational",
+      "Prachand"
+    ],
+    "maker": "Hindustan Aeronautics Limited (HAL)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Hindustan Aeronautics Limited (HAL)",
+    "Status": "Operational (first deliveries 2022; 15 delivered, 156 on order end-FY26)",
+    "First_IAF_unit": "No. 143 Squadron 'Gunbirds' (operational)",
+    "Engine": "2 × HAL/Safran (Turbomeca) Shakti turboshaft — same as Dhruv",
+    "Max_TOW": "5,800 kg",
+    "Payload": "1,500 kg external",
+    "Service_ceiling": "6,500 m (21,300 ft) — optimised for high-altitude CAS",
+    "Armament": "20mm M621 cannon (Nexter, France — chin-mounted); 70mm rockets; Helina (Dhruvastra) ATGM; Mistral-2 AAM; DJI anti-drone capability reported",
+    "Armour": "Crashworthy armour; stealth features (low radar cross-section)",
+    "Indigenous_content": "~65%",
+    "Combat_debut": "Deployed in Eastern Ladakh during 2020 standoff"
+  },
+  "what_it_is": {
+    "prose": "The HAL LCH Prachand (Light Combat Helicopter) is India's indigenous dedicated combat helicopter, developed by Hindustan Aeronautics Limited (HAL) based on the Dhruv ALH platform but with significant modifications for the combat role including stealth features (low radar cross-section), crashworthy armour, and a 20mm M621 chin-mounted cannon (Nexter, France). The LCH is optimised for high-altitude Close Air Support (CAS) operations — a critical requirement highlighted by the 2020 Galwan Valley clash with China in Eastern Ladakh. The LCH has a Maximum Take-Off Weight of 5,800 kg, payload of 1,500 kg external, and a service ceiling of 6,500 m (21,300 ft) — higher than the Dhruv. Armament includes the 20mm cannon, 70mm rockets, the Helina (Dhruvastra) Anti-Tank Guided Missile (DRDO-designed), Mistral-2 Within-Visual-Range Air-to-Air Missile (MBDA France), and reported counter-drone capability. The LCH is powered by two HAL/Safran Shakti turboshaft engines (same as the Dhruv). The indigenous content is approximately 65%. The first Limited Series Production (LSP) LCH was delivered to the IAF in 2022, with 15 delivered cumulatively to the IAF and Indian Army as of end-FY26. The first IAF LCH unit is No. 143 Squadron 'Gunbirds'. HAL had 156 LCH Prachand on order at the end of FY26 (part of the ₹2,54,538 crore order book). The LCH was deployed operationally in Eastern Ladakh during the 2020 standoff, demonstrating its high-altitude CAS capability. The LCH is named 'Prachand' (Sanskrit for 'fierce' or 'intense').",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The HAL LCH Prachand entered operational service with the IAF in 2022. The first IAF LCH unit is No. 143 Squadron 'Gunbirds'. As of end-FY26, 15 LCH had been delivered to the IAF and Indian Army, with 156 on order (part of HAL's ₹2,54,538 crore order book). The LCH was deployed operationally in Eastern Ladakh during the 2020 standoff, demonstrating its high-altitude Close Air Support (CAS) capability.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "First LCH Limited Series Production delivered",
+        "year": 2022,
+        "quantity_or_note": "2022 — first LSP LCH delivered to IAF",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Air Force / No. 143 Squadron 'Gunbirds'",
+        "context": "First IAF LCH unit operational",
+        "year": 2022,
+        "quantity_or_note": "No. 143 Squadron 'Gunbirds' stood up",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "IAF + Indian Army",
+        "context": "15 LCH delivered cumulatively",
+        "year": 2026,
+        "quantity_or_note": "15 delivered as of end-FY26",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "IAF + Indian Army",
+        "context": "156 LCH Prachand on order",
+        "year": 2026,
+        "quantity_or_note": "₹ part of ₹2,54,538 cr HAL order book (March 2026)",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Army (Eastern Ladakh)",
+        "context": "Operational deployment during 2020 standoff",
+        "year": 2020,
+        "quantity_or_note": "LCH deployed to Eastern Ladakh during 2020 China standoff",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "LCH Prachand unit cost not publicly disclosed",
+      "Mistral-2 AAM inventory levels not disclosed",
+      "Whether LCH has been operationally used in combat (vs only deployment)"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "Shakti turboshaft engine (Safran/Turbomeca licence)",
+        "severity": "High",
+        "note": "France — same as Dhruv; ~50% indigenous content",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "20mm M621 cannon",
+        "severity": "Medium",
+        "note": "Nexter (France)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Mistral-2 AAM",
+        "severity": "Medium",
+        "note": "MBDA France",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Composite materials, stealth coatings",
+        "severity": "Medium",
+        "note": "Industry-typical — USA / Japan / Russia",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "HAL indigenous design based on Dhruv platform",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "HAL Bengaluru; 15 delivered, 156 on order",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Shakti engine French licence; cannon + AAM French; ~65% indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "15 delivered + 156 on order; deployed Eastern Ladakh 2020",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "No exports yet; high-altitude CAS niche may appeal to Andean/Asian countries",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "hal-dhruv-alh-def-013",
+      "tejas-mk1a-def-003"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the difference between the HAL Dhruv and the HAL LCH Prachand?",
+      "answer": "The HAL Dhruv is a multirole transport helicopter (Advanced Light Helicopter). The HAL LCH Prachand is a dedicated combat helicopter derived from the Dhruv platform but with significant modifications including stealth features (low radar cross-section), crashworthy armour, a 20mm M621 chin-mounted cannon, and dedicated weapon stations. The LCH is optimised for high-altitude Close Air Support (CAS) — a requirement highlighted by the 2020 Galwan Valley clash. Both share the same Shakti engine.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Why was the LCH Prachand developed?",
+      "answer": "The LCH Prachand was developed to meet the Indian armed forces' requirement for a dedicated combat helicopter optimised for high-altitude operations — particularly in Eastern Ladakh and along the Line of Actual Control with China. The 2020 Galwan Valley clash underscored this requirement. The LCH has a service ceiling of 6,500 m (21,300 ft), higher than the Dhruv, allowing it to operate in mountainous terrain where conventional attack helicopters cannot. The Mi-35 (IAF's previous attack helicopter) was retired in 2022, making the LCH the IAF's primary attack helicopter.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "How many LCH Prachand does India operate?",
+      "answer": "As of end-FY26, 15 LCH Prachand had been delivered to the IAF and Indian Army, with 156 on order (part of HAL's ₹2,54,538 crore order book). The first IAF LCH unit is No. 143 Squadron 'Gunbirds'. HAL is ramping up production capacity at Bengaluru to meet the large order book. The first Limited Series Production (LSP) LCH was delivered in 2022.",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2006",
+      "event": "LCH programme sanctioned by MoD",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2010-03",
+      "event": "First LCH prototype flight (TD-1)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020",
+      "event": "LCH deployed to Eastern Ladakh during China standoff",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2022",
+      "event": "First LSP LCH delivered to IAF; No. 143 Squadron 'Gunbirds' stood up",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2026-03",
+      "event": "156 LCH Prachand on order as part of HAL ₹2,54,538 cr order book",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "LCH Prachand unit cost not publicly disclosed",
+    "Mistral-2 AAM inventory levels not disclosed",
+    "Whether LCH has been operationally used in combat (vs only deployment)"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "HAL Prachand",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HAL_Prachand",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Comprehensive LCH Prachand specifications"
+    },
+    {
+      "id": "src-2",
+      "title": "HAL Secures Strong FY27 Outlook Backed By ₹2,54,538 Crore Order Book",
+      "publisher": "SAHI Markets",
+      "url": "https://www.sahi.com/news/hal-secures-strong-fy27-outlook-backed-by-2-54-538-crore-order-book-2811-PE1_COR",
+      "published_date": "2026-08-04",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "156 LCH Prachand on order end-FY26"
+    },
+    {
+      "id": "src-3",
+      "title": "HAL outlines major defence orders, production push",
+      "publisher": "Economic Times",
+      "url": "https://m.economictimes.com/news/defence/hindustan-aeronautics-ltd-hal-unveils-ambitious-military-aircraft-production-plans-180-tejas-mk-1a-156-prachand-helicopters-and-more/articleshow/129662418.cms",
+      "published_date": "2026-03-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "156 Prachand helicopters ordered March 2026"
+    },
+    {
+      "id": "src-4",
+      "title": "LCH order boosts HAL orderbook",
+      "publisher": "Mobility Outlook",
+      "url": "https://www.mobilityoutlook.com/features/lch-order-boosts-hal-orderbook",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "LCH order context"
+    }
+  ],
+  "seo": {
+    "title": "HAL LCH Prachand (Light Combat Helicopter) — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "India's indigenous light combat helicopter; 15 delivered (IAF + Army), 156 on order end-FY26; optimised for high-altitude CAS; Shakti engine (Safran licence); f",
+    "canonical_path": "/research/pillars/defence/entity/hal-lch-prachand-def-014/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

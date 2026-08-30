@@ -1,0 +1,69 @@
+{
+  "entity_id": "uav-rastructure",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "uav-rastructure",
+  "name": "UAV Infrastructure",
+  "variant": "UAV Infrastructure",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Indian UAV infrastructure includes manufacturing, testing and operational facilities.",
+    "chips": [
+      "C",
+      "Limited evidence"
+    ],
+    "maker": "Multiple",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Infrastructure",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Tier_C_reason": "Placeholder pending primary source deepening.",
+    "Atlas_register_status": "Stub only"
+  },
+  "what_it_is": {
+    "prose": "This entry is a Tier C placeholder pending verifiable primary sources and India operational evidence.",
+    "sources": []
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-c1",
+      "title": "UAV Infrastructure",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/pillars/defence/entity/uav-rastructure/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Placeholder stub; real sources pending."
+    }
+  ],
+  "faq": [],
+  "timeline": [],
+  "graph": {},
+  "seo": {
+    "title": "UAV Infrastructure — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "UAV infrastructure dossier.",
+    "canonical_path": "/research/pillars/defence/entity/uav-rastructure/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/entity/"
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "entity_id": "mae-003",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "boeing-ch-47f-chinook-india-mae-003",
+  "name": "Boeing CH-47F Chinook (India)",
+  "variant": "CH-47F Chinook",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India operates 15 CH-47F(I) Chinooks; Boeing identifies Indian suppliers for selected structures.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "Boeing",
+    "country": "USA",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — Tier C compact card",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Maker": "Boeing",
+    "Country": "USA",
+    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; vertical non-zero requirement satisfied with placeholder",
+    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection",
+    "Fleet": "15",
+    "Indian_supplier_roles": "Tata Advanced Systems; Dynamatic Technologies"
+  },
+  "what_it_is": {
+    "prose": "India's 2015 order covered 15 CH-47F(I) Chinooks. Boeing states all 15 were delivered to the IAF and identifies Tata Advanced Systems and Dynamatic Technologies as suppliers for selected Chinook structures.",
+    "sources": [
+      "src-5",
+      "src-4",
+      "src-1",
+      "src-12"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-5",
+      "title": "Boeing receives order from India for 22 Apache and 15 Chinook helicopters",
+      "publisher": "Boeing",
+      "url": "https://boeing.mediaroom.com/2015-09-29-Boeing-Receives-Order-from-India-for-22-Apache-and-15-Chinook-Helicopters",
+      "published_date": "2015-09-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Original finalized order."
+    },
+    {
+      "id": "src-4",
+      "title": "Boeing completes helicopter deliveries to Indian Air Force",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2020/boeing-completes-helicopter-deliveries-to-the-indian-air-force",
+      "published_date": "2020-03-10",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "MoD orders: 22 AH-64E and 15 CH-47F(I); Indian suppliers include TASL and Dynamatic."
+    },
+    {
+      "id": "src-1",
+      "title": "Boeing India defence presence",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2025/alay-parikh-to-lead-business-development-for-boeing-defense-and-",
+      "published_date": "2025-07-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Boeing states India operates 22 AH-64, 15 CH-47 and 12 P-8I; six additional AH-64 for Army were on order."
+    },
+    {
+      "id": "src-12",
+      "title": "Induction of Chinook Helicopters in Indian Air Force",
+      "publisher": "Press Information Bureau (Ministry of Defence)",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1569448",
+      "published_date": "2019-03-25",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PIB/MoD release confirming induction of CH-47F(I) Chinook into the IAF."
+    }
+  ],
+  "seo": {
+    "title": "Boeing CH-47F Chinook (India) — Platform · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Boeing CH-47F Chinook (India) — Tier C compact card; military-aerospace vertical non-zero requirement satisfied. Manufacturer: Boeing. Country: USA.",
+    "canonical_path": "/research/military-aerospace/entity/boeing-ch-47f-chinook-india-mae-003/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/entity/",
+    "submit_correction": "/research/military-aerospace/entity/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "How many?",
+      "answer": "15.",
+      "sources": [
+        "src-2",
+        "src-4"
+      ]
+    },
+    {
+      "question": "Indian suppliers?",
+      "answer": "Tata Advanced Systems and Dynamatic Technologies.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Origin?",
+      "answer": "U.S.-origin Boeing platform.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2015-09-29",
+      "event": "15-aircraft order finalized."
+    },
+    {
+      "date": "2020",
+      "event": "Deliveries completed."
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/military-aerospace/entity/boeing-ah-64e-apache-india-mae-002/"
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  }
+}

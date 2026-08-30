@@ -1,0 +1,271 @@
+{
+  "entity_id": "scot-digantara",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "scot-digantara",
+  "name": "SCOT (Digantara)",
+  "variant": "Space Camera for Object Tracking",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "SCOT is Digantara's space-situational-awareness satellite — described as among the world's first commercial SSA spacecraft — tracking resident space objects from orbit; it launched in January 2025.",
+    "chips": [
+      "A",
+      "India-relevant",
+      "Space situational awareness",
+      "SSA satellite"
+    ],
+    "maker": "Digantara Research and Technologies",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "India-developed (Bengaluru); no audited indigenous percentage disclosed",
+    "mobility_or_class": "Space-situational-awareness (space-domain-awareness) satellite",
+    "operational_domains": [
+      "space"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Digantara Research and Technologies (Bengaluru)",
+    "Country": "India",
+    "Satellite": "SCOT — Space Camera for Object Tracking",
+    "Launch": "14 January 2025 (SpaceX Transporter-12)",
+    "Orbit": "Sun-synchronous",
+    "Capability": "Space-based tracking of resident space objects, reportedly down to ~5 cm",
+    "Claim": "Among the world's first commercial space-situational-awareness satellites",
+    "Commissioned": "March 2025 (first imagery reported)"
+  },
+  "what_it_is": {
+    "prose": "SCOT (Space Camera for Object Tracking) is a space-situational-awareness (SSA) satellite built by Digantara, a Bengaluru-based space-surveillance and intelligence startup. Launched on 14 January 2025 aboard SpaceX's Transporter-12 rideshare into a sun-synchronous orbit, SCOT is designed to detect and track resident space objects — including small debris reported down to around 5 cm — from orbit rather than from ground stations, giving weather-independent, higher-revisit tracking as part of a hybrid surveillance network. Digantara and press coverage describe it as among the world's first commercial SSA satellites and as India's first homegrown space-surveillance mission; the company reported commissioning and first imagery in early 2025. The capability supports orbital safety, collision avoidance and sovereign space-domain awareness, with obvious relevance to congested low Earth orbit and complex missions. This dossier records the launched, commissioned satellite and keeps sensor specifics and customer detail open pending primary disclosure.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "SCOT is a commercial SSA satellite launched on rideshare; Digantara sells space-domain-awareness data and services rather than the spacecraft, and has signalled expansion toward a larger surveillance constellation.",
+    "rows": [
+      {
+        "agency": "Digantara",
+        "context": "SCOT launched on SpaceX Transporter-12 — described as India's first homegrown space-surveillance mission",
+        "year": 2025,
+        "quantity_or_note": "1 satellite (14 Jan 2025)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Digantara",
+        "context": "SCOT commissioned with first imagery reported in early 2025",
+        "year": 2025,
+        "quantity_or_note": "Operational",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "SSA / defence & commercial users",
+        "context": "Space-domain-awareness data marketed for orbital safety and surveillance",
+        "year": null,
+        "quantity_or_note": "Data/service",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Detailed sensor specifications and tracking catalogue size from a primary source",
+      "Named government/defence customers and contract values"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Digantara has not published a component sovereignty breakdown. Launch used a US provider (SpaceX); space-grade optical sensors and rad-tolerant electronics are potential import exposures.",
+    "items": [
+      {
+        "component": "Launch services",
+        "severity": "Medium",
+        "note": "SCOT launched on SpaceX rideshare (US), not an Indian launcher",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Space-grade optical sensor / detector electronics",
+        "severity": "Medium",
+        "note": "Sourcing not publicly disclosed",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "SCOT designed by Digantara in India",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Satellite built by Digantara; launch outsourced to SpaceX",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Optical sensor and electronics sourcing undisclosed",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 3,
+        "note": "First SSA satellite operational; expansion toward a larger constellation signalled",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Global commercial SSA/space-domain-awareness market with few incumbents",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "peer_systems": [
+      "firefly-constellation",
+      "drishti-galaxeye"
+    ],
+    "related_pillars": [
+      "/research/space/entity/"
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2025-01-14",
+      "event": "SCOT launched on SpaceX Transporter-12 into sun-synchronous orbit.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2025-03-09",
+      "event": "Digantara reports SCOT commissioned with first imagery.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does SCOT do?",
+      "answer": "It tracks resident space objects and debris from orbit for space-situational awareness, reportedly detecting objects down to around 5 cm.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "When did it launch?",
+      "answer": "On 14 January 2025 aboard SpaceX's Transporter-12 rideshare.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Why does it matter?",
+      "answer": "It is described as among the world's first commercial SSA satellites and India's first homegrown space-surveillance mission, supporting orbital safety and space-domain awareness.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Full sensor specification and object catalogue",
+    "Named customers and follow-on constellation timeline"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Digantara launches India's 1st homegrown space surveillance mission via SpaceX's Transporter-12",
+      "publisher": "SatNews",
+      "url": "https://satnews.com/2025/01/14/digantara-launches-indias-1st-homegrown-space-surveillance-mission-via-spacexs-transporter-12/",
+      "published_date": "2025-01-14",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "SCOT launch 14 Jan 2025 on Transporter-12; SSA capability; tracks objects to ~5 cm."
+    },
+    {
+      "id": "src-2",
+      "title": "Digantara Commissions SCOT Satellite",
+      "publisher": "Orbital Today",
+      "url": "https://orbitaltoday.com/2025/03/09/digantara-commissions-scot-satellite/",
+      "published_date": "2025-03-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "SCOT commissioning and first imagery."
+    },
+    {
+      "id": "src-3",
+      "title": "Space tech startup Digantara launches SCOT satellite on SpaceX Transporter-12 mission",
+      "publisher": "YourStory",
+      "url": "https://yourstory.com/2025/01/space-tech-startup-digantara-scot-satellite-spacex-transporter-12-mission",
+      "published_date": "2025-01-14",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Company background and SSA mission framing."
+    },
+    {
+      "id": "src-4",
+      "title": "Bangalore Start-up Digantara Commissions World's First Commercial Space Surveillance Satellite; SCOT Captures Image of South America",
+      "publisher": "Indian Defence News",
+      "url": "https://www.indiandefensenews.in/2025/03/bangalore-start-up-digantara.html",
+      "published_date": "2025-03",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Commercial-first framing and imagery; expansion context."
+    }
+  ],
+  "seo": {
+    "title": "SCOT (Digantara) — Platform · India Space Atlas | Techadyant",
+    "meta_description": "SCOT — Digantara's space-situational-awareness satellite, launched January 2025, tracking resident space objects from orbit as among the world's first commercial SSA spacecraft.",
+    "canonical_path": "/research/space/entity/scot-digantara/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  }
+}

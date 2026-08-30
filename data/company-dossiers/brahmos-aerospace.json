@@ -1,0 +1,369 @@
+{
+  "entity_id": "atl-cmp-brahmos-aerospace",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "brahmos-aerospace",
+  "name": "BrahMos Aerospace Pvt Ltd",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/brahmos-aerospace/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "BrahMos Aerospace is the Indo-Russian JV that designs, develops, produces and markets the BrahMos supersonic cruise missile — globally the fastest operational cruise missile (Mach 2.8-3). The missile ",
+    "chips": [
+      "defence",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "New Delhi, India (DRDO Bhavan complex); main production: Hyderabad & Lucknow",
+    "Type": "Company (listed)",
+    "Founded": "1998 (joint venture entity formed by India's DRDO and Russia's NPO Mashinostroyeniya)",
+    "India entity": null,
+    "Listed": "Not listed — 50.5% DRDO (India) / 49.5% NPO Mashinostroyeniya (Russia) JV",
+    "Key India role": "BrahMos Aerospace is the Indo-Russian JV that designs, develops, produces and markets the BrahMos supersonic cruise missile — globally the fastest operational cruise missile (Mach 2.8-3). The missile "
+  },
+  "what_it_is": {
+    "prose": "BrahMos Aerospace is the Indo-Russian JV that designs, develops, produces and markets the BrahMos supersonic cruise missile — globally the fastest operational cruise missile (Mach 2.8-3). The missile can be launched from land, ship, submarine, and air (Su-30MKI ALCM). Production is centred at Hyderabad with a new Lucknow facility increasing total output by 20% (Jun 2026). The Indian Navy placed a ₹19,000 Cr order for 200+ extended-range missiles in Feb 2024. BrahMos is also India's flagship defence-export product: $375M Philippine Shore-Based Anti-Ship Missile System contract (2022, deliveries 2024); Vietnam deal ~$700M (Dec 2024); Indonesia agreement signed (Jul 2026); UAE in talks. Next-generation BrahMos-NG (1.2 t, Mach 5, 290 km range) and 1,500-km long-range variant in development (announced Jun 2026).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "3 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "BrahMos supersonic cruise missile (land/ship/sub/air)",
+        "role": "OEM",
+        "india_status": "Operational across Indian Army (regiment-level launchers), Indian Navy (over 10 ship classes), and Indian Air Force (Su-30MKI ALCM). Speed Mach 2.8-3, range 290 km (export) / 450-500 km (domestic), reported test range up to 800 km",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "BrahMos-NG (Next Generation)",
+        "role": "OEM",
+        "india_status": "Smaller (1.2-1.3 t vs 3 t original), faster (Mach 5), 290 km range, multi-platform launchable including from any fighter aircraft. Joint development with DRDO; announced 2026",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "BrahMos 1,500-km long-range variant (envisioned)",
+        "role": "OEM",
+        "india_status": "BrahMos Aerospace envisions 1,500-km supersonic cruise missile variant for deep-strike precision capability",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "4 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "₹19,000 Cr order for 200+ extended-range BrahMos missiles",
+        "year": "Feb 2024",
+        "quantity_or_note": "200+",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Republic of the Philippines (export)",
+        "context": "$375M Shore-Based Anti-Ship Missile System contract — India's first BrahMos export. Deliveries began 2024",
+        "year": "2022 / deliveries 2024",
+        "quantity_or_note": "3 batteries (shore-based)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Vietnam (export)",
+        "context": "Vietnam BrahMos deal (~$700M reported)",
+        "year": "Dec 2024",
+        "quantity_or_note": "n/a",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indonesia (export)",
+        "context": "BrahMos export agreement signed with Indonesia",
+        "year": "Jul 2026",
+        "quantity_or_note": "n/a",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "10 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "2 official, 6 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is the JV structure of BrahMos Aerospace (DRDO + NPO Mash)?",
+      "answer": "BrahMos Aerospace is the Indo-Russian JV that designs, develops, produces and markets the BrahMos supersonic cruise missile — globally the fastest operational cruise missile (Mach 2.8-3).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What was the value of the Philippines BrahMos export contract?",
+      "answer": "BrahMos is also India's flagship defence-export product: $375M Philippine Shore-Based Anti-Ship Missile System contract (2022, deliveries 2024); Vietnam deal ~$700M (Dec 2024); Indonesia agreement signed (Jul 2026); UAE in talks.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the BrahMos-NG missile's expected speed and range?",
+      "answer": "BrahMos Aerospace is the Indo-Russian JV that designs, develops, produces and markets the BrahMos supersonic cruise missile — globally the fastest operational cruise missile (Mach 2.8-3).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which countries have signed BrahMos export contracts with India?",
+      "answer": "BrahMos is also India's flagship defence-export product: $375M Philippine Shore-Based Anti-Ship Missile System contract (2022, deliveries 2024); Vietnam deal ~$700M (Dec 2024); Indonesia agreement signed (Jul 2026); UAE in talks.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the speed of the BrahMos supersonic cruise missile?",
+      "answer": "BrahMos Aerospace is the Indo-Russian JV that designs, develops, produces and markets the BrahMos supersonic cruise missile — globally the fastest operational cruise missile (Mach 2.8-3).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the new BrahMos production facility and what is its capacity impact?",
+      "answer": "Production is centred at Hyderabad with a new Lucknow facility increasing total output by 20% (Jun 2026).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.brahmos.com",
+      "publisher": "BrahMos Aerospace Official",
+      "url": "https://www.brahmos.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.brahmos.com/page/brahmos-ng",
+      "publisher": "BrahMos Aerospace",
+      "url": "https://www.brahmos.com/page/brahmos-ng",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.brahmos.com/press-release/227",
+      "publisher": "BrahMos Aerospace",
+      "url": "https://www.brahmos.com/press-release/227",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://en.wikipedia.org/wiki/BrahMos",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BrahMos",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://idsa.in/publisher/issuebrief/brahmos-25-years-of-the-joint-venture",
+      "publisher": "IDSA",
+      "url": "https://idsa.in/publisher/issuebrief/brahmos-25-years-of-the-joint-venture",
+      "published_date": "May 29, 2023",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.eurasiareview.com/26122024-india-set-to-become-major-exporter-of-missiles-to-vietnam-with-700-million-brahmos-deal-oped",
+      "publisher": "Eurasia Review",
+      "url": "https://www.eurasiareview.com/26122024-india-set-to-become-major-exporter-of-missiles-to-vietnam-with-700-million-brahmos-deal-oped",
+      "published_date": "Dec 26, 2024",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://defencesecurityasia.com/en/india-brahmos-missile-vietnam-philippines-indonesia-south-china-sea-maritime-denial-corridor",
+      "publisher": "Defence Security Asia",
+      "url": "https://defencesecurityasia.com/en/india-brahmos-missile-vietnam-philippines-indonesia-south-china-sea-maritime-denial-corridor",
+      "published_date": "Jun 11, 2026",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://swarajyamag.com/news-brief/smaller-faster-longer-range-four-new-brahmos-variants-under-joint-india-russia-development",
+      "publisher": "Swarajya",
+      "url": "https://swarajyamag.com/news-brief/smaller-faster-longer-range-four-new-brahmos-variants-under-joint-india-russia-development",
+      "published_date": "Jun 19, 2026",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "https://indianexpress.com/article/india/southern-command-conducts-successful-long-range-precision-launch-of-brahmos-missile-10397149",
+      "publisher": "Indian Express",
+      "url": "https://indianexpress.com/article/india/southern-command-conducts-successful-long-range-precision-launch-of-brahmos-missile-10397149",
+      "published_date": "Dec 2, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "https://russiaspivottoasia.com/russias-joint-indian-venture-brahmos-boosts-missile-production-by-20",
+      "publisher": "Russia's Pivot to Asia",
+      "url": "https://russiaspivottoasia.com/russias-joint-indian-venture-brahmos-boosts-missile-production-by-20",
+      "published_date": "Jun 30, 2026",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "BrahMos Aerospace Pvt Ltd — Company · India Defence Atlas | Techadyant",
+    "meta_description": "BrahMos Aerospace Pvt Ltd company dossier: India defence role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/pillars/defence/entity/brahmos-aerospace/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/brahmos-aerospace/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "entity_id": "atl-cmp-general-atomics-aeronautical-systems-ga-asi-mfr-002",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "general-atomics-aeronautical-systems-ga-asi-mfr-002",
+  "name": "General Atomics Aeronautical Systems, Inc. (GA-ASI)",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/general-atomics-aeronautical-systems-ga-asi-mfr-002/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "GA-ASI is the manufacturer of the Predator/MQ-9 family of HALE UAVs and is now a top-tier India defence partner following the October 2024 signing of a $3.9 billion (≈₹32,000 crore) contract for 31 MQ",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Poway, California, USA (parent General Atomics headquartered in San Diego, CA)",
+    "Type": "Manufacturer (listed)",
+    "Founded": "1955 (General Atomics); GA-ASI as a separate division from 1993",
+    "India entity": null,
+    "Listed": "Privately held (Blue family ownership); not listed",
+    "Key India role": "GA-ASI is the manufacturer of the Predator/MQ-9 family of HALE UAVs and is now a top-tier India defence partner following the October 2024 signing of a $3.9 billion (≈₹32,000 crore) contract for 31 MQ"
+  },
+  "what_it_is": {
+    "prose": "GA-ASI is the manufacturer of the Predator/MQ-9 family of HALE UAVs and is now a top-tier India defence partner following the October 2024 signing of a $3.9 billion (≈₹32,000 crore) contract for 31 MQ-9B SkyGuardian/SeaGuardian HALE RPAS for the Indian tri-services (16 Army, 8 Navy, 7 Air Force). Deliveries are expected between 2027 and 2030. India had previously leased two MQ-9B SeaGuardians for the Indian Navy in 2020, and signed a follow-on ₹1,943 crore lease for two additional SeaGuardians in August 2026 (delivered soon after). GA-ASI opened its India office in New Delhi in November 2018, has a strategic partnership with Bharat Forge (Jan 2023) for aerostructures, an MOU with HAL (Feb 2023) for MQ-9B engine MRO support, and an MOU with Huneed Technologies for flat panel array supply.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "2 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "MQ-9B SeaGuardian (naval HALE RPAS)",
+        "role": "OEM",
+        "india_status": "2 leased to Indian Navy (2020); ₹1,943 Cr deal for 2 more SeaGuardians (Aug 2026); 8 of 31 MQ-9B contract allotment for Indian Navy",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "MQ-9B SkyGuardian / Predator-B (HALE RPAS)",
+        "role": "OEM",
+        "india_status": "$3.9B / 31 aircraft contract signed October 2024 for tri-services; deliveries 2027-2030; 16 for Indian Army, 8 Navy, 7 IAF",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Navy (initial lease)",
+        "context": "Lease of 2 MQ-9B SeaGuardian UAVs for maritime ISR",
+        "year": "2020",
+        "quantity_or_note": "2",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian MoD (tri-services)",
+        "context": "Signing of $3.9B / 31 MQ-9B SkyGuardian/SeaGuardian contract following US State Dept FMS approval on 1 Feb 2024",
+        "year": "2024",
+        "quantity_or_note": "31 (16 Army, 8 Navy, 7 IAF)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Navy (second lease)",
+        "context": "₹1,943 crore deal for 2 additional MQ-9B SeaGuardian UAVs",
+        "year": "2026",
+        "quantity_or_note": "2",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Bharat Forge (Kalyani Group)",
+        "context": "Strategic partnership to manufacture MQ-9B aerostructures in India",
+        "year": "2023",
+        "quantity_or_note": "n/a (partnership)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "HAL",
+        "context": "MOU for MRO support of MQ-9B engines in India",
+        "year": "2023",
+        "quantity_or_note": "n/a (MOU)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "13 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "3 official, 9 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is the size of India's MQ-9B Predator deal with General Atomics?",
+      "answer": "India signed a $3.9 billion (≈₹32,000 crore) contract in October 2024 for 31 MQ-9B SkyGuardian/SeaGuardian HALE RPAS — 16 for the Indian Army, 8 for the Indian Navy and 7 for the Indian Air Force. The US State Department approved the FMS sale on 1 February 2024 and deliveries are expected between 2027 and 2030.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When did General Atomics open its India office?",
+      "answer": "General Atomics Global opened its India office in New Delhi on 27 November 2018, simultaneously announcing the appointment of an Indian executive (Dr. Vivek Lall) to lead India strategic affairs.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which Indian companies have partnerships with GA-ASI for MQ-9B?",
+      "answer": "GA-ASI has a strategic partnership with Bharat Forge (Kalyani Group), announced 3 January 2023, to manufacture aerostructures in India; an MOU with HAL (Feb 2023) for MQ-9B engine MRO support; and an MOU with Huneed Technologies for flat-panel array supply.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://breakingdefense.com/2024/02/us-approves-4-billion-deal-to-sell-india-31-maritime-mq-9b-skyguardian-drones",
+      "publisher": "Breaking Defense",
+      "url": "https://breakingdefense.com/2024/02/us-approves-4-billion-deal-to-sell-india-31-maritime-mq-9b-skyguardian-drones",
+      "published_date": "2024-02-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "US State Department approves $4B sale of 31 MQ-9B drones to India"
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.bbc.com/news/world-asia-india-68150918",
+      "publisher": "BBC News",
+      "url": "https://www.bbc.com/news/world-asia-india-68150918",
+      "published_date": "2024-02-02",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms US approval of $4bn sale of armed drones to India"
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.reuters.com/business/aerospace-defense/us-state-dept-oks-possible-sale-31-armed-drones-india-pentagon-2024-02-01",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/aerospace-defense/us-state-dept-oks-possible-sale-31-armed-drones-india-pentagon-2024-02-01",
+      "published_date": "2024-02-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "US State Dept okays possible sale of 31 armed drones to India"
+    },
+    {
+      "id": "src-04",
+      "title": "https://news.usni.org/2024/02/01/u-s-approves-potential-3-9b-mq-9b-uav-sale-to-india",
+      "publisher": "USNI News",
+      "url": "https://news.usni.org/2024/02/01/u-s-approves-potential-3-9b-mq-9b-uav-sale-to-india",
+      "published_date": "2024-02-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "DSCA notification of $3.9B MQ-9B sale to India"
+    },
+    {
+      "id": "src-05",
+      "title": "https://www.airforce-technology.com/news/india-signs-mq-9b-rpas-deal-us",
+      "publisher": "Airforce Technology",
+      "url": "https://www.airforce-technology.com/news/india-signs-mq-9b-rpas-deal-us",
+      "published_date": "2024-10-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "India signs 31 MQ-9B Sky/Sea Guardian HALE RPAS deal"
+    },
+    {
+      "id": "src-06",
+      "title": "https://defence.in/threads/general-atomics-expected-to-deliver-all-31-mq-9b-predator-drones-to-india-from-2027-to-2030.10548",
+      "publisher": "Defence.in",
+      "url": "https://defence.in/threads/general-atomics-expected-to-deliver-all-31-mq-9b-predator-drones-to-india-from-2027-to-2030.10548",
+      "published_date": "2024-10-11",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "GA-ASI expected to deliver all 31 MQ-9B to India from 2027 to 2030"
+    },
+    {
+      "id": "src-07",
+      "title": "https://timesofindia.indiatimes.com/defence/news/india-signs-rs-1943-cr-deal-with-us-firm-to-lease-2-mq-9b-sea-guardian-drones-for-navy/articleshow/133306349.cms",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/defence/news/india-signs-rs-1943-cr-deal-with-us-firm-to-lease-2-mq-9b-sea-guardian-drones-for-navy/articleshow/133306349.cms",
+      "published_date": "2026-08-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "India signs ₹1,943 crore deal to lease 2 MQ-9B SeaGuardian drones for Navy"
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.naval-technology.com/news/india-mq-9b-seaguardian",
+      "publisher": "Naval Technology",
+      "url": "https://www.naval-technology.com/news/india-mq-9b-seaguardian",
+      "published_date": "2026-08-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms India leases two MQ-9B SeaGuardians in $203M deal"
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.ga.com/general-atomics-global-opens-new-delhi-office-announces-indian-executive",
+      "publisher": "General Atomics (company press release)",
+      "url": "https://www.ga.com/general-atomics-global-opens-new-delhi-office-announces-indian-executive",
+      "published_date": "2018-11-27",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "GA opens New Delhi office and announces Indian executive"
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.ga-asi.com/ga-asi-announces-strategic-partnership-with-bharat-forge-to-manufacture-aerostructures",
+      "publisher": "GA-ASI (company press release)",
+      "url": "https://www.ga-asi.com/ga-asi-announces-strategic-partnership-with-bharat-forge-to-manufacture-aerostructures",
+      "published_date": "2023-01-03",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "GA-ASI partnership with Bharat Forge to manufacture aerostructures in India"
+    },
+    {
+      "id": "src-11",
+      "title": "https://swarajyamag.com/business/bharat-forge-general-atomics-partner-to-manufacture-key-components-for-advanced-uavs-in-india",
+      "publisher": "Swarajya",
+      "url": "https://swarajyamag.com/business/bharat-forge-general-atomics-partner-to-manufacture-key-components-for-advanced-uavs-in-india",
+      "published_date": "2023-01-03",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Bharat Forge - GA partnership for advanced UAV components in India"
+    },
+    {
+      "id": "src-12",
+      "title": "https://stratpost.com/hal-to-support-general-atomics-mq-9b-engines",
+      "publisher": "Stratpost",
+      "url": "https://stratpost.com/hal-to-support-general-atomics-mq-9b-engines",
+      "published_date": "2023-02-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "HAL to support GA MQ-9B engines"
+    },
+    {
+      "id": "src-13",
+      "title": "https://www.ga-asi.com/huneed-technologies-signs-mou-to-supply-flat-panel-array-to-ga-asi",
+      "publisher": "GA-ASI (company press release)",
+      "url": "https://www.ga-asi.com/huneed-technologies-signs-mou-to-supply-flat-panel-array-to-ga-asi",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Huneed Technologies (South Korea) MOU; Indian supply chain context"
+    }
+  ],
+  "seo": {
+    "title": "General Atomics Aeronautical Systems, Inc. (GA-ASI) — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "General Atomics Aeronautical Systems, Inc. (GA-ASI) company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/general-atomics-aeronautical-systems-ga-asi-mfr-002/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/general-atomics-aeronautical-systems-ga-asi-mfr-002/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

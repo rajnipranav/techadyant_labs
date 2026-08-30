@@ -1,0 +1,92 @@
+{
+  "entity_id": "ruag",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "ruag",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "name": "RUAG",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Swiss technology group that held the Dornier Do-228 type certificate and design authority from 2003, produced the Do-228 New Generation (final assembly at Oberpfaffenhofen), and sourced Do-228 fuselage, wing and tail assemblies from HAL Kanpur under an €80 million supply contract — the design lineage behind HAL's Indian Do-228 line; assets sold to General Atomics in 2020-21.",
+    "chips": [
+      "Tier C",
+      "Foreign",
+      "Do-228 lineage",
+      "HAL supply link",
+      "Switzerland"
+    ],
+    "maker": "RUAG (RUAG International / RUAG MRO Holding) — Switzerland",
+    "country": "Switzerland",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — foreign design-lineage/support entity (Tier C compact card)",
+    "mobility_or_class": "Aerospace & defence OEM (no platform class)",
+    "operational_domains": [
+      "air",
+      "civilian"
+    ]
+  },
+  "at_a_glance": {
+    "Country": "Switzerland",
+    "Tier_C_reason": "Foreign design-lineage/support entity; India relevance is indirect (Do-228 type-certificate holder and HAL structures supply link), not a direct Indian order/JV",
+    "Do228_type_certificate": "Acquired by RUAG in 2003 (after Dornier/Fairchild-Dornier); production rights from 2002",
+    "Do228_NG": "RUAG launched the Do-228 New Generation (certified 2010); final assembly at Oberpfaffenhofen, Germany",
+    "HAL_link": "HAL Kanpur supplied Do-228 fuselage, wings and tail assemblies to RUAG under a ~€80 million contract (Berlin Air Show 2008)",
+    "Divestment": "Do-228 production line and type certificate sold to General Atomics (2020, completed Feb 2021)",
+    "Atlas_register_status": "Slug preserved; noindex Tier C"
+  },
+  "what_it_is": {
+    "prose": "RUAG is a Swiss aerospace and defence technology group. Its relevance to the India military-aerospace Atlas is through the Dornier Do-228 lineage rather than any direct Indian order or joint venture. After the Dornier and Fairchild-Dornier eras, RUAG obtained Do-228 production rights in 2002 and acquired the aircraft's type certificate in 2003, becoming the design-authority holder. RUAG launched the modernised Do-228 New Generation (certified 2010), and under RUAG's manufacturing model the fuselage, wings and tail assemblies were built by Hindustan Aeronautics Limited (HAL) at Kanpur and shipped to Oberpfaffenhofen, Germany, for final assembly — HAL agreeing a roughly €80 million, ten-year structures supply contract at the 2008 Berlin Air Show. This is the same HAL Kanpur line that licence-produces the Do-228 for the Indian armed forces (Atlas slug do228). RUAG sold the Do-228 production line and type certificate to General Atomics (announced 2020, completed February 2021), so the current design authority no longer rests with RUAG. This compact Tier C card records RUAG's Do-228 design-lineage and HAL-supply link honestly, without asserting a standalone Indian contract or footprint for RUAG itself.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "open_questions": [
+    "RUAG has no direct Indian defence contract or JV; its India link is the Do-228 type-certificate lineage and the historical HAL structures-supply relationship",
+    "Since 2020-21 the Do-228 type certificate and production line sit with General Atomics AeroTec Systems, not RUAG"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Dornier 228",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dornier_228",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "RUAG obtained Do-228 production rights 2002, type certificate 2003; Do-228 NG certified 2010 with HAL Kanpur supplying fuselage/wings/tail (~€80M, Berlin 2008); line sold to General Atomics 2020-21."
+    },
+    {
+      "id": "src-2",
+      "title": "The Story Of The Rugged Dornier 228 Turboprop",
+      "publisher": "Simple Flying",
+      "url": "https://simpleflying.com/dornier-228-story/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Do-228 history including RUAG's Do-228 NG production and the HAL Kanpur structures relationship."
+    }
+  ],
+  "seo": {
+    "title": "RUAG — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Swiss group behind the Dornier Do-228 type certificate and Do-228 NG, sourcing fuselage/wing/tail assemblies from HAL Kanpur — the design lineage of India's HAL-built Do-228. Tier C compact card.",
+    "canonical_path": "/research/military-aerospace/company/ruag/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/do228/",
+      "/research/military-aerospace/company/"
+    ]
+  }
+}

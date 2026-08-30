@@ -1,0 +1,191 @@
+{
+  "entity_id": "mae-001",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "hal-mig-29upg-mae-001",
+  "name": "HAL MiG-29UPG",
+  "variant": "MiG-29UPG upgrade",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's MiG-29 fleet underwent MiG-29UPG modernization with new avionics, radar, weapons-control and EW systems.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "Hindustan Aeronautics Limited (HAL)",
+    "country": "Russia / India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — Tier C compact card",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Maker": "Hindustan Aeronautics Limited (HAL)",
+    "Country": "Russia / India",
+    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; vertical non-zero requirement satisfied with placeholder",
+    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection",
+    "Reported IAF fleet": "About 66",
+    "Upgrade": "MiG-29UPG"
+  },
+  "what_it_is": {
+    "prose": "DRDO's 2024 news-clipping record reports about 66 IAF MiG-29 aircraft in service and describes extensive modernization that created the MiG-29UPG configuration. The upgrade included airframe work, new avionics, radar, missiles, weapon-control systems and electronic warfare. The same record reports that the IAF was considering a further life-extension programme. The aircraft remains Soviet/Russian-origin; the dossier records Indian upgrade and sustainment participation without asserting unsupported localization percentages.",
+    "sources": [
+      "src-9",
+      "src-10",
+      "src-11",
+      "src-live"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-9",
+      "title": "IAF seeks urgent upgradation of MiG-29 fighters",
+      "publisher": "DRDO News Clippings",
+      "url": "https://www.drdo.gov.in/drdo/sites/default/files/drdo-news-documents/NPC13Aug2024.pdf",
+      "published_date": "2024-08-12",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "66 IAF MiG-29 in service; extensive UPG completed; second life extension discussed."
+    },
+    {
+      "id": "src-10",
+      "title": "Annual Reports",
+      "publisher": "Hindustan Aeronautics Limited",
+      "url": "https://www.hal-india.co.in/investors/annual-report",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "HAL investor/annual-report archive used as corporate provenance; exact MiG-29 programme quantities not inferred."
+    },
+    {
+      "id": "src-11",
+      "title": "Investor information",
+      "publisher": "Hindustan Aeronautics Limited",
+      "url": "https://hal-india.co.in/investor",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Corporate investor portal."
+    },
+    {
+      "id": "src-live",
+      "title": "Military Aerospace Atlas directory",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/military-aerospace/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Directory provenance only; never treated as official."
+    }
+  ],
+  "seo": {
+    "title": "HAL MiG-29UPG — Platform · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "HAL MiG-29UPG — Tier C compact card; military-aerospace vertical non-zero requirement satisfied. Manufacturer: Hindustan Aeronautics Limited (HAL). Country: Rus",
+    "canonical_path": "/research/military-aerospace/entity/hal-mig-29upg-mae-001/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/entity/",
+    "submit_correction": "/research/military-aerospace/entity/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is UPG?",
+      "answer": "Modernized MiG-29 with upgraded avionics, radar, weapons-control and EW.",
+      "sources": [
+        "src-9"
+      ]
+    },
+    {
+      "question": "Reported fleet?",
+      "answer": "About 66 IAF aircraft.",
+      "sources": [
+        "src-9"
+      ]
+    },
+    {
+      "question": "Indigenous?",
+      "answer": "No; Soviet/Russian-origin.",
+      "sources": [
+        "src-9"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1986",
+      "event": "MiG-29 inducted."
+    },
+    {
+      "date": "2010s",
+      "event": "UPG modernization."
+    },
+    {
+      "date": "2024",
+      "event": "Further life-extension requirement reported."
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/pillars/defence/entity/hal-su-30mki-def-015/"
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  }
+}

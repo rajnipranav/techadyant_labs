@@ -1,0 +1,413 @@
+{
+  "entity_id": "atl-cmp-hindustan-aeronautics-limited",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "hindustan-aeronautics-limited",
+  "name": "Hindustan Aeronautics Limited (HAL)",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/hindustan-aeronautics-limited/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "HAL is India's largest Defence PSU and the country's principal aerospace OEM, designing and manufacturing fixed-wing combat aircraft (Tejas, Su-30MKI licence build), trainers (HTT-40), and helicopters",
+    "chips": [
+      "defence",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India (15/1, Cubbon Road)",
+    "Type": "Company (listed)",
+    "Founded": "22 December 1940 (as Hindustan Aircraft Company; nationalised and merged into HAL in 1964)",
+    "India entity": null,
+    "Listed": "NSE: HAL | BSE: 541154 (IPO 2018; Government of India holds 89.97%); conferred 'Maharatna' CPSE status",
+    "Key India role": "HAL is India's largest Defence PSU and the country's principal aerospace OEM, designing and manufacturing fixed-wing combat aircraft (Tejas, Su-30MKI licence build), trainers (HTT-40), and helicopters"
+  },
+  "what_it_is": {
+    "prose": "HAL is India's largest Defence PSU and the country's principal aerospace OEM, designing and manufacturing fixed-wing combat aircraft (Tejas, Su-30MKI licence build), trainers (HTT-40), and helicopters (Dhruv ALH, Rudra, Prachand LCH, Light Utility Helicopter). FY2024-25 provisional revenue reached ₹30,400 crore (~US$3.6-4.0 bn) per the 62nd Annual Report. HAL is the prime contractor for the LCA Tejas Mk1A (180 aircraft on order across two IAF contracts: 83 in Feb 2021 for ₹48,000 Cr and 97 in Sep 2025 for ~₹62,700 Cr); is restarting licensed production of 12 Su-30MKI at Nashik (~₹11,000-13,500 Cr); and is lead integrator for the indigenous 5th-generation AMCA programme (entry to service post-2035). HAL also holds an Mar 2025 ₹62,700 Cr contract for 156 Prachand LCH (66 IAF + 90 Army), a Mar 2023 ₹6,838 Cr contract for 70 HTT-40 basic trainers, and a Mar 2024 ₹8,073 Cr contract for 34 ALH Dhruv Mk-III helicopters (Army + Coast Guard). AMCA prototype manufacturing is being competitively awarded with seven private firms bidding.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "6 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "LCA Tejas Mk1A (Light Combat Aircraft)",
+        "role": "OEM",
+        "india_status": "180 ordered across two IAF contracts (83 + 97). First batch of 5 ready for delivery Feb 2026; IAF targeting first Mk1A squadron by March 2027. Initial deliveries delayed by GE F404 engine supply disruption; HAL ordered 113 additional engines Nov 2025",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Sukhoi Su-30MKI (licence production at Nashik)",
+        "role": "OEM",
+        "india_status": "Original production run of 272 completed 2020. Restart contract for 12 new aircraft valued at ~₹11,000-13,500 Cr signed Sep 2024; production at Nashik to begin 2027-28; deliveries by 2029. HAL Koraput factory to supply 30 engines/yr. Ozar overhaul plant capacity to be raised from 12 to 25 jets/yr",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "ALH Dhruv Mk-III (Advanced Light Helicopter)",
+        "role": "OEM",
+        "india_status": "73 ALH Mk-III under production for Army (41), Navy (16) and Coast Guard (16). Mar 2024 MoD contract worth ₹8,073 Cr for 34 ALH Mk-III (Army + ICG). ICG has lost 2 ALH Mk-III in fatal accidents (incl. Jan 2025 crash)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "LCH Prachand (Light Combat Helicopter)",
+        "role": "OEM",
+        "india_status": "Inducted 3 Oct 2022. Mar 28 2025 MoD signed two contracts totalling ₹62,700 Cr for 156 LCH Prachand (66 to IAF + 90 to Army Aviation Corps). Earlier orders: 15 LCH (IAF + Army) initial contract. Positioning as high-altitude complement/alternative to AH-64E Apache in Himalayas",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "HTT-40 (Hindustan Turbo Trainer-40)",
+        "role": "OEM",
+        "india_status": "Indigenous basic trainer. Cabinet approved procurement 1 Mar 2023; ₹6,838 Cr contract signed 7 Mar 2023 for 70 aircraft for IAF (~$827M, incl. equipment and training systems)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "AMCA (Advanced Medium Combat Aircraft) — 5th-gen stealth",
+        "role": "OEM",
+        "india_status": "Twin-engine 5th-gen stealth fighter under development by ADA with HAL as lead production agency; first test model unveiled June 2026; expected entry into service after 2035 with >125 jets planned. Seven private firms bidding for prototype manufacturing Oct 2025",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "LCA Tejas Mk1A — 180 aircraft across two contracts (Feb 2021 ₹48,000 Cr for 83; Sep 2025 ~₹62,700 Cr for 97)",
+        "year": "2021-2034",
+        "quantity_or_note": "180",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "HTT-40 basic trainer — 70 aircraft ₹6,838 Cr contract (Mar 2023)",
+        "year": "2023",
+        "quantity_or_note": "70",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "IAF + Indian Army (Aviation Corps)",
+        "context": "LCH Prachand — 156 helicopters ₹62,700 Cr (Mar 2025)",
+        "year": "2025",
+        "quantity_or_note": "156 (66 IAF + 90 Army)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Army + Indian Coast Guard",
+        "context": "ALH Dhruv Mk-III — 34 helicopters ₹8,073 Cr (Mar 2024)",
+        "year": "2024",
+        "quantity_or_note": "34",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Restart of Su-30MKI licence production at Nashik for 12 aircraft to replenish attrition losses (~₹11,000 Cr)",
+        "year": "2024-2029",
+        "quantity_or_note": "12",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "10 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "5 official, 4 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was HAL founded and where is it headquartered?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is HAL's stock ticker and is it listed on NSE and BSE?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "How many Tejas Mk1A fighter jets has the IAF ordered from HAL?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the value of HAL's March 2025 contract for 156 Prachand LCH helicopters?",
+      "answer": "HAL also holds an Mar 2025 ₹62,700 Cr contract for 156 Prachand LCH (66 IAF + 90 Army), a Mar 2023 ₹6,838 Cr contract for 70 HTT-40 basic trainers, and a Mar 2024 ₹8,073 Cr contract for 34 ALH Dhruv Mk-III helicopters (Army + Coast Guard).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When will HAL restart Su-30MKI production at Nashik and how many jets will be built?",
+      "answer": "HAL is the prime contractor for the LCA Tejas Mk1A (180 aircraft on order across two IAF contracts: 83 in Feb 2021 for ₹48,000 Cr and 97 in Sep 2025 for ~₹62,700 Cr); is restarting licensed production of 12 Su-30MKI at Nashik (~₹11,000-13,500 Cr); and is lead integrator for the indigenous 5th-generation AMCA programme (entry to service post-2035).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the AMCA programme and when is the AMCA expected to enter service?",
+      "answer": "HAL is the prime contractor for the LCA Tejas Mk1A (180 aircraft on order across two IAF contracts: 83 in Feb 2021 for ₹48,000 Cr and 97 in Sep 2025 for ~₹62,700 Cr); is restarting licensed production of 12 Su-30MKI at Nashik (~₹11,000-13,500 Cr); and is lead integrator for the indigenous 5th-generation AMCA programme (entry to service post-2035).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.hal-india.co.in",
+      "publisher": "HAL Official",
+      "url": "https://www.hal-india.co.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.hal-india.co.in/investors/annual-report",
+      "publisher": "HAL",
+      "url": "https://www.hal-india.co.in/investors/annual-report",
+      "published_date": "2025-26",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://en.wikipedia.org/wiki/Hindustan_Aeronautics_Limited",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hindustan_Aeronautics_Limited",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://www.bseindia.com/xml-data/corpfiling/Attachhis/425a7379-6556-41a7-8edf-41b26574a53e.pdf",
+      "publisher": "BSE India / HAL 62nd Annual Report 2024-25",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/Attachhis/425a7379-6556-41a7-8edf-41b26574a53e.pdf",
+      "published_date": "Aug 28, 2025",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2116411",
+      "publisher": "PIB India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2116411",
+      "published_date": "Mar 28, 2025",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1904828",
+      "publisher": "PIB India",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1904828",
+      "published_date": "Mar 7, 2023",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2014340",
+      "publisher": "PIB India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2014340",
+      "published_date": "Mar 13, 2024",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.asianmilitaryreview.com/2025/09/hal-bags-order-for-97-additional-tejas-fighters-foc",
+      "publisher": "Asian Military Review",
+      "url": "https://www.asianmilitaryreview.com/2025/09/hal-bags-order-for-97-additional-tejas-fighters-foc",
+      "published_date": "Sep 29, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.eurasiantimes.com/india-bets-on-record-156-prachand-lch-orders",
+      "publisher": "Eurasian Times",
+      "url": "https://www.eurasiantimes.com/india-bets-on-record-156-prachand-lch-orders",
+      "published_date": "Dec 16, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.ndtv.com/india-news/india-fifth-generation-stealth-fighter-advanced-medium-combat-aircraft-prototype-seven-companies-bid-9376292",
+      "publisher": "NDTV",
+      "url": "https://www.ndtv.com/india-news/india-fifth-generation-stealth-fighter-advanced-medium-combat-aircraft-prototype-seven-companies-bid-9376292",
+      "published_date": "Oct 1, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Hindustan Aeronautics Limited (HAL) — Company · India Defence Atlas | Techadyant",
+    "meta_description": "Hindustan Aeronautics Limited (HAL) company dossier: India defence role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/pillars/defence/entity/hindustan-aeronautics-limited/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/hindustan-aeronautics-limited/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "entity_id": "def-007",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "p15b-destroyer-def-007",
+  "name": "P15B Visakhapatnam-class Destroyer",
+  "variant": "Project 15B (4 ships)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Four-ship Indian Navy destroyer class; all commissioned 2021-2024; LR-SAM (Barak-8), BrahMos, 76mm SRGM, RBU-6000; indigenous content ~72%.",
+    "chips": [
+      "Destroyer",
+      "Indian Navy",
+      "MDL",
+      "BrahMos",
+      "Barak-8",
+      "Operational"
+    ],
+    "maker": "Mazagon Dock Shipbuilders Limited (MDL) — builder; DRDO/Indian Navy — design; Russian Zorya-Mashproekt — propulsion",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Mazagon Dock Shipbuilders Limited (MDL) — builder; Directorate of Naval Design (Indian Navy) — design",
+    "Ships": "INS Visakhapatnam (D66, commissioned 2021-11-21), INS Mormugao (D67, 2022-12-18), INS Imphal (D68, 2023-12-26), INS Surat (D69, 2024-01-15)",
+    "Displacement": "~7,400 tonnes full load",
+    "Length": "163 m",
+    "Beam": "17 m",
+    "Propulsion": "Combined Gas and Gas (COGAG) — 4 × Zorya-Mashproekt M36E gas turbines (Ukraine), 64 MW total",
+    "Speed": "30+ knots",
+    "Complement": "~315 (incl. officers)",
+    "Armament": "LR-SAM (Barak-8, 32 cells), BrahMos (16 cells), 76mm SRGM (Oto Melara licence, BEL-produced), RBU-6000 ASW rocket launcher, 533mm torpedo tubes",
+    "Sensors": "EL/M-2248 MF-STAR radar (Israel), BEL raw radar, BEL Humsa-NG hull sonar",
+    "Indigenous_content": "~72% (per MDL)"
+  },
+  "what_it_is": {
+    "prose": "The P15B Visakhapatnam-class is a four-ship destroyer class of the Indian Navy, built by Mazagon Dock Shipbuilders Limited (MDL) at Mumbai and designed by the Indian Navy's Directorate of Naval Design. The four ships — INS Visakhapatnam (commissioned 21 November 2021), INS Mormugao (18 December 2022), INS Imphal (26 December 2023), and INS Surat (15 January 2024) — are all operational as of 2026. The class displaces approximately 7,400 tonnes full load, is 163 m long with a 17 m beam, and is powered by a Combined Gas and Gas (COGAG) propulsion system comprising four Zorya-Mashproekt M36E gas turbines from Ukraine totalling 64 MW, giving a top speed of 30+ knots. Armament includes the LR-SAM (Barak-8) air defence missile system in 32 vertical launch cells, 16 BrahMos supersonic cruise missile cells, a 76mm Oto Melara SRGM (license-produced by BEL), RBU-6000 anti-submarine rocket launchers, and 533mm torpedo tubes. Sensors include the EL/M-2248 MF-STAR multi-function surveillance radar (Israel), BEL raw radar, and the BEL Humsa-NG hull-mounted sonar. Indigenous content is approximately 72% per MDL. The P15B class is an evolution of the preceding P15A Kolkata-class (3 ships commissioned 2014-2016) with enhanced stealth, automation, and indigenous content.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "All four P15B Visakhapatnam-class destroyers are operational with the Indian Navy as of January 2024: INS Visakhapatnam (commissioned 21 November 2021), INS Mormugao (18 December 2022), INS Imphal (26 December 2023), and INS Surat (15 January 2024). All ships were built by Mazagon Dock Shipbuilders Limited at Mumbai.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "INS Visakhapatnam (D66) commissioned",
+        "year": 2021,
+        "quantity_or_note": "21 November 2021 — first of class",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "INS Mormugao (D67) commissioned",
+        "year": 2022,
+        "quantity_or_note": "18 December 2022",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "INS Imphal (D68) commissioned",
+        "year": 2023,
+        "quantity_or_note": "26 December 2023 — first Indian warship named after a North-East city",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "INS Surat (D69) commissioned",
+        "year": 2024,
+        "quantity_or_note": "15 January 2024 — final ship of class",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "INS Surat commissioning PIB ID to be verified",
+      "P15B mid-life upgrade timeline not announced"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "Zorya-Mashproekt M36E gas turbines",
+        "severity": "Critical",
+        "note": "Ukraine — supply chain impacted by Russia-Ukraine war",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "EL/M-2248 MF-STAR radar",
+        "severity": "High",
+        "note": "Israel Aerospace Industries (IAI) — being progressively indigenised",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "BrahMos propulsion (ramjet)",
+        "severity": "High",
+        "note": "Russia (NPOM)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "76mm SRGM components",
+        "severity": "Medium",
+        "note": "Oto Melara (Italy) licence, BEL-produced",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Directorate of Naval Design (Indian Navy) — indigenous design",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Mazagon Dock Shipbuilders Limited — Indian PSU",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Gas turbines Ukraine; radar Israel; BrahMos propulsion Russia",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "4 ships operational; ~72% indigenous content",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "No exports of P15B; Indian Navy priority for own fleet",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "p17a-frigate-def-008",
+      "p75i-submarine-def-009"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "INS Surat commissioning PIB ID to be verified",
+    "P15B mid-life upgrade timeline not announced"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Visakhapatnam-class destroyer",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Visakhapatnam-class_destroyer",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "P15B class specifications and ship commissioning dates"
+    },
+    {
+      "id": "src-2",
+      "title": "Mazagon Dock Shipbuilders Limited",
+      "publisher": "Mazagon Dock Shipbuilders Limited",
+      "url": "https://mazagondock.in",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — MDL corporate homepage; specific P15B programme page preferred"
+    },
+    {
+      "id": "src-3",
+      "title": "INS Surat: Third ship of Project 15B commissioned",
+      "publisher": "Press Information Bureau, Ministry of Defence",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1993800",
+      "published_date": "2024-01-15",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PIB confirmation of INS Surat commissioning — wait, INS Surat was the 4th ship; verify"
+    },
+    {
+      "id": "src-4",
+      "title": "Mazagon Dock Shipbuilders Limited — Defence Shipbuilding",
+      "publisher": "Mazagon Dock Shipbuilders Limited",
+      "url": "https://mazagondock.in/defence-shipbuilding",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "MDL defence shipbuilding corporate page documenting P15B Visakhapatnam-class destroyer programme and indigenous content ~72%"
+    }
+  ],
+  "seo": {
+    "title": "P15B Visakhapatnam-class Destroyer — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "Four-ship Indian Navy destroyer class; all commissioned 2021-2024; LR-SAM (Barak-8), BrahMos, 76mm SRGM, RBU-6000; indigenous content ~72%.",
+    "canonical_path": "/research/pillars/defence/entity/p15b-destroyer-def-007/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/",
+    "submit_correction": "/research/pillars/defence/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "How many P15B Visakhapatnam-class destroyers are in service?",
+      "answer": "All four ships of the P15B Visakhapatnam-class are operational with the Indian Navy as of January 2024: INS Visakhapatnam (commissioned 21 November 2021), INS Mormugao (18 December 2022), INS Imphal (26 December 2023 — the first Indian warship named after a North-East city), and INS Surat (15 January 2024). All were built by Mazagon Dock Shipbuilders Limited at Mumbai.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What is the indigenous content of the P15B class?",
+      "answer": "Indigenous content is approximately 72% per MDL. The class is designed by the Indian Navy's Directorate of Naval Design and built by Mazagon Dock Shipbuilders Limited (MDL). Major imported components include the Zorya-Mashproekt M36E gas turbines from Ukraine (propulsion), the EL/M-2248 MF-STAR radar from Israel Aerospace Industries, and BrahMos propulsion components from Russia (NPOM).",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What is the propulsion chokepoint for the P15B class?",
+      "answer": "The P15B class is powered by a Combined Gas and Gas (COGAG) propulsion system comprising four Zorya-Mashproekt M36E gas turbines from Ukraine totalling 64 MW. The Russia-Ukraine war has disrupted the supply chain for these turbines and spare parts, creating a strategic risk for the Indian Navy's destroyer and frigate programmes. India is working on indigenous marine gas turbine alternatives but none are yet in production.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ]
+}

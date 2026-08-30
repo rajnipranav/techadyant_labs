@@ -1,0 +1,386 @@
+{
+  "entity_id": "safran",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "safran",
+  "name": "Safran Aircraft Engines",
+  "variant": "Safran group (India)",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "French aero-engine major and the Safran group's core propulsion arm: the M88 powers the IAF's Rafale fleet, Safran opened a €200M LEAP MRO in Hyderabad and a >€40M M88 module MRO, and its SAFHAL JV with HAL is developing the Aravalli helicopter engine — Safran targets tripling India revenue past €3bn by 2030.",
+    "chips": [
+      "A",
+      "Aero-engines",
+      "M88 (Rafale)",
+      "LEAP MRO Hyderabad",
+      "SAFHAL / Aravalli",
+      "Shakti / Ardiden",
+      "HAL JV",
+      "Make in India"
+    ],
+    "maker": "Safran S.A.",
+    "country": "France",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign design authority; deepening India MRO/manufacturing (LEAP & M88 MRO Hyderabad, SAFHAL JV, Shakti co-production)",
+    "mobility_or_class": "Fighter, transport, helicopter and commercial aero-engine OEM + MRO",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Safran Aircraft Engines (part of Safran S.A.)",
+    "HQ": "Paris, France",
+    "India_presence": "~3,000–3,500 employees across 18 sites; more than 70 years in India",
+    "India_status": "Strong, operational India footprint — M88 in IAF Rafale service, LEAP & M88 MRO in Hyderabad, SAFHAL JV with HAL, Shakti/Ardiden co-production",
+    "Tier_A_reason": "Engines in Indian military service (M88) plus multiple operational India facilities, a HAL JV and abundant primary/credible sourcing",
+    "LEAP_MRO_Hyderabad": "€200M, 45,000 m², 300 LEAP shop visits/yr, up to 1,100 jobs at full capacity; operational 2026",
+    "M88_MRO_Hyderabad": ">€40M, 5,000 m², 600+ engine modules/yr, up to 150 jobs; supports Rafale and Mirage 2000",
+    "M88_role": "M88 powers India's Rafale fighters (36 IAF + 26 naval Rafale-M ordered); localization/T-Rex growth discussed",
+    "SAFHAL_JV": "50/50 SAFHAL Helicopter Engines JV with HAL — developing the Aravalli engine for IMRH/DBMRH (final contract 30 Aug 2024)",
+    "Shakti_Ardiden": "Ardiden 1H1 'Shakti' co-developed with HAL, powering HAL Dhruv/LCH/LUH; 1,200+ Safran helicopter engines in Indian service",
+    "Revenue_target": "Safran to triple India revenue to exceed €3bn by 2030 (half generated in India)"
+  },
+  "what_it_is": {
+    "prose": "Safran Aircraft Engines is the propulsion arm of France's Safran S.A. and one of the world's largest aero-engine makers; it develops the M88 fighter engine, is CFM International's partner on the LEAP commercial engine (with GE), and anchors the Safran group's deep and expanding India footprint of roughly 3,000–3,500 employees across 18 sites built over more than 70 years. Its most direct Indian military relevance is the M88 turbofan, which powers the Indian Air Force's Rafale fighters (36 delivered) and will power the 26 naval Rafale-M on order; Safran has opened a dedicated M88 MRO shop in Hyderabad (over €40 million, ~5,000 m², capacity for 600+ engine modules a year, supporting Rafale and Mirage 2000) and is in discussions on progressively localising M88 assembly to meet indigenous-content targets under the wider MRFA fighter competition. Alongside it, Safran opened a €200 million LEAP-engine MRO facility in Hyderabad (~45,000 m², 300 shop visits a year, up to 1,100 jobs at full capacity) — India being CFM's third-largest LEAP market with 400-plus LEAP-powered aircraft and 2,000 engines on order. On rotorcraft, Safran (through Safran Helicopter Engines) co-developed the Ardiden 1H1 'Shakti' with HAL — powering HAL's Dhruv (ALH), Light Combat Helicopter and Light Utility Helicopter — and in August 2024 finalised the 50/50 SAFHAL Helicopter Engines joint venture with HAL to develop and produce the ~1,500 kW-class Aravalli engine for India's future Indian Multi-Role Helicopter (IMRH) and Deck-Based Multi-Role Helicopter (DBMRH). Safran has stated it will triple its India revenue to more than €3 billion by 2030, half generated locally, and is in talks with India on a clean-sheet fighter engine for the AMCA. Note on scope: the group's helicopter-engine work (Shakti, Aravalli/SAFHAL) sits under Safran Helicopter Engines, a sibling company within Safran, while the M88 and LEAP MRO are Safran Aircraft Engines proper; this dossier treats the Safran-group aero-propulsion presence as one entity while flagging the internal division.",
+    "sources": [
+      "src-safran-2025",
+      "src-safran-india",
+      "src-avweek-leap",
+      "src-safhal-pr",
+      "src-newsonair-mro"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Safran's Indian propulsion footprint runs across fighter, commercial and helicopter engines and is increasingly local: M88 engines power the IAF Rafale and 26 naval Rafale-M; a dedicated M88 MRO and a €200M LEAP MRO are operational in Hyderabad; the SAFHAL JV with HAL is developing the Aravalli helicopter engine; and the Shakti/Ardiden co-production with HAL already powers Indian rotorcraft fleets. Safran plans to more than triple India revenue past €3bn by 2030.",
+    "rows": [
+      {
+        "agency": "Indian Air Force / Indian Navy (Rafale)",
+        "context": "M88 turbofan powering IAF Rafale (36) and 26 naval Rafale-M on order",
+        "year": 2020,
+        "quantity_or_note": "Engine OEM for the Rafale fleet; M88 MRO shop in Hyderabad supports Rafale + Mirage 2000",
+        "sources": [
+          "src-safran-2025",
+          "src-safran-india"
+        ]
+      },
+      {
+        "agency": "Safran Aircraft Engines — Hyderabad",
+        "context": "LEAP-engine MRO facility (CFM/LEAP commercial)",
+        "year": 2026,
+        "quantity_or_note": "€200M, 45,000 m², 300 shop visits/yr, up to 1,100 jobs; inaugurated with PM Modi (Nov 2025)",
+        "sources": [
+          "src-avweek-leap",
+          "src-newsonair-mro"
+        ]
+      },
+      {
+        "agency": "Safran Aircraft Engines — Hyderabad",
+        "context": "M88 fighter-engine MRO shop (Rafale / Mirage 2000)",
+        "year": 2025,
+        "quantity_or_note": ">€40M, 5,000 m², 600+ engine modules/yr, up to 150 jobs",
+        "sources": [
+          "src-safran-2025"
+        ]
+      },
+      {
+        "agency": "SAFHAL Helicopter Engines (Safran–HAL 50/50 JV)",
+        "context": "Development & production of the Aravalli engine for IMRH / DBMRH",
+        "year": 2024,
+        "quantity_or_note": "Final contract 30 Aug 2024; ~1,500 kW class for 13-tonne multi-role helicopters (reported 3,500–4,000 engines)",
+        "sources": [
+          "src-safhal-pr",
+          "src-aft-aravalli"
+        ]
+      },
+      {
+        "agency": "HAL (Shakti / Ardiden 1H1)",
+        "context": "Ardiden 1H1 'Shakti' co-developed with HAL — powers Dhruv/LCH/LUH",
+        "year": null,
+        "quantity_or_note": "1,200+ Safran helicopter engines in service with the Indian armed forces",
+        "sources": [
+          "src-safran-india"
+        ]
+      },
+      {
+        "agency": "India (AMCA engine — reported)",
+        "context": "Talks on co-developing a clean-sheet fighter engine for the AMCA programme",
+        "year": 2025,
+        "quantity_or_note": "Under negotiation; no signed contract confirmed",
+        "sources": [
+          "src-agn-amca"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Degree and timing of M88 assembly localization in India remain MRFA-dependent and unconfirmed",
+      "AMCA engine co-development with Safran is in negotiation; no signed agreement or workshare disclosed",
+      "Aravalli engine quantity (reported 3,500–4,000) not confirmed by primary source; entry-into-service date open"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Safran's Indian engine business currently rests on foreign design authority: the M88, LEAP and Ardiden/Shakti cores are French-designed, with India's value-add concentrated in MRO (Hyderabad LEAP and M88 shops), Shakti co-production and the planned Aravalli JV. Hot-section technology, single-crystal turbine blades, FADEC and the core design IP remain with Safran in France until localization and the SAFHAL/AMCA programmes mature.",
+    "items": [
+      {
+        "component": "M88 turbofan core (design authority)",
+        "severity": "High",
+        "note": "Rafale engine; India role is MRO + prospective localization, not design",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-safran-2025"
+        ]
+      },
+      {
+        "component": "Hot-section materials / single-crystal turbine blades",
+        "severity": "High",
+        "note": "High-temperature turbine technology retained in France",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "FADEC / engine control electronics",
+        "severity": "Medium",
+        "note": "Supplied within Safran's global supply chain",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Aravalli / next-gen helicopter engine core IP",
+        "severity": "Medium",
+        "note": "To be co-developed under SAFHAL JV; design maturity and India workshare still being established",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-safhal-pr"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 1,
+        "note": "Engine design authority is French; India role is MRO/co-production, with Aravalli/AMCA co-design prospective",
+        "sources": [
+          "src-safran-2025"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "India production / localization",
+        "value": 3,
+        "note": "Shakti co-production with HAL, LEAP & M88 MRO operational in Hyderabad, SAFHAL JV forming",
+        "sources": [
+          "src-safran-india",
+          "src-avweek-leap"
+        ]
+      },
+      {
+        "id": "in_service",
+        "label": "In Indian service",
+        "value": 5,
+        "note": "M88 on Rafale; 1,200+ Safran helicopter engines in Indian service",
+        "sources": [
+          "src-safran-india"
+        ]
+      },
+      {
+        "id": "footprint_scale",
+        "label": "India footprint scale",
+        "value": 5,
+        "note": "~3,000–3,500 staff, 18 sites, >€200M invested, revenue target >€3bn by 2030",
+        "sources": [
+          "src-safran-2025",
+          "src-safran-india"
+        ]
+      },
+      {
+        "id": "partnership",
+        "label": "Indigenous partnership depth",
+        "value": 4,
+        "note": "50/50 SAFHAL JV with HAL, Shakti co-development, BEL 'Hammer' weapon tie-up",
+        "sources": [
+          "src-safhal-pr",
+          "src-safran-2025"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "rr",
+      "pwc",
+      "iae",
+      "europrop",
+      "safran-landing"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "hal"
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2024-08-30",
+      "event": "HAL and Safran finalise the 50/50 SAFHAL Helicopter Engines JV to develop the Aravalli engine for IMRH/DBMRH",
+      "sources": [
+        "src-safhal-pr"
+      ]
+    },
+    {
+      "date": "2025-02",
+      "event": "Safran announces >€30M additional India investment (Bangalore engineering + electronics/actuation manufacturing)",
+      "sources": [
+        "src-safran-2025"
+      ]
+    },
+    {
+      "date": "2025-11-24",
+      "event": "Safran signs 'Hammer' precision-weapon partnership with Bharat Electronics Limited",
+      "sources": [
+        "src-safran-2025"
+      ]
+    },
+    {
+      "date": "2025-11-26",
+      "event": "PM Modi inaugurates Safran's Hyderabad engine MRO facility; Safran targets tripling India revenue past €3bn by 2030",
+      "sources": [
+        "src-newsonair-mro",
+        "src-safran-2025"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Which Indian aircraft use Safran engines?",
+      "answer": "The Safran M88 turbofan powers the Indian Air Force's Rafale fighters (36 delivered) and will power the 26 naval Rafale-M on order. The Safran-HAL Ardiden 1H1 'Shakti' powers HAL's Dhruv (ALH), Light Combat Helicopter and Light Utility Helicopter; Safran says more than 1,200 of its helicopter engines are in service with the Indian armed forces.",
+      "sources": [
+        "src-safran-india",
+        "src-safran-2025"
+      ]
+    },
+    {
+      "question": "What engine MRO does Safran run in India?",
+      "answer": "Safran has opened two engine MRO shops in Hyderabad: a €200 million LEAP-engine facility (about 45,000 m², capacity for 300 shop visits a year and up to 1,100 jobs at full capacity) and a more than €40 million M88 fighter-engine module shop (about 5,000 m², 600+ modules a year, up to 150 jobs) supporting Rafale and Mirage 2000. PM Modi inaugurated the facility in November 2025.",
+      "sources": [
+        "src-avweek-leap",
+        "src-safran-2025",
+        "src-newsonair-mro"
+      ]
+    },
+    {
+      "question": "What is the SAFHAL / Aravalli helicopter-engine joint venture?",
+      "answer": "SAFHAL Helicopter Engines is a 50/50 joint venture between Safran Helicopter Engines and Hindustan Aeronautics Limited, whose final contract was signed on 30 August 2024. It will develop and produce the ~1,500 kW-class Aravalli engine to power India's future 13-tonne Indian Multi-Role Helicopter (IMRH) and Deck-Based Multi-Role Helicopter (DBMRH). This work sits under Safran Helicopter Engines, a sibling company of Safran Aircraft Engines within the Safran group.",
+      "sources": [
+        "src-safhal-pr",
+        "src-aft-aravalli"
+      ]
+    }
+  ],
+  "open_questions": [
+    "M88 localization depth/timeline is MRFA-dependent and not yet contracted",
+    "AMCA fighter-engine co-development with Safran remains in negotiation",
+    "Aravalli engine quantity and entry-into-service date not confirmed by primary source"
+  ],
+  "sources": [
+    {
+      "id": "src-safran-2025",
+      "title": "Safran steps up expansion in India for civil and military aviation and deepens commitment to 'Make in India'",
+      "publisher": "Safran S.A.",
+      "url": "https://www.safran-group.com/pressroom/safran-steps-expansion-india-civil-and-military-aviation-and-deepens-commitment-make-india-2025-11-26",
+      "published_date": "2025-11-26",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official Safran release: 18 sites, ~3,000 staff, LEAP MRO €200M / M88 MRO >€40M figures, €3bn-by-2030 revenue target, BEL Hammer tie-up, SAFHAL"
+    },
+    {
+      "id": "src-safran-india",
+      "title": "India — Safran, a strong industrial presence in India",
+      "publisher": "Safran S.A.",
+      "url": "https://www.safran-group.com/countries/india",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official Safran India country page: M88 for 62 Rafale, 1,200+ helicopter engines in Indian service, Shakti/Ardiden co-development, Hyderabad LEAP MRO"
+    },
+    {
+      "id": "src-avweek-leap",
+      "title": "Safran Opens Hyderabad LEAP MRO Facility",
+      "publisher": "Aviation Week Network",
+      "url": "https://aviationweek.com/mro/aircraft-propulsion/safran-opens-hyderabad-leap-mro-facility",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Independent report of Safran's Hyderabad LEAP engine MRO facility"
+    },
+    {
+      "id": "src-safhal-pr",
+      "title": "HAL selects SAFHAL Helicopter Engines to develop and produce Aravalli engines for IMRH and DBMRH platforms",
+      "publisher": "Safran S.A.",
+      "url": "https://www.safran-group.com/pressroom/hal-choisit-safhal-helicopter-engines-developper-produire-moteurs-aravalli-destines-aux-helicopteres-2024-08-30",
+      "published_date": "2024-08-30",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official release on the SAFHAL 50/50 JV and Aravalli engine for IMRH/DBMRH"
+    },
+    {
+      "id": "src-newsonair-mro",
+      "title": "PM Modi to inaugurate Safran's first MRO facility in India at Hyderabad",
+      "publisher": "All India Radio News (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/pm-modi-to-inaugurate-safrans-first-mro-facility-in-india-at-hyderabad/",
+      "published_date": "2025-11-26",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Indian government broadcaster confirming PM Modi's inauguration of Safran's Hyderabad engine MRO"
+    },
+    {
+      "id": "src-aft-aravalli",
+      "title": "HAL and Safran agree to co-develop Aravalli engine for helicopters",
+      "publisher": "Airforce Technology",
+      "url": "https://www.airforce-technology.com/news/hal-safran-india-helicopter-engine/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Independent report on the HAL-Safran Aravalli engine agreement"
+    },
+    {
+      "id": "src-agn-amca",
+      "title": "Safran & India to co-develop clean sheet fighter jet engine for AMCA",
+      "publisher": "Aerospace Global News",
+      "url": "https://aerospaceglobalnews.com/news/safran-india-fighter-jet-engine-amca/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Reported AMCA clean-sheet engine co-development talks; not a signed contract"
+    }
+  ],
+  "seo": {
+    "title": "Safran Aircraft Engines — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Safran's M88 powers the IAF Rafale; it opened €200M LEAP and M88 engine MRO shops in Hyderabad and runs the SAFHAL/Aravalli helicopter-engine JV with HAL.",
+    "canonical_path": "/research/military-aerospace/company/safran/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/company/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "entity_id": "spc-002",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "isro-lvm3-spc-002",
+  "name": "ISRO LVM3 (Launch Vehicle Mark 3 / GSLV Mk III)",
+  "variant": "LVM3 / GSLV Mk III",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "LVM3 is India's heavy operational launcher, with nine listed missions and a human-rated path for Gaganyaan.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "Indian Space Research Organisation (ISRO)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — Tier C compact card",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Maker": "Indian Space Research Organisation (ISRO)",
+    "Country": "India",
+    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; vertical non-zero requirement satisfied with placeholder",
+    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection",
+    "Missions listed": "9",
+    "Human-rating": "Requirements accomplished"
+  },
+  "what_it_is": {
+    "prose": "ISRO lists nine LVM3 missions and reports a July 2026 CE20 flight-acceptance test at 22-tonne thrust. The LVM3 programme has supported Chandrayaan missions, OneWeb commercial launches and BlueBird Block-2. ISRO also states that human-rating qualification requirements for the CE20 engine were accomplished for the Gaganyaan path. The dossier treats LVM3 as an operational Indian heavy launcher and keeps future mission schedules separate from completed flights.",
+    "sources": [
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-3"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-4",
+      "title": "List of LVM3 Launches",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/LVM3_Launchers.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Nine LVM3 missions listed through Dec 2025."
+    },
+    {
+      "id": "src-5",
+      "title": "Flight Acceptance Test of Cryogenic Engine for next LVM3 mission",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/ISRO_conducts_Flight_Acceptance_Test_of_Cryogenic_Engine.html",
+      "published_date": "2026-07-07",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "CE20 flight acceptance test for LVM3-M7; human-rating requirements accomplished."
+    },
+    {
+      "id": "src-6",
+      "title": "LVM3-M6 / BlueBird Block-2 Mission",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/ISRO_EN/LVM3_M6_BlueBird_Block2_Mission.html",
+      "published_date": "2025-12-19",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Sixth operational LVM3 flight; commercial mission."
+    },
+    {
+      "id": "src-3",
+      "title": "Launchers",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/ISRO_EN/Launchers.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PSLV operational workhorse; LVM3 operational and human-rated path for Gaganyaan."
+    }
+  ],
+  "seo": {
+    "title": "ISRO LVM3 (Launch Vehicle Mark 3 / GSLV Mk III) — Platform · India Space Atlas | Techadyant",
+    "meta_description": "ISRO LVM3 (Launch Vehicle Mark 3 / GSLV Mk III) — Tier C compact card; space vertical non-zero requirement satisfied. Manufacturer: Indian Space Research Organi",
+    "canonical_path": "/research/space/entity/isro-lvm3-spc-002/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/entity/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "How many missions?",
+      "answer": "Nine listed.",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "question": "Upper-stage engine?",
+      "answer": "Indigenously developed CE20.",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "question": "Commercial?",
+      "answer": "Yes, including OneWeb and BlueBird-2.",
+      "sources": [
+        "src-6"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025-12-24",
+      "event": "LVM3-M6 / BlueBird-2."
+    },
+    {
+      "date": "2026-07-07",
+      "event": "CE20 flight-acceptance test."
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/space/entity/isro-gaganyaan-spc-003/"
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  }
+}

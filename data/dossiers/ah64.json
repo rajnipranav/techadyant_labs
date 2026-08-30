@@ -1,0 +1,345 @@
+{
+  "entity_id": "ah64",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ah64",
+  "name": "Boeing AH-64E Apache Guardian (India)",
+  "variant": "AH-64E Apache Guardian",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/platform/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India operates the Boeing AH-64E Apache attack helicopter across two services — 22 with the IAF (inducted 2019) and 6 with the Indian Army (fleet completed December 2025) — while Tata Boeing Aerospace in Hyderabad is Boeing's global sole-source producer of Apache fuselages.",
+    "chips": [
+      "A",
+      "India-relevant",
+      "Attack helicopter",
+      "Boeing",
+      "US FMS",
+      "TBAL fuselage",
+      "Two services"
+    ],
+    "maker": "Boeing (fuselages: Tata Boeing Aerospace Limited, Hyderabad)",
+    "country": "USA",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign-origin (US) platform; TBAL Hyderabad is the global sole-source Apache fuselage producer but full aircraft integration is US-based",
+    "mobility_or_class": "Twin-engine attack helicopter",
+    "operational_domains": [
+      "air",
+      "land"
+    ]
+  },
+  "at_a_glance": {
+    "Platform": "Boeing AH-64E Apache Guardian",
+    "Maker": "Boeing (USA)",
+    "Indian_manufacturing": "Tata Boeing Aerospace Limited (TBAL), Hyderabad — global sole-source Apache fuselage producer",
+    "IAF_fleet": "22 (order finalised Sept 2015; inducted 3 September 2019 at Pathankot; all 22 delivered by 2020)",
+    "Army_fleet": "6 (contract 2020; first 3 delivered July 2025, final 3 delivered December 2025)",
+    "Army_basing": "Jodhpur, Rajasthan — 451 Army Aviation Squadron",
+    "Weapons": "Hellfire air-to-ground missiles, 70 mm Hydra rockets, Stinger air-to-air missiles, 30 mm chain gun, fire-control radar",
+    "Acquisition_route": "US Foreign Military Sale"
+  },
+  "what_it_is": {
+    "prose": "The Boeing AH-64E Apache Guardian is India's frontline attack helicopter, now in service with two branches of the armed forces. The Indian Air Force's order for 22 AH-64E was finalised as part of a September 2015 Boeing contract (alongside 15 CH-47F Chinooks); the IAF formally inducted the type on 3 September 2019 at Air Force Station Pathankot, with all 22 delivered by 2020, replacing the ageing Mi-35 fleet. A separate 2020 contract added six AH-64E for the Indian Army; Boeing began delivering these in July 2025 and the Indian Army completed its six-aircraft fleet in December 2025, basing them at Jodhpur under the 451 Army Aviation Squadron. Boeing states that India operates 22 AH-64 Apaches with six more on order for the Army, alongside 11 C-17s, 15 CH-47 Chinooks and 12 P-8Is. India's principal industrial stake in the programme is manufacturing rather than integration: Tata Boeing Aerospace Limited (TBAL) in Hyderabad is Boeing's global sole-source producer of Apache fuselages, having delivered the first Indian Army Apache fuselage on 19 January 2023 and supplied over 190 fuselages to Boeing's Mesa, Arizona final-assembly line, with more than 90% of component parts sourced from over 100 Indian MSMEs. The Atlas treats the Apache as a foreign-origin (US) platform in Indian service with a documented Indian aerostructure role, without converting local fuselage work into an unsupported indigenous-content percentage.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-6"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "India acquired the Apache through two US Foreign Military Sales: 22 AH-64E for the IAF (order finalised September 2015, inducted September 2019, complete by 2020) and 6 AH-64E for the Indian Army (contract 2020, delivered July–December 2025, based at Jodhpur). The IAF fleet replaced the Mi-35. India's industrial role centres on TBAL Hyderabad, the global sole-source Apache fuselage producer.",
+    "rows": [
+      {
+        "agency": "Indian Air Force (via US FMS)",
+        "context": "22 AH-64E Apache order finalised alongside 15 CH-47F Chinooks; inducted at Pathankot to replace Mi-35",
+        "year": 2015,
+        "quantity_or_note": "22 aircraft (order 29 Sept 2015; inducted 3 Sept 2019; all delivered by 2020)",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Army (via US FMS)",
+        "context": "6 AH-64E for Army Aviation; first three delivered July 2025, final three December 2025; 451 Army Aviation Squadron, Jodhpur",
+        "year": 2020,
+        "quantity_or_note": "6 aircraft; reported contract value ~$600 million (2020); fleet completed December 2025",
+        "sources": [
+          "src-4",
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Tata Boeing Aerospace Limited (TBAL), Hyderabad",
+        "context": "Global sole-source Apache fuselage production; delivered first Indian Army Apache fuselage 19 January 2023",
+        "year": 2023,
+        "quantity_or_note": "190+ fuselages supplied to Boeing Mesa; >90% parts from 100+ Indian MSMEs",
+        "sources": [
+          "src-6"
+        ]
+      }
+    ],
+    "open_questions": [
+      "The exact value of the 2020 Indian Army 6-aircraft contract is reported inconsistently (~$600 million per one trade source); no single primary figure confirmed",
+      "Precise IAF Apache basing beyond Pathankot (e.g. a second base) not confirmed in retrieved primary sources"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The Apache is a US-origin Boeing platform acquired via Foreign Military Sales. While TBAL in Hyderabad is the global sole-source producer of the Apache fuselage, final integration, engines, sensors, fire-control radar and weapons are US-supplied, so the delivered aircraft remains an import-dependent platform.",
+    "items": [
+      {
+        "component": "Complete aircraft integration, engines, sensors, fire-control radar",
+        "severity": "Critical",
+        "note": "Final assembly at Boeing Mesa, Arizona; T700 engines, Longbow fire-control radar and mission systems US-origin.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      },
+      {
+        "component": "Weapons (AGM-114 Hellfire, Stinger, 70 mm Hydra rockets)",
+        "severity": "High",
+        "note": "US-origin munitions supplied under the FMS package.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "component": "Fuselage (Tata Boeing Aerospace, Hyderabad)",
+        "severity": "Low",
+        "note": "Indian-manufactured — TBAL is Boeing's global sole-source Apache fuselage producer; a positive local-content point rather than a dependency.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-6"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 0,
+        "note": "US (Boeing) design; no Indian design role",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 2,
+        "note": "Final assembly at Boeing Mesa; but TBAL Hyderabad is global sole-source Apache fuselage producer",
+        "sources": [
+          "src-6"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "Engines, radar, sensors, weapons all US-origin; fuselage Indian-made",
+        "sources": [
+          "src-3",
+          "src-6"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "28 aircraft across two services (22 IAF + 6 Army); TBAL supplies the global fuselage line",
+        "sources": [
+          "src-1",
+          "src-6"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "India exports Apache fuselages via TBAL to Boeing's global programme, but not complete aircraft",
+        "sources": [
+          "src-6"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "/research/military-aerospace/platform/c17/"
+    ],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2015-09-29",
+      "event": "Boeing receives finalised India order for 22 AH-64E Apache and 15 CH-47F Chinook",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2019-09-03",
+      "event": "IAF inducts AH-64E Apache at Air Force Station Pathankot (22 ordered, replacing Mi-35)",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2020",
+      "event": "All 22 IAF Apaches delivered; separate contract signed for 6 AH-64E for the Indian Army",
+      "sources": [
+        "src-6",
+        "src-4"
+      ]
+    },
+    {
+      "date": "2023-01-19",
+      "event": "Tata Boeing Aerospace (Hyderabad) delivers first fuselage for the Indian Army AH-64",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "date": "2025-07",
+      "event": "Boeing delivers first three AH-64E Apaches to the Indian Army (Jodhpur, 451 Army Aviation Squadron)",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2025-12",
+      "event": "Indian Army receives final three Apaches, completing its six-aircraft fleet",
+      "sources": [
+        "src-4"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How many Apaches does India operate and with which services?",
+      "answer": "India operates 28 AH-64E Apaches across two services: 22 with the Indian Air Force (inducted September 2019 at Pathankot, complete by 2020) and 6 with the Indian Army (contract 2020, first three delivered July 2025 and the final three in December 2025, based at Jodhpur under 451 Army Aviation Squadron).",
+      "sources": [
+        "src-1",
+        "src-3",
+        "src-4"
+      ]
+    },
+    {
+      "question": "What is India's manufacturing role in the Apache programme?",
+      "answer": "Tata Boeing Aerospace Limited (TBAL) in Hyderabad is Boeing's global sole-source producer of Apache fuselages. It delivered the first Indian Army Apache fuselage on 19 January 2023 and has supplied over 190 fuselages to Boeing's Mesa, Arizona final-assembly line, with more than 90% of parts from over 100 Indian MSMEs.",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "question": "Is the Apache indigenous to India?",
+      "answer": "No. The AH-64E is a US-origin Boeing platform acquired through Foreign Military Sales. India's fuselages are made in Hyderabad by TBAL, but final integration, engines, fire-control radar, sensors and weapons are all US-supplied, so the delivered aircraft is a foreign-origin platform.",
+      "sources": [
+        "src-3",
+        "src-6"
+      ]
+    }
+  ],
+  "open_questions": [
+    "The exact value of the 2020 Indian Army 6-aircraft contract is reported inconsistently; no single primary figure confirmed",
+    "Precise IAF Apache basing beyond Pathankot is not confirmed in retrieved primary sources"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Boeing India defence presence (fleet numbers)",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2025/alay-parikh-to-lead-business-development-for-boeing-defense-and-",
+      "published_date": "2025-07-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Boeing: India operates 11 C-17s, 22 AH-64 Apaches (with six more on order for the Army), 15 CH-47 Chinooks and 12 P-8Is."
+    },
+    {
+      "id": "src-2",
+      "title": "Boeing Receives Order from India for 22 Apache and 15 Chinook Helicopters",
+      "publisher": "Boeing",
+      "url": "https://boeing.mediaroom.com/2015-09-29-Boeing-Receives-Order-from-India-for-22-Apache-and-15-Chinook-Helicopters",
+      "published_date": "2015-09-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Original finalised order: 22 AH-64E Apache + 15 CH-47F Chinook for India MoD/IAF; India 14th nation to select Apache."
+    },
+    {
+      "id": "src-3",
+      "title": "Induction of AH-64E Apache Attack Helicopter",
+      "publisher": "Press Information Bureau, Ministry of Defence",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1583956",
+      "published_date": "2019-09-03",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PIB: IAF inducted AH-64E at Pathankot on 3 Sept 2019; 22 ordered; eight delivered by induction, rest by March 2020; replacing Mi-35; Hellfire/Stinger/Hydra/30mm chain gun."
+    },
+    {
+      "id": "src-4",
+      "title": "Indian Army receives three AH-64E Apache helicopters from Boeing",
+      "publisher": "News on AIR (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/indian-army-receives-three-ah-64e-apache-helicopters-from-boeing/",
+      "published_date": "2025-12-17",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Indian Army received three AH-64E in December 2025 (after three in July 2025), completing the six-aircraft order."
+    },
+    {
+      "id": "src-5",
+      "title": "Indian Army Receives First Three AH-64E Apache Guardian Helicopters",
+      "publisher": "Overt Defense",
+      "url": "https://www.overtdefense.com/2025/07/30/indian-army-receives-first-three-ah-64e-apache-guardian-helicopters/",
+      "published_date": "2025-07-30",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "First three Army Apaches delivered 22 July 2025; based at Jodhpur; 451 Army Aviation Squadron; six-aircraft 2020 contract (~$600M reported); India total 28 (22 IAF + 6 Army)."
+    },
+    {
+      "id": "src-6",
+      "title": "Tata Boeing Aerospace delivers first fuselage for Indian Army AH-64 Apache",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2023/tata-boeing-aerospace-delivers-first-fuselage-for-indian-army-ah-64-apache",
+      "published_date": "2023-01-19",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "TBAL Hyderabad is Boeing's global sole-source Apache fuselage producer; delivered first Army Apache fuselage 19 Jan 2023; 190+ fuselages to Mesa; all 22 IAF Apaches delivered by 2020; >90% parts from 100+ Indian MSMEs."
+    }
+  ],
+  "seo": {
+    "title": "Boeing AH-64E Apache Guardian (India) — Platform · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "India operates 28 Boeing AH-64E Apaches — 22 with the IAF (2019) and 6 with the Indian Army (complete December 2025) — while Tata Boeing Aerospace in Hyderabad is the global sole-source Apache fuselage producer.",
+    "canonical_path": "/research/military-aerospace/platform/ah64/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/platform/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/c17/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

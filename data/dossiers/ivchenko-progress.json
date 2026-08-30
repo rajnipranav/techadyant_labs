@@ -1,0 +1,103 @@
+{
+  "entity_id": "ivchenko-progress",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "ivchenko-progress",
+  "name": "Ivchenko-Progress / Motor Sich",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Ukrainian engine design bureau (Ivchenko-Progress, Zaporizhzhia) and its production partner Motor Sich — designer/producer of the AI-20 turboprop that powers the IAF's An-32 fleet. Compact card: Ukraine engine supplier whose India footprint is the An-32 AI-20 engine dependency, disrupted by the war.",
+    "chips": [
+      "C",
+      "Engine OEM",
+      "Ukraine",
+      "AI-20",
+      "An-32",
+      "War-disrupted"
+    ],
+    "maker": "Ivchenko-Progress (design) / Motor Sich (production), Ukraine",
+    "country": "Ukraine",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign (Ukraine) engine supplier for the An-32 (AI-20)",
+    "mobility_or_class": "Aero-engine design bureau & manufacturer (turboprop/turbofan)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Design_bureau": "SE Ivchenko-Progress, Zaporizhzhia, Ukraine",
+    "Production_partner": "JSC Motor Sich, Zaporizhzhia, Ukraine",
+    "India_relevance": "AI-20D turboprop powers the IAF's Antonov An-32 fleet (two engines per aircraft)",
+    "War_impact": "Russia-Ukraine war disrupted AI-20 engine supply and overhaul; India moved to indigenous AI-20 overhaul",
+    "Tier_C_reason": "Foreign component (engine) supplier; India footprint limited to the An-32 AI-20 dependency"
+  },
+  "what_it_is": {
+    "prose": "Ivchenko-Progress (State Enterprise Ivchenko-Progress, Zaporizhzhia) is Ukraine's principal aero-engine design bureau, and Motor Sich is its long-standing serial-production partner in the same city. Together they are the designer and producer of the Ivchenko AI-20 turboprop, the AI-20D variant of which powers the Indian Air Force's Antonov An-32 fleet (two engines per aircraft). India's exposure to these Ukrainian firms is therefore the An-32's engine dependency: AI-20 engine supply, spares and overhaul. This dependency was severely disrupted by the Russia-Ukraine war, which is a key reason India shifted to an indigenous An-32 overhaul route — including indigenised AI-20 engine overhaul at No. 1 BRD Kanpur. This is a compact (Tier C) card: as a foreign engine supplier, the firms' documented India footprint is essentially the An-32 AI-20 engine link, and there is limited additional India-specific public evidence (no Indian orders, JVs or production).",
+    "sources": [
+      "src-ai20-wiki",
+      "src-theprint-an32"
+    ]
+  },
+  "variant": "Tier C compact card (An-32 engine supplier)",
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/military-aerospace/"
+    ],
+    "referenced_by": [
+      "an32",
+      "antonov"
+    ]
+  },
+  "open_questions": [
+    "Extent of any residual Ukrainian AI-20 engine/spares support to India during the war is unclear.",
+    "How fully India can indigenise AI-20 engine overhaul (vs airframe/avionics) is not publicly detailed."
+  ],
+  "sources": [
+    {
+      "id": "src-ai20-wiki",
+      "title": "Ivchenko AI-20",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ivchenko_AI-20",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "AI-20 turboprop family (Ivchenko/Progress design, Motor Sich production) powering the An-32 (AI-20D variant)."
+    },
+    {
+      "id": "src-theprint-an32",
+      "title": "Yet another AN-32 crash. Replacement of ageing fleet planned since mid-2000s could see movement soon",
+      "publisher": "ThePrint",
+      "url": "https://theprint.in/defence/yet-another-an-32-crash-replacement-of-aging-fleet-planned-since-mid-2000s-could-see-movement-soon/2959062/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "An-32 (AI-20-powered) fleet, ~100+ from 1984; Ukraine supply disruption context."
+    }
+  ],
+  "seo": {
+    "title": "Ivchenko-Progress / Motor Sich — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Ukrainian engine bureau Ivchenko-Progress and producer Motor Sich make the AI-20 turboprop powering the IAF's An-32; the war disrupted supply, pushing India to indigenous AI-20 overhaul. Compact card.",
+    "canonical_path": "/research/military-aerospace/company/ivchenko-progress/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/an32/",
+      "/research/military-aerospace/"
+    ]
+  }
+}

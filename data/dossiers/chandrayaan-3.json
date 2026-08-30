@@ -1,0 +1,138 @@
+{
+  "entity_id": "chandrayaan-3",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "chandrayaan-3",
+  "name": "Chandrayaan-3",
+  "variant": "Chandrayaan-3",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Chandrayaan-3 is ISRO’s successful lunar soft-landing and rover mission, achieving a landing near the Moon’s south pole in August 2023.",
+    "chips": [
+      "A",
+      "India-relevant",
+      "Operational"
+    ],
+    "maker": "Indian Space Research Organisation (ISRO)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "space"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Indian Space Research Organisation (ISRO)",
+    "Country": "India",
+    "Status": "Operational",
+    "Landing_date": "2023-08-23",
+    "Launcher": "LVM3-M4"
+  },
+  "what_it_is": {
+    "prose": "Chandrayaan-3 is a follow-on mission to Chandrayaan-2 demonstrating end-to-end safe landing and roving on the lunar surface. The mission soft-landed near the south pole on 23 August 2023 and conducted in-situ science with the Pragyan rover. ISRO has released science results including sulphur confirmation and lunar surface measurements.",
+    "sources": [
+      "src-ch3-1",
+      "src-ch3-2",
+      "src-ch3-3"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-ch3-1",
+      "title": "Chandrayaan-3",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/Chandrayaan3.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Mission overview and timeline."
+    },
+    {
+      "id": "src-ch3-2",
+      "title": "Chandrayaan-3 Details",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/Chandrayaan3_Details.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Lander, rover, propulsion module and payload details."
+    },
+    {
+      "id": "src-ch3-3",
+      "title": "Launch Missions",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/LaunchMissions.html",
+      "published_date": "2026-07-31",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Current ISRO mission list."
+    }
+  ],
+  "seo": {
+    "title": "Chandrayaan-3 — Platform · India Space Atlas | Techadyant",
+    "meta_description": "Chandrayaan-3 is ISRO’s successful lunar soft-landing and rover mission near the Moon’s south pole in August 2023.",
+    "canonical_path": "/research/space/entity/chandrayaan-3/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/entity/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is Chandrayaan-3?",
+      "answer": "A lunar soft-landing and rover mission.",
+      "sources": [
+        "src-ch3-1"
+      ]
+    },
+    {
+      "question": "Landing date?",
+      "answer": "23 August 2023 near the lunar south pole.",
+      "sources": [
+        "src-ch3-1"
+      ]
+    },
+    {
+      "question": "Rover?",
+      "answer": "Pragyan performed in-situ measurements.",
+      "sources": [
+        "src-ch3-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023-08-23",
+      "event": "Soft landing near lunar south pole.",
+      "sources": [
+        "src-ch3-1"
+      ]
+    },
+    {
+      "date": "2023-08-27",
+      "event": "LIBS confirms sulphur on lunar surface.",
+      "sources": [
+        "src-ch3-1"
+      ]
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/space/entity/lvm3/"
+    ]
+  }
+}

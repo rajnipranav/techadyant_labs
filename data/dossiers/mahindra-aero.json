@@ -1,0 +1,196 @@
+{
+  "entity_id": "mahindra-aero",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "mahindra-aero",
+  "name": "Mahindra Aerospace",
+  "variant": "Mahindra Aerostructures Pvt Ltd (MASPL), Bengaluru — Mahindra Group",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Mahindra Group's aerostructures arm (Mahindra Aerostructures, Bengaluru) making metallic components, sub-assemblies and helicopter fuselages for Airbus (H125/H130) and other global OEMs — ~120,000 parts/month; exited its Australian GippsAero/Airvan aircraft business in 2023-24.",
+    "chips": [
+      "Tier B",
+      "Mahindra Group",
+      "Aerostructures",
+      "Airbus H125",
+      "Components",
+      "Airvan (exited)"
+    ],
+    "maker": "Private — Mahindra Aerostructures Pvt Ltd (Mahindra Group)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Metallic component fabrication & assembly in India; platform IP and raw stock imported/OEM-directed",
+    "mobility_or_class": "Aerostructures & components OEM (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Mahindra Aerostructures Private Limited (MASPL)",
+    "Ownership": "Private — Mahindra Group (part of Mahindra's emerging/defence businesses)",
+    "HQ": "Bengaluru, Karnataka, India (expanded facility)",
+    "Core_business": "Metallic aerospace components, sub-assemblies and helicopter fuselages for global OEMs — ~120,000 parts/month to Europe, North America, Australia",
+    "Airbus_contracts": "H125 light-helicopter main fuselage (Aug 2025) plus earlier H130 fuselage; broader Airbus component work-share",
+    "Certifications": "AS9100D and six NADCAP special-process accreditations",
+    "Airvan_legacy": "Acquired 75.1% of Australia's GippsAero (GA8 Airvan) in Dec 2009 for ₹175 cr; divested Nov 2023; MAAPL liquidated 2024",
+    "First_H125_delivery": "Targeted 2027",
+    "Financials": "Not separately disclosed (Mahindra Group subsidiary)"
+  },
+  "what_it_is": {
+    "prose": "Mahindra Aerospace is the Mahindra Group's aerospace business, now centred on Mahindra Aerostructures Private Limited (MASPL) in Bengaluru. MASPL produces metallic aerospace components, sub-assemblies and aerostructures for global manufacturers, delivering over 120,000 parts a month to customers in Europe, North America and Australia, and holds AS9100D and six NADCAP special-process accreditations. Its highest-profile recent wins are helicopter fuselages for Airbus: a contract announced on 28 August 2025 to build and assemble the main fuselage of the Airbus H125 light single-engine helicopter — the world's best-selling single-engine helicopter — following an earlier award for the H130 fuselage, with industrialisation at the expanded Bengaluru plant and first deliveries targeted for 2027. Mahindra Aerospace's earlier ambition to be a complete aircraft OEM has been wound down: it acquired a 75.1% stake in Australia's GippsAero (maker of the GA8/GA10 Airvan utility aircraft) and Aerostaff Australia in December 2009 for about ₹175 crore, halted manufacturing in 2020, divested the stake back to the original owner in November 2023, and the Australian entity entered voluntary liquidation in 2024. The group has since refocused on the more sustainable aerostructures-and-components model and, more recently, signalled renewed defence-aviation ambitions through a new Mahindra aerospace entity. As a Mahindra Group subsidiary, MASPL does not separately disclose revenue or order book.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Mahindra Aerospace is a build-to-print component and aerostructure supplier into global OEM programmes; it is not an aircraft platform operator following the Airvan exit. India relevance is as an Airbus fuselage/component supplier and part of India's private aerospace base.",
+    "rows": [
+      {
+        "agency": "Airbus Helicopters",
+        "context": "H125 light-helicopter main fuselage manufacture & assembly",
+        "year": 2025,
+        "quantity_or_note": "Announced 28 Aug 2025; first delivery targeted 2027",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Airbus Helicopters",
+        "context": "H130 helicopter fuselage",
+        "year": 2025,
+        "quantity_or_note": "Earlier 2025 award",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Global OEMs (Airbus and others)",
+        "context": "Metallic components & sub-assemblies",
+        "year": null,
+        "quantity_or_note": "~120,000 parts/month to Europe, N. America, Australia",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "GippsAero (Australia) — exited",
+        "context": "GA8/GA10 Airvan utility aircraft OEM",
+        "year": 2023,
+        "quantity_or_note": "Stake divested Nov 2023; MAAPL liquidated 2024",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "MASPL revenue / order book not separately disclosed (Mahindra Group subsidiary)",
+      "H125/H130 fuselage contract values not public",
+      "Scope and timeline of Mahindra's renewed defence-aviation entity not confirmed in fetched primary sources"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "MASPL fabricates and assembles metallic aerostructures in India, but platform IP belongs to Airbus and other OEMs, and aerospace-grade raw stock and machine tools are largely imported or OEM-directed.",
+    "items": [
+      {
+        "component": "Platform / part design IP (H125, H130, component packages)",
+        "severity": "High",
+        "note": "Airbus and other OEMs — build-to-print",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Aerospace-grade aluminium/titanium raw stock",
+        "severity": "Medium",
+        "note": "Imported / OEM-directed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "CNC machining & special-process equipment",
+        "severity": "Medium",
+        "note": "Europe / Japan",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What does Mahindra Aerospace do today?",
+      "answer": "Mahindra Aerospace now operates mainly through Mahindra Aerostructures (MASPL) in Bengaluru, which makes metallic aerospace components, sub-assemblies and helicopter fuselages for global OEMs — over 120,000 parts a month shipped to Europe, North America and Australia — holding AS9100D and six NADCAP accreditations. Its flagship recent wins are the Airbus H125 main fuselage (announced August 2025) and the earlier H130 fuselage, with first H125 deliveries targeted for 2027.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What happened to Mahindra's Airvan aircraft business?",
+      "answer": "Mahindra acquired a 75.1% stake in Australia's GippsAero (maker of the GA8/GA10 Airvan utility aircraft) and Aerostaff Australia in December 2009 for about ₹175 crore. The business struggled, manufacturing was halted in 2020, Mahindra divested the entire stake back to the original owner in November 2023, and the Australian entity entered voluntary liquidation in 2024. Mahindra refocused on the more sustainable aerostructures-and-components model.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "MASPL revenue / order book not separately disclosed (Mahindra Group subsidiary)",
+    "H125/H130 fuselage contract values not public",
+    "Scope and timeline of Mahindra's renewed defence-aviation entity not confirmed in fetched primary sources"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Mahindra Aerostructures secures Airbus H125 helicopter fuselage manufacturing contract",
+      "publisher": "Mahindra & Mahindra (news room)",
+      "url": "https://www.mahindra.com/news-room/press-release/en/mahindra-aerostructures-secures-airbus-h125-helicopter-fuselage-manufacturing-contract",
+      "published_date": "2025-08-28",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "H125 main fuselage contract; H130 earlier award; Bengaluru; first delivery 2027; AS9100D + NADCAP"
+    },
+    {
+      "id": "src-2",
+      "title": "Indian auto giant Mahindra officially closed its $175 million Australian aircraft business",
+      "publisher": "International Business Times",
+      "url": "https://www.ibtimes.com/indian-auto-giant-mahindra-officially-closed-its-175-million-australian-aircraft-business-heres-3789105",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "GippsAero/Airvan acquisition Dec 2009, halt 2020, divest Nov 2023, liquidation 2024; MASPL 120,000 parts/month"
+    }
+  ],
+  "seo": {
+    "title": "Mahindra Aerospace — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Mahindra Group aerostructures arm (Bengaluru); metallic components and Airbus H125/H130 helicopter fuselages, ~120,000 parts/month; exited Australian Airvan a",
+    "canonical_path": "/research/military-aerospace/company/mahindra-aero/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

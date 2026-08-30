@@ -1,0 +1,89 @@
+{
+  "entity_id": "northrop",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "northrop",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "name": "Northrop Grumman",
+  "status": "Operational",
+  "header": {
+    "one_liner": "US defence prime; supplier of the AN/APN-241 (LPCR) X-band tactical transport radar fitted to the C-130J Super Hercules — the type the Indian Air Force operates (12 aircraft) — but with no direct Indian order, joint venture or documented India-specific programme.",
+    "chips": [
+      "Tier C",
+      "Foreign",
+      "AN/APN-241 radar",
+      "C-130J supplier",
+      "No direct India footprint"
+    ],
+    "maker": "Northrop Grumman Corporation — USA",
+    "country": "USA",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — foreign component-supplier entity (Tier C compact card)",
+    "mobility_or_class": "Aerospace & defence OEM (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Country": "USA",
+    "Tier_C_reason": "Component-supplier relevance only — its AN/APN-241 radar equips the C-130J flown by the IAF, but there is no direct Indian order, JV or India-specific programme in public primary sources",
+    "Product_India_link": "AN/APN-241 (LPCR / MR-4000) X-band weather & navigation radar — standard fit on the C-130 / C-130J family",
+    "India_operator_context": "Indian Air Force operates 12 Lockheed Martin C-130J-30 Super Hercules",
+    "Direct_India_footprint": "None documented (no Indian contract, JV or offset found in primary sources this session)",
+    "Atlas_register_status": "Slug preserved; noindex Tier C"
+  },
+  "what_it_is": {
+    "prose": "Northrop Grumman is a major US defence and aerospace prime. Its relevance to the India military-aerospace Atlas is as a component supplier rather than a direct India-footprint entity. Northrop Grumman produces the AN/APN-241 (also known as the Low Power Color Radar, LPCR, or MR-4000), an X-band weather and navigation radar developed specifically for the C-130 Hercules family and fitted to the C-130J Super Hercules; it provides high-resolution ground mapping for low-level navigation and precision airdrop, predictive windshear detection and all-weather situational awareness. Because the Indian Air Force operates 12 Lockheed Martin C-130J-30 Super Hercules, Northrop Grumman equipment is present on those Indian aircraft as embedded OEM-fit content within the US platform. However, a review of public primary sources did not surface any direct Northrop Grumman-India contract, joint venture, offset commitment or India-specific programme. This Tier C compact card therefore records the genuine but indirect C-130J radar link honestly, is marked noindex, and preserves the slug pending any future primary-source evidence of a direct India footprint.",
+    "sources": [
+      "src-1"
+    ]
+  },
+  "open_questions": [
+    "No direct Northrop Grumman-India contract, JV or offset found in primary sources this session — India relevance is indirect (AN/APN-241 fitted to IAF C-130Js)",
+    "Whether Northrop Grumman has any India-specific supply, MRO or offset arrangement tied to the IAF C-130J fleet is not documented in retrieved primary sources"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Tactical Transport Radar AN/APN-241",
+      "publisher": "Radartutorial.eu",
+      "url": "https://www.radartutorial.eu/19.kartei/08.airborne/karte054.en.html",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "AN/APN-241 (LPCR / MR-4000) X-band weather & navigation radar by Northrop Grumman, developed for the C-130 Hercules family; ground mapping, windshear detection, all-weather situational awareness."
+    },
+    {
+      "id": "src-2",
+      "title": "Northrop Grumman Wins Two Contracts for AN/APN-241 Radar Program",
+      "publisher": "GlobeNewswire (Northrop Grumman release)",
+      "url": "https://www.globenewswire.com/news-release/2007/11/01/368334/130336/en/Northrop-Grumman-Wins-Two-Contracts-for-AN-APN-241-Radar-Program.html",
+      "published_date": "2007-11-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Northrop Grumman AN/APN-241 radar programme contracts for C-130 aircraft; establishes the radar as Northrop Grumman product line fitted to C-130 family."
+    }
+  ],
+  "seo": {
+    "title": "Northrop Grumman — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "US prime supplying the AN/APN-241 radar fitted to the C-130J flown by the IAF; no direct Indian order or JV documented. Tier C compact card.",
+    "canonical_path": "/research/military-aerospace/company/northrop/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/c130j/",
+      "/research/military-aerospace/company/"
+    ]
+  }
+}

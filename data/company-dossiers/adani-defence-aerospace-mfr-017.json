@@ -1,0 +1,352 @@
+{
+  "entity_id": "atl-cmp-adani-defence-aerospace-mfr-017",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "adani-defence-aerospace-mfr-017",
+  "name": "Adani Defence & Aerospace (Adani Defence and Aerospace Limited)",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/adani-defence-aerospace-mfr-017/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Adani Defence & Aerospace is the UAV manufacturing arm of the Adani Group, operating India's first private UAV manufacturing facility in Hyderabad through a JV with Israel's Elbit Systems. It manufact",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Ahmedabad, Gujarat, India (UAV manufacturing complex in Hyderabad, Telangana)",
+    "Type": "Manufacturer (listed)",
+    "Founded": "Adani Defence & Aerospace operationalised mid-2010s; first private UAV manufacturing facility inaugurated with Elbit Systems in 2018",
+    "India entity": null,
+    "Listed": "Not separately listed; wholly-owned subsidiary of Adani Enterprises Ltd (NSE: ADANIENT, BSE: 512599)",
+    "Key India role": "Adani Defence & Aerospace is the UAV manufacturing arm of the Adani Group, operating India's first private UAV manufacturing facility in Hyderabad through a JV with Israel's Elbit Systems. It manufact"
+  },
+  "what_it_is": {
+    "prose": "Adani Defence & Aerospace is the UAV manufacturing arm of the Adani Group, operating India's first private UAV manufacturing facility in Hyderabad through a JV with Israel's Elbit Systems. It manufactures the Hermes 900 MALE UAV (Indian designation: Drishti-10 Starliner) for the Indian Navy and Army under a ~US$300M contract, and has expanded into indigenous loitering munitions (Agnikaa VTOL-1, SR-1) and ULPGM precision munitions delivered to the Indian Army. While licence-assembling Israeli platforms has drawn criticism over indigenous content, the company has become a cornerstone of India's MALE-UAV capacity and was the supplier of the country's first indigenously manufactured MALE drone delivered in January 2024.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Drishti-10 Starliner (Indian designation of Elbit Hermes 900)",
+        "role": "OEM",
+        "india_status": "MALE UAV licence-assembled at Adani-Elbit Hyderabad complex; first India-made MALE UAV delivered to Indian Navy in Jan 2024; ~12 systems for Navy/Army under ~US$300M contract",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Agnikaa VTOL-1 (FPV kamikaze drone)",
+        "role": "OEM",
+        "india_status": "India's first FPV kamikaze drone in its class; delivered to Indian Army under emergency procurement along with ULPGM precision munitions",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "SR-1 loitering munition",
+        "role": "OEM",
+        "india_status": "Displayed at Defense & Security 2025; 1 kg HE warhead, ~45 min endurance, ceiling 4,500m",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "ULPGM (UAV-Launched Precision Guided Munition)",
+        "role": "OEM",
+        "india_status": "DRDO-developed, delivered by Adani Defence to Indian Army",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "3 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Delivery of first India-made MALE UAV Drishti-10 Starliner (Hermes 900) at Hyderabad; bought under Emergency Procurement; ~12 systems for Navy/Army",
+        "year": "2024",
+        "quantity_or_note": "12 (across Navy/Army)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Delivery of DRDO-developed kamikaze drone (Agnikaa VTOL-1) and UAV-launched precision munition (ULPGM) systems under emergency procurement",
+        "year": "2024",
+        "quantity_or_note": "undisclosed",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Navy (investigation)",
+        "context": "Drishti-10 Starliner crashed off Gujarat coast near Porbandar during training (Jan 2025)",
+        "year": "2025",
+        "quantity_or_note": "1 (loss)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "11 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "2 official, 5 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "Is Adani Defence & Aerospace a separately listed company?",
+      "answer": "No. Adani Defence & Aerospace is a wholly-owned subsidiary of Adani Enterprises Ltd (NSE: ADANIENT, BSE: 512599), the flagship listed entity of the Adani Group.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the Drishti-10 Starliner UAV?",
+      "answer": "Drishti-10 Starliner is the Indian designation of the Elbit Hermes 900 MALE UAV, licence-manufactured by Adani Defence & Aerospace at its Adani-Elbit UAV complex in Hyderabad. The first India-made unit was delivered to the Indian Navy in January 2024 under a ~US$300M contract for ~12 systems.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which kamikaze drone did Adani Defence deliver to the Indian Army?",
+      "answer": "Adani Defence delivered the Agnikaa VTOL-1, India's first FPV kamikaze drone in its class, along with DRDO-developed ULPGM (UAV-Launched Precision Guided Munition) systems, to the Indian Army under emergency procurement.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.adani.com/newsroom/media-releases/adani-defence-and-aerospace-and-elbit-systems-inaugurate-india-first-private-uav-manufacturing",
+      "publisher": "Adani Group (company official newsroom)",
+      "url": "https://www.adani.com/newsroom/media-releases/adani-defence-and-aerospace-and-elbit-systems-inaugurate-india-first-private-uav-manufacturing",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Adani-Elbit UAV complex in Hyderabad is India's first private UAV manufacturing facility and first facility outside Israel to manufacture Hermes 900"
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.thehindu.com/news/national/navy-chief-formally-receives-drishti-10-long-endurance-uav-from-adani-defence-in-hyderabad/article67726088.ece",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/navy-chief-formally-receives-drishti-10-long-endurance-uav-from-adani-defence-in-hyderabad/article67726088.ece",
+      "published_date": "2024-01-10",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Navy Chief formally receives Drishti-10 MALE UAV from Adani Defence in Hyderabad (Jan 2024)"
+    },
+    {
+      "id": "src-03",
+      "title": "https://unmanned-network.com/navy-gets-its-first-india-made-drones-from-adani-defence-hermes-900",
+      "publisher": "Unmanned Network",
+      "url": "https://unmanned-network.com/navy-gets-its-first-india-made-drones-from-adani-defence-hermes-900",
+      "published_date": "2024-01-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Navy gets first India-made drones (Drishti-10 / Hermes 900) from Adani Defence Hyderabad facility"
+    },
+    {
+      "id": "src-04",
+      "title": "http://trishul-trident.blogspot.com/2023/11/hermes-900-male-uavs-aka-drishti-10.html",
+      "publisher": "Trishul Trident Blog (defence analyst)",
+      "url": "http://trishul-trident.blogspot.com/2023/11/hermes-900-male-uavs-aka-drishti-10.html",
+      "published_date": "2023-11-09",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Reports US$300M contract for 12 Hermes 900s licence-assembled by Adani for Navy/Army"
+    },
+    {
+      "id": "src-05",
+      "title": "https://thedefensepost.com/2024/01/12/india-indigenous-male-drone",
+      "publisher": "The Defense Post",
+      "url": "https://thedefensepost.com/2024/01/12/india-indigenous-male-drone",
+      "published_date": "2024-01-12",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Indian Navy receives first indigenous MALE drone; references 6 Hermes 900 procurement from Israel (Nov 2023)"
+    },
+    {
+      "id": "src-06",
+      "title": "https://timesofindia.indiatimes.com/defence/news/army-gets-drdo-developed-kamikaze-drone-uav-launched-precision-munition-systems-from-adani-defence/articleshow/131026247.cms",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/defence/news/army-gets-drdo-developed-kamikaze-drone-uav-launched-precision-munition-systems-from-adani-defence/articleshow/131026247.cms",
+      "published_date": "2024-05-12",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Indian Army gets DRDO-developed kamikaze drone (Agnikaa VTOL-1) and ULPGM from Adani Defence"
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.janes.com/defence-intelligence-insights/defence-news/air/defense-security-2025-adani-displays-new-loitering-munitions",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/air/defense-security-2025-adani-displays-new-loitering-munitions",
+      "published_date": "2025-11-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Adani displays SR-1 loitering munition at Defense & Security 2025"
+    },
+    {
+      "id": "src-08",
+      "title": "https://en.wikipedia.org/wiki/Elbit_Hermes_900",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elbit_Hermes_900",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Notes Jan 2025 crash of Drishti-10 Starliner off Gujarat coast near Porbandar"
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.adanidefence.com/unmanned-systems",
+      "publisher": "Adani Defence & Aerospace (company official)",
+      "url": "https://www.adanidefence.com/unmanned-systems",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Company unmanned systems page describing ISR and loitering munitions portfolio"
+    },
+    {
+      "id": "src-10",
+      "title": "https://peoplesdemocracy.in/2024/0204_pd/tapas-drone-project-scrapped",
+      "publisher": "Peoples Democracy",
+      "url": "https://peoplesdemocracy.in/2024/0204_pd/tapas-drone-project-scrapped",
+      "published_date": "2024-02-04",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Notes four India-made UAVs (two each for Army/Navy) from Adani Defence, assembled from knock-down kits"
+    },
+    {
+      "id": "src-11",
+      "title": "https://www.adanienterprises.com",
+      "publisher": "Adani Enterprises Ltd",
+      "url": "https://www.adanienterprises.com",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Confirms Adani Defence & Aerospace is a subsidiary of Adani Enterprises (NSE: ADANIENT, BSE: 512599) [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    }
+  ],
+  "seo": {
+    "title": "Adani Defence & Aerospace (Adani Defence and Aerospace Limited) — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Adani Defence & Aerospace (Adani Defence and Aerospace Limited) company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/adani-defence-aerospace-mfr-017/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/adani-defence-aerospace-mfr-017/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

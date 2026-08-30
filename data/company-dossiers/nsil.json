@@ -1,0 +1,390 @@
+{
+  "entity_id": "atl-cmp-nsil",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "nsil",
+  "name": "NewSpace India Limited (NSIL)",
+  "variant": null,
+  "vertical": "space",
+  "parent_hub_path": "/research/space/nsil/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "NSIL is the commercial arm of ISRO and India's space-launch-and-satellite services PSU, incorporated in 2019 to assume responsibility for production, assembly and integration of launch vehicles (PSLV,",
+    "chips": [
+      "space",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India (ISRO HQ campus, Department of Space)",
+    "Type": "Company (listed)",
+    "Founded": "6 March 2019 (incorporated as Department of Space CPSE under Companies Act)",
+    "India entity": null,
+    "Listed": "Not listed — wholly owned Government of India CPSE under Department of Space",
+    "Key India role": "NSIL is the commercial arm of ISRO and India's space-launch-and-satellite services PSU, incorporated in 2019 to assume responsibility for production, assembly and integration of launch vehicles (PSLV,"
+  },
+  "what_it_is": {
+    "prose": "NSIL is the commercial arm of ISRO and India's space-launch-and-satellite services PSU, incorporated in 2019 to assume responsibility for production, assembly and integration of launch vehicles (PSLV, SSLV, LVM3) through industry consortium, and to operate ISRO's demand-driven communication satellites (GSAT-24 leased to Tata Play, GSAT-N2 launched by SpaceX Nov 2024). NSIL executed the first dedicated commercial launch of LVM3 (OneWeb India-1, Oct 23, 2022, 36 satellites) and the LVM3-M3 / OneWeb India-2 mission (Mar 26, 2023, 36 satellites) — completing the 72-satellite OneWeb contract worth ₹1,000+ Cr. NSIL reported ₹3,026.09 Cr revenue (FY). Till date NSIL has launched 124 international and 3 Indian customer satellites onboard PSLV, LVM3 and SSLV. NSIL awarded a $104M contract to an industry consortium for PSLV production.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "LVM3 / GSLV Mk-III launch vehicle (commercial)",
+        "role": "OEM",
+        "india_status": "India's heaviest rocket. First dedicated commercial launch (LVM3-M2 / OneWeb India-1) on Oct 23, 2022 carried 36 OneWeb satellites; LVM3-M3 / OneWeb India-2 (Mar 26, 2023) carried 36 more. Sixth operational LVM3 flight launched BlueBird Block-2 communication satellite Dec 29, 2025",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "PSLV (Polar Satellite Launch Vehicle) — industry consortium production",
+        "role": "OEM",
+        "india_status": "NSIL is the nodal agency for PSLV production through Indian industry consortium ($104M contract awarded Sep 2020 to HAL/L&T consortium). Till date NSIL has launched 124 international + 3 Indian customer satellites onboard PSLV, LVM3 and SSLV",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "GSAT-24 / GSAT-N1 (Tata Play lease)",
+        "role": "OEM",
+        "india_status": "First demand-driven communication satellite mission undertaken by NSIL; full capacity leased to Tata Play. Launched on Ariane-5 (Jun 2022)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "GSAT-N2 (GSAT-20) — 4,700 kg Ka-band broadband satellite",
+        "role": "OEM",
+        "india_status": "Second demand-driven communication satellite owned and operated by NSIL; built by ISRO. Provides 48 Gbps capacity covering all of India. Launched by SpaceX Falcon 9 Nov 2024",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "4 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "OneWeb (commercial customer)",
+        "context": "LVM3-M2 / OneWeb India-1: 36 satellites launched Oct 23, 2022 — first dedicated commercial LVM3 launch via NSIL. LVM3-M3 / OneWeb India-2: 36 more satellites launched Mar 26, 2023. Total 72 satellites for ₹1,000+ Cr contract",
+        "year": "2022-2023",
+        "quantity_or_note": "72 satellites",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Tata Play (commercial customer)",
+        "context": "GSAT-24 / GSAT-N1 — full satellite capacity leased to Tata Play (launched Ariane-5, Jun 2022)",
+        "year": "2022",
+        "quantity_or_note": "1 satellite",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "NSIL (own operations)",
+        "context": "GSAT-N2 / GSAT-20 Ka-band broadband satellite — launched by SpaceX Falcon 9",
+        "year": "Nov 18, 2024",
+        "quantity_or_note": "1 satellite (4,700 kg, 48 Gbps)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "AST SpaceMobile / BlueBird Block-2 (commercial customer)",
+        "context": "Sixth operational LVM3 flight launched BlueBird Block-2 communication satellite (Dec 29, 2025) — NSIL's 3rd dedicated commercial LVM3 launch",
+        "year": "Dec 29, 2025",
+        "quantity_or_note": "1 satellite",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "11 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "6 official, 3 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was NSIL incorporated and which ministry does it report to?",
+      "answer": "NSIL is the commercial arm of ISRO and India's space-launch-and-satellite services PSU, incorporated in 2019 to assume responsibility for production, assembly and integration of launch vehicles (PSLV, SSLV, LVM3) through industry consortium, and to operate ISRO's demand-driven communication satellites (GSAT-24 leased to Tata Play, GSAT-N2 launched by SpaceX Nov 2024).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What was the value of NSIL's OneWeb launch contract?",
+      "answer": "NSIL executed the first dedicated commercial launch of LVM3 (OneWeb India-1, Oct 23, 2022, 36 satellites) and the LVM3-M3 / OneWeb India-2 mission (Mar 26, 2023, 36 satellites) — completing the 72-satellite OneWeb contract worth ₹1,000+ Cr.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "How many satellites has NSIL launched for international customers?",
+      "answer": "Till date NSIL has launched 124 international and 3 Indian customer satellites onboard PSLV, LVM3 and SSLV.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which company leased the entire capacity of GSAT-24?",
+      "answer": "NSIL is the commercial arm of ISRO and India's space-launch-and-satellite services PSU, incorporated in 2019 to assume responsibility for production, assembly and integration of launch vehicles (PSLV, SSLV, LVM3) through industry consortium, and to operate ISRO's demand-driven communication satellites (GSAT-24 leased to Tata Play, GSAT-N2 launched by SpaceX Nov 2024).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which launch vehicle did NSIL use for its first dedicated commercial launch (OneWeb India-1)?",
+      "answer": "NSIL executed the first dedicated commercial launch of LVM3 (OneWeb India-1, Oct 23, 2022, 36 satellites) and the LVM3-M3 / OneWeb India-2 mission (Mar 26, 2023, 36 satellites) — completing the 72-satellite OneWeb contract worth ₹1,000+ Cr.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Who launched the GSAT-N2 satellite for NSIL in November 2024?",
+      "answer": "NSIL is the commercial arm of ISRO and India's space-launch-and-satellite services PSU, incorporated in 2019 to assume responsibility for production, assembly and integration of launch vehicles (PSLV, SSLV, LVM3) through industry consortium, and to operate ISRO's demand-driven communication satellites (GSAT-24 leased to Tata Play, GSAT-N2 launched by SpaceX Nov 2024).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.nsilindia.co.in",
+      "publisher": "NSIL Official",
+      "url": "https://www.nsilindia.co.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.nsilindia.co.in/launch-services",
+      "publisher": "NSIL",
+      "url": "https://www.nsilindia.co.in/launch-services",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.nsilindia.co.in/launch-service-requisition",
+      "publisher": "NSIL",
+      "url": "https://www.nsilindia.co.in/launch-service-requisition",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://www.nsilindia.co.in/news-details/751",
+      "publisher": "NSIL",
+      "url": "https://www.nsilindia.co.in/news-details/751",
+      "published_date": "Dec 29, 2025",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://www.isro.gov.in/NSIL.html",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/NSIL.html",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.isro.gov.in/lvm3.html",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/lvm3.html",
+      "published_date": "Oct 4, 2022",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://en.wikipedia.org/wiki/NewSpace_India_Limited",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/NewSpace_India_Limited",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://spacenews.com/lvm3-m3-oneweb-india-2-launch-successful",
+      "publisher": "SpaceNews",
+      "url": "https://spacenews.com/lvm3-m3-oneweb-india-2-launch-successful",
+      "published_date": "Mar 26, 2023",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.isro.gov.in/GSAT-N2_mission.html?timeline=timeline",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/GSAT-N2_mission.html?timeline=timeline",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.spaceexploration.in/companies/nsil",
+      "publisher": "Space Exploration",
+      "url": "https://www.spaceexploration.in/companies/nsil",
+      "published_date": "Aug 19, 2026",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "https://payloadspace.com/oneweb-launch-shows-isros-budding-commercial-opportunities",
+      "publisher": "Payload Space",
+      "url": "https://payloadspace.com/oneweb-launch-shows-isros-budding-commercial-opportunities",
+      "published_date": "Mar 28, 2023",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "NewSpace India Limited (NSIL) — Company · India Space Atlas | Techadyant",
+    "meta_description": "NewSpace India Limited (NSIL) company dossier: India space role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/space/nsil/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/nsil/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

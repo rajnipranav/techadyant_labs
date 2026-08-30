@@ -1,0 +1,317 @@
+{
+  "entity_id": "atl-cmp-cochin-shipyard-limited",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "cochin-shipyard-limited",
+  "name": "Cochin Shipyard Limited (CSL)",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/cochin-shipyard-limited/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "CSL is India's largest public-sector shipyard and the only Indian shipyard to have built an aircraft carrier — the Indigenous Aircraft Carrier (IAC-1) INS Vikrant (45,000 t deep displacement), deliver",
+    "chips": [
+      "defence",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Kochi (Willingdon Island), Kerala, India",
+    "Type": "Company (listed)",
+    "Founded": "1969 (incorporated; shipbuilding operations commenced 1972)",
+    "India entity": null,
+    "Listed": "NSE: COCHINSHIP | BSE: 540678 (IPO Aug 11, 2017; issue size ₹1,442 Cr); Miniratna Category-I CPSE",
+    "Key India role": "CSL is India's largest public-sector shipyard and the only Indian shipyard to have built an aircraft carrier — the Indigenous Aircraft Carrier (IAC-1) INS Vikrant (45,000 t deep displacement), deliver"
+  },
+  "what_it_is": {
+    "prose": "CSL is India's largest public-sector shipyard and the only Indian shipyard to have built an aircraft carrier — the Indigenous Aircraft Carrier (IAC-1) INS Vikrant (45,000 t deep displacement), delivered to the Indian Navy on 28 Jul 2022 and commissioned 2 Sep 2022. CSL is also building 8 Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) for the Indian Navy (lead ship INS Mahe delivered Oct 24, 2025). CSL constructs and repairs commercial vessels, offshore vessels, and export ships. The yard has secured multiple export orders including for European clients.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "2 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "INS Vikrant (IAC-1) Indigenous Aircraft Carrier",
+        "role": "OEM",
+        "india_status": "India's first indigenously built aircraft carrier; 45,000 t deep displacement; constructed at CSL Kochi. Delivered 28 Jul 2022; commissioned 2 Sep 2022. Largest warship ever built in India",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Anti-Submarine Warfare Shallow Water Craft (ASW-SWC)",
+        "role": "OEM",
+        "india_status": "8 ASW-SWC contracted to CSL for Indian Navy. Lead ship INS Mahe delivered Oct 24, 2025. Equipped with modern sensors and advanced communication systems for coastal defence and ASW",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "2 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "INS Vikrant (IAC-1) aircraft carrier delivery",
+        "year": "Jul 28, 2022",
+        "quantity_or_note": "1 carrier (45,000 t)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "8 ASW Shallow Water Craft — lead ship INS Mahe delivered",
+        "year": "Oct 24, 2025",
+        "quantity_or_note": "1 of 8 delivered",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "9 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "3 official, 5 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When did Cochin Shipyard IPO list on the stock exchange?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which Indian aircraft carrier was built by Cochin Shipyard?",
+      "answer": "CSL is India's largest public-sector shipyard and the only Indian shipyard to have built an aircraft carrier — the Indigenous Aircraft Carrier (IAC-1) INS Vikrant (45,000 t deep displacement), delivered to the Indian Navy on 28 Jul 2022 and commissioned 2 Sep 2022.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When was INS Vikrant delivered to the Indian Navy by CSL?",
+      "answer": "CSL is India's largest public-sector shipyard and the only Indian shipyard to have built an aircraft carrier — the Indigenous Aircraft Carrier (IAC-1) INS Vikrant (45,000 t deep displacement), delivered to the Indian Navy on 28 Jul 2022 and commissioned 2 Sep 2022.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the name of the first ASW Shallow Water Craft delivered by CSL?",
+      "answer": "CSL is also building 8 Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) for the Indian Navy (lead ship INS Mahe delivered Oct 24, 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "How many ASW-SWCs is CSL building for the Indian Navy?",
+      "answer": "CSL is also building 8 Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) for the Indian Navy (lead ship INS Mahe delivered Oct 24, 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://cochinshipyard.in",
+      "publisher": "CSL Official",
+      "url": "https://cochinshipyard.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://cochinshipyard.in/news/view/44",
+      "publisher": "CSL",
+      "url": "https://cochinshipyard.in/news/view/44",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://cochinshipyard.in/news/view/56",
+      "publisher": "CSL",
+      "url": "https://cochinshipyard.in/news/view/56",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://en.wikipedia.org/wiki/Cochin_Shipyard",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cochin_Shipyard",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://en.wikipedia.org/wiki/INS_Vikrant_(2013)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/INS_Vikrant_(2013)",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://en.wikipedia.org/wiki/Anti-Submarine_Warfare_Shallow_Water_Craft",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anti-Submarine_Warfare_Shallow_Water_Craft",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1845871",
+      "publisher": "PIB India",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1845871",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.navalnews.com/naval-news/2022/07/indian-navy-accepts-delivery-of-indigenous-aircraft-carrier-vikrant",
+      "publisher": "Naval News",
+      "url": "https://www.navalnews.com/naval-news/2022/07/indian-navy-accepts-delivery-of-indigenous-aircraft-carrier-vikrant",
+      "published_date": "Jul 29, 2022",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.ndtv.com/india-news/cochin-shipyard-delivers-mahe-1st-indigenous-anti-submarine-vessel-to-indian-navy-9506402",
+      "publisher": "NDTV",
+      "url": "https://www.ndtv.com/india-news/cochin-shipyard-delivers-mahe-1st-indigenous-anti-submarine-vessel-to-indian-navy-9506402",
+      "published_date": "Oct 24, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Cochin Shipyard Limited (CSL) — Company · India Defence Atlas | Techadyant",
+    "meta_description": "Cochin Shipyard Limited (CSL) company dossier: India defence role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/pillars/defence/entity/cochin-shipyard-limited/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/cochin-shipyard-limited/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

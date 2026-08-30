@@ -1,0 +1,446 @@
+{
+  "entity_id": "atl-cmp-israel-aerospace-industries-iai-mfr-001",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "israel-aerospace-industries-iai-mfr-001",
+  "name": "Israel Aerospace Industries (IAI)",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/israel-aerospace-industries-iai-mfr-001/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "IAI is Israel's largest state-owned aerospace and defence company and one of India's most established foreign OEM partners, with a documented 30-year strategic relationship. It has executed multi-bill",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Lod (Ben Gurion Airport area), Israel",
+    "Type": "Manufacturer (listed)",
+    "Founded": "1953 (as Bedek Aviation Company; restructured as IAI in 1979)",
+    "India entity": null,
+    "Listed": "Government-owned (Israel Ministry of Defense); bonds traded on Tel Aviv Stock Exchange (TASE: IAI)",
+    "Key India role": "IAI is Israel's largest state-owned aerospace and defence company and one of India's most established foreign OEM partners, with a documented 30-year strategic relationship. It has executed multi-bill"
+  },
+  "what_it_is": {
+    "prose": "IAI is Israel's largest state-owned aerospace and defence company and one of India's most established foreign OEM partners, with a documented 30-year strategic relationship. It has executed multi-billion-dollar Indian contracts spanning AWACS (EL/W-2090 on IL-76), Barak-8 naval air defence (LR-SAM, $777M, 2018) jointly with DRDO/BEL, and the Heron family of MALE UAVs (Heron Mk-II, Heron TP). IAI Harop loitering munitions were used by India during Operation Sindoor (May 2025) against Pakistani air-defence targets, and India has initiated procurement of additional Heron Mk-II post-Sindoor (Dec 2025). IAI has a New Delhi subsidiary (Aerospace Services India / ASI, opened 2022, operational 2024) for life-cycle support of air-defence systems, and a new JV with DCX (Apr 2025) for loitering munitions. Combined backlog exposure to India was disclosed in IAI's 2023 annual report as a material portion of its $30B+ order backlog.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "5 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Barak-8 / LR-SAM (jointly with DRDO & BEL)",
+        "role": "OEM",
+        "india_status": "Jointly developed with India's DRDO; deployed on Indian Navy destroyers (Kolkata, Visakhapatnam, Nilgiri classes) and as MR-SAM with Indian Air Force; $777M contract via BEL Oct 2018; $93M follow-on Feb 2019",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Heron Mk-II / Heron TP MALE UAV",
+        "role": "OEM",
+        "india_status": "4 Heron Mk-II bought for Ladakh surveillance (Sep 2021); Indian Army leased 4 Heron TP (Feb 2021); additional Heron Mk-II procurement initiated post Operation Sindoor (Dec 2025)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Harop / Harpy loitering munition",
+        "role": "OEM",
+        "india_status": "Indian Army/IAF Harop inventory used during Operation Sindoor (May 2025) to strike Lahore air-defence targets; Harpy in Indian service for decades",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "EL/W-2090 AWACS (Phalcon)",
+        "role": "OEM",
+        "india_status": "$1.1B contract signed March 2004; three EL/W-2090 systems installed on Russian Il-76 airframes operated by IAF No. 50 Squadron 'Phantoms'",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Searcher Mk II reconnaissance UAV",
+        "role": "OEM",
+        "india_status": "Long-standing Indian Army and Indian Navy inventory; precursor to Heron in Indian service",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "6 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Navy / BEL (on behalf of MoD)",
+        "context": "$777M contract for Barak-8 LR-SAM systems for Indian Navy destroyers",
+        "year": "2018",
+        "quantity_or_note": "Multiple ship-sets (Kolkata/Visakhapatnam/Nilgiri class)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Air Force / Indian Navy",
+        "context": "EL/W-2090 Phalcon AWACS $1.1B contract",
+        "year": "2004",
+        "quantity_or_note": "3 systems on Il-76",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Army (Northern Command)",
+        "context": "4 Heron TP leased for LAC surveillance",
+        "year": "2021",
+        "quantity_or_note": "4",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Army / IAF (Eastern Ladakh)",
+        "context": "Procurement of 4 Heron Mk-II for surveillance in Ladakh",
+        "year": "2021",
+        "quantity_or_note": "4",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "IAF / Indian Army (Operation Sindoor)",
+        "context": "Harop loitering munitions used in strikes on Pakistani air-defence targets during Operation Sindoor (May 2025); post-conflict push to procure more Heron Mk-II",
+        "year": "2025",
+        "quantity_or_note": "n/a (operational use)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "BEL (JV partner)",
+        "context": "BEL-IAI Joint Venture Company for co-production of air defence systems and missile systems in India",
+        "year": "ongoing",
+        "quantity_or_note": "n/a (JV)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "16 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "3 official, 11 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is IAI's largest India defence contract?",
+      "answer": "IAI's largest single disclosed India contract is the $777 million Barak-8 LR-SAM deal signed with BEL on 24 October 2018 for the Indian Navy's air-defence missile systems; an additional $93M follow-on for missile deliveries was signed in February 2019.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Does IAI have a subsidiary in India?",
+      "answer": "Yes. IAI announced a wholly-owned Indian subsidiary, AeroSpace Services India (ASI), based in New Delhi, in October 2022; it was formally operationalised in 2024 to provide product life-cycle support for IAI's air-defence systems in India under the Make in India programme.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Did India use IAI Harop drones during Operation Sindoor?",
+      "answer": "Yes. IAI Harop loitering munitions (in Indian inventory since the late 2000s) were reportedly used during Operation Sindoor in May 2025 to strike Pakistani air-defence targets around Lahore, prompting India to move to procure additional Heron Mk-II UAVs post-conflict (December 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.iai.co.il/press/iai-to-provide-777-million-worth-of-barak-8-lrsam-air-missile-defence-systems-to-state-owned-bel-in-india",
+      "publisher": "Israel Aerospace Industries (company press release)",
+      "url": "https://www.iai.co.il/press/iai-to-provide-777-million-worth-of-barak-8-lrsam-air-missile-defence-systems-to-state-owned-bel-in-india",
+      "published_date": "2018-10-24",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Official IAI announcement of $777M Barak-8 LR-SAM contract with BEL for Indian Navy"
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.timesofisrael.com/iai-wins-777-million-deal-to-supply-india-with-maritime-missile-defense-system",
+      "publisher": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/iai-wins-777-million-deal-to-supply-india-with-maritime-missile-defense-system",
+      "published_date": "2018-10-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms $777M Indian Navy maritime missile defense order"
+    },
+    {
+      "id": "src-03",
+      "title": "https://thedefensepost.com/2018/10/24/india-israel-barak-8-air-defense-missile-777-million-deal",
+      "publisher": "The Defense Post",
+      "url": "https://thedefensepost.com/2018/10/24/india-israel-barak-8-air-defense-missile-777-million-deal",
+      "published_date": "2018-10-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms IAI $777M Indian Navy Barak 8 contract"
+    },
+    {
+      "id": "src-04",
+      "title": "https://www.missiledefenseadvocacy.org/other-news/iai-and-india-ink-93-million-deal-for-additional-missile-deliveries",
+      "publisher": "Missile Defense Advocacy Alliance",
+      "url": "https://www.missiledefenseadvocacy.org/other-news/iai-and-india-ink-93-million-deal-for-additional-missile-deliveries",
+      "published_date": "2019-02-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "$93M follow-on contract for additional missile deliveries to India"
+    },
+    {
+      "id": "src-05",
+      "title": "https://www.janes.com/defence-intelligence-insights/defence-news/indian-army-leases-four-heron-tp-uavs-from-israel",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/indian-army-leases-four-heron-tp-uavs-from-israel",
+      "published_date": "2021-02-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Indian Army leases four Heron TP UAVs from Israel for LAC deployment"
+    },
+    {
+      "id": "src-06",
+      "title": "https://theprint.in/defence/indian-army-will-soon-get-4-heron-tp-drones-on-lease-from-israel-plans-to-deploy-them-at-lac/665981",
+      "publisher": "ThePrint",
+      "url": "https://theprint.in/defence/indian-army-will-soon-get-4-heron-tp-drones-on-lease-from-israel-plans-to-deploy-them-at-lac/665981",
+      "published_date": "2021-05-26",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms 4 Heron TP drone lease and LAC deployment plans"
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.jpost.com/international/india-buys-4-heron-mk-ii-drones-for-surveillance-in-ladakh-680589",
+      "publisher": "The Jerusalem Post",
+      "url": "https://www.jpost.com/international/india-buys-4-heron-mk-ii-drones-for-surveillance-in-ladakh-680589",
+      "published_date": "2021-09-29",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "India buys 4 Heron Mk II drones for Ladakh surveillance"
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.ndtv.com/india-news/india-moves-to-procure-more-heron-mk-ii-drones-post-operation-sindoor-9732502",
+      "publisher": "NDTV",
+      "url": "https://www.ndtv.com/india-news/india-moves-to-procure-more-heron-mk-ii-drones-post-operation-sindoor-9732502",
+      "published_date": "2025-12-02",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "India moves to procure more Heron Mk-II post Operation Sindoor"
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.insightsonindia.com/2025/05/09/harop-drones",
+      "publisher": "Insights on India",
+      "url": "https://www.insightsonindia.com/2025/05/09/harop-drones",
+      "published_date": "2025-05-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Harop drones used in Operation Sindoor strikes on Lahore air defence"
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.jpost.com/israel-news/article-730812",
+      "publisher": "The Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/article-730812",
+      "published_date": "2023-02-07",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "IAI 30+ years partnership with India per IAI CEO Boaz Levy"
+    },
+    {
+      "id": "src-11",
+      "title": "https://bel-india.in/news-bel/bel-iai-israel-form-joint-venture-company",
+      "publisher": "Bharat Electronics Limited (official)",
+      "url": "https://bel-india.in/news-bel/bel-iai-israel-form-joint-venture-company",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "BEL-IAI JV formation for air-defence co-production"
+    },
+    {
+      "id": "src-12",
+      "title": "https://www.edrmagazine.eu/%E2%96%BA-iai-announces-a-new-subsidiary-located-in-new-delhi-india-aerospace-services-india-asi-will-provide-product-life-cycle-support-services-for-the-air-defense-systems",
+      "publisher": "EDR Magazine",
+      "url": "https://www.edrmagazine.eu/%E2%96%BA-iai-announces-a-new-subsidiary-located-in-new-delhi-india-aerospace-services-india-asi-will-provide-product-life-cycle-support-services-for-the-air-defense-systems-in-india",
+      "published_date": "2022-10-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "IAI opens Aerospace Services India (ASI) subsidiary in New Delhi for product life-cycle support"
+    },
+    {
+      "id": "src-13",
+      "title": "https://www.financialexpress.com/business/defence-iai-sets-up-its-indian-subsidiary-asi-3438475",
+      "publisher": "Financial Express",
+      "url": "https://www.financialexpress.com/business/defence-iai-sets-up-its-indian-subsidiary-asi-3438475",
+      "published_date": "2024-03-27",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "IAI operationalises AeroSpace Services India subsidiary under Make in India"
+    },
+    {
+      "id": "src-14",
+      "title": "https://www.iai.co.il/press/iai-and-dcx-announce-the-establishment-of-a-new-jv-in-india",
+      "publisher": "IAI (company press release)",
+      "url": "https://www.iai.co.il/press/iai-and-dcx-announce-the-establishment-of-a-new-jv-in-india",
+      "published_date": "2025-04-21",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "IAI and DCX announce new JV in India (loitering munitions)"
+    },
+    {
+      "id": "src-15",
+      "title": "https://en.wikipedia.org/wiki/Israel_Aerospace_Industries",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Israel_Aerospace_Industries",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Background on $1.1B AWACS EL/W-2090 contract (March 2004)"
+    },
+    {
+      "id": "src-16",
+      "title": "https://en.wikipedia.org/wiki/Barak_8",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Barak_8",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Barak-8 background - joint IAI-DRDO development"
+    }
+  ],
+  "seo": {
+    "title": "Israel Aerospace Industries (IAI) — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Israel Aerospace Industries (IAI) company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/israel-aerospace-industries-iai-mfr-001/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/israel-aerospace-industries-iai-mfr-001/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

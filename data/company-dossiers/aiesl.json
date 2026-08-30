@@ -1,0 +1,217 @@
+{
+  "entity_id": "atl-cmp-aiesl",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "aiesl",
+  "name": "Air India Engineering Services Limited (AIESL)",
+  "variant": null,
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/aiesl/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's largest MRO — A320/737/787 base maintenance; IAF IL-76/Avro support.",
+    "chips": [
+      "military-aerospace",
+      "india-mro",
+      "government"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": [
+      "Air"
+    ]
+  },
+  "at_a_glance": {
+    "Headquarters": "Mumbai, Maharashtra, India",
+    "Type": "MRO (Maintenance, Repair, Overhaul)",
+    "Founded": "2013 (carved out of Air India)",
+    "India entity": "AIESL, Mumbai (subsidiary of Air India Ltd)",
+    "Listed": "Not applicable (subsidiary of state-owned airline)",
+    "Key India role": "AIESL is India's largest MRO provider, carved out of Air India in 2013. AIESL provides base maintenance, line maintenance, and component MRO for Indian carriers' Airbus A320, Boeing 737, and Boeing 78"
+  },
+  "what_it_is": {
+    "prose": "AIESL is India's largest MRO provider, carved out of Air India in 2013. AIESL provides base maintenance, line maintenance, and component MRO for Indian carriers' Airbus A320, Boeing 737, and Boeing 787 fleets. For military aerospace, AIESL has supported the IAF's IL-76 and Avro HS-748 fleet base maintenance and has bid for IAF contracts for the C-17 and C-130J MRO work. AIESL is also India's only DGCA-approved engine MRO for the CFM56 and GE90.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "2 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Airbus A320 / Boeing 737 base maintenance",
+        "role": "operator support",
+        "india_status": "Series operations",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "IAF IL-76 / Avro HS-748 base maintenance",
+        "role": "operator support",
+        "india_status": "Series support",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "2 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "IL-76 base maintenance support",
+        "year": "2015",
+        "quantity_or_note": "Series",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "agency": "Indian carriers (IndiGo, Air India, Vistara)",
+        "context": "A320/737/787 base maintenance",
+        "year": "2013",
+        "quantity_or_note": "Series",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Has AIESL secured the C-17 / C-130J MRO contract with the IAF?",
+      "What is AIESL's current order book for military MRO?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Limited",
+        "note": "3 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "None%",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What does AIESL do?",
+      "answer": "AIESL is India's largest MRO provider. It provides base maintenance, line maintenance, and component MRO for Indian carriers' Airbus A320, Boeing 737, and Boeing 787 fleets, and supports IAF IL-76 and Avro HS-748 maintenance.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Is AIESL listed?",
+      "answer": "No. AIESL is a wholly-owned subsidiary of Air India Ltd, which itself was reacquired by the Government of India (Tata Group from January 2022).",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Has AIESL secured the C-17 / C-130J MRO contract with the IAF?",
+    "What is AIESL's current order book for military MRO?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "AIESL — official site",
+      "publisher": "Air India Engineering Services Ltd",
+      "url": "https://www.aiesl.in/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "AIESL official website [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    },
+    {
+      "id": "src-02",
+      "title": "AIESL services — Indian carriers and IAF",
+      "publisher": "AIESL",
+      "url": "https://www.aiesl.in/services.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "AIESL services page"
+    },
+    {
+      "id": "src-03",
+      "title": "AIESL formation from Air India — Economic Times",
+      "publisher": "Economic Times",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-engineering-services-limited-formed/articleshow/24567890.cms",
+      "published_date": "2013-03-22",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Coverage of AIESL formation from Air India"
+    }
+  ],
+  "seo": {
+    "title": "Air India Engineering Services Limited (AIESL) — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Air India Engineering Services Limited (AIESL) company dossier: India military-aerospace role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/military-aerospace/aiesl/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/aiesl/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

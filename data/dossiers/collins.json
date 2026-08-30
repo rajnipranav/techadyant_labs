@@ -1,0 +1,96 @@
+{
+  "entity_id": "collins",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "collins",
+  "name": "Collins Aerospace",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "US avionics, interiors and mission-systems OEM (RTX) supplying subsystems across Western platforms in Indian service; operates engineering/GCC centres in Bengaluru and Hyderabad. No consolidated public India defence order data — honest Tier C.",
+    "chips": [
+      "Tier C",
+      "USA",
+      "RTX",
+      "Avionics",
+      "Interiors",
+      "Collins India",
+      "Bengaluru",
+      "Hyderabad"
+    ],
+    "country": "United States",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign component/sub-system supplier — no standalone India footprint",
+    "mobility_or_class": "Component/sub-system supplier (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Collins Aerospace (RTX Corporation)",
+    "Parent": "RTX Corporation (NYSE: RTX)",
+    "HQ": "Charlotte, North Carolina, USA",
+    "Product_lines": "Avionics, mission systems, cabin/interiors, propeller systems, power & controls",
+    "India_presence": "Engineering and Global Capability Centres in Bengaluru and Hyderabad; new Bengaluru facility",
+    "Tier_C_reason": "Diffuse subsystem supplier; no consolidated public India defence order figures"
+  },
+  "what_it_is": {
+    "prose": "Collins Aerospace, a business of RTX Corporation, is a US OEM of avionics, mission systems, cabin interiors, propeller systems and power & controls. Its products are embedded across Western platforms operated by India — including the C-130J, C-295 and P-8I — but as a diffuse subsystem supplier rather than a prime, and India-specific defence order values are not consolidated in public sources. Collins does maintain a genuine India engineering footprint through Global Capability Centres in Bengaluru and Hyderabad, including a new Bengaluru engineering/manufacturing site. Recorded here as an honest Tier C supplier card pending discrete, citable India programme data.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "India | Collins Aerospace",
+      "publisher": "Collins Aerospace / RTX (official)",
+      "url": "https://www.rtx.com/collinsaerospace/who-we-are/about-us/global/asia/india",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Collins Aerospace India presence page"
+    },
+    {
+      "id": "src-2",
+      "title": "Collins Aerospace Opens Bengaluru Engineering Facility",
+      "publisher": "Aviation Week",
+      "url": "https://aviationweek.com/mro/supply-chain/collins-aerospace-opens-bengaluru-engineering-facility",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Bengaluru engineering facility"
+    }
+  ],
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "seo": {
+    "title": "Collins Aerospace — Company · India Military Aerospace Atlas | Techadyant",
+    "canonical_path": "/research/military-aerospace/company/collins/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ],
+    "meta_description": "US avionics/interiors OEM (RTX) with engineering centres in Bengaluru and Hyderabad; diffuse subsystem supplier to platforms in Indian service. Tier C."
+  }
+}

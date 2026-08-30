@@ -1,0 +1,181 @@
+{
+  "entity_id": "cemilac",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "cemilac",
+  "name": "Centre for Military Airworthiness & Certification (CEMILAC)",
+  "variant": "DRDO military airworthiness certification authority",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "DRDO's military airworthiness certification authority in Bengaluru; the body that grants type approval for Indian military aircraft, helicopters, UAVs, aerostats and every airborne system, LRU, material and software — including Initial Operational Clearance for the LCA Tejas and ALH Dhruv.",
+    "chips": [
+      "Tier B",
+      "DRDO lab",
+      "Certification authority",
+      "Military airworthiness",
+      "Type approval",
+      "RCMA network",
+      "LCA / ALH clearance"
+    ],
+    "maker": "Defence Research & Development Organisation (DRDO), Ministry of Defence",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Indigenous national certification authority; certification standards partly harmonised with international (FAR/DEF-STAN/MIL) frameworks",
+    "mobility_or_class": "Airworthiness certification authority (regulatory/technical body)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Centre for Military Airworthiness & Certification (CEMILAC)",
+    "Ownership": "Laboratory of the Defence Research & Development Organisation (DRDO), Ministry of Defence, Government of India",
+    "Established": "1995",
+    "HQ": "Bengaluru, Karnataka, India",
+    "Role": "Airworthiness certification and qualification of Indian military aircraft and airborne systems",
+    "Authority": "Issues type certificate / type approval authorising production under government inspection and RCMA supervision",
+    "Regional_network": "Regional Centres for Military Airworthiness (RCMA) across India (14 regional centres reported)",
+    "Notable_clearances": "Initial Operational Clearance (IOC) for LCA Tejas and ALH Dhruv; Bio-ATF clearance for AN-32",
+    "Related_scheme": "Design Organisation Approval Scheme (DOAS) requiring AS9100; e-Certification portal at cemilac.drdo.gov.in"
+  },
+  "what_it_is": {
+    "prose": "The Centre for Military Airworthiness & Certification (CEMILAC) is the Defence Research & Development Organisation laboratory that acts as India's military airworthiness certification authority, established in 1995 and headquartered in Bengaluru. Every system, Line Replaceable Unit (LRU), component, material and software item used on Indian military airborne platforms — fixed-wing aircraft, helicopters, UAVs, aerostats and parachutes — must be certified by CEMILAC. It operates a 'concurrent certification' model in which airworthiness assurance proceeds alongside design and development, and it issues the type certificate (type approval) that grants authority to produce or manufacture a product under government inspection and the supervision of a designated Regional Centre for Military Airworthiness (RCMA). CEMILAC runs a network of regional centres (14 reported) co-located with design and production agencies across India, and administers a Design Organisation Approval Scheme (DOAS) that recognises design houses with an established Design Assurance System (requiring AS9100 approval as a prerequisite). Its clearances underpin India's indigenous aircraft programmes: CEMILAC issued Initial Operational Clearance (IOC) for the LCA Tejas and the ALH Dhruv, and cleared bio-jet fuel (Bio-ATF) use in the AN-32. It has launched an e-Certification portal (cemilac.drdo.gov.in) to streamline registration and submissions. As a certification authority rather than a manufacturer, CEMILAC is a foundational, if less visible, node of India's military-aerospace ecosystem — nothing indigenous flies with the armed forces without its clearance.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "CEMILAC does not procure or manufacture; its 'output' is airworthiness certification of India's military aircraft and airborne systems. Its documented clearances include Initial Operational Clearance for the LCA Tejas and ALH Dhruv and Bio-ATF clearance for the AN-32, and it certifies the systems, LRUs, materials and software across DRDO/HAL/industry aircraft programmes.",
+    "rows": [
+      {
+        "agency": "LCA Tejas programme (ADA/HAL)",
+        "context": "Initial Operational Clearance (IOC) for the Light Combat Aircraft",
+        "year": null,
+        "quantity_or_note": "IOC issued for LCA Tejas",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "ALH Dhruv programme (HAL)",
+        "context": "Initial Operational Clearance (IOC) for the Advanced Light Helicopter",
+        "year": null,
+        "quantity_or_note": "IOC issued for ALH Dhruv",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (AN-32)",
+        "context": "Clearance of Bio-ATF (bio-jet fuel) use in AN-32 transport aircraft",
+        "year": null,
+        "quantity_or_note": "Bio-ATF airworthiness clearance",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Full current list of platforms with CEMILAC type approval / FOC is not consolidated in the public sources reviewed here",
+      "Relationship and division of responsibility with DGAQA (quality assurance) is not detailed on the DRDO certification-services page"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "As a certification authority, CEMILAC has no manufacturing supply chain of its own. Its dependency is methodological: Indian military airworthiness standards and processes are partly harmonised with international frameworks (US FAR, UK DEF-STAN, MIL standards) and AS9100 for design organisations, but the certification authority itself is fully sovereign.",
+    "items": [
+      {
+        "component": "Certification standards / frameworks",
+        "severity": "Low",
+        "note": "Airworthiness codes partly harmonised with international FAR/DEF-STAN/MIL and AS9100 frameworks",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is CEMILAC and why does it matter?",
+      "answer": "CEMILAC is DRDO's military airworthiness certification authority, established in 1995 in Bengaluru. It certifies and qualifies every Indian military airborne platform and every system, component, material and software item used on them. Nothing indigenous — fighters, helicopters, UAVs, aerostats — enters armed-forces service without CEMILAC's airworthiness clearance, which makes it a foundational gatekeeper of India's military-aerospace ecosystem.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What has CEMILAC certified?",
+      "answer": "CEMILAC issued Initial Operational Clearance (IOC) for the LCA Tejas and the ALH Dhruv helicopter, and cleared bio-jet fuel (Bio-ATF) for use in the AN-32 transport aircraft. It issues type certificates (type approval) that authorise production under government inspection and the supervision of its Regional Centres for Military Airworthiness (RCMA), of which about 14 operate across India, and administers a Design Organisation Approval Scheme requiring AS9100.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Certification Services (CEMILAC — role, type approval, RCMA, DOAS)",
+      "publisher": "Defence Research and Development Organisation (DRDO)",
+      "url": "https://drdo.gov.in/drdo/en/offerings/schemes-and-services/certification-services",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official DRDO page: concurrent certification, type approval authority, RCMA supervision, DOAS/AS9100, e-Certification portal"
+    },
+    {
+      "id": "src-2",
+      "title": "Centre for Military Airworthiness and Certification (overview, IOC clearances, RCMA network)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Centre_for_Military_Airworthiness_and_Certification",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Establishment (1995), Bengaluru, IOC for LCA and ALH, AN-32 Bio-ATF, 14 regional centres"
+    },
+    {
+      "id": "src-3",
+      "title": "Centre for Military Airworthiness & Certification (CEMILAC) — organisation profile",
+      "publisher": "India Science, Technology & Innovation (ISTI) Portal, Government of India",
+      "url": "https://www.indiascienceandtechnology.gov.in/organisations/ministry-and-departments/defence-research-and-development-organisation-drdo-govt-india/centre-military-airworthiness-certification-cemilac",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Government portal listing CEMILAC as a DRDO organisation and its certification mandate"
+    }
+  ],
+  "seo": {
+    "title": "Centre for Military Airworthiness & Certification (CEMILAC) — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "DRDO's military airworthiness certification authority in Bengaluru; grants type approval for Indian military aircraft, helicopters, UAVs and every airborne system, LRU, material and software — including IOC for the LCA Tejas and ALH Dhruv.",
+    "canonical_path": "/research/military-aerospace/company/cemilac/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/company/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

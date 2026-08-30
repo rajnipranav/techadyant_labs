@@ -1,0 +1,60 @@
+{
+  "entity_id": "project-garud",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "project-garud",
+  "name": "Project Garud",
+  "variant": "Project Garud",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-30",
+  "status": "Development",
+  "header": {
+    "one_liner": "Project Garud is listed as a satellite programme; India evidence not yet verified for this dossier.",
+    "chips": [
+      "C",
+      "Limited evidence"
+    ],
+    "maker": "Unknown",
+    "country": "Unknown",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Tier_C_reason": "Placeholder pending verified primary source or India operational evidence.",
+    "Atlas_register_status": "Stub only"
+  },
+  "what_it_is": {
+    "prose": "This entry is a Tier C placeholder pending verifiable evidence of India relevance, operational use, or primary sourcing.",
+    "sources": []
+  },
+  "open_questions": [
+    "India relevance",
+    "Programme owner",
+    "Primary source"
+  ],
+  "sources": [],
+  "seo": {
+    "title": "Project Garud — Platform · India Space Atlas | Techadyant",
+    "meta_description": "Project Garud placeholder stub; India relevance not yet verified.",
+    "canonical_path": "/research/space/entity/project-garud/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/entity/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {}
+}

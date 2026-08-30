@@ -1,0 +1,339 @@
+{
+  "entity_id": "elbit",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "elbit",
+  "name": "Elbit Systems Limited",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Israeli listed defence OEM (NASDAQ/TASE: ESLT) with a genuine India military-aerospace footprint: the Adani-Elbit UAV complex at Hyderabad (Hermes 900 / Drishti 10 Starliner, first India-made UAV delivered to the Navy Jan 2024) and the Elbit DASH helmet-mounted display fitted to the HAL Tejas.",
+    "chips": [
+      "Tier A",
+      "Listed",
+      "Israel",
+      "NASDAQ/TASE: ESLT",
+      "Hermes 900",
+      "Adani-Elbit JV",
+      "Drishti 10 Starliner",
+      "DASH HMD"
+    ],
+    "maker": "Private listed (NASDAQ: ESLT, TASE: ESLT)",
+    "country": "Israel",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign OEM — India footprint via Adani-Elbit JV and direct EW/EO/avionics supply",
+    "mobility_or_class": "Defence-electronics & UAV OEM (no platform class)",
+    "operational_domains": [
+      "air",
+      "land",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Elbit Systems Limited",
+    "Ownership": "Private listed (NASDAQ: ESLT, TASE: ESLT)",
+    "HQ": "Haifa, Israel",
+    "Adani_Elbit_JV": "Adani Elbit UAV Complex, Hyderabad (~50,000 sq ft, inaugurated 2018-19) — first private UAV manufacturing facility in India; first Hermes 900 line outside Israel",
+    "Drishti_10_Starliner": "Indian designation for Hermes 900 StarLiner; first India-made UAV delivered to Indian Navy Jan 2024",
+    "Tejas_DASH_HMD": "Elbit DASH (Display and Sight Helmet) helmet-mounted display fitted to HAL Tejas; upgrade to DASH-V planned for Tejas Mk1A",
+    "Reliability": "Two Indian Navy Hermes 900 crashes in 18 months (Jan 2025, Jul 2026)",
+    "Order_book_India": "Not separately disclosed"
+  },
+  "what_it_is": {
+    "prose": "Elbit Systems Limited (NASDAQ/TASE: ESLT) is an Israeli listed defence-electronics and UAV OEM headquartered in Haifa. Its India military-aerospace footprint has two main strands. First, the Adani-Elbit joint venture operates the Adani Elbit UAV Complex in Hyderabad (~50,000 sq ft, inaugurated 2018-19) — the first private UAV manufacturing facility in India and the first Hermes 900 production line outside Israel; the Indian Navy received its first India-made UAV, the Drishti 10 Starliner (Indian designation for the Hermes 900 StarLiner), from this facility in January 2024, and the site has also exported Hermes 900 airframes to Israel. Second, Elbit supplies aircraft mission electronics used on Indian platforms — most visibly the DASH (Display and Sight Helmet) helmet-mounted display fitted to the HAL Tejas, with an upgrade to the DASH-V generation reported for the Tejas Mk1A. Elbit was awarded a $120 million international Hermes 900 contract in September 2025. The Indian Navy has, however, experienced two Hermes 900 (Drishti 10) crashes within 18 months — the first in January 2025 and the second in July 2026 — raising reliability questions that the Navy is investigating.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-6",
+      "src-7"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Elbit's India military-aerospace footprint is anchored by the Adani-Elbit UAV complex at Hyderabad, which delivered the Indian Navy's first India-made UAV (Drishti 10 Starliner / Hermes 900) in January 2024 and exports Hermes 900 airframes to Israel. Elbit's DASH helmet-mounted display equips the HAL Tejas, with a DASH-V upgrade reported for the Mk1A. Two Indian Navy Hermes 900 crashes have occurred within 18 months.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Drishti 10 Starliner (Hermes 900 StarLiner) — first India-made UAV",
+        "year": 2024,
+        "quantity_or_note": "First delivery Jan 2024 from Adani-Elbit Hyderabad line",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Air Force / HAL (Tejas)",
+        "context": "DASH (Display and Sight Helmet) helmet-mounted display; DASH-V reported for Mk1A",
+        "year": null,
+        "quantity_or_note": "Fitted to LCA Tejas fleet",
+        "sources": [
+          "src-6",
+          "src-7"
+        ]
+      },
+      {
+        "agency": "International customer (export)",
+        "context": "$120M Hermes 900 international contract",
+        "year": 2025,
+        "quantity_or_note": "Announced 29 Sep 2025",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Total Hermes 900 (Drishti 10) quantity ordered by the Indian Navy not publicly disclosed",
+      "Hermes 900 reliability under investigation after two crashes in 18 months",
+      "Scope/value of Elbit DASH helmet contracts for the Tejas not separately disclosed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Foreign OEM — Elbit is itself an import source for Indian platforms; India localisation is via final assembly at the Adani-Elbit JV. Detailed platform dependencies are documented in the respective platform dossiers.",
+    "items": [
+      {
+        "component": "Hermes 900 (Drishti 10) UAV system",
+        "severity": "High",
+        "note": "Israeli-origin design; India content via Adani-Elbit final assembly at Hyderabad",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "component": "DASH helmet-mounted display (Tejas)",
+        "severity": "Medium",
+        "note": "Israeli-origin avionics fitted to HAL Tejas",
+        "sources": [
+          "src-6",
+          "src-7"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Elbit — original designer of Hermes 900 and DASH HMD",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership (India)",
+        "value": 4,
+        "note": "Adani-Elbit JV Hyderabad — first private UAV manufacturing facility in India",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "Core UAV and avionics IP remains Israeli; India role is assembly/integration",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / India order book",
+        "value": 3,
+        "note": "First India-made UAV delivery Jan 2024; DASH HMD on Tejas; $120M export contract Sep 2025",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Adani-Elbit JV exports Hermes 900 to Israel and other customers",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "adani-drishti-10-starliner-drn-004",
+      "tejas-mk1a-def-003"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the Adani-Elbit joint venture and what does it build?",
+      "answer": "The Adani-Elbit joint venture operates the Adani Elbit UAV Complex in Hyderabad (~50,000 sq ft, inaugurated 2018-19) — the first private UAV manufacturing facility in India and the first Hermes 900 production line outside Israel. It builds the Hermes 900 (designated Drishti 10 Starliner in Indian service) and delivered the Indian Navy its first India-made UAV in January 2024, while also exporting Hermes 900 airframes to Israel.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "Does Elbit supply the helmet-mounted display for the HAL Tejas?",
+      "answer": "Yes. The Elbit DASH (Display and Sight Helmet) helmet-mounted display is fitted to the HAL Tejas, giving the pilot symbology and off-boresight targeting cueing. An upgrade to the DASH-V generation has been reported for the Tejas Mk1A, phasing out the earlier DASH-IV.",
+      "sources": [
+        "src-6",
+        "src-7"
+      ]
+    },
+    {
+      "question": "What are the Hermes 900 reliability concerns in Indian Navy service?",
+      "answer": "Two Indian Navy Hermes 900 (Drishti 10 Starliner) UAVs crashed within 18 months — the first in January 2025 and the second in July 2026. The Indian Navy is investigating. Despite the incidents, the Adani-Elbit line continues Hermes 900 production and Elbit won a $120 million international Hermes 900 contract in September 2025.",
+      "sources": [
+        "src-4",
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-19",
+      "event": "Adani-Elbit UAV Complex inaugurated in Hyderabad (~50,000 sq ft)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2024-01",
+      "event": "First India-made UAV (Drishti 10 Starliner / Hermes 900) delivered to Indian Navy",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2025-01",
+      "event": "First Indian Navy Hermes 900 crash",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2025-09-29",
+      "event": "Elbit awarded $120M international Hermes 900 contract",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "event": "Second Indian Navy Hermes 900 crash in 18 months",
+      "sources": [
+        "src-4"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Total Hermes 900 (Drishti 10) quantity ordered by the Indian Navy not publicly disclosed",
+    "Hermes 900 reliability under investigation after two crashes in 18 months",
+    "Scope/value of Elbit DASH helmet contracts for the Tejas not separately disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Adani Defence & Aerospace and Elbit Systems Inaugurate India's First Private UAV Manufacturing",
+      "publisher": "Adani (official)",
+      "url": "https://www.adani.com/newsroom/media-releases/adani-defence-and-aerospace-and-elbit-systems-inaugurate-india-first-private-uav-manufacturing",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Adani-Elbit UAV Complex, Hyderabad — first private UAV facility in India"
+    },
+    {
+      "id": "src-2",
+      "title": "Navy gets its first India-made drones from Adani Defence Hermes 900",
+      "publisher": "Unmanned Network",
+      "url": "https://unmanned-network.com/navy-gets-its-first-india-made-drones-from-adani-defence-hermes-900",
+      "published_date": "2024-01-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "First Drishti 10 Starliner (Hermes 900) delivered to Indian Navy, Jan 2024"
+    },
+    {
+      "id": "src-3",
+      "title": "Elbit Systems Awarded $120 Million Contract for Hermes 900 International Customer",
+      "publisher": "Elbit Systems (official)",
+      "url": "https://www.elbitsystems.com/news/elbit-systems-awarded-120-million-contract-hermes-900tm-international-customer",
+      "published_date": "2025-09-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "$120M Hermes 900 international contract"
+    },
+    {
+      "id": "src-4",
+      "title": "Israeli-designed Hermes 900 drone crashes again in India",
+      "publisher": "CalcalistTech",
+      "url": "https://www.calcalistech.com/ctechnews/article/hkvdp3v4mg",
+      "published_date": "2026-07-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Second Indian Navy Hermes 900 crash in 18 months"
+    },
+    {
+      "id": "src-5",
+      "title": "Hermes 900 UAV | Multi-Mission MALE Drone",
+      "publisher": "Elbit Systems (official)",
+      "url": "https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Hermes 900 product page"
+    },
+    {
+      "id": "src-6",
+      "title": "Helmet Mounted Display",
+      "publisher": "Elbit Systems (official)",
+      "url": "https://www.elbitsystems.com/air-space/aircraft-systems/helmet-mounted-display",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "DASH-family helmet-mounted display product line"
+    },
+    {
+      "id": "src-7",
+      "title": "LCA Tejas Mk1A to Upgrade to DASH-V Helmet System, Phasing Out DASH-IV",
+      "publisher": "IDRW",
+      "url": "https://idrw.org/lca-tejas-mk1a-to-upgrade-to-dash-v-helmet-system-phasing-out-dash-iv/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Elbit DASH helmet-mounted display on HAL Tejas"
+    }
+  ],
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "seo": {
+    "title": "Elbit Systems Limited — Company · India Military Aerospace Atlas | Techadyant",
+    "canonical_path": "/research/military-aerospace/company/elbit/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "meta_description": "Israeli listed defence OEM (NASDAQ/TASE: ESLT); India footprint via the Adani-Elbit Hermes 900 (Drishti 10) UAV line at Hyderabad and the DASH helmet-mounted display on the Tejas."
+  }
+}

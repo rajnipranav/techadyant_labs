@@ -1,0 +1,434 @@
+{
+  "entity_id": "atl-cmp-mahindra-defence-systems-mfr-083",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "mahindra-defence-systems-mfr-083",
+  "name": "Mahindra Defence Systems (MDS)",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/mahindra-defence-systems-mfr-083/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Mahindra Defence Systems Ltd (MDSL) is the Mahindra Group's defence & aerospace subsidiary, providing land, naval and air defence systems to the Indian Armed Forces. In land systems, MDSL won a ₹1,056",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Mumbai, Maharashtra, India (Mahindra Towers, Worli); Mahindra Defence Naval Systems at New Delhi",
+    "Type": "Manufacturer (listed)",
+    "Founded": "Mahindra Defence Systems (MDS) is a subsidiary of Mahindra & Mahindra Ltd (parent founded 2 October 1945); MDS was spun out as a defence-focused subsidiary",
+    "India entity": null,
+    "Listed": "Not separately listed — wholly-owned subsidiary of Mahindra & Mahindra Ltd (NSE:M&M / BSE:500520); MDSL (Mahindra Defence Systems Ltd) is a private Mahindra Group company",
+    "Key India role": "Mahindra Defence Systems Ltd (MDSL) is the Mahindra Group's defence & aerospace subsidiary, providing land, naval and air defence systems to the Indian Armed Forces. In land systems, MDSL won a ₹1,056"
+  },
+  "what_it_is": {
+    "prose": "Mahindra Defence Systems Ltd (MDSL) is the Mahindra Group's defence & aerospace subsidiary, providing land, naval and air defence systems to the Indian Armed Forces. In land systems, MDSL won a ₹1,056 crore MoD contract on 22 March 2021 to supply 1,300 Light Specialist Vehicles (LSVs) — light-weight 4-wheel drive air-transportable tactical armoured specialist vehicles — to the Indian Army over four years (2021-2025). In naval systems, Mahindra Defence Naval Systems partnered with UK's Ultra Electronics (July 2015) for underwater warfare equipment and won a ₹1,349.95 crore (~₹1,350 Cr) MoD contract on 27 August 2021 to supply 14 Integrated Anti-Submarine Warfare Defence Suite (IADS) systems for Indian Navy warships — the first major Indian Navy contract to an Indian private sector company for underwater detection and protection. IADS is a high-end underwater equipment designed to detect and protect warships from underwater threats. In air/airborne systems, Mahindra Telephonics Integrated Systems (a JV with Telephonics Corporation, now L3Harris) opened India's first private airborne radar facility in 2014 (Feb 2014). Mahindra Defence is also developing 'all-in-one' counter-UAS (C-UAS) technology for protection of critical infrastructure (December 2024). In August 2026, MDSL incorporated Novavayu Aerospace (30 July 2026) as a wholly-owned subsidiary for aircraft manufacturing.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "7 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Light Specialist Vehicle (LSV)",
+        "role": "OEM",
+        "india_status": "4-wheel drive air-transportable tactical armoured specialist vehicle (1,300 units ₹1,056 Cr contract March 2021)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Mahindra Armored Light Specialist Vehicle (ALSV)",
+        "role": "OEM",
+        "india_status": "light-weight tactical armoured vehicle for Indian Army and Indian Air Force",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Integrated Anti-Submarine Warfare Defence Suite (IADS)",
+        "role": "OEM",
+        "india_status": "high-end underwater detection & protection suite for Indian Navy warships (14 systems, ₹1,350 Cr contract Aug 2021, JV with Ultra Electronics UK)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Mahindra Telephonics Integrated Systems",
+        "role": "OEM",
+        "india_status": "airborne radar systems (JV with Telephonics/L3Harris; opened first private airborne radar facility Feb 2014)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Counter-UAS (C-UAS) 'all-in-one' technology",
+        "role": "OEM",
+        "india_status": "for protection of critical infrastructure (Dec 2024)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Underwater warfare equipment",
+        "role": "OEM",
+        "india_status": "mines and torpedoes (partnership with WASS of Italy's Finmeccanica, since 2008)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Novavayu Aerospace",
+        "role": "OEM",
+        "india_status": "wholly-owned MDSL subsidiary incorporated 30 July 2026 for aircraft manufacturing",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "MoD signed ₹1,056 crore contract with MDSL on 22 March 2021 for supply of 1,300 Light Specialist Vehicles (LSVs) to Indian Army — induction planned 2021-2025",
+        "year": "2021",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "MoD signed ₹1,349.95 crore contract with Mahindra Defence Naval Systems on 27 August 2021 for supply of 14 IADS systems to Indian Navy — first major Indian Navy contract to Indian private sector for underwater detection and protection",
+        "year": "2021",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Mahindra Telephonics Integrated Systems opened India's first private airborne radar facility on 5 February 2014",
+        "year": "2014",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Mahindra Defence developing 'all-in-one' counter-UAS technology (Dec 2024) for protection of critical infrastructure in urban areas",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "MDSL incorporated Novavayu Aerospace as wholly-owned subsidiary on 30 July 2026 for aircraft manufacturing",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "11 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "2 official, 8 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is Mahindra Defence Systems' role in underwater warfare for the Indian Navy?",
+      "answer": "In naval systems, Mahindra Defence Naval Systems partnered with UK's Ultra Electronics (July 2015) for underwater warfare equipment and won a ₹1,349.95 crore (~₹1,350 Cr) MoD contract on 27 August 2021 to supply 14 Integrated Anti-Submarine Warfare Defence Suite (IADS) systems for Indian Navy warships — the first major Indian Navy contract to an Indian private sector company for underwater detection and protection.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the value of Mahindra Defence's August 2021 contract with the Indian Navy?",
+      "answer": "In naval systems, Mahindra Defence Naval Systems partnered with UK's Ultra Electronics (July 2015) for underwater warfare equipment and won a ₹1,349.95 crore (~₹1,350 Cr) MoD contract on 27 August 2021 to supply 14 Integrated Anti-Submarine Warfare Defence Suite (IADS) systems for Indian Navy warships — the first major Indian Navy contract to an Indian private sector company for underwater detection and protection.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which Mahindra Defence vehicle was ordered by the Indian Army in March 2021?",
+      "answer": "In land systems, MDSL won a ₹1,056 crore MoD contract on 22 March 2021 to supply 1,300 Light Specialist Vehicles (LSVs) — light-weight 4-wheel drive air-transportable tactical armoured specialist vehicles — to the Indian Army over four years (2021-2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "How many Light Specialist Vehicles (LSVs) did Mahindra Defence supply to the Indian Army?",
+      "answer": "In land systems, MDSL won a ₹1,056 crore MoD contract on 22 March 2021 to supply 1,300 Light Specialist Vehicles (LSVs) — light-weight 4-wheel drive air-transportable tactical armoured specialist vehicles — to the Indian Army over four years (2021-2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When did Mahindra Telephonics open India's first private airborne radar facility?",
+      "answer": "In air/airborne systems, Mahindra Telephonics Integrated Systems (a JV with Telephonics Corporation, now L3Harris) opened India's first private airborne radar facility in 2014 (Feb 2014).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is Novavayu Aerospace and when was it incorporated?",
+      "answer": "In August 2026, MDSL incorporated Novavayu Aerospace (30 July 2026) as a wholly-owned subsidiary for aircraft manufacturing.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Mahindra Defence to manufacture 14 IADS systems for Indian Navy (27 Aug 2021) — high-end underwater detection and protection",
+      "publisher": "Mahindra Official",
+      "url": "https://www.mahindra.com/news-room/press-release/en/mahindra-defence-to-manufacture-integrated-asw-defence-suite-for-indian-navy",
+      "published_date": "2021-08-27",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "Mahindra Defence ₹1,350 Cr contract to supply 14 IADS systems to Indian Navy warships",
+      "publisher": "Livemint",
+      "url": "https://www.livemint.com/companies/news/mahindra-defence-to-supply-anti-submarine-systems-to-indian-navy-for-rs-1-350-cr-11630070541105.html",
+      "published_date": "2021-08-27",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "IADS is first major contract from Indian Navy to an Indian private sector company for underwater detection and protection (Ultra + Mahindra partnership)",
+      "publisher": "Naval News",
+      "url": "https://www.navalnews.com/naval-news/2022/01/ultra-and-mahindra-partner-to-win-major-contract-with-the-indian-navy",
+      "published_date": "2022-01-12",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Mahindra Defence Naval Systems joined hands with Ultra Electronics UK for underwater warfare equipment for Indian Navy (6 July 2015)",
+      "publisher": "iConnect007",
+      "url": "https://iconnect007.com/article/91177/ultra-electronics-mahindra-collaborate-on-defense-products/91180/smt",
+      "published_date": "2015-07-06",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "MoD signed contract with Mahindra Defence Systems for supply of 1,300 LSVs to Indian Army (23 March 2021)",
+      "publisher": "Army Technology",
+      "url": "https://www.army-technology.com/news/mahindra-defence-to-deliver-light-specialist-vehicles-to-indian-army",
+      "published_date": "2021-03-23",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Mahindra Defence ₹1,056 crore contract for armoured LSVs to Indian Army; induction planned over four years 2021-2025",
+      "publisher": "Yahoo Finance Singapore",
+      "url": "https://sg.finance.yahoo.com/news/mahindra-defence-armoured-vehicles-indian-090000789.html",
+      "published_date": "2021-03-26",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Mahindra ALSV — light-weight 4-wheel drive air-transportable tactical armoured specialist vehicle for Indian Army and Indian Air Force",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mahindra_Armored_Light_Specialist_Vehicle",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Mahindra Telephonics Integrated Systems opens first private airborne radar facility (5 Feb 2014) — gives Mahindra Defence Systems 3-dimensional capability across land, sea and air domains",
+      "publisher": "Telephonics (TTM) Investor Relations",
+      "url": "https://investors.ttm.com/news-events/press-releases/detail/303/mahindra-telephonics-integrated-systems-opens-first-private",
+      "published_date": "2014-02-05",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Mahindra developing 'all-in-one' C-UAS technology (Dec 2024) for protection of critical infrastructure in urban areas",
+      "publisher": "Unmanned Airspace",
+      "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/mahindra-developing-all-in-one-c-uas-technology",
+      "published_date": "2024-12-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "Mahindra sets up Novavayu Aerospace (incorporated 30 July 2026) as wholly-owned subsidiary of Mahindra Defence Systems Ltd for aircraft manufacturing",
+      "publisher": "Auto Punditz",
+      "url": "https://www.autopunditz.com/post/mahindra-novavayu-aerospace-aircraft-manufacturing-defence",
+      "published_date": "2026-08-07",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "MDS ventured into naval systems — mainly mines and torpedoes; signed agreement with WASS of Italian Finmeccanica Group",
+      "publisher": "Ajai Shukla Blog",
+      "url": "https://www.ajaishukla.com/2008/03/private-sector-in-defence-mahindra.html",
+      "published_date": "2008-03-21",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Mahindra Defence Systems (MDS) — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Mahindra Defence Systems (MDS) company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/mahindra-defence-systems-mfr-083/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/mahindra-defence-systems-mfr-083/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

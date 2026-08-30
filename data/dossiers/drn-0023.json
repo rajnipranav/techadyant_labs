@@ -1,0 +1,78 @@
+{
+  "entity_id": "drn-0023",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "drn-0023",
+  "name": "Adani Akshi-7",
+  "variant": "Akshi-7",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-30",
+  "status": "Development",
+  "header": {
+    "one_liner": "Adani Akshi-7 — Development status drone platform.",
+    "chips": [
+      "B",
+      "India-relevant"
+    ],
+    "maker": "See manufacturer dossier",
+    "country": "Mixed",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Name": "Adani Akshi-7",
+    "Status": "Development",
+    "Variant": "Akshi-7"
+  },
+  "what_it_is": {
+    "prose": "Adani strike-capable drone under development.",
+    "sources": []
+  },
+  "open_questions": [
+    "Primary India service source",
+    "Manufacturer verification"
+  ],
+  "sources": [
+    {
+      "id": "src-p1",
+      "title": "Adani Akshi-7",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Initial placeholder from live hub mapping."
+    }
+  ],
+  "seo": {
+    "title": "Adani Akshi-7 — Platform · India Drones-UAS Atlas | Techadyant",
+    "meta_description": "Adani Akshi-7 platform dossier in the India Drones-UAS Atlas.",
+    "canonical_path": "/research/drones-uas/platform/drn-0023/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/platform/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

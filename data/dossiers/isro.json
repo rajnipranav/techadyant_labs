@@ -1,0 +1,74 @@
+{
+  "entity_id": "isro",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "isro",
+  "name": "ISRO",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/company/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "ISRO dossier placeholder with initial sources.",
+    "chips": [
+      "B",
+      "India-relevant"
+    ],
+    "maker": "ISRO",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Name": "ISRO",
+    "Type": "company",
+    "Evidence": "Initial sources captured; India relevance may need deepening."
+  },
+  "what_it_is": {
+    "prose": "The Indian Space Research Organisation is India’s national space agency under the Department of Space.",
+    "sources": [
+      "src-isro-1"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-isro-1",
+      "title": "ISRO homepage",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/ISRO_EN/Launchers.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Agency overview and centres."
+    }
+  ],
+  "seo": {
+    "title": "ISRO — Company · India Space Atlas | Techadyant",
+    "meta_description": "ISRO company/entity in the India Space Atlas.",
+    "canonical_path": "/research/space/company/isro/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

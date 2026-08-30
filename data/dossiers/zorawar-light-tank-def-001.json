@@ -1,0 +1,325 @@
+{
+  "entity_id": "def-001",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "zorawar-light-tank-def-001",
+  "name": "Zorawar Light Tank",
+  "variant": "Prototype (production variant pending user trials)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "In trials",
+  "header": {
+    "one_liner": "25-tonne Indian light tank for high-altitude warfare; CVRDE-designed, L&T-integrated; Cummins engine, John Cockerill 3105 turret (Belgium), Safran Paseo EO/IR (France); induction targeted 2028-29 per Army chief.",
+    "chips": [
+      "Light tank",
+      "High altitude",
+      "Make-I",
+      "L&T integrator",
+      "Cockerill 105mm",
+      "Nag Mk2 ATGM"
+    ],
+    "maker": "CVRDE (DRDO) + Larsen & Toubro (L&T) — lead systems integrator",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "CVRDE (DRDO) + Larsen & Toubro (L&T)",
+    "Mass": "25 tonnes",
+    "Power_to_weight": "30-40 hp/tonne",
+    "Engine": "Cummins VTA903E-T760, 760 hp diesel (USA)",
+    "Main_armament": "Cockerill 105 mm HP rifled gun in John Cockerill 3105 turret (Belgium)",
+    "Secondary": "7.62 mm BEL RCWS + twin side-mounted launcher for Nag Mk2 ATGM",
+    "EO_IR": "2 × Safran Paseo (France) — hunter-killer thermal imager + LRF",
+    "Transmission": "RENK America HMPT-800 (USA/Germany)",
+    "Armour": "STANAG 4569 Level 4 frontal / Level 2 sides; Level 6/5B under development by DMRL",
+    "Initial_order": "59 tanks (1 regiment, April 2023 prototype order to L&T)",
+    "Total_programme": "354 tanks (59 + 295 via Make-I bidding); ~₹70 cr/tank; ~₹17,500 cr total",
+    "Induction_target": "2028-29 (per Army chief Gen Upendra Dwivedi, 4 June 2026)"
+  },
+  "what_it_is": {
+    "prose": "The Zorawar Light Tank is a 25-tonne Indian light tank designed by the Combat Vehicles Research & Development Establishment (CVRDE, a DRDO laboratory) and integrated by Larsen & Toubro (L&T) as the lead systems integrator under the Indian Army's Make-I category (government-funded prototype development). The tank is purpose-built for high-altitude warfare in Eastern Ladakh and is named after General Zorawar Singh, the 19th-century Dogra general who campaigned in the Himalayas. The Zorawar is powered by a Cummins VTA903E-T760 760 hp diesel engine (USA) — selected after the originally-planned MTU 8V199 engine (Rolls-Royce Germany) was blocked by German export controls in 2022-23. The power-to-weight ratio is 30-40 hp/tonne, giving the tank exceptional mobility in mountainous terrain. The main armament is a Cockerill 105 mm HP rifled gun in a John Cockerill 3105 turret (Belgium), supplemented by a 7.62 mm BEL Remote Controlled Weapon Station and twin side-mounted launchers for the Nag Mk2 Anti-Tank Guided Missile. The hunter-killer EO/IR suite comprises two Safran Paseo sights (France) with thermal imager and laser range finder. The transmission is a RENK America HMPT-800 (USA/Germany), the same unit used on the US Army's Armored Multi-Purpose Vehicle (AMPV). Armour is STANAG 4569 Level 4 frontal / Level 2 sides, with Level 6/5B under development by the Defence Metallurgical Research Laboratory (DMRL). The Indian Army's initial order was for 59 tanks (one regiment) placed in April 2023 with L&T as development-cum-production partner; the total programme of record is 354 tanks (59 + 295 via Make-I competitive bidding), at approximately ₹70 crore per tank and a total programme value of approximately ₹17,500 crore. The second batch of 295 tanks is open to competitive bidding — Bharat Forge and Armoured Vehicles Nigam (AVNL) are both developing competitors under the Futuristic Light Tank programme. Army Chief General Upendra Dwivedi stated on 4 June 2026 that the Zorawar will be inducted in 2028-29, after fixes from developmental trials are incorporated. MSMEs in Vadodara, Rajkot, and Surat contributed gear mechanisms, rubber foundry, and cooling system components.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Zorawar Light Tank is in developmental + user trials. The Indian Army's initial order is for 59 tanks (one regiment), placed in April 2023 with L&T as development-cum-production partner. The total programme of record is 354 tanks at approximately ₹17,500 crore. Army Chief General Upendra Dwivedi stated on 4 June 2026 that induction is targeted for 2028-29. The second batch of 295 tanks will be competitively bid under Make-I — Bharat Forge and Armoured Vehicles Nigam (AVNL) are developing competing 'Bharat tank' designs.",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "Initial order — 59 tanks (1 regiment)",
+        "year": 2023,
+        "quantity_or_note": "April 2023 prototype order to L&T; ~₹234.5 cr R&D + ~₹17,500 cr programme for 354 tanks",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Total programme of record — 354 tanks",
+        "year": 2026,
+        "quantity_or_note": "59 + 295 via Make-I bidding; ~₹70 cr/tank",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Induction target announced by Army Chief",
+        "year": 2026,
+        "quantity_or_note": "2028-29 (per Gen Upendra Dwivedi, 4 June 2026)",
+        "sources": [
+          "src-1",
+          "src-3",
+          "src-4"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Indigenous content % not officially quantified",
+      "Second-batch 295 tanks (regiments 2-7) competitive bidding outcome pending — Bharat Forge and AVNL developing competitors",
+      "Active Protection System OEM not yet disclosed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
+    "items": [
+      {
+        "component": "Engine (Cummins VTA903E-T760)",
+        "severity": "Critical",
+        "note": "USA — MTU 8V199 (Rolls-Royce Germany) was blocked by German export controls 2022-23; switched to US Cummins direct purchase by L&T",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "component": "105 mm gun + turret (John Cockerill 3105)",
+        "severity": "Critical",
+        "note": "Belgium OEM; no Indian equivalent",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "component": "Transmission (RENK HMPT-800)",
+        "severity": "Critical",
+        "note": "USA/Germany (RENK America); same as US AMPV",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "component": "EO/IR (Safran Paseo)",
+        "severity": "High",
+        "note": "France — hunter-killer thermal imager + LRF",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "component": "Active Protection System",
+        "severity": "Unknown",
+        "note": "Planned; OEM TBD",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "CVRDE (DRDO) design; L&T integration; MSMEs in Vadodara, Rajkot, Surat contributed subsystems",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "L&T Hazira; Make-I framework enables private sector production",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "Engine, gun/turret, transmission, EO/IR all imported",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "354-tank programme; ~₹17,500 cr total",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "No export discussions reported; high-altitude niche may appeal to friendly mountain countries",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "pinaka-mbrl-def-002",
+      "tejas-mk1a-def-003"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Indigenous content % not officially quantified",
+    "Second-batch 295 tanks (regiments 2-7) competitive bidding outcome pending — Bharat Forge and AVNL developing competitors",
+    "Active Protection System OEM not yet disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Will induct Zorawar light tank in 2028-29: Army chief Gen Upendra Dwivedi",
+      "publisher": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/india-news/will-induct-zorawar-light-tank-in-2028-29-army-chief-101780772367368.html",
+      "published_date": "2026-06-07",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Army chief confirms 2028-29 induction"
+    },
+    {
+      "id": "src-2",
+      "title": "Zorawar (tank)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zorawar_(tank)",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Comprehensive technical specifications; aggregates credible sources"
+    },
+    {
+      "id": "src-3",
+      "title": "Army Chief: After Fixes, Zorawar Light Tank Likely to Enter Service in 2028-29",
+      "publisher": "IDRW",
+      "url": "https://idrw.org/army-chief-after-fixes-zorawar-light-tank-likely-to-enter-service-in-2028-29",
+      "published_date": "2026-06-08",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Confirms induction timeline"
+    },
+    {
+      "id": "src-4",
+      "title": "Zorawar Light Tank Induction 2028-29: Indian Army",
+      "publisher": "Defence Standard",
+      "url": "https://defencestandard.com/zorawar-light-tank-induction-2028-29",
+      "published_date": "2026-06-08",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Confirms induction timeline"
+    }
+  ],
+  "seo": {
+    "title": "Zorawar Light Tank — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "25-tonne Indian light tank for high-altitude warfare; CVRDE-designed, L&T-integrated; Cummins engine, John Cockerill 3105 turret (Belgium), Safran Paseo EO/IR (",
+    "canonical_path": "/research/pillars/defence/entity/zorawar-light-tank-def-001/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/",
+    "submit_correction": "/research/pillars/defence/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why was the Zorawar engine switched from MTU to Cummins?",
+      "answer": "The Zorawar was originally planned to use the MTU 8V199 engine from Rolls-Royce Germany. However, German export controls blocked the supply in 2022-23, forcing L&T to switch to the Cummins VTA903E-T760 (760 hp diesel) sourced directly from the USA. The Cummins engine provides 30-40 hp/tonne power-to-weight ratio, giving the tank exceptional mobility in high-altitude terrain. The episode highlights the strategic risk of European export-control chokepoints in Indian defence programmes.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "When will the Zorawar enter service?",
+      "answer": "Army Chief General Upendra Dwivedi stated on 4 June 2026 that the Zorawar will be inducted in 2028-29, after fixes from developmental trials are incorporated. The initial order is for 59 tanks (one regiment) placed with L&T in April 2023. The total programme of record is 354 tanks at approximately ₹17,500 crore.",
+      "sources": [
+        "src-1",
+        "src-3",
+        "src-4"
+      ]
+    },
+    {
+      "question": "Why is the Zorawar named after General Zorawar Singh?",
+      "answer": "The Zorawar Light Tank is named after General Zorawar Singh (1786-1841), the 19th-century Dogra general who campaigned extensively in the Himalayas and Tibet under Maharaja Gulab Singh of Jammu. The name reflects the tank's intended role in high-altitude warfare in Eastern Ladakh and along the Line of Actual Control with China — terrain similar to where General Zorawar Singh operated. The naming follows the Indian tradition of invoking military historical figures for indigenous defence platforms (cf. Tejas, Arjun, Dhruv, Prachand).",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021",
+      "event": "Indian Army issues Acceptance of Necessity (AoN) for light tank after 2020 Galwan Valley clash",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2023-04",
+      "event": "Initial order for 59 tanks (1 regiment) placed with L&T as development-cum-production partner",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "First prototype unveiled; developmental trials begin",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "event": "Army Chief Gen Upendra Dwivedi announces 2028-29 induction target",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ]
+}

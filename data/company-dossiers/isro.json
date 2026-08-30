@@ -1,0 +1,536 @@
+{
+  "entity_id": "atl-cmp-isro",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "isro",
+  "name": "ISRO (Indian Space Research Organisation)",
+  "variant": null,
+  "vertical": "space",
+  "parent_hub_path": "/research/space/isro/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "ISRO is the national space agency of India, established 15 August 1969 under the Department of Atomic Energy and brought under the Department of Space (DOS) in 1972. It is India's sole agency for spac",
+    "chips": [
+      "space",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India (Antariksh Bhavan, Department of Space)",
+    "Type": "Company (listed)",
+    "Founded": "15 August 1969 (superseded INCOSPAR; brought under Department of Space 1972)",
+    "India entity": null,
+    "Listed": "Not applicable — government agency under Department of Space, Government of India",
+    "Key India role": "ISRO is the national space agency of India, established 15 August 1969 under the Department of Atomic Energy and brought under the Department of Space (DOS) in 1972. It is India's sole agency for spac"
+  },
+  "what_it_is": {
+    "prose": "ISRO is the national space agency of India, established 15 August 1969 under the Department of Atomic Energy and brought under the Department of Space (DOS) in 1972. It is India's sole agency for space launch, satellites, deep-space missions and human spaceflight. Recent landmark missions include Chandrayaan-3 (first soft-landing near lunar south pole, 23 August 2023), SpaDeX (india's first in-space docking experiment, docking on 16 January 2025), SSLV-D3/EOS-08 (final SSLV developmental flight, 16 August 2024), and the LVM3 family (latest LVM3-M5/CMS-03 mission Nov 2 2025; LVM3-M6 Dec 2025). Gaganyaan human spaceflight programme targets 3 crewed missions by Q1 2027 (uncrewed G1 in Q4 2026), launching 3 astronauts to 400 km LEO for 3 days. Operational launch vehicles: PSLV (workhorse since 1994), LVM3 (4 t to GTO / 10 t to LEO heavy lift), GSLV Mk-II, SSLV (500 kg to 500 km LEO, 3-stage). Commercial arm: NSIL (since 2019) and legacy Antrix.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "6 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Launch Vehicles: PSLV (Polar Satellite Launch Vehicle",
+        "role": "OEM",
+        "india_status": "workhorse since 1994), LVM3/GSLV Mk-III (4 t to GTO / 10 t to LEO heavy lift, 3-stage with 5 m heatshield), GSLV Mk-II (cryogenic upper stage), SSLV (Small Satellite Launch Vehicle — 3-stage, 2 m dia × 34 m, 500 kg to 500 km LEO)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Satellites: INSAT/GSAT communications (incl. CMS-03 launched LVM3-M5 Nov 2 2025); IRS Earth-observation series; IRNSS/NavIC navigation constellation",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Deep-space missions: Chandrayaan-1 (2008), Mangalyaan/MOM (2013), Chandrayaan-2 (2019), Chandrayaan-3 (landed 23 Aug 2023), Chandrayaan-4 (planned, sample return)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Human spaceflight: Gaganyaan programme",
+        "role": "OEM",
+        "india_status": "3 crewed missions targeted by Q1 2027 (G1 uncrewed Q4 2026), 3 astronauts to 400 km LEO for 3 days",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "In-space docking: SpaDeX (Space Docking Experiment)",
+        "role": "OEM",
+        "india_status": "twin-satellite docking demonstration, launched 30 Dec 2024, docking achieved 16 Jan 2025",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Launch infrastructure: SDSC-SHAR Sriharikota (First Launch Pad, Second Launch Pad); private launchpads operated by Agnikul (Launchpad-01) and Skyroot (Vikram-S Launch Pad)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "7 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "Chandrayaan-3 lander Vikram + rover Pragyan soft-landed near lunar south pole (69°S) on 23 August 2023 at 18:04 IST (12:33 UTC) — India first country to land near lunar south pole, 4th country to soft-land on Moon",
+        "year": "2023",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "SpaDeX twin satellites (Target + Chaser, 220 kg each) launched 30 December 2024 on PSLV-C60; successful docking 16 January 2025 — India becomes 4th nation (after US/Russia/China) to demonstrate space docking",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "SSLV-D3/EOS-08 — final SSLV developmental flight, 16 August 2024; SSLV declared operational; ISRO conducted ground test of improved SS3 third stage 30 December 2025",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "LVM3-M5/CMS-03 mission — 2 November 2025 (latest LVM3 mission per ISRO list); LVM3-M6 mission late December 2025 (heaviest launch mission, with MTAR & Godrej supplying Vikas engines and cryogenic subsystems)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "PSLV-C53 mission 30 June 2022 hosted Dhruva Space DSOD-1U deployer space-qualification; PSLV-C55 (22 April 2023) hosted DSOL/DSOD-3U/DSOD-6U; PSLV-C58/POEM-3 hosted Dhruva LEAP-TD platform (Jan 2024)",
+        "year": "2022",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "ISRO's 100th satellite launch — 29 January 2025 (with MTAR Technologies supplying key propulsion components)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Operation Sindoor (May 2025) used ISRO satellites for ISR / communication support per multiple reports",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "21 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "10 official, 10 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When did ISRO land Chandrayaan-3 on the Moon?",
+      "answer": "23 August 2023 at 18:04 IST, near lunar south pole at 69°S — India became the 4th country to soft-land on the Moon and the 1st near the south pole",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When is the first Indian crewed spaceflight under Gaganyaan targeted?",
+      "answer": "First crewed mission in Q1 2027, preceded by uncrewed G1 in Q4 2026; programme aims to send 3 astronauts to 400 km LEO for 3 days",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which ISRO mission demonstrated in-space docking?",
+      "answer": "SpaDeX (Space Docking Experiment) — twin satellites launched 30 Dec 2024 on PSLV-C60, docking achieved 16 January 2025, making India the 4th nation to demonstrate docking",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the payload capacity of ISRO's SSLV?",
+      "answer": "~500 kg to 500 km Low Earth Orbit; 3-stage, 2 m diameter × 34 m long; declared operational after SSLV-D3/EOS-08 flight on 16 August 2024",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the lift capacity of LVM3?",
+      "answer": "4,000 kg to GTO and ~10,000 kg to LEO; 3-stage vehicle with 5 m heatshield; latest mission LVM3-M5/CMS-03 on 2 November 2025",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "ISRO formed 15 August 1969, superseded INCOSPAR; brought under DOS in 1972",
+      "publisher": "ISRO Official",
+      "url": "https://www.isro.gov.in/profile.html",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "ISRO formed 15 August 1969, subsumed into DAE, then DOS in 1972",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ISRO",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Chandrayaan-3 entered lunar orbit 5 August 2023, landed near lunar south pole at 69°S on 23 August 2023 at 18:04 IST",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chandrayaan-3",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Chandrayaan-3 successfully soft-landed on the Moon; orbit reduced to 174 km x 1437 km following 9 Aug 2023 manuevre",
+      "publisher": "ISRO Official",
+      "url": "https://www.isro.gov.in/Chandrayaan3.html",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "India makes historic landing near Moon's south pole on 23 August 2023",
+      "publisher": "BBC News",
+      "url": "https://www.bbc.com/news/world-asia-india-66594520",
+      "published_date": "2023-08-23",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Chandrayaan-3 touches down — India lands on the Moon",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/d41586-023-02690-7",
+      "published_date": "2023-08-23",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Chandrayaan-3 arrived in lunar orbit 5 August; lander module separated 17 August",
+      "publisher": "ESA",
+      "url": "https://www.esa.int/Enabling_Support/Operations/India_s_Chandrayaan-3_successfully_lands_on_the_Moon",
+      "published_date": "2023-08-23",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "India plans 3 Gaganyaan missions by March 2027",
+      "publisher": "Deutsche Welle",
+      "url": "https://www.dw.com/en/india-isro-2027-gaganyaan-launch-preparation/a-75105655",
+      "published_date": "2025-12-11",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Gaganyaan project: 3 crew to 400 km orbit for 3 days",
+      "publisher": "ISRO Official",
+      "url": "https://www.isro.gov.in/Gaganyaan.html",
+      "published_date": "2022-11-23",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "PM announced 4 Gaganyaan astronauts: Gp Capt Prasanth Balakrishnan Nair, Ajit Krishnan, Angad Pratap, Shubhanshu Shukla",
+      "publisher": "PMF IAS",
+      "url": "https://www.pmfias.com/gaganyaan-mission",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "SpaDeX cost-effective technology demonstrator for in-space docking using two small spacecraft",
+      "publisher": "ISRO Official",
+      "url": "https://www.isro.gov.in/mission_SpaDeX.html",
+      "published_date": "2024-12-21",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "SpaDeX launched 30 December 2024 on PSLV; docking revolutionises space exploration",
+      "publisher": "PIB (Press Information Bureau India)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2093369",
+      "published_date": "2025-01-16",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "India successfully conducts historic space-docking test on 16 January 2025",
+      "publisher": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c8j89k02py0o",
+      "published_date": "2025-01-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-14",
+      "title": "SSLV delivers 500 kg; last flight 16 August 2024",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Small_Satellite_Launch_Vehicle",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-15",
+      "title": "SSLV: 3-stage, 2 m dia × 34 m, ~500 kg to 500 km LEO",
+      "publisher": "ISRO Official",
+      "url": "https://www.isro.gov.in/sslv_CON.html",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-16",
+      "title": "SSLV inaugural launch failed 6 Aug 2022",
+      "publisher": "SpaceNews",
+      "url": "https://spacenews.com/indias-new-sslv-rocket-suffers-data-loss-in-maiden-flight-satellites-status-unaccounted-for",
+      "published_date": "2022-08-07",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-17",
+      "title": "ISRO conducted successful static test of improved SS3 third stage of SSLV on 30 Dec 2025",
+      "publisher": "ISRO Official",
+      "url": "https://www.isro.gov.in/Ground_Test_of_SSLV_Third_Stage.html",
+      "published_date": "2025-12-30",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-18",
+      "title": "LVM3 — three-stage medium-lift launch vehicle for communication satellites",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/LVM3",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-19",
+      "title": "LVM3 heavy lift: 4000 kg to GTO, 3-stage vehicle with 5 m heatshield",
+      "publisher": "ISRO Official",
+      "url": "https://www.isro.gov.in/GSLVmk3_CON.html",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-20",
+      "title": "LVM3-M5/CMS-03 mission 2 Nov 2025; M4/Chandrayaan-3 14 July 2023; GSAT-29 14 Nov 2018",
+      "publisher": "ISRO Official",
+      "url": "https://www.isro.gov.in/LVM3_Launchers.html",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-21",
+      "title": "Mk-III (LVM3) lifts 4 t to GTO / 10 t to LEO; 3-stage with 5 m heatshield",
+      "publisher": "NSIL Official",
+      "url": "https://www.nsilindia.co.in/launch-services",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "ISRO (Indian Space Research Organisation) — Company · India Space Atlas | Techadyant",
+    "meta_description": "ISRO (Indian Space Research Organisation) company dossier: India space role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/space/isro/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/isro/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

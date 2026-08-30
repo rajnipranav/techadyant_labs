@@ -1,0 +1,92 @@
+{
+  "entity_id": "moog-liebherr",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "moog-liebherr",
+  "name": "Moog Inc. & Liebherr-Aerospace",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Two flight-control-actuation and aerospace-equipment OEMs — Moog Inc. (US) and Liebherr-Aerospace (Germany) — grouped as embedded suppliers of primary/secondary flight-control actuators and aircraft systems. No discrete India defence evidence — Tier C.",
+    "chips": [
+      "Tier C",
+      "USA",
+      "Germany",
+      "Moog",
+      "Liebherr-Aerospace",
+      "Flight-control actuation"
+    ],
+    "country": "United States / Germany",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign component/sub-system supplier — no standalone India footprint",
+    "mobility_or_class": "Component/sub-system supplier (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Moog": "Moog Inc. (NYSE: MOG.A), East Aurora, NY — precision flight-control actuation, servovalves, EHA/EMA",
+    "Liebherr_Aerospace": "Liebherr-Aerospace (Liebherr Group), Toulouse/Lindenberg — flight controls, actuation, air management, landing gear",
+    "Relevance": "Primary/secondary flight-control actuators and aircraft systems on Western platforms",
+    "Tier_C_reason": "Embedded actuation/systems suppliers; no citable standalone India defence order"
+  },
+  "what_it_is": {
+    "prose": "This card groups two flight-control-actuation and aircraft-systems OEMs. Moog Inc. (US) supplies precision primary and secondary flight-control actuation, servovalves and electrohydrostatic/electromechanical actuators; Liebherr-Aerospace (Germany) supplies flight controls, actuation, air-management and landing-gear systems. Both are embedded systems suppliers to Western airframers whose hardware may appear on platforms operated by India, but neither is documented here through a discrete, citable India defence contract. Recorded as an honest Tier C component-supplier card.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Aircraft Actuators",
+      "publisher": "Moog Inc. (official)",
+      "url": "https://www.moog.com/products/actuators-servoactuators/aircraft.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Moog aircraft flight-control actuation product line"
+    },
+    {
+      "id": "src-2",
+      "title": "Liebherr Aerospace",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liebherr_Aerospace",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Liebherr-Aerospace overview — flight controls, actuation, air management"
+    }
+  ],
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "seo": {
+    "title": "Moog Inc. & Liebherr-Aerospace — Company · India Military Aerospace Atlas | Techadyant",
+    "canonical_path": "/research/military-aerospace/company/moog-liebherr/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ],
+    "meta_description": "Moog Inc. (US) and Liebherr-Aerospace (Germany) — embedded flight-control-actuation suppliers with no discrete India defence evidence. Tier C."
+  }
+}

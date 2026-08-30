@@ -1,0 +1,402 @@
+{
+  "entity_id": "atl-cmp-ideaforge-technology-ltd-mfr-014",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ideaforge-technology-ltd-mfr-014",
+  "name": "ideaForge Technology Ltd",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/ideaforge-technology-ltd-mfr-014/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "ideaForge is India's first listed pure-play UAV OEM, founded by IIT Bombay alumni in 2007 and listed on NSE/BSE in July 2023. It is the incumbent supplier of mini-VTOL surveillance UAVs to the Indian ",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Mumbai, Maharashtra, India",
+    "Type": "Manufacturer (listed)",
+    "Founded": "2007",
+    "India entity": null,
+    "Listed": "NSE: IDEAFORGE, BSE: 543932 (listed 7 July 2023)",
+    "Key India role": "ideaForge is India's first listed pure-play UAV OEM, founded by IIT Bombay alumni in 2007 and listed on NSE/BSE in July 2023. It is the incumbent supplier of mini-VTOL surveillance UAVs to the Indian "
+  },
+  "what_it_is": {
+    "prose": "ideaForge is India's first listed pure-play UAV OEM, founded by IIT Bombay alumni in 2007 and listed on NSE/BSE in July 2023. It is the incumbent supplier of mini-VTOL surveillance UAVs to the Indian Army, having executed the country's first major Indian-UAV defence contract ($20 million SWITCH UAV order, 2021) and a follow-on ₹137 crore emergency procurement in June 2025. Its platforms (SWITCH, NETRA family, Q6 V2) are designed and built in India and have achieved DGCA type certification and a NATO stock number for the Q6 V2, positioning it as a flagship Make-in-India defence drone champion.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "3 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "SWITCH UAV (fixed-wing VTOL hybrid)",
+        "role": "OEM",
+        "india_status": "Indian Army's first Indian-UAV procurement; JSS 55555 and MIL-STD-461E qualified; high-altitude variant deployed",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "NETRA family (NETRA V4, NETRA V4 Pro, NETRA 5)",
+        "role": "OEM",
+        "india_status": "Tactical quad-rotor VTOL; co-developed lineage with DRDO NETRA; used by Indian Army, MHA/CAPFs for border security, ISR, search & rescue",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Q6 V2 / Q6 V2 GEO",
+        "role": "OEM",
+        "india_status": "Mapping & surveillance UAV; DGCA type certified (Aug 2024); assigned NATO stock number (Sep 2025) enabling global defence procurement; developed entirely in India",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "$20 million contract for SWITCH UAV high-altitude variant; first major Indian-OEM UAV contract; deliveries split 100 in 2022 and 100 in 2023",
+        "year": "2021",
+        "quantity_or_note": "~200 systems (undisclosed exact qty)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Army (Emergency Procurement)",
+        "context": "₹137 crore (~$16.4M) emergency procurement order for hybrid Mini UAVs",
+        "year": "2025",
+        "quantity_or_note": "undisclosed",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Ministry of Defence / Government of India",
+        "context": "₹151 crore sanction for Project Yeti (high-altitude UAV development)",
+        "year": "2024",
+        "quantity_or_note": "n/a (R&D sanction)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Military",
+        "context": "Additional $11M UAV contract win (post the June 2025 emergency order)",
+        "year": "2025",
+        "quantity_or_note": "undisclosed",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "DRDO (co-development lineage)",
+        "context": "NETRA UAV co-developed with DRDO; deployed by CAPFs and Army for border surveillance",
+        "year": "2010s-2024",
+        "quantity_or_note": "n/a",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "14 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "Medium",
+        "note": "1 official, 12 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was ideaForge Technology listed on Indian stock exchanges and what are its tickers?",
+      "answer": "ideaForge Technology listed on NSE and BSE on 7 July 2023, with tickers NSE: IDEAFORGE and BSE: 543932.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What was ideaForge's first major Indian Army UAV contract?",
+      "answer": "In January 2021, the Indian Army signed a ~$20 million contract for the SWITCH UAV high-altitude variant, with deliveries of ~200 systems scheduled across 2022-2023. This was the first major Indian-OEM UAV contract for the Indian defence forces.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What recent emergency procurement did ideaForge receive from the Indian Army in 2025?",
+      "answer": "In June 2025, ideaForge secured a ₹137 crore (~$16.4 million) emergency procurement from the Indian Army for hybrid Mini UAVs. A further $11M military drone contract was reported in November 2025.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which ideaForge UAV has received a NATO stock number?",
+      "answer": "The Q6 V2 UAV platform, developed entirely in India, was assigned a NATO stock number in September 2025, enabling global defence procurement.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://ideaforgetech.com/blogs/indian-army-signs-a-20-million-contract-with-ideaforge-to-procure-switch-uav",
+      "publisher": "ideaForge Technology (company official blog)",
+      "url": "https://ideaforgetech.com/blogs/indian-army-signs-a-20-million-contract-with-ideaforge-to-procure-switch-uav",
+      "published_date": "2021-01-14",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Company announcement of $20M Indian Army SWITCH UAV contract"
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.army-technology.com/projects/switch-uav",
+      "publisher": "Army Technology",
+      "url": "https://www.army-technology.com/projects/switch-uav",
+      "published_date": "2021-01-27",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Independent confirmation of $20M Indian Army Switch UAV order placed in January 2021"
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.medianama.com/2022/03/223-ideaforge-contract-drones-indian-army-3",
+      "publisher": "MediaNama",
+      "url": "https://www.medianama.com/2022/03/223-ideaforge-contract-drones-indian-army-3",
+      "published_date": "2022-03-03",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms 200-SWITCH delivery schedule to Indian Army (100 in 2022, 100 in 2023)"
+    },
+    {
+      "id": "src-04",
+      "title": "https://militaryembedded.com/unmanned/isr/switch-uav-designed-for-isr-missions-procured-by-indian-army",
+      "publisher": "Military Embedded Systems",
+      "url": "https://militaryembedded.com/unmanned/isr/switch-uav-designed-for-isr-missions-procured-by-indian-army",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms high-altitude SWITCH variant procurement by Indian Army"
+    },
+    {
+      "id": "src-05",
+      "title": "https://dronelife.com/2025/06/23/indian-army-awards-emergency-uav-contract-to-ideaforge",
+      "publisher": "Dronelife",
+      "url": "https://dronelife.com/2025/06/23/indian-army-awards-emergency-uav-contract-to-ideaforge",
+      "published_date": "2025-06-23",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Reports ₹137 crore emergency procurement from Indian Army for hybrid Mini UAVs (June 2025)"
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.suasnews.com/2025/06/ideaforge-secures-%E2%82%B9137-crore-emergency-procurement-order-from-indian-army-for-hybrid-mini-uavs",
+      "publisher": "sUAS News",
+      "url": "https://www.suasnews.com/2025/06/ideaforge-secures-%E2%82%B9137-crore-emergency-procurement-order-from-indian-army-for-hybrid-mini-uavs",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms ₹137 Cr Indian Army emergency procurement order"
+    },
+    {
+      "id": "src-07",
+      "title": "https://thedefensepost.com/2025/11/20/ideaforge-india-drone-contract",
+      "publisher": "The Defense Post",
+      "url": "https://thedefensepost.com/2025/11/20/ideaforge-india-drone-contract",
+      "published_date": "2025-11-20",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Reports additional $11M Indian military drone deal; references June 2025 ₹1.37B emergency order"
+    },
+    {
+      "id": "src-08",
+      "title": "https://ticker.finology.in/ipo/ideaforge-technology-ltd",
+      "publisher": "Finology Ticker",
+      "url": "https://ticker.finology.in/ipo/ideaforge-technology-ltd",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms NSE: IDEAFORGE, BSE: 543932, listing 7 July 2023"
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.zeebiz.com/markets/stocks/news-ideaforge-ipo-listing-market-debut-share-price-bse-nse-243092",
+      "publisher": "Zee Business",
+      "url": "https://www.zeebiz.com/markets/stocks/news-ideaforge-ipo-listing-market-debut-share-price-bse-nse-243092",
+      "published_date": "2023-07-07",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms Mumbai HQ and 7 July 2023 NSE/BSE listing of ideaForge"
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.qualcommventures.com/insights/blog/ideaforge-from-iit-bombay-to-ipo",
+      "publisher": "Qualcomm Ventures",
+      "url": "https://www.qualcommventures.com/insights/blog/ideaforge-from-iit-bombay-to-ipo",
+      "published_date": "2023-07-06",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms IIT-Bombay origin, 2007 founding, July 2023 IPO"
+    },
+    {
+      "id": "src-11",
+      "title": "https://dronelife.com/2024/08/21/ideaforges-q6-v2-receives-dgca-certification-enhancing-uav-capabilities",
+      "publisher": "Dronelife",
+      "url": "https://dronelife.com/2024/08/21/ideaforges-q6-v2-receives-dgca-certification-enhancing-uav-capabilities",
+      "published_date": "2024-08-21",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Q6 V2 receives DGCA type certification"
+    },
+    {
+      "id": "src-12",
+      "title": "https://www.suasnews.com/2025/09/ideaforges-q6-v2-uav-platform-assigned-nato-stock-number-enabling-global-defense-procurement",
+      "publisher": "sUAS News",
+      "url": "https://www.suasnews.com/2025/09/ideaforges-q6-v2-uav-platform-assigned-nato-stock-number-enabling-global-defense-procurement",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Q6 V2 assigned NATO stock number; platform developed entirely in India"
+    },
+    {
+      "id": "src-13",
+      "title": "https://en.wikipedia.org/wiki/DRDO_Netra",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DRDO_Netra",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Notes ideaForge involvement in DRDO NETRA UAV lineage"
+    },
+    {
+      "id": "src-14",
+      "title": "https://www.nirmalbang.com/company-profile/smart-quotes.aspx?fincode=250958",
+      "publisher": "Nirmal Bang Securities",
+      "url": "https://www.nirmalbang.com/company-profile/smart-quotes.aspx?fincode=250958",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms incorporation year 2007; live listed share price"
+    }
+  ],
+  "seo": {
+    "title": "ideaForge Technology Ltd — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "ideaForge Technology Ltd company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/ideaforge-technology-ltd-mfr-014/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/ideaforge-technology-ltd-mfr-014/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

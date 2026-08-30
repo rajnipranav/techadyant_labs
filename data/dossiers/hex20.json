@@ -1,0 +1,74 @@
+{
+  "entity_id": "hex20",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "hex20",
+  "name": "Hex20",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/company/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Hex20 dossier placeholder with initial sources.",
+    "chips": [
+      "B",
+      "India-relevant"
+    ],
+    "maker": "Hex20",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Name": "Hex20",
+    "Type": "company",
+    "Evidence": "Initial sources captured; India relevance may need deepening."
+  },
+  "what_it_is": {
+    "prose": "Hex20 space evidence pending verification.",
+    "sources": [
+      "src-hex-1"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-hex-1",
+      "title": "Hex20 website",
+      "publisher": "Hex20",
+      "url": "https://hex20.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Placeholder only."
+    }
+  ],
+  "seo": {
+    "title": "Hex20 — Company · India Space Atlas | Techadyant",
+    "meta_description": "Hex20 company/entity in the India Space Atlas.",
+    "canonical_path": "/research/space/company/hex20/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

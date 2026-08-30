@@ -1,0 +1,310 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://labs.techadyant.com/schemas/dossier.schema.json",
+  "title": "Techadyant Atlas Entity Dossier",
+  "description": "Canonical schema for Techadyant Labs Atlas entity dossiers. Every dossier (system, platform, manufacturer, company, programme) MUST conform.",
+  "type": "object",
+  "required": [
+    "entity_id",
+    "entity_type",
+    "tier",
+    "noindex",
+    "slug",
+    "name",
+    "vertical",
+    "parent_hub_path",
+    "last_verified",
+    "status",
+    "header",
+    "at_a_glance",
+    "sources",
+    "seo"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "description": "Stable internal ID, e.g. cus-001, mfg-001, def-001",
+      "pattern": "^(cus|mfg|def|drn|mae|spc|prg)-[a-z0-9-]+$"
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": ["system", "platform", "manufacturer", "company", "programme"]
+    },
+    "tier": {
+      "type": "string",
+      "enum": ["A", "B", "C"],
+      "description": "A=full dossier indexable; B=standard shorter; C=compact card noindex"
+    },
+    "noindex": {
+      "type": "boolean",
+      "description": "Must be true for Tier C, false for A/B unless overridden"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$",
+      "description": "URL slug — must match the live Atlas path"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 140
+    },
+    "variant": {
+      "type": "string",
+      "description": "Variant/mark, e.g. V2, Mk-I, Block 2"
+    },
+    "vertical": {
+      "type": "string",
+      "enum": ["counter-uas", "drones-uas", "military-aerospace", "space", "defence"]
+    },
+    "parent_hub_path": {
+      "type": "string",
+      "description": "Hub path this dossier belongs to, e.g. /research/counter-uas/"
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date (YYYY-MM-DD) of last verification pass"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["Operational", "In trials", "Ordered", "Prototype", "Development", "Retired", "Unknown"]
+    },
+    "header": {
+      "type": "object",
+      "required": ["one_liner", "chips", "country"],
+      "additionalProperties": false,
+      "properties": {
+        "one_liner": { "type": "string", "maxLength": 200 },
+        "chips": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Short label chips, e.g. 'Hard kill', 'Soft kill', 'RF', 'EO/IR'"
+        },
+        "maker": { "type": "string", "description": "Manufacturer / OEM name" },
+        "country": { "type": "string", "description": "Country of origin" },
+        "indigenous_pct": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Indian indigenous content % if known"
+        },
+        "indigenous_label": {
+          "type": "string",
+          "description": "Free-text label for indigenous status, e.g. 'Built in India under TOT'"
+        },
+        "mobility_or_class": {
+          "type": "string",
+          "description": "e.g. 'Man-portable', 'Vehicle-mounted', 'Naval', 'Airborne'"
+        },
+        "operational_domains": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["land", "naval", "air", "space", "cyber", "civilian"] }
+        }
+      }
+    },
+    "at_a_glance": {
+      "type": "object",
+      "description": "Key-value pairs for the at-a-glance card. Values are strings.",
+      "additionalProperties": { "type": "string" }
+    },
+    "what_it_is": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["prose", "sources"],
+      "properties": {
+        "prose": { "type": "string", "minLength": 200 },
+        "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+      }
+    },
+    "kill_chain_or_capability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stages", "threat_or_target_classes", "sources"],
+      "properties": {
+        "stages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "label", "covered"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "type": "string", "enum": ["detect", "classify", "track", "decide", "defeat", "assess"] },
+              "label": { "type": "string" },
+              "covered": { "type": "boolean" },
+              "note": { "type": "string" }
+            }
+          }
+        },
+        "threat_or_target_classes": { "type": "array", "items": { "type": "string" } },
+        "sources": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "deployments_procurement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "rows"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 60 },
+        "rows": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["agency", "context"],
+            "additionalProperties": false,
+            "properties": {
+              "agency": { "type": "string" },
+              "context": { "type": "string" },
+              "year": { "type": ["integer", "string", "null"] },
+              "quantity_or_note": { "type": "string" },
+              "sources": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        },
+        "open_questions": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "import_dependencies": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "items"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 60 },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["component", "severity"],
+            "additionalProperties": false,
+            "properties": {
+              "component": { "type": "string" },
+              "severity": { "type": "string", "enum": ["Critical", "High", "Medium", "Low", "Unknown"] },
+              "note": { "type": "string" },
+              "pillar_link": { "type": "string" },
+              "sources": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+    "intelligence_assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["methodology_path", "dimensions"],
+      "properties": {
+        "methodology_path": { "type": "string", "description": "Path to methodology doc, e.g. /research/methodology" },
+        "dimensions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "label", "value"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "type": "string" },
+              "label": { "type": "string" },
+              "value": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5,
+                "description": "Score band 0–5 (0 import-dependent … 5 sovereign)"
+              },
+              "note": { "type": "string" },
+              "sources": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+    "graph": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "maker_other_systems": { "type": "array", "items": { "type": "string" }, "description": "Slugs" },
+        "peer_systems": { "type": "array", "items": { "type": "string" } },
+        "related_components": { "type": "array", "items": { "type": "string" } },
+        "related_pillars": { "type": "array", "items": { "type": "string" } },
+        "referenced_by": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "event"],
+        "additionalProperties": false,
+        "properties": {
+          "date": { "type": "string", "description": "ISO date or YYYY-MM" },
+          "event": { "type": "string" },
+          "sources": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "faq": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["question", "answer"],
+        "additionalProperties": false,
+        "properties": {
+          "question": { "type": "string" },
+          "answer": { "type": "string" },
+          "sources": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "publisher", "url", "trust_tier", "accessed"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "description": "Source ID referenced from sections, e.g. src-1" },
+          "title": { "type": "string" },
+          "publisher": { "type": "string", "description": "ONE publisher per source object" },
+          "url": { "type": "string", "format": "uri" },
+          "published_date": { "type": ["string", "null"] },
+          "trust_tier": {
+            "type": "string",
+            "enum": ["official", "credible", "indicative", "methodology"]
+          },
+          "accessed": { "type": "string", "format": "date" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "seo": {
+      "type": "object",
+      "required": ["title", "meta_description", "canonical_path", "og_type", "json_ld_types"],
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Pattern: {Name} — {System|Manufacturer|Platform} · India {Vertical} Atlas | Techadyant"
+        },
+        "meta_description": { "type": "string", "maxLength": 160 },
+        "canonical_path": { "type": "string" },
+        "og_type": { "type": "string", "default": "article" },
+        "json_ld_types": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Schema.org types, e.g. ['WebPage','Product','FAQPage','BreadcrumbList']"
+        }
+      }
+    },
+    "cta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "track_ecosystem": { "type": "string", "description": "URL or path" },
+        "submit_correction": { "type": "string" },
+        "related_research": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "entity_id": "atl-cmp-garuda-aerospace-pvt-ltd-mfr-015",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "garuda-aerospace-pvt-ltd-mfr-015",
+  "name": "Garuda Aerospace Pvt Ltd",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/garuda-aerospace-pvt-ltd-mfr-015/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Garuda Aerospace is a Chennai-based drone OEM founded in 2015 by Agnishwar Jayaprakash, specialising in agriculture (Kisan), defence, and enterprise drones. It earned India's first DGCA type certifica",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Chennai, Tamil Nadu, India",
+    "Type": "Manufacturer (listed)",
+    "Founded": "2015",
+    "India entity": null,
+    "Listed": "Private; filed DRHP with SEBI (2025-26) for ~₹1,000 crore IPO; previously raised Series B funding (incl. Venture Catalysts)",
+    "Key India role": "Garuda Aerospace is a Chennai-based drone OEM founded in 2015 by Agnishwar Jayaprakash, specialising in agriculture (Kisan), defence, and enterprise drones. It earned India's first DGCA type certifica"
+  },
+  "what_it_is": {
+    "prose": "Garuda Aerospace is a Chennai-based drone OEM founded in 2015 by Agnishwar Jayaprakash, specialising in agriculture (Kisan), defence, and enterprise drones. It earned India's first DGCA type certification and RPTO approvals (December 2022), and remains a flagship beneficiary of the central government's Drone Didi and Kisan Drone schemes. With backing from VC firms and pre-IPO funding rounds, Garuda is one of India's most visible private drone OEMs, with a broad agriculture-and-defence product portfolio and recent forays into mining-sector contracts.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "3 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Agri Kisan Drone V2 (GA-AD-V2)",
+        "role": "OEM",
+        "india_status": "Precision agriculture spraying drone; DGCA type certified; deployed under PM Modi's Drone Didi scheme",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Delta (drone platform)",
+        "role": "OEM",
+        "india_status": "Delta-type certification verified by DGCA (Oct 2024) for design, manufacture and maintenance",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Kisan Drone (multi-model)",
+        "role": "OEM",
+        "india_status": "First drone to receive AIF loan under central scheme (2022); deployed nationwide under Drone Didi",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Government of India / Ministry of Agriculture",
+        "context": "First-ever Agri Infra Fund (AIF) loan sanctioned for a Kisan drone manufactured by Garuda Aerospace",
+        "year": "2022",
+        "quantity_or_note": "1 (pioneer loan)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "DGCA (civil certification)",
+        "context": "First Indian drone company to receive DGCA Type Certification and RPTO approvals",
+        "year": "2022",
+        "quantity_or_note": "n/a (certification)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "DGCA (Delta type certification)",
+        "context": "Secured additional DGCA approvals for Delta-type manufacturing and RPTO pilot training",
+        "year": "2024",
+        "quantity_or_note": "n/a (certification)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Odisha Mining Corporation / mining sector",
+        "context": "Multiple mining-sector contracts awarded for AI-powered drone deployments",
+        "year": "2025",
+        "quantity_or_note": "undisclosed",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Drone Didi scheme (GoI)",
+        "context": "Kisan drones deployed under PM Modi's Drone Didi scheme for women SHGs in agriculture",
+        "year": "2024",
+        "quantity_or_note": "n/a (scheme)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "10 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "Medium",
+        "note": "0 official, 7 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Garuda Aerospace founded and where is it headquartered?",
+      "answer": "Garuda Aerospace was founded in 2015 by Agnishwar Jayaprakash and is headquartered in Chennai, Tamil Nadu.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What DGCA certifications has Garuda Aerospace obtained?",
+      "answer": "Garuda was India's first drone company to receive DGCA Type Certification and RPTO (Remote Pilot Training Organisation) approvals in December 2022. In October 2024, it secured additional Delta-type DGCA approval for drone manufacturing and pilot training.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Is Garuda Aerospace listed on Indian stock exchanges?",
+      "answer": "Not yet. Garuda Aerospace is a private company that has filed a draft red herring prospectus (DRHP) with SEBI for a planned ~₹1,000 crore IPO. As of the latest reports, it remains unlisted.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://dronelife.com/2022/12/26/garuda-aerospace-earns-indias-first-dgca-approvals-for-type-certification-pilot-training",
+      "publisher": "Dronelife",
+      "url": "https://dronelife.com/2022/12/26/garuda-aerospace-earns-indias-first-dgca-approvals-for-type-certification-pilot-training",
+      "published_date": "2022-12-26",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Garuda first Indian drone company to earn DGCA Type Certification and RPTO approvals"
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.devdiscourse.com/article/headlines/2301782-garuda-aerospace-gets-type-certification-and-rtpo-approvals-from-dgca-for-kisan-drones",
+      "publisher": "DevDiscourse",
+      "url": "https://www.devdiscourse.com/article/headlines/2301782-garuda-aerospace-gets-type-certification-and-rtpo-approvals-from-dgca-for-kisan-drones",
+      "published_date": "2022-12-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms type certification was introduced under August 2021 Drone Rules"
+    },
+    {
+      "id": "src-03",
+      "title": "https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/garuda-aerospace-secures-dgca-approval-for-drone-manufacturing-and-pilot-training/114689560",
+      "publisher": "ET Manufacturing (Economic Times)",
+      "url": "https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/garuda-aerospace-secures-dgca-approval-for-drone-manufacturing-and-pilot-training/114689560",
+      "published_date": "2024-10-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Garuda receives Delta-type DGCA approval for drone manufacturing and pilot training (Oct 2024)"
+    },
+    {
+      "id": "src-04",
+      "title": "https://www.thehindu.com/news/national/tamil-nadu/chennai-based-garuda-aerospace-get-first-ever-loan-for-drones/article65703892.ece",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/chennai-based-garuda-aerospace-get-first-ever-loan-for-drones/article65703892.ece",
+      "published_date": "2022-07-31",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "First-ever AIF loan for a Kisan drone manufactured by Chennai-based Garuda Aerospace"
+    },
+    {
+      "id": "src-05",
+      "title": "https://dronelife.com/2024/03/01/garuda-aerospaces-kisan-drone-revolutionizing-indian-agriculture-under-pm-modis-drone-didi-scheme",
+      "publisher": "Dronelife",
+      "url": "https://dronelife.com/2024/03/01/garuda-aerospaces-kisan-drone-revolutionizing-indian-agriculture-under-pm-modis-drone-didi-scheme",
+      "published_date": "2024-03-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Kisan drone deployment under Drone Didi scheme; Agnishwar Jayaprakash quoted as Founder/CEO"
+    },
+    {
+      "id": "src-06",
+      "title": "https://startupintros.com/orgs/garuda-aerospace",
+      "publisher": "Startup Intros",
+      "url": "https://startupintros.com/orgs/garuda-aerospace",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Confirms founded 2015, Chennai HQ, founder Agnishwar Jayaprakash"
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.constructionweekonline.in/business/garuda-aerospace-mining",
+      "publisher": "Construction Week Online",
+      "url": "https://www.constructionweekonline.in/business/garuda-aerospace-mining",
+      "published_date": "2025-07-03",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Garuda Aerospace wins multiple mining-sector contracts including Odisha Mining Corporation"
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.garudaaerospace.com",
+      "publisher": "Garuda Aerospace (company official)",
+      "url": "https://www.garudaaerospace.com",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Company official website; DGCA-approved RPTO; multi-product drone OEM [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    },
+    {
+      "id": "src-09",
+      "title": "https://tracxn.com/d/companies/garuda-aerospace/___uHkfSib7LV3jTEVm6GaWvlYK1AkKp4DmuvaTeaHBIQ",
+      "publisher": "Tracxn",
+      "url": "https://tracxn.com/d/companies/garuda-aerospace/___uHkfSib7LV3jTEVm6GaWvlYK1AkKp4DmuvaTeaHBIQ",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms ~$49.5M total funding over 9 rounds; latest Series B in June 2025"
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.indiaipo.in/ipo-blogs/garuda-aerospace-ipo",
+      "publisher": "India IPO",
+      "url": "https://www.indiaipo.in/ipo-blogs/garuda-aerospace-ipo",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Garuda Aerospace IPO planned ~₹1,000 crore (book-built issue)"
+    }
+  ],
+  "seo": {
+    "title": "Garuda Aerospace Pvt Ltd — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Garuda Aerospace Pvt Ltd company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/garuda-aerospace-pvt-ltd-mfr-015/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/garuda-aerospace-pvt-ltd-mfr-015/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

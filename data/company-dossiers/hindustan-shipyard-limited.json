@@ -1,0 +1,349 @@
+{
+  "entity_id": "atl-cmp-hindustan-shipyard-limited",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "hindustan-shipyard-limited",
+  "name": "Hindustan Shipyard Limited (HSL)",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/hindustan-shipyard-limited/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "HSL is India's oldest shipyard (founded 1941) and is now a Miniratna Category-I defence PSU specialising in submarine refits, DSRV-mothership construction, naval shipbuilding and repair. HSL completed",
+    "chips": [
+      "defence",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Visakhapatnam, Andhra Pradesh, India (East Coast)",
+    "Type": "Company (listed)",
+    "Founded": "21 June 1941 (as Scindia Shipyard by Seth Walchand Hirachand; renamed Hindustan Shipyard 1964; transferred from Ministry of Shipping to Ministry of Defence 2010)",
+    "India entity": null,
+    "Listed": "Not listed — Miniratna Category-I CPSE under Ministry of Defence (Mini-Ratna status granted Oct 2025)",
+    "Key India role": "HSL is India's oldest shipyard (founded 1941) and is now a Miniratna Category-I defence PSU specialising in submarine refits, DSRV-mothership construction, naval shipbuilding and repair. HSL completed"
+  },
+  "what_it_is": {
+    "prose": "HSL is India's oldest shipyard (founded 1941) and is now a Miniratna Category-I defence PSU specialising in submarine refits, DSRV-mothership construction, naval shipbuilding and repair. HSL completed the fastest-ever normal refit of an EKM-class (Kilo) submarine on 21 Jul 2025 — INS Sindhukirti refit (Mar 2023 MoD contract) including modification and testing of escape hatches for the Deep Submergence Rescue Vehicle. HSL built and delivered INS Nistar (first DSV, Jul 19, 2025) and INS Nipun (second DSV, Jul 30, 2026) — the DSVs serve as mother ships for the Indian Navy's DSRV deep-submergence rescue system. HSL is in talks with the Vietnam People's Navy for Kilo-class submarine refits (Aug 2025).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "2 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "EKM-class (Kilo) submarine refit",
+        "role": "OEM",
+        "india_status": "Completed fastest-ever normal refit of an EKM-class submarine 21 Jul 2025 (INS Sindhukirti, Mar 2023 MoD contract). Modified escape hatches for Deep Submergence Rescue Vehicle (DSRV). HSL is in talks with Vietnam People's Navy for Kilo-class refits",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Diving Support Vessels (DSVs) — INS Nistar & INS Nipun",
+        "role": "OEM",
+        "india_status": "HSL designed and built two DSVs for the Indian Navy. INS Nistar (first DSV) delivered Jul 19, 2025. INS Nipun (second DSV) delivered Jul 30, 2026 at Visakhapatnam. DSVs serve as mother ships for the Indian Navy's Deep Submergence Rescue Vehicle (DSRV) for deep-sea rescue and saturation diving",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "4 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Fastest-ever refit of EKM-class submarine (INS Sindhukirti)",
+        "year": "Jul 21, 2025",
+        "quantity_or_note": "1 Kilo-class sub refit",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "INS Nistar (1st DSV) induction",
+        "year": "Jul 19, 2025",
+        "quantity_or_note": "1",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "INS Nipun (2nd DSV) delivery",
+        "year": "Jul 30, 2026",
+        "quantity_or_note": "1",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Vietnam People's Navy (potential export)",
+        "context": "HSL in talks for Kilo-class submarine refits",
+        "year": "Aug 2025",
+        "quantity_or_note": "n/a (under negotiation)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "10 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "Medium",
+        "note": "1 official, 8 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was HSL founded?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When was HSL granted Miniratna status?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What was HSL's June/July 2025 milestone with the EKM-class submarine?",
+      "answer": "HSL completed the fastest-ever normal refit of an EKM-class (Kilo) submarine on 21 Jul 2025 — INS Sindhukirti refit (Mar 2023 MoD contract) including modification and testing of escape hatches for the Deep Submergence Rescue Vehicle.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What are the names of the two Diving Support Vessels (DSVs) built by HSL?",
+      "answer": "HSL built and delivered INS Nistar (first DSV, Jul 19, 2025) and INS Nipun (second DSV, Jul 30, 2026) — the DSVs serve as mother ships for the Indian Navy's DSRV deep-submergence rescue system.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which foreign navy is in talks with HSL for Kilo-class submarine refits?",
+      "answer": "HSL is in talks with the Vietnam People's Navy for Kilo-class submarine refits (Aug 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://hslvizag.in",
+      "publisher": "HSL Official",
+      "url": "https://hslvizag.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://en.wikipedia.org/wiki/Hindustan_Shipyard",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hindustan_Shipyard",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.newindianexpress.com/states/andhra-pradesh/2025/Oct/15/hindustan-shipyard-in-visakhapatnam-granted-mini-ratna-status-for-consistent-performance",
+      "publisher": "New Indian Express",
+      "url": "https://www.newindianexpress.com/states/andhra-pradesh/2025/Oct/15/hindustan-shipyard-in-visakhapatnam-granted-mini-ratna-status-for-consistent-performance",
+      "published_date": "Oct 15, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://www.eurasiareview.com/16102025-indias-hindustan-shipyard-limited-attains-mini-ratna-status-reinforcing-maritime-self-reliance-analysis",
+      "publisher": "Eurasia Review",
+      "url": "https://www.eurasiareview.com/16102025-indias-hindustan-shipyard-limited-attains-mini-ratna-status-reinforcing-maritime-self-reliance-analysis",
+      "published_date": "Oct 16, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://www.thehindu.com/news/cities/Visakhapatnam/hindustan-shipyard-limited-conferred-with-mini-ratna-status/article70162897.ece",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/cities/Visakhapatnam/hindustan-shipyard-limited-conferred-with-mini-ratna-status/article70162897.ece",
+      "published_date": "Oct 14, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://psuwatch.com/defencewatch/hsl-achieves-milestone-with-fastest-ever-refit-of-ekm-class-submarine-eyes-future-strategic-projects",
+      "publisher": "PSU Watch",
+      "url": "https://psuwatch.com/defencewatch/hsl-achieves-milestone-with-fastest-ever-refit-of-ekm-class-submarine-eyes-future-strategic-projects",
+      "published_date": "Jul 24, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.naval-technology.com/news/hsl-refitting-sindhukirti-submarine",
+      "publisher": "Naval Technology",
+      "url": "https://www.naval-technology.com/news/hsl-refitting-sindhukirti-submarine",
+      "published_date": "Mar 14, 2023",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://idrw.org/hindustan-shipyard-limited-in-talks-with-vietnam-peoples-navy-for-kilo-class-submarine-refits",
+      "publisher": "IDRW",
+      "url": "https://idrw.org/hindustan-shipyard-limited-in-talks-with-vietnam-peoples-navy-for-kilo-class-submarine-refits",
+      "published_date": "Aug 3, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292073&reg=48&lang=1&noshow=1",
+      "publisher": "PIB India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292073&reg=48&lang=1&noshow=1",
+      "published_date": "Jul 30, 2026",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.navalnews.com/naval-news/2025/07/indian-navy-inducts-new-diving-support-vessel-to-serve-as-mothership-for-dsrv",
+      "publisher": "Naval News",
+      "url": "https://www.navalnews.com/naval-news/2025/07/indian-navy-inducts-new-diving-support-vessel-to-serve-as-mothership-for-dsrv",
+      "published_date": "Jul 19, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Hindustan Shipyard Limited (HSL) — Company · India Defence Atlas | Techadyant",
+    "meta_description": "Hindustan Shipyard Limited (HSL) company dossier: India defence role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/pillars/defence/entity/hindustan-shipyard-limited/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/hindustan-shipyard-limited/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

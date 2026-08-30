@@ -1,0 +1,74 @@
+{
+  "entity_id": "inorbit-space",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "inorbit-space",
+  "name": "InOrbit Space",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/company/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "InOrbit Space dossier placeholder with initial sources.",
+    "chips": [
+      "B",
+      "India-relevant"
+    ],
+    "maker": "InOrbit Space",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Name": "InOrbit Space",
+    "Type": "company",
+    "Evidence": "Initial sources captured; India relevance may need deepening."
+  },
+  "what_it_is": {
+    "prose": "InOrbit Space evidence pending verification.",
+    "sources": [
+      "src-inorb-1"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-inorb-1",
+      "title": "InOrbit Space website",
+      "publisher": "InOrbit Space",
+      "url": "https://inorbit.space/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Placeholder only."
+    }
+  ],
+  "seo": {
+    "title": "InOrbit Space — Company · India Space Atlas | Techadyant",
+    "meta_description": "InOrbit Space company/entity in the India Space Atlas.",
+    "canonical_path": "/research/space/company/inorbit-space/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

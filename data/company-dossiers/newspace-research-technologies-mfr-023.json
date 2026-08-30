@@ -1,0 +1,447 @@
+{
+  "entity_id": "atl-cmp-newspace-research-technologies-mfr-023",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "newspace-research-technologies-mfr-023",
+  "name": "NewSpace Research and Technologies Pvt Ltd (NRT)",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/newspace-research-technologies-mfr-023/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "NewSpace Research and Technologies (NRT) is a Bengaluru-based aerospace & defence R&D company founded in 2018 by Sameer Joshi (ex-IAF fighter pilot, CEO) and Julius Amrit (COO). India's fastest-growin",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India (Sahakar Nagar, Byatarayanapura)",
+    "Type": "Manufacturer (listed)",
+    "Founded": "2018 (by Sameer Joshi (CEO & Director, ex-IAF fighter pilot) and Julius Amrit (COO & Director))",
+    "India entity": null,
+    "Listed": "Not listed — private startup; total funding $73.2M (per Tracxn Aug 2026)",
+    "Key India role": "NewSpace Research and Technologies (NRT) is a Bengaluru-based aerospace & defence R&D company founded in 2018 by Sameer Joshi (ex-IAF fighter pilot, CEO) and Julius Amrit (COO). India's fastest-growin"
+  },
+  "what_it_is": {
+    "prose": "NewSpace Research and Technologies (NRT) is a Bengaluru-based aerospace & defence R&D company founded in 2018 by Sameer Joshi (ex-IAF fighter pilot, CEO) and Julius Amrit (COO). India's fastest-growing A&D R&D company focused on Unmanned Aerospace Systems. Flagship product: High Altitude Pseudo-Satellite (HAPS) — solar-powered UAVs flying at 60,000-90,000 ft for extended durations (3+ months). HAPS prototype achieved 27+ hour flight at 26,000 ft (May 2024 milestone). Indian MoD signed NRT for HAPS development (Mar 2022) under Innovation for Defence Excellence (iDEX); Indian Navy contracted NRT for indigenous HAPS for maritime surveillance (Mar 2024) — full-scale HAPS with 450 kg MTOW, 35 kg payload, 3+ month endurance. NRT platforms operate from 5 km to 20 km altitude with varied endurance. Indian Army awarded $15M UAV contract to NRT (first-of-its-kind procurement). Total funding $73.2M from investors including Hda Tech Growth, Trifecta Capital, Pavestone Capital, SBI Start-Up Branch, Volrado Venture Partners.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "High Altitude Pseudo-Satellite (HAPS): solar-powered UAV flying at 60,000-90,000 ft with 3+ month endurance; full-scale HAPS",
+        "role": "OEM",
+        "india_status": "450 kg MTOW, 35 kg payload capacity",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Unmanned Aerospace Systems (UAS)",
+        "role": "OEM",
+        "india_status": "platforms operating from 5 km to 20 km altitude with varied endurance (days to months)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "HAPS for maritime surveillance (Indian Navy contract Mar 2024)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "HAPS for surveillance operations (Indian MoD contract Mar 2022 under iDEX)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "8 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "HAPS prototype completed over 27-hour flight at 26,000 ft (May 2024 milestone)",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Indian MoD signed NRT for pseudo-satellite development (Mar 2022) under iDEX — for surveillance operations",
+        "year": "2022",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Indian Navy contracted NRT to design & develop indigenous HAPS for maritime surveillance (Mar 2024) — full-scale HAPS with 450 kg MTOW, 35 kg payload, 3+ month endurance",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Indian Army awarded NRT $15 million UAV contract (first-of-its-kind procurement)",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Total funding $73.2M from Hda Tech Growth, Trifecta Capital, Pavestone Capital, SBI Start-Up Branch, Volrado Venture Partners",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Pavestone Capital $21M Early VC round Dec 2022; Valuation $105M",
+        "year": "2022",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Rs 115 crore ($13.3M) debt funding led by Lend Lease Company (India) Ltd",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "NRT platforms operate from 5 km to 20 km with varied endurance (days to months)",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "15 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "Medium",
+        "note": "1 official, 5 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is NRT's flagship product?",
+      "answer": "High Altitude Pseudo-Satellite (HAPS) — solar-powered UAV flying at 60,000-90,000 ft with 3+ month endurance; prototype completed 27+ hour flight at 26,000 ft in May 2024",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What are NRT's major Indian defence contracts?",
+      "answer": "MoD HAPS development contract (Mar 2022 under iDEX); Indian Navy HAPS for maritime surveillance (Mar 2024); Indian Army $15M UAV contract (first-of-its-kind procurement)",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Who founded NRT and when?",
+      "answer": "Sameer Joshi (CEO, ex-IAF fighter pilot) and Julius Amrit (COO) founded NRT in 2018 in Bengaluru",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "NRT — India's fastest growing Aerospace & Defence R&D company; vision to be leader in Unmanned Aerospace Systems for global market",
+      "publisher": "NewSpace Research and Technologies Official",
+      "url": "https://newspace.co.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "NRT platforms operate from 5km to 20 km with varied endurance; HAPS UAV endurance 3+ months",
+      "publisher": "NRT LinkedIn Official",
+      "url": "https://in.linkedin.com/company/newspacert",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "NRT HAPS completed another milestone — flew for over 27 hours at 26,000 feet; HAPS are super lightweight solar-powered drones flying above 90,000 feet for extended durations",
+      "publisher": "Swarajya",
+      "url": "https://swarajyamag.com/defence/newspaces-high-altitude-pseudo-satellite-completes-another-milestone-flies-for-over-27-hours-at-26000-feet",
+      "published_date": "2024-05-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "NRT to design & develop HAPS for Indian Navy — full-scale HAPS with 450 kg MTOW, 35 kg payload, 3+ month endurance",
+      "publisher": "Defence.in",
+      "url": "https://defence.in/threads/newspace-to-design-develop-high-altitude-pseudo-satellites-for-indian-navy.4484",
+      "published_date": "2024-03-14",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "MoD signs up Bengaluru startup NRT for pseudo-satellite deal — to develop HAPS for surveillance operations",
+      "publisher": "IMR Media",
+      "url": "https://imrmedia.in/mod-signs-up-bengaluru-startup-for-pseudo-satellite-deal",
+      "published_date": "2022-03-31",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Indian Navy signs deal with NRT to design and develop domestically built HAPS for maritime surveillance",
+      "publisher": "Indian Sentinels",
+      "url": "https://www.indiasentinels.com/defence-industry/indian-navy-signs-deal-with-newspace-research-technologies-to-develop-high-altitude-pseudo-satellite-for-maritime-surveillance-6277",
+      "published_date": "2024-03-14",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "India joins elite group with pseudo-satellites — HAPS prototype designed by Bengaluru-based NRT under iDEX",
+      "publisher": "Facebook (India Joins Elite Group)",
+      "url": "https://www.facebook.com/groups/681887048540642/posts/7242692749126673",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Bengaluru-based NRT signed contract for design & development of indigenous HAPS",
+      "publisher": "Defence Decode (X)",
+      "url": "https://x.com/DefenceDecode/status/1767894023992185249",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "NRT raised $73.2M from Hda Tech Growth, Trifecta Capital, Pavestone Capital",
+      "publisher": "Tracxn",
+      "url": "https://tracxn.com/d/companies/newspace-research-and-technologies/__oq1awSnZOpMZ3nwI8zck23i0nm9NeThrmC_qZx1MwXg",
+      "published_date": "2026-08-13",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "NRT HQ Bengaluru Karnataka India; founding date 2018; co-founder Sameer Joshi",
+      "publisher": "YourStory",
+      "url": "https://yourstory.com/companies/newspace-research--technologies",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "NRT founders Julius Amrit and Sameer Joshi; 12 investors including SBI Start-Up Branch and Volrado Venture Partners",
+      "publisher": "Crunchbase",
+      "url": "https://www.crunchbase.com/organization/newspace-research-and-technologies",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "NRT funding: $720k Early VC Feb 2022; Pavestone Capital $21M Early VC Dec 2022; Valuation $105M",
+      "publisher": "Dealroom",
+      "url": "https://app.dealroom.co/companies/newspace_research_and_technologies",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "NRT securing Rs 115 crore ($13.3M) debt funding led by Lend Lease Company (India) Ltd",
+      "publisher": "Startup Today LinkedIn",
+      "url": "https://www.linkedin.com/posts/startuptodayin_fundingupdate-newspace-aerospace-activity-7368968577158189056-BOrA",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-14",
+      "title": "Indian Army awarded Bengaluru-based NRT $15 million contract — first-of-its-kind procurement",
+      "publisher": "Indian Startup News (FB)",
+      "url": "https://www.facebook.com/indianstartupnews/posts/newspace-research-technologies-a-bengaluru-based-startup-that-specialises-in-dro/2207679342912273",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-15",
+      "title": "NRT founded 2018; Aviation and Aerospace Component Manufacturing; HQ Sahakar Nagar Byatarayanapura Bengaluru 560092 Karnataka",
+      "publisher": "Uplers",
+      "url": "https://www.uplers.com/company/newspace-research-and-technologies-4417",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "NewSpace Research and Technologies Pvt Ltd (NRT) — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "NewSpace Research and Technologies Pvt Ltd (NRT) company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/newspace-research-technologies-mfr-023/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/newspace-research-technologies-mfr-023/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "entity_id": "ukroborprom",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "ukroborprom",
+  "name": "UkrOboronProm",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Ukraine's state defence-industrial conglomerate — parent grouping of Antonov and Ukrainian aerospace/engine assets — which has repeatedly courted India (An-32 support, An-132 co-production, An-178 offers). Compact card: foreign conglomerate whose India footprint is largely offers plus the Antonov/An-32 support relationship.",
+    "chips": [
+      "C",
+      "Defence conglomerate",
+      "Ukraine",
+      "Antonov parent",
+      "India offers"
+    ],
+    "maker": "Government of Ukraine (state concern)",
+    "country": "Ukraine",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign (Ukraine) state defence conglomerate; parent of Antonov",
+    "mobility_or_class": "State defence-industrial conglomerate (holding)",
+    "operational_domains": [
+      "air",
+      "land"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "State Concern Ukroboronprom (now transitioning under JSC Ukrainian Defense Industry)",
+    "Country": "Ukraine",
+    "Key_assets": "Antonov and numerous Ukrainian defence/aerospace enterprises",
+    "India_relevance": "Antonov An-32 OEM support relationship; offers of An-132 co-production and An-178 to India",
+    "Tier_C_reason": "Foreign conglomerate; India footprint is largely proposals plus the An-32/Antonov link, no major standing contract of its own"
+  },
+  "what_it_is": {
+    "prose": "UkrOboronProm (State Concern Ukroboronprom) is Ukraine's state defence-industrial conglomerate, the parent grouping for a large portfolio of Ukrainian defence and aerospace enterprises — most relevant here, the Antonov aircraft company. Its connection to India runs mainly through Antonov's role as OEM for the Indian Air Force's An-32 fleet and through repeated efforts to deepen aerospace cooperation: Ukroboronprom and Antonov offered India co-production of the An-132 light transport and pitched the An-178, and Ukrainian officials publicly sought expanded aerospace collaboration. These initiatives have not translated into major standing India contracts for the conglomerate itself, and the An-32 upgrade relationship (run via Antonov) was disrupted by the Russia-Ukraine war. This is a compact (Tier C) card: as a foreign conglomerate, its documented India footprint is largely proposals plus the indirect Antonov/An-32 support link, with limited India-specific primary evidence of realised programmes.",
+    "sources": [
+      "src-theprint-ukr",
+      "src-defenseworld-an132"
+    ]
+  },
+  "variant": "Tier C compact card (Antonov parent conglomerate)",
+  "graph": {
+    "maker_other_systems": [
+      "antonov"
+    ],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/military-aerospace/"
+    ],
+    "referenced_by": [
+      "antonov"
+    ]
+  },
+  "open_questions": [
+    "Whether any Ukroboronprom/Antonov India co-production offer (An-132, An-178) will be realised is unresolved.",
+    "The conglomerate's post-reorganisation structure and current India engagement during the war are not fully documented in sources reviewed."
+  ],
+  "sources": [
+    {
+      "id": "src-theprint-ukr",
+      "title": "Want more cooperation with India in aerospace industry, top Ukrainian official says",
+      "publisher": "ThePrint",
+      "url": "https://theprint.in/defence/want-more-cooperation-with-india-in-aerospace-industry-top-ukrainian-official-says/600531/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Ukrainian (Ukroboronprom-linked) push for deeper aerospace cooperation with India, including An-series aircraft."
+    },
+    {
+      "id": "src-defenseworld-an132",
+      "title": "Despite Problems In AN-32 Upgrade, Ukroboronprom Offers AN-132 Aircraft Production to India",
+      "publisher": "Defense World",
+      "url": "https://www.defenseworld.net/news/15724/Despite_Problems_In_AN_32_Upgrade__Ukroboronprom_Offers_AN_132_Aircraft_Production_to_India",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Ukroboronprom offered An-132 co-production to India despite An-32 upgrade problems."
+    }
+  ],
+  "seo": {
+    "title": "UkrOboronProm — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Ukraine's state defence conglomerate and parent of Antonov; courted India with An-132 co-production and An-178 offers, but its direct India footprint is largely proposals. Compact card.",
+    "canonical_path": "/research/military-aerospace/company/ukroborprom/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/company/antonov/",
+      "/research/military-aerospace/"
+    ]
+  }
+}

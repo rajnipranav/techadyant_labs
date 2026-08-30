@@ -1,0 +1,233 @@
+{
+  "entity_id": "ilyushin",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "ilyushin",
+  "name": "Ilyushin Aviation Complex",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Russia's Ilyushin design bureau (part of United Aircraft Corporation) is the OEM/design authority for the IAF's Il-76MD 'Gajraj' heavy-lifter — and thus the base airframe for India's Il-78MKI tankers and A-50EI Phalcon AWACS. Ageing D-30KP engines and Russia-Ukraine-strained support drive a ~$650M upgrade and PS-90 re-engine study.",
+    "chips": [
+      "B",
+      "OEM",
+      "Ilyushin",
+      "Russia/UAC",
+      "Il-76",
+      "Il-78 tanker",
+      "Gajraj"
+    ],
+    "maker": "United Aircraft Corporation (UAC) / Rostec, Russia",
+    "country": "Russia",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign (Russia) OEM/design authority for the IAF's Il-76 / Il-78 fleet",
+    "mobility_or_class": "Aircraft design bureau & manufacturer (Il-series transports)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Ilyushin Aviation Complex (PJSC Il), Moscow, Russia",
+    "Group": "Part of United Aircraft Corporation (UAC), Rostec",
+    "India_role": "OEM/design authority for the IAF's Il-76MD 'Gajraj' heavy-lift fleet and its derivatives",
+    "IAF_fleet": "~17 Il-76MD acquired 1985–89 (~11–14 flyable); base airframe for 6 Il-78MKI tankers + 3 A-50EI AWACS",
+    "Engine": "Four Soloviev/Aviadvigatel D-30KP turbofans; PS-90A-76 re-engine studied",
+    "Upgrade": "DAC-approved engine + avionics modernisation (~₹4,250 cr / $650M, 2015)",
+    "War_impact": "Russia-Ukraine war strained spares/overhaul support; availability reported as low as ~32%"
+  },
+  "what_it_is": {
+    "prose": "Ilyushin Aviation Complex is Russia's heavy-transport aircraft design bureau (part of the United Aircraft Corporation, under Rostec) and the OEM and design authority for the Indian Air Force's Ilyushin Il-76MD 'Gajraj' — the IAF's Russian-origin four-engine strategic heavy-lifter, of which about 17 were acquired between 1985 and 1989 (roughly 11 to 14 flyable). The Il-76 airframe is doubly important to India because it is the base platform for two key force-multipliers: the six Il-78MKI aerial-refuelling tankers (an Ilyushin derivative) and the three A-50EI 'Phalcon' AWACS, which mount an Israeli EL/W-2090 radar on a Russian Il-76 airframe. The fleet is powered by four Soloviev/Aviadvigatel D-30KP turbofans, and its core challenge is ageing engines and — since the Russia-Ukraine war — disrupted spares and overhaul support, with serviceability reported to have fallen as low as around 32%. India approved an engine-and-avionics modernisation via the Defence Acquisition Council around 2015 (reported ~₹4,250 crore / $650 million) and has studied re-engining with the more efficient Aviadvigatel PS-90A-76, glass-cockpit avionics and indigenous communications — increasingly with domestic firms — to keep a core fleet flying into the 2040s. Ilyushin thus remains a strategically pivotal but war-strained foreign OEM dependency for India's heavy airlift, tanker and AWACS backbone.",
+    "sources": [
+      "src-gs-2015",
+      "src-ain-ilyushin",
+      "src-airforcetech-il78",
+      "src-tribune-le"
+    ]
+  },
+  "variant": "Il-76 / Il-78 OEM / design authority",
+  "deployments_procurement": {
+    "summary": "Ilyushin is the OEM for the IAF's ~17 Il-76MD 'Gajraj' heavy-lifters and the base airframe for six Il-78MKI tankers and three A-50EI Phalcon AWACS. Ageing D-30KP engines and war-strained support drove a DAC-approved ~$650M upgrade (2015) and a PS-90A-76 re-engine study to sustain the fleet into the 2040s.",
+    "rows": [
+      {
+        "agency": "Indian Air Force / Ilyushin (USSR/Russia)",
+        "context": "Il-76MD 'Gajraj' acquisition",
+        "year": "1985–1989",
+        "quantity_or_note": "~17 aircraft; No. 25 Squadron, Chandigarh",
+        "sources": [
+          "src-tribune-le"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Il-76-derived force multipliers",
+        "year": null,
+        "quantity_or_note": "6 Il-78MKI tankers + 3 A-50EI 'Phalcon' AWACS on the Il-76 airframe",
+        "sources": [
+          "src-gs-2015",
+          "src-airforcetech-il78"
+        ]
+      },
+      {
+        "agency": "Ministry of Defence / DAC",
+        "context": "Il-76/Il-78 engine + avionics modernisation",
+        "year": 2015,
+        "quantity_or_note": "~₹4,250 crore (~$650M); ~20-year life extension",
+        "sources": [
+          "src-gs-2015",
+          "src-ain-ilyushin"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (with domestic firms)",
+        "context": "Deep upgrade / PS-90A-76 re-engine study",
+        "year": "2017–",
+        "quantity_or_note": "PS-90A-76 re-engine, glass cockpit, indigenous comms toward the 2040s",
+        "sources": [
+          "src-tribune-le"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Whether the PS-90A-76 re-engine will be contracted, and the Russian/Indian work split, is not finalised.",
+      "Exact number of currently flyable Il-76 varies across sources (~11–14 of ~17)."
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Ilyushin itself is the foreign (Russia) dependency: as design authority and OEM for the Il-76/Il-78 it controls airframe support and overhaul, tied to Aviadvigatel D-30KP (and proposed PS-90) engines — all strained by the Russia-Ukraine war — while the derived A-50EI adds an Israeli radar dependency.",
+    "items": [
+      {
+        "component": "Il-76 airframe design authority & OEM overhaul",
+        "severity": "Critical",
+        "note": "Ilyushin (Russia) is the sole design house; overhaul historically in Russia, now strained.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-tribune-le"
+        ]
+      },
+      {
+        "component": "D-30KP / proposed PS-90A-76 engines (Aviadvigatel, Russia)",
+        "severity": "Critical",
+        "note": "Ageing powerplant and spares; the re-engine option is again a Russian engine.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-tribune-le"
+        ]
+      },
+      {
+        "component": "Spares & serviceability support",
+        "severity": "Critical",
+        "note": "Russia-Ukraine war cut spares; availability reported as low as ~32%.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-gs-2015"
+        ]
+      },
+      {
+        "component": "A-50EI 'Phalcon' AWACS radar (derived platform)",
+        "severity": "High",
+        "note": "Israeli EL/W-2090 Phalcon radar on the Russian Il-76 airframe — a tri-national dependency.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-gs-2015"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "il76"
+    ],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/military-aerospace/"
+    ],
+    "referenced_by": [
+      "il76",
+      "iaf"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is Ilyushin's role for the Indian Air Force?",
+      "answer": "Ilyushin Aviation Complex (Russia, part of United Aircraft Corporation) is the OEM and design authority for the IAF's Il-76MD 'Gajraj' heavy-lift fleet (~17 acquired 1985–89). The Il-76 airframe also underpins India's six Il-78MKI aerial-refuelling tankers and three A-50EI 'Phalcon' AWACS, making Ilyushin central to India's heavy airlift, tanker and AWACS capabilities.",
+      "sources": [
+        "src-gs-2015",
+        "src-airforcetech-il78"
+      ]
+    },
+    {
+      "question": "How is India sustaining its ageing Ilyushin Il-76 fleet?",
+      "answer": "India approved an engine-and-avionics modernisation via the DAC around 2015 (reported ~₹4,250 crore / $650 million) and has studied re-engining with the more efficient Aviadvigatel PS-90A-76 plus glass-cockpit avionics and indigenous communications, increasingly with domestic firms. The aim is to keep a core fleet flying into the 2040s despite Russia-Ukraine-related spares shortages that cut serviceability to as low as ~32%.",
+      "sources": [
+        "src-gs-2015",
+        "src-tribune-le"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-gs-2015",
+      "title": "India to Upgrade Fleet of Russian-Made Ilyushin Aircraft",
+      "publisher": "GlobalSecurity.org (Sputnik)",
+      "url": "https://www.globalsecurity.org/wmd/library/news/india/2015/india-151029-sputnik01.htm",
+      "published_date": "2015-10-29",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "IAF has 14 Il-76, three A-50EI Phalcon AWACS on Il-76, six Il-78 refuellers; DAC-approved engine+avionics upgrade ~$650M."
+    },
+    {
+      "id": "src-ain-ilyushin",
+      "title": "India Mulls Ilyushin Airlifter and Tanker Upgrades",
+      "publisher": "Aviation International News",
+      "url": "https://www.ainonline.com/aviation-news/defense/2017-02-28/india-mulls-ilyushin-airlifter-and-tanker-upgrades",
+      "published_date": "2017-02-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "India considering upgrades to its Ilyushin Il-76 airlifters and Il-78 tankers."
+    },
+    {
+      "id": "src-airforcetech-il78",
+      "title": "IL-78 Midas Air-to-Air Refuelling / Transport Aircraft",
+      "publisher": "Airforce Technology",
+      "url": "https://www.airforce-technology.com/projects/ilyushin-il-78/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Ilyushin Il-78 tanker (Il-76 derivative); India operates six Il-78MKI aerial-refuelling tankers."
+    },
+    {
+      "id": "src-tribune-le",
+      "title": "IAF approaches Russia to examine feasibility of life extension for IL-76 heavy-lift aircraft",
+      "publisher": "The Tribune",
+      "url": "https://www.tribuneindia.com/news/chandigarh/iaf-approaches-russia-to-examine-feasibility-of-life-extension-for-il-76-heavy-lift-aircraft-600520/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "17 Il-76 procured 1985–89 (14 remaining); D-30KP engines; PS-90A re-engine; A-50/Il-78 on Il-76 airframe."
+    }
+  ],
+  "seo": {
+    "title": "Ilyushin Aviation Complex — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Russia's Ilyushin (UAC) is the OEM for the IAF's Il-76MD 'Gajraj' heavy-lifter and the base airframe for Il-78MKI tankers and A-50EI AWACS; a ~$650M upgrade and PS-90 re-engine are studied.",
+    "canonical_path": "/research/military-aerospace/company/ilyushin/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/il76/",
+      "/research/military-aerospace/"
+    ]
+  }
+}

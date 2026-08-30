@@ -1,0 +1,198 @@
+{
+  "entity_id": "atl-cmp-maxar",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "maxar",
+  "name": "Maxar Intelligence",
+  "variant": null,
+  "vertical": "space",
+  "parent_hub_path": "/research/space/maxar/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "US Earth observation satellite OEM — WorldView/GeoEye imagery for Indian govt.",
+    "chips": [
+      "space",
+      "foreign-oem-with-india",
+      "earth-observation"
+    ],
+    "maker": null,
+    "country": "US",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": [
+      "Space",
+      "Intelligence"
+    ]
+  },
+  "at_a_glance": {
+    "Headquarters": "Westminster, Colorado, USA",
+    "Type": "Earth observation satellite OEM",
+    "Founded": "1969 (originally MacDonald, Dettwiler and Associates; rebranded 2018)",
+    "India entity": "No India entity (commercial imagery supply)",
+    "Listed": "NYSE: MAXR (taken private by Advent International 2024)",
+    "Key India role": "Maxar Intelligence supplies high-resolution Earth observation satellite imagery to Indian government customers including the Indian Army, NTRO, and ISRO under commercial contracts. Maxar's WorldView a"
+  },
+  "what_it_is": {
+    "prose": "Maxar Intelligence supplies high-resolution Earth observation satellite imagery to Indian government customers including the Indian Army, NTRO, and ISRO under commercial contracts. Maxar's WorldView and GeoEye constellation imagery has been used for Indian border surveillance, infrastructure monitoring, and disaster response. Maxar was acquired by Advent International in 2024 and delisted.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "1 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "WorldView / GeoEye satellite imagery",
+        "role": "OEM",
+        "india_status": "Commercial supply to Indian government customers",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "1 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Army / NTRO",
+        "context": "Satellite imagery supply (commercial)",
+        "year": "2010",
+        "quantity_or_note": "Series supply",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ],
+    "open_questions": [
+      "What is the total value of Maxar's India imagery contracts?",
+      "Has the Indian government reduced reliance on Maxar post-A advent International acquisition?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Limited",
+        "note": "3 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "None%",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What does Maxar supply to India?",
+      "answer": "Maxar supplies high-resolution Earth observation satellite imagery (WorldView, GeoEye) to Indian government customers including the Indian Army, NTRO, and ISRO under commercial contracts.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Is Maxar listed?",
+      "answer": "Maxar was listed on NYSE (MAXR) until 2024 when it was acquired and taken private by Advent International.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "What is the total value of Maxar's India imagery contracts?",
+    "Has the Indian government reduced reliance on Maxar post-A advent International acquisition?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Maxar Intelligence — official site",
+      "publisher": "Maxar Intelligence",
+      "url": "https://www.maxar.com/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Maxar official site [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    },
+    {
+      "id": "src-02",
+      "title": "Maxar India — official page",
+      "publisher": "Maxar",
+      "url": "https://www.maxar.com/india",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Maxar India page"
+    },
+    {
+      "id": "src-03",
+      "title": "Maxar satellite imagery for India — Geospatial World",
+      "publisher": "Geospatial World",
+      "url": "https://www.geospatialworld.net/blogs/maxar-india-imagery-supply/",
+      "published_date": "2022-08-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Coverage of Maxar satellite imagery supply to Indian government"
+    }
+  ],
+  "seo": {
+    "title": "Maxar Intelligence — Company · India Space Atlas | Techadyant",
+    "meta_description": "Maxar Intelligence company dossier: India space role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/space/maxar/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/maxar/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

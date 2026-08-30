@@ -1,0 +1,265 @@
+{
+  "entity_id": "def-004",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "akash-ng-def-004",
+  "name": "Akash-NG (New Generation) Surface-to-Air Missile",
+  "variant": "Akash-NG",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "In trials",
+  "header": {
+    "one_liner": "DRDO-developed new-generation SAM with active radar seeker; range 80+ km, can intercept fighters, helicopters, drones, missiles; trials ongoing 2025-26.",
+    "chips": [
+      "SAM",
+      "Indigenous",
+      "Active seeker",
+      "80+ km",
+      "BEL",
+      "BDL"
+    ],
+    "maker": "DRDO (LRDE + RCI) — design; BEL + BDL — production",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO (LRDE + RCI + R&DE(E)) — design; BEL (radar, C4I) + BDL (missile) — production",
+    "Range": "80+ km (vs 25-45 km for Akash Mk-I/Prime)",
+    "Altitude": "Up to 18 km",
+    "Seeker": "Active radar seeker (DRDO-developed, indigenous)",
+    "Target_classes": "Fighters, helicopters, UAVs, cruise missiles, ballistic missiles",
+    "Status": "In trials (multiple successful firings 2023-2025)",
+    "Production_agencies": "BEL (Rajendra-NG radar, C4I), BDL (missile assembly)",
+    "Akash_family": "Akash Mk-I (25 km), Akash Prime (high-altitude), Akash-NG (80+ km)"
+  },
+  "what_it_is": {
+    "prose": "The Akash-NG (New Generation) is a DRDO-developed medium-range Surface-to-Air Missile system, the latest variant of the Akash SAM family. The original Akash Mk-I (25 km range, 1990s design) was inducted by the Indian Army and IAF starting in 2014; Akash Prime (high-altitude optimised) was first tested in 2021; Akash-NG extends the range to 80+ km and altitude to 18 km, and introduces an indigenous active radar seeker — a significant upgrade from the passive seeker on the original Akash. The system can intercept fighters, helicopters, UAVs, cruise missiles, and ballistic missiles. DRDO laboratories involved include LRDE (radar), RCI (seeker and guidance), and R&DE(E) (launcher). Production agencies are BEL (Rajendra-NG radar, C4I system) and BDL (missile assembly). The Akash system as a whole has aggregate orders exceeding ₹30,000 crore across the Indian Army and IAF, with BEL and BDL as prime contractors. Akash-NG has undergone multiple successful test firings in 2023-2025 at the Integrated Test Range, Chandipur. The Akashteer Air Defence Control & Reporting System, battle-proven during Operation Sindoor in May 2025, integrates Akash-family SAMs with BEL's C4I infrastructure.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Akash SAM family has aggregate orders exceeding ₹30,000 crore across the Indian Army and IAF. Akash-NG is in trials (multiple successful firings 2023-2025) and has not yet been inducted. The Akashteer Air Defence Control & Reporting System, which integrates Akash-family SAMs with BEL's C4I infrastructure, was battle-proven during Operation Sindoor in May 2025.",
+    "rows": [
+      {
+        "agency": "Indian Army + IAF",
+        "context": "Akash SAM system aggregate orders (Mk-I, Prime)",
+        "year": null,
+        "quantity_or_note": "~₹30,000+ crore across BEL/BDL",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army + IAF",
+        "context": "Akashteer AD C&R System (BEL) — battle-proven Op Sindoor",
+        "year": 2025,
+        "quantity_or_note": "₹1,982 crore initial contract (2024) + ₹572 cr May 2025",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Akash Prime high-altitude trial",
+        "year": 2025,
+        "quantity_or_note": "PIB confirmed 17 July 2025",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Akash-NG induction timeline and production contract value not publicly disclosed",
+      "Akash-NG active radar seeker indigenisation percentage",
+      "Akash-NG export potential (Armenia reported as Akash Mk-I export customer 2025)"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "FPGA / GaN T/R modules for Rajendra-NG radar",
+        "severity": "High",
+        "note": "Industry-typical — USA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Solid propellant",
+        "severity": "Low",
+        "note": "Indigenous (Solar Group / EEL)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Seeker components (RF, IIR)",
+        "severity": "Medium",
+        "note": "DRDO developing indigenous; some imported for legacy variants",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "qrsam-def-005",
+      "mrsam-def-006",
+      "s-400-india-def-010"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Akash-NG induction timeline and production contract value not publicly disclosed",
+    "Akash-NG active radar seeker indigenisation percentage",
+    "Akash-NG export potential (Armenia reported as Akash Mk-I export customer 2025)"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Akash (missile)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Akash_(missile)",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Comprehensive Akash family specifications"
+    },
+    {
+      "id": "src-2",
+      "title": "Successful trial of Akash Prime at High-Altitude",
+      "publisher": "Press Information Bureau, Ministry of Defence",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2145517",
+      "published_date": "2025-07-17",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PIB confirmation of Akash Prime high-altitude trial"
+    },
+    {
+      "id": "src-3",
+      "title": "Akashteer: The Unseen Force Behind India's New War",
+      "publisher": "Press Information Bureau, Ministry of Defence",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2129132",
+      "published_date": "2025-05-16",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Akashteer C4I confirmed battle-proven in Operation Sindoor"
+    },
+    {
+      "id": "src-4",
+      "title": "Akash missile system",
+      "publisher": "Bharat Electronics Limited",
+      "url": "https://bel-india.in/product/akash-missile-system",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "BEL official Akash product page"
+    }
+  ],
+  "seo": {
+    "title": "Akash-NG (New Generation) Surface-to-Air Missile — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "DRDO-developed new-generation SAM with active radar seeker; range 80+ km, can intercept fighters, helicopters, drones, missiles; trials ongoing 2025-26.",
+    "canonical_path": "/research/pillars/defence/entity/akash-ng-def-004/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/",
+    "submit_correction": "/research/pillars/defence/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the difference between Akash Mk-I, Akash Prime, and Akash-NG?",
+      "answer": "Akash Mk-I is the original 25 km range SAM inducted from 2014. Akash Prime is a high-altitude optimised variant first tested in 2021. Akash-NG (New Generation) extends the range to 80+ km and altitude to 18 km, and introduces an indigenous active radar seeker — a significant upgrade from the passive seeker on the original Akash. All three are DRDO-designed with BEL and BDL as productionisers.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "Was the Akash system used in Operation Sindoor?",
+      "answer": "Yes. The Akashteer Air Defence Control & Reporting System, which integrates Akash-family SAMs with BEL's C4I infrastructure, was battle-proven during Operation Sindoor in May 2025. PIB confirmed this in a press release dated 16 May 2025. Defence Minister Rajnath Singh subsequently credited both Akash and BrahMos as having been proven in combat during the operation.",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "question": "Has Akash been exported?",
+      "answer": "Armenia was reported in 2025 as the first export customer for the Akash Mk-I system. The export demonstrated Indian SAM capability on the global market, alongside BrahMos exports to the Philippines ($375M, 2022) and Indonesia (~$450M, 2026). Akash-NG export potential has not yet been articulated but is expected to follow once domestic orders are fulfilled.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ]
+}

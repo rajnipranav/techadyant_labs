@@ -1,0 +1,184 @@
+{
+  "entity_id": "aiesl",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "aiesl",
+  "name": "AI Engineering Services Limited (AIESL)",
+  "variant": "Government-owned MRO PSU (ex-Air India)",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's largest aircraft maintenance, repair and overhaul (MRO) organisation; the former Air India engineering unit retained by the Government of India after Air India's sale to Tata, now under the Ministry of Civil Aviation and slated for privatisation, with heavy-MRO hangars and over 50 line stations nationwide.",
+    "chips": [
+      "Tier B",
+      "MRO PSU",
+      "Government-owned",
+      "Ex-Air India",
+      "Heavy maintenance",
+      "Engine overhaul",
+      "Privatisation pending"
+    ],
+    "maker": "Government of India (Ministry of Civil Aviation)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Indigenous MRO services; OEM parts, engines and licensed maintenance data sourced from foreign airframe/engine makers",
+    "mobility_or_class": "Maintenance, Repair & Overhaul (MRO) organisation",
+    "operational_domains": [
+      "air",
+      "civilian"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "AI Engineering Services Limited (AIESL), formerly Air India Engineering Services Limited",
+    "Ownership": "Wholly owned by the Government of India; under the Ministry of Civil Aviation (retained after Air India privatisation to Tata Group)",
+    "HQ": "Safdarjung Airport Complex, New Delhi, India",
+    "Scale": "Largest MRO organisation in India",
+    "Bases": "New Delhi, Mumbai, Kolkata, Hyderabad, Nagpur, Trivandrum; 50+ line stations nationwide",
+    "Capabilities": "Base/heavy checks, engine overhaul, component overhaul, landing-gear servicing, wheels & brakes, NDT, batteries, ATE",
+    "Aircraft_types": "A320, B737, B777, B787, B747, ATR72",
+    "Engine_types": "V2500, LEAP-1A, CFM56-5B, GE, JT8D",
+    "Approvals": "16 approvals from FAA, EASA and DGCA",
+    "Status": "Government in process of divesting/privatising AIESL"
+  },
+  "what_it_is": {
+    "prose": "AI Engineering Services Limited (AIESL) — formerly Air India Engineering Services Limited — is the largest aircraft maintenance, repair and overhaul (MRO) organisation in India. It was the engineering and maintenance arm of the state carrier Air India and, when Air India was privatised and sold to the Tata Group, AIESL was carved out and retained by the Government of India, remaining a wholly government-owned public-sector undertaking under the Ministry of Civil Aviation (with residual holding via the Air India Assets Holding structure). Headquartered at the Safdarjung Airport Complex in New Delhi, AIESL provides base (heavy) checks, engine overhaul, component overhaul, landing-gear servicing, wheels-and-brakes overhaul, non-destructive testing, battery services and automatic test-equipment support. It operates narrow- and wide-body hangars at New Delhi, Mumbai, Kolkata, Hyderabad, Nagpur and Trivandrum, plus more than 50 line stations across the country, and holds 16 approvals from the FAA, EASA and India's DGCA. Its capability set covers Airbus A320-family, Boeing 737/777/787/747 and ATR72 aircraft and engines including the V2500, LEAP-1A, CFM56-5B, GE and JT8D. The Government of India has been in the process of divesting AIESL, inviting expressions of interest for its privatisation. AIESL's military-aerospace relevance lies in its status as India's largest strategic MRO PSU and national deep-maintenance capacity; however, primary public evidence of dedicated military-aircraft MRO work is limited, so this entry is tiered B on its documented civil heavy-MRO footprint and government-owned strategic status.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "AIESL's role is as a service provider rather than a procurement contractor. It is Air India's preferred MRO partner and the country's largest heavy-maintenance provider, operating hangars and line stations nationwide. The dominant strategic storyline in the review period is its pending privatisation by the Government of India.",
+    "rows": [
+      {
+        "agency": "Air India (Tata Group) and other carriers",
+        "context": "Heavy/base checks, engine and component overhaul as preferred/independent MRO",
+        "year": null,
+        "quantity_or_note": "Largest MRO in India; 50+ line stations; 16 FAA/EASA/DGCA approvals",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Government of India (Ministry of Civil Aviation)",
+        "context": "Privatisation / strategic disinvestment of AIESL",
+        "year": 2023,
+        "quantity_or_note": "Government inviting expressions of interest to divest AIESL (process ongoing)",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Extent and value of any military/defence-aircraft MRO work by AIESL is not documented in the primary sources reviewed here",
+      "Current AIESL revenue, workforce and privatisation completion timeline are not confirmed in the sources reviewed",
+      "Whether the privatised entity will retain strategic/national MRO obligations is undecided"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "As an MRO, AIESL depends structurally on foreign airframe and engine OEMs for spare parts, rotables, engines, tooling and licensed maintenance data and repair schemes. Its heavy-maintenance and engine-overhaul capabilities are performed in India but under OEM (Airbus, Boeing, ATR, CFM, IAE, GE, Pratt & Whitney) approvals and using imported components.",
+    "items": [
+      {
+        "component": "OEM spare parts, rotables and engines",
+        "severity": "High",
+        "note": "Airframe and engine parts sourced from foreign OEMs (Airbus, Boeing, CFM, IAE, GE, P&W)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Licensed maintenance data / repair schemes / tooling",
+        "severity": "Medium",
+        "note": "MRO performed under OEM-licensed data and approvals",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is AIESL and who owns it?",
+      "answer": "AI Engineering Services Limited (formerly Air India Engineering Services Limited) is India's largest aircraft MRO organisation and the former engineering arm of Air India. When Air India was privatised and sold to the Tata Group, AIESL was retained by the Government of India and remains a wholly government-owned PSU under the Ministry of Civil Aviation. It is headquartered at the Safdarjung Airport Complex in New Delhi.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What can AIESL do and what is its future?",
+      "answer": "AIESL performs base/heavy checks, engine overhaul, component overhaul, landing-gear and wheels-and-brakes servicing, NDT and battery services across A320, B737/777/787/747 and ATR72 aircraft and engines such as the V2500, LEAP-1A and CFM56-5B, with hangars at six cities, 50+ line stations and 16 FAA/EASA/DGCA approvals. The Government of India has been in the process of divesting/privatising AIESL, and its ownership and mandate after privatisation remain to be settled.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "AI Engineering Services Limited (AIESL) — MRO Profile",
+      "publisher": "CAPA - Centre for Aviation",
+      "url": "https://centreforaviation.com/data/profiles/maintenance-repair-and-overhaul/ai-engineering-services-limited-aiesl",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Largest MRO in India; ownership, bases, capabilities, aircraft/engine types, FAA/EASA/DGCA approvals"
+    },
+    {
+      "id": "src-2",
+      "title": "State-owned Air India Engineering to be privatised 'very soon': official",
+      "publisher": "FlightGlobal",
+      "url": "https://www.flightglobal.com/aerospace/state-owned-air-india-engineering-to-be-privatised-very-soon-official/152543.article",
+      "published_date": "2023-03-21",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "AIESL retained by government after Air India sold to Tata; privatisation/EoI process"
+    },
+    {
+      "id": "src-3",
+      "title": "AIESL — AI Engineering Services Ltd (official site)",
+      "publisher": "AI Engineering Services Limited",
+      "url": "https://www.aiesl.in/Tender.aspx",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Official AIESL site (tender page) confirming corporate identity and MRO operations"
+    }
+  ],
+  "seo": {
+    "title": "AI Engineering Services Limited (AIESL) — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "India's largest aircraft MRO organisation; the former Air India engineering unit retained by the Government of India after Air India's sale to Tata, now under the Ministry of Civil Aviation and slated for privatisation, with heavy-MRO hangars and 50+ line stations.",
+    "canonical_path": "/research/military-aerospace/company/aiesl/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/company/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "entity_id": "def-009",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "p75i-submarine-def-009",
+  "name": "Project-75(I) Submarine Programme",
+  "variant": "Project-75 (India) — 6 conventional AIP submarines",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Development",
+  "header": {
+    "one_liner": "₹40,000 crore Indian Navy programme for 6 AIP-equipped conventional submarines; bid pending between MDL+ThyssenKrupp (Germany) and L&T+Navantia (Spain); AIP technology is the critical evaluation criterion.",
+    "chips": [
+      "Submarine",
+      "AIP",
+      "Indian Navy",
+      "MDL",
+      "L&T",
+      "ThyssenKrupp",
+      "Navantia"
+    ],
+    "maker": "TBD — bid pending between MDL+ThyssenKrupp Marine Systems (Germany) and L&T+Navantia (Spain)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "Programme_value": "₹40,000 crore (estimated)",
+    "Quantity": "6 submarines with Air Independent Propulsion (AIP)",
+    "Bidder_1": "Mazagon Dock Shipbuilders Limited (MDL) + ThyssenKrupp Marine Systems (Germany)",
+    "Bidder_2": "Larsen & Toubro (L&T) + Navantia (Spain)",
+    "Status": "Bid evaluation pending final MoD decision (as of August 2026)",
+    "Critical_criterion": "AIP technology transfer — Spain (Navantia) has operational AIP; Germany (ThyssenKrupp) offers AIP ToT",
+    "Predecessor": "Project-75 Scorpene class (6 submarines built by MDL with Naval Group France, INS Kalvari to INS Vagsheer)",
+    "Strategic_Context": "Indian Navy submarine fleet aging; P-75(I) is the largest Make-in-India defence contract under the Strategic Partnership model"
+  },
+  "what_it_is": {
+    "prose": "Project-75(I) is the Indian Navy's programme to procure six conventional diesel-electric submarines equipped with Air Independent Propulsion (AIP) technology, under the Strategic Partnership model of the Defence Procurement Procedure. The programme is valued at approximately ₹40,000 crore and represents the largest single Make-in-India defence contract. The bid is pending between two consortia: (1) Mazagon Dock Shipbuilders Limited (MDL) partnered with ThyssenKrupp Marine Systems of Germany, offering a variant of the Type 214 submarine; and (2) Larsen & Toubro (L&T) partnered with Navantia of Spain, offering the S80 Plus submarine. The critical evaluation criterion is AIP technology transfer — both bidders have operational AIP systems (Navantia's is on the Spanish Navy's S81 Isaac Peral; ThyssenKrupp's is on multiple export customers' Type 214s). The predecessor Project-75 delivered six Scorpene-class submarines (INS Kalvari to INS Vagsheer) built by MDL with Naval Group of France, with the last (INS Vagsheer) commissioned in 2025. The Indian Navy's submarine fleet is aging and the P-75(I) is critical to maintaining underwater capability. Separately, L&T is leading India's Project-76 indigenous diesel-electric submarine design effort, with a target design completion by 2027.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Project-75(I) is in the bid evaluation phase as of August 2026. The two competing consortia are MDL+ThyssenKrupp (Germany) and L&T+Navantia (Spain), with the final MoD decision pending. The programme value is approximately ₹40,000 crore for 6 AIP-equipped submarines. No production contract has been signed.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Strategic Partnership model AoN",
+        "year": 2019,
+        "quantity_or_note": "Acceptance of Necessity (AoN) for 6 AIP submarines under SP model",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Ministry of Defence",
+        "context": "Bid submission deadline",
+        "year": 2023,
+        "quantity_or_note": "Two consortia submitted bids: MDL+ThyssenKrupp, L&T+Navantia",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Bid evaluation pending",
+        "year": 2026,
+        "quantity_or_note": "Final MoD decision pending as of August 2026",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Bid outcome (MDL+ThyssenKrupp vs L&T+Navantia) not yet announced",
+      "AIP technology transfer terms — critical evaluation criterion",
+      "Production timeline — first submarine delivery expected ~7-10 years after contract signing",
+      "Project-76 indigenous submarine design timeline (target 2027) — separate from P-75(I)"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "AIP technology",
+        "severity": "Critical",
+        "note": "Spain (Navantia) or Germany (ThyssenKrupp) — pending bid outcome",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Submarine sonar / combat system",
+        "severity": "Medium",
+        "note": "Likely France / Germany / Israel depending on bid outcome",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Submarine propulsion components",
+        "severity": "High",
+        "note": "Spain or Germany depending on bid outcome",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 2,
+        "note": "Foreign OEM (Navantia or ThyssenKrupp) — ToT to Indian Strategic Partner",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Indian Strategic Partner (MDL or L&T) — indigenous production",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "AIP, sonar, propulsion all imported under ToT",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "₹40,000 cr — largest Make-in-India defence contract",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 1,
+        "note": "Strategic Partner model not export-oriented",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "p15b-destroyer-def-007",
+      "p17a-frigate-def-008"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Bid outcome (MDL+ThyssenKrupp vs L&T+Navantia) not yet announced",
+    "AIP technology transfer terms — critical evaluation criterion",
+    "Production timeline — first submarine delivery expected ~7-10 years after contract signing",
+    "Project-76 indigenous submarine design timeline (target 2027) — separate from P-75(I)"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Project-75 (India) submarine acquisition project",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Project-75_(India)_submarine_acquisition_project",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "P-75(I) programme overview and bidders"
+    },
+    {
+      "id": "src-2",
+      "title": "Arihant-class submarine",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arihant-class_submarine",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "L&T hull fabrication context for Indian submarine programmes"
+    },
+    {
+      "id": "src-3",
+      "title": "Mazagon Dock Shipbuilders Limited",
+      "publisher": "Mazagon Dock Shipbuilders Limited",
+      "url": "https://mazagondock.in",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — MDL corporate homepage"
+    },
+    {
+      "id": "src-4",
+      "title": "L&T Precision Engineering & Systems Wins (Major) Order for K9 Vajra-T Artillery Platforms",
+      "publisher": "Larsen & Toubro",
+      "url": "https://www.larsentoubro.com/pressreleases/2024-12-23-lt-precision-engineering-systems-wins-major-order-for-k9-vajra-t-artillery-platforms",
+      "published_date": "2024-12-23",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "L&T — P-75(I) bidder (with Navantia); also leads Project-76"
+    }
+  ],
+  "seo": {
+    "title": "Project-75(I) Submarine Programme — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "₹40,000 crore Indian Navy programme for 6 AIP-equipped conventional submarines; bid pending between MDL+ThyssenKrupp (Germany) and L&T+Navantia (Spain); AIP tec",
+    "canonical_path": "/research/pillars/defence/entity/p75i-submarine-def-009/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/",
+    "submit_correction": "/research/pillars/defence/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Who are the two bidders for Project-75(I)?",
+      "answer": "Two consortia submitted bids for the ₹40,000 crore Project-75(I) programme: (1) Mazagon Dock Shipbuilders Limited (MDL) partnered with ThyssenKrupp Marine Systems of Germany, offering a variant of the Type 214 submarine; and (2) Larsen & Toubro (L&T) partnered with Navantia of Spain, offering the S80 Plus submarine. Both bidders have operational Air Independent Propulsion (AIP) systems, which is the critical evaluation criterion. The final MoD decision was pending as of August 2026.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Why is AIP technology critical for Project-75(I)?",
+      "answer": "Air Independent Propulsion (AIP) allows a conventional diesel-electric submarine to operate submerged for extended periods without surfacing or snorkelling — typically 2-3 weeks vs a few days for non-AIP boats. This dramatically reduces the submarine's detectability and is considered essential for the Indian Navy's operational requirements in the Indian Ocean Region. Both ThyssenKrupp (Germany) and Navantia (Spain) have operational AIP systems, with Navantia's on the Spanish Navy's S81 Isaac Peral.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What is the relationship between Project-75(I) and Project-76?",
+      "answer": "Project-75(I) is the near-term programme to procure 6 AIP-equipped conventional submarines from a foreign OEM with Indian Strategic Partner under ToT. Project-76 is a separate, longer-term programme led by L&T to design an indigenous diesel-electric submarine, with a target design completion by 2027. Project-76 represents India's path to sovereign submarine design capability, while Project-75(I) addresses immediate capability gaps.",
+      "sources": [
+        "src-1",
+        "src-4"
+      ]
+    }
+  ]
+}

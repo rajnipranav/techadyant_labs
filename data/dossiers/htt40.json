@@ -1,0 +1,295 @@
+{
+  "entity_id": "htt40",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "htt40",
+  "name": "HAL HTT-40",
+  "variant": "Hindustan Turbo Trainer-40 (basic trainer)",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/platform/",
+  "last_verified": "2026-08-29",
+  "status": "Ordered",
+  "header": {
+    "one_liner": "HAL's indigenously designed turboprop basic trainer for IAF Stage-I flying, ordered in 70 aircraft (Rs 6,828.36 crore, Cabinet-cleared March 2023) with an option for 36 more; ~56% indigenous content rising toward 60%, though the Honeywell TPE331-12B engine is imported.",
+    "chips": [
+      "A",
+      "India-relevant",
+      "Indigenous design",
+      "HAL",
+      "Basic trainer",
+      "Make in India"
+    ],
+    "maker": "Hindustan Aeronautics Limited (HAL), Aircraft Research & Design Centre / Bengaluru (production shifting to Nashik)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "~56% indigenous content, planned to rise above 60%; Honeywell TPE331-12B engine imported (first 16 from USA, then HAL-produced)",
+    "mobility_or_class": "Single-engine turboprop basic (Stage-I) trainer aircraft",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Platform": "HAL HTT-40 (Hindustan Turbo Trainer-40)",
+    "Maker": "HAL, Aircraft Research & Design Centre, Bengaluru",
+    "Design": "Indigenous HAL design; maiden flight May 2016",
+    "Role": "Stage-I basic flying training; replaces the grounded HPT-32 Deepak",
+    "Order": "70 aircraft, Rs 6,828.36 crore (Union Cabinet approval 1 March 2023), with an option for 36 more",
+    "Indigenous_content": "~56%, to be raised above 60%",
+    "Engine": "Honeywell TPE331-12B turboprop (~950 shp); first 16 engines from USA, remaining ~72 to be produced by HAL under a $100M July 2022 contract",
+    "Delivery": "Over six years from contract; first engines delivered to HAL 11 June 2026",
+    "Fleet_context": "Serves alongside 75 Pilatus PC-7 Mk II in IAF Stage-I training"
+  },
+  "what_it_is": {
+    "prose": "The HAL HTT-40 (Hindustan Turbo Trainer-40) is an indigenously designed single-engine turboprop basic trainer developed by Hindustan Aeronautics Limited's Aircraft Research & Design Centre in Bengaluru to meet the Indian Air Force's Stage-I (basic) flying-training requirement. It was conceived to replace the HPT-32 Deepak piston trainer, which was grounded in 2009 after a fatal accident, and the prototype made its maiden flight in May 2016. On 1 March 2023 the Union Cabinet approved procurement of 70 HTT-40 aircraft from HAL for the IAF at a cost of Rs 6,828.36 crore, with the aircraft to be delivered over six years; trade reporting notes an option for a further 36 aircraft. The Cabinet release states the aircraft has approximately 56% indigenous content, to be raised above 60% through indigenisation of major components and subsystems, and projects roughly 1,500 direct jobs across more than 100 MSMEs. The principal import dependency is propulsion: the aircraft is powered by the Honeywell TPE331-12B turboprop, and under a $100 million contract signed in July 2022 Honeywell agreed to supply the first 16 engines from the USA before production of the remaining units transitions to HAL in India. Honeywell delivered the first three TPE331-12B engines to HAL on 11 June 2026 after supply-chain delays, keeping HAL on course to hand the first HTT-40s to the IAF. The HTT-40 will operate alongside the IAF's 75 Pilatus PC-7 Mk II in the basic-training role.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The HTT-40's flagship order is the 70-aircraft, Rs 6,828.36 crore procurement from HAL approved by the Union Cabinet on 1 March 2023, for delivery over six years, with a reported option for 36 more. HAL earlier received the RFP for 70 aircraft at Aero India 2021. Deliveries hinge on the Honeywell TPE331-12B engine supply, the first three of which reached HAL on 11 June 2026.",
+    "rows": [
+      {
+        "agency": "Indian Air Force (via Union Cabinet / MoD)",
+        "context": "Procurement of 70 HTT-40 basic trainers from HAL, with associated equipment, training aids and simulators; delivery over six years",
+        "year": 2023,
+        "quantity_or_note": "70 aircraft, Rs 6,828.36 crore (Cabinet approval 1 March 2023); reported option for 36 more",
+        "sources": [
+          "src-1",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "HAL / Honeywell (engine supply)",
+        "context": "Honeywell TPE331-12B engine supply contract; first 16 engines from USA, remaining ~72 to be produced by HAL",
+        "year": 2022,
+        "quantity_or_note": "~$100 million contract (July 2022); first 3 engines delivered to HAL 11 June 2026",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Whether the 36-aircraft option has been exercised is not confirmed in a primary source",
+      "First-aircraft delivery/induction date not yet confirmed in a primary source (engine deliveries began June 2026)"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The HTT-40 is an indigenous HAL design with ~56% local content, but its critical propulsion unit is imported. The Honeywell TPE331-12B turboprop is supplied from the USA for the first 16 aircraft before HAL takes up domestic production of the remainder, making the engine the principal near-term import dependency.",
+    "items": [
+      {
+        "component": "Honeywell TPE331-12B turboprop engine",
+        "severity": "High",
+        "note": "First 16 engines imported from USA; remaining ~72 to be produced by HAL in India under the July 2022 contract.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "component": "Avionics / subsystems (portion of the ~44% non-indigenous content)",
+        "severity": "Medium",
+        "note": "Cabinet states content to be raised from ~56% to above 60% via indigenisation of major components and subsystems; specific imported items not itemised.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Indigenous HAL design (Aircraft Research & Design Centre, Bengaluru); maiden flight May 2016",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Built by HAL; production in Bengaluru shifting to Nashik",
+        "sources": [
+          "src-1",
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "~56% indigenous content rising toward 60%; TPE331-12B engine imported initially then HAL-produced",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "70 aircraft, Rs 6,828.36 crore firm order; reported option for 36 more",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "HAL has pitched HTT-40 for export in the trainer market; no firm export order in retrieved primary sources",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "/research/military-aerospace/platform/do228/",
+      "/research/military-aerospace/platform/hs748/"
+    ],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2016-05",
+      "event": "HTT-40 prototype makes maiden flight",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2021-02",
+      "event": "HAL receives RFP for 70 HTT-40 basic trainers from IAF at Aero India 2021",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2022-07",
+      "event": "Honeywell contract (~$100M) for TPE331-12B engines; first 16 from USA, rest to be HAL-produced",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2023-03-01",
+      "event": "Union Cabinet approves procurement of 70 HTT-40 from HAL for Rs 6,828.36 crore, delivery over six years",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "event": "Honeywell delivers first three TPE331-12B engines to HAL",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How many HTT-40 has the IAF ordered and at what cost?",
+      "answer": "The Union Cabinet approved procurement of 70 HTT-40 basic trainers from HAL on 1 March 2023 at a cost of Rs 6,828.36 crore, to be delivered over six years. Trade reporting notes an additional option for 36 aircraft.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "Is the HTT-40 indigenous, and what is its engine?",
+      "answer": "The HTT-40 is an indigenous HAL design with approximately 56% indigenous content, planned to rise above 60%. Its main import dependency is the engine: the Honeywell TPE331-12B turboprop, with the first 16 engines supplied from the USA before HAL takes up production of the remainder. Honeywell delivered the first three engines to HAL on 11 June 2026.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What does the HTT-40 replace and what is its role?",
+      "answer": "The HTT-40 is a Stage-I (basic) flying trainer designed to replace the HPT-32 Deepak piston trainer, which was grounded in 2009. It made its maiden flight in May 2016 and will operate alongside the IAF's fleet of 75 Pilatus PC-7 Mk II basic trainers.",
+      "sources": [
+        "src-3",
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Whether the reported 36-aircraft option has been exercised is not confirmed in a primary source",
+    "First-aircraft delivery/induction date to the IAF not yet confirmed in a primary source",
+    "Precise breakdown of the imported ~44% content is not disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Union Cabinet approves procurement of 70 HTT-40 Basic Trainer Aircraft from HAL for Indian Air Force at a cost of over Rs 6,800 crore",
+      "publisher": "Press Information Bureau, Cabinet Committee on Security",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1903445&reg=48&lang=2",
+      "published_date": "2023-03-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Cabinet approval: 70 HTT-40, Rs 6,828.36 crore, six-year delivery, ~56% indigenous content rising to >60%, ~1,500 direct jobs, 100+ MSMEs."
+    },
+    {
+      "id": "src-2",
+      "title": "Honeywell delivers first engines for Indian HTT-40 trainer aircraft",
+      "publisher": "Asian Military Review",
+      "url": "https://www.asianmilitaryreview.com/2026/06/honeywell-delivers-first-engines-for-indian-htt-40-trainer-aircraft-foc/",
+      "published_date": "2026-06-11",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "TPE331-12B; first 3 engines delivered to HAL 11 June 2026; $100M July 2022 Honeywell contract; first 16 engines from USA, remaining ~72 to HAL; 70 aircraft ordered 7 March 2023; 56% indigenous rising >60%."
+    },
+    {
+      "id": "src-3",
+      "title": "IAF To Get New Basic Trainer Aircraft HAL HTT-40",
+      "publisher": "Mobility Outlook",
+      "url": "https://www.mobilityoutlook.com/features/iaf-to-get-new-basic-trainer-aircraft-hal-htt40/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "INR 6,800 crore for 70 aircraft with option for 36 more; HAL ARDC Bengaluru design; maiden flight May 2016; replaces HPT-32; TPE331-12B engine; alongside 75 Pilatus PC-7 Mk II."
+    },
+    {
+      "id": "src-4",
+      "title": "HAL receives Request for Proposal for 70 HTT-40 Basic Trainer Aircraft from Indian Air Force at Aero India 2021",
+      "publisher": "Press Information Bureau",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1695163&reg=48&lang=2",
+      "published_date": "2021-02",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PIB: IAF issued RFP to HAL for 70 HTT-40 at Aero India 2021."
+    }
+  ],
+  "seo": {
+    "title": "HAL HTT-40 — Platform · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "HAL's indigenously designed HTT-40 turboprop basic trainer — 70 aircraft ordered for the IAF at Rs 6,828.36 crore (Cabinet-cleared March 2023), with the Honeywell TPE331-12B engine the main import dependency.",
+    "canonical_path": "/research/military-aerospace/platform/htt40/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/platform/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/do228/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

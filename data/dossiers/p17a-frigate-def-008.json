@@ -1,0 +1,271 @@
+{
+  "entity_id": "def-008",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "p17a-frigate-def-008",
+  "name": "P17A Nilgiri-class Frigate",
+  "variant": "Project 17A (7 ships)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "In trials",
+  "header": {
+    "one_liner": "Seven-ship Indian Navy stealth frigate class; first ship INS Nilgiri commissioned 2025; LR-SAM, BrahMos, 76mm SRGM, ASW; ~75% indigenous content target.",
+    "chips": [
+      "Frigate",
+      "Indian Navy",
+      "MDL",
+      "GRSE",
+      "Stealth",
+      "BrahMos",
+      "Barak-8"
+    ],
+    "maker": "Mazagon Dock Shipbuilders Limited (MDL, 4 ships) + Garden Reach Shipbuilders & Engineers (GRSE, 3 ships) — builders; Indian Navy Directorate of Naval Design — design",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "MDL (4 ships) + GRSE (3 ships); Indian Navy Directorate of Naval Design",
+    "Ships": "INS Nilgiri (2025), INS Himgiri (2025-26), INS Udaygiri, INS Dunagiri, INS Vindhyagiri, INS Taragiri, INS Mahendragiri",
+    "Displacement": "~6,670 tonnes full load",
+    "Length": "149 m",
+    "Beam": "17.8 m",
+    "Propulsion": "Combined Diesel and Gas (CODAG) — LM2500 gas turbines (GE USA) + diesel engines",
+    "Speed": "28+ knots",
+    "Armament": "LR-SAM (Barak-8, 32 cells), BrahMos (8 cells), 76mm SRGM (Oto Melara licence, BEL-produced), RBU-6000 ASW, 533mm torpedo tubes",
+    "Sensors": "EL/M-2248 MF-STAR radar (Israel), BEL Humsa-NG sonar",
+    "Indigenous_content_target": "~75%",
+    "Construction_split": "MDL Mumbai (4 ships) + GRSE Kolkata (3 ships)"
+  },
+  "what_it_is": {
+    "prose": "The P17A Nilgiri-class is a seven-ship stealth frigate class of the Indian Navy, under construction at Mazagon Dock Shipbuilders Limited (MDL, Mumbai — 4 ships) and Garden Reach Shipbuilders & Engineers (GRSE, Kolkata — 3 ships). Designed by the Indian Navy's Directorate of Naval Design, the P17A is a follow-on to the P17 Shivalik-class (3 ships commissioned 2010-2012). The class features enhanced stealth characteristics (radar cross-section, infrared, and acoustic signatures), a combined diesel and gas (CODAG) propulsion system using GE LM2500 gas turbines (USA) and diesel engines, and a comprehensive indigenous combat suite. The seven ships are: INS Nilgiri (first ship, commissioned 2025), INS Himgiri, INS Udaygiri, INS Dunagiri, INS Vindhyagiri, INS Taragiri, and INS Mahendragiri. The class displaces approximately 6,670 tonnes full load, is 149 m long with a 17.8 m beam, and achieves 28+ knots. Armament mirrors the P15B destroyers: LR-SAM (Barak-8) in 32 cells, BrahMos in 8 cells, 76mm Oto Melara SRGM (license-produced by BEL), RBU-6000 ASW rocket launchers, and 533mm torpedo tubes. Sensors include the EL/M-2248 MF-STAR radar (Israel) and BEL Humsa-NG hull-mounted sonar. The target indigenous content is approximately 75%.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The P17A Nilgiri-class is under construction at MDL Mumbai (4 ships) and GRSE Kolkata (3 ships). The first ship, INS Nilgiri, was commissioned in 2025. Remaining ships are in advanced stages of construction or trials, with deliveries expected through 2027-28.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "INS Nilgiri (first of class) commissioned",
+        "year": 2025,
+        "quantity_or_note": "2025 — first ship of Project 17A",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Remaining 6 ships under construction",
+        "year": null,
+        "quantity_or_note": "MDL (3 more) + GRSE (3) — deliveries expected 2025-2028",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact commissioning dates for remaining 6 ships not publicly disclosed",
+      "Final indigenous content percentage (target ~75%) not confirmed at delivery",
+      "P17A vs P17B (next-generation frigate) programme distinction not yet articulated"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "GE LM2500 gas turbines",
+        "severity": "Critical",
+        "note": "USA (GE Aerospace)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "EL/M-2248 MF-STAR radar",
+        "severity": "High",
+        "note": "Israel Aerospace Industries (IAI)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "BrahMos propulsion (ramjet)",
+        "severity": "High",
+        "note": "Russia (NPOM)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "76mm SRGM components",
+        "severity": "Medium",
+        "note": "Oto Melara (Italy) licence, BEL-produced",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Directorate of Naval Design (Indian Navy) — indigenous design",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "MDL + GRSE — both Indian PSUs",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Gas turbines USA; radar Israel; BrahMos propulsion Russia",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "7 ships under construction; ~75% indigenous target",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "No exports of P17A; Indian Navy priority",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "p15b-destroyer-def-007",
+      "p75i-submarine-def-009"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Exact commissioning dates for remaining 6 ships not publicly disclosed",
+    "Final indigenous content percentage (target ~75%) not confirmed at delivery",
+    "P17A vs P17B (next-generation frigate) programme distinction not yet articulated"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Nilgiri-class frigate (2019)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nilgiri-class_frigate_(2019)",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "P17A class specifications"
+    },
+    {
+      "id": "src-2",
+      "title": "Mazagon Dock Shipbuilders Limited",
+      "publisher": "Mazagon Dock Shipbuilders Limited",
+      "url": "https://mazagondock.in",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — MDL corporate homepage"
+    },
+    {
+      "id": "src-3",
+      "title": "Garden Reach Shipbuilders & Engineers",
+      "publisher": "Garden Reach Shipbuilders & Engineers",
+      "url": "https://www.grse.in",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — GRSE corporate homepage"
+    },
+    {
+      "id": "src-4",
+      "title": "GRSE — Project 17A Stealth Frigate",
+      "publisher": "Garden Reach Shipbuilders & Engineers",
+      "url": "https://www.grse.in/index.php/project-17a-frigate",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "GRSE corporate page on Project 17A Nilgiri-class stealth frigate programme — 3 of 7 ships built at GRSE Kolkata"
+    }
+  ],
+  "seo": {
+    "title": "P17A Nilgiri-class Frigate — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "Seven-ship Indian Navy stealth frigate class; first ship INS Nilgiri commissioned 2025; LR-SAM, BrahMos, 76mm SRGM, ASW; ~75% indigenous content target.",
+    "canonical_path": "/research/pillars/defence/entity/p17a-frigate-def-008/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/",
+    "submit_correction": "/research/pillars/defence/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Where are the P17A Nilgiri-class frigates being built?",
+      "answer": "The seven P17A Nilgiri-class stealth frigates are being built at two Indian Navy shipyards: Mazagon Dock Shipbuilders Limited (MDL) in Mumbai is building four ships, and Garden Reach Shipbuilders & Engineers (GRSE) in Kolkata is building three. The class is designed by the Indian Navy's Directorate of Naval Design and is a follow-on to the P17 Shivalik-class (3 ships commissioned 2010-2012).",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "When will all seven P17A frigates be commissioned?",
+      "answer": "The first ship, INS Nilgiri, was commissioned in 2025. The remaining six ships are in advanced stages of construction or trials at MDL Mumbai and GRSE Kolkata, with deliveries expected through 2027-28. Exact commissioning dates for the remaining ships have not been publicly disclosed.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What is the armament of the P17A class?",
+      "answer": "The P17A frigates carry the same armament suite as the P15B destroyers: LR-SAM (Barak-8) in 32 vertical launch cells for air defence, BrahMos supersonic cruise missiles in 8 cells for anti-ship and land-attack, a 76mm Oto Melara SRGM (license-produced by BEL) for surface fire, RBU-6000 anti-submarine rocket launchers, and 533mm torpedo tubes. The target indigenous content is approximately 75%.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ]
+}

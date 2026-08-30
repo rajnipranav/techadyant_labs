@@ -1,0 +1,78 @@
+{
+  "entity_id": "drn-0017",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "drn-0017",
+  "name": "HAL CATS Air",
+  "variant": "CATS Air",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-30",
+  "status": "Development",
+  "header": {
+    "one_liner": "HAL CATS Air — Development status drone platform.",
+    "chips": [
+      "B",
+      "India-relevant"
+    ],
+    "maker": "See manufacturer dossier",
+    "country": "Mixed",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Name": "HAL CATS Air",
+    "Status": "Development",
+    "Variant": "CATS Air"
+  },
+  "what_it_is": {
+    "prose": "HAL CATS air-team UCAV variant.",
+    "sources": []
+  },
+  "open_questions": [
+    "Primary India service source",
+    "Manufacturer verification"
+  ],
+  "sources": [
+    {
+      "id": "src-p1",
+      "title": "HAL CATS Air",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Initial placeholder from live hub mapping."
+    }
+  ],
+  "seo": {
+    "title": "HAL CATS Air — Platform · India Drones-UAS Atlas | Techadyant",
+    "meta_description": "HAL CATS Air platform dossier in the India Drones-UAS Atlas.",
+    "canonical_path": "/research/drones-uas/platform/drn-0017/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/platform/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

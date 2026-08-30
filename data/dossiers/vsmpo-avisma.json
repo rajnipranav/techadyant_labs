@@ -1,0 +1,100 @@
+{
+  "entity_id": "vsmpo-avisma",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "vsmpo-avisma",
+  "name": "VSMPO-AVISMA",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "The world's largest aerospace titanium producer (Sverdlovsk region, Russia; Rostec-linked) — a strategic upstream supplier to Boeing and Airbus. Compact card: foreign raw-material producer with no established direct India defence-aerospace footprint; relevance is upstream titanium-supply-chain risk.",
+    "chips": [
+      "C",
+      "Titanium producer",
+      "Russia",
+      "Upstream supplier",
+      "Boeing/Airbus"
+    ],
+    "maker": "Rostec-affiliated (Russia)",
+    "country": "Russia",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign (Russia) upstream titanium producer; no direct India defence footprint documented",
+    "mobility_or_class": "Titanium mill products / raw-material producer",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "PJSC VSMPO-AVISMA Corporation, Verkhnyaya Salda, Sverdlovsk Oblast, Russia",
+    "Sector": "Titanium ingot, mill products and forgings for aerospace",
+    "Global_role": "World's largest aerospace-grade titanium producer; supplier to Boeing and Airbus",
+    "India_relevance": "No established direct India defence-aerospace supply contract found; relevance is upstream titanium supply-chain risk",
+    "Sanctions_context": "Post-2022 Ukraine-war sanctions pressure led Boeing to suspend Russian titanium while Airbus continued for a period",
+    "Tier_C_reason": "Foreign raw-material producer with no usable public direct-India footprint"
+  },
+  "what_it_is": {
+    "prose": "VSMPO-AVISMA (PJSC VSMPO-AVISMA Corporation, Verkhnyaya Salda, Russia; Rostec-affiliated) is the world's largest producer of aerospace-grade titanium — ingots, mill products and forgings — and has long been a strategic upstream supplier to Boeing and Airbus, which signed multi-year titanium supply and technology-collaboration agreements with it. Following Russia's 2022 invasion of Ukraine, sanctions pressure led Boeing to suspend purchases of Russian titanium while Airbus continued sourcing for a period, highlighting Western aerospace's dependence on this single Russian supplier. VSMPO-AVISMA's relevance to India's military-aerospace picture is indirect: it is an upstream raw-material producer rather than a platform, engine or systems supplier, and no established direct India defence-aerospace supply contract was found in public sources reviewed. This is therefore a compact (Tier C) card capturing the titanium supply-chain dimension; it can be elevated if primary-source evidence of a direct India footprint emerges.",
+    "sources": [
+      "src-boeing-vsmpo",
+      "src-defensemirror-a350"
+    ]
+  },
+  "variant": "Tier C compact card (titanium producer)",
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/military-aerospace/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "No documented direct VSMPO-AVISMA supply relationship with Indian defence-aerospace programmes was found in sources reviewed.",
+    "Any indirect exposure of Indian aerospace supply chains to Russian titanium is not quantified in public sources."
+  ],
+  "sources": [
+    {
+      "id": "src-boeing-vsmpo",
+      "title": "Boeing and VSMPO-AVISMA Agree on Titanium Supplies and Technology Collaboration for Years to Come",
+      "publisher": "Boeing (mediaroom)",
+      "url": "https://boeing.mediaroom.com/2021-11-15-Boeing-and-VSMPO-AVISMA-Agree-on-Titanium-Supplies-and-Technology-Collaboration-for-Years-to-Come",
+      "published_date": "2021-11-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Boeing–VSMPO-AVISMA titanium supply and technology collaboration (pre-2022); VSMPO as a leading global aerospace titanium producer."
+    },
+    {
+      "id": "src-defensemirror-a350",
+      "title": "VSMPO-AVISMA Will Continue to Supply Titanium for Airbus A350",
+      "publisher": "Defense Mirror",
+      "url": "https://defensemirror.com/news/31208/VSMPO_AVISMA_Will_Continue_to_Supply_Titanium_for_Airbus_A350",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "VSMPO-AVISMA continuing titanium supply to Airbus for the A350, illustrating Western aerospace reliance on Russian titanium."
+    }
+  ],
+  "seo": {
+    "title": "VSMPO-AVISMA — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "The world's largest aerospace titanium producer (Russia; Rostec-linked), a key supplier to Boeing and Airbus. No direct India defence footprint documented; upstream supply-chain relevance. Compact card.",
+    "canonical_path": "/research/military-aerospace/company/vsmpo-avisma/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/company/",
+      "/research/military-aerospace/"
+    ]
+  }
+}

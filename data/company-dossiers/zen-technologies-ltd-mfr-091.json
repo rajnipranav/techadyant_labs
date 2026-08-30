@@ -1,0 +1,414 @@
+{
+  "entity_id": "atl-cmp-zen-technologies-ltd-mfr-091",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "zen-technologies-ltd-mfr-091",
+  "name": "Zen Technologies Ltd",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/zen-technologies-ltd-mfr-091/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Zen Technologies Ltd is a Hyderabad-based Indian private-sector defence technology company founded in 1993. The company designs, develops, manufactures and sells defence training simulators (live rang",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Hyderabad, Telangana, India",
+    "Type": "Manufacturer (listed)",
+    "Founded": "1993 (incorporated in 1993 to develop state-of-the-art training simulators for weapons and allied defence equipment)",
+    "India entity": null,
+    "Listed": "Listed — NSE:ZENTEC / BSE:533339; market cap ~₹16,434 Cr; share price ~₹1,820 (Aug 2026)",
+    "Key India role": "Zen Technologies Ltd is a Hyderabad-based Indian private-sector defence technology company founded in 1993. The company designs, develops, manufactures and sells defence training simulators (live rang"
+  },
+  "what_it_is": {
+    "prose": "Zen Technologies Ltd is a Hyderabad-based Indian private-sector defence technology company founded in 1993. The company designs, develops, manufactures and sells defence training simulators (live range, virtual, immersive, and constructive training solutions for weapons and allied defence equipment) and counter-drone solutions. Zen's anti-drone system works on drone detection, classification and tracking using passive surveillance and camera sensors. Recent milestones: (1) MoD awarded ₹37 crore order to Zen Technologies for an advanced Anti-Drone System; (2) Zen Technologies awarded $444,000 contract by India for anti-drone systems with hard-kill capabilities (13 October 2025, The Defense Post); (3) Zen Technologies unveiled Vyomkavach — India's first fully integrated, AI-powered anti-drone system (6 May 2026, Times of India); (4) Zen Technologies pushing for hard-kill systems against jam-resistant drones (June 2025). The company is also developing drone propulsion systems and has partnerships with HAL and other Indian defence players.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "6 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Defence Training Simulators",
+        "role": "OEM",
+        "india_status": "live range, virtual, immersive, constructive training solutions for weapons and allied defence equipment",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Anti-Drone System (ZenADS)",
+        "role": "OEM",
+        "india_status": "drone detection, classification and tracking using passive surveillance and camera sensors",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Vyomkavach",
+        "role": "OEM",
+        "india_status": "India's first fully integrated AI-powered anti-drone system (unveiled 6 May 2026)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "ZenADS-HK",
+        "role": "OEM",
+        "india_status": "anti-drone system with hard-kill capabilities",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Drone propulsion systems (in development)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Combat training simulators",
+        "role": "OEM",
+        "india_status": "small arms, driving simulators for defence and security sectors",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "Ministry of Defence placed ₹37 crore order with Zen Technologies for an advanced Anti-Drone System",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "India awarded Zen Technologies $444,000 contract to supply anti-drone systems with hard-kill capabilities (13 October 2025, The Defense Post)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Zen Technologies unveiled Vyomkavach — India's first fully integrated, AI-powered anti-drone system (6 May 2026)",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Zen Technologies pushing armed forces to adopt advanced hard-kill anti-drone systems against jam-resistant drones (June 2025)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Zen Technologies anticipates additional orders for anti-drone systems from Indian Armed Forces (June 2025)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "11 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "Medium",
+        "note": "1 official, 6 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Zen Technologies founded?",
+      "answer": "Zen Technologies Ltd is a Hyderabad-based Indian private-sector defence technology company founded in 1993.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "On which stock exchanges is Zen Technologies listed?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the name of Zen Technologies' AI-powered anti-drone system unveiled in May 2026?",
+      "answer": "Recent milestones: (1) MoD awarded ₹37 crore order to Zen Technologies for an advanced Anti-Drone System; (2) Zen Technologies awarded $444,000 contract by India for anti-drone systems with hard-kill capabilities (13 October 2025, The Defense Post); (3) Zen Technologies unveiled Vyomkavach — India's first fully integrated, AI-powered anti-drone system (6 May 2026, Times of India); (4) Zen Technologies pushing for hard-kill systems against jam-resistant drones (June 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the value of the October 2025 hard-kill anti-drone contract awarded to Zen Technologies?",
+      "answer": "Recent milestones: (1) MoD awarded ₹37 crore order to Zen Technologies for an advanced Anti-Drone System; (2) Zen Technologies awarded $444,000 contract by India for anti-drone systems with hard-kill capabilities (13 October 2025, The Defense Post); (3) Zen Technologies unveiled Vyomkavach — India's first fully integrated, AI-powered anti-drone system (6 May 2026, Times of India); (4) Zen Technologies pushing for hard-kill systems against jam-resistant drones (June 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Where is Zen Technologies headquartered?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Zen Technologies — founded 1993; designs and manufactures advanced Defence Training, Counter Drone Solutions and Combat Training Simulators",
+      "publisher": "Zen Technologies Official",
+      "url": "https://www.zentechnologies.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "Zen Technologies incorporated in 1993 with aim to develop state-of-the-art training simulators for weapons and allied defence equipment",
+      "publisher": "Zen Technologies Official",
+      "url": "https://www.zentechnologies.com/about-us",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Zen Technologies established in 1993 to develop computer-based training systems for defence and security sectors — focused on small arms and driving simulators",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zen_Technologies",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "India awarded Zen Technologies a $444,000 contract to supply anti-drone systems with hard-kill capabilities (13 Oct 2025)",
+      "publisher": "The Defense Post",
+      "url": "https://thedefensepost.com/2025/10/13/india-zen-technologies-counter-drone",
+      "published_date": "2025-10-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "Zen Technologies unveiled Vyomkavach — India's first fully integrated, AI-powered anti-drone system (6 May 2026)",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/hyderabad/zen-technologies-unveils-ai-powered-anti-drone-system/articleshow/130837944.cms",
+      "published_date": "2026-05-06",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Zen Technologies — leading Indian defence technology company based in Hyderabad — poised to secure additional orders for anti-drone systems (June 2025)",
+      "publisher": "IDRW",
+      "url": "https://idrw.org/zen-technologies-anticipates-additional-orders-for-anti-drone-systems-from-indian-armed-forces",
+      "published_date": "2025-06-06",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Zen Technologies urging armed forces to adopt advanced hard-kill anti-drone systems against jam-resistant drones (June 2025); products: Vyomkavach + ZenADS-HK",
+      "publisher": "Defence.in",
+      "url": "https://defence.in/threads/zen-technologies-pushes-for-hard-kill-systems-against-jam-resistant-drones-pioneering-ai-powered-vyomkavach-and-zen-ads-hk.14527",
+      "published_date": "2025-06-15",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Anti-Drone System from Zen Technologies — works on drone detection, classification and tracking using passive surveillance, camera sensors",
+      "publisher": "Zen Technologies Official",
+      "url": "https://www.zentechnologies.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-09",
+      "title": "MoD placed ₹37 crore order with Hyderabad-based Zen Technologies for an advanced Anti-Drone System",
+      "publisher": "NextGen Defence Technologies (Facebook)",
+      "url": "https://www.facebook.com/NGDT2020/posts/ministry-of-defence-has-placed-a-37-crore-order-with-hyderabad-based-zen-technol/1064397272648032",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "Zen Technologies Ltd — simulation training equipment; BSE NSE; market cap ₹16,434 Cr; current price ₹1,820 (Aug 2026)",
+      "publisher": "Screener",
+      "url": "https://www.screener.in/company/ZENTEC/consolidated",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "ZENTEC.NS — Zen Technologies Limited; engages in design, development, manufacture and sale of training simulators in India and internationally",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZENTEC.NS",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Zen Technologies Ltd — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Zen Technologies Ltd company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/zen-technologies-ltd-mfr-091/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/zen-technologies-ltd-mfr-091/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

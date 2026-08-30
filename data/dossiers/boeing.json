@@ -1,0 +1,375 @@
+{
+  "entity_id": "boeing",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "boeing",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "name": "Boeing Defense, Space & Security",
+  "status": "Operational",
+  "header": {
+    "one_liner": "US defence prime with the widest in-service India fleet of any foreign OEM — 11 IAF C-17 Globemaster III, 22 IAF plus 6 Army AH-64E Apache, 15 IAF CH-47F Chinook and 12 Navy P-8I — plus the Tata Boeing Aerospace JV in Hyderabad building Apache fuselages and a large Indian supply chain.",
+    "chips": [
+      "A",
+      "India-relevant",
+      "Boeing",
+      "C-17",
+      "AH-64",
+      "P-8I",
+      "CH-47",
+      "TBAL",
+      "Make in India"
+    ],
+    "maker": "The Boeing Company — Defense, Space & Security (USA)",
+    "country": "USA",
+    "indigenous_pct": null,
+    "indigenous_label": "Platforms US-designed and built; Indian value via TBAL Apache fuselage JV, Dynamatic/TASL structures and a broad Indian supplier base",
+    "mobility_or_class": "Aerospace & defence OEM (no platform class)",
+    "operational_domains": [
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "Parent": "The Boeing Company (USA); Defense, Space & Security",
+    "IAF_C17": "11 C-17 Globemaster III (delivered 2013-2019; India is the largest C-17 operator outside the USA)",
+    "Apache_AH64E": "22 in IAF service; 6 for the Indian Army (first 3 delivered July 2025, remaining 3 December 2025)",
+    "CH47F_Chinook": "15 in Indian Air Force service",
+    "P8I": "12 Boeing P-8I maritime patrol aircraft with the Indian Navy (12th delivered Feb 2022)",
+    "India_JV": "Tata Boeing Aerospace Limited (TBAL), Hyderabad — builds AH-64 Apache fuselages (global) ",
+    "Supply_chain": "300+ Indian suppliers; structures from Dynamatic Technologies, Tata and others",
+    "India_status": "Four Boeing platforms in active Indian service across IAF, Army and Navy"
+  },
+  "what_it_is": {
+    "prose": "Boeing Defense, Space & Security is the defence arm of The Boeing Company. It has the broadest in-service Indian footprint of any foreign military-aerospace OEM, spanning four major platforms across three services. The Indian Air Force operates 11 C-17 Globemaster III strategic airlifters (delivered 2013-2019, with the 11th on 26 August 2019 — India is the largest C-17 operator outside the United States), 22 AH-64E Apache attack helicopters, and 15 CH-47F Chinook heavy-lift helicopters. The Indian Army has a separate order of 6 AH-64E Apaches, of which the first three were delivered in July 2025 and the remaining three in December 2025. The Indian Navy operates 12 Boeing P-8I maritime patrol aircraft (Atlas slug boeing-p-8i-neptune-india-mae-004), India being Boeing's first international P-8 customer, with the 12th delivered in February 2022. On the industrial side, Tata Boeing Aerospace Limited (TBAL) — a Boeing-Tata Advanced Systems joint venture in Hyderabad — manufactures AH-64 Apache fuselages for Boeing's global production, delivering the first Indian-built fuselage in 2023, and Boeing sources structures and components from Indian firms including Dynamatic Technologies and Tata, drawing on a supplier base of 300-plus companies. Boeing retains platform design authority, avionics and engines in the USA; India's role is operation of the fleets and aerostructure/component manufacture. This dossier does not infer an indigenous-content percentage for US-controlled platform IP.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-5"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Boeing's India footprint is defined by four in-service platforms (C-17, AH-64E, CH-47F, P-8I) across the IAF, Army and Navy, plus the TBAL Apache-fuselage JV in Hyderabad and a broad Indian supply chain. The most recent deliveries were the Indian Army's first AH-64E Apaches (three in July 2025, three in December 2025).",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "C-17 Globemaster III strategic airlift fleet",
+        "year": "2013-2019",
+        "quantity_or_note": "11 aircraft; 11th delivered 26 Aug 2019; India the largest C-17 operator outside the USA",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "AH-64E Apache attack helicopters",
+        "year": "2019-2020",
+        "quantity_or_note": "22 aircraft in IAF service",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "AH-64E Apache attack helicopters (separate order)",
+        "year": 2025,
+        "quantity_or_note": "6 aircraft; first 3 delivered July 2025, remaining 3 December 2025",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "CH-47F Chinook heavy-lift helicopters",
+        "year": "2019-2020",
+        "quantity_or_note": "15 aircraft in service",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "P-8I Neptune maritime patrol aircraft",
+        "year": "2013-2022",
+        "quantity_or_note": "12 aircraft; 12th delivered Feb 2022; India Boeing's first international P-8 customer",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "agency": "Tata Boeing Aerospace Limited (Hyderabad)",
+        "context": "AH-64 Apache fuselages for Boeing global production",
+        "year": 2023,
+        "quantity_or_note": "First Indian-built Apache fuselage delivered 2023",
+        "sources": [
+          "src-5"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Boeing's annual India sourcing value and exact current supplier count are cited variously and not fixed in a single primary source this session",
+      "Whether India will order additional P-8I or a follow-on C-17-class airlifter remains open",
+      "Longer-term local content trajectory for the Apache line at TBAL not quantified in a primary source"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "All four Boeing platforms are US-designed and built; India operates the fleets and, via TBAL and suppliers, manufactures aerostructures and components. Platform IP, avionics, mission systems and engines remain US-controlled.",
+    "items": [
+      {
+        "component": "C-17 / AH-64 / CH-47 / P-8I platform design & type certificate",
+        "severity": "High",
+        "note": "Boeing (USA) — India operates; TBAL/suppliers build structures to Boeing drawings",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Engines (P&W F117, GE T700, Honeywell T55, CFM56)",
+        "severity": "High",
+        "note": "US — not in Indian scope",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Avionics, radar & mission systems",
+        "severity": "High",
+        "note": "Boeing / US suppliers — supplied within the US programme",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership (India)",
+        "value": 0,
+        "note": "Boeing (USA) — fully imported platform designs",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership (India)",
+        "value": 3,
+        "note": "TBAL Hyderabad builds Apache fuselages; Dynamatic/Tata structures — component tier, not platform assembly in India",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "Engines, avionics, mission systems US-controlled",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / in-service fleet (India)",
+        "value": 5,
+        "note": "Widest foreign in-service fleet: 11 C-17, 28 AH-64E, 15 CH-47F, 12 P-8I",
+        "sources": [
+          "src-1",
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture (from India)",
+        "value": 3,
+        "note": "TBAL exports Apache fuselages into Boeing's global chain; component-tier export",
+        "sources": [
+          "src-5"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "c17",
+      "ah64"
+    ],
+    "peer_systems": [
+      "c130j",
+      "c295"
+    ],
+    "related_components": [
+      "tasl",
+      "dynamatic"
+    ],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "boeing-p-8i-neptune-india-mae-004"
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2013",
+      "event": "First C-17 and P-8I inducted into Indian service",
+      "sources": [
+        "src-3",
+        "src-4"
+      ]
+    },
+    {
+      "date": "2019-08-26",
+      "event": "11th and final C-17 delivered to the IAF",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2022-02",
+      "event": "12th P-8I delivered to the Indian Navy",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2023-01",
+      "event": "Tata Boeing Aerospace (Hyderabad) delivers first India-built AH-64 Apache fuselage",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2025-07",
+      "event": "First 3 of 6 AH-64E Apaches delivered to the Indian Army",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2025-12",
+      "event": "Remaining 3 AH-64E Apaches delivered to the Indian Army",
+      "sources": [
+        "src-6"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Which Boeing platforms are in Indian service?",
+      "answer": "Four across three services: the Indian Air Force operates 11 C-17 Globemaster III airlifters, 22 AH-64E Apache attack helicopters and 15 CH-47F Chinook heavy-lift helicopters; the Indian Army has 6 more AH-64E Apaches (delivered in 2025); and the Indian Navy operates 12 P-8I maritime patrol aircraft. This is the widest in-service Indian fleet of any foreign military-aerospace OEM.",
+      "sources": [
+        "src-1",
+        "src-3",
+        "src-4"
+      ]
+    },
+    {
+      "question": "What does Boeing build in India?",
+      "answer": "Tata Boeing Aerospace Limited (TBAL), a Boeing-Tata Advanced Systems joint venture in Hyderabad, manufactures AH-64 Apache fuselages for Boeing's worldwide Apache production, having delivered the first India-built fuselage in 2023. Boeing also sources structures and components from Indian firms such as Dynamatic Technologies and Tata, drawing on a supplier base of over 300 companies. Platform design, engines and avionics remain US-controlled.",
+      "sources": [
+        "src-5",
+        "src-1"
+      ]
+    },
+    {
+      "question": "When did the Indian Army receive its Apaches?",
+      "answer": "The Indian Army's 6 AH-64E Apaches — a separate order from the IAF's 22 — began arriving in 2025: the first three were delivered in July 2025 and the remaining three in December 2025, standing up the Army's first Apache squadron. The delivery had been delayed from an earlier schedule.",
+      "sources": [
+        "src-2",
+        "src-6"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Boeing's annual India sourcing value and exact supplier count are cited variously and not fixed in one primary source this session",
+    "Whether India will order additional P-8I or a follow-on strategic airlifter remains open",
+    "Local-content trajectory for the TBAL Apache line not quantified in a primary source"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Boeing appoints Alay Parikh to lead business development for Boeing Defense and Space in India",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2025/alay-parikh-to-lead-business-development-for-boeing-defense-and-",
+      "published_date": "2025-07-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Boeing states India operates 22 AH-64, 15 CH-47 and 12 P-8I; 6 additional AH-64 for the Army on order."
+    },
+    {
+      "id": "src-2",
+      "title": "Boeing Hands First Apache Helicopters to Indian Army",
+      "publisher": "The Defense Post",
+      "url": "https://thedefensepost.com/2025/07/23/india-apache-helicopters-boeing/",
+      "published_date": "2025-07-23",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Boeing delivered first 3 of 6 AH-64E to the Indian Army July 2025; IAF already operates 22 AH-64E."
+    },
+    {
+      "id": "src-3",
+      "title": "Boeing delivers 11th C-17 Globemaster III to the Indian Air Force",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2019/boeing-delivers-11th-c-17-globemaster-iii-to-the-indian-air-force",
+      "published_date": "2019-08-26",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "11th and final C-17 delivered 26 Aug 2019; India the largest C-17 operator outside the USA; inducted from 2013."
+    },
+    {
+      "id": "src-4",
+      "title": "Indian Navy expands fleet with delivery of 12th P-8I",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2022/indian-navy-expands-fleet-with-delivery-of-12th-p-8i",
+      "published_date": "2022-02-24",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "12 P-8I delivered to the Indian Navy; India Boeing's first international P-8 customer."
+    },
+    {
+      "id": "src-5",
+      "title": "The Tata-Boeing JV delivers first Apache fuselage for army",
+      "publisher": "Broadsword (Ajai Shukla)",
+      "url": "https://www.ajaishukla.com/2023/01/the-tata-boeing-jv-delivers-first.html",
+      "published_date": "2023-01",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Tata Boeing Aerospace Ltd (TBAL) Hyderabad delivers first India-built AH-64 Apache fuselage."
+    },
+    {
+      "id": "src-6",
+      "title": "Indian Army receives three AH-64E Apache helicopters from Boeing",
+      "publisher": "News on AIR (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/indian-army-receives-three-ah-64e-apache-helicopters-from-boeing/",
+      "published_date": "2025-12-17",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Indian Army receives the remaining 3 AH-64E Apaches from Boeing, completing the 6-aircraft order."
+    }
+  ],
+  "seo": {
+    "title": "Boeing Defense, Space & Security — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "US defence prime with the widest foreign in-service India fleet — C-17, AH-64E, CH-47F and P-8I — plus the Tata Boeing Aerospace JV building Apache fuselages in Hyderabad.",
+    "canonical_path": "/research/military-aerospace/company/boeing/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/c17/",
+      "/research/military-aerospace/platform/ah64/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

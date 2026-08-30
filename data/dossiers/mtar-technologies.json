@@ -1,0 +1,74 @@
+{
+  "entity_id": "mtar-technologies",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "mtar-technologies",
+  "name": "MTAR Technologies",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/company/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "MTAR Technologies dossier placeholder with initial sources.",
+    "chips": [
+      "B",
+      "India-relevant"
+    ],
+    "maker": "MTAR Technologies",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Name": "MTAR Technologies",
+    "Type": "company",
+    "Evidence": "Initial sources captured; India relevance may need deepening."
+  },
+  "what_it_is": {
+    "prose": "MTAR Technologies is an Indian precision-engineering firm supplying critical assemblies for space and defence.",
+    "sources": [
+      "src-mtar-1"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-mtar-1",
+      "title": "MTAR Technologies website",
+      "publisher": "MTAR Technologies",
+      "url": "https://www.mtar technologies.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Company overview."
+    }
+  ],
+  "seo": {
+    "title": "MTAR Technologies — Company · India Space Atlas | Techadyant",
+    "meta_description": "MTAR Technologies company/entity in the India Space Atlas.",
+    "canonical_path": "/research/space/company/mtar-technologies/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

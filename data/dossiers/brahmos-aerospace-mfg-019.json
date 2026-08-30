@@ -1,0 +1,455 @@
+{
+  "entity_id": "mfg-019",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "brahmos-aerospace-mfg-019",
+  "name": "BrahMos Aerospace Private Limited",
+  "variant": "JV: DRDO (India, 50.5%) + NPO Mashinostroyenia (NPOM, Russia, 49.5%)",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India-Russia JV making the BrahMos supersonic cruise missile (Mach 2.8-3, 290 km basic, 800 km ER); exports to Philippines ($375M, 2022) and Indonesia (~$450M, 2026); BrahMos-ER 800 km trials 2026; BrahMos-II hypersonic reportedly paused.",
+    "chips": [
+      "JV",
+      "India-Russia",
+      "Cruise missiles",
+      "BrahMos",
+      "BrahMos-ER",
+      "Export",
+      "Philippines",
+      "Indonesia"
+    ],
+    "maker": "JV — DRDO (India, 50.5%) + NPO Mashinostroyenia (NPOM, Russia, 49.5%)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "BrahMos Aerospace Private Limited",
+    "Ownership": "JV — DRDO (India, 50.5%) + NPO Mashinostroyenia (NPOM, Russia, 49.5%)",
+    "HQ": "16 Cariappa Marg, Kirby Place, New Delhi - 110010, India",
+    "Order_book": "Not publicly disclosed (private JV)",
+    "Revenue_FY26": "Not publicly disclosed (no annual report URL found)",
+    "Authorised_capital": "USD 300 million",
+    "Major_contracts": "₹4,000+ cr BrahMos-ER land order (Apr 2024, 2 regiments); ₹1,700 cr Navy ship-launched (2023); ₹2,500 cr air-launched upgrade (2024)",
+    "Exports": "Philippines $375M (Jan 2022); Indonesia ~$450M (Jul 2026); Vietnam reportedly near finalisation",
+    "BrahMos_basic_range": "290 km, Mach 2.8-3",
+    "BrahMos_ER_range": "800 km (post-MTCR 2016)",
+    "BrahMos_NG": "Smaller, lighter, 290-450 km range — delayed 2025-26",
+    "BrahMos_II_hypersonic": "Mach 7-8, 1,500 km — reportedly paused May 2026"
+  },
+  "what_it_is": {
+    "prose": "BrahMos Aerospace Private Limited (BAPL) is an India-Russia joint venture formed in 1998 by DRDO (India, 50.5%) and NPO Mashinostroyenia (NPOM, Russia, 49.5%) with an authorised capital of USD 300 million. Headquartered at 16 Cariappa Marg, Kirby Place, New Delhi, BrahMos Aerospace manufactures the BrahMos supersonic cruise missile — named after the Brahmaputra and Moskva rivers — across land, ship, air, and submarine-launched variants. The basic BrahMos has a 290 km range and flies at Mach 2.8-3, derived from the Russian P-800 Oniks/Yakhont. The Extended Range (ER) variant, enabled by India's accession to the Missile Technology Control Regime (MTCR) in 2016, achieves 800 km range and is in multi-phase trials through 2026 with induction expected within 2-3 years per Defence.in. The BrahMos-NG (Next Generation) is a smaller, lighter variant targeting 290-450 km range but has reportedly been delayed in 2025-26. The BrahMos-II hypersonic variant (Mach 7-8, 1,500 km range) was reportedly paused in May 2026 per The Eurasian Times, though BrahMos.com still lists it as a 'conceptualised hypersonic weapon of the future'. BAPL is not a separately listed entity and does not publish an annual report URL; revenue and order book are not publicly disclosed. Major disclosed contracts include a ₹4,000+ crore land-based BrahMos-ER order for the Indian Army in April 2024 (for 2 regiments with 800 km range), a ₹1,700 crore Indian Navy order for ship-launched BrahMos in 2023, and a ₹2,500 crore air-launched BrahMos upgrade in 2024. BrahMos has achieved major export success: Philippines signed a $375 million contract on 28 January 2022 for the Shore-Based Anti-Ship Missile System (deliveries 2024-25, 3 batteries complete); Indonesia reached agreement in July 2026 for ~$450 million (with Astra BVRAAM package); Vietnam is reportedly near finalisation. Cumulative BrahMos orders across all variants and customers are estimated at >₹30,000 crore.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7",
+      "src-8",
+      "src-9",
+      "src-10",
+      "src-11"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "BrahMos is in operational service across all three Indian services — Indian Army (land-launched regiments), Indian Navy (ship and submarine launched), and IAF (air-launched from Su-30MKI). Cumulative Indian orders are estimated at >₹30,000 crore. Major disclosed contracts include ₹4,000+ crore BrahMos-ER land order (April 2024, 2 regiments), ₹1,700 crore Navy ship-launched (2023), and ₹2,500 crore air-launched upgrade (2024). Export success includes Philippines $375M (January 2022, deliveries 2024-25), Indonesia ~$450M (July 2026), and Vietnam reportedly near finalisation.",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "BrahMos-ER land order — 2 regiments, 800 km range",
+        "year": 2024,
+        "quantity_or_note": "₹4,000+ crore (April 2024)",
+        "sources": [
+          "src-10"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Ship-launched BrahMos order",
+        "year": 2023,
+        "quantity_or_note": "₹1,700 crore",
+        "sources": []
+      },
+      {
+        "agency": "Indian Air Force (Su-30MKI)",
+        "context": "Air-launched BrahMos upgrade",
+        "year": 2024,
+        "quantity_or_note": "₹2,500 crore",
+        "sources": []
+      },
+      {
+        "agency": "Republic of Philippines DND",
+        "context": "Shore-Based Anti-Ship Missile System export",
+        "year": 2022,
+        "quantity_or_note": "$375 million (signed 28 January 2022); deliveries 2024-25 (3 batteries complete)",
+        "sources": [
+          "src-3",
+          "src-4",
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Indonesian Armed Forces",
+        "context": "BrahMos + Astra BVRAAM package",
+        "year": 2026,
+        "quantity_or_note": "~$450 million (agreement July 2026); deliveries expected 2027+",
+        "sources": [
+          "src-6"
+        ]
+      },
+      {
+        "agency": "Vietnam People's Army",
+        "context": "BrahMos export reportedly near finalisation",
+        "year": 2026,
+        "quantity_or_note": "Not confirmed by BrahMos or MoD",
+        "sources": []
+      }
+    ],
+    "open_questions": [
+      "BrahMos revenue/profit: not disclosed (private JV). Atlas should mark 'n/a — private JV, no public annual report URL'",
+      "BrahMos-II status: official sources (BrahMos.com) still list as 'conceptualised hypersonic weapon of the future'; EIT May 2026 reports 'pause' — contradictory",
+      "Vietnam deal: widely reported as 'near finalisation' but no BrahMos or MoD confirmation yet",
+      "Exact BrahMos-NG first-flight / induction timeline: not officially disclosed by BAPL"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
+    "items": [
+      {
+        "component": "Ramjet engine / propulsion (BrahMos basic & ER)",
+        "severity": "Critical",
+        "note": "Russia (NPOM) — based on P-800 Oniks/Yakhont",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-8"
+        ]
+      },
+      {
+        "component": "Airframe & seeker components",
+        "severity": "High",
+        "note": "Russia",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-8"
+        ]
+      },
+      {
+        "component": "Launch platform integration (Su-30MKI hardpoints, ship VLS, submarine torpedo tubes)",
+        "severity": "Low",
+        "note": "India (HAL, MDL, BEL)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Mission computer, INS, fire control",
+        "severity": "Medium",
+        "note": "India (DRDO) + Russia",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Seeker (RF) for BrahMos-NG",
+        "severity": "Medium",
+        "note": "DRDO-developed indigenous seeker being phased in for NG variant",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 3,
+        "note": "JV: DRDO 50.5% + NPOM 49.5%; propulsion/airframe Russian, mission software Indian",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Hyderabad Integration Complex; assembly at BDL Bhilai (planned) and Pilani",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "Ramjet engine and airframe are Russian; seeker partly indigenous for NG",
+        "sources": [
+          "src-8"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "Cumulative orders >₹30,000 cr; export $825M+ (Philippines + Indonesia)",
+        "sources": [
+          "src-3",
+          "src-6"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 5,
+        "note": "First Indian strategic missile export (Philippines $375M); Indonesia ~$450M; Vietnam in pipeline; Reuters reported $5B export ambition by 2025",
+        "sources": [
+          "src-3",
+          "src-6",
+          "src-7"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "BrahMos revenue/profit: not disclosed (private JV). Atlas should mark 'n/a — private JV, no public annual report URL'",
+    "BrahMos-II status: official sources (BrahMos.com) still list as 'conceptualised hypersonic weapon of the future'; EIT May 2026 reports 'pause' — contradictory",
+    "Vietnam deal: widely reported as 'near finalisation' but no BrahMos or MoD confirmation yet",
+    "Exact BrahMos-NG first-flight / induction timeline: not officially disclosed by BAPL"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "BrahMos Aerospace — Home",
+      "publisher": "BrahMos Aerospace",
+      "url": "https://www.brahmos.com",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — BrahMos corporate homepage; specific press release or programme page preferred"
+    },
+    {
+      "id": "src-2",
+      "title": "About JV — BrahMos Aerospace",
+      "publisher": "BrahMos Aerospace",
+      "url": "https://www.brahmos.com/about-jv",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — BrahMos JV about page; specific contract press release preferred"
+    },
+    {
+      "id": "src-3",
+      "title": "BrahMos signs contract with Philippines for export of Shore Based Anti-Ship Missile System",
+      "publisher": "BrahMos Aerospace",
+      "url": "https://www.brahmos.com/press-release/227",
+      "published_date": "2022-01-28",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Philippines $375M export contract"
+    },
+    {
+      "id": "src-4",
+      "title": "Philippines inks deal worth $375 million for BrahMos missiles",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/philippines-inks-deal-worth-375-million-for-brahmos-missiles/article38338340.ece",
+      "published_date": "2022-01-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Confirms Philippines $375M"
+    },
+    {
+      "id": "src-5",
+      "title": "India delivers first batch of BrahMos missile system to Philippines",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/india-delivers-first-batch-of-brahmos-missile-system-to-philippines/articleshow/109430617.cms",
+      "published_date": "2024-04-19",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "First batch delivered April 2024"
+    },
+    {
+      "id": "src-6",
+      "title": "Indonesia to buy BrahMos missiles, Indian govt official says",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/china/indonesia-buy-brahmos-missiles-indian-govt-official-says-2026-07-07",
+      "published_date": "2026-07-07",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Indonesia ~$450M deal"
+    },
+    {
+      "id": "src-7",
+      "title": "India-Russia joint venture hopes for $5 bln in supersonic missile exports by 2025",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/aerospace-defense/india-russia-joint-venture-hopes-5-bln-supersonic-missile-exports-by-2025-2022-10-18",
+      "published_date": "2022-10-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "BrahMos export ambitions"
+    },
+    {
+      "id": "src-8",
+      "title": "BrahMos Aerospace",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BrahMos_Aerospace",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Aggregates credible sources"
+    },
+    {
+      "id": "src-9",
+      "title": "BrahMos-II",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BrahMos-II",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "BrahMos-II hypersonic variant"
+    },
+    {
+      "id": "src-10",
+      "title": "After Successful 2025 Test, 800km-Range BrahMos-LR Now Enters A Multi-Phase Trial Schedule for 2026",
+      "publisher": "Defence.in",
+      "url": "https://defence.in/threads/after-successful-2025-test-800km-range-brahmos-lr-now-enters-a-multi-phase-trial-schedule-for-2026-induction-expected-within-next-2-3-years.14566",
+      "published_date": "2025-06-18",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "BrahMos-ER 800km trials 2026"
+    },
+    {
+      "id": "src-11",
+      "title": "India Pauses BrahMos-2 Missile Program?",
+      "publisher": "The Eurasian Times",
+      "url": "https://www.eurasiantimes.com/india-pauses-brahmos-2-missile-program",
+      "published_date": "2026-05-05",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "BrahMos-II pause report"
+    }
+  ],
+  "seo": {
+    "title": "BrahMos Aerospace Private Limited — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "India-Russia JV making the BrahMos supersonic cruise missile (Mach 2.8-3, 290 km basic, 800 km ER); exports to Philippines ($375M, 2022) and Indonesia (~$450M, ",
+    "canonical_path": "/research/counter-uas/manufacturer/brahmos-aerospace-mfg-019/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Who owns BrahMos Aerospace?",
+      "answer": "BrahMos Aerospace Private Limited (BAPL) is a 50.5% / 49.5% joint venture between India's Defence Research and Development Organisation (DRDO) and Russia's NPO Mashinostroyenia (NPOM), formed in 1998 with an authorised capital of USD 300 million. The JV is named after the Brahmaputra (India) and Moskva (Russia) rivers. DRDO provides the inertial navigation, mission software, and mobile launchers; NPOM provides the airframe, propulsion (ramjet based on the P-800 Oniks/Yakhont), and seeker lineage.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "What is the BrahMos-ER 800 km variant?",
+      "answer": "The BrahMos-ER (Extended Range) achieves 800 km range, enabled by India's accession to the Missile Technology Control Regime (MTCR) in 2016 which removed the 300 km range cap on Indian exports. The Indian Army placed a ₹4,000+ crore order in April 2024 for two BrahMos-ER regiments. After a successful 2025 test, the BrahMos-LR (Long Range) entered a multi-phase trial schedule for 2026 with induction expected within 2-3 years per Defence.in.",
+      "sources": [
+        "src-10"
+      ]
+    },
+    {
+      "question": "Has BrahMos been exported?",
+      "answer": "Yes. The Philippines signed a $375 million contract on 28 January 2022 for the Shore-Based Anti-Ship Missile System — the first export of an Indian strategic missile. Deliveries began in April 2024 and 3 batteries have been delivered. Indonesia reached agreement in July 2026 for approximately $450 million (with an Astra BVRAAM package). Vietnam is reportedly near finalisation. Reuters reported in October 2022 that BAPL hoped for $5 billion in cumulative supersonic missile exports by 2025.",
+      "sources": [
+        "src-3",
+        "src-5",
+        "src-6",
+        "src-7"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1998",
+      "event": "BrahMos Aerospace JV formed (DRDO 50.5% + NPOM 49.5%)",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2006",
+      "event": "Basic BrahMos (290 km, Mach 2.8-3) enters operational service with Indian Army",
+      "sources": [
+        "src-8"
+      ]
+    },
+    {
+      "date": "2016",
+      "event": "India accedes to MTCR, enabling BrahMos-ER 800 km variant",
+      "sources": [
+        "src-10"
+      ]
+    },
+    {
+      "date": "2022-01-28",
+      "event": "Philippines signs $375M contract for Shore-Based Anti-Ship Missile System — first export",
+      "sources": [
+        "src-3",
+        "src-4"
+      ]
+    },
+    {
+      "date": "2024-04",
+      "event": "India delivers first batch of BrahMos missile system to Philippines",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2024-04",
+      "event": "Indian Army places ₹4,000+ cr BrahMos-ER order for 2 regiments",
+      "sources": [
+        "src-10"
+      ]
+    },
+    {
+      "date": "2026-05",
+      "event": "BrahMos-II hypersonic programme reportedly paused (Eurasian Times)",
+      "sources": [
+        "src-11"
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "event": "Indonesia reaches agreement for ~$450M BrahMos + Astra package",
+      "sources": [
+        "src-6"
+      ]
+    }
+  ]
+}

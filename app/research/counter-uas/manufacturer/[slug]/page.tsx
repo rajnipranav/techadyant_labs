@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { companyDossierMetadata, renderCompanyDossierPage } from '../../../../_companyDossierPage';
 import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { manufacturers, mfrBySlug, systemsForMfr } from '../../data';
@@ -8,6 +9,8 @@ export const dynamicParams = false;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  const dossierMetadata = companyDossierMetadata(slug, 'counter-uas');
+  if (dossierMetadata) return dossierMetadata;
   const m = mfrBySlug(slug);
   if (!m) return { title: 'Counter-UAS maker — Atlas' };
   return {
@@ -19,6 +22,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function MfrPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const dossierPage = renderCompanyDossierPage(slug, 'counter-uas');
+  if (dossierPage) return dossierPage;
   const m = mfrBySlug(slug);
   if (!m) return <><AtlasNav /><section className="wrap"><p>Manufacturer not found.</p></section></>;
   const sys = systemsForMfr(m.name);
@@ -66,3 +71,7 @@ export default async function MfrPage({ params }: { params: Promise<{ slug: stri
     </>
   );
 }
+
+
+
+

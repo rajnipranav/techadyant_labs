@@ -1,0 +1,437 @@
+{
+  "entity_id": "atl-cmp-digantara",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "digantara",
+  "name": "Digantara (Digantara Industries Pvt Ltd)",
+  "variant": null,
+  "vertical": "space",
+  "parent_hub_path": "/research/space/digantara/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Digantara is a Bengaluru-based spacetech startup founded in 2018, specialising in space situational awareness (SSA), space surveillance and intelligence. Made history on 14 January 2025 with the launc",
+    "chips": [
+      "space",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India",
+    "Type": "Company (listed)",
+    "Founded": "2018",
+    "India entity": null,
+    "Listed": "Not listed — private startup; total funding $66.5M (per Tracxn Aug 2026); latest $50M Series B Dec 2025 led by Reliance Business Ventures",
+    "Key India role": "Digantara is a Bengaluru-based spacetech startup founded in 2018, specialising in space situational awareness (SSA), space surveillance and intelligence. Made history on 14 January 2025 with the launc"
+  },
+  "what_it_is": {
+    "prose": "Digantara is a Bengaluru-based spacetech startup founded in 2018, specialising in space situational awareness (SSA), space surveillance and intelligence. Made history on 14 January 2025 with the launch of SCOT (Space Camera for Object Tracking) — India's first homegrown space surveillance satellite — aboard SpaceX Falcon 9 Transporter-12. SCOT commissioned as world's first commercial space surveillance satellite on 8 March 2025 (began ops capturing images over South America). Raised $50M Series B (Dec 2025) led by Reliance Business Ventures — total funding ~$66.5M. Plans to expand from space surveillance into space-based missile defense (prototype missile-tracking satellite in 18 months). Partnered with Singapore's DSTA for SSA co-development (Feb 2026). Plans 8 CubeSats in first phase of LEO constellation. Selected by World Economic Forum.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "SCOT (Space Camera for Object Tracking): India's first homegrown space surveillance satellite",
+        "role": "OEM",
+        "india_status": "launched 14 Jan 2025 aboard SpaceX Transporter-12; commissioned 8 March 2025 as world's first commercial space surveillance satellite",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Space-Based Missile Defense Prototype: planned prototype missile-tracking satellite to launch Q3-Q4 2027 (18-month development)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Space Situational Awareness (SSA) analytics platform",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Planned 8-CubeSat LEO constellation (first phase) for resident space object tracking",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "8 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "SCOT satellite launched 14 January 2025 aboard SpaceX Falcon 9 Transporter-12 — India's 1st homegrown space surveillance mission",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "SCOT commissioned 8 March 2025 — world's first commercial space surveillance satellite (captured images over South America)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "$50M Series B funding (Dec 2025) led by Reliance Business Ventures — total raised ~$66.5M",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "DSTA (Singapore Defence Science and Technology Agency) partnership for SSA co-development (Feb 2026)",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "WEF (World Economic Forum) selected Digantara",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "ispace–Digantara partnership on cislunar SSA",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Future: prototype missile-tracking satellite over 18 months — launch Q3/Q4 2027",
+        "year": "2027",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Investors: Kalaari Capital, SIDBI Venture Capital, SBI Investment, Reliance Business Ventures",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "14 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "Medium",
+        "note": "1 official, 10 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is Digantara's landmark satellite launch?",
+      "answer": "SCOT (Space Camera for Object Tracking) — launched 14 Jan 2025 on SpaceX Transporter-12; commissioned 8 March 2025 as world's first commercial space surveillance satellite",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "How much did Digantara raise in its Series B round?",
+      "answer": "$50 million in Dec 2025 (₹435 crore) led by Reliance Business Ventures — total funding ~$66.5M",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is Digantara's expansion beyond SSA?",
+      "answer": "Space-based missile defense — prototype missile-tracking satellite planned over 18 months, launch in Q3/Q4 2027",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Digantara — space surveillance and intelligence company delivering advanced detection, tracking and analytics for defence capabilities",
+      "publisher": "Digantara Official",
+      "url": "https://www.digantara.co.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "SCOT satellite launched 14 January; began operations capturing images over South America; commissioned as world's first commercial space surveillance satellite",
+      "publisher": "Economic Times",
+      "url": "https://m.economictimes.com/news/science/digantara-commissions-worlds-first-commercial-space-surveillance-satellite/articleshow/118805497.cms",
+      "published_date": "2025-03-08",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Digantara launched SCOT (Space Camera for Object Tracking) — inaugural mission dedicated to space; via SpaceX Transporter-12",
+      "publisher": "SatNews",
+      "url": "https://satnews.com/2025/01/14/digantara-launches-indias-1st-homegrown-space-surveillance-mission-via-spacexs-transporter-12",
+      "published_date": "2025-01-14",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Digantara Industries raised $50M to develop indigenous space surveillance capability",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/india/indias-digantara-raises-50-million-boost-space-surveillance-push-2025-12-16",
+      "published_date": "2025-12-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "Digantara raised $50M as it moves beyond space situational awareness to space-based missile defense tech",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/16/indias-digantara-raises-50m-for-space-based-missile-defence-tech",
+      "published_date": "2025-12-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Digantara plans prototype missile-tracking satellite over next 18 months, launch Q3/Q4",
+      "publisher": "SpaceNews",
+      "url": "https://spacenews.com/digantara-raises-50-million-to-expand-from-space-surveillance-to-missile-defense",
+      "published_date": "2025-12-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Indian space surveillance startup Digantara raised $50M to expand beyond SSA to missile defense",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/india-digantara-raises-50m-space-144411892.html",
+      "published_date": "2025-12-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Spacetech startup Digantara raises $50M (₹435 crore) to boost space surveillance push",
+      "publisher": "Economic Times",
+      "url": "https://m.economictimes.com/tech/startups/spacetech-startup-digantara-raises-50-million-to-boost-space-surveillance-push/articleshow/126003178.cms",
+      "published_date": "2025-12-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Singapore DSTA partners India's Digantara on Space Situational Awareness",
+      "publisher": "Space and Defense",
+      "url": "https://spaceanddefense.io/singapores-dsta-and-indias-digantara-partner-on-space-situational-awareness",
+      "published_date": "2026-02-03",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "DSTA and Digantara partner to advance in space situational awareness",
+      "publisher": "Digantara Official",
+      "url": "https://www.digantara.co.in/newsroom/dsta-partnership-pr",
+      "published_date": "2026-02-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "Digantara constellation for area SSA tracking resident space objects; India's Digantara raises $50M for space-based capabilities; first launch 2023; first phase 8 CubeSats",
+      "publisher": "NewSpace IM",
+      "url": "https://www.newspace.im/constellations/digantara",
+      "published_date": "2026-01-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "Digantara SCOT payload onboard ORB-6 satellite platform",
+      "publisher": "NanoSats EU",
+      "url": "https://www.nanosats.eu/sat/orbastro-digantara.html",
+      "published_date": "2025-01-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "Digantara raised $66.5M from Kalaari Capital, SIDBI Venture Capital, SBI Investment",
+      "publisher": "Tracxn",
+      "url": "https://tracxn.com/d/companies/digantara/__zdxzEEccD6a6EhNeF5J_l5RIX243dpNX4FM6Qky5lNA",
+      "published_date": "2026-08-10",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-14",
+      "title": "Digantara raised $64.5M total capital across 4 funding rounds; latest $49M Series B",
+      "publisher": "Startup Intros",
+      "url": "https://startupintros.com/orgs/digantara",
+      "published_date": "2026-07-13",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Digantara (Digantara Industries Pvt Ltd) — Company · India Space Atlas | Techadyant",
+    "meta_description": "Digantara (Digantara Industries Pvt Ltd) company dossier: India space role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/space/digantara/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/digantara/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

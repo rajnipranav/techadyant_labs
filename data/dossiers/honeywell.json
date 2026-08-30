@@ -1,0 +1,143 @@
+{
+  "entity_id": "honeywell",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "honeywell",
+  "name": "Honeywell Aerospace",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "US aerospace propulsion/avionics/APU OEM (division of Honeywell International) supplying the TPE331-12B turboprop that powers HAL's HTT-40 basic trainer — first engines delivered June 2026 — plus APUs and avionics across platforms in Indian service.",
+    "chips": [
+      "Tier B",
+      "USA",
+      "TPE331-12B",
+      "HTT-40",
+      "APU",
+      "Avionics",
+      "Honeywell India"
+    ],
+    "maker": "Division of Honeywell International Inc. (NASDAQ: HON)",
+    "country": "United States",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign OEM — India footprint via HTT-40 engine supply and Honeywell India operations",
+    "mobility_or_class": "Aerospace propulsion & avionics OEM (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Honeywell International Inc. (Aerospace segment)",
+    "Ownership": "Public (NASDAQ: HON)",
+    "HQ": "Phoenix, Arizona (Aerospace) / Charlotte, NC (corporate)",
+    "HTT_40_engine": "TPE331-12B turboprop selected for HAL HTT-40 basic trainer; first engines delivered June 2026",
+    "Product_lines": "TPE331/TFE731 engines, auxiliary power units (APUs), avionics, environmental control systems",
+    "India_ops": "Honeywell India / Honeywell Technology Solutions (Bengaluru, Hyderabad, Madurai) — engineering and manufacturing",
+    "Order_book_India": "Not separately disclosed"
+  },
+  "what_it_is": {
+    "prose": "Honeywell Aerospace, the aerospace segment of Honeywell International Inc. (NASDAQ: HON), is a US OEM of aircraft engines, auxiliary power units (APUs), avionics and environmental-control systems. Its most concrete India military-aerospace link is the TPE331-12B turboprop, selected to power Hindustan Aeronautics Limited's HTT-40 basic trainer; Honeywell delivered the first TPE331-12B engines for the HTT-40 in June 2026, an important supply milestone for a flagship Make-in-India trainer programme. Honeywell's TPE331/TFE731 engine families, APUs and avionics also appear across a range of fixed- and rotary-wing platforms in Indian service. Honeywell maintains substantial India operations through Honeywell Technology Solutions and manufacturing/engineering sites in Bengaluru, Hyderabad and Madurai, though India-specific defence order values are not separately disclosed.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Honeywell's headline India military-aerospace programme is the TPE331-12B turboprop for HAL's HTT-40 basic trainer, with the first engines delivered in June 2026. Honeywell APUs and avionics feature on other platforms in Indian service; discrete India defence order values are not publicly disclosed.",
+    "rows": [
+      {
+        "agency": "HAL / Indian Air Force (HTT-40)",
+        "context": "TPE331-12B turboprop engine for the HTT-40 basic trainer",
+        "year": 2026,
+        "quantity_or_note": "First engines delivered June 2026",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Total TPE331-12B order quantity and value for the HTT-40 programme not publicly confirmed",
+      "Extent of India-side localisation/assembly of the TPE331 not disclosed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Honeywell is a foreign propulsion/avionics supplier; the HTT-40's TPE331-12B powerplant is a US-origin import, a documented dependency for that indigenous trainer.",
+    "items": [
+      {
+        "component": "TPE331-12B turboprop engine (HTT-40)",
+        "severity": "High",
+        "note": "US-origin engine powering an otherwise Make-in-India trainer",
+        "sources": [
+          "src-1",
+          "src-3"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "htt40"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Honeywell Delivers First TPE331-12B Engine for Hindustan Aeronautics Limited HTT-40 Trainer Aircraft",
+      "publisher": "Honeywell Aerospace (official)",
+      "url": "https://www.honeywellaerospace.com/us/en/company/newsroom/2026/06/honeywell-delivers-first-tpe331-12b-engine-for-hindustan-aeronautics",
+      "published_date": "2026-06",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "First TPE331-12B engines delivered for HAL HTT-40"
+    },
+    {
+      "id": "src-2",
+      "title": "Honeywell delivers first three engines for India's HTT-40",
+      "publisher": "FlightGlobal",
+      "url": "https://www.flightglobal.com/fixed-wing/2026/06/honeywell-delivers-first-three-engines-for-indias-htt-40/",
+      "published_date": "2026-06",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Three TPE331-12B engines delivered to HAL"
+    },
+    {
+      "id": "src-3",
+      "title": "Honeywell to provide engines for HAL's Turbo Trainer-40 aircraft",
+      "publisher": "Airforce Technology",
+      "url": "https://www.airforce-technology.com/news/honeywell-engines-hals-turbo-trainer40/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Honeywell TPE331 selected for HTT-40 basic trainer"
+    }
+  ],
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "seo": {
+    "title": "Honeywell Aerospace — Company · India Military Aerospace Atlas | Techadyant",
+    "canonical_path": "/research/military-aerospace/company/honeywell/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ],
+    "meta_description": "US aerospace OEM supplying the TPE331-12B turboprop for HAL's HTT-40 trainer (first engines delivered June 2026), plus APUs and avionics on platforms in Indian service."
+  }
+}

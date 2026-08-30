@@ -1,0 +1,382 @@
+{
+  "entity_id": "atl-cmp-saab-mfg-035",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "saab-mfg-035",
+  "name": "Saab AB",
+  "variant": null,
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/saab-mfg-035/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Saab is a Swedish defence and aerospace group with a deep Indian footprint in two pillars: (i) ground-combat weapons — Saab was awarded an Indian contract for AT4 anti-armour support weapons (announce",
+    "chips": [
+      "counter-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Stockholm, Sweden",
+    "Type": "Manufacturer (listed)",
+    "Founded": "1937",
+    "India entity": null,
+    "Listed": "Nasdaq Stockholm: SAAB-B",
+    "Key India role": "Saab is a Swedish defence and aerospace group with a deep Indian footprint in two pillars: (i) ground-combat weapons — Saab was awarded an Indian contract for AT4 anti-armour support weapons (announce"
+  },
+  "what_it_is": {
+    "prose": "Saab is a Swedish defence and aerospace group with a deep Indian footprint in two pillars: (i) ground-combat weapons — Saab was awarded an Indian contract for AT4 anti-armour support weapons (announced March 2022) and is constructing India's first foreign-owned defence manufacturing facility, a Carl-Gustaf M4 factory in Haryana (construction began March 2024), making Saab the first OEM to leverage the new 74% FDI liberalisation; (ii) fighter aircraft — Saab is offering Gripen E for the Indian MRFA tender (114 fighters) and previously partnered with Adani (Sep 2017) before publicly stating in January 2023 that it would not partner Adani on Gripen local production. Saab continues to pitch Gripen for India with local production options as recently as February 2026.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "3 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Carl-Gustaf M4 recoilless rifle",
+        "role": "OEM",
+        "india_status": "Long-standing Indian Army inventory; Saab begins construction of new Carl-Gustaf factory in India (March 2024) — first foreign-owned defence manufacturing facility in India",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "AT4 anti-armour support weapon",
+        "role": "OEM",
+        "india_status": "Saab awarded Indian contract for AT4 (announced March 2022); deliveries reported through 2025",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Gripen E fighter (MRFA offer)",
+        "role": "OEM",
+        "india_status": "Offered for India's MRFA 114-fighter tender; previously partnered with Adani Group (Sep 2017); Saab stated Jan 2023 it would not partner Adani; continues pitch with local production option (Feb 2026)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "4 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Army (AT4 contract)",
+        "context": "Saab awarded Indian contract for AT4 anti-armour support weapon",
+        "year": "2022",
+        "quantity_or_note": "undisclosed",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Army (Carl-Gustaf M4 'Make in India')",
+        "context": "Saab begins construction of new Carl-Gustaf manufacturing facility in India (Haryana) — first foreign-owned defence manufacturing facility in India",
+        "year": "2024",
+        "quantity_or_note": "n/a (facility)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Adani Group (former Gripen partnership)",
+        "context": "Saab-Adani partnership announced September 2017 to build Gripen E in India; Saab confirmed in January 2023 that it would not partner Adani",
+        "year": "2017-2023",
+        "quantity_or_note": "n/a (terminated partnership)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (MRFA Gripen E offer)",
+        "context": "Saab continues to pitch Gripen E for India's 114-fighter MRFA tender with local production options; IAF reportedly leaning toward direct Rafale deal instead (Aug 2025)",
+        "year": "2024-2026",
+        "quantity_or_note": "114 (offer)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "14 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "7 official, 7 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "Is Saab building a Carl-Gustaf factory in India?",
+      "answer": "Yes. On 5 March 2024 Saab began construction of a new Carl-Gustaf manufacturing facility in Haryana, India — the first foreign-owned defence manufacturing facility in India under the post-2020 FDI liberalisation that allows up to 74% foreign ownership via government route.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Did Saab partner with Adani to build Gripen in India?",
+      "answer": "Saab announced a collaboration plan with the Adani Group on 1 September 2017 to manufacture Gripen E fighters in India for the MRFA competition. However, in January 2023 Saab confirmed it would NOT partner Adani on Gripen local production, leaving Saab without a confirmed Indian industrial partner for the Gripen E MRFA offer.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When did Saab get an Indian AT4 contract?",
+      "answer": "Saab was awarded an Indian contract for the AT4 anti-armour support weapon on 21 January 2022; deliveries have continued through 2025 alongside the Carl-Gustaf manufacturing facility construction.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.saab.com/markets/india",
+      "publisher": "Saab (company official)",
+      "url": "https://www.saab.com/markets/india",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Saab India corporate page"
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.saab.com/newsroom/press-releases/2022/saab-awarded-indian-contract-for-at4-support-weapon",
+      "publisher": "Saab (company press release)",
+      "url": "https://www.saab.com/newsroom/press-releases/2022/saab-awarded-indian-contract-for-at4-support-weapon",
+      "published_date": "2022-01-21",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Saab awarded Indian contract for AT4 support weapon"
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.ajaishukla.com/2022/01/saab-awarded-indian-contract-for-at4.html",
+      "publisher": "Ajaishukla.com (Ajai Shukla blog)",
+      "url": "https://www.ajaishukla.com/2022/01/saab-awarded-indian-contract-for-at4.html",
+      "published_date": "2022-01-21",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Independent confirmation of Saab AT4 contract for India"
+    },
+    {
+      "id": "src-04",
+      "title": "https://www.aviationspaceindia.com/news/saab-delivers-at4-systems-india-advances-carl-gustaf-production-plans",
+      "publisher": "Aviation & Space India",
+      "url": "https://www.aviationspaceindia.com/news/saab-delivers-at4-systems-india-advances-carl-gustaf-production-plans",
+      "published_date": "2025-05-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Saab delivers AT4 systems to India; advances Carl-Gustaf production plans"
+    },
+    {
+      "id": "src-05",
+      "title": "https://www.saab.com/newsroom/press-releases/2024/saab-starts-construction-of-new-carl-gustaf-factory-in-india",
+      "publisher": "Saab (company press release)",
+      "url": "https://www.saab.com/newsroom/press-releases/2024/saab-starts-construction-of-new-carl-gustaf-factory-in-india",
+      "published_date": "2024-03-05",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Saab starts construction of new Carl-Gustaf factory in India"
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.saab.com/markets/india/stories/2024/three-things-to-know-about-saabs-carl-gustaf-manufacturing-facility-in-india",
+      "publisher": "Saab (company official)",
+      "url": "https://www.saab.com/markets/india/stories/2024/three-things-to-know-about-saabs-carl-gustaf-manufacturing-facility-in-india",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Saab's Carl-Gustaf manufacturing facility in India — key facts"
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.janes.com/defence-intelligence-insights/defence-news/industry/saab-begins-construction-of-carl-gustaf-manufacturing-facility-in-india",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/industry/saab-begins-construction-of-carl-gustaf-manufacturing-facility-in-india",
+      "published_date": "2024-03-05",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms Saab begins construction of Carl-Gustaf manufacturing facility in India"
+    },
+    {
+      "id": "src-08",
+      "title": "https://en.saabblog.net/2024/03/07/saab-indien",
+      "publisher": "Saab Blog (corporate)",
+      "url": "https://en.saabblog.net/2024/03/07/saab-indien",
+      "published_date": "2024-03-07",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Saab AB building new factory in Haryana, India"
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.saab.com/newsroom/press-releases/2017/saab-and-adani-announce-collaboration-plan-for-aerospace-and-defence-in-india",
+      "publisher": "Saab (company press release)",
+      "url": "https://www.saab.com/newsroom/press-releases/2017/saab-and-adani-announce-collaboration-plan-for-aerospace-and-defence-in-india",
+      "published_date": "2017-09-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Saab-Adani collaboration plan for Gripen in India"
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.thehindu.com/news/national/saab-ties-up-with-adani-group-to-manufacture-gripen-in-india/article19601033.ece",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/saab-ties-up-with-adani-group-to-manufacture-gripen-in-india/article19601033.ece",
+      "published_date": "2017-09-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Saab ties up with Adani group to manufacture Gripen in India"
+    },
+    {
+      "id": "src-11",
+      "title": "https://www.ajaishukla.com/2023/01/saab-will-not-partner-adani-group-in.html",
+      "publisher": "Ajaishukla.com",
+      "url": "https://www.ajaishukla.com/2023/01/saab-will-not-partner-adani-group-in.html",
+      "published_date": "2023-01-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Saab will not partner Adani Group in jointly building Gripen in India"
+    },
+    {
+      "id": "src-12",
+      "title": "https://www.aviacionline.com/saab-is-left-without-local-partner-to-build-gripen-in-india",
+      "publisher": "Aviacionline",
+      "url": "https://www.aviacionline.com/saab-is-left-without-local-partner-to-build-gripen-in-india",
+      "published_date": "2023-01-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Saab is left without local partner to build Gripen in India"
+    },
+    {
+      "id": "src-13",
+      "title": "https://www.saab.com/markets/india/gripen-for-india",
+      "publisher": "Saab (company official)",
+      "url": "https://www.saab.com/markets/india/gripen-for-india",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Saab Gripen for India product page"
+    },
+    {
+      "id": "src-14",
+      "title": "https://www.eurasiantimes.com/rafale-vs-gripen-saab-again-makes-tempting-pitch-to-indian-air-force-for-114-jets-will-iaf-pay-heed",
+      "publisher": "The EurAsian Times",
+      "url": "https://www.eurasiantimes.com/rafale-vs-gripen-saab-again-makes-tempting-pitch-to-indian-air-force-for-114-jets-will-iaf-pay-heed",
+      "published_date": "2026-02-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Saab reiterates Gripen E pitch to IAF for MRFA 114-jet tender with local production"
+    }
+  ],
+  "seo": {
+    "title": "Saab AB — Company · India Counter Uas Atlas | Techadyant",
+    "meta_description": "Saab AB company dossier: India counter-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/counter-uas/manufacturer/saab-mfg-035/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/saab-mfg-035/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

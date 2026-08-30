@@ -1,0 +1,341 @@
+{
+  "entity_id": "tasl",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "tasl",
+  "name": "Tata Advanced Systems Limited",
+  "variant": "Wholly-owned subsidiary of Tata Sons (unlisted)",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Tata Sons defence subsidiary; co-developer of WhAP 8x8 (first Indian armoured vehicle export — Morocco, Dec 2025), ATAGS partner (₹2,760 cr Tata share), Airbus C-295 FAL Vadodara, Lockheed Martin C-130J MRO.",
+    "chips": [
+      "Tier A",
+      "Private",
+      "Unlisted",
+      "Airframes",
+      "Armoured vehicles",
+      "Launchers",
+      "Aerostructures",
+      "MRO"
+    ],
+    "maker": "Private (wholly-owned subsidiary of Tata Sons Private Limited, unlisted)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Tata Advanced Systems Limited",
+    "Ownership": "Private (wholly-owned subsidiary of Tata Sons Private Limited, unlisted)",
+    "HQ": "Manufacturing: Hyderabad, Telangana; Corporate: 28 Barakhamba Road, New Delhi",
+    "Order_book": "Not publicly disclosed (TASL is unlisted)",
+    "Revenue_FY26": "Not disclosed (unlisted subsidiary of unlisted Tata Sons)",
+    "Founded": "2007",
+    "Major_partnerships": "Airbus (C-295 FAL Vadodara), Lockheed Martin (F-21, C-130J MRO), Boeing (AH-64 fuselage), DRDO (WhAP, Akash launchers, AAD MLS), Bharat Forge (ATAGS)",
+    "WhAP_first_export": "24 December 2025 — Royal Moroccan Army",
+    "ATAGS_Tata_share": "₹2,760 crore (123 guns of 307 total, March 2025)",
+    "C-295_programme": "₹21,935 crore (40 aircraft to be built by TASL in India)",
+    "C-130J_MRO": "Groundbreaking December 2025; operations early 2027"
+  },
+  "what_it_is": {
+    "prose": "Tata Advanced Systems Limited (TASL) is the wholly-owned defence subsidiary of Tata Sons Private Limited, founded in 2007. TASL is unlisted and does not publicly disclose revenue or order book. The company operates across four major business lines: (1) Aerostructures and MRO — TASL is the partner for Airbus C-295 final assembly line in Vadodara (₹21,935 crore programme, 40 of 56 aircraft to be built by TASL in India), Lockheed Martin C-130J MRO facility (groundbreaking December 2025, operations early 2027), and Boeing AH-64 Apache fuselage assembly via Tata Boeing International Limited (TBIL); (2) Land systems — TASL is the co-developer with DRDO of the WhAP 8x8 Wheeled Armoured Platform (Tata Kestrel), which became the first Indian-designed armoured vehicle to be exported when the first batch was delivered to the Royal Moroccan Army on 24 December 2025; (3) Missile systems integration — TASL manufactures the Akash Army Launcher (AAL), Akash Air Force Launcher (AAFL), Advanced Air Defence (AAD) Mobile Launcher System for ballistic missile defence, and MRSAM Army launchers, all in partnership with DRDO; and (4) Artillery — TASL is the manufacturing partner for the ATAGS Advanced Towed Artillery Gun System (123 guns of the 307-gun March 2025 ₹6,900 crore MoD contract, ~₹2,760 crore Tata share). TASL also produces UAVs (Sky-I, Rakshak VTOL, Advanced Loitering Systems).",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7",
+      "src-8"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "TASL's major programme commitments include the WhAP 8x8 (Indian Army limited + Royal Moroccan Army export, first batch delivered 24 December 2025), ATAGS (123 guns of 307 total, March 2025 ₹6,900 crore MoD contract — ~₹2,760 crore Tata share), Airbus C-295 (40 aircraft to be built by TASL in India, ₹21,935 crore total programme), Akash launchers (AAL and AAFL, joint with DRDO), AAD MLS for ballistic missile defence, MRSAM Army launchers, and the C-130J MRO facility (groundbreaking December 2025).",
+    "rows": [
+      {
+        "agency": "Royal Moroccan Army",
+        "context": "First Indian armoured vehicle export — WhAP 8x8 first batch delivered",
+        "year": 2025,
+        "quantity_or_note": "24 December 2025",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "ATAGS contract — 123 guns Tata share of 307 total",
+        "year": 2025,
+        "quantity_or_note": "₹2,760 crore (March 2025, part of ₹6,900 cr MoD deal)",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "C-295 programme — 40 aircraft to be built by TASL in India",
+        "year": null,
+        "quantity_or_note": "₹21,935 crore total programme",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Air Force + regional C-130 operators",
+        "context": "C-130J MRO facility (with Lockheed Martin)",
+        "year": 2025,
+        "quantity_or_note": "Groundbreaking Dec 2025; ops early 2027",
+        "sources": [
+          "src-6"
+        ]
+      },
+      {
+        "agency": "Indian Army + IAF",
+        "context": "Akash AAL + AAFL production (with DRDO)",
+        "year": null,
+        "quantity_or_note": "Not disclosed",
+        "sources": [
+          "src-4"
+        ]
+      }
+    ],
+    "open_questions": [
+      "TASL revenue / order book not disclosed (unlisted subsidiary of unlisted Tata Sons) — Atlas should mark 'n/a — unlisted subsidiary'",
+      "Tata CUAS (cus-056): thin primary-source record; no TASL counter-drone product page found",
+      "Tata-Airbus C-295 — first aircraft delivery slipped; precise schedule not disclosed",
+      "F-21 partnership contingent on IAF MMRCA decision — outcome pending"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
+    "items": [
+      {
+        "component": "Airbus C-295 platform & sub-assemblies",
+        "severity": "High",
+        "note": "Spain — indigenisation ramping via Vadodara FAL",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Lockheed Martin F-21 / C-130J platform & components",
+        "severity": "High",
+        "note": "USA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-6"
+        ]
+      },
+      {
+        "component": "Akash / MRSAM / AAD missile systems",
+        "severity": "Low",
+        "note": "DRDO/IPM designed; TASL is launcher integrator",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "EO/IR, optronics, sonar components",
+        "severity": "Medium",
+        "note": "Typically FLIR / Controp / Israel",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "WhAP 8x8 co-design with DRDO; ATAGS co-development; C-295 aerostructures TOT",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Vadodara C-295 FAL; Hyderabad aerostructures; multiple land systems facilities",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "C-295, F-21, C-130J platforms imported; EO/IR imported",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 3,
+        "note": "Not disclosed; material contracts visible (ATAGS ₹2,760 cr, C-295 ₹21,935 cr)",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 4,
+        "note": "WhAP 8x8 Morocco export = first Indian armoured vehicle export; C-295 aerostructures export to Airbus global supply chain",
+        "sources": [
+          "src-7"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "TASL revenue / order book not disclosed (unlisted subsidiary of unlisted Tata Sons) — Atlas should mark 'n/a — unlisted subsidiary'",
+    "Tata CUAS (cus-056): thin primary-source record; no TASL counter-drone product page found",
+    "Tata-Airbus C-295 — first aircraft delivery slipped; precise schedule not disclosed",
+    "F-21 partnership contingent on IAF MMRCA decision — outcome pending"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Tata Advanced Systems — About",
+      "publisher": "Tata Advanced Systems Limited",
+      "url": "https://www.tataadvancedsystems.com/about",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — TASL about page"
+    },
+    {
+      "id": "src-2",
+      "title": "Tata Advanced Systems — Customers & Programs",
+      "publisher": "Tata Advanced Systems Limited",
+      "url": "https://www.tataadvancedsystems.com/customers-and-programmes",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — TASL customers-and-programmes page"
+    },
+    {
+      "id": "src-3",
+      "title": "Wheeled Armoured Platform (WhAP 8x8)",
+      "publisher": "Tata Advanced Systems Limited",
+      "url": "https://www.tataadvancedsystems.com/wheeled-armored-platform",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — TASL WhAP 8x8 product page"
+    },
+    {
+      "id": "src-4",
+      "title": "Akash Army Launcher",
+      "publisher": "Tata Advanced Systems Limited",
+      "url": "https://www.tataadvancedsystems.com/akash-army-launcher",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — TASL Akash Army Launcher product page"
+    },
+    {
+      "id": "src-5",
+      "title": "MoD signs ₹6900 crore contracts with Bharat Forge, Tata for 307 indigenous artillery guns",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/mod-signs-6900-crore-contracts-with-bharat-forge-tata-for-307-indigenous-artillery-guns/article69377909.ece",
+      "published_date": "2025-03-27",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "ATAGS contract value"
+    },
+    {
+      "id": "src-6",
+      "title": "Tata Advanced Systems breaks ground on new Defence MRO facility supporting Lockheed Martin C-130J operations in India",
+      "publisher": "Lockheed Martin News",
+      "url": "https://news.lockheedmartin.com/2025-12-18-Tata-Advanced-Systems-breaks-ground-on-new-Defence-MRO-facility-supporting-Lockheed-Martin-C-130J-operations-in-India",
+      "published_date": "2025-12-18",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "C-130J MRO groundbreaking"
+    },
+    {
+      "id": "src-7",
+      "title": "India Delivers First Batch of WhAP 8x8 Armored Vehicles to Morocco",
+      "publisher": "Army Recognition",
+      "url": "https://www.armyrecognition.com/news/army-news/2026/india-delivers-first-batch-of-whap-8x8-armored-vehicles-to-morocco",
+      "published_date": "2026-01-02",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "First Indian armoured vehicle export"
+    },
+    {
+      "id": "src-8",
+      "title": "Tata Advanced Systems",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tata_Advanced_Systems",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Aggregates credible sources"
+    }
+  ],
+  "seo": {
+    "title": "Tata Advanced Systems Limited — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Tata Sons defence-aerospace subsidiary; Airbus C-295 Final Assembly Line Vadodara (₹21,935 cr, 40 aircraft), AH-64 Apache fuselage (TBAL global single-source)",
+    "canonical_path": "/research/military-aerospace/company/tasl/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What was significant about the WhAP 8x8 export to Morocco?",
+      "answer": "The first batch of WhAP 8x8 (Wheeled Armoured Platform, also called Tata Kestrel) armoured vehicles was delivered to the Royal Moroccan Army on 24 December 2025 — the first export of an Indian-designed armoured vehicle. The WhAP 8x8 was co-developed by TASL with DRDO. The export demonstrates Indian private-sector land systems capability and opens the door for further Indian armoured vehicle exports to friendly foreign countries.",
+      "sources": [
+        "src-7"
+      ]
+    },
+    {
+      "question": "What is TASL's role in the C-295 programme?",
+      "answer": "Tata Advanced Systems Limited (TASL) is the Indian final assembly partner for the Airbus C-295 transport aircraft programme, signed on 24 September 2021 for ₹21,935 crore (~$2.5 billion). Of the 56 aircraft, 16 are imported fly-away from Airbus Seville (Spain) and 40 are assembled by TASL at a dedicated Final Assembly Line (FAL) in Vadodara, Gujarat — the first private commercial transport aircraft FAL in India. The first India-built C-295 was rolled out in October 2025.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Why is TASL's revenue and order book not publicly disclosed?",
+      "answer": "TASL is a wholly-owned subsidiary of Tata Sons Private Limited, which is itself unlisted. As a result, TASL is not required to publicly disclose revenue, profit, or order book. Material contract values are visible in MoD press releases — for example, the ATAGS share (123 guns of 307 total, ₹2,760 crore Tata share of the March 2025 ₹6,900 crore MoD deal) and the C-295 programme (₹21,935 crore total). Atlas should mark financial details as 'n/a — unlisted subsidiary of unlisted Tata Sons'.",
+      "sources": [
+        "src-1",
+        "src-5"
+      ]
+    }
+  ]
+}

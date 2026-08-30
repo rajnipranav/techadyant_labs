@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { companyDossierMetadata, renderCompanyDossierPage } from '../../../../../_companyDossierPage';
 import Link from 'next/link';
 import { AtlasNav } from '../../../../AtlasNav';
 import { JsonLd, breadcrumb, SITE, ORG_REF } from '../../../../seo';
@@ -17,6 +18,8 @@ export const dynamicParams = false;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  const dossierMetadata = companyDossierMetadata(slug, 'defence');
+  if (dossierMetadata) return dossierMetadata;
   const e = entityBySlug(slug);
   if (!e) return { title: 'Entity — Defence Atlas' };
   const o = originOf(e);
@@ -41,6 +44,8 @@ function RelBlock({ title, items }: { title: string; items: { key: string; node:
 
 export default async function EntityPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const dossierPage = renderCompanyDossierPage(slug, 'defence');
+  if (dossierPage) return dossierPage;
   const e = entityBySlug(slug);
   if (!e) return <><AtlasNav /><section className="wrap"><p>Entity not found.</p></section></>;
 
@@ -189,3 +194,7 @@ export default async function EntityPage({ params }: { params: Promise<{ slug: s
     </>
   );
 }
+
+
+
+

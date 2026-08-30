@@ -1,0 +1,184 @@
+{
+  "entity_id": "mfg-001",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "israel-aerospace-industries-iai-mfr-001",
+  "name": "Israel Aerospace Industries (IAI)",
+  "variant": "",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "IAI is an Israel-based aerospace and defence OEM with multiple UAVs documented in Indian service.",
+    "chips": [
+      "Tier A",
+      "India-relevant",
+      "Company"
+    ],
+    "maker": "Israel Aerospace Industries (IAI)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Manufacturer",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Legal_name": "Israel Aerospace Industries (IAI)",
+    "Country": "India",
+    "Status": "Operational"
+  },
+  "what_it_is": {
+    "prose": "IAI's Searcher Mk II and Heron families have documented Indian service. PIB records the Indian Navy operating Heron and Searcher Mk II through INAS 342, while the live UAS directory links IAI's company and platform records.",
+    "sources": [
+      "src-20",
+      "src-22",
+      "src-21",
+      "src-25"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "IAI's Searcher Mk II and Heron families have documented Indian service. PIB records the Indian Navy operating Heron and Searcher Mk II through INAS 342, while the live UAS directory links IAI's company and platform records.",
+    "rows": [],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "No indigenous percentage or component import share is asserted without direct disclosure.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "peer_systems": []
+  },
+  "faq": [
+    {
+      "question": "Which IAI UAVs are documented in India?",
+      "answer": "Heron and Searcher Mk II are directly documented in Indian Navy service.",
+      "sources": [
+        "src-20",
+        "src-22"
+      ]
+    },
+    {
+      "question": "Is IAI an Indian company?",
+      "answer": "No; it is Israel-based.",
+      "sources": [
+        "src-25"
+      ]
+    },
+    {
+      "question": "Why is it relevant to India's UAS industrial map?",
+      "answer": "Its UAVs are in Indian service and create an imported-platform industrial footprint.",
+      "sources": [
+        "src-20"
+      ]
+    }
+  ],
+  "timeline": [],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-20",
+      "title": "Indian Navy commissions first UAV squadron",
+      "publisher": "PIB",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=90281",
+      "published_date": "2006-01-06",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Indian Navy UAV squadron operates Heron and Searcher Mk II."
+    },
+    {
+      "id": "src-22",
+      "title": "UAV Searcher Mk II reference",
+      "publisher": "PIB",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=6699",
+      "published_date": "2005-01-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Searcher Mk II reference."
+    },
+    {
+      "id": "src-21",
+      "title": "India Drone & UAS Ecosystem directory",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": "2026-08-29",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Indicative live Atlas directory only; not treated as official evidence."
+    },
+    {
+      "id": "src-25",
+      "title": "IAI company live record",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/company/israel-aerospace-industries-iai-mfr-001/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Directory provenance only."
+    }
+  ],
+  "seo": {
+    "title": "Israel Aerospace Industries (IAI) — India Atlas | Techadyant",
+    "meta_description": "IAI is an Israel-based aerospace and defence OEM with multiple UAVs documented in Indian service.",
+    "canonical_path": "/research/drones-uas/company/israel-aerospace-industries-iai-mfr-001/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/",
+    "submit_correction": "/research/drones-uas/company/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/company/"
+    ]
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "entity_id": "mfg-016",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "kalyani-strategic-systems-bharat-forge-mfg-016",
+  "name": "Kalyani Strategic Systems Limited (Bharat Forge)",
+  "variant": "Wholly-owned subsidiary of Bharat Forge Limited (BSE: 500495, NSE: BHARATFORG)",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Bharat Forge defence subsidiary; ₹10,961 cr defence order book; ATAGS prime (₹4,140 cr for 184 guns); MArG-52 bid for US Army Mobile Tactical Cannon; first Indian company to win US Army artillery bid.",
+    "chips": [
+      "Private",
+      "Listed (parent)",
+      "Artillery",
+      "Armoured vehicles",
+      "ATAGS",
+      "Bharat-52",
+      "MArG-52",
+      "Small arms"
+    ],
+    "maker": "Private (wholly-owned subsidiary of Bharat Forge Limited, BSE/NSE listed)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Kalyani Strategic Systems Limited (Bharat Forge)",
+    "Ownership": "Private (wholly-owned subsidiary of Bharat Forge Limited, BSE/NSE listed)",
+    "HQ": "Bharat Forge Ltd, Mundhwa, Pune, Maharashtra, India",
+    "Order_book": "₹10,961 crore defence order book as of 31 March 2026 (3-4 years revenue visibility)",
+    "Revenue_FY26": "Bharat Forge consolidated ₹16,812 crore (+11.2% YoY); defence segment ₹1,562 crore",
+    "Bharat_Forge_CIN": "L27209PN1961PLC012123",
+    "FY26_new_orders": "₹4,814 crore",
+    "ATAGS_KSSL_share": "₹4,140 crore (184 guns of 307 total, March 2025)",
+    "Major_artillery_products": "ATAGS, MArG-52, Bharat-52, Garuda-105, Mountain Artillery Gun Extended Range (MAG-ER)",
+    "Export_order_2022": "$155.5 million (155mm truck-mounted howitzer to friendly foreign country)",
+    "US_Army_bid": "MArG-52 offered for US Army Mobile Tactical Cannon (MTC) — first Indian company to win US Army artillery bid"
+  },
+  "what_it_is": {
+    "prose": "Kalyani Strategic Systems Limited (KSSL) is the wholly-owned defence subsidiary of Bharat Forge Limited (BSE: 500495, NSE: BHARATFORG), headquartered in Pune. KSSL is one of India's first dedicated private-sector missile sub-system and artillery manufacturing facilities. As of 31 March 2026, KSSL had a defence order book of ₹10,961 crore (3-4 years revenue visibility), with FY26 new orders of ₹4,814 crore. Bharat Forge consolidated FY26 revenue was ₹16,812 crore (+11.2% YoY), of which the defence segment contributed ₹1,562 crore. KSSL's flagship programme is the ATAGS (Advanced Towed Artillery Gun System, 155mm/52 calibre), co-developed with DRDO and TASL — KSSL received a ₹4,140 crore contract in March 2025 for 184 guns (60% of the ₹6,900 crore MoD deal for 307 guns total, with TASL supplying the remaining 123). Other artillery products include the MArG-52 (Mounted Artillery Gun 155mm/52), which has been offered to the US Army for the Mobile Tactical Cannon (MTC) programme — making KSSL the first Indian company to win a US Army artillery bid; the Bharat-52 (155mm/52 calibre towed howitzer); the Garuda-105 (105mm field gun with soft recoil, partnered with AM General and Mandus Group for global export); and the Mountain Artillery Gun — Extended Range (MAG-ER). KSSL has a $155.5 million export order from 2022 for 155mm truck-mounted howitzers to a friendly foreign country. The company unveiled the SIMHA 4x4 Multi-Role Protected Vehicle at Eurosatory in June 2026. KSSL's Air Defence products include the CIWS, the Army AD Gun (replacement of L-70 and ZU-23), and the SPIKE ATGM (manufactured under licence from Rafael Advanced Defense Systems).",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7",
+      "src-8"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "KSSL's flagship deployment is the ATAGS programme — ₹4,140 crore contract for 184 guns signed March 2025 (60% of the ₹6,900 crore MoD deal for 307 guns total, with TASL supplying 123). KSSL has a $155.5 million export order from 2022 for 155mm truck-mounted howitzers. The MArG-52 is offered for the US Army Mobile Tactical Cannon (MTC) programme — first Indian company to win a US Army artillery bid. The SIMHA 4x4 was unveiled at Eurosatory June 2026.",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "ATAGS contract — 184 guns KSSL share of 307 total",
+        "year": 2025,
+        "quantity_or_note": "₹4,140 crore (March 2025)",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Friendly foreign country (export)",
+        "context": "155mm truck-mounted howitzer export order",
+        "year": 2022,
+        "quantity_or_note": "$155.5 million",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "agency": "US Army (Mobile Tactical Cannon bid)",
+        "context": "MArG-52 offered for MTC programme",
+        "year": null,
+        "quantity_or_note": "First Indian company to win US Army artillery bid; outcome pending",
+        "sources": [
+          "src-8"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "CIWS + Army AD Gun + SPIKE ATGM production",
+        "year": null,
+        "quantity_or_note": "Not disclosed",
+        "sources": [
+          "src-5"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Bharat Forge defence revenue ₹1,562 cr FY26 — KSSL-only or Bharat Forge group defence vertical? Source wording ambiguous",
+      "Bharat CUAS (cus-058): no KSSL product page matches the name; basis is IDRW Dec 2025 article",
+      "MArG-52 US Army MTC bid outcome not yet announced"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
+    "items": [
+      {
+        "component": "Artillery gun barrel forgings",
+        "severity": "Low",
+        "note": "Bharat Forge is world's largest forgings company; largely indigenous",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "ATAGS electronics & FCS",
+        "severity": "Medium",
+        "note": "Partially imported sensors / FPGA — USA / Israel",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Engine & transmission for truck-mounted platforms",
+        "severity": "Medium",
+        "note": "Cummins / Detroit Diesel — USA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "EO/IR, fire-control computers",
+        "severity": "Medium",
+        "note": "FLIR / Safran — USA / France",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "SPIKE ATGM (licence)",
+        "severity": "Medium",
+        "note": "Rafael Advanced Defense Systems — Israel",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "ATAGS co-development with DRDO; MArG-52 / Bharat-52 / Garuda-105 own design",
+        "sources": [
+          "src-6"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Pune facilities; Bharat Forge is world's largest forgings company",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 4,
+        "note": "Gun barrel forgings indigenous; electronics + EO/IR imported; SPIKE under licence",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "₹10,961 cr defence order book; FY26 new orders ₹4,814 cr",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 5,
+        "note": "$155.5M export order 2022; first Indian company to win US Army artillery bid; AM General + Mandus Group partnership for global export",
+        "sources": [
+          "src-7",
+          "src-8"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "kalyani-group-bharat-cuas-cus-058"
+    ]
+  },
+  "open_questions": [
+    "Bharat Forge defence revenue ₹1,562 cr FY26 — KSSL-only or Bharat Forge group defence vertical? Source wording ambiguous",
+    "Bharat CUAS (cus-058): no KSSL product page matches the name; basis is IDRW Dec 2025 article",
+    "MArG-52 US Army MTC bid outcome not yet announced"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Bharat Forge Secures Contract for 184 ATAGS Artillery Systems",
+      "publisher": "The Machinist",
+      "url": "https://machinist.in/2025/03/bharat-forge-secures-contract-for-184-atags-artillery-systems",
+      "published_date": "2025-03-27",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "ATAGS KSSL contract ₹4,140 cr"
+    },
+    {
+      "id": "src-2",
+      "title": "MoD signs ₹6900 crore contracts with Bharat Forge, Tata for 307 indigenous artillery guns",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/mod-signs-6900-crore-contracts-with-bharat-forge-tata-for-307-indigenous-artillery-guns/article69377909.ece",
+      "published_date": "2025-03-27",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "MoD ATAGS contract value"
+    },
+    {
+      "id": "src-3",
+      "title": "Bharat Forge Unveils SIMHA 4x4 as Defense Order Book Hits ₹11,000 Crore",
+      "publisher": "SAHI Markets",
+      "url": "https://www.sahi.com/news/bharat-forge-unveils-simha-4x4-as-defense-order-book-hits-11-000-crore-37-PE1_CORPO",
+      "published_date": "2026-06-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Defence order book ₹10,961 cr"
+    },
+    {
+      "id": "src-4",
+      "title": "India's Bharat Forge Sees Strong Momentum Across",
+      "publisher": "Defence Star",
+      "url": "https://www.defencestar.in/defence-industry/defence-company/india-bharat-forge-financial-result-order-book-news/11451",
+      "published_date": "2026-05-07",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "FY26 financials"
+    },
+    {
+      "id": "src-5",
+      "title": "Kalyani Strategic Systems Limited (corporate site)",
+      "publisher": "Kalyani Strategic Systems Limited",
+      "url": "https://www.kssl.in",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — KSSL corporate homepage"
+    },
+    {
+      "id": "src-6",
+      "title": "KSSL Artillery Business",
+      "publisher": "Kalyani Strategic Systems Limited",
+      "url": "https://www.kssl.in/our-business-artillery",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — KSSL artillery business landing page"
+    },
+    {
+      "id": "src-7",
+      "title": "Bharat Forge bags US $155 contract to sell 155 mm truck-mounted howitzer",
+      "publisher": "Ajai Shukla (Broadsword)",
+      "url": "https://www.ajaishukla.com/2022/11/bharat-forge-bags-us-155-contract-to.html",
+      "published_date": "2022-11-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "$155.5M export order 2022"
+    },
+    {
+      "id": "src-8",
+      "title": "Kalyani Strategic Systems Ltd and AM General Sign Strategic Partnership",
+      "publisher": "AM General",
+      "url": "https://www.amgeneral.com/kalyani-strategic-systems-ltd-and-am-general-sign-strategic-partnership-to-offer-distinct-mounted-artillery-gun-systems-for-world-armies",
+      "published_date": "2026-06-18",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "AM General + Mandus Group partnership"
+    }
+  ],
+  "seo": {
+    "title": "Kalyani Strategic Systems Limited (Bharat Forge) — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "Bharat Forge defence subsidiary; ₹10,961 cr defence order book; ATAGS prime (₹4,140 cr for 184 guns); MArG-52 bid for US Army Mobile Tactical Cannon; first Indi",
+    "canonical_path": "/research/counter-uas/manufacturer/kalyani-strategic-systems-bharat-forge-mfg-016/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is KSSL's role in the ATAGS programme?",
+      "answer": "Kalyani Strategic Systems Limited (KSSL) is the prime contractor for 184 of the 307 ATAGS (Advanced Towed Artillery Gun System, 155mm/52 calibre) guns contracted by the Indian Ministry of Defence in March 2025. The KSSL share is ₹4,140 crore (60% of the ₹6,900 crore MoD deal); Tata Advanced Systems Limited (TASL) supplies the remaining 123 guns. ATAGS was co-developed by DRDO's ARDE laboratory with KSSL and TASL as manufacturing partners.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What is the MArG-52 and why is it significant for KSSL exports?",
+      "answer": "The MArG-52 (Mounted Artillery Gun, 155mm/52 calibre) is a KSSL-designed truck-mounted howitzer that has been offered to the US Army for the Mobile Tactical Cannon (MTC) programme. KSSL is the first Indian company to win a US Army artillery bid, marking a milestone for Indian defence exports. The MArG-52 represents KSSL's push beyond towed guns (Bharat-52) into self-propelled and mounted platforms.",
+      "sources": [
+        "src-6",
+        "src-8"
+      ]
+    },
+    {
+      "question": "What is KSSL's defence order book and FY26 financial performance?",
+      "answer": "KSSL's defence order book stood at ₹10,961 crore as of 31 March 2026 (3-4 years revenue visibility), with FY26 new orders of ₹4,814 crore. Bharat Forge consolidated FY26 revenue was ₹16,812 crore (+11.2% YoY), of which the defence segment contributed ₹1,562 crore. KSSL's SIMHA 4x4 Multi-Role Protected Vehicle was unveiled at Eurosatory in June 2026, when the order book crossed ₹11,000 crore.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ]
+}

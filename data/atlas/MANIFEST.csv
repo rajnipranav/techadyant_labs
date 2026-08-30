@@ -1,0 +1,460 @@
+entity_id,slug,name,entity_type,vertical,tier,noindex,path,last_verified,source_count,filename
+a400m,a400m,Airbus A400M Atlas,platform,military-aerospace,C,true,/research/military-aerospace/platform/a400m/,2026-08-29,2,a400m.json
+aadyah-space,aadyah-space,Aadyah Space,company,space,B,false,/research/space/company/aadyah-space/,2026-08-30,1,aadyah-space.json
+ada,ada,Aeronautical Development Agency (ADA),company,military-aerospace,A,false,/research/military-aerospace/company/ada/,2026-08-29,4,ada.json
+mfg-017,adani-defence-aerospace-mfr-017,Adani Defence & Aerospace,manufacturer,drones-uas,A,false,/research/drones-uas/company/adani-defence-aerospace-mfr-017/,2026-08-29,4,adani-defence-aerospace-mfr-017.json
+mfg-005,adani-defence-and-aerospace-mfg-005,Adani Defence & Aerospace,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/adani-defence-and-aerospace-mfg-005/,2026-08-29,7,adani-defence-and-aerospace-mfg-005.json
+drn-004,adani-drishti-10-starliner-drn-004,Adani Drishti 10 Starliner (Hermes 900),platform,drones-uas,A,false,/research/drones-uas/platform/adani-drishti-10-starliner-drn-004/,2026-08-29,4,adani-drishti-10-starliner-drn-004.json
+aditya-l1,aditya-l1,Aditya-L1,platform,space,C,true,/research/space/entity/aditya-l1/,2026-08-30,2,aditya-l1.json
+aequs,aequs,Aequs Limited,company,military-aerospace,B,false,/research/military-aerospace/company/aequs/,2026-08-29,3,aequs.json
+agni,agni,Agni,platform,defence,C,true,/research/pillars/defence/entity/agni/,2026-08-30,1,agni.json
+agnibaan-sorang,agnibaan-sorang,Agnikul Agnibaan — Suborbital-to-Orbital Programme,platform,space,B,false,/research/space/entity/agnibaan-sorang/,2026-08-29,4,agnibaan-sorang.json
+agnibaan,agnibaan,Agnikul Agnibaan,platform,space,A,false,/research/space/entity/agnibaan/,2026-08-29,6,agnibaan.json
+agnikul-cosmos,agnikul-cosmos,Agnikul Cosmos,company,space,B,false,/research/space/company/agnikul-cosmos/,2026-08-30,3,agnikul-cosmos.json
+ah64,ah64,Boeing AH-64E Apache Guardian (India),platform,military-aerospace,A,false,/research/military-aerospace/platform/ah64/,2026-08-29,6,ah64.json
+aiesl,aiesl,AI Engineering Services Limited (AIESL),company,military-aerospace,B,false,/research/military-aerospace/company/aiesl/,2026-08-29,3,aiesl.json
+airbus-defence-space,airbus-defence-space,Airbus Defence and Space,company,space,B,false,/research/space/company/airbus-defence-space/,2026-08-30,1,airbus-defence-space.json
+airbus-ds,airbus-ds,Airbus Defence and Space,company,military-aerospace,A,false,/research/military-aerospace/company/airbus-ds/,2026-08-29,5,airbus-ds.json
+def-004,akash-ng-def-004,Akash-NG (New Generation) Surface-to-Air Missile,platform,defence,A,false,/research/pillars/defence/entity/akash-ng-def-004/,2026-08-29,4,akash-ng-def-004.json
+akshath-aerospace,akshath-aerospace,Akshath Aerospace,company,space,B,false,/research/space/company/akshath-aerospace/,2026-08-30,1,akshath-aerospace.json
+mfg-013,alpha-design-technologies-mfg-013,Alpha Design Technologies,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/alpha-design-technologies-mfg-013/,2026-08-29,0,alpha-design-technologies-mfg-013.json
+an32,an32,Antonov An-32 (RE),platform,military-aerospace,A,false,/research/military-aerospace/platform/an32/,2026-08-29,4,an32.json
+ananth-technologies,ananth-technologies,Ananth Technologies,company,space,B,false,/research/space/company/ananth-technologies/,2026-08-30,1,ananth-technologies.json
+cus-006,anti-drone-system-x-mk3-cus-006,Anti-Drone System X Mk3,system,counter-uas,C,true,/research/counter-uas/system/anti-drone-system-x-mk3-cus-006/,2026-08-29,0,anti-drone-system-x-mk3-cus-006.json
+antonov,antonov,Antonov State Enterprise,company,military-aerospace,B,false,/research/military-aerospace/company/antonov/,2026-08-29,5,antonov.json
+antrix,antrix,Antrix Corporation,company,space,C,true,/research/space/company/antrix/,2026-08-30,1,antrix.json
+def-017,arjun-mbt-mk-1a-def-017,Arjun Main Battle Tank Mk-1A,platform,defence,A,false,/research/pillars/defence/entity/arjun-mbt-mk-1a-def-017/,2026-08-29,4,arjun-mbt-mk-1a-def-017.json
+mfg-036,aselsan-mfg-036,Aselsan,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/aselsan-mfg-036/,2026-08-29,0,aselsan-mfg-036.json
+cus-044,aselsan-redet-cuas-cus-044,Aselsan REDET CUAS,system,counter-uas,C,true,/research/counter-uas/system/aselsan-redet-cuas-cus-044/,2026-08-29,0,aselsan-redet-cuas-cus-044.json
+cus-011,astra-counter-drone-system-cus-011,Drishti C-UAS (Astra Microwave),system,counter-uas,B,false,/research/counter-uas/system/astra-counter-drone-system-cus-011/,2026-08-29,6,astra-counter-drone-system-cus-011.json
+mfg-011,astra-microwave-products-mfg-011,Astra Microwave Products Limited (AMPL),manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/astra-microwave-products-mfg-011/,2026-08-29,7,astra-microwave-products-mfg-011.json
+astras,astras,ASTRA,platform,defence,C,true,/research/pillars/defence/entity/astras/,2026-08-30,1,astras.json
+astrobase,astrobase,Astrobase,company,space,B,false,/research/space/company/astrobase/,2026-08-30,1,astrobase.json
+aviadvigatel,aviadvigatel,Aviadvigatel,company,military-aerospace,C,true,/research/military-aerospace/company/aviadvigatel/,2026-08-29,2,aviadvigatel.json
+azista-bst,azista-bst,Azista BST,company,space,B,false,/research/space/company/azista-bst/,2026-08-30,1,azista-bst.json
+bel,bel,Bharat Electronics Limited,company,military-aerospace,A,false,/research/military-aerospace/company/bel/,2026-08-29,8,bel.json
+bellatrix-aerospace,bellatrix-aerospace,Bellatrix Aerospace,company,space,B,false,/research/space/company/bellatrix-aerospace/,2026-08-30,1,bellatrix-aerospace.json
+cus-060,bharat-dynamics-limited-bdl-counter-drone-cus-060,BDL Counter Drone System,system,counter-uas,C,true,/research/counter-uas/system/bharat-dynamics-limited-bdl-counter-drone-cus-060/,2026-08-29,3,bharat-dynamics-limited-bdl-counter-drone-cus-060.json
+mfg-018,bharat-dynamics-limited-bdl-mfg-018,Bharat Dynamics Limited,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/bharat-dynamics-limited-bdl-mfg-018/,2026-08-29,8,bharat-dynamics-limited-bdl-mfg-018.json
+mfg-001,bharat-electronics-limited-bel-mfg-001,Bharat Electronics Limited,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/bharat-electronics-limited-bel-mfg-001/,2026-08-29,8,bharat-electronics-limited-bel-mfg-001.json
+cus-004,bhargavastra-counter-drone-system-cus-004,Bhargavastra Counter Drone System,system,counter-uas,A,false,/research/counter-uas/system/bhargavastra-counter-drone-system-cus-004/,2026-08-29,5,bhargavastra-counter-drone-system-cus-004.json
+mfg-006,big-bang-boom-solutions-mfg-006,Big Bang Boom Solutions Private Limited (BBBS),manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/big-bang-boom-solutions-mfg-006/,2026-08-29,6,big-bang-boom-solutions-mfg-006.json
+cus-053,blue-halo-locust-laser-cus-053,Bluehalo LOCUST Laser,system,counter-uas,C,true,/research/counter-uas/system/blue-halo-locust-laser-cus-053/,2026-08-29,0,blue-halo-locust-laser-cus-053.json
+blue-origin,blue-origin,Blue Origin,company,space,B,false,/research/space/company/blue-origin/,2026-08-30,1,blue-origin.json
+mfg-041,bluehalo-mfg-041,Bluehalo,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/bluehalo-mfg-041/,2026-08-29,0,bluehalo-mfg-041.json
+bmp-2,bmp-2,BMP-2,platform,defence,C,true,/research/pillars/defence/entity/bmp-2/,2026-08-30,1,bmp-2.json
+mae-002,boeing-ah-64e-apache-india-mae-002,Boeing AH-64E Apache (India),platform,military-aerospace,A,false,/research/military-aerospace/entity/boeing-ah-64e-apache-india-mae-002/,2026-08-29,4,boeing-ah-64e-apache-india-mae-002.json
+mae-003,boeing-ch-47f-chinook-india-mae-003,Boeing CH-47F Chinook (India),platform,military-aerospace,A,false,/research/military-aerospace/entity/boeing-ch-47f-chinook-india-mae-003/,2026-08-29,4,boeing-ch-47f-chinook-india-mae-003.json
+mae-004,boeing-p-8i-neptune-india-mae-004,Boeing P-8I Neptune (India),platform,military-aerospace,A,false,/research/military-aerospace/entity/boeing-p-8i-neptune-india-mae-004/,2026-08-29,4,boeing-p-8i-neptune-india-mae-004.json
+boeing,boeing,"Boeing Defense, Space & Security",company,military-aerospace,A,false,/research/military-aerospace/company/boeing/,2026-08-29,6,boeing.json
+cus-045,bordtek-skywall-100-cus-045,OpenWorks Engineering SkyWall 100,system,counter-uas,C,true,/research/counter-uas/system/bordtek-skywall-100-cus-045/,2026-08-29,0,bordtek-skywall-100-cus-045.json
+brahmos-2,brahmos-2,BrahMos-II,platform,defence,C,true,/research/pillars/defence/entity/brahmos-2/,2026-08-30,1,brahmos-2.json
+mfg-019,brahmos-aerospace-mfg-019,BrahMos Aerospace Private Limited,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/brahmos-aerospace-mfg-019/,2026-08-29,11,brahmos-aerospace-mfg-019.json
+cus-010,c-dac-anti-drone-system-cus-010,C-DAC Anti-Drone System (Drone Kill System),system,counter-uas,B,false,/research/counter-uas/system/c-dac-anti-drone-system-cus-010/,2026-08-29,4,c-dac-anti-drone-system-cus-010.json
+mfg-010,c-dac-centre-for-development-of-advanced-computing-mfg-010,C-DAC (Centre for Development of Advanced Computing),manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/c-dac-centre-for-development-of-advanced-computing-mfg-010/,2026-08-29,0,c-dac-centre-for-development-of-advanced-computing-mfg-010.json
+c130j,c130j,Lockheed Martin C-130J-30 Super Hercules,platform,military-aerospace,A,false,/research/military-aerospace/platform/c130j/,2026-08-29,4,c130j.json
+c17,c17,Boeing C-17A Globemaster III (India),platform,military-aerospace,A,false,/research/military-aerospace/platform/c17/,2026-08-29,4,c17.json
+def-012,c295-india-def-012,Airbus C-295 (India build),platform,defence,A,false,/research/pillars/defence/entity/c295-india-def-012/,2026-08-29,4,c295-india-def-012.json
+c295,c295,Airbus C-295,platform,military-aerospace,A,false,/research/military-aerospace/platform/c295/,2026-08-29,4,c295.json
+c390,c390,Embraer C-390 Millennium,platform,military-aerospace,B,false,/research/military-aerospace/platform/c390/,2026-08-29,3,c390.json
+ceinsys,ceinsys,Ceinsys Tech Limited,company,military-aerospace,B,false,/research/military-aerospace/company/ceinsys/,2026-08-29,2,ceinsys.json
+cemilac,cemilac,Centre for Military Airworthiness & Certification (CEMILAC),company,military-aerospace,B,false,/research/military-aerospace/company/cemilac/,2026-08-29,3,cemilac.json
+cus-047,cerberus-gl6-cuas-capable-cus-047,Cerberus GL6 (CUAS-capable),system,counter-uas,C,true,/research/counter-uas/system/cerberus-gl6-cuas-capable-cus-047/,2026-08-29,0,cerberus-gl6-cuas-capable-cus-047.json
+chandrayaan-3,chandrayaan-3,Chandrayaan-3,platform,space,B,false,/research/space/entity/chandrayaan-3/,2026-08-30,3,chandrayaan-3.json
+collins,collins,Collins Aerospace,company,military-aerospace,C,true,/research/military-aerospace/company/collins/,2026-08-29,2,collins.json
+cosmoserv-space,cosmoserv-space,Cosmoserv Space,company,space,B,false,/research/space/company/cosmoserv-space/,2026-08-30,1,cosmoserv-space.json
+cus-002,counter-drone-system-ccuas-cus-002,Counter Drone System (CCUAS) Mk-II,system,counter-uas,C,true,/research/counter-uas/system/counter-drone-system-ccuas-cus-002/,2026-08-29,0,counter-drone-system-ccuas-cus-002.json
+cus-019,cuas-net-launcher-portable-cus-019,CUAS Net Launcher (Portable),system,counter-uas,C,true,/research/counter-uas/system/cuas-net-launcher-portable-cus-019/,2026-08-29,0,cuas-net-launcher-portable-cus-019.json
+mfg-021,dedrone-now-part-of-axon-mfg-021,Dedrone (now part of Axon),manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/dedrone-now-part-of-axon-mfg-021/,2026-08-29,0,dedrone-now-part-of-axon-mfg-021.json
+cus-034,dedroneplatform-cus-034,DedronePlatform,system,counter-uas,C,true,/research/counter-uas/system/dedroneplatform-cus-034/,2026-08-29,0,dedroneplatform-cus-034.json
+cus-008,defence-anti-drone-system-dads-cus-008,Defence Anti-Drone System (DADS),system,counter-uas,C,true,/research/counter-uas/system/defence-anti-drone-system-dads-cus-008/,2026-08-29,0,defence-anti-drone-system-dads-cus-008.json
+mfg-002,defence-research-and-development-organisation-drdo-mfg-002,Defence Research and Development Organisation,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/defence-research-and-development-organisation-drdo-mfg-002/,2026-08-29,8,defence-research-and-development-organisation-drdo-mfg-002.json
+department-of-space,department-of-space,Department of Space,company,space,C,true,/research/space/company/department-of-space/,2026-08-30,1,department-of-space.json
+cus-015,detect-destroy-anti-drone-system-cus-015,Detect & Destroy Anti-Drone System,system,counter-uas,C,true,/research/counter-uas/system/detect-destroy-anti-drone-system-cus-015/,2026-08-29,0,detect-destroy-anti-drone-system-cus-015.json
+dhruva-space,dhruva-space,Dhruva Space,company,space,B,false,/research/space/company/dhruva-space/,2026-08-30,2,dhruva-space.json
+cus-055,diehl-defence-hpem-high-power-em-cus-055,Diehl Defence HPEM High Power EM,system,counter-uas,C,true,/research/counter-uas/system/diehl-defence-hpem-high-power-em-cus-055/,2026-08-29,0,diehl-defence-hpem-high-power-em-cus-055.json
+mfg-043,diehl-defence-mfg-043,Diehl Defence,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/diehl-defence-mfg-043/,2026-08-29,0,diehl-defence-mfg-043.json
+digantara,digantara,Digantara,company,space,B,false,/research/space/company/digantara/,2026-08-30,1,digantara.json
+do228,do228,HAL Do-228,platform,military-aerospace,A,false,/research/military-aerospace/platform/do228/,2026-08-29,4,do228.json
+dowty,dowty,Dowty Propellers (GE Aerospace),company,military-aerospace,C,true,/research/military-aerospace/company/dowty/,2026-08-29,2,dowty.json
+mfg-007,drdo-aeronautical-development-establishment-ade-mfr-007,DRDO — Aeronautical Development Establishment (ADE),manufacturer,drones-uas,A,false,/research/drones-uas/company/drdo-aeronautical-development-establishment-ade-mfr-007/,2026-08-29,4,drdo-aeronautical-development-establishment-ade-mfr-007.json
+drn-001,drdo-tapas-bh-rustom-ii-drn-001,DRDO Tapas-BH (Rustom-II) MALE UAV,platform,drones-uas,A,false,/research/drones-uas/platform/drdo-tapas-bh-rustom-ii-drn-001/,2026-08-29,4,drdo-tapas-bh-rustom-ii-drn-001.json
+drishti-galaxeye,drishti-galaxeye,Drishti (GalaxEye),platform,space,B,false,/research/space/entity/drishti-galaxeye/,2026-08-29,5,drishti-galaxeye.json
+drn-0001,drn-0001,DRDO Abhyas,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0001/,2026-08-30,1,drn-0001.json
+drn-0002,drn-0002,DRDO Ghatak,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0002/,2026-08-30,1,drn-0002.json
+drn-0003,drn-0003,DRDO Archer,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0003/,2026-08-30,1,drn-0003.json
+drn-0004,drn-0004,DRDO Rustom-1,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0004/,2026-08-30,1,drn-0004.json
+drn-0005,drn-0005,DRDO Rustom-II,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0005/,2026-08-30,1,drn-0005.json
+drn-0006,drn-0006,DRDO Lakshya,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0006/,2026-08-30,1,drn-0006.json
+drn-0007,drn-0007,DRDO Nishant,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0007/,2026-08-30,1,drn-0007.json
+drn-0008,drn-0008,DRDO Netra,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0008/,2026-08-30,1,drn-0008.json
+drn-0009,drn-0009,DRDO Ulka,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0009/,2026-08-30,1,drn-0009.json
+drn-0010,drn-0010,DRDO Kapothaka,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0010/,2026-08-30,1,drn-0010.json
+drn-0011,drn-0011,DRDO Slybird,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0011/,2026-08-30,1,drn-0011.json
+drn-0012,drn-0012,DRDO Golden Hawk,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0012/,2026-08-30,1,drn-0012.json
+drn-0013,drn-0013,DRDO Pushpak,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0013/,2026-08-30,1,drn-0013.json
+drn-0014,drn-0014,DRDO Imperial Eagle,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0014/,2026-08-30,1,drn-0014.json
+drn-0015,drn-0015,HAL CATS Warrior,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0015/,2026-08-30,1,drn-0015.json
+drn-0016,drn-0016,HAL CATS Main,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0016/,2026-08-30,1,drn-0016.json
+drn-0017,drn-0017,HAL CATS Air,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0017/,2026-08-30,1,drn-0017.json
+drn-0018,drn-0018,ideaForge Switch,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0018/,2026-08-30,1,drn-0018.json
+drn-0019,drn-0019,ideaForge Netra,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0019/,2026-08-30,1,drn-0019.json
+drn-0020,drn-0020,ideaForge DEFENDER,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0020/,2026-08-30,1,drn-0020.json
+drn-0021,drn-0021,ideaForge SPYDER,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0021/,2026-08-30,1,drn-0021.json
+drn-0022,drn-0022,Adani Drishti 10,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0022/,2026-08-30,1,drn-0022.json
+drn-0023,drn-0023,Adani Akshi-7,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0023/,2026-08-30,1,drn-0023.json
+drn-0024,drn-0024,Garuda Aerospace surveillance,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0024/,2026-08-30,1,drn-0024.json
+drn-0025,drn-0025,Garuda Aerospace defence,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0025/,2026-08-30,1,drn-0025.json
+drn-0026,drn-0026,NewSpace Research swarm,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0026/,2026-08-30,1,drn-0026.json
+drn-0027,drn-0027,NewSpace Research Nagastra,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0027/,2026-08-30,1,drn-0027.json
+drn-0028,drn-0028,NewSpace Research autonomous,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0028/,2026-08-30,1,drn-0028.json
+drn-0029,drn-0029,Solar Industries Nagastra-1R,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0029/,2026-08-30,1,drn-0029.json
+drn-0030,drn-0030,Solar Industries loitering,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0030/,2026-08-30,1,drn-0030.json
+drn-0031,drn-0031,Zen Technologies Vyomkavach,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0031/,2026-08-30,1,drn-0031.json
+drn-0032,drn-0032,Zen Technologies anti-drone,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0032/,2026-08-30,1,drn-0032.json
+drn-0033,drn-0033,Dhaksha unmanned,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0033/,2026-08-30,1,drn-0033.json
+drn-0034,drn-0034,Dhaksha swarming,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0034/,2026-08-30,1,drn-0034.json
+drn-0035,drn-0035,IAI Heron,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0035/,2026-08-30,1,drn-0035.json
+drn-0036,drn-0036,IAI Heron Mk II,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0036/,2026-08-30,1,drn-0036.json
+drn-0037,drn-0037,IAI Searcher,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0037/,2026-08-30,1,drn-0037.json
+drn-0038,drn-0038,General Atomics MQ-9B SeaGuardian,platform,drones-uas,C,true,/research/drones-uas/platform/drn-0038/,2026-08-30,1,drn-0038.json
+drn-0039,drn-0039,Boeing Insitu ScanEagle,platform,drones-uas,C,true,/research/drones-uas/platform/drn-0039/,2026-08-30,1,drn-0039.json
+drn-0040,drn-0040,Boeing Insitu RQ-20 Puma,platform,drones-uas,C,true,/research/drones-uas/platform/drn-0040/,2026-08-30,1,drn-0040.json
+drn-0041,drn-0041,Elbit Hermes 900,platform,drones-uas,C,true,/research/drones-uas/platform/drn-0041/,2026-08-30,1,drn-0041.json
+drn-0042,drn-0042,Elbit Skylark,platform,drones-uas,C,true,/research/drones-uas/platform/drn-0042/,2026-08-30,1,drn-0042.json
+drn-0043,drn-0043,Aeronautics Defense Orbiter,platform,drones-uas,C,true,/research/drones-uas/platform/drn-0043/,2026-08-30,1,drn-0043.json
+drn-0044,drn-0044,DJI Matrice,platform,drones-uas,C,true,/research/drones-uas/platform/drn-0044/,2026-08-30,1,drn-0044.json
+drn-0045,drn-0045,DJI Mavic,platform,drones-uas,C,true,/research/drones-uas/platform/drn-0045/,2026-08-30,1,drn-0045.json
+drn-0046,drn-0046,Baykar Bayraktar TB2,platform,drones-uas,C,true,/research/drones-uas/platform/drn-0046/,2026-08-30,1,drn-0046.json
+drn-0047,drn-0047,Chinese commercial drones,platform,drones-uas,C,true,/research/drones-uas/platform/drn-0047/,2026-08-30,1,drn-0047.json
+drn-0048,drn-0048,IAI NRUAV,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0048/,2026-08-30,1,drn-0048.json
+drn-0049,drn-0049,DRDO Trinetra,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0049/,2026-08-30,1,drn-0049.json
+drn-0050,drn-0050,Raphe mPhibr tactical,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0050/,2026-08-30,1,drn-0050.json
+drn-0051,drn-0051,TASL tactical UAS,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0051/,2026-08-30,1,drn-0051.json
+drn-0052,drn-0052,L&T high-altitude platform,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0052/,2026-08-30,1,drn-0052.json
+drn-0053,drn-0053,Asteria Aerospace surveillance,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0053/,2026-08-30,1,drn-0053.json
+drn-0054,drn-0054,Kadet Defence Systems,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0054/,2026-08-30,1,drn-0054.json
+drn-0055,drn-0055,Paras Defence drone,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0055/,2026-08-30,1,drn-0055.json
+drn-0056,drn-0056,Alpha Design Technologies,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0056/,2026-08-30,1,drn-0056.json
+drn-0057,drn-0057,TechEagle logistics,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0057/,2026-08-30,1,drn-0057.json
+drn-0058,drn-0058,Redwing Labs,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0058/,2026-08-30,1,drn-0058.json
+drn-0059,drn-0059,Zuppa Geo Navigation,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0059/,2026-08-30,1,drn-0059.json
+drn-0060,drn-0060,Throttle Aerospace,platform,drones-uas,B,false,/research/drones-uas/platform/drn-0060/,2026-08-30,1,drn-0060.json
+cus-020,drona-counter-drone-smart-city-cus-020,DRONA Counter-Drone Smart City,system,counter-uas,C,true,/research/counter-uas/system/drona-counter-drone-smart-city-cus-020/,2026-08-29,0,drona-counter-drone-smart-city-cus-020.json
+cus-021,dronedefender-cus-021,DroneDefender,system,counter-uas,C,true,/research/counter-uas/system/dronedefender-cus-021/,2026-08-29,0,dronedefender-cus-021.json
+cus-022,dronegun-tactical-cus-022,DroneGun Tactical,system,counter-uas,C,true,/research/counter-uas/system/dronegun-tactical-cus-022/,2026-08-29,0,dronegun-tactical-cus-022.json
+cus-023,dronesentry-x-cus-023,DroneSentry-X,system,counter-uas,C,true,/research/counter-uas/system/dronesentry-x-cus-023/,2026-08-29,0,dronesentry-x-cus-023.json
+mfg-020,droneshield-mfg-020,DroneShield,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/droneshield-mfg-020/,2026-08-29,0,droneshield-mfg-020.json
+dynamatic,dynamatic,Dynamatic Technologies Limited,company,military-aerospace,A,false,/research/military-aerospace/company/dynamatic/,2026-08-29,4,dynamatic.json
+cus-040,elbit-bright-arrow-soft-hard-kill-cus-040,Elbit Bright Arrow (Soft/Hard Kill),system,counter-uas,C,true,/research/counter-uas/system/elbit-bright-arrow-soft-hard-kill-cus-040/,2026-08-29,0,elbit-bright-arrow-soft-hard-kill-cus-040.json
+mfg-032,elbit-systems-mfg-032,Elbit Systems Limited,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/elbit-systems-mfg-032/,2026-08-29,7,elbit-systems-mfg-032.json
+elbit,elbit,Elbit Systems Limited,company,military-aerospace,A,false,/research/military-aerospace/company/elbit/,2026-08-29,7,elbit.json
+embrace-cosmoserv,embrace-cosmoserv,Embrace (Cosmoserve Space),platform,space,C,true,/research/space/entity/embrace-cosmoserv/,2026-08-29,2,embrace-cosmoserv.json
+embraer,embraer,Embraer Defense & Security,company,military-aerospace,B,false,/research/military-aerospace/company/embraer/,2026-08-29,4,embraer.json
+eon-space-labs,eon-space-labs,EON Space Labs,company,space,B,false,/research/space/company/eon-space-labs/,2026-08-30,1,eon-space-labs.json
+cus-052,epirus-leonidas-pod-hpm-cus-052,Epirus Leonidas Pod HPM,system,counter-uas,C,true,/research/counter-uas/system/epirus-leonidas-pod-hpm-cus-052/,2026-08-29,0,epirus-leonidas-pod-hpm-cus-052.json
+mfg-040,epirus-mfg-040,Epirus,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/epirus-mfg-040/,2026-08-29,0,epirus-mfg-040.json
+cus-049,esc-britecloud-drfm-decoy-cuas-capable-cus-049,ESC BriteCloud DRFM Decoy (CUAS-capable),system,counter-uas,C,true,/research/counter-uas/system/esc-britecloud-drfm-decoy-cuas-capable-cus-049/,2026-08-29,0,esc-britecloud-drfm-decoy-cuas-capable-cus-049.json
+etherealx,etherealx,EtherealX,company,space,B,false,/research/space/company/etherealx/,2026-08-30,1,etherealx.json
+europrop,europrop,Europrop International,company,military-aerospace,C,true,/research/military-aerospace/company/europrop/,2026-08-29,2,europrop.json
+everest-engine,everest-engine,Everest Engine,platform,space,C,true,/research/space/entity/everest-engine/,2026-08-30,0,everest-engine.json
+firefly-constellation,firefly-constellation,Pixxel Firefly Constellation,platform,space,A,false,/research/space/entity/firefly-constellation/,2026-08-29,6,firefly-constellation.json
+cus-033,fortem-skydome-system-cus-033,Fortem SkyDome System,system,counter-uas,C,true,/research/counter-uas/system/fortem-skydome-system-cus-033/,2026-08-29,0,fortem-skydome-system-cus-033.json
+mfg-022,fortem-technologies-mfg-022,Fortem Technologies,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/fortem-technologies-mfg-022/,2026-08-29,0,fortem-technologies-mfg-022.json
+gaganyaan,gaganyaan,Gaganyaan Crewed Spacecraft Programme,platform,space,A,false,/research/space/entity/gaganyaan/,2026-08-30,4,gaganyaan.json
+galaxeye,galaxeye,GalaxEye,company,space,B,false,/research/space/company/galaxeye/,2026-08-30,1,galaxeye.json
+mfg-008,garuda-aerospace-mfg-008,Garuda Aerospace Private Limited,manufacturer,counter-uas,B,false,/research/counter-uas/manufacturer/garuda-aerospace-mfg-008/,2026-08-29,6,garuda-aerospace-mfg-008.json
+cus-007,garuda-anti-drone-system-cus-007,Garuda Anti-Drone System,system,counter-uas,B,false,/research/counter-uas/system/garuda-anti-drone-system-cus-007/,2026-08-29,4,garuda-anti-drone-system-cus-007.json
+godrej-aerospace,godrej-aerospace,Godrej Aerospace,company,military-aerospace,B,false,/research/military-aerospace/company/godrej-aerospace/,2026-08-29,3,godrej-aerospace.json
+grahaa-space,grahaa-space,Grahaa Space,company,space,B,false,/research/space/company/grahaa-space/,2026-08-30,1,grahaa-space.json
+mfg-007,grene-robotics-mfg-007,Grene Robotics Private Limited,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/grene-robotics-mfg-007/,2026-08-29,6,grene-robotics-mfg-007.json
+gtre,gtre,Gas Turbine Research Establishment (GTRE),company,military-aerospace,A,false,/research/military-aerospace/company/gtre/,2026-08-29,4,gtre.json
+def-013,hal-dhruv-alh-def-013,HAL Dhruv Advanced Light Helicopter (ALH),platform,defence,A,false,/research/pillars/defence/entity/hal-dhruv-alh-def-013/,2026-08-29,4,hal-dhruv-alh-def-013.json
+cus-059,hal-integrated-cuas-airborne-cus-059,HAL Integrated CUAS (Airborne),system,counter-uas,C,true,/research/counter-uas/system/hal-integrated-cuas-airborne-cus-059/,2026-08-29,0,hal-integrated-cuas-airborne-cus-059.json
+def-014,hal-lch-prachand-def-014,HAL LCH Prachand (Light Combat Helicopter),platform,defence,A,false,/research/pillars/defence/entity/hal-lch-prachand-def-014/,2026-08-29,4,hal-lch-prachand-def-014.json
+mae-001,hal-mig-29upg-mae-001,HAL MiG-29UPG,platform,military-aerospace,A,false,/research/military-aerospace/entity/hal-mig-29upg-mae-001/,2026-08-29,4,hal-mig-29upg-mae-001.json
+hal-space,hal-space,HAL Space Division,company,space,C,true,/research/space/company/hal-space/,2026-08-30,1,hal-space.json
+def-015,hal-su-30mki-def-015,HAL Su-30MKI (Sukhoi Su-30MKI),platform,defence,A,false,/research/pillars/defence/entity/hal-su-30mki-def-015/,2026-08-29,4,hal-su-30mki-def-015.json
+hal,hal,Hindustan Aeronautics Limited,company,military-aerospace,A,false,/research/military-aerospace/company/hal/,2026-08-29,8,hal.json
+hamilton,hamilton,Hamilton Sundstrand (Collins Aerospace),company,military-aerospace,C,true,/research/military-aerospace/company/hamilton/,2026-08-29,2,hamilton.json
+helina,helina,HELINA,platform,defence,C,true,/research/pillars/defence/entity/helina/,2026-08-30,1,helina.json
+mfg-028,hensoldt-mfg-028,Hensoldt,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/hensoldt-mfg-028/,2026-08-29,0,hensoldt-mfg-028.json
+cus-032,hensoldt-xpeller-counter-uas-cus-032,Hensoldt Xpeller Counter-UAS,system,counter-uas,C,true,/research/counter-uas/system/hensoldt-xpeller-counter-uas-cus-032/,2026-08-29,0,hensoldt-xpeller-counter-uas-cus-032.json
+hex20,hex20,Hex20,company,space,B,false,/research/space/company/hex20/,2026-08-30,1,hex20.json
+hi-lok-cherry,hi-lok-cherry,Hi-Lok / Cherry Aerospace Fastening Systems,company,military-aerospace,C,true,/research/military-aerospace/company/hi-lok-cherry/,2026-08-29,2,hi-lok-cherry.json
+mfg-017,hindustan-aeronautics-limited-hal-mfg-017,Hindustan Aeronautics Limited,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/hindustan-aeronautics-limited-hal-mfg-017/,2026-08-29,8,hindustan-aeronautics-limited-hal-mfg-017.json
+honeywell,honeywell,Honeywell Aerospace,company,military-aerospace,B,false,/research/military-aerospace/company/honeywell/,2026-08-29,3,honeywell.json
+hs748,hs748,HAL HS-748 'Avro',platform,military-aerospace,B,false,/research/military-aerospace/platform/hs748/,2026-08-29,3,hs748.json
+htt40,htt40,HAL HTT-40,platform,military-aerospace,A,false,/research/military-aerospace/platform/htt40/,2026-08-29,4,htt40.json
+iae,iae,International Aero Engines,company,military-aerospace,C,true,/research/military-aerospace/company/iae/,2026-08-29,2,iae.json
+iaf,iaf,Indian Air Force,company,military-aerospace,B,false,/research/military-aerospace/company/iaf/,2026-08-29,4,iaf.json
+cus-027,iai-drone-guard-cus-027,IAI Drone Guard,system,counter-uas,C,true,/research/counter-uas/system/iai-drone-guard-cus-027/,2026-08-29,0,iai-drone-guard-cus-027.json
+cus-028,iai-elm-2182-drone-detection-radar-cus-028,IAI EL/M-2182 Drone Detection Radar,system,counter-uas,C,true,/research/counter-uas/system/iai-elm-2182-drone-detection-radar-cus-028/,2026-08-29,0,iai-elm-2182-drone-detection-radar-cus-028.json
+drn-005,iai-heron-tp-india-drn-005,IAI Heron TP (India),platform,drones-uas,C,true,/research/drones-uas/platform/iai-heron-tp-india-drn-005/,2026-08-29,0,iai-heron-tp-india-drn-005.json
+drn-006,iai-searcher-mk-ii-india-drn-006,IAI Searcher Mk II (India),platform,drones-uas,A,false,/research/drones-uas/platform/iai-searcher-mk-ii-india-drn-006/,2026-08-29,4,iai-searcher-mk-ii-india-drn-006.json
+drn-003,ideaforge-netra-v4-drn-003,ideaForge NETRA V4 UAV,platform,drones-uas,A,false,/research/drones-uas/platform/ideaforge-netra-v4-drn-003/,2026-08-29,4,ideaforge-netra-v4-drn-003.json
+drn-002,ideaforge-switch-uav-drn-002,ideaForge Switch UAV,platform,drones-uas,A,false,/research/drones-uas/platform/ideaforge-switch-uav-drn-002/,2026-08-29,4,ideaforge-switch-uav-drn-002.json
+mfg-014,ideaforge-technology-ltd-mfr-014,ideaForge Technology Ltd,manufacturer,drones-uas,A,false,/research/drones-uas/company/ideaforge-technology-ltd-mfr-014/,2026-08-29,4,ideaforge-technology-ltd-mfr-014.json
+cus-018,igla-s-manpad-integration-anti-drone-cus-018,Igla-S MANPAD (Anti-Drone Role),system,counter-uas,B,false,/research/counter-uas/system/igla-s-manpad-integration-anti-drone-cus-018/,2026-08-29,5,igla-s-manpad-integration-anti-drone-cus-018.json
+il76,il76,Ilyushin Il-76MD 'Gajraj',platform,military-aerospace,A,false,/research/military-aerospace/platform/il76/,2026-08-29,4,il76.json
+ilyushin,ilyushin,Ilyushin Aviation Complex,company,military-aerospace,B,false,/research/military-aerospace/company/ilyushin/,2026-08-29,4,ilyushin.json
+in-space,in-space,IN-SPACe,company,space,C,true,/research/space/company/in-space/,2026-08-30,1,in-space.json
+cus-005,indrajaal-anti-drone-system-cus-005,Indrajaal Anti-Drone System,system,counter-uas,A,false,/research/counter-uas/system/indrajaal-anti-drone-system-cus-005/,2026-08-29,4,indrajaal-anti-drone-system-cus-005.json
+inorbit-space,inorbit-space,InOrbit Space,company,space,B,false,/research/space/company/inorbit-space/,2026-08-30,1,inorbit-space.json
+cus-016,insas-counter-drone-naval-cus-016,INSAS Counter-Drone Naval System,system,counter-uas,C,true,/research/counter-uas/system/insas-counter-drone-naval-cus-016/,2026-08-29,0,insas-counter-drone-naval-cus-016.json
+cus-001,integrated-counter-drone-system-cus-001,BEL Integrated Counter Drone System,system,counter-uas,A,false,/research/counter-uas/system/integrated-counter-drone-system-cus-001/,2026-08-29,4,integrated-counter-drone-system-cus-001.json
+intel-xilinx,intel-xilinx,Avionics Microelectronics — Intel / AMD-Xilinx / Microchip-Microsemi / TI / ST,company,military-aerospace,C,true,/research/military-aerospace/company/intel-xilinx/,2026-08-29,2,intel-xilinx.json
+cus-051,iron-beam-laser-cuas-cus-051,Iron Beam Laser CUAS,system,counter-uas,C,true,/research/counter-uas/system/iron-beam-laser-cuas-cus-051/,2026-08-29,0,iron-beam-laser-cuas-cus-051.json
+mfg-024,israel-aerospace-industries-iai-elta-mfg-024,Israel Aerospace Industries (IAI) / ELTA Systems,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/israel-aerospace-industries-iai-elta-mfg-024/,2026-08-29,8,israel-aerospace-industries-iai-elta-mfg-024.json
+mfg-001,israel-aerospace-industries-iai-mfr-001,Israel Aerospace Industries (IAI),manufacturer,drones-uas,A,false,/research/drones-uas/company/israel-aerospace-industries-iai-mfr-001/,2026-08-29,4,israel-aerospace-industries-iai-mfr-001.json
+spc-003,isro-gaganyaan-spc-003,ISRO Gaganyaan Crewed Spacecraft Programme,platform,space,A,false,/research/space/entity/isro-gaganyaan-spc-003/,2026-08-29,4,isro-gaganyaan-spc-003.json
+spc-002,isro-lvm3-spc-002,ISRO LVM3 (Launch Vehicle Mark 3 / GSLV Mk III),platform,space,A,false,/research/space/entity/isro-lvm3-spc-002/,2026-08-29,4,isro-lvm3-spc-002.json
+spc-004,isro-navic-spc-004,ISRO NavIC (Navigation with Indian Constellation),platform,space,A,false,/research/space/entity/isro-navic-spc-004/,2026-08-29,4,isro-navic-spc-004.json
+spc-001,isro-pslv-spc-001,ISRO PSLV (Polar Satellite Launch Vehicle),platform,space,A,false,/research/space/entity/isro-pslv-spc-001/,2026-08-29,4,isro-pslv-spc-001.json
+isro,isro,ISRO,company,space,C,true,/research/space/company/isro/,2026-08-30,1,isro.json
+ivchenko-progress,ivchenko-progress,Ivchenko-Progress / Motor Sich,company,military-aerospace,C,true,/research/military-aerospace/company/ivchenko-progress/,2026-08-29,2,ivchenko-progress.json
+k-15,k-15,K-15,platform,defence,C,true,/research/pillars/defence/entity/k-15/,2026-08-30,1,k-15.json
+k-4,k-4,K-4,platform,defence,C,true,/research/pillars/defence/entity/k-4/,2026-08-30,1,k-4.json
+def-016,k9-vajra-t-def-016,K9 Vajra-T 155mm Tracked Self-Propelled Howitzer,platform,defence,A,false,/research/pillars/defence/entity/k9-vajra-t-def-016/,2026-08-29,5,k9-vajra-t-def-016.json
+cus-058,kalyani-group-bharat-cuas-cus-058,Kalyani Bharat CUAS,system,counter-uas,B,false,/research/counter-uas/system/kalyani-group-bharat-cuas-cus-058/,2026-08-29,3,kalyani-group-bharat-cuas-cus-058.json
+mfg-016,kalyani-strategic-systems-bharat-forge-mfg-016,Kalyani Strategic Systems Limited (Bharat Forge),manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/kalyani-strategic-systems-bharat-forge-mfg-016/,2026-08-29,8,kalyani-strategic-systems-bharat-forge-mfg-016.json
+kepler-aerospace,kepler-aerospace,Kepler Aerospace,company,space,B,false,/research/space/company/kepler-aerospace/,2026-08-30,1,kepler-aerospace.json
+mfg-042,knds-france-mfg-042,KNDS France,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/knds-france-mfg-042/,2026-08-29,0,knds-france-mfg-042.json
+cus-054,knds-france-rapidfire-naval-cuas-cus-054,KNDS France RapidFire Naval CUAS,system,counter-uas,C,true,/research/counter-uas/system/knds-france-rapidfire-naval-cuas-cus-054/,2026-08-29,0,knds-france-rapidfire-naval-cuas-cus-054.json
+cus-014,kriti-counter-drone-system-cus-014,Kriti Counter-Drone System,system,counter-uas,C,true,/research/counter-uas/system/kriti-counter-drone-system-cus-014/,2026-08-29,0,kriti-counter-drone-system-cus-014.json
+mfg-012,kritikal-securescan-mfg-012,Kritikal Securescan,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/kritikal-securescan-mfg-012/,2026-08-29,0,kritikal-securescan-mfg-012.json
+cus-057,l-t-defence-counter-drone-system-cus-057,L&T Defence Counter Drone System,system,counter-uas,B,false,/research/counter-uas/system/l-t-defence-counter-drone-system-cus-057/,2026-08-29,2,l-t-defence-counter-drone-system-cus-057.json
+mfg-033,l3harris-technologies-mfg-033,L3Harris Technologies,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/l3harris-technologies-mfg-033/,2026-08-29,0,l3harris-technologies-mfg-033.json
+cus-041,l3harris-vampire-cuas-variant-cus-041,L3Harris VAMPIRE CUAS Variant,system,counter-uas,C,true,/research/counter-uas/system/l3harris-vampire-cuas-variant-cus-041/,2026-08-29,0,l3harris-vampire-cuas-variant-cus-041.json
+mfg-015,larsen-toubro-l-t-defence-mfg-015,Larsen & Toubro Limited (Defence),manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/larsen-toubro-l-t-defence-mfg-015/,2026-08-29,7,larsen-toubro-l-t-defence-mfg-015.json
+larsen-toubro-space,larsen-toubro-space,Larsen & Toubro Space,company,space,B,false,/research/space/company/larsen-toubro-space/,2026-08-30,1,larsen-toubro-space.json
+cus-029,leonardo-falcon-shield-cus-029,Leonardo Falcon Shield,system,counter-uas,C,true,/research/counter-uas/system/leonardo-falcon-shield-cus-029/,2026-08-29,0,leonardo-falcon-shield-cus-029.json
+mfg-025,leonardo-mfg-025,Leonardo,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/leonardo-mfg-025/,2026-08-29,0,leonardo-mfg-025.json
+lnt-defence,lnt-defence,Larsen & Toubro Defence,company,military-aerospace,A,false,/research/military-aerospace/company/lnt-defence/,2026-08-29,7,lnt-defence.json
+mae-005,lockheed-c-130j-30-india-mae-005,Lockheed Martin C-130J-30 (India),platform,military-aerospace,A,false,/research/military-aerospace/entity/lockheed-c-130j-30-india-mae-005/,2026-08-29,4,lockheed-c-130j-30-india-mae-005.json
+cus-037,lockheed-martin-athena-cus-037,Lockheed Martin ATHENA,system,counter-uas,C,true,/research/counter-uas/system/lockheed-martin-athena-cus-037/,2026-08-29,0,lockheed-martin-athena-cus-037.json
+mfg-030,lockheed-martin-mfg-030,Lockheed Martin,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/lockheed-martin-mfg-030/,2026-08-29,0,lockheed-martin-mfg-030.json
+lockheed-martin-space,lockheed-martin-space,Lockheed Martin Space,company,space,B,false,/research/space/company/lockheed-martin-space/,2026-08-30,1,lockheed-martin-space.json
+lockheed,lockheed,Lockheed Martin Aeronautics,company,military-aerospace,B,false,/research/military-aerospace/company/lockheed/,2026-08-29,5,lockheed.json
+lvm3,lvm3,LVM3 (Launch Vehicle Mark 3 / GSLV Mk III),platform,space,A,false,/research/space/entity/lvm3/,2026-08-30,4,lvm3.json
+maareech,maareech,Maareech,platform,defence,C,true,/research/pillars/defence/entity/maareech/,2026-08-30,1,maareech.json
+mahindra-aero,mahindra-aero,Mahindra Aerospace,company,military-aerospace,B,false,/research/military-aerospace/company/mahindra-aero/,2026-08-29,2,mahindra-aero.json
+mahindra-defence,mahindra-defence,Mahindra Defence Systems Limited,company,military-aerospace,B,false,/research/military-aerospace/company/mahindra-defence/,2026-08-29,4,mahindra-defence.json
+maini-precision,maini-precision,Maini Precision Products Limited,company,military-aerospace,B,false,/research/military-aerospace/company/maini-precision/,2026-08-29,1,maini-precision.json
+manastu-space,manastu-space,Manastu Space,company,space,B,false,/research/space/company/manastu-space/,2026-08-30,1,manastu-space.json
+maxar,maxar,Maxar,company,space,B,false,/research/space/company/maxar/,2026-08-30,1,maxar.json
+mfg-034,mbda-mfg-034,MBDA,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/mbda-mfg-034/,2026-08-29,0,mbda-mfg-034.json
+cus-042,mbda-sky-warden-cus-042,MBDA Sky Warden,system,counter-uas,C,true,/research/counter-uas/system/mbda-sky-warden-cus-042/,2026-08-29,0,mbda-sky-warden-cus-042.json
+mfr-001,mfr-001,DRDO Aeronautical Development Establishment,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-001/,2026-08-30,1,mfr-001.json
+mfr-002,mfr-002,DRDO Research and Development Establishment,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-002/,2026-08-30,1,mfr-002.json
+mfr-003,mfr-003,Hindustan Aeronautics Limited,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-003/,2026-08-30,1,mfr-003.json
+mfr-004,mfr-004,Bharat Electronics Limited,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-004/,2026-08-30,1,mfr-004.json
+mfr-005,mfr-005,ideaForge Technology,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-005/,2026-08-30,1,mfr-005.json
+mfr-006,mfr-006,Adani Defence & Aerospace,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-006/,2026-08-30,1,mfr-006.json
+mfr-007,mfr-007,Garuda Aerospace,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-007/,2026-08-30,1,mfr-007.json
+mfr-008,mfr-008,NewSpace Research & Technologies,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-008/,2026-08-30,1,mfr-008.json
+mfr-009,mfr-009,Solar Industries India,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-009/,2026-08-30,1,mfr-009.json
+mfr-010,mfr-010,Zen Technologies,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-010/,2026-08-30,1,mfr-010.json
+mfr-011,mfr-011,Dhaksha Unmanned Systems,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-011/,2026-08-30,1,mfr-011.json
+mfr-012,mfr-012,Israel Aerospace Industries,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-012/,2026-08-30,1,mfr-012.json
+mfr-013,mfr-013,General Atomics Aeronautical Systems,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-013/,2026-08-30,1,mfr-013.json
+mfr-014,mfr-014,Boeing Insitu,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-014/,2026-08-30,1,mfr-014.json
+mfr-015,mfr-015,Elbit Systems,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-015/,2026-08-30,1,mfr-015.json
+mfr-016,mfr-016,Aeronautics Defense,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-016/,2026-08-30,1,mfr-016.json
+mfr-017,mfr-017,DJI,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-017/,2026-08-30,1,mfr-017.json
+mfr-018,mfr-018,Baykar,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-018/,2026-08-30,1,mfr-018.json
+mfr-019,mfr-019,L&T Defence,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-019/,2026-08-30,1,mfr-019.json
+mfr-020,mfr-020,Paras Defence & Space Technologies,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-020/,2026-08-30,1,mfr-020.json
+mfr-021,mfr-021,Tata Advanced Systems Limited,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-021/,2026-08-30,1,mfr-021.json
+mfr-022,mfr-022,Asteria Aerospace,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-022/,2026-08-30,1,mfr-022.json
+mfr-023,mfr-023,Raphe mPhibr,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-023/,2026-08-30,1,mfr-023.json
+mfr-024,mfr-024,RattanIndia Enterprises / NeoSky,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-024/,2026-08-30,1,mfr-024.json
+mfr-025,mfr-025,Alpha Design Technologies,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-025/,2026-08-30,1,mfr-025.json
+mfr-026,mfr-026,Kadet Defence Systems,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-026/,2026-08-30,1,mfr-026.json
+mfr-027,mfr-027,TechEagle,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-027/,2026-08-30,1,mfr-027.json
+mfr-028,mfr-028,Redwing Labs,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-028/,2026-08-30,1,mfr-028.json
+mfr-029,mfr-029,Zuppa Geo Navigation,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-029/,2026-08-30,1,mfr-029.json
+mfr-030,mfr-030,Throttle Aerospace,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-030/,2026-08-30,1,mfr-030.json
+mfr-031,mfr-031,Kotai Electronics,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-031/,2026-08-30,1,mfr-031.json
+mfr-032,mfr-032,Apollyon Dynamics,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-032/,2026-08-30,1,mfr-032.json
+mfr-033,mfr-033,IIT Madras / NCCRD,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-033/,2026-08-30,1,mfr-033.json
+mfr-034,mfr-034,NAL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-034/,2026-08-30,1,mfr-034.json
+mfr-035,mfr-035,CSIR-NAL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-035/,2026-08-30,1,mfr-035.json
+mfr-036,mfr-036,Bharat Electronics Limited,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-036/,2026-08-30,1,mfr-036.json
+mfr-037,mfr-037,Economic Explosives Ltd,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-037/,2026-08-30,1,mfr-037.json
+mfr-038,mfr-038,Raphe mPhibr Noida,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-038/,2026-08-30,1,mfr-038.json
+mfr-039,mfr-039,Safran Electronics India,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-039/,2026-08-30,1,mfr-039.json
+mfr-040,mfr-040,Honeywell Aerospace India,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-040/,2026-08-30,1,mfr-040.json
+mfr-041,mfr-041,Cobham plc,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-041/,2026-08-30,1,mfr-041.json
+mfr-042,mfr-042,SAAB,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-042/,2026-08-30,1,mfr-042.json
+mfr-043,mfr-043,Thales,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-043/,2026-08-30,1,mfr-043.json
+mfr-044,mfr-044,Leonardo,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-044/,2026-08-30,1,mfr-044.json
+mfr-045,mfr-045,MBDA,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-045/,2026-08-30,1,mfr-045.json
+mfr-046,mfr-046,IMI,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-046/,2026-08-30,1,mfr-046.json
+mfr-047,mfr-047,Rafael,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-047/,2026-08-30,1,mfr-047.json
+mfr-048,mfr-048,Hanwha Systems,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-048/,2026-08-30,1,mfr-048.json
+mfr-049,mfr-049,LIG Nex1,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-049/,2026-08-30,1,mfr-049.json
+mfr-050,mfr-050,Aselsan,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-050/,2026-08-30,1,mfr-050.json
+mfr-051,mfr-051,Fırat Elektronik,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-051/,2026-08-30,1,mfr-051.json
+mfr-052,mfr-052,QinetiQ,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-052/,2026-08-30,1,mfr-052.json
+mfr-053,mfr-053,Mitsubishi Electric,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-053/,2026-08-30,1,mfr-053.json
+mfr-054,mfr-054,Tata Motors,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-054/,2026-08-30,1,mfr-054.json
+mfr-055,mfr-055,Mahindra Defence Systems,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-055/,2026-08-30,1,mfr-055.json
+mfr-056,mfr-056,Bharat Forge,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-056/,2026-08-30,1,mfr-056.json
+mfr-057,mfr-057,Godrej & Boyce,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-057/,2026-08-30,1,mfr-057.json
+mfr-058,mfr-058,Ashok Leyland,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-058/,2026-08-30,1,mfr-058.json
+mfr-059,mfr-059,Kalyani Group,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-059/,2026-08-30,1,mfr-059.json
+mfr-060,mfr-060,Adani Group,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-060/,2026-08-30,1,mfr-060.json
+mfr-061,mfr-061,Reliance Defence,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-061/,2026-08-30,1,mfr-061.json
+mfr-062,mfr-062,Sunnyvale Advanced Defence,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-062/,2026-08-30,1,mfr-062.json
+mfr-063,mfr-063,Sagar Defence Engineering,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-063/,2026-08-30,1,mfr-063.json
+mfr-064,mfr-064,Cyient,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-064/,2026-08-30,1,mfr-064.json
+mfr-065,mfr-065,HCL Technologies,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-065/,2026-08-30,1,mfr-065.json
+mfr-066,mfr-066,Wipro,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-066/,2026-08-30,1,mfr-066.json
+mfr-067,mfr-067,Tech Mahindra,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-067/,2026-08-30,1,mfr-067.json
+mfr-068,mfr-068,Larsen & Toubro Technology Services,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-068/,2026-08-30,1,mfr-068.json
+mfr-069,mfr-069,BEL Opto Systems,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-069/,2026-08-30,1,mfr-069.json
+mfr-070,mfr-070,SAL Electro Systems,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-070/,2026-08-30,1,mfr-070.json
+mfr-071,mfr-071,Data Patterns,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-071/,2026-08-30,1,mfr-071.json
+mfr-072,mfr-072,Centum Electronics,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-072/,2026-08-30,1,mfr-072.json
+mfr-073,mfr-073,Ruttonsha International,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-073/,2026-08-30,1,mfr-073.json
+mfr-074,mfr-074,Ample Communications,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-074/,2026-08-30,1,mfr-074.json
+mfr-075,mfr-075,Hindustan Electronics,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-075/,2026-08-30,1,mfr-075.json
+mfr-076,mfr-076,ECIL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-076/,2026-08-30,1,mfr-076.json
+mfr-077,mfr-077,Bharat Electronics Limited,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-077/,2026-08-30,1,mfr-077.json
+mfr-078,mfr-078,Mistral Solutions,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-078/,2026-08-30,1,mfr-078.json
+mfr-079,mfr-079,Smartsoc Technologies,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-079/,2026-08-30,1,mfr-079.json
+mfr-080,mfr-080,SFO Technologies,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-080/,2026-08-30,1,mfr-080.json
+mfr-081,mfr-081,Bharat Electronics Limited Bengaluru,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-081/,2026-08-30,1,mfr-081.json
+mfr-082,mfr-082,HAL Design,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-082/,2026-08-30,1,mfr-082.json
+mfr-083,mfr-083,HAL Manufacturing,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-083/,2026-08-30,1,mfr-083.json
+mfr-084,mfr-084,HAL Systems,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-084/,2026-08-30,1,mfr-084.json
+mfr-085,mfr-085,DRDO LRDE,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-085/,2026-08-30,1,mfr-085.json
+mfr-086,mfr-086,DRDO RCI,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-086/,2026-08-30,1,mfr-086.json
+mfr-087,mfr-087,DRDO CHESS,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-087/,2026-08-30,1,mfr-087.json
+mfr-088,mfr-088,DRDO LASTEC,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-088/,2026-08-30,1,mfr-088.json
+mfr-089,mfr-089,DRDO DEAL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-089/,2026-08-30,1,mfr-089.json
+mfr-090,mfr-090,DRDO DRL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-090/,2026-08-30,1,mfr-090.json
+mfr-091,mfr-091,DRDO DMRL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-091/,2026-08-30,1,mfr-091.json
+mfr-092,mfr-092,DRDO DMSRDE,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-092/,2026-08-30,1,mfr-092.json
+mfr-093,mfr-093,DRDO INMAS,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-093/,2026-08-30,1,mfr-093.json
+mfr-094,mfr-094,DRDO SSPL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-094/,2026-08-30,1,mfr-094.json
+mfr-095,mfr-095,DRDO SPL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-095/,2026-08-30,1,mfr-095.json
+mfr-096,mfr-096,DRDO ASL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-096/,2026-08-30,1,mfr-096.json
+mfr-097,mfr-097,DRDO DRL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-097/,2026-08-30,1,mfr-097.json
+mfr-098,mfr-098,DRDO DMSRDE,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-098/,2026-08-30,1,mfr-098.json
+mfr-099,mfr-099,DRDO DMRL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-099/,2026-08-30,1,mfr-099.json
+mfr-100,mfr-100,DRDO LRDE,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-100/,2026-08-30,1,mfr-100.json
+mfr-101,mfr-101,DRDO RCI,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-101/,2026-08-30,1,mfr-101.json
+mfr-102,mfr-102,DRDO DEAL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-102/,2026-08-30,1,mfr-102.json
+mfr-103,mfr-103,DRDO CHESS,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-103/,2026-08-30,1,mfr-103.json
+mfr-104,mfr-104,DRDO LASTEC,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-104/,2026-08-30,1,mfr-104.json
+mfr-105,mfr-105,DRDO INMAS,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-105/,2026-08-30,1,mfr-105.json
+mfr-106,mfr-106,DRDO SSPL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-106/,2026-08-30,1,mfr-106.json
+mfr-107,mfr-107,DRDO SPL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-107/,2026-08-30,1,mfr-107.json
+mfr-108,mfr-108,DRDO ASL,manufacturer,drones-uas,B,false,/research/drones-uas/company/mfr-108/,2026-08-30,1,mfr-108.json
+midhani,midhani,Mishra Dhatu Nigam Limited (MIDHANI),company,military-aerospace,A,false,/research/military-aerospace/company/midhani/,2026-08-29,5,midhani.json
+moog-liebherr,moog-liebherr,Moog Inc. & Liebherr-Aerospace,company,military-aerospace,C,true,/research/military-aerospace/company/moog-liebherr/,2026-08-29,2,moog-liebherr.json
+def-006,mrsam-def-006,MRSAM (Medium Range Surface-to-Air Missile),platform,defence,A,false,/research/pillars/defence/entity/mrsam-def-006/,2026-08-29,4,mrsam-def-006.json
+mta,mta,Indo-Russian Multirole Transport Aircraft (MTA / IL-214),platform,military-aerospace,B,false,/research/military-aerospace/platform/mta/,2026-08-29,3,mta.json
+mtar-technologies,mtar-technologies,MTAR Technologies,company,space,B,false,/research/space/company/mtar-technologies/,2026-08-30,1,mtar-technologies.json
+nag,nag,NAG ATGM,platform,defence,C,true,/research/pillars/defence/entity/nag/,2026-08-30,1,nag.json
+nal,nal,CSIR-National Aerospace Laboratories (CSIR-NAL),company,military-aerospace,A,false,/research/military-aerospace/company/nal/,2026-08-29,5,nal.json
+navic,navic,NavIC (Navigation with Indian Constellation),platform,space,A,false,/research/space/entity/navic/,2026-08-30,4,navic.json
+newspace-research,newspace-research,NewSpace Research,company,space,B,false,/research/space/company/newspace-research/,2026-08-30,1,newspace-research.json
+nirbhay,nirbhay,Nirbhay,platform,defence,C,true,/research/pillars/defence/entity/nirbhay/,2026-08-30,1,nirbhay.json
+no1-brd-kanpur,no1-brd-kanpur,"No. 1 Base Repair Depot, IAF (Kanpur)",company,military-aerospace,B,false,/research/military-aerospace/company/no1-brd-kanpur/,2026-08-29,5,no1-brd-kanpur.json
+no3-brd-tug,no3-brd-tug,"No. 3 Base Repair Depot, IAF",company,military-aerospace,C,true,/research/military-aerospace/company/no3-brd-tug/,2026-08-29,2,no3-brd-tug.json
+cus-038,northrop-grumman-centurion-c-ram-variant-cus-038,Northrop Grumman Centurion (C-RAM variant),system,counter-uas,C,true,/research/counter-uas/system/northrop-grumman-centurion-c-ram-variant-cus-038/,2026-08-29,0,northrop-grumman-centurion-c-ram-variant-cus-038.json
+mfg-031,northrop-grumman-mfg-031,Northrop Grumman,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/northrop-grumman-mfg-031/,2026-08-29,0,northrop-grumman-mfg-031.json
+northrop-grumman-space,northrop-grumman-space,Northrop Grumman Space,company,space,B,false,/research/space/company/northrop-grumman-space/,2026-08-30,1,northrop-grumman-space.json
+northrop,northrop,Northrop Grumman,company,military-aerospace,C,true,/research/military-aerospace/company/northrop/,2026-08-29,2,northrop.json
+nsil,nsil,NSIL,company,space,B,false,/research/space/company/nsil/,2026-08-30,1,nsil.json
+nspace-tech,nspace-tech,NSpace Tech,company,space,B,false,/research/space/company/nspace-tech/,2026-08-30,1,nspace-tech.json
+mfg-037,openworks-engineering-bordtek-mfg-037,OpenWorks Engineering (Bordtek),manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/openworks-engineering-bordtek-mfg-037/,2026-08-29,0,openworks-engineering-bordtek-mfg-037.json
+optimized-electrotech,optimized-electrotech,Optimized Electrotech,company,space,B,false,/research/space/company/optimized-electrotech/,2026-08-30,1,optimized-electrotech.json
+orbitaid-aerospace,orbitaid-aerospace,Orbitaid Aerospace,company,space,B,false,/research/space/company/orbitaid-aerospace/,2026-08-30,1,orbitaid-aerospace.json
+def-007,p15b-destroyer-def-007,P15B Visakhapatnam-class Destroyer,platform,defence,A,false,/research/pillars/defence/entity/p15b-destroyer-def-007/,2026-08-29,4,p15b-destroyer-def-007.json
+def-008,p17a-frigate-def-008,P17A Nilgiri-class Frigate,platform,defence,A,false,/research/pillars/defence/entity/p17a-frigate-def-008/,2026-08-29,4,p17a-frigate-def-008.json
+def-009,p75i-submarine-def-009,Project-75(I) Submarine Programme,platform,defence,A,false,/research/pillars/defence/entity/p75i-submarine-def-009/,2026-08-29,4,p75i-submarine-def-009.json
+mfg-004,paras-defence-and-space-technologies-mfg-004,Paras Defence and Space Technologies Limited,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/paras-defence-and-space-technologies-mfg-004/,2026-08-29,7,paras-defence-and-space-technologies-mfg-004.json
+parker,parker,Parker Hannifin — Aerospace,company,military-aerospace,C,true,/research/military-aerospace/company/parker/,2026-08-29,2,parker.json
+piersight,piersight,Piersight,company,space,B,false,/research/space/company/piersight/,2026-08-30,1,piersight.json
+def-002,pinaka-mbrl-def-002,Pinaka Multi-Barrel Rocket Launcher,platform,defence,A,false,/research/pillars/defence/entity/pinaka-mbrl-def-002/,2026-08-29,4,pinaka-mbrl-def-002.json
+pixxel,pixxel,Pixxel,company,space,B,false,/research/space/company/pixxel/,2026-08-30,2,pixxel.json
+planet-labs,planet-labs,Planet Labs,company,space,B,false,/research/space/company/planet-labs/,2026-08-30,1,planet-labs.json
+prithvi,prithvi,Prithvi,platform,defence,C,true,/research/pillars/defence/entity/prithvi/,2026-08-30,1,prithvi.json
+project-garud,project-garud,Project Garud,platform,space,C,true,/research/space/entity/project-garud/,2026-08-30,0,project-garud.json
+pslv,pslv,PSLV (Polar Satellite Launch Vehicle),platform,space,A,false,/research/space/entity/pslv/,2026-08-30,4,pslv.json
+pwc,pwc,Pratt & Whitney Canada,company,military-aerospace,B,false,/research/military-aerospace/company/pwc/,2026-08-29,6,pwc.json
+def-005,qrsam-def-005,QRSAM (Quick Reaction Surface-to-Air Missile),platform,defence,A,false,/research/pillars/defence/entity/qrsam-def-005/,2026-08-29,4,qrsam-def-005.json
+mfg-023,rafael-advanced-defense-systems-mfg-023,Rafael Advanced Defense Systems Limited,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/rafael-advanced-defense-systems-mfg-023/,2026-08-29,7,rafael-advanced-defense-systems-mfg-023.json
+cus-025,rafael-c-dome-naval-cus-025,Rafael C-Dome (Naval),system,counter-uas,C,true,/research/counter-uas/system/rafael-c-dome-naval-cus-025/,2026-08-29,0,rafael-c-dome-naval-cus-025.json
+cus-024,rafael-drone-dome-cus-024,Rafael Drone Dome,system,counter-uas,C,true,/research/counter-uas/system/rafael-drone-dome-cus-024/,2026-08-29,0,rafael-drone-dome-cus-024.json
+cus-039,rafael-litening-5-eo-ir-pod-cuas-capable-cus-039,Rafael LITENING-5 EO/IR Pod (CUAS-capable),system,counter-uas,C,true,/research/counter-uas/system/rafael-litening-5-eo-ir-pod-cuas-capable-cus-039/,2026-08-29,0,rafael-litening-5-eo-ir-pod-cuas-capable-cus-039.json
+def-011,rafale-india-def-011,Dassault Rafale (India),platform,defence,A,false,/research/pillars/defence/entity/rafale-india-def-011/,2026-08-29,5,rafale-india-def-011.json
+ratier,ratier,Ratier-Figeac (Collins Aerospace),company,military-aerospace,C,true,/research/military-aerospace/company/ratier/,2026-08-29,2,ratier.json
+cus-035,raytheon-rtx-coyote-block-2-cus-035,Raytheon (RTX) Coyote Block 2,system,counter-uas,C,true,/research/counter-uas/system/raytheon-rtx-coyote-block-2-cus-035/,2026-08-29,0,raytheon-rtx-coyote-block-2-cus-035.json
+mfg-029,raytheon-technologies-rtx-mfg-029,Raytheon Technologies (RTX),manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/raytheon-technologies-rtx-mfg-029/,2026-08-29,0,raytheon-technologies-rtx-mfg-029.json
+mfg-027,rheinmetall-mfg-027,Rheinmetall,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/rheinmetall-mfg-027/,2026-08-29,0,rheinmetall-mfg-027.json
+cus-031,rheinmetall-oerlikon-skynex-cus-031,Rheinmetall Oerlikon Skynex,system,counter-uas,C,true,/research/counter-uas/system/rheinmetall-oerlikon-skynex-cus-031/,2026-08-29,0,rheinmetall-oerlikon-skynex-cus-031.json
+mfg-038,robin-radar-systems-mfg-038,Robin Radar Systems,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/robin-radar-systems-mfg-038/,2026-08-29,0,robin-radar-systems-mfg-038.json
+rocket-lab,rocket-lab,Rocket Lab,company,space,B,false,/research/space/company/rocket-lab/,2026-08-30,1,rocket-lab.json
+rr,rr,Rolls-Royce,company,military-aerospace,B,false,/research/military-aerospace/company/rr/,2026-08-29,5,rr.json
+cus-036,rtx-high-energy-laser-weapon-system-helws-cus-036,RTX High Energy Laser Weapon System (HELWS),system,counter-uas,C,true,/research/counter-uas/system/rtx-high-energy-laser-weapon-system-helws-cus-036/,2026-08-29,0,rtx-high-energy-laser-weapon-system-helws-cus-036.json
+ruag,ruag,RUAG,company,military-aerospace,C,true,/research/military-aerospace/company/ruag/,2026-08-29,2,ruag.json
+rudra-arka-bellatrix,rudra-arka-bellatrix,Rudra / Arka (Bellatrix Aerospace),platform,space,B,false,/research/space/entity/rudra-arka-bellatrix/,2026-08-29,5,rudra-arka-bellatrix.json
+def-010,s-400-india-def-010,S-400 Triumf (India),platform,defence,A,false,/research/pillars/defence/entity/s-400-india-def-010/,2026-08-29,4,s-400-india-def-010.json
+cus-043,saab-giraffe-amb-cuas-variant-cus-043,Saab Giraffe AMB CUAS Variant,system,counter-uas,C,true,/research/counter-uas/system/saab-giraffe-amb-cuas-variant-cus-043/,2026-08-29,0,saab-giraffe-amb-cuas-variant-cus-043.json
+mfg-035,saab-mfg-035,Saab AB,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/saab-mfg-035/,2026-08-29,7,saab-mfg-035.json
+safran-landing,safran-landing,Safran Landing Systems,company,military-aerospace,C,true,/research/military-aerospace/company/safran-landing/,2026-08-29,2,safran-landing.json
+safran,safran,Safran Aircraft Engines,company,military-aerospace,A,false,/research/military-aerospace/company/safran/,2026-08-29,7,safran.json
+cus-017,sagar-manthan-anti-drone-system-cus-017,Sagar Manthan Anti-Drone System,system,counter-uas,C,true,/research/counter-uas/system/sagar-manthan-anti-drone-system-cus-017/,2026-08-29,0,sagar-manthan-anti-drone-system-cus-017.json
+sagarika,sagarika,Sagarika,platform,defence,C,true,/research/pillars/defence/entity/sagarika/,2026-08-30,1,sagarika.json
+cus-048,sapphire-counter-drone-dutch-origin-cus-048,Sapphire Counter-Drone (Dutch origin),system,counter-uas,C,true,/research/counter-uas/system/sapphire-counter-drone-dutch-origin-cus-048/,2026-08-29,0,sapphire-counter-drone-dutch-origin-cus-048.json
+satleo-labs,satleo-labs,Satleo Labs,company,space,B,false,/research/space/company/satleo-labs/,2026-08-30,1,satleo-labs.json
+satsure,satsure,Satsure,company,space,B,false,/research/space/company/satsure/,2026-08-30,1,satsure.json
+scope-skyroot,scope-skyroot,SCOPE (Skyroot),platform,space,C,true,/research/space/entity/scope-skyroot/,2026-08-29,2,scope-skyroot.json
+scot-digantara,scot-digantara,SCOT (Digantara),platform,space,A,false,/research/space/entity/scot-digantara/,2026-08-29,4,scot-digantara.json
+cus-046,skyfang-net-gun-portable-cus-046,SkyFang Net Gun (Portable),system,counter-uas,C,true,/research/counter-uas/system/skyfang-net-gun-portable-cus-046/,2026-08-29,0,skyfang-net-gun-portable-cus-046.json
+cus-050,skylock-dome-cuas-cus-050,SkyLock Dome CUAS,system,counter-uas,C,true,/research/counter-uas/system/skylock-dome-cuas-cus-050/,2026-08-29,0,skylock-dome-cuas-cus-050.json
+spc-005,skyroot-aerospace-vikram-spc-005,Skyroot Aerospace Vikram Launch Vehicle,platform,space,A,false,/research/space/entity/skyroot-aerospace-vikram-spc-005/,2026-08-29,4,skyroot-aerospace-vikram-spc-005.json
+mfg-044,skyroot-aerospace,Skyroot Aerospace,manufacturer,space,A,false,/research/space/company/skyroot-aerospace/,2026-08-29,4,skyroot-aerospace.json
+cus-012,sm-netra-anti-drone-system-cus-012,SM-NETRA Anti-Drone System,system,counter-uas,C,true,/research/counter-uas/system/sm-netra-anti-drone-system-cus-012/,2026-08-29,0,sm-netra-anti-drone-system-cus-012.json
+sonar,sonar,Indian Naval Sonar Systems,platform,defence,C,true,/research/pillars/defence/entity/sonar/,2026-08-30,1,sonar.json
+space-fields,space-fields,Space Fields,company,space,B,false,/research/space/company/space-fields/,2026-08-30,1,space-fields.json
+space-kidz-india,space-kidz-india,Space Kidz India,company,space,B,false,/research/space/company/space-kidz-india/,2026-08-30,1,space-kidz-india.json
+spacex,spacex,SpaceX,company,space,B,false,/research/space/company/spacex/,2026-08-30,1,spacex.json
+spadex,spadex,SpaDeX (Space Docking Experiment),platform,space,C,true,/research/space/entity/spadex/,2026-08-30,2,spadex.json
+cus-026,spike-firefly-loitering-munition-anti-drone-capable-cus-026,"Spike Firefly (Loitering Munition, anti-drone capable)",system,counter-uas,C,true,/research/counter-uas/system/spike-firefly-loitering-munition-anti-drone-capable-cus-026/,2026-08-29,0,spike-firefly-loitering-munition-anti-drone-capable-cus-026.json
+sslv,sslv,SSLV (Small Satellite Launch Vehicle),platform,space,B,false,/research/space/entity/sslv/,2026-08-30,3,sslv.json
+t-90,t-90,T-90,platform,defence,C,true,/research/pillars/defence/entity/t-90/,2026-08-30,1,t-90.json
+takeme2space,takeme2space,TakeMe2Space,company,space,B,false,/research/space/company/takeme2space/,2026-08-30,1,takeme2space.json
+tasl,tasl,Tata Advanced Systems Limited,company,military-aerospace,A,false,/research/military-aerospace/company/tasl/,2026-08-29,8,tasl.json
+cus-056,tata-advanced-systems-cuas-cus-056,Tata Advanced Systems Counter-UAS,system,counter-uas,B,false,/research/counter-uas/system/tata-advanced-systems-cuas-cus-056/,2026-08-29,5,tata-advanced-systems-cuas-cus-056.json
+mfg-014,tata-advanced-systems-tasl-mfg-014,Tata Advanced Systems Limited,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/tata-advanced-systems-tasl-mfg-014/,2026-08-29,8,tata-advanced-systems-tasl-mfg-014.json
+def-003,tejas-mk1a-def-003,HAL Tejas Mk-1A,platform,defence,A,false,/research/pillars/defence/entity/tejas-mk1a-def-003/,2026-08-29,6,tejas-mk1a-def-003.json
+telair,telair,Telair International,company,military-aerospace,C,true,/research/military-aerospace/company/telair/,2026-08-29,2,telair.json
+mfg-039,teledyne-flir-mfg-039,Teledyne FLIR,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/teledyne-flir-mfg-039/,2026-08-29,0,teledyne-flir-mfg-039.json
+thales-alenia-space,thales-alenia-space,Thales Alenia Space,company,space,B,false,/research/space/company/thales-alenia-space/,2026-08-30,1,thales-alenia-space.json
+cus-030,thales-ground-master-60-cuas-variant-cus-030,Thales Ground Master 60 CUAS Variant,system,counter-uas,C,true,/research/counter-uas/system/thales-ground-master-60-cuas-variant-cus-030/,2026-08-29,0,thales-ground-master-60-cuas-variant-cus-030.json
+mfg-026,thales-group-mfg-026,Thales S.A.,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/thales-group-mfg-026/,2026-08-29,7,thales-group-mfg-026.json
+thales,thales,Thales S.A.,company,military-aerospace,A,false,/research/military-aerospace/company/thales/,2026-08-29,7,thales.json
+thybolt-leap,thybolt-leap,Thybolt LEAP,platform,space,C,true,/research/space/entity/thybolt-leap/,2026-08-30,0,thybolt-leap.json
+tlmal,tlmal,Tata Lockheed Martin Aerostructures Limited,company,military-aerospace,A,false,/research/military-aerospace/company/tlmal/,2026-08-29,6,tlmal.json
+tonbo-imaging,tonbo-imaging,Tonbo Imaging,company,space,B,false,/research/space/company/tonbo-imaging/,2026-08-30,1,tonbo-imaging.json
+toray,toray,Toray Industries,company,military-aerospace,C,true,/research/military-aerospace/company/toray/,2026-08-29,2,toray.json
+cus-013,trishul-anti-drone-system-cus-013,Trishul Anti-Drone System,system,counter-uas,C,true,/research/counter-uas/system/trishul-anti-drone-system-cus-013/,2026-08-29,0,trishul-anti-drone-system-cus-013.json
+uav-rastructure,uav-rastructure,UAV Infrastructure,platform,defence,C,true,/research/pillars/defence/entity/uav-rastructure/,2026-08-30,1,uav-rastructure.json
+ukroborprom,ukroborprom,UkrOboronProm,company,military-aerospace,C,true,/research/military-aerospace/company/ukroborprom/,2026-08-29,2,ukroborprom.json
+cus-009,vajra-sentinel-counter-drone-system-cus-009,Vajra Sentinel Counter-Drone System,system,counter-uas,A,false,/research/counter-uas/system/vajra-sentinel-counter-drone-system-cus-009/,2026-08-29,6,vajra-sentinel-counter-drone-system-cus-009.json
+varunastra,varunastra,Varunastra,platform,defence,C,true,/research/pillars/defence/entity/varunastra/,2026-08-30,1,varunastra.json
+mfg-009,vega-integrated-systems-mfg-009,Vega Integrated Systems,manufacturer,counter-uas,C,true,/research/counter-uas/manufacturer/vega-integrated-systems-mfg-009/,2026-08-29,0,vega-integrated-systems-mfg-009.json
+vikram-1,vikram-1,Skyroot Vikram-1,platform,space,A,false,/research/space/entity/vikram-1/,2026-08-29,6,vikram-1.json
+vikram-2,vikram-2,Skyroot Vikram-2,platform,space,B,false,/research/space/entity/vikram-2/,2026-08-29,4,vikram-2.json
+vsmpo-avisma,vsmpo-avisma,VSMPO-AVISMA,company,military-aerospace,C,true,/research/military-aerospace/company/vsmpo-avisma/,2026-08-29,2,vsmpo-avisma.json
+walchandnagar,walchandnagar,Walchandnagar Industries,company,space,B,false,/research/space/company/walchandnagar/,2026-08-30,1,walchandnagar.json
+xdlinx-space,xdlinx-space,XdLinx Space,company,space,B,false,/research/space/company/xdlinx-space/,2026-08-30,1,xdlinx-space.json
+cus-003,zen-anti-drone-system-zads-cus-003,Zen Anti-Drone System,system,counter-uas,A,false,/research/counter-uas/system/zen-anti-drone-system-zads-cus-003/,2026-08-29,6,zen-anti-drone-system-zads-cus-003.json
+mfg-003,zen-technologies-mfg-003,Zen Technologies Limited,manufacturer,counter-uas,A,false,/research/counter-uas/manufacturer/zen-technologies-mfg-003/,2026-08-29,8,zen-technologies-mfg-003.json
+def-001,zorawar-light-tank-def-001,Zorawar Light Tank,platform,defence,A,false,/research/pillars/defence/entity/zorawar-light-tank-def-001/,2026-08-29,4,zorawar-light-tank-def-001.json

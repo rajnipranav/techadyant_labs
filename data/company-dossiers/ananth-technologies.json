@@ -1,0 +1,449 @@
+{
+  "entity_id": "atl-cmp-ananth-technologies",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ananth-technologies",
+  "name": "Ananth Technologies",
+  "variant": null,
+  "vertical": "space",
+  "parent_hub_path": "/research/space/ananth-technologies/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Ananth Technologies is an Indian space and defence company headquartered in Hyderabad, founded in 1992 by Dr Subba Rao Pavuluri. Supplies mission-critical electronic systems for satellites, launch veh",
+    "chips": [
+      "space",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Hyderabad, Telangana, India (HQ); Satellite AIT facility at KIADB Aerospace Park, Devanahalli, Bengaluru",
+    "Type": "Company (listed)",
+    "Founded": "1992 (by Dr Subba Rao Pavuluri, Chairman & Founder)",
+    "India entity": null,
+    "Listed": "Not listed — private company",
+    "Key India role": "Ananth Technologies is an Indian space and defence company headquartered in Hyderabad, founded in 1992 by Dr Subba Rao Pavuluri. Supplies mission-critical electronic systems for satellites, launch veh"
+  },
+  "what_it_is": {
+    "prose": "Ananth Technologies is an Indian space and defence company headquartered in Hyderabad, founded in 1992 by Dr Subba Rao Pavuluri. Supplies mission-critical electronic systems for satellites, launch vehicles and missiles. 30+ year ISRO partnership: supplied control electronics modules for ISRO's CMS-3 satellite; delivered onboard electronics & satellite integration support across all 3 lunar missions (Chandrayaan-1, -2, -3). SpaDeX Target and Chaser satellites were completely assembled, integrated, and tested at Ananth's Bengaluru facility (Aerospace Park, Devanahalli, opened Feb 2020). Manufactured 107 satellites and 87 launch vehicles with 100% success rate. Building AnanthSat-1 — India's first privately developed communication satellite. MoU with BEL (Aug 2026) to jointly develop indigenous systems for missiles, radars, satellites and navigation.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "6 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Onboard satellite electronics (control electronics modules, telemetry, telecommand, power systems)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Launch vehicle avionics & navigation systems",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Satellite AIT (Assembly, Integration, Testing)",
+        "role": "OEM",
+        "india_status": "full-service facility at KIADB Aerospace Park, Bengaluru",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "AnanthSat-1: India's first privately developed communication satellite",
+        "role": "OEM",
+        "india_status": "under development",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Missile electronics & navigation",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "SpaDeX Target & Chaser satellites",
+        "role": "OEM",
+        "india_status": "assembled, integrated, and tested at Ananth Bengaluru facility",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "8 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "SpaDeX Target & Chaser satellites (launched 30 Dec 2024 on PSLV-C60) — completely assembled, integrated, and tested at Ananth's Bengaluru facility",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Chandrayaan-1, -2, -3 lunar missions — delivered mission-critical onboard electronics & satellite integration support",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "ISRO CMS-3 satellite — supplied control electronics modules",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Manufactured 107 satellites and 87 launch vehicles with 100% success rate",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "New satellite manufacturing facility at Aerospace Park, Devanahalli, near Bengaluru opened February 2020",
+        "year": "2020",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "AnanthSat-1 — India's first privately developed communication satellite — under development",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "MoU with BEL (Bharat Electronics Limited) signed Aug 2026 to jointly develop indigenous systems for missiles, radars, satellites and navigation",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Systems have been integral in ~50 launch vehicles",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "13 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "5 official, 2 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is Ananth Technologies' role in ISRO's SpaDeX mission?",
+      "answer": "Ananth's Bengaluru facility completely assembled, integrated, and tested both SpaDeX Target and Chaser satellites (launched 30 Dec 2024 on PSLV-C60)",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is AnanthSat-1?",
+      "answer": "India's first privately developed communication satellite — under development by Ananth Technologies",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Who founded Ananth Technologies and when?",
+      "answer": "Dr Subba Rao Pavuluri founded Ananth Technologies in 1992 in Hyderabad; company has manufactured 107 satellites and 87 launch vehicles with 100% success rate",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Partnering with ISRO & global aerospace — delivered mission-critical onboard electronics and satellite integration support across all three lunar missions",
+      "publisher": "Ananth Technologies Official",
+      "url": "https://ananthtech.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "Ananth Technologies established 1992, HQ Hyderabad, Telangana; opened new satellite manufacturing facility at Aerospace Park in Devanahalli near Bengaluru in February 2020",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ananth_Technologies",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Dr Subba Rao Pavuluri Chairman & Founder — manufacture, integration and testing of 107 satellites and 87 launch vehicles with 100% success rate",
+      "publisher": "Ananth Technologies Official",
+      "url": "https://ananthtech.com/leadership/subba-rao-pavuluri",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Ananth Technologies — leading Indian Space and Defence company delivering mission-critical electronic systems for Satellites, Launch Vehicles and Missiles",
+      "publisher": "Ananth Technologies Official",
+      "url": "https://ananthtech.com/about",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "SpaDeX Target and Chaser satellites completely assembled, integrated, and tested at Ananth Bengaluru facility — key enabler of India's docking experiment",
+      "publisher": "Ananth Technologies Official",
+      "url": "https://ananthtech.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-06",
+      "title": "Ananth building AnanthSat-1 — India's first privately made communication satellite; ISRO CMS-3 satellite — supplied control electronics modules",
+      "publisher": "Ananth Technologies Official",
+      "url": "https://www.ananthtech.com/media/press-releases",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Ananth Satellite AIT Facility built to take spacecraft from concept to countdown — end-to-end Assembly, Integration, Testing",
+      "publisher": "Ananth Technologies Official",
+      "url": "https://ananthtech.com/satellite-ait",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Ananth Technologies and BEL signed MoU to jointly develop advanced indigenous systems for missiles, radars, satellites and navigation",
+      "publisher": "ET Government",
+      "url": "https://government.economictimes.indiatimes.com/news/defence/bel-ananth-technologies-forge-partnership-for-missiles-radars-and-satellite-systems/133353657",
+      "published_date": "2026-08-19",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Ananth capabilities in aerospace electronics, satellite systems, launch-vehicle avionics, navigation and advanced manufacturing; systems integral in ~50 launch vehicles",
+      "publisher": "LinkedIn",
+      "url": "https://in.linkedin.com/company/ananth-technologies",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "Bengaluru facility — #64 KIADB Aerospace Park, Singahalli Village, Budigere Post, Bangalore North Taluk, Bangalore – 562129",
+      "publisher": "Ananth Technologies Official",
+      "url": "http://ananthtechnologies.com/contact",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "Ananth Technologies Hyderabad announced impending launch of India's first privately developed communication satellite AnanthSat-1",
+      "publisher": "The CSR Journal",
+      "url": "https://www.facebook.com/TheCSRJournal/posts/ananth-technologies-based-in-hyderabad-has-announced-the-impending-launch-of-ind/1332904522264266",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "Ananth Technologies — funded company based in Hyderabad; manufacturer of mission-critical electronic systems for satellites",
+      "publisher": "Tracxn",
+      "url": "https://tracxn.com/d/companies/ananthtechnologies/__s-4z-j6pEyTIR9USZg8q3LrzE_X3Snyzo_yGqqRCXOA",
+      "published_date": "2026-07-06",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "Ananth Technologies designs and manufactures advanced electronics for aerospace and defence — critical systems for launch vehicles",
+      "publisher": "Startup Intros",
+      "url": "https://startupintros.com/orgs/ananth-technologies",
+      "published_date": "2026-07-13",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Ananth Technologies — Company · India Space Atlas | Techadyant",
+    "meta_description": "Ananth Technologies company dossier: India space role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/space/ananth-technologies/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/ananth-technologies/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "entity_id": "aviadvigatel",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "aviadvigatel",
+  "name": "Aviadvigatel",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Russian aero-engine design bureau (Perm, part of UEC/Rostec) — successor to the Soloviev bureau — designer of the D-30KP turbofan that powers the IAF's Il-76 fleet and of the PS-90A-76 proposed to re-engine it. Compact card: Russia engine supplier whose India footprint is the Il-76 engine dependency.",
+    "chips": [
+      "C",
+      "Engine OEM",
+      "Russia",
+      "D-30KP",
+      "PS-90A-76",
+      "Il-76"
+    ],
+    "maker": "United Engine Corporation (UEC) / Rostec, Russia",
+    "country": "Russia",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign (Russia) engine supplier for the Il-76 (D-30KP / proposed PS-90)",
+    "mobility_or_class": "Aero-engine design bureau (turbofan)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "JSC Aviadvigatel, Perm, Russia (ex-Soloviev bureau)",
+    "Group": "Part of United Engine Corporation (UEC), Rostec",
+    "India_relevance": "D-30KP turbofans power the IAF's Il-76MD 'Gajraj' and Il-78MKI; PS-90A-76 proposed re-engine",
+    "Re-engine_proposal": "Aviadvigatel PS-90A-76 offered to replace the ageing D-30KP on India's Il-76",
+    "War_impact": "Russia-Ukraine war strained engine spares and overhaul support",
+    "Tier_C_reason": "Foreign component (engine) supplier; India footprint limited to the Il-76 engine dependency"
+  },
+  "what_it_is": {
+    "prose": "Aviadvigatel (JSC Aviadvigatel, Perm), the successor to the Soloviev design bureau and now part of Russia's United Engine Corporation (Rostec), is the design house behind the D-30 family of turbofans. The D-30KP variant powers the Indian Air Force's Ilyushin Il-76MD 'Gajraj' heavy-lifters and Il-78MKI tankers (four engines per aircraft). Aviadvigatel is also the developer of the more modern PS-90A-76 turbofan, which Russia has proposed to re-engine India's ageing Il-76 fleet in place of the D-30KP. India's exposure to Aviadvigatel is therefore the Il-76 engine dependency — D-30KP supply, spares and overhaul, and any future PS-90A-76 re-engining — a dependency strained by the Russia-Ukraine war. This is a compact (Tier C) card: as a foreign engine supplier, the firm's documented India footprint is essentially the Il-76 powerplant link, with the PS-90 re-engine still at proposal/study stage and no Indian production or JV established.",
+    "sources": [
+      "src-ps90-wiki",
+      "src-defencein-ps90"
+    ]
+  },
+  "variant": "Tier C compact card (Il-76 engine supplier)",
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/military-aerospace/"
+    ],
+    "referenced_by": [
+      "il76",
+      "ilyushin"
+    ]
+  },
+  "open_questions": [
+    "Whether India will contract the PS-90A-76 re-engine for the Il-76, and on what terms, is not settled.",
+    "Extent of continued D-30KP spares/overhaul support to India during the war is unclear."
+  ],
+  "sources": [
+    {
+      "id": "src-ps90-wiki",
+      "title": "Aviadvigatel PS-90",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aviadvigatel_PS-90",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Aviadvigatel PS-90 turbofan family, including the PS-90A-76 proposed to re-engine the Il-76; company lineage from Soloviev/D-30."
+    },
+    {
+      "id": "src-defencein-ps90",
+      "title": "Russia Proposes PS-90 Engine Upgrade for India's Ageing Il-76 Transport Aircraft",
+      "publisher": "Defence.in",
+      "url": "https://defence.in/threads/russia-proposes-ps-90-engine-upgrade-for-indias-ageing-il-76-transport-aircraft.10477/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Russian proposal to re-engine India's Il-76 with the Aviadvigatel PS-90A-76, replacing the D-30KP."
+    }
+  ],
+  "seo": {
+    "title": "Aviadvigatel — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Russian engine bureau Aviadvigatel (Perm, ex-Soloviev) makes the D-30KP powering the IAF's Il-76 and the PS-90A-76 proposed to re-engine it. Compact card.",
+    "canonical_path": "/research/military-aerospace/company/aviadvigatel/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/il76/",
+      "/research/military-aerospace/"
+    ]
+  }
+}

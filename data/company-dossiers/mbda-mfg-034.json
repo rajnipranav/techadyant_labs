@@ -1,0 +1,413 @@
+{
+  "entity_id": "atl-cmp-mbda-mfg-034",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "mbda-mfg-034",
+  "name": "MBDA Missile Systems",
+  "variant": null,
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/mbda-mfg-034/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "MBDA is the European missile systems prime and a strategic Indian partner through two principal channels: (i) weapons integration on the IAF's 36 Dassault Rafale fighters — the MICA IR/RF air-to-air m",
+    "chips": [
+      "counter-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Paris (Le Plessis-Robinson), France; UK HQ in Stevenage; Italian HQ in Rome",
+    "Type": "Manufacturer (listed)",
+    "Founded": "2001 (merger of Matra BAe Dynamics, Aerospatiale Matra Missiles and Alenia Marconi Systems)",
+    "India entity": null,
+    "Listed": "Privately held JV — Airbus (37.5%), BAE Systems (37.5%), Leonardo (25%)",
+    "Key India role": "MBDA is the European missile systems prime and a strategic Indian partner through two principal channels: (i) weapons integration on the IAF's 36 Dassault Rafale fighters — the MICA IR/RF air-to-air m"
+  },
+  "what_it_is": {
+    "prose": "MBDA is the European missile systems prime and a strategic Indian partner through two principal channels: (i) weapons integration on the IAF's 36 Dassault Rafale fighters — the MICA IR/RF air-to-air missile (used in the May 2025 Pakistan clash) and Meteor beyond-visual-range missile; MBDA announced in May 2026 an agreement with the IAF to establish local MRO capability for the MICA missile; and (ii) the L&T MBDA Missile Systems Ltd JV (formed Feb 2017, missile integration facility operational Feb 2020) — India's first private-sector missile JV with a foreign OEM, offering fifth-generation ATGMs and naval missiles. MBDA also signed a Sep 2019 agreement with BDL to assemble missiles in India and has offered Brimstone integration on India's future MQ-9B fleet (Nov 2023).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "MICA (Missile d'Interception, de Combat et d'Autoproteur) air-to-air missile",
+        "role": "OEM",
+        "india_status": "Primary air-to-air weapon on IAF's 36 Rafale fighters; MBDA setting up MICA MRO in India (May 2026); MICA was used in the May 2025 India-Pakistan air clash",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Meteor beyond-visual-range air-to-air missile",
+        "role": "OEM",
+        "india_status": "Long-range BVRAAM on IAF Rafale; not carried in May 2025 Pakistan clash (only MICA loaded)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Brimstone precision-strike missile",
+        "role": "OEM",
+        "india_status": "MBDA has offered (Nov 2023) to consider integration of Brimstone missiles onto India's MQ-9B Predator drones being procured from GA-ASI",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Mistral MANPADS",
+        "role": "OEM",
+        "india_status": "Offered to India; lost VSHORAD competition to Russian Igla-S (2018); India has since acquired Igla-S batch and is evaluating Russian Verba as next MANPADS",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "4 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Air Force (Rafale weapons)",
+        "context": "MICA + Meteor integrated on 36 Rafale fighters; MICA used in May 2025 Pakistan air clash; MBDA MRO agreement for MICA (May 2026)",
+        "year": "2020 onwards",
+        "quantity_or_note": "n/a (per-aircraft fit)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "L&T MBDA Missile Systems Ltd (JV)",
+        "context": "JV formed February 2017; missile integration facility operational Feb 2020 — India's first private-sector missile JV with a foreign OEM",
+        "year": "2017 onwards",
+        "quantity_or_note": "n/a (JV)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Bharat Dynamics Limited (BDL)",
+        "context": "MBDA-BDL agreement Sep 2019 to assemble missiles in India",
+        "year": "2019",
+        "quantity_or_note": "n/a (agreement)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian MoD (Brimstone-on-MQ-9B offer)",
+        "context": "MBDA offered (Nov 2023) to consider Brimstone integration on India's MQ-9B Predator drones",
+        "year": "2023",
+        "quantity_or_note": "n/a (offer)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "16 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "3 official, 11 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "Which MBDA missiles are integrated on India's Rafale fighters?",
+      "answer": "The IAF's 36 Dassault Rafale fighters are equipped with two MBDA air-to-air missiles: the MICA (IR/RF) as the primary short/medium-range weapon, and the Meteor beyond-visual-range air-to-air missile. MICA was the only AAM carried during the May 2025 India-Pakistan air clash. In May 2026 MBDA announced an agreement with the IAF to establish local MRO capability for the MICA missile.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the L&T MBDA joint venture?",
+      "answer": "L&T MBDA Missile Systems Ltd is a 50:50 joint venture formed in February 2017 between Larsen & Toubro (India) and MBDA Missile Systems. Its missile integration facility became operational in February 2020 — India's first private-sector missile JV with a foreign OEM. The JV offers fifth-generation ATGMs and naval missiles for Indian requirements, and showcased capabilities at Aero India 2025.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Has MBDA offered Brimstone missiles to India?",
+      "answer": "Yes. In November 2023 MBDA publicly confirmed it is ready to consider integration of Brimstone precision-strike missiles onto the MQ-9B SeaGuardian/SkyGuardian Predator drones being procured by India from General Atomics — providing a potential European precision-strike option for India's future HALE RPAS fleet.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.mbda-systems.com/mbda-implement-mica-missiles-mro-capabilities-india",
+      "publisher": "MBDA (company press release)",
+      "url": "https://www.mbda-systems.com/mbda-implement-mica-missiles-mro-capabilities-india",
+      "published_date": "2026-05-06",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "MBDA to implement MICA missile MRO capabilities in India"
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.aerotime.aero/articles/mbda-india-mica-missile-mro",
+      "publisher": "Aerotime",
+      "url": "https://www.aerotime.aero/articles/mbda-india-mica-missile-mro",
+      "published_date": "2026-05-06",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "MBDA to support MICA missile MRO in India"
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.overtdefense.com/2026/05/11/mbda-and-indian-air-force-mica-missile-support-agreement",
+      "publisher": "Overt Defense",
+      "url": "https://www.overtdefense.com/2026/05/11/mbda-and-indian-air-force-mica-missile-support-agreement",
+      "published_date": "2026-05-11",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "MBDA and IAF MICA missile support agreement"
+    },
+    {
+      "id": "src-04",
+      "title": "https://defencesecurityasia.com/en/indias-rafale-carried-only-mica-not-meteor-in-pakistan-air-clash-strategic-misstep",
+      "publisher": "Defence Security Asia",
+      "url": "https://defencesecurityasia.com/en/indias-rafale-carried-only-mica-not-meteor-in-pakistan-air-clash-strategic-misstep",
+      "published_date": "2025-06-22",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "India's Rafale carried MICA (not Meteor) in Pakistan air clash"
+    },
+    {
+      "id": "src-05",
+      "title": "https://www.mbda-systems.com/mbda-and-bdl-agree-assemble-missiles-india",
+      "publisher": "MBDA (company press release)",
+      "url": "https://www.mbda-systems.com/mbda-and-bdl-agree-assemble-missiles-india",
+      "published_date": "2019-09-19",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "MBDA and BDL agree to assemble missiles in India"
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.thehindu.com/news/cities/Hyderabad/bdl-ties-up-with-uk-firm-to-make-advanced-missiles/article35966053.ece",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/bdl-ties-up-with-uk-firm-to-make-advanced-missiles/article35966053.ece",
+      "published_date": "2021-08-17",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "BDL ties up with UK firm to make advanced missiles"
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.lntmbda.com",
+      "publisher": "L&T MBDA Missile Systems Ltd (JV official)",
+      "url": "https://www.lntmbda.com",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "L&T MBDA Missile Systems Ltd official site [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.lntmbda.com/who-we-are",
+      "publisher": "L&T MBDA (JV official)",
+      "url": "https://www.lntmbda.com/who-we-are",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "L&T MBDA 'Who We Are' page"
+    },
+    {
+      "id": "src-09",
+      "title": "https://finance.yahoo.com/news/l-t-joins-hands-mbda-091814834.html",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/l-t-joins-hands-mbda-091814834.html",
+      "published_date": "2017-02-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "L&T joins hands with MBDA to develop missile systems (JV formation)"
+    },
+    {
+      "id": "src-10",
+      "title": "https://indiandefenceindustries.in/notes/l&t-mbds-missile-facility",
+      "publisher": "Indian Defence Industries",
+      "url": "https://indiandefenceindustries.in/notes/l&t-mbds-missile-facility",
+      "published_date": "2020-02-03",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "L&T MBDA Missile Systems Sets Up Missile Integration Facility"
+    },
+    {
+      "id": "src-11",
+      "title": "https://www.edrmagazine.eu/aero-india-2025-lt-mbda-missile-systems-ltd",
+      "publisher": "EDR Magazine",
+      "url": "https://www.edrmagazine.eu/aero-india-2025-lt-mbda-missile-systems-ltd",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Aero India 2025 coverage of L&T MBDA Missile Systems Ltd"
+    },
+    {
+      "id": "src-12",
+      "title": "https://www.firstpost.com/world/european-defence-major-mbda-to-consider-integration-of-brimstone-missiles-onto-mq-9b-predator-13439282.html",
+      "publisher": "Firstpost",
+      "url": "https://www.firstpost.com/world/european-defence-major-mbda-to-consider-integration-of-brimstone-missiles-onto-mq-9b-predator-13439282.html",
+      "published_date": "2023-11-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "MBDA to consider Brimstone integration on India's MQ-9B Predator"
+    },
+    {
+      "id": "src-13",
+      "title": "https://www.hindustantimes.com/world-news/ready-to-consider-integration-of-brimstone-missiles-onto-mq-9b-predator-to-be-procured-by-india-says-mbda-101701152694625.html",
+      "publisher": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/world-news/ready-to-consider-integration-of-brimstone-missiles-onto-mq-9b-predator-to-be-procured-by-india-says-mbda-101701152694625.html",
+      "published_date": "2023-11-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "MBDA confirms Brimstone-on-MQ-9B offer for India"
+    },
+    {
+      "id": "src-14",
+      "title": "https://www.janes.com/defence-intelligence-insights/defence-news/mbda-outlines-indian-missile-investment-plan_19786",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/mbda-outlines-indian-missile-investment-plan_19786",
+      "published_date": "2021-08-23",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "MBDA outlines Indian missile investment plan"
+    },
+    {
+      "id": "src-15",
+      "title": "https://en.wikipedia.org/wiki/VSHORAD_(India)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/VSHORAD_(India)",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "India's VSHORAD competition — Igla-S won over Mistral"
+    },
+    {
+      "id": "src-16",
+      "title": "https://euro-sd.com/2023/02/news/29655/aero-india-2023-mbda-thales-woo-india-with-their-missile-systems",
+      "publisher": "European Security & Defence",
+      "url": "https://euro-sd.com/2023/02/news/29655/aero-india-2023-mbda-thales-woo-india-with-their-missile-systems",
+      "published_date": "2023-02-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Aero India 2023: MBDA & Thales woo India with missile systems"
+    }
+  ],
+  "seo": {
+    "title": "MBDA Missile Systems — Company · India Counter Uas Atlas | Techadyant",
+    "meta_description": "MBDA Missile Systems company dossier: India counter-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/counter-uas/manufacturer/mbda-mfg-034/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/mbda-mfg-034/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "entity_id": "hamilton",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "hamilton",
+  "name": "Hamilton Sundstrand (Collins Aerospace)",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "US auxiliary-power and electrical-systems heritage brand, now part of Collins Aerospace (RTX); supplies APUs and electrical power/actuation systems as embedded components. No discrete India defence evidence — Tier C.",
+    "chips": [
+      "Tier C",
+      "USA",
+      "RTX",
+      "Collins Aerospace",
+      "APU",
+      "Electrical power",
+      "Actuation"
+    ],
+    "country": "United States",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign component/sub-system supplier — no standalone India footprint",
+    "mobility_or_class": "Component/sub-system supplier (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Hamilton Sundstrand (now Collins Aerospace, RTX Corporation)",
+    "Parent": "RTX Corporation (NYSE: RTX)",
+    "HQ": "Windsor Locks, Connecticut, USA",
+    "Product_lines": "Auxiliary power units (APS-series), electrical power generation, actuation, environmental control",
+    "Status": "Brand consolidated into Collins Aerospace (2018)",
+    "Tier_C_reason": "Embedded APU/electrical supplier; no citable standalone India defence order"
+  },
+  "what_it_is": {
+    "prose": "Hamilton Sundstrand was a US supplier of auxiliary power units (APUs), electrical power-generation, actuation and environmental-control systems; in 2018 it was consolidated into Collins Aerospace under RTX. Its APUs (for example the APS-series) and electrical systems power a range of Western military and commercial aircraft, but as embedded components within OEM supply chains rather than through a discrete, publicly documented India defence contract. Recorded as an honest Tier C component-supplier card; see the Collins Aerospace card for the parent entity.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Hamilton Sundstrand APU to power KC-390 aircraft from Embraer Defense and Security",
+      "publisher": "Military & Aerospace Electronics",
+      "url": "https://www.militaryaerospace.com/home/article/16719657/hamilton-sundstrand-apu-to-power-kc-390-aircraft-from-embraer-defense-and-security",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "APU selection for a military airlifter (illustrative of product line)"
+    },
+    {
+      "id": "src-2",
+      "title": "U.S. Army Selects Hamilton Sundstrand Auxiliary Power Unit",
+      "publisher": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/us-army-selects-hamilton-sundstrand-auxiliary-power-unit-98805144.html",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "APU selection (illustrative of product line)"
+    }
+  ],
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "seo": {
+    "title": "Hamilton Sundstrand (Collins Aerospace) — Company · India Military Aerospace Atlas | Techadyant",
+    "canonical_path": "/research/military-aerospace/company/hamilton/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ],
+    "meta_description": "US APU/electrical-systems brand, now Collins Aerospace (RTX); embedded component supplier with no discrete India defence evidence. Tier C."
+  }
+}

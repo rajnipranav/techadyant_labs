@@ -1,0 +1,74 @@
+{
+  "entity_id": "ananth-technologies",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "ananth-technologies",
+  "name": "Ananth Technologies",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/company/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Ananth Technologies dossier placeholder with initial sources.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "Ananth Technologies",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Name": "Ananth Technologies",
+    "Type": "company",
+    "Evidence": "Initial sources captured; India relevance may need deepening."
+  },
+  "what_it_is": {
+    "prose": "Ananth Technologies is an Indian aerospace software and systems company supporting space missions.",
+    "sources": [
+      "src-an-1"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-an-1",
+      "title": "Ananth Technologies website",
+      "publisher": "Ananth Technologies",
+      "url": "https://www.ananthgroup.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Company overview."
+    }
+  ],
+  "seo": {
+    "title": "Ananth Technologies — Company · India Space Atlas | Techadyant",
+    "meta_description": "Ananth Technologies company/entity in the India Space Atlas.",
+    "canonical_path": "/research/space/company/ananth-technologies/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

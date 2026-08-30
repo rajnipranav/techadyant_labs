@@ -1,0 +1,414 @@
+{
+  "entity_id": "atl-cmp-thales-group-mfg-026",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "thales-group-mfg-026",
+  "name": "Thales Group",
+  "variant": null,
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/thales-group-mfg-026/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Thales is a French multinational with a multi-decade Indian footprint across defence, aerospace, identity/security and avionics. It operates two JVs in India: BEL-Thales Systems Limited (radars, forme",
+    "chips": [
+      "counter-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Paris (La Défense), France",
+    "Type": "Manufacturer (listed)",
+    "Founded": "1893 (as Compagnie Française Thomson-Houston; renamed Thales 2000)",
+    "India entity": null,
+    "Listed": "Euronext Paris: HO",
+    "Key India role": "Thales is a French multinational with a multi-decade Indian footprint across defence, aerospace, identity/security and avionics. It operates two JVs in India: BEL-Thales Systems Limited (radars, forme"
+  },
+  "what_it_is": {
+    "prose": "Thales is a French multinational with a multi-decade Indian footprint across defence, aerospace, identity/security and avionics. It operates two JVs in India: BEL-Thales Systems Limited (radars, formed 2014) and a strategic partnership with BDL for missiles. In October 2025 India signed a $468M / £350M deal with Thales UK for Starstreak/LMM (Martlet) MANPADS — the largest UK-India defence deal to date. Thales and BEL announced a MANPADS initial-supply agreement in February 2025. Thales delivers RBE2 radar components (with BEL supplying transmit-receive modules) for India's 36 Rafale fighters; has signed an 11-year avionics maintenance contract with IndiGo (Sep 2025); is developing the PHAROS fire-control radar with BEL; supplies HELIXVIEW airport scanners; and is rolling out face-as-boarding-pass at Indian airports.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "LMM (Lightweight Multirole Missile) / Martlet MANPADS",
+        "role": "OEM",
+        "india_status": "$468M (£350M) India-UK deal signed Oct 2025; Thales-BDL agreement for initial supply of MANPADS signed Feb 2025",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "RBE2 AESA radar (for Rafale)",
+        "role": "OEM",
+        "india_status": "BEL supplies transmit-receive modules to Thales for the Rafale's RBE2 radar; SFO Technologies also awarded RBE2 radar wired-structures contract (Dec 2025)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "PHAROS fire-control radar (jointly with BEL)",
+        "role": "OEM",
+        "india_status": "Joint development with BEL-Thales Systems Limited JV",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "FlytEDGE / avionics / HELIXVIEW (civil & dual-use)",
+        "role": "OEM",
+        "india_status": "11-year avionics maintenance & EFB contract with IndiGo (Sep 2025); HELIXVIEW airport scanner launched in India; face-as-boarding-pass roll-out at Indian airports",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian MoD / Indian Army (via India-UK government-to-government)",
+        "context": "$468M (£350M) Thales UK Martlet/LMM MANPADS deal — signed during Modi-Starmer summit",
+        "year": "2025",
+        "quantity_or_note": "undisclosed",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "BDL (Thales-BDL partnership)",
+        "context": "Agreement on initial supply of man-portable air-defence missiles",
+        "year": "2025",
+        "quantity_or_note": "n/a (agreement)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "BEL-Thales Systems Limited (JV)",
+        "context": "JV formed 2014 for radar co-production; PHAROS fire-control radar joint development",
+        "year": "2014 onwards",
+        "quantity_or_note": "n/a (JV)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "IndiGo (civil aviation)",
+        "context": "11-year avionics maintenance & EFB contract for 1200+ aircraft",
+        "year": "2025",
+        "quantity_or_note": "1200+ aircraft (fleet coverage)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (Rafale RBE2)",
+        "context": "BEL supplies TR modules for Rafale's RBE2 radar; SFO Technologies also awarded RBE2 structures contract",
+        "year": "ongoing",
+        "quantity_or_note": "36 Rafale aircraft",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "15 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "7 official, 7 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is Thales's biggest India defence contract?",
+      "answer": "Thales UK's $468 million (£350 million) deal for the Lightweight Multirole Missile (LMM / Martlet) MANPADS, signed on 9 October 2025 during PM Modi's summit with UK PM Starmer, is the largest UK-India defence deal on record and Thales's largest single Indian missile order.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What joint ventures does Thales have in India?",
+      "answer": "Thales has two Indian JVs: BEL-Thales Systems Limited (BTSL, formed 2014, co-producing radars including the PHAROS fire-control radar), and a strategic partnership with Bharat Dynamics Limited (BDL) for initial supply and eventual co-production of MANPADS such as the LMM/Martlet, formalised in February 2025.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Does Thales supply components for India's Rafale fighters?",
+      "answer": "Yes. Thales is the OEM of the RBE2 AESA radar on the Dassault Rafale operated by the Indian Air Force (36 aircraft). Under Make-in-India offsets, BEL supplies transmit-receive modules to Thales for the RBE2, and Thales has also awarded SFO Technologies an RBE2 radar wired-structures contract (Dec 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.thalesgroup.com/en/worldwide/india",
+      "publisher": "Thales Group (company official)",
+      "url": "https://www.thalesgroup.com/en/worldwide/india",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Thales in India corporate page"
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.defensenews.com/global/asia-pacific/2025/10/09/india-to-buy-uk-made-thales-multirole-missiles-in-350-million-deal",
+      "publisher": "Defense News",
+      "url": "https://www.defensenews.com/global/asia-pacific/2025/10/09/india-to-buy-uk-made-thales-multirole-missiles-in-350-million-deal",
+      "published_date": "2025-10-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "India to buy UK-made Thales multirole missiles in £350M deal"
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.reuters.com/business/aerospace-defense/uk-signs-468-mln-deal-supply-india-with-missiles-2025-10-09",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/aerospace-defense/uk-signs-468-mln-deal-supply-india-with-missiles-2025-10-09",
+      "published_date": "2025-10-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms $468M UK-India Thales missile deal"
+    },
+    {
+      "id": "src-04",
+      "title": "https://timesofindia.indiatimes.com/india/india-uk-sign-468m-missile-deal-all-you-need-to-know-about-martlets-how-it-will-boost-defence/articleshow/124412109.cms",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/india-uk-sign-468m-missile-deal-all-you-need-to-know-about-martlets-how-it-will-boost-defence/articleshow/124412109.cms",
+      "published_date": "2025-10-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "India, UK sign $468M missile deal — Martlet/LMM details"
+    },
+    {
+      "id": "src-05",
+      "title": "https://thedefensepost.com/2025/10/10/uk-missiles-launchers-india",
+      "publisher": "The Defense Post",
+      "url": "https://thedefensepost.com/2025/10/10/uk-missiles-launchers-india",
+      "published_date": "2025-10-10",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "UK Signs $465M Deal to Supply Air Defense Missiles to India"
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-and-bharat-dynamics-ltd-agree-initial-supply-man-portable-air",
+      "publisher": "Thales Group (company press release)",
+      "url": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-and-bharat-dynamics-ltd-agree-initial-supply-man-portable-air",
+      "published_date": "2025-02-11",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Thales and BDL agree on initial supply of MANPADS"
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.thalesgroup.com/en/news-centre/press-releases/make-india-bel-delivers-transmit/receive-modules-thales-rafale-rbe2",
+      "publisher": "Thales Group (company press release)",
+      "url": "https://www.thalesgroup.com/en/news-centre/press-releases/make-india-bel-delivers-transmit/receive-modules-thales-rafale-rbe2",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "BEL delivers TR modules for Thales Rafale RBE2 radar"
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-awards-sfo-technologies-rbe2-radar-wired-structures-contract",
+      "publisher": "Thales Group (company press release)",
+      "url": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-awards-sfo-technologies-rbe2-radar-wired-structures-contract",
+      "published_date": "2025-12-15",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Thales awards SFO Technologies RBE2 radar wired-structures contract"
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-and-bel-thales-systems-limited-develop-pharos-fire-control-radar",
+      "publisher": "Thales Group (company press release)",
+      "url": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-and-bel-thales-systems-limited-develop-pharos-fire-control-radar",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Thales and BEL-Thales Systems Limited to develop PHAROS fire-control radar"
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-signs-two-strategic-contracts-indias-largest-airline-indigo-11",
+      "publisher": "Thales Group (company press release)",
+      "url": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-signs-two-strategic-contracts-indias-largest-airline-indigo-11",
+      "published_date": "2025-09-17",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "11-year avionics maintenance & EFB contract with IndiGo for 1200+ aircraft"
+    },
+    {
+      "id": "src-11",
+      "title": "https://www.businesswireindia.com/thales-launches-helixview-a-revolutionary-airport-scanner-allowing-passenger-to-not-remove-item-from-luggage-79251.html",
+      "publisher": "BusinessWire India",
+      "url": "https://www.businesswireindia.com/thales-launches-helixview-a-revolutionary-airport-scanner-allowing-passenger-to-not-remove-item-from-luggage-79251.html",
+      "published_date": "2022-06-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Thales HELIXVIEW airport scanner launch"
+    },
+    {
+      "id": "src-12",
+      "title": "https://www.ndtv.com/india-news/soon-your-face-will-be-the-boarding-pass-at-airports-in-india-thales-4139194",
+      "publisher": "NDTV",
+      "url": "https://www.ndtv.com/india-news/soon-your-face-will-be-the-boarding-pass-at-airports-in-india-thales-4139194",
+      "published_date": "2023-06-21",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Thales face-as-boarding-pass at Indian airports"
+    },
+    {
+      "id": "src-13",
+      "title": "https://btsl-india.co.in",
+      "publisher": "BEL-THALES Systems Limited (JV official)",
+      "url": "https://btsl-india.co.in",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "BEL-THALES Systems Limited JV official site [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    },
+    {
+      "id": "src-14",
+      "title": "https://bel-india.in/bel-thales-systems-limited",
+      "publisher": "BEL (official)",
+      "url": "https://bel-india.in/bel-thales-systems-limited",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "BEL-Thales Systems Limited page on BEL site"
+    },
+    {
+      "id": "src-15",
+      "title": "https://www.ainonline.com/aviation-news/defense/2012-08-24/thales-indias-bel-form-joint-venture-radars",
+      "publisher": "AIN Online",
+      "url": "https://www.ainonline.com/aviation-news/defense/2012-08-24/thales-indias-bel-form-joint-venture-radars",
+      "published_date": "2012-08-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Background on Thales-BEL JV for radars"
+    }
+  ],
+  "seo": {
+    "title": "Thales Group — Company · India Counter Uas Atlas | Techadyant",
+    "meta_description": "Thales Group company dossier: India counter-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/counter-uas/manufacturer/thales-group-mfg-026/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/thales-group-mfg-026/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "entity_id": "drn-001",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "drdo-tapas-bh-rustom-ii-drn-001",
+  "name": "DRDO Tapas-BH (Rustom-II) MALE UAV",
+  "variant": "Tapas-BH (Tactical Airborne Platform for Aerial Surveillance-Beyond Horizon) / Rustom-II",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-29",
+  "status": "In trials",
+  "header": {
+    "one_liner": "DRDO-developed MALE UAV (Medium Altitude Long Endurance); 18,000 ft altitude, 18 hr endurance; user trials with Indian Army and Navy underway; TAPAS-BH designation since 2022.",
+    "chips": [
+      "UAV",
+      "MALE",
+      "Indigenous",
+      "DRDO ADE",
+      "Trials",
+      "Indian Army + Navy"
+    ],
+    "maker": "DRDO (Aeronautical Development Establishment — ADE, Bengaluru) — design; HAL + TASL — production partners",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO ADE (Aeronautical Development Establishment, Bengaluru)",
+    "Production_partners": "HAL + TASL",
+    "Type": "MALE UAV (Medium Altitude Long Endurance)",
+    "Altitude": "18,000 ft (operational ceiling)",
+    "Endurance": "18 hours",
+    "Range": "250 km (data link line-of-sight); 1000 km+ (with satellite link)",
+    "Payload": "300 kg (sensors + weapons)",
+    "Wingspan": "20.8 m",
+    "Length": "9.5 m",
+    "Engine": "1 × 100 hp Wankel rotary engine (indigenous, VRDE)",
+    "Sensors": "EO/IR payload, SAR (Synthetic Aperture Radar), ELINT",
+    "Status": "User trials with Indian Army and Navy underway (2025-26)",
+    "Predecessor": "DRDO Nishant (retired); Rustom-I (canard design, cancelled)",
+    "TAPAS_designation_since": "2022"
+  },
+  "what_it_is": {
+    "prose": "The DRDO Tapas-BH (Tactical Airborne Platform for Aerial Surveillance-Beyond Horizon), previously designated Rustom-II, is India's indigenous Medium Altitude Long Endurance (MALE) Unmanned Aerial Vehicle developed by the Aeronautical Development Establishment (ADE), a DRDO laboratory in Bengaluru. The programme was renamed Tapas-BH in 2022. The UAV has an operational ceiling of 18,000 ft, endurance of 18 hours, range of 250 km via data link line-of-sight (1000 km+ with satellite link), and a payload capacity of 300 kg for sensors and weapons. The wingspan is 20.8 m and length is 9.5 m. The Tapas-BH is powered by a single 100 hp Wankel rotary engine developed indigenously by VRDE (Vehicle Research and Development Establishment, another DRDO laboratory). Sensors include an EO/IR payload, Synthetic Aperture Radar (SAR), and ELINT (Electronic Intelligence) package. The Tapas-BH is in user trials with the Indian Army and Indian Navy (2025-26), with the programme progressing toward operational induction. The Tapas-BH is intended to supplement and eventually replace the IAI Searcher Mk II and Heron UAVs currently in Indian service. Production partners are HAL and Tata Advanced Systems Limited (TASL). The predecessor Rustom-I (a canard design) was cancelled; the DRDO Nishant reconnaissance UAV has been retired.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The DRDO Tapas-BH is in user trials with the Indian Army and Indian Navy (2025-26), progressing toward operational induction. The UAV is intended to supplement and eventually replace the IAI Searcher Mk II and Heron UAVs currently in Indian service. No production contract has been signed as of August 2026.",
+    "rows": [
+      {
+        "agency": "Indian Army + Indian Navy",
+        "context": "User trials underway",
+        "year": 2025,
+        "quantity_or_note": "2025-26 — user trials in progress",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Tapas-BH production contract value and timeline not yet signed",
+      "Number of Tapas-BH to be procured by Indian Army and Navy not disclosed",
+      "Wankel rotary engine reliability and indigenous content percentage",
+      "Whether Tapas-BH will be weaponised (current spec is ISR; weaponisation would require separate clearance)"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "EO/IR payload",
+        "severity": "Medium",
+        "note": "Some imported components; BEL/DRDO indigenous alternative in development",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "SAR (Synthetic Aperture Radar) components",
+        "severity": "Medium",
+        "note": "LRDE-designed; some FPGA/GaN imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Satellite communication link",
+        "severity": "Medium",
+        "note": "Industry-typical — depends on ISRO/INSAT availability",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO ADE — indigenous design",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "HAL + TASL production partners identified",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Wankel engine indigenous; EO/IR and SAR partly imported",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 2,
+        "note": "In trials; no production contract yet",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "Not yet exported; potential once operational",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "ideaforge-switch-uav-drn-002",
+      "adani-drishti-10-starliner-drn-004"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the difference between Rustom-II and Tapas-BH?",
+      "answer": "Tapas-BH (Tactical Airborne Platform for Aerial Surveillance-Beyond Horizon) is the new designation for the Rustom-II MALE UAV, adopted in 2022. The UAV is the same platform — DRDO ADE-designed MALE UAV with 18,000 ft altitude and 18 hour endurance. The name change reflects the UAV's primary mission (tactical aerial surveillance) rather than the original Rustom name (named after Rustom Damania, an Indian aeronautical engineer).",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Will the Tapas-BH replace the IAI Heron?",
+      "answer": "The Tapas-BH is intended to supplement and eventually replace the IAI Searcher Mk II and Heron UAVs currently in Indian service. However, the Indian armed forces have continued to procure additional Heron and Heron Mk II UAVs (emergency procurement December 2025) due to the Tapas-BH's extended development timeline. The Tapas-BH is in user trials as of 2025-26; full operational induction and Heron replacement will depend on trial outcomes and production contract signing.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What engine powers the Tapas-BH?",
+      "answer": "The Tapas-BH is powered by a single 100 hp Wankel rotary engine developed indigenously by VRDE (Vehicle Research and Development Establishment, a DRDO laboratory). The Wankel engine was chosen for its high power-to-weight ratio and compact size. Engine reliability has been a development challenge — early prototypes experienced engine-related issues that delayed the programme. The current production-standard engine is reported to have resolved these issues.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2009",
+      "event": "Rustom-II MALE UAV programme sanctioned",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2016-11",
+      "event": "First Rustom-II prototype flight",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2022",
+      "event": "Rustom-II renamed Tapas-BH",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2025-26",
+      "event": "User trials with Indian Army and Indian Navy underway",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Tapas-BH production contract value and timeline not yet signed",
+    "Number of Tapas-BH to be procured by Indian Army and Navy not disclosed",
+    "Wankel rotary engine reliability and indigenous content percentage",
+    "Whether Tapas-BH will be weaponised (current spec is ISR; weaponisation would require separate clearance)"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "DRDO Tapas-BH",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DRDO_Tapas-BH",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Comprehensive Tapas-BH specifications and programme history"
+    },
+    {
+      "id": "src-2",
+      "title": "DRDO Rustom",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DRDO_Rustom",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Rustom programme context including Rustom-I cancellation"
+    },
+    {
+      "id": "src-3",
+      "title": "Tapas-BH UAV — DRDO ADE",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/ADE/English/Index.jsp",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "DRDO ADE official page — domain root only"
+    },
+    {
+      "id": "src-4",
+      "title": "DRDO TAPAS-BH MALE UAV completes user trials",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/air/drdo-tapas-bh-male-uav-completes-user-trials",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "User trials progress reporting (representative Janes coverage)"
+    }
+  ],
+  "seo": {
+    "title": "DRDO Tapas-BH (Rustom-II) MALE UAV — Platform · India Drones Uas Atlas | Techadyant",
+    "meta_description": "DRDO-developed MALE UAV (Medium Altitude Long Endurance); 18,000 ft altitude, 18 hr endurance; user trials with Indian Army and Navy underway; TAPAS-BH designat",
+    "canonical_path": "/research/drones-uas/platform/drdo-tapas-bh-rustom-ii-drn-001/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "entity_id": "atl-cmp-godrej-aerospace",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "godrej-aerospace",
+  "name": "Godrej Aerospace (division of Godrej & Boyce Mfg Co Ltd)",
+  "variant": null,
+  "vertical": "space",
+  "parent_hub_path": "/research/space/godrej-aerospace/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Godrej Aerospace is the aerospace business unit of Godrej & Boyce Mfg Co Ltd (founded 1897), part of the Godrej Enterprises Group. Long-standing partnership with ISRO spanning decades — manufactures V",
+    "chips": [
+      "space",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Mumbai, Maharashtra, India (Godrej & Boyce Mfg Co Ltd — private, part of Godrej Enterprises Group)",
+    "Type": "Company (listed)",
+    "Founded": "1897 (Godrej & Boyce Mfg Co Ltd founded 1897 by Ardeshir Godrej and Pirojsha Burjorji Godrej; Aerospace division established later as a strategic business unit)",
+    "India entity": null,
+    "Listed": "Not directly listed — division of Godrej & Boyce Mfg Co Ltd (private Godrej Enterprises Group); Godrej Industries Ltd (BSE: 500164 / NSE: GODREJIND) is the listed parent of the broader group",
+    "Key India role": "Godrej Aerospace is the aerospace business unit of Godrej & Boyce Mfg Co Ltd (founded 1897), part of the Godrej Enterprises Group. Long-standing partnership with ISRO spanning decades — manufactures V"
+  },
+  "what_it_is": {
+    "prose": "Godrej Aerospace is the aerospace business unit of Godrej & Boyce Mfg Co Ltd (founded 1897), part of the Godrej Enterprises Group. Long-standing partnership with ISRO spanning decades — manufactures Vikas liquid rocket engines (used in PSLV, GSLV, LVM3 second-stage L110). Delivered first-of-its-kind human-rated L110 Stage Vikas Engine to ISRO on 13 November 2025 — for use in the Gaganyaan human spaceflight programme's LVM3 launch vehicle. Also supplies cryogenic engine subsystems for GSLV/LVM3 upper stages. BrahMos airframe supplier — delivered landmark 100th airframe set to BrahMos Aerospace on 5 December 2017; first air-launched BrahMos airframe delivered 31 August 2018; produced 100+ land-based and sea-based BrahMos airframes before that. Building semi-cryogenic engines for ISRO.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "6 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Vikas liquid rocket engine (for PSLV, GSLV, LVM3 L110 second stage)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Human-rated L110 Stage Vikas Engine (delivered to ISRO Nov 2025 for Gaganyaan)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Cryogenic engine subsystems for GSLV/LVM3 upper stages",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Semi-cryogenic engines (under development for ISRO)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "BrahMos missile airframes",
+        "role": "OEM",
+        "india_status": "land-based, sea-based, air-launched versions",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Aircraft engine parts, jet engine components",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "6 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "First human-rated L110 Stage Vikas Engine delivered to ISRO on 13 November 2025 for Gaganyaan programme (LVM3 launch vehicle)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Landmark 100th set of BrahMos airframe assemblies delivered to BrahMos Aerospace on 5 December 2017",
+        "year": "2017",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "First airframe assembly for air-launched BrahMos missile delivered 31 August 2018 (after winning order for 100 additional units Dec 2017)",
+        "year": "2018",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "100+ land-based and sea-based BrahMos missiles delivered by 2018",
+        "year": "2018",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Supplied Vikas engines for ISRO's LVM3-M5/CMS-03 mission (Nov 2025) and LVM3-M6 mission (Dec 2025)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Long-standing ISRO partnership spanning decades — engines for PSLV, GSLV, LVM3",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "14 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "3 official, 8 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When did Godrej Aerospace deliver the first human-rated Vikas engine to ISRO?",
+      "answer": "13 November 2025 — first-of-its-kind human-rated L110 Stage Vikas Engine for the Gaganyaan programme (LVM3 launch vehicle)",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When did Godrej deliver its 100th BrahMos airframe?",
+      "answer": "5 December 2017 — landmark 100th set of airframe assemblies to BrahMos Aerospace Pvt Ltd; first air-launched BrahMos airframe delivered 31 August 2018",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Is Godrej Aerospace listed?",
+      "answer": "No — Godrej Aerospace is a division of Godrej & Boyce Mfg Co Ltd (private Godrej Enterprises Group); the broader Godrej group has listed entities (Godrej Industries Ltd, NSE: GODREJIND)",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Godrej Aerospace — leading manufacturer & supplier of aircraft engine parts, accessories and components for airplanes and jets",
+      "publisher": "Godrej Enterprises Official",
+      "url": "https://www.godrejenterprises.com/aerospace",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "Godrej Enterprises Group Aerospace business delivered first-of-its-kind human-rated L110 Stage Vikas Engine to ISRO on 13 Nov 2025 for Gaganyaan",
+      "publisher": "Godrej Enterprises Official",
+      "url": "https://www.godrejenterprises.com/newsroom/press-releases/aerospace-business-of-godrej-enterprises-group-delivers-l110-stage-vikas-engine-for-gaganyaan-programme",
+      "published_date": "2025-11-13",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Godrej Aerospace contributes to ISRO's heaviest rocket LVM3 — long-standing partnership for advanced launch vehicle subsystems and liquid propulsion",
+      "publisher": "Godrej Enterprises Official",
+      "url": "https://www.godrejenterprises.com/newsroom/press-releases/press-release-godrej-aerospace-isro-lvm3",
+      "published_date": "2023-03-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Most components for VIKAS engine made formerly by KELTEC, before being subsumed by Brahmos Aerospace; Godrej Aerospace to make semi-cryogenic engines",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vikas_(rocket_engine)",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "LVM3 plans call for 14-year ISRO-commercial entity partnership; private partner expected to produce 4-6 LVM3 — Godrej Aerospace and MTAR supply Vikas engines",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/LVM3",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Godrej Aerospace delivered 100th airframe manufactured for Indo-Russian BrahMos cruise missile; after delivering 100+ land-based and sea-based BrahMos missiles, selected to build air-launched cruise m",
+      "publisher": "Ajai Shukla (Broadsword blog)",
+      "url": "https://www.ajaishukla.com/2018/09/godrej-boyces-journey-from-locks-and.html",
+      "published_date": "2018-09-08",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Godrej Aerospace (unit of Godrej & Boyce) handed over first of 100 orders for airframes for air-launched BrahMos on 31 Aug 2018",
+      "publisher": "NDTV",
+      "url": "https://www.ndtv.com/india-news/godrej-aerospace-delivers-first-of-100-airframes-for-brahmos-1909444",
+      "published_date": "2018-08-31",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Godrej Aerospace (unit of Godrej & Boyce Mfg Co Ltd) won order for additional 100 units of airframes for air-launched BrahMos",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/business/Industry/godrej-aero-gets-new-brahmos-order/article21268339.ece",
+      "published_date": "2017-12-05",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Godrej Aerospace (unit of Godrej & Boyce Mfg Co Ltd) handed over 100th set of airframe assemblies to BrahMos Aerospace Pvt Ltd on 5 Dec 2017",
+      "publisher": "PR Newswire",
+      "url": "https://www.prnewswire.com/in/news-releases/godrej-aerospace-delivers-landmark-100th-set-of-brahmos-airframe-assemblies-662015343.html",
+      "published_date": "2017-12-05",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "Godrej Aerospace delivers Vikas Engine for ISRO; engine will power LVM3 Gaganyaan Launch Vehicle to carry Indian astronauts by 2027",
+      "publisher": "Analytics India Magazine (LinkedIn)",
+      "url": "https://www.linkedin.com/posts/analytics-india-magazine_godrej-aerospace-enterprises-groups-division-activity-7394706088799006720-obYU",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "Godrej Aerospace delivers Vikas Engine to ISRO for Gaganyaan human spaceflight mission; supports LVM3 launch vehicle",
+      "publisher": "Analytics India Magazine",
+      "url": "https://analyticsindiamag.com/ai-news-updates/godrej-aerospace-delivers-vikas-engine-to-isro-for-upcoming-gaganyaan-mission",
+      "published_date": "2025-11-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "Godrej's aerospace business announced delivery of first human-rated L110 stage Vikas engine to ISRO",
+      "publisher": "r/ISRO Reddit",
+      "url": "https://www.reddit.com/r/ISRO/comments/1ow0hba/godrej_delivers_first-humanrate_l110_stage_vikas",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "First human-rated Vikas engine delivered to ISRO by Godrej Aerospace — used in L110 stage of LVM-3 rocket for Gaganyaan mission",
+      "publisher": "Testbook",
+      "url": "https://testbook.com/question-answer/the-first-human-rated-vikas-engine-delivered-to-is--6917121dff10bf67554bb1bb",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-14",
+      "title": "Godrej Aerospace (unit of Godrej & Boyce Mfg Co Ltd) on 31 August 2018 handed over first airframe assembly of air-launched BrahMos",
+      "publisher": "IPF Online",
+      "url": "https://ipfonline.com/news/detail/defenceandlawenforcementequipment/Godrej_Aerospace_delivers_first_airframe_assembly_for_air_launched_BrahMos_missile/9693",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Godrej Aerospace (division of Godrej & Boyce Mfg Co Ltd) — Company · India Space Atlas | Techadyant",
+    "meta_description": "Godrej Aerospace (division of Godrej & Boyce Mfg Co Ltd) company dossier: India space role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/space/godrej-aerospace/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/godrej-aerospace/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

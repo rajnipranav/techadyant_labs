@@ -1,0 +1,93 @@
+{
+  "entity_id": "intel-xilinx",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "intel-xilinx",
+  "name": "Avionics Microelectronics — Intel / AMD-Xilinx / Microchip-Microsemi / TI / ST",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Group card for commercial microelectronics and FPGA vendors (Intel, AMD-Xilinx, Microchip/Microsemi, Texas Instruments, STMicroelectronics) whose processors, FPGAs and rad-tolerant parts underpin avionics and mission computers. Generic COTS supply — Tier C.",
+    "chips": [
+      "Tier C",
+      "USA",
+      "Multi",
+      "FPGA",
+      "AMD-Xilinx",
+      "Microsemi",
+      "Microelectronics"
+    ],
+    "country": "United States / Multi",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign component/sub-system supplier — no standalone India footprint",
+    "mobility_or_class": "Component/sub-system supplier (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Vendors": "Intel, AMD (Xilinx), Microchip (Microsemi), Texas Instruments, STMicroelectronics",
+    "Product_lines": "Processors, FPGAs (including radiation-tolerant/hardened), microcontrollers, analogue/RF ICs",
+    "Relevance": "Underlying silicon in avionics, mission computers, radar/EW signal processing",
+    "Tier_C_reason": "Generic COTS microelectronics; no India-specific defence supply evidence"
+  },
+  "what_it_is": {
+    "prose": "This card groups the commercial microelectronics vendors whose parts underpin modern avionics: Intel and AMD (via Xilinx) for processors and FPGAs, Microchip (via Microsemi) for radiation-tolerant/secure FPGAs, and Texas Instruments and STMicroelectronics for microcontrollers and analogue/RF devices. These components sit inside mission computers, radar and electronic-warfare signal processors and flight systems as generic commercial-off-the-shelf silicon, sourced through the systems integrators rather than under any discrete, publicly documented India defence contract. Recorded as an honest Tier C generic-component card.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Aerospace and Defense Applications",
+      "publisher": "Xilinx / AMD (official)",
+      "url": "https://www.xilinx.com/publications/prod_mktg/pn0010783.pdf",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "AMD-Xilinx aerospace & defence FPGA overview"
+    },
+    {
+      "id": "src-2",
+      "title": "Microchip FPGA: Microsemi Radiation-Tolerant & Secure Solutions for Space and Defense",
+      "publisher": "PCBSync",
+      "url": "https://pcbsync.com/microchip-fpga/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Microchip/Microsemi rad-tolerant FPGA overview"
+    }
+  ],
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "seo": {
+    "title": "Avionics Microelectronics — Intel / AMD-Xilinx / Microchip-Microsemi / TI / ST — Company · India Military Aerospace Atlas | Techadyant",
+    "canonical_path": "/research/military-aerospace/company/intel-xilinx/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ],
+    "meta_description": "Group card for COTS microelectronics/FPGA vendors (Intel, AMD-Xilinx, Microchip-Microsemi, TI, ST) underpinning avionics; no India-specific defence evidence. Tier C."
+  }
+}

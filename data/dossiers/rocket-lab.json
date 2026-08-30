@@ -1,0 +1,74 @@
+{
+  "entity_id": "rocket-lab",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "rocket-lab",
+  "name": "Rocket Lab",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/company/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Rocket Lab dossier placeholder with initial sources.",
+    "chips": [
+      "B",
+      "India-relevant"
+    ],
+    "maker": "Rocket Lab",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Name": "Rocket Lab",
+    "Type": "company",
+    "Evidence": "Initial sources captured; India relevance may need deepening."
+  },
+  "what_it_is": {
+    "prose": "Rocket Lab is a U.S./New Zealand small-launch provider with no confirmed India operational evidence.",
+    "sources": [
+      "src-rl-1"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-rl-1",
+      "title": "Rocket Lab website",
+      "publisher": "Rocket Lab",
+      "url": "https://www.rocketlabusa.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "No India operational evidence."
+    }
+  ],
+  "seo": {
+    "title": "Rocket Lab — Company · India Space Atlas | Techadyant",
+    "meta_description": "Rocket Lab company/entity in the India Space Atlas.",
+    "canonical_path": "/research/space/company/rocket-lab/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

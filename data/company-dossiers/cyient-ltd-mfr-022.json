@@ -1,0 +1,423 @@
+{
+  "entity_id": "atl-cmp-cyient-ltd-mfr-022",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "cyient-ltd-mfr-022",
+  "name": "Cyient Ltd",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/cyient-ltd-mfr-022/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Cyient Ltd (formerly Infotech Enterprises Ltd, founded 1991 in Hyderabad by B. V. R. Mohan Reddy) is an Indian engineering, network and operations (ER&D) technology services company. Cyient is a lifec",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Hyderabad, Telangana, India",
+    "Type": "Manufacturer (listed)",
+    "Founded": "1991 (established in 1991 in Hyderabad as Infotech Enterprises Ltd by B. V. R. Mohan Reddy; renamed Cyient in 2014)",
+    "India entity": null,
+    "Listed": "Listed — NSE:CYIENT / BSE:532175 (Cyient Ltd); subsidiary Cyient DLM Ltd listed NSE:CYIENTDLM (IPO July 2023)",
+    "Key India role": "Cyient Ltd (formerly Infotech Enterprises Ltd, founded 1991 in Hyderabad by B. V. R. Mohan Reddy) is an Indian engineering, network and operations (ER&D) technology services company. Cyient is a lifec"
+  },
+  "what_it_is": {
+    "prose": "Cyient Ltd (formerly Infotech Enterprises Ltd, founded 1991 in Hyderabad by B. V. R. Mohan Reddy) is an Indian engineering, network and operations (ER&D) technology services company. Cyient is a lifecycle engineering partner for aerospace & defense, offering design, certification, MRO, avionics and end-to-end product development. Key partnerships: (1) Honeywell — Cyient partners with Honeywell to manufacture Honeywell Anthem, the first cloud-connected cockpit system (18 July 2022); Cyient DLM signed a long-term deal with Honeywell Aerospace Technologies for aircraft cooling technology (6 November 2024); (2) Boeing — Cyient DLM signed a production contract with Boeing Global Services (BGS) for aerospace component production; (3) Other global A&D OEMs. Subsidiary Cyient DLM Ltd (Cyient Design-led Manufacturing) — Hyderabad-based integrated electronics & mechanical manufacturing partner for aerospace, defense and industrial markets — was spun off in an IPO in July 2023 (NSE:CYIENTDLM). Cyient is headquartered in Hyderabad and has market cap ~₹9,918 Cr.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "6 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Aerospace & Defense engineering services",
+        "role": "OEM",
+        "india_status": "design, certification, MRO, avionics, end-to-end product development",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Honeywell Anthem cockpit system (manufacturing partnership, July 2022)",
+        "role": "OEM",
+        "india_status": "first cloud-connected cockpit system",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Aircraft cooling technology (Cyient DLM-Honeywell Aerospace long-term deal, Nov 2024)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Aerospace components for Boeing Global Services (Cyient DLM production contract)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Cyient DLM",
+        "role": "OEM",
+        "india_status": "integrated electronics and mechanical manufacturing for aerospace, defense and industrial",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Line-replaceable units (LRUs) and modular components for cockpit systems",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "Cyient partners with Honeywell to manufacture Honeywell Anthem — the first cloud-connected cockpit system (18 July 2022, Hyderabad)",
+        "year": "2022",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Cyient DLM wins long-term deal with Honeywell Aerospace Technologies to provide aircraft cooling technology (6 November 2024)",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Cyient DLM signed strategic production contract with Boeing Global Services (BGS) for aerospace component production",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Cyient DLM IPO July 2023 — listed on NSE as CYIENTDLM",
+        "year": "2023",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Cyient founded as Infotech Enterprises in 1991 by B. V. R. Mohan Reddy in Hyderabad; renamed Cyient in 2014",
+        "year": "2014",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "11 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "3 official, 5 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Cyient founded and under what name?",
+      "answer": "Cyient Ltd (formerly Infotech Enterprises Ltd, founded 1991 in Hyderabad by B.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Who founded Cyient?",
+      "answer": "Cyient Ltd (formerly Infotech Enterprises Ltd, founded 1991 in Hyderabad by B.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "On which stock exchanges is Cyient listed?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the name of Cyient's design-led manufacturing subsidiary?",
+      "answer": "Subsidiary Cyient DLM Ltd (Cyient Design-led Manufacturing) — Hyderabad-based integrated electronics & mechanical manufacturing partner for aerospace, defense and industrial markets — was spun off in an IPO in July 2023 (NSE:CYIENTDLM).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which Honeywell cockpit system does Cyient manufacture?",
+      "answer": "Key partnerships: (1) Honeywell — Cyient partners with Honeywell to manufacture Honeywell Anthem, the first cloud-connected cockpit system (18 July 2022); Cyient DLM signed a long-term deal with Honeywell Aerospace Technologies for aircraft cooling technology (6 November 2024); (2) Boeing — Cyient DLM signed a production contract with Boeing Global Services (BGS) for aerospace component production; (3) Other global A&D OEMs.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What did Cyient DLM partner with Honeywell for in November 2024?",
+      "answer": "Key partnerships: (1) Honeywell — Cyient partners with Honeywell to manufacture Honeywell Anthem, the first cloud-connected cockpit system (18 July 2022); Cyient DLM signed a long-term deal with Honeywell Aerospace Technologies for aircraft cooling technology (6 November 2024); (2) Boeing — Cyient DLM signed a production contract with Boeing Global Services (BGS) for aerospace component production; (3) Other global A&D OEMs.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Cyient partners with Honeywell to manufacture Honeywell Anthem — first cloud-connected cockpit system (18 July 2022)",
+      "publisher": "Cyient Official",
+      "url": "https://www.cyient.com/news/2022/7/cyient-partners-with-honeywell-to-manufacture-honeywell-anthem-the-first-cloud-connected-cockpit-system",
+      "published_date": "2022-07-18",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "Cyient — lifecycle engineering partner for aerospace & defense; design, certification, MRO, avionics, end-to-end product development",
+      "publisher": "Cyient Official",
+      "url": "https://www.cyient.com/aerospace-defense",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Cyient DLM wins long-term deal with Honeywell Aerospace Technologies to provide aircraft cooling technology (6 Nov 2024)",
+      "publisher": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/cyient-dlm-wins-long-term-deal-with-honeywell-aerospace-technologies-to-provide-aircraft-cooling-technology-302297528.html",
+      "published_date": "2024-11-06",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Cyient DLM delivers end-to-end design-led manufacturing with integrated electronics and mechanical capabilities for aerospace, defense and industrial markets",
+      "publisher": "Cyient DLM Official",
+      "url": "https://www.cyientdlm.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-05",
+      "title": "Cyient DLM signed production contract with Boeing Global Services (BGS) for aerospace component production (Hyderabad)",
+      "publisher": "MM India",
+      "url": "https://www.mmindia.co.in/article/2775/cyient-dlm-lands-strategic-boeing-contract-for-aerospace-component-production",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Cyient established 1991 in Hyderabad as Infotech Enterprises Ltd; founder B. V. R. Mohan Reddy; renamed Cyient",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cyient",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Mohan Reddy founded Cyient as Infotech Enterprises in 1991; currently serves as Executive Chairman",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/B._V._R._Mohan_Reddy",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Mohan Reddy founded Cyient (earlier Infotech Enterprises) in 1991 with vision of providing engineering services to global markets",
+      "publisher": "Cyient Official",
+      "url": "https://www.cyient.com/leadership/bvr-mohan-reddy",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Cyient Limited (CYIENT.NS) — Aerospace & Defense Enterprise; HQ Hyderabad, India; listed NSE",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CYIENT.NS",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "Cyient — BSE Code 532175; NSE Symbol CYIENT",
+      "publisher": "Anand Rathi",
+      "url": "https://anandrathi.com/stocks/cyient/share-price/132175",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "Honeywell Aerospace inks deal with Cyient — Cyient to manufacture and test modular line-replaceable units (LRUs) for cloud-connected cockpit system",
+      "publisher": "Arizona Tech Council",
+      "url": "https://www.aztechcouncil.org/honeywell-aerospace-inks-deal-with-cyient-to-make-parts-for-cloud-connected-cockpit-system",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Cyient Ltd — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Cyient Ltd company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/cyient-ltd-mfr-022/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/cyient-ltd-mfr-022/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

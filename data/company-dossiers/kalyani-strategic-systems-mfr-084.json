@@ -1,0 +1,497 @@
+{
+  "entity_id": "atl-cmp-kalyani-strategic-systems-mfr-084",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "kalyani-strategic-systems-mfr-084",
+  "name": "Kalyani Strategic Systems Ltd (KSSL) — Bharat Forge / Kalyani Group Defence Arm",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/kalyani-strategic-systems-mfr-084/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Kalyani Strategic Systems Ltd (KSSL) is the defence arm of the Kalyani Group, wholly-owned by Bharat Forge Ltd (founded 19 June 1961 by Nilkanthrao A. Kalyani, Pune). KSSL is a leading Indian private-",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Pune, Maharashtra, India (Kalyani Group); KSSL registered at Bharat Forge campus, Pune",
+    "Type": "Manufacturer (listed)",
+    "Founded": "KSSL is wholly-owned defence subsidiary of Bharat Forge Ltd (Bharat Forge founded 19 June 1961 by Nilkanthrao A. Kalyani); KSSL established as defence arm in early 2010s",
+    "India entity": null,
+    "Listed": "Not separately listed — wholly-owned defence subsidiary of Bharat Forge Ltd (NSE:BHARATFORG / BSE:500493); Kalyani Rafael Advanced Systems (KRAS) is 51:49 JV between KSSL and Rafael",
+    "Key India role": "Kalyani Strategic Systems Ltd (KSSL) is the defence arm of the Kalyani Group, wholly-owned by Bharat Forge Ltd (founded 19 June 1961 by Nilkanthrao A. Kalyani, Pune). KSSL is a leading Indian private-"
+  },
+  "what_it_is": {
+    "prose": "Kalyani Strategic Systems Ltd (KSSL) is the defence arm of the Kalyani Group, wholly-owned by Bharat Forge Ltd (founded 19 June 1961 by Nilkanthrao A. Kalyani, Pune). KSSL is a leading Indian private-sector artillery OEM with a portfolio of 155mm/52 calibre gun systems. Key products: (1) MArG 155-BR / MArG 52 — world's smallest 155mm/52 calibre mounted gun system, weighing 24 tons on a Kalyani 4x4 vehicle, introduced in 2026 and unveiled at Eurosatory 2026 (June 2026) with patented Soft Recoil Technology (SRT); (2) Bharat-52 — 155mm/52 calibre towed howitzer (potential frontrunner for Indian Army's 400-towed-gun TGS tender worth ₹6,500 Cr, March 2025); (3) ATAGS (Advanced Towed Artillery Gun System) — 155mm/52 calibre towed howitzer developed with DRDO; KSSL bagged India's largest domestic artillery contract — order for 184 ATAGS (Asian Military Review, June 2026); (4) First howitzer export order worth $155 million (November 2022) — India's first artillery export order. KSSL partnered with US AM General LLC (June 2026) to offer distinct mounted artillery gun systems for world armies. Kalyani Rafael Advanced Systems (KRAS) — 51:49 JV between KSSL and Israel's Rafael Advanced Defense Systems — produces Spike anti-tank guided missile (ATGM) parts and missile systems: opened manufacturing facility 3 August 2017; $100M order from Israeli defence firm (July 2019); ₹287.51 crore missile systems order (August 2023).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "6 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "MArG 155-BR / MArG 52",
+        "role": "OEM",
+        "india_status": "world's smallest 155mm/52 calibre mounted gun system (24 tons on Kalyani 4x4 vehicle with patented Soft Recoil Technology); unveiled at Eurosatory 2026",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Bharat-52",
+        "role": "OEM",
+        "india_status": "155mm/52 calibre towed howitzer (potential frontrunner for Indian Army's 400-towed-gun TGS tender worth ₹6,500 Cr)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "ATAGS (Advanced Towed Artillery Gun System)",
+        "role": "OEM",
+        "india_status": "155mm/52 calibre towed howitzer with DRDO; 184-unit order (India's largest domestic artillery contract)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Kalyani Rafael Advanced Systems (KRAS)",
+        "role": "OEM",
+        "india_status": "51:49 JV between KSSL and Rafael; produces Spike ATGM parts, missile systems",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "155mm/52 calibre artillery",
+        "role": "OEM",
+        "india_status": "NATO-standard 155mm ammunition including precision-guided munitions",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Mounted Artillery Gun Systems",
+        "role": "OEM",
+        "india_status": "partnership with AM General LLC (USA, June 2026)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "9 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "Kalyani Strategic Systems wins first howitzer export order worth $155 million (9 November 2022) — India's first artillery export order",
+        "year": "2022",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "KSSL bagged India's largest domestic artillery contract — order for 184 ATAGS 155mm L/52 howitzers for Indian Army (per Asian Military Review June 2026)",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "MArG 52 unveiled at Eurosatory 2026 (June 2026) — world's smallest 155mm/52 calibre mounted gun system with patented Soft Recoil Technology (24 tons on Kalyani 4x4)",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Kalyani Group's Bharat-52 emerged as potential frontrunner in Indian Army's 400-towed-gun TGS tender worth ₹6,500 Cr (March 2025)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "KSSL and AM General LLC signed strategic partnership on 18 June 2026 to offer distinct mounted artillery gun systems for world armies",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Kalyani Rafael Advanced Systems (KRAS) opened missile manufacturing facility on 3 August 2017 — production and assembly of Spike ATGM and related technologies",
+        "year": "2017",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "KRAS bagged $100 million order from Israeli defence firm (11 July 2019)",
+        "year": "2019",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "KRAS bagged ₹287.51 crore missile systems order (28 August 2023)",
+        "year": "2023",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "KSSL to boost indigenous content in ATAGS to over 80% (March 2025)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "14 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "2 official, 11 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is the world's smallest 155mm/52 calibre mounted gun system?",
+      "answer": "Key products: (1) MArG 155-BR / MArG 52 — world's smallest 155mm/52 calibre mounted gun system, weighing 24 tons on a Kalyani 4x4 vehicle, introduced in 2026 and unveiled at Eurosatory 2026 (June 2026) with patented Soft Recoil Technology (SRT); (2) Bharat-52 — 155mm/52 calibre towed howitzer (potential frontrunner for Indian Army's 400-towed-gun TGS tender worth ₹6,500 Cr, March 2025); (3) ATAGS (Advanced Towed Artillery Gun System) — 155mm/52 calibre towed howitzer developed with DRDO; KSSL bagged India's largest domestic artillery contract — order for 184 ATAGS (Asian Military Review, June 2026); (4) First howitzer export order worth $155 million (November 2022) — India's first artillery export order.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which Kalyani Group howitzer is a frontrunner for the Indian Army's 400 TGS tender?",
+      "answer": "Key products: (1) MArG 155-BR / MArG 52 — world's smallest 155mm/52 calibre mounted gun system, weighing 24 tons on a Kalyani 4x4 vehicle, introduced in 2026 and unveiled at Eurosatory 2026 (June 2026) with patented Soft Recoil Technology (SRT); (2) Bharat-52 — 155mm/52 calibre towed howitzer (potential frontrunner for Indian Army's 400-towed-gun TGS tender worth ₹6,500 Cr, March 2025); (3) ATAGS (Advanced Towed Artillery Gun System) — 155mm/52 calibre towed howitzer developed with DRDO; KSSL bagged India's largest domestic artillery contract — order for 184 ATAGS (Asian Military Review, June 2026); (4) First howitzer export order worth $155 million (November 2022) — India's first artillery export order.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is KRAS and who are its JV partners?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the value of Kalyani Strategic Systems' first howitzer export order?",
+      "answer": "Key products: (1) MArG 155-BR / MArG 52 — world's smallest 155mm/52 calibre mounted gun system, weighing 24 tons on a Kalyani 4x4 vehicle, introduced in 2026 and unveiled at Eurosatory 2026 (June 2026) with patented Soft Recoil Technology (SRT); (2) Bharat-52 — 155mm/52 calibre towed howitzer (potential frontrunner for Indian Army's 400-towed-gun TGS tender worth ₹6,500 Cr, March 2025); (3) ATAGS (Advanced Towed Artillery Gun System) — 155mm/52 calibre towed howitzer developed with DRDO; KSSL bagged India's largest domestic artillery contract — order for 184 ATAGS (Asian Military Review, June 2026); (4) First howitzer export order worth $155 million (November 2022) — India's first artillery export order.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "How many ATAGS units did KSSL receive an order for from the Indian Army?",
+      "answer": "Key products: (1) MArG 155-BR / MArG 52 — world's smallest 155mm/52 calibre mounted gun system, weighing 24 tons on a Kalyani 4x4 vehicle, introduced in 2026 and unveiled at Eurosatory 2026 (June 2026) with patented Soft Recoil Technology (SRT); (2) Bharat-52 — 155mm/52 calibre towed howitzer (potential frontrunner for Indian Army's 400-towed-gun TGS tender worth ₹6,500 Cr, March 2025); (3) ATAGS (Advanced Towed Artillery Gun System) — 155mm/52 calibre towed howitzer developed with DRDO; KSSL bagged India's largest domestic artillery contract — order for 184 ATAGS (Asian Military Review, June 2026); (4) First howitzer export order worth $155 million (November 2022) — India's first artillery export order.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Where was the KSSL MArG 52 unveiled?",
+      "answer": "Key products: (1) MArG 155-BR / MArG 52 — world's smallest 155mm/52 calibre mounted gun system, weighing 24 tons on a Kalyani 4x4 vehicle, introduced in 2026 and unveiled at Eurosatory 2026 (June 2026) with patented Soft Recoil Technology (SRT); (2) Bharat-52 — 155mm/52 calibre towed howitzer (potential frontrunner for Indian Army's 400-towed-gun TGS tender worth ₹6,500 Cr, March 2025); (3) ATAGS (Advanced Towed Artillery Gun System) — 155mm/52 calibre towed howitzer developed with DRDO; KSSL bagged India's largest domestic artillery contract — order for 184 ATAGS (Asian Military Review, June 2026); (4) First howitzer export order worth $155 million (November 2022) — India's first artillery export order.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "KSSL artillery business — 155mm/52 calibre gun systems, ATAGS, automatic ammunition, shoot-and-scoot capability, max speed 18 kmph",
+      "publisher": "KSSL Official",
+      "url": "https://www.kssl.in/our-business-artillery",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "MArG 52 — smallest 155mm/52 calibre mounted gun system in the world, introduced by KSSL in 2026; weighs 24 tons on Kalyani 4x4 vehicle",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/MArG_155-BR",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Bharat-52 — 155mm/52 calibre towed howitzer manufactured by Bharat Forge, subsidiary of Kalyani Group",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bharat-52",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "ATAGS — 155mm/52 calibre towed howitzer developed for Indian Army; Kalyani Strategic Systems is developer",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ATAGS_(howitzer)",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "Kalyani Strategic Systems owns 51% stake in Kalyani Rafael Advanced Systems — JV with Israeli Rafael Advanced Defense Systems",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kalyani_Group",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "KSSL MArG 52 features patented soft-recoil technology (19 June 2026); ATAGS — India's largest domestic artillery contract — order for 184 ATAGS 155mm L/52",
+      "publisher": "Asian Military Review",
+      "url": "https://www.asianmilitaryreview.com/2026/06/kalyani-demonstrates-its-export-ambitions-at-eurosatory-2026-foc",
+      "published_date": "2026-06-19",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "KSSL unveils new 155mm mounted gun series at Eurosatory 2026 — capable of firing NATO-standard 155mm ammunition including precision-guided munitions",
+      "publisher": "Bharat Shakti",
+      "url": "https://bharatshakti.in/kalyani-strategic-systems-unveils-new-155mm-mounted-gun-series-at-eurosatory-2026",
+      "published_date": "2026-06-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Bharat-52 emerged as potential frontrunner in Indian Army's 400-towed-gun TGS tender worth ₹6,500 Cr (March 2025)",
+      "publisher": "Defence.in",
+      "url": "https://defence.in/threads/after-atags-kalyani-groups-bharat-52-emerges-as-potential-frontrunner-in-indian-armys-400-towed-gun-tgs-tender-worth-rs6-500-cr.13491",
+      "published_date": "2025-03-28",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Kalyani Strategic Systems wins first howitzer export order worth $155 million (9 Nov 2022); KRAS delivered first missile parts for India's MR-SAM (India-Israel JV)",
+      "publisher": "DefenceStar",
+      "url": "https://www.defencestar.in/defence-news/indias-kalyani-strategic-systems-wins-first-howitzer-export-order-worth-155-million/6772",
+      "published_date": "2022-11-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "Kalyani Group and Israel's Rafael opened missile manufacturing facility on 3 August 2017 — KRAS to undertake Spike ATGM production and assembly",
+      "publisher": "Defence News",
+      "url": "https://www.defensenews.com/smr/space-missile-defense/2017/08/03/indias-kalyani-group-israels-rafael-open-missile-manufacturing-facility",
+      "published_date": "2017-08-03",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "KRAS — 49:51 JV between Rafael and KSSL; bagged $100 million order from Israeli defence firm (11 July 2019)",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/bharat-forge-jv-firm-bags-order-worth-100-million-from-israel-defence-firm/articleshow/70175386.cms",
+      "published_date": "2019-07-11",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "KRAS bags ₹287.51 crore order to supply missile systems (28 August 2023); KRAS is JV between KSSL (wholly-owned defence subsidiary of Bharat Forge) and Rafael",
+      "publisher": "Moneycontrol",
+      "url": "https://www.moneycontrol.com/news/business/kalyani-rafael-advanced-systems-bags-rs-287-51-crore-order-to-supply-missile-systems-11270991.html",
+      "published_date": "2023-08-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "KSSL and AM General LLC signed strategic partnership on 18 June 2026 — 52-calibre 155mm cannon combined with patented Soft Recoil Technology (SRT)",
+      "publisher": "AM General",
+      "url": "https://www.amgeneral.com/kalyani-strategic-systems-ltd-and-am-general-sign-strategic-partnership-to-offer-distinct-mounted-artillery-gun-systems-for-world-armies",
+      "published_date": "2026-06-18",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-14",
+      "title": "KSSL to boost indigenous content in ATAGS to over 80% (March 2025) — ATAGS developed in collaboration with DRDO",
+      "publisher": "IDRW",
+      "url": "https://idrw.org/kalyani-strategic-systems-to-boosts-indigenous-content-in-atags-to-over-80",
+      "published_date": "2025-03-22",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Kalyani Strategic Systems Ltd (KSSL) — Bharat Forge / Kalyani Group Defence Arm — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Kalyani Strategic Systems Ltd (KSSL) — Bharat Forge / Kalyani Group Defence Arm company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/kalyani-strategic-systems-mfr-084/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/kalyani-strategic-systems-mfr-084/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

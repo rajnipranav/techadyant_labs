@@ -1,0 +1,283 @@
+{
+  "entity_id": "def-012",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "c295-india-def-012",
+  "name": "Airbus C-295 (India build)",
+  "variant": "C-295MW",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "In trials",
+  "header": {
+    "one_liner": "56-aircraft IAF transport programme (₹21,935 crore, 2021); 16 imported from Spain, 40 to be built by TASL at Vadodara FAL (first Indian private commercial transport aircraft final assembly line); deliveries slipped.",
+    "chips": [
+      "Transport",
+      "Tactical",
+      "Airbus",
+      "TASL",
+      "Vadodara FAL",
+      "Make in India"
+    ],
+    "maker": "Airbus Defence and Space (Spain) — OEM; Tata Advanced Systems Limited (TASL) — Indian final assembly",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Airbus Defence and Space (Spain); TASL — Indian final assembly",
+    "Programme_value": "₹21,935 crore (~$2.5 billion)",
+    "Quantity": "56 aircraft (16 imported from Spain + 40 built by TASL in India)",
+    "Contract_year": "2021 (signed 24 September 2021)",
+    "Customer": "Indian Air Force (replacing legacy Avro HS-748 fleet)",
+    "Final_Assembly_Line": "TASL Vadodara, Gujarat — first private commercial transport aircraft FAL in India",
+    "Payload": "Up to 9 tonnes",
+    "Range": "Up to 2,700 nm (5,000 km) fully loaded",
+    "Crew": "2 pilots + loadmaster",
+    "Troop_capacity": "Up to 71 troops / 24 stretchers / 48 paratroopers",
+    "First_delivery": "September 2023 (from Airbus Seville, Spain)",
+    "First_Vadodara_assembly": "October 2025 (first India-built C-295 rolled out)"
+  },
+  "what_it_is": {
+    "prose": "The Airbus C-295 is a twin-engine tactical transport aircraft being procured by the Indian Air Force to replace its legacy fleet of Avro HS-748 aircraft. The programme, signed on 24 September 2021 for ₹21,935 crore (~$2.5 billion), comprises 56 aircraft: 16 imported fly-away from Airbus Defence and Space's Seville facility in Spain (deliveries began September 2023), and 40 to be assembled in India by Tata Advanced Systems Limited (TASL) at a dedicated Final Assembly Line (FAL) in Vadodara, Gujarat — the first private commercial transport aircraft FAL in India. The first India-built C-295 was rolled out in October 2025. The C-295 has a payload capacity of up to 9 tonnes, a range of up to 2,700 nautical miles (5,000 km) fully loaded, and can carry up to 71 troops, 24 stretchers, or 48 paratroopers. The aircraft is powered by two Pratt & Whitney Canada PW127G engines. The programme represents a landmark for Indian aerospace manufacturing — it is the first time a private Indian company (TASL) will assemble a complete military transport aircraft, with progressive indigenisation of airframe components and sub-assemblies. The programme also includes a Maintenance, Repair, and Overhaul (MRO) facility and a Training Centre (with full-flight simulator) at the Vadodara FAL. Cross-link to Military Aerospace vertical — the C-295 is a transport aircraft, not a combat aircraft, but is included in the Defence Atlas due to its strategic airlift role.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "India signed a ₹21,935 crore contract on 24 September 2021 for 56 C-295 aircraft (16 imported from Spain + 40 built by TASL in India). The first fly-away aircraft was delivered from Airbus Seville in September 2023. The first India-assembled C-295 was rolled out from the Vadodara FAL in October 2025. Deliveries are scheduled to continue through 2031.",
+    "rows": [
+      {
+        "agency": "Indian Air Force / Ministry of Defence",
+        "context": "Contract signed with Airbus + TASL",
+        "year": 2021,
+        "quantity_or_note": "₹21,935 crore — 24 September 2021; 56 aircraft (16 imported + 40 India-built)",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "First C-295 delivered (from Airbus Seville, Spain)",
+        "year": 2023,
+        "quantity_or_note": "September 2023 — first of 16 fly-away aircraft",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "TASL Vadodara FAL",
+        "context": "First India-built C-295 rolled out",
+        "year": 2025,
+        "quantity_or_note": "October 2025 — first of 40 India-assembled aircraft",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact delivery schedule for remaining 40 India-built C-295 — deliveries expected through 2031 but specific milestones not publicly detailed",
+      "Indigenous content percentage for India-built C-295 — not formally disclosed",
+      "C-295 MRO and Training Centre operational status at Vadodara FAL — not formally inaugurated as of August 2026",
+      "Whether C-295 platform will be offered for export from the Vadodara FAL (Airbus global supply chain integration)"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "C-295 platform & sub-assemblies (initial)",
+        "severity": "High",
+        "note": "Spain (Airbus Defence and Space) — phased indigenisation via Vadodara FAL",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Pratt & Whitney Canada PW127G engines",
+        "severity": "Critical",
+        "note": "Canada (P&WC) — no Indian alternative",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Avionics and flight control systems",
+        "severity": "High",
+        "note": "Airbus / Honeywell — Europe / USA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Landing gear",
+        "severity": "Medium",
+        "note": "Safran / UTC Aerospace — France / USA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 0,
+        "note": "Airbus (Spain/Europe) — fully imported design",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "TASL Vadodara FAL — first private commercial transport FAL in India",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "Engine Canada; avionics Europe/USA; airframe progressive indigenisation",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "56-aircraft ₹21,935 cr programme",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Vadodara FAL integrates into Airbus global supply chain; export potential via Airbus",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "tejas-mk1a-def-003",
+      "rafale-india-def-011"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Exact delivery schedule for remaining 40 India-built C-295 — deliveries expected through 2031 but specific milestones not publicly detailed",
+    "Indigenous content percentage for India-built C-295 — not formally disclosed",
+    "C-295 MRO and Training Centre operational status at Vadodara FAL — not formally inaugurated as of August 2026",
+    "Whether C-295 platform will be offered for export from the Vadodara FAL (Airbus global supply chain integration)"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Airbus C295",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Airbus_C295",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "C-295 specifications and Indian programme"
+    },
+    {
+      "id": "src-2",
+      "title": "C-295 India programme",
+      "publisher": "Airbus",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2021-09-government-of-india-signs-contract-with-airbus-for-c-295-aircraft",
+      "published_date": "2021-09-24",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Airbus official announcement of C-295 India contract"
+    },
+    {
+      "id": "src-3",
+      "title": "Tata Advanced Systems — Customers & Programs",
+      "publisher": "Tata Advanced Systems Limited",
+      "url": "https://www.tataadvancedsystems.com/customers-and-programmes",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — TASL customers-and-programmes page; specific C-295 product page not located"
+    },
+    {
+      "id": "src-4",
+      "title": "C295 India programme achieves another milestone with rollout of first Make-in-India aircraft",
+      "publisher": "Airbus",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2025-10-c295-india-programme-achieves-another-milestone-with-rollout-of-first-make-in-india-aircraft",
+      "published_date": "2025-10-28",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Airbus official announcement of first India-built C-295 rollout from TASL Vadodara FAL October 2025; confirms 16 fly-away + 40 India-built split"
+    }
+  ],
+  "seo": {
+    "title": "Airbus C-295 (India build) — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "56-aircraft IAF transport programme (₹21,935 crore, 2021); 16 imported from Spain, 40 to be built by TASL at Vadodara FAL (first Indian private commercial trans",
+    "canonical_path": "/research/pillars/defence/entity/c295-india-def-012/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/",
+    "submit_correction": "/research/pillars/defence/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why is the C-295 programme significant for Indian aerospace manufacturing?",
+      "answer": "The C-295 programme represents the first time a private Indian company (Tata Advanced Systems Limited, TASL) will assemble a complete military transport aircraft. The Vadodara Final Assembly Line (FAL) is the first private commercial transport aircraft FAL in India. Of the 56 aircraft, 16 are imported fly-away from Airbus Seville (Spain) and 40 are assembled in India by TASL, with progressive indigenisation of airframe components and sub-assemblies. The programme also includes an MRO facility and a Training Centre with full-flight simulator at Vadodara.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "What is the C-295 replacing in IAF service?",
+      "answer": "The C-295 is replacing the Indian Air Force's legacy fleet of Avro HS-748 transport aircraft, which have been in service since the 1960s. The 56 C-295 aircraft will provide tactical airlift capability for troop transport, paratroop drop, logistics supply, and casualty evacuation. The C-295 has a payload capacity of up to 9 tonnes and a range of up to 2,700 nautical miles (5,000 km) fully loaded.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "When will the first India-built C-295 be delivered?",
+      "answer": "The first fly-away C-295 was delivered from Airbus Seville in September 2023. The first India-assembled C-295 was rolled out from the TASL Vadodara FAL in October 2025. Deliveries are scheduled to continue through 2031 as the FAL ramps up to its full production rate. Exact delivery milestones for the remaining 39 India-built aircraft have not been publicly detailed.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    }
+  ]
+}

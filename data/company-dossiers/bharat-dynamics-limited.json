@@ -1,0 +1,402 @@
+{
+  "entity_id": "atl-cmp-bharat-dynamics-limited",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "bharat-dynamics-limited",
+  "name": "Bharat Dynamics Limited (BDL)",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/bharat-dynamics-limited/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "BDL is India's DPSU guided-missile prime, headquartered in Hyderabad with manufacturing units at Kanchanbagh, Bhanur (Medak), and Vishakhapatnam. Product portfolio spans the Akash SAM, Astra BVRAAM, M",
+    "chips": [
+      "defence",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Hyderabad, Telangana, India (Kanchanbagh)",
+    "Type": "Company (listed)",
+    "Founded": "1970 (to manufacture guided missiles for Indian Armed Forces)",
+    "India entity": null,
+    "Listed": "NSE: BDL | BSE: 541143 (IPO March 2018); Government of India majority-owned",
+    "Key India role": "BDL is India's DPSU guided-missile prime, headquartered in Hyderabad with manufacturing units at Kanchanbagh, Bhanur (Medak), and Vishakhapatnam. Product portfolio spans the Akash SAM, Astra BVRAAM, M"
+  },
+  "what_it_is": {
+    "prose": "BDL is India's DPSU guided-missile prime, headquartered in Hyderabad with manufacturing units at Kanchanbagh, Bhanur (Medak), and Vishakhapatnam. Product portfolio spans the Akash SAM, Astra BVRAAM, MRSAM (co-production with IAI), Konkurs-M ATGM, Milan-2T ATGM, Invar, and the indigenously developed sprint drone-fired missile. BDL is the production agency for the Astra Mk-1 BVRAAM (2022 contract $382.96M/₹2,971 Cr; IAF approved 200 additional missiles Aug 2024) with Astra Mk-2 production contract (~₹3,000 Cr) cleared Dec 2024. BDL signed a Feb 2025 agreement with the Raytheon-Lockheed Javelin JV for ATGM co-production in India, and a Feb 2025 Thales agreement for initial supply of STARStreak MANPADS (first India-made Starstreak deliveries same year). BDL has graduated from missile manufacturer to weapon-system integrator.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "7 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Akash Weapon System (SAM)",
+        "role": "OEM",
+        "india_status": "Surface-to-air missile produced by BDL; BEL supplies radars. Indian military combined Akash orders ~₹28,800 Cr",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Astra Mk-1 / Mk-2 BVRAAM",
+        "role": "OEM",
+        "india_status": "Indigenous beyond-visual-range air-to-air missile (range 80-110 km) integrated on Su-30MKI, Tejas, Mirage 2000, MiG-29. Jun 2022 contract with MoD ~$382.96M (₹2,971 Cr). IAF approved 200 additional Astra Mk-1 Aug 2024. Astra Mk-2 production contract ~₹3,000 Cr cleared Dec 2024. Astra Mk-3 with indigenous seeker in development",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Konkurs-M / Milan-2T / Invar ATGMs",
+        "role": "OEM",
+        "india_status": "BDL manufactures Konkurs-M ATGM (licence from Russia), Milan-2T (licence from MBDA/EU), and Invar (3UBK-20) ammunition under licence for Indian Army's mechanised forces",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "MRSAM / Barak-8 (medium-range SAM)",
+        "role": "OEM",
+        "india_status": "BDL co-produces MRSAM (Barak-8) jointly with IAI for Indian Air Force and Indian Navy; production facility at Bhanur",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Thales STARStreak MANPADS (co-production)",
+        "role": "OEM",
+        "india_status": "Feb 11, 2025 — Thales-BDL agreement for initial supply of STARStreak High Velocity Missiles and launchers; first India-made STARStreak deliveries in 2025; first time India-made STARStreak manufactured",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Javelin JV (with Raytheon-Lockheed Javelin JV)",
+        "role": "OEM",
+        "india_status": "Feb 2025 — BDL signed agreement with Javelin Joint Venture (Raytheon & Lockheed Martin) for ATGM co-production in India",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Drone-fired Sprint missile (under development)",
+        "role": "OEM",
+        "india_status": "BDL developing drone-launched short-range missiles (1-1.5 km range) for Indian Armed Forces; expected order 2026-27. Tied up with start-ups (News: 2022)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "3 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "Astra Mk-1 BVRAAM production — $382.96M (₹2,971 Cr) contract Jun 2022",
+        "year": "2022",
+        "quantity_or_note": "Astra Mk-1 production lot",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "200 additional Astra Mk-1 missiles approved; Astra Mk-2 production cleared ~₹3,000 Cr (Dec 2024)",
+        "year": "2024",
+        "quantity_or_note": "200 (Astra Mk-1); plus Astra Mk-2 production lot",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Armed Forces (with Thales)",
+        "context": "STARStreak MANPADS initial supply agreement",
+        "year": "Feb 2025",
+        "quantity_or_note": "Initial lot of HVM missiles + launchers (first India-made)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "10 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "4 official, 5 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was BDL founded and where is it headquartered?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is BDL's stock ticker on NSE?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which missile did BDL contract with Thales to manufacture in India in Feb 2025?",
+      "answer": "BDL is India's DPSU guided-missile prime, headquartered in Hyderabad with manufacturing units at Kanchanbagh, Bhanur (Medak), and Vishakhapatnam.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the value of BDL's Astra Mk-1 production contract with the IAF?",
+      "answer": "BDL is the production agency for the Astra Mk-1 BVRAAM (2022 contract $382.96M/₹2,971 Cr; IAF approved 200 additional missiles Aug 2024) with Astra Mk-2 production contract (~₹3,000 Cr) cleared Dec 2024.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Does BDL manufacture the Konkurs and Milan ATGMs under licence?",
+      "answer": "Product portfolio spans the Akash SAM, Astra BVRAAM, MRSAM (co-production with IAI), Konkurs-M ATGM, Milan-2T ATGM, Invar, and the indigenously developed sprint drone-fired missile.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which Indian JV did BDL sign with for Javelin ATGM co-production?",
+      "answer": "BDL signed a Feb 2025 agreement with the Raytheon-Lockheed Javelin JV for ATGM co-production in India, and a Feb 2025 Thales agreement for initial supply of STARStreak MANPADS (first India-made Starstreak deliveries same year).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://bdl-india.in",
+      "publisher": "BDL Official",
+      "url": "https://bdl-india.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://bdl-india.in/company-profile",
+      "publisher": "BDL",
+      "url": "https://bdl-india.in/company-profile",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://bdl-india.in/products",
+      "publisher": "BDL",
+      "url": "https://bdl-india.in/products",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://bdl-india.in/astra",
+      "publisher": "BDL",
+      "url": "https://bdl-india.in/astra",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://en.wikipedia.org/wiki/Bharat_Dynamics_Limited",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bharat_Dynamics_Limited",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.airforce-technology.com/news/indian-mod-contract-bdl-astra",
+      "publisher": "Airforce Technology",
+      "url": "https://www.airforce-technology.com/news/indian-mod-contract-bdl-astra",
+      "published_date": "Jun 1, 2022",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.janes.com/defence-intelligence-insights/defence-news/industry/indian-air-force-approves-additional-astra-mk-1-production",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/industry/indian-air-force-approves-additional-astra-mk-1-production",
+      "published_date": "Aug 8, 2024",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-and-bharat-dynamics-ltd-agree-initial-supply-man-portable-air",
+      "publisher": "Thales Group",
+      "url": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-and-bharat-dynamics-ltd-agree-initial-supply-man-portable-air",
+      "published_date": "Feb 11, 2025",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.nti.org/education-center/facilities/bharat-dynamics-limited",
+      "publisher": "NTI",
+      "url": "https://www.nti.org/education-center/facilities/bharat-dynamics-limited",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "https://infra.economictimes.indiatimes.com/news/aviation/state-owned-bharat-dynamics-ties-up-with-start-ups-for-drone-delivered-missiles-bombs/91987567",
+      "publisher": "ET Infra",
+      "url": "https://infra.economictimes.indiatimes.com/news/aviation/state-owned-bharat-dynamics-ties-up-with-start-ups-for-drone-delivered-missiles-bombs/91987567",
+      "published_date": "Jun 3, 2022",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Bharat Dynamics Limited (BDL) — Company · India Defence Atlas | Techadyant",
+    "meta_description": "Bharat Dynamics Limited (BDL) company dossier: India defence role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/pillars/defence/entity/bharat-dynamics-limited/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/bharat-dynamics-limited/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

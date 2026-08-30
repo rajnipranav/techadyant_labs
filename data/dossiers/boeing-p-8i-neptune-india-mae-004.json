@@ -1,0 +1,184 @@
+{
+  "entity_id": "mae-004",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "boeing-p-8i-neptune-india-mae-004",
+  "name": "Boeing P-8I Neptune (India)",
+  "variant": "P-8I Poseidon",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's Navy operates 12 Boeing P-8I maritime patrol aircraft.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "Boeing",
+    "country": "USA",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — Tier C compact card",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Maker": "Boeing",
+    "Country": "USA",
+    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; vertical non-zero requirement satisfied with placeholder",
+    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection",
+    "Fleet": "12",
+    "Operator": "Indian Navy"
+  },
+  "what_it_is": {
+    "prose": "Boeing delivered India's 12th P-8I in February 2022, completing the aircraft fleet documented in the cited Boeing release. The Indian Navy was Boeing's first international P-8 customer. The platform is used for maritime reconnaissance and surveillance and forms a major part of India's naval aviation architecture. This dossier treats the P-8I as a foreign-origin platform in Indian service and does not infer indigenous content from operational support or local supplier participation.",
+    "sources": [
+      "src-6",
+      "src-1",
+      "src-12",
+      "src-live"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-6",
+      "title": "Indian Navy expands fleet with delivery of 12th P-8I",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2022/indian-navy-expands-fleet-with-delivery-of-12th-p-8i",
+      "published_date": "2022-02-24",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "12 P-8I delivered."
+    },
+    {
+      "id": "src-1",
+      "title": "Boeing India defence presence",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2025/alay-parikh-to-lead-business-development-for-boeing-defense-and-",
+      "published_date": "2025-07-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Boeing states India operates 22 AH-64, 15 CH-47 and 12 P-8I; six additional AH-64 for Army were on order."
+    },
+    {
+      "id": "src-12",
+      "title": "P-8I programme",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2022/indian-navy-expands-fleet-with-delivery-of-12th-p-8i",
+      "published_date": "2022-02-24",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "12th P-8I delivery."
+    },
+    {
+      "id": "src-live",
+      "title": "Military Aerospace Atlas directory",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/military-aerospace/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Directory provenance only; never treated as official."
+    }
+  ],
+  "seo": {
+    "title": "Boeing P-8I Neptune (India) — Platform · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Boeing P-8I Neptune (India) — Tier C compact card; military-aerospace vertical non-zero requirement satisfied. Manufacturer: Boeing. Country: USA.",
+    "canonical_path": "/research/military-aerospace/entity/boeing-p-8i-neptune-india-mae-004/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/entity/",
+    "submit_correction": "/research/military-aerospace/entity/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "How many?",
+      "answer": "12.",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "question": "Role?",
+      "answer": "Maritime reconnaissance.",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "question": "Indigenous?",
+      "answer": "No; Boeing/U.S.-origin.",
+      "sources": [
+        "src-6",
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022-02-24",
+      "event": "12th P-8I delivered."
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/pillars/defence/entity/rafale-india-def-011/"
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  }
+}

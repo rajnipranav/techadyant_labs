@@ -1,0 +1,253 @@
+{
+  "entity_id": "rr",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "rr",
+  "name": "Rolls-Royce",
+  "variant": "Rolls-Royce plc / Rolls-Royce Defence (India & South Asia)",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "UK aero-engine major with a decades-long India footprint: AE 2100D3 engines power the IAF's C-130J fleet (Rolls-Royce is exploring an India AE2100 MRO), and the Rolls-Royce/HAL partnership produces Adour engine parts and MRO for India's Jaguar and Hawk fleets.",
+    "chips": [
+      "B",
+      "Aero-engines",
+      "AE 2100",
+      "C-130J propulsion",
+      "Adour",
+      "HAL partnership",
+      "MRO",
+      "UK OEM"
+    ],
+    "maker": "Rolls-Royce plc",
+    "country": "United Kingdom",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign-designed engines; India value-add via HAL Adour parts/MRO and a planned AE2100 MRO",
+    "mobility_or_class": "Aero-engine and power-systems OEM (military transport, trainer, fighter, naval)",
+    "operational_domains": [
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Rolls-Royce plc (Rolls-Royce Holdings plc group)",
+    "HQ": "London / Derby, United Kingdom",
+    "India_status": "Long-standing India footprint — engines in IAF service (AE 2100, Adour), HAL manufacturing/MRO partnership, and a planned AE2100 MRO",
+    "Tier_B_reason": "Real India relevance across multiple in-service engines and a HAL partnership, but disclosure on values/quantities is thin and the AE2100 MRO is still at the 'exploring' stage",
+    "C-130J_engine": "Rolls-Royce AE 2100D3 (four per C-130J-30); IAF operates C-130J-30 Super Hercules",
+    "Adour_role": "Adour Mk 811/821/871 powers IAF Jaguar and Hawk; Rolls-Royce/HAL 2021 pact for Adour parts and an Authorized Maintenance Centre",
+    "AE2100_MRO": "Rolls-Royce 'exploring' an India MRO for the AE2100 engine (announced Aug 2025)",
+    "India_sourcing_plan": "Rolls-Royce stated intent to double India sourcing over five years, incl. complex aero-engine parts"
+  },
+  "what_it_is": {
+    "prose": "Rolls-Royce plc is the United Kingdom's principal aero-engine and power-systems manufacturer, with civil aerospace, defence and power-systems businesses. Its India relationship is one of the oldest of any Western engine OEM and spans several in-service military powerplants. The Rolls-Royce AE 2100D3 turboprop (four per aircraft) powers the Indian Air Force's Lockheed Martin C-130J-30 Super Hercules special-operations/tactical airlifters; in August 2025 Rolls-Royce said it was 'exploring potential opportunities' to set up an MRO facility in India for the AE2100 engine operated by the IAF, and to scale the partnership toward assembly and testing for the wider Medium Transport Aircraft (MTA) programme — framed against the India-UK CETA trade agreement and a plan to double India sourcing over five years. Separately, the Rolls-Royce Turbomeca Adour (Mk 811/821/871) powers India's SEPECAT Jaguar strike fighters and BAE Hawk advanced jet trainers — the IAF operates among the world's largest serving fleets of both. In September 2021 Rolls-Royce and Hindustan Aeronautics Limited (HAL) signed a pact under which HAL manufactures Adour engine spare parts for Rolls-Royce's global defence customer base and hosts an Authorized Maintenance Centre for the Adour, building on HAL's 30-plus years of Adour licence production and support. Rolls-Royce also markets naval power (MT30) and is a candidate powerplant partner for India's future fighter-engine ambitions. This dossier is scoped Tier B: genuine, multi-programme India relevance, but with limited public disclosure on contract values and quantities and an MRO plan still at an early stage.",
+    "sources": [
+      "src-bs-ae2100",
+      "src-bs-adour",
+      "src-rr-hawk",
+      "src-fg-adour"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Rolls-Royce engines are embedded across three IAF fleets — the AE 2100D3 on the C-130J-30, and the Adour on the Jaguar and Hawk. India value-add is concentrated in HAL: licence production/support of the Adour and, since 2021, manufacture of Adour parts for Rolls-Royce's global customer base plus an Authorized Maintenance Centre. The AE2100 India MRO is at the exploratory stage (Aug 2025), and Rolls-Royce has positioned itself for the MTA programme's assembly/testing work.",
+    "rows": [
+      {
+        "agency": "Indian Air Force (C-130J-30 fleet)",
+        "context": "Rolls-Royce AE 2100D3 turboprops powering the IAF's C-130J-30 Super Hercules",
+        "year": null,
+        "quantity_or_note": "Four engines per aircraft; IAF operates a C-130J-30 fleet (12 originally acquired)",
+        "sources": [
+          "src-bs-ae2100"
+        ]
+      },
+      {
+        "agency": "Rolls-Royce Defence (India & South-East Asia)",
+        "context": "Exploring an India MRO for the AE2100 engine + assembly/testing role for the MTA programme",
+        "year": 2025,
+        "quantity_or_note": "Announced 7 Aug 2025; still at 'exploring opportunities' stage",
+        "sources": [
+          "src-bs-ae2100"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (Jaguar & Hawk fleets)",
+        "context": "Rolls-Royce Turbomeca Adour (Mk 811/821/871) powering IAF Jaguar strike fighters and Hawk AJTs",
+        "year": null,
+        "quantity_or_note": "IAF among the world's largest serving Jaguar and Hawk operators; Adour licence-produced/supported by HAL 30+ years",
+        "sources": [
+          "src-bs-adour",
+          "src-rr-hawk"
+        ]
+      },
+      {
+        "agency": "HAL (Rolls-Royce partnership)",
+        "context": "HAL to manufacture Adour engine parts for Rolls-Royce's global defence fleet + Authorized Maintenance Centre",
+        "year": 2021,
+        "quantity_or_note": "Pact signed Sep 2021 (Aero India 2021); part of a wider supply-chain ecosystem",
+        "sources": [
+          "src-bs-adour",
+          "src-fg-adour"
+        ]
+      }
+    ],
+    "open_questions": [
+      "No public contract value or timeline for the planned AE2100 India MRO facility",
+      "Scope and volume of HAL-made Adour parts for Rolls-Royce's global base not publicly quantified",
+      "Whether Rolls-Royce's MTA assembly/testing ambition converts into a firm industrial commitment"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Rolls-Royce engines in Indian service are foreign-designed; India's value-add is confined to HAL licence assembly/MRO of the Adour and (planned) AE2100 overhaul. Core engine design authority, hot-section technology, single-crystal turbine blades and FADEC remain with Rolls-Royce in the UK, so the AE 2100 and Adour represent import-dependent propulsion on otherwise India-operated fleets.",
+    "items": [
+      {
+        "component": "AE 2100D3 turboprop (complete)",
+        "severity": "High",
+        "note": "Foreign-designed C-130J engine; India MRO only 'exploring' as of Aug 2025",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-bs-ae2100"
+        ]
+      },
+      {
+        "component": "Adour engine core design authority",
+        "severity": "Medium",
+        "note": "HAL licence-produces/supports Adour and makes parts, but design authority remains with Rolls-Royce",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-bs-adour"
+        ]
+      },
+      {
+        "component": "Hot-section materials / single-crystal turbine blades",
+        "severity": "High",
+        "note": "High-temperature turbine technology retained in the UK supply chain",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "FADEC / engine control electronics",
+        "severity": "Medium",
+        "note": "Supplied within the Rolls-Royce global supply chain",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "safran",
+      "pwc",
+      "iae",
+      "europrop"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "c130j"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Which Indian military aircraft use Rolls-Royce engines?",
+      "answer": "The Rolls-Royce AE 2100D3 turboprop (four per aircraft) powers the Indian Air Force's C-130J-30 Super Hercules. The Rolls-Royce Turbomeca Adour (Mk 811/821/871) powers the IAF's SEPECAT Jaguar strike fighters and BAE Hawk advanced jet trainers, both among the largest serving fleets of their type in the world.",
+      "sources": [
+        "src-bs-ae2100",
+        "src-bs-adour"
+      ]
+    },
+    {
+      "question": "Is Rolls-Royce setting up engine MRO in India?",
+      "answer": "Rolls-Royce announced in August 2025 that it is exploring an India MRO facility for the AE2100 engine operated by the IAF, and wants to scale the partnership toward assembly and testing for the Medium Transport Aircraft programme, aligned with the India-UK CETA agreement. It also plans to double its India sourcing over five years. Separately, since 2021 HAL runs an Authorized Maintenance Centre for the Adour and makes Adour parts for Rolls-Royce's global fleet.",
+      "sources": [
+        "src-bs-ae2100",
+        "src-bs-adour"
+      ]
+    },
+    {
+      "question": "What is the Rolls-Royce–HAL partnership?",
+      "answer": "In September 2021, at Aero India, Rolls-Royce and Hindustan Aeronautics Limited signed a pact under which HAL manufactures Adour engine spare parts for Rolls-Royce's international defence customer base and hosts an Authorized Maintenance Centre for the Adour. HAL has over 30 years of experience supporting Adour engines in India, and Rolls-Royce described HAL as the first supplier in a wider Indian supply-chain ecosystem.",
+      "sources": [
+        "src-bs-adour",
+        "src-fg-adour"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-bs-ae2100",
+      "title": "Rolls-Royce plans MRO facility in India for IAF's AE2100 engine support",
+      "publisher": "Business Standard",
+      "url": "https://www.business-standard.com/external-affairs-defence-security/news/rolls-royce-plans-mro-facility-in-india-for-aifs-ae2100-engine-support-125080701419_1.html",
+      "published_date": "2025-08-07",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Rolls-Royce 'exploring' AE2100 India MRO + MTA assembly/testing; quote from Abhishek Singh (SVP Defence, India & SE Asia); double India sourcing in 5 years"
+    },
+    {
+      "id": "src-bs-adour",
+      "title": "Make in India, go global: Rolls-Royce, HAL pact for Adour engine parts",
+      "publisher": "Business Standard",
+      "url": "https://www.business-standard.com/article/current-affairs/make-in-india-go-global-rolls-royce-hal-pact-for-adour-engine-parts-121091401607_1.html",
+      "published_date": "2021-09-14",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "2021 Rolls-Royce/HAL Adour parts pact + Authorized Maintenance Centre; Adour powers IAF Jaguar & Hawk; HAL 30+ years Adour support; quotes from HAL and Rolls-Royce"
+    },
+    {
+      "id": "src-rr-hawk",
+      "title": "Rolls-Royce finalises contract for additional Adour-powered Hawks for India",
+      "publisher": "Rolls-Royce plc",
+      "url": "https://www.rolls-royce.com/media/press-releases-archive/yr-2010/additional-adour-powered-hawks-for-india.aspx",
+      "published_date": "2010",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official Rolls-Royce release confirming Adour engines power India's Hawk AJT fleet"
+    },
+    {
+      "id": "src-fg-adour",
+      "title": "HAL to produce parts for Rolls-Royce's global Adour customer base",
+      "publisher": "FlightGlobal",
+      "url": "https://www.flightglobal.com/defence/hal-to-produce-parts-for-rolls-royces-global-adour-customer-base/145472.article",
+      "published_date": "2021-09-14",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Confirms HAL to make Adour parts for Rolls-Royce's international customer base"
+    },
+    {
+      "id": "src-wiki-ae2100",
+      "title": "Rolls-Royce AE 2100",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rolls-Royce_AE_2100",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Background on the AE 2100 family and its C-130J application; aggregates credible sources"
+    }
+  ],
+  "seo": {
+    "title": "Rolls-Royce — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Rolls-Royce AE 2100 powers the IAF's C-130J and the Adour powers its Jaguar and Hawk fleets; HAL makes Adour parts and Rolls-Royce is exploring an India AE2100 MRO.",
+    "canonical_path": "/research/military-aerospace/company/rr/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/c130j/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

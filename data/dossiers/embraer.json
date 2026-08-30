@@ -1,0 +1,227 @@
+{
+  "entity_id": "embraer",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "embraer",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "name": "Embraer Defense & Security",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Brazilian aerospace prime bidding the C-390 Millennium into the Indian Air Force's ~₹1-lakh-crore Medium Transport Aircraft (MTA) programme, partnered with the Mahindra Group (MoU Feb 2024, strategic partnership Oct 2025, C-390 MRO plan Feb 2026); no Indian order or induction as of August 2026.",
+    "chips": [
+      "B",
+      "India-relevant",
+      "Embraer",
+      "C-390",
+      "Mahindra",
+      "MTA contender",
+      "Not yet inducted"
+    ],
+    "maker": "Embraer S.A. — Defense & Security division (Brazil)",
+    "country": "Brazil",
+    "indigenous_pct": null,
+    "indigenous_label": "Not in Indian service; local manufacturing/assembly/MRO proposed via Mahindra under Make in India if C-390 selected",
+    "mobility_or_class": "Aerospace & defence OEM (no platform class)",
+    "operational_domains": [
+      "air",
+      "land"
+    ]
+  },
+  "at_a_glance": {
+    "Parent": "Embraer S.A. (Brazil); Defense & Security division",
+    "India_flagship": "C-390 Millennium medium transport — MTA contender (not in service)",
+    "Indian_partner": "Mahindra Group / Mahindra Defence Systems",
+    "MoU": "Signed 9 February 2024, Embassy of Brazil, New Delhi",
+    "Strategic_partnership": "Announced October 2025",
+    "MRO_plan": "C-390 MRO capability in India announced 19 February 2026 (contingent on selection)",
+    "MTA_tender": "IAF RFP issued 12 August 2026 — 60 aircraft (+options), ~₹1 lakh crore (~US$10.5B)",
+    "Competitors": "Lockheed Martin C-130J-30 (with Tata); Airbus A400M",
+    "C390_payload": "Up to 26 tonnes; cruise up to ~470 knots; two IAE V2500 turbofans",
+    "India_status": "Evaluated/bidding — NO order or induction as of August 2026"
+  },
+  "what_it_is": {
+    "prose": "Embraer Defense & Security is the defence division of Brazilian aerospace group Embraer S.A. Its India footprint is competitive and industrial rather than operational: Embraer is offering the C-390 Millennium (military designation KC-390) twin-turbofan medium transport into the Indian Air Force's Medium Transport Aircraft (MTA) programme, in partnership with India's Mahindra Group. Embraer Defense & Security and Mahindra Defence Systems signed a Memorandum of Understanding at the Embassy of Brazil in New Delhi on 9 February 2024 to jointly pursue the MTA opportunity and develop an industrialisation plan with Indian industry. The two elevated the relationship to a strategic partnership in October 2025, and on 19 February 2026 announced a plan to establish an in-country C-390 Maintenance, Repair and Overhaul (MRO) capability — spanning base and heavy maintenance, structural inspection and testing, component repair and overhaul, avionics support and training — contingent on the aircraft being selected, and positioning India as a potential regional C-390 support hub. The IAF issued the MTA Request for Proposals on 12 August 2026 for 60 aircraft (with options for more) worth roughly ₹1 lakh crore (~US$10.5 billion) in the 18-30 tonne payload class, to replace the Antonov An-32 and legacy Avro HS-748 fleets. The C-390 competes against Lockheed Martin's C-130J-30 (offered with Tata) and the Airbus A400M. The C-390 carries up to 26 tonnes, cruises at up to ~470 knots on two International Aero Engines (IAE) V2500 turbofans, and is in service with Brazil, Portugal, Hungary, the Netherlands and South Korea. As of August 2026 no Indian order, down-selection or induction has occurred.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The C-390 is not in Indian service. Embraer's India footprint is as an MTA-programme contender bid with the Mahindra Group: an MoU (9 Feb 2024), a strategic partnership (Oct 2025) and a proposed in-country C-390 MRO capability (announced 19 Feb 2026). The IAF's MTA RFP (60 aircraft, ~₹1 lakh crore) was issued on 12 August 2026; no selection or order has been made.",
+    "rows": [
+      {
+        "agency": "Embraer Defense & Security + Mahindra Defence Systems",
+        "context": "MoU to jointly pursue India's MTA with the C-390",
+        "year": 2024,
+        "quantity_or_note": "Signed 9 February 2024, Embassy of Brazil, New Delhi",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Embraer + Mahindra Group",
+        "context": "Strategic partnership on C-390 in India",
+        "year": 2025,
+        "quantity_or_note": "Announced October 2025 — local manufacturing/assembly/MRO under Atmanirbhar Bharat",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Embraer + Mahindra Group",
+        "context": "Planned in-country C-390 MRO capability",
+        "year": 2026,
+        "quantity_or_note": "Announced 19 February 2026 — heavy/base maintenance, structural, component, avionics, training; India as regional hub",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Air Force / Ministry of Defence",
+        "context": "MTA Request for Proposals issued",
+        "year": 2026,
+        "quantity_or_note": "12 August 2026 — 60 aircraft (+options), ~₹1 lakh crore (~US$10.5B); C-390 vs C-130J-30 vs A400M",
+        "sources": [
+          "src-4"
+        ]
+      }
+    ],
+    "open_questions": [
+      "No IAF order or down-selection for the C-390 exists as of August 2026 — MTA evaluation is ongoing",
+      "Location of any C-390 final assembly line in India and the Mahindra work-share are not defined",
+      "Long-term IAE V2500 engine support in India is cited as a factor but not resolved"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The C-390 is not in Indian service, so dependencies are prospective: a Brazilian-origin design with US/European/Japanese engines and Western systems, against MTA terms requiring local content and MRO to be built via the Mahindra partnership.",
+    "items": [
+      {
+        "component": "C-390 design & type certification",
+        "severity": "High",
+        "note": "Embraer (Brazil) — India would gain assembly/MRO, not design authority",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "component": "IAE V2500 engines & long-term support",
+        "severity": "Critical",
+        "note": "International Aero Engines (US/Europe/Japan consortium) — lifecycle support cited as an MTA evaluation factor",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Avionics & mission systems",
+        "severity": "High",
+        "note": "Embraer/Western suppliers — integrated, not owned, by India initially",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "c390"
+    ],
+    "peer_systems": [
+      "c130j",
+      "c295",
+      "an32",
+      "a400m"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "Is Embraer's C-390 in Indian service?",
+      "answer": "No. As of August 2026 the C-390 Millennium is not in Indian service and has not been ordered by the IAF. Embraer's India relevance is as a contender in the Indian Air Force's Medium Transport Aircraft (MTA) programme, bid in partnership with India's Mahindra Group. The IAF issued the MTA RFP on 12 August 2026 for 60 aircraft (~₹1 lakh crore); no selection has been made.",
+      "sources": [
+        "src-1",
+        "src-4"
+      ]
+    },
+    {
+      "question": "What is the Embraer-Mahindra partnership?",
+      "answer": "Embraer Defense & Security and Mahindra Defence Systems signed an MoU at the Embassy of Brazil in New Delhi on 9 February 2024 to jointly pursue India's MTA with the C-390 and build an industrialisation plan with Indian industry. They elevated this to a strategic partnership in October 2025 and, on 19 February 2026, announced a plan to set up an in-country C-390 MRO capability (base/heavy maintenance, structural inspection, component overhaul, avionics support, training) if the aircraft is selected, positioning India as a regional C-390 support hub.",
+      "sources": [
+        "src-1",
+        "src-2",
+        "src-3"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Embraer and Mahindra announce collaboration on the C-390 Millennium Medium Transport Aircraft in India",
+      "publisher": "Embraer",
+      "url": "https://www.embraer.com/media-center/en/?mediatype=NEWS&detail=13870",
+      "published_date": "2024-02-09",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Embraer official: MoU with Mahindra Defence Systems signed 9 Feb 2024 at Brazil embassy, New Delhi, to pursue IAF MTA with the C-390 under Make in India / Atmanirbhar Bharat."
+    },
+    {
+      "id": "src-2",
+      "title": "Embraer and Mahindra Group forge strategic alliance to bring C-390 Millennium aircraft to India",
+      "publisher": "The Tribune",
+      "url": "https://www.tribuneindia.com/news/business/embraer-and-mahindra-group-forge-strategic-alliance-to-bring-c-390-millennium-aircraft-to-india",
+      "published_date": "2025-10-17",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Strategic cooperation agreement Oct 2025 building on the Feb 2024 MoU; targets India's MTA; local manufacturing/assembly/MRO; C-390 not yet in Indian service."
+    },
+    {
+      "id": "src-3",
+      "title": "Embraer and Mahindra Group advance localization strategy in India with planned C-390 Millennium MRO capability",
+      "publisher": "Mahindra Group",
+      "url": "https://www.mahindra.com/news-room/press-release/en/embraer-and-mahindra-group-advance-localization-strategy-in-india-with-planned-c-390-millennium-mro-capability",
+      "published_date": "2026-02-19",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Mahindra official: 19 Feb 2026 plan for in-country C-390 MRO (base/heavy maintenance, structural, component, avionics, training) contingent on selection; India as regional hub; builds on Oct 2025 strategic partnership."
+    },
+    {
+      "id": "src-4",
+      "title": "India Issues RFP for $10.5bn Air Force transport jet competition",
+      "publisher": "Aerospace Global News",
+      "url": "https://aerospaceglobalnews.com/news/india-mta-rfp-transport-aircraft-contest/",
+      "published_date": "2026-08",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "MTA RFP issued 12 Aug 2026; 60 aircraft (+options), ~₹1 lakh crore/$10.5B, 18-30 t class; C-390 (Mahindra) vs C-130J (Tata) vs A400M."
+    }
+  ],
+  "seo": {
+    "title": "Embraer Defense & Security — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Brazilian aerospace prime bidding the C-390 Millennium into India's ~₹1-lakh-crore MTA programme with the Mahindra Group; MoU 2024, strategic partnership 2025, MRO plan 2026 — not yet inducted.",
+    "canonical_path": "/research/military-aerospace/company/embraer/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/c390/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

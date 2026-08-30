@@ -1,0 +1,404 @@
+{
+  "entity_id": "atl-cmp-lockheed-martin",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "lockheed-martin",
+  "name": "Lockheed Martin Corporation",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/lockheed-martin/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Lockheed Martin is the largest US defence prime and a long-standing India partner across transport aircraft, naval helicopters, and missiles. Indian inventory includes: 5 (originally 6, one crashed) C",
+    "chips": [
+      "defence",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bethesda, Maryland, USA",
+    "Type": "Company (listed)",
+    "Founded": "1995 (merger of Lockheed Corp and Martin Marietta); legacy Lockheed Corp founded 1912",
+    "India entity": null,
+    "Listed": "NYSE: LMT",
+    "Key India role": "Lockheed Martin is the largest US defence prime and a long-standing India partner across transport aircraft, naval helicopters, and missiles. Indian inventory includes: 5 (originally 6, one crashed) C"
+  },
+  "what_it_is": {
+    "prose": "Lockheed Martin is the largest US defence prime and a long-standing India partner across transport aircraft, naval helicopters, and missiles. Indian inventory includes: 5 (originally 6, one crashed) C-130J-30 Super Hercules tactical airlifters with IAF No. 77 Squadron 'Veiled Vipers' (with $328M fleet support contract signed Aug 2021); 24 MH-60R Seahawks for the Indian Navy with $905M initial contract (May 2020) and ₹7,995 crore follow-on deal (Dec 2025) — deliveries ongoing; and Javelin anti-tank missiles (Lockheed-Raytheon JV) under emergency procurement — 60 launchers + 100 missiles for ₹292 crore ($93M) signed August 2026. Lockheed offers F-21 (F-16V derivative) for India's MRFA 114-fighter tender; Lockheed-Tata Advanced Systems signed agreement Sep 2024 to expand C-130J opportunities in India including potential final assembly line.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "C-130J-30 Super Hercules tactical airlifter",
+        "role": "OEM",
+        "india_status": "IAF operates 5 aircraft (originally 6, one crashed 2014); $328M fleet support contract (Aug 2021); Lockheed-Tata agreement (Sep 2024) for C-130J expansion in India",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "MH-60R Seahawk naval helicopter (Sikorsky/Lockheed)",
+        "role": "OEM",
+        "india_status": "24 aircraft contract; $905M initial contract (May 2020); ₹7,995 crore follow-on (Dec 2025); deliveries ongoing",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "FGM-148 Javelin anti-tank missile (Lockheed-Raytheon JV)",
+        "role": "OEM",
+        "india_status": "60 launchers + 100 missiles ordered by Indian Army under emergency procurement for ₹292 crore (~$93M), signed August 2026",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "F-21 (F-16V derivative) for MRFA",
+        "role": "OEM",
+        "india_status": "Offered for IAF's 114-fighter MRFA tender; Lockheed committed to F-21 production only for India if selected",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Air Force (C-130J)",
+        "context": "C-130J-30 Super Hercules fleet support contract (5-year, $328M); aircraft operated by No. 77 Squadron at Hindon",
+        "year": "2021",
+        "quantity_or_note": "5 (originally 6, 1 crashed)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Navy (MH-60R Seahawks)",
+        "context": "Initial 24-aircraft $905M contract (May 2020); ₹7,995 crore follow-on deal for additional support (Dec 2025)",
+        "year": "2020-2025",
+        "quantity_or_note": "24",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Army (Javelin emergency procurement)",
+        "context": "60 launchers + 100 missiles ordered for ₹292 crore (~$93M) under emergency procurement",
+        "year": "2026",
+        "quantity_or_note": "60 launchers + 100 missiles",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Tata Advanced Systems (C-130J partnership)",
+        "context": "Agreement to expand C-130J Super Hercules opportunities in India including potential final assembly line",
+        "year": "2024",
+        "quantity_or_note": "n/a (agreement)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "BDL (Javelin JV co-production MOU)",
+        "context": "Lockheed-Raytheon Javelin JV signed co-production MOU with BDL Feb 2020",
+        "year": "2020",
+        "quantity_or_note": "n/a (MOU)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "14 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "5 official, 9 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "How many C-130J Super Hercules does the Indian Air Force operate?",
+      "answer": "The Indian Air Force originally ordered 6 C-130J-30 Super Hercules (contract signed 2008, deliveries 2010-2014) for No. 77 Squadron 'Veiled Vipers' at Hindon AFS. One aircraft crashed near Gwalior in March 2014, leaving 5 operational. In August 2021 Lockheed Martin was awarded a 5-year, $328M contract to support the fleet.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the value of the Indian Navy's MH-60R Seahawk deal?",
+      "answer": "The Indian Navy contracted 24 MH-60R Seahawks (Sikorsky/Lockheed Martin) for $904-905 million in May 2020 via the US FMS route. A follow-on ₹7,995 crore (~$950M) deal was signed in November/December 2025 for additional support and equipment. Deliveries have been ongoing since 2024.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Has India ordered Javelin anti-tank missiles?",
+      "answer": "Yes. Under emergency procurement, the Indian Army signed a ₹292 crore (~$93 million) deal in August 2026 for 60 Javelin launchers and 100 missiles from the Lockheed-Raytheon Javelin JV. A co-production MOU with Bharat Dynamics Limited was signed earlier (Feb 2020).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.lockheedmartin.com/en-us/who-we-are/international/india.html",
+      "publisher": "Lockheed Martin (company official)",
+      "url": "https://www.lockheedmartin.com/en-us/who-we-are/international/india.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Lockheed Martin India corporate page"
+    },
+    {
+      "id": "src-02",
+      "title": "https://news.lockheedmartin.com/lockheed-martin-awarded-5-year-contract-to-support-indian-air-force-c-130j-super-hercules-airlifter-fleet",
+      "publisher": "Lockheed Martin Newsroom",
+      "url": "https://news.lockheedmartin.com/lockheed-martin-awarded-5-year-contract-to-support-indian-air-force-c-130j-super-hercules-airlifter-fleet",
+      "published_date": "2021-08-24",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Lockheed awarded 5-year contract to support IAF C-130J fleet ($328M)"
+    },
+    {
+      "id": "src-03",
+      "title": "https://cobbcountycourier.com/2021/08/lockheed-martin-iaf-contract",
+      "publisher": "Cobb County Courier",
+      "url": "https://cobbcountycourier.com/2021/08/lockheed-martin-iaf-contract",
+      "published_date": "2021-08-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms $328M IAF C-130J support contract"
+    },
+    {
+      "id": "src-04",
+      "title": "https://news.lockheedmartin.com/2024-09-10-Lockheed-Martin-and-Tata-Advanced-Systems-Announce-Agreement-to-Expand-C-130J-Super-Hercules-Opportunities-in-India",
+      "publisher": "Lockheed Martin Newsroom",
+      "url": "https://news.lockheedmartin.com/2024-09-10-Lockheed-Martin-and-Tata-Advanced-Systems-Announce-Agreement-to-Expand-C-130J-Super-Hercules-Opportunities-in-India",
+      "published_date": "2024-09-10",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Lockheed Martin-Tata Advanced Systems agreement to expand C-130J opportunities in India"
+    },
+    {
+      "id": "src-05",
+      "title": "https://www.janes.com/defence-intelligence-insights/defence-news/defence/lockheed-martin-awarded-usd904-million-contract-for-24-mh-60r-helicopters-for-india",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/defence/lockheed-martin-awarded-usd904-million-contract-for-24-mh-60r-helicopters-for-india",
+      "published_date": "2020-05-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Lockheed awarded $904M contract for 24 MH-60R helicopters for India"
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.flightglobal.com/helicopters/sikorsky-signs-905-million-deal-for-24-mh-60r-anti-submarine-helicopters-for-india/138177.article",
+      "publisher": "FlightGlobal",
+      "url": "https://www.flightglobal.com/helicopters/sikorsky-signs-905-million-deal-for-24-mh-60r-anti-submarine-helicopters-for-india/138177.article",
+      "published_date": "2020-05-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Sikorsky signs $905M deal for 24 MH-60R anti-submarine helicopters for India"
+    },
+    {
+      "id": "src-07",
+      "title": "https://infra.economictimes.indiatimes.com/news/india-seals-rs-7995-crore-deal-with-us-for-navys-mh-60r-helicopters/118352828.cms",
+      "publisher": "ET Infra / Economic Times",
+      "url": "https://infra.economictimes.indiatimes.com/news/india-seals-rs-7995-crore-deal-with-us-for-navys-mh-60r-helicopters/118352828.cms",
+      "published_date": "2025-11-29",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "India seals ₹7,995 crore deal with US for Navy's MH-60R helicopters"
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.spsnavalforces.com/story/?id=609&h=India-to-Procure-24-MH-60R-Helicopters",
+      "publisher": "SP's Naval Forces",
+      "url": "https://www.spsnavalforces.com/story/?id=609&h=India-to-Procure-24-MH-60R-Helicopters",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "India to procure 24 MH-60R helicopters — additional reporting"
+    },
+    {
+      "id": "src-09",
+      "title": "https://timesofindia.indiatimes.com/defence/news/indias-javelin-buy-what-us-anti-tank-missile-adds-to-armys-arsenal/articleshow/133591334.cms",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/defence/news/indias-javelin-buy-what-us-anti-tank-missile-adds-to-armys-arsenal/articleshow/133591334.cms",
+      "published_date": "2026-08-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "India buys 60 US Javelins for ₹292 crore to boost anti-tank firepower"
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.dawn.com/news/2025768",
+      "publisher": "Dawn",
+      "url": "https://www.dawn.com/news/2025768",
+      "published_date": "2026-08-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "India signs deal with US to buy Javelin anti-tank missile systems"
+    },
+    {
+      "id": "src-11",
+      "title": "https://news.lockheedmartin.com/2020-02-06-Javelin-Joint-Venture-Signs-Co-Production-Memorandum-of-Understanding-with-Indias-Bharat-Dynamics-Limited",
+      "publisher": "Lockheed Martin Newsroom",
+      "url": "https://news.lockheedmartin.com/2020-02-06-Javelin-Joint-Venture-Signs-Co-Production-Memorandum-of-Understanding-with-Indias-Bharat-Dynamics-Limited",
+      "published_date": "2020-02-06",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Javelin JV co-production MOU with BDL"
+    },
+    {
+      "id": "src-12",
+      "title": "https://www.lockheedmartin.com/en-us/products/f-21.html",
+      "publisher": "Lockheed Martin (company official)",
+      "url": "https://www.lockheedmartin.com/en-us/products/f-21.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "F-21 product page — Lockheed Martin's India-specific MRFA offer"
+    },
+    {
+      "id": "src-13",
+      "title": "https://www.eurasiantimes.com/us-offered-f-21-to-india-for-mrfa-contract-it-operated",
+      "publisher": "The EurAsian Times",
+      "url": "https://www.eurasiantimes.com/us-offered-f-21-to-india-for-mrfa-contract-it-operated",
+      "published_date": "2025-05-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "US offers F-21 to India for MRFA contract"
+    },
+    {
+      "id": "src-14",
+      "title": "https://www.ajaishukla.com/2021/08/lockheed-martin-gets-329-million.html",
+      "publisher": "Ajaishukla.com",
+      "url": "https://www.ajaishukla.com/2021/08/lockheed-martin-gets-329-million.html",
+      "published_date": "2021-08-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Lockheed gets $329M contract to maintain IAF C-130J fleet"
+    }
+  ],
+  "seo": {
+    "title": "Lockheed Martin Corporation — Company · India Defence Atlas | Techadyant",
+    "meta_description": "Lockheed Martin Corporation company dossier: India defence role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/pillars/defence/entity/lockheed-martin/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/lockheed-martin/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

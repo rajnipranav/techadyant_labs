@@ -1,0 +1,174 @@
+{
+  "entity_id": "hs748",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "hs748",
+  "name": "HAL HS-748 'Avro'",
+  "variant": "Hawker Siddeley HS 748 (HAL 748)",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/platform/",
+  "last_verified": "2026-08-29",
+  "status": "Retired",
+  "header": {
+    "one_liner": "India's oldest transport type: the licence-built HS-748 'Avro', first flown in India in 1961 with 89 aircraft built by HAL, now a legacy IAF communication/training fleet being phased out and replaced by the Airbus C-295.",
+    "chips": [
+      "B",
+      "India-relevant",
+      "Legacy transport",
+      "HAL-built",
+      "Being replaced by C-295"
+    ],
+    "maker": "Hindustan Aeronautics Limited (HAL) — licence-built (Hawker Siddeley, UK)",
+    "country": "India (licensed from UK)",
+    "indigenous_pct": null,
+    "indigenous_label": "Licence-built by HAL; British Hawker Siddeley design and Rolls-Royce Dart engines",
+    "mobility_or_class": "Twin-turboprop medium transport aircraft (~48-seat class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Platform": "Hawker Siddeley HS 748 / HAL 748 'Avro'",
+    "Maker": "HAL (licence from Hawker Siddeley, UK)",
+    "First_Indian_flight": "1 November 1961 (first Indian-assembled HAL-748)",
+    "Units_built_in_India": "89 (72 for the IAF, 17 for Indian Airlines)",
+    "Origin": "British design; India's oldest aircraft type still flying (inducted 1961)",
+    "Current_role": "Communication and navigation/transport training (down from primary transport)",
+    "Replacement": "Airbus C-295 — 56 aircraft ($2.4 billion), 16 flyaway from Airbus Spain + 40 built by Tata Advanced Systems at Vadodara",
+    "Engines": "2 x Rolls-Royce Dart turboprop (imported, UK)"
+  },
+  "what_it_is": {
+    "prose": "The HAL HS-748, universally known in Indian service as the 'Avro', is a British Hawker Siddeley twin-turboprop medium transport that HAL licence-built in India. The first Indian-assembled HAL-748 flew on 1 November 1961, and by the end of production HAL had completed 89 Indian-built aircraft — 72 for the Indian Air Force and 17 for the national carrier Indian Airlines. Powered by two imported Rolls-Royce Dart turboprops, the Avro became a workhorse of Indian military and civil aviation for decades. It is now the oldest aircraft type in IAF service and has been progressively relegated from primary transport to communication and navigation/transport-training duties. The fleet is being phased out and replaced by the Airbus C-295: India ordered 56 C-295 aircraft (about $2.4 billion), of which 16 are supplied in flyaway condition from Airbus in Spain and the remaining 40 are being manufactured in India by Tata Advanced Systems Limited (TASL) at Vadodara, Gujarat — the first C-295s entering IAF service from 2023. The Avro-to-C-295 transition is symbolically significant because both the outgoing and incoming fleets are Indian-built, marking continuity in HAL/TASL transport-aircraft manufacture. The Atlas records the HS-748 as a legacy licence-built platform of genuine historical India relevance, now at the end of its service life.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The HS-748 was licence-built by HAL, with 89 aircraft produced (72 IAF, 17 Indian Airlines) from the early 1960s. It is India's oldest aircraft type still flying, now in a communication/training role, and is being replaced by the Airbus C-295 (56 aircraft; 16 from Spain, 40 built by TASL at Vadodara), which began entering IAF service in 2023.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "Primary operator of the HAL-built Avro fleet; now communication and navigation/transport training",
+        "year": 1961,
+        "quantity_or_note": "72 of 89 HAL-built aircraft delivered to the IAF; first Indian flight 1 Nov 1961",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Airlines (civil)",
+        "context": "Civil operator of HAL-built HS-748",
+        "year": null,
+        "quantity_or_note": "17 of 89 HAL-built aircraft",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (replacement programme)",
+        "context": "Airbus C-295 replacing the Avro fleet; 40 built in India by Tata Advanced Systems at Vadodara",
+        "year": 2021,
+        "quantity_or_note": "56 C-295, ~$2.4 billion (16 flyaway from Spain + 40 TASL Vadodara); service entry from 2023",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact number of Avro still airworthy varies by source (~50–57); no single current primary figure",
+      "Firm final Avro retirement date is not stated in a primary source"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Although licence-built by HAL, the HS-748 is a British design powered by imported Rolls-Royce Dart turboprops, with legacy avionics of foreign origin. As a retiring type, its principal current constraint is spares/obsolescence rather than new-build supply. Its C-295 replacement shifts a substantial share of production to India (TASL Vadodara), though the C-295's Pratt & Whitney Canada engines remain imported.",
+    "items": [
+      {
+        "component": "Engines (Rolls-Royce Dart turboprop)",
+        "severity": "High",
+        "note": "Two per aircraft; UK-origin. Obsolescence and spares are the main sustainment issue for the ageing fleet.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Airframe design / legacy avionics",
+        "severity": "Medium",
+        "note": "British Hawker Siddeley design; legacy systems of 1960s origin drive obsolescence-led retirement.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "/research/military-aerospace/platform/do228/",
+      "/research/military-aerospace/platform/htt40/"
+    ],
+    "peer_systems": [
+      "/research/military-aerospace/platform/mta/"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Hawker Siddeley HS 748",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hawker_Siddeley_HS_748",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "HAL licence-built; first Indian-assembled flight 1 Nov 1961; 89 built (72 IAF, 17 Indian Airlines); now communication/training; being replaced by Airbus C-295."
+    },
+    {
+      "id": "src-2",
+      "title": "Replacement of Avro By C295 – Programme Moving Ahead",
+      "publisher": "SP's Aviation",
+      "url": "https://www.sps-aviation.com/story/?id=2878&h=Replacement-of-Avro-By-C295-Programme-Moving-Ahead",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "IAF operates ~50 HS-748 Avro; C-295 order 56 aircraft ($2.4B), 16 flyaway from Spain, 40 built in India by TASL; Avro were HAL-built."
+    },
+    {
+      "id": "src-3",
+      "title": "Explainer: From five to 62 years – A look at the age profile of IAF's aircraft fleet",
+      "publisher": "The Tribune",
+      "url": "https://www.tribuneindia.com/news/defence/explainer-from-five-to-62-years-a-look-at-the-age-profile-of-iafs-aircraft-fleet/",
+      "published_date": "2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Avro is the oldest aircraft flying in the IAF, inducted 1961; used for communication and navigation training; being taken over by C-295 (entering service 2023) and C-17."
+    }
+  ],
+  "seo": {
+    "title": "HAL HS-748 'Avro' — Platform · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "India's oldest transport type, the licence-built HS-748 'Avro' — first flown in India in 1961, 89 built by HAL — is a legacy IAF fleet being phased out and replaced by the Airbus C-295.",
+    "canonical_path": "/research/military-aerospace/platform/hs748/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/platform/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/do228/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

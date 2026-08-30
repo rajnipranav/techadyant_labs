@@ -1,0 +1,497 @@
+{
+  "entity_id": "atl-cmp-tata-advanced-systems-ltd-tasl-mfr-011",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "tata-advanced-systems-ltd-tasl-mfr-011",
+  "name": "Tata Advanced Systems Ltd (TASL)",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/tata-advanced-systems-ltd-tasl-mfr-011/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Tata Advanced Systems Limited (TASL) is the aerospace & defence flagship of the Tata Group, incorporated in 2006 and operational from 2007. Headquartered in Hyderabad with facilities at Vemagal (Karna",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Hyderabad, Telangana, India (Hardware Park, Plot No.21, Sy No.1/1, Imarat Kancha Raviryala Village, Maheshwaram Mandal — registered office); FAL at Vemagal, Karnataka",
+    "Type": "Manufacturer (listed)",
+    "Founded": "2007 (incorporated 19 September 2006); wholly-owned subsidiary of Tata Sons",
+    "India entity": null,
+    "Listed": "Not listed — wholly-owned subsidiary of Tata Sons Private Ltd (Tata Sons is unlisted)",
+    "Key India role": "Tata Advanced Systems Limited (TASL) is the aerospace & defence flagship of the Tata Group, incorporated in 2006 and operational from 2007. Headquartered in Hyderabad with facilities at Vemagal (Karna"
+  },
+  "what_it_is": {
+    "prose": "Tata Advanced Systems Limited (TASL) is the aerospace & defence flagship of the Tata Group, incorporated in 2006 and operational from 2007. Headquartered in Hyderabad with facilities at Vemagal (Karnataka) and Pune, TASL is India's largest private-sector defence & aerospace OEM. It operates multiple joint ventures: (1) Tata Lockheed Martin Aero Structures Ltd (TLMA) — global single source for C-130J/LM100J empennages shipped to Lockheed's Marietta (Georgia) FAL; (2) Tata Boeing Aerospace Ltd (TBAL) — global single source for AH-64 Apache helicopter fuselages, with 300th fuselage delivered by late 2025; (3) Tata Sikorsky JV — produces S-92 helicopter cabins since 2013 (first indigenous cabin delivered 24 Oct 2013); (4) Airbus H125 helicopter Final Assembly Line at Vemagal — India's first private-sector helicopter FAL, inaugurated 17 February 2026. TASL also broke ground on 18 Dec 2025 on a new Defence MRO facility supporting Lockheed Martin C-130J operations in India. In land systems, TASL is the production partner for the DRDO-developed WhAP 8x8 Wheeled Armoured Platform (India's first amphibious wheeled infantry combat vehicle), with first batch delivered to Royal Moroccan Army on 24 Dec 2025 (TASL's first major armoured vehicle export) and Infantry Protected Vehicles based on WhAP delivered to Indian Army from April 2025. TASL manufactures the Akash Army Launcher (AAL) — a mobile launcher system capable of transporting and launching up to three Akash medium-range SAMs in single or salvo mode.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "8 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Tata Lockheed Martin Aero Structures Ltd (TLMA)",
+        "role": "OEM",
+        "india_status": "C-130J/LM100J empennage (global single source to Lockheed Martin Marietta FAL)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Tata Boeing Aerospace Ltd (TBAL)",
+        "role": "OEM",
+        "india_status": "AH-64 Apache helicopter fuselage (global single source; 300th fuselage delivered 2025)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Tata Sikorsky JV",
+        "role": "OEM",
+        "india_status": "S-92 helicopter cabin (since Oct 2013, indigenous cabin)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Airbus H125 helicopter Final Assembly Line (FAL)",
+        "role": "OEM",
+        "india_status": "India's first private-sector helicopter FAL, Vemagal Karnataka, inaugurated 17 Feb 2026",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "WhAP 8x8 Wheeled Armoured Platform (with DRDO)",
+        "role": "OEM",
+        "india_status": "India's first amphibious wheeled infantry combat vehicle; production transferred to TASL",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Akash Army Launcher (AAL)",
+        "role": "OEM",
+        "india_status": "mobile launcher for 3 Akash medium-range SAMs in single/salvo mode",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "C-130J Defence MRO facility (groundbreaking 18 Dec 2025)",
+        "role": "OEM",
+        "india_status": "supports Lockheed Martin C-130J operations in India",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Infantry Protected Vehicles (IPV) based on WhAP",
+        "role": "OEM",
+        "india_status": "first lot delivered to Indian Army April 2025 from Pune facility",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "7 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "300th AH-64 Apache fuselage delivered by Tata Boeing Aerospace Ltd (TBAL) to Boeing in 2025",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Tata Sikorsky JV delivered first fully indigenous S-92 helicopter cabin on 24 October 2013",
+        "year": "2013",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "First batch of WhAP 8x8 armoured vehicles delivered to Royal Moroccan Army on 24 December 2025 (TASL's first major armoured vehicle export, beating China's Type-08)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Infantry Protected Vehicles (IPV) based on WhAP — first lot delivered to Indian Army in April 2025 from Pune facility",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "India's first private-sector helicopter Final Assembly Line (FAL) for Airbus H125 inaugurated 17 February 2026 at Vemagal, Karnataka (virtually commissioned)",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "TBAL Hyderabad AH-64 fuselage assembly line inaugurated 5 March 2018 by Tata and Boeing",
+        "year": "2018",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "TASL broke ground on new Defence MRO facility supporting Lockheed Martin C-130J operations in India on 18 December 2025",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "14 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "7 official, 4 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Tata Advanced Systems Limited (TASL) founded?",
+      "answer": "Tata Advanced Systems Limited (TASL) is the aerospace & defence flagship of the Tata Group, incorporated in 2006 and operational from 2007.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Is TASL a listed company?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Where is TASL's headquarters located?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is TASL's role in the Boeing AH-64 Apache programme?",
+      "answer": "It operates multiple joint ventures: (1) Tata Lockheed Martin Aero Structures Ltd (TLMA) — global single source for C-130J/LM100J empennages shipped to Lockheed's Marietta (Georgia) FAL; (2) Tata Boeing Aerospace Ltd (TBAL) — global single source for AH-64 Apache helicopter fuselages, with 300th fuselage delivered by late 2025; (3) Tata Sikorsky JV — produces S-92 helicopter cabins since 2013 (first indigenous cabin delivered 24 Oct 2013); (4) Airbus H125 helicopter Final Assembly Line at Vemagal — India's first private-sector helicopter FAL, inaugurated 17 February 2026.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is TASL's role in the Lockheed Martin C-130J programme?",
+      "answer": "TASL also broke ground on 18 Dec 2025 on a new Defence MRO facility supporting Lockheed Martin C-130J operations in India.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When did TASL inaugurate India's first private-sector helicopter Final Assembly Line (FAL)?",
+      "answer": "It operates multiple joint ventures: (1) Tata Lockheed Martin Aero Structures Ltd (TLMA) — global single source for C-130J/LM100J empennages shipped to Lockheed's Marietta (Georgia) FAL; (2) Tata Boeing Aerospace Ltd (TBAL) — global single source for AH-64 Apache helicopter fuselages, with 300th fuselage delivered by late 2025; (3) Tata Sikorsky JV — produces S-92 helicopter cabins since 2013 (first indigenous cabin delivered 24 Oct 2013); (4) Airbus H125 helicopter Final Assembly Line at Vemagal — India's first private-sector helicopter FAL, inaugurated 17 February 2026.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "TASL inaugurated India's first private-sector helicopter Final Assembly Line (FAL) for Airbus H125 on 17 Feb 2026",
+      "publisher": "TASL Official",
+      "url": "https://www.tataadvancedsystems.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "TASL founded 2007; HQ Hyderabad, Telangana, India; wholly-owned subsidiary of Tata Sons",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tata_Advanced_Systems",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "TLMA is global single source for C-130J/LM100J Empennages; TBAL is global single source of fuselages for AH-64 Apache helicopters",
+      "publisher": "TASL Official",
+      "url": "https://www.tataadvancedsystems.com/joint-ventures",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "TASL breaks ground on new Defence MRO facility supporting Lockheed Martin C-130J operations in India on 18 Dec 2025",
+      "publisher": "Lockheed Martin Newsroom",
+      "url": "https://news.lockheedmartin.com/2025-12-18-Tata-Advanced-Systems-breaks-ground-on-new-Defence-MRO-facility-supporting-Lockheed-Martin-C-130J-operations-in-India",
+      "published_date": "2025-12-18",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "Tata-Boeing Hyderabad AH-64 Apache fuselage assembly line inaugurated 5 March 2018 — exclusive source of future AH-64 fuselages",
+      "publisher": "FlightGlobal",
+      "url": "https://www.flightglobal.com/helicopters/2018/03/tata-boeing-inaugurate-hyderabad-ah-64-fuselage-line",
+      "published_date": "2018-03-05",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Boeing and TASL delivered 300th AH-64 Apache fuselage in India",
+      "publisher": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/rituraj-singh-jadon_boeingindia-tataboeingaerospace-makeinindia-activity-7371746819590062080-nCdr",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Tata Sikorsky JV delivered first fully indigenous S-92 helicopter cabin on 24 Oct 2013",
+      "publisher": "Lockheed Martin Newsroom (Sikorsky)",
+      "url": "https://news.lockheedmartin.com/2013-10-24-TATA-Sikorsky-JV-delivers-first-fully-indigenous-S-92-helicopter-cabin",
+      "published_date": "2013-10-24",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "TASL inaugurated India's first private-sector helicopter Final Assembly Line for Airbus H125 on 17 Feb 2026 at Vemagal, Karnataka",
+      "publisher": "Airbus",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-02-tata-advanced-systems-inaugurates-airbus-h125-helicopter-production-line-to-boost-indias-vertical",
+      "published_date": "2026-02-17",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "WhAP 8x8 — India's first amphibious infantry combat vehicle (wheeled); production by TASL",
+      "publisher": "TASL Official",
+      "url": "https://www.tataadvancedsystems.com/wheeled-armored-platform",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "TASL delivered first batch of WhAP 8x8 armoured vehicles to Royal Moroccan Army on 24 Dec 2025",
+      "publisher": "Army Recognition",
+      "url": "https://www.armyrecognition.com/news/army-news/2026/india-delivers-first-batch-of-whap-8x8-armored-vehicles-to-morocco",
+      "published_date": "2025-12-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "WhAP 8x8 developed with DRDO and TASL; first lot of IPV delivered to Indian Army in April 2025 from Pune facility",
+      "publisher": "ET Manufacturing",
+      "url": "https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/indias-indigenous-wheeled-apc-whap-to-take-nations-defence-innovation-to-global-stage-drdo/124121457",
+      "published_date": "2025-09-25",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "Akash Army Launcher (AAL) — mobile launcher for up to 3 Akash medium-range SAMs in single or salvo mode",
+      "publisher": "TASL Official",
+      "url": "https://www.tataadvancedsystems.com/akash-army-launcher",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "TASL Registered Office: Hardware Park Plot No.21, Sy No.1/1 Imarat Kancha Raviryala Village, Maheshwaram Mandal, Hyderabad – 501 218, Telangana",
+      "publisher": "TASL Official",
+      "url": "https://www.tataadvancedsystems.com/about",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-14",
+      "title": "TASL Date of Incorporation: Sep 19, 2006; founded 2007",
+      "publisher": "Tracxn",
+      "url": "https://tracxn.com/d/companies/tata-advanced-systems/__acT0mfdtbDRd4FaE_3hCb0apKUiOTHzbBmSVRI1Xpnw",
+      "published_date": "2026-08-05",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Tata Advanced Systems Ltd (TASL) — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Tata Advanced Systems Ltd (TASL) company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/tata-advanced-systems-ltd-tasl-mfr-011/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/tata-advanced-systems-ltd-tasl-mfr-011/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

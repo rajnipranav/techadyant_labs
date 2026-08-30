@@ -1,0 +1,356 @@
+{
+  "entity_id": "def-016",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "k9-vajra-t-def-016",
+  "name": "K9 Vajra-T 155mm Tracked Self-Propelled Howitzer",
+  "variant": "K9 Vajra-T (Indian variant of Samsung Techwin K9 Thunder)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "155mm/52-cal tracked self-propelled howitzer; 100 delivered (₹4,500 cr 2017), 100 more ordered (₹7,629 cr Dec 2024); 82%+ indigenous content by April 2026; deployed in Eastern Ladakh high-altitude.",
+    "chips": [
+      "Artillery",
+      "Self-propelled",
+      "155mm",
+      "Tracked",
+      "L&T",
+      "Hanwha Aerospace",
+      "Operational",
+      "82% indigenous"
+    ],
+    "maker": "Larsen & Toubro (L&T) — prime; Hanwha Aerospace (South Korea) — co-developer",
+    "country": "South Korea / India (license-built)",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Larsen & Toubro (L&T) — prime; Hanwha Aerospace (South Korea) — co-developer",
+    "Calibre": "155mm / 52-calibre",
+    "Platform": "Tracked self-propelled howitzer (K9 Thunder variant)",
+    "Range": "30 km (standard) / 40 km (base-bleed) / 50 km (V-LAP)",
+    "Rate_of_fire": "6-8 rounds per minute (max); 3 rounds in 15 seconds (MRSI)",
+    "Crew": "5 (commander, gunner, driver, 2 loaders)",
+    "Engine": "MTU MT881 Ka-500 diesel (Germany / South Korea) — 1,000 hp",
+    "Speed": "67 km/h road; 42 km/h cross-country",
+    "First_order": "100 units (₹4,500 cr, 2017)",
+    "Repeat_order": "100 units (₹7,629 cr, 23 December 2024)",
+    "Total_indigenous_content": "82%+ at work-package level (April 2026)",
+    "Manufacturing_site": "L&T Armoured Systems Complex, Hazira, Gujarat (first private defence ASC in India)",
+    "High_altitude_deployment": "Eastern Ladakh (after 2020 Galwan clash)"
+  },
+  "what_it_is": {
+    "prose": "The K9 Vajra-T is a 155mm/52-calibre tracked self-propelled howitzer produced by Larsen & Toubro (L&T) under a co-development and Transfer of Technology agreement with Hanwha Aerospace of South Korea (originally Samsung Techwin). The K9 Vajra-T is the Indian variant of the K9 Thunder, customized for Indian conditions including desert, high-altitude, and tropical operations. The howitzer has a range of 30 km (standard), 40 km (base-bleed), or 50 km (V-LAP), with a maximum rate of fire of 6-8 rounds per minute and Multiple Rounds Simultaneous Impact (MRSI) capability of 3 rounds in 15 seconds. The platform is powered by an MTU MT881 Ka-500 diesel engine (Germany / South Korea) producing 1,000 hp, with a road speed of 67 km/h. The first batch of 100 K9 Vajra-T was delivered ahead of schedule under a ₹4,500 crore 2017 contract; a repeat order for 100 more was signed on 23 December 2024 for ₹7,629 crore (PIB confirmation 20 December 2024). As of April 2026, the K9 Vajra-T programme has achieved 82%+ indigenous content at the work-package level — a significant milestone for the Make in India programme. Manufacturing is at the L&T Armoured Systems Complex in Hazira, Gujarat — the first private defence ASC in India. The K9 Vajra-T has been deployed operationally in Eastern Ladakh following the 2020 Galwan Valley clash, demonstrating its high-altitude capability. The K9 programme represents India's largest artillery induction since the Bofors FH-77B controversy of the 1980s.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The K9 Vajra-T programme is anchored by two L&T contracts: ₹4,500 crore (2017) for the first 100 units and ₹7,629 crore (23 December 2024) for the repeat order of 100 more. The first batch of 100 was delivered ahead of schedule. As of April 2026, the programme achieved 82%+ indigenous content at the work-package level. The K9 Vajra-T has been deployed operationally in Eastern Ladakh following the 2020 Galwan Valley clash.",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "First K9 Vajra-T contract (100 units)",
+        "year": 2017,
+        "quantity_or_note": "₹4,500 crore — 2017 contract",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "First batch of 100 K9 Vajra-T delivered ahead of schedule",
+        "year": 2021,
+        "quantity_or_note": "Delivered ahead of schedule",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "K9 Vajra-T deployed to Eastern Ladakh after Galwan clash",
+        "year": 2020,
+        "quantity_or_note": "2020-2021 — high-altitude deployment",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Repeat order for 100 more K9 Vajra-T",
+        "year": 2024,
+        "quantity_or_note": "₹7,629 crore (signed 23 December 2024)",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "L&T / Indian Army",
+        "context": "82% indigenous content achieved",
+        "year": 2026,
+        "quantity_or_note": "April 2026 — work-package level",
+        "sources": [
+          "src-4"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact unit cost per K9 Vajra-T not publicly disclosed",
+      "K9 Vajra-T regiment count in Indian Army not fully disclosed",
+      "Whether K9 Vajra-T will be offered for export — no export discussions reported"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "MTU MT881 Ka-500 diesel engine",
+        "severity": "High",
+        "note": "Germany / South Korea (Hanwha) — license; no indigenous alternative",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Engine transmission, gun barrel forgings",
+        "severity": "Medium",
+        "note": "Hanwha Aerospace (South Korea) — $253M second contract for 100 K9 Vajra-T components",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "component": "Fire control system electronics",
+        "severity": "Medium",
+        "note": "Industry-typical — partially indigenous at 82% work-package",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 3,
+        "note": "Hanwha Aerospace (South Korea) original; L&T co-development + customisation",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "L&T Armoured Systems Complex Hazira — first private defence ASC in India",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 4,
+        "note": "82% indigenous content by April 2026; engine + some forgings still imported",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 5,
+        "note": "200 units ordered (₹12,129 cr aggregate); deployed Eastern Ladakh",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "No exports reported; L&T could potentially export K9 Vajra-T",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "zorawar-light-tank-def-001",
+      "pinaka-mbrl-def-002"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the K9 Vajra-T and why is it significant?",
+      "answer": "The K9 Vajra-T is a 155mm/52-calibre tracked self-propelled howitzer produced by L&T under a co-development and Transfer of Technology agreement with Hanwha Aerospace of South Korea. It is the Indian variant of the K9 Thunder. The K9 Vajra-T is significant because it represents India's largest artillery induction since the Bofors FH-77B controversy of the 1980s, with 200 units ordered (₹4,500 cr 2017 + ₹7,629 cr December 2024 = ₹12,129 crore aggregate). The programme achieved 82%+ indigenous content by April 2026 — a major Make in India milestone.",
+      "sources": [
+        "src-1",
+        "src-2",
+        "src-4"
+      ]
+    },
+    {
+      "question": "Where is the K9 Vajra-T manufactured?",
+      "answer": "The K9 Vajra-T is manufactured at the L&T Armoured Systems Complex (ASC) in Hazira, Gujarat — the first private defence ASC in India. The facility was inaugurated in 2018 specifically for the K9 Vajra-T programme. Hanwha Aerospace of South Korea supplies the engine and certain components under a $253 million second contract (for the 100 repeat-order units); L&T manufactures the rest in India with progressive indigenisation reaching 82% by April 2026.",
+      "sources": [
+        "src-3",
+        "src-5"
+      ]
+    },
+    {
+      "question": "Has the K9 Vajra-T been deployed operationally?",
+      "answer": "Yes. The K9 Vajra-T has been deployed to Eastern Ladakh following the 2020 Galvan Valley clash with China, demonstrating its high-altitude operational capability. The howitzer's tracked platform and 1,000 hp engine allow it to operate in mountainous terrain where towed howitzers cannot easily reach. The Indian Army has integrated the K9 Vajra-T into its artillery regiments alongside the indigenous ATAGS (Advanced Towed Artillery Gun System) and the M777 ultra-light howitzer (BAE Systems, USA).",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2017",
+      "event": "First K9 Vajra-T contract signed (₹4,500 cr for 100 units)",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "date": "2018",
+      "event": "L&T Armoured Systems Complex inaugurated at Hazira, Gujarat",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2021",
+      "event": "First batch of 100 K9 Vajra-T delivered ahead of schedule",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020-2021",
+      "event": "K9 Vajra-T deployed to Eastern Ladakh after Galwan clash",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2024-12-23",
+      "event": "Repeat order signed for 100 more K9 Vajra-T (₹7,629 cr)",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026-04",
+      "event": "82% indigenous content achieved at work-package level",
+      "sources": [
+        "src-4"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact unit cost per K9 Vajra-T not publicly disclosed",
+    "K9 Vajra-T regiment count in Indian Army not fully disclosed",
+    "Whether K9 Vajra-T will be offered for export — no export discussions reported"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "K9 Vajra",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/K9_Vajra",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "K9 Vajra-T specifications and Indian programme history"
+    },
+    {
+      "id": "src-2",
+      "title": "MoD inks Rs 7629 crore contract with L&T for K9 VAJRA-T",
+      "publisher": "Press Information Bureau, Ministry of Defence",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086514",
+      "published_date": "2024-12-20",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PIB confirmation of repeat order ₹7,629 cr"
+    },
+    {
+      "id": "src-3",
+      "title": "L&T Precision Engineering & Systems Wins (Major) Order for K9 Vajra-T Artillery Platforms",
+      "publisher": "Larsen & Toubro",
+      "url": "https://www.larsentoubro.com/pressreleases/2024-12-23-lt-precision-engineering-systems-wins-major-order-for-k9-vajra-t-artillery-platforms",
+      "published_date": "2024-12-23",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "L&T confirmation of ₹7,629 cr repeat order"
+    },
+    {
+      "id": "src-4",
+      "title": "L&T Drives K9 Vajra Artillery Program to 82% Local Content",
+      "publisher": "Defence.in",
+      "url": "https://defence.in/threads/l-t-drives-k9-vajra-artillery-program-to-82-local-content-strengthening-domestic-supply-chains.17362",
+      "published_date": "2026-04-05",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "82% indigenous content by April 2026"
+    },
+    {
+      "id": "src-5",
+      "title": "Hanwha Aerospace Secures Second K9 Vajra-T Contract",
+      "publisher": "Hanwha Aerospace",
+      "url": "https://m.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=499",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Hanwha $253M second contract for 100 K9 Vajra-T components"
+    }
+  ],
+  "seo": {
+    "title": "K9 Vajra-T 155mm Tracked Self-Propelled Howitzer — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "155mm/52-cal tracked self-propelled howitzer; 100 delivered (₹4,500 cr 2017), 100 more ordered (₹7,629 cr Dec 2024); 82%+ indigenous content by April 2026; depl",
+    "canonical_path": "/research/pillars/defence/entity/k9-vajra-t-def-016/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

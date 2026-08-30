@@ -1,0 +1,352 @@
+{
+  "entity_id": "atl-cmp-ig-drones-mfr-037",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ig-drones-mfr-037",
+  "name": "IG Drones",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/ig-drones-mfr-037/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "IG Drones is an Indian drone OEM founded in 2018 by four engineering students from Odisha, led by CEO Bodhisattwa Sanghapriya. It manufactures indigenous VTOL and FPV drones for defence and enterprise",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Originally Bhubaneswar (Odisha); also described as Noida/Gurugram (NCR). HQ effectively Delhi-NCR with Odisha origin.",
+    "Type": "Manufacturer (listed)",
+    "Founded": "2018",
+    "India entity": null,
+    "Listed": "Private (not listed)",
+    "Key India role": "IG Drones is an Indian drone OEM founded in 2018 by four engineering students from Odisha, led by CEO Bodhisattwa Sanghapriya. It manufactures indigenous VTOL and FPV drones for defence and enterprise"
+  },
+  "what_it_is": {
+    "prose": "IG Drones is an Indian drone OEM founded in 2018 by four engineering students from Odisha, led by CEO Bodhisattwa Sanghapriya. It manufactures indigenous VTOL and FPV drones for defence and enterprise (mining, highway, infrastructure survey). The company supplied drones and ISR services for India's Operation Sindoor (May 2025) and has had its Striker FPV kamikaze drone fast-tracked by the Indian Army for deployment along the LAC. IG Drones developed India's first 5G-enabled drone (Skyhawk) and signed an MoU with the Uttar Pradesh government (Oct 2025) for a manufacturing & research facility.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "3 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Skyhawk (5G-enabled drone)",
+        "role": "OEM",
+        "india_status": "India's first 5G-enabled drone; 10 kg payload, long-endurance; for tactical defence, medical and border monitoring",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Striker FPV drone (kamikaze)",
+        "role": "OEM",
+        "india_status": "FPV (first-person view) kamikaze drone; trials conducted with Indian Army at Indo-China LAC; fast-tracked post Operation Sindoor",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "VTOL & heavy-lift logistics drones",
+        "role": "OEM",
+        "india_status": "Heavy-lift logistics drone for aerial delivery in defence ops & humanitarian missions",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Military (Operation Sindoor, May 2025)",
+        "context": "IG Drones supplied VTOL and FPV drones and ISR services (surveying, mapping, reconnaissance) during Operation Sindoor",
+        "year": "2025",
+        "quantity_or_note": "undisclosed",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Army (LAC deployment)",
+        "context": "Striker FPV kamikaze drone trials conducted at Indo-China border (LAC); fast-tracked after Op Sindoor success",
+        "year": "2025",
+        "quantity_or_note": "undisclosed",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (IAF contract)",
+        "context": "IAF signed a significant contract with IG Drones for drone technology",
+        "year": "2024-2025",
+        "quantity_or_note": "undisclosed",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Government of Uttar Pradesh (MoU)",
+        "context": "IG Drones signed MoU with UP government for manufacturing & research facility (Oct 2025)",
+        "year": "2025",
+        "quantity_or_note": "n/a (MoU)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Mining sector (CMPDI / Coal India)",
+        "context": "IG Drones used for mining surveys; Coal India/CMPDI using drones for coal stock measurement",
+        "year": "ongoing",
+        "quantity_or_note": "undisclosed",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "9 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "2 official, 5 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was IG Drones founded and who is its CEO?",
+      "answer": "IG Drones was founded in 2018 by four engineering students from Odisha. Bodhisattwa Sanghapriya is the Founder & CEO.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What was IG Drones' role in Operation Sindoor?",
+      "answer": "During Operation Sindoor (May 2025), IG Drones supplied VTOL and FPV drones and provided services such as surveying, mapping and reconnaissance to the Indian military.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the Striker FPV drone and what is its status with the Indian Army?",
+      "answer": "The Striker is IG Drones' FPV kamikaze drone. After successful trials at the Indo-China border (LAC) and its use in Operation Sindoor, the Indian Army fast-tracked its deployment in October 2025.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which is India's first 5G-enabled drone?",
+      "answer": "IG Drones' Skyhawk is described as India's first 5G-enabled drone, with a 10 kg payload and long-endurance, designed for tactical defence, medical and border monitoring applications.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.forbes.com/profile/ig-drones",
+      "publisher": "Forbes",
+      "url": "https://www.forbes.com/profile/ig-drones",
+      "published_date": "2025-05-14",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms IG Drones is Noida-based; co-founders include Bodhisattwa Sanghapriya; four models for mapping, surveillance"
+    },
+    {
+      "id": "src-02",
+      "title": "https://inc42.com/startups/ig-drones-meet-the-indian-startup-that-was-key-to-operation-sindoor",
+      "publisher": "Inc42",
+      "url": "https://inc42.com/startups/ig-drones-meet-the-indian-startup-that-was-key-to-operation-sindoor",
+      "published_date": "2025-05-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "IG Drones supplied drones and ISR services during Operation Sindoor"
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.indiatoday.in/india/story/indian-army-fast-tracks-fpv-kamikaze-drones-ig-drones-striker-trials-lac-operation-sindoor-2804592-2025-10-17",
+      "publisher": "India Today",
+      "url": "https://www.indiatoday.in/india/story/indian-army-fast-tracks-fpv-kamikaze-drones-ig-drones-striker-trials-lac-operation-sindoor-2804592-2025-10-17",
+      "published_date": "2025-10-17",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Indian Army fast-tracks IG Drones' Striker FPV kamikaze drone trials at LAC post Op Sindoor"
+    },
+    {
+      "id": "src-04",
+      "title": "https://timesofindia.indiatimes.com/city/bhubaneswar/ig-drones-signs-mou-with-up-govt-for-manufacturing-research-facility/articleshow/124434976.cms",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/ig-drones-signs-mou-with-up-govt-for-manufacturing-research-facility/articleshow/124434976.cms",
+      "published_date": "2025-10-10",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "IG Drones signs MoU with UP govt for manufacturing/research facility (Oct 2025)"
+    },
+    {
+      "id": "src-05",
+      "title": "https://techachievemedia.com/startup-news/shaping-the-skies-the-story-of-ig-drones-and-its-visionary-leader",
+      "publisher": "Tech Achieve Media",
+      "url": "https://techachievemedia.com/startup-news/shaping-the-skies-the-story-of-ig-drones-and-its-visionary-leader",
+      "published_date": "2025-03-05",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Confirms IG Drones founded 2018 by Bodhisattwa Sanghapriya with vision of indigenous technology"
+    },
+    {
+      "id": "src-06",
+      "title": "https://igdefence.com/about-us",
+      "publisher": "IG Defence (company official)",
+      "url": "https://igdefence.com/about-us",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Describes IG Defence as India's premier indigenous defence technology manufacturer building combat-ready drones, counter-UAS, ISR platforms"
+    },
+    {
+      "id": "src-07",
+      "title": "https://igdefence.com",
+      "publisher": "IG Defence (company official)",
+      "url": "https://igdefence.com",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Confirms Skyhawk as India's first 5G drone technology; heavy-lift logistics drone for defence [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.linkedin.com/pulse/how-ig-drones-transforming-mining-surveys-igdrones-cq5wc",
+      "publisher": "IG Drones (via LinkedIn)",
+      "url": "https://www.linkedin.com/pulse/how-ig-drones-transforming-mining-surveys-igdrones-cq5wc",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "IG Drones active in mining surveys: site mapping, resource estimation, infrastructure assessment"
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.dronefederation.in/media-hub/operation-sindoor-the-emergence-of-india's-drone-doctrine",
+      "publisher": "Drone Federation of India",
+      "url": "https://www.dronefederation.in/media-hub/operation-sindoor-the-emergence-of-india's-drone-doctrine",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Operation Sindoor context — drones played a leading role in strategic military planning"
+    }
+  ],
+  "seo": {
+    "title": "IG Drones — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "IG Drones company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/ig-drones-mfr-037/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/ig-drones-mfr-037/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

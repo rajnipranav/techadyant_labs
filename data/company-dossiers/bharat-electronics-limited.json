@@ -1,0 +1,370 @@
+{
+  "entity_id": "atl-cmp-bharat-electronics-limited",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "bharat-electronics-limited",
+  "name": "Bharat Electronics Limited (BEL)",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/bharat-electronics-limited/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "BEL is India's flagship defence-electronics DPSU under the Ministry of Defence, headquartered in Bengaluru. It designs and manufactures radars (3D-CAR/Rohini/Revathi for Akash batteries; Rajendra PESA",
+    "chips": [
+      "defence",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India",
+    "Type": "Company (listed)",
+    "Founded": "1954 (Bangalore; under Ministry of Defence)",
+    "India entity": null,
+    "Listed": "NSE: BEL | BSE: 500049; Navratna CPSE",
+    "Key India role": "BEL is India's flagship defence-electronics DPSU under the Ministry of Defence, headquartered in Bengaluru. It designs and manufactures radars (3D-CAR/Rohini/Revathi for Akash batteries; Rajendra PESA"
+  },
+  "what_it_is": {
+    "prose": "BEL is India's flagship defence-electronics DPSU under the Ministry of Defence, headquartered in Bengaluru. It designs and manufactures radars (3D-CAR/Rohini/Revathi for Akash batteries; Rajendra PESA), ESM/EW, missile-system electronics, electro-optic/thermal-imaging sights (T-72, T-90, BMP), naval combat systems, ESM for submarines, comms, and the Akash Tarang indigenous counter-UAS electronic-warfare system inducted by the Indian Army in 2026. FY26 provisional turnover ~₹26,750 Cr with order book ~₹74,000 Cr. BEL is a co-producer (with BDL) of the Akash surface-to-air missile system and executed the first export of an Indian-made SAM battery to Armenia (Nov 2024). Subsidiaries include BEL-Thales Systems Limited (BTSL, JV with Thales) and BEL Optronic Devices Limited.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "5 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Akash Missile System (with BDL / DRDO)",
+        "role": "OEM",
+        "india_status": "BEL supplies Rajendra 3D PESA fire-control radar, 3D-CAR central acquisition radar (Rohini for IAF, Revathi for Navy); BDL is the missile prime. Indian military combined Akash orders ~₹28,800 Cr. BEL received ₹3,914 Cr Akash Prime order (Jun 2023). First export battery shipped to Armenia (Nov 2024) — India's second missile export after BrahMos",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Akash Tarang counter-UAS / EW system",
+        "role": "OEM",
+        "india_status": "Indigenous electronic-warfare C-UAS developed for the Indian Army to detect, track, jam and neutralise hostile drones. Inducted 2026",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Thermal Imager Sights (LWIR) for T-72/T-90/BMP",
+        "role": "OEM",
+        "india_status": "Gunner TI sight for T-90, Commander TI sight for T-90, Commander TI sight for T-72 tank & BMP-1/2/2K ICV. BEL is the largest supplier of night-vision equipment to the Indian Armed Forces; 1,600 T-72s targeted for TI upgrade",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "3D-CAR / Rohini / Revathi Surveillance Radar",
+        "role": "OEM",
+        "india_status": "3D Central Acquisition Radar developed by DRDO; BEL is production agency. Rohini for IAF (medium-range surveillance, Akash battery target acquisition), Revathi for Indian Navy; ~100+ radars in service",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "D4 Anti-Drone System (Counter-UAS)",
+        "role": "OEM",
+        "india_status": "BEL's C-UAS soft/hard-kill system: real-time search, detection, tracking, neutralisation of flying drones",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "3 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Army (Air Defence)",
+        "context": "Akash SAM batteries — Rajendra radar + 3D-CAR + BDL missiles",
+        "year": "ongoing",
+        "quantity_or_note": "Multiple batteries (~₹28,800 Cr combined orders)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Armenia (export)",
+        "context": "First Akash weapon system battery shipped to Armenia — India's second missile export after BrahMos",
+        "year": "Nov 2024",
+        "quantity_or_note": "First battery of multi-battery export deal",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Akash Tarang counter-UAS EW system induction",
+        "year": "2026",
+        "quantity_or_note": "n/a",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "9 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "4 official, 3 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was BEL founded and where is it headquartered?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is BEL's stock ticker on NSE?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the Akash Tarang system and which service inducted it?",
+      "answer": "It designs and manufactures radars (3D-CAR/Rohini/Revathi for Akash batteries; Rajendra PESA), ESM/EW, missile-system electronics, electro-optic/thermal-imaging sights (T-72, T-90, BMP), naval combat systems, ESM for submarines, comms, and the Akash Tarang indigenous counter-UAS electronic-warfare system inducted by the Indian Army in 2026.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which country imported the Akash missile system battery from BEL in 2024?",
+      "answer": "BEL is a co-producer (with BDL) of the Akash surface-to-air missile system and executed the first export of an Indian-made SAM battery to Armenia (Nov 2024).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What was BEL's order book as of April 2025?",
+      "answer": "FY26 provisional turnover ~₹26,750 Cr with order book ~₹74,000 Cr.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which radars does BEL produce for the Akash missile system?",
+      "answer": "It designs and manufactures radars (3D-CAR/Rohini/Revathi for Akash batteries; Rajendra PESA), ESM/EW, missile-system electronics, electro-optic/thermal-imaging sights (T-72, T-90, BMP), naval combat systems, ESM for submarines, comms, and the Akash Tarang indigenous counter-UAS electronic-warfare system inducted by the Indian Army in 2026.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://bel-india.in/homepage",
+      "publisher": "BEL Official",
+      "url": "https://bel-india.in/homepage",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "https://bel-india.in/product/akash-missile-system",
+      "publisher": "BEL",
+      "url": "https://bel-india.in/product/akash-missile-system",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://bel-india.in/product/anti-drone-system",
+      "publisher": "BEL",
+      "url": "https://bel-india.in/product/anti-drone-system",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://bel-india.in/category/defence/electro-optics/night-vision-devices/thermal-imager-based",
+      "publisher": "BEL",
+      "url": "https://bel-india.in/category/defence/electro-optics/night-vision-devices/thermal-imager-based",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://en.wikipedia.org/wiki/Bharat_Electronics",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bharat_Electronics",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.janes.com/defence-intelligence-insights/defence-news/defence/bel-receives-order-for-akash-prime-weapons",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/defence/bel-receives-order-for-akash-prime-weapons",
+      "published_date": "Jun 21, 2023",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.airforce-technology.com/news/akash-weapon-system-battery-armenia",
+      "publisher": "Airforce Technology",
+      "url": "https://www.airforce-technology.com/news/akash-weapon-system-battery-armenia",
+      "published_date": "Nov 12, 2024",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.indiandefensenews.in/2026/07/india-inducts-akash-tarang-to-counter.html",
+      "publisher": "Indian Defence News",
+      "url": "https://www.indiandefensenews.in/2026/07/india-inducts-akash-tarang-to-counter.html",
+      "published_date": "Jul 4, 2026",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.facebook.com/psuconnectmedia/posts/bel-achieves-record-26750-crore-turnover-in-fy26-order-book-reaches-74000-crorer/1367176092119664",
+      "publisher": "PSU Connect",
+      "url": "https://www.facebook.com/psuconnectmedia/posts/bel-achieves-record-26750-crore-turnover-in-fy26-order-book-reaches-74000-crorer/1367176092119664",
+      "published_date": "2026",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Bharat Electronics Limited (BEL) — Company · India Defence Atlas | Techadyant",
+    "meta_description": "Bharat Electronics Limited (BEL) company dossier: India defence role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/pillars/defence/entity/bharat-electronics-limited/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/bharat-electronics-limited/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

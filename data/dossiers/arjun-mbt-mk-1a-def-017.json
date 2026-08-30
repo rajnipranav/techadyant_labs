@@ -1,0 +1,332 @@
+{
+  "entity_id": "def-017",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "arjun-mbt-mk-1a-def-017",
+  "name": "Arjun Main Battle Tank Mk-1A",
+  "variant": "Arjun Mk-1A (improved variant of Mk-I)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's indigenous 3rd-generation main battle tank; 118 ordered (₹6,500 cr, 2021); DRDO CVRDE design; 1400 hp diesel engine (Germany MTU licence); 120mm rifled gun; deployed in desert trials and Operation Sindoor context.",
+    "chips": [
+      "MBT",
+      "Indigenous",
+      "DRDO CVRDE",
+      "120mm rifled gun",
+      "MTU engine",
+      "AVNL Avadi",
+      "Operational"
+    ],
+    "maker": "Combat Vehicles Research & Development Establishment (CVRDE, DRDO) — design; Avadi Heavy Vehicles Factory (AVNL) — production",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "CVRDE (DRDO) — design; AVNL (Heavy Vehicles Factory, Avadi) — production",
+    "Variant": "Arjun Mk-1A (improved variant with 72 upgrades over Mk-I)",
+    "Mass": "68.5 tonnes (one of world's heaviest MBTs)",
+    "Crew": "4 (commander, gunner, loader, driver)",
+    "Engine": "1400 hp diesel (MTU / Renk transmission — Germany licence)",
+    "Power_to_weight": "~20.4 hp/tonne",
+    "Main_armament": "120mm rifled gun (indigenous) — fires APFSDS, HEAT, HE, TPCSDS, SAMHO ATGM",
+    "Secondary": "12.7mm AA HMG + 7.62mm coaxial MG",
+    "Armour": "Kanchan composite armour (indigenous); ERA blocks",
+    "Combat_radius": "450 km",
+    "Max_speed": "70 km/h road",
+    "Order": "118 Mk-1A (₹6,500 crore, September 2021)",
+    "Predecessor": "Arjun Mk-I (124 delivered to Indian Army 2004-2020)"
+  },
+  "what_it_is": {
+    "prose": "The Arjun Main Battle Tank Mk-1A is India's indigenous 3rd-generation main battle tank, designed by the Combat Vehicles Research & Development Establishment (CVRDE, a DRDO laboratory) and produced by the Heavy Vehicles Factory at Avadi (now Armoured Vehicles Nigam Limited — AVNL, a PSU under the Ministry of Defence). The Mk-1A is an improved variant of the original Arjun Mk-I (124 delivered to the Indian Army 2004-2020), incorporating 72 upgrades including missile-firing capability from the main gun (SAMHO ATGM), enhanced armour, advanced laser warning system, and improved night-fighting capability. The tank has a mass of 68.5 tonnes — making it one of the world's heaviest main battle tanks — which has raised logistical concerns about bridge-crossing and railway transport. The Arjun is powered by a 1400 hp diesel engine (MTU / Renk transmission — Germany licence) giving a power-to-weight ratio of approximately 20.4 hp/tonne and a maximum road speed of 70 km/h. The main armament is a 120mm rifled gun (indigenous) firing APFSDS, HEAT, HE, TPCSDS, and the SAMHO (Semi-Active Missile Homing Over) laser-guided ATGM. Secondary armament includes a 12.7mm anti-aircraft heavy machine gun and a 7.62mm coaxial machine gun. The Arjun is protected by Kanchan composite armour (indigenous) with Explosive Reactive Armour (ERA) blocks. The Indian Army ordered 118 Arjun Mk-1A in September 2021 for ₹6,500 crore. The Arjun has been deployed in desert trials near Jaisalmer and has been positioned in the Western sector facing Pakistan.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Indian Army ordered 118 Arjun Mk-1A tanks in September 2021 for ₹6,500 crore. The first Arjun Mk-1A tanks were delivered to the Indian Army in September 2021. The Arjun has been deployed in desert trials near Jaisalmer and has been positioned in the Western sector facing Pakistan. The Arjun Mk-1A was in service during Operation Sindoor (May 2025) context.",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "Original Arjun Mk-I order (124 tanks)",
+        "year": 2000,
+        "quantity_or_note": "124 Mk-I delivered 2004-2020",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Arjun Mk-1A order (118 tanks)",
+        "year": 2021,
+        "quantity_or_note": "₹6,500 crore — September 2021",
+        "sources": [
+          "src-1",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "First Arjun Mk-1A tanks delivered",
+        "year": 2021,
+        "quantity_or_note": "September 2021 — first deliveries",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Army (Western sector)",
+        "context": "Operational deployment",
+        "year": null,
+        "quantity_or_note": "Desert trials near Jaisalmer; positioned Western sector",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Arjun Mk-1A regiment count in Indian Army not fully disclosed",
+      "Arjun Mk-II future variant not yet announced",
+      "Whether the 68.5-tonne weight has constrained operational deployment in certain terrains"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "1400 hp diesel engine (MTU)",
+        "severity": "Critical",
+        "note": "Germany (MTU) — license; no indigenous alternative yet (GTRE Kaveri derivative not ready)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Transmission (Renk)",
+        "severity": "High",
+        "note": "Germany (Renk) — license",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Fire control computer components",
+        "severity": "Medium",
+        "note": "Industry-typical — partially indigenous",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Thermal imaging sights",
+        "severity": "Medium",
+        "note": "Israel / France historically; BEL-DRDO indigenous alternative in development",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO CVRDE — fully indigenous design",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "AVNL (Heavy Vehicles Factory, Avadi) — Indian PSU",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Engine + transmission German licence; armour + gun + FCS indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "124 Mk-I + 118 Mk-1A ordered; deployed Western sector",
+        "sources": [
+          "src-1",
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "No exports; 68.5-tonne weight may limit export appeal",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "zorawar-light-tank-def-001",
+      "k9-vajra-t-def-016"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "Why is the Arjun MBT so heavy?",
+      "answer": "The Arjun Mk-1A has a mass of 68.5 tonnes, making it one of the world's heaviest main battle tanks. The weight is driven by the Kanchan composite armour package (which provides enhanced protection but adds significant mass), the 120mm rifled gun, and the 1400 hp diesel engine + transmission. The high weight has raised logistical concerns about bridge-crossing and railway transport, particularly in the Western sector where the Arjun is deployed. The Indian Army has had to invest in specialised heavy-transport infrastructure for the Arjun.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What is the difference between Arjun Mk-I and Mk-1A?",
+      "answer": "The Arjun Mk-1A is an improved variant of the original Arjun Mk-I (124 delivered 2004-2020), incorporating 72 upgrades. The most significant upgrade is missile-firing capability from the main gun — the SAMHO (Semi-Active Missile Homing Over) laser-guided ATGM. Other upgrades include enhanced armour, advanced laser warning system, improved night-fighting capability, and updated fire control. The Indian Army ordered 118 Arjun Mk-1A in September 2021 for ₹6,500 crore.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "Does the Arjun fire missiles from its main gun?",
+      "answer": "Yes. The Arjun Mk-1A can fire the SAMHO (Semi-Active Missile Homing Over) laser-guided Anti-Tank Guided Missile from its 120mm rifled main gun. This gives the Arjun the ability to engage enemy tanks beyond the effective range of conventional tank gun ammunition. The SAMHO missile was developed by DRDO and successfully test-fired from the Arjun platform. This capability is a significant upgrade over the original Mk-I variant.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1974",
+      "event": "Arjun MBT programme sanctioned under CVRDE (DRDO)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "1996",
+      "event": "First Arjun prototype rolled out",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2004",
+      "event": "First Arjun Mk-I delivered to Indian Army",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020",
+      "event": "All 124 Arjun Mk-I delivered",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2021-09",
+      "event": "Arjun Mk-1A order placed (118 tanks, ₹6,500 cr); first deliveries",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Arjun Mk-1A regiment count in Indian Army not fully disclosed",
+    "Arjun Mk-II future variant not yet announced",
+    "Whether the 68.5-tonne weight has constrained operational deployment in certain terrains"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Arjun (tank)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arjun_(tank)",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Comprehensive Arjun MBT specifications and Indian programme history"
+    },
+    {
+      "id": "src-2",
+      "title": "Arjun MBT Mk-1A — DRDO CVRDE design",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/CVRDE/English/Index.jsp?pg=117",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "DRDO CVRDE Arjun design context — domain root only"
+    },
+    {
+      "id": "src-3",
+      "title": "Army gets first Arjun Mk-1A tanks",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/army-gets-first-arjun-mk-1a-tanks/article65570119.ece",
+      "published_date": "2021-09-07",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "First Arjun Mk-1A delivery September 2021"
+    },
+    {
+      "id": "src-4",
+      "title": "Operation Sindoor proved Akash and BrahMos missiles — Rajnath Singh",
+      "publisher": "India Sentinels",
+      "url": "https://www.indiasentinels.com/defence-ministry/operation-sindoor-proved-akash-and-brahmos-missiles-says-rajnath-singh-as-drdo-opens-advanced-weapon-system-complex-in-hyderabad-7437",
+      "published_date": "2026-06-12",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Arjun Mk-1A in Operation Sindoor context"
+    }
+  ],
+  "seo": {
+    "title": "Arjun Main Battle Tank Mk-1A — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "India's indigenous 3rd-generation main battle tank; 118 ordered (₹6,500 cr, 2021); DRDO CVRDE design; 1400 hp diesel engine (Germany MTU licence); 120mm rifled ",
+    "canonical_path": "/research/pillars/defence/entity/arjun-mbt-mk-1a-def-017/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

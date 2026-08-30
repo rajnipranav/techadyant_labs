@@ -1,0 +1,94 @@
+{
+  "entity_id": "toray",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "toray",
+  "name": "Toray Industries",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Japanese materials major and the world's largest carbon-fibre producer (TORAYCA); supplies carbon-fibre and thermoset prepreg for aerospace composite airframes globally. No discrete India defence evidence — Tier C.",
+    "chips": [
+      "Tier C",
+      "Japan",
+      "TORAYCA",
+      "Carbon fibre",
+      "Prepreg",
+      "Composites"
+    ],
+    "country": "Japan",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign component/sub-system supplier — no standalone India footprint",
+    "mobility_or_class": "Component/sub-system supplier (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Toray Industries, Inc.",
+    "Ownership": "Public (TSE: 3402)",
+    "HQ": "Tokyo, Japan",
+    "Product_lines": "TORAYCA carbon fibre, thermoset/thermoplastic prepreg, composite materials",
+    "Relevance": "Raw carbon-fibre/prepreg feedstock for aerospace composite structures worldwide",
+    "Tier_C_reason": "Upstream materials supplier; no citable India defence programme"
+  },
+  "what_it_is": {
+    "prose": "Toray Industries is a Japanese materials major and the world's largest producer of carbon fibre, marketed as TORAYCA, and of aerospace-grade thermoset prepreg. Its carbon-fibre and prepreg feed composite airframe structures across the global aerospace industry (for example under long-term agreements with Boeing). As an upstream materials supplier its products may reach composite structures used in Indian programmes indirectly, but there is no discrete, publicly documented India defence contract to cite. Recorded as an honest Tier C materials-supplier card.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Carbon Fiber and Prepregs for the Defense Market",
+      "publisher": "Toray Composite Materials America (official)",
+      "url": "https://www.toraycma.com/markets/defense/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Toray defence carbon-fibre/prepreg product page"
+    },
+    {
+      "id": "src-2",
+      "title": "Toray Extends Comprehensive Agreement with Boeing to Supply Carbon Fiber TORAYCA Prepreg",
+      "publisher": "Toray Composite Materials America (official)",
+      "url": "https://www.toraycma.com/toray-extends-comprehensive-agreement-with-boeing-to-supply-carbon-fiber-torayca-prepreg/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Illustrative long-term aerospace prepreg supply agreement"
+    }
+  ],
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "seo": {
+    "title": "Toray Industries — Company · India Military Aerospace Atlas | Techadyant",
+    "canonical_path": "/research/military-aerospace/company/toray/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ],
+    "meta_description": "Japanese materials major and world's largest carbon-fibre producer (TORAYCA); aerospace prepreg supplier with no discrete India defence evidence. Tier C."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "drn-0030",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "drn-0030",
+  "name": "Solar Industries loitering",
+  "variant": "Solar loitering",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Solar Industries loitering — Operational status drone platform.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "See manufacturer dossier",
+    "country": "Mixed",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Name": "Solar Industries loitering",
+    "Status": "Operational",
+    "Variant": "Solar loitering"
+  },
+  "what_it_is": {
+    "prose": "Solar Industries loitering and precision systems.",
+    "sources": []
+  },
+  "open_questions": [
+    "Primary India service source",
+    "Manufacturer verification"
+  ],
+  "sources": [
+    {
+      "id": "src-p1",
+      "title": "Solar Industries loitering",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Initial placeholder from live hub mapping."
+    }
+  ],
+  "seo": {
+    "title": "Solar Industries loitering — Platform · India Drones-UAS Atlas | Techadyant",
+    "meta_description": "Solar Industries loitering platform dossier in the India Drones-UAS Atlas.",
+    "canonical_path": "/research/drones-uas/platform/drn-0030/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/platform/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

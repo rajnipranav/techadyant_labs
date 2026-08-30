@@ -1,0 +1,437 @@
+{
+  "entity_id": "atl-cmp-data-patterns-india-ltd-mfr-094",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "data-patterns-india-ltd-mfr-094",
+  "name": "Data Patterns (India) Ltd",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/data-patterns-india-ltd-mfr-094/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Data Patterns (India) Ltd is a vertically integrated defence and aerospace electronics solutions provider headquartered in Siruseri, Chennai. The company is one of the fastest-growing companies in the",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Siruseri, Chennai, Tamil Nadu, India",
+    "Type": "Manufacturer (listed)",
+    "Founded": "Data Patterns (India) Ltd incorporated in 1998; rapid growth as defence electronics OEM over past two decades",
+    "India entity": null,
+    "Listed": "Listed — NSE:DATAPATTNS / BSE:543428 (IPO December 2021); market cap ~₹25,891 Cr; share price ~₹4,625 (Aug 2026)",
+    "Key India role": "Data Patterns (India) Ltd is a vertically integrated defence and aerospace electronics solutions provider headquartered in Siruseri, Chennai. The company is one of the fastest-growing companies in the"
+  },
+  "what_it_is": {
+    "prose": "Data Patterns (India) Ltd is a vertically integrated defence and aerospace electronics solutions provider headquartered in Siruseri, Chennai. The company is one of the fastest-growing companies in the defence and aerospace electronics sector in India. Expertise includes radar and radar subsystems, electronic warfare (EW), rugged displays, fire control systems, launch vehicle check-outs, data buoys, satellite and launch vehicle electronics, and IFF systems. Data Patterns won a ₹27 crore DRDO order for next-generation wideband EW receivers configurable for naval, land and aerial platforms (LinkedIn/Raksha Anirveda). The company is also expanding electronic warfare capabilities with focus on naval ELINT systems and upgrades for India's MiG-29 fleet. Data Patterns is a vertically integrated OEM — handles design, development, manufacturing and testing in-house. Listed on NSE:DATAPATTNS and BSE:543428 with market cap ~₹25,891 Cr (Aug 2026).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "10 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Radar and Radar Subsystems",
+        "role": "OEM",
+        "india_status": "including naval, land and aerial platforms",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Electronic Warfare (EW) systems",
+        "role": "OEM",
+        "india_status": "wideband EW receivers, ECM, ESM, direction finding, spectrum monitoring",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Naval ELINT (Electronic Intelligence) systems",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Rugged displays for military platforms",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Fire control systems",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Launch vehicle check-outs",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Data buoys",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Satellite and launch vehicle electronics",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "IFF (Identification Friend or Foe) systems",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "MiG-29 fleet upgrades (EW capabilities)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "4 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "Data Patterns won ₹27 crore DRDO order for new programme — next-generation wideband EW receivers configurable for naval, land and aerial platforms",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Data Patterns expanding electronic warfare capabilities with focus on naval ELINT systems and upgrades for India's MiG-29 fleet (per Indian Defence Time)",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Data Patterns emerged as key player in building 'brains, eyes and warning systems' for fighter jets and defence platforms (21 March 2026, IDRW)",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Data Patterns listed on NSE and BSE in December 2021 (NSE:DATAPATTNS / BSE:543428)",
+        "year": "2021",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "10 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "Medium",
+        "note": "1 official, 5 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "Where is Data Patterns (India) Ltd headquartered?",
+      "answer": "Data Patterns (India) Ltd is a vertically integrated defence and aerospace electronics solutions provider headquartered in Siruseri, Chennai.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "On which stock exchanges is Data Patterns listed?",
+      "answer": "Data Patterns (India) Ltd is a vertically integrated defence and aerospace electronics solutions provider headquartered in Siruseri, Chennai.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is Data Patterns' area of expertise?",
+      "answer": "Data Patterns (India) Ltd is a vertically integrated defence and aerospace electronics solutions provider headquartered in Siruseri, Chennai.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the value of Data Patterns' DRDO order for wideband EW receivers?",
+      "answer": "Data Patterns won a ₹27 crore DRDO order for next-generation wideband EW receivers configurable for naval, land and aerial platforms (LinkedIn/Raksha Anirveda).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which Indian fighter jet fleet's EW upgrades is Data Patterns working on?",
+      "answer": "Data Patterns (India) Ltd is a vertically integrated defence and aerospace electronics solutions provider headquartered in Siruseri, Chennai.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Data Patterns (India) Ltd — vertically integrated Defence and Aerospace electronics solutions provider; radar and radar subsystems",
+      "publisher": "Data Patterns Official",
+      "url": "https://www.datapatternsindia.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "Data Patterns Electronic Warfare lineup — state-of-the-art integrated solutions for spectrum monitoring, wideband searching, ECM & ESM, direction finding",
+      "publisher": "Data Patterns Official",
+      "url": "https://www.datapatternsindia.com/product/product.php?catid=5",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Data Patterns pursues mission-critical domains — radars and radar subsystems, electronic warfare, rugged displays, fire control systems (21 March 2026)",
+      "publisher": "IDRW",
+      "url": "https://idrw.org/data-patterns-india-emerges-as-key-player-in-building-brains-eyes-and-warning-systems-for-fighter-jets-and-defence-platforms",
+      "published_date": "2026-03-21",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Data Patterns won ₹27 crore DRDO order for next-generation wideband EW receivers configurable for naval, land and aerial platforms",
+      "publisher": "LinkedIn",
+      "url": "https://www.linkedin.com/pulse/data-patterns-wins-rs-27-crores-order-from-drdo-",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "Data Patterns ₹27 crore DRDO order for EW units — new programme for next-gen wideband EW receivers for naval, land and aerial platforms",
+      "publisher": "Raksha Anirveda",
+      "url": "https://raksha-anirveda.com/big-win-data-patterns-bags-rs-27-crore-drdo-order-for-ew-units/",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Data Patterns expanding electronic warfare capabilities with focus on naval ELINT systems and upgrades for India's MiG-29 fleet",
+      "publisher": "Indian Defence Time (Facebook)",
+      "url": "https://www.facebook.com/indiandefencetime/posts/data-patterns-is-expanding-its-electronic-warfare-capabilities-with-a-focus-on-n/1032635803001222",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Data Patterns (India) Ltd — fastest-growing company in Defence and Aerospace Electronics sector in India; BSE NSE; market cap ₹25,891 Cr; current price ₹4,625",
+      "publisher": "Screener",
+      "url": "https://www.screener.in/company/DATAPATTNS",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Data Patterns (India) Limited — defence and aerospace electronics company; HQ Siruseri, Chennai; listed on NSE and BSE",
+      "publisher": "Ventura Securities",
+      "url": "https://www.venturasecurities.com/invest/stocks/data-patterns-india-ltd-share-price",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Data Patterns expertise includes radar, electronic warfare, rugged displays, fire control systems, launch vehicle check-outs, data buoys, satellite and launch vehicle electronics",
+      "publisher": "LinkedIn",
+      "url": "https://in.linkedin.com/company/data-patterns-india-ltd",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "Data Patterns listed on NSE; BSE as 543428; share price ~₹4,621 (Aug 2026)",
+      "publisher": "Trendlyne",
+      "url": "https://trendlyne.com/equity/755079/DATAPATTNS/data-patterns-india-ltd",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Data Patterns (India) Ltd — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Data Patterns (India) Ltd company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/data-patterns-india-ltd-mfr-094/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/data-patterns-india-ltd-mfr-094/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "entity_id": "an32",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "an32",
+  "name": "Antonov An-32 (RE)",
+  "variant": "An-32RE",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/platform/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Ukraine-origin twin-turboprop that is the IAF's medium-transport workhorse — roughly 100 airframes inducted from 1984; a $400M Antonov re-engine/avionics upgrade (RE standard) stalled after 2014–15 and is now pursued via indigenous overhaul to keep the fleet flying toward 2040.",
+    "chips": [
+      "A",
+      "Transport",
+      "Medium airlift",
+      "Antonov (Ukraine)",
+      "Re-engine saga",
+      "Kanpur BRD"
+    ],
+    "maker": "Antonov (Ukraine, ex-USSR); IAF No. 1 Base Repair Depot, Kanpur — India overhaul",
+    "country": "Ukraine",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign-origin airframe; upgrade/overhaul being indigenised",
+    "mobility_or_class": "Twin-turboprop medium tactical transport (~6.7–7.5 t payload)",
+    "operational_domains": [
+      "air",
+      "land"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Antonov (Ukraine, ex-Soviet)",
+    "Fleet": "~100+ in IAF service (largest medium-transport fleet)",
+    "Induction": "From 1984",
+    "Engine": "Two Ivchenko-Progress AI-20D turboprops",
+    "Payload": "~6.7–7.5 tonnes / up to 50 troops / 42 paratroopers",
+    "Upgrade_contract": "$400 million Antonov RE upgrade (2009) — 40 in Ukraine + 64 at Kanpur BRD",
+    "Upgrade_status": "Stalled after 2014–15 (Crimea/Russia-Ukraine war); resumed via indigenous route",
+    "Life_extension_goal": "Overhaul of at least ~60 airframes to keep fleet flying toward 2040",
+    "Overhaul_site": "IAF No. 1 Base Repair Depot, Kanpur (with private Indian firms)",
+    "Key_role": "Himalayan Advanced Landing Grounds — Ladakh, Arunachal; HADR, para-drop"
+  },
+  "what_it_is": {
+    "prose": "The Antonov An-32 is a Ukraine-origin (ex-Soviet) twin-turboprop medium transport that has been the Indian Air Force's tactical-airlift workhorse since induction began in 1984. The IAF operates roughly 100 or more airframes, prized for 'hot-and-high' performance from Himalayan Advanced Landing Grounds in Ladakh and Arunachal Pradesh, and used for troop and cargo transport, para-drop, medical evacuation and HADR. The aircraft is powered by two Ivchenko-Progress AI-20D turboprops and carries about 6.7–7.5 tonnes or up to 50 troops. To modernise the ageing fleet, India signed a roughly $400 million upgrade contract with Antonov of Ukraine in 2009 to bring aircraft to the 'An-32RE' standard — new avionics, navigation, refurbished airframes and improved cockpit — with about 40 aircraft overhauled in Ukraine and a further ~64 at the IAF's No. 1 Base Repair Depot (BRD) in Kanpur under transfer of technology. The programme faltered after 2014–15 as Russia's annexation of Crimea and the wider Russia-Ukraine conflict disrupted the supply chain from Ukraine; only the first tranche of RE aircraft was completed. India has since shifted toward an indigenous overhaul and life-extension route — structural refurbishment, AI-20 engine overhauls, digital avionics/GPS and indigenous spares — carried out by Kanpur BRD together with private Indian firms, aiming to keep at least ~60 airframes flying toward 2040 amid persistent serviceability challenges (a 2017 CAG report cited availability around 40%). The fleet has also suffered several fatal crashes over its service life, keeping replacement (via the Medium Transport Aircraft programme) on the agenda.",
+    "sources": [
+      "src-theprint",
+      "src-gs-2011",
+      "src-wion",
+      "src-defencein-2040"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The IAF inducted the An-32 from 1984 and operates ~100+ aircraft. A $400M Antonov RE upgrade (2009) split between Ukraine and Kanpur BRD stalled after 2014–15 due to the Russia-Ukraine conflict; India now pursues indigenous overhaul and life extension toward 2040, while the fleet remains a candidate for replacement under the MTA programme.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "Induction of An-32 medium transport",
+        "year": 1984,
+        "quantity_or_note": "~100+ airframes acquired from Antonov (Ukraine/ex-USSR)",
+        "sources": [
+          "src-wion"
+        ]
+      },
+      {
+        "agency": "Indian Air Force / Antonov (Ukraine)",
+        "context": "An-32RE upgrade programme contract",
+        "year": 2009,
+        "quantity_or_note": "~$400 million; ~40 upgraded in Ukraine + ~64 at Kanpur No. 1 BRD; first RE aircraft inducted 2011",
+        "sources": [
+          "src-gs-2011",
+          "src-theprint"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Upgrade stalled by Russia-Ukraine conflict",
+        "year": 2015,
+        "quantity_or_note": "Post-2014/15 supply disruption from Ukraine halts the RE programme mid-stream",
+        "sources": [
+          "src-theprint"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (Kanpur BRD + private firms)",
+        "context": "Indigenous overhaul / life extension toward 2040",
+        "year": "2023–",
+        "quantity_or_note": "At least ~60 airframes targeted for overhaul; digital avionics, AI-20 engine overhaul, indigenous spares",
+        "sources": [
+          "src-defencein-2040"
+        ]
+      }
+    ],
+    "open_questions": [
+      "How many An-32 were actually completed to full RE standard before the programme stalled is not clearly disclosed.",
+      "Firm scope, cost and schedule of the indigenous overhaul/life-extension programme are not publicly detailed.",
+      "Whether any re-engining (vs airframe/avionics overhaul only) will proceed given AI-20 dependency on Ukraine."
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The An-32 is fundamentally dependent on Ukraine (Antonov design authority, Ivchenko-Progress AI-20 engines and spares) — a dependency severely disrupted by the Russia-Ukraine war, driving India's shift to indigenous overhaul.",
+    "items": [
+      {
+        "component": "Airframe design authority & OEM support",
+        "severity": "Critical",
+        "note": "Antonov (Ukraine) — original design house; wartime disruption has cut OEM support and spares.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-theprint"
+        ]
+      },
+      {
+        "component": "Ivchenko-Progress AI-20 engines & spares",
+        "severity": "Critical",
+        "note": "Ukraine — engine supply and overhaul disrupted by the conflict; no Indian production.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-defencein-2040"
+        ]
+      },
+      {
+        "component": "RE-standard avionics/navigation kits",
+        "severity": "High",
+        "note": "Sourced via Ukraine for the RE upgrade; disruption forced a pivot to indigenous digital avionics.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-theprint"
+        ]
+      },
+      {
+        "component": "General spares",
+        "severity": "High",
+        "note": "Serviceability (~40%, 2017 CAG) hit by spares shortages; India developing indigenous spares at Kanpur BRD.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-defencein-2040"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 0,
+        "note": "Antonov (Ukraine) — fully foreign design; no Indian design authority.",
+        "sources": [
+          "src-wion"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 1,
+        "note": "Airframes imported; India performs overhaul/upgrade at Kanpur BRD, not new production.",
+        "sources": [
+          "src-gs-2011"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "Engines and OEM spares depend on Ukraine; indigenous avionics and spares emerging under the overhaul route.",
+        "sources": [
+          "src-defencein-2040"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "~100+ airframes — the IAF's largest medium-transport fleet.",
+        "sources": [
+          "src-wion"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 0,
+        "note": "Legacy foreign-origin fleet in sustainment/upgrade; no export dimension.",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "c295",
+      "c130j",
+      "c390",
+      "il76"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/military-aerospace/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "1984",
+      "event": "IAF begins inducting the An-32 medium transport.",
+      "sources": [
+        "src-wion"
+      ]
+    },
+    {
+      "date": "2009",
+      "event": "~$400M An-32RE upgrade contract signed with Antonov (Ukraine).",
+      "sources": [
+        "src-gs-2011"
+      ]
+    },
+    {
+      "date": "2011",
+      "event": "First upgraded An-32RE aircraft inducted.",
+      "sources": [
+        "src-gs-2011"
+      ]
+    },
+    {
+      "date": "2015",
+      "event": "RE upgrade stalls as Russia-Ukraine conflict disrupts the Ukrainian supply chain.",
+      "sources": [
+        "src-theprint"
+      ]
+    },
+    {
+      "date": "2023",
+      "event": "IAF pursues indigenous overhaul/life extension to keep the fleet flying toward 2040.",
+      "sources": [
+        "src-defencein-2040"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How many An-32 does the IAF operate and when were they inducted?",
+      "answer": "The Indian Air Force operates roughly 100 or more An-32 airframes, its largest medium-transport fleet, with induction beginning in 1984. The Ukraine-origin twin-turboprop is valued for 'hot-and-high' operations from Himalayan Advanced Landing Grounds in Ladakh and Arunachal Pradesh.",
+      "sources": [
+        "src-wion",
+        "src-theprint"
+      ]
+    },
+    {
+      "question": "What happened to the An-32 re-engine/upgrade programme?",
+      "answer": "India signed a roughly $400 million contract with Antonov of Ukraine in 2009 to upgrade aircraft to the 'An-32RE' standard — about 40 in Ukraine and 64 at the IAF's No. 1 Base Repair Depot in Kanpur. The first RE aircraft entered service in 2011, but the programme stalled after 2014–15 when Russia's annexation of Crimea and the Russia-Ukraine war disrupted the Ukrainian supply chain, leaving it incomplete.",
+      "sources": [
+        "src-theprint",
+        "src-gs-2011"
+      ]
+    },
+    {
+      "question": "How will the An-32 fleet be kept in service?",
+      "answer": "With the OEM route disrupted, the IAF has shifted to an indigenous overhaul and life-extension effort — structural refurbishment, AI-20 engine overhauls, digital avionics/GPS and indigenous spares — run by Kanpur Base Repair Depot with private Indian firms, aiming to keep at least ~60 airframes flying toward 2040, while a longer-term replacement is pursued under the Medium Transport Aircraft (MTA) programme.",
+      "sources": [
+        "src-defencein-2040"
+      ]
+    }
+  ],
+  "open_questions": [
+    "How many An-32 were completed to full RE standard before the programme stalled.",
+    "Firm scope, cost and schedule of the indigenous overhaul/life-extension programme.",
+    "Whether any re-engining will proceed given AI-20 engine dependency on Ukraine."
+  ],
+  "sources": [
+    {
+      "id": "src-theprint",
+      "title": "Yet another AN-32 crash. Replacement of ageing fleet planned since mid-2000s could see movement soon",
+      "publisher": "ThePrint",
+      "url": "https://theprint.in/defence/yet-another-an-32-crash-replacement-of-aging-fleet-planned-since-mid-2000s-could-see-movement-soon/2959062/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "~100 An-32 from 1984; 2009 $400M upgrade for 105 aircraft (40 Ukraine + 64 Kanpur); stalled 2015 by Russia-Ukraine war; MTA replacement 18–30 t revived 2022."
+    },
+    {
+      "id": "src-gs-2011",
+      "title": "Indian Air Force inducts upgraded Antonov-32 airlift aircraft",
+      "publisher": "GlobalSecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/india/2011/india-110609-irna02.htm",
+      "published_date": "2011-06-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "First four An-32RE inducted 2011; ~40 upgraded in Ukraine + 64 at Kanpur No. 1 BRD with ToT; cockpit/avionics/noise upgrades; life extension 25–40 years."
+    },
+    {
+      "id": "src-wion",
+      "title": "Antonov An-32: Rugged backbone of the Indian Air Force's transport fleet",
+      "publisher": "WION",
+      "url": "https://www.wionews.com/india-news/antonov-an-32-rugged-backbone-of-the-indian-air-force-s-transport-fleet-1781361031921",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Soviet-origin, IAF service from 1984; AI-20 engines; up to 7.5 t / 50 troops; hot-and-high ALG operations in Ladakh/Arunachal; $400M upgrade split Ukraine/Kanpur."
+    },
+    {
+      "id": "src-defencein-2040",
+      "title": "IAF's Soviet-Era An-32 Transport Aircraft to Fly Until 2040 with Major Indigenous Overhaul by Private-Public Sector",
+      "publisher": "Defence.in",
+      "url": "https://defence.in/threads/iafs-soviet-era-an-32-transport-aircraft-to-fly-until-2040-with-major-indigenous-overhaul-by-private-public-sector.14780/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "~100 airframes, at least ~60 to be overhauled; digital avionics, AI-20 engine overhaul, indigenous spares; Kanpur BRD + private firms; 2017 CAG serviceability ~40%; target fly to 2040."
+    }
+  ],
+  "seo": {
+    "title": "Antonov An-32 (RE) — Platform · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Ukraine-origin An-32 is the IAF's medium-transport workhorse (~100+ from 1984); the $400M RE re-engine/upgrade stalled after 2014–15, now pursued via indigenous overhaul toward 2040.",
+    "canonical_path": "/research/military-aerospace/platform/an32/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/platform/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/"
+    ]
+  }
+}

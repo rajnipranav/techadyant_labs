@@ -1,0 +1,226 @@
+{
+  "entity_id": "iaf",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "iaf",
+  "name": "Indian Air Force",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's air arm and the operator/customer of the country's military-airlift fleet — heavy-lift Il-76 'Gajraj', US C-17 and C-130J, Ukraine-origin An-32 medium transports and Do-228 light transports — sustained through its own Base Repair Depots and increasingly via indigenous overhaul as Russia/Ukraine supply chains are strained.",
+    "chips": [
+      "B",
+      "Operator",
+      "IAF",
+      "Transport & airlift",
+      "Maintenance Command",
+      "BRDs"
+    ],
+    "maker": "Government of India (Ministry of Defence)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Operator/customer; airlift fleet is a mix of foreign-origin platforms sustained increasingly via indigenous overhaul",
+    "mobility_or_class": "Armed force / fleet operator (no platform class)",
+    "operational_domains": [
+      "air",
+      "land",
+      "space"
+    ]
+  },
+  "at_a_glance": {
+    "Full_name": "Indian Air Force (Bharatiya Vayu Sena)",
+    "Role_here": "Operator and customer of the military-aerospace transport & airlift fleet",
+    "Ministry": "Ministry of Defence, Government of India",
+    "Heavy_lift": "Ilyushin Il-76MD 'Gajraj' (~17 acquired 1985–89), Boeing C-17 Globemaster III (11)",
+    "Medium/tactical_lift": "Antonov An-32 (~100+ from 1984), Lockheed C-130J-30 Super Hercules",
+    "Light_transport": "Dornier Do-228, HS-748 (legacy)",
+    "Sustainment": "Maintenance Command Base Repair Depots — e.g. No.1 BRD Kanpur (An-32), No.3 BRD Chandigarh (Russian helicopters/transport)",
+    "Future": "Medium Transport Aircraft (MTA) programme to replace the ageing An-32 fleet"
+  },
+  "what_it_is": {
+    "prose": "The Indian Air Force (IAF) is India's air arm under the Ministry of Defence and is the operator and customer of the country's military-airlift fleet that this Atlas tracks. Its transport backbone spans strategic heavy-lift — the Russian-origin Ilyushin Il-76MD 'Gajraj' (about 17 acquired 1985–89, flown by No. 25 Squadron, Chandigarh) and eleven US Boeing C-17 Globemaster III — medium and tactical lift via roughly 100+ Ukraine-origin Antonov An-32 (inducted from 1984) and Lockheed Martin C-130J-30 Super Hercules, and light transport such as the Dornier Do-228. The Il-76 airframe also underpins the IAF's Il-78MKI aerial-refuelling tankers and A-50EI 'Phalcon' AWACS. The IAF sustains these fleets through its Maintenance Command and Base Repair Depots — No. 1 BRD at Kanpur overhauls the An-32, while No. 3 BRD at Chandigarh handles Russian-origin transport and helicopter overhaul. Because the An-32 (Ukraine) and Il-76 (Russia) supply chains have been badly disrupted by the Russia-Ukraine war, the IAF has been driving indigenous overhaul, indigenised spares and digital-avionics life-extension to keep these fleets flying, while pursuing the Medium Transport Aircraft (MTA) programme to eventually replace the An-32.",
+    "sources": [
+      "src-iaf-mc",
+      "src-bharatshakti",
+      "src-gs-transport",
+      "src-mta-rfp"
+    ]
+  },
+  "variant": "Operator / customer",
+  "deployments_procurement": {
+    "summary": "The IAF operates a mixed strategic/tactical airlift fleet — Il-76 'Gajraj' and C-17 for heavy lift, An-32 and C-130J for tactical lift, Do-228 for light transport. It sustains these through its Base Repair Depots and is moving toward indigenous overhaul and life-extension of the Russian/Ukrainian-origin fleets, with the MTA programme intended to replace the An-32.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "Strategic heavy-lift fleet",
+        "year": "1985–",
+        "quantity_or_note": "~17 Il-76MD 'Gajraj' (1985–89) + 11 Boeing C-17 Globemaster III",
+        "sources": [
+          "src-gs-transport"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Medium/tactical airlift fleet",
+        "year": "1984–",
+        "quantity_or_note": "~100+ Antonov An-32 (from 1984) + Lockheed C-130J-30 Super Hercules",
+        "sources": [
+          "src-bharatshakti",
+          "src-gs-transport"
+        ]
+      },
+      {
+        "agency": "Indian Air Force — Maintenance Command",
+        "context": "In-house fleet sustainment via Base Repair Depots",
+        "year": null,
+        "quantity_or_note": "No.1 BRD Kanpur (An-32 overhaul); No.3 BRD Chandigarh (Russian helicopters/transport)",
+        "sources": [
+          "src-iaf-mc"
+        ]
+      },
+      {
+        "agency": "Indian Air Force / MoD",
+        "context": "Medium Transport Aircraft (MTA) programme to replace An-32",
+        "year": null,
+        "quantity_or_note": "RFP-stage competition for a new medium airlifter",
+        "sources": [
+          "src-mta-rfp"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Precise current serviceable strength of the An-32 and Il-76 fleets varies across sources.",
+      "Timeline and downselect for the MTA programme to replace the An-32 are not finalised."
+    ]
+  },
+  "import_dependencies": {
+    "summary": "As operator, the IAF inherits the import dependencies of its foreign-origin fleets: Ukraine (Antonov airframe design authority, Ivchenko-Progress AI-20 engines for the An-32) and Russia (Ilyushin design authority, Aviadvigatel D-30KP engines for the Il-76), both disrupted by the Russia-Ukraine war, plus US OEM support for the C-17/C-130J.",
+    "items": [
+      {
+        "component": "An-32 airframe support & AI-20 engines (Ukraine)",
+        "severity": "Critical",
+        "note": "Antonov / Ivchenko-Progress support disrupted by the war; driving indigenous overhaul at Kanpur BRD.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-iaf-mc"
+        ]
+      },
+      {
+        "component": "Il-76 airframe support & D-30KP engines (Russia)",
+        "severity": "Critical",
+        "note": "Ilyushin / Aviadvigatel support strained; PS-90 re-engine studied.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-gs-transport"
+        ]
+      },
+      {
+        "component": "C-17 / C-130J OEM sustainment (USA)",
+        "severity": "Medium",
+        "note": "Boeing/Lockheed Martin FMS-based support for the US-origin airlifters.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-bharatshakti"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/military-aerospace/"
+    ],
+    "referenced_by": [
+      "an32",
+      "il76",
+      "c17",
+      "c130j",
+      "c295"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What transport aircraft does the Indian Air Force operate?",
+      "answer": "The IAF's airlift fleet spans strategic heavy-lift — about 17 Ilyushin Il-76MD 'Gajraj' (acquired 1985–89) and 11 Boeing C-17 Globemaster III — tactical/medium lift via roughly 100+ Antonov An-32 (from 1984) and Lockheed C-130J-30 Super Hercules, and light transport such as the Dornier Do-228. The Il-76 airframe also underpins the Il-78MKI tankers and A-50EI Phalcon AWACS.",
+      "sources": [
+        "src-bharatshakti",
+        "src-gs-transport"
+      ]
+    },
+    {
+      "question": "How does the IAF maintain its ageing Soviet/Russian-origin transport fleet?",
+      "answer": "The IAF sustains these fleets through its Maintenance Command Base Repair Depots — No. 1 BRD at Kanpur overhauls the An-32 and No. 3 BRD at Chandigarh handles Russian-origin transport and helicopter overhaul. With Russia/Ukraine supply chains disrupted by the war, the IAF has pushed indigenous overhaul, indigenised spares and digital-avionics life-extension, while pursuing the Medium Transport Aircraft (MTA) programme to replace the An-32.",
+      "sources": [
+        "src-iaf-mc",
+        "src-mta-rfp"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-iaf-mc",
+      "title": "Maintenance Command",
+      "publisher": "Indian Air Force (official)",
+      "url": "https://indianairforce.nic.in/maintenance-command/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official IAF page describing Maintenance Command and its Base Repair Depots (1 BRD Kanpur — An-32; 3 BRD Chandigarh — Russian helicopters/transport)."
+    },
+    {
+      "id": "src-bharatshakti",
+      "title": "Wings Of Support: The Indian Air Force's Unflappable Transport Fleet",
+      "publisher": "Bharat Shakti",
+      "url": "https://bharatshakti.in/wings-of-support-the-indian-air-forces-unflappable-transport-fleet/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Overview of the IAF transport fleet — C-17, C-130J, Il-76, An-32, Do-228 and airlift roles."
+    },
+    {
+      "id": "src-gs-transport",
+      "title": "Transport Aircraft",
+      "publisher": "GlobalSecurity.org",
+      "url": "https://www.globalsecurity.org/military/world/india/air-force-equipment-transport.htm",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "IAF transport aircraft inventory and roles (Il-76 'Gajraj', An-32, C-17, C-130J, Do-228)."
+    },
+    {
+      "id": "src-mta-rfp",
+      "title": "India Issues RFP for $10.5bn Air Force transport jet competition",
+      "publisher": "Aerospace Global News",
+      "url": "https://aerospaceglobalnews.com/news/india-mta-rfp-transport-aircraft-contest/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Medium Transport Aircraft (MTA) programme to replace the An-32 fleet."
+    }
+  ],
+  "seo": {
+    "title": "Indian Air Force — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "The Indian Air Force operates and sustains India's military-airlift fleet — Il-76 'Gajraj', C-17, C-130J, An-32 and Do-228 — increasingly via indigenous overhaul as Russia/Ukraine supply chains are strained.",
+    "canonical_path": "/research/military-aerospace/company/iaf/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/",
+      "/research/military-aerospace/"
+    ]
+  }
+}

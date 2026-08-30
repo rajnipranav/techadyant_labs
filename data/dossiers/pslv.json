@@ -1,0 +1,142 @@
+{
+  "entity_id": "pslv",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "pslv",
+  "name": "PSLV (Polar Satellite Launch Vehicle)",
+  "variant": "PSLV",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "PSLV is ISRO's operational workhorse launcher, with 64 listed launches through January 2026.",
+    "chips": [
+      "A",
+      "India-relevant",
+      "Operational"
+    ],
+    "maker": "Indian Space Research Organisation (ISRO)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "space"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Indian Space Research Organisation (ISRO)",
+    "Country": "India",
+    "Status": "Operational",
+    "Launches_listed": "64 through Jan 2026",
+    "Role": "Workhorse launcher for EO, GSO, navigation and scientific missions"
+  },
+  "what_it_is": {
+    "prose": "ISRO lists 64 PSLV missions through PSLV-C62/EOS-N1 in January 2026 and describes PSLV as its workhorse launcher. The vehicle is used across Earth-observation, geostationary and navigation missions and has supported scientific and commercial payloads. The current mission list confirms that PSLV remains an active operational launcher. This dossier uses ISRO's own launcher and mission records rather than inferring future cadence from plans.",
+    "sources": [
+      "src-2",
+      "src-1",
+      "src-3",
+      "src-live"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-2",
+      "title": "List of PSLV Launches",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/PSLV_Launchers.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "64 listed PSLV launches through Jan 2026; PSLV operational."
+    },
+    {
+      "id": "src-1",
+      "title": "Launch Missions",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/LaunchMissions.html",
+      "published_date": "2026-07-31",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Current ISRO mission list."
+    },
+    {
+      "id": "src-3",
+      "title": "Launchers",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/ISRO_EN/Launchers.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "PSLV operational workhorse; LVM3 operational and human-rated path for Gaganyaan."
+    },
+    {
+      "id": "src-live",
+      "title": "Space Atlas directory",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/space/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Directory provenance only; never treated as official."
+    }
+  ],
+  "seo": {
+    "title": "PSLV (Polar Satellite Launch Vehicle) — Platform · India Space Atlas | Techadyant",
+    "meta_description": "PSLV is ISRO's operational workhorse launcher, with 64 listed launches through January 2026. Manufacturer: Indian Space Research Organisation.",
+    "canonical_path": "/research/space/entity/pslv/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/entity/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "How many launches?",
+      "answer": "64 listed through Jan 2026.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Role?",
+      "answer": "Workhorse launcher for multiple payload classes.",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "question": "Operational?",
+      "answer": "Yes.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-01-12",
+      "event": "PSLV-C62 / EOS-N1.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/space/entity/lvm3/"
+    ]
+  }
+}

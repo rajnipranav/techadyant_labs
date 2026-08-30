@@ -1,0 +1,381 @@
+{
+  "entity_id": "atl-cmp-bharat-forge-mfr-013",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "bharat-forge-mfr-013",
+  "name": "Bharat Forge Ltd",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/bharat-forge-mfr-013/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Bharat Forge Ltd, founded on 19 June 1961 by Nilkanthrao A. Kalyani, is the flagship company of the Kalyani Group and one of the world's largest forging companies by capacity. Headquartered in Pune, B",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Pune, Maharashtra, India",
+    "Type": "Manufacturer (listed)",
+    "Founded": "19 June 1961 (founded by Nilkanthrao A. Kalyani); Baba N. Kalyani is current Chairman & Managing Director",
+    "India entity": null,
+    "Listed": "Listed — NSE:BHARATFORG / BSE:500493; flagship company of the Kalyani Group; one of world's largest forging companies by capacity",
+    "Key India role": "Bharat Forge Ltd, founded on 19 June 1961 by Nilkanthrao A. Kalyani, is the flagship company of the Kalyani Group and one of the world's largest forging companies by capacity. Headquartered in Pune, B"
+  },
+  "what_it_is": {
+    "prose": "Bharat Forge Ltd, founded on 19 June 1961 by Nilkanthrao A. Kalyani, is the flagship company of the Kalyani Group and one of the world's largest forging companies by capacity. Headquartered in Pune, Bharat Forge manufactures automotive components, aerospace components, defence components and oil & gas components. Its wholly-owned defence subsidiary Kalyani Strategic Systems Ltd (KSSL) handles all artillery / missile programmes (Bharat-52, MArG 155-BR, ATAGS, KRAS JV with Rafael — see KSSL entry). On 3 January 2023, Bharat Forge announced a strategic partnership with General Atomics Aeronautical Systems Inc. (GA-ASI), a subsidiary of General Atomics (USA), to manufacture main landing gear components, subassemblies, and assemblies of remotely piloted aircraft (UAVs) in India — a major move to boost India's UAV manufacturing capabilities. The non-binding MoU was filed with exchanges on 5 January 2023. Bharat Forge's defence portfolio includes artillery howitzers (Bharat-52, MArG 155-BR), UAV landing gear (GA-ASI partnership), and missile systems (via KRAS).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "5 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Main landing gear components, subassemblies and assemblies for GA-ASI remotely piloted aircraft (UAVs)",
+        "role": "OEM",
+        "india_status": "strategic partnership announced 3 January 2023",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Artillery howitzers via wholly-owned subsidiary KSSL",
+        "role": "OEM",
+        "india_status": "Bharat-52, MArG 155-BR, ATAGS",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Missile systems via KRAS (51:49 JV with Rafael)",
+        "role": "OEM",
+        "india_status": "Spike ATGM parts, missile systems",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Forged components for aerospace, defence, automotive, oil & gas, power, rail, marine",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Specialty steel and high-performance forgings",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "4 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "GA-ASI announces strategic partnership with Bharat Forge on 3 January 2023 to manufacture UAV aerostructures (landing gear components, subassemblies, assemblies) in India",
+        "year": "2023",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Bharat Forge filed non-binding MoU with GA-ASI on 5 January 2023 — to manufacture main landing gear components for GA-ASI remotely piloted aircraft",
+        "year": "2023",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Bharat Forge's defence subsidiary KSSL secured first howitzer export order worth $155 million (November 2022) — India's first artillery export",
+        "year": "2022",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Bharat Forge (via KRAS) opened missile manufacturing facility with Israel's Rafael on 3 August 2017 — for Spike ATGM production",
+        "year": "2017",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "9 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "2 official, 6 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Bharat Forge founded?",
+      "answer": "Bharat Forge Ltd, founded on 19 June 1961 by Nilkanthrao A.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "On which stock exchanges is Bharat Forge listed?",
+      "answer": "Bharat Forge Ltd, founded on 19 June 1961 by Nilkanthrao A.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which US UAV major announced a strategic partnership with Bharat Forge in January 2023?",
+      "answer": "On 3 January 2023, Bharat Forge announced a strategic partnership with General Atomics Aeronautical Systems Inc.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What did the GA-ASI-Bharat Forge partnership entail?",
+      "answer": "On 3 January 2023, Bharat Forge announced a strategic partnership with General Atomics Aeronautical Systems Inc.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Who is the founder and current Chairman of Bharat Forge?",
+      "answer": "Bharat Forge Ltd, founded on 19 June 1961 by Nilkanthrao A.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which is Bharat Forge's wholly-owned defence subsidiary?",
+      "answer": "Its wholly-owned defence subsidiary Kalyani Strategic Systems Ltd (KSSL) handles all artillery / missile programmes (Bharat-52, MArG 155-BR, ATAGS, KRAS JV with Rafael — see KSSL entry).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "GA-ASI announces strategic partnership with Bharat Forge to manufacture aerostructures (3 Jan 2023) — main landing gear components, subassemblies and assemblies of remotely piloted aircraft",
+      "publisher": "GA-ASI Official",
+      "url": "https://www.ga-asi.com/ga-asi-announces-strategic-partnership-with-bharat-forge-to-manufacture-aerostructures",
+      "published_date": "2023-01-03",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "Bharat Forge entered into non-binding MoU with GA-ASI (5 Jan 2023) — manufacture main landing gear components for GA-ASI UAVs",
+      "publisher": "Bharat Forge Official",
+      "url": "https://www.bharatforge.com/assets/pdf/investors/notice/notice-05jan23.pdf",
+      "published_date": "2023-01-05",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Bharat Forge and GA-ASI partner to manufacture main landing gear components for advanced UAVs in India (3 Jan 2023)",
+      "publisher": "Swarajya",
+      "url": "https://swarajyamag.com/business/bharat-forge-general-atomics-partner-to-manufacture-key-components-for-advanced-uavs-in-india",
+      "published_date": "2023-01-03",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "GA-ASI and Bharat Forge India unveil UAV aerostructures deal (4 Jan 2023) — landing gear components for UAVs",
+      "publisher": "Aviation Week",
+      "url": "https://aviationweek.com/defense/supply-chain/ga-asi-bharat-forge-india-unveil-uav-aerostructures-deal",
+      "published_date": "2023-01-04",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "GA-ASI and Bharat Forge partnership (4 Jan 2023) — main landing gear components, subassemblies and assemblies for UAVs",
+      "publisher": "Livemint",
+      "url": "https://www.livemint.com/companies/news/general-atomics-bharat-forge-announce-partnership-to-manufacture-aerostructures-11672812299192.html",
+      "published_date": "2023-01-04",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Bharat Forge founded 19 June 1961 by Nilkanthrao A. Kalyani; Baba Kalyani current Chairman & MD; HQ Pune; Kalyani Group flagship",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bharat_Forge",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Bharat Forge — leading forging company in India since 1960; Baba N. Kalyani Chairman & MD",
+      "publisher": "Bharat Forge Official",
+      "url": "https://www.bharatforge.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-08",
+      "title": "Bharat Forge Ltd — Founded 1961; HQ Pune; Parent Group Kalyani Group; Listed on NSE and BSE",
+      "publisher": "Trendlyne",
+      "url": "https://trendlyne.com/equity/about/184/BHARATFORG/bharat-forge-ltd",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Bharat Forge is the Kalyani Group's first company, founded on 19 June 1961; manufactures automotive and defence components",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kalyani_Group",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Bharat Forge Ltd — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Bharat Forge Ltd company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/bharat-forge-mfr-013/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/bharat-forge-mfr-013/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "entity_id": "drishti-galaxeye",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "drishti-galaxeye",
+  "name": "Drishti (GalaxEye)",
+  "variant": "Mission Drishti — OptoSAR EO satellite",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Drishti is GalaxEye's Earth-observation satellite carrying the world's first OptoSAR payload — fusing optical and synthetic-aperture-radar imaging on one platform.",
+    "chips": [
+      "B",
+      "India-relevant",
+      "OptoSAR",
+      "Multi-sensor EO"
+    ],
+    "maker": "GalaxEye Space",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "India-developed (IIT Madras origin); no audited indigenous percentage disclosed",
+    "mobility_or_class": "Multi-sensor (optical + SAR) Earth-observation satellite",
+    "operational_domains": [
+      "space",
+      "civilian"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "GalaxEye Space (Bengaluru; IIT Madras origin)",
+    "Country": "India",
+    "Mission": "Mission Drishti",
+    "Payload": "OptoSAR — fused optical + synthetic-aperture-radar imaging",
+    "Claim": "World's first OptoSAR satellite; among India's largest privately built satellites",
+    "Launch": "Via SpaceX rideshare (2026)",
+    "Significance": "Dual-sensor imaging able to see through cloud/weather and in daylight"
+  },
+  "what_it_is": {
+    "prose": "Drishti is the maiden commercial Earth-observation satellite of GalaxEye, a Bengaluru-based deep-tech company that traces its origins to a student team at IIT Madras. Its headline technology is 'OptoSAR' — a payload that fuses optical imagery with synthetic-aperture radar (SAR) on a single satellite, combining SAR's all-weather, day-and-night, cloud-penetrating capability with the interpretability of optical images. GalaxEye describes Drishti as the world's first OptoSAR satellite and among the largest privately built satellites from India, launched on a SpaceX rideshare mission in 2026 under 'Mission Drishti'. The fused dataset targets applications such as agriculture, disaster response, infrastructure and defence-relevant monitoring where persistent, weather-independent imaging matters. This is an honest Tier B entry: the launch and world-first framing are well covered in credible press and the company's own material, but detailed on-orbit performance figures and the customer/order book remain thin, so specific resolution and contract figures are kept open.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Drishti is a commercial multi-sensor EO satellite launched on rideshare; GalaxEye markets fused optical+SAR data rather than selling the spacecraft.",
+    "rows": [
+      {
+        "agency": "GalaxEye Space",
+        "context": "Mission Drishti — maiden OptoSAR satellite launched on a SpaceX rideshare",
+        "year": 2026,
+        "quantity_or_note": "1 satellite",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Commercial / government EO users",
+        "context": "Fused optical+SAR imaging marketed for agriculture, disaster and monitoring use",
+        "year": null,
+        "quantity_or_note": "Data service",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "On-orbit spatial resolution and revisit figures from a primary source",
+      "Named customers and contract values",
+      "Constellation size beyond the first satellite"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "GalaxEye has not published a component sovereignty breakdown. Launch used a US provider (SpaceX); space-grade SAR/optical components and rad-tolerant electronics are potential import exposures.",
+    "items": [
+      {
+        "component": "Launch services",
+        "severity": "Medium",
+        "note": "Drishti launched on SpaceX rideshare (US), not an Indian launcher",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Space-grade SAR/optical payload electronics",
+        "severity": "Medium",
+        "note": "Sourcing not publicly disclosed",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "peer_systems": [
+      "firefly-constellation",
+      "scot-digantara"
+    ],
+    "related_pillars": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is OptoSAR?",
+      "answer": "A payload that fuses optical and synthetic-aperture-radar imaging on one satellite, combining SAR's all-weather capability with optical interpretability.",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "question": "Why is Drishti notable?",
+      "answer": "GalaxEye describes it as the world's first OptoSAR satellite and among the largest privately built satellites from India.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "Who built it?",
+      "answer": "GalaxEye Space, a Bengaluru deep-tech company with IIT Madras origins.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "GalaxEye Successfully Launches 'Mission Drishti' OptoSAR Satellite",
+      "publisher": "SatNews",
+      "url": "https://satnews.com/2026/05/03/galaxeye-successfully-launches-mission-drishti-optosar-satellite/",
+      "published_date": "2026-05-03",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Launch of Mission Drishti OptoSAR satellite via SpaceX rideshare."
+    },
+    {
+      "id": "src-2",
+      "title": "This Bengaluru startup just launched world's first OptoSAR satellite. It started at IIT Madras",
+      "publisher": "ThePrint",
+      "url": "https://theprint.in/science/bengaluru-startup-galaxeye-space-world-first-optosar-satellite/2921482/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "World-first OptoSAR framing; GalaxEye IIT Madras origins."
+    },
+    {
+      "id": "src-3",
+      "title": "Drishti Constellation (GalaxEye)",
+      "publisher": "eoPortal (ESA)",
+      "url": "https://www.eoportal.org/satellite-missions/galaxeye",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Reference entry on GalaxEye Drishti mission and OptoSAR concept."
+    },
+    {
+      "id": "src-4",
+      "title": "GalaxEye Launches Maiden OptoSAR Satellite Under 'Mission Drishti'",
+      "publisher": "Inc42",
+      "url": "https://inc42.com/buzz/galaxeye-launches-maiden-optosar-satellite-under-mission-drishti/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Startup-press coverage of the Drishti launch."
+    },
+    {
+      "id": "src-5",
+      "title": "Mission Drishti | World's First OptoSAR EO Satellite",
+      "publisher": "GalaxEye",
+      "url": "https://galaxeye.space/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Company homepage — domain root only; Mission Drishti positioning."
+    }
+  ],
+  "seo": {
+    "title": "Drishti (GalaxEye) — Platform · India Space Atlas | Techadyant",
+    "meta_description": "Drishti — GalaxEye's Mission Drishti satellite carrying the world's first OptoSAR payload, fusing optical and SAR imaging on one Indian-built platform.",
+    "canonical_path": "/research/space/entity/drishti-galaxeye/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  }
+}

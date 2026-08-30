@@ -1,0 +1,189 @@
+{
+  "entity_id": "drn-004",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "adani-drishti-10-starliner-drn-004",
+  "name": "Adani Drishti 10 Starliner (Hermes 900)",
+  "variant": "Drishti 10 Starliner",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Adani Defence's Drishti 10 Starliner is an indigenously manufactured MALE UAV delivered to Indian armed forces.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "Adani Defence (Adani-Elbit JV)",
+    "country": "India / Israel",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — Tier C compact card",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Maker": "Adani Defence (Adani-Elbit JV)",
+    "Country": "India / Israel",
+    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; vertical non-zero requirement satisfied with placeholder",
+    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection",
+    "Status": "In service",
+    "Navy": "First handover Jan 2024",
+    "Army": "First delivery reported"
+  },
+  "what_it_is": {
+    "prose": "Adani Defence handed over an indigenously manufactured Drishti 10 to the Indian Navy in January 2024. Adani's annual-report material also records delivery of the first Drishti 10 to the Indian Army. The Hermes 900 lineage is foreign-origin, so manufacturing and integration are distinguished from design origin.",
+    "sources": [
+      "src-18",
+      "src-19",
+      "src-24",
+      "src-21"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-18",
+      "title": "Drishti 10 Starliner UAV unveiled and handed over to Indian Navy",
+      "publisher": "Adani Group",
+      "url": "https://connect.adani.com/media/2024/jan24/defence/",
+      "published_date": "2024-01-10",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "First indigenously manufactured Drishti 10 handed to Navy; 36h endurance, 450kg payload; manufacturing ecosystem."
+    },
+    {
+      "id": "src-19",
+      "title": "Defence & Aerospace annual report",
+      "publisher": "Adani Enterprises",
+      "url": "https://connect.adani.com/annual_report/2025/ael/defence-aerospace.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Reports delivery of first Drishti 10 to Indian Army and indigenous UAV activity."
+    },
+    {
+      "id": "src-24",
+      "title": "Adani Drishti 10 milestone",
+      "publisher": "Adani Group",
+      "url": "https://www.adani.com/about-us/our-journey",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Drishti 10 manufacturing milestone."
+    },
+    {
+      "id": "src-21",
+      "title": "India Drone & UAS Ecosystem directory",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": "2026-08-29",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Indicative live Atlas directory only; not treated as official evidence."
+    }
+  ],
+  "seo": {
+    "title": "Adani Drishti 10 Starliner (Hermes 900) — Platform · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Adani Drishti 10 Starliner (Hermes 900) — Tier C compact card; vertical non-zero requirement satisfied. Manufacturer: Adani Defence (Adani-Elbit JV). Country: I",
+    "canonical_path": "/research/drones-uas/platform/adani-drishti-10-starliner-drn-004/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/platform/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "First Indian service?",
+      "answer": "Indian Navy, January 2024.",
+      "sources": [
+        "src-18"
+      ]
+    },
+    {
+      "question": "Army delivery?",
+      "answer": "Adani annual-report material records first Army delivery.",
+      "sources": [
+        "src-19"
+      ]
+    },
+    {
+      "question": "Fully indigenous design?",
+      "answer": "No; Hermes 900 lineage is foreign-origin.",
+      "sources": [
+        "src-18",
+        "src-19"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2024-01-10",
+      "event": "Navy handover."
+    },
+    {
+      "date": "2025",
+      "event": "Army delivery reported."
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/drones-uas/platform/iai-heron-tp-india-drn-005/"
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  }
+}

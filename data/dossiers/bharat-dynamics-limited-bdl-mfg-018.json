@@ -1,0 +1,380 @@
+{
+  "entity_id": "mfg-018",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "bharat-dynamics-limited-bdl-mfg-018",
+  "name": "Bharat Dynamics Limited",
+  "variant": "Miniratna Category-I PSU",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's flagship missile manufacturer; ₹26,176 crore order book end-FY26 (~10.6x FY26 revenue); prime production agency for Akash SAM, MR-SAM/LR-SAM (with IAI Israel), Astra Mk-1 BVRAAM, Konkurs-M, Milan-2T ATGMs; counter-drone system in exploration phase.",
+    "chips": [
+      "PSU",
+      "Miniratna",
+      "Missiles",
+      "Akash",
+      "MR-SAM",
+      "Astra",
+      "ATGMs",
+      "Torpedoes",
+      "Counter-UAS (exploration)"
+    ],
+    "maker": "PSU (Miniratna Category-I), under Ministry of Defence, Government of India",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Bharat Dynamics Limited",
+    "Ownership": "PSU (Miniratna Category-I), under Ministry of Defence, Government of India",
+    "HQ": "Plot No. 38-39, TSFC Building, Nanakramguda, Hyderabad, Telangana, India",
+    "Order_book": "₹26,176 crore as of 31 March 2026 (~10.6x FY26 revenue; +14% from ₹22,814 cr March 2025)",
+    "Revenue_FY26": "~₹2,442 crore from operations (−27% YoY)",
+    "CIN": "L24293TG1970GOI014247",
+    "Stock_listings": "BSE: 541143, NSE: BDL",
+    "FY26_PAT": "₹420 crore (−23% YoY)",
+    "Q4_FY26_revenue": "₹480 crore (−73% YoY)",
+    "Q4_FY26_PAT": "₹113.18 crore (−58.5% YoY)",
+    "FY26_new_orders": "₹5,909 crore",
+    "Manufacturing_units": "Kanchanbagh (Hyderabad), Bhanur (Medak, Telangana), Ibrahimpatnam (Telangana), Visakhapatnam (Andhra Pradesh)",
+    "Major_programmes": "Akash SAM, MR-SAM/LR-SAM (IAI), Astra Mk-1, Konkurs-M (Russia licence), Milan-2T (MBDA France licence), Varunastra torpedo, TAL lightweight torpedo, BrahMos canister integration, CMDS"
+  },
+  "what_it_is": {
+    "prose": "Bharat Dynamics Limited (BDL) is a Miniratna Category-I Public Sector Undertaking under the Ministry of Defence, Government of India, headquartered at Plot No. 38-39, TSFC Building, Nanakramguda, Hyderabad. Founded in 1970, BDL is India's flagship missile manufacturer and the prime production agency for the Akash Surface-to-Air Missile system, the MR-SAM/LR-SAM (co-developed with Israel Aerospace Industries), the Astra Mk-1 BVRAAM (DRDO-designed), and a portfolio of Anti-Tank Guided Missiles including the Konkurs-M and Invar (license from Russia's KBP Instrument Design Bureau) and the Milan-2T (license from MBDA France). BDL also produces naval munitions including the Varunastra heavyweight torpedo, the TAL lightweight torpedo (with a $14.33 million export order in 2023), and the Counter-Measures Dispensing System (CMDS) for the IAF and Indian Navy. BDL integrates BrahMos canister components for BrahMos Aerospace. As of 31 March 2026, BDL's order book stood at ₹26,176 crore (approximately 10.6x FY26 revenue, up 14% from ₹22,814 crore in March 2025), with FY26 new orders of ₹5,909 crore. For FY26, BDL reported revenue from operations of approximately ₹2,442 crore (down 27% YoY) and PAT of ₹420 crore (down 23% YoY). Q4 FY26 was particularly weak with revenue of ₹480 crore (down 73% YoY) and standalone PAT of ₹113.18 crore (down 58.5% YoY). BDL operates four manufacturing units: Kanchanbagh (Hyderabad), Bhanur (Medak, Telangana), Ibrahimpatnam (Telangana), and Visakhapatnam (Andhra Pradesh). A fifth unit at Jhansi (Uttar Pradesh) was announced in August 2021 with foundation stone laid, but its current status has not been updated in primary sources. In October 2024, BDL CMD Commodore A Madhavarao (Retd) confirmed in an IADB interview that BDL is 'Working on the development of... Counter Drone System' as part of its future roadmap, with a focus on hard-kill solutions. However, as of the BDL products page update on 24 August 2026, no counter-drone system is listed — see Atlas slug cus-060 (Tier C).",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7",
+      "src-8"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "BDL's order book stood at ₹26,176 crore as of 31 March 2026 (up 14% from ₹22,814 crore in March 2025), with FY26 new orders of ₹5,909 crore. Major programmes in production include the Akash SAM (~₹30,000+ crore aggregate orders across Army/IAF), MR-SAM/LR-SAM (~₹6,000 crore orders across Navy, Army, IAF), Astra Mk-1 BVRAAM for the Su-30MKI, Konkurs-M and Invar ATGMs (~₹5,000 crore lifetime orders), Milan-2T ATGM, Varunastra heavyweight torpedo, TAL lightweight torpedo ($14.33M export 2023), and CMDS. BDL integrates BrahMos canister components. FY26 financial performance was weak: revenue ~₹2,442 crore (down 27% YoY) and PAT ₹420 crore (down 23% YoY), with Q4 FY26 particularly weak (revenue ₹480 crore, down 73% YoY; PAT ₹113.18 crore, down 58.5% YoY).",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "Akash SAM contract",
+        "year": 2021,
+        "quantity_or_note": "₹499 crore (12 July 2021)",
+        "sources": [
+          "src-8"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Akash SAM contract",
+        "year": 2023,
+        "quantity_or_note": "₹3,000+ crore",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "agency": "Indian Navy + Army + IAF",
+        "context": "MR-SAM / LR-SAM (with IAI Israel)",
+        "year": null,
+        "quantity_or_note": "~₹6,000 crore aggregate orders",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (Su-30MKI)",
+        "context": "Astra Mk-1 BVRAAM production (DRDO-designed)",
+        "year": null,
+        "quantity_or_note": "Not disclosed",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Konkurs-M / Invar ATGM (Russia KBP licence)",
+        "year": null,
+        "quantity_or_note": "~₹5,000 crore lifetime orders",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "agency": "Indian Navy + export customer",
+        "context": "TAL lightweight torpedo export",
+        "year": 2023,
+        "quantity_or_note": "$14.33 million export order",
+        "sources": [
+          "src-7"
+        ]
+      }
+    ],
+    "open_questions": [
+      "FY26 revenue figure: ScanX ₹2,442 cr vs Trendlyne ₹2,866 cr — likely standalone vs consolidated; Atlas reports ₹2,442 cr (consolidated per ET/ScanX consensus)",
+      "BDL Counter-Drone System (cus-060): confirmed only as CMD interview exploration item; no product page on bdl-india.in",
+      "BDL Jhansi unit: foundation laid August 2021, current status not updated in primary sources"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
+    "items": [
+      {
+        "component": "Konkurs / Invar ATGM technology",
+        "severity": "High",
+        "note": "Russia (KBP Instrument Design Bureau) — license",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "component": "Milan-2T ATGM technology",
+        "severity": "High",
+        "note": "France (MBDA) — license",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "component": "MR-SAM / LR-SAM co-development",
+        "severity": "Medium",
+        "note": "Israel (IAI / Rafael) — co-produced with ToT",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "component": "BrahMos canister components",
+        "severity": "High",
+        "note": "Russia (NPOM) — BrahMos is JV",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "component": "Seeker components (RF, IIR)",
+        "severity": "Medium",
+        "note": "DRDO developing indigenous; some imported for MR-SAM — Israel",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "FPGA / IMU / telemetry",
+        "severity": "Medium",
+        "note": "USA / France",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "Akash, Astra, Varunastra, TAL = DRDO-designed, BDL-produced; Konkurs/Milan/MR-SAM = license",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "4 manufacturing units; Akash ~90%+ indigenous",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Konkurs, Milan, MR-SAM, BrahMos all imported tech; seekers partly imported",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "₹26,176 cr order book (~10.6x FY26 revenue)",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 3,
+        "note": "Akash, MRSAM, Varunastra, Konkurs in export portfolio; TAL $14.33M export 2023",
+        "sources": [
+          "src-7"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "bharat-dynamics-limited-bdl-counter-drone-cus-060",
+      "akash-ng-def-004",
+      "qrsam-def-005",
+      "mrsam-def-006"
+    ]
+  },
+  "open_questions": [
+    "FY26 revenue figure: ScanX ₹2,442 cr vs Trendlyne ₹2,866 cr — likely standalone vs consolidated; Atlas reports ₹2,442 cr (consolidated per ET/ScanX consensus)",
+    "BDL Counter-Drone System (cus-060): confirmed only as CMD interview exploration item; no product page on bdl-india.in",
+    "BDL Jhansi unit: foundation laid August 2021, current status not updated in primary sources"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Bharat Dynamics Q4 Results: Net profit tumbles 59% to Rs 113 crore; dividend announced",
+      "publisher": "Economic Times",
+      "url": "https://m.economictimes.com/markets/stocks/earnings/bharat-dynamics-q4-results-net-profit-tumbles-59-to-rs-113-crore-dividend-announced/articleshow/131370385.cms",
+      "published_date": "2026-05-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Q4 FY26 results"
+    },
+    {
+      "id": "src-2",
+      "title": "Bharat Dynamics shares tumble after weak Q4 earnings",
+      "publisher": "The Hindu BusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/bdl-q4-results-bharat-dynamics-shares-tumble-after-weak-q4-earnings-raise-execution-concerns/article71035969.ece",
+      "published_date": "2026-05-29",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Q4 FY26 results + execution concerns"
+    },
+    {
+      "id": "src-3",
+      "title": "BDL 2025-26 Q4 Financial Results",
+      "publisher": "Bharat Dynamics Limited",
+      "url": "https://bdl-india.in/bdl-2025-26-q4-financial-results",
+      "published_date": "2026-05-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "BDL official Q4 FY26 results"
+    },
+    {
+      "id": "src-4",
+      "title": "BDL Products",
+      "publisher": "Bharat Dynamics Limited",
+      "url": "https://bdl-india.in/products",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — BDL products page listing"
+    },
+    {
+      "id": "src-5",
+      "title": "BDL Company Profile",
+      "publisher": "Bharat Dynamics Limited",
+      "url": "https://bdl-india.in/company-profile",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — BDL company profile page"
+    },
+    {
+      "id": "src-6",
+      "title": "BDL financial results page",
+      "publisher": "Bharat Dynamics Limited",
+      "url": "https://bdl-india.in/financial-results",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — BDL financial results archive"
+    },
+    {
+      "id": "src-7",
+      "title": "Bharat Dynamics Limited",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bharat_Dynamics_Limited",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Aggregates credible sources"
+    },
+    {
+      "id": "src-8",
+      "title": "BDL signs contract to deliver Akash missiles to Indian Air Force",
+      "publisher": "Air Force Technology",
+      "url": "https://www.airforce-technology.com/news/bdl-signs-contract-to-deliver-akash-missiles-to-indian-air-force",
+      "published_date": "2021-07-12",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "BDL IAF Akash contract 2021"
+    }
+  ],
+  "seo": {
+    "title": "Bharat Dynamics Limited — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "India's flagship missile manufacturer; ₹26,176 crore order book end-FY26 (~10.6x FY26 revenue); prime production agency for Akash SAM, MR-SAM/LR-SAM (with IAI I",
+    "canonical_path": "/research/counter-uas/manufacturer/bharat-dynamics-limited-bdl-mfg-018/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is BDL's role in the Akash SAM programme?",
+      "answer": "Bharat Dynamics Limited is the prime production agency for the Akash Surface-to-Air Missile system, with aggregate orders exceeding ₹30,000 crore across the Indian Army and IAF. BDL signed a ₹499 crore contract with the IAF in July 2021 and a ₹3,000+ crore contract with the Indian Army in 2023. BEL produces the Rajendra radar and C4I components, while BDL assembles the missile. The Akash system was battle-proven during Operation Sindoor in May 2025.",
+      "sources": [
+        "src-4",
+        "src-8"
+      ]
+    },
+    {
+      "question": "Why did BDL's FY26 revenue decline 27%?",
+      "answer": "BDL reported FY26 revenue from operations of approximately ₹2,442 crore (down 27% YoY) and PAT of ₹420 crore (down 23% YoY). Q4 FY26 was particularly weak with revenue of ₹480 crore (down 73% YoY) and PAT of ₹113.18 crore (down 58.5% YoY). The decline reflects execution slippages and revenue timing on large missile contracts. However, the order book stood at ₹26,176 crore (~10.6x FY26 revenue) and FY26 new orders of ₹5,909 crore signal recovery visibility.",
+      "sources": [
+        "src-1",
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "question": "Does BDL have a counter-drone product?",
+      "answer": "Not yet. BDL CMD Commodore A Madhavarao (Retd) confirmed in an October 2024 IADB interview that BDL is 'Working on the development of... Counter Drone System' as part of its future roadmap, with a focus on hard-kill solutions. However, as of the BDL products page update on 24 August 2026, no counter-drone system is listed among BDL's product portfolio. The Atlas slug cus-060 (BDL Counter Drone V1) is therefore Tier C with noindex=true until a product is formally launched.",
+      "sources": [
+        "src-4"
+      ]
+    }
+  ]
+}

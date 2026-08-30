@@ -1,0 +1,207 @@
+{
+  "entity_id": "atl-cmp-embraer",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "embraer",
+  "name": "Embraer",
+  "variant": null,
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/embraer/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Brazilian aerospace OEM — ERJ-145 for DRDO Netra AEW&C; C-390 bid for IAF.",
+    "chips": [
+      "military-aerospace",
+      "foreign-oem-with-india",
+      "ae wc"
+    ],
+    "maker": null,
+    "country": "BR",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": [
+      "Air"
+    ]
+  },
+  "at_a_glance": {
+    "Headquarters": "São José dos Campos, Brazil",
+    "Type": "Aerospace OEM",
+    "Founded": "1969",
+    "India entity": "Embraer India Pvt Ltd (New Delhi)",
+    "Listed": "B3: EMBR3; NYSE: ERJ",
+    "Key India role": "Embraer is a Brazilian aerospace OEM that has supplied India's ERJ-145 platforms for the DRDO Netra AEW&C programme (3 aircraft, modified by Embraer and CABS, delivered 2016-2017). Embraer has also bi"
+  },
+  "what_it_is": {
+    "prose": "Embraer is a Brazilian aerospace OEM that has supplied India's ERJ-145 platforms for the DRDO Netra AEW&C programme (3 aircraft, modified by Embraer and CABS, delivered 2016-2017). Embraer has also bid the C-390 Millennium for the IAF's medium transport aircraft requirement and the A-29 Super Tucano for light attack. Embraer Defence & Security has an India office in New Delhi.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "2 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "ERJ-145 AEW&C (DRDO Netra, 3 aircraft)",
+        "role": "OEM",
+        "india_status": "Delivered 2016-2017",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "C-390 Millennium (IAF bid)",
+        "role": "OEM",
+        "india_status": "Bid submitted; not selected",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "1 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "DRDO CABS",
+        "context": "ERJ-145 for Netra AEW&C",
+        "year": "2016",
+        "quantity_or_note": "3 aircraft delivered",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Will Embraer bid the C-390 for future IAF transport tenders?",
+      "Has Embraer supplied the Legacy 600 to the IAF for VIP transport?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Limited",
+        "note": "3 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "None%",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is Embraer's main India programme?",
+      "answer": "Embraer supplied 3 modified ERJ-145 platforms to DRDO's CABS for the Netra AEW&C programme (delivered 2016-2017). It has also bid the C-390 Millennium for the IAF's medium transport requirement.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Does Embraer have an India office?",
+      "answer": "Yes. Embraer Defence & Security has an India office in New Delhi for the AEW&C support and future bids.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Will Embraer bid the C-390 for future IAF transport tenders?",
+    "Has Embraer supplied the Legacy 600 to the IAF for VIP transport?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Embraer — official site",
+      "publisher": "Embraer",
+      "url": "https://embraer.com/global/en",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Embraer official site"
+    },
+    {
+      "id": "src-02",
+      "title": "Embraer Defence & Security — India",
+      "publisher": "Embraer",
+      "url": "https://defense.embraer.com/global/en/india",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Embraer Defence India page"
+    },
+    {
+      "id": "src-03",
+      "title": "Embraer ERJ-145 Netra AEW&C delivery — FlightGlobal",
+      "publisher": "FlightGlobal",
+      "url": "https://www.flightglobal.com/defence/india-receives-second-netra-aew-c-aircraft/122891.article",
+      "published_date": "2017-07-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Coverage of ERJ-145 Netra AEW&C delivery"
+    }
+  ],
+  "seo": {
+    "title": "Embraer — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Embraer company dossier: India military-aerospace role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/military-aerospace/embraer/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/embraer/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

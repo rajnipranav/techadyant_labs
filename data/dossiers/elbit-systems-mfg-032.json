@@ -1,0 +1,322 @@
+{
+  "entity_id": "mfg-032",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "elbit-systems-mfg-032",
+  "name": "Elbit Systems Limited",
+  "variant": "Foreign OEM with India footprint",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Israeli-listed defence OEM (NASDAQ/TASE: ESLT); India footprint via Adani-Elbit JV (Hyderabad, first private UAV manufacturing facility in India); Hermes 900 (Drishti 10 Starliner) delivered to Indian Navy Jan 2024.",
+    "chips": [
+      "Listed",
+      "Israel",
+      "NASDAQ/TASE",
+      "Hermes 900",
+      "Adani-Elbit JV",
+      "Drishti 10 Starliner",
+      "UAV"
+    ],
+    "maker": "Private listed (NASDAQ: ESLT, TASE: ESLT)",
+    "country": "Israel",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign OEM — India footprint via JVs, ToT, and direct sales",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Elbit Systems Limited",
+    "Ownership": "Private listed (NASDAQ: ESLT, TASE: ESLT)",
+    "HQ": "Haifa, Israel",
+    "Order_book": "Not separately disclosed for India",
+    "Revenue_FY26": "Not separately disclosed for India",
+    "Adani_Elbit_JV": "Adani Elbit UAV Complex Hyderabad (50,000 sq ft, inaugurated 2018-19) — first private UAV manufacturing facility in India; first Hermes 900 facility outside Israel",
+    "Drishti_10_Starliner": "Indian designation for Hermes 900 StarLiner; delivered to Indian Navy (first India-made UAV delivery Jan 2024)",
+    "Hermes_900_international": "$120M international contract September 2025 (Elbit official)",
+    "Hermes_900_India_crashes": "Second Indian Navy Hermes 900 crash in 18 months reported July 2026 (CalcalistTech); first crash January 2025",
+    "D_29_EW_correction": "Atlas 'D-29 EW for Tejas' attribution to Elbit is INCORRECT — D-29 is DRDO/DARE's indigenous EW suite (modernized as 'Swayam-Raksha-Kavach'); Elisra (Elbit subsidiary) was reportedly approached in 2018 but the modernized D-29 is DRDO's own work"
+  },
+  "what_it_is": {
+    "prose": "Elbit Systems Limited (NASDAQ/TASE: ESLT) is an Israeli-listed defence OEM headquartered in Haifa. Elbit's India footprint is primarily through the Adani-Elbit joint venture — the Adani Elbit UAV Complex in Hyderabad (50,000 sq ft, inaugurated 2018-19), which is the first private UAV manufacturing facility in India and the first Hermes 900 production facility outside Israel. The Indian Navy received its first India-made UAV, the Drishti 10 Starliner (Indian designation for the Hermes 900 StarLiner), in January 2024. The facility has also produced 20+ Hermes 900 UAVs delivered to Israel from India. Elbit was awarded a $120 million international contract for Hermes 900 in September 2025. However, the Indian Navy has experienced two Hermes 900 crashes in 18 months — the first in January 2025 and the second in July 2026 (per CalcalistTech) — raising reliability concerns. IMPORTANT Atlas correction: The Atlas register attributes 'D-29 EW for Tejas' to Elbit, but D-29 is actually DRDO/DARE's indigenous electronic warfare suite, modernized as 'Swayam-Raksha-Kavach' (per The Week, November 2025). Elisra (an Elbit subsidiary) was reportedly approached for the D-29 in 2018 (per DefenseMirror), but the modernized D-29 is DRDO's own work — see REGISTER_TICKETS.md ticket P1-D29-EW-ATTRIBUTION.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Adani-Elbit JV at Hyderabad (50,000 sq ft, inaugurated 2018-19) is the first private UAV manufacturing facility in India and the first Hermes 900 production facility outside Israel. The Indian Navy received its first India-made UAV, the Drishti 10 Starliner (Hermes 900 StarLiner), in January 2024. The facility has produced 20+ Hermes 900 UAVs for Israel. Elbit was awarded a $120 million international Hermes 900 contract in September 2025. Two Indian Navy Hermes 900 crashes have occurred in 18 months (January 2025 and July 2026).",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "First India-made UAV delivery — Drishti 10 Starliner (Hermes 900 StarLiner)",
+        "year": 2024,
+        "quantity_or_note": "January 2024 — first India-made UAV delivered to Indian Navy",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Israel (export from India JV)",
+        "context": "20+ Hermes 900 UAVs delivered to Israel from India facility",
+        "year": null,
+        "quantity_or_note": "20+ UAVs",
+        "sources": []
+      },
+      {
+        "agency": "International customer (export)",
+        "context": "$120M Hermes 900 international contract",
+        "year": 2025,
+        "quantity_or_note": "September 2025 — $120 million",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Atlas D-29 EW attribution to Elbit appears INCORRECT — recommend correction to DRDO/DARE (see REGISTER_TICKETS.md P1-D29-EW-ATTRIBUTION)",
+      "Hermes 900 reliability concerns (2 crashes in 18 months) — Indian Navy investigating",
+      "Total Hermes 900 ordered by Indian Navy not publicly disclosed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Foreign OEM — not applicable (Indian import dependencies documented in respective system dossiers).",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Elbit — original Hermes 900 designer",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership (India)",
+        "value": 4,
+        "note": "Adani-Elbit JV Hyderabad — first private UAV manufacturing facility in India",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 0,
+        "note": "Foreign OEM — all components Israeli-origin",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / India order book",
+        "value": 3,
+        "note": "First India-made UAV delivery Jan 2024; $120M international contract Sep 2025",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Adani-Elbit JV exports Hermes 900 to Israel and international customers",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the Adani-Elbit joint venture?",
+      "answer": "The Adani-Elbit joint venture operates the Adani Elbit UAV Complex in Hyderabad (50,000 sq ft, inaugurated 2018-19) — the first private UAV manufacturing facility in India and the first Hermes 900 production facility outside Israel. The JV manufactures the Hermes 900 (designated Drishti 10 Starliner in Indian Navy service) for both Indian customers and export. The Indian Navy received its first India-made UAV from this facility in January 2024.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "Did Elbit make the D-29 EW suite for the Tejas?",
+      "answer": "No. The Atlas register's attribution of 'D-29 EW for Tejas' to Elbit appears to be incorrect. D-29 is DRDO/DARE's indigenous electronic warfare suite, modernized as 'Swayam-Raksha-Kavach' (per The Week, November 2025). Elisra (an Elbit subsidiary) was reportedly approached for the D-29 in 2018 (per DefenseMirror), but the modernized D-29 is DRDO's own work — see REGISTER_TICKETS.md ticket P1-D29-EW-ATTRIBUTION. This is flagged as an open question for Atlas register correction.",
+      "sources": [
+        "src-6",
+        "src-7"
+      ]
+    },
+    {
+      "question": "What are the Hermes 900 reliability concerns in Indian Navy service?",
+      "answer": "Two Indian Navy Hermes 900 (Drishti 10 Starliner) UAVs have crashed within 18 months — the first in January 2025 and the second in July 2026 (per CalcalistTech). The Indian Navy is investigating the crashes. Despite these incidents, the Adani-Elbit JV continues to manufacture the Hermes 900, and Elbit was awarded a $120 million international Hermes 900 contract in September 2025.",
+      "sources": [
+        "src-4",
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-19",
+      "event": "Adani-Elbit UAV Complex inaugurated in Hyderabad (50,000 sq ft)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2024-01",
+      "event": "First India-made UAV (Drishti 10 Starliner / Hermes 900) delivered to Indian Navy",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2025-01",
+      "event": "First Indian Navy Hermes 900 crash",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2025-09-29",
+      "event": "Elbit awarded $120M international Hermes 900 contract",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2025-11-04",
+      "event": "The Week confirms D-29 modernization (Swayam Raksha Kavach) is DRDO's own work — Atlas Elbit attribution incorrect",
+      "sources": [
+        "src-7"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "event": "Second Indian Navy Hermes 900 crash in 18 months",
+      "sources": [
+        "src-4"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Atlas D-29 EW attribution to Elbit appears INCORRECT — recommend correction to DRDO/DARE (see REGISTER_TICKETS.md P1-D29-EW-ATTRIBUTION)",
+    "Hermes 900 reliability concerns (2 crashes in 18 months) — Indian Navy investigating",
+    "Total Hermes 900 ordered by Indian Navy not publicly disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Adani Defence & Aerospace and Elbit Systems Inaugurate India First Private UAV Manufacturing",
+      "publisher": "Adani (official)",
+      "url": "https://www.adani.com/newsroom/media-releases/adani-defence-and-aerospace-and-elbit-systems-inaugurate-india-first-private-uav-manufacturing",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Adani-Elbit JV inauguration"
+    },
+    {
+      "id": "src-2",
+      "title": "Navy gets its first India-made drones from Adani Defence Hermes 900",
+      "publisher": "Unmanned Network",
+      "url": "https://unmanned-network.com/navy-gets-its-first-india-made-drones-from-adani-defence-hermes-900",
+      "published_date": "2024-01-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "First Drishti 10 Starliner delivery Jan 2024"
+    },
+    {
+      "id": "src-3",
+      "title": "Elbit Systems Awarded $120 Million Contract for Hermes 900 International Customer",
+      "publisher": "Elbit Systems (official)",
+      "url": "https://www.elbitsystems.com/news/elbit-systems-awarded-120-million-contract-hermes-900tm-international-customer",
+      "published_date": "2025-09-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "$120M Hermes 900 contract"
+    },
+    {
+      "id": "src-4",
+      "title": "Israeli-designed Hermes 900 drone crashes again in India",
+      "publisher": "CalcalistTech",
+      "url": "https://www.calcalistech.com/ctechnews/article/hkvdp3v4mg",
+      "published_date": "2026-07-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Second Indian Navy Hermes 900 crash"
+    },
+    {
+      "id": "src-5",
+      "title": "Hermes™ 900 UAV | Multi-Mission MALE Drone",
+      "publisher": "Elbit Systems (official)",
+      "url": "https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Hermes 900 product page"
+    },
+    {
+      "id": "src-6",
+      "title": "Indigenous EW system ignored for Tejas Mark 1A fighter jet",
+      "publisher": "Ajai Shukla blog",
+      "url": "https://www.ajaishukla.com/2018/12/indigenous-ew-system-ignored-for-tejas.html",
+      "published_date": "2018-12-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "D-29 is DRDO/DARE work, not Elbit"
+    },
+    {
+      "id": "src-7",
+      "title": "DRDO testing advanced electronic warfare suite Swayam Raksha Kavach for LCA Tejas Mk1A fighter jet",
+      "publisher": "The Week",
+      "url": "https://www.theweek.in/news/defence/2025/11/04/drdo-testing-advanced-electronic-warfare-suite-swayam-raksha-kavach-for-lca-tejas-mk1a-fighter-jet-report.html",
+      "published_date": "2025-11-04",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "D-29 modernization is DRDO's own work"
+    }
+  ],
+  "seo": {
+    "title": "Elbit Systems Limited — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "Israeli-listed defence OEM (NASDAQ/TASE: ESLT); India footprint via Adani-Elbit JV (Hyderabad, first private UAV manufacturing facility in India); Hermes 900 (D",
+    "canonical_path": "/research/counter-uas/manufacturer/elbit-systems-mfg-032/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

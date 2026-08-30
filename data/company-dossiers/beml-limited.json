@@ -1,0 +1,329 @@
+{
+  "entity_id": "atl-cmp-beml-limited",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "beml-limited",
+  "name": "BEML Limited",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/beml-limited/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "BEML is a Schedule 'A' CPSE under India's Ministry of Defence, manufacturing heavy equipment for Defence & Aerospace, Rail & Metro, Mining & Construction. Defence products include BEML-Tatra 8x8 High ",
+    "chips": [
+      "defence",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India",
+    "Type": "Company (listed)",
+    "Founded": "May 1964 (as Bharat Earth Movers Limited; renamed BEML Limited)",
+    "India entity": null,
+    "Listed": "NSE: BEML | BSE: 500048; Schedule 'A' CPSE under Ministry of Defence",
+    "Key India role": "BEML is a Schedule 'A' CPSE under India's Ministry of Defence, manufacturing heavy equipment for Defence & Aerospace, Rail & Metro, Mining & Construction. Defence products include BEML-Tatra 8x8 High "
+  },
+  "what_it_is": {
+    "prose": "BEML is a Schedule 'A' CPSE under India's Ministry of Defence, manufacturing heavy equipment for Defence & Aerospace, Rail & Metro, Mining & Construction. Defence products include BEML-Tatra 8x8 High Mobility Vehicles (HMVs) for the Indian Army's Pinaka MBRL, BrahMos missile launcher and Smerch systems; bridge-layer tanks; Armoured Recovery & Repair Vehicle (ARRV) for the Arjun MBT; 1500-hp 'Bharat Power Pack' / DATRAN 1500 engine for Arjun (in development with CVRDE/DRDO, 90% indigenous content); Field Artillery Tractor; Medium & Heavy Recovery Vehicle. BEML won a ₹293.81 Cr MoD contract for 150 High Mobility Vehicles in Jul 2025. The company also supplies ground support vehicles for the Integrated Guided Missile / Radar Development Projects.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "BEML-Tatra 8x8 High Mobility Vehicle (HMV)",
+        "role": "OEM",
+        "india_status": "Backbone of Indian Army's Pinaka MBRL, BrahMos missile launcher and Smerch rocket launcher mobility platforms; variants include Bridge Layer, Field Artillery Tractor, Medium & Heavy Recovery Vehicle. ₹293.81 Cr contract for 150 HMVs awarded Jul 2025",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Arjun ARRV (Armoured Recovery & Repair Vehicle)",
+        "role": "OEM",
+        "india_status": "BEML produces the ARRV based on the Arjun MBT chassis for the Indian Army's armoured regiments; recovers disabled combat tanks",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "DATRAN 1500 / Bharat Power Pack (Arjun engine)",
+        "role": "OEM",
+        "india_status": "1500-hp engine developed by CVRDE/DRDO with BEML as production partner; 90% indigenous content; 20 engines contracted for Arjun MBT trials. Trials completed Jul 2025",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Bridge Layer Tank (BLT) / Field Artillery Tractor",
+        "role": "OEM",
+        "india_status": "BEML-Tatra variants; bridge layer provides 75 m bridge-length for tanks and supply convoys",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "2 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "150 High Mobility Vehicles ₹293.81 Cr contract",
+        "year": "Jul 2025",
+        "quantity_or_note": "150",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Army (Pinaka/BrahMos/Smerch launcher mobility)",
+        "context": "BEML-Tatra 8x8 HMVs are the launcher platforms for India's Pinaka MBRL, BrahMos and Smerch missile/rocket systems",
+        "year": "ongoing",
+        "quantity_or_note": "Fleet-wide",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "8 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "3 official, 3 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was BEML founded and where is it headquartered?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is BEML's stock ticker on NSE?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the BEML-Tatra 8x8 HMV used for in the Indian Army?",
+      "answer": "Defence products include BEML-Tatra 8x8 High Mobility Vehicles (HMVs) for the Indian Army's Pinaka MBRL, BrahMos missile launcher and Smerch systems; bridge-layer tanks; Armoured Recovery & Repair Vehicle (ARRV) for the Arjun MBT; 1500-hp 'Bharat Power Pack' / DATRAN 1500 engine for Arjun (in development with CVRDE/DRDO, 90% indigenous content); Field Artillery Tractor; Medium & Heavy Recovery Vehicle.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the value of BEML's Jul 2025 MoD contract for high mobility vehicles?",
+      "answer": "BEML won a ₹293.81 Cr MoD contract for 150 High Mobility Vehicles in Jul 2025.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the Bharat Power Pack / DATRAN 1500 engine and which tank will it power?",
+      "answer": "Defence products include BEML-Tatra 8x8 High Mobility Vehicles (HMVs) for the Indian Army's Pinaka MBRL, BrahMos missile launcher and Smerch systems; bridge-layer tanks; Armoured Recovery & Repair Vehicle (ARRV) for the Arjun MBT; 1500-hp 'Bharat Power Pack' / DATRAN 1500 engine for Arjun (in development with CVRDE/DRDO, 90% indigenous content); Field Artillery Tractor; Medium & Heavy Recovery Vehicle.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.bemlindia.in",
+      "publisher": "BEML Official",
+      "url": "https://www.bemlindia.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.bemlindia.in/defence-and-aerospace",
+      "publisher": "BEML",
+      "url": "https://www.bemlindia.in/defence-and-aerospace",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.bemlindia.in/defence-aerospace",
+      "publisher": "BEML",
+      "url": "https://www.bemlindia.in/defence-aerospace",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://www.bemlindia.in/product/arjun-arrv-2",
+      "publisher": "BEML",
+      "url": "https://www.bemlindia.in/product/arjun-arrv-2",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://en.wikipedia.org/wiki/BEML",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BEML",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://themachinemaker.com/news/beml-wins-rs-293-81-crore-defence-contract-for-150-high-mobility-vehicles",
+      "publisher": "The Machine Maker",
+      "url": "https://themachinemaker.com/news/beml-wins-rs-293-81-crore-defence-contract-for-150-high-mobility-vehicles",
+      "published_date": "Jul 25, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://defence.in/threads/datran-1500-hp-engine-with-90-indigenous-content-gearing-up-for-mobility-trials-as-most-ground-runs-completed.14816",
+      "publisher": "defence.in",
+      "url": "https://defence.in/threads/datran-1500-hp-engine-with-90-indigenous-content-gearing-up-for-mobility-trials-as-most-ground-runs-completed.14816",
+      "published_date": "Jul 6, 2025",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.orfonline.org/expert-speak/overcoming-engine-woes-india-s-tank-engine-sees-progress",
+      "publisher": "ORF",
+      "url": "https://www.orfonline.org/expert-speak/overcoming-engine-woes-india-s-tank-engine-sees-progress",
+      "published_date": "Jan 3, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "BEML Limited — Company · India Defence Atlas | Techadyant",
+    "meta_description": "BEML Limited company dossier: India defence role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/pillars/defence/entity/beml-limited/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/beml-limited/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

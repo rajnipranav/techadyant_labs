@@ -1,0 +1,89 @@
+{
+  "entity_id": "safran-landing",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "safran-landing",
+  "name": "Safran Landing Systems",
+  "variant": "Safran group",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "World-leading landing-gear, wheel and carbon-brake maker within the Safran group; its systems equip foreign platforms in Indian service (Rafale, ATR, Airbus), but Safran's India primary releases describe no dedicated Safran Landing Systems manufacturing or MRO site in India.",
+    "chips": [
+      "C",
+      "Landing gear",
+      "Wheels & brakes",
+      "Safran group",
+      "No dedicated India site",
+      "Foreign OEM"
+    ],
+    "maker": "Safran S.A.",
+    "country": "France",
+    "indigenous_pct": null,
+    "indigenous_label": "No dedicated Safran Landing Systems India manufacturing/MRO in primary sources; support via Safran-group India presence",
+    "mobility_or_class": "Landing gear, wheels and carbon-brake systems OEM",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Safran Landing Systems (part of Safran S.A.)",
+    "HQ": "Vélizy-Villacoublay, France",
+    "India_status": "No dedicated India manufacturing or MRO site named in Safran's India primary releases; equipment reaches India on foreign platforms",
+    "Tier_C_reason": "Landing gear supplied on foreign aircraft flown in India, but Safran's India press releases and country page do not describe a standalone Safran Landing Systems India facility or JV.",
+    "Products": "Landing gear, wheels, carbon brakes and braking systems",
+    "India_platform_exposure": "Rafale, ATR turboprops, Airbus airliners and other Safran-equipped types operated in India",
+    "Group_context": "Safran group has ~3,000–3,500 staff across 18 India sites (>70 years), but landing gear is not itemised among them"
+  },
+  "what_it_is": {
+    "prose": "Safran Landing Systems is the Safran group's landing-gear business and one of the world's leading makers of aircraft landing gear, wheels and carbon brakes, equipping a large share of commercial and military aircraft globally. Its systems reach India indirectly, fitted to foreign platforms operated in the country — Dassault Rafale fighters, ATR regional turboprops and Airbus airliners among them. However, unlike Safran Aircraft Engines (Hyderabad engine MRO, HAL JVs) or Safran Electrical & Power (Hyderabad plant), Safran's own India press releases and India country page do not describe a dedicated Safran Landing Systems manufacturing plant, MRO shop or joint venture in India; landing-gear support is handled through the broader Safran-group India presence and engineering-services footprint. This dossier is therefore a short Tier C stub: it records that Safran Landing Systems has no distinctly evidenced standalone India footprint in primary sourcing, rather than inferring one from the group's overall expansion.",
+    "sources": [
+      "src-sls-company",
+      "src-safran-india-2022"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-sls-company",
+      "title": "Safran Landing Systems — World Leader in Aircraft Landing and Braking Systems",
+      "publisher": "Safran S.A.",
+      "url": "https://www.safran-group.com/companies/safran-landing-systems",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Company overview page (product scope: landing gear, wheels, carbon brakes); no India-specific site described"
+    },
+    {
+      "id": "src-safran-india-2022",
+      "title": "Safran expands presence and industrial footprint in India",
+      "publisher": "Safran S.A.",
+      "url": "https://www.safran-group.com/pressroom/safran-intensifie-sa-presence-son-empreinte-industrielle-inde-2022-07-06",
+      "published_date": "2022-07-06",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official India-footprint release naming Safran Aircraft Engines, Electrical & Power, Safran HAL JV and Digit — but NOT Safran Landing Systems, evidencing the absence of a dedicated Landing Systems India site"
+    }
+  ],
+  "seo": {
+    "title": "Safran Landing Systems — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Safran Landing Systems equips foreign platforms flown in India, but Safran's India releases name no dedicated Landing Systems site or JV. Tier C stub.",
+    "canonical_path": "/research/military-aerospace/company/safran-landing/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/company/safran/",
+      "/research/military-aerospace/company/"
+    ]
+  }
+}

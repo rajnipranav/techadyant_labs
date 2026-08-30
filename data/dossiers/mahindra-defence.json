@@ -1,0 +1,205 @@
+{
+  "entity_id": "mahindra-defence",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "mahindra-defence",
+  "name": "Mahindra Defence Systems Limited",
+  "variant": "Private-sector defence prime (Mahindra Group)",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Mahindra Group's defence arm serving all three Indian services; maker of armoured/mine-protected vehicles (ALSV, MPV, LSV), naval anti-submarine warfare systems, torpedo-defence and decoy launchers, and defence-electronics and composite structures for defence and space applications.",
+    "chips": [
+      "Tier B",
+      "Private sector",
+      "Mahindra Group",
+      "Armoured vehicles",
+      "ALSV",
+      "Naval ASW / IADS",
+      "Torpedo defence",
+      "Defence electronics"
+    ],
+    "maker": "Mahindra Group (Mahindra & Mahindra)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Indigenous design and manufacture of vehicles and naval systems; certain sub-systems and electronics via foreign JVs/technology partners",
+    "mobility_or_class": "Land systems, naval systems and defence electronics OEM",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Mahindra Defence Systems Limited (MDS)",
+    "Ownership": "Private — part of the Mahindra Group (Mahindra & Mahindra Ltd)",
+    "HQ": "Mumbai / Bengaluru, India",
+    "Serves": "Indian Army, Indian Navy, Indian Air Force, paramilitary and police forces",
+    "Land_systems": "Armoured Light Specialist Vehicle (ALSV), Mine-Protected Vehicles, Light Specialist Vehicles, armoured/bullet-proof vehicles",
+    "Naval_systems": "Integrated Anti-Submarine Warfare Defence Suite (IADS), torpedo-defence systems, decoy and torpedo launchers",
+    "IADS_contract": "₹1,349.95 crore for 14 systems for Indian Navy warships (awarded 27 August 2021)",
+    "Other": "Defence electronics (JV with Telephonics Corp, USA), composite structures for defence and space",
+    "Positioning": "One of India's leading private-sector defence primes under 'Make in India' / Atmanirbhar Bharat"
+  },
+  "what_it_is": {
+    "prose": "Mahindra Defence Systems Limited (MDS) is the defence arm of India's Mahindra Group, serving all three branches of the Indian armed forces as well as paramilitary and police forces. Its portfolio spans land systems — armoured and mine-protected vehicles including the Armoured Light Specialist Vehicle (ALSV), Mine-Protected Vehicles, Light Specialist Vehicles and bullet-proof vehicles inducted by the Indian Army — naval systems, defence electronics, and composite structures for defence and space applications. In the naval domain MDS was awarded a ₹1,349.95 crore contract on 27 August 2021 to manufacture 14 Integrated Anti-Submarine Warfare Defence Suites (IADS) for Indian Navy warships, described as the first such system developed by an Indian company for the Navy, and it also produces torpedo-defence systems, decoys and torpedo launchers. Its defence-electronics work has included a joint venture with Telephonics Corporation of the USA. Within the military-aerospace context, Mahindra's relevance is primarily as a private-sector defence prime and Tier-1 supplier: it manufactures composite aerostructures and sub-systems and is positioned within India's broader aerospace and defence manufacturing ecosystem (the Mahindra Group's aerospace activities have historically included aerostructures and small-aircraft ventures). Public, primary evidence specific to Mahindra Defence's military-aircraft/aerospace subsystems is thinner than for its land and naval systems, so this entry is tiered B and leans on its documented armoured-vehicle and naval-ASW record.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Mahindra Defence's strongest documented India footprint is in armoured vehicles for the Indian Army and paramilitary forces and in naval anti-submarine warfare systems for the Indian Navy. The flagship naval contract is the ₹1,349.95 crore IADS award (14 systems, August 2021). Its ALSV and specialist vehicles have been inducted by the Indian Army.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Integrated Anti-Submarine Warfare Defence Suite (IADS) for warships — first indigenous system of its kind",
+        "year": 2021,
+        "quantity_or_note": "₹1,349.95 crore for 14 systems (awarded 27 August 2021)",
+        "sources": [
+          "src-1",
+          "src-2",
+          "src-4"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Armoured Light Specialist Vehicle (ALSV) and Light Specialist / All-Terrain Vehicles",
+        "year": null,
+        "quantity_or_note": "ALSV and specialist vehicles inducted into Army fleet; quantities per public reports",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Army / paramilitary / police",
+        "context": "Mine-Protected and bullet-proof/armoured vehicles",
+        "year": null,
+        "quantity_or_note": "Long-running supply; specific values not consolidated publicly here",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Mahindra Defence's current military-aircraft/aerospace-subsystem contracts are not well documented in primary public sources",
+      "Latest revenue and order-book figures for Mahindra Defence Systems (as a subsidiary) are not separately disclosed in group filings reviewed here"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Mahindra Defence manufactures vehicles and naval systems indigenously but relies on foreign technology partners for certain electronics and sensor sub-systems — for example its defence-electronics JV with Telephonics Corporation (USA). Naval ASW sonar/processing and some vehicle drivetrain/protection technologies involve imported or licensed content.",
+    "items": [
+      {
+        "component": "Defence electronics / radar & surveillance (JV technology)",
+        "severity": "Medium",
+        "note": "Historic JV with Telephonics Corp (USA) for radar/surveillance electronics",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Naval ASW sonar / signal-processing sub-systems",
+        "severity": "Medium",
+        "note": "Advanced underwater sensor and processing content may involve foreign technology",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What does Mahindra Defence Systems make?",
+      "answer": "Mahindra Defence Systems is the Mahindra Group's defence business, supplying all three Indian services plus paramilitary and police forces. Its main product lines are armoured and mine-protected vehicles (including the Armoured Light Specialist Vehicle, ALSV), naval anti-submarine warfare systems, torpedo-defence and decoy/torpedo launchers, defence electronics, and composite structures for defence and space applications.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "What is Mahindra Defence's biggest naval contract?",
+      "answer": "In August 2021 Mahindra Defence won a ₹1,349.95 crore contract to manufacture 14 Integrated Anti-Submarine Warfare Defence Suites (IADS) for Indian Navy warships — described as the first system of its kind developed by an Indian company for the Navy, comprising underwater detection sensor arrays and signal-processing to identify and neutralise submarine threats across small, medium and large vessels.",
+      "sources": [
+        "src-1",
+        "src-2",
+        "src-4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Mahindra Defence To Manufacture Integrated ASW Defence Suite For The Indian Navy",
+      "publisher": "Mahindra Group (official press release)",
+      "url": "https://www.mahindra.com/news-room/press-release/en/mahindra-defence-to-manufacture-integrated-asw-defence-suite-for-indian-navy",
+      "published_date": "2021-08-27",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Company primary release: IADS ₹1,349.95 crore / 14 systems; product portfolio incl. armoured vehicles, torpedo defence, composites, Telephonics JV"
+    },
+    {
+      "id": "src-2",
+      "title": "Mahindra defence to manufacture integrated ASW defence suite for Indian Navy",
+      "publisher": "Business Standard",
+      "url": "https://www.business-standard.com/article/news-cm/mahindra-defence-to-manufacture-integrated-asw-defence-suite-for-indian-navy-121082800173_1.html",
+      "published_date": "2021-08-28",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Corroborates IADS contract value and scope"
+    },
+    {
+      "id": "src-3",
+      "title": "Mahindra Armored Light Specialist Vehicle (ALSV)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mahindra_Armored_Light_Specialist_Vehicle",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "ALSV specifications and Indian Army induction context"
+    },
+    {
+      "id": "src-4",
+      "title": "Mahindra to deliver ASW defence suites for Indian Navy",
+      "publisher": "Naval Technology",
+      "url": "https://www.naval-technology.com/news/mahindra-delivers-defence-suites-indian-navy/",
+      "published_date": "2021-08-30",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Trade-press confirmation of IADS naval contract"
+    }
+  ],
+  "seo": {
+    "title": "Mahindra Defence Systems Limited — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Mahindra Group's defence arm serving all three Indian services; maker of armoured vehicles (ALSV), naval anti-submarine warfare systems (₹1,349.95 crore IADS), torpedo-defence and defence-electronics, with composite structures for defence and space.",
+    "canonical_path": "/research/military-aerospace/company/mahindra-defence/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/company/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

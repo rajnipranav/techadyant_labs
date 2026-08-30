@@ -1,0 +1,360 @@
+{
+  "entity_id": "atl-cmp-garden-reach-shipbuilders-and-engineers",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "garden-reach-shipbuilders-and-engineers",
+  "name": "Garden Reach Shipbuilders & Engineers (GRSE)",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/garden-reach-shipbuilders-and-engineers/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "GRSE is a Kolkata-based Miniratna Category-I defence PSU that has built 100+ warships for the Indian Navy — the most by any Indian shipyard. Major programmes: Kamorta-class (Project 28) ASW corvettes ",
+    "chips": [
+      "defence",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Kolkata, West Bengal, India (Garden Reach, eastern bank of Hooghly River)",
+    "Type": "Company (listed)",
+    "Founded": "1884 (as a small private company; renamed Garden Reach Workshop 1916; nationalised 1960)",
+    "India entity": null,
+    "Listed": "NSE: GRSE | BSE: 542011 (IPO October 2024); Miniratna Category-I CPSE",
+    "Key India role": "GRSE is a Kolkata-based Miniratna Category-I defence PSU that has built 100+ warships for the Indian Navy — the most by any Indian shipyard. Major programmes: Kamorta-class (Project 28) ASW corvettes "
+  },
+  "what_it_is": {
+    "prose": "GRSE is a Kolkata-based Miniratna Category-I defence PSU that has built 100+ warships for the Indian Navy — the most by any Indian shipyard. Major programmes: Kamorta-class (Project 28) ASW corvettes (4 ships, all commissioned, INS Kavaratti final in Oct 2020); Project 17A Nilgiri-class stealth frigates (4 of 7 at GRSE — Himgiri delivered Aug 2025, INS Vindhyagiri commissioned Jun 2026); Next-Generation Offshore Patrol Vessels (4 NGOPVs contracted Mar 2023; first 'Shruti' launched Aug 11, 2026); ASW Shallow Water Craft (ASW-SWC) — lead ship INS Arnala commissioned Jun 2025. GRSE emerged as the lowest bidder (₹5,400 Cr) for Indian Navy's 8 ASW corvettes (Project 28A / NGC).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Kamorta-class (Project 28) ASW corvettes",
+        "role": "OEM",
+        "india_status": "4 indigenous ASW corvettes built by GRSE; final ship INS Kavaratti commissioned Oct 2020; ship 104th warship delivered by GRSE since 1960. Stealth features",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Nilgiri-class (Project 17A) stealth frigates — GRSE portion",
+        "role": "OEM",
+        "india_status": "4 of 7 P17A frigates being built at GRSE. Himgiri (Yard 3022) delivered Aug 1, 2025; Dunagiri (Yard 3023) launched; Vindhyagiri commissioned Jun 2026",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Next-Generation Offshore Patrol Vessels (NGOPVs)",
+        "role": "OEM",
+        "india_status": "4 NGOPVs contracted Mar 30, 2023. First 'Shruti' launched Aug 11, 2026 in Kolkata. 113 m long, 14.6 m wide, 3,000 t displacement, max speed 23 knots",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "ASW Shallow Water Craft (ASW-SWC) — Arnala class",
+        "role": "OEM",
+        "india_status": "8 ASW-SWC being built by GRSE; lead ship INS Arnala commissioned Jun 2025; final ASW-SWC launched Jul 28, 2025",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "3 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Kamorta-class ASW corvettes — 4 ships commissioned",
+        "year": "2014-2020",
+        "quantity_or_note": "4",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "INS Himgiri (P17A frigate) delivery",
+        "year": "Aug 1, 2025",
+        "quantity_or_note": "1 of 4 P17A frigates at GRSE",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "First NGOPV 'Shruti' launched",
+        "year": "Aug 11, 2026",
+        "quantity_or_note": "1 of 4 NGOPVs",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "10 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "2 official, 7 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was GRSE founded?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When did GRSE IPO list on the stock exchange?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is GRSE's most famous warship class (Project 28)?",
+      "answer": "GRSE is a Kolkata-based Miniratna Category-I defence PSU that has built 100+ warships for the Indian Navy — the most by any Indian shipyard.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "How many Nilgiri-class frigates is GRSE building under Project 17A?",
+      "answer": "Major programmes: Kamorta-class (Project 28) ASW corvettes (4 ships, all commissioned, INS Kavaratti final in Oct 2020); Project 17A Nilgiri-class stealth frigates (4 of 7 at GRSE — Himgiri delivered Aug 2025, INS Vindhyagiri commissioned Jun 2026); Next-Generation Offshore Patrol Vessels (4 NGOPVs contracted Mar 2023; first 'Shruti' launched Aug 11, 2026); ASW Shallow Water Craft (ASW-SWC) — lead ship INS Arnala commissioned Jun 2025.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the name of the first Next Generation Offshore Patrol Vessel launched by GRSE in August 2026?",
+      "answer": "Major programmes: Kamorta-class (Project 28) ASW corvettes (4 ships, all commissioned, INS Kavaratti final in Oct 2020); Project 17A Nilgiri-class stealth frigates (4 of 7 at GRSE — Himgiri delivered Aug 2025, INS Vindhyagiri commissioned Jun 2026); Next-Generation Offshore Patrol Vessels (4 NGOPVs contracted Mar 2023; first 'Shruti' launched Aug 11, 2026); ASW Shallow Water Craft (ASW-SWC) — lead ship INS Arnala commissioned Jun 2025.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://grse.in",
+      "publisher": "GRSE Official",
+      "url": "https://grse.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://grse.in/frigate/index.php",
+      "publisher": "GRSE",
+      "url": "https://grse.in/frigate/index.php",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://grse.in/anti-submarine-warfare-corvette/index.php",
+      "publisher": "GRSE",
+      "url": "https://grse.in/anti-submarine-warfare-corvette/index.php",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://en.wikipedia.org/wiki/Garden_Reach_Shipbuilders_%26_Engineers",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Garden_Reach_Shipbuilders_%26_Engineers",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://en.wikipedia.org/wiki/Kamorta-class_corvette",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kamorta-class_corvette",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://en.wikipedia.org/wiki/Nilgiri-class_frigate_(2019)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nilgiri-class_frigate_(2019)",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.janes.com/defence-intelligence-insights/defence-news/indian-navy-commissions-fourth-and-final-kamorta-class-corvette",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/indian-navy-commissions-fourth-and-final-kamorta-class-corvette",
+      "published_date": "Oct 22, 2020",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://navaltoday.com/2025/08/01/indian-navy-third-nilgiri-class-frigate-delivered",
+      "publisher": "Naval Today",
+      "url": "https://navaltoday.com/2025/08/01/indian-navy-third-nilgiri-class-frigate-delivered",
+      "published_date": "Aug 1, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.aninews.in/news/national/general-news/garden-reach-shipbuilders-launches-advanced-next-generation-offshore-patrol-vessel-in-kolkata20260811132550",
+      "publisher": "ANI",
+      "url": "https://www.aninews.in/news/national/general-news/garden-reach-shipbuilders-launches-advanced-next-generation-offshore-patrol-vessel-in-kolkata20260811132550",
+      "published_date": "Aug 11, 2026",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.navalnews.com/naval-news/2026/06/indian-navy-commissions-nilgiri-class-frigate-asw-vessel-and-survey-vessel",
+      "publisher": "Naval News",
+      "url": "https://www.navalnews.com/naval-news/2026/06/indian-navy-commissions-nilgiri-class-frigate-asw-vessel-and-survey-vessel",
+      "published_date": "Jun 24, 2026",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Garden Reach Shipbuilders & Engineers (GRSE) — Company · India Defence Atlas | Techadyant",
+    "meta_description": "Garden Reach Shipbuilders & Engineers (GRSE) company dossier: India defence role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/pillars/defence/entity/garden-reach-shipbuilders-and-engineers/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/garden-reach-shipbuilders-and-engineers/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

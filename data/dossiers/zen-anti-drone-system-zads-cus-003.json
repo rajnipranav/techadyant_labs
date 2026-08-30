@@ -1,0 +1,414 @@
+{
+  "entity_id": "cus-003",
+  "entity_type": "system",
+  "tier": "A",
+  "noindex": false,
+  "slug": "zen-anti-drone-system-zads-cus-003",
+  "name": "Zen Anti-Drone System",
+  "variant": "ZADS V3 (Atlas label) / ADS-HK (hard-kill variant)",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Hyderabad-built layered counter-UAS with RF jamming + kinetic/net hard-kill; in Indian Air Force service since 2021 with multiple follow-on contracts.",
+    "chips": [
+      "Hard kill",
+      "Soft kill",
+      "RF jammer",
+      "Kinetic",
+      "Net catcher",
+      "EO/IR",
+      "Radar"
+    ],
+    "maker": "Zen Technologies Limited",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "AS9100D / CMMI Level 5 certified; ~90%+ indigenous on simulators; EO/IR and RF detector SDR front-ends imported",
+    "mobility_or_class": "Vehicle-mounted / static / man-portable variants",
+    "operational_domains": [
+      "land",
+      "air",
+      "civilian"
+    ]
+  },
+  "at_a_glance": {
+    "Detection_range_RF": "~5 km (baseline)",
+    "Detection_range_radar": "X-band 3D radar; engagement range up to 20 km (vendor claim)",
+    "EO_IR_tracking_range": "Up to 3 km (VDIT module)",
+    "Soft_kill_range": "Up to 4 km (RF jammer)",
+    "Hard_kill_options": "Kinetic (auto-aligned gun) OR net-based interceptor drone (Zen ADS-HK)",
+    "First_IAF_order": "2021 (>₹300 crore armed forces orders)",
+    "Latest_order": "₹404 crore (January 2026, MoD)",
+    "Operational_with": "Indian Air Force, Indian Army (Army Air Defence College Gopalpur since mid-2024)"
+  },
+  "what_it_is": {
+    "prose": "The Zen Anti-Drone System (ZADS) is a layered counter-UAS platform designed and manufactured by Zen Technologies Limited of Hyderabad. The system integrates an X-band 3D radar, a passive RF direction finder and classification system (RFDD), a Video-based Drone Identification and Tracking (VDIT) module with up to 3 km tracking range, a Drone Direction-Finding Control Centre (DFCC), and a Drone RF Jammer (DRFJ) that simultaneously jams ISM bands, GNSS, mobile signals and intercepted frequencies with effective jamming range up to 4 km. The hard-kill configuration, marketed as Zen ADS-HK, offers two effectors: a kinetic option in which an auto-aligned gun engages the target, and a net-based interceptor drone that captures the rogue drone and lands it safely for forensic analysis. The 'V3' label used in the Atlas is an editorial designation; Zen's official product page markets the system simply as 'Zen Anti Drone System (CUAS)' without a version number. Wikipedia notes a May 2026 radar update targeting swarm and FPV drone threats. ZADS entered Indian Air Force service in 2021 as part of more than ₹300 crore in armed forces orders, with follow-on orders in September 2023, November 2025 (₹289 crore) and January 2026 (₹404 crore including simulators). Hard-kill variants were delivered to the Army Air Defence College at Gopalpur from mid-2024.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5"
+    ]
+  },
+  "kill_chain_or_capability": {
+    "stages": [
+      {
+        "id": "detect",
+        "label": "Detect",
+        "covered": true,
+        "note": "X-band 3D radar + passive RF (RFDD module)"
+      },
+      {
+        "id": "classify",
+        "label": "Classify",
+        "covered": true,
+        "note": "VDIT video-based classification, ~3 km range"
+      },
+      {
+        "id": "track",
+        "label": "Track",
+        "covered": true,
+        "note": "DFCC fused track"
+      },
+      {
+        "id": "decide",
+        "label": "Decide",
+        "covered": true,
+        "note": "Operator-in-loop C2"
+      },
+      {
+        "id": "defeat",
+        "label": "Defeat",
+        "covered": true,
+        "note": "DRFJ soft-kill jammer (4 km); kinetic gun OR net interceptor hard-kill (ADS-HK)"
+      },
+      {
+        "id": "assess",
+        "label": "Assess",
+        "covered": true,
+        "note": "EO/IR post-engagement BDA"
+      }
+    ],
+    "threat_or_target_classes": [
+      "Group 1 UAS",
+      "Group 2 UAS",
+      "Commercial quadcopters",
+      "FPV drones",
+      "Jam-resistant drones (ADS-HK variant)"
+    ],
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "ZADS entered operational service with the Indian Air Force in 2021 as part of more than ₹300 crore in armed forces orders. The Ministry of Defence placed a follow-on procurement order in September 2023, followed by a ₹289 crore counter-drone contract in November 2025 and a ₹404 crore defence orders package (including ₹332 crore for anti-drone systems plus ₹72 crore for simulators) in January 2026. Hard-kill variants were delivered to the Indian Army's Army Air Defence College at Gopalpur from mid-2024, indicating the system is in service with both the IAF and the Army.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "First ZADS order",
+        "year": 2021,
+        "quantity_or_note": "Part of >₹300 crore armed forces orders",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Ministry of Defence (Army)",
+        "context": "Follow-on procurement order",
+        "year": 2023,
+        "quantity_or_note": "September 2023",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Army / Army Air Defence College, Gopalpur",
+        "context": "Hard-kill variants received",
+        "year": 2024,
+        "quantity_or_note": "Mid-2024 delivery",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Ministry of Defence",
+        "context": "Counter-drone contract",
+        "year": 2025,
+        "quantity_or_note": "₹289 crore (November 2025)",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Ministry of Defence",
+        "context": "Defence orders package (₹332 cr anti-drone + ₹72 cr simulators)",
+        "year": 2026,
+        "quantity_or_note": "₹404 crore total (January 2026)",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Vendor confirmation of 'V3' version label",
+      "Standalone radar detection range figure (20 km claimed engagement range is unverified)",
+      "Indigenous content %",
+      "Specific unit deployments beyond Army Air Defence College Gopalpur"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Zen Technologies is AS9100D, ISO/IEC 27001, and CMMI Maturity Level 5 certified, with approximately 90%+ indigenous content on its simulator product line. For the ZADS counter-UAS platform specifically, the principal imported subsystems are EO/IR gimbals and thermal imaging cores (typically sourced from Teledyne FLIR, Controp, or SCD — USA / Israel / Belgium), RF detector SDR front-ends (Ettus / National Instruments / RTL-SDR — USA / Taiwan), and FPGA for signal processing (Xilinx / AMD — USA). The 12.7 mm heavy machine gun used in the kinetic hard-kill variant is a domestically-produced or licensed-pattern weapon.",
+    "items": [
+      {
+        "component": "EO/IR gimbals / thermal cores",
+        "severity": "Medium",
+        "note": "FLIR / Controp / SCD origin typical",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "RF detector SDR front-ends",
+        "severity": "Medium",
+        "note": "Ettus / NI / RTL-SDR",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "FPGA (Xilinx/AMD)",
+        "severity": "Medium",
+        "note": "Signal processing",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Kinetic effector (12.7 mm HMG)",
+        "severity": "Low",
+        "note": "Domestic / Russia / USA pattern depending on variant",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Zen Technologies — indigenous design",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Zen Technologies — Hyderabad",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "EO/IR + RF SDR + FPGA imported; mechanical/kinetic domestic",
+        "sources": []
+      },
+      {
+        "id": "combat_proven",
+        "label": "Combat proven",
+        "value": 3,
+        "note": "In operational IAF and Army service since 2021; combat-proven status not publicly confirmed",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Zen has export division; ZADS-specific exports not disclosed",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "integrated-counter-drone-system-cus-001",
+      "bhargavastra-counter-drone-system-cus-004",
+      "indrajaal-anti-drone-system-cus-005"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "zen-technologies-mfg-003"
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2021",
+      "event": "First ZADS order from Indian Air Force (part of >₹300 crore armed forces orders)",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2023-09",
+      "event": "Follow-on procurement order from Ministry of Defence",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "Hard-kill variants delivered to Army Air Defence College, Gopalpur",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2025-11",
+      "event": "₹289 crore counter-drone contract signed with MoD",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026-01",
+      "event": "₹404 crore defence orders package signed (₹332 cr anti-drone + ₹72 cr simulators)",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026-05",
+      "event": "Radar update reported for swarm/FPV drone threats",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the Zen ADS-HK variant?",
+      "answer": "ADS-HK is Zen Technologies' hard-kill configuration of the ZADS platform. It offers two effectors: a kinetic option in which an auto-aligned gun engages the target, and a net-based interceptor drone (dedicated interceptor with hanging net) that captures the rogue drone and lands it safely for forensic analysis. The ADS-HK variant was delivered to the Indian Army's Army Air Defence College at Gopalpur from mid-2024.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "What does the 'V3' label mean?",
+      "answer": "The 'V3' label is an Atlas editorial designation. Zen Technologies' official product page markets the system simply as 'Zen Anti Drone System (CUAS)' without a version number. The vendor has not publicly versioned the platform; the May 2026 radar update for swarm and FPV threats represents the latest publicly-known product evolution.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What is the relationship between ZADS and the Zen ADS-HK variant?",
+      "answer": "ZADS (Zen Anti-Drone System) is the base layered counter-UAS platform. Zen ADS-HK is the hard-kill configuration of ZADS, offering two effectors: a kinetic option in which an auto-aligned gun engages the target, and a net-based interceptor drone (a dedicated interceptor with hanging net) that captures the rogue drone and lands it safely for forensic analysis. The ADS-HK variant was delivered to the Indian Army's Army Air Defence College at Gopalpur from mid-2024, indicating that the Indian Army has operationally deployed both soft-kill and hard-kill ZADS configurations.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Vendor confirmation of 'V3' version label",
+    "Standalone radar detection range figure (20 km engagement claim is unverified)",
+    "Indigenous content %",
+    "FPGA / GaN RF / IMU / EO/IR vendor identities not publicly documented",
+    "Specific operational deployments beyond Army Air Defence College Gopalpur"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Anti Drone System (CUAS)",
+      "publisher": "Zen Technologies Limited",
+      "url": "https://www.zentechnologies.com/anti-drone-system-counter-drone-cuas.php",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — Zen Technologies ZADS product page; specific procurement press release preferred"
+    },
+    {
+      "id": "src-2",
+      "title": "Zen Anti-Drone System",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zen_Anti-Drone_System",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Aggregates credible sources; documents 5 km detection, 4 km jamming, 20 km claimed engagement, procurement timeline"
+    },
+    {
+      "id": "src-3",
+      "title": "Zen Technologies Pushes for Hard-Kill Systems against Jam-Resistant Drones, Pioneering AI-Powered Vyomkavach and Zen ADS HK",
+      "publisher": "Defence News India",
+      "url": "https://defence.in/threads/zen-technologies-pushes-for-hard-kill-systems-against-jam-resistant-drones-pioneering-ai-powered-vyomkavach-and-zen-ads-hk.14527",
+      "published_date": "2025-06-15",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Documents 'Zen ADS HK' hard-kill configuration"
+    },
+    {
+      "id": "src-4",
+      "title": "Zen Technologies shares tumble 11% after Q4 profit plunges 69% YoY",
+      "publisher": "Economic Times",
+      "url": "https://m.economictimes.com/markets/stocks/news/zen-technologies-shares-tumble-11-after-q4-profit-plunges-69-yoy/articleshow/130748592.cms",
+      "published_date": "2026-05-04",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Confirms ₹404 cr Jan 2026 defence orders package (₹332 cr anti-drone + ₹72 cr simulators) + Q4 FY26 results context"
+    },
+    {
+      "id": "src-5",
+      "title": "Zen Technologies IPCL filing 26-Jul-2026",
+      "publisher": "NSE India",
+      "url": "https://nsearchives.nseindia.com/corporate/ZENTEC_26072026235400_IPCLSigned26072026.pdf",
+      "published_date": "2026-07-26",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "NSE IPCL filing confirms Q1 FY27 order book ₹1,239.02 crore (₹920.6 cr equipment + ₹318.4 cr AMC); standalone deep-link to corporate filing PDF"
+    },
+    {
+      "id": "src-6",
+      "title": "Zen Anti-Drone System",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zen_Anti-Drone_System",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Aggregates credible sources (India Today, BusinessLine, EurAsian Times, ET, ToI, Forbes India) on procurement timeline including ₹289 cr Nov 2025 contract and Gopalpur hard-kill delivery mid-2024"
+    }
+  ],
+  "seo": {
+    "title": "Zen Anti-Drone System (ZADS) V3 — System · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "Hyderabad-built layered counter-UAS with RF jamming + kinetic/net hard-kill; in Indian Air Force service since 2021 with multiple follow-on contracts.",
+    "canonical_path": "/research/counter-uas/system/zen-anti-drone-system-zads-cus-003/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/counter-uas/manufacturer/zen-technologies-mfg-003/"
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "entity_id": "do228",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "do228",
+  "name": "HAL Do-228",
+  "variant": "Do-228-201 / Hindustan-228 (civil)",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/platform/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Licence-built by HAL at Kanpur under a 1983 Dornier agreement, the Do-228 is a twin-turboprop light utility/maritime aircraft in service with the IAF, Indian Navy and Coast Guard; over 125 built, with fresh Coast Guard orders as recently as February 2026 and a civil Hindustan-228 variant flying UDAN routes.",
+    "chips": [
+      "A",
+      "India-relevant",
+      "HAL Kanpur",
+      "Maritime patrol",
+      "Light utility",
+      "Made in India"
+    ],
+    "maker": "Hindustan Aeronautics Limited (HAL), Transport Aircraft Division, Kanpur (licence from Dornier / RUAG, Germany)",
+    "country": "India (licensed from Germany)",
+    "indigenous_pct": null,
+    "indigenous_label": "Airframe licence-built by HAL Kanpur; Honeywell TPE331 engines and much avionics imported",
+    "mobility_or_class": "Twin-turboprop light utility / maritime patrol aircraft (STOL, ~19-seat class)",
+    "operational_domains": [
+      "air",
+      "naval",
+      "civilian"
+    ]
+  },
+  "at_a_glance": {
+    "Platform": "Dornier Do-228 (HAL licence-built)",
+    "Maker": "HAL Transport Aircraft Division, Kanpur",
+    "Origin": "Dornier GmbH, Germany (licence agreement November 1983)",
+    "First_Indian_rollout": "1985 (Kanpur)",
+    "Units_built_in_India": "~125 by 2014; over 150 military Do-228 produced in India per later trade reporting",
+    "Indian_operators": "Indian Air Force, Indian Navy, Indian Coast Guard",
+    "Engines": "2 x Honeywell (Garrett) TPE331-10/-5 turboprop (imported, USA)",
+    "Latest_order": "MoD–HAL Rs 2,312 crore contract for 8 Do-228 for Indian Coast Guard, Buy (Indian), signed 12 February 2026",
+    "Civil_variant": "Hindustan-228 (17/19-seat), certified 2017; first Indian-made civil aircraft in scheduled service (Alliance Air, Dibrugarh–Pasighat, 12 April 2022) under UDAN"
+  },
+  "what_it_is": {
+    "prose": "The Do-228 is a German-origin twin-turboprop STOL light utility aircraft that Hindustan Aeronautics Limited (HAL) has licence-produced in India since the 1980s. HAL acquired production rights through a licence-production and phased technology-transfer agreement with Dornier in November 1983 and rolled out its first Kanpur-built aircraft in 1985. By 2014 HAL had manufactured around 125 aircraft, and later trade reporting cites more than 150 military Do-228 produced in India. The type serves across three Indian services — the Indian Air Force (communication, light transport, training), the Indian Navy and the Indian Coast Guard (maritime surveillance and patrol) — powered by two imported Honeywell/Garrett TPE331 turboprops. The platform remains in active procurement: the Ministry of Defence signed a Rs 2,312 crore contract with HAL on 12 February 2026 for eight Dornier 228 aircraft for the Indian Coast Guard under the Buy (Indian) category, following an earlier Rs 458.87 crore contract for two ICG Dornier signed on 7 July 2023 that added glass cockpit, maritime patrol radar and an electro-optic/infra-red sensor. A civil derivative, the Hindustan-228, was certified in 2017 and entered scheduled service with Alliance Air on the Dibrugarh–Pasighat route on 12 April 2022 — described as the first Indian-made aircraft used for civil aviation operations — supporting regional-connectivity (UDAN) flying. The Atlas treats the Do-228 as a licence-built platform with a genuine and continuing HAL manufacturing role, without converting local production into an unsupported indigenous-content percentage given the imported engine and avionics content.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Do-228 is one of HAL's longest-running production lines, sustaining the Kanpur Transport Aircraft Division across military and, since 2022, civil orders. The most recent order is the February 2026 MoD contract for eight Coast Guard aircraft (Rs 2,312 crore, Buy (Indian)). Earlier Indian orders include two ICG aircraft in 2023 (Rs 458.87 crore) and, per Wikipedia, a 2015 contract for 14 Do-228 for the IAF (Rs 1,090 crore). The type equips the IAF, Indian Navy and Coast Guard, and now underpins a civil UDAN variant.",
+    "rows": [
+      {
+        "agency": "Indian Coast Guard (via MoD)",
+        "context": "Eight Do-228 aircraft, Buy (Indian) category, with Operational Role Equipment; built by HAL Kanpur",
+        "year": 2026,
+        "quantity_or_note": "8 aircraft, Rs 2,312 crore (signed 12 February 2026)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Coast Guard (via MoD)",
+        "context": "Two Do-228 with glass cockpit, maritime patrol radar, EO/IR device and mission management system",
+        "year": 2023,
+        "quantity_or_note": "2 aircraft, Rs 458.87 crore (signed 7 July 2023)",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Do-228 supply contract (per Wikipedia citing a February 2015 HAL release)",
+        "year": 2015,
+        "quantity_or_note": "14 aircraft, ~Rs 1,090 crore",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Maritime reconnaissance / patrol operator of HAL-built Do-228 fleet",
+        "year": null,
+        "quantity_or_note": "Fleet operator; exact current in-service count not disclosed in retrieved primary sources",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Alliance Air (civil, UDAN)",
+        "context": "Hindustan-228 civil variant entered scheduled service Dibrugarh–Pasighat",
+        "year": 2022,
+        "quantity_or_note": "First Indian-made aircraft in civil scheduled service (12 April 2022)",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact current in-service Do-228 count across IAF, Navy and Coast Guard is not stated in the retrieved primary sources",
+      "Indigenous-content percentage of the HAL-built Do-228 is not disclosed in a primary source",
+      "Delivery schedule for the eight February 2026 ICG aircraft not specified in the PIB release"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Although the airframe is licence-built by HAL at Kanpur, the Do-228's propulsion and much of its mission avionics remain imported. Each aircraft is powered by two Honeywell/Garrett TPE331 turboprops (USA). Maritime variants integrate patrol radar, EO/IR sensors and mission systems whose supplier origins are not itemised in retrieved primary sources.",
+    "items": [
+      {
+        "component": "Turboprop engines (Honeywell/Garrett TPE331-10/-5)",
+        "severity": "High",
+        "note": "Two per aircraft; U.S.-origin. Core propulsion import dependency for the HAL-built airframe.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-3",
+          "src-4"
+        ]
+      },
+      {
+        "component": "Maritime patrol radar / EO-IR sensor / mission management system",
+        "severity": "Medium",
+        "note": "Fitted to ICG maritime variants (per 2023 contract description); supplier origins not disclosed in retrieved sources.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 1,
+        "note": "German (Dornier) design; licence-held by HAL, not indigenous design",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Licence-built end-to-end by HAL Kanpur; long-running Indian production line",
+        "sources": [
+          "src-1",
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "TPE331 engines and mission avionics imported; airframe local",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "~125+ built; fresh 8-aircraft ICG order Feb 2026 (Rs 2,312 crore) plus 2023 order",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "Domestic/tri-service and civil UDAN demand; export not articulated in retrieved primary sources",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "/research/military-aerospace/platform/hs748/",
+      "/research/military-aerospace/platform/htt40/"
+    ],
+    "peer_systems": [
+      "/research/military-aerospace/platform/hs748/"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "1983-11",
+      "event": "HAL signs licence-production and phased technology-transfer agreement with Dornier",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "1985",
+      "event": "First HAL Kanpur-built Do-228 rolled out",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2017",
+      "event": "Civil Hindustan-228 (17/19-seat) certified in India",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2022-04-12",
+      "event": "Hindustan-228 enters civil scheduled service (Alliance Air, Dibrugarh–Pasighat), first Indian-made civil aircraft in service",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2023-07-07",
+      "event": "MoD signs Rs 458.87 crore contract with HAL for 2 Do-228 for Indian Coast Guard",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "event": "MoD signs Rs 2,312 crore contract with HAL for 8 Do-228 for Indian Coast Guard, Buy (Indian)",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Who builds the Do-228 in India and how many have been made?",
+      "answer": "HAL builds the Do-228 under a Dornier licence at its Transport Aircraft Division in Kanpur, having signed the agreement in November 1983 and rolled out its first aircraft in 1985. HAL had manufactured about 125 aircraft by 2014, and later trade reporting cites more than 150 military Do-228 produced in India.",
+      "sources": [
+        "src-3",
+        "src-4"
+      ]
+    },
+    {
+      "question": "Which Indian services operate the Do-228?",
+      "answer": "The Indian Air Force, Indian Navy and Indian Coast Guard all operate HAL-built Do-228s, in roles from light transport and communication to maritime surveillance and patrol. The Coast Guard remains an active buyer, with an eight-aircraft order signed in February 2026.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "Is the Do-228 indigenous?",
+      "answer": "No. It is a German (Dornier) design licence-built by HAL. The airframe is produced in Kanpur, but the two TPE331 engines are imported from Honeywell (USA) and much of the maritime mission avionics is imported, so it is not an indigenous-design platform.",
+      "sources": [
+        "src-3",
+        "src-4"
+      ]
+    },
+    {
+      "question": "What is the civil Hindustan-228?",
+      "answer": "The Hindustan-228 is the civil-certified 17/19-seat derivative of HAL's Do-228. It was certified in 2017 and entered scheduled service with Alliance Air on the Dibrugarh–Pasighat route on 12 April 2022 under India's UDAN regional-connectivity scheme — described as the first Indian-made aircraft used in civil aviation operations.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact current in-service Do-228 count across the three Indian services is not stated in retrieved primary sources",
+    "Indigenous-content percentage of the HAL-built Do-228 is not disclosed in a primary source",
+    "Delivery schedule for the eight February 2026 ICG aircraft not specified in the PIB release"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Aatmanirbhar Bharat: MoD inks Rs 2,312 crore contract with HAL for eight Dornier 228 Aircraft under Buy (Indian) category",
+      "publisher": "Press Information Bureau, Ministry of Defence",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227031&reg=3&lang=1",
+      "published_date": "2026-02-12",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PIB: Rs 2,312 crore, 8 Do-228 for Indian Coast Guard, Buy (Indian), signed 12 Feb 2026, HAL Kanpur."
+    },
+    {
+      "id": "src-2",
+      "title": "Defence Ministry signs Rs 458 cr contract with HAL for 2 Dornier aircraft for Indian Coast Guard",
+      "publisher": "News on AIR (Prasar Bharati)",
+      "url": "https://newsonair.gov.in/defence-ministry-signs-rs-458-cr-contract-with-hal-for-2-dornier-aircraft-for-indian-coast-guard",
+      "published_date": "2023-07-07",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Rs 458.87 crore, 2 Do-228 for ICG; glass cockpit, maritime patrol radar, EO/IR, mission management system; HAL Kanpur."
+    },
+    {
+      "id": "src-3",
+      "title": "Dornier 228",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dornier_228",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Aggregates India facts: 1983 HAL licence, 1985 first Kanpur rollout, ~125 built by 2014, TPE331 engines, Alliance Air Hindustan-228 civil service 2022, 2015 IAF 14-aircraft contract."
+    },
+    {
+      "id": "src-4",
+      "title": "Indian Coast Guard orders 8 more Dornier 228 patrol aircraft from HAL",
+      "publisher": "Aerospace Global News",
+      "url": "https://aerospaceglobalnews.com/news/indian-coast-guard-hal-dornier-228-aircraft-order/",
+      "published_date": "2026-02-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Rs 23 billion (~$254M) 8-aircraft ICG order signed 12 Feb 2026; Honeywell TPE331-10 engines; >150 military Do-228 produced in India; HAL Kanpur."
+    }
+  ],
+  "seo": {
+    "title": "HAL Do-228 — Platform · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "HAL licence-builds the Dornier Do-228 at Kanpur for the IAF, Navy and Coast Guard; 125+ built, an eight-aircraft ICG order signed Feb 2026, and a civil Hindustan-228 flying UDAN routes.",
+    "canonical_path": "/research/military-aerospace/platform/do228/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/platform/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/hs748/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

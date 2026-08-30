@@ -1,0 +1,78 @@
+{
+  "entity_id": "drn-0003",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "drn-0003",
+  "name": "DRDO Archer",
+  "variant": "Archer",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-30",
+  "status": "Prototype",
+  "header": {
+    "one_liner": "DRDO Archer — Prototype status drone platform.",
+    "chips": [
+      "C",
+      "Limited evidence"
+    ],
+    "maker": "See manufacturer dossier",
+    "country": "Mixed",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Name": "DRDO Archer",
+    "Status": "Prototype",
+    "Variant": "Archer"
+  },
+  "what_it_is": {
+    "prose": "DRDO Archer target drone system.",
+    "sources": []
+  },
+  "open_questions": [
+    "Primary India service source",
+    "Manufacturer verification"
+  ],
+  "sources": [
+    {
+      "id": "src-p1",
+      "title": "DRDO Archer",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Initial placeholder from live hub mapping."
+    }
+  ],
+  "seo": {
+    "title": "DRDO Archer — Platform · India Drones-UAS Atlas | Techadyant",
+    "meta_description": "DRDO Archer platform dossier in the India Drones-UAS Atlas.",
+    "canonical_path": "/research/drones-uas/platform/drn-0003/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/platform/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

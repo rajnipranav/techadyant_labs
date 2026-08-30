@@ -1,0 +1,89 @@
+{
+  "entity_id": "europrop",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "europrop",
+  "name": "Europrop International",
+  "variant": "EPI",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "European four-partner consortium (Safran, Rolls-Royce, MTU, ITP Aero) that builds the TP400-D6 turboprop — the world's most powerful Western single-rotation turboprop — which powers only the Airbus A400M; with the A400M not in Indian service, Europrop has no India footprint.",
+    "chips": [
+      "C",
+      "No India footprint",
+      "TP400-D6",
+      "A400M propulsion",
+      "Consortium",
+      "Foreign OEM"
+    ],
+    "maker": "Safran, Rolls-Royce, MTU Aero Engines, ITP Aero",
+    "country": "Europe (multinational consortium)",
+    "indigenous_pct": null,
+    "indigenous_label": "Not in Indian service; no Indian production or partner",
+    "mobility_or_class": "Heavy turboprop consortium (TP400-D6, ~11,000 shp)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Europrop International GmbH (Safran / Rolls-Royce / MTU / ITP Aero)",
+    "Country": "Europe (multinational consortium)",
+    "India_status": "NOT in Indian service; no order, no Indian industrial partner",
+    "Tier_C_reason": "No India footprint. TP400-D6 powers only the A400M, which has no Indian order and was reportedly out of contention in the MTA tender on size/cost grounds.",
+    "Key_engine": "TP400-D6 turboprop — four per Airbus A400M Atlas",
+    "Engine_note": "Most powerful Western single-rotation turboprop in production (~11,000 shp)",
+    "India_relevance": "None in service; only indirect, via the A400M's earlier nominal MTA candidacy"
+  },
+  "what_it_is": {
+    "prose": "Europrop International (EPI) is a European four-partner engine consortium — Safran Aircraft Engines, Rolls-Royce, MTU Aero Engines and Spain's ITP Aero — that develops and produces the TP400-D6 turboprop, the most powerful Western single-rotation turboprop in production at roughly 11,000 shaft horsepower. The TP400-D6 has a single application: four of them power the Airbus A400M Atlas strategic/tactical airlifter. Because the A400M is not in Indian service — it has no Indian order and is widely reported to have fallen out of contention in the Indian Air Force's Medium Transport Aircraft (MTA) tender on size (~37-tonne payload) and cost grounds — Europrop International has no engines in Indian service, no Indian order and no Indian industrial partner. This dossier is deliberately a short Tier C stub documenting the absence of an India footprint rather than inferring one.",
+    "sources": [
+      "src-safran-epi",
+      "src-wiki-epi"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-safran-epi",
+      "title": "Europrop International — TP400 engine program coordinator",
+      "publisher": "Safran S.A.",
+      "url": "https://www.safran-group.com/companies/europrop-international",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Safran (a consortium partner) page confirming EPI's four-partner structure and the TP400-D6/A400M application"
+    },
+    {
+      "id": "src-wiki-epi",
+      "title": "Europrop International",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Europrop_International",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Consortium membership and TP400-D6 background; A400M is the sole application; aggregates credible sources"
+    }
+  ],
+  "seo": {
+    "title": "Europrop International — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Europrop's TP400-D6 turboprop powers only the Airbus A400M, which is not in Indian service; the consortium has no India footprint. Tier C stub.",
+    "canonical_path": "/research/military-aerospace/company/europrop/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/a400m/",
+      "/research/military-aerospace/company/"
+    ]
+  }
+}

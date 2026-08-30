@@ -1,0 +1,95 @@
+{
+  "entity_id": "telair",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "telair",
+  "name": "Telair International",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Cargo-handling and loading-systems OEM (TransDigm group) whose military pallet-locking and cargo systems equip airlifters of the C-130 / C-295 class. Component supplier with no discrete India defence evidence — Tier C.",
+    "chips": [
+      "Tier C",
+      "Germany",
+      "USA",
+      "TransDigm",
+      "Cargo handling",
+      "Pallet locking",
+      "Airlifters"
+    ],
+    "country": "Germany / United States",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign component/sub-system supplier — no standalone India footprint",
+    "mobility_or_class": "Component/sub-system supplier (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Telair International GmbH / Telair US LLC",
+    "Parent": "TransDigm Group (NYSE: TDG)",
+    "HQ": "Miesbach, Germany (and USA)",
+    "Product_lines": "Cargo loading systems, military pallet-locking systems, cargo floors and roller systems",
+    "Relevance": "Cargo handling for military airlifters (C-130, C-295 class)",
+    "Tier_C_reason": "Embedded cargo-system supplier; no citable standalone India defence order"
+  },
+  "what_it_is": {
+    "prose": "Telair International (a TransDigm group company) is an OEM of aircraft cargo-loading and handling systems, including military pallet-locking systems, cargo floors and roller/conveyor systems. Its equipment is fitted to military airlifters of the C-130 and C-295 class, but as an embedded cargo sub-system supplied through the airframer rather than through any discrete, publicly documented India defence contract. Recorded as an honest Tier C component-supplier card.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Military pallet locking system",
+      "publisher": "Telair (official)",
+      "url": "https://telair.com/portfolio-item/military-pallet-locking-system/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Military cargo pallet-locking product"
+    },
+    {
+      "id": "src-2",
+      "title": "Cargo handling systems — innovative solutions by TELAIR",
+      "publisher": "Telair (official)",
+      "url": "https://telair.com/cargo-handling-systems-innovative-solutions-by-telair/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Cargo handling product overview"
+    }
+  ],
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "seo": {
+    "title": "Telair International — Company · India Military Aerospace Atlas | Techadyant",
+    "canonical_path": "/research/military-aerospace/company/telair/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ],
+    "meta_description": "Cargo-handling OEM (TransDigm) whose pallet-locking and cargo systems equip C-130/C-295-class airlifters; no discrete India defence evidence. Tier C."
+  }
+}

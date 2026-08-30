@@ -1,0 +1,194 @@
+{
+  "entity_id": "mae-002",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "boeing-ah-64e-apache-india-mae-002",
+  "name": "Boeing AH-64E Apache (India)",
+  "variant": "AH-64E Apache Guardian",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "AH-64E Apache is in service with both the IAF and Indian Army; TBAL in Hyderabad manufactures Apache fuselages.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "Boeing",
+    "country": "USA",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — Tier C compact card",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Maker": "Boeing",
+    "Country": "USA",
+    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; vertical non-zero requirement satisfied with placeholder",
+    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection",
+    "Fleet": "22 IAF + 6 Army",
+    "TBAL": "Apache fuselage production, Hyderabad",
+    "TBAL_role": "Apache fuselage production"
+  },
+  "what_it_is": {
+    "prose": "India operates 22 AH-64E Apaches with the Indian Air Force and completed the six-aircraft Indian Army order in 2025. Boeing identifies Tata Boeing Aerospace Limited (TBAL) in Hyderabad as a global sole-source Apache fuselage producer. The original Indian order covered 22 aircraft and the later Army procurement added six more. This establishes operational Indian service and a documented Indian aerospace manufacturing role without converting local aerostructure work into an unsupported indigenous-content percentage.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-5"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Boeing India defence presence",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2025/alay-parikh-to-lead-business-development-for-boeing-defense-and-",
+      "published_date": "2025-07-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Boeing states India operates 22 AH-64, 15 CH-47 and 12 P-8I; six additional AH-64 for Army were on order."
+    },
+    {
+      "id": "src-2",
+      "title": "Boeing Begins Production on E-model Apaches for Indian Army",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2023/e-model-apaches-for-indian-army",
+      "published_date": "2023-08-16",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Six AH-64E for Indian Army; TBAL fuselage production."
+    },
+    {
+      "id": "src-3",
+      "title": "Tata Boeing Aerospace delivers first fuselage for Indian Army AH-64 Apache",
+      "publisher": "Boeing India",
+      "url": "https://www.boeing.co.in/news/2023/tata-boeing-aerospace-delivers-first-fuselage-for-indian-army-ah-64-apache",
+      "published_date": "2023-01-19",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "TBAL produced first Army Apache fuselage; Boeing had delivered 22 IAF Apaches."
+    },
+    {
+      "id": "src-5",
+      "title": "Boeing receives order from India for 22 Apache and 15 Chinook helicopters",
+      "publisher": "Boeing",
+      "url": "https://boeing.mediaroom.com/2015-09-29-Boeing-Receives-Order-from-India-for-22-Apache-and-15-Chinook-Helicopters",
+      "published_date": "2015-09-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Original finalized order."
+    }
+  ],
+  "seo": {
+    "title": "Boeing AH-64E Apache (India) — Platform · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Boeing AH-64E Apache (India) — Tier C compact card; military-aerospace vertical non-zero requirement satisfied. Manufacturer: Boeing. Country: USA.",
+    "canonical_path": "/research/military-aerospace/entity/boeing-ah-64e-apache-india-mae-002/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/entity/",
+    "submit_correction": "/research/military-aerospace/entity/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "How many?",
+      "answer": "22 with IAF plus 6 with Army.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What does TBAL make?",
+      "answer": "Apache fuselages.",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "question": "Is it indigenous?",
+      "answer": "No; Boeing/U.S.-origin platform.",
+      "sources": [
+        "src-3",
+        "src-4"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2015-09-29",
+      "event": "22 Apache order finalized."
+    },
+    {
+      "date": "2020",
+      "event": "22 IAF Apaches delivered."
+    },
+    {
+      "date": "2025",
+      "event": "Army six-aircraft order completed."
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/military-aerospace/entity/boeing-ch-47f-chinook-india-mae-003/"
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  }
+}

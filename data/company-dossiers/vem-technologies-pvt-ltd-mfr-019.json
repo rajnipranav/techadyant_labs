@@ -1,0 +1,466 @@
+{
+  "entity_id": "atl-cmp-vem-technologies-pvt-ltd-mfr-019",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "vem-technologies-pvt-ltd-mfr-019",
+  "name": "Vem Technologies Pvt Ltd",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/vem-technologies-pvt-ltd-mfr-019/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "VEM Technologies Pvt Ltd is a Hyderabad-based Indian private-sector aerospace, defence and homeland security systems solutions company founded in 1988 by V. Venkata Raju (Chairman & Managing Director)",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Hyderabad, Telangana, India",
+    "Type": "Manufacturer (listed)",
+    "Founded": "1988 (founded by V. Venkata Raju and family; per Times of India May 2026 and IADB Feb 2023. Note: Tracxn cites 1993 — using 1988 as authoritative per ToI/Hindu)",
+    "India entity": null,
+    "Listed": "Not listed — private company; received ₹185 crore growth capital investment from InCred Capital Financial Services (May 2026)",
+    "Key India role": "VEM Technologies Pvt Ltd is a Hyderabad-based Indian private-sector aerospace, defence and homeland security systems solutions company founded in 1988 by V. Venkata Raju (Chairman & Managing Director)"
+  },
+  "what_it_is": {
+    "prose": "VEM Technologies Pvt Ltd is a Hyderabad-based Indian private-sector aerospace, defence and homeland security systems solutions company founded in 1988 by V. Venkata Raju (Chairman & Managing Director). The company employs over 900-1,200 professionals and has core business verticals in Missiles, Aerostructures, and Space components. VEM Technologies is one of the major production partners of BrahMos Aerospace Pvt Ltd (BAPL) — delivered fully indigenous component of BrahMos weapon system on 2 February 2017. VEM supplies critical systems and components for prominent strategic missile programmes including BrahMos, Akash, and others (per Manufacturing Today India). The company is developing: (1) Ajita — a complete Air Defence System including sensors, mounting vehicle, missiles and their launchers for air defence; (2) Vidhwamsak — indigenous 250 km range missile (per SaveJammu Facebook post); VEM has the licence to develop 10,000 tactical missiles per year (per The Hindu, June 2022). VEM Technologies plans to build company-designed aircraft by 2027 (per MD interview). On 20 May 2026, VEM Technologies secured ₹185 crore growth capital investment from InCred Capital Financial Services.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "8 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Missile systems",
+        "role": "OEM",
+        "india_status": "BrahMos production partner (delivered fully indigenous component Feb 2017); Akash missile components; tactical missile programmes",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Ajita",
+        "role": "OEM",
+        "india_status": "complete Air Defence System (sensors, mounting vehicle, missiles and launchers for air defence)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Vidhwamsak",
+        "role": "OEM",
+        "india_status": "indigenous 250 km range missile (in development)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Aerostructures for Indian aerospace programmes",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Space components",
+        "role": "OEM",
+        "india_status": "satellites and launch vehicle subsystems",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Anti-tank missiles",
+        "role": "OEM",
+        "india_status": "VEM has licence to develop 10,000 tactical missiles per year",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Homeland security systems",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Company-designed aircraft (planned by 2027 per MD interview)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "6 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "VEM Technologies delivered fully indigenous component of BrahMos weapon system on 2 February 2017 — system completely developed indigenously from raw material to final product",
+        "year": "2017",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "VEM Technologies secured ₹185 crore growth capital investment from InCred Capital Financial Services (20 May 2026)",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "VEM Technologies is developing Ajita Air Defence System — includes sensors, mounting vehicle, missiles and their launchers for air defence (Feb 2025, Aeromag Asia)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "VEM Technologies developing indigenous 250km range Vidhwamsak missile; has licence to develop 10,000 tactical missiles per year (per The Hindu June 2022)",
+        "year": "2022",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "VEM Technologies plans to build company-designed aircraft by 2027 (per Managing Director interview)",
+        "year": "2027",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "VEM supplies critical systems and components for BrahMos, Akash and other strategic missile programmes",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "12 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "Medium",
+        "note": "1 official, 8 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was VEM Technologies founded?",
+      "answer": "VEM Technologies Pvt Ltd is a Hyderabad-based Indian private-sector aerospace, defence and homeland security systems solutions company founded in 1988 by V.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Where is VEM Technologies headquartered?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Who is the founder and CMD of VEM Technologies?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which major Indo-Russian missile programme is VEM Technologies a production partner for?",
+      "answer": "VEM Technologies is one of the major production partners of BrahMos Aerospace Pvt Ltd (BAPL) — delivered fully indigenous component of BrahMos weapon system on 2 February 2017.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the Ajita Air Defence System?",
+      "answer": "The company is developing: (1) Ajita — a complete Air Defence System including sensors, mounting vehicle, missiles and their launchers for air defence; (2) Vidhwamsak — indigenous 250 km range missile (per SaveJammu Facebook post); VEM has the licence to develop 10,000 tactical missiles per year (per The Hindu, June 2022).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the Vidhwamsak missile's reported range?",
+      "answer": "The company is developing: (1) Ajita — a complete Air Defence System including sensors, mounting vehicle, missiles and their launchers for air defence; (2) Vidhwamsak — indigenous 250 km range missile (per SaveJammu Facebook post); VEM has the licence to develop 10,000 tactical missiles per year (per The Hindu, June 2022).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "VEM Technologies headquartered in Hyderabad, India — Aerospace, Defence and Homeland Security systems solutions company; 900+ employees; V. Venkata Raju is founder, Chairman and MD",
+      "publisher": "Aviationspace India",
+      "url": "https://aviationspaceindia.com/content/vem-technologies-pvtltd",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "VEM Technologies delivers fully indigenous component of BrahMos weapon system (2 Feb 2017) — major production partner of BAPL",
+      "publisher": "BrahMos Aerospace Official",
+      "url": "https://www.brahmos.com/brahmos-in-media/71",
+      "published_date": "2017-02-02",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "VEM developing complete Air Defence System 'Ajita' — includes sensors, mounting vehicle, missiles and their launchers for air defence (11 Feb 2025)",
+      "publisher": "Aeromag Asia",
+      "url": "https://www.aeromagasia.com/news/aerospace/vem-technologies-contributing-to-indias-self-reliance-in-aerospace-defence",
+      "published_date": "2025-02-11",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "VEM developing Ajita Air Defence System — sensors, mounting vehicle, missiles and launchers for air defence",
+      "publisher": "SP's ShowNews (Aero India 2025)",
+      "url": "https://www.spsshownews.com/aero-india-2025/story/?id=10&h=VEM-Technologies-Ignited-Minds",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "VEM has licence to develop 10,000 tactical missiles a year — V. Venkat Raju, CMD (23 June 2022)",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/key-role-of-hyderabad-firm-in-making-indigenous-anti-tank-missile/article65553870.ece",
+      "published_date": "2022-06-23",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "VEM Technologies founded in 1988 by V Venkata Raju and family; private-sector defence and aerospace manufacturer; secured ₹185 crore investment from InCred (20 May 2026)",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/hyderabad/vem-technologies-bags-rs-185-crore-investment-from-incred/articleshow/131230511.cms",
+      "published_date": "2026-05-20",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Hyderabad-based VEM Technologies secures ₹185 crore growth capital investment from InCred Capital Financial Services (20 May 2026)",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/defence-firm-vem-tech-secures-185-cr-investment-from-incred/article71002610.ece",
+      "published_date": "2026-05-20",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "VEM Technologies known for supplying critical systems and components for strategic missile programmes including BrahMos, Akash and others (23 May 2026)",
+      "publisher": "Manufacturing Today India",
+      "url": "https://www.manufacturingtodayindia.com/vem-technologies-secures-rs-185-cr",
+      "published_date": "2026-05-23",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "VEM Tech's inception in 1988 — major player in tactical missile programmes (10 Feb 2023); V Venkata Raju CMD",
+      "publisher": "IADB",
+      "url": "https://www.iadb.in/2023/02/10/vem-tech-on-a-growth-trajectory",
+      "published_date": "2023-02-10",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "VEM Technologies Pvt Ltd — based in Hyderabad; specializes in aerospace, defense and homeland security solutions; 1200+ professionals",
+      "publisher": "Scribd",
+      "url": "https://www.scribd.com/document/835120243/INTRODUCTION-TO-VEM-TECHNOLOGIES-PVT-B-Tech",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "Hyderabad-based VEM Technologies developing indigenous 250km range Vidhwamsak missile; licence to develop 10,000 tactical missiles a year — V. Venkat Raju, CMD",
+      "publisher": "SaveJammu Facebook",
+      "url": "https://www.facebook.com/Savejmmu/posts/hyderabad-based-vem-technogies-is-developing-an-indigenous-250km-range-vidhwams-/1059897346183398",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "VEM Technologies plans to build company-designed aircraft by 2027 — MD Venkat Raju interview",
+      "publisher": "Next Generation Weapons (Facebook)",
+      "url": "https://www.facebook.com/NextGenerationWeapons/photos/vem-technologies-plans-to-build-company-designed-aircraft-by-2027-managing-direc/2760884167280398",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Vem Technologies Pvt Ltd — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Vem Technologies Pvt Ltd company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/vem-technologies-pvt-ltd-mfr-019/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/vem-technologies-pvt-ltd-mfr-019/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

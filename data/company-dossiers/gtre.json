@@ -1,0 +1,207 @@
+{
+  "entity_id": "atl-cmp-gtre",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "gtre",
+  "name": "Gas Turbine Research Establishment (GTRE)",
+  "variant": null,
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/gtre/",
+  "last_verified": "2026-08-30",
+  "status": "In development",
+  "header": {
+    "one_liner": "DRDO aero-engine R&D lab — Kaveri turbofan, Ghatak/AMCA powerplant studies.",
+    "chips": [
+      "military-aerospace",
+      "india-r-and-d",
+      "aero-engine"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": [
+      "Air"
+    ]
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India",
+    "Type": "DRDO Laboratory — aero-engine R&D",
+    "Founded": "1959",
+    "India entity": "GTRE, DRDO, Bengaluru",
+    "Listed": "Not applicable (government lab)",
+    "Key India role": "GTRE is DRDO's lead laboratory for aero-engine R&D. Its flagship programme is the Kaveri turbofan engine, originally developed for the LCA Tejas but not adopted due to weight and thrust shortfalls. Th"
+  },
+  "what_it_is": {
+    "prose": "GTRE is DRDO's lead laboratory for aero-engine R&D. Its flagship programme is the Kaveri turbofan engine, originally developed for the LCA Tejas but not adopted due to weight and thrust shortfalls. The Kaveri has been used as a technology demonstrator and a maritime derivative (Kaveri Marine) was tested for naval applications. GTRE is now developing the Kaveri derivative for the Ghatak UCAV and AMCA powerplant studies, and is part of the MoD's aero-engine roadmap with Safran and GE Aerospace partnerships.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "2 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Kaveri turbofan (technology demonstrator)",
+        "role": "OEM",
+        "india_status": "Not in service; technology demonstrator",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "Ghatak UCAV powerplant (Kaveri derivative)",
+        "role": "OEM",
+        "india_status": "In development",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "1 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "DRDO Ghatak UCAV programme",
+        "context": "Kaveri derivative for UCAV",
+        "year": "2020",
+        "quantity_or_note": "In development",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Will the Kaveri derivative power the production AMCA?",
+      "Has Safran's proposed 100% ToT M88 partnership with DRDO been agreed?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Limited",
+        "note": "3 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "None%",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "In development",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is GTRE's main programme?",
+      "answer": "GTRE develops the Kaveri turbofan, originally for the LCA Tejas but now used as a technology demonstrator. A Kaveri derivative is being developed for the Ghatak UCAV and AMCA studies.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Why was the Kaveri not used on the Tejas?",
+      "answer": "The Kaveri did not meet the Tejas weight and thrust requirements, and the LCA was re-engined with the GE F404. The Kaveri continues as a technology demonstrator for UAV and AMCA applications.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Will the Kaveri derivative power the production AMCA?",
+    "Has Safran's proposed 100% ToT M88 partnership with DRDO been agreed?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "GTRE — official site",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/labs-and-establishments/gas-turbine-research-establishment-gtre/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "DRDO deep-link to GTRE laboratory page"
+    },
+    {
+      "id": "src-02",
+      "title": "Kaveri engine — DRDO brochure",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/kaveri-engine",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "DRDO Kaveri product page"
+    },
+    {
+      "id": "src-03",
+      "title": "Kaveri engine for Ghatak UCAV — Janes",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-news/news-detail/drdo-to-develop-kaveri-derived-engine-for-ghatak-ucav",
+      "published_date": "2020-08-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Coverage of Kaveri engine for Ghatak UCAV"
+    }
+  ],
+  "seo": {
+    "title": "Gas Turbine Research Establishment (GTRE) — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Gas Turbine Research Establishment (GTRE) company dossier: India military-aerospace role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/military-aerospace/gtre/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/gtre/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

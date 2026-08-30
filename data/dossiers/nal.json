@@ -1,0 +1,301 @@
+{
+  "entity_id": "nal",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "nal",
+  "name": "CSIR-National Aerospace Laboratories (CSIR-NAL)",
+  "variant": "CSIR civil-aerospace R&D laboratory",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's premier civil-aerospace R&D laboratory under CSIR; designer of the all-composite HANSA-3 (NG) trainer (production version launched Nov 2025) and the 19-seater SARAS Mk-2 light transport aircraft, and a national resource for aircraft composites, wind tunnels and structural testing used across military programmes.",
+    "chips": [
+      "Tier A",
+      "CSIR lab",
+      "HANSA-3 NG",
+      "SARAS Mk-2",
+      "Composites",
+      "Wind tunnels",
+      "Structural test",
+      "HAPS"
+    ],
+    "maker": "Council of Scientific & Industrial Research (CSIR), Government of India",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Indigenous design and composites development; engines (Rotax/imported) and some avionics on its aircraft remain imported",
+    "mobility_or_class": "Aerospace R&D laboratory (design & test, not a serial OEM)",
+    "operational_domains": [
+      "air",
+      "civilian"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "CSIR-National Aerospace Laboratories (CSIR-NAL)",
+    "Ownership": "Constituent laboratory of the Council of Scientific & Industrial Research (CSIR), Ministry of Science & Technology, Government of India",
+    "Established": "1959 (as National Aeronautical Laboratory)",
+    "HQ": "Bengaluru, Karnataka, India",
+    "Flagship_aircraft": "HANSA-3 (NG) two-seat all-composite trainer; SARAS Mk-2 19-seater light transport",
+    "HANSA_3_NG_launch": "Production version launched 29 November 2025 by Union Minister Dr Jitendra Singh",
+    "HANSA_production_partner": "M/s Pioneer Clean Amps — ₹150 crore facility at Kuppam, Andhra Pradesh, up to 100 aircraft/year",
+    "SARAS_Mk2": "19-seater pressurised light transport for civil and military use; Iron Bird integration facility inaugurated Nov 2025",
+    "Core_facilities": "Wind tunnels, composites/airframe fabrication, structural testing, flight simulation; HAPS (High Altitude Platform) fabrication facility",
+    "Also_supports": "National combat-aircraft programmes via composites, wind-tunnel testing and structural qualification"
+  },
+  "what_it_is": {
+    "prose": "CSIR-National Aerospace Laboratories (CSIR-NAL) is India's premier civil-aerospace research and development laboratory, a constituent of the Council of Scientific & Industrial Research established in 1959 (originally the National Aeronautical Laboratory) and headquartered in Bengaluru. NAL's mandate spans indigenous civil aircraft design, aerospace composites, wind-tunnel and structural testing, and aeronautical technologies that also feed India's military-aircraft ecosystem. Its two flagship aircraft programmes are the HANSA-3 (NG) — a two-seat, all-composite trainer for private and commercial pilot licensing whose production version was launched on 29 November 2025 by Union Minister Dr Jitendra Singh at the CSIR-NAL campus — and the SARAS Mk-2, a 19-seater pressurised light transport aircraft being developed for both civil regional connectivity and military operations, with features including a glass cockpit, digital avionics, autopilot and command-by-wire flight controls. HANSA-3 (NG) production has been transferred to industry partner M/s Pioneer Clean Amps, which is setting up a ₹150 crore facility at Kuppam, Andhra Pradesh, with capacity for about 100 aircraft a year, addressing a projected national need of nearly 30,000 pilots over 15-20 years. Alongside these aircraft, in November 2025 NAL inaugurated a SARAS Mk-2 Iron Bird full-system integration facility and a High Altitude Platforms (HAPS) solar-powered unmanned-aircraft fabrication facility, and formalised collaboration with Solar Defence & Aerospace Ltd. for a 150-kg-class loitering-munition UAV. NAL's wind tunnels, composite airframe technologies and structural-test capability are national assets used across defence aerospace programmes, giving it military-aerospace relevance beyond its civil aircraft.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-5"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "NAL is an R&D laboratory rather than a procurement contractor; its 'deployments' are aircraft programmes and national test infrastructure. The most significant recent milestone is the November 2025 launch of the production-standard HANSA-3 (NG) trainer with technology transfer to a private manufacturing partner, alongside the SARAS Mk-2 19-seater programme (dual civil/military use) and new HAPS and loitering-munition initiatives.",
+    "rows": [
+      {
+        "agency": "Civil aviation / flying training sector (via industry partner)",
+        "context": "HANSA-3 (NG) all-composite trainer — production version launched, ToT to M/s Pioneer Clean Amps",
+        "year": 2025,
+        "quantity_or_note": "Launched 29 Nov 2025; ₹150 crore Kuppam plant, up to 100 aircraft/year",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Regional connectivity / Indian armed forces (development)",
+        "context": "SARAS Mk-2 19-seater pressurised light transport for civil and military operations",
+        "year": null,
+        "quantity_or_note": "Iron Bird integration facility inaugurated Nov 2025; prototype manufacturing phase",
+        "sources": [
+          "src-1",
+          "src-4"
+        ]
+      },
+      {
+        "agency": "Solar Defence & Aerospace Ltd. (collaboration)",
+        "context": "150-kg-class loitering-munition UAV; HAPS solar-powered UAV fabrication facility",
+        "year": 2025,
+        "quantity_or_note": "Collaboration formalised Nov 2025",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Firm HANSA-3 (NG) order quantities from flying schools not yet publicly consolidated",
+      "SARAS Mk-2 certification and induction timeline not fixed in public statements",
+      "Extent of NAL's direct role in current combat-aircraft (Tejas/AMCA) test campaigns not itemised publicly"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "NAL's design, composites and testing work is indigenous, but its aircraft rely on imported propulsion and some avionics. The HANSA-3 (NG) uses an imported (Rotax-class) piston engine, and the SARAS Mk-2 integrates turboprop engines and avionics with foreign content. NAL's structural-test and wind-tunnel capability is domestic and a national strength.",
+    "items": [
+      {
+        "component": "Trainer piston engine (HANSA-3 NG)",
+        "severity": "Medium",
+        "note": "Imported light-aircraft engine (Rotax-class); airframe is indigenous all-composite",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "SARAS Mk-2 turboprop engine & avionics",
+        "severity": "High",
+        "note": "Turboprop propulsion and glass-cockpit avionics involve imported systems",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Indigenous design of HANSA and SARAS; national composites and wind-tunnel R&D authority",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 2,
+        "note": "R&D lab; serial production transferred to industry partners (e.g. Pioneer Clean Amps)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical-component sovereignty",
+        "value": 3,
+        "note": "Airframe/composites indigenous; engines and some avionics imported",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Programme scale",
+        "value": 3,
+        "note": "Multiple aircraft and UAV programmes plus national test infrastructure",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export / commercialisation posture",
+        "value": 2,
+        "note": "Primarily domestic civil/defence R&D; export limited",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "1959",
+      "event": "National Aeronautical Laboratory (later CSIR-NAL) established under CSIR",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2025-11-29",
+      "event": "Production version of HANSA-3 (NG) trainer launched by Dr Jitendra Singh; SARAS Mk-2 Iron Bird and HAPS facilities inaugurated at CSIR-NAL Bengaluru",
+      "sources": [
+        "src-1",
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026-07",
+      "event": "SARAS Mk-2 design frozen / prototype manufacturing advanced; HANSA-3 (NG) moves toward mass production",
+      "sources": [
+        "src-4"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is CSIR-NAL and what does it do?",
+      "answer": "CSIR-National Aerospace Laboratories is India's premier civil-aerospace R&D laboratory, a constituent of the Council of Scientific & Industrial Research established in 1959 and based in Bengaluru. It designs indigenous civil aircraft (HANSA trainers and the SARAS light transport), develops aerospace composites, and operates national wind-tunnel, structural-test and flight-simulation facilities that also support India's military-aircraft programmes.",
+      "sources": [
+        "src-1",
+        "src-5"
+      ]
+    },
+    {
+      "question": "What is the HANSA-3 (NG) and when did it enter production?",
+      "answer": "HANSA-3 (NG) is a two-seat, all-composite pilot trainer designed by CSIR-NAL for private and commercial pilot licensing. Its production version was launched on 29 November 2025 by Union Minister Dr Jitendra Singh at the CSIR-NAL campus in Bengaluru. Production has been transferred to industry partner M/s Pioneer Clean Amps, which is establishing a ₹150 crore facility at Kuppam, Andhra Pradesh, capable of building up to 100 aircraft a year — aimed at India's projected need for nearly 30,000 pilots over the next 15-20 years.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What is the SARAS Mk-2 and does it have a military role?",
+      "answer": "SARAS Mk-2 is a 19-seater pressurised light transport aircraft being developed by CSIR-NAL for both civil regional connectivity and military operations, with a glass cockpit, digital avionics, autopilot and command-by-wire flight controls. Its Iron Bird full-system integration facility was inaugurated in November 2025. NAL also inaugurated a High Altitude Platforms (HAPS) fabrication facility and formalised a collaboration for a 150-kg-class loitering-munition UAV, extending its relevance into military aerospace.",
+      "sources": [
+        "src-1",
+        "src-4"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Consolidated HANSA-3 (NG) firm orders from flying schools not yet public",
+    "SARAS Mk-2 certification/induction timeline unfixed",
+    "NAL's specific current contributions to Tejas/AMCA test campaigns not publicly itemised"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "At Bengaluru, Dr Jitendra Singh launches first indigenous Pilot trainer Aircraft 'Hansa-3 NG', reviews plan for 19-seater Aircraft",
+      "publisher": "Press Information Bureau, Ministry of Science & Technology",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2196361&reg=3&lang=1",
+      "published_date": "2025-11-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official launch of production HANSA-3 (NG); SARAS Mk-2 review; Iron Bird, HAPS facilities; loitering-munition collaboration"
+    },
+    {
+      "id": "src-2",
+      "title": "India unveils indigenous Hansa-3 NG trainer aircraft; reviews plan for 19-seater SARAS Mk-2",
+      "publisher": "DD News (Prasar Bharati)",
+      "url": "https://ddnews.gov.in/en/india-unveils-indigenous-hansa-3-ng-trainer-aircraft-reviews-plan-for-19-seater-saras-mk-2/",
+      "published_date": "2025-11-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Government broadcaster confirmation of HANSA-3 (NG) launch and SARAS Mk-2 plan"
+    },
+    {
+      "id": "src-3",
+      "title": "Minister Dr Jitendra Singh Unveils Hansa-3 NG Trainer Aircraft in Bengaluru",
+      "publisher": "NewsOnAir (Prasar Bharati / AIR)",
+      "url": "https://www.newsonair.gov.in/minister-dr-jitendra-singh-unveils-hansa-3-ng-trainer-aircraft-in-bengaluru",
+      "published_date": "2025-11-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Confirms unveiling date, minister, NAL indigenous design of HANSA-3 (NG)"
+    },
+    {
+      "id": "src-4",
+      "title": "India Advances SARAS MK-2 Aircraft As Hansa-3-NG Moves To Mass Production",
+      "publisher": "Indian Defense News",
+      "url": "https://www.indiandefensenews.in/2026/07/india-advances-saras-mk-2-aircraft-as.html",
+      "published_date": "2026-07-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "SARAS Mk-2 design/prototype progress; HANSA-3 NG mass-production status"
+    },
+    {
+      "id": "src-5",
+      "title": "CSIR-National Aerospace Laboratories — official site",
+      "publisher": "CSIR-NAL",
+      "url": "https://www.nal.res.in/en/newspage",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Official CSIR-NAL news page confirming institutional identity and programmes"
+    }
+  ],
+  "seo": {
+    "title": "CSIR-National Aerospace Laboratories (CSIR-NAL) — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "India's premier civil-aerospace R&D laboratory under CSIR; designer of the all-composite HANSA-3 (NG) trainer (production launched Nov 2025) and the 19-seater SARAS Mk-2, and national resource for composites, wind tunnels and structural testing.",
+    "canonical_path": "/research/military-aerospace/company/nal/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/company/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

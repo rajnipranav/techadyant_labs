@@ -1,0 +1,109 @@
+{
+  "entity_id": "atl-cmp-newspace-research",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "newspace-research",
+  "name": "Newspace Research",
+  "variant": null,
+  "vertical": "space",
+  "parent_hub_path": "/research/space/newspace-research/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Newspace Research — see primary drones-uas dossier for NewSpace Research and Technologies Pvt Ltd (NRT).",
+    "chips": [
+      "space",
+      "pointer-to-primary",
+      "NewSpace Research and Technologies Pvt Ltd (NRT)"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "See primary dossier",
+    "Type": "Company",
+    "Founded": null,
+    "India entity": "See primary dossier",
+    "Listed": null,
+    "Key India role": "Also tracked under drones-uas as NewSpace Research and Technologies Pvt Ltd (NRT)."
+  },
+  "what_it_is": {
+    "prose": "Newspace Research is also tracked on the Atlas under drones-uas as NewSpace Research and Technologies Pvt Ltd (NRT). This space entry is a navigation pointer; the full sourced dossier — including India portfolio, deployments, and intelligence assessment — lives at the primary path /research/drones-uas/company/newspace-research-technologies-mfr-023/. Use the primary dossier for citations.",
+    "sources": []
+  },
+  "india_portfolio": {
+    "summary": "See primary dossier at /research/drones-uas/company/newspace-research-technologies-mfr-023/.",
+    "rows": []
+  },
+  "deployments_procurement": {
+    "summary": "See primary dossier at /research/drones-uas/company/newspace-research-technologies-mfr-023/.",
+    "rows": [],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "See primary dossier at /research/drones-uas/company/newspace-research-technologies-mfr-023/.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "primary_dossier",
+        "label": "Primary dossier",
+        "value": "/research/drones-uas/company/newspace-research-technologies-mfr-023/",
+        "note": "Pointer entry — full assessment at primary path.",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      {
+        "name": "NewSpace Research and Technologies Pvt Ltd (NRT)",
+        "path": "/research/drones-uas/company/newspace-research-technologies-mfr-023/"
+      }
+    ],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "Why is there a separate space page for Newspace Research?",
+      "answer": "Newspace Research appears in multiple Atlas verticals because it plays a cross-domain role in India's industrial stack. The space page is a navigation pointer; the canonical sourced dossier lives under drones-uas at /research/drones-uas/company/newspace-research-technologies-mfr-023/.",
+      "sources": []
+    }
+  ],
+  "open_questions": [
+    "Confirm whether Newspace Research has space-specific deployments not covered in the primary dossier."
+  ],
+  "sources": [],
+  "seo": {
+    "title": "Newspace Research — Company · India Space Atlas | Techadyant",
+    "meta_description": "Newspace Research company dossier: India space role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/space/newspace-research/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/newspace-research/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      {
+        "label": "Open primary dossier for NewSpace Research and Technologies Pvt Ltd (NRT)",
+        "path": "/research/drones-uas/company/newspace-research-technologies-mfr-023/"
+      }
+    ]
+  }
+}

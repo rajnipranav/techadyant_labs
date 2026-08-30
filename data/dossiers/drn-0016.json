@@ -1,0 +1,78 @@
+{
+  "entity_id": "drn-0016",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "drn-0016",
+  "name": "HAL CATS Main",
+  "variant": "CATS Main",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-30",
+  "status": "Development",
+  "header": {
+    "one_liner": "HAL CATS Main — Development status drone platform.",
+    "chips": [
+      "B",
+      "India-relevant"
+    ],
+    "maker": "See manufacturer dossier",
+    "country": "Mixed",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Name": "HAL CATS Main",
+    "Status": "Development",
+    "Variant": "CATS Main"
+  },
+  "what_it_is": {
+    "prose": "HAL CATS mothership/UAV teaming architecture.",
+    "sources": []
+  },
+  "open_questions": [
+    "Primary India service source",
+    "Manufacturer verification"
+  ],
+  "sources": [
+    {
+      "id": "src-p1",
+      "title": "HAL CATS Main",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Initial placeholder from live hub mapping."
+    }
+  ],
+  "seo": {
+    "title": "HAL CATS Main — Platform · India Drones-UAS Atlas | Techadyant",
+    "meta_description": "HAL CATS Main platform dossier in the India Drones-UAS Atlas.",
+    "canonical_path": "/research/drones-uas/platform/drn-0016/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/platform/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

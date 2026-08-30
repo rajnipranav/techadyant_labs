@@ -1,0 +1,286 @@
+{
+  "entity_id": "agnibaan",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "agnibaan",
+  "name": "Agnikul Agnibaan",
+  "variant": "Agnibaan / Agnibaan SOrTeD",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-29",
+  "status": "In trials",
+  "header": {
+    "one_liner": "Agnibaan is Agnikul Cosmos's modular small launcher; its SOrTeD demonstrator flew the world's first flight powered by a single-piece 3D-printed semi-cryogenic engine in May 2024.",
+    "chips": [
+      "A",
+      "India-relevant",
+      "3D-printed engine",
+      "Modular launcher"
+    ],
+    "maker": "Agnikul Cosmos Private Limited",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "India-developed at IIT Madras; no audited indigenous percentage disclosed",
+    "mobility_or_class": "Modular small-lift launch vehicle (configurable up to ~300 kg to LEO)",
+    "operational_domains": [
+      "space"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Agnikul Cosmos Private Limited (IIT Madras-incubated)",
+    "Country": "India",
+    "Key_demo": "Agnibaan SOrTeD suborbital flight, 30 May 2024",
+    "Engine": "Agnilet — single-piece 3D-printed semi-cryogenic (LOX/kerosene) engine",
+    "Launch_site": "Agnikul's 'Dhanush' private launchpad, SDSC SHAR, Sriharikota",
+    "Design_payload": "Up to ~300 kg to ~700 km LEO (configurable/modular)",
+    "Status": "Suborbital demo flown; orbital vehicle in development"
+  },
+  "what_it_is": {
+    "prose": "Agnibaan is a customisable two-stage small launch vehicle developed by Agnikul Cosmos, a Chennai-based startup incubated at IIT Madras. Its distinguishing technology is the Agnilet engine — a single-piece, fully 3D-printed semi-cryogenic engine burning liquid oxygen and aviation-grade kerosene — and a 'plug-and-play' architecture in which the first stage can be configured with a variable number of engines to match a given payload. The design targets up to roughly 300 kg to a 700 km low Earth orbit. On 30 May 2024 Agnikul flew Agnibaan SOrTeD (Suborbital Technology Demonstrator) from its own privately built 'Dhanush' launchpad at Sriharikota — the first flight anywhere powered by a single-piece 3D-printed engine, and India's second private rocket launch; the short flight validated the engine, avionics and the private launch complex before a Bay of Bengal splashdown. ISRO publicly hailed the flight as a milestone. Agnikul manufactures engines in a matter of days rather than weeks, and the SOrTeD flight is the technology base for its planned orbital Agnibaan. This dossier records the demonstrated suborbital milestone and keeps orbital dates and payload economics open.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-5"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Agnibaan is a commercial launcher in development; its flight activity to date is Agnikul's own suborbital technology demonstration from a private launchpad, not a government procurement.",
+    "rows": [
+      {
+        "agency": "Agnikul Cosmos",
+        "context": "Agnibaan SOrTeD suborbital demonstration flight from the private 'Dhanush' launchpad at SDSC SHAR",
+        "year": 2024,
+        "quantity_or_note": "1 flight (30 May 2024)",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "IN-SPACe / ISRO",
+        "context": "Agnikul built India's first private launchpad on ISRO grounds under the post-2020 space reforms; ISRO praised the SOrTeD flight",
+        "year": 2024,
+        "quantity_or_note": "Facility + regulatory enablement",
+        "sources": [
+          "src-2",
+          "src-5"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Firm date for the first orbital Agnibaan flight",
+      "Published commercial payload manifest and pricing"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Agnikul emphasises in-house 3D-printed propulsion and avionics; it has not published a component sovereignty breakdown. Space-grade electronics remain a general Indian NewSpace dependency.",
+    "items": [
+      {
+        "component": "Agnilet 3D-printed semi-cryogenic engine",
+        "severity": "Low",
+        "note": "Single-piece engine designed and 3D-printed in-house by Agnikul",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Space-grade avionics / rad-tolerant electronics",
+        "severity": "Medium",
+        "note": "General import exposure for Indian private launchers; sourcing undisclosed",
+        "sources": [
+          "src-4"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Agnibaan and Agnilet engine designed in-house at Agnikul (IIT Madras heritage)",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Engines 3D-printed in-house; private launchpad self-built",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Propulsion indigenous; space-grade electronics sourcing undisclosed",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 2,
+        "note": "One suborbital demo flown; orbital vehicle and commercial manifest pending",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Modular 'launch anywhere' concept targets the global small-sat market",
+        "sources": [
+          "src-4"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "agnibaan-sorang"
+    ],
+    "peer_systems": [
+      "vikram-1"
+    ],
+    "related_pillars": [
+      "/research/space/entity/"
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2024-05-30",
+      "event": "Agnibaan SOrTeD suborbital flight — world's first flight on a single-piece 3D-printed engine.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What was the May 2024 milestone?",
+      "answer": "Agnikul flew Agnibaan SOrTeD, the first rocket flight powered by a single-piece 3D-printed semi-cryogenic engine, from its own private launchpad at Sriharikota.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What makes Agnibaan unusual?",
+      "answer": "It is modular — the first stage takes a variable number of 3D-printed Agnilet engines — and it flies from Agnikul's own 'Dhanush' launchpad.",
+      "sources": [
+        "src-2",
+        "src-4"
+      ]
+    },
+    {
+      "question": "How much is Agnibaan designed to lift?",
+      "answer": "Up to about 300 kg to a 700 km low Earth orbit in its planned orbital configuration.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Has Agnibaan reached orbit?",
+      "answer": "Not yet; the 2024 flight was a suborbital demonstrator and the orbital vehicle is in development.",
+      "sources": [
+        "src-4"
+      ]
+    }
+  ],
+  "open_questions": [
+    "First orbital Agnibaan flight date",
+    "Payload manifest and pricing for commercial service"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "India launches nation's 1st 3D-printed rocket engine",
+      "publisher": "Space.com",
+      "url": "https://www.space.com/india-agnikul-3d-printed-rocket-engine",
+      "published_date": "2024-05-30",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "SOrTeD flight 30 May 2024; 3D-printed semi-cryogenic engine; ~300 kg to 700 km design; 8 km apogee."
+    },
+    {
+      "id": "src-2",
+      "title": "Space startup Agnikul Cosmos successfully launches Agnibaan rocket with 3D printed engine, ISRO hails 'milestone'",
+      "publisher": "Business Today",
+      "url": "https://www.businesstoday.in/india/story/space-startup-agnikul-cosmos-successfully-launches-agnibaan-rocket-with-3d-printed-engine-isro-hails-milestone-431424-2024-05-30",
+      "published_date": "2024-05-30",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "SOrTeD launch details and ISRO's milestone framing."
+    },
+    {
+      "id": "src-3",
+      "title": "India's IIT-Madras startup Agnikul Cosmos makes history with the world's first 3D-printed-engine rocket launch",
+      "publisher": "NewsOnAir (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/indias-iit-madras-startup-agnikul-cosmos-makes-history-with-the-worlds-first-3d-printed-engine-rocket-launch",
+      "published_date": "2024-05-30",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Government broadcaster account of the SOrTeD flight."
+    },
+    {
+      "id": "src-4",
+      "title": "Agnibaan",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Agnibaan",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Encyclopedic overview of Agnibaan configuration and modularity."
+    },
+    {
+      "id": "src-5",
+      "title": "Agnibaan SOrTeD",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Agnibaan_SOrTeD",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Details of the SOrTeD demonstrator and Dhanush launchpad."
+    },
+    {
+      "id": "src-6",
+      "title": "Agnikul missions",
+      "publisher": "Agnikul Cosmos",
+      "url": "https://agnikul.in/missions/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Company mission page describing Agnibaan and launch objectives."
+    }
+  ],
+  "seo": {
+    "title": "Agnikul Agnibaan — Platform · India Space Atlas | Techadyant",
+    "meta_description": "Agnikul Agnibaan — a modular Indian small launcher whose SOrTeD demonstrator flew the world's first single-piece 3D-printed-engine rocket flight in May 2024.",
+    "canonical_path": "/research/space/entity/agnibaan/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  }
+}

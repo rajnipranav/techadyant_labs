@@ -1,0 +1,318 @@
+{
+  "entity_id": "dynamatic",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "dynamatic",
+  "name": "Dynamatic Technologies Limited",
+  "variant": "Listed — BSE: 505242, NSE: DYNAMATECH",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Bengaluru-listed aerostructures & precision-engineering firm; FY26 revenue ₹1,621 cr (+15.5%), aerospace 48% of sales (+27.6%); Airbus A320/A330 flap-track beams & A220 doors, Boeing (Chinook, P-8, F-15EX), Bell 407, HAL Su-30MKI.",
+    "chips": [
+      "Tier A",
+      "Listed",
+      "Aerostructures",
+      "Airbus",
+      "Boeing",
+      "Bell",
+      "HAL",
+      "Flap-track beam"
+    ],
+    "maker": "Private (listed BSE/NSE); promoter Udayant Malhoutra",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Design, machining & assembly of aerostructures in India; raw stock, forgings and some tooling imported/OEM-directed",
+    "mobility_or_class": "Aerostructures & precision-engineering OEM (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Dynamatic Technologies Limited",
+    "Ownership": "Private, listed (BSE: 505242, NSE: DYNAMATECH); CEO & MD Udayant Malhoutra",
+    "HQ": "Bengaluru, Karnataka, India (facilities also in Swindon, UK and Germany)",
+    "Founded": "1973",
+    "Revenue_FY26": "₹1,621.3 crore (+15.5% YoY from ₹1,403.8 cr FY25)",
+    "EBITDA_FY26": "₹182.7 crore (+15.4% YoY)",
+    "Aerospace_segment_FY26": "₹775.6 crore (+27.6% YoY) — 48% of total revenue",
+    "Other_segments": "Hydraulics ₹487.4 cr (+6.4%); Metallurgy ₹358.1 cr (+6.9%)",
+    "Key_customers": "Airbus, Boeing, Bell Textron, HAL, Spirit AeroSystems",
+    "Q4_FY26_revenue": "₹433.2 crore (+13.8% YoY)",
+    "PAT_FY26": "~₹60 crore (normalized, +39.4% YoY)",
+    "Market_cap": "~₹7,000 crore"
+  },
+  "what_it_is": {
+    "prose": "Dynamatic Technologies Limited is a Bengaluru-headquartered precision-engineering and aerostructures company, incorporated in 1973 and listed on the BSE (505242) and NSE (DYNAMATECH), led by CEO & Managing Director Udayant Malhoutra. It operates three segments — Aerospace, Hydraulics and Metallurgy — with plants in India, Swindon (UK) and Germany. The Aerospace segment is now the largest, at ₹775.6 crore in FY26 (up 27.6% YoY) and about 48% of total revenue. Dynamatic is a Tier-1/Tier-2 aerostructures supplier: it produces flap-track beam assemblies for the Airbus A320 family and A330 wide-body, delivered the first complete ship-set of Airbus A220 doors ahead of schedule in FY26, and builds parts and aerostructure assemblies for Boeing (CH-47 Chinook, P-8 Poseidon, and F-15EX Eagle II, contracted September 2021), Bell 407 helicopter components, and airframe body parts for HAL's Su-30MKI and Lakshya. For FY26 the company reported total revenue of ₹1,621.3 crore (up 15.5% YoY from ₹1,403.8 crore) and EBITDA of ₹182.7 crore (up 15.4%). Dynamatic's aerospace growth is driven by rising Airbus and Boeing build rates and deeper work-package content, positioning it as one of India's few listed pure-play private aerostructures firms alongside its hydraulics and metallurgy businesses.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Dynamatic is a build-to-print and design-and-build aerostructures supplier into global OEM programmes rather than a platform operator; India relevance comes from HAL Su-30MKI/Lakshya work and its role in the Indian private aerospace supply base. Financials are disclosed via BSE/NSE filings.",
+    "rows": [
+      {
+        "agency": "Airbus",
+        "context": "A320 family & A330 flap-track beam assemblies; A220 doors",
+        "year": 2026,
+        "quantity_or_note": "First complete A220 door ship-set delivered ahead of schedule FY26",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Boeing",
+        "context": "Aerostructures for CH-47 Chinook, P-8 Poseidon, F-15EX Eagle II",
+        "year": 2021,
+        "quantity_or_note": "F-15EX assemblies contract Sept 2021",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Bell Textron",
+        "context": "Bell 407 helicopter components",
+        "year": null,
+        "quantity_or_note": "Build-to-print",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Hindustan Aeronautics Limited",
+        "context": "Airframe body parts for Su-30MKI and Lakshya",
+        "year": null,
+        "quantity_or_note": "Domestic aerostructures work-share",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Aerospace order-book value not itemised in the FY26 results summary reviewed",
+      "Segment-level margin split (aerospace vs hydraulics vs metallurgy) not fully disclosed in fetched sources",
+      "Precise F-15EX and A220 work-package values not public"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Dynamatic designs, machines and assembles aerostructures in India and the UK, but platform IP sits with Airbus/Boeing/Bell/HAL, and aerospace-grade raw stock, forgings and specialty tooling are largely imported or OEM-directed.",
+    "items": [
+      {
+        "component": "Platform design / type certificate (A320, A330, A220, Chinook, P-8, F-15EX)",
+        "severity": "High",
+        "note": "Airbus / Boeing (build-to-print work-packages)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "component": "Aerospace-grade aluminium/titanium raw stock & large forgings",
+        "severity": "Medium",
+        "note": "Imported / OEM-directed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "5-axis CNC machine tools & specialty tooling",
+        "severity": "Medium",
+        "note": "Europe / Japan",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 2,
+        "note": "Design-and-build on some packages; mostly build-to-print to OEM IP",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Own plants in India, Swindon UK, Germany; full machining & assembly",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Platform IP and raw stock imported/OEM-directed",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 3,
+        "note": "FY26 revenue ₹1,621 cr; aerospace ₹776 cr (+27.6%)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 4,
+        "note": "Majority aerospace output exported into Airbus/Boeing/Bell global chains",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "1973",
+      "event": "Dynamatic Technologies incorporated (as a hydraulic pump maker)",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2007",
+      "event": "Acquires Swindon (UK) aerostructures operations, entering Airbus flap-track beam work",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2021-07-26",
+      "event": "Completed 150 ship-sets of Airbus A330 flap-track beam assemblies (global single source)",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2021-09",
+      "event": "Boeing contract for F-15EX Eagle II aerostructure assemblies",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "event": "FY26 results: revenue ₹1,621.3 cr (+15.5%); aerospace +27.6%; first A220 door ship-set delivered",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are Dynamatic Technologies' FY26 financials?",
+      "answer": "For FY26 Dynamatic reported total revenue of ₹1,621.3 crore, up 15.5% year-on-year from ₹1,403.8 crore, with EBITDA of ₹182.7 crore (up 15.4%). The Aerospace segment grew 27.6% to ₹775.6 crore — about 48% of total revenue — outpacing Hydraulics (₹487.4 cr, +6.4%) and Metallurgy (₹358.1 cr, +6.9%). Q4 FY26 revenue was ₹433.2 crore, up 13.8%.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Which aircraft programmes does Dynamatic supply?",
+      "answer": "Dynamatic builds flap-track beam assemblies for the Airbus A320 family and A330, and delivered the first complete ship-set of Airbus A220 doors ahead of schedule in FY26. For Boeing it makes aerostructures for the CH-47 Chinook, P-8 Poseidon and F-15EX Eagle II (contracted September 2021); it also supplies Bell 407 helicopter components and airframe body parts for HAL's Su-30MKI and Lakshya. Dynamatic is the global single-source supplier of flap-track beam assemblies for both the A320 family and the A330.",
+      "sources": [
+        "src-1",
+        "src-2",
+        "src-4"
+      ]
+    },
+    {
+      "question": "Is Dynamatic an Indian company and where are its plants?",
+      "answer": "Yes. Dynamatic Technologies is incorporated in India (1973), headquartered in Bengaluru and listed on the BSE (505242) and NSE (DYNAMATECH), led by CEO & MD Udayant Malhoutra. Besides its Indian facilities it operates aerostructures plants in Swindon (UK) and Germany, making it one of the few listed Indian private pure-play aerostructures suppliers to global OEMs.",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Aerospace order-book value not itemised in the FY26 results summary reviewed",
+    "Segment-level margin split (aerospace vs hydraulics vs metallurgy) not fully disclosed in fetched sources",
+    "Precise F-15EX and A220 work-package values not public"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Dynamatic Technologies FY2026 Revenue Surges 15.5% on Aerospace Growth",
+      "publisher": "InvestyWise",
+      "url": "https://www.investywise.com/dynamatic-technologies-q4-and-fy2026-earnings-results/",
+      "published_date": "2026-05-20",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "FY26 & Q4 FY26 figures; aerospace +27.6% and first A220 door ship-set"
+    },
+    {
+      "id": "src-2",
+      "title": "Dynamatic Technologies",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dynamatic_Technologies",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Founding 1973; customer/programme list Airbus/Boeing/Bell/HAL; segments; leadership"
+    },
+    {
+      "id": "src-3",
+      "title": "Aerospace Stock That Supplies to Airbus, Boeing, and HAL to Keep on Your Radar",
+      "publisher": "Trade Brains",
+      "url": "https://tradebrains.in/aerospace-stock-that-supplies-to-airbus-boeing-and-hal-to-keep-on-your-radar/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "FY26 ₹1,621.3 cr income; PAT ~₹60 cr (+39.4%); segment split; products; customers incl. Dassault, Deutsche Aircraft"
+    },
+    {
+      "id": "src-4",
+      "title": "Dynamatic Technologies completes 150 ship sets of Airbus A330 flap track beam assemblies",
+      "publisher": "Aviation & Defence Universe",
+      "url": "https://www.aviation-defence-universe.com/dynamatic-technologies-completes-150-ship-sets-of-airbus-a33o-flap-track-beam-assemblies/",
+      "published_date": "2021-07-26",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Global single-source of A320/A330 flap track beam assemblies; UK robotic machining + India assembly"
+    }
+  ],
+  "seo": {
+    "title": "Dynamatic Technologies Limited — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Bengaluru-listed aerostructures firm; FY26 revenue ₹1,621 cr (+15.5%), aerospace 48% (+27.6%); Airbus flap-track beams & A220 doors, Boeing, Bell, HAL Su-30MK",
+    "canonical_path": "/research/military-aerospace/company/dynamatic/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

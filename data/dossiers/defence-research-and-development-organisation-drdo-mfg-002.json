@@ -1,0 +1,400 @@
+{
+  "entity_id": "mfg-002",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "defence-research-and-development-organisation-drdo-mfg-002",
+  "name": "Defence Research and Development Organisation",
+  "variant": "R&D wing of MoD (not a commercial entity)",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Apex R&D body of India's Ministry of Defence; ~50 labs; designer of Agni, Akash, Tejas, Pinaka, BrahMos (JV), ATAGS, IDDIS counter-drone system, and the Adani-DRDO Vehicle-Mounted CUAS.",
+    "chips": [
+      "R&D",
+      "MoD",
+      "Missiles",
+      "Aircraft",
+      "Combat vehicles",
+      "Naval",
+      "EW",
+      "Counter-UAS",
+      "Laser DEW"
+    ],
+    "maker": "Government of India (MoD)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Apex indigenous R&D body; technology transferred to BEL/BDL/BrahMos/HAL/private OEMs via ToT",
+    "mobility_or_class": "R&D organisation (not a platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air",
+      "space",
+      "cyber"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Defence Research and Development Organisation (DRDO)",
+    "Ownership": "Department under Ministry of Defence, Government of India",
+    "HQ": "DRDO HQrs, Rajaji Marg, New Delhi - 110011",
+    "Labs": "~50 laboratories across aeronautics, armaments, electronics, land combat, naval, life sciences, materials, missiles, micro-electronics",
+    "Order_book": "n/a — R&D wing of MoD, not a commercial entity",
+    "Revenue_FY26": "n/a — funded via union budget (Defence R&D capital + revenue allocation)",
+    "Flagship_programmes": "Agni, Prithvi, Akash, Tejas (with HAL/ADA), BrahMos (JV with NPOM Russia), Pinaka, ATAGS, Arjun MBT, AEW&C, AMCA, Astra, Nag, IDDIS, 30 kW Laser DEW",
+    "Key_labs_CUAS": "CHESS (Centre for High Energy Systems and Sciences), LASTEC (Laser Science and Technology Centre), LRDE (Electronics and Radar Development Establishment), DLRL (Defence Electronics Research Lab), IRDE (Instruments Research and Development Establishment)"
+  },
+  "what_it_is": {
+    "prose": "The Defence Research and Development Organisation (DRDO) is the apex R&D wing of India's Ministry of Defence, headquartered at Rajaji Marg, New Delhi. With approximately 50 laboratories spanning aeronautics, armaments, electronics, land combat, naval systems, life sciences, materials, missiles, and micro-electronics, DRDO is the principal designer of India's strategic and tactical defence systems. DRDO is not a commercial manufacturer; its technologies are transferred to BEL, BDL, BrahMos Aerospace, HAL, and private OEMs via Transfer of Technology (ToT) frameworks. Flagship programmes include the Agni and Prithvi strategic missile series, the Akash Surface-to-Air Missile family (with BEL and BDL as productionisers), the Tejas Light Combat Aircraft (with HAL and Aeronautical Development Agency), the BrahMos cruise missile (a JV with Russia's NPOM, 50.5% DRDO / 49.5% NPOM), the Pinaka Multi-Barrel Rocket Launcher, the ATAGS towed artillery gun (with KSSL/Bharat Forge and TASL), the Arjun Main Battle Tank, the AEW&C airborne early warning system, the AMCA 5th-generation fighter programme, the Astra BVRAAM, and the Nag ATGM. In counter-UAS, DRDO designed the D4 Counter Drone System and its successor, the Integrated Drone Detection & Interdiction System (IDDIS) — Atlas slug cus-001 — produced by BEL. DRDO's CHESS laboratory has issued an Expression of Interest for ToT of its 30 kW Laser DEW System to three Indian industry partners. At Aero India 2025 on 11 February 2025, DRDO and Adani Defence & Aerospace unveiled a Vehicle-Mounted Counter-Drone System under a ToT framework.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-6",
+      "src-7",
+      "src-8"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "DRDO is funded via the union budget (Defence R&D capital and revenue allocations) rather than commercial revenue. Its technologies reach Indian armed forces through ToT to BEL, BDL, HAL, BrahMos Aerospace, and private OEMs. Major DRDO-designed systems in operational service include the Agni and Prithvi strategic missile series (with Strategic Forces Command), Akash SAM (Indian Army and IAF, ~₹30,000+ crore in aggregate orders across BEL/BDL), BrahMos (multi-domain, ~₹30,000+ crore cumulative), Pinaka MBRL (7 regiments operational, target 22 long-term), Tejas LCA (40 delivered, 180 more on order), Arjun MBT Mk-1A (118 ordered, ₹6,500 crore), and ATAGS (307 guns ordered March 2025, ₹6,900 crore). In counter-UAS, IDDIS has been in operational service since March 2024 with the Indian Army, with combat use confirmed in Operation Sindoor (May 2025).",
+    "rows": [
+      {
+        "agency": "Strategic Forces Command",
+        "context": "Agni / Prithvi strategic missile series",
+        "year": null,
+        "quantity_or_note": "In service (quantities classified)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army + IAF",
+        "context": "Akash SAM system (BEL + BDL production)",
+        "year": null,
+        "quantity_or_note": "~₹30,000+ crore aggregate orders",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Indian Army + Navy + IAF",
+        "context": "BrahMos cruise missile (BrahMos Aerospace JV)",
+        "year": null,
+        "quantity_or_note": "Multi-domain; ~₹30,000+ crore cumulative",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Pinaka MBRL — 7 regiments operational, target 22",
+        "year": 2026,
+        "quantity_or_note": "7 regiments (March 2026); 22 long-term target",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Arjun MBT Mk-1A — 118 ordered",
+        "year": null,
+        "quantity_or_note": "₹6,500 crore",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "ATAGS — 307 guns (with KSSL/Bharat Forge + TASL)",
+        "year": 2025,
+        "quantity_or_note": "₹6,900 crore (March 2025)",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "IDDIS — 7 systems inducted March 2024; ₹572 crore May 2025 follow-on",
+        "year": 2024,
+        "quantity_or_note": "7 systems + 23 ordered + ₹572 cr follow-on",
+        "sources": [
+          "src-8"
+        ]
+      }
+    ],
+    "open_questions": [
+      "DRDO is not a commercial entity; revenue/profit/order-book fields should be marked 'n/a — R&D wing of MoD'",
+      "Count of DRDO labs varies between sources (Wikipedia 52, DRDO site ~50, ilovephd ~45)",
+      "BrahMos-2 hypersonic programme reported 'paused' (Eurasian Times May 2026); DRDO has not officially confirmed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "DRDO is the apex R&D body and the principal indigenisation driver. However, laboratory-scale dependencies include test equipment (oscilloscopes, RF sources — USA / Germany), specialty materials (composites, titanium alloys, single-crystal turbine blades — USA / Japan / Russia) for Tejas/Kaveri/AMCA programmes, FPGA and GaN for radar/EW prototypes (same global supply chain as BEL — USA), and seeker components for BrahMos (Russia NPOM, legacy).",
+    "items": [
+      {
+        "component": "Test equipment, oscilloscopes, RF sources",
+        "severity": "Medium",
+        "note": "Lab use",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Specialty materials (composites, titanium, single-crystal turbine blades)",
+        "severity": "Medium",
+        "note": "For Tejas/Kaveri/AMCA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "FPGA / GaN for radar/EW prototypes",
+        "severity": "High",
+        "note": "Same global supply chain as BEL",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "BrahMos seeker components",
+        "severity": "High",
+        "note": "Russia NPOM (legacy)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Apex indigenous R&D body",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 3,
+        "note": "DRDO does not commercially produce; ToT to BEL/BDL/HAL/private OEMs",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Lab equipment + specialty materials + FPGA/GaN imported",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / programme reach",
+        "value": 5,
+        "note": "~50 labs; flagship programmes across all domains",
+        "sources": [
+          "src-1",
+          "src-4"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 3,
+        "note": "BrahMos exports (Philippines $375M, Indonesia ~$450M); Akash export pipeline",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "integrated-counter-drone-system-cus-001"
+    ],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "integrated-counter-drone-system-cus-001",
+      "akash-ng-def-004",
+      "qrsam-def-005",
+      "mrsam-def-006",
+      "pinaka-mbrl-def-002",
+      "tejas-mk1a-def-003",
+      "zorawar-light-tank-def-001"
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1958",
+      "event": "DRDO formed from the merger of the Technical Development Establishment (TDEs) and the Defence Science Organisation (DSO)",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2024-03",
+      "event": "IDDIS Mk-I inducted by Indian Army (DRDO design, BEL production)",
+      "sources": [
+        "src-8"
+      ]
+    },
+    {
+      "date": "2025-02-11",
+      "event": "Adani Defence + DRDO unveil Vehicle-Mounted Counter-Drone System at Aero India 2025",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "date": "2025-05",
+      "event": "Operation Sindoor — DRDO-designed Akash, BrahMos, IDDIS all battle-proven",
+      "sources": [
+        "src-7"
+      ]
+    },
+    {
+      "date": "2025-07-17",
+      "event": "Akash Prime trial at high altitude (PIB)",
+      "sources": [
+        "src-5"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is DRDO a commercial manufacturer?",
+      "answer": "No. DRDO is the R&D wing of India's Ministry of Defence, funded via the union budget. It is not a commercial entity and does not report revenue, profit, or an order book. DRDO-designed systems reach Indian armed forces through Transfer of Technology (ToT) to productionisers such as BEL, BDL, HAL, BrahMos Aerospace, and private OEMs like TASL, L&T, and KSSL/Bharat Forge.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Which DRDO labs lead counter-UAS work?",
+      "answer": "Counter-UAS R&D at DRDO is led by five laboratories: CHESS (Centre for High Energy Systems and Sciences, Hyderabad — laser DEW), LASTEC (Laser Science and Technology Centre, Delhi — laser source), LRDE (Electronics and Radar Development Establishment, Bengaluru — radar), DLRL (Defence Electronics Research Lab, Hyderabad — EW and SIGINT), and IRDE (Instruments Research and Development Establishment, Dehradun — EO/IR).",
+      "sources": [
+        "src-8"
+      ]
+    },
+    {
+      "question": "How is DRDO organised and how many labs does it have?",
+      "answer": "DRDO has approximately 50 laboratories across India spanning aeronautics, armaments, electronics, land combat, naval systems, life sciences, materials, missiles, and micro-electronics. Key laboratories involved in counter-UAS work include CHESS (Centre for High Energy Systems and Sciences, Hyderabad — laser DEW), LASTEC (Laser Science and Technology Centre, Delhi — laser source), LRDE (Electronics and Radar Development Establishment, Bengaluru — radar), DLRL (Defence Electronics Research Lab, Hyderabad — EW and SIGINT), and IRDE (Instruments Research and Development Establishment, Dehradun — EO/IR).",
+      "sources": [
+        "src-1",
+        "src-4"
+      ]
+    }
+  ],
+  "open_questions": [
+    "DRDO is not a commercial entity; revenue/profit/order-book fields are n/a",
+    "Count of DRDO labs varies: Wikipedia 52, DRDO site ~50, ilovephd ~45 — recommend Atlas state '~50'",
+    "BrahMos-2 hypersonic programme status: reported 'paused' (Eurasian Times May 2026); DRDO has not officially confirmed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "HOME | Defence Research and Development Organisation",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/en",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official DRDO homepage"
+    },
+    {
+      "id": "src-2",
+      "title": "Contact Us — DRDO HQrs, Rajaji Marg, New Delhi-110011",
+      "publisher": "DRDO",
+      "url": "https://drdo.gov.in/drdo/en/connect/contact-us",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "DRDO HQ address"
+    },
+    {
+      "id": "src-3",
+      "title": "Defence Research and Development Organisation",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Defence_Research_and_Development_Organisation",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Aggregates credible sources; 52 labs"
+    },
+    {
+      "id": "src-4",
+      "title": "Laboratories of DRDO",
+      "publisher": "Press Information Bureau, Ministry of Defence",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=113748",
+      "published_date": "2014-12-19",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PIB listing of DRDO labs"
+    },
+    {
+      "id": "src-5",
+      "title": "Successful trial of Akash Prime at High-Altitude",
+      "publisher": "Press Information Bureau, Ministry of Defence",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2145517",
+      "published_date": "2025-07-17",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PIB confirmation of Akash Prime high-altitude trial"
+    },
+    {
+      "id": "src-6",
+      "title": "Adani Defence & Aerospace and DRDO Unveil India's Vehicle-Mounted Counter-Drone System at Aero India 2025",
+      "publisher": "Adani Group",
+      "url": "https://www.adani.com/newsroom/media-releases/adani-defence-and-aerospace-and-drdo-unveil-indias-vehicle-mounted-counter",
+      "published_date": "2025-02-11",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Adani-DRDO Vehicle-Mounted CUAS ToT"
+    },
+    {
+      "id": "src-7",
+      "title": "Operation Sindoor proved Akash and BrahMos missiles — Rajnath Singh",
+      "publisher": "India Sentinels",
+      "url": "https://www.indiasentinels.com/defence-ministry/operation-sindoor-proved-akash-and-brahmos-missiles-says-rajnath-singh-as-drdo-opens-advanced-weapon-system-complex-in-hyderabad-7437",
+      "published_date": "2026-06-12",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Reports Rajnath Singh statement on Operation Sindoor proving Akash and BrahMos"
+    },
+    {
+      "id": "src-8",
+      "title": "DRDO's D4 Counter Drone System",
+      "publisher": "Raksha-Anirveda",
+      "url": "https://raksha-anirveda.com/drdos-d4-counter-drone-system/",
+      "published_date": "2024-01-16",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Documents D4 / IDDIS lineage and DRDO labs involved"
+    }
+  ],
+  "seo": {
+    "title": "Defence Research and Development Organisation (DRDO) — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "Apex R&D body of India's MoD; ~50 labs; designer of Agni, Akash, Tejas, Pinaka, BrahMos, ATAGS, and IDDIS counter-drone system.",
+    "canonical_path": "/research/counter-uas/manufacturer/defence-research-and-development-organisation-drdo-mfg-002/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/counter-uas/system/integrated-counter-drone-system-cus-001/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

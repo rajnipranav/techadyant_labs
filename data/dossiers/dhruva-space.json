@@ -1,0 +1,85 @@
+{
+  "entity_id": "dhruva-space",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "dhruva-space",
+  "name": "Dhruva Space",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/company/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Dhruva Space dossier placeholder with initial sources.",
+    "chips": [
+      "B",
+      "India-relevant"
+    ],
+    "maker": "Dhruva Space",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Name": "Dhruva Space",
+    "Type": "company",
+    "Evidence": "Initial sources captured; India relevance may need deepening."
+  },
+  "what_it_is": {
+    "prose": "Dhruva Space is a full-stack Indian space engineering company offering satellites, earth stations, and launch services.",
+    "sources": [
+      "src-dhr-1",
+      "src-dhr-2"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-dhr-1",
+      "title": "Dhruva Space homepage",
+      "publisher": "Dhruva Space",
+      "url": "https://www.dhruvaspace.com/about",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Company overview."
+    },
+    {
+      "id": "src-dhr-2",
+      "title": "Dhruva Space press releases",
+      "publisher": "Dhruva Space",
+      "url": "https://www.dhruvaspace.com/press-releases",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "RDIF backing and partnerships."
+    }
+  ],
+  "seo": {
+    "title": "Dhruva Space — Company · India Space Atlas | Techadyant",
+    "meta_description": "Dhruva Space company/entity in the India Space Atlas.",
+    "canonical_path": "/research/space/company/dhruva-space/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

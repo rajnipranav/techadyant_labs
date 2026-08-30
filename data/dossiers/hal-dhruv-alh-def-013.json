@@ -1,0 +1,311 @@
+{
+  "entity_id": "def-013",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "hal-dhruv-alh-def-013",
+  "name": "HAL Dhruv Advanced Light Helicopter (ALH)",
+  "variant": "Mk-I, Mk-II, Mk-III (Maritime), Mk-IV WSI (Rudra)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's indigenous twin-engine multirole helicopter; 300+ delivered across IAF, Indian Army, Indian Navy, Coast Guard; 34 on order end-FY26; Shakti engine from Safran (France) under licence.",
+    "chips": [
+      "Helicopter",
+      "Indigenous",
+      "Multirole",
+      "Shakti engine",
+      "Safran licence",
+      "Operational"
+    ],
+    "maker": "Hindustan Aeronautics Limited (HAL)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Hindustan Aeronautics Limited (HAL)",
+    "Variants": "Mk-I (basic), Mk-II, Mk-III (Maritime — Indian Navy/Coast Guard), Mk-IV WSI (Rudra — Weapon System Integrated, Indian Army)",
+    "Engine": "2 × HAL/Safran (Turbomeca) Shakti turboshaft — licence-assembled by HAL; indigenous content ~50%",
+    "Max_TOW": "5,500 kg",
+    "Payload": "1,500 kg internal / 3,000 kg external",
+    "Crew": "2 pilots + up to 12 troops",
+    "Endurance": "~3.5 hours",
+    "Service_ceiling": "6,096 m (20,000 ft)",
+    "Delivered": "300+ across IAF, Indian Army, Indian Navy, Coast Guard",
+    "On_order_end_FY26": "34 (in HAL order book)",
+    "Export_customers": "Mauritius, Nepal, Ecuador (historical)",
+    "Certification": "Initial Operational Clearance 2002; Full Operational Clearance subsequent"
+  },
+  "what_it_is": {
+    "prose": "The HAL Dhruv Advanced Light Helicopter (ALH) is India's indigenous twin-engine multirole helicopter developed by Hindustan Aeronautics Limited (HAL) with design support from Messerschmitt-Bölkow-Blohm (MBB) of Germany in the 1980s-90s. The Dhruv entered service in 2002 and has been delivered to all three Indian armed services (IAF, Indian Army, Indian Navy) plus the Indian Coast Guard, with over 300 units delivered cumulatively. The helicopter is powered by two HAL/Safran (Turbomeca) Shakti turboshaft engines produced under licence by HAL with approximately 50% indigenous content. The Dhruv family comprises four main variants: Mk-I (basic transport), Mk-II, Mk-III (Maritime — for Indian Navy and Coast Guard with surface search radar, anti-ship missile capability, and emergency flotation), and Mk-IV WSI (Weapon System Integrated, designated Rudra — for the Indian Army with anti-tank guided missiles, rockets, and air-to-air missiles). The Dhruv has a Maximum Take-Off Weight of 5,500 kg, payload of 1,500 kg internal or 3,000 kg external, endurance of approximately 3.5 hours, and a service ceiling of 6,096 m (20,000 ft). HAL had 34 Dhruv ALH on order at the end of FY26 (part of the ₹2,54,538 crore order book). Export customers have included Mauritius, Nepal, and Ecuador (the latter experienced crashes that affected the export programme). The Dhruv has been deployed in combat roles including casualty evacuation, logistics supply, and Search and Rescue (SAR) — including during the 2015 Nepal earthquake relief and the 2020 Galwan Valley clash aftermath.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Over 300 HAL Dhruv ALH helicopters have been delivered across the Indian Air Force, Indian Army, Indian Navy, and Indian Coast Guard since 2002. HAL had 34 Dhruv ALH on order at the end of FY26 (part of the ₹2,54,538 crore order book). Export customers have included Mauritius, Nepal, and Ecuador (the latter programme was affected by crashes). The Dhruv has been deployed in combat roles including casualty evacuation, logistics, and Search and Rescue (SAR).",
+    "rows": [
+      {
+        "agency": "Indian Air Force + Indian Army + Indian Navy + Coast Guard",
+        "context": "300+ Dhruv ALH delivered cumulatively",
+        "year": 2002,
+        "quantity_or_note": "Delivered since 2002; all 4 services",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "HAL order book",
+        "context": "34 Dhruv ALH on order",
+        "year": 2026,
+        "quantity_or_note": "End-FY26 (part of ₹2,54,538 cr HAL order book)",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Mauritius, Nepal, Ecuador (export)",
+        "context": "Export customers",
+        "year": null,
+        "quantity_or_note": "Ecuador programme affected by crashes",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Dhruv Mk-IV WSI (Rudra) full regiment count in Indian Army not disclosed",
+      "Dhruv Mk-III Maritime squadron count in Indian Navy/Coast Guard not disclosed",
+      "HAL Shakti engine indigenous content beyond 50% not updated"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "Shakti turboshaft engine (Safran/Turbomeca licence)",
+        "severity": "High",
+        "note": "France — licence-assembled by HAL; ~50% indigenous content",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Composite materials",
+        "severity": "Medium",
+        "note": "USA / Japan / Russia",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Avionics components",
+        "severity": "Medium",
+        "note": "Israel / USA for some subsystems",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "HAL indigenous design with MBB (Germany) historical support",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "HAL Bengaluru; 300+ delivered",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Shakti engine French licence; composites + avionics imported",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 5,
+        "note": "300+ delivered across 4 services + 3 export customers; 34 on order",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Exports to Mauritius, Nepal, Ecuador; Ecuador crashes affected programme",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "tejas-mk1a-def-003",
+      "zorawar-light-tank-def-001"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the difference between Dhruv and Rudra?",
+      "answer": "Dhruv is the base Advanced Light Helicopter (ALH) platform. Rudra is the Dhruv Mk-IV WSI (Weapon System Integrated) variant for the Indian Army, equipped with anti-tank guided missiles, rockets, and air-to-air missiles. The Dhruv Mk-III Maritime variant is for the Indian Navy and Coast Guard, with surface search radar, anti-ship missile capability, and emergency flotation. All three share the same HAL airframe and Shakti engine.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What engine powers the HAL Dhruv?",
+      "answer": "The HAL Dhruv is powered by two HAL/Safran (Turbomeca) Shaktu turboshaft engines produced under licence by HAL with approximately 50% indigenous content. The Shakti engine is the Indian designation for the Turbomeca TM333 2C2 (originally) and the Shakti (Ardiden 1H1) — the latter being the current production engine. The same Shakti engine also powers the Light Combat Helicopter (LCH) Prachand.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Has the Dhruv been exported?",
+      "answer": "Yes. The Dhruv has been exported to Mauritius, Nepal, and Ecuador. The Ecuador programme was affected by multiple crashes, leading to operational concerns. HAL continues to market the Dhruv for export to friendly foreign countries, particularly in Southeast Asia, Africa, and Latin America. The Dhruv's combat-proven role in casualty evacuation (including during the 2015 Nepal earthquake relief) has been a key export selling point.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1984",
+      "event": "ALH programme sanctioned; MBB (Germany) contracted for design support",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "1992",
+      "event": "First Dhruv prototype flight",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2002",
+      "event": "Initial Operational Clearance (IOC); first deliveries to IAF",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2015",
+      "event": "Dhruv deployed in Nepal earthquake relief (casualty evacuation)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2026-03",
+      "event": "34 Dhruv ALH on order as part of HAL's ₹2,54,538 cr order book",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Dhruv Mk-IV WSI (Rudra) full regiment count in Indian Army not disclosed",
+    "Dhruv Mk-III Maritime squadron count in Indian Navy/Coast Guard not disclosed",
+    "HAL Shakti engine indigenous content beyond 50% not updated"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "HAL Dhruv",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HAL_Dhruv",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Comprehensive Dhruv specifications and operational history"
+    },
+    {
+      "id": "src-2",
+      "title": "HAL Secures Strong FY27 Outlook Backed By ₹2,54,538 Crore Order Book",
+      "publisher": "SAHI Markets",
+      "url": "https://www.sahi.com/news/hal-secures-strong-fy27-outlook-backed-by-2-54-538-crore-order-book-2811-PE1_COR",
+      "published_date": "2026-08-04",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "34 Dhruv ALH on order end-FY26"
+    },
+    {
+      "id": "src-3",
+      "title": "HAL Investors",
+      "publisher": "Hindustan Aeronautics Limited",
+      "url": "https://hal-india.co.in/investor",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "HAL investor page — domain root only"
+    },
+    {
+      "id": "src-4",
+      "title": "HAL Annual Reports",
+      "publisher": "Hindustan Aeronautics Limited",
+      "url": "https://www.hal-india.co.in/investors/annual-report",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "HAL annual reports archive — domain root only"
+    }
+  ],
+  "seo": {
+    "title": "HAL Dhruv Advanced Light Helicopter (ALH) — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "India's indigenous twin-engine multirole helicopter; 300+ delivered across IAF, Indian Army, Indian Navy, Coast Guard; 34 on order end-FY26; Shakti engine from ",
+    "canonical_path": "/research/pillars/defence/entity/hal-dhruv-alh-def-013/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

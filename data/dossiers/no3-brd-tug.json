@@ -1,0 +1,101 @@
+{
+  "entity_id": "no3-brd-tug",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "no3-brd-tug",
+  "name": "No. 3 Base Repair Depot, IAF",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "IAF Base Repair Depot (Chandigarh, established 1962) specialising in Russian-collaboration transport and helicopter overhaul — historically IL-14 and Mi-4, and now Mi-8/Mi-17 with Mi-25/26/35 upgrades. Compact card: limited public India-specific technical detail.",
+    "chips": [
+      "C",
+      "MRO",
+      "Base Repair Depot",
+      "Russian rotary/transport overhaul"
+    ],
+    "maker": "Indian Air Force — Maintenance Command",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Indian military MRO depot (Russian-origin transport/helicopter overhaul)",
+    "mobility_or_class": "Base Repair Depot (aircraft/helicopter MRO)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Full_name": "No. 3 Base Repair Depot (3 BRD), Indian Air Force",
+    "Location": "Chandigarh",
+    "Established": "20 August 1962",
+    "Command": "Maintenance Command, IAF",
+    "Focus": "Russian-collaboration overhaul — historically IL-14 / Mi-4; now Mi-8, Mi-17 and Mi-25/26/35 upgrades",
+    "Tier_C_reason": "Domestic MRO unit with limited public India-specific technical/programme detail beyond official listing"
+  },
+  "what_it_is": {
+    "prose": "No. 3 Base Repair Depot (3 BRD) is an Indian Air Force overhaul depot at Chandigarh, established on 20 August 1962 under Maintenance Command. Per the IAF's official listing, it specialises in Russian-collaboration overhaul, having handled the IL-14 transport and Mi-4 helicopter historically and, more recently, the overhaul of Mi-8 and Mi-17 helicopters and upgrades for the Mi-25, Mi-26 and Mi-35 families. This is a compact (Tier C) card: beyond the official unit listing and general press recognition, there is limited public, India-specific technical or programme detail to support a fuller dossier. The card is preserved for register completeness and can be elevated if primary-source evidence (MoD/IAF releases, contract details) becomes available.",
+    "sources": [
+      "src-iaf-mc",
+      "src-tribune-3brd"
+    ]
+  },
+  "variant": "Tier C compact card",
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/military-aerospace/"
+    ],
+    "referenced_by": [
+      "iaf"
+    ]
+  },
+  "open_questions": [
+    "Public detail on No.3 BRD's current workload, capacity and any fixed-wing transport overhaul role is limited.",
+    "Whether the depot has a role in An-32 or Il-76 fixed-wing overhaul is not established in sources reviewed (its documented focus is Russian helicopters/transport)."
+  ],
+  "sources": [
+    {
+      "id": "src-iaf-mc",
+      "title": "Maintenance Command",
+      "publisher": "Indian Air Force (official)",
+      "url": "https://indianairforce.nic.in/maintenance-command/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official IAF page: No.3 BRD Chandigarh (established 1962) does Russian-collaboration overhaul — IL-14/Mi-4 historically, now Mi-8/Mi-17 and Mi-25/26/35 helicopter overhaul/upgrade."
+    },
+    {
+      "id": "src-tribune-3brd",
+      "title": "City's 3 BRD adjudged best repair depot of IAF",
+      "publisher": "The Tribune",
+      "url": "https://www.tribuneindia.com/news/archive/chandigarh/citys-3-brd-adjudged-best-repair-depot-of-iaf-822343",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "No.3 BRD, Chandigarh recognised among IAF repair depots."
+    }
+  ],
+  "seo": {
+    "title": "No. 3 Base Repair Depot, IAF — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "IAF Base Repair Depot (Chandigarh, est. 1962) specialising in Russian-collaboration transport and helicopter overhaul — Mi-8/Mi-17 and Mi-25/26/35. Compact card.",
+    "canonical_path": "/research/military-aerospace/company/no3-brd-tug/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/company/",
+      "/research/military-aerospace/"
+    ]
+  }
+}

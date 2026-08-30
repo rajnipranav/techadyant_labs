@@ -1,0 +1,94 @@
+{
+  "entity_id": "parker",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "parker",
+  "name": "Parker Hannifin — Aerospace",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "US motion-and-control OEM (Parker Aerospace) supplying hydraulics, flight-control actuation and fluid systems as embedded components on Western platforms in Indian service. No discrete public India defence evidence — Tier C.",
+    "chips": [
+      "Tier C",
+      "USA",
+      "Parker Aerospace",
+      "Hydraulics",
+      "Flight-control actuation",
+      "Fluid systems"
+    ],
+    "country": "United States",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign component/sub-system supplier — no standalone India footprint",
+    "mobility_or_class": "Component/sub-system supplier (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Parker-Hannifin Corporation (Aerospace Group)",
+    "Ownership": "Public (NYSE: PH)",
+    "HQ": "Cleveland, Ohio, USA",
+    "Product_lines": "Hydraulic systems, flight-control actuation, fuel & inerting, pneumatics, wheels & brakes",
+    "India_footprint": "Component supplier via OEM supply chains; no discrete India defence programme disclosed",
+    "Tier_C_reason": "Embedded component supplier; no citable standalone India defence order"
+  },
+  "what_it_is": {
+    "prose": "Parker Hannifin's Aerospace Group (Parker Aerospace) is a US supplier of hydraulic systems, flight-control actuation, fuel and fluid systems, pneumatics and wheels & brakes. Its hardware is embedded as components within Western aircraft operated by India, but Parker acts as a sub-tier supplier through OEM supply chains rather than through any discrete, publicly documented India defence contract. Recorded as an honest Tier C component-supplier card.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Military Flight Controls Division",
+      "publisher": "Parker Hannifin (official)",
+      "url": "https://www.parker.com/us/en/divisions/military-flight-controls-division.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Military flight-control actuation product division"
+    },
+    {
+      "id": "src-2",
+      "title": "Hydraulic Systems Division — Traditional Hydraulics",
+      "publisher": "Parker Hannifin (official)",
+      "url": "https://www.parker.com/us/en/divisions/hydraulic-systems-division/solutions/traditional-hydraulics.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Hydraulic systems product line"
+    }
+  ],
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "seo": {
+    "title": "Parker Hannifin — Aerospace — Company · India Military Aerospace Atlas | Techadyant",
+    "canonical_path": "/research/military-aerospace/company/parker/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ],
+    "meta_description": "US motion-and-control OEM (Parker Aerospace) supplying hydraulics and flight-control actuation as embedded components; no discrete India defence evidence. Tier C."
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "entity_id": "atl-cmp-agnikul-cosmos",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "agnikul-cosmos",
+  "name": "Agnikul Cosmos",
+  "variant": null,
+  "vertical": "space",
+  "parent_hub_path": "/research/space/agnikul-cosmos/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Agnikul Cosmos is a Chennai-based spacetech startup incubated at IIT Madras, founded in 2017 by Srinath Ravichandran (CEO), Moin SPM, Prof. Satyanarayanan Chakravarthy and Janardhana Raju. Designs and",
+    "chips": [
+      "space",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Chennai, Tamil Nadu, India (IIT Madras Research Park)",
+    "Type": "Company (listed)",
+    "Founded": "2017 (within IIT Madras; co-founders Srinath Ravichandran (CEO), Moin SPM, Prof. Satyanarayanan Chakravarthy, Janardhana Raju; seed funding ₹3 crore from IIT-M)",
+    "India entity": null,
+    "Listed": "Not listed — private startup",
+    "Key India role": "Agnikul Cosmos is a Chennai-based spacetech startup incubated at IIT Madras, founded in 2017 by Srinath Ravichandran (CEO), Moin SPM, Prof. Satyanarayanan Chakravarthy and Janardhana Raju. Designs and"
+  },
+  "what_it_is": {
+    "prose": "Agnikul Cosmos is a Chennai-based spacetech startup incubated at IIT Madras, founded in 2017 by Srinath Ravichandran (CEO), Moin SPM, Prof. Satyanarayanan Chakravarthy and Janardhana Raju. Designs and manufactures orbital-class launch vehicles powered by 3D-printed engines. Made history on 30 May 2024 by successfully launching Agnibaan SOrTeD (Sub-Orbital Test Demonstrator) — the world's first rocket with a single-piece fully 3D-printed engine (Agnilet) — from Agnikul Launchpad-01, India's first private launchpad at SDSC-SHAR Sriharikota. Agnibaan is a 2-stage / 3-stage small-lift launch vehicle capable of placing 100 kg to 700 km LEO. Engines Agnilet (semi-cryogenic) and Agnite (booster, 3D-printable in 7 days at 1/10th conventional cost) — Agnikul holds a US patent for world's largest single-piece 3D-printed Inconel rocket engine. Cluster of four 3D-printed semi-cryogenic engines successfully fired at Agnikul Rocket Factory 1 (May 2026).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "5 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Agnibaan: 2-stage (with optional 3rd) orbital-class small-lift launch vehicle; 100 kg to 700 km LEO; liquid oxygen + kerosene (semi-cryogenic); fully indigenous; on-demand launch capability",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Agnilet: semi-cryogenic rocket engine",
+        "role": "OEM",
+        "india_status": "world's first single-piece fully 3D-printed rocket engine; powered Agnibaan SOrTeD test flight May 2024",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Agnite: booster engine (semi-cryogenic), 3D-printable in 7 days at 1/10th conventional cost",
+        "role": "OEM",
+        "india_status": "tested March 2026",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Agnikul Launchpad-01: India's first private launchpad at SDSC-SHAR Sriharikota",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Rocket Factory 1: in-house 3D printing & engine manufacturing facility at IIT Madras Research Park, Chennai",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "Agnibaan SOrTeD Mission-01 (Sub-Orbital Test Demonstrator) — launched 30 May 2024 at 07:15 IST from Agnikul Launchpad-01 at SDSC-SHAR; world's first rocket with single-piece fully 3D-printed engine (Agnilet); India's second privately built rocket after Skyroot Vikram-S",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "World's largest single-piece 3D-printed Inconel rocket engine — Agnikul received US patent (Oct 2025)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Four-engine cluster firing of semi-cryogenic engines successfully conducted at Agnikul Rocket Factory 1 (May 2026) — all 4 engines 3D-printed as single pieces of hardware",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Agnite engine tested March 2026 — claims full 3D-printing in 7 days at 1/10th conventional cost",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "First Indian company to sign agreement with ISRO under IN-SPACe (Indian National Space Promotion and Authorization Center)",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "15 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "4 official, 11 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is Agnikul Cosmos's milestone launch on 30 May 2024?",
+      "answer": "Agnibaan SOrTeD — world's first rocket with a single-piece fully 3D-printed engine (Agnilet), launched from India's first private launchpad (Agnikul Launchpad-01) at SDSC-SHAR",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Who founded Agnikul Cosmos and where is it based?",
+      "answer": "Srinath Ravichandran (CEO), Moin SPM, Prof. Satyanarayanan Chakravarthy and Janardhana Raju founded Agnikul in 2017 within IIT Madras (Chennai)",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the payload capacity of Agnibaan?",
+      "answer": "100 kg to 700 km LEO; 2-stage/3-stage small-lift launch vehicle powered by semi-cryogenic liquid oxygen + kerosene engines",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Agnibaan — fully indigenous orbital-class launch vehicle for small satellites to LEO on demand",
+      "publisher": "Agnikul Official",
+      "url": "https://agnikul.in/product",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "Agnibaan — 3-stage small-lift launch vehicle of AgniKul Cosmos; 100 kg (220 lb) satellite capability",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Agnibaan",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Agnikul founded by Srinath Ravichandran, Moin SPM, Satyanarayanan Chakravarthy and Janardhana Raju within IIT Madras with ₹3 crore seed funding",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Agnikul_Cosmos",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "IIT Madras-incubated Agnikul launched world's first rocket with single-piece 3D-printed engine from Sriharikota on 30 May 2024 at 7:15 AM",
+      "publisher": "PIB India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2022161",
+      "published_date": "2024-05-30",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "Agnikul launched Agnibaan rocket for first time — only Indian rocket engine to use both gas and liquid fuel",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/india/indian-space-startup-agnikul-launches-countrys-second-privately-built-rocket-2024-05-30",
+      "published_date": "2024-05-29",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Agnibaan 2-stage rocket with 300 kg payload to 700 km; engines powered by liquid oxygen or kerosene",
+      "publisher": "News on AIR",
+      "url": "https://newsonair.gov.in/indias-iit-madras-startup-agnikul-cosmos-makes-history-with-the-worlds-first-3d-printed-engine-rocket-launch",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Agnikul Launchpad-01 is India's first private launchpad at SDSC SHAR; launch from own launchpad on 30 May 2024",
+      "publisher": "Manufacturing Today",
+      "url": "https://manufacturing-today.com/news/how-agnikul-cosmos-is-turning-its-vision-to-launch-anywhere-anytime-affordably-a-reality",
+      "published_date": "2026-02-05",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "IIT Madras incubated Agnikul launched world's first single-piece 3D-printed Agnibaan rocket from Sriharikota",
+      "publisher": "Organiser",
+      "url": "https://organiser.org/2024/05/30/240206/bharat/bharats-legendary-milestone-indias-agnikul-cosmos-launches-worlds-first-3d-printed-agnibaan-rocket",
+      "published_date": "2024-05-30",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Agnibaan SOrTeD Mission-01 launched on 30 May at 07:15 hrs IST from Agnikul Launchpad-01 at SDSC-SHAR",
+      "publisher": "Agnikul Official",
+      "url": "https://agnikul.in/missions",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "Semi-cryogenic engines Agnilet and Agnite — 3D-printed in one piece, no separate parts or assembly needed",
+      "publisher": "Agnikul Official",
+      "url": "https://agnikul.in/technology-2",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "Agnikul tested Agnite — booster engine fully 3D-printable in 7 days at 1/10th conventional cost",
+      "publisher": "3D Printing Industry",
+      "url": "https://3dprintingindustry.com/news/agnikul-tests-new-agnite-rocket-engine-claims-it-can-be-3d-printed-in-just-7-days-250266",
+      "published_date": "2026-03-26",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "AgniKul created world's largest single-piece 3D-printed Inconel rocket engine; received US patent",
+      "publisher": "3D Natives",
+      "url": "https://www.3dnatives.com/en/application-of-the-month-worlds-first-single-piece-3d-printed-inconel-rocket-engine",
+      "published_date": "2025-10-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "Agnikul fired cluster of four 3D-printed semi-cryogenic engines — all 4 designed and manufactured in-house at Rocket Factory 1 facility",
+      "publisher": "Voxelmatters",
+      "url": "https://www.voxelmatters.com/agnikul-cosmos-fires-cluster-of-four-3d-printed-semi-cryogenic-engines",
+      "published_date": "2026-05-21",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-14",
+      "title": "Agnikul co-founded in 2017 by Srinath Ravichandran, Moin SPM, Prof. Satyanarayanan Chakravarthy (IIT Madras)",
+      "publisher": "Founder Thesis",
+      "url": "https://www.founderthesis.com/p/launching-into-the-cosmos-agnikul",
+      "published_date": "2023-09-06",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-15",
+      "title": "At IIT Madras Research Park, Agnikul Cosmos building rocket engines using additive manufacturing",
+      "publisher": "Analytics India Magazine",
+      "url": "https://analyticsindiamag.com/deep-tech/inside-the-chennai-factory-3d-printing-indias-rocket-engines",
+      "published_date": "2026-07-07",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Agnikul Cosmos — Company · India Space Atlas | Techadyant",
+    "meta_description": "Agnikul Cosmos company dossier: India space role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/space/agnikul-cosmos/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/agnikul-cosmos/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

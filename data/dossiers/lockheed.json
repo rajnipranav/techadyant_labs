@@ -1,0 +1,252 @@
+{
+  "entity_id": "lockheed",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "lockheed",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "name": "Lockheed Martin Aeronautics",
+  "status": "Operational",
+  "header": {
+    "one_liner": "US combat-aircraft and airlifter prime; the Indian Air Force operates 12 C-130J-30 Super Hercules, its Tata JV TLMAL in Hyderabad is the global sole source of C-130J empennages and builds Made-in-India F-16 wings, and Lockheed offers the F-21 for the IAF's MRFA requirement.",
+    "chips": [
+      "B",
+      "India-relevant",
+      "Lockheed Martin",
+      "C-130J",
+      "TLMAL",
+      "F-21 offer",
+      "F-16 wing",
+      "Make in India"
+    ],
+    "maker": "Lockheed Martin Corporation — Aeronautics business area (USA)",
+    "country": "USA",
+    "indigenous_pct": null,
+    "indigenous_label": "Aircraft design & IP US-held; Indian value via TLMAL aerostructures (C-130J empennage, F-16 wing >70% Indian parts)",
+    "mobility_or_class": "Aerospace & defence OEM (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Parent": "Lockheed Martin Corporation (USA); Aeronautics business area",
+    "India_in_service": "12 Indian Air Force C-130J-30 Super Hercules",
+    "India_JV": "Tata Lockheed Martin Aerostructures Limited (TLMAL), Adibatla, Hyderabad (est. 2010)",
+    "TLMAL_role": "Global sole source of C-130J / LM-100J empennage (tail) assemblies — 220+ delivered by Sept 2024; also C-130J centre wing box and F-16 wings",
+    "F16_wing": "First Made-in-India F-16 wing certified 7 December 2021; >70% parts from Indian industry",
+    "MRO_teaming": "Lockheed Martin-TASL agreement (10 Sept 2024) to pursue in-country C-130J MRO and future MTA assembly",
+    "Fighter_offer": "F-21 (F-16 derivative) offered for the IAF's Multi-Role Fighter Aircraft (MRFA) requirement",
+    "India_status": "C-130J in active IAF service; F-21 not selected"
+  },
+  "what_it_is": {
+    "prose": "Lockheed Martin Aeronautics is the combat-aircraft and airlifter business of US prime Lockheed Martin Corporation. Its Indian military-aerospace footprint has three strands. First, the Indian Air Force operates 12 C-130J-30 Super Hercules tactical airlifters (inducted from 2011), supported under Lockheed Martin sustainment contracts. Second, Lockheed's Hyderabad joint venture with Tata Advanced Systems — Tata Lockheed Martin Aerostructures Limited (TLMAL, established 2010, Atlas slug tlmal) — is the global single source of empennage (tail) assemblies for the C-130J and LM-100J, having delivered its 200th empennage by August 2023 and more than 220 by September 2024; it also builds the C-130J centre wing box and, since a March 2023 agreement, F-16 fighter wings for Lockheed's global supply chain, with the first Made-in-India F-16 wing (a 9G, 12,000-hour interchangeable wing, >70% Indian parts) certified on 7 December 2021. Third, Lockheed has offered the F-21 (an F-16 derivative) for the IAF's Multi-Role Fighter Aircraft (MRFA) requirement, using TLMAL's wing capability as the industrial basis, and on 10 September 2024 signed a teaming agreement with TASL to pursue an in-country C-130J MRO facility for the IAF fleet and future Medium Transport Aircraft (MTA) assembly in India. Lockheed retains platform design authority and type certification in the USA; India's role is aerostructure manufacture and assembly. This dossier focuses on the military-aerospace footprint and does not infer an indigenous-content percentage for US-controlled platform IP, avionics and engines.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-5",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Lockheed's India footprint combines an in-service IAF C-130J-30 fleet (12 aircraft), the TLMAL aerostructures JV in Hyderabad (global sole-source C-130J empennage; Made-in-India F-16 wings), a September 2024 TASL teaming agreement for in-country C-130J MRO and MTA, and an F-21 fighter offer for the MRFA requirement.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "C-130J-30 Super Hercules tactical airlift fleet",
+        "year": "2011-present",
+        "quantity_or_note": "12 aircraft in service; sustainment under Lockheed Martin support contracts",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Lockheed Martin (Marietta, USA) via TLMAL",
+        "context": "C-130J / LM-100J empennage assemblies — global single source",
+        "year": "2010-present",
+        "quantity_or_note": "220+ delivered by Sept 2024 (~24/year)",
+        "sources": [
+          "src-2",
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Lockheed Martin via TLMAL",
+        "context": "Made-in-India F-16 fighter wings for global supply chain",
+        "year": 2021,
+        "quantity_or_note": "First wing certified 7 Dec 2021; >70% Indian parts",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "agency": "Lockheed Martin + Tata Advanced Systems",
+        "context": "Teaming agreement — in-country C-130J MRO + future MTA assembly",
+        "year": 2024,
+        "quantity_or_note": "Signed 10 September 2024; basis is the 12 IAF C-130J",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (prospective)",
+        "context": "F-21 fighter offer for the MRFA requirement",
+        "year": null,
+        "quantity_or_note": "Contingent on MRFA outcome; not selected",
+        "sources": [
+          "src-4"
+        ]
+      }
+    ],
+    "open_questions": [
+      "F-21 has not been selected; MRFA competition remains unresolved",
+      "Status/site of the proposed in-country C-130J MRO not finalised in a primary source",
+      "Cumulative F-16 wing deliveries and run-rate from TLMAL not published"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Lockheed's platforms are US-designed and type-certified; India's contribution is aerostructure manufacture (via TLMAL) and operation of the C-130J fleet. Platform IP, avionics, mission systems and engines remain US/Western-controlled.",
+    "items": [
+      {
+        "component": "C-130J / F-16 platform design & type certificate",
+        "severity": "High",
+        "note": "Lockheed Martin (USA) — TLMAL is build-to-print aerostructures",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Engines (Rolls-Royce AE2100 on C-130J; GE F110 on F-16/F-21)",
+        "severity": "High",
+        "note": "US/UK — not in Indian scope",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Avionics & mission systems",
+        "severity": "High",
+        "note": "Lockheed / US suppliers — supplied within the US programme",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "c130j"
+    ],
+    "peer_systems": [
+      "c390",
+      "c295",
+      "an32"
+    ],
+    "related_components": [
+      "tlmal"
+    ],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is Lockheed Martin's footprint in Indian military aerospace?",
+      "answer": "Three strands: the Indian Air Force operates 12 C-130J-30 Super Hercules airlifters; Lockheed's Hyderabad JV with Tata (TLMAL) is the global sole source of C-130J empennages and builds Made-in-India F-16 wings; and Lockheed offers the F-21 (an F-16 derivative) for the IAF's MRFA fighter requirement. A September 2024 teaming agreement with Tata Advanced Systems targets in-country C-130J MRO and future Medium Transport Aircraft assembly.",
+      "sources": [
+        "src-1",
+        "src-5"
+      ]
+    },
+    {
+      "question": "What does the TLMAL joint venture make?",
+      "answer": "Tata Lockheed Martin Aerostructures Limited (TLMAL), a Tata Advanced Systems-Lockheed Martin JV at Adibatla near Hyderabad (est. 2010), is the global single source of empennage (tail) assemblies for the C-130J Super Hercules and LM-100J — over 220 delivered by September 2024. It also builds the C-130J centre wing box and, since 2023, F-16 fighter wings; the first Made-in-India F-16 wing (>70% Indian parts) was certified on 7 December 2021.",
+      "sources": [
+        "src-2",
+        "src-4"
+      ]
+    },
+    {
+      "question": "Is Lockheed's F-21 in Indian service?",
+      "answer": "No. The F-21 is an F-16-derived fighter Lockheed Martin has offered for the IAF's Multi-Role Fighter Aircraft (MRFA) requirement, with TLMAL's Hyderabad wing capability cited as the industrial basis. It has not been selected. Lockheed's in-service Indian platform is the C-130J-30 (12 aircraft).",
+      "sources": [
+        "src-4",
+        "src-1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "For India, From India",
+      "publisher": "Lockheed Martin",
+      "url": "https://www.lockheedmartin.com/en-us/who-we-are/international/india.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Lockheed Martin India page: IAF operates 12 C-130Js; TLMAL global sole source of C-130J empennage assemblies."
+    },
+    {
+      "id": "src-2",
+      "title": "Tata-Lockheed Martin JV delivers 200th C-130J Super Hercules empennage",
+      "publisher": "Business Standard",
+      "url": "https://www.business-standard.com/companies/news/tata-group-reaches-major-c-130j-landmark-for-lockheed-123080900660_1.html",
+      "published_date": "2023-08-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "200th empennage; global single source; TLMAL founded 2010; ~650 staff; F-16 wing agreement Mar 2023."
+    },
+    {
+      "id": "src-3",
+      "title": "Lockheed Martin awarded contract to support Indian Air Force C-130J Super Hercules airlifter fleet",
+      "publisher": "Lockheed Martin",
+      "url": "https://news.lockheedmartin.com/lockheed-martin-awarded-5-year-contract-to-support-indian-air-force-c-130j-super-hercules-airlifter-fleet",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "C-130J fleet sustainment support and TLMAL industrial role."
+    },
+    {
+      "id": "src-4",
+      "title": "Lockheed Martin certifies first Made in India F-16 wing",
+      "publisher": "PGurus",
+      "url": "https://www.pgurus.com/lockheed-martin-certifies-first-made-in-india-f-16-wing/",
+      "published_date": "2021-12-07",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "First F-16 wing certified 7 Dec 2021; >70% Indian parts; underpins F-21 offer."
+    },
+    {
+      "id": "src-5",
+      "title": "Lockheed Martin and Tata Advanced Systems announce agreement to expand C-130J Super Hercules opportunities in India",
+      "publisher": "Lockheed Martin",
+      "url": "https://news.lockheedmartin.com/2024-09-10-Lockheed-Martin-and-Tata-Advanced-Systems-Announce-Agreement-to-Expand-C-130J-Super-Hercules-Opportunities-in-India",
+      "published_date": "2024-09-10",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "10 Sept 2024 teaming: in-country MRO for 12 IAF C-130J + MTA; 220+ empennages; single global source."
+    }
+  ],
+  "seo": {
+    "title": "Lockheed Martin Aeronautics — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "US airlifter and fighter prime; 12 IAF C-130J-30 in service, TLMAL Hyderabad JV as global sole-source C-130J empennage and F-16 wing builder, plus an F-21 offer for the MRFA.",
+    "canonical_path": "/research/military-aerospace/company/lockheed/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/company/tlmal/",
+      "/research/military-aerospace/platform/c130j/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

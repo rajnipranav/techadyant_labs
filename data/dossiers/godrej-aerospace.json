@@ -1,0 +1,215 @@
+{
+  "entity_id": "godrej-aerospace",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "godrej-aerospace",
+  "name": "Godrej Aerospace",
+  "variant": "Division of Godrej & Boyce (Godrej Enterprises Group), unlisted",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Godrej & Boyce's aerospace & defence division (Mumbai); makes Kaveri derivative engine modules for DRDO-GTRE, ISRO's L110/CE20 (LVM3) rocket engines and Vikas thrust chambers, and has built BrahMos airframes for 20+ years; positioning for the AMCA engine.",
+    "chips": [
+      "Tier B",
+      "Godrej Enterprises",
+      "Engine modules",
+      "Kaveri",
+      "ISRO LVM3",
+      "BrahMos",
+      "AMCA"
+    ],
+    "maker": "Division of Godrej & Boyce Mfg. Co. Ltd (Godrej Enterprises Group), unlisted",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "High-value machining, welding & assembly of engine/airframe components in India; design IP with DRDO/ISRO/BrahMos customers",
+    "mobility_or_class": "Aero-engine & airframe component OEM (no platform class)",
+    "operational_domains": [
+      "air",
+      "space"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Godrej Aerospace (business of Godrej & Boyce Mfg. Co. Ltd)",
+    "Ownership": "Division of Godrej & Boyce, part of the Godrej Enterprises Group (unlisted)",
+    "HQ": "Vikhroli, Mumbai; new 100-acre facility at Khalapur (~70 km from Mumbai)",
+    "Kaveri_engine": "First Indian private firm to win order for 8 modules of DRDO's Kaveri derivative engine (48-50 kN dry); 2 modules delivered, D2/D3 in progress",
+    "ISRO_engines": "Makes LVM3 L110 core-stage engine and CE20 cryo upper-stage thrust chamber; ~16-17 engines/year, plans to double",
+    "BrahMos": "Airframes for the BrahMos cruise missile for 20+ years",
+    "AMCA": "Seeking role in the ₹15,000 cr indigenous 5th-gen fighter engine programme; MoU with ADA on flight-control actuators",
+    "Investment": "~₹500 cr for the Khalapur facility + ~₹250 cr for space capability",
+    "Financials": "Not separately disclosed (division of unlisted Godrej & Boyce)"
+  },
+  "what_it_is": {
+    "prose": "Godrej Aerospace is the aerospace and defence business of Godrej & Boyce Manufacturing Company, part of the unlisted Godrej Enterprises Group, based at Vikhroli in Mumbai. It is one of India's most established high-value aero-engine and airframe component makers, built around mastery of titanium and high-temperature-alloy processing, electron-beam and specialty welding, and heat/surface treatments for conditions above 1,500 degrees C. In propulsion, Godrej became the first Indian private enterprise to secure an order to manufacture eight modules of DRDO-GTRE's Kaveri derivative engine (a 48-50 kN dry-thrust engine for unmanned platforms); it has delivered two modules and is progressing the D2 and D3 units. For ISRO it manufactures the L110 liquid core-stage engine and the CE20 cryogenic upper-stage thrust chamber for the LVM3 launcher, and Vikas-engine thrust chambers — currently around 16-17 rocket engines a year, with plans to roughly double capacity. Godrej has also built airframes for the BrahMos supersonic cruise missile for over two decades. Looking forward, it is positioning for a role in India's indigenous fifth-generation fighter engine for the AMCA (the ₹15,000 crore engine programme sanctioned in 2024) and has signed an MoU with the Aeronautical Development Agency on indigenous flight-control actuators. To support this growth it is investing about ₹500 crore in a new 100-acre facility at Khalapur near Mumbai and about ₹250 crore in space-sector capability. As a division of an unlisted company, Godrej Aerospace does not separately disclose revenue or order book.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Godrej Aerospace is a component and sub-assembly supplier into national programmes (DRDO-GTRE, ISRO, BrahMos) rather than a platform prime; contract values are largely undisclosed. Its India relevance is high — it sits on the critical path of indigenous engine and launcher efforts.",
+    "rows": [
+      {
+        "agency": "DRDO / GTRE",
+        "context": "Kaveri derivative engine — 8 modules",
+        "year": 2023,
+        "quantity_or_note": "First Indian private order; 2 modules delivered; D2/D3 in progress",
+        "sources": [
+          "src-1",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "ISRO",
+        "context": "LVM3 L110 core-stage engine + CE20 cryogenic thrust chamber; Vikas thrust chambers",
+        "year": null,
+        "quantity_or_note": "~16-17 engines/year; capacity doubling planned",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "BrahMos Aerospace",
+        "context": "BrahMos cruise-missile airframes",
+        "year": null,
+        "quantity_or_note": "20+ years of production",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "ADA / DRDO (prospective)",
+        "context": "AMCA 5th-gen engine role + flight-control actuators MoU",
+        "year": 2025,
+        "quantity_or_note": "₹15,000 cr engine programme; MoU signed",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Godrej Aerospace revenue / order book not disclosed (division of unlisted Godrej & Boyce)",
+      "Exact count of Kaveri modules delivered beyond the initial two not confirmed in fetched sources",
+      "AMCA engine partner selection not decided — Godrej role aspirational"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Godrej performs high-value machining, welding and assembly of engine and airframe components in India; design IP rests with its customers (DRDO/ISRO/BrahMos), and aerospace superalloy/titanium feedstock and some machine tools are imported.",
+    "items": [
+      {
+        "component": "Engine / launcher design IP",
+        "severity": "Low",
+        "note": "DRDO-GTRE, ISRO, BrahMos — indigenous customers",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Superalloy & titanium feedstock",
+        "severity": "Medium",
+        "note": "High-temperature alloy billet largely imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "5-axis machining & electron-beam welding equipment",
+        "severity": "Medium",
+        "note": "Europe / Japan",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Godrej Aerospace positions for key role in India's 5th-generation fighter jet engine development",
+      "publisher": "Indian Defense News",
+      "url": "https://www.indiandefensenews.in/2025/04/godrej-aerospace-positions-for-key-role.html",
+      "published_date": "2025-04",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "First Indian private order for 8 Kaveri derivative modules (2 delivered); LVM3 L110 + CE20; 16-17 engines/yr; BrahMos 20+ yrs; ₹500 cr Khalapur"
+    },
+    {
+      "id": "src-2",
+      "title": "Godrej Aerospace expands leadership with AMCA & ISRO engine projects",
+      "publisher": "Gear Technology India",
+      "url": "https://geartechnologyindia.com/godrej-aerospace-expands-aerospace-leadership-with-amca-and-isro-engine-projects/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Kaveri modules, ISRO L110/CE20, BrahMos airframes, AMCA actuators MoU, Khalapur ₹500 cr + ₹250 cr space"
+    },
+    {
+      "id": "src-3",
+      "title": "Godrej Aerospace eyes role in 5th-gen engine for AMCA, building on Kaveri success",
+      "publisher": "IDRW",
+      "url": "https://idrw.org/godrej-aerospace-eyes-role-in-5th-gen-engine-for-amca-building-on-kaveri-success/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Kaveri derivative engine components (turbine blades, compressor discs, combustor); Vikas thrust chambers; BrahMos; AMCA ambitions"
+    }
+  ],
+  "seo": {
+    "title": "Godrej Aerospace — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Godrej & Boyce's aerospace division; Kaveri derivative engine modules for DRDO-GTRE, ISRO LVM3 L110/CE20 engines, BrahMos airframes; positioning for the AMCA ",
+    "canonical_path": "/research/military-aerospace/company/godrej-aerospace/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What does Godrej Aerospace make for India's engine programmes?",
+      "answer": "Godrej Aerospace, the aerospace division of Godrej & Boyce, is the first Indian private firm to win an order to build eight modules of DRDO-GTRE's Kaveri derivative engine (48-50 kN dry thrust); it has delivered two modules and is progressing the D2 and D3 units. For ISRO it manufactures the LVM3's L110 liquid core-stage engine and CE20 cryogenic upper-stage thrust chamber, plus Vikas-engine thrust chambers — about 16-17 rocket engines a year, with plans to roughly double capacity.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What is Godrej Aerospace's role in BrahMos and the AMCA?",
+      "answer": "Godrej has manufactured airframes for the BrahMos supersonic cruise missile for more than 20 years. It is positioning for a role in India's indigenous fifth-generation fighter engine for the AMCA — the ₹15,000 crore engine programme sanctioned in 2024 — arguing that the alloys, welding and heat/surface treatments it mastered on the Kaveri derivative and rocket engines carry over. It has also signed an MoU with the Aeronautical Development Agency on indigenous flight-control actuators.",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "question": "Are Godrej Aerospace's financials public?",
+      "answer": "No. Godrej Aerospace is a division of Godrej & Boyce Manufacturing Company, part of the unlisted Godrej Enterprises Group, so it does not separately disclose revenue or order book. Visible commitments include roughly ₹500 crore for a new 100-acre facility at Khalapur near Mumbai and about ₹250 crore for space-sector capability.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ]
+}

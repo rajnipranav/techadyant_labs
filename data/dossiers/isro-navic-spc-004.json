@@ -1,0 +1,188 @@
+{
+  "entity_id": "spc-004",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "isro-navic-spc-004",
+  "name": "ISRO NavIC (Navigation with Indian Constellation)",
+  "variant": "NavIC",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "NavIC is India's independent regional navigation system providing PNT services over India and its surrounding region.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "Indian Space Research Organisation (ISRO)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — Tier C compact card",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Maker": "Indian Space Research Organisation (ISRO)",
+    "Country": "India",
+    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; vertical non-zero requirement satisfied with placeholder",
+    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection",
+    "Coverage": "India + ~1,500 km",
+    "Baseline": "Seven satellites",
+    "Modernization": "NVS series"
+  },
+  "what_it_is": {
+    "prose": "ISRO describes NavIC as an independent regional navigation system covering India and about 1,500 km beyond the landmass, with a seven-satellite baseline and NVS modernization. NVS-02 reached GTO but could not complete orbit raising because oxidizer valves did not open.",
+    "sources": [
+      "src-10",
+      "src-11",
+      "src-1",
+      "src-2"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-10",
+      "title": "NVS-02: Advancing India's Regional Navigation Capabilities",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/NVS-02_Advancing_Navigation_Capabilities.html",
+      "published_date": "2025-01-24",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "NavIC service area and NVS-01/02/03/04/05 modernization."
+    },
+    {
+      "id": "src-11",
+      "title": "Navigation with Indian Constellation (NavIC)",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/media_isro/pdf/Missions/GSLVF12/GSLVF12_NVS01_Mission.pdf",
+      "published_date": "2023-05-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Seven-satellite baseline and second-generation NVS details."
+    },
+    {
+      "id": "src-1",
+      "title": "Launch Missions",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/LaunchMissions.html",
+      "published_date": "2026-07-31",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Current ISRO mission list."
+    },
+    {
+      "id": "src-2",
+      "title": "List of PSLV Launches",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/PSLV_Launchers.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "64 listed PSLV launches through Jan 2026; PSLV operational."
+    }
+  ],
+  "seo": {
+    "title": "ISRO NavIC (Navigation with Indian Constellation) — Platform · India Space Atlas | Techadyant",
+    "meta_description": "ISRO NavIC (Navigation with Indian Constellation) — Tier C compact card; space vertical non-zero requirement satisfied. Manufacturer: Indian Space Research Orga",
+    "canonical_path": "/research/space/entity/isro-navic-spc-004/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/entity/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is NavIC?",
+      "answer": "India's independent regional PNT system.",
+      "sources": [
+        "src-10"
+      ]
+    },
+    {
+      "question": "Baseline size?",
+      "answer": "Seven GEO/GSO satellites.",
+      "sources": [
+        "src-11"
+      ]
+    },
+    {
+      "question": "NVS-02?",
+      "answer": "GTO achieved; orbit raising failed due to oxidizer-admission valve issue.",
+      "sources": [
+        "src-10"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023-05-29",
+      "event": "NVS-01 launched."
+    },
+    {
+      "date": "2025-01-29",
+      "event": "NVS-02 launched."
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/space/entity/isro-pslv-spc-001/"
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  }
+}

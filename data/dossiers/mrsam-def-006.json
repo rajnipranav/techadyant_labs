@@ -1,0 +1,277 @@
+{
+  "entity_id": "def-006",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "mrsam-def-006",
+  "name": "MRSAM (Medium Range Surface-to-Air Missile)",
+  "variant": "MRSAM (Army/Iaf) / LR-SAM (Navy) — Barak-8 family",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Indo-Israeli co-developed medium-range SAM (Barak-8 family); range 70-100 km; in service with Indian Army, Navy (LR-SAM), and IAF; ~₹6,000 crore aggregate orders.",
+    "chips": [
+      "SAM",
+      "Indo-Israeli",
+      "Barak-8",
+      "70-100 km",
+      "BEL",
+      "BDL",
+      "IAI"
+    ],
+    "maker": "DRDO + Israel Aerospace Industries (IAI) — co-development; BEL + BDL — Indian production",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO + Israel Aerospace Industries (IAI) — co-development; BEL + BDL — Indian production",
+    "Range": "70-100 km (depending on variant)",
+    "Altitude": "Up to 16 km",
+    "Seeker": "Active radar seeker (IAI / DRDO)",
+    "Variants": "MRSAM (Army/IAF), LR-SAM (Navy — Barak-8 on P15A/P15B/P17A destroyers/frigates)",
+    "Status": "Operational; in production",
+    "Customers": "Indian Army, Indian Navy (LR-SAM), Indian Air Force",
+    "Aggregate_orders": "~₹6,000 crore across Navy + Army + IAF",
+    "Naval_deployments": "Kolkata-class (P15A), Visakhapatnam-class (P15B), Nilgiri-class (P17A) destroyers/frigates"
+  },
+  "what_it_is": {
+    "prose": "MRSAM (Medium Range Surface-to-Air Missile) is the Indo-Israeli co-developed air defence system based on the Barak-8 missile family. The system was jointly developed by DRDO and Israel Aerospace Industries (IAI), with BEL and BDL as Indian production agencies. The naval variant is designated LR-SAM (Long Range Surface-to-Air Missile) and equips the Indian Navy's Kolkata-class (P15A), Visakhapatnam-class (P15B), and Nilgiri-class (P17A) destroyers and frigates. The land-based MRSAM variant is in service with the Indian Army and Indian Air Force. The missile has a range of 70-100 km (depending on variant) and an altitude ceiling of 16 km, with an active radar seeker providing end-game homing. Aggregate orders across the three services exceed ₹6,000 crore. The co-development model provides Transfer of Technology for Indian production, with the active radar seeker being progressively indigenised. MRSAM provides medium-layer air defence complementing the longer-range S-400 (India context) and the shorter-range Akash and QRSAM systems.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "MRSAM/LR-SAM is in operational service across all three Indian services. The naval LR-SAM variant equips Kolkata-class (P15A), Visakhapatnam-class (P15B), and Nilgiri-class (P17A) destroyers and frigates. The land-based MRSAM is in service with the Indian Army and IAF. Aggregate orders across all three services exceed ₹6,000 crore.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "LR-SAM (Barak-8) on P15A Kolkata-class destroyers",
+        "year": null,
+        "quantity_or_note": "3 ships: INS Kolkata, INS Kochi, INS Chennai",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "LR-SAM on P15B Visakhapatnam-class destroyers",
+        "year": null,
+        "quantity_or_note": "4 ships: INS Visakhapatnam, INS Mormugao, INS Imphal, INS Surat",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "LR-SAM on P17A Nilgiri-class frigates",
+        "year": null,
+        "quantity_or_note": "7 ships under construction (first delivery 2025)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army + IAF",
+        "context": "MRSAM land-based variant",
+        "year": null,
+        "quantity_or_note": "~₹6,000 cr aggregate orders across Navy + Army + IAF",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "MRSAM land-based regiment count not publicly disclosed",
+      "Active radar seeker indigenisation percentage for production variants",
+      "Barak-8ER (extended range) variant for India not confirmed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "Active radar seeker technology",
+        "severity": "Medium",
+        "note": "IAI / DRDO co-development; ToT to BDL",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "FPGA / GaN T/R modules",
+        "severity": "High",
+        "note": "Industry-typical — USA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Solid propellant",
+        "severity": "Low",
+        "note": "Indigenous (Solar Group / EEL / MIL)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "DRDO + IAI co-development",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL with ToT from IAI",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Seeker co-developed; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "~₹6,000 cr aggregate orders across 3 services",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "Not yet articulated for India-produced MRSAM",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "akash-ng-def-004",
+      "qrsam-def-005",
+      "s-400-india-def-010"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "MRSAM land-based regiment count not publicly disclosed",
+    "Active radar seeker indigenisation percentage for production variants",
+    "Barak-8ER (extended range) variant for India not confirmed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Barak 8",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Barak_8",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Barak-8/MRSAM/LR-SAM family specifications"
+    },
+    {
+      "id": "src-2",
+      "title": "Products | Official Website of Bharat Dynamics Limited",
+      "publisher": "Bharat Dynamics Limited",
+      "url": "https://bdl-india.in/products",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — BDL products page listing; MRSAM-specific product page not located"
+    },
+    {
+      "id": "src-3",
+      "title": "Bharat Dynamics Limited",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bharat_Dynamics_Limited",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "BDL MR-SAM/LR-SAM production context"
+    },
+    {
+      "id": "src-4",
+      "title": "BARAK-8 – Advanced Air & Missile Defence System",
+      "publisher": "SP's Naval Forces",
+      "url": "https://www.spsnavalforces.com/story/?id=811&h=BARAK-8-Advanced-Air-and-Missile-Defence-System",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Confirms $630M LRSAM contract for 4 Indian Navy ships; Barak-8 co-development framework between IAI and DRDO"
+    }
+  ],
+  "seo": {
+    "title": "MRSAM (Medium Range Surface-to-Air Missile) — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "Indo-Israeli co-developed medium-range SAM (Barak-8 family); range 70-100 km; in service with Indian Army, Navy (LR-SAM), and IAF; ~₹6,000 crore aggregate order",
+    "canonical_path": "/research/pillars/defence/entity/mrsam-def-006/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/",
+    "submit_correction": "/research/pillars/defence/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the difference between MRSAM and LR-SAM?",
+      "answer": "MRSAM (Medium Range Surface-to-Air Missile) is the land-based variant for the Indian Army and IAF. LR-SAM (Long Range Surface-to-Air Missile) is the naval variant that equips Indian Navy destroyers and frigates — specifically the Kolkata-class (P15A), Visakhapatnam-class (P15B), and Nilgiri-class (P17A). Both are based on the Indo-Israeli Barak-8 missile family co-developed by DRDO and Israel Aerospace Industries (IAI), with BEL and BDL as Indian production agencies.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Which Indian Navy ships carry the LR-SAM?",
+      "answer": "LR-SAM (Barak-8) equips the Kolkata-class (P15A: INS Kolkata, INS Kochi, INS Chennai), the Visakhapatnam-class (P15B: INS Visakhapatnam, INS Mormugao, INS Imphal, INS Surat — all commissioned 2021-2024), and the Nilgiri-class (P17A: 7 frigates under construction at MDL and GRSE, first delivery 2025). Aggregate orders across all three services exceed ₹6,000 crore.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Is the MRSAM seeker indigenous?",
+      "answer": "The MRSAM active radar seeker is co-developed by IAI and DRDO under a Transfer of Technology framework, with BEL and BDL producing the missile in India. The seeker is being progressively indigenised, but specific percentages are not publicly disclosed. FPGA and GaN T/R modules for the radar subsystems are industry-typically imported from the United States.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    }
+  ]
+}

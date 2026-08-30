@@ -1,0 +1,245 @@
+{
+  "entity_id": "def-005",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "qrsam-def-005",
+  "name": "QRSAM (Quick Reaction Surface-to-Air Missile)",
+  "variant": "QRSAM",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "DRDO-developed quick-reaction SAM for the Indian Army; range 25-30 km; can intercept fighters, helicopters, UAVs; based on Akash missile technology; in production.",
+    "chips": [
+      "SAM",
+      "Quick reaction",
+      "Indigenous",
+      "Indian Army",
+      "BEL",
+      "BDL"
+    ],
+    "maker": "DRDO — design; BEL + BDL — production",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO — design; BEL + BDL — production",
+    "Range": "25-30 km",
+    "Altitude": "Up to 10 km",
+    "Seeker": "Dual-mode (RF + IIR)",
+    "Mobility": "Vehicle-mounted on BEML Tatra 8x8",
+    "Target_classes": "Fighters, helicopters, UAVs, cruise missiles",
+    "Status": "Operational; in production",
+    "Customer": "Indian Army (Air Defence Corps)",
+    "Contract_value": "₹4,000+ crore orders (BEL + BDL)"
+  },
+  "what_it_is": {
+    "prose": "QRSAM (Quick Reaction Surface-to-Air Missile) is a DRDO-developed short-range air defence system designed for the Indian Army's Air Defence Corps. The system is based on the Akash missile technology but optimised for quick reaction against low-flying targets including fighters, helicopters, UAVs, and cruise missiles. The missile has a range of 25-30 km and an altitude ceiling of 10 km, with a dual-mode seeker combining Radio Frequency (RF) and Imaging Infrared (IIR) guidance. The system is vehicle-mounted on BEML Tatra 8x8 trucks and provides 360° coverage. Production is shared between BEL (radar, C4I) and BDL (missile assembly). QRSAM has been in operational service with the Indian Army since the early 2020s and has accumulated orders exceeding ₹4,000 crore. The system complements the longer-range Akash and Akash-NG SAMs in the Indian Army's layered air defence architecture.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "QRSAM is in operational service with the Indian Army's Air Defence Corps. Aggregate orders exceed ₹4,000 crore across BEL and BDL. The system has been in production since the early 2020s.",
+    "rows": [
+      {
+        "agency": "Indian Army (Air Defence Corps)",
+        "context": "QRSAM production orders (BEL + BDL)",
+        "year": null,
+        "quantity_or_note": "₹4,000+ crore aggregate",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "QRSAM exact induction date and regiment count not publicly disclosed",
+      "QRSAM vs Akash Prime distinction in Indian Army service",
+      "QRSAM export potential not articulated"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "Tatra truck chassis (8x8)",
+        "severity": "High",
+        "note": "BEML assembles under licence — Czech Republic",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "FPGA / GaN T/R modules for radar",
+        "severity": "High",
+        "note": "Industry-typical — USA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "IIR seeker components",
+        "severity": "Medium",
+        "note": "DRDO developing indigenous; some imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO — indigenous design (based on Akash tech)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Seeker partly indigenous; FPGA/GaN/Tatra imported",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 3,
+        "note": "₹4,000+ cr orders; smaller than Akash programme",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "Not yet articulated",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "akash-ng-def-004",
+      "mrsam-def-006"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "QRSAM exact induction date and regiment count not publicly disclosed",
+    "QRSAM vs Akash Prime distinction in Indian Army service",
+    "QRSAM export potential not articulated"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Quick Reaction Surface-to-Air Missile",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Quick_Reaction_Surface-to-Air_Missile",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "QRSAM specifications"
+    },
+    {
+      "id": "src-2",
+      "title": "Akash missile system",
+      "publisher": "Bharat Electronics Limited",
+      "url": "https://bel-india.in/product/akash-missile-system",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "BEL Akash-family product page (QRSAM context)"
+    },
+    {
+      "id": "src-3",
+      "title": "India's Quick Reaction Surface-to-Air Missile (QRSAM)",
+      "publisher": "Missile Defense Advocacy Alliance",
+      "url": "https://missiledefenseadvocacy.org/missile-threat-and-proliferation/todays-missile-threat/india/indias-quick-reaction-surface-to-air-missile-qrsam/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "QRSAM system overview, 25-30 km range, 10 km altitude, dual-mode RF+IIR seeker, Indian Army Air Defence Corps customer"
+    },
+    {
+      "id": "src-4",
+      "title": "India successfully test-fires QRSAM off Odisha coast",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/india-successfully-test-fires-qrsam-off-odisha-coast/article66576531.ece",
+      "published_date": "2023-06-08",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Confirms QRSAM successful test firing June 2023; DRDO-designed; BEL + BDL production"
+    }
+  ],
+  "seo": {
+    "title": "QRSAM (Quick Reaction Surface-to-Air Missile) — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "DRDO-developed quick-reaction SAM for the Indian Army; range 25-30 km; can intercept fighters, helicopters, UAVs; based on Akash missile technology; in producti",
+    "canonical_path": "/research/pillars/defence/entity/qrsam-def-005/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/",
+    "submit_correction": "/research/pillars/defence/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the difference between QRSAM and Akash?",
+      "answer": "QRSAM (Quick Reaction Surface-to-Air Missile) is a DRDO-developed short-range air defence system optimised for quick reaction against low-flying targets including fighters, helicopters, UAVs, and cruise missiles, with a range of 25-30 km and altitude ceiling of 10 km. Akash is a medium-range SAM with longer range (25-45 km for Mk-I, 80+ km for Akash-NG) and higher altitude ceiling (18 km). QRSAM uses a dual-mode RF+IIR seeker while Akash uses a passive seeker (Mk-I/Prime) or active radar seeker (NG). Both are produced by BEL (radar, C4I) and BDL (missile).",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "Which Indian Army unit operates the QRSAM?",
+      "answer": "QRSAM is in operational service with the Indian Army's Air Defence Corps. The system is vehicle-mounted on BEML Tatra 8x8 trucks and provides 360° coverage for quick-reaction engagements against low-flying aerial threats. Specific regiment count and deployment locations have not been publicly disclosed. Aggregate orders across BEL and BDL exceed ₹4,000 crore.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Why is QRSAM based on Akash missile technology?",
+      "answer": "QRSAM reuses the Akash missile's solid-propellant rocket motor and basic airframe design, but is packaged in a smaller, more agile configuration optimised for quick-reaction engagements. The dual-mode seeker (RF + IIR) provides robust end-game guidance against low-RCS targets like UAVs and cruise missiles that may defeat the Akash's passive seeker. This technology reuse allowed DRDO to field QRSAM quickly and at lower development cost than a clean-sheet design.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ]
+}

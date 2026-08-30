@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { companyDossierMetadata, renderCompanyDossierPage } from '../../../../_companyDossierPage';
 import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { companies, companyBySlug, platformsForCompany, suppliersForCompany, geoForCompany, mroForCompany, TIER_LABEL } from '../../data';
@@ -9,6 +10,8 @@ export const dynamicParams = false;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  const dossierMetadata = companyDossierMetadata(slug, 'military-aerospace');
+  if (dossierMetadata) return dossierMetadata;
   const c = companyBySlug(slug);
   if (!c) return { title: 'Company - Military Aerospace Atlas' };
   return {
@@ -20,6 +23,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function CompanyPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const dossierPage = renderCompanyDossierPage(slug, 'military-aerospace');
+  if (dossierPage) return dossierPage;
   const c = companyBySlug(slug);
   if (!c) return <><AtlasNav /><section className="wrap"><p>Company not found.</p></section></>;
   const plats = platformsForCompany(c.id);
@@ -142,3 +147,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
     </>
   );
 }
+
+
+
+

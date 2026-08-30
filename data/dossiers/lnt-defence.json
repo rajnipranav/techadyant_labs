@@ -1,0 +1,332 @@
+{
+  "entity_id": "lnt-defence",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "lnt-defence",
+  "name": "Larsen & Toubro Defence",
+  "variant": "L&T Precision Engineering & Systems + L&T Heavy Engineering; BSE: 500510, NSE: LT",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "L&T defence vertical; K9 Vajra-T tracked howitzer (₹7,629 cr repeat order Dec 2024, 82% local content); Arihant-class SSBN hull fabricator; Project-75I submarine bid; Pinaka canister; counter-drone system on product page.",
+    "chips": [
+      "Tier A",
+      "Private",
+      "Listed",
+      "Artillery",
+      "Submarines",
+      "naval",
+      "Launchers"
+    ],
+    "maker": "Private (listed BSE/NSE)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Larsen & Toubro Limited (Defence)",
+    "Ownership": "Private (listed BSE/NSE)",
+    "HQ": "L&T House, N.M. Marg, Ballard Estate, Mumbai, Maharashtra, India",
+    "Order_book": "~₹20,000 crore defence-specific order book (indicative); L&T group total ~₹2,21,113 crore FY26",
+    "Revenue_FY26": "L&T group ~₹2,21,113 crore FY25; defence revenue not separately disclosed",
+    "CIN": "L99999MH1946PLC004768",
+    "Defence_subsidiaries": "L&T Precision Engineering & Systems (L&T PES), L&T Heavy Engineering",
+    "K9_Vajra_T_orders": "₹4,500 cr (2017, 100 units) + ₹7,629 cr (Dec 2024, 100 more)",
+    "K9_indigenous_content": "82%+ at work-package level (April 2026)",
+    "Submarine_role": "Arihant-class SSBN hull fabricator (S2, S3, S4, S4*) at SBC Visakhapatnam",
+    "Project_76": "Indigenous diesel-electric submarine design target by 2027"
+  },
+  "what_it_is": {
+    "prose": "Larsen & Toubro Limited (L&T) operates its defence business through L&T Precision Engineering & Systems (L&T PES) and L&T Heavy Engineering. The company is listed on BSE (500510) and NSE (LT), headquartered at L&T House in Mumbai. L&T's defence-specific order book is approximately ₹20,000 crore (indicative, per LinkedIn sources); the L&T group's total order book was reported at ~₹2,21,113 crore in FY26 by Fortune India. L&T's flagship defence programme is the K9 Vajra-T 155mm/52-calibre tracked self-propelled howitzer, co-developed with Hanwha Aerospace of South Korea. The first batch of 100 K9 Vajra-T was delivered ahead of schedule under a ₹4,500 crore 2017 contract; a repeat order for 100 more was signed on 23 December 2024 for ₹7,629 crore. As of April 2026, the K9 Vajra-T programme has achieved 82%+ indigenous content at the work-package level. L&T is the hull fabricator for the Arihant-class SSBN nuclear submarines (S2, S3, S4, S4*) at the Ship Building Centre (SBC) Visakhapatnam. L&T is leading India's Project-76 indigenous diesel-electric submarine design effort, with a target design completion by 2027. L&T is also a bidder for Project-75I (in partnership with Navantia of Spain and ThyssenKrupp Marine Systems of Germany). Other programmes include Pinaka MBRL canister and launcher, BrahMos canister and launcher, Astra launcher, and the L&T PES Counter-Drone System (Atlas slug cus-057).",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "L&T's defence commitments are anchored by the K9 Vajra-T programme (₹4,500 cr 2017 + ₹7,629 cr Dec 2024 = ~₹12,129 crore aggregate). The first 100 K9 Vajra-T were delivered ahead of schedule; the repeat order for 100 more was signed 23 December 2024. The K9 achieved 82%+ indigenous content by April 2026. L&T is the hull fabricator for the Arihant-class SSBN programme at SBC Visakhapatnam (S2 INS Arihant and S3 INS Arighat in service; S4 in trials 2026; S4* under construction). L&T is bidding for Project-75I with Navantia (Spain) and ThyssenKrupp (Germany).",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "K9 Vajra-T first batch — 100 units",
+        "year": 2017,
+        "quantity_or_note": "₹4,500 crore contract",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "K9 Vajra-T repeat order — 100 more units",
+        "year": 2024,
+        "quantity_or_note": "₹7,629 crore (signed 23 December 2024)",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Navy / Strategic Forces Command",
+        "context": "Arihant-class SSBN hull fabrication (S2, S3, S4, S4*)",
+        "year": null,
+        "quantity_or_note": "S2 + S3 in service; S4 in trials 2026; S4* under construction",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Project-75I submarine bid (with Navantia / ThyssenKrupp)",
+        "year": null,
+        "quantity_or_note": "₹40,000 cr programme (estimated); bid pending MoD decision",
+        "sources": [
+          "src-6"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Pinaka canister/launcher production (part of ₹6,000 cr Pinaka ER order 2026)",
+        "year": 2026,
+        "quantity_or_note": "Share of ₹6,000 cr",
+        "sources": []
+      }
+    ],
+    "open_questions": [
+      "Defence-specific revenue / order book not separately disclosed by L&T in consolidated financials",
+      "L&T PES Counter-Drone System (cus-057): no deployment record beyond product page",
+      "P-75I bid outcome (L&T-Navantia vs MDL-ThyssenKrupp) still pending final MoD decision",
+      "Project-76 indigenous submarine design timeline (target 2027) not formally confirmed by MoD"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
+    "items": [
+      {
+        "component": "K9 Vajra-T components (engines, transmission, gun barrel forgings)",
+        "severity": "Medium",
+        "note": "Hanwha Aerospace — South Korea; $253M second contract for 100 K9 Vajra-T components",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "component": "Submarine AIP / propulsion tech (for P-75I)",
+        "severity": "High",
+        "note": "Pending OEM selection — Spain (Navantia) or Germany (ThyssenKrupp)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-6"
+        ]
+      },
+      {
+        "component": "Submarine sonar / combat system",
+        "severity": "Medium",
+        "note": "France / Germany / Israel depending on bid outcome",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "CNC machines, marine-grade steel",
+        "severity": "Low",
+        "note": "Largely indigenous / Japan / Germany",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "K9 Vajra-T co-development with Hanwha; P-76 indigenous submarine design; Pinaka canister own design",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Armoured Systems Complex Hazira (first private defence ASC in India); SBC Visakhapatnam for SSBNs",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "K9 at 82% local; submarine AIP/sonar pending OEM selection",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "K9 cumulative ~₹12,129 cr; defence order book ~₹20,000 cr indicative",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 2,
+        "note": "No major defence export announced yet",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Defence-specific revenue / order book not separately disclosed by L&T in consolidated financials",
+    "L&T PES Counter-Drone System (cus-057): no deployment record beyond product page",
+    "P-75I bid outcome (L&T-Navantia vs MDL-ThyssenKrupp) still pending final MoD decision",
+    "Project-76 indigenous submarine design timeline (target 2027) not formally confirmed by MoD"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "L&T Precision Engineering & Systems Wins (Major) Order for K9 Vajra-T Artillery Platforms",
+      "publisher": "Larsen & Toubro",
+      "url": "https://www.larsentoubro.com/pressreleases/2024-12-23-lt-precision-engineering-systems-wins-major-order-for-k9-vajra-t-artillery-platforms",
+      "published_date": "2024-12-23",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "K9 Vajra-T repeat order ₹7,629 cr"
+    },
+    {
+      "id": "src-2",
+      "title": "MoD inks Rs 7629 crore contract with L&T for K9 VAJRA-T",
+      "publisher": "Press Information Bureau, Ministry of Defence",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086514",
+      "published_date": "2024-12-20",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PIB confirmation of K9 contract"
+    },
+    {
+      "id": "src-3",
+      "title": "L&T Drives K9 Vajra Artillery Program to 82% Local Content",
+      "publisher": "Defence.in",
+      "url": "https://defence.in/threads/l-t-drives-k9-vajra-artillery-program-to-82-local-content-strengthening-domestic-supply-chains.17362",
+      "published_date": "2026-04-05",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "82% indigenous content"
+    },
+    {
+      "id": "src-4",
+      "title": "Hanwha Aerospace Secures Second K9 Vajra-T Contract",
+      "publisher": "Hanwha Aerospace",
+      "url": "https://m.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=499",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Hanwha confirmation of K9 components supply"
+    },
+    {
+      "id": "src-5",
+      "title": "Arihant-class submarine",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arihant-class_submarine",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "L&T hull fabrication role"
+    },
+    {
+      "id": "src-6",
+      "title": "Project-75 (India) submarine acquisition project",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Project-75_(India)_submarine_acquisition_project",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "P-75I bid context"
+    },
+    {
+      "id": "src-7",
+      "title": "Fortune India Exclusive: L&T eyes big growth in defence and aerospace",
+      "publisher": "Fortune India",
+      "url": "https://www.fortuneindia.com/enterprise/fortune-exclusive-lt-eyes-big-growth-in-defence-and-aerospace/119127",
+      "published_date": "2024-11-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "L&T group order book context"
+    }
+  ],
+  "seo": {
+    "title": "Larsen & Toubro Defence — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "L&T's defence & aerospace vertical (L&T PES + Heavy Engineering, BSE:500510/NSE:LT); K9 Vajra-T howitzer, Arihant-class SSBN hulls, precision aerospace & miss",
+    "canonical_path": "/research/military-aerospace/company/lnt-defence/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is L&T's role in the K9 Vajra-T programme?",
+      "answer": "Larsen & Toubro (L&T) is the prime contractor for the K9 Vajra-T 155mm/52-calibre tracked self-propelled howitzer, co-developed with Hanwha Aerospace of South Korea. The first batch of 100 K9 Vajra-T was delivered ahead of schedule under a ₹4,500 crore 2017 contract; a repeat order for 100 more was signed on 23 December 2024 for ₹7,629 crore. As of April 2026, the K9 Vajra-T programme has achieved 82%+ indigenous content at the work-package level. Manufacturing is at the Armoured Systems Complex in Hazira, Gujarat — India's first private defence ASC.",
+      "sources": [
+        "src-1",
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "question": "What is L&T's role in India's nuclear submarine programme?",
+      "answer": "L&T is the hull fabricator for the Arihant-class SSBN nuclear submarines (S2 INS Arihant, S3 INS Arighat, S4 in trials 2026, S4* under construction) at the Ship Building Centre (SBC) Visakhapatnam. L&T also leads India's Project-76 indigenous diesel-electric submarine design effort, with a target design completion by 2027. For Project-75(I), L&T is bidding in partnership with Navantia (Spain) against MDL+ThyssenKrupp (Germany).",
+      "sources": [
+        "src-5",
+        "src-6"
+      ]
+    },
+    {
+      "question": "Why is L&T's defence revenue not separately disclosed?",
+      "answer": "L&T is a diversified conglomerate listed on BSE (500510) and NSE (LT), but its defence business operates through subsidiaries L&T Precision Engineering & Systems (L&T PES) and L&T Heavy Engineering, with revenue embedded in the consolidated 'Projects' and 'Hi-Tech Manufacturing' segments. Indicative LinkedIn sources cite a defence-specific order book of approximately ₹20,000 crore; the L&T group's total order book was reported at approximately ₹2,21,113 crore in FY26. Atlas should mark defence-specific revenue as 'not separately disclosed'.",
+      "sources": [
+        "src-7"
+      ]
+    }
+  ]
+}

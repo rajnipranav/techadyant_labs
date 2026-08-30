@@ -1,0 +1,208 @@
+{
+  "entity_id": "aequs",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "aequs",
+  "name": "Aequs Limited",
+  "variant": "Listed Dec 2025 (NSE/BSE); founder Aravind Melligeri",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Belagavi-based precision aerospace manufacturer running India's first aerospace SEZ; end-to-end forging, machining, surface treatment & assembly for Airbus, Boeing, Safran, Collins and Spirit; ~40% of Airbus A320 landing-gear parts; IPO-listed December 2025.",
+    "chips": [
+      "Tier B",
+      "Listed",
+      "Aerospace SEZ",
+      "Precision machining",
+      "Forging",
+      "Airbus",
+      "Boeing",
+      "Safran"
+    ],
+    "maker": "Private, listed (IPO December 2025); founder & Executive Chairman Aravind Melligeri",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Full in-country forge-to-assembly for flight-critical parts; raw metal, machine tools and platform IP imported",
+    "mobility_or_class": "Precision aerospace components OEM (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Aequs Limited",
+    "Ownership": "Private, listed on NSE/BSE (IPO December 2025); founder & Executive Chairman Aravind Melligeri",
+    "Founded": "2000",
+    "HQ": "Belagavi, Karnataka, India — India's first precision-engineering / aerospace SEZ (250+ acres)",
+    "Capability": "Integrated forging, machining, surface treatment and assembly within 500 m",
+    "Aerospace_customers": "Airbus (D2P), Boeing (Tier-1 since 2017), Safran, Collins Aerospace, Spirit AeroSystems",
+    "Market_position": "~40% of Airbus A320 landing-gear components (made in France) supplied by Aequs",
+    "Aerospace_order_book": "~USD 814 million through 2031 (per analyst note)",
+    "IPO": "December 2025 — ₹922 crore issue at ₹124/share; listed 10 December 2025",
+    "Diversification": "Consumer electronics casings, toys (Hasbro/Mattel), cookware (Tramontina JV)"
+  },
+  "what_it_is": {
+    "prose": "Aequs Limited is a precision-engineering group founded in 2000 by Aravind Melligeri and headquartered in Belagavi, Karnataka, where it built and operates India's first precision-engineering and aerospace Special Economic Zone (250+ acres). Aequs' differentiator is an integrated 'forge-to-fly' cluster that co-locates forging, machining, surface treatment and assembly within about 500 metres, compressing a supply chain that would otherwise span thousands of kilometres. In aerospace — historically 85-89% of revenue — Aequs makes flight-critical components and assemblies for Airbus (a ~15-year 'D2P' relationship), Boeing (Tier-1 since 2017), Safran (engine components), Collins Aerospace and Spirit AeroSystems, and supplies roughly 40% of the Airbus A320 landing-gear components that are manufactured in France. It reports an aerospace order book of around USD 814 million through 2031 and aerospace-segment EBITDA margins near 24%. In June 2026 Aequs signed a further engine-parts agreement with Safran and in May 2026 inaugurated a new facility for narrow-body aircraft components. Aequs listed on the NSE/BSE in December 2025 through a ₹922 crore IPO (fresh issue ₹670 crore plus offer for sale) priced at ₹124 per share, with proceeds largely used to repay debt. Beyond aerospace, Aequs has diversified into consumer-electronics casings, toys (Hasbro, Mattel/Spin Master) and cookware (a Tramontina JV).",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Aequs is an export-oriented Tier-1 aerospace components supplier to global OEMs rather than a platform builder; its India relevance is as a sovereign forge-to-assembly base and one of the country's largest private aerospace exporters. Contract-level detail is limited to analyst notes and IPO disclosures.",
+    "rows": [
+      {
+        "agency": "Airbus",
+        "context": "A320 landing-gear and structural components; narrow-body parts",
+        "year": 2026,
+        "quantity_or_note": "~40% of France-made A320 landing-gear parts; new narrow-body line May 2026",
+        "sources": [
+          "src-1",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Safran",
+        "context": "Aero-engine components — expanded agreement",
+        "year": 2026,
+        "quantity_or_note": "June 2026 agreement (9-year relationship)",
+        "sources": [
+          "src-1",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Boeing / Collins / Spirit AeroSystems",
+        "context": "Machined structural and engine components (Tier-1)",
+        "year": null,
+        "quantity_or_note": "Part of ~USD 814M aerospace order book to 2031",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "FY25/FY26 revenue and profit not captured from a primary filing this session — available in the RHP/annual report",
+      "Split of order book by customer and by defence vs civil not disclosed",
+      "No confirmed Indian military-platform work-share (Aequs is primarily civil-OEM export)"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Aequs performs the full forge-machine-treat-assemble chain in India, but platform and part design IP belongs to Airbus/Boeing/Safran, and aerospace-grade raw metal, large machine tools and some special processes are imported.",
+    "items": [
+      {
+        "component": "Part / platform design IP",
+        "severity": "High",
+        "note": "Airbus, Boeing, Safran (build-to-print / D2P)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "component": "Aerospace-grade titanium/aluminium/steel billet",
+        "severity": "Medium",
+        "note": "Imported feedstock for forging line",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "5-axis CNC machining centres & inspection tooling",
+        "severity": "Medium",
+        "note": "Europe / Japan",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Aequs supplies 40% of Airbus A320 landing gear parts; targets 20% manufacturing ROCE",
+      "publisher": "SAHI Markets",
+      "url": "https://www.sahi.com/news/aequs-supplies-40-of-airbus-a320-landing-gear-parts-targets-20-manufacturing-roce-5585234-PE1_",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "40% A320 landing-gear parts; Belagavi SEZ; Safran June 2026 deal; new facility May 2026"
+    },
+    {
+      "id": "src-2",
+      "title": "Aequs IPO opens December 3: key strengths, risks before you invest",
+      "publisher": "Business Standard",
+      "url": "https://www.business-standard.com/markets/ipo/aequs-ipo-opens-december-3-know-key-strengths-risks-before-you-invest-125120100380_1.html",
+      "published_date": "2025-12-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "IPO ₹922 cr, ₹124/share, listing 10 Dec 2025; segments; customers Airbus/Boeing/Collins/Spirit/Safran"
+    },
+    {
+      "id": "src-3",
+      "title": "Aequs Ltd — company deep-dive",
+      "publisher": "Acheron Research (Substack)",
+      "url": "https://acheronresearch.substack.com/p/aequs-ltd",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Founded 2000 by Aravind Melligeri; 250+ acre SEZ; forge-to-assembly; USD 814M aerospace order book to 2031; ~24% aerospace EBITDA"
+    }
+  ],
+  "seo": {
+    "title": "Aequs Limited — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Belagavi precision aerospace manufacturer; India's first aerospace SEZ; forge-to-assembly for Airbus, Boeing, Safran; ~40% of Airbus A320 landing-gear parts; ",
+    "canonical_path": "/research/military-aerospace/company/aequs/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What makes Aequs' Belagavi aerospace SEZ distinctive?",
+      "answer": "Aequs built and runs India's first precision-engineering and aerospace Special Economic Zone in Belagavi, Karnataka — a 250+ acre integrated cluster that co-locates forging, machining, surface treatment and assembly within about 500 metres. This 'forge-to-fly' model lets Aequs turn raw metal into flight-critical finished parts on one campus, compressing a supply chain that would otherwise span thousands of kilometres and making it one of India's largest private aerospace exporters.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "Which global aerospace customers does Aequs supply and how big is its order book?",
+      "answer": "Aequs is a Tier-1 supplier to Airbus (a roughly 15-year 'D2P' relationship), Boeing (Tier-1 since 2017), Safran (engine components, expanded via a June 2026 agreement), Collins Aerospace and Spirit AeroSystems. It supplies around 40% of the Airbus A320 landing-gear components made in France, and analyst notes cite an aerospace order book of about USD 814 million running through 2031 at roughly 24% aerospace EBITDA margins.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "Is Aequs listed?",
+      "answer": "Yes. Aequs listed on the NSE/BSE in December 2025 through a ₹922 crore IPO (a fresh issue of ₹670 crore plus an offer for sale) priced at ₹124 per share, with proceeds used largely to repay debt. The company was founded in 2000 by Aravind Melligeri, who remains Executive Chairman.",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    }
+  ]
+}

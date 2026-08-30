@@ -1,0 +1,422 @@
+{
+  "entity_id": "atl-cmp-wipro-mfr-081",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "wipro-mfr-081",
+  "name": "Wipro Defence & Aerospace (Wipro Infrastructure Engineering — WIN)",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/wipro-mfr-081/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Wipro Infrastructure Engineering (WIN) is the industrial engineering arm of Wipro Enterprises, with expertise spanning hydraulics, aerospace, water treatment and additive manufacturing. WIN's aerospac",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India (Wipro Infrastructure Engineering — WIN); aerospace business across Bengaluru, India + European facilities via Lauak Group (France)",
+    "Type": "Manufacturer (listed)",
+    "Founded": "Wipro Infrastructure Engineering (WIN) — diversified industrial engineering arm of Wipro Enterprises; Aerospace business set up in 2013",
+    "India entity": null,
+    "Listed": "Not directly listed — Wipro Infrastructure Engineering (WIN) is part of Wipro Enterprises (Pvt) Ltd (unlisted entity spun off from Wipro Ltd in 2013); Wipro Ltd (NSE:WIPRO / BSE:507685) is the separately listed IT services entity",
+    "Key India role": "Wipro Infrastructure Engineering (WIN) is the industrial engineering arm of Wipro Enterprises, with expertise spanning hydraulics, aerospace, water treatment and additive manufacturing. WIN's aerospac"
+  },
+  "what_it_is": {
+    "prose": "Wipro Infrastructure Engineering (WIN) is the industrial engineering arm of Wipro Enterprises, with expertise spanning hydraulics, aerospace, water treatment and additive manufacturing. WIN's aerospace business was set up in 2013 as a solutions provider for actuators (cylinder and piston) and aerostructures. Wipro Aerospace operates a separate website (wiproaerospace.com) and is positioned as a Tier-1 aerostructures and actuation supplier to global aerospace OEMs. On 18 June 2025, Wipro Infrastructure Engineering announced (at the Paris Air Show) exclusive negotiations to acquire a majority stake in France's Lauak Group — a Tier-1 aircraft parts and aerostructures provider with strong European OEM relationships; the transaction closed in December 2025. This acquisition reinforces Wipro's position as a trusted industrial partner in France and strengthens its European aerospace footprint. WIN is the largest independent hydraulic cylinder manufacturer in the world, delivering around 2 million cylinders to OEMs globally.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "6 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Aerospace actuators (cylinder and piston)",
+        "role": "OEM",
+        "india_status": "Wipro Aerospace (since 2013)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Aerostructures",
+        "role": "OEM",
+        "india_status": "Wipro Aerospace",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Hydraulic cylinders (largest independent manufacturer in the world",
+        "role": "OEM",
+        "india_status": "~2 million cylinders annually)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Lauak Group portfolio",
+        "role": "OEM",
+        "india_status": "Tier-1 aircraft parts and aerostructures (majority stake acquired Dec 2025)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Water treatment systems",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Additive manufacturing solutions",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "4 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "Wipro Infrastructure Engineering announced exclusive negotiations on 18 June 2025 (Paris Air Show) to acquire majority stake in France's Lauak Group — Tier-1 aircraft parts and aerostructures manufacturer",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Lauak Group majority stake acquisition closed December 2025 — reinforces Wipro's position as trusted industrial partner in France",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Wipro Aerospace business set up in 2013 — solutions provider for actuators (cylinder and piston), aerostructures",
+        "year": "2013",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Wipro Infrastructure Engineering is the largest independent hydraulic cylinder manufacturer in the world (~2 million cylinders annually)",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "12 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "4 official, 6 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Wipro's aerospace business established?",
+      "answer": "Wipro Infrastructure Engineering (WIN) is the industrial engineering arm of Wipro Enterprises, with expertise spanning hydraulics, aerospace, water treatment and additive manufacturing.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which French aerospace company did Wipro Infrastructure Engineering acquire a majority stake in?",
+      "answer": "On 18 June 2025, Wipro Infrastructure Engineering announced (at the Paris Air Show) exclusive negotiations to acquire a majority stake in France's Lauak Group — a Tier-1 aircraft parts and aerostructures provider with strong European OEM relationships; the transaction closed in December 2025.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When was the Wipro Infrastructure Engineering-Lauak Group acquisition announced and when did it close?",
+      "answer": "On 18 June 2025, Wipro Infrastructure Engineering announced (at the Paris Air Show) exclusive negotiations to acquire a majority stake in France's Lauak Group — a Tier-1 aircraft parts and aerostructures provider with strong European OEM relationships; the transaction closed in December 2025.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What products does Wipro Aerospace manufacture?",
+      "answer": "Wipro Infrastructure Engineering (WIN) is the industrial engineering arm of Wipro Enterprises, with expertise spanning hydraulics, aerospace, water treatment and additive manufacturing.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Is Wipro Infrastructure Engineering (WIN) listed on stock exchanges?",
+      "answer": "Wipro Infrastructure Engineering (WIN) is the industrial engineering arm of Wipro Enterprises, with expertise spanning hydraulics, aerospace, water treatment and additive manufacturing.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is WIN's standing in the global hydraulic cylinder market?",
+      "answer": "WIN is the largest independent hydraulic cylinder manufacturer in the world, delivering around 2 million cylinders to OEMs globally.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Wipro delivers aerospace and defense technology solutions — optimize operations, reduce costs, drive digital transformation",
+      "publisher": "Wipro Official",
+      "url": "https://www.wipro.com/aerospace-and-defense",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "Wipro Aerospace and Defence — design, develop, integrate and maintain hardware, software, mechanical and PLM of aerospace solutions",
+      "publisher": "Wipro Official",
+      "url": "https://www.wipro.com/engineering/aerospace-and-defence",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Wipro Aerospace — evaluates job aspirants on merit, competency, qualification and experience",
+      "publisher": "Wipro Aerospace Official",
+      "url": "https://wiproaerospace.com/careers",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "WIN — diverse industrial engineering business with expertise in hydraulics, aerospace, water treatment, additive manufacturing",
+      "publisher": "Wipro Infrastructure Engineering (WIN) Official",
+      "url": "https://www.wiproinfra.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-05",
+      "title": "Wipro Aerospace — aerospace business of Wipro Infrastructure Engineering set up in 2013 — solutions provider for actuators (cylinder and piston) and aerostructures",
+      "publisher": "LinkedIn",
+      "url": "https://in.linkedin.com/company/wipro-aerospace",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Wipro Infrastructure Engineering to acquire majority stake in France's Lauak Group (18 June 2025) — announced at Paris Air Show",
+      "publisher": "The Hindu BusinessLine",
+      "url": "https://www.thehindubusinessline.com/economy/logistics/wipro-infrastructure-engineering-to-acquire-majority-stake-in-frances-lauak-group/article69709746.ece",
+      "published_date": "2025-06-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Wipro Infrastructure Engineering to acquire majority stake in Lauak Group (19 June 2025) — reinforces Wipro's position as trusted industrial partner in France",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/wipro-infrastructure-engineering-to-acquire-majority-stake-in-lauak-group/articleshow/121938415.cms",
+      "published_date": "2025-06-19",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "WIN in talks to acquire majority stake in France's Lauak Group (19 June 2025) — strengthens European aerospace footprint",
+      "publisher": "ET Manufacturing",
+      "url": "https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/wipro-infrastructure-engineering-in-talks-to-acquire-majority-stake-in-frances-lauak-group/121947094",
+      "published_date": "2025-06-19",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Lauak Group has sold a majority stake to Wipro Infrastructure Engineering (December 2025) — Lauak is provider of aircraft parts and aerostructures",
+      "publisher": "Oaklins",
+      "url": "https://www.oaklins.com/in/en/deals/111629",
+      "published_date": "2025-12-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "HSF Kramer advises Wipro Enterprises on proposed acquisition of majority stake in French Lauak Group (19 June 2025)",
+      "publisher": "Herbert Smith Freehills Kramer",
+      "url": "https://www.hsfkramer.com/news/2025-06/hsfkramer-advises-wipro-enterprises-on-its-proposed-acquisition-of-a-majority-stake-in-french-lauak-group",
+      "published_date": "2025-06-19",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "Wipro Infrastructure Engineering (WIN) on 18 June 2025 said it will acquire majority stake in French aircraft parts manufacturer Lauak Group",
+      "publisher": "MNACritique",
+      "url": "https://mnacritique.mergersindia.com/news/wipro-infra-to-acquire-majority-stake-in-french-aerospace-major-lauak-group",
+      "published_date": "2025-06-19",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "Wipro Infrastructure Engineering (WIN) — largest independent hydraulic cylinder manufacturer in the world, delivering around 2 million cylinders to OEMs",
+      "publisher": "Wipro Official",
+      "url": "https://www.wipro.com/about-us/wipro-group-companies",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Wipro Defence & Aerospace (Wipro Infrastructure Engineering — WIN) — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Wipro Defence & Aerospace (Wipro Infrastructure Engineering — WIN) company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/wipro-mfr-081/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/wipro-mfr-081/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

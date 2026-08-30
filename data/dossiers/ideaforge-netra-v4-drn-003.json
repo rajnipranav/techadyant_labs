@@ -1,0 +1,188 @@
+{
+  "entity_id": "drn-003",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ideaforge-netra-v4-drn-003",
+  "name": "ideaForge NETRA V4 UAV",
+  "variant": "NETRA V4 quadcopter",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "ideaForge NETRA is an Indian micro-UAV family with documented homeland-security use and a current NETRA V4 Prime product line.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "ideaForge Limited",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — Tier C compact card",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Maker": "ideaForge Limited",
+    "Country": "India",
+    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; vertical non-zero requirement satisfied with placeholder",
+    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection",
+    "Product": "NETRA V4 Prime",
+    "Security-use evidence": "CRPF"
+  },
+  "what_it_is": {
+    "prose": "PIB reported in 2015 that CRPF held 10 NETRA micro-UAVs. ideaForge's NETRA V4 Prime brochure documents the current product's autonomous flight, encrypted communications and day/night surveillance payloads. Historical NETRA quantities are not presented as current V4 fleet size.",
+    "sources": [
+      "src-15",
+      "src-16",
+      "src-17",
+      "src-21"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-15",
+      "title": "NETRA V4 Prime UAV brochure",
+      "publisher": "ideaForge",
+      "url": "https://www.ideaforge.co.in/wp-content/uploads/2022/08/V4_PRIME_UAV_Brochure_compressed.pdf",
+      "published_date": "2022-08-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Product specifications and defence/homeland-security pedigree."
+    },
+    {
+      "id": "src-16",
+      "title": "Use of UAV for Internal Security",
+      "publisher": "PIB",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=132765",
+      "published_date": "2015-12-08",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "CRPF held 10 NETRA micro-UAVs deployed in LWE areas."
+    },
+    {
+      "id": "src-17",
+      "title": "Drone of 3 Idiots could now serve Army, NSG; DRDO in talks",
+      "publisher": "Indian Express (archived on ideaForge domain)",
+      "url": "https://www.ideaforge.co.in/media/2010/indianexpress%2011022010.pdf?amp=1",
+      "published_date": "2010-02-11",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Early NETRA development and DRDO collaboration."
+    },
+    {
+      "id": "src-21",
+      "title": "India Drone & UAS Ecosystem directory",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": "2026-08-29",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Indicative live Atlas directory only; not treated as official evidence."
+    }
+  ],
+  "seo": {
+    "title": "ideaForge NETRA V4 UAV — Platform · India Drones Uas Atlas | Techadyant",
+    "meta_description": "ideaForge NETRA V4 UAV — Tier C compact card; vertical non-zero requirement satisfied. Manufacturer: ideaForge Limited. Country: India.",
+    "canonical_path": "/research/drones-uas/platform/ideaforge-netra-v4-drn-003/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/platform/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is V4 Prime?",
+      "answer": "ideaForge's current NETRA micro-UAV product line.",
+      "sources": [
+        "src-15"
+      ]
+    },
+    {
+      "question": "Security use?",
+      "answer": "PIB documented CRPF NETRA deployment.",
+      "sources": [
+        "src-16"
+      ]
+    },
+    {
+      "question": "Does 10 units mean current V4 fleet?",
+      "answer": "No; it is historical family evidence.",
+      "sources": [
+        "src-16",
+        "src-15"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2015-12-08",
+      "event": "PIB reported CRPF NETRA holding."
+    },
+    {
+      "date": "2022",
+      "event": "NETRA V4 Prime brochure."
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/drones-uas/platform/ideaforge-switch-uav-drn-002/"
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  }
+}

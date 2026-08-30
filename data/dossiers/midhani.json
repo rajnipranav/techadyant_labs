@@ -1,0 +1,328 @@
+{
+  "entity_id": "midhani",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "midhani",
+  "name": "Mishra Dhatu Nigam Limited (MIDHANI)",
+  "variant": "Mini Ratna defence-metals PSU",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's strategic special-metals PSU under the Ministry of Defence; sole domestic source of many superalloys, titanium alloys, maraging and armour steels for aero-engines, missiles, launch vehicles and warships. FY26 turnover ₹1,208.63 crore (+12.5% YoY), order book ₹2,290 crore.",
+    "chips": [
+      "Tier A",
+      "PSU",
+      "Mini Ratna",
+      "Superalloys",
+      "Titanium",
+      "Special steels",
+      "Aero-engine materials",
+      "ISRO/DRDO/HAL supplier"
+    ],
+    "maker": "Government of India (Ministry of Defence)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Import-substitution metals producer; melts and processes superalloys, titanium and special steels domestically, but depends on imported sponge titanium, nickel, cobalt and certain master alloys",
+    "mobility_or_class": "Metallurgical materials OEM (no platform class)",
+    "operational_domains": [
+      "air",
+      "land",
+      "naval",
+      "space"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Mishra Dhatu Nigam Limited (MIDHANI)",
+    "CIN": "L14292TG1973GOI001660",
+    "Ownership": "Public Sector Undertaking (Mini Ratna) under the Ministry of Defence, Government of India",
+    "Founded": "1973",
+    "HQ": "PO Kanchanbagh, Hyderabad, Telangana 500058",
+    "Units": "Hyderabad (primary) and Rohtak, Haryana",
+    "Revenue_FY26": "₹1,208.63 crore (+12.52% YoY) — record turnover",
+    "PAT_FY26": "₹130.79 crore (+18.82% YoY)",
+    "Q4_FY26_revenue": "₹552.75 crore (+34.63% YoY)",
+    "Order_book": "₹2,290 crore (as of 1 April 2026)",
+    "Dividend_FY26": "₹2.10 per share (₹0.85 interim + ₹1.25 final)",
+    "Titanium_output_FY26": "Record ~700 tonnes of titanium alloy",
+    "Stock_listing": "BSE: 541195, NSE: MIDHANI",
+    "Product_families": "Superalloys, titanium alloys, special/maraging steels, armour-grade steel, investment castings, forgings, fasteners, welding consumables"
+  },
+  "what_it_is": {
+    "prose": "Mishra Dhatu Nigam Limited (MIDHANI) is a Mini Ratna Public Sector Undertaking under the Ministry of Defence, Government of India, headquartered at Kanchanbagh, Hyderabad, and incorporated in 1973 to make India self-reliant in strategic metallurgical materials that were denied under Cold War technology-control regimes. MIDHANI melts, forges, rolls and casts superalloys, titanium alloys, special and maraging steels, armour-grade steels, investment castings, forgings, fasteners and welding consumables for the aerospace, defence, space, atomic-energy and energy sectors. It is the principal — and in many grades the sole — domestic source of high-temperature nickel-cobalt superalloys and titanium alloys used in aero gas-turbine engines, missile motor cases (maraging steel for Agni-class strategic missiles), launch-vehicle hardware for ISRO (including materials associated with the LVM-3 and Chandrayaan programmes), and naval and armour applications. Customers include DRDO, ISRO, HAL, the Indian armed forces, BrahMos Aerospace and the Department of Atomic Energy. For FY26 MIDHANI reported record revenue from operations of ₹1,208.63 crore (up 12.52% year-on-year), Profit After Tax of ₹130.79 crore (up 18.82%), a Q4 FY26 revenue of ₹552.75 crore (up 34.63%), and a closing order book of ₹2,290 crore as of 1 April 2026, alongside record titanium-alloy production of about 700 tonnes. On 13 August 2026 MIDHANI became the first Indian company to secure GE Aerospace S400 laboratory approval for chemical, mechanical and metallurgical testing of metallic materials to GE Aerospace standards — a qualification that positions it inside global aero-engine supply chains. In February 2025 it signed an MoU with the Aeronautical Development Agency for indigenous development of high-strength, high-toughness special steel for combat-aircraft programmes (Tejas Mk-2, AMCA, TEDBF).",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "MIDHANI is not a platform builder but a materials backbone: its output is embedded in Indian aero-engines, strategic and tactical missiles, launch vehicles, warships and armour. FY26 was a record year with turnover of ₹1,208.63 crore and an order book of ₹2,290 crore. Strategic milestones in the review period include the February 2025 ADA MoU on combat-aircraft special steel, development of cast single-crystal superalloy blade material for aero engines, NADCAP certification of a new aerospace fasteners facility, and the August 2026 GE Aerospace S400 lab approval (first in India).",
+    "rows": [
+      {
+        "agency": "Aeronautical Development Agency (ADA)",
+        "context": "MoU for indigenous high-strength, high-toughness special steel for Tejas Mk-2 / AMCA / TEDBF airframes",
+        "year": 2025,
+        "quantity_or_note": "Signed 17 February 2025",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "agency": "GE Aerospace (qualification)",
+        "context": "S400 laboratory approval for metallic-materials testing to GE Aerospace standards — first Indian company",
+        "year": 2026,
+        "quantity_or_note": "Approved 13 August 2026",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "agency": "ISRO",
+        "context": "Materials for launch vehicles / space programmes (LVM-3, Chandrayaan-class hardware)",
+        "year": null,
+        "quantity_or_note": "Long-standing supplier; specific tonnage/values not publicly disclosed",
+        "sources": [
+          "src-1",
+          "src-4"
+        ]
+      },
+      {
+        "agency": "DRDO / Strategic missile programmes",
+        "context": "Maraging steel and superalloys for missile motor cases and propulsion (Agni-class)",
+        "year": null,
+        "quantity_or_note": "Values not publicly disclosed",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "MIDHANI does not publish per-customer contract values; order-book composition by sector is not itemised in public disclosures",
+      "Extent of remaining import dependence on sponge titanium, nickel and cobalt master alloys is not quantified in public filings"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "MIDHANI is itself India's import-substitution answer for finished strategic metals, but its upstream raw-material and certain master-alloy inputs remain import-exposed. Titanium sponge, high-purity nickel and cobalt, and some vacuum-melting consumables are sourced globally; India's domestic titanium-sponge capacity (KMML/DMRL-derived) is limited. MIDHANI's value-add — vacuum induction/arc melting, electroslag remelting, forging and precision casting — is domestic, but the elemental feedstock chain is not fully sovereign.",
+    "items": [
+      {
+        "component": "Titanium sponge (feedstock)",
+        "severity": "High",
+        "note": "Domestic sponge capacity limited; imports supplement aerospace-grade titanium production",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Nickel / cobalt master alloys (superalloy inputs)",
+        "severity": "High",
+        "note": "High-purity nickel and cobalt for aero-engine superalloys largely imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Vacuum-melting and remelting consumables / instrumentation",
+        "severity": "Medium",
+        "note": "Specialised furnace consumables and process instrumentation partly imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design / metallurgy ownership",
+        "value": 5,
+        "note": "In-house alloy development, single-crystal blade material, indigenous special-steel R&D",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Indian PSU; melting/forging/casting done domestically at Hyderabad and Rohtak",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Feedstock sovereignty",
+        "value": 3,
+        "note": "Titanium sponge, nickel and cobalt inputs partly imported",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 3,
+        "note": "₹2,290 crore order book, ₹1,208.63 crore FY26 turnover — strategic but modest in absolute size",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Global supply-chain integration",
+        "value": 3,
+        "note": "GE Aerospace S400 lab approval opens global aero-engine supply chain access (first in India)",
+        "sources": [
+          "src-4"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "1973",
+      "event": "MIDHANI incorporated under the Ministry of Defence to make India self-reliant in strategic metals",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2025-02-17",
+      "event": "MoU signed with ADA for indigenous high-strength special steel for Tejas Mk-2 / AMCA / TEDBF",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "event": "FY26 results: record turnover ₹1,208.63 crore (+12.52%), PAT ₹130.79 crore (+18.82%), order book ₹2,290 crore",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "event": "First Indian company to secure GE Aerospace S400 laboratory approval for metallic-materials testing",
+      "sources": [
+        "src-4"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does MIDHANI make and why is it strategically important?",
+      "answer": "MIDHANI is a Mini Ratna PSU under the Ministry of Defence that produces superalloys, titanium alloys, special and maraging steels, armour steel, castings, forgings and fasteners. It is the principal — and in several grades the sole — domestic source of high-temperature aero-engine superalloys, maraging steel for strategic missile motor cases, and titanium/special-steel hardware for launch vehicles and warships. It was created in 1973 specifically to break India's dependence on denied Western strategic materials, making it a foundational supplier to DRDO, ISRO, HAL and the armed forces.",
+      "sources": [
+        "src-1",
+        "src-4"
+      ]
+    },
+    {
+      "question": "What were MIDHANI's FY26 financial results?",
+      "answer": "For FY26 MIDHANI reported record revenue from operations of ₹1,208.63 crore, up 12.52% year-on-year, with Profit After Tax of ₹130.79 crore (up 18.82%) and EPS of ₹6.98. Q4 FY26 revenue was ₹552.75 crore (up 34.63%) with Q4 PAT of ₹77.75 crore. The order book stood at ₹2,290 crore as of 1 April 2026 and the board declared a total dividend of ₹2.10 per share. The company also achieved record titanium-alloy production of about 700 tonnes.",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "question": "What is the significance of the GE Aerospace S400 approval and the ADA MoU?",
+      "answer": "On 13 August 2026 MIDHANI became the first Indian company to receive GE Aerospace S400 laboratory approval, certifying its chemical, mechanical and metallurgical testing to GE Aerospace standards and positioning it to supply into global aero-engine supply chains. Separately, on 17 February 2025 MIDHANI signed an MoU with the Aeronautical Development Agency to indigenously develop high-strength, high-toughness special steel for India's combat-aircraft programmes — Tejas Mk-2, the Advanced Medium Combat Aircraft (AMCA) and the Twin Engine Deck-Based Fighter (TEDBF).",
+      "sources": [
+        "src-4",
+        "src-5"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Per-customer and per-sector order-book breakdown is not publicly disclosed",
+    "Quantified residual import dependence on titanium sponge, nickel and cobalt feedstock is not published",
+    "Whether GE Aerospace S400 approval has yet converted into firm aero-engine material supply contracts is not confirmed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Mishra Dhatu Nigam Limited — MIDHANI (official corporate site)",
+      "publisher": "Mishra Dhatu Nigam Limited",
+      "url": "https://midhani-india.in/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — confirms ownership (MoD PSU, Mini Ratna), 1973 founding, Hyderabad/Rohtak units, product families and sectors served"
+    },
+    {
+      "id": "src-2",
+      "title": "MIDHANI Q4 FY26 Results: Record ₹1,209 Cr Revenue, 19% PAT Growth, ₹2,290 Cr Order Book",
+      "publisher": "Indian Masterminds",
+      "url": "https://indianmasterminds.com/news/midhani-q4-fy26-results-record-revenue-pat-growth-order-book-207224/",
+      "published_date": "2026-05-29",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "FY26 and Q4 FY26 financials, order book, dividend, 700-tonne titanium output, aerospace certifications"
+    },
+    {
+      "id": "src-3",
+      "title": "MIDHANI Reports Record FY26 Turnover Up 12.52% to ₹1,208.63 Crore, PAT Rises 18.82%",
+      "publisher": "Whalesbook Corporate News",
+      "url": "https://www.whalesbook.com/corporate-news/English/industrial-goodsservices/MIDHANI-Reports-Record-FY26-Turnover-Up-1252percent-to-indian-rupee120863-Crore-PAT-Rises-1882percent/6a23c90c76afea9b85866f3c",
+      "published_date": "2026-05-29",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Corroborates FY26 turnover, PAT, EPS and net worth"
+    },
+    {
+      "id": "src-4",
+      "title": "Midhani Secures GE Aerospace S400 Lab Approval, First In India",
+      "publisher": "Indian Defense News",
+      "url": "https://www.indiandefensenews.in/2026/08/midhani-secures-ge-aerospace-s400-lab.html",
+      "published_date": "2026-08-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "GE Aerospace S400 lab approval; MIDHANI aerospace-materials focus and ISRO/DRDO/HAL/Agni customer list"
+    },
+    {
+      "id": "src-5",
+      "title": "Aeronautical Development Agency, Mishra Dhatu Sign MoU For High-Strength Steel",
+      "publisher": "Indian Defense News",
+      "url": "https://www.indiandefensenews.in/2025/02/aeronautical-development-agency-mishra.html",
+      "published_date": "2025-02-17",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "ADA-MIDHANI MoU for indigenous special steel for Tejas Mk-2 / AMCA / TEDBF"
+    }
+  ],
+  "seo": {
+    "title": "Mishra Dhatu Nigam Limited (MIDHANI) — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "India's strategic special-metals defence PSU; sole domestic source of many aero-engine superalloys, titanium and maraging steels. FY26 turnover ₹1,208.63 crore, order book ₹2,290 crore; first Indian firm with GE Aerospace S400 lab approval.",
+    "canonical_path": "/research/military-aerospace/company/midhani/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/company/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

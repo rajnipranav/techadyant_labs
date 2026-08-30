@@ -1,0 +1,169 @@
+{
+  "entity_id": "cus-058",
+  "entity_type": "system",
+  "tier": "B",
+  "noindex": false,
+  "slug": "kalyani-group-bharat-cuas-cus-058",
+  "name": "Kalyani Bharat CUAS",
+  "variant": "Bharat CUAS (Atlas label) — proposed M4-based configuration under evaluation",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-08-29",
+  "status": "Prototype",
+  "header": {
+    "one_liner": "KSSL CIWS + proposed Kalyani M4 vehicle-based CUAS configuration under Indian Army evaluation (Dec 2025); 113 mm multi-barrel cannon + 7.62 mm LMG + 40 mm AGL + directional jammers + laser dazzlers, >3 km engagement.",
+    "chips": [
+      "Hard kill",
+      "Soft kill",
+      "Kinetic",
+      "RF jammer",
+      "Laser dazzler",
+      "EO/IR",
+      "Radar",
+      "Vehicle-mounted"
+    ],
+    "maker": "Kalyani Strategic Systems Limited (KSSL) / Bharat Forge",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not disclosed in public sources reviewed",
+    "mobility_or_class": "Vehicle-mounted / static (configuration dependent)",
+    "operational_domains": [
+      "land",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Kalyani Strategic Systems Limited (KSSL) — Bharat Forge subsidiary",
+    "HQ": "Pune, Maharashtra",
+    "KSSL_Air_Defence_products": "CIWS (gun + search/tracking radar + smart ammunition), Army AD Gun (L-70/ZU-23 replacement), SPIKE ATGM (licence Rafael)",
+    "Proposed_M4_CUAS_config": "113 mm multi-barrel cannon + 7.62 mm coaxial LMG + 40 mm AGL + directional jammers + laser dazzlers",
+    "Engagement_range_proposed": ">3 km against Group 1 and Group 2 drones",
+    "Base_vehicle": "Kalyani M4 (licensed derivative of Paramount Mbombe 4, South Africa)",
+    "Indian_Army_evaluation": "December 2025 (under discussion, not ordered)"
+  },
+  "what_it_is": {
+    "prose": "Kalyani Strategic Systems Limited (KSSL), a Kalyani Group company under Bharat Forge, lists three Air Defence products on its official page: Close-In Weapon Station (CIWS), Army AD Gun (replacement of L-70 and ZU-23), and SPIKE ATGM (manufactured under licence from Rafael Advanced Defense Systems). The 'Bharat CUAS' configuration referenced in the Atlas corresponds most plausibly to a proposed Kalyani M4 vehicle-based CUAS configuration reported by IDRW in December 2025. The proposed configuration includes a mast-mounted multi-sensor array (passive RF detectors, compact 3D radar, EO/IR trackers), directional jammers, laser dazzlers, and three hard-kill effectors: a 7.62 mm coaxial Light Machine Gun with smart air-burst ammunition, a 40 mm Automatic Grenade Launcher with proximity-fused rounds, and a 113 mm multi-barrel cannon 'specifically optimised for high-volume, rapid-response fire against Group 1 and Group 2 drones' engaging swarms at ranges beyond 3 km while the vehicle remains mobile. The Indian Army's Directorate of Mechanised Forces and Northern Command were reported in December 2025 to be 'actively evaluating' the configuration. No production contract has been signed. The Kalyani M4 base vehicle is a licensed derivative of the Paramount Group (South Africa) Mbombe 4, customised in India by Bharat Forge.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Indian Army's Directorate of Mechanised Forces and Northern Command were reported in December 2025 to be evaluating the proposed Kalyani M4 CUAS configuration. No production contract has been signed. The KSSL CIWS (a separate product) is described as a 'proven solution' but specific customer deployments are not publicly itemised.",
+    "rows": [
+      {
+        "agency": "Indian Army / Directorate of Mechanised Forces + Northern Command",
+        "context": "Evaluation of Kalyani M4 CUAS configuration",
+        "year": 2025,
+        "quantity_or_note": "December 2025 — under discussion, not ordered",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Whether 'Bharat CUAS' is a real KSSL product name or an Atlas editorial label",
+      "Detection range figures (radar, RF, EO/IR)",
+      "Indigenous content %",
+      "Whether the 113 mm cannon is in production or still in development",
+      "Confirmed deployments (none found)"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies not publicly itemised. Industry-typical supply chains suggest FPGA (USA), GaN RF amplifiers (USA), and EO/IR sensors (USA / Israel) are imported. Vendor confirmation required.",
+    "items": [
+      {
+        "component": "FPGA (Xilinx/AMD)",
+        "severity": "Unknown",
+        "note": "Industry-typical; vendor not disclosed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "GaN RF amplifier",
+        "severity": "Unknown",
+        "note": "Industry-typical; vendor not disclosed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "EO/IR sensors",
+        "severity": "Unknown",
+        "note": "Industry-typical; vendor not disclosed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "integrated-counter-drone-system-cus-001",
+      "tata-advanced-systems-cuas-cus-056",
+      "l-t-defence-counter-drone-system-cus-057"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Whether 'Bharat CUAS' is a real KSSL product name or an Atlas editorial label",
+    "Detection range figures (radar, RF, EO/IR)",
+    "Indigenous content %",
+    "Whether the 113 mm cannon is in production or still in development",
+    "Confirmed deployments (none found)"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Air Defence",
+      "publisher": "Kalyani Strategic Systems Limited",
+      "url": "https://www.kssl.in/air-defence",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — KSSL Air Defence product page; specific CIWS or M4 CUAS product page not located"
+    },
+    {
+      "id": "src-2",
+      "title": "Indian Army Evaluates Kalyani M4 as Next-Generation Counter-Drone Armoured Platform",
+      "publisher": "IDRW",
+      "url": "https://idrw.org/indian-army-evaluates-kalyani-m4-as-next-generation-counter-drone-armoured-platform",
+      "published_date": "2025-12-08",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Documents proposed M4 CUAS configuration — mast-mounted multi-sensor array, 113 mm multi-barrel cannon, 7.62 mm LMG, 40 mm AGL, directional jammers, laser dazzlers; >3 km engagement range"
+    },
+    {
+      "id": "src-3",
+      "title": "Indian Army Considers Automated Mobile Anti-Drone Role for Kalyani M4 Fleet",
+      "publisher": "defence.in",
+      "url": "https://defence.in/threads/indian-army-considers-automated-mobile-anti-drone-role-for-kalyani-m4-fleet-securing-high-altitude-borders-and-convoys.16199",
+      "published_date": "2025-12-09",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Confirms M4 is manufactured by Bharat Forge under KSSL brand; licensed derivative of Paramount Mbombe 4"
+    }
+  ],
+  "seo": {
+    "title": "Kalyani Bharat CUAS — System · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "KSSL CIWS + proposed Kalyani M4 vehicle-based CUAS configuration under Indian Army evaluation (Dec 2025); 113 mm multi-barrel cannon + 7.62 mm LMG + 40 mm AGL + directional jammers + laser dazzlers, >3 km engagement.",
+    "canonical_path": "/research/counter-uas/system/kalyani-group-bharat-cuas-cus-058/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/counter-uas/"
+    ]
+  }
+}

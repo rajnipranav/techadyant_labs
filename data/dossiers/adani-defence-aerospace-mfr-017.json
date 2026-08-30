@@ -1,0 +1,183 @@
+{
+  "entity_id": "mfg-017",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "adani-defence-aerospace-mfr-017",
+  "name": "Adani Defence & Aerospace",
+  "variant": "",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Adani Defence & Aerospace is an Indian defence company with indigenous UAV manufacturing and Drishti 10 deliveries.",
+    "chips": [
+      "Tier A",
+      "India-relevant",
+      "Company"
+    ],
+    "maker": "Adani Defence & Aerospace",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Manufacturer",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Legal_name": "Adani Defence & Aerospace",
+    "Country": "India",
+    "Status": "Operational"
+  },
+  "what_it_is": {
+    "prose": "Adani Defence & Aerospace documents indigenous UAV manufacturing, including the Drishti 10 Starliner. Its January 2024 release records handover of the first indigenously manufactured Drishti 10 to the Indian Navy; its annual-report material records delivery of the first Drishti 10 to the Indian Army.",
+    "sources": [
+      "src-18",
+      "src-19",
+      "src-24",
+      "src-21"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Adani Defence & Aerospace documents indigenous UAV manufacturing, including the Drishti 10 Starliner. Its January 2024 release records handover of the first indigenously manufactured Drishti 10 to the Indian Navy; its annual-report material records delivery of the first Drishti 10 to the Indian Army.",
+    "rows": [],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "No indigenous percentage or component import share is asserted without direct disclosure.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "peer_systems": []
+  },
+  "faq": [
+    {
+      "question": "What UAV is a key Adani defence product?",
+      "answer": "Drishti 10 Starliner.",
+      "sources": [
+        "src-18"
+      ]
+    },
+    {
+      "question": "Which service received the first aircraft?",
+      "answer": "Indian Navy.",
+      "sources": [
+        "src-18"
+      ]
+    },
+    {
+      "question": "Has the Army received it?",
+      "answer": "Adani's annual-report material records the first Army delivery.",
+      "sources": [
+        "src-19"
+      ]
+    }
+  ],
+  "timeline": [],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-18",
+      "title": "Drishti 10 Starliner UAV unveiled and handed over to Indian Navy",
+      "publisher": "Adani Group",
+      "url": "https://connect.adani.com/media/2024/jan24/defence/",
+      "published_date": "2024-01-10",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "First indigenously manufactured Drishti 10 handed to Navy; 36h endurance, 450kg payload; manufacturing ecosystem."
+    },
+    {
+      "id": "src-19",
+      "title": "Defence & Aerospace annual report",
+      "publisher": "Adani Enterprises",
+      "url": "https://connect.adani.com/annual_report/2025/ael/defence-aerospace.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Reports delivery of first Drishti 10 to Indian Army and indigenous UAV activity."
+    },
+    {
+      "id": "src-24",
+      "title": "Adani Drishti 10 milestone",
+      "publisher": "Adani Group",
+      "url": "https://www.adani.com/about-us/our-journey",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Drishti 10 milestone."
+    },
+    {
+      "id": "src-21",
+      "title": "India Drone & UAS Ecosystem directory",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": "2026-08-29",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Indicative live Atlas directory only; not treated as official evidence."
+    }
+  ],
+  "seo": {
+    "title": "Adani Defence & Aerospace — India Atlas | Techadyant",
+    "meta_description": "Adani Defence & Aerospace is an Indian defence company with indigenous UAV manufacturing and Drishti 10 deliveries.",
+    "canonical_path": "/research/drones-uas/company/adani-defence-aerospace-mfr-017/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/",
+    "submit_correction": "/research/drones-uas/company/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/company/"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "entity_id": "atl-cmp-bharat-dynamics-limited-bdl-mfg-018",
+  "entity_type": "manufacturer",
+  "tier": "B",
+  "noindex": false,
+  "slug": "bharat-dynamics-limited-bdl-mfg-018",
+  "name": "Bharat Dynamics Limited Bdl",
+  "variant": null,
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/bharat-dynamics-limited-bdl-mfg-018/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Bharat Dynamics Limited Bdl — see primary defence dossier for Bharat Dynamics Limited (BDL).",
+    "chips": [
+      "counter-uas",
+      "pointer-to-primary",
+      "Bharat Dynamics Limited (BDL)"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "See primary dossier",
+    "Type": "Manufacturer",
+    "Founded": null,
+    "India entity": "See primary dossier",
+    "Listed": null,
+    "Key India role": "Also tracked under defence as Bharat Dynamics Limited (BDL)."
+  },
+  "what_it_is": {
+    "prose": "Bharat Dynamics Limited Bdl is also tracked on the Atlas under defence as Bharat Dynamics Limited (BDL). This counter-uas entry is a navigation pointer; the full sourced dossier — including India portfolio, deployments, and intelligence assessment — lives at the primary path /research/pillars/defence/entity/bharat-dynamics-limited/. Use the primary dossier for citations.",
+    "sources": []
+  },
+  "india_portfolio": {
+    "summary": "See primary dossier at /research/pillars/defence/entity/bharat-dynamics-limited/.",
+    "rows": []
+  },
+  "deployments_procurement": {
+    "summary": "See primary dossier at /research/pillars/defence/entity/bharat-dynamics-limited/.",
+    "rows": [],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "See primary dossier at /research/pillars/defence/entity/bharat-dynamics-limited/.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "primary_dossier",
+        "label": "Primary dossier",
+        "value": "/research/pillars/defence/entity/bharat-dynamics-limited/",
+        "note": "Pointer entry — full assessment at primary path.",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      {
+        "name": "Bharat Dynamics Limited (BDL)",
+        "path": "/research/pillars/defence/entity/bharat-dynamics-limited/"
+      }
+    ],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "Why is there a separate counter-uas page for Bharat Dynamics Limited Bdl?",
+      "answer": "Bharat Dynamics Limited Bdl appears in multiple Atlas verticals because it plays a cross-domain role in India's industrial stack. The counter-uas page is a navigation pointer; the canonical sourced dossier lives under defence at /research/pillars/defence/entity/bharat-dynamics-limited/.",
+      "sources": []
+    }
+  ],
+  "open_questions": [
+    "Confirm whether Bharat Dynamics Limited Bdl has counter-uas-specific deployments not covered in the primary dossier."
+  ],
+  "sources": [],
+  "seo": {
+    "title": "Bharat Dynamics Limited Bdl — Company · India Counter Uas Atlas | Techadyant",
+    "meta_description": "Bharat Dynamics Limited Bdl company dossier: India counter-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/counter-uas/manufacturer/bharat-dynamics-limited-bdl-mfg-018/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/bharat-dynamics-limited-bdl-mfg-018/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      {
+        "label": "Open primary dossier for Bharat Dynamics Limited (BDL)",
+        "path": "/research/pillars/defence/entity/bharat-dynamics-limited/"
+      }
+    ]
+  }
+}

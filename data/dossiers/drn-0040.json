@@ -1,0 +1,78 @@
+{
+  "entity_id": "drn-0040",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "drn-0040",
+  "name": "Boeing Insitu RQ-20 Puma",
+  "variant": "RQ-20 Puma",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Boeing Insitu RQ-20 Puma — Operational status drone platform.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "See manufacturer dossier",
+    "country": "Mixed",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Name": "Boeing Insitu RQ-20 Puma",
+    "Status": "Operational",
+    "Variant": "RQ-20 Puma"
+  },
+  "what_it_is": {
+    "prose": "US hand-launched tactical UAV.",
+    "sources": []
+  },
+  "open_questions": [
+    "Primary India service source",
+    "Manufacturer verification"
+  ],
+  "sources": [
+    {
+      "id": "src-p1",
+      "title": "Boeing Insitu RQ-20 Puma",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Initial placeholder from live hub mapping."
+    }
+  ],
+  "seo": {
+    "title": "Boeing Insitu RQ-20 Puma — Platform · India Drones-UAS Atlas | Techadyant",
+    "meta_description": "Boeing Insitu RQ-20 Puma platform dossier in the India Drones-UAS Atlas.",
+    "canonical_path": "/research/drones-uas/platform/drn-0040/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/platform/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

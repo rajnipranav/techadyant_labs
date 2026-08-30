@@ -1,0 +1,207 @@
+{
+  "entity_id": "atl-cmp-tlmal",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "tlmal",
+  "name": "Tata Lockheed Martin Aerospace (TLMAL)",
+  "variant": null,
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/tlmal/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Tata-Lockheed JV in Hyderabad — C-130J aerostructures for global supply.",
+    "chips": [
+      "military-aerospace",
+      "india-jv",
+      "aerostructures"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": [
+      "Air"
+    ]
+  },
+  "at_a_glance": {
+    "Headquarters": "Hyderabad, Telangana, India",
+    "Type": "JV aerostructure OEM",
+    "Founded": "2010",
+    "India entity": "TLMAL, Hyderabad (Tata-Lockheed JV)",
+    "Listed": "Private (JV)",
+    "Key India role": "TLMAL is the Tata-Lockheed Martin JV in Hyderabad that manufactures C-130J centre wing boxes, empennages, and fuselage components for the global C-130J programme. TLMAL was established in 2010 as part"
+  },
+  "what_it_is": {
+    "prose": "TLMAL is the Tata-Lockheed Martin JV in Hyderabad that manufactures C-130J centre wing boxes, empennages, and fuselage components for the global C-130J programme. TLMAL was established in 2010 as part of the IAF C-130J offset programme and has delivered components for over 200 C-130J aircraft worldwide. TLMAL also manufactures S-92 helicopter cabins in partnership with Sikorsky.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "2 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "C-130J centre wing box, empennage, fuselage",
+        "role": "supplier",
+        "india_status": "Series supply for global C-130J",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "S-92 helicopter cabin",
+        "role": "supplier",
+        "india_status": "Series supply for Sikorsky",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "1 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Lockheed Martin (global C-130J supply)",
+        "context": "Aerostructure components",
+        "year": "2010",
+        "quantity_or_note": "200+ aircraft supplied",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Has TLMAL expanded to manufacture components for the F-21 if selected by IAF?",
+      "What is TLMAL's current annual C-130J component throughput?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Limited",
+        "note": "3 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "None%",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is TLMAL?",
+      "answer": "Tata Lockheed Martin Aerospace (TLMAL) is the Tata-Lockheed JV in Hyderabad that manufactures C-130J aerostructures for the global C-130J programme, plus S-92 helicopter cabins for Sikorsky.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "When was TLMAL established?",
+      "answer": "TLMAL was established in 2010 as part of the IAF C-130J offset programme.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Has TLMAL expanded to manufacture components for the F-21 if selected by IAF?",
+    "What is TLMAL's current annual C-130J component throughput?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Tata Lockheed Martin Aerospace — Tata Sons page",
+      "publisher": "Tata Sons",
+      "url": "https://www.tata.com/about-us/tata-companies/T/Tata-Lockheed-Martin-Aero-Structure-Limited",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Tata Sons page for TLMAL"
+    },
+    {
+      "id": "src-02",
+      "title": "TLMAL C-130J components — Lockheed Martin",
+      "publisher": "Lockheed Martin",
+      "url": "https://www.lockheedmartin.com/en-us/products/c130j.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Lockheed Martin C-130J page mentioning TLMAL"
+    },
+    {
+      "id": "src-03",
+      "title": "TLMAL facility inauguration — Economic Times",
+      "publisher": "Economic Times",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/tata-lockheed-martin-aerospace-facility-inaugurated/articleshow/67543217.cms",
+      "published_date": "2010-09-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Coverage of TLMAL facility inauguration"
+    }
+  ],
+  "seo": {
+    "title": "Tata Lockheed Martin Aerospace (TLMAL) — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Tata Lockheed Martin Aerospace (TLMAL) company dossier: India military-aerospace role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/military-aerospace/tlmal/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/tlmal/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "entity_id": "def-015",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "hal-su-30mki-def-015",
+  "name": "HAL Su-30MKI (Sukhoi Su-30MKI)",
+  "variant": "Su-30MKI — license-built by HAL; 'Super Sukhoi' upgrade programme underway",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "IAF's primary air superiority fighter; ~270+ license-built by HAL Koraput; AL-31FP engine (Russia); 'Super Sukhoi' upgrade targeting 78% indigenous content; backbone of IAF fighter fleet.",
+    "chips": [
+      "Fighter",
+      "Air superiority",
+      "License-built",
+      "Su-30MKI",
+      "AL-31FP engine",
+      "Super Sukhoi upgrade",
+      "Operational"
+    ],
+    "maker": "Hindustan Aeronautics Limited (HAL) — license-built; Sukhoi Design Bureau / IRKUT (Russia) — OEM",
+    "country": "Russia / India (license-built)",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Sukhoi Design Bureau / IRKUT (Russia) — original; HAL Koraput — license-built",
+    "Quantity_India": "~270+ delivered to IAF (target 318)",
+    "Engine": "2 × Saturn AL-31FP thrust-vectoring turbofan (Russia) — license-assembled by HAL Koraput",
+    "Max_speed": "Mach 2.0 (2,120 km/h)",
+    "Range": "3,000 km (ferry range with drop tanks)",
+    "Service_ceiling": "17,300 m (56,800 ft)",
+    "Armament": "30mm GSh-30-1 cannon; R-77, R-27, R-73 AAMs; BrahMos-A air-launched cruise missile; Kh-59ME; Kh-31P; KAB-500/1500 LGBs",
+    "Indigenous_content": "Currently ~50-60%; 'Super Sukhoi' upgrade targets 78%",
+    "Operator": "Indian Air Force (primary air superiority fighter)",
+    "License_assembly": "HAL Koraput division (Orissa) — engine; HAL Nasik — final assembly",
+    "Combat_debut": "Used in Operation Sindoor May 2025"
+  },
+  "what_it_is": {
+    "prose": "The Sukhoi Su-30MKI (NATO reporting name Flanker-H) is a twin-engine, multirole air superiority fighter operated by the Indian Air Force (IAF). The Su-30MKI is a variant of the Russian Su-30 specifically customized for India with thrust-vectoring engines, canards, and an international avionics suite (Russian, Indian, French, and Israeli components). India contracted the Su-30MKI in 1996 and HAL began license-building the aircraft at its Nasik division, with engine assembly at HAL Koraput (Orissa). Over 270 Su-30MKI have been delivered to the IAF, with a target of 318 aircraft making it the backbone of the IAF fighter fleet. The Su-30MKI is powered by two Saturn AL-31FP thrust-vectoring turbofan engines (Russia), license-assembled by HAL Koraput. The aircraft has a maximum speed of Mach 2.0 (2,120 km/h), range of 3,000 km with ferry tanks, and service ceiling of 17,300 m. Armament includes a 30mm GSh-30-1 cannon, R-77/R-27/R-73 air-to-air missiles, the BrahMos-A air-launched supersonic cruise missile (India-Russia JV), Kh-59ME and Kh-31P air-to-surface missiles, and KAB-500/1500 laser-guided bombs. The current indigenous content is approximately 50-60%; the 'Super Sukhoi' upgrade programme (under discussion) aims to increase this to 78% with indigenous AESA radar (Uttam), indigenous EW suite, and other Indian systems. The Su-30MKI was used in Operation Sindoor in May 2025, conducting air-launched BrahMos strikes. The aircraft is the IAF's primary air superiority fighter, complemented by the Rafale (Omnirole), MiG-29UPG, Mirage 2000I/H, and Tejas Mk-1A.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "India contracted the Su-30MKI in 1996 and HAL began license-building the aircraft at its Nasik division, with engine assembly at HAL Koraput. Over 270 Su-30MKI have been delivered to the IAF, with a target of 318 aircraft. The Su-30MKI was used in Operation Sindoor in May 2025, conducting air-launched BrahMos strikes. The aircraft is the IAF's primary air superiority fighter.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "Su-30MKI contract signed",
+        "year": 1996,
+        "quantity_or_note": "1996 — initial contract with Russia",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "HAL / IAF",
+        "context": "License production begins at HAL Nasik + Koraput",
+        "year": 2000,
+        "quantity_or_note": "HAL Nasik final assembly; HAL Koraput engine",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "~270+ Su-30MKI delivered",
+        "year": 2026,
+        "quantity_or_note": "~270+ delivered; target 318",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Operation Sindoor",
+        "context": "Su-30MKI used in Operation Sindoor May 2025 — BrahMos-A strikes",
+        "year": 2025,
+        "quantity_or_note": "May 2025 — BrahMos-A air-launched cruise missile strikes",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Su-30MKI 'Super Sukhoi' upgrade timeline not yet finalised",
+      "Target 78% indigenous content for Super Sukhoi not officially confirmed",
+      "Total Su-30MKI losses in service not publicly disclosed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "AL-31FP engine (Saturn)",
+        "severity": "Critical",
+        "note": "Russia — license-assembled by HAL Koraput; no indigenous alternative",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Aircraft structural components (initial kits)",
+        "severity": "High",
+        "note": "Russia — IRKUT/Sukhoi; HAL Nasik progressive indigenisation",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "R-77, R-27, R-73 AAMs",
+        "severity": "High",
+        "note": "Russia — weapons package; India developing indigenous Astra Mk-1/2/3 as alternative",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Some avionics subsystems",
+        "severity": "Medium",
+        "note": "France (Thales), Israel (Elbit/IAI) for some subsystems",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 1,
+        "note": "Sukhoi Design Bureau (Russia) — original design; HAL license production",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "HAL Nasik + Koraput license assembly; ~50-60% indigenous content",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "AL-31FP engine Russia; AAMs Russia; Super Sukhoi targeting 78%",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 5,
+        "note": "~270+ delivered; target 318; backbone of IAF fighter fleet; BrahMos-A capable",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 0,
+        "note": "License restrictions; not exportable by India",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "rafale-india-def-011",
+      "tejas-mk1a-def-003"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the 'Super Sukhoi' upgrade?",
+      "answer": "The 'Super Sukhoi' is a planned upgrade programme for the IAF's Su-30MKI fleet aimed at extending the aircraft's service life and increasing indigenous content from the current ~50-60% to a target of 78%. Key upgrades include the indigenous Uttam AESA radar (replacing the Russian N011M Bars), an indigenous electronic warfare suite, new weapon integration (including Astra Mk-2/3 BVRAAMs), and modernised cockpit displays. The upgrade timeline has not yet been finalised as of August 2026.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Was the Su-30MKI used in Operation Sindoor?",
+      "answer": "Yes. The Su-30MKI was used in Operation Sindoor in May 2025, conducting air-launched BrahMos-A supersonic cruise missile strikes. The Su-30MKI is the primary launch platform for the BrahMos-A — the air-launched variant of the BrahMos cruise missile. India signed a ₹2,500 crore contract in 2024 for the air-launched BrahMos upgrade programme.",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "question": "Where is the Su-30MKI license-built in India?",
+      "answer": "The Su-30MKI is license-built by Hindustan Aeronautics Limited (HAL) at two divisions: HAL Nasik (Maharashtra) handles final aircraft assembly, and HAL Koraput (Orissa) handles license assembly of the Saturn AL-31FP thrust-vectoring engines. HAL Nasik also performs overhauls and upgrades of the Su-30MKI fleet. License production began in 2000, with over 270 Su-30MKI delivered to the IAF as of 2026.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1996",
+      "event": "India signs initial Su-30MKI contract with Russia",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2000",
+      "event": "HAL license production begins at Nasik (final assembly) and Koraput (engine)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2002",
+      "event": "First HAL-built Su-30MKI delivered to IAF",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "₹2,500 cr air-launched BrahMos upgrade contract signed (Su-30MKI is launch platform)",
+      "sources": []
+    },
+    {
+      "date": "2025-05",
+      "event": "Su-30MKI used in Operation Sindoor — BrahMos-A strikes",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "~270+ Su-30MKI delivered; 'Super Sukhoi' upgrade programme under discussion",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Su-30MKI 'Super Sukhoi' upgrade timeline not yet finalised",
+    "Target 78% indigenous content for Super Sukhoi not officially confirmed",
+    "Total Su-30MKI losses in service not publicly disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Sukhoi Su-30MKI",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-30MKI",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Comprehensive Su-30MKI specifications and Indian programme history"
+    },
+    {
+      "id": "src-2",
+      "title": "HAL Koraput — Su-30MKI license assembly",
+      "publisher": "Hindustan Aeronautics Limited",
+      "url": "https://hal-india.co.in/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "HAL Koraput division — engine; HAL Nasik — final assembly (domain root only)"
+    },
+    {
+      "id": "src-3",
+      "title": "Operation Sindoor proved Akash and BrahMos missiles — Rajnath Singh",
+      "publisher": "India Sentinels",
+      "url": "https://www.indiasentinels.com/defence-ministry/operation-sindoor-proved-akash-and-brahmos-missiles-says-rajnath-singh-as-drdo-opens-advanced-weapon-system-complex-in-hyderabad-7437",
+      "published_date": "2026-06-12",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Su-30MKI used in Operation Sindoor May 2025 — BrahMos-A strikes"
+    },
+    {
+      "id": "src-4",
+      "title": "Indian Air Force — Su-30 MKI",
+      "publisher": "Indian Air Force (Official)",
+      "url": "https://indianairforce.nic.in/showpage.php?pg_id=129",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "IAF official Su-30MKI page — domain root only"
+    }
+  ],
+  "seo": {
+    "title": "HAL Su-30MKI (Sukhoi Su-30MKI) — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "IAF's primary air superiority fighter; ~270+ license-built by HAL Koraput; AL-31FP engine (Russia); 'Super Sukhoi' upgrade targeting 78% indigenous content; bac",
+    "canonical_path": "/research/pillars/defence/entity/hal-su-30mki-def-015/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

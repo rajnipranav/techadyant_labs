@@ -1,0 +1,188 @@
+{
+  "entity_id": "cus-010",
+  "entity_type": "system",
+  "tier": "B",
+  "noindex": false,
+  "slug": "c-dac-anti-drone-system-cus-010",
+  "name": "C-DAC Anti-Drone System (Drone Kill System)",
+  "variant": "V1 — C-DAC + Sagar Defence Engineering partnership",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-08-29",
+  "status": "Ordered",
+  "header": {
+    "one_liner": "C-DAC (MeitY R&D body) + Sagar Defence Engineering partnership Drone Kill System; ₹46.2 cr Anti-Drone Systems order won, execution by March 2026.",
+    "chips": [
+      "Hard kill",
+      "R&D body",
+      "MeitY",
+      "Sagar Defence partnership",
+      "₹46 cr order"
+    ],
+    "maker": "C-DAC (Centre for Development of Advanced Computing) + Sagar Defence Engineering Pvt Ltd",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Vehicle-mounted / static variants",
+    "operational_domains": [
+      "land",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "C-DAC (MeitY R&D society) + Sagar Defence Engineering Pvt Ltd",
+    "Programme_name": "Drone Kill System (hard-kill anti-drone system against low-RCS drones/UAS)",
+    "Order_value": "₹46.2 crore for Anti-Drone Systems",
+    "Execution_target": "By March 2026",
+    "C-DAC_role": "R&D, VEGA indigenous microprocessors, ERSS integration",
+    "Sagar_Defence_role": "Manufacturing / integration partner",
+    "C_DAC_institutional": "MeitY R&D society (not a manufacturer)",
+    "Related_C_DAC_programmes": "ERSS (Emergency Response Support System) with ideaForge FLYGHT Drone-as-a-Service (Dec 2025); VEGA indigenous microprocessors"
+  },
+  "what_it_is": {
+    "prose": "The C-DAC Anti-Drone System (also referred to as the 'Drone Kill System') is a hard-kill counter-UAS platform developed through a partnership between the Centre for Development of Advanced Computing (C-DAC) — a research and development society under the Ministry of Electronics and Information Technology (MeitY), Government of India — and Sagar Defence Engineering Private Limited, a private Indian defence manufacturing firm. C-DAC is an R&D body, not a commercial manufacturer; Sagar Defence Engineering serves as the manufacturing and integration partner. The system is designed as a hard-kill anti-drone platform against low-Radar Cross Section (RCS) drones and UAS. A ₹46.2 crore order for Anti-Drone Systems was won by the C-DAC + Sagar Defence partnership, with execution targeted by March 2026 per a CDACINDIA LinkedIn post. C-DAC also leads the Emergency Response Support System (ERSS) integrating ideaForge FLYGHT Drone-as-a-Service (December 2025) and develops VEGA indigenous microprocessors under MeitY sponsorship. The Atlas slug 'C-DAC Anti-Drone System' should ideally be renamed to 'C-DAC-Sagar Drone Kill System' to reflect the partnership and OEM branding more accurately.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "A ₹46.2 crore order for Anti-Drone Systems was won by the C-DAC + Sagar Defence Engineering partnership, with execution targeted by March 2026 per the CDACINDIA LinkedIn post. No operational deployment sites or customer agencies have been publicly disclosed.",
+    "rows": [
+      {
+        "agency": "Customer not disclosed",
+        "context": "₹46.2 cr Anti-Drone Systems order",
+        "year": 2025,
+        "quantity_or_note": "Execution target by March 2026",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact system specs (range, hard-kill mechanism) not publicly disclosed",
+      "Whether the 'Drone Kill System' is the same as the ₹46.2 cr 'Anti-Drone Systems' order unclear",
+      "Customer agency for the ₹46.2 cr order not disclosed",
+      "Atlas slug should ideally be renamed to 'C-DAC-Sagar Drone Kill System' to reflect partnership branding"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "FPGA / signal processing",
+        "severity": "Medium",
+        "note": "C-DAC develops VEGA indigenous microprocessors; some imported components likely",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "integrated-counter-drone-system-cus-001",
+      "zen-anti-drone-system-zads-cus-003",
+      "bhargavastra-counter-drone-system-cus-004"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "Is C-DAC a manufacturer?",
+      "answer": "No. C-DAC (Centre for Development of Advanced Computing) is a research and development society under the Ministry of Electronics and Information Technology (MeitY), Government of India. C-DAC conducts R&D on indigenous microprocessors (VEGA), high-performance computing, and cybersecurity, but is not a commercial manufacturer. For the Drone Kill System, C-DAC partners with Sagar Defence Engineering Private Limited, which serves as the manufacturing and integration partner.",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "question": "What is the Drone Kill System?",
+      "answer": "The Drone Kill System is a hard-kill counter-UAS platform developed by C-DAC in partnership with Sagar Defence Engineering, designed to engage low-Radar Cross Section (RCS) drones and UAS. A ₹46.2 crore order for Anti-Drone Systems was won by the partnership, with execution targeted by March 2026. Exact system specifications (range, hard-kill mechanism, effector type) have not been publicly disclosed.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What else does C-DAC do in the drone/UAS space?",
+      "answer": "Beyond the Drone Kill System, C-DAC leads the Emergency Response Support System (ERSS) integrating ideaForge FLYGHT Drone-as-a-Service (December 2025). C-DAC also runs MeitY-sponsored projects on 'Building for Human Resource Development in Unmanned Aircraft System (Drone and related technology)' since April 2022, and develops VEGA indigenous microprocessors which could be used in future drone and counter-drone systems.",
+      "sources": [
+        "src-3",
+        "src-4"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact system specs (range, hard-kill mechanism) not publicly disclosed",
+    "Whether the 'Drone Kill System' is the same as the ₹46.2 cr 'Anti-Drone Systems' order unclear",
+    "Customer agency for the ₹46.2 cr order not disclosed",
+    "Atlas slug should ideally be renamed to 'C-DAC-Sagar Drone Kill System' to reflect partnership branding"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "C-DAC & Sagar Defence Engineering Partner",
+      "publisher": "CDACINDIA (official Facebook)",
+      "url": "https://www.facebook.com/CDACINDIA/posts/centre-for-development-of-advanced-computing-c-dac-sagar-defence-engineering-par/1167874782045616",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Drone Kill System partnership announcement"
+    },
+    {
+      "id": "src-2",
+      "title": "CDACINDIA and Sagar Defence Partner for Gunshot [Detection]",
+      "publisher": "CDACINDIA (official LinkedIn)",
+      "url": "https://www.linkedin.com/posts/cdacindia_indigenous-tot-innovation-activity-7352996125143973891-nQs3",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "₹46.2 cr Anti-Drone Systems order, execution by Mar 2026"
+    },
+    {
+      "id": "src-3",
+      "title": "ideaForge, C-DAC Partner for India's Emergency Response",
+      "publisher": "Dronelife",
+      "url": "https://dronelife.com/2025/12/11/ideaforge-and-c-dac-partner-to-integrate-drone-as-a-service-platform-with-indias-emergency-response-system",
+      "published_date": "2025-12-11",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "ERSS DaaS integration context"
+    },
+    {
+      "id": "src-4",
+      "title": "MeitY Sponsored Projects",
+      "publisher": "C-DAC (official)",
+      "url": "https://www.cdac.in/index.aspx?id=pdf_meity",
+      "published_date": "2022-10-13",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "UAS HRD project since Apr 2022"
+    }
+  ],
+  "seo": {
+    "title": "C-DAC Anti-Drone System (Drone Kill System) — System · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "C-DAC (MeitY R&D body) + Sagar Defence Engineering partnership Drone Kill System; ₹46.2 cr Anti-Drone Systems order won, execution by March 2026.",
+    "canonical_path": "/research/counter-uas/system/c-dac-anti-drone-system-cus-010/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/counter-uas/"
+    ]
+  }
+}

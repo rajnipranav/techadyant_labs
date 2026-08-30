@@ -1,0 +1,93 @@
+{
+  "entity_id": "embrace-cosmoserv",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "embrace-cosmoserv",
+  "name": "Embrace (Cosmoserve Space)",
+  "variant": "Mission Embrace — soft-robotic capture demo",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Development",
+  "header": {
+    "one_liner": "Embrace is Cosmoserve Space's early-stage in-orbit soft-robotic capture demonstrator, flown as a payload on the Vikram-1 'Aagaman' maiden mission.",
+    "chips": [
+      "C",
+      "India-relevant",
+      "Debris capture",
+      "Early-stage demo"
+    ],
+    "maker": "Cosmoserve Space",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted — early-stage, thin public evidence",
+    "mobility_or_class": "In-orbit soft-robotic capture / debris-handling demonstrator",
+    "operational_domains": [
+      "space"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Cosmoserve Space",
+    "Country": "India",
+    "Mission": "Mission Embrace",
+    "Carrier": "Vikram-1 'Aagaman' maiden flight (18 July 2026)",
+    "Goal": "Attempt a soft-robotic in-orbit capture — pitched as a world-first demonstration",
+    "Tier_C_reason": "Very early-stage startup with coverage limited to the Vikram-1 payload announcement; no standalone primary technical disclosure"
+  },
+  "what_it_is": {
+    "prose": "Embrace is an in-orbit technology-demonstration payload from Cosmoserve Space, an early-stage Indian startup, flown on Skyroot's Vikram-1 'Aagaman' maiden orbital mission of 18 July 2026. 'Mission Embrace' aims to demonstrate a soft-robotic capture mechanism in orbit — pitched in press coverage as a world-first attempt at soft-robotic in-orbit capture, relevant to future debris-removal and satellite-servicing concepts. Public evidence is limited to the Vikram-1 payload announcements and a handful of press items around the launch, so this remains an honest compact stub pending a primary technical description and on-orbit results.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "graph": {
+    "peer_systems": [
+      "vikram-1"
+    ],
+    "related_pillars": [
+      "/research/space/entity/"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Cosmoserve to test world-first soft robotic space-debris capture on Vikram-1",
+      "publisher": "Business Standard",
+      "url": "https://www.business-standard.com/industry/news/cosmoserve-to-test-world-first-soft-robotic-space-debris-capture-on-vikram-1-126070700623_1.html",
+      "published_date": "2026-07-07",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Mission Embrace soft-robotic capture demonstrator on Vikram-1."
+    },
+    {
+      "id": "src-2",
+      "title": "Vikram-1 to carry attractive payloads; gold, diamonds, in-orbit robotic arm and more",
+      "publisher": "The Week",
+      "url": "https://www.theweek.in/news/sci-tech/2026/07/07/vikram-1-india-commercial-space-launch-gold-diamonds-robotic-arm.html",
+      "published_date": "2026-07-07",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Vikram-1 manifest including Cosmoserve's in-orbit robotic-capture payload."
+    }
+  ],
+  "seo": {
+    "title": "Embrace (Cosmoserve Space) — Platform · India Space Atlas | Techadyant",
+    "meta_description": "Embrace — Cosmoserve Space's early-stage in-orbit soft-robotic capture demonstrator, flown on the Vikram-1 'Aagaman' maiden mission (compact Tier C card).",
+    "canonical_path": "/research/space/entity/embrace-cosmoserv/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "entity_id": "atl-cmp-pixxel",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "pixxel",
+  "name": "Pixxel Space Technologies",
+  "variant": null,
+  "vertical": "space",
+  "parent_hub_path": "/research/space/pixxel/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Pixxel is a Bengaluru-based spacetech startup building the world's highest-resolution commercial hyperspectral Earth-imaging constellation. Founded in 2019 at BITS Pilani by Awais Ahmed (CEO) and Kshi",
+    "chips": [
+      "space",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India",
+    "Type": "Company (listed)",
+    "Founded": "2019 (at BITS Pilani by Awais Ahmed and Kshitij Khandelwal)",
+    "India entity": null,
+    "Listed": "Not listed — private startup; Series B total $60M (Jun 2023 + Dec 2024 extension); investors include Google, Radical Ventures, Lightspeed, Blume Ventures",
+    "Key India role": "Pixxel is a Bengaluru-based spacetech startup building the world's highest-resolution commercial hyperspectral Earth-imaging constellation. Founded in 2019 at BITS Pilani by Awais Ahmed (CEO) and Kshi"
+  },
+  "what_it_is": {
+    "prose": "Pixxel is a Bengaluru-based spacetech startup building the world's highest-resolution commercial hyperspectral Earth-imaging constellation. Founded in 2019 at BITS Pilani by Awais Ahmed (CEO) and Kshitij Khandelwal (CTO). The Firefly constellation (6 satellites, all launched 2025) provides 5 m spatial resolution with 150+ spectral bands — capturing up to 50× more data than conventional multispectral satellites. Pixxel is the first Indian company to be selected for NASA's $476M Commercial SmallSat Data Acquisition (CSDA) Program On-Ramp1 Multiple Award Contract (Sep 2024), enabling supply of hyperspectral EO data to NASA and US Government/academic partners through November 2028. Phase-1 of Firefly completed 26 Aug 2025 with the launch of 3 additional satellites aboard SpaceX Falcon 9 NAOS mission. Next-generation Honeybee constellation scheduled for 2026. Total funding $60M+ (Series B led by Google Jun 2023 + $24M extension Dec 2024).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Firefly Constellation: 6 commercial hyperspectral imaging satellites launched 2025; 5 m spatial resolution, 150+ spectral bands, 48-hour revisit; phase-1 complete with 3 satellites launched 26 Aug 2025 on SpaceX Falcon 9 NAOS mission",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Honeybee Constellation: next-generation hyperspectral satellites scheduled for launch in 2026",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Pixxel Data Platform: hyperspectral EO data products for agriculture, climate, mining, environmental monitoring, defence",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Proprietary in-house hyperspectral sensors",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "4 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "First 3 Firefly satellites launched earlier in 2025; next 3 Firefly satellites launched 26 Aug 2025 (PDT) aboard SpaceX Falcon 9 NAOS mission — completes Phase-1 of 6-satellite Firefly constellation",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "NASA CSDA (Commercial SmallSat Data Acquisition) Program On-Ramp1 Multiple Award Contract — $476M contract ceiling, announced 9 Sep 2024; runs through November 2028; Pixxel supplies hyperspectral EO data to NASA and US Government/academic partners",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Total funding: Series B $36M led by Google (Jun 2023) + $24M Series B extension (Dec 2024) = $60M total Series B; investors include Google, Radical Ventures, Lightspeed, Blume Ventures, Glade Brook",
+        "year": "2023",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Plans 24-satellite commercial hyperspectral constellation by 2024-25 (per EO Portal) for 24-hour revisit (later refined to Firefly 6 + Honeybee next-gen)",
+        "year": "2024",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "17 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "8 official, 9 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is Pixxel's flagship product?",
+      "answer": "The Firefly constellation — 6 commercial hyperspectral imaging satellites with 5 m spatial resolution and 150+ spectral bands, all launched in 2025 aboard SpaceX Falcon 9",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the value of Pixxel's NASA contract?",
+      "answer": "Pixxel was selected for NASA's $476M Commercial SmallSat Data Acquisition (CSDA) Program On-Ramp1 Multiple Award contract (Sep 2024), running through November 2028",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Who founded Pixxel and when?",
+      "answer": "Awais Ahmed (CEO) and Kshitij Khandelwal (CTO) founded Pixxel in 2019 while studying at BITS Pilani",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Pixxel founded by Awais Ahmed and Kshitij Khandelwal in 2019 at BITS Pilani; building hyperspectral constellation with 5 m resolution capturing up to 50× more data than conventional multispectral",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pixxel",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "Pixxel building advanced hyperspectral imaging constellation with proprietary in-house sensors",
+      "publisher": "Pixxel Official",
+      "url": "https://www.pixxel.space/hyperspectral-imagery",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Firefly constellation in orbit; 3 new Firefly satellites launched aboard SpaceX NAOS Falcon 9 mission on 26 Aug (PDT)",
+      "publisher": "Pixxel Official",
+      "url": "https://www.pixxel.space/firefly",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Pixxel to launch 3 Fireflies aboard SpaceX, completing Phase-1 of hyperspectral constellation",
+      "publisher": "Pixxel Official",
+      "url": "https://www.pixxel.space/news/pixxel-set-to-launch-next-three-fireflies-aboard-spacex-completing-phase-one-of-hyperspectral-constellation",
+      "published_date": "2025-08-21",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "Pixxel awarded NASA contract to support Earth Science research with hyperspectral technology",
+      "publisher": "Pixxel Official",
+      "url": "https://www.pixxel.space/news/pixxel-awarded-nasa-contract-to-support-earth-science-research-with-hyperspectral-technology",
+      "published_date": "2024-09-09",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "NASA's CSDA program has acquired commercial datasets from Pixxel for scientific purposes",
+      "publisher": "NASA Official",
+      "url": "https://science.nasa.gov/earth-science/csda/csda-vendor-pixxel",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "NASA CSDA Program Vendor Focus — Pixxel",
+      "publisher": "NASA Earthdata",
+      "url": "https://www.earthdata.nasa.gov/learn/webinars/nasa-csda-program-vendor-focus-pixxel",
+      "published_date": "2025-07-07",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Pixxel selected for NASA's $476 million Commercial SmallSat Data Acquisition Program On-Ramp1 Multiple Award contract",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pixxel",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "$476M NASA contract enables Pixxel to provide hyperspectral EO data through November 2028",
+      "publisher": "CNBC TV18",
+      "url": "https://www.cnbctv18.com/business/startup/indian-spacetech-startup-pixxel-bags-nasa-contract-19473520.htm",
+      "published_date": "2024-09-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "NASA $476M CSDA On-Ramp1 Multiple Award contract runs through November 2028",
+      "publisher": "SpaceWar",
+      "url": "https://www.spacewar.com/reports/Pixxel_secures_NASA_contract_for_Earth_science_research_with_hyperspectral_tech_999.html",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "Pixxel plans 24 commercial hyperspectral satellites by 2024-25 for 24-hour revisit",
+      "publisher": "ESA EO Portal",
+      "url": "https://www.eoportal.org/satellite-missions/pixxel",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "Pixxel co-founded by Awais Ahmed and Kshitij Khandelwal in 2019 at BITS Pilani",
+      "publisher": "Via Satellite",
+      "url": "https://interactive.satellitetoday.com/via/august-2023/awais-ahmed-on-pixxels-rapid-rise-and-its-hyper-focus-on-climate-data",
+      "published_date": "2023-07-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "Pixxel raised $36M Series B with Google as new investor plus Radical Ventures, Lightspeed, Blume Ventures",
+      "publisher": "Pixxel Official",
+      "url": "https://www.pixxel.space/news/pixxel-raises-36-million-in-series-b-funding-to-advance-hyperspectral-satellite-constellation-and-data-platform",
+      "published_date": "2023-06-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-14",
+      "title": "Pixxel expands Series B with $24M extension — total Series B funding $60M",
+      "publisher": "Satellite Today",
+      "url": "https://www.satellitetoday.com/imagery-and-sensing/2024/12/09/pixxel-expands-series-b-funding-with-24m-investment",
+      "published_date": "2024-12-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-15",
+      "title": "Google leads $36M Series B for Pixxel; existing investors Radical Ventures, Lightspeed, Blume Ventures",
+      "publisher": "SpaceNews",
+      "url": "https://spacenews.com/google-leads-36-million-funding-round-for-pixxel",
+      "published_date": "2023-06-02",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-16",
+      "title": "Pixxel operates Firefly constellation; Honeybee constellation scheduled for launch in 2026",
+      "publisher": "Pixxel Docs",
+      "url": "https://docs.pixxel.space/documentation/satellite-and-imagery/constellation-overview",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-17",
+      "title": "Pixxel building India's first private hyperspectral constellation with 135+ spectral bands",
+      "publisher": "Blume Ventures",
+      "url": "https://blume.vc/commentaries/a-pixxel-perfect-vision-how-indias-space-startup-is-redefining-earth-observation",
+      "published_date": "2025-06-05",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Pixxel Space Technologies — Company · India Space Atlas | Techadyant",
+    "meta_description": "Pixxel Space Technologies company dossier: India space role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/space/pixxel/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/pixxel/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

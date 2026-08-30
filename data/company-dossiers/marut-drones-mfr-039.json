@@ -1,0 +1,300 @@
+{
+  "entity_id": "atl-cmp-marut-drones-mfr-039",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "marut-drones-mfr-039",
+  "name": "Marut Drones",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/marut-drones-mfr-039/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Marut Drones is a Hyderabad-based agriculture-and-public-health drone OEM incubated at IIT Hyderabad, founded by Prem Kumar Vislawath. It earned DGCA Type Certification and RPTO approval in December 2",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Hyderabad, Telangana, India",
+    "Type": "Manufacturer (listed)",
+    "Founded": "circa 2019-2020 (incubated at IIT Hyderabad iTIC)",
+    "India entity": null,
+    "Listed": "Private (not listed)",
+    "Key India role": "Marut Drones is a Hyderabad-based agriculture-and-public-health drone OEM incubated at IIT Hyderabad, founded by Prem Kumar Vislawath. It earned DGCA Type Certification and RPTO approval in December 2"
+  },
+  "what_it_is": {
+    "prose": "Marut Drones is a Hyderabad-based agriculture-and-public-health drone OEM incubated at IIT Hyderabad, founded by Prem Kumar Vislawath. It earned DGCA Type Certification and RPTO approval in December 2022 for the AG 365 (Agricopter), India's first DGCA-certified multi-utility agriculture drone, and claims 5+ DGCA type-certified platforms with 1,800+ drones deployed nationwide. The company also pioneered India's first AI-based mosquito-control drone (Marut ZAP) for vector-borne disease control and operates across agriculture, security, mapping and education.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "2 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "AG 365 (Agricopter)",
+        "role": "OEM",
+        "india_status": "India's first DGCA-certified multi-utility agriculture drone; tested over 1.5 lakh acres; eligible for ₹10 lakh AIF unsecured loan",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Marut ZAP (mosquito-control drone)",
+        "role": "OEM",
+        "india_status": "India's first mosquito-control drone; AI + IoT + drone-based larvicide spraying for vector control (dengue, malaria)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "3 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "DGCA (civil certification)",
+        "context": "DGCA Type Certification and RPTO approval for AG 365 multi-utility agriculture drone",
+        "year": "2022",
+        "quantity_or_note": "n/a (certification)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Agri Infra Fund (AIF) eligibility",
+        "context": "AG 365 certified drone eligible for ₹10 lakh unsecured AIF loans",
+        "year": "2022",
+        "quantity_or_note": "n/a (scheme eligibility)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Public health / municipal bodies",
+        "context": "Marut ZAP mosquito-control drone deployed for vector-borne disease control",
+        "year": "2020-2024",
+        "quantity_or_note": "undisclosed",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "8 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "3 official, 3 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "Which was India's first DGCA-certified multi-utility agriculture drone?",
+      "answer": "Marut Drones' AG 365 (Agricopter) received DGCA Type Certification and RPTO approval in December 2022, becoming India's first DGCA-certified multi-utility agriculture drone.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is Marut ZAP?",
+      "answer": "Marut ZAP is India's first mosquito-control drone, combining drones, IoT sensors and AI to target mosquito breeding sites and prevent dengue and malaria.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Where is Marut Drones headquartered and who founded it?",
+      "answer": "Marut Drones is headquartered in Hyderabad and was founded by Prem Kumar Vislawath (Founder & Chief Innovator). It is incubated at IIT Hyderabad's iTIC incubator.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://government.economictimes.indiatimes.com/news/technology/dgca-accords-type-certification-and-rpto-approval-for-maruts-drone-ag-365/96587238",
+      "publisher": "ET Government (Economic Times)",
+      "url": "https://government.economictimes.indiatimes.com/news/technology/dgca-accords-type-certification-and-rpto-approval-for-maruts-drone-ag-365/96587238",
+      "published_date": "2022-12-29",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "DGCA accords type certification and RPTO approval for Marut's AG 365 (Dec 2022)"
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.thehindu.com/news/national/telangana/dgca-approves-certification-to-ag-364-agri-drones/article66311345.ece",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/telangana/dgca-approves-certification-to-ag-364-agri-drones/article66311345.ece",
+      "published_date": "2022-12-27",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "DGCA approves type certification to Marut AG 365 agri drone"
+    },
+    {
+      "id": "src-03",
+      "title": "https://agrospectrumindia.com/news/63/28372/marut-drones-gets-dgca-certification-for-ag-365-agri-drone.html",
+      "publisher": "AgroSpectrum India",
+      "url": "https://agrospectrumindia.com/news/63/28372/marut-drones-gets-dgca-certification-for-ag-365-agri-drone.html",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms AG 365 eligible for ₹10 lakh AIF unsecured loans; tested >1.5 lakh acres"
+    },
+    {
+      "id": "src-04",
+      "title": "https://marutdrones.com/about-us",
+      "publisher": "Marut Drones (company official)",
+      "url": "https://marutdrones.com/about-us",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Confirms Hyderabad HQ; founder Prem Kumar Vislawath (Founder & Chief Innovator)"
+    },
+    {
+      "id": "src-05",
+      "title": "https://itic.iith.ac.in/StartUp/Marut-Drones.html",
+      "publisher": "iTIC Incubator, IIT Hyderabad",
+      "url": "https://itic.iith.ac.in/StartUp/Marut-Drones.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Confirms Marut Drones incubated at IIT Hyderabad; AI-based mosquito density prediction technology"
+    },
+    {
+      "id": "src-06",
+      "title": "https://marutdrones.com/products/marut-zap",
+      "publisher": "Marut Drones (company official)",
+      "url": "https://marutdrones.com/products/marut-zap",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Marut ZAP described as India's first mosquito-control drone"
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.originn.co.in/startups/marut-drones-a45508",
+      "publisher": "Originn",
+      "url": "https://www.originn.co.in/startups/marut-drones-a45508",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Claims 5+ DGCA type-certified platforms and 1,800+ drones deployed nationwide"
+    },
+    {
+      "id": "src-08",
+      "title": "https://marutdrones.com",
+      "publisher": "Marut Drones (company official)",
+      "url": "https://marutdrones.com",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Company website confirms DGCA-certified agriculture drone manufacturer [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    }
+  ],
+  "seo": {
+    "title": "Marut Drones — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Marut Drones company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/marut-drones-mfr-039/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/marut-drones-mfr-039/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

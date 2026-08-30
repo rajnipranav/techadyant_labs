@@ -1,0 +1,388 @@
+{
+  "entity_id": "atl-cmp-solar-industries-india-ltd-mfr-021",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "solar-industries-india-ltd-mfr-021",
+  "name": "Solar Industries India Limited",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/solar-industries-india-ltd-mfr-021/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Solar Industries is India's largest domestic manufacturer of industrial explosives and initiating systems, and the parent of Solar Defence and Aerospace Limited (SDAL) — which has emerged as a key pri",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Nagpur, Maharashtra, India (Solar House, Amravati Road)",
+    "Type": "Manufacturer (listed)",
+    "Founded": "1995 (incorporated as Solar Explosives Limited; renamed Solar Industries India Limited; original SSI unit near Nagpur from 1983)",
+    "India entity": null,
+    "Listed": "NSE: SOLARINDS | BSE: 532725 (listed since 2008); mid-cap",
+    "Key India role": "Solar Industries is India's largest domestic manufacturer of industrial explosives and initiating systems, and the parent of Solar Defence and Aerospace Limited (SDAL) — which has emerged as a key pri"
+  },
+  "what_it_is": {
+    "prose": "Solar Industries is India's largest domestic manufacturer of industrial explosives and initiating systems, and the parent of Solar Defence and Aerospace Limited (SDAL) — which has emerged as a key private-sector Indian loitering-munition OEM. Through subsidiary Economic Explosives Ltd (EEL), Solar developed the Nagastra-1 loitering munition (480 units delivered to the Indian Army by Dec 2024, beating Polish WB Electronics and Israeli UVision). Nagastra-2 (20 kg, 4 kg anti-tank warhead, two-man portable) and Nagastra-3 (~100 km range) are under accelerated development; Solar plans layered loitering munitions with up to 700 km deep-strike capability. Solar is ranked among the Top 5 global explosives companies and booked ₹2,650 Cr in orders + ₹1,400 Cr export orders (2025). The company is investing ₹12,700 Cr in Nagpur defence/aerospace. Q4FY25 PAT climbed 42% YoY to ₹346 Cr; annual revenue ₹7,540 Cr (+24% YoY).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Nagastra-1 / Nagastra-1R loitering munition",
+        "role": "OEM",
+        "india_status": "Fixed-wing electric UAV loitering munition; endurance 60 min, man-in-loop range 15 km, autonomous range 30 km. 480 units delivered to Indian Army by Dec 3, 2024. Indian Army placed order for ~450 Nagastra-1R (variant). First batch delivered Jun 2024",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Nagastra-2 (man-portable loitering munition)",
+        "role": "OEM",
+        "india_status": "Two-man portable 20 kg system with 4 kg anti-tank/anti-personnel warhead; under accelerated development by Solar Group's EEL",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Nagastra-3 / Layered loitering munitions (up to 700 km)",
+        "role": "OEM",
+        "india_status": "Nagastra-3 expected to hit targets ~100 km; Solar plans layered loitering munitions with up to 700 km deep-strike capability",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Industrial explosives & initiating systems (commercial)",
+        "role": "OEM",
+        "india_status": "India's largest domestic manufacturer of bulk and packaged explosives, detonators and initiating systems for mining, infrastructure, and defence ammunition. Ranked Top-5 globally. Export orders worth ₹1,400 Cr in 2025. Annual revenue ₹7,540 Cr (+24% YoY FY25)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "2 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "480 Nagastra-1 loitering munitions delivered (full contract)",
+        "year": "Dec 3, 2024",
+        "quantity_or_note": "480",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Order for ~450 Nagastra-1R variant",
+        "year": "2024",
+        "quantity_or_note": "~450",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "13 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "2 official, 8 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Solar Industries India Limited founded and where is it headquartered?",
+      "answer": "Solar Industries is India's largest domestic manufacturer of industrial explosives and initiating systems, and the parent of Solar Defence and Aerospace Limited (SDAL) — which has emerged as a key private-sector Indian loitering-munition OEM.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is Solar Industries' stock ticker on NSE?",
+      "answer": "Solar Industries is India's largest domestic manufacturer of industrial explosives and initiating systems, and the parent of Solar Defence and Aerospace Limited (SDAL) — which has emerged as a key private-sector Indian loitering-munition OEM.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "How many Nagastra-1 loitering munitions did Solar Industries deliver to the Indian Army?",
+      "answer": "Through subsidiary Economic Explosives Ltd (EEL), Solar developed the Nagastra-1 loitering munition (480 units delivered to the Indian Army by Dec 2024, beating Polish WB Electronics and Israeli UVision).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the difference between Nagastra-1, Nagastra-2 and Nagastra-3?",
+      "answer": "Through subsidiary Economic Explosives Ltd (EEL), Solar developed the Nagastra-1 loitering munition (480 units delivered to the Indian Army by Dec 2024, beating Polish WB Electronics and Israeli UVision).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What was Solar Industries' Q4FY25 PAT and annual revenue?",
+      "answer": "Solar Industries is India's largest domestic manufacturer of industrial explosives and initiating systems, and the parent of Solar Defence and Aerospace Limited (SDAL) — which has emerged as a key private-sector Indian loitering-munition OEM.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which Solar Industries subsidiary manufactures the Nagastra loitering munition?",
+      "answer": "Solar Industries is India's largest domestic manufacturer of industrial explosives and initiating systems, and the parent of Solar Defence and Aerospace Limited (SDAL) — which has emerged as a key private-sector Indian loitering-munition OEM.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://solargroup.com",
+      "publisher": "Solar Group Official",
+      "url": "https://solargroup.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://solargroup.com/about.html",
+      "publisher": "Solar Group",
+      "url": "https://solargroup.com/about.html",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://solargroup.com/defence.html",
+      "publisher": "Solar Defence",
+      "url": "https://solargroup.com/defence.html",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://www.screener.in/company/SOLARINDS/consolidated",
+      "publisher": "Screener.in",
+      "url": "https://www.screener.in/company/SOLARINDS/consolidated",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://en.wikipedia.org/wiki/Nagastra-1",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nagastra-1",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://timesofindia.indiatimes.com/india/first-batch-of-made-in-india-nagastra-1-delivered-to-army-key-features-of-this-suicide-drone/articleshow/110989936.cms",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/first-batch-of-made-in-india-nagastra-1-delivered-to-army-key-features-of-this-suicide-drone/articleshow/110989936.cms",
+      "published_date": "Jun 14, 2024",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://organiser.org/2024/12/03/267787/bharat/indian-army-receives-480-loitering-munitions-from-solar-industries-for-precision-strike-capabilities",
+      "publisher": "Organiser",
+      "url": "https://organiser.org/2024/12/03/267787/bharat/indian-army-receives-480-loitering-munitions-from-solar-industries-for-precision-strike-capabilities",
+      "published_date": "Dec 3, 2024",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.business-standard.com/india-news/indian-army-receives-supply-of-480-indigenous-loitering-munitions-124120300091_1.html",
+      "publisher": "Business Standard",
+      "url": "https://www.business-standard.com/india-news/indian-army-receives-supply-of-480-indigenous-loitering-munitions-124120300091_1.html",
+      "published_date": "Dec 3, 2024",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.business-standard.com/markets/news/solar-industries-shares-gain-5-on-q4-results-dividend-call-details-here-125052100708_1.html",
+      "publisher": "Business Standard",
+      "url": "https://www.business-standard.com/markets/news/solar-industries-shares-gain-5-on-q4-results-dividend-call-details-here-125052100708_1.html",
+      "published_date": "May 21, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "https://finance.yahoo.com/news/solar-industries-india-ltd-bom-070104785.html",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/solar-industries-india-ltd-bom-070104785.html",
+      "published_date": "May 22, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "https://defence.in/threads/solar-groups-eel-accelerates-development-of-nagastra-2-and-next-gen-nagastra-3-loitering-munitions.11738",
+      "publisher": "defence.in",
+      "url": "https://defence.in/threads/solar-groups-eel-accelerates-development-of-nagastra-2-and-next-gen-nagastra-3-loitering-munitions.11738",
+      "published_date": "Dec 8, 2024",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "https://defence.in/threads/beyond-nagastra-3-solar-industries-plans-to-develop-layered-loitering-munitions-with-upto-700-km-range-deep-strike-capabilities.17911",
+      "publisher": "defence.in",
+      "url": "https://defence.in/threads/beyond-nagastra-3-solar-industries-plans-to-develop-layered-loitering-munitions-with-upto-700-km-range-deep-strike-capabilities.17911",
+      "published_date": "Jun 2, 2026",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "https://www.dsaexhibition.com/solar-industries-india-to-supply-nagastra-1-loitering-munitions-to-indian-army",
+      "publisher": "DSA Exhibition",
+      "url": "https://www.dsaexhibition.com/solar-industries-india-to-supply-nagastra-1-loitering-munitions-to-indian-army",
+      "published_date": "Apr 24, 2023",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Solar Industries India Limited — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Solar Industries India Limited company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/solar-industries-india-ltd-mfr-021/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/solar-industries-india-ltd-mfr-021/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

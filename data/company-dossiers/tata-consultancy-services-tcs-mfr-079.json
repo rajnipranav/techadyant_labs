@@ -1,0 +1,385 @@
+{
+  "entity_id": "atl-cmp-tata-consultancy-services-tcs-mfr-079",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "tata-consultancy-services-tcs-mfr-079",
+  "name": "Tata Consultancy Services (TCS) — Defence & Aerospace IT",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/tata-consultancy-services-tcs-mfr-079/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Tata Consultancy Services (TCS) is India's largest IT services and consulting company and a flagship of the Tata Group. Its Aerospace & Defence (A&D) practice provides engineering services, digital tr",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Mumbai, Maharashtra, India (TCS House, Raveline Street, Fort); defence/aerospace practice operates globally with India delivery centers",
+    "Type": "Manufacturer (listed)",
+    "Founded": "1968 (Tata Sons division; incorporated as separate company 1995); part of Tata Group",
+    "India entity": null,
+    "Listed": "Listed — NSE:TCS / BSE:532540 (IPO 2004); Tata Sons is largest shareholder",
+    "Key India role": "Tata Consultancy Services (TCS) is India's largest IT services and consulting company and a flagship of the Tata Group. Its Aerospace & Defence (A&D) practice provides engineering services, digital tr"
+  },
+  "what_it_is": {
+    "prose": "Tata Consultancy Services (TCS) is India's largest IT services and consulting company and a flagship of the Tata Group. Its Aerospace & Defence (A&D) practice provides engineering services, digital transformation, cybersecurity, ERP/mission-readiness and product lifecycle management solutions to global A&D OEMs and to India's Ministry of Defence. TCS operates the Aerospace Design and Development Center in India jointly with Saab (covering military defense to civil security), and has expanded its engineering services footprint in India for Rolls-Royce (Civil Aerospace R&D). TCS's 'Future-Ready Skies Study 2025' tracks AI and eVTOL shifts in the aerospace sector. For India's MoD, TCS supports ERP for mission readiness — SAP-based logistics, inventory and procurement systems for the Indian Army, Navy and Air Force. TCS also partners with Ericsson for 5G-led defence communications and operates a cloud-based R&D environment for Ericsson (April 2021).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "7 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Aerospace & Defence engineering services (design, certification, MRO, avionics)",
+        "role": "OEM",
+        "india_status": "TCS A&D practice",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Aerospace Design and Development Center (India)",
+        "role": "OEM",
+        "india_status": "JV with Saab (military defense + civil security)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Rolls-Royce engineering & R&D services partnership for Civil Aerospace (expanded engineering footprint in India)",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Future-Ready Skies Study 2025",
+        "role": "OEM",
+        "india_status": "TCS survey of aerospace leaders on AI/eVTOL shifts",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Indian MoD ERP for Mission Readiness",
+        "role": "OEM",
+        "india_status": "SAP-based logistics, inventory and procurement for Indian Army, Navy and Air Force",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Cyber-resilient Manufacturing framework for Aerospace & Defence",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Ericsson cloud-based R&D environment partnership (April 2021)",
+        "role": "OEM",
+        "india_status": "TCS operates Ericsson's world-class cloud R&D environment",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "5 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "TCS-Saab Aerospace Design and Development Center established in India — covering military defense to civil security work",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Rolls-Royce selected TCS to expand engineering services footprint in India for Civil Aerospace R&D",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "TCS launched Future-Ready Skies Study 2025 tracking AI and eVTOL shifts in the aerospace sector",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "TCS joined forces with Ericsson to build and operate Ericsson's world-class cloud-based R&D environment (announced 8 April 2021)",
+        "year": "2021",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Indian MoD Mission Readiness ERP — TCS supports SAP-based logistics, inventory and procurement for Indian Army, Navy and Air Force",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "7 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "5 official, 1 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was TCS founded?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "On which stock exchanges is TCS listed?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which aerospace OEM partners with TCS for an Aerospace Design and Development Center in India?",
+      "answer": "TCS operates the Aerospace Design and Development Center in India jointly with Saab (covering military defense to civil security), and has expanded its engineering services footprint in India for Rolls-Royce (Civil Aerospace R&D).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the TCS Future-Ready Skies Study?",
+      "answer": "TCS's 'Future-Ready Skies Study 2025' tracks AI and eVTOL shifts in the aerospace sector.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which global telecom equipment major operates its cloud-based R&D environment in partnership with TCS?",
+      "answer": "TCS also partners with Ericsson for 5G-led defence communications and operates a cloud-based R&D environment for Ericsson (April 2021).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Rolls-Royce selects TCS to expand engineering services footprint in India for aerospace & defence",
+      "publisher": "TCS Official",
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/rolls-royce-selects-tcs-expand-engineering-services-india",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-02",
+      "title": "TCS partners with Saab to set up Aerospace Design and Development Center in India (military defense to civil security)",
+      "publisher": "TCS Official",
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-saab-setup-aerospace-design-development",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "TCS Future-Ready Skies Study 2025 — survey of senior aerospace leaders on AI and eVTOL shifts",
+      "publisher": "TCS Official",
+      "url": "https://www.tcs.com/what-we-do/industries/manufacturing/future-ready-skies-survey-aerospace-defense",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "TCS joined forces with Ericsson to build and operate Ericsson's cloud-based R&D environment (8 April 2021)",
+      "publisher": "TCS Official",
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-to-help-ericsson-digitally-transform-its-randd-environment-accelerate-development",
+      "published_date": "2021-04-08",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "TCS cyber-resilient manufacturing framework for aerospace & defence",
+      "publisher": "TCS Official",
+      "url": "https://www.tcs.com/what-we-do/industries/manufacturing/white-paper/cyber-resilient-manufacturing-aerospace-defence-imperative",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Aerospace and defence sectors a major focus for TCS — significantly expanded engineering capabilities",
+      "publisher": "Bobsguide",
+      "url": "https://www.bobsguide.com/rolls-royce-selects-tata-consultancy-services-to-expand-engineering-services-footprint-in-india",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Indian MoD ERP for Mission Readiness — SAP supports logistics, inventory and procurement to Indian Army, Navy and Air Force",
+      "publisher": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/agrawalritz_sap-indiandefense-s4hana-activity-7330081586454978560-j2mw",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Tata Consultancy Services (TCS) — Defence & Aerospace IT — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Tata Consultancy Services (TCS) — Defence & Aerospace IT company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/tata-consultancy-services-tcs-mfr-079/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/tata-consultancy-services-tcs-mfr-079/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

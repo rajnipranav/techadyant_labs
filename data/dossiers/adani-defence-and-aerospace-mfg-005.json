@@ -1,0 +1,353 @@
+{
+  "entity_id": "mfg-005",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "adani-defence-and-aerospace-mfg-005",
+  "name": "Adani Defence & Aerospace",
+  "variant": "Division of Adani Enterprises Ltd (BSE/NSE: ADANIENT)",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Adani Group defence vertical; DRDO ToT for Vehicle-Mounted CUAS (Aero India 2025); Kanpur ammunition complex (South Asia's largest); Leonardo helicopter MoU (Feb 2026).",
+    "chips": [
+      "Private",
+      "Listed (parent)",
+      "Counter-UAS",
+      "Ammunition",
+      "UAVs",
+      "Helicopters",
+      "Small arms"
+    ],
+    "maker": "Private (division of Adani Enterprises Ltd, BSE/NSE: ADANIENT)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Adani Defence & Aerospace",
+    "Ownership": "Private (division of Adani Enterprises Ltd, BSE/NSE: ADANIENT)",
+    "HQ": "Adani Corporate House, Shantigram, Ahmedabad, Gujarat, India",
+    "Order_book": "Not separately disclosed (consolidated under AEL)",
+    "Revenue_FY26": "Not separately disclosed (within AEL 'Others' segment)",
+    "CIN_parent": "L99999GJ2015PLC072435",
+    "Key_programmes": "Adani-DRDO Vehicle-Mounted CUAS (Feb 2025); Kanpur ammunition complex; Leonardo helicopter MoU (Feb 2026); SR-1 loitering munition; Drishya/Drishti UAVs",
+    "Kanpur_complex_capacity": "300M small-cal rounds + 30M artillery rounds + millions of grenades (target by Dec 2025)"
+  },
+  "what_it_is": {
+    "prose": "Adani Defence & Aerospace is the defence vertical of Adani Enterprises Ltd (BSE/NSE: ADANIENT), headquartered at Adani Corporate House in Shantigram, Ahmedabad. Adani Defence itself is not separately listed; its financials are embedded within AEL's 'Others' segment and are not separately disclosed. The division's flagship counter-UAS programme is the Adani-DRDO Vehicle-Mounted Counter-Drone System unveiled at Aero India 2025 on 11 February 2025 under a DRDO Transfer of Technology framework. The system is a 4x4 platform integrating a high-energy laser, 7.62 mm gun, radar, SIGINT, EO/IR sensors, and jammers, with a reported 10 km range. Other major programmes include the Kanpur ammunition manufacturing complex (South Asia's largest, on a 500-acre site, with capacity scaling to 300 million small-calibre rounds by December 2025); the SR-1 loitering munition (displayed at Defence & Security 2025 in November 2025, with a 1 kg HE warhead, 45-minute endurance, and 4,500 m ceiling); a helicopter ecosystem MoU with Leonardo (Italy) signed on 3 February 2026 covering AW169M and AW109 TrekkerM final assembly, MRO, and pilot training in India; the Drishya and Drishti UAV family (with STANAG 4671 certification, in service with the Indian Navy); and the ULM-ER ULPGM V3 UAV-launched precision-guided munition. Adani Defence operates India's first private-sector small arms manufacturing facility. The division's CEO is Ashish Rajvanshi.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Adani Defence's counter-UAS work is anchored by the Adani-DRDO Vehicle-Mounted CUAS unveiled at Aero India 2025 on 11 February 2025. Production order status and customer identity for the Vehicle-Mounted CUAS have not been disclosed. The Kanpur ammunition complex is operational and supplies the Ministry of Defence and export markets. The Leonardo helicopter MoU is pre-contract (signed 3 February 2026).",
+    "rows": [
+      {
+        "agency": "DRDO (ToT framework)",
+        "context": "Adani-DRDO Vehicle-Mounted CUAS unveiled Aero India 2025",
+        "year": 2025,
+        "quantity_or_note": "11 February 2025 — production orders pending, customer not disclosed",
+        "sources": [
+          "src-1",
+          "src-6"
+        ]
+      },
+      {
+        "agency": "MoD + export customers",
+        "context": "Kanpur ammunition complex operational",
+        "year": 2024,
+        "quantity_or_note": "South Asia's largest ammunition facility; 300M small-cal rounds capacity target by Dec 2025",
+        "sources": [
+          "src-4",
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Drishya/Drishti UAVs in service",
+        "year": null,
+        "quantity_or_note": "STANAG 4671 certified",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "agency": "Indian Armed Forces (projected)",
+        "context": "Leonardo helicopter ecosystem MoU (AW169M + AW109 TrekkerM)",
+        "year": 2026,
+        "quantity_or_note": "MoU signed 3 February 2026; >1,000 helicopter demand projected over decade",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Adani Defence revenue not separately disclosed; embedded in AEL 'Others' segment",
+      "Bhargavastra attribution: Adani must NOT be attributed as the maker — Bhargavastra is Solar Defence Aerospace (SDAL) per all credible 2025-26 sources (see cus-004 dossier and REGISTER_TICKETS.md P0-BHARGAVASTRA-MAKER)",
+      "Adani-Elbit Hermes 900 JV — current production status unclear post-2024",
+      "Adani-DRDO Vehicle-Mounted CUAS production contract value and customer not disclosed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
+    "items": [
+      {
+        "component": "Helicopter platforms (AW169M, AW109 TrekkerM)",
+        "severity": "High",
+        "note": "Leonardo Italy — phased indigenisation planned",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "component": "EO/IR sensors, laser (10 km CUAS)",
+        "severity": "Medium",
+        "note": "Typically FLIR / Controp / Hensoldt",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "FPGA / GaN RF for radar/SIGINT jammers",
+        "severity": "Medium",
+        "note": "Xilinx / Qorvo",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "CNC machines, precision tooling for ammunition",
+        "severity": "Medium",
+        "note": "Switzerland / Germany / Japan",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 3,
+        "note": "Adani-DRDO ToT for Vehicle-Mounted CUAS; own design on UAVs, small arms",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Kanpur ammunition complex; UAV production; small arms facility",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Helicopter platforms, EO/IR, FPGA, GaN all imported",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 3,
+        "note": "Not separately disclosed; embedded in AEL",
+        "sources": []
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 3,
+        "note": "Drishya/Drishti UAV exports; ammunition export capacity",
+        "sources": [
+          "src-7"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Adani Defence revenue not separately disclosed; embedded in AEL 'Others' segment",
+    "Bhargavastra attribution: Adani must NOT be attributed as the maker — Bhargavastra is Solar Defence Aerospace (SDAL) per all credible 2025-26 sources (see cus-004 dossier and REGISTER_TICKETS.md P0-BHARGAVASTRA-MAKER)",
+    "Adani-Elbit Hermes 900 JV — current production status unclear post-2024",
+    "Adani-DRDO Vehicle-Mounted CUAS production contract value and customer not disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Adani Defence & Aerospace and DRDO Unveil India's Vehicle-Mounted Counter-Drone System at Aero India 2025",
+      "publisher": "Adani Group",
+      "url": "https://www.adani.com/newsroom/media-releases/adani-defence-and-aerospace-and-drdo-unveil-indias-vehicle-mounted-counter",
+      "published_date": "2025-02-11",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Adani-DRDO Vehicle-Mounted CUAS ToT announcement"
+    },
+    {
+      "id": "src-2",
+      "title": "Adani Defence & Aerospace and Leonardo Forge Strategic Partnership to Build India's Helicopter Ecosystem",
+      "publisher": "Leonardo",
+      "url": "https://www.leonardo.com/en/press-release-detail/-/detail/03-02-2026-adani-defence-aerospace-and-leonardo-forge-strategic-partnership-to-build-india-s-helicopter-ecosystem",
+      "published_date": "2026-02-03",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Adani-Leonardo helicopter MoU"
+    },
+    {
+      "id": "src-3",
+      "title": "Defence & Security 2025: Adani displays new loitering munitions",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/air/defense-security-2025-adani-displays-new-loitering-munitions",
+      "published_date": "2025-11-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "SR-1 loitering munition display"
+    },
+    {
+      "id": "src-4",
+      "title": "Adani Defence to double small-calibre ammunition output to 300 million rounds",
+      "publisher": "India Sentinels",
+      "url": "https://www.indiasentinels.com/defence-industry/adani-defence-to-double-small-calibre-ammunition-output-to-300-million-rounds-6945",
+      "published_date": "2025-07-28",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Kanpur complex capacity"
+    },
+    {
+      "id": "src-5",
+      "title": "Adani Defence & Aerospace inaugurates South Asia's largest ammunition facility at Kanpur",
+      "publisher": "Adani Enterprises",
+      "url": "https://www.adanienterprises.com/newsroom/media-releases/advancing-aatmanirbharta-adani-defence-aerospace",
+      "published_date": "2024-02-26",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Kanpur ammunition complex inauguration"
+    },
+    {
+      "id": "src-6",
+      "title": "India's Adani and DRDO develop vehicle-mounted C-UAS",
+      "publisher": "Unmanned Airspace",
+      "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/indias-adani-and-drdo-develop-vehicle-mounted-c-uas",
+      "published_date": "2025-02-17",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Confirms vehicle-mounted CUAS development"
+    },
+    {
+      "id": "src-7",
+      "title": "Adani Defence & Aerospace (corporate site)",
+      "publisher": "Adani Defence",
+      "url": "https://www.adanidefence.com",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — Adani Defence corporate homepage; specific product page not located"
+    }
+  ],
+  "seo": {
+    "title": "Adani Defence & Aerospace — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "Adani Group defence vertical; DRDO ToT for Vehicle-Mounted CUAS (Aero India 2025); Kanpur ammunition complex (South Asia's largest); Leonardo helicopter MoU (Fe",
+    "canonical_path": "/research/counter-uas/manufacturer/adani-defence-and-aerospace-mfg-005/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2024-02-26",
+      "event": "Adani Defence inaugurates South Asia's largest ammunition facility at Kanpur",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2025-02-11",
+      "event": "Adani-DRDO Vehicle-Mounted CUAS unveiled at Aero India 2025",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2025-07",
+      "event": "Kanpur small-cal ammunition capacity doubling to 300M rounds announced",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2025-11-13",
+      "event": "SR-1 loitering munition displayed at Defence & Security 2025",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "event": "Adani-Leonardo helicopter ecosystem MoU signed",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the Adani-DRDO Vehicle-Mounted Counter-Drone System?",
+      "answer": "The Adani-DRDO Vehicle-Mounted Counter-Drone System was unveiled at Aero India 2025 on 11 February 2025 under a DRDO Transfer of Technology framework. The system is a 4x4 platform integrating a high-energy laser, 7.62 mm gun, radar, SIGINT, EO/IR sensors, and jammers, with a reported 10 km range. Production order status and customer identity have not been publicly disclosed as of August 2026.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What is the Kanpur ammunition complex and why is it significant?",
+      "answer": "The Adani Defence Kanpur ammunition manufacturing complex, inaugurated on 26 February 2024, is South Asia's largest ammunition facility, spanning 500 acres. Capacity is scaling to 300 million small-calibre rounds, 30 million artillery rounds, and millions of grenades per year by December 2025. The complex serves both Ministry of Defence requirements and export markets, and represents a major private-sector entry into ammunition manufacturing — historically a PSU monopoly.",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "question": "Is Bhargavastra made by Adani Defence?",
+      "answer": "No. Bhargavastra is designed and developed by Solar Defence and Aerospace Limited (SDAL), a subsidiary of Solar Group / Solar Industries India Limited of Nagpur — not by Adani Defence. The Atlas register's attribution of Bhargavastra to 'Big Bang Boom Solutions' is also incorrect; all credible 2025-26 sources attribute it to SDAL. Adani Defence's counter-UAS work is anchored by the Adani-DRDO Vehicle-Mounted CUAS (Aero India 2025).",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ]
+}

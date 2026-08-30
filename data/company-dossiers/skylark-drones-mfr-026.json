@@ -1,0 +1,299 @@
+{
+  "entity_id": "atl-cmp-skylark-drones-mfr-026",
+  "entity_type": "manufacturer",
+  "tier": "B",
+  "noindex": false,
+  "slug": "skylark-drones-mfr-026",
+  "name": "Skylark Drones",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/skylark-drones-mfr-026/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Skylark Drones is a Bengaluru-based enterprise drone software/data-analytics company founded in 2014-2015. Unlike the pure UAV OEMs in this batch, Skylark's primary product is the Spectra drone-data m",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India",
+    "Type": "Manufacturer (listed)",
+    "Founded": "2014-2015",
+    "India entity": null,
+    "Listed": "Private (not listed)",
+    "Key India role": "Skylark Drones is a Bengaluru-based enterprise drone software/data-analytics company founded in 2014-2015. Unlike the pure UAV OEMs in this batch, Skylark's primary product is the Spectra drone-data m"
+  },
+  "what_it_is": {
+    "prose": "Skylark Drones is a Bengaluru-based enterprise drone software/data-analytics company founded in 2014-2015. Unlike the pure UAV OEMs in this batch, Skylark's primary product is the Spectra drone-data management platform and the DMO-AG software for agricultural drone operations, with deployments across mining, infrastructure, solar energy and agri-tech. Skylark has assisted 90+ Indian mines in meeting MCDR rules, completed 20,000+ autonomous flights, and raised $3M in a pre-Series A round led by InfoEdge Ventures (2021).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "2 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Spectra (drone data management software)",
+        "role": "OEM",
+        "india_status": "Software platform used by Indian mines to visualise & manage drone survey data; assists with MCDR compliance",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "DMO-AG (agricultural drone operations platform)",
+        "role": "OEM",
+        "india_status": "India's first software for agricultural drone management; DGCA-compliant; launched Feb 2025",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "2 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Mining sector (MCDR compliance)",
+        "context": "Skylark Drones has assisted 90+ Indian mines in meeting the new MCDR (Mineral Conservation and Development Rules) criteria for drone surveys",
+        "year": "ongoing",
+        "quantity_or_note": "90+ mines",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple industries (autonomous flights)",
+        "context": "20,000+ autonomous flights completed across infrastructure, mining, solar energy, and construction",
+        "year": "ongoing",
+        "quantity_or_note": "20,000+ flights",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "9 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "4 official, 3 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is Skylark Drones' main product?",
+      "answer": "Skylark Drones' flagship product is Spectra, a drone data management software platform used by Indian mines and other enterprises to visualise, manage and analyse drone survey data and generate 3D models.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is DMO-AG and when was it launched?",
+      "answer": "DMO-AG is Skylark Drones' DGCA-compliant software platform for managing agricultural drone operations, launched in February 2025. It is described as India's first software for agricultural drone management.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Where is Skylark Drones headquartered and when was it founded?",
+      "answer": "Skylark Drones is headquartered in Bengaluru, Karnataka, and was founded in 2015.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://skylarkdrones.com",
+      "publisher": "Skylark Drones (company official)",
+      "url": "https://skylarkdrones.com",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Skylark Drones is an AI-powered drone data analytics & drone data platform company based in Bengaluru; 20,000+ autonomous flights [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.skylarkdrones.com/industries-mining",
+      "publisher": "Skylark Drones (company official)",
+      "url": "https://www.skylarkdrones.com/industries-mining",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Spectra software used by Indian mines for drone survey data visualisation and 3D modelling"
+    },
+    {
+      "id": "src-03",
+      "title": "https://skylarkdrones.com/blog/the-new-mcdr-rules-and-mines-of-the-future",
+      "publisher": "Skylark Drones (company official)",
+      "url": "https://skylarkdrones.com/blog/the-new-mcdr-rules-and-mines-of-the-future",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Confirms new MCDR Rules mandate drone surveys for all Indian mines; Skylark has assisted 90+ mines in compliance"
+    },
+    {
+      "id": "src-04",
+      "title": "https://themachinemaker.com/news/skylark-drones-unveils-indias-first-software-for-agricultural-drone-management",
+      "publisher": "The Machine Maker",
+      "url": "https://themachinemaker.com/news/skylark-drones-unveils-indias-first-software-for-agricultural-drone-management",
+      "published_date": "2025-02-17",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Skylark Drones unveils India's first software (DMO-AG) for agricultural drone management"
+    },
+    {
+      "id": "src-05",
+      "title": "https://skylarkdrones.com/blog/drone-platform-company-skylark-drones-raises-3-million-in-pre-series-a-funding-round",
+      "publisher": "Skylark Drones (company official)",
+      "url": "https://skylarkdrones.com/blog/drone-platform-company-skylark-drones-raises-3-million-in-pre-series-a-funding-round",
+      "published_date": "2021-07-05",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Skylark Drones raises $3M pre-Series A funding round"
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.groundswellgroup.com/wp-content/uploads/2021/10/Forbes-India-October-2021.pdf",
+      "publisher": "Forbes India (via GroundSwell Group)",
+      "url": "https://www.groundswellgroup.com/wp-content/uploads/2021/10/Forbes-India-October-2021.pdf",
+      "published_date": "2021-10-08",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Forbes India article confirms Skylark Drones founded 2015, Bengaluru HQ"
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.f6s.com/companies/energy-cleantech/india/co",
+      "publisher": "F6S",
+      "url": "https://www.f6s.com/companies/energy-cleantech/india/co",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Confirms Skylark Drones is a Bangalore-based company founded 2015"
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.infoedge.in/announcements/IEILInvestorConference12112022.pdf",
+      "publisher": "Info Edge Investor Conference",
+      "url": "https://www.infoedge.in/announcements/IEILInvestorConference12112022.pdf",
+      "published_date": "2022-11-12",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Info Edge investor presentation references Skylark Drones Private Limited"
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.suasnews.com/2025/02/skylark-drones-pilots-wanted",
+      "publisher": "sUAS News",
+      "url": "https://www.suasnews.com/2025/02/skylark-drones-pilots-wanted",
+      "published_date": "2025-02-17",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Skylark Drones hiring DGCA-certified drone pilots for aerial missions across agri-tech, mining, renewable energy"
+    }
+  ],
+  "seo": {
+    "title": "Skylark Drones — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Skylark Drones company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/skylark-drones-mfr-026/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/skylark-drones-mfr-026/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

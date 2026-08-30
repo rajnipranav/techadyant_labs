@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { companyDossierMetadata, renderCompanyDossierPage } from '../../../../_companyDossierPage';
 import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { companies, companyBySlug, platformsForCompany, componentsForCompany } from '../../data';
@@ -24,6 +25,8 @@ const COMPANY_SEO: Record<string, { title: string; description: string }> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  const dossierMetadata = companyDossierMetadata(slug, 'drones-uas');
+  if (dossierMetadata) return dossierMetadata;
   const c = companyBySlug(slug);
   if (!c) return { title: 'Company — UAS Atlas' };
   const ov = COMPANY_SEO[slug];
@@ -36,6 +39,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function CompanyPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const dossierPage = renderCompanyDossierPage(slug, 'drones-uas');
+  if (dossierPage) return dossierPage;
   const c = companyBySlug(slug);
   if (!c) return <><AtlasNav /><section className="wrap"><p>Company not found.</p></section></>;
   const plats = platformsForCompany(c.name);
@@ -105,3 +110,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
     </>
   );
 }
+
+
+
+

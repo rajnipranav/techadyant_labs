@@ -1,0 +1,321 @@
+{
+  "entity_id": "atl-cmp-elbit-systems-mfr-003",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "elbit-systems-mfr-003",
+  "name": "Elbit Systems Ltd",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/elbit-systems-mfr-003/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Elbit Systems is Israel's largest defence electronics company and a key India UAV partner through its Adani-Elbit joint venture ('Adani Elbit Advanced Systems India Ltd'), which opened India's first p",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Haifa, Israel",
+    "Type": "Manufacturer (listed)",
+    "Founded": "1966 (as El-Op; modern Elbit Systems formed 1996)",
+    "India entity": null,
+    "Listed": "NASDAQ: ESLT (US ADRs); Tel Aviv Stock Exchange: ESLT",
+    "Key India role": "Elbit Systems is Israel's largest defence electronics company and a key India UAV partner through its Adani-Elbit joint venture ('Adani Elbit Advanced Systems India Ltd'), which opened India's first p"
+  },
+  "what_it_is": {
+    "prose": "Elbit Systems is Israel's largest defence electronics company and a key India UAV partner through its Adani-Elbit joint venture ('Adani Elbit Advanced Systems India Ltd'), which opened India's first private-sector UAV manufacturing facility in Hyderabad in December 2018. The JV produces the Hermes 900 MALE UAV, marketed in India as the 'Drishti-10' Starliner; the Indian Navy formally received its first Drishti-10 long-endurance UAV in January 2024. The same JV has supplied 20+ Hermes-900 airframes to Israel (IAF) amid the Gaza war, drawing scrutiny. Elbit's Hermes 900 has reportedly suffered operational crashes/glitches in Indian service (2025-26), with additional crashes reported in Switzerland. Elbit has also won Asia-Pacific naval contracts (e.g., Seagull USV in January 2021) that may include India.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "3 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Hermes 900 MALE UAV (Drishti-10 in Indian service)",
+        "role": "OEM",
+        "india_status": "Co-produced by Adani-Elbit JV in Hyderabad; Indian Navy formally received Drishti-10 Starliner on 10 Jan 2024 — India's first indigenously manufactured MALE UAV",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Hermes 900 Maritime Patrol UAS",
+        "role": "OEM",
+        "india_status": "Maritime configuration of Hermes 900; baseline for Indian Navy Drishti-10 maritime patrol",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Seagull Unmanned Surface Vessel (USV)",
+        "role": "OEM",
+        "india_status": "Contract signed January 2021 to supply Seagull USVs to 'a navy of a country in Asia-Pacific' — possibly India (not confirmed)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "3 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Formal delivery of first Drishti-10 (Hermes 900) Starliner long-endurance UAV from Adani Defence Hyderabad facility",
+        "year": "2024",
+        "quantity_or_note": "1 (first of order)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Adani Elbit Advanced Systems India Ltd (JV)",
+        "context": "Inauguration of India's first private UAV manufacturing facility in Hyderabad",
+        "year": "2018",
+        "quantity_or_note": "n/a (JV facility)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Israel Defence Forces (via India JV)",
+        "context": "Adani-Elbit JV supplied 20+ Hermes-900 drones to Israel amid Gaza war",
+        "year": "2023-2024",
+        "quantity_or_note": "20+",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "9 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "3 official, 5 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "Which Elbit Systems UAV is built in India?",
+      "answer": "The Hermes 900 MALE UAV is co-produced in India by the Adani-Elbit joint venture ('Adani Elbit Advanced Systems India Ltd') at Hyderabad — India's first private-sector UAV manufacturing facility, inaugurated in December 2018. The platform is marketed to the Indian Navy as the 'Drishti-10' Starliner; the first unit was formally delivered to the Navy on 10 January 2024.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the Adani-Elbit joint venture called?",
+      "answer": "The JV is 'Adani Elbit Advanced Systems India Ltd', inaugurated in Hyderabad in December 2018. It is India's first private UAV manufacturing facility and produces the Hermes 900 (Drishti-10) MALE UAV; it has also exported 20+ Hermes-900 airframes to Israel.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Has Elbit's Hermes 900 had any operational issues in India?",
+      "answer": "Yes. The Jerusalem Post reported in January 2025 on 'glitches for Elbit's Hermes 900 in India and Switzerland', and Calcalist CTech reported in July 2026 that a Hermes 900 crashed again in India — indicating recurring operational issues with the platform in Indian service.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.adani.com/newsroom/media-releases/adani-defence-and-aerospace-and-elbit-systems-inaugurate-india-first-private-uav-manufacturing",
+      "publisher": "Adani Group (company press release)",
+      "url": "https://www.adani.com/newsroom/media-releases/adani-defence-and-aerospace-and-elbit-systems-inaugurate-india-first-private-uav-manufacturing",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Adani Defence & Aerospace and Elbit Systems inaugurate India's first private UAV manufacturing facility"
+    },
+    {
+      "id": "src-02",
+      "title": "https://uasweekly.com/2018/12/18/adani-elbit-systems-open-indias-first-uav-facility-in-hyderabad",
+      "publisher": "UAS Weekly",
+      "url": "https://uasweekly.com/2018/12/18/adani-elbit-systems-open-indias-first-uav-facility-in-hyderabad",
+      "published_date": "2018-12-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms Dec 2018 inauguration of Adani-Elbit UAV facility in Hyderabad"
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.thehindu.com/news/national/navy-chief-formally-receives-drishti-10-long-endurance-uav-from-adani-defence-in-hyderabad/article67726088.ece",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/navy-chief-formally-receives-drishti-10-long-endurance-uav-from-adani-defence-in-hyderabad/article67726088.ece",
+      "published_date": "2024-01-10",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Indian Navy chief formally receives Drishti-10 long-endurance UAV from Adani Defence in Hyderabad"
+    },
+    {
+      "id": "src-04",
+      "title": "https://www.business-humanrights.org/en/latest-news/india-adani-elbit-the-countries-first-private-uav-facility-supplies-over-20-hermes-900-drones-to-israel",
+      "publisher": "Business & Human Rights Resource Centre",
+      "url": "https://www.business-humanrights.org/en/latest-news/india-adani-elbit-the-countries-first-private-uav-facility-supplies-over-20-hermes-900-drones-to-israel",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Adani-Elbit JV supplies 20+ Hermes-900 drones to Israel"
+    },
+    {
+      "id": "src-05",
+      "title": "https://www.calcalistech.com/ctechnews/article/hkvdp3v4mg",
+      "publisher": "Calcalist CTech",
+      "url": "https://www.calcalistech.com/ctechnews/article/hkvdp3v4mg",
+      "published_date": "2026-07-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Hermes 900 crashes again in India — operational glitches"
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.jpost.com/business-and-innovation/article-838446",
+      "publisher": "The Jerusalem Post",
+      "url": "https://www.jpost.com/business-and-innovation/article-838446",
+      "published_date": "2025-01-20",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Glitches for Elbit's Hermes 900 in India and Switzerland"
+    },
+    {
+      "id": "src-07",
+      "title": "https://www.prnewswire.com/il/news-releases/elbit-systems-awarded-a-contract-to-supply-seagull-usvs-to-a-navy-of-a-country-in-asia-pacific-301207238.html",
+      "publisher": "PRNewswire (Elbit official)",
+      "url": "https://www.prnewswire.com/il/news-releases/elbit-systems-awarded-a-contract-to-supply-seagull-usvs-to-a-navy-of-a-country-in-asia-pacific-301207238.html",
+      "published_date": "2021-01-13",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Elbit Seagull USV contract for Asia-Pacific navy"
+    },
+    {
+      "id": "src-08",
+      "title": "https://en.wikipedia.org/wiki/Elbit_Hermes_900",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elbit_Hermes_900",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Hermes 900 general background"
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.elbitsystems.com/autonomous/maritime/maritime-patrol-uav/hermes-900-maritime-patrol-uas",
+      "publisher": "Elbit Systems (company official)",
+      "url": "https://www.elbitsystems.com/autonomous/maritime/maritime-patrol-uav/hermes-900-maritime-patrol-uas",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Hermes 900 Maritime Patrol UAS product page"
+    }
+  ],
+  "seo": {
+    "title": "Elbit Systems Ltd — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Elbit Systems Ltd company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/elbit-systems-mfr-003/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/elbit-systems-mfr-003/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

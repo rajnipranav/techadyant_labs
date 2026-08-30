@@ -1,0 +1,89 @@
+{
+  "entity_id": "iae",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "iae",
+  "name": "International Aero Engines",
+  "variant": "IAE AG",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Multinational engine consortium (Pratt & Whitney, MTU, Japanese Aero Engines et al.) that builds the V2500 turbofan powering the Embraer C-390 Millennium; the C-390 is only a contender in India's MTA tender, so IAE has no in-service India footprint.",
+    "chips": [
+      "C",
+      "No India footprint",
+      "V2500",
+      "C-390 propulsion",
+      "Consortium",
+      "Foreign OEM"
+    ],
+    "maker": "Pratt & Whitney (RTX), MTU Aero Engines, Japanese Aero Engines Corp., et al.",
+    "country": "Multinational (consortium)",
+    "indigenous_pct": null,
+    "indigenous_label": "Not in Indian service; no Indian production or partner",
+    "mobility_or_class": "Commercial/transport turbofan consortium (V2500, ~22,000–33,000 lbf)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "International Aero Engines AG (P&W, MTU, JAEC and partners)",
+    "Country": "Multinational consortium",
+    "India_status": "NOT in Indian military service; no order, no Indian industrial partner",
+    "Tier_C_reason": "No India footprint. Only India relevance is that IAE's V2500 powers the Embraer C-390, a contender in the IAF's Medium Transport Aircraft (MTA) tender.",
+    "Key_engine": "IAE V2500 turbofan — two per Embraer C-390 Millennium (KC-390)",
+    "V2500_program": "One of the most-produced airliner engines (A320ceo family); 300M+ flight hours",
+    "India_relevance": "Contingent on any future C-390 selection; long-term V2500 support is cited as an MTA-bid factor"
+  },
+  "what_it_is": {
+    "prose": "International Aero Engines (IAE AG) is a multinational aero-engine consortium — led by Pratt & Whitney (RTX) with MTU Aero Engines, Japanese Aero Engines Corporation and other partners — that develops and produces the V2500 turbofan, one of the most widely produced commercial engines (best known on the Airbus A320ceo family, with over 300 million flight hours in service). In the military-transport context, two V2500 engines power the Embraer C-390 Millennium / KC-390. India's only relevance to IAE is prospective: the C-390 is a leading contender in the Indian Air Force's roughly ₹1-lakh-crore Medium Transport Aircraft (MTA) tender, and long-term V2500 engine support has been cited as a factor in that competition. IAE has no engines in Indian military service, no Indian order and no Indian industrial partner. This dossier is deliberately a short Tier C stub: it records the absence of an IAE India footprint honestly rather than inferring one from the C-390's tender candidacy.",
+    "sources": [
+      "src-wiki-v2500",
+      "src-wiki-c390"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-wiki-v2500",
+      "title": "IAE V2500",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/IAE_V2500",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Consortium membership (P&W, MTU, JAEC), V2500 production and C-390 application; aggregates credible sources"
+    },
+    {
+      "id": "src-wiki-c390",
+      "title": "Embraer C-390 Millennium",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Embraer_C-390_Millennium",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Confirms the C-390 is powered by two IAE V2500 engines; India context is tender-only"
+    }
+  ],
+  "seo": {
+    "title": "International Aero Engines — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "IAE's V2500 turbofan powers the Embraer C-390, only a contender in India's MTA tender; the consortium has no in-service India footprint. Tier C stub.",
+    "canonical_path": "/research/military-aerospace/company/iae/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/c390/",
+      "/research/military-aerospace/company/"
+    ]
+  }
+}

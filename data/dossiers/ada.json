@@ -1,0 +1,308 @@
+{
+  "entity_id": "ada",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ada",
+  "name": "Aeronautical Development Agency (ADA)",
+  "variant": "DRDO combat-aircraft design agency",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's national design authority for combat aircraft, under the Department of Defence R&D; designed the LCA Tejas and now leads the ₹15,000-crore Advanced Medium Combat Aircraft (AMCA) programme plus Tejas Mk-2 and TEDBF, executing through public-private industry partnership.",
+    "chips": [
+      "Tier A",
+      "DRDO / DDR&D",
+      "Design agency",
+      "LCA Tejas",
+      "AMCA",
+      "Tejas Mk-2",
+      "TEDBF",
+      "5th-gen fighter"
+    ],
+    "maker": "Department of Defence R&D, Ministry of Defence (DRDO-affiliated)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Indigenous design authority; airframe, flight-control and integration designed in India, but engine (GE F404/F414) and several avionics/sensor subsystems remain import-linked",
+    "mobility_or_class": "Aircraft design & development agency (no manufacturing)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Aeronautical Development Agency (ADA)",
+    "Ownership": "Autonomous society under the Department of Defence Research & Development (DDR&D), Ministry of Defence; affiliate of DRDO",
+    "Established": "1984",
+    "HQ": "Bengaluru, Karnataka, India",
+    "Mandate": "Design and development of India's combat aircraft (LCA programme and successors)",
+    "Director_General": "Dr Jitendra Jaisingh Jadhav (DG since 11 September 2024)",
+    "Flagship_delivered": "HAL Tejas (LCA) — designed by ADA, produced by HAL",
+    "Current_programmes": "Tejas Mk-2, Advanced Medium Combat Aircraft (AMCA), Twin Engine Deck-Based Fighter (TEDBF)",
+    "AMCA_outlay": "~₹15,000 crore (development phase)",
+    "Key_facilities": "National Flight Test Centre (NFTC), wind-tunnel and flight-simulation centres; AMCA integration/flight-test infrastructure"
+  },
+  "what_it_is": {
+    "prose": "The Aeronautical Development Agency (ADA) is India's national design and development authority for combat aircraft, established in Bengaluru in 1984 under the Department of Defence Research & Development (DDR&D) of the Ministry of Defence as an autonomous society and DRDO affiliate. ADA was created to manage the Light Combat Aircraft (LCA) programme and is the design house behind the HAL Tejas — India's first indigenous fourth-generation fighter — with Hindustan Aeronautics Limited as the production agency and the National Flight Test Centre (NFTC), run under ADA, conducting flight testing. ADA does not manufacture aircraft; it owns the design, systems integration, flight-control law development, testing and certification-support work. Beyond the in-service Tejas Mk-1/Mk-1A, ADA is executing three successor programmes: the more powerful Tejas Mk-2 (medium-weight fighter), the Twin Engine Deck-Based Fighter (TEDBF) for naval carrier operations, and the Advanced Medium Combat Aircraft (AMCA) — India's fifth-generation stealth fighter, with a development-phase outlay of about ₹15,000 crore. On 27 May 2025 the Raksha Mantri approved the AMCA Programme Execution Model, under which ADA leads the programme and executes it through industry partnership offering equal, competitive opportunity to both private and public sector firms (independently, as joint ventures or as consortia), with an Expression of Interest to follow. Dr Jitendra Jaisingh Jadhav has been Director General since 11 September 2024, and DRDO leadership has publicly framed the near-term roadmap as delivering Tejas Mk-2 followed by AMCA as the Tejas programme passes its 25-year mark.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "ADA's 'deployments' are its aircraft programmes rather than direct procurement contracts. Its delivered product — the Tejas — is in Indian Air Force service and in serial production at HAL (Tejas Mk-1A order tranche). Its pipeline is the Tejas Mk-2, TEDBF and the fifth-generation AMCA, the last now cleared for execution through a competitive public-private industry-partnership model approved by the Defence Minister in May 2025.",
+    "rows": [
+      {
+        "agency": "Indian Air Force (via HAL production)",
+        "context": "LCA Tejas Mk-1 / Mk-1A — ADA-designed, HAL-built indigenous fighter in service and serial production",
+        "year": 2016,
+        "quantity_or_note": "Tejas designed by ADA; IAF induction from 2016; Mk-1A production ongoing at HAL",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Ministry of Defence / Raksha Mantri",
+        "context": "AMCA Programme Execution Model approved — ADA to lead 5th-gen stealth fighter via industry partnership",
+        "year": 2025,
+        "quantity_or_note": "Approved 27 May 2025; ~₹15,000 crore development outlay; EoI to follow",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Air Force / Indian Navy (development)",
+        "context": "Tejas Mk-2 (medium-weight fighter) and TEDBF (naval carrier fighter) under development",
+        "year": null,
+        "quantity_or_note": "Tejas Mk-2 targeted within ~4 years per DRDO statements; TEDBF in development",
+        "sources": [
+          "src-1",
+          "src-4"
+        ]
+      }
+    ],
+    "open_questions": [
+      "AMCA prototype rollout and first-flight dates are not yet firmly fixed in public MoD statements",
+      "Selection of AMCA industry-partnership winner(s) had not been announced as of the verification date",
+      "Engine path for AMCA (GE F414 interim vs future 110-130 kN co-developed engine) is not finalised publicly"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "ADA's airframe design, flight-control laws, mission-systems architecture and integration are indigenous, but the platforms it designs depend on imported propulsion and several sensor/avionics elements. Tejas Mk-1/Mk-1A and Mk-2 use US GE engines (F404 / F414), and AMCA's initial engine is expected to be the GE F414 pending an indigenous high-thrust engine. AESA radar, EW suites and some seekers involve foreign technology or co-development.",
+    "items": [
+      {
+        "component": "Fighter engine (GE F404 / F414)",
+        "severity": "Critical",
+        "note": "Tejas Mk-1/Mk-1A use GE F404; Tejas Mk-2 and initial AMCA use GE F414 — no indigenous fighter engine yet certified",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "component": "AESA radar / mission avionics",
+        "severity": "High",
+        "note": "Radar and EW elements historically involve imported or co-developed technology (e.g. Israeli/US sources)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "High-thrust future engine (110-130 kN, AMCA)",
+        "severity": "High",
+        "note": "Future AMCA engine subject to foreign co-development discussions (Safran/GE/RR); not yet secured",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "National combat-aircraft design authority; owns Tejas and successor designs",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 2,
+        "note": "ADA does not manufacture; production sits with HAL and (for AMCA) future industry partners",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical-component sovereignty",
+        "value": 2,
+        "note": "Fighter engine and key sensors imported/co-developed",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Programme scale",
+        "value": 4,
+        "note": "AMCA ~₹15,000 crore development outlay; multiple concurrent fighter programmes",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export / partnership posture",
+        "value": 3,
+        "note": "AMCA execution opened to competitive public-private industry partnership; export ambition tied to Tejas",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "tejas-mk1a-def-003"
+    ],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "1984",
+      "event": "ADA established in Bengaluru under DDR&D to manage the LCA (Tejas) programme",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2024-09-11",
+      "event": "Dr Jitendra Jaisingh Jadhav appointed Director General of ADA",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2025-05-27",
+      "event": "Raksha Mantri approves AMCA Programme Execution Model — ADA to lead via competitive industry partnership",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026-01",
+      "event": "DRDO leadership reaffirms Tejas Mk-2 within ~4 years followed by AMCA as Tejas programme turns 25",
+      "sources": [
+        "src-4"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is ADA and how does it relate to HAL and DRDO?",
+      "answer": "The Aeronautical Development Agency is India's national design authority for combat aircraft, set up in Bengaluru in 1984 under the Department of Defence R&D and affiliated to DRDO. ADA owns the design, systems integration, flight-control development and flight testing (via the National Flight Test Centre) of India's fighters, while Hindustan Aeronautics Limited (HAL) is the production agency that manufactures them. ADA designed the Tejas; HAL builds it.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What is ADA's role in the AMCA fifth-generation fighter?",
+      "answer": "ADA leads the Advanced Medium Combat Aircraft (AMCA) programme, India's fifth-generation stealth fighter, with a development-phase outlay of about ₹15,000 crore. On 27 May 2025 the Defence Minister approved the AMCA Programme Execution Model under which ADA executes the programme through industry partnership, giving private and public sector firms equal opportunity on a competitive basis — bidding independently, as joint ventures or as consortia — with an Expression of Interest to follow.",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "question": "What aircraft programmes is ADA running besides AMCA?",
+      "answer": "Alongside the in-service Tejas Mk-1/Mk-1A, ADA is developing the Tejas Mk-2 (a more powerful medium-weight fighter powered by the GE F414 engine, targeted for delivery within roughly four years per DRDO statements) and the Twin Engine Deck-Based Fighter (TEDBF) for naval carrier operations, in addition to the AMCA. A persistent gap across all of these is indigenous propulsion, since India has yet to field a certified indigenous fighter engine.",
+      "sources": [
+        "src-1",
+        "src-4"
+      ]
+    }
+  ],
+  "open_questions": [
+    "AMCA industry-partner selection and prototype/first-flight schedule not yet publicly fixed",
+    "Final engine path for AMCA (interim GE F414 vs co-developed 110-130 kN engine) unresolved",
+    "TEDBF sanction and timeline relative to naval MRCBF competition remain fluid"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Aeronautical Development Agency (overview, mandate, programmes, leadership)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aeronautical_Development_Agency",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Establishment (1984), DDR&D/DRDO affiliation, Tejas/Mk-2/TEDBF/AMCA programmes, DG appointment, ~₹15,000 crore AMCA outlay"
+    },
+    {
+      "id": "src-2",
+      "title": "Aatmanirbhar Bharat: Raksha Mantri approves AMCA Programme Execution Model through industry partnership",
+      "publisher": "Press Information Bureau, Ministry of Defence",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2131528&reg=3&lang=2",
+      "published_date": "2025-05-27",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Official approval of AMCA execution model; ADA to lead via competitive public-private industry partnership"
+    },
+    {
+      "id": "src-3",
+      "title": "India approves execution model for AMCA stealth fighter",
+      "publisher": "Airforce Technology",
+      "url": "https://www.airforce-technology.com/news/india-amca-fighter-programme/",
+      "published_date": "2025-05-27",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Corroborates AMCA execution-model approval and ADA lead role"
+    },
+    {
+      "id": "src-4",
+      "title": "'LCA Tejas Mk2 in next four years, followed by AMCA': DRDO official details timeline",
+      "publisher": "The Week",
+      "url": "https://www.theweek.in/news/defence/2026/01/20/lca-tejas-mk2-in-next-four-years-followed-by-amca-drdo-official-details-timeline-for-indigenous-fighter-jets.html",
+      "published_date": "2026-01-20",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "DRDO roadmap for Tejas Mk-2 and AMCA; engine dependency context"
+    }
+  ],
+  "seo": {
+    "title": "Aeronautical Development Agency (ADA) — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "India's national combat-aircraft design authority under DRDO/DDR&D; designed the LCA Tejas and leads the ~₹15,000-crore AMCA fifth-generation fighter plus Tejas Mk-2 and TEDBF via public-private industry partnership.",
+    "canonical_path": "/research/military-aerospace/company/ada/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/company/",
+      "/research/pillars/defence/"
+    ]
+  }
+}

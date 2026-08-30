@@ -1,0 +1,345 @@
+{
+  "entity_id": "def-002",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "pinaka-mbrl-def-002",
+  "name": "Pinaka Multi-Barrel Rocket Launcher",
+  "variant": "Mk-I (37.5 km), Mk-I Enhanced (45 km), Mk-II (60 km), Guided (75 km), Mk-II ER (90 km), LRGR-120/Mk-III (120 km), Mk-IV (300 km planned)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's indigenous multi-barrel rocket launcher; 7 regiments operational (Mar 2026), target 22 long-term; LRGR-120 (120 km) DAC clearance Dec 2025 for ₹2,500 cr; ₹10,147 cr ammunition order Feb 2025.",
+    "chips": [
+      "MBRL",
+      "Artillery",
+      "Operational",
+      "Indigenous",
+      "LRGR-120",
+      "Guided"
+    ],
+    "maker": "DRDO (ARDE Pune + RCI Hyderabad + DRDL Hyderabad) — design; TASL + L&T launchers; EEL + MIL rockets; BEML vehicles",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO (ARDE Pune + RCI Hyderabad + DRDL Hyderabad) — design; TASL + L&T (launchers); EEL + MIL (rockets); BEML (vehicles)",
+    "Variants": "Mk-I (37.5 km), Mk-I Enhanced/EPRS (45 km), Mk-II (60 km), Guided Pinaka (75 km), Mk-II ER (90 km), LRGR-120/Mk-III (120 km), Mk-IV (300 km planned), ELRGR (300+ km)",
+    "Salvo": "12 rockets per launcher in 44 seconds",
+    "LRGR_120_rocket_weight": "535 kg; warhead 110 kg; length 4.8 m; calibre 300 mm",
+    "LRGR_120_CEP": "<30 m",
+    "Max_speed": "Mach 4.7; flight altitude 40 km",
+    "Unit_cost": "₹2.3 crore per system (~$240k); ₹430 crore per regiment (~$53M)",
+    "Regiments_operational_Mar_2026": "7 (3rd inducted March 2026, 4th raised; last 2 expected 2027)",
+    "Target_regiments": "10 by mid-2026; 22 long-term",
+    "LRGR_120_DAC_clearance": "₹2,500 crore (~$260M), 29 December 2025",
+    "Ammunition_order_Feb_2025": "₹10,147 crore (~$1.1B) — EEL ₹4,500 cr ADM + MIL ₹5,647 cr HEPF Mk-1(E)"
+  },
+  "what_it_is": {
+    "prose": "The Pinaka Multi-Barrel Rocket Launcher is India's indigenous artillery rocket system, designed by DRDO's ARDE Pune, RCI Hyderabad, and DRDL Hyderabad laboratories. The system is produced by a consortium of TASL and L&T (launchers), Economic Explosives Limited (EEL/Solar Group) and Munitions India Limited (MIL) for rockets, and BEML for vehicles. The Pinaka family spans eight variants: Mk-I (37.5 km range), Mk-I Enhanced / Enhanced Pinaka Rocket System (EPRS, 45 km), Mk-II (60 km), Guided Pinaka (75 km), Mk-II ER (90 km), LRGR-120 / Mk-III (120 km), Mk-IV (300 km planned), and ELRGR (300+ km). Each launcher fires 12 rockets in a 44-second salvo. The LRGR-120 rocket weighs 535 kg with a 110 kg warhead, is 4.8 m long, has a 300 mm calibre, achieves Mach 4.7 max speed, reaches 40 km flight altitude, and has a Circular Error Probable (CEP) of less than 30 metres. Unit cost is approximately ₹2.3 crore per system (~$240k) and ₹430 crore per regiment (~$53M). Seven Pinaka regiments are operational as of March 2026 (the 7th regiment was inducted in March 2026, the 4th was raised, and the last 2 are expected in 2027), with a target of 10 by mid-2026 and 22 long-term. The Defence Acquisition Council cleared the LRGR-120 programme on 29 December 2025 for ₹2,500 crore (~$260M). On 6 February 2025, a ₹10,147 crore (~$1.1B) ammunition contract was signed — EEL received ₹4,500 crore for Area Denial Munition (ADM) and MIL received ₹5,647 crore for High Explosive Pre-Fragmented (HEPF) Mk-1(E) rockets. Pinaka was first used in combat during the Kargil War in 1999 (in its Mk-I form), and has since been exported in discussion to Armenia.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Seven Pinaka regiments are operational as of March 2026 (the 7th regiment was inducted in March 2026, the 4th was raised, and the last 2 are expected in 2027). The target is 10 regiments by mid-2026 and 22 long-term. Major recent orders include: ₹10,147 crore ammunition contract (6 February 2025 — EEL ₹4,500 cr ADM + MIL ₹5,647 cr HEPF Mk-1(E)); ₹2,500 crore LRGR-120 programme (29 December 2025 DAC clearance); ₹2,580 crore for 6 additional regiments (31 August 2020 — 114 launchers + 45 CPs + 330 vehicles); ₹3,300 crore for 2 more regiments (DAC October 2015, CCS March 2016); initial 2 regiments (Tata Power SED + L&T, ₹200 crore, 2006).",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "Initial 2 regiments (Tata Power SED + L&T)",
+        "year": 2006,
+        "quantity_or_note": "₹200 crore; 80 launchers + 16 CPs; delivery complete 2010",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "2 more regiments (DAC Oct 2015, CCS Mar 2016)",
+        "year": 2016,
+        "quantity_or_note": "₹3,300 crore",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "6 additional regiments (TASL + L&T, BEML vehicles)",
+        "year": 2020,
+        "quantity_or_note": "₹2,580 crore (signed 31 August 2020); 114 launchers + 45 CPs + 330 vehicles",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Pinaka ammunition (HEPF + ADM)",
+        "year": 2025,
+        "quantity_or_note": "₹10,147 crore (signed 6 February 2025) — EEL ₹4,500 cr ADM + MIL ₹5,647 cr HEPF Mk-1(E)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "LRGR-120 programme DAC clearance",
+        "year": 2025,
+        "quantity_or_note": "₹2,500 crore (29 December 2025)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Operational status — 7 regiments",
+        "year": 2026,
+        "quantity_or_note": "7 regiments operational March 2026; 10 by mid-2026; 22 long-term",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact LRGR-120 induction timeline into service (DAC clearance Dec 2025 is project sanction, not production contract)",
+      "ELRGR (300+ km) configuration not yet publicly specified",
+      "Ramjet-propulsion Pinaka variant (range 250 km) is in IIT Madras-led development — not yet a sanctioned programme",
+      "Armenia export deal value and delivery timeline not publicly confirmed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
+    "items": [
+      {
+        "component": "Tatra truck chassis (8x8)",
+        "severity": "High",
+        "note": "BEML assembles under licence — Czech Republic",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Some seeker / navigation components",
+        "severity": "Medium",
+        "note": "Inferred supply-chain — Israel / USA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (ARDE + RCI + DRDL) — fully indigenous design",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "TASL + L&T (launchers); EEL + MIL (rockets); BEML (vehicles) — all Indian",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 4,
+        "note": "Rocket, launcher, vehicle all Indian-made; Tatra chassis Czech licence",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 5,
+        "note": "7 regiments operational; 22 long-term target; ₹10,147 cr ammo order Feb 2025",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Armenia export deal in discussion; demonstrated combat use in Kargil 1999",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "zorawar-light-tank-def-001"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Exact LRGR-120 induction timeline into service (DAC clearance Dec 2025 is project sanction, not production contract)",
+    "ELRGR (300+ km) configuration not yet publicly specified",
+    "Ramjet-propulsion Pinaka variant (range 250 km) is in IIT Madras-led development — not yet a sanctioned programme",
+    "Armenia export deal value and delivery timeline not publicly confirmed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Pinaka multi-barrel rocket launcher",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pinaka_multi_barrel_rocket_launcher",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Comprehensive specifications; aggregates credible sources"
+    },
+    {
+      "id": "src-2",
+      "title": "With 7th regiment, Army expands Pinaka fleet",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/with-7th-regiment-army-expands-pinaka-fleet/articleshow/129740641.cms",
+      "published_date": "2026-03-23",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "7 regiments operational March 2026"
+    },
+    {
+      "id": "src-3",
+      "title": "India's Pinaka Long Range Guided Rocket",
+      "publisher": "ET Government",
+      "url": "https://government.economictimes.indiatimes.com/news/defence/indias-pinaka-long-range-guided-rocket-transforming-artillery-with-precision-and-range/132276313",
+      "published_date": "2026-07-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "LRGR-120 details"
+    },
+    {
+      "id": "src-4",
+      "title": "Indian Army to Place $1 Billion Order for Pinaka MBRL",
+      "publisher": "The Defense Post",
+      "url": "https://thedefensepost.com/2025/01/23/indian-army-pinaka-mbrl",
+      "published_date": "2025-01-23",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Upcoming Pinaka orders"
+    }
+  ],
+  "seo": {
+    "title": "Pinaka Multi-Barrel Rocket Launcher — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "India's indigenous multi-barrel rocket launcher; 7 regiments operational (Mar 2026), target 22 long-term; LRGR-120 (120 km) DAC clearance Dec 2025 for ₹2,500 cr",
+    "canonical_path": "/research/pillars/defence/entity/pinaka-mbrl-def-002/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/",
+    "submit_correction": "/research/pillars/defence/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the LRGR-120 variant of Pinaka?",
+      "answer": "LRGR-120 (Long Range Guided Rocket, 120 km) is the Mk-III variant of the Pinaka family. The rocket weighs 535 kg with a 110 kg warhead, is 4.8 m long, has a 300 mm calibre, achieves Mach 4.7 max speed, reaches 40 km flight altitude, and has a Circular Error Probable (CEP) of less than 30 metres. The Defence Acquisition Council cleared the LRGR-120 programme on 29 December 2025 for ₹2,500 crore (~$260M). Pre-production units are being manufactured by Economic Explosives Limited (EEL).",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "How many Pinaka regiments does the Indian Army operate?",
+      "answer": "Seven Pinaka regiments were operational as of March 2026 (the 7th regiment was inducted in March 2026, the 4th was raised, and the last 2 are expected in 2027). The target is 10 regiments by mid-2026 and 22 long-term. Each regiment comprises approximately 12 launchers, command posts, and support vehicles.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Has Pinaka been exported?",
+      "answer": "Armenia has been reported as an export customer for the Pinaka MBRL system, marking the first export of an Indian artillery rocket system. The exact contract value and delivery timeline have not been officially confirmed by the Indian MoD or the production consortium (TASL + L&T + EEL + MIL + BEML). Pinaka's successful combat debut in the 1999 Kargil War and its continued evolution through eight variants (Mk-I 37.5 km to planned Mk-IV 300 km) position it well for further exports to friendly foreign countries.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1999",
+      "event": "Pinaka Mk-I first used in combat during Kargil War",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2006",
+      "event": "Initial 2 regiments delivered (Tata Power SED + L&T, ₹200 cr)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2015-10",
+      "event": "DAC clears 2 more regiments; CCS approval March 2016 (₹3,300 cr)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020-08-31",
+      "event": "6 additional regiments contract signed (₹2,580 cr; 114 launchers + 45 CPs + 330 vehicles)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2025-02-06",
+      "event": "₹10,147 cr ammunition contract signed (EEL ₹4,500 cr ADM + MIL ₹5,647 cr HEPF Mk-1(E))",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2025-12-29",
+      "event": "DAC clears LRGR-120 programme (₹2,500 cr)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2026-03",
+      "event": "7th Pinaka regiment operational; Army confirms 10 by mid-2026 and 22 long-term target",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ]
+}

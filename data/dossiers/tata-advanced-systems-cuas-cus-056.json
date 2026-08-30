@@ -1,0 +1,177 @@
+{
+  "entity_id": "cus-056",
+  "entity_type": "system",
+  "tier": "B",
+  "noindex": false,
+  "slug": "tata-advanced-systems-cuas-cus-056",
+  "name": "Tata Advanced Systems Counter-UAS",
+  "variant": "V1 (Atlas label) — no single TASL integrated CUAS product confirmed",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-08-29",
+  "status": "Development",
+  "header": {
+    "one_liner": "TASL counter-UAS capability spans Rajak ULR 50 EO/IR (drone detection at 10 km), Surface Surveillance Radar, and Air Defence Systems division; no single integrated TASL CUAS product or Indian deployment has been publicly confirmed.",
+    "chips": [
+      "Detection",
+      "EO/IR",
+      "Radar",
+      "Air Defence Systems"
+    ],
+    "maker": "Tata Advanced Systems Limited (TASL)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not disclosed in public sources reviewed",
+    "mobility_or_class": "Vehicle-mounted / static (configuration dependent)",
+    "operational_domains": [
+      "land",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Tata Advanced Systems Limited (TASL)",
+    "HQ": "Hyderabad (manufacturing) / New Delhi (corporate)",
+    "Detection_range_Rajak_ULR_50": "Small drone 10 km+; vehicle 50 km+; human 40 km+",
+    "SSR_band": "X-band 8-12 GHz, CUAS-capable",
+    "White_paper": "Integrated Anti-Drone System (May 2026)",
+    "Hard_kill_effector": "Not confirmed (3 kW power level reported for Rajak ULR 50 suggests laser-DEW)",
+    "Indian_deployments": "None publicly confirmed"
+  },
+  "what_it_is": {
+    "prose": "Tata Advanced Systems Limited (TASL) does not market a single integrated 'CUAS' product under that name; rather, TASL's counter-UAS-relevant capability spans multiple divisions and product lines. The Rajak ULR 50 EO/IR surveillance system can detect small drones at 10 km+, vehicles at 50 km+, and humans at 40 km+. The TASL Surface Surveillance Radar (SSR) is an X-band 8-12 GHz system listed as CUAS-capable. A May 2026 TASL white paper titled 'Integrated Anti-Drone System: Powered by EO/IR Sensors, AI Processing, and C2 with Fire Control Integration' describes TASL's architectural approach. Notably, no public record of an integrated TASL CUAS product deployed with Indian forces has been found. TASL's Unmanned Aerial Systems division produces the Sky-I, Rakshak VTOL, and Advanced Loitering Systems (ALS) UAVs, but these are platforms rather than counter-platforms. The 'V1' label used in the Atlas should be treated as an editorial designation pending vendor confirmation of a specific product.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "No public procurement or deployment records for a TASL CUAS system have been found. TASL UAVs (Sky-I, Rakshak VTOL, ALS) are in service or under trial with Indian forces, but these are unmanned platforms rather than counter-UAS systems. The Rajak ULR 50 was unveiled in 2026 but no customer has been named.",
+    "rows": [],
+    "open_questions": [
+      "Whether a single integrated 'Tata CUAS' product actually exists, or whether Atlas is grouping Rajak ULR 50 + SSR + Air Defence Systems division capabilities",
+      "Vendor confirmation of 'V1' version label",
+      "Hard-kill effector identity (laser-DEW? kinetic?)",
+      "Indigenous content %",
+      "Any confirmed deployments or procurement orders"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies not publicly itemised. Industry-typical supply chains suggest FPGA (USA), GaN RF amplifiers (USA), and EO/IR sensors (USA / Israel) are imported. Vendor confirmation required.",
+    "items": [
+      {
+        "component": "FPGA (Xilinx/AMD)",
+        "severity": "Unknown",
+        "note": "Industry-typical; vendor not disclosed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "GaN RF amplifier",
+        "severity": "Unknown",
+        "note": "Industry-typical; vendor not disclosed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "EO/IR sensors",
+        "severity": "Unknown",
+        "note": "Industry-typical; vendor not disclosed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "integrated-counter-drone-system-cus-001",
+      "zen-anti-drone-system-zads-cus-003",
+      "l-t-defence-counter-drone-system-cus-057"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Whether a single integrated 'Tata CUAS' product actually exists, or whether Atlas is grouping Rajak ULR 50 + SSR + Air Defence Systems division capabilities",
+    "Vendor confirmation of 'V1' version label",
+    "Hard-kill effector identity (laser-DEW? kinetic?)",
+    "Indigenous content %",
+    "Any confirmed deployments or procurement orders"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Unmanned Aerial Systems",
+      "publisher": "Tata Advanced Systems Limited",
+      "url": "https://www.tataadvancedsystems.com/uav",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — TASL UAV page; specific CUAS product page does not exist"
+    },
+    {
+      "id": "src-2",
+      "title": "Tata Advanced Systems homepage (Rajak ULR 50 banner)",
+      "publisher": "Tata Advanced Systems Limited",
+      "url": "https://www.tataadvancedsystems.com/public",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — TASL public homepage"
+    },
+    {
+      "id": "src-3",
+      "title": "Tata Advanced Systems Limited (TASL) company directory",
+      "publisher": "Military Embedded Systems",
+      "url": "https://militaryembedded.com/company/tasl",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Lists May 20, 2026 white paper on Integrated Anti-Drone System"
+    },
+    {
+      "id": "src-4",
+      "title": "India's Rajak ULR 50 Sees Beyond 50 km",
+      "publisher": "IndianWeb2.com",
+      "url": "https://www.indianweb2.com/2026/04/indias-rajak-ulr-50-sees-beyond-50-km.html",
+      "published_date": "2026-04-09",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Documents Rajak ULR 50 detection ranges"
+    },
+    {
+      "id": "src-5",
+      "title": "SSR - Tata Advanced Systems Limited",
+      "publisher": "everythingrf.com",
+      "url": "https://www.everythingrf.com/products/radar-systems/tata-advanced-systems-limited/1069-2159-ssr",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Lists TASL SSR as CUAS-capable radar, X-band 8-12 GHz"
+    }
+  ],
+  "seo": {
+    "title": "Tata Advanced Systems Counter-UAS — System · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "TASL counter-UAS capability spans Rajak ULR 50 EO/IR (drone detection at 10 km), Surface Surveillance Radar, and Air Defence Systems division; no single integrated TASL CUAS product or Indian deployment has been publicly confirmed.",
+    "canonical_path": "/research/counter-uas/system/tata-advanced-systems-cuas-cus-056/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/counter-uas/"
+    ]
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "entity_id": "def-010",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "s-400-india-def-010",
+  "name": "S-400 Triumf (India)",
+  "variant": "S-400 Triumf / SA-21 Growler",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Russian long-range air defence system; India contracted 5 regiments for ~$5.4 billion in 2018; 3 delivered by 2024; deliveries delayed by Russia-Ukraine war.",
+    "chips": [
+      "SAM",
+      "Russian",
+      "Long-range",
+      "400 km",
+      "Indian Army",
+      "Almaz-Antey"
+    ],
+    "maker": "Almaz-Antey (Russia) — OEM; Indian Army — operator",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Almaz-Antey (Russia)",
+    "Range": "Up to 400 km (40N6 missile); 250 km (48N6); 120 km (9M96E2); 40 km (9M96E)",
+    "Altitude": "Up to 30 km (40N6); 5 m to 30 km",
+    "Missile_types": "4 missile types per battery: 40N6 (400 km), 48N6 (250 km), 9M96E2 (120 km), 9M96E (40 km)",
+    "Targets_simultaneous": "Up to 36 (80 with full battery)",
+    "Contract_year": "2018 (5 regiments)",
+    "Contract_value": "~$5.4 billion (₹40,000 crore)",
+    "Delivery_status": "3 regiments delivered by 2024; remaining 2 delayed by Russia-Ukraine war",
+    "Deployment_sites": "Reportedly: Punjab sector (1), Rajasthan sector (1), Eastern sector (1) — official confirmation not given",
+    "Customer": "Indian Army (Air Defence Corps)"
+  },
+  "what_it_is": {
+    "prose": "The S-400 Triumf (NATO reporting name SA-21 Growler) is a Russian long-range surface-to-air missile system developed by Almaz-Antey. India signed a $5.4 billion (₹40,000 crore) contract in October 2018 for five S-400 regiments, despite the threat of US Countering America's Adversaries Through Sanctions Act (CAATSA) sanctions. Each S-400 regiment typically comprises a command post, surveillance radar, and 2-3 batteries with 4 launchers each, capable of firing four different missile types covering ranges from 40 km to 400 km: the 40N6 (400 km), 48N6 (250 km), 9M96E2 (120 km), and 9M96E (40 km). A single battery can simultaneously engage up to 36 targets (80 with a full regiment). As of 2024, three of the five contracted regiments have been delivered to the Indian Army's Air Defence Corps. The remaining two regiments are delayed due to the Russia-Ukraine war disrupting Russian defence exports. Reported deployment locations (not officially confirmed) include the Punjab sector (facing Pakistan and the western China border), the Rajasthan sector, and the Eastern sector. The S-400 provides India's outermost air defence layer, complementing the Indo-Israeli MRSAM (medium-range), the indigenous Akash/Akash-NG (medium-short), and QRSAM (short-range) systems. The CAATSA sanctions threat has not been invoked against India as of August 2026, though the US has periodically signaled concerns.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "India contracted 5 S-400 regiments in October 2018 for ~$5.4 billion (₹40,000 crore). Three regiments had been delivered by March 2024. The remaining two regiments are delayed due to the Russia-Ukraine war. Deployment locations are not officially confirmed but reported to include Punjab, Rajasthan, and Eastern sectors.",
+    "rows": [
+      {
+        "agency": "Indian Army / Ministry of Defence",
+        "context": "Contract signed with Russia for 5 S-400 regiments",
+        "year": 2018,
+        "quantity_or_note": "~$5.4 billion (₹40,000 crore) — October 2018",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Army (Air Defence Corps)",
+        "context": "First regiment delivered",
+        "year": 2021,
+        "quantity_or_note": "December 2021 — reportedly deployed Punjab sector",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Army (Air Defence Corps)",
+        "context": "Second regiment delivered",
+        "year": 2022,
+        "quantity_or_note": "2022 — reportedly deployed Rajasthan sector",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Army (Air Defence Corps)",
+        "context": "Third regiment delivered",
+        "year": 2024,
+        "quantity_or_note": "March 2024 — reportedly deployed Eastern sector",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Army (Air Defence Corps)",
+        "context": "Fourth and fifth regiments — delayed",
+        "year": null,
+        "quantity_or_note": "Delayed due to Russia-Ukraine war; new delivery timeline not confirmed",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Delivery timeline for remaining 2 regiments (4th and 5th) — delayed by Russia-Ukraine war, no firm date",
+      "Official confirmation of deployment locations not provided by MoD",
+      "CAATSA sanctions status — US has not invoked CAATSA against India as of August 2026, but periodic signals of concern continue",
+      "Whether India will exercise the option for a 6th S-400 regiment (originally discussed)"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "S-400 system (complete)",
+        "severity": "Critical",
+        "note": "Russia (Almaz-Antey) — full system import",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "40N6 / 48N6 / 9M96 missiles",
+        "severity": "Critical",
+        "note": "Russia — no indigenous alternative",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Spare parts and maintenance support",
+        "severity": "High",
+        "note": "Russia — supply chain impacted by Russia-Ukraine war sanctions",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 0,
+        "note": "Russia (Almaz-Antey) — fully imported system",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 0,
+        "note": "Russia — no Indian production",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 0,
+        "note": "All components Russian; spares impacted by war",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "5 regiments contracted; 3 operational as of 2024",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 0,
+        "note": "Indian-operated only; no Indian production to export",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "akash-ng-def-004",
+      "qrsam-def-005",
+      "mrsam-def-006"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Delivery timeline for remaining 2 regiments (4th and 5th) — delayed by Russia-Ukraine war, no firm date",
+    "Official confirmation of deployment locations not provided by MoD",
+    "CAATSA sanctions status — US has not invoked CAATSA against India as of August 2026, but periodic signals of concern continue",
+    "Whether India will exercise the option for a 6th S-400 regiment (originally discussed)"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "S-400 missile system",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/S-400_missile_system",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "S-400 specifications and Indian contract"
+    },
+    {
+      "id": "src-2",
+      "title": "India–Russia S-400 deal",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/India%E2%80%93Russia_S-400_deal",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Indian contract and delivery timeline"
+    },
+    {
+      "id": "src-3",
+      "title": "S-400 Triumf Missile Shield: India gets third squadron of S-400",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/s-400-triumf-missile-shield-india-gets-third-squadron-of-s-400/articleshow/107742015.cms",
+      "published_date": "2024-03-26",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Confirms 3rd regiment delivered by March 2024"
+    },
+    {
+      "id": "src-4",
+      "title": "S-400 Triumf delivery to India: Two regiments pending, Russia says working on it",
+      "publisher": "India Today",
+      "url": "https://www.indiatoday.in/india/story/s-400-triumf-delivery-india-russia-2576786-2024-12-19",
+      "published_date": "2024-12-19",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Confirms 3 of 5 S-400 regiments delivered to India; remaining 2 delayed by Russia-Ukraine war; Russia working on delivery schedule"
+    }
+  ],
+  "seo": {
+    "title": "S-400 Triumf (India) — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "Russian long-range air defence system; India contracted 5 regiments for ~$5.4 billion in 2018; 3 delivered by 2024; deliveries delayed by Russia-Ukraine war.",
+    "canonical_path": "/research/pillars/defence/entity/s-400-india-def-010/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/",
+    "submit_correction": "/research/pillars/defence/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "How many S-400 regiments has India received, and how many are pending?",
+      "answer": "India contracted 5 S-400 regiments in October 2018 for approximately $5.4 billion (₹40,000 crore). Three regiments had been delivered by March 2024. The remaining two regiments are delayed due to the Russia-Ukraine war disrupting Russian defence exports. New delivery timelines have not been confirmed by Russia or the Indian MoD as of August 2026.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "Has the US invoked CAATSA sanctions against India for the S-400 deal?",
+      "answer": "No. The US Countering America's Adversaries Through Sanctions Act (CAATSA) threatens sanctions against countries purchasing Russian defence equipment, but the US has not invoked CAATSA against India as of August 2026. However, periodic US signals of concern continue, and the issue remains a point of friction in the India-US strategic relationship. India has consistently argued that the S-400 is essential for its national security and that CAATSA should not apply to a strategic partner.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Where are the Indian S-400 systems deployed?",
+      "answer": "Deployment locations are not officially confirmed by the Indian MoD. However, credible reporting indicates three deployment sectors: the Punjab sector (facing Pakistan and the western China border), the Rajasthan sector, and the Eastern sector (facing China). The S-400 provides India's outermost air defence layer, complementing the Indo-Israeli MRSAM (medium-range), the indigenous Akash and Akash-NG (medium-short), and QRSAM (short-range) systems.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "entity_id": "vikram-2",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "vikram-2",
+  "name": "Skyroot Vikram-2",
+  "variant": "Vikram-II",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Development",
+  "header": {
+    "one_liner": "Vikram-2 is Skyroot's larger next-generation launcher in development, adding a 3D-printed cryogenic ('Dhawan') upper stage for heavier payloads.",
+    "chips": [
+      "B",
+      "India-relevant",
+      "In development",
+      "Cryogenic upper stage"
+    ],
+    "maker": "Skyroot Aerospace Private Limited",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "India-developed; no audited indigenous percentage disclosed",
+    "mobility_or_class": "Small/medium-lift orbital launch vehicle (in development)",
+    "operational_domains": [
+      "space"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Skyroot Aerospace Private Limited",
+    "Country": "India",
+    "Status": "In development",
+    "Distinguishing_feature": "3D-printed cryogenic 'Dhawan' upper-stage engine (LNG/LOX methalox)",
+    "Relation": "Larger, higher-payload successor to Vikram-1",
+    "Evidence_note": "Development milestones (Dhawan engine tests) demonstrated; full vehicle not yet flown"
+  },
+  "what_it_is": {
+    "prose": "Vikram-2 is the larger, higher-capacity member of Skyroot Aerospace's Vikram launch-vehicle family, positioned above the orbital Vikram-1. Its defining feature is a cryogenic upper stage powered by Skyroot's 3D-printed 'Dhawan' engine burning liquefied natural gas and liquid oxygen (methalox) — Skyroot test-fired Dhawan-1, described as India's first privately developed fully cryogenic rocket engine, in November 2021, and has since worked on the more powerful Dhawan-2. The cryogenic upper stage is intended to raise the payload the Vikram series can deliver to low Earth orbit relative to Vikram-1. As of this verification Vikram-2 remains in development: its propulsion building blocks have been demonstrated on test stands, but no integrated orbital flight of Vikram-2 has been reported. Specific payload, mass and schedule figures should be treated as provisional until Skyroot publishes primary specifications for the flight vehicle.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Vikram-2 is a development-stage vehicle with no operational flights or firm public order book; activity to date is engine development and qualification.",
+    "rows": [
+      {
+        "agency": "Skyroot Aerospace",
+        "context": "Dhawan-1 cryogenic engine (LNG/LOX) test-fired — described as India's first privately developed fully cryogenic engine",
+        "year": 2021,
+        "quantity_or_note": "Ground test",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Skyroot Aerospace",
+        "context": "Development of more powerful 3D-printed Dhawan-2 cryogenic engine for the upper stage",
+        "year": null,
+        "quantity_or_note": "In development",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Confirmed Vikram-2 LEO payload capacity from a Skyroot primary spec",
+      "First integrated Vikram-2 flight date",
+      "Whether Vikram-2 flies before or after further Vikram-1 flights"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Skyroot stresses 3D-printed, in-house cryogenic propulsion, but has not published a component sovereignty breakdown; space-grade electronics remain a general Indian NewSpace dependency.",
+    "items": [
+      {
+        "component": "Cryogenic propulsion (Dhawan engine)",
+        "severity": "Low",
+        "note": "Developed and 3D-printed in-house by Skyroot",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "component": "Space-grade avionics / rad-tolerant electronics",
+        "severity": "Medium",
+        "note": "General import exposure for Indian private launchers; sourcing undisclosed",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "vikram-1"
+    ],
+    "peer_systems": [
+      "agnibaan"
+    ],
+    "related_pillars": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "How is Vikram-2 different from Vikram-1?",
+      "answer": "It is larger and adds a cryogenic (methalox) upper stage using Skyroot's 3D-printed Dhawan engine, aimed at heavier payloads.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "Has Vikram-2 flown?",
+      "answer": "No; as of verification it is in development, with the Dhawan cryogenic engine demonstrated on test stands.",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Vikram-II",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vikram-II",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Encyclopedic entry on the Vikram-2 configuration and cryogenic upper stage."
+    },
+    {
+      "id": "src-2",
+      "title": "Skyroot successfully test fires India's first privately developed cryogenic rocket engine",
+      "publisher": "ROOM Space Journal",
+      "url": "https://room.eu.com/news/skyroot-successfully-test-fires-indias-first-privately-developed-cryogenic-rocket-engine",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Dhawan-1 LNG/LOX cryogenic engine test — first privately developed fully cryogenic engine in India."
+    },
+    {
+      "id": "src-3",
+      "title": "Skyroot Aerospace and Dhawan-II's More Powerful 3D-Printed Cryogenic Engine",
+      "publisher": "Cryogenic Society of America",
+      "url": "https://www.cryogenicsociety.org/index.php?option=com_dailyplanetblog&view=entry&category=industry-news&id=178:skyroot-aerospace-and-dhawan-ii-s-more-powerful-3d-printed-cryogenic-engine",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Dhawan-2 uprated 3D-printed cryogenic engine development."
+    },
+    {
+      "id": "src-4",
+      "title": "Vikram (rocket family)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vikram_(rocket_family)",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Family overview placing Vikram-2 above Vikram-1."
+    }
+  ],
+  "seo": {
+    "title": "Skyroot Vikram-2 — Platform · India Space Atlas | Techadyant",
+    "meta_description": "Skyroot Vikram-2 — the larger, in-development member of the Vikram launcher family, adding a 3D-printed cryogenic 'Dhawan' methalox upper stage.",
+    "canonical_path": "/research/space/entity/vikram-2/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  }
+}

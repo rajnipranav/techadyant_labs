@@ -1,0 +1,120 @@
+{
+  "entity_id": "aditya-l1",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "aditya-l1",
+  "name": "Aditya-L1",
+  "variant": "Aditya-L1",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Aditya-L1 is India’s first dedicated solar observatory, placed at the Sun–Earth L1 point.",
+    "chips": [
+      "A",
+      "India-relevant",
+      "Operational"
+    ],
+    "maker": "Indian Space Research Organisation (ISRO)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "space"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Indian Space Research Organisation (ISRO)",
+    "Country": "India",
+    "Status": "Operational",
+    "Orbit": "L1 Halo orbit",
+    "Launcher": "PSLV-C57 / Aditya-L1"
+  },
+  "what_it_is": {
+    "prose": "Aditya-L1 is ISRO’s first space-based solar observatory, designed to study the Sun’s corona, chromosphere, and solar wind from the Sun–Earth Lagrange point L1. The spacecraft carries indigenous instruments including the Visible Emission Line Coronagraph and solar wind and particle detectors.",
+    "sources": [
+      "src-aditya-1",
+      "src-aditya-2"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-aditya-1",
+      "title": "Aditya-L1",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/Aditya_L1.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Mission overview."
+    },
+    {
+      "id": "src-aditya-2",
+      "title": "Launch Missions",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/LaunchMissions.html",
+      "published_date": "2026-07-31",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Current ISRO mission list."
+    }
+  ],
+  "seo": {
+    "title": "Aditya-L1 — Platform · India Space Atlas | Techadyant",
+    "meta_description": "Aditya-L1 is India’s first dedicated solar observatory at the Sun–Earth L1 point. Manufacturer: Indian Space Research Organisation.",
+    "canonical_path": "/research/space/entity/aditya-l1/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/entity/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is Aditya-L1?",
+      "answer": "India’s first solar observatory at Sun–Earth L1.",
+      "sources": [
+        "src-aditya-1"
+      ]
+    },
+    {
+      "question": "Primary instruments?",
+      "answer": "Coronagraph, solar wind and particle instruments.",
+      "sources": [
+        "src-aditya-1"
+      ]
+    },
+    {
+      "question": "Orbit?",
+      "answer": "L1 halo orbit.",
+      "sources": [
+        "src-aditya-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023-09-02",
+      "event": "PSLV-C57 / Aditya-L1 launch.",
+      "sources": [
+        "src-aditya-2"
+      ]
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/space/entity/pslv/"
+    ]
+  }
+}

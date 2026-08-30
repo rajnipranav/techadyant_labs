@@ -1,0 +1,300 @@
+{
+  "entity_id": "firefly-constellation",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "firefly-constellation",
+  "name": "Pixxel Firefly Constellation",
+  "variant": "Firefly hyperspectral EO",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Pixxel's Firefly satellites form a commercial hyperspectral Earth-observation constellation delivering ~5 m resolution across 150+ spectral bands; the first three launched in January 2025.",
+    "chips": [
+      "A",
+      "India-relevant",
+      "Hyperspectral EO",
+      "Constellation"
+    ],
+    "maker": "Pixxel",
+    "country": "India / USA",
+    "indigenous_pct": null,
+    "indigenous_label": "Indian-founded (Bengaluru operations); US-incorporated HQ — no audited indigenous percentage",
+    "mobility_or_class": "Hyperspectral Earth-observation satellite constellation",
+    "operational_domains": [
+      "space",
+      "civilian"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Pixxel (Bengaluru, India / California, USA)",
+    "Country": "India / USA",
+    "First_Fireflies": "3 launched 14–15 January 2025 (SpaceX Transporter-12, Vandenberg)",
+    "Resolution": "~5 m spatial (vs typical 30 m hyperspectral)",
+    "Spectral_bands": "150+ narrowband channels",
+    "Swath": "~40 km",
+    "Orbit": "Sun-synchronous, ~550 km",
+    "Founders": "Awais Ahmed (CEO), Kshitij Khandelwal (CTO)"
+  },
+  "what_it_is": {
+    "prose": "Firefly is the commercial hyperspectral Earth-observation constellation built by Pixxel, an Indian-founded company with operations in Bengaluru and a US-incorporated headquarters. Each Firefly satellite images in more than 150 narrow spectral bands at roughly 5 m spatial resolution — about six times sharper than legacy 30 m hyperspectral systems — over a ~40 km swath from a sun-synchronous orbit near 550 km. The first three operational Fireflies launched on 14–15 January 2025 aboard SpaceX's Transporter-12 rideshare from Vandenberg Space Force Base (integrated by Exolaunch), and Pixxel announced 'first light' hyperspectral imagery in March 2025, with additional Fireflies following later in 2025 to build toward daily global coverage. The hyperspectral data targets agriculture, forestry, mining, environmental and climate monitoring, water quality and government applications. Pixxel is among the best-funded hyperspectral startups globally. This dossier records the launched, operational constellation and keeps the final constellation size and India-specific procurement open pending primary disclosure.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Firefly is a commercial EO constellation sold as data/analytics; Pixxel launches on rideshare and has named commercial and government customers across sectors.",
+    "rows": [
+      {
+        "agency": "Pixxel",
+        "context": "First three operational Fireflies launched on SpaceX Transporter-12 from Vandenberg (Exolaunch integration)",
+        "year": 2025,
+        "quantity_or_note": "3 satellites (Jan 2025)",
+        "sources": [
+          "src-1",
+          "src-4"
+        ]
+      },
+      {
+        "agency": "Pixxel",
+        "context": "Additional Fireflies launched later in 2025 toward a fuller constellation",
+        "year": 2025,
+        "quantity_or_note": "Constellation build-out",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Commercial & government EO customers",
+        "context": "Hyperspectral data marketed for agriculture, mining, environment and government use",
+        "year": null,
+        "quantity_or_note": "Data/analytics service",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Confirmed final Firefly constellation size",
+      "Named Indian government/agency customers and contract values"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Pixxel has not published a component sovereignty breakdown. As with most EO smallsats, space-grade detectors/optics and radiation-tolerant electronics are potential import exposures; launch to date has used a US provider (SpaceX).",
+    "items": [
+      {
+        "component": "Launch services",
+        "severity": "Medium",
+        "note": "Fireflies launched on SpaceX rideshare (US), not an Indian launcher",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Space-grade hyperspectral detectors / optics",
+        "severity": "Medium",
+        "note": "Sourcing not publicly disclosed; common import exposure for EO smallsats",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "Firefly designed by Pixxel (Indian-founded, Bengaluru engineering); US-incorporated HQ",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Satellites built by Pixxel; launch outsourced to SpaceX",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Detector/optics and electronics sourcing undisclosed",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "Well-funded; multiple Fireflies launched in 2025 with constellation build-out underway",
+        "sources": [
+          "src-4",
+          "src-5"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Global commercial hyperspectral data market; international customer base",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "peer_systems": [
+      "drishti-galaxeye",
+      "scot-digantara"
+    ],
+    "related_pillars": [
+      "/research/space/entity/"
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2025-01-14",
+      "event": "First three Firefly satellites launched on SpaceX Transporter-12 from Vandenberg.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2025-03-18",
+      "event": "Pixxel announces Firefly 'first light' hyperspectral imagery.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the Firefly constellation?",
+      "answer": "Pixxel's commercial hyperspectral Earth-observation satellites, imaging in 150+ spectral bands at ~5 m resolution.",
+      "sources": [
+        "src-2",
+        "src-4"
+      ]
+    },
+    {
+      "question": "When did the first Fireflies launch?",
+      "answer": "On 14–15 January 2025 aboard SpaceX's Transporter-12 rideshare from Vandenberg.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Who builds them?",
+      "answer": "Pixxel, an Indian-founded company with Bengaluru operations and a US-incorporated headquarters.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "What is the data used for?",
+      "answer": "Agriculture, forestry, mining, environmental and climate monitoring, water quality and government applications.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Final constellation size and full revisit cadence",
+    "Named Indian-government customers"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Pixxel Launches World's Highest-Resolution Hyperspectral Satellites, Kickstarts Firefly Constellation for Climate Action",
+      "publisher": "Pixxel",
+      "url": "https://www.pixxel.space/news/pixxel-launches-worlds-highest-resolution-hyperspectral-satellites-kickstarts-firefly-constellation-for-climate-action",
+      "published_date": "2025-01-14",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Company release: 3 Fireflies on Transporter-12 from Vandenberg; 5 m, 150+ bands, 40 km swath, ~550 km SSO."
+    },
+    {
+      "id": "src-2",
+      "title": "Firefly: Pixxel's Highest-Resolution Hyperspectral Satellites",
+      "publisher": "Pixxel",
+      "url": "https://www.pixxel.space/firefly",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Product page describing Firefly capabilities and applications."
+    },
+    {
+      "id": "src-3",
+      "title": "Pixxel's Firefly Satellites Achieve Successful First Light, Beaming Down the World's Highest-Resolution Hyperspectral Images",
+      "publisher": "Pixxel",
+      "url": "https://www.pixxel.space/news/pixxels-firefly-satellites-achieve-successful-first-light-beaming-down-the-worlds-highest-resolution-hyperspectral-images",
+      "published_date": "2025-03-18",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "First-light imagery announcement."
+    },
+    {
+      "id": "src-4",
+      "title": "Pixxel's Firefly Satellites Capture High-Resolution Hyperspectral Images",
+      "publisher": "Via Satellite",
+      "url": "https://www.satellitetoday.com/imagery-and-sensing/2025/03/18/pixxels-firefly-satellites-capture-high-resolution-hyperspectral-images/",
+      "published_date": "2025-03-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Independent trade-press coverage of Firefly imagery and specs."
+    },
+    {
+      "id": "src-5",
+      "title": "Pixxel Launches Three More Fireflies with SpaceX, Paving the Way for Planetary-Scale Hyperspectral Imaging",
+      "publisher": "Pixxel",
+      "url": "https://www.pixxel.space/news/pixxel-launches-three-more-fireflies-with-spacex-paving-the-way-for-planetary-scale-hyperspectral-imaging",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Additional Firefly launches in 2025 toward a fuller constellation."
+    },
+    {
+      "id": "src-6",
+      "title": "Pixxel has launched Firefly hyperspectral satellite",
+      "publisher": "SatNews",
+      "url": "https://satnews.com/2025/01/20/pixxel-has-launched-firefly-hyperspectral-satellite/",
+      "published_date": "2025-01-20",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Trade-press confirmation of the January 2025 Firefly launch."
+    }
+  ],
+  "seo": {
+    "title": "Pixxel Firefly Constellation — Platform · India Space Atlas | Techadyant",
+    "meta_description": "Pixxel Firefly — a commercial hyperspectral Earth-observation constellation at ~5 m resolution across 150+ bands; first three satellites launched January 2025.",
+    "canonical_path": "/research/space/entity/firefly-constellation/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  }
+}

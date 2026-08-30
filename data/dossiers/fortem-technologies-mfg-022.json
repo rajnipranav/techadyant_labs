@@ -1,0 +1,59 @@
+{
+  "entity_id": "mfg-022",
+  "entity_type": "manufacturer",
+  "tier": "C",
+  "noindex": true,
+  "slug": "fortem-technologies-mfg-022",
+  "name": "Fortem Technologies",
+  "variant": "Tier C compact card",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Fortem Technologies — Tier C compact card; evidence bar not yet met for a full India-focused dossier. Country: USA.",
+    "chips": [
+      "Tier C",
+      "Evidence gap"
+    ],
+    "maker": "Fortem Technologies",
+    "country": "USA",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — Tier C compact card",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Country": "USA",
+    "Tier_C_reason": "Insufficient primary-source evidence on India footprint (orders, deployments, JVs) for full dossier",
+    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection"
+  },
+  "what_it_is": {
+    "prose": "Fortem Technologies is listed in the Techadyant Atlas register as a counter-UAS manufacturer with country of origin USA. A thorough review of public primary sources did not surface sufficient evidence on the manufacturer's India footprint — specifically, documented Indian orders, deployments, joint ventures, or technology transfers related to counter-UAS were not found. This Tier C compact card is therefore marked noindex and the slug is preserved in the register pending future evidence collection. When primary-source evidence becomes available (PIB/MoD releases, exchange filings for Indian listed firms, OEM IR pages, credible major-news coverage of Indian contracts), this dossier can be elevated to Tier B or A.",
+    "sources": []
+  },
+  "open_questions": [
+    "Documented India footprint for Fortem Technologies — orders, deployments, JVs, ToT — not found in sources reviewed",
+    "Specific counter-UAS products offered by this manufacturer and any Indian customers",
+    "For foreign manufacturers: any Indian offsets, partnerships, or 'Make in India' commitments related to counter-UAS",
+    "For Indian manufacturers: revenue, order book, and indigenous content %"
+  ],
+  "sources": [],
+  "seo": {
+    "title": "Fortem Technologies — Manufacturer · India Counter Uas Atlas | Techadyant",
+    "meta_description": "Fortem Technologies — Tier C compact card; evidence bar not yet met for a full India-focused dossier. Country: USA.",
+    "canonical_path": "/research/counter-uas/manufacturer/fortem-technologies-mfg-022/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/manufacturer/submit-correction/",
+    "related_research": [
+      "/research/counter-uas/manufacturer/"
+    ]
+  }
+}

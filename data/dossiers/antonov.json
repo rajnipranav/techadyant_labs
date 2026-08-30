@@ -1,0 +1,234 @@
+{
+  "entity_id": "antonov",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "antonov",
+  "name": "Antonov State Enterprise",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Ukraine's state aircraft design house and OEM/design authority for the An-32 — the IAF's medium-transport workhorse. It won the ~$400M An-32RE upgrade in 2009 (40 in Ukraine + 64 at Kanpur), but the programme stalled after 2014–15 as Russia-Ukraine tensions and, later, the war crippled its supply chain and OEM support.",
+    "chips": [
+      "B",
+      "OEM",
+      "Antonov",
+      "Ukraine",
+      "An-32",
+      "Upgrade saga",
+      "War impact"
+    ],
+    "maker": "Ukroboronprom / Government of Ukraine",
+    "country": "Ukraine",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign (Ukraine) OEM/design authority for the IAF's An-32 fleet",
+    "mobility_or_class": "Aircraft design bureau & manufacturer (An-series transports)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Antonov State Enterprise (Antonov Company), Kyiv, Ukraine",
+    "Group": "Part of Ukroboronprom / UkrOboronProm state defence conglomerate",
+    "India_role": "Design authority & OEM for the IAF's Antonov An-32 fleet (~100+ aircraft)",
+    "Key_contract": "~$400 million An-32RE upgrade (2009): ~40 in Ukraine + ~64 at No.1 BRD Kanpur under ToT",
+    "Programme_status": "First RE inducted ~2011; stalled after 2014–15; India shifted to indigenous overhaul",
+    "War_impact": "Russia-Ukraine war disrupted OEM support, spares and engine supply for the An-32",
+    "Other_offers": "Antonov/Ukroboronprom offered An-132 co-production and An-178 to India (not adopted at scale)"
+  },
+  "what_it_is": {
+    "prose": "Antonov State Enterprise is Ukraine's state aircraft design house and manufacturer (part of the Ukroboronprom state defence conglomerate), and is the original design authority and OEM for the Antonov An-32 — the Indian Air Force's medium-transport workhorse, of which the IAF operates roughly 100 or more airframes inducted from 1984. In 2009 Antonov won a roughly $400 million contract to upgrade the IAF fleet to the 'An-32RE' standard, with about 40 aircraft to be upgraded in Ukraine and a further ~64 at the IAF's No. 1 Base Repair Depot in Kanpur under transfer of technology; the first RE aircraft entered service around 2011. The programme then stalled: strained Russia-Ukraine ties after the 2014 annexation of Crimea, Antonov's own supply-chain and financial difficulties, and ultimately the full-scale Russia-Ukraine war disrupted OEM support, spares and engine supply, leaving the upgrade incomplete and pushing India toward an indigenous overhaul and life-extension route. Antonov (and the parent Ukroboronprom) subsequently pitched other aircraft to India — including An-132 co-production and the An-178 — but these were not adopted at scale. Antonov thus remains a strategically important but war-impaired foreign OEM dependency for a core IAF airlift fleet.",
+    "sources": [
+      "src-theprint-an32",
+      "src-gs-2011",
+      "src-flightglobal",
+      "src-ain-antonov"
+    ]
+  },
+  "variant": "An-32 OEM / design authority",
+  "deployments_procurement": {
+    "summary": "Antonov is the OEM/design authority for the IAF's ~100+ An-32 fleet and held the ~$400M An-32RE upgrade contract (2009). The programme stalled after 2014–15 and the later war, disrupting OEM support and pushing India to indigenous overhaul; Antonov's other India offers (An-132, An-178) were not adopted at scale.",
+    "rows": [
+      {
+        "agency": "Indian Air Force / Antonov (Ukraine)",
+        "context": "An-32 acquisition (original OEM)",
+        "year": 1984,
+        "quantity_or_note": "~100+ An-32 inducted from 1984",
+        "sources": [
+          "src-theprint-an32"
+        ]
+      },
+      {
+        "agency": "Indian Air Force / Antonov (Ukraine)",
+        "context": "An-32RE upgrade contract",
+        "year": 2009,
+        "quantity_or_note": "~$400M; ~40 in Ukraine at Antonov + ~64 at Kanpur BRD (ToT); first RE ~2011",
+        "sources": [
+          "src-gs-2011",
+          "src-theprint-an32"
+        ]
+      },
+      {
+        "agency": "Antonov (Ukraine)",
+        "context": "Upgrade stalls amid Russia-Ukraine tensions / war",
+        "year": 2015,
+        "quantity_or_note": "Supply-chain and OEM-support disruption halts the RE programme mid-stream",
+        "sources": [
+          "src-flightglobal",
+          "src-ain-antonov"
+        ]
+      },
+      {
+        "agency": "Antonov / Ukroboronprom",
+        "context": "Other aircraft offers to India (An-132, An-178)",
+        "year": null,
+        "quantity_or_note": "Co-production/procurement proposals; not adopted at scale",
+        "sources": [
+          "src-theprint-an32"
+        ]
+      }
+    ],
+    "open_questions": [
+      "How many An-32 Antonov completed to full RE standard before the programme stalled is not clearly disclosed.",
+      "Extent of any residual Antonov OEM support to India during the war is unclear."
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Antonov itself is the foreign (Ukraine) dependency: as design authority and OEM for the An-32 it controls airframe support, RE-standard kits and the Ivchenko-Progress AI-20 engine ecosystem — all disrupted by the Russia-Ukraine war, which is precisely why India pivoted to indigenous overhaul.",
+    "items": [
+      {
+        "component": "An-32 airframe design authority & OEM support",
+        "severity": "Critical",
+        "note": "Antonov is the sole design house; wartime disruption cut support and spares.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-ain-antonov"
+        ]
+      },
+      {
+        "component": "RE-standard upgrade kits / avionics",
+        "severity": "High",
+        "note": "RE kits sourced via Ukraine; disruption forced indigenous avionics at Kanpur.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-flightglobal"
+        ]
+      },
+      {
+        "component": "Associated AI-20 engine ecosystem (Ivchenko-Progress/Motor Sich)",
+        "severity": "Critical",
+        "note": "Ukrainian engine supply/overhaul tightly linked to Antonov airframe support.",
+        "pillar_link": "/research/military-aerospace/",
+        "sources": [
+          "src-theprint-an32"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "an32"
+    ],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/military-aerospace/"
+    ],
+    "referenced_by": [
+      "an32",
+      "iaf"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is Antonov's relationship to the Indian Air Force?",
+      "answer": "Antonov State Enterprise (Ukraine) is the original design authority and OEM for the Antonov An-32, the IAF's medium-transport workhorse (~100+ aircraft from 1984). In 2009 Antonov won a ~$400 million contract to upgrade the fleet to An-32RE standard — about 40 aircraft in Ukraine and 64 at No. 1 BRD Kanpur under transfer of technology.",
+      "sources": [
+        "src-theprint-an32",
+        "src-gs-2011"
+      ]
+    },
+    {
+      "question": "Why did the Antonov An-32 upgrade stall?",
+      "answer": "After strained Russia-Ukraine ties following the 2014 annexation of Crimea, Antonov's own supply-chain and financial difficulties, and later the full-scale war, OEM support, spares and engine supply were disrupted. The RE upgrade was left incomplete, and India shifted toward an indigenous overhaul and life-extension route at Kanpur BRD.",
+      "sources": [
+        "src-flightglobal",
+        "src-ain-antonov"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-theprint-an32",
+      "title": "Yet another AN-32 crash. Replacement of ageing fleet planned since mid-2000s could see movement soon",
+      "publisher": "ThePrint",
+      "url": "https://theprint.in/defence/yet-another-an-32-crash-replacement-of-aging-fleet-planned-since-mid-2000s-could-see-movement-soon/2959062/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "~100 An-32 from 1984; 2009 ~$400M Antonov upgrade (40 Ukraine + 64 Kanpur); stalled 2015 by the war."
+    },
+    {
+      "id": "src-gs-2011",
+      "title": "Indian Air Force inducts upgraded Antonov-32 airlift aircraft",
+      "publisher": "GlobalSecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/india/2011/india-110609-irna02.htm",
+      "published_date": "2011-06-09",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "First An-32RE inducted 2011; ~40 upgraded in Ukraine at Antonov + 64 at Kanpur with ToT."
+    },
+    {
+      "id": "src-flightglobal",
+      "title": "Strained Russia, Ukraine ties slow Indian An-32 upgrades",
+      "publisher": "FlightGlobal",
+      "url": "https://www.flightglobal.com/fixed-wing/strained-russia-ukraine-ties-slow-indian-an-32-upgrades/133637.article",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Russia-Ukraine tensions and Antonov's supply-chain problems slowed the An-32 upgrade."
+    },
+    {
+      "id": "src-ain-antonov",
+      "title": "Antonov Struggles To Complete Indian An-32 Upgrade",
+      "publisher": "Aviation International News",
+      "url": "https://www.ainonline.com/aviation-news/defense/2015-04-02/antonov-struggles-complete-indian-32-upgrade",
+      "published_date": "2015-04-02",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Antonov's difficulties completing the Indian An-32 RE upgrade after 2014–15."
+    },
+    {
+      "id": "src-antonov-wiki",
+      "title": "Antonov An-32",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Antonov_An-32",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Background on the An-32 and Antonov as design authority; Indian operator and upgrade context."
+    }
+  ],
+  "seo": {
+    "title": "Antonov State Enterprise — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Ukraine's state aircraft OEM and design authority for the IAF's An-32 fleet; the ~$400M An-32RE upgrade (2009) stalled after 2014–15 and the war, pushing India to indigenous overhaul.",
+    "canonical_path": "/research/military-aerospace/company/antonov/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/an32/",
+      "/research/military-aerospace/"
+    ]
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "entity_id": "mfg-017",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "hindustan-aeronautics-limited-hal-mfg-017",
+  "name": "Hindustan Aeronautics Limited",
+  "variant": "Maharatna PSU",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "India's flagship aerospace OEM; ₹2,54,538 crore order book end-FY26 (7-8 years visibility); Tejas Mk-1A (180 ordered, ₹62,370 cr Mar 2026), LCH Prachand (156), Dhruv ALH; F404 engine critical-path chokepoint with GE Aerospace.",
+    "chips": [
+      "PSU",
+      "Maharatna",
+      "Aircraft",
+      "Helicopters",
+      "Engines",
+      "Tejas",
+      "Dhruv",
+      "Prachand",
+      "AMCA"
+    ],
+    "maker": "PSU (Maharatna), under Ministry of Defence, Government of India",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Hindustan Aeronautics Limited",
+    "Ownership": "PSU (Maharatna), under Ministry of Defence, Government of India",
+    "HQ": "15/1, Cubbon Road, Bengaluru, Karnataka, India",
+    "Order_book": "₹2,54,538 crore as of 31 March 2026 (7-8 years revenue visibility)",
+    "Revenue_FY26": "₹33,050 crore standalone (+7% YoY); EBITDA ₹13,472 crore (~30% margin)",
+    "CIN": "L35302KA1963GOI000931",
+    "Stock_listings": "BSE: 541154, NSE: HAL",
+    "FY26_export_revenue": "₹501 crore (vs ₹400 cr FY25)",
+    "Q1_FY27_revenue": "₹5,533 crore (+25.3% YoY)",
+    "Q1_FY27_PAT": "₹1,048.33 crore (+8.2% YoY)",
+    "Major_orders": "180 LCA Tejas Mk-1A (Mar 2026 ₹62,370 cr); 156 LCH Prachand; 34 Dhruv ALH; 97 LCA Tejas Mk-1A (Sep 2025 ₹62,370 cr)",
+    "Critical_chokepoint": "F404-IN20 engine supply from GE Aerospace — only 6 of 99 engines delivered as of April 2026"
+  },
+  "what_it_is": {
+    "prose": "Hindustan Aeronautics Limited (HAL) is a Maharatna Category-I Public Sector Undertaking under the Ministry of Defence, Government of India, headquartered at 15/1, Cubbon Road, Bengaluru. Founded in 1963 (with roots back to 1940 as Hindustan Aircraft), HAL is India's flagship aerospace OEM and the prime contractor for the LCA Tejas fighter programme, the Dhruv Advanced Light Helicopter, the Light Combat Helicopter (LCH) Prachand, and the Sukhoi Su-30MKI license-build programme. As of 31 March 2026, HAL's order book stood at ₹2,54,538 crore — the largest in the company's history and approximately 7-8 years of revenue visibility, up from ₹1,89,000 crore at the start of FY26. The order book includes 180 LCA Tejas Mk-1A (ordered March 2026 for ₹62,370 crore), 156 LCH Prachand, 34 Dhruv ALH, and 97 LCA Tejas Mk-1A (ordered September 2025 for ₹62,370 crore). For FY26, HAL reported standalone revenue from operations of ₹33,050 crore (up 7% YoY from ₹30,981 crore in FY25) and EBITDA of ₹13,472 crore (approximately 30% margin, up 11% YoY). Q1 FY27 results showed continued momentum with revenue of ₹5,533 crore (up 25.3% YoY) and PAT of ₹1,048.33 crore (up 8.2% YoY). HAL's export revenue for FY26 was ₹501 crore (up from ₹400 crore in FY25), driven by Do-228 deliveries to Guyana and Mauritius. The single most critical programme risk is the GE Aerospace F404-IN20 engine supply chain for the Tejas Mk-1A: only 6 of 99 engines contracted in August 2021 had been delivered as of April 2026, with the chokepoint traced to a South Korean firm with financial issues. HAL has levied liquidated damages on GE Aerospace and an in-country F404 depot is being established with GE (announced April 2026). The Tejas Mk-2 will use the GE F414-INS6 engine, which saw a reported 3x price hike in June 2026, with Transfer of Technology for indigenous production not yet agreed.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7",
+      "src-8"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "HAL's order book at end-FY26 stood at ₹2,54,538 crore, including 180 LCA Tejas Mk-1A (ordered March 2026, ₹62,370 crore), 156 LCH Prachand, 34 Dhruv ALH, and 97 LCA Tejas Mk-1A (ordered September 2025, ₹62,370 crore). The Tejas Mk-1A programme is constrained by F404-IN20 engine supply from GE Aerospace — only 6 of 99 engines contracted August 2021 had been delivered by April 2026. HAL has levied liquidated damages on GE Aerospace and an in-country F404 depot is being established (announced April 2026). Q1 FY27 results showed revenue of ₹5,533 crore (up 25.3% YoY) and PAT of ₹1,048.33 crore (up 8.2% YoY).",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "First LCA Tejas Mk-1A contract (73 Mk1A + 10 Mk1 trainers)",
+        "year": 2021,
+        "quantity_or_note": "₹48,000 crore (3 February 2021)",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "agency": "HAL-GE Aerospace",
+        "context": "99 F404-IN20 engines + support contract",
+        "year": 2021,
+        "quantity_or_note": "₹5,375 crore (17 August 2021); delivery by 2029; only 6 delivered as of April 2026",
+        "sources": [
+          "src-6"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Second LCA Tejas Mk-1A contract (68 fighters + 29 trainers = 97)",
+        "year": 2025,
+        "quantity_or_note": "₹62,370 crore (25 September 2025)",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "HAL-GE Aerospace",
+        "context": "113 F404-IN20 engines + support contract",
+        "year": 2025,
+        "quantity_or_note": "₹8,870 crore (7 November 2025); delivery 2027-32",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "180 LCA Tejas Mk-1A order",
+        "year": 2026,
+        "quantity_or_note": "₹62,370 crore (March 2026)",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Air Force + Indian Army",
+        "context": "156 LCH Prachand order",
+        "year": null,
+        "quantity_or_note": "In order book end-FY26",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Air Force + Indian Army + Indian Navy + Coast Guard",
+        "context": "34 Dhruv ALH order",
+        "year": null,
+        "quantity_or_note": "In order book end-FY26",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "HAL-Astra Microwave",
+        "context": "122 Active Antenna Array Units + 121 Interface Frames for Uttam AESA",
+        "year": 2026,
+        "quantity_or_note": "₹2,205 crore (31 July 2026)",
+        "sources": []
+      }
+    ],
+    "open_questions": [
+      "HAL FY26 PAT exact figure not extracted from sources reviewed — annual report 2025-26 PDF on hal-india.co.in/investors/annual-report has the figure",
+      "HAL imposed damages on GE Aerospace — amount not publicly disclosed",
+      "HAL indigenisation % for Su-30MKI 'Super Sukhoi' upgrade not officially confirmed",
+      "AMCA first flight timeline (publicly expected 2028-29) not officially confirmed by HAL/ADA"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
+    "items": [
+      {
+        "component": "F404-IN20 engine (Tejas Mk-1A)",
+        "severity": "Critical",
+        "note": "GE Aerospace USA — only 6 of 99 engines delivered as of April 2026; HAL levying liquidated damages; F404 depot in India planned with GE (April 2026)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-6"
+        ]
+      },
+      {
+        "component": "F414-INS6 engine (Tejas Mk-2, AMCA Mk-1)",
+        "severity": "Critical",
+        "note": "GE Aerospace USA — 3x price hike reported (June 2026); ToT for indigenous production not yet agreed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-7"
+        ]
+      },
+      {
+        "component": "Shakti engine (Dhruv / Rudra / LCH)",
+        "severity": "High",
+        "note": "Safran (Turbomeca) France — license assembled by HAL; indigenous content ~50%",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "RD-33 series (MiG-29UPG)",
+        "severity": "High",
+        "note": "Klimov / Chernyshev / Salut Russia — license assembly by HAL",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "AL-31FP (Su-30MKI)",
+        "severity": "High",
+        "note": "Saturn / UEC Russia — license assembly by HAL Koraput division",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "AESA radar (Uttam) GaN T/R modules",
+        "severity": "Medium",
+        "note": "DRDO-developed but with imported GaN T/R modules — USA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "EW suite (D-29) for Tejas",
+        "severity": "Medium",
+        "note": "Israel (Elbit / IAI) components",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Composite materials, titanium forgings",
+        "severity": "Medium",
+        "note": "Import from USA / Japan / Russia",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "LCA, Dhruv, LCH, LUH indigenous design; Su-30MKI, MiG-29, Do-228 license",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Maharatna PSU; 21 manufacturing divisions across India",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "F404, F414, Shakti, RD-33, AL-31 engines all imported; EW suite imported",
+        "sources": [
+          "src-6",
+          "src-7"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "₹2,54,538 cr order book end-FY26 — largest in HAL history",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 3,
+        "note": "FY26 export ₹501 cr (Do-228 to Guyana, Mauritius); Tejas exports not yet achieved",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "tejas-mk1a-def-003"
+    ]
+  },
+  "open_questions": [
+    "HAL FY26 PAT exact figure not extracted from sources reviewed — annual report 2025-26 PDF on hal-india.co.in/investors/annual-report has the figure",
+    "HAL imposed damages on GE Aerospace — amount not publicly disclosed",
+    "HAL indigenisation % for Su-30MKI 'Super Sukhoi' upgrade not officially confirmed",
+    "AMCA first flight timeline (publicly expected 2028-29) not officially confirmed by HAL/ADA"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "HAL Secures Strong FY27 Outlook Backed By ₹2,54,538 Crore Order Book",
+      "publisher": "SAHI Markets",
+      "url": "https://www.sahi.com/news/hal-secures-strong-fy27-outlook-backed-by-2-54-538-crore-order-book-2811-PE1_COR",
+      "published_date": "2026-08-04",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "HAL FY26 order book ₹2,54,538 cr"
+    },
+    {
+      "id": "src-2",
+      "title": "HAL outlines major defence orders, production push",
+      "publisher": "Economic Times",
+      "url": "https://m.economictimes.com/news/defence/hindustan-aeronautics-ltd-hal-unveils-ambitious-military-aircraft-production-plans-180-tejas-mk-1a-156-prachand-helicopters-and-more/articleshow/129662418.cms",
+      "published_date": "2026-03-18",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "180 Tejas Mk-1A + 156 Prachand orders"
+    },
+    {
+      "id": "src-3",
+      "title": "HAL Annual Reports",
+      "publisher": "Hindustan Aeronautics Limited",
+      "url": "https://www.hal-india.co.in/investors/annual-report",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Annual reports archive"
+    },
+    {
+      "id": "src-4",
+      "title": "HAL Investors",
+      "publisher": "Hindustan Aeronautics Limited",
+      "url": "https://hal-india.co.in/investor",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Domain root only — HAL investor landing page; specific annual report deep-link preferred"
+    },
+    {
+      "id": "src-5",
+      "title": "LCA — HAL Tejas Mk1A product page",
+      "publisher": "Hindustan Aeronautics Limited",
+      "url": "https://hal-india.co.in/product/lca",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Tejas product page"
+    },
+    {
+      "id": "src-6",
+      "title": "India and GE Aerospace to build Tejas F404 engine depot",
+      "publisher": "Aerospace Global News",
+      "url": "https://aerospaceglobalnews.com/news/india-tejas-f404-engine0-ge-aerospace",
+      "published_date": "2026-04-14",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "F404 depot in India announcement"
+    },
+    {
+      "id": "src-7",
+      "title": "F414 Trap: After 3X Price Hike, Why Swapping U.S. GE Engines for India's Tejas Mk-2, AMCA Won't Be Easy",
+      "publisher": "Air Power Asia",
+      "url": "https://airpowerasia.com/2026/06/29/f414-trap-after-3x-price-hike-why-swapping-u-s-ge-engines-for-indias-tejas-mk-2-amca-wont-be-easy",
+      "published_date": "2026-06-29",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "F414 3x price hike report"
+    },
+    {
+      "id": "src-8",
+      "title": "Tejas Mk1A to Depend on Imported F404 Engines for Next 30 Years",
+      "publisher": "Defence.in",
+      "url": "https://defence.in/threads/tejas-mk1a-to-depend-on-imported-f404-engines-for-next-30-years-yet-why-is-india-not-pursuing-local-production.16849",
+      "published_date": "2026-02-09",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "F404 long-term dependency analysis"
+    }
+  ],
+  "seo": {
+    "title": "Hindustan Aeronautics Limited — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "India's flagship aerospace OEM; ₹2,54,538 crore order book end-FY26 (7-8 years visibility); Tejas Mk-1A (180 ordered, ₹62,370 cr Mar 2026), LCH Prachand (156), ",
+    "canonical_path": "/research/counter-uas/manufacturer/hindustan-aeronautics-limited-hal-mfg-017/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is HAL's order book and why is the F404 engine a critical chokepoint?",
+      "answer": "HAL's order book stood at ₹2,54,538 crore as of 31 March 2026 — the largest in the company's history and 7-8 years of revenue visibility. The order book includes 180 LCA Tejas Mk-1A (₹62,370 cr March 2026), 156 LCH Prachand, 34 Dhruv ALH, and 97 LCA Tejas Mk-1A (₹62,370 cr September 2025). However, the Tejas Mk-1A programme is constrained by GE Aerospace F404-IN20 engine supply: only 6 of 99 engines contracted in August 2021 had been delivered by April 2026, with the chokepoint traced to a South Korean firm with financial issues. HAL has levied liquidated damages on GE Aerospace and an in-country F404 depot is being established with GE (announced April 2026).",
+      "sources": [
+        "src-1",
+        "src-6"
+      ]
+    },
+    {
+      "question": "What is the F414 'price hike trap' for Tejas Mk-2 and AMCA?",
+      "answer": "The Tejas Mk-2 and AMCA Mk-1 will use the GE F414-INS6 engine (more powerful than the F404). In June 2026, Air Power Asia reported a 3x price hike on the F414, with Transfer of Technology for indigenous production not yet agreed between GE Aerospace and the Indian government. This creates a strategic risk: India's two flagship indigenous fighter programmes (Tejas Mk-2 and AMCA) will depend on a US-sourced engine with no clear path to sovereign production. The Kaveri engine programme (GTRE) has not yet produced a viable alternative.",
+      "sources": [
+        "src-7"
+      ]
+    },
+    {
+      "question": "What is HAL's role in the AMCA 5th-generation fighter programme?",
+      "answer": "HAL is the production partner for the Advanced Medium Combat Aircraft (AMCA), India's indigenous 5th-generation fighter programme led by the Aeronautical Development Agency (ADA) and DRDO. Phase-1 of the AMCA programme has been sanctioned for ₹15,000 crore, with first flight expected in 2028-29. The AMCA Mk-1 will use twin GE F414-INS6 engines (USA), the same engine planned for the Tejas Mk-2. HAL will be the final integrator, with private-sector airframe suppliers expected to participate.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1963",
+      "event": "HAL formed by merger of Hindustan Aircraft and Aeronautics India Limited",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2001",
+      "event": "LCA Tejas Mk-I Initial Operational Clearance (IOC)",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2016",
+      "event": "LCA Tejas Mk-I Final Operational Clearance (FOC)",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2021-02-03",
+      "event": "First LCA Tejas Mk-1A contract signed — 73 Mk1A + 10 Mk1 trainers for ₹48,000 crore",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2021-08-17",
+      "event": "HAL-GE Aerospace contract for 99 F404-IN20 engines (₹5,375 crore)",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "date": "2024-10-17",
+      "event": "First LCA Mk-1A flight from Nashik line (LA-5043)",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2025-09-25",
+      "event": "Second LCA Tejas Mk-1A contract signed — 97 aircraft for ₹62,370 crore",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026-03",
+      "event": "180 LCA Tejas Mk-1A order placed (₹62,370 crore) — total order book reaches ₹2,54,538 crore",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "event": "India-GE Aerospace F404 depot in India announced",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "date": "2026-06",
+      "event": "F414 3x price hike reported; ToT for indigenous production not agreed",
+      "sources": [
+        "src-7"
+      ]
+    }
+  ]
+}

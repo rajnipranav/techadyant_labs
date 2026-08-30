@@ -1,0 +1,192 @@
+{
+  "entity_id": "cus-007",
+  "entity_type": "system",
+  "tier": "B",
+  "noindex": false,
+  "slug": "garuda-anti-drone-system-cus-007",
+  "name": "Garuda Anti-Drone System",
+  "variant": "V1 (Atlas label) — 4-layer C-UAS in development",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-08-29",
+  "status": "Development",
+  "header": {
+    "one_liner": "Garuda Aerospace (Chennai, IPO-bound) 4-layer counter-drone system in development since Sep 2021; debuted at Aero India 2025; no confirmed MoD contract as of August 2026.",
+    "chips": [
+      "Soft kill",
+      "Hard kill",
+      "RF jammer",
+      "4-layer",
+      "In development"
+    ],
+    "maker": "Garuda Aerospace Limited, Chennai",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Vehicle-mounted / static variants",
+    "operational_domains": [
+      "land",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Garuda Aerospace Limited, Chennai",
+    "Status": "In development / Prototype (4-layer C-UAS announced Sep 2021)",
+    "Funding": "$49.5M raised over 9 rounds; IPO-bound (confidential DRHP filed with SEBI)",
+    "Brand_ambassador": "MS Dhoni",
+    "Aero_India_2025": "Debuted 8 drones incl. counter-drone products (Feb 2025)",
+    "Defence_Drone_Facility": "Inaugurated 22 August 2025 at Thalambur, Chennai (MoS Defence Sanjay Seth)",
+    "BEL_MoU": "MoU signed with BEL for indigenous UAS",
+    "MoD_contract": "None confirmed for C-UAS specifically"
+  },
+  "what_it_is": {
+    "prose": "The Garuda Anti-Drone System is a 4-layer counter-UAS platform under development by Garuda Aerospace Limited of Chennai since September 2021, when founder-CEO Agnishwar Jayaprakash announced the programme to Unmanned Airspace. Garuda Aerospace is primarily an unmanned aerial vehicle manufacturer (30+ drone types, focused on agriculture and surveillance) with MS Dhoni as brand ambassador. The company has raised $49.5 million across 9 funding rounds and has confidentially filed a Draft Red Herring Prospectus (DRHP) with SEBI for an IPO. At Aero India 2025 in February 2025, Garuda debuted 8 drones including counter-drone products. On 22 August 2025, MoS Defence Sanjay Seth inaugurated Garuda's Defence Drone Facility at Thalambur, Chennai, where the company launched 5 defence drones. A Memorandum of Understanding (MoU) has been signed with Bharat Electronics Limited (BEL) for indigenous UAS collaboration. However, no confirmed Ministry of Defence contract specifically for the C-UAS product has been publicly announced as of August 2026, and detailed system specifications (detection range, defeat mechanisms, effector types) have not been disclosed. The 'V1' label used in the Atlas is an editorial designation.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "No confirmed Ministry of Defence contract specifically for Garuda's C-UAS product has been publicly announced as of August 2026. The system is in development with prototype demonstrations at Aero India 2025 and the Defence Drone Facility inauguration in August 2025.",
+    "rows": [
+      {
+        "agency": "Bharat Electronics Limited (MoU partner)",
+        "context": "MoU signed for indigenous UAS collaboration",
+        "year": null,
+        "quantity_or_note": "MoU only; no procurement contract",
+        "sources": []
+      }
+    ],
+    "open_questions": [
+      "No public specs (range, sensors, effectors) for Garuda C-UAS",
+      "No public primary source confirms operational deployment",
+      "IPO timeline not publicly disclosed",
+      "Whether the BEL MoU has translated into a fielded product"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "Drone components",
+        "severity": "Medium",
+        "note": "Locally assembled; some Chinese parts alleged in Reddit discussions (unverified)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "FPGA / GaN RF",
+        "severity": "Medium",
+        "note": "Industry-typical; vendor not disclosed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "integrated-counter-drone-system-cus-001",
+      "zen-anti-drone-system-zads-cus-003",
+      "indrajaal-anti-drone-system-cus-005"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "Is Garuda Aerospace a counter-drone OEM or a drone maker?",
+      "answer": "Garuda Aerospace is primarily an unmanned aerial vehicle (UAV) manufacturer focused on agricultural and surveillance drones (30+ drone types), with counter-UAS as a secondary R&D programme announced in September 2021. The company is not yet a primary counter-drone OEM with a deployed product. As of August 2026, no confirmed Ministry of Defence contract specifically for Garuda's C-UAS product has been publicly announced.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "Is Garuda Aerospace listed on the stock exchange?",
+      "answer": "Not yet. Garuda Aerospace is IPO-bound and has confidentially filed a Draft Red Herring Prospectus (DRHP) with the Securities and Exchange Board of India (SEBI). The company has raised $49.5 million across 9 funding rounds, with the most recent round in April 2025 raising ₹100 crore. MS Dhoni is the brand ambassador. The IPO timeline has not been publicly disclosed.",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "question": "What was inaugurated at Thalambur in August 2025?",
+      "answer": "MoS Defence Sanjay Seth inaugurated Garuda Aerospace's Defence Drone Facility at Thalambur, Chennai on 22 August 2025. At the inauguration, Garuda launched 5 defence drones. The facility represents Garuda's expansion from agricultural drones into the defence sector, though specific counter-drone products fielded from the facility have not been publicly detailed.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "No public specs (range, sensors, effectors) for Garuda C-UAS",
+    "No public primary source confirms operational deployment",
+    "IPO timeline not publicly disclosed",
+    "Whether the BEL MoU has translated into a fielded product"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Garuda Aerospace is developing 4-layer counter drone system says company founder",
+      "publisher": "Unmanned Airspace",
+      "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/garuda-aerospace-is-developing-4-layer-counter-drone-system-says-company-founder",
+      "published_date": "2021-09-13",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Original 4-layer C-UAS announcement"
+    },
+    {
+      "id": "src-2",
+      "title": "Garuda Aerospace launches five defence drones in Chennai with MoS Defence Sanjay Seth",
+      "publisher": "Economic Times",
+      "url": "https://m.economictimes.com/news/defence/garuda-aerospace-unveils-five-indigenous-defence-drones-in-chennai-with-mos-defence-sanjay-seth-boosting-battlefield-and-rescue-capabilities/articleshow/123455911.cms",
+      "published_date": "2025-08-22",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Defence Drone Facility inauguration 22 Aug 2025"
+    },
+    {
+      "id": "src-3",
+      "title": "Garuda Aerospace new drones — DRONELIFE",
+      "publisher": "Dronelife",
+      "url": "https://dronelife.com/2025/02/06/garuda-aerospace-unveils-new-drones-and-strategic-partnerships-at-aero-india-2025",
+      "published_date": "2025-02-06",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Aero India 2025 counter-drone products"
+    },
+    {
+      "id": "src-4",
+      "title": "IPO-bound Garuda Aerospace raises Rs 100 crore",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-garuda-aerospace-raises-rs-100-crore/articleshow/120351668.cms",
+      "published_date": "2025-04-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Pre-IPO funding round; ₹100 cr raised April 2025"
+    }
+  ],
+  "seo": {
+    "title": "Garuda Anti-Drone System — System · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "Garuda Aerospace (Chennai, IPO-bound) 4-layer counter-drone system in development since Sep 2021; debuted at Aero India 2025; no confirmed MoD contract as of Au",
+    "canonical_path": "/research/counter-uas/system/garuda-anti-drone-system-cus-007/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/counter-uas/"
+    ]
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "entity_id": "def-011",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "rafale-india-def-011",
+  "name": "Dassault Rafale (India)",
+  "variant": "Rafale DH/EH (Indian Air Force)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "36 Dassault Rafale fighters in IAF service since 2020-2022; €7.8 billion contract (2016); deployed in Operation Sindoor May 2025; based at Ambala and Hasimara.",
+    "chips": [
+      "Fighter",
+      "4.5-gen",
+      "French",
+      "IAF",
+      "Dassault",
+      "Meteor",
+      "SCALP"
+    ],
+    "maker": "Dassault Aviation (France) — OEM; Hindustan Aeronautics Limited (HAL) — maintenance partner",
+    "country": "France / India (operator)",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Dassault Aviation (France)",
+    "Indian_maintenance_partner": "Hindustan Aeronautics Limited (HAL)",
+    "Quantity_India": "36 aircraft (28 single-seat EH + 8 twin-seat DH)",
+    "Contract_year": "2016 (signed 23 September 2016)",
+    "Contract_value": "€7.8 billion (~₹59,000 crore)",
+    "Delivery_period": "October 2019 to December 2022 (all 36 delivered)",
+    "Induction_complete": "All 36 in service by 2022",
+    "Bases": "No. 17 Squadron 'Golden Arrows' (Ambala, Western sector); No. 101 Squadron 'Falcons' (Hasimara, Eastern sector)",
+    "Armament": "Meteor BVRAAM, SCALP EG cruise missile, MICA, Hammer AASM, AM39 Exocet (naval), 30mm internal cannon",
+    "Engine": "2 × Snecma M88-2 (France)",
+    "Combat_debut": "Operation Sindoor (May 2025)"
+  },
+  "what_it_is": {
+    "prose": "The Dassault Rafale is a 4.5-generation French omnirole fighter operated by the Indian Air Force. India signed a €7.8 billion (~₹59,000 crore) contract with Dassault Aviation on 23 September 2016 for 36 Rafale fighters (28 single-seat EH and 8 twin-seat DH), after the earlier Medium Multi-Role Combat Aircraft (MMRCA) tender for 126 aircraft was cancelled. Deliveries began in October 2019 and were completed by December 2022. The 36 aircraft equip two IAF squadrons: No. 17 Squadron 'Golden Arrows' at Ambala Air Force Station (Western sector, facing Pakistan) and No. 101 Squadron 'Falcons' at Hasimara Air Force Station (Eastern sector, facing China). The Rafale is powered by two Snecma M88-2 turbofan engines (France) and is armed with a comprehensive weapons package including the Meteor Beyond Visual Range Air-to-Air Missile (BVRAAM, considered the most advanced in the world), the SCALP EG air-launched cruise missile (450+ km range), the MICA multi-mission AAM, the Hammer AASM precision-guided munition, the AM39 Exocet anti-ship missile (for naval variants), and a 30mm internal cannon. The Rafale made its combat debut for the IAF during Operation Sindoor in May 2025, where it was deployed alongside Su-30MKI, MiG-29UPG, and Tejas Mk-I aircraft. HAL is the designated maintenance partner for the Rafale in India, providing depot-level maintenance at a dedicated facility.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "India signed a €7.8 billion contract for 36 Rafale fighters on 23 September 2016. Deliveries began October 2019 and were completed by December 2022. The aircraft equip two IAF squadrons: No. 17 'Golden Arrows' at Ambala (Western sector) and No. 101 'Falcons' at Hasimara (Eastern sector). The Rafale made its combat debut during Operation Sindoor in May 2025.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "Contract signed with Dassault Aviation for 36 Rafale",
+        "year": 2016,
+        "quantity_or_note": "€7.8 billion (~₹59,000 crore) — 23 September 2016",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "First Rafale delivered to IAF",
+        "year": 2019,
+        "quantity_or_note": "October 2019 — first of 36",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Air Force / No. 17 Squadron 'Golden Arrows'",
+        "context": "First squadron operational at Ambala",
+        "year": 2020,
+        "quantity_or_note": "Ambala AFS — Western sector",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Air Force / No. 101 Squadron 'Falcons'",
+        "context": "Second squadron operational at Hasimara",
+        "year": 2021,
+        "quantity_or_note": "Hasimara AFS — Eastern sector",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "All 36 Rafale delivered",
+        "year": 2022,
+        "quantity_or_note": "December 2022 — delivery complete",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Operation Sindoor — Rafale combat debut",
+        "year": 2025,
+        "quantity_or_note": "May 2025 — deployed alongside Su-30MKI, MiG-29UPG, Tejas Mk-I",
+        "sources": [
+          "src-4"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Rafale Marine (Rafale M) bid for Indian Navy aircraft carrier (INS Vikrant) — competing with Boeing F/A-18EIn Super Hornet; outcome not yet announced",
+      "Option for additional 36 Rafale (discussed) — not exercised as of August 2026",
+      "Meteor BVRAAM integration on HAL Tejas Mk-1A — discussed but not confirmed",
+      "SCALP EG and Meteor missile inventory levels not publicly disclosed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "Rafale aircraft (complete)",
+        "severity": "Critical",
+        "note": "France (Dassault Aviation) — fully imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Snecma M88-2 engines",
+        "severity": "Critical",
+        "note": "France (Safran/Snecma)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Meteor BVRAAM",
+        "severity": "Critical",
+        "note": "MBDA (UK/Europe consortium)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "SCALP EG cruise missile",
+        "severity": "Critical",
+        "note": "MBDA France",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Spare parts and maintenance support",
+        "severity": "High",
+        "note": "France; HAL depot-level maintenance at dedicated facility",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 0,
+        "note": "France (Dassault) — fully imported",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 1,
+        "note": "HAL depot-level maintenance only; no Indian production",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 0,
+        "note": "All components French/European",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "36 aircraft in 2 squadrons; combat-proven in Op Sindoor",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 0,
+        "note": "Not applicable — Indian operator only",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "tejas-mk1a-def-003",
+      "c295-india-def-012"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Rafale Marine (Rafale M) bid for Indian Navy aircraft carrier (INS Vikrant) — competing with Boeing F/A-18EIn Super Hornet; outcome not yet announced",
+    "Option for additional 36 Rafale (discussed) — not exercised as of August 2026",
+    "Meteor BVRAAM integration on HAL Tejas Mk-1A — discussed but not confirmed",
+    "SCALP EG and Meteor missile inventory levels not publicly disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Dassault Rafale",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dassault_Rafale",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Rafale specifications and Indian contract"
+    },
+    {
+      "id": "src-2",
+      "title": "Rafale deal",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rafale_deal",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Indian Rafale contract details and controversy"
+    },
+    {
+      "id": "src-3",
+      "title": "Dassault Aviation — Rafale",
+      "publisher": "Dassault Aviation",
+      "url": "https://www.dassault-aviation.com/en/defense/rafale/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Dassault official Rafale product page"
+    },
+    {
+      "id": "src-4",
+      "title": "Operation Sindoor proved Akash and BrahMos missiles — Rajnath Singh",
+      "publisher": "India Sentinels",
+      "url": "https://www.indiasentinels.com/defence-ministry/operation-sindoor-proved-akash-and-brahmos-missiles-says-rajnath-singh-as-drdo-opens-advanced-weapon-system-complex-in-hyderabad-7437",
+      "published_date": "2026-06-12",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Rafale combat debut in Operation Sindoor"
+    },
+    {
+      "id": "src-5",
+      "title": "Rafale Aircraft Inducted into Indian Air Force",
+      "publisher": "Indian Air Force (Official)",
+      "url": "https://indianairforce.nic.in/showpage.php?pg_id=130",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "IAF official Rafale induction page — No. 17 Squadron 'Golden Arrows' Ambala; No. 101 Squadron 'Falcons' Hasimara"
+    }
+  ],
+  "seo": {
+    "title": "Dassault Rafale (India) — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "36 Dassault Rafale fighters in IAF service since 2020-2022; €7.8 billion contract (2016); deployed in Operation Sindoor May 2025; based at Ambala and Hasimara.",
+    "canonical_path": "/research/pillars/defence/entity/rafale-india-def-011/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/",
+    "submit_correction": "/research/pillars/defence/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why did India buy only 36 Rafale instead of the original 126 MMRCA?",
+      "answer": "The original Medium Multi-Role Combat Aircraft (MMRCA) tender for 126 aircraft was cancelled after protracted negotiations between Dassault and Hindustan Aeronautics Limited (HAL) over production and liability terms. In September 2016, the Indian government signed a direct government-to-government contract with France for 36 fly-away Rafale fighters (28 single-seat EH + 8 twin-seat DH) for €7.8 billion (~₹59,000 crore), citing urgent operational requirements. The deal was politically controversial but the aircraft have been delivered and are operational.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What weapons does the Indian Rafale carry?",
+      "answer": "The Indian Rafale is armed with a comprehensive weapons package including the Meteor Beyond Visual Range Air-to-Air Missile (BVRAAM, considered the most advanced in the world, manufactured by MBDA), the SCALP EG air-launched cruise missile (450+ km range, also MBDA France), the MICA multi-mission AAM, the Hammer AASM precision-guided munition, the AM39 Exocet anti-ship missile (for naval variants), and a 30mm internal cannon. The Meteor and SCALP integration gives the IAF a significant stand-off strike capability.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Will India buy more Rafale, or is there a naval Rafale bid?",
+      "answer": "Two follow-on possibilities exist: (1) an option for an additional 36 Rafale has been discussed but not exercised as of August 2026; and (2) the Rafale Marine (Rafale M) is competing with the Boeing F/A-18EIn Super Hornet for the Indian Navy's aircraft carrier fighter requirement (INS Vikrant). The naval Rafale M outcome has not been announced. The Meteor BVRAAM integration on the indigenous HAL Tejas Mk-1A has also been discussed but not confirmed.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ]
+}

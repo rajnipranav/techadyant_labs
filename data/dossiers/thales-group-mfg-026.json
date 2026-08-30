@@ -1,0 +1,324 @@
+{
+  "entity_id": "mfg-026",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "thales-group-mfg-026",
+  "name": "Thales S.A.",
+  "variant": "Foreign OEM with India footprint",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "French listed defence OEM (Euronext: HO); India footprint via BEL-Thales Systems Limited JV (74/26, incorporated Aug 2014) — joint development of Multi-Target Tracking Radar, PHAROS fire control radar, GM200 radar offering.",
+    "chips": [
+      "Listed",
+      "France",
+      "Euronext",
+      "BEL-Thales JV",
+      "GM200",
+      "PHAROS",
+      "RDY-3",
+      "C-295 avionics"
+    ],
+    "maker": "Private listed (Euronext Paris: HO)",
+    "country": "France",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign OEM — India footprint via JVs, ToT, and direct sales",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Thales S.A.",
+    "Ownership": "Private listed (Euronext Paris: HO)",
+    "HQ": "Courbevoie, France",
+    "Order_book": "Not separately disclosed for India",
+    "Revenue_FY26": "Not separately disclosed for India",
+    "BEL_Thales_JV": "BEL-Thales Systems Limited (BTSL) — incorporated 28 August 2014; BEL 74% / Thales 26%; registered office Bengaluru",
+    "BTSL_projects": "Multi-Target Tracking Radar (with Thales Netherlands); PHAROS fire control radar (announced March 2016)",
+    "GM200_radar": "Ground Master 200 medium-range 4D AESA radar — 250 km range; potential Akash-NG/QRSAM fire control radar offering",
+    "GM200_international_orders": "Romania 12 GM200 MM/A radars (Jul 2026); Dutch MoD 7 GM200 MM/C (Apr 2024)",
+    "HAL_partnership": "RDY-3 radar for Mirage 2000I/H upgrade",
+    "C_295_avionics": "Thales contributes to C-295 avionics"
+  },
+  "what_it_is": {
+    "prose": "Thales S.A. (Euronext Paris: HO) is a French listed defence OEM headquartered in Courbevoie. Thales has a long-standing India footprint anchored by the BEL-Thales Systems Limited (BTSL) joint venture — incorporated on 28 August 2014 with BEL holding 74% and Thales 26%, registered in Bengaluru. BTSL is jointly developing a Multi-Target Tracking Radar with Thales Netherlands for Indian weapon systems projects, and announced co-development of the PHAROS fire control radar (for gun and missile systems) in March 2016. The Thales Ground Master 200 (GM200) medium-range 4D AESA radar, with a 250 km range and combat-proven credentials, is a potential fire control radar offering for the Akash-NG and QRSAM programmes. Internationally, Romania ordered 12 GM200 MM/A radars in July 2026, and the Dutch MoD ordered 7 GM200 MM/C radars in April 2024. Thales also has a partnership with HAL on the RDY-3 radar for the Mirage 2000I/H upgrade programme (per AIN Online August 2012), and contributes avionics to the Airbus C-295 India programme.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Thales's India footprint is anchored by the BEL-Thales Systems Limited (BTSL) joint venture (incorporated 28 August 2014, BEL 74% / Thales 26%, Bengaluru). BTSL is co-developing the Multi-Target Tracking Radar and the PHAROS fire control radar. Thales offers the Ground Master 200 (GM200) medium-range 4D AESA radar (250 km range) for the Akash-NG/QRSAM fire control radar requirement. Thales also partnered with HAL on the RDY-3 radar for the Mirage 2000I/H upgrade and contributes avionics to the Airbus C-295 India programme.",
+    "rows": [
+      {
+        "agency": "BEL-Thales Systems Limited (JV)",
+        "context": "BTSL incorporated",
+        "year": 2014,
+        "quantity_or_note": "28 August 2014 — BEL 74% / Thales 26%, Bengaluru",
+        "sources": [
+          "src-1",
+          "src-6"
+        ]
+      },
+      {
+        "agency": "BTSL",
+        "context": "PHAROS fire control radar co-development announced",
+        "year": 2016,
+        "quantity_or_note": "29 March 2016",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "HAL",
+        "context": "RDY-3 radar for Mirage 2000I/H upgrade",
+        "year": 2012,
+        "quantity_or_note": "Partnership reported August 2012",
+        "sources": [
+          "src-6"
+        ]
+      }
+    ],
+    "open_questions": [
+      "GM200 India contract value/quantity not publicly confirmed",
+      "PHAROS radar current status (in trials/ordered?) not updated since 2016 announcement",
+      "Whether BTSL JV participates in Akash-NG or QRSAM fire control radar programmes"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Foreign OEM — not applicable (Indian import dependencies documented in respective system dossiers).",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Thales — original equipment designer for GM200, PHAROS, RDY-3",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership (India)",
+        "value": 4,
+        "note": "BTSL JV (Bengaluru) for MTR and PHAROS; BEL 74% / Thales 26%",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 0,
+        "note": "Foreign OEM — all components French/European-origin",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / India order book",
+        "value": 3,
+        "note": "BTSL JV with PHAROS + MTR contracts; GM200 India offering pending",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 5,
+        "note": "Thales is a major global defence exporter; GM200 sold to multiple countries",
+        "sources": [
+          "src-7"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "akash-ng-def-004",
+      "qrsam-def-005",
+      "c295-india-def-012"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the BEL-Thales joint venture?",
+      "answer": "BEL-Thales Systems Limited (BTSL) is a joint venture incorporated on 28 August 2014 between Bharat Electronics Limited (BEL, 74%) and Thales S.A. (26%), headquartered in Bengaluru. BTSL is jointly developing a Multi-Target Tracking Radar with Thales Netherlands for Indian weapon systems projects, and announced co-development of the PHAROS fire control radar (for gun and missile systems) in March 2016. The JV formation was first reported by AIN Online in August 2012.",
+      "sources": [
+        "src-1",
+        "src-3",
+        "src-6"
+      ]
+    },
+    {
+      "question": "Does Thales offer the Ground Master 200 radar to India?",
+      "answer": "Yes. The Thales Ground Master 200 (GM200) is a medium-range 4D AESA radar with 250 km range and combat-proven credentials, offered as a potential fire control radar for the Akash-NG and QRSAM programmes. Internationally, Romania ordered 12 GM200 MM/A radars in July 2026 and the Dutch MoD ordered 7 GM200 MM/C radars in April 2024. However, no confirmed India contract for the GM200 has been publicly announced as of August 2026.",
+      "sources": [
+        "src-4",
+        "src-5",
+        "src-7"
+      ]
+    },
+    {
+      "question": "What is Thales's role in the C-295 India programme?",
+      "answer": "Thales contributes avionics to the Airbus C-295 India programme (Atlas slug def-012). The C-295 programme is led by Airbus Defence and Space (Spain) with Tata Advanced Systems Limited (TASL) as the Indian final assembly partner at the Vadodara FAL. Thales is one of several avionics subsystem suppliers in the Airbus C-295 supply chain. The Thales contribution is not separately disclosed in INR value.",
+      "sources": [
+        "src-6"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2012-08-24",
+      "event": "BEL-Thales joint venture formation first reported (AIN Online)",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "date": "2014-08-28",
+      "event": "BEL-Thales Systems Limited (BTSL) incorporated — BEL 74% / Thales 26%",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2016-03-29",
+      "event": "PHAROS fire control radar co-development announced",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2024-04",
+      "event": "Dutch MoD orders 7 GM200 MM/C radars",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Romania orders 12 GM200 MM/A radars",
+      "sources": [
+        "src-7"
+      ]
+    }
+  ],
+  "open_questions": [
+    "GM200 India contract value/quantity not publicly confirmed",
+    "PHAROS radar current status (in trials/ordered?) not updated since 2016 announcement",
+    "Whether BTSL JV participates in Akash-NG or QRSAM fire control radar programmes"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "BEL-THALES Systems Limited",
+      "publisher": "BTSL (official)",
+      "url": "https://btsl-india.co.in",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "JV institutional page — domain root only"
+    },
+    {
+      "id": "src-2",
+      "title": "BEL-Thales Systems Limited",
+      "publisher": "BEL (official)",
+      "url": "https://bel-india.in/bel-thales-systems-limited",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Multi-Target Tracking Radar co-development"
+    },
+    {
+      "id": "src-3",
+      "title": "Thales and BEL-Thales Systems Limited to develop PHAROS fire control radar",
+      "publisher": "Thales (official)",
+      "url": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-and-bel-thales-systems-limited-develop-pharos-fire-control-radar",
+      "published_date": "2016-03-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PHAROS co-development"
+    },
+    {
+      "id": "src-4",
+      "title": "Ground Master 200",
+      "publisher": "Thales (official)",
+      "url": "https://www.thalesgroup.com/en/solutions-catalogue/defence/air/ground-master-200",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "GM200 product page"
+    },
+    {
+      "id": "src-5",
+      "title": "Ground Master 200 Multi Mission",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ground_Master_200_Multi_Mission",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "GM200 MM radar family"
+    },
+    {
+      "id": "src-6",
+      "title": "Thales, India's BEL To Form Joint Venture for Radars",
+      "publisher": "AIN Online",
+      "url": "https://www.ainonline.com/aviation-news/defense/2012-08-24/thales-indias-bel-form-joint-venture-radars",
+      "published_date": "2012-08-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Original JV formation context; RDY-3 radar Mirage 2000"
+    },
+    {
+      "id": "src-7",
+      "title": "Thales to Strengthen Romania's Airspace Protection With Twelve Ground Master 200 MMA Radars",
+      "publisher": "BusinessWire",
+      "url": "https://www.businesswire.com/news/home/20260724603527/en/Thales-to-Strengthen-Romanias-Airspace-Protection-With-Twelve-Ground-Master-200-MMA-Radars",
+      "published_date": "2026-07-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "GM200 MM/A combat-proven reference"
+    }
+  ],
+  "seo": {
+    "title": "Thales S.A. — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "French listed defence OEM (Euronext: HO); India footprint via BEL-Thales Systems Limited JV (74/26, incorporated Aug 2014) — joint development of Multi-Target T",
+    "canonical_path": "/research/counter-uas/manufacturer/thales-group-mfg-026/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

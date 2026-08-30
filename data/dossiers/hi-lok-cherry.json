@@ -1,0 +1,93 @@
+{
+  "entity_id": "hi-lok-cherry",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "hi-lok-cherry",
+  "name": "Hi-Lok / Cherry Aerospace Fastening Systems",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Aerospace fastener families — Hi-Lok pin systems (Howmet Aerospace, ex-Alcoa) and Cherry blind rivets — used as consumable structural fasteners across virtually all Western airframes. Generic component supply — Tier C.",
+    "chips": [
+      "Tier C",
+      "USA",
+      "Howmet Aerospace",
+      "Hi-Lok",
+      "Cherry rivets",
+      "Fasteners"
+    ],
+    "country": "United States",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign component/sub-system supplier — no standalone India footprint",
+    "mobility_or_class": "Component/sub-system supplier (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Hi_Lok": "Hi-Lok pin fastening systems — Howmet Aerospace (formerly Alcoa Fastening Systems)",
+    "Cherry_Aerospace": "Cherry blind rivets and installation tooling (Precision Castparts Corp lineage)",
+    "Product_lines": "Structural aerospace fasteners: Hi-Lok/Hi-Lite/Hi-Tigue pins, blind rivets, collars",
+    "Relevance": "Consumable structural fasteners used across essentially all Western airframes",
+    "Tier_C_reason": "Generic consumable hardware; no meaningful standalone India defence footprint"
+  },
+  "what_it_is": {
+    "prose": "This card groups aerospace structural-fastener families. Hi-Lok pin fastening systems are produced by Howmet Aerospace (the former Alcoa Fastening Systems), and Cherry blind rivets are a long-established aerospace fastener brand. These are consumable structural fasteners used across essentially every Western airframe, and they reach aircraft operated by India embedded in imported structures and repair supply chains. There is no meaningful standalone India defence footprint or discrete citable contract for these fastener brands, so this is recorded as an honest Tier C generic-component card.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Product Catalog: Hi-Lok Fastening System",
+      "publisher": "Howmet Aerospace (official)",
+      "url": "https://www.howmet.com/products/aerospace/pin-systems/hi-lok-fastening-system/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Hi-Lok pin fastening system product page"
+    },
+    {
+      "id": "src-2",
+      "title": "Pin Fastening Systems — Alloy Steel and Titanium Fasteners, Hi-Lok Pin Fasteners and More",
+      "publisher": "Howmet Aerospace (official)",
+      "url": "https://www.howmet.com/products/aerospace/pin-systems/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Aerospace pin fastening systems overview"
+    }
+  ],
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "seo": {
+    "title": "Hi-Lok / Cherry Aerospace Fastening Systems — Company · India Military Aerospace Atlas | Techadyant",
+    "canonical_path": "/research/military-aerospace/company/hi-lok-cherry/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ],
+    "meta_description": "Aerospace fastener families — Hi-Lok (Howmet) and Cherry rivets — generic consumable structural hardware with no standalone India defence footprint. Tier C."
+  }
+}

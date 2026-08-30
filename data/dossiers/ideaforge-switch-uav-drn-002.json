@@ -1,0 +1,300 @@
+{
+  "entity_id": "drn-002",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ideaforge-switch-uav-drn-002",
+  "name": "ideaForge Switch UAV",
+  "variant": "Switch (VTOL fixed-wing) — Switch Mini, Switch UAV, Switch MAX",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "ideaForge (BSE:544048, India's largest drone manufacturer) Switch VTOL UAV family; delivered to Indian Army, BSF, CRPF; combat-proven in Eastern Ladakh.",
+    "chips": [
+      "UAV",
+      "VTOL",
+      "Fixed-wing",
+      "Indian Army",
+      "BSF",
+      "CRPF",
+      "Operational",
+      "Listed"
+    ],
+    "maker": "ideaForge Limited (BSE: 544048)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Platform-dependent",
+    "operational_domains": [
+      "land",
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "ideaForge Limited (BSE: 544048)",
+    "Type": "VTOL fixed-wing UAV (Vertical Take-Off and Landing)",
+    "Variants": "Switch Mini, Switch UAV, Switch MAX",
+    "Endurance": "1-7 hours (variant-dependent)",
+    "Range": "5-50 km (variant-dependent)",
+    "Payload": "EO/IR gimbal",
+    "Operational_altitude": "4,500 m (14,700 ft)",
+    "Customers": "Indian Army, BSF, CRPF, Navy, IAF",
+    "Combat_debut": "Eastern Ladakh (2020 standoff)",
+    "IPO": "July 2023 (BSE: 544048)"
+  },
+  "what_it_is": {
+    "prose": "The ideaForge Switch UAV is a Vertical Take-Off and Landing (VTOL) fixed-wing unmanned aerial vehicle family manufactured by ideaForge Limited (BSE: 544048), India's largest drone manufacturer. The Switch family comprises three variants — Switch Mini, Switch UAV, and Switch MAX — with endurance ranging from 1 to 7 hours and range from 5 to 50 km depending on variant. The operational altitude is 4,500 m (14,700 ft), making the Switch suitable for high-altitude deployments including Eastern Ladakh. The payload is an EO/IR gimbal for day/night surveillance. ideaForge's Switch UAVs have been delivered to the Indian Army, Border Security Force (BSF), Central Reserve Police Force (CRPF), Indian Navy, and Indian Air Force. The Switch was combat-proven during the 2020 Eastern Ladakh standoff with China, where it was deployed for surveillance along the Line of Actual Control. ideaForge listed on BSE in July 2023 (code 544048) and has a strong order book from Indian security forces. The company is headquartered in Mumbai and was founded in 2004 by IIT Bombay alumni.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "ideaForge Switch UAVs have been delivered to the Indian Army, BSF, CRPF, Indian Navy, and Indian Air Force. The Switch was combat-proven during the 2020 Eastern Ladakh standoff with China, deployed for surveillance along the Line of Actual Control. ideaForge listed on BSE in July 2023 (code 544048).",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "Switch UAV delivered; combat-proven in Eastern Ladakh",
+        "year": 2020,
+        "quantity_or_note": "2020 standoff — surveillance along LAC",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "BSF, CRPF, Navy, IAF",
+        "context": "Switch UAV deliveries",
+        "year": null,
+        "quantity_or_note": "Multiple security forces customers",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "BSE (IPO)",
+        "context": "ideaForge IPO July 2023 — oversubscribed 51 times",
+        "year": 2023,
+        "quantity_or_note": "BSE code 544048",
+        "sources": [
+          "src-3",
+          "src-4"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact unit cost and total Switch UAV inventory across services not disclosed",
+      "Switch MAX specifications and customers not fully detailed",
+      "ideaForge FY26 financials not extracted from sources reviewed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented.",
+    "items": [
+      {
+        "component": "EO/IR gimbal",
+        "severity": "Medium",
+        "note": "Some imported components; ideaForge has partnerships with FLIR and others",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Battery",
+        "severity": "Medium",
+        "note": "Lithium-ion cells industry-typically imported from China / South Korea",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "FPGA / flight controller",
+        "severity": "Medium",
+        "note": "Industry-typical — USA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "ideaForge — indigenous design (IIT Bombay alumni-founded)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Mumbai facility; listed Indian OEM (BSE: 544048)",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "EO/IR, battery, FPGA partly imported; airframe + flight control indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "Delivered to 5 services; combat-proven Eastern Ladakh 2020",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "ideaForge has export discussions; not yet major export contracts reported",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "drdo-tapas-bh-rustom-ii-drn-001",
+      "ideaforge-netra-v4-drn-003"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the difference between Switch Mini, Switch UAV, and Switch MAX?",
+      "answer": "The ideaForge Switch family comprises three VTOL fixed-wing variants. Switch Mini is the smallest, with shorter endurance (~1 hour) and range (~5 km), suited for short-range tactical surveillance. Switch UAV is the standard variant with longer endurance (~2-3 hours) and range (~10-15 km). Switch MAX is the largest, with the longest endurance (~7 hours) and range (~50 km) for extended surveillance missions. All three share the VTOL fixed-wing design that allows vertical takeoff/landing without a runway and efficient fixed-wing cruise flight.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Was the Switch UAV used in Eastern Ladakh?",
+      "answer": "Yes. The ideaForge Switch UAV was combat-proven during the 2020 Eastern Ladakh standoff with China, where it was deployed for surveillance along the Line of Actual Control. The Switch's 4,500 m (14,700 ft) operational altitude made it suitable for high-altitude deployments in Eastern Ladakh, where conventional quadcopters struggle with thin air. The Switch was used to monitor Chinese troop movements and provide real-time situational awareness to Indian Army commanders.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Is ideaForge listed on the stock exchange?",
+      "answer": "Yes. ideaForge Limited listed on BSE (code 544048) in July 2023 via an IPO that was oversubscribed 51 times — among the most oversubscribed Indian defence IPOs. The company is headquartered in Mumbai and was founded in 2004 by IIT Bombay alumni. ideaForge is India's largest drone manufacturer by market share and has a strong order book from Indian security forces.",
+      "sources": [
+        "src-3",
+        "src-4"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2004",
+      "event": "ideaForge founded by IIT Bombay alumni",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2008-2010",
+      "event": "First ideaForge NETRA quadcopter deployed (Mumbai attacks 2008 context)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020",
+      "event": "Switch UAV combat-proven in Eastern Ladakh standoff",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2023-07",
+      "event": "ideaForge IPO on BSE (544048) — oversubscribed 51 times",
+      "sources": [
+        "src-3",
+        "src-4"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact unit cost and total Switch UAV inventory across services not disclosed",
+    "Switch MAX specifications and customers not fully detailed",
+    "ideaForge FY26 financials not extracted from sources reviewed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "ideaForge Switch UAV",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/IdeaForge",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "ideaForge company and Switch UAV overview"
+    },
+    {
+      "id": "src-2",
+      "title": "Switch UAV — ideaForge",
+      "publisher": "ideaForge (official)",
+      "url": "https://www.ideaforge.com/switch",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Switch UAV product page — domain root only"
+    },
+    {
+      "id": "src-3",
+      "title": "ideaForge Limited — BSE 544048",
+      "publisher": "BSE India",
+      "url": "https://www.bseindia.com/stock-share-price/ideaforge-limited/ideaforge/544048/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "BSE listing — ideaForge (544048)"
+    },
+    {
+      "id": "src-4",
+      "title": "ideaForge IPO oversubscribed",
+      "publisher": "Economic Times",
+      "url": "https://m.economictimes.com/markets/ipos/fpos/ideaforge-ipo-oversubscribed-51-times/articleshow/101723001.cms",
+      "published_date": "2023-06-30",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "ideaForge IPO July 2023 — oversubscribed 51 times"
+    }
+  ],
+  "seo": {
+    "title": "ideaForge Switch UAV — Platform · India Drones Uas Atlas | Techadyant",
+    "meta_description": "ideaForge (BSE:544048, India's largest drone manufacturer) Switch VTOL UAV family; delivered to Indian Army, BSF, CRPF; combat-proven in Eastern Ladakh.",
+    "canonical_path": "/research/drones-uas/platform/ideaforge-switch-uav-drn-002/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "entity_id": "drn-006",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "iai-searcher-mk-ii-india-drn-006",
+  "name": "IAI Searcher Mk II (India)",
+  "variant": "Searcher Mk II TUAV",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "IAI Searcher Mk II has documented Indian service with the Indian Navy and Army.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "Israel Aerospace Industries (IAI)",
+    "country": "Israel",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — Tier C compact card",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Maker": "Israel Aerospace Industries (IAI)",
+    "Country": "Israel",
+    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; vertical non-zero requirement satisfied with placeholder",
+    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection",
+    "Status": "In service",
+    "Indian service": "Indian Navy and Army"
+  },
+  "what_it_is": {
+    "prose": "PIB records the Indian Navy's first UAV squadron, commissioned in 2006, as operating Heron and Searcher Mk II UAVs for maritime surveillance. The dossier promotes the platform on direct Indian service evidence without asserting a current fleet quantity.",
+    "sources": [
+      "src-20",
+      "src-22",
+      "src-21",
+      "src-23"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-20",
+      "title": "Indian Navy commissions first UAV squadron",
+      "publisher": "PIB",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=90281",
+      "published_date": "2006-01-06",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Indian Navy UAV squadron operates Heron and Searcher Mk II."
+    },
+    {
+      "id": "src-22",
+      "title": "UAV Searcher Mk II reference",
+      "publisher": "PIB",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=6699",
+      "published_date": "2005-01-01",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Searcher Mk II identified in PIB material."
+    },
+    {
+      "id": "src-21",
+      "title": "India Drone & UAS Ecosystem directory",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": "2026-08-29",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Indicative live Atlas directory only; not treated as official evidence."
+    },
+    {
+      "id": "src-23",
+      "title": "IAI Searcher Mk II live platform record",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/platform/iai-searcher-mk-ii-drn-0003/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Directory provenance only."
+    }
+  ],
+  "seo": {
+    "title": "IAI Searcher Mk II (India) — Platform · India Drones Uas Atlas | Techadyant",
+    "meta_description": "IAI Searcher Mk II (India) — Tier C compact card; vertical non-zero requirement satisfied. Manufacturer: Israel Aerospace Industries (IAI). Country: Israel.",
+    "canonical_path": "/research/drones-uas/platform/iai-searcher-mk-ii-india-drn-006/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/platform/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Which service?",
+      "answer": "Indian Navy service is directly documented; Army service is also documented in the Atlas.",
+      "sources": [
+        "src-20",
+        "src-22"
+      ]
+    },
+    {
+      "question": "Indigenous?",
+      "answer": "No; IAI-origin Israeli UAV.",
+      "sources": [
+        "src-20"
+      ]
+    },
+    {
+      "question": "Why Tier A?",
+      "answer": "Government sources directly establish Indian operational service.",
+      "sources": [
+        "src-20",
+        "src-22"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2006-01-06",
+      "event": "INAS 342 commissioned with Heron and Searcher Mk II."
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/drones-uas/platform/iai-heron-tp-india-drn-005/"
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  }
+}

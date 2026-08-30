@@ -1,0 +1,78 @@
+{
+  "entity_id": "mfr-090",
+  "entity_type": "manufacturer",
+  "tier": "B",
+  "noindex": false,
+  "slug": "mfr-090",
+  "name": "DRDO DRL",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "DRDO DRL — drone manufacturer/supplier.",
+    "chips": [
+      "B",
+      "India-relevant"
+    ],
+    "maker": "DRDO DRL",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Name": "DRDO DRL",
+    "Type": "manufacturer",
+    "Evidence": "Initial placeholder; primary source verification pending."
+  },
+  "what_it_is": {
+    "prose": "DRDO DRL is recorded in the Drones-UAS atlas as a manufacturer/supplier identity. This dossier is a placeholder pending primary source deepening.",
+    "sources": []
+  },
+  "open_questions": [
+    "Primary source verification",
+    "India operational footprint"
+  ],
+  "sources": [
+    {
+      "id": "src-m1",
+      "title": "DRDO DRL",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Initial placeholder from live hub mapping."
+    }
+  ],
+  "seo": {
+    "title": "DRDO DRL — Manufacturer · India Drones-UAS Atlas | Techadyant",
+    "meta_description": "DRDO DRL manufacturer/supplier in the India Drones-UAS Atlas.",
+    "canonical_path": "/research/drones-uas/company/mfr-090/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/",
+    "submit_correction": "/research/drones-uas/company/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/company/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

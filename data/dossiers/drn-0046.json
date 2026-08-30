@@ -1,0 +1,78 @@
+{
+  "entity_id": "drn-0046",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "drn-0046",
+  "name": "Baykar Bayraktar TB2",
+  "variant": "Bayraktar TB2",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/platform/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Baykar Bayraktar TB2 — Operational status drone platform.",
+    "chips": [
+      "A",
+      "India-relevant"
+    ],
+    "maker": "See manufacturer dossier",
+    "country": "Mixed",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Name": "Baykar Bayraktar TB2",
+    "Status": "Operational",
+    "Variant": "Bayraktar TB2"
+  },
+  "what_it_is": {
+    "prose": "Turkish UCAV evaluated/used in region.",
+    "sources": []
+  },
+  "open_questions": [
+    "Primary India service source",
+    "Manufacturer verification"
+  ],
+  "sources": [
+    {
+      "id": "src-p1",
+      "title": "Baykar Bayraktar TB2",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/drones-uas/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Initial placeholder from live hub mapping."
+    }
+  ],
+  "seo": {
+    "title": "Baykar Bayraktar TB2 — Platform · India Drones-UAS Atlas | Techadyant",
+    "meta_description": "Baykar Bayraktar TB2 platform dossier in the India Drones-UAS Atlas.",
+    "canonical_path": "/research/drones-uas/platform/drn-0046/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/platform/",
+    "submit_correction": "/research/drones-uas/platform/submit-correction/",
+    "related_research": [
+      "/research/drones-uas/platform/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

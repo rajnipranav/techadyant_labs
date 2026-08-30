@@ -1,0 +1,340 @@
+{
+  "entity_id": "thales",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "thales",
+  "name": "Thales S.A.",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "French listed defence-electronics OEM (Euronext: HO) with a deep India military-aerospace footprint: Rafale mission electronics (RBE2 AESA radar, SPECTRA EW, TALIOS/FSO optronics) with BEL manufacturing T/R modules under Make-in-India ToT, plus the BEL-Thales and Thales-Reliance joint ventures.",
+    "chips": [
+      "Tier A",
+      "Listed",
+      "France",
+      "Euronext: HO",
+      "Rafale RBE2",
+      "SPECTRA EW",
+      "BEL-Thales JV",
+      "Thales-Reliance JV"
+    ],
+    "maker": "Private listed (Euronext Paris: HO)",
+    "country": "France",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign OEM — India footprint via JVs, Make-in-India ToT, and direct mission-electronics supply",
+    "mobility_or_class": "Defence-electronics OEM (no platform class)",
+    "operational_domains": [
+      "air",
+      "land",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Thales S.A.",
+    "Ownership": "Private listed (Euronext Paris: HO)",
+    "HQ": "Courbevoie, France",
+    "Rafale_role": "RBE2 AESA radar, SPECTRA electronic-warfare suite, Front Sector Optronics (FSO), TALIOS targeting pod — Thales content ~25% of Rafale value",
+    "Make_in_India": "BEL manufactures RBE2 T/R modules under 2017 ToT — 7,000th module delivered Feb 2025; BEL also producing SPECTRA microwave modules",
+    "BEL_Thales_JV": "BEL-Thales Systems Limited (BTSL) — incorporated 28 Aug 2014; BEL 74% / Thales 26%; Bengaluru; radars (MTR, PHAROS)",
+    "Thales_Reliance_JV": "Thales-Reliance Defence JV announced 21 Jun 2017 (Thales 49% / Reliance 51%) at Mihan-Nagpur SEZ — radar & EW sensors, airborne electronics",
+    "Order_book_India": "Not separately disclosed"
+  },
+  "what_it_is": {
+    "prose": "Thales S.A. (Euronext Paris: HO) is a French listed defence-electronics OEM headquartered in Courbevoie. In the Indian military-aerospace context, Thales's most significant footprint is on the Dassault Rafale: Thales supplies the RBE2 active-electronically-scanned-array (AESA) radar, the SPECTRA internal electronic-warfare and self-protection suite, Front Sector Optronics (FSO), the TALIOS targeting pod and cockpit displays — collectively about 25% of the aircraft's value. Under a 2017 transfer-of-technology arrangement tied to the Rafale offset, Bharat Electronics Limited (BEL) manufactures the transmit/receive (T/R) modules for the RBE2 radar front end in India; the first BEL-built front end was delivered in November 2020 and the 7,000th T/R module in February 2025, with BEL also beginning production of microwave modules for the SPECTRA EW suite. Thales's India presence is further anchored by two joint ventures: BEL-Thales Systems Limited (BTSL, incorporated 28 August 2014, BEL 74% / Thales 26%, Bengaluru) co-developing radars including the Multi-Target Tracking Radar and PHAROS fire-control radar; and the Thales-Reliance Defence joint venture announced on 21 June 2017 (Thales 49% / Reliance 51%) at the Mihan-Nagpur SEZ for radar and EW sensors, microwave technologies and high-performance airborne electronics. Thales also contributes avionics to the Airbus C-295 India programme.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Thales's India military-aerospace footprint centres on the Rafale (36 IAF aircraft; 26 Rafale Marine ordered 2025), for which it supplies the RBE2 AESA radar, SPECTRA EW suite and optronics, with BEL now building the radar T/R modules in India under ToT. Two joint ventures — BEL-Thales Systems Limited (2014, Bengaluru) and Thales-Reliance Defence (2017, Nagpur) — localise radar, EW and airborne-electronics work. Thales also contributes avionics to the Airbus C-295 programme.",
+    "rows": [
+      {
+        "agency": "Indian Air Force / Indian Navy (Rafale, Rafale-M)",
+        "context": "RBE2 AESA radar, SPECTRA EW suite, FSO/TALIOS optronics; BEL builds RBE2 T/R modules under ToT",
+        "year": 2020,
+        "quantity_or_note": "36 IAF Rafale delivered; 26 Rafale Marine ordered 2025; 7,000th BEL T/R module Feb 2025",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      },
+      {
+        "agency": "BEL-Thales Systems Limited (JV)",
+        "context": "Radar co-development — Multi-Target Tracking Radar, PHAROS fire-control radar",
+        "year": 2014,
+        "quantity_or_note": "BEL 74% / Thales 26%, Bengaluru (incorporated 28 Aug 2014)",
+        "sources": [
+          "src-4",
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Thales-Reliance Defence (JV)",
+        "context": "Radar & EW sensors, microwave technologies, airborne electronics at Mihan-Nagpur SEZ",
+        "year": 2017,
+        "quantity_or_note": "Thales 49% / Reliance 51% (announced 21 Jun 2017)",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Value/quantity of BEL RBE2 and SPECTRA module ToT contracts not publicly disclosed",
+      "Current operational status of the Thales-Reliance Nagpur JV output not independently confirmed",
+      "Extent of Thales avionics content in the C-295 India programme not separately quantified"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Foreign OEM — Thales is itself an import source for Indian platforms; India-side dependency is being reduced on the Rafale via BEL localisation of RBE2 and SPECTRA modules under ToT. Detailed platform dependencies are documented in the respective platform dossiers.",
+    "items": [
+      {
+        "component": "Rafale RBE2 AESA radar & SPECTRA EW suite",
+        "severity": "High",
+        "note": "French-origin mission electronics; India localisation limited to BEL-built T/R and microwave modules under ToT",
+        "sources": [
+          "src-2",
+          "src-3"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Thales — original designer of RBE2, SPECTRA, TALIOS, GM-series radars",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership (India)",
+        "value": 4,
+        "note": "BEL builds RBE2/SPECTRA modules under ToT; BEL-Thales and Thales-Reliance JVs localise radar/EW",
+        "sources": [
+          "src-3",
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "Core radar/EW IP remains French; India localisation at module level only",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / India order book",
+        "value": 4,
+        "note": "Rafale fleet mission electronics plus two active JVs",
+        "sources": [
+          "src-2",
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 5,
+        "note": "Major global defence-electronics exporter",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "rafale-india-def-011",
+      "c295-india-def-012"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is Thales's role on the Rafale in Indian service?",
+      "answer": "Thales supplies roughly a quarter of the Rafale's value in mission electronics: the RBE2 active-electronically-scanned-array (AESA) radar, the SPECTRA internal electronic-warfare and self-protection suite, Front Sector Optronics (FSO), the TALIOS targeting pod and cockpit displays. Under a transfer-of-technology arrangement, Bharat Electronics Limited (BEL) manufactures the RBE2 radar's transmit/receive modules in India — the 7,000th module was delivered in February 2025.",
+      "sources": [
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "question": "What Thales joint ventures operate in India?",
+      "answer": "Two principal ones. BEL-Thales Systems Limited (BTSL) was incorporated on 28 August 2014 (BEL 74% / Thales 26%, Bengaluru) to co-develop radars including the Multi-Target Tracking Radar and the PHAROS fire-control radar. Separately, a Thales-Reliance Defence joint venture (Thales 49% / Reliance 51%) was announced on 21 June 2017 at the Mihan-Nagpur SEZ for radar and electronic-warfare sensors, microwave technologies and high-performance airborne electronics.",
+      "sources": [
+        "src-1",
+        "src-4",
+        "src-6"
+      ]
+    },
+    {
+      "question": "Is the Rafale's SPECTRA electronic-warfare suite being made in India?",
+      "answer": "The SPECTRA self-protection suite is a Thales design. As of 2025, BEL had begun manufacturing microwave modules for SPECTRA in India, extending the Make-in-India localisation that started with the RBE2 radar's T/R modules. The core SPECTRA electronic-warfare intellectual property remains with Thales.",
+      "sources": [
+        "src-3",
+        "src-7"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2012-08-24",
+      "event": "BEL-Thales radar joint venture formation first reported (AIN Online)",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "date": "2014-08-28",
+      "event": "BEL-Thales Systems Limited (BTSL) incorporated — BEL 74% / Thales 26%",
+      "sources": [
+        "src-4"
+      ]
+    },
+    {
+      "date": "2016-03-29",
+      "event": "PHAROS fire-control radar co-development announced",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2017-06-21",
+      "event": "Thales-Reliance Defence JV announced (Mihan-Nagpur) — radar, EW, airborne electronics",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020-11",
+      "event": "First BEL-built RBE2 AESA radar front end delivered to Thales",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2025-02-13",
+      "event": "BEL delivers 7,000th RBE2 T/R module to Thales (Make in India)",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Value/quantity of BEL RBE2 and SPECTRA module ToT contracts not publicly disclosed",
+    "Current operational status of the Thales-Reliance Nagpur JV output not independently confirmed",
+    "Extent of Thales avionics content in the C-295 India programme not separately quantified"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Thales and Reliance Defence Limited to form Joint Venture",
+      "publisher": "Thales (official)",
+      "url": "https://www.thalesgroup.com/en/worldwide/defence/press-release/thales-and-reliance-defence-limited-form-joint-venture",
+      "published_date": "2017-06-21",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Thales 49% / Reliance 51% JV at Mihan-Nagpur SEZ for radar & EW sensors, microwave & airborne electronics"
+    },
+    {
+      "id": "src-2",
+      "title": "Thales on board the Dassault Aviation Rafale",
+      "publisher": "Thales (official)",
+      "url": "https://www.thalesgroup.com/en/solutions-catalogue/defence/air/thales-board-dassault-aviation-rafale",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "RBE2 AESA radar, SPECTRA EW, FSO, TALIOS pod, SCORPION HMD — ~25% of platform value"
+    },
+    {
+      "id": "src-3",
+      "title": "Make in India: BEL delivers 7,000th transmit/receive module to Thales for Rafale RBE2 Radar",
+      "publisher": "ASD News",
+      "url": "https://www.asdnews.com/news/defense/2025/02/13/make-india-bel-delivers-7000th-transmitreceive-module-thales-rafale-rbe2-radar",
+      "published_date": "2025-02-13",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "ToT from 2017; first BEL front-end RBE2 delivered Nov 2020; BEL also making SPECTRA microwave modules"
+    },
+    {
+      "id": "src-4",
+      "title": "BEL-Thales Systems Limited",
+      "publisher": "BEL (official)",
+      "url": "https://bel-india.in/bel-thales-systems-limited",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "BEL-Thales JV — Multi-Target Tracking Radar co-development"
+    },
+    {
+      "id": "src-5",
+      "title": "Thales and BEL-Thales Systems Limited to develop PHAROS fire control radar",
+      "publisher": "Thales (official)",
+      "url": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-and-bel-thales-systems-limited-develop-pharos-fire-control-radar",
+      "published_date": "2016-03-29",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "PHAROS fire control radar co-development"
+    },
+    {
+      "id": "src-6",
+      "title": "Thales, India's BEL To Form Joint Venture for Radars",
+      "publisher": "AIN Online",
+      "url": "https://www.ainonline.com/aviation-news/defense/2012-08-24/thales-indias-bel-form-joint-venture-radars",
+      "published_date": "2012-08-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Original BEL-Thales JV context; RDY-3 radar for Mirage 2000 upgrade"
+    },
+    {
+      "id": "src-7",
+      "title": "Thales Spectra",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thales_Spectra",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "SPECTRA self-protection EW suite for Rafale"
+    }
+  ],
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "seo": {
+    "title": "Thales S.A. — Company · India Military Aerospace Atlas | Techadyant",
+    "canonical_path": "/research/military-aerospace/company/thales/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "meta_description": "French listed defence-electronics OEM (Euronext: HO) supplying the Rafale's RBE2 AESA radar, SPECTRA EW suite and optronics, with BEL building radar modules in India."
+  }
+}

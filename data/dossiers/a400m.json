@@ -1,0 +1,89 @@
+{
+  "entity_id": "a400m",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "a400m",
+  "name": "Airbus A400M Atlas",
+  "variant": "A400M Atlas",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/platform/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "European four-turboprop strategic/tactical airlifter with NO Indian service footprint; it was a nominal contender in the IAF's Medium Transport Aircraft tender but is widely reported to have fallen out of contention on size (37 t) and cost grounds.",
+    "chips": [
+      "C",
+      "No India footprint",
+      "Airbus",
+      "MTA — reportedly out",
+      "Foreign platform"
+    ],
+    "maker": "Airbus Defence and Space (Europe)",
+    "country": "Europe (Airbus — Spain/Germany/France/UK)",
+    "indigenous_pct": null,
+    "indigenous_label": "Not in Indian service; no Indian production or partner",
+    "mobility_or_class": "Four-turboprop heavy/tactical airlifter (~37 t payload)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Airbus Defence and Space (Europe)",
+    "Country": "Europe (multinational Airbus programme)",
+    "India_status": "NOT in Indian service; no order, no Indian industrial partner",
+    "Tier_C_reason": "No India footprint. Only India relevance is as a nominal MTA contender now reportedly out of contention on size/cost.",
+    "Payload": "~37 tonnes",
+    "Unit_cost": "~$200–220 million (reported)",
+    "MTA_relevance": "Oversized vs the 18–30 t MTA requirement; C-390 and C-130J-30 are the front-runners",
+    "Engine": "Four Europrop TP400-D6 turboprops",
+    "Current_operators": "France, Germany, UK, Spain, Turkey, Malaysia and others"
+  },
+  "what_it_is": {
+    "prose": "The Airbus A400M Atlas is a European four-engine turboprop strategic/tactical airlifter (roughly 37-tonne payload, powered by four Europrop TP400-D6 engines) operated by several NATO and other air forces. It is NOT in Indian service, has no Indian order and no Indian industrial partner. Its only India relevance is as a nominal contender in the Indian Air Force's Medium Transport Aircraft (MTA) programme; however, it is widely reported to have effectively fallen out of contention because its ~37-tonne capacity is substantially larger than the MTA's 18–30-tonne requirement and its acquisition and lifecycle costs are seen as prohibitive — 'multiple medium transports could be acquired for the price of a single Atlas.' The front-runners in that competition are the Embraer C-390 (with Mahindra) and the Lockheed Martin C-130J-30 (with Tata). This dossier is deliberately a short Tier C stub: it documents the absence of an A400M India footprint honestly rather than inferring one.",
+    "sources": [
+      "src-airdata-a400m",
+      "src-agn-mta"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-airdata-a400m",
+      "title": "Airbus A400M seen losing ground in India's MTA competition over size and cost concerns",
+      "publisher": "Air Data News",
+      "url": "https://www.airdatanews.com/airbus-a400-m-seen-losing-ground-in-indias-mta-competition-over-size-and-cost-concerns/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Confirms A400M is NOT in Indian service; ~37 t payload and ~$200–220M unit cost deemed oversized/too costly for the 18–30 t MTA; C-390 and C-130J are front-runners."
+    },
+    {
+      "id": "src-agn-mta",
+      "title": "India Issues RFP for $10.5bn Air Force transport jet competition",
+      "publisher": "Aerospace Global News",
+      "url": "https://aerospaceglobalnews.com/news/india-mta-rfp-transport-aircraft-contest/",
+      "published_date": "2026-08",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "MTA RFP 12 Aug 2026; notes A400M 'unlikely to proceed' as its 37 t payload is substantially larger than the specified category."
+    }
+  ],
+  "seo": {
+    "title": "Airbus A400M Atlas — Platform · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Airbus A400M Atlas has no Indian service footprint; a nominal MTA-tender contender reportedly out of contention on size (37 t) and cost. Tier C stub.",
+    "canonical_path": "/research/military-aerospace/platform/a400m/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/platform/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/military-aerospace/platform/"
+    ]
+  }
+}

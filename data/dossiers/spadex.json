@@ -1,0 +1,119 @@
+{
+  "entity_id": "spadex",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "spadex",
+  "name": "SpaDeX (Space Docking Experiment)",
+  "variant": "SpaDeX",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "SpaDeX is ISRO’s in-orbit rendezvous and docking experiment launched in December 2024.",
+    "chips": [
+      "A",
+      "India-relevant",
+      "Operational"
+    ],
+    "maker": "Indian Space Research Organisation (ISRO)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": [
+      "space"
+    ]
+  },
+  "at_a_glance": {
+    "Maker": "Indian Space Research Organisation (ISRO)",
+    "Country": "India",
+    "Status": "Operational",
+    "Launch_date": "2024-12-30",
+    "Launcher": "PSLV-CA C60"
+  },
+  "what_it_is": {
+    "prose": "SpaDeX consists of two 220 kg satellites demonstrating autonomous rendezvous and docking, electrical power transfer, and composite control. It is a precursor for Chandrayaan-4, Gaganyaan, and Bharatiya Antariksh Station missions.",
+    "sources": [
+      "src-spadex-1"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-spadex-1",
+      "title": "SPADEX mission overview",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/SPADEX.html",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Mission overview and docking objectives."
+    },
+    {
+      "id": "src-spadex-2",
+      "title": "Launch Missions",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/LaunchMissions.html",
+      "published_date": "2026-07-31",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Current ISRO mission list."
+    }
+  ],
+  "seo": {
+    "title": "SpaDeX (Space Docking Experiment) — Platform · India Space Atlas | Techadyant",
+    "meta_description": "SpaDeX is ISRO’s in-orbit rendezvous and docking experiment launched in December 2024.",
+    "canonical_path": "/research/space/entity/spadex/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/entity/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is SpaDeX?",
+      "answer": "An in-orbit rendezvous and docking experiment.",
+      "sources": [
+        "src-spadex-1"
+      ]
+    },
+    {
+      "question": "Launch date?",
+      "answer": "30 December 2024.",
+      "sources": [
+        "src-spadex-2"
+      ]
+    },
+    {
+      "question": "Why important?",
+      "answer": "Precursor for Chandrayaan-4, Gaganyaan, and BAS.",
+      "sources": [
+        "src-spadex-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2024-12-30",
+      "event": "PSLV-CA C60 / SpaDeX launch.",
+      "sources": [
+        "src-spadex-2"
+      ]
+    }
+  ],
+  "graph": {
+    "peer_systems": [
+      "/research/space/entity/pslv/"
+    ]
+  }
+}

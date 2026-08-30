@@ -1,0 +1,340 @@
+{
+  "entity_id": "atl-cmp-mishra-dhatu-nigam-limited",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "mishra-dhatu-nigam-limited",
+  "name": "Mishra Dhatu Nigam Limited (MIDHANI)",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/mishra-dhatu-nigam-limited/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "MIDHANI is India's DPSU for special metals and superalloys, manufacturing nickel-based superalloys, titanium alloys, special-purpose steels (incl. DMR-249A defence-grade naval steel for INS Arihant cl",
+    "chips": [
+      "defence",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Hyderabad (Kanchanbagh), Telangana, India",
+    "Type": "Company (listed)",
+    "Founded": "1973 (incorporated; production commenced 1982); established under Ministry of Defence",
+    "India entity": null,
+    "Listed": "NSE: MIDHANI | BSE: 541195 (IPO March 2018); Miniratna Category-I CPSE",
+    "Key India role": "MIDHANI is India's DPSU for special metals and superalloys, manufacturing nickel-based superalloys, titanium alloys, special-purpose steels (incl. DMR-249A defence-grade naval steel for INS Arihant cl"
+  },
+  "what_it_is": {
+    "prose": "MIDHANI is India's DPSU for special metals and superalloys, manufacturing nickel-based superalloys, titanium alloys, special-purpose steels (incl. DMR-249A defence-grade naval steel for INS Arihant class nuclear submarines), soft-magnetic alloys, and refractory metal alloys. These feed India's strategic sectors — aerospace (HAL Tejas, ISRO launchers, GTRE Kaveri engine), defence (naval vessels, armour), nuclear, and space. MIDHANI supplied superalloys for the indigenous Kaveri aero-engine programme (single-crystal alloy capable of withstanding 1,400-1,500 °C), the GE-F414 turbofan (for LCA Tejas Mk2), and large titanium rings (≥2,250 mm) for aerospace applications. MIDHANI secured a ₹600 Cr superalloy supply contract with HAL (2024) strengthening indigenous aerospace. DMRL (DRDO) is the upstream R&D lab; MIDHANI is the production scale-up agency.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "4 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Superalloys (nickel / cobalt-based) for aero-engines",
+        "role": "OEM",
+        "india_status": "Developed 3 advanced nickel-based superalloys exclusively for aero-engine applications. Single-crystal alloy capable of withstanding 1,400-1,500 °C for Kaveri engine. Supplies superalloys for GE-F414 (Tejas Mk2). S130/S132/S80 round bars and 5,260 kg of materials supplied to GTRE",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "DMR-249A defence-grade naval steel",
+        "role": "OEM",
+        "india_status": "Used in indigenously built Anti-Submarine Warfare (ASW) vessels and Arihant-class nuclear submarines; sub-zero toughness, combat-grade",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Titanium alloys / large forged rings",
+        "role": "OEM",
+        "india_status": "First-ever Titan 31 Eli large size rings of above 2,250 mm manufactured in-house; titanium alloys for ISRO launchers and HAL airframes",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "₹600 Cr HAL superalloy supply contract",
+        "role": "OEM",
+        "india_status": "MIDHANI secured ₹600 Cr superalloy supply contract with HAL to support India's indigenous aerospace programmes",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "3 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "HAL (aerospace)",
+        "context": "₹600 Cr superalloy supply contract",
+        "year": "2024",
+        "quantity_or_note": "₹600 Cr supply",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Navy (Arihant-class SSBN + ASW vessels)",
+        "context": "DMR-249A defence-grade steel used in nuclear submarine hulls and ASW vessels",
+        "year": "ongoing",
+        "quantity_or_note": "Multiple vessels",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "DRDO GTRE (Kaveri engine)",
+        "context": "Superalloys (S130/S132/S80 round bars + 5,260 kg) for Kaveri/Kaveri Derivative Engine",
+        "year": "ongoing",
+        "quantity_or_note": "Multiple lots",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "8 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "Medium",
+        "note": "1 official, 3 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was MIDHANI founded and where is it headquartered?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is MIDHANI's stock ticker on NSE?",
+      "answer": "See the dossier sources above for details.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which special steel does MIDHANI produce for the Arihant-class nuclear submarines?",
+      "answer": "DMR-249A defence-grade naval steel for INS Arihant class nuclear submarines), soft-magnetic alloys, and refractory metal alloys.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What superalloy did MIDHANI develop for the Kaveri engine programme?",
+      "answer": "MIDHANI supplied superalloys for the indigenous Kaveri aero-engine programme (single-crystal alloy capable of withstanding 1,400-1,500 °C), the GE-F414 turbofan (for LCA Tejas Mk2), and large titanium rings (≥2,250 mm) for aerospace applications.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the value of MIDHANI's superalloy supply contract with HAL?",
+      "answer": "MIDHANI secured a ₹600 Cr superalloy supply contract with HAL (2024) strengthening indigenous aerospace.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://midhani-india.in",
+      "publisher": "MIDHANI Official",
+      "url": "https://midhani-india.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://midhani-india.in/midhani_categories/special-products",
+      "publisher": "MIDHANI",
+      "url": "https://midhani-india.in/midhani_categories/special-products",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://en.wikipedia.org/wiki/Mishra_Dhatu_Nigam",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mishra_Dhatu_Nigam",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://www.screener.in/company/MIDHANI",
+      "publisher": "Screener.in",
+      "url": "https://www.screener.in/company/MIDHANI",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://idrw.org/kaveri-engine-derivative-kde-project-highlights-continued-reliance-on-imports",
+      "publisher": "IDRW",
+      "url": "https://idrw.org/kaveri-engine-derivative-kde-project-highlights-continued-reliance-on-imports",
+      "published_date": "Jun 12, 2025",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.indiandefensenews.in/2024/01/midhani-providing-special-material.html",
+      "publisher": "Indian Defence News",
+      "url": "https://www.indiandefensenews.in/2024/01/midhani-providing-special-material.html",
+      "published_date": "Jan 25, 2024",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://defence.in/threads/despite-midhanis-success-kaveri-engine-still-relies-on-key-imported-alloys-hindering-true-self-reliance-goal.14581",
+      "publisher": "defence.in",
+      "url": "https://defence.in/threads/despite-midhanis-success-kaveri-engine-still-relies-on-key-imported-alloys-hindering-true-self-reliance-goal.14581",
+      "published_date": "Jun 19, 2025",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://www.linkedin.com/posts/anaadiprofessor_mishra-dhatu-nigam-has-secured-a-600-cr-activity-7352940864345706498-Vawt",
+      "publisher": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/anaadiprofessor_mishra-dhatu-nigam-has-secured-a-600-cr-activity-7352940864345706498-Vawt",
+      "published_date": "2024",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Mishra Dhatu Nigam Limited (MIDHANI) — Company · India Defence Atlas | Techadyant",
+    "meta_description": "Mishra Dhatu Nigam Limited (MIDHANI) company dossier: India defence role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/pillars/defence/entity/mishra-dhatu-nigam-limited/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/mishra-dhatu-nigam-limited/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

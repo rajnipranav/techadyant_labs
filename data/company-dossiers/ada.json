@@ -1,0 +1,227 @@
+{
+  "entity_id": "atl-cmp-ada",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "ada",
+  "name": "Aeronautical Development Agency (ADA)",
+  "variant": null,
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/ada/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "DRDO society — lead designer of LCA Tejas Mk1/Mk1A/Mk2 and AMCA 5th-gen fighter.",
+    "chips": [
+      "military-aerospace",
+      "india-r-and-d",
+      "fighter-aircraft"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": [
+      "Air"
+    ]
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India",
+    "Type": "Government society (MoD) — aircraft design",
+    "Founded": "1984",
+    "India entity": "ADA, Bengaluru (under DRDO, MoD)",
+    "Listed": "Not applicable (government society)",
+    "Key India role": "ADA is the society under DRDO responsible for the design and development of India's Light Combat Aircraft (LCA) programme. ADA is the lead design organisation for the Tejas Mk1, Mk1A, and Mk2, and the"
+  },
+  "what_it_is": {
+    "prose": "ADA is the society under DRDO responsible for the design and development of India's Light Combat Aircraft (LCA) programme. ADA is the lead design organisation for the Tejas Mk1, Mk1A, and Mk2, and the Advanced Medium Combat Aircraft (AMCA) 5th-gen fighter. HAL is the production partner. ADA's design work includes airframe, avionics integration, and flight control system development for the Tejas family. The AMCA programme received Cabinet Committee on Security approval in March 2024 for prototype development.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "3 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "LCA Tejas Mk1 / Mk1A",
+        "role": "OEM (design)",
+        "india_status": "In IAF service; HAL production",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "LCA Tejas Mk2",
+        "role": "OEM (design)",
+        "india_status": "In development",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "AMCA (5th-gen fighter)",
+        "role": "OEM (design)",
+        "india_status": "CCS approval Mar 2024; prototype phase",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "2 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "LCA Tejas Mk1 inducted (No. 45 Squadron)",
+        "year": "2016",
+        "quantity_or_note": "2 squadrons (40 aircraft)",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "agency": "Cabinet Committee on Security",
+        "context": "AMCA prototype approval",
+        "year": "2024-03-08",
+        "quantity_or_note": "₹15,000 Cr prototype phase",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ],
+    "open_questions": [
+      "When will the first AMCA prototype fly?",
+      "What is the IAF's planned AMCA squadron strength?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Limited",
+        "note": "3 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "None%",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What is ADA's main programme?",
+      "answer": "ADA is the lead design organisation for the LCA Tejas family (Mk1, Mk1A, Mk2) and the AMCA 5th-gen fighter. HAL is the production partner.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "When did the AMCA programme get approval?",
+      "answer": "The Cabinet Committee on Security approved the AMCA prototype development phase on 8 March 2024, with a sanction of approximately ₹15,000 crore.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "When will the first AMCA prototype fly?",
+    "What is the IAF's planned AMCA squadron strength?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "ADA — official site",
+      "publisher": "ADA",
+      "url": "https://www.ada.gov.in/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "ADA official website [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    },
+    {
+      "id": "src-02",
+      "title": "LCA Tejas — ADA product page",
+      "publisher": "ADA",
+      "url": "https://www.ada.gov.in/lca.htm",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "ADA LCA Tejas product page"
+    },
+    {
+      "id": "src-03",
+      "title": "AMCA CCS approval — The Hindu",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/cabinet-clears-rs-15000-crore-for-amca-fighter-project/article67898765.ece",
+      "published_date": "2024-03-08",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Coverage of CCS approval for AMCA"
+    }
+  ],
+  "seo": {
+    "title": "Aeronautical Development Agency (ADA) — Company · India Military Aerospace Atlas | Techadyant",
+    "meta_description": "Aeronautical Development Agency (ADA) company dossier: India military-aerospace role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/military-aerospace/ada/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/ada/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

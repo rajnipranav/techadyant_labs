@@ -1,0 +1,337 @@
+{
+  "entity_id": "atl-cmp-antrix",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "antrix",
+  "name": "Antrix Corporation Limited",
+  "variant": null,
+  "vertical": "space",
+  "parent_hub_path": "/research/space/antrix/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Antrix is the original commercial arm of ISRO, incorporated in 1992 to market ISRO launch services, satellite transponder capacity, remote-sensing imagery, and mission-support services to internationa",
+    "chips": [
+      "space",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Bengaluru, Karnataka, India (ISRO HQ campus)",
+    "Type": "Company (listed)",
+    "Founded": "September 1992 (incorporated as the commercial and marketing arm of ISRO)",
+    "India entity": null,
+    "Listed": "Not listed — wholly owned Government of India CPSE under Department of Space",
+    "Key India role": "Antrix is the original commercial arm of ISRO, incorporated in 1992 to market ISRO launch services, satellite transponder capacity, remote-sensing imagery, and mission-support services to internationa"
+  },
+  "what_it_is": {
+    "prose": "Antrix is the original commercial arm of ISRO, incorporated in 1992 to market ISRO launch services, satellite transponder capacity, remote-sensing imagery, and mission-support services to international customers. It has enabled launches for satellites belonging to multiple countries (Israel TecSAR, Algeria AlSat, European SPOT series, etc.) and earned ~₹1,790 Cr revenue in 2015-16 through launch of commercial satellites and data products. From 2019 onward, Antrix's commercial launch-services mandate has been progressively transferred to NewSpace India Limited (NSIL), the new DOS PSU. Antrix is best known internationally for the Devas-Antrix S-band controversy: a fraudulent 2005 agreement to lease S-band spectrum to Devas Multimedia, annulled by Government of India in 2011; ICC arbitration (2015) ordered Antrix to pay $562.5M+interest to Devas (later set aside by Supreme Court of India in 2022 on grounds of fraud; upheld by US Supreme Court Jun 2025).",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "2 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "PSLV / GSLV commercial launch services",
+        "role": "OEM",
+        "india_status": "Antrix has provided commercial launch services since 1999 for customer satellites (Israeli TecSAR, European SPOT, etc.); 319 customer satellites from 33 countries launched onboard PSLV by Jun 2019 through Antrix. Most commercial launch mandate transferred to NSIL post-2019",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Satellite transponder lease & remote-sensing imagery",
+        "role": "OEM",
+        "india_status": "Antrix leases ISRO communication-satellite transponders to private/DTH/VSAT operators and sells IRS remote-sensing imagery (~$20-25M annual revenue historically)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "2 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "International customers (multiple)",
+        "context": "Commercial launch services — 319 customer satellites from 33 countries launched onboard PSLV (through Antrix, by Jun 2019). Revenue ~₹1,790 Cr in 2015-16",
+        "year": "1999-2019",
+        "quantity_or_note": "319 satellites / 33 countries",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Devas Multimedia (controversial; annulled)",
+        "context": "Antrix-Devas S-band agreement (Jan 2005); annulled by GoI Feb 2011 on grounds of fraud. ICC arbitration 2015 awarded Devas $562.5M+interest. India Supreme Court (Jan 17, 2022) set aside award citing fraud and ordered Devas winding up. US Supreme Court (Jun 5, 2025) upheld Indian SC judgment",
+        "year": "2005-2025",
+        "quantity_or_note": "n/a (annulled contract)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "11 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "6 official, 4 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Antrix Corporation incorporated?",
+      "answer": "Antrix is the original commercial arm of ISRO, incorporated in 1992 to market ISRO launch services, satellite transponder capacity, remote-sensing imagery, and mission-support services to international customers.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the relationship between Antrix and NSIL?",
+      "answer": "From 2019 onward, Antrix's commercial launch-services mandate has been progressively transferred to NewSpace India Limited (NSIL), the new DOS PSU.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What was the Devas-Antrix deal and how was it resolved?",
+      "answer": "Antrix is best known internationally for the Devas-Antrix S-band controversy: a fraudulent 2005 agreement to lease S-band spectrum to Devas Multimedia, annulled by Government of India in 2011; ICC arbitration (2015) ordered Antrix to pay $562.5M+interest to Devas (later set aside by Supreme Court of India in 2022 on grounds of fraud; upheld by US Supreme Court Jun 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "How many international satellites has Antrix launched onboard PSLV?",
+      "answer": "Antrix is the original commercial arm of ISRO, incorporated in 1992 to market ISRO launch services, satellite transponder capacity, remote-sensing imagery, and mission-support services to international customers.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What did the Supreme Court of India rule in the Devas v. Antrix case in January 2022?",
+      "answer": "Antrix is best known internationally for the Devas-Antrix S-band controversy: a fraudulent 2005 agreement to lease S-band spectrum to Devas Multimedia, annulled by Government of India in 2011; ICC arbitration (2015) ordered Antrix to pay $562.5M+interest to Devas (later set aside by Supreme Court of India in 2022 on grounds of fraud; upheld by US Supreme Court Jun 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://www.antrix.co.in",
+      "publisher": "Antrix Official",
+      "url": "https://www.antrix.co.in",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "https://www.antrix.co.in/launch-service",
+      "publisher": "Antrix",
+      "url": "https://www.antrix.co.in/launch-service",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.antrix.co.in/company-profile",
+      "publisher": "Antrix",
+      "url": "https://www.antrix.co.in/company-profile",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "https://www.isro.gov.in/ANTRIX.html",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/ANTRIX.html",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "https://en.wikipedia.org/wiki/Antrix_Corporation",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Antrix_Corporation",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=175312",
+      "publisher": "PIB India",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=175312",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "https://jusmundi.com/fr/document/decision/en-devas-multimedia-private-limited-v-antrix-corporation-limited-judgment-of-the-supreme-court-of-india-monday-17th-january-2022",
+      "publisher": "Jus Mundi",
+      "url": "https://jusmundi.com/fr/document/decision/en-devas-multimedia-private-limited-v-antrix-corporation-limited-judgment-of-the-supreme-court-of-india-monday-17th-january-2022",
+      "published_date": "Jan 17, 2022",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "https://supreme.justia.com/cases/federal/us/605/23-1201",
+      "publisher": "Justia (US Supreme Court)",
+      "url": "https://supreme.justia.com/cases/federal/us/605/23-1201",
+      "published_date": "Jun 5, 2025",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "https://nujs.edu/casl/devas-antrix-deal-when-will-the-ghosts-of-fraud-be-exorcised-from-the-aviation-sector",
+      "publisher": "NUJS Kolkata",
+      "url": "https://nujs.edu/casl/devas-antrix-deal-when-will-the-ghosts-of-fraud-be-exorcised-from-the-aviation-sector",
+      "published_date": "Mar 18, 2022",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.deccanchronicle.com/business/companies/270916/antrix-corporation-has-orders-worth-rs-280-crore-to-launch-commercial-satellites.html",
+      "publisher": "Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/business/companies/270916/antrix-corporation-has-orders-worth-rs-280-crore-to-launch-commercial-satellites.html",
+      "published_date": "Sep 27, 2016",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "https://www.thehindu.com/business/Industry/Antrix%E2%80%99s-major-revenues-will-come-from-satcom-business/article16723417.ece",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/business/Industry/Antrix%E2%80%99s-major-revenues-will-come-from-satcom-business/article16723417.ece",
+      "published_date": "Nov 29, 2016",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Antrix Corporation Limited — Company · India Space Atlas | Techadyant",
+    "meta_description": "Antrix Corporation Limited company dossier: India space role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/space/antrix/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/antrix/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

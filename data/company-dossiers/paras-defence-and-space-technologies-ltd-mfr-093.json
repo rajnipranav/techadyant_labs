@@ -1,0 +1,485 @@
+{
+  "entity_id": "atl-cmp-paras-defence-and-space-technologies-ltd-mfr-093",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "paras-defence-and-space-technologies-ltd-mfr-093",
+  "name": "Paras Defence and Space Technologies Ltd",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/paras-defence-and-space-technologies-ltd-mfr-093/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Paras Defence and Space Technologies Ltd is a Mumbai-based Indian private-sector defence and space engineering company, founded in 1979. It is a progressive Tier-2 defence engineering company in India",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Mumbai, Maharashtra, India (corporate office); Paras Anti-Drone Technologies Pvt Ltd subsidiary at Navi Mumbai – 400706, Maharashtra",
+    "Type": "Manufacturer (listed)",
+    "Founded": "1979 (founded as a small engineering set-up; some sources cite 1972 for Paras Group origination); listed Oct 2021",
+    "India entity": null,
+    "Listed": "Listed — NSE:PARAS / BSE:543367 (IPO listing date 1 October 2021; issue price ₹165-175 per share; listed at ₹498.75 — listing gain 171.43%)",
+    "Key India role": "Paras Defence and Space Technologies Ltd is a Mumbai-based Indian private-sector defence and space engineering company, founded in 1979. It is a progressive Tier-2 defence engineering company in India"
+  },
+  "what_it_is": {
+    "prose": "Paras Defence and Space Technologies Ltd is a Mumbai-based Indian private-sector defence and space engineering company, founded in 1979. It is a progressive Tier-2 defence engineering company in India delivering state-of-the-art optronics and space solutions. Paras is the exclusive optics supplier to the Indian Space Research Organisation (ISRO) and supplies high-precision defence and space optics for India's strategic programmes including ISRO, DRDO and the Indian Armed Forces. Product portfolio: defence and space optics, defence electronics, EMP (electromagnetic pulse) shielding solutions, heavy engineering, and turnkey projects. Subsidiary Paras Anti-Drone Technologies Pvt Ltd (Navi Mumbai) develops counter-UAS technology — products include Manpack Drone Detector with Handheld Drone Jammer, integrated anti-drone systems with drone jammers. Recent contracts: ₹46.19 crore anti-drone system contract (drone jammers); Powerus Guardian-1 high-speed counter-drone system — exclusive India manufacturing rights (partnership with US-based Powerus, July 2026); partnership with France-based CERBAIR for counter-UAV technology (July 2025). Paras is also in the process of offering turnkey laser-based air defence solutions against hostile drones and aerial targets.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "7 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Defence and Space Optics",
+        "role": "OEM",
+        "india_status": "high-precision optics for ISRO, DRDO and Indian Armed Forces; exclusive optics supplier to ISRO",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Defence Electronics",
+        "role": "OEM",
+        "india_status": "including EMP (electromagnetic pulse) shielding solutions",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Heavy Engineering systems and turnkey projects",
+        "role": "OEM",
+        "india_status": "",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Paras Anti-Drone Technologies",
+        "role": "OEM",
+        "india_status": "Manpack Drone Detector with Handheld Drone Jammer; integrated anti-drone systems with drone jammers",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Powerus Guardian-1",
+        "role": "OEM",
+        "india_status": "high-speed counter-drone system (exclusive India manufacturing rights via partnership with US-based Powerus, July 2026)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Laser-based Air Defence Solution",
+        "role": "OEM",
+        "india_status": "turnkey solution against hostile drones and aerial targets (in development)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "Counter-UAV technology",
+        "role": "OEM",
+        "india_status": "partnership with France-based CERBAIR (July 2025)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "6 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Multiple",
+        "context": "Paras Defence listed on NSE and BSE on 1 October 2021 — issue price ₹165-175 per share; listed at ₹498.75 (171.43% listing gain)",
+        "year": "2021",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Paras Defence won ₹46.19 crore contract for supplying anti-drone systems including drone jammers",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Paras Defence secured exclusive India manufacturing rights for Powerus Guardian-1 high-speed counter-drone system (2 July 2026)",
+        "year": "2026",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Paras Anti-Drone Technologies to supply counter-UAV technology to France-based CERBAIR (2 July 2025)",
+        "year": "2025",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Paras Defence is the exclusive optics supplier to ISRO for India's strategic programmes",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Multiple",
+        "context": "Paras Defence developed integrated Manpack Drone Detector with Handheld Drone Jammer",
+        "year": "",
+        "quantity_or_note": "",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "15 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "5 official, 6 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "When was Paras Defence and Space Technologies founded?",
+      "answer": "Paras Defence and Space Technologies Ltd is a Mumbai-based Indian private-sector defence and space engineering company, founded in 1979.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "When did Paras Defence IPO list on NSE and BSE?",
+      "answer": "Paras Defence and Space Technologies Ltd is a Mumbai-based Indian private-sector defence and space engineering company, founded in 1979.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "On which stock exchanges is Paras Defence listed?",
+      "answer": "Paras Defence and Space Technologies Ltd is a Mumbai-based Indian private-sector defence and space engineering company, founded in 1979.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which Indian company is the exclusive optics supplier to ISRO?",
+      "answer": "Paras is the exclusive optics supplier to the Indian Space Research Organisation (ISRO) and supplies high-precision defence and space optics for India's strategic programmes including ISRO, DRDO and the Indian Armed Forces.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is the name of Paras Defence's anti-drone subsidiary?",
+      "answer": "Subsidiary Paras Anti-Drone Technologies Pvt Ltd (Navi Mumbai) develops counter-UAS technology — products include Manpack Drone Detector with Handheld Drone Jammer, integrated anti-drone systems with drone jammers.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which US counter-drone system does Paras Defence have exclusive India manufacturing rights for?",
+      "answer": "Recent contracts: ₹46.19 crore anti-drone system contract (drone jammers); Powerus Guardian-1 high-speed counter-drone system — exclusive India manufacturing rights (partnership with US-based Powerus, July 2026); partnership with France-based CERBAIR for counter-UAV technology (July 2025).",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Paras Defence — leading Indian defence & space engineering company offering optronics, defence electronics and heavy engineering systems",
+      "publisher": "Paras Defence Official",
+      "url": "https://parasdefence.com",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "Domain root only; demoted to indicative per Atlas source-quality rule."
+    },
+    {
+      "id": "src-02",
+      "title": "Paras Defence — progressive Tier 2 defence engineering company in India delivering state-of-the-art optronics and space solutions",
+      "publisher": "Paras Defence Official",
+      "url": "https://parasdefence.com/about",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-03",
+      "title": "Paras Defence specialises in high-precision Defence and Space Optics for India's strategic programmes including ISRO, DRDO and Indian Armed Forces",
+      "publisher": "Paras Defence Official",
+      "url": "https://parasdefence.com/products-3",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-04",
+      "title": "Paras Anti-Drone Technologies Pvt Ltd subsidiary at Navi Mumbai – 400706, Maharashtra",
+      "publisher": "Paras Defence Official",
+      "url": "https://parasdefence.com/subsidiaries",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-05",
+      "title": "Paras Defence and Space Technologies Ltd — NSE:PARAS; Listing date 01-Oct-2021",
+      "publisher": "NSE Official",
+      "url": "https://www.nseindia.com/get-quotes/equity?symbol=PARAS",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "Paras Defence IPO — Listing date 1 Oct 2021; price range ₹165-175; lot size 85 shares (₹14,875)",
+      "publisher": "Zerodha",
+      "url": "https://zerodha.com/ipo/305670/paras-defence-and-space-technologies-limited",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-07",
+      "title": "Paras Defence listed on BSE/NSE at ₹498.75 on 1st October 2021",
+      "publisher": "IPO Platform",
+      "url": "https://www.ipoplatform.com/ipo/performance-report/paras-defence-and-space-technologies-ipo/3120",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-08",
+      "title": "Paras Defence IPO offered at ₹175; listed at ₹475 — listing gain of 171.43%",
+      "publisher": "Investorgain",
+      "url": "https://www.investorgain.com/ipo/paras-defence-and-space-technologies-ipo/142",
+      "published_date": "",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-09",
+      "title": "Paras Defence — Founded 1972; Specialties include Turnkey Projects, Heavy Engineering, EMP Solutions, Defence Electronics, Defence & Space Optics",
+      "publisher": "LinkedIn",
+      "url": "https://in.linkedin.com/company/paras-defence",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-10",
+      "title": "Mumbai-based Paras Defence founded in 1979 as a small engineering set-up (24 Jan 2026)",
+      "publisher": "Business India",
+      "url": "https://businessindia.co/magazine/corporate-report/paras-poised-to-shape-the-future-of-defence",
+      "published_date": "2026-01-24",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-11",
+      "title": "Paras Defence is the exclusive optics supplier to ISRO (10 April 2024)",
+      "publisher": "CNBC TV18",
+      "url": "https://www.cnbctv18.com/business/companies/paras-defence-space-technologies-share-price-revenue-growth-margin-guidance-earnings-outlook-19394715.htm",
+      "published_date": "2024-04-10",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-12",
+      "title": "Paras Defence won ₹46.19 crore contract for supplying anti-drone systems including drone jammers",
+      "publisher": "ScanX",
+      "url": "https://scanx.trade/stock-news/paras-defence-space-technolo-ltd",
+      "published_date": "",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-13",
+      "title": "Paras Defence partnered with US-based Powerus to exclusively manufacture Guardian-1 high-speed counter-drone system (2 July 2026)",
+      "publisher": "Raksha Anirveda",
+      "url": "https://raksha-anirveda.com/paras-defence-secure-exclusive-rights-for-advanced-us-counter-drone-system/",
+      "published_date": "2026-07-02",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-14",
+      "title": "Paras Anti Drone Technologies to supply counter-UAV technology to France-based CERBAIR (2 July 2025)",
+      "publisher": "Defence.in",
+      "url": "https://defence.in/threads/paras-anti-drone-tech-to-supply-counter-unmanned-aerial-vehicle-technology-to-french-firm.14751",
+      "published_date": "2025-07-02",
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": null
+    },
+    {
+      "id": "src-15",
+      "title": "Paras is in process to offer turnkey Laser based Air Defence Solution against hostile drones and aerial targets",
+      "publisher": "Paras Defence Investor Presentation 2026",
+      "url": "https://parasdefence.com/uploads/presentation/1779278288_paras-defence-investor-presentation-2026.pdf",
+      "published_date": "",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": null
+    }
+  ],
+  "seo": {
+    "title": "Paras Defence and Space Technologies Ltd — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Paras Defence and Space Technologies Ltd company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/paras-defence-and-space-technologies-ltd-mfr-093/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/paras-defence-and-space-technologies-ltd-mfr-093/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

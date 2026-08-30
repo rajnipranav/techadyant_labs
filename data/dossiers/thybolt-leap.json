@@ -1,0 +1,60 @@
+{
+  "entity_id": "thybolt-leap",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "thybolt-leap",
+  "name": "Thybolt LEAP",
+  "variant": "Thybolt LEAP",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/entity/",
+  "last_verified": "2026-08-30",
+  "status": "Development",
+  "header": {
+    "one_liner": "Thybolt LEAP is a small-satellite platform; live India evidence not yet identified for this dossier.",
+    "chips": [
+      "C",
+      "Limited evidence"
+    ],
+    "maker": "Unknown",
+    "country": "Unknown",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Tier_C_reason": "No verifiable India service record or primary official source confirmed.",
+    "Atlas_register_status": "Placeholder stub pending evidence"
+  },
+  "what_it_is": {
+    "prose": "This entry is a Tier C placeholder pending verifiable evidence of India relevance, operational use, or primary sourcing.",
+    "sources": []
+  },
+  "open_questions": [
+    "India relevance",
+    "Operational status",
+    "Primary source"
+  ],
+  "sources": [],
+  "seo": {
+    "title": "Thybolt LEAP — Platform · India Space Atlas | Techadyant",
+    "meta_description": "Thybolt LEAP placeholder stub; India relevance not yet verified.",
+    "canonical_path": "/research/space/entity/thybolt-leap/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/entity/",
+    "submit_correction": "/research/space/entity/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {}
+}

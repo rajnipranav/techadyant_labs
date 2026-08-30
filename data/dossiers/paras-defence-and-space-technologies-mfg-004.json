@@ -1,0 +1,348 @@
+{
+  "entity_id": "mfg-004",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "paras-defence-and-space-technologies-mfg-004",
+  "name": "Paras Defence and Space Technologies Limited",
+  "variant": "Listed BSE: 543367 / NSE: PARAS",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Listed Indian defence OEM with formal C-UAS subsidiary (Paras Anti-Drone Technologies); FY26 order book ₹986 cr; exclusive Guardian-1 US IP licensing deal Jun 2026; ₹52.8 cr BEL order.",
+    "chips": [
+      "Private",
+      "Listed",
+      "Counter-UAS",
+      "Space",
+      "Optics",
+      "Guardian-1",
+      "BEL partner"
+    ],
+    "maker": "Private listed (BSE: 543367, NSE: PARAS, ISIN INE045601023; IPO Sep 2021)",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Paras Defence and Space Technologies Limited",
+    "Ownership": "Private listed (BSE: 543367, NSE: PARAS, ISIN INE045601023; IPO Sep 2021)",
+    "HQ": "D-112, TTC MIDC, Mahape, Navi Mumbai — 400701 (founded 2009)",
+    "Order_book": "₹986 crore FY26 (up from ₹928 cr FY25)",
+    "Revenue_FY26": "~₹450-500 crore (FY26 guidance per CNBC TV18; Forbes reports $54M ≈₹450 cr)",
+    "C_UAS_subsidiary": "Paras Anti-Drone Technologies Pvt Ltd (parasantidrone.com) — RF & microwave systems for counter-UAV",
+    "Other_subsidiary": "Paras Aerospace (drones + drone services)",
+    "Guardian_1_IP_deal": "Exclusive licensing pact with TandemDefense LLC (Powerus Group, USA) for Guardian-1 high-speed counter-drone interceptor — Jun 2026",
+    "FY26_orders": "₹52.8 cr BEL order (Jun 2026); ₹26.6 cr MoD order (Sep 2025); ₹528 cr BDL order",
+    "Laser_AD_solution": "Turnkey Laser-based Air Defence Solution (per investor presentation 2026)"
+  },
+  "what_it_is": {
+    "prose": "Paras Defence and Space Technologies Limited (BSE: 543367, NSE: PARAS, ISIN INE045601023) is a listed Indian defence and space OEM headquartered in Navi Mumbai, founded in 2009. The company listed on BSE and NSE via IPO in September 2021. Paras operates two key subsidiaries: Paras Anti-Drone Technologies Private Limited (parasantidrone.com), focused on RF and microwave systems for counter-UAV applications, and Paras Aerospace, focused on drones and drone services. In June 2026, Paras signed an exclusive IP licensing pact with TandemDefense LLC (Powerus Group, USA) for the Guardian-1 high-speed counter-drone interceptor — granting Paras manufacturing and commercialization rights in India. The company also offers a 'Turnkey Laser-based Air Defence Solution' per its 2026 investor presentation. FY26 order book rose to ₹986 crore (from ₹928 crore in FY25), driven by a ₹52.8 crore BEL order (June 2026), ₹26.6 crore MoD order (September 2025), and a ₹528 crore BDL order. FY26 guidance is ₹450-500 crore revenue (per CNBC TV18; Forbes reports $54 million ≈₹450 crore). NOTE: The Atlas register previously listed BSE code 543364 — this is incorrect; the verified code is 543367 per Nirmal Bang, JM Financial, and Shreni.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Paras Defence's FY26 order book rose to ₹986 crore (from ₹928 crore FY25), driven by ₹52.8 crore BEL order (June 2026), ₹26.6 crore MoD order (September 2025), and ₹528 crore BDL order. In June 2026, Paras signed an exclusive IP licensing pact with TandemDefense LLC (USA) for the Guardian-1 high-speed counter-drone interceptor. The company offers a turnkey laser-based air defence solution per its 2026 investor presentation.",
+    "rows": [
+      {
+        "agency": "Bharat Electronics Limited",
+        "context": "₹52.8 cr order for electro-optics",
+        "year": 2026,
+        "quantity_or_note": "June 2026",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Ministry of Defence",
+        "context": "₹26.6 cr order",
+        "year": 2025,
+        "quantity_or_note": "September 2025",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Bharat Dynamics Limited",
+        "context": "₹528 cr order",
+        "year": null,
+        "quantity_or_note": "Year not specified",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "TandemDefense LLC (Powerus Group, USA)",
+        "context": "Exclusive IP licensing pact for Guardian-1 counter-drone interceptor",
+        "year": 2026,
+        "quantity_or_note": "June 2026 — manufacturing + commercialization rights in India",
+        "sources": [
+          "src-5"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Paras BSE code in Atlas register is 543364 — verified correct code is 543367 (NSE: PARAS, ISIN INE045601023)",
+      "Guardian-1 production timeline + MoD contract value not disclosed",
+      "C-UAS revenue as % of total not separately disclosed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
+    "items": [
+      {
+        "component": "Guardian-1 technology (IP licence)",
+        "severity": "High",
+        "note": "TandemDefense LLC (Powerus Group, USA) — IP import",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "component": "FPGA / GaN RF",
+        "severity": "Medium",
+        "note": "Industry-typical — USA",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "EO/IR sensors",
+        "severity": "Medium",
+        "note": "Industry-typical — USA / Israel / Germany",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "Indigenous RF/microwave + optics; Guardian-1 is IP licence from USA",
+        "sources": [
+          "src-2",
+          "src-5"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Navi Mumbai facility; listed Indian OEM",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Guardian-1 IP imported; FPGA/GaN/EO/IR imported",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 3,
+        "note": "₹986 cr FY26 order book; revenue ₹450-500 cr guidance",
+        "sources": [
+          "src-3",
+          "src-4"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Guardian-1 India commercialization;BEL/BDL partnerships for subsystems",
+        "sources": [
+          "src-5"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is Paras Defence's BSE code?",
+      "answer": "Paras Defence and Space Technologies Limited is listed on BSE under code 543367 and NSE under symbol PARAS, with ISIN INE045601023. The Atlas register previously listed BSE code 543364 — this is incorrect and should be corrected. The company listed via IPO in September 2021.",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "question": "What is the Guardian-1 counter-drone interceptor?",
+      "answer": "Guardian-1 is a high-speed counter-drone interceptor developed by TandemDefense LLC (Powerus Group, USA). In June 2026, Paras Defence signed an exclusive IP licensing pact with TandemDefense, granting Paras manufacturing and commercialization rights for Guardian-1 in India. This represents a significant IP import for the Indian counter-drone ecosystem. Production timeline and specific MoD contract value have not been disclosed.",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "question": "Does Paras Defence have a counter-UAS subsidiary?",
+      "answer": "Yes. Paras Anti-Drone Technologies Private Limited (parasantidrone.com) is a wholly-owned subsidiary focused on RF and microwave systems for counter-UAV applications. Paras also operates Paras Aerospace, a subsidiary focused on drones and drone services. The parent company (Paras Defence and Space Technologies Limited) is the listed entity.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2009",
+      "event": "Paras Defence and Space Technologies founded in Navi Mumbai",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2021-09",
+      "event": "Paras Defence IPO on BSE (543367) and NSE (PARAS)",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "date": "2025-09",
+      "event": "₹26.6 cr MoD order received",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026-06",
+      "event": "₹52.8 cr BEL order received; FY26 order book reaches ₹986 cr",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "event": "Exclusive IP licensing pact signed with TandemDefense LLC (USA) for Guardian-1 counter-drone interceptor",
+      "sources": [
+        "src-5"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Paras BSE code in Atlas register is 543364 — verified correct code is 543367 (NSE: PARAS, ISIN INE045601023)",
+    "Guardian-1 production timeline + MoD contract value not disclosed",
+    "C-UAS revenue as % of total not separately disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Subsidiaries & Strategic Affiliates",
+      "publisher": "Paras Defence (official)",
+      "url": "https://parasdefence.com/subsidiaries",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Paras Anti-Drone Technologies subsidiary — domain root only"
+    },
+    {
+      "id": "src-2",
+      "title": "Paras Defence & Space Technologies Limited — Investor Presentation 2026",
+      "publisher": "Paras Defence (official PDF)",
+      "url": "https://parasdefence.com/uploads/presentation/1779278288_paras-defence-investor-presentation-2026.pdf",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "FY26 financials; laser AD solution roadmap"
+    },
+    {
+      "id": "src-3",
+      "title": "Paras Defence bags Rs 53 crore order from BEL, FY26 order book nears Rs 1000 crore",
+      "publisher": "Financial Express",
+      "url": "https://www.financialexpress.com/business/industry-paras-defence-bags-rs-53-crore-order-from-bel-fy26-order-book-nears-rs-1000-crorenbsp-4256973",
+      "published_date": "2026-06-02",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "FY26 order book ₹986 cr"
+    },
+    {
+      "id": "src-4",
+      "title": "Paras Defence says strong March quarter will aid up to 40% revenue growth",
+      "publisher": "CNBC TV18",
+      "url": "https://www.cnbctv18.com/market/earnings/paras-defence-q3-results-eyes-strong-quarter-four-push-sticks-to-30-40-revenue-growth-guidance-19833966.htm",
+      "published_date": "2026-01-27",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "FY26 guidance ₹450-500 cr revenue"
+    },
+    {
+      "id": "src-5",
+      "title": "Paras Defence signs exclusive licensing pact for US counter-drone technology",
+      "publisher": "ET Manufacturing",
+      "url": "https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/paras-defence-signs-exclusive-licensing-pact-for-us-counter-drone-technology/132092435",
+      "published_date": "2026-06-30",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Guardian-1 IP licensing with TandemDefense LLC"
+    },
+    {
+      "id": "src-6",
+      "title": "Paras Defence and Space Technologies Limited",
+      "publisher": "Nirmal Bang",
+      "url": "https://www.nirmalbang.com/company/paras-defence-space/301603",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "BSE Code 543367 confirmation"
+    },
+    {
+      "id": "src-7",
+      "title": "Paras Defence and Space Technologies",
+      "publisher": "Forbes",
+      "url": "https://www.forbes.com/companies/paras-defence-space-technologies",
+      "published_date": "2026-08-03",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Revenue $54M FY26"
+    }
+  ],
+  "seo": {
+    "title": "Paras Defence and Space Technologies Limited — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "Listed Indian defence OEM with formal C-UAS subsidiary (Paras Anti-Drone Technologies); FY26 order book ₹986 cr; exclusive Guardian-1 US IP licensing deal Jun 2",
+    "canonical_path": "/research/counter-uas/manufacturer/paras-defence-and-space-technologies-mfg-004/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

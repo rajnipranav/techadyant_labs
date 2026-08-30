@@ -1,0 +1,96 @@
+{
+  "entity_id": "dowty",
+  "entity_type": "company",
+  "tier": "C",
+  "noindex": true,
+  "slug": "dowty",
+  "name": "Dowty Propellers (GE Aerospace)",
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "UK propeller-systems OEM (GE Aerospace) that makes the six-blade R391 composite propeller for the C-130J Super Hercules — the type flown by the Indian Air Force. Component supplier — Tier C.",
+    "chips": [
+      "Tier C",
+      "UK",
+      "GE Aerospace",
+      "R391 propeller",
+      "C-130J",
+      "Composite propeller"
+    ],
+    "country": "United Kingdom",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign component/sub-system supplier — no standalone India footprint",
+    "mobility_or_class": "Component/sub-system supplier (no platform class)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Dowty Propellers (a GE Aerospace business)",
+    "Parent": "GE Aerospace",
+    "HQ": "Gloucester, United Kingdom",
+    "Product_lines": "Composite propeller systems — R391 (C-130J), R408 (A400M), regional-aircraft propellers",
+    "India_relevance": "R391 six-blade composite propeller fitted to IAF C-130J Super Hercules fleet",
+    "Tier_C_reason": "Embedded propeller supplier via the airframer; no standalone India defence order card"
+  },
+  "what_it_is": {
+    "prose": "Dowty Propellers, a GE Aerospace business based in Gloucester (UK), designs and manufactures composite propeller systems. Its six-blade R391 propeller equips the Lockheed Martin C-130J Super Hercules, the type operated by the Indian Air Force, so Dowty hardware flies on IAF C-130J aircraft as an embedded sub-system supplied through the airframer rather than under a discrete, publicly documented India contract. Recorded as an honest Tier C component-supplier card.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "c130j"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "GE's 1000th Dowty Propeller System Makes First Flight on C-130J",
+      "publisher": "GE Aerospace (official)",
+      "url": "https://www.geaerospace.com/news/press-releases/systems/ges-1000th-dowty-propeller-system-makes-first-flight-c-130j",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Dowty R391 propeller on the C-130J"
+    },
+    {
+      "id": "src-2",
+      "title": "Propeller, Variable-Pitch, 6-blade, Dowty R391",
+      "publisher": "Smithsonian National Air and Space Museum",
+      "url": "https://airandspace.si.edu/collection-objects/propeller-variable-pitch-6-blade-dowty-r391/nasm_A20070022000",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "R391 six-blade composite propeller reference"
+    }
+  ],
+  "cta": {
+    "track_ecosystem": "/research/military-aerospace/company/",
+    "submit_correction": "/research/military-aerospace/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "seo": {
+    "title": "Dowty Propellers (GE Aerospace) — Company · India Military Aerospace Atlas | Techadyant",
+    "canonical_path": "/research/military-aerospace/company/dowty/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "BreadcrumbList"
+    ],
+    "meta_description": "UK propeller OEM (GE Aerospace) making the R391 six-blade composite propeller for the C-130J flown by the IAF. Component supplier. Tier C."
+  }
+}

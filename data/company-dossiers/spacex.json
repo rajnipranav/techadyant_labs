@@ -1,0 +1,227 @@
+{
+  "entity_id": "atl-cmp-spacex",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "spacex",
+  "name": "Space Exploration Technologies Corp. (SpaceX)",
+  "variant": null,
+  "vertical": "space",
+  "parent_hub_path": "/research/space/spacex/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "US launch + satellite operator — Falcon 9 launched 4 Indian satellites; Starlink India licence pending.",
+    "chips": [
+      "space",
+      "foreign-oem-with-india",
+      "launch-vehicle"
+    ],
+    "maker": null,
+    "country": "US",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": [
+      "Space"
+    ]
+  },
+  "at_a_glance": {
+    "Headquarters": "Hawthorne, California, USA",
+    "Type": "Launch vehicle OEM and satellite operator",
+    "Founded": "2002",
+    "India entity": "No India entity (commercial launch services + Starlink India bid)",
+    "Listed": "Private (Elon Musk-owned)",
+    "Key India role": "SpaceX operates the Falcon 9, Falcon Heavy, and Starship launch vehicles and the Starlink LEO satellite internet constellation. SpaceX has launched 4 Indian satellites to orbit (Pixxel Firefly x3, Dig"
+  },
+  "what_it_is": {
+    "prose": "SpaceX operates the Falcon 9, Falcon Heavy, and Starship launch vehicles and the Starlink LEO satellite internet constellation. SpaceX has launched 4 Indian satellites to orbit (Pixxel Firefly x3, Digantara SCOT, Azista BST AFR, HEX20 Nila) via Falcon 9 rideshare in 2023-2025. SpaceX's Starlink has been in regulatory negotiation with the Indian government for a India licence since 2022; the DoT approved Starlink's licence in 2025 subject to security conditions. NSIL contracted Falcon 9 to launch the GSAT-N2 (rebadged as GSAT-20) communication satellite in November 2024 — the first ISRO satellite launched by SpaceX.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "3 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "Falcon 9 (launch services)",
+        "role": "OEM",
+        "india_status": "4 Indian satellites launched 2023-2025",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "GSAT-N2 launch (Nov 2024)",
+        "role": "OEM",
+        "india_status": "First ISRO satellite launched by SpaceX",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "platform_or_product": "Starlink India (licence pending)",
+        "role": "OEM",
+        "india_status": "DoT approval 2025 subject to conditions",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "2 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Pixxel, Digantara, Azista BST, HEX20 (Indian startups)",
+        "context": "Falcon 9 rideshare launches",
+        "year": "2023",
+        "quantity_or_note": "4 satellites",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "agency": "NSIL",
+        "context": "GSAT-N2 communication satellite launch",
+        "year": "2024-11-18",
+        "quantity_or_note": "1 satellite",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Has Starlink's India licence been fully operationalised?",
+      "Will SpaceX launch additional Indian government satellites on Falcon 9?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Limited",
+        "note": "3 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "None%",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "Has SpaceX launched Indian satellites?",
+      "answer": "Yes. SpaceX Falcon 9 has launched 4 Indian private satellites (Pixxel Firefly x3, Digantara SCOT, Azista BST AFR, HEX20 Nila) in 2023-2025, and the GSAT-N2 (GSAT-20) communication satellite for NSIL in November 2024 — the first ISRO satellite launched by SpaceX.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Will Starlink operate in India?",
+      "answer": "Starlink has been in regulatory negotiation with the Indian government since 2022. The Department of Telecommunications (DoT) approved Starlink's India licence in 2025 subject to security conditions including data localisation and government interception capability.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Has Starlink's India licence been fully operationalised?",
+    "Will SpaceX launch additional Indian government satellites on Falcon 9?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "SpaceX — official site",
+      "publisher": "SpaceX",
+      "url": "https://www.spacex.com/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-30",
+      "note": "SpaceX official site [Domain root only; demoted to indicative per Atlas source-quality rule.]"
+    },
+    {
+      "id": "src-02",
+      "title": "SpaceX Falcon 9 launches GSAT-N2 for NSIL — ISRO press release",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/GSAT_N2.html",
+      "published_date": "2024-11-18",
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "ISRO press release on GSAT-N2 launch by SpaceX Falcon 9"
+    },
+    {
+      "id": "src-03",
+      "title": "Starlink India licence — Economic Times",
+      "publisher": "Economic Times",
+      "url": "https://economictimes.indiatimes.com/tech/technology/starlink-gets-india-licence/articleshow/118474774.cms",
+      "published_date": "2025-06-15",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Coverage of Starlink India licence approval"
+    }
+  ],
+  "seo": {
+    "title": "Space Exploration Technologies Corp. (SpaceX) — Company · India Space Atlas | Techadyant",
+    "meta_description": "Space Exploration Technologies Corp. (SpaceX) company dossier: India space role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/space/spacex/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/spacex/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}

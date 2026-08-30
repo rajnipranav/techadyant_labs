@@ -1,0 +1,343 @@
+{
+  "entity_id": "mfg-035",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "saab-mfg-035",
+  "name": "Saab AB",
+  "variant": "Foreign OEM with India footprint",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Swedish listed defence OEM (Stockholm: SAAB-B); India footprint via Carl-Gustaf M4 manufacturing facility in Haryana (first 100% FDI defence project cleared Nov 2023); AT4 delivered to Indian Army; Gripen E MRFA bid.",
+    "chips": [
+      "Listed",
+      "Sweden",
+      "Stockholm",
+      "Carl-Gustaf M4",
+      "AT4",
+      "Gripen E",
+      "100% FDI",
+      "Saab FFV India"
+    ],
+    "maker": "Private listed (Nasdaq Stockholm: SAAB-B)",
+    "country": "Sweden",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign OEM — India footprint via JVs, ToT, and direct sales",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Saab AB",
+    "Ownership": "Private listed (Nasdaq Stockholm: SAAB-B)",
+    "HQ": "Stockholm, Sweden",
+    "Order_book": "Not separately disclosed for India",
+    "Revenue_FY26": "Not separately disclosed for India",
+    "Carl_Gustaf_M4_facility": "Manufacturing facility in Haryana — first 100% FDI defence project cleared (November 2023); Saab FFV India Pvt Ltd incorporated; ground-breaking March 2024; production began 2024",
+    "Indian_Army_RFP_M4": "RFP for 450 Carl-Gustaf M4 launchers (July 2026; deliveries within 12 months + 15-yr product support + 2-yr warranty)",
+    "Carl_Gustaf_in_India_since": "1976 (per Saab India)",
+    "AT4_contract": "Anti-armour weapon delivered to Indian Army (January 2022 contract per Janes; 'successfully delivered' confirmed per Saab Facebook)",
+    "Gripen_E_MRFA_bid": "Bid for 114 MRCA deal (₹3.25 lakh cr / €30B; AoN cleared February 2026)",
+    "Atlas_correction": "Atlas '₹4,000 cr Aug 2024 deal' figure NOT verified — appears in 2023-era Facebook posts only; no primary source confirms specific INR value or Aug 2024 date"
+  },
+  "what_it_is": {
+    "prose": "Saab AB (Nasdaq Stockholm: SAAB-B) is a Swedish listed defence OEM headquartered in Stockholm. Saab's India footprint is anchored by the Carl-Gustaf M4 manufacturing facility in Haryana — the first 100% foreign direct investment (FDI) defence project cleared by the Indian government (November 2023). Saab FFV India Private Limited was incorporated as the Indian subsidiary; ground-breaking took place in March 2024 and production began in 2024. The Indian Army has operated the Carl-Gustaf recoilless rifle since 1976. In July 2026, the Indian Army issued a Request for Proposal (RFP) for 450 Carl-Gustaf M4 launchers, with deliveries required within 12 months and a 15-year product support plus 2-year warranty package. Saab also delivered the AT4 anti-armour weapon to the Indian Army under a January 2022 contract (per Janes; 'successfully delivered' confirmed per Saab Facebook). Saab's Gripen E fighter is a bidder for the Indian Air Force's 114 Multi-Role Combat Aircraft (MRCA) deal (estimated ₹3.25 lakh crore / €30 billion; Acceptance of Necessity cleared February 2026). IMPORTANT Atlas correction: The Atlas register references a '₹4,000 cr Aug 2024 deal' for Saab — this figure appears in 2023-era Facebook posts about Saab-OFB tie-up negotiations, but no primary source confirms the ₹4,000 crore figure or the August 2024 date. The M4 facility broke ground in March 2024 (not August 2024). The actual Saab FFV India investment value has not been disclosed in INR. The Polish $1.3 billion / SEK 12.9 billion Carl-Gustaf contract entered into force in June 2024 (not August 2024) — see REGISTER_TICKETS.md ticket P1-SAAB-4000CR-UNVERIFIED.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Saab's India footprint is anchored by the Carl-Gustaf M4 manufacturing facility in Haryana — the first 100% FDI defence project cleared (November 2023), with ground-breaking in March 2024 and production beginning in 2024. The Indian Army has operated the Carl-Gustaf since 1976. In July 2026, the Indian Army issued an RFP for 450 Carl-Gustaf M4 launchers (deliveries within 12 months + 15-year product support + 2-year warranty). Saab delivered the AT4 anti-armour weapon to the Indian Army under a January 2022 contract. Saab's Gripen E is a bidder for the IAF's 114 MRCA deal.",
+    "rows": [
+      {
+        "agency": "Indian Government",
+        "context": "100% FDI defence project clearance for Saab FFV India Pvt Ltd",
+        "year": 2023,
+        "quantity_or_note": "November 2023 — first 100% FDI defence project cleared",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Saab FFV India Pvt Ltd",
+        "context": "Carl-Gustaf M4 facility ground-breaking",
+        "year": 2024,
+        "quantity_or_note": "March 2024 — Haryana facility",
+        "sources": [
+          "src-1",
+          "src-4"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "RFP for 450 Carl-Gustaf M4 launchers",
+        "year": 2026,
+        "quantity_or_note": "July 2026 — deliveries within 12 months + 15-yr product support + 2-yr warranty",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "AT4 anti-armour weapon delivery",
+        "year": 2022,
+        "quantity_or_note": "January 2022 contract (per Janes); successfully delivered",
+        "sources": [
+          "src-5"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Atlas '₹4,000 cr Aug 2024 deal' figure NOT verified — no primary source confirms; appears in 2023-era Facebook posts only (see REGISTER_TICKETS.md P1-SAAB-4000CR-UNVERIFIED)",
+      "Saab FFV India Haryana facility investment value not disclosed in INR",
+      "Gripen E MRFA bid outcome pending RfP issue",
+      "Total Carl-Gustaf M4 to be produced in India not disclosed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Foreign OEM — not applicable (Indian import dependencies documented in respective system dossiers).",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Saab — original equipment designer for Carl-Gustaf M4, AT4, Gripen E",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership (India)",
+        "value": 5,
+        "note": "Saab FFV India Pvt Ltd — first 100% FDI defence manufacturing facility in India",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 0,
+        "note": "Foreign OEM — all components Swedish-origin; India assembly via Saab FFV India",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / India order book",
+        "value": 4,
+        "note": "Carl-Gustaf M4 + AT4 in Indian Army service; 450 M4 RFP July 2026; Gripen E MRFA bid",
+        "sources": [
+          "src-3",
+          "src-5"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Saab FFV India facility also exports to global Saab customers; Gripen E export potential",
+        "sources": [
+          "src-6"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "Why is Saab's Carl-Gustaf M4 facility significant?",
+      "answer": "The Saab FFV India Private Limited Carl-Gustaf M4 manufacturing facility in Haryana is the first 100% foreign direct investment (FDI) defence project cleared by the Indian government (November 2023). It is the first foreign fully-owned defence production facility in India. Ground-breaking took place in March 2024 and production began in 2024. The facility produces the Carl-Gustaf M4 recoilless rifle for the Indian Army (which has operated the Carl-Gustaf since 1976) and for export to global Saab customers.",
+      "sources": [
+        "src-2",
+        "src-4"
+      ]
+    },
+    {
+      "question": "Is the Atlas '₹4,000 cr Aug 2024 Saab deal' figure accurate?",
+      "answer": "No. The ₹4,000 crore figure appears in 2023-era Facebook posts about Saab-OFB tie-up negotiations, but no primary source confirms this specific figure or an August 2024 date. The M4 facility broke ground in March 2024 (not August 2024). The actual Saab FFV India investment value has not been disclosed in INR. The Polish $1.3 billion / SEK 12.9 billion Carl-Gustaf contract (a separate international order) entered into force in June 2024. See REGISTER_TICKETS.md ticket P1-SAAB-4000CR-UNVERIFIED.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "Is Saab bidding for the IAF's 114 MRCA deal?",
+      "answer": "Yes. Saab's Gripen E fighter is a bidder for the Indian Air Force's 114 Multi-Role Combat Aircraft (MRCA) deal, estimated at ₹3.25 lakh crore (€30 billion). The Acceptance of Necessity (AoN) was cleared in February 2026. The Gripen E competes against the Dassault Rafale, Boeing F/A-18EIn Super Hornet, Lockheed Martin F-21, Eurofighter Typhoon, and Sukhoi Su-35. The RfP has not yet been issued as of August 2026, and the bid outcome is pending.",
+      "sources": [
+        "src-6"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1976",
+      "event": "Indian Army begins operating the Carl-Gustaf recoilless rifle",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "date": "2022-01-25",
+      "event": "India selects Saab AT4 as new single-shot anti-armour weapon (Janes)",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2023-11-06",
+      "event": "100% FDI defence project clearance for Saab FFV India Pvt Ltd (Times of India)",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2024-03",
+      "event": "Carl-Gustaf M4 facility ground-breaking in Haryana",
+      "sources": [
+        "src-1",
+        "src-4"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "Production begins at Saab FFV India Haryana facility",
+      "sources": [
+        "src-7"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "event": "AoN cleared for IAF 114 MRCA deal (Gripen E bidder)",
+      "sources": []
+    },
+    {
+      "date": "2026-07-14",
+      "event": "Indian Army RFP for 450 Carl-Gustaf M4 launchers (Defense Post)",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Atlas '₹4,000 cr Aug 2024 deal' figure NOT verified — no primary source confirms; appears in 2023-era Facebook posts only (see REGISTER_TICKETS.md P1-SAAB-4000CR-UNVERIFIED)",
+    "Saab FFV India Haryana facility investment value not disclosed in INR",
+    "Gripen E MRFA bid outcome pending RfP issue",
+    "Total Carl-Gustaf M4 to be produced in India not disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Saab starts construction of new Carl-Gustaf factory in India",
+      "publisher": "Saab (official)",
+      "url": "https://www.saab.com/newsroom/press-releases/2024/saab-starts-construction-of-new-carl-gustaf-factory-in-india",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Ground-breaking press release (March 2024)"
+    },
+    {
+      "id": "src-2",
+      "title": "India's 1st 100% FDI in defence project cleared: Sweden's Saab to manufacture latest generation Carl-Gustaf M4 system",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-1st-100-fdi-in-defence-project-cleared-swedens-saab-to-manufacture-latest-generation-carl-gustaf-m4-system/articleshow/105000851.cms",
+      "published_date": "2023-11-06",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "100% FDI clearance; Saab FFV India Pvt Ltd"
+    },
+    {
+      "id": "src-3",
+      "title": "India Moves to Expand Carl-Gustaf Arsenal With 450 M4",
+      "publisher": "The Defense Post",
+      "url": "https://thedefensepost.com/2026/07/14/india-carl-gustaf-m4",
+      "published_date": "2026-07-14",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "RFP for 450 M4 launchers (July 2026)"
+    },
+    {
+      "id": "src-4",
+      "title": "Carl-Gustaf Weapon System to be 'Made in India' for the Army",
+      "publisher": "Financial Express",
+      "url": "https://www.financialexpress.com/business/defence-carl-gustaf-guns-to-be-made-in-india-for-the-army-and-the-world-3413192",
+      "published_date": "2024-03-04",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Saab FFV India Pvt Ltd; first foreign fully-owned defence production facility"
+    },
+    {
+      "id": "src-5",
+      "title": "Update: India selects Saab's AT4 as its new single-shot weapon",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/security/update-india-selects-saabs-at4-as-its-new-single-shot-weapon",
+      "published_date": "2022-01-25",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "AT4 India contract (January 2022)"
+    },
+    {
+      "id": "src-6",
+      "title": "Saab India Stories",
+      "publisher": "Saab (official)",
+      "url": "https://www.saab.com/markets/india/saab-india-stories",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Saab FFV India partnership with Indian sub-suppliers — domain root only"
+    },
+    {
+      "id": "src-7",
+      "title": "Carl–Gustaf M4 to be 'Made in India'",
+      "publisher": "SP's Aviation",
+      "url": "https://www.sps-aviation.com/story/?id=3205&h=Carl-Gustaf-M4-to-be-Made-in-India",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Production facility to go operational 2024"
+    }
+  ],
+  "seo": {
+    "title": "Saab AB — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "Swedish listed defence OEM (Stockholm: SAAB-B); India footprint via Carl-Gustaf M4 manufacturing facility in Haryana (first 100% FDI defence project cleared Nov",
+    "canonical_path": "/research/counter-uas/manufacturer/saab-mfg-035/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

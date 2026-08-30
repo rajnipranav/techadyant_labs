@@ -1,0 +1,359 @@
+{
+  "entity_id": "mfg-023",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "rafael-advanced-defense-systems-mfg-023",
+  "name": "Rafael Advanced Defense Systems Limited",
+  "variant": "Foreign OEM with India footprint",
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/manufacturer/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Israeli state-owned defence OEM; major India footprint via SPYDER SAM (IAF), Spike ATGM (KRAS JV with KSSL, ₹287 cr Aug 2023), Barak-8 missile kits ($100M KRAS contract), Iron Beam laser C-UAS offering.",
+    "chips": [
+      "State-owned",
+      "Israel",
+      "SPYDER",
+      "Spike ATGM",
+      "Barak-8",
+      "Iron Beam",
+      "KRAS JV",
+      "Astra Microwave JV"
+    ],
+    "maker": "Israeli state-owned (Government of Israel)",
+    "country": "Israel",
+    "indigenous_pct": null,
+    "indigenous_label": "Foreign OEM — India footprint via JVs, ToT, and direct sales",
+    "mobility_or_class": "Defence OEM (no platform class)",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Rafael Advanced Defense Systems Limited",
+    "Ownership": "Israeli state-owned (Government of Israel)",
+    "HQ": "Haifa, Israel",
+    "Order_book": "Not separately disclosed for India",
+    "Revenue_FY26": "Not separately disclosed for India",
+    "SPYDER_SAM": "IAF contract for 18 SPYDER-MR systems (~2008, selected June 2006); in service; ~40 km range, 16 km altitude",
+    "Spike_ATGM": "₹287 cr ($34.7M) follow-on contract 31 Aug 2023 with KRAS (Kalyani Rafael Advanced Systems Pvt Ltd — 51% KSSL / 49% Rafael JV, Hyderabad); 321 launchers + 8,356 missiles originally",
+    "Barak_8_missile_kits": "$100M KRAS contract for 1,000 Barak-8 missile kits (Mar 2021)",
+    "MRSAM_co_development": "MRSAM/Barak-8 joint development with DRDO/IAI; India Navy $777M contract; $630M LRSAM for 4 IN ships",
+    "Astra_Microwave_JV": "Rafael Comsys Private Limited — ₹255.88 cr MoD order Dec 2024",
+    "Iron_Beam_C_UAS": "Iron Beam high-energy laser C-UAS offering (Iron Beam 450 unveiled DEFEA 2025)"
+  },
+  "what_it_is": {
+    "prose": "Rafael Advanced Defense Systems Limited is an Israeli state-owned defence OEM headquartered in Haifa. Rafael has a long-standing and major India footprint across multiple defence programmes. The Indian Air Force operates the SPYDER SAM (Surface-to-Air Python and Derby) — 18 SPYDER-MR systems contracted around 2008 (selected June 2006), with ~40 km range and 16 km altitude using Python-5 and Derby missiles. The Spike Anti-Tank Guided Missile is produced in India through the KRAS joint venture (Kalyani Rafael Advanced Systems Private Limited — 51% KSSL / 49% Rafael, Hyderabad), with a ₹287 crore ($34.7 million) follow-on contract signed on 31 August 2023 for additional Spike missiles and launchers. The original Spike deal was for 321 launchers and 8,356 missiles. KRAS also delivers Barak-8 missile kits under a $100 million contract signed in March 2021 for 1,000 missile kits. Rafael is a co-developer (with DRDO and IAI) of the MRSAM/LR-SAM (Barak-8) family — the Indian Navy signed a $777 million contract for maritime Barak-8, and a $630 million LRSAM contract for 4 Indian Navy ships. Rafael also operates a joint venture with Astra Microwave (Rafael Comsys Private Limited), which received a ₹255.88 crore MoD order on 13 December 2024. In counter-UAS, Rafael offers the Iron Beam high-energy laser weapon system (Iron Beam 450 unveiled at DEFEA 2025) — no confirmed India order for Iron Beam as of August 2026.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3",
+      "src-4",
+      "src-5",
+      "src-6",
+      "src-7"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Rafael has a multi-billion-dollar India footprint. The IAF operates 18 SPYDER-MR SAM systems (contracted ~2008). The Spike ATGM is produced in India via the KRAS joint venture (51% KSSL / 49% Rafael) in Hyderabad — original deal 321 launchers + 8,356 missiles, with a ₹287 crore follow-on contract August 2023. KRAS also delivers Barak-8 missile kits under a $100 million contract (March 2021, 1,000 kits). Rafael co-developed the MRSAM/LR-SAM (Barak-8) with DRDO/IAI — Indian Navy $777 million + $630 million LRSAM contracts. Rafael Comsys JV with Astra Microwave received ₹255.88 crore MoD order December 2024.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "SPYDER-MR SAM contract",
+        "year": 2008,
+        "quantity_or_note": "18 systems (~2008, selected June 2006); ~40 km range, 16 km altitude",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Original Spike ATGM deal",
+        "year": 2017,
+        "quantity_or_note": "321 launchers + 8,356 missiles (deal revived after 2018 cancellation)",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "KRAS (Kalyani Rafael Advanced Systems Pvt Ltd)",
+        "context": "Spike ATGM follow-on contract",
+        "year": 2023,
+        "quantity_or_note": "₹287 crore ($34.7M) — 31 August 2023",
+        "sources": [
+          "src-2",
+          "src-4"
+        ]
+      },
+      {
+        "agency": "KRAS",
+        "context": "Barak-8 missile kits contract",
+        "year": 2021,
+        "quantity_or_note": "$100 million for 1,000 missile kits — March 2021",
+        "sources": [
+          "src-5"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Maritime Barak-8 contract",
+        "year": null,
+        "quantity_or_note": "$777 million (with IAI/DRDO co-development)",
+        "sources": []
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "LRSAM contract for 4 ships",
+        "year": null,
+        "quantity_or_note": "$630 million",
+        "sources": []
+      },
+      {
+        "agency": "MoD (via Rafael Comsys JV with Astra Microwave)",
+        "context": "₹255.88 cr order",
+        "year": 2024,
+        "quantity_or_note": "13 December 2024",
+        "sources": []
+      }
+    ],
+    "open_questions": [
+      "Iron Beam India interest — no confirmed India order for the high-energy laser C-UAS as of August 2026",
+      "Spike ATGM full requirement (8,000+ missiles) delivery status not fully disclosed",
+      "SPYDER follow-on orders or upgrades not publicly disclosed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Foreign OEM — not applicable (Indian import dependencies documented in respective system dossiers).",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Rafael — original equipment designer for SPYDER, Spike, Iron Beam",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership (India)",
+        "value": 4,
+        "note": "KRAS JV (Hyderabad) for Spike + Barak-8 kits; Rafael Comsys JV with Astra Microwave",
+        "sources": [
+          "src-4",
+          "src-5"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 0,
+        "note": "Foreign OEM — all components Israeli-origin; India assembly via JVs",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / India order book",
+        "value": 5,
+        "note": "Multi-billion dollar India footprint across SPYDER, Spike, Barak-8, KRAS JV",
+        "sources": [
+          "src-2",
+          "src-5"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Rafael is a major global defence exporter; India is among largest customers",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": [
+      "rafael-drone-dome-cus-024",
+      "rafael-c-dome-naval-cus-025",
+      "spike-firefly-loitering-munition-anti-drone-capable-cus-026",
+      "mrsam-def-006"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the KRAS joint venture?",
+      "answer": "KRAS (Kalyani Rafael Advanced Systems Private Limited) is a joint venture between Kalyani Strategic Systems Limited (KSSL, 51%) and Rafael Advanced Defense Systems (49%) of Israel, based in Hyderabad. KRAS produces the Spike Anti-Tank Guided Missile in India and delivers Barak-8 missile kits. KRAS received a ₹287 crore ($34.7 million) follow-on Spike contract on 31 August 2023 and a $100 million Barak-8 missile kits contract in March 2021 for 1,000 kits.",
+      "sources": [
+        "src-4",
+        "src-5"
+      ]
+    },
+    {
+      "question": "Does Rafael offer a counter-drone system to India?",
+      "answer": "Rafael offers the Iron Beam high-energy laser weapon system for counter-UAS (Iron Beam 450 unveiled at DEFEA 2025). However, no confirmed India order for Iron Beam has been announced as of August 2026. Rafael also offers the SpyDer family (which has anti-drone capability), the LiteNet multi-sensor suite, and the Drone Dome C-UAS — these are documented in separate Atlas entries (cus-024 Rafael Drone Dome, cus-025 Rafael C-Dome Naval).",
+      "sources": [
+        "src-6"
+      ]
+    },
+    {
+      "question": "How does Rafael's India footprint compare to other Israeli OEMs?",
+      "answer": "Rafael and IAI (Israel Aerospace Industries) are the two Israeli state-owned defence OEMs with the largest India footprints. Rafael's India programmes include SPYDER (IAF), Spike ATGM (KRAS JV with KSSL), Barak-8 missile kits (KRAS), and the Astra Microwave Rafael Comsys JV. IAI's India programmes include MRSAM/LR-SAM co-development with DRDO, the EL/M-2248 MF-STAR naval radar (P15B/P17A), and the Searcher/Heron UAV family. The two OEMs collaborate on the Barak-8 programme and compete on others.",
+      "sources": [
+        "src-1",
+        "src-5"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2006-06",
+      "event": "IAF selects SPYDER-MR SAM system",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2008",
+      "event": "SPYDER-MR contract signed (~18 systems)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2017-03-27",
+      "event": "Original Spike ATGM deal announced (321 launchers + 8,356 missiles)",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2021-03-16",
+      "event": "KRAS begins Barak-8 missile kits delivery under $100M contract",
+      "sources": [
+        "src-5"
+      ]
+    },
+    {
+      "date": "2023-08-31",
+      "event": "₹287 cr ($34.7M) Spike follow-on contract with KRAS",
+      "sources": [
+        "src-2",
+        "src-4"
+      ]
+    },
+    {
+      "date": "2024-12-13",
+      "event": "₹255.88 cr MoD order via Rafael Comsys JV with Astra Microwave",
+      "sources": []
+    }
+  ],
+  "open_questions": [
+    "Iron Beam India interest — no confirmed India order for the high-energy laser C-UAS as of August 2026",
+    "Spike ATGM full requirement (8,000+ missiles) delivery status not fully disclosed",
+    "SPYDER follow-on orders or upgrades not publicly disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Rafael : SPYDER™ FAMILY",
+      "publisher": "Rafael (official)",
+      "url": "https://www.rafael.co.il/system/air-defense-spyder-family",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "SPYDER product page"
+    },
+    {
+      "id": "src-2",
+      "title": "India orders Spike ATGMs",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/defence/india-orders-spike-atgms",
+      "published_date": "2023-08-31",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "₹2.87 bn ($34.7M) KRAS contract"
+    },
+    {
+      "id": "src-3",
+      "title": "India to buy Spike anti-tank missiles from Rafael",
+      "publisher": "Defense News",
+      "url": "https://www.defensenews.com/breaking-news/2017/03/27/india-to-buy-spike-anti-tank-missiles-from-rafael",
+      "published_date": "2017-03-27",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "Original 321 launchers + 8,356 missiles deal"
+    },
+    {
+      "id": "src-4",
+      "title": "Indian Army Places Orders Worth Rs 287 Crore For More Israeli Spike Tank Buster ATGMs",
+      "publisher": "Swarajya",
+      "url": "https://swarajyamag.com/defence/indian-army-places-orders-worth-rs-287-crore-for-more-israeli-spike-tank-buster-atgms",
+      "published_date": "2023-09-01",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "KSSL-Rafael JV structure"
+    },
+    {
+      "id": "src-5",
+      "title": "Kalyani Rafael JV begins MRSAM missile kits delivery to armed forces",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/kalyani-rafael-jv-begins-mrsam-missile-kits-delivery-to-armed-forces/article34086468.ece",
+      "published_date": "2021-03-16",
+      "trust_tier": "credible",
+      "accessed": "2026-08-29",
+      "note": "$100M / 1,000 Barak-8 missile kits"
+    },
+    {
+      "id": "src-6",
+      "title": "IRON BEAM - High Energy Laser Weapon System",
+      "publisher": "Rafael (official)",
+      "url": "https://www.rafael.co.il/system/iron-beam",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Iron Beam C-UAS offering"
+    },
+    {
+      "id": "src-7",
+      "title": "Kalyani Rafael Advanced Systems Pvt. Ltd.",
+      "publisher": "KRAS (official)",
+      "url": "https://www.krasindia.com",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "JV institutional page — domain root only"
+    }
+  ],
+  "seo": {
+    "title": "Rafael Advanced Defense Systems Limited — Manufacturer · India Counter-UAS Atlas | Techadyant",
+    "meta_description": "Israeli state-owned defence OEM; major India footprint via SPYDER SAM (IAF), Spike ATGM (KRAS JV with KSSL, ₹287 cr Aug 2023), Barak-8 missile kits ($100M KRAS ",
+    "canonical_path": "/research/counter-uas/manufacturer/rafael-advanced-defense-systems-mfg-023/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/counter-uas/manufacturer/",
+    "submit_correction": "/research/counter-uas/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

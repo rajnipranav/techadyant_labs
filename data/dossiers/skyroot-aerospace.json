@@ -1,0 +1,183 @@
+{
+  "entity_id": "mfg-044",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "skyroot-aerospace",
+  "name": "Skyroot Aerospace",
+  "variant": "",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/company/",
+  "last_verified": "2026-08-29",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Skyroot Aerospace is an Indian private launch company that achieved the country's first private orbital launch in July 2026.",
+    "chips": [
+      "Tier A",
+      "India-relevant",
+      "Company"
+    ],
+    "maker": "Skyroot Aerospace",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Manufacturer",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Legal_name": "Skyroot Aerospace",
+    "Country": "India",
+    "Status": "Operational"
+  },
+  "what_it_is": {
+    "prose": "ISRO states that Skyroot's Vikram-I completed the first private orbital launch from Indian soil on 18 July 2026. Skyroot's own site records the Vikram commercial launch programme, while PIB links the milestone to India's private-space reforms.",
+    "sources": [
+      "src-13",
+      "src-12",
+      "src-14",
+      "src-live"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "ISRO states that Skyroot's Vikram-I completed the first private orbital launch from Indian soil on 18 July 2026. Skyroot's own site records the Vikram commercial launch programme, while PIB links the milestone to India's private-space reforms.",
+    "rows": [],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "No indigenous percentage or component import share is asserted without direct disclosure.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "DRDO (LRDE + RCI) — fully indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "BEL + BDL — Indian PSU productionisers",
+        "sources": [
+          "src-4"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
+        "sources": []
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "Akash family aggregate orders >₹30,000 cr",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "peer_systems": []
+  },
+  "faq": [
+    {
+      "question": "What did Skyroot achieve?",
+      "answer": "The first private orbital launch from Indian soil with Vikram-I.",
+      "sources": [
+        "src-13"
+      ]
+    },
+    {
+      "question": "What is Skyroot's core business?",
+      "answer": "Commercial orbital launch vehicles in the Vikram family.",
+      "sources": [
+        "src-12"
+      ]
+    },
+    {
+      "question": "Is Skyroot part of India's private-space ecosystem?",
+      "answer": "Yes; the milestone is tied to the post-2020 private-sector reforms.",
+      "sources": [
+        "src-14"
+      ]
+    }
+  ],
+  "timeline": [],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-13",
+      "title": "First private orbital launch lifts off from Sriharikota",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/First_private_orbital_launch_lifts_from_Sriharikota.html",
+      "published_date": "2026-07-18",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Vikram-I first private Indian orbital launch from Indian soil."
+    },
+    {
+      "id": "src-12",
+      "title": "About Skyroot / newsroom",
+      "publisher": "Skyroot Aerospace",
+      "url": "https://www.skyroot.in/about-skyroot",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Company newsroom records July 2026 Vikram-1 launch campaign."
+    },
+    {
+      "id": "src-14",
+      "title": "Vikram-1: Charting India's Cosmic Future",
+      "publisher": "PIB",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2286011&lang=2&reg=48",
+      "published_date": "2026-07-18",
+      "trust_tier": "official",
+      "accessed": "2026-08-29",
+      "note": "Policy reform and private launch context."
+    },
+    {
+      "id": "src-live",
+      "title": "Space Atlas directory",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/research/space/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-08-29",
+      "note": "Directory provenance only; never treated as official."
+    }
+  ],
+  "seo": {
+    "title": "Skyroot Aerospace — India Atlas | Techadyant",
+    "meta_description": "Skyroot Aerospace is an Indian private launch company that achieved the country's first private orbital launch in July 2026.",
+    "canonical_path": "/research/space/company/skyroot-aerospace/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/company/",
+    "submit_correction": "/research/space/company/submit-correction/",
+    "related_research": [
+      "/research/space/company/"
+    ]
+  }
+}

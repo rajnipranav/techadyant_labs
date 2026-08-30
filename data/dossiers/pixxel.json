@@ -1,0 +1,85 @@
+{
+  "entity_id": "pixxel",
+  "entity_type": "company",
+  "tier": "B",
+  "noindex": false,
+  "slug": "pixxel",
+  "name": "Pixxel",
+  "vertical": "space",
+  "parent_hub_path": "/research/space/company/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Pixxel dossier placeholder with initial sources.",
+    "chips": [
+      "B",
+      "India-relevant"
+    ],
+    "maker": "Pixxel",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable",
+    "mobility_or_class": "Not documented",
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Name": "Pixxel",
+    "Type": "company",
+    "Evidence": "Initial sources captured; India relevance may need deepening."
+  },
+  "what_it_is": {
+    "prose": "Pixxel operates the Firefly hyperspectral constellation and is developing the Honeybee constellation for Earth observation.",
+    "sources": [
+      "src-pix-1",
+      "src-pix-2"
+    ]
+  },
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-pix-1",
+      "title": "Pixxel homepage",
+      "publisher": "Pixxel",
+      "url": "https://www.pixxel.space/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Constellation overview."
+    },
+    {
+      "id": "src-pix-2",
+      "title": "Firefly constellation",
+      "publisher": "Pixxel",
+      "url": "https://www.pixxel.space/firefly",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Firefly constellation and launches."
+    }
+  ],
+  "seo": {
+    "title": "Pixxel — Company · India Space Atlas | Techadyant",
+    "meta_description": "Pixxel company/entity in the India Space Atlas.",
+    "canonical_path": "/research/space/company/pixxel/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/space/",
+    "submit_correction": "/research/space/submit-correction/",
+    "related_research": [
+      "/research/space/entity/"
+    ]
+  },
+  "faq": [],
+  "timeline": [],
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "referenced_by": []
+  }
+}

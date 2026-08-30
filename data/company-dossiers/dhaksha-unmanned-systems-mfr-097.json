@@ -1,0 +1,342 @@
+{
+  "entity_id": "atl-cmp-dhaksha-unmanned-systems-mfr-097",
+  "entity_type": "manufacturer",
+  "tier": "A",
+  "noindex": false,
+  "slug": "dhaksha-unmanned-systems-mfr-097",
+  "name": "Dhaksha Unmanned Systems Pvt Ltd",
+  "variant": null,
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/company/dhaksha-unmanned-systems-mfr-097/",
+  "last_verified": "2026-08-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Dhaksha Unmanned Systems is a Chennai-based UAV OEM incorporated in 2019, manufacturing hybrid petrol-engine and battery-electric drones for defence, agriculture and enterprise. It won the Indian Air ",
+    "chips": [
+      "drones-uas",
+      "india-oem"
+    ],
+    "maker": null,
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": null,
+    "mobility_or_class": null,
+    "operational_domains": []
+  },
+  "at_a_glance": {
+    "Headquarters": "Chennai, Tamil Nadu, India",
+    "Type": "Manufacturer (listed)",
+    "Founded": "2019",
+    "India entity": null,
+    "Listed": "Private (not listed)",
+    "Key India role": "Dhaksha Unmanned Systems is a Chennai-based UAV OEM incorporated in 2019, manufacturing hybrid petrol-engine and battery-electric drones for defence, agriculture and enterprise. It won the Indian Air "
+  },
+  "what_it_is": {
+    "prose": "Dhaksha Unmanned Systems is a Chennai-based UAV OEM incorporated in 2019, manufacturing hybrid petrol-engine and battery-electric drones for defence, agriculture and enterprise. It won the Indian Air Force's Mehar Baba Swarm Drone Competition (2021), secured a 200-unit logistics drone order from the Indian Army (later put on hold over Chinese-parts concerns in 2024), and a 400-unit agricultural drone order from IFFCO. Dhaksha was among the first Indian companies to receive DGCA type certification for an IC-engine agriculture drone (AgriGator, Oct 2022). The company is a strategic partner to MIT-Anna University.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "india_portfolio": {
+    "summary": "3 India-relevant product(s)/platform(s) tracked.",
+    "rows": [
+      {
+        "platform_or_product": "DH-AG-H1 (AgriGator)",
+        "role": "OEM",
+        "india_status": "India's only medium-category IC-engine agri drone; 12-litre spray tank; DGCA Type Certified (Oct 2022)",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "DH-Agrigator-E10 Plus",
+        "role": "OEM",
+        "india_status": "Kisan drone with 10-litre spray tank and 25,200 mAh battery; delivered to IFFCO",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "platform_or_product": "DH-Q4 (mapping & surveillance)",
+        "role": "OEM",
+        "india_status": "Type-Certified 'Small' category drone with day-light & thermal combo",
+        "atlas_path": null,
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "4 documented India deployment(s)/procurement(s).",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "Order for 200 medium-altitude logistics drones and accessories; later put on hold (Aug 2024) over Chinese-parts concerns",
+        "year": "2024",
+        "quantity_or_note": "200 (order; on hold)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "IFFCO (Indian Farmers Fertiliser Cooperative)",
+        "context": "Order for 400 agricultural drones; deliveries of Kisan drones commenced",
+        "year": "2022-2024",
+        "quantity_or_note": "400",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "Indian Air Force (Mehar Baba Swarm Drone Competition)",
+        "context": "Dhaksha won the 2021 Mehar Baba Swarm Drone Competition, outperforming 154 competitors",
+        "year": "2021",
+        "quantity_or_note": "n/a (competition winner)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "agency": "DGCA (civil certification)",
+        "context": "DGCA Type Certification for petrol-operated AgriGator drone",
+        "year": "2022",
+        "quantity_or_note": "n/a (certification)",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "Not analysed in this dossier.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "india_footprint",
+        "label": "India footprint",
+        "value": "Documented",
+        "note": "10 sources with India-specific evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "indigenous_content",
+        "label": "Indigenous content",
+        "value": "Not disclosed",
+        "note": "Indigenous percentage not publicly verified.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "operational_status",
+        "label": "Operational status",
+        "value": "Operational",
+        "note": "Based on latest public sources as of 2026-08-30.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": "High",
+        "note": "4 official, 6 credible sources.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [],
+    "referenced_by": []
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "question": "What major Indian Army order did Dhaksha Unmanned Systems receive and what was its status?",
+      "answer": "Dhaksha received a ₹165 crore Indian Army order for 200 medium-altitude logistics drones and accessories. In August 2024, the Indian Army put the purchase on hold over concerns about Chinese components in the drones.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Which DGCA type-certified agriculture drone does Dhaksha manufacture?",
+      "answer": "Dhaksha's AgriGator (DH-AG-H1) is India's only medium-category IC-engine agriculture drone and was DGCA Type Certified in October 2022. It features a 12-litre spray tank.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "What is Dhaksha's connection to the IAF Mehar Baba Swarm Drone Competition?",
+      "answer": "Dhaksha won the 2021 Indian Air Force Mehar Baba Swarm Drone Competition, outperforming 154 competitors. The competition was launched by the IAF in October 2018 to stimulate swarm drone development.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "https://dhakshadrones.com/about-us",
+      "publisher": "Dhaksha Unmanned Systems (company official)",
+      "url": "https://dhakshadrones.com/about-us",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Confirms Dhaksha incorporated 2019, Chennai HQ; DGCA-approved training institute; winner of Mehar Baba Swarm Drone Competition"
+    },
+    {
+      "id": "src-02",
+      "title": "https://dhakshadrones.com/cil-dhaksha-unmanned-systems-bags-rs-165-crores-for-defence-and-agri-drones/6912",
+      "publisher": "Dhaksha Unmanned Systems (company official)",
+      "url": "https://dhakshadrones.com/cil-dhaksha-unmanned-systems-bags-rs-165-crores-for-defence-and-agri-drones/6912",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Dhaksha bags ₹165 Cr order for 200 logistics drones + accessories for Indian Army"
+    },
+    {
+      "id": "src-03",
+      "title": "https://www.indiasentinels.com/defence-industry/indian-army-puts-on-hold-purchase-of-200-logistics-drones-from-dhaksha-unmanned-systems-over-china-parts-concerns-6472",
+      "publisher": "Indian Sentinels",
+      "url": "https://www.indiasentinels.com/defence-industry/indian-army-puts-on-hold-purchase-of-200-logistics-drones-from-dhaksha-unmanned-systems-over-china-parts-concerns-6472",
+      "published_date": "2024-08-30",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Indian Army puts 200-drone logistics purchase from Dhaksha on hold over Chinese parts concerns (Aug 2024)"
+    },
+    {
+      "id": "src-04",
+      "title": "https://www.industrialautomationindia.in/directory/dhaksha-unmanned-systems",
+      "publisher": "Industrial Automation India",
+      "url": "https://www.industrialautomationindia.in/directory/dhaksha-unmanned-systems",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms 400 agri drone IFFCO order + 200 logistics drone Indian Army order; Mehar Baba winner"
+    },
+    {
+      "id": "src-05",
+      "title": "https://inc42.com/buzz/drones-of-reliance-adani-backed-startups-get-type-certification-from-dgca",
+      "publisher": "Inc42",
+      "url": "https://inc42.com/buzz/drones-of-reliance-adani-backed-startups-get-type-certification-from-dgca",
+      "published_date": "2022-10-06",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Dhaksha's AgriGator (12-litre, petrol-engine) Type Certified by DGCA (Oct 2022)"
+    },
+    {
+      "id": "src-06",
+      "title": "https://timesofindia.indiatimes.com/business/india-business/dakshas-petrol-operated-drones-get-dgca-approval/articleshow/94710510.cms",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/dakshas-petrol-operated-drones-get-dgca-approval/articleshow/94710510.cms",
+      "published_date": "2022-10-07",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms DGCA approval for Dhaksha's petrol-operated agri drone"
+    },
+    {
+      "id": "src-07",
+      "title": "https://timesofindia.indiatimes.com/city/bengaluru/bluru-firm-2-others-win-iaf-swarm-drone-challenge/articleshow/87245855.cms",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/bluru-firm-2-others-win-iaf-swarm-drone-challenge/articleshow/87245855.cms",
+      "published_date": "2021-10-25",
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Confirms Dhaksha as one of three winners of IAF's Mehar Baba Swarm Drone Challenge"
+    },
+    {
+      "id": "src-08",
+      "title": "https://dhakshadrones.com/dhaksha-unmanned-systems-delivers-kisan-drones-to-iffco",
+      "publisher": "Dhaksha Unmanned Systems (company official)",
+      "url": "https://dhakshadrones.com/dhaksha-unmanned-systems-delivers-kisan-drones-to-iffco",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "Confirms delivery of DH-Agrigator-E10 Plus Kisan drones to IFFCO"
+    },
+    {
+      "id": "src-09",
+      "title": "https://www.3ds.com/insights/customer-stories/dhaksha-agricultural-drones",
+      "publisher": "Dassault Systèmes (3DS) Customer Story",
+      "url": "https://www.3ds.com/insights/customer-stories/dhaksha-agricultural-drones",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-08-30",
+      "note": "Notes Dhaksha was among first/only drone manufacturer to achieve DGCA Type Certification at time of publication"
+    },
+    {
+      "id": "src-10",
+      "title": "https://www.linkedin.com/posts/dhakshadrones_team-dhaksha-is-elated-to-share-yet-another-activity-7037423469151604737-jtTc",
+      "publisher": "Dhaksha Unmanned Systems (company official, via LinkedIn)",
+      "url": "https://www.linkedin.com/posts/dhakshadrones_team-dhaksha-is-elated-to-share-yet-another-activity-7037423469151604737-jtTc",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-08-30",
+      "note": "DH-Q4 Type Certified 'Small' category drone for mapping & surveillance"
+    }
+  ],
+  "seo": {
+    "title": "Dhaksha Unmanned Systems Pvt Ltd — Company · India Drones Uas Atlas | Techadyant",
+    "meta_description": "Dhaksha Unmanned Systems Pvt Ltd company dossier: India drones-uas role, products, deployments, and supply-chain position on the Techadyant Atlas.",
+    "canonical_path": "/research/drones-uas/company/dhaksha-unmanned-systems-mfr-097/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/company/dhaksha-unmanned-systems-mfr-097/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": []
+  }
+}
