@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ThinRecord } from "@/lib/thinRegistry";
+import "../react-dossier/dossier.css";
 
 interface Props {
   record: ThinRecord;

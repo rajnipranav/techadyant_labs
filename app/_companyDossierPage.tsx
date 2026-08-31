@@ -4,6 +4,7 @@ import { renderJsonLdScripts } from "../react-dossier/jsonLd";
 import { loadCompanyDossier } from "../lib/companyDossier";
 import { getThinRecordBySlug } from "../lib/thinRegistry";
 import Link from "next/link";
+import "../react-dossier/dossier.css";
 
 const SITE = "https://labs.techadyant.com";
 
