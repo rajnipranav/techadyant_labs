@@ -71,7 +71,7 @@ export function EntityDossierView({ dossier }: Props) {
 
   return (
     <article
-      className="ed-dossier wrap"
+      className="ed-dossier"
       data-entity-id={dossier.entity_id}
       data-tier={dossier.tier}
       data-vertical={dossier.vertical}
