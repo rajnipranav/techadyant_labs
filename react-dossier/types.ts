@@ -167,7 +167,7 @@ export interface SEO {
 export interface CTA {
   track_ecosystem?: string;
   submit_correction?: string;
-  related_research?: string[];
+  related_research?: Array<string | { label: string; path: string }>;
 }
 
 export interface EntityDossier {
@@ -177,7 +177,7 @@ export interface EntityDossier {
   noindex: boolean;
   slug: string;
   name: string;
-  variant?: string;
+  variant?: string | null;
   vertical: Vertical;
   parent_hub_path: string;
   last_verified: string;

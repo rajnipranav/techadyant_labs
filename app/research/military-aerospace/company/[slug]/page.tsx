@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { companies, companyBySlug, platformsForCompany, suppliersForCompany, geoForCompany, mroForCompany, TIER_LABEL } from '../../data';
 import { Sources } from '../../Sources';
-import { listStaticParamsForBase } from '../../../../lib/loadDossier';
+import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
 
 export function generateStaticParams() { return listStaticParamsForBase("/research/military-aerospace/company/"); }
 export const dynamicParams = false;

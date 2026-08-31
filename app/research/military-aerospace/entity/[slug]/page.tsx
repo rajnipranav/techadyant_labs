@@ -9,7 +9,7 @@ import {
   renderDossierPage,
   type DossierPageProps,
 } from "../../../../_dossierPage";
-import { listStaticParamsForBase } from "../../../../lib/loadDossier";
+import { listStaticParamsForBase } from "../../../../../lib/loadDossier";
 
 export async function generateMetadata({
   params,

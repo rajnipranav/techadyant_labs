@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { platforms, platformBySlug, procForPlatform, componentsForPlatform, companySlug, REPORTS, categoryReport, crossAtlas } from '../../data';
-import { listStaticParamsForBase } from '../../../../lib/loadDossier';
+import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
 
 export function generateStaticParams() { return listStaticParamsForBase("/research/drones-uas/platform/"); }
 export const dynamicParams = false;

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { systems, systemBySlug, deploymentsForSystem, intelForSystem, mfrSlug, REPORT } from '../../data';
 
-import { listStaticParamsForBase } from "../../../../lib/loadDossier";
+import { listStaticParamsForBase } from "../../../../../lib/loadDossier";
 
 export function generateStaticParams() {
   return listStaticParamsForBase("/research/counter-uas/system/");

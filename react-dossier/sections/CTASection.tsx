@@ -39,11 +39,20 @@ export function CTASection({ data }: Props) {
         <div className="ed-related">
           <h3 className="ed-sub-h">Related research</h3>
           <ul>
-            {data.related_research!.map((path) => (
-              <li key={path}>
-                <a href={path}>{path}</a>
-              </li>
-            ))}
+            {data.related_research!.map((item, idx) => {
+              if (typeof item === "string") {
+                return (
+                  <li key={item + "-" + idx}>
+                    <a href={item}>{item}</a>
+                  </li>
+                );
+              }
+              return (
+                <li key={item.path + "-" + idx}>
+                  <a href={item.path}>{item.label}</a>
+                </li>
+              );
+            })}
           </ul>
         </div>
       ) : null}

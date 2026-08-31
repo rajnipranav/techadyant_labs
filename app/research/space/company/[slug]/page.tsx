@@ -3,7 +3,7 @@ import { companyDossierMetadata, renderCompanyDossierPage } from '../../../../_c
 import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { companies, companyBySlug, platformsForCompany } from '../../data';
-import { listStaticParamsForBase } from '../../../../lib/loadDossier';
+import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
 export function generateStaticParams() { return listStaticParamsForBase("/research/space/company/"); }
 export const dynamicParams = false;
 

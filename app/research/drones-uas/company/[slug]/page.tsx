@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { companies, companyBySlug, platformsForCompany, componentsForCompany } from '../../data';
 import { RelatedReportsLinks, ENTITY_TO_REPORTS } from '../../../report-links';
-import { listStaticParamsForBase } from '../../../../lib/loadDossier';
+import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
 
 export function generateStaticParams() { return listStaticParamsForBase("/research/drones-uas/company/"); }
 export const dynamicParams = false;

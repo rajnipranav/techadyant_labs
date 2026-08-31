@@ -2516,6 +2516,43 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Andhra Pradesh has secured India’s first dedicated quantum and AI university campus, with MeitY backing and ₹730.7 crore in funding.', 'Programmes begin from September 2026, giving the state an early-mover advantage in quantum and semiconductor talent.', 'The net-zero campus with nano-fab and cryogenic labs is designed to match the physical infrastructure needs of frontier-technology research.'],
   sources: ['Economic Times — ‘Amaravati to get India’s first quantum-AI university’, Aug 2026', 'The Hindu — ‘India’s first dedicated Quantum and AI University campus to come up in Amaravati’, Aug 2026', 'New Indian Express — ‘Amaravati to get India’s first Quantum & AI varsity’, Aug 2026', 'Quantum Computing Report — ‘India’s First Dedicated Quantum and AI University Campus Approved for Amaravati’, Aug 2026']
+}, {
+  slug: 'pars-defence-powerus-guardian-counter-drone-manufacturing-india',
+  no: 'S-078',
+  title: 'U.S. counter-drone Guardian interceptor enters India’s manufacturing chain through Paras Defence',
+  domain: 'Defence Technology & Industrial Base',
+  date: '2026-08-31',
+  dateLabel: '31 Aug 2026',
+  status: 'live',
+  excerpt: 'Paras Defence & Space Technologies has secured exclusive Indian manufacturing rights to the U.S.-origin Powerus Guardian counter-drone interceptor family, placing foreign kinetic hard-kill technology into India’s defence manufacturing chain as the Army and Air Force separately seek scalable physical interception systems.',
+  readingTime: '3 min',
+  body: [{
+  text: 'What changed',
+  type: 'h'
+}, {
+  text: 'Paras Defence & Space Technologies has signed an exclusive intellectual-property licence with Tandem Defense LLC, a wholly owned subsidiary of U.S.-based Powerus, to manufacture and commercialise the Guardian interceptor family in India. The agreement gives Paras non-transferable, non-sublicensable rights in return for a licence fee and a share of net profits from Indian sales, with an initial 12-month term renewable by mutual consent.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'This places a foreign-origin kinetic counter-drone system directly into India’s defence manufacturing ecosystem at a moment when all three services are actively acquiring layered counter-UAS capabilities. The Indian Army’s February request for information seeks up to 45 Drone Interception Systems and 50 Drone Catcher Systems, while its 12 August GeM tender targets AI-enabled high-speed interceptor UAVs and the Air Force has separately requested indigenous solutions capable of autonomous interception. The Paras agreement therefore arrives inside an active procurement pipeline rather than as an abstract technology transfer.',
+  type: 'p'
+}, {
+  text: 'What is proven',
+  type: 'h'
+}, {
+  text: 'Powerus disclosed the Paras agreement in U.S. Securities and Exchange Commission filings, and both companies have publicly confirmed the arrangement. Guardian-1 and Guardian-2 are described as low-cost, high-speed kinetic interceptors designed to physically destroy hostile drones, with cruise speeds around 100 mph and maximum burst speeds near 211 mph. Paras already markets soft-kill systems through its Paras Anti-Drone Technologies subsidiary; the Guardian licence adds a hard-kill layer and gives the company a multi-tier counter-drone portfolio to offer the military, paramilitary and critical-infrastructure customers.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'The agreement does not mean Guardian-1 has been selected for induction. Any procurement will still require testing, evaluation and a formal acquisition process. The decisive milestones are Army and Air Force trials of Guardian-1, Paras’s domestic partner appointments, and whether the system clears the Anti-Rogue Drone Technology Committee or equivalent technical evaluation. The longer-term question is whether local manufacture stays assembly-only or moves toward deeper indigenisation of the interceptor’s subsystems.',
+  type: 'p'
+}],
+  takeaways: ['Paras Defence has secured exclusive Indian manufacturing rights to the U.S.-origin Powerus Guardian kinetic counter-drone interceptor family.', 'The deal arrives while the Army and Air Force are actively seeking scalable physical interception systems for drones and loitering munitions.', 'Local manufacturing is initially licensed assembly of foreign technology; whether it deepens into indigenous subsystems will determine its strategic value.'],
+  sources: ['Sunday Guardian Live — ‘U.S. counter-drone tech enters India’s manufacturing chain’, Jul 2026', 'The Defense News — ‘Paras Defence Partners with US Firm Powerus to Produce Guardian-1 Counter-Drone System in India’, Jul 2026', 'Raksha Anirveda — ‘Paras Defence Secure Exclusive Rights For Advanced US Counter-Drone System’, Jul 2026', 'Indian Defence News — ‘Navi Mumbai’s Paras Defence Gears Up With Homegrown Anti-Drone Laser Weapons’, Jul 2026']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

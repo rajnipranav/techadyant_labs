@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { manufacturers, mfrBySlug, systemsForMfr } from '../../data';
 
-import { listStaticParamsForBase } from "../../../../lib/loadDossier";
+import { listStaticParamsForBase } from "../../../../../lib/loadDossier";
 
 export function generateStaticParams() {
   return listStaticParamsForBase("/research/counter-uas/manufacturer/");

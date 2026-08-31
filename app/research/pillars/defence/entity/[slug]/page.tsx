@@ -8,7 +8,7 @@ import {
   originOf, statusInfo, humanize, sourcesFor,
 } from '../../data';
 import { StatusBadge, OriginBadge, ServiceTag, EntityLink, SourceRefs, card, kick } from '../../ui';
-import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
+import { listStaticParamsForBase } from '../../../../../../lib/loadDossier';
 
 const BASE = '/research/pillars/defence';
 

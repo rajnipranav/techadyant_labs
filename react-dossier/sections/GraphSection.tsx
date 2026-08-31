@@ -14,15 +14,15 @@ function slugToPath(slug: string, parentHubPath: string): string {
 }
 
 export function GraphSection({ data, parentHubPath }: Props) {
-  const groups: { label: string; slugs: string[] | undefined }[] = [
-    { label: "Maker — Other Systems", slugs: data.maker_other_systems },
-    { label: "Peer Systems", slugs: data.peer_systems },
-    { label: "Related Components", slugs: data.related_components },
-    { label: "Related Pillars", slugs: data.related_pillars },
-    { label: "Referenced By", slugs: data.referenced_by },
+  const groups: { label: string; items: Array<string | { name: string; path: string }> | undefined }[] = [
+    { label: "Maker — Other Systems", items: data.maker_other_systems as Array<string | { name: string; path: string }> | undefined },
+    { label: "Peer Systems", items: data.peer_systems as Array<string | { name: string; path: string }> | undefined },
+    { label: "Related Components", items: data.related_components as Array<string | { name: string; path: string }> | undefined },
+    { label: "Related Pillars", items: data.related_pillars as Array<string | { name: string; path: string }> | undefined },
+    { label: "Referenced By", items: data.referenced_by as Array<string | { name: string; path: string }> | undefined },
   ];
 
-  const hasAny = groups.some((g) => g.slugs && g.slugs.length > 0);
+  const hasAny = groups.some((g) => g.items && g.items.length > 0);
   if (!hasAny) return null;
 
   return (
@@ -32,15 +32,24 @@ export function GraphSection({ data, parentHubPath }: Props) {
       </h2>
       <div className="ed-graph-grid">
         {groups.map((g) =>
-          g.slugs && g.slugs.length > 0 ? (
+          g.items && g.items.length > 0 ? (
             <div key={g.label} className="ed-graph-cell">
               <h3 className="ed-sub-h">{g.label}</h3>
               <ul className="ed-graph-list">
-                {g.slugs.map((slug) => (
-                  <li key={slug}>
-                    <a href={slugToPath(slug, parentHubPath)}>{slug}</a>
-                  </li>
-                ))}
+                {g.items.map((item, idx) => {
+                  if (typeof item === "string") {
+                    return (
+                      <li key={item + "-" + idx}>
+                        <a href={slugToPath(item, parentHubPath)}>{item}</a>
+                      </li>
+                    );
+                  }
+                  return (
+                    <li key={item.path + "-" + idx}>
+                      <a href={item.path}>{item.name}</a>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ) : null

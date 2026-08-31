@@ -173,17 +173,15 @@ export function buildJsonLdGraph(dossier: EntityDossier): JsonLdGraph {
   };
 }
 
-export function renderJsonLdScripts(dossier: EntityDossier): string {
+export function renderJsonLdScripts(dossier: EntityDossier): string[] {
   const graph = buildJsonLdGraph(dossier);
   const blocks: object[] = [graph.webPage, graph.breadcrumb];
   if (graph.product) blocks.push(graph.product);
   if (graph.organization) blocks.push(graph.organization);
   if (graph.faq) blocks.push(graph.faq);
 
-  return blocks
-    .map(
-      (b) =>
-        `<script type="application/ld+json">${JSON.stringify(b)}</script>`
-    )
-    .join("\n");
+  return blocks.map(
+    (b) =>
+      `<script type="application/ld+json">${JSON.stringify(b)}</script>`
+  );
 }
