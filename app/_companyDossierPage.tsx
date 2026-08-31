@@ -11,13 +11,15 @@ export function companyDossierMetadata(slug: string, vertical: string): Metadata
   if (!entry) return null;
 
   const { dossier } = entry;
-  const description = dossier.what_it_is?.prose?.slice(0, 160)
-    || dossier.at_a_glance?.["Key India role"]?.slice(0, 160)
-    || `${dossier.name} — India strategic ecosystem.`;
+  const prose = dossier.what_it_is?.prose;
+  const keyRole = dossier.at_a_glance?.["Key India role"];
+  const description = (prose?.slice(0, 160))
+    || (keyRole?.slice(0, 160))
+    || `${dossier.name} — ${dossier.vertical} in India's strategic ecosystem.`;
   const canonical = `${SITE}${entry.path}`;
 
   return {
-    title: `${dossier.name} — dossier`,
+    title: `${dossier.name} — ${dossier.vertical}`,
     description,
     alternates: { canonical },
     robots: robotsForTier(dossier.tier),
@@ -42,10 +44,9 @@ export function renderCompanyDossierPage(slug: string, vertical: string) {
   const entry = loadCompanyDossier(slug, vertical);
   if (!entry) return null;
 
-  const scripts = renderJsonLdScripts(entry.dossier);
   return (
     <>
-      {scripts.map((script, index) => (
+      {renderJsonLdScripts(entry.dossier).map((script, index) => (
         <script
           key={index}
           type="application/ld+json"

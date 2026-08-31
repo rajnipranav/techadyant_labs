@@ -5,37 +5,38 @@
 /* ============================================================================*/
 
 .ed-dossier {
+  /* Use global CSS custom properties from globals.css (supports dark/light mode) */
   /* Brand tokens */
-  --brass: #c9a84c;
-  --brass-dim: #a08538;
-  --brass-soft: #e8d6a0;
+  --brass: var(--brass, #c9a84c);
+  --brass-dim: var(--brass-dim, #a08538);
+  --brass-soft: var(--brass-soft, #e8d6a0);
 
-  /* Neutrals */
-  --bg: #ffffff;
-  --bg-soft: #f6f4ef;
-  --bg-card: #fafaf7;
-  --border: #e3dfd4;
-  --border-strong: #c5bfb0;
+  /* Neutrals - use global tokens */
+  --bg: var(--bg, #ffffff);
+  --bg-soft: var(--bg-2, #f6f4ef);
+  --bg-card: var(--surface, #fafaf7);
+  --border: var(--border, #e3dfd4);
+  --border-strong: var(--border-strong, #c5bfb0);
 
   /* Text */
-  --text: #1a1a1a;
-  --text-dim: #5d5a52;
-  --text-mute: #8a8780;
+  --text: var(--text, #1a1a1a);
+  --text-dim: var(--text-dim, #5d5a52);
+  --text-mute: var(--text-muted, #8a8780);
 
   /* Severity */
-  --sev-critical: #b3261e;
-  --sev-high: #c46a00;
-  --sev-medium: #b39a00;
-  --sev-low: #1e7a3a;
-  --sev-unknown: #6b6b6b;
+  --sev-critical: var(--sev-critical, #b3261e);
+  --sev-high: var(--sev-high, #c46a00);
+  --sev-medium: var(--sev-medium, #b39a00);
+  --sev-low: var(--sev-low, #1e7a3a);
+  --sev-unknown: var(--sev-unknown, #6b6b6b);
 
   /* Score band */
-  --score-0: #b3261e;
-  --score-1: #c46a00;
-  --score-2: #b39a00;
-  --score-3: #6b8a1e;
-  --score-4: #1e7a3a;
-  --score-5: #0a5e2c;
+  --score-0: var(--score-0, #b3261e);
+  --score-1: var(--score-1, #c46a00);
+  --score-2: var(--score-2, #b39a00);
+  --score-3: var(--score-3, #6b8a1e);
+  --score-4: var(--score-4, #1e7a3a);
+  --score-5: var(--score-5, #0a5e2c);
 
   /* Layout */
   --wrap-width: 1180px;
