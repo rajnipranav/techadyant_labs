@@ -5,6 +5,8 @@ import { platformBySlug, platforms, systemsForPlatform, locForPlatform, depsForP
 import { Sources } from '../../Sources';
 
 import { listStaticParamsForBase } from "../../../../../lib/loadDossier";
+import { getThinRecordBySlug } from "@/lib/thinRegistry";
+import { ThinEntityPage } from "@/app/_thinEntityPage";
 
 export function generateStaticParams() {
   return listStaticParamsForBase("/research/military-aerospace/platform/");
@@ -14,7 +16,18 @@ export const dynamicParams = false;
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const p = platformBySlug(slug);
-  if (!p) return { title: 'Platform - Military Aerospace Atlas' };
+  if (!p) {
+    const thin = getThinRecordBySlug(slug);
+    if (thin) {
+      return {
+        title: `${thin.name} — India Military Aerospace Atlas`,
+        description: thin.summary,
+        alternates: { canonical: `https://labs.techadyant.com${thin.path}` },
+        robots: { index: false, follow: true },
+      };
+    }
+    return { title: 'Platform - Military Aerospace Atlas' };
+  }
   return {
     title: `${p.name} - India Military Transport Aircraft Manufacturing`,
     description: `${p.name}: ${[p.payload_tonnes ? `${p.payload_tonnes} t payload` : null, p.range_km ? `${p.range_km.toLocaleString('en-IN')} km range` : null, p.engine].filter(Boolean).join(', ') || 'specifications'}. ${p.localization_summary || `Indian production status, industrial partner and supply chain in India's military transport aircraft ecosystem.`}`.slice(0, 250),
@@ -25,7 +38,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function PlatformPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const p = platformBySlug(slug);
-  if (!p) return <><AtlasNav /><section className="wrap"><p>Platform not found.</p></section></>;
+  if (!p) {
+    const thin = getThinRecordBySlug(slug);
+    if (thin) return <ThinEntityPage record={thin} />;
+    return <><AtlasNav /><section className="wrap"><p>Platform not found.</p></section></>;
+  }
   const systems = systemsForPlatform(p.id);
   const locs = locForPlatform(p.id);
   const deps = depsForPlatform(p.id);

@@ -5,6 +5,8 @@ import { AtlasNav } from '../../../AtlasNav';
 import { manufacturers, mfrBySlug, systemsForMfr } from '../../data';
 
 import { listStaticParamsForBase } from "../../../../../lib/loadDossier";
+import { getThinRecordBySlug } from "@/lib/thinRegistry";
+import { ThinEntityPage } from "@/app/_thinEntityPage";
 
 export function generateStaticParams() {
   return listStaticParamsForBase("/research/counter-uas/manufacturer/");
@@ -15,6 +17,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const dossierMetadata = companyDossierMetadata(slug, 'counter-uas');
   if (dossierMetadata) return dossierMetadata;
+  const thin = getThinRecordBySlug(slug);
+  if (thin) {
+    return {
+      title: `${thin.name} — India Counter-UAS Atlas`,
+      description: thin.summary,
+      alternates: { canonical: `https://labs.techadyant.com${thin.path}` },
+      robots: { index: false, follow: true },
+    };
+  }
   const m = mfrBySlug(slug);
   if (!m) return { title: 'Counter-UAS maker — Atlas' };
   return {
@@ -28,6 +39,8 @@ export default async function MfrPage({ params }: { params: Promise<{ slug: stri
   const { slug } = await params;
   const dossierPage = renderCompanyDossierPage(slug, 'counter-uas');
   if (dossierPage) return dossierPage;
+  const thin = getThinRecordBySlug(slug);
+  if (thin) return <ThinEntityPage record={thin} />;
   const m = mfrBySlug(slug);
   if (!m) return <><AtlasNav /><section className="wrap"><p>Manufacturer not found.</p></section></>;
   const sys = systemsForMfr(m.name);

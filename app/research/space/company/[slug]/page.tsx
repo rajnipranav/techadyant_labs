@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { companies, companyBySlug, platformsForCompany } from '../../data';
 import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
+import { getThinRecordBySlug } from "@/lib/thinRegistry";
+import { ThinEntityPage } from "@/app/_thinEntityPage";
 export function generateStaticParams() { return listStaticParamsForBase("/research/space/company/"); }
 export const dynamicParams = false;
 
@@ -11,6 +13,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const dossierMetadata = companyDossierMetadata(slug, 'space');
   if (dossierMetadata) return dossierMetadata;
+  const thin = getThinRecordBySlug(slug);
+  if (thin) {
+    return {
+      title: `${thin.name} — India Space Atlas`,
+      description: thin.summary,
+      alternates: { canonical: `https://labs.techadyant.com${thin.path}` },
+      robots: { index: false, follow: true },
+    };
+  }
   const c = companyBySlug(slug);
   if (!c) return { title: 'Company — Space Atlas' };
   return {
@@ -24,6 +35,8 @@ export default async function SpaceCompanyPage({ params }: { params: Promise<{ s
   const { slug } = await params;
   const dossierPage = renderCompanyDossierPage(slug, 'space');
   if (dossierPage) return dossierPage;
+  const thin = getThinRecordBySlug(slug);
+  if (thin) return <ThinEntityPage record={thin} />;
   const c = companyBySlug(slug);
   if (!c) return <><AtlasNav /><section className="wrap"><p>Company not found.</p></section></>;
   const plats = platformsForCompany(c.name);

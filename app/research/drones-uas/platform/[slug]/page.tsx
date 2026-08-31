@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { platforms, platformBySlug, procForPlatform, componentsForPlatform, companySlug, REPORTS, categoryReport, crossAtlas } from '../../data';
 import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
+import { getThinRecordBySlug } from "@/lib/thinRegistry";
+import { ThinEntityPage } from '@/app/_thinEntityPage';
 
 export function generateStaticParams() { return listStaticParamsForBase("/research/drones-uas/platform/"); }
 export const dynamicParams = false;
@@ -12,7 +14,18 @@ const num = (v: number | null, u: string) => (v == null ? null : `${v.toLocaleSt
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const p = platformBySlug(slug);
-  if (!p) return { title: 'Platform — UAS Atlas' };
+  if (!p) {
+    const thin = getThinRecordBySlug(slug);
+    if (thin) {
+      return {
+        title: `${thin.name} — India UAS Atlas`,
+        description: thin.summary,
+        alternates: { canonical: `https://labs.techadyant.com${thin.path}` },
+        robots: { index: false, follow: true },
+      };
+    }
+    return { title: 'Platform — UAS Atlas' };
+  }
   const bits = [p.category, p.origin, p.mfr].filter(Boolean).join(' · ');
   return {
     title: `${p.name} — India UAS Atlas${p.category ? ` (${p.category})` : ''}`,
@@ -24,7 +37,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function PlatformPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const p = platformBySlug(slug);
-  if (!p) return <><AtlasNav /><section className="wrap"><p>Platform not found.</p></section></>;
+  if (!p) {
+    const thin = getThinRecordBySlug(slug);
+    if (thin) return <ThinEntityPage record={thin} />;
+    return <><AtlasNav /><section className="wrap"><p>Platform not found.</p></section></>;
+  }
   const proc = procForPlatform(p.name);
   const comps = componentsForPlatform(p.id);
   const rep = REPORTS[categoryReport(p.category)];

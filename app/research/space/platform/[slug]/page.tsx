@@ -3,6 +3,10 @@ import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { platforms, platformBySlug, companies, crossAtlas } from '../../data';
 
+import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
+import { getThinRecordBySlug } from "@/lib/thinRegistry";
+import { ThinEntityPage } from "@/app/_thinEntityPage";
+
 export function generateStaticParams() { return platforms.map((p) => ({ slug: p.slug })); }
 export const dynamicParams = false;
 
@@ -11,7 +15,18 @@ const companySlug = (name: string) => companies.find((c) => c.name === name)?.sl
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const p = platformBySlug(slug);
-  if (!p) return { title: 'Platform — Space Atlas' };
+  if (!p) {
+    const thin = getThinRecordBySlug(slug);
+    if (thin) {
+      return {
+        title: `${thin.name} — India Space Atlas`,
+        description: thin.summary,
+        alternates: { canonical: `https://labs.techadyant.com${thin.path}` },
+        robots: { index: false, follow: true },
+      };
+    }
+    return { title: 'Platform — Space Atlas' };
+  }
   const bits = [p.category, p.origin === 'IN' ? 'India' : p.origin, p.mfr].filter(Boolean).join(' · ');
   return {
     title: `${p.name} — India Space Atlas${p.category ? ` (${p.category})` : ''}`,
@@ -23,7 +38,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function SpacePlatformPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const p = platformBySlug(slug);
-  if (!p) return <><AtlasNav /><section className="wrap"><p>Platform not found.</p></section></>;
+  if (!p) {
+    const thin = getThinRecordBySlug(slug);
+    if (thin) return <ThinEntityPage record={thin} />;
+    return <><AtlasNav /><section className="wrap"><p>Platform not found.</p></section></>;
+  }
   const origin = p.origin === 'IN' ? 'India' : p.origin;
   const cslug = companySlug(p.mfr);
   const specs = [p.category, p.variant, p.orbit && `${p.orbit} orbit`, p.payload_kg != null ? `${p.payload_kg.toLocaleString('en-IN')} kg payload` : null].filter(Boolean) as string[];

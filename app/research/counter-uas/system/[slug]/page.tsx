@@ -4,6 +4,8 @@ import { AtlasNav } from '../../../AtlasNav';
 import { systems, systemBySlug, deploymentsForSystem, intelForSystem, mfrSlug, REPORT } from '../../data';
 
 import { listStaticParamsForBase } from "../../../../../lib/loadDossier";
+import { getThinRecordBySlug } from "@/lib/thinRegistry";
+import { ThinEntityPage } from "@/app/_thinEntityPage";
 
 export function generateStaticParams() {
   return listStaticParamsForBase("/research/counter-uas/system/");
@@ -13,7 +15,18 @@ export const dynamicParams = false;
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const s = systemBySlug(slug);
-  if (!s) return { title: 'Counter-UAS system — Atlas' };
+  if (!s) {
+    const thin = getThinRecordBySlug(slug);
+    if (thin) {
+      return {
+        title: `${thin.name} — India Counter-UAS Atlas`,
+        description: thin.summary,
+        alternates: { canonical: `https://labs.techadyant.com${thin.path}` },
+        robots: { index: false, follow: true },
+      };
+    }
+    return { title: 'Counter-UAS system — Atlas' };
+  }
   return {
     title: `${s.name} — India Counter-UAS Atlas${s.classification ? ` (${s.classification})` : ''}`,
     description: `${s.name}${s.variant ? ` ${s.variant}` : ''}: ${[s.mfr, s.country, s.classification].filter(Boolean).join(' · ')}. Counter-drone system — kill chain, deployments, drone types countered and import dependencies.`.slice(0, 250),
@@ -24,7 +37,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function SystemPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const s = systemBySlug(slug);
-  if (!s) return <><AtlasNav /><section className="wrap"><p>System not found.</p></section></>;
+  if (!s) {
+    const thin = getThinRecordBySlug(slug);
+    if (thin) return <ThinEntityPage record={thin} />;
+    return <><AtlasNav /><section className="wrap"><p>System not found.</p></section></>;
+  }
   const deps = deploymentsForSystem(s.id, s.name);
   const it = intelForSystem(s.name, s.id);
   const cslug = mfrSlug(s.mfr);
