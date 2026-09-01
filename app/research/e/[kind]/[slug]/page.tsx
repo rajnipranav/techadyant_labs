@@ -13,7 +13,7 @@ type Ent = {
 const ENTS = platform as unknown as Ent[];
 const SITE = 'https://labs.techadyant.com';
 
-export const dynamicParams = false;
+// dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs
 
 export function generateStaticParams() {
   return ENTS.map((e) => ({ kind: e.kind, slug: e.slug }));

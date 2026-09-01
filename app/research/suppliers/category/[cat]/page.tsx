@@ -12,7 +12,7 @@ import type { Supplier } from '../../../suppliers';
 export function generateStaticParams() {
   return CATEGORY_HUBS.map((h) => ({ cat: h.slug }));
 }
-export const dynamicParams = false;
+// dynamicParams removed
 
 export async function generateMetadata({ params }: { params: Promise<{ cat: string }> }): Promise<Metadata> {
   const { cat } = await params;
