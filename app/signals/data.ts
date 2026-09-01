@@ -2553,6 +2553,43 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Paras Defence has secured exclusive Indian manufacturing rights to the U.S.-origin Powerus Guardian kinetic counter-drone interceptor family.', 'The deal arrives while the Army and Air Force are actively seeking scalable physical interception systems for drones and loitering munitions.', 'Local manufacturing is initially licensed assembly of foreign technology; whether it deepens into indigenous subsystems will determine its strategic value.'],
   sources: ['Sunday Guardian Live — ‘U.S. counter-drone tech enters India’s manufacturing chain’, Jul 2026', 'The Defense News — ‘Paras Defence Partners with US Firm Powerus to Produce Guardian-1 Counter-Drone System in India’, Jul 2026', 'Raksha Anirveda — ‘Paras Defence Secure Exclusive Rights For Advanced US Counter-Drone System’, Jul 2026', 'Indian Defence News — ‘Navi Mumbai’s Paras Defence Gears Up With Homegrown Anti-Drone Laser Weapons’, Jul 2026']
+}, {
+  slug: 'india-eighth-tranche-critical-strategic-mineral-blocks-auction-2026',
+  no: 'S-079',
+  title: 'India’s critical-minerals pipeline reaches 88 blocks, with 56 already auctioned',
+  domain: 'Critical Minerals',
+  date: '2026-09-01',
+  dateLabel: '1 Sep 2026',
+  status: 'live',
+  excerpt: 'India’s mineral-security strategy is moving from identifying dependencies to putting acreage into the hands of explorers. The eighth auction tranche adds 20 more critical and strategic mineral blocks across nine states, while the Ministry of Mines says 56 of the 88 blocks offered so far have already been auctioned.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Development',
+  type: 'h'
+}, {
+  text: 'The Ministry of Mines used a 31 August roadshow in Raipur to brief prospective bidders on the eighth tranche of critical and strategic mineral auctions. The tranche contains 17 Composite Licence blocks and three Mining Lease blocks across nine states. The mineral basket includes graphite, rare earth elements, rare metals, vanadium, gallium, titanium, molybdenum, tungsten, potash, phosphorite and glauconite; five of the blocks are in Chhattisgarh. The government also outlined partial reimbursement of exploration expenses for Composite Licence holders and the e-auction process.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Critical-minerals sovereignty is determined not only by geological potential but by the conversion of that potential into an investable, explored and eventually producing asset base. The reported 56 successful auctions out of 88 blocks offered indicates that the state is building a pipeline rather than relying on one-off headline discoveries. The inclusion of gallium, rare earths, tungsten, graphite and vanadium links the programme to semiconductor materials, permanent magnets, batteries, aerospace systems and defence manufacturing. However, an auction is an upstream option, not yet a supply guarantee: exploration success, permitting, processing capacity, financing and offtake will decide whether these blocks reduce import exposure.',
+  type: 'p'
+}, {
+  text: 'Techadyant view',
+  type: 'h'
+}, {
+  text: 'The strategically important shift is the emergence of a repeatable domestic mineral-access mechanism. India is combining auctions with exploration-cost support and private-sector participation, while public policy is beginning to address the full chain from resource discovery to processing and recycling. The next sovereignty test is midstream: whether Indian firms can build separation, refining and precursor capacity around these deposits instead of exporting concentrates or remaining dependent on imported processed material. Chhattisgarh’s five-block allocation is also worth watching as a test of whether resource-rich states can convert mineral access into local industrial capability.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The names, geological grades and exploration stages of the 20 blocks, and whether high-value rare-earth or technology-metal occurrences progress beyond reconnaissance.', 'Auction winners, work-programme commitments and the speed at which Composite Licence holders move from exploration to a mining lease.', 'Domestic processing and separation projects for rare earths, gallium, tungsten, graphite and vanadium, including credible offtake agreements.', 'Whether the ₹1,500 crore critical-mineral recycling incentive and primary-mining pipeline are integrated into a resilient domestic supply chain.']
+}],
+  takeaways: ['India’s eighth critical-mineral auction tranche offers 20 new blocks across nine states, with five in Chhattisgarh.', '56 of 88 blocks offered so far have been auctioned, showing pipeline momentum rather than one-off progress.', 'The basket targets gallium, rare earths, tungsten, graphite and vanadium — inputs for semiconductors, batteries and defence.', 'Success depends on midstream processing capacity, not just mining leases.'],
+  sources: ['{"title":"Five mineral blocks from Chhattisgarh included in the 8th Tranche of Critical & Strategic Mineral Blocks","publisher":"Ministry of Mines, Press Information Bureau","date":"2026-08-31","url":"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2305246","context":"Primary source for the 20-block tranche, its mineral basket, the five Chhattisgarh blocks, the 56-of-88 auction figure and the exploration-reimbursement and auction framework."}', '{"title":"India has made continuous efforts to become self-reliant in critical minerals, says MoS Satish Chandra Dubey","publisher":"ETEnergyWorld / The Economic Times","date":"2026-08-31","url":"https://energy.economictimes.indiatimes.com/amp/news/coal/india-has-made-continuous-efforts-to-become-self-reliant-in-critical-minerals-says-mos-satish-chandra-dubey/133642772","context":"Independent trade-publication account of the Raipur roadshow and the wider National Critical Mineral Mission, including its ₹16,300 crore public expenditure proposal and ₹1,500 crore recycling incentive."}', '{"title":"India has made continuous efforts to become self-reliant in critical minerals, says MoS Satish Chandra Dubey","publisher":"ANI","date":"2026-08-31","url":"https://www.aninews.in/news/business/india-has-made-continuous-efforts-to-become-self-reliant-in-critical-minerals-says-mos-satish-chandra-dubey20260831094906","context":"Independent wire-service corroboration of the ministerial roadshow and the mission’s mining, recycling and supply-chain rationale."}']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
