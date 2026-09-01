@@ -7,7 +7,7 @@ import { getThinRecordBySlug } from "@/lib/thinRegistry";
 import { ThinEntityPage } from '@/app/_thinEntityPage';
 
 export function generateStaticParams() { return listStaticParamsForBase("/research/drones-uas/platform/"); }
-export const dynamicParams = false;
+// dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs
 
 const num = (v: number | null, u: string) => (v == null ? null : `${v.toLocaleString('en-IN')}${u}`);
 

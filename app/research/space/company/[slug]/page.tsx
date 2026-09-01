@@ -7,7 +7,7 @@ import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
 import { getThinRecordBySlug } from "@/lib/thinRegistry";
 import { ThinEntityPage } from "@/app/_thinEntityPage";
 export function generateStaticParams() { return listStaticParamsForBase("/research/space/company/"); }
-export const dynamicParams = false;
+// dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;

@@ -3,11 +3,13 @@ import { companyDossierMetadata, renderCompanyDossierPage } from '../../../../_c
 import Link from 'next/link';
 import { AtlasNav } from '../../../AtlasNav';
 import { companies, companyBySlug, platformsForCompany, componentsForCompany } from '../../data';
+import { getThinRecordBySlug } from "@/lib/thinRegistry";
+import { ThinEntityPage } from "@/app/_thinEntityPage";
 import { RelatedReportsLinks, ENTITY_TO_REPORTS } from '../../../report-links';
 import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
 
 export function generateStaticParams() { return listStaticParamsForBase("/research/drones-uas/company/"); }
-export const dynamicParams = false;
+// dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs
 
 const COMPANY_SEO: Record<string, { title: string; description: string }> = {
   'drdo-centre-for-airborne-systems-cabs-mfr-031': {
@@ -43,6 +45,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
   const dossierPage = renderCompanyDossierPage(slug, 'drones-uas');
   if (dossierPage) return dossierPage;
   const c = companyBySlug(slug);
+  const thin = getThinRecordBySlug(slug);
+  if (thin) return <ThinEntityPage record={thin} />;
   if (!c) return <><AtlasNav /><section className="wrap"><p>Company not found.</p></section></>;
   const plats = platformsForCompany(c.name);
   const comps = componentsForCompany(c.name);

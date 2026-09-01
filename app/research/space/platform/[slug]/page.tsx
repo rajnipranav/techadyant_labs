@@ -8,7 +8,7 @@ import { getThinRecordBySlug } from "@/lib/thinRegistry";
 import { ThinEntityPage } from "@/app/_thinEntityPage";
 
 export function generateStaticParams() { return platforms.map((p) => ({ slug: p.slug })); }
-export const dynamicParams = false;
+// dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs
 
 const companySlug = (name: string) => companies.find((c) => c.name === name)?.slug;
 
