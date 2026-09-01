@@ -6,7 +6,16 @@ import { companies, companyBySlug, platformsForCompany } from '../../data';
 import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
 import { getThinRecordBySlug } from "@/lib/thinRegistry";
 import { ThinEntityPage } from "@/app/_thinEntityPage";
-export function generateStaticParams() { return listStaticParamsForBase("/research/space/company/"); }
+export function generateStaticParams() { const dossierSlugs = listStaticParamsForBase("/research/space/company/");
+  const thinSlugs = [
+    { slug: "antrix" },
+    { slug: "department-of-space" },
+    { slug: "hal-space" },
+    { slug: "isro" }
+  ];
+  const seen = new Set(dossierSlugs.map(s => s.slug));
+  for (const s of thinSlugs) { if (!seen.has(s.slug)) dossierSlugs.push(s); }
+  return dossierSlugs; }
 // dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

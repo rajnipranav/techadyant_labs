@@ -19,7 +19,13 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  return listStaticParamsForBase("/research/military-aerospace/entity/");
+  const dossierSlugs = listStaticParamsForBase("/research/military-aerospace/entity/");
+  const thinSlugs = [
+    { slug: "a400m" }
+  ];
+  const seen = new Set(dossierSlugs.map(s => s.slug));
+  for (const s of thinSlugs) { if (!seen.has(s.slug)) dossierSlugs.push(s); }
+  return dossierSlugs;
 }
 
 export default async function Page({ params }: DossierPageProps) {

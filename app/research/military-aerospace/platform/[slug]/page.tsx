@@ -9,7 +9,13 @@ import { getThinRecordBySlug } from "@/lib/thinRegistry";
 import { ThinEntityPage } from "@/app/_thinEntityPage";
 
 export function generateStaticParams() {
-  return listStaticParamsForBase("/research/military-aerospace/platform/");
+  const dossierSlugs = listStaticParamsForBase("/research/military-aerospace/platform/");
+  const thinSlugs = [
+    { slug: "a400m" }
+  ];
+  const seen = new Set(dossierSlugs.map(s => s.slug));
+  for (const s of thinSlugs) { if (!seen.has(s.slug)) dossierSlugs.push(s); }
+  return dossierSlugs;
 }
 // dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs
 

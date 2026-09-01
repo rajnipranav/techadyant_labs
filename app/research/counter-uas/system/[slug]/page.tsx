@@ -8,7 +8,60 @@ import { getThinRecordBySlug } from "@/lib/thinRegistry";
 import { ThinEntityPage } from "@/app/_thinEntityPage";
 
 export function generateStaticParams() {
-  return listStaticParamsForBase("/research/counter-uas/system/");
+  const dossierSlugs = listStaticParamsForBase("/research/counter-uas/system/");
+  const thinSlugs = [
+    { slug: "anti-drone-system-x-mk3-cus-006" },
+    { slug: "aselsan-redet-cuas-cus-044" },
+    { slug: "blue-halo-locust-laser-cus-053" },
+    { slug: "bharat-dynamics-limited-bdl-counter-drone-cus-060" },
+    { slug: "cerberus-gl6-cuas-capable-cus-047" },
+    { slug: "counter-drone-system-ccuas-cus-002" },
+    { slug: "cuas-net-launcher-portable-cus-019" },
+    { slug: "dedroneplatform-cus-034" },
+    { slug: "dronegun-tactical-cus-022" },
+    { slug: "dronedefender-cus-021" },
+    { slug: "detect-destroy-anti-drone-system-cus-015" },
+    { slug: "drona-counter-drone-smart-city-cus-020" },
+    { slug: "dronesentry-x-cus-023" },
+    { slug: "epirus-leonidas-pod-hpm-cus-052" },
+    { slug: "elbit-bright-arrow-soft-hard-kill-cus-040" },
+    { slug: "fortem-skydome-system-cus-033" },
+    { slug: "defence-anti-drone-system-dads-cus-008" },
+    { slug: "iai-drone-guard-cus-027" },
+    { slug: "esc-britecloud-drfm-decoy-cuas-capable-cus-049" },
+    { slug: "hal-integrated-cuas-airborne-cus-059" },
+    { slug: "iai-elm-2182-drone-detection-radar-cus-028" },
+    { slug: "iron-beam-laser-cuas-cus-051" },
+    { slug: "insas-counter-drone-naval-cus-016" },
+    { slug: "kriti-counter-drone-system-cus-014" },
+    { slug: "knds-france-rapidfire-naval-cuas-cus-054" },
+    { slug: "northrop-grumman-centurion-c-ram-variant-cus-038" },
+    { slug: "bordtek-skywall-100-cus-045" },
+    { slug: "l3harris-vampire-cuas-variant-cus-041" },
+    { slug: "lockheed-martin-athena-cus-037" },
+    { slug: "leonardo-falcon-shield-cus-029" },
+    { slug: "rafael-c-dome-naval-cus-025" },
+    { slug: "rafael-litening-5-eo-ir-pod-cuas-capable-cus-039" },
+    { slug: "rafael-drone-dome-cus-024" },
+    { slug: "rheinmetall-oerlikon-skynex-cus-031" },
+    { slug: "rtx-high-energy-laser-weapon-system-helws-cus-036" },
+    { slug: "saab-giraffe-amb-cuas-variant-cus-043" },
+    { slug: "hensoldt-xpeller-counter-uas-cus-032" },
+    { slug: "sapphire-counter-drone-dutch-origin-cus-048" },
+    { slug: "skyfang-net-gun-portable-cus-046" },
+    { slug: "diehl-defence-hpem-high-power-em-cus-055" },
+    { slug: "trishul-anti-drone-system-cus-013" },
+    { slug: "sm-netra-anti-drone-system-cus-012" },
+    { slug: "skylock-dome-cuas-cus-050" },
+    { slug: "thales-ground-master-60-cuas-variant-cus-030" },
+    { slug: "spike-firefly-loitering-munition-anti-drone-capable-cus-026" },
+    { slug: "raytheon-rtx-coyote-block-2-cus-035" },
+    { slug: "sagar-manthan-anti-drone-system-cus-017" },
+    { slug: "mbda-sky-warden-cus-042" }
+  ];
+  const seen = new Set(dossierSlugs.map(s => s.slug));
+  for (const s of thinSlugs) { if (!seen.has(s.slug)) dossierSlugs.push(s); }
+  return dossierSlugs;
 }
 // dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs
 

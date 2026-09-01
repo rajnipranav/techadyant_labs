@@ -13,7 +13,11 @@ import { listStaticParamsForBase } from '../../../../../../lib/loadDossier';
 const BASE = '/research/pillars/defence';
 
 export function generateStaticParams() {
-  return listStaticParamsForBase("/research/pillars/defence/entity/");
+  const dossierSlugs = listStaticParamsForBase("/research/pillars/defence/entity/");
+  const dataSlugs = entities.map(e => ({ slug: entitySlug(e.id) }));
+  const seen = new Set(dossierSlugs.map(s => s.slug));
+  for (const s of dataSlugs) { if (!seen.has(s.slug)) dossierSlugs.push(s); }
+  return dossierSlugs;
 }
 // dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs
 

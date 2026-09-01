@@ -8,7 +8,31 @@ import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
 import { getThinRecordBySlug } from "@/lib/thinRegistry";
 import { ThinEntityPage } from "@/app/_thinEntityPage";
 
-export function generateStaticParams() { return listStaticParamsForBase("/research/military-aerospace/company/"); }
+export function generateStaticParams() { const dossierSlugs = listStaticParamsForBase("/research/military-aerospace/company/");
+  const thinSlugs = [
+    { slug: "aviadvigatel" },
+    { slug: "collins" },
+    { slug: "dowty" },
+    { slug: "europrop" },
+    { slug: "hamilton" },
+    { slug: "hi-lok-cherry" },
+    { slug: "intel-xilinx" },
+    { slug: "ivchenko-progress" },
+    { slug: "no3-brd-tug" },
+    { slug: "northrop" },
+    { slug: "parker" },
+    { slug: "moog-liebherr" },
+    { slug: "ruag" },
+    { slug: "telair" },
+    { slug: "iae" },
+    { slug: "vsmpo-avisma" },
+    { slug: "toray" },
+    { slug: "safran-landing" },
+    { slug: "ukroborprom" }
+  ];
+  const seen = new Set(dossierSlugs.map(s => s.slug));
+  for (const s of thinSlugs) { if (!seen.has(s.slug)) dossierSlugs.push(s); }
+  return dossierSlugs; }
 // dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

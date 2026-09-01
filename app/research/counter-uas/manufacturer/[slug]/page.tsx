@@ -9,7 +9,35 @@ import { getThinRecordBySlug } from "@/lib/thinRegistry";
 import { ThinEntityPage } from "@/app/_thinEntityPage";
 
 export function generateStaticParams() {
-  return listStaticParamsForBase("/research/counter-uas/manufacturer/");
+  const dossierSlugs = listStaticParamsForBase("/research/counter-uas/manufacturer/");
+  const thinSlugs = [
+    { slug: "droneshield-mfg-020" },
+    { slug: "dedrone-now-part-of-axon-mfg-021" },
+    { slug: "aselsan-mfg-036" },
+    { slug: "kritikal-securescan-mfg-012" },
+    { slug: "bluehalo-mfg-041" },
+    { slug: "knds-france-mfg-042" },
+    { slug: "alpha-design-technologies-mfg-013" },
+    { slug: "fortem-technologies-mfg-022" },
+    { slug: "diehl-defence-mfg-043" },
+    { slug: "epirus-mfg-040" },
+    { slug: "lockheed-martin-mfg-030" },
+    { slug: "northrop-grumman-mfg-031" },
+    { slug: "mbda-mfg-034" },
+    { slug: "rheinmetall-mfg-027" },
+    { slug: "openworks-engineering-bordtek-mfg-037" },
+    { slug: "teledyne-flir-mfg-039" },
+    { slug: "leonardo-mfg-025" },
+    { slug: "vega-integrated-systems-mfg-009" },
+    { slug: "l3harris-technologies-mfg-033" },
+    { slug: "c-dac-centre-for-development-of-advanced-computing-mfg-010" },
+    { slug: "raytheon-technologies-rtx-mfg-029" },
+    { slug: "robin-radar-systems-mfg-038" },
+    { slug: "hensoldt-mfg-028" }
+  ];
+  const seen = new Set(dossierSlugs.map(s => s.slug));
+  for (const s of thinSlugs) { if (!seen.has(s.slug)) dossierSlugs.push(s); }
+  return dossierSlugs;
 }
 // dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs
 
