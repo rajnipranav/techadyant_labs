@@ -105,6 +105,14 @@ export async function getReports(): Promise<CmsReport[]> {
 
 /** Convert a snake_case CMS row into the camelCase ReportMeta shape the UI
  *  components (cards, detail header, price badges) expect. */
+
+/** Rewrite library.techadyant.com cover URLs to local /covers/ paths. */
+function localCover(slug: string, remote?: string | null): string | undefined {
+  if (!remote) return undefined;
+  if (!remote.includes('library.techadyant.com/covers/')) return remote;
+  return `/covers/${slug}.jpg`;
+}
+
 export function cmsToReportMeta(c: CmsReport): ReportMeta {
   return {
     slug: c.slug,
@@ -124,7 +132,7 @@ export function cmsToReportMeta(c: CmsReport): ReportMeta {
     hasPdf: c.has_pdf,
     hasDeck: c.has_deck,
     pages: c.pages ?? undefined,
-    cover: c.cover || undefined,
+    cover: localCover(c.slug, c.cover),
     previewObject: c.preview_object || undefined,
     previewPages: c.preview_pages ?? undefined,
     keywords: c.keywords || [],
