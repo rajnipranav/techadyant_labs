@@ -237,7 +237,7 @@ export const reports: ReportMeta[] = [{
   hasPdf: true,
   hasDeck: false,
   pages: 127,
-  cover: 'https://library.techadyant.com/covers/India-Lunar-Economy.jpg',
+  cover: '/covers/india-lunar-economy.jpg',
   previewObject: 'https://library.techadyant.com/free%20reports/India-Lunar-Economy-Free.pdf',
   previewPages: 20,
   hasData: true,
