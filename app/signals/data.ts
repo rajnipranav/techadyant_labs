@@ -2590,6 +2590,43 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['India’s eighth critical-mineral auction tranche offers 20 new blocks across nine states, with five in Chhattisgarh.', '56 of 88 blocks offered so far have been auctioned, showing pipeline momentum rather than one-off progress.', 'The basket targets gallium, rare earths, tungsten, graphite and vanadium — inputs for semiconductors, batteries and defence.', 'Success depends on midstream processing capacity, not just mining leases.'],
   sources: ['{"title":"Five mineral blocks from Chhattisgarh included in the 8th Tranche of Critical & Strategic Mineral Blocks","publisher":"Ministry of Mines, Press Information Bureau","date":"2026-08-31","url":"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2305246","context":"Primary source for the 20-block tranche, its mineral basket, the five Chhattisgarh blocks, the 56-of-88 auction figure and the exploration-reimbursement and auction framework."}', '{"title":"India has made continuous efforts to become self-reliant in critical minerals, says MoS Satish Chandra Dubey","publisher":"ETEnergyWorld / The Economic Times","date":"2026-08-31","url":"https://energy.economictimes.indiatimes.com/amp/news/coal/india-has-made-continuous-efforts-to-become-self-reliant-in-critical-minerals-says-mos-satish-chandra-dubey/133642772","context":"Independent trade-publication account of the Raipur roadshow and the wider National Critical Mineral Mission, including its ₹16,300 crore public expenditure proposal and ₹1,500 crore recycling incentive."}', '{"title":"India has made continuous efforts to become self-reliant in critical minerals, says MoS Satish Chandra Dubey","publisher":"ANI","date":"2026-08-31","url":"https://www.aninews.in/news/business/india-has-made-continuous-efforts-to-become-self-reliant-in-critical-minerals-says-mos-satish-chandra-dubey20260831094906","context":"Independent wire-service corroboration of the ministerial roadshow and the mission’s mining, recycling and supply-chain rationale."}']
+}, {
+  slug: 'india-defence-psus-surge-capacity-indigenisation-roadmap-2026',
+  no: 'S-080',
+  title: 'India’s 16 defence PSUs are being pushed from production houses into surge-capacity platforms',
+  domain: 'Defence',
+  date: '2026-09-02',
+  dateLabel: '2 Sep 2026',
+  status: 'live',
+  excerpt: 'India’s defence-industrial challenge is no longer just whether it can manufacture more. After recording approximately ₹1.8 lakh crore in defence production in FY2025–26, the government is now pressing its 16 Defence Public Sector Undertakings to deliver faster, reduce imported content, convert R&D into deployable technology and maintain production through prolonged conflict.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Development',
+  type: 'h'
+}, {
+  text: 'Defence Minister Rajnath Singh reviewed the annual performance of all 16 Defence Public Sector Undertakings in New Delhi on 1 September 2026. The review covered indigenous production, advanced defence technologies, exports, supply chains and major-project execution. Singh directed the DPSUs to improve delivery timelines, reduce import dependence, turn R&D expenditure into intellectual property, prototypes and operational products, support startups and MSMEs, and raise product quality to global standards. He also highlighted assured supply chains, surge capacity, critical spares and rapid repair as national-security requirements. India’s FY2025–26 defence production was reported at approximately ₹1.8 lakh crore, of which DPSUs contributed about ₹1.29 lakh crore. Seven DPSUs presented dividend cheques totalling ₹3,951 crore for the government’s equity shareholding.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'The statement reframes defence PSUs as resilience infrastructure rather than simply government-owned manufacturers. In a prolonged crisis, a platform’s availability depends on repair capacity, spares, production continuity and the ability to expand output under pressure. That makes delivery discipline and supply-chain depth as strategically important as headline production value. The figures also show the weight of DPSUs in India’s current defence industrial base: they account for roughly 72% of the reported FY2025–26 production total. The unresolved question is whether this scale can be converted into shorter lead times, higher domestic content, exportable products and technology leadership rather than remaining concentrated in established production lines.',
+  type: 'p'
+}, {
+  text: 'Techadyant view',
+  type: 'h'
+}, {
+  text: 'The next phase of Indian defence sovereignty is likely to be measured by industrial behaviour, not only by procurement announcements. The minister’s emphasis on prototypes, operational products, critical spares and rapid repair points towards an execution layer that has often received less attention than new platforms. The release of five-year indigenisation and innovation roadmaps, including HAL modernisation and indigenisation roadmaps, creates a basis against which progress can be tracked. The strategic opportunity for private firms and MSMEs is to enter the less visible but high-leverage layers: qualified components, maintenance and repair, materials, test equipment, digital engineering and dual-use technologies. The risk is that broad directives remain disconnected from programme-level milestones and transparent supplier opportunities.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether each DPSU publishes measurable milestones for imported-content reduction, delivery-time improvement, local sourcing and export growth.', 'Conversion rates from R&D spending to protected IP, tested prototypes, production orders and fielded systems.', 'New procurement or partnership pathways for startups and MSMEs in critical spares, repair, electronics, materials and digital engineering.', 'Whether the five-year DPSU and HAL roadmaps are tied to funded programmes, qualification schedules and accountable delivery dates.', 'Evidence that production and repair capacity can scale during a prolonged operational demand surge rather than only during normal procurement cycles.']
+}],
+  takeaways: ['India’s 16 Defence PSUs contributed roughly 72% of the reported ₹1.8 lakh crore defence production in FY2025–26.', 'The Defence Minister has directed DPSUs to focus on delivery timelines, import reduction, R&D conversion, startup support and global quality standards.', 'Seven DPSUs paid ₹3,951 crore in dividends for 2025–26.', 'The strategic test is whether DPSU scale can be turned into shorter lead times, higher domestic content, exports and technology leadership.'],
+  sources: ['{"title":"Shri Rajnath Singh urges DPSUs to focus on timely delivery, self-reliance and global-standard quality","publisher":"Press Information Bureau, Ministry of Defence","date":"2026-09-01","url":"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2305615&v=9&reg=48&lang=2","context":"Primary government source for the review of 16 DPSUs, national-security rationale, production figures, roadmaps and dividend presentation."}', '{"title":"Focus on quality, R&D, timely delivery, exports: Defence Minister outlines roadmap for 16 DPSUs","publisher":"The Hindu BusinessLine","date":"2026-09-01","url":"https://www.thehindubusinessline.com/news/focus-on-quality-rd-timely-delivery-exports-defence-minister-outlines-roadmap-for-16-dpsus/article71415801.ece","context":"Independent corroboration of the minister’s execution, R&D, supply-chain and surge-capacity priorities and the FY2025–26 production split."}', '{"title":"Rajnath Singh reviews performance of 16 DPSUs, calls for timely delivery, self-reliance and global-standard quality","publisher":"The Statesman","date":"2026-09-01","url":"https://www.thestatesman.com/india/rajnath-singh-reviews-performance-of-16-dpsus-calls-for-timely-delivery-self-reliance-and-global-standard-quality-1503633742.html","context":"Independent corroboration of the review, the ₹1.8 lakh crore and ₹1.29 lakh crore figures, the ₹3,951 crore dividend and four roadmap publications."}']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
