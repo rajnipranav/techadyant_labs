@@ -45,6 +45,7 @@ import { ReportContent as IafContent, toc as iafToc } from '../content/iaf-auton
 import { ReportContent as IndustrialAiContent, toc as industrialAiToc } from '../content/industrial-ai-in-indian-manufacturing';
 import { ReportContent as AiComputeCorridorContent, toc as aiComputeCorridorToc } from '../content/india-ai-compute-corridor-economics';
 import { ReportContent as AerospaceMissingLinksContent, toc as aerospaceMissingLinksToc } from '../content/india-aerospace-supply-chain-missing-links';
+import { ReportContent as LunarContent, toc as lunarToc } from '../content/india-lunar-economy';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -82,6 +83,7 @@ const registry: Record<string, ReportModule> = {
   'industrial-ai-in-indian-manufacturing': { toc: industrialAiToc, Content: IndustrialAiContent },
   'india-ai-compute-corridor-economics': { toc: aiComputeCorridorToc, Content: AiComputeCorridorContent },
   'india-aerospace-supply-chain-missing-links': { toc: aerospaceMissingLinksToc, Content: AerospaceMissingLinksContent },
+  'india-lunar-economy': { toc: lunarToc, Content: LunarContent },
 };
 
 export async function generateStaticParams() {

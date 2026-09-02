@@ -29,6 +29,17 @@ export const REPORTS = {
     dataObject: 'data/Beyond-Solar-Panels-Indian-Industrial-Intelligence.xlsx',
     dataFilename: 'Beyond-Solar-Panels-Data-Pack-Techadyant-Labs.xlsx',
   },
+  'india-lunar-economy': {
+    access: 'paid',
+    priceInr: 11900,
+    object: 'India-Lunar-Economy.pdf',
+    filename: 'India-Lunar-Economy-Techadyant-Labs.pdf',
+    title: 'India and the Emerging Lunar Economy',
+    // Report + Data tier
+    priceWithDataInr: 16900,
+    dataObject: 'data/India-Lunar-Economy.xlsx',
+    dataFilename: 'India-Lunar-Economy-Data-Pack-Techadyant-Labs.xlsx',
+  },
   'q-day-india': {
     access: 'free',
     publicBucket: true,

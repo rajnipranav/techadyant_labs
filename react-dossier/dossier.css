@@ -5,38 +5,31 @@
 /* ============================================================================*/
 
 .ed-dossier {
-  /* Use global CSS custom properties from globals.css (supports dark/light mode) */
-  /* Brand tokens */
-  --brass: var(--brass, #c9a84c);
-  --brass-dim: var(--brass-dim, #a08538);
-  --brass-soft: var(--brass-soft, #e8d6a0);
+  /* Inherit the site's theme-aware tokens from globals.css (dark by default, light under .light):
+     --bg, --text, --border, --border-strong, --brass, --text-muted are NOT redefined here. */
 
-  /* Neutrals - use global tokens */
-  --bg: var(--bg, #ffffff);
-  --bg-soft: var(--bg-2, #f6f4ef);
-  --bg-card: var(--surface, #fafaf7);
-  --border: var(--border, #e3dfd4);
-  --border-strong: var(--border-strong, #c5bfb0);
+  /* Dossier-only tokens, derived from the site palette so they follow the theme */
+  --brass-dim: var(--brass);
+  --brass-soft: rgba(201, 168, 76, 0.38);
+  --bg-soft: var(--bg-2);
+  --bg-card: var(--surface);
+  --text-dim: var(--text-muted);
+  --text-mute: #7c7c8c;
 
-  /* Text */
-  --text: var(--text, #1a1a1a);
-  --text-dim: var(--text-dim, #5d5a52);
-  --text-mute: var(--text-muted, #8a8780);
-
-  /* Severity */
-  --sev-critical: var(--sev-critical, #b3261e);
-  --sev-high: var(--sev-high, #c46a00);
-  --sev-medium: var(--sev-medium, #b39a00);
-  --sev-low: var(--sev-low, #1e7a3a);
-  --sev-unknown: var(--sev-unknown, #6b6b6b);
+  /* Severity (tuned to read on the dark surface) */
+  --sev-critical: #ef6b6b;
+  --sev-high: #e0913c;
+  --sev-medium: #d4bb3c;
+  --sev-low: #5fd3a3;
+  --sev-unknown: #9a9aa8;
 
   /* Score band */
-  --score-0: var(--score-0, #b3261e);
-  --score-1: var(--score-1, #c46a00);
-  --score-2: var(--score-2, #b39a00);
-  --score-3: var(--score-3, #6b8a1e);
-  --score-4: var(--score-4, #1e7a3a);
-  --score-5: var(--score-5, #0a5e2c);
+  --score-0: #ef6b6b;
+  --score-1: #e0913c;
+  --score-2: #d4bb3c;
+  --score-3: #9bbf3e;
+  --score-4: #5fd3a3;
+  --score-5: #2ea86a;
 
   /* Layout */
   --wrap-width: 1180px;
@@ -46,18 +39,14 @@
   --radius-lg: 10px;
 
   /* Type */
-  --font-sans: "Inter", "Noto Sans", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
+  --font-sans: "Inter", "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-serif: "Source Serif Pro", "Noto Serif", Georgia, serif;
 
-  /* Self-contained paper sheet (scoped — does not touch the dark site shell) */
+  /* Container — transparent, sits directly on the site's themed background (no white sheet) */
   max-width: var(--wrap-width);
   margin: 24px auto;
-  background: var(--bg);
+  padding: 32px clamp(20px, 4vw, 48px) 64px;
   color: var(--text);
-  padding: 40px clamp(20px, 4vw, 56px) 64px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
   font-family: var(--font-sans);
   display: flex;
   flex-direction: column;
@@ -194,43 +183,43 @@
 }
 
 .ed-dossier .ed-chip--status[data-status="Operational"] {
-  background: #e6f4ea;
-  color: #1e7a3a;
-  border-color: #b6dec5;
+  background: rgba(95, 211, 163, 0.15);
+  color: #5fd3a3;
+  border-color: rgba(95, 211, 163, 0.35);
 }
 
 .ed-dossier .ed-chip--status[data-status="In trials"] {
-  background: #fff4e0;
-  color: #c46a00;
-  border-color: #f0d9a8;
+  background: rgba(224, 145, 60, 0.15);
+  color: #e0913c;
+  border-color: rgba(224, 145, 60, 0.35);
 }
 
 .ed-dossier .ed-chip--status[data-status="Ordered"] {
-  background: #e0eefc;
-  color: #0a5e9e;
-  border-color: #b6d4f0;
+  background: rgba(108, 176, 255, 0.15);
+  color: #6cb0ff;
+  border-color: rgba(108, 176, 255, 0.35);
 }
 
 .ed-dossier .ed-chip--status[data-status="Development"], .ed-dossier .ed-chip--status[data-status="Prototype"] {
-  background: #f0eaf6;
-  color: #5a3a8c;
-  border-color: #d6c5e8;
+  background: rgba(183, 148, 230, 0.15);
+  color: #b794e6;
+  border-color: rgba(183, 148, 230, 0.35);
 }
 
 .ed-dossier .ed-chip--status[data-status="Retired"] {
-  background: #f4f4f4;
-  color: #6b6b6b;
-  border-color: #d8d8d8;
+  background: rgba(255, 255, 255, 0.06);
+  color: #9a9aa8;
+  border-color: rgba(255, 255, 255, 0.14);
 }
 
 .ed-dossier .ed-chip--status[data-status="Unknown"] {
-  background: #f4f4f4;
-  color: #6b6b6b;
-  border-color: #d8d8d8;
+  background: rgba(255, 255, 255, 0.06);
+  color: #9a9aa8;
+  border-color: rgba(255, 255, 255, 0.14);
 }
 
 .ed-dossier .ed-chip--tier[data-tier="A"] {
-  background: #fcf6e0;
+  background: rgba(201, 168, 76, 0.15);
   color: var(--brass-dim);
   border-color: var(--brass-soft);
 }
@@ -242,15 +231,15 @@
 }
 
 .ed-dossier .ed-chip--tier[data-tier="C"] {
-  background: #f4f4f4;
+  background: rgba(255, 255, 255, 0.06);
   color: var(--text-mute);
   border-color: var(--border);
 }
 
 .ed-dossier .ed-chip--threat {
-  background: #fde8e8;
+  background: rgba(239, 107, 107, 0.15);
   color: var(--sev-critical);
-  border-color: #f4c5c5;
+  border-color: rgba(239, 107, 107, 0.35);
 }
 
 .ed-dossier .ed-domain-chip {
@@ -372,27 +361,27 @@
 }
 
 .ed-dossier .ed-sev--critical {
-  background: #fde8e8;
+  background: rgba(239, 107, 107, 0.15);
   color: var(--sev-critical);
 }
 
 .ed-dossier .ed-sev--high {
-  background: #fff4e0;
+  background: rgba(224, 145, 60, 0.15);
   color: var(--sev-high);
 }
 
 .ed-dossier .ed-sev--medium {
-  background: #fcf6e0;
+  background: rgba(201, 168, 76, 0.15);
   color: var(--sev-medium);
 }
 
 .ed-dossier .ed-sev--low {
-  background: #e6f4ea;
+  background: rgba(95, 211, 163, 0.15);
   color: var(--sev-low);
 }
 
 .ed-dossier .ed-sev--unknown {
-  background: #f4f4f4;
+  background: rgba(255, 255, 255, 0.06);
   color: var(--sev-unknown);
 }
 
@@ -597,7 +586,7 @@
 }
 
 .ed-dossier .ed-open-q-item {
-  background: #fff8e6;
+  background: rgba(201, 168, 76, 0.12);
   border-left: 3px solid var(--brass);
   padding: 10px 14px;
   margin-bottom: 8px;
@@ -669,23 +658,23 @@
 }
 
 .ed-dossier .ed-trust--official {
-  background: #e6f4ea;
+  background: rgba(95, 211, 163, 0.15);
   color: var(--score-4);
 }
 
 .ed-dossier .ed-trust--credible {
-  background: #fcf6e0;
+  background: rgba(201, 168, 76, 0.15);
   color: var(--brass-dim);
 }
 
 .ed-dossier .ed-trust--indicative {
-  background: #f4f4f4;
+  background: rgba(255, 255, 255, 0.06);
   color: var(--text-mute);
 }
 
 .ed-dossier .ed-trust--methodology {
-  background: #f0eaf6;
-  color: #5a3a8c;
+  background: rgba(183, 148, 230, 0.15);
+  color: #b794e6;
 }
 
 .ed-dossier .ed-source-title {
@@ -738,7 +727,7 @@
 
 .ed-dossier .ed-cta-btn--primary {
   background: var(--brass);
-  color: #fff;
+  color: #0b0b14;
 }
 
 .ed-dossier .ed-cta-btn--primary:hover {
