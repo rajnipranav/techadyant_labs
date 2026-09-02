@@ -345,6 +345,8 @@ import rheinmetall_oerlikon_skynex_cus_031 from "../data/dossiers/rheinmetall-oe
 import an32_ai20d_engine from "../data/dossiers/an32-ai20d-engine.json";
 import il76_d30kp_engine from "../data/dossiers/il76-d30kp-engine.json";
 import a400m from "../data/dossiers/a400m.json";
+import aerovironment_inc_mfr_004 from "../data/dossiers/aerovironment-inc-mfr-004.json";
+import in_space from "../data/dossiers/in-space.json";
 
 export const DOSSIER_MAP: Record<string, EntityDossier> = {
   "aadyah-space": aadyah_space as unknown as EntityDossier,
@@ -675,6 +677,7 @@ export const DOSSIER_MAP: Record<string, EntityDossier> = {
   "zen-anti-drone-system-zads-cus-003": zen_anti_drone_system_zads_cus_003 as unknown as EntityDossier,
   "zen-technologies-mfg-003": zen_technologies_mfg_003 as unknown as EntityDossier,
   "zorawar-light-tank-def-001": zorawar_light_tank_def_001 as unknown as EntityDossier,
+
 };
 
 export interface LoadDossierResult {
