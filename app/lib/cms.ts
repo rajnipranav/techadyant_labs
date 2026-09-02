@@ -106,12 +106,20 @@ export async function getReports(): Promise<CmsReport[]> {
 /** Convert a snake_case CMS row into the camelCase ReportMeta shape the UI
  *  components (cards, detail header, price badges) expect. */
 
+/** Known slug-to-extension overrides (most covers are .jpg). */
+const COVER_EXT: Record<string, string> = {
+  'india-green-hydrogen': '.png',
+  'comprehensive-technology-roadmap-for-unmanned-aerial-systems-and-loitering-munitions': '.png',
+};
+
 /** Rewrite library.techadyant.com cover URLs to local /covers/ paths. */
 function localCover(slug: string, remote?: string | null): string | undefined {
   if (!remote) return undefined;
   if (!remote.includes('library.techadyant.com/covers/')) return remote;
-  return `/covers/${slug}.jpg`;
+  const ext = COVER_EXT[slug] || '.jpg';
+  return `/covers/${slug}` + ext;
 }
+
 
 export function cmsToReportMeta(c: CmsReport): ReportMeta {
   return {
