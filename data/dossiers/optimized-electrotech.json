@@ -1,74 +1,94 @@
 {
-  "entity_id": "optimized-electrotech",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "optimized-electrotech",
+ "entity_id": "atl-cmp-optimized-electrotech",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "optimized-electrotech",
+ "name": "Optimized Electrotech",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Optimized Electrotech",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Optimized Electrotech dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Optimized Electrotech",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Optimized Electrotech",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Optimized Electrotech space evidence pending verification.",
-    "sources": [
-      "src-opt-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-opt-1",
-      "title": "Optimized Electrotech website",
-      "publisher": "Optimized Electrotech",
-      "url": "https://optimizedelectrotech.com/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
-  ],
-  "seo": {
-    "title": "Optimized Electrotech — Company · India Space Atlas | Techadyant",
-    "meta_description": "Optimized Electrotech company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/optimized-electrotech/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "role": "Electro-optics / Sensors",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/optimized-electrotech/"
+ },
+ "at_a_glance": {
+  "indicators": [],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Optimized Electrotech is an Ahmedabad-based electro-optical and infrared (EO/IR) imaging company building AI-enabled surveillance payloads for defence, space and homeland-security applications, spanning drones, satellites and ground systems. It is part of India's small set of private firms developing native space-grade imaging payloads rather than integrating imported cameras.",
+ "india_angle": "ISRO transferred its Optical Imaging System technology to Optimized Electrotech in 2023 under an IN-SPACe-facilitated agreement, and the company reports deployment of AI-based surveillance systems with Indian forces and roughly Rs 100 crore of backing. It is a named supplier candidate in India's private EO payload ecosystem.",
+ "intelligence_assessment": "The ISRO technology-transfer agreement is a verifiable, government-anchored India signal. Revenue-scale, in-orbit performance and defence-order specifics remain thinly evidenced publicly; track subsequent IN-SPACe/ISRO payloads and armed-force procurement notices for confirmation.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What does Optimized Electrotech make?",
+   "a": "AI-enabled electro-optical/infrared imaging payloads and surveillance systems for satellites, drones and ground use."
+  },
+  {
+   "q": "What ISRO link does it have?",
+   "a": "ISRO transferred its Optical Imaging System technology to the company in 2023 via an IN-SPACe-facilitated agreement."
+  },
+  {
+   "q": "Where is it based?",
+   "a": "Ahmedabad, Gujarat, India."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "optimizedelectrotech.com",
+   "title": "Optimized Electrotech - satellite manufacturers EO/IR systems (vendor)",
+   "url": "https://optimizedelectrotech.com/industries/satellite-manufacturers",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "telecom.economictimes.indiatimes.com",
+   "title": "ISRO transfers Optical Imaging System technology to Optimized Electrotech",
+   "url": "https://telecom.economictimes.indiatimes.com/news/portal-in-portal/satcom/isro-transfers-optical-imaging-system-technology-to-optimized-electrotech/104346847",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "yourstory.com",
+   "title": "Optimized Electrotech: India's AI electro-optical systems company",
+   "url": "https://yourstory.com/2026/04/optimized-electrotech-ai-surveillance",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Optimized Electrotech - Space Atlas - Techadyant Labs",
+  "description": "Optimized Electrotech is an Ahmedabad-based electro-optical and infrared (EO/IR) imaging company building AI-enabled surveillance payloads for defence, space ",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

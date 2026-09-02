@@ -1,74 +1,99 @@
 {
-  "entity_id": "galaxeye",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "galaxeye",
+ "entity_id": "atl-cmp-galaxeye",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "galaxeye",
+ "name": "GalaxEye",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "GalaxEye",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "GalaxEye dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "GalaxEye",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "GalaxEye",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "GalaxEye is an Indian space startup building SAR and multi-sensor satellite constellations.",
-    "sources": [
-      "src-gal-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-gal-1",
-      "title": "GalaxEye website",
-      "publisher": "GalaxEye",
-      "url": "https://galaxeye.space/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Company overview."
-    }
+  "role": "OEM / Satellite EO",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/galaxeye/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Bengaluru"
+   }
   ],
-  "seo": {
-    "title": "GalaxEye — Company · India Space Atlas | Techadyant",
-    "meta_description": "GalaxEye company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/galaxeye/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "GalaxEye Space is a Bengaluru-based earth-observation startup building the Drishti constellation, positioned as the world's first commercial OptoSAR satellites fusing multispectral optical and SAR imaging in a single platform for all-weather day-and-night imaging. Founded by IIT Madras alumni, the company raised seed and Series A rounds and flew an earlier 35 kg-class proof satellite (Drishti-1/Drishti mission) before the flagship.",
+ "india_angle": "Mission Drishti launched in May 2026 on an Indian launcher and was publicly noted by the Prime Minister's Office as the world's first OptoSAR satellite and the largest privately-built Indian satellite to date - a landmark for India's private EO sector. The programme anchors India's emerging commercial remote-sensing supply chain.",
+ "intelligence_assessment": "GalaxEye's launch milestone is among the strongest verified India signals in the space vertical. Constellation economics, sensor fusion performance and customer pipeline are still largely vendor-stated; validate against independent imagery analysis and follow-on satellite deliveries rather than the single-satellite headline.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What is GalaxEye building?",
+   "a": "The Drishti constellation of OptoSAR satellites that fuse optical multispectral and SAR imaging for all-weather, day-and-night earth observation."
+  },
+  {
+   "q": "When did GalaxEye launch its first satellite?",
+   "a": "The Mission Drishti satellite launched in May 2026."
+  },
+  {
+   "q": "Why is Drishti notable?",
+   "a": "It is reported as the world's first OptoSAR satellite and the largest privately-built Indian satellite, launched on an Indian vehicle."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "galaxeye.space",
+   "title": "Mission Drishti - World's First OptoSAR EO Satellite (vendor)",
+   "url": "https://galaxeye.space",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "satnews.com",
+   "title": "GalaxEye Successfully Launches Mission Drishti OptoSAR Satellite",
+   "url": "https://satnews.com/2026/05/03/galaxeye-successfully-launches-mission-drishti-optosar-satellite",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "eoportal.org",
+   "title": "Drishti Constellation (GalaxEye) - eoPortal",
+   "url": "https://www.eoportal.org/satellite-missions/galaxeye",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "GalaxEye - Space Atlas - Techadyant Labs",
+  "description": "GalaxEye Space is a Bengaluru-based earth-observation startup building the Drishti constellation, positioned as the world's first commercial OptoSAR satellite",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

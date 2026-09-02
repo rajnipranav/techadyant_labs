@@ -1,222 +1,113 @@
 {
-  "entity_id": "no1-brd-kanpur",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "no1-brd-kanpur",
+ "entity_id": "atl-cmp-no1-brd-kanpur",
+ "entity_type": "company",
+ "tier": "A",
+ "noindex": false,
+ "slug": "no1-brd-kanpur",
+ "name": "No. 1 Base Repair Depot, IAF (Kanpur)",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "No. 1 Base Repair Depot, IAF (Kanpur)",
-  "vertical": "military-aerospace",
-  "parent_hub_path": "/research/military-aerospace/company/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "The IAF's An-32 overhaul and transport-aircraft repair depot at Chakeri, Kanpur — the transfer-of-technology site for ~64 An-32RE upgrades and now the hub of the indigenous An-32 overhaul, indigenised-spares and life-extension effort keeping the fleet flying toward 2040.",
-    "chips": [
-      "B",
-      "MRO",
-      "Base Repair Depot",
-      "An-32 overhaul",
-      "Kanpur",
-      "Indigenous spares"
-    ],
-    "maker": "Indian Air Force — Maintenance Command",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Indian military MRO depot; performing indigenous An-32 overhaul, spares and life-extension",
-    "mobility_or_class": "Base Repair Depot (aircraft MRO/overhaul, no platform class)",
-    "operational_domains": [
-      "air"
-    ]
-  },
-  "at_a_glance": {
-    "Full_name": "No. 1 Base Repair Depot (1 BRD), Indian Air Force",
-    "Location": "Chakeri, Kanpur, Uttar Pradesh",
-    "Formed": "9 August 1948 (from No.1 Aircraft Repair Depot + No.10 Aircraft Storage)",
-    "Command": "Maintenance Command, IAF",
-    "Motto": "SAHAYATA SEVA (retained rather than the standard 'KAYA KALPA')",
-    "Primary_role": "Overhaul of the An-32 medium-transport fleet",
-    "Historic_role": "Serviced Spitfire, Vampire, Hunter, Avro/HS-748 and other IAF types over its history",
-    "Upgrade_role": "ToT site for ~64 An-32RE upgrades; now indigenous overhaul + spares + life-extension"
-  },
-  "what_it_is": {
-    "prose": "No. 1 Base Repair Depot (1 BRD) at Chakeri, Kanpur is the Indian Air Force's principal overhaul and repair depot for the An-32 medium-transport fleet, operating under Maintenance Command. Formed on 9 August 1948 (from the merger of No. 1 Aircraft Repair Depot and No. 10 Aircraft Storage unit), it has serviced a long line of IAF types — Spitfire, Vampire, Toofani, Mystere, Hunter and Avro/HS-748 — and presently focuses on the Antonov An-32. Under the roughly $400 million An-32RE upgrade contract signed with Antonov of Ukraine in 2009, about 40 aircraft were upgraded in Ukraine and a further ~64 at No. 1 BRD Kanpur under transfer of technology; the first Kanpur-upgraded RE aircraft entered service around 2011. After the RE programme stalled with the Russia-Ukraine war disrupting Ukrainian OEM support, No. 1 BRD became the hub of India's indigenous route — structural overhaul, AI-20 engine overhaul, indigenised spares (the IAF has reported significant cost savings from indigenising An-32 spares) and digital avionics/GPS — increasingly in partnership with private Indian firms, as the IAF drew up a roadmap to overhaul around 60 An-32 to keep the fleet flying toward 2040. It uniquely retains its original motto 'SAHAYATA SEVA'.",
-    "sources": [
-      "src-iaf-mc",
-      "src-gs-2011",
-      "src-tribune-outsource",
-      "src-defencein-2040"
-    ]
-  },
-  "variant": "Base Repair Depot (An-32 MRO)",
-  "deployments_procurement": {
-    "summary": "No. 1 BRD Kanpur overhauls the IAF's An-32 fleet. It was the transfer-of-technology site for ~64 An-32RE upgrades and, after the RE programme stalled, became the centre of the indigenous overhaul, indigenised-spares and life-extension effort — with a roadmap to overhaul ~60 airframes, increasingly with private industry.",
-    "rows": [
-      {
-        "agency": "IAF — No.1 BRD Kanpur / Antonov (Ukraine)",
-        "context": "An-32RE upgrade under transfer of technology",
-        "year": 2009,
-        "quantity_or_note": "~64 of ~105 aircraft upgraded at Kanpur (first RE ~2011)",
-        "sources": [
-          "src-gs-2011"
-        ]
-      },
-      {
-        "agency": "IAF — No.1 BRD Kanpur (+ private firms)",
-        "context": "Indigenous overhaul / life-extension of An-32 toward 2040",
-        "year": "2023–",
-        "quantity_or_note": "Roadmap to overhaul ~60 airframes; digital avionics, AI-20 overhaul, indigenous spares",
-        "sources": [
-          "src-tribune-outsource",
-          "src-defencein-2040"
-        ]
-      },
-      {
-        "agency": "IAF (via BRDs)",
-        "context": "Indigenisation of An-32 spares after Russia-Ukraine war",
-        "year": null,
-        "quantity_or_note": "Reported ~₹160 crore saved by indigenising spares",
-        "sources": [
-          "src-tribune-spares"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Exact split of overhaul work between No.1 BRD and private industry under the outsourcing roadmap.",
-      "Firm scope, cost and schedule of the indigenous An-32 life-extension programme."
-    ]
-  },
-  "import_dependencies": {
-    "summary": "As the An-32 overhaul depot, No. 1 BRD is exposed to the An-32's dependency on Ukraine (Antonov airframe design authority; Ivchenko-Progress AI-20 engines and OEM spares), disrupted by the Russia-Ukraine war — the driver behind its shift to indigenised spares and overhaul.",
-    "items": [
-      {
-        "component": "Antonov (Ukraine) airframe design authority & OEM support",
-        "severity": "Critical",
-        "note": "Wartime disruption cut OEM support, forcing indigenous overhaul at Kanpur.",
-        "pillar_link": "/research/military-aerospace/",
-        "sources": [
-          "src-defencein-2040"
-        ]
-      },
-      {
-        "component": "Ivchenko-Progress AI-20 engines & spares (Ukraine)",
-        "severity": "Critical",
-        "note": "Engine overhaul/spares disrupted; AI-20 overhaul now part of the indigenous route.",
-        "pillar_link": "/research/military-aerospace/",
-        "sources": [
-          "src-defencein-2040"
-        ]
-      },
-      {
-        "component": "RE-standard avionics/spares (Ukraine)",
-        "severity": "High",
-        "note": "Disruption forced a pivot to indigenous digital avionics and spares at Kanpur BRD.",
-        "pillar_link": "/research/military-aerospace/",
-        "sources": [
-          "src-tribune-spares"
-        ]
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "related_pillars": [
-      "/research/military-aerospace/"
-    ],
-    "referenced_by": [
-      "an32",
-      "iaf"
-    ]
-  },
-  "faq": [
-    {
-      "question": "What does No. 1 BRD Kanpur do?",
-      "answer": "No. 1 Base Repair Depot at Chakeri, Kanpur is the IAF's overhaul and repair depot for the An-32 medium-transport fleet, under Maintenance Command. Formed in 1948, it has serviced many IAF types over its history and today focuses on the An-32, including the transfer-of-technology upgrade of ~64 aircraft to RE standard and the current indigenous overhaul and life-extension effort.",
-      "sources": [
-        "src-iaf-mc",
-        "src-gs-2011"
-      ]
-    },
-    {
-      "question": "What is No. 1 BRD's role in keeping the An-32 flying after the Russia-Ukraine war?",
-      "answer": "With Antonov (Ukraine) OEM support disrupted, No. 1 BRD became the hub of India's indigenous An-32 route — structural overhaul, AI-20 engine overhaul, indigenised spares (the IAF reported around ₹160 crore saved) and digital avionics — increasingly with private Indian firms, under a roadmap to overhaul about 60 airframes toward 2040.",
-      "sources": [
-        "src-tribune-outsource",
-        "src-tribune-spares"
-      ]
-    }
+  "role": "mro,depot-mro",
+  "country": "India Indicative",
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/company/no1-brd-kanpur/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Kanpur, Uttar Pradesh"
+   },
+   {
+    "label": "Role",
+    "value": "Depot MRO and upgrade execution for An-32 fleet"
+   }
   ],
-  "sources": [
-    {
-      "id": "src-iaf-mc",
-      "title": "Maintenance Command",
-      "publisher": "Indian Air Force (official)",
-      "url": "https://indianairforce.nic.in/maintenance-command/",
-      "published_date": null,
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "Official IAF page: No.1 BRD Kanpur (Chakeri), formed 1948, presently overhauls the An-32; motto 'SAHAYATA SEVA'."
-    },
-    {
-      "id": "src-tribune-outsource",
-      "title": "Indian Air Force draws up roadmap to outsource overhaul of 60 AN-32 aircraft to the industry",
-      "publisher": "The Tribune",
-      "url": "https://www.tribuneindia.com/news/chandigarh/indian-air-force-draws-up-roadmap-to-outsource-overhaul-of-60-an-32-aircraft-to-the-industry-619923/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "IAF plan to overhaul ~60 An-32 with private industry alongside No.1 BRD Kanpur."
-    },
-    {
-      "id": "src-tribune-spares",
-      "title": "IAF saved ₹160 cr by indigenising spares after Russia-Ukraine war",
-      "publisher": "The Tribune",
-      "url": "https://www.tribuneindia.com/news/chandigarh/iaf-saved-160-cr-by-indigenising-spares-after-russia-ukraine-war-567972",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "IAF (via BRDs) indigenised An-32 spares after Ukraine supply disruption."
-    },
-    {
-      "id": "src-gs-2011",
-      "title": "Indian Air Force inducts upgraded Antonov-32 airlift aircraft",
-      "publisher": "GlobalSecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/india/2011/india-110609-irna02.htm",
-      "published_date": "2011-06-09",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "~64 An-32 upgraded to RE standard at No.1 BRD Kanpur under transfer of technology."
-    },
-    {
-      "id": "src-defencein-2040",
-      "title": "IAF's Soviet-Era An-32 Transport Aircraft to Fly Until 2040 with Major Indigenous Overhaul",
-      "publisher": "Defence.in",
-      "url": "https://defence.in/threads/iafs-soviet-era-an-32-transport-aircraft-to-fly-until-2040-with-major-indigenous-overhaul-by-private-public-sector.14780/",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Kanpur BRD + private firms to overhaul ~60 airframes; digital avionics, AI-20 overhaul, indigenous spares."
-    }
-  ],
-  "seo": {
-    "title": "No. 1 Base Repair Depot, IAF (Kanpur) — Company · India Military Aerospace Atlas | Techadyant",
-    "meta_description": "The IAF's An-32 overhaul depot at Chakeri, Kanpur — ToT site for ~64 An-32RE upgrades and now the hub of indigenous An-32 overhaul, indigenised spares and life-extension toward 2040.",
-    "canonical_path": "/research/military-aerospace/company/no1-brd-kanpur/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Organization",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/military-aerospace/company/",
-    "submit_correction": "/research/military-aerospace/submit-correction/",
-    "related_research": [
-      "/research/military-aerospace/platform/an32/",
-      "/research/military-aerospace/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "No. 1 Base Repair Depot (1 BRD) of the Indian Air Force at Kanpur is the service's oldest aircraft overhaul establishment, responsible for depot-level maintenance, repair, overhaul and upgrade of frontline aircraft types and rotables. Historically the 'mother depot' for transport-aircraft overhaul, it anchors IAF Maintenance Command's deep-repair capability for the An-32 fleet alongside 3 BRD Chandigarh.",
+ "india_angle": "1 BRD is central to India's An-32 sustainment: public reporting describes an IAF roadmap to overhaul the An-32 fleet in India at roughly 15 aircraft per overhaul cycle through 1 BRD Kanpur and 3 BRD Chandigarh, reducing dependence on Ukrainian OEM support. The depot also featured in presidential colour presentations as a heritage establishment.",
+ "intelligence_assessment": "The depot's role is officially documented, but throughput, cost and fleet-availability outcomes of the indigenised An-32 overhaul programme are not published in detail. Its importance to this atlas is as the institutional backbone of Indian military-aerospace MRO - watch An-32 overhaul completion rates as the key capability metric.",
+ "sites": [
+  "Kanpur Kanpur, Uttar Pradesh Indicative Depot-level MRO for An-32 fleet; AI-20D engine overhaul; An-32 RE mid-life upgrade implementation"
+ ],
+ "graph": {
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "What is No. 1 BRD Kanpur?",
+   "a": "The Indian Air Force's No. 1 Base Repair Depot at Kanpur - the service's oldest aircraft overhaul depot, handling deep maintenance of transport aircraft and rotables."
+  },
+  {
+   "q": "Why is 1 BRD important for the An-32?",
+   "a": "Public reporting describes the IAF's plan to overhaul the An-32 fleet in India at 1 BRD Kanpur and 3 BRD Chandigarh, reducing reliance on foreign OEM support."
+  },
+  {
+   "q": "Is 1 BRD a company?",
+   "a": "No - it is an IAF Maintenance Command establishment, not a commercial entity."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
+ ],
+ "sources": [
+  {
+   "publisher": "presidentofindia.nic.in",
+   "title": "Address during the presentation of colour to 1 Base Repair Depot (President of India)",
+   "url": "http://presidentofindia.nic.in/dr-apj-abdul-kalam/speeches/address-during-presentation-colour-1-brd-",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "en.wikipedia.org",
+   "title": "Maintenance Command - 1 Base Repair Depot (Aircraft), Kanpur",
+   "url": "https://en.wikipedia.org/wiki/Maintenance_Command",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "tribuneindia.com",
+   "title": "Indian Air Force draws up roadmap to outsource overhaul (An-32 depot roles)",
+   "url": "https://www.tribuneindia.com/news/india/indian-air-force-draws-up-roadmap-to-outsource-overhaul",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "iafhistory.in",
+   "title": "IAF Maintenance Framework 1947-1966 (1 Base Repair Depot, Kanpur)",
+   "url": "https://iafhistory.in/2026/01/12/iaf-maintenance-framework-1947-1966",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "No. 1 Base Repair Depot, IAF (Kanpur) - Military Aerospace Atlas - Techadyant Labs",
+  "description": "No.",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 4,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

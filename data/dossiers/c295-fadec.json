@@ -1,0 +1,96 @@
+{
+ "entity_id": "atl-dep-c295-fadec",
+ "entity_type": "dependency",
+ "tier": "C",
+ "noindex": true,
+ "slug": "c295-fadec",
+ "name": "Engine FADEC / Electronic Engine Control (EEC) hardware and software",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Engine FADEC / Electronic Engine Control (EEC) hardware and software",
+  "role": "CRITICAL dependency",
+  "country": null,
+  "status_line": "C-295",
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/dependency/c295-fadec/"
+ },
+ "at_a_glance": {
+  "indicators": [],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
+  }
+ },
+ "what_it_is": "Engine FADEC / Electronic Engine Control (EEC) hardware and software is listed in this atlas as a critical dependency. Engine FADEC and EEC hardware are concentrated with P&WC and Collins. DO-254 / DO-178C certification is a multi-year effort. The dependency is shared across all Indian transport platforms (PW127G on C-295, V2500-E5 on C-390, AE 2100D3 on C-130J, PT6A on Do-228 / HTT-40) and is therefore the single most critical strategic dependency in the ecosystem. ITAR/EAR exposure is significant.",
+ "import_dependencies": {
+  "note": "Dependency profile captured from the live legacy page and its structured data on 2026-09-02.",
+  "profile": {
+   "Criticality": "CRITICAL",
+   "Supply concentration": "single-source",
+   "Substitution difficulty": "severe",
+   "Foreign supplier": "P&WC + Collins Aerospace (Hamilton Sundstrand legacy)"
+  }
+ },
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "dependency_profile": {
+   "Criticality": "CRITICAL",
+   "Supply concentration": "single-source",
+   "Substitution difficulty": "severe",
+   "Foreign supplier": "P&WC + Collins Aerospace (Hamilton Sundstrand legacy)"
+  },
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "Why does Engine FADEC / Electronic Engine Control (EEC) hardware and software appear in the Military Aerospace Atlas?",
+   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a CRITICAL dependency relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
+ ],
+ "sources": [
+  {
+   "publisher": "www.rtx.com",
+   "title": "PW100/150 Engines (Pratt & Whitney official product page)",
+   "url": "https://www.rtx.com/en/prattwhitney/products/regional-aviation-engines/pw100-150",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "www.rtx.com",
+   "title": "Electronic Engine Controllers FADEC",
+   "url": "https://www.rtx.com/collinsaerospace/what-we-do/industries/commercial-aviation/power-and-controls/electronic-engine-controllers-fadec",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Engine FADEC / Electronic Engine Control (EEC) hardware and software - Military Aerospace Atlas - Techadyant Labs",
+  "description": "Engine FADEC / Electronic Engine Control (EEC) hardware and software is listed in this atlas as a critical dependency.",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 2,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

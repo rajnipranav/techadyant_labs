@@ -1,60 +1,120 @@
 {
-  "entity_id": "cus-035",
-  "entity_type": "system",
-  "tier": "C",
-  "noindex": true,
-  "slug": "raytheon-rtx-coyote-block-2-cus-035",
+ "entity_id": "atl-sys-raytheon-rtx-coyote-block-2-cus-035",
+ "entity_type": "system",
+ "tier": "B",
+ "noindex": false,
+ "slug": "raytheon-rtx-coyote-block-2-cus-035",
+ "name": "Raytheon (RTX) Coyote Block 2",
+ "vertical": "counter-uas",
+ "parent_hub_path": "/research/counter-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Raytheon (RTX) Coyote Block 2",
-  "variant": "Block 2",
-  "vertical": "counter-uas",
-  "parent_hub_path": "/research/counter-uas/",
-  "last_verified": "2026-08-29",
-  "status": "Unknown",
-  "header": {
-    "one_liner": "Raytheon (RTX) Coyote Block 2 — Tier C compact card; evidence bar not yet met for a full dossier. Manufacturer: Raytheon Technologies (RTX). Country: USA.",
-    "chips": [
-      "Tier C",
-      "Evidence gap"
-    ],
-    "maker": "Raytheon Technologies (RTX)",
-    "country": "USA",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable — Tier C compact card",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Maker": "Raytheon Technologies (RTX)",
-    "Country": "USA",
-    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; no documented Indian operational/procurement footprint in sources reviewed",
-    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection"
-  },
-  "what_it_is": {
-    "prose": "Raytheon (RTX) Coyote Block 2 (Block 2) is listed in the Techadyant Atlas register with maker Raytheon Technologies (RTX) and country of origin USA. However, a thorough review of public primary sources did not surface sufficient evidence to meet the Tier A or B evidence bar for a full dossier — specifically, no documented Indian operational deployment, procurement contract, or combat use was found. This Tier C compact card is therefore marked noindex and the slug is preserved in the register pending future evidence collection. When primary-source evidence becomes available (PIB/MoD releases, exchange filings, OEM IR pages, credible major-news coverage), this dossier can be elevated to Tier B or A.",
-    "sources": []
-  },
-  "open_questions": [
-    "Maker confirmation for Raytheon (RTX) Coyote Block 2 — listed as Raytheon Technologies (RTX) in Atlas register; verify against OEM primary sources",
-    "Documented Indian operational deployment or procurement footprint — not found in sources reviewed",
-    "Detection ranges, defeat mechanisms, indigenous content % — not documented in public sources",
-    "Whether this entity should be retained in the Atlas register or consolidated with a sibling entry"
+  "role": "Mobile",
+  "country": "USA",
+  "status_line": "Operational",
+  "subtitle": "V2",
+  "entity_path": "/research/counter-uas/system/raytheon-rtx-coyote-block-2-cus-035/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Raytheon Technologies (RTX)"
+   }
   ],
-  "sources": [],
-  "seo": {
-    "title": "Raytheon (RTX) Coyote Block 2 — System · India Counter Uas Atlas | Techadyant",
-    "meta_description": "Raytheon (RTX) Coyote Block 2 — Tier C compact card; evidence bar not yet met for a full dossier. Manufacturer: Raytheon Technologies (RTX). Country: USA.",
-    "canonical_path": "/research/counter-uas/system/raytheon-rtx-coyote-block-2-cus-035/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/counter-uas/",
-    "submit_correction": "/research/counter-uas/submit-correction/",
-    "related_research": [
-      "/research/counter-uas/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "Indigenous content": "0% (No - Fully Imported)"
+   }
   }
+ },
+ "what_it_is": "The Coyote Block 2 is RTX (Raytheon) expendable counter-drone interceptor - a small turbojet-powered munition that physically pursues and destroys hostile UAS, fielded by the US Army in large quantities and integrated with Ku-band radar and electronically scanned arrays.",
+ "india_angle": "Coyote is the reference interceptor-class C-UAS solution globally; no Indian purchase is publicly confirmed. Its relevance here is architectural - Indian services are studying interceptor layers alongside jamming and guns for swarm defence.",
+ "drone_types_countered": [
+  "Nano",
+  "Micro",
+  "Small UAV",
+  "Medium UAV",
+  "Fixed Wing",
+  "VTOL",
+  "FPV",
+  "Loitering Munition",
+  "Helicopter UAV",
+  "Swarm",
+  "Autonomous"
+ ],
+ "kill_chain": [
+  "Detect",
+  "Track",
+  "Identify",
+  "Classify",
+  "Decide",
+  "Neutralize",
+  "Assess"
+ ],
+ "intelligence_assessment": "US Army procurement is well documented (defence media and RTX). India linkage remains analytical; track any Indian C-UAS interceptor RFPs as the trigger event.",
+ "graph": {
+  "maker": {
+   "name": "Raytheon Technologies (RTX)",
+   "path": "/research/counter-uas/manufacturer/raytheon-technologies-rtx-mfg-029/"
+  },
+  "parent_hub": "/research/counter-uas/"
+ },
+ "faq": [
+  {
+   "q": "Does India use Coyote interceptors?",
+   "a": "No Indian Coyote acquisition is publicly known; it is tracked as the leading interceptor-class C-UAS reference."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "rtx.com",
+   "title": "Coyote C-UAS - Raytheon (RTX)",
+   "url": "https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/coyote",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "en.wikipedia.org",
+   "title": "Raytheon Coyote",
+   "url": "https://en.wikipedia.org/wiki/Raytheon_Coyote",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "defensescoop.com",
+   "title": "Army awards big contract for Coyote interceptors amid counter-drone push",
+   "url": "https://defensescoop.com/2024/09/27/army-awards-contract-coyote-interceptors-raytheon-counter-drone-197m",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Raytheon (RTX) Coyote Block 2 - Counter-UAS Atlas - Techadyant Labs",
+  "description": "The Coyote Block 2 is RTX (Raytheon) expendable counter-drone interceptor - a small turbojet-powered munition that physically pursues and destroys hostile UAS",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

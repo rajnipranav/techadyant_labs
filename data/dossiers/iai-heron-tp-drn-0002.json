@@ -1,0 +1,178 @@
+{
+ "entity_id": "atl-plat-iai-heron-tp-drn-0002",
+ "entity_type": "platform",
+ "tier": "B",
+ "noindex": false,
+ "slug": "iai-heron-tp-drn-0002",
+ "name": "IAI Heron TP",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "IAI Heron TP",
+  "role": "MALE UAV",
+  "country": "Israel",
+  "status_line": "Procurement",
+  "subtitle": "Mk II",
+  "entity_path": "/research/drones-uas/platform/iai-heron-tp-drn-0002/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Israel Aerospace Industries (IAI)"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Army — Aviation Corps"
+   },
+   {
+    "label": "Mission roles",
+    "value": "ISR, strategic strike, SIGINT, maritime patrol"
+   }
+  ],
+  "key_specs": [
+   "4,650 kg MTOW",
+   "1,000 kg payload",
+   "36 hr endurance",
+   "1,000 km range",
+   "13,000 m ceiling",
+   "220 km/h",
+   "Single turboprop (1200 hp class)"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "0",
+    "Indigenous content": "10%"
+   }
+  }
+ },
+ "what_it_is": "The IAI Heron TP is Israel Aerospace Industries' largest MALE UAV: a heavy-fuel-engine platform with ~4,650 kg MTOW, 36-hour endurance and multi-mission sensor fits (EO/IR, SAR, SIGINT, maritime patrol). India is one of its most prominent export contexts - the Indian Army leased Heron TP airframes for high-altitude strategic surveillance.",
+ "india_angle": "Jane's and The Print reported in 2021 that the Indian Army leased four Heron TP UAVs under emergency procurement, joining India's ~90-strong Heron family fleet; follow-on Mk-II acquisition discussions have run in parallel. The platform is the operating benchmark for India's indigenous TAPAS MALE effort.",
+ "import_dependencies": {
+  "note": "Component/supplier map captured from the live legacy page on 2026-09-02 (unverified lineage).",
+  "components": [
+   {
+    "component": "Ku-band SATCOM antenna",
+    "category": "Data Link",
+    "supplier": "IAI/Elta"
+   },
+   {
+    "component": "Controp SPEEDER",
+    "category": "EO/IR Sensor",
+    "supplier": "Controp Precision Technologies"
+   },
+   {
+    "component": "EL/M-2055D SAR",
+    "category": "Radar",
+    "supplier": "Elta Systems (IAI subsidiary)"
+   },
+   {
+    "component": "Ku-band SATCOM antenna (v2)",
+    "category": "Data Link",
+    "supplier": "Elta Systems"
+   }
+  ]
+ },
+ "deployments_procurement": {
+  "summary": "The legacy atlas page lists 1 procurement row(s) (total Rs 3,500 cr). These rows predate this dossier upgrade and await independent verification.",
+  "records": [
+   {
+    "row": "Indian Army — Aviation Corps · 10 units · 2015 | ₹3,500 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   }
+  ],
+  "note": "No order, quantity or value on this page is asserted as verified fact. See open_questions."
+ },
+ "intelligence_assessment": "India's Heron TP lease is unusually well evidenced (defence-trade press plus the platform's own record). The open questions are lease renewals, the Heron Mk-II purchase decision and whether India's armed-Heron upgrades have flown - all tracked in Indian budget lines and IAI announcements.",
+ "graph": {
+  "maker": {
+   "name": "Israel Aerospace Industries (IAI)",
+   "path": "/research/drones-uas/company/israel-aerospace-industries-iai-mfr-001/"
+  },
+  "operator": "Indian Army — Aviation Corps",
+  "components": [
+   {
+    "component": "Ku-band SATCOM antenna",
+    "category": "Data Link",
+    "supplier": "IAI/Elta"
+   },
+   {
+    "component": "Controp SPEEDER",
+    "category": "EO/IR Sensor",
+    "supplier": "Controp Precision Technologies"
+   },
+   {
+    "component": "EL/M-2055D SAR",
+    "category": "Radar",
+    "supplier": "Elta Systems (IAI subsidiary)"
+   },
+   {
+    "component": "Ku-band SATCOM antenna (v2)",
+    "category": "Data Link",
+    "supplier": "Elta Systems"
+   }
+  ],
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Does India operate the Heron TP?",
+   "a": "The Indian Army leased four Heron TP UAVs from IAI, as reported by Jane's and The Print in 2021."
+  },
+  {
+   "q": "How does Heron TP compare to TAPAS?",
+   "a": "Heron TP is a mature ~36-hour MALE platform; TAPAS is India's indigenous MALE still moving through trials - the comparison frames India's import-versus-indigenous debate."
+  }
+ ],
+ "open_questions": [
+  "Verify the legacy atlas procurement row(s) against MoD/PIB/service announcements and add named sources to upgrade toward Tier B/A.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "janes.com",
+   "title": "Indian Army leases four Heron TP UAVs from Israel",
+   "url": "https://www.janes.com/defence-intelligence-insights/defence-news/indian-army-leases-four-heron-tp-uavs-from-israel",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "theprint.in",
+   "title": "Indian Army will soon get 4 Heron TP drones on lease from Israel",
+   "url": "https://theprint.in/defence/indian-army-will-soon-get-4-heron-tp-drones-on-lease-from-israel-plans-to-deploy-them-a",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "en.wikipedia.org",
+   "title": "IAI Heron",
+   "url": "https://en.wikipedia.org/wiki/IAI_Heron",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "IAI Heron TP - India UAS Atlas - Techadyant Labs",
+  "description": "The IAI Heron TP is Israel Aerospace Industries' largest MALE UAV: a heavy-fuel-engine platform with ~4,650 kg MTOW, 36-hour endurance and multi-mission senso",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

@@ -1,168 +1,99 @@
 {
-  "entity_id": "mta",
-  "entity_type": "platform",
-  "tier": "B",
-  "noindex": false,
-  "slug": "mta",
-  "name": "Indo-Russian Multirole Transport Aircraft (MTA / IL-214)",
-  "variant": "MTA / Il-214 (HAL–UAC joint venture)",
-  "vertical": "military-aerospace",
-  "parent_hub_path": "/research/military-aerospace/platform/",
-  "last_verified": "2026-08-29",
-  "status": "Retired",
-  "header": {
-    "one_liner": "A cancelled ~20-tonne medium airlifter that HAL and Russia's UAC were to co-develop through the joint venture Multirole Transport Aircraft Ltd; the programme collapsed around 2016 over engine, cost and design disputes, after which India shifted to the Airbus C-295 and indigenous options.",
-    "chips": [
-      "B",
-      "India-relevant",
-      "Cancelled programme",
-      "HAL–UAC JV",
-      "Historical"
-    ],
-    "maker": "Multirole Transport Aircraft Ltd (MTAL) — HAL 50% with Russia's UAC / Rosoboronexport (never built)",
-    "country": "India / Russia (joint venture)",
-    "indigenous_pct": null,
-    "indigenous_label": "Joint Indo-Russian design; cancelled before any prototype flew",
-    "mobility_or_class": "Planned medium military transport aircraft (~20-tonne payload class)",
-    "operational_domains": [
-      "air"
-    ]
-  },
-  "at_a_glance": {
-    "Programme": "Multirole Transport Aircraft (MTA), also designated Il-214",
-    "Partners": "HAL (India, 50%) and Russia's UAC + Rosoboronexport (25% each) via JV Multirole Transport Aircraft Ltd (MTAL)",
-    "Origin_dates": "Protocol/intent from 2001; general contract signed May 2012",
-    "Investment": "~$300 million committed by each side (first phase)",
-    "Planned_payload": "~20 tonnes (some reporting cites a 20–30 tonne category)",
-    "Planned_numbers": "India ~45 aircraft; Russia ~100; plus export ambitions",
-    "Intended_role": "Replace the Antonov An-32 fleet",
-    "Status": "Effectively shelved / terminated around 2016; no prototype ever flew",
-    "What_India_did_instead": "Extended An-32 life via upgrade; procured 56 Airbus C-295 (built in part by TASL, Vadodara)"
-  },
-  "what_it_is": {
-    "prose": "The Multirole Transport Aircraft (MTA), also designated Il-214, was a planned medium military airlifter of roughly the 20-tonne payload class that India and Russia intended to co-develop. It was structured through the joint venture Multirole Transport Aircraft Ltd (MTAL), with Hindustan Aeronautics Limited holding 50% and Russia's United Aircraft Corporation (UAC) and Rosoboronexport holding 25% each. The concept dated back to protocols from the early 2000s, with a general (tripartite) contract signed in May 2012 and each side committing about $300 million for the first phase; a first flight was originally targeted around 2017. India planned to acquire around 45 aircraft (Russia about 100, with export ambitions) to replace its ageing Antonov An-32 fleet. The programme stalled and was effectively shelved by early 2016: the Indian Air Force objected to the proposed Russian PD-14M turbofan engine and its altitude performance, the two sides could not agree on cost as Russia sought increased development funding, there were design and workshare disputes, and internal Russian coordination problems slowed progress. India's decision to extend the service life of ~104 An-32s through a mid-life upgrade further reduced the urgency. No prototype was ever built or flown. India subsequently pursued the Airbus C-295 for its medium-transport requirement — ordering 56 aircraft with a large share built in India by Tata Advanced Systems at Vadodara — and later saw other proposals (such as the Embraer/Mahindra C-390) for its transport needs. The Atlas records the MTA as a historically relevant but cancelled India–Russia programme.",
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "The MTA never reached production or service — no aircraft were procured or delivered. It was a development joint venture (MTAL) intended to yield ~45 aircraft for India and ~100 for Russia to replace the An-32, but it was shelved around 2016. India instead upgraded its An-32 fleet and procured the Airbus C-295.",
-    "rows": [
-      {
-        "agency": "HAL / UAC / Rosoboronexport (MTAL joint venture)",
-        "context": "Joint-venture development contract for the MTA/Il-214; ~$300 million committed per side",
-        "year": 2012,
-        "quantity_or_note": "General contract signed May 2012; planned ~45 for India, ~100 for Russia; never built",
-        "sources": [
-          "src-1",
-          "src-2"
-        ]
-      },
-      {
-        "agency": "India / Russia (governments)",
-        "context": "Programme effectively shelved/terminated over engine, cost and design disputes",
-        "year": 2016,
-        "quantity_or_note": "No prototype flown; India shifted to An-32 upgrade and Airbus C-295 (56 aircraft)",
-        "sources": [
-          "src-2",
-          "src-3"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Whether the MTAL joint venture was ever formally, legally wound up (vs. left dormant) is not settled in retrieved sources",
-      "Reported payload class varies between ~20 tonnes and 20–30 tonnes across sources"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "As a would-be joint Indo-Russian aircraft, the MTA's critical dependency was the collaboration itself — and its central technical sticking point was propulsion. The Indian Air Force's objection to the Russian PD-14M turbofan (particularly altitude performance) was a key reason the programme collapsed, illustrating engine-import dependence as a decisive risk in Indo-Russian co-development.",
-    "items": [
-      {
-        "component": "Engine (Russian PD-14M turbofan, proposed)",
-        "severity": "High",
-        "note": "IAF objected to the PD-14M and its altitude performance; a primary cause of the programme's collapse.",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": [
-          "src-1",
-          "src-3"
-        ]
-      },
-      {
-        "component": "Russian design/development share (UAC / Rosoboronexport)",
-        "severity": "High",
-        "note": "Cost escalation demands, design disputes and internal Russian coordination problems stalled the JV.",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": [
-          "src-1",
-          "src-2"
-        ]
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [
-      "/research/military-aerospace/platform/hs748/"
-    ],
-    "peer_systems": [
-      "/research/military-aerospace/platform/hs748/"
-    ],
-    "related_components": [],
-    "related_pillars": [
-      "/research/pillars/defence/"
-    ],
-    "referenced_by": []
-  },
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "India-Russia Aircraft Deal Terminated",
-      "publisher": "The Diplomat",
-      "url": "https://thediplomat.com/2017/03/india-russia-aircraft-deal-terminated/",
-      "published_date": "2017-03",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "HAL–UAC JV (Multi Role Transport Aircraft Ltd); general contract May 2012; $300M each; India up to 45, Russia ~100; cancelled over PD-14M engine objection, cost and design disputes; India shifting to 56 C-295 and An-32 upgrade."
-    },
-    {
-      "id": "src-2",
-      "title": "Multi-Role Transport Aircraft (MTA)",
-      "publisher": "GlobalSecurity.org",
-      "url": "https://www.globalsecurity.org/military/world/india/mta.htm",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "MTA/Il-214; ~20-tonne payload; MTAL JV — HAL 50%, UAC & Rosoboronexport 25% each; India ~45, Russia ~100, export ~60; to replace An-32; first flight once targeted 2017; project stalled."
-    },
-    {
-      "id": "src-3",
-      "title": "Indo-Russian Air Transport Project Falters",
-      "publisher": "Defense News",
-      "url": "https://www.defensenews.com/training-sim/2016/01/08/indo-russian-air-transport-project-falters/",
-      "published_date": "2016-01-08",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "MoD source: project 'almost shelved' Jan 2016; IAF unhappy with PD-14M engine and wanted higher-altitude capability; Russia sought steep cost increases; MTAL — HAL 50%, UAC & Rosoboronexport 25% each; to replace An-32."
-    }
+ "entity_id": "atl-plat-mta",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "mta",
+ "name": "Indo-Russian MTA (Multirole Transport Aircraft)",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Indo-Russian MTA (Multirole Transport Aircraft)",
+  "role": "medium tactical transport",
+  "country": "cancelled Indicative",
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/platform/mta/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Joint programme: Hindustan Aeronautics Limited (India) + United Aircraft Corporation (Russia)"
+   },
+   {
+    "label": "Role",
+    "value": "Projected tactical transport"
+   }
   ],
-  "seo": {
-    "title": "Indo-Russian Multirole Transport Aircraft (MTA / IL-214) — Platform · India Military Aerospace Atlas | Techadyant",
-    "meta_description": "The cancelled HAL–UAC Multirole Transport Aircraft (MTA/Il-214): a ~20-tonne airlifter shelved around 2016 over engine, cost and design disputes, after which India turned to the Airbus C-295.",
-    "canonical_path": "/research/military-aerospace/platform/mta/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Article",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/military-aerospace/platform/",
-    "submit_correction": "/research/military-aerospace/submit-correction/",
-    "related_research": [
-      "/research/military-aerospace/platform/hs748/",
-      "/research/pillars/defence/"
-    ]
+  "key_specs": [
+   "18.5 t payload",
+   "2,500 km range",
+   "800 km/h cruise",
+   "36,000 ft ceiling",
+   "Projected 2 × Aviadvigatel PD-14M derivative",
+   "Not applicable — turbofan-powered"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Indo-Russian MTA (Multirole Transport Aircraft) is listed in this atlas as a medium tactical transport (cancelled Indicative). The atlas legacy record attributes it to Joint programme: Hindustan Aeronautics Limited (India) + United Aircraft Corporation (Russia). Not applicable.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Joint programme: Hindustan Aeronautics Limited (India) + United Aircraft Corporation (Russia)",
+   "path": "/research/military-aerospace/company/hal/"
+  },
+  "dependency_profile": {
+   "Localization depth (max)": "L0",
+   "Production status": "cancelled"
+  },
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "Why does Indo-Russian MTA (Multirole Transport Aircraft) appear in the Military Aerospace Atlas?",
+   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a medium tactical transport relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
+ ],
+ "sources": [
+  {
+   "publisher": "www.flightglobal.com",
+   "title": "Indo-Russian MTA programme status — analysis",
+   "url": "https://www.flightglobal.com/",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Indo-Russian MTA (Multirole Transport Aircraft) - Military Aerospace Atlas - Techadyant Labs",
+  "description": "Indo-Russian MTA (Multirole Transport Aircraft) is listed in this atlas as a medium tactical transport (cancelled Indicative).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 1,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

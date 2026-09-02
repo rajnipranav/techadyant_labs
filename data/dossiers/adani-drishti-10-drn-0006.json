@@ -1,0 +1,152 @@
+{
+ "entity_id": "atl-plat-adani-drishti-10-drn-0006",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "adani-drishti-10-drn-0006",
+ "name": "Adani Drishti-10",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Adani Drishti-10",
+  "role": "MALE UAV",
+  "country": "India (licensed Elbit Hermes 900)",
+  "status_line": "In Service",
+  "subtitle": "StarGazer",
+  "entity_path": "/research/drones-uas/platform/adani-drishti-10-drn-0006/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Adani Defence & Aerospace"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Navy"
+   },
+   {
+    "label": "Mission roles",
+    "value": "ISR, maritime patrol, border surveillance"
+   }
+  ],
+  "key_specs": [
+   "1,180 kg MTOW",
+   "350 kg payload",
+   "36 hr endurance",
+   "1,000 km range",
+   "9,144 m ceiling",
+   "220 km/h",
+   "Rotax 914 (115 hp)"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "1",
+    "Indigenous content": "60%"
+   }
+  }
+ },
+ "what_it_is": "Adani Drishti-10 is listed in this atlas as a male uav (India (licensed Elbit Hermes 900)). The atlas legacy record attributes it to Adani Defence & Aerospace, with Indian Navy named as primary operator. First private Indian OEM to deliver MALE UAV to Indian armed forces. INAS 342 operates first unit.",
+ "import_dependencies": {
+  "note": "Component/supplier map captured from the live legacy page on 2026-09-02 (unverified lineage).",
+  "components": [
+   {
+    "component": "Rotax 914",
+    "category": "Engine",
+    "supplier": "BRP-Rotax (Austria) — via IAI"
+   },
+   {
+    "component": "Tata LPrS-50 datalink",
+    "category": "Data Link",
+    "supplier": "TASL (India, ToT)"
+   },
+   {
+    "component": "Tata LPrS-100 datalink",
+    "category": "Data Link",
+    "supplier": "TASL (India, ToT)"
+   }
+  ]
+ },
+ "deployments_procurement": {
+  "summary": "The legacy atlas page lists 3 procurement row(s) (total Rs 1,070 cr). These rows predate this dossier upgrade and await independent verification.",
+  "records": [
+   {
+    "row": "Indian Navy · 4 units · 2023 | ₹530 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   },
+   {
+    "row": "Indian Army — Aviation Corps · 2 units · 2023 | ₹270 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   },
+   {
+    "row": "Indian Air Force — 31 Squadron / UAV wing · 2 units · 2023 | ₹270 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   }
+  ],
+  "note": "No order, quantity or value on this page is asserted as verified fact. See open_questions."
+ },
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Adani Defence & Aerospace",
+   "path": "/research/drones-uas/company/adani-defence-aerospace-mfr-017/"
+  },
+  "operator": "Indian Navy",
+  "components": [
+   {
+    "component": "Rotax 914",
+    "category": "Engine",
+    "supplier": "BRP-Rotax (Austria) — via IAI"
+   },
+   {
+    "component": "Tata LPrS-50 datalink",
+    "category": "Data Link",
+    "supplier": "TASL (India, ToT)"
+   },
+   {
+    "component": "Tata LPrS-100 datalink",
+    "category": "Data Link",
+    "supplier": "TASL (India, ToT)"
+   }
+  ],
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does Adani Drishti-10 appear in the India UAS Atlas?",
+   "a": "It is part of the atlas's coverage of drones uas; the hub lists it as a MALE UAV relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Verify the legacy atlas procurement row(s) against MoD/PIB/service announcements and add named sources to upgrade toward Tier B/A.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Adani Drishti-10 - India UAS Atlas - Techadyant Labs",
+  "description": "Adani Drishti-10 is listed in this atlas as a male uav (India (licensed Elbit Hermes 900)).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

@@ -1,74 +1,91 @@
 {
-  "entity_id": "orbitaid-aerospace",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "orbitaid-aerospace",
-  "name": "Orbitaid Aerospace",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Orbitaid Aerospace dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Orbitaid Aerospace",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Orbitaid Aerospace",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Orbitaid Aerospace evidence pending verification.",
-    "sources": [
-      "src-orb-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-orb-1",
-      "title": "Orbitaid Aerospace website",
-      "publisher": "Orbitaid Aerospace",
-      "url": "https://orbitaid.aero/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
+ "entity_id": "atl-cmp-orbitaid-aerospace",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "orbitaid-aerospace",
+ "name": "OrbitAID Aerospace",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "OrbitAID Aerospace",
+  "role": "In-orbit servicing / Docking",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/orbitaid-aerospace/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Chennai"
+   }
   ],
-  "seo": {
-    "title": "Orbitaid Aerospace — Company · India Space Atlas | Techadyant",
-    "meta_description": "Orbitaid Aerospace company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/orbitaid-aerospace/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "OrbitAID Aerospace is an Indian in-space servicing startup developing on-orbit refuelling and docking technology, publicly targeting India's first on-orbit refuelling mission and announcing docking/refuelling contracts. Its systems aim to extend satellite life and enable servicing economics for Indian constellations.",
+ "india_angle": "OrbitAID announced India's first docking-and-refuelling contract (Maitri docking) and has been covered by space-industry networks as the front-runner for Indian on-orbit servicing - a capability area with clear dual-use defence interest.",
+ "intelligence_assessment": "Contract announcements and incubator coverage are verifiable at claim level; mission execution is the real test. Watch for its first docking demonstration and any ISRO/IN-SPACe authorisations.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What is OrbitAID building?",
+   "a": "On-orbit refuelling and docking systems to extend satellite life, targeting India's first on-orbit refuelling mission."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "orbitaid.com",
+   "title": "OrbitAID Aerospace - vendor site",
+   "url": "https://orbitaid.com",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "starburst.aero",
+   "title": "OrbitAID Aerospace to launch India's first ever on-orbit refueling mission",
+   "url": "https://starburst.aero/news/orbitaid-aerospace-to-launch-indias-first-ever-on-orbit-refueling-mission",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "linkedin.com",
+   "title": "OrbitAID Aerospace signs India's first docking & refueling contract (Maitri)",
+   "url": "https://www.linkedin.com/posts/orbitaid-aerospace_contract-maitri-docking-activity-7381184038771879936-NLK4",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "OrbitAID Aerospace - Space Atlas - Techadyant Labs",
+  "description": "OrbitAID Aerospace is an Indian in-space servicing startup developing on-orbit refuelling and docking technology, publicly targeting India's first on-orbit re",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

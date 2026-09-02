@@ -1,0 +1,193 @@
+{
+ "entity_id": "atl-plat-drdo-tapas-bh-rustom-ii-drn-0007",
+ "entity_type": "platform",
+ "tier": "B",
+ "noindex": false,
+ "slug": "drdo-tapas-bh-rustom-ii-drn-0007",
+ "name": "DRDO TAPAS-BH (Rustom-II)",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "DRDO TAPAS-BH (Rustom-II)",
+  "role": "MALE UAV",
+  "country": "India",
+  "status_line": "Testing",
+  "subtitle": "Mk 1 / Mk 2",
+  "entity_path": "/research/drones-uas/platform/drdo-tapas-bh-rustom-ii-drn-0007/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "DRDO — Aeronautical Development Establishment (ADE)"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Army — Aviation Corps"
+   },
+   {
+    "label": "Mission roles",
+    "value": "ISR, BDA, SIGINT, maritime patrol"
+   }
+  ],
+  "key_specs": [
+   "1,800 kg MTOW",
+   "350 kg payload",
+   "18 hr endurance",
+   "1,000 km range",
+   "9,144 m ceiling",
+   "225 km/h",
+   "Twin NPO Saturn piston engines (Russian, 105 hp ea"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "6",
+    "Indigenous content": "90%"
+   }
+  }
+ },
+ "what_it_is": "TAPAS-BH-201 (formerly Rustom-II) is DRDO's indigenous medium-altitude long-endurance UAV, developed by ADE with HAL as production partner. It has flown progressively higher and longer in user-evaluation trials, including service-operated sorties over the Arabian Sea with the Indian Navy.",
+ "india_angle": "TAPAS is the flagship of India's indigenous MALE ambition: user-evaluation trials with the Army and Navy are public, and programme reviews have pushed performance targets toward operational thresholds. Its fate directly shapes India's import decisions for Herons and MQ-9Bs.",
+ "import_dependencies": {
+  "note": "Component/supplier map captured from the live legacy page on 2026-09-02 (unverified lineage).",
+  "components": [
+   {
+    "component": "NPO Saturn piston engine",
+    "category": "Engine",
+    "supplier": "NPO Saturn (Russia) — supplied to DRDO"
+   },
+   {
+    "component": "BEL D-30 EO/IR",
+    "category": "EO/IR Sensor",
+    "supplier": "BEL (India — indigenous)"
+   },
+   {
+    "component": "LRDE AESA UAV radar",
+    "category": "Radar",
+    "supplier": "LRDE, DRDO (indigenous)"
+   },
+   {
+    "component": "Vem Tech GCS-100",
+    "category": "Ground Station",
+    "supplier": "Vem Technologies"
+   },
+   {
+    "component": "LRDE AESA radar (variant)",
+    "category": "Radar",
+    "supplier": "LRDE, DRDO"
+   },
+   {
+    "component": "BEL datalink v2",
+    "category": "Data Link",
+    "supplier": "BEL (indigenous)"
+   },
+   {
+    "component": "Vem Tech GCS-200",
+    "category": "Ground Station",
+    "supplier": "Vem Technologies"
+   }
+  ]
+ },
+ "intelligence_assessment": "Trial milestones are verifiable through DRDO and defence media, but the programme has publicly struggled to meet original end-user requirements. Watch the user-trial report and any limited-series production sanction as the decisive evidence.",
+ "graph": {
+  "maker": {
+   "name": "DRDO — Aeronautical Development Establishment (ADE)",
+   "path": "/research/drones-uas/company/drdo-aeronautical-development-establishment-ade-mfr-007/"
+  },
+  "operator": "Indian Army — Aviation Corps",
+  "components": [
+   {
+    "component": "NPO Saturn piston engine",
+    "category": "Engine",
+    "supplier": "NPO Saturn (Russia) — supplied to DRDO"
+   },
+   {
+    "component": "BEL D-30 EO/IR",
+    "category": "EO/IR Sensor",
+    "supplier": "BEL (India — indigenous)"
+   },
+   {
+    "component": "LRDE AESA UAV radar",
+    "category": "Radar",
+    "supplier": "LRDE, DRDO (indigenous)"
+   },
+   {
+    "component": "Vem Tech GCS-100",
+    "category": "Ground Station",
+    "supplier": "Vem Technologies"
+   },
+   {
+    "component": "LRDE AESA radar (variant)",
+    "category": "Radar",
+    "supplier": "LRDE, DRDO"
+   },
+   {
+    "component": "BEL datalink v2",
+    "category": "Data Link",
+    "supplier": "BEL (indigenous)"
+   },
+   {
+    "component": "Vem Tech GCS-200",
+    "category": "Ground Station",
+    "supplier": "Vem Technologies"
+   }
+  ],
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Is TAPAS in service?",
+   "a": "TAPAS has flown user-evaluation trials with the Indian Army and Navy; formal operational induction has not been announced."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "en.wikipedia.org",
+   "title": "TAPAS-BH-201",
+   "url": "https://en.wikipedia.org/wiki/TAPAS-BH-201",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "iadnews.in",
+   "title": "TAPAS BH-201 to soon go for user trials: HAL",
+   "url": "https://iadnews.in/tapas-bh-201-to-soon-go-for-user-trials-hal",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "understandupsc.com",
+   "title": "TAPAS-BH-201 profile",
+   "url": "https://www.understandupsc.com/tapas-bh-201",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "DRDO TAPAS-BH (Rustom-II) - India UAS Atlas - Techadyant Labs",
+  "description": "TAPAS-BH-201 (formerly Rustom-II) is DRDO's indigenous medium-altitude long-endurance UAV, developed by ADE with HAL as production partner.",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

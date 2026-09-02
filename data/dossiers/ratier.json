@@ -1,98 +1,78 @@
 {
-  "entity_id": "ratier",
-  "entity_type": "company",
-  "tier": "C",
-  "noindex": true,
-  "slug": "ratier",
-  "name": "Ratier-Figeac (Collins Aerospace)",
-  "vertical": "military-aerospace",
-  "parent_hub_path": "/research/military-aerospace/company/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "French propeller and cockpit-controls OEM (Collins Aerospace / RTX) that makes the 568F six-blade composite propeller used on the C-295-class turboprop airlifter, plus A400M propellers. Component supplier — Tier C.",
-    "chips": [
-      "Tier C",
-      "France",
-      "Collins Aerospace",
-      "RTX",
-      "568F propeller",
-      "C-295",
-      "Composite propeller"
-    ],
-    "country": "France",
-    "indigenous_pct": null,
-    "indigenous_label": "Foreign component/sub-system supplier — no standalone India footprint",
-    "mobility_or_class": "Component/sub-system supplier (no platform class)",
-    "operational_domains": [
-      "air"
-    ]
-  },
-  "at_a_glance": {
-    "Legal_name": "Ratier-Figeac (a Collins Aerospace / RTX business)",
-    "Parent": "Collins Aerospace, RTX Corporation",
-    "HQ": "Figeac, France",
-    "Product_lines": "Composite propellers (568F, A400M), cockpit controls, throttle/side-stick assemblies",
-    "India_relevance": "568F-class six-blade composite propeller associated with the C-295 airlifter operated by the IAF",
-    "Tier_C_reason": "Embedded propeller supplier via the airframer; no standalone India defence order card"
-  },
-  "what_it_is": {
-    "prose": "Ratier-Figeac, a Collins Aerospace (RTX) business based in Figeac, France, is an OEM of composite propellers and cockpit controls. It produces the 568F six-blade composite propeller family associated with turboprop airlifters of the C-295 class, as well as the A400M propellers. As the Indian Air Force operates the Airbus C-295, Ratier-Figeac propeller hardware is relevant to that fleet as an embedded sub-system supplied through the airframer rather than under a discrete, publicly documented India contract. Recorded as an honest Tier C component-supplier card; see the Collins Aerospace card for the parent entity.",
-    "sources": [
-      "src-1",
-      "src-2"
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "related_pillars": [
-      "/research/pillars/defence/"
-    ],
-    "referenced_by": [
-      "c295",
-      "c295-india-def-012"
-    ]
-  },
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Propeller Systems",
-      "publisher": "Collins Aerospace / RTX (official)",
-      "url": "https://www.rtx.com/collinsaerospace/what-we-do/industries/commercial-aviation/power-and-controls/propeller-systems",
-      "published_date": null,
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "Collins/Ratier-Figeac propeller systems (incl. 568F)"
-    },
-    {
-      "id": "src-2",
-      "title": "Nos produits — Ratier-Figeac",
-      "publisher": "Ratier-Figeac (official)",
-      "url": "https://ratier-figeac.fr/en/nos-produits/",
-      "published_date": null,
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "Ratier-Figeac product range — propellers and cockpit controls"
-    }
-  ],
-  "cta": {
-    "track_ecosystem": "/research/military-aerospace/company/",
-    "submit_correction": "/research/military-aerospace/submit-correction/",
-    "related_research": [
-      "/research/pillars/defence/"
-    ]
-  },
-  "seo": {
-    "title": "Ratier-Figeac (Collins Aerospace) — Company · India Military Aerospace Atlas | Techadyant",
-    "canonical_path": "/research/military-aerospace/company/ratier/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Organization",
-      "BreadcrumbList"
-    ],
-    "meta_description": "French propeller OEM (Collins Aerospace/RTX) making the 568F six-blade composite propeller relevant to the C-295 operated by the IAF. Component supplier. Tier C."
+ "entity_id": "atl-cmp-ratier",
+ "entity_type": "company",
+ "tier": "C",
+ "noindex": true,
+ "slug": "ratier",
+ "name": "Ratier-Figeac",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-404-restored",
+ "header": {
+  "name": "Ratier-Figeac",
+  "role": null,
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/company/ratier/"
+ },
+ "at_a_glance": {
+  "indicators": [],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Ratier-Figeac is a French propeller-systems manufacturer (within the Collins Aerospace/RTX structure) known for propeller systems on transport aircraft, including the FH386 eight-blade propeller associated with the A400M programme. The military-aerospace hub listed the company, but its atlas page was never published (HTTP 404 at crawl time).",
+ "india_angle": "No public Indian Ratier-Figeac procurement line has been verified. If the hub listing was C-130J/propulsion-dependency motivated, the relevant Indian evidence would live with propeller MRO discussions rather than a direct OEM contract.",
+ "intelligence_assessment": "This dossier exists to repair a dead hub link with an honest stub; it asserts no India order, deployment or content figure. Confirm the intended entity scope before deeper research investment.",
+ "graph": {
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "Why does None appear in the Military Aerospace Atlas?",
+   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a company relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm why the military-aerospace hub linked Ratier-Figeac - intended scope (A400M propellers vs C-130-class propeller MRO)?",
+  "Establish whether any Indian propeller MRO or component relationship exists via Collins Aerospace India.",
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "collinsaerospace.com",
+   "title": "Collins Aerospace - propellers (Ratier-Figeac lineage)",
+   "url": "https://www.collinsaerospace.com/what-we-do/military-and-defense/propellers",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Ratier-Figeac - Military Aerospace Atlas - Techadyant Labs",
+  "description": "Ratier-Figeac is a French propeller-systems manufacturer (within the Collins Aerospace/RTX structure) known for propeller systems on transport aircraft, inclu",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 1,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

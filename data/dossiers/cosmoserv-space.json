@@ -1,74 +1,91 @@
 {
-  "entity_id": "cosmoserv-space",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "cosmoserv-space",
-  "name": "Cosmoserv Space",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Cosmoserv Space dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Cosmoserv Space",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Cosmoserv Space",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Cosmoserv Space evidence pending verification.",
-    "sources": [
-      "src-cos-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-cos-1",
-      "title": "Cosmoserv Space website",
-      "publisher": "Cosmoserv Space",
-      "url": "https://cosmoserv.space/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
+ "entity_id": "atl-cmp-cosmoserv-space",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "cosmoserv-space",
+ "name": "Cosmoserv Space India",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Cosmoserv Space India",
+  "role": "Payload / Hosted systems",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/cosmoserv-space/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Bengaluru / Hyderabad"
+   }
   ],
-  "seo": {
-    "title": "Cosmoserv Space — Company · India Space Atlas | Techadyant",
-    "meta_description": "Cosmoserv Space company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/cosmoserv-space/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Cosmoserv Space India is a Hyderabad-based startup developing active debris removal (ADR) technology - autonomous robotic spacecraft designed to capture and deorbit orbital debris, and to offer commercial ADR services.",
+ "india_angle": "Cosmoserv is India's most visible early entrant in orbital debris services, a domain likely to see regulatory push as Indian constellation counts grow; IN-SPACe and international space-sustainability discussions are its natural policy context.",
+ "intelligence_assessment": "Company profile trackers and its own materials establish the thesis; no mission or contract heritage is public. This is a watch-list entity for space-sustainability policy events in India.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What is active debris removal?",
+   "a": "Technologies and services to capture and deorbit defunct satellites and debris - the market Cosmoserv targets from Hyderabad."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "cosmoserve.space",
+   "title": "Cosmoserve Space - active debris removal",
+   "url": "https://cosmoserve.space",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "startupintros.com",
+   "title": "Cosmoserve Space: funding, team and investors",
+   "url": "https://startupintros.com/orgs/cosmoserv-space",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "linkedin.com",
+   "title": "Cosmoserve Space - company page",
+   "url": "https://in.linkedin.com/company/cosmoserve-space",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Cosmoserv Space India - Space Atlas - Techadyant Labs",
+  "description": "Cosmoserv Space India is a Hyderabad-based startup developing active debris removal (ADR) technology - autonomous robotic spacecraft designed to capture and d",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

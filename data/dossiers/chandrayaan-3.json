@@ -1,138 +1,83 @@
 {
-  "entity_id": "chandrayaan-3",
-  "entity_type": "platform",
-  "tier": "B",
-  "noindex": false,
-  "slug": "chandrayaan-3",
+ "entity_id": "atl-plat-chandrayaan-3",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "chandrayaan-3",
+ "name": "Chandrayaan-3",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Chandrayaan-3",
-  "variant": "Chandrayaan-3",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/entity/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Chandrayaan-3 is ISRO’s successful lunar soft-landing and rover mission, achieving a landing near the Moon’s south pole in August 2023.",
-    "chips": [
-      "A",
-      "India-relevant",
-      "Operational"
-    ],
-    "maker": "Indian Space Research Organisation (ISRO)",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": [
-      "space"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Indian Space Research Organisation (ISRO)",
-    "Country": "India",
-    "Status": "Operational",
-    "Landing_date": "2023-08-23",
-    "Launcher": "LVM3-M4"
-  },
-  "what_it_is": {
-    "prose": "Chandrayaan-3 is a follow-on mission to Chandrayaan-2 demonstrating end-to-end safe landing and roving on the lunar surface. The mission soft-landed near the south pole on 23 August 2023 and conducted in-situ science with the Pragyan rover. ISRO has released science results including sulphur confirmation and lunar surface measurements.",
-    "sources": [
-      "src-ch3-1",
-      "src-ch3-2",
-      "src-ch3-3"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-ch3-1",
-      "title": "Chandrayaan-3",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/Chandrayaan3.html",
-      "published_date": null,
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "Mission overview and timeline."
-    },
-    {
-      "id": "src-ch3-2",
-      "title": "Chandrayaan-3 Details",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/Chandrayaan3_Details.html",
-      "published_date": null,
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "Lander, rover, propulsion module and payload details."
-    },
-    {
-      "id": "src-ch3-3",
-      "title": "Launch Missions",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/LaunchMissions.html",
-      "published_date": "2026-07-31",
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "Current ISRO mission list."
-    }
+  "role": "Lunar mission",
+  "country": "India",
+  "status_line": "Successful soft landing (2023); programme heritage",
+  "subtitle": "Lunar soft lander heritage",
+  "entity_path": "/research/space/platform/chandrayaan-3/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "ISRO"
+   },
+   {
+    "label": "Operator",
+    "value": "ISRO"
+   }
   ],
-  "seo": {
-    "title": "Chandrayaan-3 — Platform · India Space Atlas | Techadyant",
-    "meta_description": "Chandrayaan-3 is ISRO’s successful lunar soft-landing and rover mission near the Moon’s south pole in August 2023.",
-    "canonical_path": "/research/space/entity/chandrayaan-3/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/entity/",
-    "submit_correction": "/research/space/entity/submit-correction/",
-    "related_research": [
-      "/research/space/entity/"
-    ]
-  },
-  "faq": [
-    {
-      "question": "What is Chandrayaan-3?",
-      "answer": "A lunar soft-landing and rover mission.",
-      "sources": [
-        "src-ch3-1"
-      ]
-    },
-    {
-      "question": "Landing date?",
-      "answer": "23 August 2023 near the lunar south pole.",
-      "sources": [
-        "src-ch3-1"
-      ]
-    },
-    {
-      "question": "Rover?",
-      "answer": "Pragyan performed in-situ measurements.",
-      "sources": [
-        "src-ch3-2"
-      ]
-    }
+  "key_specs": [
+   "Lunar mission",
+   "Lunar soft lander heritage",
+   "Lunar orbit"
   ],
-  "timeline": [
-    {
-      "date": "2023-08-23",
-      "event": "Soft landing near lunar south pole.",
-      "sources": [
-        "src-ch3-1"
-      ]
-    },
-    {
-      "date": "2023-08-27",
-      "event": "LIBS confirms sulphur on lunar surface.",
-      "sources": [
-        "src-ch3-1"
-      ]
-    }
-  ],
-  "graph": {
-    "peer_systems": [
-      "/research/space/entity/lvm3/"
-    ]
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Chandrayaan-3 is listed in this atlas as a lunar mission (India). The atlas legacy record attributes it to ISRO. Successful lunar soft landing — cornerstone of Indian deep-space capability narrative.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "ISRO"
+  },
+  "operator": "ISRO",
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does Chandrayaan-3 appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a Lunar mission relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Chandrayaan-3 - Space Atlas - Techadyant Labs",
+  "description": "Chandrayaan-3 is listed in this atlas as a lunar mission (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

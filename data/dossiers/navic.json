@@ -1,150 +1,83 @@
 {
-  "entity_id": "navic",
-  "entity_type": "platform",
-  "tier": "A",
-  "noindex": false,
-  "slug": "navic",
-  "name": "NavIC (Navigation with Indian Constellation)",
-  "variant": "NavIC",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/entity/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "NavIC is India's independent regional navigation system providing PNT services over India and its surrounding region.",
-    "chips": [
-      "A",
-      "India-relevant",
-      "Operational"
-    ],
-    "maker": "Indian Space Research Organisation (ISRO)",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": [
-      "space"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Indian Space Research Organisation (ISRO)",
-    "Country": "India",
-    "Status": "Operational",
-    "Coverage": "India + ~1,500 km",
-    "Baseline": "Seven satellites",
-    "Modernization": "NVS series"
-  },
-  "what_it_is": {
-    "prose": "ISRO describes NavIC as an independent regional navigation system covering India and about 1,500 km beyond the landmass, with a seven-satellite baseline and NVS modernization. NVS-02 reached GTO but could not complete orbit raising because oxidizer valves did not open.",
-    "sources": [
-      "src-10",
-      "src-11",
-      "src-1",
-      "src-2"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-10",
-      "title": "NVS-02: Advancing India's Regional Navigation Capabilities",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/NVS-02_Advancing_Navigation_Capabilities.html",
-      "published_date": "2025-01-24",
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "NavIC service area and NVS-01/02/03/04/05 modernization."
-    },
-    {
-      "id": "src-11",
-      "title": "Navigation with Indian Constellation (NavIC)",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/media_isro/pdf/Missions/GSLVF12/GSLVF12_NVS01_Mission.pdf",
-      "published_date": "2023-05-29",
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "Seven-satellite baseline and second-generation NVS details."
-    },
-    {
-      "id": "src-1",
-      "title": "Launch Missions",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/LaunchMissions.html",
-      "published_date": "2026-07-31",
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "Current ISRO mission list."
-    },
-    {
-      "id": "src-2",
-      "title": "List of PSLV Launches",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/PSLV_Launchers.html",
-      "published_date": null,
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "64 listed PSLV launches through Jan 2026; PSLV operational."
-    }
+ "entity_id": "atl-plat-navic",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "navic",
+ "name": "NavIC / IRNSS",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "NavIC / IRNSS",
+  "role": "Navigation constellation",
+  "country": "India",
+  "status_line": "Operational; replenishment ongoing",
+  "subtitle": "Operational constellation",
+  "entity_path": "/research/space/platform/navic/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "ISRO"
+   },
+   {
+    "label": "Operator",
+    "value": "ISRO"
+   }
   ],
-  "seo": {
-    "title": "NavIC (Navigation with Indian Constellation) — Platform · India Space Atlas | Techadyant",
-    "meta_description": "NavIC is India's independent regional navigation system providing PNT services over India and its surrounding region. Manufacturer: Indian Space Research Organisation.",
-    "canonical_path": "/research/space/entity/navic/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/entity/",
-    "submit_correction": "/research/space/entity/submit-correction/",
-    "related_research": [
-      "/research/space/entity/"
-    ]
-  },
-  "faq": [
-    {
-      "question": "What is NavIC?",
-      "answer": "India's independent regional PNT system.",
-      "sources": [
-        "src-10"
-      ]
-    },
-    {
-      "question": "Baseline size?",
-      "answer": "Seven GEO/GSO satellites.",
-      "sources": [
-        "src-11"
-      ]
-    },
-    {
-      "question": "NVS-02?",
-      "answer": "GTO achieved; orbit raising failed due to oxidizer-admission valve issue.",
-      "sources": [
-        "src-10"
-      ]
-    }
+  "key_specs": [
+   "Navigation constellation",
+   "Operational constellation",
+   "GEO / GSO orbit"
   ],
-  "timeline": [
-    {
-      "date": "2023-05-29",
-      "event": "NVS-01 launched.",
-      "sources": [
-        "src-11"
-      ]
-    },
-    {
-      "date": "2025-01-29",
-      "event": "NVS-02 launched.",
-      "sources": [
-        "src-10"
-      ]
-    }
-  ],
-  "graph": {
-    "peer_systems": [
-      "/research/space/entity/pslv/"
-    ]
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "NavIC / IRNSS is listed in this atlas as a navigation constellation (India). The atlas legacy record attributes it to ISRO. Indian Regional Navigation Satellite System — sovereign PNT layer.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "ISRO"
+  },
+  "operator": "ISRO",
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does NavIC / IRNSS appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a Navigation constellation relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "NavIC / IRNSS - Space Atlas - Techadyant Labs",
+  "description": "NavIC / IRNSS is listed in this atlas as a navigation constellation (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

@@ -1,93 +1,84 @@
 {
-  "entity_id": "embrace-cosmoserv",
-  "entity_type": "platform",
-  "tier": "C",
-  "noindex": true,
-  "slug": "embrace-cosmoserv",
-  "name": "Embrace (Cosmoserve Space)",
-  "variant": "Mission Embrace — soft-robotic capture demo",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/entity/",
-  "last_verified": "2026-08-29",
-  "status": "Development",
-  "header": {
-    "one_liner": "Embrace is Cosmoserve Space's early-stage in-orbit soft-robotic capture demonstrator, flown as a payload on the Vikram-1 'Aagaman' maiden mission.",
-    "chips": [
-      "C",
-      "India-relevant",
-      "Debris capture",
-      "Early-stage demo"
-    ],
-    "maker": "Cosmoserve Space",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not asserted — early-stage, thin public evidence",
-    "mobility_or_class": "In-orbit soft-robotic capture / debris-handling demonstrator",
-    "operational_domains": [
-      "space"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Cosmoserve Space",
-    "Country": "India",
-    "Mission": "Mission Embrace",
-    "Carrier": "Vikram-1 'Aagaman' maiden flight (18 July 2026)",
-    "Goal": "Attempt a soft-robotic in-orbit capture — pitched as a world-first demonstration",
-    "Tier_C_reason": "Very early-stage startup with coverage limited to the Vikram-1 payload announcement; no standalone primary technical disclosure"
-  },
-  "what_it_is": {
-    "prose": "Embrace is an in-orbit technology-demonstration payload from Cosmoserve Space, an early-stage Indian startup, flown on Skyroot's Vikram-1 'Aagaman' maiden orbital mission of 18 July 2026. 'Mission Embrace' aims to demonstrate a soft-robotic capture mechanism in orbit — pitched in press coverage as a world-first attempt at soft-robotic in-orbit capture, relevant to future debris-removal and satellite-servicing concepts. Public evidence is limited to the Vikram-1 payload announcements and a handful of press items around the launch, so this remains an honest compact stub pending a primary technical description and on-orbit results.",
-    "sources": [
-      "src-1",
-      "src-2"
-    ]
-  },
-  "graph": {
-    "peer_systems": [
-      "vikram-1"
-    ],
-    "related_pillars": [
-      "/research/space/entity/"
-    ]
-  },
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Cosmoserve to test world-first soft robotic space-debris capture on Vikram-1",
-      "publisher": "Business Standard",
-      "url": "https://www.business-standard.com/industry/news/cosmoserve-to-test-world-first-soft-robotic-space-debris-capture-on-vikram-1-126070700623_1.html",
-      "published_date": "2026-07-07",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Mission Embrace soft-robotic capture demonstrator on Vikram-1."
-    },
-    {
-      "id": "src-2",
-      "title": "Vikram-1 to carry attractive payloads; gold, diamonds, in-orbit robotic arm and more",
-      "publisher": "The Week",
-      "url": "https://www.theweek.in/news/sci-tech/2026/07/07/vikram-1-india-commercial-space-launch-gold-diamonds-robotic-arm.html",
-      "published_date": "2026-07-07",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Vikram-1 manifest including Cosmoserve's in-orbit robotic-capture payload."
-    }
+ "entity_id": "atl-plat-embrace-cosmoserv",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "embrace-cosmoserv",
+ "name": "Embrace (Cosmoserv)",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Embrace (Cosmoserv)",
+  "role": "Hosted payload",
+  "country": "India",
+  "status_line": "Authorised hosted payload on Vikram-1 OAM stage",
+  "subtitle": "Hosted payload",
+  "entity_path": "/research/space/platform/embrace-cosmoserv/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Cosmoserv Space India"
+   },
+   {
+    "label": "Operator",
+    "value": "Cosmoserv on Vikram-1 OAM"
+   }
   ],
-  "seo": {
-    "title": "Embrace (Cosmoserve Space) — Platform · India Space Atlas | Techadyant",
-    "meta_description": "Embrace — Cosmoserve Space's early-stage in-orbit soft-robotic capture demonstrator, flown on the Vikram-1 'Aagaman' maiden mission (compact Tier C card).",
-    "canonical_path": "/research/space/entity/embrace-cosmoserv/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Article",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/entity/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/entity/"
-    ]
+  "key_specs": [
+   "Hosted payload",
+   "Hosted payload",
+   "LEO orbit"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Embrace (Cosmoserv) is listed in this atlas as a hosted payload (India). The atlas legacy record attributes it to Cosmoserv Space India. Hosted payload Embrace on orbital adjustment module of Vikram-1.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Cosmoserv Space India",
+   "path": "/research/space/company/cosmoserv-space/"
+  },
+  "operator": "Cosmoserv on Vikram-1 OAM",
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does Embrace (Cosmoserv) appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a Hosted payload relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Embrace (Cosmoserv) - Space Atlas - Techadyant Labs",
+  "description": "Embrace (Cosmoserv) is listed in this atlas as a hosted payload (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

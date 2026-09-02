@@ -1,0 +1,98 @@
+{
+ "entity_id": "atl-cmp-aerovironment-inc-mfr-004",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "aerovironment-inc-mfr-004",
+ "name": "AeroVironment Inc.",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "AeroVironment Inc.",
+  "role": "Foreign OEM",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/drones-uas/company/aerovironment-inc-mfr-004/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Arlington, VA"
+   }
+  ],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "Indigenous content": "N/A"
+   }
+  }
+ },
+ "what_it_is": "AeroVironment (AV) is a Virginia-headquartered US defence-technology company specialising in small unmanned aircraft systems, loitering munitions (the Switchblade family) and counter-UAS technologies. It is the Pentagon's dominant supplier of man-portable loitering munitions and has expanded into high-altitude pseudo-satellites and uncrewed maritime systems through recent acquisitions.",
+ "india_angle": "The atlas lists AeroVironment in the India UAS company atlas, but no India contract or authorised-sales case for Switchblade or JUMP 20 systems has been publicly confirmed. US policy shifts on armed-drone exports (MTCR Category I relaxation) opened the door for Indian acquisition discussions, which remain unverified at dossier time.",
+ "intelligence_assessment": "AV's product record is exceptionally well documented in US sources, which raises the atlas bar for its India file: any Indian order would be a major policy signal for armed UAS/loitering-munition proliferation to South Asia. Treat all India linkage as speculative until an FMS case, Indian budget line or vendor announcement appears.",
+ "graph": {
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Does India buy AeroVironment Switchblade?",
+   "a": "No Indian Switchblade procurement is publicly confirmed; the atlas listing reflects programme relevance, not a verified order."
+  },
+  {
+   "q": "What is AeroVironment known for?",
+   "a": "The Switchblade loitering-munition family and small UAS, which dominate US military procurement in those classes."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "investor.avinc.com",
+   "title": "AeroVironment Awarded $64.6 Million Contract by U.S. Army for Switchblade Systems",
+   "url": "https://investor.avinc.com/news-releases/news-release-details/aerovironment-awarded-646-million-contract-us-army-switchb",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "avinc.com",
+   "title": "AV Receives $186 Million U.S. Army Delivery Order for Next-Generation Switchblade Systems",
+   "url": "https://www.avinc.com/2026/02/26/av-receives-186-million-u-s-army-delivery-order-for-next-generation-switchblade-systems",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "en.wikipedia.org",
+   "title": "AeroVironment Switchblade",
+   "url": "https://en.wikipedia.org/wiki/AeroVironment_Switchblade",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "AeroVironment Inc. - India UAS Atlas - Techadyant Labs",
+  "description": "AeroVironment (AV) is a Virginia-headquartered US defence-technology company specialising in small unmanned aircraft systems, loitering munitions (the Switchb",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

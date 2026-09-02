@@ -1,74 +1,99 @@
 {
-  "entity_id": "etherealx",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "etherealx",
+ "entity_id": "atl-cmp-etherealx",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "etherealx",
+ "name": "EtherealX",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "EtherealX",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "EtherealX dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "EtherealX",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "EtherealX",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "EtherealX is an Indian reusable-vehicle startup; primary India evidence pending verification.",
-    "sources": [
-      "src-eth-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-eth-1",
-      "title": "EtherealX website",
-      "publisher": "EtherealX",
-      "url": "https://etherealx.space/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
+  "role": "Launch / Propulsion",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/etherealx/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Bengaluru"
+   }
   ],
-  "seo": {
-    "title": "EtherealX — Company · India Space Atlas | Techadyant",
-    "meta_description": "EtherealX company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/etherealx/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "EtherealX (Ethereal Exploration Guild) is a Bengaluru launch-vehicle startup building Razor Crest Mk-1, a fully reusable medium-lift rocket targeting roughly 8-tonne-class payloads with aggressive per-kilogram price claims. Founded by former industry engineers, the company raised a $5M seed in 2024 and a $20.5M round announced in January 2026, with TDK Ventures and Accel reported among backers.",
+ "india_angle": "If flown as designed, Razor Crest Mk-1 would be India's first fully reusable medium-lift vehicle, filling the launch-capacity gap between small-lift private rockets (Vikram-S, Agnibaan) and ISRO's LVM3 - directly relevant to India's planned 2026-2028 private constellation build-out.",
+ "intelligence_assessment": "EtherealX has credible institutional backing and a clear reusable-vehicle thesis, but no orbital launch or first-stage recovery has been publicly demonstrated yet. Treat engine test progress, static-fire milestones and revised launch dates as the honest indicators; price-per-kg claims are vendor projections, not market evidence.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What rocket is EtherealX building?",
+   "a": "Razor Crest Mk-1, a fully reusable medium-lift launch vehicle aimed at large payloads with low per-kilogram launch pricing."
+  },
+  {
+   "q": "Who invests in EtherealX?",
+   "a": "Reported backers include TDK Ventures and Accel; the company announced a $20.5M Series A in January 2026."
+  },
+  {
+   "q": "Has EtherealX launched yet?",
+   "a": "No orbital launch has been publicly demonstrated; the programme remains in development."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "techcrunch.com",
+   "title": "TDK Ventures, Accel set to back India's EtherealX in reusable launch vehicle push",
+   "url": "https://techcrunch.com/2025/12/18/tdk-ventures-accel-set-to-back-indias-etherealx-in-reusable-launch-vehicle-push",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "etherealx.space",
+   "title": "EtherealX - Razor Crest Mk-1 (vendor)",
+   "url": "https://www.etherealx.space",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "india.entrepreneur.com",
+   "title": "Spacetech Startup EtherealX Secures USD 20.5 Mn in Series A",
+   "url": "https://india.entrepreneur.com/news-and-trends/spacetech-startup-etherealx-secures-usd-205-mn-in-series-a/501988",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "EtherealX - Space Atlas - Techadyant Labs",
+  "description": "EtherealX (Ethereal Exploration Guild) is a Bengaluru launch-vehicle startup building Razor Crest Mk-1, a fully reusable medium-lift rocket targeting roughly ",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

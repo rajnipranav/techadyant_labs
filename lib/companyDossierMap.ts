@@ -101,6 +101,39 @@ import dossier_satsure_ from "../data/company-dossiers/satsure.json";
 import dossier_skyroot_aerospace_ from "../data/company-dossiers/skyroot-aerospace.json";
 import dossier_spacex_ from "../data/company-dossiers/spacex.json";
 import dossier_walchandnagar_ from "../data/company-dossiers/walchandnagar.json";
+import dossier_aerovironment_inc_mfr_004_ from "../data/dossiers/aerovironment-inc-mfr-004.json";
+import dossier_drdo_aeronautical_development_establishment_ade_mfr_007_ from "../data/dossiers/drdo-aeronautical-development-establishment-ade-mfr-007.json";
+import dossier_aadyah_space_ from "../data/dossiers/aadyah-space.json";
+import dossier_airbus_defence_space_ from "../data/dossiers/airbus-defence-space.json";
+import dossier_azista_bst_ from "../data/dossiers/azista-bst.json";
+import dossier_cosmoserv_space_ from "../data/dossiers/cosmoserv-space.json";
+import dossier_eon_space_labs_ from "../data/dossiers/eon-space-labs.json";
+import dossier_galaxeye_ from "../data/dossiers/galaxeye.json";
+import dossier_grahaa_space_ from "../data/dossiers/grahaa-space.json";
+import dossier_etherealx_ from "../data/dossiers/etherealx.json";
+import dossier_inorbit_space_ from "../data/dossiers/inorbit-space.json";
+import dossier_larsen_toubro_space_ from "../data/dossiers/larsen-toubro-space.json";
+import dossier_lockheed_martin_space_ from "../data/dossiers/lockheed-martin-space.json";
+import dossier_manastu_space_ from "../data/dossiers/manastu-space.json";
+import dossier_northrop_grumman_space_ from "../data/dossiers/northrop-grumman-space.json";
+import dossier_optimized_electrotech_ from "../data/dossiers/optimized-electrotech.json";
+import dossier_planet_labs_ from "../data/dossiers/planet-labs.json";
+import dossier_piersight_ from "../data/dossiers/piersight.json";
+import dossier_space_kidz_india_ from "../data/dossiers/space-kidz-india.json";
+import dossier_tonbo_imaging_ from "../data/dossiers/tonbo-imaging.json";
+import dossier_orbitaid_aerospace_ from "../data/dossiers/orbitaid-aerospace.json";
+import dossier_xdlinx_space_ from "../data/dossiers/xdlinx-space.json";
+import dossier_airbus_ds_ from "../data/dossiers/airbus-ds.json";
+import dossier_aequs_ from "../data/dossiers/aequs.json";
+import dossier_antonov_ from "../data/dossiers/antonov.json";
+import dossier_ceinsys_ from "../data/dossiers/ceinsys.json";
+import dossier_dynamatic_ from "../data/dossiers/dynamatic.json";
+import dossier_ilyushin_ from "../data/dossiers/ilyushin.json";
+import dossier_maini_precision_ from "../data/dossiers/maini-precision.json";
+import dossier_no1_brd_kanpur_ from "../data/dossiers/no1-brd-kanpur.json";
+import dossier_pwc_ from "../data/dossiers/pwc.json";
+import dossier_rr_ from "../data/dossiers/rr.json";
+import dossier_in_space_ from "../data/dossiers/in-space.json";
 
 export type CompanyDossierTier = "A" | "B";
 
@@ -213,4 +246,37 @@ export const COMPANY_DOSSIER_MAP: Record<string, readonly CompanyDossierMapEntry
   "skyroot-aerospace": [{ tier: "A", vertical: "space", path: "/research/space/skyroot-aerospace/", filename: "skyroot-aerospace.json", dossier: dossier_skyroot_aerospace_ as unknown as EntityDossier }],
   "spacex": [{ tier: "B", vertical: "space", path: "/research/space/spacex/", filename: "spacex.json", dossier: dossier_spacex_ as unknown as EntityDossier }],
   "walchandnagar": [{ tier: "A", vertical: "space", path: "/research/space/walchandnagar/", filename: "walchandnagar.json", dossier: dossier_walchandnagar_ as unknown as EntityDossier }],
+  "aerovironment-inc-mfr-004": [{ tier: "B", vertical: "drones-uas", path: "/research/drones-uas/company/aerovironment-inc-mfr-004/", filename: "aerovironment-inc-mfr-004.json", dossier: dossier_aerovironment_inc_mfr_004_ as unknown as EntityDossier }],
+  "drdo-aeronautical-development-establishment-ade-mfr-007": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/drdo-aeronautical-development-establishment-ade-mfr-007/", filename: "drdo-aeronautical-development-establishment-ade-mfr-007.json", dossier: dossier_drdo_aeronautical_development_establishment_ade_mfr_007_ as unknown as EntityDossier }],
+  "aadyah-space": [{ tier: "B", vertical: "space", path: "/research/space/company/aadyah-space/", filename: "aadyah-space.json", dossier: dossier_aadyah_space_ as unknown as EntityDossier }],
+  "airbus-defence-space": [{ tier: "B", vertical: "space", path: "/research/space/company/airbus-defence-space/", filename: "airbus-defence-space.json", dossier: dossier_airbus_defence_space_ as unknown as EntityDossier }],
+  "azista-bst": [{ tier: "B", vertical: "space", path: "/research/space/company/azista-bst/", filename: "azista-bst.json", dossier: dossier_azista_bst_ as unknown as EntityDossier }],
+  "cosmoserv-space": [{ tier: "B", vertical: "space", path: "/research/space/company/cosmoserv-space/", filename: "cosmoserv-space.json", dossier: dossier_cosmoserv_space_ as unknown as EntityDossier }],
+  "eon-space-labs": [{ tier: "B", vertical: "space", path: "/research/space/company/eon-space-labs/", filename: "eon-space-labs.json", dossier: dossier_eon_space_labs_ as unknown as EntityDossier }],
+  "galaxeye": [{ tier: "B", vertical: "space", path: "/research/space/company/galaxeye/", filename: "galaxeye.json", dossier: dossier_galaxeye_ as unknown as EntityDossier }],
+  "grahaa-space": [{ tier: "B", vertical: "space", path: "/research/space/company/grahaa-space/", filename: "grahaa-space.json", dossier: dossier_grahaa_space_ as unknown as EntityDossier }],
+  "etherealx": [{ tier: "B", vertical: "space", path: "/research/space/company/etherealx/", filename: "etherealx.json", dossier: dossier_etherealx_ as unknown as EntityDossier }],
+  "inorbit-space": [{ tier: "B", vertical: "space", path: "/research/space/company/inorbit-space/", filename: "inorbit-space.json", dossier: dossier_inorbit_space_ as unknown as EntityDossier }],
+  "larsen-toubro-space": [{ tier: "B", vertical: "space", path: "/research/space/company/larsen-toubro-space/", filename: "larsen-toubro-space.json", dossier: dossier_larsen_toubro_space_ as unknown as EntityDossier }],
+  "lockheed-martin-space": [{ tier: "B", vertical: "space", path: "/research/space/company/lockheed-martin-space/", filename: "lockheed-martin-space.json", dossier: dossier_lockheed_martin_space_ as unknown as EntityDossier }],
+  "manastu-space": [{ tier: "A", vertical: "space", path: "/research/space/company/manastu-space/", filename: "manastu-space.json", dossier: dossier_manastu_space_ as unknown as EntityDossier }],
+  "northrop-grumman-space": [{ tier: "B", vertical: "space", path: "/research/space/company/northrop-grumman-space/", filename: "northrop-grumman-space.json", dossier: dossier_northrop_grumman_space_ as unknown as EntityDossier }],
+  "optimized-electrotech": [{ tier: "B", vertical: "space", path: "/research/space/company/optimized-electrotech/", filename: "optimized-electrotech.json", dossier: dossier_optimized_electrotech_ as unknown as EntityDossier }],
+  "planet-labs": [{ tier: "B", vertical: "space", path: "/research/space/company/planet-labs/", filename: "planet-labs.json", dossier: dossier_planet_labs_ as unknown as EntityDossier }],
+  "piersight": [{ tier: "B", vertical: "space", path: "/research/space/company/piersight/", filename: "piersight.json", dossier: dossier_piersight_ as unknown as EntityDossier }],
+  "space-kidz-india": [{ tier: "B", vertical: "space", path: "/research/space/company/space-kidz-india/", filename: "space-kidz-india.json", dossier: dossier_space_kidz_india_ as unknown as EntityDossier }],
+  "tonbo-imaging": [{ tier: "A", vertical: "space", path: "/research/space/company/tonbo-imaging/", filename: "tonbo-imaging.json", dossier: dossier_tonbo_imaging_ as unknown as EntityDossier }],
+  "orbitaid-aerospace": [{ tier: "B", vertical: "space", path: "/research/space/company/orbitaid-aerospace/", filename: "orbitaid-aerospace.json", dossier: dossier_orbitaid_aerospace_ as unknown as EntityDossier }],
+  "xdlinx-space": [{ tier: "B", vertical: "space", path: "/research/space/company/xdlinx-space/", filename: "xdlinx-space.json", dossier: dossier_xdlinx_space_ as unknown as EntityDossier }],
+  "airbus-ds": [{ tier: "B", vertical: "military-aerospace", path: "/research/military-aerospace/company/airbus-ds/", filename: "airbus-ds.json", dossier: dossier_airbus_ds_ as unknown as EntityDossier }],
+  "aequs": [{ tier: "B", vertical: "military-aerospace", path: "/research/military-aerospace/company/aequs/", filename: "aequs.json", dossier: dossier_aequs_ as unknown as EntityDossier }],
+  "antonov": [{ tier: "B", vertical: "military-aerospace", path: "/research/military-aerospace/company/antonov/", filename: "antonov.json", dossier: dossier_antonov_ as unknown as EntityDossier }],
+  "ceinsys": [{ tier: "B", vertical: "military-aerospace", path: "/research/military-aerospace/company/ceinsys/", filename: "ceinsys.json", dossier: dossier_ceinsys_ as unknown as EntityDossier }],
+  "dynamatic": [{ tier: "B", vertical: "military-aerospace", path: "/research/military-aerospace/company/dynamatic/", filename: "dynamatic.json", dossier: dossier_dynamatic_ as unknown as EntityDossier }],
+  "ilyushin": [{ tier: "B", vertical: "military-aerospace", path: "/research/military-aerospace/company/ilyushin/", filename: "ilyushin.json", dossier: dossier_ilyushin_ as unknown as EntityDossier }],
+  "maini-precision": [{ tier: "B", vertical: "military-aerospace", path: "/research/military-aerospace/company/maini-precision/", filename: "maini-precision.json", dossier: dossier_maini_precision_ as unknown as EntityDossier }],
+  "no1-brd-kanpur": [{ tier: "A", vertical: "military-aerospace", path: "/research/military-aerospace/company/no1-brd-kanpur/", filename: "no1-brd-kanpur.json", dossier: dossier_no1_brd_kanpur_ as unknown as EntityDossier }],
+  "pwc": [{ tier: "B", vertical: "military-aerospace", path: "/research/military-aerospace/company/pwc/", filename: "pwc.json", dossier: dossier_pwc_ as unknown as EntityDossier }],
+  "rr": [{ tier: "B", vertical: "military-aerospace", path: "/research/military-aerospace/company/rr/", filename: "rr.json", dossier: dossier_rr_ as unknown as EntityDossier }],
+  "in-space": [{ tier: "B", vertical: "space", path: "/research/space/company/in-space/", filename: "in-space.json", dossier: dossier_in_space_ as unknown as EntityDossier }],
 };

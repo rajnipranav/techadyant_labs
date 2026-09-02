@@ -1,294 +1,85 @@
 {
-  "entity_id": "vikram-1",
-  "entity_type": "platform",
-  "tier": "A",
-  "noindex": false,
-  "slug": "vikram-1",
-  "name": "Skyroot Vikram-1",
-  "variant": "Vikram-I",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/entity/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Vikram-1 became India's first privately built rocket to reach orbit, on the 'Aagaman' maiden flight of 18 July 2026.",
-    "chips": [
-      "A",
-      "India-relevant",
-      "Private launch vehicle",
-      "Orbital"
-    ],
-    "maker": "Skyroot Aerospace Private Limited",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Skyroot describes Vikram-1 as India-developed; no audited indigenous percentage disclosed",
-    "mobility_or_class": "Small-lift orbital launch vehicle (~350 kg to LEO)",
-    "operational_domains": [
-      "space"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Skyroot Aerospace Private Limited",
-    "Country": "India",
-    "Maiden_orbital_flight": "18 July 2026 (Mission Aagaman)",
-    "Launch_site": "Satish Dhawan Space Centre, Sriharikota",
-    "Configuration": "Four-stage; solid-fuel lower stages plus liquid upper stage",
-    "Payload_to_LEO": "~350 kg (~450 km orbit)",
-    "First_flight_outcome": "Reported successful orbital insertion of all payloads",
-    "Significance": "First private orbital launch from Indian soil"
-  },
-  "what_it_is": {
-    "prose": "Vikram-1 is a small-lift orbital launch vehicle built by Hyderabad-based Skyroot Aerospace, named after Indian space pioneer Vikram Sarabhai. On 18 July 2026 the vehicle flew its maiden orbital mission, 'Aagaman' (Sanskrit for 'arrival'), from the Satish Dhawan Space Centre at Sriharikota, and press coverage reported a successful flight that placed its payload set into a roughly 450 km low Earth orbit — making Skyroot the first private Indian company to reach orbit and, in the framing of several outlets, placing India in a small group of nations with private orbital launch capability. The four-stage vehicle uses carbon-composite solid-propellant lower stages (Skyroot's Kalam-family solid motors) with a liquid-propellant upper stage for orbital insertion, and is rated to carry on the order of 350 kg to LEO. The Aagaman manifest carried a cluster of technology-demonstration payloads including Skyroot's own SCOPE performance-assessment payload, Cosmoserve Space's 'Embrace' soft-robotic capture demonstrator, Grahaa Space's Solaras nanosatellite pathfinder and a German DCUCED payload. This dossier treats the July 2026 flight as a reported orbital milestone and keeps future cadence, payload economics and localisation figures open pending primary disclosure.",
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3",
-      "src-4"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "Vikram-1 is a commercial small-satellite launcher; its first flight carried multiple third-party and in-house demonstration payloads under Skyroot's own launch campaign rather than a government procurement.",
-    "rows": [
-      {
-        "agency": "Skyroot Aerospace",
-        "context": "Maiden orbital flight 'Aagaman' from SDSC Sriharikota; carried SCOPE, Embrace (Cosmoserve), Grahaa Solaras and a German DCUCED payload",
-        "year": 2026,
-        "quantity_or_note": "1 flight (18 July 2026)",
-        "sources": [
-          "src-1",
-          "src-3"
-        ]
-      },
-      {
-        "agency": "IN-SPACe / ISRO",
-        "context": "Private launches from Sriharikota operate under India's post-2020 space-sector reforms enabling private access to national launch infrastructure",
-        "year": 2026,
-        "quantity_or_note": "Regulatory enablement",
-        "sources": [
-          "src-2"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Published price per kg and firm commercial manifest for subsequent Vikram-1 flights",
-      "Flight cadence Skyroot can sustain after the maiden mission"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "Skyroot emphasises in-house design and 3D-printed propulsion, but has not published a component-by-component sovereignty breakdown. Space-grade avionics and radiation-tolerant electronics remain a general dependency for Indian NewSpace launchers.",
-    "items": [
-      {
-        "component": "Space-grade / radiation-tolerant avionics and flight electronics",
-        "severity": "Medium",
-        "note": "Common import exposure for Indian private launchers; Skyroot has not disclosed sourcing",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "component": "Solid-propellant carbon-composite motors",
-        "severity": "Low",
-        "note": "Skyroot's Kalam-family solid motors are developed in-house",
-        "sources": [
-          "src-4"
-        ]
-      }
-    ]
-  },
-  "intelligence_assessment": {
-    "methodology_path": "/research/methodology",
-    "dimensions": [
-      {
-        "id": "design",
-        "label": "Design ownership",
-        "value": 5,
-        "note": "Vehicle designed in-house by Skyroot Aerospace in India",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "id": "production",
-        "label": "Production ownership",
-        "value": 5,
-        "note": "Built at Skyroot's Hyderabad facility; solid motors made in-house",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "id": "critical_components",
-        "label": "Critical component sovereignty",
-        "value": 3,
-        "note": "Propulsion indigenous; space-grade electronics sourcing undisclosed",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "id": "scale",
-        "label": "Scale / order book",
-        "value": 2,
-        "note": "Single maiden flight to date; commercial manifest not fully public",
-        "sources": [
-          "src-2"
-        ]
-      },
-      {
-        "id": "export_potential",
-        "label": "Export potential",
-        "value": 3,
-        "note": "Targets the global small-sat launch market; commercial track record still nascent",
-        "sources": [
-          "src-1"
-        ]
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [
-      "vikram-2",
-      "scope-skyroot"
-    ],
-    "peer_systems": [
-      "agnibaan"
-    ],
-    "related_pillars": [
-      "/research/space/entity/"
-    ]
-  },
-  "timeline": [
-    {
-      "date": "2022-11-18",
-      "event": "Vikram-S suborbital demonstrator ('Prarambh') launched — India's first private rocket.",
-      "sources": [
-        "src-4"
-      ]
-    },
-    {
-      "date": "2026-07-18",
-      "event": "Vikram-1 maiden orbital flight 'Aagaman' from Sriharikota.",
-      "sources": [
-        "src-1",
-        "src-3"
-      ]
-    }
+ "entity_id": "atl-plat-vikram-1",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "vikram-1",
+ "name": "Vikram-1",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Vikram-1",
+  "role": "Small Launch Vehicle",
+  "country": "India",
+  "status_line": "First private Indian orbital flight (Jul 2026)",
+  "subtitle": "Orbital",
+  "entity_path": "/research/space/platform/vikram-1/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Skyroot Aerospace"
+   },
+   {
+    "label": "Operator",
+    "value": "Skyroot / commercial"
+   }
   ],
-  "faq": [
-    {
-      "question": "When did Vikram-1 first reach orbit?",
-      "answer": "On its maiden 'Aagaman' flight of 18 July 2026 from Sriharikota, reported as the first private Indian orbital launch.",
-      "sources": [
-        "src-1",
-        "src-3"
-      ]
-    },
-    {
-      "question": "How much can it carry?",
-      "answer": "About 350 kg to low Earth orbit, per launch reporting.",
-      "sources": [
-        "src-1"
-      ]
-    },
-    {
-      "question": "What did the first flight carry?",
-      "answer": "Technology-demonstration payloads including Skyroot's SCOPE, Cosmoserve's Embrace robotic-capture demo, Grahaa's Solaras and a German DCUCED payload.",
-      "sources": [
-        "src-1",
-        "src-3"
-      ]
-    },
-    {
-      "question": "Is it Indian-built?",
-      "answer": "Yes; Skyroot designs and builds the vehicle in India, though no audited indigenous percentage has been published.",
-      "sources": [
-        "src-4"
-      ]
-    }
+  "key_specs": [
+   "Small Launch Vehicle",
+   "Orbital",
+   "LEO orbit",
+   "300 kg payload"
   ],
-  "open_questions": [
-    "Confirmed final orbit parameters and full payload deployment status from a primary ISRO/IN-SPACe release",
-    "Firm commercial launch manifest and pricing"
-  ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "'The dawn of a new space era': Vikram-1, India's 1st private orbital rocket, aces debut launch",
-      "publisher": "Space.com",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/skyroot-aerospace-india-first-private-orbital-launch-vikram-1",
-      "published_date": "2026-07-18",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Maiden Aagaman flight 18 Jul 2026; 4-stage, ~350 kg to LEO, ~450 km; payload list and outcome."
-    },
-    {
-      "id": "src-2",
-      "title": "Skyroot prepares for first orbital launch attempt",
-      "publisher": "SpaceNews",
-      "url": "https://spacenews.com/skyroot-prepares-for-first-orbital-launch-attempt/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Pre-launch context on Skyroot's orbital bid and private-launch framework."
-    },
-    {
-      "id": "src-3",
-      "title": "Skyroot Vikram-1 mission Aagaman: everything about India's first private orbital launch",
-      "publisher": "Business Standard",
-      "url": "https://www.business-standard.com/technology/tech-news/skyroot-vikram-1-mission-aagaman-private-orbital-launch-india-126071700363_1.html",
-      "published_date": "2026-07-17",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Mission Aagaman overview, configuration and payloads."
-    },
-    {
-      "id": "src-4",
-      "title": "Vikram-1",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Vikram-1",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Encyclopedic aggregation of Vikram-1 configuration and heritage; corroborates Vikram-S 2022 flight."
-    },
-    {
-      "id": "src-5",
-      "title": "Vikram-1",
-      "publisher": "Gunter's Space Page",
-      "url": "https://space.skyrocket.de/doc_lau/vikram-1.htm",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Launch-vehicle reference entry for Vikram-1."
-    },
-    {
-      "id": "src-6",
-      "title": "Skyroot Aerospace's Vikram-1 Ignites India's Ascent",
-      "publisher": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/skyroot-aerospace-vikram-1-launch",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Engineering-press account of the Vikram-1 programme."
-    }
-  ],
-  "seo": {
-    "title": "Skyroot Vikram-1 — Platform · India Space Atlas | Techadyant",
-    "meta_description": "Skyroot Vikram-1 — India's first private orbital rocket, which flew its maiden 'Aagaman' mission on 18 July 2026 from Sriharikota carrying ~350 kg to LEO.",
-    "canonical_path": "/research/space/entity/vikram-1/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Article",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/entity/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/entity/"
-    ]
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Vikram-1 is listed in this atlas as a small launch vehicle (India). The atlas legacy record attributes it to Skyroot Aerospace. Three-stage small satellite launch vehicle. Landmark for Indian private launch capability.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Skyroot Aerospace",
+   "path": "/research/space/company/skyroot-aerospace/"
+  },
+  "operator": "Skyroot / commercial",
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does Vikram-1 appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a Small Launch Vehicle relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Vikram-1 - Space Atlas - Techadyant Labs",
+  "description": "Vikram-1 is listed in this atlas as a small launch vehicle (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

@@ -1,74 +1,99 @@
 {
-  "entity_id": "piersight",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "piersight",
-  "name": "Piersight",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Piersight dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Piersight",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Piersight",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Piersight space evidence for Indian operations not yet verified.",
-    "sources": [
-      "src-pier-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-pier-1",
-      "title": "Piersight website",
-      "publisher": "Piersight",
-      "url": "https://piersight.space/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
+ "entity_id": "atl-cmp-piersight",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "piersight",
+ "name": "PierSight",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "PierSight",
+  "role": "OEM / Satellite EO",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/piersight/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Ahmedabad"
+   }
   ],
-  "seo": {
-    "title": "Piersight — Company · India Space Atlas | Techadyant",
-    "meta_description": "Piersight company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/piersight/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "PierSight Space is an Ahmedabad-based space startup building persistent maritime-domain-awareness satellites that combine SAR imaging with AIS ship-identification payloads. Founded by ex-ISRO engineers, it was selected by IN-SPACe for India's first private SAR constellation track and has raised seed funding reported around $6-8M from Indian and international investors.",
+ "india_angle": "PierSight is a named beneficiary of India's IN-SPACe/ISRO opening for private SAR - a capability class previously government-only - targeting Indian Navy, coast guard and shipping surveillance needs such as oil-spill and vessel tracking. Its progress is a direct read on whether India's private sector can field sovereign SAR reconnaissance.",
+ "intelligence_assessment": "Funding and selection milestones are verifiable, but no in-orbit SAR performance or defence customer contract is public yet. Watch the first flight-model SAR satellite launch and any MoD/Navy data-service agreements as the decisive validation points.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What is PierSight building?",
+   "a": "SAR + AIS microsatellites for persistent maritime surveillance - vessel detection, tracking and oil-spill monitoring."
+  },
+  {
+   "q": "Has PierSight been selected by IN-SPACe?",
+   "a": "The company states it was selected by IN-SPACe to build India's first private SAR constellation track."
+  },
+  {
+   "q": "How much has PierSight raised?",
+   "a": "Public trackers cite roughly $6-8M across seed rounds."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "piersight.space",
+   "title": "PierSight - persistent SAR surveillance for maritime & defence (vendor)",
+   "url": "https://piersight.space",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "startupintros.com",
+   "title": "PierSight Space: funding, team and investors",
+   "url": "https://startupintros.com/orgs/piersight-space",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "app.dealroom.co",
+   "title": "PierSight raises $8M for satellite tech",
+   "url": "https://app.dealroom.co/news/feed/piersight-raises-8m-for-satellite-tech",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "PierSight - Space Atlas - Techadyant Labs",
+  "description": "PierSight Space is an Ahmedabad-based space startup building persistent maritime-domain-awareness satellites that combine SAR imaging with AIS ship-identifica",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

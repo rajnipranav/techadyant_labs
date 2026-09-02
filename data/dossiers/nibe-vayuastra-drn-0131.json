@@ -1,0 +1,97 @@
+{
+ "entity_id": "atl-plat-nibe-vayuastra-drn-0131",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "nibe-vayuastra-drn-0131",
+ "name": "NIBE Vayuastra",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "NIBE Vayuastra",
+  "role": "Loitering Munition",
+  "country": "India",
+  "status_line": "Procurement",
+  "subtitle": null,
+  "entity_path": "/research/drones-uas/platform/nibe-vayuastra-drn-0131/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "NIBE Ltd"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Army — Artillery Corps"
+   },
+   {
+    "label": "Mission roles",
+    "value": "Loitering strike, anti-armor, target acquisition"
+   }
+  ],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "Indigenous content": "70%"
+   }
+  }
+ },
+ "what_it_is": "NIBE Vayuastra is listed in this atlas as a loitering munition (India). The atlas legacy record attributes it to NIBE Ltd, with Indian Army — Artillery Corps named as primary operator. Indigenous loitering munition. [figure pending verification] Indian Army order (Aug 2026) for 30 sets / 300 munitions under Buy (Indian).",
+ "deployments_procurement": {
+  "summary": "The legacy atlas page lists 1 procurement row(s) (total Rs 563 cr). These rows predate this dossier upgrade and await independent verification.",
+  "records": [
+   {
+    "row": "Indian Army — Artillery Corps · 300 units · 2026 | ₹563 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   }
+  ],
+  "note": "No order, quantity or value on this page is asserted as verified fact. See open_questions."
+ },
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "NIBE Ltd",
+   "path": "/research/drones-uas/company/nibe-ltd-mfr-092/"
+  },
+  "operator": "Indian Army — Artillery Corps",
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does NIBE Vayuastra appear in the India UAS Atlas?",
+   "a": "It is part of the atlas's coverage of drones uas; the hub lists it as a Loitering Munition relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Verify the legacy atlas procurement row(s) against MoD/PIB/service announcements and add named sources to upgrade toward Tier B/A.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "NIBE Vayuastra - India UAS Atlas - Techadyant Labs",
+  "description": "NIBE Vayuastra is listed in this atlas as a loitering munition (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "entity_id": "atl-plat-turkish-bayraktar-akinci-drn-0086",
+ "entity_type": "platform",
+ "tier": "B",
+ "noindex": false,
+ "slug": "turkish-bayraktar-akinci-drn-0086",
+ "name": "Turkish Bayraktar Akinci",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Turkish Bayraktar Akinci",
+  "role": "HALE UAV",
+  "country": "Turkey",
+  "status_line": "Cancelled",
+  "subtitle": "Akinci",
+  "entity_path": "/research/drones-uas/platform/turkish-bayraktar-akinci-drn-0086/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Foreign — Baykar (Turkey)"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Army — Aviation Corps"
+   },
+   {
+    "label": "Mission roles",
+    "value": "Strike, ISR"
+   }
+  ],
+  "key_specs": [
+   "5,500 kg MTOW",
+   "950 kg payload",
+   "24 hr endurance",
+   "0 km range",
+   "12,000 m ceiling",
+   "361 km/h",
+   "Twin turboprop (750 hp each)"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "0",
+    "Indigenous content": "0%"
+   }
+  }
+ },
+ "what_it_is": "The Bayraktar Akinci is Baykar's high-altitude long-endurance unmanned combat aerial vehicle - a twin-engine platform capable of carrying air-to-air and air-to-ground munitions, exported from Turkey to multiple air forces and combat-proven in several theatres.",
+ "india_angle": "India has not expressed public interest in acquiring Akinci - the platform matters to the atlas because Pakistan's acquisition of Turkish combat drones is tracked as a threat-development driver for Indian counter-UAS and indigenous UCAV programmes. Indian reporting treats Akinci proliferation as a red-flag capability shift.",
+ "import_dependencies": {
+  "note": "Component/supplier map captured from the live legacy page on 2026-09-02 (unverified lineage).",
+  "components": [
+   {
+    "component": "Rotax 915 iS",
+    "category": "Engine",
+    "supplier": "BRP-Rotax (Austria)"
+   }
+  ]
+ },
+ "intelligence_assessment": "Akinci's record is well documented via Baykar and international media; the India angle is adversarial-diffusion, not procurement. Watch Pakistani fleet growth and any South Asian combat use as the atlas-relevant signals.",
+ "graph": {
+  "maker": {
+   "name": "Foreign — Baykar (Turkey)"
+  },
+  "operator": "Indian Army — Aviation Corps",
+  "components": [
+   {
+    "component": "Rotax 915 iS",
+    "category": "Engine",
+    "supplier": "BRP-Rotax (Austria)"
+   }
+  ],
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Does India operate the Akinci?",
+   "a": "No. India has no publicly known Akinci procurement; the platform is tracked because of Pakistani acquisition of Turkish combat drones."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "baykartech.com",
+   "title": "Bayraktar AKINCI - Baykar",
+   "url": "https://baykartech.com/en/uav/bayraktar-akinci",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "en.wikipedia.org",
+   "title": "Baykar Bayraktar Akinci",
+   "url": "https://en.wikipedia.org/wiki/Baykar_Bayraktar_Akinci",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "airforce-technology.com",
+   "title": "Bayraktar Akinci UCAV",
+   "url": "https://www.airforce-technology.com/projects/bayraktar-akinci-unmanned-combat-aerial-vehicle-ucav",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Turkish Bayraktar Akinci - India UAS Atlas - Techadyant Labs",
+  "description": "The Bayraktar Akinci is Baykar's high-altitude long-endurance unmanned combat aerial vehicle - a twin-engine platform capable of carrying air-to-air and air-t",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

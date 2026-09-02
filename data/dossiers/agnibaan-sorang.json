@@ -1,193 +1,85 @@
 {
-  "entity_id": "agnibaan-sorang",
-  "entity_type": "platform",
-  "tier": "B",
-  "noindex": false,
-  "slug": "agnibaan-sorang",
-  "name": "Agnikul Agnibaan — Suborbital-to-Orbital Programme",
-  "variant": "SOrTeD → orbital path",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/entity/",
-  "last_verified": "2026-08-29",
-  "status": "Development",
-  "header": {
-    "one_liner": "Agnikul's development path from the 2024 Agnibaan SOrTeD suborbital demonstrator toward a full orbital Agnibaan, including clustered-engine testing and a planned booster-recovery attempt.",
-    "chips": [
-      "B",
-      "India-relevant",
-      "Orbital programme",
-      "In development"
-    ],
-    "maker": "Agnikul Cosmos Private Limited",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "India-developed; no audited indigenous percentage disclosed",
-    "mobility_or_class": "Orbital development programme (from suborbital demonstrator)",
-    "operational_domains": [
-      "space"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Agnikul Cosmos Private Limited",
-    "Country": "India",
-    "Status": "In development",
-    "Baseline": "Agnibaan SOrTeD suborbital flight (30 May 2024)",
-    "Next_steps": "Clustered multi-engine tests; orbital Agnibaan; reusability / booster-recovery ambitions",
-    "Evidence_note": "Reported testing and stated intent; no orbital flight yet confirmed"
-  },
-  "what_it_is": {
-    "prose": "This entry tracks Agnikul Cosmos's transition from its proven Agnibaan SOrTeD suborbital demonstrator (flown 30 May 2024) toward an operational orbital Agnibaan. After SOrTeD validated the single-piece 3D-printed Agnilet engine, avionics and Agnikul's private 'Dhanush' launchpad, the company signalled an orbital launch as its next major target and has continued propulsion work — including clustered multi-engine testing reported in 2026 as it moves toward a commercial launch phase. Agnikul has also publicly discussed reusability, including intent toward an India-first private orbital-class booster-recovery attempt. As of this verification the orbital vehicle has not flown; the programme is defined by demonstrated suborbital heritage plus stated development milestones rather than a confirmed orbital flight record. Firm orbital dates, payload commitments and recovery plans should be treated as provisional until Agnikul publishes primary confirmation.",
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "A development programme, not a fielded system; activity comprises engine/cluster testing and stated orbital and reusability milestones building on the 2024 suborbital flight.",
-    "rows": [
-      {
-        "agency": "Agnikul Cosmos",
-        "context": "Stated plan to move from SOrTeD suborbital demo to a full orbital launch",
-        "year": null,
-        "quantity_or_note": "Orbital vehicle in development",
-        "sources": [
-          "src-2"
-        ]
-      },
-      {
-        "agency": "Agnikul Cosmos",
-        "context": "Reported clustered-engine testing as the company nears a commercial launch phase",
-        "year": 2026,
-        "quantity_or_note": "Ground test campaign",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "agency": "Agnikul Cosmos",
-        "context": "Stated intent toward an India-first private orbital-class booster-recovery attempt (reusability)",
-        "year": null,
-        "quantity_or_note": "Reusability ambition",
-        "sources": [
-          "src-1"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Confirmed first orbital Agnibaan flight date",
-      "Whether booster recovery is attempted on an early orbital flight or later",
-      "Commercial payload manifest"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "Propulsion is developed in-house (3D-printed Agnilet); space-grade electronics remain a general Indian NewSpace dependency. No component sovereignty breakdown published.",
-    "items": [
-      {
-        "component": "3D-printed Agnilet engine cluster",
-        "severity": "Low",
-        "note": "Designed and printed in-house by Agnikul",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "component": "Space-grade avionics / rad-tolerant electronics",
-        "severity": "Medium",
-        "note": "General import exposure; sourcing undisclosed",
-        "sources": [
-          "src-2"
-        ]
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [
-      "agnibaan"
-    ],
-    "peer_systems": [
-      "vikram-1"
-    ],
-    "related_pillars": [
-      "/research/space/entity/"
-    ]
-  },
-  "faq": [
-    {
-      "question": "What is the orbital Agnibaan programme?",
-      "answer": "Agnikul's development path from the 2024 SOrTeD suborbital demonstrator to a full orbital launch vehicle, plus clustered-engine testing and reusability ambitions.",
-      "sources": [
-        "src-2",
-        "src-3"
-      ]
-    },
-    {
-      "question": "Has an orbital flight happened?",
-      "answer": "Not as of verification; the programme rests on the demonstrated suborbital flight plus stated development milestones.",
-      "sources": [
-        "src-2"
-      ]
-    }
+ "entity_id": "atl-plat-agnibaan-sorang",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "agnibaan-sorang",
+ "name": "Agnibaan (SOrTeD / orbital path)",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Agnibaan (SOrTeD / orbital path)",
+  "role": "Small Launch Vehicle",
+  "country": "India",
+  "status_line": "Suborbital flown; orbital campaigns 2026–27",
+  "subtitle": "Suborbital heritage → orbital",
+  "entity_path": "/research/space/platform/agnibaan-sorang/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Agnikul Cosmos"
+   },
+   {
+    "label": "Operator",
+    "value": "Agnikul / commercial"
+   }
   ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Agnikul Plans India's First Private Orbital-Class Booster Recovery Attempt",
-      "publisher": "CXO Digitalpulse",
-      "url": "https://www.cxodigitalpulse.com/agnikul-plans-indias-first-private-orbital-class-booster-recovery-attempt/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Reported reusability/booster-recovery ambition."
-    },
-    {
-      "id": "src-2",
-      "title": "AgniKul draws reusable rocket dream, plans orbital launch in a year",
-      "publisher": "Business Standard",
-      "url": "https://www.business-standard.com/companies/start-ups/agnikul-draws-reusable-rocket-dream-plans-orbital-launch-in-a-year-124060200083_1.html",
-      "published_date": "2024-06-02",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Post-SOrTeD statement of orbital and reusability intent."
-    },
-    {
-      "id": "src-3",
-      "title": "Agnikul nears commercial launch phase after clustered engine test",
-      "publisher": "channeliam",
-      "url": "https://en.channeliam.com/2026/05/26/agnikul-cosmos-clustered-engine-test/",
-      "published_date": "2026-05-26",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Reported clustered multi-engine testing ahead of commercial launch."
-    },
-    {
-      "id": "src-4",
-      "title": "Agnikul missions",
-      "publisher": "Agnikul Cosmos",
-      "url": "https://agnikul.in/missions/",
-      "published_date": null,
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "Company mission/roadmap page."
-    }
+  "key_specs": [
+   "Small Launch Vehicle",
+   "Suborbital heritage → orbital",
+   "LEO orbit",
+   "100 kg payload"
   ],
-  "seo": {
-    "title": "Agnikul Agnibaan — Suborbital-to-Orbital Programme — Platform · India Space Atlas | Techadyant",
-    "meta_description": "Agnikul's path from the 2024 Agnibaan SOrTeD suborbital demonstrator toward a full orbital Agnibaan, with clustered-engine tests and reusability ambitions.",
-    "canonical_path": "/research/space/entity/agnibaan-sorang/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Article",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/entity/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/entity/"
-    ]
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Agnibaan (SOrTeD / orbital path) is listed in this atlas as a small launch vehicle (India). The atlas legacy record attributes it to Agnikul Cosmos. Modular Agnibaan family; world’s first single-piece 3D-printed engine flight heritage; orbital attempt planned.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Agnikul Cosmos",
+   "path": "/research/space/company/agnikul-cosmos/"
+  },
+  "operator": "Agnikul / commercial",
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does Agnibaan (SOrTeD / orbital path) appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a Small Launch Vehicle relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Agnibaan (SOrTeD / orbital path) - Space Atlas - Techadyant Labs",
+  "description": "Agnibaan (SOrTeD / orbital path) is listed in this atlas as a small launch vehicle (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

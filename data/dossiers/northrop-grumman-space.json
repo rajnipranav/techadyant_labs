@@ -1,74 +1,76 @@
 {
-  "entity_id": "northrop-grumman-space",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "northrop-grumman-space",
-  "name": "Northrop Grumman Space",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Northrop Grumman Space dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Northrop Grumman Space",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Northrop Grumman Space",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Northrop Grumman Space is a U.S. space company with no confirmed India operational evidence.",
-    "sources": [
-      "src-ng-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-ng-1",
-      "title": "Northrop Grumman Space website",
-      "publisher": "Northrop Grumman",
-      "url": "https://www.northropgrumman.com/space/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "No India operational evidence."
-    }
+ "entity_id": "atl-cmp-northrop-grumman-space",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "northrop-grumman-space",
+ "name": "Northrop Grumman (Space)",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-pointer",
+ "header": {
+  "name": "Northrop Grumman (Space)",
+  "role": "OEM / Systems (Foreign)",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/northrop-grumman-space/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "US"
+   }
   ],
-  "seo": {
-    "title": "Northrop Grumman Space — Company · India Space Atlas | Techadyant",
-    "meta_description": "Northrop Grumman Space company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/northrop-grumman-space/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "This atlas page is the Space Atlas listing of an entity whose primary dossier is published at /research/military-aerospace/company/northrop/. The primary record carries the company profile, India portfolio and sourcing discipline; this vertical page is kept as a pointer so that hub links and navigation resolve to a single source of truth. Maintaining two full dossiers for one entity would risk conflicting facts and double-counting across verticals.",
+ "india_angle": "Northrop Grumman's primary dossier lives in the military-aerospace vertical; this space-vertical page is the same corporation listed for space business. Pointer to the primary record.",
+ "intelligence_assessment": "Pointer dossier: evidence discipline, sources and India assessment are maintained in the primary dossier. Tier B status here reflects the pointer policy, not an independent evidence review of this vertical page.",
+ "pointer": {
+  "primary_dossier": "/research/military-aerospace/company/northrop/",
+  "policy": "single-source-of-truth per entity"
+ },
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does Northrop Grumman (Space) appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a OEM / Systems (Foreign) relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm scope split between this space page and the primary dossier at /research/military-aerospace/company/northrop/.",
+  "Re-audit after primary-dossier updates to keep facts in sync."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Northrop Grumman (Space) - Space Atlas - Techadyant Labs",
+  "description": "This atlas page is the Space Atlas listing of an entity whose primary dossier is published at /research/military-aerospace/company/northrop/.",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

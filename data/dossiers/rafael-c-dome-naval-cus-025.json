@@ -1,60 +1,100 @@
 {
-  "entity_id": "cus-025",
-  "entity_type": "system",
-  "tier": "C",
-  "noindex": true,
-  "slug": "rafael-c-dome-naval-cus-025",
+ "entity_id": "atl-sys-rafael-c-dome-naval-cus-025",
+ "entity_type": "system",
+ "tier": "C",
+ "noindex": true,
+ "slug": "rafael-c-dome-naval-cus-025",
+ "name": "Rafael C-Dome (Naval)",
+ "vertical": "counter-uas",
+ "parent_hub_path": "/research/counter-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Rafael C-Dome (Naval)",
-  "variant": "V1",
-  "vertical": "counter-uas",
-  "parent_hub_path": "/research/counter-uas/",
-  "last_verified": "2026-08-29",
-  "status": "Unknown",
-  "header": {
-    "one_liner": "Rafael C-Dome (Naval) — Tier C compact card; evidence bar not yet met for a full dossier. Manufacturer: Rafael Advanced Defense Systems. Country: Israel.",
-    "chips": [
-      "Tier C",
-      "Evidence gap"
-    ],
-    "maker": "Rafael Advanced Defense Systems",
-    "country": "Israel",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable — Tier C compact card",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Maker": "Rafael Advanced Defense Systems",
-    "Country": "Israel",
-    "Tier_C_reason": "Insufficient primary-source evidence for full dossier; no documented Indian operational/procurement footprint in sources reviewed",
-    "Atlas_register_status": "Slug preserved; full dossier pending evidence collection"
-  },
-  "what_it_is": {
-    "prose": "Rafael C-Dome (Naval) (V1) is listed in the Techadyant Atlas register with maker Rafael Advanced Defense Systems and country of origin Israel. However, a thorough review of public primary sources did not surface sufficient evidence to meet the Tier A or B evidence bar for a full dossier — specifically, no documented Indian operational deployment, procurement contract, or combat use was found. This Tier C compact card is therefore marked noindex and the slug is preserved in the register pending future evidence collection. When primary-source evidence becomes available (PIB/MoD releases, exchange filings, OEM IR pages, credible major-news coverage), this dossier can be elevated to Tier B or A.",
-    "sources": []
-  },
-  "open_questions": [
-    "Maker confirmation for Rafael C-Dome (Naval) — listed as Rafael Advanced Defense Systems in Atlas register; verify against OEM primary sources",
-    "Documented Indian operational deployment or procurement footprint — not found in sources reviewed",
-    "Detection ranges, defeat mechanisms, indigenous content % — not documented in public sources",
-    "Whether this entity should be retained in the Atlas register or consolidated with a sibling entry"
+  "role": "Naval",
+  "country": "Israel",
+  "status_line": "Operational",
+  "subtitle": "V1",
+  "entity_path": "/research/counter-uas/system/rafael-c-dome-naval-cus-025/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Rafael Advanced Defense Systems"
+   }
   ],
-  "sources": [],
-  "seo": {
-    "title": "Rafael C-Dome (Naval) — System · India Counter Uas Atlas | Techadyant",
-    "meta_description": "Rafael C-Dome (Naval) — Tier C compact card; evidence bar not yet met for a full dossier. Manufacturer: Rafael Advanced Defense Systems. Country: Israel.",
-    "canonical_path": "/research/counter-uas/system/rafael-c-dome-naval-cus-025/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/counter-uas/",
-    "submit_correction": "/research/counter-uas/submit-correction/",
-    "related_research": [
-      "/research/counter-uas/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "Indigenous content": "0% (No - Fully Imported)"
+   }
   }
+ },
+ "what_it_is": "Rafael C-Dome (Naval) is listed in this atlas as a naval (Israel). The atlas legacy record attributes it to Rafael Advanced Defense Systems. A public dossier for this entity had not yet been published when the atlas hubs were crawled, so this record carries the legacy atlas data forward with an explicit verification backlog.",
+ "drone_types_countered": [
+  "Nano",
+  "Micro",
+  "Small UAV",
+  "Medium UAV",
+  "Fixed Wing",
+  "VTOL",
+  "FPV",
+  "Loitering Munition",
+  "Helicopter UAV",
+  "Swarm",
+  "Autonomous"
+ ],
+ "kill_chain": [
+  "Detect",
+  "Track",
+  "Identify",
+  "Classify",
+  "Decide",
+  "Neutralize",
+  "Assess"
+ ],
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Rafael Advanced Defense Systems",
+   "path": "/research/counter-uas/manufacturer/rafael-advanced-defense-systems-mfg-023/"
+  },
+  "parent_hub": "/research/counter-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does Rafael C-Dome (Naval) appear in the Counter-UAS Atlas?",
+   "a": "It is part of the atlas's coverage of counter uas; the hub lists it as a Naval relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Rafael C-Dome (Naval) - Counter-UAS Atlas - Techadyant Labs",
+  "description": "Rafael C-Dome (Naval) is listed in this atlas as a naval (Israel).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

@@ -1,147 +1,102 @@
 {
-  "entity_id": "maini-precision",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "maini-precision",
-  "name": "Maini Precision Products Limited",
-  "variant": "Private precision-components manufacturer (Bengaluru)",
-  "vertical": "military-aerospace",
-  "parent_hub_path": "/research/military-aerospace/company/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Bengaluru-based precision-engineering company making high-tolerance machined components and assemblies for aerospace & defence (a segment it entered in 2004) alongside automotive and industrial products; an export-oriented Tier-1/Tier-2 supplier into global aerospace supply chains, with tolerances down to 3 microns.",
-    "chips": [
-      "Tier B",
-      "Private sector",
-      "Precision components",
-      "Aerospace & Defence",
-      "Export-oriented",
-      "Bengaluru",
-      "3-micron tolerances"
-    ],
-    "maker": "Maini family (promoter-owned)",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Indigenous precision manufacturing in India; works to foreign aerospace-OEM designs and specifications as a build-to-print/build-to-spec supplier",
-    "mobility_or_class": "Precision-engineering component & assembly manufacturer",
-    "operational_domains": [
-      "air",
-      "land"
-    ]
-  },
-  "at_a_glance": {
-    "Legal_name": "Maini Precision Products Limited (MPPL)",
-    "Ownership": "Private — promoted by the Maini family (Sandeep Kumar Maini, Gautam Maini, Chetan Kumar Maini)",
-    "Incorporated": "1973",
-    "HQ": "Bengaluru, Karnataka, India",
-    "Aerospace_defence_since": "2004 — precision products for aerospace/defence applications",
-    "Other_segments": "Automotive & industrial: clean-powertrain components, hydraulics, agriculture",
-    "Precision": "Machining tolerances down to 3 microns; machined castings, die castings, forgings, surface/heat treatment",
-    "Export_intensity": "~65-72% of revenue from exports (per 2022 DRHP)",
-    "Revenue_reference": "FY19 ₹560.3 crore; FY20 ₹570 crore; FY21 ₹427.36 crore (per 2022 SEBI DRHP)",
-    "IPO_note": "SEBI approval for a ~₹900 crore IPO received in 2022 (fresh issue ₹150 crore + offer for sale ~₹750 crore); IPO not subsequently completed"
-  },
-  "what_it_is": {
-    "prose": "Maini Precision Products Limited (MPPL) is a Bengaluru-based precision-engineering company, incorporated in 1973 and promoted by the Maini family, that manufactures high-tolerance machined components and assemblies. It operates two broad business lines: an Aerospace & Defence segment (started in 2004) making precision products for aerospace and defence applications, and an Automotive & Industrial segment covering clean-powertrain components, hydraulics and agricultural products. The company is strongly export-oriented — exports accounted for roughly 65-72% of revenue per its 2022 draft red-herring prospectus — positioning it as a Tier-1/Tier-2 supplier into global aerospace and industrial supply chains, with machining tolerances quoted down to 3 microns and processes spanning machined and die castings, forgings, and surface/heat treatment. Financials disclosed in the 2022 SEBI filing showed revenue of ₹560.3 crore in FY19, ₹570 crore in FY20 and ₹427.36 crore in FY21 (the last COVID-affected). MPPL received SEBI approval in 2022 for a roughly ₹900 crore IPO (a ₹150 crore fresh issue plus an offer for sale of about ₹750 crore), though that IPO was not subsequently completed. Its India military-aerospace relevance is as a private-sector precision-manufacturing supplier feeding aerospace and defence programmes; this entry is tiered B because publicly retrievable primary evidence linking MPPL to specific named Indian military-aircraft programmes is limited, and the most detailed public financials date to the 2022 prospectus.",
-    "sources": [
-      "src-1"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "Maini Precision is a component and assembly supplier rather than a platform or systems contractor; it does not hold publicly documented prime contracts with the Indian armed forces. Its aerospace & defence work (since 2004) is as an export-oriented precision manufacturer supplying components and assemblies into global aerospace and defence supply chains, complementing its automotive and industrial business.",
-    "rows": [
-      {
-        "agency": "Global aerospace & defence supply chains (customers not itemised publicly here)",
-        "context": "Precision machined components and assemblies for aerospace/defence applications",
-        "year": 2004,
-        "quantity_or_note": "Aerospace & Defence segment established 2004; export-intensive",
-        "sources": [
-          "src-1"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Specific Indian military-aircraft/defence programmes and OEM customers for Maini are not documented in the primary source retrieved this session",
-      "Most detailed public financials date to the 2022 SEBI DRHP (FY19-FY21); current revenue and order book are not confirmed here",
-      "The ~₹900 crore IPO approved in 2022 appears not to have been completed; current fundraising/ownership status not confirmed"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "As a build-to-print/build-to-spec precision manufacturer, Maini works to designs and specifications set by aerospace and defence OEMs; the intellectual property, raw-material grades and qualification standards originate with foreign customers, while the manufacturing value-add is performed in India. Special alloys, aerospace-grade raw materials and certain machine tools are import-linked.",
-    "items": [
-      {
-        "component": "Aerospace-grade raw materials / special alloys",
-        "severity": "Medium",
-        "note": "Titanium, superalloy and special-steel stock for aerospace parts often imported to customer spec",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      },
-      {
-        "component": "Precision machine tools / CNC equipment",
-        "severity": "Medium",
-        "note": "High-precision 5-axis machining centres and metrology typically imported",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "related_pillars": [
-      "/research/pillars/defence/"
-    ],
-    "referenced_by": []
-  },
-  "faq": [
-    {
-      "question": "What does Maini Precision Products make?",
-      "answer": "Maini Precision Products is a Bengaluru precision-engineering company (incorporated 1973) that makes high-tolerance machined components and assemblies. It runs an Aerospace & Defence segment (started in 2004) supplying precision parts for aerospace/defence applications, and an Automotive & Industrial segment covering clean-powertrain components, hydraulics and agriculture. It is export-heavy (about 65-72% of revenue from exports per its 2022 prospectus) with machining tolerances down to 3 microns.",
-      "sources": [
-        "src-1"
-      ]
-    },
-    {
-      "question": "Is Maini Precision a listed company and how big is it?",
-      "answer": "Maini remains privately held. It received SEBI approval in 2022 for a roughly ₹900 crore IPO (a ₹150 crore fresh issue plus about ₹750 crore offer for sale), but that IPO was not subsequently completed. The most detailed public financials, from the 2022 draft prospectus, showed revenue of ₹560.3 crore (FY19), ₹570 crore (FY20) and ₹427.36 crore (FY21, COVID-affected). Current figures are not publicly confirmed.",
-      "sources": [
-        "src-1"
-      ]
-    }
+ "entity_id": "atl-cmp-maini-precision",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "maini-precision",
+ "name": "maini precision products (part of Maini Group)",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "maini precision products (part of Maini Group)",
+  "role": "tier-1,tier-2,precision-machining",
+  "country": "India",
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/company/maini-precision/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Bengaluru, Karnataka"
+   },
+   {
+    "label": "Role",
+    "value": "Tier-1 / Tier-2 supplier of machined parts and sub-assemblies"
+   }
   ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Maini Precision Products gets SEBI nod for Rs900 crore IPO",
-      "publisher": "India Infoline (IIFL)",
-      "url": "https://www.indiainfoline.com/news/ipo/maini-precision-products-gets-sebi-nod-for-rs900-crore-ipo",
-      "published_date": "2022-03-22",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "SEBI IPO approval; company profile, FY19-FY21 revenue, export intensity, aerospace & defence segment (since 2004), Bengaluru operations, promoters"
-    }
-  ],
-  "seo": {
-    "title": "Maini Precision Products Limited — Company · India Military Aerospace Atlas | Techadyant",
-    "meta_description": "Bengaluru precision-engineering company making high-tolerance machined components and assemblies for aerospace & defence (since 2004) plus automotive/industrial; an export-oriented supplier into global aerospace supply chains with 3-micron tolerances.",
-    "canonical_path": "/research/military-aerospace/company/maini-precision/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Organization",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/military-aerospace/company/",
-    "submit_correction": "/research/military-aerospace/submit-correction/",
-    "related_research": [
-      "/research/military-aerospace/company/",
-      "/research/pillars/defence/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "maini precision products, part of the Maini Group of Bengaluru, is a precision-machining and tier-1/tier-2 aerospace supplier producing machined parts, sheet-metal assemblies, sub-assemblies, wiring harnesses and ground support equipment. The group's aerospace identity has consolidated under JK Maini Global Aerospace for its precision-aerospace business.",
+ "india_angle": "Maini's aerospace entities supply the Airbus/Tata C-295 industrial ecosystem as tier-2 suppliers and broader global OEM supply chains from Bengaluru. The group's public profile has risen with the JK Maini restructuring and expansion of precision manufacturing capacity in Karnataka.",
+ "intelligence_assessment": "Corporate evidence is solid through group sites and OEM programme pages, but platform-specific defence orders are not public. The C-295 tier-2 role and any HAL/DRDO subcontracting are the Indian military threads to verify in upcoming group disclosures.",
+ "sites": [
+  "Bengaluru Bengaluru, Karnataka Precision machining; sheet-metal; sub-assemblies; ground support equipment; wiring harnesses. Tier-1 / Tier-2 supplier to Airbus for C-295."
+ ],
+ "graph": {
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "What does maini precision products supply?",
+   "a": "Precision-machined parts, sheet-metal and sub-assemblies, wiring harnesses and ground support equipment for aerospace customers."
+  },
+  {
+   "q": "Is it part of a larger group?",
+   "a": "Yes - the Maini Group of Bengaluru; aerospace precision manufacturing is consolidated under JK Maini Global Aerospace."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
+ ],
+ "sources": [
+  {
+   "publisher": "aero.jkmaini.com",
+   "title": "JK Maini Global Aerospace Ltd - advanced aerospace manufacturing",
+   "url": "https://aero.jkmaini.com",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "airbus.com",
+   "title": "Tata Advanced Systems and Airbus inaugurate C295 Final Assembly Line in Vadodara, India",
+   "url": "https://www.airbus.com/en/newsroom/press-releases/2024-10-tata-advanced-systems-and-airbus-inaugurate-c295-final-assembly-line-in-vadodara-india",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "linkedin.com",
+   "title": "JK Maini Global Aerospace Ltd - company page",
+   "url": "https://in.linkedin.com/company/jkmainiglobalaerospacelimited",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "maini precision products (part of Maini Group) - Military Aerospace Atlas - Techadyant Labs",
+  "description": "maini precision products, part of the Maini Group of Bengaluru, is a precision-machining and tier-1/tier-2 aerospace supplier producing machined parts, sheet-",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

@@ -1,74 +1,91 @@
 {
-  "entity_id": "planet-labs",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "planet-labs",
+ "entity_id": "atl-cmp-planet-labs",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "planet-labs",
+ "name": "Planet Labs",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Planet Labs",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Planet Labs dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Planet Labs",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Planet Labs",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Planet Labs is a U.S. Earth-imaging company with no confirmed India operational evidence.",
-    "sources": [
-      "src-pl-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-pl-1",
-      "title": "Planet Labs website",
-      "publisher": "Planet Labs",
-      "url": "https://www.planet.com/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "No India operational evidence."
-    }
+  "role": "EO Constellation (Foreign)",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/planet-labs/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "San Francisco"
+   }
   ],
-  "seo": {
-    "title": "Planet Labs — Company · India Space Atlas | Techadyant",
-    "meta_description": "Planet Labs company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/planet-labs/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Planet Labs PBC is the San Francisco-based earth-observation company operating the largest commercial imaging-satellite fleet (Dove/SuperDove, SkySat, Pelican lines), selling daily-scan imagery and analytics globally including to governments and agricultural, mapping and intelligence customers.",
+ "india_angle": "Planet maintains India-specific commercial materials and its imagery is widely used in Indian agricultural analytics and mapping markets; a formal Indian government satellite-data contract is not publicly documented. Its India significance in this atlas is as the global benchmark against which Indian private EO entrants are measured.",
+ "intelligence_assessment": "Planet's global record is exceptionally well documented; India-specific contractual evidence is not. Track any IN-SPACe/ISRO or Indian ministry data agreements as the signal that would upgrade its India file.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Does Planet operate satellites over India?",
+   "a": "Planet's global daily-scan constellation covers Indian territory like any landmass; India-specific data agreements are not publicly documented."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "planet.com",
+   "title": "Planet - India solutions page",
+   "url": "https://www.planet.com/sheets/wef-2024/india",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "planet.com",
+   "title": "Precision agriculture imaging with Planet satellite solutions",
+   "url": "https://www.planet.com/industries/agriculture",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "evokeag.com",
+   "title": "Space tech scaleup Planet Labs drives ag productivity",
+   "url": "https://www.evokeag.com/how-space-tech-planet-labs-driving-agricultural-productivity",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Planet Labs - Space Atlas - Techadyant Labs",
+  "description": "Planet Labs PBC is the San Francisco-based earth-observation company operating the largest commercial imaging-satellite fleet (Dove/SuperDove, SkySat, Pelican",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

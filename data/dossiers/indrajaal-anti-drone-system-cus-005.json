@@ -1,414 +1,117 @@
 {
-  "entity_id": "cus-005",
-  "entity_type": "system",
-  "tier": "A",
-  "noindex": false,
-  "slug": "indrajaal-anti-drone-system-cus-005",
+ "entity_id": "atl-sys-indrajaal-anti-drone-system-cus-005",
+ "entity_type": "system",
+ "tier": "B",
+ "noindex": false,
+ "slug": "indrajaal-anti-drone-system-cus-005",
+ "name": "Indrajaal Anti-Drone System",
+ "vertical": "counter-uas",
+ "parent_hub_path": "/research/counter-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Indrajaal Anti-Drone System",
-  "variant": "V1 / Ranger mobile (Atlas labels) — 12 modular product family",
-  "vertical": "counter-uas",
-  "parent_hub_path": "/research/counter-uas/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Grene Robotics / Indrajaal Drone Defence autonomous C-UAS platform deployed since 2021; 4,000 sq.km coverage; modular 12-product family with EO/IR sensors sourced from Israel.",
-    "chips": [
-      "Soft kill",
-      "Hard kill",
-      "RF jammer",
-      "Cyber takeover",
-      "Autonomous interceptor drone",
-      "EO/IR",
-      "Acoustic",
-      "AI/ML"
-    ],
-    "maker": "Indrajaal Drone Defence (spun off from Grene Robotics 2023)",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Entire platform developed indigenously including interceptors; EO/IR sensors imported from Israel (per CEO Kiran Raju, April 2025)",
-    "mobility_or_class": "Static (Infra/Urban/Military), Mobile patrol (Ranger), Manpack (Trooper), Armoured (Combat), Maritime, Portable (Repulsor)",
-    "operational_domains": [
-      "land",
-      "air",
-      "naval",
-      "civilian"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Indrajaal Drone Defence (Hyderabad); R&D by Grene Robotics; manufacturing partner Sigma Advanced Systems",
-    "Product_family": "12 modular technologies (greneOS, DefOS, HiveMind, Zombee, SkyCop, Brig, SpiderMesh, Repulsor, GreneEye, HyperSensing, WeaponFusion, GlobalGrid)",
-    "Coverage_per_node": "4,000 sq.km (per Grene Robotics)",
-    "Detection_range_RF": "Up to 10 km (Ranger)",
-    "Soft_kill_options": "Repulsor (tractor beam jam); Retractor (cyber takeover + safe landing); frequency jammers",
-    "Hard_kill": "Zombee Level-5 autonomous interceptor drone; WeaponFusion (autonomous existing weapons)",
-    "First_deployment": "2021 (Red Fort Independence Day)",
-    "Customers": "Indian Army, Indonesian Army, world's largest refinery, India's 3rd-largest airport",
-    "Ranger_launch": "26 November 2025 (Hyderabad)",
-    "Latest_orders": "₹100 crore (late 2025, Indian Army + Navy) + ₹155 crore (2025-26, Ranger)"
-  },
-  "what_it_is": {
-    "prose": "Indrajaal is an autonomous counter-UAS platform developed by Grene Robotics (Hyderabad, est. 2008) and now commercialised by Indrajaal Drone Defence, a separate entity spun off from Grene Robotics in 2023. Founder & CEO Kiran Raju leads both companies. The manufacturing / integration partner is Sigma Advanced Systems. The platform comprises twelve modular technologies — greneOS, DefOS, HiveMind, Zombee, SkyCop, Brig, SpiderMesh, Repulsor, GreneEye, HyperSensing, WeaponFusion, and GlobalGrid — and is fielded in a 12-product family covering Infra (static infrastructure), Urban, Military, Ranger (mobile patrol vehicle), Trooper (manpack), Border, Combat (armoured), Zombee (autonomous interceptor drone), Maritime, and Repulsor (portable). Per the vendor, a single Indrajaal node can cover 4,000 sq.km. The HyperSensing suite combines acoustic sensors, active RF, passive RF, ESM, EO, and thermal sensors; the GreneEye module provides machine-vision classification. Soft-kill effectors include the Repulsor (tractor-beam jam and control) and Retractor (cyber takeover, guiding the hostile drone to a safe landing). Hard-kill is provided by the Zombee Level-5 autonomous interceptor drone, and WeaponFusion can make existing weapons autonomous. The Ranger (Anti-Drone Patrol Vehicle, ADPV) was launched in Hyderabad on 26 November 2025 with 10 km detection and 4 km mitigation range. Indrajaal's first deployment was for the Red Fort Independence Day celebrations in 2021, where it conducted a live intercept of multiple hostile drones. It is ARDTC-certified for deploying Counter-UAS systems. By April 2025, Indrajaal had deployments with the Indian Army, the Indonesian Army, the world's largest refinery (a private operator, covering an area bigger than London), and India's third-largest airport (37.5 million passengers). In late 2025, Indrajaal received ₹100 crore in orders from the Indian Army and Indian Navy, plus ₹155 crore in 2025-26 for the Ranger variant. The 'V1' label used in the Atlas is an editorial designation; Indrajaal does not version its platform publicly.",
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3"
-    ]
-  },
-  "kill_chain_or_capability": {
-    "stages": [
-      {
-        "id": "detect",
-        "label": "Detect",
-        "covered": true,
-        "note": "HyperSensing — acoustic, active RF, passive RF, ESM, EO, thermal; 10 km detection (Ranger); 4,000 sq.km coverage per node"
-      },
-      {
-        "id": "classify",
-        "label": "Classify",
-        "covered": true,
-        "note": "GreneEye machine vision; SkyOS autonomy engine"
-      },
-      {
-        "id": "track",
-        "label": "Track",
-        "covered": true,
-        "note": "HiveMind distributed track fusion"
-      },
-      {
-        "id": "decide",
-        "label": "Decide",
-        "covered": true,
-        "note": "DefOS C2 with autonomous engagement modes"
-      },
-      {
-        "id": "defeat",
-        "label": "Defeat",
-        "covered": true,
-        "note": "Soft kill: Repulsor tractor beam, Retractor cyber takeover; Hard kill: Zombee Level-5 autonomous interceptor; WeaponFusion for existing weapons"
-      },
-      {
-        "id": "assess",
-        "label": "Assess",
-        "covered": true,
-        "note": "GreneEye + SkyCop post-engagement BDA"
-      }
-    ],
-    "threat_or_target_classes": [
-      "Group 1 UAS",
-      "Group 2 UAS",
-      "Commercial quadcopters",
-      "FPV drones",
-      "Swarm drones",
-      "Autonomous drones"
-    ],
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "Indrajaal's first operational deployment was for the Red Fort Independence Day celebrations in 2021, where the platform conducted a live intercept of multiple hostile drones. By April 2025, Indrajaal had confirmed deployments with the Indian Army, the Indonesian Army, the world's largest refinery (a private operator), and India's third-largest airport (37.5 million passengers per year). The Ranger mobile patrol variant was launched on 26 November 2025 in Hyderabad. In late 2025, Indrajaal received ₹100 crore in orders from the Indian Army and Indian Navy, plus ₹155 crore in orders for the Ranger variant in 2025-26. Customer identities for the latter two orders were not disclosed in the sources reviewed.",
-    "rows": [
-      {
-        "agency": "Indian armed forces / national security agencies",
-        "context": "First deployment for Red Fort Independence Day celebrations — live intercept of multiple hostile drones",
-        "year": 2021,
-        "quantity_or_note": "First reported operational use",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "agency": "Indian Army",
-        "context": "Operational deployment",
-        "year": 2021,
-        "quantity_or_note": "Platform confirmed deployed since 2021",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "agency": "Indonesian Army",
-        "context": "Operational deployment",
-        "year": 2025,
-        "quantity_or_note": "By April 2025",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "agency": "World's largest refinery (private operator)",
-        "context": "Operational deployment covering area bigger than London",
-        "year": 2025,
-        "quantity_or_note": "By April 2025",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "agency": "India's third-largest airport (37.5M pax)",
-        "context": "Operational deployment",
-        "year": 2025,
-        "quantity_or_note": "By April 2025",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "agency": "Ministry of Defence (Indian Army + Indian Navy)",
-        "context": "Orders placed",
-        "year": 2025,
-        "quantity_or_note": "₹100 crore (late 2025)",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "agency": "Customer not specified",
-        "context": "Orders for Indrajaal Ranger",
-        "year": 2026,
-        "quantity_or_note": "₹155 crore (2025-26)",
-        "sources": [
-          "src-1"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Vendor confirmation of 'V1' version label",
-      "Standalone radar detection range figure",
-      "Numerical indigenous content %",
-      "Customer identities for ₹100 cr and ₹155 cr orders",
-      "FPGA / GaN RF / IMU import dependencies not publicly documented"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "Per CEO Kiran Raju's April 2025 statement to the Times of India: 'The entire platform has been developed indigenously including the interceptors, but some components like sensors that are not made in India have been procured from friendly countries such as Israel.' The principal imported subsystem is therefore EO/IR sensors from Israel. No numerical indigenous content percentage has been disclosed. FPGA, GaN RF, and IMU dependencies are not publicly documented but follow industry-typical supply chains.",
-    "items": [
-      {
-        "component": "EO/IR sensors",
-        "severity": "High",
-        "note": "Not made in India; procured from Israel (per CEO statement April 2025)",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "component": "FPGA / GaN RF amplifier",
-        "severity": "Unknown",
-        "note": "Not publicly documented; industry-typically USA",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      },
-      {
-        "component": "IMU",
-        "severity": "Unknown",
-        "note": "Not publicly documented",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      }
-    ]
-  },
-  "intelligence_assessment": {
-    "methodology_path": "/research/methodology",
-    "dimensions": [
-      {
-        "id": "design",
-        "label": "Design ownership",
-        "value": 5,
-        "note": "Grene Robotics / Indrajaal Drone Defence — indigenous design",
-        "sources": [
-          "src-2"
-        ]
-      },
-      {
-        "id": "production",
-        "label": "Production ownership",
-        "value": 4,
-        "note": "Indrajaal Drone Defence + Sigma Advanced Systems (manufacturing partner)",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "id": "critical_components",
-        "label": "Critical component sovereignty",
-        "value": 2,
-        "note": "EO/IR sensors imported from Israel; FPGA/GaN/IMU not documented",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "id": "combat_proven",
-        "label": "Combat proven",
-        "value": 4,
-        "note": "Live intercept at Red Fort 2021; multiple operational deployments Indian Army, Indonesian Army, refinery, airport",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "id": "export_potential",
-        "label": "Export potential",
-        "value": 4,
-        "note": "Already exported to Indonesian Army; airport and refinery deployments demonstrate cross-sector appeal",
-        "sources": [
-          "src-3"
-        ]
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [
-      "integrated-counter-drone-system-cus-001",
-      "zen-anti-drone-system-zads-cus-003",
-      "bhargavastra-counter-drone-system-cus-004"
-    ],
-    "related_components": [],
-    "related_pillars": [
-      "/research/pillars/defence/"
-    ],
-    "referenced_by": [
-      "grene-robotics-mfg-007"
-    ]
-  },
-  "timeline": [
-    {
-      "date": "2021",
-      "event": "First deployment — Red Fort Independence Day; live intercept of multiple hostile drones",
-      "sources": [
-        "src-3"
-      ]
-    },
-    {
-      "date": "2023",
-      "event": "Indrajaal Drone Defence spun off from Grene Robotics as separate entity",
-      "sources": [
-        "src-3"
-      ]
-    },
-    {
-      "date": "2025-04",
-      "event": "Times of India confirms deployments with Indian Army, Indonesian Army, world's largest refinery, India's 3rd-largest airport",
-      "sources": [
-        "src-3"
-      ]
-    },
-    {
-      "date": "2025-11-26",
-      "event": "Indrajaal Ranger (Anti-Drone Patrol Vehicle, ADPV) launched in Hyderabad",
-      "sources": [
-        "src-1"
-      ]
-    },
-    {
-      "date": "2025-Q4",
-      "event": "₹100 crore orders from Indian Army + Indian Navy",
-      "sources": [
-        "src-1"
-      ]
-    },
-    {
-      "date": "2025-26",
-      "event": "₹155 crore orders for Indrajaal Ranger",
-      "sources": [
-        "src-1"
-      ]
-    }
+  "role": "Fixed Site",
+  "country": "India",
+  "status_line": "Operational",
+  "subtitle": "V1",
+  "entity_path": "/research/counter-uas/system/indrajaal-anti-drone-system-cus-005/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Grene Robotics"
+   }
   ],
-  "faq": [
-    {
-      "question": "Is Indrajaal made by Grene Robotics or Indrajaal Drone Defence?",
-      "answer": "Both — Indrajaal was originally developed by Grene Robotics (Hyderabad, est. 2008) under founder & CEO Kiran Raju. In 2023, Indrajaal Drone Defence was spun off as a separate entity (also led by Kiran Raju) to commercialise the platform. Manufacturing / integration partner is Sigma Advanced Systems. The two companies remain affiliated.",
-      "sources": [
-        "src-3"
-      ]
-    },
-    {
-      "question": "What is the Zombee hard-kill interceptor?",
-      "answer": "Zombee is Indrajaal's Level-5 autonomous interceptor drone designed for surveillance and hard-kill engagements against hostile UAS. It is part of the 12-modular-technology Indrajaal platform and is one of two hard-kill options (the other being WeaponFusion, which makes existing weapons autonomous).",
-      "sources": [
-        "src-2"
-      ]
-    },
-    {
-      "question": "Where is Indrajaal operationally deployed?",
-      "answer": "Indrajaal's first deployment was for the Red Fort Independence Day celebrations in 2021. By April 2025, confirmed deployments included the Indian Army, the Indonesian Army, the world's largest refinery (a private operator, covering an area bigger than London), and India's third-largest airport (37.5 million passengers per year). The Ranger mobile patrol variant was launched on 26 November 2025.",
-      "sources": [
-        "src-3"
-      ]
-    }
-  ],
-  "open_questions": [
-    "Vendor confirmation of 'V1' version label",
-    "Standalone radar detection range figure",
-    "Numerical indigenous content %",
-    "Customer identities for ₹100 cr and ₹155 cr orders",
-    "FPGA / GaN RF / IMU import dependencies not publicly documented"
-  ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Indrajaal unveils India's first anti drone patrol vehicle to fortify our borders and save lives",
-      "publisher": "Indrajaal Drone Defence",
-      "url": "https://indrajaal.in/press-release/indrajaal-unveils-indias-first-anti-drone-patrol-vehicle-to-fortify-our-borders-and-save-lives",
-      "published_date": "2025-11-28",
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "Official launch press release for Indrajaal Ranger; confirms 10 km detection, 4 km mitigation, Zombee interceptor, Repulsor soft-kill, Retractor cyber takeover, SkyOS autonomy engine, 4x4 platform"
-    },
-    {
-      "id": "src-2",
-      "title": "Indrajaal",
-      "publisher": "Grene Robotics",
-      "url": "https://grenerobotics.com/indrajaal",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Domain root only — Grene Robotics Indrajaal product page; specific press release preferred"
-    },
-    {
-      "id": "src-3",
-      "title": "India's indigenous Indrajaal secures military, infrastructure and urban assets against drone attacks",
-      "publisher": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/city/hyderabad/indias-indigenous-indrajaal-secures-military-infrastructure-and-urban-assets-against-drone-attacks/articleshow/120023682.cms",
-      "published_date": "2025-04-05",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Confirms first deployment 2021 Red Fort, spin-off from Grene Robotics 2023, deployments with Indian Army / Indonesian army / world's largest refinery / India's 3rd largest airport; Israel EO/IR import dependency"
-    },
-    {
-      "id": "src-4",
-      "title": "Indian Army orders mobile anti-drone system — what can Indrajaal Ranger do?",
-      "publisher": "The Week",
-      "url": "https://www.theweek.in/news/defence/2026/08/17/indian-army-orders-mobile-anti-drone-system-what-can-indrajaal-ranger-do.html",
-      "published_date": "2026-08-17",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Confirms Indian Army order for Indrajaal Ranger mobile C-UAS, ₹155 cr order value, 10 km detection / 4 km mitigation range, Zombee interceptor"
-    }
-  ],
-  "seo": {
-    "title": "Indrajaal Anti-Drone System V1 — System · India Counter-UAS Atlas | Techadyant",
-    "meta_description": "Grene Robotics / Indrajaal Drone Defence autonomous C-UAS platform deployed since 2021; 4,000 sq.km coverage; 12-product modular family.",
-    "canonical_path": "/research/counter-uas/system/indrajaal-anti-drone-system-cus-005/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Product",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/counter-uas/",
-    "submit_correction": "/research/counter-uas/submit-correction/",
-    "related_research": [
-      "/research/counter-uas/system/integrated-counter-drone-system-cus-001/",
-      "/research/counter-uas/system/zen-anti-drone-system-zads-cus-003/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "Indigenous content": "65% (Yes - Indigenous)"
+   }
   }
+ },
+ "what_it_is": "Indrajaal is Grene Robotics' autonomous wide-area counter-drone defence system - an AI-native 'defence dome' that fuses a site's existing radars, RF sensors and effectors into one autonomous command layer, marketed for 1,000-2,000 sq km coverage per system against nano-to-large drones and loitering munitions.",
+ "india_angle": "Grene unveiled Indrajaal in 2021 as India's first autonomous wide-area C-UAS and markets it for ports, refineries and defence estates. It is the flagship private Indian entry in wide-area autonomous air defence.",
+ "drone_types_countered": [
+  "Nano",
+  "Micro",
+  "Small UAV",
+  "Fixed Wing",
+  "VTOL",
+  "FPV",
+  "Loitering Munition",
+  "Autonomous"
+ ],
+ "kill_chain": [
+  "Detect",
+  "Track",
+  "Identify",
+  "Classify",
+  "Decide",
+  "Neutralize",
+  "Assess"
+ ],
+ "intelligence_assessment": "See the Grene Robotics company dossier (Tier A) for the verified evidence base; this system page tracks the platform itself. Deployment scale and named Indian customers remain unconfirmed publicly - the primary open question.",
+ "graph": {
+  "maker": {
+   "name": "Grene Robotics",
+   "path": "/research/counter-uas/manufacturer/grene-robotics-mfg-007/"
+  },
+  "parent_hub": "/research/counter-uas/"
+ },
+ "faq": [
+  {
+   "q": "Is Indrajaal operational at Indian bases?",
+   "a": "No government deployment has been publicly confirmed; public evidence is company announcements and press."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "indrajaal.in",
+   "title": "Indrajaal - AI-powered autonomous anti-drone defence",
+   "url": "https://indrajaal.in",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "grenerobotics.com",
+   "title": "India's 1st autonomous drone defence dome (press release)",
+   "url": "https://grenerobotics.com/press-release/grene-robotics-designs-and-develops-indias-1st-autonomous-drone-defence-dome-sys",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "oecd.ai",
+   "title": "India unveils Indrajaal (OECD.AI)",
+   "url": "https://oecd.ai/en/incidents/2023-09-04-dccc",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Indrajaal Anti-Drone System - Counter-UAS Atlas - Techadyant Labs",
+  "description": "Indrajaal is Grene Robotics' autonomous wide-area counter-drone defence system - an AI-native 'defence dome' that fuses a site's existing radars, RF sensors a",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

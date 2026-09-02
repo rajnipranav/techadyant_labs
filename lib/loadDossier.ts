@@ -328,6 +328,23 @@ import xdlinx_space from "../data/dossiers/xdlinx-space.json";
 import zen_anti_drone_system_zads_cus_003 from "../data/dossiers/zen-anti-drone-system-zads-cus-003.json";
 import zen_technologies_mfg_003 from "../data/dossiers/zen-technologies-mfg-003.json";
 import zorawar_light_tank_def_001 from "../data/dossiers/zorawar-light-tank-def-001.json";
+import drdo_tapas_bh_rustom_ii_drn_0007 from "../data/dossiers/drdo-tapas-bh-rustom-ii-drn-0007.json";
+import ga_asi_mq_9b_seaguardian_drn_0004 from "../data/dossiers/ga-asi-mq-9b-seaguardian-drn-0004.json";
+import iai_heron_tp_drn_0002 from "../data/dossiers/iai-heron-tp-drn-0002.json";
+import iai_harop_drn_0013 from "../data/dossiers/iai-harop-drn-0013.json";
+import ideaforge_switch_v2_drn_0142 from "../data/dossiers/ideaforge-switch-v2-drn-0142.json";
+import ideaforge_switch_uav_3_0_drn_0098 from "../data/dossiers/ideaforge-switch-uav-3-0-drn-0098.json";
+import turkish_bayraktar_akinci_drn_0086 from "../data/dossiers/turkish-bayraktar-akinci-drn-0086.json";
+import solar_industries_nagastra_1_drn_0015 from "../data/dossiers/solar-industries-nagastra-1-drn-0015.json";
+import wb_group_warmate_drn_0018 from "../data/dossiers/wb-group-warmate-drn-0018.json";
+import fortem_skydome_system_cus_033 from "../data/dossiers/fortem-skydome-system-cus-033.json";
+import iron_beam_laser_cuas_cus_051 from "../data/dossiers/iron-beam-laser-cuas-cus-051.json";
+import rafael_drone_dome_cus_024 from "../data/dossiers/rafael-drone-dome-cus-024.json";
+import raytheon_rtx_coyote_block_2_cus_035 from "../data/dossiers/raytheon-rtx-coyote-block-2-cus-035.json";
+import rheinmetall_oerlikon_skynex_cus_031 from "../data/dossiers/rheinmetall-oerlikon-skynex-cus-031.json";
+import an32_ai20d_engine from "../data/dossiers/an32-ai20d-engine.json";
+import il76_d30kp_engine from "../data/dossiers/il76-d30kp-engine.json";
+import a400m from "../data/dossiers/a400m.json";
 
 export const DOSSIER_MAP: Record<string, EntityDossier> = {
   "aadyah-space": aadyah_space as unknown as EntityDossier,

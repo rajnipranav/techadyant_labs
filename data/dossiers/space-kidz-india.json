@@ -1,74 +1,91 @@
 {
-  "entity_id": "space-kidz-india",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "space-kidz-india",
+ "entity_id": "atl-cmp-space-kidz-india",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "space-kidz-india",
+ "name": "Space Kidz India",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Space Kidz India",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Space Kidz India dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Space Kidz India",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Space Kidz India",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Space Kidz India is an educational space organization; primary operational evidence pending.",
-    "sources": [
-      "src-ski-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-ski-1",
-      "title": "Space Kidz India website",
-      "publisher": "Space Kidz India",
-      "url": "https://www.spacekidzindia.in/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
+  "role": "OEM / Smallsat / Education",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/space-kidz-india/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Chennai"
+   }
   ],
-  "seo": {
-    "title": "Space Kidz India — Company · India Space Atlas | Techadyant",
-    "meta_description": "Space Kidz India company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/space-kidz-india/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Space Kidz India is a Chennai-based organisation building student-led satellite missions, best known for the KalamSat series - including the 64-gram KalamSat, reported as the world's lightest satellite, flown via a NASA programme in 2017. It continues to design and launch small satellites built largely by school and college students.",
+ "india_angle": "Space Kidz India is a uniquely Indian STEM-to-orbit pipeline: international coverage of its KalamSat missions (BBC among others) made student-built satellites a symbol of India's emerging private space culture, and its later missions ride Indian launch opportunities.",
+ "intelligence_assessment": "Its mission record is verifiable through international media; institutional scale and technical depth should not be conflated with commercial space industry. Treat as an education-and-outreach player with genuine flight heritage.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What is KalamSat?",
+   "a": "A 64-gram student-built pico-satellite by Space Kidz India, reported as the world's lightest satellite, flown in 2017 via a NASA initiative."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "spacekidzindia.in",
+   "title": "Space Kidz India - KalamSat and missions",
+   "url": "https://www.spacekidzindia.in",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "bbc.com",
+   "title": "Indian teen builds world's 'lightest satellite'",
+   "url": "https://www.bbc.com/news/world-asia-india-39931556",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "thebrighterside.news",
+   "title": "Space Kidz India students are building satellites, turning space education into real missions",
+   "url": "https://www.thebrighterside.news/post/space-kidz-india-students-are-building-satellites-turning-space-education-into-real-missions",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Space Kidz India - Space Atlas - Techadyant Labs",
+  "description": "Space Kidz India is a Chennai-based organisation building student-led satellite missions, best known for the KalamSat series - including the 64-gram KalamSat,",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

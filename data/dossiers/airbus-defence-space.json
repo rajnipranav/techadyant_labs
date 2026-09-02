@@ -1,74 +1,91 @@
 {
-  "entity_id": "airbus-defence-space",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "airbus-defence-space",
+ "entity_id": "atl-cmp-airbus-defence-space",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "airbus-defence-space",
+ "name": "Airbus Defence and Space",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Airbus Defence and Space",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Airbus Defence and Space dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Airbus Defence and Space",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Airbus Defence and Space",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Airbus Defence and Space is a European space company with no confirmed India operational evidence.",
-    "sources": [
-      "src-ad-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-ad-1",
-      "title": "Airbus Defence and Space website",
-      "publisher": "Airbus",
-      "url": "https://www.airbus.com/space.html",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "No India operational evidence."
-    }
+  "role": "OEM / Satellite (Foreign)",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/airbus-defence-space/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Europe"
+   }
   ],
-  "seo": {
-    "title": "Airbus Defence and Space — Company · India Space Atlas | Techadyant",
-    "meta_description": "Airbus Defence and Space company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/airbus-defence-space/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Airbus Defence and Space is Airbus SE's military and space division, spanning the C295 and A400M airlifters, Eurofighter participation, military communications and Earth-observation satellites such as the Pléiades line. This atlas page covers the space-facing portion of the division relevant to India's satellite and security markets.",
+ "india_angle": "Airbus DS supplies Indian institutional and commercial space-adjacent demand primarily through satellite imagery, secure communications and the defence ecosystem around the C295/Tata partnership. Its India space engagement is narrower than its defence-aircraft presence and is largely channelled through imagery services and component supply.",
+ "intelligence_assessment": "Public, verifiable India space-specific activity is limited; the sister dossier on the C295 programme carries the bulk of Airbus's confirmed India footprint. Treat this entity as a watch-list entry for Indian military-satcom and EO procurement cases.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Is Airbus Defence and Space active in India's space sector?",
+   "a": "Its confirmed India footprint is mainly defence-aircraft (C295) related; India space activity is largely imagery services and component supply rather than satellite primes."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "airbus.com",
+   "title": "India formalises acquisition of 56 Airbus C295 aircraft",
+   "url": "https://www.airbus.com/en/newsroom/press-releases/2021-09-india-formalises-acquisition-of-56-airbus-c295-aircraft",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "tataadvancedsystems.com",
+   "title": "Airbus C295 - Tata Advanced Systems",
+   "url": "https://www.tataadvancedsystems.com/c295",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "airbus.com",
+   "title": "Tata Advanced Systems and Airbus inaugurate C295 Final Assembly Line in Vadodara",
+   "url": "https://www.airbus.com/en/newsroom/press-releases/2024-10-tata-advanced-systems-and-airbus-inaugurate-c295-final-assembly-line-in-vadodara-india",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Airbus Defence and Space - Space Atlas - Techadyant Labs",
+  "description": "Airbus Defence and Space is Airbus SE's military and space division, spanning the C295 and A400M airlifters, Eurofighter participation, military communication",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

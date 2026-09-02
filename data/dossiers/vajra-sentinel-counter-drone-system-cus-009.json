@@ -1,387 +1,116 @@
 {
-  "entity_id": "cus-009",
-  "entity_type": "system",
-  "tier": "A",
-  "noindex": false,
-  "slug": "vajra-sentinel-counter-drone-system-cus-009",
+ "entity_id": "atl-sys-vajra-sentinel-counter-drone-system-cus-009",
+ "entity_type": "system",
+ "tier": "B",
+ "noindex": false,
+ "slug": "vajra-sentinel-counter-drone-system-cus-009",
+ "name": "Vajra Sentinel Counter-Drone System",
+ "vertical": "counter-uas",
+ "parent_hub_path": "/research/counter-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Vajra Sentinel Counter-Drone System",
-  "variant": "Vajra Sentinel ADDS (Anti-Drone Defence System)",
-  "vertical": "counter-uas",
-  "parent_hub_path": "/research/counter-uas/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Big Bang Boom Solutions (BBBS) Chennai-built AI-powered passive RF C-UAS; ₹200 cr MoD contract March 2024, first lot delivered to IAF May 2025 in response to Op Sindoor.",
-    "chips": [
-      "Soft kill",
-      "Hard kill (kinetic)",
-      "Passive RF",
-      "AI/ML",
-      "Indian MoD deal 2024",
-      "Op Sindoor"
-    ],
-    "maker": "Big Bang Boom Solutions Pvt Ltd (BBBS), Chennai",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "See import dependencies below",
-    "mobility_or_class": "Vehicle-mounted / static / man-portable variants",
-    "operational_domains": [
-      "land",
-      "air"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Big Bang Boom Solutions Pvt Ltd (BBBS), Chennai",
-    "Funding": "$31.65M across 3 rounds; ₹250 cr Series B Sep 2024 at 15x return to early investors",
-    "MoD_contract": "₹200 crore (signed 8 March 2024 under iDEX, joint IAF + Army order)",
-    "IAF_RFP": "Anti-Drone Defence System (ADDS) RFP June 2022",
-    "First_delivery": "First lot delivered to IAF ~May 2025 (accelerated in response to Op Sindoor)",
-    "Product_family": "Vajra Sentinel (C-UAS), Vajra Shot (handheld anti-drone gun, NSG user), Vajra Spot (AESA drone detection radar), Vajra Shield (jammers), Vajra Sight/Strike/Slayer (kinetic effectors), Vajra Scan/Sense (detection)",
-    "Compliance": "MIL-SPEC 810G compliant; near-zero false alarm rate per BBBS",
-    "Distinction": "India's first defence dragon (highest-valued defence-tech startup)"
-  },
-  "what_it_is": {
-    "prose": "The Vajra Sentinel Counter-Drone System is an AI-powered counter-UAS platform developed by Big Bang Boom Solutions Pvt Ltd (BBBS) of Chennai. The system uses passive radio-frequency (RF) sensor technology to detect and neutralize commercial off-the-shelf (COTS) drones, with claimed near-zero false alarm rate and MIL-SPEC 810G environmental compliance. The Indian Air Force issued a Request for Proposal (RFP) for the Anti-Drone Defence System (ADDS) in June 2022. The Indian Ministry of Defence signed a ₹200 crore contract with BBBS on 8 March 2024 under the iDEX (Innovations for Defence Excellence) framework — a joint IAF and Army order — making BBBS what press coverage termed 'India's first defence dragon' (the highest-valued defence-tech startup, having raised $31.65 million across three funding rounds including a ₹250 crore Series B in September 2024 at 15x return to early investors). The first lot of Vajra Sentinel systems was delivered to the Indian Air Force around May 2025, with delivery accelerated in response to Operation Sindoor. The Vajra product family includes the Sentinel C-UAS (the flagship), Vajra Shot (handheld anti-drone gun used by the National Security Guard), Vajra Spot (AESA drone detection radar), Vajra Shield (jammers), Vajra Sight/Strike/Slayer (kinetic effectors), and Vajra Scan/Sense (detection systems). BBBS is distinct from Solar Defence and Aerospace Limited (SDAL), the maker of the Bhargavastra counter-drone system (Atlas slug cus-004) — the two are separate Indian counter-drone OEMs. The Atlas register previously conflated BBBS with Bhargavastra; see REGISTER_TICKETS.md ticket P0-BHARGAVASTRA-MAKER for the full conflict resolution.",
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3",
-      "src-4",
-      "src-5",
-      "src-6"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "The Indian Air Force issued an RFP for the Anti-Drone Defence System (ADDS) in June 2022. The Indian Ministry of Defence signed a ₹200 crore contract with BBBS on 8 March 2024 under the iDEX framework — a joint IAF and Army order. The first lot of Vajra Sentinel systems was delivered to the Indian Air Force around May 2025, with delivery accelerated in response to Operation Sindoor. The Vajra Shot handheld anti-drone gun has been delivered to the National Security Guard (NSG).",
-    "rows": [
-      {
-        "agency": "Indian Air Force",
-        "context": "ADDS RFP issued",
-        "year": 2022,
-        "quantity_or_note": "June 2022 — Anti-Drone Defence System RFP",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "agency": "Ministry of Defence (IAF + Indian Army)",
-        "context": "₹200 cr Vajra Sentinel contract under iDEX",
-        "year": 2024,
-        "quantity_or_note": "₹200 crore (signed 8 March 2024)",
-        "sources": [
-          "src-1",
-          "src-2",
-          "src-5"
-        ]
-      },
-      {
-        "agency": "Indian Air Force",
-        "context": "First lot of Vajra Sentinel systems delivered",
-        "year": 2025,
-        "quantity_or_note": "~May 2025 — accelerated in response to Op Sindoor",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "agency": "National Security Guard (NSG)",
-        "context": "Vajra Shot handheld anti-drone gun delivered",
-        "year": null,
-        "quantity_or_note": "Quantity not disclosed",
-        "sources": [
-          "src-4"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Exact unit pricing and total ADDS systems to be delivered to IAF not disclosed",
-      "Import dependency for Vajra Spot AESA radar GaN T/R modules not disclosed",
-      "Whether Vajra Sentinel was operationally deployed during Op Sindoor — delivery timing suggests yes but no combat-use confirmation",
-      "BBBS is private; revenue/profit not publicly disclosed (Preqin 2021 revenue INR 2,488.9 mn)"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
-    "items": [
-      {
-        "component": "FPGA (Xilinx/AMD)",
-        "severity": "High",
-        "note": "Industry-typical; vendor not disclosed",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      },
-      {
-        "component": "GaN RF power amplifier (for Vajra Spot AESA radar)",
-        "severity": "High",
-        "note": "Industry-typical — USA",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      },
-      {
-        "component": "EO/IR sensors",
-        "severity": "Medium",
-        "note": "Industry-typical — Israel / Germany",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      }
-    ]
-  },
-  "intelligence_assessment": {
-    "methodology_path": "/research/methodology",
-    "dimensions": [
-      {
-        "id": "design",
-        "label": "Design ownership",
-        "value": 5,
-        "note": "BBBS — indigenous design (passive RF, AI-powered)",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "id": "production",
-        "label": "Production ownership",
-        "value": 5,
-        "note": "BBBS Chennai facility",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "id": "critical_components",
-        "label": "Critical component sovereignty",
-        "value": 2,
-        "note": "FPGA/GaN/EO/IR imported; passive RF design indigenous",
-        "sources": []
-      },
-      {
-        "id": "combat_proven",
-        "label": "Combat proven",
-        "value": 4,
-        "note": "First lot delivered to IAF ~May 2025 in response to Op Sindoor; combat-use not independently confirmed",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "id": "export_potential",
-        "label": "Export potential",
-        "value": 2,
-        "note": "No export discussions reported; BBBS focused on Indian MoD market",
-        "sources": []
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [
-      "integrated-counter-drone-system-cus-001",
-      "zen-anti-drone-system-zads-cus-003",
-      "bhargavastra-counter-drone-system-cus-004",
-      "indrajaal-anti-drone-system-cus-005"
-    ],
-    "related_components": [],
-    "related_pillars": [
-      "/research/pillars/defence/"
-    ],
-    "referenced_by": []
-  },
-  "faq": [
-    {
-      "question": "Is Vajra Sentinel the same as Bhargavastra?",
-      "answer": "No. Vajra Sentinel is made by Big Bang Boom Solutions (BBBS) of Chennai. Bhargavastra is made by Solar Defence and Aerospace Limited (SDAL) of Nagpur. The Atlas register previously conflated these two distinct Indian counter-drone products — see REGISTER_TICKETS.md ticket P0-BHARGAVASTRA-MAKER. Vajra Sentinel uses AI-powered passive RF technology and has a ₹200 cr MoD contract (March 2024); Bhargavastra is a micro-missile hard-kill system under the Indian Army's Make-II programme with induction targeted end-2026.",
-      "sources": [
-        "src-1",
-        "src-5"
-      ]
-    },
-    {
-      "question": "What is the Vajra product family?",
-      "answer": "The Vajra product family includes the Sentinel C-UAS (the flagship, ₹200 cr MoD deal), Vajra Shot (handheld anti-drone gun used by the NSG), Vajra Spot (AESA drone detection radar), Vajra Shield X and S (jammers), Vajra Super Shot (jammer), Vajra Sight/Strike/Slayer (kinetic effectors), and Vajra Scan X/S and Sense (detection systems). BBBS also produces an EW portfolio (Cnidaria, Aqua Tether, Yudhikshana, Agni, Quell, TIC Drone) and AI-powered Command & Control systems.",
-      "sources": [
-        "src-4"
-      ]
-    },
-    {
-      "question": "Was Vajra Sentinel deployed during Operation Sindoor?",
-      "answer": "The first lot of Vajra Sentinel systems was delivered to the Indian Air Force around May 2025, with delivery accelerated in response to Operation Sindoor. The delivery timing suggests operational use during Op Sindoor, but no independent combat-use confirmation has been made public. The Op Sindoor deployment of the BEL IDDIS system (Atlas slug cus-001) is confirmed by BEL and PIB.",
-      "sources": [
-        "src-3"
-      ]
-    }
+  "role": "Fixed Site; Mobile",
+  "country": "India",
+  "status_line": "Operational",
+  "subtitle": "V1",
+  "entity_path": "/research/counter-uas/system/vajra-sentinel-counter-drone-system-cus-009/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "VEGA Integrated Systems"
+   }
   ],
-  "timeline": [
-    {
-      "date": "2022-06",
-      "event": "IAF issues RFP for Anti-Drone Defence System (ADDS)",
-      "sources": [
-        "src-4"
-      ]
-    },
-    {
-      "date": "2024-03-08",
-      "event": "₹200 cr MoD contract signed with BBBS under iDEX (joint IAF + Army order)",
-      "sources": [
-        "src-1",
-        "src-2",
-        "src-5"
-      ]
-    },
-    {
-      "date": "2024-09-24",
-      "event": "BBBS raises ₹250 cr Series B at 15x return to early investors — 'India's first defence dragon'",
-      "sources": [
-        "src-6"
-      ]
-    },
-    {
-      "date": "2025-05",
-      "event": "First lot of Vajra Sentinel systems delivered to IAF (accelerated for Op Sindoor)",
-      "sources": [
-        "src-3"
-      ]
-    }
-  ],
-  "open_questions": [
-    "Exact unit pricing and total ADDS systems to be delivered to IAF not disclosed",
-    "Import dependency for Vajra Spot AESA radar GaN T/R modules not disclosed",
-    "Whether Vajra Sentinel was operationally deployed during Op Sindoor — delivery timing suggests yes but no combat-use confirmation",
-    "BBBS is private; revenue/profit not publicly disclosed (Preqin 2021 revenue INR 2,488.9 mn)"
-  ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Defence Ministry signs ₹200 crore contract for anti-drone systems under iDEX initiative",
-      "publisher": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/defence-ministry-signs-200-crore-contract-for-anti-drone-systems-under-idex-initiative/article67938966.ece",
-      "published_date": "2024-03-11",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Primary contract signing announcement — ₹200 cr iDEX deal 8 March 2024"
-    },
-    {
-      "id": "src-2",
-      "title": "Start-up BBS lands anti-drone systems contract worth Rs 200 crore",
-      "publisher": "The Hindu BusinessLine",
-      "url": "https://www.thehindubusinessline.com/companies/start-up-bbs-lands-anti-drone-systems-contract-worth-rs-200-crore/article67928936.ece",
-      "published_date": "2024-03-08",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Earliest report of 8 March 2024 deal"
-    },
-    {
-      "id": "src-3",
-      "title": "Big Bang Boom delivers first Varja Sentinel to Indian Air Force",
-      "publisher": "Unmanned Airspace",
-      "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/big-bang-boom-delivers-first-varja-sentinel-to-indian-air-force",
-      "published_date": "2025-05-21",
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "First-lot delivery confirmation ~May 2025"
-    },
-    {
-      "id": "src-4",
-      "title": "Over ₹200 Crore Deal for Indigenous Anti-Drone Technology",
-      "publisher": "SP's Land Forces",
-      "url": "https://www.spslandforces.com/story/?id=914&h=Over-and-8377;200-Crore-Deal-for-Indigenous-Anti-Drone-Technology",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Passive RF sensor details; MIL-SPEC 810G; near-zero false alarms"
-    },
-    {
-      "id": "src-5",
-      "title": "MoD buys indigenous anti-drone technology worth ₹200 crore from Big Bang Boom Systems",
-      "publisher": "Ajai Shukla blog (Business Standard)",
-      "url": "https://www.ajaishukla.com/2024/03/mod-buys-indigenous-anti-drone.html",
-      "published_date": "2024-03-12",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Independent confirmation of ₹200 cr deal"
-    },
-    {
-      "id": "src-6",
-      "title": "Rise of First Indian Defence Dragon: Big Bang Boom Solutions Raises Rs 250 Crore with a 15x Return to Early Investors",
-      "publisher": "Business Standard (ANI)",
-      "url": "https://www.business-standard.com/content/press-releases-ani/rise-of-first-indian-defence-dragon-big-bang-boom-solutions-raises-rs-250-crore-with-a-15x-return-to-early-investors-124092400408_1.html",
-      "published_date": "2024-09-24",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Series B funding round; first Indian defence dragon designation"
-    }
-  ],
-  "seo": {
-    "title": "Vajra Sentinel Counter-Drone System — System · India Counter-UAS Atlas | Techadyant",
-    "meta_description": "Big Bang Boom Solutions (BBBS) Chennai-built AI-powered passive RF C-UAS; ₹200 cr MoD contract March 2024, first lot delivered to IAF May 2025 in response to Op",
-    "canonical_path": "/research/counter-uas/system/vajra-sentinel-counter-drone-system-cus-009/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Product",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/counter-uas/",
-    "submit_correction": "/research/counter-uas/submit-correction/",
-    "related_research": [
-      "/research/counter-uas/"
-    ]
-  },
-  "kill_chain_or_capability": {
-    "stages": [
-      {
-        "id": "detect",
-        "label": "Detect",
-        "covered": true,
-        "note": "Passive RF sensor (signature feature); Vajra Spot AESA radar for active detection"
-      },
-      {
-        "id": "classify",
-        "label": "Classify",
-        "covered": true,
-        "note": "AI-powered classification; near-zero false alarm rate per BBBS"
-      },
-      {
-        "id": "track",
-        "label": "Track",
-        "covered": true,
-        "note": "Integrated C2 with Vajra Scan/Sense"
-      },
-      {
-        "id": "decide",
-        "label": "Decide",
-        "covered": true,
-        "note": "AI-powered Command & Control (C2) systems"
-      },
-      {
-        "id": "defeat",
-        "label": "Defeat",
-        "covered": true,
-        "note": "Soft kill: Vajra Shield jammers; Hard kill: Vajra Sight/Strike/Slayer kinetic effectors"
-      },
-      {
-        "id": "assess",
-        "label": "Assess",
-        "covered": true,
-        "note": "Vajra Sense post-engagement BDA"
-      }
-    ],
-    "threat_or_target_classes": [
-      "Group 1 UAS",
-      "Group 2 UAS",
-      "Commercial quadcopters",
-      "FPV drones",
-      "COTS drones"
-    ],
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3",
-      "src-4",
-      "src-5",
-      "src-6"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "Indigenous content": "60% (Yes - Indigenous)"
+   }
   }
+ },
+ "what_it_is": "Vajra Sentinel is Big Bang Boom Solutions' AI-powered counter-drone system that detects RF-controlled commercial drones (DJI Mavic-class included) and neutralises them; trade press has reported its delivery to the Indian Air Force, and the companion Vajra Shot gun serves man-portable roles.",
+ "india_angle": "Vajra Sentinel is one of the few Indian private C-UAS products with public delivery reporting to an Indian service (IAF, May 2025 trade reporting), making it a concrete data point in India's counter-drone industrialisation.",
+ "drone_types_countered": [
+  "Nano",
+  "Micro",
+  "Small UAV",
+  "Medium UAV",
+  "Fixed Wing",
+  "VTOL",
+  "FPV",
+  "Loitering Munition"
+ ],
+ "kill_chain": [
+  "Detect",
+  "Track",
+  "Identify",
+  "Classify",
+  "Decide",
+  "Neutralize"
+ ],
+ "intelligence_assessment": "The IAF delivery report is from trade press, not a government release; contract value and scale are undisclosed. Track MoD/IAF announcements and BBBS order-book disclosures for confirmation.",
+ "graph": {
+  "maker": {
+   "name": "VEGA Integrated Systems",
+   "path": "/research/counter-uas/manufacturer/vega-integrated-systems-mfg-009/"
+  },
+  "parent_hub": "/research/counter-uas/"
+ },
+ "faq": [
+  {
+   "q": "Has Vajra Sentinel been delivered to the IAF?",
+   "a": "Trade press reported delivery in May 2025; a government release confirming quantities has not appeared."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "defencereviewasia.com",
+   "title": "Big Bang Boom Solutions delivers Vajra Sentinel system to Indian Air Force",
+   "url": "https://defencereviewasia.com/big-bang-boom-solutions-deliversvajra-sentinel-system-to-indian-air-force",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "bigbangboom.com",
+   "title": "Vajra Sentinel - anti-drone defence system (vendor)",
+   "url": "https://www.bigbangboom.com",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "bigbangboom.com",
+   "title": "BBBS counter-UAS product line",
+   "url": "https://www.bigbangboom.com/products",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Vajra Sentinel Counter-Drone System - Counter-UAS Atlas - Techadyant Labs",
+  "description": "Vajra Sentinel is Big Bang Boom Solutions' AI-powered counter-drone system that detects RF-controlled commercial drones (DJI Mavic-class included) and neutral",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

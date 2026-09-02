@@ -1,74 +1,86 @@
 {
-  "entity_id": "aadyah-space",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "aadyah-space",
+ "entity_id": "atl-cmp-aadyah-space",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "aadyah-space",
+ "name": "Aadyah Space",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Aadyah Space",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Aadyah Space dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Aadyah Space",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Aadyah Space",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Aadyah Space evidence pending verification.",
-    "sources": [
-      "src-aad-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-aad-1",
-      "title": "Aadyah Space website",
-      "publisher": "Aadyah Space",
-      "url": "https://aadyah.space/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
-  ],
-  "seo": {
-    "title": "Aadyah Space — Company · India Space Atlas | Techadyant",
-    "meta_description": "Aadyah Space company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/aadyah-space/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "role": "Propulsion",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/aadyah-space/"
+ },
+ "at_a_glance": {
+  "indicators": [],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Aadyah Aerospace is a Bengaluru space-systems company (founded 2016) building satellite subsystems - motion control, guidance and navigation, avionics and power - plus launch-vehicle systems. It positions itself as a subsystem OEM for Indian and international satellite and launcher programmes.",
+ "india_angle": "Aadyah sits in Bengaluru's supplier layer beneath India's launch boom: its subsystem catalogue serves both private constellation builders and launch-vehicle programmes. Series-A stage and its supplier listings are public via trackers.",
+ "intelligence_assessment": "Subsystem suppliers like Aadyah are strategically important but hard to verify at programme level; most evidence is catalogue-based. Watch supplier credits on Indian launches and satellite missions.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What does Aadyah Aerospace build?",
+   "a": "Satellite subsystems (motion control, GNC, avionics, power) and launch-vehicle systems from Bengaluru."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "satsearch.co",
+   "title": "AADYAH Aerospace Pvt Ltd - supplier profile",
+   "url": "https://satsearch.co/suppliers/aadyah-aerospace",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "linkedin.com",
+   "title": "AADYAH Space - company page",
+   "url": "https://www.linkedin.com/company/aadyah-aerospace-private-limited",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "tracxn.com",
+   "title": "AADYAH - company profile and team",
+   "url": "https://tracxn.com/d/companies/aadyah",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Aadyah Space - Space Atlas - Techadyant Labs",
+  "description": "Aadyah Aerospace is a Bengaluru space-systems company (founded 2016) building satellite subsystems - motion control, guidance and navigation, avionics and pow",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

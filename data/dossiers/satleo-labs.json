@@ -1,74 +1,66 @@
 {
-  "entity_id": "satleo-labs",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "satleo-labs",
+ "entity_id": "atl-cmp-satleo-labs",
+ "entity_type": "company",
+ "tier": "C",
+ "noindex": true,
+ "slug": "satleo-labs",
+ "name": "Satleo Labs",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Satleo Labs",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Satleo Labs dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Satleo Labs",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Satleo Labs",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Satleo Labs evidence pending verification.",
-    "sources": [
-      "src-satleo-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-satleo-1",
-      "title": "Satleo Labs website",
-      "publisher": "Satleo Labs",
-      "url": "https://satleolabs.com/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
-  ],
-  "seo": {
-    "title": "Satleo Labs — Company · India Space Atlas | Techadyant",
-    "meta_description": "Satleo Labs company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/satleo-labs/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "role": "Satellite / Systems",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/satleo-labs/"
+ },
+ "at_a_glance": {
+  "indicators": [],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Satleo Labs is listed in this atlas as a satellite / systems. The atlas legacy record places its headquarters at —. Satellite systems; test support",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does Satleo Labs appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a Satellite / Systems relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Satleo Labs - Space Atlas - Techadyant Labs",
+  "description": "Satleo Labs is listed in this atlas as a satellite / systems.",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

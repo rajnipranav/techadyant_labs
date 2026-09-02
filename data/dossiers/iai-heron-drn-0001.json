@@ -1,0 +1,212 @@
+{
+ "entity_id": "atl-plat-iai-heron-drn-0001",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "iai-heron-drn-0001",
+ "name": "IAI Heron",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "IAI Heron",
+  "role": "MALE UAV",
+  "country": "Israel",
+  "status_line": "In Service",
+  "subtitle": "Mk I / Mk II",
+  "entity_path": "/research/drones-uas/platform/iai-heron-drn-0001/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Israel Aerospace Industries (IAI)"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Army — Aviation Corps"
+   },
+   {
+    "label": "Mission roles",
+    "value": "ISR, BDA, border patrol, maritime patrol, SIGINT"
+   }
+  ],
+  "key_specs": [
+   "1,270 kg MTOW",
+   "250 kg payload",
+   "45 hr endurance",
+   "1,000 km range",
+   "10,000 m ceiling",
+   "207 km/h",
+   "Rotax 914 turbocharged piston engine (115 hp)"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "75",
+    "Indigenous content": "10%"
+   }
+  }
+ },
+ "what_it_is": "IAI Heron is listed in this atlas as a male uav (Israel). The atlas legacy record attributes it to Israel Aerospace Industries (IAI), with Indian Army — Aviation Corps named as primary operator. Israel's flagship MALE UAV; in service with Indian Army, Navy, IAF and BSF. Operated from Charbatia, Porbandar, Leh, Thoise.",
+ "import_dependencies": {
+  "note": "Component/supplier map captured from the live legacy page on 2026-09-02 (unverified lineage).",
+  "components": [
+   {
+    "component": "Rotax 914",
+    "category": "Engine",
+    "supplier": "BRP-Rotax (Austria) — via IAI"
+   },
+   {
+    "component": "Controp STAMP",
+    "category": "EO/IR Sensor",
+    "supplier": "Controp Precision Technologies (Israel)"
+   },
+   {
+    "component": "EL/M-2055 SAR",
+    "category": "Radar",
+    "supplier": "ELTA (Israel, IAI subsidiary)"
+   },
+   {
+    "component": "Ku-band SATCOM antenna",
+    "category": "Data Link",
+    "supplier": "IAI/Elta"
+   },
+   {
+    "component": "Controp STAMP-D",
+    "category": "EO/IR Sensor",
+    "supplier": "Controp Precision Technologies"
+   },
+   {
+    "component": "EL/M-2055D SAR",
+    "category": "Radar",
+    "supplier": "Elta Systems (IAI subsidiary)"
+   },
+   {
+    "component": "EL/K-7071 COMINT",
+    "category": "Software",
+    "supplier": "Elta Systems"
+   },
+   {
+    "component": "EL/K-7035 ELINT",
+    "category": "Software",
+    "supplier": "Elta Systems"
+   },
+   {
+    "component": "C-band datalink",
+    "category": "Data Link",
+    "supplier": "IAI"
+   }
+  ]
+ },
+ "deployments_procurement": {
+  "summary": "The legacy atlas page lists 3 procurement row(s) (total Rs 2,500 cr). These rows predate this dossier upgrade and await independent verification.",
+  "records": [
+   {
+    "row": "Indian Air Force — 31 Squadron / UAV wing · 10 units · 2007 | ₹1,100 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   },
+   {
+    "row": "Indian Army — Aviation Corps · 8 units · 2005 | ₹900 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   },
+   {
+    "row": "Indian Navy · 4 units · 2010 | ₹500 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   }
+  ],
+  "note": "No order, quantity or value on this page is asserted as verified fact. See open_questions."
+ },
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Israel Aerospace Industries (IAI)",
+   "path": "/research/drones-uas/company/israel-aerospace-industries-iai-mfr-001/"
+  },
+  "operator": "Indian Army — Aviation Corps",
+  "components": [
+   {
+    "component": "Rotax 914",
+    "category": "Engine",
+    "supplier": "BRP-Rotax (Austria) — via IAI"
+   },
+   {
+    "component": "Controp STAMP",
+    "category": "EO/IR Sensor",
+    "supplier": "Controp Precision Technologies (Israel)"
+   },
+   {
+    "component": "EL/M-2055 SAR",
+    "category": "Radar",
+    "supplier": "ELTA (Israel, IAI subsidiary)"
+   },
+   {
+    "component": "Ku-band SATCOM antenna",
+    "category": "Data Link",
+    "supplier": "IAI/Elta"
+   },
+   {
+    "component": "Controp STAMP-D",
+    "category": "EO/IR Sensor",
+    "supplier": "Controp Precision Technologies"
+   },
+   {
+    "component": "EL/M-2055D SAR",
+    "category": "Radar",
+    "supplier": "Elta Systems (IAI subsidiary)"
+   },
+   {
+    "component": "EL/K-7071 COMINT",
+    "category": "Software",
+    "supplier": "Elta Systems"
+   },
+   {
+    "component": "EL/K-7035 ELINT",
+    "category": "Software",
+    "supplier": "Elta Systems"
+   },
+   {
+    "component": "C-band datalink",
+    "category": "Data Link",
+    "supplier": "IAI"
+   }
+  ],
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does IAI Heron appear in the India UAS Atlas?",
+   "a": "It is part of the atlas's coverage of drones uas; the hub lists it as a MALE UAV relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Verify the legacy atlas procurement row(s) against MoD/PIB/service announcements and add named sources to upgrade toward Tier B/A.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "IAI Heron - India UAS Atlas - Techadyant Labs",
+  "description": "IAI Heron is listed in this atlas as a male uav (Israel).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

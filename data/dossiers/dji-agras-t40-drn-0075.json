@@ -1,0 +1,95 @@
+{
+ "entity_id": "atl-plat-dji-agras-t40-drn-0075",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "dji-agras-t40-drn-0075",
+ "name": "DJI Agras T40",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "DJI Agras T40",
+  "role": "Hexacopter",
+  "country": "China",
+  "status_line": "Restricted (import banned)",
+  "subtitle": "T40",
+  "entity_path": "/research/drones-uas/platform/dji-agras-t40-drn-0075/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Foreign — DJI (China)"
+   },
+   {
+    "label": "Primary operator",
+    "value": "GeM (Government e-Marketplace)"
+   },
+   {
+    "label": "Mission roles",
+    "value": "Agricultural spraying"
+   }
+  ],
+  "key_specs": [
+   "90 kg MTOW",
+   "50 kg payload",
+   "0.4 hr endurance",
+   "7 km range",
+   "0 m ceiling",
+   "30 km/h",
+   "Electric motor + 17L spray tank dual"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "0",
+    "Indigenous content": "0%"
+   }
+  }
+ },
+ "what_it_is": "DJI Agras T40 is listed in this atlas as a hexacopter (China). The atlas legacy record attributes it to Foreign — DJI (China), with GeM (Government e-Marketplace) named as primary operator. Agri-drone variant — was being imported before ban. Replaced by Garuda, Marut, GA-3 indigenous options.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Foreign — DJI (China)"
+  },
+  "operator": "GeM (Government e-Marketplace)",
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does DJI Agras T40 appear in the India UAS Atlas?",
+   "a": "It is part of the atlas's coverage of drones uas; the hub lists it as a Hexacopter relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "DJI Agras T40 - India UAS Atlas - Techadyant Labs",
+  "description": "DJI Agras T40 is listed in this atlas as a hexacopter (China).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

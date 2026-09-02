@@ -1,0 +1,107 @@
+{
+ "entity_id": "atl-plat-eplane-e100-drn-0108",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "eplane-e100-drn-0108",
+ "name": "ePlane e100",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "ePlane e100",
+  "role": "eVTOL",
+  "country": "India",
+  "status_line": "In Development",
+  "subtitle": "Cargo variant of e200",
+  "entity_path": "/research/drones-uas/platform/eplane-e100-drn-0108/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "The ePlane Company"
+   },
+   {
+    "label": "Primary operator",
+    "value": "GeM (Government e-Marketplace)"
+   },
+   {
+    "label": "Mission roles",
+    "value": "Cargo logistics (urban)"
+   }
+  ],
+  "key_specs": [
+   "500 kg MTOW",
+   "50 kg payload",
+   "1 hr endurance",
+   "100 km range",
+   "0 m ceiling",
+   "0 km/h",
+   "6× electric motors"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "0",
+    "Indigenous content": "75%"
+   }
+  }
+ },
+ "what_it_is": "ePlane e100 is listed in this atlas as a evtol (India). The atlas legacy record attributes it to The ePlane Company, with GeM (Government e-Marketplace) named as primary operator. Cargo variant of e200 eVTOL — earlier to market.",
+ "deployments_procurement": {
+  "summary": "The legacy atlas page lists 1 procurement row(s) (total Rs 5 cr). These rows predate this dossier upgrade and await independent verification.",
+  "records": [
+   {
+    "row": "GeM (Government e-Marketplace) · 5 units · 2024 | ₹5 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   }
+  ],
+  "note": "No order, quantity or value on this page is asserted as verified fact. See open_questions."
+ },
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "The ePlane Company",
+   "path": "/research/drones-uas/company/the-eplane-company-mfr-030/"
+  },
+  "operator": "GeM (Government e-Marketplace)",
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does ePlane e100 appear in the India UAS Atlas?",
+   "a": "It is part of the atlas's coverage of drones uas; the hub lists it as a eVTOL relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Verify the legacy atlas procurement row(s) against MoD/PIB/service announcements and add named sources to upgrade toward Tier B/A.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "ePlane e100 - India UAS Atlas - Techadyant Labs",
+  "description": "ePlane e100 is listed in this atlas as a evtol (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

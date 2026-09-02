@@ -1,0 +1,86 @@
+{
+ "entity_id": "atl-plat-endureair-sabal-20-drn-0138",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "endureair-sabal-20-drn-0138",
+ "name": "EndureAir SABAL 20",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "EndureAir SABAL 20",
+  "role": "Hybrid VTOL",
+  "country": "India",
+  "status_line": "In Service",
+  "subtitle": null,
+  "entity_path": "/research/drones-uas/platform/endureair-sabal-20-drn-0138/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "EndureAir Systems"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Army — Aviation Corps"
+   },
+   {
+    "label": "Mission roles",
+    "value": "Heavy-lift logistics, resupply"
+   }
+  ],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "Indigenous content": "80%"
+   }
+  }
+ },
+ "what_it_is": "EndureAir SABAL 20 is listed in this atlas as a hybrid vtol (India). The atlas legacy record attributes it to EndureAir Systems, with Indian Army — Aviation Corps named as primary operator. Tandem-rotor logistics UAV for high-altitude resupply.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "EndureAir Systems",
+   "path": "/research/drones-uas/company/endureair-systems-mfr-095/"
+  },
+  "operator": "Indian Army — Aviation Corps",
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does EndureAir SABAL 20 appear in the India UAS Atlas?",
+   "a": "It is part of the atlas's coverage of drones uas; the hub lists it as a Hybrid VTOL relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "EndureAir SABAL 20 - India UAS Atlas - Techadyant Labs",
+  "description": "EndureAir SABAL 20 is listed in this atlas as a hybrid vtol (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

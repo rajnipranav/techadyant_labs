@@ -1,0 +1,128 @@
+{
+ "entity_id": "atl-plat-drdo-als-50-drn-0067",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "drdo-als-50-drn-0067",
+ "name": "DRDO ALS-50",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "DRDO ALS-50",
+  "role": "Loitering Munition",
+  "country": "India",
+  "status_line": "In Development",
+  "subtitle": "Loitering Munition (concept)",
+  "entity_path": "/research/drones-uas/platform/drdo-als-50-drn-0067/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "DRDO — Aeronautical Development Establishment (ADE)"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Army — Aviation Corps"
+   },
+   {
+    "label": "Mission roles",
+    "value": "Strike, anti-armor"
+   }
+  ],
+  "key_specs": [
+   "0 kg MTOW",
+   "5 kg payload",
+   "0.5 hr endurance",
+   "100 km range",
+   "4,500 m ceiling",
+   "0 km/h",
+   "Single turbojet (small class)"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "0",
+    "Indigenous content": "90%"
+   }
+  }
+ },
+ "what_it_is": "DRDO ALS-50 is listed in this atlas as a loitering munition (India). The atlas legacy record attributes it to DRDO — Aeronautical Development Establishment (ADE), with Indian Army — Aviation Corps named as primary operator. DRDO-developed turbojet-powered loitering munition; first trials 2022.",
+ "import_dependencies": {
+  "note": "Component/supplier map captured from the live legacy page on 2026-09-02 (unverified lineage).",
+  "components": [
+   {
+    "component": "DRDO RCI seeker",
+    "category": "Software",
+    "supplier": "RCI, DRDO"
+   }
+  ]
+ },
+ "deployments_procurement": {
+  "summary": "The legacy atlas page lists 2 procurement row(s) (total Rs 130 cr). These rows predate this dossier upgrade and await independent verification.",
+  "records": [
+   {
+    "row": "Indian Army — Aviation Corps · 100 units · 2024 | ₹65 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   },
+   {
+    "row": "Indian Air Force — 31 Squadron / UAV wing · 100 units · 2024 | ₹65 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   }
+  ],
+  "note": "No order, quantity or value on this page is asserted as verified fact. See open_questions."
+ },
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "DRDO — Aeronautical Development Establishment (ADE)",
+   "path": "/research/drones-uas/company/drdo-aeronautical-development-establishment-ade-mfr-007/"
+  },
+  "operator": "Indian Army — Aviation Corps",
+  "components": [
+   {
+    "component": "DRDO RCI seeker",
+    "category": "Software",
+    "supplier": "RCI, DRDO"
+   }
+  ],
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does DRDO ALS-50 appear in the India UAS Atlas?",
+   "a": "It is part of the atlas's coverage of drones uas; the hub lists it as a Loitering Munition relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Verify the legacy atlas procurement row(s) against MoD/PIB/service announcements and add named sources to upgrade toward Tier B/A.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "DRDO ALS-50 - India UAS Atlas - Techadyant Labs",
+  "description": "DRDO ALS-50 is listed in this atlas as a loitering munition (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

@@ -1,74 +1,76 @@
 {
-  "entity_id": "lockheed-martin-space",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "lockheed-martin-space",
+ "entity_id": "atl-cmp-lockheed-martin-space",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "lockheed-martin-space",
+ "name": "Lockheed Martin Space",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-pointer",
+ "header": {
   "name": "Lockheed Martin Space",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Lockheed Martin Space dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Lockheed Martin Space",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Lockheed Martin Space",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Lockheed Martin Space is a U.S. space company with no confirmed India operational evidence.",
-    "sources": [
-      "src-lm-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-lm-1",
-      "title": "Lockheed Martin Space website",
-      "publisher": "Lockheed Martin",
-      "url": "https://www.lockheedmartin.com/en-us/capabilities/space.html",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "No India operational evidence."
-    }
+  "role": "OEM / Systems (Foreign)",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/lockheed-martin-space/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "US"
+   }
   ],
-  "seo": {
-    "title": "Lockheed Martin Space — Company · India Space Atlas | Techadyant",
-    "meta_description": "Lockheed Martin Space company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/lockheed-martin-space/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "This atlas page is the Space Atlas listing of an entity whose primary dossier is published at /research/military-aerospace/company/lockheed/. The primary record carries the company profile, India portfolio and sourcing discipline; this vertical page is kept as a pointer so that hub links and navigation resolve to a single source of truth. Maintaining two full dossiers for one entity would risk conflicting facts and double-counting across verticals.",
+ "india_angle": "Lockheed Martin's primary dossier lives in the military-aerospace vertical. This space-vertical page covers the same corporation's space lines (LM Space); the pointer rule applies.",
+ "intelligence_assessment": "Pointer dossier: evidence discipline, sources and India assessment are maintained in the primary dossier. Tier B status here reflects the pointer policy, not an independent evidence review of this vertical page.",
+ "pointer": {
+  "primary_dossier": "/research/military-aerospace/company/lockheed/",
+  "policy": "single-source-of-truth per entity"
+ },
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does Lockheed Martin Space appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a OEM / Systems (Foreign) relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm scope split between this space page and the primary dossier at /research/military-aerospace/company/lockheed/.",
+  "Re-audit after primary-dossier updates to keep facts in sync."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Lockheed Martin Space - Space Atlas - Techadyant Labs",
+  "description": "This atlas page is the Space Atlas listing of an entity whose primary dossier is published at /research/military-aerospace/company/lockheed/.",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

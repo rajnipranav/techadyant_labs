@@ -1,171 +1,102 @@
 {
-  "entity_id": "ceinsys",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "ceinsys",
-  "name": "Ceinsys Tech Limited",
-  "variant": "Listed geospatial & engineering-services company",
-  "vertical": "military-aerospace",
-  "parent_hub_path": "/research/military-aerospace/company/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Nagpur-headquartered, BSE/NSE-listed geospatial and engineering-services company; FY26 revenue ₹660.7 crore (+58% YoY), PAT ₹133.4 crore (+111%). Its aerospace/defence exposure runs through its engineering-design subsidiary AllyGrow Technologies and defence-adjacent geospatial work, rather than direct platform manufacture.",
-    "chips": [
-      "Tier B",
-      "Listed (BSE/NSE)",
-      "Geospatial",
-      "Engineering services",
-      "AllyGrow",
-      "Defence-adjacent",
-      "FY26 +58% revenue"
-    ],
-    "maker": "Public shareholders (listed company)",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Indian engineering-services and geospatial provider; aerospace engineering-design work typically to foreign-OEM specifications",
-    "mobility_or_class": "Engineering & geospatial services company (not a platform OEM)",
-    "operational_domains": [
-      "air",
-      "land",
-      "space"
-    ]
-  },
-  "at_a_glance": {
-    "Legal_name": "Ceinsys Tech Limited",
-    "Ownership": "Publicly listed — BSE and NSE",
-    "HQ": "Nagpur, Maharashtra, India",
-    "Segments": "Geospatial & Engineering Services (₹358.8 crore FY26, +76%); Technology Solutions (₹300.9 crore FY26, +41%)",
-    "Revenue_FY26": "₹660.7 crore (~INR 6,607 Mn), +58% YoY",
-    "PAT_FY26": "₹133.4 crore (~INR 1,334 Mn), +111.1% YoY",
-    "EBITDA_FY26": "₹144.9 crore, margin 21.9%",
-    "Order_book": "~₹876 crore (INR 8,760 Mn)",
-    "Aerospace_defence_link": "Engineering-design services via subsidiary AllyGrow Technologies (acquired 2021, ~₹68.07 crore); defence-adjacent geospatial/engineering work",
-    "Net_cash": "~₹248 crore (INR 2,480 Mn)"
-  },
-  "what_it_is": {
-    "prose": "Ceinsys Tech Limited is a Nagpur-headquartered, BSE- and NSE-listed company operating in geospatial services and engineering/technology solutions. It reported a strong FY26: total revenue of about ₹660.7 crore (up 58% year-on-year), Profit After Tax of about ₹133.4 crore (up 111.1%), EBITDA of ₹144.9 crore at a 21.9% margin, and an order book of roughly ₹876 crore, with a net cash balance near ₹248 crore. Its business splits into a Geospatial & Engineering Services segment (₹358.8 crore in FY26, up 76%) and a Technology Solutions segment (₹300.9 crore, up 41%). Ceinsys's relevance to military aerospace is indirect and services-based rather than platform manufacture: in 2021 it acquired 100% of AllyGrow Technologies Private Limited (for up to ~₹68.07 crore), an engineering-design services company, extending Ceinsys into product and mechanical engineering design that serves aerospace and industrial OEMs; and its geospatial, mapping and engineering work has defence-adjacent applications (terrain intelligence, infrastructure and asset mapping). Direct, publicly retrievable primary evidence of Ceinsys holding named Indian military-aircraft or defence-platform contracts is limited, so this entry is tiered B and framed honestly around its listed financials, its AllyGrow engineering-design capability, and its defence-adjacent geospatial services rather than any claim of aerospace platform production.",
-    "sources": [
-      "src-1",
-      "src-2"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "Ceinsys is an engineering- and geospatial-services provider; its India footprint is documented through its listed financials and its AllyGrow engineering-design acquisition, not through named defence-platform contracts. Its aerospace/defence-relevant activity is engineering-design services (via AllyGrow) and defence-adjacent geospatial/engineering work.",
-    "rows": [
-      {
-        "agency": "Aerospace & industrial OEMs (engineering-design services)",
-        "context": "Mechanical/product engineering-design services via subsidiary AllyGrow Technologies",
-        "year": 2021,
-        "quantity_or_note": "AllyGrow acquired 2021 for up to ~₹68.07 crore (100% stake)",
-        "sources": [
-          "src-2"
-        ]
-      },
-      {
-        "agency": "Government / infrastructure / defence-adjacent (geospatial)",
-        "context": "Geospatial mapping, terrain and asset-management services with defence-adjacent applications",
-        "year": null,
-        "quantity_or_note": "Part of FY26 Geospatial & Engineering Services segment (₹358.8 crore)",
-        "sources": [
-          "src-1"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Named Indian military-aerospace/defence-platform contracts for Ceinsys are not documented in the primary sources retrieved this session",
-      "Share of Ceinsys revenue attributable to aerospace/defence engineering (vs civil geospatial/IT) is not separately disclosed",
-      "Extent of AllyGrow's aerospace-specific (vs automotive/industrial) engineering-design work is not itemised publicly here"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "As a services company, Ceinsys has limited physical supply-chain dependency; its exposure is to foreign engineering-software toolchains and, for AllyGrow's aerospace-design work, to customer-owned (foreign OEM) design data and standards. It does not manufacture platforms or hardware components that would carry classic import dependencies.",
-    "items": [
-      {
-        "component": "Engineering & geospatial software toolchains",
-        "severity": "Low",
-        "note": "CAD/CAE, GIS and simulation software largely from foreign vendors",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      },
-      {
-        "component": "Customer-owned aerospace design data / standards",
-        "severity": "Low",
-        "note": "AllyGrow aerospace-design work performed to foreign-OEM specifications and IP",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": [
-          "src-2"
-        ]
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "related_pillars": [
-      "/research/pillars/defence/"
-    ],
-    "referenced_by": []
-  },
-  "faq": [
-    {
-      "question": "What is Ceinsys Tech and how is it relevant to military aerospace?",
-      "answer": "Ceinsys Tech is a Nagpur-based, BSE/NSE-listed company in geospatial services and engineering/technology solutions. Its military-aerospace relevance is indirect: through its 2021 acquisition of engineering-design firm AllyGrow Technologies it provides mechanical/product engineering-design services that serve aerospace and industrial OEMs, and its geospatial and mapping work has defence-adjacent applications. It is a services provider, not an aircraft or systems manufacturer.",
-      "sources": [
-        "src-1",
-        "src-2"
-      ]
-    },
-    {
-      "question": "How did Ceinsys perform financially in FY26?",
-      "answer": "For FY26 Ceinsys reported total revenue of about ₹660.7 crore, up 58% year-on-year, and Profit After Tax of about ₹133.4 crore, up 111.1%, with EBITDA of ₹144.9 crore at a 21.9% margin and an order book of roughly ₹876 crore. Its Geospatial & Engineering Services segment contributed ₹358.8 crore (up 76%) and Technology Solutions ₹300.9 crore (up 41%).",
-      "sources": [
-        "src-1"
-      ]
-    }
+ "entity_id": "atl-cmp-ceinsys",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "ceinsys",
+ "name": "CEINSYS Tech Systems (CEINSYS / CSM Software)",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "CEINSYS Tech Systems (CEINSYS / CSM Software)",
+  "role": "tier-2,tier-3,precision-machining,engineering-services",
+  "country": "India Indicative",
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/company/ceinsys/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Nagpur, Maharashtra"
+   },
+   {
+    "label": "Role",
+    "value": "Tier-2 / Tier-3 supplier of machined parts to aerospace Tier-1s; C-295 link not publicly confirmed"
+   }
   ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Ceinsys Tech Reports Strong FY26 Results: Revenue Up 58%, Profit Up 111%",
-      "publisher": "Whalesbook Corporate News",
-      "url": "https://www.whalesbook.com/corporate-news/English/technology/Ceinsys-Tech-Reports-Strong-FY26-Results-Revenue-Up-58percent-Profit-Up-111percent/6a1f9fc76711824de3463b02",
-      "published_date": "2026-06-03",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "FY26 revenue, PAT, EBITDA, order book and segment split (Geospatial & Engineering Services; Technology Solutions)"
-    },
-    {
-      "id": "src-2",
-      "title": "Ceinsys Tech Limited to acquire Allygrow Technologies Private Limited",
-      "publisher": "EquityBulls",
-      "url": "https://www.equitybulls.com/category.php?id=304122",
-      "published_date": "2021-12-22",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Board approval to acquire 100% of AllyGrow Technologies (engineering-design services) for up to ~₹68.07 crore"
-    }
-  ],
-  "seo": {
-    "title": "Ceinsys Tech Limited — Company · India Military Aerospace Atlas | Techadyant",
-    "meta_description": "Nagpur-based, BSE/NSE-listed geospatial and engineering-services company; FY26 revenue ₹660.7 crore (+58%), PAT ₹133.4 crore (+111%). Aerospace/defence exposure runs through its AllyGrow engineering-design subsidiary and defence-adjacent geospatial work.",
-    "canonical_path": "/research/military-aerospace/company/ceinsys/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Organization",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/military-aerospace/company/",
-    "submit_correction": "/research/military-aerospace/submit-correction/",
-    "related_research": [
-      "/research/military-aerospace/company/",
-      "/research/pillars/defence/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Ceinsys Tech Limited (CS TECH Ai) is a Nagpur-based, NSE/BSE-listed geospatial and engineering-services company with CMMI Level 5 appraisal, delivering GIS platforms, digital-twin and engineering solutions to Indian central/state agencies and defence-adjacent users. It is one of the few listed pure-play Indian geospatial firms.",
+ "india_angle": "Ceinsys' listing and public-sector project base make it a verifiable Indian geospatial supplier; its military-aerospace relevance lies in terrain intelligence, command-and-control GIS backends and drone-data pipelines rather than hardware. Watch defence survey and C4ISR-adjacent awards in its exchange filings.",
+ "intelligence_assessment": "As a listed company, Ceinsys' contract flow is auditable through Indian exchange disclosures - unusually strong verifiability for this segment. Specific defence programme attribution remains sparse in public materials.",
+ "sites": [
+  "Nagpur Nagpur, Maharashtra Indicative Precision machined parts; engineering design services; tooling. Tier-2 / Tier-3 supplier to Airbus."
+ ],
+ "graph": {
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "What does Ceinsys do?",
+   "a": "Geospatial, engineering and IT solutions - GIS platforms, digital twins and survey services - largely for Indian government users."
+  },
+  {
+   "q": "Is Ceinsys listed?",
+   "a": "Yes - Ceinsys Tech Limited trades on the NSE and BSE."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
+ ],
+ "sources": [
+  {
+   "publisher": "cstech.ai",
+   "title": "About Us - CS TECH Ai (Ceinsys Tech Ltd.)",
+   "url": "https://cstech.ai/about",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "prnewswire.com",
+   "title": "Ceinsys Tech Ltd: A specialized GIS & Mobility engineering services provider",
+   "url": "https://www.prnewswire.com/news-releases/ceinsys-tech-ltd-a-specialized-gis--mobility-engineering-services-provider-celebrates-25-years-301540980.html",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "linkedin.com",
+   "title": "Ceinsys Tech Limited - company page",
+   "url": "https://www.linkedin.com/company/cs-tech-ai-ceinsys",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "CEINSYS Tech Systems (CEINSYS / CSM Software) - Military Aerospace Atlas - Techadyant Labs",
+  "description": "Ceinsys Tech Limited (CS TECH Ai) is a Nagpur-based, NSE/BSE-listed geospatial and engineering-services company with CMMI Level 5 appraisal, delivering GIS pl",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

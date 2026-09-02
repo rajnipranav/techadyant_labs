@@ -1,74 +1,94 @@
 {
-  "entity_id": "in-space",
-  "entity_type": "company",
-  "tier": "C",
-  "noindex": true,
-  "slug": "in-space",
-  "name": "IN-SPACe",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "IN-SPACe dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "IN-SPACe",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "IN-SPACe",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "IN-SPACe is the Indian National Space Promotion and Authorisation Centre under DoS.",
-    "sources": [
-      "src-insp-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-insp-1",
-      "title": "IN-SPACe homepage",
-      "publisher": "IN-SPACe",
-      "url": "https://www.inspace.gov.in/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Regulator and authorisation body overview."
-    }
-  ],
-  "seo": {
-    "title": "IN-SPACe — Company · India Space Atlas | Techadyant",
-    "meta_description": "IN-SPACe company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/in-space/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+ "entity_id": "atl-cmp-in-space",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "in-space",
+ "name": "IN-SPACe (Indian National Space Promotion and Authorisation Centre)",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-404-restored",
+ "header": {
+  "name": "IN-SPACe (Indian National Space Promotion and Authorisation Centre)",
+  "role": null,
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/in-space/"
+ },
+ "at_a_glance": {
+  "indicators": [],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "IN-SPACe (Indian National Space Promotion and Authorisation Centre) is the single-window, autonomous promotion-and-authorisation agency under India's Department of Space, established by the Government of India in June 2020. It authorises and supervises space activities of non-governmental entities - including building launch vehicles and satellites and providing space-based services - and interfaces between ISRO and private players. It also maintains public authorisation registries for entities using Indian orbital slots and capacity.",
+ "india_angle": "IN-SPACe is the regulatory gateway for every private Indian space company in this atlas - its authorisations and promotion schemes (seed support, design-lab access, transfer of ISRO technology) shape who can build, launch and operate. Public IN-SPACe authorisation listings are a primary, verifiable evidence source for private space activity in India.",
+ "intelligence_assessment": "As a government body, IN-SPACe's own publications constitute official evidence for the sector. The atlas listing for IN-SPACe was a dead link at crawl time; this dossier restores the entity with primary sources. Watch authorisation decisions and norms revisions - they move the commercial position of every dossier in the space vertical.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What is IN-SPACe?",
+   "a": "India's single-window agency under the Department of Space, set up in June 2020 to promote, authorise and supervise space activities of non-governmental entities."
+  },
+  {
+   "q": "When was IN-SPACe established?",
+   "a": "The Government of India established IN-SPACe on 24 June 2020."
+  },
+  {
+   "q": "How does IN-SPACe differ from ISRO?",
+   "a": "ISRO is the space agency; IN-SPACe authorises and promotes private-sector space activity and interfaces between ISRO and non-governmental entities."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "inspace.gov.in",
+   "title": "IN-SPACe - Indian National Space Promotion and Authorisation Centre (official)",
+   "url": "https://www.inspace.gov.in",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "isro.gov.in",
+   "title": "Indian National Space Promotion and Authorization Center - ISRO",
+   "url": "https://www.isro.gov.in/IN-SPACe.html",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "en.wikipedia.org",
+   "title": "Indian National Space Promotion and Authorisation Centre",
+   "url": "https://en.wikipedia.org/wiki/Indian_National_Space_Promotion_and_Authorisation_Centre",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "IN-SPACe (Indian National Space Promotion and Authorisation Centre) - Space Atlas - Techadyant Labs",
+  "description": "IN-SPACe (Indian National Space Promotion and Authorisation Centre) is the single-window, autonomous promotion-and-authorisation agency under India's Departme",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

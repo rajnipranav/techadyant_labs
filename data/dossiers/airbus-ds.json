@@ -1,327 +1,99 @@
 {
-  "entity_id": "airbus-ds",
-  "entity_type": "company",
-  "tier": "A",
-  "noindex": false,
-  "slug": "airbus-ds",
-  "vertical": "military-aerospace",
-  "parent_hub_path": "/research/military-aerospace/company/",
-  "last_verified": "2026-08-29",
+ "entity_id": "atl-cmp-airbus-ds",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "airbus-ds",
+ "name": "Airbus Defence and Space",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Airbus Defence and Space",
-  "status": "Operational",
-  "header": {
-    "one_liner": "European defence-aerospace prime; OEM of the Indian Air Force's 56-aircraft C-295 transport programme (₹21,935 crore, 2021) — 16 fly-away from Seville, Spain and 40 assembled by Tata Advanced Systems at the Vadodara Final Assembly Line, India's first private-sector military aircraft FAL (inaugurated 28 Oct 2024).",
-    "chips": [
-      "A",
-      "India-relevant",
-      "Airbus",
-      "C-295",
-      "Vadodara FAL",
-      "TASL",
-      "Make in India",
-      "Transport"
-    ],
-    "maker": "Airbus Defence and Space (division of Airbus SE)",
-    "country": "Netherlands / EU (Spain — C-295 line)",
-    "indigenous_pct": null,
-    "indigenous_label": "C-295 airframe design European; 85%+ of 40 India-build airframes structurally assembled in India by TASL; PW127 engines (Canada) and avionics imported",
-    "mobility_or_class": "Aerospace & defence OEM (no platform class)",
-    "operational_domains": [
-      "air",
-      "land",
-      "naval",
-      "space"
-    ]
-  },
-  "at_a_glance": {
-    "Parent": "Airbus SE (Netherlands/EU); Defence and Space division",
-    "India_flagship": "C-295 MW medium tactical transport for the Indian Air Force",
-    "Programme_value": "₹21,935 crore (~US$2.5 billion), signed 24 September 2021",
-    "Quantity": "56 aircraft — 16 fly-away from Seville (Spain) + 40 assembled in India by TASL",
-    "Final_Assembly_Line": "Vadodara, Gujarat — inaugurated 28 October 2024 by PM Modi and Spain's PM Pedro Sanchez; first private-sector military aircraft FAL in India",
-    "Indigenisation": "85%+ structural & final assembly of the 40 India-build aircraft; ~13,000 detail parts made in India; 37 Indian suppliers onboarded",
-    "First_India_build_rollout": "First Make-in-India C-295 rolled out from Vadodara, announced October 2025",
-    "Delivery_completion": "All 40 India-built aircraft targeted by August 2031",
-    "Other_India_presence": "Airbus engineering centres in Bengaluru; commercial and helicopter business; MRO support"
-  },
-  "what_it_is": {
-    "prose": "Airbus Defence and Space is the defence and space division of European aerospace group Airbus SE. Its principal Indian military-aerospace footprint is the C-295 (C-295 MW) medium tactical transport programme for the Indian Air Force. Signed on 24 September 2021 for ₹21,935 crore (~US$2.5 billion), the programme covers 56 aircraft to replace the IAF's legacy Avro HS-748 fleet: 16 delivered fly-away from Airbus's Seville facility in Spain (deliveries began September 2023) and 40 assembled in India by Tata Advanced Systems Limited (TASL) at a dedicated Final Assembly Line (FAL) in Vadodara, Gujarat. The Vadodara FAL — inaugurated on 28 October 2024 by Prime Minister Narendra Modi and Spain's Prime Minister Pedro Sanchez — is the first private-sector military aircraft final assembly line in India, and the first India-built C-295 was rolled out in a milestone announced in October 2025. Airbus states the programme will deliver more than 85% of the structural and final-assembly work of the 40 India-build aircraft locally, with roughly 13,000 detail parts manufactured in India and 37 Indian suppliers onboarded across the public and private sectors; all 40 India-assembled aircraft are targeted for completion by August 2031. The C-295 carries up to 9 tonnes / 71 troops, ranges to ~5,000 km, and is powered by two Pratt & Whitney Canada PW127 engines. Beyond the C-295, Airbus maintains engineering centres in Bengaluru and a large commercial-aviation and helicopter business in India; this dossier focuses on the military-aerospace (C-295) footprint and does not infer an indigenous-content percentage for the imported engines and avionics.",
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-4",
-      "src-5"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "Airbus's India military-aerospace activity is anchored by the 56-aircraft C-295 programme (₹21,935 crore, 2021). The first 16 aircraft are imported fly-away from Seville (deliveries from September 2023); the remaining 40 are assembled by TASL at the Vadodara FAL, inaugurated October 2024, with the first India-built aircraft rolled out per an October 2025 milestone and completion targeted by August 2031.",
-    "rows": [
-      {
-        "agency": "Indian Air Force / Ministry of Defence",
-        "context": "C-295 acquisition contract signed with Airbus + TASL",
-        "year": 2021,
-        "quantity_or_note": "₹21,935 crore — 24 Sept 2021; 56 aircraft (16 imported + 40 India-built)",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "agency": "Indian Air Force",
-        "context": "First fly-away C-295 delivered from Airbus Seville (Spain)",
-        "year": 2023,
-        "quantity_or_note": "September 2023 — first of 16 fly-away aircraft; 6 delivered by Oct 2024",
-        "sources": [
-          "src-2"
-        ]
-      },
-      {
-        "agency": "TASL / Airbus — Vadodara FAL",
-        "context": "C-295 Final Assembly Line inaugurated (PM Modi + Spain PM Sanchez)",
-        "year": 2024,
-        "quantity_or_note": "28 October 2024 — first private-sector military aircraft FAL in India",
-        "sources": [
-          "src-2"
-        ]
-      },
-      {
-        "agency": "TASL / Airbus — Vadodara FAL",
-        "context": "First India-built C-295 rolled out",
-        "year": 2025,
-        "quantity_or_note": "Milestone announced October 2025; 40 India-build aircraft targeted for completion by Aug 2031",
-        "sources": [
-          "src-4"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Total contract value is widely reported as ₹21,935 crore but is not disclosed in the Airbus FAL press release itself",
-      "Formal indigenous-content percentage of each India-built C-295 (vs. the 85% structural/final-assembly figure) not separately certified in a primary source",
-      "Whether the Vadodara FAL will build C-295s for export within Airbus's global supply chain is not yet confirmed"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "The C-295 is a European (Airbus, Spain) design; India gains progressively deeper airframe assembly and detail-part manufacture through TASL, but propulsion and much of the avionics remain imported.",
-    "items": [
-      {
-        "component": "C-295 platform design & type certificate",
-        "severity": "High",
-        "note": "Airbus Defence and Space (Spain/EU) — India performs assembly, not design authority",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "component": "Pratt & Whitney Canada PW127 engines",
-        "severity": "Critical",
-        "note": "Canada (P&WC) — no Indian alternative",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": [
-          "src-5"
-        ]
-      },
-      {
-        "component": "Avionics & mission systems",
-        "severity": "High",
-        "note": "Airbus / Western suppliers — Europe/USA",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      }
-    ]
-  },
-  "intelligence_assessment": {
-    "methodology_path": "/research/methodology",
-    "dimensions": [
-      {
-        "id": "design",
-        "label": "Design ownership",
-        "value": 0,
-        "note": "Airbus (Spain/EU) — fully imported design",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "id": "production",
-        "label": "Production ownership (India build)",
-        "value": 4,
-        "note": "TASL Vadodara FAL — first private military aircraft FAL in India; 85%+ structural/final assembly local",
-        "sources": [
-          "src-2"
-        ]
-      },
-      {
-        "id": "critical_components",
-        "label": "Critical component sovereignty",
-        "value": 1,
-        "note": "PW127 engine (Canada); avionics Europe/USA; airframe progressively indigenised",
-        "sources": [
-          "src-2"
-        ]
-      },
-      {
-        "id": "scale",
-        "label": "Scale / order book (India)",
-        "value": 4,
-        "note": "56-aircraft ₹21,935 crore IAF programme",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "id": "export_posture",
-        "label": "Export posture",
-        "value": 4,
-        "note": "Vadodara FAL integrates into Airbus global supply chain; export potential via Airbus network",
-        "sources": [
-          "src-2"
-        ]
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [
-      "c390",
-      "c130j",
-      "an32"
-    ],
-    "related_components": [],
-    "related_pillars": [
-      "/research/pillars/defence/"
-    ],
-    "referenced_by": []
-  },
-  "timeline": [
-    {
-      "date": "2021-09-24",
-      "event": "India signs ₹21,935 crore contract with Airbus for 56 C-295 aircraft",
-      "sources": [
-        "src-1"
-      ]
-    },
-    {
-      "date": "2023-09",
-      "event": "First fly-away C-295 delivered from Airbus Seville, Spain",
-      "sources": [
-        "src-2"
-      ]
-    },
-    {
-      "date": "2024-10-28",
-      "event": "Vadodara C-295 Final Assembly Line inaugurated by PM Modi and Spain PM Sanchez",
-      "sources": [
-        "src-2"
-      ]
-    },
-    {
-      "date": "2025-10",
-      "event": "First Make-in-India C-295 rolled out from Vadodara FAL",
-      "sources": [
-        "src-4"
-      ]
-    }
+  "role": "aircraft-oem,prime,system-integrator",
+  "country": "Spain / European Union",
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/company/airbus-ds/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Madrid, Spain (corporate); final assembly at Seville (San Pablo Sur)"
+   },
+   {
+    "label": "Role",
+    "value": "OEM and design authority for C-295; industrial partner with TASL for Indian FAL"
+   }
   ],
-  "faq": [
-    {
-      "question": "What is Airbus Defence and Space's main military-aerospace footprint in India?",
-      "answer": "The Indian Air Force's 56-aircraft C-295 transport programme, signed on 24 September 2021 for ₹21,935 crore (~US$2.5 billion). Sixteen aircraft are imported fly-away from Airbus's Seville facility in Spain and 40 are assembled in India by Tata Advanced Systems Limited (TASL) at a Final Assembly Line in Vadodara, Gujarat — the first private-sector military aircraft FAL in India, inaugurated on 28 October 2024.",
-      "sources": [
-        "src-1",
-        "src-2"
-      ]
-    },
-    {
-      "question": "How much of the C-295 is being built in India?",
-      "answer": "Airbus states that more than 85% of the structural and final-assembly work on the 40 India-build C-295s is done locally, with roughly 13,000 detail parts manufactured in India and 37 Indian suppliers onboarded across the public and private sectors. The first Make-in-India C-295 was rolled out per an October 2025 milestone, and all 40 India-assembled aircraft are targeted for completion by August 2031. The two Pratt & Whitney Canada PW127 engines and much of the avionics remain imported.",
-      "sources": [
-        "src-2",
-        "src-4"
-      ]
-    },
-    {
-      "question": "What is the C-295 replacing in IAF service?",
-      "answer": "The C-295 replaces the Indian Air Force's legacy Avro HS-748 transport fleet. It provides tactical airlift for troop and paratroop transport, logistics, and casualty evacuation, carrying up to 9 tonnes or 71 troops with a range of about 5,000 km.",
-      "sources": [
-        "src-5"
-      ]
-    }
-  ],
-  "open_questions": [
-    "Formal per-aircraft indigenous-content percentage (vs. the 85% structural/final-assembly figure) not separately certified in a primary source",
-    "Whether the Vadodara FAL will export C-295s within Airbus's global supply chain is not yet confirmed"
-  ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Government of India signs contract with Airbus for C-295 aircraft",
-      "publisher": "Airbus",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2021-09-government-of-india-signs-contract-with-airbus-for-c-295-aircraft",
-      "published_date": "2021-09-24",
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "Airbus official announcement of the 56-aircraft C-295 India contract."
-    },
-    {
-      "id": "src-2",
-      "title": "Tata Advanced Systems and Airbus inaugurate C295 Final Assembly Line in Vadodara, India",
-      "publisher": "Airbus",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2024-10-tata-advanced-systems-and-airbus-inaugurate-c295-final-assembly-line-vadodara-india",
-      "published_date": "2024-10-28",
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "FAL inaugurated 28 Oct 2024 by PM Modi + Spain PM Sanchez; 16 fly-away + 40 India-build; 85%+ structural/final assembly, 13,000 detail parts, 37 Indian suppliers; completion by Aug 2031."
-    },
-    {
-      "id": "src-4",
-      "title": "C295 India programme achieves another milestone with rollout of first Make-in-India aircraft",
-      "publisher": "Airbus",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2025-10-c295-india-programme-achieves-another-milestone-with-rollout-of-first-make-in-india-aircraft",
-      "published_date": "2025-10-28",
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "First India-built C-295 rollout from TASL Vadodara FAL; confirms 16 fly-away + 40 India-build split."
-    },
-    {
-      "id": "src-5",
-      "title": "Airbus C295",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Airbus_C295",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "C-295 specifications, PW127 engines and Indian programme background."
-    },
-    {
-      "id": "src-6",
-      "title": "Tata Advanced Systems and Airbus inaugurate C295 Final Assembly Line in Vadodara, India",
-      "publisher": "Tata group (Tata.com newsroom)",
-      "url": "https://www.tata.com/newsroom/business/tasl-airbus-c295-tata-aircraft-complex",
-      "published_date": "2024-10-28",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Tata newsroom account of the Vadodara C295 FAL inauguration and TASL role."
-    }
-  ],
-  "seo": {
-    "title": "Airbus Defence and Space — Company · India Military Aerospace Atlas | Techadyant",
-    "meta_description": "European defence-aerospace prime; OEM of the IAF's 56-aircraft C-295 programme with a Vadodara Final Assembly Line run by Tata Advanced Systems under Make in India.",
-    "canonical_path": "/research/military-aerospace/company/airbus-ds/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Organization",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/military-aerospace/company/",
-    "submit_correction": "/research/military-aerospace/submit-correction/",
-    "related_research": [
-      "/research/military-aerospace/company/tasl/",
-      "/research/military-aerospace/platform/c295/",
-      "/research/pillars/defence/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Airbus Defence and Space is the military-aircraft and space division of Airbus SE, producing the C295 transport, A400M airlifter, Eurofighter (via the consortium) and military satellites and communications. In India its flagship programme is the C295: 56 aircraft contracted in 2021, with Tata Advanced Systems building a final assembly line in Vadodara - the first military aircraft assembly line of its kind in India.",
+ "india_angle": "India formally acquired 56 C295s in September 2021 under a government-to-government framework; 16 fly-away aircraft arrive from Spain and 40 are assembled by Tata Advanced Systems in Vadodara with more than 85% structural work targeted in India. The first Indian-built C295 was inducted in 2025 with the line inaugurated by the prime ministers of India and Spain.",
+ "intelligence_assessment": "The C295 programme is among the most verifiable Make-in-India military-aerospace programmes, anchored by Airbus and Government of India releases. Watch the Baroda line's delivery cadence, the promised 40-aircraft indigenisation ramp and follow-on C295 maritime-derivative discussion as the key evidence stream.",
+ "graph": {
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "How many C295 aircraft is India buying?",
+   "a": "56 - sixteen delivered fly-away from Spain and forty assembled at Tata Advanced Systems' Vadodara line."
+  },
+  {
+   "q": "Where is the Indian C295 assembly line?",
+   "a": "Vadodara, Gujarat - operated by Tata Advanced Systems with Airbus; inaugurated in October 2024."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
+ ],
+ "sources": [
+  {
+   "publisher": "airbus.com",
+   "title": "India formalises acquisition of 56 Airbus C295 aircraft",
+   "url": "https://www.airbus.com/en/newsroom/press-releases/2021-09-india-formalises-acquisition-of-56-airbus-c295-aircraft",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "pib.gov.in",
+   "title": "Prime Minister & Spanish counterpart jointly inaugurate C295 final assembly line (PIB)",
+   "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2068818",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "tataadvancedsystems.com",
+   "title": "Airbus C295 - Tata Advanced Systems",
+   "url": "https://www.tataadvancedsystems.com/c295",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Airbus Defence and Space - Military Aerospace Atlas - Techadyant Labs",
+  "description": "Airbus Defence and Space is the military-aircraft and space division of Airbus SE, producing the C295 transport, A400M airlifter, Eurofighter (via the consort",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

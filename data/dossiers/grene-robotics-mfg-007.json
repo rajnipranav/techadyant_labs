@@ -1,395 +1,106 @@
 {
-  "entity_id": "mfg-007",
-  "entity_type": "manufacturer",
-  "tier": "A",
-  "noindex": false,
-  "slug": "grene-robotics-mfg-007",
-  "name": "Grene Robotics Private Limited",
-  "variant": "Private (parent of Indrajaal Drone Defence India Pvt Ltd)",
-  "vertical": "counter-uas",
-  "parent_hub_path": "/research/counter-uas/manufacturer/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Hyderabad-based deep-tech defence OEM; parent of Indrajaal Drone Defence (spun off 2023); ₹255 cr MoD orders (Indrajaal ₹100 cr + Ranger ₹155 cr); multi-domain deployments (Army, Navy, Indonesia, refinery, airport).",
-    "chips": [
-      "Private",
-      "AI/ML",
-      "Counter-UAS",
-      "Indrajaal",
-      "Autonomous",
-      "Acoustic",
-      "Cyber takeover"
-    ],
-    "maker": "Private (raised ~$6M across 9 rounds per Tracxn / Crunchbase; $4.9M per Pitchbook)",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "See import dependencies below",
-    "mobility_or_class": "Defence OEM (no platform class)",
-    "operational_domains": [
-      "land",
-      "naval",
-      "air"
-    ]
-  },
-  "at_a_glance": {
-    "Legal_name": "Grene Robotics Private Limited",
-    "Ownership": "Private (raised ~$6M across 9 rounds per Tracxn / Crunchbase; $4.9M per Pitchbook)",
-    "HQ": "437 Road No 20, Jubilee Hills, Hyderabad, Telangana, India (founded 2008 by Kishore Raju)",
-    "Order_book": "₹255 crore MoD orders (Indrajaal ₹100 cr + Ranger ₹155 cr)",
-    "Revenue_FY26": "Not publicly disclosed (private company)",
-    "Founder_CEO": "Kishore Raju / Kiran Raju (per Times of India)",
-    "Subsidiary": "Indrajaal Drone Defence India Pvt Ltd (incorporated 28 July 2023 — spun off from Grene Robotics)",
-    "First_deployment": "2021 (Red Fort Independence Day)",
-    "Coverage_per_node": "4,000 sq.km",
-    "Key_acquisition": "Acquired deep-tech defence IP from Apogee C4I LLP May 2023",
-    "Manufacturing_partner": "Sigma Advanced Systems",
-    "Test_facility": "70-acre test facility in Hyderabad",
-    "Product_family": "12 modular technologies (greneOS, DefOS, HiveMind, Zombee, SkyCop, Brig, SpiderMesh, Repulsor, GreneEye, HyperSensing, WeaponFusion, GlobalGrid)"
-  },
-  "what_it_is": {
-    "prose": "Grene Robotics Private Limited is a Hyderabad-based deep-tech defence OEM founded in 2008 by Kishore Raju. The company is the parent of Indrajaal Drone Defence India Private Limited, which was spun off as a separate entity on 28 July 2023 to commercialise the Indrajaal autonomous counter-UAS platform (Atlas slug cus-005). Grene Robotics has raised approximately $6 million across 9 funding rounds (per Tracxn / Crunchbase; $4.9 million per Pitchbook) and acquired deep-tech defence IP from Apogee C4I LLP in May 2023. The Indrajaal platform comprises 12 modular technologies — greneOS, DefOS, HiveMind, Zombee, SkyCop, Brig, SpiderMesh, Repulsor, GreneEye, HyperSensing, WeaponFusion, and GlobalGrid — and is fielded in a 12-product family covering Infra, Urban, Military, Ranger (mobile patrol vehicle), Trooper (manpack), Border, Combat (armoured), Zombee (autonomous interceptor drone), Maritime, and Repulsor (portable). A single Indrajaal node can cover 4,000 sq.km. Indrajaal's first deployment was for the Red Fort Independence Day celebrations in 2021. By April 2025, Indrajaal had deployments with the Indian Army, the Indonesian Army, the world's largest refinery (private operator), and India's third-largest airport (37.5 million passengers). The Indian Army ordered the Indrajaal Ranger mobile C-UAS in August 2026 for ₹155 crore. Cumulative MoD orders total ₹255 crore (₹100 crore for Indrajaal in late 2025 + ₹155 crore for Ranger in 2025-26). Grene Robotics operates a 70-acre test facility in Hyderabad with manufacturing / integration partner Sigma Advanced Systems. India's first AI-powered autonomous anti-drone system was unveiled by Grene Robotics in September 2023.",
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3",
-      "src-4",
-      "src-5",
-      "src-6"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "Grene Robotics / Indrajaal Drone Defence has received ₹255 crore in MoD orders — ₹100 crore for the Indrajaal platform in late 2025 (Indian Army + Indian Navy) plus ₹155 crore for the Indrajaal Ranger mobile C-UAS in 2025-26 (Indian Army ordered August 2026). Indrajaal's first operational deployment was for the Red Fort Independence Day celebrations in 2021. By April 2025, deployments included the Indian Army, the Indonesian Army, the world's largest refinery (private operator), and India's third-largest airport (37.5 million passengers per year).",
-    "rows": [
-      {
-        "agency": "Indian armed forces / national security agencies",
-        "context": "First Indrajaal deployment — Red Fort Independence Day celebrations",
-        "year": 2021,
-        "quantity_or_note": "Live intercept of multiple hostile drones",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "agency": "Indian Army",
-        "context": "Operational deployment",
-        "year": 2021,
-        "quantity_or_note": "Platform confirmed deployed since 2021",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "agency": "Indonesian Army",
-        "context": "Operational deployment",
-        "year": 2025,
-        "quantity_or_note": "By April 2025",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "agency": "World's largest refinery (private operator)",
-        "context": "Operational deployment covering area bigger than London",
-        "year": 2025,
-        "quantity_or_note": "By April 2025",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "agency": "India's third-largest airport (37.5M pax)",
-        "context": "Operational deployment",
-        "year": 2025,
-        "quantity_or_note": "By April 2025",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "agency": "Ministry of Defence (Indian Army + Indian Navy)",
-        "context": "Indrajaal orders",
-        "year": 2025,
-        "quantity_or_note": "₹100 crore (late 2025)",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "agency": "Indian Army",
-        "context": "Indrajaal Ranger mobile C-UAS order",
-        "year": 2026,
-        "quantity_or_note": "₹155 crore (ordered August 2026)",
-        "sources": [
-          "src-5"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Grene Robotics is private; revenue/profit not publicly disclosed",
-      "Specific Indrajaal units fielded per service not disclosed",
-      "Indonesian Army contract value not disclosed",
-      "Total deployed systems across refineries/airports not enumerated"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "Import dependencies as publicly documented. Industry-typical supply chains suggest FPGA (USA), GaN RF (USA), EO/IR (USA/Israel) unless otherwise noted.",
-    "items": [
-      {
-        "component": "EO/IR sensors",
-        "severity": "High",
-        "note": "Not made in India; procured from Israel (per CEO statement April 2025)",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "component": "FPGA / GaN RF amplifier",
-        "severity": "Unknown",
-        "note": "Not publicly documented; industry-typically USA",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      },
-      {
-        "component": "IMU",
-        "severity": "Unknown",
-        "note": "Not publicly documented",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      }
-    ]
-  },
-  "intelligence_assessment": {
-    "methodology_path": "/research/methodology",
-    "dimensions": [
-      {
-        "id": "design",
-        "label": "Design ownership",
-        "value": 5,
-        "note": "Grene Robotics — indigenous design (12 modular technologies)",
-        "sources": [
-          "src-2",
-          "src-6"
-        ]
-      },
-      {
-        "id": "production",
-        "label": "Production ownership",
-        "value": 4,
-        "note": "Grene Robotics + Sigma Advanced Systems (manufacturing partner); 70-acre Hyderabad test facility",
-        "sources": [
-          "src-2"
-        ]
-      },
-      {
-        "id": "critical_components",
-        "label": "Critical component sovereignty",
-        "value": 2,
-        "note": "EO/IR sensors imported from Israel; FPGA/GaN/IMU not documented",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "id": "scale",
-        "label": "Scale / order book",
-        "value": 4,
-        "note": "₹255 cr MoD orders; multi-domain deployments",
-        "sources": [
-          "src-4",
-          "src-5"
-        ]
-      },
-      {
-        "id": "export_potential",
-        "label": "Export potential",
-        "value": 4,
-        "note": "Already exported to Indonesian Army; airport and refinery deployments demonstrate cross-sector appeal",
-        "sources": [
-          "src-4"
-        ]
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "related_pillars": [
-      "/research/pillars/defence/"
-    ],
-    "referenced_by": [
-      "indrajaal-anti-drone-system-cus-005"
-    ]
-  },
-  "faq": [
-    {
-      "question": "What is the relationship between Grene Robotics and Indrajaal Drone Defence?",
-      "answer": "Grene Robotics Private Limited (Hyderabad, founded 2008 by Kishore Raju) is the parent company. Indrajaal Drone Defence India Private Limited was spun off as a separate entity on 28 July 2023 to commercialise the Indrajaal autonomous counter-UAS platform. Both companies are led by founder-CEO Kishore Raju / Kiran Raju (per Times of India). The manufacturing / integration partner is Sigma Advanced Systems. Grene Robotics continues as the deep-tech R&D parent; Indrajaal Drone Defence is the commercial vehicle.",
-      "sources": [
-        "src-4"
-      ]
-    },
-    {
-      "question": "Where is Indrajaal operationally deployed?",
-      "answer": "Indrajaal's first deployment was for the Red Fort Independence Day celebrations in 2021. By April 2025, confirmed deployments included the Indian Army, the Indonesian Army, the world's largest refinery (a private operator, covering an area bigger than London), and India's third-largest airport (37.5 million passengers per year). The Indian Army ordered the Indrajaal Ranger mobile C-UAS in August 2026 for ₹155 crore. A single Indrajaal node can cover 4,000 sq.km.",
-      "sources": [
-        "src-4",
-        "src-5"
-      ]
-    },
-    {
-      "question": "What is the Zombee hard-kill interceptor?",
-      "answer": "Zombee is Indrajaal's Level-5 autonomous interceptor drone designed for surveillance and hard-kill engagements against hostile UAS. It is part of the 12-modular-technology Indrajaal platform and is one of two hard-kill options (the other being WeaponFusion, which makes existing weapons autonomous). Zombee is one of the 12 product family variants — alongside Infra, Urban, Military, Ranger, Trooper, Border, Combat, Maritime, and Repulsor.",
-      "sources": [
-        "src-2"
-      ]
-    }
+ "entity_id": "atl-mfg-grene-robotics-mfg-007",
+ "entity_type": "manufacturer",
+ "tier": "A",
+ "noindex": false,
+ "slug": "grene-robotics-mfg-007",
+ "name": "Grene Robotics",
+ "vertical": "counter-uas",
+ "parent_hub_path": "/research/counter-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Grene Robotics",
+  "role": "Tier 3 - Indigenous / AI-focused",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/counter-uas/manufacturer/grene-robotics-mfg-007/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Hyderabad, Telangana"
+   }
   ],
-  "timeline": [
-    {
-      "date": "2008",
-      "event": "Grene Robotics founded in Hyderabad by Kishore Raju",
-      "sources": [
-        "src-2"
-      ]
-    },
-    {
-      "date": "2021",
-      "event": "First Indrajaal deployment — Red Fort Independence Day celebrations",
-      "sources": [
-        "src-4"
-      ]
-    },
-    {
-      "date": "2023-05-09",
-      "event": "Grene Robotics acquires deep-tech defence IP from Apogee C4I LLP",
-      "sources": [
-        "src-3"
-      ]
-    },
-    {
-      "date": "2023-07-28",
-      "event": "Indrajaal Drone Defence India Pvt Ltd incorporated as separate entity (spun off from Grene Robotics)",
-      "sources": [
-        "src-4"
-      ]
-    },
-    {
-      "date": "2023-09-03",
-      "event": "Grene Robotics unveils Indrajaal as India's first AI-powered autonomous anti-drone system",
-      "sources": [
-        "src-6"
-      ]
-    },
-    {
-      "date": "2025-04",
-      "event": "Times of India confirms deployments with Indian Army, Indonesian Army, world's largest refinery, India's 3rd-largest airport",
-      "sources": [
-        "src-4"
-      ]
-    },
-    {
-      "date": "2025-Q4",
-      "event": "₹100 crore MoD orders received (Indian Army + Indian Navy)",
-      "sources": [
-        "src-4"
-      ]
-    },
-    {
-      "date": "2026-08",
-      "event": "Indian Army orders Indrajaal Ranger mobile C-UAS for ₹155 crore",
-      "sources": [
-        "src-5"
-      ]
-    }
-  ],
-  "open_questions": [
-    "Grene Robotics is private; revenue/profit not publicly disclosed",
-    "Specific Indrajaal units fielded per service not disclosed",
-    "Indonesian Army contract value not disclosed",
-    "Total deployed systems across refineries/airports not enumerated"
-  ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Indrajaal | AI-Powered Autonomous Anti-Drone Defense system",
-      "publisher": "Indrajaal (official)",
-      "url": "https://indrajaal.in",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Product overview — domain root only"
-    },
-    {
-      "id": "src-2",
-      "title": "Indrajaal - Grene Robotics",
-      "publisher": "Grene Robotics (official)",
-      "url": "https://grenerobotics.com/indrajaal",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Parent company page; 70-acre test facility"
-    },
-    {
-      "id": "src-3",
-      "title": "Grene Robotics completes acquisition of deep-tech defence IP from Apogee C4I LLP",
-      "publisher": "Grene Robotics (official)",
-      "url": "https://grenerobotics.com/press-release/grene-robotics-completes-acquisition-of-deep-tech-defence-ip-from-apogee-c4i-llp-to-enhance-its-anti-drone-capabilities",
-      "published_date": "2023-05-09",
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "IP acquisition"
-    },
-    {
-      "id": "src-4",
-      "title": "India's indigenous Indrajaal secures military, infrastructure and urban assets against drone attacks",
-      "publisher": "Times of India",
-      "url": "https://timesofindia.indiatimes.com/city/hyderabad/indias-indigenous-indrajaal-secures-military-infrastructure-and-urban-assets-against-drone-attacks/articleshow/120023682.cms",
-      "published_date": "2025-04-05",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Spun off as separate entity 2023; deployments with Indian Army / Indonesian army / world's largest refinery / India's 3rd largest airport"
-    },
-    {
-      "id": "src-5",
-      "title": "Indian Army orders mobile anti-drone system — what can Indrajaal Ranger do?",
-      "publisher": "The Week",
-      "url": "https://www.theweek.in/news/defence/2026/08/17/indian-army-orders-mobile-anti-drone-system-what-can-indrajaal-ranger-do.html",
-      "published_date": "2026-08-17",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Indrajaal Ranger ₹155 cr order August 2026"
-    },
-    {
-      "id": "src-6",
-      "title": "Hyderabad-based pvt sector firm Grene Robotics unveils Indrajaal",
-      "publisher": "Business Standard",
-      "url": "https://www.business-standard.com/india-news/grene-robotics-demonstrates-world-s-only-counter-drone-tech-indrajaal-123090300639_1.html",
-      "published_date": "2023-09-03",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "India's first AI-powered autonomous anti-drone system unveiling Sep 2023"
-    }
-  ],
-  "seo": {
-    "title": "Grene Robotics Private Limited — Manufacturer · India Counter-UAS Atlas | Techadyant",
-    "meta_description": "Hyderabad-based deep-tech defence OEM; parent of Indrajaal Drone Defence (spun off 2023); ₹255 cr MoD orders (Indrajaal ₹100 cr + Ranger ₹155 cr); multi-domain ",
-    "canonical_path": "/research/counter-uas/manufacturer/grene-robotics-mfg-007/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Organization",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/counter-uas/manufacturer/",
-    "submit_correction": "/research/counter-uas/submit-correction/",
-    "related_research": [
-      "/research/pillars/defence/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Grene Robotics is a Hyderabad-based technology company that builds Indrajaal, described as India's first autonomous, AI-powered wide-area counter-drone defence system. Indrajaal is marketed as a 'defence dome' able to integrate a base's own sensors and effectors to protect areas of 1,000-2,000 sq km per site against UAVs, loitering munitions and low-flying threats. The platform emphasises autonomous command-and-control rather than single-point jamming.",
+ "india_angle": "Grene publicly unveiled Indrajaal in 2021 as an indigenous wide-area counter-UAS alternative for bases and critical infrastructure in India, and the system has been showcased for ports, refineries and defence installations. The Indian Air Force and defence establishment have been named in company communications as reference contexts for wide-area air defence.",
+ "intelligence_assessment": "Indrajaal is one of India's most visible private wide-area C-UAS concepts, but independently verifiable deployment scale, customer names and performance data remain limited to company announcements and press coverage. Track IN-SPACe-independent defence trials, any MoD procurement notices, and third-party demonstrations before treating claimed coverage figures as operational fact.",
+ "graph": {
+  "parent_hub": "/research/counter-uas/"
+ },
+ "faq": [
+  {
+   "q": "What is Indrajaal?",
+   "a": "Indrajaal is Grene Robotics' autonomous AI-powered counter-drone 'defence dome', marketed to protect 1,000-2,000 sq km per system against UAVs and loitering munitions."
+  },
+  {
+   "q": "Who built Indrajaal?",
+   "a": "Grene Robotics, a Hyderabad-based Indian company, unveiled it in 2021."
+  },
+  {
+   "q": "Is Indrajaal in service with the Indian military?",
+   "a": "No government contract or induction has been publicly confirmed; public material comes from company announcements and press coverage, so operational status is unverified."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "grenerobotics.com",
+   "title": "Grene Robotics designs and develops India's 1st autonomous drone defence dome system",
+   "url": "https://grenerobotics.com/press-release/grene-robotics-designs-and-develops-indias-1st-autonomous-drone-defence-dome-sys",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "indrajaal.in",
+   "title": "Indrajaal - AI-powered autonomous anti-drone defence system",
+   "url": "https://indrajaal.in",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "grenerobotics.com",
+   "title": "Indrajaal product page - Grene Robotics",
+   "url": "https://grenerobotics.com/indrajaal",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "oecd.ai",
+   "title": "India Unveils Indrajaal: AI-Powered Autonomous Anti-Drone System (OECD.AI incident entry)",
+   "url": "https://oecd.ai/en/incidents/2023-09-04-dccc",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Grene Robotics - Counter-UAS Atlas - Techadyant Labs",
+  "description": "Grene Robotics is a Hyderabad-based technology company that builds Indrajaal, described as India's first autonomous, AI-powered wide-area counter-drone defenc",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 4,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

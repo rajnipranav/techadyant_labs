@@ -1,152 +1,84 @@
 {
-  "entity_id": "sslv",
-  "entity_type": "platform",
-  "tier": "B",
-  "noindex": false,
-  "slug": "sslv",
-  "name": "SSLV (Small Satellite Launch Vehicle)",
-  "variant": "SSLV",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/entity/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "SSLV is ISRO’s small-lift, quick-turnaround launch vehicle for nano/micro/mini satellites up to 500 kg.",
-    "chips": [
-      "A",
-      "India-relevant",
-      "Operational"
-    ],
-    "maker": "Indian Space Research Organisation (ISRO)",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": [
-      "space"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Indian Space Research Organisation (ISRO)",
-    "Country": "India",
-    "Status": "Operational",
-    "First_flight": "SSLV-D1 / EOS-02, 2022-08-07",
-    "Latest_flight": "SSLV-D3 / EOS-08, 2024-08-16"
-  },
-  "what_it_is": {
-    "prose": "ISRO’s Small Satellite Launch Vehicle is a 3-stage solid launcher with a liquid propulsion Velocity Trimming Module. It is configured for dedicated or multi-satellite small-satellite missions, with a 500 kg payload capability to 500 km planar orbit. After development flights, ISRO has transferred technology to Indian industry for production-scale manufacture.",
-    "sources": [
-      "src-sslv-1",
-      "src-sslv-2",
-      "src-sslv-3"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-sslv-1",
-      "title": "Small Satellite Launch Vehicle",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/sslv_CON.html",
-      "published_date": null,
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "SSLV overview and configuration."
-    },
-    {
-      "id": "src-sslv-2",
-      "title": "First stage of SSLV static test",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/first_stage_of_Small_Satellite_Launch_vehicle.html",
-      "published_date": "2026-08-11",
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "Improved SS1 static test in August 2026; TOT to industry underway."
-    },
-    {
-      "id": "src-sslv-3",
-      "title": "SSLV launch history",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/LaunchMissions.html",
-      "published_date": "2026-07-31",
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "Current mission list including SSLV flights."
-    }
+ "entity_id": "atl-plat-sslv",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "sslv",
+ "name": "SSLV",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "SSLV",
+  "role": "Small Launch Vehicle",
+  "country": "India",
+  "status_line": "Operational; private production pathway via HAL",
+  "subtitle": "Operational",
+  "entity_path": "/research/space/platform/sslv/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "ISRO / HAL (tech transfer)"
+   },
+   {
+    "label": "Operator",
+    "value": "ISRO / NSIL / private operators planned"
+   }
   ],
-  "seo": {
-    "title": "SSLV (Small Satellite Launch Vehicle) — Platform · India Space Atlas | Techadyant",
-    "meta_description": "SSLV is ISRO’s small-lift launch vehicle for nano/micro/mini satellites up to 500 kg.",
-    "canonical_path": "/research/space/entity/sslv/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/entity/",
-    "submit_correction": "/research/space/entity/submit-correction/",
-    "related_research": [
-      "/research/space/entity/"
-    ]
-  },
-  "faq": [
-    {
-      "question": "What is SSLV?",
-      "answer": "A small-lift launch vehicle for small satellites.",
-      "sources": [
-        "src-sslv-1"
-      ]
-    },
-    {
-      "question": "Payload capacity?",
-      "answer": "Up to 500 kg to 500 km planar orbit.",
-      "sources": [
-        "src-sslv-1"
-      ]
-    },
-    {
-      "question": "Latest flight?",
-      "answer": "SSLV-D3 / EOS-08 in August 2024.",
-      "sources": [
-        "src-sslv-3"
-      ]
-    }
+  "key_specs": [
+   "Small Launch Vehicle",
+   "Operational",
+   "LEO / SSO orbit",
+   "500 kg payload"
   ],
-  "timeline": [
-    {
-      "date": "2022-08-07",
-      "event": "SSLV-D1 / EOS-02.",
-      "sources": [
-        "src-sslv-3"
-      ]
-    },
-    {
-      "date": "2023-02-10",
-      "event": "SSLV-D2 / EOS-07.",
-      "sources": [
-        "src-sslv-3"
-      ]
-    },
-    {
-      "date": "2024-08-16",
-      "event": "SSLV-D3 / EOS-08.",
-      "sources": [
-        "src-sslv-3"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "event": "Improved SS1 static test.",
-      "sources": [
-        "src-sslv-2"
-      ]
-    }
-  ],
-  "graph": {
-    "peer_systems": [
-      "/research/space/entity/pslv/"
-    ]
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "SSLV is listed in this atlas as a small launch vehicle (India). The atlas legacy record attributes it to ISRO / HAL (tech transfer). Small Satellite Launch Vehicle. Designed for rapid, low-cost access for 300–500 kg class.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "ISRO / HAL (tech transfer)"
+  },
+  "operator": "ISRO / NSIL / private operators planned",
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does SSLV appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a Small Launch Vehicle relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "SSLV - Space Atlas - Techadyant Labs",
+  "description": "SSLV is listed in this atlas as a small launch vehicle (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

@@ -1,74 +1,86 @@
 {
-  "entity_id": "eon-space-labs",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "eon-space-labs",
+ "entity_id": "atl-cmp-eon-space-labs",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "eon-space-labs",
+ "name": "EON Space Labs",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "EON Space Labs",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "EON Space Labs dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "EON Space Labs",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "EON Space Labs",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "EON Space Labs evidence pending verification.",
-    "sources": [
-      "src-eon-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-eon-1",
-      "title": "EON Space Labs website",
-      "publisher": "EON Space Labs",
-      "url": "https://eonspacelabs.com/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
-  ],
-  "seo": {
-    "title": "EON Space Labs — Company · India Space Atlas | Techadyant",
-    "meta_description": "EON Space Labs company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/eon-space-labs/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "role": "Space systems",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/eon-space-labs/"
+ },
+ "at_a_glance": {
+  "indicators": [],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "EON Space Labs is an Indian optics startup (founded 2022) engineering miniaturised electro-optical and infrared payloads for satellites, drones and ground platforms. It targets the same EO/IR niche as defence-optics players but from a space-payload integration angle.",
+ "india_angle": "EON appears in India's innovation-inventory platforms (Bharat Innovates) and markets EO/IR payloads to Indian satellite builders - part of the emerging indigenous-payload supply chain reducing reliance on imported imagers.",
+ "intelligence_assessment": "Catalogue and incubator evidence is verifiable; flight heritage and customer names are not yet public. Watch for payload credits on Indian satellites.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What does EON Space Labs make?",
+   "a": "Miniaturised EO/IR payloads for satellites, drones and ground applications."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "eonspacelabs.com",
+   "title": "EON Space Labs - EO/IR payloads for satellites and drones",
+   "url": "https://www.eonspacelabs.com",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "bharatinnovates.in",
+   "title": "EON Space Labs - startup profile",
+   "url": "https://bharatinnovates.in/startups/eon-space-labs",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "linkedin.com",
+   "title": "EON Space Labs - company page",
+   "url": "https://www.linkedin.com/company/eon-space-labs",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "EON Space Labs - Space Atlas - Techadyant Labs",
+  "description": "EON Space Labs is an Indian optics startup (founded 2022) engineering miniaturised electro-optical and infrared payloads for satellites, drones and ground pla",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

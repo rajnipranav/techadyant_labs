@@ -1,0 +1,124 @@
+{
+ "entity_id": "atl-plat-bonv-aero-cloudx-drn-0077",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "bonv-aero-cloudx-drn-0077",
+ "name": "BonV Aero CloudX",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "BonV Aero CloudX",
+  "role": "Hexacopter",
+  "country": "India",
+  "status_line": "In Service",
+  "subtitle": "Heavy-lift hexacopter",
+  "entity_path": "/research/drones-uas/platform/bonv-aero-cloudx-drn-0077/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "BonV Aero"
+   },
+   {
+    "label": "Primary operator",
+    "value": "GeM (Government e-Marketplace)"
+   },
+   {
+    "label": "Mission roles",
+    "value": "Logistics, cargo"
+   }
+  ],
+  "key_specs": [
+   "22 kg MTOW",
+   "10 kg payload",
+   "0.4 hr endurance",
+   "5 km range",
+   "0 m ceiling",
+   "30 km/h",
+   "6× electric motors"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "10",
+    "Indigenous content": "80%"
+   }
+  }
+ },
+ "what_it_is": "BonV Aero CloudX is listed in this atlas as a hexacopter (India). The atlas legacy record attributes it to BonV Aero, with GeM (Government e-Marketplace) named as primary operator. Heavy-lift cargo variant — drones for last-mile logistics.",
+ "import_dependencies": {
+  "note": "Component/supplier map captured from the live legacy page on 2026-09-02 (unverified lineage).",
+  "components": [
+   {
+    "component": "Aadhaar Tech Autopilot",
+    "category": "AI Module",
+    "supplier": "Aadhaar Tech Solutions"
+   }
+  ]
+ },
+ "deployments_procurement": {
+  "summary": "The legacy atlas page lists 1 procurement row(s) (total Rs 8 cr). These rows predate this dossier upgrade and await independent verification.",
+  "records": [
+   {
+    "row": "GeM (Government e-Marketplace) · 30 units · 2024 | ₹8 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   }
+  ],
+  "note": "No order, quantity or value on this page is asserted as verified fact. See open_questions."
+ },
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "BonV Aero",
+   "path": "/research/drones-uas/company/bonv-aero-mfr-041/"
+  },
+  "operator": "GeM (Government e-Marketplace)",
+  "components": [
+   {
+    "component": "Aadhaar Tech Autopilot",
+    "category": "AI Module",
+    "supplier": "Aadhaar Tech Solutions"
+   }
+  ],
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does BonV Aero CloudX appear in the India UAS Atlas?",
+   "a": "It is part of the atlas's coverage of drones uas; the hub lists it as a Hexacopter relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Verify the legacy atlas procurement row(s) against MoD/PIB/service announcements and add named sources to upgrade toward Tier B/A.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "BonV Aero CloudX - India UAS Atlas - Techadyant Labs",
+  "description": "BonV Aero CloudX is listed in this atlas as a hexacopter (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

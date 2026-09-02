@@ -1,0 +1,96 @@
+{
+ "entity_id": "atl-dep-c295-landing-gear",
+ "entity_type": "dependency",
+ "tier": "C",
+ "noindex": true,
+ "slug": "c295-landing-gear",
+ "name": "Safran Landing Systems landing gear (complete system)",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Safran Landing Systems landing gear (complete system)",
+  "role": "HIGH dependency",
+  "country": null,
+  "status_line": "C-295",
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/dependency/c295-landing-gear/"
+ },
+ "at_a_glance": {
+  "indicators": [],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
+  }
+ },
+ "what_it_is": "Safran Landing Systems landing gear (complete system) is listed in this atlas as a high dependency. Landing gear system supply is concentrated in Safran Landing Systems (France), UTC/Goodrich (USA, now Collins), and Heroux-Devtek (Canada). No Indian full-system supplier. Component-level Indian manufacturing is addressable.",
+ "import_dependencies": {
+  "note": "Dependency profile captured from the live legacy page and its structured data on 2026-09-02.",
+  "profile": {
+   "Criticality": "HIGH",
+   "Supply concentration": "oligopolistic",
+   "Substitution difficulty": "high",
+   "Foreign supplier": "Safran Landing Systems (Messier-Bugatti-Dowty)"
+  }
+ },
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "dependency_profile": {
+   "Criticality": "HIGH",
+   "Supply concentration": "oligopolistic",
+   "Substitution difficulty": "high",
+   "Foreign supplier": "Safran Landing Systems (Messier-Bugatti-Dowty)"
+  },
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "Why does Safran Landing Systems landing gear (complete system) appear in the Military Aerospace Atlas?",
+   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a HIGH dependency relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
+ ],
+ "sources": [
+  {
+   "publisher": "www.safran-group.com",
+   "title": "World Leader in Aircraft Landing and Braking Systems (Safran Landing Systems)",
+   "url": "https://www.safran-group.com/companies/safran-landing-systems",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "www.airbus.com",
+   "title": "C295 | Military Aircraft | Defence",
+   "url": "https://www.airbus.com/en/products-services/defence/military-aircraft/c295",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Safran Landing Systems landing gear (complete system) - Military Aerospace Atlas - Techadyant Labs",
+  "description": "Safran Landing Systems landing gear (complete system) is listed in this atlas as a high dependency.",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 2,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

@@ -1,74 +1,76 @@
 {
-  "entity_id": "larsen-toubro-space",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "larsen-toubro-space",
-  "name": "Larsen & Toubro Space",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Larsen & Toubro Space dossier placeholder with initial sources.",
-    "chips": [
-      "A",
-      "India-relevant"
-    ],
-    "maker": "Larsen & Toubro Space",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Larsen & Toubro Space",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "L&T participates in Indian space infrastructure and systems integration.",
-    "sources": [
-      "src-lts-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-lts-1",
-      "title": "L&T Space",
-      "publisher": "Larsen & Toubro",
-      "url": "https://www.larsentoubro.com/businesses/engineering/space.aspx",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Space business overview."
-    }
+ "entity_id": "atl-cmp-larsen-toubro-space",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "larsen-toubro-space",
+ "name": "Larsen & Toubro (Space / Aerospace)",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-pointer",
+ "header": {
+  "name": "Larsen & Toubro (Space / Aerospace)",
+  "role": "Large private / Systems",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/larsen-toubro-space/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Mumbai / multiple"
+   }
   ],
-  "seo": {
-    "title": "Larsen & Toubro Space — Company · India Space Atlas | Techadyant",
-    "meta_description": "Larsen & Toubro Space company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/larsen-toubro-space/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "This atlas page is the Space Atlas listing of an entity whose primary dossier is published at /research/military-aerospace/company/lnt-defence/. The primary record carries the company profile, India portfolio and sourcing discipline; this vertical page is kept as a pointer so that hub links and navigation resolve to a single source of truth. Maintaining two full dossiers for one entity would risk conflicting facts and double-counting across verticals.",
+ "india_angle": "L&T's defence dossier lives under L&T Defence (military-aerospace vertical); the drones-uas vertical also carries L&T. This space page is the same group's space/aerospace arm - pointer to the primary defence record.",
+ "intelligence_assessment": "Pointer dossier: evidence discipline, sources and India assessment are maintained in the primary dossier. Tier B status here reflects the pointer policy, not an independent evidence review of this vertical page.",
+ "pointer": {
+  "primary_dossier": "/research/military-aerospace/company/lnt-defence/",
+  "policy": "single-source-of-truth per entity"
+ },
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does Larsen & Toubro (Space / Aerospace) appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a Large private / Systems relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm scope split between this space page and the primary dossier at /research/military-aerospace/company/lnt-defence/.",
+  "Re-audit after primary-dossier updates to keep facts in sync."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Larsen & Toubro (Space / Aerospace) - Space Atlas - Techadyant Labs",
+  "description": "This atlas page is the Space Atlas listing of an entity whose primary dossier is published at /research/military-aerospace/company/lnt-defence/.",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

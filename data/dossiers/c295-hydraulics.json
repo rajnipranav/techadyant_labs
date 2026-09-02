@@ -1,0 +1,89 @@
+{
+ "entity_id": "atl-dep-c295-hydraulics",
+ "entity_type": "dependency",
+ "tier": "C",
+ "noindex": true,
+ "slug": "c295-hydraulics",
+ "name": "Parker Hannifin hydraulic system components",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Parker Hannifin hydraulic system components",
+  "role": "MEDIUM dependency",
+  "country": null,
+  "status_line": "C-295 Indicative",
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/dependency/c295-hydraulics/"
+ },
+ "at_a_glance": {
+  "indicators": [],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
+  }
+ },
+ "what_it_is": "Parker Hannifin hydraulic system components is listed in this atlas as a medium dependency. Hydraulic system supply is shared between Parker, Eaton (now Collins), and several Tier-2s. Indian capability is adjacent; programme qualification is the missing step.",
+ "import_dependencies": {
+  "note": "Dependency profile captured from the live legacy page and its structured data on 2026-09-02.",
+  "profile": {
+   "Criticality": "MEDIUM",
+   "Supply concentration": "oligopolistic",
+   "Substitution difficulty": "medium",
+   "Foreign supplier": "Parker Hannifin (Eaton Aerospace)"
+  }
+ },
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "dependency_profile": {
+   "Criticality": "MEDIUM",
+   "Supply concentration": "oligopolistic",
+   "Substitution difficulty": "medium",
+   "Foreign supplier": "Parker Hannifin (Eaton Aerospace)"
+  },
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "Why does Parker Hannifin hydraulic system components appear in the Military Aerospace Atlas?",
+   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a MEDIUM dependency relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
+ ],
+ "sources": [
+  {
+   "publisher": "www.parker.com",
+   "title": "Hydraulic Systems Division - Parker Aerospace",
+   "url": "https://www.parker.com/us/en/divisions/hydraulic-systems-division.html",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Parker Hannifin hydraulic system components - Military Aerospace Atlas - Techadyant Labs",
+  "description": "Parker Hannifin hydraulic system components is listed in this atlas as a medium dependency.",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 1,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

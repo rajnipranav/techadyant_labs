@@ -1,74 +1,99 @@
 {
-  "entity_id": "xdlinx-space",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "xdlinx-space",
-  "name": "XdLinx Space",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "XdLinx Space dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "XdLinx Space",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "XdLinx Space",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "XdLinx Space evidence pending verification.",
-    "sources": [
-      "src-xdl-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-xdl-1",
-      "title": "XdLinx Space website",
-      "publisher": "XdLinx Space",
-      "url": "https://xdlinx.space/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
+ "entity_id": "atl-cmp-xdlinx-space",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "xdlinx-space",
+ "name": "XDLINX Space Labs",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "XDLINX Space Labs",
+  "role": "Satellite / Avionics",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/xdlinx-space/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Bengaluru"
+   }
   ],
-  "seo": {
-    "title": "XdLinx Space — Company · India Space Atlas | Techadyant",
-    "meta_description": "XdLinx Space company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/xdlinx-space/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "XDLINX Space Labs is a Hyderabad-based small-satellite company offering mission-as-a-service and satellite bus platforms, including the Elytra line demonstrated in orbit in 2023-2024. It positions itself as a 'ready-to-launch' sovereign bus supplier and mission integrator, with an advanced satellite integration facility opened in Hyderabad in 2026.",
+ "india_angle": "XDLINX raised a reported $7M seed round, contracted additional electric-propulsion units from France's Exotrail for delivery through 2027, and is publicly reported to be under contract for a 15-satellite sovereign constellation - one of the larger private Indian bus orders to date. The 2026 integration lab inauguration, held with ISRO leadership present, underscores its position in India's private satellite industrial base.",
+ "intelligence_assessment": "Propulsion contracting and the constellation order are concrete commercial signals, but the customer behind the 15-satellite contract and delivery schedule are not fully public. Track satellite deliveries against the two-year contract window as the key verification milestone.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What does XDLINX Space Labs do?",
+   "a": "It builds small-satellite bus platforms (including Elytra) and offers mission-as-a-service integration from Hyderabad, India."
+  },
+  {
+   "q": "What is XDLINX's known order pipeline?",
+   "a": "Public reporting cites a 15-satellite sovereign constellation contract and repeat electric-propulsion orders from Exotrail."
+  },
+  {
+   "q": "When was its integration lab opened?",
+   "a": "An advanced satellite integration facility in Hyderabad was inaugurated in May 2026."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "xdlinx.space",
+   "title": "XDLINX Space Labs - vendor site",
+   "url": "https://xdlinx.space",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "exotrail.com",
+   "title": "Exotrail signs a second propulsion contract with XDLINX Space Labs",
+   "url": "https://www.exotrail.com/blog/exotrail-signs-a-second-propulsion-contract-with-xdlinx-space-labs",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "satnews.com",
+   "title": "XDLINX Space Labs Inaugurates Advanced Satellite Integration Lab with ISRO leadership",
+   "url": "https://satnews.com/2026/05/02/xdlinx-space-labs-inaugurates-advanced-satellite-integration-lab-with-isro-leadership",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "XDLINX Space Labs - Space Atlas - Techadyant Labs",
+  "description": "XDLINX Space Labs is a Hyderabad-based small-satellite company offering mission-as-a-service and satellite bus platforms, including the Elytra line demonstrat",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

@@ -1,183 +1,109 @@
 {
-  "entity_id": "mfg-007",
-  "entity_type": "manufacturer",
-  "tier": "A",
-  "noindex": false,
-  "slug": "drdo-aeronautical-development-establishment-ade-mfr-007",
+ "entity_id": "atl-cmp-drdo-aeronautical-development-establishment-ade-mfr-007",
+ "entity_type": "company",
+ "tier": "A",
+ "noindex": false,
+ "slug": "drdo-aeronautical-development-establishment-ade-mfr-007",
+ "name": "DRDO — Aeronautical Development Establishment (ADE)",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "DRDO — Aeronautical Development Establishment (ADE)",
-  "variant": "",
-  "vertical": "drones-uas",
-  "parent_hub_path": "/research/drones-uas/company/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "DRDO-ADE is a core Indian UAV development laboratory behind indigenous unmanned-aircraft programmes.",
-    "chips": [
-      "Tier A",
-      "India-relevant",
-      "Company"
-    ],
-    "maker": "DRDO — Aeronautical Development Establishment (ADE)",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not asserted",
-    "mobility_or_class": "Manufacturer",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Legal_name": "DRDO — Aeronautical Development Establishment (ADE)",
-    "Country": "India",
-    "Status": "Operational"
-  },
-  "what_it_is": {
-    "prose": "DRDO's Aeronautical Development Establishment is identified in government material as a key UAV development laboratory. PIB records ADE's role in developing TAPAS/Rustom-II, while the live UAS directory links ADE as a company/lab node.",
-    "sources": [
-      "src-26",
-      "src-21",
-      "src-27",
-      "src-28"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "DRDO's Aeronautical Development Establishment is identified in government material as a key UAV development laboratory. PIB records ADE's role in developing TAPAS/Rustom-II, while the live UAS directory links ADE as a company/lab node.",
-    "rows": [],
-    "open_questions": []
-  },
-  "import_dependencies": {
-    "summary": "No indigenous percentage or component import share is asserted without direct disclosure.",
-    "items": []
-  },
-  "intelligence_assessment": {
-    "methodology_path": "/research/methodology",
-    "dimensions": [
-      {
-        "id": "design",
-        "label": "Design ownership",
-        "value": 5,
-        "note": "DRDO (LRDE + RCI) — fully indigenous",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "id": "production",
-        "label": "Production ownership",
-        "value": 5,
-        "note": "BEL + BDL — Indian PSU productionisers",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "id": "critical_components",
-        "label": "Critical component sovereignty",
-        "value": 3,
-        "note": "Active seeker indigenous; FPGA/GaN imported; propellant indigenous",
-        "sources": []
-      },
-      {
-        "id": "scale",
-        "label": "Scale / order book",
-        "value": 5,
-        "note": "Akash family aggregate orders >₹30,000 cr",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "id": "export_potential",
-        "label": "Export potential",
-        "value": 3,
-        "note": "Armenia reported as Akash Mk-I export customer 2025; Akash-NG export potential not yet articulated",
-        "sources": []
-      }
-    ]
-  },
-  "graph": {
-    "peer_systems": []
-  },
-  "faq": [
-    {
-      "question": "What does ADE do?",
-      "answer": "It develops UAV systems including TAPAS/Rustom-II.",
-      "sources": [
-        "src-26"
-      ]
-    },
-    {
-      "question": "Is ADE an Indian company?",
-      "answer": "No; it is a DRDO laboratory.",
-      "sources": [
-        "src-26"
-      ]
-    },
-    {
-      "question": "What is TAPAS/Rustom-II?",
-      "answer": "An indigenous MALE UAV programme developed by ADE with HAL-BEL production partners.",
-      "sources": [
-        "src-26"
-      ]
-    }
+  "role": "DRDO Lab",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/drones-uas/company/drdo-aeronautical-development-establishment-ade-mfr-007/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Bengaluru"
+   }
   ],
-  "timeline": [],
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-26",
-      "title": "Successful Maiden Flight of Rustom-II",
-      "publisher": "PIB",
-      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=153691",
-      "published_date": "2016-11-16",
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "ADE designed and developed TAPAS 201/Rustom-II with HAL-BEL production partners."
-    },
-    {
-      "id": "src-21",
-      "title": "India Drone & UAS Ecosystem directory",
-      "publisher": "Techadyant Labs",
-      "url": "https://labs.techadyant.com/research/drones-uas/",
-      "published_date": "2026-08-29",
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Indicative live Atlas directory only; not treated as official evidence."
-    },
-    {
-      "id": "src-27",
-      "title": "DRDO ADE live company record",
-      "publisher": "Techadyant Labs",
-      "url": "https://labs.techadyant.com/research/drones-uas/company/drdo-aeronautical-development-establishment-ade-mfr-007/",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Directory provenance only."
-    },
-    {
-      "id": "src-28",
-      "title": "DRDO UAV programme clipping",
-      "publisher": "DRDO",
-      "url": "https://drdo.gov.in/drdo/sites/default/files/drdo-news-documents/NPC13Aug2024.pdf",
-      "published_date": "2024-08-12",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "DRDO UAV programme context."
-    }
-  ],
-  "seo": {
-    "title": "DRDO — Aeronautical Development Establishment (ADE) — India Atlas | Techadyant",
-    "meta_description": "DRDO-ADE is a core Indian UAV development laboratory behind indigenous unmanned-aircraft programmes.",
-    "canonical_path": "/research/drones-uas/company/drdo-aeronautical-development-establishment-ade-mfr-007/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/drones-uas/company/",
-    "submit_correction": "/research/drones-uas/company/submit-correction/",
-    "related_research": [
-      "/research/drones-uas/company/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "Indigenous content": "100% indigenous (Gov"
+   }
   }
+ },
+ "what_it_is": "DRDO's Aeronautical Development Establishment (ADE) is the Bengaluru-based aeronautics laboratory of the Defence Research and Development Organisation. It led India's indigenous MALE UAV effort as design house of the Rustom programme, culminating in the TAPAS-BH-201 (Rustom-II) twin-engine MALE platform, and develops the ALFA series of swarming air-launched effects under the Combat Air Teaming System umbrella. ADE also designs unmanned target aircraft and flight-control technologies that feed multiple DRDO and Indian industry programmes.",
+ "india_angle": "ADE is a core node of India's military-aerospace R&D base in Bengaluru. TAPAS-BH-201 flew user-evaluation trials with the services and HAL has been named production partner for the platform. The laboratory's UAV work also underpins emergency-procurement alternatives to imported MALE systems such as the IAI Heron fleet.",
+ "intelligence_assessment": "ADE's programme portfolio is well documented at programme level, but individual technology readiness and service induction decisions for specific derivatives are not publicly consolidated. Watch user-trial outcomes for TAPAS derivatives and maturation of the ALFA swarm family as the clearest signals of ADE's near-term operational impact.",
+ "graph": {
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "What is DRDO ADE?",
+   "a": "The Aeronautical Development Establishment is DRDO's Bengaluru laboratory for aeronautics, best known as the design house of India's indigenous MALE UAV line (Rustom/TAPAS-BH-201) and the ALFA swarm series."
+  },
+  {
+   "q": "Did ADE build the TAPAS UAV?",
+   "a": "ADE designed and developed TAPAS-BH-201 (formerly Rustom-II); HAL has been named as a production partner for the platform."
+  },
+  {
+   "q": "Is ADE a company?",
+   "a": "No. ADE is a government laboratory under DRDO, not a commercial entity; industrialisation happens through production partners such as HAL and private industry."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "en.wikipedia.org",
+   "title": "TAPAS-BH-201",
+   "url": "https://en.wikipedia.org/wiki/TAPAS-BH-201",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "odin.t2com.army.mil",
+   "title": "TAPAS-BH-201 (Rustom II) Indian Unmanned Aerial Vehicle - US Army ODIN WEG",
+   "url": "https://odin.t2com.army.mil/WEG/Asset/352ba01f49ad06b1e706dfbc3b9552ba",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "drdo.gov.in",
+   "title": "DRDO - Aeronautical Development Establishment (ADE), Bengaluru",
+   "url": "https://www.drdo.gov.in/labs-and-establishments/aeronautical-development-establishment-ade",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "indiadefencewire.com",
+   "title": "TAPAS UAV: DRDO's Indigenous MALE Surveillance Drone",
+   "url": "https://indiadefencewire.com/defence-ecosystem/defence-equipment-in-india/drones/tapas-uav",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "DRDO — Aeronautical Development Establishment (ADE) - India UAS Atlas - Techadyant Labs",
+  "description": "DRDO's Aeronautical Development Establishment (ADE) is the Bengaluru-based aeronautics laboratory of the Defence Research and Development Organisation.",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 4,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

@@ -1,393 +1,120 @@
 {
-  "entity_id": "cus-004",
-  "entity_type": "system",
-  "tier": "A",
-  "noindex": false,
-  "slug": "bhargavastra-counter-drone-system-cus-004",
-  "name": "Bhargavastra Counter Drone System",
-  "variant": "Mk-I (Atlas label) — Make-II programme",
-  "vertical": "counter-uas",
-  "parent_hub_path": "/research/counter-uas/",
-  "last_verified": "2026-08-29",
-  "status": "In trials",
-  "header": {
-    "one_liner": "Solar Defence Aerospace (SDAL) micro-missile hard-kill counter-swarm system under Indian Army Make-II; three firing trials completed May 2025, induction targeted end-2026.",
-    "chips": [
-      "Hard kill",
-      "Micro-missile",
-      "Micro-rocket",
-      "IIR/CCD seeker",
-      "EO/IR",
-      "Radar",
-      "Make-II"
-    ],
-    "maker": "Solar Defence and Aerospace Limited (SDAL) — system; Economic Explosives Limited (EEL) — munitions",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "SDAL claims every part developed in India; no numerical percentage disclosed",
-    "mobility_or_class": "Vehicle-mounted launcher (8x8 cassette, 64 missiles/rockets)",
-    "operational_domains": [
-      "land",
-      "air"
-    ]
-  },
-  "at_a_glance": {
-    "Maker_per_2025_26_sources": "Solar Defence and Aerospace Limited (SDAL), Nagpur",
-    "Maker_per_Atlas_register": "Big Bang Boom Solutions (CONTESTED — see open_questions)",
-    "Detection_range_radar": "6-10 km (small drones 6 km; medium/large UAVs 10 km; >5 km for 0.01 m² RCS)",
-    "EO_IR_tracking_range": "6 km (EOTS, exceeds Army's 2.5 km requirement)",
-    "Engagement_range": "Up to 2.5 km",
-    "Launcher_capacity": "64 micro-rockets/micro-missiles in 8x8 cassettes",
-    "Salvo_fire_time": "<10 seconds for full salvo",
-    "Time_to_intercept": "<16 seconds from recognition",
-    "Lethal_radius_micro_rocket": "20 m",
-    "Micro_missile_mass": "2.5 kg",
-    "Programme": "Make-II (industry-funded prototype)",
-    "First_firing": "12 January 2025 (Gopalpur)",
-    "Three_firing_trials": "13 May 2025 (Seaward Firing Range, Gopalpur)",
-    "Demonstration_to_services": "24-25 July 2026 (Nagpur, Army + Navy + IAF)",
-    "Induction_targeted": "End-2026 (per SDAL Chairman)"
-  },
-  "what_it_is": {
-    "prose": "Bhargavastra is a multi-layer micro-missile and micro-rocket counter-swarm drone system designed and developed by Solar Defence and Aerospace Limited (SDAL), a subsidiary of Solar Group / Solar Industries India Limited of Nagpur, with munitions (micro-rockets and micro-missiles) developed by Economic Explosives Limited, also a Solar Group company. The system is being developed under the Indian Army's Make-II programme (industry-funded prototype development). The system uses a layered defeat architecture: a first layer of unguided micro-rockets with a 20-metre lethal radius, and a second layer of guided micro-missiles with IIR/CCD guidance for hit-to-kill engagements. A single launcher carries 64 micro-rockets or micro-missiles in 8x8 cassettes, can salvo-fire the full load in under 10 seconds, and provides 360° coverage. Time from recognition to interception is under 16 seconds. Engagement range is up to 2.5 km. Detection is handled by a radar that identifies medium/large UAVs at 10 km, small drones at 6 km, and 0.01 m² RCS objects at greater than 5 km; an Electro-Optical Tracking System (EOTS) with 6 km range exceeds the Army's current 2.5 km operational requirement. The maiden firing occurred on 12 January 2025 at Gopalpur; three firing trials were conducted on 13 May 2025 at the Seaward Firing Range, Gopalpur, in the presence of senior Army Air Defence officials. The system was demonstrated to the Indian Army, Navy, and Air Force at SDAL's Nagpur facility on 24-25 July 2026. SDAL Chairman Satyanarayan Nuwal stated on 24 July 2026 that internal trials would complete within 2-3 months, with induction targeted for end-2026. The Atlas register attributes this system to 'Big Bang Boom Solutions' — this attribution is contested by every credible 2025-26 source, which unanimously attribute Bhargavastra to SDAL. The conflict is documented in detail in open_questions below.",
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3",
-      "src-4",
-      "src-5"
-    ]
-  },
-  "kill_chain_or_capability": {
-    "stages": [
-      {
-        "id": "detect",
-        "label": "Detect",
-        "covered": true,
-        "note": "Radar — 10 km medium/large UAVs, 6 km small drones, >5 km for 0.01 m² RCS"
-      },
-      {
-        "id": "classify",
-        "label": "Classify",
-        "covered": true,
-        "note": "EOTS — 6 km range (exceeds Army 2.5 km requirement)"
-      },
-      {
-        "id": "track",
-        "label": "Track",
-        "covered": true,
-        "note": "Integrated fire control"
-      },
-      {
-        "id": "decide",
-        "label": "Decide",
-        "covered": true,
-        "note": "Automated salvo fire control; <16 s recognition-to-intercept"
-      },
-      {
-        "id": "defeat",
-        "label": "Defeat",
-        "covered": true,
-        "note": "Layered: Layer 1 unguided micro-rockets (20 m lethal radius); Layer 2 guided micro-missiles IIR/CCD hit-to-kill (2.5 km range, 2.5 kg mass)"
-      },
-      {
-        "id": "assess",
-        "label": "Assess",
-        "covered": true,
-        "note": "EOTS post-engagement BDA"
-      }
-    ],
-    "threat_or_target_classes": [
-      "Group 1 UAS",
-      "Group 2 UAS",
-      "FPV drones",
-      "Swarm drones",
-      "Loitering munitions"
-    ],
-    "sources": [
-      "src-2",
-      "src-3"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "Bhargavastra is in trials under the Indian Army's Make-II programme. The maiden firing was conducted on 12 January 2025 at Gopalpur. Three firing trials were conducted on 13 May 2025 at the Seaward Firing Range, Gopalpur, in the presence of senior Army Air Defence officials. The system was demonstrated to the Indian Army, Navy, and Air Force at SDAL's Nagpur facility on 24-25 July 2026. SDAL Chairman Satyanarayan Nuwal stated on 24 July 2026 that internal trials would complete within 2-3 months, with induction targeted for end-2026. No production contract has yet been signed.",
-    "rows": [
-      {
-        "agency": "Indian Army (Make-II programme)",
-        "context": "Maiden firing at Gopalpur",
-        "year": 2025,
-        "quantity_or_note": "12 January 2025",
-        "sources": [
-          "src-1",
-          "src-4"
-        ]
-      },
-      {
-        "agency": "Indian Army Air Defence (AAD)",
-        "context": "Three firing trials at Seaward Firing Range, Gopalpur",
-        "year": 2025,
-        "quantity_or_note": "13 May 2025 — senior AAD officials present",
-        "sources": [
-          "src-3"
-        ]
-      },
-      {
-        "agency": "Indian Army / Navy / IAF",
-        "context": "Demonstration at SDAL Nagpur facility",
-        "year": 2026,
-        "quantity_or_note": "24-25 July 2026 (demo only, no firing at facility)",
-        "sources": [
-          "src-2",
-          "src-5"
-        ]
-      },
-      {
-        "agency": "Indian Army (Make-II programme)",
-        "context": "SDAL Chairman statement on induction target",
-        "year": 2026,
-        "quantity_or_note": "End-2026 induction target (per Satyanarayan Nuwal, 24 July 2026)",
-        "sources": [
-          "src-2"
-        ]
-      }
-    ],
-    "open_questions": [
-      "CRITICAL — Maker attribution conflict: Atlas register lists 'Big Bang Boom Solutions'; all 2025-26 credible sources (Wikipedia, ET, ToI, The Hindu, ANI, Bharat Shakti, Deccan Chronicle, Tribune, Moneycontrol, Mathrubhumi) attribute Bhargavastra to Solar Defence and Aerospace Limited (SDAL). See REGISTER_TICKETS.md ticket P0-BHARGAVASTRA-MAKER.",
-      "Whether Atlas 'Mk-I' label corresponds to an SDAL internal designation — not found in public sources",
-      "Standalone RF detection range — passive RF detectors mentioned but no figure",
-      "Numerical indigenous content % — SDAL claims fully indigenous but does not itemise",
-      "Specific EO/IR sensor supplier and country of origin (SDAL claims Indian but does not itemise)",
-      "Production contract value and timeline — not yet signed as of August 2026"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "SDAL claims that 'every part — from strike mechanisms to detecting sensors — is developed in India'. No numerical indigenous content percentage has been disclosed. The solid propellant for the micro-rockets and micro-missiles is developed by Economic Explosives Limited (a Solar Group subsidiary) in India. The IIR/CCD seeker components, FPGA, and signal processing chain have not been publicly itemised by SDAL, so their origin remains an open question. Given industry-typical supply chains, FPGA and certain EO/IR components may be imported even when the system integrator is Indian.",
-    "items": [
-      {
-        "component": "Solid propellant (micro-rockets/missiles)",
-        "severity": "Low",
-        "note": "Developed by Economic Explosives Limited (Solar Group) in India",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "component": "IIR / CCD seeker components",
-        "severity": "Unknown",
-        "note": "Not publicly itemised by SDAL",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      },
-      {
-        "component": "FPGA / signal processing",
-        "severity": "Unknown",
-        "note": "Not publicly itemised",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      }
-    ]
-  },
-  "intelligence_assessment": {
-    "methodology_path": "/research/methodology",
-    "dimensions": [
-      {
-        "id": "design",
-        "label": "Design ownership",
-        "value": 5,
-        "note": "SDAL — indigenous design (per all credible sources)",
-        "sources": [
-          "src-1",
-          "src-2",
-          "src-3"
-        ]
-      },
-      {
-        "id": "production",
-        "label": "Production ownership",
-        "value": 5,
-        "note": "SDAL (system) + Economic Explosives Ltd (munitions) — both Solar Group",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "id": "critical_components",
-        "label": "Critical component sovereignty",
-        "value": 3,
-        "note": "Propellant indigenous; seeker/FPGA origin not disclosed",
-        "sources": []
-      },
-      {
-        "id": "combat_proven",
-        "label": "Combat proven",
-        "value": 1,
-        "note": "In trials; first firing January 2025; no combat use reported",
-        "sources": [
-          "src-1",
-          "src-3"
-        ]
-      },
-      {
-        "id": "export_potential",
-        "label": "Export potential",
-        "value": 2,
-        "note": "Solar Group has export footprint; Bhargavastra-specific exports not yet disclosed",
-        "sources": []
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [
-      "integrated-counter-drone-system-cus-001",
-      "zen-anti-drone-system-zads-cus-003",
-      "indrajaal-anti-drone-system-cus-005"
-    ],
-    "related_components": [],
-    "related_pillars": [
-      "/research/pillars/defence/"
-    ],
-    "referenced_by": []
-  },
-  "timeline": [
-    {
-      "date": "2025-01-12",
-      "event": "Maiden firing of Bhargavastra at Gopalpur",
-      "sources": [
-        "src-1",
-        "src-4"
-      ]
-    },
-    {
-      "date": "2025-05-13",
-      "event": "Three firing trials at Seaward Firing Range, Gopalpur (senior AAD officials present)",
-      "sources": [
-        "src-3"
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "event": "Demonstration to Indian Army, Navy, IAF at SDAL Nagpur facility; SDAL Chairman Satyanarayan Nuwal announces 2-3 month trial completion target",
-      "sources": [
-        "src-2"
-      ]
-    },
-    {
-      "date": "2026-07-25",
-      "event": "Times of India coverage confirms tri-service demonstration",
-      "sources": [
-        "src-5"
-      ]
-    }
+ "entity_id": "atl-sys-bhargavastra-counter-drone-system-cus-004",
+ "entity_type": "system",
+ "tier": "B",
+ "noindex": false,
+ "slug": "bhargavastra-counter-drone-system-cus-004",
+ "name": "Bhargavastra Counter-Drone System",
+ "vertical": "counter-uas",
+ "parent_hub_path": "/research/counter-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Bhargavastra Counter-Drone System",
+  "role": "Fixed Site; Mobile",
+  "country": "India",
+  "status_line": "Operational",
+  "subtitle": "Mk-I",
+  "entity_path": "/research/counter-uas/system/bhargavastra-counter-drone-system-cus-004/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Big Bang Boom Solutions"
+   }
   ],
-  "faq": [
-    {
-      "question": "Who makes the Bhargavastra counter-drone system?",
-      "answer": "Per all credible 2025-26 sources — including The Economic Times, Times of India, The Hindu, ANI, Wikipedia, Bharat Shakti, Deccan Chronicle, Tribune, and Moneycontrol — Bhargavastra is designed and developed by Solar Defence and Aerospace Limited (SDAL), a subsidiary of Solar Group / Solar Industries India Limited of Nagpur. The munitions (micro-rockets and micro-missiles) are developed by Economic Explosives Limited, also a Solar Group company. The Atlas register's attribution to 'Big Bang Boom Solutions' is contested and is the subject of an open data-conflict ticket.",
-      "sources": [
-        "src-1",
-        "src-2",
-        "src-3",
-        "src-5"
-      ]
-    },
-    {
-      "question": "What is the Bhargavastra maker conflict?",
-      "answer": "The Atlas register lists the maker as 'Big Bang Boom Solutions' (BBBS, Chennai). All 2025-26 open sources — including primary interviews with SDAL Chairman Satyanarayan Nuwal — attribute Bhargavastra to Solar Defence and Aerospace Limited (SDAL). BBBS's own counter-drone products are Vajra Sentinel and Vajra Shot; BBBS received an Indian MoD RFP in June 2022 for its Anti-Drone Defence System (ADDS) and signed a >₹200 crore MoD deal in March 2024 for Vajra Sentinel — none of which is Bhargavastra. The most plausible explanation is that the Atlas confused two distinct Indian counter-drone products during early data collection. The dossier treats SDAL as the authoritative maker and flags the conflict for Atlas correction.",
-      "sources": [
-        "src-1",
-        "src-2",
-        "src-3"
-      ]
-    },
-    {
-      "question": "When will Bhargavastra be inducted?",
-      "answer": "SDAL Chairman Satyanarayan Nuwal stated on 24 July 2026 that internal trials would complete within 2-3 months (i.e., by approximately October 2026), with induction targeted for end-2026. The system is being developed under the Indian Army's Make-II programme (industry-funded prototype development).",
-      "sources": [
-        "src-2"
-      ]
-    }
-  ],
-  "open_questions": [
-    "CRITICAL — Maker attribution conflict: Atlas register lists 'Big Bang Boom Solutions'; all 2025-26 credible sources attribute to Solar Defence and Aerospace Limited (SDAL). Treat SDAL as authoritative; flag for Atlas register correction. See REGISTER_TICKETS.md ticket P0-BHARGAVASTRA-MAKER.",
-    "Whether Atlas 'Mk-I' label corresponds to an SDAL internal designation — not found in public sources",
-    "Standalone RF detection range — passive RF detectors mentioned but no figure",
-    "Numerical indigenous content % — SDAL claims fully indigenous but does not itemise",
-    "Specific EO/IR sensor supplier and country of origin",
-    "Production contract value and timeline — not yet signed as of August 2026",
-    "Whether BBBS Vajra Sentinel / ADDS deserves its own separate Atlas entry (currently no entry found)"
-  ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Bhargavastra",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Bhargavastra",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Aggregates credible sources (ET, ToI, The Hindu, Deccan Chronicle, Tribune, Moneycontrol, Mathrubhumi, Bharat Shakti, Defstrat); confirms SDAL as designer/manufacturer, Economic Explosives Ltd as munition maker, full spec table"
-    },
-    {
-      "id": "src-2",
-      "title": "Indigenous 'Bhargavastra' counter-drone system to complete internal trials in 2-3 months, says SDAL Chairman Satyanarayan Nuwal",
-      "publisher": "The Economic Times",
-      "url": "https://m.economictimes.com/news/defence/indigenous-bhargavastra-counter-drone-system-to-complete-internal-trials-in-2-3-months-says-sdal-chairman-satyanarayan-nuwal/articleshow/132605358.cms",
-      "published_date": "2026-07-24",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "ANI-sourced; primary interview with SDAL Chairman; confirms radar 10 km, EOTS 6 km, Make-II programme"
-    },
-    {
-      "id": "src-3",
-      "title": "India's homegrown 'Bhargavastra' counter swarm drone system test fired successfully",
-      "publisher": "The Economic Times",
-      "url": "https://m.economictimes.com/news/defence/indias-homegrown-bhargavastra-counter-swarm-drone-system-test-fired-successfully/articleshow/121160872.cms",
-      "published_date": "2025-05-14",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "ET Online; confirms SDAL as developer, 2.5 km engagement, 20 m lethal radius, salvo mode"
-    },
-    {
-      "id": "src-4",
-      "title": "Solar Group Tests India's First Indigenous Micro-Missile Drone System 'Bhargavastra'",
-      "publisher": "Bharat Shakti",
-      "url": "https://en.wikipedia.org/wiki/Bhargavastra",
-      "published_date": "2025-01-15",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Original January 2025 trial report"
-    },
-    {
-      "id": "src-5",
-      "title": "Army gets demo of indigenous counter-drone system Bhargavastra",
-      "publisher": "Times of India",
-      "url": "https://timesofindia.indiatimes.com/defence/news/army-gets-demo-of-indigenous-counter-drone-system-bhargavastra/articleshow/132620819.cms",
-      "published_date": "2026-07-25",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Confirms demo to Army, Navy, Air Force at SDAL Nagpur"
-    }
-  ],
-  "seo": {
-    "title": "Bhargavastra Counter Drone System Mk-I — System · India Counter-UAS Atlas | Techadyant",
-    "meta_description": "Solar Defence Aerospace (SDAL) micro-missile hard-kill counter-swarm system under Indian Army Make-II; firing trials 2025-26, induction targeted end-2026.",
-    "canonical_path": "/research/counter-uas/system/bhargavastra-counter-drone-system-cus-004/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Product",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/counter-uas/",
-    "submit_correction": "/research/counter-uas/submit-correction/",
-    "related_research": [
-      "/research/counter-uas/system/integrated-counter-drone-system-cus-001/",
-      "/research/counter-uas/system/zen-anti-drone-system-zads-cus-003/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "Indigenous content": "75% (Yes - Indigenous)"
+   }
   }
+ },
+ "what_it_is": "Bhargavastra is an indigenous Indian counter-swarm drone defence system combining detect-and-destroy layers - hard-kill micro-missiles and gun/soft-kill options - publicly demonstrated to the Indian Army in 2024-2025 trials, with a Wikipedia record of its development.",
+ "india_angle": "Bhargavastra's public Army demonstrations and Drone Federation of India coverage make it one of the best-evidenced indigenous Indian C-UAS programmes of 2024-25, aimed directly at the swarm-drone threat.",
+ "drone_types_countered": [
+  "Nano",
+  "Micro",
+  "Small UAV",
+  "Medium UAV",
+  "Fixed Wing",
+  "VTOL",
+  "FPV",
+  "Loitering Munition",
+  "Helicopter UAV",
+  "Swarm",
+  "Autonomous"
+ ],
+ "kill_chain": [
+  "Detect",
+  "Track",
+  "Identify",
+  "Classify",
+  "Decide",
+  "Neutralize",
+  "Assess"
+ ],
+ "intelligence_assessment": "Trial demonstrations are verifiable through multiple outlets; production orders and unit deployments are not yet public. Watch Army procurement notices for the first operational order.",
+ "graph": {
+  "maker": {
+   "name": "Big Bang Boom Solutions",
+   "path": "/research/counter-uas/manufacturer/big-bang-boom-solutions-mfg-006/"
+  },
+  "parent_hub": "/research/counter-uas/"
+ },
+ "faq": [
+  {
+   "q": "What is Bhargavastra?",
+   "a": "An indigenous Indian counter-swarm drone system (missile + gun layers) demonstrated to the Indian Army in 2024-25."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "en.wikipedia.org",
+   "title": "Bhargavastra (counter-drone system)",
+   "url": "https://en.wikipedia.org/wiki/Bhargavastra",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "dronefederation.in",
+   "title": "India successfully tests Bhargavastra, an indigenous counter-swarm drone system",
+   "url": "https://www.dronefederation.in/media-hub/india-successfully-tests-bhargavastra-an-indigenous-counter-swarm-dro",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "timesofindia.indiatimes.com",
+   "title": "Army gets demo of indigenous counter-drone system Bhargavastra",
+   "url": "https://timesofindia.indiatimes.com/defence/news/army-gets-demo-of-indigenous-counter-drone-system-bhargavastr",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Bhargavastra Counter-Drone System - Counter-UAS Atlas - Techadyant Labs",
+  "description": "Bhargavastra is an indigenous Indian counter-swarm drone defence system combining detect-and-destroy layers - hard-kill micro-missiles and gun/soft-kill optio",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

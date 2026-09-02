@@ -1,0 +1,127 @@
+{
+ "entity_id": "atl-plat-wb-group-warmate-drn-0018",
+ "entity_type": "platform",
+ "tier": "B",
+ "noindex": false,
+ "slug": "wb-group-warmate-drn-0018",
+ "name": "WB Group Warmate",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "WB Group Warmate",
+  "role": "Loitering Munition",
+  "country": "Poland",
+  "status_line": "Testing",
+  "subtitle": "Warmate-2",
+  "entity_path": "/research/drones-uas/platform/wb-group-warmate-drn-0018/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "WB Electronics SA"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Army — Aviation Corps"
+   },
+   {
+    "label": "Mission roles",
+    "value": "Strike"
+   }
+  ],
+  "key_specs": [
+   "5.4 kg MTOW",
+   "1.4 kg payload",
+   "1 hr endurance",
+   "30 km range",
+   "4,000 m ceiling",
+   "150 km/h",
+   "Electric motor"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "0",
+    "Indigenous content": "0%"
+   }
+  }
+ },
+ "what_it_is": "The WARMATE family from Poland's WB Group is a man-portable electric loitering-munition line with interchangeable day/night payloads and autonomous attack profiles, marketed in WARMATE/WARMATE 2/5 configurations for tactical units.",
+ "india_angle": "WB Group's Indian presence runs through WB Electronics India collaborations (the atlas also lists WB Electronics as a rich company dossier); Indian trials of Polish loitering munitions have been reported in defence media, though no confirmed Indian order is public at dossier time.",
+ "deployments_procurement": {
+  "summary": "The legacy atlas page lists 1 procurement row(s) (total Rs 12 cr). These rows predate this dossier upgrade and await independent verification.",
+  "records": [
+   {
+    "row": "Indian Army — Aviation Corps · 50 units · 2024 | ₹12 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   }
+  ],
+  "note": "No order, quantity or value on this page is asserted as verified fact. See open_questions."
+ },
+ "intelligence_assessment": "WARMATE's product record is verifiable through the OEM; the India file remains at trial/interest level. Watch Indian Army loitering-munition tenders where WARMATE-class systems appear as competitors to Nagastra and SkyStriker offers.",
+ "graph": {
+  "maker": {
+   "name": "WB Electronics SA",
+   "path": "/research/drones-uas/company/wb-electronics-sa-mfr-006/"
+  },
+  "operator": "Indian Army — Aviation Corps",
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Is WARMATE in Indian service?",
+   "a": "No Indian order is publicly confirmed; Indian trials/interest have been reported in defence media."
+  }
+ ],
+ "open_questions": [
+  "Verify the legacy atlas procurement row(s) against MoD/PIB/service announcements and add named sources to upgrade toward Tier B/A.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "wbgroup.pl",
+   "title": "WARMATE loitering munitions - WB GROUP",
+   "url": "https://wbgroup.pl/en/produkt/warmate-loitering-munnitions",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "en.wikipedia.org",
+   "title": "WB Electronics Warmate",
+   "url": "https://en.wikipedia.org/wiki/WB_Electronics_Warmate",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "automatedresearch.org",
+   "title": "WB Group WARMATE loitering munitions - profile",
+   "url": "https://automatedresearch.org/weapon/wb-group-warmate-loitering-munitions",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "WB Group Warmate - India UAS Atlas - Techadyant Labs",
+  "description": "The WARMATE family from Poland's WB Group is a man-portable electric loitering-munition line with interchangeable day/night payloads and autonomous attack pro",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

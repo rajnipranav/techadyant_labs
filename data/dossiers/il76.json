@@ -1,325 +1,113 @@
 {
-  "entity_id": "il76",
-  "entity_type": "platform",
-  "tier": "A",
-  "noindex": false,
-  "slug": "il76",
-  "name": "Ilyushin Il-76MD 'Gajraj'",
-  "variant": "Il-76MD",
-  "vertical": "military-aerospace",
-  "parent_hub_path": "/research/military-aerospace/platform/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "The IAF's Russian-origin heavy-lift airlifter (~17 acquired 1985–89, ~11–14 flyable), locally named 'Gajraj'; it is also the base airframe for India's Il-78MKI tankers and A-50EI Phalcon AWACS. Ageing D-30KP engines and Russia-Ukraine supply strain are driving a life-extension/re-engine (PS-90) study toward the 2040s.",
-    "chips": [
-      "A",
-      "Heavy airlift",
-      "Ilyushin (Russia)",
-      "Gajraj",
-      "AWACS/tanker base",
-      "PS-90 re-engine"
-    ],
-    "maker": "Ilyushin / TAPO (Russia, ex-USSR)",
-    "country": "Russia",
-    "indigenous_pct": null,
-    "indigenous_label": "Foreign-origin airframe; upgrade being partly indigenised",
-    "mobility_or_class": "Four-engine strategic heavy-lift jet transport (~40+ t payload)",
-    "operational_domains": [
-      "air",
-      "land"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Ilyushin / Tashkent (TAPO), Russia/ex-USSR",
-    "Local_name": "Gajraj",
-    "Fleet": "~17 Il-76MD acquired 1985–89; ~11–14 in flyable condition",
-    "Squadron": "No. 25 Squadron 'Himalayan Eagles', Chandigarh",
-    "Engine": "Four Soloviev/Aviadvigatel D-30KP turbofans",
-    "Payload": "~40+ tonnes (strategic heavy lift)",
-    "Derived_platforms": "Il-78MKI aerial-refuelling tankers (6) and A-50EI 'Phalcon' AWACS (3) use the Il-76 airframe",
-    "Upgrade": "DAC-approved engine + avionics modernisation (~₹4,250 cr / $650M, 2015); PS-90A-76 re-engine studied",
-    "Life_extension_goal": "Core fleet of ~10 Il-76 to the 2040s; feasibility beyond 2050 studied",
-    "Serviceability_challenge": "Availability fell as low as ~32% amid post-Soviet/Russia-Ukraine spares strain"
-  },
-  "what_it_is": {
-    "prose": "The Ilyushin Il-76MD, locally named 'Gajraj', is the Indian Air Force's Russian-origin four-engine strategic heavy-lift airlifter, acquired between 1985 and 1989 (about 17 aircraft) and flown by No. 25 Squadron 'Himalayan Eagles' at Chandigarh. It carries in excess of 40 tonnes and is powered by four Soloviev/Aviadvigatel D-30KP turbofans. Beyond pure airlift, the Il-76 airframe is strategically important as the base platform for two of India's most valuable force-multipliers: the six Il-78MKI aerial-refuelling tankers and the three A-50EI 'Phalcon' AWACS (an Israeli EL/W-2090 Phalcon radar on a Russian Il-76 airframe). Reported fleet numbers vary — around 17 acquired, with roughly 11 to 14 flyable at various points as aircraft are decommissioned or cannibalised for spares; at least two have been grounded at Chandigarh since 2022. The fleet's core problem is its ageing D-30KP engines and, since the Russia-Ukraine war, disrupted spares and overhaul support. India approved a modernisation programme (avionics and engines) via the Defence Acquisition Council around 2015 (reported at roughly ₹4,250 crore / $650 million) and has since studied re-engining with the more efficient Aviadvigatel PS-90A-76 turbofan, glass-cockpit avionics and secure indigenous communications, working increasingly with domestic firms rather than relying solely on Russian state entities. The aim is to keep a core fleet of about ten Il-76 flying into the 2040s, with structural life-extension studies examining feasibility beyond 2050. Serviceability has been a persistent concern, with availability reported to have fallen as low as around 32%.",
-    "sources": [
-      "src-tribune-le",
-      "src-gs-2015",
-      "src-no50-wiki",
-      "src-defencein-il76"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "India acquired ~17 Il-76MD 'Gajraj' from the USSR/Russia in 1985–89, operating them from Chandigarh; the airframe also underpins the Il-78MKI tankers and A-50EI Phalcon AWACS. Ageing D-30KP engines and Russia-Ukraine spares strain have pushed a DAC-approved modernisation (~$650M, 2015) and a PS-90 re-engine study to sustain a core fleet into the 2040s.",
-    "rows": [
-      {
-        "agency": "Indian Air Force",
-        "context": "Acquisition of Il-76MD heavy-lift transport",
-        "year": "1985–1989",
-        "quantity_or_note": "~17 aircraft from USSR/Russia; No. 25 Squadron, Chandigarh; locally named 'Gajraj'",
-        "sources": [
-          "src-tribune-le"
-        ]
-      },
-      {
-        "agency": "Indian Air Force",
-        "context": "Derived force-multiplier platforms on the Il-76 airframe",
-        "year": null,
-        "quantity_or_note": "6 Il-78MKI aerial-refuelling tankers + 3 A-50EI 'Phalcon' AWACS (Israeli radar on Il-76)",
-        "sources": [
-          "src-gs-2015",
-          "src-no50-wiki"
-        ]
-      },
-      {
-        "agency": "Ministry of Defence / DAC",
-        "context": "Il-76 fleet modernisation (engines + avionics) approved",
-        "year": 2015,
-        "quantity_or_note": "~₹4,250 crore (~$650M); ~20-year life extension; new engines and avionics",
-        "sources": [
-          "src-gs-2015"
-        ]
-      },
-      {
-        "agency": "Indian Air Force (with domestic firms)",
-        "context": "Deep upgrade / re-engine study toward the 2040s",
-        "year": "2024–",
-        "quantity_or_note": "PS-90A-76 re-engine, glass cockpit, indigenous comms; core fleet of ~10 to the 2040s, feasibility beyond 2050 studied",
-        "sources": [
-          "src-defencein-il76"
-        ]
-      }
-    ],
-    "open_questions": [
-      "The exact number of currently flyable Il-76 varies across sources (~11–14 of ~17 acquired).",
-      "Whether the PS-90A-76 re-engine will be contracted, and the split between Russian and Indian/domestic work, is not finalised.",
-      "Firm cost and timeline of the deep-upgrade/life-extension programme are not publicly confirmed."
-    ]
-  },
-  "import_dependencies": {
-    "summary": "The Il-76 and its tanker/AWACS derivatives are deeply dependent on Russia (Ilyushin design authority, D-30KP engines, TAPO overhaul) — support strained by the Russia-Ukraine war — plus Israel for the A-50EI's Phalcon radar.",
-    "items": [
-      {
-        "component": "Airframe design authority & OEM overhaul",
-        "severity": "Critical",
-        "note": "Ilyushin / Tashkent (Russia/ex-USSR) — original design house; overhaul historically in Russia, now strained.",
-        "pillar_link": "/research/military-aerospace/",
-        "sources": [
-          "src-tribune-le"
-        ]
-      },
-      {
-        "component": "D-30KP (and proposed PS-90A-76) engines",
-        "severity": "Critical",
-        "note": "Aviadvigatel (Russia) — ageing D-30KP powerplant and spares; re-engine option is again a Russian engine.",
-        "pillar_link": "/research/military-aerospace/",
-        "sources": [
-          "src-defencein-il76"
-        ]
-      },
-      {
-        "component": "Spares & serviceability support",
-        "severity": "Critical",
-        "note": "Russia-Ukraine war has cut spares; cannibalisation and groundings have pushed availability as low as ~32%.",
-        "pillar_link": "/research/military-aerospace/",
-        "sources": [
-          "src-defencein-il76"
-        ]
-      },
-      {
-        "component": "A-50EI 'Phalcon' AWACS radar (derived platform)",
-        "severity": "High",
-        "note": "Israel (IAI/ELTA EL/W-2090 Phalcon) mounted on the Russian Il-76 airframe — a tri-national dependency.",
-        "pillar_link": "/research/military-aerospace/",
-        "sources": [
-          "src-gs-2015"
-        ]
-      }
-    ]
-  },
-  "intelligence_assessment": {
-    "methodology_path": "/research/methodology",
-    "dimensions": [
-      {
-        "id": "design",
-        "label": "Design ownership",
-        "value": 0,
-        "note": "Ilyushin (Russia) — fully foreign design; no Indian design authority.",
-        "sources": [
-          "src-tribune-le"
-        ]
-      },
-      {
-        "id": "production",
-        "label": "Production ownership",
-        "value": 1,
-        "note": "Airframes imported; India performs upgrade/overhaul, increasingly with domestic firms.",
-        "sources": [
-          "src-defencein-il76"
-        ]
-      },
-      {
-        "id": "critical_components",
-        "label": "Critical component sovereignty",
-        "value": 1,
-        "note": "Engines and spares depend on Russia; A-50EI radar on Israel; indigenous avionics/comms emerging in upgrade.",
-        "sources": [
-          "src-defencein-il76"
-        ]
-      },
-      {
-        "id": "scale",
-        "label": "Scale / order book",
-        "value": 3,
-        "note": "~17 airframes plus 6 Il-78 tankers and 3 A-50EI — small but strategically pivotal heavy-lift/enabler fleet.",
-        "sources": [
-          "src-gs-2015"
-        ]
-      },
-      {
-        "id": "export_potential",
-        "label": "Export potential",
-        "value": 0,
-        "note": "Legacy foreign-origin fleet in sustainment/upgrade; no export dimension.",
-        "sources": []
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [
-      "c130j",
-      "an32",
-      "c295"
-    ],
-    "related_components": [],
-    "related_pillars": [
-      "/research/military-aerospace/"
-    ],
-    "referenced_by": []
-  },
-  "timeline": [
-    {
-      "date": "1985",
-      "event": "IAF begins acquiring Il-76MD 'Gajraj' heavy-lift transports (through 1989).",
-      "sources": [
-        "src-tribune-le"
-      ]
-    },
-    {
-      "date": "2015-10",
-      "event": "Defence Acquisition Council approves ~$650M Il-76 engine and avionics modernisation.",
-      "sources": [
-        "src-gs-2015"
-      ]
-    },
-    {
-      "date": "2022",
-      "event": "At least two Il-76 grounded at Chandigarh amid Russia-Ukraine spares disruption.",
-      "sources": [
-        "src-defencein-il76"
-      ]
-    },
-    {
-      "date": "2024",
-      "event": "IAF studies deep upgrade with PS-90A-76 re-engine and domestic firms to sustain the fleet toward the 2040s.",
-      "sources": [
-        "src-defencein-il76"
-      ]
-    }
+ "entity_id": "atl-plat-il76",
+ "entity_type": "platform",
+ "tier": "B",
+ "noindex": false,
+ "slug": "il76",
+ "name": "Ilyushin Il-76MD",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Ilyushin Il-76MD",
+  "role": "strategic tactical transport heavy",
+  "country": "in_service",
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/platform/il76/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Ilyushin Aviation Complex (Russia; originally Soviet Union)"
+   },
+   {
+    "label": "Role",
+    "value": "Strategic and tactical airlift, heavy cargo (vehicles, including BMP infantry fighting vehicles), paradrop, HADR"
+   }
   ],
-  "faq": [
-    {
-      "question": "How many Il-76 does the IAF operate and what is 'Gajraj'?",
-      "answer": "'Gajraj' is the IAF's local name for its Ilyushin Il-76MD heavy-lift transports, acquired from the USSR/Russia between 1985 and 1989 (about 17 aircraft) and flown by No. 25 Squadron at Chandigarh. Reported flyable numbers vary between roughly 11 and 14 as aircraft are decommissioned or cannibalised for spares, with at least two grounded since 2022.",
-      "sources": [
-        "src-tribune-le",
-        "src-defencein-il76"
-      ]
-    },
-    {
-      "question": "Why is the Il-76 airframe strategically important beyond airlift?",
-      "answer": "The Il-76 is the base platform for two of India's key force-multipliers: the six Il-78MKI aerial-refuelling tankers and the three A-50EI 'Phalcon' AWACS, which mount an Israeli EL/W-2090 Phalcon radar on a Russian Il-76 airframe. That makes the Il-76 line central not just to strategic heavy lift but to India's air-to-air refuelling and airborne early-warning capabilities.",
-      "sources": [
-        "src-gs-2015",
-        "src-no50-wiki"
-      ]
-    },
-    {
-      "question": "What is being done about the ageing Il-76 fleet and its engines?",
-      "answer": "India approved a modernisation of engines and avionics via the Defence Acquisition Council around 2015 (reported at roughly ₹4,250 crore / $650 million) and has studied re-engining with the more efficient Aviadvigatel PS-90A-76 turbofan plus glass-cockpit avionics and indigenous communications, increasingly with domestic firms. The goal is to keep a core fleet of about ten Il-76 flying into the 2040s, with feasibility beyond 2050 under study, despite Russia-Ukraine-related spares shortages that have cut serviceability sharply.",
-      "sources": [
-        "src-gs-2015",
-        "src-defencein-il76"
-      ]
-    }
+  "key_specs": [
+   "48 t payload",
+   "4,200 km range",
+   "780 km/h cruise",
+   "42,000 ft ceiling",
+   "4 × Aviadvigatel D-30KP turbofan (or PS-90A-76 on Il-76MD-90A variant), 11,768 kgf thrust each",
+   "Not applicable — turbofan-powered"
   ],
-  "open_questions": [
-    "Exact number of currently flyable Il-76 varies across sources (~11–14 of ~17 acquired).",
-    "Whether the PS-90A-76 re-engine will be contracted, and the Russian/Indian work split.",
-    "Firm cost and timeline of the deep-upgrade/life-extension programme."
-  ],
-  "sources": [
-    {
-      "id": "src-tribune-le",
-      "title": "IAF approaches Russia to examine feasibility of life extension for IL-76 heavy-lift aircraft",
-      "publisher": "The Tribune",
-      "url": "https://www.tribuneindia.com/news/chandigarh/iaf-approaches-russia-to-examine-feasibility-of-life-extension-for-il-76-heavy-lift-aircraft-600520/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "17 Il-76 procured 1985–89 (14 remaining); D-30KP engines; PS-90a re-engine proposal; life extension toward 2050; 6 Il-78 tankers and A-50 on Il-76 airframe; availability as low as ~32%."
-    },
-    {
-      "id": "src-gs-2015",
-      "title": "India to Upgrade Fleet of Russian-Made Ilyushin Aircraft",
-      "publisher": "GlobalSecurity.org (Sputnik)",
-      "url": "https://www.globalsecurity.org/wmd/library/news/india/2015/india-151029-sputnik01.htm",
-      "published_date": "2015-10-29",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "IAF has 14 Il-76, three Phalcon AWACS on Il-76, six Il-78 refuellers; DAC-approved engine+avionics upgrade ~₹42.5bn ($650M), ~20-year life extension."
-    },
-    {
-      "id": "src-no50-wiki",
-      "title": "No. 50 Squadron IAF",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/No._50_Squadron_IAF",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Confirms the Beriev A-50 (Phalcon) AWACS is based on the Ilyushin Il-76 airframe; No. 50 Squadron at Agra."
-    },
-    {
-      "id": "src-defencein-il76",
-      "title": "IAF Plans Deep Upgrades of IL-76 with Domestic Firms' Help to Maintain Fleet's Airlift Capabilities Until 2040s",
-      "publisher": "Defence.in",
-      "url": "https://defence.in/threads/iaf-plans-deep-upgrades-of-il-76-with-domestic-firms-help-to-maintain-fleets-airlift-capabilities-until-2040s.17210/",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "~17 airframes (1985–89), ~11–12 active, 2 grounded since 2022 at Chandigarh; D-30KP → PS-90A-76 re-engine option; glass cockpit, indigenous comms; core fleet of ~10 to the 2040s."
-    }
-  ],
-  "seo": {
-    "title": "Ilyushin Il-76MD 'Gajraj' — Platform · India Military Aerospace Atlas | Techadyant",
-    "meta_description": "The IAF's Russian-origin Il-76MD 'Gajraj' heavy-lifter (~17 from 1985–89) is also the base airframe for the Il-78MKI tankers and A-50EI Phalcon AWACS; PS-90 re-engine studied toward the 2040s.",
-    "canonical_path": "/research/military-aerospace/platform/il76/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Article",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/military-aerospace/platform/",
-    "submit_correction": "/research/military-aerospace/submit-correction/",
-    "related_research": [
-      "/research/military-aerospace/platform/"
-    ]
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Ilyushin Il-76MD is listed in this atlas as a strategic tactical transport heavy (in_service). The atlas legacy record attributes it to Ilyushin Aviation Complex (Russia; originally Soviet Union). L1 (engine depot MRO). L0 for everything else.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Ilyushin Aviation Complex (Russia; originally Soviet Union)",
+   "path": "/research/military-aerospace/company/ilyushin/"
+  },
+  "dependency_profile": {
+   "Localization depth (max)": "L1",
+   "Production status": "in_service"
+  },
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "Why does Ilyushin Il-76MD appear in the Military Aerospace Atlas?",
+   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a strategic tactical transport heavy relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
+ ],
+ "sources": [
+  {
+   "publisher": "www.livefistdefence.com",
+   "title": "What about the transports?",
+   "url": "https://www.livefistdefence.com/what-about-transports/",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "www.iiss.org",
+   "title": "The Military Balance 2024",
+   "url": "https://www.iiss.org/publications/the-military-balance/2024/the-military-balance-2024/",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "perm-motors.ru",
+   "title": "D-30 (Perm Motors official product page)",
+   "url": "https://perm-motors.ru/en/production/d-30/",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Ilyushin Il-76MD - Military Aerospace Atlas - Techadyant Labs",
+  "description": "Ilyushin Il-76MD is listed in this atlas as a strategic tactical transport heavy (in_service).",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

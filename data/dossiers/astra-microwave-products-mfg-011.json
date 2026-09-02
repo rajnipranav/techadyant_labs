@@ -1,330 +1,106 @@
 {
-  "entity_id": "mfg-011",
-  "entity_type": "manufacturer",
-  "tier": "A",
-  "noindex": false,
-  "slug": "astra-microwave-products-mfg-011",
-  "name": "Astra Microwave Products Limited (AMPL)",
-  "variant": "Foreign OEM with India footprint",
-  "vertical": "counter-uas",
-  "parent_hub_path": "/research/counter-uas/manufacturer/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Hyderabad-listed RF/microwave subsystems champion (BSE:532493, NSE:ASTRAMICRO); record ₹4,300 cr order book Aug 2026; ₹2,205 cr HAL Uttam AESA contract Jul 2026; operational Drishti C-UAS product.",
-    "chips": [
-      "Listed",
-      "BSE/NSE",
-      "RF/microwave",
-      "Uttam AESA",
-      "Drishti C-UAS",
-      "Rafael Comsys JV"
-    ],
-    "maker": "Private listed (BSE: 532493, NSE: ASTRAMICRO; founded 1991)",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Foreign OEM — India footprint via JVs, ToT, and direct sales",
-    "mobility_or_class": "Defence OEM (no platform class)",
-    "operational_domains": [
-      "land",
-      "naval",
-      "air"
-    ]
-  },
-  "at_a_glance": {
-    "Legal_name": "Astra Microwave Products Limited (AMPL)",
-    "Ownership": "Private listed (BSE: 532493, NSE: ASTRAMICRO; founded 1991)",
-    "HQ": "ASTRA Towers, Survey No. 12(P), Kothaguda Post, Kondapur, HITEC City, Hyderabad, Telangana — 500084",
-    "Order_book": "Not separately disclosed for India",
-    "Revenue_FY26": "Not separately disclosed for India",
-    "Stock_listings": "BSE: 532493, NSE: ASTRAMICRO",
-    "FY26_consolidated_revenue": "₹1,163 crore (+11% YoY)",
-    "Order_book_Aug_2026": "₹4,300 crore (record, post-Uttam HAL contract)",
-    "FY26_inflows": "₹1,660 crore (+29% YoY)",
-    "FY27_guidance": "~₹1,350 crore revenue (15% growth target)",
-    "Major_contracts": "₹2,205 cr HAL Uttam AESA (Jul 2026); ₹255.88 cr MoD via Rafael Comsys JV (Dec 2024)",
-    "C_UAS_product": "Drishti Counter UAV Radar (4 km, 100+ tracks) + C-UAS System (launched Aero India 2023)",
-    "DRDO_ToT": "Counter-Drone System ToT April 2022 (one of 4 vendors)",
-    "JV_partner": "Rafael Comsys Private Limited",
-    "Space_arm": "Demerger announced (timeline TBD)"
-  },
-  "what_it_is": {
-    "prose": "Astra Microwave Products Limited (AMPL) is a Hyderabad-based, BSE/NSE-listed (532493 / ASTRAMICRO) RF and microwave subsystems champion founded in 1991. The company is a critical supplier to India's defence electronics ecosystem, providing RF/microwave components, subsystems, and radars for the Akash SAM, BrahMos, Tejas, and naval programmes. Astra's flagship recent contract is the ₹2,205.23 crore HAL order signed on 30 July 2026 for the Uttam AESA radar programme — 122 Active Antenna Array Units and 121 Interface Frames for the Tejas Mk-1A/Mk-2. This contract drove Astra's order book to a record ₹4,300 crore as of August 2026 (up from ₹1,916 crore standalone / ₹2,209 crore consolidated at end-Q2 FY26). FY26 consolidated revenue was ₹1,163 crore (+11% YoY), with FY26 inflows of ₹1,660 crore (+29% YoY). Management is targeting 15% FY27 revenue growth to approximately ₹1,350 crore, with a 6-7x long-term revenue opportunity cited. In counter-UAS, Astra launched the 'Drishti Counter UAV Radar' (4 km range for 0.001 sq m targets, 100+ simultaneous drone tracks) at Aero India 2023 in February 2023, alongside a complete C-UAS System combining active radar, passive RF sensors, and multi-band jamming. Astra was one of four vendors (alongside L&T, Adani Defence, and ECIL) to receive DRDO's Counter-Drone System Transfer of Technology in April 2022. Astra also operates a joint venture with Rafael Comsys Private Limited, which received a ₹255.88 crore MoD order on 13 December 2024. Astra has announced a space arm demerger (timeline TBD).",
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3",
-      "src-4",
-      "src-5",
-      "src-6",
-      "src-7"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "Astra Microwave's FY26 was marked by the record ₹2,205 crore HAL Uttam AESA contract (30 July 2026) for the Tejas Mk-1A/Mk-2 programme, driving the order book to a record ₹4,300 crore by August 2026. FY26 consolidated revenue was ₹1,163 crore (+11% YoY), with FY26 inflows of ₹1,660 crore (+29% YoY). In counter-UAS, Astra launched the Drishti Counter UAV Radar at Aero India 2023 and received DRDO Counter-Drone System ToT in April 2022. Astra's JV with Rafael Comsys received a ₹255.88 crore MoD order on 13 December 2024.",
-    "rows": [
-      {
-        "agency": "Hindustan Aeronautics Limited",
-        "context": "₹2,205.23 cr Uttam AESA contract (122 AAAU + 121 Interface Frames)",
-        "year": 2026,
-        "quantity_or_note": "30 July 2026 — for Tejas Mk-1A/Mk-2 programme",
-        "sources": [
-          "src-2"
-        ]
-      },
-      {
-        "agency": "DRDO",
-        "context": "Counter-Drone System ToT",
-        "year": 2022,
-        "quantity_or_note": "April 2022 — one of 4 vendors",
-        "sources": [
-          "src-7"
-        ]
-      },
-      {
-        "agency": "MoD (via Rafael Comsys JV)",
-        "context": "₹255.88 cr MoD order",
-        "year": 2024,
-        "quantity_or_note": "13 December 2024",
-        "sources": []
-      }
-    ],
-    "open_questions": [
-      "Drishti C-UAS-specific revenue/order book not separately disclosed",
-      "Space arm demerger announced — timeline TBD",
-      "Atlas slug 'astra-counter-drone-system-cus-011' should ideally be renamed to 'Drishti C-UAS (Astra Microwave)' to match OEM branding"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "Foreign OEM — not applicable (Indian import dependencies documented in respective system dossiers).",
-    "items": []
-  },
-  "intelligence_assessment": {
-    "methodology_path": "/research/methodology",
-    "dimensions": [
-      {
-        "id": "design",
-        "label": "Design ownership",
-        "value": 4,
-        "note": "Drishti C-UAS indigenous design; Uttam AAAU under DRDO design + Astra subsystems",
-        "sources": [
-          "src-6"
-        ]
-      },
-      {
-        "id": "production",
-        "label": "Production ownership",
-        "value": 5,
-        "note": "Hyderabad facility (ASTRA Towers, HITEC City); listed Indian OEM",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "id": "critical_components",
-        "label": "Critical component sovereignty",
-        "value": 2,
-        "note": "GaN RF substrates (USA), FPGA (USA) imported",
-        "sources": []
-      },
-      {
-        "id": "scale",
-        "label": "Scale / order book",
-        "value": 5,
-        "note": "₹4,300 cr record order book Aug 2026; FY26 revenue ₹1,163 cr",
-        "sources": [
-          "src-4"
-        ]
-      },
-      {
-        "id": "export_potential",
-        "label": "Export potential",
-        "value": 3,
-        "note": "Rafael Comsys JV for export; subsystems supplied to global OEMs",
-        "sources": []
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "related_pillars": [
-      "/research/pillars/defence/"
-    ],
-    "referenced_by": [
-      "astra-counter-drone-system-cus-011"
-    ]
-  },
-  "faq": [
-    {
-      "question": "What is Astra Microwave's role in the Tejas programme?",
-      "answer": "Astra Microwave is a critical supplier to the HAL Tejas programme. On 30 July 2026, Astra signed a ₹2,205.23 crore contract with HAL for 122 Active Antenna Array Units and 121 Interface Frames for the indigenous Uttam AESA radar — the primary radar for the Tejas Mk-1A and Mk-2. This contract drove Astra's order book to a record ₹4,300 crore by August 2026. The Uttam AESA radar is DRDO-designed, with Astra supplying the active antenna array sub-assemblies.",
-      "sources": [
-        "src-2"
-      ]
-    },
-    {
-      "question": "Does Astra Microwave make counter-drone systems?",
-      "answer": "Yes. Astra launched the 'Drishti Counter UAV Radar' (4 km range for 0.001 sq m targets, 100+ simultaneous drone tracks) at Aero India 2023 in February 2023, alongside a complete C-UAS System combining active radar, passive RF sensors, and multi-band jamming. Astra was one of four vendors (alongside L&T, Adani Defence, and ECIL) to receive DRDO's Counter-Drone System Transfer of Technology in April 2022. The Drishti C-UAS is a modest part of Astra's overall business; the company is primarily an RF/microwave subsystems supplier.",
-      "sources": [
-        "src-6",
-        "src-7"
-      ]
-    },
-    {
-      "question": "What is Astra Microwave's financial performance?",
-      "answer": "FY26 consolidated revenue was ₹1,163 crore (+11% YoY), with Q4 FY26 PAT of ₹106 crore (+44% YoY). FY26 inflows were ₹1,660 crore (+29% YoY). The order book reached a record ₹4,300 crore by August 2026, driven by the ₹2,205 crore HAL Uttam AESA contract signed in July 2026. Management is targeting 15% FY27 revenue growth to approximately ₹1,350 crore, with a 6-7x long-term revenue opportunity cited. Astra has announced a space arm demerger (timeline TBD).",
-      "sources": [
-        "src-3",
-        "src-4",
-        "src-5"
-      ]
-    }
+ "entity_id": "atl-mfg-astra-microwave-products-mfg-011",
+ "entity_type": "manufacturer",
+ "tier": "A",
+ "noindex": false,
+ "slug": "astra-microwave-products-mfg-011",
+ "name": "Astra Microwave Products",
+ "vertical": "counter-uas",
+ "parent_hub_path": "/research/counter-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Astra Microwave Products",
+  "role": "Tier 2 - Component-level Indigenous",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/counter-uas/manufacturer/astra-microwave-products-mfg-011/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Hyderabad, Telangana"
+   }
   ],
-  "timeline": [
-    {
-      "date": "1991",
-      "event": "Astra Microwave Products Limited founded in Hyderabad",
-      "sources": [
-        "src-1"
-      ]
-    },
-    {
-      "date": "2022-04",
-      "event": "DRDO Counter-Drone System ToT received (one of 4 vendors)",
-      "sources": [
-        "src-7"
-      ]
-    },
-    {
-      "date": "2023-02",
-      "event": "Drishti Counter UAV Radar launched at Aero India 2023",
-      "sources": [
-        "src-6"
-      ]
-    },
-    {
-      "date": "2024-12-13",
-      "event": "₹255.88 cr MoD order via Rafael Comsys JV",
-      "sources": []
-    },
-    {
-      "date": "2026-05-26",
-      "event": "Q4 FY26 PAT ₹106 cr (+44% YoY); ₹2.4/share dividend announced",
-      "sources": [
-        "src-5"
-      ]
-    },
-    {
-      "date": "2026-07-30",
-      "event": "₹2,205.23 cr HAL Uttam AESA contract signed",
-      "sources": [
-        "src-2"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "event": "Q1 FY26 order book hits record ₹4,300 crore post-Uttam",
-      "sources": [
-        "src-4"
-      ]
-    }
-  ],
-  "open_questions": [
-    "Drishti C-UAS-specific revenue/order book not separately disclosed",
-    "Space arm demerger announced — timeline TBD",
-    "Atlas slug 'astra-counter-drone-system-cus-011' should ideally be renamed to 'Drishti C-UAS (Astra Microwave)' to match OEM branding"
-  ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Astra Microwave Products Ltd.",
-      "publisher": "Astra Microwave (official)",
-      "url": "https://astramwp.com",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "OEM product page — domain root only"
-    },
-    {
-      "id": "src-2",
-      "title": "Astra Microwave bags ₹2205 crore HAL order for Uttam radar programme",
-      "publisher": "CNBC TV18",
-      "url": "https://www.cnbctv18.com/market/stocks/astra-microwave-bags-rs-2205-crore-hal-order-for-uttam-radar-programme-19958145.htm",
-      "published_date": "2026-07-30",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "₹2,205 cr Uttam HAL order"
-    },
-    {
-      "id": "src-3",
-      "title": "Astra Microwave Products (532493) Investor Relations",
-      "publisher": "Quartr",
-      "url": "https://quartr.com/companies/astra-microwave-products-limited_18827",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "FY26 consolidated revenue ₹1,163 cr +11% YoY"
-    },
-    {
-      "id": "src-4",
-      "title": "Earnings call transcript: Astra Microwave Q1 2026 order book hits record",
-      "publisher": "Investing.com",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-astra-microwave-q1-2026-order-book-hits-record-93CH-4850787",
-      "published_date": "2026-08-11",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "₹4,300 cr record order book post-Uttam"
-    },
-    {
-      "id": "src-5",
-      "title": "Astra Microwave Q4 Results: Profit jumps 44% YoY to Rs 106 crore",
-      "publisher": "Economic Times",
-      "url": "https://m.economictimes.com/markets/stocks/earnings/astra-microwave-q4-results-cons-pat-jumps-44-to-rs-106-crore-co-announces-rs-2-4/share-dividend/articleshow/131323738.cms",
-      "published_date": "2026-05-26",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Q4 FY26 PAT ₹106 cr"
-    },
-    {
-      "id": "src-6",
-      "title": "Perimeter Intrusion Detection Radar (Drishti C-UAS)",
-      "publisher": "Astra Microwave (official)",
-      "url": "https://astramwp.com/perimeter-intrusion-detection-radar",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Drishti Counter UAV Radar + C-UAS System product page"
-    },
-    {
-      "id": "src-7",
-      "title": "DRDO's Counter Drone System ToT Documents Handed Over to Indian Industry",
-      "publisher": "Raksha Anirveda",
-      "url": "https://raksha-anirveda.com/drdos-counter-drone-system-tot-documents-handed-over-to-indian-industry-including-lt-astra-microwave-adani-defence-ecil/",
-      "published_date": "2022-04-08",
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "ToT context — Astra one of 4 vendors"
-    }
-  ],
-  "seo": {
-    "title": "Astra Microwave Products Limited (AMPL) — Manufacturer · India Counter-UAS Atlas | Techadyant",
-    "meta_description": "Hyderabad-listed RF/microwave subsystems champion (BSE:532493, NSE:ASTRAMICRO); record ₹4,300 cr order book Aug 2026; ₹2,205 cr HAL Uttam AESA contract Jul 2026",
-    "canonical_path": "/research/counter-uas/manufacturer/astra-microwave-products-mfg-011/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Organization",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/counter-uas/manufacturer/",
-    "submit_correction": "/research/counter-uas/submit-correction/",
-    "related_research": [
-      "/research/pillars/defence/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Astra Microwave Products Limited is a Hyderabad-headquartered, listed Indian RF and microwave subsystems manufacturer serving defence and space programmes. Its product set spans radar subsystems, electronic-warfare modules and counter-UAS elements such as perimeter intrusion detection radar, delivered both directly and through joint ventures. The company is a significant supplier into Indian radar programmes including DRDO's radar ecosystem.",
+ "india_angle": "Astra Microwave has an active India order book: a JV with Rafael Comsys bagged a reported Rs 255.88 crore MoD order in December 2024, and in 2026 the company reported a Rs 2,205 crore order from HAL for the Uttam AESA radar programme supplying equipment for Tejas Mk-2. Its counter-drone product page markets perimeter intrusion detection radar for Indian users.",
+ "intelligence_assessment": "Order-flow reporting from exchanges and business media makes Astra Microwave one of the better-documented Indian C-UAS/radar subsystem suppliers, but JV-level C-UAS deliveries and end-customer attribution are less transparent. Watch HAL Uttam execution and any dedicated counter-UAS radar tenders as revenue-confirming signals.",
+ "graph": {
+  "parent_hub": "/research/counter-uas/"
+ },
+ "faq": [
+  {
+   "q": "What does Astra Microwave Products make?",
+   "a": "RF and microwave subsystems for defence radar, electronic warfare and space, plus counter-UAS elements such as perimeter intrusion detection radar."
+  },
+  {
+   "q": "What recent orders has Astra Microwave won?",
+   "a": "Business media reported a JV order of about Rs 255.88 crore from MoD in December 2024 and a Rs 2,205 crore order from HAL in 2026 tied to the Uttam AESA radar programme."
+  },
+  {
+   "q": "Is Astra Microwave listed?",
+   "a": "Yes - Astra Microwave Products Limited trades on Indian exchanges (NSE/BSE)."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "astramwp.com",
+   "title": "Perimeter Intrusion Detection Radar - Astra Microwave",
+   "url": "https://astramwp.com/perimeter-intrusion-detection-radar",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "cnbctv18.com",
+   "title": "Astra Microwave bags Rs 2205 crore HAL order for Uttam radar programme",
+   "url": "https://www.cnbctv18.com/market/stocks/astra-microwave-bags-rs-2205-crore-hal-order-for-uttam-radar-programme-19958145.htm",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "astramwp.com",
+   "title": "Astra Microwave Products Ltd - corporate site",
+   "url": "https://astramwp.com",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "facebook.com",
+   "title": "Astra Microwave Products JV wins Rs 286 crore defence order (CNBC-TV18 repost)",
+   "url": "https://www.facebook.com/cnbctv18india/posts/astramicrowave-products-jv-wins-286-crore-defence-order-for-iaf-special-for",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Astra Microwave Products - Counter-UAS Atlas - Techadyant Labs",
+  "description": "Astra Microwave Products Limited is a Hyderabad-headquartered, listed Indian RF and microwave subsystems manufacturer serving defence and space programmes.",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 4,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

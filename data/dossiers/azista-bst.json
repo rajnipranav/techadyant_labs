@@ -1,74 +1,91 @@
 {
-  "entity_id": "azista-bst",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "azista-bst",
+ "entity_id": "atl-cmp-azista-bst",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "azista-bst",
+ "name": "Azista BST",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Azista BST",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Azista BST dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Azista BST",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Azista BST",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Azista BST space evidence pending verification.",
-    "sources": [
-      "src-az-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-az-1",
-      "title": "Azista BST website",
-      "publisher": "Azista BST",
-      "url": "https://azista.com/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
+  "role": "OEM / Satellite",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/azista-bst/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Hyderabad"
+   }
   ],
-  "seo": {
-    "title": "Azista BST — Company · India Space Atlas | Techadyant",
-    "meta_description": "Azista BST company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/azista-bst/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Azista BST Aerospace is a Bengaluru-based satellite manufacturer formed from the TATA-linked Azista ecosystem, operating a mass-production satellite integration facility and rolling out its first satellite from the factory in 2023. It markets satellite manufacturing, integration and mission-support services for institutional and commercial customers.",
+ "india_angle": "Azista BST's factory-scale approach (reported ~50,000 sq ft facility) directly targets India's coming private-constellation demand, and its 2023 maiden-satellite rollout was covered by SpaceNews as a marker of Indian satellite industrialisation.",
+ "intelligence_assessment": "Facility-scale and maiden-satellite milestones are verifiable; customer pipeline and constellation contracts are not yet public. Watch IN-SPACe authorisation listings and launch manifests for Azista BST buses.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What is Azista BST Aerospace?",
+   "a": "A Bengaluru satellite manufacturer with a mass-production integration facility that rolled out its first satellite in 2023."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "azistabst.com",
+   "title": "Azista BST Aerospace - satellite manufacturing",
+   "url": "https://www.azistabst.com",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "spacenews.com",
+   "title": "Azista BST Aerospace rolls out maiden satellite from its mass manufacturing factory",
+   "url": "https://spacenews.com/azista-bst-aerospace-rolls-out-maiden-satellite-from-its-mass-manufacturing-factory",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "linkedin.com",
+   "title": "Azista Space - company page",
+   "url": "https://in.linkedin.com/company/azista-space",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Azista BST - Space Atlas - Techadyant Labs",
+  "description": "Azista BST Aerospace is a Bengaluru-based satellite manufacturer formed from the TATA-linked Azista ecosystem, operating a mass-production satellite integrati",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

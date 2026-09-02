@@ -1,0 +1,96 @@
+{
+ "entity_id": "atl-plat-drdo-netra-original-v1-drn-0049",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "drdo-netra-original-v1-drn-0049",
+ "name": "DRDO NETRA (original v1)",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "DRDO NETRA (original v1)",
+  "role": "Quadcopter",
+  "country": "India",
+  "status_line": "In Service",
+  "subtitle": "v1",
+  "entity_path": "/research/drones-uas/platform/drdo-netra-original-v1-drn-0049/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "DRDO — Aeronautical Development Establishment (ADE)"
+   },
+   {
+    "label": "Primary operator",
+    "value": "National Disaster Response Force (NDRF)"
+   },
+   {
+    "label": "Mission roles",
+    "value": "Disaster ISR"
+   }
+  ],
+  "key_specs": [
+   "2 kg MTOW",
+   "0.3 kg payload",
+   "0.5 hr endurance",
+   "5 km range",
+   "2,000 m ceiling",
+   "50 km/h",
+   "4× electric motors"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "30",
+    "Indigenous content": "100%"
+   }
+  }
+ },
+ "what_it_is": "DRDO NETRA (original v1) is listed in this atlas as a quadcopter (India). The atlas legacy record attributes it to DRDO — Aeronautical Development Establishment (ADE), with National Disaster Response Force (NDRF) named as primary operator. Original DRDO-developed NETRA (predates ideaForge NETRA v2). Used by NDRF since 2013 Uttarakhand floods.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "DRDO — Aeronautical Development Establishment (ADE)",
+   "path": "/research/drones-uas/company/drdo-aeronautical-development-establishment-ade-mfr-007/"
+  },
+  "operator": "National Disaster Response Force (NDRF)",
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does DRDO NETRA (original v1) appear in the India UAS Atlas?",
+   "a": "It is part of the atlas's coverage of drones uas; the hub lists it as a Quadcopter relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "DRDO NETRA (original v1) - India UAS Atlas - Techadyant Labs",
+  "description": "DRDO NETRA (original v1) is listed in this atlas as a quadcopter (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

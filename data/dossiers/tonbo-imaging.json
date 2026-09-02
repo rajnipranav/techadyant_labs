@@ -1,74 +1,106 @@
 {
-  "entity_id": "tonbo-imaging",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "tonbo-imaging",
+ "entity_id": "atl-cmp-tonbo-imaging",
+ "entity_type": "company",
+ "tier": "A",
+ "noindex": false,
+ "slug": "tonbo-imaging",
+ "name": "Tonbo Imaging",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Tonbo Imaging",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Tonbo Imaging dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Tonbo Imaging",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Tonbo Imaging",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Tonbo Imaging builds EO imaging systems with possible space applications; India evidence pending.",
-    "sources": [
-      "src-ton-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-ton-1",
-      "title": "Tonbo Imaging website",
-      "publisher": "Tonbo Imaging",
-      "url": "https://tonboimaging.com/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
+  "role": "Imaging / Sensors",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/tonbo-imaging/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Bengaluru"
+   }
   ],
-  "seo": {
-    "title": "Tonbo Imaging — Company · India Space Atlas | Techadyant",
-    "meta_description": "Tonbo Imaging company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/tonbo-imaging/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Tonbo Imaging is a Bengaluru-based defence-electro-optics company building thermal imaging and EO/IR systems for land, air and naval platforms - from weapon sights and driver vision enhancers to missile-seeker-class infrared engines and counter-UAS sensing. The company operates as a full-stack OEM of imaging sensors and fuzing, with exports to multiple allied militaries alongside its Indian base.",
+ "india_angle": "Tonbo is among India's most capitalised private defence-tech firms: it reported a pre-IPO round of about Rs 1.75 billion (~$20M) in 2025 and has public IPO plans on Indian exchanges. Its sensors are widely referenced on Indian Armoured Corps and infantry modernisation programmes, giving it one of the strongest verified India footprints in the atlas's EO/IR segment.",
+ "intelligence_assessment": "Tonbo's funding trail and IPO filings give unusually verifiable corporate evidence; specific Indian order quantities and platform-level integrations are less public. Watch the DRDO/armed-force supply announcements and the IPO prospectus for audited order-book detail - the single best forthcoming source on its India portfolio.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What does Tonbo Imaging build?",
+   "a": "Thermal-imaging and EO/IR systems - weapon sights, vision enhancers, seeker-class infrared engines - for land, air and naval platforms."
+  },
+  {
+   "q": "Is Tonbo Imaging going public?",
+   "a": "It has publicly signalled an Indian IPO; a pre-IPO round of about $20M was reported in April 2025."
+  },
+  {
+   "q": "Where is Tonbo based?",
+   "a": "Bengaluru, India, with international subsidiaries serving export customers."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "tonboimaging.com",
+   "title": "Tonbo Imaging - about us / defence EO systems (vendor)",
+   "url": "https://tonboimaging.com/defense",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "evertiq.com",
+   "title": "Indian defence tech startup Tonbo raises $20 million (Series D pre-IPO)",
+   "url": "https://evertiq.com/news/2025-04-04-indian-defence-tech-startup-tonbo-raises-205-million",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "angelone.in",
+   "title": "Tonbo Imaging India Limited IPO - profile",
+   "url": "https://www.angelone.in/ipo/tonbo-imaging-india-limited-ipo",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "startupintros.com",
+   "title": "Tonbo Imaging: funding and team profile",
+   "url": "https://startupintros.com/orgs/tonbo-imaging",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Tonbo Imaging - Space Atlas - Techadyant Labs",
+  "description": "Tonbo Imaging is a Bengaluru-based defence-electro-optics company building thermal imaging and EO/IR systems for land, air and naval platforms - from weapon s",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 4,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

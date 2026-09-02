@@ -1,0 +1,106 @@
+{
+ "entity_id": "atl-plat-ideaforge-switch-v2-drn-0142",
+ "entity_type": "platform",
+ "tier": "B",
+ "noindex": false,
+ "slug": "ideaforge-switch-v2-drn-0142",
+ "name": "ideaForge SWITCH V2",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "ideaForge SWITCH V2",
+  "role": "Hybrid VTOL",
+  "country": "India",
+  "status_line": "In Service",
+  "subtitle": "V2",
+  "entity_path": "/research/drones-uas/platform/ideaforge-switch-v2-drn-0142/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "ideaForge Technology Ltd"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Army — Aviation Corps"
+   },
+   {
+    "label": "Mission roles",
+    "value": "ISR, tactical reconnaissance, mapping"
+   }
+  ],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "Indigenous content": "90%"
+   }
+  }
+ },
+ "what_it_is": "The SWITCH V2 is ideaForge's next-generation fixed-wing hybrid-VTOL tactical ISR UAV, succeeding the SWITCH that won the Indian Army's largest mini-UAV contract. V2 upgrades target longer endurance, higher payload and simplified field operation for infantry units.",
+ "india_angle": "ideaForge is the dominant Indian tactical-drone supplier to the Army; business media in 2025 reported ~$20M (about Rs 137 crore) emergency-procurement orders for high-altitude SWITCH variants, and later reports referenced SWITCH V2 alongside the ZOLT in Indian Army orders.",
+ "intelligence_assessment": "Order-level reporting comes from business press and the company; unit counts for V2 specifically are not public. Watch ideaForge's quarterly disclosures - as a listed company its order book is auditable - for V2 adoption evidence.",
+ "graph": {
+  "maker": {
+   "name": "ideaForge Technology Ltd",
+   "path": "/research/drones-uas/company/ideaforge-technology-ltd-mfr-014/"
+  },
+  "operator": "Indian Army — Aviation Corps",
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Is the SWITCH V2 in Indian Army service?",
+   "a": "ideaForge's SWITCH family is in Army service; V2-specific orders were referenced in 2025-26 reporting, with quantities undisclosed."
+  }
+ ],
+ "open_questions": [
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "ideaforgetech.com",
+   "title": "The SWITCH UAVs - milestone and future (ideaForge)",
+   "url": "https://ideaforgetech.com/blogs/the-switch-uavs",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "suasnews.com",
+   "title": "ideaForge secures ~Rs 137 crore emergency procurement order from Indian Army",
+   "url": "https://www.suasnews.com/2025/06/ideaforge-secures-%E2%82%B9137-crore-emergency-procurement-order-from-indian-army",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "militaryembedded.com",
+   "title": "SWITCH UAV designed for ISR missions procured by Indian Army",
+   "url": "https://militaryembedded.com/unmanned/isr/switch-uav-designed-for-isr-missions-procured-by-indian-army",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "ideaForge SWITCH V2 - India UAS Atlas - Techadyant Labs",
+  "description": "The SWITCH V2 is ideaForge's next-generation fixed-wing hybrid-VTOL tactical ISR UAV, succeeding the SWITCH that won the Indian Army's largest mini-UAV contra",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

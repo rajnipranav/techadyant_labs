@@ -1,74 +1,91 @@
 {
-  "entity_id": "inorbit-space",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "inorbit-space",
-  "name": "InOrbit Space",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "InOrbit Space dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "InOrbit Space",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "InOrbit Space",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "InOrbit Space evidence pending verification.",
-    "sources": [
-      "src-inorb-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-inorb-1",
-      "title": "InOrbit Space website",
-      "publisher": "InOrbit Space",
-      "url": "https://inorbit.space/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
+ "entity_id": "atl-cmp-inorbit-space",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "inorbit-space",
+ "name": "Inorbit Space Telecommunications",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Inorbit Space Telecommunications",
+  "role": "Satellite capacity / Telecom",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/inorbit-space/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "New Delhi"
+   }
   ],
-  "seo": {
-    "title": "InOrbit Space — Company · India Space Atlas | Techadyant",
-    "meta_description": "InOrbit Space company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/inorbit-space/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Inorbit Space Telecommunications Private Limited is a New Delhi company authorised to provide foreign satellite capacity over India - public IN-SPACE authorisation listings show it enabling provisioning of AsiaSat's AS-7 satellite capacity over India, with authorisation running into 2026.",
+ "india_angle": "Inorbit sits in the sensitive satcom-authorisation layer of Indian space policy: public IN-SPACe records and 2025 reporting on the withdrawal of AsiaSat authorisations make it a concrete example of how India regulates foreign-capacity resellers.",
+ "intelligence_assessment": "The IN-SPACe authorisation registry gives this entity unusually official evidence. Its commercial scale is not public; watch authorisation renewals and satcom policy reforms as the key events.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What does Inorbit Space do?",
+   "a": "It is authorised to provision foreign satellite (AsiaSat AS-7) capacity over India under IN-SPACe authorisation."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "inspace.gov.in",
+   "title": "INSPACE Authorizations - Inorbit Space Telecommunications (AS-7 capacity)",
+   "url": "https://www.inspace.gov.in/inspace?id=inspace_authorizations",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "medianama.com",
+   "title": "IN-SPACe withdraws authorisation for AsiaSat satellites",
+   "url": "https://www.medianama.com/2025/08/223-in-space-revokes-asiasat-authorisation-india",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "inspace.service-now.com",
+   "title": "INSPACE Authorizations portal - Inorbit Space Telecommunications",
+   "url": "https://inspace.service-now.com/inspace?id=inspace_authorizations",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Inorbit Space Telecommunications - Space Atlas - Techadyant Labs",
+  "description": "Inorbit Space Telecommunications Private Limited is a New Delhi company authorised to provide foreign satellite capacity over India - public IN-SPACE authoris",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

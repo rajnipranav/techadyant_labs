@@ -1,322 +1,120 @@
 {
-  "entity_id": "c130j",
-  "entity_type": "platform",
-  "tier": "A",
-  "noindex": false,
-  "slug": "c130j",
-  "name": "Lockheed Martin C-130J-30 Super Hercules",
-  "variant": "C-130J-30 (stretched)",
-  "vertical": "military-aerospace",
-  "parent_hub_path": "/research/military-aerospace/platform/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "The IAF operates 12 C-130J-30 Super Hercules special-operations/tactical airlifters; India's Tata-Lockheed Martin JV (TLMAL) in Hyderabad is the single global source of C-130J empennages, and the C-130J-30 is a Tata-partnered contender in the IAF's Medium Transport Aircraft (MTA) tender.",
-    "chips": [
-      "A",
-      "Transport",
-      "Special operations",
-      "Lockheed Martin",
-      "TLMAL Hyderabad",
-      "MTA contender"
-    ],
-    "maker": "Lockheed Martin (USA); Tata Lockheed Martin Aerostructures Ltd (TLMAL) — empennage",
-    "country": "USA",
-    "indigenous_pct": null,
-    "indigenous_label": "US-origin platform; India supplies empennages globally and provides sustainment",
-    "mobility_or_class": "Four-engine turboprop tactical/SOF airlifter (~19 t payload)",
-    "operational_domains": [
-      "air",
-      "land"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Lockheed Martin (Marietta, Georgia, USA)",
-    "Indian_partner": "Tata Lockheed Martin Aerostructures Ltd (TLMAL), Hyderabad",
-    "Fleet": "12 C-130J-30 with the Indian Air Force (one Mk-II lost in a 2014 crash)",
-    "Original_orders": "6 (2008 FMS) + 6 (2013 follow-on)",
-    "TLMAL_role": "Single global source of C-130J empennage assemblies (250+ delivered since 2010)",
-    "Support_contract": "$328.8 million 5-year Follow-On Support II (FOS II), signed 24 August 2021",
-    "MTA_status": "C-130J-30 offered with Tata Advanced Systems for the IAF MTA programme (60–80 aircraft)",
-    "Payload": "~19 tonnes",
-    "Role": "Tactical airlift, special operations, HADR, para-drop",
-    "Engine": "Four Rolls-Royce AE 2100D3 turboprops"
-  },
-  "what_it_is": {
-    "prose": "The Lockheed Martin C-130J-30 Super Hercules is a stretched four-engine turboprop tactical airlifter operated by the Indian Air Force primarily in the special-operations and tactical-transport role. India acquired its first six aircraft via a US Foreign Military Sale in 2008 and ordered a further six in 2013; one aircraft was lost in a 2014 crash near Gwalior, leaving an operational fleet of 12. Lockheed Martin describes the IAF fleet as one of the most active C-130J fleets in the world. India's industrial footprint on the platform is significant: Tata Lockheed Martin Aerostructures Limited (TLMAL), a Tata Advanced Systems–Lockheed Martin joint venture in Hyderabad, is the single global source of C-130J empennage (tail) assemblies fitted to every new Super Hercules built at Marietta, Georgia; TLMAL has delivered more than 250 empennages since operations began in 2010. Sustainment is covered by a $328.8 million, five-year Follow-On Support II (FOS II) contract signed on 24 August 2021, covering airframe support, spares, engines, propellers and depot maintenance. In 2024 Lockheed Martin and Tata Advanced Systems signed a teaming agreement to establish a C-130J MRO facility in India and, subject to US and Indian government approvals, to expand C-130J manufacturing/assembly in India should the C-130J-30 win the IAF's Medium Transport Aircraft (MTA) programme (60–80 aircraft in the 18–30 tonne class). The aircraft itself remains a US-origin platform powered by Rolls-Royce AE 2100D3 engines; India's role is aerostructure manufacture and sustainment rather than design ownership.",
-    "sources": [
-      "src-lm-india",
-      "src-lm-tata-2024",
-      "src-lm-fosii",
-      "src-tlmal-250"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "India bought six C-130J-30 via a 2008 US FMS and six more in 2013; one was lost in 2014, leaving 12 in service. A $328.8M FOS II sustainment contract was signed in 2021. In 2024 Lockheed Martin and Tata teamed to add C-130J MRO and potential assembly in India, positioning the C-130J-30 for the IAF's MTA competition.",
-    "rows": [
-      {
-        "agency": "Indian Air Force (US FMS)",
-        "context": "Initial C-130J-30 acquisition",
-        "year": 2008,
-        "quantity_or_note": "6 aircraft ordered under US Foreign Military Sale; deliveries from 2010–11",
-        "sources": [
-          "src-lm-india"
-        ]
-      },
-      {
-        "agency": "Indian Air Force",
-        "context": "Follow-on order",
-        "year": 2013,
-        "quantity_or_note": "6 additional aircraft; one Mk-II subsequently lost in a 2014 crash (fleet now 12)",
-        "sources": [
-          "src-lm-india"
-        ]
-      },
-      {
-        "agency": "Indian Air Force / Lockheed Martin",
-        "context": "Follow-On Support II (FOS II) sustainment contract",
-        "year": 2021,
-        "quantity_or_note": "$328.8 million, 5 years, signed 24 Aug 2021 — spares, engines, propellers, depot maintenance",
-        "sources": [
-          "src-lm-fosii"
-        ]
-      },
-      {
-        "agency": "Lockheed Martin + Tata Advanced Systems",
-        "context": "Teaming agreement for MRO and potential Indian assembly",
-        "year": 2024,
-        "quantity_or_note": "India MRO facility + potential C-130J assembly for the MTA programme (subject to US/India approvals)",
-        "sources": [
-          "src-lm-tata-2024"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Outcome of the IAF MTA competition and whether the C-130J-30 secures Indian final assembly is undecided.",
-      "Timeline and location of the proposed Indian C-130J MRO facility are not finalised."
-    ]
-  },
-  "import_dependencies": {
-    "summary": "The C-130J-30 is a US-origin platform bought via Foreign Military Sales; airframe design, engines and mission systems are American/Western, while India contributes empennage manufacture (TLMAL) and in-country sustainment.",
-    "items": [
-      {
-        "component": "Airframe design & final assembly",
-        "severity": "High",
-        "note": "Lockheed Martin, Marietta, Georgia (USA) — new-build assembly remains in the US; Indian assembly only if MTA is won.",
-        "pillar_link": "/research/military-aerospace/",
-        "sources": [
-          "src-lm-tata-2024"
-        ]
-      },
-      {
-        "component": "Rolls-Royce AE 2100D3 engines",
-        "severity": "Critical",
-        "note": "Rolls-Royce (USA/UK) — imported powerplant, no Indian production.",
-        "pillar_link": "/research/military-aerospace/",
-        "sources": []
-      },
-      {
-        "component": "Mission systems, avionics & spares",
-        "severity": "High",
-        "note": "US-origin; sustained under the FOS II Foreign Military Sale support contract.",
-        "pillar_link": "/research/military-aerospace/",
-        "sources": [
-          "src-lm-fosii"
-        ]
-      },
-      {
-        "component": "Empennage (tail) assemblies",
-        "severity": "Low",
-        "note": "Made in India by TLMAL, Hyderabad — India is the single global source, an outbound (not import) dependency.",
-        "pillar_link": "/research/military-aerospace/",
-        "sources": [
-          "src-tlmal-250"
-        ]
-      }
-    ]
-  },
-  "intelligence_assessment": {
-    "methodology_path": "/research/methodology",
-    "dimensions": [
-      {
-        "id": "design",
-        "label": "Design ownership",
-        "value": 0,
-        "note": "Lockheed Martin (USA) — fully imported design; acquired via FMS.",
-        "sources": [
-          "src-lm-india"
-        ]
-      },
-      {
-        "id": "production",
-        "label": "Production ownership",
-        "value": 2,
-        "note": "Aircraft built in the US; India (TLMAL) makes empennages globally and could gain final assembly only if MTA is won.",
-        "sources": [
-          "src-tlmal-250"
-        ]
-      },
-      {
-        "id": "critical_components",
-        "label": "Critical component sovereignty",
-        "value": 1,
-        "note": "Engines, avionics and mission systems US/Western-origin; empennage aerostructure indigenised.",
-        "sources": [
-          "src-tlmal-250"
-        ]
-      },
-      {
-        "id": "scale",
-        "label": "Scale / order book",
-        "value": 3,
-        "note": "12 in service; a large MTA order (60–80) is a potential but undecided expansion.",
-        "sources": [
-          "src-lm-tata-2024"
-        ]
-      },
-      {
-        "id": "export_potential",
-        "label": "Export potential",
-        "value": 3,
-        "note": "TLMAL exports empennages worldwide; a proposed India MRO hub could serve global operators.",
-        "sources": [
-          "src-lm-tata-2024"
-        ]
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [
-      "c295",
-      "c390",
-      "an32",
-      "il76"
-    ],
-    "related_components": [],
-    "related_pillars": [
-      "/research/military-aerospace/"
-    ],
-    "referenced_by": []
-  },
-  "timeline": [
-    {
-      "date": "2008",
-      "event": "India orders first 6 C-130J-30 via US Foreign Military Sale.",
-      "sources": [
-        "src-lm-india"
-      ]
-    },
-    {
-      "date": "2013",
-      "event": "India orders 6 additional C-130J-30.",
-      "sources": [
-        "src-lm-india"
-      ]
-    },
-    {
-      "date": "2021-08-24",
-      "event": "$328.8M, 5-year Follow-On Support II sustainment contract signed.",
-      "sources": [
-        "src-lm-fosii"
-      ]
-    },
-    {
-      "date": "2024-09-10",
-      "event": "Lockheed Martin and Tata Advanced Systems team on C-130J MRO and potential Indian assembly for MTA.",
-      "sources": [
-        "src-lm-tata-2024"
-      ]
-    }
+ "entity_id": "atl-plat-c130j",
+ "entity_type": "platform",
+ "tier": "B",
+ "noindex": false,
+ "slug": "c130j",
+ "name": "Lockheed Martin C-130J Super Hercules",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Lockheed Martin C-130J Super Hercules",
+  "role": "tactical medium transport special ops",
+  "country": "in_production",
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/platform/c130j/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Lockheed Martin Aeronautics (Marietta, Georgia, USA)"
+   },
+   {
+    "label": "Role",
+    "value": "Tactical airlift, special operations (the IAF C-130J-30s are operated by No. 77 Squadron 'Veiled Vipers' for special operations roles), HADR"
+   }
   ],
-  "faq": [
-    {
-      "question": "How many C-130J does the Indian Air Force operate?",
-      "answer": "The IAF operates 12 C-130J-30 Super Hercules. India ordered six under a 2008 US Foreign Military Sale and six more in 2013; one aircraft was lost in a 2014 crash, leaving a fleet of 12 — described by Lockheed Martin as one of the most active C-130J fleets in the world.",
-      "sources": [
-        "src-lm-india",
-        "src-lm-fosii"
-      ]
-    },
-    {
-      "question": "What is India's industrial role in the C-130J?",
-      "answer": "Tata Lockheed Martin Aerostructures Limited (TLMAL), a Tata–Lockheed Martin joint venture in Hyderabad, is the single global source of C-130J empennage assemblies fitted to every new Super Hercules. TLMAL has delivered more than 250 empennages since 2010. Lockheed Martin and Tata also signed a 2024 teaming agreement to establish a C-130J MRO facility in India.",
-      "sources": [
-        "src-tlmal-250",
-        "src-lm-tata-2024"
-      ]
-    },
-    {
-      "question": "Is the C-130J a contender in India's next transport tender?",
-      "answer": "Yes. The C-130J-30, offered with Tata Advanced Systems, is a contender in the IAF's Medium Transport Aircraft (MTA) programme for 60–80 aircraft in the 18–30 tonne class, competing against the Embraer C-390 and (reportedly fading) Airbus A400M. A win could bring C-130J final assembly to India, subject to US and Indian government approvals.",
-      "sources": [
-        "src-lm-tata-2024"
-      ]
-    }
+  "key_specs": [
+   "20 t payload",
+   "4,200 km range",
+   "670 km/h cruise",
+   "33,000 ft ceiling",
+   "4 × Rolls-Royce AE 2100D3 turboprop, 4,591 shp each",
+   "Dowty R391 6-blade composite propeller"
   ],
-  "open_questions": [
-    "Outcome of the IAF MTA competition and whether the C-130J-30 secures Indian final assembly.",
-    "Timeline and location of the proposed Indian C-130J MRO facility."
-  ],
-  "sources": [
-    {
-      "id": "src-lm-india",
-      "title": "For India, From India",
-      "publisher": "Lockheed Martin",
-      "url": "https://www.lockheedmartin.com/en-us/who-we-are/international/india.html",
-      "published_date": null,
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "IAF operates 12 C-130Js; TLMAL is single global source of C-130J empennages (nearly 260 delivered); MH-60R and S-92 programmes also listed."
-    },
-    {
-      "id": "src-lm-tata-2024",
-      "title": "Lockheed Martin and Tata Advanced Systems Announce Agreement to Expand C-130J Super Hercules Opportunities in India",
-      "publisher": "Lockheed Martin",
-      "url": "https://news.lockheedmartin.com/2024-09-10-Lockheed-Martin-and-Tata-Advanced-Systems-Announce-Agreement-to-Expand-C-130J-Super-Hercules-Opportunities-in-India",
-      "published_date": "2024-09-10",
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "2024 teaming agreement: India MRO facility, potential C-130J assembly for the MTA programme (IAF seeks up to 80), TLMAL empennage role."
-    },
-    {
-      "id": "src-lm-fosii",
-      "title": "Lockheed Martin awarded 5-year contract to support Indian Air Force C-130J Super Hercules airlifter fleet",
-      "publisher": "Lockheed Martin",
-      "url": "https://news.lockheedmartin.com/lockheed-martin-awarded-5-year-contract-to-support-indian-air-force-c-130j-super-hercules-airlifter-fleet",
-      "published_date": "2021-08-24",
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "$328.8M, 5-year FOS II sustainment for the 12-aircraft fleet; depot maintenance for five aircraft from 2022."
-    },
-    {
-      "id": "src-tlmal-250",
-      "title": "C-130J Super Hercules: TLMAL Delivers 250th Made-in-India Empennage",
-      "publisher": "Defence.in (Newsd)",
-      "url": "https://defence.newsd.in/industry/c-130j-super-hercules-tlmal-delivers-250th-made-in-india-empennage",
-      "published_date": "2025-12-05",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "TLMAL Hyderabad, single global source of C-130J empennages, delivers 250th unit shipped to Marietta, Georgia."
-    }
-  ],
-  "seo": {
-    "title": "Lockheed Martin C-130J-30 Super Hercules — Platform · India Military Aerospace Atlas | Techadyant",
-    "meta_description": "The IAF operates 12 C-130J-30 Super Hercules; Tata-Lockheed Martin's TLMAL is the single global source of C-130J empennages, and the C-130J-30 is an MTA-tender contender.",
-    "canonical_path": "/research/military-aerospace/platform/c130j/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Article",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/military-aerospace/platform/",
-    "submit_correction": "/research/military-aerospace/submit-correction/",
-    "related_research": [
-      "/research/military-aerospace/platform/"
-    ]
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Lockheed Martin C-130J Super Hercules is listed in this atlas as a tactical medium transport special ops (in_production). The atlas legacy record attributes it to Lockheed Martin Aeronautics (Marietta, Georgia, USA). Indian Tier-1 manufacturing of structural sub-assemblies (empennage, centre fuselage) at TLMAL Hyderabad — L2 for those sub-assemblies. Engine, avionics, mission systems, FADEC, final assembly all imported (L0).",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Lockheed Martin Aeronautics (Marietta, Georgia, USA)",
+   "path": "/research/military-aerospace/company/lockheed/"
+  },
+  "dependency_profile": {
+   "Localization depth (max)": "L2",
+   "Production status": "in_production"
+  },
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "Why does Lockheed Martin C-130J Super Hercules appear in the Military Aerospace Atlas?",
+   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a tactical medium transport special ops relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
+ ],
+ "sources": [
+  {
+   "publisher": "www.lockheedmartin.com",
+   "title": "Lockheed Martin: For India, From India",
+   "url": "https://www.lockheedmartin.com/en-us/who-we-are/international/india.html",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "www.tata.com",
+   "title": "Disclosures, Policies, Documents and Annual Report (Tata Sons documents page listing FY 2023-24 Annual Report)",
+   "url": "https://www.tata.com/about-us/tata-sons/documents",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "news.lockheedmartin.com",
+   "title": "Indian Air Force Celebrates Induction of First C-130J Super Hercules",
+   "url": "https://news.lockheedmartin.com/2011-02-07-Indian-Air-Force-Celebrates-Induction-of-First-C-130J-Super-Hercules",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "www.iiss.org",
+   "title": "The Military Balance 2024",
+   "url": "https://www.iiss.org/publications/the-military-balance/2024/the-military-balance-2024/",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Lockheed Martin C-130J Super Hercules - Military Aerospace Atlas - Techadyant Labs",
+  "description": "Lockheed Martin C-130J Super Hercules is listed in this atlas as a tactical medium transport special ops (in_production).",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 4,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

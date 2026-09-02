@@ -1,0 +1,228 @@
+{
+ "entity_id": "atl-plat-ga-asi-mq-9b-seaguardian-drn-0004",
+ "entity_type": "platform",
+ "tier": "B",
+ "noindex": false,
+ "slug": "ga-asi-mq-9b-seaguardian-drn-0004",
+ "name": "GA-ASI MQ-9B SeaGuardian",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "GA-ASI MQ-9B SeaGuardian",
+  "role": "MALE UAV",
+  "country": "USA",
+  "status_line": "Procurement",
+  "subtitle": "Block 5",
+  "entity_path": "/research/drones-uas/platform/ga-asi-mq-9b-seaguardian-drn-0004/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "General Atomics Aeronautical Systems (GA-ASI)"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Navy"
+   },
+   {
+    "label": "Mission roles",
+    "value": "ISR, maritime patrol, ASW, ASuW, strike"
+   }
+  ],
+  "key_specs": [
+   "5,670 kg MTOW",
+   "1,746 kg payload",
+   "40 hr endurance",
+   "1,900 km range",
+   "12,192 m ceiling",
+   "389 km/h",
+   "Honeywell TPE331-10 turboprop (900 hp)"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "2",
+    "Indigenous content": "0%"
+   }
+  }
+ },
+ "what_it_is": "The MQ-9B SeaGuardian/SkyGuardian is General Atomics' next-generation maritime and land RPAS: a 40-hour-endurance, certification-oriented MALE platform with multi-mode radar, EO/IR and anti-submarine-warfare kit options. It is the export-optimised successor to the MQ-9 Reaper lineage.",
+ "india_angle": "The US State Department approved a potential ~$3.9B sale of 31 MQ-9B drones to India in February 2024 (15 SeaGuardians for the Navy, 16 SkyGuardians for Army/Air Force split), following the June 2023 announcement during Modi's state visit. This is one of the largest Indian UAS programmes on record.",
+ "import_dependencies": {
+  "note": "Component/supplier map captured from the live legacy page on 2026-09-02 (unverified lineage).",
+  "components": [
+   {
+    "component": "Honeywell TPE331-10",
+    "category": "Engine",
+    "supplier": "Honeywell Aerospace"
+   },
+   {
+    "component": "MX-20 EO/IR",
+    "category": "EO/IR Sensor",
+    "supplier": "L3Harris Wescam (USA)"
+   },
+   {
+    "component": "Raytheon SeaVue",
+    "category": "Radar",
+    "supplier": "Raytheon"
+   },
+   {
+    "component": "Ku-band SATCOM antenna",
+    "category": "Data Link",
+    "supplier": "IAI/Elta"
+   },
+   {
+    "component": "TPE331-10 (variant)",
+    "category": "Engine",
+    "supplier": "Honeywell Aerospace"
+   },
+   {
+    "component": "Wescam MX-15",
+    "category": "EO/IR Sensor",
+    "supplier": "L3Harris Wescam"
+   },
+   {
+    "component": "Wescam MX-20",
+    "category": "EO/IR Sensor",
+    "supplier": "L3Harris Wescam"
+   },
+   {
+    "component": "Raytheon SeaVue (variant)",
+    "category": "Radar",
+    "supplier": "Raytheon"
+   },
+   {
+    "component": "Ku-band SATCOM antenna (v2)",
+    "category": "Data Link",
+    "supplier": "Elta Systems"
+   }
+  ]
+ },
+ "deployments_procurement": {
+  "summary": "The legacy atlas page lists 2 procurement row(s) (total Rs 33,100 cr). These rows predate this dossier upgrade and await independent verification.",
+  "records": [
+   {
+    "row": "Indian Army — Aviation Corps · 31 units · 2023 | ₹33,000 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   },
+   {
+    "row": "Indian Navy · 2 units · 2020 | ₹100 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   }
+  ],
+  "note": "No order, quantity or value on this page is asserted as verified fact. See open_questions."
+ },
+ "intelligence_assessment": "The FMS approval is officially documented by US sources; Indian contract signature, MRO investments and GA-ASI facility commitments in India are the follow-on facts to track. Watch delivery schedules against India's indigenous MQ-9B-class ambitions (DRDO's Archer-NG).",
+ "graph": {
+  "maker": {
+   "name": "General Atomics Aeronautical Systems (GA-ASI)",
+   "path": "/research/drones-uas/company/general-atomics-aeronautical-systems-ga-asi-mfr-002/"
+  },
+  "operator": "Indian Navy",
+  "components": [
+   {
+    "component": "Honeywell TPE331-10",
+    "category": "Engine",
+    "supplier": "Honeywell Aerospace"
+   },
+   {
+    "component": "MX-20 EO/IR",
+    "category": "EO/IR Sensor",
+    "supplier": "L3Harris Wescam (USA)"
+   },
+   {
+    "component": "Raytheon SeaVue",
+    "category": "Radar",
+    "supplier": "Raytheon"
+   },
+   {
+    "component": "Ku-band SATCOM antenna",
+    "category": "Data Link",
+    "supplier": "IAI/Elta"
+   },
+   {
+    "component": "TPE331-10 (variant)",
+    "category": "Engine",
+    "supplier": "Honeywell Aerospace"
+   },
+   {
+    "component": "Wescam MX-15",
+    "category": "EO/IR Sensor",
+    "supplier": "L3Harris Wescam"
+   },
+   {
+    "component": "Wescam MX-20",
+    "category": "EO/IR Sensor",
+    "supplier": "L3Harris Wescam"
+   },
+   {
+    "component": "Raytheon SeaVue (variant)",
+    "category": "Radar",
+    "supplier": "Raytheon"
+   },
+   {
+    "component": "Ku-band SATCOM antenna (v2)",
+    "category": "Data Link",
+    "supplier": "Elta Systems"
+   }
+  ],
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "How many MQ-9B is India buying?",
+   "a": "A potential sale of 31 MQ-9B (Navy SeaGuardians plus Army/IAF SkyGuardians) was approved by the US State Department in February 2024 at an estimated ~$3.9B."
+  }
+ ],
+ "open_questions": [
+  "Verify the legacy atlas procurement row(s) against MoD/PIB/service announcements and add named sources to upgrade toward Tier B/A.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "breakingdefense.com",
+   "title": "US approves $4 billion deal to sell India 31 MQ-9B SkyGuardian drones",
+   "url": "https://breakingdefense.com/2024/02/us-approves-4-billion-deal-to-sell-india-31-maritime-mq-9b-skyguardian-drones",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "news.usni.org",
+   "title": "U.S. Approves Potential $3.9B MQ-9B UAV Sale to India",
+   "url": "https://news.usni.org/2024/02/01/u-s-approves-potential-3-9b-mq-9b-uav-sale-to-india",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "ga-asi.com",
+   "title": "MQ-9B SkyGuardian - General Atomics ASI",
+   "url": "https://www.ga-asi.com/remotely-piloted-aircraft/mq-9b-skyguardian",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "GA-ASI MQ-9B SeaGuardian - India UAS Atlas - Techadyant Labs",
+  "description": "The MQ-9B SeaGuardian/SkyGuardian is General Atomics' next-generation maritime and land RPAS: a 40-hour-endurance, certification-oriented MALE platform with m",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

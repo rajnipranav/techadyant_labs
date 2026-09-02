@@ -1,157 +1,83 @@
 {
-  "entity_id": "gaganyaan",
-  "entity_type": "platform",
-  "tier": "A",
-  "noindex": false,
-  "slug": "gaganyaan",
-  "name": "Gaganyaan Crewed Spacecraft Programme",
-  "variant": "Gaganyaan",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/entity/",
-  "last_verified": "2026-08-30",
-  "status": "Development",
-  "header": {
-    "one_liner": "Gaganyaan is India's crewed-spaceflight programme with active qualification campaigns in 2026.",
-    "chips": [
-      "A",
-      "India-relevant",
-      "Development"
-    ],
-    "maker": "Indian Space Research Organisation (ISRO)",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": [
-      "space"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Indian Space Research Organisation (ISRO)",
-    "Country": "India",
-    "Current_phase": "System qualification",
-    "Launcher": "Human-rated LVM3"
-  },
-  "what_it_is": {
-    "prose": "ISRO's 2026 test campaign shows Gaganyaan progressing through system qualification. Major crew-module qualification tests were completed in July 2026, an integrated main-parachute air-drop test was completed on 7 July, and IADT-02 in April validated parachute deceleration using an IAF Chinook and Navy recovery. ISRO identifies the human-rated LVM3/HRLV as the launcher path. The dossier therefore records the programme as Development rather than claiming an operational crewed flight.",
-    "sources": [
-      "src-7",
-      "src-8",
-      "src-9",
-      "src-3"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-7",
-      "title": "Major qualification tests of Gaganyaan Crew Module systems",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/Tests_Crew_Module_systems_of_Gaganyaan_Mission.html",
-      "published_date": "2026-07-12",
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "Three major crew-module qualification tests completed."
-    },
-    {
-      "id": "src-8",
-      "title": "Integrated Main Parachute Air Drop Test for Gaganyaan",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/Integrated_Main_Parachute_Air_Drop_Test.html",
-      "published_date": "2026-07-08",
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "Critical integrated parachute test for G1."
-    },
-    {
-      "id": "src-9",
-      "title": "Second Integrated Air Drop Test for Gaganyaan",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/ISRO_conducts_Second_Integrated_Air_Drop_Test_for_Gaganyaan.html",
-      "published_date": "2026-04-10",
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "IADT-02 completed with IAF Chinook and Navy recovery."
-    },
-    {
-      "id": "src-3",
-      "title": "Launchers",
-      "publisher": "ISRO",
-      "url": "https://www.isro.gov.in/ISRO_EN/Launchers.html",
-      "published_date": null,
-      "trust_tier": "official",
-      "accessed": "2026-08-30",
-      "note": "PSLV operational workhorse; LVM3 operational and human-rated path for Gaganyaan."
-    }
+ "entity_id": "atl-plat-gaganyaan",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "gaganyaan",
+ "name": "Gaganyaan",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Gaganyaan",
+  "role": "Crewed spacecraft",
+  "country": "India",
+  "status_line": "Uncrewed tests progressing; crewed flight roadmap",
+  "subtitle": "Human spaceflight",
+  "entity_path": "/research/space/platform/gaganyaan/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "ISRO"
+   },
+   {
+    "label": "Operator",
+    "value": "ISRO"
+   }
   ],
-  "seo": {
-    "title": "Gaganyaan Crewed Spacecraft Programme — Platform · India Space Atlas | Techadyant",
-    "meta_description": "Gaganyaan is India's crewed-spaceflight programme with active qualification campaigns in 2026. Manufacturer: Indian Space Research Organisation.",
-    "canonical_path": "/research/space/entity/gaganyaan/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/entity/",
-    "submit_correction": "/research/space/entity/submit-correction/",
-    "related_research": [
-      "/research/space/entity/"
-    ]
-  },
-  "faq": [
-    {
-      "question": "What is it?",
-      "answer": "India's human-spaceflight programme.",
-      "sources": [
-        "src-7"
-      ]
-    },
-    {
-      "question": "2026 tests?",
-      "answer": "Crew-module, parachute and integrated air-drop tests.",
-      "sources": [
-        "src-7",
-        "src-8",
-        "src-9"
-      ]
-    },
-    {
-      "question": "Launcher?",
-      "answer": "Human-rated LVM3/HRLV.",
-      "sources": [
-        "src-3"
-      ]
-    }
+  "key_specs": [
+   "Crewed spacecraft",
+   "Human spaceflight",
+   "LEO orbit"
   ],
-  "timeline": [
-    {
-      "date": "2026-04-10",
-      "event": "IADT-02.",
-      "sources": [
-        "src-9"
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "event": "Main parachute air-drop test.",
-      "sources": [
-        "src-8"
-      ]
-    },
-    {
-      "date": "2026-07-12",
-      "event": "Crew-module qualification tests.",
-      "sources": [
-        "src-7"
-      ]
-    }
-  ],
-  "graph": {
-    "peer_systems": [
-      "/research/space/entity/lvm3/"
-    ]
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Gaganyaan is listed in this atlas as a crewed spacecraft (India). The atlas legacy record attributes it to ISRO. India’s human spaceflight programme; LVM3-qualified path; national flagship.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "ISRO"
+  },
+  "operator": "ISRO",
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does Gaganyaan appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a Crewed spacecraft relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Gaganyaan - Space Atlas - Techadyant Labs",
+  "description": "Gaganyaan is listed in this atlas as a crewed spacecraft (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

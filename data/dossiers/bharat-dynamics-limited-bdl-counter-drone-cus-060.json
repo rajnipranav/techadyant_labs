@@ -1,99 +1,100 @@
 {
-  "entity_id": "cus-060",
-  "entity_type": "system",
-  "tier": "C",
-  "noindex": true,
-  "slug": "bharat-dynamics-limited-bdl-counter-drone-cus-060",
-  "name": "BDL Counter Drone System",
-  "variant": "V1 (Atlas label) — exploration / roadmap only",
-  "vertical": "counter-uas",
-  "parent_hub_path": "/research/counter-uas/",
-  "last_verified": "2026-08-29",
-  "status": "Development",
-  "header": {
-    "one_liner": "Bharat Dynamics Limited has stated (Oct 2024 CMD interview) intent to develop a counter-drone system; no product page exists on bdl-india.in as of August 2026.",
-    "chips": [
-      "Hard kill (planned)",
-      "Roadmap"
-    ],
-    "maker": "Bharat Dynamics Limited (BDL)",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable — no product exists",
-    "mobility_or_class": "Unknown",
-    "operational_domains": [
-      "land",
-      "air"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Bharat Dynamics Limited (BDL) — Miniratna PSU under MoD",
-    "HQ": "Hyderabad, Telangana",
-    "BDL_products_page_status": "No counter-drone system listed (as of 24 August 2026 page update)",
-    "CMD_statement": "Oct 2024 IADB interview — 'Working on the development of... Counter Drone System'",
-    "Hard_kill_focus": "BDL 'particularly' focused on hard-kill solutions per IADB"
-  },
-  "what_it_is": {
-    "prose": "Bharat Dynamics Limited (BDL), the Miniratna Category-I Defence PSU under the Ministry of Defence headquartered in Hyderabad, has stated intent to develop a counter-drone system as part of its future roadmap. In an October 2024 interview with Indian Aerospace and Defence Bulletin (IADB), BDL CMD Commodore A Madhavarao (Retd) stated: 'Working on the development of... Drone-delivered missiles and Bombs, Weaponization of High endurance UAVs, High Energy Weapon System, Counter Drone System, Loitering Munition, Combat Autonomous Vehicles (Ground and Water)...'. The same interview noted BDL is 'particularly' focused on hard-kill solutions for anti-drone systems. However, as of the BDL products page update on 24 August 2026, no counter-drone system is listed among BDL's product portfolio, which includes TAL, Varunastra, MRSAM, Dishani, QRSAM, MIGM, VL-SRSAM, FLAME, KLTE, Akash Weapon System, KMTE, ASW Suite, Astra Weapon System, CMDS, SAAW, C-303, Helina (Dhruvastra), C 303S, Amogha-III ATGM, NAG ATGM, INVAR, Konkurs-M, Milan-2T, and ATGM Unified Launcher. This dossier is therefore classified as Tier C — the evidence bar for a full dossier has not been met and the page is marked noindex until a BDL counter-drone product is formally launched.",
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3"
-    ]
-  },
-  "open_questions": [
-    "Whether a BDL counter-drone product has been formally launched since the IADB October 2024 interview — not visible on official BDL products page as of August 2026",
-    "All technical specifications — none publicly available",
-    "Whether Atlas should retain this entry as a 'system' or downgrade to a 'capability/exploration' stub",
-    "Production timeline — no commitment disclosed"
+ "entity_id": "atl-sys-bharat-dynamics-limited-bdl-counter-drone-cus-060",
+ "entity_type": "system",
+ "tier": "C",
+ "noindex": true,
+ "slug": "bharat-dynamics-limited-bdl-counter-drone-cus-060",
+ "name": "Bharat Dynamics Limited (BDL) Counter-Drone",
+ "vertical": "counter-uas",
+ "parent_hub_path": "/research/counter-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Bharat Dynamics Limited (BDL) Counter-Drone",
+  "role": "Mobile; Portable",
+  "country": "India",
+  "status_line": "Trial",
+  "subtitle": "V1",
+  "entity_path": "/research/counter-uas/system/bharat-dynamics-limited-bdl-counter-drone-cus-060/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Bharat Dynamics Limited (BDL)"
+   }
   ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Products | Official Website of Bharat Dynamics Limited",
-      "publisher": "Bharat Dynamics Limited",
-      "url": "https://bdl-india.in/products",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Domain root only — BDL products page listing; no specific counter-drone product page exists"
-    },
-    {
-      "id": "src-2",
-      "title": "Bharat Dynamics Limited: Story For The World",
-      "publisher": "Indian Aerospace and Defence Bulletin",
-      "url": "https://www.iadb.in/2024/10/31/bharat-dynamics-limited-story-for-the-world",
-      "published_date": "2024-10-31",
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Interview with BDL CMD Commodore A Madhavarao (Retd); confirms BDL is 'Working on the development of... Counter Drone System'"
-    },
-    {
-      "id": "src-3",
-      "title": "BHARAT DYNAMICS LIMITED, INDIA exhibitor news",
-      "publisher": "Egypt Defence Expo",
-      "url": "https://www.egyptdefenceexpo.com/exhibitor-news/bharat-dynamics-limited-india",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "States 'BDL is exploring new areas such as drone-delivered payloads, including bombs and missiles, and mines'"
-    }
-  ],
-  "seo": {
-    "title": "BDL Counter Drone System V1 — System · India Counter-UAS Atlas | Techadyant",
-    "meta_description": "Bharat Dynamics Limited counter-drone system — exploration / roadmap only (CMD interview Oct 2024); no product page exists as of August 2026.",
-    "canonical_path": "/research/counter-uas/system/bharat-dynamics-limited-bdl-counter-drone-cus-060/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/counter-uas/",
-    "submit_correction": "/research/counter-uas/submit-correction/",
-    "related_research": [
-      "/research/counter-uas/manufacturer/bharat-dynamics-limited-bdl-mfg-018/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "Indigenous content": "60% (Yes - Indigenous)"
+   }
   }
+ },
+ "what_it_is": "Bharat Dynamics Limited (BDL) Counter-Drone is listed in this atlas as a mobile; portable (India). The atlas legacy record attributes it to Bharat Dynamics Limited (BDL). A public dossier for this entity had not yet been published when the atlas hubs were crawled, so this record carries the legacy atlas data forward with an explicit verification backlog.",
+ "drone_types_countered": [
+  "Nano",
+  "Micro",
+  "Small UAV",
+  "Medium UAV",
+  "Fixed Wing",
+  "VTOL",
+  "FPV",
+  "Loitering Munition",
+  "Helicopter UAV",
+  "Swarm",
+  "Autonomous"
+ ],
+ "kill_chain": [
+  "Detect",
+  "Track",
+  "Identify",
+  "Classify",
+  "Decide",
+  "Neutralize",
+  "Assess"
+ ],
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Bharat Dynamics Limited (BDL)",
+   "path": "/research/counter-uas/manufacturer/bharat-dynamics-limited-bdl-mfg-018/"
+  },
+  "parent_hub": "/research/counter-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does Bharat Dynamics Limited (BDL) Counter-Drone appear in the Counter-UAS Atlas?",
+   "a": "It is part of the atlas's coverage of counter uas; the hub lists it as a Mobile; Portable relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Bharat Dynamics Limited (BDL) Counter-Drone - Counter-UAS Atlas - Techadyant Labs",
+  "description": "Bharat Dynamics Limited (BDL) Counter-Drone is listed in this atlas as a mobile; portable (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

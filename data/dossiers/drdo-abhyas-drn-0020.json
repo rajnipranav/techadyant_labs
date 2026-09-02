@@ -1,0 +1,95 @@
+{
+ "entity_id": "atl-plat-drdo-abhyas-drn-0020",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "drdo-abhyas-drn-0020",
+ "name": "DRDO Abhyas",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "DRDO Abhyas",
+  "role": "Target Drone",
+  "country": "India",
+  "status_line": "In Service",
+  "subtitle": "High-speed expendable target",
+  "entity_path": "/research/drones-uas/platform/drdo-abhyas-drn-0020/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "DRDO — Aerial Delivery Research & Development Establishment"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Air Force — 31 Squadron / UAV wing"
+   },
+   {
+    "label": "Mission roles",
+    "value": "Target practice, threat simulation"
+   }
+  ],
+  "key_specs": [
+   "75 kg MTOW",
+   "0 kg payload",
+   "0.5 hr endurance",
+   "0 km range",
+   "6,000 m ceiling",
+   "0 km/h",
+   "Single small gas turbine (5 kN class)"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "0",
+    "Indigenous content": "100%"
+   }
+  }
+ },
+ "what_it_is": "DRDO Abhyas is listed in this atlas as a target drone (India). The atlas legacy record attributes it to DRDO — Aerial Delivery Research & Development Establishment, with Indian Air Force — 31 Squadron / UAV wing named as primary operator. Successfully test-fired multiple times 2019-2022. Expendable — used for threat simulation of cruise missiles/UAVs.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "DRDO — Aerial Delivery Research & Development Establishment"
+  },
+  "operator": "Indian Air Force — 31 Squadron / UAV wing",
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does DRDO Abhyas appear in the India UAS Atlas?",
+   "a": "It is part of the atlas's coverage of drones uas; the hub lists it as a Target Drone relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "DRDO Abhyas - India UAS Atlas - Techadyant Labs",
+  "description": "DRDO Abhyas is listed in this atlas as a target drone (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

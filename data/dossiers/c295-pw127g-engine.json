@@ -1,0 +1,96 @@
+{
+ "entity_id": "atl-dep-c295-pw127g-engine",
+ "entity_type": "dependency",
+ "tier": "C",
+ "noindex": true,
+ "slug": "c295-pw127g-engine",
+ "name": "PW127G turboprop engine (complete unit)",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "PW127G turboprop engine (complete unit)",
+  "role": "CRITICAL dependency",
+  "country": null,
+  "status_line": "C-295",
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/dependency/c295-pw127g-engine/"
+ },
+ "at_a_glance": {
+  "indicators": [],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
+  }
+ },
+ "what_it_is": "PW127G turboprop engine (complete unit) is listed in this atlas as a critical dependency. The PW127G is the single-sourced engine on the C-295. Engine MRO and component manufacturing are concentrated with P&WC and its Canadian supply chain. Indian substitution would require either a new engine development (GTRE HTFE-25 derivative — not flight-worthy) or a partnership with P&WC for licensed manufacture (long cycle). Geopolitical sensitivity is moderate: Canada is a NATO ally with stable export-control behaviour, but is subject to MTCR and Wassenaar regimes.",
+ "import_dependencies": {
+  "note": "Dependency profile captured from the live legacy page and its structured data on 2026-09-02.",
+  "profile": {
+   "Criticality": "CRITICAL",
+   "Supply concentration": "single-source",
+   "Substitution difficulty": "severe",
+   "Foreign supplier": "Pratt & Whitney Canada"
+  }
+ },
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "dependency_profile": {
+   "Criticality": "CRITICAL",
+   "Supply concentration": "single-source",
+   "Substitution difficulty": "severe",
+   "Foreign supplier": "Pratt & Whitney Canada"
+  },
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "Why does PW127G turboprop engine (complete unit) appear in the Military Aerospace Atlas?",
+   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a CRITICAL dependency relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
+ ],
+ "sources": [
+  {
+   "publisher": "www.rtx.com",
+   "title": "PW100/150 Engines (Pratt & Whitney official product page)",
+   "url": "https://www.rtx.com/en/prattwhitney/products/regional-aviation-engines/pw100-150",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "www.airbus.com",
+   "title": "C295 | Military Aircraft | Defence",
+   "url": "https://www.airbus.com/en/products-services/defence/military-aircraft/c295",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "PW127G turboprop engine (complete unit) - Military Aerospace Atlas - Techadyant Labs",
+  "description": "PW127G turboprop engine (complete unit) is listed in this atlas as a critical dependency.",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 2,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

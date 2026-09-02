@@ -1,246 +1,95 @@
 {
-  "entity_id": "pwc",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "pwc",
-  "name": "Pratt & Whitney Canada",
-  "variant": "P&WC (RTX)",
-  "vertical": "military-aerospace",
-  "parent_hub_path": "/research/military-aerospace/company/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Canadian gas-turbine subsidiary of RTX/Pratt & Whitney whose PW127G turboprop powers the Indian Air Force's 56-aircraft Airbus C-295 fleet; opened a Bengaluru Customer Service Center in July 2024 and local PW127G assembly at the Tata-Airbus Vadodara line is reported to be under study.",
-    "chips": [
-      "B",
-      "Turboprop engines",
-      "PW127G",
-      "C-295 propulsion",
-      "RTX subsidiary",
-      "Bengaluru CSC",
-      "Foreign OEM"
-    ],
-    "maker": "RTX Corporation (Pratt & Whitney)",
-    "country": "Canada",
-    "indigenous_pct": null,
-    "indigenous_label": "Foreign-designed and -built engine; India footprint is customer service, MRO and a reported study of local PW127G assembly",
-    "mobility_or_class": "Turboprop / turboshaft aero-engine OEM (100–5,000 shp class)",
-    "operational_domains": [
-      "air"
-    ]
-  },
-  "at_a_glance": {
-    "Legal_name": "Pratt & Whitney Canada Corp. (P&WC)",
-    "Parent": "Pratt & Whitney, a business of RTX Corporation",
-    "HQ": "Longueuil, Quebec, Canada",
-    "India_status": "Real but limited India footprint — engine OEM for the IAF C-295 (PW127G), plus a Bengaluru customer-service/MRO-support hub and reported local-assembly study",
-    "Tier_B_reason": "PW127G is in Indian military service on the C-295; P&WC has an operational India customer-service centre and civil MRO deals, but no confirmed India manufacturing JV yet",
-    "Key_engine_India": "PW127G turboprop — two per Airbus C-295 (56 on order for the IAF)",
-    "India_facility": "Pratt & Whitney Customer Service Center, Bengaluru (opened 17 July 2024, 150+ staff)",
-    "Installed_base_supported": "P&WC ~68,000 engines in service worldwide; Indian regional fleet largely P&WC-powered (ATR-72/42, DHC-8-400)",
-    "Civil_India_customers": "IndiGo, Alliance Air, FLY91, SpiceJet"
-  },
-  "what_it_is": {
-    "prose": "Pratt & Whitney Canada (P&WC) is the Longueuil, Quebec-based gas-turbine subsidiary of Pratt & Whitney, a business of RTX Corporation. It designs and builds small and medium turboprop, turboshaft and turbofan engines, including the PW100/PW127 turboprop family. The PW127G variant powers the Airbus C-295, of which India has ordered 56 for the Indian Air Force (16 built in Spain and 40 assembled by Tata Advanced Systems at the Vadodara Final Assembly Line) — meaning P&WC engines are entering Indian military service. P&WC's India footprint centres on aftermarket support rather than manufacture: in July 2024 Pratt & Whitney opened a Customer Service Center in Bengaluru with more than 150 aerospace engineers to provide MRO support, spare-part management, engine leasing and reliability analysis for P&WC's roughly 68,000 engines in service worldwide, of which a large part of India's regional aviation fleet (ATR-72, ATR-42 and DHC-8-400 turboprops flown by IndiGo, Alliance Air, FLY91 and SpiceJet) is P&WC-powered. Trade reporting indicates the Tata Group and Airbus have studied local assembly of the PW127G at Vadodara to raise indigenous content on the C-295, but no P&WC manufacturing joint venture in India has been confirmed by a primary source. This dossier is scoped Tier B: a genuine but aftermarket-and-propulsion India footprint, without the manufacturing depth of a Tier A entity.",
-    "sources": [
-      "src-rtx-csc",
-      "src-aft-pw127g",
-      "src-c295-def",
-      "src-avweek-fly91"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "P&WC's principal Indian defence relevance is as the engine OEM for the IAF's C-295 programme. The C-295 is powered by two PW127G turboprops; 56 aircraft were contracted in 2021 (₹21,935 crore), with 16 delivered fly-away from Airbus Seville and 40 to be assembled by Tata Advanced Systems in Vadodara — the first aircraft from the Indian line rolled out in 2026. On the civil/aftermarket side, P&WC deepened its India presence with the Bengaluru Customer Service Center (July 2024) and MRO agreements with Indian turboprop operators such as FLY91.",
-    "rows": [
-      {
-        "agency": "Indian Air Force / Airbus–Tata C-295 programme",
-        "context": "PW127G turboprops for the 56-aircraft C-295 fleet (2 per aircraft)",
-        "year": 2021,
-        "quantity_or_note": "Engine OEM under the ₹21,935 crore, 56-aircraft C-295 contract",
-        "sources": [
-          "src-aft-pw127g",
-          "src-c295-def"
-        ]
-      },
-      {
-        "agency": "Pratt & Whitney (RTX) — India aftermarket",
-        "context": "Customer Service Center, Bengaluru — MRO support, spares, leasing, reliability analysis",
-        "year": 2024,
-        "quantity_or_note": "Opened 17 July 2024; 150+ engineers supporting P&WC's ~68,000-engine global fleet",
-        "sources": [
-          "src-rtx-csc",
-          "src-bs-csc"
-        ]
-      },
-      {
-        "agency": "FLY91 (Indian regional carrier)",
-        "context": "P&WC engine MRO / maintenance agreement for ATR turboprop fleet",
-        "year": 2024,
-        "quantity_or_note": "Aftermarket support deal for P&WC-powered ATR aircraft",
-        "sources": [
-          "src-avweek-fly91"
-        ]
-      },
-      {
-        "agency": "Tata Group / Airbus (reported)",
-        "context": "Reported study of local PW127G assembly at Vadodara to raise C-295 indigenous content",
-        "year": 2025,
-        "quantity_or_note": "Under study per trade reporting; no primary confirmation of a manufacturing JV",
-        "sources": [
-          "src-def-pw127g-local"
-        ]
-      }
-    ],
-    "open_questions": [
-      "No primary-source confirmation that PW127G assembly will actually be localised in India, or on what schedule",
-      "Whether the Bengaluru Customer Service Center will extend to defence C-295 engine overhaul specifically",
-      "P&WC does not publish India-specific revenue or headcount separately from RTX/Pratt & Whitney"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "The PW127G is a fully imported, foreign-designed engine; India currently has no domestic design authority or licensed production for it. For the C-295, propulsion (P&WC, Canada), propeller systems and hot-section technology are sourced from the P&WC/RTX global supply chain, making the engine a 100% import-dependent element of an otherwise progressively indigenised airframe.",
-    "items": [
-      {
-        "component": "PW127G turboprop engine (complete)",
-        "severity": "High",
-        "note": "Foreign-designed/built P&WC engine; no Indian design authority or licensed production confirmed",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": [
-          "src-aft-pw127g"
-        ]
-      },
-      {
-        "component": "Hot-section / turbine technology and repair",
-        "severity": "High",
-        "note": "Deep engine overhaul remains within the P&WC/RTX network; India support is customer-service tier",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": [
-          "src-rtx-csc"
-        ]
-      },
-      {
-        "component": "FADEC / engine control electronics",
-        "severity": "Medium",
-        "note": "Supplied within the P&WC global supply chain",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [
-      "rr",
-      "safran",
-      "iae"
-    ],
-    "related_components": [],
-    "related_pillars": [
-      "/research/pillars/defence/"
-    ],
-    "referenced_by": [
-      "c295"
-    ]
-  },
-  "faq": [
-    {
-      "question": "What is Pratt & Whitney Canada's role in the Indian C-295 programme?",
-      "answer": "P&WC is the engine OEM for the Airbus C-295, which is powered by two PW127G turboprops. India has ordered 56 C-295s for the Indian Air Force (16 imported from Airbus Seville and 40 assembled by Tata Advanced Systems at Vadodara), so PW127G engines are entering Indian military service as part of that programme.",
-      "sources": [
-        "src-aft-pw127g",
-        "src-c295-def"
-      ]
-    },
-    {
-      "question": "Does Pratt & Whitney Canada manufacture engines in India?",
-      "answer": "Not confirmed. P&WC's India footprint is currently aftermarket and support: a Customer Service Center opened in Bengaluru in July 2024 (150+ engineers) providing MRO support, spares, leasing and reliability analysis, plus MRO deals with Indian turboprop operators such as FLY91. Trade reporting says the Tata Group and Airbus have studied local PW127G assembly at Vadodara, but no manufacturing joint venture has been confirmed by a primary source.",
-      "sources": [
-        "src-rtx-csc",
-        "src-def-pw127g-local"
-      ]
-    }
+ "entity_id": "atl-cmp-pwc",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "pwc",
+ "name": "Pratt & Whitney Canada (P&WC)",
+ "vertical": "military-aerospace",
+ "parent_hub_path": "/research/military-aerospace/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Pratt & Whitney Canada (P&WC)",
+  "role": "engine-oem",
+  "country": "Canada",
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/military-aerospace/company/pwc/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Longueuil, Quebec, Canada"
+   },
+   {
+    "label": "Role",
+    "value": "Engine OEM for the C-295 (PW127G), Do-228 (PT6A-42A), HTT-40 (PT6A-68B)"
+   }
   ],
-  "sources": [
-    {
-      "id": "src-rtx-csc",
-      "title": "RTX's Pratt & Whitney Expands India Operations with Customer Service Center in Bengaluru",
-      "publisher": "RTX Corporation (Pratt & Whitney)",
-      "url": "https://www.rtx.com/news/news-center/2024/07/17/rtxs-pratt-whitney-expands-india-operations-with-customer-service-center-in-be",
-      "published_date": "2024-07-17",
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "Official P&W release: Bengaluru CSC opened 17 Jul 2024, 150+ engineers, supports P&WC's ~68,000-engine fleet; notes C-295 is Pratt & Whitney-powered; quote from P&WC VP Nivine Kallab"
-    },
-    {
-      "id": "src-aft-pw127g",
-      "title": "P&WC begins delivery of PW127G engines for Canada's CC-295 fleet",
-      "publisher": "Airforce Technology",
-      "url": "https://www.airforce-technology.com/news/pratt-whitney-pw127g-cc-295/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Confirms PW127G is the C-295/CC-295 powerplant"
-    },
-    {
-      "id": "src-c295-def",
-      "title": "India's First Locally Built C-295 Transport Aircraft Nears Debut",
-      "publisher": "The Defense Post",
-      "url": "https://thedefensepost.com/2026/05/14/india-c295-aircraft-debut/",
-      "published_date": "2026-05-14",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Context on the 56-aircraft IAF C-295 programme and Tata Vadodara final assembly line"
-    },
-    {
-      "id": "src-avweek-fly91",
-      "title": "India's FLY91 Inks Pratt & Whitney Canada Engine MRO Deal",
-      "publisher": "Aviation Week Network",
-      "url": "https://aviationweek.com/mro/aircraft-propulsion/indias-fly91-inks-pratt-whitney-canada-engine-mro-deal",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "P&WC engine MRO agreement with Indian regional carrier FLY91"
-    },
-    {
-      "id": "src-bs-csc",
-      "title": "Pratt & Whitney opens new customer service centre in Bengaluru",
-      "publisher": "Business Standard",
-      "url": "https://www.business-standard.com/world-news/pratt-whitney-opens-new-customer-service-centre-in-bengaluru-124071700299_1.html",
-      "published_date": "2024-07-17",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Independent confirmation of the Bengaluru Customer Service Center"
-    },
-    {
-      "id": "src-def-pw127g-local",
-      "title": "Tata Group Explores Local Assembly of PW127G Turboprop Engines to Power C-295M Transport Aircraft",
-      "publisher": "Defence.in",
-      "url": "https://defence.in/threads/tata-group-explores-local-assembly-of-pw127g-turboprop-engines-to-power-c-295m-transport-aircraft.10999/",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Trade-forum report of a reported PW127G local-assembly study; not primary-source confirmed"
-    }
-  ],
-  "seo": {
-    "title": "Pratt & Whitney Canada — Company · India Military Aerospace Atlas | Techadyant",
-    "meta_description": "P&WC's PW127G turboprop powers the IAF's 56-aircraft C-295 fleet; India footprint includes a Bengaluru customer-service centre and a reported PW127G local-assembly study.",
-    "canonical_path": "/research/military-aerospace/company/pwc/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Organization",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/military-aerospace/company/",
-    "submit_correction": "/research/military-aerospace/submit-correction/",
-    "related_research": [
-      "/research/military-aerospace/platform/c295/",
-      "/research/pillars/defence/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Pratt & Whitney Canada (P&WC), a unit of RTX, is the world's leading maker of regional and general-aviation turboprop and turbofan engines, including the ubiquitous PT6 family and PW100 series. Its engines power a large share of the world's light transport, trainer and utility aircraft.",
+ "india_angle": "P&WC engines power key Indian aerospace programmes - the PT6 family has equipped Indian civil and defence-adjacent platforms, and RTX's India materials highlight a growing Indian fleet of Pratt & Whitney-powered aircraft. India's MRO ecosystem for P&WC engines is expanding as the regional fleet grows.",
+ "intelligence_assessment": "P&WC's India presence is broad but diffuse - engine-by-engine India programme attribution requires type-certificate level research. The strategic signal to watch is any deeper Indian MRO or component work delegated to Indian industry.",
+ "graph": {
+  "parent_hub": "/research/military-aerospace/"
+ },
+ "faq": [
+  {
+   "q": "Is Pratt & Whitney Canada the same as Pratt & Whitney?",
+   "a": "P&WC is the Canadian subsidiary within RTX, focused on regional/general-aviation turboprops like the PT6; it is distinct from the US large-engine business."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
+ ],
+ "sources": [
+  {
+   "publisher": "rtx.com",
+   "title": "Powering the Future of Flight in India - Pratt & Whitney (RTX)",
+   "url": "https://www.rtx.com/en/prattwhitney/landing-pages-pw/powering-the-future-of-flight-in-india",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "en.wikipedia.org",
+   "title": "Pratt & Whitney Canada PT6",
+   "url": "https://en.wikipedia.org/wiki/Pratt_%26_Whitney_Canada_PT6",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "aerocontact.com",
+   "title": "Inside the Pratt & Whitney Canada PT6 turboprop engine",
+   "url": "https://www.aerocontact.com/news/2025-03-04-inside-the-pratt-whitney-canada-pt6-turboprop-engine",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Pratt & Whitney Canada (P&WC) - Military Aerospace Atlas - Techadyant Labs",
+  "description": "Pratt & Whitney Canada (P&WC), a unit of RTX, is the world's leading maker of regional and general-aviation turboprop and turbofan engines, including the ubiq",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

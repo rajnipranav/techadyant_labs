@@ -1,91 +1,84 @@
 {
-  "entity_id": "scope-skyroot",
-  "entity_type": "platform",
-  "tier": "C",
-  "noindex": true,
-  "slug": "scope-skyroot",
+ "entity_id": "atl-plat-scope-skyroot",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "scope-skyroot",
+ "name": "SCOPE (Skyroot)",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "SCOPE (Skyroot)",
-  "variant": "Vikram-1 tech-demo payload",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/entity/",
-  "last_verified": "2026-08-29",
-  "status": "Unknown",
-  "header": {
-    "one_liner": "SCOPE is Skyroot's own technology-demonstration / performance-assessment payload flown on the Vikram-1 'Aagaman' maiden orbital mission.",
-    "chips": [
-      "C",
-      "India-relevant",
-      "Tech-demo payload"
-    ],
-    "maker": "Skyroot Aerospace Private Limited",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not asserted — thin public evidence",
-    "mobility_or_class": "Small technology-demonstration satellite/payload",
-    "operational_domains": [
-      "space"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Skyroot Aerospace Private Limited",
-    "Country": "India",
-    "Carrier": "Vikram-1 maiden orbital flight 'Aagaman' (18 July 2026)",
-    "Role": "Skyroot's own in-house performance-assessment / tech-demo payload",
-    "Tier_C_reason": "Only brief press mentions as one item on the Vikram-1 manifest; no standalone primary spec published"
-  },
-  "what_it_is": {
-    "prose": "SCOPE is one of the in-house payloads Skyroot Aerospace carried on its Vikram-1 'Aagaman' maiden orbital flight of 18 July 2026, described in launch coverage as Skyroot's own satellite/payload for performance assessment. Public evidence is limited to brief mentions within the Vikram-1 manifest, so this remains an honest compact stub pending a primary technical description.",
-    "sources": [
-      "src-1",
-      "src-2"
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [
-      "vikram-1"
-    ],
-    "related_pillars": [
-      "/research/space/entity/"
-    ]
-  },
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "'The dawn of a new space era': Vikram-1, India's 1st private orbital rocket, aces debut launch",
-      "publisher": "Space.com",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/skyroot-aerospace-india-first-private-orbital-launch-vikram-1",
-      "published_date": "2026-07-18",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Lists SCOPE as Skyroot's own performance-assessment payload on Vikram-1."
-    },
-    {
-      "id": "src-2",
-      "title": "Skyroot Vikram-1 mission Aagaman: everything about India's first private orbital launch",
-      "publisher": "Business Standard",
-      "url": "https://www.business-standard.com/technology/tech-news/skyroot-vikram-1-mission-aagaman-private-orbital-launch-india-126071700363_1.html",
-      "published_date": "2026-07-17",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Aagaman manifest context including Skyroot in-house payloads."
-    }
+  "role": "Small Satellite",
+  "country": "India",
+  "status_line": "Deployed on Vikram-1 Aagaman (Jul 2026)",
+  "subtitle": "Tech demo",
+  "entity_path": "/research/space/platform/scope-skyroot/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Skyroot Aerospace"
+   },
+   {
+    "label": "Operator",
+    "value": "Skyroot"
+   }
   ],
-  "seo": {
-    "title": "SCOPE (Skyroot) — Platform · India Space Atlas | Techadyant",
-    "meta_description": "SCOPE — Skyroot's in-house technology-demonstration payload flown on the Vikram-1 'Aagaman' maiden orbital mission (compact Tier C card).",
-    "canonical_path": "/research/space/entity/scope-skyroot/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Article",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/entity/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/entity/"
-    ]
+  "key_specs": [
+   "Small Satellite",
+   "Tech demo",
+   "LEO orbit"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "SCOPE (Skyroot) is listed in this atlas as a small satellite (India). The atlas legacy record attributes it to Skyroot Aerospace. Skyroot technology demonstration satellite on first orbital mission.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Skyroot Aerospace",
+   "path": "/research/space/company/skyroot-aerospace/"
+  },
+  "operator": "Skyroot",
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does SCOPE (Skyroot) appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a Small Satellite relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "SCOPE (Skyroot) - Space Atlas - Techadyant Labs",
+  "description": "SCOPE (Skyroot) is listed in this atlas as a small satellite (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

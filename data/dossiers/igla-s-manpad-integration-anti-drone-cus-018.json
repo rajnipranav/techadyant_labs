@@ -1,231 +1,93 @@
 {
-  "entity_id": "cus-018",
-  "entity_type": "system",
-  "tier": "B",
-  "noindex": false,
-  "slug": "igla-s-manpad-integration-anti-drone-cus-018",
-  "name": "Igla-S MANPAD (Anti-Drone Role)",
-  "variant": "9K338 Igla-S (SA-24 Grinch) — Russian MANPAD in Indian Army service",
-  "vertical": "counter-uas",
-  "parent_hub_path": "/research/counter-uas/",
-  "last_verified": "2026-08-29",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Russian Igla-S MANPAD in Indian Army service (48 launchers + 100 missiles, ₹260 cr / €28.9M contract 2023); first batch April 2024, second May 2025; secondary anti-drone role (proven vs Shahed in Ukraine).",
-    "chips": [
-      "MANPAD",
-      "Russian",
-      "Infrared homing",
-      "6 km range",
-      "Indian Army",
-      "Anti-drone secondary"
-    ],
-    "maker": "Konstruktorskoye Byuro Priborostroeniya (KBP) / Rosoboronexport, Russia",
-    "country": "Russia",
-    "indigenous_pct": null,
-    "indigenous_label": "See import dependencies below",
-    "mobility_or_class": "Vehicle-mounted / static variants",
-    "operational_domains": [
-      "land",
-      "air"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Konstruktorskoye Byuro Priborostroeniya (KBP) Tula / Rosoboronexport — Russia (state-owned Rostec subsidiary)",
-    "India_assembly": "Partly assembled in India (Astra Microwave + Adani Defence facility reportedly)",
-    "Contract_year": "2023",
-    "Contract_value": "€28.9M (~₹260 crore)",
-    "Quantity_contracted": "48 launchers + 100 missiles + NVGs + test station",
-    "First_batch_delivered": "April 2024 (24 launchers)",
-    "Second_batch_delivered": "May 2025 (24 more launchers)",
-    "Indian_Army_total_requirement": "120 launchers + 400 missiles (per Vivek Singh X post — not officially confirmed)",
-    "Engagement_range": "Up to 6 km",
-    "Engagement_altitude": "3.5 km (effective limit 5-7 km)",
-    "Guidance": "Infrared homing",
-    "Anti_drone_use": "Proven vs Shahed drones in Ukraine; Indian Army 'recalibrating MANPADS roles' for low-flying cruise missile/drone threats"
-  },
-  "what_it_is": {
-    "prose": "The Igla-S (Russian: Игла-С, NATO reporting name SA-24 Grinch) is a Russian man-portable air-defense system (MANPADS) developed by the Konstruktorskoye Byuro Priborostroeniya (KBP) in Tula and exported by Rosoboronexport, both state-owned Rostec subsidiaries. India signed a contract in 2023 for 48 launchers, 100 missiles, night-vision goggles, and a test station for €28.9 million (~₹260 crore). The systems are partly assembled in India at a facility reportedly operated by Astra Microwave and Adani Defence. The first batch of 24 Igla-S launchers was delivered to the Indian Army in April 2024, with a second batch of 24 more launchers delivered in May 2025. The Indian Army's total requirement is reportedly 120 launchers and 400 missiles (per a Vivek Singh X post; not officially confirmed by the MoD). The Igla-S uses infrared homing to engage targets up to 6 km away and at altitudes up to 3.5 km (effective limit 5-7 km). The system has demonstrated anti-drone capability in Ukraine, where Ukrainian brigades have used it to intercept Shahed-136 loitering munitions. The Indian Army is 'recalibrating MANPADS roles' to address low-flying cruise missile and drone threats, expanding the Igla-S beyond its traditional anti-aircraft role.",
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3",
-      "src-4",
-      "src-5"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "India signed a €28.9 million (~₹260 crore) contract in 2023 for 48 Igla-S launchers, 100 missiles, NVGs, and a test station. The first batch of 24 launchers was delivered in April 2024; the second batch of 24 more launchers was delivered in May 2025. The Indian Army's total requirement is reportedly 120 launchers + 400 missiles (per a Vivek Singh X post; not officially confirmed).",
-    "rows": [
-      {
-        "agency": "Indian Army",
-        "context": "Contract signed with Russia for 48 launchers + 100 missiles + NVGs + test station",
-        "year": 2023,
-        "quantity_or_note": "€28.9M (~₹260 crore)",
-        "sources": [
-          "src-2",
-          "src-3"
-        ]
-      },
-      {
-        "agency": "Indian Army",
-        "context": "First batch of 24 Igla-S launchers delivered",
-        "year": 2024,
-        "quantity_or_note": "April 2024 — partly assembled in India",
-        "sources": [
-          "src-1",
-          "src-2"
-        ]
-      },
-      {
-        "agency": "Indian Army",
-        "context": "Second batch of 24 Igla-S launchers delivered",
-        "year": 2025,
-        "quantity_or_note": "May 2025",
-        "sources": [
-          "src-4"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Total Igla-S requirement (120 launchers + 400 missiles per Vivek Singh X) not officially confirmed by MoD",
-      "Extent of Indian assembly (vs import) not quantified in primary sources",
-      "Whether Igla-S has been operationally deployed against drones in Indian service (vs only Ukraine) — no public confirmation"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "Import dependencies as publicly documented.",
-    "items": [
-      {
-        "component": "Igla-S system (complete)",
-        "severity": "Critical",
-        "note": "Russia (KBP Tula) — 100% Russian-origin; partial India assembly only",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": [
-          "src-2"
-        ]
-      },
-      {
-        "component": "Infrared seeker",
-        "severity": "Critical",
-        "note": "Russia — no indigenous alternative",
-        "pillar_link": "/research/pillars/defence/",
-        "sources": []
-      }
-    ]
-  },
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [
-      "integrated-counter-drone-system-cus-001",
-      "zen-anti-drone-system-zads-cus-003",
-      "vajra-sentinel-counter-drone-system-cus-009"
-    ],
-    "related_components": [],
-    "related_pillars": [
-      "/research/pillars/defence/"
-    ],
-    "referenced_by": []
-  },
-  "faq": [
-    {
-      "question": "Is the Igla-S an Indian system?",
-      "answer": "No. The Igla-S (Russian: Игла-С, NATO reporting name SA-24 Grinch) is a Russian man-portable air-defense system (MANPADS) developed by KBP Tula and exported by Rosoboronexport. India contracted 48 launchers + 100 missiles for €28.9M (~₹260 crore) in 2023. The systems are partly assembled in India at a facility reportedly operated by Astra Microwave and Adani Defence, but the design and critical components (especially the infrared seeker) are 100% Russian-origin.",
-      "sources": [
-        "src-2",
-        "src-3"
-      ]
-    },
-    {
-      "question": "Can the Igla-S engage drones?",
-      "answer": "Yes, in a secondary role. The Igla-S uses infrared homing to engage targets up to 6 km away and at altitudes up to 3.5 km. The system has demonstrated anti-drone capability in Ukraine, where Ukrainian brigades have used it to intercept Shahed-136 loitering munitions. The Indian Army is 'recalibrating MANPADS roles' to address low-flying cruise missile and drone threats, expanding the Igla-S beyond its traditional anti-aircraft role. However, no public confirmation exists of Igla-S being operationally deployed against drones in Indian service.",
-      "sources": [
-        "src-5"
-      ]
-    },
-    {
-      "question": "How many Igla-S systems does the Indian Army operate?",
-      "answer": "India has received 48 launchers and 100 missiles under the 2023 contract — first batch of 24 launchers delivered April 2024, second batch of 24 more launchers delivered May 2025. The Indian Army's total requirement is reportedly 120 launchers and 400 missiles per a Vivek Singh X post, but this figure has not been officially confirmed by the Indian Ministry of Defence.",
-      "sources": [
-        "src-1",
-        "src-4"
-      ]
-    }
+ "entity_id": "atl-sys-igla-s-manpad-integration-anti-drone-cus-018",
+ "entity_type": "system",
+ "tier": "C",
+ "noindex": true,
+ "slug": "igla-s-manpad-integration-anti-drone-cus-018",
+ "name": "IGLA-S Manpad Integration (Anti-Drone)",
+ "vertical": "counter-uas",
+ "parent_hub_path": "/research/counter-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "IGLA-S Manpad Integration (Anti-Drone)",
+  "role": "Portable; Vehicle Mounted",
+  "country": "India / Russia",
+  "status_line": "Operational",
+  "subtitle": "V1",
+  "entity_path": "/research/counter-uas/system/igla-s-manpad-integration-anti-drone-cus-018/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "BEL (under license)"
+   }
   ],
-  "open_questions": [
-    "Total Igla-S requirement (120 launchers + 400 missiles per Vivek Singh X) not officially confirmed by MoD",
-    "Extent of Indian assembly (vs import) not quantified in primary sources",
-    "Whether Igla-S has been operationally deployed against drones in Indian service (vs only Ukraine) — no public confirmation"
-  ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Indian Army gets portable Igla-S Air defence system",
-      "publisher": "Missile Defense Advocacy Alliance",
-      "url": "https://www.missiledefenseadvocacy.org/air-defense-news/indian-army-gets-portable-igla-s-air-defence-system-heres-all-about-next-gen-missiles-to-be-deployed-at-china-pakistan-borders",
-      "published_date": "2024-04-08",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "First batch delivery context"
-    },
-    {
-      "id": "src-2",
-      "title": "Army set to receive Igla-S air defence systems partly assembled in India",
-      "publisher": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/army-set-to-receive-igla-s-air-defence-systems-partly-assembled-in-india/article68179544.ece",
-      "published_date": "2024-05-15",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "India assembly confirmation; 48 launchers + 100 missiles contracted"
-    },
-    {
-      "id": "src-3",
-      "title": "MANPADS: India buys Russian Igla-S systems",
-      "publisher": "Militär Aktuell",
-      "url": "https://militaeraktuell.at/en/manpads-india-buys-russian-igla-s-systems",
-      "published_date": "2025-03-12",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "€28.9M total contract value; specs"
-    },
-    {
-      "id": "src-4",
-      "title": "Indian Army Receives New Batch of Russian-made Igla-S",
-      "publisher": "Defense Mirror",
-      "url": "https://defensemirror.com/news/39423",
-      "published_date": "2025-05-05",
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Second batch delivery May 2025"
-    },
-    {
-      "id": "src-5",
-      "title": "9K38 Igla",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/9K38_Igla",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Ukraine anti-Shahed use; India assembly note"
-    }
-  ],
-  "seo": {
-    "title": "Igla-S MANPAD (Anti-Drone Role) — System · India Counter-UAS Atlas | Techadyant",
-    "meta_description": "Russian Igla-S MANPAD in Indian Army service (48 launchers + 100 missiles, ₹260 cr / €28.9M contract 2023); first batch April 2024, second May 2025; secondary a",
-    "canonical_path": "/research/counter-uas/system/igla-s-manpad-integration-anti-drone-cus-018/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Product",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/counter-uas/",
-    "submit_correction": "/research/counter-uas/submit-correction/",
-    "related_research": [
-      "/research/counter-uas/"
-    ]
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "Indigenous content": "30% (Yes - Licensed Manufacturing)"
+   }
   }
+ },
+ "what_it_is": "IGLA-S Manpad Integration (Anti-Drone) is listed in this atlas as a portable; vehicle mounted (India / Russia). The atlas legacy record attributes it to BEL (under license). A public dossier for this entity had not yet been published when the atlas hubs were crawled, so this record carries the legacy atlas data forward with an explicit verification backlog.",
+ "drone_types_countered": [
+  "Small UAV",
+  "Medium UAV",
+  "Fixed Wing",
+  "VTOL",
+  "FPV",
+  "Loitering Munition"
+ ],
+ "kill_chain": [
+  "Detect",
+  "Track",
+  "Identify",
+  "Classify",
+  "Decide",
+  "Neutralize"
+ ],
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "BEL (under license)"
+  },
+  "parent_hub": "/research/counter-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does IGLA-S Manpad Integration (Anti-Drone) appear in the Counter-UAS Atlas?",
+   "a": "It is part of the atlas's coverage of counter uas; the hub lists it as a Portable; Vehicle Mounted relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "IGLA-S Manpad Integration (Anti-Drone) - Counter-UAS Atlas - Techadyant Labs",
+  "description": "IGLA-S Manpad Integration (Anti-Drone) is listed in this atlas as a portable; vehicle mounted (India / Russia).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

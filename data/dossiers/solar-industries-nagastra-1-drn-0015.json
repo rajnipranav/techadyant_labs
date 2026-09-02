@@ -1,0 +1,158 @@
+{
+ "entity_id": "atl-plat-solar-industries-nagastra-1-drn-0015",
+ "entity_type": "platform",
+ "tier": "B",
+ "noindex": false,
+ "slug": "solar-industries-nagastra-1-drn-0015",
+ "name": "Solar Industries Nagastra-1",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Solar Industries Nagastra-1",
+  "role": "Loitering Munition",
+  "country": "India",
+  "status_line": "In Service",
+  "subtitle": "Type-I Loitering Munition",
+  "entity_path": "/research/drones-uas/platform/solar-industries-nagastra-1-drn-0015/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Solar Industries India Ltd"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Army — Aviation Corps"
+   },
+   {
+    "label": "Mission roles",
+    "value": "Strike, anti-personnel"
+   }
+  ],
+  "key_specs": [
+   "9 kg MTOW",
+   "1 kg payload",
+   "1.5 hr endurance",
+   "100 km range",
+   "4,500 m ceiling",
+   "0 km/h",
+   "Electric motor (battery-powered)"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "0",
+    "Indigenous content": "100%"
+   }
+  }
+ },
+ "what_it_is": "Nagastra-1 is Solar Industries' man-portable fixed-wing electric loitering munition, designed for the Indian Army with ~60-minute endurance and man-in-the-loop or autonomous attack modes. It was developed in India with high indigenous content and delivered its full first order in 2024.",
+ "india_angle": "The Indian Army ordered Nagastra-1 under emergency procurement and received the entire lot of 480 munitions from Solar Industries by December 2024, per The Defense Post and other outlets - among the first fully indigenous loitering-munition inductions.",
+ "import_dependencies": {
+  "note": "Component/supplier map captured from the live legacy page on 2026-09-02 (unverified lineage).",
+  "components": [
+   {
+    "component": "DRDO RCI seeker",
+    "category": "Software",
+    "supplier": "RCI, DRDO"
+   },
+   {
+    "component": "Lithium-ion battery pack (high-energy)",
+    "category": "Battery",
+    "supplier": "Various — including indigenous"
+   }
+  ]
+ },
+ "deployments_procurement": {
+  "summary": "The legacy atlas page lists 1 procurement row(s) (total Rs 14 cr). These rows predate this dossier upgrade and await independent verification.",
+  "records": [
+   {
+    "row": "Indian Army — Aviation Corps · 480 units · 2024 | ₹14 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   }
+  ],
+  "note": "No order, quantity or value on this page is asserted as verified fact. See open_questions."
+ },
+ "intelligence_assessment": "The 480-unit delivery is well covered by trade press; the indigenous-content claim and performance figures originate from vendor/organiser reporting and deserve independent confirmation. Follow-on Nagastra-2/3 variants and export interest are the signals to track.",
+ "graph": {
+  "maker": {
+   "name": "Solar Industries India Ltd",
+   "path": "/research/drones-uas/company/solar-industries-india-ltd-mfr-021/"
+  },
+  "operator": "Indian Army — Aviation Corps",
+  "components": [
+   {
+    "component": "DRDO RCI seeker",
+    "category": "Software",
+    "supplier": "RCI, DRDO"
+   },
+   {
+    "component": "Lithium-ion battery pack (high-energy)",
+    "category": "Battery",
+    "supplier": "Various — including indigenous"
+   }
+  ],
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Who makes Nagastra-1?",
+   "a": "Solar Industries (Solar Industries India Ltd), the Nagpur-based explosives major turned munitions supplier."
+  },
+  {
+   "q": "How many has the Indian Army received?",
+   "a": "Public reporting says the Army received the full lot of 480 Nagastra-1 munitions by December 2024."
+  }
+ ],
+ "open_questions": [
+  "Verify the legacy atlas procurement row(s) against MoD/PIB/service announcements and add named sources to upgrade toward Tier B/A.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "thedefensepost.com",
+   "title": "Indian Army Receives Entire Lot of Indigenous Loitering Munitions (Nagastra-1)",
+   "url": "https://thedefensepost.com/2024/12/06/indian-army-nagastra-munitions",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "dsaexhibition.com",
+   "title": "Solar Industries India to supply Nagastra-1 loitering munition",
+   "url": "https://www.dsaexhibition.com",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "organiser.org",
+   "title": "Indian Army receives 480 loitering munitions from Solar Industries",
+   "url": "https://organiser.org/2024/12/03/indian-army-receives-480-loitering-munitions",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Solar Industries Nagastra-1 - India UAS Atlas - Techadyant Labs",
+  "description": "Nagastra-1 is Solar Industries' man-portable fixed-wing electric loitering munition, designed for the Indian Army with ~60-minute endurance and man-in-the-loo",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "entity_id": "atl-plat-ideaforge-switch-uav-3-0-drn-0098",
+ "entity_type": "platform",
+ "tier": "B",
+ "noindex": false,
+ "slug": "ideaforge-switch-uav-3-0-drn-0098",
+ "name": "ideaForge SWITCH UAV 3.0",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "ideaForge SWITCH UAV 3.0",
+  "role": "Hybrid VTOL",
+  "country": "India",
+  "status_line": "In Service",
+  "subtitle": "3.0 variant",
+  "entity_path": "/research/drones-uas/platform/ideaforge-switch-uav-3-0-drn-0098/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "ideaForge Technology Ltd"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Army — Aviation Corps"
+   },
+   {
+    "label": "Mission roles",
+    "value": "ISR, target acquisition, BDA, border patrol"
+   }
+  ],
+  "key_specs": [
+   "7.5 kg MTOW",
+   "0.7 kg payload",
+   "2 hr endurance",
+   "15 km range",
+   "5,000 m ceiling",
+   "75 km/h",
+   "Electric motor + range-extender (hybrid)"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "50",
+    "Indigenous content": "90%"
+   }
+  }
+ },
+ "what_it_is": "The SWITCH UAV 3.0 is the current production evolution of ideaForge's fixed-wing VTOL tactical UAV family, which set a global benchmark when it won the Indian Army's largest mini-VTOL UAV contract. The 3.0 configuration packages improved autonomy and high-altitude performance for infantry ISR.",
+ "india_angle": "ideaForge's SWITCH family is the Indian Army's reference tactical ISR drone, with emergency-procurement orders reported at ~Rs 137 crore in 2025; the company's listed status makes its India order book partially auditable through exchange filings.",
+ "import_dependencies": {
+  "note": "Component/supplier map captured from the live legacy page on 2026-09-02 (unverified lineage).",
+  "components": [
+   {
+    "component": "ideaForge Autopilot v4",
+    "category": "AI Module",
+    "supplier": "ideaForge (indigenous)"
+   },
+   {
+    "component": "NVIDIA Jetson Orin",
+    "category": "AI Module",
+    "supplier": "NVIDIA (USA)"
+   }
+  ]
+ },
+ "deployments_procurement": {
+  "summary": "The legacy atlas page lists 1 procurement row(s) (total Rs 56 cr). These rows predate this dossier upgrade and await independent verification.",
+  "records": [
+   {
+    "row": "Indian Army — Aviation Corps · 100 units · 2024 | ₹56 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   }
+  ],
+  "note": "No order, quantity or value on this page is asserted as verified fact. See open_questions."
+ },
+ "intelligence_assessment": "The platform's India record is strong at family level; 3.0-specific delivery counts are not public. Track ideaForge investor materials and Army follow-on contracts.",
+ "graph": {
+  "maker": {
+   "name": "ideaForge Technology Ltd",
+   "path": "/research/drones-uas/company/ideaforge-technology-ltd-mfr-014/"
+  },
+  "operator": "Indian Army — Aviation Corps",
+  "components": [
+   {
+    "component": "ideaForge Autopilot v4",
+    "category": "AI Module",
+    "supplier": "ideaForge (indigenous)"
+   },
+   {
+    "component": "NVIDIA Jetson Orin",
+    "category": "AI Module",
+    "supplier": "NVIDIA (USA)"
+   }
+  ],
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "What is special about the SWITCH family?",
+   "a": "It won the Indian Army's largest mini-VTOL UAV contract and remains the reference tactical ISR drone of Indian infantry units."
+  }
+ ],
+ "open_questions": [
+  "Verify the legacy atlas procurement row(s) against MoD/PIB/service announcements and add named sources to upgrade toward Tier B/A.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [
+  {
+   "publisher": "ideaforgetech.com",
+   "title": "The SWITCH UAVs - milestone and future (ideaForge)",
+   "url": "https://ideaforgetech.com/blogs/the-switch-uavs",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "suasnews.com",
+   "title": "ideaForge secures ~Rs 137 crore emergency procurement order from Indian Army",
+   "url": "https://www.suasnews.com/2025/06/ideaforge-secures-%E2%82%B9137-crore-emergency-procurement-order-from-indian-army",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "militaryembedded.com",
+   "title": "SWITCH UAV designed for ISR missions procured by Indian Army",
+   "url": "https://militaryembedded.com/unmanned/isr/switch-uav-designed-for-isr-missions-procured-by-indian-army",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "ideaForge SWITCH UAV 3.0 - India UAS Atlas - Techadyant Labs",
+  "description": "The SWITCH UAV 3.0 is the current production evolution of ideaForge's fixed-wing VTOL tactical UAV family, which set a global benchmark when it won the Indian",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

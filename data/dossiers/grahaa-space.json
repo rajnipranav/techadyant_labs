@@ -1,74 +1,86 @@
 {
-  "entity_id": "grahaa-space",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "grahaa-space",
+ "entity_id": "atl-cmp-grahaa-space",
+ "entity_type": "company",
+ "tier": "B",
+ "noindex": false,
+ "slug": "grahaa-space",
+ "name": "Grahaa Space",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Grahaa Space",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Grahaa Space dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Grahaa Space",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Grahaa Space",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Grahaa Space evidence pending verification.",
-    "sources": [
-      "src-gra-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-gra-1",
-      "title": "Grahaa Space website",
-      "publisher": "Grahaa Space",
-      "url": "https://grahaaspace.com/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Placeholder only."
-    }
-  ],
-  "seo": {
-    "title": "Grahaa Space — Company · India Space Atlas | Techadyant",
-    "meta_description": "Grahaa Space company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/grahaa-space/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "role": "Payload / Tech demo",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/grahaa-space/"
+ },
+ "at_a_glance": {
+  "indicators": [],
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Grahaa Space is a Bengaluru earth-observation nanosatellite startup co-founded by a former ISRO scientist, building a constellation for near-real-time imaging. Its SOLARAS nanosatellite was deployed aboard Skyroot's Vikram-1 mission in 2026, an early demonstration of India's private launch-and-satellite stack.",
+ "india_angle": "Grahaa's SOLARAS flight on Vikram-1 was a first-of-kind pairing of a private Indian nanosatellite on a private Indian orbital launcher, covered by Indian business media. The company is part of the first wave of Indian private EO constellation builders.",
+ "intelligence_assessment": "The launch milestone is verifiable through multiple outlets; constellation funding and customer pipeline remain vendor-stated. Watch follow-on satellites and any IN-SPACe authorisations for its imaging plans.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What did Grahaa Space launch?",
+   "a": "The SOLARAS nanosatellite, deployed on Skyroot's Vikram-1 mission in 2026 to test its satellite platform and onboard systems."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "moneycontrol.com",
+   "title": "Vikram-1 successfully deployed Grahaa Space's SOLARAS satellite",
+   "url": "https://www.moneycontrol.com/science/vikram-1-successfully-deployed-grahaa-space-s-solaras-satellite-in-space-watch",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "manufacturing.economictimes.indiatimes.com",
+   "title": "Grahaa Space deploys SOLARAS nanosatellite aboard Skyroot's Vikram-1",
+   "url": "https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/grahaa-space-deploys-solaras-nanosatellite-aboard-skyroots-vikram-1/",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "linkedin.com",
+   "title": "GrahaaSpace - company page (SOLARAS mission post)",
+   "url": "https://www.linkedin.com/company/grahaaspace",
+   "trust_tier": "indicative",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Grahaa Space - Space Atlas - Techadyant Labs",
+  "description": "Grahaa Space is a Bengaluru earth-observation nanosatellite startup co-founded by a former ISRO scientist, building a constellation for near-real-time imaging",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 3,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

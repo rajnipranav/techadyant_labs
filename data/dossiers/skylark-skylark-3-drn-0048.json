@@ -1,0 +1,134 @@
+{
+ "entity_id": "atl-plat-skylark-skylark-3-drn-0048",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "skylark-skylark-3-drn-0048",
+ "name": "Skylark Skylark-3",
+ "vertical": "drones-uas",
+ "parent_hub_path": "/research/drones-uas/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Skylark Skylark-3",
+  "role": "Mini UAV",
+  "country": "Israel",
+  "status_line": "Procurement",
+  "subtitle": "Skylark-3 LE",
+  "entity_path": "/research/drones-uas/platform/skylark-skylark-3-drn-0048/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Elbit Systems"
+   },
+   {
+    "label": "Primary operator",
+    "value": "Indian Army — Aviation Corps"
+   },
+   {
+    "label": "Mission roles",
+    "value": "ISR, target designation"
+   }
+  ],
+  "key_specs": [
+   "45 kg MTOW",
+   "8 kg payload",
+   "18 hr endurance",
+   "100 km range",
+   "4,500 m ceiling",
+   "100 km/h",
+   "Electric motor"
+  ],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {
+    "In service": "0",
+    "Indigenous content": "0%"
+   }
+  }
+ },
+ "what_it_is": "Skylark Skylark-3 is listed in this atlas as a mini uav (Israel). The atlas legacy record attributes it to Elbit Systems, with Indian Army — Aviation Corps named as primary operator. Reportedly under procurement for Indian Army Special Forces.",
+ "import_dependencies": {
+  "note": "Component/supplier map captured from the live legacy page on 2026-09-02 (unverified lineage).",
+  "components": [
+   {
+    "component": "Elbit Compass EO/IR",
+    "category": "EO/IR Sensor",
+    "supplier": "Elbit Systems"
+   },
+   {
+    "component": "Elbit Compass-D",
+    "category": "EO/IR Sensor",
+    "supplier": "Elbit Systems"
+   }
+  ]
+ },
+ "deployments_procurement": {
+  "summary": "The legacy atlas page lists 1 procurement row(s) (total Rs 78 cr). These rows predate this dossier upgrade and await independent verification.",
+  "records": [
+   {
+    "row": "Indian Army — Aviation Corps · 50 units · 2023 | ₹78 cr",
+    "provenance": "atlas-legacy-record-unverified"
+   }
+  ],
+  "note": "No order, quantity or value on this page is asserted as verified fact. See open_questions."
+ },
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Elbit Systems",
+   "path": "/research/drones-uas/company/elbit-systems-mfr-003/"
+  },
+  "operator": "Indian Army — Aviation Corps",
+  "components": [
+   {
+    "component": "Elbit Compass EO/IR",
+    "category": "EO/IR Sensor",
+    "supplier": "Elbit Systems"
+   },
+   {
+    "component": "Elbit Compass-D",
+    "category": "EO/IR Sensor",
+    "supplier": "Elbit Systems"
+   }
+  ],
+  "parent_hub": "/research/drones-uas/"
+ },
+ "faq": [
+  {
+   "q": "Why does Skylark Skylark-3 appear in the India UAS Atlas?",
+   "a": "It is part of the atlas's coverage of drones uas; the hub lists it as a Mini UAV relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Verify the legacy atlas procurement row(s) against MoD/PIB/service announcements and add named sources to upgrade toward Tier B/A.",
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Skylark Skylark-3 - India UAS Atlas - Techadyant Labs",
+  "description": "Skylark Skylark-3 is listed in this atlas as a mini uav (Israel).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
+}

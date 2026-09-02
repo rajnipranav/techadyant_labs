@@ -1,74 +1,106 @@
 {
-  "entity_id": "manastu-space",
-  "entity_type": "company",
-  "tier": "B",
-  "noindex": false,
-  "slug": "manastu-space",
+ "entity_id": "atl-cmp-manastu-space",
+ "entity_type": "company",
+ "tier": "A",
+ "noindex": false,
+ "slug": "manastu-space",
+ "name": "Manastu Space",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
   "name": "Manastu Space",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/company/",
-  "last_verified": "2026-08-30",
-  "status": "Operational",
-  "header": {
-    "one_liner": "Manastu Space dossier placeholder with initial sources.",
-    "chips": [
-      "B",
-      "India-relevant"
-    ],
-    "maker": "Manastu Space",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "Not applicable",
-    "mobility_or_class": "Not documented",
-    "operational_domains": []
-  },
-  "at_a_glance": {
-    "Name": "Manastu Space",
-    "Type": "company",
-    "Evidence": "Initial sources captured; India relevance may need deepening."
-  },
-  "what_it_is": {
-    "prose": "Manastu Space is an Indian startup developing green propulsion systems for satellites.",
-    "sources": [
-      "src-man-1"
-    ]
-  },
-  "open_questions": [],
-  "sources": [
-    {
-      "id": "src-man-1",
-      "title": "Manastu Space website",
-      "publisher": "Manastu Space",
-      "url": "https://manastu.space/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-30",
-      "note": "Company overview."
-    }
+  "role": "Propulsion",
+  "country": null,
+  "status_line": null,
+  "subtitle": null,
+  "entity_path": "/research/space/company/manastu-space/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Headquarters",
+    "value": "Mumbai"
+   }
   ],
-  "seo": {
-    "title": "Manastu Space — Company · India Space Atlas | Techadyant",
-    "meta_description": "Manastu Space company/entity in the India Space Atlas.",
-    "canonical_path": "/research/space/company/manastu-space/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/"
-    ]
-  },
-  "faq": [],
-  "timeline": [],
-  "graph": {
-    "maker_other_systems": [],
-    "peer_systems": [],
-    "related_components": [],
-    "referenced_by": []
+  "key_specs": [],
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Manastu Space is an IIT Bombay-linked space propulsion startup developing green (non-hydrazine) satellite propulsion, including its iBooster thruster line and MS-289 fuel formulation. The company tested its green propulsion system in space at the end of 2024 and has positioned itself around safer, higher-performance chemical propulsion for small satellites, plus space-safety technology.",
+ "india_angle": "Manastu delivered an iBooster green propulsion system to DRDO under Technology Development Fund support, and publicly test-fired its system in space on 31 December 2024 - among the first private Indian in-space green-propulsion demonstrations. It raised a reported $3M pre-Series A in 2023 with follow-on funding in 2025 to scale commercial deployment.",
+ "intelligence_assessment": "The DRDO TDF delivery and in-space firing give Manastu unusually concrete government-linked evidence for a private propulsion startup. Thrust-class performance, unit economics and customer ramp beyond government demos remain vendor-stated; watch repeat flight units and commercial satellite contracts as confirmation.",
+ "graph": {
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "What does Manastu Space build?",
+   "a": "Green satellite propulsion - the iBooster thruster family and MS-289 fuel - plus space-safety technology."
+  },
+  {
+   "q": "Did Manastu test its propulsion in space?",
+   "a": "Yes - it publicly reported an in-space test firing of its green propulsion system on 31 December 2024."
+  },
+  {
+   "q": "Does Manastu work with DRDO?",
+   "a": "It has publicly delivered an iBooster system to DRDO under Technology Development Fund (TDF) support."
+  }
+ ],
+ "open_questions": [
+  "Confirm whether any Indian service, agency or company operates this entity.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [
+  {
+   "publisher": "manastuspace.com",
+   "title": "Manastu Space - Green Propulsion Systems for Satellites (vendor)",
+   "url": "https://manastuspace.com",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "thehindu.com",
+   "title": "IIT Bombay's space start-up tests its green propulsion system in space",
+   "url": "https://www.thehindu.com/sci-tech/science/iit-bombays-space-start-up-tests-its-green-propulsion-system-in-space/article68684353.ece",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "india.entrepreneur.com",
+   "title": "Manastu Space Raises USD 3 Million to Advance Sustainable Satellite Propulsion",
+   "url": "https://india.entrepreneur.com/news-and-trends/manastu-space-raises-usd-3-million-to-advance-sustainable/495767",
+   "trust_tier": "credible",
+   "accessed": "2026-09-02"
+  },
+  {
+   "publisher": "manastuspace.com",
+   "title": "About Manastu Space - awards and iBooster",
+   "url": "https://manastuspace.com/about",
+   "trust_tier": "official",
+   "accessed": "2026-09-02"
+  }
+ ],
+ "seo": {
+  "title": "Manastu Space - Space Atlas - Techadyant Labs",
+  "description": "Manastu Space is an IIT Bombay-linked space propulsion startup developing green (non-hydrazine) satellite propulsion, including its iBooster thruster line and",
+  "noindex": false
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+   "curated research with source verification"
+  ],
+  "source_count": 4,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }

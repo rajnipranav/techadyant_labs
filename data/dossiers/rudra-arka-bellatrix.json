@@ -1,190 +1,84 @@
 {
-  "entity_id": "rudra-arka-bellatrix",
-  "entity_type": "platform",
-  "tier": "B",
-  "noindex": false,
-  "slug": "rudra-arka-bellatrix",
-  "name": "Rudra / Arka (Bellatrix Aerospace)",
-  "variant": "Green & electric in-space propulsion",
-  "vertical": "space",
-  "parent_hub_path": "/research/space/entity/",
-  "last_verified": "2026-08-29",
-  "status": "In trials",
-  "header": {
-    "one_liner": "Rudra and Arka are Bellatrix Aerospace's in-space propulsion systems — a green high-thrust chemical system (Rudra) and an electric Hall-effect thruster (Arka) — space-qualified on ISRO's PSLV-C58 orbital platform in early 2024.",
-    "chips": [
-      "B",
-      "India-relevant",
-      "In-space propulsion",
-      "Green & electric"
-    ],
-    "maker": "Bellatrix Aerospace",
-    "country": "India",
-    "indigenous_pct": null,
-    "indigenous_label": "India-developed (Bengaluru); no audited indigenous percentage disclosed",
-    "mobility_or_class": "Satellite / orbital-transfer in-space propulsion systems",
-    "operational_domains": [
-      "space"
-    ]
-  },
-  "at_a_glance": {
-    "Maker": "Bellatrix Aerospace (Bengaluru)",
-    "Country": "India",
-    "Rudra": "Green high-thrust chemical propulsion system",
-    "Arka": "Electric (Hall-effect) thruster",
-    "Qualification": "Space-qualified aboard ISRO's PSLV-C58 / POEM orbital platform (Jan 2024)",
-    "Application": "Satellite station-keeping, orbit raising and orbital-transfer vehicles",
-    "Evidence_note": "In-space demonstration reported; commercial order book thin in public sources"
-  },
-  "what_it_is": {
-    "prose": "Rudra and Arka are the two in-space propulsion products by which Bellatrix Aerospace, a Bengaluru propulsion startup with IISc roots, became a space-qualified Indian private propulsion supplier. Rudra is a green high-thrust chemical propulsion system intended to replace toxic hydrazine for satellite manoeuvring and orbit-raising, while Arka is an electric Hall-effect thruster for high-efficiency station-keeping and orbital transfer. In January 2024 Bellatrix demonstrated its propulsion aboard ISRO's PSLV-C58 orbital experimental platform (POEM), reported as the company's first in-space qualification and among the first private in-space propulsion demonstrations from India. The systems target the satellite and orbital-transfer-vehicle market, where green and electric propulsion are increasingly preferred over hydrazine. This is an honest Tier B entry: the in-space demonstration and the two product lines are documented in the company's own updates and credible press, but firm performance figures and a public commercial order book remain thin, so specifics are kept open.",
-    "sources": [
-      "src-1",
-      "src-2",
-      "src-3"
-    ]
-  },
-  "deployments_procurement": {
-    "summary": "Bellatrix sells in-space propulsion systems and orbital-transfer-vehicle propulsion; the flagship milestone is an in-space qualification aboard an ISRO platform rather than a disclosed volume order book.",
-    "rows": [
-      {
-        "agency": "Bellatrix Aerospace / ISRO",
-        "context": "Propulsion space-qualified aboard PSLV-C58 POEM orbital platform",
-        "year": 2024,
-        "quantity_or_note": "In-space demonstration (Jan 2024)",
-        "sources": [
-          "src-2",
-          "src-3"
-        ]
-      },
-      {
-        "agency": "Satellite / OTV operators",
-        "context": "Rudra (green chemical) and Arka (electric) marketed for station-keeping, orbit-raising and orbital transfer",
-        "year": null,
-        "quantity_or_note": "Propulsion products",
-        "sources": [
-          "src-1"
-        ]
-      }
-    ],
-    "open_questions": [
-      "Published thrust/Isp performance figures for Rudra and Arka",
-      "Named commercial customers and firm order quantities"
-    ]
-  },
-  "import_dependencies": {
-    "summary": "Bellatrix positions itself as an indigenous propulsion developer; it has not published a component sovereignty breakdown. Electric-propulsion elements (e.g. certain power/electronics and rare materials) can carry import exposure across the industry.",
-    "items": [
-      {
-        "component": "Propulsion systems (Rudra green chemical, Arka Hall-effect)",
-        "severity": "Low",
-        "note": "Developed in-house by Bellatrix",
-        "sources": [
-          "src-1"
-        ]
-      },
-      {
-        "component": "Electric-propulsion power electronics / specialised materials",
-        "severity": "Medium",
-        "note": "Potential import exposure common to Hall-thruster supply chains; sourcing undisclosed",
-        "sources": [
-          "src-4"
-        ]
-      }
-    ]
-  },
-  "graph": {
-    "peer_systems": [],
-    "related_pillars": [
-      "/research/space/entity/"
-    ]
-  },
-  "faq": [
-    {
-      "question": "What are Rudra and Arka?",
-      "answer": "Rudra is Bellatrix's green high-thrust chemical propulsion system; Arka is its electric Hall-effect thruster — both in-space propulsion products for satellites and orbital-transfer vehicles.",
-      "sources": [
-        "src-1"
-      ]
-    },
-    {
-      "question": "Have they flown in space?",
-      "answer": "Yes; Bellatrix's propulsion was space-qualified aboard ISRO's PSLV-C58 / POEM orbital platform in January 2024.",
-      "sources": [
-        "src-2",
-        "src-3"
-      ]
-    }
+ "entity_id": "atl-plat-rudra-arka-bellatrix",
+ "entity_type": "platform",
+ "tier": "C",
+ "noindex": true,
+ "slug": "rudra-arka-bellatrix",
+ "name": "Rudra / Arka (Bellatrix)",
+ "vertical": "space",
+ "parent_hub_path": "/research/space/",
+ "last_verified": "2026-09-02",
+ "status": "published-thin-upgrade",
+ "header": {
+  "name": "Rudra / Arka (Bellatrix)",
+  "role": "In-space propulsion",
+  "country": "India",
+  "status_line": "Flight heritage on PSLV POEM-3 and POEM-4",
+  "subtitle": "Green & electric propulsion",
+  "entity_path": "/research/space/platform/rudra-arka-bellatrix/"
+ },
+ "at_a_glance": {
+  "indicators": [
+   {
+    "label": "Maker",
+    "value": "Bellatrix Aerospace"
+   },
+   {
+    "label": "Operator",
+    "value": "Multiple (ISRO POEM heritage)"
+   }
   ],
-  "sources": [
-    {
-      "id": "src-1",
-      "title": "Arka Shines and Rudra Roars",
-      "publisher": "Bellatrix Aerospace",
-      "url": "https://bellatrix.aero/updates/arka-shines-rudra-roars",
-      "published_date": null,
-      "trust_tier": "official",
-      "accessed": "2026-08-29",
-      "note": "Company update describing the Arka electric thruster and Rudra green propulsion systems."
-    },
-    {
-      "id": "src-2",
-      "title": "Bellatrix Aerospace is open for business with successful space test on ISRO's PSLV-C58",
-      "publisher": "Republic World",
-      "url": "https://www.republicworld.com/science/space/bengaluru-s-bellatrix-aerospace-becomes-space-qualified-on-isro-s-pslv-for-the-first-time",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "In-space qualification on PSLV-C58 / POEM."
-    },
-    {
-      "id": "src-3",
-      "title": "Bellatrix Aerospace Successfully Qualifies Propulsion Systems",
-      "publisher": "SpaceWatch.Global",
-      "url": "https://spacewatch.global/2024/01/bellatrix-aerospace-sucessfully-qualifies-propulsion-systems/",
-      "published_date": "2024-01",
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Independent confirmation of the PSLV-C58 propulsion qualification."
-    },
-    {
-      "id": "src-4",
-      "title": "Bellatrix Aerospace",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Bellatrix_Aerospace",
-      "published_date": null,
-      "trust_tier": "indicative",
-      "accessed": "2026-08-29",
-      "note": "Company background: green and electric propulsion product lines."
-    },
-    {
-      "id": "src-5",
-      "title": "Bellatrix Aerospace Successfully Tests Electric, Green Fuel Satellite Engine",
-      "publisher": "Geospatial World",
-      "url": "https://geospatialworld.net/news/bellatrix-aerospace-electric-green-satellite-engine/",
-      "published_date": null,
-      "trust_tier": "credible",
-      "accessed": "2026-08-29",
-      "note": "Coverage of Bellatrix green and electric propulsion testing."
-    }
+  "key_specs": [
+   "In-space propulsion",
+   "Green & electric propulsion",
+   "LEO hosted orbit"
   ],
-  "seo": {
-    "title": "Rudra / Arka (Bellatrix Aerospace) — Platform · India Space Atlas | Techadyant",
-    "meta_description": "Rudra and Arka — Bellatrix Aerospace's green chemical and electric Hall-effect in-space propulsion systems, space-qualified aboard ISRO's PSLV-C58 in early 2024.",
-    "canonical_path": "/research/space/entity/rudra-arka-bellatrix/",
-    "og_type": "article",
-    "json_ld_types": [
-      "WebPage",
-      "Article",
-      "FAQPage",
-      "BreadcrumbList"
-    ]
-  },
-  "cta": {
-    "track_ecosystem": "/research/space/entity/",
-    "submit_correction": "/research/space/submit-correction/",
-    "related_research": [
-      "/research/space/entity/"
-    ]
+  "atlas_legacy_record": {
+   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+   "fields": {}
   }
+ },
+ "what_it_is": "Rudra / Arka (Bellatrix) is listed in this atlas as a in-space propulsion (India). The atlas legacy record attributes it to Bellatrix Aerospace. Rudra green propulsion and Arka Hall-effect thruster flown on ISRO POEM missions.",
+ "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+ "graph": {
+  "maker": {
+   "name": "Bellatrix Aerospace",
+   "path": "/research/space/company/bellatrix-aerospace/"
+  },
+  "operator": "Multiple (ISRO POEM heritage)",
+  "parent_hub": "/research/space/"
+ },
+ "faq": [
+  {
+   "q": "Why does Rudra / Arka (Bellatrix) appear in the Space Atlas?",
+   "a": "It is part of the atlas's coverage of space; the hub lists it as a In-space propulsion relevant to India's industrial and security picture."
+  },
+  {
+   "q": "What is the evidence status of this dossier?",
+   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+  }
+ ],
+ "open_questions": [
+  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+ ],
+ "sources": [],
+ "seo": {
+  "title": "Rudra / Arka (Bellatrix) - Space Atlas - Techadyant Labs",
+  "description": "Rudra / Arka (Bellatrix) is listed in this atlas as a in-space propulsion (India).",
+  "noindex": true
+ },
+ "cta": {
+  "label": "Request a dossier upgrade",
+  "href": "/engage/"
+ },
+ "provenance": {
+  "origin": "atlas-thin-upgrade-pack",
+  "pack_version": "1.0.0",
+  "built_from": [
+   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  ],
+  "source_count": 0,
+  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+ }
 }
