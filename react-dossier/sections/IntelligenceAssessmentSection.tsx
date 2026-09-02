@@ -19,6 +19,15 @@ const SCORE_LABELS = [
 ];
 
 export function IntelligenceAssessmentSection({ data, sources }: Props) {
+  if (typeof data === "string") {
+    return (
+      <section className="ed-section ed-intel" aria-labelledby="intel-h">
+        <h2 id="intel-h" className="ed-section-h">Intelligence Assessment</h2>
+        <p style={{ lineHeight: 1.7 }}>{data}</p>
+      </section>
+    );
+  }
+
   return (
     <section
       className="ed-section ed-intel"

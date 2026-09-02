@@ -198,3 +198,42 @@ export function renderCompanyDossierPage(slug: string, vertical: string) {
     </>
   );
 }
+
+function normaliseDossier(dossier: any): any {
+  if (!dossier) return dossier;
+  const out = { ...dossier };
+
+  out.header = {
+    ...(out.header || {}),
+    chips: Array.isArray(out.header?.chips) ? out.header.chips : [],
+    operational_domains: Array.isArray(out.header?.operational_domains)
+      ? out.header.operational_domains
+      : [],
+  };
+
+  if (typeof out.intelligence_assessment === "string") {
+    out.intelligence_assessment = {
+      methodology_path: "/research/methodology/",
+      dimensions: [],
+      raw: out.intelligence_assessment,
+    };
+  }
+
+  const graph = out.graph || {};
+  out.graph = {
+    ...graph,
+    maker_other_systems: Array.isArray(graph.maker_other_systems)
+      ? graph.maker_other_systems
+      : [],
+    peer_systems: Array.isArray(graph.peer_systems) ? graph.peer_systems : [],
+    related_components: Array.isArray(graph.related_components)
+      ? graph.related_components
+      : [],
+    related_pillars: Array.isArray(graph.related_pillars) ? graph.related_pillars : [],
+    referenced_by: Array.isArray(graph.referenced_by) ? graph.referenced_by : [],
+  };
+
+  out.sites = Array.isArray(out.sites) ? out.sites : [];
+
+  return out;
+}

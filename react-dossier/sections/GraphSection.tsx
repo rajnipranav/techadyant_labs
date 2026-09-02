@@ -15,11 +15,11 @@ function slugToPath(slug: string, parentHubPath: string): string {
 
 export function GraphSection({ data, parentHubPath }: Props) {
   const groups: { label: string; items: Array<string | { name: string; path: string }> | undefined }[] = [
-    { label: "Maker — Other Systems", items: data.maker_other_systems as Array<string | { name: string; path: string }> | undefined },
-    { label: "Peer Systems", items: data.peer_systems as Array<string | { name: string; path: string }> | undefined },
-    { label: "Related Components", items: data.related_components as Array<string | { name: string; path: string }> | undefined },
-    { label: "Related Pillars", items: data.related_pillars as Array<string | { name: string; path: string }> | undefined },
-    { label: "Referenced By", items: data.referenced_by as Array<string | { name: string; path: string }> | undefined },
+    { label: "Maker — Other Systems", items: data?.maker_other_systems },
+    { label: "Peer Systems", items: data?.peer_systems },
+    { label: "Related Components", items: data?.related_components },
+    { label: "Related Pillars", items: data?.related_pillars },
+    { label: "Referenced By", items: data?.referenced_by },
   ];
 
   const hasAny = groups.some((g) => g.items && g.items.length > 0);

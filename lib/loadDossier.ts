@@ -698,6 +698,6 @@ export function listDossiersByVertical(vertical: EntityDossier["vertical"]): Ent
 // Helper: return static params for a route segment that maps to a given base path
 export function listStaticParamsForBase(basePath: string): { slug: string }[] {
   return Object.values(DOSSIER_MAP)
-    .filter((d) => d.seo.canonical_path?.startsWith(basePath))
+    .filter((d) => (d.seo?.canonical_path || d.header?.entity_path || '')?.startsWith(basePath))
     .map((d) => ({ slug: d.slug }));
 }

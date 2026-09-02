@@ -21,7 +21,9 @@ export function AtAGlanceSection({ data }: Props) {
         {entries.map(([k, v]) => (
           <div key={k} className="ed-glance-cell">
             <dt className="ed-glance-key">{k.replace(/_/g, " ")}</dt>
-            <dd className="ed-glance-val">{v}</dd>
+            <dd className="ed-glance-val">
+              {typeof v === "object" ? JSON.stringify(v) : String(v ?? "")}
+            </dd>
           </div>
         ))}
       </dl>

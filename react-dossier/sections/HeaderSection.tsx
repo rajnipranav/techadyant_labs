@@ -31,7 +31,7 @@ export function HeaderSection({ dossier }: Props) {
       <p className="lede">{header.one_liner}</p>
 
       <div className="ed-chips">
-        {header.chips.map((chip) => (
+        {(header.chips || []).map((chip) => (
           <span key={chip} className="ed-chip">
             {chip}
           </span>
@@ -71,7 +71,7 @@ export function HeaderSection({ dossier }: Props) {
       </div>
 
       {header.operational_domains &&
-      header.operational_domains.length > 0 ? (
+      (header.operational_domains || []).length > 0 ? (
         <div className="ed-domains">
           {header.operational_domains.map((d) => (
             <span key={d} className="ed-domain-chip">

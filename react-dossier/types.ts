@@ -61,6 +61,7 @@ export interface Header {
   indigenous_label?: string;
   mobility_or_class?: string;
   operational_domains?: OperationalDomain[];
+  entity_path?: string;
 }
 
 export interface AtAGlance {
