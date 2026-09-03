@@ -1,0 +1,294 @@
+{
+  "entity_id": "def-048",
+  "entity_type": "dependency",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ge-f414-india-manufacturing-pathway",
+  "name": "GE F414 (India Manufacturing Pathway)",
+  "variant": "GE F414-GE-INS6 / India manufacturing pathway — GE-HAL engine co-production for Tejas Mk2 and AMCA",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "technology_transfer_pathway",
+  "header": {
+    "one_liner": "The planned GE-HAL co-production of the GE F414 engine in India — a landmark technology-transfer pathway covering production, licensure and MRO so India can build the engine powering the Tejas Mk2 and AMCA, a step toward reducing (not yet eliminating) fighter-engine dependence.",
+    "chips": [
+      "Turbofan engine",
+      "GE Aerospace",
+      "GE-HAL co-production",
+      "F414",
+      "Tejas Mk2 / AMCA",
+      "Technology transfer",
+      "Make in India"
+    ],
+    "maker": "GE Aerospace (USA) + Hindustan Aeronautics Limited (HAL) — co-production/licence",
+    "country": "IN/US",
+    "indigenous_pct": null,
+    "indigenous_label": "Technology-transfer pathway — transitioning from import to Indian co-production/MRO",
+    "mobility_or_class": "Afterburning turbofan (fighter engine), co-production pathway",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Afterburning turbofan (fighter engine) — co-production",
+    "OEM": "GE Aerospace (USA) + HAL (India) — technology transfer",
+    "Engine": "GE F414-GE-INS6 (Indian variant)",
+    "Application": "LCA Tejas Mk2 and (initial) AMCA",
+    "Thrust": "~98 kN (22,000 lbf) class afterburning",
+    "Model": "GE-HAL co-production / licensed manufacture + MRO in India",
+    "Significance": "Transitions fighter-engine dependence from pure import to Indian production/licence",
+    "Indigenous_engine": "GTRE Kaveri still not ready — F414 co-production is the near-term bridge",
+    "Status": "Technology-transfer pathway — defined/advancing, production ramping"
+  },
+  "what_it_is": {
+    "prose": "The GE F414 India manufacturing pathway is the landmark agreement between GE Aerospace (USA) and Hindustan Aeronautics Limited (HAL) to co-produce the GE F414-GE-INS6 afterburning turbofan engine in India — a technology-transfer initiative that directly serves the LCA Tejas Mk2 and the AMCA (which will use the F414 in its initial Mk-1 configuration). The deal, which drew international attention as one of the deepest fighter-engine technology transfers to India ever, covers manufacture, licensed production, overhaul/MRO and, importantly, a degree of shared production between GE and HAL, with the ambition of progressively higher Indian content. Because India's own fighter engine (the GTRE Kaveri) has never reached service, the F414 pathway is the near-term mechanism by which the Mk2/AMCA can be powered while an indigenous engine base matures. Strategically, this pathway is a deliberate step to reduce — though not yet eliminate — India's hard dependence on imported fighter engines: it moves from buying the engine outright to building it (at least partially) in India with US license, transferring manufacturing, test and overhaul capability to HAL. The pathway also positions India's defence-industrial ecosystem (HAL + the private supply base) for the F414 class, creating a domestic engine supply chain that did not exist before. It does not grant Indian design ownership — the engine remains a US design — but it materially improves production sovereignty and MRO self-reliance for the most important fighter programmes of the decade.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The GE-HAL F414 co-production / technology-transfer pathway was negotiated and announced in 2023 as one of the deepest such transfers to India, following landmark US-India defence deals. HAL is implementing the licensed manufacture and MRO for the F414-GE-INS6 to support the Tejas Mk2 and AMCA. The pathway is being matured as those aircraft move toward production, with the aim of Indian-built and Indian-overhauled F414s.",
+    "rows": [
+      {
+        "agency": "GE Aerospace / HAL",
+        "context": "F414 co-production / tech-transfer agreement negotiated",
+        "year": 2023,
+        "quantity_or_note": "GE-HAL agreement for F414 manufacture + MRO in India",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "HAL",
+        "context": "Implementation of licensed manufacture / facility set-up",
+        "year": 2024,
+        "quantity_or_note": "HAL implementing F414 co-production and MRO capability",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "HAL / IAF",
+        "context": "F414-GE-INS6 to power Tejas Mk2 / AMCA",
+        "year": 2026,
+        "quantity_or_note": "Pathway maturing ahead of Mk2/AMCA production",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact share of Indian content / local manufacture achieved vs US-supplied",
+      "Whether MRO for the entire Tejas-Mk2/AMCA F414 fleet is fully indigenised",
+      "When Indian-built F414 engines begin series delivery to HAL's aircraft",
+      "Whether this also seeds an indigenous engine design programme"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The pathway transitions F414 from a hard import to Indian co-production/MRO, but the engine remains a US design with some component imports.",
+    "items": [
+      {
+        "component": "GE F414 core / design",
+        "severity": "High",
+        "note": "Engine core and design remain US (GE) — India gets licence/certain modules, not design ownership",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "High-temperature components / hot-section",
+        "severity": "High",
+        "note": "Superalloy turbine blades and hot-section modules remain largely US-sourced in early co-production",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Entire engine (pre-pathway)",
+        "severity": "Critical",
+        "note": "Historically the F414 was a full import; the pathway reduces not eliminates this",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 2,
+        "note": "US design — India gains licence/co-production but not design authority",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Co-produced in India (HAL) — material improvement in production sovereignty",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Core/hot-section still US; the pathway reduces but doesn't close the gap",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "Set to power the Mk2 and AMCA at scale — high-volume relevance",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Indian-built F414s and Mk2/AMCA exports constrained by US engine-export licensing",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "ge-f404-ge-in20-engine-for-lca-mk1a"
+    ],
+    "peer_systems": [
+      "ge-f404-ge-in20-engine-for-lca-mk1a",
+      "lca-tejas-mk2",
+      "amca"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the GE F414 India manufacturing pathway?",
+      "answer": "It is the GE Aerospace-HAL technology-transfer agreement to co-produce the GE F414-GE-INS6 fighter engine in India — covering licensed manufacture, MRO and some shared production — to power the Tejas Mk2 and AMCA.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Does this make India self-sufficient in fighter engines?",
+      "answer": "Not fully. The F414 remains a US-designed engine; India gains co-production and MRO but not design ownership. It materially reduces dependence versus buying the engine outright, but full independence awaits an indigenous engine, which is not yet in service.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Which aircraft use the F414?",
+      "answer": "The GE F414-GE-INS6 is planned to power the HAL LCA Tejas Mk2 and the initial (Mk-1) configuration of the AMCA, making it the backbone engine of India's next decade of indigenous fighters.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023",
+      "event": "GE-HAL F414 co-production / tech-transfer agreement announced",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "HAL implementing licensed manufacture and MRO capability",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "Pathway maturing ahead of Mk2/AMCA production",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact Indian-content share achieved in F414 co-production",
+    "Full indigenisation of F414 MRO",
+    "When Indian-built F414s begin series delivery",
+    "Whether this seeds a future indigenous engine design programme"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "GE F414 / GE-HAL India co-production coverage",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Credible reporting on the F414 India technology-transfer deal"
+    },
+    {
+      "id": "src-2",
+      "title": "HAL engine programmes — F404/F414",
+      "publisher": "Hindustan Aeronautics Limited",
+      "url": "https://hal-india.co.in/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "HAL engine co-production context"
+    },
+    {
+      "id": "src-3",
+      "title": "US-India defence — F414 pathway",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/General_Electric_F414",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "F414 specifications and India application"
+    },
+    {
+      "id": "src-4",
+      "title": "GE Aerospace and HAL Reach Major Agreement for F414 Engine Co-Production in India",
+      "publisher": "Economic Times (Manufacturing)",
+      "url": "https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/ge-aerospace-and-hal-reach-major-agreement-for-f414-engine-co-production-in-india/130225469",
+      "published_date": "2026-04-13",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "F414 co-production agreement report"
+    }
+  ],
+  "seo": {
+    "title": "GE F414 India Manufacturing Pathway — Technology | India Defence Atlas | Techadyant",
+    "meta_description": "The GE-HAL F414 co-production and technology-transfer pathway building India's next fighter engine for the Tejas Mk2 and AMCA — reducing fighter-engine dependence.",
+    "canonical_path": "/research/pillars/defence/entity/ge-f414-india-manufacturing-pathway/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

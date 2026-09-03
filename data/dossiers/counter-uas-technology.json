@@ -1,0 +1,303 @@
+{
+  "entity_id": "def-051",
+  "entity_type": "dependency",
+  "tier": "A",
+  "noindex": false,
+  "slug": "counter-uas-technology",
+  "name": "Counter-UAS (C-UAS) Technology",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "in_production_and_delivery",
+  "header": {
+    "one_liner": "Counter-unmanned aircraft systems — detection, tracking, identification, and neutralisation of hostile drones; a rapidly scaling Indian capability driven by the drone threat demonstrated in Ukraine and the Israel-Hamas conflict, and validated domestically during Operation Sindoor.",
+    "chips": [
+      "C-UAS",
+      "DRDO",
+      "BEL",
+      "Counter-drone",
+      "Soft-kill",
+      "Hard-kill",
+      "DEW",
+      "Operation Sindoor"
+    ],
+    "maker": "DRDO — CCUAS programme; BEL — Integrated C-UAS; Zen Technologies — Zen Anti-drone System (ZADS); multiple Indian startups (Big Bang Boom, Grene Robotics, Paras Aerospace)",
+    "country": "India / Foreign",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Technology / system family",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Technology": "Counter-UAS — detect/track/identify/neutralise hostile small and medium unmanned aerial systems using RF detection, radar, EO/IR sensors, electronic jamming (soft-kill), kinetic interceptors (hard-kill), and directed-energy weapons (DEW)",
+    "Indian_programme": "60+ C-UAS systems in Indian inventory (24 indigenous); BEL Integrated C-UAS, DRDO CCUAS, Zen ZADS, Big Bang Boom Bhargavastra, Grene Indrajaal among key Indian systems",
+    "Current_status": "India has ~60 C-UAS systems operational or under procurement across Army, Navy, IAF, BSF, and paramilitary forces; ₹374 cr in procurement contracts (30 contracts); operational validation during Operation Sindoor (May 2025)",
+    "Key_indian_players": "BEL (Integrated C-UAS), Zen Technologies (ZADS), Big Bang Boom Solutions (Bhargavastra), Grene Robotics (Indrajaal), Paras Aerospace, Astra Microwave, Tata Advanced Systems",
+    "Key_foreign_suppliers": "Rafael (Drone Dome — Israel), Thales (Rapidolve — France), Northrop Grumman (US), Rheinmetall (Germany — Skyshield DEW)",
+    "Critical_gap": "Directed-energy weapons (DEW) for hard-kill at scale; high-power microwave (HPM) systems; AI-driven autonomous detect-to-engage chains; high-reliability kinetic interceptors; domestic production of key RF components",
+    "Procurement_value": "~₹374 cr confirmed (30 contracts) with significant pipeline growth; Indian Army's Op Sindoor emergency powers allocated ~₹9,100 cr for counter-drone and strike systems",
+    "Operational_domains": "Land (critical for Army forward positions, forward operating bases), Air (IAF base protection, airborne C-UAS), Naval (ship self-defence against drone swarms)"
+  },
+  "what_it_is": {
+    "prose": "Counter-unmanned aircraft systems (C-UAS) represents one of the fastest-growing segments of Indian defence technology. The global drone threat — dramatically demonstrated by Turkish Bayraktar TB2 operations in Libya and Armenia, Chinese-made DJI drones adapted for battlefield reconnaissance in Ukraine, and Iranian Shahed kamikaze drones — has driven urgent demand for counter-drone capabilities worldwide. India, with one of the world's most active internal security and border environments, has responded by fielding over 60 C-UAS systems across the Indian Army, Navy, Air Force, BSF, and paramilitary forces. The Indian C-UAS ecosystem spans the full kill chain: detection and tracking (RF sensors, radar, EO/IR cameras), identification (AI-based drone classification), soft-kill (electronic jamming, GPS spoofing, RF protocol exploitation), hard-kill (kinetic interceptors, net-capture systems, autocannons), and the emerging frontier of directed-energy weapons (DEW — high-energy lasers and high-power microwave systems). India's indigenous capability is significant: the DRDO's Counter-Column UAS (CCUAS) system, BEL's Integrated C-UAS, Zen Technologies' ZADS, and several startup-driven systems have been procured and deployed. Operation Sindoor (May 2025) was a watershed moment — Indian C-UAS systems were used operationally to intercept Pakistani drones and loitering munitions, validating both the technology and the operational doctrine. The core industrial challenge is scaling domestic production of the key components — particularly RF detection and jamming modules, high-power microwave systems, and the AI-driven command-and-control software that links the kill chain.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "capability_notes": {
+    "summary": "India has the world's third-largest C-UAS inventory (~60 systems) after the US and Israel, with 24 indigenous systems across detection, soft-kill, and hard-kill. Operation Sindoor validated operational use. DEW (directed-energy) is the frontier.",
+    "platforms": [
+      "BEL Integrated C-UAS (multi-layer, radar + jammer + kinetic)",
+      "DRDO CCUAS (Counter-Column UAS — for convoy protection)",
+      "Zen Technologies ZADS (Zen Anti-Drone System — RF jammer + EO tracker)",
+      "Big Bang Boom Bhargavastra (kinetic interceptor drone)",
+      "Grene Robotics Indrajaal (autonomous C-UAS drone swarm)",
+      "Rafael Drone Dome (Israel — soft/hard kill, fitted on some forward bases)",
+      "Various Indian Army and BSF tactical C-UAS systems"
+    ],
+    "open_questions": [
+      "Whether Indian DEW systems will reach operational deployment by 2028-29",
+      "Integration of AI-driven autonomous detect-to-engage chains across the 60+ systems",
+      "Whether C-UAS procurement will converge on a standardised Indian Army architecture"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "India's C-UAS ecosystem is relatively indigenous compared to other defence-technology domains, but key components and advanced systems remain imported.",
+    "items": [
+      {
+        "component": "Directed-energy weapon (DEW) subsystems",
+        "severity": "High",
+        "note": "High-energy laser and HPM jamming/kill systems are at prototype stage in India (DRDO); production-ready DEW is dominated by US (Northrop Grumman, Raytheon), Israel (Rafael), and Germany (Rheinmetall).",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "component": "Advanced RF detection and jamming modules",
+        "severity": "Medium",
+        "note": "Wideband RF detection and protocol-specific jamming for modern digital drones (frequency-hopping, encrypted control links) require advanced components; Indian production is scaling but some sub-systems imported from Israel.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "component": "AI-driven drone classification and threat assessment software",
+        "severity": "Medium",
+        "note": "Machine learning models for real-time drone classification (distinguishing commercial DJI from military UAS) are being developed by Indian startups but mature, combat-proven systems are Israeli/US.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Kinetic interceptor munitions and guidance systems",
+        "severity": "Low",
+        "note": "Small guided munitions for C-UAS hard-kill are being produced in India (Big Bang Boom, Paras); some import dependence on guidance components.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "India has 24+ indigenous C-UAS system designs across BEL, DRDO, Zen, and startups; design ownership is strong and growing.",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Most C-UAS systems are produced domestically by BEL, Zen, and private-sector startups; high production capability relative to other defence-technology domains.",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "RF detection/jamming components and DEW subsystems are partially import-dependent; AI/classification software is emerging domestically.",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 5,
+        "note": "60+ systems fielded across all services; Operation Sindoor combat-validated; one of the most operationally scaled defence-technology domains in India.",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Indian C-UAS systems (especially Zen ZADS and BEL) are already exported or under evaluation by multiple friendly nations; the global C-UAS market is growing at ~25% CAGR.",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "akashtaran-anti-uav-electronic-warfare-system-def-027",
+      "who-builds-indias-drones",
+      "electronic-warfare-systems-def-050"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "How many counter-drone systems does India operate?",
+      "answer": "As of 2026, India operates approximately 60 counter-UAS systems across the Indian Army, Navy, Air Force, BSF, and paramilitary forces. Of these, 24 are indigenous Indian systems (DRDO CCUAS, BEL Integrated C-UAS, Zen ZADS, and various startup-developed systems). The remaining are imported, primarily from Israel (Rafael Drone Dome) and some legacy systems. India has approximately ₹374 crore in confirmed C-UAS procurement contracts across 30 separate contracts.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What role did C-UAS play in Operation Sindoor?",
+      "answer": "During Operation Sindoor (May 2025), Indian C-UAS systems were used operationally to intercept Pakistani drones and loitering munitions targeting Indian forward positions. This was the first confirmed operational use of Indian C-UAS systems in combat, validating both the technology and the operational doctrine. The Indian Army's emergency procurement powers (₹9,100 cr ceiling) were partly directed towards C-UAS and counter-drone systems in the run-up to the operation.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "What is directed-energy C-UAS and when will India field it?",
+      "answer": "Directed-energy weapons (DEW) for C-UAS use high-energy lasers or high-power microwave (HPM) beams to disable or destroy drones without physical projectiles. DEW offers near-unlimited magazine depth and very low cost-per-engagement compared to kinetic interceptors. DRDO is developing both laser-based and HPM-based DEW systems, but production-ready fielding is not expected before 2028-29. The US (Northrop Grumman, Raytheon), Israel (Rafael), and Germany (Rheinmetall) are ahead in operational DEW deployment.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2019",
+      "event": "India begins emergency C-UAS procurement following无人机 incursion incidents at international border",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2021",
+      "event": "DRDO CCUAS (Counter-Column UAS) system enters Army service for convoy protection",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2023",
+      "event": "BEL Integrated C-UAS multi-layer system deployed across forward bases",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2025-05",
+      "event": "Operation Sindoor — Indian C-UAS systems combat-validated against Pakistani drones and loitering munitions",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "Indian C-UAS inventory reaches ~60 systems; ₹374 cr confirmed procurement pipeline; DEW prototypes in testing",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Whether Indian DEW systems will achieve operational deployment by 2028-29",
+    "Integration architecture for the 60+ heterogeneous C-UAS systems across services",
+    "Whether C-UAS will become an Indian export success story given global demand growth",
+    "Impact of drone swarm proliferation on C-UAS architecture requirements",
+    "Whether India's C-UAS startup ecosystem can sustain R&D investment without continuous government procurement orders"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "India's Counter-Drone Capability — PIB Backgrounder",
+      "publisher": "PIB India",
+      "url": "https://pib.gov.in/",
+      "published_date": "2026-02-17",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB PRID 2228954 — India's drone ecosystem backgrounder, including C-UAS context"
+    },
+    {
+      "id": "src-2",
+      "title": "India C-UAS market and procurement — BEL, Zen Technologies",
+      "publisher": "Livefist Defence",
+      "url": "https://www.livefistdefence.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Indian C-UAS ecosystem coverage"
+    },
+    {
+      "id": "src-3",
+      "title": "Counter-UAS technology — global and India perspective",
+      "publisher": "Jane's Defence Weekly",
+      "url": "https://www.janes.com/defence-news",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Global C-UAS market and technology trends"
+    },
+    {
+      "id": "src-4",
+      "title": "India's Rise As A Global Counter-Drone Powerhouse",
+      "publisher": "Indian Defence News",
+      "url": "https://www.indiandefensenews.in/2026/04/indias-rise-as-global-counter-drone.html",
+      "published_date": "2026-04-14",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "India C-UAS capability report"
+    }
+  ],
+  "seo": {
+    "title": "Counter-UAS Technology — Technology | India Defence Atlas | Techadyant",
+    "meta_description": "Counter-drone technology for Indian defence — 60+ C-UAS systems, DRDO CCUAS, BEL Integrated C-UAS, Operation Sindoor combat validation, directed-energy weapons, and India's C-UAS startup ecosystem.",
+    "canonical_path": "/research/pillars/defence/entity/counter-uas-technology/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

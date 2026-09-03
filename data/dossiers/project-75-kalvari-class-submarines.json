@@ -1,0 +1,329 @@
+{
+  "entity_id": "def-039",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "project-75-kalvari-class-submarines",
+  "name": "Project-75 Kalvari-class Submarines",
+  "variant": "P-75 Kalvari class — 6 diesel-electric attack submarines (Scorpène design, MDL + Naval Group)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "in_service_and_follow_on",
+  "header": {
+    "one_liner": "India's six diesel-electric attack submarines (Scorpène design) built at MDL under Naval Group (DCNS) technical transfer; INS Kalvari lead 2017 through INS Vagsheer 2024; P-75 follow-on tranche and AIP integration under way.",
+    "chips": [
+      "Diesel-electric submarine",
+      "Scorpène class",
+      "P-75",
+      "MDL built",
+      "Naval Group ToT",
+      "6 submarines",
+      "In service",
+      "AIP follow-on"
+    ],
+    "maker": "Mazagon Dock Shipbuilders Limited (MDL), Mumbai — with Naval Group (France) design and technology transfer",
+    "country": "IN/FR",
+    "indigenous_pct": null,
+    "indigenous_label": "~30-40% indigenous content escalating with MDL build; major subsystems French-licenced",
+    "mobility_or_class": "Diesel-electric attack submarine (Scorpène design)",
+    "operational_domains": [
+      "naval",
+      "sea",
+      "underwater"
+    ]
+  },
+  "at_a_glance": {
+    "Class": "Kalvari class (Scorpène design, P-75)",
+    "Builder": "Mazagon Dock Shipbuilders Limited (MDL), Mumbai",
+    "Displacement": "~1,615 t surfaced / ~1,800 t submerged",
+    "Length": "~67.5 m",
+    "Beam": "~6.2 m",
+    "Propulsion": "Diesel-electric — 4 Pielstick PA4V200 diesels + electric motor; AIP (DRDO) integration on follow-on",
+    "Speed": "~20 knots submerged",
+    "Range": "~6,500 nm surfaced; ~550 nm submerged (snorkel)",
+    "Armament": "6x 533mm torpedo tubes — heavy torpedoes + Exocet SM39 anti-ship missiles",
+    "Sensors": "Thales/indigenous sonar; torpedo fire-control",
+    "Crew": "~31 (8 officers + 23 sailors)",
+    "Class_size": "6 boats (Kalvari, Khanderi, Karanj, Vela, Vagir, Vagsheer)",
+    "Status": "All 6 commissioned (2017-2024); P-75 follow-on + AIP under way"
+  },
+  "what_it_is": {
+    "prose": "The Project-75 Kalvari-class submarines are India's six diesel-electric attack submarines built at Mazagon Dock Shipbuilders Limited (MDL) in Mumbai to the French Scorpène design, developed under a technology-transfer agreement with Naval Group (formerly DCNS). The programme — approved in 2005 and signed in 2005 (build contract) — saw MDL fabricate the hulls with progressively rising indigenous content, integrating Indian-made and licenced subsystems around the Scorpène core. The lead boat INS Kalvari commissioned in December 2017 and the sixth boat INS Vagsheer commissioned in January 2024, completing the six-boat class (Kalvari, Khanderi, Karanj, Vela, Vagir, Vagsheer). The boats are fitted as multi-role attack submarines with six 533mm torpedo tubes firing heavyweight torpedoes and Exocet SM39 anti-ship missiles, a Thales-designed sonar suite (with Indian indigenisation), and a diesel-electric propulsion plant. The class operates under a deliberate under-strength submarine arm that badly needs rebuilding — India's submarine force is below its sanctioned strength. The P-75 hulls are now being upgraded with a DRDO-developed AIP (Air-Independent Propulsion) fuel-cell module on selected boats, and a P-75 follow-on tranche had been under negotiation as the Indian Navy seeks to rebuild submarine numbers toward the ~18-boat goal, alongside the separate P-75I programme for 6 new boats with AIP.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The six Kalvari-class boats all entered service (2017-2024). The class represents the French-licenced cornerstone of India's submarine force — complemented by the Russian-origin Sindhughosh class. Design weaknesses and the need to rebuild submarine numbers are driving the AIP upgrade and the separate P-75I (6 new AIP boats) programme, as well as a possible P-75 follow-on tranche from MDL/Naval Group.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "P-75 Kalvari-class programme approved/build contract (6 boats)",
+        "year": 2005,
+        "quantity_or_note": "6 Scorpène-design submarines at MDL",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy / MDL",
+        "context": "INS Kalvari commissioned (lead boat)",
+        "year": 2017,
+        "quantity_or_note": "December 2017 — first P-75 submarine",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Navy / MDL",
+        "context": "INS Vagsheer commissioned (sixth & final boat)",
+        "year": 2024,
+        "quantity_or_note": "January 2024 — completes six-boat class",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "AIP integration on P-75 boats",
+        "year": 2026,
+        "quantity_or_note": "DRDO fuel-cell AIP being integrated on select boats; follow-on tranche under discussion",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact status of the P-75 follow-on tranche (additional Kalvari-class boats) negotiation",
+      "Which boats receive AIP first and when inducted",
+      "Whether the class reaches the Navy's ~18-submarine target within the decade"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The Kalvari class is a French-licenced design with substantial import content concentrated in the propulsion, sensors, torpedo tubes and torpedo/missile weapons.",
+    "items": [
+      {
+        "component": "Scorpène design / hull & subsystems licence",
+        "severity": "Critical",
+        "note": "Naval Group (France) — the entire design is licenced; no fully indigenous submarine design in service (P-75I seeks to change this)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Torpedoes / SM39 Exocet missiles",
+        "severity": "High",
+        "note": "Heavyweight torpedoes (sea mine lay, wire-guided family) and Exocet SM39 anti-ship missiles imported or licenced",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Sonar suite",
+        "severity": "Medium-High",
+        "note": "Thales-built sonar with Indian indigenisation (BEL/NSTL); some arrays/transducers imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Propulsion diesels / electric motors",
+        "severity": "Medium",
+        "note": "FR Pielstick/MAN-family diesels and motors partly imported; AIP is DRDO-indigenous",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 2,
+        "note": "French Scorpène design licenced; no fully indigenous design (P-75I target)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "MDL Mumbai — full indigenous hull construction",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Design, torpedoes, sonar, propulsion heavily licenced/imported; AIP is the key indigenous lift",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 3,
+        "note": "6 boats complete but submarine force remains below sanctioned strength",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "Scorpène design is Naval Group's; India gets no export benefit from a licenced build",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "mazagon-dock-shipbuilders-limited",
+      "naval-group"
+    ],
+    "peer_systems": [
+      "project-75i",
+      "anti-submarine-warfare-shallow-water-craft-programme"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "How many Kalvari-class submarines does India have?",
+      "answer": "India has six Kalvari-class (Scorpène-design) diesel-electric attack submarines — Kalvari, Khanderi, Karanj, Vela, Vagir and Vagsheer — all built at MDL Mumbai and commissioned between 2017 and 2024.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "What is the difference between P-75 and P-75I?",
+      "answer": "P-75 (Kalvari class) is the six-boat Scorpène-design series built at MDL that is now complete. P-75I is a separate, newer programme for six additional diesel-electric submarines with Air-Independent Propulsion (AIP), still in procurement.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Will the Kalvari class get AIP?",
+      "answer": "Yes — a DRDO-developed fuel-cell Air-Independent Propulsion (AIP) module is being integrated into selected Kalvari-class boats to extend submerged endurance, with the follow-on P-75I boats planned to have AIP from the start.",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "question": "Why is India's submarine force considered under-strength?",
+      "answer": "India's submarine arm has historically operated below its sanctioned strength (~18+ boats) due to the slow decommissioning of older Russian-origin boats and the long build times of new programmes. The P-75, P-75I and follow-on tranches are all aimed at rebuilding submarine numbers.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2005",
+      "event": "P-75 Kalvari-class programme approved / build contract signed (6 boats, MDL + Naval Group)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2017-12",
+      "event": "INS Kalvari commissioned (lead boat)",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2024-01",
+      "event": "INS Vagsheer commissioned — six-boat class complete",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "AIP integration on select boats; P-75 follow-on tranche under discussion",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Status and timing of the P-75 follow-on (additional Kalvari-class) tranche",
+    "Which boats receive AIP first and when",
+    "Whether India reaches the ~18-boat submarine target within the decade"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Kalvari-class submarine (P-75)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kalvari-class_submarine",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Class history, specifications and commissioning dates"
+    },
+    {
+      "id": "src-2",
+      "title": "INS Kalvari — Indian Navy",
+      "publisher": "Indian Navy",
+      "url": "https://www.indiannavy.nic.in/content/ins-kalvari",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Indian Navy official submarine page"
+    },
+    {
+      "id": "src-3",
+      "title": "AIP for Indian submarines — DRDO",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO AIP development context"
+    },
+    {
+      "id": "src-4",
+      "title": "INS Vagsheer commissioned - last of six Project 75 Kalvari-class submarines",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/ins-vagsheer-commissioned-last-of-six-project-75-kalvari-class-submarines/article120910885.ece",
+      "published_date": "2025-01-15",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "INS Vagsheer commissioning report"
+    }
+  ],
+  "seo": {
+    "title": "Project-75 Kalvari-class Submarines — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "India's six Scorpène-design diesel-electric attack submarines built at MDL under Naval Group tech transfer. Kalvari 2017 to Vagsheer 2024, AIP follow-on.",
+    "canonical_path": "/research/pillars/defence/entity/project-75-kalvari-class-submarines/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

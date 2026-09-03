@@ -1,0 +1,283 @@
+{
+  "entity_id": "def-030",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "tara-glide-weapon",
+  "name": "TARA Glide Weapon",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "tested",
+  "header": {
+    "one_liner": "India's indigenous GPS/INS-guided glide bomb; DRDO design; ~100 km stand-off range; air-launched precision strike weapon; tested from Su-30MKI.",
+    "chips": [
+      "Glide Bomb",
+      "Stand-off weapon",
+      "Indigenous",
+      "DRDO",
+      "GPS/INS",
+      "100 km range",
+      "Tested"
+    ],
+    "maker": "DRDO (Armament and Research Development Establishment, ARDE Pune) — design; production by private industry / OFB",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Fully indigenous design",
+    "mobility_or_class": "GPS/INS-guided glide bomb",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO ARDE Pune — design; production by private industry / OFB",
+    "Range": "~100 km (stand-off, glide from altitude)",
+    "Guidance": "GPS/INS (mid-course) + optional terminal seeker",
+    "Warhead": "High-explosive (estimated 100-200 kg class)",
+    "Launch": "Air-launched from fighter aircraft (Su-30MKI, Tejas)",
+    "Target": "Fixed ground targets: radar sites, command posts, infrastructure",
+    "Platform": "Su-30MKI (tested); Tejas (planned)",
+    "Speed": "Subsonic (glide); no propulsion",
+    "Status": "Tested; procurement/induction phase"
+  },
+  "what_it_is": {
+    "prose": "TARA is an indigenous Indian GPS/INS-guided glide bomb designed by the Armament and Research Development Establishment (ARDE) of DRDO in Pune. The weapon is a stand-off precision strike munition that, once released from a fighter aircraft at altitude, glides autonomously to its target using GPS/INS guidance with an optional terminal seeker for enhanced accuracy. With an estimated stand-off range of approximately 100 km, TARA gives Indian fighter aircraft the ability to engage fixed ground targets from outside the range of most short- and medium-range air defence systems. The glide bomb carries a high-explosive warhead in the 100-200 kg class. TARA has been tested from the Su-30MKI and is planned for integration on the Tejas. The programme is in the tested/procurement phase, with the Indian Air Force evaluating the weapon for operational induction.",
+    "sources": [
+      "src-1"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "TARA has undergone successful test firings from the Su-30MKI. The programme is in the tested/procurement phase. No specific procurement quantity or value has been publicly confirmed.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "TARA test firing",
+        "year": 2023,
+        "quantity_or_note": "Successful test firing from Su-30MKI reported",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact procurement quantity not publicly disclosed",
+      "Whether TARA will have a terminal seeker variant for enhanced accuracy",
+      "Integration timeline on Tejas",
+      "Whether TARA competes with or complements the Spice guidance kit"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Designed to be fully indigenous. Limited import dependencies on specialised components.",
+    "items": [
+      {
+        "component": "GPS/INS navigation components",
+        "severity": "Low",
+        "note": "Indigenous NavIC/GPS components available; limited imports possible",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Terminal seeker (optional)",
+        "severity": "Medium",
+        "note": "Electro-optical/IR terminal seeker may import some components initially",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Fully indigenous design by DRDO ARDE",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Indian production by private industry / OFB",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 4,
+        "note": "GPS/INS indigenous; optional terminal seeker may import some components",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 2,
+        "note": "Tested; procurement/induction phase; quantity not confirmed",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Cost-effective stand-off weapon; potential export to nations seeking precision strike capability",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "astra-air-to-air-missile-family",
+      "rudram-ii"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is a glide bomb?",
+      "answer": "A glide bomb is an unpowered, precision-guided munition that, once released from an aircraft at altitude, glides autonomously to its target using GPS/INS and optional terminal guidance. Unlike powered missiles, glide bombs have no engine — they rely on altitude and aerodynamic lift to reach their target, giving them a stand-off range of tens to hundreds of kilometres. They are a cost-effective alternative to powered cruise missiles for strikes against fixed ground targets.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "How does TARA compare to the Israeli Spice guidance kit?",
+      "answer": "The Spice guidance kit converts unguided bombs into precision-guided weapons with GPS/INS + electro-optical terminal guidance and ~60-100 km range. TARA is a purpose-built indigenous glide bomb with similar GPS/INS guidance and ~100 km range, but is designed as a complete weapon system rather than a conversion kit. TARA offers an indigenous alternative to imported Spice kits, reducing long-term import dependence.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What is the TARA glide weapon?",
+      "answer": "TARA is India's first indigenous modular glide weapon system, jointly developed by DRDO and the Indian Air Force. It is an attachable wing-and-guidance kit that converts standard bombs into precision-guided glide weapons, so an aircraft can release them from stand-off distances.",
+      "sources": [
+        "src-1",
+        "src-2",
+        "src-3"
+      ]
+    },
+    {
+      "question": "Has TARA been tested?",
+      "answer": "DRDO and the IAF conducted the maiden flight trial of the TARA glide weapon in 2026, demonstrating that the attachable kit allows missiles and bombs to fly longer and strike targets with greater accuracy, validating the indigenous design toward induction.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "~2020",
+      "event": "TARA glide weapon development programme initiated by DRDO ARDE",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2023",
+      "event": "Successful test firing from Su-30MKI reported",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020s",
+      "event": "Procurement/induction phase; Indian Air Force evaluating",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact procurement quantity not publicly disclosed",
+    "Whether TARA will have a terminal seeker variant",
+    "Integration timeline on Tejas",
+    "Whether TARA competes with or complements the Spice guidance kit",
+    "Exact warhead weight and type not publicly confirmed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "DRDO ARDE — guided weapons",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/ARDE/English/Index.jsp",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO ARDE — armament development programmes (domain root)"
+    },
+    {
+      "id": "src-2",
+      "title": "Glide bomb — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Glide_bomb",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "General glide bomb concepts and indigenous programmes"
+    },
+    {
+      "id": "src-3",
+      "title": "DRDO, IAF successfully conduct maiden trial of indigenous TARA glide weapon",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/india-carries-out-maiden-flight-trial-of-new-weapon-system-tara/article70954147.ece",
+      "published_date": "2026-05-08",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "TARA maiden test report"
+    },
+    {
+      "id": "src-4",
+      "title": "DRDO tests India's first indigenous glide weapon system 'TARA'",
+      "publisher": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/news/defence/drdo-tests-indias-first-indigenous-glide-weapon-system-tara/articleshow/130948862.cms",
+      "published_date": "2026-05-08",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "TARA glide weapon test report"
+    },
+    {
+      "id": "src-5",
+      "title": "Fit it, fire it: How an attachable system can help air missiles fly longer, strike better",
+      "publisher": "The Indian Express",
+      "url": "https://indianexpress.com/article/explained/tara-system-missiles-fly-longer-10681356/",
+      "published_date": "2026-05-09",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "TARA concept explainer"
+    }
+  ],
+  "seo": {
+    "title": "TARA Glide Weapon — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "India's indigenous GPS/INS-guided glide bomb; ~100 km stand-off range; DRDO design; air-launched precision strike weapon; tested from Su-30MKI.",
+    "canonical_path": "/research/pillars/defence/entity/tara-glide-weapon/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

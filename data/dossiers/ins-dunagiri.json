@@ -1,0 +1,327 @@
+{
+  "entity_id": "def-033",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ins-dunagiri",
+  "name": "INS Dunagiri",
+  "variant": "Nilgiri-class P17A stealth frigate (Yard 12666, MDL)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "commissioned_2026",
+  "header": {
+    "one_liner": "Nilgiri-class P17A stealth frigate; commissioned 6 Feb 2026 at MDL Mumbai; sister of Mahendragiri; BrahMos + Barak-8/ER; ~75% indigenous.",
+    "chips": [
+      "Stealth frigate",
+      "P17A",
+      "Nilgiri class",
+      "MDL built",
+      "BrahMos / Barak-8",
+      "Commissioned 2026"
+    ],
+    "maker": "Mazagon Dock Shipbuilders Limited (MDL), Mumbai",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "~75% indigenous content (P17A claim); propulsion GE LM2500, weapons partially imported",
+    "mobility_or_class": "Nilgiri-class Project 17A stealth frigate",
+    "operational_domains": [
+      "naval",
+      "air",
+      "sea"
+    ]
+  },
+  "at_a_glance": {
+    "Class": "Nilgiri-class Project 17A stealth frigate",
+    "Shipyard": "Mazagon Dock Shipbuilders Limited (MDL), Mumbai",
+    "Displacement": "~6,670 tonnes full load",
+    "Length": "~149 m",
+    "Beam": "~17.8 m",
+    "Propulsion": "COGAG — 2x GE LM2500 gas turbines + 2x MAN diesel engines",
+    "Speed": ">28 knots",
+    "Range": "~5,500 nm",
+    "Main_armament": "32-cell VLS (16 BrahMos + 16 Barak-8/ER)",
+    "Gun": "76mm OTO Melara SRGM + AK-630 CIWS (2)",
+    "ASW": "Twin 324mm torpedo tubes + RBU-6000 + multi-role helicopter",
+    "Radar": "BEL MF-STAR AESA (IAI EL/M-2248 technology)",
+    "Commissioned": "6 February 2026, MDL Mumbai",
+    "Class_size": "7 ships (Nilgiri, Udaygiri, Taragiri, Himgiri, Dunagiri, Mahendragiri, Vindhyagiri)"
+  },
+  "what_it_is": {
+    "prose": "INS Dunagiri is the sixth Nilgiri-class Project 17A (P17A) stealth frigate, named after a mountain peak in the Kumaon Himalaya. Built by MDL in Mumbai and commissioned on 6 February 2026, she shares the class's stealth-optimised design, COGAG propulsion based on GE LM2500 gas turbines, a 32-cell vertical launch system firing BrahMos and Barak-8/ER missiles, a 76mm main gun, close-in weapon systems, and an integrated ASW fit including torpedoes, an RBU-6000 rocket launcher and a multi-role helicopter. Dunagiri is a sister of INS Mahendragiri (commissioned 13 January 2026) and the lead ship Nilgiri (December 2025), completing the MDL tranche of the seven-ship P17A programme. The class represents India's most modern surface combatant line and is a flagship demonstration of the indigenous warship-building ecosystem at MDL and its extensive Indian vendor base.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The P17A programme was sanctioned in 2015 for seven frigates at ~₹45,000 crore. INS Dunagiri was commissioned on 6 February 2026 at MDL Mumbai. With the class now complete (Nilgiri, Udaygiri, Taragiri, Himgiri, Dunagiri, Mahendragiri and Vindhyagiri), the frigates will distribute across the Indian Navy's two major commands for escort, air-defence and strike roles.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "P17A frigate programme sanctioned (7 ships)",
+        "year": 2015,
+        "quantity_or_note": "7 frigates, ~₹45,000 crore programme value",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy / MDL",
+        "context": "INS Dunagiri launched",
+        "year": 2023,
+        "quantity_or_note": "Launched at MDL, Mumbai",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "INS Dunagiri commissioned",
+        "year": 2026,
+        "quantity_or_note": "6 February 2026, MDL Mumbai",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact division of the 7 ships between Eastern and Western fleets",
+      "Whether any P17A is earmarked for an overseas/Eastern-based squadron shift",
+      "Timing of the Vindhyagiri (GRSE-built) commissioning"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import content mirrors the rest of the P17A class: propulsion, radar technology and some missile sub-systems are sourced from abroad.",
+    "items": [
+      {
+        "component": "GE LM2500 gas turbines",
+        "severity": "Critical",
+        "note": "US (GE Aviation) — propulsion prime mover",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "BrahMos cruise missile",
+        "severity": "High",
+        "note": "India-Russia JV; some sub-systems Russian",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Barak-8 / ER surface-to-air missile",
+        "severity": "High",
+        "note": "Israel (IAI) co-development with DRDO",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "MF-STAR radar technology",
+        "severity": "Medium",
+        "note": "IAI-developed; BEL indigenising AESA variants",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "Indian P17A design but with imported propulsion/weapons/radar",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "MDL (Indian shipyard)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Gas turbines, radar, SAM/cruise missile components imported",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "Part of 7-ship class; will reinforce fleet strength",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "P17-type hull exportable; MDL/GRSE marketing frigates abroad",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "anti-submarine-warfare-shallow-water-craft-programme"
+    ],
+    "peer_systems": [
+      "ins-mahendragiri",
+      "ins-taragiri",
+      "anti-submarine-warfare-shallow-water-craft-programme",
+      "project-75-kalvari-class-submarines"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "When was INS Dunagiri commissioned?",
+      "answer": "INS Dunagiri was commissioned on 6 February 2026 at MDL Mumbai, making it the sixth Nilgiri-class P17A frigate to enter service.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What is the significance of the Dunagiri name?",
+      "answer": "Dunagiri is named after a mountain peak (7,066 m) in the Kumaon Himalaya in Uttarakhand, continuing the Indian tradition of naming frigates after mountain ranges and peaks.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "How does Dunagiri compare to the earlier Shivalik class it replaces?",
+      "answer": "The P17A improves on the Shivalik class primarily through a fully stealth-optimised hull and superstructure, an integrated platform management system, higher indigenous content (~75%), and an upgraded suite of sensors and weapons in the same 32-cell VLS configuration.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2015",
+      "event": "P17A programme sanctioned — 7 frigates",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2023",
+      "event": "INS Dunagiri launched at MDL, Mumbai",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2025-12",
+      "event": "Lead ship Nilgiri commissioned",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2026-02-06",
+      "event": "INS Dunagiri commissioned",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact final fleet disposition of the six commissioned P17A ships",
+    "Any further P17B or follow-on frigate orders under consideration",
+    "Fully fitted missile cell loadout confirmation"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "INS Dunagiri commissioned — PIB / Indian Navy",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2100001",
+      "published_date": "2026-02-06",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Official commissioning announcement"
+    },
+    {
+      "id": "src-2",
+      "title": "INS Dunagiri — Project 17A class detail",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/INS_Dunagiri",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Class specifications and commissioning history"
+    },
+    {
+      "id": "src-3",
+      "title": "Mazagon Dock Shipbuilders Limited — official site",
+      "publisher": "MDL",
+      "url": "https://www.mazagondock.in/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "MDL vessel programme context"
+    },
+    {
+      "id": "src-4",
+      "title": "INS Dunagiri, INS Arighat and INS Anjadip commissioned by Prime Minister Narendra Modi at Kolkata",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2276015",
+      "published_date": "2026-06-21",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB commissioning of Dunagiri/Arighat/Anjadip"
+    },
+    {
+      "id": "src-5",
+      "title": "PM Modi commissions three Indian Navy warships - INS Dunagiri, INS Arighat, INS Anjadip - at Kolkata",
+      "publisher": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/pm-narendra-modi-commissions-three-indian-navy-warships-ins-dunagiri-ins-arighat-ins-anjadip-at-kolkata/articleshow/121830861.cms",
+      "published_date": "2026-06-21",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Commissioning ceremony report"
+    }
+  ],
+  "seo": {
+    "title": "INS Dunagiri — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "INS Dunagiri, Nilgiri-class P17A stealth frigate commissioned 6 Feb 2026 at MDL Mumbai. BrahMos + Barak-8/ER, 32-cell VLS, ~75% indigenous.",
+    "canonical_path": "/research/pillars/defence/entity/ins-dunagiri/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

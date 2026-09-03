@@ -1,0 +1,318 @@
+{
+  "entity_id": "def-040",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "project-75i",
+  "name": "Project-75I",
+  "variant": "Submarine procurement programme — 6 diesel-electric AIP attack submarines",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "procurement",
+  "header": {
+    "one_liner": "Indian Navy's programme to acquire six advanced diesel-electric attack submarines with Air-Independent Propulsion (AIP) and land-attack missiles; long-running procurement repeatedly deferred, partnering two Indian yards (MDL, L&T) with a foreign OEM.",
+    "chips": [
+      "Submarine programme",
+      "6 submarines",
+      "AIP",
+      "Land-attack capability",
+      "MDL / L&T",
+      "Foreign OEM",
+      "Procurement"
+    ],
+    "maker": "Programme — Indian Navy; two shortlisted Indian yards (MDL, L&T Shipbuilding) partnering a foreign diesel-electric submarine OEM",
+    "country": "IN/foreign",
+    "indigenous_pct": null,
+    "indigenous_label": "AIP to be indigenised (DRDO fuel-cell) where feasible; design from a foreign OEM",
+    "mobility_or_class": "Diesel-electric attack submarine (AIP), programme",
+    "operational_domains": [
+      "naval",
+      "sea",
+      "underwater"
+    ]
+  },
+  "what_it_is": {
+    "prose": "Project-75I is the Indian Navy's long-running programme to acquire six advanced diesel-electric attack submarines featuring Air-Independent Propulsion (AIP) and land-attack cruise missile capability, to be built in India. First mooted in the late 2000s and formally pursued as a strategic-partnership (SP) procurement, P-75I is a signature test of India's 'Make in India in the Strategic Partnership' model — under which two shortlisted Indian yards, Mazagon Dock Shipbuilders Limited (MDL) and L&T (Larsen & Toubro) Shipbuilding, are to partner a foreign submarine OEM to build the six boats. The programme was repeatedly deferred through the 2010s and 2020s over cost, technology-transfer terms, the AIP requirement and the choice of partner/OEM. The boats are intended to be larger than the Scorpène/Kalvari class, with AIP for extended submerged endurance (a DRDO fuel-cell AIP is destined to be integrated) and a land-attack missile capability that the current P-75 boats lack. As of the mid-2020s, P-75I remained in procurement with a final OEM selection and yard partnership not yet finalised; it is the linchpin of India's ambition to rebuild its submarine force toward a ~18+ boat strength with genuinely modern, AIP-equipped boats. The programme is strategically important because it directly tests whether India can assemble cutting-edge submarines indigenously with meaningful technology transfer, versus the licenced Scorpène build it previously relied on.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "P-75I has gone through multiple procurement iterations since ~2007. Two Indian yards (MDL, L&T) were shortlisted to partner a foreign OEM. The programme has been deferred repeatedly over TOT, cost and AIP terms, and remains in procurement rather than contracted as of 2026 — significantly behind the Navy's original timeline. No boats have been laid down.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "P-75I approval / programme initiation",
+        "year": 2007,
+        "quantity_or_note": "6 diesel-electric AIP submarines initiated",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Strategic Partnership / two-yards shortlisting (MDL, L&T)",
+        "year": 2015,
+        "quantity_or_note": "MDL and L&T shortlisted as partner yards",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Multiple procurement deferrals over cost/TOT/AIP",
+        "year": 2020,
+        "quantity_or_note": "Programme repeatedly deferred; final OEM selection pending",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "P-75I status",
+        "year": 2026,
+        "quantity_or_note": "Still in procurement; not yet contracted — well behind original timeline",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Which foreign OEM (and which MDL/L&T split) will be selected — repeatedly deferred",
+      "Whether P-75I will finally contract, and when the first boat is laid down",
+      "Share of the DRDO AIP versus OEM AIP in the final configuration",
+      "Final cost per boat — not published"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "P-75I is designed to reduce, but not eliminate, import dependence — the boat design and much of the weapon/sensor/propulsion content will come from a foreign OEM, while the AIP is to be indigenised.",
+    "items": [
+      {
+        "component": "Foreign submarine design / OEM licence",
+        "severity": "Critical",
+        "note": "Boat designed and licensed by a foreign OEM (not yet selected); no indigenous design for this class",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Land-attack cruise missile",
+        "severity": "High",
+        "note": "Requirement for land-attack capability — missile NATO/Indigenous choice pending; BrahMos/SLCM-class indigenous option possible",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Sonar / torpedoes / propulsion",
+        "severity": "High",
+        "note": "OEM-supplied sonar, torpedo tubes, torpedoes and propulsion; scope for Indian indigenisation negotiated through TOT",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "AIP module",
+        "severity": "Medium",
+        "note": "DRDO fuel-cell AIP intended to be indigenous; OEM may supply initial AIP",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 2,
+        "note": "Foreign OEM design (not selected); SP model aims for some Indian build participation",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Built in India at MDL/L&T, but to a foreign design",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "OEM weapons/sensors/propulsion; only AIP targeted for indigenisation",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 2,
+        "note": "Programme not yet contracted — no boats on the water",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "Licenced build yields little Indian export upside",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "mazagon-dock-shipbuilders-limited",
+      "goa-shipyard-limited"
+    ],
+    "peer_systems": [
+      "project-75-kalvari-class-submarines",
+      "anti-submarine-warfare-shallow-water-craft-programme"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is Project-75I?",
+      "answer": "Project-75I is the Indian Navy's programme to acquire six advanced diesel-electric attack submarines with Air-Independent Propulsion (AIP) and land-attack missile capability, to be built in India at MDL or L&T under a strategic-partnership model with a foreign submarine OEM.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Why has P-75I taken so long?",
+      "answer": "P-75I has been repeatedly deferred over the technology-transfer terms, cost, the AIP requirement and the choice of foreign OEM and Indian yard. As of 2026 it remains in procurement rather than contracted, significantly behind the Navy's original timeline.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "How does P-75I differ from the Kalvari class?",
+      "answer": "The Kalvari (P-75) class is a six-boat Scorpène design already in service. P-75I is a separate, newer programme for six larger submarines that add AIP (extended submerged endurance) and land-attack missile capability.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2007",
+      "event": "P-75I programme initiated (6 AIP submarines)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2015",
+      "event": "MDL and L&T shortlisted as strategic-partner yards",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020",
+      "event": "Procurement repeatedly deferred over cost/TOT/AIP",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "P-75I still in procurement; final OEM selection pending; no boats laid down",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Final OEM and MDL/L&T split selection",
+    "Whether P-75I finally contracts and when the first boat lays down",
+    "AIP share (DRDO vs OEM) in the final configuration",
+    "Final cost per boat — not published"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Project-75I submarine programme",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Project-75I",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Programme history, yards and deferrals"
+    },
+    {
+      "id": "src-2",
+      "title": "Indian Navy — submarines and programmes",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB submarine procurement statements"
+    },
+    {
+      "id": "src-3",
+      "title": "Defence procurement — P-75I coverage",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Credible reporting on P-75I status"
+    },
+    {
+      "id": "src-4",
+      "title": "India finalises deal with TKMS for six advanced submarines under Project 75I",
+      "publisher": "The Defense News",
+      "url": "https://thedefensenews.com/india-finalises-deal-with-tkms-for-six-advanced-submarines-under-project-75i/",
+      "published_date": "2026-02-18",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Project 75I TKMS deal report"
+    },
+    {
+      "id": "src-5",
+      "title": "CCS approves 70,000-crore Project 75I - six conventional submarines at MDL with TKMS",
+      "publisher": "Army Recognition",
+      "url": "https://www.armyrecognition.com/india-approves-project-75i-six-submarines-mdl-tkms",
+      "published_date": "2026-08-19",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Project 75I CCS approval report"
+    }
+  ],
+  "seo": {
+    "title": "Project-75I — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "Project-75I: India's programme for six AIP diesel-electric attack submarines with land-attack capability, to be built at MDL/L&T with a foreign OEM.",
+    "canonical_path": "/research/pillars/defence/entity/project-75i/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

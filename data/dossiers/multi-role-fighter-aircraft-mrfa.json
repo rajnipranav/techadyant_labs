@@ -1,0 +1,310 @@
+{
+  "entity_id": "def-045",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "multi-role-fighter-aircraft-mrfa",
+  "name": "Multi-Role Fighter Aircraft (MRFA)",
+  "variant": "MRFA / Rafale AoN 2026 programme — ~114 multi-role fighter aircraft for the IAF",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "AoN_2026",
+  "header": {
+    "one_liner": "The IAF's long-delayed programme to buy ~114 modern multi-role fighter aircraft; a 2026 Acceptance of Necessity (AoN) cleared a large Rafale (and/or follow-on) acquisition to rebuild IAF fighter squadron strength.",
+    "chips": [
+      "Combat aircraft",
+      "Multi-role fighter",
+      "IAF",
+      "~114 aircraft",
+      "Rafale",
+      "AoN 2026",
+      "Fighter squadrons"
+    ],
+    "maker": "Programme — Indian Air Force; competing OEMs (Dassault Rafale lead candidate from French ecosystem; others possible)",
+    "country": "IN/foreign",
+    "indigenous_pct": null,
+    "indigenous_label": "Imported aircraft with Make-in-India offsets/TOT aspirations",
+    "mobility_or_class": "Multi-role fighter aircraft (procurement programme)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "what_it_is": {
+    "prose": "The Multi-Role Fighter Aircraft (MRFA) programme is the Indian Air Force's long-running attempt to acquire a further batch of modern multi-role fighters to rebuild its shrinking squadron strength. After repeated tender launches and postponements, the programme gained fresh momentum in 2026 with an Acceptance of Necessity (AoN) clearing a large acquisition — most prominently reported as a significant Rafale order (the IAF already operates 36 Rafales), although the broader MRFA programme envisages up to ~114 aircraft. The MRFA is intended to complement the indigenous Tejas Mk2 and the future AMCA in the IAF's medium-fighter line-up, and to replace the ageing vintage fleet. A key stated requirement is Make-in-India participation — offsets and increasingly technology-transfer/Rafale-style co-production — so that some aircraft are assembled or partially built in India, though the extent of genuine local content has been a continuing point of contention. The programme is strategically important because it directly addresses the IAF's well-documented shortfall (a 42-squadron sanctioned strength versus an actual count well below that), and it sits alongside the indigenous fighter programmes as the import pillar of India's fighter modernisation. The 2026 AoN marks a decisive step toward actually buying the aircraft, following over a decade of proposals.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The MRFA underwent multiple request-for-proposal cycles from ~2018 onward. In 2026 an Acceptance of Necessity cleared a large acquisition (most prominently a substantial Rafale order), giving the programme a concrete procurement path after years of delay. The exact final quantity, value and build/offsets arrangement remain to be finalised in the contract (flagged as uncertain); ~114 is the oft-cited target MRFA ceiling and the 2026 AoN reportedly approves a large first tranche.",
+    "rows": [
+      {
+        "agency": "IAF",
+        "context": "MRFA tender/RFP process starts (~114 aircraft)",
+        "year": 2018,
+        "quantity_or_note": "Request for proposal for ~114 multi-role fighters",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "IAF",
+        "context": "RFP postponed / multiple re-evaluations",
+        "year": 2020,
+        "quantity_or_note": "Programme delayed over cost, TechTransfer and offsets",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "IAF / MoD",
+        "context": "Acceptance of Necessity (AoN) cleared — large Rafale/follow-on acquisition",
+        "year": 2026,
+        "quantity_or_note": "AoN 2026 clears procurement; Rafale prominently reported",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "IAF",
+        "context": "Final contract / delivery",
+        "year": null,
+        "quantity_or_note": "Contract value/quantity/final build split to be finalised",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact quantity and value cleared by the 2026 AoN (not fully public)",
+      "Extent of genuine Make-in-India/co-production content vs assembly",
+      "Final OEM/aircraft type (Rafale lead; whether others are in play)",
+      "Delivery timeline and whether it arrests the fighter-squadron decline"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The MRFA is a fundamentally imported fighter platform; indigenous participation depends on the offsets/co-production terms negotiated.",
+    "items": [
+      {
+        "component": "Complete aircraft (foreign OEM)",
+        "severity": "Critical",
+        "note": "Rafale (France) or other — entire airframe, engines, radar, avionics imported in the base build",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Engines",
+        "severity": "Critical",
+        "note": "Snecma M88 (Rafale) or equivalent — imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "AESA radar / avionics",
+        "severity": "High",
+        "note": "Foreign radar/avionics in the base aircraft; tech-transfer to HAL limited by contract",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Weapons / integration",
+        "severity": "Medium",
+        "note": "Some European weapons; Astra/Indian-weapon integration negotiated",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 1,
+        "note": "Foreign design — no Indian design ownership in MRFA as an import",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 2,
+        "note": "Base aircraft foreign; Make-in-India offset co-production/assembly negotiated",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "All critical components imported in base build",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 5,
+        "note": "~114 aircraft would substantially arrest the fighter-squadron decline if delivered",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 1,
+        "note": "No Indian export upside — foreign product",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "dassault-aviation"
+    ],
+    "peer_systems": [
+      "rafale-m",
+      "mirage-2000",
+      "lca-tejas-mk2",
+      "amca"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the MRFA programme?",
+      "answer": "MRFA (Multi-Role Fighter Aircraft) is the IAF's programme to acquire a further batch of ~114 modern multi-role fighters to rebuild its squadron strength, supplementing the indigenous Mk2/AMCA and the earlier 36 Rafales.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Why is the MRFA taking so long?",
+      "answer": "The MRFA has been in and out of re-tender since ~2018 due to repeated disputes over cost, technology transfer, offsets and the terms of Make-in-India participation. The 2026 AoN marks a concrete step toward actually buying the aircraft.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Which aircraft is the lead MRFA candidate?",
+      "answer": "The Dassault Rafale is the lead reported candidate, given the IAF already operates 36 Rafales and the 2026 AoN reportedly clears a substantial Rafale order; however the final type and quantity are to be confirmed in the contract.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018",
+      "event": "MRFA tender/RFP for ~114 aircraft",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020",
+      "event": "Programme delayed over cost/TechTransfer/offsets",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "Acceptance of Necessity cleared — large Rafale/follow-on acquisition",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact quantity and value cleared by the 2026 AoN",
+    "Extent of genuine Make-in-India content",
+    "Final OEM/aircraft type",
+    "Delivery timeline vs squadron decline"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Multi-Role Fighter Aircraft programme",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Multi-Role_Fighter_Aircraft_(India)",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "MRFA programme history and tender detail"
+    },
+    {
+      "id": "src-2",
+      "title": "IAF fighter procurement — credible reporting",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "MRFA delay and offset coverage"
+    },
+    {
+      "id": "src-3",
+      "title": "Indian Air Force — aircraft and programmes",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB/MoD statements on MRFA AoN"
+    },
+    {
+      "id": "src-4",
+      "title": "France 114 Rafale MRFA India Offer",
+      "publisher": "MigFlug / Afterburner",
+      "url": "https://migflug.com/afterburner/de/france-114-rafale-mrfa-india-offer/",
+      "published_date": "2026-08-08",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "MRFA 114 Rafale offer report"
+    },
+    {
+      "id": "src-5",
+      "title": "India a step closer to procure 114 Rafale fighters as Dassault submits its proposal",
+      "publisher": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/defence/news/india-a-step-closer-to-procure-114-rafale-fighters-as-dassault-submits-its-proposal/articleshow/133021589.cms",
+      "published_date": "2026-08-07",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "MRFA Rafale proposal report"
+    }
+  ],
+  "seo": {
+    "title": "MRFA — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "The IAF's MRFA programme for ~114 multi-role fighters, with a 2026 AoN clearing a large Rafale acquisition to rebuild fighter squadron strength.",
+    "canonical_path": "/research/pillars/defence/entity/multi-role-fighter-aircraft-mrfa/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

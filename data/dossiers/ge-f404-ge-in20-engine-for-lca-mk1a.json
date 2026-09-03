@@ -1,0 +1,298 @@
+{
+  "entity_id": "def-047",
+  "entity_type": "dependency",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ge-f404-ge-in20-engine-for-lca-mk1a",
+  "name": "GE F404-GE-IN20 Engine (for the LCA Tejas Mk1A)",
+  "variant": "GE F404-GE-IN20 engine — propulsion for HAL LCA Tejas Mk1A",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "imported",
+  "header": {
+    "one_liner": "The American-built GE F404-GE-IN20 afterburning turbofan powering India's LCA Tejas Mk1A — a critical, single-source import for HAL's light-combat-aircraft line, with no indigenous fighter engine in service.",
+    "chips": [
+      "Turbofan engine",
+      "GE Aerospace",
+      "LCA Tejas Mk1A",
+      "Afterburning",
+      "Imported",
+      "Critical dependence"
+    ],
+    "maker": "GE Aerospace (USA) — imported / licensed-in-part; HAL integrates",
+    "country": "US",
+    "indigenous_pct": null,
+    "indigenous_label": "Indigenous engine in development (GTRE Kaveri); F404 is an import",
+    "mobility_or_class": "Low/medium-bypass afterburning turbofan (fighter engine)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Afterburning turbofan (fighter engine)",
+    "OEM": "GE Aerospace (USA)",
+    "Engine": "GE F404-GE-IN20",
+    "Application": "HAL LCA Tejas Mk1A (and earlier Tejas marks)",
+    "Thrust": "Class ~80 kN class afterburning (F404-GE-IN20 ~80 kN / 18,000 lbf class)",
+    "Installation": "Single engine per aircraft (LCA)",
+    "Import_status": "Imported from GE Aerospace — a major single-source critical dependence",
+    "Indigenous_alternative": "GTRE Kaveri / derivative — in development, not in service",
+    "Role": "Propulsion of the IAF's indigenous light fighter"
+  },
+  "what_it_is": {
+    "prose": "The GE F404-GE-IN20 is the afterburning turbofan engine that powers Hindustan Aeronautics Limited's (HAL) LCA Tejas family of fighters — including the current Mk1A production standard that the Indian Air Force is inducting in numbers. The F404 family is an American engine from GE Aerospace (General Electric), and the IN20 variant was adapted for the Tejas application. Because India's own fighter engine — the GTRE Kaveri — never reached service readiness (a long-running DRDO/GTRE project that stalled), the Tejas line depends on the imported F404. More recently, aircraft were moved to the more powerful F404-GE-IN20/F414 family as the light fighter grew. For the Mk1A specifically, the F404-GE-IN20 (and the pathway to the larger F414 for the Mk2/AMCA) is the sole propulsion source — a structural import dependence. This matters strategically because every Tejas Mk1A delivered carries a US engine, tying the IAF's most important indigenous fighter programme to a single foreign vendor for its heart. The dependence is mitigated only by the fact that GE Aerospace is an allied supplier (US-India defence ties have deepened), but it remains a critical technology gap: India cannot yet build its own fighter engine, and the long-delayed GTRE Kaveri project is still not ready, with newer engine programmes (including a possible partnership) only at early stages.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The IAF has been inducting Tejas Mk1/Mk1A fighters, all powered by the GE F404 family. The Mk1A order (a large IAF order placed in 2021) is being delivered with F404-GE-IN20 engines. The dependence is total — no Tejas has flown without a GE F404/F414 engine, and the indigenous GTRE Kaveri remains unavailable.",
+    "rows": [
+      {
+        "agency": "IAF / HAL",
+        "context": "LCA Tejas final-operational-clearance induction with F404",
+        "year": 2019,
+        "quantity_or_note": "Tejas inducted using GE F404 engines",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "IAF / HAL",
+        "context": "Tejas Mk1A order",
+        "year": 2021,
+        "quantity_or_note": "Mk1A order placed — F404-GE-IN20-powered",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "IAF / HAL",
+        "context": "Mk1A deliveries (F404-GE-IN20)",
+        "year": 2024,
+        "quantity_or_note": "Mk1A deliveries ongoing with imported engines",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Whether GE increases local production/licence of F404 to reduce dependence",
+      "Status of the GTRE Kaveri as an eventual alternative",
+      "Whether F404-GE-IN20 supply keeps pace with Mk1A delivery targets"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The F404 itself is the import; India has no servicing, full-production or design ownership of fighter engines.",
+    "items": [
+      {
+        "component": "GE F404-GE-IN20 engine (complete)",
+        "severity": "Critical",
+        "note": "Wholly imported from GE Aerospace — single source; no indigenous fighter engine in service",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Engine modules / MRO / spares",
+        "severity": "High",
+        "note": "Overhaul, hot-section and module supply tied to GE; HAL does depot-level work with GE licence",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Indigenous fighter engine",
+        "severity": "Critical",
+        "note": "GTRE Kaveri — long-running, not yet in service; no substitute at scale",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 1,
+        "note": "American engine design — no Indian design ownership",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 1,
+        "note": "Produced by GE; Indian licence/co-production limited",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "Complete engine imported — a hard technology gap",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 3,
+        "note": "Powers the entire Tejas Mk1A line — system is scaled but resting on an import",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "Tejas exports constrained by the US engine-export control context",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "ge-f414-india-manufacturing-pathway"
+    ],
+    "peer_systems": [
+      "ge-f414-india-manufacturing-pathway",
+      "lca-tejas-mk2",
+      "amca"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What engine powers the Tejas Mk1A?",
+      "answer": "The LCA Tejas Mk1A is powered by a single GE F404-GE-IN20 afterburning turbofan imported from GE Aerospace (USA). The more powerful F414 powers the larger Mk2.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Why doesn't India build its own fighter engine?",
+      "answer": "India's indigenous fighter engine, the DRDO/GTRE Kaveri, has been in development for decades but never reached a service-production standard, leaving the Tejas line dependent on the imported GE F404 until a viable indigenous engine matures.",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "question": "Is India trying to reduce this dependence?",
+      "answer": "Yes. India is pursuing licenced/co-production of GE engines (including the F414 pathway for the Mk2/AMCA) and continuing the search for an indigenous fighter-engine programme, but no fully indigenous engine is yet in service.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1990s-2010s",
+      "event": "Tejas fighter programme flies with GE F404 engines; Kaveri indigenous engine stalls",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2019",
+      "event": "LCA Tejas inducted into IAF with F404",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2021",
+      "event": "Tejas Mk1A order placed (F404-GE-IN20-powered)",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "Mk1A deliveries ongoing with imported engines",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Whether GE localises F404 production/licence to reduce dependence",
+    "GTRE Kaveri status as an eventual alternative",
+    "Whether F404 supply matches Mk1A delivery targets"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "General Electric F404",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/General_Electric_F404",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "F404 family specifications and Tejas application"
+    },
+    {
+      "id": "src-2",
+      "title": "HAL LCA Tejas — engine programme",
+      "publisher": "Hindustan Aeronautics Limited",
+      "url": "https://hal-india.co.in/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "HAL Tejas engine integration context"
+    },
+    {
+      "id": "src-3",
+      "title": "GTRE Kaveri engine — DRDO",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Indigenous engine development context"
+    },
+    {
+      "id": "src-4",
+      "title": "HAL gets 3 more F404 engines from GE Aerospace for Tejas Mk1A",
+      "publisher": "Firstpost",
+      "url": "https://www.firstpost.com/business/hal-f404-engines-tejas-mk1a-14042992.html",
+      "published_date": "2026-09-03",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "F404 engines for Tejas Mk1A report"
+    }
+  ],
+  "seo": {
+    "title": "GE F404-GE-IN20 Engine for LCA Tejas Mk1A — Technology | India Defence Atlas | Techadyant",
+    "meta_description": "The GE F404-GE-IN20 afterburning turbofan powering India's LCA Tejas Mk1A — a critical single-source US import with no indigenous fighter engine in service.",
+    "canonical_path": "/research/pillars/defence/entity/ge-f404-ge-in20-engine-for-lca-mk1a/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

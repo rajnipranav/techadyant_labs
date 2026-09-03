@@ -1,0 +1,269 @@
+{
+  "entity_id": "def-064",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "naval-group",
+  "name": "Naval Group",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "Operational",
+  "header": {
+    "one_liner": "French naval defence conglomerate; provided Scorpene/Kalvari-class submarine design and technology transfer to India's Mazagon Dock; leading P75I contender.",
+    "chips": [
+      "Tier A",
+      "Foreign Supplier",
+      "France",
+      "Submarines",
+      "Scorpene",
+      "Kalvari",
+      "Project 75",
+      "Project 75I",
+      "AIP"
+    ],
+    "maker": "French state-controlled naval defence group; subsidiary of FIVE (French Government)",
+    "country": "France",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — foreign supplier",
+    "operational_domains": [
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Naval Group SA",
+    "Ownership": "French state-controlled (FIVE / Direction générale de l'armement)",
+    "HQ": "Paris, France (primary shipyard: Cherbourg)",
+    "Revenue_2025": "~EUR 4.5 billion",
+    "Scorpene_India": "6 Scorpene/Kalvari-class submarines built by MDL under Naval Group technology transfer (2017-2024)",
+    "P75_programme": "Original Scorpene design and ToT provider for Indian Navy Project 75",
+    "P75I_role": "Naval Group competing for P75I with Scorpene Evolved design; partner MDL",
+    "Global_fleet": "~50 submarines designed/built for 12 navies worldwide",
+    "Website": "https://www.naval-group.com"
+  },
+  "what_it_is": {
+    "prose": "Naval Group SA is a French state-controlled naval defence conglomerate headquartered in Paris, and one of the world's leading submarine builders. Naval Group provided the Scorpene-class submarine design and comprehensive technology transfer to Mazagon Dock Shipbuilders Limited (MDL) under India's Project 75, resulting in 6 Kalvari-class submarines delivered between 2017 and 2024. Naval Group is a leading contender for India's Project 75I (6 AIP-equipped submarines, ~₹43,000 crore), offering the Scorpene Evolved design with a fuel-cell Air-Independent Propulsion (AIP) module. Naval Group has designed or built over 50 submarines for 12 navies globally, including France's Suffren-class nuclear attack submarine. Naval Group's Scorpene Evolved integrates AIP and enhanced combat systems, and the company has committed to significant Indian industrial participation under P75I including construction at an Indian shipyard (likely MDL).",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Naval Group provided Scorpene ToT for 6 Kalvari-class submarines (MDL, 2017-2024); competes for P75I with Scorpene Evolved + AIP.",
+    "rows": [
+      {
+        "agency": "Indian Navy / MDL",
+        "context": "Project 75 — Scorpene/Kalvari-class submarines (ToT)",
+        "year": 2024,
+        "quantity_or_note": "6 boats delivered 2017-2024; ToT from Naval Group to MDL; ~40-50% indigenous content",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy / MDL (prospective)",
+        "context": "Project 75I — Scorpene Evolved with AIP",
+        "year": 2026,
+        "quantity_or_note": "~₹43,000 cr for 6 boats; Naval Group + MDL consortium; competition with CSL (DRDO-NPOL) and GRSE",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "French Navy",
+        "context": "Suffren-class nuclear attack submarine (barracuda programme)",
+        "year": 2020,
+        "quantity_or_note": "6 boats; INS Suffren commissioned 2020; validates Scorpene lineage technology",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "P75I competition outcome — MDL/Naval Group vs CSL/DRDO-NPOL vs GRSE",
+      "AIP module readiness for Scorpene Evolved — TKMS MESMA vs DRDO fuel-cell",
+      "Naval Group's commitment to Indian industrial content under P75I"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Naval Group is a foreign supplier — it is the source of technology, not an importer. India's dependency on Naval Group is the reverse: India imports Scorpene design and ToT from Naval Group.",
+    "items": [
+      {
+        "component": "Scorpene submarine design and ToT",
+        "severity": "High",
+        "note": "Naval Group (France) — complete design package; India builds locally under licence",
+        "pillar_link": "/research/pillars/defence/"
+      },
+      {
+        "component": "SUBTICS combat management system",
+        "severity": "High",
+        "note": "Naval Group (France) — CMS delivered with Scorpene; India integration at BEL",
+        "pillar_link": "/research/pillars/defence/"
+      },
+      {
+        "component": "AIP module",
+        "severity": "High",
+        "note": "TKMS MESMA (France) or DRDO fuel-cell AIP — selection pending for P75I",
+        "pillar_link": "/research/pillars/defence/"
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Scorpene and Suffren-class designs are Naval Group sovereign intellectual property"
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Full submarine production at Cherbourg and Brest shipyards; global submarine OEM"
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 5,
+        "note": "Naval Group is a Tier-1 sovereign submarine OEM; owns CMS, AIP (MESMA), hull design, propulsion integration"
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "~EUR 4.5bn revenue; ~50 submarines for 12 navies; strong backlog"
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 5,
+        "note": "Scorpene exported to India, Malaysia, Chile, Brazil; global submarine competitor"
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "project-75-kalvari-class-submarines",
+      "project-75i-submarine-def-009"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "P75I competition decision timeline",
+    "Whether Naval Group will offer Scorpene Evolved with indigenous AIP or TKMS MESMA AIP",
+    "Naval Group's long-term commitment to India as a market vs competing with German (TKMS) and South Korean (Hanwha) submarines",
+    "Technology depth of the ToT provided to MDL for Scorpene — whether India can independently maintain and upgrade Scorpene without Naval Group"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Naval Group — Submarine programmes",
+      "publisher": "Naval Group",
+      "url": "https://www.naval-group.com/en/naval-forces/submarines/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Official submarine programme pages"
+    },
+    {
+      "id": "src-2",
+      "title": "Project 75I — Indian Navy submarine competition",
+      "publisher": "Jane's Defence Weekly",
+      "url": "https://www.janes.com/defence-news",
+      "published_date": "2025-06-01",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Jane's coverage of P75I competition"
+    },
+    {
+      "id": "src-3",
+      "title": "Scorpene programme — Naval Group and India",
+      "publisher": "Naval Group",
+      "url": "https://www.naval-group.com/en/exports/india/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Naval Group's India export page"
+    },
+    {
+      "id": "src-4",
+      "title": "Procuring Scorpenes fastest way to add submarines, ready for production: Naval Group",
+      "publisher": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/news/defence/procuring-scorpenes-fastest-way-to-add-submarines-ready-for-production-naval-group/articleshow/129761599.cms",
+      "published_date": "2026-03-23",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Naval Group Scorpenes/P-75I statement"
+    },
+    {
+      "id": "src-5",
+      "title": "Nuclear attack subs, three more Scorpenes on agenda during Modi's France visit",
+      "publisher": "The New Indian Express",
+      "url": "https://www.newindianexpress.com/india/2026/Jun/12/nuclear-attack-subs-three-more-scorpenes-on-agenda-during-modis-france-visit",
+      "published_date": "2026-06-12",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Scorpene expansion on Modi visit"
+    }
+  ],
+  "seo": {
+    "title": "Naval Group — Company | India Defence Atlas | Techadyant",
+    "meta_description": "Naval Group: French submarine OEM; Scorpene/Kalvari-class design and ToT to India's MDL; P75I Scorpene Evolved contender; ~50 subs for 12 navies.",
+    "canonical_path": "/research/pillars/defence/entity/naval-group/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is Naval Group's role in India's submarine programme?",
+      "answer": "Naval Group provided the Scorpene-class submarine design and technology transfer to Mazagon Dock Shipbuilders (MDL) under Project 75, resulting in 6 Kalvari-class submarines delivered to the Indian Navy between 2017 and 2024. Naval Group is now competing for Project 75I with the Scorpene Evolved design featuring an AIP module, offered in partnership with MDL."
+    },
+    {
+      "question": "What is the Scorpene Evolved?",
+      "answer": "The Scorpene Evolved is Naval Group's latest conventional submarine design, incorporating the Scorpene hull form with a fuel-cell Air-Independent Propulsion (AIP) module that allows extended submerged endurance without snorkelling. The design retains the Scorpene's proven hull form validated in the Indian Navy's Kalvari-class boats, while upgrading combat systems, sonar, and energy storage. It is Naval Group's offering for the Indian Navy's Project 75I."
+    },
+    {
+      "question": "How does Naval Group compare with competitors for P75I?",
+      "answer": "Naval Group (France, partner MDL) competes primarily against TKMS (Germany, partner MDL or CSL) and DRDO-NPOL (Indian design, partner CSL). Naval Group's advantage is the operational validation of the Scorpene design through India's 6 operational Kalvari-class boats. TKMS offers proven Class 206/209/214 lineage. DRDO-NPOL offers indigenous design sovereignty but less production maturity."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2005",
+      "event": "Project 75 contract signed — Naval Group (then DCNS) selected as technology partner"
+    },
+    {
+      "date": "2017-12-14",
+      "event": "INS Kalvari (S51) — first Scorpene delivered to Indian Navy"
+    },
+    {
+      "date": "2023-12-20",
+      "event": "INS Vagsheer (S66) — 6th and final Scorpene delivered"
+    },
+    {
+      "date": "2026",
+      "event": "P75I competition decision expected — Scorpene Evolved vs TKMS vs DRDO-NPOL"
+    }
+  ],
+  "timeline_date": "2026-09-03"
+}

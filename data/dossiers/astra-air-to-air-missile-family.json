@@ -1,0 +1,301 @@
+{
+  "entity_id": "def-028",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "astra-air-to-air-missile-family",
+  "name": "Astra Air-to-Air Missile Family",
+  "variant": "Astra Mk-1 (BVR), Astra Mk-2 (extended range), Astra Mk-3 / SFDR (beyond BVR)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "operational/development",
+  "header": {
+    "one_liner": "India's indigenous beyond-visual-range air-to-air missile family; Astra Mk-1 in service (~110 km range); Mk-2 in advanced development (~160 km); Mk-3 (SFDR) under development; fitted on Su-30MKI and Tejas.",
+    "chips": [
+      "BVR AAM",
+      "Indigenous",
+      "DRDO RCI",
+      "Astra Mk-1",
+      "110 km range",
+      "Su-30MKI / Tejas",
+      "Operational"
+    ],
+    "maker": "DRDO (Research Centre Imarat, RCI) — design; Bharat Dynamics Limited (BDL) — production",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Fully indigenous design and production",
+    "mobility_or_class": "Beyond-visual-range air-to-air missile",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO RCI Hyderabad — design; BDL — production",
+    "Variant": "Mk-1 (BVR, in service); Mk-2 (extended range, in development); Mk-3 / SFDR (beyond BVR, in development)",
+    "Range_Mk1": "~110 km (BVR)",
+    "Range_Mk2": "~160 km (estimated, extended range)",
+    "Guidance": "Mid-course INS/data-link + terminal active radar homing",
+    "Warhead": "High-explosive fragmentation (~15 kg)",
+    "Speed": "Mach 4+",
+    "Launch": "Air-launched from fighter aircraft",
+    "Platforms": "Su-30MKI, Tejas Mk-1/1A; future: Tejas Mk-2, AMCA, MRFA",
+    "In_service": "Astra Mk-1 operational with IAF; Mk-2 in advanced development"
+  },
+  "what_it_is": {
+    "prose": "The Astra is India's indigenous beyond-visual-range (BVR) air-to-air missile family, designed by the Research Centre Imarat (RCI) of DRDO in Hyderabad and produced by Bharat Dynamics Limited (BDL). The Astra Mk-1, the initial production variant, has a range of approximately 110 km, uses mid-course INS/data-link guidance with terminal active radar homing, and carries a high-explosive fragmentation warhead. It is operational with the Indian Air Force on the Su-30MKI and has been integrated on the Tejas Mk-1/1A. The Astra Mk-2 is in advanced development with an extended range of approximately 160 km, featuring a dual-pulse rocket motor for improved kinematics. The Astra Mk-3 (also referred to as SFDR — Solid Fuel Ducted Ramjet) is under development and aims to provide beyond-BVR range (potentially 300+ km) using ramjet propulsion. The Astra family represents a significant step in India's quest for air-to-air missile self-reliance, reducing dependence on Russian (R-77) and Israeli (Derby, Python-5) BVR missiles.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Astra Mk-1 is operational with the Indian Air Force on the Su-30MKI and Tejas. BDL is producing the missile. Astra Mk-2 is in advanced development with trials ongoing.",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "Astra Mk-1 integration on Su-30MKI",
+        "year": 2022,
+        "quantity_or_note": "Operational on Su-30MKI; production orders placed with BDL",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Astra Mk-1 integration on Tejas Mk-1/1A",
+        "year": 2023,
+        "quantity_or_note": "Integration completed; operational on Tejas",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Astra Mk-2 trials",
+        "year": 2024,
+        "quantity_or_note": "Advanced trials ongoing; extended range variant",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact production quantity for Astra Mk-1 not publicly disclosed",
+      "Astra Mk-2 induction timeline not confirmed",
+      "Astra Mk-3 (SFDR) development timeline not confirmed",
+      "Whether Astra will be offered for export"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Designed to be fully indigenous. Limited import dependencies on specialised components.",
+    "items": [
+      {
+        "component": "Active radar seeker",
+        "severity": "Medium",
+        "note": "Indigenous active radar seeker developed by DRDO; some components may import initially",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "SFDR ramjet components (Mk-3)",
+        "severity": "Medium",
+        "note": "Advanced propulsion technology; indigenous development with potential import of specialty materials",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Fully indigenous design by DRDO RCI",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Indian production by BDL",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 4,
+        "note": "Active radar seeker indigenous; some components may import initially",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "In service on Su-30MKI and Tejas; Mk-2/3 in development",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Competitive BVR missile; potential export to nations seeking alternatives to Russian/Israeli AAMs",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "rudram-ii",
+      "tara-glide-weapon",
+      "vshorads"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the range of the Astra missile?",
+      "answer": "The Astra Mk-1 has a range of approximately 110 km (beyond visual range). The Astra Mk-2, in advanced development, aims for approximately 160 km with a dual-pulse rocket motor. The Astra Mk-3 / SFDR is under development and aims for 300+ km using ramjet propulsion.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Which aircraft can carry the Astra?",
+      "answer": "The Astra Mk-1 is currently integrated on the Su-30MKI and Tejas Mk-1/1A. Future integration is planned for the Tejas Mk-2, AMCA (Advanced Medium Combat Aircraft), and any future MRFA winner. The missile can be carried on standard NATO/station-compatible hardpoints.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "How does Astra compare to the R-77 and Derby missiles?",
+      "answer": "The Astra Mk-1 (~110 km) has comparable range to the Russian R-77 (~80-100 km) and exceeds the Israeli Derby (~50 km). The Astra uses an indigenous active radar seeker and mid-course data-link, making it a viable replacement for imported BVR missiles on Indian fighter aircraft. The Mk-2 variant (~160 km) will exceed the range of both the R-77 and Derby.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1998",
+      "event": "Astra programme initiated by DRDO RCI",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2014",
+      "event": "First Astra Mk-1 test firing from Su-30MKI",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2022",
+      "event": "Astra Mk-1 declared operational on Su-30MKI",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "date": "2023",
+      "event": "Astra Mk-1 integrated on Tejas Mk-1/1A",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "Astra Mk-2 advanced trials ongoing",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact production quantity for Astra Mk-1 not publicly disclosed",
+    "Astra Mk-2 induction timeline not confirmed",
+    "Astra Mk-3 (SFDR) development timeline and range not confirmed",
+    "Whether Astra will be offered for export"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Astra (missile) — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Astra_(missile)",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Comprehensive Astra missile family specifications and programme history"
+    },
+    {
+      "id": "src-2",
+      "title": "DRDO RCI — Astra BVR missile",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/RCI/English/Index.jsp",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO RCI — Astra programme (domain root)"
+    },
+    {
+      "id": "src-3",
+      "title": "DRDO's Astra Mk2 Clears Trials, Set for 2026 Induction as India Enters 240-km BVR Club",
+      "publisher": "The Defense News",
+      "url": "https://www.thedefensenews.com/DRDOs-Astra-Mk2-Clears-Trials-Set-for-2026-Induction-as-India-Enters-240-km-BVR-Club/",
+      "published_date": "2026-01-26",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Astra Mk2 trials report"
+    },
+    {
+      "id": "src-4",
+      "title": "Indian Air Force approves additional Astra Mk 1 production",
+      "publisher": "Janes",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news/industry/indian-air-force-approves-additional-astra-mk-1-production",
+      "published_date": "2024-08-08",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Astra Mk1 additional production report"
+    }
+  ],
+  "seo": {
+    "title": "Astra Air-to-Air Missile Family — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "India's indigenous BVR air-to-air missile family; Astra Mk-1 in service (~110 km); Mk-2 in development (~160 km); Mk-3 SFDR under development; fitted on Su-30MKI and Tejas.",
+    "canonical_path": "/research/pillars/defence/entity/astra-air-to-air-missile-family/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

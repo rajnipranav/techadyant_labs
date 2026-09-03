@@ -1,0 +1,283 @@
+{
+  "entity_id": "def-037",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ins-sanshodhak",
+  "name": "INS Sanshodhak",
+  "variant": "Survey vessel (I-class / hydrographic survey ship)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "commissioned_2026",
+  "header": {
+    "one_liner": "Indian Navy hydrographic survey vessel; lead ship of the GRSE I-class survey ship series (four ships); supports seabed/charting survey for submarines and navigation.",
+    "chips": [
+      "Survey vessel",
+      "Hydrographic",
+      "I-class",
+      "GRSE built",
+      "Seabed charting",
+      "Naval support",
+      "Commissioned 2026"
+    ],
+    "maker": "Garden Reach Shipbuilders & Engineers (GRSE), Kolkata",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Broadly indigenous hull; survey systems partly sourced",
+    "mobility_or_class": "Hydrographic survey vessel (I-class)",
+    "operational_domains": [
+      "naval",
+      "sea",
+      "naritime"
+    ]
+  },
+  "what_it_is": {
+    "prose": "INS Sanshodhak is the lead ship of the Indian Navy's I-class (P-82) hydrographic survey vessel series, built by Garden Reach Shipbuilders & Engineers (GRSE) in Kolkata. The four-ship class (Sanshodhak, Sanshodhan, Sandhayak successor line — nomenclature varies) is designed to replace the ageing older survey ships and provide the Navy's Hydrographic Department with modern, multi-role survey capability for seabed charting, ocean-bottom mapping, and navigation safety. Hydrographic survey vessels are strategically important: accurate seabed charts underpin safe submarine and surface navigation, route planning, port approaches and maritime boundary claims. Beyond survey, these ships can be used for limited oceanic research and coastal survey support. The I-class is powered by diesel-electric propulsion and carries an array of modern survey sonars, multi-beam echo sounders, and oceanographic winches. Sanshodhak was commissioned into the Indian Navy in 2026, joining the fleet for hydrographic survey duties that directly support the Navy's subsurface and navigation operations.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The I-class survey ship programme — four ships — was ordered from GRSE around 2018 after earlier attempts to buy survey vessels abroad were followed by a Make-in-India programme. The lead ship Sanshodhak was launched and commissioned through 2025-2026. The class strengthens the Navy's hydrographic service, which has been running down its older survey-ship numbers over the past decade.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "I-class survey vessel programme (4 ships)",
+        "year": 2018,
+        "quantity_or_note": "4 survey ships ordered from GRSE",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Navy / GRSE",
+        "context": "INS Sanshodhak launched",
+        "year": 2024,
+        "quantity_or_note": "Launched at GRSE Kolkata",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "INS Sanshodhak commissioned",
+        "year": 2026,
+        "quantity_or_note": "Commissioned as lead hydrographic survey ship",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact commissioning date and class size confirmation (4 ships commonly cited)",
+      "Full survey-sensor fit details not fully public",
+      "Whether sister hulls share identical fit"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The survey ship is broadly indigenous in hull and propulsion, but specialist survey sonars/multi-beam echo sounders and some oceanographic equipment are imported.",
+    "items": [
+      {
+        "component": "Multi-beam echo sounders / survey sonars",
+        "severity": "High",
+        "note": "Specialist hydrographic survey systems largely imported (e.g. Kongsberg/other) — indigenisation limited",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Oceanographic / survey winches & instruments",
+        "severity": "Medium",
+        "note": "Specialist survey and oceanographic equipment partly imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Propulsion diesels / electroly sensor suite",
+        "severity": "Low",
+        "note": "Some propulsion and generator modules sourced/dual-sourced — Low severity",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "GRSE-designed survey ship; some systems sourced",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "GRSE (Indian yard)",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Specialist survey sonars imported",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 3,
+        "note": "4-ship class supporting hydrographic service",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Survey vessels exportable to friendly navies",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "garden-reach-shipbuilders-engineers",
+      "goa-shipyard-limited"
+    ],
+    "peer_systems": [
+      "ins-anjadip",
+      "anti-submarine-warfare-shallow-water-craft-programme"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What does a hydrographic survey vessel do?",
+      "answer": "A hydrographic survey vessel maps the seabed, charting depths, underwater hazards and ocean-floor terrain. This underpins safe navigation for both surface and submarine operations, port approaches, and supports maritime boundary and strategic seabed awareness.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Who built INS Sanshodhak?",
+      "answer": "INS Sanshodhak was built by Garden Reach Shipbuilders & Engineers (GRSE) in Kolkata, as the lead ship of the I-class hydrographic survey vessel series.",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "question": "Why is hydrography strategically important to the Indian Navy?",
+      "answer": "Accurate seabed charts are essential for safe submarine and surface navigation, route planning and port approaches. As India projects naval power across the Indian Ocean, modern survey ships like Sanshodhak keep the Navy's charts current and support its subsurface operations.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018",
+      "event": "I-class survey vessel programme ordered from GRSE (4 ships)",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "INS Sanshodhak launched at GRSE Kolkata",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "INS Sanshodhak commissioned as lead survey ship",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact commissioning date and confirmed class size",
+    "Full survey-sensor fit not public",
+    "Sister-ship delivery dates"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "INS Sanshodhak — Indian Navy survey vessel",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB commissioning releases"
+    },
+    {
+      "id": "src-2",
+      "title": "INS Sanshodhak / I-class survey vessel",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/INS_Sanshodhak",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Class history and specifications"
+    },
+    {
+      "id": "src-3",
+      "title": "Garden Reach Shipbuilders & Engineers — naval survey ships",
+      "publisher": "GRSE",
+      "url": "https://grse.in/pages/naval-shipbuilding",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "GRSE shipbuilding context"
+    },
+    {
+      "id": "src-4",
+      "title": "INS Sanshodhak, the fourth and last ship of the Sandhayak-class survey vessel",
+      "publisher": "Naval News",
+      "url": "https://www.navalnews.com/naval-news/2026/06/ins-sanshodhak-the-fourth-and-last-ship-of-the-sandhayak-class-survey-vessel/",
+      "published_date": "2026-06-21",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "INS Sanshodhak survey vessel report"
+    }
+  ],
+  "seo": {
+    "title": "INS Sanshodhak — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "INS Sanshodhak, lead I-class hydrographic survey vessel built by GRSE for the Indian Navy. Seabed charting supporting submarine and navigation operations.",
+    "canonical_path": "/research/pillars/defence/entity/ins-sanshodhak/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

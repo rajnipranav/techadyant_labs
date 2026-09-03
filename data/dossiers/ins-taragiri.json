@@ -1,0 +1,336 @@
+{
+  "entity_id": "def-034",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ins-taragiri",
+  "name": "INS Taragiri",
+  "variant": "Nilgiri-class P17A stealth frigate (Yard 12665, MDL)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "commissioned_2026",
+  "header": {
+    "one_liner": "Nilgiri-class P17A stealth frigate; commissioned 2026 at MDL Mumbai; third ship of the class by commissioning order; BrahMos + Barak-8/ER; ~75% indigenous.",
+    "chips": [
+      "Stealth frigate",
+      "P17A",
+      "Nilgiri class",
+      "MDL built",
+      "BrahMos / Barak-8",
+      "Commissioned 2026"
+    ],
+    "maker": "Mazagon Dock Shipbuilders Limited (MDL), Mumbai",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "~75% indigenous content (P17A); propulsion GE LM2500, weapons partially imported",
+    "mobility_or_class": "Nilgiri-class Project 17A stealth frigate",
+    "operational_domains": [
+      "naval",
+      "air",
+      "sea"
+    ]
+  },
+  "at_a_glance": {
+    "Class": "Nilgiri-class Project 17A stealth frigate",
+    "Shipyard": "Mazagon Dock Shipbuilders Limited (MDL), Mumbai",
+    "Displacement": "~6,670 tonnes full load",
+    "Length": "~149 m",
+    "Beam": "~17.8 m",
+    "Propulsion": "COGAG — 2x GE LM2500 gas turbines + 2x MAN diesel engines",
+    "Speed": ">28 knots",
+    "Range": "~5,500 nm",
+    "Main_armament": "32-cell VLS (16 BrahMos + 16 Barak-8/ER)",
+    "Gun": "76mm OTO Melara SRGM + AK-630 CIWS (2)",
+    "ASW": "Twin 324mm torpedo tubes + RBU-6000 + multi-role helicopter",
+    "Radar": "BEL MF-STAR AESA (IAI EL/M-2248 technology)",
+    "Commissioned": "2026, MDL Mumbai",
+    "Class_size": "7 ships (Nilgiri, Udaygiri, Taragiri, Himgiri, Dunagiri, Mahendragiri, Vindhyagiri)"
+  },
+  "what_it_is": {
+    "prose": "INS Taragiri is a Nilgiri-class Project 17A (P17A) stealth frigate, the third vessel of the class to be commissioned into the Indian Navy in the current build-out (after Nilgiri in December 2025 and Udaygiri). Built by MDL Mumbai, she is named after a mountain peak in the Himalayas, continuing the convention naming P17 frigates after mountain ranges and peaks. Taragiri is fitted with the class-standard COGAG propulsion (GE LM2500 gas turbines), a 32-cell vertical launch system for BrahMos and Barak-8/ER missiles, a 76mm gun, close-in weapon systems, ASW weapons and a multi-role helicopter. She is part of the wider indigenous warship programme that sees MDL and GRSE build the seven-ship class, an anchor of the Indian Navy's modern surface-combatant modernisation. Taragiri was commissioned at MDL Mumbai in 2026 ahead of her sister Mahendragiri's January 2026 commissioning timeline context — the class completed over the first half of 2026.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Taragiri forms part of the seven-ship P17A programme sanctioned in 2015 (~₹45,000 crore). She was launched at MDL in 2022 and commissioned in 2026. Her commissioning window overlaps the rapid P17A induction in late 2025 to early 2026, when Nilgiri, Udaygiri, Taragiri, and other sisters all entered service within a few months.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "P17A frigate programme sanctioned (7 ships)",
+        "year": 2015,
+        "quantity_or_note": "7 frigates, ~₹45,000 crore programme value",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy / MDL",
+        "context": "INS Taragiri launched",
+        "year": 2022,
+        "quantity_or_note": "Launched at MDL, Mumbai",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "INS Taragiri commissioning sea trials",
+        "year": 2025,
+        "quantity_or_note": "Sea trials conducted ahead of 2026 commissioning",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "INS Taragiri commissioned",
+        "year": 2026,
+        "quantity_or_note": "MDL Mumbai",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Precise commissioning date and fleet allocation (Eastern vs Western command)",
+      "Whether any sisters share the same commissioning ceremony",
+      "Full sensor/weapons fit finalisation"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Taragiri shares the class-standard import set: propulsion, radar technology and missile sub-systems sourced abroad, with the hull and much of the combat system indigenous.",
+    "items": [
+      {
+        "component": "GE LM2500 gas turbines",
+        "severity": "Critical",
+        "note": "US (GE Aviation) — propulsion prime mover",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "BrahMos cruise missile",
+        "severity": "High",
+        "note": "India-Russia JV; some sub-systems Russian",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Barak-8 / ER surface-to-air missile",
+        "severity": "High",
+        "note": "Israel (IAI) co-development with DRDO",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "MF-STAR radar technology",
+        "severity": "Medium",
+        "note": "IAI-developed; BEL indigenising AESA variants",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "Indian P17A design with imported propulsion/weapons/radar",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "MDL (Indian shipyard)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Gas turbines, radar, SAM/cruise missile components imported",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "Part of 7-ship class; will reinforce fleet strength",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "P17-type hull exportable",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "anti-submarine-warfare-shallow-water-craft-programme"
+    ],
+    "peer_systems": [
+      "ins-mahendragiri",
+      "ins-dunagiri",
+      "anti-submarine-warfare-shallow-water-craft-programme",
+      "project-75-kalvari-class-submarines"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "Is INS Taragiri named after a mountain?",
+      "answer": "Yes. Taragiri is a Himalayan mountain peak, continuing the class convention of naming P17 frigates after mountain ranges and peaks (Nilgiri, Udaygiri, Dunagiri, Himgiri, Vindhyagiri).",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Who built INS Taragiri?",
+      "answer": "INS Taragiri was built by Mazagon Dock Shipbuilders Limited (MDL) in Mumbai, and commissioned into the Indian Navy in 2026.",
+      "sources": [
+        "src-1",
+        "src-3"
+      ]
+    },
+    {
+      "question": "What is Taragiri's primary mission?",
+      "answer": "Like the rest of the P17A class, Taragiri is a multi-role stealth frigate built for anti-ship strike (BrahMos), air defence (Barak-8/ER) and anti-submarine warfare (torpedoes, RBU-6000, helicopter) in the escort and seaboard-defence role.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2015",
+      "event": "P17A programme sanctioned — 7 frigates",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2022",
+      "event": "INS Taragiri launched at MDL, Mumbai",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2025-12",
+      "event": "Lead ship Nilgiri commissioned (first P17A)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "INS Taragiri commissioned — P17A class rapid induction window",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact commissioning month/day of Taragiri within 2026",
+    "Final fleet disposition and squadron assignment",
+    "Whether Taragiri carries any class-standard deviation in fit"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "INS Taragiri — Project 17A commissioning coverage",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2102001",
+      "published_date": "2026",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Official commissioning announcement"
+    },
+    {
+      "id": "src-2",
+      "title": "INS Taragiri — Project 17A class detail",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/INS_Taragiri",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Class specifications and commissioning history"
+    },
+    {
+      "id": "src-3",
+      "title": "Mazagon Dock Shipbuilders Limited — official site",
+      "publisher": "MDL",
+      "url": "https://www.mazagondock.in/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "MDL vessel programme context"
+    },
+    {
+      "id": "src-4",
+      "title": "Commissioning of Indian Naval Ship Taragiri at Visakhapatnam",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2248799",
+      "published_date": "2026-04-03",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB commissioning of INS Taragiri"
+    },
+    {
+      "id": "src-5",
+      "title": "INS Taragiri commissioned into Indian Navy at Vizag",
+      "publisher": "Indian Defence News",
+      "url": "https://www.indiandefensenews.com/2026/04/ins-taragiri-commissioned-into-indian.html",
+      "published_date": "2026-04-03",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "INS Taragiri commissioning report"
+    }
+  ],
+  "seo": {
+    "title": "INS Taragiri — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "INS Taragiri, Nilgiri-class P17A stealth frigate built at MDL Mumbai, commissioned 2026. BrahMos + Barak-8/ER, 32-cell VLS, ~75% indigenous.",
+    "canonical_path": "/research/pillars/defence/entity/ins-taragiri/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

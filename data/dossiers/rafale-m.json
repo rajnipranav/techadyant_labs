@@ -1,0 +1,316 @@
+{
+  "entity_id": "def-041",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "rafale-m",
+  "name": "Rafale M",
+  "variant": "Naval carrier-capable multi-role fighter (Dassault Rafale M, 26 for Indian Navy)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "contracted",
+  "header": {
+    "one_liner": "Naval derivative of the Dassault Rafale ordered for the Indian Navy (26 aircraft) to operate from IAC Vikrant-class carriers; contract signed 2023/2024 as the naval fighter of choice alongside the Air Force's 36 Rafale.",
+    "chips": [
+      "Naval fighter",
+      "Carrier-capable",
+      "Dassault",
+      "26 aircraft",
+      "IAC Vikrant",
+      "RBE2 AESA",
+      "Contracted"
+    ],
+    "maker": "Dassault Aviation (France); aircraft transferred to Indian Navy, with Indian maintenance infrastructure and rationale for follow-on",
+    "country": "FR",
+    "indigenous_pct": null,
+    "indigenous_label": "Fully imported aircraft (France); maintain/reconditioned in India",
+    "mobility_or_class": "Carrier-capable twin-engine multi-role fighter",
+    "operational_domains": [
+      "air",
+      "naval",
+      "sea"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Naval carrier-capable multi-role fighter",
+    "OEM": "Dassault Aviation (France)",
+    "Variant": "Rafale M (naval Rafale)",
+    "Crew": "1",
+    "Engines": "2x Snecma M88",
+    "Max_speed": "Mach 1.8",
+    "Radar": "RBE2-AA AESA",
+    "Weapons": "Meteor AAM, MICA, Exocet/SCALP, GBU/LGB, AM-39 Exocet for anti-ship",
+    "Order": "26 for the Indian Navy (contract first placed as inter-government deal announcement 2023/2024)",
+    "Carrier": "Designed for CATOBAR carriers; Indian Navy IAC Vikrant-class",
+    "Role": "Air superiority, anti-surface strike, SEAD, carrier defence"
+  },
+  "what_it_is": {
+    "prose": "The Rafale M is the naval, carrier-capable derivative of Dassault Aviation's Rafale multi-role fighter, produced in France. The Indian Navy selected the Rafale M as the leading candidate for its naval fighter requirement to operate from its Indigenous Aircraft Carrier (IAC) Vikrant class — a decision announced around 2023 and formalised as a 26-aircraft inter-governmental contract. The aircraft brings the same RBE2 AESA radar, M88 engines and weapon suite as the land-based Rafale, but with a strengthened airframe and arrestor-gear/catapult provisions for carrier operation. For the Indian Navy, the Rafale M fills the carrier-borne air-defence and strike role aboard Vikrant, which otherwise operates the MiG-29K (a Russian design with known maintenance and reliability challenges). The acquisition is part of India's broader dependence on French combat aviation (the Air Force operates 36 Rafales purchased in 2016), and the naval deal was structured to build French-Indian sustainment and potentially follow-on aircraft. The 26 naval Rafales are a direct counter to the Navy's need for a modern, interoperable carrier fighter as Pakistan and China pursue naval-air modernisation.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Indian Navy's 26 Rafale M order was announced as a government-to-government (inter-governmental) deal in 2023 and the contract was signed (widely reported) in 2024. Deliveries are scheduled over the following years. The aircraft will operate from the IAC Vikrant carrier. First aircraft were expected in the later 2020s; exact delivery schedule and final price are not fully public (the deal is reported at around ₹50,000 crore+ but precise figures are flagged as uncertain).",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Rafale M selection announced for Indian Navy naval fighter requirement",
+        "year": 2023,
+        "quantity_or_note": "26 aircraft selected (government-to-government)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy / France",
+        "context": "Rafale M contract signed",
+        "year": 2024,
+        "quantity_or_note": "26-aircraft inter-governmental contract",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Rafale M deliveries / carrier integration (IAC Vikrant)",
+        "year": 2026,
+        "quantity_or_note": "Deliveries scheduled over the late 2020s; carrier certification ongoing",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact contract value and delivery schedule (not fully public; reported at ~₹50,000 crore+)",
+      "Whether a follow-on naval Rafale order is planned",
+      "Whether 26 aircraft is sufficient for 2-carrier operations alongside MiG-29K",
+      "Indian local sustainment/MRO scope under the deal"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The Rafale M is a fully imported French aircraft — a hard import dependence with no indigenous carrier fighter yet in service.",
+    "items": [
+      {
+        "component": "Complete aircraft (France)",
+        "severity": "Critical",
+        "note": "Entire airframe, engines, radar and avionics imported from Dassault — no naval fighter in full production in India (TEDBF/AMCA in development)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Engines (M88)",
+        "severity": "Critical",
+        "note": "Snecma M88 — imported; no indigenous naval fighter engine in service",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "AESA radar (RBE2)",
+        "severity": "High",
+        "note": "RBE2-AA — French radar; Uttam AESA is the indigenous parallel for future airframes",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Weapons (Meteor/MICA/Exocet)",
+        "severity": "High",
+        "note": "European weapons; Astra is the indigenous AAM parallel but interoperates only partly",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 1,
+        "note": "French design — no Indian design ownership",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 1,
+        "note": "Produced in France",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 1,
+        "note": "All critical components imported",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "26 aircraft with IAF's 36 Rafale — strong fleet interoperability, but carrier fighter numbers remain modest",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 1,
+        "note": "No Indian export upside — foreign product",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "dassault-aviation"
+    ],
+    "peer_systems": [
+      "multi-role-fighter-aircraft-mrfa",
+      "mirage-2000",
+      "lca-tejas-mk2",
+      "amca"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "How many Rafale M did India order?",
+      "answer": "The Indian Navy ordered 26 Rafale M aircraft through an inter-governmental deal announced in 2023 and contracted in 2024, to operate from the IAC Vikrant-class carriers.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "What is the difference between the Rafale and Rafale M?",
+      "answer": "The Rafale M is the naval, carrier-capable variant of Dassault's Rafale, with a strengthened airframe, arrestor-gear and catapult provisions for carrier operations. The Indian Air Force operates the land-based Rafale; the Navy operates the Rafale M.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Which carrier will the naval Rafales fly from?",
+      "answer": "The 26 naval Rafales are intended to operate from India's Indigenous Aircraft Carrier (IAC) Vikrant and its class, replacing/complementing the MiG-29K in the carrier-borne air-defence and strike role.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023",
+      "event": "Rafale M selection announced for Indian Navy (26 aircraft, inter-governmental)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "Rafale M contract signed",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "Deliveries scheduled over the late 2020s; carrier certification ongoing",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact contract value and delivery schedule (not fully public)",
+    "Follow-on naval Rafale order possibility",
+    "Sufficiency of 26 aircraft for 2-carrier operations",
+    "Indian MRO/local sustainment scope"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Dassault Rafale M for the Indian Navy",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dassault_Rafale",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Rafale family and naval variant detail"
+    },
+    {
+      "id": "src-2",
+      "title": "India-France Rafale M inter-governmental deal coverage",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Credible reporting on the 26-aircraft naval Rafale deal"
+    },
+    {
+      "id": "src-3",
+      "title": "Indian Navy — aircraft and acquisitions",
+      "publisher": "Indian Navy",
+      "url": "https://www.indiannavy.nic.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Indian Navy aviation context"
+    },
+    {
+      "id": "src-4",
+      "title": "India Orders 26 Rafale Marine carrier-based aircraft for $7.5 billion",
+      "publisher": "Naval News",
+      "url": "https://www.navalnews.com/naval-news/2025/04/india-orders-26-rafale-marine-carrier-based-aircraft-for-7-5-billion/",
+      "published_date": "2025-04-28",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Rafale-M order report"
+    },
+    {
+      "id": "src-5",
+      "title": "Indian Navy signs for 26 Rafale-M, significant commonality with IAF Rafale",
+      "publisher": "Air Power Asia",
+      "url": "https://airpowerasia.com/2026/02/24/indian-navy-signs-for-26-rafale-m-significant-commonality-with-iaf-rafale/",
+      "published_date": "2026-02-24",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Rafale-M naval variant report"
+    }
+  ],
+  "seo": {
+    "title": "Rafale M — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "The Dassault Rafale M, 26 naval carrier-capable fighters ordered for the Indian Navy to fly from the IAC Vikrant class. RBE2 AESA, M88 engines.",
+    "canonical_path": "/research/pillars/defence/entity/rafale-m/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

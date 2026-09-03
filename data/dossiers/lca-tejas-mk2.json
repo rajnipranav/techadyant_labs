@@ -1,0 +1,303 @@
+{
+  "entity_id": "def-043",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "lca-tejas-mk2",
+  "name": "LCA Tejas Mk2",
+  "variant": "LCA Tejas Mk2 — medium-weight 4.5-generation fighter (HAL, deputed GE F414 engine)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "development",
+  "header": {
+    "one_liner": "HAL's design-complete medium fighter replacing the Tejas Mk1/Mk1A; powered by a GE F414 engine; the stepping-stone between the light Tejas and the AMCA; key to IAF fighter squadron strength.",
+    "chips": [
+      "Combat aircraft",
+      "4.5-generation",
+      "HAL",
+      "GE F414 engine",
+      "Medium fighter",
+      "Replace Mk1/Mk1A",
+      "In development"
+    ],
+    "maker": "Hindustan Aeronautics Limited (HAL) — design + production, with ADA/DRDO design lead",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Hull/airframe indigenous; engine and some avionics imported (GE F414, etc.)",
+    "mobility_or_class": "Single-seat medium multi-role combat aircraft",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Medium multi-role combat aircraft (4.5-generation)",
+    "OEM": "HAL (with ADA/DRDO)",
+    "Engine": "1x GE F414-GE-IN6 (afterburning) — US import",
+    "Max_speed": "Supersonic (Mach ~1.6-1.8)",
+    "Radar": "Uttam AESA (indigenous) — advanced radar planned",
+    "Weapons": "Astra, Meteor-compatible, BrahMos-NG/SCALP/land-attack options depending on fit",
+    "Range": "Increased over Tejas Mk1A (higher fuel)",
+    "Crew": "1 (naval/2-seat trainer variant considered)",
+    "Role": "Air superiority, strike, SEAD, close air support",
+    "Status": "Design complete; development phase — first flight planned (delayed from earlier estimates)"
+  },
+  "what_it_is": {
+    "prose": "The LCA Tejas Mk2 is Hindustan Aeronautics Limited's (HAL) medium-weight, 4.5-generation multi-role combat aircraft — a significantly enlarged and re-engined development of the Tejas light combat aircraft family (Mk1, Mk1A). Approved by the IAF as a priority programme to bridge the gap between the light Tejas and the heavier, more capable (defunct) MMRCA and the future AMCA, the Mk2 grows the Tejas airframe to carry more fuel and a larger, more capable radar, and to mount a more powerful engine — the US-built GE F414-GE-IN6 afterburning turbofan. The design was declared complete in 2023-24, with first flight originally targeted around 2026-27 but repeatedly deferred (the programme has slipped from earlier estimates). The Mk2 is intended to carry the indigenous Uttam AESA radar, integrate Astra and European missiles in the air-to-air role, and carry BrahMos-NG-class or other air-launched strike weapons, giving the IAF a workhorse medium fighter to rebuild its squadron numbers. Strategically, the Mk2 is the crucial technology and industrial step between the small, less-capable Mk1A and the fifth-generation AMCA: it matures the twin-beam airframe, digital fly-by-wire, avionics and (later) AESA integration needed for AMCA, and it keeps HAL's combat-aircraft line alive. It also provides a two-seat advantage for the IAF's signal enhancement, and the Mk2 shares the F414 engine with the planned AMCA — a deliberate commonality decision to simplify logistics. The programme is a bellwether for whether India can design and field a competitive medium fighter indigenously before the AMCA matures.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Mk2 is design-complete and in development; it has not yet flown. The IAF plans a substantial order (widely reported as ~6 squadrons / well over 100 aircraft) once it enters production, to replace retiring MiG-21s/MiG-27s and fill the light-to-medium gap. The first flight has slipped from earlier estimates to the mid-2020s (originally ~2022-23 for the earlier variant planning), with production expected in the late 2020s. Exact order quantity and cost are not yet contracted — flagged as uncertain.",
+    "rows": [
+      {
+        "agency": "IAF",
+        "context": "Mk2 development sanctioned / design phase",
+        "year": 2023,
+        "quantity_or_note": "Design complete; development of the improved medium fighter",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "IAF",
+        "context": "First flight planned",
+        "year": 2026,
+        "quantity_or_note": "First flight targeted ~2026-27 (slipped from earlier estimates)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "IAF",
+        "context": "Production order / squadron induction",
+        "year": null,
+        "quantity_or_note": "Large order expected (~6 squadrons) once in production; not yet contracted",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact first-flight date (repeatedly slipped)",
+      "Final production order quantity and unit cost (not yet contracted)",
+      "Whether Mk2 shares enough with AMCA to justify the investment",
+      "Uttam AESA readiness timeline for Mk2"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The Mk2's most significant dependence is the imported GE F414 engine; airframe, fly-by-wire and much avionics are indigenous, with radar (Uttam) being indigenised.",
+    "items": [
+      {
+        "component": "GE F414-GE-IN6 engine",
+        "severity": "Critical",
+        "note": "US (GE Aerospace); licensed/co-produced to an extent — the single largest critical import; no indigenous fighter engine in service",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "AESA radar (Uttam)",
+        "severity": "Medium",
+        "note": "Uttam AESA (indigenous, DRDO/ADE) in development — some TR modules/phased-array components initially imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Air-to-air / strike weapons",
+        "severity": "Medium",
+        "note": "Astra (indigenous) + foreign AAM integration depending on fit; BrahMos-NG/SLCM strike weapons evolving",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Certain avionics / ejection seat / systems",
+        "severity": "Medium",
+        "note": "Some avionics and escape/electrical systems imported or dual-sourced",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "Indian-designed (HAL/ADA) airframe and systems; engine and some avionics foreign",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "HAL (Indian) production",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Engine is the critical import; radar/weapons indigenising",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "Designed to fly in large numbers (~6 squadrons) — but not yet in production",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Tejas-family exports being pursued (e.g. to friendly nations); Mk2 export potential higher once proven",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "ge-f404-ge-in20-engine-for-lca-mk1a"
+    ],
+    "peer_systems": [
+      "amca",
+      "multi-role-fighter-aircraft-mrfa",
+      "ge-f414-india-manufacturing-pathway",
+      "ge-f404-ge-in20-engine-for-lca-mk1a"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the difference between the Tejas Mk1A and Mk2?",
+      "answer": "The Mk1A is an upgraded, AESA-fitted light fighter (a smaller step). The Mk2 is a substantially larger, medium-weight fighter with more fuel, a bigger wing, a more powerful GE F414 engine and heavier weapons — a new capability tier between the light Tejas and the AMCA.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Why does the IAF need the Tejas Mk2?",
+      "answer": "The IAF faces a shrinking fighter squadron count. The Mk2 is meant to fill the light-to-medium gap with an indigenous workhorse that can be built in large numbers, replacing retiring MiG-21s/MiG-27s and supplementing Rafale and Su-30MKI, while maturing the industrial and avionics base needed for the AMCA.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Does the Mk2 share its engine with the AMCA?",
+      "answer": "Yes. Both the Tejas Mk2 and the AMCA are planned around the GE F414 (Mk2) and engine-family commonality is a deliberate logistics decision, with the AMCA later stepping to a more powerful engine once available.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023",
+      "event": "Mk2 design declared complete; development phase",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "First flight targeted ~2026-27 (slipped from earlier estimates)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "late-2020s",
+      "event": "Production / squadron induction expected after first flight",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact first-flight date (repeatedly slipped)",
+    "Final production order quantity and unit cost (not yet contracted)",
+    "AMCA/Mk2 overlap justification",
+    "Uttam AESA readiness for Mk2"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "HAL Tejas Mk2",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HAL_Tejas_Mk2",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Mk2 specifications, engine and development status"
+    },
+    {
+      "id": "src-2",
+      "title": "Tejas Mk2 — ADA / HAL programme coverage",
+      "publisher": "Aeronautical Development Agency",
+      "url": "https://www.ada.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "ADA fighter programme context"
+    },
+    {
+      "id": "src-3",
+      "title": "Tejas Mk2 — credible reporting",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "IAF squadron and production planning coverage"
+    },
+    {
+      "id": "src-4",
+      "title": "'Make in India' radar programme to help Tejas track targets gets Rs 2,205 crore boost",
+      "publisher": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/defence/news/make-in-india-radar-programme-to-help-tejas-track-targets-gets-rs-2205-crore-boost/articleshow/132763479.cms",
+      "published_date": "2026-07-31",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Radar programme supporting Tejas programme"
+    }
+  ],
+  "seo": {
+    "title": "LCA Tejas Mk2 — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "HAL's Tejas Mk2, the indigenously designed 4.5-generation medium fighter with GE F414 power, bridging the light Tejas and AMCA for the IAF.",
+    "canonical_path": "/research/pillars/defence/entity/lca-tejas-mk2/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

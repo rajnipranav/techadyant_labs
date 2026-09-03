@@ -1,0 +1,285 @@
+{
+  "entity_id": "def-065",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "thyssenkrupp-marine-systems",
+  "name": "ThyssenKrupp Marine Systems",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "Operational",
+  "header": {
+    "one_liner": "German naval defence OEM; builder of HDW Type 209/214 submarines; leading competitor for India's Project 75I (6 AIP submarines) with the HDW Class 214 design.",
+    "chips": [
+      "Tier A",
+      "Foreign Supplier",
+      "Germany",
+      "Submarines",
+      "HDW",
+      "Type 214",
+      "Project 75I",
+      "AIP"
+    ],
+    "maker": "German naval defence subsidiary (now part of ThyssenKrupp Marine Systems GmbH, under TKMS AG)",
+    "country": "Germany",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — foreign supplier",
+    "operational_domains": [
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "ThyssenKrupp Marine Systems GmbH",
+    "Ownership": "Wholly-owned subsidiary of thyssenkrupp AG; industrial strategic partnership with Saab (Sweden)",
+    "HQ": "Kiel, Germany",
+    "Revenue_2025": "~EUR 2.5 billion",
+    "Type_214_global": "Type 209/214 delivered to 14 navies worldwide; proven AIP design (Perclosed-cycle propulsion)",
+    "P75I_offering": "HDW Class 214 design with fuel-cell AIP; offered with Indian shipyard partner for P75I",
+    "Type_214_AIP": "Proven fuel-cell AIP system (Perclosed-cycle); operational in South Korean and German Navy submarines",
+    "Global_submarine_fleet": "~180 submarines built for 14 navies; global market leader in conventional submarine exports",
+    "Website": "https://www.tkms.thyssenkrupp.com/en/marine-systems"
+  },
+  "what_it_is": {
+    "prose": "ThyssenKrupp Marine Systems (TKMS) is a German naval defence OEM headquartered in Kiel, Germany, and one of the world's leading conventional submarine builders. TKMS, formerly HDW (Howaldtswerke-Deutsche Werft), has built over 180 submarines for 14 navies worldwide, including the Type 209 and its successor, the Type 214 — one of the most proven AIP-capable conventional submarine designs in service. TKMS is a leading competitor for India's ₹43,000 crore Project 75I programme to build 6 AIP-equipped submarines, offering the HDW Class 214 design with a proven fuel-cell Air-Independent Propulsion (AIP) system. The Class 214 has been selected by South Korea (KSS-II programme, 9 boats), Greece, Portugal, Turkey, and Israel. For P75I, TKMS has partnered with Mazagon Dock Shipbuilders (MDL) as the Indian build yard. The fuel-cell AIP system on the Class 214 is a mature, operationally proven design that eliminates the noise of diesel generators during submerged operations, extending submerged endurance to ~3 weeks without snorkelling.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "TKMS offering HDW Class 214 (proven AIP) for India's P75I; partner MDL; competing with Naval Group Scorpene Evolved and DRDO-NPOL.",
+    "rows": [
+      {
+        "agency": "Indian Navy / MDL (prospective)",
+        "context": "Project 75I — HDW Class 214 with fuel-cell AIP",
+        "year": 2026,
+        "quantity_or_note": "~₹43,000 cr for 6 boats; TKMS + MDL consortium",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "South Korean Navy",
+        "context": "KSS-II programme (Type 214 variant)",
+        "year": 2007,
+        "quantity_or_note": "9 boats delivered (DSME shipyard, South Korea); proven AIP operational",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "German Navy",
+        "context": "Type 212A (fuel-cell AIP)",
+        "year": 2005,
+        "quantity_or_note": "6 boats; operational fuel-cell AIP; validated TKMS AIP technology",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Turkish Navy",
+        "context": "Type 214 (PN1400T)",
+        "year": 2023,
+        "quantity_or_note": "TCG Piri Reis commissioned 2023; 6 boats total",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "P75I competition decision — MDL/TKMS vs MDL/Naval Group vs CSL/DRDO-NPOL",
+      "Whether India will accept German AIP technology given EU export control sensitivities",
+      "TKMS commitment to Indian industrial participation under P75I",
+      "Impact of TKMS-Saab industrial partnership on P75I technology transfer"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "TKMS itself has no import dependencies — it is the technology source. India would import the Class 214 design and AIP system from TKMS under P75I.",
+    "items": [
+      {
+        "component": "Class 214 submarine design and AIP system",
+        "severity": "High",
+        "note": "TKMS (Germany) — complete design package; AIP fuel-cell module manufactured in Germany",
+        "pillar_link": "/research/pillars/defence/"
+      },
+      {
+        "component": "Combat management system (ISUS 90)",
+        "severity": "High",
+        "note": "TKMS / Atlas Elektronik (Germany) — integrated submarine CMS; ToT to be negotiated",
+        "pillar_link": "/research/pillars/defence/"
+      },
+      {
+        "component": "Torpedo systems (DM2A4)",
+        "severity": "Medium",
+        "note": "Atlas Elektronik (Germany) — heavyweight torpedo; alternative to A184 (Italy) for P75I",
+        "pillar_link": "/research/pillars/defence/"
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Type 209/214 and Type 212A designs are TKMS sovereign intellectual property; proven across 14 navies"
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Full submarine production at Kiel and Tk-E (Eckernförde) shipyards; global submarine OEM"
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 5,
+        "note": "TKMS owns fuel-cell AIP technology, CMS (Atlas Elektronik), and hull design — complete sovereign submarine stack"
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 4,
+        "note": "~EUR 2.5bn revenue; ~180 subs built for 14 navies; large global backlog"
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 5,
+        "note": "Type 209/214 exported to 14 navies; most prolific conventional submarine exporter globally"
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "project-75i-submarine-def-009"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "P75I competition decision timeline — expected 2026 but repeatedly delayed",
+    "Whether German/EU defence export controls will allow full technology transfer for AIP and CMS",
+    "India's comfort level with a second foreign submarine technology source alongside Naval Group",
+    "TKMS-Saab partnership implications for P75I — whether Saab involvement creates complications"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Type 214 — TKMS",
+      "publisher": "ThyssenKrupp Marine Systems",
+      "url": "https://www.tkms.thyssenkrupp.com/en/marine-systems/submarines/type-214",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Official Type 214 product page"
+    },
+    {
+      "id": "src-2",
+      "title": "Project 75I — Indian Navy submarine competition",
+      "publisher": "Jane's Defence Weekly",
+      "url": "https://www.janes.com/defence-news",
+      "published_date": "2025-06-01",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Jane's coverage of P75I competition"
+    },
+    {
+      "id": "src-3",
+      "title": "TKMS — Submarine programmes",
+      "publisher": "ThyssenKrupp Marine Systems",
+      "url": "https://www.tkms.thyssenkrupp.com/en/marine-systems/submarines",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "TKMS submarine programme overview"
+    },
+    {
+      "id": "src-4",
+      "title": "India, Germany to sign the Rs 90,000 crore submarine deal for Indian Navy soon, says German envoy Philipp Ackermann",
+      "publisher": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/news/defence/india-germany-to-sign-the-rs-90000-crore-submarine-deal-for-indian-navy-soon-says-german-envoy-philipp-ackermann/articleshow/132732192.cms",
+      "published_date": "2026-07-30",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "TKMS P-75I deal statement"
+    },
+    {
+      "id": "src-5",
+      "title": "Navy, Germany's TKMS wrap up cost negotiations for new submarines, P-75I deal likely early next fiscal",
+      "publisher": "The Print",
+      "url": "https://theprint.in/defence/navy-germanys-tkms-wrap-up-cost-negotiations-for-new-submarines-p-75i-deal-likely-early-next-fiscal/2864681/",
+      "published_date": "2026-02-26",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "TKMS P-75I cost negotiations"
+    }
+  ],
+  "seo": {
+    "title": "ThyssenKrupp Marine Systems — Company | India Defence Atlas | Techadyant",
+    "meta_description": "TKMS: German submarine OEM; Type 214 with proven fuel-cell AIP; leading P75I contender (6 subs, ~₹43k cr) with MDL; 180 subs built for 14 navies.",
+    "canonical_path": "/research/pillars/defence/entity/thyssenkrupp-marine-systems/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is TKMS offering for India's Project 75I?",
+      "answer": "TKMS is offering the HDW Class 214 conventional submarine with a proven fuel-cell Air-Independent Propulsion (AIP) system for India's Project 75I (6 submarines, ~₹43,000 crore). The Class 214 has been selected by 14 navies globally, with the fuel-cell AIP validated in German and South Korean submarines. For P75I, TKMS has partnered with Mazagon Dock Shipbuilders (MDL) as the Indian build yard."
+    },
+    {
+      "question": "What makes the Class 214 AIP system significant?",
+      "answer": "The Class 214 uses a proton-exchange membrane (PEM) fuel-cell AIP system that generates electricity from hydrogen and oxygen without combustion, eliminating the noise associated with diesel generators. This allows the submarine to remain submerged for up to ~3 weeks without snorkelling, dramatically reducing the risk of detection. The AIP system has been operationally validated in the German Navy (Type 212A) and South Korean Navy (KSS-II), and is considered the most mature AIP design available for export."
+    },
+    {
+      "question": "How does TKMS compare with Naval Group for P75I?",
+      "answer": "TKMS and Naval Group are the two leading foreign contenders for P75I. Naval Group's advantage is the operational validation of its Scorpene design through India's 6 Kalvari-class boats. TKMS's advantage is its proven fuel-cell AIP technology (more mature than Naval Group's MESMA steam-turbine AIP) and its track record of exporting to 14 navies. The Indian DRDO-NPOL indigenous design is the third contender. Contract award is expected in 2026."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1960s",
+      "event": "HDW Type 209 conventional submarine enters production"
+    },
+    {
+      "date": "1990s",
+      "event": "Type 214 development as export successor to Type 209"
+    },
+    {
+      "date": "2005",
+      "event": "German Navy Type 212A with fuel-cell AIP commissioned"
+    },
+    {
+      "date": "2007",
+      "event": "South Korea KSS-II (Type 214 variant) commissioned — first export AIP submarine"
+    },
+    {
+      "date": "2023",
+      "event": "TCG Piri Reis (Type 214) commissioned by Turkish Navy"
+    },
+    {
+      "date": "2026",
+      "event": "P75I competition decision expected — TKMS Class 214 vs Naval Group Scorpene Evolved vs DRDO-NPOL"
+    }
+  ],
+  "timeline_date": "2026-09-03"
+}

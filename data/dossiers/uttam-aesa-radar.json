@@ -1,0 +1,277 @@
+{
+  "entity_id": "def-031",
+  "entity_type": "system",
+  "tier": "A",
+  "noindex": false,
+  "slug": "uttam-aesa-radar",
+  "name": "Uttam AESA Radar",
+  "variant": "Uttam Mk-1 (fire control), Uttam Mk-2 (advanced)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "development/integration",
+  "header": {
+    "one_liner": "India's indigenous Active Electronically Scanned Array (AESA) fire-control radar; DRDO LRDE design; ~200 km detection range; intended for Tejas Mk-2, AMCA, and Su-30MKI upgrades.",
+    "chips": [
+      "AESA Radar",
+      "Fire Control",
+      "Indigenous",
+      "DRDO LRDE",
+      "~200 km range",
+      "Tejas Mk-2 / AMCA",
+      "Development"
+    ],
+    "maker": "DRDO (Electronics and Radar Development Establishment, LRDE) — design; BEL — production",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Indigenous design; T/R modules being localised",
+    "mobility_or_class": "Active Electronically Scanned Array fire-control radar",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO LRDE Bangalore — design; BEL — production",
+    "Variant": "Uttam Mk-1 (fire control); Uttam Mk-2 (advanced, higher power)",
+    "Type": "Active Electronically Scanned Array (AESA) fire-control radar",
+    "Detection_range": "~200 km (air-to-air, estimated for Mk-1)",
+    "T/R_modules": "GaN-based transmit/receive modules (indigenous)",
+    "Modes": "Air-to-air search/track, air-to-ground mapping, terrain following, weather",
+    "Platforms": "Tejas Mk-2 (primary), AMCA (planned), Su-30MKI upgrade (planned)",
+    "Features": "Low probability of intercept (LPI), multi-target tracking, electronic beam steering",
+    "Status": "Development / integration phase"
+  },
+  "what_it_is": {
+    "prose": "The Uttam AESA Radar is India's indigenous Active Electronically Scanned Array (AESA) fire-control radar designed by the Electronics and Radar Development Establishment (LRDE) of DRDO in Bangalore and intended for production by Bharat Electronics Limited (BEL). The Uttam uses gallium nitride (GaN)-based transmit/receive (T/R) modules for active electronic beam steering, providing detection ranges of approximately 200 km in air-to-air mode. AESA technology represents a generational leap over mechanically scanned and passive electronically scanned array (PESA) radars, offering multi-target tracking, low probability of intercept (LPI), electronic beam steering, and simultaneous multi-mode operation (air-to-air search/track, air-to-ground mapping, terrain-following, weather). The Uttam Mk-1 is the initial fire-control variant intended primarily for the Tejas Mk-2, while the Uttam Mk-2 is an advanced variant with higher power and improved capabilities planned for the AMCA (Advanced Medium Combat Aircraft) and Su-30MKI fleet upgrades. The programme is in the development/integration phase, with trials ongoing.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Uttam AESA radar is in the development/integration phase. It is the planned fire-control radar for Tejas Mk-2 and AMCA. Integration on Su-30MKI fleet upgrades is also planned.",
+    "rows": [
+      {
+        "agency": "DRDO / HAL",
+        "context": "Uttam AESA development",
+        "year": null,
+        "quantity_or_note": "Development ongoing; integration on Tejas Mk-2 primary target",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Su-30MKI AESA upgrade",
+        "year": null,
+        "quantity_or_note": "Planned upgrade path for Su-30MKI fleet with Uttam AESA",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact timeline for Tejas Mk-2 integration not publicly confirmed",
+      "Whether Uttam will be the sole AESA radar for all Indian fighter programmes",
+      "GaN T/R module production maturity and scale",
+      "Whether the Su-30MKI upgrade will use Uttam or an imported AESA (e.g. Israeli Elta EL/M-2052)"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Indigenous design with progressive localisation of critical components. GaN T/R modules are a key indigenous development.",
+    "items": [
+      {
+        "component": "GaN T/R modules",
+        "severity": "Medium",
+        "note": "Indigenous GaN fabrication being developed; some initial production may use imported wafers",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Radar signal processor",
+        "severity": "Low",
+        "note": "Indigenous development by BEL/DRDO",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Fully indigenous AESA design by DRDO LRDE",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "BEL production planned; GaN T/R module production being localised",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "GaN T/R modules being localised; some initial production may import wafers",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 2,
+        "note": "Development/integration phase; scale dependent on Tejas Mk-2 and AMCA production",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Could be offered for upgrade packages on legacy aircraft; competitive AESA capability",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "astra-air-to-air-missile-family"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is an AESA radar?",
+      "answer": "An Active Electronically Scanned Array (AESA) radar uses a large array of individual transmit/receive (T/R) modules to electronically steer the radar beam without physically moving the antenna. This provides faster scanning, multi-target tracking, lower probability of intercept (LPI), and simultaneous multi-mode operation compared to mechanically scanned or passive electronically scanned array (PESA) radars. AESA is the current state-of-the-art for fighter aircraft radars.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Which aircraft will use the Uttam AESA?",
+      "answer": "The Uttam Mk-1 is the primary fire-control radar for the Tejas Mk-2. The Uttam Mk-2 is planned for the AMCA (Advanced Medium Combat Aircraft) and as a fleet upgrade for the Su-30MKI. Whether the Su-30MKI upgrade will use the Uttam or an imported AESA (such as the Israeli Elta EL/M-2052) has not been publicly confirmed.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "How does Uttam compare to the Israeli Elta EL/M-2052?",
+      "answer": "The Elta EL/M-2052 is a mature, operational AESA radar with ~200+ km detection range, already in service on some Indian upgraded aircraft. The Uttam is India's indigenous AESA with comparable claimed specifications (~200 km). The Uttam's advantage is full indigenous design and production sovereignty, while the EL/M-2052 benefits from operational maturity and Israeli combat-proven technology. The choice between them for specific platforms is a procurement and strategic decision.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "~2015",
+      "event": "Uttam AESA development programme initiated by DRDO LRDE",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "~2020",
+      "event": "Uttam prototype demonstrated on Tejas technology demonstrator",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020s",
+      "event": "Development/integration phase; GaN T/R module production being localised",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact timeline for Tejas Mk-2 integration not publicly confirmed",
+    "Whether Uttam will be the sole AESA radar for all Indian fighter programmes",
+    "GaN T/R module production maturity and scale",
+    "Whether the Su-30MKI upgrade will use Uttam or imported AESA",
+    "Uttam Mk-2 specifications and timeline not publicly confirmed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Uttam AESA radar — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Uttam_AESA_radar",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Uttam AESA radar specifications and programme history"
+    },
+    {
+      "id": "src-2",
+      "title": "DRDO LRDE — radar development",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/LRDE/English/Index.jsp",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO LRDE — radar and electronic systems development (domain root)"
+    },
+    {
+      "id": "src-3",
+      "title": "'Make in India' radar programme to help Tejas track targets gets Rs 2,205 crore boost",
+      "publisher": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/defence/news/make-in-india-radar-programme-to-help-tejas-track-targets-gets-rs-2205-crore-boost/articleshow/132763479.cms",
+      "published_date": "2026-07-31",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Uttam radar funding report"
+    },
+    {
+      "id": "src-4",
+      "title": "Uttam AESA Radar Achieves Major Milestone: Extensive Flight Testing Completed on Tejas LSP-2 and LSP-3",
+      "publisher": "idrw.org",
+      "url": "https://idrw.org/uttam-aesa-radar-achieves-major-milestone-extensive-flight-testing-completed-on-tejas-lsp-2-and-lsp-3/",
+      "published_date": "2026-04-08",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Uttam flight-test milestone report"
+    }
+  ],
+  "seo": {
+    "title": "Uttam AESA Radar — System · India Defence Atlas | Techadyant",
+    "meta_description": "India's indigenous AESA fire-control radar; DRDO LRDE design; ~200 km detection range; GaN T/R modules; intended for Tejas Mk-2, AMCA, and Su-30MKI upgrades.",
+    "canonical_path": "/research/pillars/defence/entity/uttam-aesa-radar/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "entity_id": "def-025",
+  "entity_type": "system",
+  "tier": "A",
+  "noindex": false,
+  "slug": "vshorads",
+  "name": "VSHORADS (Very Short Range Air Defence System)",
+  "variant": "VSHORADS (MRSAM-NG/VSHORADS programme)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "development/procurement",
+  "header": {
+    "one_liner": "India's indigenous very short range air defence missile; DRDO design; man-portable/vehicle-mounted; 0.5–6 km range; designed to defeat low-flying drones, helicopters, and cruise missiles.",
+    "chips": [
+      "Air Defence",
+      "VSHORADS",
+      "Indigenous",
+      "DRDO",
+      "Man-portable",
+      "Anti-drone",
+      "Development"
+    ],
+    "maker": "DRDO (multiple laboratories) — design; BDL — production",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Indigenous design and production",
+    "mobility_or_class": "Man-portable / vehicle-mounted short-range SAM",
+    "operational_domains": [
+      "land",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO — design; BDL — production",
+    "Range": "~0.5–6 km",
+    "Altitude": "~3 km max engagement altitude",
+    "Guidance": "Imaging Infrared (IIR) seeker + command guidance",
+    "Warhead": "High-explosive fragmentation",
+    "Launch": "Man-portable (shoulder-fired) or vehicle-mounted",
+    "Target": "Low-flying drones, helicopters, cruise missiles, UAVs",
+    "Speed": "Mach 1.5+",
+    "Platform": "Man-portable; can be mounted on light vehicles",
+    "Status": "Development / procurement"
+  },
+  "what_it_is": {
+    "prose": "VSHORADS (Very Short Range Air Defence System) is an indigenous Indian air defence missile system designed by DRDO to provide point defence for army formations against low-flying threats including drones, helicopters, cruise missiles, and UAVs. The system fills a critical gap in Indian Army air defence, replacing older Soviet-origin systems like the Igla-M. The VSHORADS missile uses an imaging infrared (IIR) seeker for terminal guidance, with a range of approximately 0.5–6 km and engagement altitude up to ~3 km. The system can be operated in man-portable mode (shoulder-fired) or mounted on light vehicles for greater mobility. The programme is in the development/procurement phase, with multiple successful test firings reported. The VSHORADS is designed to be complemented by the larger Akash and MRSAM systems for medium and long-range air defence, respectively.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The VSHORADS is in the development/procurement phase. Multiple successful test firings have been reported. No specific procurement quantity or value has been publicly confirmed.",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "VSHORADS test firings",
+        "year": 2022,
+        "quantity_or_note": "Multiple successful test firings reported (2022–2023)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "VSHORADS procurement evaluation",
+        "year": null,
+        "quantity_or_note": "Procurement phase; quantity not publicly disclosed",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact procurement quantity not publicly disclosed",
+      "Whether VSHORADS will fully replace the Igla-M in Indian Army service",
+      "Timeline for operational induction"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Designed to be fully indigenous. Limited import dependencies on specialised components.",
+    "items": [
+      {
+        "component": "IIR seeker components",
+        "severity": "Low",
+        "note": "Some infrared detector components may use imported sources initially",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Solid rocket motor propellant",
+        "severity": "Low",
+        "note": "Indigenous development; some advanced propellant materials may import initially",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Fully indigenous design by DRDO",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "BDL production planned; indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 4,
+        "note": "Majority indigenous; some sensor components may import initially",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 2,
+        "note": "Development/procurement phase; scale not yet confirmed",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Competitive cost; potential export to cost-sensitive air defence markets",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "akash-tarang-anti-uav-electronic-warfare-system"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What threats does VSHORADS address?",
+      "answer": "VSHORADS is designed to defeat low-flying threats including unmanned aerial vehicles (UAVs/drones), helicopters, cruise missiles, and low-flying aircraft within a range of 0.5–6 km. It fills the lowest tier of the Indian Army's layered air defence architecture, complementing the Akash (short-range) and MRSAM (medium-range) systems.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Is VSHORADS different from MRSAM?",
+      "answer": "Yes. VSHORADS (Very Short Range Air Defence System) is a man-portable/vehicle-mounted system with 0.5–6 km range for point defence. MRSAM (Medium Range Surface-to-Air Missile) is a larger system with 50–70 km range for area air defence. Both are indigenous DRDO programmes but serve different tiers of the air defence architecture.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What is the Very Short-Range Air Defence System (VSHORADS)?",
+      "answer": "VSHORADS is an Indian-developed, man-portable very short-range air defence system designed to protect ground formations from low-altitude aerial threats such as helicopters, drones and loitering munitions. DRDO has carried out multiple successful flight trials of the system.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What stage has VSHORADS reached in its development?",
+      "answer": "DRDO has conducted successful flight trials of VSHORADS, including three consecutive tests validating its performance. The system is advancing toward user trials and production, with the platform positioned as an indigenous alternative to imported shoulder-fired air defence systems.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "~2019",
+      "event": "VSHORADS development programme initiated by DRDO",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2022",
+      "event": "First successful test firing reported",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2023",
+      "event": "Additional successful test firings reported",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020s",
+      "event": "Procurement evaluation phase; Indian Army assessing",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact procurement quantity not publicly disclosed",
+    "Whether VSHORADS will fully replace the Igla-M in Indian Army service",
+    "Timeline for operational induction",
+    "Whether the system will be vehicle-mounted or man-portable in primary configuration"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "VSHORADS — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/VSHORADS",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Comprehensive VSHORADS specifications and programme history"
+    },
+    {
+      "id": "src-2",
+      "title": "DRDO VSHORADS — air defence missile",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/labs/English/VSHORADS.jsp",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO VSHORADS programme page (domain root reference)"
+    },
+    {
+      "id": "src-3",
+      "title": "India tests indigenous VSHORADS missile",
+      "publisher": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/news/defence/india-tests-indigenous-vshorads-missile/articleshow/90000000.cms",
+      "published_date": "2022-12-01",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "VSHORADS test firing report"
+    },
+    {
+      "id": "src-4",
+      "title": "DRDO conducts successful flight-trials of Very Short-Range Air Defence System",
+      "publisher": "Press Information Bureau",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2233776",
+      "published_date": "2026-02-27",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB press release on VSHORADS trials"
+    },
+    {
+      "id": "src-5",
+      "title": "DRDO carries out three consecutive tests of Very Short-Range Air Defence system",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/drdo-carries-out-three-consecutive-tests-of-very-short-range-air-defence-system/article69169680.ece",
+      "published_date": "2025-02-01",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "VSHORADS consecutive-trials report"
+    }
+  ],
+  "seo": {
+    "title": "VSHORADS — System · India Defence Atlas | Techadyant",
+    "meta_description": "India's indigenous very short range air defence missile; 0.5–6 km range; DRDO design; man-portable/vehicle-mounted; anti-drone and anti-helicopter capability.",
+    "canonical_path": "/research/pillars/defence/entity/vshorads/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

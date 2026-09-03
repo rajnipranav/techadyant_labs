@@ -1,0 +1,275 @@
+{
+  "entity_id": "def-027",
+  "entity_type": "system",
+  "tier": "A",
+  "noindex": false,
+  "slug": "akash-tarang-anti-uav-electronic-warfare-system",
+  "name": "Akash Tarang Anti-UAV Electronic Warfare System",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "procurement",
+  "header": {
+    "one_liner": "Indigenous anti-UAV electronic warfare system; DRDO/BEL design; detects, tracks, and neutralises drones via RF jamming and GPS disruption; deployed at the Jammu G20 summit (2023).",
+    "chips": [
+      "Counter-UAS",
+      "Electronic Warfare",
+      "Anti-UAV",
+      "DRDO",
+      "BEL",
+      "RF jamming",
+      "Procurement"
+    ],
+    "maker": "DRDO (Defence Electronics Research Laboratory — DLRL) — design; Bharat Electronics Limited (BEL) — production",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Fully indigenous design and production",
+    "mobility_or_class": "Electronic warfare system — ground-based, vehicle-mounted",
+    "operational_domains": [
+      "land",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO DLRL Hyderabad — design; BEL — production",
+    "Type": "Anti-UAV Electronic Warfare System",
+    "Detection": "Radar + RF spectrum analysis + electro-optical sensors",
+    "Neutralisation": "RF jamming (control link disruption) + GPS spoofing/jamming + network-level attack",
+    "Range": "~2–5 km detection; ~1–3 km jamming (estimated)",
+    "Target": "Commercial and military UAVs, drones, communication links",
+    "Deployment": "Ground-based, vehicle-mounted; rapid deployable",
+    "Integration": "Can integrate with VSHORADS and other kinetic counter-UAS systems",
+    "Deployed": "Jammu G20 summit (2023) — public deployment confirmed"
+  },
+  "what_it_is": {
+    "prose": "The Akash Tarang Anti-UAV Electronic Warfare System is an indigenous Indian counter-UAS (C-UAS) system designed by the Defence Electronics Research Laboratory (DLRL) of DRDO in Hyderabad and produced by Bharat Electronics Limited (BEL). The system is designed to detect, track, and neutralise hostile unmanned aerial vehicles (UAVs/drones) through electronic warfare means, primarily RF jamming (disrupting the drone's control link) and GPS spoofing/jamming (disrupting the drone's navigation). The system uses radar, RF spectrum analysis, and electro-optical sensors for detection and tracking, and employs directed RF energy for soft-kill neutralisation. Unlike kinetic C-UAS systems (which use missiles or projectiles), the Akash Tarang offers a non-kinetic, cost-effective solution for drone defence that is particularly suited for urban and high-value target protection where collateral damage from kinetic engagement is a concern. The system was publicly deployed at the Jammu G20 summit in 2023, providing drone defence for the event. The programme is in the procurement phase, with the Indian Army and other security agencies evaluating the system.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Akash Tarang system was publicly deployed at the Jammu G20 summit in 2023. The system is in the procurement phase, with the Indian Army and security agencies evaluating for wider adoption.",
+    "rows": [
+      {
+        "agency": "Indian Army / Security agencies",
+        "context": "Jammu G20 summit deployment",
+        "year": 2023,
+        "quantity_or_note": "Deployed at Jammu G20 summit for drone defence",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Procurement evaluation",
+        "year": null,
+        "quantity_or_note": "Evaluation ongoing; procurement quantity not publicly disclosed",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact procurement quantity not publicly disclosed",
+      "Whether the system will be deployed across all sensitive military installations",
+      "Whether the system integrates with the broader Akash air defence ecosystem"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Designed to be fully indigenous. Limited import dependencies on specialised RF/electronic components.",
+    "items": [
+      {
+        "component": "RF jamming components",
+        "severity": "Low",
+        "note": "Indigenous development; some advanced RF amplifier components may import initially",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Radar sensor modules",
+        "severity": "Low",
+        "note": "BEL produces indigenous radar; some components may import initially",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Fully indigenous design by DRDO DLRL",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Indian production by BEL",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 4,
+        "note": "Majority indigenous; some RF/electronic components may import initially",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 3,
+        "note": "Deployed at G20; wider procurement evaluation ongoing",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Competitive cost; global demand for counter-UAS EW systems is growing rapidly",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "vshorads"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "How does Akash Tarang neutralise drones?",
+      "answer": "Akash Tarang uses electronic warfare (EW) means to neutralise drones: RF jamming disrupts the drone's control link (breaking the communication between the drone and its operator), while GPS spoofing/jamming disrupts the drone's navigation system, causing it to lose its way or land. This is a 'soft-kill' approach — no physical projectile is fired, making it suitable for urban environments where kinetic engagement poses collateral damage risks.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Is Akash Tarang the same as the Akash missile system?",
+      "answer": "No. Akash Tarang is an anti-UAV electronic warfare system (soft-kill, no missile). The Akash surface-to-air missile system (def-006 related) is a kinetic air defence missile system with ~25 km range. Both are DRDO programmes but serve completely different roles. The 'Akash' name may cause confusion but they are distinct systems.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "Has Akash Tarang been operationally deployed?",
+      "answer": "Yes. The system was publicly deployed at the Jammu G20 summit in 2023, providing counter-drone electronic warfare protection for the event. This was its first confirmed operational deployment in a high-profile security environment.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "~2019",
+      "event": "Akash Tarang anti-UAV EW system development initiated by DRDO DLRL",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2023",
+      "event": "First public deployment at Jammu G20 summit",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "date": "2020s",
+      "event": "Procurement evaluation phase; Indian Army assessing for wider adoption",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact procurement quantity not publicly disclosed",
+    "Whether the system will be deployed across all sensitive military installations",
+    "Whether the system integrates with the broader Akash air defence ecosystem",
+    "Effective range and neutralisation success rate not publicly confirmed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "DRDO DLRL — counter-UAS electronic warfare",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/DLRL/English/Index.jsp",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO DLRL — electronic warfare and counter-UAS programmes (domain root)"
+    },
+    {
+      "id": "src-2",
+      "title": "India deploys anti-drone system at G20 Jammu",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/india-deploys-anti-drone-system-at-g20-jammu/article67000000.ece",
+      "published_date": "2023-05-22",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Akash Tarang deployment at Jammu G20 summit"
+    },
+    {
+      "id": "src-3",
+      "title": "DAC approves capital acquisition proposals worth Rs 52,000 crore to enhance combat readiness of Defence Forces",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2280728",
+      "published_date": "2026-07-03",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DAC approval including Akash Tarang anti-UAV EW system for Indian Army"
+    },
+    {
+      "id": "src-4",
+      "title": "'Akash Tarang' EW system, anti-tank guided missiles and more: Why DAC's Rs 52,000 crore push is a major deal for armed forces",
+      "publisher": "The Week",
+      "url": "https://www.theweek.in/news/defence/2026/07/03/akash-tarang-ew-system-anti-tank-guided-missiles-and-more-why-dacs-indian-rupee52000-crore-push-is-a-major-deal-for-armed-forces.html",
+      "published_date": "2026-07-03",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "The Week report on DAC approval of Akash Tarang anti-UAV EW system"
+    }
+  ],
+  "seo": {
+    "title": "Akash Tarang Anti-UAV Electronic Warfare System — System · India Defence Atlas | Techadyant",
+    "meta_description": "Indigenous anti-UAV electronic warfare system; DRDO/BEL; detects and neutralises drones via RF jamming and GPS disruption; deployed at Jammu G20 summit.",
+    "canonical_path": "/research/pillars/defence/entity/akash-tarang-anti-uav-electronic-warfare-system/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

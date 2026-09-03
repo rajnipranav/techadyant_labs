@@ -1,0 +1,295 @@
+{
+  "entity_id": "def-022",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "dhanush-gun-system",
+  "name": "Dhanush Gun System",
+  "variant": "Dhanush 155mm/45-calibre (indigenous derivative of Bofors FH-77B)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "induction",
+  "header": {
+    "one_liner": "India's indigenous 155mm/45-calibre towed howitzer; indigenous Bofors-derived design; 114 ordered (~₹2,500 cr, 2020); OFB/Kanpur production; a step towards artillery self-reliance.",
+    "chips": [
+      "Artillery",
+      "Indigenous",
+      "Bofors-derived",
+      "155mm/45-cal",
+      "OFB Kanpur",
+      "Induction"
+    ],
+    "maker": "Gun Carriage Factory Kanpur (now Munitions India Limited, OFB) — production; based on Bofors FH-77B design with indigenous improvements",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Indigenous production with Bofors design lineage; progressive localisation",
+    "mobility_or_class": "Towed howitzer",
+    "operational_domains": [
+      "land"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Gun Carriage Factory Kanpur / OFB (MIL) — production; Bofors FH-77B lineage with indigenous modifications",
+    "Calibre": "155mm / 45 calibre",
+    "Range": "~24–30 km (conventional ammunition); ~36 km with ERFB/BB",
+    "Weight": "~11.2 tonnes (towed configuration)",
+    "Crew": "6 (driver, commander, 4 loaders)",
+    "Rate_of_fire": "3 rounds per minute (burst); 1 round per minute sustained",
+    "Ammunition": "All NATO-standard 155mm ammunition; ERFB/BB",
+    "Mobility": "Towed by BEML/Tatra truck; deployable in ~3 minutes",
+    "Automation": "Hydraulic rammer; computerised fire control on upgraded variants",
+    "Order": "114 guns (~₹2,500 crore — 2020 cabinet approval)",
+    "Production": "Gun Carriage Factory Kanpur / OFB (Munitions India Limited)"
+  },
+  "what_it_is": {
+    "prose": "The Dhanush is an indigenous Indian 155mm/45-calibre towed howitzer developed by the Gun Carriage Factory (GCF) Kanpur, part of the Ordnance Factory Board (now Munitions India Limited — MIL). The Dhanush is derived from the Bofors FH-77B design, which India acquired in the 1980s and which became the subject of the Bofors procurement controversy. After decades of legal and political constraints that effectively froze Indian artillery modernisation, the Dhanush represents India's effort to leverage the Bofors design baseline and develop an indigenous production capability. The howitzer features indigenous improvements over the original Bofors, including an improved fire control system, upgraded ammunition handling, and enhanced barrel life. The Indian Army ordered 114 Dhanush guns following cabinet approval in 2020 at an estimated cost of ~₹2,500 crore. The Dhanush has undergone extensive trials in desert, high-altitude, and plains conditions. It is lighter than the Bofors FH-77B (~11.2 tonnes vs ~11.5 tonnes) and offers comparable range with conventional ammunition (~24–30 km) and extended range with ERFB/BB rounds (~36 km).",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Indian Army ordered 114 Dhanush guns following cabinet approval in 2020 at an estimated cost of ~₹2,500 crore. Production is at the Gun Carriage Factory Kanpur. The system has undergone extensive trials in desert, high-altitude, and plains conditions.",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "Dhanush order — 114 guns",
+        "year": 2020,
+        "quantity_or_note": "114 guns (~₹2,500 crore — cabinet approval 2020)",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Trials — desert, high-altitude, plains",
+        "year": 2019,
+        "quantity_or_note": "Extensive trials completed at Pokhran, Siachen sector, and plains",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact delivery timeline for 114 guns not fully confirmed",
+      "Whether the Dhanush will be supplemented or superseded by the ATAGS for future orders",
+      "Status of guided ammunition integration"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Derived from the Bofors FH-77B design; progressively increasing indigenous content. Limited remaining import dependencies on certain specialised components.",
+    "items": [
+      {
+        "component": "Bofors design baseline",
+        "severity": "Medium",
+        "note": "Design heritage from Swedish Bofors FH-77B; production is indigenous",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Certain fire control electronics",
+        "severity": "Low",
+        "note": "Some electronics/sensors may use imported components; full indigenous content targeted",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 3,
+        "note": "Derived from Bofors FH-77B (Swedish) with indigenous improvements",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Indian production at GCF Kanpur / OFB (MIL)",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 4,
+        "note": "Majority indigenous; some electronics may import initially",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 3,
+        "note": "114 ordered; scale dependent on delivery and follow-on orders",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Competitive cost; Bofors heritage may appeal to existing Bofors operators",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "atags",
+      "k9-vajra-t-def-016"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the relationship between the Dhanush and the Bofors?",
+      "answer": "The Dhanush is derived from the Bofors FH-77B 155mm/39-cal howitzer design that India acquired in the 1980s. The Dhanush uses a longer 45-calibre barrel (vs 39-calibre on the Bofors), an improved fire control system, and indigenous production at GCF Kanpur. It retains the Bofors design baseline but incorporates Indian improvements to barrel life, ammunition handling, and fire control.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "How does the Dhanush compare to the ATAGS?",
+      "answer": "The Dhanush is a 155mm/45-cal howitzer (~24–30 km range), while the ATAGS is a 155mm/52-cal howitzer (~48 km range). The ATAGS offers significantly longer range, a semi-automatic loader, and computerised fire control, but is heavier (~18.5 tonnes vs ~11.2 tonnes). The Dhanush is lighter and more deployable in mountainous terrain but has shorter range. Both serve different operational niches and are expected to coexist in Indian Army service.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "Why was the Dhanush programme important for India?",
+      "answer": "The Dhanush represents India's first indigenous artillery production programme since the Bofors controversy of the 1980s effectively froze Indian artillery modernisation for decades. It demonstrated India's capability to leverage acquired design knowledge and develop an indigenous production capability for a critical battlefield system, reducing long-term import dependence.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1980s",
+      "event": "India acquires Bofors FH-77B 155mm howitzers",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2010s",
+      "event": "GCF Kanpur develops Dhanush — indigenous 155mm/45-cal derivative",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2019",
+      "event": "Extensive trials completed at Pokhran, Siachen, and plains",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020",
+      "event": "Cabinet approves procurement of 114 Dhanush guns (~₹2,500 crore)",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact delivery timeline for 114 guns not fully confirmed",
+    "Whether the Dhanush will be supplemented or superseded by ATAGS for future orders",
+    "Status of guided ammunition integration",
+    "Indigenous content percentage target for the Dhanush programme"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Dhanush (howitzer) — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dhanush_(howitzer)",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Comprehensive Dhanush specifications, trials, and order history"
+    },
+    {
+      "id": "src-2",
+      "title": "India clears procurement of 114 Dhanush howitzers",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/india-clears-procurement-of-114-dhanush-howitzers/article33000000.ece",
+      "published_date": "2020-11-01",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Cabinet approval for Dhanush procurement"
+    },
+    {
+      "id": "src-3",
+      "title": "Gun Carriage Factory Kanpur — OFB",
+      "publisher": "Ordnance Factory Board",
+      "url": "https://ofbindia.gov.in/gcf-kanpur.php",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "GCF Kanpur production facility — Dhanush production"
+    },
+    {
+      "id": "src-4",
+      "title": "OFB Gets Bulk Production Clearance for 'Dhanush' Artillery Gun",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1565315",
+      "published_date": "2019-02-19",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Dhanush bulk production clearance"
+    },
+    {
+      "id": "src-5",
+      "title": "DAC clears proposals worth Rs 2.38 lakh crore to augment defence capabilities",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2246125",
+      "published_date": "2026-03-27",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DAC defence acquisition approvals"
+    }
+  ],
+  "seo": {
+    "title": "Dhanush Gun System — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "India's indigenous 155mm/45-calibre towed howitzer; Bofors-derived design; 114 ordered (~₹2,500 cr, 2020); OFB Kanpur production.",
+    "canonical_path": "/research/pillars/defence/entity/dhanush-gun-system/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

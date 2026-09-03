@@ -134,6 +134,49 @@ import dossier_no1_brd_kanpur_ from "../data/dossiers/no1-brd-kanpur.json";
 import dossier_pwc_ from "../data/dossiers/pwc.json";
 import dossier_rr_ from "../data/dossiers/rr.json";
 import dossier_in_space_ from "../data/dossiers/in-space.json";
+import dossier__500t_self_propelled_fuel_barges_ from "../data/dossiers/500t-self-propelled-fuel-barges.json";
+import dossier_active_protection_system_for_tanks_ from "../data/dossiers/active-protection-system-for-tanks.json";
+import dossier_advanced_defence_materials_and_superalloys_ from "../data/dossiers/advanced-defence-materials-and-superalloys.json";
+import dossier_aesa_radar_technology_ from "../data/dossiers/aesa-radar-technology.json";
+import dossier_air_ship_based_high_altitude_pseudo_satellite_as_haps_ from "../data/dossiers/air-ship-based-high-altitude-pseudo-satellite-as-haps.json";
+import dossier_akash_tarang_anti_uav_electronic_warfare_system_ from "../data/dossiers/akash-tarang-anti-uav-electronic-warfare-system.json";
+import dossier_amca_ from "../data/dossiers/amca.json";
+import dossier_anti_submarine_warfare_shallow_water_craft_programme_ from "../data/dossiers/anti-submarine-warfare-shallow-water-craft-programme.json";
+import dossier_astra_air_to_air_missile_family_ from "../data/dossiers/astra-air-to-air-missile-family.json";
+import dossier_atags_ from "../data/dossiers/atags.json";
+import dossier_bmp_2_bmp_2k_ from "../data/dossiers/bmp-2-bmp-2k.json";
+import dossier_counter_uas_technology_ from "../data/dossiers/counter-uas-technology.json";
+import dossier_dassault_aviation_ from "../data/dossiers/dassault-aviation.json";
+import dossier_defence_satellite_communications_ from "../data/dossiers/defence-satellite-communications.json";
+import dossier_dhanush_gun_system_ from "../data/dossiers/dhanush-gun-system.json";
+import dossier_electronic_warfare_systems_ from "../data/dossiers/electronic-warfare-systems.json";
+import dossier_ge_f404_ge_in20_engine_for_lca_mk1a_ from "../data/dossiers/ge-f404-ge-in20-engine-for-lca-mk1a.json";
+import dossier_ge_f414_india_manufacturing_pathway_ from "../data/dossiers/ge-f414-india-manufacturing-pathway.json";
+import dossier_ins_agray_ from "../data/dossiers/ins-agray.json";
+import dossier_ins_anjadip_ from "../data/dossiers/ins-anjadip.json";
+import dossier_ins_dunagiri_ from "../data/dossiers/ins-dunagiri.json";
+import dossier_ins_mahendragiri_ from "../data/dossiers/ins-mahendragiri.json";
+import dossier_ins_sanshodhak_ from "../data/dossiers/ins-sanshodhak.json";
+import dossier_ins_taragiri_ from "../data/dossiers/ins-taragiri.json";
+import dossier_jet_based_kamikaze_drone_system_ from "../data/dossiers/jet-based-kamikaze-drone-system.json";
+import dossier_lca_tejas_mk2_ from "../data/dossiers/lca-tejas-mk2.json";
+import dossier_military_propulsion_ from "../data/dossiers/military-propulsion.json";
+import dossier_military_turbofan_engines_ from "../data/dossiers/military-turbofan-engines.json";
+import dossier_mirage_2000_ from "../data/dossiers/mirage-2000.json";
+import dossier_mpatgm_ from "../data/dossiers/mpatgm.json";
+import dossier_multi_role_fighter_aircraft_mrfa_ from "../data/dossiers/multi-role-fighter-aircraft-mrfa.json";
+import dossier_naval_group_ from "../data/dossiers/naval-group.json";
+import dossier_naval_sonar_ from "../data/dossiers/naval-sonar.json";
+import dossier_project_75_kalvari_class_submarines_ from "../data/dossiers/project-75-kalvari-class-submarines.json";
+import dossier_project_75i_ from "../data/dossiers/project-75i.json";
+import dossier_rafale_m_ from "../data/dossiers/rafale-m.json";
+import dossier_rudram_ii_ from "../data/dossiers/rudram-ii.json";
+import dossier_t_72_main_battle_tank_ from "../data/dossiers/t-72-main-battle-tank.json";
+import dossier_t_90_main_battle_tank_ from "../data/dossiers/t-90-main-battle-tank.json";
+import dossier_tara_glide_weapon_ from "../data/dossiers/tara-glide-weapon.json";
+import dossier_thyssenkrupp_marine_systems_ from "../data/dossiers/thyssenkrupp-marine-systems.json";
+import dossier_uttam_aesa_radar_ from "../data/dossiers/uttam-aesa-radar.json";
+import dossier_vshorads_ from "../data/dossiers/vshorads.json";
 
 export type CompanyDossierTier = "A" | "B";
 
@@ -279,4 +322,47 @@ export const COMPANY_DOSSIER_MAP: Record<string, readonly CompanyDossierMapEntry
   "pwc": [{ tier: "B", vertical: "military-aerospace", path: "/research/military-aerospace/company/pwc/", filename: "pwc.json", dossier: dossier_pwc_ as unknown as EntityDossier }],
   "rr": [{ tier: "B", vertical: "military-aerospace", path: "/research/military-aerospace/company/rr/", filename: "rr.json", dossier: dossier_rr_ as unknown as EntityDossier }],
   "in-space": [{ tier: "B", vertical: "space", path: "/research/space/company/in-space/", filename: "in-space.json", dossier: dossier_in_space_ as unknown as EntityDossier }],
+  "500t-self-propelled-fuel-barges": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/500t-self-propelled-fuel-barges/", filename: "500t-self-propelled-fuel-barges.json", dossier: dossier__500t_self_propelled_fuel_barges_ as unknown as EntityDossier }],
+  "active-protection-system-for-tanks": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/active-protection-system-for-tanks/", filename: "active-protection-system-for-tanks.json", dossier: dossier_active_protection_system_for_tanks_ as unknown as EntityDossier }],
+  "advanced-defence-materials-and-superalloys": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/advanced-defence-materials-and-superalloys/", filename: "advanced-defence-materials-and-superalloys.json", dossier: dossier_advanced_defence_materials_and_superalloys_ as unknown as EntityDossier }],
+  "aesa-radar-technology": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/aesa-radar-technology/", filename: "aesa-radar-technology.json", dossier: dossier_aesa_radar_technology_ as unknown as EntityDossier }],
+  "air-ship-based-high-altitude-pseudo-satellite-as-haps": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/air-ship-based-high-altitude-pseudo-satellite-as-haps/", filename: "air-ship-based-high-altitude-pseudo-satellite-as-haps.json", dossier: dossier_air_ship_based_high_altitude_pseudo_satellite_as_haps_ as unknown as EntityDossier }],
+  "akash-tarang-anti-uav-electronic-warfare-system": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/akash-tarang-anti-uav-electronic-warfare-system/", filename: "akash-tarang-anti-uav-electronic-warfare-system.json", dossier: dossier_akash_tarang_anti_uav_electronic_warfare_system_ as unknown as EntityDossier }],
+  "amca": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/amca/", filename: "amca.json", dossier: dossier_amca_ as unknown as EntityDossier }],
+  "anti-submarine-warfare-shallow-water-craft-programme": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/anti-submarine-warfare-shallow-water-craft-programme/", filename: "anti-submarine-warfare-shallow-water-craft-programme.json", dossier: dossier_anti_submarine_warfare_shallow_water_craft_programme_ as unknown as EntityDossier }],
+  "astra-air-to-air-missile-family": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/astra-air-to-air-missile-family/", filename: "astra-air-to-air-missile-family.json", dossier: dossier_astra_air_to_air_missile_family_ as unknown as EntityDossier }],
+  "atags": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/atags/", filename: "atags.json", dossier: dossier_atags_ as unknown as EntityDossier }],
+  "bmp-2-bmp-2k": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/bmp-2-bmp-2k/", filename: "bmp-2-bmp-2k.json", dossier: dossier_bmp_2_bmp_2k_ as unknown as EntityDossier }],
+  "counter-uas-technology": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/counter-uas-technology/", filename: "counter-uas-technology.json", dossier: dossier_counter_uas_technology_ as unknown as EntityDossier }],
+  "dassault-aviation": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/dassault-aviation/", filename: "dassault-aviation.json", dossier: dossier_dassault_aviation_ as unknown as EntityDossier }],
+  "defence-satellite-communications": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/defence-satellite-communications/", filename: "defence-satellite-communications.json", dossier: dossier_defence_satellite_communications_ as unknown as EntityDossier }],
+  "dhanush-gun-system": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/dhanush-gun-system/", filename: "dhanush-gun-system.json", dossier: dossier_dhanush_gun_system_ as unknown as EntityDossier }],
+  "electronic-warfare-systems": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/electronic-warfare-systems/", filename: "electronic-warfare-systems.json", dossier: dossier_electronic_warfare_systems_ as unknown as EntityDossier }],
+  "ge-f404-ge-in20-engine-for-lca-mk1a": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/ge-f404-ge-in20-engine-for-lca-mk1a/", filename: "ge-f404-ge-in20-engine-for-lca-mk1a.json", dossier: dossier_ge_f404_ge_in20_engine_for_lca_mk1a_ as unknown as EntityDossier }],
+  "ge-f414-india-manufacturing-pathway": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/ge-f414-india-manufacturing-pathway/", filename: "ge-f414-india-manufacturing-pathway.json", dossier: dossier_ge_f414_india_manufacturing_pathway_ as unknown as EntityDossier }],
+  "ins-agray": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/ins-agray/", filename: "ins-agray.json", dossier: dossier_ins_agray_ as unknown as EntityDossier }],
+  "ins-anjadip": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/ins-anjadip/", filename: "ins-anjadip.json", dossier: dossier_ins_anjadip_ as unknown as EntityDossier }],
+  "ins-dunagiri": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/ins-dunagiri/", filename: "ins-dunagiri.json", dossier: dossier_ins_dunagiri_ as unknown as EntityDossier }],
+  "ins-mahendragiri": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/ins-mahendragiri/", filename: "ins-mahendragiri.json", dossier: dossier_ins_mahendragiri_ as unknown as EntityDossier }],
+  "ins-sanshodhak": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/ins-sanshodhak/", filename: "ins-sanshodhak.json", dossier: dossier_ins_sanshodhak_ as unknown as EntityDossier }],
+  "ins-taragiri": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/ins-taragiri/", filename: "ins-taragiri.json", dossier: dossier_ins_taragiri_ as unknown as EntityDossier }],
+  "jet-based-kamikaze-drone-system": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/jet-based-kamikaze-drone-system/", filename: "jet-based-kamikaze-drone-system.json", dossier: dossier_jet_based_kamikaze_drone_system_ as unknown as EntityDossier }],
+  "lca-tejas-mk2": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/lca-tejas-mk2/", filename: "lca-tejas-mk2.json", dossier: dossier_lca_tejas_mk2_ as unknown as EntityDossier }],
+  "military-propulsion": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/military-propulsion/", filename: "military-propulsion.json", dossier: dossier_military_propulsion_ as unknown as EntityDossier }],
+  "military-turbofan-engines": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/military-turbofan-engines/", filename: "military-turbofan-engines.json", dossier: dossier_military_turbofan_engines_ as unknown as EntityDossier }],
+  "mirage-2000": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/mirage-2000/", filename: "mirage-2000.json", dossier: dossier_mirage_2000_ as unknown as EntityDossier }],
+  "mpatgm": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/mpatgm/", filename: "mpatgm.json", dossier: dossier_mpatgm_ as unknown as EntityDossier }],
+  "multi-role-fighter-aircraft-mrfa": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/multi-role-fighter-aircraft-mrfa/", filename: "multi-role-fighter-aircraft-mrfa.json", dossier: dossier_multi_role_fighter_aircraft_mrfa_ as unknown as EntityDossier }],
+  "naval-group": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/naval-group/", filename: "naval-group.json", dossier: dossier_naval_group_ as unknown as EntityDossier }],
+  "naval-sonar": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/naval-sonar/", filename: "naval-sonar.json", dossier: dossier_naval_sonar_ as unknown as EntityDossier }],
+  "project-75-kalvari-class-submarines": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/project-75-kalvari-class-submarines/", filename: "project-75-kalvari-class-submarines.json", dossier: dossier_project_75_kalvari_class_submarines_ as unknown as EntityDossier }],
+  "project-75i": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/project-75i/", filename: "project-75i.json", dossier: dossier_project_75i_ as unknown as EntityDossier }],
+  "rafale-m": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/rafale-m/", filename: "rafale-m.json", dossier: dossier_rafale_m_ as unknown as EntityDossier }],
+  "rudram-ii": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/rudram-ii/", filename: "rudram-ii.json", dossier: dossier_rudram_ii_ as unknown as EntityDossier }],
+  "t-72-main-battle-tank": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/t-72-main-battle-tank/", filename: "t-72-main-battle-tank.json", dossier: dossier_t_72_main_battle_tank_ as unknown as EntityDossier }],
+  "t-90-main-battle-tank": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/t-90-main-battle-tank/", filename: "t-90-main-battle-tank.json", dossier: dossier_t_90_main_battle_tank_ as unknown as EntityDossier }],
+  "tara-glide-weapon": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/tara-glide-weapon/", filename: "tara-glide-weapon.json", dossier: dossier_tara_glide_weapon_ as unknown as EntityDossier }],
+  "thyssenkrupp-marine-systems": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/thyssenkrupp-marine-systems/", filename: "thyssenkrupp-marine-systems.json", dossier: dossier_thyssenkrupp_marine_systems_ as unknown as EntityDossier }],
+  "uttam-aesa-radar": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/uttam-aesa-radar/", filename: "uttam-aesa-radar.json", dossier: dossier_uttam_aesa_radar_ as unknown as EntityDossier }],
+  "vshorads": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/vshorads/", filename: "vshorads.json", dossier: dossier_vshorads_ as unknown as EntityDossier }],
 };

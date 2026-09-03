@@ -1,0 +1,272 @@
+{
+  "entity_id": "def-023",
+  "entity_type": "system",
+  "tier": "A",
+  "noindex": false,
+  "slug": "mpatgm",
+  "name": "MPATGM (Man-Portable Anti-Tank Guided Missile)",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "procurement",
+  "header": {
+    "one_liner": "India's indigenous man-portable fire-and-forget ATGM; DRDO R&D Establishment Pune design; ~2 km range; IIR seeker; tandem HEAT warhead; intended to replace Milan/Konkurs in Indian Army service.",
+    "chips": [
+      "ATGM",
+      "Man-portable",
+      "Indigenous",
+      "DRDO",
+      "Fire-and-forget",
+      "IIR seeker",
+      "Procurement"
+    ],
+    "maker": "DRDO Research & Development Establishment (R&DE) Pune — design; Bharat Dynamics Limited (BDL) — production",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Fully indigenous design",
+    "mobility_or_class": "Man-portable (soft-launch, fire-and-forget)",
+    "operational_domains": [
+      "land"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO R&D Establishment Pune — design; BDL — production",
+    "Weight": "~14.5 kg (missile + launcher tube)",
+    "Range": "70–2,000 m",
+    "Seeker": "Imaging Infrared (IIR) — fire-and-forget",
+    "Warhead": "Tandem HEAT (to defeat ERA)",
+    "Launch": "Soft-launch tube; shoulder-fired (tripod option)",
+    "Guidance": "Fire-and-forget (IIR lock-on)",
+    "Target": "Armoured vehicles, MBTs, fortified positions",
+    "Team": "Two-person portable team",
+    "Status": "Procurement phase"
+  },
+  "what_it_is": {
+    "prose": "The MPATGM (Man-Portable Anti-Tank Guided Missile) is an indigenous Indian fire-and-forget anti-tank guided missile system designed by the DRDO Research & Development Establishment (R&DE) in Pune. It is India's answer to the need for a Javelin-class man-portable ATGM with imaging infrared (IIR) seeker-based fire-and-forget capability. The MPATGM weighs approximately 14.5 kg (missile + launcher tube), has a range of 70–2,000 m, and uses an IIR seeker for target lock-on and autonomous guidance after launch. The warhead is a tandem HEAT design capable of defeating explosive reactive armour (ERA). The system can be fired from a shoulder-mounted position or a tripod. The MPATGM is intended to supplement and eventually replace older ATGM systems like the Milan and Konkurs in Indian Army service. The system has undergone extensive trials and is in the procurement phase.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The MPATGM is in the procurement phase following successful trials. No specific procurement quantity or value has been publicly confirmed. The system is intended for Indian Army infantry units.",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "MPATGM trials",
+        "year": 2021,
+        "quantity_or_note": "Successful trials completed; procurement phase initiated",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact procurement quantity not publicly disclosed",
+      "Whether MPATGM will be ordered in quantities sufficient to replace Milan/Konkurs fleets",
+      "Export interest from foreign armies not publicly confirmed"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Designed to be fully indigenous. Limited import dependencies on specialised components.",
+    "items": [
+      {
+        "component": "IIR seeker components",
+        "severity": "Low",
+        "note": "Some infrared detector components may use imported sources initially",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Tandem HEAT warhead materials",
+        "severity": "Low",
+        "note": "Indigenous development; some precursor materials may import initially",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Fully indigenous design by DRDO R&D Establishment Pune",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "BDL production planned; indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "IIR seeker may have some import dependencies initially; warhead indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 2,
+        "note": "Procurement phase; scale not yet confirmed",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Competitive with Javelin-class; potential export to cost-sensitive markets",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "active-protection-system-for-tanks"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "How does the MPATGM compare to the FGM-148 Javelin?",
+      "answer": "The MPATGM is India's indigenous answer to the Javelin-class fire-and-forget ATGM. Both use IIR seeker technology. The MPATGM has a range of ~2 km (vs ~4.7 km for Javelin) and a tandem HEAT warhead. The MPATGM is designed to be more cost-effective and suitable for Indian Army mass procurement.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What is the status of the MPATGM programme?",
+      "answer": "The MPATGM has completed extensive trials and is in the procurement phase. The Indian Army has expressed interest in acquiring the system to supplement and eventually replace older ATGM systems like the Milan and Konkurs. No specific procurement quantity or value has been publicly confirmed.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What is the Man-Portable Anti-Tank Guided Missile (MPATGM)?",
+      "answer": "MPATGM is a third-generation, fire-and-forget man-portable anti-tank guided missile developed by DRDO. It is designed for the soldier against armoured threats and features a top-attack capability, which the DRDO has demonstrated in successful flight trials against moving targets.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "Has MPATGM completed developmental trials?",
+      "answer": "DRDO has successfully conducted flight tests of the indigenously developed third-generation MPATGM, including tests demonstrating top-attack capability against moving targets, marking progress toward user trial validation and eventual induction.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "~2016",
+      "event": "MPATGM development programme initiated by DRDO R&D Establishment Pune",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2021",
+      "event": "Successful trials completed",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020s",
+      "event": "Procurement phase initiated; Indian Army evaluating",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact procurement quantity not publicly disclosed",
+    "Whether MPATGM will be ordered in quantities sufficient to replace Milan/Konkurs fleets",
+    "Export interest from foreign armies not publicly confirmed",
+    "Timeline for procurement contract"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "MPATGM — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/MPATGM",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Comprehensive MPATGM specifications and programme history"
+    },
+    {
+      "id": "src-2",
+      "title": "DRDO MPATGM — anti-tank guided missile",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/rde/English/Index.jsp",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO RDE — MPATGM programme page (domain root)"
+    },
+    {
+      "id": "src-3",
+      "title": "DRDO successfully flight-tests Man Portable Anti-Tank Guided Missile with top attack capability against a moving target",
+      "publisher": "Press Information Bureau",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2213690",
+      "published_date": "2026-01-12",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB press release on MPATGM flight test"
+    },
+    {
+      "id": "src-4",
+      "title": "DRDO successfully flight-tests indigenous third-generation MPATGM with top-attack capability",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/sci-tech/science/drdo-successfully-flight-tests-indigenous-third-generation-mpatgm-with-top-attack-capability/article70502086.ece",
+      "published_date": "2026-01-12",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "MPATGM top-attack test report"
+    }
+  ],
+  "seo": {
+    "title": "MPATGM — System · India Defence Atlas | Techadyant",
+    "meta_description": "India's indigenous man-portable fire-and-forget ATGM; DRDO design; ~2 km range; IIR seeker; tandem HEAT warhead; procurement phase.",
+    "canonical_path": "/research/pillars/defence/entity/mpatgm/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

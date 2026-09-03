@@ -1,0 +1,306 @@
+{
+  "entity_id": "def-035",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ins-agray",
+  "name": "INS Agray",
+  "variant": "ASW Corvette / Anti-Submarine Warfare Shallow Water Craft (ASW-SWC)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "commissioned_2026",
+  "header": {
+    "one_liner": "Lead ship of the ASW-SWC (Arnala-class) shallow-water ASW corvette series; first-in-class commissioned 2024, sisters completing at GRSE and (for Agray batch) at Goa Shipyard; hull-integrated sonar; low-visibility ASW specialist for littorals.",
+    "chips": [
+      "ASW corvette",
+      "ASW-SWC programme",
+      "Arnala class",
+      "GRSE design",
+      "Hull-mounted sonar",
+      "Coastal ASW",
+      "Commissioned 2026"
+    ],
+    "maker": "Garden Reach Shipbuilders & Engineers (GRSE), Kolkata (design + lead series) and Goa Shipyard Limited (GSL) — the Agray-variant batch",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "~80% indigenous by value (GRSE claim); sonar/AA weapons partially imported",
+    "mobility_or_class": "ASW-SWC corvette (shallow-water ASW craft)",
+    "operational_domains": [
+      "naval",
+      "sea",
+      "air"
+    ]
+  },
+  "what_it_is": {
+    "prose": "Note: 'INS Agray' is used here as the platform entry for the ASW-SWC shallow-water anti-submarine warfare corvette series built under Project P-28I or its commercial-derivative ASW-SWC programme for the Indian Navy. The class — sometimes referred to as the Arnala class — was designed by Garden Reach Shipbuilders & Engineers (GRSE) to counter submarines and undersea threats in India's shallow coastal waters, where large frigates are less effective. The ships carry a hull-mounted sonar and an integrated ASW suite including torpedo tubes, ASW rockets, and a variable-depth sonar variant on later ships, supported by a 30mm/76mm gun for self-defence. The programme is a flagship of the Indian Navy's 'Make in India' littoral ASW build-out, split between GRSE (the original class of 4) and a follow-on tranche (the ASW-SWC 8-ship order of which several hulls are built at Goa Shipyard Limited). As a member of the ASW-SWC programme, the Agray ships are optimised for the shallow-water ASW role, filling a critical gap in India's littoral anti-submarine coverage. The lead-in-series commissioning occurred in 2024; later hulls in the batch commissioned through 2025-2026. 'INS Agray' should not be confused with the earlier, unrelated naval usage of the name; the platform entry here tracks the contemporary ASW-SWC/series programme.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The ASW-SWC procurement runs in two tranches: an initial GRSE-designed and built batch (4 ships, ~₹1,571 crore each nominal programme-wide estimate varies) and a larger 8-ship shallow-water craft order placed in 2019 under Project ASW-SWC, split across GRSE (further hulls) and GSL. The Agray series hulls form part of this second, larger programme. Costs are not uniformly published; the class is broadly reported at around ₹1,500-1,600 crore per ship but precise values differ by yard and tranche — flagged as uncertain. The lead ship commissioned in 2024, with sisters following through 2025-26.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Initial ASW-SWC batch ordered from GRSE",
+        "year": 2013,
+        "quantity_or_note": "4 GRSE ASW corvettes (lead ship of that design)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Expanded ASW-SWC shallow-water craft order (8 ships)",
+        "year": 2019,
+        "quantity_or_note": "8 wider ASW-SWC ships split across GRSE and GSL",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Lead-in-series ASW-SWC commissioned",
+        "year": 2024,
+        "quantity_or_note": "First ASW-SWC corvette (Arnala-class lead) commissioned",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Later ASW-SWC hulls (incl. Agray-series batch) commissioning",
+        "year": 2026,
+        "quantity_or_note": "Commissioning spread across 2025-26 as delivery continues",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact per-ship contract value for the 2019 8-ship tranche (not uniformly published)",
+      "Whether 'INS Agray' denotes a distinct hull or the whole Agray-series tranche — name/programme overlap needs confirmation",
+      "Final total count (GRSE + GSL) and commissioning dates for remaining ASW-SWC hulls"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The ASW-SWC is substantially indigenous but retains imported sonar transducers, some AA/CIWS weapons and propulsion modules.",
+    "items": [
+      {
+        "component": "Sonar transducers / arrays",
+        "severity": "High",
+        "note": "Hull sonar initially sourced/technology-assisted from abroad (e.g. Thales RUWL) before indigenisation — severity Medium-High",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "CIWS / close-in weapon system",
+        "severity": "High",
+        "note": "AK-630 (Russia) typically fitted; indigenous alternatives in development",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Diesel engines",
+        "severity": "Medium",
+        "note": "Main propulsion diesel engines imported (e.g. MTU/Pielstick family) — indigenous naval diesel under development",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Torpedo / ASW weapon sub-systems",
+        "severity": "Medium",
+        "note": "Lightweight torpedoes and some ASW weapon system components sourced or licensed",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "GRSE-designed for the specific shallow-water ASW role",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Built at Indian yards GRSE + GSL",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Sonar, CIWS, propulsion partly imported; weapon sensor suite indigenising",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "8+ ship programme filling the littoral ASW gap across both navies commands",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Shallow-water ASW corvettes are an exportable, less-sensitively-specified Indian design — GRSE marketing offshore",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "garden-reach-shipbuilders-engineers",
+      "goa-shipyard-limited"
+    ],
+    "peer_systems": [
+      "ins-mahendragiri",
+      "anti-submarine-warfare-shallow-water-craft-programme"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What does ASW-SWC stand for?",
+      "answer": "ASW-SWC stands for Anti-Submarine Warfare Shallow Water Craft — a class of coastal anti-submarine corvettes designed by GRSE to operate in India's shallow littoral waters where large frigates are ineffective against submarines and undersea threats.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Which shipyards build the ASW-SWC series?",
+      "answer": "The ASW-SWC programme is split between Garden Reach Shipbuilders & Engineers (GRSE), which designed the class and built the lead ships, and Goa Shipyard Limited (GSL), which builds a tranche of the follow-on hulls.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Why does India need specialist shallow-water ASW craft?",
+      "answer": "Large frigates and destroyers are too big and too deep-draft to effectively hunt submarines in India's shallow coastal waters and straits. Specially designed shallow-water ASW corvettes with hull-mounted sonar fill this littoral coverage gap, protecting ports, sea lanes and the seabed around India's coastline from submarine incursions.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2013",
+      "event": "Initial ASW-SWC/ASW corvette order placed with GRSE",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2019",
+      "event": "8-ship ASW-SWC shallow-water craft order split across GRSE and GSL",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "Lead-in-series ASW-SWC corvette commissioned",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "Agray-series / later ASW-SWC hulls commissioning across 2025-26",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Precise per-ship cost and total programme value for the ASW-SWC tranche",
+    "Whether 'INS Agray' names a specific hull or a tranche — nomenclature confirmed by Indian Navy records",
+    "Final hull count and remaining commissioning schedule"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "ASW Shallow Water Craft — GRSE programme",
+      "publisher": "Garden Reach Shipbuilders & Engineers",
+      "url": "https://grse.in/pages/naval-shipbuilding",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "GRSE ASW-SWC design and programme detail"
+    },
+    {
+      "id": "src-2",
+      "title": "Anti-submarine warfare shallow water craft (Indian Navy)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anti-submarine_warfare_shallow_water_craft",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Class history, tranches and shipyard split"
+    },
+    {
+      "id": "src-3",
+      "title": "Indian Navy — ships and programmes",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB commissioning releases for ASW-SWC vessels"
+    },
+    {
+      "id": "src-4",
+      "title": "INS Agray launched at Goa Shipyard for Indian Navy",
+      "publisher": "Naval News",
+      "url": "https://www.navalnews.com/naval-news/2024/03/ins-agray-launched-at-goa-shipyard-for-indian-navy/",
+      "published_date": "2024-03-14",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "INS Agray ASW-SWC launch report"
+    }
+  ],
+  "seo": {
+    "title": "INS Agray — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "INS Agray, the anti-submarine warfare shallow-water craft (ASW-SWC) series built by GRSE/GSL for littoral ASW. Hull sonar, torpedoes, ~80% indigenous.",
+    "canonical_path": "/research/pillars/defence/entity/ins-agray/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

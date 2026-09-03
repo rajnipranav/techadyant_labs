@@ -1,0 +1,326 @@
+{
+  "entity_id": "def-044",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "amca",
+  "name": "AMCA (Advanced Medium Combat Aircraft)",
+  "variant": "Fifth-generation medium fighter (twin-engine stealth), HAL/ADA development",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "development",
+  "header": {
+    "one_liner": "India's fifth-generation twin-engine stealth medium fighter under development by ADA/DRDO and HAL; will use GE F414 engines and later a newer engine; the strategic capstone of Indian combat-aircraft sovereignty.",
+    "chips": [
+      "Combat aircraft",
+      "Fifth-generation",
+      "Stealth",
+      "Twin-engine",
+      "ADA / DRDO",
+      "HAL build",
+      "In development"
+    ],
+    "maker": "Aeronautical Development Agency (ADA, DRDO) — design; Hindustan Aeronautics Limited (HAL) — production",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Airframe/stealth/avionics indigenous; engine imported (F414, later newer)",
+    "mobility_or_class": "Twin-engine 5th-generation stealth medium combat aircraft",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Fifth-generation twin-engine stealth medium fighter",
+    "Designer": "Aeronautical Development Agency (ADA/DRDO)",
+    "Producer": "Hindustan Aeronautics Limited (HAL)",
+    "Engine": "2x GE F414 (Mk-1 AMCA) / later more powerful (GTRE- or partnership) engine",
+    "Role": "Air superiority, stealth strike, SEAD/DEAD, multi-role",
+    "Sensors": "Uttam AESA radar + integrated stealth EW/sensor fusion",
+    "Weapons": "Astra AAM, BrahMos-NG/SLCM internal-bay strike weapons, deep-penetration",
+    "Stealth": "Internal weapons bays, radar-absorbent structure/materials, reduced RCS design",
+    "Crew": "1",
+    "Status": "Detailed design; first flight targeted ~2030s (delayed from earlier estimates)"
+  },
+  "what_it_is": {
+    "prose": "The AMCA (Advanced Medium Combat Aircraft) is India's programme to develop a fifth-generation, twin-engine, stealth-capable medium fighter — the most ambitious indigenous combat-aircraft project ever attempted by India. Designed by the Aeronautical Development Agency (ADA, a DRDO body) and to be produced by Hindustan Aeronautics Limited (HAL), the AMCA is intended to give the Indian Air Force and Navy a modern stealth fighter that competes with the F-35, Su-57 and J-20 in the medium class, with full Indian design ownership of the airframe, stealth shaping, avionics, sensor fusion and weapons integration. The programme has progressed through concept and detailed design under an approved development budget; the first flight was originally targeted around the mid-2030s but has been delayed from earlier estimates (the programme has slipped). The AMCA will use two GE F414 engines in its initial Mk-1 configuration, stepping to a more powerful engine (a newer/more-powerful engine under consideration) on the later Mk-2. It will carry an internal weapons bay for stealth strike, the indigenous Uttam AESA radar, and Indian air-to-air and strike weapons including Astra and, on later variants, BrahMos-NG-class or SLCM air-launched systems. Strategically, AMCA is the end-point of India's decades-long attempt to achieve genuine fifth-generation combat-aircraft sovereignty — the capability to design, iterate and sustain a modern stealth fighter without dependence on any foreign OEM. It is a direct counterpart to China's J-20 programme and a hedge against reliance on Russian Su-57 or US F-35 imports. Its success or failure will define whether India's military-aerospace industrial base can stand alone at the frontier of the technology.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The AMCA remains in the development phase; funding was approved and detailed design is under way at ADA/HAL. No production order exists yet. The IAF has stated intent to order a sizeable fleet once the aircraft matures. First flight has slipped from earlier estimates to the 2030s timeframe (~2032-35).",
+    "rows": [
+      {
+        "agency": "IAF / DRDO",
+        "context": "AMCA development approval / design start",
+        "year": 2018,
+        "quantity_or_note": "Development approved; design under way",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "IAF / DRDO",
+        "context": "AMCA detailed design / configuration freeze",
+        "year": 2023,
+        "quantity_or_note": "Detailed design progressing; GE F414 selected for Mk-1",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "IAF",
+        "context": "First flight targeted",
+        "year": 2030,
+        "quantity_or_note": "~2032-35 first flight expected (delayed from earlier estimates)",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "IAF",
+        "context": "Production / induction",
+        "year": null,
+        "quantity_or_note": "Substantial order intended once matured; not yet contracted",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact first-flight and induction dates (repeatedly deferred)",
+      "Choice of the more powerful Mk-2 engine (newer GE or indigenous/partnership)",
+      "Final order quantity and unit cost (not contracted)",
+      "Whether AMCA remains credible given long development timelines vs rivals"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The AMCA's most critical dependence is the engine; airframe, stealth, avionics and sensor fusion are designed to be indigenous.",
+    "items": [
+      {
+        "component": "GE F414 engines (Mk-1)",
+        "severity": "Critical",
+        "note": "US (GE Aerospace) — the Mk-1 engines imported/licensed; no indigenous fifth-generation fighter engine in service",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Mk-2 powerplant (future)",
+        "severity": "Critical",
+        "note": "A newer, more powerful engine needed for Mk-2 — choice/indigenisation path unresolved",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "AESA radar / TR modules",
+        "severity": "Medium",
+        "note": "Uttam AESA indigenised but some phased-array/TR components initially imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Advanced materials / stealth coating",
+        "severity": "Medium",
+        "note": "Radar-absorbent materials and some composites initially imported; indigenisation under way",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Fully indigenous ADA design — the strategic aim is complete design sovereignty",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "HAL (Indian) production",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Engine is the hard constraint (F414 import; Mk-2 engine unresolved)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 2,
+        "note": "Not yet flown — long development to induction",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "If successful, a genuine exportable Indian 5th-gen fighter — high ceiling, high risk",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "ge-f414-india-manufacturing-pathway"
+    ],
+    "peer_systems": [
+      "lca-tejas-mk2",
+      "multi-role-fighter-aircraft-mrfa",
+      "ge-f414-india-manufacturing-pathway",
+      "ge-f404-ge-in20-engine-for-lca-mk1a"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What makes the AMCA fifth-generation?",
+      "answer": "The AMCA is fifth-generation because of its stealth shaping, internal weapons bays, reduced radar cross-section, integrated sensor fusion and the Uttam AESA radar — capabilities that put it in the class of the F-35, Su-57 and J-20 rather than a conventional fourth-generation fighter.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Who is designing the AMCA?",
+      "answer": "The AMCA is designed by the Aeronautical Development Agency (ADA, a DRDO body), which designed the Tejas, and will be produced by Hindustan Aeronautics Limited (HAL). The Indian Air Force and Navy are potential customers.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "What engine will the AMCA use?",
+      "answer": "The initial Mk-1 AMCA will use two GE F414 engines (imported/licensed). A later Mk-2 is planned to use a more powerful engine, the choice and indigenisation path of which is still under consideration — the engine is the programme's single largest dependence.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "When will the AMCA fly?",
+      "answer": "First flight has repeatedly slipped; it is now targeted around the 2030s (~2032-35). Production and induction would follow several years later. The programme remains in detailed design.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018",
+      "event": "AMCA development approved; detailed design begins",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2023",
+      "event": "Configuration/detailed design; GE F414 selected for Mk-1",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2030s",
+      "event": "First flight targeted ~2032-35 (delayed from earlier estimates)",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "Programme still in detailed design; no production order",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact first-flight and induction dates",
+    "Mk-2 engine choice and indigenisation",
+    "Final order quantity and unit cost",
+    "Credibility of AMCA timelines vs rival 5th-gen programmes"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "HAL AMCA / Advanced Medium Combat Aircraft",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HAL_AMCA",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "AMCA specifications, engine and development status"
+    },
+    {
+      "id": "src-2",
+      "title": "AMCA — Aeronautical Development Agency",
+      "publisher": "Aeronautical Development Agency",
+      "url": "https://www.ada.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "ADA AMCA programme context"
+    },
+    {
+      "id": "src-3",
+      "title": "AMCA — credible reporting",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "IAF/DRDO AMCA timeline coverage"
+    },
+    {
+      "id": "src-4",
+      "title": "Advanced Medium Combat Aircraft - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Advanced_Medium_Combat_Aircraft",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "AMCA programme overview"
+    }
+  ],
+  "seo": {
+    "title": "AMCA — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "India's fifth-generation twin-engine stealth fighter AMCA, designed by ADA/DRDO and built by HAL. GE F414 engines, Uttam AESA, internal weapons bay.",
+    "canonical_path": "/research/pillars/defence/entity/amca/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

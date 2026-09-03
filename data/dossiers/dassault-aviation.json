@@ -1,0 +1,276 @@
+{
+  "entity_id": "def-063",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "dassault-aviation",
+  "name": "Dassault Aviation",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "Operational",
+  "header": {
+    "one_liner": "French aerospace OEM; manufacturer of the Rafale (36 delivered to India) and Mirage 2000; leading contender for India's MRFA programme (114 fighters) via Rafale Marine.",
+    "chips": [
+      "Tier A",
+      "Foreign Supplier",
+      "France",
+      "Rafale",
+      "Mirage 2000",
+      "MRFA",
+      "Rafale Marine",
+      "Combat Aircraft"
+    ],
+    "maker": "French aerospace and defence company; public (Euronext Paris: DSY)",
+    "country": "France",
+    "indigenous_pct": null,
+    "indigenous_label": "Not applicable — foreign supplier",
+    "operational_domains": [
+      "air",
+      "naval"
+    ]
+  },
+  "at_a_glance": {
+    "Legal_name": "Dassault Aviation SA",
+    "Ownership": "Publicly listed (Euronext Paris: DSY); Belfour family controlling stake",
+    "HQ": "Saint-Cloud, France",
+    "Revenue_2025": "~EUR 5.5 billion",
+    "Order_backlog": "~EUR 45 billion (as of end 2025)",
+    "Rafale_fleet_global": "~300+ delivered worldwide (France, India, Egypt, Qatar, Greece, Croatia, UAE)",
+    "India_36_Rafale": "36 Rafale fighters delivered to Indian Air Force (2020-2022); 30 single-seat + 6 twin-seat",
+    "Mirage_2000_India": "51 Mirage 2000H upgraded to 'Tranche 3' standard (India-specific upgrade ongoing with Dassault)",
+    "MRFA_status": "Rafale Marine (F4/R) shortlisted as leading contender for 114 MRFA; AoN 2026",
+    "Website": "https://www.dassault-aviation.com"
+  },
+  "what_it_is": {
+    "prose": "Dassault Aviation SA is a French aerospace and defence company headquartered in Saint-Cloud, France, and the manufacturer of the Rafale multi-role fighter and the Mirage 2000. Dassault has a longstanding relationship with the Indian Air Force, having supplied the original Mirage 2000H (51 aircraft, inducted 1985-2007) and more recently the Rafale (36 aircraft, delivered 2020-2022 under a EUR 7.87 billion inter-governmental agreement signed in 2016). Dassault is a leading contender for India's ₹1.5 lakh crore+ Multi-Role Fighter Aircraft (MRFA) programme to procure 114 fighters, with the Rafale Marine (F4/R standard, naval variant for the Indian Navy's future aircraft carriers) as its offering. Dassault also maintains India's existing Mirage 2000 fleet through an ongoing upgrade programme, including a new radar, cockpit avionics, and the Meteor beyond-visual-range air-to-air missile. Dassault's global order backlog stands at approximately EUR 45 billion as of end 2025, providing strong production continuity.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Dassault delivered 36 Rafale to IAF (2020-22); maintains Mirage 2000 fleet; Rafale Marine leading MRFA contender (114 fighters, AoN 2026).",
+    "rows": [
+      {
+        "agency": "Indian Air Force",
+        "context": "Rafale (36 aircraft — IGA between India and France)",
+        "year": 2016,
+        "quantity_or_note": "EUR 7.87 billion; 30 single-seat + 6 twin-seat; all 36 delivered by 2022",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Air Force",
+        "context": "Mirage 2000 upgrade programme",
+        "year": 2011,
+        "quantity_or_note": "51 Mirage 2000H being upgraded to Tranche 3 standard; €1.47 billion; ongoing",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Navy (prospective)",
+        "context": "Rafale Marine — MRFA (114 fighters)",
+        "year": 2026,
+        "quantity_or_note": "AoN 2026; ~₹1.5 lakh crore+; competition with Boeing F/A-18E/F and others",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "MRFA contract award timeline — AoN 2026 but competitive evaluation will take 2-3 years",
+      "Whether Dassault will offer ToT for Rafale assembly in India (L1 partner arrangement vs direct import)",
+      "Rafale F4/R standard India-specific requirements not publicly detailed",
+      "Impact of French political changes on bilateral defence cooperation"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Dassault itself has no import dependencies for the Rafale. However, India's Rafale operation depends on Dassault for spares, upgrades, and ToT.",
+    "items": [
+      {
+        "component": "Rafale spares and lifecycle support",
+        "severity": "Medium",
+        "note": "Dassault and Safran maintain exclusive supply for Rafale spares; India has a 50-year logistics contract",
+        "pillar_link": "/research/pillars/defence/"
+      },
+      {
+        "component": "Meteor BVR missile",
+        "severity": "Low",
+        "note": "MBDA (European consortium) — delivered with Rafale; resupply dependent on MBDA",
+        "pillar_link": "/research/pillars/defence/"
+      },
+      {
+        "component": "Rafale naval variant (F4/R) development",
+        "severity": "Medium",
+        "note": "Dassault developing Rafale Marine for Indian Navy; timeline linked to MRFA contract",
+        "pillar_link": "/research/pillars/defence/"
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 5,
+        "note": "Rafale and Mirage 2000 fully designed and produced by Dassault in France"
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Full production at Merignac facility, Bordeaux; ~30 Rafale per year capacity"
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 5,
+        "note": "Rafale is a sovereign French platform; engines (Safran M88), radar (RBE2 AESA), EW (SPECTRA) all indigenous to France"
+      },
+      {
+        "id": "scale",
+        "label": "Scale / order book",
+        "value": 5,
+        "note": "EUR 45bn backlog; global Rafale programme with 9+ customer nations"
+      },
+      {
+        "id": "export_posture",
+        "label": "Export posture",
+        "value": 5,
+        "note": "Rafale exported to India, Egypt, Qatar, Greece, Croatia, UAE; global marketing by Dassault"
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "rafale-m",
+      "mirage-2000",
+      "multi-role-fighter-aircraft-mrfa"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "open_questions": [
+    "Will India order more Rafale fighters beyond the 36 delivered?",
+    "MRFA winner selection timeline and whether Rafale Marine beats competitors",
+    "Dassault's India assembly plan — whether Rafale MRFA will be built in India or imported",
+    "Strategic implications of French dependence for India's fighter fleet longevity"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Rafale: the omnirole fighter aircraft — Dassault Aviation",
+      "publisher": "Dassault Aviation",
+      "url": "https://www.dassault-aviation.com/en/defense/rafale/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Official Rafale product page"
+    },
+    {
+      "id": "src-2",
+      "title": "Multi-Role Fighter Aircraft (MRFA) — Indian Air Force",
+      "publisher": "Indian Air Force / Ministry of Defence",
+      "url": "https://indianairforce.nic.in/multi-role-fighter-aircraft",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "IAF page on MRFA programme"
+    },
+    {
+      "id": "src-3",
+      "title": "Rafale — Indian Air Force fleet status",
+      "publisher": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/",
+      "published_date": "2022-12-14",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "HT coverage of 36th Rafale delivery; general reference"
+    },
+    {
+      "id": "src-4",
+      "title": "Mega jet deal in offing: France submits detailed proposal to India's request for 114 Rafales",
+      "publisher": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/defence/mega-jet-deal-in-offing-france-submits-detailed-proposal-to-indias-request-for-114-rafales/articleshow/133015355.cms",
+      "published_date": "2026-08-06",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "MRFA 114 Rafale proposal"
+    },
+    {
+      "id": "src-5",
+      "title": "India a step closer to procure 114 Rafale fighters as Dassault submits its proposal",
+      "publisher": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/defence/news/india-a-step-closer-to-procure-114-rafale-fighters-as-dassault-submits-its-proposal/articleshow/133021589.cms",
+      "published_date": "2026-08-07",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Dassault MRFA proposal report"
+    }
+  ],
+  "seo": {
+    "title": "Dassault Aviation — Company | India Defence Atlas | Techadyant",
+    "meta_description": "Dassault: French OEM; Rafale manufacturer (36 delivered to IAF); Mirage 2000 maintainer; leading contender for India's 114-fighter MRFA programme.",
+    "canonical_path": "/research/pillars/defence/entity/dassault-aviation/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is Dassault Aviation's relationship with India?",
+      "answer": "Dassault has supplied India with 51 Mirage 2000H fighters (1985-2007) and 36 Rafale fighters (2020-2022). The 36 Rafale were delivered under a EUR 7.87 billion inter-governmental agreement signed in 2016. Dassault also maintains the Indian Mirage 2000 fleet through an upgrade programme and is a leading contender for the ₹1.5 lakh crore+ MRFA programme with the Rafale Marine."
+    },
+    {
+      "question": "What is the MRFA competition?",
+      "answer": "The Multi-Role Fighter Aircraft (MRFA) programme is India's bid to procure 114 fighters for the Indian Air Force and Navy at an estimated cost of ₹1.5 lakh crore+. Dassault Aviation's Rafale Marine (naval variant) is a leading contender, competing against Boeing's F/A-18E/F Super Hornet and others. The Acceptance of Necessity (AoN) was granted in 2026, but the competitive evaluation and contract award is expected to take 2-3 more years."
+    },
+    {
+      "question": "Can India produce Rafale fighters domestically?",
+      "answer": "Dassault has offered to set up a final assembly line in India for Rafale MRFA aircraft under a Strategic Partnership (SP) model with an Indian partner. Whether Dassault will offer full Transfer of Technology for local manufacturing, or only final assembly from imported kits, remains a key question for the MRFA competition. The earlier 36-aircraft order was an off-the-shelf import."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1985",
+      "event": "First Mirage 2000H inducted into Indian Air Force"
+    },
+    {
+      "date": "2016-09-23",
+      "event": "India-France IGA for 36 Rafale signed (EUR 7.87 billion)"
+    },
+    {
+      "date": "2020-07-29",
+      "event": "First 5 Rafale delivered to Ambala Air Force Station"
+    },
+    {
+      "date": "2022-12-14",
+      "event": "36th and final Rafale delivered to Indian Air Force"
+    },
+    {
+      "date": "2026",
+      "event": "AoN granted for MRFA (114 fighters); Rafale Marine shortlisted"
+    }
+  ],
+  "timeline_date": "2026-09-03"
+}

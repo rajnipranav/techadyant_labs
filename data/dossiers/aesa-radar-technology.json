@@ -1,0 +1,301 @@
+{
+  "entity_id": "def-049",
+  "entity_type": "dependency",
+  "tier": "A",
+  "noindex": false,
+  "slug": "aesa-radar-technology",
+  "name": "AESA Radar Technology",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "development/integration",
+  "header": {
+    "one_liner": "Active Electronically Scanned Array radar — the core sensor technology for next-generation Indian fighter aircraft, warships, and air-defence systems; DRDO LRDE leads indigenous development.",
+    "chips": [
+      "AESA",
+      "DRDO LRDE",
+      "Uttam",
+      "TR modules",
+      "GaN",
+      "Air Defence",
+      "Multi-domain"
+    ],
+    "maker": "DRDO — Electronics & Radar Development Establishment (LRDE, Bengaluru) — design; Bharat Electronics Limited (BEL) — production",
+    "country": "India / Foreign",
+    "indigenous_pct": null,
+    "indigenous_label": "See import dependencies below",
+    "mobility_or_class": "Technology / sensor subsystem",
+    "operational_domains": [
+      "land",
+      "naval",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Technology": "Active Electronically Scanned Array (AESA) — solid-state transmit/receive modules enable electronic beam-steering without mechanical movement",
+    "Indian_programme": "Uttam AESA radar (DRDO LRDE) — under development for LCA Tejas Mk-2, AMCA, and naval applications",
+    "Current_status": "Uttam Mk-1 flying on LCA Tejas Mk-1 prototype; Mk-2 (wider bandwidth, more T/R modules) in development for Tejas Mk-2 and AMCA",
+    "Key_indian_players": "DRDO LRDE (design), BEL (production), ISRO/SAC (GaN fabrication), private suppliers (Tata Advanced Systems, L&T Defence)",
+    "Key_foreign_suppliers": "Raytheon (US — AN/APG series), Northrop Grumman (US), Thales (France — RBE2), Elbit Systems (Israel)",
+    "Critical_gap": "GaN-based T/R modules at scale; India's ISRO/SAC has pilot GaN fab but volume production for defence AESA remains limited; ~60-70% of T/R module supply may be imported for current programmes",
+    "Procurement_value": "~₹25,000-30,000 cr embedded across Tejas Mk-2, AMCA, MRFA, P-75I, and naval programmes (aggregate programme value, not standalone radar procurement)",
+    "Operational_domains": "Air (fighter radar), Land (ground-based air-defence), Naval (shipborne multi-function radar)"
+  },
+  "what_it_is": {
+    "prose": "AESA (Active Electronically Scanned Array) radar is the defining sensor technology of 21st-century air power and naval warfare. Unlike conventional mechanically scanned radars, an AESA radar uses hundreds or thousands of individual solid-state transmit/receive (T/R) modules arranged in a flat panel, allowing the beam to be steered electronically at microsecond speeds. This enables simultaneous tracking of multiple targets, resistance to electronic countermeasures (ECCM), low probability of intercept (LPI), and high reliability (no moving parts). For India, AESA radar is both a strategic necessity and an industrial bottleneck. The DRDO's Electronics & Radar Development Establishment (LRDE, Bengaluru) has developed the Uttam AESA radar family. The Uttam Mk-1 has been flown on the LCA Tejas prototype, while the wider-bandwidth Mk-2 variant is in development for the Tejas Mk-2, the Advanced Medium Combat Aircraft (AMCA), and potentially naval platforms. India also operates foreign AESA radars — notably the Thales RBE2 AESA on the Rafale fleet, the Israeli EL/M-2052 on some Tejas prototypes, and the Israeli EL/M-2090 \"Green Pine\" derivative used in the S-400 fire-control system. The core industrial challenge is the T/R module: each module contains a gallium arsenide (GaAs) or gallium nitride (GaN) monolithic microwave integrated circuit (MMIC) for transmit and receive functions, plus phase-shifter and low-noise amplifier components. A modern AESA radar may contain 1,000–2,000+ T/R modules. India's ISRO/SAC has established a pilot GaN fabrication facility, but scaling to defence-volume production of high-power T/R modules remains a critical gap. BEL is the designated production partner for Uttam, but the domestic supply chain for MMICs, hermetic packaging, and thermal management components is nascent.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "capability_notes": {
+    "summary": "AESA radar is integrated or planned across virtually every new Indian defence platform. The Uttam AESA family is the indigenous baseline; foreign AESA radas are fitted to the Rafale, certain Tejas prototypes, and naval platforms.",
+    "platforms": [
+      "LCA Tejas Mk-2 (Uttam AESA Mk-2)",
+      "AMCA (Uttam AESA Mk-2 or derivative)",
+      "MRFA competition winner (all bidders offer AESA)",
+      "P-75I submarine (fly-by-wire + combat management with AESA-capable sensor suite)",
+      "Naval Multi-Function Radar (DRDO programmes for next-gen destroyers/frigates)",
+      "Rafale (Thales RBE2 AESA — fitted, operational)",
+      "Ground-based air-defence radars (DRDO long-range surveillance)"
+    ],
+    "open_questions": [
+      "Whether Uttam Mk-2 will achieve T/R module count and power-aperture product competitive with Western AESA radars (Raytheon AN/APG-83, Thales RBE2)",
+      "Timeline for ISRO/SAC GaN fab to reach defence-volume production",
+      "Whether the MRFA competition will mandate AESA radar or accept alternatives"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "India is significantly import-dependent for AESA radar components, particularly at the T/R module and MMIC level.",
+    "items": [
+      {
+        "component": "GaN / GaAs MMIC (Monolithic Microwave Integrated Circuit)",
+        "severity": "Critical",
+        "note": "Core chip inside each T/R module; dominated by US (Wolfspeed, Qorvo, MACOM), European (UMS/Thales) foundries. India's ISRO/SAC pilot fab exists but not at defence volume.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "component": "T/R modules (complete)",
+        "severity": "High",
+        "note": "Each AESA radar requires 1,000–2,000+ modules; domestic assembly is nascent via BEL; packaging, testing, and yield remain challenges.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "component": "Radar signal processor / digital backend",
+        "severity": "Medium",
+        "note": "High-speed ADC/DAC and FPGA-based signal processing; partially indigenous via BEL/DRDO, but advanced FPGA imports (Xilinx/AMD, Intel/Altera) remain relevant.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "AESA antenna panel integration and thermal management",
+        "severity": "Medium",
+        "note": "Hermetic sealing, liquid-cooling manifolds, and radome materials; BEL and private Indian suppliers are building capability but not fully mature.",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "DRDO LRDE owns the Uttam AESA radar design; foreign AESA designs are purchased or licence-integrated.",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 3,
+        "note": "BEL is the production partner, but T/R module manufacturing is not yet at domestic scale; significant imported sub-components.",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "GaN/GaAs MMICs and complete T/R modules are heavily import-dependent; ISRO/SAC pilot fab is a start, not a solution.",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 3,
+        "note": "Uttam is being sized for Tejas Mk-2 and AMCA (quantities still uncertain); BEL production line not yet proven at volume.",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 2,
+        "note": "If indigenous AESA matures, potential for export on Tejas Mk-2 or naval radars to friendly nations; currently too early to assess.",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "uttam-aesa-radar-def-031",
+      "lca-tejas-mk2-def-043",
+      "amca-def-044",
+      "multi-role-fighter-aircraft-mrfa-def-045",
+      "rafale-m-def-041",
+      "s-400-triumf"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the difference between AESA and PESA radar?",
+      "answer": "In a PESA (Passive Electronically Scanned Array) radar, a single central transmitter feeds an array of phase-shifted antenna elements — the beam is steered passively. An AESA radar uses individual transmit/receive (T/R) modules at each antenna element, enabling simultaneous multi-beam operation, superior ECCM, lower intercept probability, and higher reliability (no single point of failure). AESA is the standard for modern fighter radars (F-35 AN/APG-81, Rafale RBE2, Tejas Uttam) and naval multi-function radars.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Why is the T/R module the bottleneck for Indian AESA radar?",
+      "answer": "Each T/R module contains a high-power MMIC (gallium arsenide or gallium nitride chip), phase shifter, low-noise amplifier, circulator, and hermetic package. A modern AESA radar needs 1,000–2,000+ modules, all manufactured to exacting tolerances and tested to military specifications. India's ISRO/SAC has a pilot GaN fabrication facility, but scaling to the volume, yield, and power levels needed for defence AESA radars is a multi-year challenge. BEL assembles the panels, but the MMIC chips themselves remain largely imported.",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "question": "Which Indian platforms will use AESA radar?",
+      "answer": "The Uttam AESA Mk-2 is planned for the LCA Tejas Mk-2 and the Advanced Medium Combat Aircraft (AMCA). The Rafale (Indian Air Force) already operates with the Thales RBE2 AESA radar. The MRFA competition winner will also carry an AESA radar. Naval platforms including future destroyers and frigates will use AESA-based multi-function radars from DRDO/BEL.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2008",
+      "event": "DRDO LRDE begins Uttam AESA radar development programme",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2017",
+      "event": "Uttam AESA radar first flight test on LCA Tejas prototype",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2021",
+      "event": "ISRO/SAC GaN MMIC pilot fabrication facility operational",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2023",
+      "event": "Uttam Mk-2 development approved for Tejas Mk-2 and AMCA integration",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "date": "2025-26",
+      "event": "Uttam Mk-2 integration trials expected on Tejas Mk-2 prototype",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Whether Uttam Mk-2 will achieve T/R module count and power-aperture product competitive with Western AESA radars",
+    "Timeline for domestic GaN MMIC volume production to reduce import dependence below ~50%",
+    "Whether Indian private-sector GaN foundries (e.g. Syrma SSG, Vpal Semiconductors) will enter the defence supply chain",
+    "Impact of US export-control regulations on GaN MMIC supply to Indian defence programmes",
+    "Whether AESA radar technology could become an Indian export product (Tejas Mk-2, naval radars)"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Uttam AESA Radar — DRDO LRDE",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/LRDE/English/Index.jsp",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO LRDE Uttam AESA radar programme page"
+    },
+    {
+      "id": "src-2",
+      "title": "BEL Annual Report 2024-25 — Radar & electronic warfare systems",
+      "publisher": "Bharat Electronics Limited",
+      "url": "https://www.bel.co.in/en/investor-relations",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "BEL production and AESA radar integration context"
+    },
+    {
+      "id": "src-3",
+      "title": "GaN MMIC for AESA radars — ISRO/SAC development",
+      "publisher": "ISRO",
+      "url": "https://www.isro.gov.in/technology-areas/space-borne-instruments",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "ISRO/SAC GaN fabrication facility context"
+    },
+    {
+      "id": "src-4",
+      "title": "India's AESA radar ambitions and the T/R module challenge",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/topic/defence/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "General coverage of Indian AESA radar development challenges"
+    }
+  ],
+  "seo": {
+    "title": "AESA Radar Technology — Technology | India Defence Atlas | Techadyant",
+    "meta_description": "Active Electronically Scanned Array radar technology for Indian defence — Uttam AESA development, T/R module supply chain, GaN MMIC dependencies, and DRDO LRDE programme status.",
+    "canonical_path": "/research/pillars/defence/entity/aesa-radar-technology/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

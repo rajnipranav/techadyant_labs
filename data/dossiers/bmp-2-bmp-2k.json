@@ -1,0 +1,316 @@
+{
+  "entity_id": "def-020",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "bmp-2-bmp-2k",
+  "name": "BMP-2 / BMP-2K Infantry Combat Vehicle",
+  "variant": "BMP-2 Sarath (Indian designation); BMP-2K command variant",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "operational",
+  "header": {
+    "one_liner": "Soviet-origin infantry combat vehicle; ~1,500+ in Indian Army service; licence-built at OFB Medak; 30mm autocannon + Konkurs ATGM; backbone of mechanised infantry since the 1980s.",
+    "chips": [
+      "IFV",
+      "Soviet-origin",
+      "OFB Medak",
+      "30mm autocannon",
+      "Konkurs ATGM",
+      "Mechanised Infantry",
+      "Operational"
+    ],
+    "maker": "Ordnance Factory Board (now Munitions India Limited) — Medak; BMP / Tracked Vehicles — original Soviet OEM",
+    "country": "IN/RU",
+    "indigenous_pct": null,
+    "indigenous_label": "Licence-built; progressive indigenous upgrades",
+    "mobility_or_class": "14.6 tonnes, tracked amphibious",
+    "operational_domains": [
+      "land"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Kurganmashzavod (Russia) — BMP-2 design; OFB Medak / MIL — Indian licence production",
+    "Variant": "BMP-2 Sarath; BMP-2K (command variant); BMP-2 upgraded variants",
+    "Mass": "~14.6 tonnes (combat loaded)",
+    "Crew": "3 (commander, gunner, driver) + 7 infantry passengers",
+    "Engine": "UMZ-5TDF V-6 diesel, ~400 hp",
+    "Power_to_weight": "~27.4 hp/tonne",
+    "Main_armament": "30mm 2A42 autocannon (bi-axial stabilised) — AP, HE-I, HE-T",
+    "Secondary": "7.62mm coaxial PKT MG; 9M113 Konkurs ATGM launcher (2-round)",
+    "Armour": "Welded aluminium; 30mm AP projectile protection frontally",
+    "Amphibious": "Yes — swim with trim vane (without preparation for deeper water)",
+    "Max_speed": "65 km/h road; ~7 km/h swimming",
+    "Combat_radius": "~550 km",
+    "In_service": "~1,500–1,700 (exact count undisclosed)"
+  },
+  "what_it_is": {
+    "prose": "The BMP-2 Sarath is the Indian Army's primary infantry combat vehicle (ICV), a Soviet-origin platform licence-produced at the Ordnance Factory Board's Medak facility (now part of Munitions India Limited under the restructured Ordnance Factory Board). India licence-built the BMP-2 from the early 1980s onwards, and it formed the backbone of the mechanised infantry's capability to move infantry under armour while providing suppressive fire support. The BMP-2 is armed with a 30mm 2A42 autocannon (effective range ~2,000–3,000 m), a coaxial 7.62mm PKT machine gun, and a 9M113 Konkurs anti-tank guided missile launcher (2-round ready rack). It carries a crew of 3 and can transport 7 dismounted infantry. The vehicle is fully amphibious for river-crossing operations. India has progressively upgraded the BMP-2 fleet with improved fire control, thermal imaging, and ERA packages. The BMP-2 remains the most numerous armoured vehicle in Indian Army service and has seen operational use in counter-insurgency operations in Jammu & Kashmir and the Northeast.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "India licence-built approximately 1,500+ BMP-2 ICVs at OFB Medak from the early 1980s through the 2000s. The fleet is deployed across mechanised infantry formations on the western and northern borders, and has seen operational use in J&K and Northeast counter-insurgency operations.",
+    "rows": [
+      {
+        "agency": "Indian Army (Mechanised Infantry)",
+        "context": "Licence production — BMP-2 Sarath",
+        "year": 1987,
+        "quantity_or_note": "First Indian-built BMP-2 delivered ~1987; ~1,500+ produced through the 2000s",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "BMP-2 upgraded variants (Sarath-2 programme)",
+        "year": 2010,
+        "quantity_or_note": "~500+ units upgraded with improved FCS, thermal imaging, ERA",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact total BMP-2 production count at OFB Medak not publicly disclosed",
+      "Whether the BMP-2 upgrade programme covers the full fleet",
+      "Status of the planned BMP-2 replacement programme (FRCV)"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Licence-built with Soviet technology transfer. Modernisation packages have progressively introduced indigenous subsystems.",
+    "items": [
+      {
+        "component": "30mm 2A42 autocannon",
+        "severity": "Medium",
+        "note": "Originally Russian; indigenous production by MIL",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "9M113 Konkurs ATGM",
+        "severity": "Medium",
+        "note": "Soviet/Russian-origin; indigenous missile variants under development",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "UMZ-5TDF engine",
+        "severity": "High",
+        "note": "Soviet-origin diesel; no indigenous alternative qualified",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Thermal imaging / fire control",
+        "severity": "Medium",
+        "note": "Russian-origin baseline; Israeli and indigenous upgrades on newer variants",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 1,
+        "note": "Soviet design; India is a licence user",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Licence-built at OFB Medak; majority of fleet produced in India",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Engine and ATGM of Soviet/Russian origin; some subsystems now indigenous via BEL/OFB upgrades",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 5,
+        "note": "~1,500+ in service; backbone of mechanised infantry across both borders",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 0,
+        "note": "No exports; surplus fleet being modernised, not exported",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "t-72-main-battle-tank",
+      "t-90-main-battle-tank",
+      "arjun-mbt-mk-1a-def-017"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the BMP-2's primary role in the Indian Army?",
+      "answer": "The BMP-2 Sarath serves as the primary Infantry Combat Vehicle (ICV) of the Indian Army's mechanised infantry. It provides protected mobility for a squad of 7 dismounted infantry while offering suppressive fire support with its 30mm autocannon and anti-armour capability via the Konkurs ATGM. It is deployed across mechanised infantry formations on the western and northern borders.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Is the BMP-2 being replaced?",
+      "answer": "The Indian Army has explored replacement options under the Future Ready Combat Vehicle (FRCV) programme, which envisions a next-generation ICV with improved protection, firepower, and networked battlefield capabilities. However, the BMP-2 fleet is expected to remain in service through the 2030s–2040s due to its large numbers, upgrade potential, and absence of a qualified replacement.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "What upgrades has the BMP-2 received?",
+      "answer": "India has upgraded a significant portion of the BMP-2 fleet under various modernisation programmes, incorporating improved fire control systems, thermal imaging sights, explosive reactive armour (ERA) packages, and enhanced communications systems. The upgraded variants are sometimes referred to as BMP-2 'Sarath-2' or upgraded BMP-2.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1980s",
+      "event": "India selects BMP-2 for licence production at OFB Medak",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "1987",
+      "event": "First Indian-built BMP-2 Sarath delivered to the Indian Army",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2000s",
+      "event": "Majority of BMP-2 fleet produced at OFB Medak (~1,500+ units)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2010s",
+      "event": "BMP-2 upgrade programme initiated (FCS, thermal, ERA)",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2020s",
+      "event": "Ongoing fleet modernisation; FRCV programme explored as long-term replacement",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact total BMP-2 production count at OFB Medak not publicly disclosed",
+    "Whether the upgrade programme covers the full fleet or only select formations",
+    "FRCV programme timeline and whether it will result in a BMP-2 replacement",
+    "Indigenous engine qualification timeline for BMP-2 sustainment"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "BMP-2 — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BMP-2",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Comprehensive BMP-2 specifications, Indian licence production history, and fleet overview"
+    },
+    {
+      "id": "src-2",
+      "title": "Mechanised Infantry — Indian Army",
+      "publisher": "Indian Army",
+      "url": "https://indianarmy.nic.in/content/mechanised-infantry",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Mechanised Infantry Corps overview including BMP-2 fleet and upgrades"
+    },
+    {
+      "id": "src-3",
+      "title": "BMP-2 Sarath upgrade programme",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/CVRDE/English/Index.jsp",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO combat vehicle modernisation context (domain root)"
+    },
+    {
+      "id": "src-4",
+      "title": "BMP-2/2K Sarath - GlobalSecurity.org",
+      "publisher": "GlobalSecurity.org",
+      "url": "https://www.globalsecurity.org/military/world/india/bmp-2m.htm",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "BMP-2 Sarath profile"
+    },
+    {
+      "id": "src-5",
+      "title": "BMP-2 Sarath - AlphaDefense Media",
+      "publisher": "AlphaDefense Media",
+      "url": "https://alphadefense.in/encyclopedia/bmp-2-sarath/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "BMP-2 Sarath encyclopedia entry"
+    }
+  ],
+  "seo": {
+    "title": "BMP-2 / BMP-2K Infantry Combat Vehicle — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "Soviet-origin BMP-2 Sarath IFV; ~1,500+ in Indian Army service; licence-built at OFB Medak; 30mm autocannon + Konkurs ATGM; backbone of mechanised infantry.",
+    "canonical_path": "/research/pillars/defence/entity/bmp-2-bmp-2k/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

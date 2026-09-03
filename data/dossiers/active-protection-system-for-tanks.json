@@ -1,0 +1,269 @@
+{
+  "entity_id": "def-024",
+  "entity_type": "system",
+  "tier": "A",
+  "noindex": false,
+  "slug": "active-protection-system-for-tanks",
+  "name": "Active Protection System for Tanks",
+  "variant": "DRDO APS (based on Russian ARENA / Trophy-derived concepts)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "procurement",
+  "header": {
+    "one_liner": "Indigenous Active Protection System for Indian MBTs; DRDO-designed; soft-kill + hard-kill against ATGMs and RPGs; intended for T-90S and Arjun fleets.",
+    "chips": [
+      "APS",
+      "Active Protection",
+      "DRDO",
+      "Hard-kill",
+      "Soft-kill",
+      "T-90S / Arjun",
+      "Procurement"
+    ],
+    "maker": "DRDO (multiple laboratories) — design; production to be determined",
+    "country": "India",
+    "indigenous_pct": null,
+    "indigenous_label": "Indigenous design; some sensor components may import initially",
+    "mobility_or_class": "Mounted system for MBTs",
+    "operational_domains": [
+      "land"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO — design (multiple laboratories); production partner TBD",
+    "Type": "Active Protection System (APS) — combined soft-kill and hard-kill",
+    "Hard_kill": "Explosive countermeasure projectiles to intercept incoming ATGM/RPG",
+    "Soft_kill": "IR jammer + smoke grenade dischargers (Shtora-derived concepts)",
+    "Sensors": "Radar + IR/UV missile warning sensors",
+    "Reaction_time": "Sub-second detection and engagement",
+    "Target": "Incoming ATGMs (Konkurs, Kornet, TOW-class), RPGs, guided missiles",
+    "Platform": "T-90S Bhishma, Arjun Mk-1A (planned)",
+    "Status": "Development / procurement"
+  },
+  "what_it_is": {
+    "prose": "India's Active Protection System (APS) for main battle tanks is an indigenous programme led by DRDO to develop a combined soft-kill and hard-kill system capable of protecting armoured vehicles against incoming anti-tank guided missiles (ATGMs) and rocket-propelled grenades (RPGs). The system draws on concepts from the Russian ARENA APS and the Israeli Trophy APS, but is being developed as an indigenous solution tailored to Indian operational requirements. The hard-kill component uses explosive countermeasure projectiles to physically intercept and destroy incoming threats within seconds of detection, while the soft-kill component employs IR jamming and smoke grenade dischargers to defeat laser-guided and infrared-guided missiles. The APS is intended for integration on the T-90S Bhishma and Arjun Mk-1A main battle tanks, significantly enhancing their survivability against the growing proliferation of advanced ATGMs on the battlefield. The programme is in the procurement phase, with the Indian Army evaluating the system for fleet-wide integration.",
+    "sources": [
+      "src-1"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The DRDO APS is in the procurement/evaluation phase. The Indian Army is evaluating the system for integration on T-90S and Arjun Mk-1A fleets. No specific procurement quantity or value has been publicly confirmed.",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "APS evaluation and procurement",
+        "year": null,
+        "quantity_or_note": "Evaluation ongoing; procurement quantity not publicly disclosed",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Whether the Israeli Trophy APS is also being considered alongside the indigenous DRDO system",
+      "Timeline for APS integration on T-90S and Arjun fleets",
+      "Whether the APS will be offered for export on Indian armoured vehicles"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Designed to be indigenous. Some sensor components may require imported sources initially.",
+    "items": [
+      {
+        "component": "Radar sensor modules",
+        "severity": "Medium",
+        "note": "Some radar components may use imported sources initially; full indigenous production targeted",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "IR/UV missile warning sensors",
+        "severity": "Medium",
+        "note": "Infrared detector components may import initially; BEL developing indigenous alternative",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "Indigenous DRDO design; draws on Russian/Israeli APS concepts",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 3,
+        "note": "Production partner TBD; intended for Indian production",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Radar and IR sensors may import initially; hard-kill countermeasures indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 2,
+        "note": "Evaluation phase; fleet-wide integration not yet confirmed",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Could be offered as part of Indian MBT export packages",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "t-90-main-battle-tank",
+      "arjun-mbt-mk-1a-def-017"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is an Active Protection System (APS)?",
+      "answer": "An Active Protection System (APS) is a vehicle-mounted defensive system that detects and defeats incoming anti-tank threats (ATGMs, RPGs) before they strike the vehicle. APS systems have two components: soft-kill (IR jamming, smoke) to defeat guided missiles, and hard-kill (explosive countermeasures) to physically intercept and destroy incoming projectiles. APS significantly enhances tank survivability on the modern battlefield where advanced ATGMs are proliferating.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Is India developing an indigenous APS or buying foreign systems?",
+      "answer": "India is developing an indigenous APS through DRDO, drawing on concepts from the Russian ARENA and Israeli Trophy systems. The indigenous system is tailored to Indian requirements and intended for the T-90S and Arjun Mk-1A fleets. Whether the Israeli Trophy system is also being considered for procurement alongside the indigenous solution has not been publicly confirmed.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Why is an active protection system (APS) critical for India's tank fleet?",
+      "answer": "India's T-90 and T-72 tanks face modern anti-tank guided missiles (ATGMs), top-attack weapons and kamikaze drones that can defeat passive armour. An APS detects and intercepts incoming threats, giving the fleet a survivability upgrade that reactive armour alone cannot provide.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "How is India procuring this active protection system?",
+      "answer": "The Defence Acquisition Council has approved a capital acquisition programme for an Indian Army active protection system, and global firms are being invited to bid against an indigenous option. The programme is being run as a competitive tendering exercise, with Indian industry participation encouraged.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "~2018",
+      "event": "DRDO APS development programme initiated",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020s",
+      "event": "Prototype development and evaluation ongoing",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "~2024",
+      "event": "Procurement evaluation phase; Indian Army assessing for fleet integration",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Whether the Israeli Trophy APS is also being considered alongside the indigenous DRDO system",
+    "Timeline for APS integration on T-90S and Arjun fleets",
+    "Whether the APS will be offered for export on Indian armoured vehicles",
+    "Exact procurement quantity and value not publicly disclosed"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Active Protection System — DRDO",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/labs/English/APS.jsp",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO APS programme page (domain root reference)"
+    },
+    {
+      "id": "src-2",
+      "title": "Active Protection System — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Active_protection_system",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "General APS concepts including ARENA and Trophy systems"
+    },
+    {
+      "id": "src-3",
+      "title": "India's T-90 tanks may get active shield against missiles, drones and top-attack weapons",
+      "publisher": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/defence/news/indias-t-90-tanks-may-get-active-shield-against-missiles-drones-and-top-attack-weapons/articleshow/131743968.cms",
+      "published_date": "2026-06-15",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "APS for T-90 tanks news report"
+    },
+    {
+      "id": "src-4",
+      "title": "After DAC Approval, Global Firms Eye Indian Army's Rs 9,000 Crore Active Protection System Tender",
+      "publisher": "idrw.org",
+      "url": "https://idrw.org/after-dac-approval-global-firms-eye-indian-armys-%E2%82%B99000-crore-active-protection-system-tender/",
+      "published_date": "2026-08-21",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "APS procurement tender coverage"
+    }
+  ],
+  "seo": {
+    "title": "Active Protection System for Tanks — System · India Defence Atlas | Techadyant",
+    "meta_description": "Indigenous Active Protection System for Indian MBTs; DRDO-designed; hard-kill + soft-kill; intended for T-90S and Arjun Mk-1A fleets.",
+    "canonical_path": "/research/pillars/defence/entity/active-protection-system-for-tanks/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "entity_id": "def-038",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "anti-submarine-warfare-shallow-water-craft-programme",
+  "name": "Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) Programme",
+  "variant": "Arnala-class ASW corvette series (8-ship shallow-water craft tranche)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "in_production",
+  "header": {
+    "one_liner": "GRSE-designed 8-ship shallow-water ASW corvette programme (Arnala class), split across GRSE and Goa Shipyard, filling India's littoral anti-submarine coverage gap; lead ship commissioned 2024, hulls completing through 2025-26.",
+    "chips": [
+      "ASW corvette",
+      "Shallow-water ASW",
+      "Arnala class",
+      "8-ship programme",
+      "GRSE design",
+      "GRSE + GSL build",
+      "Littoral coverage"
+    ],
+    "maker": "Garden Reach Shipbuilders & Engineers (GRSE) — design + lead hulls; Goa Shipyard Limited (GSL) — follow-on hulls",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "~80% indigenous by value; sonar/AA weapons partly imported",
+    "mobility_or_class": "Shallow-water ASW corvette programme",
+    "operational_domains": [
+      "naval",
+      "sea",
+      "air"
+    ]
+  },
+  "what_it_is": {
+    "prose": "The Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) programme is an Indian Navy acquisition to field a series of small, shallow-draft anti-submarine corvettes — the Arnala class — designed by Garden Reach Shipbuilders & Engineers (GRSE) specifically to hunt submarines and undersea threats in India's coastal, shallow waters where large frigates and destroyers cannot operate effectively. The programme addresses a well-documented capability gap: growing adversary submarine fleets (notably Pakistan's expanding submarine force, and China's sea-based presence in the Indian Ocean) versus India's limited littoral ASW assets. The core 8-ship shallow-water craft order was split across GRSE (Kolkata) and Goa Shipyard Limited (GSL), which had earlier built related patrol-craft series. The ships carry a hull-mounted sonar and an integrated ASW suite — lightweight torpedo tubes, ASW rocket launchers, and variable-depth sonar on later hulls — plus a compact gun for self-defence. The programme is a flagship of indigenous littoral warship construction and complements the larger Nilgiri-class frigates and the P-75 submarine programme. Ship names follow coastal islands and historic naval anchor points (Arnala, Anjadip, etc.). The lead ship commissioned in 2024, with the remaining hulls commissioning on a rolling basis through 2025-26.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The ASW-SWC programme runs in two linked tranches: an initial GRSE ASW-covette design and its follow-on expansion into an 8-ship shallow-water craft order (2019), split across GRSE and GSL. The lead ship commissioned in 2024 and subsequent hulls — the Arnala-class series — are commissioning through 2025-26. The class distributes across the Indian Navy's Eastern and Western Commands for coastal ASW patrol. Precise per-ship contract value is not uniformly published (broadly reported at ~₹1,500-1,600 crore per ship; values vary by yard/tranche — flagged as uncertain).",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Initial ASW/ASW-corvette order from GRSE",
+        "year": 2013,
+        "quantity_or_note": "Initial GRSE ASW corvette design batch",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "8-ship ASW-SWC shallow-water craft order",
+        "year": 2019,
+        "quantity_or_note": "8 ships split across GRSE and GSL",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Lead-in-series ASW-SWC (Arnala) commissioned",
+        "year": 2024,
+        "quantity_or_note": "Class lead commissioned",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "Remaining ASW-SWC hulls commissioning",
+        "year": 2026,
+        "quantity_or_note": "Rolling commissioning across 2025-26",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact per-ship cost and total programme value for the 8-ship tranche",
+      "Final hull count and remaining commissioning schedule",
+      "Whether a further ASW-SWC follow-on tranche is planned"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The ASW-SWC is substantially indigenous but retains imported sonar transducers, CIWS and propulsion modules.",
+    "items": [
+      {
+        "component": "Sonar transducers / arrays",
+        "severity": "High",
+        "note": "Hull sonar initially sourced/assisted from abroad; indigenising",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "CIWS / close-in weapon system",
+        "severity": "High",
+        "note": "AK-630 (Russia) typically; indigenous alternatives developing",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Diesel engines",
+        "severity": "Medium",
+        "note": "Main propulsion diesels imported (MTU/Pielstick family)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "ASW weapon sub-systems",
+        "severity": "Medium",
+        "note": "Lightweight torpedoes and some ASW components licensed/imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "GRSE-designed for the specific shallow-water ASW role",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Indian yards GRSE + GSL",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Sonar, CIWS, propulsion partly imported; sensor suite indigenising",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "8-ship programme filling the littoral ASW gap",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Shallow-water ASW corvette is an exportable, less-sensitively-specified Indian design",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "garden-reach-shipbuilders-engineers",
+      "goa-shipyard-limited"
+    ],
+    "peer_systems": [
+      "ins-agray",
+      "ins-anjadip",
+      "ins-mahendragiri",
+      "ins-dunagiri",
+      "ins-taragiri",
+      "project-75-kalvari-class-submarines"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the ASW-SWC programme?",
+      "answer": "The Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) programme is an Indian Navy acquisition for a series of small, shallow-draft anti-submarine corvettes (the Arnala class), designed by GRSE to counter submarines in India's coastal shallow waters.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Which shipyards build the ASW-SWC?",
+      "answer": "The 8-ship programme is split across Garden Reach Shipbuilders & Engineers (GRSE), which designed the class and built the lead hulls, and Goa Shipyard Limited (GSL), which builds a tranche of the follow-on hulls.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Why does India need shallow-water ASW ships?",
+      "answer": "Large frigates and destroyers are too large and deep-draft to effectively hunt submarines in India's shallow coastal waters and straits. These specialist ASW corvettes with hull-mounted sonar fill the littoral anti-submarine coverage gap, protecting ports, sea lanes and coastlines from submarine incursions.",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "question": "How many ASW-SWC ships are being built?",
+      "answer": "The core programme is an 8-ship shallow-water craft order (2019), split across GRSE and GSL, building on an earlier GRSE ASW-corvette design. The lead ship commissioned in 2024 and the remaining hulls are commissioning through 2025-26.",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2013",
+      "event": "Initial GRSE ASW-corvette design/order",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2019",
+      "event": "8-ship ASW-SWC shallow-water craft order (GRSE + GSL)",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "Lead-in-series ASW-SWC (Arnala) commissioned",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "Remaining ASW-SWC hulls commissioning across 2025-26",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact per-ship cost and total programme value",
+    "Final hull count and remaining commissioning schedule",
+    "Any follow-on ASW-SWC tranche under consideration"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "ASW Shallow Water Craft — GRSE programme",
+      "publisher": "Garden Reach Shipbuilders & Engineers",
+      "url": "https://grse.in/pages/naval-shipbuilding",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "GRSE ASW-SWC design and programme detail"
+    },
+    {
+      "id": "src-2",
+      "title": "Anti-submarine warfare shallow water craft (Indian Navy)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anti-submarine_warfare_shallow_water_craft",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Class history, tranches and shipyard split"
+    },
+    {
+      "id": "src-3",
+      "title": "Indian Navy — commissioning and programmes",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB commissioning releases for ASW-SWC vessels"
+    },
+    {
+      "id": "src-4",
+      "title": "INS Anjadip commissioned at Chennai - third of eight anti-submarine warfare shallow water craft",
+      "publisher": "PSU Connect",
+      "url": "https://psuconnect.in/ins-anjadip-commissioned-at-chennai-on-27-feb-2026",
+      "published_date": "2026-02-27",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "ASW-SWC programme commissioning"
+    }
+  ],
+  "seo": {
+    "title": "ASW-SWC Programme — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "The GRSE-designed 8-ship Anti-Submarine Warfare Shallow Water Craft (Arnala-class) programme filling India's littoral ASW gap. Built at GRSE and GSL.",
+    "canonical_path": "/research/pillars/defence/entity/anti-submarine-warfare-shallow-water-craft-programme/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

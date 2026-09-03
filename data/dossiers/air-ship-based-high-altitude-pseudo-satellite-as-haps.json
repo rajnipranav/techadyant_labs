@@ -1,0 +1,289 @@
+{
+  "entity_id": "def-066",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "air-ship-based-high-altitude-pseudo-satellite-as-haps",
+  "name": "Air-Ship Based High-Altitude Pseudo Satellite (AS-HAPS)",
+  "variant": "AS-HAPS programme — airship/solar-powered high-altitude pseudo-satellite for long-endurance ISR/comms",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "AoN_2026",
+  "header": {
+    "one_liner": "A 2026 Acceptance of Necessity cleared development/procurement of an air-ship-based high-altitude pseudo-satellite (AS-HAPS) — a solar/battery-powered airship loitering in the stratosphere for persistent ISR and communications, filling the gap between UAVs and satellites.",
+    "chips": [
+      "Pseudo-satellite",
+      "High-altitude airship",
+      "ISR",
+      "Communications",
+      "Stratospheric",
+      "AoN 2026",
+      "In-development"
+    ],
+    "maker": "Programme — Indian defence R&D/industry (defence/DRDO-linked); collaborating partners to be finalised under the AoN",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Emerging Indian development; high-altitude airship/pseudo-satellite technology nascent",
+    "mobility_or_class": "High-altitude pseudo-satellite (airship/solar HAPS)",
+    "operational_domains": [
+      "air",
+      "space-adjacent",
+      "ISR"
+    ]
+  },
+  "what_it_is": {
+    "prose": "The Air-Ship Based High-Altitude Pseudo Satellite (AS-HAPS) is an Indian programme — cleared by an Acceptance of Necessity (AoN) in 2026 — to develop or acquire a high-altitude pseudo-satellite (HAPS). A HAPS is a lighter-than-air or fixed-wing platform that loiters in the stratosphere (roughly 15-25 km altitude), above most weather and below satellites, powered by solar cells or batteries, and capable of very long endurance (days to months). It provides persistent intelligence, surveillance and reconnaissance (ISR), communications relay, and earth-observation coverage analogous to a satellite but at a fraction of the cost and with rapid, local deployment. The 'air-ship based' variant refers specifically to a lighter-than-air airship or hybrid dirigible design. For India, an AS-HAPS is strategically valuable because it offers persistent, re-locatable ISR and communications over the high-altitude Himalayan border regions (including the contested Line of Actual Control with China), where both satellite revisit and ground infrastructure are limited, and where conventional UAV endurance is insufficient. The 2026 AoN signals a deliberate push to advance the programme from concept to development/procurement. The technology is globally nascent — no nation has fielded a fully operational military HAPS at scale — which makes India's programme both a potential frontrunner and a high technical risk. The platform would sit between the UAV fleet and the satellite constellation in India's ISR/communications architecture.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The AS-HAPS received an Acceptance of Necessity in 2026, advancing it from concept into the development/procurement pipeline. Prior small-scale demonstrations of high-altitude airship/pseudo-satellite and solar-HAPS technology in India (defence/DRDO-linked initiatives and industry experiments) provide a limited base. The programme is early-stage: platform selection (lighter-than-air vs hybrid), payload, endurance and budget are being detailed under the AoN.",
+    "rows": [
+      {
+        "agency": "Indian defence R&D",
+        "context": "Early high-altitude pseudo-satellite / airship experiments",
+        "year": 2020,
+        "quantity_or_note": "Nascent industry/DRDO HAPS and aerial-platform experiments",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian defence",
+        "context": "AS-HAPS Acceptance of Necessity cleared",
+        "year": 2026,
+        "quantity_or_note": "AoN 2026 — programme advances to development/procurement",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian defence",
+        "context": "Programme detailing (payload, endurance, platform, budget)",
+        "year": 2026,
+        "quantity_or_note": "Under development detailing post-AoN",
+        "sources": [
+          "src-3"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Platform type finalisation (lighter-than-air airship vs hybrid/fixed-wing HAPS)",
+      "Programme budget and timeline to first demonstration — not public",
+      "Which agency/industry partner (DRDO-led vs Make-in-India consortium) will build it",
+      "Payload mix (ISR, comms, or both) and target endurance"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "As an emerging technology at AoN stage, AS-HAPS dependence is largely on nascent components — solar cells, high-altitude battery/energy storage, lightweight structure composites and stratospheric flight-control — several of which have limited indigenisation.",
+    "items": [
+      {
+        "component": "High-efficiency solar cells / energy storage",
+        "severity": "High",
+        "note": "Stratospheric endurance depends on advanced solar cells and lightweight batteries — partly imported; indigenisation under way",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Lightweight structure / envelope composites",
+        "severity": "High",
+        "note": "Ultra-light envelope and structure materials for stratospheric loiter — sourced/experimental",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Stratospheric flight-control / autopilot & comms",
+        "severity": "Medium-High",
+        "note": "High-altitude flight control, station-keeping and beyond-line-of-sight comms partly imported/custom",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "ISR / EO payload sensors",
+        "severity": "Medium",
+        "note": "EO/IR and radar payloads indigenising (DRDO) but some sensors imported at high performance",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 3,
+        "note": "Indian programme but the HAPS technology base is global-nascent; design partly indigenous",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 3,
+        "note": "Make-in-India intent; production scale not yet established",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Solar cells, energy storage, envelopes, stratospheric avionics partly imported",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 1,
+        "note": "AoN stage — no operational platform fielded",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "If India fields a working AS-HAPS, it would be globally scarce — exportable to friendly nations",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "multi-role-fighter-aircraft-mrfa",
+      "lca-tejas-mk2"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is a high-altitude pseudo-satellite (HAPS)?",
+      "answer": "A HAPS is a platform — in this case an air-ship (lighter-than-air) design — that loiters in the stratosphere (~15-25 km) over many days to months, powered by solar cells or batteries, providing persistent ISR, communications relay and earth-observation analogous to a satellite but cheaper, local and re-deployable.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Why does India want an AS-HAPS?",
+      "answer": "An AS-HAPS provides persistent, re-locatable ISR and communications over the high-altitude Himalayan border regions (Line of Actual Control) where satellite revisit and ground infrastructure are limited and conventional UAV endurance is insufficient.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Where does the AS-HAPS programme stand in 2026?",
+      "answer": "The programme received an Acceptance of Necessity (AoN) in 2026, advancing it from concept into the development/procurement pipeline. It is early-stage: platform type, payload, endurance and budget are being detailed.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2020",
+      "event": "Early high-altitude pseudo-satellite / airship experiments in India",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "AS-HAPS Acceptance of Necessity cleared",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "Programme detailing (platform, payload, budget) post-AoN",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Platform type finalisation (airship vs hybrid/fixed-wing)",
+    "Programme budget and timeline — not public",
+    "Lead agency/industry partner",
+    "Payload mix and target endurance"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "High-altitude pseudo-satellite (HAPS)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/High-altitude_platform_station",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "HAPS technology and global context"
+    },
+    {
+      "id": "src-2",
+      "title": "Defence R&D — aerostat and pseudo-satellite initiatives",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO high-altitude platform context"
+    },
+    {
+      "id": "src-3",
+      "title": "Indian defence programmes — PIB / MoD statements",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB/MoD on the 2026 AoN and programmes"
+    },
+    {
+      "id": "src-4",
+      "title": "DAC approves capital acquisition proposals worth Rs 52,000 crore to enhance combat readiness of Defence Forces",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2280728",
+      "published_date": "2026-07-03",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DAC approval including FW-HAPS for Indian Air Force"
+    }
+  ],
+  "seo": {
+    "title": "Air-Ship Based High-Altitude Pseudo Satellite (AS-HAPS) — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "India's AS-HAPS high-altitude pseudo-satellite airship programme, cleared by a 2026 AoN for persistent stratospheric ISR and communications.",
+    "canonical_path": "/research/pillars/defence/entity/air-ship-based-high-altitude-pseudo-satellite-as-haps/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

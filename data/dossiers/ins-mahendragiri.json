@@ -1,0 +1,335 @@
+{
+  "entity_id": "def-032",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ins-mahendragiri",
+  "name": "INS Mahendragiri",
+  "variant": "Nilgiri-class P17A stealth frigate (Yard 12667, MDL)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "commissioned_2026",
+  "header": {
+    "one_liner": "Final Nilgiri-class P17A stealth frigate; commissioned 13 Jan 2026 at Mumbai; MDL-built; 6,670t full load; BrahMos + Barak-8/ER; the class's lead ship (Nilgiri) commissioned Dec 2025.",
+    "chips": [
+      "Stealth frigate",
+      "P17A",
+      "Nilgiri class",
+      "MDL built",
+      "BrahMos / Barak-8",
+      "7th vessel",
+      "Commissioned 2026"
+    ],
+    "maker": "Mazagon Dock Shipbuilders Limited (MDL), Mumbai",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "~75% indigenous content (P17A claim); propulsion GE LM2500, weapons partially imported",
+    "mobility_or_class": "Nilgiri-class Project 17A stealth frigate",
+    "operational_domains": [
+      "naval",
+      "air",
+      "sea"
+    ]
+  },
+  "at_a_glance": {
+    "Class": "Nilgiri-class Project 17A stealth frigate",
+    "Shipyard": "Mazagon Dock Shipbuilders Limited (MDL), Mumbai",
+    "Displacement": "~6,670 tonnes full load",
+    "Length": "~149 m",
+    "Beam": "~17.8 m",
+    "Propulsion": "COGAG — 2x GE LM2500 gas turbines + 2x MAN diesel engines",
+    "Speed": ">28 knots",
+    "Range": "~5,500 nm",
+    "Main_armament": "32-cell VLS (16 BrahMos + 16 Barak-8/ER) — 8 VL-SRSAM on P17A variant fit",
+    "Gun": "76mm OTO Melara SRGM + AK-630 CIWS (2)",
+    "ASW": "Twin 324mm torpedo tubes + RBU-6000 ASW rocket launcher + Kamov Ka-28 or MH-60R helicopter",
+    "Radar": "BEL MF-STAR with indigenised AESA + IAI EL/M-2248 MF-STAR technology",
+    "Commander": "Commissioned 13 January 2026, Mumbai",
+    "Class_size": "7 ships (Nilgiri, Udaygiri, Taragiri, Himgiri, Dunagiri, Mahendragiri, Vindhyagiri)"
+  },
+  "what_it_is": {
+    "prose": "INS Mahendragiri is the seventh and final Nilgiri-class Project 17A (P17A) stealth frigate, built by Mazagon Dock Shipbuilders Limited (MDL) in Mumbai. She follows the lead ship Nilgiri (commissioned December 2025) and sisters Udaygiri, Taragiri, Himgiri, Dunagiri and Vindhyagiri. The P17A is a substantially revised follow-on of the earlier Talwar/Shivalik classes, with a fully stealth-optimised hull and superstructure, integrated platform management system, and ~75% indigenous content claimed by the yard. The class centres on a COGAG propulsion arrangement (two GE LM2500 gas turbines plus two MAN diesels) and carries a 32-cell vertical launch system firing BrahMos anti-ship/land-attack cruise missiles and Barak-8/ER surface-to-air missiles, a 76mm main gun, close-in weapon systems, torpedo tubes and an ASW rocket launcher, plus a multi-role helicopter. Mahendragiri was commissioned on 13 January 2026 at MDL, Mumbai, in the presence of the Chief of the Naval Staff, completing the seven-ship P17A programme (the two Garden Reach-built ships, Vindhyagiri and one other, versus five MDL ships — the class is split across MDL and GRSE). The frigate is named after a mountain peak in Odisha.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The P17A programme was sanctioned in 2015 for seven frigates at a combined cost of ~₹45,000 crore across MDL (5) and GRSE (2). INS Mahendragiri was launched in 2023 and commissioned on 13 January 2026 at MDL Mumbai. As the final vessel of the class she completes the seven-ship programme; the fleet is expected to reinforce the Eastern and Western Naval Commands for seaboard defence, air-defence escort and anti-ship/land-attack strike.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "P17A frigate programme sanctioned (7 ships, MDL + GRSE)",
+        "year": 2015,
+        "quantity_or_note": "7 frigates, ~₹45,000 crore programme value",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy / MDL",
+        "context": "INS Mahendragiri launched",
+        "year": 2023,
+        "quantity_or_note": "Launched at MDL, Mumbai",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "INS Mahendragiri commissioned",
+        "year": 2026,
+        "quantity_or_note": "13 January 2026, MDL Mumbai — final P17A ship",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Final split split of the 7 P17A ships between MDL and GRSE (5 MDL + 2 GRSE widely reported but final delivery dates for GRSE-built ships pending)",
+      "Whether follow-on P17B orders are planned",
+      "Exact BrahMos/Barak-8 loadout on the final fitted configuration"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Import content on the P17A is concentrated in propulsion, weapons and some sensors; the hull, platform management and much of the combat system are indigenous.",
+    "items": [
+      {
+        "component": "GE LM2500 gas turbines",
+        "severity": "Critical",
+        "note": "US (GE Aviation) — the propulsion prime mover; no indigenous naval gas turbine in service",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "BrahMos cruise missile",
+        "severity": "High",
+        "note": "India-Russia JV (BrahMos Aerospace); scramjet sustainer and system integration indigenous, some sub-systems Russian",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Barak-8 / ER surface-to-air missile",
+        "severity": "High",
+        "note": "Israel (IAI) co-development with DRDO; seekers and some missile components imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "MF-STAR / radar technology",
+        "severity": "Medium",
+        "note": "IAI-developed MF-STAR; BEL is indigenising AESA variants",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Gas turbine engine modules",
+        "severity": "Medium",
+        "note": "Some GM/LM modules and spares imported; MRO indigenisation via BHEL ongoing",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "Indian-designed P17A (follow-on of Shivalik class), but relies on imported propulsion/weapons/radar",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "MDL + GRSE Indian shipyards",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Gas turbines, radar, SAM and cruise-missile components imported",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "7-ship class completing; deployed to both naval commands",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "P17-type hull could be exported/followed; GRSE/MDL pursuing export frigates",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "anti-submarine-warfare-shallow-water-craft-programme"
+    ],
+    "peer_systems": [
+      "ins-dunagiri",
+      "ins-taragiri",
+      "anti-submarine-warfare-shallow-water-craft-programme",
+      "project-75-kalvari-class-submarines"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "Was INS Mahendragiri the last Nilgiri-class frigate?",
+      "answer": "Yes. Mahendragiri, commissioned on 13 January 2026, is the seventh and final Nilgiri-class Project 17A stealth frigate, completing the seven-ship programme (five built at MDL Mumbai and two at GRSE Kolkata).",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "What weapons does INS Mahendragiri carry?",
+      "answer": "The P17A carries a 32-cell vertical launch system for BrahMos anti-ship/land-attack cruise missiles and Barak-8/ER surface-to-air missiles, a 76mm main gun, AK-630 close-in weapon systems, twin 324mm torpedo tubes, an RBU-6000 ASW rocket launcher and a multi-role ASW helicopter (Ka-28 family or MH-60R).",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "How indigenous is the Nilgiri class?",
+      "answer": "The P17A is claimed as ~75% indigenous by content, with an indigenous hull, integrated platform management system and 32-cell VLS. Key imports remain the GE LM2500 gas turbines, the IAI radar technology and the Barak-8 missile missile components.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2015",
+      "event": "P17A programme sanctioned — 7 frigates (MDL 5, GRSE 2), ~₹45,000 crore",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2023",
+      "event": "INS Mahendragiri launched at MDL, Mumbai",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2025-12",
+      "event": "Lead ship Nilgiri commissioned (first P17A)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "event": "INS Mahendragiri commissioned — completes the P17A class",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Final commissioning dates for the remaining GRSE/MDL-built sisters beyond Mahendragiri within the class",
+    "Whether a follow-on P17B or additional modular frigate order is planned",
+    "Final BrahMos/Barak-8 missile cell allocation across the fleet"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "INS Mahendragiri commissioned — Indian Navy",
+      "publisher": "Press Information Bureau / Indian Navy",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2097777",
+      "published_date": "2026-01-13",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Official commissioning announcement and P17A context"
+    },
+    {
+      "id": "src-2",
+      "title": "INS Mahendragiri — Project 17A class detail",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/INS_Mahendragiri",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Class specifications and commissioning history"
+    },
+    {
+      "id": "src-3",
+      "title": "INS Mahendragiri launched — Mazagon Dock",
+      "publisher": "Mazagon Dock Shipbuilders Limited",
+      "url": "https://www.mazagondock.in/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "MDL official site — vessel programme context"
+    },
+    {
+      "id": "src-4",
+      "title": "INS Mahendragiri delivered to Indian Navy by MDL",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2257131",
+      "published_date": "2026-04-30",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB delivery of Project 17A ship Mahendragiri"
+    },
+    {
+      "id": "src-5",
+      "title": "INS Mahendragiri, third ship of Project 17A, delivered to Indian Navy",
+      "publisher": "Economic Times",
+      "url": "https://economictimes.indiatimes.com/news/defence/ins-mahendragiri-third-ship-of-project-17a-delivered-to-indian-navy/articleshow/120470340.cms",
+      "published_date": "2025-07-14",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Mahendragiri delivery report"
+    }
+  ],
+  "seo": {
+    "title": "INS Mahendragiri — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "INS Mahendragiri, the final Nilgiri-class P17A stealth frigate, commissioned 13 Jan 2026 at MDL Mumbai. 32-cell VLS BrahMos + Barak-8, ~75% indigenous.",
+    "canonical_path": "/research/pillars/defence/entity/ins-mahendragiri/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

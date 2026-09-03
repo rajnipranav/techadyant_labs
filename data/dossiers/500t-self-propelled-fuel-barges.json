@@ -1,0 +1,266 @@
+{
+  "entity_id": "def-042",
+  "entity_type": "system",
+  "tier": "A",
+  "noindex": false,
+  "slug": "500t-self-propelled-fuel-barges",
+  "name": "500t Self-Propelled Fuel Barges",
+  "variant": "Naval logistics system — series of 500-tonne self-propelled fuel/bunker barges for the Indian Navy",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "contracted",
+  "header": {
+    "one_liner": "Series of ~500-tonne self-propelled fuel barges ordered for the Indian Navy to sustain fleet bunkering at coastal bases; built under a Make-in-India shipbuilding programme (CSL/GRSE and private yards).",
+    "chips": [
+      "Naval logistics",
+      "Fuel barge",
+      "500t class",
+      "Self-propelled",
+      "Make in India",
+      "Fleet support",
+      "Contracted"
+    ],
+    "maker": "Indian shipyards (Cochin Shipyard Limited / GRSE and private yards) under Navy contracts",
+    "country": "IN",
+    "indigenous_pct": 80,
+    "indigenous_label": "~80% indigenous (Indian craft design and build; some engines/equipment imported)",
+    "mobility_or_class": "Small self-propelled fuel barge (naval logistics craft)",
+    "operational_domains": [
+      "naval",
+      "sea"
+    ]
+  },
+  "what_it_is": {
+    "prose": "The 500t self-propelled fuel barges are a series of small bunkering vessels built for the Indian Navy to deliver fuel oil and diesel to warships at anchorage and at naval bases — a low-profile but operationally vital part of the fleet logistics chain. Naval fuel barges keep surface combatants bunkered without tying up main berths or requiring large tankers, sustaining readiness across the Navy's coastal commands and forward bases. The programme was pursued as a Make-in-India shipbuilding acquisition, with the Indian Navy ordering a series of 500-tonne-class self-propelled fuel barges built at domestic yards (including state-owned Cochin Shipyard Limited / GRSE and qualifying private yards), reflecting the Navy's push to build even logistics craft indigenously. Each barge carries on the order of 500 tonnes of liquid fuel (diesel/oil), is self-propelled (with a modest engine for harbour and short coastal transits), and is crewed by a small naval or civilian crew. While individually unremarkable, the craft are strategically important because they keep India's surface fleet — including the P17A frigates and carriers — supplied with fuel at distributed bases, and they test the Indian civilian shipbuilding base's ability to meet naval-spec requirements at modest size.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The Indian Navy placed contract(s) for a series of 500t self-propelled fuel barges under a Make-in-India acquisition. Exact quantities, per-vessel cost and delivery schedule are not fully public — the programme is flagged with uncertainty on precise numbers, though it forms part of the Navy's broader programme of building support and auxiliary craft (fuel barges, water barges, tugs and ferries) at Indian yards.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Order for 500t self-propelled fuel barges (Make in India)",
+        "year": 2022,
+        "quantity_or_note": "Series of 500t fuel barges contracted — exact count varies by tranche",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Navy / CSL/GRSE",
+        "context": "Programme status",
+        "year": 2026,
+        "quantity_or_note": "Craft under build/delivery across Indian yards; programme in production",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact number of 500t fuel barges contracted and per-vessel cost (not fully public)",
+      "Which yards build the batch (CSL/GRSE/private)",
+      "Delivery schedule and base assignments",
+      "Whether follow-on/larger fuel-barge tranches are planned"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The fuel barges are substantially indigenous craft; import content is limited to engines, pumps/fuel-handling equipment and some electrical systems.",
+    "items": [
+      {
+        "component": "Main propulsion / auxiliary engines",
+        "severity": "Medium",
+        "note": "Marine diesel engines imported (Caterpillar/MTU family) — indigenous naval marine diesel under development",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Fuel-handling pumps / valves / instrumentation",
+        "severity": "Medium",
+        "note": "Specialised fuel-transfer pumps, valves and gauges partly imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Electrical/electronics systems",
+        "severity": "Low-Medium",
+        "note": "Some navigation/electrical equipment imported or dual-sourced",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "Indian-designed craft for the Navy logistics role",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Built at Indian yards (CSL/GRSE/private)",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Engines, fuel-handling pumps partly imported",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 3,
+        "note": "Series build sustaining naval logistics, modest in number",
+        "sources": []
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Small logistics craft exportable to friendly/regional navies",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "cochin-shipyard-limited",
+      "garden-reach-shipbuilders-engineers"
+    ],
+    "peer_systems": [
+      "ins-sanshodhak",
+      "project-75-kalvari-class-submarines"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What are the 500t self-propelled fuel barges used for?",
+      "answer": "They are small bunkering craft that deliver fuel oil and diesel to Indian Navy warships at anchorage and naval bases, keeping the surface fleet supplied without tying up main berths or deploying large tankers.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Are the fuel barges built in India?",
+      "answer": "Yes. The 500t fuel barges are built at Indian shipyards (including CSL/GRSE and private yards) under a Make-in-India acquisition, though some engines and fuel-handling equipment retain import content.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Why do such small craft matter strategically?",
+      "answer": "Distributed fuel supply keeps India's surface fleet — including P17A frigates and carriers — ready at forward and coastal bases. Building even logistics craft indigenously also strengthens the Indian civilian shipbuilding base against naval specifications.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022",
+      "event": "Indian Navy order for 500t self-propelled fuel barges (Make in India)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "Fuel barges under build/delivery across Indian yards",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact number contracted and per-vessel cost (not fully public)",
+    "Which yards build the batch",
+    "Delivery schedule and base assignments",
+    "Follow-on/larger fuel-barge tranches"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Indian Navy auxiliary craft — fuel barges",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB naval logistics craft coverage"
+    },
+    {
+      "id": "src-2",
+      "title": "Cochin Shipyard Limited — naval programmes",
+      "publisher": "Cochin Shipyard Limited",
+      "url": "https://cochinshipyard.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "CSL naval craft building context"
+    },
+    {
+      "id": "src-3",
+      "title": "Indian Navy shipbuilding and auxiliary craft",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indian_Navy",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Indian Navy logistics and auxiliary context"
+    },
+    {
+      "id": "src-4",
+      "title": "Contract for 04 X 500T Self Propelled Fuel Barges for Indian Navy with M/s Shoft Shipyard Private Limited, Thane",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2234905",
+      "published_date": "2026-03-02",
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB contract notice for 500T self-propelled fuel barges"
+    }
+  ],
+  "seo": {
+    "title": "500t Self-Propelled Fuel Barges — System | India Defence Atlas | Techadyant",
+    "meta_description": "The Indian Navy's 500t self-propelled fuel barges, built under Make in India at domestic shipyards to sustain fleet bunkering at coastal bases.",
+    "canonical_path": "/research/pillars/defence/entity/500t-self-propelled-fuel-barges/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

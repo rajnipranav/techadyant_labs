@@ -1,0 +1,282 @@
+{
+  "entity_id": "def-026",
+  "entity_type": "system",
+  "tier": "A",
+  "noindex": false,
+  "slug": "jet-based-kamikaze-drone-system",
+  "name": "Jet-Based Kamikaze Drone System",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "procurement",
+  "header": {
+    "one_liner": "India's indigenous jet-powered loitering munition / kamikaze drone; DRDO/IAI development; high-speed terminal attack on high-value targets; fills a gap between cruise missiles and propeller-driven loitering munitions.",
+    "chips": [
+      "Loitering Munition",
+      "Jet-powered",
+      "Kamikaze",
+      "DRDO",
+      "High-speed",
+      "Terminal attack",
+      "Procurement"
+    ],
+    "maker": "DRDO / Israeli Aerospace Industries (IAI) — development; production by DRDO labs / Indian industry",
+    "country": "IN/IL",
+    "indigenous_pct": null,
+    "indigenous_label": "Development with Israeli collaboration; increasing indigenous content",
+    "mobility_or_class": "Jet-powered loitering munition / kamikaze drone",
+    "operational_domains": [
+      "land",
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "DRDO / IAI — development; Indian production planned",
+    "Type": "Jet-powered loitering munition (kamikaze drone)",
+    "Propulsion": "Small turbojet engine",
+    "Speed": "~400–600 km/h (high subsonic)",
+    "Range": "~100–200 km (estimated)",
+    "Endurance": "~30–60 minutes (estimated, limited by fuel)",
+    "Warhead": "High-explosive fragmentation (estimated 5–10 kg class)",
+    "Guidance": "GPS/INS + electro-optical / infrared terminal seeker",
+    "Target": "High-value targets: radar sites, command posts, air defence systems, armour",
+    "Status": "Development / procurement"
+  },
+  "what_it_is": {
+    "prose": "The jet-based kamikaze drone system is an indigenous Indian programme to develop a high-speed jet-powered loitering munition (kamikaze drone) capable of striking high-value targets at speeds far exceeding propeller-driven loitering munitions like the Switchblade or Harop. The programme involves DRDO and Israeli Aerospace Industries (IAI), leveraging Israel's experience with the Harop and Harpy loitering munitions. The system fills a critical operational gap between expensive cruise missiles (like BrahMos) and slower propeller-driven loitering munitions, providing a relatively affordable high-speed precision strike capability. The jet-powered drone can be launched from ground-based or vehicle-mounted launchers, loiter in a target area, and then accelerate to terminal attack speed when a target is identified. The system is intended for the Indian Army and Air Force for strikes against radar sites, command posts, air defence systems, and other high-value targets. The programme is in the development/procurement phase.",
+    "sources": [
+      "src-1"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The jet-based kamikaze drone system is in the development/procurement phase. The Indian Army and Air Force have expressed interest. No specific procurement quantity or value has been publicly confirmed.",
+    "rows": [
+      {
+        "agency": "Indian Army / Indian Air Force",
+        "context": "Jet kamikaze drone development",
+        "year": null,
+        "quantity_or_note": "Development ongoing; procurement phase initiated",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact procurement quantity not publicly disclosed",
+      "Whether the system will be used by Army, Air Force, or both",
+      "Timeline for operational induction",
+      "Whether the system is primarily IAI-derived or truly indigenous"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Development involves Israeli Aerospace Industries (IAI). Some components may import initially.",
+    "items": [
+      {
+        "component": "Turbojet engine",
+        "severity": "High",
+        "note": "Small turbojet may be Israeli-origin initially; indigenous alternatives under development",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Electro-optical / infrared seeker",
+        "severity": "Medium",
+        "note": "Some seeker components may be Israeli-origin; Indian alternatives under development",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Navigation / guidance electronics",
+        "severity": "Medium",
+        "note": "GPS/INS components may use imported sources initially",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 2,
+        "note": "Collaborative DRDO-IAI design; Israeli experience dominant",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 3,
+        "note": "Indian production planned; some Israeli components may persist initially",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Turbojet engine and seeker may be Israeli-origin initially",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 2,
+        "note": "Development/procurement phase; scale not yet confirmed",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 3,
+        "note": "Competitive concept; potential export once indigenous production matures",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "astra-air-to-air-missile-family",
+      "rudram-ii",
+      "tara-glide-weapon"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is a jet-based kamikaze drone?",
+      "answer": "A jet-based kamikaze drone is a jet-powered loitering munition that can loiter over a target area and then accelerate to high speed for a terminal attack on a designated target. Unlike propeller-driven loitering munitions (which are slower but longer-enduring), jet-powered variants offer much higher speed (~400–600 km/h) but shorter endurance (~30–60 minutes). They fill the gap between cruise missiles and propeller loitering munitions, providing affordable high-speed precision strikes.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Is this the same as the IAI Harop?",
+      "answer": "The Indian programme draws on Israeli Aerospace Industries (IAI) experience with the Harop and Harpy loitering munitions, but is being developed as a distinct system tailored to Indian requirements. The Indian variant may incorporate indigenous components and modifications. Whether it will be called Harop or given a distinct Indian name has not been confirmed.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What is the jet-based kamikaze drone system?",
+      "answer": "It is a rapidly developed Indian loitering munition concept that adds a jet engine to a kamikaze drone to achieve speeds and strike ranges beyond typical propeller-driven loitering munitions. Both DRDO and the Indian Air Force are advancing jet-powered loitering munition designs for deep-strike roles.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "Who is developing this system and for what role?",
+      "answer": "DRDO is developing a stealth jet-powered swarm loitering munition with a reported 300-600 km strike range, while the Indian Air Force is separately pursuing indigenous kamikaze drones with industry partners. These systems provide precision deep-strike options for peacetime coercion and wartime effect.",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "~2020",
+      "event": "DRDO-IAI jet kamikaze drone development programme initiated",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "~2022",
+      "event": "Prototype development and initial testing reported",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2020s",
+      "event": "Procurement evaluation phase; Indian Army/IAF assessing",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact procurement quantity not publicly disclosed",
+    "Whether the system will be used by Army, Air Force, or both",
+    "Timeline for operational induction",
+    "Whether the system is primarily IAI-derived or truly indigenous",
+    "Indigenous turbojet engine qualification timeline"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Jet-based kamikaze drone — India DRDO-IAI programme",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/labs/English/LoiteringMunition.jsp",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO loitering munition programme context (domain root reference)"
+    },
+    {
+      "id": "src-2",
+      "title": "Loitering munitions — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Loitering_munition",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "General loitering munition concepts including Harop and Harpy"
+    },
+    {
+      "id": "src-3",
+      "title": "DRDO Developing Stealth Jet-Powered Swarm Loitering Munition with 300-600 km Strike Range",
+      "publisher": "idrw.org",
+      "url": "https://idrw.org/drdo-developing-stealth-jet-powered-swarm-loitering-munition-with-300-600-km-strike-range/",
+      "published_date": "2026-03-07",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Jet-powered loitering munition development report"
+    },
+    {
+      "id": "src-4",
+      "title": "IAF to develop kamikaze drones with industry help",
+      "publisher": "The Tribune India",
+      "url": "https://www.tribuneindia.com/news/india/iaf-to-make-indigenous-kamikaze-drones-of-its-own/",
+      "published_date": "2026-06-15",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "IAF kamikaze drone development report"
+    }
+  ],
+  "seo": {
+    "title": "Jet-Based Kamikaze Drone System — System · India Defence Atlas | Techadyant",
+    "meta_description": "India's indigenous jet-powered loitering munition; DRDO-IAI development; high-speed terminal attack; ~400–600 km/h; fills gap between cruise missiles and propeller loitering munitions.",
+    "canonical_path": "/research/pillars/defence/entity/jet-based-kamikaze-drone-system/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

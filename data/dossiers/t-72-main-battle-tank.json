@@ -1,0 +1,318 @@
+{
+  "entity_id": "def-018",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "t-72-main-battle-tank",
+  "name": "T-72 Main Battle Tank",
+  "variant": "T-72 M1 / T-72 Ajeya (Indian licence-built variant)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "operational",
+  "header": {
+    "one_liner": "Soviet-origin main battle tank; ~1,900+ in Indian Army service; licence-built by HVF Avadi; backbone of India's armoured corps since the 1980s; undergoing modernisation (CIRUS/UpG).",
+    "chips": [
+      "MBT",
+      "Soviet-origin",
+      "HVFA Avadi",
+      "125mm smoothbore",
+      "V-46 engine",
+      "Ajeya upgrade",
+      "Operational"
+    ],
+    "maker": "HMV / HVF Avadi (now AVNL) — licence production; OJSC Uralvagonzavod (Russia) — original OEM",
+    "country": "IN/RU",
+    "indigenous_pct": null,
+    "indigenous_label": "Licence-built; modernisation packages increasingly indigenous",
+    "mobility_or_class": "58.6 tonnes, tracked",
+    "operational_domains": [
+      "land"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Uralvagonzavod (Russia) — original design; HVF Avadi / AVNL — Indian licence production",
+    "Variant": "T-72 M1 / T-72 Ajeya (Indian designation)",
+    "Mass": "~41 tonnes (combat loaded, varies with upgrade package)",
+    "Crew": "3 (commander, gunner, driver)",
+    "Engine": "V-46-6 V-12 diesel, ~780 hp",
+    "Power_to_weight": "~18.4 hp/tonne",
+    "Main_armament": "125mm 2A46 smoothbore (autoloaded) — APFSDS, HEAT, HE, HE-FRAG",
+    "Secondary": "7.62mm coaxial MG; 12.7mm AA HMG (commander)",
+    "Armour": "Composite + steel; Kontakt-1 ERA on upgraded variants",
+    "Combat_radius": "~460 km",
+    "Max_speed": "60 km/h road",
+    "In_service": "~1,900–2,200 (exact count undisclosed); backbone of armoured formations",
+    "Fleet_status": "Undergoing CIRUS / UpG modernisation programme"
+  },
+  "what_it_is": {
+    "prose": "The T-72 Main Battle Tank has been the backbone of the Indian Army's armoured corps since the early 1980s. India licence-built the Soviet T-72 M1 at the Heavy Vehicles Factory (HVF) in Avadi (now AVNL), initially with knock-down kits and progressively with increasing indigenous content. The tank entered Indian service as the 'Ajeya' and formed the core of armoured regiments deployed along the western (Pakistan) and northern (China) borders. With a mass of approximately 41 tonnes, a 125mm 2A46 smoothbore gun with an autoloader, and a V-46-6 V-12 diesel engine producing ~780 hp, the T-72 offered a compact, hard-hitting platform suited to India's operational requirements. India's fleet has undergone progressive modernisation under the CIRUS and UpG programmes, incorporating improved fire control systems, thermal imaging, ERA packages, and enhanced communications. The T-72 remains in widespread frontline service, with newer platforms like the T-90S Bhishma and the indigenous Arjun Mk-1A supplementing — but not replacing — the fleet.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "India licence-built approximately 1,500+ T-72 tanks at HVF Avadi from the 1980s onwards, with the majority delivered by the mid-1990s. The fleet is deployed across armoured corps formations on the western and northern borders. Modernisation programmes (CIRUS/UpG) continue to upgrade the fleet with indigenous fire control and ERA packages.",
+    "rows": [
+      {
+        "agency": "Indian Army (Armoured Corps)",
+        "context": "Licence production — T-72 M1 / Ajeya",
+        "year": 1988,
+        "quantity_or_note": "First batch delivered ~1988; ~1,500+ produced at HVF Avadi through the 1990s",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "CIRUS / UpG modernisation",
+        "year": 2010,
+        "quantity_or_note": "~1,000+ tanks modernised; upgraded fire control, thermal imaging, ERA",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact total production count at HVF Avadi not publicly disclosed",
+      "Whether the UpG programme covers the full fleet or only select formations",
+      "Planned retirement timeline for unmodernised hulls"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Originally licence-built with full Soviet technology transfer. Modernisation packages have progressively increased indigenous content, though certain subsystems remain imported.",
+    "items": [
+      {
+        "component": "125mm 2A46 smoothbore gun",
+        "severity": "High",
+        "note": "Originally Russian; Ordnance Factory Board (now Munitions India Limited) produces indigenous variants",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Thermal imaging / fire control components",
+        "severity": "Medium",
+        "note": "Originally imported; BEL and Israeli-origin upgrades on modernised variants",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "V-46-6 engine spare parts",
+        "severity": "Medium",
+        "note": "Russian-origin spares; indigenous alternatives being explored for long-term sustainment",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 1,
+        "note": "Soviet/Russian original design; India is a licence user, not designer",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Licence-built at HVF Avadi; indigenous content increasing through modernisation",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Engine and gun of Russian origin; some subsystems now indigenous via BEL/OFB upgrades",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 5,
+        "note": "~1,900–2,200 in service; backbone of armoured corps across both borders",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 0,
+        "note": "No exports; surplus fleet being modernised, not exported",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "t-90-main-battle-tank",
+      "arjun-mbt-mk-1a-def-017",
+      "bmp-2-bmp-2k",
+      "zorawar-light-tank-def-001"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "How does the T-72 compare to the T-90 in Indian Army service?",
+      "answer": "The T-90S Bhishma (def-019) is a more advanced evolution of the T-72 family with improved composite and ERA armour (Kontakt-5), a more powerful V-92S2 engine (~1,000 hp), Shtora-1 IR jammer, and the 1A45T fire control system. The T-72 remains more numerous (~1,900 vs ~1,200+ T-90S) and forms the backbone of armoured formations, while the T-90S is deployed as the premium frontline MBT. Both share the 125mm smoothbore gun and autoloader, enabling common logistics for ammunition.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "What is the CIRUS / UpG modernisation programme?",
+      "answer": "The CIRUS (Combat Improved Indian Original T-72) and UpG programmes are Indian modernisation initiatives to upgrade the T-72 fleet with improved fire control systems, thermal imaging sights, explosive reactive armour (ERA) packages, digital communications, and enhanced ammunition. The programme aims to extend the operational life of the T-72 fleet and bridge capability gaps until newer platforms are fielded in sufficient numbers.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Is the T-72 being phased out of Indian Army service?",
+      "answer": "Not yet. While newer platforms (T-90S Bhishma, Arjun Mk-1A, and the Zorawar light tank for high-altitude) are supplementing the fleet, the T-72 remains the single most numerous tank in Indian Army service. Modernisation programmes are extending its life, and full retirement is likely to be a gradual process spanning the 2030s and beyond.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1980",
+      "event": "India selects the T-72 M1 for licence production at HVF Avadi",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "1988",
+      "event": "First Indian-built T-72 (Ajeya) delivered to the Indian Army",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "1990s",
+      "event": "Majority of T-72 fleet produced at HVF Avadi (~1,500+ units)",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "~2010",
+      "event": "CIRUS / UpG modernisation programme initiated",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2020s",
+      "event": "Ongoing fleet modernisation; T-72 remains backbone of armoured corps",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact total T-72 production count at HVF Avadi not publicly disclosed",
+    "Whether the UpG programme covers the full fleet or only select formations",
+    "Planned retirement timeline for unmodernised hulls",
+    "Status of indigenous engine alternatives for long-term sustainment"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "T-72 — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/T-72",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Comprehensive T-72 specifications, Indian licence production history, and fleet overview"
+    },
+    {
+      "id": "src-2",
+      "title": "Indian Army T-72 modernisation",
+      "publisher": "DRDO",
+      "url": "https://www.drdo.gov.in/drdo/labs/CVRDE/English/Index.jsp",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "DRDO CVRDE — combat vehicle modernisation context (domain root)"
+    },
+    {
+      "id": "src-3",
+      "title": "Armoured corps — Indian Army",
+      "publisher": "Indian Army",
+      "url": "https://indianarmy.nic.in/content/armoured-corps",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Armoured Corps overview including T-72 and T-90 fleet"
+    },
+    {
+      "id": "src-4",
+      "title": "Eye on China, Pakistan: India plans major battlefield upgrade for ageing T-72 tanks",
+      "publisher": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/defence/news/eye-on-china-pakistan-india-plans-major-battlefield-upgrade-for-ageing-t-72-tanks/articleshow/131365166.cms",
+      "published_date": "2026-05-28",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "T-72 fleet modernisation plan news report"
+    },
+    {
+      "id": "src-5",
+      "title": "Indian Army to Spend Rs 75,000 Crore on T-72, T-90 and BMP Fleet Modernisation",
+      "publisher": "idrw.org",
+      "url": "https://idrw.org/indian-army-to-spend-%E2%82%B975000-crore-on-t-72-t-90-and-bmp-fleet-modernisation-with-five-year-orders/",
+      "published_date": "2026-07-08",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Fleet modernisation coverage"
+    },
+    {
+      "id": "src-6",
+      "title": "Why tank overhaul matters: Giving India's T-72 and T-90 fleet a new lease of life",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/why-tank-overhaul-matters-giving-indias-t-72-and-t-90-fleet-a-new-lease-of-life-i-explained/article71399763.ece",
+      "published_date": "2026-08-28",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Analysis of T-72/T-90 overhaul"
+    }
+  ],
+  "seo": {
+    "title": "T-72 Main Battle Tank — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "Soviet-origin T-72 main battle tank; ~1,900+ in Indian Army service; licence-built by HVF Avadi; backbone of India's armoured corps; CIRUS/UpG modernisation underway.",
+    "canonical_path": "/research/pillars/defence/entity/t-72-main-battle-tank/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "entity_id": "def-036",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ins-anjadip",
+  "name": "INS Anjadip",
+  "variant": "ASW-SWC (Anti-Submarine Warfare Shallow Water Craft) corvette — Arnala-class series",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "commissioned_2026",
+  "header": {
+    "one_liner": "An ASW-SWC shallow-water corvette of the Arnala class; built at Goa Shipyard or GRSE within the 8-ship ASW-SWC tranche; hull-mounted sonar ASW specialist for India's littorals.",
+    "chips": [
+      "ASW corvette",
+      "ASW-SWC programme",
+      "Arnala class",
+      "Shallow-water ASW",
+      "Hull sonar",
+      "Commissioned 2026"
+    ],
+    "maker": "Goa Shipyard Limited (GSL) / Garden Reach Shipbuilders & Engineers (GRSE) — programme split",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "~80% indigenous by value; sonar/AA weapons partly imported",
+    "mobility_or_class": "ASW-SWC corvette (shallow-water ASW craft)",
+    "operational_domains": [
+      "naval",
+      "sea",
+      "air"
+    ]
+  },
+  "what_it_is": {
+    "prose": "INS Anjadip is an anti-submarine warfare shallow water craft (ASW-SWC) corvette of the Arnala class, built for the Indian Navy's littoral anti-submarine role. The ASW-SWC series was designed by Garden Reach Shipbuilders & Engineers (GRSE) and is being built in a split across GRSE (Kolkata) and Goa Shipyard Limited (GSL) under the expanded 8-ship shallow-water craft order. Anjadip carries a hull-mounted sonar and an integrated ASW suite — torpedo tubes, ASW rocket launchers and (on later ships) a variable-depth sonar — plus a gun for self-defence, making it a low-cost, shallow-draft complement to the larger Nilgiri-class frigates. The ship is named after the island of Anjadip (Anjediva) off the Karnataka/Goa coast, a historic naval anchor point. Commissioned within the 2024-2026 ASW-SWC induction window, Anjadip is part of the Indian Navy's deliberate build-out of specialist shallow-water ASW capability across both coastal commands, responding to Pakistan's growing submarine fleet and general littoral subsurface threat.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Anjadip is part of the 8-ship ASW-SWC shallow-water craft programme ordered in 2019 (split across GRSE and GSL). The class lead commissioned in 2024 and subsequent hulls — including Anjadip — have been commissioning through 2025-26. Precise per-hull cost is not uniformly published; the class is broadly reported at ~₹1,500-1,600 crore per ship but values vary by yard and tranche.",
+    "rows": [
+      {
+        "agency": "Indian Navy",
+        "context": "Expanded 8-ship ASW-SWC order (GRSE + GSL)",
+        "year": 2019,
+        "quantity_or_note": "8 ships across two yards",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Navy / GSL",
+        "context": "Anjadip launched",
+        "year": 2023,
+        "quantity_or_note": "Launched at the building yard",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "INS Anjadip commissioned",
+        "year": 2026,
+        "quantity_or_note": "Commissioned within the ASW-SWC induction window",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact commissioning date and whether Anjadip is GSL- or GRSE-built",
+      "Per-ship contract value not uniformly published",
+      "Remaining ASW-SWC hull commissioning dates"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The ASW-SWC is substantially indigenous, but retains imported sonar transducers, CIWS and propulsion modules.",
+    "items": [
+      {
+        "component": "Sonar transducers / arrays",
+        "severity": "High",
+        "note": "Hull sonar initially sourced/assisted from abroad; indigenising",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "CIWS / close-in weapon system",
+        "severity": "High",
+        "note": "AK-630 (Russia) typically; indigenous alternatives developing",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Diesel engines",
+        "severity": "Medium",
+        "note": "Main propulsion diesels imported (MTU/Pielstick family)",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "ASW weapon sub-systems",
+        "severity": "Medium",
+        "note": "Lightweight torpedoes and some ASW components licensed/imported",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 4,
+        "note": "GRSE-designed for shallow-water ASW",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 5,
+        "note": "Indian yards (GRSE/GSL)",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 3,
+        "note": "Sonar, CIWS, propulsion partly imported",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 4,
+        "note": "8-ship programme filling littoral ASW gap",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 4,
+        "note": "Exportable shallow-water ASW design",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "garden-reach-shipbuilders-engineers",
+      "goa-shipyard-limited"
+    ],
+    "peer_systems": [
+      "ins-agray",
+      "ins-sanshodhak",
+      "anti-submarine-warfare-shallow-water-craft-programme"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is INS Anjadip?",
+      "answer": "INS Anjadip is an anti-submarine warfare shallow water craft (ASW-SWC) corvette of the Arnala class, built to hunt submarines in India's shallow coastal waters where larger frigates cannot operate effectively.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Why is the ship named Anjadip?",
+      "answer": "Anjadip (Anjediva) is an island off the Goa/Karnataka coast, a historic Portuguese and later Indian naval anchor point, continuing the convention of naming the ASW-SWC class after islands and coastal features.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "Is Anjadip an indigenous design?",
+      "answer": "Yes — the ASW-SWC class was designed by Garden Reach Shipbuilders & Engineers (GRSE) and is built in Indian yards. While the hull and much of the combat system are indigenous, sonar transducers, CIWS and propulsion diesels retain some import content.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2019",
+      "event": "8-ship ASW-SWC order split across GRSE and GSL",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2023",
+      "event": "INS Anjadip launched",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "ASW-SWC class lead commissioned",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "INS Anjadip commissioned",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact commissioning date and building yard for Anjadip",
+    "Per-ship cost confirmation",
+    "Remaining ASW-SWC delivery schedule"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "ASW Shallow Water Craft — Indian Navy series",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "PIB commissioning releases"
+    },
+    {
+      "id": "src-2",
+      "title": "Anti-submarine warfare shallow water craft (Indian Navy)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anti-submarine_warfare_shallow_water_craft",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Class history and shipyard split"
+    },
+    {
+      "id": "src-3",
+      "title": "Goa Shipyard Limited — naval programmes",
+      "publisher": "Goa Shipyard Limited",
+      "url": "https://goashipyard.in/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "GSL building context"
+    },
+    {
+      "id": "src-4",
+      "title": "INS Anjadip commissioned at Chennai on 27 Feb 2026",
+      "publisher": "PSU Connect",
+      "url": "https://psuconnect.in/ins-anjadip-commissioned-at-chennai-on-27-feb-2026",
+      "published_date": "2026-02-27",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "INS Anjadip commissioning report"
+    }
+  ],
+  "seo": {
+    "title": "INS Anjadip — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "INS Anjadip, ASW shallow water craft (Arnala class) built for India's littoral anti-submarine warfare. Hull-mounted sonar, torpedoes, ~80% indigenous.",
+    "canonical_path": "/research/pillars/defence/entity/ins-anjadip/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

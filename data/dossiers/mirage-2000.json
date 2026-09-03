@@ -1,0 +1,312 @@
+{
+  "entity_id": "def-046",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "mirage-2000",
+  "name": "Mirage 2000",
+  "variant": "Mirage 2000I/H (Indian upgrade of the Mirage 2000/2000H)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "operational",
+  "header": {
+    "one_liner": "France-built Mirage 2000H/TH multi-role fighters of the IAF, upgraded to the Mirage 2000I/T (Indian standard) with new radar, avionics and weapon integration; the 2000I fleet remains IAF's precision-strike backbone pending newer aircraft.",
+    "chips": [
+      "Combat aircraft",
+      "Multi-role",
+      "Dassault",
+      "Mirage 2000I",
+      "Upgraded",
+      "IAF",
+      "Operational"
+    ],
+    "maker": "Dassault Aviation (France) — original build; HAL + Thales (France) upgrade to 2000I standard",
+    "country": "IN/FR",
+    "indigenous_pct": null,
+    "indigenous_label": "Original aircraft French; upgrade includes some Indian integration/avionics",
+    "mobility_or_class": "Multi-role fighter (upgraded Mirage 2000)",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Multi-role fighter (upgraded Mirage 2000I/H)",
+    "OEM": "Dassault Aviation (France)",
+    "Crew": "1 (2000H) / 2 (2000TH trainer)",
+    "Engines": "1x Snecma M53-P2",
+    "Radar": "Thales RDY-2 (upgraded, 2000I) — AESA-competing upgrade",
+    "Weapons": "MICA / SCALP-EG / precision-guided munitions; upgraded weapon integration",
+    "Role": "Air superiority, deep strike, SEAD, nuclear-delivery-context",
+    "India_fleet": "~40 Mirage 2000I/T in service (from original ~59/67 delivered)",
+    "Upgrade": "~51 upgraded to 2000I during 2010s",
+    "Status": "Operational; being supplemented by Rafale/Mk2 as IAF modernises"
+  },
+  "what_it_is": {
+    "prose": "The Mirage 2000I/H is the Indian Air Force's upgraded version of Dassault Aviation's Mirage 2000 — a French single-engine, delta-wing multi-role fighter delivered to India from the 1980s. The IAF acquired Mirage 2000H/TH aircraft, which proved a highly capable and reliable precision-strike platform (playing a central role in the 2019 Balakot strikes). Because the IAF could not easily replace the ageing fleet, it contracted a comprehensive upgrade of ~51 aircraft to the Indian standard — the Mirage 2000I (single-seat) and 2000T (two-seat) — carried out by HAL in partnership with Thales/France. The upgrade replaced the radar with the Thales RDY-2, added modern avionics, and integrated Indian weapons including the Astra BVR and SCALP-EG class cruise missile, refreshing the aircraft's combat life. Over ~40 Mirage 2000I/T remain in service, operated as the IAF's precision-strike and nuclear-delivery-capable strike force (the IAF's Mirage 2000 has traditionally supported India's strategic/nuclear delivery role). While the Mirage 2000 is an ageing, imported platform, its upgrade exemplifies India's policy of extending the life and capability of existing aircraft through modernisation rather than immediate replacement, and it continues to fly alongside the newer Rafale and indigenous fighters ahead of the AMCA. It remains a central part of IAF operational capability, though its numbers are shrinking with age.",
+    "sources": [
+      "src-1",
+      "src-2",
+      "src-3"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "The IAF acquired ~59-67 Mirage 2000H/TH from the 1980s, of which ~51 were upgraded to the 2000I/T standard between roughly 2015-2022. Over ~40 remain operational today. The fleet has played a pivotal role in the 2019 Balakot strikes and continues in the deep-strike/precision role, being supplemented by Rafale and the future Mk2 as it ages.",
+    "rows": [
+      {
+        "agency": "IAF",
+        "context": "Initial Mirage 2000H/TH acquisition",
+        "year": 1985,
+        "quantity_or_note": "~59-67 aircraft delivered from the 1980s",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "IAF / HAL / Thales",
+        "context": "Mirage 2000I/T upgrade programme (India standard)",
+        "year": 2015,
+        "quantity_or_note": "~51 aircraft upgraded to 2000I standard",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "agency": "IAF",
+        "context": "Balakot strike role",
+        "year": 2019,
+        "quantity_or_note": "Mirage 2000I used in cross-border precision strike (Balakot)",
+        "sources": [
+          "src-3"
+        ]
+      },
+      {
+        "agency": "IAF",
+        "context": "In-service status",
+        "year": 2026,
+        "quantity_or_note": "~40 Mirage 2000I/T operational; being supplemented by Rafale/Mk2",
+        "sources": [
+          "src-1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Precise current in-service count (ageing fleet loses a few annually)",
+      "Whether a further Mirage life-extension/upgrade is planned before retirement",
+      "Exact upgrade weapon-integration list and any further SCALP/Astra expansion"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "The Mirage 2000 is a fundamentally imported French platform; despite the HAL/Thales upgrade, engines, radar and core systems remain French/imported.",
+    "items": [
+      {
+        "component": "Airframe / engines (M53-P2)",
+        "severity": "Critical",
+        "note": "French design and engines — no indigenous equivalent; fleet sustained on French-sourced spares",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Radar (RDY-2) & avionics",
+        "severity": "High",
+        "note": "Thales radar/avionics — upgrade refreshed but remains French-sourced",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "component": "Weapons (SCALP-EG / MICA)",
+        "severity": "High",
+        "note": "European weapons; Indian Astra/weapon integration partially offsets dependence",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 1,
+        "note": "French design — Indian upgrade extends life but not design ownership",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 2,
+        "note": "Built in France; upgrade performed at HAL with French tech-transfer",
+        "sources": [
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Engines/radar/weapons French-imported; some Indian avionics integration",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 3,
+        "note": "~40 aircraft operational; shrinking with age",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 1,
+        "note": "No Indian export upside — French product",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "dassault-aviation"
+    ],
+    "peer_systems": [
+      "multi-role-fighter-aircraft-mrfa",
+      "rafale-m",
+      "lca-tejas-mk2",
+      "amca"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the difference between the Mirage 2000H and 2000I?",
+      "answer": "The 2000H was the original French-built Mirage 2000 as delivered to the IAF. The 2000I (and 2000T for trainers) is the upgraded Indian standard with a new Thales RDY-2 radar, modern avionics and Indian weapon integration including Astra and SCALP-EG.",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "question": "How many Mirage 2000 does the IAF operate?",
+      "answer": "The IAF operates roughly ~40 Mirage 2000I/T aircraft in service today, down from the ~59-67 originally delivered, with losses and retirements reducing the fleet.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "Is the Mirage 2000 being retired?",
+      "answer": "Not imminently — it remains a key precision-strike platform. However, the ageing fleet is gradually being supplemented and ultimately replaced by the Rafale and the indigenous Mk2/AMCA as they enter service.",
+      "sources": [
+        "src-3"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1985",
+      "event": "IAF acquires Mirage 2000H/TH from France",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2015-2022",
+      "event": "~51 aircraft upgraded to Mirage 2000I standard (HAL/Thales)",
+      "sources": [
+        "src-2"
+      ]
+    },
+    {
+      "date": "2019",
+      "event": "Mirage 2000I used in Balakot cross-border precision strike",
+      "sources": [
+        "src-3"
+      ]
+    },
+    {
+      "date": "2026",
+      "event": "~40 Mirage 2000I/T operational; supplemented by Rafale/Mk2",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Precise current in-service count",
+    "Any further Mirage life-extension before retirement",
+    "Exact upgraded weapon list and further integration"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Dassault Mirage 2000 (Indian Air Force)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_2000",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Mirage 2000I/H specifications and upgrade history"
+    },
+    {
+      "id": "src-2",
+      "title": "Mirage 2000 upgrade — HAL",
+      "publisher": "Hindustan Aeronautics Limited",
+      "url": "https://hal-india.co.in/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "HAL Mirage 2000I upgrade context"
+    },
+    {
+      "id": "src-3",
+      "title": "Mirage 2000 — Balakot and IAF coverage",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/",
+      "published_date": null,
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "IAF Mirage 2000 operational role coverage"
+    },
+    {
+      "id": "src-4",
+      "title": "IAF Charts Jaguar Phase-Out Amid Mirage 2000 Fleet Extension",
+      "publisher": "Indian Defence News",
+      "url": "https://www.indiandefensenews.in/2026/03/iaf-charts-jaguar-phase-out-amid-mirage.html",
+      "published_date": "2026-03-17",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "IAF Mirage 2000 fleet extension coverage"
+    }
+  ],
+  "seo": {
+    "title": "Mirage 2000 — Platform | India Defence Atlas | Techadyant",
+    "meta_description": "The IAF's Mirage 2000I/H multi-role fighter, French-built and upgraded by HAL/Thales with RDY-2 radar and Indian weapons. Key precision-strike platform.",
+    "canonical_path": "/research/pillars/defence/entity/mirage-2000/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}

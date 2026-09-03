@@ -1,0 +1,332 @@
+{
+  "entity_id": "def-019",
+  "entity_type": "platform",
+  "tier": "A",
+  "noindex": false,
+  "slug": "t-90-main-battle-tank",
+  "name": "T-90S Bhishma Main Battle Tank",
+  "variant": "T-90S Bhishma (Russian-origin MBT, Indian designation)",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/entity/",
+  "last_verified": "2026-09-03",
+  "status": "operational",
+  "header": {
+    "one_liner": "India's primary frontline main battle tank; ~1,200–1,600 in service; Russian T-90S licence-produced at HVF Avadi; 125mm smoothbore + Shtora-1 ERA; forming the bulk of armoured readiness.",
+    "chips": [
+      "MBT",
+      "Russia-origin",
+      "HVFA Avadi",
+      "125mm smoothbore",
+      "Shtora-1",
+      "V-92S2 engine",
+      "Operational"
+    ],
+    "maker": "HVFA Avadi (AVNL) — Indian licence production; Uralvagonzavod (Russia) — original OEM",
+    "country": "IN/RU",
+    "indigenous_pct": null,
+    "indigenous_label": "Licence-built; indigenous content increasing through Mk-2/3 upgrades",
+    "mobility_or_class": "~46.5 tonnes, tracked",
+    "operational_domains": [
+      "land"
+    ]
+  },
+  "at_a_glance": {
+    "OEM": "Uralvagonzavod (Russia) — T-90S design; HVF Avadi / AVNL — Indian licence production",
+    "Variant": "T-90S Bhishma; T-90MS (proposed follow-on)",
+    "Mass": "~46.5 tonnes (combat loaded)",
+    "Crew": "3 (commander, gunner, driver)",
+    "Engine": "V-92S2 V-12 diesel, ~1,000 hp",
+    "Power_to_weight": "~21.5 hp/tonne",
+    "Main_armament": "125mm 2A46M smoothbore (autoloaded) — APFSDS, HEAT, HE; can fire 9M119 Refleks ATGM",
+    "Secondary": "7.62mm coaxial PKT MG; 12.7mm NSVT commander HMG",
+    "Armour": "Composite base; Kontakt-1 or Kontakt-5 ERA; Shtora-1 IR jammer (on Indian variant)",
+    "Combat_radius": "~550 km",
+    "Max_speed": "65 km/h road",
+    "In_service": "~1,200–1,600 (exact count undisclosed)",
+    "Fleet_status": "India's primary MBT; progressive upgrades ongoing"
+  },
+  "what_it_is": {
+    "prose": "The T-90S Bhishma is the Indian Army's primary frontline main battle tank, based on the Russian T-90S platform and licence-produced at the Heavy Vehicles Factory (HVF) in Avadi, Tamil Nadu. India was the first export customer of the T-90, with the initial batch of 310 tanks imported from Russia in 2001–2003, followed by licensed production of additional units. The T-90S features a 125mm 2A46M smoothbore gun with an autoloader, capable of firing conventional ammunition and the 9M119 Refleks laser-guided anti-tank guided missile. It is powered by a V-92S2 V-12 diesel engine producing ~1,000 hp and protected by composite armour with Kontakt-1 explosive reactive armour (ERA) and the Shtora-1 infrared jamming system. The Indian T-90S is deployed across armoured corps formations on both the western (Pakistan) and northern (China) borders. India has pursued progressive upgrades to the T-90S fleet, incorporating improved thermal imaging, fire control, and ERA packages. The tank forms the bulk of India's armoured readiness alongside the older T-72 fleet and the indigenous Arjun Mk-1A.",
+    "sources": [
+      "src-1",
+      "src-2"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "India initially imported 310 T-90S tanks from Russia (2001–2003) and subsequently ordered ~1,000+ additional units for licence production at HVF Avadi. The first Indian-built T-90S rolled out in 2007. The fleet is deployed across armoured corps formations on both borders.",
+    "rows": [
+      {
+        "agency": "Indian Army",
+        "context": "Initial import batch from Russia",
+        "year": 2001,
+        "quantity_or_note": "310 T-90S tanks imported (2001–2003)",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Licence production at HVF Avadi",
+        "year": 2007,
+        "quantity_or_note": "First Indian-built T-90S rolled out ~2007; ~1,000+ produced subsequently",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "agency": "Indian Army",
+        "context": "Additional order for upgraded variant",
+        "year": 2019,
+        "quantity_or_note": "~₹13,448 crore for 464 upgraded T-90S (reported)",
+        "sources": [
+          "src-2"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Exact total T-90S fleet size not publicly disclosed",
+      "Whether the 2019 order has been fully delivered",
+      "T-90MS advanced variant status for India"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Licence-built with increasing indigenous content. Key original systems remain Russian, though modernisation packages substitute indigenous or third-country alternatives.",
+    "items": [
+      {
+        "component": "V-92S2 diesel engine",
+        "severity": "High",
+        "note": "Russian-origin; no fully indigenous alternative yet qualified for T-90",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "125mm 2A46M smoothbore gun",
+        "severity": "Medium",
+        "note": "Originally Russian; indigenous production by MIL/OFB",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      },
+      {
+        "component": "Shtora-1 IR jammer",
+        "severity": "Medium",
+        "note": "Russian-origin soft-kill APS; integral to Indian T-90S configuration",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "component": "Thermal imaging / fire control",
+        "severity": "Medium",
+        "note": "Russian-origin baseline; Israeli and indigenous upgrades on newer variants",
+        "pillar_link": "/research/pillars/defence/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology",
+    "dimensions": [
+      {
+        "id": "design",
+        "label": "Design ownership",
+        "value": 1,
+        "note": "Russian design; India is a licence user",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "production",
+        "label": "Production ownership",
+        "value": 4,
+        "note": "Licence-built at HVF Avadi; majority of fleet produced in India",
+        "sources": [
+          "src-1",
+          "src-2"
+        ]
+      },
+      {
+        "id": "critical_components",
+        "label": "Critical component sovereignty",
+        "value": 2,
+        "note": "Engine, jammer, and some fire control systems remain Russian-origin",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "scale",
+        "label": "Scale / operational reach",
+        "value": 5,
+        "note": "~1,200–1,600 in service; India's primary MBT across both borders",
+        "sources": [
+          "src-1"
+        ]
+      },
+      {
+        "id": "export_potential",
+        "label": "Export potential",
+        "value": 0,
+        "note": "No exports; India is a production user, not an exporter of the T-90S",
+        "sources": []
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "t-72-main-battle-tank",
+      "arjun-mbt-mk-1a-def-017",
+      "bmp-2-bmp-2k",
+      "zorawar-light-tank-def-001"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "faq": [
+    {
+      "question": "What is the difference between the T-72 and T-90S in Indian Army service?",
+      "answer": "The T-90S Bhishma is a more advanced evolution of the T-72 family, featuring improved composite armour with Kontakt-5 ERA (vs Kontakt-1 on upgraded T-72), a more powerful V-92S2 engine (~1,000 hp vs ~780 hp), the Shtora-1 IR jammer, and the 1A45T fire control system with improved thermal imaging. The T-90S also carries the 125mm 2A46M gun (an improved variant of the 2A46 on the T-72). The T-72 remains more numerous but the T-90S is the premium frontline MBT.",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "question": "How many T-90S tanks does India operate?",
+      "answer": "India operates an estimated 1,200–1,600 T-90S Bhishma tanks, making it one of the largest operators of the T-90 family globally. The exact fleet size is not publicly disclosed. The fleet comprises both imported Russian-built units (2001–2003) and Indian licence-produced units from HVF Avadi (2007 onwards).",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "question": "Does the T-90S fire missiles from its main gun?",
+      "answer": "Yes. The T-90S can fire the 9M119 Refleks (NATO: AT-11 Sniper) laser-guided anti-tank guided missile from its 125mm smoothbore gun. This gives the tank the ability to engage enemy armoured targets beyond the effective range of conventional tank gun ammunition, with a maximum range of approximately 4–5 km.",
+      "sources": [
+        "src-1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1992",
+      "event": "T-90 enters Russian service as an evolution of the T-72 family",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2001",
+      "event": "India signs contract for 310 T-90S tanks from Russia",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2003",
+      "event": "First T-90S tanks delivered to Indian Army",
+      "sources": [
+        "src-1"
+      ]
+    },
+    {
+      "date": "2007",
+      "event": "First Indian-built T-90S rolled out at HVF Avadi",
+      "sources": [
+        "src-1",
+        "src-2"
+      ]
+    },
+    {
+      "date": "2019",
+      "event": "Additional order reported (~₹13,448 crore for 464 upgraded T-90S)",
+      "sources": [
+        "src-2"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact total T-90S fleet size not publicly disclosed",
+    "Whether the 2019 order has been fully delivered",
+    "T-90MS advanced variant status for India",
+    "Indigenous engine qualification timeline for T-90 fleet sustainment"
+  ],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "T-90 — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/T-90",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-03",
+      "note": "Comprehensive T-90/T-90S specifications, Indian licence production, and fleet overview"
+    },
+    {
+      "id": "src-2",
+      "title": "T-90S Bhishma — Indian Army",
+      "publisher": "Indian Army / MoD",
+      "url": "https://indianarmy.nic.in/content/armoured-corps",
+      "published_date": null,
+      "trust_tier": "official",
+      "accessed": "2026-09-03",
+      "note": "Armoured Corps overview — T-90S Bhishma fleet"
+    },
+    {
+      "id": "src-3",
+      "title": "India orders 464 upgraded T-90S tanks",
+      "publisher": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/news/defence/india-orders-464-upgraded-t-90-tanks/articleshow/68340880.cms",
+      "published_date": "2019-03-15",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "Additional T-90S order for 464 tanks (2019)"
+    },
+    {
+      "id": "src-4",
+      "title": "India Marks Milestone With 1000th T-90S Bhishma Tank",
+      "publisher": "Indian Defence News",
+      "url": "https://www.indiandefensenews.in/2026/05/india-marks-milestone-with-1000th.html",
+      "published_date": "2026-05-23",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "1000th T-90S Bhishma milestone"
+    },
+    {
+      "id": "src-5",
+      "title": "India's 1000th Homemade T-90 Tank Rolled Off the Line",
+      "publisher": "Defence Blog",
+      "url": "https://defence-blog.com/indias-1000th-homemade-t-90-tank-rolled-off-the-line/",
+      "published_date": "2026-05-24",
+      "trust_tier": "credible",
+      "accessed": "2026-09-03",
+      "note": "1000th indigenous T-90 report"
+    }
+  ],
+  "seo": {
+    "title": "T-90S Bhishma Main Battle Tank — Platform · India Defence Atlas | Techadyant",
+    "meta_description": "India's primary frontline MBT; ~1,200–1,600 T-90S Bhishma in service; Russian T-90S licence-produced at HVF Avadi; 125mm smoothbore + Shtora-1 ERA.",
+    "canonical_path": "/research/pillars/defence/entity/t-90-main-battle-tank/",
+    "og_type": "article",
+    "json_ld_types": [
+      "WebPage",
+      "Product",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/entity/",
+    "submit_correction": "/research/pillars/defence/entity/submit-correction/",
+    "related_research": [
+      "/research/pillars/defence/"
+    ]
+  }
+}
