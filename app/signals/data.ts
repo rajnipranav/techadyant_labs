@@ -2627,6 +2627,80 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['India’s 16 Defence PSUs contributed roughly 72% of the reported ₹1.8 lakh crore defence production in FY2025–26.', 'The Defence Minister has directed DPSUs to focus on delivery timelines, import reduction, R&D conversion, startup support and global quality standards.', 'Seven DPSUs paid ₹3,951 crore in dividends for 2025–26.', 'The strategic test is whether DPSU scale can be turned into shorter lead times, higher domestic content, exports and technology leadership.'],
   sources: ['{"title":"Shri Rajnath Singh urges DPSUs to focus on timely delivery, self-reliance and global-standard quality","publisher":"Press Information Bureau, Ministry of Defence","date":"2026-09-01","url":"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2305615&v=9&reg=48&lang=2","context":"Primary government source for the review of 16 DPSUs, national-security rationale, production figures, roadmaps and dividend presentation."}', '{"title":"Focus on quality, R&D, timely delivery, exports: Defence Minister outlines roadmap for 16 DPSUs","publisher":"The Hindu BusinessLine","date":"2026-09-01","url":"https://www.thehindubusinessline.com/news/focus-on-quality-rd-timely-delivery-exports-defence-minister-outlines-roadmap-for-16-dpsus/article71415801.ece","context":"Independent corroboration of the minister’s execution, R&D, supply-chain and surge-capacity priorities and the FY2025–26 production split."}', '{"title":"Rajnath Singh reviews performance of 16 DPSUs, calls for timely delivery, self-reliance and global-standard quality","publisher":"The Statesman","date":"2026-09-01","url":"https://www.thestatesman.com/india/rajnath-singh-reviews-performance-of-16-dpsus-calls-for-timely-delivery-self-reliance-and-global-standard-quality-1503633742.html","context":"Independent corroboration of the review, the ₹1.8 lakh crore and ₹1.29 lakh crore figures, the ₹3,951 crore dividend and four roadmap publications."}']
+}, {
+  slug: 'adra-joychandipahar-sanka-bypass-eastern-freight-corridor',
+  no: 'S-081',
+  title: 'An ₹272 crore rail bypass targets the eastern corridor’s mineral-freight bottleneck',
+  domain: 'Industrial Corridors',
+  date: '2026-09-03',
+  dateLabel: '3 Sept 2026',
+  status: 'live',
+  excerpt: 'India’s industrial corridors are often constrained less by the absence of factories than by the last operational bottleneck between mine, plant and market. Indian Railways has approved an 11-km bypass in eastern India to separate freight paths and unlock additional capacity for steel, coal and mineral movement.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Development',
+  type: 'h'
+}, {
+  text: 'Indian Railways has approved construction of the Adra–Joychandipahar–Sanka bypass on the South Eastern Railway network at an estimated cost of ₹272 crore. The 11-km line is designed to provide dedicated path segregation and a bi-directional connection to an upcoming third line. Reporting on the approval says the project is intended to support approximately 6.065 freight rakes per day, reduce surface-crossing conflicts and accommodate industrial traffic linked to steel and coal supply chains, including SAIL and BCCL.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Industrial sovereignty depends on the movement of bulk inputs as much as on their extraction or manufacture. A rail bottleneck can impose hidden capacity limits on steel, coal, cement and mineral-processing systems even when production capacity exists upstream. The bypass is reported to address a section operating at around 71% utilisation and to support an additional 8.88 million tonnes per annum of freight potential. This makes it a targeted logistics intervention in the Energy, Mineral and Cement Corridor rather than a generic connectivity project.',
+  type: 'p'
+}, {
+  text: 'Techadyant view',
+  type: 'h'
+}, {
+  text: 'The strategic value lies in making an existing industrial geography more usable. By separating freight movements and linking to the planned third line, the project could improve reliability for mineral-intensive industries without waiting for an entirely new corridor to be built. The key caveat is execution: approved capacity is not delivered capacity. Land, contracting, signalling, commissioning and integration with SAIL, BCCL and other freight demand will determine whether the investment reduces transit detentions and raises usable throughput. The project also illustrates why industrial-corridor analysis should track small network interventions, not only headline mega-corridors.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Tendering, construction start and commissioning milestones for the 11-km bypass.', 'Whether path segregation actually reduces freight detentions and improves average speeds on the Adra–Joychandipahar section.', 'Growth in booked freight rakes and realised tonnage from steel, coal, cement and mineral customers after completion.', 'Integration with the upcoming third line and wider Energy, Mineral and Cement Corridor capacity plan.']
+}],
+  takeaways: [],
+  sources: ['{"title":"Indian Railways Sanctions ₹272 Crore Bypass Line to Boost Freight Capacity in Eastern Corridor","publisher":"Maritime Gateway","date":"2026-09-02","url":"https://www.maritimegateway.com/indian-railways-sanctions-%E2%82%B9272-crore-bypass-line-to-boost-freight-capacity-in-eastern-corridor/","context":"Reports the project cost, 11-km alignment, freight demand, utilisation and Energy, Mineral and Cement Corridor context."}', '{"title":"Indian Railways clears Rs. 272 crore Adra-Joychandipahar bypass line","publisher":"RailAnalysis","date":"2026-09-02","url":"https://railanalysis.in/rail-news/indian-railways-clears-rs-272-crore-adra-joychandipahar-bypass-line-to-strengthen-freight-capacity-on-south-eastern-railway/","context":"Independent rail-sector corroboration of the alignment, capacity, industrial freight rationale and reported source attribution to PIB."}', '{"title":"Indian Railways approves three projects to strengthen safety and freight movement","publisher":"Press Information Bureau","date":"2026-09-01","url":"https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2305351","context":"Reported primary government release identified through PIB’s archive/search result; the English page extraction was incomplete in this run."}']
+}, {
+  slug: 'apollyon-ahuti-mk2-498-kmph-indigenous-drone-interceptor',
+  no: 'S-082',
+  title: 'A Hyderabad start-up’s 498 km/h interceptor points to a faster counter-drone layer',
+  domain: 'Defence Technology',
+  date: '2026-09-03',
+  dateLabel: '3 Sept 2026',
+  status: 'live',
+  excerpt: 'The counter-drone problem is becoming a race against time: low-cost loitering munitions can compress the defender’s reaction window to seconds. Hyderabad-based Apollyon Dynamics says its Ahuti Mk II electric multirotor interceptor has reached a certified 498 km/h, signalling an indigenous attempt to build speed into the physical defeat layer.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Development',
+  type: 'h'
+}, {
+  text: 'Apollyon Dynamics, a Hyderabad-based defence start-up incubated at BITS Pilani’s Hyderabad campus, has developed the Ahuti Mk II as a high-speed electric multirotor interceptor. Deccan Chronicle and Telangana Today report that the aircraft achieved a certified top speed of 498 km/h and was recognised by the India Book of Records for the maximum speed achieved by a multirotor UAV. Unlike a conventional surveillance drone, the platform was rebuilt for the counter-UAS role against hostile drones and loitering munitions. The company says its systems have already been fielded with Indian Army units; that claim remains company-attributed rather than evidence of a formal induction or procurement contract.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Counter-UAS defence is not only a sensor problem. A defender must detect, classify and defeat a small aerial threat before it reaches its target, often while keeping the cost of the interceptor proportionate to the threat. A high-speed kinetic interceptor could shorten the engagement timeline and widen the area defended by a mobile unit. The development also shows how India’s start-up ecosystem is moving beyond general-purpose drones into specialised defence missions shaped by recent conflicts and the spread of inexpensive loitering munitions.',
+  type: 'p'
+}, {
+  text: 'Techadyant view',
+  type: 'h'
+}, {
+  text: 'The strategic signal is the emergence of a domestic physical-interception option, not the speed record by itself. The harder questions are endurance, guidance and terminal accuracy, all-weather performance, autonomy, command-and-control integration, identification of friendly aircraft, recoverability and unit economics. A 498 km/h test achievement does not establish operational readiness. The programme becomes more consequential if the start-up can demonstrate repeatable intercept trials, integration with Indian Army counter-UAS networks and a manufacturable cost structure. It should therefore be tracked as an early technology signal rather than an inducted capability.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Independent details of the certification and repeatability of the 498 km/h performance claim.', 'Live intercept trials against representative small drones and loitering-munition profiles.', 'Guidance, autonomy, sensor and command-link integration with existing Indian counter-UAS systems.', 'Formal Army evaluations, procurement pathways, production capacity and cost per engagement.', 'Endurance and operating envelope: a fast interceptor must still locate, close with and defeat a manoeuvring target.']
+}],
+  takeaways: [],
+  sources: ['{"title":"Hyderabad Defence Startup Develops Record-Breaking Drone Interceptor at 498 kmph","publisher":"Deccan Chronicle","date":"2026-09-01","url":"https://www.deccanchronicle.com/southern-states/telangana/hyderabad-defence-startup-develops-record-breaking-drone-interceptor-at-498-kmph-1984123","context":"Reports the Ahuti Mk II’s role, 498 km/h certified speed, development history and company claims about Army fielding."}', '{"title":"BITS Pilani Hyderabad campus UAV enters India Book of Records","publisher":"Telangana Today","date":"2026-09-01","url":"https://telanganatoday.com/bits-pilani-hyderabad-campus-uav-enters-india-book-of-records","context":"Independent regional coverage corroborating the start-up, BITS incubation, reported record, 498 km/h speed and interceptor design intent."}']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
