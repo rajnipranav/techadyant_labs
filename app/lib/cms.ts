@@ -173,7 +173,15 @@ export async function getReportsMeta(): Promise<ReportMeta[]> {
 }
 
 export async function getSignals(): Promise<CmsSignal[]> {
-  return fromSupabase<CmsSignal>('cms_signals');
+  const rows = await fromSupabase<CmsSignal>('cms_signals');
+  return rows.map((s) => ({
+    ...s,
+    sources: Array.isArray(s.sources)
+      ? s.sources.map((src) =>
+          typeof src === 'string' ? (() => { try { return JSON.parse(src); } catch { return src; } })() : src,
+        )
+      : [],
+  }));
 }
 
 export async function getBriefings(): Promise<CmsBriefing[]> {
@@ -199,5 +207,14 @@ export async function getSignalBySlug(slug: string): Promise<CmsSignal | null> {
   const supabase = getSupabase();
   if (!supabase) return null;
   const { data } = await supabase.from('cms_signals').select('*').eq('slug', slug).maybeSingle();
-  return (data as CmsSignal) || null;
+  const s = (data as CmsSignal) || null;
+  if (!s) return s;
+  return {
+    ...s,
+    sources: Array.isArray(s.sources)
+      ? s.sources.map((src) =>
+          typeof src === 'string' ? (() => { try { return JSON.parse(src); } catch { return src; } })() : src,
+        )
+      : [],
+  };
 }
