@@ -92,6 +92,16 @@ function mapCmsReportToMeta(r) {
 }
 
 function mapCmsSignalToMeta(s) {
+  const sources = Array.isArray(s.sources)
+    ? s.sources.map((src) => {
+        if (typeof src === 'string') {
+          try { src = JSON.parse(src); } catch { /* keep string */ }
+        }
+        if (typeof src === 'string') return src;
+        const obj = src;
+        return (obj && (obj.title || obj.url || '')) || '';
+      })
+    : [];
   return {
     slug: s.slug,
     no: s.no || '',
@@ -104,7 +114,7 @@ function mapCmsSignalToMeta(s) {
     readingTime: s.reading_time || '',
     body: Array.isArray(s.body) ? [...s.body] : [],
     takeaways: Array.isArray(s.takeaways) ? [...s.takeaways] : [],
-    sources: Array.isArray(s.sources) ? [...s.sources] : [],
+    sources,
   };
 }
 
