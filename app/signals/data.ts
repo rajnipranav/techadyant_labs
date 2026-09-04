@@ -2707,7 +2707,7 @@ export const signals: SignalMeta[] = [{
   title: 'India’s new RAKSHA framework links defence diplomacy to exports and maritime security',
   domain: 'Defence Diplomacy & Industrial Sovereignty',
   date: '2026-09-04',
-  dateLabel: '',
+  dateLabel: '4 Sep 2026',
   status: 'live',
   excerpt: 'India’s defence diplomacy is being recast as an industrial and security instrument, not only a channel for military-to-military engagement. The new RAKSHA framework sets a ten-year direction linking strategic partnerships and capacity building with indigenous defence exports and India’s role in the Indian Ocean Region.',
   readingTime: '4 min read',

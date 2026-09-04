@@ -108,7 +108,7 @@ function mapCmsSignalToMeta(s) {
     title: s.title,
     domain: s.domain || '',
     date: s.date || '',
-    dateLabel: s.date_label || '',
+    dateLabel: s.date_label || (() => { if (!s.date) return ''; const [y,m,d]=s.date.split('-'); return `${parseInt(d)} ${['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][parseInt(m)-1]} ${y}`; })(),
     status: s.status || 'live',
     excerpt: s.excerpt || '',
     readingTime: s.reading_time || '',
