@@ -53,7 +53,7 @@ export const signals: SignalMeta[] = [{
   slug: 'osat-bottleneck',
   no: 'S-002',
   title: 'India’s Hidden OSAT Bottleneck',
-  domain: 'Semiconductors',
+  domain: 'Semiconductor Ecosystems',
   date: '2026-05-24',
   dateLabel: '24 May 2026',
   status: 'live',
@@ -140,7 +140,7 @@ export const signals: SignalMeta[] = [{
   slug: 'ai-opportunity-surfaces-india',
   no: 'S-005',
   title: 'Eight opportunity surfaces from India’s AI infrastructure cycle',
-  domain: 'Industrial Opportunity',
+  domain: 'AI Infrastructure',
   date: '2026-05-29',
   dateLabel: '29 May 2026',
   status: 'live',
@@ -205,7 +205,7 @@ export const signals: SignalMeta[] = [{
   slug: 'netrasemi-a2000-edge-ai-silicon',
   no: 'S-007',
   title: 'India’s first edge-AI chip is a design-led bet',
-  domain: 'Edge AI & Semiconductors',
+  domain: 'Semiconductor Ecosystems',
   date: '2026-05-30',
   dateLabel: '30 May 2026',
   status: 'live',
@@ -273,7 +273,7 @@ export const signals: SignalMeta[] = [{
   slug: 'indias-hidden-industrial-water-crisis',
   no: 'S-009',
   title: 'India’s hidden industrial water crisis',
-  domain: 'Industrial Infrastructure',
+  domain: 'Critical Manufacturing Dependencies',
   date: '2026-06-19',
   dateLabel: '19 Jun 2026',
   status: 'live',
@@ -347,7 +347,7 @@ export const signals: SignalMeta[] = [{
   slug: 'jewar-electronics-manufacturing-ecosystem',
   no: 'S-011',
   title: 'Jewar Isn\'t Becoming an Airport City. It\'s Becoming an Electronics Ecosystem.',
-  domain: 'Electronics Manufacturing',
+  domain: 'Industrial Corridors',
   date: '2026-06-29',
   dateLabel: '29 June 2026',
   status: 'live',
@@ -411,7 +411,7 @@ export const signals: SignalMeta[] = [{
   slug: 'dholera-water-signal',
   no: 'S-012',
   title: 'The Dholera Water Signal',
-  domain: 'Industrial Infrastructure',
+  domain: 'Critical Manufacturing Dependencies',
   date: '2026-06-30',
   dateLabel: '30 June 2026',
   status: 'live',
@@ -543,7 +543,7 @@ export const signals: SignalMeta[] = [{
   slug: 'container-sovereignty-trade-infrastructure',
   no: 'S-015',
   title: 'Container manufacturing is really a trade-infrastructure signal',
-  domain: 'Industrial Infrastructure',
+  domain: 'Logistics & Mobility',
   date: '2026-07-13',
   dateLabel: '13 July 2026',
   status: 'live',
@@ -592,7 +592,7 @@ export const signals: SignalMeta[] = [{
   slug: 'semicon-2-0-ecosystem-shift',
   no: 'S-016',
   title: 'Semicon 2.0 Confirms India\'s Shift from Fab Projects to Ecosystem Building',
-  domain: 'Semiconductors',
+  domain: 'Semiconductor Ecosystems',
   date: '2026-07-16',
   dateLabel: '16 July 2026',
   status: 'live',
@@ -730,7 +730,7 @@ export const signals: SignalMeta[] = [{
   slug: 'battery-materials-processing-india',
   no: 'S-019',
   title: 'Battery Materials Processing — Lithium, Cobalt, Nickel and the Cell-Ecosystem Opportunity',
-  domain: 'Energy Storage & Industrial Infrastructure',
+  domain: 'Critical Minerals & Materials',
   date: '2026-07-19',
   dateLabel: '19 July 2026',
   status: 'live',
@@ -773,7 +773,7 @@ export const signals: SignalMeta[] = [{
   slug: 'refinery-equipment-technology-transfer',
   no: 'S-020',
   title: 'The Refinery Equipment and Technology-Transfer Layer Beneath Mineral Processing',
-  domain: 'Industrial Infrastructure & Manufacturing',
+  domain: 'Critical Minerals & Materials',
   date: '2026-07-19',
   dateLabel: '19 July 2026',
   status: 'live',
@@ -816,7 +816,7 @@ export const signals: SignalMeta[] = [{
   slug: 'india-asia-mineral-processing-hub',
   no: 'S-021',
   title: 'Can India Be Asia\'s Mineral-Processing Hub?',
-  domain: 'Critical Minerals & Economic Geography',
+  domain: 'Critical Minerals & Materials',
   date: '2026-07-19',
   dateLabel: '19 July 2026',
   status: 'live',
@@ -862,7 +862,7 @@ export const signals: SignalMeta[] = [{
   slug: 'mineral-security-to-processing-thesis',
   no: 'S-022',
   title: 'From Mineral Security to Mineral Processing — Why the Midstream Layer Decides Competitiveness',
-  domain: 'Critical Minerals',
+  domain: 'Critical Minerals & Materials',
   date: '2026-07-19',
   dateLabel: '19 July 2026',
   status: 'live',
@@ -902,7 +902,7 @@ export const signals: SignalMeta[] = [{
   slug: 'rare-earth-magnets-motors-chokepoint',
   no: 'S-023',
   title: 'Rare Earth Separation → Magnets → Motors: The Defence and Robotics Chokepoint',
-  domain: 'Critical Minerals & Defence',
+  domain: 'Critical Minerals & Materials',
   date: '2026-07-19',
   dateLabel: '19 July 2026',
   status: 'live',
@@ -945,7 +945,7 @@ export const signals: SignalMeta[] = [{
   slug: 'marvell-india-semiconductor-design',
   no: 'S-024',
   title: 'Marvell\'s US$250 Million India Investment Reinforces India\'s Emergence as a Global Semiconductor Design Hub',
-  domain: 'Semiconductor Design & R&D Ecosystem',
+  domain: 'Semiconductor Ecosystems',
   date: '2026-07-29',
   dateLabel: '29 Jul 2026',
   status: 'live',
@@ -2135,7 +2135,7 @@ export const signals: SignalMeta[] = [{
   slug: 'four-industrial-corridor-smart-cities-enter-production',
   no: 'S-065',
   title: 'Four industrial-corridor smart cities enter production as NICDP crosses Rs 2.21 lakh crore investment',
-  domain: 'Industrial Infrastructure & Manufacturing',
+  domain: 'Industrial Corridors',
   date: '2026-08-22',
   dateLabel: '22 Aug 2026',
   status: 'live',
@@ -2310,7 +2310,7 @@ export const signals: SignalMeta[] = [{
   slug: 'coal-india-singapore-subsidiary-critical-mineral-assets',
   no: 'S-072',
   title: 'Coal India incorporates Singapore subsidiary to pursue overseas critical-mineral assets',
-  domain: 'Critical Minerals & Strategic Resources',
+  domain: 'Critical Minerals & Materials',
   date: '2026-08-26',
   dateLabel: '26 Aug 2026',
   status: 'live',
@@ -2339,12 +2339,12 @@ export const signals: SignalMeta[] = [{
   type: 'p'
 }],
   takeaways: ['Coal India now has a dedicated overseas vehicle (CIL Global Pte. Ltd.) for critical-mineral acquisitions, incorporated 24 Aug 2026 with S$500k initial equity.', 'The move operationalises a strategic intent but does not yet deliver a mine, production stream or offtake agreement.', 'Target minerals: lithium, rare earths, copper, bauxite; target geographies include Chile, Australia, Canada, Africa.', 'Key test: whether CIL Global transitions from scouting to a commercial acquisition, JV or offtake deal.'],
-  sources: ['{"publication":"Business Standard","date":"2026-08-25","url":"https://www.business-standard.com/companies/news/coal-india-sets-up-singapore-arm-to-pursue-overseas-critical-mineral-assets-126082401498_1.html","note":"Reports the 24 August incorporation, S$500,000 initial investment, ownership and mandate of CIL Global"}', '{"publication":"Livemint","date":"2026-08-25","url":"https://www.livemint.com/companies/news/coal-india-sets-up-subsidiary-in-singapore-for-global-critical-mineral-assets-11787588049271.html","note":"Independently confirms the subsidiary and places it within Coal India\'s broader diversification and critical-minerals strategy"}', '{"publication":"Reuters","date":"2026-08-20","url":"https://www.reuters.com/business/energy/coal-india-plans-singapore-trading-hub-hunt-critical-mineral-assets-sources-say-2026-08-20/","note":"Pre-incorporation reporting provides context on the planned overseas platform, target geographies and preliminary status of opportunities"}']
+  sources: ['https://www.business-standard.com/companies/news/coal-india-sets-up-singapore-arm-to-pursue-overseas-critical-mineral-assets-126082401498_1.html', 'https://www.livemint.com/companies/news/coal-india-sets-up-subsidiary-in-singapore-for-global-critical-mineral-assets-11787588049271.html', 'https://www.reuters.com/business/energy/coal-india-plans-singapore-trading-hub-hunt-critical-mineral-assets-sources-say-2026-08-20/']
 }, {
   slug: 'csir-nal-indigenous-micro-gas-turbine-engines-uav',
   no: 'S-073',
   title: 'CSIR-NAL unveils three indigenous micro gas-turbine engines for unmanned defence systems',
-  domain: 'Defence Aerospace & Unmanned Systems',
+  domain: 'Defence & Dual-Use',
   date: '2026-08-27',
   dateLabel: '27 Aug 2026',
   status: 'live',
@@ -2373,12 +2373,12 @@ export const signals: SignalMeta[] = [{
   type: 'p'
 }],
   takeaways: ['CSIR-NAL unveiled three indigenous micro and small gas-turbine engines — NJ-05, NJ-50, NJ-100 — on 25 August 2026.', 'Thrust range is 5 kg to 100 kg, targeting tactical UAVs, drone interceptors and compact missile systems.', 'This is a demonstration milestone: flight qualification, serial production and deployment are not yet proven.', 'The strongest next signal would be a manufacturer nomination, technology-transfer award, or funded order from a defence user.'],
-  sources: ['{"publication":"Press Information Bureau, Ministry of Science & Technology","date":"2026-08-25","url":"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2303065","note":"Official release confirming the three engines, thrust ratings, intended applications and technical development context"}', '{"publication":"United News of India","date":"2026-08-25","url":"https://www.uniindia.com/csir-nal-unveils-indigenous-gas-turbine-engines/south/news/3953966.html","note":"Independent coverage confirming the unveiling, engine ratings and potential domestic propulsion role"}', '{"publication":"Deccan Herald","date":"2026-08-26","url":"https://www.deccanherald.com/india/csir-nal-unveils-three-indigenous-micro-and-small-gas-turbine-engines-4124176","note":"Independent report confirming the NJ-05, NJ-50 and NJ-100 engines and their UAV and defence applications"}']
+  sources: ['https://www.pib.gov.in/PressReleasePage.aspx?PRID=2303065', 'https://www.uniindia.com/csir-nal-unveils-indigenous-gas-turbine-engines/south/news/3953966.html', 'https://www.deccanherald.com/india/csir-nal-unveils-three-indigenous-micro-and-small-gas-turbine-engines-4124176']
 }, {
   slug: 'drdo-conventional-missile-technology-transfer-indian-industry',
   no: 'S-074',
   title: 'India opens DRDO conventional-missile technologies to domestic industry',
-  domain: 'Defence Industrial Base & Missiles',
+  domain: 'Defence & Dual-Use',
   date: '2026-08-28',
   dateLabel: '28 Aug 2026',
   status: 'live',
@@ -2407,7 +2407,7 @@ export const signals: SignalMeta[] = [{
   type: 'p'
 }],
   takeaways: ['Defence Minister Rajnath Singh approved DRDO conventional-missile technology transfer to Indian defence manufacturers.', 'Scope covers all DRDO conventional missile systems, including Astra, Rudram, LRAShM and Pralay.', 'Participation is subject to technical qualifications, certifications and regulatory requirements.', 'The strongest next evidence will be named technology-transfer agreements, qualification pathways and funded production contracts.'],
-  sources: ['{"publication":"The Hindu","date":"2026-08-25","url":"https://www.thehindu.com/news/national/govt-approves-transfer-of-drdo-developed-missile-tech-to-indian-defence-industry/article71388248.ece","note":"Confirms the Defence Minister\'s approval, the scope of the transfer and the qualification and certification conditions"}', '{"publication":"The Economic Times","date":"2026-08-26","url":"https://m.economictimes.com/news/defence/rajnath-singh-opens-drdo-missile-tech-to-private-sector/articleshow/133523823.cms","note":"Provides context on the shift from public-sector dominance and identifies representative DRDO missile systems"}', '{"publication":"Al Jazeera","date":"2026-08-26","url":"https://www.aljazeera.com/news/2026/8/26/why-india-is-sharing-missile-secrets-with-its-private-sector","note":"Independently confirms the policy and analyses its implications for private-sector production, prime integration and missile stockpiles"}']
+  sources: ['https://www.thehindu.com/news/national/govt-approves-transfer-of-drdo-developed-missile-tech-to-indian-defence-industry/article71388248.ece', 'https://m.economictimes.com/news/defence/rajnath-singh-opens-drdo-missile-tech-to-private-sector/articleshow/133523823.cms', 'https://www.aljazeera.com/news/2026/8/26/why-india-is-sharing-missile-secrets-with-its-private-sector']
 }, {
   slug: 'semicon-2-0-roadmap-7nm-3nm-100000-design-engineers',
   no: 'S-075',
@@ -2441,12 +2441,12 @@ export const signals: SignalMeta[] = [{
   type: 'p'
 }],
   takeaways: ['Semicon 2.0 targets 7nm-to-3nm chip technology within eight years, up from India\'s current 40nm capability.', 'The programme outlay is ₹1,27,500 crore, with expanded focus on chip design, equipment, materials, advanced packaging and talent.', 'The talent target has been raised to 100,000 semiconductor design engineers.', 'The near-term test is whether equipment and materials incentives attract credible domestic manufacturers within 18–24 months.'],
-  sources: ['{"publication":"Ashwini Vaishnaw Substack","date":"2026-08-25","url":"https://ashwinivaishnaw.substack.com/p/how-we-are-building-indias-semiconductor","note":"Minister\'s detailed roadmap post confirming 7nm-to-3nm target, 100,000-design-engineer goal, six chip-design building blocks and expanded ecosystem focus"}', '{"publication":"CNBC TV18","date":"2026-08-26","url":"https://www.cnbctv18.com/technology/india-targets-3-7-nm-chip-technology-in-eight-years-under-semicon-2-0-vaishnaw-19977762.htm","note":"Independent confirmation of the advanced-node target, talent goal and seven-pillar Semicon 2.0 structure"}', '{"publication":"Business Today","date":"2026-08-26","url":"https://www.businesstoday.in/technology/story/from-chips-to-fabs-ashwini-vaishnaw-explains-how-india-is-building-its-semiconductor-ecosystem-551472-2026-08-26","note":"Independent coverage confirming 12 approved units, $20 billion investment, three units in production and the expanded ecosystem strategy"}', '{"publication":"Indian Infrastructure","date":"2026-08-27","url":"https://indianinfrastructure.com/2026/08/27/semicon-2-0-to-target-7nm-3nm-chip-technologies-and-train-100000-design-engineers-says-it-minister/","note":"Independent confirmation of the advanced-node target, 100,000-design-engineer ambition and expanded focus areas"}']
+  sources: ['https://ashwinivaishnaw.substack.com/p/how-we-are-building-indias-semiconductor', 'https://www.cnbctv18.com/technology/india-targets-3-7-nm-chip-technology-in-eight-years-under-semicon-2-0-vaishnaw-19977762.htm', 'https://www.businesstoday.in/technology/story/from-chips-to-fabs-ashwini-vaishnaw-explains-how-india-is-building-its-semiconductor-ecosystem-551472-2026-08-26', 'https://indianinfrastructure.com/2026/08/27/semicon-2-0-to-target-7nm-3nm-chip-technologies-and-train-100000-design-engineers-says-it-minister/']
 }, {
   slug: 'indian-railways-hydrogen-heritage-35-trains-green-hydrogen-cost',
   no: 'S-076',
   title: 'Indian Railways targets 35 hydrogen trains under Hydrogen for Heritage as it hunts cheaper green hydrogen',
-  domain: 'Clean Energy & Sustainable Mobility',
+  domain: 'Logistics & Mobility',
   date: '2026-08-30',
   dateLabel: '30 Aug 2026',
   status: 'live',
@@ -2520,7 +2520,7 @@ export const signals: SignalMeta[] = [{
   slug: 'pars-defence-powerus-guardian-counter-drone-manufacturing-india',
   no: 'S-078',
   title: 'U.S. counter-drone Guardian interceptor enters India’s manufacturing chain through Paras Defence',
-  domain: 'Defence Technology & Industrial Base',
+  domain: 'Defence & Dual-Use',
   date: '2026-08-31',
   dateLabel: '31 Aug 2026',
   status: 'live',
@@ -2557,7 +2557,7 @@ export const signals: SignalMeta[] = [{
   slug: 'india-eighth-tranche-critical-strategic-mineral-blocks-auction-2026',
   no: 'S-079',
   title: 'India’s critical-minerals pipeline reaches 88 blocks, with 56 already auctioned',
-  domain: 'Critical Minerals',
+  domain: 'Critical Minerals & Materials',
   date: '2026-09-01',
   dateLabel: '1 Sep 2026',
   status: 'live',
@@ -2589,12 +2589,12 @@ export const signals: SignalMeta[] = [{
   items: ['The names, geological grades and exploration stages of the 20 blocks, and whether high-value rare-earth or technology-metal occurrences progress beyond reconnaissance.', 'Auction winners, work-programme commitments and the speed at which Composite Licence holders move from exploration to a mining lease.', 'Domestic processing and separation projects for rare earths, gallium, tungsten, graphite and vanadium, including credible offtake agreements.', 'Whether the ₹1,500 crore critical-mineral recycling incentive and primary-mining pipeline are integrated into a resilient domestic supply chain.']
 }],
   takeaways: ['India’s eighth critical-mineral auction tranche offers 20 new blocks across nine states, with five in Chhattisgarh.', '56 of 88 blocks offered so far have been auctioned, showing pipeline momentum rather than one-off progress.', 'The basket targets gallium, rare earths, tungsten, graphite and vanadium — inputs for semiconductors, batteries and defence.', 'Success depends on midstream processing capacity, not just mining leases.'],
-  sources: ['{"title":"Five mineral blocks from Chhattisgarh included in the 8th Tranche of Critical & Strategic Mineral Blocks","publisher":"Ministry of Mines, Press Information Bureau","date":"2026-08-31","url":"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2305246","context":"Primary source for the 20-block tranche, its mineral basket, the five Chhattisgarh blocks, the 56-of-88 auction figure and the exploration-reimbursement and auction framework."}', '{"title":"India has made continuous efforts to become self-reliant in critical minerals, says MoS Satish Chandra Dubey","publisher":"ETEnergyWorld / The Economic Times","date":"2026-08-31","url":"https://energy.economictimes.indiatimes.com/amp/news/coal/india-has-made-continuous-efforts-to-become-self-reliant-in-critical-minerals-says-mos-satish-chandra-dubey/133642772","context":"Independent trade-publication account of the Raipur roadshow and the wider National Critical Mineral Mission, including its ₹16,300 crore public expenditure proposal and ₹1,500 crore recycling incentive."}', '{"title":"India has made continuous efforts to become self-reliant in critical minerals, says MoS Satish Chandra Dubey","publisher":"ANI","date":"2026-08-31","url":"https://www.aninews.in/news/business/india-has-made-continuous-efforts-to-become-self-reliant-in-critical-minerals-says-mos-satish-chandra-dubey20260831094906","context":"Independent wire-service corroboration of the ministerial roadshow and the mission’s mining, recycling and supply-chain rationale."}']
+  sources: ['Five mineral blocks from Chhattisgarh included in the 8th Tranche of Critical & Strategic Mineral Blocks', 'India has made continuous efforts to become self-reliant in critical minerals, says MoS Satish Chandra Dubey', 'India has made continuous efforts to become self-reliant in critical minerals, says MoS Satish Chandra Dubey']
 }, {
   slug: 'india-defence-psus-surge-capacity-indigenisation-roadmap-2026',
   no: 'S-080',
   title: 'India’s 16 defence PSUs are being pushed from production houses into surge-capacity platforms',
-  domain: 'Defence',
+  domain: 'Defence & Dual-Use',
   date: '2026-09-02',
   dateLabel: '2 Sep 2026',
   status: 'live',
@@ -2626,14 +2626,14 @@ export const signals: SignalMeta[] = [{
   items: ['Whether each DPSU publishes measurable milestones for imported-content reduction, delivery-time improvement, local sourcing and export growth.', 'Conversion rates from R&D spending to protected IP, tested prototypes, production orders and fielded systems.', 'New procurement or partnership pathways for startups and MSMEs in critical spares, repair, electronics, materials and digital engineering.', 'Whether the five-year DPSU and HAL roadmaps are tied to funded programmes, qualification schedules and accountable delivery dates.', 'Evidence that production and repair capacity can scale during a prolonged operational demand surge rather than only during normal procurement cycles.']
 }],
   takeaways: ['India’s 16 Defence PSUs contributed roughly 72% of the reported ₹1.8 lakh crore defence production in FY2025–26.', 'The Defence Minister has directed DPSUs to focus on delivery timelines, import reduction, R&D conversion, startup support and global quality standards.', 'Seven DPSUs paid ₹3,951 crore in dividends for 2025–26.', 'The strategic test is whether DPSU scale can be turned into shorter lead times, higher domestic content, exports and technology leadership.'],
-  sources: ['{"title":"Shri Rajnath Singh urges DPSUs to focus on timely delivery, self-reliance and global-standard quality","publisher":"Press Information Bureau, Ministry of Defence","date":"2026-09-01","url":"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2305615&v=9&reg=48&lang=2","context":"Primary government source for the review of 16 DPSUs, national-security rationale, production figures, roadmaps and dividend presentation."}', '{"title":"Focus on quality, R&D, timely delivery, exports: Defence Minister outlines roadmap for 16 DPSUs","publisher":"The Hindu BusinessLine","date":"2026-09-01","url":"https://www.thehindubusinessline.com/news/focus-on-quality-rd-timely-delivery-exports-defence-minister-outlines-roadmap-for-16-dpsus/article71415801.ece","context":"Independent corroboration of the minister’s execution, R&D, supply-chain and surge-capacity priorities and the FY2025–26 production split."}', '{"title":"Rajnath Singh reviews performance of 16 DPSUs, calls for timely delivery, self-reliance and global-standard quality","publisher":"The Statesman","date":"2026-09-01","url":"https://www.thestatesman.com/india/rajnath-singh-reviews-performance-of-16-dpsus-calls-for-timely-delivery-self-reliance-and-global-standard-quality-1503633742.html","context":"Independent corroboration of the review, the ₹1.8 lakh crore and ₹1.29 lakh crore figures, the ₹3,951 crore dividend and four roadmap publications."}']
+  sources: ['Shri Rajnath Singh urges DPSUs to focus on timely delivery, self-reliance and global-standard quality', 'Focus on quality, R&D, timely delivery, exports: Defence Minister outlines roadmap for 16 DPSUs', 'Rajnath Singh reviews performance of 16 DPSUs, calls for timely delivery, self-reliance and global-standard quality']
 }, {
   slug: 'adra-joychandipahar-sanka-bypass-eastern-freight-corridor',
   no: 'S-081',
-  title: 'An ₹272 crore rail bypass targets the eastern corridor’s mineral-freight bottleneck',
+  title: 'A ₹272 crore rail bypass targets the eastern corridor\'s mineral-freight bottleneck',
   domain: 'Industrial Corridors',
   date: '2026-09-03',
-  dateLabel: '3 Sept 2026',
+  dateLabel: '3 Sep 2026',
   status: 'live',
   excerpt: 'India’s industrial corridors are often constrained less by the absence of factories than by the last operational bottleneck between mine, plant and market. Indian Railways has approved an 11-km bypass in eastern India to separate freight paths and unlock additional capacity for steel, coal and mineral movement.',
   readingTime: '3 min',
@@ -2662,15 +2662,15 @@ export const signals: SignalMeta[] = [{
   type: 'list',
   items: ['Tendering, construction start and commissioning milestones for the 11-km bypass.', 'Whether path segregation actually reduces freight detentions and improves average speeds on the Adra–Joychandipahar section.', 'Growth in booked freight rakes and realised tonnage from steel, coal, cement and mineral customers after completion.', 'Integration with the upcoming third line and wider Energy, Mineral and Cement Corridor capacity plan.']
 }],
-  takeaways: [],
-  sources: ['{"title":"Indian Railways Sanctions ₹272 Crore Bypass Line to Boost Freight Capacity in Eastern Corridor","publisher":"Maritime Gateway","date":"2026-09-02","url":"https://www.maritimegateway.com/indian-railways-sanctions-%E2%82%B9272-crore-bypass-line-to-boost-freight-capacity-in-eastern-corridor/","context":"Reports the project cost, 11-km alignment, freight demand, utilisation and Energy, Mineral and Cement Corridor context."}', '{"title":"Indian Railways clears Rs. 272 crore Adra-Joychandipahar bypass line","publisher":"RailAnalysis","date":"2026-09-02","url":"https://railanalysis.in/rail-news/indian-railways-clears-rs-272-crore-adra-joychandipahar-bypass-line-to-strengthen-freight-capacity-on-south-eastern-railway/","context":"Independent rail-sector corroboration of the alignment, capacity, industrial freight rationale and reported source attribution to PIB."}', '{"title":"Indian Railways approves three projects to strengthen safety and freight movement","publisher":"Press Information Bureau","date":"2026-09-01","url":"https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2305351","context":"Reported primary government release identified through PIB’s archive/search result; the English page extraction was incomplete in this run."}']
+  takeaways: ['Indian Railways has sanctioned the 11-km Adra–Joychandipahar–Sanka bypass on South Eastern Railway at an estimated ₹272 crore.', 'The bypass is designed to support roughly 6.065 additional freight rakes per day and about 8.88 million tonnes per annum of extra freight potential.', 'It targets a section running at about 71% utilisation, adding path segregation and a bi-directional link to an upcoming third line.', 'The line is part of the Energy, Mineral and Cement Corridor, aimed at steel, coal and mineral traffic including SAIL and BCCL.'],
+  sources: ['Indian Railways Sanctions ₹272 Crore Bypass Line to Boost Freight Capacity in Eastern Corridor', 'Indian Railways clears Rs. 272 crore Adra-Joychandipahar bypass line', 'Indian Railways approves Rs 272 crore Adra-Joychandipahar bypass line to boost freight capacity']
 }, {
   slug: 'apollyon-ahuti-mk2-498-kmph-indigenous-drone-interceptor',
   no: 'S-082',
   title: 'A Hyderabad start-up’s 498 km/h interceptor points to a faster counter-drone layer',
-  domain: 'Defence Technology',
+  domain: 'Defence & Dual-Use',
   date: '2026-09-03',
-  dateLabel: '3 Sept 2026',
+  dateLabel: '3 Sep 2026',
   status: 'live',
   excerpt: 'The counter-drone problem is becoming a race against time: low-cost loitering munitions can compress the defender’s reaction window to seconds. Hyderabad-based Apollyon Dynamics says its Ahuti Mk II electric multirotor interceptor has reached a certified 498 km/h, signalling an indigenous attempt to build speed into the physical defeat layer.',
   readingTime: '3 min',
@@ -2699,8 +2699,48 @@ export const signals: SignalMeta[] = [{
   type: 'list',
   items: ['Independent details of the certification and repeatability of the 498 km/h performance claim.', 'Live intercept trials against representative small drones and loitering-munition profiles.', 'Guidance, autonomy, sensor and command-link integration with existing Indian counter-UAS systems.', 'Formal Army evaluations, procurement pathways, production capacity and cost per engagement.', 'Endurance and operating envelope: a fast interceptor must still locate, close with and defeat a manoeuvring target.']
 }],
-  takeaways: [],
-  sources: ['{"title":"Hyderabad Defence Startup Develops Record-Breaking Drone Interceptor at 498 kmph","publisher":"Deccan Chronicle","date":"2026-09-01","url":"https://www.deccanchronicle.com/southern-states/telangana/hyderabad-defence-startup-develops-record-breaking-drone-interceptor-at-498-kmph-1984123","context":"Reports the Ahuti Mk II’s role, 498 km/h certified speed, development history and company claims about Army fielding."}', '{"title":"BITS Pilani Hyderabad campus UAV enters India Book of Records","publisher":"Telangana Today","date":"2026-09-01","url":"https://telanganatoday.com/bits-pilani-hyderabad-campus-uav-enters-india-book-of-records","context":"Independent regional coverage corroborating the start-up, BITS incubation, reported record, 498 km/h speed and interceptor design intent."}']
+  takeaways: ['Hyderabad-based Apollyon Dynamics says its Ahuti Mk II electric multirotor interceptor reached a certified top speed of 498 km/h.', 'The India Book of Records recognised the aircraft for the maximum speed achieved by a multirotor UAV.', 'Rebuilt for the counter-UAS role against hostile drones and loitering munitions, the start-up is incubated at BITS Pilani\'s Hyderabad campus.', 'Claims of Army fielding remain company-attributed, with no confirmed induction or procurement contract; operational readiness is unproven.'],
+  sources: ['Hyderabad Defence Startup Develops Record-Breaking Drone Interceptor at 498 kmph', 'BITS Pilani Hyderabad campus UAV enters India Book of Records']
+}, {
+  slug: 'raksha-india-ten-year-defence-diplomacy-roadmap-2026',
+  no: 'S-083',
+  title: 'India’s new RAKSHA framework links defence diplomacy to exports and maritime security',
+  domain: 'Defence Diplomacy & Industrial Sovereignty',
+  date: '2026-09-04',
+  dateLabel: '',
+  status: 'live',
+  excerpt: 'India’s defence diplomacy is being recast as an industrial and security instrument, not only a channel for military-to-military engagement. The new RAKSHA framework sets a ten-year direction linking strategic partnerships and capacity building with indigenous defence exports and India’s role in the Indian Ocean Region.',
+  readingTime: '4 min read',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Defence Minister Rajnath Singh released the RAKSHA document on defence diplomacy in New Delhi on 3 September 2026. The framework presents a consolidated ten-year roadmap for India’s global defence partnerships, built around four pillars: strategic partnerships; capacity building through military exercises, training and institutional cooperation; indigenous defence manufacturing and exports; and maritime security. The Ministry of Defence positions the framework as a shift towards more proactive international cooperation and a stronger role for India as a Net Security Provider and First Responder in the Indian Ocean Region.',
+  type: 'p'
+}, {
+  text: 'RAKSHA is significant not because a strategy document creates export capability by itself, but because it defines defence diplomacy as a demand-generation system for Indian industry and a relationship-building system for the Indian Ocean.',
+  type: 'quote'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'The framework matters because it brings three previously separate policy objectives into one strategic proposition. India can use defence partnerships to build interoperability and influence, use capacity-building assistance to create durable relationships with partner countries, and use those relationships to open markets for indigenous platforms and systems. The New Indian Express reports that defence exports reached ₹38,424 crore in the last financial year, up 62.66 per cent from ₹23,622 crore, with India exporting equipment to more than 80 countries. If the export target is met, foreign demand could become an additional driver of domestic design, production, certification and sustainment capacity rather than defence manufacturing remaining dependent primarily on Indian procurement.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The strategic opportunity is to make the export proposition broader than platform sales. Training, maintenance, repair, spares, ammunition, upgrades, digital systems and maritime domain awareness can create longer-lived relationships than a single procurement contract. The framework also gives the Defence Production and External Affairs establishments a common direction: partner engagement should support both security outcomes and industrial capability. The risk is that export ambitions become a catalogue exercise without sufficient attention to financing, after-sales support, delivery reliability, technology control, quality assurance and the political durability of partner relationships.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'The document will become strategically meaningful only when its four pillars produce measurable actions. Watch for new defence export contracts and repeat orders, formal capacity-building packages, partner-country maintenance and training hubs, stronger maritime-security deployments, and explicit coordination between the Ministry of Defence, the armed forces, DPSUs and private manufacturers. The composition of the ₹38,424 crore export figure—platforms, components, ammunition, services and repair—will also show whether India is moving towards durable industrial relationships or mainly episodic sales.',
+  type: 'p'
+}],
+  takeaways: ['Defence Minister Rajnath Singh released RAKSHA, a consolidated ten-year framework for India’s defence diplomacy, on 3 September 2026.', 'The framework has four pillars: strategic partnerships, capacity building, indigenous manufacturing and exports, and maritime security.', 'India’s defence exports reportedly reached ₹38,424 crore in the last financial year, with a target of ₹50,000 crore annually by 2029.', 'The framework links international security relationships with market-building for Indian defence platforms, systems, services and sustainment.', 'Its success will depend on contracts, repeat orders, partner support infrastructure and maritime-security implementation—not the document alone.'],
+  sources: ['Primary source for the RAKSHA document, its four pillars and ten-year strategic purpose', 'Independent reporting on the roadmap, export figures, 80-plus-country reach and ₹50,000 crore 2029 target', 'Additional independent coverage of the RAKSHA defence-diplomacy roadmap']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
