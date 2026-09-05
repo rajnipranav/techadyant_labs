@@ -2705,12 +2705,12 @@ export const signals: SignalMeta[] = [{
   slug: 'raksha-india-ten-year-defence-diplomacy-roadmap-2026',
   no: 'S-083',
   title: 'India’s new RAKSHA framework links defence diplomacy to exports and maritime security',
-  domain: 'Defence Diplomacy & Industrial Sovereignty',
+  domain: 'Defence & Dual-Use',
   date: '2026-09-04',
   dateLabel: '4 Sep 2026',
   status: 'live',
   excerpt: 'India’s defence diplomacy is being recast as an industrial and security instrument, not only a channel for military-to-military engagement. The new RAKSHA framework sets a ten-year direction linking strategic partnerships and capacity building with indigenous defence exports and India’s role in the Indian Ocean Region.',
-  readingTime: '4 min read',
+  readingTime: '4 min',
   body: [{
   text: 'The development',
   type: 'h'
@@ -2741,6 +2741,43 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Defence Minister Rajnath Singh released RAKSHA, a consolidated ten-year framework for India’s defence diplomacy, on 3 September 2026.', 'The framework has four pillars: strategic partnerships, capacity building, indigenous manufacturing and exports, and maritime security.', 'India’s defence exports reportedly reached ₹38,424 crore in the last financial year, with a target of ₹50,000 crore annually by 2029.', 'The framework links international security relationships with market-building for Indian defence platforms, systems, services and sustainment.', 'Its success will depend on contracts, repeat orders, partner support infrastructure and maritime-security implementation—not the document alone.'],
   sources: ['Primary source for the RAKSHA document, its four pillars and ten-year strategic purpose', 'Independent reporting on the roadmap, export figures, 80-plus-country reach and ₹50,000 crore 2029 target', 'Additional independent coverage of the RAKSHA defence-diplomacy roadmap']
+}, {
+  slug: 'india-belgium-strategic-partnership-semiconductors-critical-minerals-defence-2026',
+  no: 'S-084',
+  title: 'India and Belgium widen a strategic-technology partnership across chips, minerals and defence',
+  domain: 'Strategic Partnerships & Industrial Sovereignty',
+  date: '2026-09-05',
+  dateLabel: '5 Sept 2026',
+  status: 'live',
+  excerpt: 'India’s technology-sovereignty partnerships are moving beyond the traditional supplier relationship. With Belgium, New Delhi has assembled a multi-sector agenda connecting semiconductor research, critical-mineral recycling, defence co-development, investment facilitation and port infrastructure in one bilateral framework.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'India and Belgium used Prime Minister Bart De Wever’s 2–4 September visit to widen bilateral cooperation across defence, semiconductors, critical minerals, artificial intelligence, space, renewable energy, maritime infrastructure and advanced manufacturing. The two governments announced a defence-ministry Letter of Intent covering regular exchanges, education and training, research cooperation and defence-industrial partnerships. They also agreed to deepen cooperation in the processing and recycling of critical minerals and to connect Belgium’s semiconductor research ecosystem, including imec, with Indian institutions and companies.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'The significance is not any single agreement but the combination of capabilities. Belgium brings a concentrated research, advanced-manufacturing, chemicals, logistics and port ecosystem; India brings scale, engineering talent, a large industrial market and expanding semiconductor and defence programmes. Linking imec with India’s semiconductor ecosystem could help move cooperation towards process research, materials, packaging and advanced technology rather than stopping at equipment purchase. Critical-mineral processing and recycling address the less visible midstream of supply security, while defence research and industrial cooperation can connect partnership diplomacy with domestic production and export ambitions.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The partnership is promising because it reaches into the layers that determine whether a strategic industry can scale. Semiconductor sovereignty requires materials, process engineering and research networks; mineral sovereignty requires refining, recycling and reliable industrial offtake; defence sovereignty requires technology, finance, certification, maintenance and export markets. Belgium’s value to India is therefore not simply as a market or diplomatic partner. It is as a node linking European research, advanced manufacturing, critical logistics and industrial finance to Indian scale. The caveat is implementation: a joint statement and Letter of Intent do not yet establish a funded project, production line or technology-transfer commitment.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'The next proof points are signed project-level agreements and named institutions. Watch for an imec–India work programme with defined research areas, critical-mineral recycling projects with capacity and feedstock details, defence co-development or co-production proposals, and formal SFPIM–NIIF investment arrangements. The proposed maritime cooperation should be assessed through training programmes, port-modernisation contracts and technology deployment. The partnership will be strategically meaningful if it produces repeatable industrial links rather than a long list of sector headings.',
+  type: 'p'
+}],
+  takeaways: ['India and Belgium have widened their strategic partnership across semiconductors, critical minerals, defence, AI, space, renewable energy and ports.', 'The two sides intend to connect Belgium’s imec semiconductor research ecosystem with Indian institutions and companies.', 'They agreed to enhance cooperation in critical-mineral processing and recycling, addressing a strategic midstream gap in supply security.', 'A defence-ministry Letter of Intent covers exchanges, training, research cooperation and defence-industrial partnerships.', 'The India–Belgium Investment Fast-Track Mechanism and possible SFPIM–NIIF cooperation could help convert the agenda into investable projects.', 'The principal risk is execution: the current package is a framework of commitments, not yet a portfolio of funded industrial projects.'],
+  sources: ['Primary joint statement covering the India–Belgium Strategic Dialogue, trade, technology, defence, minerals, investment and maritime cooperation', 'Official PM press-statement source for critical-mineral processing and recycling and semiconductor cooperation with Belgium’s imec ecosystem', 'Independent reporting on the Letter of Intent, imec connection, mineral processing and recycling, and bilateral agreements', 'Independent public-service coverage detailing defence, semiconductor, investment, mineral, port and maritime mechanisms']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
