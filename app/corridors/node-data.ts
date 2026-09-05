@@ -2,7 +2,8 @@
 // dark clickable map. Coordinates are in the shared INDIA_OUTLINE space (viewBox
 // "34 6 448 548") — same system as data.ts `pts`. Sourced from the DPIIT/NICDC
 // "Status of Industrial Corridor Projects" reports (31 Oct + 30 Nov 2025), the
-// NICDC node pages (nicdc.in), PIB and India Investment Grid. Project costs,
+// NICDIT Apex Monitoring Authority review (Aug 2026), the NICDC node pages
+// (nicdc.in), PIB and India Investment Grid. Project costs,
 // CCEA/EPC dates are official; investment-potential and jobs are NICDC projections.
 // Depth tiers (CORRIDOR-PAGE-STANDARD.md §3b): operational/construction = full file;
 // approved/planned = light.
@@ -41,6 +42,8 @@ export interface CorridorDeep {
 }
 
 const DPIIT = { label: 'DPIIT/NICDC status report, 30 Nov 2025', url: 'https://www.dpiit.gov.in/static/uploads/2025/12/1647e68e9f6e646136f0dc92dcbc4a80.pdf' };
+const APEX = { label: 'PIB — NICDIT Apex Monitoring Authority, 3rd meeting (Aug 2026)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300658' };
+const FUNDS = { label: 'PIB — 20 nodes approved, ₹16,172.95 cr sanctioned under NICDP', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294231&reg=3&lang=1' };
 const NICDC = (path: string, label: string) => ({ label, url: `https://nicdc.in/projects/12-new-projects/${path}` });
 const noTenants = (extra: string): { heading: string; body: string[] } => ({
   heading: 'Anchor tenants & demand signals',
@@ -53,7 +56,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
     intro: [
       'The Amritsar–Kolkata Industrial Corridor (AKIC) is the longest of India’s national industrial corridors at 1,839 km, threading seven states from Punjab to West Bengal along the Eastern Dedicated Freight Corridor (EDFC), the Ludhiana–Dankuni rail-freight spine. NICDC develops it under the NICDIT framework, with a 50:50 Centre–State SPV for each Integrated Manufacturing Cluster (IMC).',
       'The design rule is consistent: each IMC reserves at least 40% of its land for manufacturing and agro-processing, anchored to an EDFC station so finished goods can move to ports at rail-freight economics. The corridor’s influence band runs roughly 150–200 km on either side of the freight line.',
-      'The headline shift came on 28 August 2024, when the Cabinet Committee on Economic Affairs approved six AKIC nodes in one stroke. A year and a half on the picture is no longer “all planned”: by early 2026 EPC contractors had been appointed at several nodes (Prayagraj’s award came first, in October 2025; Rajpura–Patiala and Khurpia followed), Hisar is in master planning, Gaya’s EPC tender is out with land acquired, Jharkhand is relocating after losing its original site, and Raghunathpur — a state-led West Bengal township — is on hold. No anchor tenants are public anywhere yet, which is correct for greenfield sites at this stage.',
+      'The headline shift came on 28 August 2024, when the Cabinet Committee on Economic Affairs approved six AKIC nodes in one stroke. Two years on the picture is no longer “all planned”: EPC contractors have been appointed at several nodes (Prayagraj’s award came first, in October 2025; Rajpura–Patiala and Khurpia followed), Hisar has moved from master planning into EPC procurement — a ₹707 cr Phase-I trunk tender floated in June 2026 with the pre-bid on 8 June and all 2,988 acres already transferred encumbrance-free — Gaya’s EPC tender is out with land acquired, Jharkhand is relocating after losing its original site, and Raghunathpur — a state-led West Bengal township — is on hold. No anchor tenants are public anywhere yet, which is correct for greenfield sites at this stage.',
     ],
     facts: [
       { k: 'Length', v: '1,839 km' },
@@ -121,14 +124,14 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         ],
       },
       {
-        slug: 'hisar', name: 'Hisar IMC', state: 'Haryana', stage: 'approved',
-        statusLabel: 'SPV formed; aviation-hub IMC in master planning', coords: [149, 191],
+        slug: 'hisar', name: 'Hisar IMC', state: 'Haryana', stage: 'construction',
+        statusLabel: '₹707 cr Phase-I EPC tender floated; land transferred, EPC procurement under way', coords: [149, 191],
         areaAc: 2988, projectCostCr: 4680, investmentCr: 32417, jobs: 125000,
         sectors: 'Aerospace & defence (MRO), engineering & fabrication, food processing, readymade garments',
         nearest: 'Maharaja Agrasen International Airport (adjacent); Hisar Junction ~4.3 km; New Rewari EDFC ~156 km; Delhi airport ~180 km',
         developer: 'NICDC Haryana Integrated Manufacturing Cluster Hisar Project Limited (NICDC–Haryana via HADC; SPV incorporated 25 September 2025; SSA/SHA 20 August 2025)',
         companies: [
-          { name: 'No allotted tenants', sector: '—', commitment: 'Pre-allotment — zero private allottees or MoUs verified; project in master planning, EPC tender not yet floated as of June 2026 [V]' },
+          { name: 'No allotted tenants', sector: '—', commitment: 'Pre-allotment — zero private allottees or MoUs verified; ₹707 cr Phase-I trunk EPC tender floated (pre-bid 8 June 2026), PMC LoA issued (Assystem India), land transferred to the SPV [V]' },
           { name: 'US Trade and Development Agency (USTDA)', sector: 'Aviation-hub technical assistance (government-to-government)', commitment: '~₹10.53 cr grant — MoU with HADC signed 10 December 2024 to attract investors and package projects; not a private land allotment [V]' },
           { name: 'Jindal Stainless / O.P. Jindal Group', sector: 'Adjacent legacy base — stainless & carbon steel', commitment: 'Among India’s largest stainless-steel makers, founded the Hisar industrial base; feeder for the engineering & fabrication sector, not an IMC allottee [V1]' },
         ],
@@ -143,7 +146,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         summary: [
           'Hisar is the largest AKIC node by area (2,988 acres) and carries the corridor’s biggest headline numbers — ₹4,680 cr development cost, ₹32,417 cr investment potential and 1,25,000 jobs — but it is also a late starter. The State Support and Shareholder Agreements were signed only on 20 August 2025 and the SPV, NICDC Haryana Integrated Manufacturing Cluster Hisar Project Limited, was incorporated on 25 September 2025.',
           'Its distinguishing feature is the aviation thesis: the IMC is conceived as an Integrated Aviation Hub wrapped around the new Maharaja Agrasen International Airport, with planned MRO, an in-IMC freight station and aerospace & defence as the lead focus sector — a higher-value, more capital-intensive mix than the other nodes.',
-          'As of June 2026 the project remains in master planning with the EPC tender not yet floated, and the only signed agreement of any kind is a government-to-government technical-assistance MoU with the US Trade and Development Agency. No private allottees exist. The Jindal steel cluster and a regional textile base sit nearby as feeders.',
+          'Execution has materially advanced since mid-2026: a ₹707 crore Phase-I trunk-infrastructure EPC tender is out (pre-bid 8 June 2026, nine bidders), the Programme Management Consultant LoA went to Assystem India in early June, canal-diversion works are awarded and an NHAI double-loop interchange at Dhandur is progressing — all on land already transferred encumbrance-free. No private allottees exist yet; the Jindal steel cluster and a regional textile base sit nearby as feeders.',
         ],
         sections: [
           { heading: 'The aviation-hub thesis', body: [
@@ -151,7 +154,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
             'In December 2024 the Haryana Airport Development Corporation signed an MoU with the US Trade and Development Agency for technical assistance — a ~₹10.53 cr grant to help package projects and attract financiers. This is a facilitation agreement, not a land allotment; no private investor has been named.',
           ] },
           { heading: 'Status and the late start', body: [
-            'The project was listed in August 2021 with development activities “not initiated”. It moved only in 2025: SSA and SHA signed on 20 August, SPV incorporated 25 September (authorised and paid-up capital ₹5 cr each), with a board chaired by NICDC and Haryana civil-aviation nominees. A consultant is appointed and the detailed master plan and design report are in progress; environmental clearance, EPC and land transfer to the SPV are not yet confirmed in sources. The June 2026 Tribune report explicitly notes the EPC tender — the start of physical work — had not been floated.',
+            'The project was listed in August 2021 with development activities “not initiated”. It moved in 2025: SSA and SHA signed on 20 August, SPV incorporated 25 September (authorised and paid-up capital ₹5 cr each), with a board chaired by NICDC and Haryana civil-aviation nominees. Through mid-2026 it moved from planning into procurement: the ₹707 cr Phase-I trunk EPC tender was floated with a pre-bid on 8 June 2026 drawing nine bidders, the PMC LoA went to Assystem India, ~2,988 acres stand transferred encumbrance-free, and the master-plan notification was targeted for end-August 2026. Physical execution, not land, is now the stage to watch.',
           ] },
           { heading: 'Risks & open questions', body: [
             'Hisar trails Rajpura–Patiala by roughly three years and depends on a parallel airport build that is still “under development”. The land-use table accounts for only ~54% of the 2,988 acres, with the remainder unexplained. EDFC stations are 156–208 km away (an in-IMC freight station is targeted only by ~2032). Water (semi-arid region) and power terms are unquantified, and no anchor tenants exist. Historic interest — 2017 airport EOIs (GMR, GVK, L&T and others) and a 2018 SpiceJet MRO MoU — is dated and not current pipeline.',
@@ -163,7 +166,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Dec 2024', label: 'HADC–USTDA aviation-hub technical-assistance MoU (~₹10.53 cr)' },
           { date: 'Aug 2025', label: 'SSA & SHA signed (20 August)' },
           { date: 'Sep 2025', label: 'SPV incorporated (25 September)' },
-          { date: 'Jun 2026', label: 'In master planning; EPC tender not yet floated' },
+          { date: 'Jun 2026', label: '₹707 cr Phase-I trunk EPC tender floated; pre-bid 8 June (nine bidders); PMC LoA to Assystem India' },
+          { date: 'Aug 2026', label: 'Master-plan notification targeted end-August; land transferred encumbrance-free' },
         ],
         sources: [
           { label: 'NICDC — IMC Hisar, Haryana', url: 'https://nicdc.in/projects/12-new-projects/imc-hisar-haryana' },
@@ -171,6 +175,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { label: 'The Company Check — Hisar IMC SPV (MCA)', url: 'https://www.thecompanycheck.com/company/nicdc-haryana-integrated-manufacturing-cluster-hisar-project-limited/U43290HR2025SGC136867' },
           { label: 'NICDC — RFP for master plan', url: 'https://www.nicdc.in/phocadownload/142tenfile_FinalRFP.pdf' },
           { label: 'The Tribune — USTDA–HADC pact for Hisar aviation hub', url: 'https://www.tribuneindia.com/news/haryana/haryana-airport-corporation-signs-pact-with-us-trade-agency/amp/' },
+          { label: 'The Tribune — ₹707-crore EPC tender issued for trunk infrastructure (Jun 2026)', url: 'https://www.tribuneindia.com/news/haryana/major-push-for-hisar-imc-rs-707-crore-epc-tender-issued-for-trunk-infrastructure/' },
+          { label: 'NICDC — Tenders (IMC Hisar EPC; PMC appointments)', url: 'https://nicdc.in/tenders' },
         ],
       },
       {
@@ -498,15 +504,16 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       { date: 'Mar–May 2025', label: 'Environmental clearances (Prayagraj, Gaya, Rajpura)' },
       { date: 'Sep 2025', label: 'Rajpura EPC tender (Voyants PMC); Hisar SPV incorporated' },
       { date: 'Oct 2025', label: 'Gaya + Khurpia EPC tenders; Prayagraj EPC LoA (27 Oct)' },
+      { date: 'Jun 2026', label: 'Hisar ₹707 cr Phase-I trunk EPC tender floated; PMC LoA to Assystem India' },
     ],
-    sources: [DPIIT, { label: 'DPIIT/NICDC status report, 31 Oct 2025', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }, { label: 'NICDC AKIC projects', url: 'https://nicdc.in' }],
+    sources: [DPIIT, { label: 'DPIIT/NICDC status report, 31 Oct 2025', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }, { label: 'The Tribune — Hisar ₹707 cr EPC tender issued (Jun 2026)', url: 'https://www.tribuneindia.com/news/haryana/major-push-for-hisar-imc-rs-707-crore-epc-tender-issued-for-trunk-infrastructure/' }, { label: 'NICDC AKIC projects', url: 'https://nicdc.in' }],
   },
   'delhi-mumbai': {
     slug: 'delhi-mumbai',
     intro: [
       'The Delhi–Mumbai Industrial Corridor (DMIC) is the programme’s flagship and by far its most advanced — the first corridor sanctioned, the model the others copy. It runs ~1,504 km along the Western Dedicated Freight Corridor (Dadri to Jawaharlal Nehru Port), and NICDC (formerly DMICDC) develops it with Japan as a 26% equity partner via JBIC, against a programme-scale figure of ~US$90 billion.',
       'Four of its nine sub-nodes are genuinely operational — dedicated to the nation by the Prime Minister, with plots allotted and units producing. Two are the corridor’s marquee bets: Dholera, now positioned as India’s first semiconductor city around Tata Electronics’ ₹91,000-crore fab; and AURIC near Aurangabad, India’s first greenfield smart industrial city, anchoring a fast-filling EV-and-auto cluster (Toyota, JSW, Ather, Hyosung).',
-      'The rest of the corridor is logistics hubs under construction (Dadri, Nangal Chaudhary) and CCEA-approved industrial areas still tendering trunk-infrastructure contracts (Dighi Port, Jodhpur–Pali–Marwar, Khushkhera–Bhiwadi–Neemrana). Unlike the younger corridors, DMIC already has deep, named, large-ticket tenants — so its operational nodes carry real company files, not just projections.',
+      'The rest of the corridor splits between logistics hubs — Nangal Chaudhary’s Phase-I rail operations went live with the first freight train flagged off in August 2026 while Dadri’s PPP concession is in evaluation — and CCEA-approved industrial areas still tendering trunk-infrastructure contracts (Dighi Port, Jodhpur–Pali–Marwar, Khushkhera–Bhiwadi–Neemrana). Unlike the younger corridors, DMIC already has deep, named, large-ticket tenants — so its operational nodes carry real company files, not just projections.',
     ],
     facts: [
       { k: 'Length', v: '~1,504 km' },
@@ -601,6 +608,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           'Phase 1 Shendra ~2,073 ac (8.39 sq km) almost fully allotted; Phase 2 Bidkin ~7,857 ac (31.79 sq km) selling fast.',
           'Plug-and-play trunk infrastructure to the plot boundary; published utility rates (treated water ₹20/KL, recycled ₹10/KL); land base ~₹1.42 cr/acre.',
           '₹400 cr independent Bidkin water scheme drawing from Jayakwadi Dam approved Mar 2025 (~3-yr build), resolving the node’s main infrastructure risk; ~15 km from Chhatrapati Sambhajinagar airport.',
+          'Mid-2026 expansion works: 520 acres of residential land converted to industrial use, and a PMNC tender for Bidkin Phase B & C (2,446.49 ha) published 20 July 2026 with the pre-bid on 27 July.',
         ],
         incentives: 'Maharashtra Industries, Investment & Services Policy 2025 — land at Re 1/acre for qualifying global giants, SGST refunds, capital subsidy / interest subvention, electricity-duty exemption and power-tariff support; MAITRI 2.0 AI-driven approvals. (Re-1 land applicability to AURIC not yet confirmed.)',
         summary: [
@@ -615,6 +623,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Mar 2025', label: '₹400 cr independent Bidkin water scheme approved' },
           { date: 'Aug 2025', label: 'PIB land-allotment round (Lonbest, Science for Society and others)' },
           { date: 'Dec 2025', label: 'Maharashtra 2025 industrial policy (Re-1/acre, SGST refunds)' },
+          { date: 'Jul 2026', label: 'PMNC tender for Bidkin Phase B & C (2,446.49 ha) published 20 July; 520 ac converted to industrial use' },
         ],
         sections: [
           { heading: 'The EV and auto cluster', body: [
@@ -635,6 +644,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { label: 'Times of India — Bidkin ₹400 cr water scheme', url: 'https://timesofindia.indiatimes.com/city/aurangabad/independent-water-supply-project-approved-at-400-crore-cost-for-bidkin-node-of-auric/articleshow/119874741.cms' },
           { label: 'Elets eGov — AURIC / Hyosung first mega investor', url: 'https://egov.eletsonline.com/2023/02/auric-maharashtras-golden-address/' },
           { label: 'Financial Express — CCEA approval (2015)', url: 'https://www.financialexpress.com/policy/economy-ccea-approves-development-of-shendra-bidkin-industrial-area-in-dmic-78198/' },
+          { label: 'NICDC — Tenders (Bidkin Phase B & C PMNC, Jul 2026)', url: 'https://nicdc.in/tenders' },
         ],
       },
       {
@@ -751,13 +761,13 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         ],
       },
       {
-        slug: 'nangal-chaudhary-imlh', name: 'IMLH Nangal Chaudhary', state: 'Haryana', stage: 'construction',
-        statusLabel: 'Phase I trunk-infra under development — logistics hub, no manufacturing tenants', coords: [152, 232],
+        slug: 'nangal-chaudhary-imlh', name: 'IMLH Nangal Chaudhary', state: 'Haryana', stage: 'operational',
+        statusLabel: 'Phase-I rail operations live — first freight train flagged off Aug 2026; PPP facilities tendering', coords: [152, 232],
         areaAc: 886, projectCostCr: 1029, investmentCr: 47480, jobs: 10000,
         sectors: 'Multi-modal logistics, EXIM, warehousing, freight consolidation, cold storage',
         nearest: 'Nizampur railway station ~1.6 km; New Dabla DFC station ~12 km; NH-11 ~12 km; Delhi airport ~140 km',
         developer: 'NICDC Haryana Multi Modal Logistic Hub Project Ltd (formerly DMIC Haryana MMLH), incorporated 2016; 50:50 NICDIT : HSIIDC; PPP concession model',
-        epc: 'Phase I trunk-infrastructure EPC under way (DPIIT Secretary review Apr 2026); PPP concessionaire not yet awarded',
+        epc: 'Phase-I trunk infrastructure largely complete (~408 of 886 ac); ~₹280 cr rail connectivity commissioned with the new rail yard; Transaction Advisor appointed for the PPP facilities (EXIM, warehousing, stacking)',
         companies: [
           { name: 'No manufacturing allottees', sector: 'Logistics hub (PPP model)', commitment: 'None disclosed — tenants will be logistics operators / warehouse / EXIM users once the PPP concession is awarded [U]' },
         ],
@@ -765,19 +775,21 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         infrastructure: [
           '886 ac freight village positioned as India’s largest logistics hub south of NCR, adjacent to the Western Dedicated Freight Corridor.',
           'Components: rail-connectivity zone, container stacking, warehousing, transport zone, EXIM zone and commercial areas; New Dabla DFC station ~12 km, Nizampur station ~1.6 km, NH-11 ~12 km.',
+          'Phase-I (~408 of the 886 ac) infrastructure is largely complete, and the new rail yard — built on ~₹280 cr of rail connectivity — was commissioned with the first freight train in August 2026, targeting ~2 million containers/year once fully operational.',
           'AIIB has proposed financing as part of DMIC; Phase I land cost was ~₹266 cr for the 886 ac (an acquisition cost, not an allotment price); Phase II to be reappraised by 2028.',
         ],
         incentives: 'Developed on PPP mode — concession terms for logistics operators will follow the concessionaire award; strategic WDFC adjacency and a single-point logistics offering are the principal draws. HSIIDC is the state nodal agency. Specific Haryana fiscal incentives for the node not detailed in the sources.',
         summary: [
           'IMLH Nangal Chaudhary is a logistics-first node — a freight village for rail-road transfer, warehousing, customs and EXIM cargo — not a manufacturing destination, so it is not expected to host named industrial tenants. Approved by CCEA in May 2018 (Phase I trunk cost ₹1,029.49 cr) on 886 ac in Mahendragarh district, it is positioned as India’s largest logistics hub south of NCR, adjacent to the Western Dedicated Freight Corridor.',
-          'As of April 2026 the project is in active Phase I trunk-infrastructure construction — the DPIIT Secretary reviewed external connectivity, internal rail and the proposed EXIM/warehousing/container facilities on 30 April 2026 — but it is well behind the original 2020-21 completion target.',
-          'No tenants or operators have been announced because the PPP concession has not yet been awarded; until the concessionaire is appointed the ~₹47,480 cr projected investment remains a potential, realised mostly once private operators build facilities. The catchment it will serve includes Manesar, Bawal, Dharuhera and East Rajasthan.',
+          'Phase-I trunk infrastructure — roughly 408 of the 886 acres — is now largely complete, and rail operations have begun: Haryana CM Nayab Singh Saini flagged off the first freight train from the new rail yard on 23 August 2026, commissioned on ~₹280 cr of rail connectivity and targeting ~2 million containers a year once fully operational. The DPIIT Secretary had reviewed external connectivity, internal rail and the EXIM/warehousing/container facilities on 30 April 2026.',
+          'Private participation is advancing on a separate track: PPP elements for the internal facilities (EXIM, warehousing, stacking) are being structured with a Transaction Advisor appointed, but the main concession has not yet been awarded — until operators are appointed the ~₹47,480 cr projected investment remains potential, realised mostly once private operators build facilities. The catchment it will serve includes Manesar, Bawal, Dharuhera and East Rajasthan.',
         ],
         timeline: [
           { date: '2016', label: 'SPV incorporated (then DMIC Haryana MMLH)' },
           { date: 'May 2018', label: 'CCEA approval (Phase I trunk cost ₹1,029.49 cr)' },
           { date: 'Dec 2024', label: 'PIB classes it under projects under development' },
           { date: 'Apr 2026', label: 'DPIIT Secretary reviews Phase I progress' },
+          { date: 'Aug 2026', label: 'First freight train flagged off from the new rail yard (23 August) — rail operations begin' },
           { date: '2028', label: 'Phase II reappraisal due' },
         ],
         sections: [
@@ -786,7 +798,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
             'Its strategic value is location: adjacent to the WDFC with the New Dabla DFC station ~12 km away, designed to serve the Manesar–Bawal–Dharuhera industrial belts and East Rajasthan, and to act as the logistics gateway for the IMC Hisar node ~189.5 km away.',
           ] },
           { heading: 'Status and the PPP question', body: [
-            'Phase I trunk-infrastructure EPC is under way and was reviewed by the DPIIT Secretary in April 2026, but completion has slipped far beyond the original 2020-21 target. The single biggest unknown is the PPP concession: no information is public on the bidding, selection or award, and the tenant/operator base cannot form until that concludes.',
+            'Phase-I trunk infrastructure is largely complete and the rail side is operational: the first freight train was flagged off from the new rail yard on 23 August 2026 — years behind the original 2020-21 target, but a real operational milestone for the corridor’s logistics layer. The remaining unknown is commercial: PPP structuring for the internal facilities has a Transaction Advisor appointed, but no concessionaire award is public, and the tenant/operator base forms only after that concludes.',
           ] },
           { heading: 'Risks & open questions', body: [
             'Timeline slippage is the headline risk, alongside competition for the same NCR freight traffic from the MMLH Dadri + MMTH Boraki hub in Greater Noida.',
@@ -799,6 +811,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { label: 'PIB — CCEA approval (PRID 1532272)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=1532272' },
           { label: 'PIB — 12 new industrial smart cities (PRID 2081537)', url: 'https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2081537' },
           { label: 'ANI — eight NICDIT projects (parliamentary, Feb 2023)', url: 'https://www.aninews.in/news/national/general-news/eight-projects-under-nicdit-sanctioned-and-approved-by-government20230209051445/' },
+          { label: 'ET Infra — CM Saini flags off first freight train from Nangal Chaudhary (Aug 2026)', url: 'https://infra.economictimes.indiatimes.com/news/railways/cm-saini-flags-off-first-freight-train-from-haryanas-nangal-chaudhary-logistics-hub/133454621' },
+          { label: 'India Shipping News — first goods train from Mahendragarh IMLH', url: 'https://indiashippingnews.com/logistics-hub/first-goods-train-flagged-off-from-mahendragarhs-new-rs-1300-crore-integrated-multi-modal-logistics-hub/' },
         ],
       },
       {
@@ -1021,8 +1035,9 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       { date: 'Mar 2024', label: 'Tata Electronics ₹91,000 cr Dholera fab approved' },
       { date: 'Sep 2024', label: 'AURIC Bidkin dedicated' },
       { date: '2025', label: 'EPC tenders for Dighi, JPMIA, Dadri, Nangal Chaudhary' },
+      { date: 'Aug 2026', label: 'First freight train flagged off from IMLH Nangal Chaudhary — Phase-I rail operations live' },
     ],
-    sources: [DPIIT, { label: 'NICDC — DMIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/delhi-mumbai-industrial-corridor-dmic' }, { label: 'Invest India — Blueprints of success', url: 'https://www.investindia.gov.in/blogs/blueprints-success' }],
+    sources: [DPIIT, APEX, FUNDS, { label: 'NICDC — DMIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/delhi-mumbai-industrial-corridor-dmic' }, { label: 'Invest India — Blueprints of success', url: 'https://www.investindia.gov.in/blogs/blueprints-success' }, { label: 'ET Infra — first freight train from IMLH Nangal Chaudhary (Aug 2026)', url: 'https://infra.economictimes.indiatimes.com/news/railways/cm-saini-flags-off-first-freight-train-from-haryanas-nangal-chaudhary-logistics-hub/133454621' }],
   },
   'vizag-chennai': {
     slug: 'vizag-chennai',
@@ -1585,7 +1600,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
     slug: 'odisha-economic',
     intro: [
       'The Odisha Economic Corridor (OEC) runs ~600 km along NH-16 — the northern stretch of the East Coast Industrial Corridor, linking to VCIC. ADB prepared the concept plan and NICDIT approved its inclusion in August 2020, with two priority node-zones identified: GBK (Gopalpur–Bhubaneswar–Kalinganagar) and PKDS (Paradip–Kendrapada–Dhamra–Subarnarekha), ~11,366 acres in all.',
-      'As of the DPIIT status report (31 Oct 2025), the NICDP nodes are on hold — land at both GBK and PKDS is not confirmed, and the state is studying alternative parcels. So while Odisha’s coast is one of India’s most industrialised, the corridor’s own nodes have not yet broken ground.',
+      'As of the DPIIT status report (31 Oct 2025), the NICDP nodes are on hold — land at both GBK and PKDS is not confirmed, and the state is studying alternative parcels. So while Odisha’s coast is one of India’s most industrialised, the corridor’s own nodes have not yet broken ground. Two watch items could change that: the CCEA-approved Rameshwar–Paradeep coastal highway (June 2026) hard-wires the PKDS coast, and Budget 2026–27 signalled an integrated East Coast Industrial Corridor with a major node at Durgapur — a potential broadening of the OEC/ECEC frame into West Bengal.',
       'The crucial distinction: the operating steel economy at Kalinganagar (Tata Steel, NINL, Jindal, VISA) is a separate state-led complex adjacent to the proposed GBK node, not the NICDP node itself. We show it as context, not as corridor delivery.',
     ],
     facts: [
@@ -1721,8 +1736,10 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       { date: 'Aug 2020', label: 'NICDIT approves OEC inclusion' },
       { date: '2023', label: 'Alternative (Ganjam salt-land) parcels under study' },
       { date: 'Oct 2025', label: 'DPIIT: development on hold, land unconfirmed' },
+      { date: 'Feb 2026', label: 'Budget 2026–27 signals an integrated East Coast Industrial Corridor with a Durgapur node' },
+      { date: 'Jun 2026', label: 'CCEA approves Rameshwar–Paradeep coastal highway (160.18 km, ₹8,300.79 cr)' },
     ],
-    sources: [{ label: 'NICDC — OEC executive summary', url: 'https://api.nicdc.in/upload/image/OECExecutiveSummaryReport.pdf' }, { label: 'DPIIT status report (31 Oct 2025)', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }],
+    sources: [{ label: 'NICDC — OEC executive summary', url: 'https://api.nicdc.in/upload/image/OECExecutiveSummaryReport.pdf' }, { label: 'DPIIT status report (31 Oct 2025)', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }, { label: 'PIB — CCEA approval, Rameshwar–Paradeep coastal highway (Jun 2026)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2268347&reg=3&lang=1' }],
   },
   'hyderabad-nagpur': {
     slug: 'hyderabad-nagpur',

@@ -1,7 +1,7 @@
 // Corridor intelligence layer: Readiness Score + enriched corridor & node data (all 11).
 // Readiness Score: 4 axes each 0–25 → 0–100. Maturity · Capital momentum · Connectivity · Opportunity openness.
 // Tiers: Build-now ≥65 · Position-early 40–64 · Watch <40. Scored consistently to allow cross-corridor ranking.
-// Sources: NICDC/DPIIT DMU monthly reports, ADB/JICA plans, PIB, India Investment Grid, state portals (2025).
+// Sources: NICDC/DPIIT DMU monthly reports (latest proforma 31 Jul 2026), ADB/JICA plans, PIB, the NICDIT Apex Monitoring Authority review (Aug 2026), India Investment Grid and state portals.
 
 export type Stage = 'operational' | 'construction' | 'planned';
 export interface IntelNode { name: string; area?: string; land?: string; sectors?: string; anchor?: string; stage: Stage; note?: string; }
@@ -18,9 +18,9 @@ export const intel: Record<string, CorridorIntel> = {
     "spv": "NICDC / DMICDC",
     "funding": "GoI + JBIC (Japan)",
     "dfc": "Western DFC",
-    "investment": "~US$90–100 bn programme",
-    "jobs": "~3 million (programme)",
-    "stageLabel": "Operational · plots being allotted",
+    "investment": "~US$90 bn programme · ₹16,173 cr released to NICDIT (NICDP-wide)",
+    "jobs": "~3 mn programme projection · 1.29 lakh jobs potential on allotted plots (NICDP-wide)",
+    "stageLabel": "Operational · 4 nodes at production stage; plots being allotted",
     "connectivity": [
       "Western Dedicated Freight Corridor",
       "JNPT / Mumbai port",
@@ -153,18 +153,18 @@ export const intel: Record<string, CorridorIntel> = {
     "spv": "NICDC + state SPVs",
     "funding": "GoI",
     "dfc": "Eastern DFC",
-    "stageLabel": "In build-out · land acquisition",
+    "stageLabel": "In build-out · EPC awards/tenders under way at five nodes",
     "connectivity": [
       "Eastern Dedicated Freight Corridor",
       "Kolkata / Haldia port",
       "Multiple state airports"
     ],
     "score": {
-      "maturity": 11,
-      "capital": 12,
+      "maturity": 13,
+      "capital": 13,
       "connectivity": 18,
       "opportunity": 18,
-      "total": 59,
+      "total": 62,
       "tier": "Position-early"
     },
     "nodes": [

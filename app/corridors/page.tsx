@@ -90,7 +90,7 @@ export default function CorridorsIndex() {
                 dossier — status, anchor nodes, programme, official sources and our research, in one place.
               </p>
               <p className="cmp-fresh">
-                Sources: DPIIT/NICDC status reports (31 Oct &amp; 30 Nov 2025), PIB, India Investment Grid · Updated 16 Aug 2026
+                Sources: DPIIT/NICDC status reports (31 Oct &amp; 30 Nov 2025), NICDIT Apex Monitoring Authority review (Aug 2026), PIB, India Investment Grid · Updated 5 Sep 2026
                 · <Link href="/corridors/methodology/">Score methodology</Link>
                 · <Link href="/data/corridor-nodes.csv">Download node dataset (CSV)</Link>
               </p>
@@ -107,6 +107,27 @@ export default function CorridorsIndex() {
           </div>
         </div>
       </header>
+
+      <section className="wrap">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker" style={{ color: '#C9A84C' }}>Programme at a glance</div>
+          </div>
+        </div>
+        <p style={{ color: 'var(--text-muted)', fontSize: '14px', maxWidth: '72ch', marginBottom: '6px' }}>
+          Programme-wide position as reported at the NICDIT Apex Monitoring Authority review (August 2026): 20 approved projects across 13 states, with four smart cities already at production stage — Dholera SIR, Shendra–Bidkin (AURIC), IIT Greater Noida and Vikram Udyogpuri.
+        </p>
+        <div className="corr-stats">
+          <div><span className="cs-n">20</span><span className="cs-l">Approved projects · 13 states</span></div>
+          <div><span className="cs-n">4</span><span className="cs-l">Production-stage smart cities</span></div>
+          <div><span className="cs-n">469</span><span className="cs-l">Plots allotted · ~5,348 acres</span></div>
+          <div><span className="cs-n">₹2.21 L cr</span><span className="cs-l">Investment potential on allotted plots</span></div>
+          <div><span className="cs-n">1.29 L</span><span className="cs-l">Jobs potential on allotted plots</span></div>
+          <div><span className="cs-n">134 / 95</span><span className="cs-l">Units in production / under construction</span></div>
+          <div><span className="cs-n">₹16,173 cr</span><span className="cs-l">Released to NICDIT · ₹14,570 cr on to SPVs</span></div>
+        </div>
+        <p className="chart-src">Source: PIB — NICDIT Apex Monitoring Authority review (Aug 2026) · Budget 2026–27 allocates a further ₹3,000 cr to NICDIT; NICDP-wide aggregates, shown alongside the corridor table below.</p>
+      </section>
 
       <section className="wrap">
         <div className="section-head-ed">
