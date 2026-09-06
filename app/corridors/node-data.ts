@@ -43,7 +43,10 @@ export interface CorridorDeep {
 
 const DPIIT = { label: 'DPIIT/NICDC status report, 30 Nov 2025', url: 'https://www.dpiit.gov.in/static/uploads/2025/12/1647e68e9f6e646136f0dc92dcbc4a80.pdf' };
 const APEX = { label: 'PIB — NICDIT Apex Monitoring Authority, 3rd meeting (Aug 2026)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300658' };
-const FUNDS = { label: 'PIB — 20 nodes approved, ₹16,172.95 cr sanctioned under NICDP', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294231&reg=3&lang=1' };
+const FUNDS = { label: 'PIB — Lok Sabha reply: 20 nodes, ₹16,172.95 cr sanctioned, ₹14,569.97 cr released to SPVs (4 Aug 2026)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294231&reg=3&lang=1' };
+const BHAVYA = { label: 'PIB — BHAVYA portal launched: 100 parks, ₹33,660 cr outlay (8 Jun 2026)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2270334' };
+const MITRA = { label: 'PIB — PM MITRA Park Warangal inaugurated: 1,327 ac, 62% allotted (10 May 2026)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259537' };
+const AURICVISIT = { label: 'PIB — NICDC cross-learning site visit to AURIC (23–24 Jul 2026)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2288498' };
 const NICDC = (path: string, label: string) => ({ label, url: `https://nicdc.in/projects/12-new-projects/${path}` });
 const noTenants = (extra: string): { heading: string; body: string[] } => ({
   heading: 'Anchor tenants & demand signals',
@@ -167,7 +170,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Aug 2025', label: 'SSA & SHA signed (20 August)' },
           { date: 'Sep 2025', label: 'SPV incorporated (25 September)' },
           { date: 'Jun 2026', label: '₹707 cr Phase-I trunk EPC tender floated; pre-bid 8 June (nine bidders); PMC LoA to Assystem India' },
-          { date: 'Aug 2026', label: 'Master-plan notification targeted end-August; land transferred encumbrance-free' },
+          { date: 'Aug 2026', label: 'Master-plan notification targeted end-August; land transferred encumbrance-free; PMNC onboarded per the 4 Aug Lok Sabha reply (initial ₹2.45 cr equity released)' },
         ],
         sources: [
           { label: 'NICDC — IMC Hisar, Haryana', url: 'https://nicdc.in/projects/12-new-projects/imc-hisar-haryana' },
@@ -177,6 +180,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { label: 'The Tribune — USTDA–HADC pact for Hisar aviation hub', url: 'https://www.tribuneindia.com/news/haryana/haryana-airport-corporation-signs-pact-with-us-trade-agency/amp/' },
           { label: 'The Tribune — ₹707-crore EPC tender issued for trunk infrastructure (Jun 2026)', url: 'https://www.tribuneindia.com/news/haryana/major-push-for-hisar-imc-rs-707-crore-epc-tender-issued-for-trunk-infrastructure/' },
           { label: 'NICDC — Tenders (IMC Hisar EPC; PMC appointments)', url: 'https://nicdc.in/tenders' },
+          FUNDS,
         ],
       },
       {
@@ -227,6 +231,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Aug 2024', label: 'CCEA approval (28 August)' },
           { date: 'Jul 2025', label: 'EPC tender issued for trunk infrastructure' },
           { date: 'Feb 2026', label: 'EPC contractor appointed; foundation stone not yet laid' },
+          { date: 'Aug 2026', label: 'NICDIT release reaches ₹405.46 cr (+₹198.37 cr since Nov 2025; 4 Aug 2026 Lok Sabha reply)' },
         ],
         sources: [
           { label: 'NICDC — IMC Khurpia, Uttarakhand', url: 'https://nicdc.in/projects/12-new-projects/imc-khurpia-uttarakhand' },
@@ -278,6 +283,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Nov 2024', label: 'SSA & SHA signed with UPSIDA (8 November)' },
           { date: 'Jan 2025', label: 'Shared SPV — IMC Agra Prayagraj Ltd — incorporated (30 January)' },
           { date: 'Mar 2026', label: 'Supreme Court disposes the original TTZ petition; new suo-motu cases registered' },
+          { date: 'Aug 2026', label: 'Still awaiting Supreme Court TTZ clearance per the 4 Aug Lok Sabha reply — the only one of the twelve Aug-2024 nodes without an EPC path; initial ₹2.50 cr equity released' },
         ],
         sources: [
           { label: 'NICDC — IMC Agra, Uttar Pradesh', url: 'https://nicdc.in/projects/12-new-projects/imc-agra-uttar-pradesh' },
@@ -294,7 +300,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         sectors: 'E-mobility, food processing, leather articles & apparel, readymade garments, cycle manufacturing, packaging',
         nearest: 'New Karchana EDFC ~7 km (best in the corridor); Naini ICD ~5 km; Prayagraj airport ~24 km; NH-30/NH-35',
         developer: 'Integrated Manufacturing Cluster Agra Prayagraj Limited (NICDC–UPSIDA JV — single SPV shared with Agra; incorporated 30 January 2025; SSA/SHA 7–8 November 2024)',
-        epc: 'EPC Letter of Award issued 27 October 2025 for internal trunk-infrastructure works; contractor name not disclosed',
+        epc: 'EPC Letter of Award issued 27 October 2025 for internal trunk-infrastructure works (contractor name not disclosed); NICDIT has released ₹323.09 cr to the shared Agra–Prayagraj SPV (newly reported, 4 Aug 2026 annexure)',
         companies: [
           { name: 'No allotted tenants', sector: '—', commitment: 'Pre-allotment — zero named IMC allottees or MoUs verified; node in the trunk-infrastructure phase post-LoA as of June 2026 [V]' },
           { name: 'Saraswati Hi-Tech City allottees (15 units)', sector: 'Adjacent legacy base — mixed industrial (Naini)', commitment: 'The IMC is carved within the ~1,140-acre Saraswati Hi-Tech City, which has ~15 industrial allottees (names not disclosed) and 52 vacant plots — legacy, not IMC allottees [V1]' },
@@ -381,6 +387,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Mar 2025', label: 'Environmental clearance (18 March), industrial-area notification & stamp-duty waiver' },
           { date: 'Mid-2025', label: 'Land acquisition confirmed complete; EPC tender expected' },
           { date: 'Dec 2025', label: 'Chief Secretary inspection — NH-22, helipad, power & water directives' },
+          { date: 'May 2026', label: 'Bihar cabinet approves a water-supply scheme for IMC Gaya (20 May; secondary-sourced — corroborate with state gazette)' },
+          { date: 'Aug 2026', label: 'NICDIT release reaches ₹134.72 cr (+₹2.50 cr since Nov 2025; 4 Aug 2026 Lok Sabha reply)' },
         ],
         sources: [
           { label: 'NICDC — IMC Gaya, Bihar', url: 'https://nicdc.in/projects/12-new-projects/imc-gaya-bihar' },
@@ -505,6 +513,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       { date: 'Sep 2025', label: 'Rajpura EPC tender (Voyants PMC); Hisar SPV incorporated' },
       { date: 'Oct 2025', label: 'Gaya + Khurpia EPC tenders; Prayagraj EPC LoA (27 Oct)' },
       { date: 'Jun 2026', label: 'Hisar ₹707 cr Phase-I trunk EPC tender floated; PMC LoA to Assystem India' },
+      { date: 'Jul 2026', label: 'Bihar cabinet approves a Gaya water-supply scheme (20 May, reported); NICDIT releases accelerate at Khurpia, Prayagraj, Gaya, Hisar and Agra (4 Aug reply)' },
+      { date: 'Aug 2026', label: '3rd Apex Monitoring Authority: 469 plots / ~5,348 ac allotted programme-wide, 134 units in production; four AKIC states represented (17 Aug)' },
     ],
     sources: [DPIIT, { label: 'DPIIT/NICDC status report, 31 Oct 2025', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }, { label: 'The Tribune — Hisar ₹707 cr EPC tender issued (Jun 2026)', url: 'https://www.tribuneindia.com/news/haryana/major-push-for-hisar-imc-rs-707-crore-epc-tender-issued-for-trunk-infrastructure/' }, { label: 'NICDC AKIC projects', url: 'https://nicdc.in' }],
   },
@@ -609,6 +619,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           'Plug-and-play trunk infrastructure to the plot boundary; published utility rates (treated water ₹20/KL, recycled ₹10/KL); land base ~₹1.42 cr/acre.',
           '₹400 cr independent Bidkin water scheme drawing from Jayakwadi Dam approved Mar 2025 (~3-yr build), resolving the node’s main infrastructure risk; ~15 km from Chhatrapati Sambhajinagar airport.',
           'Mid-2026 expansion works: 520 acres of residential land converted to industrial use, and a PMNC tender for Bidkin Phase B & C (2,446.49 ha) published 20 July 2026 with the pre-bid on 27 July.',
+          'Bidkin sell-through is now the programme’s deepest: 91 plots covering 2,570 acres allotted with only 278 acres of industrial land remaining (NICDC channels), and MITL opened a fresh industrial-plot allotment round on 24 August 2026, closing 4 September.',
         ],
         incentives: 'Maharashtra Industries, Investment & Services Policy 2025 — land at Re 1/acre for qualifying global giants, SGST refunds, capital subsidy / interest subvention, electricity-duty exemption and power-tariff support; MAITRI 2.0 AI-driven approvals. (Re-1 land applicability to AURIC not yet confirmed.)',
         summary: [
@@ -624,6 +635,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Aug 2025', label: 'PIB land-allotment round (Lonbest, Science for Society and others)' },
           { date: 'Dec 2025', label: 'Maharashtra 2025 industrial policy (Re-1/acre, SGST refunds)' },
           { date: 'Jul 2026', label: 'PMNC tender for Bidkin Phase B & C (2,446.49 ha) published 20 July; 520 ac converted to industrial use' },
+          { date: 'Jul 2026', label: 'NICDC–MITL cross-learning site visit at AURIC for corridor SPVs, PMNCs and EPC contractors (23–24 July); BHAVYA framework discussed' },
+          { date: 'Aug 2026', label: 'Fresh AURIC Bidkin allotment round opens 24 August (applications close 4 September); Bidkin cumulative allotment at 91 plots / 2,570 ac' },
         ],
         sections: [
           { heading: 'The EV and auto cluster', body: [
@@ -645,6 +658,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { label: 'Elets eGov — AURIC / Hyosung first mega investor', url: 'https://egov.eletsonline.com/2023/02/auric-maharashtras-golden-address/' },
           { label: 'Financial Express — CCEA approval (2015)', url: 'https://www.financialexpress.com/policy/economy-ccea-approves-development-of-shendra-bidkin-industrial-area-in-dmic-78198/' },
           { label: 'NICDC — Tenders (Bidkin Phase B & C PMNC, Jul 2026)', url: 'https://nicdc.in/tenders' },
+          { label: 'AURIC official portal — Bidkin allotment round (24 Aug – 4 Sep 2026)', url: 'https://auric.city' },
+          AURICVISIT,
         ],
       },
       {
@@ -679,6 +694,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Mar 2023', label: 'E-auction allotments (Haryana Gas City, Time Server Services)' },
           { date: 'Dec 2024', label: 'PIB classifies trunk infrastructure complete' },
           { date: 'Dec 2025 – Jan 2026', label: 'Industrial-plot allotment scheme (deadline 11 Jan 2026)' },
+          { date: 'Jun 2026', label: 'New industrial-plot scheme opens 25 June at ₹27,000 per sqm; follows Godrej Properties’ 23.2-ac land purchase (1 June)' },
         ],
         sections: [
           { heading: 'A brownfield township with completed infrastructure', body: [
@@ -767,7 +783,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         sectors: 'Multi-modal logistics, EXIM, warehousing, freight consolidation, cold storage',
         nearest: 'Nizampur railway station ~1.6 km; New Dabla DFC station ~12 km; NH-11 ~12 km; Delhi airport ~140 km',
         developer: 'NICDC Haryana Multi Modal Logistic Hub Project Ltd (formerly DMIC Haryana MMLH), incorporated 2016; 50:50 NICDIT : HSIIDC; PPP concession model',
-        epc: 'Phase-I trunk infrastructure largely complete (~408 of 886 ac); ~₹280 cr rail connectivity commissioned with the new rail yard; Transaction Advisor appointed for the PPP facilities (EXIM, warehousing, stacking)',
+        epc: 'Phase-I trunk infrastructure largely complete (~408 of 886 ac); ~₹280 cr rail connectivity commissioned with the new rail yard; locomotive trial run completed June 2026; NICDIT has released ₹211.63 cr equity + ₹212.15 cr debt to the SPV; Transaction Advisor appointed for the PPP facilities (EXIM, warehousing, stacking)',
         companies: [
           { name: 'No manufacturing allottees', sector: 'Logistics hub (PPP model)', commitment: 'None disclosed — tenants will be logistics operators / warehouse / EXIM users once the PPP concession is awarded [U]' },
         ],
@@ -789,6 +805,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'May 2018', label: 'CCEA approval (Phase I trunk cost ₹1,029.49 cr)' },
           { date: 'Dec 2024', label: 'PIB classes it under projects under development' },
           { date: 'Apr 2026', label: 'DPIIT Secretary reviews Phase I progress' },
+          { date: 'Jun 2026', label: 'Locomotive trial run completed — fitness of all internal tracks checked (4 Aug 2026 Lok Sabha reply); PPPAC-appraised Jul 2025, external connectivity complete' },
           { date: 'Aug 2026', label: 'First freight train flagged off from the new rail yard (23 August) — rail operations begin' },
           { date: '2028', label: 'Phase II reappraisal due' },
         ],
@@ -822,7 +839,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         sectors: 'Multi-modal logistics & transport, warehousing & distribution, cold chain, EXIM cargo, value-added services',
         nearest: 'Eastern Peripheral Expressway ~5 km; Noida–Greater Noida Expressway ~9 km; Delhi airport ~60 km; Jewar airport ~40 km',
         developer: 'DMIC Integrated Industrial Township Greater Noida Ltd (DMIC IITGNL); promoters NICDIT (GoI) + GNIDA (UP); shareholding not disclosed',
-        epc: 'PPP concessionaire tender bids closed 9 Feb 2026, evaluation ongoing (45-yr concession); internal rail-siding EPC under finalisation; external connectivity by state agencies',
+        epc: 'PPP concessionaire tender re-floated July 2026 on a DBFOT basis (reported ~₹5,881 cr) after the Nov 2025 RFP failed to conclude (45-yr concession); internal rail-siding EPC under finalisation; external connectivity by state agencies',
         companies: [
           { name: 'No anchor tenants', sector: 'Logistics & transport hub (PPP model)', commitment: 'None disclosed — project pre-concessionaire; tenants follow concession award [U]' },
           { name: 'Eight unnamed firms (adjacent IITGNL, ~5 km)', sector: 'Non-polluting industries', commitment: '~₹3,936 cr · 168 ac · ~12,000 jobs — allotted in the adjacent Integrated Industrial Township, not within MMLH/MMTH [V1]' },
@@ -844,6 +861,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Apr 2023', label: 'Environmental clearance granted (SEIAA UP)' },
           { date: '2025', label: 'Master Plan 2041 inclusion; MMTH alignment routes finalised' },
           { date: 'Feb 2026', label: 'PPP concessionaire bids closed (9 Feb), evaluation ongoing' },
+          { date: 'Jul 2026', label: 'Concessionaire tender re-floated on a DBFOT basis (reported ~₹5,881 cr) after the Nov 2025 RFP failed to conclude; MMTH Boraki holds Special Railway Project status (Dec 2024)' },
         ],
         sections: [
           { heading: 'A dry port at the DFC confluence', body: [
@@ -895,6 +913,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Sep 2024', label: 'RIPS incentive scheme approved by Rajasthan Cabinet' },
           { date: '2025', label: '₹922 cr Phase-A approved; 1,578 ac transferred to RIICO; ₹465 cr tenders issued' },
           { date: '~Mar 2026', label: 'NH-65 underpass nearing completion; Phase-B/C acquisition advancing' },
+          { date: 'Aug 2026', label: 'NICDIT release reaches ₹327.69 cr (+₹134.17 cr since Nov 2025); PMNC onboarded (4 Aug 2026 Lok Sabha reply)' },
           { date: '2042', label: 'Full build-out horizon (1,200+ target units)' },
         ],
         sections: [
@@ -977,7 +996,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         areaAc: 6056, projectCostCr: 5468, investmentCr: 38000, jobs: 114183,
         sectors: 'Port-linked manufacturing, engineering, pharmaceuticals, chemicals, textiles, food processing, logistics',
         nearest: 'NH-66 (Mumbai–Goa) ~10 km; Dighi Port 26–55 km; Konkan Railway; ~117 km from Mumbai; Navi Mumbai International Airport upcoming',
-        developer: 'Maharashtra Industrial Township Ltd (MITL, formerly AITL) — also the AURIC SPV; equity by NICDIT (GoI, ₹1,543 cr) + Govt of Maharashtra',
+        developer: 'Maharashtra Industrial Township Ltd (MITL, formerly AITL) — also the AURIC SPV; equity by NICDIT (GoI, ₹1,543 cr; ₹701.13 cr released by Aug 2026) + Govt of Maharashtra',
         epc: 'Phase-1 trunk-infrastructure EPC awarded to Ramky Infrastructure (₹1,401.84 cr, 930 days + 4-yr O&M) Mar 2026; trunk infra targeted within 3 years of Aug 2024; tender-process irregularity allegations pending',
         companies: [
           { name: 'Maha Integrated Life Sciences City (MILeS City), a Ramky Infrastructure subsidiary', sector: 'High-tech pharma / life-sciences park (1,000 ha)', commitment: '~₹3,000 cr — 95-year concession (incl. 5-yr construction) signed with MIDC, Mar 2026 [V]' },
@@ -1002,6 +1021,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Aug 2024', label: 'Union Cabinet approval (one of 12 nodes)' },
           { date: 'Oct 2025', label: 'APSEZ ₹42,500 cr Dighi Port-expansion MoU' },
           { date: 'Mar 2026', label: 'Ramky EPC contract (₹1,401.84 cr); MILeS City pharma-park concession' },
+          { date: 'Aug 2026', label: 'NICDIT release reaches ₹701.13 cr (+₹400.10 cr since Nov 2025); SHA/SSA executed and SPV incorporated (4 Aug 2026 Lok Sabha reply)' },
           { date: '~Aug 2027', label: 'Trunk-infrastructure completion target' },
         ],
         sections: [
@@ -1036,6 +1056,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       { date: 'Sep 2024', label: 'AURIC Bidkin dedicated' },
       { date: '2025', label: 'EPC tenders for Dighi, JPMIA, Dadri, Nangal Chaudhary' },
       { date: 'Aug 2026', label: 'First freight train flagged off from IMLH Nangal Chaudhary — Phase-I rail operations live' },
+      { date: 'Aug 2026', label: 'Apex Authority confirms the four DMIC smart cities “entered the production stage”; fresh Bidkin allotment round opens (24 Aug – 4 Sep)' },
     ],
     sources: [DPIIT, APEX, FUNDS, { label: 'NICDC — DMIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/delhi-mumbai-industrial-corridor-dmic' }, { label: 'Invest India — Blueprints of success', url: 'https://www.investindia.gov.in/blogs/blueprints-success' }, { label: 'ET Infra — first freight train from IMLH Nangal Chaudhary (Aug 2026)', url: 'https://infra.economictimes.indiatimes.com/news/railways/cm-saini-flags-off-first-freight-train-from-haryanas-nangal-chaudhary-logistics-hub/133454621' }],
   },
@@ -1113,6 +1134,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Sep 2025', label: 'TechnoDom India + Texana World inaugurated operational' },
           { date: 'Oct 2025', label: 'PM lays foundation stone for the Kopparthy node' },
           { date: 'Nov 2025', label: '₹5,000 cr Shirdi Sai Electricals / Indosol Solar MoU (CII Summit)' },
+          { date: 'Aug 2026', label: 'NICDIT release reaches ₹500.20 cr (+₹200.20 cr since Nov 2025; 4 Aug 2026 Lok Sabha reply)' },
         ],
         sources: [
           { label: 'New Indian Express — Kopparthi poised for giant leap (Sep 2025)', url: 'https://www.newindianexpress.com/states/andhra-pradesh/2025/Sep/03/kopparthi-poised-for-giant-leap-as-industrial-hub-3' },
@@ -1235,6 +1257,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'By 2019', label: 'Srikalahasti node master planning completed; Naidupeta works under execution' },
           { date: 'Nov 2025', label: 'Genius Filters ₹120 cr textile MoU (CII Summit)' },
           { date: 'May 2026', label: 'APIIC initiates private-developer selection for Kosalanagaram' },
+          { date: 'Aug 2026', label: 'AP government orders land acquisition for the VCIC Srikalahasti–Yerpedu node lands (20 August); VCIC Tranche-2 power-distribution augmentation tender awarded early August' },
         ],
         sources: [
           { label: 'AP Government — Industry, Employment & Skill Development', url: 'https://schooledu.ap.gov.in/DSENEW/JSP/9.%20Industry,%20Emp.%26%20skill%20Dev.pdf' },
@@ -1244,6 +1267,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { label: 'New Indian Express — textiles sector ₹43k cr at CII Summit', url: 'https://www.newindianexpress.com/states/andhra-pradesh/2025/Nov/20/textiles-sector-nets-rs-43k-crore-investments-at-cii-summit' },
           { label: 'APIIC — vacant plots, Gajulamandyam IP', url: 'https://kpi.apiic.in:8443/KPI/apiicfi/VacantPlots.jsp?param=vacz2&zn=TIRUPATI&pname1=IP,GAJULAMANDYAM' },
           { label: 'Apparel Views — AP textile investments at CII Summit', url: 'https://www.apparelviews.com/investments-flow-into-andhra-pradesh-textile-industry-at-cii-partnership-summit' },
+          { label: 'Govt of AP (GOIR) — land acquisition, VCIC Srikalahasti–Yerpedu node (20 Aug 2026)', url: 'https://goir.ap.gov.in/dgo.ashx?gid=450560&fileType=E' },
         ],
       },
       {
@@ -1374,6 +1398,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       { date: 'Dec 2021', label: 'Kopparthy Mega Industrial Hub + EMC inaugurated' },
       { date: '2023', label: 'ADB Tranche-2 (~US$141 m) sanctioned' },
       { date: 'Jan 2025', label: 'PM foundation stone — Nakkapalli Bulk Drug Park' },
+      { date: 'Aug 2026', label: 'Tranche-2 power-distribution tender awarded; Kopparthy equity reaches ₹500.20 cr (4 Aug reply)' },
+      { date: 'Aug 2026', label: 'AP land-acquisition GO for the Srikalahasti–Yerpedu node (20 Aug)' },
     ],
     sources: [
       { label: 'ADB — VCIC (48434-005)', url: 'https://www.adb.org/projects/48434-005/main' },
@@ -1405,7 +1431,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         sectors: 'Machine tools, precision manufacturing, electronics, auto components, food products, textiles & apparel, pharmaceuticals, engineering',
         nearest: 'NH-48 adjacent; Bengaluru ~120 km; Kempegowda airport ~115 km; Tumakuru railway station ~25 km; Mangaluru Port ~300 km',
         developer: 'CBIC Tumakuru Industrial Township Ltd (state SPV via KIADB) — 50:50 NICDIT : KIADB/GoK; SHA & SSA signed 30 Oct 2018; central grant ceiling ₹3,000 cr matching the state land contribution; six-director board (3 state, 3 NICDIT).',
-        epc: 'Phase 1 (1,736 ac) under construction toward end-2026; the 530-ac Tumakuru Machine Tool Park is already developed and occupied.',
+        epc: 'Phase 1 (1,736 ac) under construction toward end-2026 — 30% physical / 20% financial progress as of 17 Aug 2026; 6 plots / 250 ac allotted; the 530-ac Tumakuru Machine Tool Park is already developed and occupied.',
         companies: [
           { name: 'Tumakuru Machine Tool Park (TMTP)', sector: 'India’s first integrated machine-tool park — 530 ac, 158 ready-to-build plots', commitment: '₹508 cr development cost; ₹125 cr equity each from Centre (DHI) + Karnataka; technical partner IMTMA; 22 large-company plots (128 ac) taken [V]' },
           { name: 'Japan Industrial Township (existing)', sector: 'Japanese-firm enclave', commitment: '160 ac · fully occupied by 107 companies incl. Toyota — opposite TMTP [V]' },
@@ -1454,6 +1480,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Feb 2023', label: 'PM Modi lays the foundation stone for the node' },
           { date: 'Nov 2025', label: 'New 300-ac Japan Industrial Park announced' },
           { date: 'End 2026', label: 'Phase 1 (1,736 ac) completion targeted' },
+          { date: 'Aug 2026', label: '30% physical and 20% financial progress, with an 88,000-jobs-by-2027 target (Industries Minister M. B. Patil, 17 August); 6 industrial plots of 250 acres allotted per the 4 Aug Lok Sabha reply' },
         ],
         sources: [
           { label: 'Indian Express — Tumakuru industrial smart city', url: 'https://indianexpress.com/article/cities/bangalore/invest-karnataka-25-tumakurus-industrial-smart-city-2026-piyush-goyal-9833519/lite/' },
@@ -1461,7 +1488,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { label: 'JICA — CBIC Tumakuru node development plan (2016)', url: 'https://openjicareport.jica.go.jp/pdf/12249330.pdf' },
           { label: 'YourStory — Tumakuru node / SPV formation', url: 'https://yourstory.com/smbstory/tumakuru-industrial-node-of-the-chennai-bengaluru-industrial-corridor-to-create-more-jobs' },
           { label: 'BookNewProperty — 300-acre Japan Industrial Park (Nov 2025)', url: 'https://booknewproperty.com/news/tumakuru-to-host-300-acre-japan-industrial-park-a-new-growth-vector-for-karnataka/' },
-          { label: 'Wire & Cable India — Havells land allotment (KIADB)', url: 'https://www.wirecable.in/tag/kiadb/' },
+          { label: 'The Hindu — land acquisition for Tumakuru node progressing; 30%/20% progress (Aug 2026)', url: 'https://www.thehindu.com/news/national/karnataka/land-acquisition-for-tumakuru-node-progressing-smoothly-says-minister-patil/article71357667.ece' },
+          FUNDS,
         ],
       },
       {
@@ -1588,6 +1616,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       { date: '2023', label: 'PM lays foundation stone, Tumakuru township' },
       { date: '8 Jan 2025', label: 'PM lays foundation stone, Krishnapatnam / KRIS City' },
       { date: 'Nov 2025', label: '300-acre Japanese township announced, Tumakuru' },
+      { date: 'Aug 2026', label: 'Tumakuru at 30% physical / 20% financial progress (17 Aug); 6 plots / 250 ac allotted (4 Aug reply)' },
       { date: '2026–27', label: 'Phase-1 plug-and-play targeted (Tumakuru + Krishnapatnam)' },
     ],
     sources: [
@@ -1756,7 +1785,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
     nodes: [
 {
         slug: 'zaheerabad', name: 'Zaheerabad NIMZ', state: 'Telangana', stage: 'construction',
-        statusLabel: 'Revived as an HNIC smart city — execution phase began April 2026', coords: [176, 372],
+        statusLabel: 'Foundation laid May 2026 — works targeted complete by March 2028', coords: [176, 372],
         areaAc: 12635, projectCostCr: 2361, investmentCr: 10000, jobs: 174000,
         sectors: 'Automobile, EVs & Li-ion batteries, defence systems, transport & electrical equipment, metals & non-metallic minerals, electronics (incl. semiconductors), food & agro-processing, pharma/biotech, logistics, green energy',
         nearest: 'NH-65 (Pune–Machilipatnam) 9 km via a new 4-lane greenfield road; Bidar domestic airport 20 km; Rajiv Gandhi International Airport (Hyderabad) 125 km; Hyderabad 80 km; Zaheerabad town 9 km; Metalkunta railway station 1.5–12 km [D]; Machilipatnam port (proposed) 485 km; JNPT Mumbai 600 km',
@@ -1805,6 +1834,9 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Aug 2024', label: 'Union Cabinet approves the NICDP smart-city node' },
           { date: 'Aug 2025', label: 'TGIIC infrastructure RFP invited (target finalisation Oct 2025)' },
           { date: 'Apr 2026', label: 'Execution phase begins; ~9,000 ac acquired; Hyundai construction underway' },
+          { date: 'May 2026', label: 'Prime Minister lays the foundation stone for the ₹2,360.54-cr Zaheerabad Industrial Smart City (10 May)' },
+          { date: 'Aug 2026', label: 'At the NICDIT Apex meeting Telangana commits to completing works by March 2028, targeting ~₹15,000 cr investment and ~2 lakh jobs; NICDIT equity release confirmed at ₹536.23 cr (4 Aug annexure)' },
+          { date: 'Mar 2026', label: 'CAG report flags procedural irregularities in state-side NIMZ allotments above 50 acres (March 2026) — a risk chip distinct from the NICDP SPV' },
         ],
         sources: [
           { label: 'NICDC — Zaheerabad node page', url: 'https://nicdc.in/projects/12-new-projects/zaheerabad-telangana' },
@@ -1813,6 +1845,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { label: 'Times of India — Hyundai/VEM anchor allotments (Aug 2024)', url: 'https://timesofindia.indiatimes.com/city/hyderabad/zaheerabad-industrial-smart-city-project-to-attract-investments-worth-rs-15000-crore/articleshow/112878256.cms' },
           { label: 'Deccan Chronicle — Hyundai 407 ac in NIMZ (Nov 2024)', url: 'https://www.deccanchronicle.com/southern-states/telangana/hyundai-mou-materialises-swiftly-korean-giant-allocated-407-acres-in-nimz-zaheerabad-1840260' },
           { label: 'The Hindu — “The NIMZ bedlam” (Jun 2022)', url: 'https://www.thehindu.com/todays-paper/tp-miscellaneous/tp-others/the-nimz-bedlam/article65559353.ece' },
+          FUNDS,
         ],
       }
     ],
@@ -1820,6 +1853,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       { date: 'Aug 2024', label: 'CCEA approves Zaheerabad node' },
       { date: 'Jul 2025', label: 'PMC onboarded' },
       { date: 'Oct 2025', label: '2nd-call EPC tender floated' },
+      { date: 'May 2026', label: 'PM lays the Zaheerabad foundation stone (10 May); Telangana targets March 2028 completion at the Apex meeting (17 Aug)' },
+      { date: 'Aug 2026', label: 'NICDIT equity release confirmed at ₹536.23 cr — second-largest among the twelve new projects' },
     ],
     sources: [{ label: 'DPIIT status report (31 Oct 2025)', url: 'https://www.dpiit.gov.in/static/uploads/2025/11/34953d677cb89d642b15907555250523.pdf' }],
   },
@@ -1888,7 +1923,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Jun 2023', label: 'Youngone grounds 11 factories' },
           { date: 'Sep 2025', label: 'Kitex Group ₹2,400 cr MoU (two clusters)' },
           { date: 'Oct 2025', label: 'Youngone begins commercial production / exports' },
-          { date: 'May 2026', label: 'PM Modi virtually inaugurates India’s first functional PM MITRA park' },
+          { date: 'May 2026', label: 'PM Modi virtually inaugurates India’s first functional PM MITRA park (10 May): ₹1,695.54 cr cost, 1,327 ac, 62% allotted, 548 ac to industry (310 ac post-PM-MITRA)' },
+          { date: 'May 2026', label: 'Evertop Textile & Apparel Complex (PLI beneficiary) expects ₹1,051 cr investment, ~12,800 jobs and ₹1,990 cr turnover (PIB inauguration release)' },
         ],
         sources: [
           { label: 'The Rahnuma Daily (IANS) — ₹1,695 cr textile park', url: 'https://therahnuma.com/pm-modi-to-inaugurate-rs-1695-crore-textile-park-in-warangal-on-may-10/' },
@@ -1897,6 +1933,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { label: 'Textile Value Chain — Kitex ₹2,400 cr MoU', url: 'https://textilevaluechain.in/garment-giant-kitex-in-telangana-india-mou-signed-for-rs-2400-crore-investment-to-create-40000-jobs' },
           { label: 'YarnsandFibers — major textile players at Warangal', url: 'https://www.yarnsandfibers.com/news/textile-news/major-textile-players-seen-enticed-to-warangal-textile-park/amp/' },
           { label: 'UNI India — Kakatiya Mega Textile Park inauguration', url: 'https://uniindia.com/~/pm-to-inaugurate-1-700-cr-kakatiya-mega-textile-park-at-warangala-in-telangana/Business%20Economy/news/3838242.html' },
+          MITRA,
           { label: 'Zauba Corp — CETP Kakatiya company', url: 'https://www.zaubacorp.com/CETP-KAKATIYA-MEGA-TEXTILE-PARK-WARANGAL-LIMITED-U90000TG2021SGC154218' },
         ],
       },
@@ -1988,7 +2025,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         sectors: 'Aerospace & defence, engineering, steel, food processing, pharma, drones',
         nearest: 'Kurnool airport 12 km; NH-40 4 km; NH-44 28 km; Hyderabad ~210 km; Krishnapatnam Port 320 km',
         developer: 'AP Industrial Corridors Infrastructure Development Corporation (APICDC) + NICDIT; SPV incorporated 2024 as part of the 12-node NICDP approval (shareholding not separately disclosed; assumed 50:50 GoI:GoAP)',
-        epc: 'EPC contractor appointed by February 2026; programme manager onboarded; trunk construction not yet commenced',
+        epc: 'EPC contract executed 30 October 2025 with GVPR Engineers (₹1,197 cr; LoA 9 October); PM foundation stone 16 October 2025; NICDIT equity ₹500.26 cr confirmed (4 Aug 2026 annexure); trunk construction yet to commence',
         companies: [
           { name: 'Reliance Consumer Products Ltd (RCPL)', sector: 'Integrated beverage & food manufacturing', commitment: '₹1,622 cr ($178.35m) · ~1,200 direct jobs — State Investment Promotion Board cleared Dec 2025; ₹601.87 cr incentive package (37.10% of FCI) sanctioned under AP Food Processing Policy 4.0; the node’s largest single commitment [V]' },
           { name: 'Virupaksha Organics Ltd', sector: 'APIs / organic chemicals', commitment: '₹1,225 cr · 100+ ac · ~1,500 direct jobs — allotment approved (IP Guttapadu cluster); formalised at the CII Partnership Summit, Vizag, Nov 2025 [V]' },
@@ -2035,6 +2072,9 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Jun 2025', label: 'Union Minister Piyush Goyal reviews progress' },
           { date: 'Dec 2025', label: 'Reliance ₹1,622 cr investment cleared; incentives sanctioned' },
           { date: 'Feb 2026', label: 'EPC contractor appointed; environmental clearance secured' },
+          { date: 'May 2026', label: 'State minister restates a ₹50,000-cr investment ambition for Orvakal as a mega industrial hub (The Hindu, 13 May — aspiration, not sanctioned)' },
+          { date: 'Jun 2026', label: 'Kurnool power-infrastructure push; officials estimate ~10,000 additional acres needed around Orvakal as demand scales (25 June)' },
+          { date: 'Aug 2026', label: 'Equity release confirmed at ₹500.26 cr (4 Aug 2026 Lok Sabha reply)' },
           { date: '2026 onwards', label: 'Trunk construction expected to commence' },
         ],
         sources: [
@@ -2155,7 +2195,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           '~6,042 ac master-planned (PIB: “over 6,000 acres”), to be developed in three phases — Phase 1: a Multi-Modal Logistics Park (MMLP) on a turnkey basis; Phase 2: industrial layouts across 3 sectors; Phase 3: layouts across 8 sectors.',
           'Strategically sited ~500 km equidistant from Bengaluru and Mumbai on the BMIC; rail at Dharwad (~25 km) with a proposed Dharwad–Belgavi line adjacent, Hubballi airport ~30 km, and ports at Karwar (~170 km) and Goa (~180 km); NH-48 and NH-67 connect Mumbai, Bengaluru and Goa.',
           'Land-use breakdown, plot sizes, land price, environmental clearance and the SPV structure are not yet finalised — all pending the Detailed Master Plan and CCEA approval. The Government of Karnataka has confirmed land availability; KIADB had acquired ~2,000 ac across Gamanagatti, Ittigatti, Mummigatti, Belur and Kotur villages by 2021.',
-          'No project-implementation funds released — ₹0 in PIF and ₹0 released by DPIIT to NICDIT; only ~₹4.22 cr of Project Development Fund spent on master planning. The node is materially behind funded NICDP peers such as Tumakuru (CBIC), which secured CCEA approval and ₹608 cr equity in December 2020.',
+          'No NICDP project-implementation funds released as of 4 Aug 2026 — ₹0 in PIF and no SHA/SSA or SPV; the state has moved first with a ₹600-cr budget line for 1,000 acres (Mar 2026). The node remains materially behind funded NICDP peers such as Tumakuru (CBIC), which secured CCEA approval and ₹608 cr equity in December 2020.',
         ],
         incentives: 'No node-specific BMIC incentives yet (CCEA approval pending). Karnataka Industrial Policy 2025–30 applies: up to 20% capital subsidy on fixed investment (or a PLI alternative), stamp-duty reimbursement, a 5-year electricity-duty exemption, an additional 10% incentive for co-locating R&D/GCC with manufacturing, and an industrial-dormitory subsidy; Dharwad likely falls in an industrially backward Zone 1/2 receiving higher incentives. The Karnataka Clean Mobility Policy 2025–30 proposes an Electronics Manufacturing Cluster at Kotur-Belur. Note a June 2025 Karnataka job-reservation policy (55% of Group A/B and 75% of Group C/D jobs reserved for Kannadigas).',
         summary: [
@@ -2183,6 +2223,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Mar 2022', label: 'PIB: project cost not approved; ₹0 PIF, ~₹4.22 cr PDF spent' },
           { date: 'Mar 2024', label: 'Tenders invited for the Multi-Modal Logistics Park' },
           { date: 'Jun 2026', label: 'MMLP tender reaffirmed — design, build, commission + 5-yr O&M' },
+          { date: 'Mar 2026', label: 'Karnataka Budget 2026–27 sanctions ₹600 cr for acquiring 1,000 acres for the Dharwad node (₹200 cr in 2026-27) — first committed land-assembly funding (6 March)' },
         ],
         sources: [
           { label: 'PIB — Dharwad node development (Nov 2021)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=1775265' },
@@ -2193,6 +2234,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { label: 'IBEF — Aequs consumer-electronics cluster (Oct 2020)', url: 'https://www.ibef.org/news/aequs-to-invest-rs-3500-crore-to-set-up-consumer-electronics-cluster-in-karnataka' },
           { label: 'BusinessLine — Karnataka Industrial Policy 2025–30', url: 'https://www.thehindubusinessline.com/news/karnataka-unveils-industrial-policy-aiming-for-75-lakh-crore-investments-by-2030/article69207850.ece' },
           { label: 'CAGPT — status of industrial corridors (Apr 2025)', url: 'https://www.cagpt.in/corporate-law/status-industrial-corridors-india' },
+          { label: 'Times of India — state budget: ₹600 cr for 1,000 ac at the Dharwad node (Mar 2026)', url: 'https://timesofindia.indiatimes.com/city/hubballi/state-budget-announces-a-slew-of-schemes-and-projects-for-nk-region/articleshow/129169778.cms' },
+          { label: 'The Hindu — Karnataka Budget 2026: Dharwad Industrial Node funding', url: 'https://www.thehindu.com/news/national/karnataka/karnataka-budget-2026-hubballi-dharwad-gets-skill-training-academy-indira-canteens-for-students-plug-play-leap-lab/article70711461.ece' },
         ],
       },
       {
@@ -2257,7 +2300,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         ],
       }
     ],
-    milestones: [{ date: '2021', label: 'BMIC nodes notified' }, { date: '2025', label: 'Dharwad MMLP tendering; Satara master-planning' }],
+    milestones: [{ date: '2021', label: 'BMIC nodes notified' }, { date: '2025', label: 'Dharwad MMLP tendering; Satara master-planning' }, { date: 'Mar 2026', label: 'Karnataka Budget: ₹600 cr for 1,000 ac at Dharwad — first land-assembly funding' }],
     sources: [{ label: 'NICDC — BMIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/bengaluru-mumbai-industrial-corridor' }],
   },
   'cbic-kochi-extension': {
@@ -2294,7 +2337,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         incentives: 'Land-for-equity (State land ~₹1,789.92 cr as equity); a Special Industrial Township designation and a single-window clearance system announced (notifications pending), with a State-level Network Planning Committee under the Chief Secretary for external electricity/water/road infrastructure and a project task force. State fiscal support flows from Kerala’s Sustainable Industry Incentive Scheme (Dec 2024) — capital-investment subsidy, SGST reimbursement, electricity-duty exemption, stamp-duty waiver, plus a special package for PLI investors.',
         summary: [
           'Palakkad is Kerala’s first node under the National Industrial Corridor Development Programme, on the CBIC extension to Kochi via Coimbatore (also styled the Kochi–Bengaluru Industrial Corridor). It is CCEA-approved (28 Aug 2024) at ₹3,815 cr, holds both environmental clearances, and crossed from tendering into construction when the EPC contract was awarded on 24 September 2025 — the corridor’s headline milestone.',
-          'The on-the-ground state of play is real but pre-tenant: ~1,450 acres acquired, ~330 acres transferred to the SPV with ₹313.5 cr of NICDIT equity released across two tranches, and a ₹1,316.13 cr Dilip Buildcon–PSP Projects JV mobilising on trunk infrastructure. No private end-user has yet been allotted land; the master plan earmarks the largest blocks for pharma/medical devices (420 ac) and food processing (172 ac).',
+          'The on-the-ground state of play is real but pre-tenant: ~1,450 acres acquired, ~330 acres transferred to the SPV, and central releases now at ₹936.96 cr against the ₹3,805-crore trunk bill (4 Aug 2026 annexure) with a ₹1,316.13 cr Dilip Buildcon–PSP Projects JV mobilising on trunk infrastructure. No private end-user has yet been allotted land; the master plan earmarks the largest blocks for pharma/medical devices (420 ac) and food processing (172 ac).',
           'The investment and jobs headline should be read with care. NICDC’s own node page cites ~₹8,729 cr investment potential and ~51,000 jobs; the higher ₹38,000 cr / ~98,000-job and earlier ₹10,000 cr / 1,02,000-job figures are comparable-node or early-estimate projections, not committed investment. The node deepens an existing Palakkad industrial base — KINFRA’s 211-acre textile park (120+ units), a 43-unit mega food park and a defence park at Ottapalam all sit nearby.',
         ],
         sections: [
@@ -2320,6 +2363,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Dec 2024 – Mar 2025', label: 'Land transferred to SPV in two tranches (~330 ac); ₹313.5 cr equity released' },
           { date: 'May 2025', label: '~₹1,100 cr EPC tender floated' },
           { date: 'Sep 2025', label: 'EPC awarded to DBL + PSP Projects JV (₹1,316.13 cr) — construction begins' },
+          { date: 'Jun 2026', label: 'Kerala pitches the Palakkad IMC to Tamil Nadu MSMEs — cross-state investor outreach (27 June)' },
+          { date: 'Aug 2026', label: 'NICDIT release reaches ₹936.96 cr (+₹320.96 cr since Nov 2025) — the largest release among the twelve new projects (4 Aug 2026 Lok Sabha reply)' },
         ],
         sources: [
           { label: 'NICDC — Palakkad node (investment potential, jobs)', url: 'https://nicdc.in/projects/12-new-projects/palakkad-kerala' },
@@ -2383,7 +2428,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
         ],
       }
     ],
-    milestones: [{ date: 'Aug 2024', label: 'Palakkad ~82% land acquired' }, { date: 'Sep 2025', label: 'Palakkad EPC awarded (first under NICDP)' }],
+    milestones: [{ date: 'Aug 2024', label: 'Palakkad ~82% land acquired' }, { date: 'Sep 2025', label: 'Palakkad EPC awarded (first under NICDP)' }, { date: 'Aug 2026', label: 'Palakkad NICDIT release reaches ₹936.96 cr — the largest among the twelve new projects (4 Aug reply)' }],
     sources: [{ label: 'NICDC — CBIC to Kochi (ECKC)', url: 'https://api.nicdc.in/upload/image/ExecutivesummaryreportECKC.pdf' }],
   },
   'delhi-nagpur': {
@@ -2444,6 +2489,22 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { label: 'NICDC DMU Report (Aug 2022)', url: 'https://www.nicdc.in/images/documents/DMU_Report_August_2022.pdf' },
           { label: 'PIB — DNIC as 11th NICDP corridor (Aug 2024)', url: 'https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/aug/doc2024830383401.pdf' },
         ],
+      },
+      {
+        slug: 'durgapur', name: 'Durgapur node (East Coast Industrial Corridor)', state: 'West Bengal', stage: 'planned',
+        statusLabel: 'Budget 2026-27 signalled an ECIC node at Durgapur — consultant procurement under way, no SHA/SSA or SPV yet', coords: [293, 268],
+        sectors: 'Steel & metal products, industrial manufacturing, logistics (to be confirmed)',
+        nearest: 'Durgapur steel belt; NH-19 (GT Road); Andal airport ~15 km; EDFC Sonnagar–Dankuni section pending',
+        developer: 'Not yet formed — NICDC consultant procurement (GeM notice, 6 May 2026) seeks services for “development of Industrial Manufacturing Nodes in the Durgapur region, aligned with the East Coast Industrial Corridor (ECIC) framework”',
+        summary: [
+          'The Union Budget 2026-27 (1 February 2026) announced “an integrated East Coast Industrial Corridor with a well-connected node at Durgapur” — extending the ECIC chain, of which VCIC is the first phase and the OEC the northernmost stretch, into West Bengal.',
+          'Implementation has moved from speech to procurement: a NICDC notice dated 6 May 2026 seeks consultants for node development in the Durgapur region. No SHA/SSA, SPV, land parcel or funding exists yet, so the node sits at the very start of the pipeline — scored only when an SPV event materialises.',
+        ],
+        timeline: [
+          { date: 'Feb 2026', label: 'Budget 2026-27 announces the integrated East Coast Industrial Corridor with a node at Durgapur' },
+          { date: 'May 2026', label: 'NICDC consultant procurement for Durgapur-region node development (GeM, 6 May)' },
+        ],
+        sources: [FUNDS, { label: 'NICDC — Durgapur ECIC consultant procurement (GeM, 6 May 2026)', url: 'https://fulfilment.gem.gov.in' }],
       },
       {
         slug: 'nagpur', name: 'Nagpur (southern gateway)', state: 'Maharashtra', stage: 'planned',

@@ -1,7 +1,7 @@
 // Corridor intelligence layer: Readiness Score + enriched corridor & node data (all 11).
 // Readiness Score: 4 axes each 0–25 → 0–100. Maturity · Capital momentum · Connectivity · Opportunity openness.
 // Tiers: Build-now ≥65 · Position-early 40–64 · Watch <40. Scored consistently to allow cross-corridor ranking.
-// Sources: NICDC/DPIIT DMU monthly reports (latest proforma 31 Jul 2026), ADB/JICA plans, PIB, the NICDIT Apex Monitoring Authority review (Aug 2026), India Investment Grid and state portals.
+// Sources: NICDC/DPIIT DMU proformas (30 Nov 2025), the 4 Aug 2026 Lok Sabha reply (PIB 2294231), the 17 Aug 2026 NICDIT Apex communique (PIB 2300658), ADB/JICA plans, PIB, India Investment Grid and state portals.
 
 export type Stage = 'operational' | 'construction' | 'planned';
 export interface IntelNode { name: string; area?: string; land?: string; sectors?: string; anchor?: string; stage: Stage; note?: string; }
@@ -20,7 +20,7 @@ export const intel: Record<string, CorridorIntel> = {
     "dfc": "Western DFC",
     "investment": "~US$90 bn programme · ₹16,173 cr released to NICDIT (NICDP-wide)",
     "jobs": "~3 mn programme projection · 1.29 lakh jobs potential on allotted plots (NICDP-wide)",
-    "stageLabel": "Operational · 4 nodes at production stage; plots being allotted",
+    "stageLabel": "Operational · 4 nodes at production stage; Nangal Chaudhary rail ops live",
     "connectivity": [
       "Western Dedicated Freight Corridor",
       "JNPT / Mumbai port",
@@ -31,8 +31,8 @@ export const intel: Record<string, CorridorIntel> = {
       "maturity": 25,
       "capital": 24,
       "connectivity": 25,
-      "opportunity": 15,
-      "total": 89,
+      "opportunity": 16,
+      "total": 90,
       "tier": "Build-now"
     },
     "nodes": [
@@ -82,11 +82,11 @@ export const intel: Record<string, CorridorIntel> = {
       "Chennai–Bengaluru NH/expressway"
     ],
     "score": {
-      "maturity": 16,
-      "capital": 16,
+      "maturity": 18,
+      "capital": 17,
       "connectivity": 20,
-      "opportunity": 18,
-      "total": 70,
+      "opportunity": 17,
+      "total": 72,
       "tier": "Build-now"
     },
     "nodes": [
@@ -119,18 +119,18 @@ export const intel: Record<string, CorridorIntel> = {
     "funding": "GoI + state",
     "investment": "~₹10,000 cr (Palakkad)",
     "jobs": "~10,000 (Palakkad)",
-    "stageLabel": "Master planning",
+    "stageLabel": "In build-out · Palakkad EPC contracted; ₹936.96 cr released",
     "connectivity": [
       "Kochi port",
       "Coimbatore & Kochi airports",
       "Kochi–Salem NH"
     ],
     "score": {
-      "maturity": 9,
-      "capital": 9,
+      "maturity": 10,
+      "capital": 12,
       "connectivity": 15,
-      "opportunity": 15,
-      "total": 48,
+      "opportunity": 14,
+      "total": 51,
       "tier": "Position-early"
     },
     "nodes": [
@@ -153,7 +153,7 @@ export const intel: Record<string, CorridorIntel> = {
     "spv": "NICDC + state SPVs",
     "funding": "GoI",
     "dfc": "Eastern DFC",
-    "stageLabel": "In build-out · EPC awards/tenders under way at five nodes",
+    "stageLabel": "In build-out · EPC on board at ten of twelve new nodes programme-wide",
     "connectivity": [
       "Eastern Dedicated Freight Corridor",
       "Kolkata / Haldia port",
@@ -163,8 +163,8 @@ export const intel: Record<string, CorridorIntel> = {
       "maturity": 13,
       "capital": 13,
       "connectivity": 18,
-      "opportunity": 18,
-      "total": 62,
+      "opportunity": 17,
+      "total": 61,
       "tier": "Position-early"
     },
     "nodes": [
@@ -202,18 +202,18 @@ export const intel: Record<string, CorridorIntel> = {
     "spv": "NICDIT Zaheerabad Industrial Smart City",
     "funding": "NICDIT (~₹596 cr equity / ₹655 cr debt)",
     "investment": "₹2,361 cr (Zaheerabad)",
-    "stageLabel": "In build-out (Zaheerabad)",
+    "stageLabel": "In build-out · foundation laid; March 2028 works target",
     "connectivity": [
       "NH-44 (Hyderabad–Nagpur)",
       "Hyderabad & Nagpur airports",
       "PM GatiShakti"
     ],
     "score": {
-      "maturity": 12,
-      "capital": 13,
+      "maturity": 15,
+      "capital": 16,
       "connectivity": 14,
-      "opportunity": 16,
-      "total": 55,
+      "opportunity": 15,
+      "total": 60,
       "tier": "Position-early"
     },
     "nodes": [
@@ -230,17 +230,17 @@ export const intel: Record<string, CorridorIntel> = {
   "hyderabad-warangal": {
     "spv": "State-led (TSIIC) — NICDP node withdrawn 2022",
     "funding": "State",
-    "stageLabel": "NICDP node withdrawn (2022) · state-led",
+    "stageLabel": "In build-out · PM MITRA park operational (Warangal)",
     "connectivity": [
       "NH-163 (Hyderabad–Warangal)",
       "Hyderabad airport"
     ],
     "score": {
-      "maturity": 8,
-      "capital": 10,
+      "maturity": 12,
+      "capital": 12,
       "connectivity": 12,
       "opportunity": 12,
-      "total": 42,
+      "total": 48,
       "tier": "Position-early"
     },
     "nodes": [
@@ -262,17 +262,17 @@ export const intel: Record<string, CorridorIntel> = {
   "hyderabad-bengaluru": {
     "spv": "NICDC + Andhra Pradesh",
     "funding": "GoI + AP",
-    "stageLabel": "Early · Orvakal tendering",
+    "stageLabel": "In build-out · Orvakal EPC executed (GVPR, ₹1,197 cr)",
     "connectivity": [
       "NH-44 / NH-40",
       "Hyderabad & Bengaluru airports"
     ],
     "score": {
-      "maturity": 11,
-      "capital": 11,
+      "maturity": 12,
+      "capital": 12,
       "connectivity": 14,
       "opportunity": 16,
-      "total": 52,
+      "total": 54,
       "tier": "Position-early"
     },
     "nodes": [
@@ -293,18 +293,18 @@ export const intel: Record<string, CorridorIntel> = {
   "bengaluru-mumbai": {
     "spv": "NICDC + Karnataka / Maharashtra",
     "funding": "GoI + states",
-    "stageLabel": "Master planning",
+    "stageLabel": "Planned · land acquisition funded (Dharwad ₹600 cr)",
     "connectivity": [
       "Mumbai / JNPT port",
       "Mumbai · Pune · Bengaluru · Hubballi airports",
       "Pune–Bengaluru NH"
     ],
     "score": {
-      "maturity": 10,
+      "maturity": 6,
       "capital": 10,
       "connectivity": 17,
-      "opportunity": 16,
-      "total": 53,
+      "opportunity": 15,
+      "total": 48,
       "tier": "Position-early"
     },
     "nodes": [
@@ -336,8 +336,8 @@ export const intel: Record<string, CorridorIntel> = {
       "maturity": 13,
       "capital": 15,
       "connectivity": 22,
-      "opportunity": 18,
-      "total": 68,
+      "opportunity": 19,
+      "total": 69,
       "tier": "Build-now"
     },
     "nodes": [
@@ -377,18 +377,18 @@ export const intel: Record<string, CorridorIntel> = {
   "odisha-economic": {
     "spv": "NICDC + Odisha (IDCO)",
     "funding": "GoI + ADB (ECIC)",
-    "stageLabel": "Phase-1 clusters approved",
+    "stageLabel": "Planned · nodes on hold (land unconfirmed)",
     "connectivity": [
       "Paradip · Dhamra · Gopalpur ports",
       "Bhubaneswar airport",
       "NH-16 (coastal)"
     ],
     "score": {
-      "maturity": 12,
-      "capital": 14,
-      "connectivity": 20,
+      "maturity": 11,
+      "capital": 13,
+      "connectivity": 21,
       "opportunity": 17,
-      "total": 63,
+      "total": 62,
       "tier": "Position-early"
     },
     "nodes": [
