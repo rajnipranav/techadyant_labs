@@ -2778,6 +2778,43 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['India and Belgium have widened their strategic partnership across semiconductors, critical minerals, defence, AI, space, renewable energy and ports.', 'The two sides intend to connect Belgium’s imec semiconductor research ecosystem with Indian institutions and companies.', 'They agreed to enhance cooperation in critical-mineral processing and recycling, addressing a strategic midstream gap in supply security.', 'A defence-ministry Letter of Intent covers exchanges, training, research cooperation and defence-industrial partnerships.', 'The India–Belgium Investment Fast-Track Mechanism and possible SFPIM–NIIF cooperation could help convert the agenda into investable projects.', 'The principal risk is execution: the current package is a framework of commitments, not yet a portfolio of funded industrial projects.'],
   sources: ['Primary joint statement covering the India–Belgium Strategic Dialogue, trade, technology, defence, minerals, investment and maritime cooperation', 'Official PM press-statement source for critical-mineral processing and recycling and semiconductor cooperation with Belgium’s imec ecosystem', 'Independent reporting on the Letter of Intent, imec connection, mineral processing and recycling, and bilateral agreements', 'Independent public-service coverage detailing defence, semiconductor, investment, mineral, port and maritime mechanisms']
+}, {
+  slug: 'hypervault-tcs-1gw-ai-data-centre-campus-hyderabad-2026',
+  no: 'S-085',
+  title: 'TCS’s HyperVault puts India’s AI-compute race on a 1 GW footing',
+  domain: 'Artificial Intelligence & Digital Infrastructure',
+  date: '2026-09-06',
+  dateLabel: '6 Sept 2026',
+  status: 'live',
+  excerpt: 'India’s AI sovereignty debate is moving from models and applications to the physical infrastructure that makes advanced computing possible. TCS subsidiary HyperVault has secured land in Hyderabad for a phased AI data-centre campus that could reach 1 GW and attract up to ₹70,000 crore in investment.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'HyperVault, a subsidiary of Tata Consultancy Services, has secured 264 acres in Hyderabad to develop a large-scale artificial-intelligence data-centre campus with capacity of up to 1 GW. The company and its partners are expected to invest up to ₹70,000 crore to build and manage the infrastructure. The campus will be developed in phases according to customer demand and technology requirements and is designed to serve frontier AI companies, hyperscalers and global enterprises with high-density, liquid-cooled GPU infrastructure for AI training, inference and advanced computing workloads.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'The strategic bottleneck in AI is increasingly compute access. Training and serving advanced models require large power blocks, high-density GPU systems, liquid cooling, high-capacity networks, reliable operations and access to suitable land and energy. A 1-GW campus would therefore be more than another commercial data centre: it would add a substantial physical node to India’s emerging AI infrastructure base. The project also has potential spillovers into power, cooling, networking, construction, engineering and operations, helping develop the supply chain around compute rather than treating AI as a software-only sector.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The HyperVault project is important because it brings together a large Indian technology company, a named infrastructure vehicle, secured land, a defined capacity target and a substantial investment envelope. It may give Hyderabad a stronger position in the competition to host frontier-AI workloads. Yet the announcement also exposes the policy choices ahead. If the campus primarily serves global hyperscalers, India gains jobs, services and infrastructure but may not automatically gain sovereign access to compute. The strategic value will be higher if Indian start-ups, public research, universities and national missions can obtain predictable access, while domestic firms participate in power, cooling, networking, operations and hardware supply.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'The first test is financial and physical execution: project approvals, power procurement, construction milestones, customer commitments and the commissioning of the first halls. Watch for the actual fraction of the 1-GW target contracted and installed, the ratio of green power to grid and backup supply, water-use performance, GPU availability and pricing, and access arrangements for Indian AI companies and research institutions. The June 2028 target is an important date, but phased delivery and usable compute—not the full-build headline—will determine the project’s strategic effect.',
+  type: 'p'
+}],
+  takeaways: ['TCS subsidiary HyperVault has secured 264 acres in Hyderabad for an AI data-centre campus of up to 1 GW.', 'HyperVault and partners are expected to invest up to ₹70,000 crore to build and manage the infrastructure in phases.', 'The facility is designed for high-density, liquid-cooled GPU deployments serving AI training, inference, frontier AI companies and hyperscalers.', 'The project could create spillovers across power, cooling, networking, construction, engineering and operations, strengthening India’s AI-infrastructure ecosystem.', 'The sovereignty test will be commissioned and accessible compute capacity, not the announced capacity or investment envelope alone.'],
+  sources: ['Primary company announcement covering land, 1-GW capacity, ₹70,000 crore investment envelope, liquid cooling and phased development', 'Independent business coverage corroborating the land, capacity, investment and intended AI customer base', 'Independent reporting on the project’s expected jobs, target date, infrastructure features and Telangana government role', 'PTI-based independent corroboration of the secured land, investment envelope and phased AI infrastructure plan']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
