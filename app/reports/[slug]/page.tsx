@@ -404,7 +404,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           hasData={hasData}
           dataPriceLabel={dataPriceLabel}
         >
-          <section className="wrap-narrow" style={{ paddingTop: 40, paddingBottom: 8 }}>
+          <section id="get-report-access" className="wrap-narrow" style={{ paddingTop: 40, paddingBottom: 8 }}>
             <ReportAccess
               pages={meta.pages ?? undefined}
               readingTime={meta.reading_time}
