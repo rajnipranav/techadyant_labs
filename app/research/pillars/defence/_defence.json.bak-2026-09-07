@@ -1,6 +1,6 @@
 {
  "schema_version": "defence-atlas-2026-08-v1",
- "as_of": "2026-09-07",
+ "as_of": "2026-08-27",
  "purpose": "Shared Defence Atlas graph seed for Army, Navy & Coast Guard, Air Force and cross-service views.",
  "principles": [
   "One canonical entity per real-world organisation/platform/system.",
@@ -1075,134 +1075,6 @@
    "domain": [
     "propulsion"
    ]
-  },
-  {
-   "id": "sys-cbrn-recce",
-   "name": "CBRN Recce Vehicles",
-   "type": "system",
-   "service": [
-    "army"
-   ],
-   "country": "IN",
-   "domain": [],
-   "status": "AoN_2026"
-  },
-  {
-   "id": "sys-hmv",
-   "name": "High Mobility Vehicles (HMV)",
-   "type": "system",
-   "service": [
-    "army"
-   ],
-   "country": "IN",
-   "domain": [
-    "mobility"
-   ],
-   "status": "AoN_2026"
-  },
-  {
-   "id": "sys-mml",
-   "name": "Self-Propelled Mechanical Mine Layers (MML)",
-   "type": "system",
-   "service": [
-    "army"
-   ],
-   "country": "IN",
-   "domain": [],
-   "status": "AoN_2026"
-  },
-  {
-   "id": "sys-alh",
-   "name": "Advanced Light Helicopters (ALH)",
-   "type": "platform",
-   "service": [
-    "army",
-    "air_force"
-   ],
-   "country": "IN",
-   "domain": [],
-   "status": "AoN_2026"
-  },
-  {
-   "id": "sys-trawl-tank",
-   "name": "Trawl Tanks",
-   "type": "system",
-   "service": [
-    "army"
-   ],
-   "country": "IN",
-   "domain": [],
-   "status": "AoN_2026"
-  },
-  {
-   "id": "sys-sarvatra",
-   "name": "Sarvatra Bridge System",
-   "type": "system",
-   "service": [
-    "army"
-   ],
-   "country": "IN",
-   "domain": [
-    "mobility"
-   ],
-   "status": "AoN_2026"
-  },
-  {
-   "id": "nav-arudhra-radar",
-   "name": "Arudhra Radar",
-   "type": "system",
-   "service": [
-    "navy"
-   ],
-   "country": "IN",
-   "domain": [
-    "sensors"
-   ],
-   "status": "AoN_2026"
-  },
-  {
-   "id": "nav-mgt",
-   "name": "Marine Gas Turbine (MGT) design & development programme",
-   "type": "programme",
-   "service": [
-    "navy"
-   ],
-   "country": "IN",
-   "domain": [
-    "propulsion"
-   ],
-   "status": "AoN_2026"
-  },
-  {
-   "id": "sys-gbmpj",
-   "name": "Ground-Based Multi-Purpose Jammer (GBMPJ)",
-   "type": "system",
-   "service": [],
-   "country": "IN",
-   "domain": [],
-   "status": "AoN_2026"
-  },
-  {
-   "id": "sys-defsac",
-   "name": "Defence Forces Secure Access Card (DEFSAC) System",
-   "type": "system",
-   "service": [
-    "joint"
-   ],
-   "country": "IN",
-   "domain": [],
-   "status": "AoN_2026"
-  },
-  {
-   "id": "air-warfighting-capability",
-   "name": "IAF War-Fighting Capability Enhancement Proposals",
-   "type": "programme",
-   "service": [
-    "air_force"
-   ],
-   "country": "IN",
-   "domain": [],
-   "status": "AoN_2026"
   }
  ],
  "relationships": [
@@ -1739,146 +1611,6 @@
     "air_force",
     "coast_guard"
    ]
-  },
-  {
-   "source": "sys-cbrn-recce",
-   "type": "AoN",
-   "target": "org-indian-army",
-   "service": [
-    "army"
-   ],
-   "source_refs": [
-    "S21",
-    "S22"
-   ]
-  },
-  {
-   "source": "sys-hmv",
-   "type": "AoN",
-   "target": "org-indian-army",
-   "service": [
-    "army"
-   ],
-   "source_refs": [
-    "S21",
-    "S22"
-   ]
-  },
-  {
-   "source": "sys-mml",
-   "type": "AoN",
-   "target": "org-indian-army",
-   "service": [
-    "army"
-   ],
-   "source_refs": [
-    "S21",
-    "S22"
-   ]
-  },
-  {
-   "source": "sys-alh",
-   "type": "AoN",
-   "target": "org-indian-army",
-   "service": [
-    "army",
-    "air_force"
-   ],
-   "source_refs": [
-    "S21",
-    "S22"
-   ]
-  },
-  {
-   "source": "sys-trawl-tank",
-   "type": "AoN",
-   "target": "org-indian-army",
-   "service": [
-    "army"
-   ],
-   "source_refs": [
-    "S21",
-    "S22"
-   ]
-  },
-  {
-   "source": "sys-sarvatra",
-   "type": "AoN",
-   "target": "org-indian-army",
-   "service": [
-    "army"
-   ],
-   "source_refs": [
-    "S21",
-    "S22"
-   ]
-  },
-  {
-   "source": "nav-arudhra-radar",
-   "type": "AoN",
-   "target": "org-indian-navy",
-   "service": [
-    "navy"
-   ],
-   "source_refs": [
-    "S21",
-    "S22"
-   ]
-  },
-  {
-   "source": "nav-mgt",
-   "type": "AoN",
-   "target": "org-indian-navy",
-   "service": [
-    "navy"
-   ],
-   "source_refs": [
-    "S21",
-    "S22"
-   ]
-  },
-  {
-   "source": "air-warfighting-capability",
-   "type": "AoN",
-   "target": "org-iaf",
-   "service": [
-    "air_force"
-   ],
-   "source_refs": [
-    "S21",
-    "S22"
-   ]
-  },
-  {
-   "source": "tech-propulsion",
-   "type": "capability",
-   "target": "nav-mgt",
-   "service": [
-    "navy"
-   ],
-   "source_refs": [
-    "S21"
-   ]
-  },
-  {
-   "source": "tech-ew",
-   "type": "capability",
-   "target": "sys-gbmpj",
-   "service": [],
-   "source_refs": [
-    "S21"
-   ]
-  },
-  {
-   "source": "sys-defsac",
-   "type": "AoN",
-   "target": "org-mod",
-   "service": [
-    "joint"
-   ],
-   "source_refs": [
-    "S21"
-   ]
   }
  ],
  "programmes": [
@@ -2094,56 +1826,6 @@
      "High Capacity Radio Relay",
      "Dhanush Gun System",
      "Runway Independent Aerial Surveillance System"
-    ]
-   }
-  },
-  {
-   "id": "prg-dac-sep2026",
-   "name": "DAC AoN package — 7 September 2026 (11 proposals, ~₹1.10 lakh crore)",
-   "service": [
-    "joint"
-   ],
-   "type": "procurement",
-   "status": "AoN_2026",
-   "source_refs": [
-    "S21",
-    "S22"
-   ],
-   "key_data": {
-    "meeting_date": "2026-09-07",
-    "chair": "Raksha Mantri Shri Rajnath Singh",
-    "stage": "AoN (in-principle administrative approval) — not contracts, orders or deliveries",
-    "aggregate_value": "about Rs 1,10,000 crore (PIB; aggregate across all AoNs — no per-proposal breakdown)",
-    "indian_industry_sourcing": "approximately 98% of total procurements (aggregate sourcing statement; not an indigenous-content claim)",
-    "proposals": {
-     "army": [
-      "CBRN Recce Vehicles",
-      "High Mobility Vehicles (HMV)",
-      "Self-Propelled Mechanical Mine Layers (MML)",
-      "Advanced Light Helicopters (ALH)",
-      "Trawl Tanks",
-      "Sarvatra Bridge System"
-     ],
-     "navy": [
-      "Arudhra Radars",
-      "Marine Gas Turbines (MGT) — design & development, subsequent procurement"
-     ],
-     "iaf": [
-      "War-fighting capability enhancement proposals (fighters, transports, helicopters)"
-     ],
-     "service_unattributed": [
-      "Ground-Based Multi-Purpose Jammer (GBMPJ) — not explicit in release"
-     ],
-     "tri_service_medium_confidence": [
-      "Defence Forces Secure Access Card (DEFSAC) System — defence-wide scope inferred from name/description"
-     ]
-    },
-    "not_disclosed": [
-     "vendors/winners",
-     "quantities",
-     "per-proposal values",
-     "delivery timelines",
-     "RFP/contract status"
     ]
    }
   }
@@ -2644,20 +2326,6 @@
    "published_date": "2026-07-23",
    "trust_tier": "credible",
    "accessed": "2026-08-27"
-  },
-  {
-   "id": "S21",
-   "title": "DAC ~Rs 1,10,000 crore AoN (Army, Navy, IAF) — PIB",
-   "date": "2026-09-07",
-   "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2307452&lang=1&reg=3",
-   "scope": "capital_acquisition_tri_service"
-  },
-  {
-   "id": "S22",
-   "title": "DAC clears acquisition proposals worth over Rs 1.10 lakh cr — News On AIR",
-   "date": "2026-09-07",
-   "url": "https://newsonair.gov.in/dac-clears-acquisition-proposals-worth-over-rs-1-10-lakh-cr-for-forces/",
-   "scope": "capital_acquisition_tri_service"
   }
  ],
  "service_layers": [
@@ -3007,36 +2675,6 @@
    "summary": "Twin Engine Deck-Based Fighter programme positioned for CCS; designer commentary: first flight ~5 years after approval.",
    "sources": [
     "src-05"
-   ],
-   "service": "navy_coast_guard"
-  },
-  {
-   "date": "2026-09-07",
-   "title": "DAC AoN: six Army proposals in ₹1.10 lakh crore package",
-   "summary": "AoN (in-principle administrative approval — not a contract) for CBRN Recce Vehicles, High Mobility Vehicles, Self-Propelled Mechanical Mine Layers, Advanced Light Helicopters, Trawl Tanks and the Sarvatra Bridge System. Part of the 7 September 2026 DAC package (~₹1,10,000 crore across Army, Navy and IAF); approximately 98% of total procurements to come from Indian industry (aggregate statement). No vendors, quantities or timelines announced.",
-   "sources": [
-    "S21",
-    "S22"
-   ],
-   "service": "army"
-  },
-  {
-   "date": "2026-09-07",
-   "title": "DAC AoN: IAF war-fighting capability proposals + GBMPJ",
-   "summary": "Various proposals to enhance the war-fighting capability of fighters, transports and helicopters accorded AoN; Ground-Based Multi-Purpose Jammer (GBMPJ) approval also accorded (service attribution not explicit in the release). Part of the 7 September 2026 DAC package (~₹1,10,000 crore; ~98% of procurements from Indian industry, aggregate).",
-   "sources": [
-    "S21",
-    "S22"
-   ],
-   "service": "air_force"
-  },
-  {
-   "date": "2026-09-07",
-   "title": "DAC AoN: Arudhra Radars + Marine Gas Turbine D&D",
-   "summary": "AoN for Arudhra Radars (to replace Air Route Surveillance Radars at Naval Air Stations) and for design & development with subsequent procurement of Marine Gas Turbines — a warship propulsion programme aimed at reducing dependency on foreign vendors. Part of the 7 September 2026 DAC package (~₹1,10,000 crore; ~98% aggregate Indian-industry sourcing).",
-   "sources": [
-    "S21",
-    "S22"
    ],
    "service": "navy_coast_guard"
   }
