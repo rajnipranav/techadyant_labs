@@ -46,6 +46,7 @@ import { ReportContent as IndustrialAiContent, toc as industrialAiToc } from '..
 import { ReportContent as AiComputeCorridorContent, toc as aiComputeCorridorToc } from '../content/india-ai-compute-corridor-economics';
 import { ReportContent as AerospaceMissingLinksContent, toc as aerospaceMissingLinksToc } from '../content/india-aerospace-supply-chain-missing-links';
 import { ReportContent as LunarContent, toc as lunarToc } from '../content/india-lunar-economy';
+import { ReportContent as TechTransferContent, toc as techTransferToc } from '../content/india-tech-transfer-ecosystem';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -84,6 +85,7 @@ const registry: Record<string, ReportModule> = {
   'india-ai-compute-corridor-economics': { toc: aiComputeCorridorToc, Content: AiComputeCorridorContent },
   'india-aerospace-supply-chain-missing-links': { toc: aerospaceMissingLinksToc, Content: AerospaceMissingLinksContent },
   'india-lunar-economy': { toc: lunarToc, Content: LunarContent },
+  'india-tech-transfer-ecosystem': { toc: techTransferToc, Content: TechTransferContent },
 };
 
 export async function generateStaticParams() {

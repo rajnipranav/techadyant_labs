@@ -284,6 +284,17 @@ export const REPORTS = {
     dataObject: 'data/Techadyant_Industrial_AI_Workbook.xlsx',
     dataFilename: 'Industrial-AI-in-Indian-Manufacturing-Data-Pack-Techadyant-Labs.xlsx',
   },
+  'india-tech-transfer-ecosystem': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'Techadyant_India_Tech_Transfer_Ecosystem.pdf',
+    filename: 'Techadyant-India-Tech-Transfer-Ecosystem-2026-Techadyant-Labs.pdf',
+    title: 'India\u2019s Industrial Technology Transfer Ecosystem',
+    // Report + Data tier: the strategic-intelligence workbook. Price authority for the data tier.
+    priceWithDataInr: 10999,
+    dataObject: 'data/Techadyant_Strategic_Intelligence_Workbook.xlsx',
+    dataFilename: 'Techadyant-India-Tech-Transfer-Ecosystem-Data-Pack-Techadyant-Labs.xlsx',
+  },
 };
 
 
