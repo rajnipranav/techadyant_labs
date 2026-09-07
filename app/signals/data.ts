@@ -2815,6 +2815,43 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['TCS subsidiary HyperVault has secured 264 acres in Hyderabad for an AI data-centre campus of up to 1 GW.', 'HyperVault and partners are expected to invest up to ₹70,000 crore to build and manage the infrastructure in phases.', 'The facility is designed for high-density, liquid-cooled GPU deployments serving AI training, inference, frontier AI companies and hyperscalers.', 'The project could create spillovers across power, cooling, networking, construction, engineering and operations, strengthening India’s AI-infrastructure ecosystem.', 'The sovereignty test will be commissioned and accessible compute capacity, not the announced capacity or investment envelope alone.'],
   sources: ['Primary company announcement covering land, 1-GW capacity, ₹70,000 crore investment envelope, liquid cooling and phased development', 'Independent business coverage corroborating the land, capacity, investment and intended AI customer base', 'Independent reporting on the project’s expected jobs, target date, infrastructure features and Telangana government role', 'PTI-based independent corroboration of the secured land, investment envelope and phased AI infrastructure plan']
+}, {
+  slug: 'maval-366-hectare-defence-data-centre-industrial-estate-pune-2026',
+  no: 'S-086',
+  title: 'Maval’s 366-hectare industrial estate could extend Pune’s defence-manufacturing cluster',
+  domain: 'Industrial Corridors & Defence Manufacturing',
+  date: '2026-09-07',
+  dateLabel: '7 Sept 2026',
+  status: 'live',
+  excerpt: 'Pune’s defence-industrial advantage has been constrained by the same factor affecting many established clusters: not a lack of engineering capability, but a lack of contiguous, specialised industrial space. Maharashtra has moved a proposed 366-hectare Maval estate into the land-preparation and approval process, with defence manufacturers and data centres given priority.',
+  readingTime: '4 min read',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Maharashtra has advanced a proposal for a 366-hectare industrial estate in the Maval–Talegaon belt near Pune. The Times of India reports that the state has cleared the proposal and that land acquisition and compensation procedures are to begin, while Sakal reports that land measurement has been completed and the compensation proposal has been sent to the state government. Both accounts identify defence-related manufacturers as a priority, alongside data centres or global capability centres. The estate is intended to add space for large defence manufacturers, specialised ancillary firms and technology companies within Pune’s wider engineering and aerospace ecosystem.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Defence manufacturing clusters require more than anchor companies. They need contiguous land, precision suppliers, electronics and avionics firms, testing facilities, skilled workers, research links, reliable power and logistics. Pune already has an unusually dense base of engineering companies, research institutions and defence-linked industry, including DRDO, DIAT, Tata, Larsen & Toubro, Bharat Forge and Mahindra. A specialised estate near Talegaon could give that ecosystem room to expand into larger programmes and deeper supplier layers rather than forcing new investment into fragmented or competing industrial sites.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'This is a useful industrial-corridor signal because it shows the next phase of sovereignty policy: expanding established capability clusters rather than creating every defence node from scratch. The proximity to Talegaon, the Pune–Mumbai Expressway and Pune’s research and industrial base could reduce supplier-friction and improve access to skilled talent. But the development should be treated as an estate proposal moving through land and administrative processes, not as a completed project. The differing reports on the approval stage reinforce the need to track documentation, compensation, servicing and allotments before assigning industrial outcomes.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'The next proof points are the formal state or MIDC land-acquisition notification, compensation disbursement, infrastructure tendering and the final demarcation of the estate. After that, the relevant measures will be the number and type of defence manufacturers allotted land, investment actually grounded, supplier contracts, testing and R&D facilities, data-centre power capacity and skilled employment. A successful cluster should show a layered ecosystem of prime contractors and MSMEs rather than a collection of isolated plots.',
+  type: 'p'
+}],
+  takeaways: ['Maharashtra has advanced a proposal for a 366-hectare industrial estate in the Maval–Talegaon belt near Pune.', 'Defence manufacturers, specialised ancillary firms and data centres or global capability centres are reported as priority users.', 'Land measurement has been completed, but the two reports differ on whether final state approval and compensation clearance are complete.', 'The estate could extend Pune’s existing aerospace, defence, engineering and research ecosystem into a more deliberate production cluster.', 'Land acquisition, servicing, allotments, grounded investment and supplier depth will determine whether the proposal becomes a real sovereignty asset.'],
+  sources: ['Reports the state clearance claim, land-acquisition process, priority for defence and data centres, and Pune cluster context', 'Independent Marathi report on completed land measurement, compensation proposal and priority for defence-related production and GCCs']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
