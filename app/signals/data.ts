@@ -2852,6 +2852,58 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Maharashtra has advanced a proposal for a 366-hectare industrial estate in the Maval–Talegaon belt near Pune.', 'Defence manufacturers, specialised ancillary firms and data centres or global capability centres are reported as priority users.', 'Land measurement has been completed, but the two reports differ on whether final state approval and compensation clearance are complete.', 'The estate could extend Pune’s existing aerospace, defence, engineering and research ecosystem into a more deliberate production cluster.', 'Land acquisition, servicing, allotments, grounded investment and supplier depth will determine whether the proposal becomes a real sovereignty asset.'],
   sources: ['Reports the state clearance claim, land-acquisition process, priority for defence and data centres, and Pune cluster context', 'Independent Marathi report on completed land measurement, compensation proposal and priority for defence-related production and GCCs']
+}, {
+  slug: 'defence-acquisition-council-110000-crore-indian-industry-marine-gas-turbines-arudhra-2026',
+  no: 'S-087',
+  title: '₹1.1 lakh crore DAC package tests whether Indian sourcing can become Indian technological control',
+  domain: 'Defence Manufacturing & Strategic Autonomy',
+  date: '2026-09-07',
+  dateLabel: '7 Sept 2026',
+  status: 'live',
+  excerpt: 'The Defence Acquisition Council has opened the door to roughly ₹1.1 lakh crore of military procurement, with the Ministry of Defence saying 98% will be sourced from Indian industry. The headline is large. The more consequential story is underneath it: India is pairing near-term capability acquisition with an indigenous radar replacement and a design-and-development pathway for marine gas turbines—the kind of propulsion technology that determines whether a navy can build and sustain major warships without a foreign bottleneck.',
+  readingTime: '7 min read',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'The Defence Acquisition Council, chaired by Defence Minister Rajnath Singh on 7 September 2026, granted Acceptance of Necessity (AoN)—in-principle administrative approval—to acquisition proposals estimated at about ₹1,10,000 crore. The package spans all three services. For the Army, it includes CBRN reconnaissance vehicles, high-mobility vehicles, self-propelled mechanical mine layers, Advanced Light Helicopters, trawl tanks and Sarvatra Bridge Systems. For the Navy, it includes Arudhra radars to replace existing air-route surveillance radars at naval air stations and the design, development and subsequent procurement of marine gas turbines. For the Air Force, it includes capability enhancements for fighters, transports and helicopters, ground-based multi-purpose jammers and the Defence Forces Secure Access Card system.',
+  type: 'p'
+}, {
+  text: 'Why the headline is not the story',
+  type: 'h'
+}, {
+  text: 'The ₹1.1 lakh crore figure will attract attention because of its scale, but an AoN is not a purchase order, contract, delivery or induction. It is the government’s recognition that a stated military requirement should proceed into the acquisition chain. The package must still pass through solicitation, technical and commercial evaluation, trials where applicable, negotiations, financial approval, contract signing, production, quality assurance and delivery. The central analytical question is therefore not how much was approved in principle, but how quickly the approvals become equipment in units and repeatable work for Indian suppliers.',
+  type: 'p'
+}, {
+  text: 'The two lines that matter most',
+  type: 'h'
+}, {
+  text: 'Arudhra and the marine gas turbine make this package more strategically interesting than a large shopping list. Arudhra is associated with India’s indigenous 4D medium-power phased-array radar work and sits within a wider Indian radar and electronic-systems ecosystem. Replacing legacy surveillance radars with an Indian system can create a long-tail industrial opportunity: production, calibration, mission software, spares, upgrades, training and exportable variants. The value will depend on whether the order supports a scalable domestic product family rather than a one-off assembly run.',
+  type: 'p'
+}, {
+  text: 'The marine-gas-turbine line is harder and potentially more consequential. India’s major surface combatants have historically relied on imported propulsion technology, leaving fleet construction and sustainment exposed to external suppliers and geopolitical disruption. The wording—design and development followed by subsequent procurement—suggests a pathway towards a domestic engine rather than a simple buy. But the PIB announcement does not disclose the power class, developer, test schedule, technology architecture, funding split or first-ship integration plan. Until those details emerge, it should be read as a strategic technology programme entering the acquisition system, not as an indigenous operational engine.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The package points to a more mature phase of defence indigenisation. India is no longer measuring self-reliance only through the presence of domestic vendors; it is beginning to expose the technologies that still sit at the centre of dependency. Radar, electronic warfare, secure identity and combat engineering can often be localised through a combination of public-sector design, private production and systems integration. Marine propulsion is a deeper test because it requires materials, hot-section engineering, turbines, controls, testing, reliability data and a long sustainment ecosystem. A procurement announcement that puts such a technology on a design-and-development track is strategically meaningful even before a contract exists.',
+  type: 'p'
+}, {
+  text: 'What 98% does—and does not—tell us',
+  type: 'h'
+}, {
+  text: 'The 98% figure is a useful demand signal for Indian industry, but it should not be mistaken for complete technological autonomy. A system may be procured from an Indian company while still relying on imported engines, sensors, RF modules, semiconductors, materials, software or test equipment. The next disclosures should identify the procurement category, nominated development agencies, Indian content methodology and the treatment of imported critical components. The meaningful metric is not only where the invoice is issued, but where the design authority, intellectual property, production bottlenecks and repair capability reside.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'For the overall package, watch the conversion of AoNs into RFPs, contracts, production orders and deliveries. For Arudhra, watch the number of radars, manufacturing partners, deployment schedule, software and upgrade rights, and whether the system becomes a common Indian surveillance layer. For marine gas turbines, watch the power class, developer consortium, test-bed, first-engine milestones, hot-section technology, certification plan and first-ship integration. For jammers, CBRN vehicles and DEFSAC, watch whether the programmes create reusable product families and exportable configurations. The final test is operational: a domestic procurement share that delivers late or depends on foreign-controlled bottlenecks will produce less sovereignty than its headline suggests.',
+  type: 'p'
+}],
+  takeaways: ['The DAC granted AoN for defence acquisition proposals estimated at about ₹1.10 lakh crore across the Army, Navy and Air Force.', 'The Ministry of Defence says approximately 98% of the procurements will be made from Indian industry, but the domestic-content definition remains a critical question.', 'The package includes Arudhra radar replacement for naval air stations and design, development and subsequent procurement of marine gas turbines.', 'Marine propulsion is the package’s deepest sovereignty test because it requires control over design, hot-section engineering, testing, reliability and life-cycle support.', 'AoN is an initial approval, not a contract or delivered capability; RFPs, trials, negotiations, orders and induction remain to be tracked.', 'The strategic value will be determined by Indian control of critical subsystems and upgrade paths, not merely by domestic invoicing or vendor nationality.'],
+  sources: ['Primary announcement of the DAC AoNs, service-wise equipment categories and approximately 98% Indian-industry sourcing', 'Independent reporting clarifying that AoN is an initial step and highlighting Arudhra and marine-gas-turbine implications', 'Independent corroboration of the package value and Army capability categories', 'Context on DAP 2020, the AoN-to-contract sequence and the risk of long procurement timelines', 'Company catalogue showing the breadth of India’s indigenous radar, electronic-warfare, CBRN and naval-systems base', 'Official context on DAP changes and the stated objective of reducing time from AoN to contract signing']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
