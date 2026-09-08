@@ -2904,6 +2904,104 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The DAC granted AoN for defence acquisition proposals estimated at about ₹1.10 lakh crore across the Army, Navy and Air Force.', 'The Ministry of Defence says approximately 98% of the procurements will be made from Indian industry, but the domestic-content definition remains a critical question.', 'The package includes Arudhra radar replacement for naval air stations and design, development and subsequent procurement of marine gas turbines.', 'Marine propulsion is the package’s deepest sovereignty test because it requires control over design, hot-section engineering, testing, reliability and life-cycle support.', 'AoN is an initial approval, not a contract or delivered capability; RFPs, trials, negotiations, orders and induction remain to be tracked.', 'The strategic value will be determined by Indian control of critical subsystems and upgrade paths, not merely by domestic invoicing or vendor nationality.'],
   sources: ['Primary announcement of the DAC AoNs, service-wise equipment categories and approximately 98% Indian-industry sourcing', 'Independent reporting clarifying that AoN is an initial step and highlighting Arudhra and marine-gas-turbine implications', 'Independent corroboration of the package value and Army capability categories', 'Context on DAP 2020, the AoN-to-contract sequence and the risk of long procurement timelines', 'Company catalogue showing the breadth of India’s indigenous radar, electronic-warfare, CBRN and naval-systems base', 'Official context on DAP changes and the stated objective of reducing time from AoN to contract signing']
+}, {
+  slug: 'india-defence-industrial-corridors-commitments-grounded-capacity-2026',
+  no: 'S-088',
+  title: 'India’s Defence Corridors Face Their Real Test: Turning ₹70,000 Crore of Promises into Factories',
+  domain: 'Industrial Corridors & Defence Manufacturing',
+  date: '2026-09-08',
+  dateLabel: '8 Sept 2026',
+  status: 'live',
+  excerpt: 'India’s Defence Industrial Corridors have crossed the stage where announcing land and investment is enough. The government now says the Uttar Pradesh and Tamil Nadu corridors have attracted roughly ₹70,000 crore in investment proposals, with nearly ₹10,000 crore invested. The strategic question has changed: can India convert commitments into operating plants, supplier networks, testing capacity and exportable defence products?',
+  readingTime: '6 min read',
+  body: [{
+  text: 'The status update',
+  type: 'h'
+}, {
+  text: 'At a 7 September defence event, the Defence Minister said that the Uttar Pradesh and Tamil Nadu Defence Industrial Corridors had received investment proposals worth approximately ₹70,000 crore, of which nearly ₹10,000 crore had already been invested. The same address linked the corridors to a wider defence-manufacturing ecosystem of more than 16,000 MSMEs and over 2,000 start-ups. The figures matter because they offer a national snapshot of conversion: the corridors are no longer only policy announcements, but neither are they yet equivalent to ₹70,000 crore of operating industrial capacity.',
+  type: 'p'
+}, {
+  text: 'Why the gap is the story',
+  type: 'h'
+}, {
+  text: 'Industrial corridors are often evaluated by the size of their MoUs. That is a poor measure of strategic capacity. Defence manufacturing requires land-ready plots, utilities, environmental permissions, testing and certification, skilled labour, anchor customers, qualified suppliers and repeat procurement. A proposal becomes industrial depth only when capital is grounded, machinery is installed, products are certified, orders are placed and suppliers begin to learn through production. The gap between ₹70,000 crore proposed and ₹10,000 crore invested is therefore not a failure by itself; it is the execution queue that policymakers must now manage.',
+  type: 'p'
+}, {
+  text: 'Uttar Pradesh shows why national averages can mislead',
+  type: 'h'
+}, {
+  text: 'The Uttar Pradesh corridor is a six-node portfolio rather than one uniform project. Lucknow, Kanpur and Jhansi are building visible industrial capacity; Aligarh has a strong MSME profile; Chitrakoot remains at an earlier stage; and Agra had not begun industry allotment in the latest independent account. Economic Times reporting cited about ₹42,322 crore in UP MoU commitments and ₹4,894 crore realised by March 2026. That spread matters: a corridor can report strong aggregate proposals while individual nodes face very different constraints in land readiness, anchor investment, supplier depth and infrastructure.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'India’s corridor strategy is attempting to solve a structural problem: defence demand is concentrated in the state, while private firms must carry the cost of specialised capacity, certification and inventory. Clustering can lower that risk by bringing land, public infrastructure, anchor firms, research institutions and procurement signals closer together. But the state must also prevent the corridors from becoming collections of final-assembly plants dependent on imported engines, electronics, materials or design authority. The next phase is therefore less about attracting another large MoU and more about building a dense, repeat-order industrial network.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'The next meaningful indicators are node-level land allotment, utility completion, factory commissioning, procurement orders and export contracts. Watch whether anchor firms place work with Indian MSMEs, whether common testing and prototyping facilities are used, and whether the corridors produce design-led products rather than only assembly output. Also track the definitions behind “investment received”, “grounded” and “realised”. The most credible progress report will show operational plants, jobs in skilled manufacturing, supplier certifications, delivery performance and product families that can be upgraded and exported.',
+  type: 'p'
+}],
+  takeaways: ['The government reports approximately ₹70,000 crore in investment proposals across the Uttar Pradesh and Tamil Nadu Defence Industrial Corridors, with nearly ₹10,000 crore invested.', 'The proposal-to-investment gap is the key execution metric: announcements have moved into deployment, but most committed capital is still not grounded.', 'The Uttar Pradesh corridor is a six-node portfolio with sharply different levels of maturity, making aggregate totals an incomplete measure of progress.', 'A corridor’s strategic value depends on supplier depth, testing, skills, procurement visibility and design authority—not only factory acreage or MoU value.', 'The next phase of India’s defence-industrial strategy should prioritise converting commitments into operating plants, certified suppliers and repeat exportable products.'],
+  sources: ['Primary ministerial statement reporting approximately ₹70,000 crore in corridor proposals and nearly ₹10,000 crore invested', 'Independent node-level account of UP commitments, realised investment and uneven corridor maturity', 'Node-level figures for UP and Tamil Nadu commitments and grounded or realised investment as of April 2026', 'Independent context on the corridor figures, defence production targets, start-ups and MSME ecosystem']
+}, {
+  slug: 'india-marine-gas-turbine-propulsion-autonomy-dac-2026',
+  no: 'S-089',
+  title: 'India’s Marine Gas Turbine Bet: The Most Important Line Hidden Inside the ₹1.1 Lakh Crore DAC Package',
+  domain: 'Naval Propulsion & Strategic Autonomy',
+  date: '2026-09-08',
+  dateLabel: '8 Sept 2026',
+  status: 'live',
+  excerpt: 'The most consequential line in the Defence Acquisition Council’s ₹1.1 lakh crore package is not a vehicle, helicopter or radar. It is the quiet approval to design and develop marine gas turbines. If India can move from importing propulsion systems to designing, testing, producing and overhauling them at home, it will remove one of the least visible—and most important—foreign dependencies in its surface fleet.',
+  readingTime: '7 min read',
+  body: [{
+  text: 'The line hidden inside the package',
+  type: 'h'
+}, {
+  text: 'On 7 September, the Defence Acquisition Council granted Acceptance of Necessity for the design and development, followed by procurement, of marine gas turbines for the Indian Navy. The Ministry of Defence describes the turbine as a warship propulsion system intended to reduce dependence on foreign vendors. The wording is brief, but the technology is foundational: a surface combatant can be built in India and fitted with Indian weapons while still depending on an overseas supplier for the machinery that gives it speed, endurance and operational availability.',
+  type: 'p'
+}, {
+  text: 'Why propulsion is a sovereignty problem',
+  type: 'h'
+}, {
+  text: 'Propulsion dependence is different from dependence on a single weapon or sensor. An engine affects the construction schedule, availability, overhaul cycle, speed, range and future upgrade path of an entire class of ships. Imported gas turbines also create exposure to export permissions, foreign production queues, specialised spares, original-equipment-manufacturer support and geopolitical disruption. Naval propulsion is therefore an industrial bottleneck: it can constrain the fleet even when the shipyard, combat system and missile inventory are domestic.',
+  type: 'p'
+}, {
+  text: 'This is not India’s first step',
+  type: 'h'
+}, {
+  text: 'The current AoN sits on top of a growing localisation ladder. In June 2026, the Ministry of Defence signed a roughly ₹425 crore contract with Bharat Forge for 12 sets of 1.25 MW marine gas-turbine generators for Kolkata-class ships. The generator programme is for onboard power rather than the much larger main-propulsion turbine, but it matters because it creates an Indian integration and test base and moves the domestic industry into marine gas-turbine operation, maintenance and life-cycle support. Bharat Forge said it would also participate in larger power-plant and propulsion-gas-turbine development.',
+  type: 'p'
+}, {
+  text: 'The foreign-dependence baseline',
+  type: 'h'
+}, {
+  text: 'India’s surface fleet has used foreign-origin gas-turbine systems for decades. Naval News reported a 2021 contract for Ukrainian Zorya-Mashproekt M7H2 units for Indian Navy frigates being built at Goa Shipyard; the units were rated at 58,000 horsepower. Earlier reporting on the indigenous programme has also identified US General Electric alongside Zorya as a foreign-origin propulsion source. The issue is not that foreign propulsion was irrational: it enabled fleet construction. The issue is that dependence becomes strategically costly when the fleet grows, the supplier base is concentrated and geopolitical conditions threaten spares, repairs or follow-on deliveries.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The marine-gas-turbine bet is a test of whether India can build an ecosystem around a difficult technology rather than merely localise its outer shell. The real prize is not one engine model. It is the accumulated capability in high-temperature metallurgy, precision casting and machining, turbine aerodynamics, combustion, controls, test engineering, gearboxes, overhaul and reliability management. Those capabilities can spill into aviation engines, industrial turbines, offshore energy and advanced manufacturing. They also create a strategic option: future warships can be designed around an Indian propulsion roadmap instead of being adapted around whichever foreign engine is available.',
+  type: 'p'
+}, {
+  text: 'The risk: approval is not propulsion',
+  type: 'h'
+}, {
+  text: 'The DAC’s Acceptance of Necessity is a crucial gateway, but it is not a tested engine, a contract for serial production or an inducted capability. The programme must still settle the acquisition category, development agency, funding, prototype architecture, test facilities, qualification standards, production route and first-ship integration. High-power turbines are unforgiving technologies: a small reliability problem in a hot section or control system can delay a programme for years. The strongest signal in the announcement is therefore the opening of the development pathway—not a claim that India has already solved naval propulsion.',
+  type: 'p'
+}, {
+  text: 'What to watch before calling it a success',
+  type: 'h'
+}, {
+  text: 'The next decisive disclosures are the confirmed power class, selected developer or consortium, number of prototypes, government and private funding shares, and the location of the test facility. After that, watch for compressor and turbine test milestones, hot-section materials, endurance runs, gearbox integration, naval qualification and the first platform selected for installation. The relationship between the 1.25 MW generator programme and the larger propulsion effort is also important: the former should become a capability-building bridge, not a substitute for the main-engine challenge. Finally, track the MRO and spare-parts architecture. A turbine is not sovereign if the engine is Indian but its most failure-prone components remain foreign-controlled.',
+  type: 'p'
+}],
+  takeaways: ['The 7 September DAC announcement granted AoN for the design, development and subsequent procurement of marine gas turbines for the Indian Navy.', 'This is potentially more consequential than the package’s headline value because propulsion affects ship construction, availability, speed, sustainment and wartime resilience.', 'Earlier reporting pointed to a 24–28 MW class programme for destroyers and frigates, but the PIB release does not confirm the power class or final programme parameters.', 'The June 2026 Bharat Forge contract for 12 sets of 1.25 MW marine gas-turbine generators is a lower-power stepping stone for domestic integration, testing and life-cycle support.', 'India’s real objective must be control of design, hot-section materials, testing, overhaul and upgrade paths—not merely assembly by an Indian company.', 'AoN opens the pathway; the programme will become strategically credible only after prototype, endurance, qualification and first-ship milestones are achieved.'],
+  sources: ['Primary DAC announcement granting AoN for design, development and subsequent procurement of marine gas turbines', 'Earlier reported context on the possible 24–28 MW Make-I programme, prototype scale, funding range and foreign propulsion baseline', 'MoD contract for 12 sets of 1.25 MW marine gas-turbine generators and Bharat Forge’s integration and future development role', 'Documented Ukrainian Zorya-Mashproekt propulsion supply for Indian Navy frigates and the foreign-supplier baseline', 'Context on the AoN-to-contract and delivery sequence and the risks of long procurement timelines']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
