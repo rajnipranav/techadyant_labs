@@ -1,0 +1,282 @@
+{
+  "entity_id": "atl-sys-matangi-usv",
+  "entity_type": "system",
+  "tier": "A",
+  "noindex": false,
+  "slug": "matangi-usv",
+  "name": "Matangi (Autonomous Surface Vessel)",
+  "variant": null,
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/navy-coast-guard/",
+  "last_verified": "2026-09-09",
+  "status": "In trials",
+  "header": {
+    "one_liner": "An Indian-built autonomous surface vessel that ran the ~1,500 km Mumbai–Thoothukudi coastal transit in autonomous mode with no crew aboard — a validated long-endurance autonomy demonstration, not an inducted fleet capability.",
+    "chips": [
+      "defence",
+      "naval",
+      "unmanned-surface-vessel",
+      "india-oem",
+      "demonstrator"
+    ],
+    "maker": "Sagar Defence Engineering",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Not disclosed",
+    "mobility_or_class": "Autonomous surface vessel (ASV/USV), reported ~12–13 m class",
+    "operational_domains": ["naval"],
+    "entity_path": "/research/pillars/defence/entity/matangi-usv/"
+  },
+  "at_a_glance": {
+    "Type": "Autonomous surface vessel (ASV / USV)",
+    "Maker": "Sagar Defence Engineering, Pune",
+    "Headline demonstration": "Sagarmala Parikrama — Mumbai to Thoothukudi (Tuticorin), reported as ~850 nautical miles / ~1,500 km in autonomous mode with no crew aboard",
+    "First leg": "Mumbai to Karwar, reported at ~350 nautical miles (~600 km) completed overnight",
+    "Flag-off": "Flagged off by Defence Minister Rajnath Singh at the Swavlamban 2024 plenary, Bharat Mandapam, 29 October 2024",
+    "Institutional support": "Indian Navy — Naval Innovation and Indigenisation Organisation (NIIO) and Technology Development Acceleration Cell (TDAC); iDEX / Defence Innovation Organisation",
+    "Autonomy stack": "Indigenously developed navigation and collision-avoidance software; later coverage attributes the autonomy suite to the firm's in-house AI system (reported as 'Genesis' and as 'GENISYS')",
+    "Status on this Atlas": "Demonstrated / validated long-transit autonomy. No primary induction order for this platform located.",
+    "Armament": "Not applicable to the transit configuration reported; no weapon fit reported for the Sagarmala Parikrama vessel"
+  },
+  "what_it_is": {
+    "prose": "Matangi is an autonomous surface vessel built by the Pune-based firm Sagar Defence Engineering. Its public significance rests on a single, well-documented event: Sagarmala Parikrama, an Indian Navy-supported coastal transit in which the vessel ran from Mumbai to Thoothukudi on India's southern tip in autonomous mode, with no crew aboard. Reporting puts the passage at roughly 850 nautical miles, or about 1,500 km, and describes the first leg — Mumbai to Karwar, around 350 nautical miles — as completed overnight. The vessel was flagged off by the Defence Minister at the Swavlamban 2024 plenary at Bharat Mandapam on 29 October 2024, and the Indian Navy's own spokesperson account announced the launch of the passage the same day.\n\nWhat the transit demonstrates is endurance and unsupervised decision-making over open water for days at a stretch, in some of the busiest coastal traffic on the Indian seaboard. That is a materially harder problem than a short harbour-defence sortie: it requires the vessel to hold a route, detect and avoid other traffic, and recover from degraded conditions without an operator in the loop. Reporting credits an indigenously developed navigation and collision-avoidance software stack, with later coverage attributing the capability to the firm's in-house autonomy suite.\n\nThe Atlas records Matangi as a validated demonstrator rather than a fleet capability. A flag-off by a minister and a completed transit establish that the autonomy works over that distance; they do not establish an induction, a production configuration, or a signed platform order. No primary Ministry of Defence or Navy contract document for this specific platform has been located, and the relationship between the Matangi transit hull and the company's later weaponised interceptor and swarm products is not publicly resolved. Both gaps are recorded below rather than papered over.",
+    "sources": ["src-01", "src-02", "src-03", "src-04", "src-05", "src-06"]
+  },
+  "deployments_procurement": {
+    "summary": "One documented, Navy-supported demonstration transit. No primary induction or production order for this platform has been located.",
+    "rows": [
+      {
+        "agency": "Indian Navy (NIIO / TDAC)",
+        "context": "Sagarmala Parikrama — autonomous coastal passage, Mumbai to Thoothukudi, flagged off at Swavlamban 2024",
+        "year": "2024",
+        "quantity_or_note": "1 vessel · demonstration / validation transit, not an induction. Reported at ~850 nm (~1,500 km) in autonomous mode with no crew aboard.",
+        "sources": ["src-01", "src-02", "src-03"]
+      },
+      {
+        "agency": "Indian Navy",
+        "context": "First leg of the same passage, Mumbai to Karwar",
+        "year": "2024",
+        "quantity_or_note": "Reported at ~350 nm (~600 km) completed overnight in autonomous mode.",
+        "sources": ["src-04", "src-06"]
+      }
+    ],
+    "open_questions": [
+      "No primary MoD or Indian Navy contract document for a Matangi platform order has been located. Treat any induction or fleet-strength claim as unsourced.",
+      "The production configuration — if one exists — is not publicly distinguished from the demonstration hull used on the transit."
+    ]
+  },
+  "import_dependencies": {
+    "summary": "Not independently analysed for this platform. Publicly available reporting covers the autonomy software as indigenous but does not itemise the hull, propulsion, sensor or compute supply chain, and no bill of materials has been published. The Atlas does not infer an import profile in the absence of evidence.",
+    "items": []
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "demonstrated_capability",
+        "label": "Demonstrated capability",
+        "value": 4,
+        "note": "A ~1,500 km unsupervised coastal transit is a substantial and independently reported autonomy result, corroborated by the Navy's own announcement.",
+        "sources": ["src-01", "src-02", "src-03"]
+      },
+      {
+        "id": "induction_maturity",
+        "label": "Induction maturity",
+        "value": 1,
+        "note": "Demonstration and validation only. No primary induction order, production configuration or fleet numbers located for this platform.",
+        "sources": ["src-03", "src-05"]
+      },
+      {
+        "id": "autonomy_stack_sovereignty",
+        "label": "Autonomy stack sovereignty",
+        "value": 3,
+        "note": "Navigation and collision-avoidance software is consistently reported as indigenously developed, but no public technical baseline, autonomy level or NavIC-integration specification exists to verify the claim.",
+        "sources": ["src-02", "src-04", "src-08"]
+      },
+      {
+        "id": "source_quality",
+        "label": "Source quality",
+        "value": 4,
+        "note": "One official Navy announcement plus multiple independent trade and mainstream outlets covering the same event. Weakness is depth, not corroboration: no primary technical or contractual document.",
+        "sources": ["src-01", "src-02", "src-03", "src-04"]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [
+      "/research/pillars/defence/entity/sagar-defence-engineering/"
+    ],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/pillars/defence/navy-coast-guard/",
+      "/research/pillars/defence/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2024-10-29",
+      "event": "Flagged off by Defence Minister Rajnath Singh at the Swavlamban 2024 plenary session, Bharat Mandapam. The Indian Navy announces the launch of Sagarmala Parikrama the same day.",
+      "sources": ["src-01", "src-02"]
+    },
+    {
+      "date": "2024-10",
+      "event": "First leg completed — Mumbai to Karwar, reported at ~350 nautical miles overnight in autonomous mode.",
+      "sources": ["src-04", "src-06"]
+    },
+    {
+      "date": "2024-11",
+      "event": "Passage reported complete at Thoothukudi (Tuticorin), covering ~1,500 km with Indian Navy support.",
+      "sources": ["src-03", "src-05"]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Matangi?",
+      "answer": "Matangi is an autonomous surface vessel (ASV/USV) built by Sagar Defence Engineering of Pune. It is best known for Sagarmala Parikrama, an Indian Navy-supported passage from Mumbai to Thoothukudi run in autonomous mode with no crew aboard.",
+      "sources": ["src-01", "src-02", "src-03"]
+    },
+    {
+      "question": "How far did Matangi travel autonomously?",
+      "answer": "Reporting puts the full Mumbai–Thoothukudi passage at roughly 850 nautical miles, or about 1,500 km. The first leg, Mumbai to Karwar, was reported at around 350 nautical miles completed overnight.",
+      "sources": ["src-02", "src-04", "src-06"]
+    },
+    {
+      "question": "Is Matangi in service with the Indian Navy?",
+      "answer": "Not on the evidence available. The Navy supported and publicised the transit, and the vessel was flagged off by the Defence Minister, but no primary Ministry of Defence or Navy order, induction record or fleet number for this platform has been located. The Atlas records it as a demonstrated and validated capability rather than an in-service fleet.",
+      "sources": ["src-01", "src-03"]
+    },
+    {
+      "question": "Who flagged off the Sagarmala Parikrama transit and when?",
+      "answer": "Defence Minister Rajnath Singh, at the plenary session of Swavlamban 2024 at Bharat Mandapam on 29 October 2024.",
+      "sources": ["src-01", "src-02"]
+    },
+    {
+      "question": "Is Matangi armed?",
+      "answer": "No weapon fit has been reported for the vessel used on the Sagarmala Parikrama transit. Sagar Defence Engineering is separately associated in press reporting with weaponised autonomous interceptor craft, but the Atlas does not treat those as the same platform in the absence of a source establishing the link.",
+      "sources": ["src-03", "src-07"]
+    },
+    {
+      "question": "What autonomy software does it use?",
+      "answer": "Reporting credits an indigenously developed navigation and collision-avoidance software stack. Later coverage attributes the capability to the company's in-house AI autonomy suite, referred to variously as 'Genesis' and as 'GENISYS'. No public technical baseline for that suite has been published.",
+      "sources": ["src-04", "src-08", "src-09"]
+    }
+  ],
+  "open_questions": [
+    "What was the exact configuration of the Matangi hull used on Sagarmala Parikrama, and does a distinct production configuration exist?",
+    "What is the relationship between the Matangi transit platform and the company's later weaponised autonomous interceptor craft and swarm products? Public reporting treats them as one lineage without establishing it.",
+    "Is there a primary MoD or Indian Navy contract, order number or induction record for a Matangi platform, as distinct from the demonstration transit?",
+    "What is the public technical baseline for the autonomy suite — sensor fit, SAE-equivalent autonomy level, and whether NavIC is integrated as a primary or fallback positioning source?",
+    "Naming is inconsistent across sources: 'Genesis' and 'GENISYS' are both used for what appears to be the same autonomy stack. Which is the company's formal product name?",
+    "Indigenous content percentage for the platform is not disclosed and is not inferred here."
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Swavlamban 2024 / Sagarmala Parikrama — autonomous passage by Matangi, an Autonomous Surface Vessel developed by Sagar Defence",
+      "publisher": "Indian Navy (Spokesperson, @indiannavy)",
+      "url": "https://x.com/indiannavy/status/1851593148620796287",
+      "published_date": "2024-10-29",
+      "trust_tier": "official",
+      "accessed": "2026-09-09",
+      "note": "Service's own announcement of the passage. Social-media post rather than a press release; corroborated by the trade and mainstream coverage below."
+    },
+    {
+      "id": "src-02",
+      "title": "Autonomous Vessel Matangi Embarks on Mumbai-Tuticorin Mission, Pioneering India's Maritime Innovation",
+      "publisher": "The Statesman",
+      "url": "https://www.thestatesman.com/india/autonomous-vessel-matangi-embarks-on-mumbai-tuticorin-mission-pioneering-indias-maritime-innovation-1503359356.html",
+      "published_date": "2024-10",
+      "trust_tier": "credible",
+      "accessed": "2026-09-09",
+      "note": "Source for the ~850 nm / 1,500 km figure and the Rajnath Singh flag-off at Bharat Mandapam."
+    },
+    {
+      "id": "src-03",
+      "title": "Sagar Defence Engineering completes Sagarmala Parikrama autonomous voyage with Indian Navy support",
+      "publisher": "India Strategic",
+      "url": "https://www.indiastrategic.in/sagar-defence-engineering-completes-sagarmala-parikrama-autonomous-voyage-with-indian-navy-support/",
+      "published_date": "2024-11",
+      "trust_tier": "credible",
+      "accessed": "2026-09-09",
+      "note": "Completion of the passage to Thoothukudi."
+    },
+    {
+      "id": "src-04",
+      "title": "Sagarmala Parikrama completes first leg with autonomous passage",
+      "publisher": "Millennium Post",
+      "url": "https://www.millenniumpost.in/nation/sagarmala-parikrama-completes-first-leg-with-autonomous-passage-585197",
+      "published_date": "2024-10",
+      "trust_tier": "credible",
+      "accessed": "2026-09-09",
+      "note": "First leg to Karwar; indigenous navigation and collision-avoidance software."
+    },
+    {
+      "id": "src-05",
+      "title": "Sagar Defence Engineering Completes Sagarmala Parikrama Autonomous Voyage",
+      "publisher": "FORCE India",
+      "url": "https://forceindia.net/blog/sagar-defence-engineering-completes-sagarmala-parikrama-autonomous-voyage",
+      "published_date": "2024-11",
+      "trust_tier": "credible",
+      "accessed": "2026-09-09",
+      "note": null
+    },
+    {
+      "id": "src-06",
+      "title": "India Making Strides in Autonomous Maritime Security with Matangi USV's 350 Nautical Miles Journey",
+      "publisher": "Republic World",
+      "url": "https://www.republicworld.com/defence/defence-technology/india-making-strides-in-autonomous-maritime-security-with-matangi-usvs-350-nautical-miles-journey",
+      "published_date": "2024-10",
+      "trust_tier": "credible",
+      "accessed": "2026-09-09",
+      "note": "Source for the ~350 nm first-leg figure."
+    },
+    {
+      "id": "src-07",
+      "title": "Indian Navy to Deploy Weaponised Unmanned Surface Vessels Developed by Sagar Defence",
+      "publisher": "Indian Defence Research Wing (idrw)",
+      "url": "https://idrw.org/indian-navy-to-deploy-weaponised-unmanned-surface-vessels-developed-by-sagar-defence/",
+      "published_date": "2023-10",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-09",
+      "note": "Cited only to record that a separate weaponised-USV product line is reported. Not used to support any claim about the Matangi transit platform."
+    },
+    {
+      "id": "src-08",
+      "title": "Sagar Defence Engineering builds uncrewed boats that patrol and survey without anyone aboard",
+      "publisher": "YourStory",
+      "url": "https://yourstory.com/2026/08/sagar-defence-uncrewed-boats",
+      "published_date": "2026-08",
+      "trust_tier": "credible",
+      "accessed": "2026-09-09",
+      "note": "Company profile; attributes the Matangi transit to an in-house AI system named Genesis."
+    },
+    {
+      "id": "src-09",
+      "title": "Silent Sentinels at Sea: Sagar Defence and Indian Navy's Unmanned Leap",
+      "publisher": "Raksha Anirveda",
+      "url": "https://raksha-anirveda.com/silent-sentinels-at-sea-sagar-defence-and-indian-navys-unmanned-leap/",
+      "published_date": "2025",
+      "trust_tier": "credible",
+      "accessed": "2026-09-09",
+      "note": "Describes the autonomy command-and-control module as GENISYS — the naming inconsistency recorded in open questions."
+    }
+  ],
+  "seo": {
+    "title": "Matangi Autonomous Surface Vessel (USV) — System · India Defence Atlas | Techadyant",
+    "meta_description": "Matangi USV dossier: the Sagarmala Parikrama Mumbai–Thoothukudi autonomous transit, Indian Navy and NIIO support, maker Sagar Defence Engineering, and what is not yet established about induction and contracts.",
+    "canonical_path": "/research/pillars/defence/entity/matangi-usv/",
+    "og_type": "article",
+    "json_ld_types": ["Product", "FAQPage", "BreadcrumbList"]
+  },
+  "cta": {
+    "track_ecosystem": "/research/pillars/defence/navy-coast-guard/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      { "label": "Maker: Sagar Defence Engineering", "path": "/research/pillars/defence/entity/sagar-defence-engineering/" },
+      { "label": "Navy & Coast Guard Atlas", "path": "/research/pillars/defence/navy-coast-guard/" },
+      { "label": "Beyond Sea Drones — India's autonomous maritime systems", "path": "/reports/beyond-sea-drones-india-autonomous-maritime-systems/" }
+    ]
+  }
+}

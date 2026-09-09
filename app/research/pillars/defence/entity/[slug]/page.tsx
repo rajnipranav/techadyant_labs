@@ -12,11 +12,18 @@ import { listStaticParamsForBase } from '../../../../../../lib/loadDossier';
 
 const BASE = '/research/pillars/defence';
 
+// Company/system dossiers registered in COMPANY_DOSSIER_MAP (rather than DOSSIER_MAP)
+// are NOT picked up by listStaticParamsForBase, and are only prerendered if a matching
+// entity happens to exist in _defence.json. These maritime-unmanned dossiers have no
+// _defence.json counterpart, so they are listed explicitly or the route 404s.
+const COMPANY_DOSSIER_SLUGS = ['matangi-usv', 'sagar-defence-engineering'];
+
 export function generateStaticParams() {
   const dossierSlugs = listStaticParamsForBase("/research/pillars/defence/entity/");
   const dataSlugs = entities.map(e => ({ slug: entitySlug(e.id) }));
   const seen = new Set(dossierSlugs.map(s => s.slug));
-  for (const s of dataSlugs) { if (!seen.has(s.slug)) dossierSlugs.push(s); }
+  for (const s of dataSlugs) { if (!seen.has(s.slug)) { dossierSlugs.push(s); seen.add(s.slug); } }
+  for (const slug of COMPANY_DOSSIER_SLUGS) { if (!seen.has(slug)) { dossierSlugs.push({ slug }); seen.add(slug); } }
   return dossierSlugs;
 }
 // dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs

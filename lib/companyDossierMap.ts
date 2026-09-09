@@ -178,6 +178,12 @@ import dossier_thyssenkrupp_marine_systems_ from "../data/dossiers/thyssenkrupp-
 import dossier_uttam_aesa_radar_ from "../data/dossiers/uttam-aesa-radar.json";
 import dossier_vshorads_ from "../data/dossiers/vshorads.json";
 
+// --- MANUAL ADDITIONS (not from MANIFEST.json) — keep on regeneration ---
+// atlas/matangi-sagar-defence · 2026-09-09 · maritime unmanned (defence vertical)
+import dossier_matangi_usv_ from "../data/company-dossiers/matangi-usv.json";
+import dossier_sagar_defence_engineering_ from "../data/company-dossiers/sagar-defence-engineering.json";
+// --- END MANUAL ADDITIONS ---
+
 export type CompanyDossierTier = "A" | "B";
 
 export interface CompanyDossierMapEntry {
@@ -190,6 +196,10 @@ export interface CompanyDossierMapEntry {
 }
 
 export const COMPANY_DOSSIER_MAP: Record<string, readonly CompanyDossierMapEntry[]> = {
+  // --- MANUAL ADDITIONS (not from MANIFEST.json) — keep on regeneration ---
+  "matangi-usv": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/matangi-usv/", filename: "matangi-usv.json", dossier: dossier_matangi_usv_ as unknown as EntityDossier }],
+  "sagar-defence-engineering": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/sagar-defence-engineering/", filename: "sagar-defence-engineering.json", dossier: dossier_sagar_defence_engineering_ as unknown as EntityDossier }],
+  // --- END MANUAL ADDITIONS ---
   "adani-defence-aerospace-mfr-017": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/adani-defence-aerospace-mfr-017/", filename: "adani-defence-aerospace-mfr-017.json", dossier: dossier_adani_defence_aerospace_mfr_017_ as unknown as EntityDossier }],
   "asteria-aerospace-ltd-mfr-016": [{ tier: "B", vertical: "drones-uas", path: "/research/drones-uas/company/asteria-aerospace-ltd-mfr-016/", filename: "asteria-aerospace-ltd-mfr-016.json", dossier: dossier_asteria_aerospace_ltd_mfr_016_ as unknown as EntityDossier }],
   "bharat-dynamics-limited-bdl-mfr-012": [{ tier: "B", vertical: "drones-uas", path: "/research/drones-uas/company/bharat-dynamics-limited-bdl-mfr-012/", filename: "bharat-dynamics-limited-bdl-mfr-012.json", isPointer: true, dossier: dossier_bharat_dynamics_limited_bdl_mfr_012_ as unknown as EntityDossier }],

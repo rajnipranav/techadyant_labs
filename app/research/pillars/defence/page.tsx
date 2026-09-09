@@ -177,6 +177,18 @@ export default function DefenceLanding() {
               ))}
             </ul>
           </div>
+
+          {/* Maritime unmanned */}
+          <div style={card}>
+            <div style={{ ...kick, marginBottom: 10 }}>Maritime unmanned · naval autonomy</div>
+            <p style={{ fontSize: 12.5, color: 'var(--text-dim)', margin: '0 0 10px', lineHeight: 1.55 }}>
+              Uncrewed surface and underwater systems entering the naval domain. Demonstrated autonomy is kept distinct from inducted capability.
+            </p>
+            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+              <Link href={`${BASE}/entity/matangi-usv/`} style={{ fontSize: 12.5, color: 'var(--text)', textDecoration: 'none', border: '1px solid var(--border, rgba(255,255,255,.14))', borderRadius: 7, padding: '4px 9px' }}>Matangi — autonomous surface vessel</Link>
+              <Link href={`${BASE}/entity/sagar-defence-engineering/`} style={{ fontSize: 12.5, color: 'var(--text)', textDecoration: 'none', border: '1px solid var(--border, rgba(255,255,255,.14))', borderRadius: 7, padding: '4px 9px' }}>Sagar Defence Engineering</Link>
+            </div>
+          </div>
         </div>
 
         <p style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 16, lineHeight: 1.6 }}>
