@@ -3043,6 +3043,77 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['NITI Aayog\'s e-FAST India initiative launched PACT and the ZET Marketplace at the fifth e-FAST India Summit on 8 September 2026 to scale zero-emission trucking.', 'PACT aggregates freight demand from shippers and logistics operators into bankable electric-truck deployments across identified corridors.', 'Deployments of electric medium- and heavy-duty trucks rose from 201 in FY25 to 826 in FY26, with about 3,000 now operating nationally.', 'The approach targets financing and utilisation risk - a coordination problem - rather than vehicle availability, echoing how India scaled solar and electric buses.'],
   sources: ['ITLN (8 Sep 2026): https://www.itln.in/logistics/niti-aayog-launches-pact-to-accelerate-electric-trucking-1360571', 'ANI (7 Sep 2026): https://aninews.in/news/business/niti-aayog-launches-pact-zet-marketplace-to-give-momentum-to-freight-electrification16020260907192127/', 'Business Today (7 Sep 2026): https://www.businesstoday.in/industry/story/niti-aayog-launches-new-platforms-to-scale-up-electric-truck-adoption-553788-2026-09-07']
+}, {
+  slug: 'india-deep-sea-mining-crawler-critical-minerals-blue-economy-2026',
+  no: 'S-091',
+  title: 'India Reaches 5,000 Metres: The Deep-Sea Mining Capability Behind Its Next Critical-Minerals Bet',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-09-09',
+  dateLabel: '9 Sep 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Earth Sciences and NIOT have demonstrated indigenous deep-sea mining crawler systems at depths exceeding 5,000 metres under the ₹4,077 crore Deep Ocean Mission. The milestone marks the start of India\'s subsea engineering layer for critical-minerals access, not the beginning of commercial mining.',
+  readingTime: '6 min read',
+  body: [{
+  text: 'development',
+  type: 'h'
+}, {
+  text: 'The Ministry of Earth Sciences and the National Institute of Ocean Technology have demonstrated indigenous deep-sea mining crawler systems at depths exceeding 5,000 metres in the Indian Ocean. The milestone was presented alongside an industry-outreach workshop on deep-sea mining involving policymakers, regulators, technology developers, research institutions and financial leaders. The government is now examining how to connect India’s scientific capability with private investment and an integrated maritime industrial ecosystem.',
+  type: 'p'
+}, {
+  text: '>5,000 m — subsea demonstration depth. This is a technology and engineering milestone, not evidence of commercial mineral production',
+  type: 'p'
+}, {
+  text: 'Why the crawler matters',
+  type: 'h'
+}, {
+  text: 'The headline resource is not the same as an available supply. Deep-sea polymetallic nodules may contain nickel, cobalt, copper and manganese, but accessing them requires vessels, launch and recovery systems, subsea robotics, navigation, power, collection mechanisms, materials that survive extreme pressure, and a way to lift, separate and process the material. The crawler addresses one of the least visible links in that chain: the ability to operate equipment on the seabed at depths where conventional industrial tools cannot simply be adapted.',
+  type: 'p'
+}, {
+  type: 'list',
+  items: ['Layer: Resource access — Current signal: ISA exploration contracts and mapped seabed areas — Remaining sovereignty test: Convert exploration rights into technically feasible extraction plans', 'Layer: Subsea engineering — Current signal: Indigenous crawler demonstrated beyond 5,000 metres — Remaining sovereignty test: Prove endurance, reliability, collection efficiency and recovery', 'Layer: Marine systems — Current signal: Deep Ocean Mission technology base — Remaining sovereignty test: Develop specialised vessels, launch systems and subsea support', 'Layer: Processing — Current signal: Mine-to-metal ecosystem under discussion — Remaining sovereignty test: Recover and refine nickel, cobalt, copper and manganese economically', 'Layer: Industrial participation — Current signal: Industry outreach workshop and planned White Paper — Remaining sovereignty test: Secure bankable private projects and domestic supply-chain roles', 'Layer: Regulation — Current signal: International Seabed Authority exploration framework — Remaining sovereignty test: Await finalisation of the Exploitation Code before commercial mining can begin']
+}, {
+  text: 'India already has a resource position—now it needs an operating system',
+  type: 'h'
+}, {
+  text: 'India holds an International Seabed Authority exploration contract covering 75,000 square kilometres in the Central Indian Ocean Basin, where polymetallic nodule resources are estimated at roughly 366–380 million tonnes. It also holds two exploration contracts for polymetallic sulphides, including a newer agreement covering the Carlsberg Ridge. Those rights give India a strategic position, but they do not create assured mineral supply. The commercial and geopolitical value will depend on whether India can move from geological presence to repeatable exploration, collection, transport, processing and offtake.',
+  type: 'p'
+}, {
+  text: 'mine-to-metal ambition',
+  type: 'h'
+}, {
+  text: 'The industry workshop is significant because it frames deep-sea mining as an industrial ecosystem rather than a narrow scientific mission. The potential chain extends from marine robotics and offshore engineering to shipbuilding, metallurgy, refining and downstream battery materials. If the planned White Paper produces a credible roadmap, it could clarify where private companies can participate, what public infrastructure is available, and which parts of the value chain India wants to own domestically.',
+  type: 'p'
+}, {
+  text: 'The strategic asset is not a tonne of nodules on a geological map. It is the ability to reach, collect, lift, process and finance them without creating a new dependency at every step.',
+  type: 'quote',
+  source: 'Techadyant Labs analysis'
+}, {
+  text: 'constraint is not only technical',
+  type: 'h'
+}, {
+  text: 'Commercial mining in international waters cannot begin until the International Seabed Authority finalises its Exploitation Code. The regulatory timetable is therefore as important as the engineering timetable. Environmental assessment, marine biodiversity safeguards and the economics of lifting and processing material from extreme depth will determine whether the technology becomes a strategic supply option or remains an exploration capability. India will also need to show that its mine-to-metal pathway is competitive against terrestrial mines and recycled material.',
+  type: 'p'
+}, {
+  text: 'Why this is distinct from India’s land-based mineral push',
+  type: 'h'
+}, {
+  text: 'India’s recent critical-minerals signals have focused on land-based auctions, overseas exploration vehicles, processing dependencies and mineral blocks. This development is different. It concerns the creation of a domestic subsea technology stack and the industrial institutions required to access resources that are geographically remote, technically difficult and governed by an international regime. It is a capability signal before it is a mining-output signal.',
+  type: 'p'
+}, {
+  text: 'Techadyant view',
+  type: 'h'
+}, {
+  text: 'The deep-sea crawler demonstration gives India an option value in a future where critical-mineral supply chains may be constrained by export controls, concentration of processing capacity and competition for terrestrial deposits. But option value is not supply security. The decisive next step is to connect NIOT and MoES technology to private-sector engineering, test infrastructure, metallurgical processing and a regulatory roadmap. Without that bridge, India may possess exploration rights and a prototype while remaining dependent on others for the mine-to-metal chain.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'The next markers are publication of the White Paper, integrated collection-system trials, subsea endurance demonstrations, private-sector commitments, specialised vessel capability, pilot processing and progress on the ISA Exploitation Code. Watch especially for evidence that India can recover and refine material economically, not merely reach the seabed. That is the point at which a technology demonstration begins to become a strategic supply-chain asset.',
+  type: 'p'
+}],
+  takeaways: ['NIOT has demonstrated indigenous deep-sea mining crawler systems at depths exceeding 5,000 metres under the ₹4,077 crore Deep Ocean Mission.', 'India’s ISA exploration rights provide strategic access, but not commercial mineral supply; the missing layer is an integrated subsea-to-processing industrial chain.', 'The industry workshop and planned White Paper signal an attempt to move deep-sea mining from a government technology mission towards private-sector participation.', 'The development is distinct from land-based mineral auctions and overseas exploration because it builds the technology needed to access resources in extreme subsea environments.', 'The decisive tests are endurance, collection, lifting, processing economics, environmental safeguards and regulatory approval—not the crawler demonstration alone.'],
+  sources: ['Press Information Bureau, Ministry of Earth Sciences', 'DD News', 'International Seabed Authority']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
