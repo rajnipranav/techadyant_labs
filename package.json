@@ -2,6 +2,7 @@
   "name": "labs-techadyant",
   "version": "2.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "node scripts/sync-cms-to-data.mjs && node scripts/bake-sid.mjs && node scripts/bake-platform.mjs && next build && node scripts/indexnow-submit.mjs",

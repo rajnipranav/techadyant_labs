@@ -5,6 +5,7 @@ export interface SignalBody {
   src?: string;
   alt?: string;
   caption?: string;
+  source?: string;
 }
 
 export interface SignalMeta {
