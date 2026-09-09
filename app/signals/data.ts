@@ -3002,6 +3002,47 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The 7 September DAC announcement granted AoN for the design, development and subsequent procurement of marine gas turbines for the Indian Navy.', 'This is potentially more consequential than the package’s headline value because propulsion affects ship construction, availability, speed, sustainment and wartime resilience.', 'Earlier reporting pointed to a 24–28 MW class programme for destroyers and frigates, but the PIB release does not confirm the power class or final programme parameters.', 'The June 2026 Bharat Forge contract for 12 sets of 1.25 MW marine gas-turbine generators is a lower-power stepping stone for domestic integration, testing and life-cycle support.', 'India’s real objective must be control of design, hot-section materials, testing, overhaul and upgrade paths—not merely assembly by an Indian company.', 'AoN opens the pathway; the programme will become strategically credible only after prototype, endurance, qualification and first-ship milestones are achieved.'],
   sources: ['Primary DAC announcement granting AoN for design, development and subsequent procurement of marine gas turbines', 'Earlier reported context on the possible 24–28 MW Make-I programme, prototype scale, funding range and foreign propulsion baseline', 'MoD contract for 12 sets of 1.25 MW marine gas-turbine generators and Bharat Forge’s integration and future development role', 'Documented Ukrainian Zorya-Mashproekt propulsion supply for Indian Navy frigates and the foreign-supplier baseline', 'Context on the AoN-to-contract and delivery sequence and the risks of long procurement timelines']
+}, {
+  slug: 'niti-aayog-pact-zet-marketplace-electric-freight-2026',
+  no: 'S-090',
+  title: 'NITI Aayog bets on demand aggregation, not subsidies, to scale India\'s electric trucking',
+  domain: 'Logistics & Mobility',
+  date: '2026-09-09',
+  dateLabel: '9 Sep 2026',
+  status: 'live',
+  excerpt: 'India\'s freight decarbonisation has stalled on financing and utilisation risk, not vehicle availability. NITI Aayog\'s new PACT platform and ZET Marketplace try to pool scattered freight demand into bankable electric-truck deployments - as heavy e-truck numbers rose from 201 in FY25 to 826 in FY26.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 8 September 2026, at the fifth e-FAST India Summit, NITI Aayog\'s e-FAST India initiative launched PACT (Platform for Aggregating Clean Transport) and the ZET (Zero Emission Trucking) Marketplace. PACT aggregates freight demand from shippers, logistics service providers and other stakeholders and converts it into deployment opportunities along identified freight corridors, bringing financiers, vehicle manufacturers and charge-point operators into the same planning picture. The ZET Marketplace is an interactive platform connecting electric-truck manufacturers, logistics operators, charge-point operators, financiers and technology firms. Deployments of electric medium- and heavy-duty trucks rose from 201 in FY25 to 826 in FY26, with roughly 3,000 such trucks now operating nationally.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India moves the bulk of its goods by road, and heavy trucks account for a disproportionate share of transport fuel use and emissions relative to their small share of the vehicle fleet. The barrier to electrifying them has not been the availability of vehicles but the economics: an individual fleet operator faces uncertain utilisation, thin charging infrastructure and financiers wary of an unproven asset. By pooling demand across many shippers onto defined corridors, PACT is a demand-side intervention aimed squarely at that financing and utilisation risk. It treats sub-scale electric trucking as a coordination failure to be organised away, rather than a technology gap to be subsidised.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The significance is the model, not the launch. Aggregating demand to de-risk financing and anchor corridor charging is the same orchestration playbook that scaled solar and, earlier, electric buses under FAME - the state acting as a convener of private capital rather than a direct subsidiser. For India\'s logistics sovereignty it matters on two axes at once: road freight is both an emissions problem and an oil-import exposure, so every diesel truck-kilometre displaced is imported crude not bought. The risk is that a platform without binding commitments becomes a matchmaking exercise, and the base is still tiny - 826 heavy electric trucks in FY26 against a national fleet counted in the millions.',
+  type: 'p'
+}, {
+  text: 'The bottleneck in electric trucking was never the truck. It was the balance sheet - and PACT is a bet that aggregated, visible demand is what finally makes the financing work.',
+  type: 'quote',
+  source: 'Techadyant Labs analysis'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether PACT converts aggregated demand into binding, financed orders rather than expressions of interest.', 'The pace of corridor charging build-out, without which long-haul electric trucking cannot scale.', 'Financier participation and the cost of capital offered to e-truck fleets - the real measure of de-risking.', 'Growth in heavy electric-truck deployments beyond the FY26 base of 826 toward a fleet-relevant scale.']
+}],
+  takeaways: ['NITI Aayog\'s e-FAST India initiative launched PACT and the ZET Marketplace at the fifth e-FAST India Summit on 8 September 2026 to scale zero-emission trucking.', 'PACT aggregates freight demand from shippers and logistics operators into bankable electric-truck deployments across identified corridors.', 'Deployments of electric medium- and heavy-duty trucks rose from 201 in FY25 to 826 in FY26, with about 3,000 now operating nationally.', 'The approach targets financing and utilisation risk - a coordination problem - rather than vehicle availability, echoing how India scaled solar and electric buses.'],
+  sources: ['ITLN (8 Sep 2026): https://www.itln.in/logistics/niti-aayog-launches-pact-to-accelerate-electric-trucking-1360571', 'ANI (7 Sep 2026): https://aninews.in/news/business/niti-aayog-launches-pact-zet-marketplace-to-give-momentum-to-freight-electrification16020260907192127/', 'Business Today (7 Sep 2026): https://www.businesstoday.in/industry/story/niti-aayog-launches-new-platforms-to-scale-up-electric-truck-adoption-553788-2026-09-07']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
