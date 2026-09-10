@@ -521,14 +521,14 @@ export const corridorDeep: Record<string, CorridorDeep> = {
   'delhi-mumbai': {
     slug: 'delhi-mumbai',
     intro: [
-      'The Delhi–Mumbai Industrial Corridor (DMIC) is the programme’s flagship and by far its most advanced — the first corridor sanctioned, the model the others copy. It runs ~1,504 km along the Western Dedicated Freight Corridor (Dadri to Jawaharlal Nehru Port), and NICDC (formerly DMICDC) develops it with Japan as a 26% equity partner via JBIC, against a programme-scale figure of ~US$90 billion.',
+      'The Delhi–Mumbai Industrial Corridor (DMIC) is the programme’s flagship and by far its most advanced — the first corridor sanctioned, the model the others copy. It runs ~1,504 km along the Western Dedicated Freight Corridor (Dadri to Jawaharlal Nehru Port) — fully operational since 8 September 2026, when the final 326 km were dedicated — and NICDC (formerly DMICDC) develops it with Japan as a 26% equity partner via JBIC, against a programme-scale figure of ~US$90 billion.',
       'Four of its nine sub-nodes are genuinely operational — dedicated to the nation by the Prime Minister, with plots allotted and units producing. Two are the corridor’s marquee bets: Dholera, now positioned as India’s first semiconductor city around Tata Electronics’ ₹91,000-crore fab; and AURIC near Aurangabad, India’s first greenfield smart industrial city, anchoring a fast-filling EV-and-auto cluster (Toyota, JSW, Ather, Hyosung).',
       'The rest of the corridor splits between logistics hubs — Nangal Chaudhary’s Phase-I rail operations went live with the first freight train flagged off in August 2026 while Dadri’s PPP concession is in evaluation — and CCEA-approved industrial areas still tendering trunk-infrastructure contracts (Dighi Port, Jodhpur–Pali–Marwar, Khushkhera–Bhiwadi–Neemrana). Unlike the younger corridors, DMIC already has deep, named, large-ticket tenants — so its operational nodes carry real company files, not just projections.',
     ],
     facts: [
       { k: 'Length', v: '~1,504 km' },
       { k: 'States', v: 'Delhi NCR + 6 (UP, Haryana, Rajasthan, MP, Gujarat, Maharashtra)' },
-      { k: 'Backbone', v: 'Western Dedicated Freight Corridor (Dadri–JNPT)' },
+      { k: 'Backbone', v: 'Western Dedicated Freight Corridor (Dadri–JNPT) — fully operational, 1,506 km (Sep 2026)' },
       { k: 'Developer', v: 'NICDC (ex-DMICDC); Japan/JBIC 26% equity' },
       { k: 'Programme scale', v: '~US$90 billion' },
       { k: 'Sub-nodes', v: '9 (4 operational and PM-dedicated)' },
@@ -1057,8 +1057,9 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       { date: '2025', label: 'EPC tenders for Dighi, JPMIA, Dadri, Nangal Chaudhary' },
       { date: 'Aug 2026', label: 'First freight train flagged off from IMLH Nangal Chaudhary — Phase-I rail operations live' },
       { date: 'Aug 2026', label: 'Apex Authority confirms the four DMIC smart cities “entered the production stage”; fresh Bidkin allotment round opens (24 Aug – 4 Sep)' },
+      { date: 'Sep 2026', label: 'Final three Western DFC sections (326 km) dedicated (8 Sep) — the 1,506 km Dadri–JNPT route is fully operational' },
     ],
-    sources: [DPIIT, APEX, FUNDS, { label: 'NICDC — DMIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/delhi-mumbai-industrial-corridor-dmic' }, { label: 'Invest India — Blueprints of success', url: 'https://www.investindia.gov.in/blogs/blueprints-success' }, { label: 'ET Infra — first freight train from IMLH Nangal Chaudhary (Aug 2026)', url: 'https://infra.economictimes.indiatimes.com/news/railways/cm-saini-flags-off-first-freight-train-from-haryanas-nangal-chaudhary-logistics-hub/133454621' }],
+    sources: [DPIIT, APEX, FUNDS, { label: 'JICA — final three Western DFC sections dedicated; corridor fully operational (8 Sep 2026)', url: 'https://www.jica.go.jp/english/overseas/india/information/press/2026/1585189_70871.html' }, { label: 'PIB — three WDFC sections covering 326 route km dedicated (Sep 2026)', url: 'https://www.pib.gov.in/PressReleasepage.aspx?PRID=2307319&reg=48&lang=1' }, { label: 'NICDC — DMIC', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme/delhi-mumbai-industrial-corridor-dmic' }, { label: 'Invest India — Blueprints of success', url: 'https://www.investindia.gov.in/blogs/blueprints-success' }, { label: 'ET Infra — first freight train from IMLH Nangal Chaudhary (Aug 2026)', url: 'https://infra.economictimes.indiatimes.com/news/railways/cm-saini-flags-off-first-freight-train-from-haryanas-nangal-chaudhary-logistics-hub/133454621' }],
   },
   'vizag-chennai': {
     slug: 'vizag-chennai',

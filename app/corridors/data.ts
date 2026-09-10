@@ -21,13 +21,13 @@ export const CLASS_LABEL: Record<CorridorClass, string> = { operational: 'Operat
 export const corridors: Corridor[] = [
   {
     slug: "delhi-mumbai", num: 1, name: "Delhi–Mumbai Industrial Corridor", abbr: "DMIC", cls: "operational",
-    tag: "Flagship", status: "Operational · 4 nodes at production stage; rail ops live at Nangal Chaudhary", length: "1,504 km · 6 states", states: "Delhi, UP, Haryana, Rajasthan, Gujarat, Maharashtra",
+    tag: "Flagship", status: "Operational · 4 nodes at production stage; rail ops live at Nangal Chaudhary; Western DFC fully operational (Sep 2026)", length: "1,504 km · 6 states", states: "Delhi, UP, Haryana, Rajasthan, Gujarat, Maharashtra",
     programme: "GoI + JBIC · ~US$90 bn", blurb: "India's first and most advanced corridor, on the Western Dedicated Freight Corridor.",
     pts: [[170.4,200.8],[150,227],[94.7,295.3],[100,325],[103.1,355.6]], pin: [120,260],
     nodes: [{name:"Dholera SIR",state:"Gujarat",note:"Greenfield smart city; semiconductor & heavy industry"},{name:"Shendra–Bidkin (AURIC)",state:"Maharashtra",note:"Operational smart industrial city"},{name:"Integrated Industrial Township, Greater Noida",state:"Uttar Pradesh",note:"Dadri MMLH / DFC junction"},{name:"Vikram Udyogpuri",state:"Madhya Pradesh",note:"Operational township near Ujjain"},{name:"Jodhpur–Pali–Marwar",state:"Rajasthan",note:"Planned investment region"}],
     official: [{label:"NICDC — National Industrial Corridor Development Corp",url:"https://nicdc.in/"},{label:"Make in India — Industrial Corridors",url:"https://www.makeinindia.com/live-projects-industrial-corridor"},{label:"DPIIT — Industrial Corridors",url:"https://dpiit.gov.in/"},{label:"Invest UP — Semiconductor & Electronics",url:"https://invest.up.gov.in/semiconductor-sector/"},{label:"YEIDA — Yamuna Expressway Industrial Development Authority",url:"https://yeida.in/"}],
     reports: ["india-fab-ecosystem","the-opportunity-beyond-the-fab"],
-    faq: [{q:"What is the Delhi–Mumbai Industrial Corridor?",a:"India's first and most advanced corridor, on the Western Dedicated Freight Corridor. It spans 1,504 km and is part of India's National Industrial Corridor Development Programme."},{q:"Which states does the DMIC pass through?",a:"Delhi, UP, Haryana, Rajasthan, Gujarat, Maharashtra."},{q:"What is the current status of the DMIC?",a:"Operational · 4 nodes at production stage; rail ops live at Nangal Chaudhary."}],
+    faq: [{q:"What is the Delhi–Mumbai Industrial Corridor?",a:"India's first and most advanced corridor, on the Western Dedicated Freight Corridor. It spans 1,504 km and is part of India's National Industrial Corridor Development Programme."},{q:"Which states does the DMIC pass through?",a:"Delhi, UP, Haryana, Rajasthan, Gujarat, Maharashtra."},{q:"What is the current status of the DMIC?",a:"Operational · 4 nodes at production stage; rail ops live at Nangal Chaudhary; Western DFC fully operational (Sep 2026)."}],
   },
   {
     slug: "chennai-bengaluru", num: 2, name: "Chennai–Bengaluru Industrial Corridor", abbr: "CBIC", cls: "operational",

@@ -90,7 +90,7 @@ export default function CorridorsIndex() {
                 dossier — status, anchor nodes, programme, official sources and our research, in one place.
               </p>
               <p className="cmp-fresh">
-                Sources: DPIIT/NICDC status reports (31 Oct &amp; 30 Nov 2025), NICDIT Apex Monitoring Authority review (Aug 2026), PIB, India Investment Grid · Updated 5 Sep 2026
+                Sources: DPIIT/NICDC status reports (31 Oct &amp; 30 Nov 2025), NICDIT Apex Monitoring Authority review (Aug 2026), PIB, India Investment Grid · Updated 10 Sep 2026
                 · <Link href="/corridors/methodology/">Score methodology</Link>
                 · <Link href="/data/corridor-nodes.csv">Download node dataset (CSV)</Link>
               </p>

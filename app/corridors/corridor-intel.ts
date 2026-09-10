@@ -17,7 +17,7 @@ export const intel: Record<string, CorridorIntel> = {
   "delhi-mumbai": {
     "spv": "NICDC / DMICDC",
     "funding": "GoI + JBIC (Japan)",
-    "dfc": "Western DFC",
+    "dfc": "Western DFC — fully operational (1,506 km, Sep 2026)",
     "investment": "~US$90 bn programme · ₹16,173 cr released to NICDIT (NICDP-wide)",
     "jobs": "~3 mn programme projection · 1.29 lakh jobs potential on allotted plots (NICDP-wide)",
     "stageLabel": "Operational · 4 nodes at production stage; Nangal Chaudhary rail ops live",
