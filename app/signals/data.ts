@@ -3172,6 +3172,73 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['NIOT has demonstrated indigenous deep-sea mining crawler systems at depths exceeding 5,000 metres under the ₹4,077 crore Deep Ocean Mission.', 'India\'s ISA exploration rights provide strategic access, but not commercial mineral supply; the missing layer is an integrated subsea-to-processing industrial chain.', 'The industry workshop and planned White Paper signal an attempt to move deep-sea mining from a government technology mission towards private-sector participation.', 'The development is distinct from land-based mineral auctions and overseas exploration because it builds the technology needed to access resources in extreme subsea environments.', 'The decisive tests are endurance, collection, lifting, processing economics, environmental safeguards and regulatory approval—not the crawler demonstration alone.'],
   sources: ['Primary release on the indigenous deep-sea mining crawler demonstration, Deep Ocean Mission and industry outreach', 'Independent report on the 5,000-metre demonstration, ISA contracts, mineral estimates and mine-to-metal roadmap', 'Institutional context for the international seabed regulatory framework and exploitation-code dependency']
+}, {
+  slug: 'lohum-zimbabwe-lithium-first-overseas-ore-shipment-india',
+  no: 'S-093',
+  title: 'India\'s Lithium Strategy Reaches the Mine: LOHUM Ships First Zimbabwe Ore',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-09-10',
+  dateLabel: '10 Sept 2026',
+  status: 'live',
+  excerpt: 'India\'s critical-minerals story has moved from auctions and exploration rights to a first operating upstream asset. LOHUM has dispatched its first lithium-ore shipment from Zimbabwe, marking the reported start of overseas lithium mining by an Indian company—and testing whether an Indian private firm can build a mine-to-materials chain across borders.',
+  readingTime: '6 min read',
+  body: [{
+  text: 'The milestone',
+  type: 'h'
+}, {
+  text: 'LOHUM has dispatched its first shipment of lithium ore from mining assets in Zimbabwe, according to Reuters and company information. The shipment marks the reported start of the Indian critical-minerals company\'s overseas mining operations and moves it upstream from its better-known activities in recycling, refining and advanced materials.',
+  type: 'p'
+}, {
+  text: 'The asset base',
+  type: 'h'
+}, {
+  text: 'LOHUM says it has secured rights to ten spodumene-bearing lithium blocks in Zimbabwe\'s Matabeleland South Province, covering approximately 1,100 hectares. The company estimates 30-40 million tonnes of ore and says the initial assets could support approximately 300,000 tonnes of lithium carbonate equivalent over their operating life. It also holds an option to acquire up to 90 adjacent blocks.',
+  type: 'p'
+}, {
+  text: 'Why this is more than another overseas-minerals announcement',
+  type: 'h'
+}, {
+  text: 'India\'s overseas critical-minerals story has so far been dominated by exploration agreements, state-linked vehicles and diplomatic access. LOHUM\'s Zimbabwe milestone is different because a private Indian company is claiming a first movement of ore from an overseas asset. The strategic question shifts from whether India can obtain rights to whether Indian firms can operate, finance and integrate mineral assets across jurisdictions.',
+  type: 'p'
+}, {
+  text: 'The mine-to-materials ambition',
+  type: 'h'
+}, {
+  text: 'LOHUM says it intends to develop processing capabilities in Zimbabwe rather than simply export raw ore. That ambition complements its existing refining, advanced-material manufacturing and battery-recycling businesses. If executed, the company could connect primary extraction to concentration, conversion, refined chemicals, battery materials and eventual recycling—an integrated architecture rather than a stand-alone mine.',
+  type: 'p'
+}, {
+  text: 'Zimbabwe\'s beneficiation rules make processing unavoidable',
+  type: 'h'
+}, {
+  text: 'Zimbabwe has tightened restrictions on exports of unprocessed lithium and is pushing miners towards domestic beneficiation. LOHUM\'s plan to process in Zimbabwe is therefore both a value-capture strategy and a response to the host country\'s policy direction. The project\'s economics will depend not only on the ore body but also on local concentration and conversion capacity, power, water, reagents, logistics and the regulatory route for higher-value products.',
+  type: 'p'
+}, {
+  text: 'What India gains—and what it does not yet gain',
+  type: 'h'
+}, {
+  text: 'The critical distinction: ore is not lithium carbonate. The reported 300,000-tonne LCE figure is a cumulative estimate over the operating life of the initial assets, while the approximately 30,000-tonne annual figure is a production target. Neither should be treated as current output. The decisive conversion steps are mining consistency, spodumene concentration, chemical conversion, recovery rates, product qualification and downstream offtake.',
+  type: 'p'
+}, {
+  text: 'How this differs from existing Techadyant coverage',
+  type: 'h'
+}, {
+  text: 'S-066 covers KABIL\'s expected lithium production pathway in Argentina. S-072 covers Coal India\'s Singapore vehicle for future overseas critical-mineral acquisitions. S-079 covers India\'s domestic critical-mineral auctions. S-091 covers NIOT\'s deep-sea mining technology. S-093 is distinct: it concerns a private Indian company\'s first reported shipment from a specific overseas lithium-mining asset and its attempt to move from downstream recycling and refining into primary supply.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'LOHUM\'s Zimbabwe operation is an early test of whether India\'s critical-minerals strategy can produce operating companies, not only policy instruments. The project could become strategically meaningful if LOHUM converts resource access into predictable feedstock, processes a meaningful share in Zimbabwe, qualifies material for Indian battery supply chains and closes the loop through recycling. Until then, the first shipment is best understood as a credible upstream foothold—not supply security.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'The next evidence will be sustained shipment volumes, construction or commissioning of Zimbabwe-based concentration and conversion facilities, funding and permitting for the 30,000-tonne annual target, actual recovery rates and logistics costs, and offtake into Indian cathode, cell, EV or storage manufacturers. Watch also whether LOHUM exercises its option over adjacent blocks and how Zimbabwe\'s beneficiation rules alter the project\'s capital intensity and export route.',
+  type: 'p'
+}],
+  takeaways: ['LOHUM has dispatched its first lithium-ore shipment from Zimbabwe, marking the reported start of overseas mining operations by an Indian company.', 'The initial position covers ten spodumene-bearing blocks across approximately 1,100 hectares, with company-estimated deposits of 30-40 million tonnes of ore.', 'The reported ~300,000 tonnes of LCE is a cumulative operating-life estimate; the ~30,000-tonne annual figure is a planned target, not current production.', 'The strategic opportunity is an Indian-controlled chain linking overseas mining, local beneficiation, refining, battery materials and recycling.', 'The development is distinct from KABIL\'s Argentina exploration pathway, Coal India\'s overseas vehicle, India\'s domestic auctions and NIOT\'s deep-sea mining technology.', 'The first shipment is a meaningful upstream foothold, but not yet proof of secure supply, commercial-scale output or an Indian offtake stream.'],
+  sources: ['Primary independent report on the first shipment, ten blocks, resource estimates, expansion option and planned Zimbabwe processing', 'Detailed context on spodumene, Zimbabwe beneficiation requirements, annual target and the distinction between lifetime potential and annual output', 'Independent corroboration of the start of mining operations and initial asset footprint', 'Independent mining-sector reporting on the Zimbabwe operation and production potential', 'Company context for its refining, advanced materials and recycling activities; operating claims are treated as company-reported']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
