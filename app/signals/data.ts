@@ -3239,6 +3239,55 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['LOHUM has dispatched its first lithium-ore shipment from Zimbabwe, marking the reported start of overseas mining operations by an Indian company.', 'The initial position covers ten spodumene-bearing blocks across approximately 1,100 hectares, with company-estimated deposits of 30-40 million tonnes of ore.', 'The reported ~300,000 tonnes of LCE is a cumulative operating-life estimate; the ~30,000-tonne annual figure is a planned target, not current production.', 'The strategic opportunity is an Indian-controlled chain linking overseas mining, local beneficiation, refining, battery materials and recycling.', 'The development is distinct from KABIL\'s Argentina exploration pathway, Coal India\'s overseas vehicle, India\'s domestic auctions and NIOT\'s deep-sea mining technology.', 'The first shipment is a meaningful upstream foothold, but not yet proof of secure supply, commercial-scale output or an Indian offtake stream.'],
   sources: ['Primary independent report on the first shipment, ten blocks, resource estimates, expansion option and planned Zimbabwe processing', 'Detailed context on spodumene, Zimbabwe beneficiation requirements, annual target and the distinction between lifetime potential and annual output', 'Independent corroboration of the start of mining operations and initial asset footprint', 'Independent mining-sector reporting on the Zimbabwe operation and production potential', 'Company context for its refining, advanced materials and recycling activities; operating claims are treated as company-reported']
+}, {
+  slug: 'drdo-missile-tot-scale-node-india-2026',
+  no: 'S-094',
+  title: 'DRDO\'s Missile ToT Scale Node Tests Whether India Can Turn Design Into Repeatable Production',
+  domain: 'Defence Manufacturing & Strategic Autonomy',
+  date: '2026-09-11',
+  dateLabel: '11 Sept 2026',
+  status: 'live',
+  excerpt: 'India\'s missile programmes have long demonstrated design capability. The new ToT Scale Node at DRDO\'s Hyderabad cluster is an attempt to solve the harder problem: converting a qualified design into a repeatable, supplier-deep, export-ready production line. The shift is from proving a missile works to proving the industrial ecosystem can build it at scale.',
+  readingTime: '6 min read',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'DRDO has operationalised a Transfer-of-Technology Scale Node at its Defence Research and Development Laboratory (DRDL) in Hyderabad. The facility is designed to validate the production readiness of next-generation missile systems—including Akash-NG, Quick Reaction Surface-to-Air Missile (QRSAM), Astra Mk2 and VL-SRSAM—before and during their transition from development to series production. The node provides shared test infrastructure, production process validation, supplier qualification frameworks and quality assurance systems that are common across multiple missile programmes.',
+  type: 'p'
+}, {
+  text: 'Why a ToT Scale Node is different from a test range',
+  type: 'h'
+}, {
+  text: 'A missile test range proves a design works. A ToT Scale Node proves the factory can build it—reliably, at rate, with qualified suppliers, traceable materials and auditable processes. The Hyderabad node consolidates environmental test chambers, vibration and shock facilities, RF and seeker test stations, propulsion integration bays and software-in-the-loop validation under one roof. Its purpose is to compress the timeline from design clearance to first production unit and to reduce the variance between the first unit and the hundredth.',
+  type: 'p'
+}, {
+  text: 'The industrial model shift',
+  type: 'h'
+}, {
+  text: 'India\'s missile production has traditionally centred on a single Defence PSU (Bharat Dynamics Limited for most surface-to-air and anti-tank missiles) receiving a ToT package from DRDO. The Scale Node is intended to support a different model: DRDO validates the production process once, then multiple qualified firms—including private-sector integrators and MSME suppliers—can be onboarded against a common baseline. This is the missile equivalent of the \'design once, build many\' approach that underpins the defence corridors and the iDEX framework.',
+  type: 'p'
+}, {
+  text: 'Programmes in the initial cohort',
+  type: 'h'
+}, {
+  text: 'The node\'s first candidates reflect the breadth of India\'s current air-defence modernisation: Akash-NG (new seeker, improved range and reaction time), QRSAM (all-weather, networked short-range air defence), Astra Mk2 (beyond-visual-range air-to-air with indigenous seeker) and VL-SRSAM (vertical-launch short-range naval air defence). Each is at a different stage of the development-to-production transition, which lets the node validate its processes against live programme timelines rather than abstract exercises.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The strategic significance of the Scale Node is not the facility itself but the industrial discipline it attempts to institutionalise. If it succeeds, it will reduce the recurring pattern where each new missile variant restarts supplier qualification, re-negotiates quality plans and re-discovers production bottlenecks that the previous programme already solved. The export dimension is also important: several of the programmes in the initial cohort have been offered to partner nations, and a certified production baseline is a prerequisite for credible export commitments.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'The next evidence will be the time from design clearance to first qualified production unit for each programme, the number of private-sector suppliers onboarded against the common audit framework, the first-article inspection pass rates, the variance in key performance parameters across production lots, and whether the node\'s quality documentation satisfies foreign export-customer audits. Watch also for extension of the model to other DRDO clusters (aeronautics, armaments, electronics) and for integration with the defence-corridor testing and certification infrastructure.',
+  type: 'p'
+}],
+  takeaways: ['DRDO has operationalised a ToT Scale Node at DRDL Hyderabad to validate production readiness for Akash-NG, QRSAM, Astra Mk2 and VL-SRSAM.', 'The node addresses the design-to-production gap by providing shared test infrastructure, process validation, supplier qualification and quality systems.', 'It aims to shift India\'s missile production from a single-PSU ToT model to a tiered supply chain with multiple qualified integrators and MSMEs.', 'Success would mean shorter production ramp-up, lower unit variance, export-ready quality documentation and a repeatable model for other weapon systems.', 'The facility\'s real test is whether it changes the recurring pattern of each missile programme re-solving the same production bottlenecks.'],
+  sources: ['Primary announcement of DRDO ToT Scale Node operationalisation at DRDL Hyderabad', 'Independent reporting on the Scale Node\'s infrastructure, initial programme focus and industrial model', 'Context on Akash-NG, QRSAM, Astra Mk2 and VL-SRSAM programme status and export interest', 'Analysis of India\'s missile production model and the shift from PSU-centric to tiered supply chains']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
