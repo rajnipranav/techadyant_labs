@@ -3522,7 +3522,7 @@ export const signals: SignalMeta[] = [{
   domain: 'Defence & Dual-Use',
   date: '2026-09-12',
   dateLabel: '12 Sept 2026',
-  status: 'monitoring',
+  status: 'live',
   excerpt: 'Karnataka is adding a physical test-and-certification layer to India\'s drone ecosystem, but the sovereignty value will depend on whether the proposed ₹42.8–42.9 crore, 19.26-acre site becomes funded, built and actually used by manufacturers and defence users.',
   readingTime: '4 min read',
   body: [{
