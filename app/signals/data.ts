@@ -3288,6 +3288,85 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['DRDO has operationalised a ToT Scale Node at DRDL Hyderabad to validate production readiness for Akash-NG, QRSAM, Astra Mk2 and VL-SRSAM.', 'The node addresses the design-to-production gap by providing shared test infrastructure, process validation, supplier qualification and quality systems.', 'It aims to shift India\'s missile production from a single-PSU ToT model to a tiered supply chain with multiple qualified integrators and MSMEs.', 'Success would mean shorter production ramp-up, lower unit variance, export-ready quality documentation and a repeatable model for other weapon systems.', 'The facility\'s real test is whether it changes the recurring pattern of each missile programme re-solving the same production bottlenecks.'],
   sources: ['Primary announcement of DRDO ToT Scale Node operationalisation at DRDL Hyderabad', 'Independent reporting on the Scale Node\'s infrastructure, initial programme focus and industrial model', 'Context on Akash-NG, QRSAM, Astra Mk2 and VL-SRSAM programme status and export interest', 'Analysis of India\'s missile production model and the shift from PSU-centric to tiered supply chains']
+}, {
+  slug: 'india-javelin-tata-co-production-defence-industrial-base-2026',
+  no: 'S-095',
+  title: 'India\'s Javelin Deal Is More Than a Missile Purchase—and Less Than Technology Sovereignty',
+  domain: 'Defence & Strategic Manufacturing',
+  date: '2026-09-12',
+  dateLabel: '12 Sept 2026',
+  status: 'live',
+  excerpt: 'India has finally signed for a small initial batch of US Javelin anti-tank missiles. The more consequential development came two days later: Tata Advanced Systems was selected to explore final assembly and component production in India. The strategic question is not whether India can buy the weapon. It is how much of the missile\'s industrial and technological chain will actually move into India.',
+  readingTime: '7 min read',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'The Indian Army has signed a Letter of Offer and Acceptance for an initial purchase of the US-made Javelin anti-tank guided missile system through the Foreign Military Sales process, according to the US Embassy in India. The package covers 100 missiles and 25 command launch units according to independent reporting. On 30 August, Tata Advanced Systems and the Javelin Joint Venture—Raytheon and Lockheed Martin—signed a separate memorandum of understanding to explore co-production of the Javelin All Up Round in India.',
+  type: 'p'
+}, {
+  text: 'Why the sequence matters',
+  type: 'h'
+}, {
+  text: 'The acquisition and the industrial MOU should not be treated as one thing. The LOA gives the Army access to a mature, fire-and-forget, top-attack system. The Tata-Javelin arrangement is an industrial exploration agreement that may create an Indian final-assembly and integration facility and local component capabilities. The first is a procurement commitment; the second is a pathway whose scope, investment, qualification and technology content still have to be defined.',
+  type: 'p'
+}, {
+  text: 'The sovereignty test is inside the missile',
+  type: 'h'
+}, {
+  text: 'A Javelin assembled in India would not automatically be an Indian-controlled missile. The critical sovereignty questions sit in the imaging-infrared seeker, guidance and fire-control electronics, warhead, propulsion, thermal batteries, software, test equipment, maintenance data and the authority to modify or recertify the weapon. If sub-assembly kits and guidance-electronics units continue to arrive from the United States, India may gain production resilience and faster access without gaining independent design or wartime replenishment control.',
+  type: 'p'
+}, {
+  text: 'What the primary announcement actually says',
+  type: 'h'
+}, {
+  text: 'The US Embassy confirms the LOA and says it opens discussions on mutually beneficial co-production. Lockheed Martin\'s announcement states that Tata and the Javelin Joint Venture will explore a final assembly and integration facility and component-production capabilities in India. It also says that US plants will continue producing sub-assembly kits and guidance-electronics units for shipment to India. This is a meaningful industrial foothold, but the public architecture remains a distributed supply chain rather than a fully sovereign missile line.',
+  type: 'p'
+}, {
+  text: 'The immediate operational logic',
+  type: 'h'
+}, {
+  text: 'The initial buy appears designed to provide a limited, high-end capability while India\'s indigenous anti-tank ecosystem matures. The Javelin offers a proven fire-and-forget, top-attack capability against armoured vehicles and fortified positions. A small number of systems can fill urgent gaps, support specialist formations and provide a reference capability against which indigenous systems are assessed.',
+  type: 'p'
+}, {
+  text: 'The Atmanirbharta tension',
+  type: 'h'
+}, {
+  text: 'The timing exposes a familiar procurement tension. India\'s indigenous MPATGM and Nag-family systems are moving towards production, but the Army\'s requirement is immediate and its legacy anti-tank inventory remains dominated by older-generation systems. The Javelin can therefore be rational as a stopgap. The risk is path dependence: a limited bridge purchase can become the default solution if indigenous production, seeker quality, unit cost and delivery capacity lag.',
+  type: 'p'
+}, {
+  text: 'The cost-asymmetry question',
+  type: 'h'
+}, {
+  text: 'The Javelin is a high-value precision weapon, while the battlefield is increasingly saturated with low-cost drones, loitering munitions and electronic-warfare systems. That does not make the missile obsolete: an assured, fire-and-forget anti-tank weapon has different range, seeker, weather, communications-resilience and kill-probability characteristics from an expendable drone. It does mean India should define the Javelin as one layer in a high-low anti-armour architecture, not as a substitute for indigenous MPATGM production and mass drone capacity.',
+  type: 'p'
+}, {
+  text: 'What India should negotiate into the industrial pathway',
+  type: 'h'
+}, {
+  text: 'The decisive content of the Tata arrangement will be found in the implementation documents rather than the announcement. India\'s leverage should be used to secure progressively deeper access to production drawings, test and calibration equipment, repair authority, component qualification, failure analysis, software and configuration management, local supplier development, wartime stockpile replenishment and a defined route towards Indian-controlled upgrades.',
+  type: 'p'
+}, {
+  text: 'How this differs from existing Techadyant coverage',
+  type: 'h'
+}, {
+  text: 'The full catalogue contains signals on DRDO missile-technology transfer, the Positive Indigenisation List, indigenous missile engines, loitering munitions and counter-drone systems. None covers the Javelin system, the 28 August India-US LOA or the 30 August Tata-Javelin co-production MOU. This is not a duplicate of S-074: that signal concerns the policy transfer of Indian-designed conventional missile technologies to domestic manufacturers, while S-095 concerns the industrial localisation of a US-origin anti-tank missile after an Indian FMS purchase.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The Javelin decision is best read as a two-track bet. India is buying a small amount of proven capability while testing whether a foreign missile partnership can be converted into a domestic manufacturing and sustainment asset. The purchase is strategically sensible only if it remains a bridge to a larger indigenous anti-armour architecture. The co-production MOU becomes meaningful when it moves beyond final assembly into qualified components, repair, testing, configuration control and recurring Indian replenishment.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for the final contract value and delivery schedule; the site and capital commitment for Tata\'s assembly line; the exact Indian-made components; the share of imported sub-assembly kits and guidance electronics; technology-transfer and data-rights language; Indian acceptance and qualification milestones; follow-on quantities; the relationship with MPATGM and Nag production; and whether India is permitted to support regional customers or export any locally assembled rounds.',
+  type: 'p'
+}],
+  takeaways: ['India has signed an LOA for an initial Javelin purchase through the US Foreign Military Sales process; independent reporting puts the first tranche at 100 missiles and 25 launch units.', 'Tata Advanced Systems has separately signed an MOU with the Javelin Joint Venture to explore final assembly, integration and component production in India.', 'The public announcements do not establish full design ownership, unrestricted technology transfer or Indian control over the seeker, guidance electronics and other critical subsystems.', 'The arrangement could provide a useful high-end stopgap while indigenous MPATGM and Nag-family systems scale, but it should not displace India\'s domestic anti-armour roadmap.', 'The sovereignty test is whether India gains repair, qualification, configuration, replenishment and upgrade authority—not merely an Indian assembly location.', 'The development is distinct from existing Techadyant signals on DRDO missile ToT, indigenous missile engines, loitering munitions and counter-drone systems.'],
+  sources: ['Primary confirmation of the Indian Army LOA through the US Foreign Military Sales process and the opening for future co-production discussions', 'Primary announcement of the Tata-Javelin Joint Venture MOU, proposed Indian final assembly, component production and continuing US sub-assembly supply', 'Independent reporting on the acquisition, initial quantity and long-running procurement context', 'Expert analysis of the Javelin\'s stopgap role, indigenous MPATGM pathway, cost asymmetry and anti-armour force design', 'Independent summary of the 30 August MOU and its proposed final assembly and component-production architecture']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
