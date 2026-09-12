@@ -7,6 +7,17 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'india-cloud-question': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'Techadyant_Cloud_Question_2026_2035_PublishReady_QA1.pdf',
+    filename: 'The-Cloud-Question-India-Cloud-Sovereignty-Techadyant-Labs.pdf',
+    title: 'The Cloud Question — India’s Dependence on Foreign Hyperscalers and the Sovereign Cloud Challenge',
+    // Report + Data tier: the Cloud Sovereignty Intelligence Workbook. Price authority for the data tier.
+    priceWithDataInr: 11999,
+    dataObject: 'data/Techadyant_Cloud_Sovereignty_Intelligence_Workbook_2026_PublishReady.xlsx',
+    dataFilename: 'The-Cloud-Question-Data-Pack-Techadyant-Labs.xlsx',
+  },
   'india-aerospace-supply-chain-missing-links': {
     access: 'paid',
     priceInr: 6999,
