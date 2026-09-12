@@ -3289,6 +3289,43 @@ export const signals: SignalMeta[] = [{
   takeaways: ['DRDO has operationalised a ToT Scale Node at DRDL Hyderabad to validate production readiness for Akash-NG, QRSAM, Astra Mk2 and VL-SRSAM.', 'The node addresses the design-to-production gap by providing shared test infrastructure, process validation, supplier qualification and quality systems.', 'It aims to shift India\'s missile production from a single-PSU ToT model to a tiered supply chain with multiple qualified integrators and MSMEs.', 'Success would mean shorter production ramp-up, lower unit variance, export-ready quality documentation and a repeatable model for other weapon systems.', 'The facility\'s real test is whether it changes the recurring pattern of each missile programme re-solving the same production bottlenecks.'],
   sources: ['Primary announcement of DRDO ToT Scale Node operationalisation at DRDL Hyderabad', 'Independent reporting on the Scale Node\'s infrastructure, initial programme focus and industrial model', 'Context on Akash-NG, QRSAM, Astra Mk2 and VL-SRSAM programme status and export interest', 'Analysis of India\'s missile production model and the shift from PSU-centric to tiered supply chains']
 }, {
+  slug: 'drdo-missile-tot-scale-node-industrial-absorption-2026',
+  no: 'S-096',
+  title: 'Missile ToT Is the Easy Half: India\'s Real Test Is the Scale Node',
+  domain: 'Defence Manufacturing & Strategic Autonomy',
+  date: '2026-09-11',
+  dateLabel: '11 Sept 2026',
+  status: 'live',
+  excerpt: 'Opening DRDO conventional-missile technologies to Indian industry changes who is allowed to produce. It does not by itself create magazine depth. Self-reliance fails or succeeds at the scale node—where qualified firms absorb know-how, stand up quality systems, deepen MSME suppliers and hold delivery when orders move from prototypes to volume.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'In late August 2026, Defence Minister Rajnath Singh approved the transfer of DRDO-developed technologies for all conventional missile systems to qualified Indian defence manufacturers for production within the country. The decision opens a path that for years defaulted more narrowly to public-sector production routes. It covers conventional air-defence, strike, anti-tank, anti-radiation and related systems—not strategic nuclear missiles.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'For decades, India often treated technology development and manufacturing scale as sequential, almost separate problems. Missile self-reliance does not work that way. A complete chain runs research → development → industrial production → suppliers → MSMEs → volume. When advanced designs stay inside laboratories or thin production lines, the country still carries strategic vulnerability: limited surge capacity, import-dependent subsystems and shallow magazines. Opening ToT to capable Indian companies is how policy tries to connect those dots—creating not only domestic assembly, but engineering depth, supplier networks and manufacturing know-how.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'Innovation has limited economic and strategic value if it cannot be scaled. The ToT approval is a necessary industrial-policy signal; it is not yet a production result. Missile manufacture demands propulsion and energetics controls, secure facilities, rigorous quality systems and dependable orders. The real test is absorption: whether selected firms can move from certificate to qualified process, from first article to repeatable lot, and whether MSMEs become real nodes in the bill of materials rather than footnotes in the press release. India does not become self-reliant by designing more systems. It becomes self-reliant when Indian companies can repeatedly build world-class systems, at scale, with Indian capabilities.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'First competitive ToT / Development-cum-Production Partner awards with named companies and missile families; eligibility, certification and test-range pathways published and used in practice; funded production contracts and delivery schedules—not only AoNs or policy statements; evidence of MSME content in seekers, actuation, electronics, structures and energetics supply chains; whether private primes become system integrators or remain subsystem suppliers.',
+  type: 'p'
+}],
+  takeaways: ['Defence Minister Rajnath Singh approved transfer of DRDO technologies for all conventional missile systems to Indian industry; strategic nuclear systems remain excluded.', 'The binding constraint is industrial absorption: qualification, certification, supplier tiers, energetics controls and repeatable production.', 'MSME participation matters only if it shows up in real bills of materials, not only in policy language.', 'Strongest next evidence: named ToT/DcPP awards, funded production lots, first user deliveries and disclosed capacity for specific missile families.', 'This signal follows S-074 (announcement-day signal) and frames the absorption/scale test.'],
+  sources: ['RM approval; competitive bidding for ToT / DcPP; conventional scope; MSME objective', 'Private sector production path; example systems; competition vs nomination culture', 'Conventional vs strategic exclusion; possible early systems named by officials']
+}, {
   slug: 'india-javelin-tata-co-production-defence-industrial-base-2026',
   no: 'S-095',
   title: 'India\'s Javelin Deal Is More Than a Missile Purchase—and Less Than Technology Sovereignty',
@@ -3367,6 +3404,157 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['India has signed an LOA for an initial Javelin purchase through the US Foreign Military Sales process; independent reporting puts the first tranche at 100 missiles and 25 launch units.', 'Tata Advanced Systems has separately signed an MOU with the Javelin Joint Venture to explore final assembly, integration and component production in India.', 'The public announcements do not establish full design ownership, unrestricted technology transfer or Indian control over the seeker, guidance electronics and other critical subsystems.', 'The arrangement could provide a useful high-end stopgap while indigenous MPATGM and Nag-family systems scale, but it should not displace India\'s domestic anti-armour roadmap.', 'The sovereignty test is whether India gains repair, qualification, configuration, replenishment and upgrade authority—not merely an Indian assembly location.', 'The development is distinct from existing Techadyant signals on DRDO missile ToT, indigenous missile engines, loitering munitions and counter-drone systems.'],
   sources: ['Primary confirmation of the Indian Army LOA through the US Foreign Military Sales process and the opening for future co-production discussions', 'Primary announcement of the Tata-Javelin Joint Venture MOU, proposed Indian final assembly, component production and continuing US sub-assembly supply', 'Independent reporting on the acquisition, initial quantity and long-running procurement context', 'Expert analysis of the Javelin\'s stopgap role, indigenous MPATGM pathway, cost asymmetry and anti-armour force design', 'Independent summary of the 30 August MOU and its proposed final assembly and component-production architecture']
+}, {
+  slug: 'karnataka-chikkaballapura-drone-testing-hub-2026',
+  no: 'S-096',
+  title: 'Karnataka Proposes a Dedicated Chikkaballapura Drone-Testing Node for BVLOS and Certification Work',
+  domain: 'Defence & Dual-Use',
+  date: '2026-09-12',
+  dateLabel: '12 Sept 2026',
+  status: 'monitoring',
+  excerpt: 'Karnataka is adding a physical test-and-certification layer to India\'s drone ecosystem, but the sovereignty value will depend on whether the proposed ₹42.8–42.9 crore, 19.26-acre site becomes funded, built and actually used by manufacturers and defence users.',
+  readingTime: '4 min read',
+  body: [{
+  text: 'What changed',
+  type: 'h'
+}, {
+  text: 'Karnataka announced a proposed dedicated Drone Testing Hub in Chikkaballapura. The planned 19.26-acre facility at Jeedarahalli village in Chintamani taluk is intended to provide runways, segregated airspace and infrastructure for beyond-visual-line-of-sight (BVLOS) operations, endurance, safety and certification trials. Drone Federation India has been identified as the implementation partner, and the reported project cost is ₹42.8–42.9 crore, attributed to Karnataka IT-BT Minister Priyank Kharge.',
+  type: 'p'
+}, {
+  type: 'list',
+  items: ['Facility status — Proposed: a new planned node, not an operating test range.', 'Capability layer — BVLOS, endurance, safety and certification testing: it would address the gap between laboratory development and flight validation.', 'Industrial access — startups, manufacturers, researchers and defence users targeted: potential shared infrastructure for a broader domestic UAV supplier base.', 'Evidence limit — a ministerial announcement reported by industry and business media: funding release, land transfer, construction and regulatory approvals still require verification.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India\'s drone capability is constrained not only by airframes and software but also by access to controlled testing, safety validation and certification infrastructure. A dedicated node could reduce the time and cost of moving domestic UAV designs from prototype to repeatable flight operations, and it creates a possible geographic anchor for Karnataka\'s aerospace and emerging aerial-mobility ecosystem. The value is infrastructural rather than an immediate proof of indigenous drone technology: the hub would strengthen India\'s ability to test and qualify systems at home, but would not by itself remove imported dependencies in propulsion, sensors, flight-control electronics, datalinks or semiconductor components.',
+  type: 'p'
+}, {
+  text: 'What remains uncertain',
+  type: 'h'
+}, {
+  text: 'No official construction schedule, land-transfer record, tender, released expenditure or DGCA operating approval was identified in the run window. The reported project cost is an estimate, and the facility\'s eventual test envelope, user-access model and relationship to existing defence and civil-aviation ranges are not yet clear.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'The next proof points are a government order or budget release, land and environmental clearances, a tender or construction award, site works, DGCA-linked operating procedures and the first publicly documented test campaign. The entry should be upgraded from monitoring to verified execution only once one of these implementation milestones is evidenced.',
+  type: 'p'
+}],
+  takeaways: ['Karnataka has proposed a new 19.26-acre drone-testing node in Chikkaballapura.', 'The planned facility targets the testing and certification layer for BVLOS and other complex operations.', 'The announcement changes the Atlas geography map, but the project remains monitoring-grade until funding, construction and regulatory implementation are demonstrated.'],
+  sources: ['Reports the estimated cost, site, planned capabilities and Drone Federation India as implementation partner.', 'Independent industry source reproducing the ministerial announcement and intended user groups and functions.', 'Attributed primary announcement referenced by the industry report; direct announcement record.']
+}, {
+  slug: 'india-four-critical-mineral-processing-parks-midstream-2026',
+  no: 'S-097',
+  title: 'India\'s Critical-Minerals Strategy Hits the Midstream: Four Processing Parks',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-09-12',
+  dateLabel: '12 Sept 2026',
+  status: 'live',
+  excerpt: 'India is moving from mineral auctions and overseas ore headlines to processing geography. Four dedicated critical-mineral parks—in Gujarat, Maharashtra, Odisha and Andhra Pradesh—are being developed around distinct mineral ecosystems, with three states already reported to have submitted detailed project reports. The strategic gap has never been only deposits; it is beneficiation, separation and downstream chemicals and magnets.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'India\'s critical-minerals policy stack has accumulated exploration projects, block auctions, a National Critical Mineral Mission, recycling incentives and rare-earth magnet schemes. The missing industrial layer has been midstream processing—where ore and concentrates become separated oxides, metals, chemicals and sintered magnets. Officials have now put geography on that gap: four dedicated processing parks, each tied to a different mineral ecosystem.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Import dependence in critical minerals is often discussed as a mining problem. For lithium, nickel, rare earths and related inputs, the binding constraint is frequently processing and refining capacity, environmental permitting and process know-how. Parks that co-locate beneficiation, separation and downstream manufacturing are how India tries to convert resource access—domestic or overseas—into usable industrial feedstock for EVs, wind, electronics and defence.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'This is a midstream industrial-policy signal, not a production result. DPRs and site identification are necessary; they are not operating plants. Success will be measured by capital committed, process technology secured (especially where China restricts magnet and separation know-how), time to first output, and whether park products displace imports in real bills of materials. Atlas will treat park announcements as infrastructure intent until throughput and offtake are evidenced.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Formal park notifications, land allotment and state incentive packages; anchor tenants for magnet, lithium chemical and nickel processing lines; first commercial separation or magnet output volumes; links to the sintered rare-earth permanent magnet scheme and overseas ore offtake (e.g. lithium feedstock); whether defence and EV OEMs specify park-origin materials in procurement.',
+  type: 'p'
+}],
+  takeaways: ['Four critical mineral processing parks planned: Gujarat (rare-earth permanent magnets, Dahej), Maharashtra (lithium, near Dighi Port), Odisha (nickel, Paradip), Andhra Pradesh (REE, titanium, zirconium).', 'NCMM officials say three of the four states have submitted detailed project reports.', 'Parks are intended to co-locate beneficiation, extraction, separation and processing—not only mining or trading.', 'The strategic gap has never been only deposits; it is beneficiation, separation and downstream chemicals and magnets.', 'Strongest next evidence: notified park boundaries, anchor tenants, first processing lines, and domestic magnet/chemical output in industrial BOMs.'],
+  sources: ['Four parks; state focus areas; NCMM director on DPRs; CII summit', 'Dahej, Dighi, Paradip; REE/Ti/Zr for Andhra', 'Mines minister on value chains, parks, recycling scheme registrations']
+}, {
+  slug: 'idds-mark-ii-drdo-laser-counter-drone-army-iaf-2026',
+  no: 'S-098',
+  title: 'Counter-Drone Moves from Soft-Kill Inventory to Directed-Energy Depth',
+  domain: 'Defence & Dual-Use',
+  date: '2026-09-12',
+  dateLabel: '12 Sept 2026',
+  status: 'live',
+  excerpt: 'India\'s counter-UAS build-out is entering a directed-energy phase. Reporting indicates the Defence Ministry is close to approving DRDO\'s upgraded Integrated Drone Detection and Interdiction System (IDDS Mark-II), with the Army and Air Force positioned to order multiple indigenous systems. Public figures describe a higher-power laser class with roughly double the hard-kill range of the earlier generation—shifting the industrial question from detection alone to production-ready DEW.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Soft-kill jamming and kinetic interceptors have dominated India\'s visible counter-drone fielding. The next industrial layer is directed energy: sensors, beam control, power, thermal management and tactics that let a defender defeat cheap aerial threats at a low marginal cost per shot. IDDS Mark-II is the programme name now attached to that step-up.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Mass drone and loitering-munition attacks compress reaction time and exhaust magazine depth. A fielded laser layer does not replace radar, RF and guns; it changes the cost curve for repeated engagements. For the Atlas, the issue is not a single lab demo—it is whether India can produce, power, certify and sustain DEW effectors across Army and Air Force sites.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'Treat Mark-II approval and order intent as a capability-path signal, not as nationwide coverage. Range, weather limits, power architecture and rules of engagement will determine operational value. Atlas Counter-UAS coverage should track production partners, indigenous content in the laser chain, and whether DEW appears in the same deployment maps as soft-kill systems already fielded.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Formal MoD approval language and Acceptance of Necessity / contract notices; split of systems between Army and IAF and intended site classes (bases, airfields, critical infrastructure); production agency and private-industry role in IDDS Mark-II; user trials under realistic clutter, weather and swarm density; parallel CHESS / long-range DEW milestones versus tactical IDDS fielding.',
+  type: 'p'
+}],
+  takeaways: ['MoD expected to approve DRDO IDDS Mark-II; Army and IAF reported poised for orders for about 16 advanced indigenous systems.', 'Mark-II associated with a ~10 kW laser class and neutralisation ranges cited around 2 km, versus ~1 km for the prior generation.', 'DRDO/CHESS directed-energy work includes higher-power demos (including vehicle-mounted systems against fixed-wing and swarm targets).', 'The industrial question shifts from detection alone to production-ready DEW.', 'Strongest next evidence: formal AoN/contract, unit quantities by service, production agency, and user acceptance of laser effectors in theatre conditions.'],
+  sources: ['IDDS Mark-II approval path; ~16 systems; 10 kW / ~2 km figures; CHESS DEW context']
+}, {
+  slug: 'reliance-rolls-royce-amca-indigenous-engine-gas-turbine-complex-2026',
+  no: 'S-099',
+  title: 'AMCA\'s Binding Constraint Is the Engine: Reliance and Rolls-Royce Put Propulsion on the Industrial Path',
+  domain: 'Defence Manufacturing & Strategic Autonomy',
+  date: '2026-09-12',
+  dateLabel: '12 Sept 2026',
+  status: 'live',
+  excerpt: 'Airframe headlines do not deliver fifth-generation sovereignty. Reporting on a Reliance Industries–Rolls-Royce partnership to design, develop, manufacture, test and produce an indigenous engine for India\'s Advanced Medium Combat Aircraft—and to build an Aerospace Gas Turbine Complex—puts the real chokepoint in view: fighter propulsion, not only the platform outline.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'India can design combat aircraft and still remain dependent if the engine is imported, export-controlled or available only on foreign timelines. The AMCA programme crystallises that fact. A reported Reliance-Rolls-Royce industrial path for an indigenous AMCA engine is therefore larger than a corporate announcement: it is an attempt to move propulsion from perpetual foreign bottleneck to domestic design-and-production capability.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Propulsion determines range, payload, recovery margins and sustainment. It also determines whether India can export or surge fighters without a third-country veto. Building an Aerospace Gas Turbine Complex implies test cells, materials, hot-section know-how and a supplier tier—not a badge on a mock-up.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'Treat this as a strategic industrial signal with a long fuse. Engine programmes fail quietly for years before they fail publicly. Atlas should track facility build-out, Indian workshare versus licensed modules, materials and single-crystal blade pathways, and whether the effort is funded as a national programme or remains a corporate MoU. Until core tests and production intent are evidenced, the dependency score for military aero-engines stays critical.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Definitive agreements, JV equity and Indian content commitments; location and capex for the Aerospace Gas Turbine Complex; alignment with GTRE / DRDO engine tracks versus parallel private path; first core runs, altitude-test plans and certification authority pathway; impact on AMCA IOC timelines and Tejas engine risk diversification.',
+  type: 'p'
+}],
+  takeaways: ['RIL and Rolls-Royce announced plans covering design, development, manufacture, test and production of an indigenous engine for the AMCA programme.', 'The partnership includes establishing a dedicated Aerospace Gas Turbine Complex as a centre for power and advanced propulsion technology in India.', 'Indigenous fighter engines remain one of India\'s hardest defence-industrial gaps; foreign engines have long gated Tejas and future fighter timelines.', 'Strongest next evidence: formal JV structure, workshare, technology-transfer boundaries, test infrastructure milestones and a funded engine development contract.', 'This is a strategic industrial signal with a long fuse—engine programmes fail quietly for years before they fail publicly.'],
+  sources: ['RIL–Rolls-Royce AMCA engine and Aerospace Gas Turbine Complex']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
