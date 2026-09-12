@@ -3405,46 +3405,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['India has signed an LOA for an initial Javelin purchase through the US Foreign Military Sales process; independent reporting puts the first tranche at 100 missiles and 25 launch units.', 'Tata Advanced Systems has separately signed an MOU with the Javelin Joint Venture to explore final assembly, integration and component production in India.', 'The public announcements do not establish full design ownership, unrestricted technology transfer or Indian control over the seeker, guidance electronics and other critical subsystems.', 'The arrangement could provide a useful high-end stopgap while indigenous MPATGM and Nag-family systems scale, but it should not displace India\'s domestic anti-armour roadmap.', 'The sovereignty test is whether India gains repair, qualification, configuration, replenishment and upgrade authority—not merely an Indian assembly location.', 'The development is distinct from existing Techadyant signals on DRDO missile ToT, indigenous missile engines, loitering munitions and counter-drone systems.'],
   sources: ['Primary confirmation of the Indian Army LOA through the US Foreign Military Sales process and the opening for future co-production discussions', 'Primary announcement of the Tata-Javelin Joint Venture MOU, proposed Indian final assembly, component production and continuing US sub-assembly supply', 'Independent reporting on the acquisition, initial quantity and long-running procurement context', 'Expert analysis of the Javelin\'s stopgap role, indigenous MPATGM pathway, cost asymmetry and anti-armour force design', 'Independent summary of the 30 August MOU and its proposed final assembly and component-production architecture']
 }, {
-  slug: 'karnataka-chikkaballapura-drone-testing-hub-2026',
-  no: 'S-096',
-  title: 'Karnataka Proposes a Dedicated Chikkaballapura Drone-Testing Node for BVLOS and Certification Work',
-  domain: 'Defence & Dual-Use',
-  date: '2026-09-12',
-  dateLabel: '12 Sept 2026',
-  status: 'monitoring',
-  excerpt: 'Karnataka is adding a physical test-and-certification layer to India\'s drone ecosystem, but the sovereignty value will depend on whether the proposed ₹42.8–42.9 crore, 19.26-acre site becomes funded, built and actually used by manufacturers and defence users.',
-  readingTime: '4 min read',
-  body: [{
-  text: 'What changed',
-  type: 'h'
-}, {
-  text: 'Karnataka announced a proposed dedicated Drone Testing Hub in Chikkaballapura. The planned 19.26-acre facility at Jeedarahalli village in Chintamani taluk is intended to provide runways, segregated airspace and infrastructure for beyond-visual-line-of-sight (BVLOS) operations, endurance, safety and certification trials. Drone Federation India has been identified as the implementation partner, and the reported project cost is ₹42.8–42.9 crore, attributed to Karnataka IT-BT Minister Priyank Kharge.',
-  type: 'p'
-}, {
-  type: 'list',
-  items: ['Facility status — Proposed: a new planned node, not an operating test range.', 'Capability layer — BVLOS, endurance, safety and certification testing: it would address the gap between laboratory development and flight validation.', 'Industrial access — startups, manufacturers, researchers and defence users targeted: potential shared infrastructure for a broader domestic UAV supplier base.', 'Evidence limit — a ministerial announcement reported by industry and business media: funding release, land transfer, construction and regulatory approvals still require verification.']
-}, {
-  text: 'Why it matters',
-  type: 'h'
-}, {
-  text: 'India\'s drone capability is constrained not only by airframes and software but also by access to controlled testing, safety validation and certification infrastructure. A dedicated node could reduce the time and cost of moving domestic UAV designs from prototype to repeatable flight operations, and it creates a possible geographic anchor for Karnataka\'s aerospace and emerging aerial-mobility ecosystem. The value is infrastructural rather than an immediate proof of indigenous drone technology: the hub would strengthen India\'s ability to test and qualify systems at home, but would not by itself remove imported dependencies in propulsion, sensors, flight-control electronics, datalinks or semiconductor components.',
-  type: 'p'
-}, {
-  text: 'What remains uncertain',
-  type: 'h'
-}, {
-  text: 'No official construction schedule, land-transfer record, tender, released expenditure or DGCA operating approval was identified in the run window. The reported project cost is an estimate, and the facility\'s eventual test envelope, user-access model and relationship to existing defence and civil-aviation ranges are not yet clear.',
-  type: 'p'
-}, {
-  text: 'What to watch next',
-  type: 'h'
-}, {
-  text: 'The next proof points are a government order or budget release, land and environmental clearances, a tender or construction award, site works, DGCA-linked operating procedures and the first publicly documented test campaign. The entry should be upgraded from monitoring to verified execution only once one of these implementation milestones is evidenced.',
-  type: 'p'
-}],
-  takeaways: ['Karnataka has proposed a new 19.26-acre drone-testing node in Chikkaballapura.', 'The planned facility targets the testing and certification layer for BVLOS and other complex operations.', 'The announcement changes the Atlas geography map, but the project remains monitoring-grade until funding, construction and regulatory implementation are demonstrated.'],
-  sources: ['Reports the estimated cost, site, planned capabilities and Drone Federation India as implementation partner.', 'Independent industry source reproducing the ministerial announcement and intended user groups and functions.', 'Attributed primary announcement referenced by the industry report; direct announcement record.']
-}, {
   slug: 'india-four-critical-mineral-processing-parks-midstream-2026',
   no: 'S-097',
   title: 'India\'s Critical-Minerals Strategy Hits the Midstream: Four Processing Parks',
@@ -3555,6 +3515,46 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['RIL and Rolls-Royce announced plans covering design, development, manufacture, test and production of an indigenous engine for the AMCA programme.', 'The partnership includes establishing a dedicated Aerospace Gas Turbine Complex as a centre for power and advanced propulsion technology in India.', 'Indigenous fighter engines remain one of India\'s hardest defence-industrial gaps; foreign engines have long gated Tejas and future fighter timelines.', 'Strongest next evidence: formal JV structure, workshare, technology-transfer boundaries, test infrastructure milestones and a funded engine development contract.', 'This is a strategic industrial signal with a long fuse—engine programmes fail quietly for years before they fail publicly.'],
   sources: ['RIL–Rolls-Royce AMCA engine and Aerospace Gas Turbine Complex']
+}, {
+  slug: 'karnataka-chikkaballapura-drone-testing-hub-2026',
+  no: 'S-100',
+  title: 'Karnataka Proposes a Dedicated Chikkaballapura Drone-Testing Node for BVLOS and Certification Work',
+  domain: 'Defence & Dual-Use',
+  date: '2026-09-12',
+  dateLabel: '12 Sept 2026',
+  status: 'monitoring',
+  excerpt: 'Karnataka is adding a physical test-and-certification layer to India\'s drone ecosystem, but the sovereignty value will depend on whether the proposed ₹42.8–42.9 crore, 19.26-acre site becomes funded, built and actually used by manufacturers and defence users.',
+  readingTime: '4 min read',
+  body: [{
+  text: 'What changed',
+  type: 'h'
+}, {
+  text: 'Karnataka announced a proposed dedicated Drone Testing Hub in Chikkaballapura. The planned 19.26-acre facility at Jeedarahalli village in Chintamani taluk is intended to provide runways, segregated airspace and infrastructure for beyond-visual-line-of-sight (BVLOS) operations, endurance, safety and certification trials. Drone Federation India has been identified as the implementation partner, and the reported project cost is ₹42.8–42.9 crore, attributed to Karnataka IT-BT Minister Priyank Kharge.',
+  type: 'p'
+}, {
+  type: 'list',
+  items: ['Facility status — Proposed: a new planned node, not an operating test range.', 'Capability layer — BVLOS, endurance, safety and certification testing: it would address the gap between laboratory development and flight validation.', 'Industrial access — startups, manufacturers, researchers and defence users targeted: potential shared infrastructure for a broader domestic UAV supplier base.', 'Evidence limit — a ministerial announcement reported by industry and business media: funding release, land transfer, construction and regulatory approvals still require verification.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India\'s drone capability is constrained not only by airframes and software but also by access to controlled testing, safety validation and certification infrastructure. A dedicated node could reduce the time and cost of moving domestic UAV designs from prototype to repeatable flight operations, and it creates a possible geographic anchor for Karnataka\'s aerospace and emerging aerial-mobility ecosystem. The value is infrastructural rather than an immediate proof of indigenous drone technology: the hub would strengthen India\'s ability to test and qualify systems at home, but would not by itself remove imported dependencies in propulsion, sensors, flight-control electronics, datalinks or semiconductor components.',
+  type: 'p'
+}, {
+  text: 'What remains uncertain',
+  type: 'h'
+}, {
+  text: 'No official construction schedule, land-transfer record, tender, released expenditure or DGCA operating approval was identified in the run window. The reported project cost is an estimate, and the facility\'s eventual test envelope, user-access model and relationship to existing defence and civil-aviation ranges are not yet clear.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'The next proof points are a government order or budget release, land and environmental clearances, a tender or construction award, site works, DGCA-linked operating procedures and the first publicly documented test campaign. The entry should be upgraded from monitoring to verified execution only once one of these implementation milestones is evidenced.',
+  type: 'p'
+}],
+  takeaways: ['Karnataka has proposed a new 19.26-acre drone-testing node in Chikkaballapura.', 'The planned facility targets the testing and certification layer for BVLOS and other complex operations.', 'The announcement changes the Atlas geography map, but the project remains monitoring-grade until funding, construction and regulatory implementation are demonstrated.'],
+  sources: ['Reports the estimated cost, site, planned capabilities and Drone Federation India as implementation partner.', 'Independent industry source reproducing the ministerial announcement and intended user groups and functions.', 'Attributed primary announcement referenced by the industry report; direct announcement record.']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
