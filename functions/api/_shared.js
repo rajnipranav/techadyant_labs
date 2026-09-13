@@ -125,8 +125,11 @@ export const REPORTS = {
   'india-loitering-munitions-market': {
     access: 'paid',
     priceInr: 6999,
+    priceWithDataInr: 11999,
     object: "India-Loitering-Munitions-Market-Intelligence.pdf",
     filename: 'India-Loitering-Munitions-Market-Intelligence-Techadyant-Labs.pdf',
+    dataObject: 'data/India-Loitering-Munitions-Market-Intelligence-Data-Pack.xlsx',
+    dataFilename: 'India-Loitering-Munitions-Market-Intelligence-Data-Pack-Techadyant-Labs.xlsx',
     title: 'India’s Loitering Munitions Market Intelligence 2026–2035',
   },
   'beyond-quantum-computing': {

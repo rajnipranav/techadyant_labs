@@ -27,7 +27,7 @@
 import { AwsClient } from 'aws4fetch';
 import { REPORTS, json, tierGrantsData } from './_shared.js';
 
-const CODE_VERSION = 'download-r2-v2';
+const CODE_VERSION = 'download-r2-v3';
 const TTL = 90; // presigned-URL lifetime, seconds
 
 /**
@@ -56,15 +56,82 @@ async function verifyEntitled(env, token, slug) {
   if (!ur.ok) return { ok: false, code: 401, error: 'auth_invalid' };
   const user = await ur.json().catch(() => null);
   if (!user || !user.id) return { ok: false, code: 401, error: 'auth_no_user' };
+  const email = user.email || null;
   const er = await fetch(
     `${env.SUPABASE_URL}/rest/v1/entitlements?select=id,tier&user_id=eq.${encodeURIComponent(user.id)}&report_slug=eq.${encodeURIComponent(slug)}&limit=1`,
     { headers: { apikey: env.SUPABASE_SERVICE_ROLE_KEY, Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}` } }
   );
-  if (!er.ok) return { ok: false, code: 502, error: 'entitlement_fetch_failed' };
+  if (!er.ok) return { ok: false, code: 502, error: 'entitlement_fetch_failed', email };
   const rows = await er.json().catch(() => []);
-  if (!Array.isArray(rows) || rows.length === 0) return { ok: false, code: 402, error: 'payment_required' };
-  return { ok: true, tier: rows[0].tier || 'report' };
+  if (!Array.isArray(rows) || rows.length === 0) return { ok: false, code: 402, error: 'payment_required', email };
+  return { ok: true, tier: rows[0].tier || 'report', email };
 }
+
+const esc = (s) =>
+  String(s == null ? '' : s).replace(/[&<>"']/g, (c) =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+/**
+ * Email the labs inbox when an entitled buyer could not be served their file.
+ * Fire-and-forget (never blocks or fails the response). Reuses the same Resend
+ * setup as /api/feedback — no new env needed beyond what already sends mail.
+ */
+async function alertAdmin(env, info) {
+  try {
+    if (!env.RESEND_API_KEY || !env.INBOX_LABS) return;
+    const from = env.FROM_EMAIL || 'labs@techadyant.com';
+    const rows = [
+      ['Report', info.slug],
+      ['Asset', info.asset || 'report (pdf)'],
+      ['Buyer', info.email || '—'],
+      ['Reason', info.reason],
+      ['HTTP status', info.status != null ? String(info.status) : '—'],
+      ['R2 object key', info.objectKey || '—'],
+      ['Filename', info.filename || '—'],
+      ['Time (UTC)', new Date().toISOString()],
+    ];
+    const html = `<!doctype html><html><body style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:14px;line-height:1.5;color:#222;padding:16px">
+<p><strong>⚠ Report download failed for a paying buyer</strong></p>
+<p style="color:#666">A buyer with a valid entitlement could not download their report. The customer saw an error instead of a file. Check that the R2 object below exists in <code>${esc(env.R2_BUCKET || 'techadyant-reports')}</code>.</p>
+<table cellpadding="6" cellspacing="0" border="0" style="border-collapse:collapse">
+${rows.map(([k, v]) => `  <tr><td style="color:#666">${esc(k)}</td><td><strong>${esc(v)}</strong></td></tr>`).join('\n')}
+</table>
+<p style="color:#666;font-size:12px;margin-top:18px">Sent automatically by labs.techadyant.com /api/download (${esc(CODE_VERSION)})</p>
+</body></html>`;
+    await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json' },
+      body: JSON.stringify({
+        from: `Techadyant Labs <${from}>`,
+        to: [env.INBOX_LABS],
+        subject: `⚠ Download failed — ${info.slug} (${info.reason})`,
+        html,
+        reply_to: info.email || from,
+      }),
+    }).catch(() => {});
+  } catch { /* alerting must never break the request */ }
+}
+
+/** Signed HEAD to R2 — confirms the object exists and is readable before we hand out a URL. */
+async function objectExists(env, objectKey) {
+  try {
+    const client = new AwsClient({
+      accessKeyId: env.R2_ACCESS_KEY_ID,
+      secretAccessKey: env.R2_SECRET_ACCESS_KEY,
+      service: 's3',
+      region: 'auto',
+    });
+    const endpoint = env.R2_S3_ENDPOINT.replace(/\/$/, '');
+    const u = `${endpoint}/${env.R2_BUCKET}/${encodeKey(objectKey)}`;
+    const res = await client.fetch(u, { method: 'HEAD' });
+    return { ok: res.ok, status: res.status };
+  } catch (e) {
+    return { ok: false, status: 0, error: (e && e.message) || String(e) };
+  }
+}
+
+const FILE_UNAVAILABLE_MSG =
+  'This download is temporarily unavailable. Our team has just been alerted and will fix it shortly — please try again in a little while, or email info@techadyant.com and we will send it to you directly.';
 
 async function presign(env, objectKey, filename) {
   const client = new AwsClient({
@@ -121,7 +188,15 @@ export async function onRequestGet({ request, env }) {
       if (!token) return json(401, { error: 'auth_required', message: 'Please sign in to download this report.' });
 
       const chk = await verifyEntitled(env, token, slug);
-      if (!chk.ok) return json(chk.code, { error: chk.error });
+      if (!chk.ok) {
+        // A buyer blocked by OUR fault (e.g. entitlement lookup down) is a real
+        // delivery failure — alert. Normal access control (not signed in / not
+        // paid) is expected and must not spam the inbox.
+        if (chk.code >= 500) {
+          await alertAdmin(env, { slug, reason: chk.error, status: chk.code, email: chk.email });
+        }
+        return json(chk.code, { error: chk.error });
+      }
 
       const asset = url.searchParams.get('asset');
       const useDeck = asset === 'deck' && entry.deckObject;
@@ -130,14 +205,29 @@ export async function onRequestGet({ request, env }) {
       if (useData && !tierGrantsData(chk.tier)) {
         return json(402, { error: 'data_tier_required', message: 'Your purchase does not include the data pack.' });
       }
+      const assetLabel = useData ? 'data (xlsx)' : useDeck ? 'deck (pptx)' : 'report (pdf)';
       const objectKey = useData ? entry.dataObject : useDeck ? entry.deckObject : entry.object;
       const filename = useData
         ? (entry.dataFilename || `${slug}.xlsx`)
         : useDeck ? (entry.deckFilename || `${slug}.pptx`) : (entry.filename || `${slug}.pdf`);
 
       if (!env.R2_S3_ENDPOINT || !env.R2_BUCKET || !env.R2_ACCESS_KEY_ID || !env.R2_SECRET_ACCESS_KEY) {
-        return json(503, { error: 'storage_unconfigured', codeVersion: CODE_VERSION });
+        await alertAdmin(env, { slug, asset: assetLabel, objectKey, filename, reason: 'storage_unconfigured' });
+        return json(503, { error: 'storage_unconfigured', message: FILE_UNAVAILABLE_MSG, codeVersion: CODE_VERSION });
       }
+
+      // Hardening: confirm the object is actually there BEFORE handing over a URL.
+      // A missing/unreadable object makes R2 return an XML error that the browser
+      // would otherwise save as a "corrupt PDF". Verify, then alert + fail clearly.
+      const head = await objectExists(env, objectKey);
+      if (!head.ok) {
+        await alertAdmin(env, {
+          slug, asset: assetLabel, objectKey, filename, email: chk.email,
+          reason: head.status === 404 ? 'object_missing' : 'object_unreadable', status: head.status,
+        });
+        return json(502, { error: 'file_unavailable', message: FILE_UNAVAILABLE_MSG, codeVersion: CODE_VERSION });
+      }
+
       const signedUrl = await presign(env, objectKey, filename);
       return json(200, { url: signedUrl, filename, expiresIn: TTL, codeVersion: CODE_VERSION });
     }
@@ -153,6 +243,11 @@ export async function onRequestGet({ request, env }) {
       : entry.object;
     return json(200, { url: publicUrl, filename, public: true, codeVersion: CODE_VERSION });
   } catch (e) {
-    return json(500, { error: 'exception', message: (e && e.message) || String(e), codeVersion: CODE_VERSION });
+    const msg = (e && e.message) || String(e);
+    try {
+      const slug = new URL(request.url).searchParams.get('report');
+      await alertAdmin(env, { slug: slug || '(unknown)', reason: `exception: ${msg}` });
+    } catch { /* ignore */ }
+    return json(500, { error: 'exception', message: FILE_UNAVAILABLE_MSG, detail: msg, codeVersion: CODE_VERSION });
   }
 }

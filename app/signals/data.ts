@@ -2746,9 +2746,9 @@ export const signals: SignalMeta[] = [{
   slug: 'india-belgium-strategic-partnership-semiconductors-critical-minerals-defence-2026',
   no: 'S-084',
   title: 'India and Belgium widen a strategic-technology partnership across chips, minerals and defence',
-  domain: 'Strategic Partnerships & Industrial Sovereignty',
+  domain: 'Strategic Technology',
   date: '2026-09-05',
-  dateLabel: '5 Sept 2026',
+  dateLabel: '5 Sep 2026',
   status: 'live',
   excerpt: 'India’s technology-sovereignty partnerships are moving beyond the traditional supplier relationship. With Belgium, New Delhi has assembled a multi-sector agenda connecting semiconductor research, critical-mineral recycling, defence co-development, investment facilitation and port infrastructure in one bilateral framework.',
   readingTime: '5 min read',
@@ -2783,9 +2783,9 @@ export const signals: SignalMeta[] = [{
   slug: 'hypervault-tcs-1gw-ai-data-centre-campus-hyderabad-2026',
   no: 'S-085',
   title: 'TCS’s HyperVault puts India’s AI-compute race on a 1 GW footing',
-  domain: 'Artificial Intelligence & Digital Infrastructure',
+  domain: 'AI Infrastructure',
   date: '2026-09-06',
-  dateLabel: '6 Sept 2026',
+  dateLabel: '6 Sep 2026',
   status: 'live',
   excerpt: 'India’s AI sovereignty debate is moving from models and applications to the physical infrastructure that makes advanced computing possible. TCS subsidiary HyperVault has secured land in Hyderabad for a phased AI data-centre campus that could reach 1 GW and attract up to ₹70,000 crore in investment.',
   readingTime: '5 min read',
@@ -2820,9 +2820,9 @@ export const signals: SignalMeta[] = [{
   slug: 'maval-366-hectare-defence-data-centre-industrial-estate-pune-2026',
   no: 'S-086',
   title: 'Maval’s 366-hectare industrial estate could extend Pune’s defence-manufacturing cluster',
-  domain: 'Industrial Corridors & Defence Manufacturing',
+  domain: 'Industrial Corridors',
   date: '2026-09-07',
-  dateLabel: '7 Sept 2026',
+  dateLabel: '7 Sep 2026',
   status: 'live',
   excerpt: 'Pune’s defence-industrial advantage has been constrained by the same factor affecting many established clusters: not a lack of engineering capability, but a lack of contiguous, specialised industrial space. Maharashtra has moved a proposed 366-hectare Maval estate into the land-preparation and approval process, with defence manufacturers and data centres given priority.',
   readingTime: '4 min read',
@@ -2857,9 +2857,9 @@ export const signals: SignalMeta[] = [{
   slug: 'defence-acquisition-council-110000-crore-indian-industry-marine-gas-turbines-arudhra-2026',
   no: 'S-087',
   title: '₹1.1 lakh crore DAC package tests whether Indian sourcing can become Indian technological control',
-  domain: 'Defence Manufacturing & Strategic Autonomy',
+  domain: 'Defence & Dual-Use',
   date: '2026-09-07',
-  dateLabel: '7 Sept 2026',
+  dateLabel: '7 Sep 2026',
   status: 'live',
   excerpt: 'The Defence Acquisition Council has opened the door to roughly ₹1.1 lakh crore of military procurement, with the Ministry of Defence saying 98% will be sourced from Indian industry. The headline is large. The more consequential story is underneath it: India is pairing near-term capability acquisition with an indigenous radar replacement and a design-and-development pathway for marine gas turbines—the kind of propulsion technology that determines whether a navy can build and sustain major warships without a foreign bottleneck.',
   readingTime: '7 min read',
@@ -2909,9 +2909,9 @@ export const signals: SignalMeta[] = [{
   slug: 'india-defence-industrial-corridors-commitments-grounded-capacity-2026',
   no: 'S-088',
   title: 'India’s Defence Corridors Face Their Real Test: Turning ₹70,000 Crore of Promises into Factories',
-  domain: 'Industrial Corridors & Defence Manufacturing',
+  domain: 'Industrial Corridors',
   date: '2026-09-08',
-  dateLabel: '8 Sept 2026',
+  dateLabel: '8 Sep 2026',
   status: 'live',
   excerpt: 'India’s Defence Industrial Corridors have crossed the stage where announcing land and investment is enough. The government now says the Uttar Pradesh and Tamil Nadu corridors have attracted roughly ₹70,000 crore in investment proposals, with nearly ₹10,000 crore invested. The strategic question has changed: can India convert commitments into operating plants, supplier networks, testing capacity and exportable defence products?',
   readingTime: '6 min read',
@@ -2952,9 +2952,9 @@ export const signals: SignalMeta[] = [{
   slug: 'india-marine-gas-turbine-propulsion-autonomy-dac-2026',
   no: 'S-089',
   title: 'India’s Marine Gas Turbine Bet: The Most Important Line Hidden Inside the ₹1.1 Lakh Crore DAC Package',
-  domain: 'Naval Propulsion & Strategic Autonomy',
+  domain: 'Defence & Dual-Use',
   date: '2026-09-08',
-  dateLabel: '8 Sept 2026',
+  dateLabel: '8 Sep 2026',
   status: 'live',
   excerpt: 'The most consequential line in the Defence Acquisition Council’s ₹1.1 lakh crore package is not a vehicle, helicopter or radar. It is the quiet approval to design and develop marine gas turbines. If India can move from importing propulsion systems to designing, testing, producing and overhauling them at home, it will remove one of the least visible—and most important—foreign dependencies in its surface fleet.',
   readingTime: '7 min read',
@@ -3050,7 +3050,7 @@ export const signals: SignalMeta[] = [{
   title: 'India’s Drone Sovereignty Problem Is Moving Inside the Firmware',
   domain: 'Defence & Dual-Use',
   date: '2026-09-09',
-  dateLabel: '9 Sept 2026',
+  dateLabel: '9 Sep 2026',
   status: 'live',
   excerpt: 'The Indian Army has established AASHVAST, a New Delhi facility that examines military drones for hidden credentials, remote-access paths, unauthorised firmware, risky foreign components and behaviour under GPS spoofing or jamming. The important shift is not another drone platform. It is the attempt to make software provenance and electronic integrity part of defence acceptance and sustainment.',
   readingTime: '6 min read',
@@ -3117,7 +3117,7 @@ export const signals: SignalMeta[] = [{
   title: 'India Reaches 5,000 Metres: The Deep-Sea Mining Capability Behind Its Next Critical-Minerals Bet',
   domain: 'Critical Minerals & Materials',
   date: '2026-09-09',
-  dateLabel: '9 Sept 2026',
+  dateLabel: '9 Sep 2026',
   status: 'live',
   excerpt: 'India\'s critical-minerals strategy is moving below the seabed. Under the ₹4,077 crore Deep Ocean Mission, NIOT has demonstrated indigenous deep-sea mining crawlers at depths exceeding 5,000 metres in the Indian Ocean. The milestone does not mean commercial mining has begun. It means India has started building the subsea engineering layer that must exist before its exploration rights can become a supply chain.',
   readingTime: '6 min read',
@@ -3178,7 +3178,7 @@ export const signals: SignalMeta[] = [{
   title: 'India\'s Lithium Strategy Reaches the Mine: LOHUM Ships First Zimbabwe Ore',
   domain: 'Critical Minerals & Materials',
   date: '2026-09-10',
-  dateLabel: '10 Sept 2026',
+  dateLabel: '10 Sep 2026',
   status: 'live',
   excerpt: 'India\'s critical-minerals story has moved from auctions and exploration rights to a first operating upstream asset. LOHUM has dispatched its first lithium-ore shipment from Zimbabwe, marking the reported start of overseas lithium mining by an Indian company—and testing whether an Indian private firm can build a mine-to-materials chain across borders.',
   readingTime: '6 min read',
@@ -3243,9 +3243,9 @@ export const signals: SignalMeta[] = [{
   slug: 'drdo-missile-tot-scale-node-india-2026',
   no: 'S-094',
   title: 'DRDO\'s Missile ToT Scale Node Tests Whether India Can Turn Design Into Repeatable Production',
-  domain: 'Defence Manufacturing & Strategic Autonomy',
+  domain: 'Defence & Dual-Use',
   date: '2026-09-11',
-  dateLabel: '11 Sept 2026',
+  dateLabel: '11 Sep 2026',
   status: 'live',
   excerpt: 'India\'s missile programmes have long demonstrated design capability. The new ToT Scale Node at DRDO\'s Hyderabad cluster is an attempt to solve the harder problem: converting a qualified design into a repeatable, supplier-deep, export-ready production line. The shift is from proving a missile works to proving the industrial ecosystem can build it at scale.',
   readingTime: '6 min read',
@@ -3289,49 +3289,12 @@ export const signals: SignalMeta[] = [{
   takeaways: ['DRDO has operationalised a ToT Scale Node at DRDL Hyderabad to validate production readiness for Akash-NG, QRSAM, Astra Mk2 and VL-SRSAM.', 'The node addresses the design-to-production gap by providing shared test infrastructure, process validation, supplier qualification and quality systems.', 'It aims to shift India\'s missile production from a single-PSU ToT model to a tiered supply chain with multiple qualified integrators and MSMEs.', 'Success would mean shorter production ramp-up, lower unit variance, export-ready quality documentation and a repeatable model for other weapon systems.', 'The facility\'s real test is whether it changes the recurring pattern of each missile programme re-solving the same production bottlenecks.'],
   sources: ['Primary announcement of DRDO ToT Scale Node operationalisation at DRDL Hyderabad', 'Independent reporting on the Scale Node\'s infrastructure, initial programme focus and industrial model', 'Context on Akash-NG, QRSAM, Astra Mk2 and VL-SRSAM programme status and export interest', 'Analysis of India\'s missile production model and the shift from PSU-centric to tiered supply chains']
 }, {
-  slug: 'drdo-missile-tot-scale-node-industrial-absorption-2026',
-  no: 'S-096',
-  title: 'Missile ToT Is the Easy Half: India\'s Real Test Is the Scale Node',
-  domain: 'Defence Manufacturing & Strategic Autonomy',
-  date: '2026-09-11',
-  dateLabel: '11 Sept 2026',
-  status: 'live',
-  excerpt: 'Opening DRDO conventional-missile technologies to Indian industry changes who is allowed to produce. It does not by itself create magazine depth. Self-reliance fails or succeeds at the scale node—where qualified firms absorb know-how, stand up quality systems, deepen MSME suppliers and hold delivery when orders move from prototypes to volume.',
-  readingTime: '5 min read',
-  body: [{
-  text: 'The development',
-  type: 'h'
-}, {
-  text: 'In late August 2026, Defence Minister Rajnath Singh approved the transfer of DRDO-developed technologies for all conventional missile systems to qualified Indian defence manufacturers for production within the country. The decision opens a path that for years defaulted more narrowly to public-sector production routes. It covers conventional air-defence, strike, anti-tank, anti-radiation and related systems—not strategic nuclear missiles.',
-  type: 'p'
-}, {
-  text: 'Why it matters',
-  type: 'h'
-}, {
-  text: 'For decades, India often treated technology development and manufacturing scale as sequential, almost separate problems. Missile self-reliance does not work that way. A complete chain runs research → development → industrial production → suppliers → MSMEs → volume. When advanced designs stay inside laboratories or thin production lines, the country still carries strategic vulnerability: limited surge capacity, import-dependent subsystems and shallow magazines. Opening ToT to capable Indian companies is how policy tries to connect those dots—creating not only domestic assembly, but engineering depth, supplier networks and manufacturing know-how.',
-  type: 'p'
-}, {
-  text: 'The Techadyant view',
-  type: 'h'
-}, {
-  text: 'Innovation has limited economic and strategic value if it cannot be scaled. The ToT approval is a necessary industrial-policy signal; it is not yet a production result. Missile manufacture demands propulsion and energetics controls, secure facilities, rigorous quality systems and dependable orders. The real test is absorption: whether selected firms can move from certificate to qualified process, from first article to repeatable lot, and whether MSMEs become real nodes in the bill of materials rather than footnotes in the press release. India does not become self-reliant by designing more systems. It becomes self-reliant when Indian companies can repeatedly build world-class systems, at scale, with Indian capabilities.',
-  type: 'p'
-}, {
-  text: 'What to watch',
-  type: 'h'
-}, {
-  text: 'First competitive ToT / Development-cum-Production Partner awards with named companies and missile families; eligibility, certification and test-range pathways published and used in practice; funded production contracts and delivery schedules—not only AoNs or policy statements; evidence of MSME content in seekers, actuation, electronics, structures and energetics supply chains; whether private primes become system integrators or remain subsystem suppliers.',
-  type: 'p'
-}],
-  takeaways: ['Defence Minister Rajnath Singh approved transfer of DRDO technologies for all conventional missile systems to Indian industry; strategic nuclear systems remain excluded.', 'The binding constraint is industrial absorption: qualification, certification, supplier tiers, energetics controls and repeatable production.', 'MSME participation matters only if it shows up in real bills of materials, not only in policy language.', 'Strongest next evidence: named ToT/DcPP awards, funded production lots, first user deliveries and disclosed capacity for specific missile families.', 'This signal follows S-074 (announcement-day signal) and frames the absorption/scale test.'],
-  sources: ['RM approval; competitive bidding for ToT / DcPP; conventional scope; MSME objective', 'Private sector production path; example systems; competition vs nomination culture', 'Conventional vs strategic exclusion; possible early systems named by officials']
-}, {
   slug: 'india-javelin-tata-co-production-defence-industrial-base-2026',
   no: 'S-095',
   title: 'India\'s Javelin Deal Is More Than a Missile Purchase—and Less Than Technology Sovereignty',
-  domain: 'Defence & Strategic Manufacturing',
+  domain: 'Defence & Dual-Use',
   date: '2026-09-12',
-  dateLabel: '12 Sept 2026',
+  dateLabel: '12 Sep 2026',
   status: 'live',
   excerpt: 'India has finally signed for a small initial batch of US Javelin anti-tank missiles. The more consequential development came two days later: Tata Advanced Systems was selected to explore final assembly and component production in India. The strategic question is not whether India can buy the weapon. It is how much of the missile\'s industrial and technological chain will actually move into India.',
   readingTime: '7 min read',
@@ -3406,11 +3369,11 @@ export const signals: SignalMeta[] = [{
   sources: ['Primary confirmation of the Indian Army LOA through the US Foreign Military Sales process and the opening for future co-production discussions', 'Primary announcement of the Tata-Javelin Joint Venture MOU, proposed Indian final assembly, component production and continuing US sub-assembly supply', 'Independent reporting on the acquisition, initial quantity and long-running procurement context', 'Expert analysis of the Javelin\'s stopgap role, indigenous MPATGM pathway, cost asymmetry and anti-armour force design', 'Independent summary of the 30 August MOU and its proposed final assembly and component-production architecture']
 }, {
   slug: 'india-four-critical-mineral-processing-parks-midstream-2026',
-  no: 'S-097',
+  no: 'S-096',
   title: 'India\'s Critical-Minerals Strategy Hits the Midstream: Four Processing Parks',
   domain: 'Critical Minerals & Materials',
   date: '2026-09-12',
-  dateLabel: '12 Sept 2026',
+  dateLabel: '12 Sep 2026',
   status: 'live',
   excerpt: 'India is moving from mineral auctions and overseas ore headlines to processing geography. Four dedicated critical-mineral parks—in Gujarat, Maharashtra, Odisha and Andhra Pradesh—are being developed around distinct mineral ecosystems, with three states already reported to have submitted detailed project reports. The strategic gap has never been only deposits; it is beneficiation, separation and downstream chemicals and magnets.',
   readingTime: '5 min read',
@@ -3443,11 +3406,11 @@ export const signals: SignalMeta[] = [{
   sources: ['Four parks; state focus areas; NCMM director on DPRs; CII summit', 'Dahej, Dighi, Paradip; REE/Ti/Zr for Andhra', 'Mines minister on value chains, parks, recycling scheme registrations']
 }, {
   slug: 'idds-mark-ii-drdo-laser-counter-drone-army-iaf-2026',
-  no: 'S-098',
+  no: 'S-097',
   title: 'Counter-Drone Moves from Soft-Kill Inventory to Directed-Energy Depth',
   domain: 'Defence & Dual-Use',
   date: '2026-09-12',
-  dateLabel: '12 Sept 2026',
+  dateLabel: '12 Sep 2026',
   status: 'live',
   excerpt: 'India\'s counter-UAS build-out is entering a directed-energy phase. Reporting indicates the Defence Ministry is close to approving DRDO\'s upgraded Integrated Drone Detection and Interdiction System (IDDS Mark-II), with the Army and Air Force positioned to order multiple indigenous systems. Public figures describe a higher-power laser class with roughly double the hard-kill range of the earlier generation—shifting the industrial question from detection alone to production-ready DEW.',
   readingTime: '5 min read',
@@ -3480,11 +3443,11 @@ export const signals: SignalMeta[] = [{
   sources: ['IDDS Mark-II approval path; ~16 systems; 10 kW / ~2 km figures; CHESS DEW context']
 }, {
   slug: 'reliance-rolls-royce-amca-indigenous-engine-gas-turbine-complex-2026',
-  no: 'S-099',
+  no: 'S-098',
   title: 'AMCA\'s Binding Constraint Is the Engine: Reliance and Rolls-Royce Put Propulsion on the Industrial Path',
-  domain: 'Defence Manufacturing & Strategic Autonomy',
+  domain: 'Defence & Dual-Use',
   date: '2026-09-12',
-  dateLabel: '12 Sept 2026',
+  dateLabel: '12 Sep 2026',
   status: 'live',
   excerpt: 'Airframe headlines do not deliver fifth-generation sovereignty. Reporting on a Reliance Industries–Rolls-Royce partnership to design, develop, manufacture, test and produce an indigenous engine for India\'s Advanced Medium Combat Aircraft—and to build an Aerospace Gas Turbine Complex—puts the real chokepoint in view: fighter propulsion, not only the platform outline.',
   readingTime: '5 min read',
@@ -3517,11 +3480,11 @@ export const signals: SignalMeta[] = [{
   sources: ['RIL–Rolls-Royce AMCA engine and Aerospace Gas Turbine Complex']
 }, {
   slug: 'karnataka-chikkaballapura-drone-testing-hub-2026',
-  no: 'S-100',
+  no: 'S-099',
   title: 'Karnataka Proposes a Dedicated Chikkaballapura Drone-Testing Node for BVLOS and Certification Work',
   domain: 'Defence & Dual-Use',
   date: '2026-09-12',
-  dateLabel: '12 Sept 2026',
+  dateLabel: '12 Sep 2026',
   status: 'live',
   excerpt: 'Karnataka is adding a physical test-and-certification layer to India\'s drone ecosystem, but the sovereignty value will depend on whether the proposed ₹42.8–42.9 crore, 19.26-acre site becomes funded, built and actually used by manufacturers and defence users.',
   readingTime: '4 min read',
@@ -3555,6 +3518,86 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Karnataka has proposed a new 19.26-acre drone-testing node in Chikkaballapura.', 'The planned facility targets the testing and certification layer for BVLOS and other complex operations.', 'The announcement changes the Atlas geography map, but the project remains monitoring-grade until funding, construction and regulatory implementation are demonstrated.'],
   sources: ['Reports the estimated cost, site, planned capabilities and Drone Federation India as implementation partner.', 'Independent industry source reproducing the ministerial announcement and intended user groups and functions.', 'Attributed primary announcement referenced by the industry report; direct announcement record.']
+}, {
+  slug: 'cochin-shipyard-drydocks-world-ship-repair-jv-2026',
+  no: 'S-100',
+  title: 'India\'s Maritime Sovereignty Needs Repair Capacity: Cochin Shipyard Signs 50:50 JV with Drydocks World',
+  domain: 'Industrial Corridors',
+  date: '2026-09-13',
+  dateLabel: '13 Sep 2026',
+  status: 'live',
+  excerpt: 'India has long measured maritime strength in ships launched; the more revealing test is what happens after they enter service. Cochin Shipyard\'s 50:50 JV with DP World\'s Drydocks World turns Kochi\'s International Ship Repair Facility into a candidate regional MRO node - putting repair turnaround, specialist skills and supplier depth at the centre of maritime sovereignty.',
+  readingTime: '6 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Cochin Shipyard Limited and DP World subsidiary Drydocks World signed a 50:50 joint-venture agreement on 11 September 2026 to operate, consolidate and expand the International Ship Repair Facility (ISRF) in Kochi, a roughly Rs 1,800 crore undertaking. The agreement formalises a relationship that began with an earlier memorandum of understanding and brings together CSL\'s Indian shipbuilding and repair base with Drydocks World\'s experience in high-end vessel repair, major conversions and offshore engineering. It moves the partnership beyond exploratory cooperation towards a joint entity responsible for operating and expanding a specific asset.',
+  type: 'p'
+}, {
+  text: 'Why repair capacity is a sovereignty issue',
+  type: 'h'
+}, {
+  text: 'A navy or merchant fleet is not strategically autonomous merely because its vessels are built domestically. Availability depends on where ships can be inspected, repaired, refitted, converted and returned to service. Long repair queues or dependence on distant yards increase cost, reduce surge capacity and expose operators to political and commercial constraints.',
+  type: 'p'
+}, {
+  text: 'The strategic value of a shipyard is measured not only by how many ships it launches, but by how quickly it can return a vessel to the water when the fleet cannot wait.',
+  type: 'quote',
+  source: 'Techadyant Labs analysis'
+}, {
+  text: 'The asset being placed into the JV',
+  type: 'h'
+}, {
+  text: 'Independent maritime reporting describes the ISRF as a roughly 30-hectare facility with a 6,000-tonne ship lift, transshipment capability, six workstations and about 1,400 metres of berthing. It can reportedly accommodate six to seven vessels of about 130 metres simultaneously and has a maximum annual repair capacity of approximately 82 vessels. The facility repaired about 35 vessels in FY2025-26, showing both an operating base and a gap between installed capacity and achieved throughput.',
+  type: 'p'
+}, {
+  type: 'list',
+  items: ['JV structure: 50:50 CSL-Drydocks World, with operating and capability decisions implemented through the joint entity.', 'Facility footprint: approximately 30 hectares - a defined asset, not an unlocated investment pledge.', 'Ship lift: 6,000 tonnes - supports repair of commercial, offshore and naval-adjacent vessels.', 'Maximum stated capacity: approximately 82 vessels annually - installed potential, not guaranteed throughput.', 'FY2025-26 throughput: approximately 35 vessels - the execution challenge is utilisation, turnaround and higher-value work.', 'Completion target: reportedly March 2027 - still subject to regulatory, port, ministry and shareholder approvals.']
+}, {
+  text: 'The international-partner logic',
+  type: 'h'
+}, {
+  text: 'Drydocks World brings a global repair and offshore-engineering operating model, while CSL contributes Indian engineering capability, workforce and an established domestic customer base. The combination could help Kochi attract vessels that currently bypass Indian yards, improve procurement and safety practices, and build a higher-volume pipeline for repairs, conversions and fabrication.',
+  type: 'p'
+}, {
+  text: 'From one facility to a maritime-services cluster',
+  type: 'h'
+}, {
+  text: 'The more important possibility is not simply higher utilisation of one ship lift. A successful JV could pull in specialist suppliers for steelwork, coatings, electrical systems, propulsion maintenance, inspection, dry-docking, hydraulics, automation and marine certification. Over time these services can become a cluster that makes India a credible repair destination for Indian, regional and international fleets - reportedly India\'s first dedicated ship-repair cluster.',
+  type: 'p'
+}, {
+  text: 'The defence relevance is real, but should not be overstated',
+  type: 'h'
+}, {
+  text: 'The public announcements describe a broad ship-repair and maritime-services partnership, not a dedicated naval-maintenance contract. The facility\'s commercial workload and location make it strategically relevant to India\'s maritime resilience, but no evidence yet establishes that the JV will handle a defined share of warship refits, classified systems or emergency naval surge work. Its defence value will depend on future approvals, security arrangements, certifications and workload allocation.',
+  type: 'p'
+}, {
+  text: 'The utilisation gap is the first test',
+  type: 'h'
+}, {
+  text: 'The difference between a reported maximum of 82 vessels and about 35 repaired in FY2025-26 is not automatically a failure: new facilities need time to build customers, processes and workforce rhythm. It is nevertheless the most useful baseline for measuring whether the JV creates real additional capacity. The first test is whether throughput rises without reducing repair quality or simply shifting existing CSL work into a new corporate wrapper.',
+  type: 'p'
+}, {
+  text: 'Approvals and transaction mechanics matter',
+  type: 'h'
+}, {
+  text: 'The agreement is not yet the same as completed asset transfer. Reporting indicates that approvals from the Cochin Port Authority, the Ministry of Ports, Shipping and Waterways, the Department of Investment and Public Asset Management and Cochin Shipyard shareholders are required. The expected March 2027 completion date should therefore be treated as a target, not a closed transaction.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'This is a more concrete maritime-industrial development than a generic investment announcement because it attaches a signed ownership structure to an operating facility. Its strategic value will be established only if the JV converts installed infrastructure into faster turnaround, higher-value repairs, international customers, Indian supplier depth and a credible pathway for sensitive or priority maritime work. Kochi\'s opportunity is to become a repair ecosystem, not merely a larger dock.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for completion of regulatory and shareholder approvals, the final valuation and capital contributions, the appointment of the operating team, expansion capex, throughput targets, international customer contracts, repair turnaround times, local supplier and skills programmes, naval or coast-guard workload, and whether additional ship-repair or offshore-manufacturing nodes are added around Kochi and Vadinar.',
+  type: 'p'
+}],
+  takeaways: ['Cochin Shipyard and DP World\'s Drydocks World signed a 50:50 JV on 11 September 2026 to operate and expand Kochi\'s International Ship Repair Facility, a roughly Rs 1,800 crore undertaking.', 'The ISRF has a 6,000-tonne ship lift, six workstations, about 1,400 metres of berthing and a reported maximum capacity of about 82 vessels per year.', 'Reported FY2025-26 throughput of about 35 vessels sets a measurable baseline for the JV\'s execution test.', 'The strategic value lies in repair, refit, conversion, skills and supplier depth - not only in dock infrastructure - and is billed as India\'s first ship-repair cluster.', 'The announcement does not yet establish a naval workload, emergency-access arrangement, expansion budget or completed asset transfer; approvals are pending with a March 2027 target.'],
+  sources: ['Business Standard (12 Sep 2026): https://www.business-standard.com/companies/news/drydocks-world-cochin-shipyard-jv-isrf-kochi-ship-repair-126091200277_1.html', 'The Week (12 Sep 2026): https://www.theweek.in/news/maritime/2026/09/12/cochin-shipyard-csl-ddw-joint-venture-isrf.html', 'Moneycontrol (11 Sep 2026): https://www.moneycontrol.com/news/business/cochin-shipyard-dp-world-s-drydocks-world-form-50-50-jv-to-expand-kochi-ship-repair-facility-14028227.html', 'ThePrint / PTI (11 Sep 2026): https://theprint.in/economy/drydocks-world-cochin-shipyard-form-jv-in-ship-repair-sector/3040734/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
