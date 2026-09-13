@@ -1371,8 +1371,8 @@ export const reports: ReportMeta[] = [{
   cover: '/covers/india-loitering-munitions-market.jpg',
   previewObject: 'https://library.techadyant.com/free%20reports/India-Loitering-Munitions-Market-Free-Edition.pdf',
   previewPages: 14,
-  hasData: false,
-  priceWithData: undefined,
+  hasData: true,
+  priceWithData: 11999,
   dataFilename: undefined,
   keywords: ['india loitering munitions market', 'loitering munition manufacturers india', 'kamikaze drone india', 'Nagastra loitering munition', 'SkyStriker India', 'ALS-50 Tata', 'India drone warfare procurement', 'loitering munition subsystem imports', 'rare earth magnets drones india', 'Operation Sindoor drone procurement', 'India defence budget 2026 drones', 'attritable precision munitions'],
   faq: [{
