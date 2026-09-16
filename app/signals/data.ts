@@ -3715,6 +3715,197 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['India\'s data-centre capacity rose from about 375 MW (2020) to 1.57 GW (Aug 2026), with the government projecting nearly 8 GW by 2030 against roughly 17 GW of demand by 2031-32.', 'About USD 70 billion has been invested with a further USD 90 billion announced; data centres have held infrastructure status since the 2022-23 Budget.', 'The 2026-27 Budget adds a tax holiday for eligible foreign cloud service providers through 2047, aimed at pulling hyperscale capacity onshore.', 'The binding constraints are now power, land and water - plus the imported silicon inside - not demand; the gap between announced and built capacity is the execution test.'],
   sources: ['Press Information Bureau / MeitY (14 Sep 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2309950', 'JLL India Data Centres 2026 mid-year report: https://www.jll.com/en-in/insights/market-dynamics/india-data-centers', 'Communications Today (2026): https://www.communicationstoday.co.in/india-data-centre-2026-mid-year-report/']
+}, {
+  slug: 'applied-materials-3600-crore-karnataka-semiconductor-mou-2026',
+  no: 'S-104',
+  title: 'Applied Materials Bets Rs 3,600 Crore on Karnataka: The Equipment Layer Comes to India',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-09-15',
+  dateLabel: '15 Sep 2026',
+  status: 'live',
+  excerpt: 'US chip-equipment major Applied Materials will invest about Rs 3,600 crore in Karnataka over roughly a decade for semiconductor R&D, equipment manufacturing and software, with a signed MoU and about 140 acres allotted in Bengaluru. The tools-and-process layer, not another fab, is the part India most needs to build.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Applied Materials, the US semiconductor-equipment major, will invest about Rs 3,600 crore in Karnataka over roughly ten years, state minister M B Patil said on 15 September 2026, with the signed MoU for the project received. The work will focus on research and development, the manufacturing of essential chipmaking equipment, and the software technologies used in semiconductor production. Karnataka has allotted about 140 acres at the Bengaluru Signature Business Park, a land deal valued near Rs 780 crore, and the investment is expected to create around 1,000 jobs.',
+  type: 'p'
+}, {
+  text: 'Rs 3,600 crore - Applied Materials planned investment in Karnataka over about ten years; about 140 acres allotted at the Bengaluru Signature Business Park.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India semiconductor programme is usually narrated through fabs and assembly-and-test plants. Applied Materials belongs to a different and arguably more binding layer: the tools, process know-how and software without which no fab can run. A large equipment maker anchoring R&D and equipment work in India builds capability in the part of the stack that is most concentrated globally and hardest to substitute.',
+  type: 'p'
+}, {
+  text: 'The dependency / systems frame',
+  type: 'h'
+}, {
+  text: 'Semiconductor manufacturing is a chain of specialised inputs - deposition, etch, metrology, materials and the software that runs them - and equipment and process control are among the tightest chokepoints, dominated by a handful of firms. An Applied Materials presence does not by itself transfer tool-making sovereignty. It can, however, create a domestic node for R&D, supplier development and skills that deepens over time, and it strengthens the case for Indian fabs to co-locate process engineering here.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether the MoU converts into capex (buildings, tool lines) rather than R&D and software only', 'Hiring and supplier-localisation numbers against the roughly 1,000-job projection', 'Linkages to India approved fabs and ATMP/OSAT plants - process support, spare parts and service', 'Any commitment on tool assembly, refurbishment or components made in India', 'Whether other equipment majors follow with comparable Indian footprints']
+}],
+  takeaways: ['Applied Materials will invest about Rs 3,600 crore in Karnataka over roughly ten years for semiconductor R&D, equipment manufacturing and software, per the state government.', 'Karnataka says the MoU is signed and about 140 acres have been allotted at the Bengaluru Signature Business Park, in a land deal valued near Rs 780 crore.', 'The project targets the equipment-and-process layer - the most concentrated part of the global chip supply chain - rather than a fab.', 'Watch whether the commitment hardens into tool-making capex and local supplier development, or remains R&D and software.'],
+  sources: ['Economic Times (15 Sep 2026): https://economictimes.indiatimes.com/tech/technology/chip-maker-applied-materials-to-invest-rs-3600-crore-karnataka-minister/articleshow/134267880.cms', 'Rediff Money (15 Sep 2026): https://money.rediff.com/news/market/applied-materials-to-invest-3-600-cr-in-karnataka/54382320260915']
+}, {
+  slug: 'saatvik-green-energy-1042-crore-seci-solar-modules-2026',
+  no: 'S-105',
+  title: 'Saatvik Rs 1,042 Crore SECI Order: India Solar Push Moves to Cells and Modules',
+  domain: 'Solar & Clean-Energy Manufacturing',
+  date: '2026-09-15',
+  dateLabel: '15 Sep 2026',
+  status: 'live',
+  excerpt: 'Saatvik Green Energy has won a Rs 1,041.63 crore order from SECI to supply about 600 MWp of solar modules, with execution scheduled by December 2027. The signal is not the headline size but the direction: state-backed offtake is loading India domestic module and cell capacity.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Saatvik Green Energy has received and accepted an order worth about Rs 1,041.63 crore from the Solar Energy Corporation of India (SECI) to supply roughly 600 MWp of solar photovoltaic modules. The order is linked to a project in Radhanesda, Gujarat, and is scheduled for execution by December 2027, the company said on 15 September 2026.',
+  type: 'p'
+}, {
+  text: 'Rs 1,041.63 crore - SECI order value; about 600 MWp of solar modules, with execution by December 2027.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India has built very large module assembly capacity, but the strategic gap has been upstream - cells, wafers and the polysilicon chain - and the demand certainty needed to run it. A large SECI offtake for modules keeps the downstream line loaded while India tries to deepen into cells. Orders at this scale also give domestic manufacturers the balance-sheet visibility to invest backward into cell lines.',
+  type: 'p'
+}, {
+  text: 'The dependency / systems frame',
+  type: 'h'
+}, {
+  text: 'Solar is now a strategic-manufacturing story as much as an energy story. Module capacity without cell and wafer capacity leaves India importing the higher-value, more concentrated upstream inputs. The test is whether demand programmes such as this pull investment into cells, wafers and materials - and whether domestic-content rules are enforced alongside the offtake.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether Saatvik order is matched by cell (and eventually wafer) capex, not just module assembly', 'ALMM and domestic-content compliance on SECI-linked supply', 'Execution milestones against the December 2027 deadline', 'Pricing trends as module capacity runs ahead of demand', 'Follow-on SECI and state tenders that extend the offtake pipeline']
+}],
+  takeaways: ['Saatvik Green Energy won a Rs 1,041.63 crore SECI order for about 600 MWp of solar PV modules.', 'The order supports a project in Radhanesda, Gujarat, with execution scheduled by December 2027.', 'The signal is demand certainty for domestic module capacity as India tries to deepen into cells and wafers.', 'Watch whether the offtake pulls backward investment into the more concentrated upstream layers.'],
+  sources: ['Economic Times (15 Sep 2026): https://economictimes.indiatimes.com/industry/renewables/saatvik-green-energy-bags-order-worth-rs-1042-crore-from-seci/articleshow/134267699.cms', 'CNBC-TV18 (15 Sep 2026): https://www.cnbctv18.com/energy/saatvik-green-energy-bags-rs-1042-crore-seci-order-for-solar-module-supply-19991163.htm']
+}, {
+  slug: 'bharat-forge-pratt-whitney-canada-drdo-hale-uav-engine-2026',
+  no: 'S-106',
+  title: 'The Engine Is the Test: Bharat Forge and Pratt & Whitney Canada Move on the HALE UAV',
+  domain: 'Defence & Dual-Use',
+  date: '2026-09-15',
+  dateLabel: '15 Sep 2026',
+  status: 'live',
+  excerpt: 'Bharat Forge and Pratt & Whitney Canada will study integrating advanced turboprop engines into DRDO High-Altitude Long-Endurance UAV programme. It is an evaluation, not a contract - but propulsion is where India large-UAV ambitions have repeatedly stalled.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Bharat Forge and Pratt & Whitney Canada, part of RTX, said on 15 September 2026 that they will evaluate the integration of advanced turboprop engines into an indigenous High-Altitude Long-Endurance (HALE) UAV programme designed by DRDO. The collaboration will assess engine compatibility, performance and installation requirements for the platform. The arrangement is at an evaluation stage rather than a production order.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India can design airframes and integrate sensors, but propulsion has been the recurring constraint for large unmanned systems. A HALE UAV needs a reliable, fuel-efficient engine able to run for very long endurance at high altitude - exactly the class where foreign suppliers dominate and export controls matter. Pairing a private Indian engineering house with a global engine maker is a way to de-risk that gap while keeping a domestic integration role.',
+  type: 'p'
+}, {
+  text: 'The dependency / systems frame',
+  type: 'h'
+}, {
+  text: 'Military aviation dependency is deepest at the engine core - materials, hot-section design, controls and certification. An evaluation agreement does not transfer that core; at best it creates a domestic integration and support layer and a path to deeper work if the programme matures. The sovereignty question is how much of the engine and its sustainment India ends up owning versus importing.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether the evaluation converts into a development or co-production agreement', 'Extent of Indian content - components, controls, MRO - versus fully imported engines', 'Linkage to the DRDO HALE UAV timeline and any armed variant', 'Whether a parallel indigenous engine programme is funded', 'Export-control or licensing conditions attached to the partnership']
+}],
+  takeaways: ['Bharat Forge and Pratt & Whitney Canada will evaluate integrating advanced turboprop engines into DRDO HALE UAV programme.', 'The tie-up is at the assessment stage - compatibility, performance and installation - not a production contract.', 'Large-UAV propulsion is a long-standing Indian dependency; this pairs a private Indian firm with a global engine maker.', 'Watch whether it becomes co-development or co-production, and how much engine content and MRO India owns.'],
+  sources: ['Fortune India (15 Sep 2026): https://www.fortuneindia.com/business-news/bharat-forge-pratt-whitney-canada-to-explore-turboprop-engine-integration-for-drdos-hale-uav-programme/159345', 'The Hindu BusinessLine (15 Sep 2026): https://www.thehindubusinessline.com/economy/logistics/bharat-forge-pratt-whitney-canada-team-up-for-indias-hale-uav-programme/article71468825.ece']
+}, {
+  slug: 'mazagon-dock-dighi-raigad-27000-crore-shipbuilding-cluster-2026',
+  no: 'S-107',
+  title: 'Mazagon Dock Rs 27,000 Crore Dighi Bet: India Tries to Build Shipyard Capacity at Scale',
+  domain: 'Industrial Corridors',
+  date: '2026-09-15',
+  dateLabel: '15 Sep 2026',
+  status: 'live',
+  excerpt: 'Mazagon Dock Shipbuilders plans about Rs 27,000 crore to develop a greenfield shipbuilding cluster at Dighi in Raigad, positioning itself as the anchor shipyard. Shipbuilding capacity - not ship orders - is the constraint India maritime ambitions keep hitting.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Mazagon Dock Shipbuilders Ltd (MDL) plans to invest about Rs 27,000 crore to develop a greenfield shipbuilding cluster at Dighi in Raigad district, Maharashtra, according to reports on 15 September 2026. MDL has emerged as the anchor applicant for the cluster, planned on a large site in the Dighi area, which is projected to create tens of thousands of jobs.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India shipbuilding and ship-repair ambitions - commercial and naval - are constrained less by orders than by physical capacity: dry docks, slipways, cranes and a skilled workforce for large vessels. New capacity at Dighi would add a large node alongside existing yards and, if executed, could shorten repair queues and support both naval programmes and commercial shipping.',
+  type: 'p'
+}, {
+  text: 'The dependency / systems frame',
+  type: 'h'
+}, {
+  text: 'A ship is a floating assembly of steel, engines, electronics and systems, and India still imports key inputs - propulsion, some electronics and specialised equipment. A large greenfield yard is an industrial-corridor play: it pulls in suppliers, training institutions and logistics around it. The sovereignty test is whether it raises domestic content and throughput, or mainly adds berths that still assemble imported kits.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether MDL EoI becomes a formal award, financial close and construction start', 'Land acquisition and environmental clearances for the Dighi site', 'Target capacity and the share of naval versus commercial work', 'Localisation of engines, electronics and equipment in ships built there', 'Workforce pipeline and supplier clustering around Raigad']
+}],
+  takeaways: ['Mazagon Dock Shipbuilders plans about Rs 27,000 crore of investment in a greenfield shipbuilding cluster at Dighi, Raigad.', 'MDL is positioned as the anchor applicant for the cluster, which is projected to create large-scale employment.', 'India maritime constraint is yard capacity and skilled workforce as much as order flow.', 'Watch the conversion from EoI to award and construction, and the localisation of ship inputs.'],
+  sources: ['Rediff Money (15 Sep 2026): https://money.rediff.com/news/market/mdl-to-invest-27-000-cr-in-dighi-shipbuilding-cluster/54356220260915', 'ET Infra (7 Sep 2026): https://infra.economictimes.indiatimes.com/news/ports-shipping/mazagon-dock-is-lone-eoi-applicant-for-greenfield-shipbuilding-cluster-planned-at-dighi/133859983']
+}, {
+  slug: 'india-france-private-space-deals-sbs-iii-dhruva-safran-2026',
+  no: 'S-108',
+  title: 'India\'s Military Space Build-Out Goes Private - and the Subsystem Dependency Shows',
+  domain: 'Strategic Technology',
+  date: '2026-09-16',
+  dateLabel: '16 Sep 2026',
+  status: 'live',
+  excerpt: 'At the Paris International Space Summit on 9-10 September, three India-France private-sector deals plugged Indian firms into SBS-III, India\'s Rs 26,968 crore military-surveillance constellation of 52 satellites. The anchor deal has France\'s Safran supplying the communication, inertial-navigation and optical subsystems to Dhruva Space - a reminder that India\'s space privatisation still rides on imported high-value payloads.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'At the International Space Summit in Paris on 9-10 September 2026, three private-sector India-France space agreements were announced. The anchor deal has France\'s Safran supplying Dhruva Space, of Hyderabad, with communication systems, inertial navigation units, optical payloads and ground stations, in a contract worth over EUR 5 million (about Rs 45 crore), to support India\'s Space-Based Surveillance Phase III (SBS-III) constellation. In the other two, France\'s RIDE! will launch two satellites for the Indian orbital-data-centre firm TakeMeToSpace, and France\'s U-Space and India\'s AXISCADES agreed a phased microsatellite partnership. SBS-III is a Rs 26,968 crore programme for 52 satellites between 2027 and 2030 - ISRO building 21 and private firms the rest - for all-weather surveillance along the borders and across the Indian Ocean Region.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'SBS-III is India\'s most ambitious military space-surveillance programme, and for the first time private companies carry the majority of the build. That is the real shift - from an ISRO-only model to an industrial base. The India-France deals show Indian private firms wiring into global supply chains to get there: access to flight-proven subsystems, launch capacity and commercial partnerships that compress development time and de-risk a fast constellation schedule.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'The direction of the anchor deal is the tell. Safran supplies the communication, inertial-navigation and optical subsystems to Dhruva - precisely the high-value guts of a surveillance satellite. India is privatising the integration and the constellation, but the sensing and navigation payloads still come from abroad. Sovereign space power is measured at the subsystem layer - optics, inertial sensors, secure comms - not by the number of satellites launched. The opportunity for Indian industry is to climb from bus integration into those payloads; the risk is a larger constellation that stays import-dependent exactly where it matters most.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether Indian firms progress from satellite-bus integration into indigenous optical, inertial and secure-communications payloads for SBS-III.', 'The private-sector share of the 52-satellite build, and how many awards convert into signed contracts by 2027.', 'Whether the Safran, RIDE! and U-Space tie-ups deepen into technology transfer or stay arms-length supply relationships.', 'Launch cadence and the split between ISRO and private launch providers across the constellation.']
+}],
+  takeaways: ['Three India-France private-sector space deals were announced at the Paris International Space Summit on 9-10 September 2026.', 'France\'s Safran will supply communication systems, inertial navigation units, optical payloads and ground stations to Dhruva Space in a contract worth over EUR 5 million (about Rs 45 crore).', 'The deals feed SBS-III - a Rs 26,968 crore constellation of 52 satellites for 2027-2030, with ISRO building 21 and private firms the remainder.', 'The anchor deal\'s direction - Safran supplying the sensing and navigation subsystems - shows India\'s space privatisation still rides on imported high-value payloads.'],
+  sources: ['Business Standard (10 Sep 2026): https://www.business-standard.com/external-affairs-defence-security/news/india-france-step-up-space-cooperation-with-new-private-sector-deals-126091000523_1.html', 'Organiser (11 Sep 2026): https://organiser.org/2026/09/11/379969/world/india-france-space-ties-gain-big-boost-3-deals-propel-surveillance-micro-satellites-edge-to-domestic-private-sector/', 'APAC News Network (14 Sep 2026): https://apacnewsnetwork.com/2026/09/dhruva-space-frances-safran-space-sign-rs-55-crore-plus-contracts-for-satellite-programme/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

@@ -7,6 +7,17 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'india-military-aerospace-manufacturing-ecosystem': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'India_Military_Aerospace_Manufacturing_Ecosystem.pdf',
+    filename: 'India-Military-Aerospace-Manufacturing-Ecosystem-Techadyant-Labs.pdf',
+    title: 'India’s Military Aerospace Manufacturing Ecosystem',
+    // Report + Data tier: the 7-sheet military-aerospace intelligence workbook. Price authority for the data tier.
+    priceWithDataInr: 11999,
+    dataObject: 'data/India-Military-Aerospace-Manufacturing-Ecosystem-Workbook.xlsx',
+    dataFilename: 'India-Military-Aerospace-Manufacturing-Ecosystem-Data-Pack-Techadyant-Labs.xlsx',
+  },
   'india-cloud-question': {
     access: 'paid',
     priceInr: 6999,

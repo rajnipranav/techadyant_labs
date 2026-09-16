@@ -34,6 +34,53 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
+  slug: 'india-military-aerospace-manufacturing-ecosystem',
+  title: 'India’s Military Aerospace Manufacturing Ecosystem',
+  subtitle: 'From aircraft assembly to industrial sovereignty — propulsion, subsystems, IP and exports, and the choice that decides 2035',
+  domain: 'Industrial & Deep Tech',
+  edition: 'Flagship Edition',
+  published: '2026-09-16',
+  publishedLabel: 'September 2026',
+  readingTime: '~ 55 min read',
+  status: 'published',
+  summary: 'India’s military aerospace industry has reached an inflection point: a 1,500+ aircraft-and-helicopter procurement pipeline worth roughly ₹2,50,000 crore over 2025–2035, a private-sector prime layer that can now build (TASL’s C-295, HAL’s Tejas and rotorcraft, Mahindra, L&T), and policy tailwinds from the 75% domestic capital earmark and five positive-indigenisation lists. Yet the sovereignty question is unresolved below the airframe: India imports 85–90% of aircraft-engine value and depends on foreign supply for single-crystal turbine blades, FADEC, aerospace-grade semiconductors, AESA T/R modules and superalloys. This report maps the full ecosystem — the 16-subsystem architecture, the prime and Tier-1/2/3 supplier network, eleven ₹1,000 crore-plus opportunity surfaces, the critical-dependency chain, and a three-scenario 2035 outlook (Assembly Nation, Deep Localisation, Indigenous Stack) separated by whether India invests in the layers it does not yet own. It prescribes the capital, the certification capacity and the engine programme required to move from assembly to genuine industrial sovereignty.',
+  accent: '#60A5FA',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 158,
+  cover: '/covers/india-military-aerospace-manufacturing-ecosystem.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India_Military_Aerospace_Manufacturing_Ecosystem_Free.pdf',
+  previewPages: 15,
+  hasData: true,
+  priceWithData: 11999,
+  dataFilename: 'India-Military-Aerospace-Manufacturing-Ecosystem-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['India military aerospace', 'India aerospace manufacturing', 'aircraft engine dependency India', 'AMCA', 'Tejas Mk1A Mk2', 'C-295 India', 'MRFA', 'aerospace indigenisation India', 'single-crystal turbine blade', 'FADEC India', 'AESA radar India', 'India aerospace 2035', 'defence aerospace ecosystem', 'aerospace Tier-2 suppliers India'],
+  faq: [{
+  q: 'How large is India’s military aerospace opportunity?',
+  a: 'The report estimates approximately ₹2,50,000 crore of cumulative industrial value over 2025-2035 across major aerospace programmes.'
+}, {
+  q: 'How dependent is India on foreign aircraft engines?',
+  a: 'The report estimates aircraft engine dependency at approximately 85-90% by value across major programmes.'
+}, {
+  q: 'What indigenous content scenario is considered most likely?',
+  a: 'Scenario B, Deep Localisation, has a 45% likelihood and projects 60-75% indigenous content and $8-12 billion annual exports by 2035.'
+}, {
+  q: 'How much private capital could Indian aerospace require?',
+  a: 'The report estimates ₹25,000-30,000 crore of private capital deployment over 2025-2035.'
+}, {
+  q: 'What investment is proposed for India’s indigenous aerospace stack?',
+  a: 'The report identifies ₹50,000-75,000 crore of focused industrial investment over 10 years and a ₹30,000 crore indigenous 110 kN engine programme as strategic capability requirements.'
+}],
+  sources: ['Union Budget documents (MoD, MoCA)', 'Ministry of Defence Annual Reports & DAC clearances', 'DPIIT FDI statistics', 'PIB releases (MoD Year End Review, positive indigenisation lists)', 'CAG audit reports', 'HAL, BEL and company disclosures', 'Techadyant Labs Company Database, Programme Tracker and Capability Assessment Framework'],
+  dateModified: '2026-09-16',
+  seo: {
+  metaTitle: 'India’s Military Aerospace Manufacturing Ecosystem 2026–2035 | Techadyant Labs',
+  metaDescription: 'India’s military aerospace ecosystem faces a strategic choice: assembly-led growth or deeper control of propulsion, subsystems, IP and exports by 2035.'
+},
+}, {
   slug: 'india-semiconductor-supply-chain-missing-links',
   title: 'India’s Semiconductor Supply Chain Missing Links and Industrial Opportunity Surfaces',
   subtitle: 'Substrates, gases, photoresists, equipment subcomponents — the layers no one is building',
