@@ -3598,6 +3598,123 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Cochin Shipyard and DP World\'s Drydocks World signed a 50:50 JV on 11 September 2026 to operate and expand Kochi\'s International Ship Repair Facility, a roughly Rs 1,800 crore undertaking.', 'The ISRF has a 6,000-tonne ship lift, six workstations, about 1,400 metres of berthing and a reported maximum capacity of about 82 vessels per year.', 'Reported FY2025-26 throughput of about 35 vessels sets a measurable baseline for the JV\'s execution test.', 'The strategic value lies in repair, refit, conversion, skills and supplier depth - not only in dock infrastructure - and is billed as India\'s first ship-repair cluster.', 'The announcement does not yet establish a naval workload, emergency-access arrangement, expansion budget or completed asset transfer; approvals are pending with a March 2027 target.'],
   sources: ['Business Standard (12 Sep 2026): https://www.business-standard.com/companies/news/drydocks-world-cochin-shipyard-jv-isrf-kochi-ship-repair-126091200277_1.html', 'The Week (12 Sep 2026): https://www.theweek.in/news/maritime/2026/09/12/cochin-shipyard-csl-ddw-joint-venture-isrf.html', 'Moneycontrol (11 Sep 2026): https://www.moneycontrol.com/news/business/cochin-shipyard-dp-world-s-drydocks-world-form-50-50-jv-to-expand-kochi-ship-repair-facility-14028227.html', 'ThePrint / PTI (11 Sep 2026): https://theprint.in/economy/drydocks-world-cochin-shipyard-form-jv-in-ship-repair-sector/3040734/']
+}, {
+  slug: 'drdo-gallium-nitride-gan-radar-electronic-warfare-indigenous-2026',
+  no: 'S-101',
+  title: 'Defence Electronics Hits the Compound Layer: DRDO\'s GaN Push for Radar and EW',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-09-14',
+  dateLabel: '14 Sep 2026',
+  status: 'live',
+  excerpt: 'DRDO has developed indigenous gallium nitride (GaN) technology for next-generation radar and electronic warfare, built on silicon-carbide wafer processes at the Solid State Physics Laboratory. Reporting cites a single 3.5 x 3 mm GaN chip delivering up to 30 W — compound semiconductors, not logic fabs, are where several defence import dependencies actually sit.',
+  readingTime: '5 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'DRDO has developed indigenous gallium nitride (GaN) high-frequency semiconductor technology for next-generation radars and electronic-warfare systems, according to a Defence Ministry report carried on 13 September 2026. The devices rest on GaN-on-silicon-carbide processes associated with the Solid State Physics Laboratory. Reporting cites a single indigenous GaN chip measuring about 3.5 x 3 mm that can deliver up to 30 watts of power and switch roughly 300 times faster than a conventional silicon device. Intended applications include active electronically scanned array (AESA) radars, electronic warfare, missile seekers, advanced communications and unmanned systems.',
+  type: 'p'
+}, {
+  text: '30 W — power delivered by a single 3.5 x 3 mm indigenous GaN chip, per the Defence Ministry report; GaN-on-SiC is the enabling process.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India\'s semiconductor debate is usually framed around logic fabs and advanced nodes. Much of the defence-electronics dependency sits one layer down, in compound semiconductors. AESA radar front-ends, jammer modules and high-power radio-frequency chains are strategic consumables: if the chips are imported, sustainment, repair and wartime surge are imported too. An indigenous GaN path — wafer process, device, MMIC and packaging — is how India tries to close the compound-semiconductor layer of its defence-electronics stack rather than only the platform outline.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'Treat this as a materials-and-devices signal, not a finished industrial base. A lab demonstration and wafer-process claims must still cross qualification, yield, second-source packaging and insertion into production radars and EW suites. Compound semiconductors belong in both the semiconductor-ecosystem frame and the defence-electronics chokepoint frame; the strategic test is productionisation, not the announcement.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Named production or development partners beyond SSPL and DRDO labs', 'Insertion of indigenous GaN MMICs into specific radar or EW programmes', 'Wafer diameter roadmap and yield data — four-inch is a start, not the end', 'Overlap with commercial GaN power-electronics and telecom demand', 'Import-substitution metrics in DPSU and private radar bills of materials']
+}],
+  takeaways: ['DRDO has demonstrated indigenous GaN semiconductor technology aimed at next-generation radar and electronic-warfare systems.', 'Coverage cites Solid State Physics Laboratory work on four-inch silicon-carbide wafer processes and compact GaN chips delivering up to 30 W at far higher power density than silicon.', 'GaN is a dual-use compound semiconductor critical to AESA radars, EW, defence communications and power electronics — not a consumer-logic story.', 'Strongest next evidence: production partners, qualified MMICs in fielded radars and EW suites, and displacement of imported GaN/GaAs content in bills of materials.'],
+  sources: ['Economic Times (13 Sep 2026): https://m.economictimes.com/news/defence/drdo-develops-indigenous-gan-technology-for-next-gen-radars-electronic-warfare-tiny-3-53-mm-chip-delivers-up-to-30w-power-defence-ministry-report/articleshow/134191238.cms', 'Jagran (13 Sep 2026): https://www.jagran.com/news/national-drdo-gallium-nitride-tech-boosts-indias-defense-capabilities-40372279.html']
+}, {
+  slug: 'india-semiconductor-1-4-billion-equity-funding-semicon-india-2026',
+  no: 'S-102',
+  title: 'Before SEMICON India: $1.4 Billion Equity Has Already Voted on India\'s Chip Narrative',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-09-14',
+  dateLabel: '14 Sep 2026',
+  status: 'live',
+  excerpt: 'About $1.4 billion in cumulative equity has gone into 281 Indian semiconductor-related companies, roughly half of it since 2025, days before SEMICON India 2026 opens in New Delhi. Investor cheques are a harder signal than policy outlays of whether design, OSAT, materials and equipment stories are actually investable.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Days before Prime Minister Narendra Modi is scheduled to inaugurate SEMICON India 2026 at Yashobhoomi, New Delhi (17-19 September), a Tracxn compilation carried on 13 September 2026 put a private-capital number on India\'s chip ecosystem: about $1.4 billion of cumulative equity funding across 281 companies. Roughly $701 million of that has been raised since 2025, with about $228 million in 2026 to date. The same reporting counts 3,557 companies in the sector, of which 142 have raised equity, and cites Tessolve among the most-funded names.',
+  type: 'p'
+}, {
+  text: '$1.4 billion — cumulative equity funding across 281 semiconductor-related companies, per 13 September reporting; about half raised since 2025.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'SEMICON week is when governments showcase approved projects and global toolmakers walk the halls. The funding compilation measures something different: whether Indian chip-adjacent companies can raise equity at scale outside pure subsidy logic. $1.4 billion across 281 firms is not a substitute for a leading-edge fab, but it is evidence of breadth in design services, packaging, test and enabling layers — the parts of the ecosystem that have to become investable if India\'s strategy is to be more than a handful of subsidised plants.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'Read the number as a market-structure signal ahead of SEMICON India, not as proof of technology parity. The distribution matters more than the headline sum: how much is pure-play silicon design versus OSAT, compound semiconductors, EDA services, or electronics that marketing labels "semicon". The test is whether SEMICON week produces term sheets that clear into disclosed rounds in Q4 — or only MoUs.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Segment breakdown of the $1.4 billion — design versus OSAT versus materials versus other', 'Announcements at SEMICON India 2026 with named capex and timelines', 'Follow-on equity rounds in Q4 2026 among the 281-company set', 'State of commercial production at Micron, Kaynes, CG Semi and other approved projects', 'Talent and EDA access metrics versus fundraising optics']
+}],
+  takeaways: ['Indian semiconductor-related firms have attracted about $1.4 billion in equity funding across 281 companies, per 13 September reporting.', 'About $701 million of that total is attributed to the period since 2025, with roughly $228 million in 2026 to date.', 'SEMICON India 2026 runs 17-19 September at Yashobhoomi, New Delhi, themed "Silicon to Systems: Building the Ecosystem", and is to be inaugurated by the Prime Minister.', 'Strongest next evidence: which segments — design, OSAT, equipment, materials, compound — actually absorbed the capital, and follow-on rounds after the event.'],
+  sources: ['Times of India (13 Sep 2026): https://timesofindia.indiatimes.com/business/india-business/indias-semiconductor-sector-attracts-1-4-billion-in-funding-across-281-companies/amp_articleshow/134197886.cms', 'Zee Business (13 Sep 2026): https://www.zeebiz.com/hindi/india/india-semiconductor-industry-secures-1-4-billion-dollar-equity-funding-key-growth-trends-ahead-of-semicon-india-2026-264178', 'Press Information Bureau (18 Aug 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300831']
+}, {
+  slug: 'india-data-centre-capacity-1-57-gw-power-policy-2026',
+  no: 'S-103',
+  title: 'India\'s Data-Centre Capacity Passes 1.57 GW - the Binding Constraints Are Now Power, Land and Water',
+  domain: 'AI Infrastructure',
+  date: '2026-09-15',
+  dateLabel: '15 Sep 2026',
+  status: 'live',
+  excerpt: 'India\'s data-centre capacity has grown from about 375 MW in 2020 to 1.57 GW by August 2026, with the government projecting nearly 8 GW by 2030 against roughly 17 GW of demand by 2031-32. A MeitY stocktake pairs about USD 70 billion invested and USD 90 billion announced with a new 2026-27 budget tax holiday for foreign cloud providers to 2047 - the scarce inputs are now power, land and water, not demand.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'A MeitY feature published on 14 September 2026 put hard numbers on India\'s data-centre build-out. Installed capacity has risen from around 375 MW in 2020 to 1.57 GW as of August 2026, with the government projecting nearly 8 GW by 2030 against demand of roughly 17 GW by 2031-32. Cumulative investment stands at about USD 70 billion, with a further USD 90 billion in projects announced. The state operates four National Data Centres - at Delhi, Pune, Hyderabad and Bhubaneswar - alongside 37 smaller facilities in state capitals. Data centres have held infrastructure status since the 2022-23 Union Budget, and the 2026-27 Budget adds a tax holiday for eligible foreign cloud service providers running through 2047.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'The policy centre of gravity has shifted from whether India can host compute to how fast it can pull hyperscale capacity onshore. Keeping AI and cloud workloads inside the country is a data-sovereignty, latency and cost question at once, and the tax holiday for foreign cloud providers is a deliberate lever to convert announced intent into built capacity. The government is also explicitly wiring data centres to its other industrial bets - the Rs 1,27,500 crore ISM 2.0, the IndiaAI Mission, an enlarged ECMS and PLI 2.0 for IT hardware - treating compute as strategic infrastructure rather than a commercial real-estate line.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'Capacity measured in gigawatts is the visible number; the constraints sit underneath it. Eight gigawatts of data-centre load is first a power problem - reliable supply, grid connections and the clean-energy share - then a land and water problem, since cooling at that scale is water-intensive. And the silicon inside the halls - accelerators, networking and memory - remains overwhelmingly imported, so a larger domestic compute footprint does not by itself reduce the deepest import dependency. The gap between USD 90 billion announced and 1.57 GW actually built is the honest measure of where the sector is.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether the announced USD 90 billion pipeline and the ~8 GW-by-2030 projection convert into built, powered capacity on schedule.', 'Uptake of the 2026-27 budget tax holiday by foreign cloud and hyperscaler investment.', 'Power sourcing for data-centre load - grid reliability and how much is met from clean energy.', 'Whether domestic content in the stack (chips, networking, cooling) deepens, or capacity growth stays import-reliant.']
+}],
+  takeaways: ['India\'s data-centre capacity rose from about 375 MW (2020) to 1.57 GW (Aug 2026), with the government projecting nearly 8 GW by 2030 against roughly 17 GW of demand by 2031-32.', 'About USD 70 billion has been invested with a further USD 90 billion announced; data centres have held infrastructure status since the 2022-23 Budget.', 'The 2026-27 Budget adds a tax holiday for eligible foreign cloud service providers through 2047, aimed at pulling hyperscale capacity onshore.', 'The binding constraints are now power, land and water - plus the imported silicon inside - not demand; the gap between announced and built capacity is the execution test.'],
+  sources: ['Press Information Bureau / MeitY (14 Sep 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2309950', 'JLL India Data Centres 2026 mid-year report: https://www.jll.com/en-in/insights/market-dynamics/india-data-centers', 'Communications Today (2026): https://www.communicationstoday.co.in/india-data-centre-2026-mid-year-report/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
