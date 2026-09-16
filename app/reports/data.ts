@@ -34,53 +34,6 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
-  slug: 'india-military-aerospace-manufacturing-ecosystem',
-  title: 'India’s Military Aerospace Manufacturing Ecosystem',
-  subtitle: 'From aircraft assembly to industrial sovereignty — propulsion, subsystems, IP and exports, and the choice that decides 2035',
-  domain: 'Industrial & Deep Tech',
-  edition: 'Flagship Edition',
-  published: '2026-09-16',
-  publishedLabel: 'September 2026',
-  readingTime: '~ 55 min read',
-  status: 'published',
-  summary: 'India’s military aerospace industry has reached an inflection point: a 1,500+ aircraft-and-helicopter procurement pipeline worth roughly ₹2,50,000 crore over 2025–2035, a private-sector prime layer that can now build (TASL’s C-295, HAL’s Tejas and rotorcraft, Mahindra, L&T), and policy tailwinds from the 75% domestic capital earmark and five positive-indigenisation lists. Yet the sovereignty question is unresolved below the airframe: India imports 85–90% of aircraft-engine value and depends on foreign supply for single-crystal turbine blades, FADEC, aerospace-grade semiconductors, AESA T/R modules and superalloys. This report maps the full ecosystem — the 16-subsystem architecture, the prime and Tier-1/2/3 supplier network, eleven ₹1,000 crore-plus opportunity surfaces, the critical-dependency chain, and a three-scenario 2035 outlook (Assembly Nation, Deep Localisation, Indigenous Stack) separated by whether India invests in the layers it does not yet own. It prescribes the capital, the certification capacity and the engine programme required to move from assembly to genuine industrial sovereignty.',
-  accent: '#60A5FA',
-  access: 'paid',
-  price: 6999,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 158,
-  cover: '/covers/india-military-aerospace-manufacturing-ecosystem.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/India_Military_Aerospace_Manufacturing_Ecosystem_Free.pdf',
-  previewPages: 15,
-  hasData: true,
-  priceWithData: 11999,
-  dataFilename: 'India-Military-Aerospace-Manufacturing-Ecosystem-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: ['India military aerospace', 'India aerospace manufacturing', 'aircraft engine dependency India', 'AMCA', 'Tejas Mk1A Mk2', 'C-295 India', 'MRFA', 'aerospace indigenisation India', 'single-crystal turbine blade', 'FADEC India', 'AESA radar India', 'India aerospace 2035', 'defence aerospace ecosystem', 'aerospace Tier-2 suppliers India'],
-  faq: [{
-  q: 'How large is India’s military aerospace opportunity?',
-  a: 'The report estimates approximately ₹2,50,000 crore of cumulative industrial value over 2025-2035 across major aerospace programmes.'
-}, {
-  q: 'How dependent is India on foreign aircraft engines?',
-  a: 'The report estimates aircraft engine dependency at approximately 85-90% by value across major programmes.'
-}, {
-  q: 'What indigenous content scenario is considered most likely?',
-  a: 'Scenario B, Deep Localisation, has a 45% likelihood and projects 60-75% indigenous content and $8-12 billion annual exports by 2035.'
-}, {
-  q: 'How much private capital could Indian aerospace require?',
-  a: 'The report estimates ₹25,000-30,000 crore of private capital deployment over 2025-2035.'
-}, {
-  q: 'What investment is proposed for India’s indigenous aerospace stack?',
-  a: 'The report identifies ₹50,000-75,000 crore of focused industrial investment over 10 years and a ₹30,000 crore indigenous 110 kN engine programme as strategic capability requirements.'
-}],
-  sources: ['Union Budget documents (MoD, MoCA)', 'Ministry of Defence Annual Reports & DAC clearances', 'DPIIT FDI statistics', 'PIB releases (MoD Year End Review, positive indigenisation lists)', 'CAG audit reports', 'HAL, BEL and company disclosures', 'Techadyant Labs Company Database, Programme Tracker and Capability Assessment Framework'],
-  dateModified: '2026-09-16',
-  seo: {
-  metaTitle: 'India’s Military Aerospace Manufacturing Ecosystem 2026–2035 | Techadyant Labs',
-  metaDescription: 'India’s military aerospace ecosystem faces a strategic choice: assembly-led growth or deeper control of propulsion, subsystems, IP and exports by 2035.'
-},
-}, {
   slug: 'india-semiconductor-supply-chain-missing-links',
   title: 'India’s Semiconductor Supply Chain Missing Links and Industrial Opportunity Surfaces',
   subtitle: 'Substrates, gases, photoresists, equipment subcomponents — the layers no one is building',
@@ -234,6 +187,53 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-09-30',
   seo: {
 
+}
+}, {
+  slug: 'india-military-aerospace-manufacturing-ecosystem',
+  title: 'India’s Military Aerospace Manufacturing Ecosystem',
+  subtitle: 'From aircraft assembly to industrial sovereignty — propulsion, subsystems, IP and exports, and the choice that decides 2035',
+  domain: 'Industrial & Deep Tech',
+  edition: 'Flagship Edition',
+  published: '2026-09-16',
+  publishedLabel: 'September 2026',
+  readingTime: '~ 55 min read',
+  status: 'published',
+  summary: 'India’s military aerospace industry has reached an inflection point: a 1,500+ aircraft-and-helicopter procurement pipeline worth roughly ₹2,50,000 crore over 2025–2035, a private-sector prime layer that can now build (TASL’s C-295, HAL’s Tejas and rotorcraft, Mahindra, L&T), and policy tailwinds from the 75% domestic capital earmark and five positive-indigenisation lists. Yet the sovereignty question is unresolved below the airframe: India imports 85–90% of aircraft-engine value and depends on foreign supply for single-crystal turbine blades, FADEC, aerospace-grade semiconductors, AESA T/R modules and superalloys. This report maps the full ecosystem — the 16-subsystem architecture, the prime and Tier-1/2/3 supplier network, eleven ₹1,000 crore-plus opportunity surfaces, the critical-dependency chain, and a three-scenario 2035 outlook (Assembly Nation, Deep Localisation, Indigenous Stack) separated by whether India invests in the layers it does not yet own. It prescribes the capital, the certification capacity and the engine programme required to move from assembly to genuine industrial sovereignty.',
+  accent: '#60A5FA',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 158,
+  cover: '/covers/india-military-aerospace-manufacturing-ecosystem.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India_Military_Aerospace_Manufacturing_Ecosystem_Free.pdf',
+  previewPages: 15,
+  hasData: true,
+  priceWithData: 11999,
+  dataFilename: 'India-Military-Aerospace-Manufacturing-Ecosystem-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['India military aerospace', 'India aerospace manufacturing', 'aircraft engine dependency India', 'AMCA', 'Tejas Mk1A Mk2', 'C-295 India', 'MRFA', 'aerospace indigenisation India', 'single-crystal turbine blade', 'FADEC India', 'AESA radar India', 'India aerospace 2035', 'defence aerospace ecosystem', 'aerospace Tier-2 suppliers India'],
+  faq: [{
+  a: 'The report estimates approximately ₹2,50,000 crore of cumulative industrial value over 2025-2035 across major aerospace programmes.',
+  q: 'How large is India’s military aerospace opportunity?'
+}, {
+  a: 'The report estimates aircraft engine dependency at approximately 85-90% by value across major programmes.',
+  q: 'How dependent is India on foreign aircraft engines?'
+}, {
+  a: 'Scenario B, Deep Localisation, has a 45% likelihood and projects 60-75% indigenous content and $8-12 billion annual exports by 2035.',
+  q: 'What indigenous content scenario is considered most likely?'
+}, {
+  a: 'The report estimates ₹25,000-30,000 crore of private capital deployment over 2025-2035.',
+  q: 'How much private capital could Indian aerospace require?'
+}, {
+  a: 'The report identifies ₹50,000-75,000 crore of focused industrial investment over 10 years and a ₹30,000 crore indigenous 110 kN engine programme as strategic capability requirements.',
+  q: 'What investment is proposed for India’s indigenous aerospace stack?'
+}],
+  sources: ['Union Budget documents (MoD, MoCA)', 'Ministry of Defence Annual Reports & DAC clearances', 'DPIIT FDI statistics', 'PIB releases (MoD Year End Review, positive indigenisation lists)', 'CAG audit reports', 'HAL, BEL and company disclosures', 'Techadyant Labs Company Database, Programme Tracker and Capability Assessment Framework'],
+  dateModified: '2026-09-16',
+  seo: {
+  metaTitle: 'India’s Military Aerospace Manufacturing Ecosystem 2026–2035 | Techadyant Labs',
+  metaDescription: 'India’s military aerospace ecosystem faces a strategic choice: assembly-led growth or deeper control of propulsion, subsystems, IP and exports by 2035.'
 }
 }, {
   slug: 'cooling-economy-of-india',
@@ -540,6 +540,68 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'india-ai-power-infrastructure-gap',
+  title: 'India’s AI Power Infrastructure Gap',
+  subtitle: 'Why DC build-out is constrained by transmission, not generation',
+  domain: 'AI Infrastructure',
+  edition: 'forthcoming',
+  published: '2026-08-15',
+  publishedLabel: 'Forthcoming',
+  readingTime: '~ 2h read',
+  status: 'forthcoming',
+  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
+  accent: '#6366F1',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: false,
+  hasDeck: false,
+  pages: undefined,
+  cover: '',
+  previewObject: '',
+  previewPages: undefined,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-08-15',
+  seo: {
+
+}
+}, {
+  slug: 'india-edge-ai-economy',
+  title: 'India’s Edge AI Economy',
+  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
+  domain: 'Edge AI & Semiconductors',
+  edition: 'Edge AI Series · I · forthcoming',
+  published: '2026-08-15',
+  publishedLabel: 'Forthcoming',
+  readingTime: '~ 2h read',
+  status: 'forthcoming',
+  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
+  accent: '#38e1c4',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: false,
+  hasDeck: false,
+  pages: undefined,
+  cover: '',
+  previewObject: '',
+  previewPages: undefined,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-08-15',
+  seo: {
+
+}
+}, {
   slug: 'beyond-sea-drones-india-autonomous-maritime-systems',
   title: 'Beyond Sea Drones: India\'s Autonomous Maritime Systems Ecosystem 2026-2035',
   subtitle: 'Technologies, supply chains and industrial opportunities in India\'s USV/UUV ecosystem — three market scenarios to 2035, a 12-country Maritime Autonomy Readiness Index, 100 ranked opportunities and a 2026-2035 industrial roadmap.',
@@ -589,68 +651,6 @@ export const reports: ReportMeta[] = [{
   focusKeyword: 'india autonomous maritime systems market',
   metaDescription: 'India\'s USV/UUV ecosystem to 2035 — three market scenarios (INR 11,500-55,000 crore), a 12-country Maritime Autonomy Readiness Index (India 9/12), 100 OPI-ranked opportunities led by an 11m ASW USV, and a 2026-2035 industrial roadmap for OEMs, Navy, investors, MSMEs and policymakers.',
   related_reports: ['indian-navy-autonomous-maritime']
-}
-}, {
-  slug: 'india-edge-ai-economy',
-  title: 'India’s Edge AI Economy',
-  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
-  domain: 'Edge AI & Semiconductors',
-  edition: 'Edge AI Series · I · forthcoming',
-  published: '2026-08-15',
-  publishedLabel: 'Forthcoming',
-  readingTime: '~ 2h read',
-  status: 'forthcoming',
-  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
-  accent: '#38e1c4',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: false,
-  hasDeck: false,
-  pages: undefined,
-  cover: '',
-  previewObject: '',
-  previewPages: undefined,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-08-15',
-  seo: {
-
-}
-}, {
-  slug: 'india-ai-power-infrastructure-gap',
-  title: 'India’s AI Power Infrastructure Gap',
-  subtitle: 'Why DC build-out is constrained by transmission, not generation',
-  domain: 'AI Infrastructure',
-  edition: 'forthcoming',
-  published: '2026-08-15',
-  publishedLabel: 'Forthcoming',
-  readingTime: '~ 2h read',
-  status: 'forthcoming',
-  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
-  accent: '#6366F1',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: false,
-  hasDeck: false,
-  pages: undefined,
-  cover: '',
-  previewObject: '',
-  previewPages: undefined,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-08-15',
-  seo: {
-
 }
 }, {
   slug: 'iaf-autonomous-air-power',
@@ -785,53 +785,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s green-hydrogen industrial reality — the NGHM and SIGHT money, electrolyser manufacturing, iridium/platinum catalysts, PFSA membranes, LCOH, and three 2035 scenarios (Mirage, Muddle, Machine).'
 }
 }, {
-  slug: 'q-day-india',
-  title: 'Q-Day India',
-  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
-  domain: 'Strategic Technology',
-  edition: 'Strategic Risk · 2026 Free Edition',
-  published: '2026-08-02',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 90 min read',
-  status: 'published',
-  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
-  accent: '#38E1C4',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 152,
-  cover: '/covers/q-day-india.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
-  previewPages: 152,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
-  faq: [{
-  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
-  q: 'What is Q-Day?'
-}, {
-  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
-  q: 'What should Indian organisations do first?'
-}, {
-  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
-  q: 'Why migrate before Q-Day arrives?'
-}, {
-  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
-  q: 'Which sectors are most exposed in India?'
-}],
-  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
-  dateModified: '2026-08-02',
-  seo: {
-  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
-  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
-  schemaType: 'Report',
-  focusKeyword: 'post-quantum cryptography India',
-  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
-}
-}, {
   slug: 'beyond-solar-panels',
   title: 'Beyond Solar Panels',
   subtitle: 'India built the world’s largest solar-deployment machine — but value and vulnerability live upstream of the panel. Mapping the hidden industrial stack: polysilicon, wafers, cells, glass, gases, chemicals and manufacturing equipment.',
@@ -880,6 +833,53 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'india solar manufacturing',
   metaDescription: 'India’s solar manufacturing beyond module assembly — polysilicon, wafers, cells, glass, equipment. Localisation economics, China dependence, opportunity surfaces and a roadmap to solar-manufacturing sovereignty.'
+}
+}, {
+  slug: 'q-day-india',
+  title: 'Q-Day India',
+  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
+  domain: 'Strategic Technology',
+  edition: 'Strategic Risk · 2026 Free Edition',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 90 min read',
+  status: 'published',
+  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
+  accent: '#38E1C4',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 152,
+  cover: '/covers/q-day-india.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
+  previewPages: 152,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
+  faq: [{
+  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
+  q: 'What is Q-Day?'
+}, {
+  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
+  q: 'What should Indian organisations do first?'
+}, {
+  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
+  q: 'Why migrate before Q-Day arrives?'
+}, {
+  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
+  q: 'Which sectors are most exposed in India?'
+}],
+  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
+  dateModified: '2026-08-02',
+  seo: {
+  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
+  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
+  schemaType: 'Report',
+  focusKeyword: 'post-quantum cryptography India',
+  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
 }
 }, {
   slug: 'indian-navy-autonomous-maritime',
@@ -1966,51 +1966,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India\'s public and private core systems run on foreign enterprise software. The SAP Question maps the dependence, the risks and the sovereign ERP opportunity. Free full report.'
 }
 }, {
-  slug: 'india-battlefield-automation-gap',
-  title: 'India’s Battlefield Automation Gap',
-  subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
-  domain: 'Defence & Dual-Use',
-  edition: 'Edition 01 · Strategic Intelligence · v1.0',
-  published: '2026-05-30',
-  publishedLabel: 'May 2026',
-  readingTime: '~ 2h 30m read',
-  status: 'published',
-  summary: 'Battlefield automation is an industrial-capability race, not a procurement race. Using a proprietary Battlefield Automation Readiness Index (BARI), this report scores India against China and the United States across eight industrial layers — sensors, rugged electronics, batteries, tactical communications, autonomy software, testing and manufacturing — maps where the gap concentrates, reads it sector by sector, and identifies the startup, SME and policy opportunities that would close it. Published free, given its relevance to government-led initiatives.',
-  accent: '#FB923C',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 130,
-  cover: '/covers/india-battlefield-automation-gap.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/india-battlefield-automation-gap-free.pdf',
-  previewPages: undefined,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['battlefield automation India', 'military drones India', 'counter-drone systems India', 'loitering munitions India', 'Indian Army drones', 'defence autonomy India', 'unmanned systems India', 'counter-UAS India', 'drone warfare India', 'India defence technology'],
-  faq: [{
-  a: 'It is the distance between how modern battles are now fought — massed low-cost drones, loitering munitions, electronic warfare and increasingly autonomous systems — and what India\'s forces can field and sustain at scale from domestic industry. The report maps that gap layer by layer.',
-  q: 'What is India\'s battlefield automation gap?'
-}, {
-  a: 'Ukraine and Operation Sindoor showed cheap unmanned systems deciding engagements against far more expensive platforms. India\'s post-Sindoor emergency procurement pushed a large share of field-formation budgets into drones, counter-drone and loitering-munition programmes, making automation the fastest-moving line in Indian defence spending.',
-  q: 'Why do drones matter so much for India\'s defence?'
-}, {
-  a: 'India has credible drone integrators — ideaForge, NewSpace Research, Solar Industries and others — but the component base beneath them (flight controllers, motors and magnets, battery cells, sensors, RF links) remains heavily import-dependent, which is the vulnerability the report examines.',
-  q: 'Does India build its own military drones?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['Indian Army', 'drones', 'loitering munitions', 'counter-UAS', 'Operation Sindoor', 'electronic warfare'],
-  aiSummary: 'Assesses India\'s readiness for automated warfare: the doctrine shift to massed drones and loitering munitions, post-Operation Sindoor procurement, the counter-UAS layer, and the import-dependent component base beneath India\'s drone integrators. Free to read.',
-  metaTitle: 'India\'s Battlefield Automation Gap: Drones, Counter-UAS, Autonomy',
-  schemaType: 'Report',
-  focusKeyword: 'battlefield automation India',
-  metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
-}
-}, {
   slug: 'who-actually-captures-the-india-us-minerals-alliance',
   title: 'Who Actually Captures the India–US Minerals Alliance?',
   subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
@@ -2054,6 +2009,51 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India US critical minerals',
   metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
+}
+}, {
+  slug: 'india-battlefield-automation-gap',
+  title: 'India’s Battlefield Automation Gap',
+  subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
+  domain: 'Defence & Dual-Use',
+  edition: 'Edition 01 · Strategic Intelligence · v1.0',
+  published: '2026-05-30',
+  publishedLabel: 'May 2026',
+  readingTime: '~ 2h 30m read',
+  status: 'published',
+  summary: 'Battlefield automation is an industrial-capability race, not a procurement race. Using a proprietary Battlefield Automation Readiness Index (BARI), this report scores India against China and the United States across eight industrial layers — sensors, rugged electronics, batteries, tactical communications, autonomy software, testing and manufacturing — maps where the gap concentrates, reads it sector by sector, and identifies the startup, SME and policy opportunities that would close it. Published free, given its relevance to government-led initiatives.',
+  accent: '#FB923C',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 130,
+  cover: '/covers/india-battlefield-automation-gap.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/india-battlefield-automation-gap-free.pdf',
+  previewPages: undefined,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['battlefield automation India', 'military drones India', 'counter-drone systems India', 'loitering munitions India', 'Indian Army drones', 'defence autonomy India', 'unmanned systems India', 'counter-UAS India', 'drone warfare India', 'India defence technology'],
+  faq: [{
+  a: 'It is the distance between how modern battles are now fought — massed low-cost drones, loitering munitions, electronic warfare and increasingly autonomous systems — and what India\'s forces can field and sustain at scale from domestic industry. The report maps that gap layer by layer.',
+  q: 'What is India\'s battlefield automation gap?'
+}, {
+  a: 'Ukraine and Operation Sindoor showed cheap unmanned systems deciding engagements against far more expensive platforms. India\'s post-Sindoor emergency procurement pushed a large share of field-formation budgets into drones, counter-drone and loitering-munition programmes, making automation the fastest-moving line in Indian defence spending.',
+  q: 'Why do drones matter so much for India\'s defence?'
+}, {
+  a: 'India has credible drone integrators — ideaForge, NewSpace Research, Solar Industries and others — but the component base beneath them (flight controllers, motors and magnets, battery cells, sensors, RF links) remains heavily import-dependent, which is the vulnerability the report examines.',
+  q: 'Does India build its own military drones?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['Indian Army', 'drones', 'loitering munitions', 'counter-UAS', 'Operation Sindoor', 'electronic warfare'],
+  aiSummary: 'Assesses India\'s readiness for automated warfare: the doctrine shift to massed drones and loitering munitions, post-Operation Sindoor procurement, the counter-UAS layer, and the import-dependent component base beneath India\'s drone integrators. Free to read.',
+  metaTitle: 'India\'s Battlefield Automation Gap: Drones, Counter-UAS, Autonomy',
+  schemaType: 'Report',
+  focusKeyword: 'battlefield automation India',
+  metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
 }
 }, {
   slug: 'india-ai-industrial-transition-2026-2035',

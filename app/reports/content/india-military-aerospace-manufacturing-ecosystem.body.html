@@ -1,0 +1,367 @@
+<style>
+.rv-longform { color: var(--text-muted); font-family: var(--font-serif, 'Source Serif 4', Georgia, serif); line-height: 1.7; font-size: 16px; }
+.rv-longform *, .rv-longform *::before, .rv-longform *::after { box-sizing: border-box; margin: 0; padding: 0; }
+.rv-longform section { padding: 48px 0; border-bottom: 1px solid var(--border); }
+.rv-longform h2 { font-size: clamp(20px, 2.6vw, 25px); margin-bottom: 20px; color: var(--text); font-weight: 700; }
+.rv-longform h3 { font-size: 12.5px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--brass); margin-bottom: 10px; font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; }
+.rv-longform p { margin-bottom: 16px; color: var(--text-muted); }
+.rv-longform p.lead { font-size: 18px; line-height: 1.7; color: var(--text); background: var(--surface-2); padding: 22px; border-left: 3px solid var(--brass); border-radius: 0 12px 12px 0; }
+.rv-longform p.lead strong { color: var(--gold); font-weight: 600; }
+.rv-longform .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 26px 0; }
+.rv-longform .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 16px; transition: border-color .15s ease, transform .15s ease; }
+.rv-longform .stat-card:hover { border-color: rgba(245, 181, 68, .5); transform: translateY(-1px); }
+.rv-longform .stat-val { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: clamp(20px, 2.6vw, 26px); font-weight: 700; color: var(--gold); line-height: 1.2; margin-bottom: 8px; }
+.rv-longform .stat-label { font-size: 13px; color: var(--text-muted); margin-bottom: 10px; line-height: 1.45; }
+.rv-longform .stat-src { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 10.5px; color: var(--text-dim); }
+.rv-longform .findings-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-top: 22px; }
+.rv-longform .finding-card { background: var(--surface); border: 1px solid var(--border); border-top: 2px solid rgba(245, 181, 68, .35); border-radius: 14px; padding: 20px 18px; transition: border-color .15s ease, transform .15s ease; }
+.rv-longform .finding-card:hover { border-top-color: var(--brass); transform: translateY(-1px); }
+.rv-longform .finding-claim { font-size: 15.5px; line-height: 1.65; color: var(--text); margin-bottom: 10px; }
+.rv-longform .finding-claim strong { color: var(--gold); font-weight: 600; }
+.rv-longform .finding-num { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; color: var(--gold); font-weight: 700; font-size: 13.5px; }
+.rv-longform .finding-src { display: block; font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 10.5px; color: var(--text-dim); margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--border); }
+.rv-longform .framework-box { background: linear-gradient(135deg, var(--surface-2), var(--surface)); border-left: 3px solid var(--brass); border-radius: 0 14px 14px 0; padding: 22px 24px; margin: 22px 0; line-height: 1.75; font-size: 16px; color: var(--text); }
+.rv-longform .framework-box strong { color: var(--gold); }
+.rv-longform .framework-box em { color: var(--periwinkle, #818CF8); font-style: normal; font-weight: 600; }
+.rv-longform figure { margin: 30px 0; background: var(--surface); padding: 18px; border: 1px solid var(--border); border-radius: 14px; }
+.rv-longform figure svg, .rv-longform figure img { width: 100%; height: auto; display: block; }
+.rv-longform figcaption { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 11px; color: var(--text-dim); margin-top: 12px; text-align: center; line-height: 1.55; }
+.rv-longform ul.watch-list { list-style: none; margin: 0; padding: 0; }
+.rv-longform ul.watch-list li { padding: 14px 0; border-bottom: 1px solid var(--border); display: flex; gap: 16px; align-items: baseline; }
+.rv-longform ul.watch-list li:last-child { border-bottom: none; }
+.rv-longform .watch-date { font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; color: var(--gold); font-weight: 700; min-width: 56px; font-size: 13px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; text-align: center; padding: 3px 8px; }
+.rv-longform .watch-text { flex: 1; color: var(--text); font-size: 15.5px; line-height: 1.65; }
+.rv-longform table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 14px; background: var(--surface); border: 1px solid var(--border); }
+.rv-longform th { background: var(--surface-2); color: var(--text-muted); text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--border-strong); font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; }
+.rv-longform td { padding: 11px 14px; border-bottom: 1px solid var(--border); color: var(--text); }
+.rv-longform tr:last-child td { border-bottom: none; }
+.rv-longform details { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 10px; }
+.rv-longform summary { padding: 16px 18px; cursor: pointer; font-weight: 600; font-size: 15.5px; color: var(--text); list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.rv-longform summary::after { content: '+'; font-family: var(--font-jetbrains, 'JetBrains Mono'), monospace; font-size: 20px; color: var(--gold); font-weight: 300; }
+.rv-longform details[open] summary::after { content: '\2212'; }
+.rv-longform details[open] summary { border-bottom: 1px solid var(--border); background: var(--surface-2); }
+.rv-longform .faq-answer { padding: 18px; color: var(--text-muted); font-size: 15px; line-height: 1.7; }
+.rv-longform ol.method-list { padding-left: 20px; margin: 8px 0 0; color: var(--text-muted); font-size: 15px; line-height: 1.8; }
+.rv-longform ol.method-list li { margin-bottom: 6px; }
+@media (max-width: 640px) {
+  .rv-longform .stats-grid, .rv-longform .findings-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<section>
+  <div class="container">
+    <h2 id="the-thesis">The Thesis</h2>
+    <p class="lead">India's military aerospace opportunity is real, but manufacturing footprint does not equal technological sovereignty. The decisive question for 2025&ndash;2035 is whether India converts aircraft assembly and systems integration into control over <strong>propulsion, critical subsystems, intellectual property, design authority and export capability</strong> &mdash; or remains dependent on foreign industrial control points.</p>
+    <p>The report estimates approximately &#8377;2,50,000 crore of cumulative industrial value across the aerospace opportunity over the next decade. At the same time, aircraft engines, aerospace-grade semiconductors, single-crystal turbine blades, FADEC and other critical technologies remain concentrated dependency points. Airframe assembly and integration are largely solved; the layers below them are not.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="key-numbers">Key Numbers</h2>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-val">&#8377;2,50,000 Cr</div>
+        <div class="stat-label">Estimated cumulative industrial opportunity over 2025&ndash;2035 [modelled]</div>
+        <div class="stat-src">Techadyant Estimate &#9670; ES-01</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">1,500+</div>
+        <div class="stat-label">Aircraft and helicopters in the projected demand pipeline</div>
+        <div class="stat-src">Techadyant Analysis &#9670; ES-02</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">85&ndash;90%</div>
+        <div class="stat-label">Estimated aircraft engine dependency by value</div>
+        <div class="stat-src">Techadyant Analysis &#9670; DEP-01</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">&#8377;50,000&ndash;75,000 Cr</div>
+        <div class="stat-label">Focused industrial investment identified over 10 years [modelled]</div>
+        <div class="stat-src">Techadyant Model &#9670; INV-01</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">45%</div>
+        <div class="stat-label">Likelihood assigned to the Deep Localisation scenario [modelled]</div>
+        <div class="stat-src">Techadyant Scenario Model &#9670; SCN-B</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">$8&ndash;12 Bn</div>
+        <div class="stat-label">Annual export outcome under Scenario B [modelled]</div>
+        <div class="stat-src">Techadyant Scenario Model &#9670; SCN-B</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="key-findings">Key Findings</h2>
+    <div class="findings-grid">
+      <div class="finding-card">
+        <div class="finding-claim"><strong>01 &middot; The demand engine exists.</strong> India's procurement pipeline creates industrial opportunity across airframes, propulsion, avionics, electronics, UAVs and lifecycle services.</div>
+        <div class="finding-num">&#8377;2,50,000 crore over 2025&ndash;2035</div>
+        <span class="finding-src">Source: Techadyant programme analysis</span>
+      </div>
+      <div class="finding-card">
+        <div class="finding-claim"><strong>02 &middot; Assembly is not sovereignty.</strong> The report separates manufacturing capability from control over systems integration, technology ownership, design and export capability.</div>
+        <div class="finding-num">5 layers of aerospace sovereignty</div>
+        <span class="finding-src">Source: Techadyant Indigenous Stack framework</span>
+      </div>
+      <div class="finding-card">
+        <div class="finding-claim"><strong>03 &middot; Propulsion is the hardest gap.</strong> Aircraft engine dependency remains concentrated in foreign platforms and technology, making propulsion the largest strategic industrial bottleneck.</div>
+        <div class="finding-num">85&ndash;90% dependency by value</div>
+        <span class="finding-src">Source: Techadyant dependency analysis</span>
+      </div>
+      <div class="finding-card">
+        <div class="finding-claim"><strong>04 &middot; India lacks a sufficient Tier-2 middle.</strong> Large primes and hundreds of smaller suppliers exist, but the specialist layer required for globally competitive subsystems remains thin.</div>
+        <div class="finding-num">~110 Tier-2 specialists estimated</div>
+        <span class="finding-src">Source: Techadyant supplier analysis</span>
+      </div>
+      <div class="finding-card">
+        <div class="finding-claim"><strong>05 &middot; Strategic control points are concentrated.</strong> Aerospace-grade semiconductors, single-crystal blades, FADEC and AESA radar T/R modules represent concentrated technology dependencies.</div>
+        <div class="finding-num">4 strategic control points</div>
+        <span class="finding-src">Source: Techadyant dependency framework</span>
+      </div>
+      <div class="finding-card">
+        <div class="finding-claim"><strong>06 &middot; Private primes are altering the structure.</strong> Private-sector companies are moving from component participation toward prime contracting and industrial integration.</div>
+        <div class="finding-num">40&ndash;50% projected private prime share by 2035</div>
+        <span class="finding-src">Source: Techadyant industry outlook</span>
+      </div>
+      <div class="finding-card">
+        <div class="finding-claim"><strong>07 &middot; Localisation must be measured differently.</strong> Part-count localisation can obscure value concentration and strategic dependency in engines and other high-value subsystems.</div>
+        <div class="finding-num">3 metrics: value, criticality and IP ownership</div>
+        <span class="finding-src">Source: Techadyant localisation framework</span>
+      </div>
+      <div class="finding-card">
+        <div class="finding-claim"><strong>08 &middot; The next five years decide the trajectory.</strong> Programme choices, engine development, certification capacity and supplier capital will determine which industrial scenario India reaches.</div>
+        <div class="finding-num">3 scenarios to 2035</div>
+        <span class="finding-src">Source: Techadyant scenario analysis</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="the-framework">The Framework</h2>
+    <div class="framework-box">
+      <strong>Techadyant's Indigenous Aerospace Stack</strong> separates industrial sovereignty into five layers: <em>Manufacturing</em>, <em>Systems Integration</em>, <em>Technology Ownership</em>, <em>Design</em> and <em>Global Export Capability</em>. The framework is intended to prevent localisation claims from being read as equivalent to full technological control.
+    </div>
+    <p>The report also uses a three-scenario framework for 2030&ndash;2035. Scenario A represents assembly-led growth; Scenario B represents deep localisation; Scenario C represents a substantially indigenous aerospace stack. The analytical distinction is not simply the percentage manufactured in India, but the degree of control over high-value and strategically critical technologies.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="what-it-means">What It Means</h2>
+    <h3>For policymakers</h3>
+    <p>The central policy challenge is to move from platform procurement to industrial-stack development. The report identifies supplier capital, certification capacity, propulsion, critical materials and aerospace-grade electronics as bottlenecks requiring deliberate intervention.</p>
+    <h3>For industry</h3>
+    <p>Prime contractors and suppliers face a shift from manufacturing participation toward systems capability, subsystem ownership, certification and export readiness. The strongest industrial positions are likely to emerge where companies control specialised technology rather than only production volume.</p>
+    <h3>For investors</h3>
+    <p>The report identifies approximately &#8377;25,000&ndash;30,000 crore of potential private capital deployment over 2025&ndash;2035, with opportunities concentrated in specialist Tier-2 capabilities, UAV and autonomous systems, and MRO and lifecycle services.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="analytical-figures">Analytical Figures</h2>
+
+    <p>The report's central analytical distinction is between manufacturing presence and strategic industrial control. India can progress in manufacturing and systems integration while remaining dependent at the technology-ownership, design and export layers.</p>
+
+    <figure>
+      <svg viewBox="0 0 1000 310" width="100%" role="img" aria-labelledby="stack-title" xmlns="http://www.w3.org/2000/svg">
+        <title id="stack-title">Five layers of the Indigenous Aerospace Stack</title>
+        <rect x="40" y="30" width="920" height="48" rx="4" fill="#3b82f6"/>
+        <text x="70" y="61" fill="#ffffff" font-size="22" font-family="Inter, sans-serif">5. Global Export Capability</text>
+        <rect x="90" y="88" width="820" height="48" rx="4" fill="#14b8a6"/>
+        <text x="120" y="119" fill="#ffffff" font-size="22" font-family="Inter, sans-serif">4. Design Authority</text>
+        <rect x="140" y="146" width="720" height="48" rx="4" fill="#f59e0b"/>
+        <text x="170" y="177" fill="#111827" font-size="22" font-family="Inter, sans-serif">3. Technology Ownership / IP</text>
+        <rect x="190" y="204" width="620" height="48" rx="4" fill="#1a2332" stroke="#14b8a6"/>
+        <text x="220" y="235" fill="#f1f5f9" font-size="22" font-family="Inter, sans-serif">2. Systems Integration</text>
+        <rect x="240" y="262" width="520" height="36" rx="4" fill="#151f2e" stroke="#3b82f6"/>
+        <text x="270" y="287" fill="#f1f5f9" font-size="20" font-family="Inter, sans-serif">1. Manufacturing</text>
+      </svg>
+      <figcaption>Figure 1 &middot; The Indigenous Aerospace Stack &mdash; manufacturing is necessary but does not by itself establish technological sovereignty. Source: Techadyant Labs.</figcaption>
+    </figure>
+
+    <p>The report evaluates three scenarios rather than a single deterministic forecast. Deep Localisation is assigned the highest probability, while a full indigenous stack requires several additional technical and industrial breakthroughs.</p>
+
+    <figure>
+      <svg viewBox="0 0 1000 380" width="100%" role="img" aria-labelledby="scenario-title" xmlns="http://www.w3.org/2000/svg">
+        <title id="scenario-title">India aerospace scenarios to 2035</title>
+        <text x="220" y="42" fill="#94a3b8" font-size="16" font-family="JetBrains Mono, monospace">PROBABILITY</text>
+        <text x="560" y="42" fill="#94a3b8" font-size="16" font-family="JetBrains Mono, monospace">INDIGENOUS CONTENT</text>
+        <text x="820" y="42" fill="#94a3b8" font-size="16" font-family="JetBrains Mono, monospace">EXPORTS</text>
+        <text x="30" y="120" fill="#f1f5f9" font-size="21" font-family="Inter, sans-serif">Scenario A &mdash; Assembly-led</text>
+        <rect x="220" y="92" width="210" height="34" rx="3" fill="#ef4444"/>
+        <text x="445" y="116" fill="#f1f5f9" font-size="19" font-family="Inter, sans-serif">35%</text>
+        <text x="570" y="116" fill="#f1f5f9" font-size="19" font-family="Inter, sans-serif">40&ndash;50%</text>
+        <text x="820" y="116" fill="#f1f5f9" font-size="19" font-family="Inter, sans-serif">$2&ndash;3 Bn</text>
+        <text x="30" y="230" fill="#f1f5f9" font-size="21" font-family="Inter, sans-serif">Scenario B &mdash; Deep Localisation</text>
+        <rect x="220" y="202" width="270" height="34" rx="3" fill="#14b8a6"/>
+        <text x="505" y="226" fill="#f1f5f9" font-size="19" font-family="Inter, sans-serif">45%</text>
+        <text x="570" y="226" fill="#f1f5f9" font-size="19" font-family="Inter, sans-serif">60&ndash;75%</text>
+        <text x="820" y="226" fill="#f1f5f9" font-size="19" font-family="Inter, sans-serif">$8&ndash;12 Bn</text>
+        <text x="30" y="340" fill="#f1f5f9" font-size="21" font-family="Inter, sans-serif">Scenario C &mdash; Indigenous Stack</text>
+        <rect x="220" y="312" width="120" height="34" rx="3" fill="#3b82f6"/>
+        <text x="355" y="336" fill="#f1f5f9" font-size="19" font-family="Inter, sans-serif">20%</text>
+        <text x="570" y="336" fill="#f1f5f9" font-size="19" font-family="Inter, sans-serif">80&ndash;90%</text>
+        <text x="820" y="336" fill="#f1f5f9" font-size="19" font-family="Inter, sans-serif">$25&ndash;35 Bn</text>
+      </svg>
+      <figcaption>Figure 2 &middot; Techadyant scenario model for India's aerospace industrial trajectory [modelled]. Source: Techadyant Labs.</figcaption>
+    </figure>
+
+    <p>Several dependencies are more consequential than their numerical part count would suggest. High-value, high-criticality subsystems can dominate strategic exposure even when most physical components are produced domestically.</p>
+
+    <figure>
+      <svg viewBox="0 0 1000 450" width="100%" role="img" aria-labelledby="dependency-title" xmlns="http://www.w3.org/2000/svg">
+        <title id="dependency-title">Strategic dependency heatmap</title>
+        <text x="420" y="35" fill="#94a3b8" font-size="15" font-family="JetBrains Mono, monospace">STRATEGIC CRITICALITY &#8594;</text>
+        <text x="30" y="110" fill="#f1f5f9" font-size="20" font-family="Inter, sans-serif">Aircraft engines</text>
+        <rect x="420" y="75" width="480" height="55" rx="4" fill="#ef4444"/>
+        <text x="440" y="110" fill="#ffffff" font-size="18" font-family="Inter, sans-serif">85&ndash;90% dependency by value</text>
+        <text x="30" y="190" fill="#f1f5f9" font-size="20" font-family="Inter, sans-serif">Single-crystal blades</text>
+        <rect x="420" y="155" width="480" height="55" rx="4" fill="#ef4444"/>
+        <text x="440" y="190" fill="#ffffff" font-size="18" font-family="Inter, sans-serif">~100% import dependency</text>
+        <text x="30" y="270" fill="#f1f5f9" font-size="20" font-family="Inter, sans-serif">Aerospace semiconductors</text>
+        <rect x="420" y="235" width="430" height="55" rx="4" fill="#f59e0b"/>
+        <text x="440" y="270" fill="#111827" font-size="18" font-family="Inter, sans-serif">90&ndash;95% dependency</text>
+        <text x="30" y="350" fill="#f1f5f9" font-size="20" font-family="Inter, sans-serif">Carbon-fibre pre-preg</text>
+        <rect x="420" y="315" width="430" height="55" rx="4" fill="#f59e0b"/>
+        <text x="440" y="350" fill="#111827" font-size="18" font-family="Inter, sans-serif">~90% dependency</text>
+        <line x1="420" y1="400" x2="900" y2="400" stroke="#94a3b8"/>
+        <text x="420" y="428" fill="#94a3b8" font-size="14" font-family="JetBrains Mono, monospace">HIGH DEPENDENCY / HIGH STRATEGIC CRITICALITY</text>
+      </svg>
+      <figcaption>Figure 3 &middot; Strategic dependency concentration across selected aerospace control points. Source: Techadyant Labs dependency framework.</figcaption>
+    </figure>
+
+    <p>The analytical conclusion is that localisation priorities should focus on strategic control points rather than the total number of imported parts. A single imported engine or semiconductor technology can carry more strategic significance than a large number of lower-value mechanical components.</p>
+
+    <figure>
+      <svg viewBox="0 0 1000 390" width="100%" role="img" aria-labelledby="roadmap-title" xmlns="http://www.w3.org/2000/svg">
+        <title id="roadmap-title">Strategic recommendations roadmap</title>
+        <line x1="90" y1="195" x2="930" y2="195" stroke="#94a3b8" stroke-width="3"/>
+        <circle cx="160" cy="195" r="15" fill="#ef4444"/>
+        <circle cx="390" cy="195" r="15" fill="#f59e0b"/>
+        <circle cx="640" cy="195" r="15" fill="#14b8a6"/>
+        <circle cx="870" cy="195" r="15" fill="#3b82f6"/>
+        <text x="100" y="70" fill="#ef4444" font-size="21" font-family="Inter, sans-serif">0&ndash;2 YEARS</text>
+        <text x="70" y="108" fill="#f1f5f9" font-size="17" font-family="Inter, sans-serif">Tier-2 supplier fund</text>
+        <text x="70" y="136" fill="#f1f5f9" font-size="17" font-family="Inter, sans-serif">Certification capacity</text>
+        <text x="322" y="290" fill="#f59e0b" font-size="21" font-family="Inter, sans-serif">2&ndash;5 YEARS</text>
+        <text x="300" y="328" fill="#f1f5f9" font-size="17" font-family="Inter, sans-serif">Strategic engine JV</text>
+        <text x="300" y="356" fill="#f1f5f9" font-size="17" font-family="Inter, sans-serif">Single-crystal capability</text>
+        <text x="565" y="70" fill="#14b8a6" font-size="21" font-family="Inter, sans-serif">5&ndash;10 YEARS</text>
+        <text x="550" y="108" fill="#f1f5f9" font-size="17" font-family="Inter, sans-serif">110 kN engine programme</text>
+        <text x="550" y="136" fill="#f1f5f9" font-size="17" font-family="Inter, sans-serif">Aerospace semiconductor capability</text>
+        <text x="810" y="290" fill="#3b82f6" font-size="21" font-family="Inter, sans-serif">10+ YEARS</text>
+        <text x="780" y="328" fill="#f1f5f9" font-size="17" font-family="Inter, sans-serif">Global Tier-2 supplier hub</text>
+        <text x="780" y="356" fill="#f1f5f9" font-size="17" font-family="Inter, sans-serif">$25 Bn export ambition</text>
+      </svg>
+      <figcaption>Figure 4 &middot; Strategic recommendation horizons from the report's industrial build-out roadmap. Source: Techadyant Labs.</figcaption>
+    </figure>
+
+    <p>The next 24 months receive particular emphasis, because supplier financing, certification bandwidth and strategic technology partnerships determine whether later localisation targets can be converted into actual industrial capability.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="the-numbers-tabulated">The Numbers, Tabulated</h2>
+
+    <h3>Scenario comparison (2030&ndash;2035)</h3>
+    <table>
+      <thead>
+        <tr><th>Scenario</th><th>Probability</th><th>Indigenous content</th><th>Engine dependency</th><th>Annual exports</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Assembly-led growth</td><td>35%</td><td>40&ndash;50%</td><td>90%</td><td>$2&ndash;3 billion</td></tr>
+        <tr><td>Deep Localisation</td><td>45%</td><td>60&ndash;75%</td><td>50&ndash;60%</td><td>$8&ndash;12 billion</td></tr>
+        <tr><td>Indigenous Aerospace Stack</td><td>20%</td><td>80&ndash;90%</td><td>20&ndash;30%</td><td>$25&ndash;35 billion</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Selected dependency indicators</h3>
+    <table>
+      <thead>
+        <tr><th>Technology / input</th><th>Dependency stated</th><th>Strategic implication</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Aircraft engines</td><td>85&ndash;90%</td><td>Core propulsion dependency</td></tr>
+        <tr><td>Aerospace-grade semiconductors</td><td>90&ndash;95%</td><td>Electronic systems dependency</td></tr>
+        <tr><td>Single-crystal turbine blades</td><td>~100%</td><td>High-temperature propulsion technology gap</td></tr>
+        <tr><td>Carbon-fibre pre-preg</td><td>~90%</td><td>Advanced materials dependency</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Capital and capability priorities</h3>
+    <table>
+      <thead>
+        <tr><th>Priority</th><th>Value / requirement</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Aerospace Tier-2 Supplier Fund</td><td>&#8377;5,000&ndash;10,000 crore</td></tr>
+        <tr><td>Focused industrial investment over 10 years</td><td>&#8377;50,000&ndash;75,000 crore</td></tr>
+        <tr><td>Private capital deployment opportunity</td><td>&#8377;25,000&ndash;30,000 crore</td></tr>
+        <tr><td>Indigenous 110 kN engine programme</td><td>&#8377;30,000 crore</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="what-to-watch">What to Watch</h2>
+    <ul class="watch-list">
+      <li><span class="watch-date">2026</span><span class="watch-text">C-295 final-assembly localisation begins its next phase, an early test of whether programme localisation translates into a broader supplier ecosystem.</span></li>
+      <li><span class="watch-date">2027</span><span class="watch-text">Aerospace-grade semiconductor partnership capability is identified as a strategic milestone required for the deeper industrial scenario.</span></li>
+      <li><span class="watch-date">2028</span><span class="watch-text">Single-crystal turbine-blade capability is identified as a required breakthrough for reducing the propulsion technology gap.</span></li>
+      <li><span class="watch-date">2030</span><span class="watch-text">The indigenous 110 kN engine trajectory and AMCA design milestones become decisive indicators of whether India can move beyond assembly-led aerospace industrialisation.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+    <details>
+      <summary>How large is India's military aerospace manufacturing opportunity?</summary>
+      <div class="faq-answer">The report estimates approximately &#8377;2,50,000 crore of cumulative industrial value across the 2025&ndash;2035 aerospace opportunity. The demand pipeline includes 1,500+ aircraft and helicopters.</div>
+    </details>
+    <details>
+      <summary>How dependent is India on foreign aircraft engines?</summary>
+      <div class="faq-answer">The report estimates aircraft engine dependency at approximately 85&ndash;90% by value across major programmes. Under the Assembly-led scenario, engine dependency remains at 90%.</div>
+    </details>
+    <details>
+      <summary>What is the most likely aerospace scenario for India by 2035?</summary>
+      <div class="faq-answer">The report assigns a 45% likelihood to Scenario B, Deep Localisation. It projects 60&ndash;75% indigenous content, 50&ndash;60% engine dependency and $8&ndash;12 billion in annual exports.</div>
+    </details>
+    <details>
+      <summary>How much investment does India's aerospace industry need?</summary>
+      <div class="faq-answer">The report identifies &#8377;50,000&ndash;75,000 crore of focused industrial investment over 10 years. It also identifies &#8377;25,000&ndash;30,000 crore of potential private capital deployment over 2025&ndash;2035.</div>
+    </details>
+    <details>
+      <summary>What is the proposed investment for India's indigenous 110 kN engine?</summary>
+      <div class="faq-answer">The report identifies a &#8377;30,000 crore indigenous 110 kN engine programme on a roughly 15-year horizon, positioned as part of the longer-term transition toward a deeper indigenous aerospace stack.</div>
+    </details>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 id="sources-methodology">Sources &amp; Methodology</h2>
+    <p>This reading edition is derived from the full strategic-intelligence report, which is based on triangulation of publicly available sources and explicitly labelled Techadyant estimates. The source base includes:</p>
+    <ol class="method-list">
+      <li>Ministry of Defence publications, DAC clearances and procurement disclosures.</li>
+      <li>Comptroller and Auditor General performance audits.</li>
+      <li>DRDO disclosures and programme updates.</li>
+      <li>Company annual reports, filings and public disclosures (HAL, BEL and others).</li>
+      <li>Industry-association data, DPIIT FDI statistics and trade databases.</li>
+      <li>Public news intelligence and academic research.</li>
+    </ol>
+    <p style="margin-top:16px; font-size:14px; color:var(--text-dim);">Evidence labels &mdash; [V] verified &middot; [V1] single-source &middot; [modelled] analytical projection. Estimates are labelled as Techadyant estimates; forward-looking scenarios represent analytical judgement based on public information and observed industrial trajectories. See the full edition for source lines and assumptions.</p>
+  </div>
+</section>

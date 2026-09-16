@@ -48,6 +48,7 @@ import { ReportContent as AerospaceMissingLinksContent, toc as aerospaceMissingL
 import { ReportContent as LunarContent, toc as lunarToc } from '../content/india-lunar-economy';
 import { ReportContent as TechTransferContent, toc as techTransferToc } from '../content/india-tech-transfer-ecosystem';
 import { ReportContent as CloudQuestionContent, toc as cloudQuestionToc } from '../content/india-cloud-question';
+import { ReportContent as MilitaryAerospaceContent, toc as militaryAerospaceToc } from '../content/india-military-aerospace-manufacturing-ecosystem';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -88,6 +89,7 @@ const registry: Record<string, ReportModule> = {
   'india-lunar-economy': { toc: lunarToc, Content: LunarContent },
   'india-tech-transfer-ecosystem': { toc: techTransferToc, Content: TechTransferContent },
   'india-cloud-question': { toc: cloudQuestionToc, Content: CloudQuestionContent },
+  'india-military-aerospace-manufacturing-ecosystem': { toc: militaryAerospaceToc, Content: MilitaryAerospaceContent },
 };
 
 export async function generateStaticParams() {
