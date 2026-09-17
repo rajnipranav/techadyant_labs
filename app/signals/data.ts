@@ -3906,6 +3906,80 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Three India-France private-sector space deals were announced at the Paris International Space Summit on 9-10 September 2026.', 'France\'s Safran will supply communication systems, inertial navigation units, optical payloads and ground stations to Dhruva Space in a contract worth over EUR 5 million (about Rs 45 crore).', 'The deals feed SBS-III - a Rs 26,968 crore constellation of 52 satellites for 2027-2030, with ISRO building 21 and private firms the remainder.', 'The anchor deal\'s direction - Safran supplying the sensing and navigation subsystems - shows India\'s space privatisation still rides on imported high-value payloads.'],
   sources: ['Business Standard (10 Sep 2026): https://www.business-standard.com/external-affairs-defence-security/news/india-france-step-up-space-cooperation-with-new-private-sector-deals-126091000523_1.html', 'Organiser (11 Sep 2026): https://organiser.org/2026/09/11/379969/world/india-france-space-ties-gain-big-boost-3-deals-propel-surveillance-micro-satellites-edge-to-domestic-private-sector/', 'APAC News Network (14 Sep 2026): https://apacnewsnetwork.com/2026/09/dhruva-space-frances-safran-space-sign-rs-55-crore-plus-contracts-for-satellite-programme/']
+}, {
+  slug: 'pm-semiconductor-roundtable-ecosystem-depth-2026',
+  no: 'S-109',
+  title: 'PM Roundtable Moves the Conversation from Project Approvals to Ecosystem Depth',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-09-17',
+  dateLabel: '17 Sep 2026',
+  status: 'live',
+  excerpt: 'A day before SEMICON India 2026 opened, PM Modi chaired a roundtable with the heads of ASML, Applied Materials, Lam Research, Tokyo Electron, Micron, Infineon, AMD, Intel and Tata Electronics. With twelve units approved and Semicon 2.0\'s Rs 1,27,500 crore notified, the next test is whether the equipment, materials and design majors embed deep local capability rather than remain arm\'s-length suppliers.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 16 September 2026, a day before SEMICON India 2026 opened, Prime Minister Narendra Modi chaired a Semiconductor Roundtable with leading global and Indian industry heads in New Delhi. Attendees included senior leaders from SEMI, Micron, Infineon, Applied Materials, ASML, Merck, Tokyo Electron, AMD, Intel, Tata Electronics, Lam Research, Rapidus, NXP, Foxconn and CG Power. The discussion moved from foundational project approvals to deeper industry participation in talent development, research and emerging-technology domains, with the government reiterating a commitment to a predictable policy environment and inviting industry inputs on further measures.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India has already approved twelve semiconductor units and notified Semicon 2.0 with a Rs 1,27,500 crore outlay. The next phase is no longer about attracting the first wave of fabs and OSATs; it is about whether global equipment, materials, design and process players embed deeper local capability rather than remaining arm\'s-length suppliers. The Prime Minister\'s emphasis on skilling, AI and quantum applications points to where the government wants industry to commit beyond manufacturing lines.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'The roundtable underscores a structural shift: the binding constraint is moving from policy intent and project approvals to the equipment, materials and design layers that still sit largely outside domestic control. Sovereign capability will be measured by how much of the tools-and-process stack is localised, not by the number of packaging or mature-node facilities commissioned. A room full of equipment and materials majors is the right audience for that pitch; the question is what they commit to build, not merely to attend.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether global equipment and materials firms convert roundtable goodwill into manufacturing or deep-R&D footprints in India.', 'Progress on local supplier development under Semicon 2.0\'s six pillars.', 'Concrete industry proposals on skilling and quantum/AI semiconductor applications that move beyond statements of intent.']
+}],
+  takeaways: ['PM Modi chaired a Semiconductor Roundtable with global and Indian chip CEOs in New Delhi on 16 September 2026, ahead of SEMICON India 2026.', 'Attendees included ASML, Applied Materials, Lam Research, Tokyo Electron, Micron, Infineon, AMD, Intel, Tata Electronics, NXP and Foxconn.', 'The government reiterated a predictable policy environment and pushed collaboration on skilling, AI and quantum computing.', 'The strategic test is whether equipment, materials and design majors localise capability rather than remain arm\'s-length suppliers under Semicon 2.0.'],
+  sources: ['Prime Minister\'s Office / PIB (16 Sep 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2311054', 'ANI (16 Sep 2026): https://www.aninews.in/news/national/general-news/pm-modi-chairs-semiconductor-roundtable-with-ceos-reiterates-commitment-to-predictable-policy-environment20260916225002/', 'Business Standard (16 Sep 2026): https://www.business-standard.com/india-news/pm-modi-meets-chip-ceos-seeks-push-for-next-phase-of-semicon-growth-126091601227_1.html']
+}, {
+  slug: 'lam-research-10000-crore-equipment-layer-2026',
+  no: 'S-110',
+  title: 'Lam Research\'s Rs 10,000 Crore Commitment Targets the Equipment Layer India Still Imports',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-09-17',
+  dateLabel: '17 Sep 2026',
+  status: 'live',
+  excerpt: 'Lam Research will invest about Rs 10,000 crore in India for its first silicon-component manufacturing facility and an R&D expansion - a global process-equipment major moving into the tools-and-materials layer that India still imports almost entirely, and the part of the stack that packaging and mature-node fabs do not fix.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 16 September 2026, around SEMICON India 2026, Lam Research announced plans to invest approximately Rs 10,000 crore in India over the coming years. The centrepiece is the company\'s first silicon-component manufacturing facility, covering a vertically integrated process from silicon ingot production through processing for advanced nodes, alongside an expansion of R&D at its existing India Center for Engineering. Lam is one of the world\'s largest suppliers of wafer-fabrication process equipment.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Previous semiconductor investments in India have concentrated on assembly, test, packaging and mature-node fabrication. A major process-equipment and materials supplier committing to local silicon-component manufacturing moves the conversation upstream into the tools-and-materials layer that India still imports almost entirely - the same layer Applied Materials targeted with its Rs 3,600 crore Karnataka commitment days earlier.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'India\'s semiconductor dependency is sharpest at the equipment and specialty-materials layers. Local packaging and even silicon fabs do not remove that exposure if the critical process tools, components and materials continue to arrive from abroad. Lam\'s planned facility is one of the first concrete attempts by a global equipment major to locate part of that stack inside India. The test is how much of the high-value process technology and supplier ecosystem actually migrates, versus a badged assembly presence.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Location, timeline and technology-node focus of the silicon-component facility.', 'Depth of local supplier development in precision components, gases, chemicals and metrology.', 'Whether other global equipment and materials firms follow with comparable manufacturing commitments.']
+}],
+  takeaways: ['Lam Research will invest about Rs 10,000 crore in India for its first silicon-component manufacturing facility and an R&D expansion, announced around SEMICON India 2026 on 16 September 2026.', 'The facility is planned as a vertically integrated process spanning silicon ingot production and processing for advanced nodes.', 'It targets the equipment and materials layer that India still imports almost entirely - the sharpest point of its semiconductor dependency.', 'It follows Applied Materials\' Rs 3,600 crore Karnataka commitment, signalling the equipment layer beginning to localise.'],
+  sources: ['The Hindu BusinessLine (16 Sep 2026): https://www.thehindubusinessline.com/companies/lam-research-to-invest-10000-cr-in-first-silicon-component-manufacturing-facility-in-india/article71472662.ece', 'ANI (16 Sep 2026): https://www.aninews.in/news/business/lam-research-plans-rs-10000-crore-india-investment-for-silicon-component-manufacturing-rampd-expansion20260916162109/', 'The Tribune (16 Sep 2026): https://www.tribuneindia.com/news/business/lam-research-plans-rs-10000-crore-india-investment-for-silicon-component-manufacturing-rd-expansion']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
