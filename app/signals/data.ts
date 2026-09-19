@@ -3980,6 +3980,117 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Lam Research will invest about Rs 10,000 crore in India for its first silicon-component manufacturing facility and an R&D expansion, announced around SEMICON India 2026 on 16 September 2026.', 'The facility is planned as a vertically integrated process spanning silicon ingot production and processing for advanced nodes.', 'It targets the equipment and materials layer that India still imports almost entirely - the sharpest point of its semiconductor dependency.', 'It follows Applied Materials\' Rs 3,600 crore Karnataka commitment, signalling the equipment layer beginning to localise.'],
   sources: ['The Hindu BusinessLine (16 Sep 2026): https://www.thehindubusinessline.com/companies/lam-research-to-invest-10000-cr-in-first-silicon-component-manufacturing-facility-in-india/article71472662.ece', 'ANI (16 Sep 2026): https://www.aninews.in/news/business/lam-research-plans-rs-10000-crore-india-investment-for-silicon-component-manufacturing-rampd-expansion20260916162109/', 'The Tribune (16 Sep 2026): https://www.tribuneindia.com/news/business/lam-research-plans-rs-10000-crore-india-investment-for-silicon-component-manufacturing-rd-expansion']
+}, {
+  slug: 'semicon-2-0-1-lakh-crore-commitments-ecosystem-shift-2026',
+  no: 'S-111',
+  title: 'Semicon 2.0 Commitments Hit Rs 1 Lakh Crore - The Money Is Moving Upstream of the Fab',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-09-18',
+  dateLabel: '18 Sep 2026',
+  status: 'live',
+  excerpt: 'On SEMICON India 2026\'s opening day, minister Ashwini Vaishnaw said Semicon 2.0 has drawn about Rs 1 lakh crore (USD 11-12 billion) in commitments - weighted toward equipment, materials, gases, chemicals and substrates rather than more fabs, across 16 MoUs and announcements. It is a commitment pipeline, not contracted capital, but its composition is the structural signal: the money is finally moving upstream of the fab.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 17 September 2026, the opening day of SEMICON India 2026, Electronics and IT Minister Ashwini Vaishnaw said Semicon 2.0 has already drawn investment commitments of around Rs 1 lakh crore (roughly USD 11-12 billion). The commitments are concentrated in semiconductor equipment, materials, gases, chemicals, ATMP units, substrates and, in one case, wafers, and are expected to materialise over the next two to three years. Sixteen MoUs and announcements were exchanged the same day across manufacturing, packaging, materials, equipment, design and talent, with close to 1 lakh jobs projected and targets of 200 chip-design start-ups and 1 lakh trained technicians over five years.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Semicon 1.0 produced twelve manufacturing projects and India\'s first commercial chip production. Semicon 2.0\'s early pipeline shows capital beginning to address the layers India still imports almost entirely - tools, specialty materials and process inputs - rather than only adding fabs and packaging lines. The headline figure is a commitment pool, not board-approved capital, but the composition of that pool is the real signal.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'India\'s semiconductor exposure is sharpest at the equipment and specialty-materials layers. Local packaging and mature-node capacity do not remove that exposure if the critical process tools and chemicals keep arriving from abroad. A Rs 1 lakh crore commitment pool weighted toward those layers - visible in Day-1 moves from Applied Materials, Lam Research and Tata\'s Dholera vendor ecosystem - is the first clear quantitative indication that the dependency frontier is being pushed upstream of the fab.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Conversion of the Rs 1 lakh crore commitment pool into board-approved, named investment announcements over the next 24 months.', 'The share landing in equipment manufacturing, materials plants and specialty chemicals versus further ATMP or packaging capacity.', 'Progress against the 200-design-start-up and 1-lakh-technician targets under Semicon 2.0\'s six pillars.']
+}],
+  takeaways: ['Minister Ashwini Vaishnaw said Semicon 2.0 has drawn about Rs 1 lakh crore (USD 11-12 billion) in commitments, announced on SEMICON India 2026\'s opening day, 17 September 2026.', 'The pipeline is weighted toward equipment, materials, gases, chemicals, substrates and ATMP rather than only new fabs, and is expected to materialise over two to three years.', 'Sixteen MoUs and announcements were exchanged on Day 1; targets include 200 design start-ups and 1 lakh trained technicians over five years.', 'It is a commitment pool, not contracted capital - the composition, weighted upstream of the fab, is the structural signal.'],
+  sources: ['Press Information Bureau / MeitY (17 Sep 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2311630', 'The Tribune (17 Sep 2026): https://www.tribuneindia.com/news/business/semicon-2026-day-1-rs-1-lakh-crore-investment-commitments-16-mous-and-announcements-push-india-semiconductor-ecosystem-deeper', 'ANI (17 Sep 2026): https://www.aninews.in/news/business/semicon-2026-day-1-rs-1-lakh-crore-investment-commitments-16-mous-and-announcements-push-india-semiconductor-ecosystem-deeper20260917230455/']
+}, {
+  slug: 'applied-materials-5-billion-india-vision-2035-equipment-layer',
+  no: 'S-112',
+  title: 'Applied Materials\' $5 Billion India Vision 2035 Targets the Tools-and-Process Layer',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-09-18',
+  dateLabel: '18 Sep 2026',
+  status: 'live',
+  excerpt: 'Applied Materials used SEMICON India 2026\'s opening day to unveil India Vision 2035 - a USD 5 billion, ten-year commitment built around a 140-acre advanced semiconductor research park and a tenfold expansion of its India supply-chain base. It is a far bigger bet than its Rs 3,600 crore Karnataka MoU days earlier, and it lands in the tools-and-process layer India still imports almost entirely.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 17 September 2026, on the opening day of SEMICON India 2026, Applied Materials unveiled India Vision 2035, committing USD 5 billion over ten years. The package centres on a 140-acre advanced semiconductor research park, a stated tenfold expansion of India-based supply-chain capacity by 2035, and deeper R&D and talent activity. Company executives framed the spend as directed at product development, clean-room capability and local supplier density rather than a new fab. It dwarfs, and builds on, the Rs 3,600 crore Karnataka manufacturing MoU the same firm signed days earlier.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Previous large semiconductor announcements in India have concentrated on packaging, mature-node fabrication or design services. The world\'s largest wafer-fabrication-equipment supplier committing multi-billion-dollar capital to research infrastructure and local supplier density is a direct move into the tools-and-process layer that India still imports almost entirely - the deepest point of its chip dependency.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'Sovereign semiconductor capability is constrained less by the existence of packaging lines or even silicon fabs than by ownership of the equipment, process technology and specialty inputs that make those facilities work. Applied Materials\' USD 5 billion commitment, if executed as described, begins to locate part of that stack inside India. The test is how much high-value process technology and supplier ecosystem actually migrates, versus a remote engineering-and-assembly footprint wearing a bigger number.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Location, timeline and technology focus of the 140-acre research park.', 'Measurable growth in India-based supply-chain capacity against the stated tenfold target by 2035.', 'Whether Lam Research, Tokyo Electron and other equipment and materials majors follow with comparable deep commitments.']
+}],
+  takeaways: ['Applied Materials announced India Vision 2035 at SEMICON India 2026 on 17 September 2026, committing USD 5 billion over ten years.', 'The plan centres on a 140-acre advanced semiconductor research park and a tenfold expansion of its India-based supply-chain capacity by 2035.', 'The focus is R&D, process capability and local supplier density rather than a new fab - the tools-and-process layer India still imports.', 'It is far larger than, and builds on, the firm\'s Rs 3,600 crore Karnataka MoU signed days earlier.'],
+  sources: ['Reuters (17 Sep 2026): https://www.reuters.com/world/asia-pacific/applied-materials-invest-5-billion-india-modis-flagship-chip-event-kicks-off-2026-09-17/', 'Inc42 (17 Sep 2026): https://inc42.com/buzz/applied-materials-commits-5-bn-to-boost-indias-semiconductor-ecosystem/', 'ANI (17 Sep 2026): https://www.aninews.in/news/business/applied-materials-announces-usd-5-bn-india-investment-lam-research-plans-rs-10000-crore-facility20260917120804/']
+}, {
+  slug: 'tata-dholera-vendor-park-materials-packaging-mous-2026',
+  no: 'S-113',
+  title: 'Tata\'s Dholera Vendor Park and Materials MoUs Begin to Populate the Supplier Layer Around the Fab',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-09-18',
+  dateLabel: '18 Sep 2026',
+  status: 'live',
+  excerpt: 'At SEMICON India 2026, Tata Electronics signed MoUs to build a 363-acre vendor park around its Dholera fab (with Ascendas First Space) and to localise critical inputs - Fujifilm\'s roughly Rs 800 crore materials plant, JSR\'s photoresists and chemicals, plus Nexperia, BESI and SCL. It is the first concrete attempt to populate the supplier layer that has to sit around India\'s largest silicon project.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 17 September 2026, at SEMICON India 2026, Tata Electronics signed a cluster of MoUs aimed directly at the supplier ecosystem around its Dholera fab in Gujarat. The largest physical commitment is a 363-acre vendor park with Ascendas First Space. Parallel agreements with Fujifilm and JSR Corporation target localisation of critical semiconductor materials, photoresists and advanced chemicals - Fujifilm has indicated a materials plant of about Rs 800 crore. Further MoUs with Nexperia (wafer manufacturing, assembly and test), BESI Singapore (advanced packaging) and the Semiconductor Laboratory (design, process technology and talent) round out the set.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'A fab without a dense local supplier base is an isolated asset. The Dholera vendor park and materials MoUs are the first concrete attempt to populate the supplier layer that must surround India\'s largest silicon project. The value will be measured by how many MoUs convert into operating plants and qualified local content, not by the number of signatures on Day 1.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'India\'s semiconductor dependency is not only at the equipment-OEM level; it is also in the specialty chemicals, photoresists, gases and precision components that every fab consumes continuously. A 363-acre vendor park with named materials and packaging partners is the first visible effort to shrink that exposure around a specific Indian fab. The risk is that the park and MoUs linger at the planning stage while the high-value inputs keep being imported.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Ground-breaking and tenant commitments at the 363-acre Dholera vendor park.', 'Timeline and capacity of the Fujifilm materials plant and JSR chemical-supply arrangements.', 'Whether additional global materials and equipment suppliers locate inside or adjacent to the park.']
+}],
+  takeaways: ['Tata Electronics signed an MoU with Ascendas First Space at SEMICON India 2026 on 17 September 2026 to build a 363-acre vendor park around its Dholera fab.', 'Parallel MoUs with Fujifilm (about Rs 800 crore materials plant) and JSR target localisation of critical materials, photoresists and chemicals.', 'Further MoUs cover Nexperia (wafer/assembly/test), BESI (advanced packaging) and the Semiconductor Laboratory (design and process).', 'It is the first concrete move to populate the supplier and specialty-materials layer around India\'s largest silicon project.'],
+  sources: ['Press Information Bureau / MeitY (17 Sep 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2311630', 'YourStory (17 Sep 2026): https://yourstory.com/2026/09/semicon-india-sees-flurry-of-mous-as-chip-supply-chain-expands', 'The Tribune (17 Sep 2026): https://www.tribuneindia.com/news/advanced-packaging/semicon-2026-day-1-rs-1-lakh-crore-investment-commitments-16-mous-and-announcements-push-india-semiconductor-ecosystem-deeper']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
