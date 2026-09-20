@@ -4091,6 +4091,43 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Tata Electronics signed an MoU with Ascendas First Space at SEMICON India 2026 on 17 September 2026 to build a 363-acre vendor park around its Dholera fab.', 'Parallel MoUs with Fujifilm (about Rs 800 crore materials plant) and JSR target localisation of critical materials, photoresists and chemicals.', 'Further MoUs cover Nexperia (wafer/assembly/test), BESI (advanced packaging) and the Semiconductor Laboratory (design and process).', 'It is the first concrete move to populate the supplier and specialty-materials layer around India\'s largest silicon project.'],
   sources: ['Press Information Bureau / MeitY (17 Sep 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2311630', 'YourStory (17 Sep 2026): https://yourstory.com/2026/09/semicon-india-sees-flurry-of-mous-as-chip-supply-chain-expands', 'The Tribune (17 Sep 2026): https://www.tribuneindia.com/news/advanced-packaging/semicon-2026-day-1-rs-1-lakh-crore-investment-commitments-16-mous-and-announcements-push-india-semiconductor-ecosystem-deeper']
+}, {
+  slug: 'high-purity-gases-chemicals-localisation-tata-inox-sumitomo-2026',
+  no: 'S-114',
+  title: 'High-Purity Gases and Chemicals Move onto India\'s Localisation Agenda',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-09-19',
+  dateLabel: '19 Sep 2026',
+  status: 'live',
+  excerpt: 'On SEMICON India\'s Day 2, Tata Electronics signed MoUs with INOX Air Products for high-purity semiconductor gases and with Sumitomo Chemical for wet chemicals and advanced materials. A fab needs more than 50 ultra-high-purity gases and hundreds of specialty chemicals, most still imported - the continuous-consumption layer that packaging and even silicon capacity do not fix.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On the second day of SEMICON India 2026, 18 September, Tata Electronics signed MoUs with INOX Air Products to build local supply of the high-purity gases semiconductor manufacturing needs, and with Sumitomo Chemical to localise high-purity wet chemicals and advanced materials used in front-end processes. INOX said it already produces about 12 semiconductor gases in India and is adding ten more, with capital going into purification capacity and an Electronic Specialty Gas Hub at Dholera (reported at around Rs 500 crore). The Ministry of Electronics and IT recorded 25 announcements and collaborations across materials, logistics, design, packaging and skills on the day. An INOX executive put the logic bluntly: India cannot keep importing the gases for a locally made chip.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'A fab that still imports most of its ultra-high-purity gases and specialty chemicals remains structurally dependent, no matter how much packaging or silicon capacity sits next to it. Semiconductor production consumes more than 50 ultra-high-purity gases and hundreds of specialty chemicals, delivered continuously and to parts-per-billion purity. This is the layer a fab burns through every day - and the one India has so far almost entirely imported.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'India\'s chip dependency is usually framed at the equipment-OEM or design-IP layer, but the gases and chemicals layer is where exposure is most continuous. A silicon fab or OSAT that cannot source its process gases and wet chemicals domestically carries both an operational-risk and a foreign-exchange exposure on every wafer. Localising part of that stack - and clustering it, as a Dholera gas hub implies, next to the fab it serves - is what turns an assembly presence into an operating ecosystem. The risk is the familiar one: MoUs that describe capacity rather than build it.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Conversion of the INOX and Sumitomo MoUs into operating purification and chemical plants qualified to supply Dholera and other sites.', 'The share of the 50-plus semiconductor gases that shifts from import to domestic production over the next three years.', 'Whether other global gas and chemical majors locate manufacturing in India rather than remaining import channels.']
+}],
+  takeaways: ['On SEMICON India 2026 Day 2 (18 September), Tata Electronics signed MoUs with INOX Air Products (high-purity gases) and Sumitomo Chemical (wet chemicals and advanced materials).', 'INOX produces about 12 semiconductor gases in India and is adding ten more, with capital going into purification and an Electronic Specialty Gas Hub at Dholera.', 'Chip production needs more than 50 ultra-high-purity gases and hundreds of specialty chemicals, delivered continuously to parts-per-billion purity - most still imported.', 'The MoUs were among 25 Day-2 announcements; the test is conversion into qualified operating supply, not signatures.'],
+  sources: ['The Tribune (18 Sep 2026): https://www.tribuneindia.com/news/business/semicon-india-day-2-sees-25-partnerships-across-chip-manufacturing-supply-chains-packaging-and-skills', 'Business Standard (18 Sep 2026): https://www.business-standard.com/industry/news/can-t-keep-importing-gases-for-a-locally-made-chip-in-india-executive-126091801285_1.html', 'ANI (18 Sep 2026): https://www.aninews.in/news/business/semicon-india-day-2-sees-25-partnerships-across-chip-manufacturing-supply-chains-packaging-and-skills20260918222303/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
