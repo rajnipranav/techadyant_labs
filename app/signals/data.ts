@@ -4128,6 +4128,43 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['On SEMICON India 2026 Day 2 (18 September), Tata Electronics signed MoUs with INOX Air Products (high-purity gases) and Sumitomo Chemical (wet chemicals and advanced materials).', 'INOX produces about 12 semiconductor gases in India and is adding ten more, with capital going into purification and an Electronic Specialty Gas Hub at Dholera.', 'Chip production needs more than 50 ultra-high-purity gases and hundreds of specialty chemicals, delivered continuously to parts-per-billion purity - most still imported.', 'The MoUs were among 25 Day-2 announcements; the test is conversion into qualified operating supply, not signatures.'],
   sources: ['The Tribune (18 Sep 2026): https://www.tribuneindia.com/news/business/semicon-india-day-2-sees-25-partnerships-across-chip-manufacturing-supply-chains-packaging-and-skills', 'Business Standard (18 Sep 2026): https://www.business-standard.com/industry/news/can-t-keep-importing-gases-for-a-locally-made-chip-in-india-executive-126091801285_1.html', 'ANI (18 Sep 2026): https://www.aninews.in/news/business/semicon-india-day-2-sees-25-partnerships-across-chip-manufacturing-supply-chains-packaging-and-skills20260918222303/']
+}, {
+  slug: 'semicon-india-2026-closes-five-commercial-units-cdil-suchi',
+  no: 'S-115',
+  title: 'India\'s Operational Chip Units Reach Five as SEMICON India 2026 Closes - Production, Not MoUs, Is the Hard Signal',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-09-20',
+  dateLabel: '20 Sep 2026',
+  status: 'live',
+  excerpt: 'SEMICON India 2026 closed on 19 September with a harder signal than its 56 MoUs: the PM inaugurated commercial production at CDIL Semiconductor (Mohali) and Suchi Semicon (Surat), taking operational units among the twelve Semicon 1.0 projects from three to five. Commercial production is the part of India\'s chip story that cannot be walked back.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'SEMICON India 2026 closed on 19 September after three days at Yashobhoomi. The concrete milestone came from the production side: the Prime Minister virtually inaugurated commercial production lines at CDIL Semiconductor in Mohali and Suchi Semicon in Surat, taking the number of operational commercial units among the twelve Semicon 1.0 projects from three to five. The event itself recorded 56 MoUs, announcements and strategic initiatives across the three days, drew 51,656 registrations and about 40,000 cumulative footfall, and hosted over 600 exhibitors including around 300 international firms from 52 countries. Semicon 2.0, with its Rs 1,27,500 crore outlay, remains structured around six pillars: design, machines and materials, new fabs, advanced packaging, research and talent.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Commercial production at five units is a harder signal than any MoU count. India\'s chip programme has spent two years accumulating approvals, pledges and, this week, a roughly Rs 1 lakh crore commitment pipeline; two more units actually producing is the part that cannot be walked back. The two new lines are back-end (ATMP/OSAT-type) rather than front-end fabs, which is where India\'s operating base realistically deepens first. Five of twelve Semicon 1.0 projects online is the clearest measure that the first wave is converting from plan to plant.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'Production at five units does not by itself remove upstream exposure. The structural test after SEMICON India 2026 is whether the week\'s materials, gases, chemicals, equipment and logistics commitments convert into qualified domestic capacity before the remaining fabs and OSATs come fully online. The event populated the commitment pipeline; the residual dependency still sits at the continuous-consumption and process-technology layers that assembly and packaging lines do not touch.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Further commercial-production declarations from the remaining Semicon 1.0 projects, and first silicon from the Tata-Powerchip Dholera fab.', 'Conversion of the 56 MoUs and the Rs 1 lakh crore commitment pool into operating plants and signed supply contracts over the next 24 months.', 'Progress against Semicon 2.0\'s six pillars, especially machines-and-materials and the 1-lakh-technician pipeline.']
+}],
+  takeaways: ['SEMICON India 2026 closed on 19 September 2026 with the PM inaugurating commercial production at CDIL Semiconductor (Mohali) and Suchi Semicon (Surat).', 'Operational commercial units among the twelve Semicon 1.0 projects rose from three to five - a harder signal than MoU counts.', 'The three-day event recorded 56 MoUs and announcements, 51,656 registrations and over 600 exhibitors from 52 countries.', 'The structural test now is converting the week\'s materials, gases, equipment and logistics commitments into qualified domestic capacity.'],
+  sources: ['Press Information Bureau / MeitY (19 Sep 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2312606', 'Indian Defence News (19 Sep 2026): https://www.indiandefensenews.in/2026/09/chip-momentum-builds-two-new-atmposat.html', 'RNA Media (19 Sep 2026): https://www.rnamedia.in/top-story/semicon-india-2026-india-expands-chip-production-as-semicon-2-0-drives-semiconductor-growth/22301']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
