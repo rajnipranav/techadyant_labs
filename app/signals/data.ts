@@ -4026,7 +4026,7 @@ export const signals: SignalMeta[] = [{
   dateLabel: '18 Sep 2026',
   status: 'live',
   excerpt: 'Applied Materials used SEMICON India 2026\'s opening day to unveil India Vision 2035 - a USD 5 billion, ten-year commitment built around a 140-acre advanced semiconductor research park and a tenfold expansion of its India supply-chain base. It is a far bigger bet than its Rs 3,600 crore Karnataka MoU days earlier, and it lands in the tools-and-process layer India still imports almost entirely.',
-  readingTime: '3 min',
+  readingTime: '5 min',
   body: [{
   text: 'The development',
   type: 'h'
@@ -4046,13 +4046,25 @@ export const signals: SignalMeta[] = [{
   text: 'Sovereign semiconductor capability is constrained less by the existence of packaging lines or even silicon fabs than by ownership of the equipment, process technology and specialty inputs that make those facilities work. Applied Materials\' USD 5 billion commitment, if executed as described, begins to locate part of that stack inside India. The test is how much high-value process technology and supplier ecosystem actually migrates, versus a remote engineering-and-assembly footprint wearing a bigger number.',
   type: 'p'
 }, {
+  text: 'The supplier-localisation map',
+  type: 'h'
+}, {
+  text: 'A tenfold rise in India-based supply-chain capacity is only meaningful if domestic firms qualify into the high-precision subsystem tiers of a wafer-fabrication-equipment tool, rather than supplying facilities, logistics and final assembly around imported parts. On Techadyant\'s reading, five subsystem families concentrate most of the localisable value - and India still imports nearly all of them:',
+  type: 'p'
+}, {
+  type: 'list',
+  items: ['Vacuum subsystems - turbo and cryo pumps, chambers and seals that hold the process environment.', 'Precision motion - wafer stages, robotics and actuators built to nanometre-class tolerances.', 'RF and plasma power delivery - generators, matching networks and electrodes that drive etch and deposition.', 'Specialty ceramics and quartz - electrostatic chucks, showerheads and consumable parts with tight material specifications.', 'Metrology and inspection - the optical, e-beam and sensor systems that verify each process step.']
+}, {
+  text: 'The move is not isolated: Lam Research has committed Rs 10,000 crore to a silicon-component manufacturing and R&D facility (Signal S-110), and Semicon 2.0 commitments have crossed Rs 1 lakh crore, much of it upstream of the fab (Signal S-111). The equipment and materials layer, not the fab shell, is where this wave of capital is concentrating - which makes subsystem qualification the variable that decides how much of it stays in India.',
+  type: 'p'
+}, {
   text: 'What to watch',
   type: 'h'
 }, {
   type: 'list',
-  items: ['Location, timeline and technology focus of the 140-acre research park.', 'Measurable growth in India-based supply-chain capacity against the stated tenfold target by 2035.', 'Whether Lam Research, Tokyo Electron and other equipment and materials majors follow with comparable deep commitments.']
+  items: ['Location, timeline and technology focus of the 140-acre research park, and the detail of its supplier-development and qualification programmes.', 'Whether any Indian firm qualifies as a tier-1 or tier-2 subsystem supplier to Applied Materials or Lam Research, versus supplying facilities and assembly only.', 'Whether specialty-materials localisation - high-purity gases, ceramics and quartz (Signal S-114) - connects into the equipment supplier base rather than sitting alongside it.', 'Whether Tokyo Electron and other equipment majors follow with comparable deep commitments.']
 }],
-  takeaways: ['Applied Materials announced India Vision 2035 at SEMICON India 2026 on 17 September 2026, committing USD 5 billion over ten years.', 'The plan centres on a 140-acre advanced semiconductor research park and a tenfold expansion of its India-based supply-chain capacity by 2035.', 'The focus is R&D, process capability and local supplier density rather than a new fab - the tools-and-process layer India still imports.', 'It is far larger than, and builds on, the firm\'s Rs 3,600 crore Karnataka MoU signed days earlier.'],
+  takeaways: ['Applied Materials announced India Vision 2035 at SEMICON India 2026 on 17 September 2026, committing USD 5 billion over ten years.', 'The plan centres on a 140-acre advanced semiconductor research park and a tenfold expansion of its India-based supply-chain capacity by 2035.', 'On Techadyant\'s reading, five wafer-fabrication-equipment subsystem families - vacuum, precision motion, RF and plasma power, specialty ceramics and quartz, and metrology - concentrate the localisable value India still imports; the test is whether Indian firms qualify into these tiers rather than supplying facilities and assembly around them.', 'The move fits a broader pattern of capital concentrating upstream of the fab - Lam Research\'s Rs 10,000 crore component facility (S-110) and Semicon 2.0\'s Rs 1 lakh crore-plus commitments (S-111).'],
   sources: ['Reuters (17 Sep 2026): https://www.reuters.com/world/asia-pacific/applied-materials-invest-5-billion-india-modis-flagship-chip-event-kicks-off-2026-09-17/', 'Inc42 (17 Sep 2026): https://inc42.com/buzz/applied-materials-commits-5-bn-to-boost-indias-semiconductor-ecosystem/', 'ANI (17 Sep 2026): https://www.aninews.in/news/business/applied-materials-announces-usd-5-bn-india-investment-lam-research-plans-rs-10000-crore-facility20260917120804/']
 }, {
   slug: 'tata-dholera-vendor-park-materials-packaging-mous-2026',
@@ -4165,6 +4177,80 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['SEMICON India 2026 closed on 19 September 2026 with the PM inaugurating commercial production at CDIL Semiconductor (Mohali) and Suchi Semicon (Surat).', 'Operational commercial units among the twelve Semicon 1.0 projects rose from three to five - a harder signal than MoU counts.', 'The three-day event recorded 56 MoUs and announcements, 51,656 registrations and over 600 exhibitors from 52 countries.', 'The structural test now is converting the week\'s materials, gases, equipment and logistics commitments into qualified domestic capacity.'],
   sources: ['Press Information Bureau / MeitY (19 Sep 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2312606', 'Indian Defence News (19 Sep 2026): https://www.indiandefensenews.in/2026/09/chip-momentum-builds-two-new-atmposat.html', 'RNA Media (19 Sep 2026): https://www.rnamedia.in/top-story/semicon-india-2026-india-expands-chip-production-as-semicon-2-0-drives-semiconductor-growth/22301']
+}, {
+  slug: 'asml-begins-india-operations-lithography-layer-2026',
+  no: 'S-116',
+  title: 'ASML Begins India Operations - the Lithography Layer Comes Onshore',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-09-21',
+  dateLabel: '21 Sep 2026',
+  status: 'live',
+  excerpt: 'ASML, the sole supplier of high-end lithography tools, has begun operations in India and plans to hire an initial 20-30 engineering graduates, executives said around SEMICON India 2026. The office is framed as customer support and talent access ahead of Tata Electronics\' planned 300 mm fab - not equipment manufacturing. It marks the lithography layer\'s first onshore footprint, even as the tools themselves stay imported.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'In statements reported on 20 September 2026, ASML confirmed it has begun operations in India and intends to hire an initial cohort of 20-30 engineering graduates. Executives linked the move to customer support for the emerging Indian fab base, particularly Tata Electronics\' planned 300 mm facility at 50,000 wafer starts per month, and to access to local engineering talent. Company comments reiterated that manufacturing of lithography equipment in India is not currently planned; the near-term focus is support, talent and supply-chain readiness.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'No advanced semiconductor fab operates without ASML lithography tools. Physical presence by the sole high-end lithography supplier is a prerequisite for any serious Indian advanced-node or high-volume 300 mm roadmap. The office and initial hiring mark the transition from remote support to an onshore footprint, even if manufacturing remains offshore.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'India\'s semiconductor exposure is sharpest at the equipment layer, and sharpest of all at lithography. ASML\'s India operations do not localise tool production, but they reduce the friction of installation, ramp and sustained support for any fab that uses its systems. The residual dependency remains the tools themselves; the systems advance is that the support and talent layer for those tools is now being built inside India.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Growth of the India headcount and scope of work - support only versus deeper engineering or supplier development.', 'Whether additional global equipment majors follow with comparable onshore operational footprints.', 'Any shift in ASML\'s stated position on eventual manufacturing or deeper supply-chain localisation in India.']
+}],
+  takeaways: ['ASML has started operations in India and plans to hire an initial 20-30 engineering graduates, according to company executives speaking around SEMICON India 2026.', 'ASML\'s presence has historically been limited to countries that produce semiconductors; the India office is framed as customer support and talent access ahead of Tata Electronics\' 300 mm fab.', 'Tata Electronics is cited as the first Indian customer, with a planned 300 mm fab at 50,000 wafer starts per month capacity.', 'Company statements indicate no current plan to manufacture equipment in India; the priority is supply-chain and support capability - the lithography tools themselves remain imported.'],
+  sources: ['Business Standard / PTI (20 Sep 2026): https://www.business-standard.com/technology/tech-news/asml-begins-india-operations-plans-to-hire-young-engineering-graduates-126092000591_1.html', 'OrissaPOST (20 Sep 2026): https://www.orissapost.com/asml-begins-india-operations-links-scaling-up-plan-with-success-of-tata-electronics-govt-ambition/', 'Moneycontrol (20 Sep 2026): https://www.moneycontrol.com/news/india/semicon-india-2026-draws-global-chipmakers-as-companies-eye-expansion-in-india-14033810.html']
+}, {
+  slug: 'coal-india-critical-minerals-advanced-materials-platform-2026',
+  no: 'S-117',
+  title: 'Coal India Puts Critical Minerals and Advanced Materials on Its Diversification Map',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-09-21',
+  dateLabel: '21 Sep 2026',
+  status: 'live',
+  excerpt: 'An official Ministry of Coal release dated 20 September 2026 organises Coal India\'s diversification around five platforms - coal gasification and coal-to-chemicals, thermal power, renewables and storage, critical minerals and advanced materials, and diversified minerals including iron ore - formally elevating critical minerals and advanced materials to a named business platform. It follows CIL\'s overseas critical-mineral push (Signal S-072) and signals that domestic industrial capacity, not only resource rights, is entering the frame.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'An official Ministry of Coal release dated 20 September 2026 states that Coal India Limited is building a diversified, technology-driven portfolio organised around five platforms: coal gasification and coal-to-chemicals; thermal power; renewable energy and storage; critical minerals and advanced materials; and diversified minerals including iron ore. The release quantifies existing commitments, including roughly Rs 69,346 crore across four coal-to-chemicals projects, a 2x800 MW ultra-supercritical expansion at Chandrapura, approximately 550 MW of commissioned solar capacity, and grid-scale battery energy storage initiatives.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India\'s critical-minerals and advanced-materials strategy has so far relied heavily on auctions, exploration and overseas offtake. A large public-sector mining major formally elevating critical minerals and advanced materials to a named business platform is a structural signal that domestic industrial capacity, not only resource rights, is entering the frame.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'Critical minerals and specialty materials sit upstream of both the energy transition and the semiconductor and defence-electronics stacks. Coal India\'s entry does not yet equal operating mines, separation plants or magnet and chemical capacity. It does, however, place one of India\'s largest mining balance sheets and project-execution machines against the midstream and downstream gaps that auctions alone cannot close. The test is conversion from platform statement to actual mineral and materials projects.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Concrete project announcements under the critical minerals and advanced materials platform - locations, minerals, processing steps, timelines.', 'Whether CIL partners with or competes against existing critical-minerals players on separation, refining and downstream materials.', 'Linkage, if any, between CIL\'s materials ambitions and the semiconductor materials and gases commitments made at SEMICON India 2026.']
+}],
+  takeaways: ['An official Ministry of Coal release dated 20 September 2026 states that Coal India is expanding beyond coal mining into a technology-led portfolio organised around five platforms.', 'The five platforms are coal gasification and coal-to-chemicals; thermal power; renewable energy and storage; critical minerals and advanced materials; and diversified minerals including iron ore.', 'Cited existing scale includes roughly Rs 69,346 crore across four coal-to-chemicals initiatives, a 2x800 MW Chandrapura expansion, about 550 MW of commissioned solar, and grid-scale battery storage.', 'Elevating critical minerals and advanced materials to a named platform builds on CIL\'s earlier overseas critical-mineral vehicle (Signal S-072) and points to domestic capacity, not only resource rights.'],
+  sources: ['Press Information Bureau, Ministry of Coal (20 Sep 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2312633', 'OpenGov Asia (20 Sep 2026): https://opengovasia.com/coal-india-expands-technology-led-diversification-across-energy-and-minerals/', 'Punjab Kesari (20 Sep 2026): https://english.punjabkesari.com/india/coal-india-diversifying-across-coal-gasification-renewables-critical-minerals']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
