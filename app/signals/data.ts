@@ -4251,6 +4251,80 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['An official Ministry of Coal release dated 20 September 2026 states that Coal India is expanding beyond coal mining into a technology-led portfolio organised around five platforms.', 'The five platforms are coal gasification and coal-to-chemicals; thermal power; renewable energy and storage; critical minerals and advanced materials; and diversified minerals including iron ore.', 'Cited existing scale includes roughly Rs 69,346 crore across four coal-to-chemicals initiatives, a 2x800 MW Chandrapura expansion, about 550 MW of commissioned solar, and grid-scale battery storage.', 'Elevating critical minerals and advanced materials to a named platform builds on CIL\'s earlier overseas critical-mineral vehicle (Signal S-072) and points to domestic capacity, not only resource rights.'],
   sources: ['Press Information Bureau, Ministry of Coal (20 Sep 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2312633', 'OpenGov Asia (20 Sep 2026): https://opengovasia.com/coal-india-expands-technology-led-diversification-across-energy-and-minerals/', 'Punjab Kesari (20 Sep 2026): https://english.punjabkesari.com/india/coal-india-diversifying-across-coal-gasification-renewables-critical-minerals']
+}, {
+  slug: 'mod-586-crore-apu-t72-t90-make-ii-2026',
+  no: 'S-118',
+  title: 'The Engine Is Not the Only Test: Indigenous APUs Move onto India\'s Tank Fleet',
+  domain: 'Defence & Dual-Use',
+  date: '2026-09-22',
+  dateLabel: '22 Sep 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Defence signed a Rs 586 crore Make-II contract on 21 September 2026 with Accurate Industrial Controls for indigenous Auxiliary Power Units on T-72 and T-90 tanks - the alternate onboard power source for the fire-control system, firing circuit and gun stabilisation. It is a subsystem-level indigenisation move, not a platform headline; the test is delivery at fleet scale.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 21 September 2026 the Ministry of Defence signed a Rs 586 crore contract with Accurate Industrial Controls Private Limited for Auxiliary Power Units for the Indian Army\'s T-72 and T-90 tanks. Official text states the APU supplies electric power to the fire-control system, firing circuit, gun-stabilisation system and other ancillaries, and frames the deal as Make-II industry-led development converting indigenous innovation into production and induction. The contract was signed in New Delhi in the presence of the Defence Secretary.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Armoured-platform headlines usually attach to engines, guns or new tanks. Auxiliary power is the quieter constraint: without a reliable onboard source for fire control and stabilisation, a tank cannot fight with the main engine off or sustain its electronics under load. A contracted indigenous APU is a subsystem-level move, not a platform announcement - and the subsystem layer is where import dependency tends to persist.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'India\'s tank fleet still carries imported or licensed subsystems at several high-value layers. Make-II is designed to convert private-sector design into repeatable production. The test is not the contract signature; it is whether Accurate Industrial Controls can deliver qualified units at fleet scale, with a supplier base that can support overhaul and mid-life upgrades without reverting to imported APUs.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Delivery schedule and first-unit induction into T-72 and T-90 formations.', 'Whether the same vendor or other Indian firms win follow-on APU or related electrical-subsystem work for other armoured platforms.', 'After-sales support depth: spares, overhaul and field-repair capability inside India.']
+}],
+  takeaways: ['The Ministry of Defence signed a Rs 586 crore contract on 21 September 2026 with Accurate Industrial Controls to procure Auxiliary Power Units for T-72 and T-90 tanks.', 'The APU is an alternate source of electric power for the fire-control system, firing circuit, gun-stabilisation system and other tank ancillaries.', 'The Ministry described the procurement as industry-led R&D under Make-II and a step toward indigenising critical sub-systems of armoured platforms.', 'The signal is subsystem-level, not a platform announcement; the real test is qualified delivery at fleet scale with indigenous overhaul and spares support.'],
+  sources: ['Press Information Bureau, Ministry of Defence (21 Sep 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2313016', 'India.com (21 Sep 2026): https://www.india.com/news/india/big-boost-for-indian-army-as-defence-ministry-inks-rs-586-crore-deal-to-buy-auxiliary-power-units-for-t-72-t-90-tanks-8528487/', 'Indian Masterminds (21 Sep 2026): https://indianmasterminds.com/news/t72-t90-tank-apus-586-crore-mod-contract-235371/']
+}, {
+  slug: 'india-new-zealand-fta-enters-force-october-2026',
+  no: 'S-119',
+  title: 'India-New Zealand FTA Is Ratified - Market Access Is Not a Supply Chain',
+  domain: 'Industrial Corridors',
+  date: '2026-09-22',
+  dateLabel: '22 Sep 2026',
+  status: 'live',
+  excerpt: 'India and New Zealand completed ratification of their Free Trade Agreement on 21 September 2026, with entry into force set for 20 October 2026. From that date 100% of India\'s exports to New Zealand become duty-free, removing peak New Zealand tariffs of up to 10% on textiles, leather, footwear, gems and jewellery, engineering goods and processed foods. Tariff elimination is a market-access event - not, by itself, an industrial-capability one.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'India and New Zealand completed ratification of their Free Trade Agreement on 21 September 2026, clearing the way for entry into force on 20 October 2026 - a date the Commerce Minister framed as coinciding with Vijayadashami. The agreement was signed in New Delhi on 27 April 2026. Official Indian readout states that from the entry-into-force date every tariff line covering 100% of India\'s exports to New Zealand becomes duty-free, removing peak New Zealand tariffs of up to 10% on textiles and apparel, leather and footwear, gems and jewellery, engineering goods and processed foods.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Tariff elimination is a market-access event, not an industrial-capability event. For Indian engineering goods and processed manufactures it lowers the price barrier into a small, high-income market. It does not by itself move production, supplier depth or technology control inside India.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'FTAs change the commercial geography of existing products; they do not build the layers those products depend on. The systems question after ratification is whether Indian firms use the duty-free window to scale exportable engineering and processed-goods capacity, or whether the agreement remains a tariff schedule without a corresponding industrial response. Market access is necessary; it is not a substitute for the supplier, logistics and quality-certification stack that actually fills that access.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether engineering-goods and processed-food exporters convert the duty-free window into measurable shipment growth after 20 October.', 'Any follow-on investment or standards-recognition arrangements that would deepen the industrial, not only the tariff, relationship.', 'Use of the agreement by MSMEs versus concentration among existing large exporters.']
+}],
+  takeaways: ['The Ministry of Commerce and Industry confirmed on 21 September 2026 that the India-New Zealand FTA will enter into force on 20 October 2026, after both sides completed ratification.', 'From entry into force, 100% of India\'s exports to New Zealand become duty-free, eliminating New Zealand peak tariffs of up to 10% on textiles, leather, footwear, gems and jewellery, engineering goods and processed foods.', 'The agreement was signed in New Delhi on 27 April 2026; the 20 October start coincides with Vijayadashami.', 'Tariff elimination is market access, not industrial capability - the open question is whether Indian firms scale exportable capacity to fill the duty-free window.'],
+  sources: ['Press Information Bureau, Ministry of Commerce and Industry (21 Sep 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2313143', 'The Tribune (21 Sep 2026): https://www.tribuneindia.com/news/bilateral-trade/india-new-zealand-fta-to-come-into-force-on-dussehra-october-20-100-indian-exports-to-get-duty-free-access-piyush-goyal', 'Republic World (21 Sep 2026): https://www.republicworld.com/business/india-new-zealand-fta-to-kick-in-on-october-20-secures-duty-free-access-for-all-indian-exports-2026-09-21-137414']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
