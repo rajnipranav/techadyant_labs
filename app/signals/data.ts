@@ -4325,6 +4325,80 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The Ministry of Commerce and Industry confirmed on 21 September 2026 that the India-New Zealand FTA will enter into force on 20 October 2026, after both sides completed ratification.', 'From entry into force, 100% of India\'s exports to New Zealand become duty-free, eliminating New Zealand peak tariffs of up to 10% on textiles, leather, footwear, gems and jewellery, engineering goods and processed foods.', 'The agreement was signed in New Delhi on 27 April 2026; the 20 October start coincides with Vijayadashami.', 'Tariff elimination is market access, not industrial capability - the open question is whether Indian firms scale exportable capacity to fill the duty-free window.'],
   sources: ['Press Information Bureau, Ministry of Commerce and Industry (21 Sep 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2313143', 'The Tribune (21 Sep 2026): https://www.tribuneindia.com/news/bilateral-trade/india-new-zealand-fta-to-come-into-force-on-dussehra-october-20-100-indian-exports-to-get-duty-free-access-piyush-goyal', 'Republic World (21 Sep 2026): https://www.republicworld.com/business/india-new-zealand-fta-to-kick-in-on-october-20-secures-duty-free-access-for-all-indian-exports-2026-09-21-137414']
+}, {
+  slug: 'critical-minerals-recycling-concept-paper-secondary-supply-2026',
+  no: 'S-120',
+  title: 'Critical Minerals Move from Mines to the Bin - India Opens the Secondary Supply Layer',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-09-23',
+  dateLabel: '23 Sep 2026',
+  status: 'live',
+  excerpt: 'On 21 September 2026 the Ministry of Mines launched a Concept Paper on the Critical Mineral Recycling Ecosystem, positioning secondary recovery from e-waste, industrial waste and end-of-life products as a complement to primary mining and overseas offtake. It moves India\'s critical-minerals policy to the secondary supply layer - the only one that can cut import dependence without waiting for new mines to reach production.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'The Ministry of Mines inaugurated a national seminar on India\'s Critical Minerals Recycling Ecosystem and Circular Economy on 21 September 2026, co-organised with the Materials Recycling Association of India, and launched a Concept Paper on the Critical Mineral Recycling Ecosystem. Union Minister G. Kishan Reddy framed recycling as strategic for clean energy, defence preparedness, the digital economy and advanced manufacturing, and said the Centre plans inter-ministerial talks and is preparing incentives for the sector. Technical sessions covered lithium-ion battery metal recovery, black-mass processing, non-ferrous metals recycling and drawing e-waste collection into the formal system.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India\'s critical-minerals strategy has so far concentrated on auctions, exploration and foreign mineral assets. A formal concept paper on recycling moves the policy frame to the secondary supply layer - the only layer that can reduce import dependence without waiting for new mines to reach production.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'Primary extraction and overseas offtake do not close the midstream gap if India still exports black mass and imports refined metals and magnet alloys. Recycling capacity is the domestic valve on that loop. The concept paper is a policy instrument, not yet a plant; its value will be measured by whether collection systems, formal recyclers and recovery technologies scale into qualified secondary feed for battery, magnet and electronics supply chains.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Conversion of the concept paper into time-bound targets, collection mandates and investment incentives for formal recyclers.', 'Domestic capacity for lithium-ion black-mass processing versus continued export of unprocessed black mass.', 'Whether semiconductor and battery-materials firms begin to specify secondary-sourced feedstock in domestic contracts.']
+}],
+  takeaways: ['On 21 September 2026 the Ministry of Mines launched a Concept Paper on the Critical Mineral Recycling Ecosystem at a national seminar in New Delhi co-organised with the Materials Recycling Association of India.', 'Union Minister G. Kishan Reddy framed recycling as strategic for clean energy, defence preparedness, the digital economy and advanced manufacturing, and flagged planned inter-ministerial talks and incentives.', 'The paper focuses on resource efficiency and recovery from secondary sources - e-waste, industrial and end-of-life materials - toward a circular, self-reliant ecosystem.', 'It is a policy instrument, not yet capacity; the test is whether collection, formal recyclers and black-mass processing scale into qualified secondary feedstock.'],
+  sources: ['Press Information Bureau, Ministry of Mines (21 Sep 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2313165', 'ANI (21 Sep 2026): https://www.aninews.in/news/business/centre-plans-inter-ministerial-talks-to-tackle-critical-minerals-recycling-issues-g-kishan-reddy20260921163014/', 'The Tribune (21 Sep 2026): https://www.tribuneindia.com/news/business/centre-plans-inter-ministerial-talks-to-tackle-critical-minerals-recycling-issues-g-kishan-reddy']
+}, {
+  slug: 'gwalior-telecom-manufacturing-zone-third-roundtable-2026',
+  no: 'S-121',
+  title: 'Gwalior Telecom Manufacturing Zone Draws a Third Investors\' Roundtable',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-09-23',
+  dateLabel: '23 Sep 2026',
+  status: 'live',
+  excerpt: 'The Department of Telecommunications held its third Investors\' Roundtable in Bengaluru on 22 September 2026 for the Gwalior Telecom Manufacturing Zone - India\'s first integrated TMZ - with 24 companies now proposing Rs 5,500 crore and a further Rs 700-800 crore of interest recorded. The zone spans design, components, semiconductors, optical fibre and equipment; the structural test is whether it draws component and process plants, not only final-assembly lines.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'The Department of Telecommunications organised its third Investors\' Roundtable for the Gwalior Telecom Manufacturing Zone in Bengaluru on 22 September 2026, co-chaired by Union Communications Minister Jyotiraditya Scindia and Madhya Pradesh Chief Minister Mohan Yadav. Official statements place cumulative industry proposals at Rs 5,500 crore with 24 companies already on board, and record further interest of Rs 700-800 crore from the Bengaluru session subject to internal clearances and site evaluation. The zone is described as India\'s first integrated TMZ spanning design, R&D, testing, components, semiconductors, optical fibre and finished telecom equipment.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Telecom manufacturing in India has remained heavily assembly-oriented and import-dependent at the component and semiconductor layers. An integrated zone that explicitly includes components, semiconductors and testing infrastructure is an attempt to move the dependency frontier upstream of final equipment assembly.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'A manufacturing zone is only as strong as the component and process layers that sit inside it. Cumulative commitment figures do not equal operating capacity. The structural test is whether the Gwalior TMZ attracts actual component, optical and semiconductor-adjacent plants - not only final-assembly lines - and whether those plants qualify into domestic telecom and defence supply chains.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Conversion of the Rs 5,500 crore proposal pool and additional Bengaluru interest into signed land allotments and construction starts.', 'Share of commitments that land in components, semiconductors and testing versus final equipment assembly.', 'Linkage, if any, between the TMZ and the materials, gases and design commitments made under Semicon 2.0.']
+}],
+  takeaways: ['On 22 September 2026 the Department of Telecommunications held its third Investors\' Roundtable in Bengaluru for the Gwalior Telecom Manufacturing Zone, India\'s first integrated TMZ, co-chaired by Jyotiraditya Scindia and CM Mohan Yadav.', 'Official readout states 24 companies are on board proposing Rs 5,500 crore, with a further Rs 700-800 crore of interest recorded at the Bengaluru session pending clearances and site visits.', 'The zone is framed as an integrated ecosystem covering design, R&D, testing, components, semiconductors, optical fibre and telecom equipment.', 'The structural test is whether it draws component, optical and semiconductor-adjacent plants that qualify into domestic supply chains - not only final-assembly lines.'],
+  sources: ['Press Information Bureau, Ministry of Communications (22 Sep 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313673', 'StratNews Global (22 Sep 2026): https://stratnewsglobal.com/technology/telecom-manufacturing-zone-draws-%E2%82%B95500-crore-interest/', 'Communications Today (22 Sep 2026): https://www.communicationstoday.co.in/24-firms-on-board-propose-to-invest-%E2%82%B95500cr-in-gwalior-tmz/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
