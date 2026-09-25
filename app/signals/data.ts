@@ -4399,6 +4399,43 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['On 22 September 2026 the Department of Telecommunications held its third Investors\' Roundtable in Bengaluru for the Gwalior Telecom Manufacturing Zone, India\'s first integrated TMZ, co-chaired by Jyotiraditya Scindia and CM Mohan Yadav.', 'Official readout states 24 companies are on board proposing Rs 5,500 crore, with a further Rs 700-800 crore of interest recorded at the Bengaluru session pending clearances and site visits.', 'The zone is framed as an integrated ecosystem covering design, R&D, testing, components, semiconductors, optical fibre and telecom equipment.', 'The structural test is whether it draws component, optical and semiconductor-adjacent plants that qualify into domestic supply chains - not only final-assembly lines.'],
   sources: ['Press Information Bureau, Ministry of Communications (22 Sep 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313673', 'StratNews Global (22 Sep 2026): https://stratnewsglobal.com/technology/telecom-manufacturing-zone-draws-%E2%82%B95500-crore-interest/', 'Communications Today (22 Sep 2026): https://www.communicationstoday.co.in/24-firms-on-board-propose-to-invest-%E2%82%B95500cr-in-gwalior-tmz/']
+}, {
+  slug: 'mod-811-crore-bdl-sat-saaw-iaf-iddm-2026',
+  no: 'S-122',
+  title: 'From Design to Production: SAT-SAAW Moves onto the IAF Order Book',
+  domain: 'Defence & Dual-Use',
+  date: '2026-09-24',
+  dateLabel: '24 Sep 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Defence signed a Rs 810.79 crore contract on 23 September 2026 with Bharat Dynamics for 160 DRDO-designed SAT-SAAW precision glide bombs for the IAF, under the Buy (Indian-IDDM) category at 60% indigenous content. It converts a DRDO design into a repeatable production order - a harder signal than a demonstrator or an import buy; the residual exposure sits in the remaining 40% and three subsystems still being localised.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 23 September 2026 the Ministry of Defence signed a Rs 810.79 crore contract with Bharat Dynamics Limited for 160 Satellite Smart Anti-Airfield Weapons and associated equipment for the Indian Air Force, under the Buy (Indian - Indigenously Designed, Developed and Manufactured) category. Official text describes SAT-SAAW as a DRDO-designed precision-guided glide bomb for stand-off engagement of airfields, launchable from Jaguar, Hawk and Su-30 MKI platforms, with 60% indigenous content and named subsystem indigenisation targets. Deliveries are scheduled between 2027-28 and 2028-29.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Precision stand-off munitions are a capability layer, not a platform. A production contract under IDDM converts a DRDO design into a repeatable industrial order with explicit local-content and subsystem targets. That is a harder signal than a technology demonstration or an import order.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'The residual exposure sits in the 40% that remains non-indigenous and in the three named subsystems still being localised - the Initial Measurement Unit, the Long Impact Delay Fuse and the Twin Store Carrier. A contract does not equal sustained production capacity. The systems test is whether BDL and its supplier chain can deliver qualified units on schedule, hold the 60% content floor, and absorb IMU, fuse and carrier work without reverting to imported kits for rate production.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['First delivery lot in 2027-28 and any schedule slip against the two-year window.', 'Achievement of the stated 60% indigenous content and progress on IMU, Long Impact Delay Fuse and Twin Store Carrier localisation.', 'Whether follow-on quantities or additional platforms are contracted once the initial 160 units are in service.']
+}],
+  takeaways: ['The Ministry of Defence signed a Rs 810.79 crore contract on 23 September 2026 with Bharat Dynamics Limited for 160 Satellite Smart Anti-Airfield Weapons for the Indian Air Force, under the Buy (Indian-IDDM) category.', 'SAT-SAAW is a DRDO-designed air-to-ground precision-guided glide bomb launchable from Jaguar, Hawk and Su-30 MKI to neutralise airfields from stand-off range.', 'The system is specified at 60% indigenous content, with further indigenisation of the Initial Measurement Unit, Long Impact Delay Fuse and Twin Store Carrier; deliveries run across 2027-28 and 2028-29.', 'It converts a DRDO design into a repeatable production order; the residual exposure sits in the remaining 40% and the three subsystems still being localised.'],
+  sources: ['Press Information Bureau, Ministry of Defence (23 Sep 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2313942', 'ANI (23 Sep 2026): https://www.aninews.in/news/national/general-news/defence-ministry-signs-rs-811-crore-contract-with-bdl-for-160-satellite-smart-anti-airfield-weapons-for-iaf20260923171022/', 'Asian Mirror (23 Sep 2026): https://www.asianmirror.us/india-bdl-160-satellite-saaw-weapons/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
