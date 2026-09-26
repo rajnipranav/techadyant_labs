@@ -4436,6 +4436,80 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The Ministry of Defence signed a Rs 810.79 crore contract on 23 September 2026 with Bharat Dynamics Limited for 160 Satellite Smart Anti-Airfield Weapons for the Indian Air Force, under the Buy (Indian-IDDM) category.', 'SAT-SAAW is a DRDO-designed air-to-ground precision-guided glide bomb launchable from Jaguar, Hawk and Su-30 MKI to neutralise airfields from stand-off range.', 'The system is specified at 60% indigenous content, with further indigenisation of the Initial Measurement Unit, Long Impact Delay Fuse and Twin Store Carrier; deliveries run across 2027-28 and 2028-29.', 'It converts a DRDO design into a repeatable production order; the residual exposure sits in the remaining 40% and the three subsystems still being localised.'],
   sources: ['Press Information Bureau, Ministry of Defence (23 Sep 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2313942', 'ANI (23 Sep 2026): https://www.aninews.in/news/national/general-news/defence-ministry-signs-rs-811-crore-contract-with-bdl-for-160-satellite-smart-anti-airfield-weapons-for-iaf20260923171022/', 'Asian Mirror (23 Sep 2026): https://www.asianmirror.us/india-bdl-160-satellite-saaw-weapons/']
+}, {
+  slug: 'drdo-zero-mk-20mk-dilution-refrigerator-tdf-2026',
+  no: 'S-123',
+  title: 'Quantum Infrastructure Moves In-Country: First High-Value TDF Deal for a 20 mK Dilution Refrigerator',
+  domain: 'Strategic Technology',
+  date: '2026-09-25',
+  dateLabel: '25 Sep 2026',
+  status: 'live',
+  excerpt: 'On 24 September 2026 DRDO signed its first high-value deep-tech agreement under the Technology Development Fund - with start-up Zero mK India - for indigenous development of a 20 mK dilution refrigerator, the ultra-low-temperature infrastructure that quantum computing platforms cannot run without. It is the first high-value project under the Rs 500 crore TDF deep-tech corpus, and it targets a classic import-dependent chokepoint - though an agreement is not yet a working refrigerator.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Under the Technology Development Fund scheme, DRDO signed an agreement on 24 September 2026 with Zero mK India Private Limited (Alwar, Rajasthan) for collaborative indigenous development of a 20 mK dilution refrigerator for quantum applications. Official text states this is the first high-value agreement under the Rs 500 crore deep-tech corpus approved by the Defence Minister. Dilution refrigerators are described as specialised cryogenic systems that reach millikelvin temperatures essential for the operation and testing of several quantum computing platforms.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Quantum hardware does not run without ultra-low-temperature infrastructure. Dilution refrigerators are a classic import-dependent chokepoint. A first high-value TDF contract with a start-up converts policy intent on quantum readiness into a concrete industrial development task with a named Indian counterparty.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'An agreement is not a working refrigerator. The residual dependency remains the full cryogenic stack - compressors, heat exchangers, sensors, control electronics and a qualified supply chain - until a domestic unit reaches demonstrated performance and can be produced beyond a single prototype. The systems test is whether Zero mK and its mentors at the Solid State Physics Laboratory can close that stack without continuous reliance on imported core components.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Technical milestones toward a demonstrated 20 mK system and any public performance data.', 'Whether follow-on TDF or National Quantum Mission funding expands to related cryogenic subsystems and series production.', 'Use of the eventual unit by defence, academic and commercial quantum groups inside India versus continued import of dilution refrigerators.']
+}],
+  takeaways: ['On 24 September 2026 DRDO signed its first high-value deep-tech project agreement under the Technology Development Fund with start-up Zero mK India for indigenous development of a 20 mK dilution refrigerator for quantum applications.', 'It is the first high-value project under the Rs 500 crore TDF corpus approved by the Defence Minister for deep-tech and cutting-edge work.', 'Dilution refrigerators provide the millikelvin temperatures required to operate and test several quantum computing platforms - a classic import-dependent chokepoint.', 'An agreement is not a working refrigerator; the test is closing the full cryogenic stack without continued reliance on imported core components.'],
+  sources: ['Press Information Bureau, Ministry of Defence (24 Sep 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2314536', 'BharatShakti (24 Sep 2026): https://bharatshakti.in/drdo-backs-indigenous-20-mk-cryogenic-system-boosting-indias-quantum-ambitions/', 'The News Mill (24 Sep 2026): https://thenewsmill.com/2026/09/drdo-signs-first-high-value-quantum-tech-project-with-zero-mk-india/']
+}, {
+  slug: 'kal-indigenous-long-range-attack-drone-pokhran-trial-2026',
+  no: 'S-124',
+  title: 'India Tests Its First Indigenous Long-Range Attack Drone - Capability Shown, Not Yet Fielded',
+  domain: 'Defence & Dual-Use',
+  date: '2026-09-25',
+  dateLabel: '25 Sep 2026',
+  status: 'live',
+  excerpt: 'Private firm IG Defence completed trials at Pokhran of the KAL, reported as India\'s first indigenous long-range one-way ("kamikaze") attack drone, with a strike range put at up to 1,000 km. It moves India\'s long-range loitering-munition ambition from RFIs and orders (Signals S-049, S-053) toward a demonstrated home-grown system - though a successful trial is a capability milestone, not a fielded, series-produced weapon.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'In trials reported around 20-21 September 2026, Indian firm IG Defence tested the KAL at the Pokhran range, described in reporting as India\'s first indigenous long-range one-way (kamikaze) attack drone, with a strike range put at up to 1,000 km. The system is a private-sector development aimed at long-endurance stand-off strike, and follows a series of Indian moves in the loitering-munition space.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Long-range one-way attack drones have been a visible capability gap. India has issued requirements - including a Navy RFI for ship-launched 1,000 km-range loitering munitions (Signal S-049) - and placed orders for one-way attack drones (Signal S-053). A demonstrated indigenous 1,000 km-class system is a different order of signal: capability shown, not only specified or procured.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'The strategic value sits in indigenous propulsion, navigation, guidance and airframe integration for long-range strike - the layers that decide whether India fields a sovereign capability or assembles around imported subsystems. A trial is not series production. The systems test is independent confirmation of range and payload, qualification and ordering by the armed forces, and whether the propulsion and guidance stack is genuinely home-grown rather than reliant on imported engines or seekers.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Independent or official confirmation of the KAL\'s range, payload and guidance performance.', 'Any armed-forces trial, qualification or order following the developer\'s own test.', 'Indigenous content of the propulsion and navigation-guidance stack versus imported subsystems.']
+}],
+  takeaways: ['IG Defence completed trials at Pokhran of the KAL, reported as India\'s first indigenous long-range one-way (kamikaze) attack drone, with a strike range put at up to 1,000 km.', 'It moves India\'s long-range loitering-munition effort from requirements and orders (Signals S-049, S-053) toward a demonstrated indigenous system.', 'A developer trial is a capability milestone, not a fielded, series-produced weapon; armed-forces qualification and orders are the next test.', 'The strategic question is whether propulsion, navigation and guidance are genuinely indigenous rather than assembled around imported subsystems.'],
+  sources: ['Business Standard (20 Sep 2026): https://www.business-standard.com/external-affairs-defence-security/news/india-s-first-indigenous-long-range-attack-drone-kal-tested-at-pokhran-126092000902_1.html', 'India TV News (21 Sep 2026): https://www.indiatvnews.com/news/india/india-made-long-range-attack-drone-kal-completes-pokhran-trial-boasts-strike-range-of-up-to-1000-km-latest-updates-2026-09-21-1054789', 'Deccan Herald (23 Sep 2026): https://www.deccanherald.com/india/at-pokhran-india-takes-a-1000-km-leap-into-the-new-age-of-drone-warfare-4154733']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
