@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "drafted": "2026-09-27",
+    "purpose": "Draft Atlas entity records for high-search-demand aerospace/defence R&D bodies (CEMILAC, GTRE, NAL, Aequs) that currently have NO dedicated page — only report/signal mentions. Adding them to _defence.json auto-generates a titled page each, the same way Matangi (the one entity ranking well, pos 5.9) already works.",
+    "how_to_merge": "Append the objects in `entities`, `relationships` and `sources` into the matching top-level arrays of _defence.json. Do NOT copy the `_*` keys. Bump _defence.json `as_of`. Then npm run build.",
+    "VERIFY_BEFORE_PUBLISH": "Facts below are grounded but must be confirmed against primary sources and given [V]/[U] labels + exact source URLs per Techadyant standard. Flagged items are in `_verify`."
+  },
+
+  "entities": [
+    { "id": "org-cemilac", "name": "Centre for Military Airworthiness and Certification (CEMILAC)", "type": "research_institution", "service": ["air_force", "joint"], "country": "IN", "domain": ["r_and_d", "combat_aircraft", "mro"] },
+    { "id": "org-gtre", "name": "Gas Turbine Research Establishment (GTRE)", "type": "research_institution", "service": ["air_force", "joint"], "country": "IN", "domain": ["r_and_d", "propulsion"] },
+    { "id": "org-csir", "name": "Council of Scientific and Industrial Research (CSIR)", "type": "research_institution", "service": ["joint"], "country": "IN", "domain": ["r_and_d"] },
+    { "id": "org-nal", "name": "CSIR-National Aerospace Laboratories (NAL)", "type": "research_institution", "service": ["air_force", "joint"], "country": "IN", "domain": ["r_and_d", "transport", "combat_aircraft"] },
+    { "id": "org-aequs", "name": "Aequs", "type": "company", "service": ["air_force", "joint"], "country": "IN", "domain": ["propulsion", "mro"] }
+  ],
+
+  "relationships": [
+    { "source": "org-cemilac", "type": "member_of", "target": "org-drdo", "service": ["joint"], "source_refs": ["src-cemilac"] },
+    { "source": "org-cemilac", "type": "certifies", "target": "air-tejas-mk1a", "service": ["air_force"], "source_refs": ["src-cemilac"] },
+    { "source": "org-gtre", "type": "member_of", "target": "org-drdo", "service": ["joint"], "source_refs": ["src-gtre"] },
+    { "source": "org-gtre", "type": "develops_or_supplies", "target": "tech-jet-engines", "service": ["air_force", "joint"], "source_refs": ["src-gtre"] },
+    { "source": "org-gtre", "type": "engine_pathway", "target": "air-amca", "service": ["air_force"], "source_refs": ["src-gtre"] },
+    { "source": "org-nal", "type": "member_of", "target": "org-csir", "service": ["joint"], "source_refs": ["src-nal"] },
+    { "source": "org-nal", "type": "research_partner", "target": "air-amca", "service": ["air_force"], "source_refs": ["src-nal"] }
+  ],
+
+  "sources": [
+    { "id": "src-cemilac", "title": "CEMILAC — Centre for Military Airworthiness and Certification (DRDO)", "date": "2026-09-27", "url": "https://www.drdo.gov.in/", "scope": "organisation_profile" },
+    { "id": "src-gtre", "title": "GTRE — Gas Turbine Research Establishment (DRDO)", "date": "2026-09-27", "url": "https://www.drdo.gov.in/", "scope": "organisation_profile" },
+    { "id": "src-nal", "title": "CSIR-National Aerospace Laboratories", "date": "2026-09-27", "url": "https://www.nal.res.in/", "scope": "organisation_profile" },
+    { "id": "src-csir", "title": "Council of Scientific and Industrial Research (CSIR)", "date": "2026-09-27", "url": "https://www.csir.res.in/", "scope": "organisation_profile" },
+    { "id": "src-aequs", "title": "Aequs — corporate site", "date": "2026-09-27", "url": "https://www.aequs.com/", "scope": "organisation_profile" }
+  ],
+
+  "_entity_notes": {
+    "org-cemilac": "DRDO laboratory, Bengaluru. India's designated military-airworthiness certification authority: type-certifies military aircraft, aero-engines and airborne stores; runs the Regional Centres for Military Airworthiness (RCMAs) co-located with HAL/DRDO/production agencies; works alongside DGAQA (quality assurance). Certified LCA Tejas and numerous airborne systems. Roots in DTD&P(Air) 1955; CEMILAC constituted 1994. Search demand: 152 impressions, avg pos 14 (page 2).",
+    "org-gtre": "DRDO laboratory, Bengaluru. India's lead lab for military gas-turbine aero-engine R&D. Developed the Kaveri (GTX-35VS) engine, which fell short of thrust/weight targets and was decoupled from LCA Tejas in 2008; now advancing the 'Dry Kaveri' (~46-49 kN) for the Ghatak UCAV and feeding engine technology toward AMCA (whose ~110 kN engine is pursued via foreign co-development). Search demand: 64 impressions, avg pos 10.7.",
+    "org-csir": "Parent body of NAL — included so NAL's member_of edge does not dangle. India's largest civilian R&D organisation. Add a member_of edge to a Ministry of Science & Technology entity only if one exists in the graph.",
+    "org-nal": "CSIR-National Aerospace Laboratories, Bengaluru — India's principal CIVILIAN aerospace R&D lab (NOTE: under CSIR, not DRDO). Programmes: SARAS light transport aircraft, HANSA-3/NG trainer, aerospace composites and structures, national wind-tunnel facilities (incl. trisonic/NTAF), and contributions to national aero programmes including AMCA structures. Established 1959. Search demand: 75 impressions ('national aerospace laboratories'), avg pos 32.",
+    "org-aequs": "PRIVATE aerospace precision-manufacturing group, Belagavi (Belgaum), Karnataka. Operates India's aerospace SEZ; precision machining, forging, sheet-metal and assembly for global OEMs (Airbus, Boeing, Safran, Collins). Founded 2007 (Aravind Melligeri). PLACEMENT FLAG: Aequs is predominantly CIVIL aerospace — its defence relevance is secondary. Consider whether it belongs in the defence pillar or a broader aerospace/manufacturing surface. No safe defence-graph relationship added (its customers are foreign OEMs not in the graph). Search demand: 71 impressions, avg pos 18."
+  },
+
+  "_verify": [
+    "Confirm exact DRDO deep-link URLs for CEMILAC and GTRE lab pages (used drdo.gov.in root as a safe placeholder).",
+    "Confirm the relationship type 'certifies' is acceptable, or map CEMILAC->Tejas to an existing vocabulary type; 'certifies' is new (humanize() will render it 'Certifies').",
+    "Confirm 'air-amca', 'air-tejas-mk1a', 'tech-jet-engines', 'org-drdo' are the current ids in _defence.json (verified present 2026-09-27).",
+    "Decide Aequs placement (defence vs aerospace-manufacturing surface) before publishing.",
+    "Add [V]/[U] verification labels and any specific figures (thrust classes, dates) only once traced to a primary source."
+  ]
+}
