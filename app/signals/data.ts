@@ -3413,7 +3413,7 @@ export const signals: SignalMeta[] = [{
   dateLabel: '12 Sep 2026',
   status: 'live',
   excerpt: 'India\'s counter-UAS build-out is entering a directed-energy phase. Reporting indicates the Defence Ministry is close to approving DRDO\'s upgraded Integrated Drone Detection and Interdiction System (IDDS Mark-II), with the Army and Air Force positioned to order multiple indigenous systems. Public figures describe a higher-power laser class with roughly double the hard-kill range of the earlier generation—shifting the industrial question from detection alone to production-ready DEW.',
-  readingTime: '5 min read',
+  readingTime: '5 min',
   body: [{
   text: 'The development',
   type: 'h'
@@ -3424,23 +3424,29 @@ export const signals: SignalMeta[] = [{
   text: 'Why it matters',
   type: 'h'
 }, {
-  text: 'Mass drone and loitering-munition attacks compress reaction time and exhaust magazine depth. A fielded laser layer does not replace radar, RF and guns; it changes the cost curve for repeated engagements. For the Atlas, the issue is not a single lab demo—it is whether India can produce, power, certify and sustain DEW effectors across Army and Air Force sites.',
+  text: 'Mass drone and loitering-munition attacks compress reaction time and exhaust magazine depth. A fielded laser layer does not replace radar, RF and guns; it changes the cost curve for repeated engagements. The issue is not a single lab demo - it is whether India can produce, power, certify and sustain directed-energy effectors across Army and Air Force sites.',
   type: 'p'
 }, {
   text: 'The Techadyant view',
   type: 'h'
 }, {
-  text: 'Treat Mark-II approval and order intent as a capability-path signal, not as nationwide coverage. Range, weather limits, power architecture and rules of engagement will determine operational value. Atlas Counter-UAS coverage should track production partners, indigenous content in the laser chain, and whether DEW appears in the same deployment maps as soft-kill systems already fielded.',
+  text: 'Treat Mark-II approval and order intent as a capability-path signal, not as nationwide coverage. Range, weather limits, power architecture and rules of engagement will determine operational value. The things to track are production partners, indigenous content in the laser chain, and whether directed energy appears in the same deployment maps as the soft-kill systems already fielded.',
+  type: 'p'
+}, {
+  text: 'Update: 30 kW-class DEW moves toward production (September 2026)',
+  type: 'h'
+}, {
+  text: 'On 24 September 2026, reporting indicated DRDO is advancing a 30 kW-class laser directed-energy weapon toward production and is seeking an industry partner to manufacture it, with the system described as able to neutralise drones and drone swarms at ranges of around 5 km. This is the higher-power counterpart to the roughly 10 kW IDDS Mark-II class above: it moves the directed-energy question from approval-and-order intent toward an actual production-and-industrialisation step. That makes the choice of production partner and the indigenous content of the laser chain - beam director, power and thermal management, and optics - the next thing to watch, rather than the approval language alone.',
   type: 'p'
 }, {
   text: 'What to watch',
   type: 'h'
 }, {
-  text: 'Formal MoD approval language and Acceptance of Necessity / contract notices; split of systems between Army and IAF and intended site classes (bases, airfields, critical infrastructure); production agency and private-industry role in IDDS Mark-II; user trials under realistic clutter, weather and swarm density; parallel CHESS / long-range DEW milestones versus tactical IDDS fielding.',
+  text: 'Formal MoD approval language and Acceptance of Necessity / contract notices; the split of systems between Army and IAF and intended site classes (bases, airfields, critical infrastructure); the production agency and private-industry role in IDDS Mark-II and in the 30 kW-class system; user trials under realistic clutter, weather and swarm density; and parallel CHESS / long-range DEW milestones versus tactical IDDS fielding.',
   type: 'p'
 }],
-  takeaways: ['MoD expected to approve DRDO IDDS Mark-II; Army and IAF reported poised for orders for about 16 advanced indigenous systems.', 'Mark-II associated with a ~10 kW laser class and neutralisation ranges cited around 2 km, versus ~1 km for the prior generation.', 'DRDO/CHESS directed-energy work includes higher-power demos (including vehicle-mounted systems against fixed-wing and swarm targets).', 'The industrial question shifts from detection alone to production-ready DEW.', 'Strongest next evidence: formal AoN/contract, unit quantities by service, production agency, and user acceptance of laser effectors in theatre conditions.'],
-  sources: ['IDDS Mark-II approval path; ~16 systems; 10 kW / ~2 km figures; CHESS DEW context']
+  takeaways: ['MoD expected to approve DRDO IDDS Mark-II; Army and IAF reported poised to order about 16 advanced indigenous systems.', 'Mark-II is associated with a ~10 kW laser class and neutralisation ranges cited around 2 km, versus ~1 km for the prior generation.', 'Update (24 Sep 2026): DRDO is moving a 30 kW-class laser DEW toward production and seeking an industry manufacturing partner, with a cited counter-drone range around 5 km - the production step above the ~10 kW IDDS Mark-II class.', 'The industrial question shifts from detection alone to production-ready directed-energy weapons - and now to who manufactures them and how indigenous the laser chain is.', 'Strongest next evidence: formal AoN/contract, unit quantities by service, the named production partner, and user acceptance of laser effectors in theatre conditions.'],
+  sources: ['RNA Media (12 Sep 2026): https://www.rnamedia.in/defence/india-set-to-approve-next-gen-drdo-laser-systems-as-army-iaf-plan-major-drone-defence-push/10669', 'idrw.org (24 Sep 2026): https://idrw.org/drdo-moves-ahead-with-30kw-class-laser-weapon/', 'Indian Masterminds (24 Sep 2026): https://indianmasterminds.com/news/defence/drdo-30kw-directed-energy-weapon-mass-production-partner-235699/']
 }, {
   slug: 'reliance-rolls-royce-amca-indigenous-engine-gas-turbine-complex-2026',
   no: 'S-098',
@@ -4510,6 +4516,43 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['IG Defence completed trials at Pokhran of the KAL, reported as India\'s first indigenous long-range one-way (kamikaze) attack drone, with a strike range put at up to 1,000 km.', 'It moves India\'s long-range loitering-munition effort from requirements and orders (Signals S-049, S-053) toward a demonstrated indigenous system.', 'A developer trial is a capability milestone, not a fielded, series-produced weapon; armed-forces qualification and orders are the next test.', 'The strategic question is whether propulsion, navigation and guidance are genuinely indigenous rather than assembled around imported subsystems.'],
   sources: ['Business Standard (20 Sep 2026): https://www.business-standard.com/external-affairs-defence-security/news/india-s-first-indigenous-long-range-attack-drone-kal-tested-at-pokhran-126092000902_1.html', 'India TV News (21 Sep 2026): https://www.indiatvnews.com/news/india/india-made-long-range-attack-drone-kal-completes-pokhran-trial-boasts-strike-range-of-up-to-1000-km-latest-updates-2026-09-21-1054789', 'Deccan Herald (23 Sep 2026): https://www.deccanherald.com/india/at-pokhran-india-takes-a-1000-km-leap-into-the-new-age-of-drone-warfare-4154733']
+}, {
+  slug: 'pm-e-drive-776-crore-ev-testing-infrastructure-2026',
+  no: 'S-125',
+  title: 'EV Penetration Hits Nearly 10% - Testing Infrastructure Gets Rs 776 Crore',
+  domain: 'Logistics & Mobility',
+  date: '2026-09-26',
+  dateLabel: '26 Sep 2026',
+  status: 'live',
+  excerpt: 'At the PM E-DRIVE industry dialogue on 25 September 2026, the Centre sanctioned Rs 776.29 crore to upgrade four national automotive testing agencies - ICAT, ARAI, GARC and NATRAX - for EV, battery and clean-technology work, as electric two-wheeler penetration reached 9.9% in April-August FY27. Adoption is rising, but testing capacity is the qualification gate that decides how fast domestic batteries and power electronics can be certified and scaled.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 25 September 2026, at the PM E-DRIVE Dialogue with the Industry at ICAT Manesar, government officials reported that electric two-wheeler penetration had reached 9.9% in April-August FY27 and announced a Rs 776.29 crore sanction to upgrade the four national automotive testing agencies - ICAT (Manesar), ARAI (Pune), GARC (Chennai) and NATRAX (Indore) - for electric vehicles, batteries, clean technologies and advanced automotive components. The scheme\'s overall outlay was stated as raised to Rs 11,900 crore, with e-2W incentives extended to March 2028 and the segment volume target lifted from 24.8 lakh to 45.8 lakh vehicles.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Adoption numbers alone do not create an industrial base. Testing capacity is the qualification gate for batteries, power electronics and vehicle systems. Expanding ICAT, ARAI, GARC and NATRAX for EV and battery work is an upstream move that determines how fast domestic designs can be certified and scaled.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'India\'\'s EV push still depends on imported cells, power electronics and, in many cases, testing protocols and equipment. A Rs 776 crore upgrade of the testing stack reduces one friction point; it does not localise the cell or semiconductor layers. The systems question is whether the upgraded labs become bottlenecks or enablers for Indian battery and component makers seeking domestic and export qualification.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Timeline and scope of the Rs 776 crore upgrades at the four testing agencies.', 'Whether domestic battery and power-electronics firms begin using the upgraded facilities for certification at scale.', 'Conversion of the raised 45.8 lakh e-2W target into sustained local manufacturing content rather than assembly of imported kits.']
+}],
+  takeaways: ['At the PM E-DRIVE industry dialogue on 25 September 2026 at ICAT Manesar, officials said electric two-wheeler penetration reached 9.9% during April-August FY27.', 'The Centre sanctioned Rs 776.29 crore to upgrade testing agencies ICAT, ARAI, GARC and NATRAX for EVs, batteries, clean technologies and advanced automotive components.', 'PM E-DRIVE\'s overall outlay was stated as raised to Rs 11,900 crore, with e-2W incentives extended to March 2028 and the segment target lifted from 24.8 lakh to 45.8 lakh vehicles.', 'Testing capacity is the qualification gate; the upgrade reduces one friction point but does not localise the cell or power-electronics layers.'],
+  sources: ['The Hindu BusinessLine (25 Sep 2026): https://www.thehindubusinessline.com/economy/electric-two-wheeler-penetration-nears-10-centre-allocates-776-crore-to-upgrade-ev-testing-infrastructure/article71509522.ece', 'ANI (25 Sep 2026): https://www.aninews.in/news/business/government-says-pm-e-drive-supported-sales-of-over-265-lakh-evs-pushes-indigenous-manufacturing-charging-infrastructure20260804153448/', 'Dainik Jagran English (25 Sep 2026): https://english.dainikjagranmpcg.com/national/pm-e-drive-government-to-hold-industry-dialogue-on-ev-growth/article-32985']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

@@ -400,7 +400,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       },
       {
         slug: 'jharkhand', name: 'Jharkhand IMC', state: 'Jharkhand', stage: 'planned',
-        statusLabel: 'Stalled at site identification — no SPV, no metrics', coords: [300, 268],
+        statusLabel: 'Site now listed by NICDC as Bokaro — still no SPV, master plan or metrics', coords: [300, 268],
         sectors: 'Not yet officially designated (metals, heavy engineering, auto components likely, based on state endowment)',
         nearest: 'Site-dependent — no land parcel confirmed',
         developer: 'No SPV incorporated. Government of Jharkhand requested by NICDC to finalise land; SPV to be formed only after a site is confirmed.',
@@ -426,7 +426,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
             'This places Jharkhand two to three years behind every other AKIC node, all of which have at minimum incorporated SPVs or appointed consultants. The contrast with neighbouring Gaya in Bihar — 1,670 acres, SPV incorporated, EC granted — is stark, and the two are frequently conflated in secondary reporting.',
           ] },
           { heading: 'The Bokaro question', body: [
-            'The one concrete alternative on record is Bokaro: the June 2023 DMU noted that Bokaro Steel Plant had identified ~740 acres and provided a preliminary land cost, awaiting state validation. That validation does not appear in subsequent official sources, and the Lok Sabha status line remained “State Govt. to confirm land.” Whether Bokaro was rejected or simply stalled is unresolved.',
+            'The one concrete alternative on record is Bokaro: the June 2023 DMU noted that Bokaro Steel Plant had identified ~740 acres and provided a preliminary land cost, awaiting state validation. That validation did not appear in the DMU reports or Lok Sabha replies that followed, which continued to record the status simply as “State Govt. to confirm land.”',
+            'That question now appears to be settled in NICDC’s favour: the corporation’s current project list for the National Industrial Corridor Development Programme names the AKIC node in Jharkhand as “Bokaro Node, Jharkhand” (verified 26 September 2026), replacing the earlier New Bahri designation. The listing is undated and carries no acreage, SPV, master plan or approval detail, so it establishes the site selection and nothing further — the node remains pre-SPV with no confirmed metrics.',
           ] },
           { heading: 'Risks & open questions', body: [
             'The critical open issue is whether — and where — the state will finalise land at all, given that all other AKIC states have advanced their nodes. Without a site there is no SPV, no metrics, no clearances, no EDFC assessment and no possible tenant pipeline. The risk is that investor commitments flow to already-advanced neighbouring nodes before Jharkhand confirms a parcel.',
@@ -439,6 +440,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Oct 2024', label: 'DMU: status unchanged — Jharkhand govt requested to finalise land' },
         ],
         sources: [
+          { label: 'NICDC — National Industrial Corridor Development Programme: current project list (AKIC node F: “Bokaro Node, Jharkhand”; verified 26 Sep 2026)', url: 'https://nicdc.in/projects/national-industrial-corridor-development-programme' },
+          { label: 'PIB — Lok Sabha reply: Industrial Corridors; AKIC IMC site originally finalised as “Jharkhand (Barhi)” (20 Nov 2019)', url: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=1592382' },
           { label: 'NICDC — DMU Report October 2024', url: 'https://nicdc.in/images/documents/DMU_Report_Oct_2024.pdf' },
           { label: 'NICDC — DMU Report May 2024', url: 'https://nicdc.in/images/documents/DMU_Report_May_2024.pdf' },
           { label: 'NICDC — AKIC Executive Summary Report', url: 'https://www.nicdc.in/images/documents/AKIC_Executive_Summary_Report..pdf' },
@@ -2505,7 +2508,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: 'Feb 2026', label: 'Budget 2026-27 announces the integrated East Coast Industrial Corridor with a node at Durgapur' },
           { date: 'May 2026', label: 'NICDC consultant procurement for Durgapur-region node development (GeM, 6 May)' },
         ],
-        sources: [FUNDS, { label: 'NICDC — Durgapur ECIC consultant procurement (GeM, 6 May 2026)', url: 'https://fulfilment.gem.gov.in' }],
+        sources: [FUNDS, { label: 'NICDC tenders — “Pre-Feasibility Study for Development of Industrial Manufacturing Node in the Durgapur Region under ECIC”, published 6 May 2026 (bids closed 30 Jun 2026)', url: 'https://nicdc.in/tenders' }],
       },
       {
         slug: 'nagpur', name: 'Nagpur (southern gateway)', state: 'Maharashtra', stage: 'planned',
