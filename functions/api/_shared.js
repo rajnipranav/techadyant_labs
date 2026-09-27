@@ -7,6 +7,13 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'india-ai-data-centre-cooling-2026-2035': {
+    access: 'paid',
+    priceInr: 4900,
+    object: 'India_AI_Data_Centre_Cooling.pdf',
+    filename: 'India-AI-Data-Centre-Cooling-2026-2035-Techadyant-Labs.pdf',
+    title: 'India AI Data Centre Cooling 2026–2035',
+  },
   'india-military-aerospace-manufacturing-ecosystem': {
     access: 'paid',
     priceInr: 6999,

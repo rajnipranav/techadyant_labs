@@ -4553,6 +4553,80 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['At the PM E-DRIVE industry dialogue on 25 September 2026 at ICAT Manesar, officials said electric two-wheeler penetration reached 9.9% during April-August FY27.', 'The Centre sanctioned Rs 776.29 crore to upgrade testing agencies ICAT, ARAI, GARC and NATRAX for EVs, batteries, clean technologies and advanced automotive components.', 'PM E-DRIVE\'s overall outlay was stated as raised to Rs 11,900 crore, with e-2W incentives extended to March 2028 and the segment target lifted from 24.8 lakh to 45.8 lakh vehicles.', 'Testing capacity is the qualification gate; the upgrade reduces one friction point but does not localise the cell or power-electronics layers.'],
   sources: ['The Hindu BusinessLine (25 Sep 2026): https://www.thehindubusinessline.com/economy/electric-two-wheeler-penetration-nears-10-centre-allocates-776-crore-to-upgrade-ev-testing-infrastructure/article71509522.ece', 'ANI (25 Sep 2026): https://www.aninews.in/news/business/government-says-pm-e-drive-supported-sales-of-over-265-lakh-evs-pushes-indigenous-manufacturing-charging-infrastructure20260804153448/', 'Dainik Jagran English (25 Sep 2026): https://english.dainikjagranmpcg.com/national/pm-e-drive-government-to-hold-industry-dialogue-on-ev-growth/article-32985']
+}, {
+  slug: 'premier-energies-7gw-solar-cell-facility-andhra-2026',
+  no: 'S-126',
+  title: 'India\'s Largest Solar Cell Line Goes Live - Localisation Moves Down the Stack, Not Yet to the Wafer',
+  domain: 'Solar & Clean-Energy Manufacturing',
+  date: '2026-09-27',
+  dateLabel: '27 Sep 2026',
+  status: 'live',
+  excerpt: 'Premier Energies has commissioned a 7 GW solar cell facility in Andhra Pradesh - described as India\'\'s largest - taking its total cell capacity to about 10.6 GW at a project cost of roughly Rs 3,293 crore. Cell manufacturing, not module assembly, is the import-dependent layer India has long bought from China; a domestic 7 GW cell line is a real move down the solar stack, though wafers and polysilicon upstream remain the deeper dependency.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 21 September 2026, Premier Energies commissioned a 7 GW solar photovoltaic cell manufacturing facility in Andhra Pradesh at a cost of roughly Rs 3,293 crore, described by industry press as India\'\'s largest single solar cell facility. The commissioning lifts the company\'\'s total cell capacity to about 10.6 GW and sits alongside its module capacity. Reporting frames the plant as part of India\'\'s push to localise the cell layer of the solar supply chain.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India has rapidly built solar module assembly, but cells - the higher-value, more technology-intensive layer - have been largely imported, chiefly from China. A domestic 7 GW cell line materially expands India\'\'s own cell base and reduces one layer of import dependence in the solar stack, moving localisation past final assembly.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'Module assembly was always the easy layer; cells are harder, and wafers and polysilicon upstream are harder still and remain overwhelmingly imported. A large domestic cell facility narrows the cell gap but does not close the wafer-and-polysilicon dependency above it, nor the equipment and specialty materials imported to run the cell line itself. The systems test is whether Indian cell capacity is fed by domestic wafers, or simply moves the import point one step upstream.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Utilisation and yield of the new cell capacity versus its 7 GW nameplate.', 'Whether domestic wafer, ingot and polysilicon capacity develops to feed Indian cell lines rather than importing wafers.', 'ALMM and domestic-content demand pull, plus any export orders for Indian-made cells.']
+}],
+  takeaways: ['On 21 September 2026 Premier Energies commissioned a 7 GW solar cell facility in Andhra Pradesh, described as India\'s largest, at a project cost of about Rs 3,293 crore.', 'The commissioning lifts the company\'s total solar cell capacity to about 10.6 GW.', 'Cells, not modules, are the import-dependent higher-value layer India has largely bought from China; a domestic 7 GW cell line moves localisation down the stack.', 'Wafers and polysilicon upstream remain overwhelmingly imported - the test is whether Indian cells are fed by domestic wafers or just shift the import point upstream.'],
+  sources: ['pv magazine (21 Sep 2026): https://www.pv-magazine.com/2026/09/21/premier-energies-commissions-indias-largest-solar-cell-facility/', 'Mercom India (21 Sep 2026): https://www.mercomindia.com/premier-energies-commissions-7-gw-solar-cell-plant-in-andhra-pradesh', 'Business Standard (21 Sep 2026): https://www.business-standard.com/markets/capital-market-news/premier-energies-commissions-7gw-solar-cell-facility-in-andhra-pradesh-126092100240_1.html']
+}, {
+  slug: 'maruti-manesar-300kw-green-hydrogen-pilot-scale-gap-2026',
+  no: 'S-127',
+  title: 'A 300 kW Green-Hydrogen Pilot Shows the Intent - and the Scale Gap',
+  domain: 'Solar & Clean-Energy Manufacturing',
+  date: '2026-09-27',
+  dateLabel: '27 Sep 2026',
+  status: 'live',
+  excerpt: 'Maruti Suzuki has commissioned a 300 kW green-hydrogen electrolyser pilot at its Manesar plant - its first - producing hydrogen from renewable power for captive use. It is a real step into electrolysis, but at 300 kW it is a demonstration, not industrial scale; the strategic questions are electrolyser localisation and whether captive pilots scale into the GW-class green-hydrogen capacity India\'\'s targets assume.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Around 24 September 2026, Maruti Suzuki commissioned a 300 kW green-hydrogen electrolyser plant at its Manesar facility in Haryana - the company\'\'s first - using renewable electricity to produce hydrogen for captive use, with reporting citing emissions-reduction goals for the site.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Green hydrogen is central to India\'\'s decarbonisation and industrial-sovereignty plans, but most of the activity to date has been announcements and MoUs. A commissioned, operating electrolyser - even a small one - is a concrete step. The catch is scale: 300 kW is a pilot, orders of magnitude below the industrial green-hydrogen capacity the National Green Hydrogen Mission targets.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'The strategic content of green hydrogen is not the gas; it is the electrolyser stack, its membranes and catalysts, and the manufacturing base behind them - much of which India still imports. A captive pilot demonstrates intent and integration but does not by itself build electrolyser-manufacturing capacity. The systems question is whether pilots like this pull through domestic electrolyser production and scale toward MW- and GW-class plants, or remain isolated sustainability showcases.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether the electrolyser and stack are domestically manufactured or imported.', 'Any scale-up plan beyond the 300 kW pilot toward MW-class captive or merchant capacity.', 'Whether captive corporate pilots aggregate into real demand for an Indian electrolyser-manufacturing industry.']
+}],
+  takeaways: ['Around 24 September 2026 Maruti Suzuki commissioned its first green-hydrogen plant - a 300 kW electrolyser at Manesar, Haryana - producing hydrogen from renewable power for captive use.', 'A commissioned, operating electrolyser is a concrete step beyond the announcements and MoUs that dominate India\'s green-hydrogen space.', 'At 300 kW it is a pilot, orders of magnitude below the industrial capacity the National Green Hydrogen Mission targets.', 'The strategic layer is the electrolyser stack and its manufacturing base, much of which India still imports - the test is whether pilots pull through domestic electrolyser production.'],
+  sources: ['Business Standard (24 Sep 2026): https://www.business-standard.com/companies/news/maruti-suzuki-commissions-300-kw-green-hydrogen-plant-at-manesar-126092400426_1.html', 'SolarQuarter (25 Sep 2026): https://solarquarter.com/2026/09/25/maruti-suzuki-commissions-300-kw-green-hydrogen-electrolyzer-plant-at-manesar/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

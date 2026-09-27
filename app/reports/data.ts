@@ -189,6 +189,37 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'india-ai-data-centre-cooling-2026-2035',
+  title: 'India AI Data Centre Cooling 2026–2035',
+  subtitle: 'Market evidence, technology choices, and domestic supplier capability — from audited capacity inventories and verified transaction records.',
+  domain: 'AI Infrastructure & Cooling',
+  edition: 'Edition 1 · September 2026',
+  published: '2026-09-27',
+  publishedLabel: 'September 2026',
+  readingTime: '~ 90 min read',
+  status: 'published',
+  summary: 'India\'s AI data-centre cooling opportunity is real but frequently overstated. This report replaces uncalibrated market forecasts with an audited H1 2026 capacity inventory — 1,789 MW operational, 509 MW under construction and 3,351 MW planned (Cushman & Wakefield) — and attributed external benchmarks rather than a single proprietary TAM. It shows that cooling architecture follows the whole system design, not a chip-power threshold (NVIDIA documents an air-cooled DGX B200), and that India\'s domestic capability is broader than assumed: Schneider\'s Bengaluru liquid-cooling factory, Vertiv\'s Pune manufacturing and rack-level co-engineering with Netweb. Global liquid-cooling revenue runs at roughly $3 billion (2025) toward about $7 billion by 2029 (Dell\'Oro), and liquid-cooled builds carry a 7–10% construction premium (Turner & Townsend) — a whole-facility figure, not an India equipment quote. Across 59 pages, 22 tables and 43 sourced records, it separates observed stock from conditional pipeline, distinguishes India presence from indigenous IP, and frames the real execution risks — power, water, qualification and service support — for the policymakers, operators and investors deciding where domestic value can actually be captured.',
+  accent: '#14B8A6',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 59,
+  cover: '/covers/india-ai-data-centre-cooling-2026-2035.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India_AI_Data_Centre_Cooling_free.pdf',
+  previewPages: 12,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['India data centre cooling', 'liquid cooling', 'immersion cooling', 'direct liquid cooling', 'AI data centre', 'thermal management', 'data centre capacity', 'domestic manufacturing'],
+  faq: [],
+  sources: [],
+  dateModified: '2026-09-27',
+  seo: {
+
+}
+}, {
   slug: 'india-military-aerospace-manufacturing-ecosystem',
   title: 'India’s Military Aerospace Manufacturing Ecosystem',
   subtitle: 'From aircraft assembly to industrial sovereignty — propulsion, subsystems, IP and exports, and the choice that decides 2035',
@@ -234,37 +265,6 @@ export const reports: ReportMeta[] = [{
   seo: {
   metaTitle: 'India’s Military Aerospace Manufacturing Ecosystem 2026–2035 | Techadyant Labs',
   metaDescription: 'India’s military aerospace ecosystem faces a strategic choice: assembly-led growth or deeper control of propulsion, subsystems, IP and exports by 2035.'
-}
-}, {
-  slug: 'cooling-economy-of-india',
-  title: 'The Cooling Economy of India',
-  subtitle: 'Industrial chillers, liquid cooling and the AI rack-density transition',
-  domain: 'Industrial Infrastructure',
-  edition: 'forthcoming',
-  published: '2026-09-12',
-  publishedLabel: 'Forthcoming',
-  readingTime: '~ 90 min read',
-  status: 'forthcoming',
-  summary: 'AI workloads push rack density 4–10× above traditional IT. The cooling architecture that follows — direct-liquid, immersion, hybrid evaporative — defines a ₹7,500–36,000 crore Indian industrial market through 2030. This report sizes it.',
-  accent: '#38e1c4',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: false,
-  hasDeck: false,
-  pages: undefined,
-  cover: '',
-  previewObject: '',
-  previewPages: undefined,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-09-12',
-  seo: {
-
 }
 }, {
   slug: 'india-cloud-question',
@@ -540,17 +540,17 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
-  slug: 'india-ai-power-infrastructure-gap',
-  title: 'India’s AI Power Infrastructure Gap',
-  subtitle: 'Why DC build-out is constrained by transmission, not generation',
-  domain: 'AI Infrastructure',
-  edition: 'forthcoming',
+  slug: 'india-edge-ai-economy',
+  title: 'India’s Edge AI Economy',
+  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
+  domain: 'Edge AI & Semiconductors',
+  edition: 'Edge AI Series · I · forthcoming',
   published: '2026-08-15',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h read',
   status: 'forthcoming',
-  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
-  accent: '#6366F1',
+  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
+  accent: '#38e1c4',
   access: 'paid',
   price: 4900,
   currency: 'INR',
@@ -571,17 +571,17 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
-  slug: 'india-edge-ai-economy',
-  title: 'India’s Edge AI Economy',
-  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
-  domain: 'Edge AI & Semiconductors',
-  edition: 'Edge AI Series · I · forthcoming',
+  slug: 'india-ai-power-infrastructure-gap',
+  title: 'India’s AI Power Infrastructure Gap',
+  subtitle: 'Why DC build-out is constrained by transmission, not generation',
+  domain: 'AI Infrastructure',
+  edition: 'forthcoming',
   published: '2026-08-15',
   publishedLabel: 'Forthcoming',
   readingTime: '~ 2h read',
   status: 'forthcoming',
-  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
-  accent: '#38e1c4',
+  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
+  accent: '#6366F1',
   access: 'paid',
   price: 4900,
   currency: 'INR',
@@ -1966,51 +1966,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India\'s public and private core systems run on foreign enterprise software. The SAP Question maps the dependence, the risks and the sovereign ERP opportunity. Free full report.'
 }
 }, {
-  slug: 'who-actually-captures-the-india-us-minerals-alliance',
-  title: 'Who Actually Captures the India–US Minerals Alliance?',
-  subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
-  domain: 'Critical Minerals & Strategic Materials',
-  edition: 'Edition 01 · Strategic Intelligence · v1.0',
-  published: '2026-05-30',
-  publishedLabel: 'May 2026',
-  readingTime: '~ 2h 30m read',
-  status: 'published',
-  summary: 'The 26 May 2026 India–US critical-minerals framework is read as a mining deal. It is better understood as a midstream deal: the leverage sits in separation, refining and magnets — roughly 85–92% controlled by China — not in reserves. Using a proprietary four-chokepoint framework, this report scores India sector by sector — semiconductors, electronics, defence, EVs, energy and AI infrastructure — and asks who actually captures the value as the alliance moves from signature to execution.',
-  accent: '#C9A84C',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 125,
-  cover: '/covers/who-actually-captures-the-india-us-minerals-alliance.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/who-actually-captures-the-india-us-minerals-alliance-free.pdf',
-  previewPages: 14,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['India US critical minerals', 'critical minerals India', 'rare earth elements India', 'National Critical Mineral Mission', 'rare earth magnets India', 'mineral supply chain India', 'India mineral security', 'critical minerals partnership', 'rare earth processing India', 'lithium supply chain India'],
-  faq: [{
-  a: 'A widening set of agreements aligning Indian and American critical-mineral supply chains — exploration, processing, recycling and magnet manufacturing — as both countries reduce dependence on Chinese processing. The report maps which firms, states and layers of the chain actually capture the value.',
-  q: 'What is the India–US critical minerals partnership?'
-}, {
-  a: 'India\'s National Critical Mineral Mission, approved in January 2025 with an outlay of about ₹34,300 crore over seven years, funds exploration, acquisition of overseas assets, processing capacity and recycling for minerals such as lithium, cobalt and rare earths.',
-  q: 'What is the National Critical Mineral Mission?'
-}, {
-  a: 'India mines some rare earths through IREL but has no commercial sintered NdFeB magnet capacity today. A scheme approved in November 2025 — about ₹6,450 crore in sales-linked incentives plus ₹750 crore in capital subsidy for 6,000 MTPA — aims to create domestic capacity around 2028.',
-  q: 'Does India produce rare earth magnets?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['National Critical Mineral Mission', 'rare earths', 'IREL', 'NdFeB magnets', 'lithium', 'supply chains'],
-  aiSummary: 'Maps the India–US critical minerals alliance from mine to magnet: where processing chokepoints sit, what the National Critical Mineral Mission (₹34,300 crore) and the rare-earth magnet scheme change, and which Indian firms and states are positioned to capture value.',
-  metaTitle: 'India–US Critical Minerals Alliance: Who Captures the Value?',
-  schemaType: 'Report',
-  focusKeyword: 'India US critical minerals',
-  metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
-}
-}, {
   slug: 'india-battlefield-automation-gap',
   title: 'India’s Battlefield Automation Gap',
   subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
@@ -2054,6 +2009,51 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'battlefield automation India',
   metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
+}
+}, {
+  slug: 'who-actually-captures-the-india-us-minerals-alliance',
+  title: 'Who Actually Captures the India–US Minerals Alliance?',
+  subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
+  domain: 'Critical Minerals & Strategic Materials',
+  edition: 'Edition 01 · Strategic Intelligence · v1.0',
+  published: '2026-05-30',
+  publishedLabel: 'May 2026',
+  readingTime: '~ 2h 30m read',
+  status: 'published',
+  summary: 'The 26 May 2026 India–US critical-minerals framework is read as a mining deal. It is better understood as a midstream deal: the leverage sits in separation, refining and magnets — roughly 85–92% controlled by China — not in reserves. Using a proprietary four-chokepoint framework, this report scores India sector by sector — semiconductors, electronics, defence, EVs, energy and AI infrastructure — and asks who actually captures the value as the alliance moves from signature to execution.',
+  accent: '#C9A84C',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 125,
+  cover: '/covers/who-actually-captures-the-india-us-minerals-alliance.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/who-actually-captures-the-india-us-minerals-alliance-free.pdf',
+  previewPages: 14,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['India US critical minerals', 'critical minerals India', 'rare earth elements India', 'National Critical Mineral Mission', 'rare earth magnets India', 'mineral supply chain India', 'India mineral security', 'critical minerals partnership', 'rare earth processing India', 'lithium supply chain India'],
+  faq: [{
+  a: 'A widening set of agreements aligning Indian and American critical-mineral supply chains — exploration, processing, recycling and magnet manufacturing — as both countries reduce dependence on Chinese processing. The report maps which firms, states and layers of the chain actually capture the value.',
+  q: 'What is the India–US critical minerals partnership?'
+}, {
+  a: 'India\'s National Critical Mineral Mission, approved in January 2025 with an outlay of about ₹34,300 crore over seven years, funds exploration, acquisition of overseas assets, processing capacity and recycling for minerals such as lithium, cobalt and rare earths.',
+  q: 'What is the National Critical Mineral Mission?'
+}, {
+  a: 'India mines some rare earths through IREL but has no commercial sintered NdFeB magnet capacity today. A scheme approved in November 2025 — about ₹6,450 crore in sales-linked incentives plus ₹750 crore in capital subsidy for 6,000 MTPA — aims to create domestic capacity around 2028.',
+  q: 'Does India produce rare earth magnets?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['National Critical Mineral Mission', 'rare earths', 'IREL', 'NdFeB magnets', 'lithium', 'supply chains'],
+  aiSummary: 'Maps the India–US critical minerals alliance from mine to magnet: where processing chokepoints sit, what the National Critical Mineral Mission (₹34,300 crore) and the rare-earth magnet scheme change, and which Indian firms and states are positioned to capture value.',
+  metaTitle: 'India–US Critical Minerals Alliance: Who Captures the Value?',
+  schemaType: 'Report',
+  focusKeyword: 'India US critical minerals',
+  metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
 }
 }, {
   slug: 'india-ai-industrial-transition-2026-2035',
