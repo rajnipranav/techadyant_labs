@@ -3,79 +3,90 @@
  * prune-redirects.mjs — build guard for public/_redirects
  *
  * WHY THIS EXISTS (RCA, Sept 2026):
- * Commit 7185f18 bulk-appended ~3,250 rules (Player-UUID->Slug, Entity->Player,
- * Legacy-UUID blocks) during a re-slugging migration, taking _redirects to 3,324
- * lines. Cloudflare Pages honors only the FIRST 2,000 static redirects
- * (https://developers.cloudflare.com/pages/platform/limits/#redirects) and
- * SILENTLY DROPS the rest — so ~1,300 real redirects were dead, producing
- * Search Console "Redirect error" / "Not found (404)" at scale.
+ * A re-slug migration bulk-added ~3,250 redirect rules, taking _redirects to
+ * 3,300+ lines. Cloudflare Pages then dropped most of them for TWO reasons:
+ *   1. Static-redirect limit: max 2,000 static + 100 dynamic
+ *      (https://developers.cloudflare.com/pages/platform/limits/#redirects).
+ *   2. ORDERING: static rules must appear BEFORE any dynamic (splat/placeholder)
+ *      rule. A single splat rule near the TOP made Cloudflare treat every rule
+ *      after it as "dynamic", hit the 100-dynamic cap, and skip ~1,520 lines:
+ *        "Maximum number of dynamic rules supported is 100. Skipping remaining
+ *         1520 lines of file."
  *
- * FIX:
- *  1. Drop UUID-source rules (`/path/<uuid>`). Those URLs were never in the
- *     sitemap or internal links, so Google never indexed them — the redirects
- *     protect nothing and only burn the 2,000-rule budget.
- *  2. Hard-cap the remaining STATIC rules below the Cloudflare limit; if the
- *     cap is ever hit, fail the build loudly rather than ship dead redirects.
+ * FIX (applied here, deterministically, every build):
+ *   a. Drop UUID-source rules (never indexed — not in sitemap/internal links).
+ *   b. Split into static vs dynamic (source contains `*` or a `:placeholder`).
+ *   c. Emit ALL static rules first, then ALL dynamic rules — never interleaved.
+ *   d. Cap static < 2,000 and dynamic <= 100; fail the build loudly if exceeded.
  *
- * Runs in the build BEFORE `next build` so the pruned file is what
- * `output: 'export'` copies into `out/`. Idempotent — safe to run repeatedly.
+ * Runs before `next build` so the rewritten file is what `output: 'export'`
+ * copies into `out/`. Idempotent.
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const FILE = join(ROOT, 'public', '_redirects');
+const FILE = join(dirname(fileURLToPath(import.meta.url)), '..', 'public', '_redirects');
 
-// Cloudflare Pages: 2,000 static + 100 dynamic (splat). Keep headroom.
 const STATIC_LIMIT = 2000;
-const SAFE_STATIC = 1950; // leave room for a few hand-added rules
+const DYNAMIC_LIMIT = 100;
+const SAFE_STATIC = 1950; // headroom for a few hand-added rules
 
 const UUID = /[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/i;
-
 const isComment = (l) => l.trimStart().startsWith('#');
 const isBlank = (l) => l.trim() === '';
 const isRule = (l) => !isComment(l) && !isBlank(l);
 const source = (l) => l.trim().split(/\s+/)[0] ?? '';
-const isSplat = (l) => source(l).includes('*');
+// Cloudflare treats a rule as dynamic if its SOURCE uses a splat (*) or a :placeholder.
+const isDynamic = (l) => source(l).includes('*') || /\/:/.test(source(l));
 
-const raw = readFileSync(FILE, 'utf8');
-const lines = raw.split(/\r?\n/);
+const lines = readFileSync(FILE, 'utf8').split(/\r?\n/);
 
 let droppedUuid = 0;
-let kept = [];
+const rules = [];
 for (const l of lines) {
-  if (isRule(l) && UUID.test(source(l))) { droppedUuid++; continue; }         // drop UUID-source rules
-  if (isComment(l) && /uuid/i.test(l)) continue;                              // drop now-empty UUID section headers
-  kept.push(l);
+  if (!isRule(l)) continue;                 // comments/blanks are re-emitted from scratch below
+  if (UUID.test(source(l))) { droppedUuid++; continue; }
+  rules.push(l.trim().replace(/\s+/g, ' '));
 }
 
-// Collapse 3+ consecutive blank lines into one.
-kept = kept.filter((l, i) => !(isBlank(l) && isBlank(kept[i - 1] ?? 'x') && isBlank(kept[i - 2] ?? 'x')));
+// De-dupe by source (keep first — Cloudflare applies the top-most match).
+const seen = new Set();
+const unique = rules.filter((r) => { const s = source(r); if (seen.has(s)) return false; seen.add(s); return true; });
 
-// Enforce the static-redirect ceiling (order matters: keep the earliest rules).
-let staticSeen = 0;
-let cappedOut = 0;
-const final = [];
-for (const l of kept) {
-  if (isRule(l) && !isSplat(l)) {
-    staticSeen++;
-    if (staticSeen > SAFE_STATIC) { cappedOut++; continue; }
-  }
-  final.push(l);
-}
+let staticRules = unique.filter((r) => !isDynamic(r));
+let dynamicRules = unique.filter((r) => isDynamic(r));
 
-const out = final.join('\n').replace(/\n{3,}/g, '\n\n').replace(/\s*$/, '\n');
+const overStatic = Math.max(0, staticRules.length - SAFE_STATIC);
+const overDynamic = Math.max(0, dynamicRules.length - DYNAMIC_LIMIT);
+if (overStatic) staticRules = staticRules.slice(0, SAFE_STATIC);
+if (overDynamic) dynamicRules = dynamicRules.slice(0, DYNAMIC_LIMIT);
+
+const out = [
+  '# AUTO-ORGANISED by scripts/prune-redirects.mjs — do not hand-sort.',
+  '# Cloudflare _redirects rules: ALL static rules must precede ALL dynamic',
+  '# (splat/placeholder) rules; limits are 2,000 static + 100 dynamic. UUID-source',
+  '# rules are dropped (never indexed). Edit sources in the CMS, not here.',
+  '',
+  '# ---- Static redirects ----',
+  ...staticRules,
+  '',
+  '# ---- Dynamic redirects (splats / placeholders) — MUST come last ----',
+  ...dynamicRules,
+  '',
+].join('\n');
+
 writeFileSync(FILE, out, 'utf8');
 
-const staticFinal = final.filter((l) => isRule(l) && !isSplat(l)).length;
-const dynamicFinal = final.filter((l) => isRule(l) && isSplat(l)).length;
 console.log(
-  `prune-redirects: dropped ${droppedUuid} UUID-source rules` +
-  (cappedOut ? `, capped ${cappedOut} over the ${SAFE_STATIC} ceiling` : '') +
-  ` -> ${staticFinal} static + ${dynamicFinal} dynamic rules (Cloudflare limit ${STATIC_LIMIT}+100).`
+  `prune-redirects: dropped ${droppedUuid} UUID rules; ` +
+  `${staticRules.length} static + ${dynamicRules.length} dynamic (limits ${STATIC_LIMIT}+${DYNAMIC_LIMIT}); ` +
+  `static-before-dynamic enforced.`
 );
-if (staticFinal > STATIC_LIMIT) {
-  console.error(`prune-redirects: STILL over the ${STATIC_LIMIT} static limit — redirects will be dropped by Cloudflare. Move overflow to Bulk Redirects.`);
+if (overStatic || overDynamic || staticRules.length > STATIC_LIMIT || dynamicRules.length > DYNAMIC_LIMIT) {
+  console.error(
+    `prune-redirects: OVER LIMIT (static over by ${overStatic}, dynamic over by ${overDynamic}). ` +
+    `Move overflow to Cloudflare Bulk Redirects.`
+  );
   process.exit(1);
 }

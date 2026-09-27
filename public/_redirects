@@ -1,21 +1,17 @@
-# Shape Techadyant consolidation (Aug 2026): /feedback folded into /shape
-/feedback    /shape/  301
-/feedback/   /shape/  301
+# AUTO-ORGANISED by scripts/prune-redirects.mjs — do not hand-sort.
+# Cloudflare _redirects rules: ALL static rules must precede ALL dynamic
+# (splat/placeholder) rules; limits are 2,000 static + 100 dynamic. UUID-source
+# rules are dropped (never indexed). Edit sources in the CMS, not here.
 
-# Atlas consolidation
-/atlas       /research/ 301
-/atlas/      /research/ 301
-
-# Report redirects
-/reports/the-sap-question-flagship/* /reports/the-sap-question/ 301
-
-# Renamed entities: old short slugs Google indexed -> current canonical player pages (Sept 2026)
+# ---- Static redirects ----
+/feedback /shape/ 301
+/feedback/ /shape/ 301
+/atlas /research/ 301
+/atlas/ /research/ 301
 /research/entities/khanij-bidesh-india-limited /research/players/khanij-bidesh-india-limited-kabil/ 301
 /research/entities/khanij-bidesh-india-limited/ /research/players/khanij-bidesh-india-limited-kabil/ 301
 /research/players/amazon-web-services-india /research/players/amazon-web-services-india-healthcare-ai/ 301
 /research/players/amazon-web-services-india/ /research/players/amazon-web-services-india-healthcare-ai/ 301
-
-# Retired /research/players/ category pages -> relevant live pages
 /research/players/electronic-warfare-and-elint /research/dependencies/ 301
 /research/players/electronic-warfare-and-elint/ /research/dependencies/ 301
 /research/players/aerospace-composites-and-carbon-fibre /research/dependencies/ 301
@@ -54,8 +50,6 @@
 /research/players/counter-uas-anti-drone-systems/ /research/counter-uas/ 301
 /research/players/tactical-and-strategic-missiles /research/dependencies/ 301
 /research/players/tactical-and-strategic-missiles/ /research/dependencies/ 301
-
-# Entity to Player 301 Redirects (fixes canonical mismatch on player entities)
 /research/entities/3d-glass-solutions-inc-3dgs /research/players/3d-glass-solutions-inc-3dgs/ 301
 /research/entities/3d-glass-solutions-inc-3dgs/ /research/players/3d-glass-solutions-inc-3dgs/ 301
 /research/entities/3d-glass-substrates /research/players/3d-glass-substrates/ 301
@@ -1632,3 +1626,6 @@
 /research/entities/ideaforge-technology-ltd/ /research/players/ideaforge-technology-ltd/ 301
 /research/entities/onsemi /research/players/onsemi/ 301
 /research/entities/onsemi/ /research/players/onsemi/ 301
+
+# ---- Dynamic redirects (splats / placeholders) — MUST come last ----
+/reports/the-sap-question-flagship/* /reports/the-sap-question/ 301
