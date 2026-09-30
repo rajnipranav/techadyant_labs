@@ -1,0 +1,291 @@
+{
+  "entity_id": "mfg-dx26-drogo-aerospace",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "drogo-aerospace",
+  "name": "Drogo Aerospace",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/",
+  "last_verified": "2026-09-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Hyderabad defence UAV maker. Reported first batch of 41 JK 250e drones to the Army (Jun 2026, ₹72 cr); loitering-munition MoU with Munitions India.",
+    "chips": [
+      "drones-uas",
+      "platform",
+      "india",
+      "evidence-l2",
+      "drone-expo-2026"
+    ],
+    "maker": "Drogo Aerospace",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Platform",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Private company",
+    "Headquarters": "Madhapur, Hyderabad, Telangana, India",
+    "Primary layer": "Platform",
+    "Technology layers": "Platform / Tactical UAV; Platform / Loitering munition",
+    "Products (as stated)": "JK 250e surveillance/recon UAV; Delta Wing Kamikaze UAV / loitering-munition platform (development)",
+    "Company origin": "Indian — Media reporting (L2)",
+    "Design origin": "Indian — Company describes platforms as indigenous (L3)",
+    "Manufacturing": "Unknown — Facility status not verified (L5)",
+    "Assembly / integration": "India — Delivery to Army implies Indian integration — facility and content unverified (L2)",
+    "Technology origin": "UNKNOWN — JK 250e described as Make in India; propulsion, battery, avionics and datalink sourcing undisclosed.",
+    "Defence relevance": "Reported delivery of 41 JK 250e to Indian Army Southern Command (Nashik) under ₹72 crore contract, June 2026 (L2 — multiple outlets, no MoD primary). MoU with Munitions India Ltd, 4 Sep 2026, for design/development/integration of UAVs and loitering munitions (L2; an MoU is not an order).",
+    "Overall evidence level": "L2 — Independent media / institution",
+    "Atlas intake": "Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026) — OSINT intake 2026-09-29"
+  },
+  "what_it_is": {
+    "prose": "Hyderabad defence UAV maker (formerly Drogo Drones). Reported to have delivered a first batch of 41 JK 250e drones to the Indian Army (Southern Command) in June 2026 under a ₹72 crore contract; MoU with Munitions India (Sep 2026) on UAVs and loitering munitions.\n\nValue-chain position in the Atlas: Supplies to → Indian Army (L2); Partners / JV with → Munitions India Limited (L2); Develops → Loitering munitions (L3).\n\nEvidence discipline: this record separates company claims from independent evidence. Classifications above carry their evidence level; the technology-origin class is 'UNKNOWN'. Exhibiting at Drone Expo 2026 establishes market presence only — not indigenous technology, Indian manufacturing, procurement or deployment.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04",
+      "src-05"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Reported delivery of 41 JK 250e to Indian Army Southern Command (Nashik) under ₹72 crore contract, June 2026 (L2 — multiple outlets, no MoD primary). MoU with Munitions India Ltd, 4 Sep 2026, for design/development/integration of UAVs and loitering munitions (L2; an MoU is not an order).",
+    "rows": [
+      {
+        "agency": "Indian Army (Southern Command)",
+        "context": "JK 250e surveillance/reconnaissance drones — first batch received at Nashik",
+        "year": "2026",
+        "quantity_or_note": "41 units (first batch) under a reported ₹72 crore contract; balance targeted by August 2026. Media-reported; no MoD primary document located. Completion of the balance not verified.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "agency": "Munitions India Limited (DPSU)",
+        "context": "MoU for design, development and integration of indigenous UAVs and loitering munitions (Delta Wing Kamikaze platform)",
+        "year": "2026",
+        "quantity_or_note": "MoU signed 4 Sep 2026, Pune. Collaboration framework only — no order, quantity or value.",
+        "sources": [
+          "src-03"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Primary MoD/Army contract reference for the ₹72 crore JK 250e order, and whether the August 2026 balance was delivered.",
+      "Whether the Delta Wing Kamikaze platform has entered any formal trial or procurement route."
+    ]
+  },
+  "import_dependencies": {
+    "summary": "No import share is asserted. The items below are the dependency questions this entity sits on, taken from the Atlas UAS sovereignty table (Techadyant internal estimate) — they describe the layer, not this company's disclosed bill of materials.",
+    "items": [
+      {
+        "component": "BLDC motors / magnets",
+        "severity": "High",
+        "note": "Propulsion content undisclosed; layer is China-concentrated.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      },
+      {
+        "component": "Cells",
+        "severity": "Critical",
+        "note": "Battery content undisclosed.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      },
+      {
+        "component": "Flight controller / datalink",
+        "severity": "High",
+        "note": "Avionics and link content undisclosed.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "evidence_quality",
+        "label": "Evidence quality",
+        "value": 4,
+        "note": "L2 — Independent media / institution. Scores rise only with independent or procurement evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04",
+          "src-05"
+        ]
+      },
+      {
+        "id": "stack_criticality",
+        "label": "Stack criticality of the layer",
+        "value": 4,
+        "note": "How strategically important the layer this entity sits in is (not how good the company is).",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04",
+          "src-05"
+        ]
+      },
+      {
+        "id": "localisation_evidence",
+        "label": "Localisation evidence",
+        "value": 3,
+        "note": "Strength of evidence that design/manufacture happens in India. Company claims alone score ≤2.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04",
+          "src-05"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "/research/drones-uas/company/vu-dynamics/"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/drones-uas/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2026-06",
+      "event": "First batch of 41 JK 250e drones reported delivered to Army Southern Command, Nashik (₹72 crore contract).",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "event": "MoU with Munitions India Limited on indigenous UAVs and loitering munitions, signed in Pune.",
+      "sources": [
+        "src-03"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "event": "Exhibits at Drone Expo & Conference 2026, New Delhi.",
+      "sources": [
+        "src-05"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does Drogo Aerospace make?",
+      "answer": "JK 250e surveillance/recon UAV; Delta Wing Kamikaze UAV / loitering-munition platform (development). (As stated by the company unless noted; evidence level 2.)",
+      "sources": [
+        "src-01"
+      ]
+    },
+    {
+      "question": "Is Drogo Aerospace's technology indigenous?",
+      "answer": "Not established. Company origin is Indian; the technology-origin class is 'UNKNOWN': JK 250e described as Make in India; propulsion, battery, avionics and datalink sourcing undisclosed.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03",
+        "src-04",
+        "src-05"
+      ]
+    },
+    {
+      "question": "Why is Drogo Aerospace in the Atlas?",
+      "answer": "It adds new information on the Platform layer of India's drone stack, surfaced at Drone Expo & Conference 2026. Presence at the expo alone would not qualify an entity.",
+      "sources": [
+        "src-05"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Primary MoD/Army contract reference for the ₹72 crore JK 250e order, and whether the August 2026 balance was delivered.",
+    "JK 250e bill of materials: motors, cells, flight controller and datalink origin.",
+    "Whether the Delta Wing Kamikaze platform has entered any formal trial or procurement route."
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Drogo Aerospace delivers first batch of 41 JK 250e drones to Army",
+      "publisher": "Asianet Newsable",
+      "url": "https://newsable.asianetnews.com/india/drogo-aerospace-delivers-first-batch-of-41-jk-250e-drones-to-army-articleshow-1ng38bh",
+      "published_date": "2026-06",
+      "trust_tier": "credible",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 2. Independent media (search abstract, 2026-09-30): first batch of 41 JK 250e drones received by Army Southern Command officials at Nashik under a ₹72 crore contract; balance targeted by August 2026. Corroborated by Siasat. No MoD primary document located."
+    },
+    {
+      "id": "src-02",
+      "title": "Hyderabad defence firm supplies drones to Indian Army",
+      "publisher": "Siasat Daily",
+      "url": "https://www.siasat.com/hyderabad-defence-firm-supplies-drones-to-indian-army-3490157/",
+      "published_date": "2026-06",
+      "trust_tier": "credible",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 2. Independent media corroboration of the JK 250e first-batch delivery; company formerly Drogo Drones Pvt Ltd, headquartered in Madhapur, Hyderabad."
+    },
+    {
+      "id": "src-03",
+      "title": "Munitions India, Drogo Aerospace sign MoU for loitering munition, UAV systems",
+      "publisher": "The Hans India",
+      "url": "https://www.thehansindia.com/business/market-compass/drogo-aerospace-signs-mou-with-munitions-india-for-loitering-munition-uav-systems-1118309",
+      "published_date": "2026-09-04",
+      "trust_tier": "credible",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 2. Independent media (search abstract): MoU signed in Pune on 4 Sep 2026 between Munitions India Limited (DPSU) and Drogo Aerospace for design, development and integration of indigenous UAVs and loitering munitions. An MoU is not an order. Corroborated by Devdiscourse, GKToday, Newsable."
+    },
+    {
+      "id": "src-04",
+      "title": "Drogo Aerospace — company website",
+      "publisher": "Drogo Aerospace",
+      "url": "https://drogoaerospace.com/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-29",
+      "note": "Evidence level 3. Company primary source (OSINT pass 2026-09-29): defence UAVs, JK-250e, ISR and loitering-munition development."
+    },
+    {
+      "id": "src-05",
+      "title": "Drone Expo & Conference 2026 — official exhibitor list",
+      "publisher": "Drone Expo & Conference (organiser)",
+      "url": "https://www.droneexpo.in/exhibitors-list",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 5. Establishes exhibitor presence only. Presence does not establish indigenous technology, Indian manufacturing, procurement or deployment."
+    }
+  ],
+  "seo": {
+    "title": "Drogo Aerospace — Platform · India UAS Atlas | Techadyant",
+    "meta_description": "Hyderabad defence UAV maker (formerly Drogo Drones). Reported to have delivered a first batch of 41 JK 250e drones to the Indian Army (Southern…",
+    "canonical_path": "/research/drones-uas/company/drogo-aerospace/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      "/research/drones-uas/",
+      "/reports/who-builds-indias-drones/"
+    ]
+  }
+}

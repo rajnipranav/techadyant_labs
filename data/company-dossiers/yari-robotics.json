@@ -1,0 +1,211 @@
+{
+  "entity_id": "mfg-dx26-yari-robotics",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "yari-robotics",
+  "name": "YARI Robotics",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/",
+  "last_verified": "2026-09-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Coimbatore drone avionics firm — V6X flight controller (claimed designed and built in India), GNSS and power modules, ESCs, flight-data platform.",
+    "chips": [
+      "drones-uas",
+      "avionics",
+      "india",
+      "evidence-l3",
+      "drone-expo-2026"
+    ],
+    "maker": "YARI Robotics",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Avionics",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Private company",
+    "Headquarters": "Coimbatore, Tamil Nadu, India",
+    "Primary layer": "Avionics",
+    "Technology layers": "Avionics / Flight controller; Avionics / GNSS; Avionics / Power module; Propulsion / ESC; Software / Data platform",
+    "Products (as stated)": "V6X flight controller; GNSS modules; power modules; ESCs; sensors; YARI Atlas data platform",
+    "Company origin": "Indian — Company website (L3)",
+    "Design origin": "Indian — Company claim for V6X (L3)",
+    "Manufacturing": "India — Company claim for V6X — facility not verified (L3)",
+    "Assembly / integration": "India — Company claim (L3)",
+    "Technology origin": "UNKNOWN — V6X is claimed \"designed and built in India\"; semiconductor content (MCU, IMU, gate drivers/MOSFETs in the ESCs) undisclosed.",
+    "Defence relevance": "Company targets defence, commercial, research and development teams (L3). No defence customer corroborated.",
+    "Overall evidence level": "L3 — Company primary source",
+    "Atlas intake": "Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026) — OSINT intake 2026-09-29"
+  },
+  "what_it_is": {
+    "prose": "Coimbatore-based drone avionics and propulsion-electronics company: V6X flight controller (company states designed and built in India), GNSS and power modules, ESCs and the YARI Atlas flight-data platform. Drone Expo 2026 exhibitor.\n\nValue-chain position in the Atlas: Develops → Drone flight controller (L3); Develops → GNSS navigation modules (L3); Develops → Electronic speed controller (L3).\n\nEvidence discipline: this record separates company claims from independent evidence. Classifications above carry their evidence level; the technology-origin class is 'UNKNOWN'. Exhibiting at Drone Expo 2026 establishes market presence only — not indigenous technology, Indian manufacturing, procurement or deployment.",
+    "sources": [
+      "src-01",
+      "src-02"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Company targets defence, commercial, research and development teams (L3). No defence customer corroborated.",
+    "rows": [],
+    "open_questions": [
+      "Adoption: which OEMs integrate V6X in production aircraft?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "No import share is asserted. The items below are the dependency questions this entity sits on, taken from the Atlas UAS sovereignty table (Techadyant internal estimate) — they describe the layer, not this company's disclosed bill of materials.",
+    "items": [
+      {
+        "component": "Drone microcontrollers / SoC",
+        "severity": "Critical",
+        "note": "Flight-controller compute layer.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      },
+      {
+        "component": "Power MOSFETs / gate drivers (ESC)",
+        "severity": "High",
+        "note": "ESC power electronics largely imported.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      },
+      {
+        "component": "GNSS receiver chipset",
+        "severity": "High",
+        "note": "GNSS module chipsets.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "evidence_quality",
+        "label": "Evidence quality",
+        "value": 2,
+        "note": "L3 — Company primary source. Scores rise only with independent or procurement evidence.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "stack_criticality",
+        "label": "Stack criticality of the layer",
+        "value": 5,
+        "note": "How strategically important the layer this entity sits in is (not how good the company is).",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "localisation_evidence",
+        "label": "Localisation evidence",
+        "value": 2,
+        "note": "Strength of evidence that design/manufacture happens in India. Company claims alone score ≤2.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "/research/drones-uas/company/arkin-labs/",
+      "/research/drones-uas/company/zerosum-technologies/"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/drones-uas/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2026-09-28",
+      "event": "Exhibits at Drone Expo & Conference 2026, New Delhi.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does YARI Robotics make?",
+      "answer": "V6X flight controller; GNSS modules; power modules; ESCs; sensors; YARI Atlas data platform. (As stated by the company unless noted; evidence level 3.)",
+      "sources": [
+        "src-01"
+      ]
+    },
+    {
+      "question": "Is YARI Robotics's technology indigenous?",
+      "answer": "Not established. Company origin is Indian; the technology-origin class is 'UNKNOWN': V6X is claimed \"designed and built in India\"; semiconductor content (MCU, IMU, gate drivers/MOSFETs in the ESCs) undisclosed.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Why is YARI Robotics in the Atlas?",
+      "answer": "It adds new information on the Avionics layer of India's drone stack, surfaced at Drone Expo & Conference 2026. Presence at the expo alone would not qualify an entity.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Semiconductor bill of materials of V6X and the ESC line.",
+    "Whether the ESCs are in-house designs or rebadged/partner products.",
+    "Adoption: which OEMs integrate V6X in production aircraft?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "YARI Robotics — company website",
+      "publisher": "YARI Robotics",
+      "url": "https://yarirobotics.com/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-29",
+      "note": "Evidence level 3. Company primary source (OSINT pass 2026-09-29): V6X flight controller (stated designed and built in India), GNSS modules, power modules, ESCs, sensors, YARI Atlas data platform."
+    },
+    {
+      "id": "src-02",
+      "title": "Drone Expo & Conference 2026 — official exhibitor list",
+      "publisher": "Drone Expo & Conference (organiser)",
+      "url": "https://www.droneexpo.in/exhibitors-list",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 5. Establishes exhibitor presence only. Presence does not establish indigenous technology, Indian manufacturing, procurement or deployment."
+    }
+  ],
+  "seo": {
+    "title": "YARI Robotics — Avionics · India UAS Atlas | Techadyant",
+    "meta_description": "Coimbatore-based drone avionics and propulsion-electronics company: V6X flight controller (company states designed and built in India), GNSS and…",
+    "canonical_path": "/research/drones-uas/company/yari-robotics/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      "/research/drones-uas/",
+      "/reports/who-builds-indias-drones/"
+    ]
+  }
+}

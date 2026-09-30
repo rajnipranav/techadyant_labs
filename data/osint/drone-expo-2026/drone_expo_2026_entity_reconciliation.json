@@ -1,0 +1,1420 @@
+{
+  "dataset": "Drone Expo 2026 — entity reconciliation against the Techadyant Atlas (SID)",
+  "generated": "2026-09-30",
+  "event": "Drone Expo & Conference 2026",
+  "method": "Each of the 54 A/B companies was searched in sid.entities (canonical_name), sid.entity_aliases, sid.entity_candidates, sid.zai_entities, data/dossiers, data/company-dossiers, data/thin_registry.json, data/atlas/MANIFEST.json and every app/research/_*.json register, on legal name, short name, abbreviations, former names, domains and product names. Only T-Motor matched. Web evidence checks for key entities on 2026-09-30.",
+  "evidence_levels": {
+    "1": "L1 — Government / procurement",
+    "2": "L2 — Independent media / institution",
+    "3": "L3 — Company primary source",
+    "4": "L4 — Secondary / social",
+    "5": "L5 — Unverified"
+  },
+  "counts": {
+    "UPDATE_EXISTING": 1,
+    "ADD_NEW": 11,
+    "SIGNAL_ONLY": 3,
+    "RESEARCH_ONLY": 33,
+    "IGNORE": 6
+  },
+  "records": [
+    {
+      "company": "Aerodrones India Company",
+      "source_entity_id": "droneexpo26-aerodrones-india-company",
+      "screening_status": "B",
+      "primary_layer_screened": "UAV OEM / Services",
+      "action": "IGNORE",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "UAV services/OEM listing with no distinctive technology or evidence; does not improve understanding of the industrial stack.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Not assessed"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Arkin Labs Private Limited",
+      "source_entity_id": "droneexpo26-arkin-labs-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Avionics / GNSS / Autopilot",
+      "action": "ADD_NEW",
+      "existing_entity_id": "",
+      "confidence": "HIGH",
+      "reason": "No match in sid.entities, entity_aliases, entity_candidates, zai_entities, dossiers, thin registry or vertical registers (name, legal name, abbreviation, domain, product names). Adds: Avionics layer — AeroMind flight controllers / autopilots; Navroc GNSS; sensors and peripherals; power systems; ground control.",
+      "proposed_entity_id": "31ee6554-aabb-5d11-926a-2d6e4d0725a1",
+      "notes": "Dossier: /research/drones-uas/company/arkin-labs/ . ",
+      "technology_layers": [
+        "Avionics / Flight controller",
+        "Avionics / Autopilot",
+        "Avionics / GNSS",
+        "Avionics / Sensors",
+        "Avionics / Power module",
+        "Software / Mission planning (ground control)"
+      ],
+      "classification": {
+        "company_origin": "Indian",
+        "design_origin": "Indian",
+        "manufacturing": "India",
+        "assembly_integration": "India",
+        "basis": "company_origin: Company website (L3); design_origin: Company claim — not independently verified (L3); manufacturing: Company claim — facility not verified (L3); assembly_integration: Company claim (L3)"
+      },
+      "technology_origin": "UNKNOWN",
+      "technology_origin_note": "Company claims \"Indian designed + Indian manufactured\"; MCU, IMU and GNSS-chipset origin undisclosed, so the product-level class cannot be assigned.",
+      "evidence_level": 3,
+      "review_flag": ""
+    },
+    {
+      "company": "Ascend Powerpacks Private Limited",
+      "source_entity_id": "droneexpo26-ascend-powerpacks-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Battery / BMS",
+      "action": "ADD_NEW",
+      "existing_entity_id": "",
+      "confidence": "HIGH",
+      "reason": "No match in sid.entities, entity_aliases, entity_candidates, zai_entities, dossiers, thin registry or vertical registers (name, legal name, abbreviation, domain, product names). Adds: Energy layer — Drone Li-ion packs; Li-HV packs; semi-solid-state packs; intelligent BMS; smart charging.",
+      "proposed_entity_id": "83612f71-0950-5dbb-ad17-0f09cc8dfa90",
+      "notes": "Dossier: /research/drones-uas/company/ascend-powerpacks/ . ",
+      "technology_layers": [
+        "Energy / Battery pack",
+        "Energy / BMS",
+        "Energy / Charger"
+      ],
+      "classification": {
+        "company_origin": "Indian",
+        "design_origin": "Indian",
+        "manufacturing": "India",
+        "assembly_integration": "India",
+        "basis": "company_origin: Company website (L3); design_origin: Company claim for packs/BMS (L3); manufacturing: Company claim — pack-level only (L3); assembly_integration: Company claim (L3)"
+      },
+      "technology_origin": "UNKNOWN",
+      "technology_origin_note": "Pack assembly and BMS are claimed as in-house; the cell — the strategic content of a pack — is not disclosed. Not classified \"Indian designed + foreign components\" because cell origin is unevidenced.",
+      "evidence_level": 3,
+      "review_flag": ""
+    },
+    {
+      "company": "ATC Energies System Limited",
+      "source_entity_id": "droneexpo26-atc-energies-system-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Battery / Energy",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Battery/energy exhibitor; relevant to DOSF-04 cell-vs-pack question but only expo-listed.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-04.",
+      "technology_layers": [
+        "Energy / Battery pack"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "VERIFY: cell vs pack role"
+    },
+    {
+      "company": "Axldrone India Private Limited",
+      "source_entity_id": "droneexpo26-axldrone-india-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "UAV OEM",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Generic UAV OEM listing; specialist supplier-directory candidate only.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [
+        "Platform / Multirotor"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Beni Aerospace Private Limited",
+      "source_entity_id": "droneexpo26-beni-aerospace-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "VTOL / Advanced UAV",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "VTOL/advanced UAV positioning; platform specifics unverified.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-07.",
+      "technology_layers": [
+        "Platform / VTOL"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Bharat Skytech Private Limited",
+      "source_entity_id": "droneexpo26-bharat-skytech-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Components / Distribution",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Component distributor — MARKET / COMPONENT INTELLIGENCE NODE. Value is its line card (imported brands, demand), not OEM capability. No public drone line card retrieved.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-09.",
+      "technology_layers": [
+        "Distribution / Components"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "CAPTURE LINE CARD"
+    },
+    {
+      "company": "Bharatrohan Airborne Innovations Limited",
+      "source_entity_id": "droneexpo26-bharatrohan-airborne-innovations-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Payload / Agriculture / Hyperspectral",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Hyperspectral agri-drone payload/services; payload-layer relevance, expo-listed only in this pass.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [
+        "Payload / Hyperspectral"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "VERIFY: payload origin"
+    },
+    {
+      "company": "Craftifai Technologies Private Limited",
+      "source_entity_id": "droneexpo26-craftifai-technologies-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "AI / Software",
+      "action": "IGNORE",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Generic AI/software positioning; excluded under the no-generic-AI rule.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Not assessed"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Decouvertes Future Tech Private Limited",
+      "source_entity_id": "droneexpo26-decouvertes-future-tech-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "UAV / Emerging Technology",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Emerging-technology UAV listing; nothing verifiable.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [
+        "Platform"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Drogo Aerospace Pvt Ltd",
+      "source_entity_id": "droneexpo26-drogo-aerospace-pvt-ltd",
+      "screening_status": "A",
+      "primary_layer_screened": "Defence UAV / Loitering",
+      "action": "ADD_NEW",
+      "existing_entity_id": "",
+      "confidence": "HIGH",
+      "reason": "No match in sid.entities, entity_aliases, entity_candidates, zai_entities, dossiers, thin registry or vertical registers (name, legal name, abbreviation, domain, product names). Adds: Platform layer — JK 250e surveillance/recon UAV; Delta Wing Kamikaze UAV / loitering-munition platform (development).",
+      "proposed_entity_id": "225b54fe-155d-5e32-8df1-c289d288720d",
+      "notes": "Dossier: /research/drones-uas/company/drogo-aerospace/ . Aliases: Drogo Drones Pvt Ltd, Drogo Drones",
+      "technology_layers": [
+        "Platform / Tactical UAV",
+        "Platform / Loitering munition"
+      ],
+      "classification": {
+        "company_origin": "Indian",
+        "design_origin": "Indian",
+        "manufacturing": "Unknown",
+        "assembly_integration": "India",
+        "basis": "company_origin: Media reporting (L2); design_origin: Company describes platforms as indigenous (L3); manufacturing: Facility status not verified (L5); assembly_integration: Delivery to Army implies Indian integration — facility and content unverified (L2)"
+      },
+      "technology_origin": "UNKNOWN",
+      "technology_origin_note": "JK 250e described as Make in India; propulsion, battery, avionics and datalink sourcing undisclosed.",
+      "evidence_level": 2,
+      "review_flag": ""
+    },
+    {
+      "company": "EDITHFPV",
+      "source_entity_id": "droneexpo26-edithfpv",
+      "screening_status": "B",
+      "primary_layer_screened": "FPV / UAV",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "FPV platform/component exhibitor; FPV is strategically relevant but no evidence retrieved.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-03.",
+      "technology_layers": [
+        "Platform / FPV"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "VERIFY: component origin"
+    },
+    {
+      "company": "Enovix Research and Development Services India Limited",
+      "source_entity_id": "droneexpo26-enovix-research-and-development-services-india-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Battery Technology",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Battery-technology R&D entity; if linked to US Enovix Corp (silicon-anode cells), it is a foreign-technology R&D node — relationship unverified.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-04.",
+      "technology_layers": [
+        "Energy / Cell"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "VERIFY: parent and India activity"
+    },
+    {
+      "company": "Espacio Aeronext Private Limited",
+      "source_entity_id": "droneexpo26-espacio-aeronext-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Aerospace / UAV",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Aerospace/UAV listing; nothing verifiable.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [
+        "Platform"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "FC TecNrgy Private Limited",
+      "source_entity_id": "droneexpo26-fc-tecnrgy-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Battery / Energy",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Battery/energy exhibitor; expo-listed only.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-04.",
+      "technology_layers": [
+        "Energy / Battery pack"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Fligen Systems Private Limited",
+      "source_entity_id": "droneexpo26-fligen-systems-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "UAV OEM",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Screened as A (UAV OEM) but no product, customer or URL evidence retrieved — cannot justify an Atlas entity.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-07.",
+      "technology_layers": [
+        "Platform"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "VERIFY before promotion"
+    },
+    {
+      "company": "Godi Nova India Private Limited",
+      "source_entity_id": "droneexpo26-godi-nova-india-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Battery Cells / Energy",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Listed under battery cells. If it is part of the Hyderabad cell-maker GODI group it would matter for the cell question — relationship unverified.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-04.",
+      "technology_layers": [
+        "Energy / Cell"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "VERIFY: cell manufacturing + group link"
+    },
+    {
+      "company": "HYDROCOPTER",
+      "source_entity_id": "droneexpo26-hydrocopter",
+      "screening_status": "B",
+      "primary_layer_screened": "UAV / Advanced Platform",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Advanced platform listing (possibly hydrogen-powered); unverified.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [
+        "Platform",
+        "Energy"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Janatics Industrial Automation Private Limited",
+      "source_entity_id": "droneexpo26-janatics-industrial-automation-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Industrial Automation",
+      "action": "IGNORE",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Industrial pneumatics/automation; drone-specific role not established.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Not assessed"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "JSM Composites Pvt. Ltd.",
+      "source_entity_id": "droneexpo26-jsm-composites-pvt-ltd",
+      "screening_status": "B",
+      "primary_layer_screened": "Composites",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Composite manufacturing — enabling layer (DOSF-08); expo-listed only.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-08.",
+      "technology_layers": [
+        "Manufacturing / Composite manufacturing"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Macnica Cytech India Pvt Ltd",
+      "source_entity_id": "droneexpo26-macnica-cytech-india-pvt-ltd",
+      "screening_status": "A",
+      "primary_layer_screened": "Semiconductors / Electronics",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Semiconductor distributor (Indian arm of a Japanese distribution group) — MARKET / COMPONENT INTELLIGENCE NODE; no drone line card retrieved.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-02.",
+      "technology_layers": [
+        "Distribution / Semiconductors"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "CAPTURE LINE CARD"
+    },
+    {
+      "company": "Maksat Technologies Pvt Ltd",
+      "source_entity_id": "droneexpo26-maksat-technologies-pvt-ltd",
+      "screening_status": "A",
+      "primary_layer_screened": "UAV Communications / RF",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Screened as UAV communications/RF; no product evidence retrieved. High-priority verification for DOSF-05.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-05.",
+      "technology_layers": [
+        "Communications / RF",
+        "Communications / Datalink"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "PRIORITY VERIFY"
+    },
+    {
+      "company": "Mehta Hitech Industries Limited",
+      "source_entity_id": "droneexpo26-mehta-hitech-industries-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Materials / Manufacturing",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Materials/manufacturing listing; drone role unverified.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-08.",
+      "technology_layers": [
+        "Manufacturing"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Millennium Semiconductors India Private Limited",
+      "source_entity_id": "droneexpo26-millennium-semiconductors-india-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Semiconductors / Components",
+      "action": "ADD_NEW",
+      "existing_entity_id": "",
+      "confidence": "HIGH",
+      "reason": "No match in sid.entities, entity_aliases, entity_candidates, zai_entities, dossiers, thin registry or vertical registers (name, legal name, abbreviation, domain, product names). Adds: Electronics / Distribution layer — Drone component supply: processors, CMOS sensors, GPS/cellular, sensors, motor control, MOSFETs, Hall sensors, BMS, power and connectors.",
+      "proposed_entity_id": "38d0f9f3-526f-5c87-a387-f20da1948789",
+      "notes": "Dossier: /research/drones-uas/company/millennium-semiconductors-india/ . Node role: MARKET / COMPONENT INTELLIGENCE NODE (distributor). ",
+      "technology_layers": [
+        "Avionics / MCU",
+        "Avionics / Sensors",
+        "Avionics / GNSS",
+        "Propulsion / Power semiconductors",
+        "Energy / BMS",
+        "Avionics / Power management",
+        "Communications / Connectors"
+      ],
+      "classification": {
+        "company_origin": "Indian",
+        "design_origin": "Foreign",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "company_origin: Company website (L3); design_origin: Portfolio consists of globally sourced component brands (L3); manufacturing: Not established — distribution and design-support (L5); assembly_integration: Not established (L5)"
+      },
+      "technology_origin": "Distributor",
+      "technology_origin_note": "Distributes foreign-designed components; does not establish Indian component manufacturing.",
+      "evidence_level": 3,
+      "review_flag": ""
+    },
+    {
+      "company": "Nicomatic India Electronics Private Limited",
+      "source_entity_id": "droneexpo26-nicomatic-india-electronics-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Connectors / Interconnects",
+      "action": "ADD_NEW",
+      "existing_entity_id": "",
+      "confidence": "HIGH",
+      "reason": "No match in sid.entities, entity_aliases, entity_candidates, zai_entities, dossiers, thin registry or vertical registers (name, legal name, abbreviation, domain, product names). Adds: Electronics / Interconnect layer — Electrical/electronic connectors and cable assemblies; MIL-standard interconnect solutions.",
+      "proposed_entity_id": "05d610a6-81c7-5a94-b195-fa637d6868d0",
+      "notes": "Dossier: /research/drones-uas/company/nicomatic-india/ . ",
+      "technology_layers": [
+        "Communications / Connectors",
+        "Avionics / Electrical interconnect",
+        "Manufacturing / Cable assembly"
+      ],
+      "classification": {
+        "company_origin": "Foreign",
+        "design_origin": "Unknown",
+        "manufacturing": "India",
+        "assembly_integration": "India",
+        "basis": "company_origin: Indian subsidiary of the French Nicomatic group (L3); design_origin: India unit certified for design & development; group IP ownership not established (L5); manufacturing: Company states manufacturing in Bengaluru since 2022 (L3); assembly_integration: Cable assemblies — company claim (L3)"
+      },
+      "technology_origin": "Foreign technology + Indian manufacturing",
+      "technology_origin_note": "Evidence level 3: foreign group, company-stated Indian manufacturing. Drone-specific product lines not individually verified.",
+      "evidence_level": 3,
+      "review_flag": ""
+    },
+    {
+      "company": "Ninetron Tech",
+      "source_entity_id": "droneexpo26-ninetron-tech",
+      "screening_status": "B",
+      "primary_layer_screened": "Components / Geospatial / Services",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Components/geospatial services listing.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [
+        "Distribution / Components"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Nirmitsu Design Labs Private Limited",
+      "source_entity_id": "droneexpo26-nirmitsu-design-labs-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Design / AI / Technology",
+      "action": "IGNORE",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Design/AI services; no drone-stack product evidenced.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Not assessed"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Nitpro Composites",
+      "source_entity_id": "droneexpo26-nitpro-composites",
+      "screening_status": "B",
+      "primary_layer_screened": "Composites",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Composite manufacturing — enabling layer (DOSF-08); expo-listed only.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-08.",
+      "technology_layers": [
+        "Manufacturing / Composite manufacturing"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Nsure Reliable Power Solutions Private Limited",
+      "source_entity_id": "droneexpo26-nsure-reliable-power-solutions-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Battery Cells / Energy",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Screened as battery cells/energy; cell-manufacturing claim (if any) is the key question for DOSF-04 and is unverified.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-04.",
+      "technology_layers": [
+        "Energy / Cell"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "PRIORITY VERIFY: cell manufacturing"
+    },
+    {
+      "company": "Phillips Machine Tools India Private Limited",
+      "source_entity_id": "droneexpo26-phillips-machine-tools-india-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Manufacturing Equipment",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Machine-tool / additive supplier — manufacturing-infrastructure node (DOSF-08). Likely distributes foreign machine brands; unverified.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-08.",
+      "technology_layers": [
+        "Manufacturing / CNC",
+        "Manufacturing / Additive manufacturing"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "VERIFY: brands represented"
+    },
+    {
+      "company": "Rangsons Aerospace Private Limited",
+      "source_entity_id": "droneexpo26-rangsons-aerospace-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Aerospace / SATCOM / EW / UAV",
+      "action": "ADD_NEW",
+      "existing_entity_id": "",
+      "confidence": "HIGH",
+      "reason": "No match in sid.entities, entity_aliases, entity_candidates, zai_entities, dossiers, thin registry or vertical registers (name, legal name, abbreviation, domain, product names). Adds: Communications / EW layer — EW suite; RWR; electronic jamming; mission systems; SATCOM-on-the-move and secure datalink (reported).",
+      "proposed_entity_id": "c907344e-65bb-50f0-8765-a14f7feffd31",
+      "notes": "Dossier: /research/drones-uas/company/rangsons-aerospace/ . ",
+      "technology_layers": [
+        "Communications / SATCOM",
+        "Communications / Datalink",
+        "Communications / Secure communications",
+        "Counter-UAS / EW",
+        "Counter-UAS / Jamming"
+      ],
+      "classification": {
+        "company_origin": "Indian",
+        "design_origin": "Unknown",
+        "manufacturing": "India",
+        "assembly_integration": "India",
+        "basis": "company_origin: Company website (L3); design_origin: Company and secondary reporting describe indigenous EW; component origin unknown (L4); manufacturing: Company claim (L3); assembly_integration: Company claim (L3)"
+      },
+      "technology_origin": "UNKNOWN",
+      "technology_origin_note": "EW/SATCOM systems described as indigenous in company and blog sources; RF front-end, FPGA and GaN content unknown.",
+      "evidence_level": 3,
+      "review_flag": ""
+    },
+    {
+      "company": "Robu.in",
+      "source_entity_id": "droneexpo26-robu-in",
+      "screening_status": "A",
+      "primary_layer_screened": "Components / Distribution / Manufacturing",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Hobby/prosumer component e-commerce — MARKET / COMPONENT INTELLIGENCE NODE for imported component brands and demand.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-09.",
+      "technology_layers": [
+        "Distribution / Components"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "CAPTURE LINE CARD"
+    },
+    {
+      "company": "SANH Systems Private Limited",
+      "source_entity_id": "droneexpo26-sanh-systems-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Autonomous UAV / AI",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Multi-mission/VTOL/heavy-payload UAVs + DaaS; all capability and defence claims are company-stated. Track under DOSF-07/10; not a distinct stack contributor yet.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-07.",
+      "technology_layers": [
+        "Platform / VTOL",
+        "Platform / Heavy lift",
+        "Software / Simulation"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "VERIFY: defence evidence"
+    },
+    {
+      "company": "ShepHertz Technologies Private Limited",
+      "source_entity_id": "droneexpo26-shephertz-technologies-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Cloud / Software / AI",
+      "action": "IGNORE",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Generic cloud/software; excluded under the no-generic-AI rule.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Not assessed"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "SIECHEM Technologies Private Limited",
+      "source_entity_id": "droneexpo26-siechem-technologies-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Materials / Manufacturing",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Materials listing; drone role unverified.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-08.",
+      "technology_layers": [
+        "Manufacturing"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "SKYi Composites Private Limited",
+      "source_entity_id": "droneexpo26-skyi-composites-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Composites",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Composite manufacturing — enabling layer (DOSF-08); expo-listed only.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-08.",
+      "technology_layers": [
+        "Manufacturing / Composite manufacturing"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Sparrotronics Private Limited",
+      "source_entity_id": "droneexpo26-sparrotronics-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Electronics / UAV",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Electronics/UAV listing; nothing verifiable.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [
+        "Electronics"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "Stellar Invictus Private Limited",
+      "source_entity_id": "droneexpo26-stellar-invictus-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "UAS / C-UAS / AI",
+      "action": "SIGNAL_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "UAS/C-UAS/AI positioning; no public product or system evidence found (web search 2026-09-30). Emerging-capability reference only; no duplicate C-UAS entry.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Flag for review if product/trial evidence appears.",
+      "technology_layers": [
+        "Counter-UAS / Detection",
+        "Software / AI"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Insufficient evidence"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "REVIEW"
+    },
+    {
+      "company": "T-MOTOR",
+      "source_entity_id": "droneexpo26-t-motor",
+      "screening_status": "A",
+      "primary_layer_screened": "Propulsion / Motors",
+      "action": "UPDATE_EXISTING",
+      "existing_entity_id": "0ee70e5e-0cc5-45a7-a388-3f043475fba7",
+      "confidence": "HIGH",
+      "reason": "Exact match on SID entity \"T-Motor\" (foreign_supplier, CN; alias \"T-Motor\"). Already linked: manufactures → BLDC drone motors, manufactures → Electronic speed controller.",
+      "proposed_entity_id": "",
+      "notes": "ID preserved. Description appended with Drone Expo 2026 direct-presence note; no duplicate created.",
+      "technology_layers": [
+        "Propulsion / BLDC motor",
+        "Propulsion / ESC"
+      ],
+      "classification": {
+        "company_origin": "Foreign",
+        "design_origin": "Foreign",
+        "manufacturing": "Foreign",
+        "assembly_integration": "Foreign",
+        "basis": "Existing Atlas (China supply-chain appendix) + company catalogue; L3"
+      },
+      "technology_origin": "Foreign company / imported product",
+      "evidence_level": 3,
+      "review_flag": ""
+    },
+    {
+      "company": "Tactix Ai",
+      "source_entity_id": "droneexpo26-tactix-ai",
+      "screening_status": "B",
+      "primary_layer_screened": "AI / Defence / Autonomous Systems",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Defence AI/autonomy positioning; no product evidence.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-10.",
+      "technology_layers": [
+        "Software / Autonomy"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "TE Connectivity",
+      "source_entity_id": "droneexpo26-te-connectivity",
+      "screening_status": "A",
+      "primary_layer_screened": "Connectors / Sensors / Power",
+      "action": "ADD_NEW",
+      "existing_entity_id": "",
+      "confidence": "HIGH",
+      "reason": "No match in sid.entities, entity_aliases, entity_candidates, zai_entities, dossiers, thin registry or vertical registers (name, legal name, abbreviation, domain, product names). Adds: Electronics / Interconnect layer — UAV RF connectors, cables, wiring, power connectors, DEUTSCH Wildcat UAV connectors.",
+      "proposed_entity_id": "d26fb2ab-1dc5-518e-b8b9-b64f7edeaec1",
+      "notes": "Dossier: /research/drones-uas/company/te-connectivity/ . ",
+      "technology_layers": [
+        "Communications / Connectors",
+        "Communications / RF",
+        "Avionics / Power"
+      ],
+      "classification": {
+        "company_origin": "Foreign",
+        "design_origin": "Foreign",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "company_origin: Multinational (L3); design_origin: Global product lines (L3); manufacturing: Not established for the UAV portfolio (L5); assembly_integration: Not established (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "technology_origin_note": "Foreign company; whether UAV connectors sold in India are imported or locally made is not evidenced.",
+      "evidence_level": 3,
+      "review_flag": ""
+    },
+    {
+      "company": "Thrust Link Aerospace & Drone Technologies",
+      "source_entity_id": "droneexpo26-thrust-link-aerospace-drone-technologies",
+      "screening_status": "B",
+      "primary_layer_screened": "Propulsion / UAV",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Propulsion/UAV listing; could matter for DOSF-03 but unverified.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-03.",
+      "technology_layers": [
+        "Propulsion"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "VERIFY: motor/ESC manufacturing"
+    },
+    {
+      "company": "Tobitek Private Limited",
+      "source_entity_id": "droneexpo26-tobitek-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Propulsion / BLDC Motors",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Screened as Indian BLDC motors — potentially important for propulsion localisation, but no public footprint found (web search 2026-09-30). Not promoted.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-03.",
+      "technology_layers": [
+        "Propulsion / BLDC motor"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "PRIORITY VERIFY: motor manufacturing, magnet source"
+    },
+    {
+      "company": "UAS Glory Air",
+      "source_entity_id": "droneexpo26-uas-glory-air",
+      "screening_status": "B",
+      "primary_layer_screened": "UAV / Services",
+      "action": "IGNORE",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "UAV services listing; no industrial-stack content.",
+      "proposed_entity_id": "",
+      "notes": "No SID match.",
+      "technology_layers": [],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Not assessed"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "UAVGarage Private Limited",
+      "source_entity_id": "droneexpo26-uavgarage-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Components / Payloads / Distribution",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Components/payloads distributor — MARKET / COMPONENT INTELLIGENCE NODE.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-09.",
+      "technology_layers": [
+        "Distribution / Components",
+        "Payload"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "CAPTURE LINE CARD"
+    },
+    {
+      "company": "Vajron Global Tech Private Limited",
+      "source_entity_id": "droneexpo26-vajron-global-tech-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "C-UAS / Autonomous Systems",
+      "action": "SIGNAL_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "C-UAS / interceptor positioning at the expo; no public product, trial or customer evidence found (web search 2026-09-30 returned nothing). Referenced as emerging C-UAS capability in the existing C-UAS architecture; not added to the C-UAS register.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Flag for review if product/trial evidence appears.",
+      "technology_layers": [
+        "Counter-UAS / Interceptor",
+        "Counter-UAS / C2"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Insufficient evidence"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "REVIEW"
+    },
+    {
+      "company": "Vayuron Advanced Systems Private Limited",
+      "source_entity_id": "droneexpo26-vayuron-advanced-systems-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Defence UAV / ISR / Loitering",
+      "action": "SIGNAL_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Defence ISR / VTOL / loitering claims (\"Ghost Stalker\") rest on company and LinkedIn material only. Watch for trial or procurement evidence before promotion.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Flag for review if product/trial evidence appears.",
+      "technology_layers": [
+        "Platform / VTOL",
+        "Platform / Tactical UAV",
+        "Platform / Loitering munition"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Insufficient evidence"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "REVIEW"
+    },
+    {
+      "company": "VU-Dynamics Private Limited",
+      "source_entity_id": "droneexpo26-vu-dynamics-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Defence UAV / Autonomy",
+      "action": "ADD_NEW",
+      "existing_entity_id": "",
+      "confidence": "HIGH",
+      "reason": "No match in sid.entities, entity_aliases, entity_candidates, zai_entities, dossiers, thin registry or vertical registers (name, legal name, abbreviation, domain, product names). Adds: Platform layer — Long-endurance aerial platforms; launchers; simulators.",
+      "proposed_entity_id": "d32211e9-22c0-5417-b4a8-2256e07255e0",
+      "notes": "Dossier: /research/drones-uas/company/vu-dynamics/ . Aliases: VU-Dynamics Private Limited, VU-Dynamics",
+      "technology_layers": [
+        "Platform / Fixed-wing",
+        "Platform / Tactical UAV",
+        "Platform / Launcher",
+        "Software / Simulation"
+      ],
+      "classification": {
+        "company_origin": "Indian",
+        "design_origin": "Indian",
+        "manufacturing": "India",
+        "assembly_integration": "India",
+        "basis": "company_origin: IIT Kanpur (L2); design_origin: IIT Kanpur: proprietary technologies developed in India (L2); manufacturing: Company/partner statements; Indore factory reported, not verified as operating (L3); assembly_integration: Company/partner statements (L3)"
+      },
+      "technology_origin": "UNKNOWN",
+      "technology_origin_note": "Airframe and systems design is institutionally attributed to India; propulsion, avionics and datalink sourcing undisclosed.",
+      "evidence_level": 2,
+      "review_flag": ""
+    },
+    {
+      "company": "WARG Robotics",
+      "source_entity_id": "droneexpo26-warg-robotics",
+      "screening_status": "A",
+      "primary_layer_screened": "Autonomous Air/Ground Robotics",
+      "action": "ADD_NEW",
+      "existing_entity_id": "",
+      "confidence": "HIGH",
+      "reason": "No match in sid.entities, entity_aliases, entity_candidates, zai_entities, dossiers, thin registry or vertical registers (name, legal name, abbreviation, domain, product names). Adds: Communications / Autonomy layer — Digital low-latency video/telemetry link; encrypted digital link; autonomous flight supervision; FPV air and ground platforms.",
+      "proposed_entity_id": "a33234a6-eb48-5d23-8d9a-5e5cb01efd34",
+      "notes": "Dossier: /research/drones-uas/company/warg-robotics/ . ",
+      "technology_layers": [
+        "Communications / Datalink",
+        "Communications / Secure communications",
+        "Software / Autonomy",
+        "Platform / FPV"
+      ],
+      "classification": {
+        "company_origin": "Indian",
+        "design_origin": "Indian",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "company_origin: Company website (L3); design_origin: Proprietary technology claimed (L3); manufacturing: Not established (L5); assembly_integration: Not established (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "technology_origin_note": "Link protocol/software claimed proprietary; RF chipset and radio hardware origin undisclosed.",
+      "evidence_level": 3,
+      "review_flag": ""
+    },
+    {
+      "company": "XINGTO BATTERY",
+      "source_entity_id": "droneexpo26-xingto-battery",
+      "screening_status": "B",
+      "primary_layer_screened": "Battery / Energy",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "LOW",
+      "reason": "Battery brand, likely foreign (origin unverified); relevant as import-dependency evidence for DOSF-04 rather than as an Indian entity.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-04.",
+      "technology_layers": [
+        "Energy / Cell",
+        "Energy / Battery pack"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": "VERIFY: country of origin"
+    },
+    {
+      "company": "Yali Aerospace Private Limited",
+      "source_entity_id": "droneexpo26-yali-aerospace-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "UAV / Autonomous Networks",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "UAV / autonomous networks listing; unverified.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-10.",
+      "technology_layers": [
+        "Platform",
+        "Communications"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    },
+    {
+      "company": "YARI Robotics Private Limited",
+      "source_entity_id": "droneexpo26-yari-robotics-private-limited",
+      "screening_status": "A",
+      "primary_layer_screened": "Avionics / GNSS / ESC / Data",
+      "action": "ADD_NEW",
+      "existing_entity_id": "",
+      "confidence": "HIGH",
+      "reason": "No match in sid.entities, entity_aliases, entity_candidates, zai_entities, dossiers, thin registry or vertical registers (name, legal name, abbreviation, domain, product names). Adds: Avionics layer — V6X flight controller; GNSS modules; power modules; ESCs; sensors; YARI Atlas data platform.",
+      "proposed_entity_id": "e94ca1dc-45ed-56cf-b6f6-2c55b06b6295",
+      "notes": "Dossier: /research/drones-uas/company/yari-robotics/ . ",
+      "technology_layers": [
+        "Avionics / Flight controller",
+        "Avionics / GNSS",
+        "Avionics / Power module",
+        "Propulsion / ESC",
+        "Software / Data platform"
+      ],
+      "classification": {
+        "company_origin": "Indian",
+        "design_origin": "Indian",
+        "manufacturing": "India",
+        "assembly_integration": "India",
+        "basis": "company_origin: Company website (L3); design_origin: Company claim for V6X (L3); manufacturing: Company claim for V6X — facility not verified (L3); assembly_integration: Company claim (L3)"
+      },
+      "technology_origin": "UNKNOWN",
+      "technology_origin_note": "V6X is claimed \"designed and built in India\"; semiconductor content (MCU, IMU, gate drivers/MOSFETs in the ESCs) undisclosed.",
+      "evidence_level": 3,
+      "review_flag": ""
+    },
+    {
+      "company": "Zerosum Technologies Pvt Ltd.",
+      "source_entity_id": "droneexpo26-zerosum-technologies-pvt-ltd",
+      "screening_status": "A",
+      "primary_layer_screened": "UAV Subsystems / Propulsion / Navigation / RF",
+      "action": "ADD_NEW",
+      "existing_entity_id": "",
+      "confidence": "HIGH",
+      "reason": "No match in sid.entities, entity_aliases, entity_candidates, zai_entities, dossiers, thin registry or vertical registers (name, legal name, abbreviation, domain, product names). Adds: Subsystems layer — UAV propulsion, autopilots, GNSS-denied navigation, RF communications, parachute recovery, testing.",
+      "proposed_entity_id": "f63b722b-3e91-5219-af8e-69e892725a99",
+      "notes": "Dossier: /research/drones-uas/company/zerosum-technologies/ . ",
+      "technology_layers": [
+        "Propulsion / Propulsion controller",
+        "Avionics / Autopilot",
+        "Avionics / GNSS-denied navigation",
+        "Communications / RF",
+        "Manufacturing / Testing"
+      ],
+      "classification": {
+        "company_origin": "Indian",
+        "design_origin": "Mixed",
+        "manufacturing": "Unknown",
+        "assembly_integration": "India",
+        "basis": "company_origin: Company website (L3); design_origin: Technology-partnership model indicated; split unmapped (L3); manufacturing: Not established (L5); assembly_integration: Integration — company claim (L3)"
+      },
+      "technology_origin": "UNKNOWN",
+      "technology_origin_note": "Candidate \"System integrator\"; which lines are partner technology versus in-house design is not evidenced.",
+      "evidence_level": 3,
+      "review_flag": ""
+    },
+    {
+      "company": "ZSpace Robotics Private Limited",
+      "source_entity_id": "droneexpo26-zspace-robotics-private-limited",
+      "screening_status": "B",
+      "primary_layer_screened": "Robotics / Autonomous Systems",
+      "action": "RESEARCH_ONLY",
+      "existing_entity_id": "",
+      "confidence": "MEDIUM",
+      "reason": "Robotics/autonomous systems; air-ground convergence candidate (DOSF-10), unverified.",
+      "proposed_entity_id": "",
+      "notes": "No SID match. Opportunity surface: DOSF-10.",
+      "technology_layers": [
+        "Software / Autonomy"
+      ],
+      "classification": {
+        "company_origin": "Unknown",
+        "design_origin": "Unknown",
+        "manufacturing": "Unknown",
+        "assembly_integration": "Unknown",
+        "basis": "Expo listing only (L5)"
+      },
+      "technology_origin": "UNKNOWN",
+      "evidence_level": 5,
+      "review_flag": ""
+    }
+  ]
+}

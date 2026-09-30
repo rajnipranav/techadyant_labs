@@ -1,0 +1,195 @@
+{
+  "entity_id": "mfg-dx26-nicomatic-india",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "nicomatic-india",
+  "name": "Nicomatic India",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/",
+  "last_verified": "2026-09-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Bengaluru subsidiary of France's Nicomatic — MIL-standard connectors and cable assemblies; states Indian manufacturing since 2022.",
+    "chips": [
+      "drones-uas",
+      "electronics-interconnect",
+      "india",
+      "evidence-l3",
+      "drone-expo-2026"
+    ],
+    "maker": "Nicomatic India",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Electronics / Interconnect",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Private company",
+    "Headquarters": "Hi-Tech Defence & Aerospace Park, KIADB, Bengaluru, Karnataka, India",
+    "Primary layer": "Electronics / Interconnect",
+    "Technology layers": "Communications / Connectors; Avionics / Electrical interconnect; Manufacturing / Cable assembly",
+    "Products (as stated)": "Electrical/electronic connectors and cable assemblies; MIL-standard interconnect solutions",
+    "Company origin": "Foreign — Indian subsidiary of the French Nicomatic group (L3)",
+    "Design origin": "Unknown — India unit certified for design & development; group IP ownership not established (L5)",
+    "Manufacturing": "India — Company states manufacturing in Bengaluru since 2022 (L3)",
+    "Assembly / integration": "India — Cable assemblies — company claim (L3)",
+    "Technology origin": "Foreign technology + Indian manufacturing — Evidence level 3: foreign group, company-stated Indian manufacturing. Drone-specific product lines not individually verified.",
+    "Defence relevance": "Company lists defence optronics, radar, missiles, military communications and drones (L3).",
+    "Overall evidence level": "L3 — Company primary source",
+    "Atlas intake": "Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026) — OSINT intake 2026-09-29"
+  },
+  "what_it_is": {
+    "prose": "Bengaluru manufacturing subsidiary of France's Nicomatic group: connectors and cable assemblies to MIL standards; company states manufacturing since 2022 and AS9100D certification; lists drones among target domains. Drone Expo 2026 exhibitor.\n\nValue-chain position in the Atlas: Develops → Drone connectors & cable harnesses (L3).\n\nEvidence discipline: this record separates company claims from independent evidence. Classifications above carry their evidence level; the technology-origin class is 'Foreign technology + Indian manufacturing'. Exhibiting at Drone Expo 2026 establishes market presence only — not indigenous technology, Indian manufacturing, procurement or deployment.",
+    "sources": [
+      "src-01",
+      "src-02"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Company lists defence optronics, radar, missiles, military communications and drones (L3).",
+    "rows": [],
+    "open_questions": [
+      "Which UAV OEMs source Nicomatic India interconnects, and at what volume?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "No import share is asserted. The items below are the dependency questions this entity sits on, taken from the Atlas UAS sovereignty table (Techadyant internal estimate) — they describe the layer, not this company's disclosed bill of materials.",
+    "items": [
+      {
+        "component": "Connector raw materials / contacts",
+        "severity": "Medium",
+        "note": "Share of contacts and plating made locally is unknown.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "evidence_quality",
+        "label": "Evidence quality",
+        "value": 2,
+        "note": "L3 — Company primary source. Scores rise only with independent or procurement evidence.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "stack_criticality",
+        "label": "Stack criticality of the layer",
+        "value": 3,
+        "note": "How strategically important the layer this entity sits in is (not how good the company is).",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "localisation_evidence",
+        "label": "Localisation evidence",
+        "value": 2,
+        "note": "Strength of evidence that design/manufacture happens in India. Company claims alone score ≤2.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "/research/drones-uas/company/te-connectivity/"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/drones-uas/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2026-09-28",
+      "event": "Exhibits at Drone Expo & Conference 2026, New Delhi.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does Nicomatic India make?",
+      "answer": "Electrical/electronic connectors and cable assemblies; MIL-standard interconnect solutions. (As stated by the company unless noted; evidence level 3.)",
+      "sources": [
+        "src-01"
+      ]
+    },
+    {
+      "question": "Is Nicomatic India's technology indigenous?",
+      "answer": "Not established. Company origin is Foreign; the technology-origin class is 'Foreign technology + Indian manufacturing': Evidence level 3: foreign group, company-stated Indian manufacturing. Drone-specific product lines not individually verified.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Why is Nicomatic India in the Atlas?",
+      "answer": "It adds new information on the Electronics / Interconnect layer of India's drone stack, surfaced at Drone Expo & Conference 2026. Presence at the expo alone would not qualify an entity.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Which UAV OEMs source Nicomatic India interconnects, and at what volume?",
+    "Share of contacts/plating/insulators made in Bengaluru versus imported from the group."
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Nicomatic India — subsidiary profile",
+      "publisher": "Nicomatic",
+      "url": "https://www.nicomatic.com/company/subsidiaries/nicomatic-india",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-29",
+      "note": "Evidence level 3. Company primary source: located in Hi-Tech Defence & Aerospace Park, Bengaluru; operating since 2011; manufacturing since 2022; AS9100D for design and development of connectors and cable assemblies; lists drones among application domains."
+    },
+    {
+      "id": "src-02",
+      "title": "Drone Expo & Conference 2026 — official exhibitor list",
+      "publisher": "Drone Expo & Conference (organiser)",
+      "url": "https://www.droneexpo.in/exhibitors-list",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 5. Establishes exhibitor presence only. Presence does not establish indigenous technology, Indian manufacturing, procurement or deployment."
+    }
+  ],
+  "seo": {
+    "title": "Nicomatic India — Electronics / Interconnect · India UAS Atlas | Techadyant",
+    "meta_description": "Bengaluru manufacturing subsidiary of France's Nicomatic group: connectors and cable assemblies to MIL standards; company states manufacturing since…",
+    "canonical_path": "/research/drones-uas/company/nicomatic-india/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      "/research/drones-uas/",
+      "/reports/who-builds-indias-drones/"
+    ]
+  }
+}

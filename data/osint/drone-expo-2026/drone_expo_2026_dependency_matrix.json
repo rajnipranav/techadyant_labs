@@ -1,0 +1,778 @@
+[
+  {
+    "subsystem": "Propulsion",
+    "technology": "Motor (BLDC)",
+    "indian_entities": [
+      "YARI Robotics (ESC only, not motors)",
+      "Tobitek (unverified — RESEARCH_ONLY)",
+      "Thrust Link (unverified)",
+      "Zerosum Technologies (propulsion line, origin unmapped)"
+    ],
+    "foreign_entities": [
+      "T-Motor (CN, existing)",
+      "SunnySky (CN, existing)"
+    ],
+    "foreign_component_dependency": "High",
+    "localisation_status": "No Indian drone-grade BLDC maker evidenced at the expo; T-MOTOR exhibited directly.",
+    "evidence_level": "L5",
+    "opportunity_surface": "DOSF-03",
+    "sources": [
+      "https://store.tmotor.com/",
+      "https://www.droneexpo.in/exhibitors-list",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Brushless motors",
+      "layer": "Propulsion",
+      "india_score": 32,
+      "china_score": 85,
+      "risk": 43.4,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Propulsion",
+    "technology": "ESC",
+    "indian_entities": [
+      "YARI Robotics (L3 claim)"
+    ],
+    "foreign_entities": [
+      "T-Motor (CN)",
+      "Hobbywing (CN, existing)"
+    ],
+    "foreign_component_dependency": "High",
+    "localisation_status": "One Indian ESC product line claimed; semiconductor content undisclosed.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-03",
+    "sources": [
+      "https://yarirobotics.com/",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Electronic speed controllers",
+      "layer": "Propulsion",
+      "india_score": 36,
+      "china_score": 80,
+      "risk": 38.4,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Propulsion",
+    "technology": "Magnets (NdFeB)",
+    "indian_entities": [],
+    "foreign_entities": [
+      "China-concentrated supply (existing Atlas)"
+    ],
+    "foreign_component_dependency": "Critical",
+    "localisation_status": "Nothing at the expo addressed magnets; existing SID opportunity surface \"Sintered NdFeB magnet manufacturing\" applies.",
+    "evidence_level": "L5",
+    "opportunity_surface": "DOSF-03",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Rare-earth magnets (NdFeB)",
+      "layer": "Propulsion",
+      "india_score": 5,
+      "china_score": 90,
+      "risk": 85.5,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Propulsion",
+    "technology": "Bearings",
+    "indian_entities": [],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Unknown",
+    "localisation_status": "Not observed; not scored in Atlas.",
+    "evidence_level": "L5",
+    "opportunity_surface": "DOSF-03",
+    "sources": [
+      "https://www.droneexpo.in/exhibitors-list"
+    ]
+  },
+  {
+    "subsystem": "Propulsion",
+    "technology": "Power semiconductors",
+    "indian_entities": [
+      "Millennium Semiconductors (distributor of foreign MOSFETs)"
+    ],
+    "foreign_entities": [
+      "Foreign MOSFET/gate-driver brands via distributors"
+    ],
+    "foreign_component_dependency": "High",
+    "localisation_status": "Visible only through distribution — no Indian power-semiconductor supply to UAS observed.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-02",
+    "sources": [
+      "https://www.millenniumsemi.com/solutions/drones/",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Power electronics (GaN/SiC)",
+      "layer": "Electronics",
+      "india_score": 15,
+      "china_score": 65,
+      "risk": 41.4,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Propulsion",
+    "technology": "Propellers",
+    "indian_entities": [],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Medium",
+    "localisation_status": "Not evidenced at expo; existing SID opportunity surface \"UAV propeller manufacturing\" applies.",
+    "evidence_level": "L5",
+    "opportunity_surface": "DOSF-03",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Propellers",
+      "layer": "Propulsion",
+      "india_score": 60,
+      "china_score": 75,
+      "risk": 15.0,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Energy",
+    "technology": "Cells",
+    "indian_entities": [
+      "Nsure (unverified)",
+      "Godi Nova (unverified)",
+      "Enovix R&D India (unverified)"
+    ],
+    "foreign_entities": [
+      "XINGTO (origin unverified)",
+      "Grepow (CN, existing)"
+    ],
+    "foreign_component_dependency": "Critical",
+    "localisation_status": "Several cell-adjacent exhibitors, none with verified drone-cell manufacturing. The cell remains the unresolved layer.",
+    "evidence_level": "L5",
+    "opportunity_surface": "DOSF-04",
+    "sources": [
+      "https://www.droneexpo.in/exhibitors-list",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Battery cells (Li-ion/Li-Po)",
+      "layer": "Power",
+      "india_score": 12,
+      "china_score": 84,
+      "risk": 73.9,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Energy",
+    "technology": "Pack",
+    "indian_entities": [
+      "Ascend Powerpacks (L3)",
+      "ATC Energies (unverified)",
+      "FC TecNrgy (unverified)"
+    ],
+    "foreign_entities": [
+      "Grepow/Tattu (CN, existing)"
+    ],
+    "foreign_component_dependency": "Medium",
+    "localisation_status": "Indian pack integration is visible and claimed; cell origin undisclosed.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-04",
+    "sources": [
+      "https://www.ascendpowerpacks.com/",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Battery pack assembly",
+      "layer": "Power",
+      "india_score": 55,
+      "china_score": 70,
+      "risk": 15.7,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Energy",
+    "technology": "BMS",
+    "indian_entities": [
+      "Ascend Powerpacks (L3)"
+    ],
+    "foreign_entities": [
+      "Foreign BMS silicon via distributors"
+    ],
+    "foreign_component_dependency": "High",
+    "localisation_status": "BMS design claimed in India; BMS ICs distributed from foreign brands.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-04",
+    "sources": [
+      "https://www.ascendpowerpacks.com/",
+      "https://www.millenniumsemi.com/solutions/drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Battery management system (BMS)",
+      "layer": "Power",
+      "india_score": 50,
+      "china_score": 70,
+      "risk": 26.2,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Energy",
+    "technology": "Charging",
+    "indian_entities": [
+      "Ascend Powerpacks (smart charging, L3)"
+    ],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Unknown",
+    "localisation_status": "Single claimed Indian product line; not scored in Atlas.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-04",
+    "sources": [
+      "https://www.ascendpowerpacks.com/"
+    ]
+  },
+  {
+    "subsystem": "Avionics",
+    "technology": "MCU",
+    "indian_entities": [
+      "Millennium Semiconductors (distributor)"
+    ],
+    "foreign_entities": [
+      "STMicroelectronics (CH, existing)",
+      "foreign MCU brands via distributors"
+    ],
+    "foreign_component_dependency": "Critical",
+    "localisation_status": "Indian flight controllers (Arkin, YARI, Zerosum) sit on MCUs of undisclosed, presumably foreign origin — the expo made the dependency visible but did not resolve it.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-02",
+    "sources": [
+      "https://www.millenniumsemi.com/solutions/drones/",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Microcontroller / SoC",
+      "layer": "Electronics",
+      "india_score": 15,
+      "china_score": 75,
+      "risk": 63.8,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Avionics",
+    "technology": "IMU",
+    "indian_entities": [],
+    "foreign_entities": [
+      "Foreign MEMS vendors (existing Atlas)"
+    ],
+    "foreign_component_dependency": "High",
+    "localisation_status": "No Indian drone-grade IMU seen; existing SID opportunity surface \"MEMS IMU manufacturing for UAV guidance\" applies.",
+    "evidence_level": "L5",
+    "opportunity_surface": "DOSF-01",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Inertial measurement unit (MEMS)",
+      "layer": "Electronics",
+      "india_score": 20,
+      "china_score": 70,
+      "risk": 42.0,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Avionics",
+    "technology": "GNSS",
+    "indian_entities": [
+      "Arkin Labs — Navroc (L3)",
+      "YARI Robotics (L3)",
+      "Zerosum — GNSS-denied nav (L3)"
+    ],
+    "foreign_entities": [
+      "Foreign GNSS chipsets via distributors (Millennium)"
+    ],
+    "foreign_component_dependency": "High",
+    "localisation_status": "Indian GNSS modules claimed; chipset (and NavIC support) undisclosed.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-01",
+    "sources": [
+      "https://arkinlabs.in/",
+      "https://yarirobotics.com/",
+      "https://www.zerosumtechnologies.com/",
+      "https://www.millenniumsemi.com/solutions/drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "GNSS receiver module",
+      "layer": "Electronics",
+      "india_score": 24,
+      "china_score": 65,
+      "risk": 37.1,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Avionics",
+    "technology": "Magnetometer",
+    "indian_entities": [],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Unknown",
+    "localisation_status": "Not observed; not scored in Atlas.",
+    "evidence_level": "L5",
+    "opportunity_surface": "DOSF-01",
+    "sources": [
+      "https://www.droneexpo.in/exhibitors-list"
+    ]
+  },
+  {
+    "subsystem": "Avionics",
+    "technology": "Barometer",
+    "indian_entities": [],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Unknown",
+    "localisation_status": "Not observed; not scored in Atlas.",
+    "evidence_level": "L5",
+    "opportunity_surface": "DOSF-01",
+    "sources": [
+      "https://www.droneexpo.in/exhibitors-list"
+    ]
+  },
+  {
+    "subsystem": "Avionics",
+    "technology": "Power management",
+    "indian_entities": [
+      "Arkin Labs (power systems, L3)",
+      "YARI Robotics (power modules, L3)"
+    ],
+    "foreign_entities": [
+      "Foreign PMICs via distributors"
+    ],
+    "foreign_component_dependency": "High",
+    "localisation_status": "Indian power modules claimed; PMIC silicon undisclosed.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-02",
+    "sources": [
+      "https://arkinlabs.in/",
+      "https://yarirobotics.com/",
+      "https://www.millenniumsemi.com/solutions/drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Power-management ICs",
+      "layer": "Power",
+      "india_score": 18,
+      "china_score": 70,
+      "risk": 43.0,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Communications",
+    "technology": "RF",
+    "indian_entities": [
+      "Rangsons Aerospace (L3/L4)",
+      "Zerosum Technologies (L3)",
+      "Maksat (unverified)"
+    ],
+    "foreign_entities": [
+      "Foreign RF front-end vendors (existing Atlas)"
+    ],
+    "foreign_component_dependency": "High",
+    "localisation_status": "Indian RF system capability claimed; RF device layer remains import-sensitive.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-05",
+    "sources": [
+      "https://www.rangsonsaerospace.com/",
+      "https://www.zerosumtechnologies.com/",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "RF front-end IC",
+      "layer": "Electronics",
+      "india_score": 22,
+      "china_score": 70,
+      "risk": 40.9,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Communications",
+    "technology": "Datalink",
+    "indian_entities": [
+      "WARG Robotics (encrypted digital link, L3)",
+      "Rangsons Aerospace (secure datalink, L4)"
+    ],
+    "foreign_entities": [],
+    "foreign_component_dependency": "High",
+    "localisation_status": "New: Indian encrypted digital datalinks now marketed for UAVs; radio silicon undisclosed.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-05",
+    "sources": [
+      "https://www.wargrobotics.com/",
+      "https://idrw.org/?p=397717",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Radio datalink module",
+      "layer": "Comms",
+      "india_score": 30,
+      "china_score": 75,
+      "risk": 39.4,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Communications",
+    "technology": "SDR",
+    "indian_entities": [
+      "Rangsons Aerospace (L4)"
+    ],
+    "foreign_entities": [],
+    "foreign_component_dependency": "High",
+    "localisation_status": "Reported only.",
+    "evidence_level": "L4",
+    "opportunity_surface": "DOSF-05",
+    "sources": [
+      "https://idrw.org/?p=397717"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Anti-jam / secure comms",
+      "layer": "Comms",
+      "india_score": 27,
+      "china_score": 60,
+      "risk": 43.8,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Communications",
+    "technology": "SATCOM",
+    "indian_entities": [
+      "Rangsons Aerospace (SATCOM-on-the-move, reported)"
+    ],
+    "foreign_entities": [],
+    "foreign_component_dependency": "High",
+    "localisation_status": "Reported operational with IAF in secondary sources only; existing SID opportunity surface \"Indigenous SATCOM datalink module\" applies.",
+    "evidence_level": "L4",
+    "opportunity_surface": "DOSF-05",
+    "sources": [
+      "https://idrw.org/?p=397717",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Satcom terminal",
+      "layer": "Comms",
+      "india_score": 35,
+      "china_score": 55,
+      "risk": 26.8,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Communications",
+    "technology": "Antennas",
+    "indian_entities": [],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Medium",
+    "localisation_status": "Not observed at expo.",
+    "evidence_level": "L5",
+    "opportunity_surface": "DOSF-05",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Antennas",
+      "layer": "Comms",
+      "india_score": 45,
+      "china_score": 75,
+      "risk": 20.6,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Communications",
+    "technology": "Encryption / security",
+    "indian_entities": [
+      "WARG Robotics (encrypted link, L3)"
+    ],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Unknown",
+    "localisation_status": "Claimed encryption; implementation and certification unknown. Not scored in Atlas.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-05",
+    "sources": [
+      "https://www.wargrobotics.com/"
+    ]
+  },
+  {
+    "subsystem": "Communications",
+    "technology": "Connectors / interconnect",
+    "indian_entities": [
+      "Nicomatic India (Indian manufacturing of a foreign group, L3)"
+    ],
+    "foreign_entities": [
+      "TE Connectivity (L3)"
+    ],
+    "foreign_component_dependency": "Medium",
+    "localisation_status": "Foreign-technology + Indian-manufacturing model visible; UAV-specific volumes unknown.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-02",
+    "sources": [
+      "https://www.nicomatic.com/company/subsidiaries/nicomatic-india",
+      "https://www.te.com/en/industries/defense-military/applications/unmanned-aerial-vehicles.html",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Connectors & passives",
+      "layer": "Electronics",
+      "india_score": 40,
+      "china_score": 80,
+      "risk": 24.0,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Payload",
+    "technology": "EO",
+    "indian_entities": [],
+    "foreign_entities": [
+      "Existing Atlas: foreign EO detectors"
+    ],
+    "foreign_component_dependency": "High",
+    "localisation_status": "Expo intake added no EO payload maker with evidence.",
+    "evidence_level": "L5",
+    "opportunity_surface": "",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "EO camera (detector)",
+      "layer": "Sensors",
+      "india_score": 30,
+      "china_score": 75,
+      "risk": 39.4,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Payload",
+    "technology": "IR / Thermal",
+    "indian_entities": [],
+    "foreign_entities": [
+      "Existing Atlas: foreign IR detectors"
+    ],
+    "foreign_component_dependency": "Critical",
+    "localisation_status": "Expo intake added no thermal payload evidence; existing Atlas nodes (Tonbo, EON Space Labs) unchanged.",
+    "evidence_level": "L5",
+    "opportunity_surface": "",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Thermal / IR detector",
+      "layer": "Sensors",
+      "india_score": 27,
+      "china_score": 70,
+      "risk": 51.1,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Payload",
+    "technology": "LiDAR",
+    "indian_entities": [],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Medium",
+    "localisation_status": "Not evidenced.",
+    "evidence_level": "L5",
+    "opportunity_surface": "",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "LiDAR",
+      "layer": "Sensors",
+      "india_score": 36,
+      "china_score": 75,
+      "risk": 24.0,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Payload",
+    "technology": "Hyperspectral",
+    "indian_entities": [
+      "BharatRohan (RESEARCH_ONLY, unverified)"
+    ],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Medium",
+    "localisation_status": "Candidate only.",
+    "evidence_level": "L5",
+    "opportunity_surface": "",
+    "sources": [
+      "https://www.droneexpo.in/exhibitors-list",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Multispectral / hyperspectral",
+      "layer": "Sensors",
+      "india_score": 30,
+      "china_score": 60,
+      "risk": 21.0,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Payload",
+    "technology": "Gimbals",
+    "indian_entities": [
+      "UAVGarage (distributor, unverified)"
+    ],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Medium",
+    "localisation_status": "Not evidenced.",
+    "evidence_level": "L5",
+    "opportunity_surface": "",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Gimbal / stabilisation",
+      "layer": "Sensors",
+      "india_score": 60,
+      "china_score": 80,
+      "risk": 16.0,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Manufacturing",
+    "technology": "CNC",
+    "indian_entities": [
+      "Phillips Machine Tools India (unverified; likely foreign brands)"
+    ],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Medium",
+    "localisation_status": "Enabling-infrastructure presence only.",
+    "evidence_level": "L5",
+    "opportunity_surface": "DOSF-08",
+    "sources": [
+      "https://www.droneexpo.in/exhibitors-list",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Precision-machined parts",
+      "layer": "Materials",
+      "india_score": 45,
+      "china_score": 70,
+      "risk": 19.2,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Manufacturing",
+    "technology": "Composites",
+    "indian_entities": [
+      "JSM Composites",
+      "Nitpro Composites",
+      "SKYi Composites (all unverified)"
+    ],
+    "foreign_entities": [
+      "Foreign prepreg/carbon fibre (existing Atlas)"
+    ],
+    "foreign_component_dependency": "High",
+    "localisation_status": "Three composite fabricators exhibited; fibre/prepreg remains imported per existing Atlas.",
+    "evidence_level": "L5",
+    "opportunity_surface": "DOSF-08",
+    "sources": [
+      "https://www.droneexpo.in/exhibitors-list",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Carbon fibre (finished)",
+      "layer": "Materials",
+      "india_score": 30,
+      "china_score": 65,
+      "risk": 34.1,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Manufacturing",
+    "technology": "Additive manufacturing",
+    "indian_entities": [
+      "Phillips Machine Tools India (unverified)"
+    ],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Medium",
+    "localisation_status": "Presence only.",
+    "evidence_level": "L5",
+    "opportunity_surface": "DOSF-08",
+    "sources": [
+      "https://www.droneexpo.in/exhibitors-list",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Additive-manufactured parts",
+      "layer": "Materials",
+      "india_score": 55,
+      "china_score": 65,
+      "risk": 7.3,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Manufacturing",
+    "technology": "Electronics assembly",
+    "indian_entities": [
+      "Nicomatic India (cable assemblies, L3)"
+    ],
+    "foreign_entities": [],
+    "foreign_component_dependency": "High",
+    "localisation_status": "No EMS/PCB fabricator evidenced; multilayer PCB remains a known gap.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-08",
+    "sources": [
+      "https://www.nicomatic.com/company/subsidiaries/nicomatic-india",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Multilayer / HDI PCB",
+      "layer": "Electronics",
+      "india_score": 25,
+      "china_score": 80,
+      "risk": 45.0,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  },
+  {
+    "subsystem": "Manufacturing",
+    "technology": "Battery manufacturing",
+    "indian_entities": [
+      "Ascend Powerpacks (pack, L3)"
+    ],
+    "foreign_entities": [],
+    "foreign_component_dependency": "Critical",
+    "localisation_status": "Pack assembly only; no cell manufacturing evidenced.",
+    "evidence_level": "L3",
+    "opportunity_surface": "DOSF-04",
+    "sources": [
+      "https://www.ascendpowerpacks.com/",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ],
+    "atlas_sovereignty_ref": {
+      "component": "Battery pack assembly",
+      "layer": "Power",
+      "india_score": 55,
+      "china_score": 70,
+      "risk": 15.7,
+      "note": "Techadyant UAS sovereignty table (app/research/_drones.json) — internal indicative estimate."
+    }
+  }
+]

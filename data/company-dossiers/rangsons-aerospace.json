@@ -1,0 +1,218 @@
+{
+  "entity_id": "mfg-dx26-rangsons-aerospace",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "rangsons-aerospace",
+  "name": "Rangsons Aerospace",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/",
+  "last_verified": "2026-09-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Indian defence electronics house — EW suites, RWR, jamming; reported SATCOM-on-the-move and secure datalinks. UAV-specific products not yet evidenced.",
+    "chips": [
+      "drones-uas",
+      "communications-ew",
+      "india",
+      "evidence-l3",
+      "drone-expo-2026"
+    ],
+    "maker": "Rangsons Aerospace",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Communications / EW",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Private company",
+    "Headquarters": "India (Karnataka)",
+    "Primary layer": "Communications / EW",
+    "Technology layers": "Communications / SATCOM; Communications / Datalink; Communications / Secure communications; Counter-UAS / EW; Counter-UAS / Jamming",
+    "Products (as stated)": "EW suite; RWR; electronic jamming; mission systems; SATCOM-on-the-move and secure datalink (reported)",
+    "Company origin": "Indian — Company website (L3)",
+    "Design origin": "Unknown — Company and secondary reporting describe indigenous EW; component origin unknown (L4)",
+    "Manufacturing": "India — Company claim (L3)",
+    "Assembly / integration": "India — Company claim (L3)",
+    "Technology origin": "UNKNOWN — EW/SATCOM systems described as indigenous in company and blog sources; RF front-end, FPGA and GaN content unknown.",
+    "Defence relevance": "Company identifies MoD/IAF EW programme work (L3); a DRDO-collaborative showcase for Su-30MKI/Jaguar is reported by a defence blog (L4). No contract award located. UAV-specific products not evidenced.",
+    "Overall evidence level": "L3 — Company primary source",
+    "Atlas intake": "Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026) — OSINT intake 2026-09-29"
+  },
+  "what_it_is": {
+    "prose": "Indian aerospace/defence electronics company: EW suites, RWR, jamming and mission systems; reported SATCOM-on-the-move and secure datalink work with DRDO for IAF fleets. Company states integrated R&D and manufacturing. Drone Expo 2026 exhibitor.\n\nValue-chain position in the Atlas: Develops → Electronic warfare & ELINT (L3); Develops → Software-defined radio & secure comms (L4).\n\nEvidence discipline: this record separates company claims from independent evidence. Classifications above carry their evidence level; the technology-origin class is 'UNKNOWN'. Exhibiting at Drone Expo 2026 establishes market presence only — not indigenous technology, Indian manufacturing, procurement or deployment.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Company identifies MoD/IAF EW programme work (L3); a DRDO-collaborative showcase for Su-30MKI/Jaguar is reported by a defence blog (L4). No contract award located. UAV-specific products not evidenced.",
+    "rows": [],
+    "open_questions": [
+      "Contract evidence for the IAF EW programme and SATCOM systems (reported as operational with IAF in secondary sources only)."
+    ]
+  },
+  "import_dependencies": {
+    "summary": "No import share is asserted. The items below are the dependency questions this entity sits on, taken from the Atlas UAS sovereignty table (Techadyant internal estimate) — they describe the layer, not this company's disclosed bill of materials.",
+    "items": [
+      {
+        "component": "RF front-end / GaN",
+        "severity": "High",
+        "note": "RF power and front-end devices import-sensitive across Indian EW.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      },
+      {
+        "component": "FPGAs",
+        "severity": "High",
+        "note": "EW/SDR processing relies on imported FPGAs.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "evidence_quality",
+        "label": "Evidence quality",
+        "value": 2,
+        "note": "L3 — Company primary source. Scores rise only with independent or procurement evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "stack_criticality",
+        "label": "Stack criticality of the layer",
+        "value": 5,
+        "note": "How strategically important the layer this entity sits in is (not how good the company is).",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "localisation_evidence",
+        "label": "Localisation evidence",
+        "value": 2,
+        "note": "Strength of evidence that design/manufacture happens in India. Company claims alone score ≤2.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "/research/drones-uas/company/warg-robotics/"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/drones-uas/",
+      "/research/counter-uas/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2026-09-28",
+      "event": "Exhibits at Drone Expo & Conference 2026, New Delhi.",
+      "sources": [
+        "src-03"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does Rangsons Aerospace make?",
+      "answer": "EW suite; RWR; electronic jamming; mission systems; SATCOM-on-the-move and secure datalink (reported). (As stated by the company unless noted; evidence level 3.)",
+      "sources": [
+        "src-01"
+      ]
+    },
+    {
+      "question": "Is Rangsons Aerospace's technology indigenous?",
+      "answer": "Not established. Company origin is Indian; the technology-origin class is 'UNKNOWN': EW/SATCOM systems described as indigenous in company and blog sources; RF front-end, FPGA and GaN content unknown.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Why is Rangsons Aerospace in the Atlas?",
+      "answer": "It adds new information on the Communications / EW layer of India's drone stack, surfaced at Drone Expo & Conference 2026. Presence at the expo alone would not qualify an entity.",
+      "sources": [
+        "src-03"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Which EW/datalink products are packaged for UAV or C-UAS use (the Drone Expo positioning)?",
+    "Contract evidence for the IAF EW programme and SATCOM systems (reported as operational with IAF in secondary sources only)."
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Rangsons Aerospace — company website",
+      "publisher": "Rangsons Aerospace",
+      "url": "https://www.rangsonsaerospace.com/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-29",
+      "note": "Evidence level 3. Company primary source (OSINT pass 2026-09-29): EW suite, RWR, electronic jamming, mission systems; states integrated R&D and manufacturing; identifies MoD/IAF EW programme work."
+    },
+    {
+      "id": "src-02",
+      "title": "Rangsons Aerospace and DRDO showcase indigenous EW and mission systems for IAF Su-30MKI and Jaguar",
+      "publisher": "IDRW",
+      "url": "https://idrw.org/?p=397717",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 4. Secondary defence blog; read via search abstract only (page not retrieved). Describes a showcase/demonstration, not a contract award. Used as a lead, never as sole source."
+    },
+    {
+      "id": "src-03",
+      "title": "Drone Expo & Conference 2026 — official exhibitor list",
+      "publisher": "Drone Expo & Conference (organiser)",
+      "url": "https://www.droneexpo.in/exhibitors-list",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 5. Establishes exhibitor presence only. Presence does not establish indigenous technology, Indian manufacturing, procurement or deployment."
+    }
+  ],
+  "seo": {
+    "title": "Rangsons Aerospace — Communications / EW · India UAS Atlas | Techadyant",
+    "meta_description": "Indian aerospace/defence electronics company: EW suites, RWR, jamming and mission systems; reported SATCOM-on-the-move and secure datalink work with…",
+    "canonical_path": "/research/drones-uas/company/rangsons-aerospace/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      "/research/drones-uas/",
+      "/reports/who-builds-indias-drones/"
+    ]
+  }
+}

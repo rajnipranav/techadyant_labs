@@ -1,0 +1,437 @@
+[
+  {
+    "relationship_id": "1fe8f3dd-2213-5d1f-9603-8a9651b6323b",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "31ee6554-aabb-5d11-926a-2d6e4d0725a1",
+    "source": "Arkin Labs",
+    "target_id": "47065355-aa57-497c-bcf9-032132c386dd",
+    "target": "Drone flight controller",
+    "description": "AeroMind flight controllers/autopilots. Company-stated Indian design and manufacture; component origin undisclosed.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://arkinlabs.in/"
+    ]
+  },
+  {
+    "relationship_id": "9e7ef98e-8ca0-5e49-acff-24658ddece4f",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "31ee6554-aabb-5d11-926a-2d6e4d0725a1",
+    "source": "Arkin Labs",
+    "target_id": "06e3420d-55e3-46b3-a79d-92eef922e86e",
+    "target": "GNSS navigation modules",
+    "description": "Navroc GNSS modules. Company claim; GNSS chipset origin undisclosed.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://arkinlabs.in/"
+    ]
+  },
+  {
+    "relationship_id": "17a69838-aae7-5b62-9117-dc4e525ed65e",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "e94ca1dc-45ed-56cf-b6f6-2c55b06b6295",
+    "source": "YARI Robotics",
+    "target_id": "47065355-aa57-497c-bcf9-032132c386dd",
+    "target": "Drone flight controller",
+    "description": "V6X flight controller — company states designed and built in India.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://yarirobotics.com/"
+    ]
+  },
+  {
+    "relationship_id": "36d4eacd-c5a3-5cae-913d-11638f3dbea9",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "e94ca1dc-45ed-56cf-b6f6-2c55b06b6295",
+    "source": "YARI Robotics",
+    "target_id": "06e3420d-55e3-46b3-a79d-92eef922e86e",
+    "target": "GNSS navigation modules",
+    "description": "GNSS modules (company product line).",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://yarirobotics.com/"
+    ]
+  },
+  {
+    "relationship_id": "9ec63cbd-5a42-5296-9d0e-780437e05467",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "e94ca1dc-45ed-56cf-b6f6-2c55b06b6295",
+    "source": "YARI Robotics",
+    "target_id": "fd2ff0c1-e166-449c-9fe1-b384381dd98b",
+    "target": "Electronic speed controller",
+    "description": "ESCs (company product line); in-house vs partner design not established.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://yarirobotics.com/"
+    ]
+  },
+  {
+    "relationship_id": "96e1f9dd-29d4-55ca-9522-5b9cc0a0f3d7",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "83612f71-0950-5dbb-ad17-0f09cc8dfa90",
+    "source": "Ascend Powerpacks",
+    "target_id": "6f859a25-d872-4d66-8307-c8133c3560ed",
+    "target": "Drone battery packs",
+    "description": "Li-ion, Li-HV and semi-solid-state drone packs with in-house BMS — company claim.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.ascendpowerpacks.com/"
+    ]
+  },
+  {
+    "relationship_id": "3887197f-2a0b-5cac-9471-19b86d01b65e",
+    "type": "depends_on",
+    "type_label": "Depends on",
+    "source_id": "83612f71-0950-5dbb-ad17-0f09cc8dfa90",
+    "source": "Ascend Powerpacks",
+    "target_id": "3b19bd89-8cc0-4414-aa82-28badad6fa3b",
+    "target": "High-energy Li-ion cells",
+    "description": "Pack maker; cell supplier and origin undisclosed — the pack-vs-cell sovereignty gap.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.ascendpowerpacks.com/",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ]
+  },
+  {
+    "relationship_id": "2333a173-0807-5284-b74d-f558c13661ca",
+    "type": "supplies_to",
+    "type_label": "Supplies to",
+    "source_id": "38d0f9f3-526f-5c87-a387-f20da1948789",
+    "source": "Millennium Semiconductors India",
+    "target_id": "8e5fb42b-e531-4198-8c17-22e44e46bf58",
+    "target": "Drone microcontrollers and SoCs",
+    "description": "Distributes processors/MCUs for drone flight control from globally sourced brands (distributor, not manufacturer).",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.millenniumsemi.com/solutions/drones/"
+    ]
+  },
+  {
+    "relationship_id": "617166a1-6095-5b50-ae8e-f0aae13b9803",
+    "type": "supplies_to",
+    "type_label": "Supplies to",
+    "source_id": "38d0f9f3-526f-5c87-a387-f20da1948789",
+    "source": "Millennium Semiconductors India",
+    "target_id": "c8bbc285-b1f1-46d7-81d0-758056bfb5a2",
+    "target": "Motor-control power electronics",
+    "description": "Distributes motor-control ICs, MOSFETs and Hall sensors for drone propulsion electronics.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.millenniumsemi.com/solutions/drones/"
+    ]
+  },
+  {
+    "relationship_id": "f9cc8741-194c-52bd-80a4-22c11b2dcc5c",
+    "type": "supplies_to",
+    "type_label": "Supplies to",
+    "source_id": "38d0f9f3-526f-5c87-a387-f20da1948789",
+    "source": "Millennium Semiconductors India",
+    "target_id": "06e3420d-55e3-46b3-a79d-92eef922e86e",
+    "target": "GNSS navigation modules",
+    "description": "Distributes GPS/cellular modules for drones.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.millenniumsemi.com/solutions/drones/"
+    ]
+  },
+  {
+    "relationship_id": "f883057f-f23c-5d4a-9a8f-6c3c23db722f",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "05d610a6-81c7-5a94-b195-fa637d6868d0",
+    "source": "Nicomatic India",
+    "target_id": "6f1300e9-059a-5137-85ba-f71aaa95fd7f",
+    "target": "Drone connectors & cable harnesses",
+    "description": "Connectors and cable assemblies; company states Bengaluru manufacturing since 2022 (foreign-group subsidiary).",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.nicomatic.com/company/subsidiaries/nicomatic-india"
+    ]
+  },
+  {
+    "relationship_id": "4834d7a2-5c6f-5ca9-81fc-be575de301da",
+    "type": "manufactures",
+    "type_label": "Manufactures / Produces",
+    "source_id": "d26fb2ab-1dc5-518e-b8b9-b64f7edeaec1",
+    "source": "TE Connectivity",
+    "target_id": "6f1300e9-059a-5137-85ba-f71aaa95fd7f",
+    "target": "Drone connectors & cable harnesses",
+    "description": "UAV RF/power connectors and DEUTSCH Wildcat UAV connectors (global portfolio; Indian manufacturing not established).",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.te.com/en/industries/defense-military/applications/unmanned-aerial-vehicles.html"
+    ]
+  },
+  {
+    "relationship_id": "850eec82-0390-56ce-98d7-7d8498450ec3",
+    "type": "component_of",
+    "type_label": "Component of",
+    "source_id": "6f1300e9-059a-5137-85ba-f71aaa95fd7f",
+    "source": "Drone connectors & cable harnesses",
+    "target_id": "c5e5bd7b-bcde-47d8-b533-383f667dd37f",
+    "target": "Small UAV (multirotor)",
+    "description": "Interconnect and harnessing across avionics, power and payload wiring.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ]
+  },
+  {
+    "relationship_id": "bbdbe7e5-143d-51b7-b414-d1600d7b0f62",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "c907344e-65bb-50f0-8765-a14f7feffd31",
+    "source": "Rangsons Aerospace",
+    "target_id": "b6f764bf-b79e-4a31-bc21-c26e89262780",
+    "target": "Electronic warfare & ELINT",
+    "description": "EW suite, RWR and jamming systems — company claim; DRDO-collaborative showcase reported (blog).",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.rangsonsaerospace.com/",
+      "https://idrw.org/?p=397717"
+    ]
+  },
+  {
+    "relationship_id": "fb7edf2e-fb33-5a2c-9e46-36b93b9dd909",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "c907344e-65bb-50f0-8765-a14f7feffd31",
+    "source": "Rangsons Aerospace",
+    "target_id": "4a28c361-a3f6-43b1-a5f6-ebe930348c6c",
+    "target": "Software-defined radio & secure comms",
+    "description": "SATCOM-on-the-move and secure datalink architectures (reported, secondary).",
+    "evidence_level": 4,
+    "verification_status": "unverified",
+    "corridor": "defence",
+    "sources": [
+      "https://idrw.org/?p=397717"
+    ]
+  },
+  {
+    "relationship_id": "2624ee09-2dd5-540e-a119-a14dcc520f26",
+    "type": "supplies_to",
+    "type_label": "Supplies to",
+    "source_id": "225b54fe-155d-5e32-8df1-c289d288720d",
+    "source": "Drogo Aerospace",
+    "target_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+    "target": "Indian Army",
+    "description": "First batch of 41 JK 250e drones reported delivered to Army Southern Command, Nashik (Jun 2026) under a ₹72 crore contract. Media-reported; no MoD primary.",
+    "evidence_level": 2,
+    "verification_status": "corroborated",
+    "corridor": "defence",
+    "sources": [
+      "https://newsable.asianetnews.com/india/drogo-aerospace-delivers-first-batch-of-41-jk-250e-drones-to-army-articleshow-1ng38bh",
+      "https://www.siasat.com/hyderabad-defence-firm-supplies-drones-to-indian-army-3490157/"
+    ]
+  },
+  {
+    "relationship_id": "162e3c56-f3a0-5a5e-aa5f-e24785a91b3e",
+    "type": "partners_with",
+    "type_label": "Partners / JV with",
+    "source_id": "225b54fe-155d-5e32-8df1-c289d288720d",
+    "source": "Drogo Aerospace",
+    "target_id": "dd592284-c565-4f97-ae62-167e84e6413b",
+    "target": "Munitions India Limited",
+    "description": "MoU (4 Sep 2026) for design, development and integration of indigenous UAVs and loitering munitions. Not an order.",
+    "evidence_level": 2,
+    "verification_status": "corroborated",
+    "corridor": "defence",
+    "sources": [
+      "https://www.thehansindia.com/business/market-compass/drogo-aerospace-signs-mou-with-munitions-india-for-loitering-munition-uav-systems-1118309"
+    ]
+  },
+  {
+    "relationship_id": "44ca53b3-0d05-5ecf-845a-5c46294e6219",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "225b54fe-155d-5e32-8df1-c289d288720d",
+    "source": "Drogo Aerospace",
+    "target_id": "e40fd689-67d4-4b6e-9b16-8a00437180cd",
+    "target": "Loitering munitions",
+    "description": "Delta Wing Kamikaze UAV / loitering-munition platform — development stage; company says recently tested.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.thehansindia.com/business/market-compass/drogo-aerospace-signs-mou-with-munitions-india-for-loitering-munition-uav-systems-1118309"
+    ]
+  },
+  {
+    "relationship_id": "94936d3b-ed51-588e-8091-21ed9a3a7d05",
+    "type": "related_to",
+    "type_label": "related to",
+    "source_id": "d32211e9-22c0-5417-b4a8-2256e07255e0",
+    "source": "VU Dynamics",
+    "target_id": "a7cbd40b-5bcf-4f67-aec0-ba669c593a76",
+    "target": "IIT Kanpur",
+    "description": "Incubated at SIIC, IIT Kanpur; co-founder is IIT Kanpur aerospace faculty.",
+    "evidence_level": 2,
+    "verification_status": "corroborated",
+    "corridor": "defence",
+    "sources": [
+      "https://iitk.ac.in/startup-vu-dynamics-collaborates-with-path-group"
+    ]
+  },
+  {
+    "relationship_id": "ced2f981-ce2b-5b7e-8c6f-95ac74feae46",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "f63b722b-3e91-5219-af8e-69e892725a99",
+    "source": "Zerosum Technologies",
+    "target_id": "47065355-aa57-497c-bcf9-032132c386dd",
+    "target": "Drone flight controller",
+    "description": "Autopilots (company product line); in-house vs partner technology unmapped.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.zerosumtechnologies.com/"
+    ]
+  },
+  {
+    "relationship_id": "4b1a6642-10bd-50aa-93b5-870f1c0c8b6b",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "f63b722b-3e91-5219-af8e-69e892725a99",
+    "source": "Zerosum Technologies",
+    "target_id": "d543ad74-c45a-5f1a-927f-f244a1fcfe9c",
+    "target": "GNSS-denied UAV navigation",
+    "description": "GNSS-denied navigation offering (company claim); technology origin unverified.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.zerosumtechnologies.com/"
+    ]
+  },
+  {
+    "relationship_id": "af7083f8-d087-5043-b034-f3ea6e25bff3",
+    "type": "related_to",
+    "type_label": "related to",
+    "source_id": "d543ad74-c45a-5f1a-927f-f244a1fcfe9c",
+    "source": "GNSS-denied UAV navigation",
+    "target_id": "06e3420d-55e3-46b3-a79d-92eef922e86e",
+    "target": "GNSS navigation modules",
+    "description": "Complements/backs up GNSS modules when GNSS is jammed or spoofed.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ]
+  },
+  {
+    "relationship_id": "cd5b1850-7cfb-5d55-a362-f7a8d446936b",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "a33234a6-eb48-5d23-8d9a-5e5cb01efd34",
+    "source": "WARG Robotics",
+    "target_id": "fe01b014-f633-5db0-8720-ca019f051ad8",
+    "target": "UAV datalink modules",
+    "description": "Encrypted, low-latency digital video/telemetry link — proprietary technology claimed.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.wargrobotics.com/"
+    ]
+  },
+  {
+    "relationship_id": "d0536c70-a61e-5f1f-a201-843e0864b1d4",
+    "type": "develops",
+    "type_label": "Develops",
+    "source_id": "a33234a6-eb48-5d23-8d9a-5e5cb01efd34",
+    "source": "WARG Robotics",
+    "target_id": "822f650e-54c9-4e3a-b4d6-09687dcb03c4",
+    "target": "AI, autonomy & target recognition",
+    "description": "Autonomous flight supervision for air and ground platforms (company claim).",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://www.wargrobotics.com/"
+    ]
+  },
+  {
+    "relationship_id": "5dca041c-fdff-5b53-8c0f-b44727bc4201",
+    "type": "component_of",
+    "type_label": "Component of",
+    "source_id": "fe01b014-f633-5db0-8720-ca019f051ad8",
+    "source": "UAV datalink modules",
+    "target_id": "c5e5bd7b-bcde-47d8-b533-383f667dd37f",
+    "target": "Small UAV (multirotor)",
+    "description": "C2, telemetry and video link subsystem.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ]
+  },
+  {
+    "relationship_id": "519f71ce-4930-5435-ab5c-38cfde14c799",
+    "type": "component_of",
+    "type_label": "Component of",
+    "source_id": "fe01b014-f633-5db0-8720-ca019f051ad8",
+    "source": "UAV datalink modules",
+    "target_id": "5fe8dcd9-2396-463e-be75-4f0a566a9aeb",
+    "target": "MALE / HALE UAV platforms",
+    "description": "LOS/BLOS datalinks and SATCOM terminals for MALE/HALE UAVs.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ]
+  },
+  {
+    "relationship_id": "1fbe63ab-22a9-5b4c-bd96-74d34e70b0b5",
+    "type": "related_to",
+    "type_label": "related to",
+    "source_id": "fe01b014-f633-5db0-8720-ca019f051ad8",
+    "source": "UAV datalink modules",
+    "target_id": "4a28c361-a3f6-43b1-a5f6-ebe930348c6c",
+    "target": "Software-defined radio & secure comms",
+    "description": "Resilient/secure UAV datalinks increasingly built on SDR and secure-comms technology.",
+    "evidence_level": 3,
+    "verification_status": "single_source",
+    "corridor": "defence",
+    "sources": [
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ]
+  }
+]

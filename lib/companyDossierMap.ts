@@ -182,6 +182,18 @@ import dossier_vshorads_ from "../data/dossiers/vshorads.json";
 // atlas/matangi-sagar-defence · 2026-09-09 · maritime unmanned (defence vertical)
 import dossier_matangi_usv_ from "../data/company-dossiers/matangi-usv.json";
 import dossier_sagar_defence_engineering_ from "../data/company-dossiers/sagar-defence-engineering.json";
+// drone-expo-2026 · 2026-09-30 · UAS subsystem / value-chain entities (scripts/ingest-drone-expo-2026.py)
+import dossier_arkin_labs_ from "../data/company-dossiers/arkin-labs.json";
+import dossier_yari_robotics_ from "../data/company-dossiers/yari-robotics.json";
+import dossier_ascend_powerpacks_ from "../data/company-dossiers/ascend-powerpacks.json";
+import dossier_millennium_semiconductors_india_ from "../data/company-dossiers/millennium-semiconductors-india.json";
+import dossier_nicomatic_india_ from "../data/company-dossiers/nicomatic-india.json";
+import dossier_te_connectivity_ from "../data/company-dossiers/te-connectivity.json";
+import dossier_rangsons_aerospace_ from "../data/company-dossiers/rangsons-aerospace.json";
+import dossier_drogo_aerospace_ from "../data/company-dossiers/drogo-aerospace.json";
+import dossier_vu_dynamics_ from "../data/company-dossiers/vu-dynamics.json";
+import dossier_zerosum_technologies_ from "../data/company-dossiers/zerosum-technologies.json";
+import dossier_warg_robotics_ from "../data/company-dossiers/warg-robotics.json";
 // --- END MANUAL ADDITIONS ---
 
 export type CompanyDossierTier = "A" | "B";
@@ -199,6 +211,18 @@ export const COMPANY_DOSSIER_MAP: Record<string, readonly CompanyDossierMapEntry
   // --- MANUAL ADDITIONS (not from MANIFEST.json) — keep on regeneration ---
   "matangi-usv": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/matangi-usv/", filename: "matangi-usv.json", dossier: dossier_matangi_usv_ as unknown as EntityDossier }],
   "sagar-defence-engineering": [{ tier: "A", vertical: "defence", path: "/research/pillars/defence/entity/sagar-defence-engineering/", filename: "sagar-defence-engineering.json", dossier: dossier_sagar_defence_engineering_ as unknown as EntityDossier }],
+  // drone-expo-2026 · 2026-09-30
+  "arkin-labs": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/arkin-labs/", filename: "arkin-labs.json", dossier: dossier_arkin_labs_ as unknown as EntityDossier }],
+  "yari-robotics": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/yari-robotics/", filename: "yari-robotics.json", dossier: dossier_yari_robotics_ as unknown as EntityDossier }],
+  "ascend-powerpacks": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/ascend-powerpacks/", filename: "ascend-powerpacks.json", dossier: dossier_ascend_powerpacks_ as unknown as EntityDossier }],
+  "millennium-semiconductors-india": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/millennium-semiconductors-india/", filename: "millennium-semiconductors-india.json", dossier: dossier_millennium_semiconductors_india_ as unknown as EntityDossier }],
+  "nicomatic-india": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/nicomatic-india/", filename: "nicomatic-india.json", dossier: dossier_nicomatic_india_ as unknown as EntityDossier }],
+  "te-connectivity": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/te-connectivity/", filename: "te-connectivity.json", dossier: dossier_te_connectivity_ as unknown as EntityDossier }],
+  "rangsons-aerospace": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/rangsons-aerospace/", filename: "rangsons-aerospace.json", dossier: dossier_rangsons_aerospace_ as unknown as EntityDossier }],
+  "drogo-aerospace": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/drogo-aerospace/", filename: "drogo-aerospace.json", dossier: dossier_drogo_aerospace_ as unknown as EntityDossier }],
+  "vu-dynamics": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/vu-dynamics/", filename: "vu-dynamics.json", dossier: dossier_vu_dynamics_ as unknown as EntityDossier }],
+  "zerosum-technologies": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/zerosum-technologies/", filename: "zerosum-technologies.json", dossier: dossier_zerosum_technologies_ as unknown as EntityDossier }],
+  "warg-robotics": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/warg-robotics/", filename: "warg-robotics.json", dossier: dossier_warg_robotics_ as unknown as EntityDossier }],
   // --- END MANUAL ADDITIONS ---
   "adani-defence-aerospace-mfr-017": [{ tier: "A", vertical: "drones-uas", path: "/research/drones-uas/company/adani-defence-aerospace-mfr-017/", filename: "adani-defence-aerospace-mfr-017.json", dossier: dossier_adani_defence_aerospace_mfr_017_ as unknown as EntityDossier }],
   "asteria-aerospace-ltd-mfr-016": [{ tier: "B", vertical: "drones-uas", path: "/research/drones-uas/company/asteria-aerospace-ltd-mfr-016/", filename: "asteria-aerospace-ltd-mfr-016.json", dossier: dossier_asteria_aerospace_ltd_mfr_016_ as unknown as EntityDossier }],

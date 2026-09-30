@@ -1,0 +1,201 @@
+{
+  "entity_id": "mfg-dx26-zerosum-technologies",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "zerosum-technologies",
+  "name": "Zerosum Technologies",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/",
+  "last_verified": "2026-09-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Indian UAV subsystem integrator — propulsion, autopilots, GNSS-denied navigation, RF, recovery. Partner vs in-house technology unmapped.",
+    "chips": [
+      "drones-uas",
+      "subsystems",
+      "india",
+      "evidence-l3",
+      "drone-expo-2026"
+    ],
+    "maker": "Zerosum Technologies",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Subsystems",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Private company",
+    "Headquarters": "India (HQ not verified in this pass)",
+    "Primary layer": "Subsystems",
+    "Technology layers": "Propulsion / Propulsion controller; Avionics / Autopilot; Avionics / GNSS-denied navigation; Communications / RF; Manufacturing / Testing",
+    "Products (as stated)": "UAV propulsion, autopilots, GNSS-denied navigation, RF communications, parachute recovery, testing",
+    "Company origin": "Indian — Company website (L3)",
+    "Design origin": "Mixed — Technology-partnership model indicated; split unmapped (L3)",
+    "Manufacturing": "Unknown — Not established (L5)",
+    "Assembly / integration": "India — Integration — company claim (L3)",
+    "Technology origin": "UNKNOWN — Candidate \"System integrator\"; which lines are partner technology versus in-house design is not evidenced.",
+    "Defence relevance": "UAV subsystem, navigation and communications relevance (L3).",
+    "Overall evidence level": "L3 — Company primary source",
+    "Atlas intake": "Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026) — OSINT intake 2026-09-29"
+  },
+  "what_it_is": {
+    "prose": "Indian UAV subsystem engineering/integration company: propulsion, autopilots, GNSS-denied navigation, RF communications, parachute recovery and testing. Technology-partnership model indicated; which subsystems are in-house is unmapped. Drone Expo 2026 exhibitor.\n\nValue-chain position in the Atlas: Develops → Drone flight controller (L3); Develops → GNSS-denied UAV navigation (L3).\n\nEvidence discipline: this record separates company claims from independent evidence. Classifications above carry their evidence level; the technology-origin class is 'UNKNOWN'. Exhibiting at Drone Expo 2026 establishes market presence only — not indigenous technology, Indian manufacturing, procurement or deployment.",
+    "sources": [
+      "src-01",
+      "src-02"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "UAV subsystem, navigation and communications relevance (L3).",
+    "rows": [],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "No import share is asserted. The items below are the dependency questions this entity sits on, taken from the Atlas UAS sovereignty table (Techadyant internal estimate) — they describe the layer, not this company's disclosed bill of materials.",
+    "items": [
+      {
+        "component": "Partner technology",
+        "severity": "Unknown",
+        "note": "Technology-partnership model — which subsystems are foreign is unmapped.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      },
+      {
+        "component": "GNSS-denied navigation sensors",
+        "severity": "High",
+        "note": "Camera/IMU sensors for alternative navigation typically imported.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "evidence_quality",
+        "label": "Evidence quality",
+        "value": 2,
+        "note": "L3 — Company primary source. Scores rise only with independent or procurement evidence.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "stack_criticality",
+        "label": "Stack criticality of the layer",
+        "value": 4,
+        "note": "How strategically important the layer this entity sits in is (not how good the company is).",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "localisation_evidence",
+        "label": "Localisation evidence",
+        "value": 1,
+        "note": "Strength of evidence that design/manufacture happens in India. Company claims alone score ≤2.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "/research/drones-uas/company/arkin-labs/",
+      "/research/drones-uas/company/yari-robotics/"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/drones-uas/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2026-09-28",
+      "event": "Exhibits at Drone Expo & Conference 2026, New Delhi.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does Zerosum Technologies make?",
+      "answer": "UAV propulsion, autopilots, GNSS-denied navigation, RF communications, parachute recovery, testing. (As stated by the company unless noted; evidence level 3.)",
+      "sources": [
+        "src-01"
+      ]
+    },
+    {
+      "question": "Is Zerosum Technologies's technology indigenous?",
+      "answer": "Not established. Company origin is Indian; the technology-origin class is 'UNKNOWN': Candidate \"System integrator\"; which lines are partner technology versus in-house design is not evidenced.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Why is Zerosum Technologies in the Atlas?",
+      "answer": "It adds new information on the Subsystems layer of India's drone stack, surfaced at Drone Expo & Conference 2026. Presence at the expo alone would not qualify an entity.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Who are the technology partners, and which product lines are theirs?",
+    "Is the GNSS-denied navigation in-house (visual/terrain-referenced) or a licensed foreign product?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Zerosum Technologies — company website",
+      "publisher": "Zerosum Technologies",
+      "url": "https://www.zerosumtechnologies.com/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-29",
+      "note": "Evidence level 3. Company primary source (OSINT pass 2026-09-29): UAV propulsion, autopilots, GNSS-denied navigation, RF communications, parachute recovery, testing. Technology-origin claims need component-level verification; a technology-partnership model is indicated but not mapped."
+    },
+    {
+      "id": "src-02",
+      "title": "Drone Expo & Conference 2026 — official exhibitor list",
+      "publisher": "Drone Expo & Conference (organiser)",
+      "url": "https://www.droneexpo.in/exhibitors-list",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 5. Establishes exhibitor presence only. Presence does not establish indigenous technology, Indian manufacturing, procurement or deployment."
+    }
+  ],
+  "seo": {
+    "title": "Zerosum Technologies — Subsystems · India UAS Atlas | Techadyant",
+    "meta_description": "Indian UAV subsystem engineering/integration company: propulsion, autopilots, GNSS-denied navigation, RF communications, parachute recovery and…",
+    "canonical_path": "/research/drones-uas/company/zerosum-technologies/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      "/research/drones-uas/",
+      "/reports/who-builds-indias-drones/"
+    ]
+  }
+}

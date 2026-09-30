@@ -1,0 +1,248 @@
+{
+  "entity_id": "mfg-dx26-vu-dynamics",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "vu-dynamics",
+  "name": "VU Dynamics",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/",
+  "last_verified": "2026-09-30",
+  "status": "Development",
+  "header": {
+    "one_liner": "IIT Kanpur-incubated defence UAV developer — long-endurance platforms, launchers, simulators; PATH Group partnership (reported as takeover).",
+    "chips": [
+      "drones-uas",
+      "platform",
+      "india",
+      "evidence-l2",
+      "drone-expo-2026"
+    ],
+    "maker": "VU Dynamics",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Platform",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Private company",
+    "Headquarters": "SIIC, IIT Kanpur, Uttar Pradesh, India",
+    "Primary layer": "Platform",
+    "Technology layers": "Platform / Fixed-wing; Platform / Tactical UAV; Platform / Launcher; Software / Simulation",
+    "Products (as stated)": "Long-endurance aerial platforms; launchers; simulators",
+    "Company origin": "Indian — IIT Kanpur (L2)",
+    "Design origin": "Indian — IIT Kanpur: proprietary technologies developed in India (L2)",
+    "Manufacturing": "India — Company/partner statements; Indore factory reported, not verified as operating (L3)",
+    "Assembly / integration": "India — Company/partner statements (L3)",
+    "Technology origin": "UNKNOWN — Airframe and systems design is institutionally attributed to India; propulsion, avionics and datalink sourcing undisclosed.",
+    "Defence relevance": "Defence-focused autonomous aerial platforms (L2 institutional description). No procurement located.",
+    "Overall evidence level": "L2 — Independent media / institution",
+    "Atlas intake": "Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026) — OSINT intake 2026-09-29"
+  },
+  "what_it_is": {
+    "prose": "IIT Kanpur-incubated (SIIC) defence UAV developer led by Prof Subrahmanyam Saderla: long-endurance aerial platforms, launchers and simulators. Strategic partnership with PATH Group (reported by BusinessLine as a takeover, with an Indore factory).\n\nValue-chain position in the Atlas: related to → IIT Kanpur (L2).\n\nEvidence discipline: this record separates company claims from independent evidence. Classifications above carry their evidence level; the technology-origin class is 'UNKNOWN'. Exhibiting at Drone Expo 2026 establishes market presence only — not indigenous technology, Indian manufacturing, procurement or deployment.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-04"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Defence-focused autonomous aerial platforms (L2 institutional description). No procurement located.",
+    "rows": [],
+    "open_questions": [
+      "Any Army/tri-service trial or order for VU Dynamics platforms."
+    ]
+  },
+  "import_dependencies": {
+    "summary": "No import share is asserted. The items below are the dependency questions this entity sits on, taken from the Atlas UAS sovereignty table (Techadyant internal estimate) — they describe the layer, not this company's disclosed bill of materials.",
+    "items": [
+      {
+        "component": "Propulsion",
+        "severity": "High",
+        "note": "Propulsion sourcing undisclosed.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      },
+      {
+        "component": "Avionics / datalink",
+        "severity": "High",
+        "note": "Avionics and link sourcing undisclosed.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "evidence_quality",
+        "label": "Evidence quality",
+        "value": 4,
+        "note": "L2 — Independent media / institution. Scores rise only with independent or procurement evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "stack_criticality",
+        "label": "Stack criticality of the layer",
+        "value": 4,
+        "note": "How strategically important the layer this entity sits in is (not how good the company is).",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      },
+      {
+        "id": "localisation_evidence",
+        "label": "Localisation evidence",
+        "value": 3,
+        "note": "Strength of evidence that design/manufacture happens in India. Company claims alone score ≤2.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03",
+          "src-04"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "/research/drones-uas/company/drogo-aerospace/"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/drones-uas/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2022",
+      "event": "Company founded (IIT Kanpur SIIC incubation).",
+      "sources": [
+        "src-01"
+      ]
+    },
+    {
+      "date": "2025-05",
+      "event": "Strategic partnership with PATH Group announced; BusinessLine reports a takeover and an Indore factory.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "event": "Exhibits at Drone Expo & Conference 2026, New Delhi.",
+      "sources": [
+        "src-04"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does VU Dynamics make?",
+      "answer": "Long-endurance aerial platforms; launchers; simulators. (As stated by the company unless noted; evidence level 2.)",
+      "sources": [
+        "src-01"
+      ]
+    },
+    {
+      "question": "Is VU Dynamics's technology indigenous?",
+      "answer": "Not established. Company origin is Indian; the technology-origin class is 'UNKNOWN': Airframe and systems design is institutionally attributed to India; propulsion, avionics and datalink sourcing undisclosed.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03",
+        "src-04"
+      ]
+    },
+    {
+      "question": "Why is VU Dynamics in the Atlas?",
+      "answer": "It adds new information on the Platform layer of India's drone stack, surfaced at Drone Expo & Conference 2026. Presence at the expo alone would not qualify an entity.",
+      "sources": [
+        "src-04"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Is VU Dynamics now a PATH subsidiary (takeover) or a partner (collaboration)? Sources disagree.",
+    "Status of the Indore factory: announced, under construction or producing?",
+    "Any Army/tri-service trial or order for VU Dynamics platforms."
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "IIT Kanpur-incubated startup VU Dynamics collaborates with PATH Group to advance indigenous defence manufacturing",
+      "publisher": "IIT Kanpur",
+      "url": "https://iitk.ac.in/startup-vu-dynamics-collaborates-with-path-group",
+      "published_date": "2025-05",
+      "trust_tier": "credible",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 2. Institutional source (search abstract; page not retrieved): incubated at SIIC IIT Kanpur; led by Prof Subrahmanyam Saderla and Dr Sravanthi Saderla; long-endurance aerial systems with proprietary technologies developed in India; strategic partnership with Prakash Asphaltings and Toll Highways (India) Ltd (PATH Group)."
+    },
+    {
+      "id": "src-02",
+      "title": "PATH takes over drone start-up VU Dynamics, to set up factory in Indore (as indexed)",
+      "publisher": "The Hindu BusinessLine (via Venture Intelligence)",
+      "url": "https://news.ventureintelligence.com/private-equity/prakash-asphaltings-acquires-iit-kanpur-incubated-drones-maker-vu-dynamics",
+      "published_date": "2025-05-19",
+      "trust_tier": "credible",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 2. Reports the PATH deal as a takeover with an Indore factory. IIT Kanpur describes it as a collaboration. Ownership structure unresolved."
+    },
+    {
+      "id": "src-03",
+      "title": "VU Dynamics — company website",
+      "publisher": "VU Dynamics",
+      "url": "https://vudynamics.co.in/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-29",
+      "note": "Evidence level 3. Company primary source (OSINT pass 2026-09-29): aerial platforms, launchers, simulators."
+    },
+    {
+      "id": "src-04",
+      "title": "Drone Expo & Conference 2026 — official exhibitor list",
+      "publisher": "Drone Expo & Conference (organiser)",
+      "url": "https://www.droneexpo.in/exhibitors-list",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 5. Establishes exhibitor presence only. Presence does not establish indigenous technology, Indian manufacturing, procurement or deployment."
+    }
+  ],
+  "seo": {
+    "title": "VU Dynamics — Platform · India UAS Atlas | Techadyant",
+    "meta_description": "IIT Kanpur-incubated (SIIC) defence UAV developer led by Prof Subrahmanyam Saderla: long-endurance aerial platforms, launchers and simulators.…",
+    "canonical_path": "/research/drones-uas/company/vu-dynamics/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      "/research/drones-uas/",
+      "/reports/who-builds-indias-drones/"
+    ]
+  }
+}

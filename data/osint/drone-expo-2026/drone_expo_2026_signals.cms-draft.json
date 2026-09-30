@@ -1,0 +1,198 @@
+[
+  {
+    "no": "S-128",
+    "slug": "indian-defence-uav-makers-cross-from-prototype-to-delivery",
+    "title": "India's Defence UAV Start-ups Are Crossing From Prototype to Delivery",
+    "domain": "Defence & Dual-Use",
+    "date": "2026-09-30",
+    "date_label": "30 Sep 2026",
+    "reading_time": "4 min",
+    "status": "monitoring",
+    "excerpt": "Private Indian UAV makers are now visible at the delivery and DPSU-partnership stage, not only the demonstration stage — but the evidence stops at the platform and says nothing about what is inside it.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Private Indian UAV makers are now visible at the delivery and DPSU-partnership stage, not only the demonstration stage — but the evidence stops at the platform and says nothing about what is inside it."
+      },
+      {
+        "type": "h",
+        "text": "What the evidence shows"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Drogo Aerospace: first batch of 41 JK 250e drones reported delivered to Army Southern Command (Nashik) in June 2026 under a ₹72 crore contract (L2, multiple outlets; no MoD primary).",
+          "Drogo Aerospace – Munitions India Ltd MoU (4 Sep 2026) for indigenous UAVs and loitering munitions (L2). An MoU is not an order.",
+          "VU Dynamics (IIT Kanpur SIIC) partnership with PATH Group; BusinessLine reports a takeover and an Indore factory (L2)."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Why it matters"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Delivery evidence shifts the question from \"can they build it\" to \"what is in the bill of materials\".",
+          "DPSU partnerships give private designers a production and qualification route for loitering munitions."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "What we cannot yet say"
+      },
+      {
+        "type": "list",
+        "items": [
+          "No MoD primary contract document located for the JK 250e order.",
+          "VU Dynamics ownership (takeover vs collaboration) unresolved.",
+          "Subsystem origin for every platform undisclosed."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Source note: surfaced through Techadyant's OSINT pass on Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026). Exhibitor presence alone is not treated as evidence of capability; evidence levels are stated per claim."
+      }
+    ],
+    "takeaways": [
+      "Delivery evidence shifts the question from \"can they build it\" to \"what is in the bill of materials\".",
+      "DPSU partnerships give private designers a production and qualification route for loitering munitions."
+    ],
+    "sources": [
+      "https://newsable.asianetnews.com/india/drogo-aerospace-delivers-first-batch-of-41-jk-250e-drones-to-army-articleshow-1ng38bh",
+      "https://www.siasat.com/hyderabad-defence-firm-supplies-drones-to-indian-army-3490157/",
+      "https://www.thehansindia.com/business/market-compass/drogo-aerospace-signs-mou-with-munitions-india-for-loitering-munition-uav-systems-1118309",
+      "https://iitk.ac.in/startup-vu-dynamics-collaborates-with-path-group",
+      "https://news.ventureintelligence.com/private-equity/prakash-asphaltings-acquires-iit-kanpur-incubated-drones-maker-vu-dynamics"
+    ]
+  },
+  {
+    "no": "S-129",
+    "slug": "hidden-semiconductor-dependency-of-indian-uavs",
+    "title": "The Hidden Semiconductor Dependency of Indian UAVs",
+    "domain": "Critical Manufacturing Dependencies",
+    "date": "2026-09-30",
+    "date_label": "30 Sep 2026",
+    "reading_time": "4 min",
+    "status": "monitoring",
+    "excerpt": "Indian drone avionics are increasingly designed in India, but the silicon inside them arrives through distributors' drone portfolios — which makes distributors the clearest window onto the dependency.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Indian drone avionics are increasingly designed in India, but the silicon inside them arrives through distributors' drone portfolios — which makes distributors the clearest window onto the dependency."
+      },
+      {
+        "type": "h",
+        "text": "What the evidence shows"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Millennium Semiconductors publishes a drone component portfolio spanning processors, CMOS sensors, GNSS/cellular, motor control, MOSFETs, Hall sensors, BMS and power — from globally sourced brands (L3).",
+          "Indian flight-controller vendors (Arkin Labs, YARI Robotics, Zerosum) claim Indian design but disclose no semiconductor BOM (L3).",
+          "Techadyant UAS sovereignty table already scores MCU/SoC, IMU, PMIC and power electronics among the highest-risk layers (internal, indicative)."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Why it matters"
+      },
+      {
+        "type": "list",
+        "items": [
+          "\"Designed in India\" at board level and \"dependent on imports\" at chip level are both true at once.",
+          "Distributor line cards are a repeatable, low-cost dependency-tracking method."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "What we cannot yet say"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Specific brands in the portfolio were not re-verified in this pass.",
+          "No Indian FC vendor BOM is public."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Source note: surfaced through Techadyant's OSINT pass on Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026). Exhibitor presence alone is not treated as evidence of capability; evidence levels are stated per claim."
+      }
+    ],
+    "takeaways": [
+      "\"Designed in India\" at board level and \"dependent on imports\" at chip level are both true at once.",
+      "Distributor line cards are a repeatable, low-cost dependency-tracking method."
+    ],
+    "sources": [
+      "https://www.millenniumsemi.com/solutions/drones/",
+      "https://arkinlabs.in/",
+      "https://yarirobotics.com/",
+      "https://www.zerosumtechnologies.com/",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ]
+  },
+  {
+    "no": "S-130",
+    "slug": "drone-battery-question-is-a-cell-question",
+    "title": "India's Drone Battery Question Is Really a Cell Question",
+    "domain": "Critical Manufacturing Dependencies",
+    "date": "2026-09-30",
+    "date_label": "30 Sep 2026",
+    "reading_time": "4 min",
+    "status": "monitoring",
+    "excerpt": "Drone Expo 2026 showed Indian pack and BMS integration — including semi-solid-state packs — but not one verified Indian drone-cell source. Pack localisation is being mistaken for battery localisation.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Drone Expo 2026 showed Indian pack and BMS integration — including semi-solid-state packs — but not one verified Indian drone-cell source. Pack localisation is being mistaken for battery localisation."
+      },
+      {
+        "type": "h",
+        "text": "What the evidence shows"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Ascend Powerpacks claims in-house design and manufacture of drone packs, BMS and chargers; cell origin undisclosed (L3).",
+          "Six further energy exhibitors (Nsure, Godi Nova, Enovix R&D India, ATC Energies, FC TecNrgy, XINGTO) — none with verified drone-cell manufacturing (L5).",
+          "Existing Atlas: \"cells are the imported core of domestically assembled packs\"."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Why it matters"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Endurance and payload — the performance levers defence buyers care about — are set by a cell India does not yet evidently make for drones.",
+          "Pack makers are the natural first customers for any Indian drone-grade cell line."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "What we cannot yet say"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Cell-manufacturing status of the unverified energy exhibitors."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Source note: surfaced through Techadyant's OSINT pass on Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026). Exhibitor presence alone is not treated as evidence of capability; evidence levels are stated per claim."
+      }
+    ],
+    "takeaways": [
+      "Endurance and payload — the performance levers defence buyers care about — are set by a cell India does not yet evidently make for drones.",
+      "Pack makers are the natural first customers for any Indian drone-grade cell line."
+    ],
+    "sources": [
+      "https://www.ascendpowerpacks.com/",
+      "https://www.droneexpo.in/exhibitors-list",
+      "https://labs.techadyant.com/reports/who-builds-indias-drones/"
+    ]
+  }
+]
