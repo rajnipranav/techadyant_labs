@@ -1,0 +1,11 @@
+﻿opportunity_id,theme,companies,value_chain,research_hypothesis,priority
+DOSF-01,Drone Brain / Avionics,Arkin Labs; YARI Robotics,"Flight controllers, GNSS, sensors, power modules, autonomy/data tooling",Potential localisation surface in high-reliability flight electronics and PNT,High
+DOSF-02,Drone Electronics,Millennium Semiconductors; TE Connectivity; Nicomatic,"MCU/SoC, sensors, MOSFETs, BMS, connectors, harnesses",Foreign component dependence remains visible in the electronics stack,High
+DOSF-03,Propulsion,TobiTek; T-MOTOR; Zerosum,"BLDC motors, ESCs, propulsion","Compare Indian motor capability against global suppliers; investigate magnets, bearings, ESC semiconductors",High
+DOSF-04,Energy Storage,NSure; Ascend; GODI; FC TecNrgy; XINGTO,"Cells, packs, BMS, charging",Separate Indian pack integration from upstream cell sovereignty,High
+DOSF-05,UAV Communications,Rangsons; Maksat; WARG,"RF, datalink, SDR, secure digital links, SATCOM",Potential localisation of resilient communications and contested-spectrum capability,High
+DOSF-06,C-UAS,VAJRON; Stellar Invictus; Rangsons,"Detection, C2, EW, interceptor/autonomy",Map expo companies against the existing Techadyant C-UAS Atlas rather than creating a duplicate directory,High
+DOSF-07,Defence UAV Scale-up,Drogo; Vayuron; SANH; VU-Dynamics,"Tactical UAV, ISR, loitering, autonomy","Track transition from prototype/company claim to procurement, production and fielding evidence",High
+DOSF-08,Manufacturing Infrastructure,Phillips Machine Tools; JSM; Nitpro; SKYi,"CNC, additive, composites",Enabling layer beneath UAV OEMs; useful for industrial-capability mapping,Medium
+DOSF-09,Component Distribution,Bharat Skytech; Robu; UAVGarage,Imported component brands and market access,Use distributors as OSINT nodes to identify recurring foreign dependencies,High
+DOSF-10,Autonomous Air-Ground Systems,WARG; ZSpace; SANH,UAV/UGV autonomy and secure control,Emerging convergence of unmanned air and ground systems,Medium

@@ -5,6 +5,9 @@ import { DronesView } from './DronesView';
 import { DronesTrack } from './DronesTrack';
 import { companies, platforms } from './data';
 import dronesData from '../_drones.json';
+import droneExpo2026 from '../../../data/osint/drone-expo-2026/site_index.json';
+
+const EVIDENCE_LABEL: Record<number, string> = { 1: 'L1 · official', 2: 'L2 · independent', 3: 'L3 · company claim', 4: 'L4 · secondary', 5: 'L5 · unverified' };
 
 const meta = (dronesData as { meta: { platforms: number; companies: number; indianCompanies: number; procurementInrCr: number; agencies: number; opportunities: number; buildNow: number; criticalDeps: number } }).meta;
 const inr = `₹${Math.round(meta.procurementInrCr).toLocaleString('en-IN')} crore`;
@@ -63,6 +66,24 @@ export default function DronesPage() {
       </header>
       <section className="wrap">
         <DronesView data={dronesData as never} />
+      </section>
+
+      <section className="wrap">
+        <div className="section-head-ed"><div><div className="ed-kicker">Stack intelligence · {droneExpo2026.event}</div><h2>Newly mapped subsystem suppliers</h2></div></div>
+        <p style={{ margin: '0 0 18px', fontSize: 14, color: 'var(--text-dim)', lineHeight: 1.6, maxWidth: 820 }}>
+          {droneExpo2026.screened} exhibitors screened against the Atlas; {droneExpo2026.counts.ADD_NEW} added because they change what we know about
+          the avionics, energy, electronics, communications and defence-platform layers. Exhibiting is not evidence of indigenous
+          technology or Indian manufacturing — each dossier states its evidence level and what remains unverified.
+        </p>
+        <div style={{ display: 'grid', gap: 14, gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
+          {droneExpo2026.entities.map((e) => (
+            <Link key={e.slug} href={e.path} style={{ border: '1px solid var(--border, rgba(255,255,255,.12))', borderRadius: 12, padding: '16px 18px', background: 'var(--bg-2, rgba(255,255,255,.02))', display: 'block', textDecoration: 'none' }}>
+              <div className="ed-kicker" style={{ marginBottom: 6 }}>{e.layer} · {EVIDENCE_LABEL[e.evidence_level]}</div>
+              <h3 style={{ margin: '0 0 6px', fontSize: 16 }}>{e.name}</h3>
+              <p style={{ margin: 0, fontSize: 13.5, color: 'var(--text-dim)', lineHeight: 1.55 }}>{e.one_liner}</p>
+            </Link>
+          ))}
+        </div>
       </section>
 
       <section className="wrap" style={{ background: 'var(--bg-2)' }}>

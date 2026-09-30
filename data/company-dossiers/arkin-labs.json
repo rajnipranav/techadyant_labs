@@ -1,0 +1,212 @@
+{
+  "entity_id": "mfg-dx26-arkin-labs",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "arkin-labs",
+  "name": "Arkin Labs",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/",
+  "last_verified": "2026-09-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Chennai UAV avionics maker — AeroMind flight controllers, Navroc GNSS, power modules. Claims Indian design and manufacture; chip-level sourcing undisclosed.",
+    "chips": [
+      "drones-uas",
+      "avionics",
+      "india",
+      "evidence-l3",
+      "drone-expo-2026"
+    ],
+    "maker": "Arkin Labs",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Avionics",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Private company",
+    "Headquarters": "Chennai, Tamil Nadu, India",
+    "Primary layer": "Avionics",
+    "Technology layers": "Avionics / Flight controller; Avionics / Autopilot; Avionics / GNSS; Avionics / Sensors; Avionics / Power module; Software / Mission planning (ground control)",
+    "Products (as stated)": "AeroMind flight controllers / autopilots; Navroc GNSS; sensors and peripherals; power systems; ground control",
+    "Company origin": "Indian — Company website (L3)",
+    "Design origin": "Indian — Company claim — not independently verified (L3)",
+    "Manufacturing": "India — Company claim — facility not verified (L3)",
+    "Assembly / integration": "India — Company claim (L3)",
+    "Technology origin": "UNKNOWN — Company claims \"Indian designed + Indian manufactured\"; MCU, IMU and GNSS-chipset origin undisclosed, so the product-level class cannot be assigned.",
+    "Defence relevance": "Company states deployment across OEM and defence programmes (L3, unverified — no programme named or corroborated).",
+    "Overall evidence level": "L3 — Company primary source",
+    "Atlas intake": "Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026) — OSINT intake 2026-09-29"
+  },
+  "what_it_is": {
+    "prose": "Chennai-based UAV avionics company (flight controllers/autopilots, Navroc GNSS, sensors, power modules, ground control). Company states products are designed and manufactured in India; component sourcing undisclosed. Drone Expo 2026 exhibitor.\n\nValue-chain position in the Atlas: Develops → Drone flight controller (L3); Develops → GNSS navigation modules (L3).\n\nEvidence discipline: this record separates company claims from independent evidence. Classifications above carry their evidence level; the technology-origin class is 'UNKNOWN'. Exhibiting at Drone Expo 2026 establishes market presence only — not indigenous technology, Indian manufacturing, procurement or deployment.",
+    "sources": [
+      "src-01",
+      "src-02"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Company states deployment across OEM and defence programmes (L3, unverified — no programme named or corroborated).",
+    "rows": [],
+    "open_questions": [
+      "Which named OEMs or defence programmes use AeroMind? No customer is independently corroborated.",
+      "Is manufacturing in-house PCB assembly, contract EMS, or final integration only?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "No import share is asserted. The items below are the dependency questions this entity sits on, taken from the Atlas UAS sovereignty table (Techadyant internal estimate) — they describe the layer, not this company's disclosed bill of materials.",
+    "items": [
+      {
+        "component": "Drone microcontrollers / SoC",
+        "severity": "Critical",
+        "note": "Atlas sovereignty table: MCU/SoC is among the highest-risk UAS layers.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      },
+      {
+        "component": "MEMS IMU",
+        "severity": "High",
+        "note": "IMU sensors largely imported across Indian UAS.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      },
+      {
+        "component": "GNSS receiver chipset",
+        "severity": "High",
+        "note": "GNSS modules are commonly built on foreign chipsets.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "evidence_quality",
+        "label": "Evidence quality",
+        "value": 2,
+        "note": "L3 — Company primary source. Scores rise only with independent or procurement evidence.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "stack_criticality",
+        "label": "Stack criticality of the layer",
+        "value": 5,
+        "note": "How strategically important the layer this entity sits in is (not how good the company is).",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "localisation_evidence",
+        "label": "Localisation evidence",
+        "value": 2,
+        "note": "Strength of evidence that design/manufacture happens in India. Company claims alone score ≤2.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "/research/drones-uas/company/yari-robotics/",
+      "/research/drones-uas/company/zerosum-technologies/"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/drones-uas/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2026-09-28",
+      "event": "Exhibits at Drone Expo & Conference 2026, New Delhi.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does Arkin Labs make?",
+      "answer": "AeroMind flight controllers / autopilots; Navroc GNSS; sensors and peripherals; power systems; ground control. (As stated by the company unless noted; evidence level 3.)",
+      "sources": [
+        "src-01"
+      ]
+    },
+    {
+      "question": "Is Arkin Labs's technology indigenous?",
+      "answer": "Not established. Company origin is Indian; the technology-origin class is 'UNKNOWN': Company claims \"Indian designed + Indian manufactured\"; MCU, IMU and GNSS-chipset origin undisclosed, so the product-level class cannot be assigned.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Why is Arkin Labs in the Atlas?",
+      "answer": "It adds new information on the Avionics layer of India's drone stack, surfaced at Drone Expo & Conference 2026. Presence at the expo alone would not qualify an entity.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Which MCU/SoC, IMU and GNSS chipsets are inside AeroMind and Navroc, and who makes them?",
+    "Which named OEMs or defence programmes use AeroMind? No customer is independently corroborated.",
+    "Is manufacturing in-house PCB assembly, contract EMS, or final integration only?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Arkin Labs — company website",
+      "publisher": "Arkin Labs",
+      "url": "https://arkinlabs.in/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-29",
+      "note": "Evidence level 3. Company primary source (OSINT pass 2026-09-29): AeroMind flight controllers/autopilots, Navroc GNSS, sensors, power systems, ground control; states products designed and manufactured in India."
+    },
+    {
+      "id": "src-02",
+      "title": "Drone Expo & Conference 2026 — official exhibitor list",
+      "publisher": "Drone Expo & Conference (organiser)",
+      "url": "https://www.droneexpo.in/exhibitors-list",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 5. Establishes exhibitor presence only. Presence does not establish indigenous technology, Indian manufacturing, procurement or deployment."
+    }
+  ],
+  "seo": {
+    "title": "Arkin Labs — Avionics · India UAS Atlas | Techadyant",
+    "meta_description": "Chennai-based UAV avionics company (flight controllers/autopilots, Navroc GNSS, sensors, power modules, ground control). Company states products are…",
+    "canonical_path": "/research/drones-uas/company/arkin-labs/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      "/research/drones-uas/",
+      "/reports/who-builds-indias-drones/"
+    ]
+  }
+}

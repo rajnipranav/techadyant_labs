@@ -7,6 +7,7 @@ import { getThinRecordBySlug } from "@/lib/thinRegistry";
 import { ThinEntityPage } from "@/app/_thinEntityPage";
 import { RelatedReportsLinks, ENTITY_TO_REPORTS } from '../../../report-links';
 import { listStaticParamsForBase } from '../../../../../lib/loadDossier';
+import droneExpo2026 from '../../../../../data/osint/drone-expo-2026/site_index.json';
 
 export function generateStaticParams() { const dossierSlugs = listStaticParamsForBase("/research/drones-uas/company/");
   const thinSlugs = [
@@ -114,8 +115,10 @@ export function generateStaticParams() { const dossierSlugs = listStaticParamsFo
     { slug: "edall-systems-pvt-ltd-mfr-020" },
     { slug: "wipro-mfr-081" }
   ];
+  // Drone Expo 2026 intake: dossier-only companies (not in _drones.json / DOSSIER_MAP).
+  const expoSlugs = droneExpo2026.entities.map((e) => ({ slug: e.slug }));
   const seen = new Set(dossierSlugs.map(s => s.slug));
-  for (const s of thinSlugs) { if (!seen.has(s.slug)) dossierSlugs.push(s); }
+  for (const s of [...thinSlugs, ...expoSlugs]) { if (!seen.has(s.slug)) { seen.add(s.slug); dossierSlugs.push(s); } }
   return dossierSlugs; }
 // dynamicParams removed — thin fallback guarantees 200 for hub-linked slugs
 

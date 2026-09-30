@@ -10,6 +10,7 @@ import { corridors as indCorridors } from './corridors/data';
 import { allCorridorNodePairs } from './corridors/node-data';
 import platformEntities from './research/_platform.json';
 import droneAtlas from './research/_drones.json';
+import droneExpo2026 from '../data/osint/drone-expo-2026/site_index.json';
 import cuasAtlas from './research/_cuas.json';
 import aerospaceAtlas from './research/_aerospace.json';
 import spaceAtlas from './research/_space.json';
@@ -176,6 +177,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const droneEntityRoutes: MetadataRoute.Sitemap = [
     ...da.platforms.map((pp) => ({ url: `${SITE}/research/drones-uas/platform/${pp.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 })),
     ...da.companies.map((cc) => ({ url: `${SITE}/research/drones-uas/company/${cc.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 })),
+    // Dossier-only companies from the Drone Expo 2026 intake (not in _drones.json).
+    ...droneExpo2026.entities.map((e) => ({ url: `${SITE}${e.path}`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 })),
   ];
   const ca = cuasAtlas as { systems: { slug: string }[]; manufacturers: { slug: string }[] };
   const cuasRoutes: MetadataRoute.Sitemap = [

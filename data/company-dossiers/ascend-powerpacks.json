@@ -1,0 +1,216 @@
+{
+  "entity_id": "mfg-dx26-ascend-powerpacks",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "ascend-powerpacks",
+  "name": "Ascend Powerpacks",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/",
+  "last_verified": "2026-09-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Hyderabad drone battery-pack maker — Li-ion, Li-HV and semi-solid-state packs with in-house BMS. Cell origin undisclosed.",
+    "chips": [
+      "drones-uas",
+      "energy",
+      "india",
+      "evidence-l3",
+      "drone-expo-2026"
+    ],
+    "maker": "Ascend Powerpacks",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Energy",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Private company",
+    "Headquarters": "Hyderabad, Telangana, India",
+    "Primary layer": "Energy",
+    "Technology layers": "Energy / Battery pack; Energy / BMS; Energy / Charger",
+    "Products (as stated)": "Drone Li-ion packs; Li-HV packs; semi-solid-state packs; intelligent BMS; smart charging",
+    "Company origin": "Indian — Company website (L3)",
+    "Design origin": "Indian — Company claim for packs/BMS (L3)",
+    "Manufacturing": "India — Company claim — pack-level only (L3)",
+    "Assembly / integration": "India — Company claim (L3)",
+    "Technology origin": "UNKNOWN — Pack assembly and BMS are claimed as in-house; the cell — the strategic content of a pack — is not disclosed. Not classified \"Indian designed + foreign components\" because cell origin is unevidenced.",
+    "Defence relevance": "Company lists research and defence applications (L3). No customer corroborated.",
+    "Overall evidence level": "L3 — Company primary source",
+    "Atlas intake": "Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026) — OSINT intake 2026-09-29"
+  },
+  "what_it_is": {
+    "prose": "Hyderabad-based drone battery-pack company (Li-ion, Li-HV, semi-solid-state packs, BMS, chargers). Company states it designs, manufactures and services packs; cell origin undisclosed. Drone Expo 2026 exhibitor.\n\nValue-chain position in the Atlas: Develops → Drone battery packs (L3); Depends on → High-energy Li-ion cells (L3).\n\nEvidence discipline: this record separates company claims from independent evidence. Classifications above carry their evidence level; the technology-origin class is 'UNKNOWN'. Exhibiting at Drone Expo 2026 establishes market presence only — not indigenous technology, Indian manufacturing, procurement or deployment.",
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Company lists research and defence applications (L3). No customer corroborated.",
+    "rows": [],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "No import share is asserted. The items below are the dependency questions this entity sits on, taken from the Atlas UAS sovereignty table (Techadyant internal estimate) — they describe the layer, not this company's disclosed bill of materials.",
+    "items": [
+      {
+        "component": "Li-ion / Li-HV cells",
+        "severity": "Critical",
+        "note": "Cells are the imported core of domestically assembled packs in the Atlas.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": [
+          "src-03"
+        ]
+      },
+      {
+        "component": "BMS silicon (AFE/MCU)",
+        "severity": "High",
+        "note": "BMS ICs typically foreign-sourced.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": [
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "evidence_quality",
+        "label": "Evidence quality",
+        "value": 2,
+        "note": "L3 — Company primary source. Scores rise only with independent or procurement evidence.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      },
+      {
+        "id": "stack_criticality",
+        "label": "Stack criticality of the layer",
+        "value": 5,
+        "note": "How strategically important the layer this entity sits in is (not how good the company is).",
+        "sources": [
+          "src-03"
+        ]
+      },
+      {
+        "id": "localisation_evidence",
+        "label": "Localisation evidence",
+        "value": 2,
+        "note": "Strength of evidence that design/manufacture happens in India. Company claims alone score ≤2.",
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/drones-uas/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2026-09-28",
+      "event": "Exhibits at Drone Expo & Conference 2026, New Delhi.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does Ascend Powerpacks make?",
+      "answer": "Drone Li-ion packs; Li-HV packs; semi-solid-state packs; intelligent BMS; smart charging. (As stated by the company unless noted; evidence level 3.)",
+      "sources": [
+        "src-01"
+      ]
+    },
+    {
+      "question": "Is Ascend Powerpacks's technology indigenous?",
+      "answer": "Not established. Company origin is Indian; the technology-origin class is 'UNKNOWN': Pack assembly and BMS are claimed as in-house; the cell — the strategic content of a pack — is not disclosed. Not classified \"Indian designed + foreign components\" because cell origin is unevidenced.",
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
+    },
+    {
+      "question": "Why is Ascend Powerpacks in the Atlas?",
+      "answer": "It adds new information on the Energy layer of India's drone stack, surfaced at Drone Expo & Conference 2026. Presence at the expo alone would not qualify an entity.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Cell supplier and country of origin for each pack family — especially the semi-solid-state line.",
+    "Is the BMS silicon (AFE, MCU) sourced from the same foreign vendors seen in distributor portfolios?",
+    "Production capacity (packs/month) and any DGCA type-certified platforms using Ascend packs."
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Ascend Powerpacks — company website",
+      "publisher": "Ascend Powerpacks",
+      "url": "https://www.ascendpowerpacks.com/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-29",
+      "note": "Evidence level 3. Company primary source (OSINT pass 2026-09-29): drone Li-ion, Li-HV and semi-solid-state packs, intelligent BMS, smart charging; states design, manufacture and service of packs. Cell origin not disclosed."
+    },
+    {
+      "id": "src-02",
+      "title": "Drone Expo & Conference 2026 — official exhibitor list",
+      "publisher": "Drone Expo & Conference (organiser)",
+      "url": "https://www.droneexpo.in/exhibitors-list",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 5. Establishes exhibitor presence only. Presence does not establish indigenous technology, Indian manufacturing, procurement or deployment."
+    },
+    {
+      "id": "src-03",
+      "title": "Who Builds India's Drones? — Drone Manufacturing Ecosystem",
+      "publisher": "Techadyant Labs",
+      "url": "https://labs.techadyant.com/reports/who-builds-indias-drones/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-29",
+      "note": "Evidence level 3. Techadyant internal cross-reference (existing SID source a6c39a70). Sovereignty scores are Techadyant estimates — indicative, not external verification."
+    }
+  ],
+  "seo": {
+    "title": "Ascend Powerpacks — Energy · India UAS Atlas | Techadyant",
+    "meta_description": "Hyderabad-based drone battery-pack company (Li-ion, Li-HV, semi-solid-state packs, BMS, chargers). Company states it designs, manufactures and…",
+    "canonical_path": "/research/drones-uas/company/ascend-powerpacks/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      "/research/drones-uas/",
+      "/reports/who-builds-indias-drones/"
+    ]
+  }
+}

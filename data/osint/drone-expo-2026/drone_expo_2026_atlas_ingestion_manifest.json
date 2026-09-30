@@ -1,0 +1,377 @@
+{
+  "event": "Drone Expo & Conference 2026",
+  "generated": "2026-09-30",
+  "universe": {
+    "total_exhibitors": 77,
+    "screened_A_B": 54,
+    "screened_C": 17,
+    "screened_D": 6
+  },
+  "note": "C (17) and D (6) exhibitors were not re-reviewed: they remain research-only / ignore as screened.",
+  "update_existing": [
+    {
+      "company": "T-MOTOR",
+      "entity_id": "0ee70e5e-0cc5-45a7-a388-3f043475fba7",
+      "confidence": "HIGH",
+      "review_flag": ""
+    }
+  ],
+  "add_new": [
+    {
+      "company": "Arkin Labs Private Limited",
+      "entity_id": "31ee6554-aabb-5d11-926a-2d6e4d0725a1",
+      "confidence": "HIGH",
+      "review_flag": ""
+    },
+    {
+      "company": "Ascend Powerpacks Private Limited",
+      "entity_id": "83612f71-0950-5dbb-ad17-0f09cc8dfa90",
+      "confidence": "HIGH",
+      "review_flag": ""
+    },
+    {
+      "company": "Drogo Aerospace Pvt Ltd",
+      "entity_id": "225b54fe-155d-5e32-8df1-c289d288720d",
+      "confidence": "HIGH",
+      "review_flag": ""
+    },
+    {
+      "company": "Millennium Semiconductors India Private Limited",
+      "entity_id": "38d0f9f3-526f-5c87-a387-f20da1948789",
+      "confidence": "HIGH",
+      "review_flag": ""
+    },
+    {
+      "company": "Nicomatic India Electronics Private Limited",
+      "entity_id": "05d610a6-81c7-5a94-b195-fa637d6868d0",
+      "confidence": "HIGH",
+      "review_flag": ""
+    },
+    {
+      "company": "Rangsons Aerospace Private Limited",
+      "entity_id": "c907344e-65bb-50f0-8765-a14f7feffd31",
+      "confidence": "HIGH",
+      "review_flag": ""
+    },
+    {
+      "company": "TE Connectivity",
+      "entity_id": "d26fb2ab-1dc5-518e-b8b9-b64f7edeaec1",
+      "confidence": "HIGH",
+      "review_flag": ""
+    },
+    {
+      "company": "VU-Dynamics Private Limited",
+      "entity_id": "d32211e9-22c0-5417-b4a8-2256e07255e0",
+      "confidence": "HIGH",
+      "review_flag": ""
+    },
+    {
+      "company": "WARG Robotics",
+      "entity_id": "a33234a6-eb48-5d23-8d9a-5e5cb01efd34",
+      "confidence": "HIGH",
+      "review_flag": ""
+    },
+    {
+      "company": "YARI Robotics Private Limited",
+      "entity_id": "e94ca1dc-45ed-56cf-b6f6-2c55b06b6295",
+      "confidence": "HIGH",
+      "review_flag": ""
+    },
+    {
+      "company": "Zerosum Technologies Pvt Ltd.",
+      "entity_id": "f63b722b-3e91-5219-af8e-69e892725a99",
+      "confidence": "HIGH",
+      "review_flag": ""
+    }
+  ],
+  "signal_only": [
+    {
+      "company": "Stellar Invictus Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": "REVIEW"
+    },
+    {
+      "company": "Vajron Global Tech Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": "REVIEW"
+    },
+    {
+      "company": "Vayuron Advanced Systems Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": "REVIEW"
+    }
+  ],
+  "research_only": [
+    {
+      "company": "ATC Energies System Limited",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "VERIFY: cell vs pack role"
+    },
+    {
+      "company": "Axldrone India Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Beni Aerospace Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Bharat Skytech Private Limited",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "CAPTURE LINE CARD"
+    },
+    {
+      "company": "Bharatrohan Airborne Innovations Limited",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "VERIFY: payload origin"
+    },
+    {
+      "company": "Decouvertes Future Tech Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "EDITHFPV",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "VERIFY: component origin"
+    },
+    {
+      "company": "Enovix Research and Development Services India Limited",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "VERIFY: parent and India activity"
+    },
+    {
+      "company": "Espacio Aeronext Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "FC TecNrgy Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Fligen Systems Private Limited",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "VERIFY before promotion"
+    },
+    {
+      "company": "Godi Nova India Private Limited",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "VERIFY: cell manufacturing + group link"
+    },
+    {
+      "company": "HYDROCOPTER",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "JSM Composites Pvt. Ltd.",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Macnica Cytech India Pvt Ltd",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "CAPTURE LINE CARD"
+    },
+    {
+      "company": "Maksat Technologies Pvt Ltd",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "PRIORITY VERIFY"
+    },
+    {
+      "company": "Mehta Hitech Industries Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Ninetron Tech",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Nitpro Composites",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Nsure Reliable Power Solutions Private Limited",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "PRIORITY VERIFY: cell manufacturing"
+    },
+    {
+      "company": "Phillips Machine Tools India Private Limited",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "VERIFY: brands represented"
+    },
+    {
+      "company": "Robu.in",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "CAPTURE LINE CARD"
+    },
+    {
+      "company": "SANH Systems Private Limited",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "VERIFY: defence evidence"
+    },
+    {
+      "company": "SIECHEM Technologies Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "SKYi Composites Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Sparrotronics Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Tactix Ai",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Thrust Link Aerospace & Drone Technologies",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "VERIFY: motor/ESC manufacturing"
+    },
+    {
+      "company": "Tobitek Private Limited",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "PRIORITY VERIFY: motor manufacturing, magnet source"
+    },
+    {
+      "company": "UAVGarage Private Limited",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "CAPTURE LINE CARD"
+    },
+    {
+      "company": "XINGTO BATTERY",
+      "entity_id": null,
+      "confidence": "LOW",
+      "review_flag": "VERIFY: country of origin"
+    },
+    {
+      "company": "Yali Aerospace Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "ZSpace Robotics Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    }
+  ],
+  "ignore": [
+    {
+      "company": "Aerodrones India Company",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Craftifai Technologies Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Janatics Industrial Automation Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "Nirmitsu Design Labs Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "ShepHertz Technologies Private Limited",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    },
+    {
+      "company": "UAS Glory Air",
+      "entity_id": null,
+      "confidence": "MEDIUM",
+      "review_flag": ""
+    }
+  ],
+  "new_value_chain_nodes": [
+    {
+      "name": "Drone connectors & cable harnesses",
+      "entity_id": "6f1300e9-059a-5137-85ba-f71aaa95fd7f",
+      "type": "product"
+    },
+    {
+      "name": "UAV datalink modules",
+      "entity_id": "fe01b014-f633-5db0-8720-ca019f051ad8",
+      "type": "product"
+    },
+    {
+      "name": "GNSS-denied UAV navigation",
+      "entity_id": "d543ad74-c45a-5f1a-927f-f244a1fcfe9c",
+      "type": "technology"
+    }
+  ],
+  "relationships_added": 27,
+  "sid_sql": "sid_ingest_drone_expo_2026.sql (prepared, not applied)",
+  "dossiers": [
+    "/research/drones-uas/company/arkin-labs/",
+    "/research/drones-uas/company/yari-robotics/",
+    "/research/drones-uas/company/ascend-powerpacks/",
+    "/research/drones-uas/company/millennium-semiconductors-india/",
+    "/research/drones-uas/company/nicomatic-india/",
+    "/research/drones-uas/company/te-connectivity/",
+    "/research/drones-uas/company/rangsons-aerospace/",
+    "/research/drones-uas/company/drogo-aerospace/",
+    "/research/drones-uas/company/vu-dynamics/",
+    "/research/drones-uas/company/zerosum-technologies/",
+    "/research/drones-uas/company/warg-robotics/"
+  ]
+}

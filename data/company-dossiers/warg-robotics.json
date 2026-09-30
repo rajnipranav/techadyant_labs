@@ -1,0 +1,196 @@
+{
+  "entity_id": "mfg-dx26-warg-robotics",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "warg-robotics",
+  "name": "WARG Robotics",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/",
+  "last_verified": "2026-09-30",
+  "status": "Development",
+  "header": {
+    "one_liner": "Bengaluru firm building an encrypted low-latency digital UAV link, autonomous supervision and FPV air/ground platforms. Proprietary tech claimed.",
+    "chips": [
+      "drones-uas",
+      "communications-autonomy",
+      "india",
+      "evidence-l3",
+      "drone-expo-2026"
+    ],
+    "maker": "WARG Robotics",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Communications / Autonomy",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Private company",
+    "Headquarters": "Bengaluru, Karnataka, India",
+    "Primary layer": "Communications / Autonomy",
+    "Technology layers": "Communications / Datalink; Communications / Secure communications; Software / Autonomy; Platform / FPV",
+    "Products (as stated)": "Digital low-latency video/telemetry link; encrypted digital link; autonomous flight supervision; FPV air and ground platforms",
+    "Company origin": "Indian — Company website (L3)",
+    "Design origin": "Indian — Proprietary technology claimed (L3)",
+    "Manufacturing": "Unknown — Not established (L5)",
+    "Assembly / integration": "Unknown — Not established (L5)",
+    "Technology origin": "UNKNOWN — Link protocol/software claimed proprietary; RF chipset and radio hardware origin undisclosed.",
+    "Defence relevance": "Autonomy, encrypted digital link and unmanned air/ground architecture (L3). No customer corroborated.",
+    "Overall evidence level": "L3 — Company primary source",
+    "Atlas intake": "Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026) — OSINT intake 2026-09-29"
+  },
+  "what_it_is": {
+    "prose": "Bengaluru unmanned-systems company building an encrypted, low-latency digital video/telemetry link, autonomous flight supervision and FPV air and ground platforms; proprietary technology claimed. Drone Expo 2026 exhibitor.\n\nValue-chain position in the Atlas: Develops → UAV datalink modules (L3); Develops → AI, autonomy & target recognition (L3).\n\nEvidence discipline: this record separates company claims from independent evidence. Classifications above carry their evidence level; the technology-origin class is 'UNKNOWN'. Exhibiting at Drone Expo 2026 establishes market presence only — not indigenous technology, Indian manufacturing, procurement or deployment.",
+    "sources": [
+      "src-01",
+      "src-02"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Autonomy, encrypted digital link and unmanned air/ground architecture (L3). No customer corroborated.",
+    "rows": [],
+    "open_questions": [
+      "Customers or trials for the air-ground platforms."
+    ]
+  },
+  "import_dependencies": {
+    "summary": "No import share is asserted. The items below are the dependency questions this entity sits on, taken from the Atlas UAS sovereignty table (Techadyant internal estimate) — they describe the layer, not this company's disclosed bill of materials.",
+    "items": [
+      {
+        "component": "RF chipset / SDR hardware",
+        "severity": "High",
+        "note": "Radio silicon under the digital link undisclosed.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "evidence_quality",
+        "label": "Evidence quality",
+        "value": 2,
+        "note": "L3 — Company primary source. Scores rise only with independent or procurement evidence.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "stack_criticality",
+        "label": "Stack criticality of the layer",
+        "value": 4,
+        "note": "How strategically important the layer this entity sits in is (not how good the company is).",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "localisation_evidence",
+        "label": "Localisation evidence",
+        "value": 2,
+        "note": "Strength of evidence that design/manufacture happens in India. Company claims alone score ≤2.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "/research/drones-uas/company/rangsons-aerospace/"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/drones-uas/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2026-09-28",
+      "event": "Exhibits at Drone Expo & Conference 2026, New Delhi.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does WARG Robotics make?",
+      "answer": "Digital low-latency video/telemetry link; encrypted digital link; autonomous flight supervision; FPV air and ground platforms. (As stated by the company unless noted; evidence level 3.)",
+      "sources": [
+        "src-01"
+      ]
+    },
+    {
+      "question": "Is WARG Robotics's technology indigenous?",
+      "answer": "Not established. Company origin is Indian; the technology-origin class is 'UNKNOWN': Link protocol/software claimed proprietary; RF chipset and radio hardware origin undisclosed.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Why is WARG Robotics in the Atlas?",
+      "answer": "It adds new information on the Communications / Autonomy layer of India's drone stack, surfaced at Drone Expo & Conference 2026. Presence at the expo alone would not qualify an entity.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "RF chipset / SDR platform underneath the digital link.",
+    "Encryption implementation and any certification (e.g. for defence use).",
+    "Customers or trials for the air-ground platforms."
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "WARG Robotics — company website",
+      "publisher": "WARG Robotics",
+      "url": "https://www.wargrobotics.com/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-29",
+      "note": "Evidence level 3. Company primary source (OSINT pass 2026-09-29): digital low-latency video/telemetry link, encrypted digital link, autonomous flight supervision, FPV air and ground platforms; proprietary technology claimed."
+    },
+    {
+      "id": "src-02",
+      "title": "Drone Expo & Conference 2026 — official exhibitor list",
+      "publisher": "Drone Expo & Conference (organiser)",
+      "url": "https://www.droneexpo.in/exhibitors-list",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 5. Establishes exhibitor presence only. Presence does not establish indigenous technology, Indian manufacturing, procurement or deployment."
+    }
+  ],
+  "seo": {
+    "title": "WARG Robotics — Communications / Autonomy · India UAS Atlas | Techadyant",
+    "meta_description": "Bengaluru unmanned-systems company building an encrypted, low-latency digital video/telemetry link, autonomous flight supervision and FPV air and…",
+    "canonical_path": "/research/drones-uas/company/warg-robotics/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      "/research/drones-uas/",
+      "/reports/who-builds-indias-drones/"
+    ]
+  }
+}

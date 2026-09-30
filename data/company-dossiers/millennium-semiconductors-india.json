@@ -1,0 +1,209 @@
+{
+  "entity_id": "mfg-dx26-millennium-semiconductors-india",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "millennium-semiconductors-india",
+  "name": "Millennium Semiconductors India",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/",
+  "last_verified": "2026-09-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Indian component distributor with a drone portfolio of foreign-brand processors, sensors, GNSS, MOSFETs and BMS — a component-intelligence node, not an OEM.",
+    "chips": [
+      "drones-uas",
+      "electronics-distribution",
+      "india",
+      "evidence-l3",
+      "drone-expo-2026"
+    ],
+    "maker": "Millennium Semiconductors India",
+    "country": "IN",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Electronics / Distribution",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Distributor — market / component intelligence node",
+    "Headquarters": "India (HQ not verified in this pass)",
+    "Primary layer": "Electronics / Distribution",
+    "Technology layers": "Avionics / MCU; Avionics / Sensors; Avionics / GNSS; Propulsion / Power semiconductors; Energy / BMS; Avionics / Power management; Communications / Connectors",
+    "Products (as stated)": "Drone component supply: processors, CMOS sensors, GPS/cellular, sensors, motor control, MOSFETs, Hall sensors, BMS, power and connectors",
+    "Company origin": "Indian — Company website (L3)",
+    "Design origin": "Foreign — Portfolio consists of globally sourced component brands (L3)",
+    "Manufacturing": "Unknown — Not established — distribution and design-support (L5)",
+    "Assembly / integration": "Unknown — Not established (L5)",
+    "Technology origin": "Distributor — Distributes foreign-designed components; does not establish Indian component manufacturing.",
+    "Defence relevance": "No defence customer or programme evidenced for the drone portfolio — defence relevance unknown and left unverified.",
+    "Overall evidence level": "L3 — Company primary source",
+    "Atlas intake": "Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026) — OSINT intake 2026-09-29"
+  },
+  "what_it_is": {
+    "prose": "Indian electronic-component distributor with a public drone-component portfolio (processors, CMOS sensors, GNSS/cellular, motor control, MOSFETs, BMS, power, connectors) drawn from globally sourced brands. A market/component intelligence node, not an OEM. Drone Expo 2026 exhibitor.\n\nValue-chain position in the Atlas: Supplies to → Drone microcontrollers and SoCs (L3); Supplies to → Motor-control power electronics (L3); Supplies to → GNSS navigation modules (L3).\n\nEvidence discipline: this record separates company claims from independent evidence. Classifications above carry their evidence level; the technology-origin class is 'Distributor'. Exhibiting at Drone Expo 2026 establishes market presence only — not indigenous technology, Indian manufacturing, procurement or deployment.",
+    "sources": [
+      "src-01",
+      "src-02"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "No defence customer or programme evidenced for the drone portfolio — defence relevance unknown and left unverified.",
+    "rows": [],
+    "open_questions": [
+      "Volume signal: which component families move most to Indian drone OEMs?",
+      "Does the design-support service extend to reference flight-controller or ESC designs used by Indian OEMs?"
+    ]
+  },
+  "import_dependencies": {
+    "summary": "No import share is asserted. The items below are the dependency questions this entity sits on, taken from the Atlas UAS sovereignty table (Techadyant internal estimate) — they describe the layer, not this company's disclosed bill of materials.",
+    "items": [
+      {
+        "component": "MCU / processors",
+        "severity": "Critical",
+        "note": "Distributed from foreign brands.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      },
+      {
+        "component": "Power semiconductors (MOSFETs)",
+        "severity": "High",
+        "note": "Distributed from foreign brands.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      },
+      {
+        "component": "CMOS image sensors",
+        "severity": "High",
+        "note": "Distributed from foreign brands.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "evidence_quality",
+        "label": "Evidence quality",
+        "value": 2,
+        "note": "L3 — Company primary source. Scores rise only with independent or procurement evidence.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "stack_criticality",
+        "label": "Stack criticality of the layer",
+        "value": 4,
+        "note": "How strategically important the layer this entity sits in is (not how good the company is).",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "localisation_evidence",
+        "label": "Localisation evidence",
+        "value": 1,
+        "note": "Strength of evidence that design/manufacture happens in India. Company claims alone score ≤2.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_components": [],
+    "related_pillars": [
+      "/research/drones-uas/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2026-09-28",
+      "event": "Exhibits at Drone Expo & Conference 2026, New Delhi.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does Millennium Semiconductors India make?",
+      "answer": "Drone component supply: processors, CMOS sensors, GPS/cellular, sensors, motor control, MOSFETs, Hall sensors, BMS, power and connectors. (As stated by the company unless noted; evidence level 3.)",
+      "sources": [
+        "src-01"
+      ]
+    },
+    {
+      "question": "Is Millennium Semiconductors India's technology indigenous?",
+      "answer": "Not established. Company origin is Indian; the technology-origin class is 'Distributor': Distributes foreign-designed components; does not establish Indian component manufacturing.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Why is Millennium Semiconductors India in the Atlas?",
+      "answer": "It adds new information on the Electronics / Distribution layer of India's drone stack, surfaced at Drone Expo & Conference 2026. Presence at the expo alone would not qualify an entity.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact line card for the drone portfolio (which MCU, IMU, GNSS, MOSFET and BMS brands) — the page could not be re-read in this pass.",
+    "Volume signal: which component families move most to Indian drone OEMs?",
+    "Does the design-support service extend to reference flight-controller or ESC designs used by Indian OEMs?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "Millennium Semiconductors — drone solutions portfolio",
+      "publisher": "Millennium Semiconductors India",
+      "url": "https://www.millenniumsemi.com/solutions/drones/",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-29",
+      "note": "Evidence level 3. Company primary source (OSINT pass 2026-09-29): drone component portfolio across processors, CMOS sensors, GPS/cellular, sensors, motor control, MOSFETs, Hall sensors, BMS, power and connectors, sourced from globally named component brands."
+    },
+    {
+      "id": "src-02",
+      "title": "Drone Expo & Conference 2026 — official exhibitor list",
+      "publisher": "Drone Expo & Conference (organiser)",
+      "url": "https://www.droneexpo.in/exhibitors-list",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 5. Establishes exhibitor presence only. Presence does not establish indigenous technology, Indian manufacturing, procurement or deployment."
+    }
+  ],
+  "seo": {
+    "title": "Millennium Semiconductors India — Electronics / Distribution · India UAS Atlas | Techadyant",
+    "meta_description": "Indian electronic-component distributor with a public drone-component portfolio (processors, CMOS sensors, GNSS/cellular, motor control, MOSFETs,…",
+    "canonical_path": "/research/drones-uas/company/millennium-semiconductors-india/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      "/research/drones-uas/",
+      "/reports/who-builds-indias-drones/"
+    ]
+  }
+}

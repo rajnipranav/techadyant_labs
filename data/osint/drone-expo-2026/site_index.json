@@ -1,0 +1,113 @@
+{
+  "event": "Drone Expo & Conference 2026",
+  "generated": "2026-09-30",
+  "screened": 54,
+  "counts": {
+    "UPDATE_EXISTING": 1,
+    "ADD_NEW": 11,
+    "SIGNAL_ONLY": 3,
+    "RESEARCH_ONLY": 33,
+    "IGNORE": 6
+  },
+  "entities": [
+    {
+      "slug": "arkin-labs",
+      "name": "Arkin Labs",
+      "layer": "Avionics",
+      "one_liner": "Chennai UAV avionics maker — AeroMind flight controllers, Navroc GNSS, power modules. Claims Indian design and manufacture; chip-level sourcing undisclosed.",
+      "evidence_level": 3,
+      "country": "IN",
+      "path": "/research/drones-uas/company/arkin-labs/"
+    },
+    {
+      "slug": "yari-robotics",
+      "name": "YARI Robotics",
+      "layer": "Avionics",
+      "one_liner": "Coimbatore drone avionics firm — V6X flight controller (claimed designed and built in India), GNSS and power modules, ESCs, flight-data platform.",
+      "evidence_level": 3,
+      "country": "IN",
+      "path": "/research/drones-uas/company/yari-robotics/"
+    },
+    {
+      "slug": "ascend-powerpacks",
+      "name": "Ascend Powerpacks",
+      "layer": "Energy",
+      "one_liner": "Hyderabad drone battery-pack maker — Li-ion, Li-HV and semi-solid-state packs with in-house BMS. Cell origin undisclosed.",
+      "evidence_level": 3,
+      "country": "IN",
+      "path": "/research/drones-uas/company/ascend-powerpacks/"
+    },
+    {
+      "slug": "millennium-semiconductors-india",
+      "name": "Millennium Semiconductors India",
+      "layer": "Electronics / Distribution",
+      "one_liner": "Indian component distributor with a drone portfolio of foreign-brand processors, sensors, GNSS, MOSFETs and BMS — a component-intelligence node, not an OEM.",
+      "evidence_level": 3,
+      "country": "IN",
+      "path": "/research/drones-uas/company/millennium-semiconductors-india/"
+    },
+    {
+      "slug": "nicomatic-india",
+      "name": "Nicomatic India",
+      "layer": "Electronics / Interconnect",
+      "one_liner": "Bengaluru subsidiary of France's Nicomatic — MIL-standard connectors and cable assemblies; states Indian manufacturing since 2022.",
+      "evidence_level": 3,
+      "country": "IN",
+      "path": "/research/drones-uas/company/nicomatic-india/"
+    },
+    {
+      "slug": "te-connectivity",
+      "name": "TE Connectivity",
+      "layer": "Electronics / Interconnect",
+      "one_liner": "Global interconnect multinational with a dedicated UAV connector portfolio; benchmark foreign supplier. Indian manufacturing of the UAV line not established.",
+      "evidence_level": 3,
+      "country": "IE",
+      "path": "/research/drones-uas/company/te-connectivity/"
+    },
+    {
+      "slug": "rangsons-aerospace",
+      "name": "Rangsons Aerospace",
+      "layer": "Communications / EW",
+      "one_liner": "Indian defence electronics house — EW suites, RWR, jamming; reported SATCOM-on-the-move and secure datalinks. UAV-specific products not yet evidenced.",
+      "evidence_level": 3,
+      "country": "IN",
+      "path": "/research/drones-uas/company/rangsons-aerospace/"
+    },
+    {
+      "slug": "drogo-aerospace",
+      "name": "Drogo Aerospace",
+      "layer": "Platform",
+      "one_liner": "Hyderabad defence UAV maker. Reported first batch of 41 JK 250e drones to the Army (Jun 2026, ₹72 cr); loitering-munition MoU with Munitions India.",
+      "evidence_level": 2,
+      "country": "IN",
+      "path": "/research/drones-uas/company/drogo-aerospace/"
+    },
+    {
+      "slug": "vu-dynamics",
+      "name": "VU Dynamics",
+      "layer": "Platform",
+      "one_liner": "IIT Kanpur-incubated defence UAV developer — long-endurance platforms, launchers, simulators; PATH Group partnership (reported as takeover).",
+      "evidence_level": 2,
+      "country": "IN",
+      "path": "/research/drones-uas/company/vu-dynamics/"
+    },
+    {
+      "slug": "zerosum-technologies",
+      "name": "Zerosum Technologies",
+      "layer": "Subsystems",
+      "one_liner": "Indian UAV subsystem integrator — propulsion, autopilots, GNSS-denied navigation, RF, recovery. Partner vs in-house technology unmapped.",
+      "evidence_level": 3,
+      "country": "IN",
+      "path": "/research/drones-uas/company/zerosum-technologies/"
+    },
+    {
+      "slug": "warg-robotics",
+      "name": "WARG Robotics",
+      "layer": "Communications / Autonomy",
+      "one_liner": "Bengaluru firm building an encrypted low-latency digital UAV link, autonomous supervision and FPV air/ground platforms. Proprietary tech claimed.",
+      "evidence_level": 3,
+      "country": "IN",
+      "path": "/research/drones-uas/company/warg-robotics/"
+    }
+  ]
+}

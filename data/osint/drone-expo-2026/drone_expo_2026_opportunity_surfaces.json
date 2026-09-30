@@ -1,0 +1,279 @@
+{
+  "generated": "2026-09-30",
+  "note": "Industrial opportunity surfaces — analytical hypotheses about where capability is thin, not investment recommendations. Mapped onto existing SID opportunity-surface entities rather than creating new ones.",
+  "surfaces": [
+    {
+      "opportunity_id": "DOSF-01",
+      "theme": "Drone Brain / Avionics",
+      "label": "Industrial opportunity surface",
+      "validation_status": "Partially validated",
+      "priority": "High",
+      "entities": [
+        "Arkin Labs (ADD_NEW)",
+        "YARI Robotics (ADD_NEW)",
+        "Zerosum Technologies (ADD_NEW)"
+      ],
+      "linked_existing_sid_opportunity_surfaces": [
+        {
+          "entity_id": "6da6bf61-fbd9-40c2-aabf-310f4dbcd82c",
+          "name": "MEMS IMU manufacturing for UAV guidance"
+        }
+      ],
+      "questions": {
+        "what_exists_in_india": "At least three Indian companies market full flight-controller + GNSS + power-module stacks (Arkin AeroMind/Navroc, YARI V6X, Zerosum autopilots), plus GNSS-denied navigation (Zerosum).",
+        "what_is_imported": "MCU/SoC, MEMS IMU and GNSS chipsets — not disclosed by any of them; the existing Atlas scores these as high-risk import layers.",
+        "what_is_only_assembled": "Unknown — design + board assembly claimed; no facility or EMS partner evidenced.",
+        "what_is_technologically_weak": "Silicon (MCU, IMU, GNSS RF front-end); no NavIC support claims were verified.",
+        "what_is_scaling": "Not evidenced — no production volumes or named OEM adopters.",
+        "evidence": "L3 company sources only.",
+        "what_is_still_unknown": "Semiconductor BOM, OEM adoption, DGCA-certified platforms using these controllers."
+      }
+    },
+    {
+      "opportunity_id": "DOSF-02",
+      "theme": "Drone Electronics",
+      "label": "Industrial opportunity surface",
+      "validation_status": "Validated (as a dependency, not a capability)",
+      "priority": "High",
+      "entities": [
+        "Millennium Semiconductors (ADD_NEW, distributor)",
+        "Nicomatic India (ADD_NEW)",
+        "TE Connectivity (ADD_NEW)",
+        "Macnica Cytech (RESEARCH_ONLY)"
+      ],
+      "linked_existing_sid_opportunity_surfaces": [
+        {
+          "entity_id": "80670c11-9963-47fa-bbd2-3c67180993e0",
+          "name": "PCB manufacturing gap (multi-layer)"
+        }
+      ],
+      "questions": {
+        "what_exists_in_india": "Distribution and design-support for drone electronics; one foreign-owned interconnect maker with stated Bengaluru manufacturing.",
+        "what_is_imported": "Processors/MCUs, CMOS sensors, GNSS/cellular modules, MOSFETs, Hall sensors, BMS ICs — offered from globally sourced brands.",
+        "what_is_only_assembled": "Cable assemblies (Nicomatic India, L3).",
+        "what_is_technologically_weak": "Every active-semiconductor layer.",
+        "what_is_scaling": "Distributor drone portfolios exist, which implies demand, but volume is not evidenced.",
+        "evidence": "L3 company portfolios + existing Atlas sovereignty table.",
+        "what_is_still_unknown": "Named line cards; which brands dominate Indian drone BOMs."
+      }
+    },
+    {
+      "opportunity_id": "DOSF-03",
+      "theme": "Propulsion",
+      "label": "Industrial opportunity surface",
+      "validation_status": "Not validated (Indian side)",
+      "priority": "High",
+      "entities": [
+        "T-MOTOR (UPDATE_EXISTING)",
+        "YARI Robotics (ESC)",
+        "Zerosum Technologies",
+        "Tobitek (RESEARCH_ONLY, unverified)",
+        "Thrust Link (RESEARCH_ONLY)"
+      ],
+      "linked_existing_sid_opportunity_surfaces": [
+        {
+          "entity_id": "d9f96ef1-23db-4dd7-8d22-ccd89c57fe49",
+          "name": "Sintered NdFeB magnet manufacturing"
+        },
+        {
+          "entity_id": "75af62da-14ba-4bfd-9d6f-9a02dcaef804",
+          "name": "UAV propeller manufacturing (precision, high-volume)"
+        }
+      ],
+      "questions": {
+        "what_exists_in_india": "An Indian ESC line (YARI, claim). No verified Indian drone-grade BLDC motor maker in the intake.",
+        "what_is_imported": "Motors and ESCs (T-MOTOR exhibited directly), NdFeB magnets, ESC power silicon.",
+        "what_is_only_assembled": "Unknown.",
+        "what_is_technologically_weak": "Magnets, bearings and power semiconductors; motor manufacturing not evidenced.",
+        "what_is_scaling": "Global supplier presence is scaling (T-MOTOR direct).",
+        "evidence": "L3 + existing Atlas.",
+        "what_is_still_unknown": "Whether Tobitek/Thrust Link manufacture motors, and their magnet source."
+      }
+    },
+    {
+      "opportunity_id": "DOSF-04",
+      "theme": "Energy Storage",
+      "label": "Industrial opportunity surface",
+      "validation_status": "Validated as a question: pack ≠ cell",
+      "priority": "High",
+      "entities": [
+        "Ascend Powerpacks (ADD_NEW)",
+        "Nsure, Godi Nova, Enovix R&D India, ATC Energies, FC TecNrgy, XINGTO (RESEARCH_ONLY)"
+      ],
+      "linked_existing_sid_opportunity_surfaces": [],
+      "questions": {
+        "what_exists_in_india": "Indian pack + BMS integration (Ascend, L3), including semi-solid-state packs.",
+        "what_is_imported": "Cells (origin undisclosed by every pack exhibitor); BMS silicon.",
+        "what_is_only_assembled": "Packs — assembled/integrated in India on the evidence available.",
+        "what_is_technologically_weak": "Drone-grade high-C-rate/high-energy cells.",
+        "what_is_scaling": "Not evidenced.",
+        "evidence": "L3 + existing Atlas relationship \"cells are the imported core of domestically assembled packs\".",
+        "what_is_still_unknown": "Whether any exhibitor manufactures drone cells in India."
+      }
+    },
+    {
+      "opportunity_id": "DOSF-05",
+      "theme": "UAV Communications",
+      "label": "Industrial opportunity surface",
+      "validation_status": "Partially validated",
+      "priority": "High",
+      "entities": [
+        "Rangsons Aerospace (ADD_NEW)",
+        "WARG Robotics (ADD_NEW)",
+        "Zerosum Technologies (ADD_NEW)",
+        "Maksat (RESEARCH_ONLY)"
+      ],
+      "linked_existing_sid_opportunity_surfaces": [
+        {
+          "entity_id": "a0c80f20-1824-4fea-bc7a-120d6bae38dd",
+          "name": "Indigenous SATCOM datalink module for BVLOS / BLOS UAV ops"
+        },
+        {
+          "entity_id": "0e341f9e-4caa-4c38-a05f-b46e8b6193f3",
+          "name": "Electronic warfare suites"
+        }
+      ],
+      "questions": {
+        "what_exists_in_india": "Encrypted digital UAV links (WARG, L3); EW/SATCOM/secure-datalink systems from a defence electronics house (Rangsons, L3/L4).",
+        "what_is_imported": "RF front-ends, FPGAs, GaN devices (existing Atlas).",
+        "what_is_only_assembled": "Unknown.",
+        "what_is_technologically_weak": "Radio silicon; certification of encryption.",
+        "what_is_scaling": "Not evidenced for UAV-specific links.",
+        "evidence": "L3/L4.",
+        "what_is_still_unknown": "UAV-specific product packaging and customers for Rangsons; RF hardware under WARG's link."
+      }
+    },
+    {
+      "opportunity_id": "DOSF-06",
+      "theme": "C-UAS",
+      "label": "Industrial opportunity surface",
+      "validation_status": "Not validated (no new evidence) — integrate into existing C-UAS Atlas",
+      "priority": "Medium",
+      "entities": [
+        "Vajron (SIGNAL_ONLY)",
+        "Stellar Invictus (SIGNAL_ONLY)",
+        "Rangsons Aerospace (EW capability, no C-UAS system evidenced)"
+      ],
+      "linked_existing_sid_opportunity_surfaces": [
+        {
+          "entity_id": "7ea34eb4-e0ac-468f-ac38-daeed1763adb",
+          "name": "Counter-UAS (kinetic + EW)"
+        }
+      ],
+      "questions": {
+        "what_exists_in_india": "Positioning only; the existing C-UAS register (60 systems / 43 makers) is unchanged.",
+        "what_is_imported": "n/a from this intake.",
+        "what_is_only_assembled": "n/a.",
+        "what_is_technologically_weak": "Evidence — no product, trial or customer for either C-UAS exhibitor.",
+        "what_is_scaling": "Not evidenced.",
+        "evidence": "L5 (expo listing).",
+        "what_is_still_unknown": "Whether Vajron/Stellar Invictus have fielded or trialled systems."
+      }
+    },
+    {
+      "opportunity_id": "DOSF-07",
+      "theme": "Defence UAV Scale-up",
+      "label": "Industrial opportunity surface",
+      "validation_status": "Validated",
+      "priority": "High",
+      "entities": [
+        "Drogo Aerospace (ADD_NEW, L2)",
+        "VU Dynamics (ADD_NEW, L2)",
+        "Vayuron (SIGNAL_ONLY)",
+        "SANH Systems (RESEARCH_ONLY)"
+      ],
+      "linked_existing_sid_opportunity_surfaces": [
+        {
+          "entity_id": "9919aed8-3e5e-43b2-bc67-06aa37f5b554",
+          "name": "Loitering munitions and smart UAVs"
+        }
+      ],
+      "questions": {
+        "what_exists_in_india": "A private UAV maker delivering to the Army (Drogo: 41 JK 250e first batch, ₹72 crore, June 2026, L2) and moving into loitering munitions with a DPSU (MIL MoU, Sep 2026); an IIT-incubated developer with an industrial backer and a planned factory (VU Dynamics / PATH).",
+        "what_is_imported": "Subsystem content undisclosed for all.",
+        "what_is_only_assembled": "Drogo integration in India implied by delivery; content unknown.",
+        "what_is_technologically_weak": "Bill-of-materials transparency; no MoD primary contract document located.",
+        "what_is_scaling": "Yes — prototype-to-production transition evidenced for Drogo; capital/industrial backing for VU Dynamics.",
+        "evidence": "L2 independent media + institutional source.",
+        "what_is_still_unknown": "Completion of Drogo order; VU Dynamics ownership and factory status."
+      }
+    },
+    {
+      "opportunity_id": "DOSF-08",
+      "theme": "Manufacturing Infrastructure",
+      "label": "Industrial opportunity surface",
+      "validation_status": "Not validated (presence only)",
+      "priority": "Medium",
+      "entities": [
+        "Phillips Machine Tools, JSM, Nitpro, SKYi Composites, Mehta Hitech, SIECHEM (RESEARCH_ONLY)",
+        "Nicomatic India (ADD_NEW)"
+      ],
+      "linked_existing_sid_opportunity_surfaces": [
+        {
+          "entity_id": "6244fa3b-56a0-43f8-b358-139c036fd4bf",
+          "name": "Carbon-fiber prepreg & composites manufacturing"
+        },
+        {
+          "entity_id": "80670c11-9963-47fa-bbd2-3c67180993e0",
+          "name": "PCB manufacturing gap (multi-layer)"
+        }
+      ],
+      "questions": {
+        "what_exists_in_india": "Composite fabricators and machine-tool suppliers now target drone makers.",
+        "what_is_imported": "Carbon fibre/prepreg; likely machine-tool brands.",
+        "what_is_only_assembled": "n/a.",
+        "what_is_technologically_weak": "Materials (PAN precursor, prepreg); multilayer PCB.",
+        "what_is_scaling": "Not evidenced.",
+        "evidence": "L5 for new entrants; existing Atlas for materials.",
+        "what_is_still_unknown": "Capacities, customers, brands represented."
+      }
+    },
+    {
+      "opportunity_id": "DOSF-09",
+      "theme": "Component Distribution Intelligence",
+      "label": "Industrial opportunity surface",
+      "validation_status": "Validated as a method",
+      "priority": "High",
+      "entities": [
+        "Millennium Semiconductors (ADD_NEW)",
+        "Bharat Skytech, Robu.in, UAVGarage, Macnica Cytech (RESEARCH_ONLY — intelligence nodes)"
+      ],
+      "linked_existing_sid_opportunity_surfaces": [],
+      "questions": {
+        "what_exists_in_india": "Distributors publish drone-specific portfolios — a cheap, repeatable OSINT window onto the imported BOM.",
+        "what_is_imported": "By definition: the portfolios are foreign component brands.",
+        "what_is_only_assembled": "n/a.",
+        "what_is_technologically_weak": "Distributors do not establish Indian manufacturing.",
+        "what_is_scaling": "More distributors exhibit drone-specific lines.",
+        "evidence": "L3.",
+        "what_is_still_unknown": "Line cards were not captured in this pass (egress blocked); capture is the next action."
+      }
+    },
+    {
+      "opportunity_id": "DOSF-10",
+      "theme": "Autonomous Air-Ground Systems",
+      "label": "Industrial opportunity surface",
+      "validation_status": "Partially validated",
+      "priority": "Medium",
+      "entities": [
+        "WARG Robotics (ADD_NEW)",
+        "ZSpace Robotics, Tactix Ai, Yali Aerospace, SANH Systems (RESEARCH_ONLY)"
+      ],
+      "linked_existing_sid_opportunity_surfaces": [
+        {
+          "entity_id": "d09c5b73-7bbd-47d4-9da3-b9e942f804b2",
+          "name": "Indigenous AI / swarm algorithms for UAVs"
+        }
+      ],
+      "questions": {
+        "what_exists_in_india": "One Indian company with an air + ground FPV architecture and autonomous supervision over its own encrypted link (WARG, L3).",
+        "what_is_imported": "Radio silicon, compute.",
+        "what_is_only_assembled": "Unknown.",
+        "what_is_technologically_weak": "Evidence of fielding.",
+        "what_is_scaling": "Not evidenced.",
+        "evidence": "L3.",
+        "what_is_still_unknown": "Customers/trials."
+      }
+    }
+  ]
+}

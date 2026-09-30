@@ -1,0 +1,192 @@
+{
+  "entity_id": "mfg-dx26-te-connectivity",
+  "entity_type": "company",
+  "tier": "A",
+  "noindex": false,
+  "slug": "te-connectivity",
+  "name": "TE Connectivity",
+  "vertical": "drones-uas",
+  "parent_hub_path": "/research/drones-uas/",
+  "last_verified": "2026-09-30",
+  "status": "Operational",
+  "header": {
+    "one_liner": "Global interconnect multinational with a dedicated UAV connector portfolio; benchmark foreign supplier. Indian manufacturing of the UAV line not established.",
+    "chips": [
+      "drones-uas",
+      "electronics-interconnect",
+      "foreign",
+      "evidence-l3",
+      "drone-expo-2026"
+    ],
+    "maker": "TE Connectivity",
+    "country": "IE",
+    "indigenous_pct": null,
+    "indigenous_label": "Not asserted",
+    "mobility_or_class": "Electronics / Interconnect",
+    "operational_domains": [
+      "air"
+    ]
+  },
+  "at_a_glance": {
+    "Type": "Foreign supplier",
+    "Headquarters": "Global (Ireland-domiciled multinational)",
+    "Primary layer": "Electronics / Interconnect",
+    "Technology layers": "Communications / Connectors; Communications / RF; Avionics / Power",
+    "Products (as stated)": "UAV RF connectors, cables, wiring, power connectors, DEUTSCH Wildcat UAV connectors",
+    "Company origin": "Foreign — Multinational (L3)",
+    "Design origin": "Foreign — Global product lines (L3)",
+    "Manufacturing": "Unknown — Not established for the UAV portfolio (L5)",
+    "Assembly / integration": "Unknown — Not established (L5)",
+    "Technology origin": "UNKNOWN — Foreign company; whether UAV connectors sold in India are imported or locally made is not evidenced.",
+    "Defence relevance": "Dedicated defence UAV interconnect portfolio (L3). No Indian defence programme use of this portfolio evidenced.",
+    "Overall evidence level": "L3 — Company primary source",
+    "Atlas intake": "Drone Expo & Conference 2026 (New Delhi, 28–30 Sep 2026) — OSINT intake 2026-09-29"
+  },
+  "what_it_is": {
+    "prose": "Global interconnect multinational with a dedicated UAV portfolio (RF and power connectors, cables, DEUTSCH Wildcat UAV connectors). Benchmark for defence-grade UAV interconnect; Indian manufacturing of this portfolio not established. Drone Expo 2026 exhibitor.\n\nValue-chain position in the Atlas: Manufactures / Produces → Drone connectors & cable harnesses (L3).\n\nEvidence discipline: this record separates company claims from independent evidence. Classifications above carry their evidence level; the technology-origin class is 'UNKNOWN'. Exhibiting at Drone Expo 2026 establishes market presence only — not indigenous technology, Indian manufacturing, procurement or deployment.",
+    "sources": [
+      "src-01",
+      "src-02"
+    ]
+  },
+  "deployments_procurement": {
+    "summary": "Dedicated defence UAV interconnect portfolio (L3). No Indian defence programme use of this portfolio evidenced.",
+    "rows": [],
+    "open_questions": []
+  },
+  "import_dependencies": {
+    "summary": "No import share is asserted. The items below are the dependency questions this entity sits on, taken from the Atlas UAS sovereignty table (Techadyant internal estimate) — they describe the layer, not this company's disclosed bill of materials.",
+    "items": [
+      {
+        "component": "UAV interconnect (imported portfolio)",
+        "severity": "Medium",
+        "note": "Benchmark foreign supplier for defence-grade UAV connectors.",
+        "pillar_link": "/research/drones-uas/",
+        "sources": []
+      }
+    ]
+  },
+  "intelligence_assessment": {
+    "methodology_path": "/research/methodology/",
+    "dimensions": [
+      {
+        "id": "evidence_quality",
+        "label": "Evidence quality",
+        "value": 2,
+        "note": "L3 — Company primary source. Scores rise only with independent or procurement evidence.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "stack_criticality",
+        "label": "Stack criticality of the layer",
+        "value": 3,
+        "note": "How strategically important the layer this entity sits in is (not how good the company is).",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      },
+      {
+        "id": "localisation_evidence",
+        "label": "Localisation evidence",
+        "value": 1,
+        "note": "Strength of evidence that design/manufacture happens in India. Company claims alone score ≤2.",
+        "sources": [
+          "src-01",
+          "src-02"
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [
+      "/research/drones-uas/company/nicomatic-india/"
+    ],
+    "related_components": [],
+    "related_pillars": [
+      "/research/drones-uas/"
+    ],
+    "referenced_by": []
+  },
+  "timeline": [
+    {
+      "date": "2026-09-28",
+      "event": "Exhibits at Drone Expo & Conference 2026, New Delhi.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does TE Connectivity make?",
+      "answer": "UAV RF connectors, cables, wiring, power connectors, DEUTSCH Wildcat UAV connectors. (As stated by the company unless noted; evidence level 3.)",
+      "sources": [
+        "src-01"
+      ]
+    },
+    {
+      "question": "Is TE Connectivity's technology indigenous?",
+      "answer": "Not established. Company origin is Foreign; the technology-origin class is 'UNKNOWN': Foreign company; whether UAV connectors sold in India are imported or locally made is not evidenced.",
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
+    },
+    {
+      "question": "Why is TE Connectivity in the Atlas?",
+      "answer": "It adds new information on the Electronics / Interconnect layer of India's drone stack, surfaced at Drone Expo & Conference 2026. Presence at the expo alone would not qualify an entity.",
+      "sources": [
+        "src-02"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Is any of the UAV interconnect portfolio made or assembled in India?"
+  ],
+  "sources": [
+    {
+      "id": "src-01",
+      "title": "TE Connectivity — unmanned aerial vehicle applications",
+      "publisher": "TE Connectivity",
+      "url": "https://www.te.com/en/industries/defense-military/applications/unmanned-aerial-vehicles.html",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-29",
+      "note": "Evidence level 3. Company primary source (OSINT pass 2026-09-29): UAV RF connectors, cables, wiring, power connectors, DEUTSCH Wildcat UAV connectors. Indian manufacturing of this portfolio not established."
+    },
+    {
+      "id": "src-02",
+      "title": "Drone Expo & Conference 2026 — official exhibitor list",
+      "publisher": "Drone Expo & Conference (organiser)",
+      "url": "https://www.droneexpo.in/exhibitors-list",
+      "published_date": null,
+      "trust_tier": "indicative",
+      "accessed": "2026-09-30",
+      "note": "Evidence level 5. Establishes exhibitor presence only. Presence does not establish indigenous technology, Indian manufacturing, procurement or deployment."
+    }
+  ],
+  "seo": {
+    "title": "TE Connectivity — Electronics / Interconnect · India UAS Atlas | Techadyant",
+    "meta_description": "Global interconnect multinational with a dedicated UAV portfolio (RF and power connectors, cables, DEUTSCH Wildcat UAV connectors). Benchmark for…",
+    "canonical_path": "/research/drones-uas/company/te-connectivity/",
+    "og_type": "article",
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "cta": {
+    "track_ecosystem": "/research/drones-uas/",
+    "submit_correction": "mailto:labs@techadyant.com",
+    "related_research": [
+      "/research/drones-uas/",
+      "/reports/who-builds-indias-drones/"
+    ]
+  }
+}
