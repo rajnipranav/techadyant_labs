@@ -16,6 +16,21 @@ export interface IssueMeta {
 }
 
 export const issues: IssueMeta[] = [{
+  slug: 'sanket-september-2026',
+  no: 'Issue 05',
+  month: 'September 2026',
+  date: '27 September 2026',
+  published: '2026-09-27',
+  title: 'The Conversion Problem',
+  standfirst: 'Five reports this month — aerospace, cloud, technology transfer, lunar and cooling — keep finding one gap: the inputs are strong, but the mechanism that converts them into owned output is not. Just ~1.1% of public R&D projects become products.',
+  readingTime: '11-min read',
+  card: 'https://library.techadyant.com/covers/sanket-sep-26.jpg',
+  cover: 'https://library.techadyant.com/covers/sanket-sep-26.jpg',
+  ogImage: 'https://library.techadyant.com/covers/sanket-sep-26.jpg',
+  pdf: 'https://library.techadyant.com/free%20reports/sanket-sep-26.pdf',
+  pdfReady: true,
+  status: 'live'
+}, {
   slug: 'sanket-august-2026',
   no: 'Issue 04',
   month: 'August 2026',

@@ -4627,6 +4627,117 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Around 24 September 2026 Maruti Suzuki commissioned its first green-hydrogen plant - a 300 kW electrolyser at Manesar, Haryana - producing hydrogen from renewable power for captive use.', 'A commissioned, operating electrolyser is a concrete step beyond the announcements and MoUs that dominate India\'s green-hydrogen space.', 'At 300 kW it is a pilot, orders of magnitude below the industrial capacity the National Green Hydrogen Mission targets.', 'The strategic layer is the electrolyser stack and its manufacturing base, much of which India still imports - the test is whether pilots pull through domestic electrolyser production.'],
   sources: ['Business Standard (24 Sep 2026): https://www.business-standard.com/companies/news/maruti-suzuki-commissions-300-kw-green-hydrogen-plant-at-manesar-126092400426_1.html', 'SolarQuarter (25 Sep 2026): https://solarquarter.com/2026/09/25/maruti-suzuki-commissions-300-kw-green-hydrogen-electrolyzer-plant-at-manesar/']
+}, {
+  slug: 'kaveri-dry-engine-48-5kn-thrust-ghatak-ucav-2026',
+  no: 'S-128',
+  title: 'The Kaveri Dry Engine Hits Its Thrust Mark - India\'s Hardest Chokepoint Moves, But Isn\'t Cleared',
+  domain: 'Defence & Dual-Use',
+  date: '2026-09-28',
+  dateLabel: '28 Sep 2026',
+  status: 'live',
+  excerpt: 'The indigenous Kaveri dry engine has reportedly achieved about 48.5 kN thrust in trials in Russia, clearing a key mark on its path to power the Ghatak stealth UCAV, per defence media. Jet propulsion is India\'\'s deepest and longest-standing chokepoint; a dry-engine milestone for an unmanned platform is real progress at the hardest layer - but CEMILAC certification, installed-condition and flight trials, and series manufacturing still stand between a test result and a fielded indigenous engine.',
+  readingTime: '5 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Defence media reported around 27 September 2026 that the Kaveri dry engine - the afterburner-less variant of DRDO/GTRE\'\'s long-running Kaveri programme - achieved about 48.5 kN of thrust during trials conducted in Russia, a level reported as sufficient for its designated role powering the Ghatak Unmanned Combat Aerial Vehicle. The government has designated the Kaveri dry engine for India\'\'s UCAV effort, with CEMILAC certification and installed-condition trials described as the next steps. The thrust figures are as reported by defence outlets; no official confirmation accompanied the reports.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Aero-engine propulsion is the single hardest chokepoint in India\'\'s defence-industrial stack - the reason the Tejas relies on imported GE engines and the AMCA\'\'s timeline hinges on a foreign-partnered powerplant. A dry, non-afterburning Kaveri reaching its target thrust band for an unmanned platform is a concrete step toward an indigenous engine India controls end to end, even if it is a lower-thrust, UCAV-class engine rather than a fighter powerplant.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'A thrust figure in a test facility is not a certified, flight-qualified, series-produced engine. The residual dependency runs through single-crystal turbine blades, hot-section metallurgy, FADEC control and the high-altitude test infrastructure itself - part of why the trials ran in Russia. The systems test is CEMILAC certification, installed-condition and Ghatak flight trials, and whether GTRE and Indian industry can manufacture the hot section at rate and quality without reverting to imports. It sits at the indigenous-flagship end of India\'\'s wider engine push - alongside the AMCA\'\'s foreign-partnered engine (Signal S-098) and HALE-UAV propulsion (Signal S-106).',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['CEMILAC certification of the dry Kaveri and any official confirmation of the thrust figure.', 'Installed-condition trials and integration onto the Ghatak UCAV for flight testing.', 'Localisation of hot-section metallurgy, single-crystal blades and FADEC versus continued import.', 'Whether the Kaveri core seeds higher-thrust or afterburning variants for future manned platforms.']
+}],
+  takeaways: ['Defence media reported around 27 September 2026 that the indigenous Kaveri dry engine achieved about 48.5 kN thrust in trials in Russia; the figures are as reported, without official confirmation.', 'The Kaveri dry engine has been designated to power the Ghatak stealth UCAV, with CEMILAC certification and installed-condition trials as the next steps.', 'Aero-engine propulsion is India\'s deepest chokepoint - the reason the Tejas uses imported GE engines and the AMCA depends on a foreign-partnered powerplant.', 'A test-facility thrust figure is not a certified, series-produced engine; hot-section metallurgy, single-crystal blades, FADEC and certification remain the real tests.'],
+  sources: ['Indian Masterminds (27 Sep 2026): https://indianmasterminds.com/news/defence/kaveri-dry-engine-achieves-48-5-kn-thrust-russian-trials-ghatak-ucav-237168/', 'Indian Defense News (Sep 2026): https://www.indiandefensenews.in/2026/09/from-fett-to-flight-kaveri-dry-engine.html', 'Indian Defence Research Wing / idrw.org (2026): https://idrw.org/mod-sets-2026-deadline-for-dry-kaveri-certification-to-power-indias-ghatak-ucav/']
+}, {
+  slug: 'kandla-port-based-e-methanol-plant-2300-crore-2026',
+  no: 'S-129',
+  title: 'India\'s First Port-Based E-Methanol Plant Breaks Ground at Kandla',
+  domain: 'Solar & Clean-Energy Manufacturing',
+  date: '2026-09-28',
+  dateLabel: '28 Sep 2026',
+  status: 'live',
+  excerpt: 'The foundation stone has been laid for India\'\'s first port-based e-methanol plant at Deendayal Port (Kandla) - a Rs 2,300 crore, 150 TPD joint venture between the port authority and Assam Petro-Chemicals, using renewable power, water and biogenic CO2 to make green marine fuel for the Asia-Europe corridor. Maritime fuel is a hard dependency layer for trade and defence logistics; siting green-fuel production at the port where ships already stop is a real move, but a foundation stone is not operating capacity.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 26-27 September 2026 the foundation stone was laid for a 150-tonne-per-day e-methanol plant at Deendayal Port Authority, Kandla, as a joint venture between DPA and Assam Petro-Chemicals Ltd. Total investment is stated at Rs 2,300 crore across two phases: Phase I (50 TPD, Rs 1,200 crore) targeted for January 2027 and Phase II (100 TPD, Rs 1,100 crore) for March 2027. The plant will use renewable power, desalinated water and biogenic CO2 to produce e-methanol for maritime bunkering on the Asia-Europe trade corridor.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Maritime fuel is a hard dependency layer for both trade and defence logistics, and green marine fuel is emerging as the compliance currency of international shipping. A port-sited, renewable-powered e-methanol facility converts policy ambition on green shipping into physical capacity with a named offtake corridor, and can anchor a wider green-molecule cluster - hydrogen, storage, bunkering - at one of India\'\'s largest ports.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'The project still depends on reliable renewable power, a steady biogenic CO2 supply, and the ability to deliver fuel at the stated competitive cost - reported around $750 per tonne against a global benchmark nearer $1,300. A foundation stone is not operating capacity. The systems test is whether Phase I reaches commercial production on the January 2027 target, whether the electrolyser and synthesis equipment are domestically sourced or imported, and whether Kandla becomes a repeatable bunkering node rather than a one-off plant.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Phase I mechanical completion and first commercial output against the January 2027 target.', 'Actual delivered cost of e-methanol versus the stated $750/tonne benchmark and global prices.', 'Whether the electrolyser, CO2-capture and synthesis equipment are domestically manufactured or imported.', 'Whether additional green-fuel projects - hydrogen, ammonia, methanol - cluster around Kandla or remain isolated.']
+}],
+  takeaways: ['The foundation stone was laid on 26-27 September 2026 for India\'s first port-based e-methanol plant at Deendayal Port Authority, Kandla, Gujarat.', 'The Rs 2,300 crore project is a JV between Deendayal Port Authority and Assam Petro-Chemicals, with a planned 150 TPD capacity across two phases (Phase I 50 TPD by Jan 2027, Phase II 100 TPD by Mar 2027).', 'It will use renewable power, water and biogenic CO2 to produce e-methanol for vessels on the Asia-Europe trade corridor.', 'A foundation stone is not operating capacity; delivered cost (stated near $750/tonne vs a global ~$1,300) and Phase I commercialisation are the real tests.'],
+  sources: ['Business Standard (27 Sep 2026): https://www.business-standard.com/economy/news/economy-news-foundation-stone-laid-for-india-first-port-based-e-methanol-plant-126092700112_1.html', 'The Hindu BusinessLine (26 Sep 2026): https://www.thehindubusinessline.com/economy/logistics/deendayal-port-and-assam-petro-chemicals-lay-foundation-stone-for-2300-crore-e-methanol-plant-in-gujarat/article71512630.ece', 'India Today NE (26 Sep 2026): https://www.indiatodayne.in/assam/story/assam-gujarat-partnership-to-power-indias-first-port-based-e-methanol-plant-at-kandla-1455713-2026-09-26']
+}, {
+  slug: 'linde-sanand-semiconductor-gas-facility-localising-molecule-2026',
+  no: 'S-130',
+  title: 'Linde Secures Sanand Land for Chip Gases - Localising the Molecule, Not Yet the Ownership',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-09-29',
+  dateLabel: '29 Sep 2026',
+  status: 'live',
+  excerpt: 'Linde India has secured a land parcel in Sanand, Gujarat, for a semiconductor packaging-gas facility - its second India chip-gas site after the Dholera plant set to supply Tata\'\'s fab. Electronic specialty gases are a real, under-noticed chip dependency; the supply is being localised, but largely by global majors - which brings the molecule onshore without yet localising the technology or the ownership.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Linde India has secured a land parcel in Sanand, Gujarat, to build a facility supplying gases for semiconductor packaging, reported around 28 September 2026. It is the company\'\'s second dedicated India semiconductor-gas investment after its plant at Dholera, which is set to supply Tata Electronics\'\' fab. The move is framed within India Semiconductor Mission 2.0.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Fabs and packaging lines run on a continuous supply of ultra-high-purity and specialty electronic gases - nitrogen, hydrogen and argon, plus exotic dopant, deposition and etch gases - delivered on-site to exacting specifications. Without local gas supply, every new fab and packaging plant depends on imported or trucked-in critical consumables. A global gas major building dedicated capacity next to India\'\'s chip clusters is a real step in the supply layer.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'Localising the gas supply is not the same as localising the gas industry. Linde is a global major; on-site Indian capacity secures the molecule and cuts logistics risk, but the process technology, and often the ownership, remain foreign. This builds on the high-purity-gas localisation already underway (Signal S-114). The open question is whether Indian firms climb from distribution and bulk gases into the specialty and electronic-gas segment, or whether that highest-value layer stays with global majors operating on Indian soil.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Groundbreaking and commissioning timeline for the Sanand facility and which fabs or packaging plants it supplies.', 'Whether Indian gas firms enter the specialty and electronic-gas segment, versus remaining in bulk supply and distribution.', 'The split between imported and locally produced specialty gases as new fabs ramp.', 'Whether gas capacity clusters around each fab hub (Dholera, Sanand) or consolidates.']
+}],
+  takeaways: ['Linde India has secured a land parcel in Sanand, Gujarat, for a semiconductor packaging-gas facility - its second India chip-gas investment after its Dholera plant.', 'The Dholera plant is set to supply Tata Electronics\' fab; both sit within India Semiconductor Mission 2.0.', 'Electronic specialty and ultra-high-purity gases are a continuous, exacting consumable that every fab and packaging line depends on - a real supply-chain dependency.', 'Localising the molecule via a global major is not the same as localising the technology or ownership; whether Indian firms enter the specialty-gas layer (building on Signal S-114) is the open question.'],
+  sources: ['BW Businessworld (28 Sep 2026): https://www.businessworld.in/article/linde-secures-sanand-land-to-expand-india-chip-gas-footprint-625942', 'gasworld (28 Sep 2026): https://www.gasworld.com/story/linde-india-secures-land-for-semiconductor-packaging-plant-in-gujarat/2260699.article/', 'Angel One (28 Sep 2026): https://www.angelone.in/news/stocks/linde-india-share-price-in-focus-secures-land-parcel-in-sanand-for-semiconductor-packaging-gas-facility']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
