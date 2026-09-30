@@ -41,12 +41,31 @@ const dateKey = (d: string): number => {
   const y = String(d).match(/(20\d{2})/);
   return (y ? Number(y[1]) : 0) * 100 + (m ? (MONTHS[m[1].toLowerCase()] ?? 12) : 12);
 };
+// Ceiling = the build month. This was hard-coded to 202608, which silently froze the
+// feed at August even though later developments were sitting in node-data.ts.
+// Recomputed at every build, so it advances on its own.
+const BUILD_MONTH_KEY = (() => { const d = new Date(); return d.getUTCFullYear() * 100 + (d.getUTCMonth() + 1); })();
 const abbrOf: Record<string, string> = Object.fromEntries(corridors.map((c) => [c.slug, c.abbr]));
-const recentDevelopments = Object.values(corridorDeep)
-  .flatMap((cd) => cd.nodes.flatMap((n) => (n.timeline ?? []).map((tl) => ({ date: tl.date, label: tl.label, node: n.name, corr: cd.slug }))))
-  .filter((x) => dateKey(x.date) <= 202608 && !/target|horizon|reappraisal|projected|build-out/i.test(x.label))
+const FORWARD_LOOKING = /target|horizon|reappraisal|projected|build-out|deadline|expected to/i;
+// Node timelines AND corridor milestones both carry real developments. Reading only the
+// former hid corridor-wide news (the Western DFC completion, the Apex Authority reviews).
+const developmentPool = Object.values(corridorDeep).flatMap((cd) => [
+  ...cd.nodes.flatMap((n) => (n.timeline ?? []).map((tl) => ({ date: tl.date, label: tl.label, node: n.name, corr: cd.slug }))),
+  ...(cd.milestones ?? []).map((ms) => ({ date: ms.date, label: ms.label, node: 'Corridor-wide', corr: cd.slug })),
+]);
+// The same event is often recorded at both node and corridor level in different words,
+// so de-duplicate on the opening of the normalised label within a corridor.
+const seenDevelopment = new Set<string>();
+const recentDevelopments = developmentPool
+  .filter((x) => dateKey(x.date) <= BUILD_MONTH_KEY && !FORWARD_LOOKING.test(x.label))
   .sort((a, b) => dateKey(b.date) - dateKey(a.date))
-  .slice(0, 6);
+  .filter((x) => {
+    const k = `${x.corr}|${x.label.toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').slice(0, 34)}`;
+    if (seenDevelopment.has(k)) return false;
+    seenDevelopment.add(k);
+    return true;
+  })
+  .slice(0, 8);
 
 export default function CorridorsIndex() {
   const itemList = {
@@ -137,7 +156,7 @@ export default function CorridorsIndex() {
           </div>
         </div>
         <p style={{ color: 'var(--text-muted)', fontSize: '14px', maxWidth: '70ch', marginBottom: '6px' }}>
-          The latest node-level developments across the eleven corridors, from DPIIT/NICDC status reports and PIB releases.
+          The latest node- and corridor-level developments across the eleven corridors, from DPIIT/NICDC status reports and PIB releases.
         </p>
         <ul className="corr-milestones" role="list" style={{ marginTop: 4 }}>
           {recentDevelopments.map((w, i) => (
@@ -150,7 +169,7 @@ export default function CorridorsIndex() {
             </li>
           ))}
         </ul>
-        <p className="chart-src">Node-level developments tracked from DPIIT/NICDC status reports and PIB releases · each dossier carries the full timeline and linked sources.</p>
+        <p className="chart-src">Developments tracked from DPIIT/NICDC status reports and PIB releases · each dossier carries the full timeline and linked sources.</p>
       </section>
 
       <section className="wrap">
