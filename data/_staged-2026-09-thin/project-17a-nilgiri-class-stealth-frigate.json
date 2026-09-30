@@ -1,0 +1,104 @@
+{
+  "entity_id": "def-project-17a-nilgiri-class-stealth-frigate",
+  "entity_type": "entity",
+  "tier": "C",
+  "noindex": true,
+  "slug": "project-17a-nilgiri-class-stealth-frigate",
+  "name": "Project 17A / Nilgiri-class stealth frigate",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/",
+  "last_verified": "2026-09-27",
+  "status": "Unspecified",
+  "header": {
+    "dossier_id": "def-project-17a-nilgiri-class-stealth-frigate",
+    "name": "Project 17A / Nilgiri-class stealth frigate",
+    "variant": null,
+    "category": null,
+    "country": "IN",
+    "maker": null,
+    "kicker": null,
+    "vertical_title": "Defence Atlas",
+    "parent_hub_path": "/research/pillars/defence/",
+    "generated": "Atlas monthly update pack 2026-09 (live crawl 2026-09-27)"
+  },
+  "at_a_glance": {
+    "indicators": [
+      "tier C",
+      "1 source(s)",
+      "noindex"
+    ],
+    "key_specs": {
+      "type": "Programme",
+      "services": "Navy",
+      "country_of_origin": "IN",
+      "indigenisation": "Indigenous (Indian design)",
+      "capability_domains": [
+        "Frigates"
+      ],
+      "listing_url": "https://labs.techadyant.com/research/pillars/defence/entity/project-17a-nilgiri-class-stealth-frigate/"
+    }
+  },
+  "what_it_is": {
+    "prose": "Project 17A / Nilgiri-class stealth frigate is catalogued in the Defence Atlas as an entity per the Atlas listing. The register classifies it as “Programme” serving Navy, with origin recorded as IN and indigenisation state “Indigenous (Indian design) Status: In production This entity → · 2 built by Mazagon Dock Shipbuilders Limited S10 S14 built by Garden Reach Shipbuilders & Engineers S11 S12 ← Referenced by · 3 INS Mahendragiri member of this S10 S14 INS Dunagiri member of this S11 INS Taragiri member of this S12 Dependencies depends on Propulsionhigh Programmes Project 17A / Nilgiri-class Delivery S10 S11 S12 S14 Project 75(I) AoN (Acceptance of Necessity) S12 Sources · 4 Project 17A Mahendragiri delivery — PIB 2026-05-01 · S10 Project 17A Dunagiri delivery — PIB 2026-03-31 · S11 Project 17A Taragiri commissioning — PIB 2026-03-21 · S12 Mahendragiri commissioned — PIB 2026-07-11 · S14”. Capability domains listed: Frigates. The Atlas has not yet published a full dossier for this entity, so this record carries listing metadata only and flags the gap in open_questions.",
+    "sources": []
+  },
+  "kill_chain": null,
+  "deployments_procurement": {
+    "rows": []
+  },
+  "import_dependencies": {
+    "summary": null,
+    "rows": []
+  },
+  "intelligence_assessment": {
+    "scores": [],
+    "methodology_link": "/research/methodology/",
+    "note": "Scored assessment as published on the Atlas listing (5-point ownership/reach scale)."
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_pillars": [],
+    "note": "As published on the Atlas listing Knowledge Graph."
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "q": "Where is the Project 17A / Nilgiri-class stealth frigate catalogued?",
+      "a": "The Project 17A / Nilgiri-class stealth frigate is catalogued in the Defence Atlas at https://labs.techadyant.com/research/pillars/defence/entity/project-17a-nilgiri-class-stealth-frigate/. The listing itself is the single attached source for this dossier."
+    }
+  ],
+  "open_questions": [
+    "Full Atlas dossier not yet published for this entity — this record is a stub-card baseline carrying listing metadata only.",
+    "Import-dependency table not published on the listing; component-level analysis pending.",
+    "Re-verify “status” against primary Indian sources (MoD/PIB/DRDO/OEM) next cycle."
+  ],
+  "sources": [
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/pillars/defence/entity/project-17a-nilgiri-class-stealth-frigate/",
+      "title": "Project 17A / Nilgiri-class stealth frigate — Defence Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Project 17A / Nilgiri-class stealth frigate — Defence Atlas — Techadyant Labs",
+    "meta_description": "Project 17A / Nilgiri-class stealth frigate: Programme in India's defence ecosystem (Navy). Indigenous (Indian design) · In production. Manufacturer, suppliers, systems, programmes, procurement and dependencies.",
+    "canonical": "https://labs.techadyant.com/research/pillars/defence/entity/project-17a-nilgiri-class-stealth-frigate/",
+    "robots": "noindex,follow"
+  },
+  "cta": {
+    "primary": {
+      "text": "Explore the live Defence Atlas",
+      "url": "/research/pillars/defence/"
+    },
+    "methodology": {
+      "text": "Atlas methodology",
+      "url": "/research/methodology/"
+    },
+    "license_note": "Data © Techadyant Labs — Atlas register; pack refreshed monthly from live crawl."
+  }
+}

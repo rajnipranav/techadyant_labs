@@ -1,0 +1,104 @@
+{
+  "entity_id": "def-marine-gas-turbine-mgt-design-and-development-programme",
+  "entity_type": "entity",
+  "tier": "C",
+  "noindex": true,
+  "slug": "marine-gas-turbine-mgt-design-and-development-programme",
+  "name": "Marine Gas Turbine (MGT) design & development programme",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/",
+  "last_verified": "2026-09-27",
+  "status": "Unspecified",
+  "header": {
+    "dossier_id": "def-marine-gas-turbine-mgt-design-and-development-programme",
+    "name": "Marine Gas Turbine (MGT) design & development programme",
+    "variant": null,
+    "category": null,
+    "country": "IN",
+    "maker": null,
+    "kicker": null,
+    "vertical_title": "Defence Atlas",
+    "parent_hub_path": "/research/pillars/defence/",
+    "generated": "Atlas monthly update pack 2026-09 (live crawl 2026-09-27)"
+  },
+  "at_a_glance": {
+    "indicators": [
+      "tier C",
+      "1 source(s)",
+      "noindex"
+    ],
+    "key_specs": {
+      "type": "Programme",
+      "services": "Navy",
+      "country_of_origin": "IN",
+      "indigenisation": "Indigenous (Indian design)",
+      "capability_domains": [
+        "Propulsion"
+      ],
+      "listing_url": "https://labs.techadyant.com/research/pillars/defence/entity/marine-gas-turbine-mgt-design-and-development-programme/"
+    }
+  },
+  "what_it_is": {
+    "prose": "Marine Gas Turbine (MGT) design & development programme is catalogued in the Defence Atlas as an entity per the Atlas listing. The register classifies it as “Programme” serving Navy, with origin recorded as IN and indigenisation state “Indigenous (Indian design) Status: AoN (Acceptance of Necessity) This entity → · 1 AoN Indian Navy S21 S22 ← Referenced by · 1 Military propulsion capability this S21 Programmes LCA Mk1A 97-aircraft programme Contracted S17 Sources · 2 DAC ~Rs 1,10,000 crore AoN (Army, Navy, IAF) — PIB 2026-09-07 · S21 DAC clears acquisition proposals worth over Rs 1.10 lakh cr — News On AIR 2026-09-07 · S22”. Capability domains listed: Propulsion. The Atlas has not yet published a full dossier for this entity, so this record carries listing metadata only and flags the gap in open_questions.",
+    "sources": []
+  },
+  "kill_chain": null,
+  "deployments_procurement": {
+    "rows": []
+  },
+  "import_dependencies": {
+    "summary": null,
+    "rows": []
+  },
+  "intelligence_assessment": {
+    "scores": [],
+    "methodology_link": "/research/methodology/",
+    "note": "Scored assessment as published on the Atlas listing (5-point ownership/reach scale)."
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_pillars": [],
+    "note": "As published on the Atlas listing Knowledge Graph."
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "q": "Where is the Marine Gas Turbine (MGT) design & development programme catalogued?",
+      "a": "The Marine Gas Turbine (MGT) design & development programme is catalogued in the Defence Atlas at https://labs.techadyant.com/research/pillars/defence/entity/marine-gas-turbine-mgt-design-and-development-programme/. The listing itself is the single attached source for this dossier."
+    }
+  ],
+  "open_questions": [
+    "Full Atlas dossier not yet published for this entity — this record is a stub-card baseline carrying listing metadata only.",
+    "Import-dependency table not published on the listing; component-level analysis pending.",
+    "Re-verify “status” against primary Indian sources (MoD/PIB/DRDO/OEM) next cycle."
+  ],
+  "sources": [
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/pillars/defence/entity/marine-gas-turbine-mgt-design-and-development-programme/",
+      "title": "Marine Gas Turbine (MGT) design & development programme — Defence Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Marine Gas Turbine (MGT) design & development programme — Defence Atlas — Techadyant Labs",
+    "meta_description": "Marine Gas Turbine (MGT) design & development programme: Programme in India's defence ecosystem (Navy). Indigenous (Indian design) · AoN (Acceptance of Necessity). Manufacturer, suppliers, systems, programmes, procurement and dependencies.",
+    "canonical": "https://labs.techadyant.com/research/pillars/defence/entity/marine-gas-turbine-mgt-design-and-development-programme/",
+    "robots": "noindex,follow"
+  },
+  "cta": {
+    "primary": {
+      "text": "Explore the live Defence Atlas",
+      "url": "/research/pillars/defence/"
+    },
+    "methodology": {
+      "text": "Atlas methodology",
+      "url": "/research/methodology/"
+    },
+    "license_note": "Data © Techadyant Labs — Atlas register; pack refreshed monthly from live crawl."
+  }
+}

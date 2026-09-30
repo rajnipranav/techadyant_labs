@@ -1,0 +1,105 @@
+{
+  "entity_id": "def-airbus",
+  "entity_type": "entity",
+  "tier": "C",
+  "noindex": true,
+  "slug": "airbus",
+  "name": "Airbus",
+  "vertical": "defence",
+  "parent_hub_path": "/research/pillars/defence/",
+  "last_verified": "2026-09-27",
+  "status": "Unspecified",
+  "header": {
+    "dossier_id": "def-airbus",
+    "name": "Airbus",
+    "variant": null,
+    "category": null,
+    "country": "EU",
+    "maker": null,
+    "kicker": null,
+    "vertical_title": "Defence Atlas",
+    "parent_hub_path": "/research/pillars/defence/",
+    "generated": "Atlas monthly update pack 2026-09 (live crawl 2026-09-27)"
+  },
+  "at_a_glance": {
+    "indicators": [
+      "tier C",
+      "1 source(s)",
+      "noindex"
+    ],
+    "key_specs": {
+      "type": "Foreign Supplier",
+      "services": "Air Force, Joint",
+      "country_of_origin": "EU",
+      "indigenisation": "Imported",
+      "capability_domains": [
+        "Transport",
+        "Aerospace"
+      ],
+      "listing_url": "https://labs.techadyant.com/research/pillars/defence/entity/airbus/"
+    }
+  },
+  "what_it_is": {
+    "prose": "Airbus is catalogued in the Defence Atlas as an entity per the Atlas listing. The register classifies it as “Foreign Supplier” serving Air Force, Joint, with origin recorded as EU and indigenisation state “Imported”. Capability domains listed: Transport, Aerospace. The Atlas has not yet published a full dossier for this entity, so this record carries listing metadata only and flags the gap in open_questions.",
+    "sources": []
+  },
+  "kill_chain": null,
+  "deployments_procurement": {
+    "rows": []
+  },
+  "import_dependencies": {
+    "summary": null,
+    "rows": []
+  },
+  "intelligence_assessment": {
+    "scores": [],
+    "methodology_link": "/research/methodology/",
+    "note": "Scored assessment as published on the Atlas listing (5-point ownership/reach scale)."
+  },
+  "graph": {
+    "maker_other_systems": [],
+    "peer_systems": [],
+    "related_pillars": [],
+    "note": "As published on the Atlas listing Knowledge Graph."
+  },
+  "timeline": [],
+  "faq": [
+    {
+      "q": "Where is the Airbus catalogued?",
+      "a": "The Airbus is catalogued in the Defence Atlas at https://labs.techadyant.com/research/pillars/defence/entity/airbus/. The listing itself is the single attached source for this dossier."
+    }
+  ],
+  "open_questions": [
+    "Full Atlas dossier not yet published for this entity — this record is a stub-card baseline carrying listing metadata only.",
+    "Import-dependency table not published on the listing; component-level analysis pending.",
+    "Re-verify “status” against primary Indian sources (MoD/PIB/DRDO/OEM) next cycle."
+  ],
+  "sources": [
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/pillars/defence/entity/airbus/",
+      "title": "Airbus — Defence Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Airbus — Defence Atlas — Techadyant Labs",
+    "meta_description": "Airbus: Foreign Supplier in India's defence ecosystem (Air Force, Joint). Imported. Manufacturer, suppliers, systems, programmes, procurement and dependencies.",
+    "canonical": "https://labs.techadyant.com/research/pillars/defence/entity/airbus/",
+    "robots": "noindex,follow"
+  },
+  "cta": {
+    "primary": {
+      "text": "Explore the live Defence Atlas",
+      "url": "/research/pillars/defence/"
+    },
+    "methodology": {
+      "text": "Atlas methodology",
+      "url": "/research/methodology/"
+    },
+    "license_note": "Data © Techadyant Labs — Atlas register; pack refreshed monthly from live crawl."
+  }
+}
