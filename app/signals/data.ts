@@ -4738,6 +4738,166 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Linde India has secured a land parcel in Sanand, Gujarat, for a semiconductor packaging-gas facility - its second India chip-gas investment after its Dholera plant.', 'The Dholera plant is set to supply Tata Electronics\' fab; both sit within India Semiconductor Mission 2.0.', 'Electronic specialty and ultra-high-purity gases are a continuous, exacting consumable that every fab and packaging line depends on - a real supply-chain dependency.', 'Localising the molecule via a global major is not the same as localising the technology or ownership; whether Indian firms enter the specialty-gas layer (building on Signal S-114) is the open question.'],
   sources: ['BW Businessworld (28 Sep 2026): https://www.businessworld.in/article/linde-secures-sanand-land-to-expand-india-chip-gas-footprint-625942', 'gasworld (28 Sep 2026): https://www.gasworld.com/story/linde-india-secures-land-for-semiconductor-packaging-plant-in-gujarat/2260699.article/', 'Angel One (28 Sep 2026): https://www.angelone.in/news/stocks/linde-india-share-price-in-focus-secures-land-parcel-in-sanand-for-semiconductor-packaging-gas-facility']
+}, {
+  slug: 'drone-expo-2026-delhi-seizure-thermal-payload-gap',
+  no: 'S-131',
+  title: 'Drone Expo Week in Delhi Shows the Gap: The Payload Layer Is Still Being Smuggled In',
+  domain: 'Defence & Dual-Use',
+  date: '2026-09-30',
+  dateLabel: '30 Sep 2026',
+  status: 'live',
+  excerpt: 'As the eighth Drone Expo ran at Yashobhoomi, New Delhi (28-30 September 2026), showcasing Indian UAV makers and component suppliers, customs at Delhi airport announced the seizure of 10 professional-grade drones worth Rs 1.03 crore, fitted with thermal imaging and laser range finders and flown in from Hong Kong via Vietnam. The juxtaposition is the signal: India can assemble airframes at scale, but demand for high-end sensor payloads is still being met through grey imports.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'The eighth edition of Drone Expo was held at Yashobhoomi (India International Convention and Expo Centre), Dwarka, New Delhi, from 28 to 30 September 2026, organised by Services International. Exhibitors spanned drone manufacturers, component and battery suppliers, counter-UAS firms and geospatial and simulation players. No major contracts or orders were reported from the show floor.',
+  type: 'p'
+}, {
+  text: 'In the same week, Delhi Customs announced on 29 September that it had seized 10 drones valued at over Rs 1.03 crore, along with controllers, camera gimbals and accessories, from three Indian passengers who arrived at Terminal 3 on 25 September from Hong Kong via Vietnam. A chartered engineer assessed the drones as professional-grade units with thermal imaging and laser range finders, classed as military- or defence-grade UAVs requiring DGCA registration. The passengers were apprehended under the Customs Act, 1962, and investigation is ongoing.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India restricted the import of foreign drones in 2022 to push domestic manufacturing, and the airframe-and-assembly layer has grown quickly since. But the seized units point at what is still scarce at home: compact thermal cameras, laser range finders and stabilised gimbals - the sensor payload that turns a drone into an ISR or targeting tool. When that capability is being carried in through transit hubs, it shows where domestic supply has not yet caught up with demand.',
+  type: 'p'
+}, {
+  text: 'The dependency and systems frame',
+  type: 'h'
+}, {
+  text: 'Drone sovereignty has several layers: airframe, propulsion, batteries, flight controller and firmware, datalinks, and payloads. Expos showcase the layers India is winning. The payload layer - uncooled thermal detectors, laser rangefinding and precision gimbals - remains thin and import-reliant, and the detector cores inside many domestic payloads are themselves imported. A single seizure is not a trend, and the make of these units was not disclosed; the useful question is whether Indian payload suppliers can meet professional-grade demand at price, or whether grey channels keep filling the gap.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Findings of the customs investigation, including the drones\' make, intended buyers and whether this is part of a wider channel.', 'Domestic production of thermal detector cores and laser range finders, not just payload integration.', 'Whether drone PLI and procurement rules begin to weight indigenous payload content, not only airframe assembly.', 'Enforcement and registration of professional-grade UAVs already inside the country.']
+}],
+  takeaways: ['The eighth Drone Expo ran at Yashobhoomi, New Delhi, on 28-30 September 2026, showcasing Indian UAV makers and component suppliers, with no major orders reported.', 'Delhi Customs seized 10 professional-grade drones worth Rs 1.03 crore, with thermal imaging and laser range finders, from passengers arriving from Hong Kong via Vietnam.', 'The seizure points at the sensor-payload layer - thermal cameras, rangefinders, gimbals - as the part of the drone stack India still sources from abroad.', 'Airframe assembly is scaling; payload and detector-core localisation is the harder dependency to close.'],
+  sources: ['India Strategic (Sep 2026): https://www.indiastrategic.in/drone-expo-2026-new-delhi-hosts-a-major-showcase-of-indias-expanding-uav-ecosystem', 'ThePrint (29 Sep 2026): https://theprint.in/india/10-military-grade-drones-seized-from-three-indian-passengers-at-delhi-airport/3056688/', 'The Tribune (29 Sep 2026): https://www.tribuneindia.com/news/delhi/10-professional-grade-drones-worth-over-rs-1-crore-seized-at-delhi-airport-3-held/', 'The Week (29 Sep 2026): https://www.theweek.in/news/defence/2026/09/29/10-military-grade-drones-worth-over-indian-rupee1-crore-seized-at-delhi-airport.html']
+}, {
+  slug: 'indian-defence-uav-makers-cross-from-prototype-to-delivery',
+  no: 'S-132',
+  title: 'India\'s Defence Drone Start-ups Are Crossing From Prototype to Delivery - But Not Yet to a Transparent Bill of Materials',
+  domain: 'Defence & Dual-Use',
+  date: '2026-09-30',
+  dateLabel: '30 Sep 2026',
+  status: 'live',
+  excerpt: 'A Hyderabad drone maker has reportedly delivered its first batch of 41 surveillance drones to the Army and signed a loitering-munition MoU with a defence PSU, while an IIT Kanpur spin-out has gained an industrial backer. Private Indian UAV firms are moving from demonstration to delivery; what is inside their platforms remains undisclosed.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Drogo Aerospace (formerly Drogo Drones), a Hyderabad-based UAV maker that exhibited at Drone Expo 2026 in New Delhi, is reported to have delivered a first batch of 41 JK 250e surveillance and reconnaissance drones to the Indian Army\'s Southern Command at Nashik in June 2026, under a contract reported at Rs 72 crore, with the balance targeted by August 2026. On 4 September 2026 the company signed an MoU with Munitions India Limited, a defence PSU, for the design, development and integration of indigenous UAVs and loitering munitions. Separately, IIT Kanpur-incubated VU Dynamics has entered a strategic partnership with the PATH Group, reported by The Hindu BusinessLine as a takeover with a planned factory in Indore.',
+  type: 'p'
+}, {
+  text: 'What the evidence shows',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The JK 250e delivery and contract value are reported by several independent outlets; no Ministry of Defence contract document has been located.', 'The Munitions India MoU is a collaboration framework - it carries no order, quantity or value.', 'VU Dynamics\' origin and technology are described by IIT Kanpur itself; whether PATH now owns it or partners with it is reported differently by different sources.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Delivery shifts the question for private UAV makers from \'can they build it\' to \'what is inside it\' - motors, cells, flight controllers and datalinks.', 'A DPSU partnership gives a private designer a production and qualification route for loitering munitions that start-ups rarely have on their own.', 'Industrial backers bringing factories and capital are how prototype-stage defence drone firms reach volume.']
+}, {
+  text: 'What we cannot yet say',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether the balance of the JK 250e order has been delivered.', 'The origin of propulsion, battery, avionics and datalink content in any of these platforms - none is disclosed.', 'The ownership structure of VU Dynamics and the status of the Indore factory.']
+}, {
+  text: 'Source note: surfaced through Techadyant Labs\' OSINT pass on Drone Expo & Conference 2026 (New Delhi, 28-30 September). Exhibiting is not treated as evidence of capability; claims above are labelled by how well they are corroborated. Company profiles are in the UAS Atlas.',
+  type: 'p'
+}],
+  takeaways: ['Private Indian defence UAV makers are now visible at the delivery and DPSU-partnership stage, not only demonstration.', 'Drogo Aerospace\'s reported 41-unit JK 250e first batch to the Army is the clearest prototype-to-delivery marker in the Drone Expo intake.', 'An MoU with Munitions India is a route to loitering-munition production, not an order.', 'None of these platforms discloses its subsystem bill of materials - that is the next test of indigenisation.'],
+  sources: ['https://newsable.asianetnews.com/india/drogo-aerospace-delivers-first-batch-of-41-jk-250e-drones-to-army-articleshow-1ng38bh', 'https://www.siasat.com/hyderabad-defence-firm-supplies-drones-to-indian-army-3490157/', 'https://www.thehansindia.com/business/market-compass/drogo-aerospace-signs-mou-with-munitions-india-for-loitering-munition-uav-systems-1118309', 'https://iitk.ac.in/startup-vu-dynamics-collaborates-with-path-group']
+}, {
+  slug: 'hidden-semiconductor-dependency-of-indian-uavs',
+  no: 'S-133',
+  title: 'The Hidden Semiconductor Dependency of Indian UAVs',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-09-30',
+  dateLabel: '30 Sep 2026',
+  status: 'live',
+  excerpt: 'Indian drone avionics are increasingly designed in India, but the silicon inside them arrives through distributors\' drone portfolios of foreign-brand processors, sensors, GNSS modules, MOSFETs and BMS chips. Board-level design and chip-level import dependence are both true at once.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'At Drone Expo 2026 in New Delhi, several Indian companies - Arkin Labs, YARI Robotics and Zerosum Technologies among them - marketed complete flight-controller, GNSS and power-module stacks, with Arkin and YARI stating their products are designed and built in India. On the same floor, component distributor Millennium Semiconductors exhibited with a published drone portfolio spanning processors, CMOS image sensors, GPS and cellular modules, motor-control chips, MOSFETs, Hall sensors, battery-management ICs, power components and connectors - supplied from globally sourced component brands.',
+  type: 'p'
+}, {
+  text: 'What the evidence shows',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Indian flight-controller vendors describe Indian design and manufacture, but none publishes which microcontrollers, IMUs or GNSS chipsets their boards use.', 'Distributors now market drone-specific portfolios of foreign-brand semiconductors to Indian UAV makers.', 'Techadyant\'s UAS sovereignty assessment already rates microcontrollers, IMUs, power-management ICs and power electronics among the most import-exposed layers of Indian drones (an internal, indicative estimate).']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['\'Designed in India\' at board level and \'dependent on imports\' at chip level are both true - the dependency has moved down a layer, not away.', 'Distributor line cards are a cheap, repeatable way to read the imported bill of materials behind Indian drones.', 'Any sovereignty claim about Indian drone avionics should be tested at the chip, not the board.']
+}, {
+  text: 'What we cannot yet say',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Which specific brands dominate Indian drone electronics - the distributor line cards have not yet been captured in detail.', 'The semiconductor bill of materials of any named Indian flight controller.']
+}, {
+  text: 'Source note: surfaced through Techadyant Labs\' OSINT pass on Drone Expo & Conference 2026. Company capability statements are company claims and are labelled as such in the UAS Atlas dossiers.',
+  type: 'p'
+}],
+  takeaways: ['Indian drone flight controllers are increasingly Indian-designed at board level.', 'The chips inside them - MCUs, IMUs, GNSS, MOSFETs, BMS ICs - still arrive largely through distributors of foreign brands.', 'The dependency has moved down a layer, from the board to the silicon.', 'Distributor drone portfolios are a practical window onto the imported bill of materials.'],
+  sources: ['https://www.millenniumsemi.com/solutions/drones/', 'https://arkinlabs.in/', 'https://yarirobotics.com/', 'https://labs.techadyant.com/reports/who-builds-indias-drones/']
+}, {
+  slug: 'drone-battery-question-is-a-cell-question',
+  no: 'S-134',
+  title: 'India\'s Drone Battery Question Is Really a Cell Question',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-09-30',
+  dateLabel: '30 Sep 2026',
+  status: 'live',
+  excerpt: 'Drone Expo 2026 showed Indian drone battery-pack and BMS integration, including semi-solid-state packs - but no verified Indian source of drone-grade cells. Pack localisation is being mistaken for battery localisation.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Hyderabad\'s Ascend Powerpacks exhibited at Drone Expo 2026 with Li-ion, high-voltage and semi-solid-state drone battery packs, in-house battery-management systems and smart chargers, stating that it designs, manufactures and services its packs. At least six other energy and battery exhibitors were present. None of them has verified, public evidence of manufacturing drone-grade cells in India, and Ascend does not disclose where its cells come from.',
+  type: 'p'
+}, {
+  text: 'What the evidence shows',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Indian pack assembly and BMS design for drones is visible and claimed by the companies involved.', 'Cell origin is undisclosed across the pack makers observed.', 'Techadyant\'s Atlas already records cells as the imported core of domestically assembled drone packs.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Endurance and payload - the performance levers defence buyers care most about - are set by the cell, not the pack.', 'A pack assembled in India from imported cells is a localised enclosure around an imported dependency.', 'Indian pack makers are the natural first customers for any future domestic drone-grade cell line.']
+}, {
+  text: 'What we cannot yet say',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether any of the cell-adjacent Drone Expo exhibitors actually manufactures drone-grade cells in India.', 'Which cell suppliers Indian drone pack makers depend on today.']
+}, {
+  text: 'Source note: surfaced through Techadyant Labs\' OSINT pass on Drone Expo & Conference 2026. Company statements are treated as claims, not verified manufacturing.',
+  type: 'p'
+}],
+  takeaways: ['Indian drone battery packs and BMS are increasingly designed and assembled in India.', 'No Drone Expo 2026 exhibitor showed verified Indian manufacturing of drone-grade cells.', 'Pack localisation is not the same as battery localisation - the cell is the strategic content.', 'Pack makers are the obvious anchor customers for a domestic drone-cell line.'],
+  sources: ['https://www.ascendpowerpacks.com/', 'https://www.droneexpo.in/exhibitors-list', 'https://labs.techadyant.com/reports/who-builds-indias-drones/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
