@@ -18,6 +18,7 @@ const NAV: NavGroup[] = [
       { href: '/research/pillars/defence/army', label: '— Army Atlas' },
       { href: '/research/pillars/defence/navy-coast-guard', label: '— Navy + Coast Guard Atlas' },
       { href: '/research/pillars/defence/air-force', label: '— Air Force Atlas' },
+      { href: '/research/pillars/defence/high-altitude', label: '— High-Altitude Atlas' },
       { href: '/research/pillars/enterprise-software', label: 'Enterprise Software' },
       { href: '/research/critical-manufacturing-dependencies', label: 'Critical Manufacturing Dependencies' },
       { href: '/research/drones-uas', label: 'Unmanned Systems' },

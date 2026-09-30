@@ -2,6 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 import { meta as aeroMeta } from './military-aerospace/data';
 import { meta as spaceMeta } from './space/data';
+import highAltitude from './pillars/defence/_high_altitude.json';
+
+const haResearchNeeds = highAltitude.entities.filter((e) => e.claim_type === 'research_need').length;
 
 /**
  * Atlas ecosystems that live OUTSIDE the five SID corridors (which auto-populate
@@ -86,6 +89,21 @@ export const EXTRA_ECOSYSTEMS: ExtraEcosystem[] = [
     weakStatus: 'Nascent / Import-dependent',
     go: 'Explore the ecosystem →',
   },
+  {
+    key: 'high-altitude-defence',
+    label: 'High-Altitude Defence',
+    no: '10',
+    href: '/research/pillars/defence/high-altitude/',
+    accent: '#38BDF8',
+    tagline: 'What it takes to operate above 12,000 ft — power, shelter, soldier physiology, thin-air UAS and logistics, from DRDO research needs to demonstrated capability.',
+    strip: [],
+    stat: <><b>{highAltitude.entities.length}</b> entities · <b>{highAltitude.categories.length}</b> categories</>,
+    stat2: `${highAltitude.suppliers.length} suppliers`,
+    weakPrefix: 'Evidence mix',
+    weakName: `${haResearchNeeds} of ${highAltitude.entities.length} are research needs`,
+    weakStatus: 'not fielded capability',
+    go: 'Explore the atlas →',
+  },
 ];
 
 /** Full card — used on the /research Atlas overview (with layer strip + weakest link). */
@@ -96,9 +114,11 @@ export function ExtraEcosystemCardFull({ e }: { e: ExtraEcosystem }) {
         <h3>{e.label}</h3>
       </div>
       <p className="atlas-card-tag">{e.tagline}</p>
-      <div className="atlas-strip" aria-hidden="true">
-        {e.strip.map((bg, i) => <span key={i} style={{ background: bg }} />)}
-      </div>
+      {e.strip.length > 0 && (
+        <div className="atlas-strip" aria-hidden="true">
+          {e.strip.map((bg, i) => <span key={i} style={{ background: bg }} />)}
+        </div>
+      )}
       <div className="atlas-card-stats">
         <span>{e.stat}</span>
         <span>{e.stat2}</span>
