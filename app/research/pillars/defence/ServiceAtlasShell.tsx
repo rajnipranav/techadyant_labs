@@ -133,6 +133,7 @@ export function ServiceAtlasShell({ view }: { view: ViewCode }) {
               <Link href={`${BASE}/army/`} style={{ color: 'var(--link, #6cb0ff)' }}>Army Atlas</Link>
               <Link href={`${BASE}/navy-coast-guard/`} style={{ color: 'var(--link, #6cb0ff)' }}>Navy + Coast Guard Atlas</Link>
               <Link href={`${BASE}/air-force/`} style={{ color: 'var(--link, #6cb0ff)' }}>Air Force Atlas</Link>
+              <Link href={`${BASE}/high-altitude/`} style={{ color: 'var(--link, #6cb0ff)' }}>High-Altitude Defence Atlas</Link>
               <Link href="/research/military-aerospace/" style={{ color: 'var(--link, #6cb0ff)' }}>Military Aerospace Atlas</Link>
               <Link href="/research/drones-uas/" style={{ color: 'var(--link, #6cb0ff)' }}>Unmanned Systems Atlas</Link>
             </div>
