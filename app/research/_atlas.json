@@ -9699,6 +9699,127 @@
    ],
    "type_code": "company",
    "description": "Bengaluru unmanned-systems company building an encrypted, low-latency digital video/telemetry link, autonomous flight supervision and FPV air and ground platforms; proprietary technology claimed. Drone Expo 2026 exhibitor."
+  },
+  {
+   "id": "0290ea28-6da7-5bcb-8e8c-eb980e53412f",
+   "name": "Defence Institute of High Altitude Research (DIHAR), DRDO",
+   "type": "Research Institution",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "research_institution",
+   "description": "DRDO laboratory for cold-arid and high-altitude technologies — greenhouse and soilless agriculture, shelters, water and waste systems — with a high-altitude trial/testing mandate. Lead organisation in the Techadyant High-Altitude Defence Atlas."
+  },
+  {
+   "id": "251d45a3-5b69-51df-9f2a-678433f4b836",
+   "name": "Defence Institute of Physiology and Allied Sciences (DIPAS), DRDO",
+   "type": "Research Institution",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "research_institution",
+   "description": "DRDO laboratory for soldier physiology at altitude — acclimatisation, high-altitude illness, nutrition and performance in extreme environments."
+  },
+  {
+   "id": "c0232ecb-8954-58ca-903a-fbee499fa0e6",
+   "name": "Defence Bio-Engineering and Electro Medical Laboratory (DEBEL), DRDO",
+   "type": "Research Institution",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "research_institution",
+   "description": "DRDO laboratory for protective clothing and life-support equipment, including high-altitude partial-pressure suit fabric and cold-weather protective gear."
+  },
+  {
+   "id": "fc20e857-1606-5dc3-8d9d-583bd6e0ea93",
+   "name": "DRDO high-altitude logistics drone programme (20 kg)",
+   "type": "Scheme / Programme",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "scheme",
+   "description": "DRDO/ADE development of 20 kg-payload high-altitude logistics drones in electric, hybrid and engine variants; 18,000 ft take-off altitude stated. Development programme — not evidence of production or induction."
+  },
+  {
+   "id": "73c16960-fbdf-50f8-9174-ad7e5595e580",
+   "name": "HIM-DRONE-A-THON (Indian Army high-altitude drone demonstrations)",
+   "type": "Scheme / Programme",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "scheme",
+   "description": "Indian Army-organised high-altitude drone demonstrations with industry at roughly 4,000–5,000 m around Leh/Wari La (HIM-DRONE-A-THON 2, HIMTECH 2024). A demonstration and demand signal — not procurement."
+  },
+  {
+   "id": "f259c42e-d87b-546b-b199-7f3027a17d88",
+   "name": "Inno-Yoddha (Indian Army innovation programme)",
+   "type": "Scheme / Programme",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "scheme",
+   "description": "Indian Army in-house innovation pipeline and annual cohort; ideas and prototypes, not procurement."
+  },
+  {
+   "id": "739ab816-4e9b-5f88-8847-14487e56b655",
+   "name": "EndureAir Systems",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Indian UAV maker; SABAL described by the company for high-altitude logistics. Company-stated capability; procurement status not inferred."
+  },
+  {
+   "id": "962d4e99-c4fa-5aa2-aee6-936ff3f01457",
+   "name": "InsideFPV",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Indian FPV/tactical UAV maker; company documents a high-altitude demonstration result at HIM-DRONE-A-THON. Procurement status not inferred."
+  },
+  {
+   "id": "3eee3d97-cea3-5b7e-b816-b1baa9e23ed1",
+   "name": "Optiemus Unmanned Systems",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Indian UAV maker (Vajra series); company materials record HIM-DRONE-A-THON participation. Event technical parameters unverified."
+  },
+  {
+   "id": "736e81bf-e2a0-51be-899a-45ea60d8e6b4",
+   "name": "Navisys Technologies",
+   "type": "Private Company",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "company",
+   "description": "Indian UAV, navigation and autonomy company; company materials report high-altitude trial activity. Procurement status not inferred."
+  },
+  {
+   "id": "f7686b1b-b518-5f7b-9a63-bb1a067b5c87",
+   "name": "High-altitude UAS (thin-air, cold operation)",
+   "type": "Technology",
+   "country": "IN",
+   "corridors": [
+    "defence"
+   ],
+   "type_code": "technology",
+   "description": "Unmanned aircraft engineered for thin air and extreme cold — reduced rotor/propeller thrust, cold-degraded battery capacity and cold-qualified electronics set the design limits. Mapped in the Techadyant High-Altitude Defence Atlas."
   }
  ],
  "corridors": [
@@ -37802,6 +37923,258 @@
    "type_label": "related to",
    "corridor_id": 4,
    "description": "Resilient/secure UAV datalinks increasingly built on SDR and secure-comms technology."
+  },
+  {
+   "type": "part_of",
+   "unit": null,
+   "source": "Defence Institute of High Altitude Research (DIHAR), DRDO",
+   "target": "Defence Research and Development Organisation",
+   "magnitude": null,
+   "source_id": "0290ea28-6da7-5bcb-8e8c-eb980e53412f",
+   "target_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "type_label": "part of",
+   "corridor_id": 4,
+   "description": "DRDO laboratory (Leh)."
+  },
+  {
+   "type": "part_of",
+   "unit": null,
+   "source": "Defence Institute of Physiology and Allied Sciences (DIPAS), DRDO",
+   "target": "Defence Research and Development Organisation",
+   "magnitude": null,
+   "source_id": "251d45a3-5b69-51df-9f2a-678433f4b836",
+   "target_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "type_label": "part of",
+   "corridor_id": 4,
+   "description": "DRDO laboratory."
+  },
+  {
+   "type": "part_of",
+   "unit": null,
+   "source": "Defence Bio-Engineering and Electro Medical Laboratory (DEBEL), DRDO",
+   "target": "Defence Research and Development Organisation",
+   "magnitude": null,
+   "source_id": "c0232ecb-8954-58ca-903a-fbee499fa0e6",
+   "target_id": "358b6123-2127-4c8b-b95e-bda153de8986",
+   "type_label": "part of",
+   "corridor_id": 4,
+   "description": "DRDO laboratory."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "Aeronautical Development Establishment",
+   "target": "DRDO high-altitude logistics drone programme (20 kg)",
+   "magnitude": null,
+   "source_id": "04bdd7b4-429f-4fd8-89e5-377658912a06",
+   "target_id": "fc20e857-1606-5dc3-8d9d-583bd6e0ea93",
+   "type_label": "Develops",
+   "corridor_id": 4,
+   "description": "ADE with industry: 20 kg high-altitude logistics drone in electric, hybrid and engine variants."
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "DRDO high-altitude logistics drone programme (20 kg)",
+   "target": "High-altitude UAS (thin-air, cold operation)",
+   "magnitude": null,
+   "source_id": "fc20e857-1606-5dc3-8d9d-583bd6e0ea93",
+   "target_id": "f7686b1b-b518-5f7b-9a63-bb1a067b5c87",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": "DRDO high-altitude logistics UAS development programme."
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "HIM-DRONE-A-THON (Indian Army high-altitude drone demonstrations)",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "73c16960-fbdf-50f8-9174-ad7e5595e580",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": "Indian Army organises the HIM-DRONE-A-THON high-altitude demonstrations."
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "HIM-DRONE-A-THON (Indian Army high-altitude drone demonstrations)",
+   "target": "High-altitude UAS (thin-air, cold operation)",
+   "magnitude": null,
+   "source_id": "73c16960-fbdf-50f8-9174-ad7e5595e580",
+   "target_id": "f7686b1b-b518-5f7b-9a63-bb1a067b5c87",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": "Demonstration venue for high-altitude UAS (4,000–5,000 m)."
+  },
+  {
+   "type": "operates",
+   "unit": null,
+   "source": "Indian Army",
+   "target": "Inno-Yoddha (Indian Army innovation programme)",
+   "magnitude": null,
+   "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
+   "target_id": "f259c42e-d87b-546b-b199-7f3027a17d88",
+   "type_label": "Operates",
+   "corridor_id": 4,
+   "description": "Indian Army innovation programme."
+  },
+  {
+   "type": "researches",
+   "unit": null,
+   "source": "IIT Jodhpur",
+   "target": "High-altitude UAS (thin-air, cold operation)",
+   "magnitude": null,
+   "source_id": "7f5c0567-9bf4-4a9d-b438-8ab592dcbfde",
+   "target_id": "f7686b1b-b518-5f7b-9a63-bb1a067b5c87",
+   "type_label": "researches",
+   "corridor_id": 4,
+   "description": "DRDO DIA-CoE IIT Jodhpur lists drones for high-altitude mountain areas as a research thrust."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "ideaForge Technology Limited",
+   "target": "High-altitude UAS (thin-air, cold operation)",
+   "magnitude": null,
+   "source_id": "080e8af1-025f-478f-bea8-26082bf32df1",
+   "target_id": "f7686b1b-b518-5f7b-9a63-bb1a067b5c87",
+   "type_label": "Develops",
+   "corridor_id": 4,
+   "description": "YETI: 6,500 m maximum take-off altitude, 50–200 kg payload (company product page)."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "EndureAir Systems",
+   "target": "High-altitude UAS (thin-air, cold operation)",
+   "magnitude": null,
+   "source_id": "739ab816-4e9b-5f88-8847-14487e56b655",
+   "target_id": "f7686b1b-b518-5f7b-9a63-bb1a067b5c87",
+   "type_label": "Develops",
+   "corridor_id": 4,
+   "description": "SABAL described for high-altitude logistics (company)."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "BonV Aero",
+   "target": "High-altitude UAS (thin-air, cold operation)",
+   "magnitude": null,
+   "source_id": "8bba2ce2-55b3-4df8-bb49-cf732c173a77",
+   "target_id": "f7686b1b-b518-5f7b-9a63-bb1a067b5c87",
+   "type_label": "Develops",
+   "corridor_id": 4,
+   "description": "Air Hans: 16,500 ft operational ceiling, designed for high-altitude environments (company)."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "Raphe mPhibr Private Limited",
+   "target": "DRDO high-altitude logistics drone programme (20 kg)",
+   "magnitude": null,
+   "source_id": "63db7ed7-7790-4789-b791-7a8991ea8339",
+   "target_id": "fc20e857-1606-5dc3-8d9d-583bd6e0ea93",
+   "type_label": "Develops",
+   "corridor_id": 4,
+   "description": "DRDO TDF award for high-altitude stores-carriage drone development (ICE-engine and electric multicopter)."
+  },
+  {
+   "type": "beneficiary_of",
+   "unit": null,
+   "source": "Raphe mPhibr Private Limited",
+   "target": "Technology Development Fund",
+   "magnitude": null,
+   "source_id": "63db7ed7-7790-4789-b791-7a8991ea8339",
+   "target_id": "ea919663-ea45-457d-8dce-a158879089c9",
+   "type_label": "Beneficiary of",
+   "corridor_id": 4,
+   "description": "TDF-awarded high-altitude stores-carriage drone project."
+  },
+  {
+   "type": "develops",
+   "unit": null,
+   "source": "Navisys Technologies",
+   "target": "High-altitude UAS (thin-air, cold operation)",
+   "magnitude": null,
+   "source_id": "736e81bf-e2a0-51be-899a-45ea60d8e6b4",
+   "target_id": "f7686b1b-b518-5f7b-9a63-bb1a067b5c87",
+   "type_label": "Develops",
+   "corridor_id": 4,
+   "description": "Company reports high-altitude UAV trial activity."
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "InsideFPV",
+   "target": "HIM-DRONE-A-THON (Indian Army high-altitude drone demonstrations)",
+   "magnitude": null,
+   "source_id": "962d4e99-c4fa-5aa2-aee6-936ff3f01457",
+   "target_id": "73c16960-fbdf-50f8-9174-ad7e5595e580",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": "Company documents its HIM-DRONE-A-THON high-altitude FPV result."
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "DroneAcharya Aerial Innovations",
+   "target": "HIM-DRONE-A-THON (Indian Army high-altitude drone demonstrations)",
+   "magnitude": null,
+   "source_id": "49976d34-2c4c-4cca-a49c-a166a235a2e6",
+   "target_id": "73c16960-fbdf-50f8-9174-ad7e5595e580",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": "Annual report documents high-altitude FPV demonstration at HIM-DRONE-A-THON."
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "Optiemus Unmanned Systems",
+   "target": "HIM-DRONE-A-THON (Indian Army high-altitude drone demonstrations)",
+   "magnitude": null,
+   "source_id": "3eee3d97-cea3-5b7e-b816-b1baa9e23ed1",
+   "target_id": "73c16960-fbdf-50f8-9174-ad7e5595e580",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": "Company materials record HIM-DRONE-A-THON participation; parameters unverified."
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "Mistral Solutions",
+   "target": "High-altitude UAS (thin-air, cold operation)",
+   "magnitude": null,
+   "source_id": "3ab58716-b798-457d-b2be-90a248f86389",
+   "target_id": "f7686b1b-b518-5f7b-9a63-bb1a067b5c87",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": "Harsh-environment embedded electronics and defence engineering (AXISCADES group)."
+  },
+  {
+   "type": "depends_on",
+   "unit": null,
+   "source": "High-altitude UAS (thin-air, cold operation)",
+   "target": "High-energy Li-ion cells",
+   "magnitude": null,
+   "source_id": "f7686b1b-b518-5f7b-9a63-bb1a067b5c87",
+   "target_id": "3b19bd89-8cc0-4414-aa82-28badad6fa3b",
+   "type_label": "Depends on",
+   "corridor_id": 4,
+   "description": "Cold degrades cell capacity; DRDO lists high-altitude battery performance and thermal management as a research need."
+  },
+  {
+   "type": "related_to",
+   "unit": null,
+   "source": "High-altitude UAS (thin-air, cold operation)",
+   "target": "Small UAV (multirotor)",
+   "magnitude": null,
+   "source_id": "f7686b1b-b518-5f7b-9a63-bb1a067b5c87",
+   "target_id": "c5e5bd7b-bcde-47d8-b533-383f667dd37f",
+   "type_label": "related to",
+   "corridor_id": 4,
+   "description": "High-altitude variant class of small multirotor UAS."
   }
  ],
  "status_levels": [
