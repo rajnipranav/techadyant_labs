@@ -24,7 +24,9 @@
     "indigenous_pct": null,
     "indigenous_label": "Not disclosed",
     "mobility_or_class": null,
-    "operational_domains": ["naval"],
+    "operational_domains": [
+      "naval"
+    ],
     "entity_path": "/research/pillars/defence/entity/sagar-defence-engineering/"
   },
   "at_a_glance": {
@@ -39,7 +41,15 @@
   },
   "what_it_is": {
     "prose": "Sagar Defence Engineering is a privately held Indian maritime-autonomy OEM based in Pune. It occupies an unusual position in India's defence industrial base: a small private firm holding the country's most publicly substantiated long-endurance maritime-autonomy result, in a segment where the incumbents are defence shipyards that build hulls rather than autonomy stacks.\n\nThe company's flagship public reference is Matangi, an autonomous surface vessel that ran from Mumbai to Thoothukudi — reported at around 850 nautical miles, or 1,500 km — in autonomous mode with no crew aboard, under the Indian Navy's Sagarmala Parikrama. The vessel was flagged off by the Defence Minister at the Swavlamban 2024 plenary on 29 October 2024, and the Navy's own spokesperson account announced the passage. Reporting credits an indigenously developed navigation and collision-avoidance stack, later described as the firm's in-house AI autonomy suite, which supplies levels of autonomy from remotely operated through to fully autonomous across different hulls.\n\nA second, larger product line is reported in the press but is materially less well documented. Multiple outlets describe an autonomous weaponised boat-swarm programme — unmanned fast interceptor craft with electro-optical and radar tracking and a stabilised remote-controlled gun, navigating on a mix of GPS and NavIC — developed under an iDEX / Defence Innovation Organisation contract, together with reported orders for autonomous underwater vehicles for mine countermeasures. The Atlas records that this line exists and is attributed to the company; it does not record the reported quantities, allocations or values as established, because no primary Ministry of Defence or Navy contract document has been located for any of them. Those figures sit in open questions below.\n\nOn the industrial side, the company laid a foundation stone in March 2026 for an Autonomous Maritime Shipbuilding and Systems Centre at Juvvaladinne Fishing Harbour in Nellore district, Andhra Pradesh, on 29.58 acres allocated by the state government, with waterfront access for build, launch and trials. This is recorded as announced industrial footprint with a published construction schedule — not as operating capacity.",
-    "sources": ["src-01", "src-02", "src-03", "src-05", "src-06", "src-07", "src-09"]
+    "sources": [
+      "src-01",
+      "src-02",
+      "src-03",
+      "src-05",
+      "src-06",
+      "src-07",
+      "src-09"
+    ]
   },
   "deployments_procurement": {
     "summary": "One well-documented Navy-supported demonstration. A larger reported offtake pipeline exists in secondary press only — quantities and values are recorded as reported claims, not as established procurement.",
@@ -49,35 +59,50 @@
         "context": "Sagarmala Parikrama — Matangi autonomous coastal passage, Mumbai to Thoothukudi, flagged off at Swavlamban 2024 by the Defence Minister",
         "year": "2024",
         "quantity_or_note": "1 vessel · demonstration / validation transit. Well corroborated, including by the Navy's own announcement. Not an induction.",
-        "sources": ["src-01", "src-02", "src-03"]
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
       },
       {
         "agency": "Indian Navy / Indian Army",
         "context": "Autonomous weaponised boat swarm (unmanned fast interceptor craft) — reported approval and allocation",
         "year": "2023",
         "quantity_or_note": "REPORTED IN SECONDARY PRESS ONLY: 12 units, of which 10 for the Navy and 2 for the Army at Pangong Lake. No primary MoD or Navy document located; contract number and value unknown. Do not cite as confirmed procurement.",
-        "sources": ["src-05", "src-07"]
+        "sources": [
+          "src-05",
+          "src-07"
+        ]
       },
       {
         "agency": "Indian Navy",
         "context": "Autonomous underwater vehicles for mine detection and countermeasures — reported order",
         "year": "2023",
         "quantity_or_note": "REPORTED IN SECONDARY PRESS ONLY: 30 units. No primary document located; contract number and value unknown.",
-        "sources": ["src-07"]
+        "sources": [
+          "src-07"
+        ]
       },
       {
         "agency": "iDEX / Defence Innovation Organisation",
         "context": "Development contract for autonomous weaponised boat swarms for the Indian Navy",
         "year": "Reported 2022 — date and framework disputed",
         "quantity_or_note": "Reporting places this under iDEX-DIO and describes it as a SPRINT contract dated January 2022, which conflicts with the public SPRINT launch timeline. Framework and date unresolved — see open questions.",
-        "sources": ["src-05", "src-07"]
+        "sources": [
+          "src-05",
+          "src-07"
+        ]
       },
       {
         "agency": "Government of Andhra Pradesh",
         "context": "Land allocation and foundation stone for an Autonomous Maritime Shipbuilding and Systems Centre, Juvvaladinne Fishing Harbour, Nellore district",
         "year": "2026",
         "quantity_or_note": "29.58 acres (reported as 7.58 acres waterfront + 22 acres harbour land). Announced industrial footprint with a published build schedule — not operating capacity.",
-        "sources": ["src-06", "src-09"]
+        "sources": [
+          "src-06",
+          "src-09"
+        ]
       }
     ],
     "open_questions": [
@@ -97,35 +122,52 @@
         "label": "Demonstrated capability",
         "value": 4,
         "note": "The Mumbai–Thoothukudi autonomous transit is the strongest publicly documented long-endurance maritime-autonomy result by an Indian firm, corroborated by the Navy itself.",
-        "sources": ["src-01", "src-02", "src-03"]
+        "sources": [
+          "src-01",
+          "src-02",
+          "src-03"
+        ]
       },
       {
         "id": "offtake_evidence",
         "label": "Offtake evidence",
         "value": 1,
         "note": "Substantial reported orders exist across several outlets, but no primary contract document, order number or value has been located for any of them. Evidence quality here is far weaker than the demonstration record.",
-        "sources": ["src-05", "src-07"]
+        "sources": [
+          "src-05",
+          "src-07"
+        ]
       },
       {
         "id": "autonomy_stack_sovereignty",
         "label": "Autonomy stack sovereignty",
         "value": 3,
         "note": "The autonomy suite is consistently described as in-house and indigenous, and NavIC use is reported. Not verifiable without a published technical baseline; product naming is itself inconsistent across sources.",
-        "sources": ["src-04", "src-08"]
+        "sources": [
+          "src-04",
+          "src-08"
+        ]
       },
       {
         "id": "industrial_footprint",
         "label": "Industrial footprint",
         "value": 2,
         "note": "Land allocated and foundation stone laid for a dedicated autonomous-vessel yard in Andhra Pradesh, with a published schedule. Announced, not yet operating.",
-        "sources": ["src-06", "src-09"]
+        "sources": [
+          "src-06",
+          "src-09"
+        ]
       },
       {
         "id": "source_quality",
         "label": "Source quality",
         "value": 3,
         "note": "One official Navy announcement and broad credible trade coverage for the transit; the procurement narrative rests on secondary and enthusiast defence press with no primary documents.",
-        "sources": ["src-01", "src-03", "src-07"]
+        "sources": [
+          "src-01",
+          "src-03",
+          "src-07"
+        ]
       }
     ]
   },
@@ -145,54 +187,83 @@
     {
       "date": "2015",
       "event": "Company reported as founded (company-database sourcing; not verified against a corporate filing).",
-      "sources": ["src-10"]
+      "sources": [
+        "src-10"
+      ]
     },
     {
       "date": "2023-10",
       "event": "Press reports the Indian Navy approving acquisition of autonomous weaponised boat swarms developed by the company, with a portion allocated to the Indian Army. Quantities are press-reported only.",
-      "sources": ["src-05", "src-07"]
+      "sources": [
+        "src-05",
+        "src-07"
+      ]
     },
     {
       "date": "2024-10-29",
       "event": "Matangi flagged off by Defence Minister Rajnath Singh at the Swavlamban 2024 plenary; Indian Navy launches Sagarmala Parikrama.",
-      "sources": ["src-01", "src-02"]
+      "sources": [
+        "src-01",
+        "src-02"
+      ]
     },
     {
       "date": "2024-11",
       "event": "Matangi completes the ~1,500 km autonomous passage to Thoothukudi with Indian Navy support.",
-      "sources": ["src-03"]
+      "sources": [
+        "src-03"
+      ]
     },
     {
       "date": "2026-03",
       "event": "Foundation stone laid for an Autonomous Maritime Shipbuilding and Systems Centre at Juvvaladinne Fishing Harbour, Nellore district, Andhra Pradesh, on 29.58 acres allocated by the state.",
-      "sources": ["src-06", "src-09"]
+      "sources": [
+        "src-06",
+        "src-09"
+      ]
     }
   ],
   "faq": [
     {
       "question": "What does Sagar Defence Engineering make?",
       "answer": "Unmanned maritime systems — autonomous surface vessels, autonomous underwater vehicles, and the autonomy software that runs them. The company is based in Pune and is privately held.",
-      "sources": ["src-03", "src-08"]
+      "sources": [
+        "src-03",
+        "src-08"
+      ]
     },
     {
       "question": "What is the company best known for?",
       "answer": "Matangi, an autonomous surface vessel that ran from Mumbai to Thoothukudi — around 1,500 km — in autonomous mode with no crew aboard, under the Indian Navy's Sagarmala Parikrama, flagged off at Swavlamban 2024.",
-      "sources": ["src-01", "src-02", "src-03"]
+      "sources": [
+        "src-01",
+        "src-02",
+        "src-03"
+      ]
     },
     {
       "question": "Has the Indian Navy ordered its weaponised autonomous boats?",
       "answer": "Press reporting describes an approval for 12 autonomous weaponised boat swarms, with 10 for the Navy and 2 for the Army at Pangong Lake, plus 30 autonomous underwater vehicles for mine countermeasures. The Atlas has not located a primary Ministry of Defence or Navy contract document for any of these, so it records them as reported claims rather than confirmed procurement. Contract numbers and values are unknown.",
-      "sources": ["src-05", "src-07"]
+      "sources": [
+        "src-05",
+        "src-07"
+      ]
     },
     {
       "question": "Is the company building its own shipyard?",
       "answer": "A foundation stone was laid in March 2026 for an Autonomous Maritime Shipbuilding and Systems Centre at Juvvaladinne Fishing Harbour in Nellore district, Andhra Pradesh, on 29.58 acres allocated by the state government with direct waterfront access. This is announced industrial footprint on a published schedule, not operating capacity.",
-      "sources": ["src-06", "src-09"]
+      "sources": [
+        "src-06",
+        "src-09"
+      ]
     },
     {
       "question": "What is the company's autonomy software called?",
       "answer": "Sources are inconsistent. Coverage refers to an in-house AI autonomy and command-and-control suite as both 'Genesis' and 'GENISYS', described as platform-agnostic and offering remotely operated, semi-autonomous and fully autonomous modes. No public technical baseline has been published, and the Atlas does not resolve the naming.",
-      "sources": ["src-04", "src-08"]
+      "sources": [
+        "src-04",
+        "src-08"
+      ]
     }
   ],
   "open_questions": [
@@ -304,6 +375,15 @@
       "trust_tier": "indicative",
       "accessed": "2026-09-09",
       "note": "Company database. Used only for founding year and corporate basics, which are not verified against a filing."
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/pillars/defence/entity/sagar-defence-engineering/",
+      "title": "Sagar Defence Engineering — Defence Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
     }
   ],
   "seo": {
@@ -311,15 +391,28 @@
     "meta_description": "Sagar Defence Engineering dossier: the Pune maritime-autonomy OEM behind the Matangi autonomous surface vessel, its Indian Navy and iDEX relationships, the Andhra Pradesh autonomous shipyard, and what remains unverified in its reported offtake.",
     "canonical_path": "/research/pillars/defence/entity/sagar-defence-engineering/",
     "og_type": "article",
-    "json_ld_types": ["Organization", "FAQPage", "BreadcrumbList"]
+    "json_ld_types": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
   },
   "cta": {
     "track_ecosystem": "/research/pillars/defence/navy-coast-guard/",
     "submit_correction": "mailto:labs@techadyant.com",
     "related_research": [
-      { "label": "System: Matangi Autonomous Surface Vessel", "path": "/research/pillars/defence/entity/matangi-usv/" },
-      { "label": "Navy & Coast Guard Atlas", "path": "/research/pillars/defence/navy-coast-guard/" },
-      { "label": "Beyond Sea Drones — India's autonomous maritime systems", "path": "/reports/beyond-sea-drones-india-autonomous-maritime-systems/" }
+      {
+        "label": "System: Matangi Autonomous Surface Vessel",
+        "path": "/research/pillars/defence/entity/matangi-usv/"
+      },
+      {
+        "label": "Navy & Coast Guard Atlas",
+        "path": "/research/pillars/defence/navy-coast-guard/"
+      },
+      {
+        "label": "Beyond Sea Drones — India's autonomous maritime systems",
+        "path": "/reports/beyond-sea-drones-india-autonomous-maritime-systems/"
+      }
     ]
   }
 }

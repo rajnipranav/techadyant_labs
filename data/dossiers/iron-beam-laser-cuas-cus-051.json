@@ -1,118 +1,136 @@
 {
- "entity_id": "atl-sys-iron-beam-laser-cuas-cus-051",
- "entity_type": "system",
- "tier": "B",
- "noindex": false,
- "slug": "iron-beam-laser-cuas-cus-051",
- "name": "Iron Beam (Laser CUAS)",
- "vertical": "counter-uas",
- "parent_hub_path": "/research/counter-uas/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-sys-iron-beam-laser-cuas-cus-051",
+  "entity_type": "system",
+  "tier": "B",
+  "noindex": false,
+  "slug": "iron-beam-laser-cuas-cus-051",
   "name": "Iron Beam (Laser CUAS)",
-  "role": "Fixed Site; Mobile",
-  "country": "Israel",
-  "status_line": "Operational",
-  "subtitle": "V1",
-  "entity_path": "/research/counter-uas/system/iron-beam-laser-cuas-cus-051/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Rafael Advanced Defense Systems"
-   }
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Iron Beam (Laser CUAS)",
+    "role": "Fixed Site; Mobile",
+    "country": "Israel",
+    "status_line": "Operational",
+    "subtitle": "V1",
+    "entity_path": "/research/counter-uas/system/iron-beam-laser-cuas-cus-051/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Rafael Advanced Defense Systems"
+      }
+    ],
+    "key_specs": [],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {
+        "Indigenous content": "0% (No - Fully Imported)"
+      }
+    }
+  },
+  "what_it_is": "Iron Beam is Rafael's high-energy laser weapon system for counter-drone, rocket and mortar interception, designed to complement David's Sling/Iron Dome layers and now entering operational delivery in Israel with growing export attention.",
+  "india_angle": "No Indian Iron Beam sale is publicly confirmed; the system matters to this atlas as the directed-energy benchmark Indian laser programmes (DRDO's DWE) and private C-UAS integrators benchmark against.",
+  "drone_types_countered": [
+    "Micro",
+    "Small UAV",
+    "Medium UAV",
+    "Fixed Wing",
+    "VTOL",
+    "FPV",
+    "Loitering Munition",
+    "Helicopter UAV",
+    "Autonomous"
   ],
-  "key_specs": [],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {
-    "Indigenous content": "0% (No - Fully Imported)"
-   }
-  }
- },
- "what_it_is": "Iron Beam is Rafael's high-energy laser weapon system for counter-drone, rocket and mortar interception, designed to complement David's Sling/Iron Dome layers and now entering operational delivery in Israel with growing export attention.",
- "india_angle": "No Indian Iron Beam sale is publicly confirmed; the system matters to this atlas as the directed-energy benchmark Indian laser programmes (DRDO's DWE) and private C-UAS integrators benchmark against.",
- "drone_types_countered": [
-  "Micro",
-  "Small UAV",
-  "Medium UAV",
-  "Fixed Wing",
-  "VTOL",
-  "FPV",
-  "Loitering Munition",
-  "Helicopter UAV",
-  "Autonomous"
- ],
- "kill_chain": [
-  "Detect",
-  "Track",
-  "Identify",
-  "Classify",
-  "Decide",
-  "Neutralize",
-  "Assess"
- ],
- "intelligence_assessment": "Iron Beam's status is verifiable via Rafael and international coverage. For India, watch DRDO directed-energy test announcements and any Rafael-India JV DEW offers.",
- "graph": {
-  "maker": {
-   "name": "Rafael Advanced Defense Systems",
-   "path": "/research/counter-uas/manufacturer/rafael-advanced-defense-systems-mfg-023/"
-  },
-  "parent_hub": "/research/counter-uas/"
- },
- "faq": [
-  {
-   "q": "Is Iron Beam in India?",
-   "a": "No Indian Iron Beam acquisition is publicly confirmed; it is tracked as the global laser C-UAS benchmark."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
-  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
- ],
- "sources": [
-  {
-   "publisher": "rafael.co.il",
-   "title": "IRON BEAM - High Energy Laser Weapon System (Rafael)",
-   "url": "https://www.rafael.co.il/system/iron-beam",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "en.wikipedia.org",
-   "title": "Iron Beam",
-   "url": "https://en.wikipedia.org/wiki/Iron_Beam",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "rafael-usa.com",
-   "title": "IRON BEAM - Rafael USA",
-   "url": "https://www.rafael-usa.com/programs/iron-beam",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "Iron Beam (Laser CUAS) - Counter-UAS Atlas - Techadyant Labs",
-  "description": "Iron Beam is Rafael's high-energy laser weapon system for counter-drone, rocket and mortar interception, designed to complement David's Sling/Iron Dome layers",
-  "noindex": false
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
-   "curated research with source verification"
+  "kill_chain": [
+    "Detect",
+    "Track",
+    "Identify",
+    "Classify",
+    "Decide",
+    "Neutralize",
+    "Assess"
   ],
-  "source_count": 3,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "intelligence_assessment": "Iron Beam's status is verifiable via Rafael and international coverage. For India, watch DRDO directed-energy test announcements and any Rafael-India JV DEW offers.",
+  "graph": {
+    "maker": {
+      "name": "Rafael Advanced Defense Systems",
+      "path": "/research/counter-uas/manufacturer/rafael-advanced-defense-systems-mfg-023/"
+    },
+    "parent_hub": "/research/counter-uas/"
+  },
+  "faq": [
+    {
+      "q": "Is Iron Beam in India?",
+      "a": "No Indian Iron Beam acquisition is publicly confirmed; it is tracked as the global laser C-UAS benchmark."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+    "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+  ],
+  "sources": [
+    {
+      "publisher": "rafael.co.il",
+      "title": "IRON BEAM - High Energy Laser Weapon System (Rafael)",
+      "url": "https://www.rafael.co.il/system/iron-beam",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "en.wikipedia.org",
+      "title": "Iron Beam",
+      "url": "https://en.wikipedia.org/wiki/Iron_Beam",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "rafael-usa.com",
+      "title": "IRON BEAM - Rafael USA",
+      "url": "https://www.rafael-usa.com/programs/iron-beam",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/counter-uas/system/iron-beam-laser-cuas-cus-051/",
+      "title": "Iron Beam (Laser CUAS) — Counter-UAS Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Iron Beam (Laser CUAS) - Counter-UAS Atlas - Techadyant Labs",
+    "description": "Iron Beam is Rafael's high-energy laser weapon system for counter-drone, rocket and mortar interception, designed to complement David's Sling/Iron Dome layers",
+    "noindex": false
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+      "curated research with source verification"
+    ],
+    "source_count": 3,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "deployments": [],
+    "count": 0,
+    "note": "Deployment entries as published on the Atlas listing."
+  },
+  "import_dependencies": {
+    "summary": "Derived from the listing intelligence metrics; see rows for verbatim listing text.",
+    "rows": []
+  }
 }

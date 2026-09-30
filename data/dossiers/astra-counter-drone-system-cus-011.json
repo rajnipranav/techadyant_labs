@@ -1,96 +1,115 @@
 {
- "entity_id": "atl-sys-astra-counter-drone-system-cus-011",
- "entity_type": "system",
- "tier": "C",
- "noindex": true,
- "slug": "astra-counter-drone-system-cus-011",
- "name": "Astra Counter Drone System",
- "vertical": "counter-uas",
- "parent_hub_path": "/research/counter-uas/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-sys-astra-counter-drone-system-cus-011",
+  "entity_type": "system",
+  "tier": "C",
+  "noindex": true,
+  "slug": "astra-counter-drone-system-cus-011",
   "name": "Astra Counter Drone System",
-  "role": "Mobile; Fixed Site",
-  "country": "India",
-  "status_line": "Trial",
-  "subtitle": "V1",
-  "entity_path": "/research/counter-uas/system/astra-counter-drone-system-cus-011/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Astra Microwave Products"
-   }
-  ],
-  "key_specs": [],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {
-    "Indigenous content": "65% (Yes - Indigenous)"
-   }
-  }
- },
- "what_it_is": "Astra Counter Drone System is listed in this atlas as a mobile; fixed site (India). The atlas legacy record attributes it to Astra Microwave Products. A public dossier for this entity had not yet been published when the atlas hubs were crawled, so this record carries the legacy atlas data forward with an explicit verification backlog.",
- "drone_types_countered": [
-  "Nano",
-  "Micro",
-  "Small UAV",
-  "Medium UAV",
-  "Fixed Wing",
-  "VTOL",
-  "FPV",
-  "Loitering Munition"
- ],
- "kill_chain": [
-  "Detect",
-  "Track",
-  "Identify",
-  "Classify",
-  "Decide",
-  "Neutralize"
- ],
- "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
- "graph": {
-  "maker": {
-   "name": "Astra Microwave Products",
-   "path": "/research/counter-uas/manufacturer/astra-microwave-products-mfg-011/"
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Astra Counter Drone System",
+    "role": "Mobile; Fixed Site",
+    "country": "India",
+    "status_line": "Trial",
+    "subtitle": "V1",
+    "entity_path": "/research/counter-uas/system/astra-counter-drone-system-cus-011/"
   },
-  "parent_hub": "/research/counter-uas/"
- },
- "faq": [
-  {
-   "q": "Why does Astra Counter Drone System appear in the Counter-UAS Atlas?",
-   "a": "It is part of the atlas's coverage of counter uas; the hub lists it as a Mobile; Fixed Site relevant to India's industrial and security picture."
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Astra Microwave Products"
+      }
+    ],
+    "key_specs": [],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {
+        "Indigenous content": "65% (Yes - Indigenous)"
+      }
+    }
   },
-  {
-   "q": "What is the evidence status of this dossier?",
-   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
-  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
- ],
- "sources": [],
- "seo": {
-  "title": "Astra Counter Drone System - Counter-UAS Atlas - Techadyant Labs",
-  "description": "Astra Counter Drone System is listed in this atlas as a mobile; fixed site (India).",
-  "noindex": true
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  "what_it_is": "Astra Counter Drone System is listed in this atlas as a mobile; fixed site (India). The atlas legacy record attributes it to Astra Microwave Products. A public dossier for this entity had not yet been published when the atlas hubs were crawled, so this record carries the legacy atlas data forward with an explicit verification backlog.",
+  "drone_types_countered": [
+    "Nano",
+    "Micro",
+    "Small UAV",
+    "Medium UAV",
+    "Fixed Wing",
+    "VTOL",
+    "FPV",
+    "Loitering Munition"
   ],
-  "source_count": 0,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "kill_chain": [
+    "Detect",
+    "Track",
+    "Identify",
+    "Classify",
+    "Decide",
+    "Neutralize"
+  ],
+  "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+  "graph": {
+    "maker": {
+      "name": "Astra Microwave Products",
+      "path": "/research/counter-uas/manufacturer/astra-microwave-products-mfg-011/"
+    },
+    "parent_hub": "/research/counter-uas/"
+  },
+  "faq": [
+    {
+      "q": "Why does Astra Counter Drone System appear in the Counter-UAS Atlas?",
+      "a": "It is part of the atlas's coverage of counter uas; the hub lists it as a Mobile; Fixed Site relevant to India's industrial and security picture."
+    },
+    {
+      "q": "What is the evidence status of this dossier?",
+      "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+    "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+  ],
+  "sources": [
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/counter-uas/system/astra-counter-drone-system-cus-011/",
+      "title": "Astra Counter Drone System — Counter-UAS Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Astra Counter Drone System - Counter-UAS Atlas - Techadyant Labs",
+    "description": "Astra Counter Drone System is listed in this atlas as a mobile; fixed site (India).",
+    "noindex": true
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+    ],
+    "source_count": 0,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "deployments": [],
+    "count": 0,
+    "note": "Deployment entries as published on the Atlas listing."
+  },
+  "import_dependencies": {
+    "summary": "Derived from the listing intelligence metrics; see rows for verbatim listing text.",
+    "rows": []
+  }
 }

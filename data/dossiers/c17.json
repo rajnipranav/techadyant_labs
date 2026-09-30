@@ -1,113 +1,153 @@
 {
- "entity_id": "atl-plat-c17",
- "entity_type": "platform",
- "tier": "B",
- "noindex": false,
- "slug": "c17",
- "name": "Boeing C-17A Globemaster III",
- "vertical": "military-aerospace",
- "parent_hub_path": "/research/military-aerospace/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-plat-c17",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "c17",
   "name": "Boeing C-17A Globemaster III",
-  "role": "strategic heavy transport",
-  "country": "out_of_production",
-  "status_line": null,
-  "subtitle": null,
-  "entity_path": "/research/military-aerospace/platform/c17/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Boeing Defense, Space & Security (St. Louis, USA; final assembly Long Beach, California — production line closed)"
-   },
-   {
-    "label": "Role",
-    "value": "Strategic heavy airlift"
-   }
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Boeing C-17A Globemaster III",
+    "role": "strategic heavy transport",
+    "country": "out_of_production",
+    "status_line": null,
+    "subtitle": null,
+    "entity_path": "/research/military-aerospace/platform/c17/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Boeing Defense, Space & Security (St. Louis, USA; final assembly Long Beach, California — production line closed)"
+      },
+      {
+        "label": "Role",
+        "value": "Strategic heavy airlift"
+      }
+    ],
+    "key_specs": [
+      "77 t payload",
+      "4,400 km range",
+      "829 km/h cruise",
+      "45,000 ft ceiling",
+      "4 × Pratt & Whitney F117-PW-100 turbofan, 40,440 lbf each (commercial PW2040 derivative)",
+      "Not applicable — turbofan-powered"
+    ],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {}
+    }
+  },
+  "what_it_is": "Boeing C-17A Globemaster III is listed in this atlas as a strategic heavy transport (out_of_production). The atlas legacy record attributes it to Boeing Defense, Space & Security (St. Louis, USA; final assembly Long Beach, California — production line closed). L0 — fully imported.",
+  "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+  "graph": {
+    "maker": {
+      "name": "Boeing Defense, Space & Security (St. Louis, USA; final assembly Long Beach, California — production line closed)",
+      "path": "/research/military-aerospace/company/boeing/"
+    },
+    "dependency_profile": {
+      "Localization depth (max)": "L0",
+      "Production status": "out_of_production"
+    },
+    "parent_hub": "/research/military-aerospace/"
+  },
+  "faq": [
+    {
+      "q": "Why does Boeing C-17A Globemaster III appear in the Military Aerospace Atlas?",
+      "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a strategic heavy transport relevant to India's industrial and security picture."
+    },
+    {
+      "q": "What is the evidence status of this dossier?",
+      "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+    }
   ],
-  "key_specs": [
-   "77 t payload",
-   "4,400 km range",
-   "829 km/h cruise",
-   "45,000 ft ceiling",
-   "4 × Pratt & Whitney F117-PW-100 turbofan, 40,440 lbf each (commercial PW2040 derivative)",
-   "Not applicable — turbofan-powered"
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+    "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
   ],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {}
-  }
- },
- "what_it_is": "Boeing C-17A Globemaster III is listed in this atlas as a strategic heavy transport (out_of_production). The atlas legacy record attributes it to Boeing Defense, Space & Security (St. Louis, USA; final assembly Long Beach, California — production line closed). L0 — fully imported.",
- "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
- "graph": {
-  "maker": {
-   "name": "Boeing Defense, Space & Security (St. Louis, USA; final assembly Long Beach, California — production line closed)",
-   "path": "/research/military-aerospace/company/boeing/"
-  },
-  "dependency_profile": {
-   "Localization depth (max)": "L0",
-   "Production status": "out_of_production"
-  },
-  "parent_hub": "/research/military-aerospace/"
- },
- "faq": [
-  {
-   "q": "Why does Boeing C-17A Globemaster III appear in the Military Aerospace Atlas?",
-   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a strategic heavy transport relevant to India's industrial and security picture."
-  },
-  {
-   "q": "What is the evidence status of this dossier?",
-   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
-  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
- ],
- "sources": [
-  {
-   "publisher": "www.boeing.com",
-   "title": "C-17 Globemaster",
-   "url": "https://www.boeing.com/defense/tankers-and-transports/c-17-globemaster",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "www.iiss.org",
-   "title": "The Military Balance 2024",
-   "url": "https://www.iiss.org/publications/the-military-balance/2024/the-military-balance-2024/",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "www.pib.gov.in",
-   "title": "Achievements of Ministry of Defence During the Year 2013",
-   "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=102021",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "Boeing C-17A Globemaster III - Military Aerospace Atlas - Techadyant Labs",
-  "description": "Boeing C-17A Globemaster III is listed in this atlas as a strategic heavy transport (out_of_production).",
-  "noindex": false
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  "sources": [
+    {
+      "publisher": "www.boeing.com",
+      "title": "C-17 Globemaster",
+      "url": "https://www.boeing.com/defense/tankers-and-transports/c-17-globemaster",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "www.iiss.org",
+      "title": "The Military Balance 2024",
+      "url": "https://www.iiss.org/publications/the-military-balance/2024/the-military-balance-2024/",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "www.pib.gov.in",
+      "title": "Achievements of Ministry of Defence During the Year 2013",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=102021",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/military-aerospace/platform/c17/",
+      "title": "Boeing C-17A Globemaster III — Military Aerospace Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
   ],
-  "source_count": 3,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "seo": {
+    "title": "Boeing C-17A Globemaster III - Military Aerospace Atlas - Techadyant Labs",
+    "description": "Boeing C-17A Globemaster III is listed in this atlas as a strategic heavy transport (out_of_production).",
+    "noindex": false
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+    ],
+    "source_count": 3,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "milestones": [
+      {
+        "date": "2011-06-01",
+        "event": "Contract for 10 C-17A aircraft via FMS",
+        "badge": "delivered"
+      },
+      {
+        "date": "2017-06-01",
+        "event": "11th C-17A contract signed (additional aircraft)",
+        "badge": "delivered"
+      }
+    ],
+    "indian_production_status": "None. No Indian manufacturing."
+  },
+  "import_dependencies": {
+    "summary": "Listing metadata only: origin United States of America; Indian partner None for manufacture. Boeing India Engineering & Technology Center (BIETC) at Bengaluru provides engineering services. · Not applicable for manufacture.. Component-level import analysis is not published on the listing.",
+    "rows": []
+  },
+  "timeline": [
+    {
+      "date": "2011-06-01",
+      "event": "Contract for 10 C-17A aircraft via FMS",
+      "badge": "delivered"
+    },
+    {
+      "date": "2017-06-01",
+      "event": "11th C-17A contract signed (additional aircraft)",
+      "badge": "delivered"
+    }
+  ]
 }

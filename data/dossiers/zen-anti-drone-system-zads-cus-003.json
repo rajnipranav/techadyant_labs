@@ -1,96 +1,175 @@
 {
- "entity_id": "atl-sys-zen-anti-drone-system-zads-cus-003",
- "entity_type": "system",
- "tier": "C",
- "noindex": true,
- "slug": "zen-anti-drone-system-zads-cus-003",
- "name": "Zen Anti-Drone System (ZADS)",
- "vertical": "counter-uas",
- "parent_hub_path": "/research/counter-uas/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-sys-zen-anti-drone-system-zads-cus-003",
+  "entity_type": "system",
+  "tier": "C",
+  "noindex": true,
+  "slug": "zen-anti-drone-system-zads-cus-003",
   "name": "Zen Anti-Drone System (ZADS)",
-  "role": "Mobile; Portable",
-  "country": "India",
-  "status_line": "Operational",
-  "subtitle": "V3",
-  "entity_path": "/research/counter-uas/system/zen-anti-drone-system-zads-cus-003/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Zen Technologies"
-   }
-  ],
-  "key_specs": [],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {
-    "Indigenous content": "60% (Yes - Indigenous)"
-   }
-  }
- },
- "what_it_is": "Zen Anti-Drone System (ZADS) is listed in this atlas as a mobile; portable (India). The atlas legacy record attributes it to Zen Technologies. A public dossier for this entity had not yet been published when the atlas hubs were crawled, so this record carries the legacy atlas data forward with an explicit verification backlog.",
- "drone_types_countered": [
-  "Nano",
-  "Micro",
-  "Small UAV",
-  "Medium UAV",
-  "Fixed Wing",
-  "VTOL",
-  "FPV",
-  "Loitering Munition"
- ],
- "kill_chain": [
-  "Detect",
-  "Track",
-  "Identify",
-  "Classify",
-  "Decide",
-  "Neutralize"
- ],
- "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
- "graph": {
-  "maker": {
-   "name": "Zen Technologies",
-   "path": "/research/counter-uas/manufacturer/zen-technologies-mfg-003/"
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Zen Anti-Drone System (ZADS)",
+    "role": "Mobile; Portable",
+    "country": "India",
+    "status_line": "Operational",
+    "subtitle": "V3",
+    "entity_path": "/research/counter-uas/system/zen-anti-drone-system-zads-cus-003/"
   },
-  "parent_hub": "/research/counter-uas/"
- },
- "faq": [
-  {
-   "q": "Why does Zen Anti-Drone System (ZADS) appear in the Counter-UAS Atlas?",
-   "a": "It is part of the atlas's coverage of counter uas; the hub lists it as a Mobile; Portable relevant to India's industrial and security picture."
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Zen Technologies"
+      }
+    ],
+    "key_specs": [],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {
+        "Indigenous content": "60% (Yes - Indigenous)"
+      }
+    }
   },
-  {
-   "q": "What is the evidence status of this dossier?",
-   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
-  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
- ],
- "sources": [],
- "seo": {
-  "title": "Zen Anti-Drone System (ZADS) - Counter-UAS Atlas - Techadyant Labs",
-  "description": "Zen Anti-Drone System (ZADS) is listed in this atlas as a mobile; portable (India).",
-  "noindex": true
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  "what_it_is": "Zen Anti-Drone System (ZADS) is listed in this atlas as a mobile; portable (India). The atlas legacy record attributes it to Zen Technologies. A public dossier for this entity had not yet been published when the atlas hubs were crawled, so this record carries the legacy atlas data forward with an explicit verification backlog.",
+  "drone_types_countered": [
+    "Nano",
+    "Micro",
+    "Small UAV",
+    "Medium UAV",
+    "Fixed Wing",
+    "VTOL",
+    "FPV",
+    "Loitering Munition"
   ],
-  "source_count": 0,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "kill_chain": [
+    "Detect",
+    "Track",
+    "Identify",
+    "Classify",
+    "Decide",
+    "Neutralize"
+  ],
+  "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+  "graph": {
+    "maker": {
+      "name": "Zen Technologies",
+      "path": "/research/counter-uas/manufacturer/zen-technologies-mfg-003/"
+    },
+    "parent_hub": "/research/counter-uas/"
+  },
+  "faq": [
+    {
+      "q": "Why does Zen Anti-Drone System (ZADS) appear in the Counter-UAS Atlas?",
+      "a": "It is part of the atlas's coverage of counter uas; the hub lists it as a Mobile; Portable relevant to India's industrial and security picture."
+    },
+    {
+      "q": "What is the evidence status of this dossier?",
+      "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+    "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+  ],
+  "sources": [
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/counter-uas/system/zen-anti-drone-system-zads-cus-003/",
+      "title": "Zen Anti-Drone System (ZADS) — Counter-UAS Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Zen Anti-Drone System (ZADS) - Counter-UAS Atlas - Techadyant Labs",
+    "description": "Zen Anti-Drone System (ZADS) is listed in this atlas as a mobile; portable (India).",
+    "noindex": true
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+    ],
+    "source_count": 0,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "deployments": [
+      {
+        "name": "Indira Gandhi International Airport (IGIA)",
+        "location": "Delhi",
+        "status": "Operational",
+        "operator": "Airports Authority of India",
+        "note": "Airport perimeter security; runway protection against drone incursions"
+      },
+      {
+        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+        "location": "Maharashtra",
+        "status": "Operational",
+        "operator": "Airports Authority of India / CISF",
+        "note": "Airport perimeter security"
+      },
+      {
+        "name": "IOCL Panipat Refinery",
+        "location": "Haryana",
+        "status": "Operational",
+        "operator": "Indian Oil Corporation (IOCL)",
+        "note": "Refinery perimeter security"
+      },
+      {
+        "name": "IOCL Mathura Refinery",
+        "location": "Uttar Pradesh",
+        "status": "Operational",
+        "operator": "Indian Oil Corporation (IOCL)",
+        "note": "Refinery perimeter security"
+      },
+      {
+        "name": "Rajiv Gandhi International Airport (RGIA)",
+        "location": "Telangana",
+        "status": "Operational",
+        "operator": "Airports Authority of India / CISF",
+        "note": "Airport perimeter security"
+      },
+      {
+        "name": "Netaji Subhas Chandra Bose International Airport",
+        "location": "West Bengal",
+        "status": "Operational",
+        "operator": "Airports Authority of India / CISF",
+        "note": "Airport perimeter security"
+      }
+    ],
+    "count": 8,
+    "note": "Deployment entries as published on the Atlas listing."
+  },
+  "import_dependencies": {
+    "summary": "Derived from the listing intelligence metrics; see rows for verbatim listing text.",
+    "rows": [
+      {
+        "component": "Chinese-sourced subsystems",
+        "severity": "Medium",
+        "note": "Medium - some commercial Chinese components in COTS hardware",
+        "refs": [
+          "src-atlas-listing"
+        ]
+      },
+      {
+        "component": "Semiconductors (FPGA/GPU/AI-ASIC class)",
+        "severity": "High",
+        "note": "High - GPU, FPGA, RF components imported",
+        "refs": [
+          "src-atlas-listing"
+        ]
+      }
+    ]
+  }
 }

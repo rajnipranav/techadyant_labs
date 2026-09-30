@@ -1,120 +1,190 @@
 {
- "entity_id": "atl-plat-c130j",
- "entity_type": "platform",
- "tier": "B",
- "noindex": false,
- "slug": "c130j",
- "name": "Lockheed Martin C-130J Super Hercules",
- "vertical": "military-aerospace",
- "parent_hub_path": "/research/military-aerospace/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-plat-c130j",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "c130j",
   "name": "Lockheed Martin C-130J Super Hercules",
-  "role": "tactical medium transport special ops",
-  "country": "in_production",
-  "status_line": null,
-  "subtitle": null,
-  "entity_path": "/research/military-aerospace/platform/c130j/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Lockheed Martin Aeronautics (Marietta, Georgia, USA)"
-   },
-   {
-    "label": "Role",
-    "value": "Tactical airlift, special operations (the IAF C-130J-30s are operated by No. 77 Squadron 'Veiled Vipers' for special operations roles), HADR"
-   }
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Lockheed Martin C-130J Super Hercules",
+    "role": "tactical medium transport special ops",
+    "country": "in_production",
+    "status_line": null,
+    "subtitle": null,
+    "entity_path": "/research/military-aerospace/platform/c130j/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Lockheed Martin Aeronautics (Marietta, Georgia, USA)"
+      },
+      {
+        "label": "Role",
+        "value": "Tactical airlift, special operations (the IAF C-130J-30s are operated by No. 77 Squadron 'Veiled Vipers' for special operations roles), HADR"
+      }
+    ],
+    "key_specs": [
+      "20 t payload",
+      "4,200 km range",
+      "670 km/h cruise",
+      "33,000 ft ceiling",
+      "4 × Rolls-Royce AE 2100D3 turboprop, 4,591 shp each",
+      "Dowty R391 6-blade composite propeller"
+    ],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {}
+    }
+  },
+  "what_it_is": "Lockheed Martin C-130J Super Hercules is listed in this atlas as a tactical medium transport special ops (in_production). The atlas legacy record attributes it to Lockheed Martin Aeronautics (Marietta, Georgia, USA). Indian Tier-1 manufacturing of structural sub-assemblies (empennage, centre fuselage) at TLMAL Hyderabad — L2 for those sub-assemblies. Engine, avionics, mission systems, FADEC, final assembly all imported (L0).",
+  "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+  "graph": {
+    "maker": {
+      "name": "Lockheed Martin Aeronautics (Marietta, Georgia, USA)",
+      "path": "/research/military-aerospace/company/lockheed/"
+    },
+    "dependency_profile": {
+      "Localization depth (max)": "L2",
+      "Production status": "in_production"
+    },
+    "parent_hub": "/research/military-aerospace/"
+  },
+  "faq": [
+    {
+      "q": "Why does Lockheed Martin C-130J Super Hercules appear in the Military Aerospace Atlas?",
+      "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a tactical medium transport special ops relevant to India's industrial and security picture."
+    },
+    {
+      "q": "What is the evidence status of this dossier?",
+      "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+    }
   ],
-  "key_specs": [
-   "20 t payload",
-   "4,200 km range",
-   "670 km/h cruise",
-   "33,000 ft ceiling",
-   "4 × Rolls-Royce AE 2100D3 turboprop, 4,591 shp each",
-   "Dowty R391 6-blade composite propeller"
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+    "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
   ],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {}
-  }
- },
- "what_it_is": "Lockheed Martin C-130J Super Hercules is listed in this atlas as a tactical medium transport special ops (in_production). The atlas legacy record attributes it to Lockheed Martin Aeronautics (Marietta, Georgia, USA). Indian Tier-1 manufacturing of structural sub-assemblies (empennage, centre fuselage) at TLMAL Hyderabad — L2 for those sub-assemblies. Engine, avionics, mission systems, FADEC, final assembly all imported (L0).",
- "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
- "graph": {
-  "maker": {
-   "name": "Lockheed Martin Aeronautics (Marietta, Georgia, USA)",
-   "path": "/research/military-aerospace/company/lockheed/"
-  },
-  "dependency_profile": {
-   "Localization depth (max)": "L2",
-   "Production status": "in_production"
-  },
-  "parent_hub": "/research/military-aerospace/"
- },
- "faq": [
-  {
-   "q": "Why does Lockheed Martin C-130J Super Hercules appear in the Military Aerospace Atlas?",
-   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a tactical medium transport special ops relevant to India's industrial and security picture."
-  },
-  {
-   "q": "What is the evidence status of this dossier?",
-   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
-  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
- ],
- "sources": [
-  {
-   "publisher": "www.lockheedmartin.com",
-   "title": "Lockheed Martin: For India, From India",
-   "url": "https://www.lockheedmartin.com/en-us/who-we-are/international/india.html",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "www.tata.com",
-   "title": "Disclosures, Policies, Documents and Annual Report (Tata Sons documents page listing FY 2023-24 Annual Report)",
-   "url": "https://www.tata.com/about-us/tata-sons/documents",
-   "trust_tier": "indicative",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "news.lockheedmartin.com",
-   "title": "Indian Air Force Celebrates Induction of First C-130J Super Hercules",
-   "url": "https://news.lockheedmartin.com/2011-02-07-Indian-Air-Force-Celebrates-Induction-of-First-C-130J-Super-Hercules",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "www.iiss.org",
-   "title": "The Military Balance 2024",
-   "url": "https://www.iiss.org/publications/the-military-balance/2024/the-military-balance-2024/",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "Lockheed Martin C-130J Super Hercules - Military Aerospace Atlas - Techadyant Labs",
-  "description": "Lockheed Martin C-130J Super Hercules is listed in this atlas as a tactical medium transport special ops (in_production).",
-  "noindex": false
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  "sources": [
+    {
+      "publisher": "www.lockheedmartin.com",
+      "title": "Lockheed Martin: For India, From India",
+      "url": "https://www.lockheedmartin.com/en-us/who-we-are/international/india.html",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "www.tata.com",
+      "title": "Disclosures, Policies, Documents and Annual Report (Tata Sons documents page listing FY 2023-24 Annual Report)",
+      "url": "https://www.tata.com/about-us/tata-sons/documents",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "news.lockheedmartin.com",
+      "title": "Indian Air Force Celebrates Induction of First C-130J Super Hercules",
+      "url": "https://news.lockheedmartin.com/2011-02-07-Indian-Air-Force-Celebrates-Induction-of-First-C-130J-Super-Hercules",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "www.iiss.org",
+      "title": "The Military Balance 2024",
+      "url": "https://www.iiss.org/publications/the-military-balance/2024/the-military-balance-2024/",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/military-aerospace/platform/c130j/",
+      "title": "Lockheed Martin C-130J Super Hercules — Military Aerospace Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
   ],
-  "source_count": 4,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "seo": {
+    "title": "Lockheed Martin C-130J Super Hercules - Military Aerospace Atlas - Techadyant Labs",
+    "description": "Lockheed Martin C-130J Super Hercules is listed in this atlas as a tactical medium transport special ops (in_production).",
+    "noindex": false
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+    ],
+    "source_count": 4,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "milestones": [
+      {
+        "date": "2008-01-01",
+        "event": "Contract signature — 6 aircraft via FMS",
+        "badge": "delivered"
+      },
+      {
+        "date": "2011-02-01",
+        "event": "First aircraft delivered",
+        "badge": "delivered"
+      },
+      {
+        "date": "2014-03-28",
+        "event": "Crash of one aircraft — fleet reduced to 5",
+        "badge": "delivered"
+      },
+      {
+        "date": "2010-06-01",
+        "event": "TLMAL Hyderabad Tier-1 facility established",
+        "badge": "delivered"
+      },
+      {
+        "date": "2024-02-01",
+        "event": "Lockheed Martin submitted fresh offer for additional C-130J airframes via FMS",
+        "badge": "planned"
+      }
+    ],
+    "indian_production_status": "IAF fleet of 5 operational aircraft. TLMAL Hyderabad manufactures empennage and centre fuselage sub-assemblies for the global C-130J programme (Tier-1 to Lockheed Martin)."
+  },
+  "import_dependencies": {
+    "summary": "Listing metadata only: origin United States of America; Indian partner Tata Lockheed Martin Aero Structures (TLMAL), Hyderabad · Tier-1 supplier for C-130J empennage (horizontal and vertical stabilisers) and centre fuselage components; also supplies to commercial C-130 platforms. Component-level import analysis is not published on the listing.",
+    "rows": []
+  },
+  "timeline": [
+    {
+      "date": "2008-01-01",
+      "event": "Contract signature — 6 aircraft via FMS",
+      "badge": "delivered"
+    },
+    {
+      "date": "2011-02-01",
+      "event": "First aircraft delivered",
+      "badge": "delivered"
+    },
+    {
+      "date": "2014-03-28",
+      "event": "Crash of one aircraft — fleet reduced to 5",
+      "badge": "delivered"
+    },
+    {
+      "date": "2010-06-01",
+      "event": "TLMAL Hyderabad Tier-1 facility established",
+      "badge": "delivered"
+    },
+    {
+      "date": "2024-02-01",
+      "event": "Lockheed Martin submitted fresh offer for additional C-130J airframes via FMS",
+      "badge": "planned"
+    }
+  ]
 }

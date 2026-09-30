@@ -1,117 +1,167 @@
 {
- "entity_id": "atl-sys-indrajaal-anti-drone-system-cus-005",
- "entity_type": "system",
- "tier": "B",
- "noindex": false,
- "slug": "indrajaal-anti-drone-system-cus-005",
- "name": "Indrajaal Anti-Drone System",
- "vertical": "counter-uas",
- "parent_hub_path": "/research/counter-uas/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-sys-indrajaal-anti-drone-system-cus-005",
+  "entity_type": "system",
+  "tier": "B",
+  "noindex": false,
+  "slug": "indrajaal-anti-drone-system-cus-005",
   "name": "Indrajaal Anti-Drone System",
-  "role": "Fixed Site",
-  "country": "India",
-  "status_line": "Operational",
-  "subtitle": "V1",
-  "entity_path": "/research/counter-uas/system/indrajaal-anti-drone-system-cus-005/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Grene Robotics"
-   }
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Indrajaal Anti-Drone System",
+    "role": "Fixed Site",
+    "country": "India",
+    "status_line": "Operational",
+    "subtitle": "V1",
+    "entity_path": "/research/counter-uas/system/indrajaal-anti-drone-system-cus-005/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Grene Robotics"
+      }
+    ],
+    "key_specs": [],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {
+        "Indigenous content": "65% (Yes - Indigenous)"
+      }
+    }
+  },
+  "what_it_is": "Indrajaal is Grene Robotics' autonomous wide-area counter-drone defence system - an AI-native 'defence dome' that fuses a site's existing radars, RF sensors and effectors into one autonomous command layer, marketed for 1,000-2,000 sq km coverage per system against nano-to-large drones and loitering munitions.",
+  "india_angle": "Grene unveiled Indrajaal in 2021 as India's first autonomous wide-area C-UAS and markets it for ports, refineries and defence estates. It is the flagship private Indian entry in wide-area autonomous air defence.",
+  "drone_types_countered": [
+    "Nano",
+    "Micro",
+    "Small UAV",
+    "Fixed Wing",
+    "VTOL",
+    "FPV",
+    "Loitering Munition",
+    "Autonomous"
   ],
-  "key_specs": [],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {
-    "Indigenous content": "65% (Yes - Indigenous)"
-   }
-  }
- },
- "what_it_is": "Indrajaal is Grene Robotics' autonomous wide-area counter-drone defence system - an AI-native 'defence dome' that fuses a site's existing radars, RF sensors and effectors into one autonomous command layer, marketed for 1,000-2,000 sq km coverage per system against nano-to-large drones and loitering munitions.",
- "india_angle": "Grene unveiled Indrajaal in 2021 as India's first autonomous wide-area C-UAS and markets it for ports, refineries and defence estates. It is the flagship private Indian entry in wide-area autonomous air defence.",
- "drone_types_countered": [
-  "Nano",
-  "Micro",
-  "Small UAV",
-  "Fixed Wing",
-  "VTOL",
-  "FPV",
-  "Loitering Munition",
-  "Autonomous"
- ],
- "kill_chain": [
-  "Detect",
-  "Track",
-  "Identify",
-  "Classify",
-  "Decide",
-  "Neutralize",
-  "Assess"
- ],
- "intelligence_assessment": "See the Grene Robotics company dossier (Tier A) for the verified evidence base; this system page tracks the platform itself. Deployment scale and named Indian customers remain unconfirmed publicly - the primary open question.",
- "graph": {
-  "maker": {
-   "name": "Grene Robotics",
-   "path": "/research/counter-uas/manufacturer/grene-robotics-mfg-007/"
-  },
-  "parent_hub": "/research/counter-uas/"
- },
- "faq": [
-  {
-   "q": "Is Indrajaal operational at Indian bases?",
-   "a": "No government deployment has been publicly confirmed; public evidence is company announcements and press."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
-  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
- ],
- "sources": [
-  {
-   "publisher": "indrajaal.in",
-   "title": "Indrajaal - AI-powered autonomous anti-drone defence",
-   "url": "https://indrajaal.in",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "grenerobotics.com",
-   "title": "India's 1st autonomous drone defence dome (press release)",
-   "url": "https://grenerobotics.com/press-release/grene-robotics-designs-and-develops-indias-1st-autonomous-drone-defence-dome-sys",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "oecd.ai",
-   "title": "India unveils Indrajaal (OECD.AI)",
-   "url": "https://oecd.ai/en/incidents/2023-09-04-dccc",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "Indrajaal Anti-Drone System - Counter-UAS Atlas - Techadyant Labs",
-  "description": "Indrajaal is Grene Robotics' autonomous wide-area counter-drone defence system - an AI-native 'defence dome' that fuses a site's existing radars, RF sensors a",
-  "noindex": false
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
-   "curated research with source verification"
+  "kill_chain": [
+    "Detect",
+    "Track",
+    "Identify",
+    "Classify",
+    "Decide",
+    "Neutralize",
+    "Assess"
   ],
-  "source_count": 3,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "intelligence_assessment": "See the Grene Robotics company dossier (Tier A) for the verified evidence base; this system page tracks the platform itself. Deployment scale and named Indian customers remain unconfirmed publicly - the primary open question.",
+  "graph": {
+    "maker": {
+      "name": "Grene Robotics",
+      "path": "/research/counter-uas/manufacturer/grene-robotics-mfg-007/"
+    },
+    "parent_hub": "/research/counter-uas/"
+  },
+  "faq": [
+    {
+      "q": "Is Indrajaal operational at Indian bases?",
+      "a": "No government deployment has been publicly confirmed; public evidence is company announcements and press."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+    "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+  ],
+  "sources": [
+    {
+      "publisher": "indrajaal.in",
+      "title": "Indrajaal - AI-powered autonomous anti-drone defence",
+      "url": "https://indrajaal.in",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "grenerobotics.com",
+      "title": "India's 1st autonomous drone defence dome (press release)",
+      "url": "https://grenerobotics.com/press-release/grene-robotics-designs-and-develops-indias-1st-autonomous-drone-defence-dome-sys",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "oecd.ai",
+      "title": "India unveils Indrajaal (OECD.AI)",
+      "url": "https://oecd.ai/en/incidents/2023-09-04-dccc",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/counter-uas/system/indrajaal-anti-drone-system-cus-005/",
+      "title": "Indrajaal Anti-Drone System — Counter-UAS Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Indrajaal Anti-Drone System - Counter-UAS Atlas - Techadyant Labs",
+    "description": "Indrajaal is Grene Robotics' autonomous wide-area counter-drone defence system - an AI-native 'defence dome' that fuses a site's existing radars, RF sensors a",
+    "noindex": false
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+      "curated research with source verification"
+    ],
+    "source_count": 3,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "deployments": [
+      {
+        "name": "Smart City Pilot (Pune)",
+        "location": "Maharashtra",
+        "status": "Trial",
+        "operator": "Pune Smart City",
+        "note": "Smart city surveillance; integrated CUAS"
+      },
+      {
+        "name": "Smart City Pilot (Bhopal)",
+        "location": "Madhya Pradesh",
+        "status": "Trial",
+        "operator": "Bhopal Smart City",
+        "note": "Smart city surveillance; integrated CUAS"
+      }
+    ],
+    "count": 2,
+    "note": "Deployment entries as published on the Atlas listing."
+  },
+  "import_dependencies": {
+    "summary": "Derived from the listing intelligence metrics; see rows for verbatim listing text.",
+    "rows": [
+      {
+        "component": "Chinese-sourced subsystems",
+        "severity": "Low",
+        "note": "Low - minimal Chinese components",
+        "refs": [
+          "src-atlas-listing"
+        ]
+      },
+      {
+        "component": "Semiconductors (FPGA/GPU/AI-ASIC class)",
+        "severity": "Critical",
+        "note": "Critical - GPU, FPGA, AI ASIC imported",
+        "refs": [
+          "src-atlas-listing"
+        ]
+      }
+    ]
+  }
 }

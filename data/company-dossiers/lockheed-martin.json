@@ -242,7 +242,10 @@
       ]
     }
   ],
-  "open_questions": [],
+  "open_questions": [
+    "Import-dependency table not published on the listing; component-level analysis pending.",
+    "Re-verify “status” against primary Indian sources (MoD/PIB/DRDO/OEM) next cycle."
+  ],
   "sources": [
     {
       "id": "src-01",
@@ -383,6 +386,25 @@
       "trust_tier": "credible",
       "accessed": "2026-08-30",
       "note": "Lockheed gets $329M contract to maintain IAF C-130J fleet"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/pillars/defence/entity/lockheed-martin/",
+      "title": "Lockheed Martin Corporation — Defence Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    },
+    {
+      "id": "src-08",
+      "url": "https://www.spsnavalforces.com/story/?id=609&amp;h=India-to-Procure-24-MH-60R-Helicopters",
+      "title": "https://www.spsnavalforces.com/story/?id=609&h=India-to-Procure-24-MH-60R-Helicopters",
+      "publisher": "SP's Naval Forces",
+      "trust_tier": "credible",
+      "accessed": null,
+      "note": "India to procure 24 MH-60R helicopters — additional reporting",
+      "_from_page": true
     }
   ],
   "seo": {

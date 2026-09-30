@@ -1,120 +1,138 @@
 {
- "entity_id": "atl-sys-fortem-skydome-system-cus-033",
- "entity_type": "system",
- "tier": "B",
- "noindex": false,
- "slug": "fortem-skydome-system-cus-033",
- "name": "Fortem SkyDome System",
- "vertical": "counter-uas",
- "parent_hub_path": "/research/counter-uas/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-sys-fortem-skydome-system-cus-033",
+  "entity_type": "system",
+  "tier": "B",
+  "noindex": false,
+  "slug": "fortem-skydome-system-cus-033",
   "name": "Fortem SkyDome System",
-  "role": "Mobile; Fixed Site",
-  "country": "USA",
-  "status_line": "Operational",
-  "subtitle": "V1",
-  "entity_path": "/research/counter-uas/system/fortem-skydome-system-cus-033/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Fortem Technologies"
-   }
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Fortem SkyDome System",
+    "role": "Mobile; Fixed Site",
+    "country": "USA",
+    "status_line": "Operational",
+    "subtitle": "V1",
+    "entity_path": "/research/counter-uas/system/fortem-skydome-system-cus-033/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Fortem Technologies"
+      }
+    ],
+    "key_specs": [],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {
+        "Indigenous content": "0% (No - Fully Imported)"
+      }
+    }
+  },
+  "what_it_is": "SkyDome is Fortem Technologies' airspace-security system combining TrueView phased-array radar with the DroneHunter F700 interceptor drone that physically nets rogue UAS. The company joined Lockheed Martin's Sanctum counter-UAS ecosystem in 2026.",
+  "india_angle": "No Indian SkyDome deployment is publicly confirmed; Fortem's net-capture approach is architecturally relevant to Indian airport and critical-site C-UAS, where hard-kill collateral risk is constrained.",
+  "drone_types_countered": [
+    "Nano",
+    "Micro",
+    "Small UAV",
+    "Medium UAV",
+    "Fixed Wing",
+    "VTOL",
+    "FPV",
+    "Loitering Munition",
+    "Helicopter UAV",
+    "Swarm",
+    "Autonomous"
   ],
-  "key_specs": [],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {
-    "Indigenous content": "0% (No - Fully Imported)"
-   }
-  }
- },
- "what_it_is": "SkyDome is Fortem Technologies' airspace-security system combining TrueView phased-array radar with the DroneHunter F700 interceptor drone that physically nets rogue UAS. The company joined Lockheed Martin's Sanctum counter-UAS ecosystem in 2026.",
- "india_angle": "No Indian SkyDome deployment is publicly confirmed; Fortem's net-capture approach is architecturally relevant to Indian airport and critical-site C-UAS, where hard-kill collateral risk is constrained.",
- "drone_types_countered": [
-  "Nano",
-  "Micro",
-  "Small UAV",
-  "Medium UAV",
-  "Fixed Wing",
-  "VTOL",
-  "FPV",
-  "Loitering Munition",
-  "Helicopter UAV",
-  "Swarm",
-  "Autonomous"
- ],
- "kill_chain": [
-  "Detect",
-  "Track",
-  "Identify",
-  "Classify",
-  "Decide",
-  "Neutralize",
-  "Assess"
- ],
- "intelligence_assessment": "Product record is verifiable via the OEM and dronelife-class coverage. India remains analytical; watch Indian airport-security procurements for net-interceptor classes.",
- "graph": {
-  "maker": {
-   "name": "Fortem Technologies",
-   "path": "/research/counter-uas/manufacturer/fortem-technologies-mfg-022/"
-  },
-  "parent_hub": "/research/counter-uas/"
- },
- "faq": [
-  {
-   "q": "How does DroneHunter work?",
-   "a": "It fires nets at hostile drones and tows them away - a physical-capture alternative to jamming or guns."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
-  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
- ],
- "sources": [
-  {
-   "publisher": "fortemtech.com",
-   "title": "Fortem Technologies - airspace awareness and security",
-   "url": "https://www.fortemtech.com",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "fortemtech.com",
-   "title": "DroneHunter F700 - Fortem Technologies",
-   "url": "https://www.fortemtech.com/products/dronehunter-f700",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "dronelife.com",
-   "title": "Fortem DroneHunter and TrueView radar join Lockheed Martin Sanctum",
-   "url": "https://dronelife.com/2026/03/19/fortem-dronehunter-and-trueview-radar-join-lockheed-martin-sanctum",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "Fortem SkyDome System - Counter-UAS Atlas - Techadyant Labs",
-  "description": "SkyDome is Fortem Technologies' airspace-security system combining TrueView phased-array radar with the DroneHunter F700 interceptor drone that physically net",
-  "noindex": false
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
-   "curated research with source verification"
+  "kill_chain": [
+    "Detect",
+    "Track",
+    "Identify",
+    "Classify",
+    "Decide",
+    "Neutralize",
+    "Assess"
   ],
-  "source_count": 3,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "intelligence_assessment": "Product record is verifiable via the OEM and dronelife-class coverage. India remains analytical; watch Indian airport-security procurements for net-interceptor classes.",
+  "graph": {
+    "maker": {
+      "name": "Fortem Technologies",
+      "path": "/research/counter-uas/manufacturer/fortem-technologies-mfg-022/"
+    },
+    "parent_hub": "/research/counter-uas/"
+  },
+  "faq": [
+    {
+      "q": "How does DroneHunter work?",
+      "a": "It fires nets at hostile drones and tows them away - a physical-capture alternative to jamming or guns."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+    "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+  ],
+  "sources": [
+    {
+      "publisher": "fortemtech.com",
+      "title": "Fortem Technologies - airspace awareness and security",
+      "url": "https://www.fortemtech.com",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "fortemtech.com",
+      "title": "DroneHunter F700 - Fortem Technologies",
+      "url": "https://www.fortemtech.com/products/dronehunter-f700",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "dronelife.com",
+      "title": "Fortem DroneHunter and TrueView radar join Lockheed Martin Sanctum",
+      "url": "https://dronelife.com/2026/03/19/fortem-dronehunter-and-trueview-radar-join-lockheed-martin-sanctum",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/counter-uas/system/fortem-skydome-system-cus-033/",
+      "title": "Fortem SkyDome System — Counter-UAS Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Fortem SkyDome System - Counter-UAS Atlas - Techadyant Labs",
+    "description": "SkyDome is Fortem Technologies' airspace-security system combining TrueView phased-array radar with the DroneHunter F700 interceptor drone that physically net",
+    "noindex": false
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+      "curated research with source verification"
+    ],
+    "source_count": 3,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "deployments": [],
+    "count": 0,
+    "note": "Deployment entries as published on the Atlas listing."
+  },
+  "import_dependencies": {
+    "summary": "Derived from the listing intelligence metrics; see rows for verbatim listing text.",
+    "rows": []
+  }
 }

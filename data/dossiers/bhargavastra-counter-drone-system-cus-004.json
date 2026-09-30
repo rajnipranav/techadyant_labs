@@ -1,120 +1,163 @@
 {
- "entity_id": "atl-sys-bhargavastra-counter-drone-system-cus-004",
- "entity_type": "system",
- "tier": "B",
- "noindex": false,
- "slug": "bhargavastra-counter-drone-system-cus-004",
- "name": "Bhargavastra Counter-Drone System",
- "vertical": "counter-uas",
- "parent_hub_path": "/research/counter-uas/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-sys-bhargavastra-counter-drone-system-cus-004",
+  "entity_type": "system",
+  "tier": "B",
+  "noindex": false,
+  "slug": "bhargavastra-counter-drone-system-cus-004",
   "name": "Bhargavastra Counter-Drone System",
-  "role": "Fixed Site; Mobile",
-  "country": "India",
-  "status_line": "Operational",
-  "subtitle": "Mk-I",
-  "entity_path": "/research/counter-uas/system/bhargavastra-counter-drone-system-cus-004/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Big Bang Boom Solutions"
-   }
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Bhargavastra Counter-Drone System",
+    "role": "Fixed Site; Mobile",
+    "country": "India",
+    "status_line": "Operational",
+    "subtitle": "Mk-I",
+    "entity_path": "/research/counter-uas/system/bhargavastra-counter-drone-system-cus-004/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Big Bang Boom Solutions"
+      }
+    ],
+    "key_specs": [],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {
+        "Indigenous content": "75% (Yes - Indigenous)"
+      }
+    }
+  },
+  "what_it_is": "Bhargavastra is an indigenous Indian counter-swarm drone defence system combining detect-and-destroy layers - hard-kill micro-missiles and gun/soft-kill options - publicly demonstrated to the Indian Army in 2024-2025 trials, with a Wikipedia record of its development.",
+  "india_angle": "Bhargavastra's public Army demonstrations and Drone Federation of India coverage make it one of the best-evidenced indigenous Indian C-UAS programmes of 2024-25, aimed directly at the swarm-drone threat.",
+  "drone_types_countered": [
+    "Nano",
+    "Micro",
+    "Small UAV",
+    "Medium UAV",
+    "Fixed Wing",
+    "VTOL",
+    "FPV",
+    "Loitering Munition",
+    "Helicopter UAV",
+    "Swarm",
+    "Autonomous"
   ],
-  "key_specs": [],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {
-    "Indigenous content": "75% (Yes - Indigenous)"
-   }
-  }
- },
- "what_it_is": "Bhargavastra is an indigenous Indian counter-swarm drone defence system combining detect-and-destroy layers - hard-kill micro-missiles and gun/soft-kill options - publicly demonstrated to the Indian Army in 2024-2025 trials, with a Wikipedia record of its development.",
- "india_angle": "Bhargavastra's public Army demonstrations and Drone Federation of India coverage make it one of the best-evidenced indigenous Indian C-UAS programmes of 2024-25, aimed directly at the swarm-drone threat.",
- "drone_types_countered": [
-  "Nano",
-  "Micro",
-  "Small UAV",
-  "Medium UAV",
-  "Fixed Wing",
-  "VTOL",
-  "FPV",
-  "Loitering Munition",
-  "Helicopter UAV",
-  "Swarm",
-  "Autonomous"
- ],
- "kill_chain": [
-  "Detect",
-  "Track",
-  "Identify",
-  "Classify",
-  "Decide",
-  "Neutralize",
-  "Assess"
- ],
- "intelligence_assessment": "Trial demonstrations are verifiable through multiple outlets; production orders and unit deployments are not yet public. Watch Army procurement notices for the first operational order.",
- "graph": {
-  "maker": {
-   "name": "Big Bang Boom Solutions",
-   "path": "/research/counter-uas/manufacturer/big-bang-boom-solutions-mfg-006/"
-  },
-  "parent_hub": "/research/counter-uas/"
- },
- "faq": [
-  {
-   "q": "What is Bhargavastra?",
-   "a": "An indigenous Indian counter-swarm drone system (missile + gun layers) demonstrated to the Indian Army in 2024-25."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
-  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
- ],
- "sources": [
-  {
-   "publisher": "en.wikipedia.org",
-   "title": "Bhargavastra (counter-drone system)",
-   "url": "https://en.wikipedia.org/wiki/Bhargavastra",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "dronefederation.in",
-   "title": "India successfully tests Bhargavastra, an indigenous counter-swarm drone system",
-   "url": "https://www.dronefederation.in/media-hub/india-successfully-tests-bhargavastra-an-indigenous-counter-swarm-dro",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "timesofindia.indiatimes.com",
-   "title": "Army gets demo of indigenous counter-drone system Bhargavastra",
-   "url": "https://timesofindia.indiatimes.com/defence/news/army-gets-demo-of-indigenous-counter-drone-system-bhargavastr",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "Bhargavastra Counter-Drone System - Counter-UAS Atlas - Techadyant Labs",
-  "description": "Bhargavastra is an indigenous Indian counter-swarm drone defence system combining detect-and-destroy layers - hard-kill micro-missiles and gun/soft-kill optio",
-  "noindex": false
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
-   "curated research with source verification"
+  "kill_chain": [
+    "Detect",
+    "Track",
+    "Identify",
+    "Classify",
+    "Decide",
+    "Neutralize",
+    "Assess"
   ],
-  "source_count": 3,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "intelligence_assessment": "Trial demonstrations are verifiable through multiple outlets; production orders and unit deployments are not yet public. Watch Army procurement notices for the first operational order.",
+  "graph": {
+    "maker": {
+      "name": "Big Bang Boom Solutions",
+      "path": "/research/counter-uas/manufacturer/big-bang-boom-solutions-mfg-006/"
+    },
+    "parent_hub": "/research/counter-uas/"
+  },
+  "faq": [
+    {
+      "q": "What is Bhargavastra?",
+      "a": "An indigenous Indian counter-swarm drone system (missile + gun layers) demonstrated to the Indian Army in 2024-25."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+    "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+  ],
+  "sources": [
+    {
+      "publisher": "en.wikipedia.org",
+      "title": "Bhargavastra (counter-drone system)",
+      "url": "https://en.wikipedia.org/wiki/Bhargavastra",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "dronefederation.in",
+      "title": "India successfully tests Bhargavastra, an indigenous counter-swarm drone system",
+      "url": "https://www.dronefederation.in/media-hub/india-successfully-tests-bhargavastra-an-indigenous-counter-swarm-dro",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "timesofindia.indiatimes.com",
+      "title": "Army gets demo of indigenous counter-drone system Bhargavastra",
+      "url": "https://timesofindia.indiatimes.com/defence/news/army-gets-demo-of-indigenous-counter-drone-system-bhargavastr",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/counter-uas/system/bhargavastra-counter-drone-system-cus-004/",
+      "title": "Bhargavastra Counter-Drone System — Counter-UAS Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Bhargavastra Counter-Drone System - Counter-UAS Atlas - Techadyant Labs",
+    "description": "Bhargavastra is an indigenous Indian counter-swarm drone defence system combining detect-and-destroy layers - hard-kill micro-missiles and gun/soft-kill optio",
+    "noindex": false
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+      "curated research with source verification"
+    ],
+    "source_count": 3,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "deployments": [
+      {
+        "name": "Critical Infrastructure (multiple locations)",
+        "location": "Multiple",
+        "status": "Operational",
+        "operator": "Indian Army",
+        "note": "Critical infrastructure protection (TBD specific sites)"
+      }
+    ],
+    "count": 1,
+    "note": "Deployment entries as published on the Atlas listing."
+  },
+  "import_dependencies": {
+    "summary": "Derived from the listing intelligence metrics; see rows for verbatim listing text.",
+    "rows": [
+      {
+        "component": "Chinese-sourced subsystems",
+        "severity": "Low",
+        "note": "Low - minimal Chinese components",
+        "refs": [
+          "src-atlas-listing"
+        ]
+      },
+      {
+        "component": "Semiconductors (FPGA/GPU/AI-ASIC class)",
+        "severity": "Critical",
+        "note": "Critical - GPU, FPGA, AI ASIC imported",
+        "refs": [
+          "src-atlas-listing"
+        ]
+      }
+    ]
+  }
 }

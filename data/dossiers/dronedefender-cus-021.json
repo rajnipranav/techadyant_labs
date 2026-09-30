@@ -1,94 +1,173 @@
 {
- "entity_id": "atl-sys-dronedefender-cus-021",
- "entity_type": "system",
- "tier": "C",
- "noindex": true,
- "slug": "dronedefender-cus-021",
- "name": "DroneDefender",
- "vertical": "counter-uas",
- "parent_hub_path": "/research/counter-uas/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-sys-dronedefender-cus-021",
+  "entity_type": "system",
+  "tier": "C",
+  "noindex": true,
+  "slug": "dronedefender-cus-021",
   "name": "DroneDefender",
-  "role": "Portable",
-  "country": "USA / Australia",
-  "status_line": "Operational",
-  "subtitle": "V3",
-  "entity_path": "/research/counter-uas/system/dronedefender-cus-021/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "DroneShield"
-   }
-  ],
-  "key_specs": [],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {
-    "Indigenous content": "0% (No - Fully Imported)"
-   }
-  }
- },
- "what_it_is": "DroneDefender is listed in this atlas as a portable (USA / Australia). The atlas legacy record attributes it to DroneShield. A public dossier for this entity had not yet been published when the atlas hubs were crawled, so this record carries the legacy atlas data forward with an explicit verification backlog.",
- "drone_types_countered": [
-  "Micro",
-  "Small UAV",
-  "Medium UAV",
-  "Fixed Wing",
-  "VTOL",
-  "FPV",
-  "Loitering Munition"
- ],
- "kill_chain": [
-  "Track",
-  "Identify",
-  "Classify",
-  "Decide",
-  "Neutralize"
- ],
- "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
- "graph": {
-  "maker": {
-   "name": "DroneShield",
-   "path": "/research/counter-uas/manufacturer/droneshield-mfg-020/"
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "DroneDefender",
+    "role": "Portable",
+    "country": "USA / Australia",
+    "status_line": "Operational",
+    "subtitle": "V3",
+    "entity_path": "/research/counter-uas/system/dronedefender-cus-021/"
   },
-  "parent_hub": "/research/counter-uas/"
- },
- "faq": [
-  {
-   "q": "Why does DroneDefender appear in the Counter-UAS Atlas?",
-   "a": "It is part of the atlas's coverage of counter uas; the hub lists it as a Portable relevant to India's industrial and security picture."
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "DroneShield"
+      }
+    ],
+    "key_specs": [],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {
+        "Indigenous content": "0% (No - Fully Imported)"
+      }
+    }
   },
-  {
-   "q": "What is the evidence status of this dossier?",
-   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
-  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
- ],
- "sources": [],
- "seo": {
-  "title": "DroneDefender - Counter-UAS Atlas - Techadyant Labs",
-  "description": "DroneDefender is listed in this atlas as a portable (USA / Australia).",
-  "noindex": true
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  "what_it_is": "DroneDefender is listed in this atlas as a portable (USA / Australia). The atlas legacy record attributes it to DroneShield. A public dossier for this entity had not yet been published when the atlas hubs were crawled, so this record carries the legacy atlas data forward with an explicit verification backlog.",
+  "drone_types_countered": [
+    "Micro",
+    "Small UAV",
+    "Medium UAV",
+    "Fixed Wing",
+    "VTOL",
+    "FPV",
+    "Loitering Munition"
   ],
-  "source_count": 0,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "kill_chain": [
+    "Track",
+    "Identify",
+    "Classify",
+    "Decide",
+    "Neutralize"
+  ],
+  "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+  "graph": {
+    "maker": {
+      "name": "DroneShield",
+      "path": "/research/counter-uas/manufacturer/droneshield-mfg-020/"
+    },
+    "parent_hub": "/research/counter-uas/"
+  },
+  "faq": [
+    {
+      "q": "Why does DroneDefender appear in the Counter-UAS Atlas?",
+      "a": "It is part of the atlas's coverage of counter uas; the hub lists it as a Portable relevant to India's industrial and security picture."
+    },
+    {
+      "q": "What is the evidence status of this dossier?",
+      "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+    "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+  ],
+  "sources": [
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/counter-uas/system/dronedefender-cus-021/",
+      "title": "DroneDefender — Counter-UAS Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "DroneDefender - Counter-UAS Atlas - Techadyant Labs",
+    "description": "DroneDefender is listed in this atlas as a portable (USA / Australia).",
+    "noindex": true
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+    ],
+    "source_count": 0,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "deployments": [
+      {
+        "name": "NSG Hub (multiple locations)",
+        "location": "Delhi",
+        "status": "Operational",
+        "operator": "National Security Guard (NSG)",
+        "note": "VIP security; counter-terrorism operations"
+      },
+      {
+        "name": "NSG Hub Mumbai",
+        "location": "Maharashtra",
+        "status": "Operational",
+        "operator": "National Security Guard (NSG)",
+        "note": "VIP security; counter-terrorism operations"
+      },
+      {
+        "name": "NSG Hub Kolkata",
+        "location": "West Bengal",
+        "status": "Operational",
+        "operator": "National Security Guard (NSG)",
+        "note": "VIP security; counter-terrorism operations"
+      },
+      {
+        "name": "NSG Hub Chennai",
+        "location": "Tamil Nadu",
+        "status": "Operational",
+        "operator": "National Security Guard (NSG)",
+        "note": "VIP security; counter-terrorism operations"
+      },
+      {
+        "name": "NSG Hub Hyderabad",
+        "location": "Telangana",
+        "status": "Operational",
+        "operator": "National Security Guard (NSG)",
+        "note": "VIP security; counter-terrorism operations"
+      },
+      {
+        "name": "NSG Hub Gandhinagar",
+        "location": "Gujarat",
+        "status": "Operational",
+        "operator": "National Security Guard (NSG)",
+        "note": "VIP security; counter-terrorism operations"
+      }
+    ],
+    "count": 6,
+    "note": "Deployment entries as published on the Atlas listing."
+  },
+  "import_dependencies": {
+    "summary": "Derived from the listing intelligence metrics; see rows for verbatim listing text.",
+    "rows": [
+      {
+        "component": "Chinese-sourced subsystems",
+        "severity": "Unspecified",
+        "note": "Very Low - no Chinese components (US/Australian origin)",
+        "refs": [
+          "src-atlas-listing"
+        ]
+      },
+      {
+        "component": "Semiconductors (FPGA/GPU/AI-ASIC class)",
+        "severity": "High",
+        "note": "High - FPGA, RF components imported from US",
+        "refs": [
+          "src-atlas-listing"
+        ]
+      }
+    ]
+  }
 }

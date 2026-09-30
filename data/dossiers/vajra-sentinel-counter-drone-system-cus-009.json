@@ -1,116 +1,142 @@
 {
- "entity_id": "atl-sys-vajra-sentinel-counter-drone-system-cus-009",
- "entity_type": "system",
- "tier": "B",
- "noindex": false,
- "slug": "vajra-sentinel-counter-drone-system-cus-009",
- "name": "Vajra Sentinel Counter-Drone System",
- "vertical": "counter-uas",
- "parent_hub_path": "/research/counter-uas/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-sys-vajra-sentinel-counter-drone-system-cus-009",
+  "entity_type": "system",
+  "tier": "B",
+  "noindex": false,
+  "slug": "vajra-sentinel-counter-drone-system-cus-009",
   "name": "Vajra Sentinel Counter-Drone System",
-  "role": "Fixed Site; Mobile",
-  "country": "India",
-  "status_line": "Operational",
-  "subtitle": "V1",
-  "entity_path": "/research/counter-uas/system/vajra-sentinel-counter-drone-system-cus-009/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "VEGA Integrated Systems"
-   }
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Vajra Sentinel Counter-Drone System",
+    "role": "Fixed Site; Mobile",
+    "country": "India",
+    "status_line": "Operational",
+    "subtitle": "V1",
+    "entity_path": "/research/counter-uas/system/vajra-sentinel-counter-drone-system-cus-009/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "VEGA Integrated Systems"
+      }
+    ],
+    "key_specs": [],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {
+        "Indigenous content": "60% (Yes - Indigenous)"
+      }
+    }
+  },
+  "what_it_is": "Vajra Sentinel is Big Bang Boom Solutions' AI-powered counter-drone system that detects RF-controlled commercial drones (DJI Mavic-class included) and neutralises them; trade press has reported its delivery to the Indian Air Force, and the companion Vajra Shot gun serves man-portable roles.",
+  "india_angle": "Vajra Sentinel is one of the few Indian private C-UAS products with public delivery reporting to an Indian service (IAF, May 2025 trade reporting), making it a concrete data point in India's counter-drone industrialisation.",
+  "drone_types_countered": [
+    "Nano",
+    "Micro",
+    "Small UAV",
+    "Medium UAV",
+    "Fixed Wing",
+    "VTOL",
+    "FPV",
+    "Loitering Munition"
   ],
-  "key_specs": [],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {
-    "Indigenous content": "60% (Yes - Indigenous)"
-   }
-  }
- },
- "what_it_is": "Vajra Sentinel is Big Bang Boom Solutions' AI-powered counter-drone system that detects RF-controlled commercial drones (DJI Mavic-class included) and neutralises them; trade press has reported its delivery to the Indian Air Force, and the companion Vajra Shot gun serves man-portable roles.",
- "india_angle": "Vajra Sentinel is one of the few Indian private C-UAS products with public delivery reporting to an Indian service (IAF, May 2025 trade reporting), making it a concrete data point in India's counter-drone industrialisation.",
- "drone_types_countered": [
-  "Nano",
-  "Micro",
-  "Small UAV",
-  "Medium UAV",
-  "Fixed Wing",
-  "VTOL",
-  "FPV",
-  "Loitering Munition"
- ],
- "kill_chain": [
-  "Detect",
-  "Track",
-  "Identify",
-  "Classify",
-  "Decide",
-  "Neutralize"
- ],
- "intelligence_assessment": "The IAF delivery report is from trade press, not a government release; contract value and scale are undisclosed. Track MoD/IAF announcements and BBBS order-book disclosures for confirmation.",
- "graph": {
-  "maker": {
-   "name": "VEGA Integrated Systems",
-   "path": "/research/counter-uas/manufacturer/vega-integrated-systems-mfg-009/"
-  },
-  "parent_hub": "/research/counter-uas/"
- },
- "faq": [
-  {
-   "q": "Has Vajra Sentinel been delivered to the IAF?",
-   "a": "Trade press reported delivery in May 2025; a government release confirming quantities has not appeared."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
-  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
- ],
- "sources": [
-  {
-   "publisher": "defencereviewasia.com",
-   "title": "Big Bang Boom Solutions delivers Vajra Sentinel system to Indian Air Force",
-   "url": "https://defencereviewasia.com/big-bang-boom-solutions-deliversvajra-sentinel-system-to-indian-air-force",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "bigbangboom.com",
-   "title": "Vajra Sentinel - anti-drone defence system (vendor)",
-   "url": "https://www.bigbangboom.com",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "bigbangboom.com",
-   "title": "BBBS counter-UAS product line",
-   "url": "https://www.bigbangboom.com/products",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "Vajra Sentinel Counter-Drone System - Counter-UAS Atlas - Techadyant Labs",
-  "description": "Vajra Sentinel is Big Bang Boom Solutions' AI-powered counter-drone system that detects RF-controlled commercial drones (DJI Mavic-class included) and neutral",
-  "noindex": false
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
-   "curated research with source verification"
+  "kill_chain": [
+    "Detect",
+    "Track",
+    "Identify",
+    "Classify",
+    "Decide",
+    "Neutralize"
   ],
-  "source_count": 3,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "intelligence_assessment": "The IAF delivery report is from trade press, not a government release; contract value and scale are undisclosed. Track MoD/IAF announcements and BBBS order-book disclosures for confirmation.",
+  "graph": {
+    "maker": {
+      "name": "VEGA Integrated Systems",
+      "path": "/research/counter-uas/manufacturer/vega-integrated-systems-mfg-009/"
+    },
+    "parent_hub": "/research/counter-uas/"
+  },
+  "faq": [
+    {
+      "q": "Has Vajra Sentinel been delivered to the IAF?",
+      "a": "Trade press reported delivery in May 2025; a government release confirming quantities has not appeared."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+    "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+  ],
+  "sources": [
+    {
+      "publisher": "defencereviewasia.com",
+      "title": "Big Bang Boom Solutions delivers Vajra Sentinel system to Indian Air Force",
+      "url": "https://defencereviewasia.com/big-bang-boom-solutions-deliversvajra-sentinel-system-to-indian-air-force",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "bigbangboom.com",
+      "title": "Vajra Sentinel - anti-drone defence system (vendor)",
+      "url": "https://www.bigbangboom.com",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "bigbangboom.com",
+      "title": "BBBS counter-UAS product line",
+      "url": "https://www.bigbangboom.com/products",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/counter-uas/system/vajra-sentinel-counter-drone-system-cus-009/",
+      "title": "Vajra Sentinel Counter-Drone System — Counter-UAS Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Vajra Sentinel Counter-Drone System - Counter-UAS Atlas - Techadyant Labs",
+    "description": "Vajra Sentinel is Big Bang Boom Solutions' AI-powered counter-drone system that detects RF-controlled commercial drones (DJI Mavic-class included) and neutral",
+    "noindex": false
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+      "curated research with source verification"
+    ],
+    "source_count": 3,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "deployments": [
+      {
+        "name": "Critical Infrastructure Pilot",
+        "location": "Telangana",
+        "status": "Trial",
+        "operator": "Critical Infrastructure Operator",
+        "note": "Critical infrastructure protection (TBD specific site)"
+      }
+    ],
+    "count": 1,
+    "note": "Deployment entries as published on the Atlas listing."
+  },
+  "import_dependencies": {
+    "summary": "Derived from the listing intelligence metrics; see rows for verbatim listing text.",
+    "rows": []
+  }
 }

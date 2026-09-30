@@ -1,85 +1,103 @@
 {
- "entity_id": "atl-plat-vikram-1",
- "entity_type": "platform",
- "tier": "C",
- "noindex": true,
- "slug": "vikram-1",
- "name": "Vikram-1",
- "vertical": "space",
- "parent_hub_path": "/research/space/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-plat-vikram-1",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "vikram-1",
   "name": "Vikram-1",
-  "role": "Small Launch Vehicle",
-  "country": "India",
-  "status_line": "First private Indian orbital flight (Jul 2026)",
-  "subtitle": "Orbital",
-  "entity_path": "/research/space/platform/vikram-1/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Skyroot Aerospace"
-   },
-   {
-    "label": "Operator",
-    "value": "Skyroot / commercial"
-   }
-  ],
-  "key_specs": [
-   "Small Launch Vehicle",
-   "Orbital",
-   "LEO orbit",
-   "300 kg payload"
-  ],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {}
-  }
- },
- "what_it_is": "Vikram-1 is listed in this atlas as a small launch vehicle (India). The atlas legacy record attributes it to Skyroot Aerospace. Three-stage small satellite launch vehicle. Landmark for Indian private launch capability.",
- "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
- "graph": {
-  "maker": {
-   "name": "Skyroot Aerospace",
-   "path": "/research/space/company/skyroot-aerospace/"
+  "vertical": "space",
+  "parent_hub_path": "/research/space/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Vikram-1",
+    "role": "Small Launch Vehicle",
+    "country": "India",
+    "status_line": "First private Indian orbital flight (Jul 2026)",
+    "subtitle": "Orbital",
+    "entity_path": "/research/space/platform/vikram-1/"
   },
-  "operator": "Skyroot / commercial",
-  "parent_hub": "/research/space/"
- },
- "faq": [
-  {
-   "q": "Why does Vikram-1 appear in the Space Atlas?",
-   "a": "It is part of the atlas's coverage of space; the hub lists it as a Small Launch Vehicle relevant to India's industrial and security picture."
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Skyroot Aerospace"
+      },
+      {
+        "label": "Operator",
+        "value": "Skyroot / commercial"
+      }
+    ],
+    "key_specs": [
+      "Small Launch Vehicle",
+      "Orbital",
+      "LEO orbit",
+      "300 kg payload"
+    ],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {}
+    }
   },
-  {
-   "q": "What is the evidence status of this dossier?",
-   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
-  }
- ],
- "open_questions": [
-  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
-  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
- ],
- "sources": [],
- "seo": {
-  "title": "Vikram-1 - Space Atlas - Techadyant Labs",
-  "description": "Vikram-1 is listed in this atlas as a small launch vehicle (India).",
-  "noindex": true
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  "what_it_is": "Vikram-1 is listed in this atlas as a small launch vehicle (India). The atlas legacy record attributes it to Skyroot Aerospace. Three-stage small satellite launch vehicle. Landmark for Indian private launch capability.",
+  "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+  "graph": {
+    "maker": {
+      "name": "Skyroot Aerospace",
+      "path": "/research/space/company/skyroot-aerospace/"
+    },
+    "operator": "Skyroot / commercial",
+    "parent_hub": "/research/space/"
+  },
+  "faq": [
+    {
+      "q": "Why does Vikram-1 appear in the Space Atlas?",
+      "a": "It is part of the atlas's coverage of space; the hub lists it as a Small Launch Vehicle relevant to India's industrial and security picture."
+    },
+    {
+      "q": "What is the evidence status of this dossier?",
+      "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+    }
   ],
-  "source_count": 0,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "open_questions": [
+    "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+    "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B."
+  ],
+  "sources": [
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/space/platform/vikram-1/",
+      "title": "Vikram-1 — Space Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Vikram-1 - Space Atlas - Techadyant Labs",
+    "description": "Vikram-1 is listed in this atlas as a small launch vehicle (India).",
+    "noindex": true
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+    ],
+    "source_count": 0,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "status_note": "First private Indian orbital flight (Jul 2026)",
+    "note": "Status text as published on the Atlas listing."
+  },
+  "import_dependencies": {
+    "summary": "Listing metadata only: origin unspecified. Component-level import analysis is not published on the listing.",
+    "rows": []
+  }
 }

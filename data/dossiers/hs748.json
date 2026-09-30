@@ -1,106 +1,123 @@
 {
- "entity_id": "atl-plat-hs748",
- "entity_type": "platform",
- "tier": "C",
- "noindex": true,
- "slug": "hs748",
- "name": "HAL HS-748 'Avro'",
- "vertical": "military-aerospace",
- "parent_hub_path": "/research/military-aerospace/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-plat-hs748",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "hs748",
   "name": "HAL HS-748 'Avro'",
-  "role": "light medium tactical transport",
-  "country": "production_closed",
-  "status_line": null,
-  "subtitle": null,
-  "entity_path": "/research/military-aerospace/platform/hs748/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Hindustan Aeronautics Limited (Transport Aircraft Division, Kanpur)"
-   },
-   {
-    "label": "Role",
-    "value": "Tactical airlift, troop transport, cargo — retired from IAF tactical transport role; replaced by C-295"
-   }
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "HAL HS-748 'Avro'",
+    "role": "light medium tactical transport",
+    "country": "production_closed",
+    "status_line": null,
+    "subtitle": null,
+    "entity_path": "/research/military-aerospace/platform/hs748/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Hindustan Aeronautics Limited (Transport Aircraft Division, Kanpur)"
+      },
+      {
+        "label": "Role",
+        "value": "Tactical airlift, troop transport, cargo — retired from IAF tactical transport role; replaced by C-295"
+      }
+    ],
+    "key_specs": [
+      "7 t payload",
+      "1,500 km range",
+      "450 km/h cruise",
+      "25,000 ft ceiling",
+      "2 × Rolls-Royce Dart RDa.7 Mk 536 turboprop, 1,910 shp each",
+      "4-blade Rotol constant-speed propeller"
+    ],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {}
+    }
+  },
+  "what_it_is": "HAL HS-748 'Avro' is listed in this atlas as a light medium tactical transport (production_closed). The atlas legacy record attributes it to Hindustan Aeronautics Limited (Transport Aircraft Division, Kanpur). L2 (component manufacturing) historically; L1 (assembly) historically. Design IP British (Hawker Siddeley / BAe).",
+  "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+  "graph": {
+    "maker": {
+      "name": "Hindustan Aeronautics Limited (Transport Aircraft Division, Kanpur)",
+      "path": "/research/military-aerospace/company/hal/"
+    },
+    "dependency_profile": {
+      "Localization depth (max)": "L2",
+      "Production status": "production_closed"
+    },
+    "parent_hub": "/research/military-aerospace/"
+  },
+  "faq": [
+    {
+      "q": "Why does HAL HS-748 'Avro' appear in the Military Aerospace Atlas?",
+      "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a light medium tactical transport relevant to India's industrial and security picture."
+    },
+    {
+      "q": "What is the evidence status of this dossier?",
+      "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+    }
   ],
-  "key_specs": [
-   "7 t payload",
-   "1,500 km range",
-   "450 km/h cruise",
-   "25,000 ft ceiling",
-   "2 × Rolls-Royce Dart RDa.7 Mk 536 turboprop, 1,910 shp each",
-   "4-blade Rotol constant-speed propeller"
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+    "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
   ],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {}
-  }
- },
- "what_it_is": "HAL HS-748 'Avro' is listed in this atlas as a light medium tactical transport (production_closed). The atlas legacy record attributes it to Hindustan Aeronautics Limited (Transport Aircraft Division, Kanpur). L2 (component manufacturing) historically; L1 (assembly) historically. Design IP British (Hawker Siddeley / BAe).",
- "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
- "graph": {
-  "maker": {
-   "name": "Hindustan Aeronautics Limited (Transport Aircraft Division, Kanpur)",
-   "path": "/research/military-aerospace/company/hal/"
-  },
-  "dependency_profile": {
-   "Localization depth (max)": "L2",
-   "Production status": "production_closed"
-  },
-  "parent_hub": "/research/military-aerospace/"
- },
- "faq": [
-  {
-   "q": "Why does HAL HS-748 'Avro' appear in the Military Aerospace Atlas?",
-   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a light medium tactical transport relevant to India's industrial and security picture."
-  },
-  {
-   "q": "What is the evidence status of this dossier?",
-   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
-  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
- ],
- "sources": [
-  {
-   "publisher": "www.hal-india.co.in",
-   "title": "HS-748 - HAL product page",
-   "url": "https://www.hal-india.co.in/product/hs-748",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "www.livefistdefence.com",
-   "title": "Contest Opens: Airbus & Tata Team Up For IAF's Avro Replacement",
-   "url": "https://www.livefistdefence.com/contest-opens-airbus-tata-team-up-for/",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "HAL HS-748 'Avro' - Military Aerospace Atlas - Techadyant Labs",
-  "description": "HAL HS-748 'Avro' is listed in this atlas as a light medium tactical transport (production_closed).",
-  "noindex": true
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  "sources": [
+    {
+      "publisher": "www.hal-india.co.in",
+      "title": "HS-748 - HAL product page",
+      "url": "https://www.hal-india.co.in/product/hs-748",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "www.livefistdefence.com",
+      "title": "Contest Opens: Airbus & Tata Team Up For IAF's Avro Replacement",
+      "url": "https://www.livefistdefence.com/contest-opens-airbus-tata-team-up-for/",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/military-aerospace/platform/hs748/",
+      "title": "HAL HS-748 'Avro' — Military Aerospace Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
   ],
-  "source_count": 2,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "seo": {
+    "title": "HAL HS-748 'Avro' - Military Aerospace Atlas - Techadyant Labs",
+    "description": "HAL HS-748 'Avro' is listed in this atlas as a light medium tactical transport (production_closed).",
+    "noindex": true
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+    ],
+    "source_count": 2,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "milestones": [],
+    "indian_production_status": "Production line closed. Last HS-748 delivery in the 1990s. Fleet retired from IAF service in the 2010s."
+  },
+  "import_dependencies": {
+    "summary": "Listing metadata only: origin India (design origin: United Kingdom); Indian partner Hindustan Aeronautics Limited · Licensed manufacturer (programme closed). Component-level import analysis is not published on the listing.",
+    "rows": []
+  }
 }

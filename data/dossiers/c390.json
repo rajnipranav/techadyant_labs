@@ -1,106 +1,156 @@
 {
- "entity_id": "atl-plat-c390",
- "entity_type": "platform",
- "tier": "C",
- "noindex": true,
- "slug": "c390",
- "name": "Embraer C-390 Millennium",
- "vertical": "military-aerospace",
- "parent_hub_path": "/research/military-aerospace/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-plat-c390",
+  "entity_type": "platform",
+  "tier": "C",
+  "noindex": true,
+  "slug": "c390",
   "name": "Embraer C-390 Millennium",
-  "role": "medium to heavy tactical transport",
-  "country": "in_production Indicative",
-  "status_line": null,
-  "subtitle": null,
-  "entity_path": "/research/military-aerospace/platform/c390/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Embraer Defense & Security (Brazil)"
-   },
-   {
-    "label": "Role",
-    "value": "Tactical and strategic airlift, troop transport, cargo (including vehicles), aerial refuelling (KC-390 variant), MEDEVAC, search and rescue"
-   }
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Embraer C-390 Millennium",
+    "role": "medium to heavy tactical transport",
+    "country": "in_production Indicative",
+    "status_line": null,
+    "subtitle": null,
+    "entity_path": "/research/military-aerospace/platform/c390/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Embraer Defense & Security (Brazil)"
+      },
+      {
+        "label": "Role",
+        "value": "Tactical and strategic airlift, troop transport, cargo (including vehicles), aerial refuelling (KC-390 variant), MEDEVAC, search and rescue"
+      }
+    ],
+    "key_specs": [
+      "26 t payload",
+      "2,800 km range",
+      "870 km/h cruise",
+      "36,000 ft ceiling",
+      "2 × International Aero Engines V2500-E5 turbofan, 31,360 lbf each",
+      "Not applicable — turbofan-powered"
+    ],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {}
+    }
+  },
+  "what_it_is": "Embraer C-390 Millennium is listed in this atlas as a medium to heavy tactical transport (in_production Indicative). The atlas legacy record attributes it to Embraer Defense & Security (Brazil). Industrial scope not yet contracted. Targeted levels: L1 (assembly) to L2 (component manufacturing) for structural and avionics sub-assemblies. Engine and FADEC remain L0.",
+  "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+  "graph": {
+    "maker": {
+      "name": "Embraer Defense & Security (Brazil)",
+      "path": "/research/military-aerospace/company/embraer/"
+    },
+    "dependency_profile": {
+      "Localization depth (max)": "L0",
+      "Production status": "in_production"
+    },
+    "parent_hub": "/research/military-aerospace/"
+  },
+  "faq": [
+    {
+      "q": "Why does Embraer C-390 Millennium appear in the Military Aerospace Atlas?",
+      "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a medium to heavy tactical transport relevant to India's industrial and security picture."
+    },
+    {
+      "q": "What is the evidence status of this dossier?",
+      "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+    }
   ],
-  "key_specs": [
-   "26 t payload",
-   "2,800 km range",
-   "870 km/h cruise",
-   "36,000 ft ceiling",
-   "2 × International Aero Engines V2500-E5 turbofan, 31,360 lbf each",
-   "Not applicable — turbofan-powered"
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+    "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
   ],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {}
-  }
- },
- "what_it_is": "Embraer C-390 Millennium is listed in this atlas as a medium to heavy tactical transport (in_production Indicative). The atlas legacy record attributes it to Embraer Defense & Security (Brazil). Industrial scope not yet contracted. Targeted levels: L1 (assembly) to L2 (component manufacturing) for structural and avionics sub-assemblies. Engine and FADEC remain L0.",
- "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
- "graph": {
-  "maker": {
-   "name": "Embraer Defense & Security (Brazil)",
-   "path": "/research/military-aerospace/company/embraer/"
-  },
-  "dependency_profile": {
-   "Localization depth (max)": "L0",
-   "Production status": "in_production"
-  },
-  "parent_hub": "/research/military-aerospace/"
- },
- "faq": [
-  {
-   "q": "Why does Embraer C-390 Millennium appear in the Military Aerospace Atlas?",
-   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a medium to heavy tactical transport relevant to India's industrial and security picture."
-  },
-  {
-   "q": "What is the evidence status of this dossier?",
-   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
-  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
- ],
- "sources": [
-  {
-   "publisher": "www.embraer.com",
-   "title": "Embraer and Mahindra Group Forge Strategic Alliance to Introduce the C-390 Millennium to India",
-   "url": "http://www.embraer.com/media-center/en/?mediatype=NEWS&amp;detail=22551",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "embraer.com",
-   "title": "C-390 Millennium specifications — Embraer official brochure",
-   "url": "https://embraer.com/global/en/defense-security/c-390-millennium",
-   "trust_tier": "indicative",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "Embraer C-390 Millennium - Military Aerospace Atlas - Techadyant Labs",
-  "description": "Embraer C-390 Millennium is listed in this atlas as a medium to heavy tactical transport (in_production Indicative).",
-  "noindex": true
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  "sources": [
+    {
+      "publisher": "www.embraer.com",
+      "title": "Embraer and Mahindra Group Forge Strategic Alliance to Introduce the C-390 Millennium to India",
+      "url": "http://www.embraer.com/media-center/en/?mediatype=NEWS&amp;detail=22551",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "embraer.com",
+      "title": "C-390 Millennium specifications — Embraer official brochure",
+      "url": "https://embraer.com/global/en/defense-security/c-390-millennium",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/military-aerospace/platform/c390/",
+      "title": "Embraer C-390 Millennium — Military Aerospace Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
   ],
-  "source_count": 2,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "seo": {
+    "title": "Embraer C-390 Millennium - Military Aerospace Atlas - Techadyant Labs",
+    "description": "Embraer C-390 Millennium is listed in this atlas as a medium to heavy tactical transport (in_production Indicative).",
+    "noindex": true
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+    ],
+    "source_count": 2,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "milestones": [
+      {
+        "date": "2026-06-01",
+        "event": "IAF MTA competition open — C-390 and C-130J in the race; formal tender not yet released",
+        "badge": "planned"
+      },
+      {
+        "date": "2024-02-01",
+        "event": "Embraer–Mahindra Defence strategic-alliance MoU",
+        "badge": "delivered"
+      },
+      {
+        "date": "2029-01-01",
+        "event": "First aircraft delivery (projection, contingent on MTA award)",
+        "badge": "planned"
+      }
+    ],
+    "indian_production_status": "No production committed to India as of mid-2026. Embraer and Mahindra Defence signed a strategic-alliance MoU (Feb 2024, deepened Oct 2025) covering industrial cooperation, FAL options and MRO scope. The IAF MTA competition remains open — the C-390 is a contender, not a selected platform."
+  },
+  "import_dependencies": {
+    "summary": "Listing metadata only: origin Brazil; Indian partner Mahindra Defence · Indian industrial partner under MoU (Feb 2024, deepened Oct 2025); Tier-1 supplier scope and FAL location under negotiation. Component-level import analysis is not published on the listing.",
+    "rows": []
+  },
+  "timeline": [
+    {
+      "date": "2026-06-01",
+      "event": "IAF MTA competition open — C-390 and C-130J in the race; formal tender not yet released",
+      "badge": "planned"
+    },
+    {
+      "date": "2024-02-01",
+      "event": "Embraer–Mahindra Defence strategic-alliance MoU",
+      "badge": "delivered"
+    },
+    {
+      "date": "2029-01-01",
+      "event": "First aircraft delivery (projection, contingent on MTA award)",
+      "badge": "planned"
+    }
+  ]
 }

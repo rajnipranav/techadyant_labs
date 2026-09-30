@@ -1,113 +1,153 @@
 {
- "entity_id": "atl-plat-htt40",
- "entity_type": "platform",
- "tier": "B",
- "noindex": false,
- "slug": "htt40",
- "name": "HAL HTT-40",
- "vertical": "military-aerospace",
- "parent_hub_path": "/research/military-aerospace/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-plat-htt40",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "htt40",
   "name": "HAL HTT-40",
-  "role": "basic trainer",
-  "country": "in_production",
-  "status_line": null,
-  "subtitle": null,
-  "entity_path": "/research/military-aerospace/platform/htt40/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Hindustan Aeronautics Limited"
-   },
-   {
-    "label": "Role",
-    "value": "Basic trainer (replacement for HAL HPT-32 Deepak, and supplement for Pilatus PC-7 Mk II). Not a transport aircraft. Included as reference for L5 (indigenous design capability)."
-   }
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "HAL HTT-40",
+    "role": "basic trainer",
+    "country": "in_production",
+    "status_line": null,
+    "subtitle": null,
+    "entity_path": "/research/military-aerospace/platform/htt40/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Hindustan Aeronautics Limited"
+      },
+      {
+        "label": "Role",
+        "value": "Basic trainer (replacement for HAL HPT-32 Deepak, and supplement for Pilatus PC-7 Mk II). Not a transport aircraft. Included as reference for L5 (indigenous design capability)."
+      }
+    ],
+    "key_specs": [
+      "1.5 t payload",
+      "1,000 km range",
+      "410 km/h cruise",
+      "32,000 ft ceiling",
+      "1 × Pratt & Whitney Canada PT6A-68B turboprop, 950 shp",
+      "Hartzell 5-blade constant-speed propeller"
+    ],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {}
+    }
+  },
+  "what_it_is": "HAL HTT-40 is listed in this atlas as a basic trainer (in_production). The atlas legacy record attributes it to Hindustan Aeronautics Limited. L5 (indigenous design) for airframe and avionics integration; L0 for the engine.",
+  "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+  "graph": {
+    "maker": {
+      "name": "Hindustan Aeronautics Limited",
+      "path": "/research/military-aerospace/company/hal/"
+    },
+    "dependency_profile": {
+      "Localization depth (max)": "L5",
+      "Production status": "in_production"
+    },
+    "parent_hub": "/research/military-aerospace/"
+  },
+  "faq": [
+    {
+      "q": "Why does HAL HTT-40 appear in the Military Aerospace Atlas?",
+      "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a basic trainer relevant to India's industrial and security picture."
+    },
+    {
+      "q": "What is the evidence status of this dossier?",
+      "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+    }
   ],
-  "key_specs": [
-   "1.5 t payload",
-   "1,000 km range",
-   "410 km/h cruise",
-   "32,000 ft ceiling",
-   "1 × Pratt & Whitney Canada PT6A-68B turboprop, 950 shp",
-   "Hartzell 5-blade constant-speed propeller"
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+    "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
   ],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {}
-  }
- },
- "what_it_is": "HAL HTT-40 is listed in this atlas as a basic trainer (in_production). The atlas legacy record attributes it to Hindustan Aeronautics Limited. L5 (indigenous design) for airframe and avionics integration; L0 for the engine.",
- "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
- "graph": {
-  "maker": {
-   "name": "Hindustan Aeronautics Limited",
-   "path": "/research/military-aerospace/company/hal/"
-  },
-  "dependency_profile": {
-   "Localization depth (max)": "L5",
-   "Production status": "in_production"
-  },
-  "parent_hub": "/research/military-aerospace/"
- },
- "faq": [
-  {
-   "q": "Why does HAL HTT-40 appear in the Military Aerospace Atlas?",
-   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a basic trainer relevant to India's industrial and security picture."
-  },
-  {
-   "q": "What is the evidence status of this dossier?",
-   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
-  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
- ],
- "sources": [
-  {
-   "publisher": "www.pib.gov.in",
-   "title": "Contracts for procurement of 70 HTT-40 Basic Trainer Aircraft",
-   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1904828",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "www.hal-india.co.in",
-   "title": "HTT-40 - HAL product page",
-   "url": "https://www.hal-india.co.in/product/htt-40",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "www.rtx.com",
-   "title": "PT6A Engine (Pratt & Whitney official product page)",
-   "url": "https://www.rtx.com/en/prattwhitney/products/general-aviation-engines/pt6a",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "HAL HTT-40 - Military Aerospace Atlas - Techadyant Labs",
-  "description": "HAL HTT-40 is listed in this atlas as a basic trainer (in_production).",
-  "noindex": false
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  "sources": [
+    {
+      "publisher": "www.pib.gov.in",
+      "title": "Contracts for procurement of 70 HTT-40 Basic Trainer Aircraft",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1904828",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "www.hal-india.co.in",
+      "title": "HTT-40 - HAL product page",
+      "url": "https://www.hal-india.co.in/product/htt-40",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "www.rtx.com",
+      "title": "PT6A Engine (Pratt & Whitney official product page)",
+      "url": "https://www.rtx.com/en/prattwhitney/products/general-aviation-engines/pt6a",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/military-aerospace/platform/htt40/",
+      "title": "HAL HTT-40 — Military Aerospace Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
   ],
-  "source_count": 3,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "seo": {
+    "title": "HAL HTT-40 - Military Aerospace Atlas - Techadyant Labs",
+    "description": "HAL HTT-40 is listed in this atlas as a basic trainer (in_production).",
+    "noindex": false
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+    ],
+    "source_count": 3,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "milestones": [
+      {
+        "date": "2016-06-01",
+        "event": "First flight",
+        "badge": "delivered"
+      },
+      {
+        "date": "2023-03-07",
+        "event": "IAF contract — 70 aircraft + 36 options",
+        "badge": "delivered"
+      }
+    ],
+    "indian_production_status": "Series production at HAL Bengaluru. Engine (PT6A-68B) imported. Airframe, avionics integration, mission computer all Indian-designed."
+  },
+  "import_dependencies": {
+    "summary": "Listing metadata only: origin India; Indian partner Hindustan Aeronautics Limited · Prime designer and manufacturer (indigenous programme). Component-level import analysis is not published on the listing.",
+    "rows": []
+  },
+  "timeline": [
+    {
+      "date": "2016-06-01",
+      "event": "First flight",
+      "badge": "delivered"
+    },
+    {
+      "date": "2023-03-07",
+      "event": "IAF contract — 70 aircraft + 36 options",
+      "badge": "delivered"
+    }
+  ]
 }

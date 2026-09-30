@@ -242,6 +242,15 @@
       "trust_tier": "official",
       "accessed": "2026-09-03",
       "note": "PIB contract notice for 500T self-propelled fuel barges"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/pillars/defence/entity/500t-self-propelled-fuel-barges/",
+      "title": "500t Self-Propelled Fuel Barges — Defence Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
     }
   ],
   "seo": {
@@ -262,5 +271,21 @@
     "related_research": [
       "/research/pillars/defence/"
     ]
+  },
+  "at_a_glance": {
+    "indicators": [
+      "tier A",
+      "5 source(s)",
+      "indexable"
+    ],
+    "key_specs": {
+      "variant": "Naval logistics system — series of 500-tonne self-propelled fuel/bunker barges for the Indian Navy",
+      "entity_class": "Small self-propelled fuel barge (naval logistics craft)",
+      "env_tags": [
+        "naval",
+        "sea"
+      ],
+      "listing_url": "https://labs.techadyant.com/research/pillars/defence/entity/500t-self-propelled-fuel-barges/"
+    }
   }
 }

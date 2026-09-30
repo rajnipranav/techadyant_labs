@@ -293,6 +293,15 @@
       "trust_tier": "credible",
       "accessed": "2026-09-03",
       "note": "ASW-SWC programme commissioning"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/pillars/defence/entity/anti-submarine-warfare-shallow-water-craft-programme/",
+      "title": "Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) Programme — Defence Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
     }
   ],
   "seo": {
@@ -313,5 +322,22 @@
     "related_research": [
       "/research/pillars/defence/"
     ]
+  },
+  "at_a_glance": {
+    "indicators": [
+      "tier A",
+      "5 source(s)",
+      "indexable"
+    ],
+    "key_specs": {
+      "variant": "Arnala-class ASW corvette series (8-ship shallow-water craft tranche)",
+      "entity_class": "Shallow-water ASW corvette programme",
+      "env_tags": [
+        "naval",
+        "sea",
+        "air"
+      ],
+      "listing_url": "https://labs.techadyant.com/research/pillars/defence/entity/anti-submarine-warfare-shallow-water-craft-programme/"
+    }
   }
 }

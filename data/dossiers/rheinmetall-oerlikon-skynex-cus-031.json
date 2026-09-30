@@ -1,120 +1,138 @@
 {
- "entity_id": "atl-sys-rheinmetall-oerlikon-skynex-cus-031",
- "entity_type": "system",
- "tier": "B",
- "noindex": false,
- "slug": "rheinmetall-oerlikon-skynex-cus-031",
- "name": "Rheinmetall Oerlikon Skynex",
- "vertical": "counter-uas",
- "parent_hub_path": "/research/counter-uas/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-sys-rheinmetall-oerlikon-skynex-cus-031",
+  "entity_type": "system",
+  "tier": "B",
+  "noindex": false,
+  "slug": "rheinmetall-oerlikon-skynex-cus-031",
   "name": "Rheinmetall Oerlikon Skynex",
-  "role": "Fixed Site; Mobile",
-  "country": "Germany",
-  "status_line": "Operational",
-  "subtitle": "V1",
-  "entity_path": "/research/counter-uas/system/rheinmetall-oerlikon-skynex-cus-031/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Rheinmetall"
-   }
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Rheinmetall Oerlikon Skynex",
+    "role": "Fixed Site; Mobile",
+    "country": "Germany",
+    "status_line": "Operational",
+    "subtitle": "V1",
+    "entity_path": "/research/counter-uas/system/rheinmetall-oerlikon-skynex-cus-031/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Rheinmetall"
+      }
+    ],
+    "key_specs": [],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {
+        "Indigenous content": "0% (No - Fully Imported)"
+      }
+    }
+  },
+  "what_it_is": "Skynex is Rheinmetall's networked air-defence system built around the Oerlikon revolver gun (35mm AHEAD ammunition), radar/eo sensors and open command layer, configurable for counter-UAS and C-RAM roles; recent contracts include four systems to an Asian customer.",
+  "india_angle": "Skynex appears in Indian evaluations of gun-based counter-drone layers for air-base defence; no Indian Skynex order is publicly confirmed. Rheinmetall's Indian joint-venture activity (with Indian partners) is the channel to watch.",
+  "drone_types_countered": [
+    "Nano",
+    "Micro",
+    "Small UAV",
+    "Medium UAV",
+    "Fixed Wing",
+    "VTOL",
+    "FPV",
+    "Loitering Munition",
+    "Helicopter UAV",
+    "Swarm",
+    "Autonomous"
   ],
-  "key_specs": [],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {
-    "Indigenous content": "0% (No - Fully Imported)"
-   }
-  }
- },
- "what_it_is": "Skynex is Rheinmetall's networked air-defence system built around the Oerlikon revolver gun (35mm AHEAD ammunition), radar/eo sensors and open command layer, configurable for counter-UAS and C-RAM roles; recent contracts include four systems to an Asian customer.",
- "india_angle": "Skynex appears in Indian evaluations of gun-based counter-drone layers for air-base defence; no Indian Skynex order is publicly confirmed. Rheinmetall's Indian joint-venture activity (with Indian partners) is the channel to watch.",
- "drone_types_countered": [
-  "Nano",
-  "Micro",
-  "Small UAV",
-  "Medium UAV",
-  "Fixed Wing",
-  "VTOL",
-  "FPV",
-  "Loitering Munition",
-  "Helicopter UAV",
-  "Swarm",
-  "Autonomous"
- ],
- "kill_chain": [
-  "Detect",
-  "Track",
-  "Identify",
-  "Classify",
-  "Decide",
-  "Neutralize",
-  "Assess"
- ],
- "intelligence_assessment": "The system's record is verifiable via Rheinmetall. India linkage remains evaluation-level; watch Indian air-defence modernisation tenders and Rheinmetall India JV announcements.",
- "graph": {
-  "maker": {
-   "name": "Rheinmetall",
-   "path": "/research/counter-uas/manufacturer/rheinmetall-mfg-027/"
-  },
-  "parent_hub": "/research/counter-uas/"
- },
- "faq": [
-  {
-   "q": "Has India bought Skynex?",
-   "a": "No Indian Skynex order is publicly confirmed; the system appears in Indian gun-based C-UAS evaluation discourse."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
-  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
- ],
- "sources": [
-  {
-   "publisher": "rheinmetall.com",
-   "title": "Skynex - networked air defence (Rheinmetall)",
-   "url": "https://www.rheinmetall.com/en/products/air-defence-systems/networked-air-defence-skynex",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "rheinmetall.com",
-   "title": "Rheinmetall supplies four Skynex systems to Asian customer",
-   "url": "https://www.rheinmetall.com/en/media/news-watch/news/2026/07/2026-07-02-rheinmetall-is-supplying-four-skynex-systems-t",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "en.wikipedia.org",
-   "title": "Rheinmetall Air Defence",
-   "url": "https://en.wikipedia.org/wiki/Rheinmetall_Air_Defence",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "Rheinmetall Oerlikon Skynex - Counter-UAS Atlas - Techadyant Labs",
-  "description": "Skynex is Rheinmetall's networked air-defence system built around the Oerlikon revolver gun (35mm AHEAD ammunition), radar/eo sensors and open command layer, ",
-  "noindex": false
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
-   "curated research with source verification"
+  "kill_chain": [
+    "Detect",
+    "Track",
+    "Identify",
+    "Classify",
+    "Decide",
+    "Neutralize",
+    "Assess"
   ],
-  "source_count": 3,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "intelligence_assessment": "The system's record is verifiable via Rheinmetall. India linkage remains evaluation-level; watch Indian air-defence modernisation tenders and Rheinmetall India JV announcements.",
+  "graph": {
+    "maker": {
+      "name": "Rheinmetall",
+      "path": "/research/counter-uas/manufacturer/rheinmetall-mfg-027/"
+    },
+    "parent_hub": "/research/counter-uas/"
+  },
+  "faq": [
+    {
+      "q": "Has India bought Skynex?",
+      "a": "No Indian Skynex order is publicly confirmed; the system appears in Indian gun-based C-UAS evaluation discourse."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+    "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+  ],
+  "sources": [
+    {
+      "publisher": "rheinmetall.com",
+      "title": "Skynex - networked air defence (Rheinmetall)",
+      "url": "https://www.rheinmetall.com/en/products/air-defence-systems/networked-air-defence-skynex",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "rheinmetall.com",
+      "title": "Rheinmetall supplies four Skynex systems to Asian customer",
+      "url": "https://www.rheinmetall.com/en/media/news-watch/news/2026/07/2026-07-02-rheinmetall-is-supplying-four-skynex-systems-t",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "en.wikipedia.org",
+      "title": "Rheinmetall Air Defence",
+      "url": "https://en.wikipedia.org/wiki/Rheinmetall_Air_Defence",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/counter-uas/system/rheinmetall-oerlikon-skynex-cus-031/",
+      "title": "Rheinmetall Oerlikon Skynex — Counter-UAS Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Rheinmetall Oerlikon Skynex - Counter-UAS Atlas - Techadyant Labs",
+    "description": "Skynex is Rheinmetall's networked air-defence system built around the Oerlikon revolver gun (35mm AHEAD ammunition), radar/eo sensors and open command layer, ",
+    "noindex": false
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+      "curated research with source verification"
+    ],
+    "source_count": 3,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "deployments": [],
+    "count": 0,
+    "note": "Deployment entries as published on the Atlas listing."
+  },
+  "import_dependencies": {
+    "summary": "Derived from the listing intelligence metrics; see rows for verbatim listing text.",
+    "rows": []
+  }
 }

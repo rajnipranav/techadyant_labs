@@ -1,113 +1,130 @@
 {
- "entity_id": "atl-plat-a400m",
- "entity_type": "platform",
- "tier": "B",
- "noindex": false,
- "slug": "a400m",
- "name": "Airbus A400M Atlas",
- "vertical": "military-aerospace",
- "parent_hub_path": "/research/military-aerospace/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-plat-a400m",
+  "entity_type": "platform",
+  "tier": "B",
+  "noindex": false,
+  "slug": "a400m",
   "name": "Airbus A400M Atlas",
-  "role": "strategic tactical transport heavy",
-  "country": "in_production",
-  "status_line": null,
-  "subtitle": null,
-  "entity_path": "/research/military-aerospace/platform/a400m/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Airbus Defence and Space (multi-nation European consortium)"
-   },
-   {
-    "label": "Role",
-    "value": "Strategic and tactical airlift, outsize cargo, aerial refuelling (tanker variant), special operations"
-   }
+  "vertical": "military-aerospace",
+  "parent_hub_path": "/research/military-aerospace/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Airbus A400M Atlas",
+    "role": "strategic tactical transport heavy",
+    "country": "in_production",
+    "status_line": null,
+    "subtitle": null,
+    "entity_path": "/research/military-aerospace/platform/a400m/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Airbus Defence and Space (multi-nation European consortium)"
+      },
+      {
+        "label": "Role",
+        "value": "Strategic and tactical airlift, outsize cargo, aerial refuelling (tanker variant), special operations"
+      }
+    ],
+    "key_specs": [
+      "37 t payload",
+      "4,800 km range",
+      "780 km/h cruise",
+      "40,000 ft ceiling",
+      "4 × Europrop International TP400-D6 turboprop, 11,000 shp each — the most powerful Western turboprop in service",
+      "8-blade Ratier-Figeac FH386 composite propeller"
+    ],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {}
+    }
+  },
+  "what_it_is": "Airbus A400M Atlas is listed in this atlas as a strategic tactical transport heavy (in_production). The atlas legacy record attributes it to Airbus Defence and Space (multi-nation European consortium). L0 — fully imported in the hypothetical Indian procurement scenario.",
+  "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
+  "graph": {
+    "maker": {
+      "name": "Airbus Defence and Space (multi-nation European consortium)",
+      "path": "/research/military-aerospace/company/airbus-ds/"
+    },
+    "dependency_profile": {
+      "Localization depth (max)": "L0",
+      "Production status": "in_production"
+    },
+    "parent_hub": "/research/military-aerospace/"
+  },
+  "faq": [
+    {
+      "q": "Why does Airbus A400M Atlas appear in the Military Aerospace Atlas?",
+      "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a strategic tactical transport heavy relevant to India's industrial and security picture."
+    },
+    {
+      "q": "What is the evidence status of this dossier?",
+      "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
+    }
   ],
-  "key_specs": [
-   "37 t payload",
-   "4,800 km range",
-   "780 km/h cruise",
-   "40,000 ft ceiling",
-   "4 × Europrop International TP400-D6 turboprop, 11,000 shp each — the most powerful Western turboprop in service",
-   "8-blade Ratier-Figeac FH386 composite propeller"
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
+    "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
   ],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {}
-  }
- },
- "what_it_is": "Airbus A400M Atlas is listed in this atlas as a strategic tactical transport heavy (in_production). The atlas legacy record attributes it to Airbus Defence and Space (multi-nation European consortium). L0 — fully imported in the hypothetical Indian procurement scenario.",
- "intelligence_assessment": "Evidence base is currently limited to the legacy atlas record carried forward from the live page on 2026-09-02. No independently verifiable public India procurement trail was attached during this upgrade pass, so treat operational and programmatic details as pending verification. The open_questions section defines the fastest path to a higher tier.",
- "graph": {
-  "maker": {
-   "name": "Airbus Defence and Space (multi-nation European consortium)",
-   "path": "/research/military-aerospace/company/airbus-ds/"
-  },
-  "dependency_profile": {
-   "Localization depth (max)": "L0",
-   "Production status": "in_production"
-  },
-  "parent_hub": "/research/military-aerospace/"
- },
- "faq": [
-  {
-   "q": "Why does Airbus A400M Atlas appear in the Military Aerospace Atlas?",
-   "a": "It is part of the atlas's coverage of military aerospace; the hub lists it as a strategic tactical transport heavy relevant to India's industrial and security picture."
-  },
-  {
-   "q": "What is the evidence status of this dossier?",
-   "a": "This dossier was upgraded from a thin/legacy record on 2026-09-02. Facts carried from the legacy atlas record are explicitly labelled as unverified, and the open_questions section lists exactly what must be confirmed to lift this entity to a higher tier."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Re-verify the specification figures carried from the legacy record against the OEM brochure or a named technical source.",
-  "Re-open the legacy page's cited links, confirm each target still resolves, and expand to >=4 distinct publishers for Tier A."
- ],
- "sources": [
-  {
-   "publisher": "www.airbus.com",
-   "title": "A400M | Military Aircraft | Defence",
-   "url": "https://www.airbus.com/en/products-services/defence/military-aircraft/a400m",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "www.europrop-int.com",
-   "title": "Europrop International TP400-D6 brochure (official PDF)",
-   "url": "http://www.europrop-int.com/wp-content/uploads/2018/01/EUROPROP_BROCHURE-220118.pdf",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "www.iiss.org",
-   "title": "The Military Balance 2024",
-   "url": "https://www.iiss.org/publications/the-military-balance/2024/the-military-balance-2024/",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "Airbus A400M Atlas - Military Aerospace Atlas - Techadyant Labs",
-  "description": "Airbus A400M Atlas is listed in this atlas as a strategic tactical transport heavy (in_production).",
-  "noindex": false
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+  "sources": [
+    {
+      "publisher": "www.airbus.com",
+      "title": "A400M | Military Aircraft | Defence",
+      "url": "https://www.airbus.com/en/products-services/defence/military-aircraft/a400m",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "www.europrop-int.com",
+      "title": "Europrop International TP400-D6 brochure (official PDF)",
+      "url": "http://www.europrop-int.com/wp-content/uploads/2018/01/EUROPROP_BROCHURE-220118.pdf",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "www.iiss.org",
+      "title": "The Military Balance 2024",
+      "url": "https://www.iiss.org/publications/the-military-balance/2024/the-military-balance-2024/",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/military-aerospace/platform/a400m/",
+      "title": "Airbus A400M Atlas — Military Aerospace Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
   ],
-  "source_count": 3,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "seo": {
+    "title": "Airbus A400M Atlas - Military Aerospace Atlas - Techadyant Labs",
+    "description": "Airbus A400M Atlas is listed in this atlas as a strategic tactical transport heavy (in_production).",
+    "noindex": false
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02"
+    ],
+    "source_count": 3,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "milestones": [],
+    "indian_production_status": "None. No Indian manufacturing. Atlas labels the A400M as `not applicable` for Indian production."
+  },
+  "import_dependencies": {
+    "summary": "Listing metadata only: origin European Union (multi-national: Spain final assembly; UK, Germany, France, Spain, Turkey, Belgium workshares); Indian partner None contracted. Atlas records `potential` for HAL or TASL engagement in the event of a future Indian selection. · Not applicable at present.. Component-level import analysis is not published on the listing.",
+    "rows": []
+  }
 }

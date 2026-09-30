@@ -1,120 +1,163 @@
 {
- "entity_id": "atl-sys-rafael-drone-dome-cus-024",
- "entity_type": "system",
- "tier": "B",
- "noindex": false,
- "slug": "rafael-drone-dome-cus-024",
- "name": "Rafael Drone Dome",
- "vertical": "counter-uas",
- "parent_hub_path": "/research/counter-uas/",
- "last_verified": "2026-09-02",
- "status": "published-thin-upgrade",
- "header": {
+  "entity_id": "atl-sys-rafael-drone-dome-cus-024",
+  "entity_type": "system",
+  "tier": "B",
+  "noindex": false,
+  "slug": "rafael-drone-dome-cus-024",
   "name": "Rafael Drone Dome",
-  "role": "Mobile; Fixed Site",
-  "country": "Israel",
-  "status_line": "Operational",
-  "subtitle": "V1",
-  "entity_path": "/research/counter-uas/system/rafael-drone-dome-cus-024/"
- },
- "at_a_glance": {
-  "indicators": [
-   {
-    "label": "Maker",
-    "value": "Rafael Advanced Defense Systems"
-   }
+  "vertical": "counter-uas",
+  "parent_hub_path": "/research/counter-uas/",
+  "last_verified": "2026-09-02",
+  "status": "published-thin-upgrade",
+  "header": {
+    "name": "Rafael Drone Dome",
+    "role": "Mobile; Fixed Site",
+    "country": "Israel",
+    "status_line": "Operational",
+    "subtitle": "V1",
+    "entity_path": "/research/counter-uas/system/rafael-drone-dome-cus-024/"
+  },
+  "at_a_glance": {
+    "indicators": [
+      {
+        "label": "Maker",
+        "value": "Rafael Advanced Defense Systems"
+      }
+    ],
+    "key_specs": [],
+    "atlas_legacy_record": {
+      "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
+      "fields": {
+        "Indigenous content": "0% (No - Fully Imported)"
+      }
+    }
+  },
+  "what_it_is": "Rafael's DRONE DOME is a modular counter-UAS system combining radar, EO/IR and RF sensors with soft-kill jamming and (in later configurations) hard-kill laser options, designed for air-base, urban and critical-infrastructure defence. It has been certified and fielded by Western air forces.",
+  "india_angle": "Drone Dome-class systems matter to India primarily as the reference architecture its own C-UAS programmes emulate; no Indian Drone Dome sale is publicly confirmed. Rafael's India presence runs through joint ventures (e.g. with Kalyani group) that could carry such systems locally.",
+  "drone_types_countered": [
+    "Nano",
+    "Micro",
+    "Small UAV",
+    "Medium UAV",
+    "Fixed Wing",
+    "VTOL",
+    "FPV",
+    "Loitering Munition",
+    "Helicopter UAV",
+    "Swarm",
+    "Autonomous"
   ],
-  "key_specs": [],
-  "atlas_legacy_record": {
-   "note": "Values below come from the live legacy atlas page captured on 2026-09-02 and were NOT independently verified in this upgrade pass. They are carried forward for continuity only and must not be cited as evidence.",
-   "fields": {
-    "Indigenous content": "0% (No - Fully Imported)"
-   }
-  }
- },
- "what_it_is": "Rafael's DRONE DOME is a modular counter-UAS system combining radar, EO/IR and RF sensors with soft-kill jamming and (in later configurations) hard-kill laser options, designed for air-base, urban and critical-infrastructure defence. It has been certified and fielded by Western air forces.",
- "india_angle": "Drone Dome-class systems matter to India primarily as the reference architecture its own C-UAS programmes emulate; no Indian Drone Dome sale is publicly confirmed. Rafael's India presence runs through joint ventures (e.g. with Kalyani group) that could carry such systems locally.",
- "drone_types_countered": [
-  "Nano",
-  "Micro",
-  "Small UAV",
-  "Medium UAV",
-  "Fixed Wing",
-  "VTOL",
-  "FPV",
-  "Loitering Munition",
-  "Helicopter UAV",
-  "Swarm",
-  "Autonomous"
- ],
- "kill_chain": [
-  "Detect",
-  "Track",
-  "Identify",
-  "Classify",
-  "Decide",
-  "Neutralize",
-  "Assess"
- ],
- "intelligence_assessment": "The system's record is verifiable through Rafael and Western trade press. For the India file, watch Rafael-Kalyani JV product announcements and Indian air-base C-UAS tenders rather than assumption of deployment.",
- "graph": {
-  "maker": {
-   "name": "Rafael Advanced Defense Systems",
-   "path": "/research/counter-uas/manufacturer/rafael-advanced-defense-systems-mfg-023/"
-  },
-  "parent_hub": "/research/counter-uas/"
- },
- "faq": [
-  {
-   "q": "Is Drone Dome deployed in India?",
-   "a": "No Indian Drone Dome deployment is publicly confirmed; Rafael's India engagements run through joint ventures and tender participation."
-  }
- ],
- "open_questions": [
-  "Confirm whether any Indian service, agency or company operates this entity.",
-  "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
-  "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
- ],
- "sources": [
-  {
-   "publisher": "rafael.co.il",
-   "title": "DRONE DOME - Anti Drone System (Rafael)",
-   "url": "https://www.rafael.co.il/system/drone-dome-family",
-   "trust_tier": "official",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "en.wikipedia.org",
-   "title": "Drone Dome",
-   "url": "https://en.wikipedia.org/wiki/Drone_Dome",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  },
-  {
-   "publisher": "c4isrnet.com",
-   "title": "Rafael's 'Drone Dome' anti-UAS system wins Pentagon certification",
-   "url": "https://www.c4isrnet.com/unmanned/2022/11/28/rafaels-drone-dome-counter-uas-system-wins-pentagon-certification",
-   "trust_tier": "credible",
-   "accessed": "2026-09-02"
-  }
- ],
- "seo": {
-  "title": "Rafael Drone Dome - Counter-UAS Atlas - Techadyant Labs",
-  "description": "Rafael's DRONE DOME is a modular counter-UAS system combining radar, EO/IR and RF sensors with soft-kill jamming and (in later configurations) hard-kill laser",
-  "noindex": false
- },
- "cta": {
-  "label": "Request a dossier upgrade",
-  "href": "/engage/"
- },
- "provenance": {
-  "origin": "atlas-thin-upgrade-pack",
-  "pack_version": "1.0.0",
-  "built_from": [
-   "live legacy page capture (labs.techadyant.com) on 2026-09-02",
-   "curated research with source verification"
+  "kill_chain": [
+    "Detect",
+    "Track",
+    "Identify",
+    "Classify",
+    "Decide",
+    "Neutralize",
+    "Assess"
   ],
-  "source_count": 3,
-  "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
- }
+  "intelligence_assessment": "The system's record is verifiable through Rafael and Western trade press. For the India file, watch Rafael-Kalyani JV product announcements and Indian air-base C-UAS tenders rather than assumption of deployment.",
+  "graph": {
+    "maker": {
+      "name": "Rafael Advanced Defense Systems",
+      "path": "/research/counter-uas/manufacturer/rafael-advanced-defense-systems-mfg-023/"
+    },
+    "parent_hub": "/research/counter-uas/"
+  },
+  "faq": [
+    {
+      "q": "Is Drone Dome deployed in India?",
+      "a": "No Indian Drone Dome deployment is publicly confirmed; Rafael's India engagements run through joint ventures and tender participation."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether any Indian service, agency or company operates this entity.",
+    "Attach at least three independent, verifiable public sources (preferably MoD/PIB/OEM documents) to lift this entity to Tier B.",
+    "The legacy record carries indigenous-content and/or in-service figures - replace them with sourced values or remove them at next revision."
+  ],
+  "sources": [
+    {
+      "publisher": "rafael.co.il",
+      "title": "DRONE DOME - Anti Drone System (Rafael)",
+      "url": "https://www.rafael.co.il/system/drone-dome-family",
+      "trust_tier": "official",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "en.wikipedia.org",
+      "title": "Drone Dome",
+      "url": "https://en.wikipedia.org/wiki/Drone_Dome",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "publisher": "c4isrnet.com",
+      "title": "Rafael's 'Drone Dome' anti-UAS system wins Pentagon certification",
+      "url": "https://www.c4isrnet.com/unmanned/2022/11/28/rafaels-drone-dome-counter-uas-system-wins-pentagon-certification",
+      "trust_tier": "credible",
+      "accessed": "2026-09-02"
+    },
+    {
+      "id": "src-atlas-listing",
+      "url": "https://labs.techadyant.com/research/counter-uas/system/rafael-drone-dome-cus-024/",
+      "title": "Rafael Drone Dome — Counter-UAS Atlas listing",
+      "publisher": "Techadyant Labs — Atlas register (own register)",
+      "trust_tier": "indicative",
+      "accessed": "2026-09-27",
+      "note": "Own register: indicative only, never official per standing evidence rules. All listing-derived figures in this dossier are attributed to this source."
+    }
+  ],
+  "seo": {
+    "title": "Rafael Drone Dome - Counter-UAS Atlas - Techadyant Labs",
+    "description": "Rafael's DRONE DOME is a modular counter-UAS system combining radar, EO/IR and RF sensors with soft-kill jamming and (in later configurations) hard-kill laser",
+    "noindex": false
+  },
+  "cta": {
+    "label": "Request a dossier upgrade",
+    "href": "/engage/"
+  },
+  "provenance": {
+    "origin": "atlas-thin-upgrade-pack",
+    "pack_version": "1.0.0",
+    "built_from": [
+      "live legacy page capture (labs.techadyant.com) on 2026-09-02",
+      "curated research with source verification"
+    ],
+    "source_count": 3,
+    "evidence_policy": "evidence-first; legacy atlas values are labelled and never cited as evidence; labs.techadyant.com is never a source"
+  },
+  "deployments_procurement": {
+    "deployments": [
+      {
+        "name": "IAF Base (TBD)",
+        "location": "Multiple",
+        "status": "Operational",
+        "operator": "Indian Air Force",
+        "note": "Air base protection (TBD specific base)"
+      }
+    ],
+    "count": 1,
+    "note": "Deployment entries as published on the Atlas listing."
+  },
+  "import_dependencies": {
+    "summary": "Derived from the listing intelligence metrics; see rows for verbatim listing text.",
+    "rows": [
+      {
+        "component": "Chinese-sourced subsystems",
+        "severity": "Unspecified",
+        "note": "Very Low - no Chinese components (Israeli origin)",
+        "refs": [
+          "src-atlas-listing"
+        ]
+      },
+      {
+        "component": "Semiconductors (FPGA/GPU/AI-ASIC class)",
+        "severity": "High",
+        "note": "High - FPGA, GPU, RF components imported",
+        "refs": [
+          "src-atlas-listing"
+        ]
+      }
+    ]
+  }
 }
