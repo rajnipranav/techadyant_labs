@@ -4813,17 +4813,6 @@
    "description": "Tactical / surveillance UAVs. Based in Navi Mumbai, Maharashtra; stage: Listed. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
   },
   {
-   "id": "165fcd33-6a81-4156-9630-51694a84cfcc",
-   "name": "ideaForge Technology Ltd",
-   "type": "Private Company",
-   "country": "IN",
-   "corridors": [
-    "defence"
-   ],
-   "type_code": "company",
-   "description": "Drone Intelligence Atlas."
-  },
-  {
    "id": "ae61ae09-be55-4a31-9dda-e1584ac5d843",
    "name": "IG Drones",
    "type": "Private Company",
@@ -7183,28 +7172,6 @@
    "description": "Indian ERP vendor; among the few domestic players in the foreign-dominated ERP top tier."
   },
   {
-   "id": "996b2069-a5cb-4260-be60-ffbcc6bb6ea3",
-   "name": "Raphe mPhibr",
-   "type": "Private Company",
-   "country": "IN",
-   "corridors": [
-    "defence"
-   ],
-   "type_code": "company",
-   "description": "Drone Intelligence Atlas."
-  },
-  {
-   "id": "fa9cdce8-d94b-476c-8734-af9166ec6001",
-   "name": "Raphe mPhibr Logistics",
-   "type": "Private Company",
-   "country": "IN",
-   "corridors": [
-    "defence"
-   ],
-   "type_code": "company",
-   "description": "Drone Intelligence Atlas."
-  },
-  {
    "id": "63db7ed7-7790-4789-b791-7a8991ea8339",
    "name": "Raphe mPhibr Private Limited",
    "type": "Private Company",
@@ -7214,17 +7181,6 @@
    ],
    "type_code": "company",
    "description": "Military UAVs / heavy-lift. Based in Noida, Uttar Pradesh; stage: Growth. Named in the company directory of Who Builds India's Drones? (Techadyant Labs, 2026)."
-  },
-  {
-   "id": "42c3405b-f882-42fa-a8de-30e68ae1f27f",
-   "name": "Raphe mPhibr Pvt Ltd",
-   "type": "Private Company",
-   "country": "IN",
-   "corridors": [
-    "defence"
-   ],
-   "type_code": "company",
-   "description": "Raphe mPhibr; UAVs (Vibhram HS, R-Hawk), counter-UAS, drones; iDEX and large EP orders; MEA strategic partner."
   },
   {
    "id": "4fc2e513-7852-4c26-b711-d7dbcd2fd0ac",
@@ -13363,10 +13319,10 @@
   {
    "type": "manufactures",
    "unit": null,
-   "source": "Raphe mPhibr Pvt Ltd",
+   "source": "Raphe mPhibr Private Limited",
    "target": "Vibhram HS UAV",
    "magnitude": null,
-   "source_id": "42c3405b-f882-42fa-a8de-30e68ae1f27f",
+   "source_id": "63db7ed7-7790-4789-b791-7a8991ea8339",
    "target_id": "0a3c8869-c21d-4e04-b9c5-4cce0ca86401",
    "type_label": "Manufactures / Produces",
    "corridor_id": 4,
@@ -35249,18 +35205,6 @@
    "description": ""
   },
   {
-   "type": "manufactures",
-   "unit": null,
-   "source": "ideaForge Technology Ltd",
-   "target": "ideaForge SWITCH",
-   "magnitude": null,
-   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
-   "target_id": "6c0da858-512e-4870-83a5-83810c2da716",
-   "type_label": "Manufactures / Produces",
-   "corridor_id": 4,
-   "description": ""
-  },
-  {
    "type": "operates",
    "unit": null,
    "source": "Indian Army",
@@ -35273,30 +35217,6 @@
    "description": ""
   },
   {
-   "type": "manufactures",
-   "unit": null,
-   "source": "ideaForge Technology Ltd",
-   "target": "ideaForge SWITCH MINI",
-   "magnitude": null,
-   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
-   "target_id": "e41297cb-657f-4e18-9453-a108dfe2671a",
-   "type_label": "Manufactures / Produces",
-   "corridor_id": 4,
-   "description": ""
-  },
-  {
-   "type": "manufactures",
-   "unit": null,
-   "source": "ideaForge Technology Ltd",
-   "target": "ideaForge NETRA v2",
-   "magnitude": null,
-   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
-   "target_id": "81806eee-231a-47ec-8395-0312b38f07c8",
-   "type_label": "Manufactures / Produces",
-   "corridor_id": 4,
-   "description": ""
-  },
-  {
    "type": "operates",
    "unit": null,
    "source": "National Disaster Response Force (NDRF)",
@@ -35305,30 +35225,6 @@
    "source_id": "781c5a65-18c3-4138-8b44-de507922cc6b",
    "target_id": "81806eee-231a-47ec-8395-0312b38f07c8",
    "type_label": "Operates",
-   "corridor_id": 4,
-   "description": ""
-  },
-  {
-   "type": "manufactures",
-   "unit": null,
-   "source": "ideaForge Technology Ltd",
-   "target": "ideaForge NETRA V4 PRO",
-   "magnitude": null,
-   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
-   "target_id": "56d821e0-8748-49c4-9e52-b3c6e6cde53f",
-   "type_label": "Manufactures / Produces",
-   "corridor_id": 4,
-   "description": ""
-  },
-  {
-   "type": "manufactures",
-   "unit": null,
-   "source": "ideaForge Technology Ltd",
-   "target": "ideaForge Q6",
-   "magnitude": null,
-   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
-   "target_id": "c06f238e-d747-4fa6-916e-159eb7eeb688",
-   "type_label": "Manufactures / Produces",
    "corridor_id": 4,
    "description": ""
   },
@@ -36473,30 +36369,6 @@
    "description": ""
   },
   {
-   "type": "manufactures",
-   "unit": null,
-   "source": "ideaForge Technology Ltd",
-   "target": "ideaForge SWITCH UAV 3.0",
-   "magnitude": null,
-   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
-   "target_id": "debaade9-a617-4708-9bc8-f59540139c0d",
-   "type_label": "Manufactures / Produces",
-   "corridor_id": 4,
-   "description": ""
-  },
-  {
-   "type": "manufactures",
-   "unit": null,
-   "source": "ideaForge Technology Ltd",
-   "target": "ideaForge Q4 INSPIRE",
-   "magnitude": null,
-   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
-   "target_id": "6120e87f-b019-465e-8936-0f130330bfa0",
-   "type_label": "Manufactures / Produces",
-   "corridor_id": 4,
-   "description": ""
-  },
-  {
    "type": "operates",
    "unit": null,
    "source": "National Disaster Response Force (NDRF)",
@@ -36517,18 +36389,6 @@
    "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
    "target_id": "45061f19-06e6-41dd-8f38-9955a32abc03",
    "type_label": "Operates",
-   "corridor_id": 4,
-   "description": ""
-  },
-  {
-   "type": "manufactures",
-   "unit": null,
-   "source": "ideaForge Technology Ltd",
-   "target": "ideaForge NETRA V4-MINI",
-   "magnitude": null,
-   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
-   "target_id": "45061f19-06e6-41dd-8f38-9955a32abc03",
-   "type_label": "Manufactures / Produces",
    "corridor_id": 4,
    "description": ""
   },
@@ -36937,18 +36797,6 @@
    "source_id": "8963fd6a-e689-489d-9b4e-e43f18bbadb2",
    "target_id": "e862c82e-6bd4-4ede-83a6-7c58db6693b0",
    "type_label": "Operates",
-   "corridor_id": 4,
-   "description": ""
-  },
-  {
-   "type": "manufactures",
-   "unit": null,
-   "source": "ideaForge Technology Ltd",
-   "target": "ideaForge RYN-1 (Rynan)",
-   "magnitude": null,
-   "source_id": "165fcd33-6a81-4156-9630-51694a84cfcc",
-   "target_id": "e862c82e-6bd4-4ede-83a6-7c58db6693b0",
-   "type_label": "Manufactures / Produces",
    "corridor_id": 4,
    "description": ""
   },

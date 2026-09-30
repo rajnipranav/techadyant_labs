@@ -1198,14 +1198,14 @@
 /research/entities/rafael-spike-firefly/ /research/players/rafael-spike-firefly/ 301
 /research/entities/ramco-systems /research/players/ramco-systems/ 301
 /research/entities/ramco-systems/ /research/players/ramco-systems/ 301
-/research/entities/raphe-mphibr /research/players/raphe-mphibr/ 301
-/research/entities/raphe-mphibr/ /research/players/raphe-mphibr/ 301
-/research/entities/raphe-mphibr-logistics /research/players/raphe-mphibr-logistics/ 301
-/research/entities/raphe-mphibr-logistics/ /research/players/raphe-mphibr-logistics/ 301
+/research/entities/raphe-mphibr /research/players/raphe-mphibr-private-limited/ 301
+/research/entities/raphe-mphibr/ /research/players/raphe-mphibr-private-limited/ 301
+/research/entities/raphe-mphibr-logistics /research/players/raphe-mphibr-private-limited/ 301
+/research/entities/raphe-mphibr-logistics/ /research/players/raphe-mphibr-private-limited/ 301
 /research/entities/raphe-mphibr-private-limited /research/players/raphe-mphibr-private-limited/ 301
 /research/entities/raphe-mphibr-private-limited/ /research/players/raphe-mphibr-private-limited/ 301
-/research/entities/raphe-mphibr-pvt-ltd /research/players/raphe-mphibr-pvt-ltd/ 301
-/research/entities/raphe-mphibr-pvt-ltd/ /research/players/raphe-mphibr-pvt-ltd/ 301
+/research/entities/raphe-mphibr-pvt-ltd /research/players/raphe-mphibr-private-limited/ 301
+/research/entities/raphe-mphibr-pvt-ltd/ /research/players/raphe-mphibr-private-limited/ 301
 /research/entities/rare-earth-elements-magnet-nd-pr-dy-tb /research/players/rare-earth-elements-magnet-nd-pr-dy-tb/ 301
 /research/entities/rare-earth-elements-magnet-nd-pr-dy-tb/ /research/players/rare-earth-elements-magnet-nd-pr-dy-tb/ 301
 /research/entities/rare-earth-elements-neodymium-praseodymium /research/players/rare-earth-elements-neodymium-praseodymium/ 301
@@ -1622,10 +1622,18 @@
 /research/entities/zoho-corporation/ /research/players/zoho-corporation/ 301
 /research/entities/ideaforge-technology-limited /research/players/ideaforge-technology-limited/ 301
 /research/entities/ideaforge-technology-limited/ /research/players/ideaforge-technology-limited/ 301
-/research/entities/ideaforge-technology-ltd /research/players/ideaforge-technology-ltd/ 301
-/research/entities/ideaforge-technology-ltd/ /research/players/ideaforge-technology-ltd/ 301
+/research/entities/ideaforge-technology-ltd /research/players/ideaforge-technology-limited/ 301
+/research/entities/ideaforge-technology-ltd/ /research/players/ideaforge-technology-limited/ 301
 /research/entities/onsemi /research/players/onsemi/ 301
 /research/entities/onsemi/ /research/players/onsemi/ 301
+/research/players/ideaforge-technology-ltd /research/players/ideaforge-technology-limited/ 301
+/research/players/ideaforge-technology-ltd/ /research/players/ideaforge-technology-limited/ 301
+/research/players/raphe-mphibr-pvt-ltd /research/players/raphe-mphibr-private-limited/ 301
+/research/players/raphe-mphibr-pvt-ltd/ /research/players/raphe-mphibr-private-limited/ 301
+/research/players/raphe-mphibr /research/players/raphe-mphibr-private-limited/ 301
+/research/players/raphe-mphibr/ /research/players/raphe-mphibr-private-limited/ 301
+/research/players/raphe-mphibr-logistics /research/players/raphe-mphibr-private-limited/ 301
+/research/players/raphe-mphibr-logistics/ /research/players/raphe-mphibr-private-limited/ 301
 
 # ---- Dynamic redirects (splats / placeholders) — MUST come last ----
 /reports/the-sap-question-flagship/* /reports/the-sap-question/ 301
