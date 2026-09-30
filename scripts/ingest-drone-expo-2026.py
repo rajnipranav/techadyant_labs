@@ -902,7 +902,8 @@ def sql():
         for al, typ in aliases:
             if al.lower() in seen or al == a['name']: continue
             seen.add(al.lower())
-            L.append(f"insert into sid.entity_aliases (alias_id, entity_id, alias, alias_norm, alias_type) values ({q(uid('alias:'+a['key']+':'+al))}, {q(eid)}, {q(al)}, {q(re.sub(r'[^a-z0-9]+', ' ', al.lower()).strip())}, {q(typ)}) on conflict (alias_id) do nothing;")
+            # alias_norm is a generated column in SID — never insert it.
+            L.append(f"insert into sid.entity_aliases (alias_id, entity_id, alias, alias_type) values ({q(uid('alias:'+a['key']+':'+al))}, {q(eid)}, {q(al)}, {q(typ)}) on conflict (alias_id) do nothing;")
     L.append('\n-- T-Motor: preserve ID, append Drone Expo evidence (guarded)')
     L.append(f"update sid.entities set description = description || {q(TMOTOR_UPDATE['append'])}, updated_at = now() where entity_id = {q(TMOTOR_UPDATE['existing_id'])} and position('Drone Expo' in coalesce(description,'')) = 0;")
     L.append('\n-- events (developments that establish relationships)')
