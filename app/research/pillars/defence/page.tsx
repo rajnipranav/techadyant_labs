@@ -8,8 +8,10 @@ import {
   entities, programmes, dependencies, opportunities,
   isIndustry, isTech, entitySlug, humanize,
 } from './data';
+import highAltitude from './_high_altitude.json';
 
 const BASE = '/research/pillars/defence';
+const haMeta = { entities: highAltitude.entities.length, suppliers: highAltitude.suppliers.length };
 
 const totalSystems = entities.filter((e) => ['platform', 'system', 'weapon', 'component', 'programme'].includes(e.type)).length;
 
@@ -176,6 +178,15 @@ export default function DefenceLanding() {
                 </li>
               ))}
             </ul>
+          </div>
+
+          {/* High-altitude thematic Atlas */}
+          <div style={card}>
+            <div style={{ ...kick, marginBottom: 10 }}>High-altitude defence · thematic Atlas</div>
+            <p style={{ fontSize: 12.5, color: 'var(--text-dim)', margin: '0 0 10px', lineHeight: 1.55 }}>
+              {haMeta.entities} evidence-graded entities across energy, drones, shelter, soldier support, sustainment and testing at altitude, with {haMeta.suppliers} suppliers. DRDO research needs are kept distinct from fielded capability.
+            </p>
+            <Link href={`${BASE}/high-altitude/`} style={{ fontSize: 12.5, color: 'var(--text)', textDecoration: 'none', border: '1px solid var(--border, rgba(255,255,255,.14))', borderRadius: 7, padding: '4px 9px' }}>Open the High-Altitude Defence Atlas →</Link>
           </div>
 
           {/* Maritime unmanned */}

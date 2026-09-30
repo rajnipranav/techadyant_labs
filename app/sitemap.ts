@@ -204,6 +204,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/research/pillars/defence/army/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
     { url: `${SITE}/research/pillars/defence/navy-coast-guard/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
     { url: `${SITE}/research/pillars/defence/air-force/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${SITE}/research/pillars/defence/high-altitude/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.75 },
     ...defenceEntities.map((e) => ({ url: `${SITE}/research/pillars/defence/entity/${defenceEntitySlug(e.id)}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.55 })),
     // Dossier-only defence entities with no _defence.json counterpart (maritime unmanned).
     ...['matangi-usv', 'sagar-defence-engineering'].map((slug) => ({ url: `${SITE}/research/pillars/defence/entity/${slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 })),
