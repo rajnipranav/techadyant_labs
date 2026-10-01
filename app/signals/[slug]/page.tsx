@@ -27,7 +27,21 @@ export async function generateMetadata(
   const { slug } = await params;
   const s: any = await getSignalBySlug(slug) || staticGetSignal(slug);
   if (!s) return {};
-  return { title: s.title, description: s.excerpt };
+  const base = String(s.title || '').trim();
+  // Keep the headline as the <title> for long-tail match; append the brand only
+  // when short enough to survive SERP truncation. Add canonical + OG/Twitter so
+  // shares render and the signal has a single indexable URL.
+  const title = base.length <= 52 ? `${base} | Techadyant Labs` : base;
+  const description = (s.excerpt && String(s.excerpt).trim())
+    || `${base} — an India industrial-systems signal from Techadyant Labs: what changed, why it matters, and what to watch.`;
+  const url = `https://labs.techadyant.com/signals/${slug}/`;
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: { title, description, url, type: 'article', siteName: 'Techadyant Labs', images: [{ url: '/og/default.png', width: 1200, height: 630, alt: base }] },
+    twitter: { card: 'summary_large_image', title, description, images: ['/og/default.png'] },
+  };
 }
 
 export default async function SignalPage({ params }: { params: Promise<{ slug: string }> }) {

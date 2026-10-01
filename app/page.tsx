@@ -120,14 +120,15 @@ export default function HomePage() {
           </div>
 
           <h1>
-            Mapping the <span className="grad">hidden systems</span> shaping India’s next industrial decade.
+            Clear research on how India <span className="grad">builds its industries</span>.
           </h1>
 
           <p className="lede">
-            Independent, long-form research on industrial infrastructure, semiconductors and
-            AI infrastructure — plus living intelligence surfaces: national corridor maps,
-            import-dependency atlases and a monthly strategic brief. Built for people who
-            need to understand systems, not headlines.
+            Techadyant Labs publishes independent research reports and interactive maps on
+            India’s industrial economy — semiconductors, drones and defence, AI infrastructure
+            and the national industrial corridors. We show who makes what, where supply chains
+            still depend on imports, and where the real opportunities are. Written to be
+            understood, not to sound clever.
           </p>
 
           <div className="ed-hero-actions">

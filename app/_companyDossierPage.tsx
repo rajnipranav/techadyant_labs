@@ -8,6 +8,27 @@ import "../react-dossier/dossier.css";
 
 const SITE = "https://labs.techadyant.com";
 
+// SEO: turn a vertical slug (e.g. "military-aerospace") into a searchable,
+// human-readable category so entity titles read as real results, not auto-slugs.
+const VERTICAL_LABELS: Record<string, string> = {
+  "military-aerospace": "India Military Aerospace Ecosystem",
+  "drones-uas": "India Drone & UAS Ecosystem",
+  "counter-uas": "India Counter-UAS Ecosystem",
+  space: "India Space Ecosystem",
+  semiconductors: "India Semiconductor Ecosystem",
+  defence: "India Defence Ecosystem",
+};
+function prettyVertical(vertical: string): string {
+  return (
+    VERTICAL_LABELS[vertical] ||
+    "India " +
+      vertical
+        .replace(/-/g, " ")
+        .replace(/\b\w/g, (m) => m.toUpperCase()) +
+      " Ecosystem"
+  );
+}
+
 function buildBreadcrumb(vertical: string, name: string, hubPath: string) {
   const hubLabel =
     hubPath.split("/").filter(Boolean).slice(-1)[0]?.replace(/-/g, " ") ||
@@ -41,7 +62,7 @@ export function companyDossierMetadata(
     const canonical = `${SITE}${entry.path}`;
 
     return {
-      title: `${dossier.name} — ${dossier.vertical}`,
+      title: `${dossier.name} — ${prettyVertical(dossier.vertical)} | Techadyant Labs`,
       description,
       alternates: { canonical },
       robots: robotsForTier(dossier.tier),
@@ -67,7 +88,7 @@ export function companyDossierMetadata(
   const thin = getThinRecordBySlug(slug);
   if (thin) {
     return {
-      title: `${thin.name} — ${thin.vertical}`,
+      title: `${thin.name} — ${prettyVertical(thin.vertical)} | Techadyant Labs`,
       description: thin.summary,
       alternates: { canonical: `${SITE}${thin.path}` },
       robots: { index: false, follow: true },

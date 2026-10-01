@@ -51,8 +51,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const c = companyBySlug(slug);
   if (!c) return { title: 'Company - Military Aerospace Atlas' };
   return {
-    title: `${c.name} - India Military Transport Aircraft Manufacturing`,
-    description: `${c.name}: ${[c.type, c.country, c.headquarters].filter(Boolean).join(', ')}. ${c.capability || 'Profile in India\'s military transport aircraft manufacturing ecosystem.'}`.slice(0, 250),
+    title: `${c.name} — India Military Aerospace Ecosystem | Techadyant Labs`,
+    description: `${c.name}: ${[c.type, c.country, c.headquarters].filter(Boolean).join(', ')}. ${c.capability || 'Profile in India\'s military aerospace manufacturing ecosystem — role, programmes and dependencies.'}`.slice(0, 250),
     alternates: { canonical: `https://labs.techadyant.com/research/military-aerospace/company/${c.slug}/` },
   };
 }
