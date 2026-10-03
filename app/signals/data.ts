@@ -4747,7 +4747,7 @@ export const signals: SignalMeta[] = [{
   dateLabel: '30 Sep 2026',
   status: 'live',
   excerpt: 'As the eighth Drone Expo ran at Yashobhoomi, New Delhi (28-30 September 2026), showcasing Indian UAV makers and component suppliers, customs at Delhi airport announced the seizure of 10 professional-grade drones worth Rs 1.03 crore, fitted with thermal imaging and laser range finders and flown in from Hong Kong via Vietnam. The juxtaposition is the signal: India can assemble airframes at scale, but demand for high-end sensor payloads is still being met through grey imports.',
-  readingTime: '4 min',
+  readingTime: '5 min',
   body: [{
   text: 'The development',
   type: 'h'
@@ -4770,14 +4770,23 @@ export const signals: SignalMeta[] = [{
   text: 'Drone sovereignty has several layers: airframe, propulsion, batteries, flight controller and firmware, datalinks, and payloads. Expos showcase the layers India is winning. The payload layer - uncooled thermal detectors, laser rangefinding and precision gimbals - remains thin and import-reliant, and the detector cores inside many domestic payloads are themselves imported. A single seizure is not a trend, and the make of these units was not disclosed; the useful question is whether Indian payload suppliers can meet professional-grade demand at price, or whether grey channels keep filling the gap.',
   type: 'p'
 }, {
+  text: 'Update: what the expo floor itself showed',
+  type: 'h'
+}, {
+  text: 'Coverage of the expo carried one payload-layer item. Vietnam\'s Gremsy and its authorised Indian distributor UAVGarage presented Gremsy\'s VIO payload (4K zoom optics, thermal sensor and a 2,400 m laser rangefinder) and the roughly 200 g LYNX dual-sensor payload. UAVGarage said it would run a domestic logistics network to cut import lead times and give Indian OEMs and operators easier access to imported payloads and gimbals. This is a distributor pitch, not an order, and it does not prove volumes, but it shows the payload layer on the expo floor is being supplied through authorised imports as well as grey ones.',
+  type: 'p'
+}, {
+  text: 'The counter-example is domestic. Reports from April-May 2026 describe EON Space Labs launching Lumira, a germanium-free thermal imaging payload for drones (40x optical zoom, edge-AI detection, MIL-STD-810H), designed around India\'s dependence on imported germanium. It is a spring launch, not an expo announcement, and customers and volumes were not disclosed, so it marks a direction rather than closed supply.',
+  type: 'p'
+}, {
   text: 'What to watch',
   type: 'h'
 }, {
   type: 'list',
   items: ['Findings of the customs investigation, including the drones\' make, intended buyers and whether this is part of a wider channel.', 'Domestic production of thermal detector cores and laser range finders, not just payload integration.', 'Whether drone PLI and procurement rules begin to weight indigenous payload content, not only airframe assembly.', 'Enforcement and registration of professional-grade UAVs already inside the country.']
 }],
-  takeaways: ['The eighth Drone Expo ran at Yashobhoomi, New Delhi, on 28-30 September 2026, showcasing Indian UAV makers and component suppliers, with no major orders reported.', 'Delhi Customs seized 10 professional-grade drones worth Rs 1.03 crore, with thermal imaging and laser range finders, from passengers arriving from Hong Kong via Vietnam.', 'The seizure points at the sensor-payload layer - thermal cameras, rangefinders, gimbals - as the part of the drone stack India still sources from abroad.', 'Airframe assembly is scaling; payload and detector-core localisation is the harder dependency to close.'],
-  sources: ['India Strategic (Sep 2026): https://www.indiastrategic.in/drone-expo-2026-new-delhi-hosts-a-major-showcase-of-indias-expanding-uav-ecosystem', 'ThePrint (29 Sep 2026): https://theprint.in/india/10-military-grade-drones-seized-from-three-indian-passengers-at-delhi-airport/3056688/', 'The Tribune (29 Sep 2026): https://www.tribuneindia.com/news/delhi/10-professional-grade-drones-worth-over-rs-1-crore-seized-at-delhi-airport-3-held/', 'The Week (29 Sep 2026): https://www.theweek.in/news/defence/2026/09/29/10-military-grade-drones-worth-over-indian-rupee1-crore-seized-at-delhi-airport.html']
+  takeaways: ['The eighth Drone Expo ran at Yashobhoomi, New Delhi, on 28-30 September 2026, showcasing Indian UAV makers and component suppliers, with no major orders reported.', 'Delhi Customs seized 10 professional-grade drones worth Rs 1.03 crore, with thermal imaging and laser range finders, from passengers arriving from Hong Kong via Vietnam.', 'The seizure points at the sensor-payload layer - thermal cameras, rangefinders, gimbals - as the part of the drone stack India still sources from abroad.', 'Airframe assembly is scaling; payload and detector-core localisation is the harder dependency to close.', 'Expo coverage also showed imported payloads reaching Indian OEMs through an authorised distributor (Gremsy via UAVGarage), while a germanium-free domestic thermal payload (EON Space Labs, launched spring 2026) shows the localisation direction without proven volumes.'],
+  sources: ['India Strategic (Sep 2026): https://www.indiastrategic.in/drone-expo-2026-new-delhi-hosts-a-major-showcase-of-indias-expanding-uav-ecosystem', 'ThePrint (29 Sep 2026): https://theprint.in/india/10-military-grade-drones-seized-from-three-indian-passengers-at-delhi-airport/3056688/', 'The Tribune (29 Sep 2026): https://www.tribuneindia.com/news/delhi/10-professional-grade-drones-worth-over-rs-1-crore-seized-at-delhi-airport-3-held/', 'The Week (29 Sep 2026): https://www.theweek.in/news/defence/2026/09/29/10-military-grade-drones-worth-over-indian-rupee1-crore-seized-at-delhi-airport.html', 'Unmanned Systems Technology (Sep 2026): https://www.unmannedsystemstechnology.com/2026/09/gremsy-uavgarage-partner-to-present-aerial-payload-systems-at-drone-expo-2026/', 'Business Today (2 May 2026): https://www.businesstoday.in/amp/india/story/big-breakthrough-india-cuts-china-supply-barrier-with-new-germanium-free-drone-imaging-tech-528576-2026-05-02']
 }, {
   slug: 'indian-defence-uav-makers-cross-from-prototype-to-delivery',
   no: 'S-132',

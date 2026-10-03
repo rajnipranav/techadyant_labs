@@ -2097,14 +2097,14 @@ export const reports: ReportMeta[] = [{
   q: 'Does India manufacture its own GPUs?'
 }],
   sources: [],
-  dateModified: '2026-07-02',
+  dateModified: '2026-10-01',
   seo: {
   entities: ['IndiaAI Mission', 'India Semiconductor Mission', 'data centres', 'GPUs', 'NVIDIA', 'hyperscalers', 'Dholera', 'Bengaluru'],
   aiSummary: 'A baseline architecture for India\'s 2026–2035 AI industrial transition: data-centre capacity growing from ~1.5 GW towards 9 GW, the IndiaAI Mission\'s 34,000+ subsidised GPUs, the GPU import-dependency stack, grid stress rising from ~13 TWh to ~57 TWh, water and cooling constraints, and seven regional AI opportunity corridors across Karnataka, Telangana, Tamil Nadu, Maharashtra, Gujarat, UP/NCR and Andhra Pradesh. Free to read in full.',
-  metaTitle: 'India AI Industrial Transition 2026–2035: Where to Deploy AI First',
+  metaTitle: 'India AI Infrastructure 2026–2035: Data Centres, GPUs & Industrial AI',
   schemaType: 'Report',
   focusKeyword: 'India AI infrastructure',
-  metaDescription: 'Where, how and in what sequence Indian manufacturers will deploy industrial AI — priced against the loss base, not the vendor slide. Free executive summary.'
+  metaDescription: 'How India will build AI infrastructure through 2035 — data-centre capacity, GPU supply, power demand, and where manufacturers should deploy industrial AI first. Free executive summary.'
 }
 }, {
   slug: 'india-fab-ecosystem',
