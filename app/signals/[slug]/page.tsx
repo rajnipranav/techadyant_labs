@@ -28,11 +28,15 @@ export async function generateMetadata(
   const s: any = await getSignalBySlug(slug) || staticGetSignal(slug);
   if (!s) return {};
   const base = String(s.title || '').trim();
-  // Keep the headline as the <title> for long-tail match; append the brand only
-  // when short enough to survive SERP truncation. Add canonical + OG/Twitter so
-  // shares render and the signal has a single indexable URL.
-  const title = base.length <= 52 ? `${base} | Techadyant Labs` : base;
-  const description = (s.excerpt && String(s.excerpt).trim())
+  const seo = (s.seo || {}) as Record<string, string>;
+  const snippet = slug === 'indiaai-mission-gpu-compute-expansion' ? {
+    title: 'IndiaAI Mission GPU Expansion: August 2026 Compute Update',
+    description: 'Read the August 2026 IndiaAI compute update: GPU pool expansion, subsidised access, service providers and what it means for India’s AI infrastructure.',
+  } : undefined;
+  // The root layout appends the brand once. Respect CMS search overrides and
+  // date-specific snippets without changing the published headline.
+  const title = seo.metaTitle || snippet?.title || base;
+  const description = seo.metaDescription || snippet?.description || (s.excerpt && String(s.excerpt).trim())
     || `${base} — an India industrial-systems signal from Techadyant Labs: what changed, why it matters, and what to watch.`;
   const url = `https://labs.techadyant.com/signals/${slug}/`;
   return {

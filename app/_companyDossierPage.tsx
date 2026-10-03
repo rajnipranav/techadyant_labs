@@ -7,6 +7,25 @@ import Link from "next/link";
 import "../react-dossier/dossier.css";
 
 const SITE = "https://labs.techadyant.com";
+// Query-led descriptions based on existing dossier content; keep canonical and tier rules.
+const SEARCH_SNIPPETS: Record<string, { title: string; description: string }> = {
+  "matangi-usv": {
+    title: "Matangi Ship: Sagar Defence's Autonomous Surface Vessel",
+    description: "What is the Matangi ship? Explore Sagar Defence's autonomous vessel, its Mumbai–Thoothukudi demonstration, capabilities and trial status.",
+  },
+  "ada": {
+    title: "ADA: Aeronautical Development Agency, Tejas & AMCA",
+    description: "Explore Aeronautical Development Agency (ADA): its role in Tejas and AMCA aircraft design, HAL production links and India’s aerospace ecosystem.",
+  },
+  "gtre": {
+    title: "GTRE: Full Form, DRDO Role & Kaveri Aero-Engine Programme",
+    description: "Gas Turbine Research Establishment (GTRE): explore DRDO’s aero-engine laboratory, the Kaveri programme, capabilities and India’s engine dependencies.",
+  },
+  "cemilac": {
+    title: "CEMILAC: Full Form, DRDO Role & Military Certification",
+    description: "CEMILAC is the Centre for Military Airworthiness and Certification. Explore its DRDO role in certifying military aircraft, UAVs and aero-engines.",
+  },
+};
 
 // SEO: turn a vertical slug (e.g. "military-aerospace") into a searchable,
 // human-readable category so entity titles read as real results, not auto-slugs.
@@ -55,14 +74,16 @@ export function companyDossierMetadata(
     const { dossier } = entry;
     const prose = dossier.what_it_is?.prose;
     const keyRole = dossier.at_a_glance?.["Key India role"];
+    const snippet = SEARCH_SNIPPETS[slug];
     const description =
+      snippet?.description ||
       prose?.slice(0, 160) ||
       keyRole?.slice(0, 160) ||
       `${dossier.name} — ${dossier.vertical} in India's strategic ecosystem.`;
     const canonical = `${SITE}${entry.path}`;
 
     return {
-      title: `${dossier.name} — ${prettyVertical(dossier.vertical)} | Techadyant Labs`,
+      title: snippet?.title || `${dossier.name} — ${prettyVertical(dossier.vertical)}`,
       description,
       alternates: { canonical },
       robots: robotsForTier(dossier.tier),
@@ -88,7 +109,7 @@ export function companyDossierMetadata(
   const thin = getThinRecordBySlug(slug);
   if (thin) {
     return {
-      title: `${thin.name} — ${prettyVertical(thin.vertical)} | Techadyant Labs`,
+      title: `${thin.name} — ${prettyVertical(thin.vertical)}`,
       description: thin.summary,
       alternates: { canonical: `${SITE}${thin.path}` },
       robots: { index: false, follow: true },

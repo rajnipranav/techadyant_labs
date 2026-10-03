@@ -4,14 +4,14 @@ import { AtlasNav } from '../../AtlasNav';
 import { JsonLd, breadcrumb, SITE, ORG_REF } from '../../seo';
 
 export const metadata: Metadata = {
-  title: 'OSCOM Odisha Explained: IREL’s Rare Earth Complex & Dependency',
+  title: 'OSCOM Odisha: Full Form, Location & IREL Plant Products',
   description:
-    'What is OSCOM Odisha? IREL’s Odisha Sands Complex — mineral sands processing, monazite refining and why China still dominates rare earth separation. Mapped.',
+    'OSCOM is IREL’s Orissa Sands Complex at Chhatrapur, Odisha. Learn its full form, location, mineral products and role in rare-earth extraction.',
   alternates: { canonical: `${SITE}/research/explainers/oscom-odisha/` },
   openGraph: {
-    title: 'OSCOM Odisha Explained: IREL’s Rare Earth Complex & Dependency',
+    title: 'OSCOM Odisha: Full Form, Location & IREL Plant Products',
     description:
-      'What is OSCOM Odisha? IREL’s Odisha Sands Complex — mineral sands processing, monazite refining and why China still dominates rare earth separation. Mapped.',
+      'OSCOM is IREL’s Orissa Sands Complex at Chhatrapur, Odisha. Learn its full form, location, mineral products and role in rare-earth extraction.',
     url: `${SITE}/research/explainers/oscom-odisha/`,
     type: 'article',
     siteName: 'Techadyant Labs',
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'OSCOM Odisha Explained: IREL’s Rare Earth Complex & Dependency',
+    title: 'OSCOM Odisha: Full Form, Location & IREL Plant Products',
     description:
-      'What is OSCOM Odisha? IREL’s Odisha Sands Complex — mineral sands processing, monazite refining and why China still dominates rare earth separation. Mapped.',
+      'OSCOM is IREL’s Orissa Sands Complex at Chhatrapur, Odisha. Learn its full form, location, mineral products and role in rare-earth extraction.',
     images: ['/og/default.png'],
   },
 };
@@ -29,11 +29,11 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     q: 'What is OSCOM Odisha?',
-    a: 'OSCOM stands for Odisha Sands Complex, the flagship industrial plant of IREL (India) Limited located at Chhatrapur in Ganjam district, Odisha. It processes coastal beach sand minerals including ilmenite, rutile, zircon, monazite, sillimanite, and garnet.',
+    a: 'IREL officially expands OSCOM as Orissa Sands Complex. The unit is at Chhatrapur in Ganjam district, Odisha, and processes beach-sand minerals.',
   },
   {
     q: 'What does OSCOM produce?',
-    a: 'OSCOM produces mineral sand concentrates (ilmenite, rutile, zircon, garnet, sillimanite), synthetic rutile (for titanium dioxide and titanium sponge production), and processes monazite to extract strategic rare earth compounds, thorium, and uranium.',
+    a: 'IREL lists ilmenite, rutile, zircon, sillimanite and garnet as OSCOM mineral products. Its Rare Earth Extraction Plant produces mixed rare-earth chloride and associated products, including trisodium phosphate.',
   },
   {
     q: 'Why is monazite processing at OSCOM strategic for India?',
@@ -66,9 +66,9 @@ export default function OscomOdishaPage() {
   const articleLd = {
     '@context': 'https://schema.org',
     '@type': 'TechArticle',
-    name: 'OSCOM Odisha Explained: IREL’s Rare Earth Complex & Dependency',
+    name: 'OSCOM Odisha: Full Form, Location & IREL Plant Products',
     description:
-      'What is OSCOM Odisha? IREL’s Odisha Sands Complex — mineral sands processing, monazite refining and why China still dominates rare earth separation. Mapped.',
+      'OSCOM is IREL’s Orissa Sands Complex at Chhatrapur, Odisha. Learn its full form, location, mineral products and role in rare-earth extraction.',
     url: `${SITE}/research/explainers/oscom-odisha/`,
     publisher: ORG_REF,
     about: [
@@ -94,11 +94,10 @@ export default function OscomOdishaPage() {
             <span>OSCOM Odisha Explainer</span>
           </div>
           <span className="corr-chip" style={{ color: '#2BC5B4' }}>Strategic Mineral Node</span>
-          <h1 style={{ marginTop: 12 }}>OSCOM Odisha: IREL’s Mineral Sands & Monazite Refining Hub</h1>
+          <h1 style={{ marginTop: 12 }}>OSCOM Odisha: Full Form, Location & Mineral Products</h1>
           <p className="lede">
-            The Odisha Sands Complex (OSCOM) at Chhatrapur, Ganjam is India’s flagship coastal mineral separation plant
-            and the strategic nerve center of IREL (India) Limited. Here is how OSCOM processes beach sands into
-            ilmenite, synthetic rutile, monazite, and rare earths.
+            OSCOM stands for Orissa Sands Complex, IREL’s mineral-sands unit at Chhatrapur in Ganjam district, Odisha.
+            This guide explains its location, mineral products and rare-earth extraction role.
           </p>
         </div>
       </header>
@@ -112,16 +111,16 @@ export default function OscomOdishaPage() {
               <div><strong style={{ display: 'block', color: 'var(--fg-dim)', fontSize: '0.85rem' }}>Operator</strong>IREL (India) Limited (DAE PSU)</div>
               <div><strong style={{ display: 'block', color: 'var(--fg-dim)', fontSize: '0.85rem' }}>Location</strong>Chhatrapur, Ganjam, Odisha</div>
               <div><strong style={{ display: 'block', color: 'var(--fg-dim)', fontSize: '0.85rem' }}>Primary Ores</strong>Beach Heavy Minerals (BHM)</div>
-              <div><strong style={{ display: 'block', color: 'var(--fg-dim)', fontSize: '0.85rem' }}>Strategic Outputs</strong>Monazite, Ilmenite, Synthetic Rutile, Rare Earths</div>
+              <div><strong style={{ display: 'block', color: 'var(--fg-dim)', fontSize: '0.85rem' }}>Strategic Outputs</strong>Ilmenite, Rutile, Zircon, Mixed Rare-Earth Chloride</div>
             </div>
           </div>
 
-          <h2 style={{ fontSize: '1.5rem', marginTop: 32 }}>1. What is OSCOM?</h2>
+          <h2 style={{ fontSize: '1.5rem', marginTop: 32 }}>1. What is the full form of OSCOM?</h2>
           <p>
-            OSCOM stands for the <strong>Odisha Sands Complex</strong>, a unit of <strong>IREL (India) Limited</strong> (formerly Indian Rare Earths Limited), a Central Public Sector Undertaking under the Department of Atomic Energy (DAE).
+            IREL’s official name is <strong>Orissa Sands Complex (OSCOM)</strong>, a unit of <strong>IREL (India) Limited</strong> (formerly Indian Rare Earths Limited), a Central Public Sector Undertaking under the Department of Atomic Energy (DAE).
           </p>
           <p>
-            Located near Chhatrapur along the Bay of Bengal coastline in southern Odisha, OSCOM is designed to extract, separate, and refine heavy minerals present in coastal sand deposits. The Ganjam beach sand deposit is one of the richest heavy mineral reserves in India.
+            Located near Chhatrapur along the Bay of Bengal coastline in southern Odisha, OSCOM is designed to extract, separate, and refine heavy minerals present in coastal sand deposits. IREL lists mining and mineral separation among the unit’s activities.
           </p>
 
           <h2 style={{ fontSize: '1.5rem', marginTop: 32 }}>2. The Mineral Separation Process & Output Portfolio</h2>
@@ -129,7 +128,7 @@ export default function OscomOdishaPage() {
             The raw beach sand dredged from coastal deposits undergoes physical separation utilizing magnetic, electrostatic, and gravity methods to produce individual mineral fractions:
           </p>
           <ul style={{ lineHeight: 1.7 }}>
-            <li><strong>Ilmenite (FeTiO3):</strong> The primary raw material for titanium dioxide (TiO2) pigment and synthetic rutile production. OSCOM produces hundreds of thousands of tonnes of ilmenite annually.</li>
+            <li><strong>Ilmenite (FeTiO3):</strong> The primary raw material for titanium dioxide (TiO2) pigment and synthetic rutile production. Ilmenite is one of OSCOM’s listed mineral products.</li>
             <li><strong>Rutile (TiO2):</strong> High-grade natural rutile used in welding electrodes, titanium metal production, and high-performance alloys.</li>
             <li><strong>Monazite:</strong> A phosphate mineral rich in Rare Earth Elements (REEs), thorium, and small amounts of uranium. Monazite is legally restricted under India’s Atomic Energy Act.</li>
             <li><strong>Zircon (ZrSiO4):</strong> Essential for ceramics, foundry sand, refractory materials, and nuclear-grade zirconium metal.</li>
@@ -141,7 +140,9 @@ export default function OscomOdishaPage() {
             Monazite is India’s main indigenous source of light rare earth elements (including Neodymium, Praseodymium, Lanthanum, and Cerium). Because of its radioactive thorium content, private entities are prohibited from processing monazite.
           </p>
           <p>
-            At OSCOM’s specialized Monazite Processing Plant (MoPP), monazite is chemically cracked to produce rare earth chloride, which is then further refined into individual high-purity rare earth oxide and metal compounds. This makes OSCOM indispensable for India’s permanent magnet industry, EV motors, wind power generators, and defense electronics.
+            IREL’s Rare Earth Extraction Plant (REEP) at OSCOM produces mixed rare-earth chloride and associated products.
+            Mixed concentrate is an intermediate supply-chain product; it should not be treated as evidence that OSCOM
+            manufactures finished permanent magnets or individual high-purity rare-earth metals.
           </p>
 
           <h2 style={{ fontSize: '1.5rem', marginTop: 32 }}>4. Related Atlas Research & Reports</h2>
@@ -162,6 +163,14 @@ export default function OscomOdishaPage() {
               <p style={{ margin: '4px 0 0 0', fontSize: '0.9rem', color: 'var(--fg-dim)' }}>National roadmap for securing 30 critical minerals, refining infrastructure, and recycling.</p>
             </Link>
           </div>
+
+          <h2 style={{ fontSize: '1.5rem', marginTop: 32 }}>Official sources</h2>
+          <p>
+            <a href="https://www.irel.co.in/oscom" target="_blank" rel="noopener noreferrer">IREL’s OSCOM unit profile</a>
+            {' '}documents the location and mineral products. The{' '}
+            <a href="https://www.irel.co.in/en-GB/oscom-rare-earth-extraction-plant" target="_blank" rel="noopener noreferrer">IREL Rare Earth Extraction Plant profile</a>
+            {' '}describes the mixed rare-earth chloride output. [V1]
+          </p>
 
           <h2 style={{ fontSize: '1.5rem', marginTop: 40 }}>Frequently Asked Questions</h2>
           <div style={{ display: 'grid', gap: 16, marginTop: 16 }}>

@@ -16,6 +16,10 @@ export function generateStaticParams() {
   return corridors.map((c) => ({ slug: c.slug }));
 }
 const CORRIDOR_SEO: Record<string, { title: string; description: string }> = {
+  'bengaluru-mumbai': {
+    title: 'Bengaluru–Mumbai Industrial Corridor (BMIC): Map & Nodes',
+    description: 'Explore the Bengaluru–Mumbai Industrial Corridor: node map, Karnataka and Maharashtra manufacturing locations, infrastructure status and sector opportunities.',
+  },
   'amritsar-kolkata': {
     title: 'Amritsar–Kolkata Industrial Corridor: Node Map & Investment Zones',
     description: 'Complete guide to the Amritsar–Kolkata Industrial Corridor: 7 states, anchor IMCs and sector-specific manufacturing opportunities for investors.',

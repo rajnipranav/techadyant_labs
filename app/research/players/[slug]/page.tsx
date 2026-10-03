@@ -18,6 +18,10 @@ export function generateStaticParams() {
 const clampDesc = (s: string, n = 158): string => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
 
 const PLAYER_SEO: Record<string, { title: string; description: string }> = {
+  'irel-odisha-sand-complex-oscom-chhatrapur': {
+    title: 'IREL OSCOM Odisha: Chhatrapur Plant & Mineral Products',
+    description: 'Explore IREL’s Odisha Sands Complex at Chhatrapur: mineral products, processing capabilities and links across India’s rare-earth supply chain.',
+  },
   'irel-india-limited': {
     title: 'IREL India Limited: Rare Earth Mining, Processing & Strategy',
     description: 'Indian Rare Earths Limited (IREL): beach sand mining, monazite processing and rare earth separation — capacity, import dependencies and technology gaps.',
@@ -111,6 +115,9 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
             <span className={`ply-flag ${p.country === 'IN' ? 'dom' : 'frn'}`}>{p.country}</span>
           </div>
           {p.description && <p className="lede" style={{ marginTop: 14 }}>{p.description}</p>}
+          {playerSlug(p.id) === 'irel-odisha-sand-complex-oscom-chhatrapur' && (
+            <p><Link href="/research/explainers/oscom-odisha/">What is OSCOM? Read its full form, location and mineral products.</Link></p>
+          )}
           <div className="player-corr">
             {corridors.map((code) => {
               const m = meta(code);

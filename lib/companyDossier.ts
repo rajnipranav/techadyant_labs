@@ -15,9 +15,32 @@ export function loadCompanyDossier(
     ? entries.find((entry) => entry.vertical === vertical) ?? null
     : entries[0] ?? null;
   if (!entry) return null;
+  // Older military-company manifests used /military-aerospace/<slug>/,
+  // but the public route is /military-aerospace/company/<slug>/.
+  // Resolve metadata and structured data together without editing generated maps.
+  const legacyMilitaryCompany = entry.vertical === "military-aerospace"
+    && !entry.isPointer
+    && ["company", "manufacturer"].includes(entry.dossier.entity_type)
+    && /^\/research\/military-aerospace\/[^/]+\/$/.test(entry.path);
+  const canonicalPath = legacyMilitaryCompany
+    ? `/research/military-aerospace/company/${slug}/`
+    : entry.path;
+  const dossier = normaliseDossier(entry.dossier);
+  if (legacyMilitaryCompany) {
+    dossier.seo = { ...dossier.seo, canonical_path: canonicalPath };
+    dossier.header = { ...dossier.header, entity_path: canonicalPath };
+    if (dossier.parent_hub_path === entry.path) {
+      dossier.parent_hub_path = "/research/military-aerospace/";
+    }
+    dossier.cta = {
+      ...dossier.cta,
+      track_ecosystem: "/research/military-aerospace/",
+    };
+  }
   return {
     ...entry,
-    dossier: normaliseDossier(entry.dossier),
+    path: canonicalPath,
+    dossier,
   };
 }
 

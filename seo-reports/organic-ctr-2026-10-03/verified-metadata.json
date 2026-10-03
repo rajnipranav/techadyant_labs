@@ -1,0 +1,50 @@
+[
+  {
+    "route": "/research/pillars/defence/entity/matangi-usv/",
+    "title": "Matangi Ship: Sagar Defence's Autonomous Surface Vessel — Techadyant Labs",
+    "description": "What is the Matangi ship? Explore Sagar Defence's autonomous vessel, its Mumbai–Thoothukudi demonstration, capabilities and trial status.",
+    "canonical": "https://labs.techadyant.com/research/pillars/defence/entity/matangi-usv/"
+  },
+  {
+    "route": "/research/military-aerospace/company/cemilac/",
+    "title": "CEMILAC: Full Form, DRDO Role & Military Certification — Techadyant Labs",
+    "description": "CEMILAC is the Centre for Military Airworthiness and Certification. Explore its DRDO role in certifying military aircraft, UAVs and aero-engines.",
+    "canonical": "https://labs.techadyant.com/research/military-aerospace/company/cemilac/"
+  },
+  {
+    "route": "/research/military-aerospace/company/ada/",
+    "title": "ADA: Aeronautical Development Agency, Tejas & AMCA — Techadyant Labs",
+    "description": "Explore Aeronautical Development Agency (ADA): its role in Tejas and AMCA aircraft design, HAL production links and India’s aerospace ecosystem.",
+    "canonical": "https://labs.techadyant.com/research/military-aerospace/company/ada/"
+  },
+  {
+    "route": "/research/military-aerospace/company/gtre/",
+    "title": "GTRE: Full Form, DRDO Role & Kaveri Aero-Engine Programme — Techadyant Labs",
+    "description": "Gas Turbine Research Establishment (GTRE): explore DRDO’s aero-engine laboratory, the Kaveri programme, capabilities and India’s engine dependencies.",
+    "canonical": "https://labs.techadyant.com/research/military-aerospace/company/gtre/"
+  },
+  {
+    "route": "/research/explainers/oscom-odisha/",
+    "title": "OSCOM Odisha: Full Form, Location & IREL Plant Products — Techadyant Labs",
+    "description": "OSCOM is IREL’s Orissa Sands Complex at Chhatrapur, Odisha. Learn its full form, location, mineral products and role in rare-earth extraction.",
+    "canonical": "https://labs.techadyant.com/research/explainers/oscom-odisha/"
+  },
+  {
+    "route": "/research/players/irel-odisha-sand-complex-oscom-chhatrapur/",
+    "title": "IREL OSCOM Odisha: Chhatrapur Plant & Mineral Products — Techadyant Labs",
+    "description": "Explore IREL’s Odisha Sands Complex at Chhatrapur: mineral products, processing capabilities and links across India’s rare-earth supply chain.",
+    "canonical": "https://labs.techadyant.com/research/players/irel-odisha-sand-complex-oscom-chhatrapur/"
+  },
+  {
+    "route": "/signals/indiaai-mission-gpu-compute-expansion/",
+    "title": "IndiaAI Mission GPU Expansion: August 2026 Compute Update — Techadyant Labs",
+    "description": "Read the August 2026 IndiaAI compute update: GPU pool expansion, subsidised access, service providers and what it means for India’s AI infrastructure.",
+    "canonical": "https://labs.techadyant.com/signals/indiaai-mission-gpu-compute-expansion/"
+  },
+  {
+    "route": "/corridors/bengaluru-mumbai/",
+    "title": "Bengaluru–Mumbai Industrial Corridor (BMIC): Map & Nodes — Techadyant Labs",
+    "description": "Explore the Bengaluru–Mumbai Industrial Corridor: node map, Karnataka and Maharashtra manufacturing locations, infrastructure status and sector opportunities.",
+    "canonical": "https://labs.techadyant.com/corridors/bengaluru-mumbai/"
+  }
+]

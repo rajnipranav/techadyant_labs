@@ -180,8 +180,7 @@ export function renderJsonLdScripts(dossier: EntityDossier): string[] {
   if (graph.organization) blocks.push(graph.organization);
   if (graph.faq) blocks.push(graph.faq);
 
-  return blocks.map(
-    (b) =>
-      `<script type="application/ld+json">${JSON.stringify(b)}</script>`
-  );
+  // Callers supply the script elements. Return JSON payloads only; nested
+  // <script> markup is not valid JSON-LD. Escape < for safe HTML embedding.
+  return blocks.map((b) => JSON.stringify(b).replace(/</g, "\\u003c"));
 }
