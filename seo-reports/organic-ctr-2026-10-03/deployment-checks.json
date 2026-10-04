@@ -1,0 +1,28 @@
+[
+  {
+    "endpoint": "/commits/ff7dcee/status",
+    "state": "pending",
+    "statuses": []
+  },
+  {
+    "endpoint": "/commits/ff7dcee/check-runs",
+    "checks": [
+      {
+        "name": "Cloudflare Pages",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://dash.cloudflare.com/?to=/02cf5d115596efc0fe95c1fd3aa7343a/pages/view/labs-techadyant/69e689f2-b207-4a41-992e-11e04cb1fe25"
+      },
+      {
+        "name": "indexnow",
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/rajnipranav/techadyant_labs/actions/runs/37090519605/job/111109679123"
+      }
+    ]
+  },
+  {
+    "endpoint": "/deployments?sha=ff7dcee&per_page=5",
+    "deployments": []
+  }
+]

@@ -4907,6 +4907,227 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Indian drone battery packs and BMS are increasingly designed and assembled in India.', 'No Drone Expo 2026 exhibitor showed verified Indian manufacturing of drone-grade cells.', 'Pack localisation is not the same as battery localisation - the cell is the strategic content.', 'Pack makers are the obvious anchor customers for a domestic drone-cell line.'],
   sources: ['https://www.ascendpowerpacks.com/', 'https://www.droneexpo.in/exhibitors-list', 'https://labs.techadyant.com/reports/who-builds-indias-drones/']
+}, {
+  slug: 'amca-prototype-partner-flight-test-infrastructure-2026',
+  no: 'S-135',
+  title: 'AMCA Enters Its Prototype Decision Window: India Sets a September 2028 First-Flight Target',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-02',
+  dateLabel: '2 Oct 2026',
+  status: 'live',
+  excerpt: 'India\'s AMCA programme has moved from propulsion partnerships and design ambition to an industrial deadline. Three private-sector formations are competing to build the first prototypes, final bids are due by 30 October, and the programme is targeting a September 2028 maiden flight, backed by a new flight-test centre in Andhra Pradesh.',
+  readingTime: '5 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'India has set a September 2028 target for the first flight of the Advanced Medium Combat Aircraft (AMCA), according to reporting on Defence Secretary Rajesh Kumar Singh\'s remarks at the NDTV Defence Summit 2026. The Aeronautical Development Agency (ADA) is in the final stage of selecting a private-sector manufacturing partner for the prototype phase. Three industry formations remain in the competition: Tata Advanced Systems bidding independently; a Larsen & Toubro-led consortium with Bharat Electronics and Dynamatic Technologies; and a Bharat Forge-led group including BEML and Data Patterns. Final commercial bids are due on 30 October 2026.',
+  type: 'p'
+}, {
+  text: 'The prototype contract is a manufacturing test',
+  type: 'h'
+}, {
+  text: 'The selected partner is expected to build five flying prototypes and one structural test airframe under ADA\'s design authority, and the first aircraft is reportedly required to reach its maiden flight within 30 months of contract signing. Initial prototypes are expected to use General Electric F414 engines, so the near-term industrial challenge is not an indigenous fighter engine. It is turning a complex stealth-aircraft design into repeatable tooling, qualified materials, subsystem integration and a flight-ready production system.',
+  type: 'p'
+}, {
+  type: 'list',
+  items: ['Design authority stays with ADA, so private capability has to be built around a state design office rather than replace it.', 'Three formations remain, so the selection will show which Indian group can carry high-end aerospace integration risk.', 'Five flying aircraft plus one structural airframe makes this a repeatable prototype line, not a one-off demonstrator.', 'A 30-month first-flight clock means materials, tooling, suppliers and certification must run in parallel.', 'F414 power for the first prototypes lets flight development begin before an indigenous engine is ready.']
+}, {
+  text: 'Puttaparthi adds the missing infrastructure layer',
+  type: 'h'
+}, {
+  text: 'The schedule is supported by a new ADA Aircraft Integration and Flight Testing Centre at Puttaparthi in Andhra Pradesh. Its foundation stone was laid earlier in 2026, and it is planned to include a runway extended to 10,000 feet, an air-traffic-control tower, meteorological systems and infrastructure for integration, power-up testing, validation and certification. It is intended to become the main hub for AMCA development flights once operational. Reporting also puts the test campaign at roughly 1,800 sorties over 84 months before series production, which makes instrumentation, telemetry, range safety, maintenance and data analysis part of the industrial base rather than an add-on.',
+  type: 'p'
+}, {
+  text: 'How this differs from earlier AMCA coverage',
+  type: 'h'
+}, {
+  text: 'S-098 treated the Reliance-Rolls-Royce propulsion partnership as AMCA\'s deepest chokepoint. This signal covers a later, distinct milestone: the competition for prototype manufacturing, the 30 October bid deadline, the September 2028 flight target and the test-centre build-out.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'Putting prototype manufacturing into a competitive private process could create a more distributed Indian aerospace base, provided the winner builds supplier depth rather than importing an integration package. The immediate milestone is bid selection, not flight. The larger question is whether AMCA becomes a repeatable model: public design authority, private execution, domestic test infrastructure and a credible path from prototype to series production. Note that the 2028 date is a target stated by officials, and earlier AMCA timelines have slipped.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The 30 October commercial bids and the prototype-manufacturing award.', 'Final workshare between ADA, the selected partner, HAL and suppliers.', 'Tooling and facility milestones, and material and subsystem qualification.', 'Operational readiness of the Puttaparthi centre.', 'F414 integration and delivery schedules, and a path to an indigenous engine for later variants.']
+}],
+  takeaways: ['India is targeting September 2028 for the first AMCA prototype flight.', 'Three private formations (Tata Advanced Systems, an L&T-led group and a Bharat Forge-led group) remain, with final bids due 30 October 2026.', 'The selected partner is expected to build five flying prototypes and one structural airframe under ADA design authority.', 'A new flight-test centre at Puttaparthi is planned with a 10,000-foot runway and integration and certification infrastructure.', 'The near-term risk is parallel execution across tooling, materials, suppliers and testing, not engine indigenisation, since the first prototypes use GE F414 engines.'],
+  sources: ['The Economic Times - ET Defence (1 Oct 2026): https://defence.economictimes.indiatimes.com/news/manufacturing/india-sets-september-2028-target-for-amca-first-flight-as-industry-race-narrows/134617102', 'Indian Masterminds (1 Oct 2026): https://indianmasterminds.com/news/defence/india-targets-september-2028-amca-project-first-flight-238330/']
+}, {
+  slug: 'indian-private-space-orbital-computing-thermal-intelligence-transporter-18-2026',
+  no: 'S-136',
+  title: 'Transporter-18 Carries Three Indian Private-Space Capabilities Up - and Shows Which Parts Are Still Imported',
+  domain: 'Strategic Technology',
+  date: '2026-10-03',
+  dateLabel: '3 Oct 2026',
+  status: 'live',
+  excerpt: 'Transporter-18 lifted off on 1 October (US time) with three Indian private-space payloads aboard: TakeMe2Space\'s orbital-computing satellite MOI-1A, SatLeo Labs\' thermal-imaging CubeSat TAPAS-1 and Dhruva Space\'s LEAP-2 hosted-payload mission. The mix shows Indian firms moving into compute, sensing and mission integration, while the chips, star tracker and launcher are still foreign.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'SpaceX\'s Transporter-18 rideshare mission launched on a Falcon 9 from Vandenberg Space Force Base on 1 October 2026 (US time; early 2 October in India) with about 130 payloads. Three Indian private-sector payloads were among them: TakeMe2Space\'s MOI-1A orbital-computing satellite, SatLeo Labs\' TAPAS-1 thermal-imaging CubeSat and Dhruva Space\'s LEAP-2 mission, a hosted-payload demonstration on its P-30 satellite platform.',
+  type: 'p'
+}, {
+  text: 'What each payload tests',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['MOI-1A (TakeMe2Space) is described as India\'s first orbital-computing satellite. It carries an Nvidia Jetson Orin NX processor rated at 117 TOPS, 2 TB of storage and a nine-band multispectral imager, and lets customers upload AI models to run on imagery in orbit. The company says 23 commercial, academic and government customers have booked compute allocations, across mapping, agriculture, land use and insurance.', 'TAPAS-1 (SatLeo Labs) is a roughly 3 kg long-wave infrared CubeSat that measures land-surface temperature for urban heat, crop stress, industrial monitoring and disaster response. SatLeo has outlined a follow-on constellation of 10-15 thermal satellites by 2029 and a TAPAS-2 mission in 2027.', 'LEAP-2 (Dhruva Space) is a hosted-payload demonstration. Its in-orbit test includes a HORUS star tracker from France\'s Sodern, so Dhruva is acting as a platform and mission integrator for other suppliers\' hardware.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India\'s private space story is moving beyond building a satellite toward what happens after deployment: processing data in orbit, selling thermal data, and hosting other firms\' payloads. MOI-1A\'s pitch is that selected inference jobs can run close to the sensor, so insights rather than every raw image come down to the ground. The 23 booked customers turn the mission into an early commercial test, not only a technical one.',
+  type: 'p'
+}, {
+  text: 'The dependency frame',
+  type: 'h'
+}, {
+  text: 'The imported layers are visible in the payload list itself. MOI-1A\'s compute is an Nvidia module, LEAP-2 is testing a French star tracker, and the whole mission rode on a SpaceX launcher after TakeMe2Space\'s earlier MOI-1 was lost in the January 2026 PSLV-C62 failure. The sovereignty gain is therefore in system design, mission integration, payload IP and the customer relationship, not yet in space-grade compute, attitude sensors or access to orbit. Also note that MOI-1A was reported to reach its final orbit via a D-Orbit transfer vehicle, with injection expected around 8 October, so commissioning and first inference results are still ahead.',
+  type: 'p'
+}, {
+  text: 'This differs from S-108, which examined military-space deals and imported subsystems; here the event is a completed commercial launch with a specific orbital-compute service.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Orbital injection and first contact for MOI-1A, then the first customer inference jobs.', 'Paying use of TAPAS-1 thermal data and progress on the PYRO constellation.', 'Whether LEAP-2 leads to repeat hosted-payload customers for Dhruva Space.', 'Any Indian-made alternative to imported compute modules and star trackers for small satellites.']
+}],
+  takeaways: ['Transporter-18 launched on 1 October 2026 (US time) with three Indian private-space payloads: MOI-1A, TAPAS-1 and LEAP-2.', 'MOI-1A is billed as India\'s first orbital-computing satellite, with an Nvidia Jetson Orin NX (117 TOPS), 2 TB storage and a nine-band imager, and 23 customers booked.', 'TAPAS-1 is a roughly 3 kg thermal-infrared CubeSat, and LEAP-2 is a hosted-payload demonstration that tests a French Sodern star tracker.', 'The launch and key components (compute module, star tracker) are foreign, so the gain is in integration and services rather than full space sovereignty.', 'MOI-1A\'s orbital injection was reported as expected around 8 October, so commissioning and first inference results are still pending.'],
+  sources: ['Space.com (1 Oct 2026): https://www.space.com/space-exploration/satellites/spacex-google-project-suncatcher-ai-satellite-transporter-18-mission', 'India Business Trade (2 Oct 2026): https://www.indiabusinesstrade.in/three-indian-space-startups-launch-new-technologies-aboard-spacex-falcon-9.htm', 'SatNews (28 Sep 2026): https://satnews.com/2026/09/28/takeme2space-prepares-moi-1a-orbital-computing-satellite-for-spacex-falcon-9-launch/', 'Payload (Sodern and Dhruva Space star tracker demo): https://payloadspace.com/sodern-dhruva-space-team-on-star-tracker-demo/']
+}, {
+  slug: 'mahindra-embraer-nagpur-c-390-final-assembly-line-mta-2026',
+  no: 'S-137',
+  title: 'Mahindra and Embraer Name Nagpur for a C-390 Assembly Line - But Only If India Picks the Aircraft',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-03',
+  dateLabel: '3 Oct 2026',
+  status: 'live',
+  excerpt: 'On 1 October Mahindra and Embraer named Nagpur as the proposed site for a C-390 Millennium final assembly line, contingent on the aircraft winning the Indian Air Force\'s Medium Transport Aircraft (MTA) competition. There is no contract, investment figure or timeline yet, so the signal is where a transport-aircraft industrial base would sit if the bid succeeds.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 1 October 2026 Mahindra Group and Embraer said they are advancing plans to industrialise the C-390 Millennium in India and identified Nagpur as the location for a final assembly line, if the aircraft is selected. The company statement lists the intended scope as assembly, local manufacturing and system integration, supply-chain development, maintenance, repair and overhaul, and training and lifecycle support, with progressive integration of Indian aerospace companies. It is explicitly subject to selection by the Government of India, an IAF order under the MTA programme, government approvals and definitive agreements. Reporting adds that Maharashtra has already allotted land at MIHAN in Nagpur. No investment figure, plant size, production timeline or job count has been disclosed.',
+  type: 'p'
+}, {
+  text: 'The contest behind it',
+  type: 'h'
+}, {
+  text: 'The MTA programme is reported to cover 60 aircraft to replace the IAF\'s Antonov An-32 fleet, with 12 delivered fly-away and 48 built in India through a joint venture. Bids are reported due on 2 December 2026. The two contenders named are the C-390 with Mahindra and Lockheed Martin\'s C-130J-30 with Tata Advanced Systems, and the Airbus A400M was reported to have withdrawn in late September. These programme figures come from a single trade report and the order value was not independently confirmed, so treat them as indicative.',
+  type: 'p'
+}, {
+  text: 'The dependency frame',
+  type: 'h'
+}, {
+  text: 'A final assembly line is the visible end of an aircraft supply chain, not the capability itself. What decides whether this becomes sovereign industrial depth is workshare: how much structure, systems, avionics integration and tooling is made by Indian suppliers rather than shipped in as kits. The announcement says Indian aerospace firms will be integrated progressively, which names an intent but no suppliers or percentages. It also matters that the 48 India-built aircraft only exist if the government selects this bid, so the Nagpur line is a conditional commitment, not yet a plant.',
+  type: 'p'
+}, {
+  text: 'The partnership is not new: an MoU dates to February 2024, a strategic cooperation agreement to October 2025 and an overhaul-capability plan to February 2026. What is new is the specific siting of final assembly.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The 2 December bid deadline and the IAF\'s selection decision.', 'Named Indian suppliers and a stated workshare for structures, systems and avionics.', 'Investment size, plant capacity and timeline once definitive agreements are signed.', 'Whether the Tata-Lockheed C-130J offer commits comparable in-country depth, since that contrast will shape the decision.']
+}],
+  takeaways: ['Mahindra and Embraer named Nagpur as the proposed C-390 Millennium final assembly site on 1 October 2026, but only if the aircraft is selected.', 'The plan is conditional on selection by the Government of India, an IAF order under the MTA programme and definitive agreements; no investment, timeline or supplier list has been disclosed.', 'Reporting puts the MTA at 60 aircraft (12 fly-away, 48 India-built) with bids due 2 December, against a Tata-Lockheed C-130J offer; these figures come from one trade source.', 'The sovereignty test is Indian supplier workshare, not the assembly line itself.'],
+  sources: ['Mahindra Group (1 Oct 2026): https://www.mahindra.com/news-room/press-release/en/mahindra-group-and-embraer-advance-plans-for-c-390-millennium-industrialization-in-india-identify-nagpur-as-the-location-for-assembly-facility-if-selected', 'Migflug (1 Oct 2026): https://migflug.com/afterburner/embraer-mahindra-nagpur-c-390-assembly-line-2026/', 'The Defense Post (20 Feb 2026): https://thedefensepost.com/2026/02/20/c-390-support-hub-india/amp/']
+}, {
+  slug: 'ig-defence-jwala-micro-missile-rocket-motor-test-2026',
+  no: 'S-138',
+  title: 'JWALA\'s Motor Test Moves a Private Indian Counter-Drone Interceptor From Concept Toward Hardware',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-04',
+  dateLabel: '4 Oct 2026',
+  status: 'live',
+  excerpt: 'Noida-based IG Defence says it test-fired two solid rocket motors for JWALA, a private micro-missile meant as a lower-cost hard-kill layer against drones. It is a real propulsion step, but the company has shown no guided flight, intercept or user evaluation yet, and the performance figures in circulation are concept claims.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'IG Defence reports that it test-fired two solid rocket motors for its JWALA micro-missile at about 04:00 on 3 October 2026. The company describes JWALA as India\'s first privately developed micro-missile for counter-unmanned-aircraft (C-UAS) work, built as the hard-kill effector inside its GRID ecosystem, an AI-enabled battle-management system that links sensors, threat assessment and engagement. Founder Bodhisattwa Sanghapriya is quoted saying the aim is not a standalone missile but an intelligent defence architecture. IG Defence says testing will continue with a focus on maturity, reliability, manufacturability and scalability.',
+  type: 'p'
+}, {
+  text: 'Why a motor test matters, and what it does not prove',
+  type: 'h'
+}, {
+  text: 'A rocket motor is a prerequisite for an interceptor, but a successful firing does not show that the complete missile can fly, guide, fuse and defeat a target. The engineering tasks still ahead are repeatable motor performance, storage and environmental qualification, a seeker or command-guidance link, a fuse and warhead, and manufacture at a cost low enough to build real magazine depth. Reports of range, reaction time and warhead size relate to a concept and have not been independently validated, so this signal does not rely on them. IG Defence has also described JWALA in earlier unveilings as a short-range missile system, so the intended role is still being defined publicly.',
+  type: 'p'
+}, {
+  text: 'The cost-exchange problem',
+  type: 'h'
+}, {
+  text: 'The case for a micro-missile is economic. Defending against cheap drones with premium air-defence missiles or high-end systems does not scale, and soft-kill tools such as jammers do not work against every target. An affordable kinetic interceptor, cued by a trustworthy sensor network, would add a layer between jamming and expensive missiles. That layer only exists if cost per round and production rate are proven, and if local supply of energetic materials and propulsion components can keep up.',
+  type: 'p'
+}, {
+  text: 'This adds to earlier counter-drone coverage such as S-097 on directed-energy systems, and is distinct because it concerns a private Indian propulsion milestone for a kinetic interceptor.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Repeat motor firings and storage and environmental qualification.', 'A guided flight test, then an intercept against a target drone.', 'Seeker or command-guidance and fuse integration, and a stated unit cost.', 'A user demonstration or development order from the services.', 'Whether GRID Defend can hold a reliable track-to-engagement chain in cluttered conditions.']
+}],
+  takeaways: ['IG Defence reports test-firing two solid rocket motors for its JWALA micro-missile on 3 October 2026.', 'JWALA is positioned as a lower-cost hard-kill counter-drone interceptor within IG Defence\'s GRID battle-management architecture.', 'The motor test is a propulsion milestone only; no guided flight, intercept or user evaluation has been reported.', 'Performance figures in circulation are concept claims and are not used here because they are unverified.'],
+  sources: ['Aviation and Defence Universe (3 Oct 2026): https://www.aviation-defence-universe.com/indias-micro-missile-jwala-marks-key-milestone-with-successful-solid-rocket-motor-test/', 'The Economic Times - ET Manufacturing (3 Oct 2026): https://manufacturing.economictimes.indiatimes.com/amp/news/aerospace-defence/ig-defence-test-fires-jwala-solid-rocket-motors-advances-indigenous-anti-drone-system/134659732', 'IDRW (earlier JWALA unveiling): https://idrw.org/?p=404149']
+}, {
+  slug: 'india-first-free-space-qkd-link-5-56-km-qnu-labs-bisag-n-2026',
+  no: 'S-139',
+  title: 'India Reports a 5.56 km Free-Space Quantum Key Link - A Field Trial, Not Yet a Network',
+  domain: 'Strategic Technology',
+  date: '2026-10-04',
+  dateLabel: '4 Oct 2026',
+  status: 'live',
+  excerpt: 'QNu Labs, BISAG-N and IIT Gandhinagar report a 5.56 km free-space quantum key distribution (QKD) link run on the night of 27-28 September, with an error rate below 5% and a secure key rate of 230-260 bits per second. The result was announced on 3 October and is described as India\'s first free-space QKD link. It is a short-range field trial; the performance figures come from the participants and a government statement.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 3 October 2026, QNu Labs, the Bhaskaracharya National Institute for Space Applications and Geo-informatics (BISAG-N) and IIT Gandhinagar announced a free-space quantum key distribution trial over 5.56 km between BISAG-N and IIT Gandhinagar in Gujarat. The trial ran at night on 27-28 September. The reported quantum bit error rate was below 5% and the secure key generation rate was 230-260 bits per second. The link combined QNu Labs\' Armos hardware-based QKD device and its pointing, acquisition and tracking system with BISAG-N\'s Vedic Kavach platform, which adds post-quantum cryptography and quantum random number generation. The announcement is described as India\'s first free-space QKD link.',
+  type: 'p'
+}, {
+  text: 'What the numbers mean',
+  type: 'h'
+}, {
+  text: 'A free-space link sends the quantum signal through the atmosphere rather than a fibre, so the hard engineering is keeping a narrow beam aimed and stable between two fixed points, which is what the pointing, acquisition and tracking system does. An error rate under 5% shows the link was usable for key generation, and 230-260 bits per second is enough for refreshing symmetric keys, not for bulk data. A night-time, 5.56 km trial between two fixed sites is a proof of operation, not a deployed service, and it says nothing yet about daytime, weather or mobile platforms.',
+  type: 'p'
+}, {
+  text: 'Where it sits in the stack',
+  type: 'h'
+}, {
+  text: 'Free-space links matter because they are the building block for links where laying fibre is impractical, and for the satellite-to-ground quantum links the National Quantum Mission targets. The trial pairs an Indian QKD hardware maker with a state geo-informatics institute and an IIT, which is the kind of domestic integration the mission is meant to encourage. The reporting does not say where the sources, detectors or optics inside the Armos device are made, so the supply chain below the system level is not established.',
+  type: 'p'
+}, {
+  text: 'The first-of-its-kind claim should be read carefully. Earlier Indian free-space quantum-secure communication demonstrations, including DRDO and IIT Delhi work over shorter distances, have been reported, so this is better read as a longer link under this team than as the first of any kind.',
+  type: 'p'
+}, {
+  text: 'On sourcing: coverage of the announcement from several outlets traces back to one government statement carried by news agencies, so the performance figures are as stated by the participants and have not been independently verified.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Daytime, longer-range and weather-varied trials of the same link.', 'Disclosure of where the detectors, sources and optics are made.', 'Integration with a fibre or satellite segment under the National Quantum Mission.', 'A first customer or pilot for government or defence networks.']
+}],
+  takeaways: ['QNu Labs, BISAG-N and IIT Gandhinagar report a 5.56 km free-space QKD link, trialled on the night of 27-28 September 2026 and announced on 3 October.', 'Reported performance is a quantum bit error rate below 5% and a secure key rate of 230-260 bits per second.', 'The link used QNu Labs\' Armos QKD device with its pointing, acquisition and tracking system and BISAG-N\'s Vedic Kavach post-quantum platform.', 'It is a short, night-time, fixed-site trial, and earlier shorter Indian free-space quantum demonstrations exist, so the first-of-its-kind framing is limited.', 'Figures come from a government statement carried by several agencies and are not independently verified.'],
+  sources: ['Swarajya (3 Oct 2026): https://swarajyamag.com/tech/india-achieves-first-556-km-free-space-qkd-link-in-major-quantum-secure-communication-trial', 'Asianet Newsable, ANI feed (3 Oct 2026): https://newsable.asianetnews.com/business/india-successfully-tests-free-space-quantum-key-distribution-over-5-56-km-articleshow-qoqdii6', 'The Hawk, IANS feed (3 Oct 2026): https://www.thehawk.in/news/economy-and-business/india-showcases-its-first-556-km-freespace-quantum-communication-link', 'The Quantum Insider (20 Jun 2025), earlier Indian free-space work: https://thequantuminsider.com/2025/06/20/india-takes-significant-step-in-quantum-communication-with-one-kilometer-entanglement-test/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

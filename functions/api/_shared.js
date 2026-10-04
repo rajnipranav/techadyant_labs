@@ -7,6 +7,17 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'india-private-strategic-weapons-industrial-base': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'india-private-strategic-weapons-industrial-base.pdf',
+    filename: 'Indias-Private-Strategic-Weapons-Industrial-Base-Techadyant-Labs.pdf',
+    title: 'India\u2019s Private Strategic Weapons Industrial Base',
+    // Report + Data tier: the Strategic Weapons Database workbook. Price authority for the data tier.
+    priceWithDataInr: 11999,
+    dataObject: 'data/india-private-strategic-weapons-industrial-base.xlsx',
+    dataFilename: 'Indias-Private-Strategic-Weapons-Industrial-Base-Data-Pack-Techadyant-Labs.xlsx',
+  },
   'india-ai-data-centre-cooling-2026-2035': {
     access: 'paid',
     priceInr: 4900,
