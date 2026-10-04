@@ -7,8 +7,17 @@ import { reports } from '../reports/data';
 import { signals } from '../signals/data';
 import { allPlayers, playerSlug, corridorsOrdered, meta, corridorByCode } from '../research/atlas';
 import { ENTITY_KIND_LABELS, graphEntities } from '../research/graph';
+import { entities as defenceEntities, entitySlug as defenceEntitySlug } from '../research/pillars/defence/data';
 
-type Kind = 'report' | 'signal' | 'player' | 'corridor' | 'entity';
+type Kind = 'report' | 'signal' | 'player' | 'corridor' | 'entity' | 'defence';
+
+// Defence-pillar company dossiers — these live at /research/pillars/defence/entity/<slug>/
+// but are NOT in the defence `entities` array (they are rendered from dossier files), so
+// they must be listed here to be searchable (e.g. the Matangi USV page).
+const DEFENCE_DOSSIERS: { slug: string; title: string; summary: string }[] = [
+  { slug: 'matangi-usv', title: "Matangi Ship: Sagar Defence's Autonomous Surface Vessel", summary: 'Autonomous surface vessel (USV) by Sagar Defence Engineering — Mumbai–Thoothukudi coastal autonomy demonstration.' },
+  { slug: 'sagar-defence-engineering', title: 'Sagar Defence Engineering', summary: 'Indian maritime-autonomy and unmanned-systems company; maker of the Matangi USV.' },
+];
 interface Item { kind: Kind; title: string; url: string; summary?: string; extra?: string; score: number; }
 interface ResultGroup { key: string; label: string; items: Item[]; }
 
@@ -72,11 +81,24 @@ function SearchResults() {
       })
       .filter((x): x is Item => Boolean(x)).sort((a, b) => b.score - a.score).slice(0, 20);
 
+    const defenceItems: Item[] = [
+      ...defenceEntities.map((e: { id: string; name: string; type?: string; service?: string[] }): Item | null => {
+        const svc = (e.service ?? []).join(' ');
+        const score = Math.max(matchScore(e.name, q), matchScore((e.type ?? '').replace(/_/g, ' '), q), matchScore(svc, q));
+        return score > 0 ? { kind: 'defence' as const, title: e.name, url: `/research/pillars/defence/entity/${defenceEntitySlug(e.id)}/`, extra: `Defence · ${(e.type ?? '').replace(/_/g, ' ')}`, score } : null;
+      }),
+      ...DEFENCE_DOSSIERS.map((d): Item | null => {
+        const score = Math.max(matchScore(d.title, q), matchScore(d.summary, q), matchScore(d.slug.replace(/-/g, ' '), q));
+        return score > 0 ? { kind: 'defence' as const, title: d.title, url: `/research/pillars/defence/entity/${d.slug}/`, summary: d.summary, extra: 'Defence · Dossier', score } : null;
+      }),
+    ].filter((x): x is Item => Boolean(x)).sort((a, b) => b.score - a.score).slice(0, 20);
+
     return ([
       { key: 'reports', label: 'Reports', items: reportItems },
       { key: 'corridors', label: 'Corridors', items: corridorItems },
       { key: 'signals', label: 'Signals', items: signalItems },
       { key: 'entities', label: 'Atlas entities', items: entityItems },
+      { key: 'defence', label: 'Defence Atlas', items: defenceItems },
       { key: 'players', label: 'Players & suppliers', items: playerItems },
     ] as ResultGroup[]).filter((g) => g.items.length > 0);
   }, [q]);
