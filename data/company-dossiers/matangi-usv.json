@@ -27,7 +27,12 @@
     "operational_domains": [
       "naval"
     ],
-    "entity_path": "/research/pillars/defence/entity/matangi-usv/"
+    "entity_path": "/research/pillars/defence/entity/matangi-usv/",
+    "image": {
+      "src": "/figures/matangi-usv.jpg",
+      "alt": "Matangi autonomous surface vessel (USV) by Sagar Defence Engineering underway on water during coastal autonomous operations",
+      "caption": "The Matangi uncrewed surface vessel, built by Sagar Defence Engineering, during coastal autonomous operations."
+    }
   },
   "at_a_glance": {
     "Type": "Autonomous surface vessel (ASV / USV)",

@@ -115,6 +115,9 @@ export function productJsonLd(dossier: EntityDossier) {
     brand: dossier.header.maker
       ? { "@type": "Brand", name: dossier.header.maker }
       : undefined,
+    image: dossier.header.image?.src
+      ? `https://labs.techadyant.com${dossier.header.image.src}`
+      : undefined,
     description: dossier.header.one_liner,
   };
 }

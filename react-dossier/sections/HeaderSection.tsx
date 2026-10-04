@@ -30,6 +30,25 @@ export function HeaderSection({ dossier }: Props) {
 
       <p className="lede">{header.one_liner}</p>
 
+      {header.image?.src ? (
+        <figure className="ed-hero-figure" style={{ margin: "24px 0 8px", maxWidth: 820 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={header.image.src}
+            alt={header.image.alt || name}
+            loading="eager"
+            style={{ width: "100%", height: "auto", borderRadius: 12, border: "1px solid var(--border, rgba(255,255,255,.12))", display: "block" }}
+          />
+          {header.image.caption || header.image.credit ? (
+            <figcaption style={{ fontSize: 12, color: "var(--text-dim, #c7c7d2)", marginTop: 8, lineHeight: 1.5 }}>
+              {header.image.caption}
+              {header.image.caption && header.image.credit ? " " : null}
+              {header.image.credit ? <span style={{ opacity: 0.8 }}>({header.image.credit})</span> : null}
+            </figcaption>
+          ) : null}
+        </figure>
+      ) : null}
+
       <div className="ed-chips">
         {(header.chips || []).map((chip) => (
           <span key={chip} className="ed-chip">

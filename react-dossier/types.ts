@@ -62,6 +62,7 @@ export interface Header {
   mobility_or_class?: string;
   operational_domains?: OperationalDomain[];
   entity_path?: string;
+  image?: { src: string; alt?: string; caption?: string; credit?: string };
 }
 
 export interface AtAGlance {
