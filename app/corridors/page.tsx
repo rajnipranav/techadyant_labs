@@ -7,6 +7,8 @@ import { corridorFeatures, nodeFeatures } from './corridor-geojson';
 import { corridors, corridorBySlug, CLASS_COLOR, CLASS_LABEL } from './data';
 import { leaderboard, TIER_COLOR, corridorIntel } from './corridor-intel';
 import { deepFor, corridorDeep, allCorridorNodePairs } from './node-data';
+import { nodesByStage } from '../research/insights';
+import { StackedBar, VizPanel } from '../components/viz/Viz';
 import { JsonLd, breadcrumb, datasetLd, SITE } from '../research/seo';
 
 export const metadata: Metadata = {
@@ -144,6 +146,11 @@ export default function CorridorsIndex() {
           <div><span className="cs-n">1.29 L</span><span className="cs-l">Jobs potential on allotted plots</span></div>
           <div><span className="cs-n">134 / 95</span><span className="cs-l">Units in production / under construction</span></div>
           <div><span className="cs-n">₹16,173 cr</span><span className="cs-l">Released to NICDIT · ₹14,570 cr on to SPVs</span></div>
+        </div>
+        <div className="viz-grid" style={{ margin: '18px 0 10px' }}>
+          <VizPanel kicker="Node readiness" title={`Where the ${allCorridorNodePairs().length} deep-researched nodes stand`} note="Development stage per node dossier. Open a corridor for per-node status, allottees and sources.">
+            <StackedBar label="Nodes by stage" segments={nodesByStage()} />
+          </VizPanel>
         </div>
         <p className="chart-src">Source: PIB — NICDIT Apex Monitoring Authority review (Aug 2026) · Budget 2026–27 allocates a further ₹3,000 cr to NICDIT; NICDP-wide aggregates, shown alongside the corridor table below.</p>
       </section>

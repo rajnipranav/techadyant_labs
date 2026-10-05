@@ -7,7 +7,9 @@ import {
   STATUS_COLORS, atlas, lastUpdated,
 } from './atlas';
 import { pillarStats } from './pillars';
-import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardFull } from './extra-ecosystems';
+import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardFull, SCORED_ECOSYSTEMS_COUNT, EXTENDED_PILLARS_COUNT } from './extra-ecosystems';
+import { VizPanel, BarList, StackedBar } from '../components/viz/Viz';
+import { verificationMix, scoreSpread } from './insights';
 import { reports } from '../reports/data';
 import { signals } from '../signals/data';
 
@@ -87,6 +89,25 @@ export default function AtlasOverview() {
           </div>
         </div>
       </header>
+
+      {/* ── Atlas health ── */}
+      <section className="wrap" style={{ paddingBottom: 0 }}>
+        <div className="viz-grid">
+          <VizPanel kicker="Atlas health" title="What the Atlas holds" note={`Snapshot ${updated}. Scored grid covers ${SCORED_ECOSYSTEMS_COUNT} ecosystems; ${EXTENDED_PILLARS_COUNT} extended pillars carry their own databases.`}>
+            <BarList label="Atlas contents" rows={[
+              { label: 'Layer assessments', value: atlas.grid.length },
+              { label: 'Tracked players', value: atlas.players.length },
+              { label: 'Relationships', value: atlas.relationships.length },
+            ]} />
+          </VizPanel>
+          <VizPanel kicker="Evidence" title="How well-sourced are the scores?" note="Verification label on each layer assessment.">
+            <StackedBar label="Assessments by verification" segments={verificationMix()} />
+          </VizPanel>
+          <VizPanel kicker="Capture" title="Average sovereignty score by ecosystem (0–5)">
+            <BarList label="Mean capture score" max={5} color="var(--brass)" rows={scoreSpread().map((s) => ({ label: s.label, value: Math.round(s.avg * 10) / 10 }))} />
+          </VizPanel>
+        </div>
+      </section>
 
       {/* ── Start here: three ways in ── */}
       <section className="wrap">
