@@ -36,7 +36,7 @@ export const EXTRA_ECOSYSTEMS: ExtraEcosystem[] = [
     href: '/research/drones-uas/',
     accent: '#2BC5B4',
     tagline: 'India flies and assembles more drones than it builds — the components still come from abroad.',
-    strip: ['#C0563B', '#C0563B', '#C99A3B', '#C99A3B', '#2BC5B4', '#C99A3B'],
+    strip: ['#C0563B', '#C0563B', '#C0563B', '#C99A3B', '#2BC5B4', '#C99A3B'],
     stat: <><b>3</b> of <b>6</b> layers import-dependent</>,
     stat2: '90 players',
     weakPrefix: 'Weakest link',
