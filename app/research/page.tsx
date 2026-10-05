@@ -9,7 +9,7 @@ import {
 import { pillarStats } from './pillars';
 import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardFull, SCORED_ECOSYSTEMS_COUNT, EXTENDED_PILLARS_COUNT } from './extra-ecosystems';
 import { VizPanel, BarList, StackedBar } from '../components/viz/Viz';
-import { verificationMix, scoreSpread } from './insights';
+import { verificationMix, scoreSpread, VERIFICATION_DEFINITIONS } from './insights';
 import { reports } from '../reports/data';
 import { signals } from '../signals/data';
 
@@ -100,7 +100,7 @@ export default function AtlasOverview() {
               { label: 'Relationships', value: atlas.relationships.length },
             ]} />
           </VizPanel>
-          <VizPanel kicker="Evidence" title="How well-sourced are the scores?" note="Verification label on each layer assessment.">
+          <VizPanel kicker="Evidence" title="The evidence standard" note={VERIFICATION_DEFINITIONS}>
             <StackedBar label="Assessments by verification" segments={verificationMix()} />
           </VizPanel>
           <VizPanel kicker="Capture" title="Average sovereignty score by ecosystem (0–5)">

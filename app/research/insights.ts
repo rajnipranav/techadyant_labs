@@ -1,7 +1,7 @@
 // Derived, build-time insights for the visual layers (Pulse strip, Atlas health,
 // Biggest gaps, corridor readiness). Everything here is computed from existing
 // data modules — no hand-typed figures — so it cannot drift from the source.
-import { atlas, corridorById, STATUS_SHORT, type GridCell } from './atlas';
+import { atlas, corridorById, STATUS_SHORT, STATUS_COLORS, type GridCell } from './atlas';
 import { signals } from '../signals/data';
 import { corridorDeep, STAGE } from '../corridors/node-data';
 
@@ -70,4 +70,15 @@ export function signalPulse() {
     last7: within(0, 7 * DAY), prev7: within(7 * DAY, 14 * DAY), last30: within(0, 30 * DAY),
     byDomain: Object.entries(byDomain).sort((a, b) => b[1] - a[1]).map(([label, value]) => ({ label, value })),
   };
+}
+
+/** What each verification label means on the site (used wherever the evidence mix is shown). */
+export const VERIFICATION_DEFINITIONS =
+  'Verified = two or more independent primary sources. Single-source = one cited source. Unverified = analyst assessment awaiting a source. An assessment is promoted to Verified only when a second independent primary source is confirmed.';
+
+/** How many layer assessments sit at each 0–5 capture score. */
+export function scoreDistribution() {
+  return STATUS_SHORT.map((label, i) => ({
+    label: `${i} · ${label}`, value: atlas.grid.filter((g) => g.status === i).length, color: STATUS_COLORS[i],
+  }));
 }
