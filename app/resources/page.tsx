@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SITE } from '../research/seo';
 import { reports } from '../reports/data';
-import { atlas } from '../research/atlas';
+import { atlas, lastUpdated } from '../research/atlas';
 import { SCORED_ECOSYSTEMS_COUNT, EXTENDED_PILLARS_COUNT, ATLAS_ECOSYSTEMS_COUNT } from '../research/extra-ecosystems';
 import { allCorridorNodePairs } from '../corridors/node-data';
 import { CopyField } from '../components/CopyField';
@@ -156,7 +156,7 @@ export default function ResourcesPage() {
           <p className="serif" style={{ color: 'var(--text-muted, #9aa3b2)' }}>
             The corridor node dataset (<code>corridor-nodes.csv</code>) is published under{' '}
             <b>CC BY 4.0</b> — reuse, adapt and redistribute with attribution to Techadyant Labs.
-            Current dataset version: <b>August 2026</b>. Each dossier carries a last-updated date and
+            Current dataset version: <b>August 2026</b> (Atlas snapshot {new Date(lastUpdated).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}). Each dossier carries a last-updated date and
             a per-claim verification label ([V] verified, [V1] announced, [U] unverified); please
             preserve those labels when you reuse the data.
           </p>

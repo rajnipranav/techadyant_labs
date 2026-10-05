@@ -110,7 +110,7 @@ ${corridorLines}
 - [All corridors](${SITE}/corridors): interactive map of the eleven national industrial corridors.
 
 ## India's national industrial corridors (status + anchor tenants)
-Eleven NICDP corridors, each with a dossier, dark node map and per-node pages. Status as of late 2025:
+Eleven NICDP corridors, each with a dossier, dark node map and per-node pages. Status per the latest corridor-tracker update; each dossier carries its own last-updated date:
 ${corridorBlock}
 
 ## National industrial corridor — per-node dossiers (${allCorridorNodePairs().length} node pages)
