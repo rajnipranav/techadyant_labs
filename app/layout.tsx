@@ -222,7 +222,7 @@ gtag('config', 'G-916MZ965VB');`,
                     infrastructure systems and emerging technologies.
                   </p>
                   <p className="pf-tagline">
-                    The research division of{' '}
+                    An editorially independent research unit within{' '}
                     <a href="https://techadyant.com">Techadyant</a> — engineering high-reliability
                     systems for India’s defence, national security and critical infrastructure.
                   </p>
@@ -289,7 +289,7 @@ gtag('config', 'G-916MZ965VB');`,
                   <span className="tricolor" aria-hidden="true" />
                   © {new Date().getFullYear()} Techadyant Labs. India-first strategic research.
                 </p>
-                <p>Independent · Reader-supported · No sponsored coverage</p>
+                <p>Editorially independent · Reader-supported · No sponsored coverage</p>
               </div>
             </footer>
 

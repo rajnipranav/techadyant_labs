@@ -70,7 +70,7 @@ export default async function CorridorProfile({ params }: { params: Promise<{ sl
           <p className="lede">{m.tagline}</p>
           <div className="corr-stats">
             <div><span className="cs-n" style={{ color: m.accent }}>{sov}<small>/100</small></span><span className="cs-l">Sovereignty index</span></div>
-            <div><span className="cs-n">{r.importDependent}</span><span className="cs-l">Import-dependent layers</span></div>
+            <div><span className="cs-n">{r.importDependent}</span><span className="cs-l">Import-dependent or nascent layers</span></div>
             <div><span className="cs-n">{players.length}</span><span className="cs-l">Players ({domestic} Indian)</span></div>
             <div><span className="cs-n">{events.length}</span><span className="cs-l">Recent developments</span></div>
           </div>

@@ -114,8 +114,10 @@ export function DependenciesView({
             </tbody>
           </table>
           <p className="dep-note">
-            Comparison shows the four industrial ecosystems, which share a six-layer value chain.
-            Enterprise Software runs on its own eleven-layer software stack &mdash; view it on its own tab.
+            Comparison shows the four industrial ecosystems (Semiconductors, Critical Minerals, AI Infrastructure and
+            Defence), which share a six-layer value chain. Enterprise Software runs on its own eleven-layer software
+            stack and AI MedTech on its own ten-layer chain &mdash; view each on its own tab. &ldquo;Import-dependent
+            or nascent&rdquo; counts layers scored 0&ndash;1.
           </p>
         </div>
       )}

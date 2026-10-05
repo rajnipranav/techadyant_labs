@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { meta as aeroMeta } from './military-aerospace/data';
 import { meta as spaceMeta } from './space/data';
 import highAltitude from './pillars/defence/_high_altitude.json';
+import { atlas } from './atlas';
 
 const haResearchNeeds = highAltitude.entities.filter((e) => e.claim_type === 'research_need').length;
 
@@ -26,6 +27,8 @@ export interface ExtraEcosystem {
   weakName: string;
   weakStatus: string;
   go: string;
+  /** A deep-dive inside another pillar (e.g. High-Altitude Defence sits under Defence) — shown on cards but not counted as a separate ecosystem. */
+  subVertical?: boolean;
 }
 
 export const EXTRA_ECOSYSTEMS: ExtraEcosystem[] = [
@@ -91,6 +94,7 @@ export const EXTRA_ECOSYSTEMS: ExtraEcosystem[] = [
   },
   {
     key: 'high-altitude-defence',
+    subVertical: true,
     label: 'High-Altitude Defence',
     no: '10',
     href: '/research/pillars/defence/high-altitude/',
@@ -105,6 +109,16 @@ export const EXTRA_ECOSYSTEMS: ExtraEcosystem[] = [
     go: 'Explore the atlas →',
   },
 ];
+
+/**
+ * Locked public taxonomy (single source of truth for every static claim):
+ *  - SCORED_ECOSYSTEMS_COUNT: ecosystems scored on the value-chain grid (the baked SID corridors).
+ *  - EXTENDED_PILLARS_COUNT: standalone-database pillars outside the scored grid.
+ *  - ATLAS_ECOSYSTEMS_COUNT: scored + extended. Sub-verticals are not counted.
+ */
+export const SCORED_ECOSYSTEMS_COUNT = atlas.corridors.length;
+export const EXTENDED_PILLARS_COUNT = EXTRA_ECOSYSTEMS.filter((e) => !e.subVertical).length;
+export const ATLAS_ECOSYSTEMS_COUNT = SCORED_ECOSYSTEMS_COUNT + EXTENDED_PILLARS_COUNT;
 
 /** Full card — used on the /research Atlas overview (with layer strip + weakest link). */
 export function ExtraEcosystemCardFull({ e }: { e: ExtraEcosystem }) {

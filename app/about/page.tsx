@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 const PRINCIPLES = [
-  { k: 'Independent', v: 'No sponsored coverage, no undisclosed interests, and no position in the companies or projects we analyse.' },
+  { k: 'Independent', v: 'Techadyant Labs is the research unit of Techadyant and is editorially independent of it: no sponsored coverage, no undisclosed interests, and no position in the companies or projects we analyse. The parent relationship is disclosed, not hidden.' },
   { k: 'Systems-level', v: 'We treat industrial systems the way analysts treat markets — as interdependent structures with hidden constraints and asymmetric beneficiaries.' },
   { k: 'India-first', v: 'Our work is built around India’s industrial, infrastructural and strategic context rather than imported frameworks.' },
   { k: 'Long-form', v: 'Depth over frequency. We publish when the analysis is ready, not on a content calendar.' },

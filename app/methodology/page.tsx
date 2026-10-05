@@ -143,7 +143,8 @@ export default function MethodologyPage() {
           <strong>no undisclosed interests</strong>. We take no position in the companies,
           schemes or projects we analyse, and accept no payment to shape a finding. The
           publication answers to its readers — not to advertisers, sponsors, or the subjects
-          of its coverage.
+          of its coverage. Techadyant Labs is the research unit of Techadyant and is editorially
+          independent of it; that relationship is disclosed here, not hidden.
         </blockquote>
       </section>
 

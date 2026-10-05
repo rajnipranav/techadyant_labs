@@ -8,7 +8,7 @@ import { FeaturedTopology } from './components/ThemeIcon';
 import { reports } from './reports/data';
 import { signals } from './signals/data';
 import { corridorsOrdered, meta, rollup } from './research/atlas';
-import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardSimple } from './research/extra-ecosystems';
+import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardSimple, ATLAS_ECOSYSTEMS_COUNT } from './research/extra-ecosystems';
 import { briefings as allBriefings } from './briefings/data';
 import { allCorridorNodePairs, corridorDeep } from './corridors/node-data';
 import { issues as newsletterIssues } from './newsletter/data';
@@ -39,7 +39,7 @@ const latestSignals = [...signals]
 // ── Platform-wide numbers (auto-derived from data modules; never stale) ──
 const corridorsCount = nicdpCorridors.length;
 const nodesCount = allCorridorNodePairs().length;
-const ecosystemsCount = corridorsOrdered.length + EXTRA_ECOSYSTEMS.length;
+const ecosystemsCount = ATLAS_ECOSYSTEMS_COUNT;
 const liveSignalsCount = signals.filter((s) => s.status === 'live').length;
 const reportCount = reports.length;
 const depLayersCount = corridorsOrdered.reduce(
@@ -65,7 +65,7 @@ const PLATFORM: { k: string; href: string; n: string; l: string }[] = [
   { k: 'Reports', href: '/reports/', n: `${reportCount}`, l: 'Long-form research + executive summaries, one strategic question at a time.' },
   { k: 'Corridors', href: '/corridors/', n: `${corridorsCount} · ${nodesCount}`, l: 'National corridors, node dossiers, satellite GIS maps and opportunity surfaces.' },
   { k: 'Atlas', href: '/research/', n: `${ecosystemsCount}`, l: 'A free interactive map of India’s industrial ecosystems, players and import layers.' },
-  { k: 'Dependencies', href: '/research/dependencies/', n: `${depLayersCount}`, l: 'Import-dependency layers — what India still imports, ecosystem by ecosystem.' },
+  { k: 'Dependencies', href: '/research/dependencies/', n: `${depLayersCount}`, l: 'Import-dependent or nascent layers — what India still imports, ecosystem by ecosystem.' },
   { k: 'Signals', href: '/signals/', n: `${liveSignalsCount}`, l: 'Compact, information-dense dispatches on structural change as it happens.' },
   { k: 'Sanket', href: '/newsletter/', n: 'monthly', l: 'The monthly strategic-intelligence brief, distilled from the signal engine.' },
   { k: 'Services', href: '/services/', n: 'DPR-ready', l: 'Commissioned research, investment-grade DPRs, briefings and licensing.' },
@@ -195,7 +195,7 @@ export default function HomePage() {
             { n: `${nodesCount}`, l: 'Deep-researched nodes', href: '/corridors/' },
             { n: `${liveSignalsCount}`, l: 'Live signals', href: '/signals/' },
             { n: `${ecosystemsCount}`, l: 'Ecosystems in the Atlas', href: '/research/' },
-            { n: `${depLayersCount}`, l: 'Import-dependent layers', href: '/research/dependencies/' },
+            { n: `${depLayersCount}`, l: 'Import-dependent or nascent layers', href: '/research/dependencies/' },
             { n: `${reportCount}`, l: 'Report editions', href: '/reports/' },
           ].map((s, i) => (
             <Link key={s.l} href={s.href} className="home-stat" style={{ borderLeft: i === 0 ? 'none' : undefined }}>
@@ -346,7 +346,7 @@ export default function HomePage() {
           <Link href="/research/dependencies/" className="see-all">Open the dependency atlas →</Link>
         </div>
         <p className="section-note" style={{ maxWidth: '70ch', marginBottom: 20 }}>
-          For each ecosystem the Atlas tracks, how many value-chain layers are import-dependent.
+          For each ecosystem the Atlas tracks, how many value-chain layers are import-dependent or nascent (scored 0–1).
           The bars are live data from the rollup — the longer the bar, the thinner India’s ownership.
         </p>
         <div className="dep-heat">
@@ -394,7 +394,7 @@ export default function HomePage() {
                 </div>
                 <p className="atlas-card-tag">{m.tagline}</p>
                 <div className="atlas-card-stats">
-                  <span><b>{r.importDependent}</b> of <b>{r.cells}</b> layers import-dependent</span>
+                  <span><b>{r.importDependent}</b> of <b>{r.cells}</b> layers import-dependent or nascent</span>
                 </div>
                 <span className="atlas-card-go">View dependency map →</span>
               </Link>
@@ -508,13 +508,14 @@ export default function HomePage() {
               and second-order effects. Our work begins where the press release ends.
             </p>
             <p>
-              The publication is reader-oriented and independent. We carry no sponsored
-              coverage and take no position in the companies and projects we analyse.
+              The publication is reader-oriented and editorially independent, as the research
+              unit of Techadyant. We carry no sponsored coverage and take no position in the
+              companies and projects we analyse.
             </p>
             <ul className="pb-principles">
               <li>
                 <div className="pk">Independent</div>
-                <div className="pv">No sponsored coverage, no undisclosed interests.</div>
+                <div className="pv">Editorially independent of our parent, Techadyant. No sponsored coverage, no undisclosed interests.</div>
               </li>
               <li>
                 <div className="pk">Systems-level</div>
