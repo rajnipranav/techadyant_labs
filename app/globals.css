@@ -2734,3 +2734,37 @@ a.eng-tile { text-decoration:none; color:inherit; }
 .viz-gap-r{font-size:12.5px;line-height:1.55;color:var(--text-muted);margin:3px 0 0}
 .viz-gap-m{font-size:11.5px;color:var(--text-dim);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap}
 @media (max-width:560px){.viz-kpi-v{font-size:24px}.viz-bars li{grid-template-columns:90px 1fr 24px}}
+
+/* ── Corridor node comparison + signals visual stream ── */
+.cmpn-pick{display:flex;flex-direction:column;gap:10px;margin-bottom:12px}
+.cmpn-search{display:flex;flex-direction:column;gap:6px;max-width:420px}
+.cmpn-search input{appearance:none;border:1px solid var(--border-strong);background:var(--surface);color:var(--text);border-radius:8px;padding:9px 12px;font-size:14px}
+.cmpn-opts{display:flex;flex-wrap:wrap;gap:8px}
+.cmpn-opts button{appearance:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;border:1px solid var(--border);background:var(--bg-2);color:var(--text);border-radius:999px;padding:6px 12px;font-size:13px}
+.cmpn-opts button:hover{border-color:rgba(201,168,76,.55)}
+.cmpn-opts i{width:8px;height:8px;border-radius:50%}
+.cmpn-opts small{color:var(--text-dim)}
+.cmpn-empty{font-size:12.5px;color:var(--text-muted)}
+.cmpn-scroll{overflow-x:auto;border:1px solid var(--border);border-radius:12px}
+.cmpn-table{width:100%;min-width:560px;border-collapse:collapse;font-size:13.5px}
+.cmpn-table th,.cmpn-table td{padding:11px 14px;text-align:left;vertical-align:top;border-top:1px solid var(--rule)}
+.cmpn-table thead th{border-top:0;background:var(--bg-2);position:relative;padding-right:30px}
+.cmpn-table thead th a{color:var(--text);font-weight:600;text-decoration:none;display:block;margin-bottom:6px}
+.cmpn-table thead th a:hover{text-decoration:underline}
+.cmpn-table tbody th{font-weight:500;color:var(--text-muted);white-space:nowrap;width:1%}
+.cmpn-stage{display:inline-block;border:1px solid;border-radius:999px;padding:1px 9px;font-size:11px}
+.cmpn-x{position:absolute;top:8px;right:8px;appearance:none;border:0;background:transparent;color:var(--text-dim);font-size:18px;cursor:pointer;line-height:1}
+.cmpn-lead{color:var(--text-muted);line-height:1.55}
+.cmpn-clear{appearance:none;margin-top:10px;border:0;background:transparent;color:var(--primary-bright);cursor:pointer;font-size:13px;padding:0}
+.sig-view{display:inline-flex;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.sig-view button{appearance:none;border:0;background:transparent;color:var(--text-dim);padding:5px 12px;font-size:12.5px;cursor:pointer}
+.sig-view button[aria-pressed="true"]{background:var(--text);color:var(--bg);font-weight:700}
+.sig-spark{display:flex;align-items:flex-end;gap:3px;height:34px;margin:0 0 4px}
+.sig-spark i{flex:1;min-width:4px;background:var(--primary-bright);opacity:.8;border-radius:2px 2px 0 0}
+.sig-spark-cap{font-size:11.5px;color:var(--text-muted);margin-bottom:16px}
+.sig-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+.sig-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.sig-card{display:flex;flex-direction:column;gap:8px;padding:16px 16px 14px;border:1px solid var(--border);border-left:3px solid var(--sig-c,var(--border));border-radius:10px;background:var(--bg-2);text-decoration:none;transition:border-color .15s,transform .15s}
+.sig-card:hover{border-color:var(--sig-c);transform:translateY(-1px)}
+.sig-card .signal-title{font-size:16px;margin:0}
+.sig-card .signal-excerpt{font-size:14px;margin:0;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}

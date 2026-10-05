@@ -9,6 +9,9 @@ import { leaderboard, TIER_COLOR, corridorIntel } from './corridor-intel';
 import { deepFor, corridorDeep, allCorridorNodePairs } from './node-data';
 import { nodesByStage } from '../research/insights';
 import { StackedBar, VizPanel } from '../components/viz/Viz';
+import NodeCompare, { type CompareNode } from './NodeCompare';
+import SnapshotButton from './SnapshotButton';
+import { STAGE } from './node-data';
 import { JsonLd, breadcrumb, datasetLd, SITE } from '../research/seo';
 
 export const metadata: Metadata = {
@@ -68,6 +71,16 @@ const recentDevelopments = developmentPool
     return true;
   })
   .slice(0, 8);
+
+const COMPARE_NODES: CompareNode[] = Object.values(corridorDeep).flatMap((cd) => {
+  const cname = corridors.find((c) => c.slug === cd.slug)?.name ?? cd.slug;
+  return cd.nodes.map((n) => ({
+    key: `${cd.slug}/${n.slug}`, corridor: cd.slug, corridorName: cname, slug: n.slug, name: n.name, state: n.state,
+    stage: n.stage, stageLabel: STAGE[n.stage].label, stageColor: STAGE[n.stage].color,
+    areaAc: n.areaAc, investmentCr: n.investmentCr, jobs: n.jobs,
+    sectors: n.sectors, anchors: n.anchors, developer: n.developer, lead: n.summary[0] ?? '',
+  }));
+});
 
 export default function CorridorsIndex() {
   const itemList = {
@@ -132,6 +145,16 @@ export default function CorridorsIndex() {
       <section className="wrap">
         <div className="section-head-ed">
           <div>
+            <div className="ed-kicker" style={{ color: '#C9A84C' }}>Compare nodes</div>
+            <h2>Put two to four nodes side by side</h2>
+          </div>
+        </div>
+        <NodeCompare nodes={COMPARE_NODES} />
+      </section>
+
+      <section className="wrap">
+        <div className="section-head-ed">
+          <div>
             <div className="ed-kicker" style={{ color: '#C9A84C' }}>Programme at a glance</div>
           </div>
         </div>
@@ -151,6 +174,9 @@ export default function CorridorsIndex() {
           <VizPanel kicker="Node readiness" title={`Where the ${allCorridorNodePairs().length} deep-researched nodes stand`} note="Development stage per node dossier. Open a corridor for per-node status, allottees and sources.">
             <StackedBar label="Nodes by stage" segments={nodesByStage()} />
           </VizPanel>
+        </div>
+        <div style={{ margin: '0 0 18px' }}>
+          <SnapshotButton title="Where India’s industrial-corridor nodes stand" segments={nodesByStage()} corridors={corridors.length} nodes={allCorridorNodePairs().length} asOf="10 Sep 2026" />
         </div>
         <p className="chart-src">Source: PIB — NICDIT Apex Monitoring Authority review (Aug 2026) · Budget 2026–27 allocates a further ₹3,000 cr to NICDIT; NICDP-wide aggregates, shown alongside the corridor table below.</p>
       </section>
