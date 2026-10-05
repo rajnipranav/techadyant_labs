@@ -11,7 +11,7 @@ import { corridorsOrdered, meta, rollup } from './research/atlas';
 import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardSimple, ATLAS_ECOSYSTEMS_COUNT } from './research/extra-ecosystems';
 import { briefings as allBriefings } from './briefings/data';
 import { PulseStrip, StackedBar, BarList, VizPanel } from './components/viz/Viz';
-import { signalPulse, nodesByStage, verificationMix } from './research/insights';
+import { signalPulse, nodesByStage } from './research/insights';
 import { atlas } from './research/atlas';
 import { allCorridorNodePairs, corridorDeep } from './corridors/node-data';
 import { issues as newsletterIssues } from './newsletter/data';
@@ -234,9 +234,6 @@ export default function HomePage() {
           </VizPanel>
           <VizPanel kicker="Corridors" title="How far along are the nodes?" note="Deep-researched nodes by development stage.">
             <StackedBar label="Corridor nodes by stage" segments={stageMix} />
-          </VizPanel>
-          <VizPanel kicker="Evidence" title="How well-sourced are the scores?" note="Share of Atlas layer assessments by verification label. Single-source means one cited primary source so far.">
-            <StackedBar label="Atlas assessments by verification" segments={verificationMix()} />
           </VizPanel>
         </div>
       </section>
