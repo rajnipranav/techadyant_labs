@@ -1,8 +1,24 @@
 # Cowork handoff — `cowork/sourcing-and-followups`
 
-Branch off `main` (PRs #6/#7/#8 merged). Read-only research + code are done and
-committed. **Every SID write is gated and NOT applied** — each is drafted below
-for your explicit per-change OK. Nothing in `_atlas.json` was hand-edited.
+Branch off `main` (PRs #6/#7/#8 merged). Read-only research + code are committed.
+Nothing in `_atlas.json` was hand-edited.
+
+## Applied to SID on 2026-10-05 (with your OK for Tasks 2, 3, 4; Task 5/RLS held)
+
+| # | Change | Before → After |
+|---|---|---|
+| 2 | Created `sid.capture_assessment_sources` (link table) | did not exist → created |
+| 3 | CM · Components & Inputs, assessment `540b2f19-36d2-4184-bbf8-2d79c352b763` | `verification_status`: `single_source` → **`verified`**; linked 2 independent primary sources (PIB/Min. Heavy Industries 27 Dec 2025; PIB/Min. Earth Sciences, Rajya Sabha 2 Apr 2026, PRID 2248182); score unchanged at **1 (Nascent)**; rationale corrected from "~100% imported (53,748 t FY25)" to the 84.8–90.4%-by-quantity wording |
+| 4 | All other `single_source` rows with no external primary source linked | **78 rows** `single_source` → **`unverified`** |
+
+**Resulting exported (latest-per-cell) verification mix: 1 verified, 44 unverified, 0 single-source.** This reaches the live site only when the committed `_atlas.json` is re-baked from SID (your call; the build re-bakes when it has `N8NDB_*` creds). The two new `sources` rows are both linked (no orphans). These are reversible.
+
+Also committed on the branch: `VERIFICATION_DEFINITIONS` + `VERIFICATION_PROVENANCE` in `app/research/insights.ts` — the approved AI-assisted-audit disclosure wording, ready for the evidence panel (wires in with PR #9).
+
+**Still gated (not applied): Task 5 (RLS).** Draft SQL + test plan below; awaiting your OK.
+
+---
+*(Original proposals, for the record:)*
 
 ---
 
