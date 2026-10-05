@@ -16,6 +16,19 @@ export const VERIFICATION_COLOR: Record<string, string> = {
   unverified: '#8593A6',
 };
 
+/** What each verification label means, for the evidence panel. "Verified"
+ *  requires two or more independent primary sources on file. */
+export const VERIFICATION_DEFINITIONS: Record<string, string> = {
+  verified: 'Two or more independent primary sources on file (e.g. a ministry disclosure plus an independent dataset).',
+  single_source: 'One cited reference on file; not yet independently corroborated.',
+  unverified: 'No external primary source linked yet — the score reflects analyst judgement pending sourcing.',
+};
+
+/** Provenance note shown on the evidence panel. States, honestly, how the
+ *  August 2026 assessment refresh was produced. */
+export const VERIFICATION_PROVENANCE =
+  'Part of the August 2026 assessment refresh was AI-assisted — an automated draft pack reviewed internally by Techadyant — and is not yet externally source-verified. We are progressively attaching primary sources and promoting cells to “Verified” as two independent references are confirmed.';
+
 /** Verified / single-source / unverified split across all layer assessments. */
 export function verificationMix() {
   const counts: Record<string, number> = {};
