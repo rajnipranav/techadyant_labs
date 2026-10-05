@@ -4,6 +4,8 @@ import { AtlasNav } from '../AtlasNav';
 import { DependenciesView } from './DependenciesView';
 import { corridorsOrdered, meta, atlas, STATUS_COLORS, STATUS_SHORT } from '../atlas';
 import { DownloadGate } from '../DownloadGate';
+import { biggestGaps, verificationMix, VERIFICATION_LABEL } from '../insights';
+import { VizPanel, StackedBar } from '../../components/viz/Viz';
 import { JsonLd, breadcrumb, faqLd, datasetLd, corridorFaq, SITE } from '../seo';
 
 export const metadata: Metadata = {
@@ -50,6 +52,25 @@ export default function DependenciesPage() {
       </header>
 
       <section className="wrap">
+        <div className="viz-grid" style={{ marginBottom: 22 }}>
+          <VizPanel kicker="Biggest gaps" title="The five weakest layers across all ecosystems" note="Lowest capture scores in the scored grid, ties in source order. Each links to its ecosystem; open the layer for the full rationale and source.">
+            <ol className="viz-gaps">
+              {biggestGaps(5).map((g) => (
+                <li key={`${g.corridor_id}-${g.layer_id}`}>
+                  <span className="viz-gap-s" style={{ background: STATUS_COLORS[g.status] }} title={STATUS_SHORT[g.status]}>{g.status}</span>
+                  <div>
+                    <Link className="viz-gap-t" href={`#${meta(corridorsOrdered.find((c) => c.id === g.corridor_id)?.code ?? '').slug}`}>{g.ecosystem} · {g.layer}</Link>
+                    <p className="viz-gap-r">{g.rationale.replace(/\s*\[[^\]]*\]\s*$/, '')}</p>
+                    <div className="viz-gap-m"><span>{VERIFICATION_LABEL[g.verification] ?? g.verification}</span><span>Assessed {g.date}</span></div>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </VizPanel>
+          <VizPanel kicker="Evidence" title="How well-sourced are the scores?" note="Every score carries a verification label; treat single-source scores as provisional.">
+            <StackedBar label="Assessments by verification" segments={verificationMix()} />
+          </VizPanel>
+        </div>
         <DependenciesView corridors={corridors} grid={atlas.grid} colors={STATUS_COLORS} short={STATUS_SHORT} />
       </section>
 

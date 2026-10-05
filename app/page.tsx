@@ -10,6 +10,9 @@ import { signals } from './signals/data';
 import { corridorsOrdered, meta, rollup } from './research/atlas';
 import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardSimple, ATLAS_ECOSYSTEMS_COUNT } from './research/extra-ecosystems';
 import { briefings as allBriefings } from './briefings/data';
+import { PulseStrip, StackedBar, BarList, VizPanel } from './components/viz/Viz';
+import { signalPulse, nodesByStage, verificationMix } from './research/insights';
+import { atlas } from './research/atlas';
 import { allCorridorNodePairs, corridorDeep } from './corridors/node-data';
 import { issues as newsletterIssues } from './newsletter/data';
 
@@ -44,6 +47,10 @@ const liveSignalsCount = signals.filter((s) => s.status === 'live').length;
 const reportCount = reports.length;
 const depLayersCount = corridorsOrdered.reduce(
   (acc, c) => acc + (rollup(c.id)?.importDependent ?? 0), 0);
+const pulse = signalPulse();
+const stageMix = nodesByStage();
+const opNodes = stageMix.find((s) => s.key === 'operational')?.value ?? 0;
+const totalCells = atlas.grid.length;
 const latestIssue = [...newsletterIssues].filter((i) => i.status === 'live')[0] ?? newsletterIssues[0];
 
 // ── Freshness: recent node-level developments across the national corridors ──
@@ -167,6 +174,19 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── Pulse: what is moving, derived from live data modules at build time ── */}
+      <PulseStrip
+        title="Pulse"
+        asOf={pulse.asOf}
+        items={[
+          { label: 'Signals · last 7 days', value: `${pulse.last7}`, delta: pulse.last7 - pulse.prev7, deltaLabel: `vs ${pulse.prev7} in the prior 7 days`, note: `${pulse.last30} in the last 30 days.`, href: '/signals/' },
+          { label: 'Corridor nodes tracked', value: `${nodesCount}`, note: `${opNodes} operational; the rest approved, under construction or planned.`, href: '/corridors/' },
+          { label: 'Atlas players', value: `${atlas.players.length}`, note: `${atlas.relationships.length} mapped relationships across ${ecosystemsCount} ecosystems.`, href: '/research/players/' },
+          { label: 'Layers import-dependent or nascent', value: `${depLayersCount}/${totalCells}`, note: 'Scored 0–1 on the 0–5 capture scale.', href: '/research/dependencies/' },
+          { label: 'Report editions', value: `${reportCount}`, note: 'Long-form research with executive summaries.', href: '/reports/' },
+        ]}
+      />
+
       {/* ── The platform (breadth at first sight) ── */}
       <section className="wrap" style={{ paddingTop: 30 }} aria-labelledby="platform-h">
         <div className="section-head-ed">
@@ -203,6 +223,21 @@ export default function HomePage() {
               <div className="hs-l">{s.l} <span className="arr">→</span></div>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* ── At a glance: three small charts, each answering one question ── */}
+      <section className="wrap" style={{ paddingTop: 6 }} aria-label="Intelligence at a glance">
+        <div className="viz-grid">
+          <VizPanel kicker="Signals" title="Which themes are moving? (last 30 days)" note={`Live signals by domain, to ${pulse.asOf}.`}>
+            <BarList label="Live signals by domain, last 30 days" rows={pulse.byDomain.slice(0, 6)} />
+          </VizPanel>
+          <VizPanel kicker="Corridors" title="How far along are the nodes?" note="Deep-researched nodes by development stage.">
+            <StackedBar label="Corridor nodes by stage" segments={stageMix} />
+          </VizPanel>
+          <VizPanel kicker="Evidence" title="How well-sourced are the scores?" note="Share of Atlas layer assessments by verification label. Single-source means one cited primary source so far.">
+            <StackedBar label="Atlas assessments by verification" segments={verificationMix()} />
+          </VizPanel>
         </div>
       </section>
 
