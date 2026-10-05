@@ -4,7 +4,7 @@ import { AtlasNav } from '../AtlasNav';
 import { DependenciesView } from './DependenciesView';
 import { corridorsOrdered, meta, atlas, STATUS_COLORS, STATUS_SHORT } from '../atlas';
 import { DownloadGate } from '../DownloadGate';
-import { biggestGaps, verificationMix, VERIFICATION_LABEL } from '../insights';
+import { biggestGaps, verificationMix, VERIFICATION_LABEL, VERIFICATION_DEFINITIONS } from '../insights';
 import { VizPanel, StackedBar } from '../../components/viz/Viz';
 import { JsonLd, breadcrumb, faqLd, datasetLd, corridorFaq, SITE } from '../seo';
 
@@ -67,7 +67,7 @@ export default function DependenciesPage() {
               ))}
             </ol>
           </VizPanel>
-          <VizPanel kicker="Evidence" title="How well-sourced are the scores?" note="Every score carries a verification label; treat single-source scores as provisional.">
+          <VizPanel kicker="Evidence" title="The evidence standard" note={VERIFICATION_DEFINITIONS}>
             <StackedBar label="Assessments by verification" segments={verificationMix()} />
           </VizPanel>
         </div>

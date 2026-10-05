@@ -11,7 +11,7 @@ import { corridorsOrdered, meta, rollup } from './research/atlas';
 import { EXTRA_ECOSYSTEMS, ExtraEcosystemCardSimple, ATLAS_ECOSYSTEMS_COUNT } from './research/extra-ecosystems';
 import { briefings as allBriefings } from './briefings/data';
 import { PulseStrip, StackedBar, BarList, VizPanel } from './components/viz/Viz';
-import { signalPulse, nodesByStage, verificationMix } from './research/insights';
+import { signalPulse, nodesByStage, scoreDistribution } from './research/insights';
 import { atlas } from './research/atlas';
 import { allCorridorNodePairs, corridorDeep } from './corridors/node-data';
 import { issues as newsletterIssues } from './newsletter/data';
@@ -235,8 +235,8 @@ export default function HomePage() {
           <VizPanel kicker="Corridors" title="How far along are the nodes?" note="Deep-researched nodes by development stage.">
             <StackedBar label="Corridor nodes by stage" segments={stageMix} />
           </VizPanel>
-          <VizPanel kicker="Evidence" title="How well-sourced are the scores?" note="Share of Atlas layer assessments by verification label. Single-source means one cited primary source so far.">
-            <StackedBar label="Atlas assessments by verification" segments={verificationMix()} />
+          <VizPanel kicker="Atlas" title="Where do India’s value-chain layers stand?" note={`${totalCells} layer assessments across ${atlas.corridors.length} scored ecosystems, 0 import-dependent to 5 sovereign. Evidence labels are on the Atlas and Dependencies pages.`}>
+            <StackedBar label="Layer assessments by capture score" segments={scoreDistribution()} />
           </VizPanel>
         </div>
       </section>
