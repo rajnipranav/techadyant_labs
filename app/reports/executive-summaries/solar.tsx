@@ -1,6 +1,22 @@
 import Link from 'next/link';
 import styles from './executive-summary.module.css';
 import { ExecutiveSummaryGate } from '../../components/ExecutiveSummaryGate';
+import ReportVisualSummary from '../../components/ReportVisualSummary';
+
+// Pilot: the reusable one-page visual summary. Numbers and insights are drawn
+// verbatim from this report's own key figures (below) — nothing new is asserted.
+const VISUAL_STATS = [
+  { value: '162.15 GW', label: 'Installed solar capacity (MNRE, 30 Jun 2026)' },
+  { value: '85% / 95%', label: 'China share of solar supply-chain / PV wafer capacity (IEA 2026)' },
+  { value: '16–30%', label: 'Tier-1 mid-stream materials IRR at ₹200–600 cr/GW' },
+  { value: '₹1.2 lakh cr/yr', label: 'GDP leakage to 2030 under Status Quo (60% probability)' },
+];
+const VISUAL_INSIGHTS = [
+  { heading: 'India assembles; it does not yet manufacture', text: 'Module capacity ~172 GW (ALMM), but polysilicon, wafers, chemicals, gases and equipment stay 85–100% imported.' },
+  { heading: 'Materials beat polysilicon', text: 'Glass (16–22%), gases (18–26%), chemicals (14–20%) and encapsulants (22–30%) clear the hurdle; polysilicon returns only 4–9% IRR.' },
+  { heading: 'The window is 5–7 years', text: 'The perovskite-silicon tandem transition, Western tariffs and rising Chinese costs all narrow the opening after 2030.' },
+  { heading: 'Localisation is scenario-robust', text: 'It wins under Status Quo (60%), Geopolitical Disruption (25%) and Technology Inflection (15%) alike.' },
+];
 
 const SLUG = 'beyond-solar-panels';
 const REPORT_URL = `/reports/${SLUG}/`;
@@ -198,6 +214,17 @@ export function SolarSummary() {
           </figure>
         </div>
       </header>
+
+      <section className={styles.section} id="visual-summary">
+        <ReportVisualSummary
+          title="Beyond Solar Panels"
+          asOf="02 Aug 2026"
+          stats={VISUAL_STATS}
+          insights={VISUAL_INSIGHTS}
+          sourceUrl="labs.techadyant.com/reports/beyond-solar-panels/executive-summary/"
+          pngName="techadyant-beyond-solar-panels-summary"
+        />
+      </section>
 
       <section className={styles.section} id="thesis">
         <div className={styles.secTitleRow}>
