@@ -33,6 +33,9 @@ export default async function SignalsIndex() {
             notes on the systems we track. Signals are not opinion, blogging or news
             aggregation; they are early reads on structural change.
           </p>
+          <div style={{ marginTop: 14 }}>
+            <Link href="/signals/digest/" className="btn-ed btn-ed-ghost">This week’s digest →</Link>
+          </div>
         </div>
       </header>
 

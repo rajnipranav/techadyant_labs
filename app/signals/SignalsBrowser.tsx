@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { colorFor } from './palette';
 
 const STATUS = [
   { k: 'all', label: 'All' },
@@ -24,9 +25,6 @@ function chipStyle(active: boolean): React.CSSProperties {
     transition: 'all .12s',
   };
 }
-
-const PALETTE = ['#818CF8', '#38E1C4', '#F5B544', '#FB923C', '#34D399', '#E26B5B', '#6CB0FF', '#A78BFA', '#C77D4A', '#2BC5B4'];
-const colorFor = (domains: string[], d: string) => PALETTE[Math.max(0, domains.indexOf(d)) % PALETTE.length];
 
 /** Signals per week over the 12 weeks ending at the newest signal in view. */
 function weekly(items: any[]) {
