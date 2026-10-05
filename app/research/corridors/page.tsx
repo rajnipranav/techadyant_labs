@@ -58,7 +58,7 @@ export default function CorridorsIndex() {
                   {cells.map((c2) => <span key={c2.layer_id} style={{ background: STATUS_COLORS[c2.status] }} />)}
                 </div>
                 <div className="atlas-card-stats">
-                  <span><b>{r.importDependent}</b> import-dependent layers</span>
+                  <span><b>{r.importDependent}</b> import-dependent or nascent layers</span>
                   <span>{players} players</span>
                 </div>
                 <span className="atlas-card-go">Open profile →</span>

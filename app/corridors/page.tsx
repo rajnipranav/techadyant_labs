@@ -6,7 +6,7 @@ import CorridorGLMap from './CorridorGLMap';
 import { corridorFeatures, nodeFeatures } from './corridor-geojson';
 import { corridors, corridorBySlug, CLASS_COLOR, CLASS_LABEL } from './data';
 import { leaderboard, TIER_COLOR, corridorIntel } from './corridor-intel';
-import { deepFor, corridorDeep } from './node-data';
+import { deepFor, corridorDeep, allCorridorNodePairs } from './node-data';
 import { JsonLd, breadcrumb, datasetLd, SITE } from '../research/seo';
 
 export const metadata: Metadata = {
@@ -92,7 +92,7 @@ export default function CorridorsIndex() {
         itemList,
         datasetLd({
           name: "India's 11 national industrial corridors - comparison dataset",
-          description: 'Corridor readiness scores, status, length, states, anchor-node counts and investment programme for all 11 NICDP corridors, plus the 38 deep node profiles (stage, area, investment, jobs, anchor tenants).',
+          description: `Corridor readiness scores, status, length, states, anchor-node counts and investment programme for all 11 NICDP corridors, plus the ${allCorridorNodePairs().length} deep node profiles (stage, area, investment, jobs, anchor tenants).`,
           path: '/data/corridor-nodes.csv',
           keywords: ['industrial corridor', 'NICDP', 'DMIC', 'Dholera', 'readiness score', 'anchor nodes', 'India manufacturing'],
           csv: ['https://labs.techadyant.com/data/corridor-nodes.csv'],

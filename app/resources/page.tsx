@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { SITE } from '../research/seo';
 import { reports } from '../reports/data';
 import { atlas } from '../research/atlas';
+import { SCORED_ECOSYSTEMS_COUNT, EXTENDED_PILLARS_COUNT, ATLAS_ECOSYSTEMS_COUNT } from '../research/extra-ecosystems';
+import { allCorridorNodePairs } from '../corridors/node-data';
 import { CopyField } from '../components/CopyField';
 
 export const metadata: Metadata = {
@@ -19,6 +21,8 @@ const citationText = `Techadyant Labs, “The Atlas — India’s industrial sys
 const embedAtlas = `<a href="${atlasUrl}">The Atlas — India’s industrial systems, mapped (Techadyant Labs)</a>`;
 const embedBadge = `<p>Source: <a href="${SITE}/">Techadyant Labs</a> — strategic intelligence on India’s industrial systems.</p>`;
 
+const NODE_COUNT = allCorridorNodePairs().length;
+
 const bibtexAtlas = `@misc{techadyant:atlas:2026,
   author       = {{Techadyant Labs}},
   title        = {The Atlas — India’s Industrial Systems, Mapped},
@@ -28,7 +32,7 @@ const bibtexAtlas = `@misc{techadyant:atlas:2026,
 }`;
 const bibtexCorridors = `@misc{techadyant:corridor-nodes:2026,
   author       = {{Techadyant Labs}},
-  title        = {India’s Industrial Corridors — Node Dataset (38 nodes, 11 corridors)},
+  title        = {India’s Industrial Corridors — Node Dataset (${NODE_COUNT} nodes, 11 corridors)},
   year         = {2026},
   howpublished = {${SITE}/data/corridor-nodes.csv},
   note         = {CC BY 4.0. Version: August 2026}
@@ -59,8 +63,9 @@ export default function ResourcesPage() {
           </div>
         </div>
         <p className="serif" style={{ color: 'var(--text-muted, #9aa3b2)', marginTop: 0 }}>
-          The Atlas is a living dataset of {atlas.corridors.length} strategic ecosystems,
-          {' '}{atlas.players.length} tracked players and {atlas.grid.length} dependency
+          The Atlas is a living dataset of {ATLAS_ECOSYSTEMS_COUNT} strategic ecosystems
+          ({SCORED_ECOSYSTEMS_COUNT} scored on the value-chain grid, plus {EXTENDED_PILLARS_COUNT} extended pillars),
+          {' '}{atlas.players.length} tracked players and {atlas.grid.length} layer-level dependency
           assessments. If you reference it in a report, article or brief, this is the citation
           we suggest.
         </p>
@@ -120,7 +125,7 @@ export default function ResourcesPage() {
           <li><b>The Atlas</b> — India’s industrial systems, mapped. <Link href="/research/">/research/</Link></li>
           <li><b>Industrial corridors</b> — India’s eleven national industrial corridors. <Link href="/corridors/">/corridors/</Link></li>
           <li><b>Corridor Readiness Score</b> — how the 0–100 score is built. <Link href="/corridors/methodology/">/corridors/methodology/</Link></li>
-          <li><b>Corridor node dataset</b> — 38 nodes, open CSV. <Link href="/data/corridor-nodes.csv">/data/corridor-nodes.csv</Link></li>
+          <li><b>Corridor node dataset</b> — {NODE_COUNT} nodes, open CSV. <Link href="/data/corridor-nodes.csv">/data/corridor-nodes.csv</Link></li>
           <li><b>Research methodology</b> — evidence layers and claim labels. <Link href="/methodology/">/methodology/</Link></li>
           <li><b>Signals</b> — time-sensitive research dispatches. <Link href="/signals/">/signals/</Link></li>
         </ul>

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { allCorridorNodePairs } from '../node-data';
 import { JsonLd, breadcrumb, SITE } from '../../research/seo';
 
 export const metadata: Metadata = {
@@ -121,7 +122,7 @@ export default function MethodologyPage() {
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: '#C9A84C' }}>The dataset</div><h2>Take the data with you</h2></div></div>
         <p style={{ color: 'var(--text-muted)', fontSize: '14px', maxWidth: '72ch', lineHeight: 1.7 }}>
-          The full node dataset — 38 nodes across the eleven corridors, with stage, area, investment, jobs, sectors and
+          The full node dataset — {allCorridorNodePairs().length} nodes across the eleven corridors, with stage, area, investment, jobs, sectors and
           anchor tenants — is available as an open CSV under CC BY 4.0 (attribution: Techadyant Labs):
         </p>
         <p style={{ marginTop: 8 }}>

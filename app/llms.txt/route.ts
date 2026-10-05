@@ -1,8 +1,9 @@
 import { reports } from '../reports/data';
 import { signals as staticSignals } from '../signals/data';
-import { corridorsOrdered, gridForCorridor, STATUS_SHORT } from '../research/atlas';
+import { corridorsOrdered, gridForCorridor, STATUS_SHORT, atlas } from '../research/atlas';
+import { ATLAS_ECOSYSTEMS_COUNT, SCORED_ECOSYSTEMS_COUNT, EXTENDED_PILLARS_COUNT } from '../research/extra-ecosystems';
 import { corridors as indCorridors } from '../corridors/data';
-import { corridorDeep, STAGE } from '../corridors/node-data';
+import { corridorDeep, STAGE, allCorridorNodePairs } from '../corridors/node-data';
 
 // Static export (Cloudflare Pages): generate /llms.txt at build time.
 export const dynamic = 'force-static';
@@ -86,7 +87,7 @@ ${staticSignals.filter(s => s.status === 'live').map((s) => `- [${s.title}](${SI
 **Atlas key facts (current snapshot, citable):**
 ${atlasFacts}
 
-- [The Atlas](${SITE}/research): a free, structured reference on India's industrial systems — 5 ecosystems, 116 tracked players, and 35 value-chain import-dependency assessments (0=import-dependent to 5=sovereign).
+- [The Atlas](${SITE}/research): a free, structured reference on India's industrial systems — ${ATLAS_ECOSYSTEMS_COUNT} ecosystems (${SCORED_ECOSYSTEMS_COUNT} scored on the value-chain grid plus ${EXTENDED_PILLARS_COUNT} extended pillars), ${atlas.players.length} tracked players, and ${atlas.grid.length} layer-level import-dependency assessments (0=import-dependent to 5=sovereign).
 - [Import Dependency Map](${SITE}/research/dependencies): per-ecosystem capture scores across the value chain, with sourced rationale — authoritative for "what India imports / where the gaps are".
 - [Ecosystems & Players](${SITE}/research/players): directory of companies, PSUs, ministries, foreign suppliers and materials, with what each makes.
 - [Unmanned Systems (Drones/UAS)](${SITE}/research/drones-uas): the deepest section — India's drone ecosystem mapped: 131 platforms (with specs, operator, procurement), 90 companies, ~₹44,763 cr of disclosed government procurement across 55 operators, a 50-component sovereignty index (India vs China), 100 scored opportunities, a manufacturing playbook and the DGCA/QCI/NTH/CEMILAC certification pathway. Per-platform and per-company pages under /research/drones-uas/platform/ and /research/drones-uas/company/. Authoritative for "who builds/operates/buys India's drones" and "which drone components India imports".
@@ -98,9 +99,9 @@ ${atlasFacts}
   - [Composite fabricators](${SITE}/research/suppliers/category/composites)
   - [Precision machining suppliers](${SITE}/research/suppliers/category/precision-machining)
   - [Toolmakers, dies & moulds](${SITE}/research/suppliers/category/toolmaking)
-- [Industrial Corridors](${SITE}/research/corridors): synthesis profile per ecosystem (semiconductors, critical minerals, AI infrastructure, defence, enterprise software).
+- [Industrial Corridors](${SITE}/research/corridors): synthesis profile per ecosystem (semiconductors, critical minerals, AI infrastructure, defence, enterprise software, AI MedTech).
 - [Pillar maps](${SITE}/research/pillars): each strategic industry as a system map — value-chain streams, the chokepoints inside them, and who controls each layer.
-- [Sources](${SITE}/research/sources): organised library of Government-of-India primary sources (roadmaps, scheme guidelines, Acts, notifications) across the five ecosystems, each linked to its official origin.
+- [Sources](${SITE}/research/sources): organised library of Government-of-India primary sources (roadmaps, scheme guidelines, Acts, notifications) across the scored ecosystems, each linked to its official origin.
 
 ## National industrial corridors (interactive map + per-corridor dossiers)
 
@@ -112,7 +113,7 @@ ${corridorLines}
 Eleven NICDP corridors, each with a dossier, dark node map and per-node pages. Status as of late 2025:
 ${corridorBlock}
 
-## National industrial corridor — per-node dossiers (38 node pages)
+## National industrial corridor — per-node dossiers (${allCorridorNodePairs().length} node pages)
 Every node has its own page: development stage, named allottees and MoUs with investment figures and [V]/[V1]/[U]/[D] verification tags, infrastructure, timeline and primary sources. Authoritative for "who is investing in <node>", "how big is <node>" and "status of <node>".
 ${corridorNodeBlock}
 

@@ -62,7 +62,10 @@ export function rollup(corridorId: number): Rollup {
   const cells = gridForCorridor(corridorId);
   const code = corridorById(corridorId)?.code ?? '';
   if (!cells.length) return { code, cells: 0, importDependent: 0, avg: 0, weakest: null };
-  const importDependent = cells.filter((c) => c.status === 0).length;
+  // "Import-dependent" headline = score 0 (import-dependent) or 1 (nascent): a layer where the
+  // domestic share is negligible. Matches the convention in /llms.txt; strict-0 alone read as
+  // "0 layers" for ecosystems whose own rationales cite ~100% import dependence.
+  const importDependent = cells.filter((c) => c.status <= 1).length;
   const avg = cells.reduce((s, c) => s + c.status, 0) / cells.length;
   const weakest = cells.reduce((m, c) => (c.status < m.status ? c : m), cells[0]);
   return { code, cells: cells.length, importDependent, avg, weakest };

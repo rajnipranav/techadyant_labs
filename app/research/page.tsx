@@ -121,7 +121,7 @@ export default function AtlasOverview() {
                 <LayerStrip corridorId={c.id} />
                 <div className="atlas-card-stats">
                   <span><b>{s.players}</b> players</span>
-                  <span><b>{s.chokepoints}</b> chokepoints · <b>{r.importDependent}</b>/<b>{r.cells}</b> import-dep</span>
+                  <span><b>{s.chokepoints}</b> chokepoints · <b>{r.importDependent}</b>/<b>{r.cells}</b> import-dep / nascent</span>
                 </div>
                 <span className="atlas-card-go">Open the pillar map →</span>
               </Link>

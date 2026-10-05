@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { STATUS_COLORS, STATUS_SHORT, atlas } from '../atlas';
 import { JsonLd, breadcrumb, SITE, ORG_REF } from '../seo';
+import { SCORED_ECOSYSTEMS_COUNT, EXTENDED_PILLARS_COUNT, ATLAS_ECOSYSTEMS_COUNT } from '../extra-ecosystems';
 
 export const metadata: Metadata = {
   title: 'Methodology — how the Atlas is built',
@@ -65,9 +66,10 @@ export default function MethodologyPage() {
 
         <h2>The value-chain layers</h2>
         <p>
-          The four industrial ecosystems are assessed across a common six-layer chain. Enterprise
-          Software, being a software stack, is assessed across its own layers (public cloud, ERP,
-          databases, identity, payment rails and so on).
+          Four of the scored ecosystems — Semiconductors, Critical Minerals, AI Infrastructure and
+          Defence — are assessed across a common six-layer chain. Enterprise Software and AI MedTech,
+          being software and clinical-technology stacks, are assessed across their own layers (for
+          Enterprise Software: public cloud, ERP, databases, identity, payment rails and so on).
         </p>
         <dl className="atlas-defs">
           {LAYERS.map(([t, d]) => (
@@ -79,9 +81,12 @@ export default function MethodologyPage() {
         <p>
           Every assessment carries a verification label — <em>verified</em>, <em>single-source</em>
           or <em>unverified</em> — and an assessment date. The Atlas currently holds{' '}
-          {atlas.grid.length} assessments across {atlas.corridors.length} ecosystems and{' '}
+          {atlas.grid.length} layer assessments across {SCORED_ECOSYSTEMS_COUNT} scored ecosystems and{' '}
           {atlas.players.length} tracked players, refreshed as our signal engine surfaces material
-          change. It is a reference, not a verdict: where the evidence is thin we say so.
+          change. The Atlas covers {ATLAS_ECOSYSTEMS_COUNT} ecosystems in all: the {SCORED_ECOSYSTEMS_COUNT} scored
+          here, plus {EXTENDED_PILLARS_COUNT} extended pillars (Unmanned Systems, Counter-UAS, Military
+          Aerospace and Space) that carry their own structured databases and are not part of the
+          {' '}{atlas.grid.length}-assessment grid. It is a reference, not a verdict: where the evidence is thin we say so.
         </p>
         <p>
           The Atlas is free. The full reasoning behind each ecosystem lives in our{' '}
