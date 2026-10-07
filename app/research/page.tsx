@@ -100,7 +100,7 @@ export default function AtlasOverview() {
               { label: 'Relationships', value: atlas.relationships.length },
             ]} />
           </VizPanel>
-          <VizPanel kicker="Evidence" title="How well-sourced are the scores?" note="Verification label on each layer assessment.">
+          <VizPanel kicker="Evidence" title="How each score is evidenced" note={`"Verified" means two or more independent primary sources — a deliberately strict bar. "Single-source" cites one official source. "Analyst-assessed" scores carry a written rationale, with independent sourcing in progress.`}>
             <StackedBar label="Assessments by verification" segments={verificationMix()} />
           </VizPanel>
           <VizPanel kicker="Capture" title="Average sovereignty score by ecosystem (0–5)">

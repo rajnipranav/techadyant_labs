@@ -67,7 +67,7 @@ export default function DependenciesPage() {
               ))}
             </ol>
           </VizPanel>
-          <VizPanel kicker="Evidence" title="How well-sourced are the scores?" note="Every score carries a verification label; treat single-source scores as provisional.">
+          <VizPanel kicker="Evidence" title="How each score is evidenced" note={`"Verified" means two or more independent primary sources — a deliberately strict bar. "Single-source" cites one official source; "Analyst-assessed" scores carry a written rationale, with independent sourcing in progress.`}>
             <StackedBar label="Assessments by verification" segments={verificationMix()} />
           </VizPanel>
         </div>

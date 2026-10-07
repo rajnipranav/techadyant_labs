@@ -8,7 +8,7 @@ import { corridorDeep, STAGE } from '../corridors/node-data';
 export const VERIFICATION_LABEL: Record<string, string> = {
   verified: 'Verified',
   single_source: 'Single-source',
-  unverified: 'Unverified',
+  unverified: 'Analyst-assessed',
 };
 export const VERIFICATION_COLOR: Record<string, string> = {
   verified: '#2F8F7F',
