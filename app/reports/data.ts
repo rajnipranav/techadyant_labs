@@ -158,6 +158,52 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'india-electronic-warfare-market-2026-2035',
+  title: 'India Electronic Warfare Market 2026–2035',
+  subtitle: 'Market size, forecast, key players and defence programmes across the EW, SIGINT and counter-UAS base — demand is locked in after Operation Sindoor; the binding constraints are now RF component sovereignty, cognitive-EW software and procurement velocity.',
+  domain: 'Defence & Dual-Use',
+  edition: 'Edition 1 · October 2026',
+  published: '2026-10-07',
+  publishedLabel: 'October 2026',
+  readingTime: '~ 95 min read',
+  status: 'published',
+  summary: 'India\'s electronic-warfare and SIGINT industrial base is the most strategically consequential — and least documented — segment of its defence ecosystem. After Operation Sindoor, over ₹70,000 crore has been committed to EW line items in twelve months, so demand is locked in; the binding constraints are now GaN MMIC fabrication (still ~75% imported, with SiC substrate and MOCVD reactors 95–100% imported), cognitive-EW software (India at TRL 4–5 against the PLA\'s TRL 6–7), and a 9.5-year procurement cycle running at 2.4× the peer average. This 98-page report is the first sub-component-level map of the RF base — import-dependency and capability-gap matrices, BEL and Astra Microwave order-book analysis, the space-SIGINT gap versus China, and three 2026–2035 market-sizing scenarios from ₹9,200 crore (Stagnant Continuity) to ₹22,000 crore (Strategic Breakout). Every exhibit carries a [V] / [V1] / [Modelled] verification label.',
+  accent: '#38BDF8',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 98,
+  cover: '/covers/india-electronic-warfare-market-2026-2035.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/india-electronic-warfare-market-2026-2035-Free.pdf',
+  previewPages: 28,
+  hasData: true,
+  priceWithData: 11999,
+  dataFilename: 'India-Electronic-Warfare-Market-2026-2035-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['electronic warfare', 'EW SIGINT', 'counter-UAS', 'GaN MMIC', 'cognitive EW', 'BEL', 'Astra Microwave', 'DRDO Pragyashakti', 'RF component sovereignty', 'defence electronics'],
+  faq: [{
+  a: 'The committed-programme baseline values the Indian EW market at ₹3,200 crore in FY24, rising to ₹9,200 crore by FY35 under Stagnant Continuity, ₹15,000 crore under Constrained Acceleration, and ₹22,000 crore under Strategic Breakout. These are Techadyant modelled scenarios, not forecasts of certainty.',
+  q: 'How big is India\'s electronic warfare market?'
+}, {
+  a: 'GaN-on-SiC HEMT MMICs remain approximately 75% import-dependent as of FY26, even after DRDO\'s SSPL and GAETEC cleared functionality tests placing India among roughly seven nations with deployment-ready GaN HEMT MMICs. Upstream is worse: SiC substrate 95%, MOCVD reactors 100%, specialty gases 95% imported.',
+  q: 'What share of GaN MMICs does India still import?'
+}, {
+  a: 'Pakistani Chinese-origin CHL-906 jammers defeated roughly 70% of indigenous Indian drones in the first 48 hours, and a September 2025 Dehradun trial of 46 indigenous UAV vendors under GPS-denied conditions produced zero qualifying passes — prompting a ₹10,000 crore EW-hardened prototype fund.',
+  q: 'Why did Operation Sindoor change Indian EW planning?'
+}, {
+  a: 'Launched by DRDO on 30 October 2025, Pragyashakti is a common EW software framework unifying American, Russian, French (SPECTRA) and indigenous (Samyukta) EW assets across the three services via AI, structured around 8 CSCIs on a 25-month timeline.',
+  q: 'What is Project Pragyashakti?'
+}, {
+  a: 'India\'s Acceptance-of-Necessity-to-first-delivery cycle averages 9.5 years, about 2.4 times the peer-country average of roughly 4.0 years (US 3.5, France 4.2, Israel 3.0, South Korea 4.0, China 2.5). Cycle compression is identified as the single highest-leverage reform.',
+  q: 'How long is India\'s defence procurement cycle?'
+}],
+  sources: ['Ministry of Defence — Annual Reports 2024-25 / 2025-26; DAC/AoN disclosures', 'Bharat Electronics Limited — Annual Reports FY22–FY26 (turnover ₹26,750 Cr, order book ₹74,000 Cr)', 'Astra Microwave Products — Annual Reports FY24/FY25; Q1 FY27 investor presentation', 'DRDO — SAMANVAY 2025 disclosures; SSPL/GAETEC publications; Project Pragyashakti', 'IISS — The Military Balance 2025; CSIS China Power Project (Yaogan-30)', 'Jane\'s — Radar and Electronic Warfare Systems; DGFT / Wassenaar / MTCR (SCOMET); WPC NFAP; Tracxn / BSE/NSE filings'],
+  dateModified: '2026-10-07',
+  seo: {
+  description: 'India electronic warfare market 2026–2035: ₹3,200 Cr (FY24) to ₹9,200–22,000 Cr (FY35), GaN MMIC 75%+ imported, cognitive EW at TRL 4–5 vs PLA 6–7, a 9.5-year procurement cycle, and the RF-component sovereignty, SIGINT and counter-UAS map of India\'s EW industrial base.'
+}
+}, {
   slug: 'india-private-strategic-weapons-industrial-base',
   title: 'India’s Private Strategic Weapons Industrial Base',
   subtitle: 'Market intelligence, technology sovereignty, and commercial capability across the missile, rocket, and precision-munitions ecosystem — 2026–2035.',
@@ -586,6 +632,37 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'india-edge-ai-economy',
+  title: 'India’s Edge AI Economy',
+  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
+  domain: 'Edge AI & Semiconductors',
+  edition: 'Edge AI Series · I · forthcoming',
+  published: '2026-08-15',
+  publishedLabel: 'Forthcoming',
+  readingTime: '~ 2h read',
+  status: 'forthcoming',
+  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
+  accent: '#38e1c4',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: false,
+  hasDeck: false,
+  pages: undefined,
+  cover: '',
+  previewObject: '',
+  previewPages: undefined,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-08-15',
+  seo: {
+
+}
+}, {
   slug: 'beyond-sea-drones-india-autonomous-maritime-systems',
   title: 'Beyond Sea Drones: India\'s Autonomous Maritime Systems Ecosystem 2026-2035',
   subtitle: 'Technologies, supply chains and industrial opportunities in India\'s USV/UUV ecosystem — three market scenarios to 2035, a 12-country Maritime Autonomy Readiness Index, 100 ranked opportunities and a 2026-2035 industrial roadmap.',
@@ -648,37 +725,6 @@ export const reports: ReportMeta[] = [{
   status: 'forthcoming',
   summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
   accent: '#6366F1',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: false,
-  hasDeck: false,
-  pages: undefined,
-  cover: '',
-  previewObject: '',
-  previewPages: undefined,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-08-15',
-  seo: {
-
-}
-}, {
-  slug: 'india-edge-ai-economy',
-  title: 'India’s Edge AI Economy',
-  subtitle: 'The Hidden Industrial Opportunity Behind AI Hardware',
-  domain: 'Edge AI & Semiconductors',
-  edition: 'Edge AI Series · I · forthcoming',
-  published: '2026-08-15',
-  publishedLabel: 'Forthcoming',
-  readingTime: '~ 2h read',
-  status: 'forthcoming',
-  summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
-  accent: '#38e1c4',
   access: 'paid',
   price: 4900,
   currency: 'INR',
@@ -831,6 +877,57 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s green-hydrogen industrial reality — the NGHM and SIGHT money, electrolyser manufacturing, iridium/platinum catalysts, PFSA membranes, LCOH, and three 2035 scenarios (Mirage, Muddle, Machine).'
 }
 }, {
+  slug: 'indian-navy-autonomous-maritime',
+  title: 'The Indian Navy’s Autonomous Maritime Transformation 2026–2035',
+  subtitle: 'Platforms are downstream of ecosystems. What industrial substrate must India build to field an autonomous fleet — and who captures the ₹1.2 lakh crore market beneath USVs, UUVs, XLUUVs and naval UAVs?',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Intelligence · Edition 1 · v1.0',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India’s naval autonomous transformation over 2026–2035 is technically feasible and strategically necessary — but its pace will be set less by platform decisions than by the maturation of the underlying industrial substrate. This strategic-intelligence assessment argues that platforms are downstream of ecosystems, and identifies three binding constraints: semiconductor access (marine-grade FPGAs, RF integrated circuits, AI-edge NPUs), test-and-certification throughput (DGQA and CemILAC capacity), and a projected 12,000–18,000-engineer workforce deficit by 2030. If those are addressed, the Navy can field a credible force posture under the recommended ‘Autonomous Power’ scenario — 80+ USVs, 25+ UUVs including XLUUVs, and 180+ naval UAVs by 2035 — and Indian industry can capture ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The report ranks 58 industrial opportunity surfaces (nine Strategic Anchors), scores India against six comparator navies, maps the DRDO/DPSU/private/startup ecosystem, and models four scenarios to 2035. Twelve chapters, ~35 figures, eight proprietary frameworks and full appendices.',
+  accent: '#2E6497',
+  access: 'paid',
+  price: 5900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 153,
+  cover: '/covers/indian-navy-autonomous-maritime.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Indian_Navy_Autonomous_Maritime_Free.pdf',
+  previewPages: 15,
+  hasData: true,
+  priceWithData: 10900,
+  dataFilename: 'Indian-Navy-Autonomous-Maritime-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['india naval autonomous systems market', 'indian navy USV', 'unmanned underwater vehicle india', 'XLUUV india', 'naval UAV india', 'maritime autonomy india', 'indian navy unmanned roadmap', 'autonomous maritime market india', 'MUM-T india navy', 'naval defence industrial base india', 'DGQA certification autonomous systems', 'india naval drone opportunity'],
+  faq: [{
+  a: 'In the recommended ‘Autonomous Power’ scenario, Indian industry captures about ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore of it export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The top-30 opportunity surfaces alone represent ~₹48,000 crore of 2035 addressable market potential.',
+  q: 'How big is India’s naval autonomous systems market by 2035?'
+}, {
+  a: 'Under the recommended scenario the report models 80+ unmanned surface vessels, 25+ unmanned underwater vehicles including 4–6 extra-large UUVs (XLUUVs), and 180+ naval UAVs including carrier UAVs and swarm squadrons. Lower scenarios field materially less.',
+  q: 'What autonomous fleet can the Indian Navy realistically field by 2035?'
+}, {
+  a: 'Three substrate constraints set the pace: semiconductor access (marine-grade FPGAs, RF integrated circuits and AI-edge NPUs), test-and-certification throughput at DGQA and CemILAC, and a projected 12,000–18,000-engineer workforce deficit by 2030 under business-as-usual.',
+  q: 'What are the binding constraints on India’s naval autonomy?'
+}, {
+  a: 'DRDO laboratories (NSTL, NPOL, NMRL, ADE and others), DPSUs (BEL, Cochin Shipyard), private majors (L&T Defence), and startups such as Sagar Defence Engineering and NewSpace Research & Technologies — mapped across six stakeholder clusters.',
+  q: 'Who are the key players in India’s naval autonomous ecosystem?'
+}, {
+  a: 'The report ranks 58 industrial opportunity surfaces, of which nine are Strategic Anchors — including quantum inertial navigation, XLUUV hull and energy systems, naval autonomy middleware, sonar transducers and arrays, AIP fuel cells, marine lithium-ion cells and navigation-grade IMUs.',
+  q: 'Where are the biggest industrial opportunities?'
+}],
+  sources: [],
+  dateModified: '2026-08-02',
+  seo: {
+  entities: ['USV', 'UUV', 'XLUUV', 'naval UAV', 'MUM-T', 'Indian Navy', 'DRDO', 'autonomous maritime', 'DGQA', 'semiconductor'],
+  metaTitle: 'India Naval Autonomous Systems Market 2026–2035: USV, UUV, XLUUV & Naval UAV',
+  schemaType: 'Report',
+  focusKeyword: 'india naval autonomous systems market',
+  metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.',
+  related_reports: ['beyond-sea-drones-india-autonomous-maritime-systems', 'indias-unmanned-warfare-transformation', 'iaf-autonomous-air-power']
+}
+}, {
   slug: 'q-day-india',
   title: 'Q-Day India',
   subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
@@ -928,57 +1025,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s solar manufacturing beyond module assembly — polysilicon, wafers, cells, glass, equipment. Localisation economics, China dependence, opportunity surfaces and a roadmap to solar-manufacturing sovereignty.'
 }
 }, {
-  slug: 'indian-navy-autonomous-maritime',
-  title: 'The Indian Navy’s Autonomous Maritime Transformation 2026–2035',
-  subtitle: 'Platforms are downstream of ecosystems. What industrial substrate must India build to field an autonomous fleet — and who captures the ₹1.2 lakh crore market beneath USVs, UUVs, XLUUVs and naval UAVs?',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Intelligence · Edition 1 · v1.0',
-  published: '2026-08-02',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'India’s naval autonomous transformation over 2026–2035 is technically feasible and strategically necessary — but its pace will be set less by platform decisions than by the maturation of the underlying industrial substrate. This strategic-intelligence assessment argues that platforms are downstream of ecosystems, and identifies three binding constraints: semiconductor access (marine-grade FPGAs, RF integrated circuits, AI-edge NPUs), test-and-certification throughput (DGQA and CemILAC capacity), and a projected 12,000–18,000-engineer workforce deficit by 2030. If those are addressed, the Navy can field a credible force posture under the recommended ‘Autonomous Power’ scenario — 80+ USVs, 25+ UUVs including XLUUVs, and 180+ naval UAVs by 2035 — and Indian industry can capture ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The report ranks 58 industrial opportunity surfaces (nine Strategic Anchors), scores India against six comparator navies, maps the DRDO/DPSU/private/startup ecosystem, and models four scenarios to 2035. Twelve chapters, ~35 figures, eight proprietary frameworks and full appendices.',
-  accent: '#2E6497',
-  access: 'paid',
-  price: 5900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 153,
-  cover: '/covers/indian-navy-autonomous-maritime.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Indian_Navy_Autonomous_Maritime_Free.pdf',
-  previewPages: 15,
-  hasData: true,
-  priceWithData: 10900,
-  dataFilename: 'Indian-Navy-Autonomous-Maritime-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: ['india naval autonomous systems market', 'indian navy USV', 'unmanned underwater vehicle india', 'XLUUV india', 'naval UAV india', 'maritime autonomy india', 'indian navy unmanned roadmap', 'autonomous maritime market india', 'MUM-T india navy', 'naval defence industrial base india', 'DGQA certification autonomous systems', 'india naval drone opportunity'],
-  faq: [{
-  a: 'In the recommended ‘Autonomous Power’ scenario, Indian industry captures about ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore of it export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The top-30 opportunity surfaces alone represent ~₹48,000 crore of 2035 addressable market potential.',
-  q: 'How big is India’s naval autonomous systems market by 2035?'
-}, {
-  a: 'Under the recommended scenario the report models 80+ unmanned surface vessels, 25+ unmanned underwater vehicles including 4–6 extra-large UUVs (XLUUVs), and 180+ naval UAVs including carrier UAVs and swarm squadrons. Lower scenarios field materially less.',
-  q: 'What autonomous fleet can the Indian Navy realistically field by 2035?'
-}, {
-  a: 'Three substrate constraints set the pace: semiconductor access (marine-grade FPGAs, RF integrated circuits and AI-edge NPUs), test-and-certification throughput at DGQA and CemILAC, and a projected 12,000–18,000-engineer workforce deficit by 2030 under business-as-usual.',
-  q: 'What are the binding constraints on India’s naval autonomy?'
-}, {
-  a: 'DRDO laboratories (NSTL, NPOL, NMRL, ADE and others), DPSUs (BEL, Cochin Shipyard), private majors (L&T Defence), and startups such as Sagar Defence Engineering and NewSpace Research & Technologies — mapped across six stakeholder clusters.',
-  q: 'Who are the key players in India’s naval autonomous ecosystem?'
-}, {
-  a: 'The report ranks 58 industrial opportunity surfaces, of which nine are Strategic Anchors — including quantum inertial navigation, XLUUV hull and energy systems, naval autonomy middleware, sonar transducers and arrays, AIP fuel cells, marine lithium-ion cells and navigation-grade IMUs.',
-  q: 'Where are the biggest industrial opportunities?'
-}],
-  sources: [],
-  dateModified: '2026-08-02',
-  seo: {
-  entities: ['USV', 'UUV', 'XLUUV', 'naval UAV', 'MUM-T', 'Indian Navy', 'DRDO', 'autonomous maritime', 'DGQA', 'semiconductor'],
-  metaTitle: 'India Naval Autonomous Systems Market 2026–2035: USV, UUV, XLUUV & Naval UAV',
-  schemaType: 'Report',
-  focusKeyword: 'india naval autonomous systems market',
-  metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.',
-  related_reports: ['beyond-sea-drones-india-autonomous-maritime-systems', 'indias-unmanned-warfare-transformation', 'iaf-autonomous-air-power']
-}
-}, {
   slug: 'india-critical-manufacturing-dependencies',
   title: 'India’s Critical Manufacturing Dependencies',
   subtitle: 'What should India manufacture domestically over the next decade — why, where, how, and who should build it? 312 strategic import surfaces scored across twelve mega-sectors on the Critical Manufacturing Dependency Index, with twelve executable opportunity zones.',
@@ -1029,6 +1075,44 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s strategic import dependencies scored on the Critical Manufacturing Dependency Index — 312 surfaces across twelve sectors, the deepest chokepoints, twelve opportunity zones and a $480 billion localisation map to 2035.'
 }
 }, {
+  slug: 'dholera-semiconductor-supplier-ecosystem',
+  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
+  domain: 'Semiconductor Ecosystems',
+  edition: 'Edition 01',
+  published: '2026-07-26',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 30 min read',
+  status: 'published',
+  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
+  accent: '#F5B544',
+  access: 'paid',
+  price: 5900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 28,
+  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
+  previewPages: 14,
+  hasData: true,
+  priceWithData: 9900,
+  dataFilename: 'Dholera-Semiconductor-Supplier-Ecosystem-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-07-26',
+  seo: {
+  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
+  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  schemaType: 'Report',
+  focusKeyword: 'Dholera semiconductor ecosystem',
+  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
+  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
+}
+}, {
   slug: 'india-industrial-waste-recycling-economy',
   title: 'India\'s Industrial Waste & Recycling Economy',
   subtitle: 'Battery metals, e-waste, chemical recovery and the secondary-industrial opportunity across Indian recycling corridors',
@@ -1067,44 +1151,6 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India industrial waste recycling economy',
   metaDescription: 'Strategic intelligence on India\'s industrial waste and recycling economy — battery metals, e-waste, black mass, chemical recovery and secondary-industrial corridors.'
-}
-}, {
-  slug: 'dholera-semiconductor-supplier-ecosystem',
-  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
-  domain: 'Semiconductor Ecosystems',
-  edition: 'Edition 01',
-  published: '2026-07-26',
-  publishedLabel: 'July 2026',
-  readingTime: '~ 30 min read',
-  status: 'published',
-  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
-  accent: '#F5B544',
-  access: 'paid',
-  price: 5900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 28,
-  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
-  previewPages: 14,
-  hasData: true,
-  priceWithData: 9900,
-  dataFilename: 'Dholera-Semiconductor-Supplier-Ecosystem-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-07-26',
-  seo: {
-  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
-  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  schemaType: 'Report',
-  focusKeyword: 'Dholera semiconductor ecosystem',
-  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
-  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
 }
 }, {
   slug: 'quantum-supply-chain',
@@ -1640,56 +1686,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'Around 90% of small-drone flight controllers come from China. The market, the silicon, and how India builds a trusted flight-controller and drone-electronics stack.'
 }
 }, {
-  slug: 'the-end-of-the-application-era',
-  title: 'Who Captures Computing When the Application Disappears?',
-  subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
-  domain: 'AI Infrastructure',
-  edition: 'Strategic Foresight · Technology Sovereignty Series · v1.0',
-  published: '2026-06-16',
-  publishedLabel: 'June 2026',
-  readingTime: '~ 2.5h read',
-  status: 'published',
-  summary: 'Every fifteen-to-twenty years the operating system is redesigned, and agentic AI is the trigger for the next one. As work shifts from applications a human opens to goals an agent pursues, the three foundations of the modern OS — CPU-centric scheduling, human-login security and application-siloed state — break at once. This report argues that value migrates down from the application layer into four control primitives — accelerated inference, identity, memory and scheduling (AIMS) — and scores who is positioned to own them on a proprietary Agent-Native Capture Index (ANCI): in 2026 there is no Primitive Owner, and the leaders win on breadth, not depth. It maps the Post-Application Stack layer by layer, traces the hardware chokepoints (advanced packaging, HBM, export policy), and sets out where India — strong in public digital infrastructure and sovereign compute, dependent on the AIMS primitives — can capture the next layer rather than the last one. Eight parts, twenty-six chapters, eighteen figures and the PAS / AIMS / ANCI framework family. Free, and readable in full on this page.',
-  accent: '#818CF8',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 151,
-  cover: '/covers/the-end-of-the-application-era.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/The-End-of-the-Application-Era.pdf',
-  previewPages: 151,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['end of the application era', 'agentic AI operating system', 'post-application stack', 'AIMS framework', 'agent-native capture index', 'future of computing', 'AI operating system', 'agent infrastructure', 'India AI sovereignty', 'sovereign compute India', 'advanced packaging chokepoint', 'operating system redesign AI'],
-  faq: [{
-  a: 'It means the application — the unit we install, trust and open — is becoming friction as work shifts to AI agents that pursue goals across many tools at once. Operating-system dominance has shifted roughly every one to two decades, always when the dominant workload rebalances rather than when features grow; agentic AI is that rebalancing, and it breaks CPU-centric scheduling, human-login security and application-siloed state simultaneously.',
-  q: 'What does “the end of the application era” mean?'
-}, {
-  a: 'Four control primitives the report groups as AIMS — Accelerated inference, Identity, Memory and Scheduling. Value migrates down from the application layer into these primitives, which become the real operating system of the agent era. The report formalises them in an eight-layer Post-Application Stack (PAS).',
-  q: 'What replaces the application as the unit of computing?'
-}, {
-  a: 'ANCI is the report’s 0–100 framework scoring who controls the AIMS primitives. Its headline finding for 2026 is that there is no Primitive Owner: today’s leaders win on breadth across the stack, not depth in any single primitive — which is precisely why the layer is still contestable.',
-  q: 'What is the Agent-Native Capture Index (ANCI)?'
-}, {
-  a: 'It inverts it. Existing models secure human logins, but machine workloads are now using those logins. The report argues trust will move to capability tokens and delegation policy — securing what an agent is permitted to do, for whom, and for how long — rather than who is signed in.',
-  q: 'How does agentic AI change operating-system security?'
-}, {
-  a: 'India is AIMS-dependent but sovereignty-strong: its public digital infrastructure (Aadhaar, UPI, MOSIP) and expanding sovereign compute give it a credible, time-limited advantage. The leapfrog runs through agent-aware design of that public infrastructure and through the identity and consent layer — not through trying to out-build hyperscalers on raw compute.',
-  q: 'Where can India capture value in the post-application era?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['AI agents', 'MCP', 'post-application stack', 'hyperscalers', 'NVIDIA', 'India Stack'],
-  metaTitle: 'The End of the Application Era: India\'s Enterprise Software Shift',
-  schemaType: 'Report',
-  focusKeyword: 'AI agents replacing applications',
-  metaDescription: 'As AI agents replace applications, value moves to inference, identity, memory and orchestration. IndiaAI compute, sovereign cloud and API-first infrastructure.'
-}
-}, {
   slug: 'india-drone-sensors-payloads-imaging-market',
   title: 'India Drone Sensors, Payloads & Imaging Systems Market',
   subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
@@ -1738,6 +1734,56 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India drone sensors market',
   metaDescription: 'India\'s drone sensor and payload market mapped: EO/IR gimbals, LiDAR, thermal and multispectral imaging, remote-sensing payloads — market structure, import dependence and the localisation opportunity.'
+}
+}, {
+  slug: 'the-end-of-the-application-era',
+  title: 'Who Captures Computing When the Application Disappears?',
+  subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
+  domain: 'AI Infrastructure',
+  edition: 'Strategic Foresight · Technology Sovereignty Series · v1.0',
+  published: '2026-06-16',
+  publishedLabel: 'June 2026',
+  readingTime: '~ 2.5h read',
+  status: 'published',
+  summary: 'Every fifteen-to-twenty years the operating system is redesigned, and agentic AI is the trigger for the next one. As work shifts from applications a human opens to goals an agent pursues, the three foundations of the modern OS — CPU-centric scheduling, human-login security and application-siloed state — break at once. This report argues that value migrates down from the application layer into four control primitives — accelerated inference, identity, memory and scheduling (AIMS) — and scores who is positioned to own them on a proprietary Agent-Native Capture Index (ANCI): in 2026 there is no Primitive Owner, and the leaders win on breadth, not depth. It maps the Post-Application Stack layer by layer, traces the hardware chokepoints (advanced packaging, HBM, export policy), and sets out where India — strong in public digital infrastructure and sovereign compute, dependent on the AIMS primitives — can capture the next layer rather than the last one. Eight parts, twenty-six chapters, eighteen figures and the PAS / AIMS / ANCI framework family. Free, and readable in full on this page.',
+  accent: '#818CF8',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 151,
+  cover: '/covers/the-end-of-the-application-era.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/The-End-of-the-Application-Era.pdf',
+  previewPages: 151,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['end of the application era', 'agentic AI operating system', 'post-application stack', 'AIMS framework', 'agent-native capture index', 'future of computing', 'AI operating system', 'agent infrastructure', 'India AI sovereignty', 'sovereign compute India', 'advanced packaging chokepoint', 'operating system redesign AI'],
+  faq: [{
+  a: 'It means the application — the unit we install, trust and open — is becoming friction as work shifts to AI agents that pursue goals across many tools at once. Operating-system dominance has shifted roughly every one to two decades, always when the dominant workload rebalances rather than when features grow; agentic AI is that rebalancing, and it breaks CPU-centric scheduling, human-login security and application-siloed state simultaneously.',
+  q: 'What does “the end of the application era” mean?'
+}, {
+  a: 'Four control primitives the report groups as AIMS — Accelerated inference, Identity, Memory and Scheduling. Value migrates down from the application layer into these primitives, which become the real operating system of the agent era. The report formalises them in an eight-layer Post-Application Stack (PAS).',
+  q: 'What replaces the application as the unit of computing?'
+}, {
+  a: 'ANCI is the report’s 0–100 framework scoring who controls the AIMS primitives. Its headline finding for 2026 is that there is no Primitive Owner: today’s leaders win on breadth across the stack, not depth in any single primitive — which is precisely why the layer is still contestable.',
+  q: 'What is the Agent-Native Capture Index (ANCI)?'
+}, {
+  a: 'It inverts it. Existing models secure human logins, but machine workloads are now using those logins. The report argues trust will move to capability tokens and delegation policy — securing what an agent is permitted to do, for whom, and for how long — rather than who is signed in.',
+  q: 'How does agentic AI change operating-system security?'
+}, {
+  a: 'India is AIMS-dependent but sovereignty-strong: its public digital infrastructure (Aadhaar, UPI, MOSIP) and expanding sovereign compute give it a credible, time-limited advantage. The leapfrog runs through agent-aware design of that public infrastructure and through the identity and consent layer — not through trying to out-build hyperscalers on raw compute.',
+  q: 'Where can India capture value in the post-application era?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['AI agents', 'MCP', 'post-application stack', 'hyperscalers', 'NVIDIA', 'India Stack'],
+  metaTitle: 'The End of the Application Era: India\'s Enterprise Software Shift',
+  schemaType: 'Report',
+  focusKeyword: 'AI agents replacing applications',
+  metaDescription: 'As AI agents replace applications, value moves to inference, identity, memory and orchestration. IndiaAI compute, sovereign cloud and API-first infrastructure.'
 }
 }, {
   slug: 'osat-and-the-packaging-frontier',

@@ -7,6 +7,17 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'india-electronic-warfare-market-2026-2035': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'india-electronic-warfare-market-2026-2035.pdf',
+    filename: 'India-Electronic-Warfare-Market-2026-2035-Techadyant-Labs.pdf',
+    title: 'India Electronic Warfare Market 2026\u20132035',
+    // Report + Data tier: the EW Strategic Intelligence Workbook. Price authority for the data tier.
+    priceWithDataInr: 11999,
+    dataObject: 'data/india-electronic-warfare-market-2026-2035.xlsx',
+    dataFilename: 'India-Electronic-Warfare-Market-2026-2035-Data-Pack-Techadyant-Labs.xlsx',
+  },
   'india-private-strategic-weapons-industrial-base': {
     access: 'paid',
     priceInr: 6999,

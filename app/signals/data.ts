@@ -4956,9 +4956,15 @@ export const signals: SignalMeta[] = [{
 }, {
   type: 'list',
   items: ['The 30 October commercial bids and the prototype-manufacturing award.', 'Final workshare between ADA, the selected partner, HAL and suppliers.', 'Tooling and facility milestones, and material and subsystem qualification.', 'Operational readiness of the Puttaparthi centre.', 'F414 integration and delivery schedules, and a path to an indigenous engine for later variants.']
+}, {
+  text: 'Update (3 Oct): the fallback question is now on the record',
+  type: 'h'
+}, {
+  text: 'At a press conference ahead of Air Force Day on 3 October, Air Chief Marshal A.P. Singh was reported as saying that if the AMCA programme is delayed, India "may have to look at other options", and that Russia has offered the Su-57 but no decision has been taken. The statement is conditional and does not signal a change of plan. Its relevance here is the schedule: the 30 October bids, the September 2028 first-flight target and the 30-month contract clock now sit beside an air force chief publicly naming a foreign stopgap. Whether the Su-57 offer is a serious option or a pressure point on timelines is not established by anything in the reporting.',
+  type: 'p'
 }],
-  takeaways: ['India is targeting September 2028 for the first AMCA prototype flight.', 'Three private formations (Tata Advanced Systems, an L&T-led group and a Bharat Forge-led group) remain, with final bids due 30 October 2026.', 'The selected partner is expected to build five flying prototypes and one structural airframe under ADA design authority.', 'A new flight-test centre at Puttaparthi is planned with a 10,000-foot runway and integration and certification infrastructure.', 'The near-term risk is parallel execution across tooling, materials, suppliers and testing, not engine indigenisation, since the first prototypes use GE F414 engines.'],
-  sources: ['The Economic Times - ET Defence (1 Oct 2026): https://defence.economictimes.indiatimes.com/news/manufacturing/india-sets-september-2028-target-for-amca-first-flight-as-industry-race-narrows/134617102', 'Indian Masterminds (1 Oct 2026): https://indianmasterminds.com/news/defence/india-targets-september-2028-amca-project-first-flight-238330/']
+  takeaways: ['India is targeting September 2028 for the first AMCA prototype flight.', 'Three private formations (Tata Advanced Systems, an L&T-led group and a Bharat Forge-led group) remain, with final bids due 30 October 2026.', 'The selected partner is expected to build five flying prototypes and one structural airframe under ADA design authority.', 'A new flight-test centre at Puttaparthi is planned with a 10,000-foot runway and integration and certification infrastructure.', 'The near-term risk is parallel execution across tooling, materials, suppliers and testing, not engine indigenisation, since the first prototypes use GE F414 engines.', 'The IAF chief said on 3 October that India may look at other options if AMCA is delayed and that Russia has offered the Su-57, with no decision taken.'],
+  sources: ['The Economic Times - ET Defence (1 Oct 2026): https://defence.economictimes.indiatimes.com/news/manufacturing/india-sets-september-2028-target-for-amca-first-flight-as-industry-race-narrows/134617102', 'Indian Masterminds (1 Oct 2026): https://indianmasterminds.com/news/defence/india-targets-september-2028-amca-project-first-flight-238330/', 'The Week (3 Oct 2026): https://www.theweek.in/news/defence/2026/10/03/will-india-look-for-other-options-if-fifth-gen-fighter-jet-amca-gets-delayed-iaf-chief-reveals-future-plans.html', 'Swarajya (Oct 2026): https://swarajyamag.com/defence/iaf-may-consider-foreign-fifth-generation-fighter-if-amca-faces-delays-air-chief-says']
 }, {
   slug: 'indian-private-space-orbital-computing-thermal-intelligence-transporter-18-2026',
   no: 'S-136',
@@ -5077,14 +5083,17 @@ export const signals: SignalMeta[] = [{
   text: 'This adds to earlier counter-drone coverage such as S-097 on directed-energy systems, and is distinct because it concerns a private Indian propulsion milestone for a kinetic interceptor.',
   type: 'p'
 }, {
+  text: 'Update (5 Oct): Business Standard separately reports that the company plans the first experimental flight trial in the coming months, after component integration, with no date given. It says most major subsystems, including the seeker, avionics, warhead and electronics, have been developed but full integration and flight testing are pending. Design objectives quoted by the company include a 2-5 km strike range, a warhead of 0.5-1.5 kg with a proximity fuze, a sub-two-metre error target and a reaction time under seven seconds from detection to launch, on a truck-mounted multi-canister launcher. These are the company\'s stated design goals, not demonstrated performance.',
+  type: 'p'
+}, {
   text: 'What to watch',
   type: 'h'
 }, {
   type: 'list',
   items: ['Repeat motor firings and storage and environmental qualification.', 'A guided flight test, then an intercept against a target drone.', 'Seeker or command-guidance and fuse integration, and a stated unit cost.', 'A user demonstration or development order from the services.', 'Whether GRID Defend can hold a reliable track-to-engagement chain in cluttered conditions.']
 }],
-  takeaways: ['IG Defence reports test-firing two solid rocket motors for its JWALA micro-missile on 3 October 2026.', 'JWALA is positioned as a lower-cost hard-kill counter-drone interceptor within IG Defence\'s GRID battle-management architecture.', 'The motor test is a propulsion milestone only; no guided flight, intercept or user evaluation has been reported.', 'Performance figures in circulation are concept claims and are not used here because they are unverified.'],
-  sources: ['Aviation and Defence Universe (3 Oct 2026): https://www.aviation-defence-universe.com/indias-micro-missile-jwala-marks-key-milestone-with-successful-solid-rocket-motor-test/', 'The Economic Times - ET Manufacturing (3 Oct 2026): https://manufacturing.economictimes.indiatimes.com/amp/news/aerospace-defence/ig-defence-test-fires-jwala-solid-rocket-motors-advances-indigenous-anti-drone-system/134659732', 'IDRW (earlier JWALA unveiling): https://idrw.org/?p=404149']
+  takeaways: ['IG Defence reports test-firing two solid rocket motors for its JWALA micro-missile on 3 October 2026.', 'JWALA is positioned as a lower-cost hard-kill counter-drone interceptor within IG Defence\'s GRID battle-management architecture.', 'The motor test is a propulsion milestone only; no guided flight, intercept or user evaluation has been reported.', 'Performance figures in circulation are concept claims and are not used here because they are unverified.', 'Business Standard reports a first experimental flight trial is planned in the coming months; quoted range, warhead and reaction-time figures are company design objectives, not demonstrated results.'],
+  sources: ['Aviation and Defence Universe (3 Oct 2026): https://www.aviation-defence-universe.com/indias-micro-missile-jwala-marks-key-milestone-with-successful-solid-rocket-motor-test/', 'The Economic Times - ET Manufacturing (3 Oct 2026): https://manufacturing.economictimes.indiatimes.com/amp/news/aerospace-defence/ig-defence-test-fires-jwala-solid-rocket-motors-advances-indigenous-anti-drone-system/134659732', 'IDRW (earlier JWALA unveiling): https://idrw.org/?p=404149', 'Business Standard (4 Oct 2026): https://www.business-standard.com/india-news/ig-defence-plans-trials-of-india-s-first-private-sector-micro-missile-soon-126100400599_1.html']
 }, {
   slug: 'india-first-free-space-qkd-link-5-56-km-qnu-labs-bisag-n-2026',
   no: 'S-139',
@@ -5128,6 +5137,154 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['QNu Labs, BISAG-N and IIT Gandhinagar report a 5.56 km free-space QKD link, trialled on the night of 27-28 September 2026 and announced on 3 October.', 'Reported performance is a quantum bit error rate below 5% and a secure key rate of 230-260 bits per second.', 'The link used QNu Labs\' Armos QKD device with its pointing, acquisition and tracking system and BISAG-N\'s Vedic Kavach post-quantum platform.', 'It is a short, night-time, fixed-site trial, and earlier shorter Indian free-space quantum demonstrations exist, so the first-of-its-kind framing is limited.', 'Figures come from a government statement carried by several agencies and are not independently verified.'],
   sources: ['Swarajya (3 Oct 2026): https://swarajyamag.com/tech/india-achieves-first-556-km-free-space-qkd-link-in-major-quantum-secure-communication-trial', 'Asianet Newsable, ANI feed (3 Oct 2026): https://newsable.asianetnews.com/business/india-successfully-tests-free-space-quantum-key-distribution-over-5-56-km-articleshow-qoqdii6', 'The Hawk, IANS feed (3 Oct 2026): https://www.thehawk.in/news/economy-and-business/india-showcases-its-first-556-km-freespace-quantum-communication-link', 'The Quantum Insider (20 Jun 2025), earlier Indian free-space work: https://thequantuminsider.com/2025/06/20/india-takes-significant-step-in-quantum-communication-with-one-kilometer-entanglement-test/']
+}, {
+  slug: 'national-supercomputing-mission-40-systems-68-petaflops-2026',
+  no: 'S-140',
+  title: 'India\'s Public Compute Layer Reaches 68 Petaflops - Capacity Is Up 70% Since December on Three More Systems',
+  domain: 'AI Infrastructure',
+  date: '2026-10-05',
+  dateLabel: '5 Oct 2026',
+  status: 'live',
+  excerpt: 'The National Supercomputing Mission now reports 40 deployed systems with a combined 68 petaflops as of September 2026, up from 37 systems and 40 petaflops reported in December 2025. Thirteen systems exceed one petaflop, and the mission is working towards 50 systems and over 123 petaflops, alongside indigenous servers, interconnects and cooling.',
+  readingTime: '5 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'A government update reported on 4 October 2026 says the National Supercomputing Mission (NSM) had deployed 40 supercomputers with a combined capacity of 68 petaflops as of September 2026. The mission is steered jointly by the Department of Science and Technology and the Ministry of Electronics and IT, and implemented by C-DAC Pune and the Indian Institute of Science, Bengaluru. It was launched in April 2015 with an outlay of about Rs 4,500 crore. Reporting also says 13 of the systems exceed one petaflop, and that the plan is for 50 systems with over 123 petaflops of cumulative capacity.',
+  type: 'p'
+}, {
+  text: 'What changed since December',
+  type: 'h'
+}, {
+  text: 'In December 2025 the mission was reported at 37 systems and 40 petaflops. The September 2026 figures are three more systems and 28 more petaflops, a rise of about 70% in capacity on an 8% rise in system count. That pattern points to larger machines being added rather than more small clusters, which is the direction the 123-petaflop target also implies. The December figures come from earlier government reporting; the 2026 figures come from a government update carried by IANS and other outlets, so both are official statements rather than independent measurements.',
+  type: 'p'
+}, {
+  text: 'Usage and the indigenous stack',
+  type: 'h'
+}, {
+  text: 'The mission reports support for more than 16,000 researchers across over 400 institutions, over 15 million compute jobs run and about 1,990 research publications. On the hardware side, the mission names the PARAM series and the indigenous Rudra server line, high-speed interconnects tested at 100 and 200 gigabits per second, and locally developed cooling. The coverage does not say which processors or accelerators sit inside these machines or how much of the silicon is domestic, so sovereignty here means system design, integration and operation, not necessarily the chips.',
+  type: 'p'
+}, {
+  text: 'Why aggregate petaflops need care',
+  type: 'h'
+}, {
+  text: 'Petaflops measure peak computation, and a total across 40 sites is not one machine. What matters for researchers and companies is how much of that capacity is scheduled for them, queue times, software support and data movement. It also should not be compared with commercial data-centre capacity quoted in megawatts. S-103 covered the commercial data-centre layer; this signal covers the public research layer, and the two serve different users.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Utilisation and queue times, and the share of capacity open to start-ups and industry.', 'Progress from 40 to 50 systems and from 68 to over 123 petaflops.', 'Disclosure of processors and accelerators used, and any domestic chip or server procurement.', 'Whether common software, scheduling and data-governance arrangements stop the systems from becoming 40 separate islands.']
+}],
+  takeaways: ['The National Supercomputing Mission reports 40 deployed systems with 68 petaflops combined as of September 2026.', 'That compares with 37 systems and 40 petaflops reported in December 2025, so capacity is up about 70% on three more systems.', 'Thirteen systems exceed one petaflop, and the plan is 50 systems with over 123 petaflops.', 'The mission names indigenous Rudra servers, 100 and 200 Gbps interconnects and local cooling, but does not disclose the processors or accelerators inside.', 'Aggregate petaflops are not usable capacity; utilisation, queue times and access will decide practical value.'],
+  sources: ['All India Radio / News On AIR (4 Oct 2026): https://newsonair.gov.in/national-supercomputing-mission-strengthens-indias-indigenous-supercomputing-ecosystem/', 'NewKerala / IANS (4 Oct 2026): https://www.newkerala.com/news/a/indias-supercomputing-capabilities-expanding-support-ai-weather-forecasting-692.htm', 'OpenGov Asia (4 Oct 2026): https://opengovasia.com/india-expands-national-supercomputing-capacity-under-nsm/', 'IBEF on the December 2025 figures (37 systems, 40 petaflops): https://www.ibef.org/news/37-supercomputers-with-a-total-computing-power-of-40-petaflops-deployed-under-the-national-supercomputing-mission-nsm']
+}, {
+  slug: 'bigendian-veerai-ai-vision-soc-tdb-rdi-support-2026',
+  no: 'S-141',
+  title: 'Project VeerAI: India Puts Rs 130 Crore Behind a Secure AI-Vision Chip - A De-Risking Deal, Not a Product',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-10-06',
+  dateLabel: '6 Oct 2026',
+  status: 'live',
+  excerpt: 'The Technology Development Board under DST has signed a Rs 130 crore agreement with Bengaluru\'s BigEndian Semiconductors for Project VeerAI, a Rs 260 crore camera-focused AI vision system-on-chip meant to move from TRL-5 to TRL-9. The first market is secure CCTV and surveillance. It is development funding, not production, and the process node and timeline were not disclosed.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'The Technology Development Board (TDB) of the Department of Science and Technology signed an agreement on 5 October 2026 to provide Rs 130 crore to BigEndian Semiconductors, a Bengaluru chip company, for Project VeerAI. The support comes from the Research Development and Innovation (RDI) Fund and takes the form of Optional Convertible Debt. The project\'s total cost is reported at Rs 260 crore. VeerAI is a camera-focused AI vision system-on-chip on what is described as a sovereign technology platform, and the programme aims to advance it from Technology Readiness Level 5 to TRL-9 through development, validation, integration, testing and scale-up.',
+  type: 'p'
+}, {
+  text: 'Why a vision chip',
+  type: 'h'
+}, {
+  text: 'Cameras increasingly run detection and recognition at the edge, so a chip inside the camera decides what the device can do and how securely it does it. The initial target is CCTV and surveillance, with a roadmap towards defence, automotive, industrial and medical uses, and a stated priority on India and the Global South. The stated aim is to reduce reliance on external chips by combining AI processing with security, privacy and connectivity features on one device.',
+  type: 'p'
+}, {
+  text: 'What this is and is not',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['It is public development finance attached to a named company, a defined product and a measurable maturity target.', 'It is not a production launch: no silicon, tape-out, customer or volume has been announced.', 'The process node, fabrication partner and timeline were not disclosed in the coverage I could read.', 'Design sovereignty does not remove dependence on foreign fabrication, packaging, memory and design tools.']
+}],
+  takeaways: ['TDB-DST signed a Rs 130 crore RDI Fund agreement with BigEndian Semiconductors on 5 October 2026, structured as Optional Convertible Debt.', 'Project VeerAI has a reported total cost of Rs 260 crore and targets a TRL-5 to TRL-9 progression for a camera-focused AI vision SoC.', 'The first application is secure CCTV and surveillance, with defence, automotive, industrial and medical uses on the roadmap.', 'It is a de-risking agreement, not evidence of production; process node, fab partner and timeline were not disclosed.'],
+  sources: ['Press Information Bureau (5 Oct 2026): https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2319038&reg=3&lang=1', 'The Statesman (5 Oct 2026): https://www.thestatesman.com/india/project-veerai-to-advance-secure-application-specific-semiconductor-technology-from-trl-5-to-trl-9-1503647268.html', 'The Hindu BusinessLine (5 Oct 2026): https://www.thehindubusinessline.com/info-tech/tdb-dst-signs-agreement-with-bigendian-semiconductors-for-130-crore-rdi-support/article71547591.ece']
+}, {
+  slug: 'hal-koraput-2000th-aero-engine-second-shakti-line-2026',
+  no: 'S-142',
+  title: 'HAL Koraput Marks Its 2,000th Aero-Engine and Breaks Ground on a Second Shakti Line - Licensed Capacity, Not Yet Indigenous Design',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-06',
+  dateLabel: '6 Oct 2026',
+  status: 'live',
+  excerpt: 'On 6 October Defence Minister Rajnath Singh is to mark HAL Koraput\'s 2,000th aero-engine delivery and lay the foundation stone for a Rs 218 crore second production line for the Shakti helicopter engine. The line is planned, not built, and Shakti is a joint design with Safran, so it adds Indian capacity for a licensed engine rather than a fully indigenous one.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Pre-event reports say Defence Minister Rajnath Singh will attend HAL\'s Koraput division in Odisha on 6 October 2026 to mark the delivery of its 2,000th aero-engine and to lay the foundation stone for a new Rs 218 crore facility, a second production line for the Shakti engine. The stated purpose is to raise manufacturing capacity for the Dhruv Advanced Light Helicopter and the Prachand Light Combat Helicopter. Odisha\'s Chief Minister, the Defence Production Secretary and HAL\'s chairman are listed as attending. I could not find post-event coverage when writing this, so the details come from announcements made before the ceremony. No completion date or annual output target has been published.',
+  type: 'p'
+}, {
+  text: 'What Shakti is',
+  type: 'h'
+}, {
+  text: 'Shakti is the Indian designation for the Safran Ardiden 1H1, developed jointly by HAL and Safran Helicopter Engines, in the 1,400-2,000 shaft horsepower class with dual-channel FADEC. It powers Dhruv Mk III and Mk IV variants, and each Prachand needs two engines. One trade report links this to a Rs 62,700 crore contract for 156 Prachand helicopters, which would imply at least 312 engines for that contract alone. That figure is the report\'s arithmetic and is not an official engine order.',
+  type: 'p'
+}, {
+  text: 'The dependency frame',
+  type: 'h'
+}, {
+  text: 'A second line removes a capacity bottleneck for helicopter engines, which matters when platform output is rising. It does not change who owns the core design: the engine is a joint programme with a foreign partner, and trade reports describe a separate Aravalli programme as the route to deeper joint development. The useful test of progress is how much of the engine, including hot-section parts, control electronics and castings, is made in India, and how much stays imported under licence.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether the foundation stone event took place and any completion date or annual capacity figure that follows.', 'Indian content in Shakti engines, and any transfer of hot-section or control-system work.', 'Confirmed engine orders tied to Prachand and Dhruv deliveries.', 'Progress of the Aravalli programme as a deeper domestic engine path.']
+}],
+  takeaways: ['HAL Koraput is marking its 2,000th aero-engine delivery, with the Defence Minister due to attend on 6 October 2026.', 'A Rs 218 crore second Shakti engine production line is to receive its foundation stone; it is planned, with no completion date or output target published.', 'Shakti is the Safran Ardiden 1H1 developed jointly with Safran, so the line adds Indian capacity for a licensed engine, not a fully indigenous design.', 'A reported 312-engine requirement for the Prachand contract is trade-report arithmetic, not an official order.'],
+  sources: ['ThePrint (Oct 2026): https://theprint.in/india/rajnath-to-lay-foundation-stone-for-rs-218-cr-shakti-engine-facility-at-hal-unit-in-odisha/3062650/', 'Business Standard (5 Oct 2026): https://www.business-standard.com/external-affairs-defence-security/news/hal-to-add-second-shakti-engine-line-as-india-boosts-aero-engine-capacity-126100501064_1.html', 'Indian Masterminds (Oct 2026): https://indianmasterminds.com/news/rajnath-singh-hal-koraput-2000th-aero-engine-shakti-production-line-239406/', 'Lapaas Voice (Oct 2026): https://lapaasvoice.com/hal-to-add-2nd-shakti-engine-line-for-helicopters']
+}, {
+  slug: 'brahmos-navy-fire-control-launchers-661-crore-2026',
+  no: 'S-143',
+  title: 'The Rs 661 Crore BrahMos Contract Is About the Shipboard Kill Chain, Not Just the Missile',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-07',
+  dateLabel: '7 Oct 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Defence signed a Rs 661.50 crore contract with BrahMos Aerospace on 6 October for fire-control systems and launchers for Indian Navy ships, under Buy (Indian-IDDM) with at least 68% indigenous content. The order covers the shipboard layer that turns target data into a launch, so the test is how much of that layer is Indian-controlled.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 6 October 2026 the Ministry of Defence signed a Rs 661.50 crore contract in New Delhi with BrahMos Aerospace Private Limited to procure BrahMos fire-control systems and launchers for Indian Navy ships. Defence Secretary Rajesh Kumar Singh signed for the ministry. The procurement is under the Buy (Indian-IDDM) category, which carries a minimum 68% indigenous content, and the ministry says it involves Indian industry including MSMEs and will generate employment over three years. BrahMos is the Navy\'s primary surface-to-surface missile, so the equipment goes onto frontline warships. Which ship classes receive it and the delivery schedule were not given in the coverage I could read.',
+  type: 'p'
+}, {
+  text: 'Why fire control and launchers matter',
+  type: 'h'
+}, {
+  text: 'A missile is only as useful as the system that turns a track into a firing solution and the launcher that physically connects ship and weapon. This contract buys that layer, not missiles, which makes it an industrial signal about the shipboard kill chain and the integration work around it.',
+  type: 'p'
+}, {
+  text: 'What the 68% figure does and does not tell you',
+  type: 'h'
+}, {
+  text: 'The 68% minimum is a procurement rule for the contracted system. It does not say which components make up the indigenous share, who owns the software and design authority, or which parts of the chain, such as processors, seekers, propulsion and energetic materials, are still imported. The useful follow-through is the composition of that content and whether MSME work reaches rugged electronics, power systems, launch-control hardware, software, test equipment and lifecycle support, not only final assembly.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The ships receiving the systems and the delivery milestones.', 'A breakdown of the indigenous content and the named domestic suppliers.', 'Ownership of software and combat-system interfaces, and local repair and overhaul capacity.', 'Whether the package is reused across future warship classes.']
+}],
+  takeaways: ['The Ministry of Defence signed a Rs 661.50 crore contract with BrahMos Aerospace on 6 October 2026 for fire-control systems and launchers for Indian Navy ships.', 'The contract is under Buy (Indian-IDDM) with a minimum 68% indigenous content and involves Indian industry including MSMEs, with employment over three years.', 'The significance is the shipboard sensor-to-launch layer, not the missile.', 'The 68% figure does not identify which components, software or upstream materials remain imported; ship classes and delivery schedule were not disclosed.'],
+  sources: ['Press Information Bureau, Ministry of Defence (6 Oct 2026): https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2319502&reg=6&lang=1', 'ANI (6 Oct 2026): https://aninews.in/news/national/general-news/mod-signs-rs-661-crore-contract-to-procure-brahmos-fire-control-system-and-launchers-for-indian-navy-ships20261006155353/', 'DD News (6 Oct 2026): https://ddnews.gov.in/en/defence-ministry-signs-rs-661-50-crore-deal-for-brahmos-fire-control-systems-launchers-for-navy-ships/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
