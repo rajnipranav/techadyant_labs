@@ -5128,6 +5128,55 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['QNu Labs, BISAG-N and IIT Gandhinagar report a 5.56 km free-space QKD link, trialled on the night of 27-28 September 2026 and announced on 3 October.', 'Reported performance is a quantum bit error rate below 5% and a secure key rate of 230-260 bits per second.', 'The link used QNu Labs\' Armos QKD device with its pointing, acquisition and tracking system and BISAG-N\'s Vedic Kavach post-quantum platform.', 'It is a short, night-time, fixed-site trial, and earlier shorter Indian free-space quantum demonstrations exist, so the first-of-its-kind framing is limited.', 'Figures come from a government statement carried by several agencies and are not independently verified.'],
   sources: ['Swarajya (3 Oct 2026): https://swarajyamag.com/tech/india-achieves-first-556-km-free-space-qkd-link-in-major-quantum-secure-communication-trial', 'Asianet Newsable, ANI feed (3 Oct 2026): https://newsable.asianetnews.com/business/india-successfully-tests-free-space-quantum-key-distribution-over-5-56-km-articleshow-qoqdii6', 'The Hawk, IANS feed (3 Oct 2026): https://www.thehawk.in/news/economy-and-business/india-showcases-its-first-556-km-freespace-quantum-communication-link', 'The Quantum Insider (20 Jun 2025), earlier Indian free-space work: https://thequantuminsider.com/2025/06/20/india-takes-significant-step-in-quantum-communication-with-one-kilometer-entanglement-test/']
+}, {
+  slug: 'india-sme-growth-fund-itla-capital-logistics-architecture-2026',
+  no: 'S-140',
+  title: 'India Approves a Rs 10,000 Crore SME Equity Fund and a New Logistics Authority',
+  domain: 'Industrial Corridors',
+  date: '2026-10-07',
+  dateLabel: '7 Oct 2026',
+  status: 'live',
+  excerpt: 'On 6 October 2026 the Union Cabinet cleared two separate decisions: a Rs 10,000 crore SME Growth Fund that takes direct equity in small and medium enterprises, and an Integrated Transport & Logistics Authority to plan, appraise and monitor transport infrastructure and run a national freight-data layer. Read together they are a capital lever and a coordination lever aimed at the same goal. Both are institutional decisions, not spending or procurement, and the outcomes depend on execution that has not happened yet.',
+  readingTime: '6 min',
+  body: [{
+  text: 'The decisions',
+  type: 'h'
+}, {
+  text: 'On 6 October 2026 the Union Cabinet approved two measures. The first is a Rs 10,000 crore SME Growth Fund that makes direct equity investments in small and medium enterprises rather than extending credit. The Government\'s statement says the majority of the allocation will go to small and medium manufacturing-focused enterprises, that the fund will consider SMEs operating in industrial clusters in Tier-II and Tier-III cities, and that the capital is meant to help firms scale operations, invest in technology and manufacturing capacity, expand into international markets and integrate into global value chains. The second is an Integrated Transport & Logistics Authority (ITLA), a special-purpose vehicle for research, planning, appraisal, monitoring and impact assessment across transport and logistics.',
+  type: 'p'
+}, {
+  text: 'What ITLA is mandated to do',
+  type: 'h'
+}, {
+  text: 'The Cabinet note gives ITLA three concrete functions worth separating from the general language. It will prepare a National Transport Master Plan with a planning horizon of ten years or more. It will carry out technical appraisal of Government of India infrastructure projects costing Rs 500 crore or more. And it will build a transport-data layer that integrates the GSTN e-way bill, FASTag, Vahan, GPS-based systems, urban traffic-management systems and other databases, and run analytics on it including freight-flow and origin-destination analysis.',
+  type: 'p'
+}, {
+  text: 'Why read the two together',
+  type: 'h'
+}, {
+  text: 'The individual facts - a fund size, a new authority - are less interesting than what they share. One decision supplies growth-stage equity, the scarce form of capital for a manufacturing SME trying to add a line or enter an export market. The other supplies coordination and data for the physical movement of goods those firms depend on. Capital and logistics are the two constraints that most often cap a mid-sized Indian manufacturer\'s ability to scale, and both were addressed on the same day. That is the systems read: not two news items, but a capital lever and a coordination lever pointed at the same outcome, industrial competitiveness and a larger share of global value chains.',
+  type: 'p'
+}, {
+  text: 'The data layer is the part to watch',
+  type: 'h'
+}, {
+  text: 'ITLA\'s freight-data repository is the most consequential and least-discussed element. Bringing e-way bill, FASTag and Vahan records into one analytical layer would, in principle, let the state see freight flows and origin-destination patterns it has never had a unified view of. That is a planning tool, and it is also the foundation on which a class of private analytics, modelling and infrastructure-monitoring work could sit. How much of this materialises depends on decisions not yet made: the authority\'s legal form and funding, who governs the data, and whether any of it is published or kept internal.',
+  type: 'p'
+}, {
+  text: 'Opportunity surfaces, stated carefully',
+  type: 'h'
+}, {
+  text: 'An institutional architecture like this can open industrial and technology opportunity surfaces - areas where demand or capability may emerge. These are not claims that the Government will procure any product, and nothing here should be read as a forecast of contracts. On the capital side, growth equity aimed at manufacturing SMEs points at precision manufacturing, electronics and semiconductor ancillaries, defence and aerospace Tier-2 and Tier-3 suppliers, battery and power-electronics components, advanced materials and export-oriented specialised manufacturing. On the logistics side, an integrated freight-data and appraisal function points at freight analytics, multimodal optimisation, GIS and geospatial systems, infrastructure monitoring and freight-flow modelling. Whether any of these becomes a real market depends on execution.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The SME Growth Fund\'s structure: who manages it, the ticket size, the holding period, and whether it co-invests or leads.', 'ITLA\'s legal form, funding and timeline, and when the first National Transport Master Plan is tabled.', 'Whether the freight-data layer is governed for internal planning only or exposed, even partially, as public data.', 'The first disclosed SME Growth Fund investments, and which clusters and segments they land in.', 'How ITLA\'s Rs 500 crore-plus project appraisals interact with existing bodies like PM Gati Shakti and the DPIIT logistics division.']
+}],
+  takeaways: ['On 6 October 2026 the Union Cabinet approved a Rs 10,000 crore SME Growth Fund (direct equity in SMEs) and an Integrated Transport & Logistics Authority (ITLA).', 'The SME fund is weighted towards manufacturing SMEs and Tier-II/III clusters, aimed at capacity, technology and entry into global value chains.', 'ITLA will prepare a 10-year-plus National Transport Master Plan, technically appraise Government projects of Rs 500 crore or more, and run freight-flow and origin-destination analytics on integrated e-way bill, FASTag, Vahan and GPS data.', 'Read together they are a capital lever and a coordination lever aimed at the same goal; separately they are routine.', 'Both are institutional decisions, not spending or procurement. The opportunity surfaces they could open are potential, not forecasts, and depend on execution not yet visible.'],
+  sources: ['Prime Minister of India (6 Oct 2026), SME Growth Fund: https://www.pmindia.gov.in/en/news_updates/cabinet-approves-commitment-of-rs-10000-crore-towards-establishment-of-the-sme-growth-fund-for-direct-equity-investments-in-small-and-medium-enterprises-to-create-future-champions/', 'Prime Minister of India (6 Oct 2026), Integrated Transport & Logistics Authority: https://www.pmindia.gov.in/en/news_updates/cabinet-approves-setting-up-of-integrated-transport-logistics-authority/', 'Business Standard (6 Oct 2026), on ITLA: https://www.business-standard.com/economy/news/cabinet-approves-new-body-to-integrate-transport-and-logistics-planning-126100600729_1.html', 'Deccan Chronicle (6 Oct 2026), on the SME Growth Fund: https://www.deccanchronicle.com/nation/union-cabinet-approves-10000-crore-sme-growth-fund-for-direct-equity-investments-in-msmes-1993631']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
