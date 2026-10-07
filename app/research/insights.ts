@@ -13,7 +13,7 @@ export const VERIFICATION_LABEL: Record<string, string> = {
 export const VERIFICATION_COLOR: Record<string, string> = {
   verified: '#2F8F7F',
   single_source: '#C99A3A',
-  unverified: '#8593A6',
+  unverified: '#5B6CAE',
 };
 
 /** What each verification label means, for the evidence panel. "Verified"
