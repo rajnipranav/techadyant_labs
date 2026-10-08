@@ -2,6 +2,7 @@
 // Industrial Intelligence layer. Each renders nothing when there is no link, so the host
 // pages are unchanged for every entity outside the pilot.
 import Link from 'next/link';
+import { opportunityHref, programmeRef } from '../programmes/data';
 import {
   getIndustrialNode, getOpportunity, linkForSignal, nodesForCorridorNode, nodesForPlayer, opportunitiesForPlayer,
 } from './data';
@@ -29,7 +30,7 @@ export function PlayerIndustrialLinks({ playerId }: { playerId: string }) {
         {opps.map((o) => (
           <li key={o.id} style={{ fontSize: 14 }}>
             <span style={{ color: 'var(--text-muted)' }}>Opportunity surface (Techadyant analysis): </span>
-            <Link href={`/research/industrial-nodes/${o.node_ids[0].slice(6)}/#opportunities`}>{o.title}</Link>
+            <Link href={opportunityHref(o)}>{o.title}</Link>
           </li>
         ))}
       </ul>
@@ -42,16 +43,18 @@ export function SignalAtlasLinks({ slug }: { slug: string }) {
   if (!link) return null;
   const nodes = link.related_industrial_nodes.map(getIndustrialNode).filter((n): n is NonNullable<typeof n> => Boolean(n));
   const opps = link.opportunity_surfaces.map(getOpportunity).filter((o): o is NonNullable<typeof o> => Boolean(o));
-  if (!nodes.length) return null;
+  const progs = (link.related_programmes ?? []).map(programmeRef);
+  if (!nodes.length && !progs.length && !opps.length) return null;
   return (
     <div style={box}>
       <div style={kicker}>In the Atlas</div>
       <p style={{ fontSize: 14.5, margin: '0 0 8px', color: 'var(--text-muted)' }}>
-        Connectivity, dependencies and opportunity surfaces for the industrial node{nodes.length > 1 ? 's' : ''} this signal touches:
+        {nodes.length ? <>Connectivity, dependencies and opportunity surfaces for the industrial node{nodes.length > 1 ? 's' : ''} this signal touches:</> : <>Where this signal sits in the Atlas:</>}
       </p>
       <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 6 }}>
         {nodes.map((n) => <li key={n.id}><Link href={`/research/industrial-nodes/${n.slug}/`}>{n.name} →</Link></li>)}
-        {opps.map((o) => <li key={o.id} style={{ fontSize: 14 }}><span style={{ color: 'var(--text-muted)' }}>Opportunity surface: </span>{o.title}</li>)}
+        {progs.map((r) => <li key={r.id}><span style={{ color: 'var(--text-muted)' }}>Programme: </span>{r.href ? <Link href={r.href}>{r.name} →</Link> : r.name}</li>)}
+        {opps.map((o) => <li key={o.id} style={{ fontSize: 14 }}><span style={{ color: 'var(--text-muted)' }}>Opportunity surface: </span><Link href={opportunityHref(o)}>{o.title}</Link></li>)}
       </ul>
     </div>
   );

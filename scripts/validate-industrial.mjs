@@ -244,7 +244,9 @@ for (const p of projects) {
   if (p.estimated_cost_cr !== null && !(typeof p.estimated_cost_cr === 'number' && p.estimated_cost_cr > 0)) err(`${w}: estimated_cost_cr must be a positive number or null`);
   if (p.itla_appraisal_tier === true && !(p.estimated_cost_cr >= 500)) err(`${w}: itla_appraisal_tier=true requires cost ≥ ₹500 cr`);
   checkDate(p.approval_date, `${w}.approval_date`, { nullable: true });
-  if (!p.affected_node_ids?.length) err(`${w}: must affect at least one industrial node (project → industrial consequence)`);
+  // A project must lead somewhere: an industrial node, or (Programme Intelligence) an evidenced programme link.
+  if (!p.affected_node_ids?.length && !p.programme_links?.length) err(`${w}: must affect an industrial node or carry a programme link`);
+  (p.programme_links ?? []).forEach((l, i) => checkProv(l.provenance, `${w}.programme_links[${i}]`, { required: true }));
   p.affected_node_ids.forEach((id) => { if (!ids.has(id)) err(`${w}: unknown node ${id}`); });
   p.infra_ids.forEach((id) => { if (!ids.has(id)) err(`${w}: unknown infra ${id}`); });
   p.affected_sectors.filter((s) => s.startsWith('sector:')).forEach((s) => { if (!resolves(s)) err(`${w}: unknown sector ${s}`); });
@@ -261,7 +263,7 @@ for (const o of opps) {
   if (!HORIZONS.has(o.horizon)) err(`${w}: invalid horizon`);
   if (!CONF.has(o.confidence)) err(`${w}: invalid confidence`);
   o.node_ids.forEach((id) => { if (!ids.has(id)) err(`${w}: unknown node ${id}`); });
-  if (!o.node_ids.length) err(`${w}: must reference at least one industrial node`);
+  if (!o.node_ids.length && !o.programme_ids?.length) err(`${w}: must reference an industrial node or a programme`);
   checkProv(o.triggering_development?.provenance, `${w} trigger`, { required: true });
   (o.triggering_development?.project_ids ?? []).forEach((id) => { if (!ids.has(id)) err(`${w}: unknown trigger project ${id}`); });
   o.relevant_project_ids.forEach((id) => { if (!ids.has(id)) err(`${w}: unknown project ${id}`); });
@@ -335,6 +337,8 @@ projects.forEach((p) => p.infra_ids.forEach((i) => referenced.add(i)));
 nodes.forEach((n) => n.ics_inputs.forEach((c) => c.derive && referenced.add(c.derive.target)));
 nodes.forEach((n) => { if (!rels.some((r) => r.source === n.id || r.target === n.id)) err(`${n.id}: orphaned industrial node (no relationships)`); });
 infra.forEach((i) => { if (!referenced.has(i.id) && !['seaport', 'airport', 'dfc_station'].includes(i.type)) warn(`${i.id}: infrastructure node not referenced by any relationship or project`); });
+// Programme Intelligence cites the same registry (validated in scripts/validate-programmes.mjs).
+for (const m of read('data/programme-intelligence/programmes.json').matchAll(/"(src:[a-z0-9-]+)"/g)) usedSources.add(m[1]);
 sources.forEach((s) => { if (!usedSources.has(s.id) && !s.access && !s.context_only) warn(`${s.id}: source not cited by any record`); });
 
 /* ---------------------------------------------------------------- report */

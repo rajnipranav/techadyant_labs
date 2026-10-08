@@ -121,6 +121,32 @@
       ],
       "opportunity_surfaces": [],
       "note": ""
+    },
+    {
+      "signal_slug": "kandla-port-based-e-methanol-plant-2300-crore-2026",
+      "related_industrial_nodes": [],
+      "related_projects": [],
+      "related_entities": [],
+      "related_sectors": [],
+      "opportunity_surfaces": [
+        "opp:sagarmala-cez-port-processing"
+      ],
+      "related_programmes": [
+        "sagarmala"
+      ],
+      "note": "A port-based industrial plant at Deendayal (Kandla) — an instance of the port-led industrialisation Sagarmala targets; not documented as a Sagarmala project."
+    },
+    {
+      "signal_slug": "india-sme-growth-fund-itla-capital-logistics-architecture-2026",
+      "related_industrial_nodes": [],
+      "related_projects": [],
+      "related_entities": [],
+      "related_sectors": [],
+      "opportunity_surfaces": [],
+      "related_programmes": [
+        "pm-gati-shakti"
+      ],
+      "note": "ITLA’s ≥ ₹500 crore appraisal role sits alongside the PM GatiShakti NPG."
     }
   ]
 }

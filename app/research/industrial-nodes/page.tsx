@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { opportunityHref } from '../programmes/data';
 import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { JsonLd, breadcrumb, faqLd, SITE } from '../seo';
@@ -107,7 +108,7 @@ export default function IndustrialNodesHub() {
         <ul className="ii-opp-list" role="list">
           {opportunities.map((o) => (
             <li key={o.id}>
-              <Link href={`/research/industrial-nodes/${o.node_ids[0].slice(6)}/#opportunities`}>{o.title}</Link>
+              <Link href={opportunityHref(o)}>{o.title}</Link>
               <span className="ii-src-meta"> · {o.location} · {o.opportunity_type.replace(/_/g, ' ')} · horizon {o.horizon} · confidence {o.confidence}</span>
             </li>
           ))}

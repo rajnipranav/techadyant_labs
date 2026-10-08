@@ -724,6 +724,149 @@
       "accessed_date": "2026-10-08",
       "confidence": "medium",
       "notes": "Compiled corridor dossier; cites NIE, PIB, Siasat and others. Road/rail/airport distances (NH-40 ~5.4 km, Krishnapuram rail ~4.9 km, Kadapa Airport ~5.2 km, Krishnapatnam ~256 km) are as reported there, not surveyed."
+    },
+    {
+      "id": "src:pib-gatishakti-framework-2021",
+      "source_name": "PM GatiShakti — National Master Plan for multi-modal connectivity (research note)",
+      "publisher": "PIB",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/oct/doc2021102511.pdf",
+      "source_type": "government",
+      "publication_date": "2021-10-25",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "Cabinet cleared the plan on 21 Oct 2021; three-tier framework: Empowered Group of Secretaries (Cabinet Secretary, 18 ministries), Network Planning Group, Technical Support Unit. Lists sectors covered incl. roads, railways, shipping, aviation, industrial corridors, electronics clusters. Ministry counts in the note are internally inconsistent (12/16/18)."
+    },
+    {
+      "id": "src:pib-gatishakti-3yrs-2024",
+      "source_name": "PM GatiShakti National Master Plan completes 3 years of transforming India's infrastructure landscape",
+      "publisher": "PIB (Ministry of Commerce & Industry)",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2064378",
+      "source_type": "government",
+      "publication_date": "2024-10-12",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "Launched 13 Oct 2021; 44 central ministries and 36 States/UTs; more than 1,600 data layers; 200+ big-ticket projects evaluated by the NPG; 533+ projects mapped by States/UTs; extension to social-sector planning."
+    },
+    {
+      "id": "src:pib-gatishakti-note-2024",
+      "source_name": "PM Gati Shakti: Transforming India's infrastructure and logistics (press note)",
+      "publisher": "PIB",
+      "source_url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=153274&ModuleId=3",
+      "source_type": "government",
+      "publication_date": "2024-10-12",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "1,614 data layers; 208 big-ticket projects worth ₹15.39 lakh crore assessed; 434 projects under three railway economic corridors evaluated; District Master Plan portal (beta, 28 aspirational districts); ULIP 930+ registered private companies, 95 live applications."
+    },
+    {
+      "id": "src:swarajya-gatishakti-npg-2026",
+      "source_name": "PM GatiShakti panel evaluates 396 projects worth ₹18.66 lakh crore; 256 sanctioned, 198 under implementation",
+      "publisher": "Swarajya",
+      "source_url": "https://swarajyamag.com/infrastructure/indias-mega-infra-push-pm-gatishakti-panel-evaluates-396-projects-worth-rs-1866-lakh-crore-256-sanctioned-and-198-under-implementation",
+      "source_type": "trade_press",
+      "publication_date": "2026-08-12",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Secondary report citing a PIB release (PRID 2297818, not independently retrieved): 396 projects / ₹18.66 lakh crore evaluated through the NPG; 256 sanctioned; 198 under implementation; 57 ministries/departments and 36 States/UTs; 1,700+ data layers; logistics/connectivity projects above ₹500 crore must go through the NPG. As-on date not stated."
+    },
+    {
+      "id": "src:pib-gct-2026",
+      "source_name": "Gati Shakti Multi-Modal Cargo Terminals (GCTs): Driving India's logistics transformation",
+      "publisher": "PIB",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jan/doc2026113755701.pdf",
+      "source_type": "government",
+      "publication_date": "2026-01-13",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "GCT Policy introduced by the Ministry of Railways on 15 Dec 2021; 306 GCTs approved, 118 commissioned; ~₹8,600 crore private investment; GCT freight revenue ₹12,608 crore in 2024-25; New Sanjali GCT is the first on private land along the Western DFC. Capacity figure (192 MTPA) is attributed inconsistently within the document, so it is not used."
+    },
+    {
+      "id": "src:ls-bharatmala-components-2018",
+      "source_name": "Lok Sabha Unstarred Question No. 1077 — Bharatmala Pariyojana",
+      "publisher": "Lok Sabha (MoRTH reply)",
+      "source_url": "https://eparlib.sansad.in/bitstream/123456789/773906/1/AU1074.pdf",
+      "source_type": "government",
+      "publication_date": "2018-02-08",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "CCEA approved Phase-I on 24 Oct 2017. Component lengths: economic corridors ~9,000 km; inter-corridor & feeder ~6,000; national corridors efficiency ~5,000; border & international connectivity ~2,000; coastal & port connectivity ~2,000; expressways ~800; balance NHDP ~10,000. Original completion target 2021-22."
+    },
+    {
+      "id": "src:pac-144-bharatmala-2024",
+      "source_name": "Public Accounts Committee (2023-24), 144th Report — Implementation of Phase-I of Bharatmala Pariyojana",
+      "publisher": "Lok Sabha Secretariat",
+      "source_url": "https://eparlib.nic.in/bitstream/123456789/2976820/1/17_Public_Accounts_144.pdf",
+      "source_type": "government",
+      "publication_date": "2024-04-29",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "Examines CAG Report No. 19 of 2023. Component costs (₹5,35,000 crore total). Sanctioned cost of 26,316 km awarded ₹8,46,588 crore (₹32.17 crore/km vs ₹15.37 crore/km approved; 158.24%); 13,499 km completed by 31 Mar 2023; coastal & port connectivity 20.75% awarded / 5.20% completed; none of 35 planned MMLPs developed by Mar 2023; MoRTH revised estimate ₹10.95 lakh crore."
+    },
+    {
+      "id": "src:swarajya-bharatmala-rs-2026",
+      "source_name": "Over 22,700 km of roads completed under Bharatmala Pariyojana, government tells Parliament",
+      "publisher": "Swarajya",
+      "source_url": "https://swarajyamag.com/infrastructure/indias-biggest-highway-push-over-22700-km-of-roads-completed-under-bharatmala-pariyojana-government-tells-parliament",
+      "source_type": "trade_press",
+      "publication_date": "2026-07-23",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Reports a Rajya Sabha written reply by the MoRTH Minister on 22 Jul 2026: 26,425 km awarded; 22,709 km constructed up to May 2026; new sanctions under Phase-I discontinued since November 2023. Primary Rajya Sabha text not yet retrieved — upgrade when pinned."
+    },
+    {
+      "id": "src:pib-infra-doc-2025",
+      "source_name": "Building Bharat — Powering infrastructure through Make in India",
+      "publisher": "PIB / Ministry of Information & Broadcasting",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/apr/doc202541530501.pdf",
+      "source_type": "government",
+      "publication_date": "2025-04-01",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "Bharatmala as on 28 Feb 2025: 26,425 km awarded of 34,800 km; 19,826 km constructed; 6,669 km greenfield awarded / 4,610 km completed; expenditure ₹4,92,562 crore. Same source as the SID logistics record."
+    },
+    {
+      "id": "src:ians-blr-chennai-expressway-2026",
+      "source_name": "Bengaluru–Chennai Expressway to boost connectivity to key industrial, logistics hubs: FM Sitharaman",
+      "publisher": "IANS (via SocialNews.XYZ)",
+      "source_url": "https://www.socialnews.xyz/2026/06/14/bengaluru-chennai-expressway-to-boost-connectivity-to-key-industrial-logistics-hubs-fm-sitharaman/amp/",
+      "source_type": "trade_press",
+      "publication_date": "2026-06-14",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Greenfield expressway being developed under Bharatmala Pariyojana Phase-I; Karnataka stretch ~71 km in three packages; described as a priority corridor under the Chennai–Bengaluru Industrial Corridor; names Hoskote, Malur, Bangarpet, Narasapura and the proposed Dobbaspet MMLP. No construction progress or opening date."
+    },
+    {
+      "id": "src:pib-sagarmala-2026",
+      "source_name": "Sagarmala: Transforming India's maritime landscape",
+      "publisher": "PIB",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc2026411845301.pdf",
+      "source_type": "government",
+      "publication_date": "2026-04-11",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "Launched March 2015; five pillars, 24 categories. As of 24 Mar 2026: 845 projects (₹6.06 lakh crore); 315 completed (₹1.57 lakh crore); 210 under implementation; 320 in planning. Major ports FY 2025-26: record 915.17 MT. SDCL restructured as Sagarmala Finance Corporation (June 2025). Sagarmala 2.0 proposed: ₹85,482 crore budgetary support, ₹3.6 lakh crore total investment. Inland waterway cargo 145.5 MT in FY 2024-25."
+    },
+    {
+      "id": "src:sagarmala-cez",
+      "source_name": "How many CEZs are being planned under Sagarmala?",
+      "publisher": "Sagarmala Programme (MoPSW)",
+      "source_url": "https://sagarmala.gov.in/node/89333",
+      "source_type": "government",
+      "publication_date": null,
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "14 Coastal Economic Zones proposed, covering all maritime States and UTs; perspective plans prepared for all 14. Undated FAQ page — status may be older than the access date."
+    },
+    {
+      "id": "src:theweek-deendayal-rob-2026",
+      "source_name": "Deendayal Port gets green light for ₹132.51 crore ROB project in latest Sagarmala push",
+      "publisher": "The Week",
+      "source_url": "https://www.theweek.in/news/maritime/2026/04/04/deendayal-port-gets-green-light-for-rs-132-51-crore-rob-project-in-latest-sagarmala-push.amp.html",
+      "source_type": "trade_press",
+      "publication_date": "2026-04-04",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Road over bridge at level crossing LC-235, Deendayal Port (Kandla); ₹132.51 crore; funded under the Sagarmala Programme; appraised by MoPSW's Delegated Investment Board. Purpose: ease the rail crossing bottleneck and speed cargo evacuation."
     }
   ]
 }

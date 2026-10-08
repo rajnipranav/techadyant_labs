@@ -1,0 +1,1893 @@
+{
+  "version": "1.0",
+  "note": "Programme Intelligence layer (Techadyant reading). Facts and headline metrics for each programme live in the SID logistics schema (logistics_id); every claim here cites data/industrial-intelligence/sources.json. Graph edges are on projects (programme_links), opportunity surfaces (programme_ids) and signal links (related_programmes).",
+  "roadmap": [
+    {
+      "logistics_id": "dfc",
+      "slug": "dedicated-freight-corridors",
+      "name": "Dedicated Freight Corridors",
+      "angle": "The rail freight backbone reshaping manufacturing and logistics geography.",
+      "phase": 2
+    },
+    {
+      "logistics_id": null,
+      "slug": "industrial-corridors",
+      "name": "Industrial Corridors (NICDP)",
+      "angle": "The physical architecture of India’s emerging manufacturing geography.",
+      "phase": 2,
+      "href": "/corridors/"
+    },
+    {
+      "logistics_id": "ulip",
+      "slug": "ulip",
+      "name": "Unified Logistics Interface Platform",
+      "angle": "India’s digital logistics integration layer.",
+      "phase": 2
+    }
+  ],
+  "programmes": [
+    {
+      "id": "prog:gati-shakti",
+      "logistics_id": "pm-gati-shakti",
+      "slug": "gati-shakti",
+      "name": "PM GatiShakti National Master Plan",
+      "short_name": "Gati Shakti",
+      "role": "cross_cutting",
+      "category": "integration_layer",
+      "lead_ministry": "Ministry of Commerce & Industry (DPIIT, Logistics Division)",
+      "angle": "India’s infrastructure coordination layer — and what it changes for industrial connectivity.",
+      "question": "Which industrial nodes get their road, rail, port and logistics links planned together, and which still get them in sequence?",
+      "stage": "operational",
+      "stage_note": "The platform and its institutions are operating. It does not build infrastructure itself: it plans and evaluates projects that other programmes fund and build.",
+      "launch": {
+        "date": "2021-10-13",
+        "label": "Launched 13 Oct 2021; institutional framework cleared by the Cabinet on 21 Oct 2021",
+        "provenance": [
+          {
+            "source_id": "src:pib-gatishakti-3yrs-2024"
+          },
+          {
+            "source_id": "src:pib-gatishakti-framework-2021"
+          }
+        ]
+      },
+      "time_horizon": {
+        "text": "Standing institution with no end date. The 2021 plan set sectoral targets to 2024-25.",
+        "provenance": [
+          {
+            "source_id": "src:pib-gatishakti-framework-2021"
+          }
+        ]
+      },
+      "geography": "National — central ministries and all 36 States/UTs on one geospatial platform",
+      "sectors": [
+        "Logistics",
+        "All infrastructure-dependent manufacturing",
+        "sector:semiconductors"
+      ],
+      "infrastructure_types": [
+        "Roads",
+        "Railways",
+        "Ports & shipping",
+        "Airports",
+        "Pipelines",
+        "Power transmission",
+        "Telecom",
+        "Industrial corridors & clusters"
+      ],
+      "glance": [
+        {
+          "label": "Launch",
+          "value": "13 October 2021",
+          "as_of": "2024-10-12",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-3yrs-2024"
+            }
+          ]
+        },
+        {
+          "label": "Institutions",
+          "value": "Empowered Group of Secretaries (chaired by the Cabinet Secretary) · Network Planning Group · Technical Support Unit",
+          "as_of": "2021-10-25",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-framework-2021"
+            }
+          ]
+        },
+        {
+          "label": "On the platform",
+          "value": "57 central ministries/departments and 36 States/UTs; 1,700+ data layers",
+          "as_of": "2026-08-12",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-gatishakti-npg-2026"
+            }
+          ]
+        },
+        {
+          "label": "Projects evaluated (NPG)",
+          "value": "396 projects worth about ₹18.66 lakh crore",
+          "as_of": "2026-08-12",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-gatishakti-npg-2026"
+            }
+          ]
+        },
+        {
+          "label": "Of which",
+          "value": "256 sanctioned · 198 under implementation",
+          "as_of": "2026-08-12",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-gatishakti-npg-2026"
+            }
+          ]
+        },
+        {
+          "label": "Routing rule",
+          "value": "Logistics and connectivity projects above ₹500 crore go through the NPG",
+          "as_of": "2026-08-12",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-gatishakti-npg-2026"
+            }
+          ]
+        }
+      ],
+      "ledger": [
+        {
+          "stage": "approved",
+          "label": "Institutional framework",
+          "value": "EGoS, NPG and TSU approved by the Cabinet",
+          "as_of": "2021-10-21",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-framework-2021"
+            }
+          ]
+        },
+        {
+          "stage": "operational",
+          "label": "Platform reach (Oct 2024)",
+          "value": "44 central ministries · 36 States/UTs · 1,614 data layers",
+          "as_of": "2024-10-12",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-note-2024"
+            }
+          ]
+        },
+        {
+          "stage": "operational",
+          "label": "Platform reach (Aug 2026)",
+          "value": "57 ministries/departments · 36 States/UTs · 1,700+ data layers",
+          "as_of": "2026-08-12",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-gatishakti-npg-2026"
+            }
+          ]
+        },
+        {
+          "stage": "approved",
+          "label": "Projects evaluated → sanctioned",
+          "value": "208 projects / ₹15.39 lakh crore assessed (Oct 2024) → 396 / ₹18.66 lakh crore evaluated, 256 sanctioned (Aug 2026)",
+          "as_of": "2026-08-12",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-note-2024"
+            },
+            {
+              "source_id": "src:swarajya-gatishakti-npg-2026"
+            }
+          ]
+        },
+        {
+          "stage": "under_implementation",
+          "label": "Evaluated projects under implementation",
+          "value": "198",
+          "as_of": "2026-08-12",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-gatishakti-npg-2026"
+            }
+          ]
+        }
+      ],
+      "why_it_matters": [
+        {
+          "text": "Gati Shakti builds nothing itself. It decides which projects get planned together: a road, a rail line, a terminal and a port that once came out of separate ministries are now laid over one map before approval. Its industrial effect comes through that sequencing.",
+          "evidence": "analysis",
+          "provenance": []
+        },
+        {
+          "text": "The evidence trail now shows up in approvals. When the Cabinet approved the ₹20,667 crore Sarkhej–Dholera rail line to India’s first fab node in May 2026, the release said the project was planned on the PM-Gati Shakti National Master Plan.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-sarkhej-dholera-rail-2026"
+            }
+          ]
+        },
+        {
+          "text": "That is why Techadyant treats Gati Shakti as the cross-cutting layer, not one programme among six. Bharatmala, Sagarmala, the freight corridors, the industrial corridors and ULIP all meet the industrial node through it.",
+          "evidence": "analysis",
+          "provenance": []
+        }
+      ],
+      "components": [
+        {
+          "key": "nmp",
+          "name": "National Master Plan platform",
+          "description": "Geospatial platform where ministries and States map existing and planned infrastructure.",
+          "scale": "1,700+ data layers · 57 ministries/departments · 36 States/UTs (Aug 2026)",
+          "stage": "operational",
+          "progress": null,
+          "provenance": [
+            {
+              "source_id": "src:swarajya-gatishakti-npg-2026"
+            }
+          ]
+        },
+        {
+          "key": "egos",
+          "name": "Empowered Group of Secretaries",
+          "description": "Chaired by the Cabinet Secretary. Reviews and monitors implementation and sets the norms for amending the plan.",
+          "scale": null,
+          "stage": "operational",
+          "progress": null,
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-framework-2021"
+            }
+          ]
+        },
+        {
+          "key": "npg",
+          "name": "Network Planning Group",
+          "description": "Heads of the network-planning wings of infrastructure ministries. Evaluates big-ticket projects for network fit before approval.",
+          "scale": "396 projects · ~₹18.66 lakh crore evaluated (Aug 2026)",
+          "stage": "operational",
+          "progress": "256 sanctioned · 198 under implementation (Aug 2026)",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-framework-2021"
+            },
+            {
+              "source_id": "src:swarajya-gatishakti-npg-2026"
+            }
+          ]
+        },
+        {
+          "key": "tsu",
+          "name": "Technical Support Unit",
+          "description": "Supports network integration and micro-level planning to reduce logistics cost.",
+          "scale": null,
+          "stage": "operational",
+          "progress": null,
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-framework-2021"
+            }
+          ]
+        },
+        {
+          "key": "dmp",
+          "name": "District Master Plan portal",
+          "description": "Extends the platform to district level.",
+          "scale": "Beta for 28 aspirational districts (Sep 2024); phased roll-out planned",
+          "stage": "under_implementation",
+          "progress": null,
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-note-2024"
+            }
+          ]
+        },
+        {
+          "key": "gct",
+          "name": "Gati Shakti Multi-Modal Cargo Terminals",
+          "description": "Ministry of Railways policy (Dec 2021) under which public and private parties build rail cargo terminals.",
+          "scale": "306 approved · 118 commissioned · ~₹8,600 crore private investment (Jan 2026)",
+          "stage": "operational",
+          "progress": null,
+          "provenance": [
+            {
+              "source_id": "src:pib-gct-2026"
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2021-10-13",
+          "label": "National Master Plan launched",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-3yrs-2024"
+            }
+          ]
+        },
+        {
+          "date": "2021-10-21",
+          "label": "Cabinet clears the EGoS–NPG–TSU framework",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-framework-2021"
+            }
+          ]
+        },
+        {
+          "date": "2021-12-15",
+          "label": "Railways introduce the Gati Shakti Cargo Terminal policy",
+          "provenance": [
+            {
+              "source_id": "src:pib-gct-2026"
+            }
+          ]
+        },
+        {
+          "date": "2024-10-12",
+          "label": "Three years: 44 ministries, 36 States/UTs, 1,600+ data layers",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-3yrs-2024"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-13",
+          "label": "118 cargo terminals commissioned, 306 approved",
+          "provenance": [
+            {
+              "source_id": "src:pib-gct-2026"
+            }
+          ]
+        },
+        {
+          "date": "2026-05-13",
+          "label": "Sarkhej–Dholera rail line approved as an NMP-planned project",
+          "provenance": [
+            {
+              "source_id": "src:pib-sarkhej-dholera-rail-2026"
+            }
+          ]
+        },
+        {
+          "date": "2026-08-12",
+          "label": "NPG count reaches 396 projects (~₹18.66 lakh crore)",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-gatishakti-npg-2026"
+            }
+          ]
+        }
+      ],
+      "gaps": [
+        {
+          "title": "Evaluated is not built",
+          "detail": "Of 396 projects evaluated through the NPG, 256 were sanctioned and 198 were under implementation (Aug 2026). The NPG count measures planning throughput, not delivered infrastructure.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-gatishakti-npg-2026"
+            }
+          ]
+        },
+        {
+          "title": "Sequencing gaps persist at the node",
+          "detail": "Even with NMP planning, Dholera gets road access first (the NE-8 expressway opened for testing in Feb 2026) and rail later (Sarkhej–Dholera completion up to 2030-31). Integrated planning has not removed the time lag between modes.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ne8-expressway-2026"
+            },
+            {
+              "source_id": "src:pib-sarkhej-dholera-rail-2026"
+            }
+          ]
+        },
+        {
+          "title": "The platform is not public",
+          "detail": "Techadyant cannot see the NMP’s data layers and does not replicate them. This page works from what is published: approvals that cite the NMP, NPG counts and policy documents.",
+          "evidence": "analysis",
+          "provenance": []
+        }
+      ],
+      "consequences": [
+        {
+          "dimension": "manufacturing",
+          "headline": "Industrial nodes are becoming planning objects, not just destinations",
+          "claims": [
+            {
+              "text": "The 2021 plan listed industrial corridors (11 corridors, 32 nodes), electronics manufacturing clusters, pharma clusters and defence corridors as layers alongside transport networks.",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:pib-gatishakti-framework-2021"
+                }
+              ]
+            },
+            {
+              "text": "Once a cluster is a layer, its connectivity can be evaluated against it before approval. That favours nodes with a strategic anchor — the Dholera rail line is the clearest case in this Atlas.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        },
+        {
+          "dimension": "logistics",
+          "headline": "The rail network gets doors",
+          "claims": [
+            {
+              "text": "118 Gati Shakti Cargo Terminals were commissioned by Jan 2026, with about ₹8,600 crore of private investment. The first terminal on private land along the Western DFC is at New Sanjali, Gujarat.",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:pib-gct-2026"
+                }
+              ]
+            },
+            {
+              "text": "Terminals turn the rail backbone and the DFC into something a manufacturer can actually use. Where terminals sit relative to industrial nodes may matter more than corridor length.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        },
+        {
+          "dimension": "regional",
+          "headline": "Planning reaches district level",
+          "claims": [
+            {
+              "text": "A District Master Plan portal went to beta for 28 aspirational districts in Sep 2024, and the platform was extended to social-sector planning.",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:pib-gatishakti-note-2024"
+                }
+              ]
+            },
+            {
+              "text": "If districts plan on the same data frame as central ministries, smaller industrial locations become visible to project evaluators. This depends on the roll-out.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        },
+        {
+          "dimension": "technology",
+          "headline": "A geospatial data market inside government",
+          "claims": [
+            {
+              "text": "The platform integrates 1,700+ data layers across 57 ministries and departments (Aug 2026).",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:swarajya-gatishakti-npg-2026"
+                }
+              ]
+            },
+            {
+              "text": "Keeping layers current, validating them and connecting them to ULIP’s logistics APIs creates steady demand for GIS, data-engineering and analytics capability. Whether that is procured or built in-house is not documented.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        },
+        {
+          "dimension": "supply_chains",
+          "headline": "Fewer \"road now, rail later\" gaps — in principle",
+          "claims": [
+            {
+              "text": "Coordinated evaluation should shorten the periods when a new node has only one usable mode. The Dholera timeline shows that the gap is narrowed by planning but not closed by it.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        }
+      ],
+      "supply_chain": [
+        {
+          "stage": "input",
+          "text": "Bulk inputs and components move by rail or road into the node.",
+          "evidence": "analysis",
+          "provenance": []
+        },
+        {
+          "stage": "manufacturing_node",
+          "text": "Industrial corridors, electronics clusters and defence corridors are layers on the NMP.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-framework-2021"
+            }
+          ]
+        },
+        {
+          "stage": "freight_network",
+          "text": "Logistics and connectivity projects above ₹500 crore are evaluated by the NPG for network fit.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-gatishakti-npg-2026"
+            }
+          ]
+        },
+        {
+          "stage": "logistics_node",
+          "text": "Gati Shakti Cargo Terminals link factories to rail: 118 commissioned.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-gct-2026"
+            }
+          ]
+        },
+        {
+          "stage": "gateway",
+          "text": "Ports, shipping and airports are NMP sectors, so gateway projects are evaluated against the same map.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-framework-2021"
+            }
+          ]
+        },
+        {
+          "stage": "market",
+          "text": "Lower friction across the chain may show up as lower delivered cost — the effect the platform is designed for, not one measured here.",
+          "evidence": "analysis",
+          "provenance": []
+        }
+      ],
+      "related_programmes": [
+        {
+          "logistics_id": "bharatmala",
+          "relation": "coordinates",
+          "note": "The NPG had evaluated 115 NH/road projects (~13,500 km) by Mar 2025.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-infra-doc-2025"
+            }
+          ]
+        },
+        {
+          "logistics_id": "sagarmala",
+          "relation": "coordinates",
+          "note": "Ports, shipping and waterways are NMP sectors.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-framework-2021"
+            }
+          ]
+        },
+        {
+          "logistics_id": "dfc",
+          "relation": "coordinates",
+          "note": "Railways are an NMP sector; the GCT policy puts terminals on the Western DFC.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-framework-2021"
+            },
+            {
+              "source_id": "src:pib-gct-2026"
+            }
+          ]
+        },
+        {
+          "logistics_id": "ulip",
+          "relation": "complements",
+          "note": "PIB presents ULIP’s private-sector uptake (930+ companies) as part of the Gati Shakti logistics story.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-note-2024"
+            }
+          ]
+        }
+      ],
+      "corridor_refs": [],
+      "signal_match": {
+        "patterns": [
+          "gati ?shakti",
+          "national master plan",
+          "network planning group"
+        ],
+        "include": [],
+        "exclude": []
+      },
+      "report_match": {
+        "patterns": [
+          "gati ?shakti"
+        ],
+        "include": [
+          {
+            "slug": "industrial-logistics-behind-manufacturing-india",
+            "reason": "Covers the logistics system Gati Shakti plans."
+          }
+        ],
+        "exclude": []
+      },
+      "data_gaps": [
+        "The Aug 2026 NPG figures come from a secondary report of a PIB release that has not been independently retrieved.",
+        "The NMP’s layer inventory is not public; this page cannot say which industrial nodes are mapped.",
+        "Beyond the Sarkhej–Dholera rail line, which projects serving this Atlas’s industrial nodes passed the NPG is not documented.",
+        "Locations of the 118 commissioned cargo terminals are not yet mapped against industrial nodes."
+      ],
+      "last_verified": "2026-10-08",
+      "data_as_of": "2026-08-12"
+    },
+    {
+      "id": "prog:bharatmala",
+      "logistics_id": "bharatmala",
+      "slug": "bharatmala",
+      "name": "Bharatmala Pariyojana",
+      "short_name": "Bharatmala",
+      "role": "programme",
+      "category": "road_corridors",
+      "lead_ministry": "Ministry of Road Transport & Highways (NHAI, NHIDCL)",
+      "angle": "India’s highway and economic-corridor transformation.",
+      "question": "Which industrial locations did the corridor network make more reachable — and which parts of the programme lagged behind?",
+      "stage": "under_implementation",
+      "stage_note": "Phase-I awarding has closed: new sanctions were discontinued from November 2023. Awarded corridors are still being completed.",
+      "launch": {
+        "date": "2017-10-24",
+        "label": "Phase-I approved by the CCEA on 24 Oct 2017",
+        "provenance": [
+          {
+            "source_id": "src:ls-bharatmala-components-2018"
+          }
+        ]
+      },
+      "time_horizon": {
+        "text": "Phase-I was originally targeted for 2021-22. No current completion date has been captured.",
+        "provenance": [
+          {
+            "source_id": "src:ls-bharatmala-components-2018"
+          },
+          {
+            "source_id": "src:swarajya-bharatmala-rs-2026"
+          }
+        ]
+      },
+      "geography": "National highway network — economic, inter-corridor, feeder, border and port-connectivity routes",
+      "sectors": [
+        "Road freight",
+        "Logistics",
+        "Manufacturing clusters on corridor routes"
+      ],
+      "infrastructure_types": [
+        "Economic corridors",
+        "Inter-corridor & feeder roads",
+        "Greenfield expressways",
+        "Border & port connectivity roads",
+        "Multimodal logistics parks (planned)"
+      ],
+      "glance": [
+        {
+          "label": "Approved",
+          "value": "24 October 2017 (Phase-I)",
+          "as_of": "2018-02-08",
+          "provenance": [
+            {
+              "source_id": "src:ls-bharatmala-components-2018"
+            }
+          ]
+        },
+        {
+          "label": "Phase-I scope",
+          "value": "34,800 km, including ~10,000 km of residual NHDP",
+          "as_of": "2024-04-29",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "label": "Approved cost",
+          "value": "₹5,35,000 crore (2017)",
+          "as_of": "2024-04-29",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "label": "Awarded",
+          "value": "26,425 km",
+          "as_of": "2026-07-22",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-bharatmala-rs-2026"
+            }
+          ]
+        },
+        {
+          "label": "Constructed",
+          "value": "22,709 km (up to May 2026)",
+          "as_of": "2026-07-22",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-bharatmala-rs-2026"
+            }
+          ]
+        },
+        {
+          "label": "New sanctions",
+          "value": "Discontinued since November 2023",
+          "as_of": "2026-07-22",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-bharatmala-rs-2026"
+            }
+          ]
+        }
+      ],
+      "ledger": [
+        {
+          "stage": "approved",
+          "label": "Approved scope",
+          "value": "34,800 km · ₹5.35 lakh crore",
+          "as_of": "2017-10-24",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "stage": "under_implementation",
+          "label": "Awarded",
+          "value": "26,316 km (Mar 2023) → 26,425 km (Feb 2025 onwards)",
+          "as_of": "2026-07-22",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            },
+            {
+              "source_id": "src:pib-infra-doc-2025"
+            },
+            {
+              "source_id": "src:swarajya-bharatmala-rs-2026"
+            }
+          ]
+        },
+        {
+          "stage": "completed",
+          "label": "Constructed",
+          "value": "13,499 km (Mar 2023) → 19,826 km (Feb 2025) → 22,709 km (May 2026)",
+          "as_of": "2026-05-31",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            },
+            {
+              "source_id": "src:pib-infra-doc-2025"
+            },
+            {
+              "source_id": "src:swarajya-bharatmala-rs-2026"
+            }
+          ]
+        },
+        {
+          "stage": "completed",
+          "label": "Greenfield high-speed corridors",
+          "value": "6,669 km awarded · 4,610 km completed",
+          "as_of": "2025-02-28",
+          "provenance": [
+            {
+              "source_id": "src:pib-infra-doc-2025"
+            }
+          ]
+        },
+        {
+          "stage": "approved",
+          "label": "Cost of awarded length",
+          "value": "₹8,46,588 crore for 26,316 km — 158% of the 2017 estimate; MoRTH’s revised estimate ₹10.95 lakh crore",
+          "as_of": "2023-03-31",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        }
+      ],
+      "why_it_matters": [
+        {
+          "text": "Bharatmala matters less for the kilometres it adds than for how it chose them: by corridor, along origin–destination freight routes. Corridors change which industrial locations are cheap to reach, and so where new capacity is likely to go.",
+          "evidence": "analysis",
+          "provenance": []
+        },
+        {
+          "text": "In practice it became an expressway programme. By March 2023, greenfield expressways were 302.75% awarded and 119.75% completed against their approved length, while coastal and port connectivity roads were 20.75% awarded and 5.2% completed.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "text": "The node-level effect is visible at Dholera: the 109 km NE-8 expressway, built under Bharatmala, cut Ahmedabad–Dholera travel from 2 h 15 min to 45 min when it opened for testing in Feb 2026.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ne8-expressway-2026"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "economic_corridors",
+          "name": "Economic corridors",
+          "description": "Freight-heavy origin–destination routes between economic centres.",
+          "scale": "~9,000 km · ₹1,20,000 crore approved",
+          "stage": "under_implementation",
+          "progress": "94.74% awarded · 42.30% completed (Mar 2023)",
+          "provenance": [
+            {
+              "source_id": "src:ls-bharatmala-components-2018"
+            },
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "key": "inter_corridor_feeder",
+          "name": "Inter-corridor & feeder roads",
+          "description": "Links between corridors and feeders into them.",
+          "scale": "~6,000 km · ₹80,000 crore approved",
+          "stage": "under_implementation",
+          "progress": null,
+          "provenance": [
+            {
+              "source_id": "src:ls-bharatmala-components-2018"
+            },
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "key": "nce",
+          "name": "National corridors efficiency improvement",
+          "description": "Decongesting existing national corridors (ring roads, choke points).",
+          "scale": "~5,000 km · ₹1,00,000 crore approved",
+          "stage": "under_implementation",
+          "progress": null,
+          "provenance": [
+            {
+              "source_id": "src:ls-bharatmala-components-2018"
+            },
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "key": "border",
+          "name": "Border & international connectivity roads",
+          "description": "Roads to borders and neighbouring-country links.",
+          "scale": "~2,000 km · ₹25,000 crore approved",
+          "stage": "under_implementation",
+          "progress": "80% awarded · 62.8% completed (Mar 2023)",
+          "provenance": [
+            {
+              "source_id": "src:ls-bharatmala-components-2018"
+            },
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "key": "coastal_port",
+          "name": "Coastal & port connectivity roads",
+          "description": "Road access to ports and coastal areas.",
+          "scale": "~2,000 km · ₹20,000 crore approved",
+          "stage": "under_implementation",
+          "progress": "20.75% awarded · 5.2% completed (Mar 2023)",
+          "provenance": [
+            {
+              "source_id": "src:ls-bharatmala-components-2018"
+            },
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "key": "expressways",
+          "name": "Greenfield expressways",
+          "description": "Access-controlled high-speed corridors.",
+          "scale": "~800 km · ₹40,000 crore approved",
+          "stage": "under_implementation",
+          "progress": "302.75% awarded · 119.75% completed vs approved length (Mar 2023)",
+          "provenance": [
+            {
+              "source_id": "src:ls-bharatmala-components-2018"
+            },
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "key": "nhdp_residual",
+          "name": "Residual NHDP",
+          "description": "Balance works of the earlier National Highways Development Project.",
+          "scale": "~10,000 km · ₹1,50,000 crore approved",
+          "stage": "under_implementation",
+          "progress": null,
+          "provenance": [
+            {
+              "source_id": "src:ls-bharatmala-components-2018"
+            },
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2017-10-24",
+          "label": "CCEA approves Phase-I (34,800 km)",
+          "provenance": [
+            {
+              "source_id": "src:ls-bharatmala-components-2018"
+            }
+          ]
+        },
+        {
+          "date": "2022-09",
+          "label": "Original completion target for Phase-I",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "date": "2023-03-31",
+          "label": "Audit snapshot: 26,316 km awarded, 13,499 km completed; no MMLP developed",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "date": "2023-11",
+          "label": "New sanctions under Phase-I discontinued",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-bharatmala-rs-2026"
+            }
+          ]
+        },
+        {
+          "date": "2024-04-29",
+          "label": "Public Accounts Committee reports on the CAG audit",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-28",
+          "label": "19,826 km constructed; ₹4,92,562 crore spent",
+          "provenance": [
+            {
+              "source_id": "src:pib-infra-doc-2025"
+            }
+          ]
+        },
+        {
+          "date": "2026-02-27",
+          "label": "NE-8 Ahmedabad–Dholera expressway opens for testing",
+          "provenance": [
+            {
+              "source_id": "src:pib-ne8-expressway-2026"
+            }
+          ]
+        },
+        {
+          "date": "2026-05-31",
+          "label": "22,709 km constructed",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-bharatmala-rs-2026"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-14",
+          "label": "Bengaluru–Chennai Expressway (Karnataka, ~71 km) presented as a CBIC priority corridor",
+          "provenance": [
+            {
+              "source_id": "src:ians-blr-chennai-expressway-2026"
+            }
+          ]
+        }
+      ],
+      "gaps": [
+        {
+          "title": "Cost escalation",
+          "detail": "The sanctioned cost of the awarded length was ₹32.17 crore/km against ₹15.37 crore/km approved — 158% of the 2017 estimate (Mar 2023).",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "title": "Logistics parks not delivered",
+          "detail": "None of the 35 planned multimodal logistics parks had been developed by March 2023.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "title": "Port access lagged",
+          "detail": "Coastal & port connectivity roads were 5.2% complete in March 2023 — the weakest component.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "title": "What replaced Phase-I awarding",
+          "detail": "New Phase-I sanctions have been discontinued since November 2023. The successor framework for new highway sanctions is not captured here.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-bharatmala-rs-2026"
+            }
+          ]
+        }
+      ],
+      "consequences": [
+        {
+          "dimension": "manufacturing",
+          "headline": "Corridors reprice industrial locations",
+          "claims": [
+            {
+              "text": "NE-8 cut Ahmedabad–Dholera travel time from 2 h 15 min to 45 min (Feb 2026).",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:pib-ne8-expressway-2026"
+                }
+              ]
+            },
+            {
+              "text": "For a greenfield node, the first fast road link is often what makes construction, workforce and early logistics practical before rail arrives.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        },
+        {
+          "dimension": "logistics",
+          "headline": "Trunk speed improved faster than the first and last mile",
+          "claims": [
+            {
+              "text": "Expressways over-delivered while MMLPs (0 of 35) and port-connectivity roads (5.2%) lagged as of Mar 2023.",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:pac-144-bharatmala-2024"
+                }
+              ]
+            },
+            {
+              "text": "Freight gains on the trunk can be absorbed at port gates and consolidation points that the programme did not build.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        },
+        {
+          "dimension": "trade",
+          "headline": "Export gateways were the weak link",
+          "claims": [
+            {
+              "text": "Coastal & port connectivity was 20.75% awarded and 5.2% completed (Mar 2023).",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:pac-144-bharatmala-2024"
+                }
+              ]
+            },
+            {
+              "text": "The port leg is now addressed partly through Sagarmala’s port-connectivity pillar, so gateway access depends on two programmes.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        },
+        {
+          "dimension": "regional",
+          "headline": "Corridor alignment follows industrial corridors",
+          "claims": [
+            {
+              "text": "The Bengaluru–Chennai Expressway, built under Bharatmala Phase-I, is described as a priority corridor of the Chennai–Bengaluru Industrial Corridor, with industrial areas and a proposed MMLP on its Karnataka section.",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:ians-blr-chennai-expressway-2026"
+                }
+              ]
+            },
+            {
+              "text": "Where highway and industrial-corridor planning coincide, the highway becomes the corridor’s spine — the pattern to watch at other NICDP nodes.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        },
+        {
+          "dimension": "supply_chains",
+          "headline": "Road remains the default mode for time-sensitive inputs",
+          "claims": [
+            {
+              "text": "Faster corridors make road more competitive against rail for components and finished goods even as the DFC opens. That may slow the modal shift the freight corridors were built for.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        }
+      ],
+      "supply_chain": [
+        {
+          "stage": "input",
+          "text": "Components and materials move by road over economic and feeder corridors.",
+          "evidence": "analysis",
+          "provenance": []
+        },
+        {
+          "stage": "manufacturing_node",
+          "text": "Industrial nodes gain fast road access — e.g. Dholera via NE-8.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ne8-expressway-2026"
+            }
+          ]
+        },
+        {
+          "stage": "freight_network",
+          "text": "22,709 km of Phase-I corridors constructed (May 2026).",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:swarajya-bharatmala-rs-2026"
+            }
+          ]
+        },
+        {
+          "stage": "logistics_node",
+          "text": "The 35 planned MMLPs had not been developed as of Mar 2023 — the missing consolidation layer.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "stage": "gateway",
+          "text": "Port connectivity roads 5.2% complete (Mar 2023).",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "stage": "market",
+          "text": "Domestic markets gain most directly; export gains depend on the port leg.",
+          "evidence": "analysis",
+          "provenance": []
+        }
+      ],
+      "related_programmes": [
+        {
+          "logistics_id": "pm-gati-shakti",
+          "relation": "coordinated_by",
+          "note": "115 NH/road projects (~13,500 km) evaluated through the NPG by Mar 2025.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-infra-doc-2025"
+            }
+          ]
+        },
+        {
+          "logistics_id": "sagarmala",
+          "relation": "complements",
+          "note": "Both fund port connectivity: Bharatmala’s coastal & port roads and Sagarmala’s port-connectivity pillar.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:ls-bharatmala-components-2018"
+            },
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "logistics_id": "mmlp",
+          "relation": "complements",
+          "note": "MMLPs were planned under the Bharatmala umbrella; none developed by Mar 2023.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        }
+      ],
+      "corridor_refs": [
+        {
+          "corridor": "chennai-bengaluru",
+          "note": "The Bengaluru–Chennai Expressway (Bharatmala Phase-I) is described as a priority corridor of the CBIC.",
+          "provenance": [
+            {
+              "source_id": "src:ians-blr-chennai-expressway-2026"
+            }
+          ]
+        }
+      ],
+      "signal_match": {
+        "patterns": [
+          "bharatmala"
+        ],
+        "include": [],
+        "exclude": []
+      },
+      "report_match": {
+        "patterns": [
+          "bharatmala"
+        ],
+        "include": [
+          {
+            "slug": "industrial-logistics-behind-manufacturing-india",
+            "reason": "Covers road freight and logistics parks."
+          }
+        ],
+        "exclude": []
+      },
+      "data_gaps": [
+        "The May 2026 progress figures come from a press report of a Rajya Sabha reply; the primary text is not yet pinned.",
+        "Component-wise progress after March 2023 is not captured.",
+        "Expenditure is captured only to February 2025.",
+        "The successor framework for highway sanctions after Phase-I is not documented here.",
+        "Corridor alignments are not mapped; the footprint shows only projects linked to this Atlas’s nodes."
+      ],
+      "last_verified": "2026-10-08",
+      "data_as_of": "2026-07-22"
+    },
+    {
+      "id": "prog:sagarmala",
+      "logistics_id": "sagarmala",
+      "slug": "sagarmala",
+      "name": "Sagarmala Programme",
+      "short_name": "Sagarmala",
+      "role": "programme",
+      "category": "port_led_development",
+      "lead_ministry": "Ministry of Ports, Shipping & Waterways",
+      "angle": "Port-led development and India’s maritime industrial geography.",
+      "question": "Is industry moving towards the ports, or are the ports only getting bigger?",
+      "stage": "under_implementation",
+      "stage_note": "Projects are being completed under the five pillars. A Sagarmala 2.0 has been proposed but not approved.",
+      "launch": {
+        "date": "2015-03",
+        "label": "Launched March 2015",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          }
+        ]
+      },
+      "time_horizon": {
+        "text": "Open-ended. Guided by Maritime India Vision 2030 and Maritime Amrit Kaal Vision 2047; Sagarmala 2.0 proposed in 2026.",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          }
+        ]
+      },
+      "geography": "Coastline, major and non-major ports, coastal States/UTs and national waterways",
+      "sectors": [
+        "Ports & shipping",
+        "Port-linked manufacturing",
+        "Coastal logistics",
+        "Inland waterways"
+      ],
+      "infrastructure_types": [
+        "Ports & berths",
+        "Port connectivity (road/rail)",
+        "Coastal Economic Zones",
+        "Coastal shipping",
+        "Inland waterways"
+      ],
+      "glance": [
+        {
+          "label": "Launch",
+          "value": "March 2015",
+          "as_of": "2026-04-11",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "label": "Project portfolio",
+          "value": "845 projects · ₹6.06 lakh crore",
+          "as_of": "2026-03-24",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "label": "Completed",
+          "value": "315 projects · ₹1.57 lakh crore",
+          "as_of": "2026-03-24",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "label": "Under implementation / in planning",
+          "value": "210 / 320 projects",
+          "as_of": "2026-03-24",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "label": "Major-port cargo",
+          "value": "Record 915.17 MT in FY 2025-26",
+          "as_of": "2026-04-11",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "label": "Coastal Economic Zones",
+          "value": "14 proposed; perspective plans prepared",
+          "as_of": null,
+          "provenance": [
+            {
+              "source_id": "src:sagarmala-cez"
+            }
+          ]
+        }
+      ],
+      "ledger": [
+        {
+          "stage": "approved",
+          "label": "Portfolio identified",
+          "value": "845 projects · ₹6.06 lakh crore",
+          "as_of": "2026-03-24",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "stage": "announced",
+          "label": "In planning",
+          "value": "320 projects",
+          "as_of": "2026-03-24",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "stage": "under_implementation",
+          "label": "Under implementation",
+          "value": "210 projects",
+          "as_of": "2026-03-24",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "stage": "completed",
+          "label": "Completed",
+          "value": "315 projects · ₹1.57 lakh crore (~26% of portfolio value)",
+          "as_of": "2026-03-24",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "stage": "announced",
+          "label": "Sagarmala 2.0",
+          "value": "Proposed: ₹85,482 crore budgetary support · ₹3.6 lakh crore total investment",
+          "as_of": "2026-04-11",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        }
+      ],
+      "why_it_matters": [
+        {
+          "text": "Sagarmala is less about ports than about where industry sits relative to them. Its distinctive pillar is port-led industrialisation: putting processing next to the gateway so that a land leg disappears from the supply chain.",
+          "evidence": "analysis",
+          "provenance": []
+        },
+        {
+          "text": "By project count the programme is well advanced — 315 of 845 projects completed. By value it is not: completed projects account for ₹1.57 of ₹6.06 lakh crore, about a quarter (24 Mar 2026).",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "text": "That gap suggests the large-ticket items — new ports and industrial zones — are the ones still to come. Those are the items that would change industrial geography.",
+          "evidence": "analysis",
+          "provenance": []
+        }
+      ],
+      "components": [
+        {
+          "key": "port_modernisation",
+          "name": "Port modernisation & new port development",
+          "description": "Capacity, mechanisation and new ports.",
+          "scale": null,
+          "stage": "under_implementation",
+          "progress": "Seven completed coastal-berth projects (₹494 crore) added 9.84 MTPA",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "key": "port_connectivity",
+          "name": "Port connectivity enhancement",
+          "description": "Road, rail and other links between ports and hinterland.",
+          "scale": null,
+          "stage": "under_implementation",
+          "progress": "e.g. ₹132.51 crore road over bridge at Deendayal Port approved (Apr 2026)",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            },
+            {
+              "source_id": "src:theweek-deendayal-rob-2026"
+            }
+          ]
+        },
+        {
+          "key": "port_led_industrialisation",
+          "name": "Port-led industrialisation",
+          "description": "Industrial clusters and Coastal Economic Zones near ports.",
+          "scale": "14 CEZs proposed",
+          "stage": "announced",
+          "progress": "Perspective plans prepared for all 14 CEZs",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            },
+            {
+              "source_id": "src:sagarmala-cez"
+            }
+          ]
+        },
+        {
+          "key": "coastal_community",
+          "name": "Coastal community development",
+          "description": "Skills and livelihoods in coastal communities.",
+          "scale": null,
+          "stage": "under_implementation",
+          "progress": null,
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "key": "coastal_iwt",
+          "name": "Coastal shipping & inland waterways transport",
+          "description": "Moving cargo to coastal and river routes.",
+          "scale": null,
+          "stage": "operational",
+          "progress": "Inland-waterway cargo 18.10 MT (FY14) → 145.5 MT (FY25)",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "key": "finance",
+          "name": "Sagarmala Finance Corporation",
+          "description": "SDCL (2016) restructured in June 2025 as a maritime-focused NBFC.",
+          "scale": null,
+          "stage": "operational",
+          "progress": "~₹4,300 crore of loans sanctioned (Dec 2025)",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2015-03",
+          "label": "Sagarmala launched",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "date": "2016-08",
+          "label": "Sagarmala Development Company set up",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "date": "2025-06",
+          "label": "SDCL restructured as Sagarmala Finance Corporation",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "date": "2025-12",
+          "label": "SMFCL sanctions ~₹4,300 crore of loans",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-24",
+          "label": "845 projects (₹6.06 lakh crore); 315 completed",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-04",
+          "label": "Deendayal Port road over bridge (₹132.51 crore) approved under Sagarmala",
+          "provenance": [
+            {
+              "source_id": "src:theweek-deendayal-rob-2026"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-11",
+          "label": "Major ports handle a record 915.17 MT in FY 2025-26; Sagarmala 2.0 proposed",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        }
+      ],
+      "gaps": [
+        {
+          "title": "Value lags count",
+          "detail": "Completed projects are 37% of the portfolio by count but about 26% by value (24 Mar 2026).",
+          "evidence": "derived",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "title": "CEZs are still plans",
+          "detail": "The 14 Coastal Economic Zones are proposed with perspective plans; notification and land status are not documented here.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:sagarmala-cez"
+            }
+          ]
+        },
+        {
+          "title": "Pillar-wise progress",
+          "detail": "The latest release gives no project or value split by pillar.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        }
+      ],
+      "consequences": [
+        {
+          "dimension": "trade",
+          "headline": "Gateway throughput and speed are rising",
+          "claims": [
+            {
+              "text": "Major ports handled a record 915.17 MT in FY 2025-26, and average vessel turnaround fell to 49.5 hours in 2025 from 96 hours in 2014.",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:pib-sagarmala-2026"
+                }
+              ]
+            },
+            {
+              "text": "Faster turnaround lowers the cost of using an Indian gateway rather than transhipping. That matters most for container-heavy manufacturing exports.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        },
+        {
+          "dimension": "logistics",
+          "headline": "Hinterland links are funded port by port",
+          "claims": [
+            {
+              "text": "A ₹132.51 crore road over bridge at Deendayal Port’s LC-235 crossing was approved under Sagarmala to ease cargo evacuation (Apr 2026).",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:theweek-deendayal-rob-2026"
+                }
+              ]
+            },
+            {
+              "text": "Deendayal is the gateway port this Atlas records for the Sanand semiconductor node. Port-gate works like this affect node logistics without ever naming the node.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        },
+        {
+          "dimension": "manufacturing",
+          "headline": "Port-led industrialisation is the unbuilt pillar",
+          "claims": [
+            {
+              "text": "14 CEZs are proposed with perspective plans.",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:sagarmala-cez"
+                }
+              ]
+            },
+            {
+              "text": "If CEZs move to notified land, import-heavy processing (energy, chemicals, metals) is the most likely early mover. None is documented as a CEZ unit here.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        },
+        {
+          "dimension": "supply_chains",
+          "headline": "River and coastal routes add a mode",
+          "claims": [
+            {
+              "text": "Inland-waterway cargo grew from 18.10 MT in FY 2013-14 to 145.5 MT in FY 2024-25.",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:pib-sagarmala-2026"
+                }
+              ]
+            },
+            {
+              "text": "For bulk inputs, a waterway leg can replace road. Its industrial relevance depends on whether terminals sit near clusters.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        },
+        {
+          "dimension": "technology",
+          "headline": "Finance as infrastructure",
+          "claims": [
+            {
+              "text": "SDCL was restructured in June 2025 as a maritime-focused NBFC and sanctioned about ₹4,300 crore of loans by Dec 2025.",
+              "evidence": "fact",
+              "provenance": [
+                {
+                  "source_id": "src:pib-sagarmala-2026"
+                }
+              ]
+            },
+            {
+              "text": "A dedicated lender changes who can finance port-linked projects, including private terminals and shipbuilding-adjacent industry.",
+              "evidence": "analysis",
+              "provenance": []
+            }
+          ]
+        }
+      ],
+      "supply_chain": [
+        {
+          "stage": "input",
+          "text": "Imported energy, feedstocks and components arrive through major and non-major ports.",
+          "evidence": "analysis",
+          "provenance": []
+        },
+        {
+          "stage": "manufacturing_node",
+          "text": "Port-adjacent processing is planned through 14 proposed CEZs.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:sagarmala-cez"
+            }
+          ]
+        },
+        {
+          "stage": "freight_network",
+          "text": "Port-connectivity projects link the port gate to road and rail.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:theweek-deendayal-rob-2026"
+            }
+          ]
+        },
+        {
+          "stage": "logistics_node",
+          "text": "Coastal and inland-waterway terminals add a non-road leg (145.5 MT IWT cargo, FY25).",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "stage": "gateway",
+          "text": "Major ports: 915.17 MT in FY 2025-26; turnaround 49.5 h (2025).",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "stage": "market",
+          "text": "Export markets — the leg where turnaround and port charges set competitiveness.",
+          "evidence": "analysis",
+          "provenance": []
+        }
+      ],
+      "related_programmes": [
+        {
+          "logistics_id": "pm-gati-shakti",
+          "relation": "coordinated_by",
+          "note": "Ports, shipping and waterways are NMP sectors.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-gatishakti-framework-2021"
+            }
+          ]
+        },
+        {
+          "logistics_id": "bharatmala",
+          "relation": "complements",
+          "note": "Both fund port-connectivity links.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:ls-bharatmala-components-2018"
+            },
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "logistics_id": "iwai",
+          "relation": "complements",
+          "note": "Coastal shipping and inland waterways transport is one of Sagarmala’s five pillars.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "logistics_id": "major-port-cargo",
+          "relation": "feeds",
+          "note": "Major-port throughput is the outcome measure Sagarmala reports.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        }
+      ],
+      "corridor_refs": [],
+      "signal_match": {
+        "patterns": [
+          "sagarmala",
+          "coastal economic zone",
+          "port-led industriali[sz]ation"
+        ],
+        "include": [],
+        "exclude": []
+      },
+      "report_match": {
+        "patterns": [
+          "sagarmala",
+          "port-led"
+        ],
+        "include": [],
+        "exclude": []
+      },
+      "data_gaps": [
+        "Pillar-wise project counts and values are not captured.",
+        "CEZ notification, land and anchor-unit status are not documented.",
+        "Port coordinates for Mumbai and JNPA are not yet in the infrastructure registry.",
+        "Which Sagarmala projects serve this Atlas’s industrial nodes is documented only for Deendayal Port."
+      ],
+      "last_verified": "2026-10-08",
+      "data_as_of": "2026-04-11"
+    }
+  ]
+}

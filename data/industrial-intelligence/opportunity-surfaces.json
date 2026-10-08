@@ -537,6 +537,223 @@
         }
       ],
       "last_verified": "2026-10-08"
+    },
+    {
+      "id": "opp:bharatmala-last-mile-port-access",
+      "title": "Port-access roads and logistics parks — the parts of Bharatmala Phase-I that lagged",
+      "location": "National (port and MMLP nodes)",
+      "node_ids": [],
+      "programme_ids": [
+        "bharatmala"
+      ],
+      "sectors": [
+        "Logistics",
+        "Port-linked manufacturing"
+      ],
+      "triggering_development": {
+        "text": "Parliament’s Public Accounts Committee (Apr 2024, on CAG audit data to Mar 2023) found coastal & port connectivity roads only 5.2% completed and none of 35 planned multimodal logistics parks developed, while the highway corridors raced ahead. New Phase-I sanctions have been discontinued since Nov 2023.",
+        "project_ids": [],
+        "provenance": [
+          {
+            "source_id": "src:pac-144-bharatmala-2024"
+          },
+          {
+            "source_id": "src:swarajya-bharatmala-rs-2026"
+          }
+        ]
+      },
+      "chain": [
+        {
+          "stage": "infrastructure_change",
+          "text": "Long-haul corridors are largely built; port-connectivity roads and MMLPs lag far behind (as of Mar 2023).",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pac-144-bharatmala-2024"
+            }
+          ]
+        },
+        {
+          "stage": "connectivity_effect",
+          "text": "Freight gains on the trunk can be absorbed at the port gate and the first/last mile.",
+          "evidence": "analysis"
+        },
+        {
+          "stage": "industrial_impact",
+          "text": "Export-oriented clusters near ports may see trunk-route gains without matching gateway gains.",
+          "evidence": "analysis"
+        },
+        {
+          "stage": "opportunity",
+          "text": "Port-access, consolidation and logistics-park capacity — public or private — could fill the gap the programme left, under whichever successor framework funds it.",
+          "evidence": "analysis"
+        }
+      ],
+      "opportunity_type": "specialised_infrastructure",
+      "horizon": "medium",
+      "confidence": "low",
+      "constraints": [
+        "The PAC findings are dated March 2023; some MMLPs and port links may have progressed since — current status is not captured here.",
+        "Successor funding framework for new highway sanctions is not documented in this layer.",
+        "Port-connectivity works are also funded under Sagarmala, so the gap may be filled there."
+      ],
+      "strategic_rationale": "Where a programme over-delivers on one component and under-delivers on another, the bottleneck moves — and so does the opportunity.",
+      "relevant_player_ids": [],
+      "relevant_project_ids": [],
+      "affected_supply_chains": [
+        "Export containers",
+        "Bulk inputs via ports"
+      ],
+      "provenance": [
+        {
+          "source_id": "src:pac-144-bharatmala-2024"
+        }
+      ],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "opp:gatishakti-cargo-terminal-interface",
+      "title": "Rail cargo terminals as the industrial node’s freight interface",
+      "location": "National (rail network, incl. the Western DFC)",
+      "node_ids": [],
+      "programme_ids": [
+        "pm-gati-shakti",
+        "dfc"
+      ],
+      "sectors": [
+        "Logistics",
+        "Manufacturing"
+      ],
+      "triggering_development": {
+        "text": "The Ministry of Railways’ Gati Shakti Cargo Terminal policy (Dec 2021) had 306 terminals approved and 118 commissioned by Jan 2026, with about ₹8,600 crore of private investment — including the first GCT on private land along the Western DFC.",
+        "project_ids": [],
+        "provenance": [
+          {
+            "source_id": "src:pib-gct-2026"
+          }
+        ]
+      },
+      "chain": [
+        {
+          "stage": "infrastructure_change",
+          "text": "Private and public parties can build rail cargo terminals under a standard policy; 118 are commissioned.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-gct-2026"
+            }
+          ]
+        },
+        {
+          "stage": "connectivity_effect",
+          "text": "A terminal near a manufacturing cluster turns the rail network — and on the WDFC, the freight corridor — into a usable option for that cluster.",
+          "evidence": "analysis"
+        },
+        {
+          "stage": "industrial_impact",
+          "text": "Clusters with a terminal within reach may shift bulk inputs and containers from road to rail.",
+          "evidence": "analysis"
+        },
+        {
+          "stage": "opportunity",
+          "text": "Terminal development, operation and first/last-mile services around industrial nodes that lack one.",
+          "evidence": "analysis"
+        }
+      ],
+      "opportunity_type": "logistics_service",
+      "horizon": "near",
+      "confidence": "medium",
+      "constraints": [
+        "Terminal economics depend on assured volumes, which a single anchor may not provide.",
+        "Which industrial nodes in this Atlas have a GCT within reach is not yet mapped.",
+        "Rail tariffs and terminal charges set the road–rail break-even, not access alone."
+      ],
+      "strategic_rationale": "The DFC and the rail network only matter to a factory through a terminal; the terminal policy is where the backbone meets the node.",
+      "relevant_player_ids": [],
+      "relevant_project_ids": [
+        "proj:wdfc-final-sections-2026"
+      ],
+      "affected_supply_chains": [
+        "Containerised exports",
+        "Bulk raw materials"
+      ],
+      "provenance": [
+        {
+          "source_id": "src:pib-gct-2026"
+        }
+      ],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "opp:sagarmala-cez-port-processing",
+      "title": "Port-adjacent processing in Coastal Economic Zones",
+      "location": "Maritime States and UTs",
+      "node_ids": [],
+      "programme_ids": [
+        "sagarmala"
+      ],
+      "sectors": [
+        "Port-led manufacturing",
+        "Energy & chemicals"
+      ],
+      "triggering_development": {
+        "text": "Sagarmala’s port-led industrialisation pillar proposes 14 Coastal Economic Zones with perspective plans prepared; a Sagarmala 2.0 with ₹3.6 lakh crore of total investment is proposed (Apr 2026).",
+        "project_ids": [],
+        "provenance": [
+          {
+            "source_id": "src:sagarmala-cez"
+          },
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          }
+        ]
+      },
+      "chain": [
+        {
+          "stage": "infrastructure_change",
+          "text": "14 CEZs are proposed and planned on paper; Sagarmala 2.0 is proposed, not approved.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:sagarmala-cez"
+            },
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "stage": "industrial_impact",
+          "text": "Import-heavy and export-heavy processing could cut a land leg by locating at the port.",
+          "evidence": "analysis"
+        },
+        {
+          "stage": "opportunity",
+          "text": "Port-adjacent processing, storage and utility services where a CEZ moves from perspective plan to notified land.",
+          "evidence": "analysis"
+        }
+      ],
+      "opportunity_type": "specialised_infrastructure",
+      "horizon": "long",
+      "confidence": "low",
+      "constraints": [
+        "CEZs are proposed; notification, land and incentives are not documented here.",
+        "Sagarmala 2.0 is a proposal; its approval and content may change.",
+        "Coastal land, environmental clearances and port tariffs decide feasibility case by case."
+      ],
+      "strategic_rationale": "Port-led industrialisation is the Sagarmala pillar with the most industrial upside and the least documented progress.",
+      "relevant_player_ids": [],
+      "relevant_project_ids": [],
+      "affected_supply_chains": [
+        "Imported energy and feedstocks",
+        "Export processing"
+      ],
+      "provenance": [
+        {
+          "source_id": "src:pib-sagarmala-2026"
+        }
+      ],
+      "last_verified": "2026-10-08"
     }
   ]
 }

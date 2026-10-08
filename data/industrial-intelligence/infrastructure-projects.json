@@ -64,7 +64,18 @@
           "source_id": "src:pib-ne8-expressway-2026"
         }
       ],
-      "last_verified": "2026-10-08"
+      "last_verified": "2026-10-08",
+      "programme_links": [
+        {
+          "programme_id": "bharatmala",
+          "type": "built_under",
+          "provenance": [
+            {
+              "source_id": "src:pib-ne8-expressway-2026"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "proj:sarkhej-dholera-semi-hsr",
@@ -125,7 +136,18 @@
           "source_id": "src:pib-sarkhej-dholera-rail-2026"
         }
       ],
-      "last_verified": "2026-10-08"
+      "last_verified": "2026-10-08",
+      "programme_links": [
+        {
+          "programme_id": "pm-gati-shakti",
+          "type": "planned_on",
+          "provenance": [
+            {
+              "source_id": "src:pib-sarkhej-dholera-rail-2026"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "proj:dholera-international-airport",
@@ -251,7 +273,21 @@
           "source_id": "src:jica-wdfc-2026"
         }
       ],
-      "last_verified": "2026-10-08"
+      "last_verified": "2026-10-08",
+      "programme_links": [
+        {
+          "programme_id": "dfc",
+          "type": "operated_under",
+          "provenance": [
+            {
+              "source_id": "src:pmindia-wdfc-2026"
+            },
+            {
+              "source_id": "src:jica-wdfc-2026"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "proj:noida-international-airport-phase1",
@@ -303,6 +339,124 @@
         },
         {
           "source_id": "src:fpj-noida-cargo-2026"
+        }
+      ],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "proj:deendayal-rob-lc235",
+      "name": "Road over bridge at LC-235, Deendayal Port (Kandla)",
+      "sector": "port",
+      "project_type": "Port-connectivity road over bridge at a rail level crossing",
+      "states": [
+        "Gujarat"
+      ],
+      "districts": [
+        "Kutch"
+      ],
+      "implementing_agency": "Deendayal Port Authority / MoPSW",
+      "estimated_cost_cr": 132.51,
+      "cost_note": "Estimated cost as approved (Apr 2026)",
+      "status": "approved",
+      "status_note": "Approved by MoPSW after appraisal by its Delegated Investment Board (reported 4 Apr 2026).",
+      "approval_date": null,
+      "expected_completion": null,
+      "corridor": null,
+      "infra_ids": [
+        "infra:port-deendayal-kandla"
+      ],
+      "affected_node_ids": [],
+      "affected_sectors": [
+        "Port logistics"
+      ],
+      "strategic_significance": "A small project with a specific aim: removing a rail–road conflict point at a major port gate. Sagarmala’s port-connectivity pillar works at this level of grain, and a port’s effective capacity depends on it as much as on berths.",
+      "itla_appraisal_tier": false,
+      "facts": [
+        {
+          "label": "Cost",
+          "value": "₹132.51 crore (Sagarmala-funded)",
+          "as_of": "2026-04-04",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:theweek-deendayal-rob-2026"
+            }
+          ]
+        }
+      ],
+      "programme_links": [
+        {
+          "programme_id": "sagarmala",
+          "type": "funded_under",
+          "provenance": [
+            {
+              "source_id": "src:theweek-deendayal-rob-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:theweek-deendayal-rob-2026"
+        }
+      ],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "proj:bengaluru-chennai-expressway",
+      "name": "Bengaluru–Chennai Expressway (greenfield)",
+      "sector": "road",
+      "project_type": "Greenfield access-controlled expressway",
+      "states": [
+        "Karnataka"
+      ],
+      "districts": [],
+      "implementing_agency": "NHAI / MoRTH",
+      "estimated_cost_cr": null,
+      "cost_note": null,
+      "status": "under_construction",
+      "status_note": "Described as being developed under Bharatmala Pariyojana Phase-I (Jun 2026); construction progress and opening date not stated. States beyond the Karnataka section are not recorded here.",
+      "approval_date": null,
+      "expected_completion": null,
+      "corridor": "Chennai–Bengaluru Industrial Corridor",
+      "infra_ids": [
+        "infra:bengaluru-chennai-expressway"
+      ],
+      "affected_node_ids": [],
+      "affected_sectors": [
+        "Electronics",
+        "Aerospace & defence",
+        "Logistics"
+      ],
+      "strategic_significance": "Bharatmala’s economic-corridor logic, visible on the ground: an expressway named as a priority corridor of an industrial corridor, with industrial areas and a proposed MMLP along its Karnataka section.",
+      "itla_appraisal_tier": null,
+      "facts": [
+        {
+          "label": "Karnataka section",
+          "value": "~71 km in three packages",
+          "as_of": "2026-06-14",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:ians-blr-chennai-expressway-2026"
+            }
+          ]
+        }
+      ],
+      "programme_links": [
+        {
+          "programme_id": "bharatmala",
+          "type": "built_under",
+          "provenance": [
+            {
+              "source_id": "src:ians-blr-chennai-expressway-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:ians-blr-chennai-expressway-2026"
         }
       ],
       "last_verified": "2026-10-08"

@@ -1136,6 +1136,42 @@
         }
       ],
       "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:bengaluru-chennai-expressway",
+      "name": "Bengaluru–Chennai Expressway",
+      "type": "expressway",
+      "status": "under_construction",
+      "operator": "NHAI / MoRTH",
+      "state": "Karnataka",
+      "coordinates": {
+        "lat": null,
+        "lng": null,
+        "coord_source": null,
+        "confidence": null,
+        "note": "Linear asset; not point-located."
+      },
+      "classification": "national_expressway",
+      "cargo_handling": null,
+      "facts": [
+        {
+          "label": "Karnataka section",
+          "value": "~71 km in three packages (Hoskote–Malur 26.4 km, Malur–Bangarpet 27.1 km, Bangarpet–Bethamangala 17.5 km)",
+          "as_of": "2026-06-14",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:ians-blr-chennai-expressway-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:ians-blr-chennai-expressway-2026"
+        }
+      ],
+      "last_verified": "2026-10-08"
     }
   ]
 }

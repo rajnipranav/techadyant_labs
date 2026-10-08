@@ -11,6 +11,7 @@ import {
 import { ClassedHeading, Cite, EvidenceTag, ScoreBreakdown, ScoreCard, SourceList, GatiShaktiContrast } from '../../industrial/ui';
 import type { Connectivity } from '../../industrial/types';
 import { PROFILE_LABELS } from '../../industrial/scoring';
+import { programmesForNode } from '../../programmes/data';
 
 export function generateStaticParams() {
   return industrialNodes.map((n) => ({ slug: n.slug }));
@@ -270,6 +271,15 @@ export default async function IndustrialNodePage({ params }: { params: Promise<{
               </div>
             )}
           </div>
+        )}
+
+        {programmesForNode(n.id).length > 0 && (
+          <>
+            <h2 className="node-h2" id="programmes">National programmes reaching this node</h2>
+            <ul className="node-infra" role="list">
+              {programmesForNode(n.id).map((x) => <li key={x.ref.id}>{x.ref.href ? <Link href={x.ref.href}>{x.ref.name}</Link> : x.ref.name} <span className="ii-src-meta">via {x.via} — an evidenced project link (Programme Intelligence)</span></li>)}
+            </ul>
+          </>
         )}
 
         <h2 className="node-h2">Known data gaps</h2>

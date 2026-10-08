@@ -211,6 +211,8 @@ export interface InfrastructureProject {
   affected_sectors: string[];
   strategic_significance: string;    // ANALYSIS — the "project → industrial consequence" line
   itla_appraisal_tier: boolean | null; // ≥ ₹500 cr GoI project; null when cost unknown
+  /** Programme Intelligence edges (typed, evidenced) — see app/research/programmes/types.ts. */
+  programme_links?: { programme_id: string; type: 'built_under' | 'funded_under' | 'planned_on' | 'operated_under'; provenance: ProvenanceRef[] }[];
   facts: Fact[];
   provenance: ProvenanceRef[];
   last_verified: string;
@@ -232,6 +234,8 @@ export interface OpportunitySurface {
   title: string;
   location: string;
   node_ids: string[];
+  /** SID logistics programme ids this surface is triggered by (Programme Intelligence). */
+  programme_ids?: string[];
   sectors: string[];
   triggering_development: { text: string; project_ids: string[]; provenance: ProvenanceRef[] };
   chain: ChainStep[];
@@ -317,6 +321,8 @@ export interface SignalLink {
   related_entities: string[];        // player:<uuid> etc.
   related_sectors: string[];
   opportunity_surfaces: string[];
+  /** SID logistics programme ids (Programme Intelligence) — hand-reviewed, like every field here. */
+  related_programmes?: string[];
   note: string;
 }
 

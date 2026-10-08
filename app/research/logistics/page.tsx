@@ -3,6 +3,13 @@ import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { JsonLd, breadcrumb, SITE, ORG_REF } from '../seo';
 import { VizPanel, StackedBar, BarList } from '../../components/viz/Viz';
+import { reports } from '../../reports/data';
+import { industrialNodes, scoresFor, opportunities } from '../industrial/data';
+import {
+  programmes, programmeHref, programmeBySlug, flagshipCards, logisticsSignals, programmesForNode, programmeRef,
+} from '../programmes/data';
+import { FlagshipCardView, CrossCuttingDiagram, fmtDate } from '../programmes/ui';
+import { OPP_CONFIDENCE_LABEL } from '../programmes/types';
 import {
   logistics, logisticsVerificationMix, LOG_VERIFICATION_LABEL, LOG_VERIFICATION_COLOR,
   LOG_VERIFICATION_DEFINITION, PROGRAMME_TYPE_LABEL, PROGRAMME_TYPE_ORDER, MODE_LABEL,
@@ -10,11 +17,15 @@ import {
   type LogisticsProgramme, type LogisticsSource, type VerificationStatus,
 } from './data';
 
+const TITLE = 'India Logistics & Mobility Intelligence — programmes, corridors, industrial impact [2026]';
+const DESC = 'What India’s changing logistics infrastructure means for industrial competitiveness: Gati Shakti, Bharatmala, Sagarmala, freight corridors and ports — read for bottlenecks, industrial nodes and opportunities.';
 export const metadata: Metadata = {
-  title: 'India Integrated Logistics Atlas — freight corridors & flagship programmes [2026]',
-  description:
-    'A reference layer of India’s freight and logistics system: national freight corridors, flagship programmes (DFC, Bharatmala, Gati Shakti, Sagarmala, NLP, ULIP, IWAI), the new ITLA appraisal tier (≥ ₹500 crore), and the source record behind every figure. Verified / single-source / needs-a-human-source labelled.',
+  title: TITLE,
+  description: DESC,
+  keywords: ['India logistics', 'India logistics infrastructure', 'PM Gati Shakti', 'Bharatmala', 'Sagarmala', 'Dedicated Freight Corridor', 'ITLA', 'India industrial connectivity', 'logistics cost India'],
   alternates: { canonical: `${SITE}/research/logistics/` },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}/research/logistics/`, type: 'website', siteName: 'Techadyant Labs', images: [{ url: '/og/default.png', width: 1200, height: 630, alt: TITLE }] },
+  twitter: { card: 'summary_large_image', title: TITLE, description: DESC, images: ['/og/default.png'] },
 };
 
 const fmtIN = (n: number) => n.toLocaleString('en-IN');
@@ -84,17 +95,57 @@ function ProgrammeCard({ p }: { p: LogisticsProgramme }) {
   );
 }
 
+/** A dated headline figure for the system-at-a-glance strip; only from a sourced record. */
+interface Tile { label: string; value: string; asOf: string; href: string; basis: string; verif?: VerificationStatus }
+function glance(slug: string, label: string) {
+  const p = programmeBySlug(slug);
+  const g = p?.glance.find((x) => x.label === label);
+  return p && g ? { value: g.value, asOf: g.as_of ?? p.data_as_of, href: `${programmeHref(slug)}#glance` } : null;
+}
+
+const LOGISTICS_REPORT_RE = /logistic|freight|cargo|shipping|container/i;
+
 export default function LogisticsAtlas() {
   const mix = logisticsVerificationMix();
   const updated = new Date(lastUpdated).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
   const itla = programmeById('itla');
   const sgf = programmeById('sme-growth-fund');
+  const dfc = programmeById('dfc');
+  const ports = programmeById('major-port-cargo');
+  const iwai = programmeById('iwai');
+  const num = (v: unknown) => (typeof v === 'number' ? v.toLocaleString('en-IN') : String(v));
+
+  const tiles: Tile[] = [];
+  if (dfc?.key_metrics?.edfc_km && dfc.key_metrics.wdfc_km) tiles.push({ label: 'Dedicated freight corridors built', value: `${num(Number(dfc.key_metrics.edfc_km) + Number(dfc.key_metrics.wdfc_km))} km`, asOf: '2026-09-08', href: '#dfc', basis: `EDFC ${num(dfc.key_metrics.edfc_km)} km complete (Dec 2023) + WDFC ${num(dfc.key_metrics.wdfc_km)} km fully operational (Sep 2026)`, verif: dfc.verification_status });
+  const bm = glance('bharatmala', 'Constructed');
+  if (bm) tiles.push({ label: 'Bharatmala Phase-I constructed', value: bm.value.replace(/ \(.*\)/, ''), asOf: bm.asOf, href: bm.href, basis: 'of 34,800 km approved in 2017; new sanctions discontinued since Nov 2023' });
+  if (ports?.key_metrics?.cargo_mt_fy26) tiles.push({ label: 'Major-port cargo, FY 2025-26', value: `${num(ports.key_metrics.cargo_mt_fy26)} MT`, asOf: '2026-04-11', href: '#major-port-cargo', basis: `record; ${num(ports.key_metrics.cargo_mt_fy25)} MT in FY 2024-25`, verif: ports.verification_status });
+  if (iwai?.key_metrics?.cargo_mmt_fy25) tiles.push({ label: 'Inland-waterway cargo, FY 2024-25', value: `${num(iwai.key_metrics.cargo_mmt_fy25)} MT`, asOf: '2025-04-24', href: '#iwai', basis: 'record movement on national waterways', verif: iwai.verification_status });
+  const npg = glance('gati-shakti', 'Projects evaluated (NPG)');
+  if (npg) tiles.push({ label: 'Projects evaluated on the Gati Shakti NMP', value: npg.value.split(' worth')[0], asOf: npg.asOf, href: npg.href, basis: npg.value.includes('worth') ? `worth ${npg.value.split('worth ')[1]}` : '' });
+  const smc = glance('sagarmala', 'Completed');
+  if (smc) tiles.push({ label: 'Sagarmala projects completed', value: smc.value.split(' · ')[0], asOf: smc.asOf, href: smc.href, basis: `${smc.value.split(' · ')[1] ?? ''} of an 845-project, ₹6.06 lakh crore portfolio` });
+
+
   const held = [
     { label: 'Programmes tracked', value: logistics.programmes.length },
     { label: 'Corridor records', value: logistics.corridors.length },
     { label: 'Nodes (ports, MMLPs, gateways)', value: logistics.nodes.length },
     { label: 'Projects ≥ ₹500 crore (v2)', value: logistics.projects.length },
     { label: 'Opportunity surfaces', value: logistics.opportunity_surfaces.length },
+  ];
+  const cards = flagshipCards();
+  const sigs = logisticsSignals(6);
+  const featured = reports.filter((r) => LOGISTICS_REPORT_RE.test(`${r.title} ${r.subtitle} ${r.summary}`)).slice(0, 4);
+  const progOpps = opportunities.filter((o) => o.programme_ids?.length);
+  const nodeRows = industrialNodes.map((n) => ({ n, ics: scoresFor(n)[0], progs: programmesForNode(n.id) }));
+
+  const watching: { title: string; detail: string; href: string; date: string }[] = [
+    ...(itla ? [{ title: 'ITLA stands up', detail: 'The new authority will technically appraise every Government transport project of ₹500 crore or more and build a National Transport Data Repository. Watch for its first appraisals and data releases.', href: '#itla', date: '2026-10-06' }] : []),
+    { title: 'What follows Bharatmala Phase-I', detail: 'New Phase-I sanctions have been discontinued since Nov 2023 while awarded corridors are completed. The successor framework will decide which industrial routes get the next highway money.', href: `${programmeHref('bharatmala')}#record`, date: '2026-07-22' },
+    { title: 'Does the full WDFC move freight off the road?', detail: 'The Western DFC became fully operational on 8 Sep 2026. Whether manufacturers on the corridor shift volume depends on terminals and tariffs, not track length.', href: '#dfc', date: '2026-09-08' },
+    { title: 'Cargo terminals reach the nodes', detail: '118 of 306 approved Gati Shakti Cargo Terminals were commissioned by Jan 2026. Their locations relative to industrial nodes are the next layer to map.', href: `${programmeHref('gati-shakti')}#components`, date: '2026-01-13' },
+    { title: 'Sagarmala 2.0 and the Coastal Economic Zones', detail: 'A Sagarmala 2.0 (₹3.6 lakh crore total investment) is proposed; the 14 CEZs remain at perspective-plan stage. Port-led industrialisation is the pillar to watch.', href: `${programmeHref('sagarmala')}#opportunities`, date: '2026-04-11' },
   ];
 
   return (
@@ -103,13 +154,14 @@ export default function LogisticsAtlas() {
       <JsonLd data={[
         breadcrumb([
           { name: 'Home', path: '/' }, { name: 'The Atlas', path: '/research/' },
-          { name: 'Logistics Atlas', path: '/research/logistics/' },
+          { name: 'Logistics & Mobility', path: '/research/logistics/' },
         ]),
         {
           '@context': 'https://schema.org', '@type': 'CollectionPage',
-          name: 'India Integrated Logistics Atlas', url: `${SITE}/research/logistics/`,
+          name: 'Logistics & Mobility — Techadyant Atlas', url: `${SITE}/research/logistics/`, description: DESC,
           isPartOf: { '@id': `${SITE}/#website` }, publisher: ORG_REF,
-          about: ['India freight corridors', 'Dedicated Freight Corridors', 'Bharatmala', 'PM Gati Shakti', 'Sagarmala', 'National Logistics Policy', 'ITLA', 'logistics cost India'],
+          about: ['India logistics infrastructure', 'Dedicated Freight Corridors', 'Bharatmala', 'PM Gati Shakti', 'Sagarmala', 'ULIP', 'ITLA', 'industrial connectivity'],
+          hasPart: programmes.map((p) => ({ '@type': 'WebPage', name: p.name, url: `${SITE}${programmeHref(p.slug)}` })),
         },
         {
           '@context': 'https://schema.org', '@type': 'Dataset',
@@ -122,30 +174,188 @@ export default function LogisticsAtlas() {
         },
       ]} />
 
-      <header className="ed-page-head">
-        <div className="wrap inner">
+      {/* ── HERO ── */}
+      <header className="pi-hero">
+        <div className="wrap">
           <div className="ed-breadcrumb">
             <Link href="/">Home</Link><span className="sep">/</span>
             <Link href="/research/">The Atlas</Link><span className="sep">/</span>
-            <span>Logistics Atlas</span>
+            <span>Logistics &amp; Mobility</span>
           </div>
-          <h1>India Integrated Logistics Atlas</h1>
-          <p className="lede">
-            India’s freight and logistics system as a source-led reference layer: the corridors that move the
-            country’s goods, the flagship programmes building them, and — from 6 October 2026 — the new
-            Integrated Transport &amp; Logistics Authority that will appraise every Government transport project
-            of ₹500 crore or more. Every figure carries its source and a verification label. Where a fact
-            cannot be verified from a primary source, it is left out and marked <b>needs a human source</b>.
-          </p>
-          <div className="atlas-meta-row">
-            <span><b>{logistics.programmes.length}</b> programmes</span>
-            <span><b>{logistics.corridors.length}</b> corridor records</span>
-            <span><b>{logistics.nodes.length}</b> nodes</span>
-            <span className="atlas-updated">Snapshot {updated}</span>
+          <div className="pi-eyebrow">The Atlas · Logistics &amp; Mobility</div>
+          <h1>What India’s changing logistics infrastructure means for industrial competitiveness</h1>
+          <p className="pi-sub">The gateway to Techadyant’s infrastructure intelligence: the national programmes building India’s freight system, the industrial nodes they reach, and the bottlenecks and opportunities that follow.</p>
+          <div className="lg-contrast" aria-label="How Techadyant reads logistics">
+            <div><span>A logistics website asks</span>What is happening in logistics?</div>
+            <div><span>A government platform asks</span>Where is the infrastructure?</div>
+            <div className="is-us"><span>Techadyant asks</span>What does it mean for industrial competitiveness?</div>
+          </div>
+          <p className="lg-questions">Where are the bottlenecks? · Which industrial nodes benefit? · Which supply chains change? · Which technologies become relevant? · Where do new opportunity surfaces appear?</p>
+          <div className="pi-ctas">
+            <Link href="/research/programmes/" className="pi-btn is-primary">Programme Intelligence →</Link>
+            <Link href="/research/industrial-nodes/" className="pi-btn">Industrial nodes</Link>
+            <a href="#reference" className="pi-btn">Reference layer</a>
           </div>
         </div>
       </header>
 
+      <main className="wrap pi-body">
+        {/* ── SYSTEM AT A GLANCE ── */}
+        <div className="pi-sec-head" id="glance">
+          <div className="pi-kicker">01 · The logistics system at a glance<span className="pi-cls pi-cls-fact">Fact</span></div>
+          <h2>The freight system, measured</h2>
+          <p className="pi-sec-note">Headline figures with a source on file, each with its own date. Figures from different dates are not combined.</p>
+        </div>
+        <dl className="pi-glance lg-tiles">
+          {tiles.map((t) => (
+            <div key={t.label}>
+              <dt>{t.label}</dt>
+              <dd><span className="lg-big">{t.value}</span><span className="pi-asof">{t.basis}</span><span className="pi-asof">As of {fmtDate(t.asOf)} · {t.verif ? LOG_VERIFICATION_LABEL[t.verif] : 'sourced on programme page'} · <Link href={t.href}>source →</Link></span></dd>
+            </div>
+          ))}
+        </dl>
+
+        {/* ── PROGRAMME INTELLIGENCE ── */}
+        <div className="pi-sec-head" id="programmes">
+          <div className="pi-kicker">02 · Programme Intelligence</div>
+          <h2>National infrastructure programmes</h2>
+          <p className="pi-sec-note">The programmes reshaping India’s physical and digital logistics architecture, each read for what it changes in industry. <Link href="/research/programmes/">All programmes →</Link></p>
+        </div>
+        <div className="pi-cards">{cards.map((c) => <FlagshipCardView key={c.key} c={c} />)}</div>
+        <div style={{ marginTop: 18 }}><CrossCuttingDiagram compact /></div>
+
+        {/* ── FEATURED RESEARCH + SIGNALS ── */}
+        <div className="pi-two">
+          <div>
+            <div className="pi-sec-head" id="research">
+              <div className="pi-kicker">03 · Featured research</div>
+              <h2>Reports on the system</h2>
+            </div>
+            {featured.length ? (
+              <ul className="pi-links">
+                {featured.map((r) => <li key={r.slug}><Link href={`/reports/${r.slug}/`}>{r.title}</Link><span className="pi-l-meta">{r.status === 'forthcoming' ? 'Forthcoming' : r.publishedLabel} · {r.domain}</span></li>)}
+              </ul>
+            ) : <p className="pi-empty">No logistics report yet.</p>}
+          </div>
+          <div>
+            <div className="pi-sec-head" id="watching">
+              <div className="pi-kicker">04 · What we are watching</div>
+              <h2>Open questions</h2>
+            </div>
+            <div className="pi-gaps">
+              {watching.map((w) => <div key={w.title} className="pi-gap lg-watch"><b><Link href={w.href}>{w.title}</Link> <span className="pi-l-meta">{fmtDate(w.date)}</span></b><p>{w.detail}</p></div>)}
+            </div>
+          </div>
+        </div>
+
+        <div className="pi-sec-head" id="signals">
+          <div className="pi-kicker">05 · Signals from the system</div>
+          <h2>Latest logistics signals</h2>
+          <p className="pi-sec-note">Signals on freight, ports, rail, corridors and terminals — selected automatically from the Signals feed. <Link href="/signals/">All signals →</Link></p>
+        </div>
+        {sigs.length ? (
+          <div className="pi-signals">
+            {sigs.map((s) => (
+              <article key={s.slug} className="pi-signal">
+                <div className="pi-signal-meta">{s.no} · {s.dateLabel}</div>
+                <h3><Link href={`/signals/${s.slug}/`}>{s.title}</Link></h3>
+                <p>{s.excerpt}</p>
+                <Link href={`/signals/${s.slug}/`} className="pi-more">Read Signal →</Link>
+              </article>
+            ))}
+          </div>
+        ) : <p className="pi-empty">No logistics signal yet.</p>}
+
+        {/* ── INDUSTRIAL CONSEQUENCES ── */}
+        <div className="pi-sec-head" id="consequences">
+          <div className="pi-kicker">06 · Industrial consequences<span className="pi-cls pi-cls-analysis">Techadyant analysis</span></div>
+          <h2>What the programmes change for industry</h2>
+          <p className="pi-sec-note">One consequence from each programme page, where the full reasoning, sources and the other dimensions sit.</p>
+        </div>
+        <div className="pi-cons">
+          {programmes.map((p) => {
+            const c = p.consequences[0];
+            const a = c.claims.find((x) => x.evidence === 'analysis') ?? c.claims[0];
+            return (
+              <section key={p.id} className="pi-con">
+                <div className="pi-con-k">{p.short_name}</div>
+                <h3>{c.headline}</h3>
+                <p className="pi-claim pi-claim-analysis">{a.text}</p>
+                <Link href={`${programmeHref(p.slug)}#consequences`} className="pi-more">All consequences →</Link>
+              </section>
+            );
+          })}
+        </div>
+
+        {/* ── INDUSTRIAL CONNECTIVITY / ATLAS ── */}
+        <div className="pi-sec-head" id="connectivity">
+          <div className="pi-kicker">07 · Industrial connectivity</div>
+          <h2>Industrial nodes and the programmes that reach them</h2>
+          <p className="pi-sec-note">Industrial Connectivity Score from the <Link href="/research/industrial-nodes/methodology/">node methodology</Link>. A programme is listed only where an evidenced project links it to the node.</p>
+        </div>
+        <div className="pi-table-wrap">
+          <table className="pi-table">
+            <thead><tr><th>Industrial node</th><th>State</th><th>Connectivity (ICS)</th><th>Programmes reaching it</th></tr></thead>
+            <tbody>
+              {nodeRows.map(({ n, ics, progs }) => (
+                <tr key={n.id}>
+                  <td><Link href={`/research/industrial-nodes/${n.slug}/`}><b>{n.name}</b></Link></td>
+                  <td>{n.state}</td>
+                  <td className="pi-nowrap">{ics.status === 'computed' ? `${ics.score}/100 · ${ics.band}` : 'Insufficient Data'}</td>
+                  <td>{progs.length ? progs.map((x) => <span key={x.ref.id} className="pi-td-sub">{x.ref.href ? <Link href={x.ref.href}>{x.ref.name}</Link> : x.ref.name} — via {x.via}</span>) : <span className="pi-td-sub">No evidenced programme link yet</span>}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        {/* ── OPPORTUNITY SURFACES ── */}
+        <div className="pi-sec-head" id="opportunities">
+          <div className="pi-kicker">08 · Opportunity surfaces<span className="pi-cls pi-cls-opportunity">Opportunity surface</span></div>
+          <h2>Where opportunity may appear</h2>
+          <p className="pi-sec-note">Hypotheses with a sourced trigger and stated constraints. Not claims that government will procure anything, and never forecasts of contracts.</p>
+        </div>
+        <div className="pi-opps">
+          {progOpps.map((o) => (
+            <article key={o.id} className="pi-opp">
+              <div className="pi-opp-top"><span className="pi-opp-tag">{(o.programme_ids ?? []).map((id) => programmeRef(id).name).join(' · ')}</span><span className="pi-opp-conf">Confidence: {OPP_CONFIDENCE_LABEL[o.confidence]}</span></div>
+              <h3>{o.title}</h3>
+              <dl><div><dt>Trigger</dt><dd>{o.triggering_development.text}</dd></div></dl>
+              {(() => { const pr = (o.programme_ids ?? []).map((id) => programmeRef(id)).find((r) => r.href?.startsWith('/research/programmes/')); return pr ? <Link href={`${pr.href}#opportunities`} className="pi-more">Read on the programme page →</Link> : null; })()}
+            </article>
+          ))}
+          {logistics.opportunity_surfaces.map((o) => (
+            <article key={o.id} className="pi-opp">
+              <div className="pi-opp-top"><span className="pi-opp-tag">Logistics reference layer</span><VerifChip v={o.verification_status} /></div>
+              <h3>{o.title}</h3>
+              <dl><div><dt>Reading</dt><dd>{o.body}</dd></div><div><dt>Caveat</dt><dd>{o.caveat}</dd></div></dl>
+            </article>
+          ))}
+        </div>
+
+        {/* ── RELATED ECOSYSTEMS ── */}
+        <div className="pi-sec-head" id="ecosystems">
+          <div className="pi-kicker">09 · Related industrial ecosystems</div>
+          <h2>Where to go next in the Atlas</h2>
+        </div>
+        <ul className="pi-links lg-eco">
+          <li><Link href="/research/industrial-nodes/">Industrial nodes &amp; connectivity</Link><span className="pi-l-meta">Semiconductor and electronics nodes with connectivity, gap and supply-chain scores</span></li>
+          <li><Link href="/corridors/">Industrial corridors (NICDP)</Link><span className="pi-l-meta">Corridor and node dossiers — the manufacturing geography the freight system serves</span></li>
+          <li><Link href="/research/infrastructure-projects/">Infrastructure projects</Link><span className="pi-l-meta">Projects linked to nodes and programmes</span></li>
+          <li><Link href="/research/pillars/semiconductors/">Semiconductor Atlas</Link><span className="pi-l-meta">The ecosystem behind Dholera, Sanand, Jewar and Jagiroad</span></li>
+          <li><Link href="/research/supply-chains/">Supply chains</Link><span className="pi-l-meta">Layer-by-layer dependency maps</span></li>
+          <li><Link href="/research/dependencies/">Critical manufacturing dependencies</Link><span className="pi-l-meta">Imports that set the logistics requirement</span></li>
+        </ul>
+      </main>
+
+      {/* ── REFERENCE LAYER (SID logistics schema) ── */}
+      <section className="wrap" id="reference" style={{ paddingBottom: 0 }}>
+        <div className="pi-sec-head">
+          <div className="pi-kicker">10 · Reference layer<span className="pi-cls pi-cls-fact">Fact</span></div>
+          <h2>India Integrated Logistics Atlas — the source record</h2>
+          <p className="pi-sec-note">Every programme, corridor and node held in the SID logistics schema, with its verification label and captured sources. Programme pages build on these records. Snapshot {updated}.</p>
+        </div>
+      </section>
       {/* ── What this module holds + evidence ── */}
       <section className="wrap" style={{ paddingBottom: 0 }}>
         <div className="viz-grid">
@@ -324,28 +534,9 @@ export default function LogisticsAtlas() {
         </div>
       </section>
 
-      {/* ── opportunity surfaces ── */}
-      <section className="wrap" style={{ background: 'var(--bg-2)' }}>
-        <div className="section-head-ed"><div><div className="ed-kicker">Reading the layer</div><h2>Opportunity surfaces</h2></div>
-          <p className="section-note">Potential areas where demand or capability <em>may</em> emerge. Explicitly not claims that government will procure anything, and never forecasts of contracts.</p>
-        </div>
-        <div className="log-cards log-type-cards">
-          {logistics.opportunity_surfaces.map((o) => (
-            <article key={o.id} className="log-card log-card-opp">
-              <div className="log-card-head">
-                <h3>{o.title}</h3>
-                <VerifChip v={o.verification_status} />
-              </div>
-              <p className="log-card-summary">{o.body}</p>
-              <p className="log-opp-caveat">{o.caveat}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
       {/* ── methodology ── */}
       <section className="wrap">
-        <div className="section-head-ed"><div><div className="ed-kicker">Method</div><h2>How this layer is built</h2></div></div>
+        <div className="section-head-ed"><div><div className="ed-kicker">Method</div><h2>How this module is built</h2></div></div>
         <div className="log-method">
           <p>
             The module follows the same architecture as the dependency Atlas: records live in a dedicated
@@ -361,7 +552,7 @@ export default function LogisticsAtlas() {
             never as a sole source.
           </p>
           <p className="log-hook-note">
-            Snapshot {updated} · baked from <code>{logistics.rpc.split('—')[0].trim()}</code> · sources retrieved 6–8 Oct 2026.
+            Programme Intelligence adds a second layer on top of these records — the Techadyant reading of each programme — in <code>data/programme-intelligence/</code>, with links derived from evidenced project, node, signal and report records. Snapshot {updated} · baked from <code>{logistics.rpc.split('—')[0].trim()}</code> · sources retrieved 6–8 Oct 2026.
           </p>
         </div>
       </section>

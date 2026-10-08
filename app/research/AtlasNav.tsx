@@ -30,14 +30,22 @@ const NAV: NavGroup[] = [
   },
   { label: 'Players', href: '/research/players' },
   { label: 'Dependencies', href: '/research/dependencies' },
-  { label: 'Logistics', href: '/research/logistics' },
+  {
+    label: 'Infrastructure', href: '/research/logistics', items: [
+      { href: '/research/logistics', label: 'Logistics & Mobility' },
+      { href: '/research/programmes', label: 'Programme Intelligence' },
+      { href: '/research/programmes/gati-shakti', label: '— PM GatiShakti' },
+      { href: '/research/programmes/bharatmala', label: '— Bharatmala' },
+      { href: '/research/programmes/sagarmala', label: '— Sagarmala' },
+      { href: '/research/industrial-nodes', label: 'Industrial Nodes' },
+      { href: '/research/infrastructure-projects', label: 'Infrastructure Projects' },
+    ],
+  },
   {
     label: 'Data', items: [
       { href: '/research/datasets', label: 'Datasets' },
       { href: '/research/search', label: 'Search' },
       { href: '/research/explorer', label: 'Explorer' },
-      { href: '/research/industrial-nodes', label: 'Industrial Nodes' },
-      { href: '/research/infrastructure-projects', label: 'Infrastructure Projects' },
       { href: '/research/entities', label: 'Entities' },
       { href: '/research/supply-chains', label: 'Supply Chains' },
       { href: '/research/patents', label: 'Patent Monitor' },
