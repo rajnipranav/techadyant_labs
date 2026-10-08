@@ -6,10 +6,11 @@ import { JsonLd, breadcrumb, faqLd, SITE } from '../../seo';
 import {
   CONNECTIVITY_LABELS, connectivityFor, corridorNodeLink, expand, getInfra, icsComponents, industrialNodes,
   inrCr, monthYear, nodeBySlug, opportunitiesForNode, playerLink, projectsForNode, relationshipsFor, reportLinks,
-  scoresFor, sectorLabel, signalsForNode, sourcesForNode, straightLineKm,
+  scoresFor, sectorLabel, signalsForNode, sourcesForNode, straightLineKm, supplierRows, supplierMap, monthYear as my,
 } from '../../industrial/data';
 import { ClassedHeading, Cite, EvidenceTag, ScoreBreakdown, ScoreCard, SourceList, GatiShaktiContrast } from '../../industrial/ui';
 import type { Connectivity } from '../../industrial/types';
+import { PROFILE_LABELS } from '../../industrial/scoring';
 
 export function generateStaticParams() {
   return industrialNodes.map((n) => ({ slug: n.slug }));
@@ -20,12 +21,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const n = nodeBySlug(slug);
   if (!n) return { title: 'Industrial node' };
   const ics = scoresFor(n)[0];
-  const title = `${n.short_name} Semiconductor Ecosystem: Connectivity, Supply Chain & Opportunities`;
+  const title = `${n.short_name} ${PROFILE_LABELS[n.requirement_profile].ecosystem} Ecosystem: Connectivity, Supply Chain & Opportunities`;
   const desc = `${n.short_name} (${n.state}) industrial-node dossier: anchor companies, road/rail/port/airport connectivity, connectivity gaps and opportunity surfaces${ics.status === 'computed' ? ` — Industrial Connectivity Score ${ics.score}/100` : ''}. Sourced, dated.`.slice(0, 158);
   const url = `${SITE}/research/industrial-nodes/${n.slug}/`;
   return {
     title, description: desc,
-    keywords: [`${n.short_name} semiconductor`, `${n.short_name} industrial cluster`, `${n.state} semiconductor ecosystem`, 'India semiconductor manufacturing map', 'industrial connectivity', 'PM GatiShakti industrial corridors'],
+    keywords: [`${n.short_name} ${PROFILE_LABELS[n.requirement_profile].ecosystem.toLowerCase()}`, `${n.short_name} industrial cluster`, `${n.state} ${PROFILE_LABELS[n.requirement_profile].ecosystem.toLowerCase()} ecosystem`, n.requirement_profile === 'electronics_assembly' ? 'India electronics manufacturing clusters' : 'India semiconductor manufacturing map', 'industrial connectivity', 'PM GatiShakti industrial corridors'],
     alternates: { canonical: url },
     openGraph: { title, description: desc, url, type: 'article', siteName: 'Techadyant Labs', images: [{ url: '/og/default.png', width: 1200, height: 630, alt: title }] },
     twitter: { card: 'summary_large_image', title, description: desc, images: ['/og/default.png'] },
@@ -40,7 +41,7 @@ export default async function IndustrialNodePage({ params }: { params: Promise<{
   if (!n) notFound();
 
   const scores = scoresFor(n);
-  const [ics, , cgi] = scores;
+  const [ics, sccs, cgi] = scores;
   const srcs = sourcesForNode(n);
   const idx = new Map(srcs.map((s, i) => [s.id, i + 1]));
   const conn = connectivityFor(n);
@@ -67,7 +68,7 @@ export default async function IndustrialNodePage({ params }: { params: Promise<{
     ...(ics.status === 'computed' ? { additionalProperty: [{ '@type': 'PropertyValue', name: 'Techadyant Industrial Connectivity Score (v' + ics.methodology_version + ')', value: ics.score, maxValue: 100 }] } : {}),
   };
   const faqs = [
-    { q: `What semiconductor projects are at ${n.short_name}?`, a: n.companies.filter((c) => !c.role.startsWith('Cluster')).map((c) => `${c.name} (${c.role}): ${c.status}`).join('; ') + '.' },
+    { q: `What ${PROFILE_LABELS[n.requirement_profile].ecosystem.toLowerCase()} projects are at ${n.short_name}?`, a: n.companies.filter((c) => !c.role.startsWith('Cluster')).map((c) => `${c.name} (${c.role}): ${c.status}`).join('; ') + '.' },
     { q: `How is ${n.short_name} connected?`, a: MODES.filter((m) => conn[m].length).map((m) => `${CONNECTIVITY_LABELS[m]}: ${conn[m].map((x) => getInfra(x.infra_id)?.name).join(', ')}`).join('. ') + '.' },
     { q: `What is ${n.short_name}'s Industrial Connectivity Score?`, a: ics.status === 'computed' ? `${ics.score}/100 (${ics.band}, confidence ${ics.confidence}) under Techadyant methodology v${ics.methodology_version}, with ${Math.round(ics.data_completeness * 100)}% of inputs evidenced.` : `Insufficient data: evidenced inputs cover ${Math.round(ics.data_completeness * 100)}% of the score weight.` },
   ];
@@ -177,12 +178,35 @@ export default async function IndustrialNodePage({ params }: { params: Promise<{
           ))}
         </ul>
 
-        <ClassedHeading id="gaps-h" title="Connectivity gaps" cls="score" note={`Connectivity Gap Index — requirement profile: ${n.requirement_profile.replace('_', ' ')}. High = larger gap between what the anchor industry needs and what exists.`} />
+        <ClassedHeading id="gaps-h" title="Connectivity gaps" cls="score" note={`Connectivity Gap Index — requirement profile: ${PROFILE_LABELS[n.requirement_profile].short.toLowerCase()}. High = larger gap between what the anchor industry needs and what exists.`} />
         <div className="ii-scores ii-scores-2"><ScoreCard s={cgi} /><ScoreCard s={ics} /></div>
         <h3 className="ii-h3">CGI — requirement assessment</h3>
         <ScoreBreakdown s={cgi} />
         <h3 className="ii-h3">ICS — connectivity components</h3>
         <ScoreBreakdown s={{ ...ics, components: icsView }} />
+
+        <ClassedHeading id="suppliers-h" title="Supplier map" cls="fact" note={`Documented supplier facilities for each critical input of ${/^[aeiou]/.test(PROFILE_LABELS[n.requirement_profile].long) ? 'an' : 'a'} ${PROFILE_LABELS[n.requirement_profile].long} node, searched ${my(supplierMap.searched_on)}. “None documented” means nothing was found in the public record — not proof of absence.`} />
+        <table className="ii-table">
+          <thead><tr><th>Critical input</th><th>Status</th><th>Documented suppliers</th></tr></thead>
+          <tbody>
+            {supplierRows(n).map(({ category, assessment: a }) => (
+              <tr key={category.key} className={!a || a.status === 'none_documented' ? 'is-missing' : ''}>
+                <td><b>{category.label}</b></td>
+                <td className="ii-nowrap">{a ? a.status.replace(/_/g, ' ') : 'not searched'}</td>
+                <td>
+                  {a && a.suppliers.length ? a.suppliers.map((x, i) => {
+                    const l = x.player_id ? playerLink(x.player_id) : null;
+                    return <div key={i}>{l?.href ? <Link href={l.href}>{x.name}</Link> : x.name} — {x.facility} <span className="ii-src-meta">{x.status}</span> <Cite prov={expand(x.provenance)} index={idx} /></div>;
+                  }) : <span className="ii-missing">none documented</span>}
+                  {a?.note && <div className="ii-src-meta">{a.note}</div>}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <h3 className="ii-h3">SCCS — supply-chain connectivity components <span className="ii-claim ii-claim-score">Techadyant score</span></h3>
+        <div className="ii-scores ii-scores-2"><ScoreCard s={sccs} /></div>
+        <ScoreBreakdown s={sccs} />
 
         <div id="opportunities">
           <ClassedHeading id="opps-h" title="Opportunity surfaces" cls="opportunity" note="Analytical hypotheses, not forecasts of procurement or contracts. Each starts from a sourced development; every later step is labelled." />

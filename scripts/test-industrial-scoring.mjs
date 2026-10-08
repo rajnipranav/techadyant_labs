@@ -7,8 +7,8 @@ import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
-  ICS, CGI, SCCS, IOS, SNS, SCORE_DEFS, CGI_PROFILES, CGI_STATUS_VALUE, COMPLETENESS_THRESHOLD,
-  bandValue, computeScore, haversineKm, notYetComputed, round5, roundKm,
+  ICS, CGI, SCCS, IOS, SNS, SCORE_DEFS, CGI_PROFILES, CGI_STATUS_VALUE, COMPLETENESS_THRESHOLD, SUPPLIER_STATUS_VALUE,
+  bandValue, computeScore, haversineKm, notYetComputed, round5, roundKm, sccsFromInputs,
 } from '../app/research/industrial/scoring.ts';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -86,7 +86,7 @@ test('scores always fall in 0..100', () => {
 });
 
 test('defined-but-uncollected scores read Insufficient Data', () => {
-  for (const d of [SCCS, IOS, SNS]) {
+  for (const d of [IOS, SNS]) {
     const r = notYetComputed(d);
     assert.equal(r.status, 'insufficient_data');
     assert.equal(r.data_completeness, 0);
@@ -124,15 +124,56 @@ const cgiFor = (n) => computeScore(CGI, Object.entries(CGI_PROFILES[n.requiremen
 
 test('pilot ICS outcomes are stable (golden values — update deliberately with the methodology)', () => {
   const got = Object.fromEntries(nodes.map((n) => [n.slug, icsFor(n).score]));
-  assert.deepEqual(got, { dholera: 55, sanand: 85, 'jewar-yeida': 75, jagiroad: 45 });
+  assert.deepEqual(got, { dholera: 55, sanand: 85, 'jewar-yeida': 75, jagiroad: 45, 'sriperumbudur-oragadam': 75, kopparthy: 50 });
 });
 
 test('pilot CGI: computed only where evidence covers ≥70% of requirement weight', () => {
   const got = Object.fromEntries(nodes.map((n) => [n.slug, cgiFor(n).status]));
-  assert.deepEqual(got, { dholera: 'computed', sanand: 'insufficient_data', 'jewar-yeida': 'insufficient_data', jagiroad: 'insufficient_data' });
+  assert.deepEqual(got, { dholera: 'computed', sanand: 'insufficient_data', 'jewar-yeida': 'insufficient_data', jagiroad: 'insufficient_data', 'sriperumbudur-oragadam': 'insufficient_data', kopparthy: 'insufficient_data' });
   assert.equal(cgiFor(nodes.find((n) => n.slug === 'dholera')).score, 60);
 });
 
 test('every derived target resolves to an infrastructure node with coordinates', () => {
   for (const n of nodes) for (const c of n.ics_inputs.filter((x) => x.derive)) assert.ok(resolve(n, c.derive.target), `${n.slug}.${c.key}`);
+});
+
+const supplierMap = J('supplier-map.json');
+const icsInputs = (n) => Object.fromEntries(ICS.components.map((d) => {
+  const x = n.ics_inputs.find((c) => c.key === d.key);
+  if (!x) return [d.key, { value: null, confidence: null }];
+  if (x.derive) {
+    const hit = resolve(n, x.derive.target);
+    let v = bandValue(d.key, hit.km);
+    if (d.key === 'logistics' && hit.i.status !== 'operational') v = Math.min(v, 0.5);
+    return [d.key, { value: v, confidence: 'medium' }];
+  }
+  return [d.key, { value: x.value, confidence: x.confidence }];
+}));
+const sccsFor = (n) => {
+  const cats = supplierMap.categories[n.requirement_profile];
+  const rows = cats.map((c) => supplierMap.assessments.find((a) => a.node_id === n.id && a.category === c.key));
+  const value = rows.every(Boolean) ? rows.reduce((s, a) => s + SUPPLIER_STATUS_VALUE[a.status], 0) / rows.length : null;
+  return computeScore(SCCS, sccsFromInputs(n.requirement_profile, icsInputs(n), { value, confidence: 'low', rationale: '' }));
+};
+
+test('supplier map covers every category of every semiconductor node exactly once', () => {
+  for (const n of nodes.filter((x) => x.requirement_profile.startsWith('semiconductor_'))) {
+    for (const c of supplierMap.categories[n.requirement_profile]) {
+      const hits = supplierMap.assessments.filter((a) => a.node_id === n.id && a.category === c.key);
+      assert.equal(hits.length, 1, `${n.slug}.${c.key}`);
+    }
+  }
+});
+
+test('pilot SCCS outcomes are stable (golden values)', () => {
+  const got = Object.fromEntries(nodes.map((n) => [n.slug, sccsFor(n).score]));
+  assert.deepEqual(got, { dholera: 45, sanand: 75, 'jewar-yeida': 60, jagiroad: 30, 'sriperumbudur-oragadam': 70, kopparthy: 40 });
+});
+
+test('electronics nodes: partial supplier coverage leaves supplier proximity missing, never zero', () => {
+  for (const n of nodes.filter((x) => x.requirement_profile === 'electronics_assembly')) {
+    const r = sccsFor(n);
+    assert.equal(r.components.find((c) => c.key === 'supplier_proximity').value, null, n.slug);
+    assert.ok(r.data_completeness <= 0.75, n.slug);
+  }
 });

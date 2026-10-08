@@ -45,14 +45,14 @@ export default function MethodologyPage() {
 
         {SCORE_DEFS.map((d) => (
           <div key={d.key} id={d.key}>
-            <h2 className="node-h2">{d.label} ({d.short}) <span className={`ii-claim ${d.phase1 === 'computed' ? 'ii-claim-score' : 'ii-claim-analysis'}`}>{d.phase1 === 'computed' ? 'Computed in Phase 1' : 'Defined — Insufficient Data in Phase 1'}</span></h2>
+            <h2 className="node-h2">{d.label} ({d.short}) <span className={`ii-claim ${d.phase1 === 'computed' ? 'ii-claim-score' : 'ii-claim-analysis'}`}>{d.phase1 === 'computed' ? 'Computed' : 'Defined — not yet computed'}</span></h2>
             <p className="node-para">{d.question}</p>
             {d.key === 'cgi' ? (
               <table className="ii-table">
-                <thead><tr><th>Requirement</th><th>Fab weight</th><th>Backend (OSAT) weight</th></tr></thead>
+                <thead><tr><th>Requirement</th><th>Fab weight</th><th>Backend (OSAT) weight</th><th>Electronics assembly weight</th></tr></thead>
                 <tbody>
                   {Object.keys(CGI_PROFILES.semiconductor_fab).map((k) => (
-                    <tr key={k}><td><b>{CGI_LABELS[k]}</b></td><td>{CGI_PROFILES.semiconductor_fab[k]}</td><td>{CGI_PROFILES.semiconductor_backend[k]}</td></tr>
+                    <tr key={k}><td><b>{CGI_LABELS[k]}</b></td><td>{CGI_PROFILES.semiconductor_fab[k]}</td><td>{CGI_PROFILES.semiconductor_backend[k]}</td><td>{CGI_PROFILES.electronics_assembly[k]}</td></tr>
                   ))}
                 </tbody>
               </table>

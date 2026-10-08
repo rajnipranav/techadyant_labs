@@ -30,6 +30,7 @@ const opps = load('opportunity-surfaces.json').surfaces;
 const sigLinks = load('signal-links.json').links;
 const itla = load('itla.json');
 const sme = load('sme-champions.json');
+const supplierMap = load('supplier-map.json');
 
 /* ---------------------------------------------------------------- external registries */
 const atlas = JSON.parse(read('app/research/_atlas.json') || '{"players":[],"corridors":[]}');
@@ -61,7 +62,8 @@ const NODE_TYPES = new Set(['industrial_cluster', 'industrial_park', 'economic_z
 const INFRA_TYPES = new Set(['expressway', 'national_highway', 'state_highway', 'railway_line', 'railway_station', 'freight_corridor', 'dfc_station', 'seaport', 'airport', 'inland_waterway', 'river_terminal', 'mmlp', 'mmlh', 'icd', 'cfs', 'freight_terminal', 'logistics_cluster', 'power']);
 const INFRA_STATUS = new Set(['operational', 'partially_operational', 'trial', 'under_construction', 'approved', 'planned', 'unknown']);
 const PROJ_STATUS = new Set(['approved', 'under_construction', 'trial', 'partially_operational', 'operational', 'announced', 'unknown']);
-const PROFILES = { semiconductor_fab: ['air_cargo', 'power', 'water', 'port_access', 'warehousing', 'multimodal'], semiconductor_backend: ['air_cargo', 'power', 'water', 'port_access', 'warehousing', 'multimodal'] };
+const REQS = ['air_cargo', 'power', 'water', 'port_access', 'warehousing', 'multimodal'];
+const PROFILES = { semiconductor_fab: REQS, semiconductor_backend: REQS, electronics_assembly: REQS };
 const ICS_KEYS = ['road', 'rail', 'port', 'airport', 'logistics', 'freight_corridor'];
 const CGI_STATUS = new Set(['met', 'partial', 'gap', 'unknown']);
 const OPP_TYPES = new Set(['supplier_localisation', 'component_manufacturing', 'logistics_service', 'specialised_infrastructure', 'shared_services', 'skills_capacity']);
@@ -167,7 +169,11 @@ for (const n of nodes) {
   if (!NODE_TYPES.has(n.type)) err(`${w}: invalid type "${n.type}"`);
   if (!PROFILES[n.requirement_profile]) err(`${w}: invalid requirement_profile`);
   checkCoords(n.coordinates, w);
-  if (!n.sectors?.some((s) => s.startsWith('sector:'))) err(`${w}: at least one Atlas sector (sector:<code>) required`);
+  if (!n.sectors?.some((s) => s.startsWith('sector:'))) {
+    // The Atlas has no electronics-assembly corridor yet; those nodes carry free-text sectors only.
+    if (n.requirement_profile === 'electronics_assembly') warn(`${w}: no Atlas sector linked (no electronics-assembly corridor in the Atlas)`);
+    else err(`${w}: at least one Atlas sector (sector:<code>) required`);
+  }
   n.sectors.filter((s) => s.startsWith('sector:')).forEach((s) => { if (!resolves(s)) err(`${w}: unknown sector "${s}"`); });
   if (!n.facts?.length) err(`${w}: facts required`);
   checkFacts(n.facts, w);
@@ -178,7 +184,8 @@ for (const n of nodes) {
     if (c.primary_player_id && !c.player_ids.includes(c.primary_player_id)) err(`${w}: "${c.name}" primary_player_id not in player_ids`);
     if (!EVIDENCE.has(c.evidence)) err(`${w}: "${c.name}" invalid evidence`);
     checkProv(c.provenance, `${w} company "${c.name}"`, { required: true });
-    if (c.player_ids.length > 1) warn(`${w}: "${c.name}" has ${c.player_ids.length} SID records — merge candidates`);
+    const typesSeen = c.player_ids.map((pid) => atlas.players.find((p) => p.id === pid)?.type_code).filter(Boolean);
+    if (new Set(typesSeen).size < typesSeen.length) warn(`${w}: "${c.name}" links ${c.player_ids.length} SID records of the same type — merge candidates`);
   });
   (n.corridor_node_refs ?? []).forEach((r) => { if (!resolves(r)) err(`${w}: unknown corridor node "${r}"`); });
   (n.related_reports ?? []).forEach((s) => { if (!reportSlugs.has(s)) err(`${w}: unknown report "${s}"`); });
@@ -295,6 +302,31 @@ checkProv(sme.policy_context, 'sme.policy_context');
   else if (c.sgf_status !== 'not_documented') err(`${w}: sgf_status must be not_documented unless officially documented`);
   if (c.node_id && !ids.has(c.node_id)) err(`${w}: unknown node ${c.node_id}`);
 });
+
+/* ---------------------------------------------------------------- supplier map */
+const SUP_STATUS = new Set(['operational_local', 'operational_regional', 'planned_local', 'none_documented']);
+for (const a of supplierMap.assessments ?? []) {
+  const w = `supplier-map ${a.node_id}.${a.category}`;
+  const node = nodes.find((n) => n.id === a.node_id);
+  if (!node) { err(`${w}: unknown node`); continue; }
+  const cats = (supplierMap.categories?.[node.requirement_profile] ?? []).map((c) => c.key);
+  if (!cats.includes(a.category)) err(`${w}: category not in profile ${node.requirement_profile}`);
+  if (!SUP_STATUS.has(a.status)) err(`${w}: invalid status "${a.status}"`);
+  if (!CONF.has(a.confidence)) err(`${w}: invalid confidence`);
+  if (a.status === 'none_documented') { if (a.suppliers.length) err(`${w}: none_documented must list no suppliers`); checkProv(a.provenance, w, { required: true }); }
+  else if (!a.suppliers.length) err(`${w}: status ${a.status} needs at least one supplier`);
+  a.suppliers.forEach((x) => {
+    checkProv(x.provenance, `${w} ${x.name}`, { required: true });
+    if (x.player_id && !playerIds.has(x.player_id)) err(`${w}: unknown Atlas player ${x.player_id}`);
+  });
+}
+for (const n of nodes) {
+  for (const c of supplierMap.categories?.[n.requirement_profile] ?? []) {
+    const hits = (supplierMap.assessments ?? []).filter((a) => a.node_id === n.id && a.category === c.key).length;
+    if (hits > 1) err(`supplier-map ${n.id}.${c.key}: assessed ${hits} times`);
+    if (!hits) warn(`supplier-map ${n.id}.${c.key}: not assessed (SCCS supplier proximity will read missing)`);
+  }
+}
 
 /* ---------------------------------------------------------------- orphans */
 const referenced = new Set();

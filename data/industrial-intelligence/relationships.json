@@ -2,32 +2,493 @@
   "version": "1.0",
   "note": "Explicit, sourced edges. The loader also synthesises edges from other files (node → sector, player → node, project → node, project → opportunity, player → opportunity, derived nearest-gateway edges) so nothing is stated twice. Straight-line distances are computed, never stored.",
   "relationships": [
-    { "id": "rel:dholera-corridor-node", "source": "inode:dholera", "target": "corridor-node:delhi-mumbai/dholera-sir", "type": "overlaps_with", "evidence": "fact", "confidence": "high", "note": "The industrial node is the semiconductor-led view of the NICDP Dholera SIR node; area, cost and tenant tables stay on the corridor dossier.", "provenance": [{ "source_id": "src:techadyant-corridor-dholera" }] },
-    { "id": "rel:dholera-ne8", "source": "inode:dholera", "target": "infra:ne8-ahmedabad-dholera-expressway", "type": "connected_by", "evidence": "fact", "confidence": "high", "note": "Expressway provides connectivity to Dholera SIR; open for testing.", "provenance": [{ "source_id": "src:pib-ne8-expressway-2026" }] },
-    { "id": "rel:dholera-rail-sarkhej", "source": "inode:dholera", "target": "infra:rail-sarkhej-dholera", "type": "served_by", "evidence": "fact", "confidence": "high", "note": "Approved May 2026; completion up to 2030-31. Not yet operating.", "provenance": [{ "source_id": "src:pib-sarkhej-dholera-rail-2026" }] },
-    { "id": "rel:dholera-airport", "source": "inode:dholera", "target": "infra:airport-dholera", "type": "nearest_airport", "evidence": "fact", "confidence": "medium", "note": "Under construction — not counted in the ICS airport component until operational.", "provenance": [{ "source_id": "src:pib-ne8-expressway-2026" }, { "source_id": "src:whalesbook-dholera-airport-2026" }] },
-
-    { "id": "rel:sanand-nh8a", "source": "inode:sanand", "target": "infra:nh8a-sanand", "type": "connected_by", "evidence": "fact", "confidence": "medium", "note": "GIDC sheet (undated).", "provenance": [{ "source_id": "src:gidc-sanand-estate" }] },
-    { "id": "rel:sanand-dfc-station", "source": "inode:sanand", "target": "infra:dfc-new-sanand-north", "type": "served_by", "evidence": "fact", "confidence": "high", "note": "Freight services flagged off from New Sanand (North) on 8 Sep 2026.", "provenance": [{ "source_id": "src:pmindia-wdfc-2026" }, { "source_id": "src:jica-wdfc-2026" }] },
-    { "id": "rel:sanand-wdfc", "source": "inode:sanand", "target": "infra:wdfc", "type": "on_freight_corridor", "evidence": "fact", "confidence": "high", "note": "Sanand is a WDFC station location.", "provenance": [{ "source_id": "src:pmindia-wdfc-2026" }] },
-    { "id": "rel:sanand-airport-ahd", "source": "inode:sanand", "target": "infra:airport-ahmedabad", "type": "nearest_airport", "evidence": "fact", "confidence": "medium", "note": "Nearest international airport per GIDC.", "sourced_distance": { "km": 35, "kind": "road", "provenance": [{ "source_id": "src:gidc-sanand-estate" }] }, "provenance": [{ "source_id": "src:gidc-sanand-estate" }] },
-    { "id": "rel:sanand-port-kandla", "source": "inode:sanand", "target": "infra:port-deendayal-kandla", "type": "nearest_port", "evidence": "fact", "confidence": "medium", "note": "Listed by GIDC as a connected port.", "sourced_distance": { "km": 274, "kind": "road", "provenance": [{ "source_id": "src:gidc-sanand-estate" }] }, "provenance": [{ "source_id": "src:gidc-sanand-estate" }] },
-    { "id": "rel:sanand-port-mundra", "source": "inode:sanand", "target": "infra:port-mundra", "type": "nearest_port", "evidence": "fact", "confidence": "medium", "note": "Listed by GIDC as a connected port.", "sourced_distance": { "km": 324, "kind": "road", "provenance": [{ "source_id": "src:gidc-sanand-estate" }] }, "provenance": [{ "source_id": "src:gidc-sanand-estate" }] },
-    { "id": "rel:sanand-port-jnpa", "source": "inode:sanand", "target": "infra:port-jnpa", "type": "nearest_port", "evidence": "derived", "confidence": "high", "note": "Reachable on the WDFC, which terminates at JNPT (GIDC gives 558 km by road).", "sourced_distance": { "km": 558, "kind": "road", "provenance": [{ "source_id": "src:gidc-sanand-estate" }] }, "provenance": [{ "source_id": "src:dfccil-wdfc-route" }, { "source_id": "src:gidc-sanand-estate" }] },
-
-    { "id": "rel:jewar-airport", "source": "inode:jewar-yeida", "target": "infra:airport-noida-jewar", "type": "nearest_airport", "evidence": "fact", "confidence": "high", "note": "Plant is near Jewar airport (Cabinet release).", "provenance": [{ "source_id": "src:pib-india-chip-2025" }] },
-    { "id": "rel:jewar-yamuna-expressway", "source": "inode:jewar-yeida", "target": "infra:yamuna-expressway", "type": "connected_by", "evidence": "derived", "confidence": "medium", "note": "Derived: the site is in the YEIDA area, which is developed along the Yamuna Expressway. Route-level access not separately sourced.", "provenance": [{ "source_id": "src:pib-india-chip-2025" }, { "source_id": "src:theweek-india-chip-land-2025" }] },
-    { "id": "rel:jewar-dadri-mmlh", "source": "inode:jewar-yeida", "target": "infra:mmlh-dadri", "type": "connected_to", "evidence": "derived", "confidence": "medium", "note": "Nearest recorded multimodal logistics hub; under construction.", "provenance": [{ "source_id": "src:techadyant-corridor-dadri" }] },
-    { "id": "rel:jewar-wdfc", "source": "inode:jewar-yeida", "target": "infra:wdfc", "type": "on_freight_corridor", "evidence": "derived", "confidence": "medium", "note": "Via the Dadri terminus, ~40 km straight-line.", "provenance": [{ "source_id": "src:dfccil-wdfc-route" }] },
-    { "id": "rel:jewar-corridor-dadri", "source": "inode:jewar-yeida", "target": "corridor-node:delhi-mumbai/dadri-boraki", "type": "connected_to", "evidence": "derived", "confidence": "medium", "note": "The DMIC logistics node that would carry the cluster’s rail-bound freight.", "provenance": [{ "source_id": "src:techadyant-corridor-dadri" }] },
-
-    { "id": "rel:jagiroad-nh27", "source": "inode:jagiroad", "target": "infra:nh27-jagiroad", "type": "connected_by", "evidence": "fact", "confidence": "medium", "note": "Gazetteer source; upgrade to MoRTH in Phase 2.", "provenance": [{ "source_id": "src:wiki-jagiroad" }] },
-    { "id": "rel:jagiroad-rail", "source": "inode:jagiroad", "target": "infra:rail-jagiroad", "type": "served_by", "evidence": "fact", "confidence": "medium", "note": "Electrified double line; goods handling not documented.", "provenance": [{ "source_id": "src:wiki-jagiroad" }] },
-    { "id": "rel:jagiroad-airport-gau", "source": "inode:jagiroad", "target": "infra:airport-guwahati", "type": "nearest_airport", "evidence": "derived", "confidence": "medium", "note": "Nearest international cargo-handling airport in the registry.", "provenance": [{ "source_id": "src:adani-lgbi-cargo" }] },
-
-    { "id": "rel:dfc-sanand-wdfc", "source": "infra:dfc-new-sanand-north", "target": "infra:wdfc", "type": "part_of", "evidence": "fact", "confidence": "high", "note": "", "provenance": [{ "source_id": "src:pmindia-wdfc-2026" }] },
-    { "id": "rel:dfc-dadri-wdfc", "source": "infra:dfc-dadri", "target": "infra:wdfc", "type": "part_of", "evidence": "fact", "confidence": "high", "note": "WDFC terminus; joins the EDFC at Dadri.", "provenance": [{ "source_id": "src:dfccil-wdfc-route" }] },
-    { "id": "rel:dfc-sonnagar-edfc", "source": "infra:dfc-sonnagar", "target": "infra:edfc", "type": "part_of", "evidence": "fact", "confidence": "high", "note": "EDFC eastern terminus.", "provenance": [{ "source_id": "src:pib-edfc-complete-2023" }] },
-    { "id": "rel:wdfc-jnpa", "source": "infra:wdfc", "target": "infra:port-jnpa", "type": "connected_to", "evidence": "fact", "confidence": "high", "note": "WDFC runs JNPT–Dadri.", "provenance": [{ "source_id": "src:dfccil-wdfc-route" }] }
+    {
+      "id": "rel:dholera-corridor-node",
+      "source": "inode:dholera",
+      "target": "corridor-node:delhi-mumbai/dholera-sir",
+      "type": "overlaps_with",
+      "evidence": "fact",
+      "confidence": "high",
+      "note": "The industrial node is the semiconductor-led view of the NICDP Dholera SIR node; area, cost and tenant tables stay on the corridor dossier.",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-corridor-dholera"
+        }
+      ]
+    },
+    {
+      "id": "rel:dholera-ne8",
+      "source": "inode:dholera",
+      "target": "infra:ne8-ahmedabad-dholera-expressway",
+      "type": "connected_by",
+      "evidence": "fact",
+      "confidence": "high",
+      "note": "Expressway provides connectivity to Dholera SIR; open for testing.",
+      "provenance": [
+        {
+          "source_id": "src:pib-ne8-expressway-2026"
+        }
+      ]
+    },
+    {
+      "id": "rel:dholera-rail-sarkhej",
+      "source": "inode:dholera",
+      "target": "infra:rail-sarkhej-dholera",
+      "type": "served_by",
+      "evidence": "fact",
+      "confidence": "high",
+      "note": "Approved May 2026; completion up to 2030-31. Not yet operating.",
+      "provenance": [
+        {
+          "source_id": "src:pib-sarkhej-dholera-rail-2026"
+        }
+      ]
+    },
+    {
+      "id": "rel:dholera-airport",
+      "source": "inode:dholera",
+      "target": "infra:airport-dholera",
+      "type": "nearest_airport",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Under construction — not counted in the ICS airport component until operational.",
+      "provenance": [
+        {
+          "source_id": "src:pib-ne8-expressway-2026"
+        },
+        {
+          "source_id": "src:whalesbook-dholera-airport-2026"
+        }
+      ]
+    },
+    {
+      "id": "rel:sanand-nh8a",
+      "source": "inode:sanand",
+      "target": "infra:nh8a-sanand",
+      "type": "connected_by",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "GIDC sheet (undated).",
+      "provenance": [
+        {
+          "source_id": "src:gidc-sanand-estate"
+        }
+      ]
+    },
+    {
+      "id": "rel:sanand-dfc-station",
+      "source": "inode:sanand",
+      "target": "infra:dfc-new-sanand-north",
+      "type": "served_by",
+      "evidence": "fact",
+      "confidence": "high",
+      "note": "Freight services flagged off from New Sanand (North) on 8 Sep 2026.",
+      "provenance": [
+        {
+          "source_id": "src:pmindia-wdfc-2026"
+        },
+        {
+          "source_id": "src:jica-wdfc-2026"
+        }
+      ]
+    },
+    {
+      "id": "rel:sanand-wdfc",
+      "source": "inode:sanand",
+      "target": "infra:wdfc",
+      "type": "on_freight_corridor",
+      "evidence": "fact",
+      "confidence": "high",
+      "note": "Sanand is a WDFC station location.",
+      "provenance": [
+        {
+          "source_id": "src:pmindia-wdfc-2026"
+        }
+      ]
+    },
+    {
+      "id": "rel:sanand-airport-ahd",
+      "source": "inode:sanand",
+      "target": "infra:airport-ahmedabad",
+      "type": "nearest_airport",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Nearest international airport per GIDC.",
+      "sourced_distance": {
+        "km": 35,
+        "kind": "road",
+        "provenance": [
+          {
+            "source_id": "src:gidc-sanand-estate"
+          }
+        ]
+      },
+      "provenance": [
+        {
+          "source_id": "src:gidc-sanand-estate"
+        }
+      ]
+    },
+    {
+      "id": "rel:sanand-port-kandla",
+      "source": "inode:sanand",
+      "target": "infra:port-deendayal-kandla",
+      "type": "nearest_port",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Listed by GIDC as a connected port.",
+      "sourced_distance": {
+        "km": 274,
+        "kind": "road",
+        "provenance": [
+          {
+            "source_id": "src:gidc-sanand-estate"
+          }
+        ]
+      },
+      "provenance": [
+        {
+          "source_id": "src:gidc-sanand-estate"
+        }
+      ]
+    },
+    {
+      "id": "rel:sanand-port-mundra",
+      "source": "inode:sanand",
+      "target": "infra:port-mundra",
+      "type": "nearest_port",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Listed by GIDC as a connected port.",
+      "sourced_distance": {
+        "km": 324,
+        "kind": "road",
+        "provenance": [
+          {
+            "source_id": "src:gidc-sanand-estate"
+          }
+        ]
+      },
+      "provenance": [
+        {
+          "source_id": "src:gidc-sanand-estate"
+        }
+      ]
+    },
+    {
+      "id": "rel:sanand-port-jnpa",
+      "source": "inode:sanand",
+      "target": "infra:port-jnpa",
+      "type": "nearest_port",
+      "evidence": "derived",
+      "confidence": "high",
+      "note": "Reachable on the WDFC, which terminates at JNPT (GIDC gives 558 km by road).",
+      "sourced_distance": {
+        "km": 558,
+        "kind": "road",
+        "provenance": [
+          {
+            "source_id": "src:gidc-sanand-estate"
+          }
+        ]
+      },
+      "provenance": [
+        {
+          "source_id": "src:dfccil-wdfc-route"
+        },
+        {
+          "source_id": "src:gidc-sanand-estate"
+        }
+      ]
+    },
+    {
+      "id": "rel:jewar-airport",
+      "source": "inode:jewar-yeida",
+      "target": "infra:airport-noida-jewar",
+      "type": "nearest_airport",
+      "evidence": "fact",
+      "confidence": "high",
+      "note": "Plant is near Jewar airport (Cabinet release).",
+      "provenance": [
+        {
+          "source_id": "src:pib-india-chip-2025"
+        }
+      ]
+    },
+    {
+      "id": "rel:jewar-yamuna-expressway",
+      "source": "inode:jewar-yeida",
+      "target": "infra:yamuna-expressway",
+      "type": "connected_by",
+      "evidence": "derived",
+      "confidence": "medium",
+      "note": "Derived: the site is in the YEIDA area, which is developed along the Yamuna Expressway. Route-level access not separately sourced.",
+      "provenance": [
+        {
+          "source_id": "src:pib-india-chip-2025"
+        },
+        {
+          "source_id": "src:theweek-india-chip-land-2025"
+        }
+      ]
+    },
+    {
+      "id": "rel:jewar-dadri-mmlh",
+      "source": "inode:jewar-yeida",
+      "target": "infra:mmlh-dadri",
+      "type": "connected_to",
+      "evidence": "derived",
+      "confidence": "medium",
+      "note": "Nearest recorded multimodal logistics hub; under construction.",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-corridor-dadri"
+        }
+      ]
+    },
+    {
+      "id": "rel:jewar-wdfc",
+      "source": "inode:jewar-yeida",
+      "target": "infra:wdfc",
+      "type": "on_freight_corridor",
+      "evidence": "derived",
+      "confidence": "medium",
+      "note": "Via the Dadri terminus, ~40 km straight-line.",
+      "provenance": [
+        {
+          "source_id": "src:dfccil-wdfc-route"
+        }
+      ]
+    },
+    {
+      "id": "rel:jewar-corridor-dadri",
+      "source": "inode:jewar-yeida",
+      "target": "corridor-node:delhi-mumbai/dadri-boraki",
+      "type": "connected_to",
+      "evidence": "derived",
+      "confidence": "medium",
+      "note": "The DMIC logistics node that would carry the cluster’s rail-bound freight.",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-corridor-dadri"
+        }
+      ]
+    },
+    {
+      "id": "rel:jagiroad-nh27",
+      "source": "inode:jagiroad",
+      "target": "infra:nh27-jagiroad",
+      "type": "connected_by",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Gazetteer source; upgrade to MoRTH in Phase 2.",
+      "provenance": [
+        {
+          "source_id": "src:wiki-jagiroad"
+        }
+      ]
+    },
+    {
+      "id": "rel:jagiroad-rail",
+      "source": "inode:jagiroad",
+      "target": "infra:rail-jagiroad",
+      "type": "served_by",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Electrified double line; goods handling not documented.",
+      "provenance": [
+        {
+          "source_id": "src:wiki-jagiroad"
+        }
+      ]
+    },
+    {
+      "id": "rel:jagiroad-airport-gau",
+      "source": "inode:jagiroad",
+      "target": "infra:airport-guwahati",
+      "type": "nearest_airport",
+      "evidence": "derived",
+      "confidence": "medium",
+      "note": "Nearest international cargo-handling airport in the registry.",
+      "provenance": [
+        {
+          "source_id": "src:adani-lgbi-cargo"
+        }
+      ]
+    },
+    {
+      "id": "rel:dfc-sanand-wdfc",
+      "source": "infra:dfc-new-sanand-north",
+      "target": "infra:wdfc",
+      "type": "part_of",
+      "evidence": "fact",
+      "confidence": "high",
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:pmindia-wdfc-2026"
+        }
+      ]
+    },
+    {
+      "id": "rel:dfc-dadri-wdfc",
+      "source": "infra:dfc-dadri",
+      "target": "infra:wdfc",
+      "type": "part_of",
+      "evidence": "fact",
+      "confidence": "high",
+      "note": "WDFC terminus; joins the EDFC at Dadri.",
+      "provenance": [
+        {
+          "source_id": "src:dfccil-wdfc-route"
+        }
+      ]
+    },
+    {
+      "id": "rel:dfc-sonnagar-edfc",
+      "source": "infra:dfc-sonnagar",
+      "target": "infra:edfc",
+      "type": "part_of",
+      "evidence": "fact",
+      "confidence": "high",
+      "note": "EDFC eastern terminus.",
+      "provenance": [
+        {
+          "source_id": "src:pib-edfc-complete-2023"
+        }
+      ]
+    },
+    {
+      "id": "rel:wdfc-jnpa",
+      "source": "infra:wdfc",
+      "target": "infra:port-jnpa",
+      "type": "connected_to",
+      "evidence": "fact",
+      "confidence": "high",
+      "note": "WDFC runs JNPT–Dadri.",
+      "provenance": [
+        {
+          "source_id": "src:dfccil-wdfc-route"
+        }
+      ]
+    },
+    {
+      "id": "rel:sriperumbudur-nh48",
+      "source": "inode:sriperumbudur-oragadam",
+      "target": "infra:nh48-sriperumbudur",
+      "type": "connected_by",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Gazetteer source; upgrade to MoRTH.",
+      "provenance": [
+        {
+          "source_id": "src:wiki-sriperumbudur"
+        }
+      ]
+    },
+    {
+      "id": "rel:sriperumbudur-airport-maa",
+      "source": "inode:sriperumbudur-oragadam",
+      "target": "infra:airport-chennai",
+      "type": "nearest_airport",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Straight-line distance computed from gazetteer coordinates.",
+      "provenance": [
+        {
+          "source_id": "src:wiki-chennai-airport"
+        }
+      ]
+    },
+    {
+      "id": "rel:sriperumbudur-port-chennai",
+      "source": "inode:sriperumbudur-oragadam",
+      "target": "infra:port-chennai",
+      "type": "nearest_port",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Straight-line distance computed from gazetteer coordinates.",
+      "provenance": [
+        {
+          "source_id": "src:wiki-chennai-port"
+        }
+      ]
+    },
+    {
+      "id": "rel:sriperumbudur-port-kamarajar",
+      "source": "inode:sriperumbudur-oragadam",
+      "target": "infra:port-kamarajar",
+      "type": "nearest_port",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Second major port within ~50 km straight-line.",
+      "provenance": [
+        {
+          "source_id": "src:wiki-kamarajar-port"
+        }
+      ]
+    },
+    {
+      "id": "rel:kopparthy-nh40",
+      "source": "inode:kopparthy",
+      "target": "infra:nh40-kopparthy",
+      "type": "connected_by",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Distances as reported in the corridor dossier.",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-vcic-kopparthy"
+        }
+      ]
+    },
+    {
+      "id": "rel:kopparthy-rail",
+      "source": "inode:kopparthy",
+      "target": "infra:rail-krishnapuram",
+      "type": "served_by",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Goods handling not documented.",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-vcic-kopparthy"
+        }
+      ]
+    },
+    {
+      "id": "rel:kopparthy-port-krishnapatnam",
+      "source": "inode:kopparthy",
+      "target": "infra:port-krishnapatnam",
+      "type": "nearest_port",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "No port linkage; ~256 km by road as reported.",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-vcic-kopparthy"
+        },
+        {
+          "source_id": "src:wiki-krishnapatnam-port"
+        }
+      ]
+    },
+    {
+      "id": "rel:kopparthy-airport-blr",
+      "source": "inode:kopparthy",
+      "target": "infra:airport-bengaluru-kia",
+      "type": "nearest_airport",
+      "evidence": "fact",
+      "confidence": "medium",
+      "note": "Nearest international cargo airport in the registry; Kadapa Airport (~5 km) is domestic.",
+      "provenance": [
+        {
+          "source_id": "src:wiki-kempegowda-airport"
+        },
+        {
+          "source_id": "src:wiki-kadapa-airport"
+        }
+      ]
+    }
   ]
 }

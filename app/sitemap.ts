@@ -9,6 +9,7 @@ import { graphEntities, isPlayerSlug } from './research/graph';
 import { corridors as indCorridors } from './corridors/data';
 import { allCorridorNodePairs } from './corridors/node-data';
 import platformEntities from './research/_platform.json';
+import industrialNodeFile from '../data/industrial-intelligence/industrial-nodes.json';
 import droneAtlas from './research/_drones.json';
 import droneExpo2026 from '../data/osint/drone-expo-2026/site_index.json';
 import cuasAtlas from './research/_cuas.json';
@@ -85,7 +86,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...corridorsOrdered.map((c) => ({ url: `${SITE}/research/pillars/${corridorMeta(c.code).slug}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.75 })),
     { url: `${SITE}/research/sources/`,       lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
     { url: `${SITE}/research/industrial-nodes/`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    ...['dholera', 'sanand', 'jewar-yeida', 'jagiroad'].map((s) => ({ url: `${SITE}/research/industrial-nodes/${s}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.75 })),
+    ...industrialNodeFile.nodes.map((n) => n.slug).map((s) => ({ url: `${SITE}/research/industrial-nodes/${s}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.75 })),
     { url: `${SITE}/research/industrial-nodes/methodology/`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${SITE}/research/infrastructure-projects/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE}/research/datasets/`,      lastModified: now, changeFrequency: 'monthly', priority: 0.7 },

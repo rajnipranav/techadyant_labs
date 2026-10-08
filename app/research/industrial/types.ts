@@ -84,7 +84,7 @@ export type IndustrialNodeType =
   | 'industrial_cluster' | 'industrial_park' | 'economic_zone' | 'manufacturing_hub'
   | 'industrial_corridor_node' | 'defence_corridor_node' | 'electronics_cluster' | 'semiconductor_cluster';
 
-export type RequirementProfile = 'semiconductor_fab' | 'semiconductor_backend';
+export type RequirementProfile = 'semiconductor_fab' | 'semiconductor_backend' | 'electronics_assembly';
 
 export interface ConnectivityRef {
   infra_id: string;        // infra:<slug>
@@ -280,6 +280,32 @@ export interface Relationship {
   /** Sourced road/rail distance; straight-line is always computed, never stored. */
   sourced_distance?: { km: number; kind: 'road' | 'rail'; provenance: ProvenanceRef[] };
   provenance: ProvenanceRef[];
+}
+
+/* ------------------------------------------------------------------ supplier map (SCCS) */
+
+export interface SupplierFacility {
+  name: string;
+  facility: string;
+  status: string;
+  player_id?: string;
+  provenance: ProvenanceRef[];
+}
+export interface SupplierAssessment {
+  node_id: string;
+  category: string;
+  status: 'operational_local' | 'operational_regional' | 'planned_local' | 'none_documented';
+  confidence: Confidence;
+  suppliers: SupplierFacility[];
+  note: string;
+  provenance?: ProvenanceRef[];
+}
+export interface SupplierMap {
+  version: string;
+  searched_on: string;
+  note: string;
+  categories: Record<RequirementProfile, { key: string; label: string }[]>;
+  assessments: SupplierAssessment[];
 }
 
 /* ------------------------------------------------------------------ signals */

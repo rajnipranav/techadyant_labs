@@ -1,6 +1,6 @@
 // Techadyant scoring engine — methodology v1.0 (docs/industrial-connectivity-methodology.md).
 // Pure functions, type-only imports: loadable by `node --experimental-strip-types` for tests.
-import type { Confidence, ScoreComponentResult, ScoreKey, ScoreResult } from './types';
+import type { Confidence, RequirementProfile, ScoreComponentResult, ScoreKey, ScoreResult } from './types';
 
 export const METHODOLOGY_VERSION = '1.0';
 export const COMPLETENESS_THRESHOLD = 0.7;
@@ -30,9 +30,16 @@ export const ICS: ScoreDef = {
   ],
 };
 
-export const CGI_PROFILES: Record<'semiconductor_fab' | 'semiconductor_backend', Record<string, number>> = {
+export const PROFILE_LABELS: Record<RequirementProfile, { short: string; long: string; ecosystem: string }> = {
+  semiconductor_fab:     { short: 'Fab', long: 'fab', ecosystem: 'Semiconductor' },
+  semiconductor_backend: { short: 'Backend (OSAT)', long: 'chip-packaging (OSAT/ATMP)', ecosystem: 'Semiconductor' },
+  electronics_assembly:  { short: 'Electronics assembly', long: 'electronics-assembly', ecosystem: 'Electronics' },
+};
+
+export const CGI_PROFILES: Record<RequirementProfile, Record<string, number>> = {
   semiconductor_fab:     { air_cargo: 20, power: 20, water: 20, port_access: 15, warehousing: 10, multimodal: 15 },
   semiconductor_backend: { air_cargo: 30, power: 20, water: 10, port_access: 15, warehousing: 15, multimodal: 10 },
+  electronics_assembly:  { air_cargo: 25, power: 15, water: 5, port_access: 25, warehousing: 15, multimodal: 15 },
 };
 export const CGI_LABELS: Record<string, string> = {
   air_cargo: 'Air cargo (time-critical, high-value)',
@@ -51,17 +58,53 @@ export const CGI: ScoreDef = {
 };
 
 export const SCCS: ScoreDef = {
-  key: 'sccs', label: 'Supply Chain Connectivity Score', short: 'SCCS', phase1: 'defined', higherIs: 'better',
+  key: 'sccs', label: 'Supply Chain Connectivity Score', short: 'SCCS', phase1: 'computed', higherIs: 'better',
   question: 'How efficiently can the node’s critical inputs and outputs move?',
   components: [
-    { key: 'supplier_proximity', label: 'Supplier proximity', weight: 25, rule: 'share of critical input categories with a documented domestic supplier ≤ 300 km' },
-    { key: 'import_gateway', label: 'Import-gateway access', weight: 20, rule: 'ICS port/airport values weighted by inbound mix' },
-    { key: 'export_gateway', label: 'Export-gateway access', weight: 20, rule: 'ICS port/airport values weighted by outbound mix' },
-    { key: 'multimodal', label: 'Multimodal access', weight: 15, rule: 'operational modes with documented interchange' },
-    { key: 'freight_infra', label: 'Freight infrastructure', weight: 20, rule: 'DFC / MMLP / ICD status and distance' },
+    { key: 'supplier_proximity', label: 'Supplier proximity', weight: 25, rule: 'mean over the profile’s critical input categories: operating supplier ≤300 km 1.0 · operating in-state, distance undocumented 0.5 · planned/MoU ≤300 km 0.25 · none documented 0' },
+    { key: 'import_gateway', label: 'Import-gateway access', weight: 20, rule: 'ICS seaport and airport values weighted by the inbound mix (fab 50/50 · backend 40/60 · electronics assembly 50/50 sea/air)' },
+    { key: 'export_gateway', label: 'Export-gateway access', weight: 20, rule: 'ICS seaport and airport values weighted by the outbound mix (fab 30/70 · backend 10/90 · electronics assembly 40/60 sea/air)' },
+    { key: 'multimodal', label: 'Multimodal access', weight: 15, rule: 'share of four modes in usable reach: road ≥0.6, rail ≥0.6, air ≥0.7, sea ≥0.7 (ICS values; an unknown mode counts as not in reach)' },
+    { key: 'freight_infra', label: 'Freight infrastructure', weight: 20, rule: 'the higher of the ICS freight-corridor and logistics-node values' },
   ],
-  whyNotComputed: 'Needs a node-level map of suppliers by critical input category; the Atlas maps suppliers by ecosystem, not by node. Phase 2.',
 };
+
+export const SUPPLIER_STATUS_VALUE = { operational_local: 1, operational_regional: 0.5, planned_local: 0.25, none_documented: 0 } as const;
+export type SupplierStatus = keyof typeof SUPPLIER_STATUS_VALUE;
+export const GATEWAY_MIX: Record<RequirementProfile, { inbound: { sea: number; air: number }; outbound: { sea: number; air: number } }> = {
+  semiconductor_fab: { inbound: { sea: 0.5, air: 0.5 }, outbound: { sea: 0.3, air: 0.7 } },
+  semiconductor_backend: { inbound: { sea: 0.4, air: 0.6 }, outbound: { sea: 0.1, air: 0.9 } },
+  electronics_assembly: { inbound: { sea: 0.5, air: 0.5 }, outbound: { sea: 0.4, air: 0.6 } },
+};
+
+/** SCCS components from ICS component values + the supplier-proximity value (pure). */
+export function sccsFromInputs(
+  profile: RequirementProfile,
+  ics: Record<string, { value: number | null; confidence: Confidence | null }>,
+  supplier: { value: number | null; confidence: Confidence | null; rationale: string },
+): ScoreComponentResult[] {
+  const mix = GATEWAY_MIX[profile];
+  const v = (k: string) => ics[k]?.value ?? null;
+  const c = (...ks: string[]): Confidence | null => {
+    const cs = ks.map((k) => ics[k]?.confidence ?? null);
+    if (cs.some((x) => !x)) return null;
+    return (cs as Confidence[]).reduce((a, b) => (RANK[a] <= RANK[b] ? a : b));
+  };
+  const gw = (m: { sea: number; air: number }) => (v('port') === null || v('airport') === null ? null : m.sea * (v('port') as number) + m.air * (v('airport') as number));
+  const modes = [['road', 0.6], ['rail', 0.6], ['airport', 0.7], ['port', 0.7]] as const;
+  const inReach = modes.filter(([k, t]) => (v(k) ?? -1) >= t).length;
+  const fi = [v('freight_corridor'), v('logistics')].filter((x): x is number => x !== null);
+  const def = Object.fromEntries(SCCS.components.map((x) => [x.key, x]));
+  const row = (key: string, value: number | null, confidence: Confidence | null, rationale: string): ScoreComponentResult =>
+    ({ key, label: def[key].label, weight: def[key].weight, value: value === null ? null : Math.round(value * 1000) / 1000, confidence, rationale });
+  return [
+    row('supplier_proximity', supplier.value, supplier.confidence, supplier.rationale),
+    row('import_gateway', gw(mix.inbound), c('port', 'airport'), `${Math.round(mix.inbound.sea * 100)}% sea × ICS seaport + ${Math.round(mix.inbound.air * 100)}% air × ICS airport.`),
+    row('export_gateway', gw(mix.outbound), c('port', 'airport'), `${Math.round(mix.outbound.sea * 100)}% sea × ICS seaport + ${Math.round(mix.outbound.air * 100)}% air × ICS airport.`),
+    row('multimodal', inReach / 4, c('road', 'airport', 'port'), `${inReach} of 4 modes in usable reach (road, rail, air, sea).`),
+    row('freight_infra', fi.length ? Math.max(...fi) : null, c('freight_corridor'), 'Higher of the ICS freight-corridor and logistics-node values.'),
+  ];
+}
 
 export const IOS: ScoreDef = {
   key: 'ios', label: 'Industrial Opportunity Score', short: 'IOS', phase1: 'defined', higherIs: 'better',

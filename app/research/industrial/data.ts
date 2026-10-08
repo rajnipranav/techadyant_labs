@@ -10,6 +10,7 @@ import relsJson from '../../../data/industrial-intelligence/relationships.json';
 import oppsJson from '../../../data/industrial-intelligence/opportunity-surfaces.json';
 import signalLinksJson from '../../../data/industrial-intelligence/signal-links.json';
 import itlaJson from '../../../data/industrial-intelligence/itla.json';
+import supplierJson from '../../../data/industrial-intelligence/supplier-map.json';
 
 import { playerById, playerSlug, corridorByCode } from '../atlas';
 import { getReport } from '../../reports/data';
@@ -17,13 +18,13 @@ import { getSignal } from '../../signals/data';
 import { corridors } from '../../corridors/data';
 import { nodeBySlugs } from '../../corridors/node-data';
 import {
-  ICS, CGI, SCCS, IOS, SNS, CGI_PROFILES, CGI_LABELS, CGI_STATUS_VALUE,
-  bandValue, computeScore, haversineKm, notYetComputed, roundKm,
+  ICS, CGI, SCCS, IOS, SNS, CGI_PROFILES, CGI_LABELS, CGI_STATUS_VALUE, SUPPLIER_STATUS_VALUE,
+  bandValue, computeScore, haversineKm, notYetComputed, roundKm, sccsFromInputs,
 } from './scoring';
 import type {
   Confidence, Connectivity, IndustrialNode, InfrastructureNode, InfrastructureProject, ItlaRecord,
   OpportunitySurface, Provenance, ProvenanceRef, Relationship, RelationshipType, ScoreComponentResult,
-  ScoreResult, SignalLink, SourceRecord,
+  ScoreResult, SignalLink, SourceRecord, SupplierMap,
 } from './types';
 import { RELATIONSHIP_TYPES } from './types';
 
@@ -37,6 +38,7 @@ export const explicitRelationships = (relsJson as { relationships: Relationship[
 export const opportunities = (oppsJson as { surfaces: OpportunitySurface[] }).surfaces;
 export const signalLinks = (signalLinksJson as { links: SignalLink[] }).links;
 export const itla = itlaJson as unknown as ItlaRecord & { status: string; note: string };
+export const supplierMap = supplierJson as unknown as SupplierMap;
 
 const sourceById = new Map(sources.map((s) => [s.id, s]));
 const infraById = new Map(infraNodes.map((i) => [i.id, i]));
@@ -78,6 +80,7 @@ export function sourcesForNode(node: IndustrialNode): SourceRecord[] {
   projectsForNode(node.id).forEach((p) => add(p.provenance));
   opportunitiesForNode(node.id).forEach((o) => { add(o.provenance); add(o.triggering_development.provenance); });
   connectivityTargets(node).forEach((i) => add(i.provenance));
+  supplierMap.assessments.filter((a) => a.node_id === node.id).forEach((a) => { add(a.provenance); a.suppliers.forEach((x) => add(x.provenance)); });
   return sources.filter((s) => ids.has(s.id));
 }
 
@@ -157,10 +160,35 @@ export function cgiComponents(node: IndustrialNode): ScoreComponentResult[] {
   });
 }
 
+/** Supplier-map rows for a node, in profile category order (missing categories → null rows). */
+export function supplierRows(node: IndustrialNode) {
+  return supplierMap.categories[node.requirement_profile].map((cat) => ({
+    category: cat, assessment: supplierMap.assessments.find((a) => a.node_id === node.id && a.category === cat.key) ?? null,
+  }));
+}
+
+export function supplierProximity(node: IndustrialNode): { value: number | null; confidence: Confidence | null; rationale: string } {
+  const rows = supplierRows(node);
+  if (rows.some((r) => !r.assessment)) return { value: null, confidence: null, rationale: 'Not every critical input category has been searched yet.' };
+  const vals: number[] = rows.map((r) => SUPPLIER_STATUS_VALUE[r.assessment!.status]);
+  const covered = rows.filter((r) => r.assessment!.status !== 'none_documented').length;
+  const anyLow = rows.some((r) => r.assessment!.confidence === 'low');
+  return {
+    value: vals.reduce((a, b) => a + b, 0) / vals.length,
+    confidence: anyLow ? 'low' : 'medium',
+    rationale: `${covered} of ${rows.length} critical input categories have a documented supplier facility (operating or planned) in reach; see the supplier map.`,
+  };
+}
+
+export function sccsComponents(node: IndustrialNode): ScoreComponentResult[] {
+  const ics = Object.fromEntries(icsComponents(node).map((c) => [c.key, { value: c.value, confidence: c.confidence }]));
+  return sccsFromInputs(node.requirement_profile, ics, supplierProximity(node));
+}
+
 export function scoresFor(node: IndustrialNode): ScoreResult[] {
   return [
     computeScore(ICS, icsComponents(node)),
-    notYetComputed(SCCS),
+    computeScore(SCCS, sccsComponents(node)),
     computeScore(CGI, cgiComponents(node), `Requirement profile: ${node.requirement_profile.replace('_', ' ')}.`),
     notYetComputed(IOS),
     notYetComputed(SNS),

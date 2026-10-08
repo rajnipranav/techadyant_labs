@@ -10,13 +10,13 @@ import {
 import { GatiShaktiContrast } from '../industrial/ui';
 
 const URL = `${SITE}/research/industrial-nodes/`;
-const TITLE = 'India Industrial Nodes: Semiconductor Clusters, Connectivity & Opportunity Map';
-const DESC = 'Industrial-intelligence dossiers for India’s semiconductor nodes — Dholera, Sanand, Jewar–YEIDA and Jagiroad: connectivity, gaps, supply-chain position and opportunity surfaces.';
+const TITLE = 'India Industrial Nodes: Semiconductor & Electronics Clusters, Connectivity Map';
+const DESC = 'Dossiers for India’s semiconductor and electronics nodes — Dholera, Sanand, Jewar–YEIDA, Jagiroad, Sriperumbudur and Kopparthy: connectivity, gaps, opportunities.';
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
-  keywords: ['India industrial clusters', 'India semiconductor manufacturing map', 'India semiconductor ecosystem', 'Dholera semiconductor ecosystem', 'India logistics infrastructure', 'PM GatiShakti industrial corridors', 'India manufacturing clusters'],
+  keywords: ['India industrial clusters', 'India semiconductor manufacturing map', 'India semiconductor ecosystem', 'Dholera semiconductor ecosystem', 'India logistics infrastructure', 'PM GatiShakti industrial corridors', 'India manufacturing clusters', 'India electronics manufacturing clusters', 'Sriperumbudur electronics'],
   alternates: { canonical: URL },
   openGraph: { title: TITLE, description: DESC, url: URL, type: 'website', siteName: 'Techadyant Labs', images: [{ url: '/og/default.png', width: 1200, height: 630, alt: TITLE }] },
   twitter: { card: 'summary_large_image', title: TITLE, description: DESC, images: ['/og/default.png'] },
@@ -38,7 +38,7 @@ export default function IndustrialNodesHub() {
   const crumb = breadcrumb([{ name: 'Home', path: '/' }, { name: 'The Atlas', path: '/research/' }, { name: 'Industrial Nodes', path: '/research/industrial-nodes/' }]);
   const faqs = [
     { q: 'How is this different from PM GatiShakti?', a: 'PM GatiShakti is the Government of India’s geospatial planning system: it shows what infrastructure exists and how projects connect. Techadyant does not copy its data. It interprets public, cited information to explain what infrastructure means for industrial nodes, companies and supply chains, where connectivity falls short, and which opportunities follow.' },
-    { q: 'Which semiconductor nodes are covered?', a: `Phase 1 covers ${industrialNodes.map((n) => `${n.short_name} (${n.state})`).join(', ')}.` },
+    { q: 'Which nodes are covered?', a: `Coverage: ${industrialNodes.map((n) => `${n.short_name} (${n.state})`).join(', ')}.` },
     { q: 'Are the scores real-time?', a: `No. Every dossier states when its data was verified (latest: ${verified}). Scores follow a published methodology and show “Insufficient Data” when evidence is thin.` },
   ];
   const listLd = {
@@ -56,7 +56,7 @@ export default function IndustrialNodesHub() {
             <Link href="/">Home</Link><span className="sep">/</span>
             <Link href="/research/">Atlas</Link><span className="sep">/</span><span>Industrial Nodes</span>
           </div>
-          <div className="ed-kicker">Infrastructure &amp; Connectivity Intelligence · Phase 1: semiconductors</div>
+          <div className="ed-kicker">Infrastructure &amp; Connectivity Intelligence · Semiconductors and electronics assembly</div>
           <h1>From infrastructure maps to industrial intelligence</h1>
           <p className="lede">
             India publishes where its roads, rail, ports and airports are. This layer of the Atlas explains what that infrastructure

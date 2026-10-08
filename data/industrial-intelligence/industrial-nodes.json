@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "pilot": "India semiconductor ecosystem — Phase 1",
+  "pilot": "India semiconductor ecosystem (Phase 1) · electronics assembly (Phase 2)",
   "nodes": [
     {
       "id": "inode:dholera",
@@ -507,11 +507,10 @@
           "role": "Memory ATMP",
           "status": "Commercial production since Feb 2026",
           "player_ids": [
-            "9c06adf9-54cd-40f3-9a14-84362fb6982c",
             "0cb0ffc1-8bd0-44eb-a58a-5186ad7ca6d4",
             "322d5a77-5a41-4848-85a3-dbf481fcd5c8"
           ],
-          "primary_player_id": "9c06adf9-54cd-40f3-9a14-84362fb6982c",
+          "primary_player_id": "0cb0ffc1-8bd0-44eb-a58a-5186ad7ca6d4",
           "evidence": "fact",
           "provenance": [
             {
@@ -524,11 +523,10 @@
           "role": "OSAT / ATMP",
           "status": "Pilot Aug 2025; commercial production reported 2026",
           "player_ids": [
-            "3900267c-16b8-4500-b3ed-e40664203212",
             "94f7f151-82ff-46c2-bdaa-392e84a92a96",
             "dfe31cbd-04c1-47ab-9ee2-1998b245613e"
           ],
-          "primary_player_id": "3900267c-16b8-4500-b3ed-e40664203212",
+          "primary_player_id": "94f7f151-82ff-46c2-bdaa-392e84a92a96",
           "evidence": "fact",
           "provenance": [
             {
@@ -544,11 +542,10 @@
           "role": "OSAT",
           "status": "Commercial production since Mar 2026 (reported)",
           "player_ids": [
-            "1f345cf5-1184-4c88-acd7-073f11539966",
             "70a1661f-2ca6-47e3-8470-4783f493a7c6",
             "57c1353b-0737-4020-a2bd-848e72706a3f"
           ],
-          "primary_player_id": "1f345cf5-1184-4c88-acd7-073f11539966",
+          "primary_player_id": "70a1661f-2ca6-47e3-8470-4783f493a7c6",
           "evidence": "fact",
           "provenance": [
             {
@@ -850,8 +847,7 @@
           "role": "OSAT (display drivers)",
           "status": "Approved May 2025; groundbreaking Feb 2026; not yet producing",
           "player_ids": [
-            "24982411-a4b0-4087-b41d-e29187d8225a",
-            "76c99abc-086d-4ea8-a171-713841bb8ff9"
+            "24982411-a4b0-4087-b41d-e29187d8225a"
           ],
           "primary_player_id": "24982411-a4b0-4087-b41d-e29187d8225a",
           "evidence": "fact",
@@ -1310,6 +1306,538 @@
       ],
       "last_verified": "2026-10-08",
       "data_as_of": "2026-09-19"
+    },
+    {
+      "id": "inode:sriperumbudur-oragadam",
+      "slug": "sriperumbudur-oragadam",
+      "name": "Sriperumbudur–Oragadam Electronics Belt",
+      "short_name": "Sriperumbudur–Oragadam",
+      "type": "electronics_cluster",
+      "state": "Tamil Nadu",
+      "district": "Kanchipuram",
+      "coordinates": {
+        "lat": 12.96667,
+        "lng": 79.945,
+        "coord_source": "gazetteer",
+        "confidence": "medium",
+        "note": "Sriperumbudur town centroid (public gazetteer); Oragadam lies to the south. Not a site boundary."
+      },
+      "sectors": [
+        "Electronics assembly (smartphones, consumer electronics)",
+        "Electronic components"
+      ],
+      "requirement_profile": "electronics_assembly",
+      "headline": "India’s densest electronics-assembly belt sits within ~50 km of two major ports and an international cargo airport — the test of whether gateway proximity is already priced in.",
+      "strategic_overview": [
+        "Samsung has manufactured at Sriperumbudur since 2007, and Foxconn runs an Apple-supplier SEZ plant in the SIPCOT Sriperumbudur park; a November 2024 proposal sought to expand it by 20,000 jobs. In June 2025 Foxconn was reported to be building an iPhone enclosure unit next to a display-module plant in an advanced stage of construction, in the industrial park where it holds about 500,000 sq ft at ESR Oragadam.",
+        "The belt lies roughly 25 km straight-line from Chennai’s international cargo airport and about 40 km and 50 km from Chennai Port and Kamarajar Port, both major ports. The dedicated freight corridors do not reach South India.",
+        "Techadyant’s reading: Sriperumbudur–Oragadam is gateway-rich and component-poor. The questions here are not about distance. They are about depth: whether display, enclosure and moulding capacity grows fast enough locally to cut the inbound component flow that now arrives by air and sea."
+      ],
+      "facts": [
+        {
+          "label": "Samsung facility",
+          "value": "Manufacturing at Sriperumbudur since 2007",
+          "as_of": "2026-06-29",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:samsung-sriperumbudur-2026"
+            }
+          ]
+        },
+        {
+          "label": "Foxconn Sriperumbudur",
+          "value": "Expansion proposal for the SIPCOT Sriperumbudur SEZ plant: INR 18 bn, 20,000 additional jobs (reported proposal)",
+          "as_of": "2024-11-25",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:evertiq-foxconn-sriperumbudur-2024"
+            }
+          ]
+        },
+        {
+          "label": "Foxconn Oragadam",
+          "value": "~500,000 sq ft at ESR Oragadam Industrial & Logistics Park; display-module plant in advanced construction; enclosure unit construction begun in the same park (reported)",
+          "as_of": "2025-06-20",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:businesstoday-foxconn-enclosure-2025"
+            }
+          ]
+        },
+        {
+          "label": "Local supplier example",
+          "value": "Vignesh Polymers (injection, blow and EPS moulding) — in Sriperumbudur since 2007, Samsung supplier; 10th factory breaking ground at SIPCOT Sriperumbudur",
+          "as_of": "2025-08-29",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:samsung-sriperumbudur-2026"
+            },
+            {
+              "source_id": "src:pti-vignesh-polymers-2025"
+            }
+          ]
+        }
+      ],
+      "companies": [
+        {
+          "name": "Samsung Electronics",
+          "role": "Electronics manufacturer (anchor)",
+          "status": "Operating since 2007",
+          "player_ids": [
+            "c95494e9-8b45-4140-8cb9-27ca6ae14f91"
+          ],
+          "primary_player_id": "c95494e9-8b45-4140-8cb9-27ca6ae14f91",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:samsung-sriperumbudur-2026"
+            }
+          ]
+        },
+        {
+          "name": "Foxconn India (Hon Hai group)",
+          "role": "Electronics manufacturing services (anchor)",
+          "status": "Operating; Sriperumbudur expansion proposed; Oragadam display and enclosure units under construction",
+          "player_ids": [
+            "6adedc77-eb0f-4abe-9e4c-f5239251e9d8"
+          ],
+          "primary_player_id": "6adedc77-eb0f-4abe-9e4c-f5239251e9d8",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:evertiq-foxconn-sriperumbudur-2024"
+            },
+            {
+              "source_id": "src:businesstoday-foxconn-enclosure-2025"
+            }
+          ]
+        },
+        {
+          "name": "Vignesh Polymers India",
+          "role": "Plastic moulded components (supplier)",
+          "status": "Operating in Sriperumbudur since 2007",
+          "player_ids": [],
+          "primary_player_id": null,
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:samsung-sriperumbudur-2026"
+            },
+            {
+              "source_id": "src:pti-vignesh-polymers-2025"
+            }
+          ]
+        }
+      ],
+      "corridor_node_refs": [],
+      "supply_chain_position": {
+        "upstream": [
+          "Displays and modules (Foxconn Oragadam, under construction)",
+          "Plastic moulded parts (local)",
+          "Most semiconductors, PCBs and passives (imported)"
+        ],
+        "node": "Smartphone and consumer-electronics assembly",
+        "logistics": [
+          "NH-48 (Chennai–Bengaluru)",
+          "Chennai air cargo (~25 km straight-line)"
+        ],
+        "gateways": [
+          "Chennai Port (~40 km)",
+          "Kamarajar Port (~50 km)",
+          "Chennai International Airport"
+        ],
+        "markets": [
+          "Export (smartphones)",
+          "Domestic consumer electronics"
+        ]
+      },
+      "strategic_dependencies": [
+        {
+          "title": "Imported component base",
+          "detail": "Display and enclosure capacity is being built locally; documented local supply for chips, PCBs, passives and batteries was not found in this pass.",
+          "evidence": "analysis",
+          "provenance": [
+            {
+              "source_id": "src:businesstoday-foxconn-enclosure-2025"
+            },
+            {
+              "source_id": "src:techadyant-supplier-search-2026-10"
+            }
+          ]
+        }
+      ],
+      "ics_inputs": [
+        {
+          "key": "road",
+          "value": 0.6,
+          "confidence": "medium",
+          "rationale": "On NH-48 (Chennai–Bengaluru; old NH-4).",
+          "relation_ids": [
+            "rel:sriperumbudur-nh48"
+          ]
+        },
+        {
+          "key": "rail",
+          "value": null,
+          "confidence": null,
+          "rationale": "No rail goods facility documented in the sources used."
+        },
+        {
+          "key": "port",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest registered gateway port by straight-line distance.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:seaport"
+          }
+        },
+        {
+          "key": "airport",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest operational international cargo airport by straight-line distance.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:cargo_airport"
+          }
+        },
+        {
+          "key": "logistics",
+          "value": null,
+          "confidence": null,
+          "rationale": "Logistics parks exist (ESR Oragadam) but no MMLP/ICD is recorded in the registry; not scored."
+        },
+        {
+          "key": "freight_corridor",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest operational DFC station by straight-line distance — the DFC network does not reach South India, as evidenced by the DFC route definitions.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:dfc"
+          }
+        }
+      ],
+      "cgi_inputs": [
+        {
+          "key": "air_cargo",
+          "status": "met",
+          "confidence": "medium",
+          "rationale": "International cargo airport ~25 km straight-line.",
+          "provenance": [
+            {
+              "source_id": "src:wiki-chennai-airport"
+            }
+          ]
+        },
+        {
+          "key": "power",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Not assessed."
+        },
+        {
+          "key": "water",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Not assessed."
+        },
+        {
+          "key": "port_access",
+          "status": "met",
+          "confidence": "medium",
+          "rationale": "Two major ports within ~50 km straight-line.",
+          "provenance": [
+            {
+              "source_id": "src:wiki-chennai-port"
+            },
+            {
+              "source_id": "src:wiki-kamarajar-port"
+            }
+          ]
+        },
+        {
+          "key": "warehousing",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "ESR Oragadam is an industrial & logistics park; bonded/ESD capacity not documented."
+        },
+        {
+          "key": "multimodal",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Rail goods handling not documented."
+        }
+      ],
+      "related_reports": [
+        "industrial-logistics-behind-manufacturing-india"
+      ],
+      "data_gaps": [
+        "Plant-site coordinates for Samsung, Foxconn and the Oragadam units are not in the sources used.",
+        "Rail goods handling serving the belt is undocumented.",
+        "Supplier map covers three of eight component categories.",
+        "Power and water adequacy not assessed."
+      ],
+      "last_verified": "2026-10-08",
+      "data_as_of": "2026-06-29"
+    },
+    {
+      "id": "inode:kopparthy",
+      "slug": "kopparthy",
+      "name": "Kopparthy Electronics Node (YSR EMC)",
+      "short_name": "Kopparthy",
+      "type": "electronics_cluster",
+      "state": "Andhra Pradesh",
+      "district": "YSR Kadapa",
+      "coordinates": {
+        "lat": 14.63,
+        "lng": 78.7,
+        "coord_source": "gazetteer",
+        "confidence": "medium",
+        "note": "Approximate node location (as used in the corridor dossier map). Not a site boundary."
+      },
+      "sectors": [
+        "Electronics assembly (TVs, laptops, surveillance)",
+        "Solar modules",
+        "E-mobility"
+      ],
+      "requirement_profile": "electronics_assembly",
+      "headline": "An operating electronics cluster ~160 km straight-line from the nearest port and ~190 km from an international cargo airport — inland economics for an import-heavy industry.",
+      "strategic_overview": [
+        "The 801-acre YSR Electronic Manufacturing Cluster was sanctioned under MeitY’s EMC 2.0 at ₹730 crore and sits inside APIIC’s wider Kopparthy holding on the Visakhapatnam–Chennai Industrial Corridor. By September 2025 TechnoDom India (LED TVs), Texana World (garments) and AIL Dixon Technologies (surveillance and laptops) were operating.",
+        "The node is on NH-40/NH-67/NH-716, about 5 km from Krishnapuram station on the Chennai–Mumbai line and from Kadapa’s domestic airport. The nearest port, Krishnapatnam, is about 160 km straight-line (≈256 km by road as reported), and the nearest international cargo airport is Bengaluru, about 190 km away.",
+        "Techadyant’s reading: Kopparthy has moved from plan to production, but every imported component crosses 150–250 km of road. That favours products with high local value-add and creates a case for an inland container depot or air-cargo feeder service."
+      ],
+      "facts": [
+        {
+          "label": "EMC",
+          "value": "801-acre YSR EMC under MeitY EMC 2.0; ₹730 cr",
+          "as_of": "2020-08-27",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:nie-kadapa-emc-2020"
+            }
+          ]
+        },
+        {
+          "label": "Operating units",
+          "value": "TechnoDom India (LED TVs), Texana World (garments), AIL Dixon Technologies (surveillance, laptops)",
+          "as_of": "2025-09-03",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:nie-kopparthi-2025"
+            }
+          ]
+        },
+        {
+          "label": "Water",
+          "value": "46 MLD water-supply scheme under development",
+          "as_of": "2025-09-03",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:nie-kopparthi-2025"
+            },
+            {
+              "source_id": "src:techadyant-vcic-kopparthy"
+            }
+          ]
+        }
+      ],
+      "companies": [
+        {
+          "name": "AIL Dixon Technologies",
+          "role": "Electronics manufacturer (anchor)",
+          "status": "Operating; 2,000+ employed by Sep 2025",
+          "player_ids": [
+            "058e0416-95a7-4915-83c6-5e68554f9c35"
+          ],
+          "primary_player_id": "058e0416-95a7-4915-83c6-5e68554f9c35",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:nie-kopparthi-2025"
+            }
+          ]
+        },
+        {
+          "name": "TechnoDom India",
+          "role": "LED TVs and monitors",
+          "status": "Operating (inaugurated Sep 2025)",
+          "player_ids": [],
+          "primary_player_id": null,
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:nie-kopparthi-2025"
+            }
+          ]
+        }
+      ],
+      "corridor_node_refs": [
+        "corridor-node:vizag-chennai/kopparthy"
+      ],
+      "supply_chain_position": {
+        "upstream": [
+          "Components (largely imported via Chennai / Krishnapatnam / Bengaluru)"
+        ],
+        "node": "TV, laptop and surveillance-device assembly",
+        "logistics": [
+          "NH-40 / NH-67 / NH-716",
+          "Krishnapuram rail (~5 km)",
+          "Kadapa Airport (domestic, ~5 km)"
+        ],
+        "gateways": [
+          "Krishnapatnam Port (~160 km straight-line)",
+          "Bengaluru KIA air cargo (~190 km straight-line)"
+        ],
+        "markets": [
+          "Domestic consumer electronics",
+          "Government / surveillance"
+        ]
+      },
+      "strategic_dependencies": [
+        {
+          "title": "No port linkage",
+          "detail": "The node has no port linkage; Krishnapatnam is ~256 km by road as reported.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-vcic-kopparthy"
+            }
+          ]
+        }
+      ],
+      "ics_inputs": [
+        {
+          "key": "road",
+          "value": 0.6,
+          "confidence": "medium",
+          "rationale": "NH-40, NH-67 and NH-716 within ~7 km.",
+          "relation_ids": [
+            "rel:kopparthy-nh40"
+          ]
+        },
+        {
+          "key": "rail",
+          "value": 0.5,
+          "confidence": "medium",
+          "rationale": "Krishnapuram station on the Chennai–Mumbai line ~5 km; goods handling not documented.",
+          "relation_ids": [
+            "rel:kopparthy-rail"
+          ]
+        },
+        {
+          "key": "port",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest registered gateway port by straight-line distance.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:seaport"
+          }
+        },
+        {
+          "key": "airport",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest operational international cargo airport by straight-line distance.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:cargo_airport"
+          }
+        },
+        {
+          "key": "logistics",
+          "value": null,
+          "confidence": null,
+          "rationale": "No MMLP/ICD recorded in the registry; absence not verified."
+        },
+        {
+          "key": "freight_corridor",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest operational DFC station by straight-line distance — the DFC network does not reach South India, as evidenced by the DFC route definitions.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:dfc"
+          }
+        }
+      ],
+      "cgi_inputs": [
+        {
+          "key": "air_cargo",
+          "status": "partial",
+          "confidence": "medium",
+          "rationale": "Kadapa Airport (~5 km) is domestic; nearest international cargo airport ~190 km straight-line.",
+          "provenance": [
+            {
+              "source_id": "src:wiki-kadapa-airport"
+            },
+            {
+              "source_id": "src:wiki-kempegowda-airport"
+            }
+          ]
+        },
+        {
+          "key": "power",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Not assessed at node level."
+        },
+        {
+          "key": "water",
+          "status": "partial",
+          "confidence": "medium",
+          "rationale": "46 MLD scheme under development.",
+          "provenance": [
+            {
+              "source_id": "src:nie-kopparthi-2025"
+            }
+          ]
+        },
+        {
+          "key": "port_access",
+          "status": "gap",
+          "confidence": "medium",
+          "rationale": "No port linkage; nearest port ~160 km straight-line.",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-vcic-kopparthy"
+            }
+          ]
+        },
+        {
+          "key": "warehousing",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Not documented."
+        },
+        {
+          "key": "multimodal",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Rail and road present; interchange facilities not documented."
+        }
+      ],
+      "related_reports": [
+        "industrial-logistics-behind-manufacturing-india"
+      ],
+      "data_gaps": [
+        "Supplier map not yet compiled for this node.",
+        "Power reliability at node level not assessed.",
+        "Committed-only electronics firms (UNTPL, Celkon, Digiconn, Chandrahas) have no verified operating status.",
+        "Node coordinates are approximate."
+      ],
+      "last_verified": "2026-10-08",
+      "data_as_of": "2025-09-03"
     }
   ]
 }

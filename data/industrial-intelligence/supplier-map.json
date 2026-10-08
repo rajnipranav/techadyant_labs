@@ -1,0 +1,701 @@
+{
+  "version": "1.0",
+  "searched_on": "2026-10-08",
+  "note": "Node-level supplier map for the SCCS 'supplier proximity' component. One row per node × critical input category. Status vocabulary: operational_local (documented operating supplier facility ≤300 km) = 1.0; operational_regional (operating in the same state, site/distance not documented) = 0.5; planned_local (announced, MoU, land acquired or under construction ≤300 km) = 0.25; none_documented (searched, nothing found in the public record) = 0. 'None documented' is not proof of absence. Supplier-to-customer edges in the SID dated 17 Aug 2026 that cite only stock-screener pages are NOT used as evidence here.",
+  "categories": {
+    "semiconductor_fab": [
+      {
+        "key": "bulk_gases",
+        "label": "Bulk gases (N₂, O₂, Ar, H₂)"
+      },
+      {
+        "key": "specialty_gases",
+        "label": "Electronic specialty gases"
+      },
+      {
+        "key": "wet_chemicals",
+        "label": "High-purity wet chemicals"
+      },
+      {
+        "key": "photoresists",
+        "label": "Photoresists & lithography materials"
+      },
+      {
+        "key": "cmp",
+        "label": "CMP slurries & pads"
+      },
+      {
+        "key": "wafers",
+        "label": "Silicon wafers"
+      },
+      {
+        "key": "upw",
+        "label": "Ultrapure-water systems & service"
+      },
+      {
+        "key": "equipment_service",
+        "label": "Fab-tool spares & field service"
+      }
+    ],
+    "semiconductor_backend": [
+      {
+        "key": "substrates",
+        "label": "IC substrates"
+      },
+      {
+        "key": "leadframes",
+        "label": "Lead-frames"
+      },
+      {
+        "key": "bonding_wire",
+        "label": "Bonding wire"
+      },
+      {
+        "key": "mould_compounds",
+        "label": "Mould compounds & encapsulants"
+      },
+      {
+        "key": "bulk_gases",
+        "label": "Bulk gases (N₂, O₂, Ar, H₂)"
+      },
+      {
+        "key": "specialty_gases",
+        "label": "Packaging / specialty gases"
+      },
+      {
+        "key": "wet_chemicals",
+        "label": "High-purity wet chemicals"
+      },
+      {
+        "key": "test_service",
+        "label": "Test & handler equipment service"
+      }
+    ],
+    "electronics_assembly": [
+      {
+        "key": "bare_pcbs",
+        "label": "Bare PCBs"
+      },
+      {
+        "key": "displays_modules",
+        "label": "Displays & display modules"
+      },
+      {
+        "key": "passive_components",
+        "label": "Passive components"
+      },
+      {
+        "key": "batteries",
+        "label": "Battery cells & packs"
+      },
+      {
+        "key": "mechanicals_enclosures",
+        "label": "Mechanicals & enclosures"
+      },
+      {
+        "key": "plastics_moulding",
+        "label": "Plastic moulded parts"
+      },
+      {
+        "key": "chargers_cables",
+        "label": "Chargers, cables & adapters"
+      },
+      {
+        "key": "packaging",
+        "label": "Retail & transit packaging"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "node_id": "inode:dholera",
+      "category": "bulk_gases",
+      "status": "operational_regional",
+      "confidence": "medium",
+      "suppliers": [
+        {
+          "name": "INOX Air Products",
+          "facility": "Six large air-separation units in Gujarat (sites not named)",
+          "status": "operational",
+          "player_id": "93aaf245-39c6-42b6-ae3e-35808ebadf8f",
+          "provenance": [
+            {
+              "source_id": "src:inoxap-dholera-2025"
+            }
+          ]
+        },
+        {
+          "name": "INOX Air Products",
+          "facility": "Electronic Specialty Gas Hub, Dholera (UHP N₂/O₂/Ar/H₂)",
+          "status": "planned",
+          "provenance": [
+            {
+              "source_id": "src:inoxap-dholera-2025"
+            },
+            {
+              "source_id": "src:yourstory-semicon-materials-2026"
+            }
+          ]
+        }
+      ],
+      "note": "Operating ASUs are in-state but their distance from Dholera is not documented; the on-site hub is in planning."
+    },
+    {
+      "node_id": "inode:dholera",
+      "category": "specialty_gases",
+      "status": "planned_local",
+      "confidence": "medium",
+      "suppliers": [
+        {
+          "name": "INOX Air Products",
+          "facility": "Electronic Specialty Gas Hub, Dholera",
+          "status": "planned (land acquired)",
+          "provenance": [
+            {
+              "source_id": "src:inoxap-dholera-2025"
+            },
+            {
+              "source_id": "src:yourstory-semicon-materials-2026"
+            }
+          ]
+        },
+        {
+          "name": "Linde India",
+          "facility": "Specialty-gas plant, Dholera",
+          "status": "final planning (Sep 2025)",
+          "player_id": "67ef919f-a394-4e2e-ab90-cdd7d544bb6e",
+          "provenance": [
+            {
+              "source_id": "src:deshgujarat-linde-dholera-2025"
+            },
+            {
+              "source_id": "src:techadyant-s130-linde"
+            }
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "node_id": "inode:dholera",
+      "category": "wet_chemicals",
+      "status": "planned_local",
+      "confidence": "medium",
+      "suppliers": [
+        {
+          "name": "Gujarat Alkalies & Chemicals (GACL)",
+          "facility": "High-purity H₂O₂, Dahej (5,000 TPA)",
+          "status": "board-approved May 2026; ~18 months to stream",
+          "player_id": "f9593cc2-c5a0-4a08-a0e7-02a60bfd6321",
+          "provenance": [
+            {
+              "source_id": "src:icn-gacl-h2o2-2026"
+            }
+          ]
+        },
+        {
+          "name": "Fujifilm",
+          "facility": "Materials plant in DSIR incl. high-purity process chemicals",
+          "status": "MoU (Sep 2026)",
+          "player_id": "68a772af-2a0c-49a5-afee-4d197683bca5",
+          "provenance": [
+            {
+              "source_id": "src:fujifilm-tata-2026"
+            }
+          ]
+        }
+      ],
+      "note": "Dahej lies ~100 km straight-line from Dholera (approximate)."
+    },
+    {
+      "node_id": "inode:dholera",
+      "category": "photoresists",
+      "status": "planned_local",
+      "confidence": "medium",
+      "suppliers": [
+        {
+          "name": "Fujifilm",
+          "facility": "Materials plant in DSIR (photoresists, litho materials)",
+          "status": "MoU (Sep 2026)",
+          "player_id": "68a772af-2a0c-49a5-afee-4d197683bca5",
+          "provenance": [
+            {
+              "source_id": "src:fujifilm-tata-2026"
+            }
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "node_id": "inode:dholera",
+      "category": "cmp",
+      "status": "planned_local",
+      "confidence": "medium",
+      "suppliers": [
+        {
+          "name": "Fujifilm",
+          "facility": "Materials plant in DSIR (CMP slurries, post-CMP cleaners)",
+          "status": "MoU (Sep 2026)",
+          "player_id": "68a772af-2a0c-49a5-afee-4d197683bca5",
+          "provenance": [
+            {
+              "source_id": "src:fujifilm-tata-2026"
+            }
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "node_id": "inode:dholera",
+      "category": "wafers",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "No domestic 300 mm wafer supply documented.",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:dholera",
+      "category": "upw",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "No sourced UPW contract or local facility for the fab found.",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:dholera",
+      "category": "equipment_service",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "Tool makers have announced India operations but no Dholera-area service centre is documented.",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:sanand",
+      "category": "substrates",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:sanand",
+      "category": "leadframes",
+      "status": "planned_local",
+      "confidence": "low",
+      "suppliers": [
+        {
+          "name": "Micronex",
+          "facility": "Lead-frame plant, Sanand",
+          "status": "planned (headline only — unconfirmed)",
+          "provenance": [
+            {
+              "source_id": "src:digitimes-micronex-2026"
+            }
+          ]
+        }
+      ],
+      "note": "Single trade-press headline; body not accessible."
+    },
+    {
+      "node_id": "inode:sanand",
+      "category": "bonding_wire",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:sanand",
+      "category": "mould_compounds",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:sanand",
+      "category": "bulk_gases",
+      "status": "operational_regional",
+      "confidence": "medium",
+      "suppliers": [
+        {
+          "name": "INOX Air Products",
+          "facility": "Six large air-separation units in Gujarat (sites not named)",
+          "status": "operational",
+          "player_id": "93aaf245-39c6-42b6-ae3e-35808ebadf8f",
+          "provenance": [
+            {
+              "source_id": "src:inoxap-dholera-2025"
+            }
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "node_id": "inode:sanand",
+      "category": "specialty_gases",
+      "status": "planned_local",
+      "confidence": "medium",
+      "suppliers": [
+        {
+          "name": "Linde India",
+          "facility": "Packaging-gas facility, Sanand",
+          "status": "land secured (Sep 2026)",
+          "player_id": "67ef919f-a394-4e2e-ab90-cdd7d544bb6e",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-s130-linde"
+            }
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "node_id": "inode:sanand",
+      "category": "wet_chemicals",
+      "status": "planned_local",
+      "confidence": "medium",
+      "suppliers": [
+        {
+          "name": "Gujarat Alkalies & Chemicals (GACL)",
+          "facility": "High-purity H₂O₂, Dahej",
+          "status": "board-approved May 2026",
+          "player_id": "f9593cc2-c5a0-4a08-a0e7-02a60bfd6321",
+          "provenance": [
+            {
+              "source_id": "src:icn-gacl-h2o2-2026"
+            }
+          ]
+        },
+        {
+          "name": "Hyspec Chemicals",
+          "facility": "Semiconductor-grade chemicals, Gujarat (site not named)",
+          "status": "MoU (Mar 2026)",
+          "provenance": [
+            {
+              "source_id": "src:icn-hyspec-2026"
+            }
+          ]
+        }
+      ],
+      "note": "Dahej lies ~145 km straight-line from Sanand (approximate)."
+    },
+    {
+      "node_id": "inode:sanand",
+      "category": "test_service",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jewar-yeida",
+      "category": "substrates",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jewar-yeida",
+      "category": "leadframes",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jewar-yeida",
+      "category": "bonding_wire",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jewar-yeida",
+      "category": "mould_compounds",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jewar-yeida",
+      "category": "bulk_gases",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "Industrial-gas plants in the NCR are likely but none tied to semiconductor-grade supply was documented.",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jewar-yeida",
+      "category": "specialty_gases",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jewar-yeida",
+      "category": "wet_chemicals",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jewar-yeida",
+      "category": "test_service",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jagiroad",
+      "category": "substrates",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jagiroad",
+      "category": "leadframes",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jagiroad",
+      "category": "bonding_wire",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jagiroad",
+      "category": "mould_compounds",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jagiroad",
+      "category": "bulk_gases",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jagiroad",
+      "category": "specialty_gases",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jagiroad",
+      "category": "wet_chemicals",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:jagiroad",
+      "category": "test_service",
+      "status": "none_documented",
+      "confidence": "low",
+      "suppliers": [],
+      "note": "",
+      "provenance": [
+        {
+          "source_id": "src:techadyant-supplier-search-2026-10"
+        }
+      ]
+    },
+    {
+      "node_id": "inode:sriperumbudur-oragadam",
+      "category": "plastics_moulding",
+      "status": "operational_local",
+      "confidence": "medium",
+      "suppliers": [
+        {
+          "name": "Vignesh Polymers India",
+          "facility": "Sriperumbudur plant(s), operating since 2007; injection, blow and EPS moulding",
+          "status": "operational",
+          "provenance": [
+            {
+              "source_id": "src:samsung-sriperumbudur-2026"
+            },
+            {
+              "source_id": "src:pti-vignesh-polymers-2025"
+            }
+          ]
+        }
+      ],
+      "note": "In-node supplier to Samsung."
+    },
+    {
+      "node_id": "inode:sriperumbudur-oragadam",
+      "category": "displays_modules",
+      "status": "planned_local",
+      "confidence": "medium",
+      "suppliers": [
+        {
+          "name": "Foxconn",
+          "facility": "Display-module assembly plant, ESR Oragadam park — advanced construction (Jun 2025)",
+          "status": "under_construction",
+          "player_id": "6adedc77-eb0f-4abe-9e4c-f5239251e9d8",
+          "provenance": [
+            {
+              "source_id": "src:businesstoday-foxconn-enclosure-2025"
+            }
+          ]
+        }
+      ],
+      "note": "Operating status after June 2025 not verified."
+    },
+    {
+      "node_id": "inode:sriperumbudur-oragadam",
+      "category": "mechanicals_enclosures",
+      "status": "planned_local",
+      "confidence": "medium",
+      "suppliers": [
+        {
+          "name": "Foxconn",
+          "facility": "iPhone enclosure unit, same industrial park as the display plant — construction begun (Jun 2025)",
+          "status": "under_construction",
+          "player_id": "6adedc77-eb0f-4abe-9e4c-f5239251e9d8",
+          "provenance": [
+            {
+              "source_id": "src:businesstoday-foxconn-enclosure-2025"
+            }
+          ]
+        }
+      ],
+      "note": "Reported via Economic Times; operating status not verified."
+    }
+  ]
+}

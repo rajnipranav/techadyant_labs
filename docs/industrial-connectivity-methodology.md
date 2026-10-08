@@ -59,29 +59,33 @@ Any change to weights, bands or rules increments the version (1.0 → 1.1 for ba
 
 Each node is assigned a **requirement profile** from its anchor industry. Each requirement is assessed `met` (0) · `partial` (0.5) · `gap` (1.0) · `unknown` (missing), with evidence.
 
-| Requirement | Fab profile | Backend (OSAT/ATMP) profile |
-|---|---|---|
-| Air cargo (time-critical, high-value) | 20 | 30 |
-| Power reliability | 20 | 20 |
-| Industrial water | 20 | 10 |
-| Seaport access (bulk chemicals, gases, equipment) | 15 | 15 |
-| Specialised warehousing (bonded, ESD, climate-controlled) | 10 | 15 |
-| Multimodal integration (rail–road–air) | 15 | 10 |
+| Requirement | Fab profile | Backend (OSAT/ATMP) profile | Electronics assembly profile (Phase 2) |
+|---|---|---|---|
+| Air cargo (time-critical, high-value) | 20 | 30 | 25 |
+| Power reliability | 20 | 20 | 15 |
+| Industrial water | 20 | 10 | 5 |
+| Seaport access (bulk chemicals, gases, equipment) | 15 | 15 | 25 |
+| Specialised warehousing (bonded, ESD, climate-controlled) | 10 | 15 | 15 |
+| Multimodal integration (rail–road–air) | 15 | 10 | 15 |
+
+The electronics-assembly profile (added 8 Oct 2026) weights seaport access and air cargo equally: high-volume assembly imports components and ships finished goods by both modes, and needs less process water than a fab.
 
 CGI uses the shared computation (§1.1) with `value = gap weight`. The requirement weights are a Techadyant judgement, documented here and versioned.
 
-## 4. Supply Chain Connectivity Score (SCCS) — defined; Insufficient Data in Phase 1
+## 4. Supply Chain Connectivity Score (SCCS) — computed from Phase 2 (8 Oct 2026)
 **Question:** How efficiently can a node's critical inputs and outputs move?
 
-| Component | Weight | Input required |
+| Component | Weight | Value rule |
 |---|---|---|
-| Supplier proximity | 25 | Share of the anchor industry's critical input categories with a documented domestic supplier ≤ 300 km |
-| Import-gateway access | 20 | ICS seaport/airport values weighted by the node's inbound mix |
-| Export-gateway access | 20 | Same, weighted by outbound mix |
-| Multimodal access | 15 | Count of operational modes with documented interchange |
-| Freight infrastructure | 20 | DFC / MMLP / ICD status and distance |
+| Supplier proximity | 25 | Mean over the profile's critical input categories (8 each for fab, backend and electronics assembly; `data/industrial-intelligence/supplier-map.json`): operating supplier facility ≤ 300 km **1.0** · operating in-state, distance undocumented **0.5** · planned / MoU / land acquired ≤ 300 km **0.25** · none documented **0**. Missing (not searched) categories make the whole component missing |
+| Import-gateway access | 20 | ICS seaport × sea share + ICS airport × air share of the inbound mix — fab 50/50, backend 40/60, electronics assembly 50/50 |
+| Export-gateway access | 20 | Same with the outbound mix — fab 30/70, backend 10/90 (chips travel by air), electronics assembly 40/60 |
+| Multimodal access | 15 | Share of four modes in usable reach: road ≥ 0.6, rail ≥ 0.6, air ≥ 0.7, sea ≥ 0.7 (ICS component values; an unknown mode counts as not in reach) |
+| Freight infrastructure | 20 | Higher of the ICS freight-corridor and logistics-node values |
 
-**Why not computed yet:** supplier-by-input-category mapping for each node does not exist in the Atlas yet (the Atlas maps suppliers by ecosystem, not by node). Phase 2 task.
+**Electronics nodes.** The Atlas has no electronics-assembly sector yet, so these nodes link to Atlas players but not to an Atlas sector; the validator warns rather than fails. Their supplier maps are partial, so supplier proximity reads *missing* and SCCS rests on the four gateway/infrastructure components (75% completeness, low confidence).
+
+**Notes.** "None documented" is a statement about the public record on the search date, not proof of absence — so supplier proximity always carries low confidence until a node's supplier base is verified with the anchor or the state. Supplier → customer edges in the SID that cite only stock-screener pages (17 Aug 2026 batch) are not used. The inbound/outbound mixes are a Techadyant judgement and are versioned with the methodology.
 
 ## 5. Industrial Opportunity Score (IOS) — defined; Insufficient Data in Phase 1
 **Question:** How much industrial opportunity is a change (infrastructure, policy, anchor investment) likely to open at this node?

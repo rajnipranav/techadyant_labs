@@ -342,8 +342,8 @@
 /research/entities/cg-power-and-industrial-solutions-limited/ /research/players/cg-power-and-industrial-solutions-limited/ 301
 /research/entities/cg-semi-private-limited /research/players/cg-semi-private-limited/ 301
 /research/entities/cg-semi-private-limited/ /research/players/cg-semi-private-limited/ 301
-/research/entities/cg-semi-pvt-ltd-cg-power-renesas-jv /research/players/cg-semi-pvt-ltd-cg-power-renesas-jv/ 301
-/research/entities/cg-semi-pvt-ltd-cg-power-renesas-jv/ /research/players/cg-semi-pvt-ltd-cg-power-renesas-jv/ 301
+/research/entities/cg-semi-pvt-ltd-cg-power-renesas-jv /research/players/cg-semi-private-limited/ 301
+/research/entities/cg-semi-pvt-ltd-cg-power-renesas-jv/ /research/players/cg-semi-private-limited/ 301
 /research/entities/cg-semi-sanand-osat /research/players/cg-semi-sanand-osat/ 301
 /research/entities/cg-semi-sanand-osat/ /research/players/cg-semi-sanand-osat/ 301
 /research/entities/cmp-slurries-and-pads /research/players/cmp-slurries-and-pads/ 301
@@ -796,8 +796,8 @@
 /research/entities/india/ /research/players/india/ 301
 /research/entities/india-cellular-and-electronics-association-icea /research/players/india-cellular-and-electronics-association-icea/ 301
 /research/entities/india-cellular-and-electronics-association-icea/ /research/players/india-cellular-and-electronics-association-icea/ 301
-/research/entities/india-chip-hcl-foxconn-jv /research/players/india-chip-hcl-foxconn-jv/ 301
-/research/entities/india-chip-hcl-foxconn-jv/ /research/players/india-chip-hcl-foxconn-jv/ 301
+/research/entities/india-chip-hcl-foxconn-jv /research/players/india-chip-pvt-ltd-hcl-foxconn-jv/ 301
+/research/entities/india-chip-hcl-foxconn-jv/ /research/players/india-chip-pvt-ltd-hcl-foxconn-jv/ 301
 /research/entities/india-chip-pvt-ltd-hcl-foxconn-jv /research/players/india-chip-pvt-ltd-hcl-foxconn-jv/ 301
 /research/entities/india-chip-pvt-ltd-hcl-foxconn-jv/ /research/players/india-chip-pvt-ltd-hcl-foxconn-jv/ 301
 /research/entities/india-electronics-and-semiconductor-association /research/players/india-electronics-and-semiconductor-association/ 301
@@ -892,8 +892,8 @@
 /research/entities/kawalapur-rare-earth-elements-block/ /research/players/kawalapur-rare-earth-elements-block/ 301
 /research/entities/kaynes-semicon-private-limited /research/players/kaynes-semicon-private-limited/ 301
 /research/entities/kaynes-semicon-private-limited/ /research/players/kaynes-semicon-private-limited/ 301
-/research/entities/kaynes-semicon-pvt-ltd /research/players/kaynes-semicon-pvt-ltd/ 301
-/research/entities/kaynes-semicon-pvt-ltd/ /research/players/kaynes-semicon-pvt-ltd/ 301
+/research/entities/kaynes-semicon-pvt-ltd /research/players/kaynes-semicon-private-limited/ 301
+/research/entities/kaynes-semicon-pvt-ltd/ /research/players/kaynes-semicon-private-limited/ 301
 /research/entities/kaynes-semicon-sanand-backend-platform /research/players/kaynes-semicon-sanand-backend-platform/ 301
 /research/entities/kaynes-semicon-sanand-backend-platform/ /research/players/kaynes-semicon-sanand-backend-platform/ 301
 /research/entities/kaynes-technology-india-limited /research/players/kaynes-technology-india-limited/ 301
@@ -1000,8 +1000,8 @@
 /research/entities/micron-semiconductor-technology-india-private-limited/ /research/players/micron-semiconductor-technology-india-private-limited/ 301
 /research/entities/micron-technology /research/players/micron-technology/ 301
 /research/entities/micron-technology/ /research/players/micron-technology/ 301
-/research/entities/micron-technology-india-sanand-atmp /research/players/micron-technology-india-sanand-atmp/ 301
-/research/entities/micron-technology-india-sanand-atmp/ /research/players/micron-technology-india-sanand-atmp/ 301
+/research/entities/micron-technology-india-sanand-atmp /research/players/micron-atmp-sanand/ 301
+/research/entities/micron-technology-india-sanand-atmp/ /research/players/micron-atmp-sanand/ 301
 /research/entities/microsoft-ai-for-health-india-programmes /research/players/microsoft-ai-for-health-india-programmes/ 301
 /research/entities/microsoft-ai-for-health-india-programmes/ /research/players/microsoft-ai-for-health-india-programmes/ 301
 /research/entities/microsoft-azure /research/players/microsoft-azure/ 301
@@ -1548,10 +1548,10 @@
 /research/entities/ups-and-power-electronics/ /research/players/ups-and-power-electronics/ 301
 /research/entities/uncooled-thermal-imaging-cameras /research/players/uncooled-thermal-imaging-cameras/ 301
 /research/entities/uncooled-thermal-imaging-cameras/ /research/players/uncooled-thermal-imaging-cameras/ 301
-/research/entities/unimicron /research/players/unimicron/ 301
-/research/entities/unimicron/ /research/players/unimicron/ 301
-/research/entities/unimicron-technology /research/players/unimicron-technology/ 301
-/research/entities/unimicron-technology/ /research/players/unimicron-technology/ 301
+/research/entities/unimicron /research/players/unimicron-technology-corporation/ 301
+/research/entities/unimicron/ /research/players/unimicron-technology-corporation/ 301
+/research/entities/unimicron-technology /research/players/unimicron-technology-corporation/ 301
+/research/entities/unimicron-technology/ /research/players/unimicron-technology-corporation/ 301
 /research/entities/unimicron-technology-corporation /research/players/unimicron-technology-corporation/ 301
 /research/entities/unimicron-technology-corporation/ /research/players/unimicron-technology-corporation/ 301
 /research/entities/unique-identification-authority-of-india-uidai /research/players/unique-identification-authority-of-india-uidai/ 301
@@ -1634,6 +1634,19 @@
 /research/players/raphe-mphibr/ /research/players/raphe-mphibr-private-limited/ 301
 /research/players/raphe-mphibr-logistics /research/players/raphe-mphibr-private-limited/ 301
 /research/players/raphe-mphibr-logistics/ /research/players/raphe-mphibr-private-limited/ 301
+
+/research/players/cg-semi-pvt-ltd-cg-power-renesas-jv /research/players/cg-semi-private-limited/ 301
+/research/players/cg-semi-pvt-ltd-cg-power-renesas-jv/ /research/players/cg-semi-private-limited/ 301
+/research/players/kaynes-semicon-pvt-ltd /research/players/kaynes-semicon-private-limited/ 301
+/research/players/kaynes-semicon-pvt-ltd/ /research/players/kaynes-semicon-private-limited/ 301
+/research/players/india-chip-hcl-foxconn-jv /research/players/india-chip-pvt-ltd-hcl-foxconn-jv/ 301
+/research/players/india-chip-hcl-foxconn-jv/ /research/players/india-chip-pvt-ltd-hcl-foxconn-jv/ 301
+/research/players/micron-technology-india-sanand-atmp /research/players/micron-atmp-sanand/ 301
+/research/players/micron-technology-india-sanand-atmp/ /research/players/micron-atmp-sanand/ 301
+/research/players/unimicron /research/players/unimicron-technology-corporation/ 301
+/research/players/unimicron/ /research/players/unimicron-technology-corporation/ 301
+/research/players/unimicron-technology /research/players/unimicron-technology-corporation/ 301
+/research/players/unimicron-technology/ /research/players/unimicron-technology-corporation/ 301
 
 # ---- Dynamic redirects (splats / placeholders) — MUST come last ----
 /reports/the-sap-question-flagship/* /reports/the-sap-question/ 301
