@@ -1,0 +1,311 @@
+{
+  "version": "1.0",
+  "note": "Pilot tracker: only projects that change connectivity for a pilot industrial node. The differentiator is the 'strategic_significance' line — project → industrial consequence — which is Techadyant analysis.",
+  "projects": [
+    {
+      "id": "proj:ne8-ahmedabad-dholera-expressway",
+      "name": "Ahmedabad–Dholera Greenfield Expressway (NE-8)",
+      "sector": "road",
+      "project_type": "Greenfield access-controlled expressway",
+      "states": [
+        "Gujarat"
+      ],
+      "districts": [
+        "Ahmedabad",
+        "Bhavnagar"
+      ],
+      "implementing_agency": "Ministry of Road Transport & Highways / NHAI",
+      "estimated_cost_cr": 5800,
+      "cost_note": "Total project cost per PIB (Feb 2026)",
+      "status": "trial",
+      "status_note": "Opened to the public for testing; final operational readiness being assessed (27 Feb 2026).",
+      "approval_date": null,
+      "expected_completion": null,
+      "corridor": "Delhi–Mumbai Industrial Corridor (Dholera SIR)",
+      "infra_ids": [
+        "infra:ne8-ahmedabad-dholera-expressway"
+      ],
+      "affected_node_ids": [
+        "inode:dholera"
+      ],
+      "affected_sectors": [
+        "sector:semiconductors",
+        "Solar manufacturing",
+        "Data centres"
+      ],
+      "strategic_significance": "Turns Dholera from a two-hour drive into a ~45-minute extension of Ahmedabad and puts an expressway interchange at the airport gate — the first connectivity piece that makes the fab’s workforce, construction and air-cargo logistics practical before rail arrives.",
+      "itla_appraisal_tier": true,
+      "facts": [
+        {
+          "label": "Length",
+          "value": "109.019 km",
+          "as_of": "2026-02-27",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ne8-expressway-2026"
+            }
+          ]
+        },
+        {
+          "label": "Travel time",
+          "value": "Ahmedabad–Dholera: 100 km / 2 h 15 min → 83 km / 45 min",
+          "as_of": "2026-02-27",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ne8-expressway-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:pib-ne8-expressway-2026"
+        }
+      ],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "proj:sarkhej-dholera-semi-hsr",
+      "name": "Ahmedabad (Sarkhej)–Dholera semi high-speed double line",
+      "sector": "rail",
+      "project_type": "New semi high-speed double line",
+      "states": [
+        "Gujarat"
+      ],
+      "districts": [
+        "Ahmedabad"
+      ],
+      "implementing_agency": "Ministry of Railways",
+      "estimated_cost_cr": 20667,
+      "cost_note": "Approximate cost per Cabinet release",
+      "status": "approved",
+      "status_note": "Approved by CCEA on 13 May 2026.",
+      "approval_date": "2026-05-13",
+      "expected_completion": "2030-31",
+      "corridor": "Delhi–Mumbai Industrial Corridor (Dholera SIR)",
+      "infra_ids": [
+        "infra:rail-sarkhej-dholera"
+      ],
+      "affected_node_ids": [
+        "inode:dholera"
+      ],
+      "affected_sectors": [
+        "sector:semiconductors"
+      ],
+      "strategic_significance": "Closes Dholera’s multimodal gap, but only from 2030-31 — after the fab’s production target. Until then, chemicals, gases and equipment move by road; that timing gap is what the node’s near-term logistics market prices in.",
+      "itla_appraisal_tier": true,
+      "facts": [
+        {
+          "label": "Network addition",
+          "value": "About 134 km",
+          "as_of": "2026-05-13",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-sarkhej-dholera-rail-2026"
+            }
+          ]
+        },
+        {
+          "label": "Connects",
+          "value": "Ahmedabad, Dholera SIR, Dholera Airport and the Lothal National Maritime Heritage Complex",
+          "as_of": "2026-05-13",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-sarkhej-dholera-rail-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:pib-sarkhej-dholera-rail-2026"
+        }
+      ],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "proj:dholera-international-airport",
+      "name": "Dholera International Airport",
+      "sector": "aviation",
+      "project_type": "Greenfield international airport",
+      "states": [
+        "Gujarat"
+      ],
+      "districts": [
+        "Ahmedabad"
+      ],
+      "implementing_agency": null,
+      "estimated_cost_cr": null,
+      "cost_note": "Total cost not recorded from a primary source.",
+      "status": "under_construction",
+      "status_note": "~80% complete; operations targeted Sep–Oct 2026 per the Civil Aviation Minister as reported (single trade-press source; unconfirmed).",
+      "approval_date": null,
+      "expected_completion": "2026 (targeted, unconfirmed)",
+      "corridor": "Delhi–Mumbai Industrial Corridor (Dholera SIR)",
+      "infra_ids": [
+        "infra:airport-dholera"
+      ],
+      "affected_node_ids": [
+        "inode:dholera"
+      ],
+      "affected_sectors": [
+        "sector:semiconductors"
+      ],
+      "strategic_significance": "For a fab, air cargo is the critical mode: spares, specialty materials and finished wafers are high-value and time-sensitive. An operational cargo hub at the SIR would cut the ~105 km straight-line dependence on Ahmedabad.",
+      "itla_appraisal_tier": null,
+      "facts": [
+        {
+          "label": "Planned facilities",
+          "value": "25,000 sq m passenger terminal; 2,500 sq m cargo hub",
+          "as_of": "2026-07-15",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:whalesbook-dholera-airport-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:whalesbook-dholera-airport-2026"
+        },
+        {
+          "source_id": "src:pib-ne8-expressway-2026"
+        }
+      ],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "proj:wdfc-final-sections-2026",
+      "name": "Western DFC final sections (New Sanand N–New Makarpura; New Umbergaon–New Saphale; New Saphale–New JNPT)",
+      "sector": "freight_rail",
+      "project_type": "Dedicated freight corridor completion",
+      "states": [
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "districts": [
+        "Ahmedabad",
+        "Vadodara"
+      ],
+      "implementing_agency": "DFCCIL (Ministry of Railways)",
+      "estimated_cost_cr": 20700,
+      "cost_note": "Aggregate for the three sections (326 route km), 'more than ₹20,700 crore'",
+      "status": "operational",
+      "status_note": "Dedicated 8 Sep 2026; WDFC completed and fully operational.",
+      "approval_date": null,
+      "expected_completion": "2026-09-08",
+      "corridor": "Western Dedicated Freight Corridor",
+      "infra_ids": [
+        "infra:wdfc",
+        "infra:dfc-new-sanand-north"
+      ],
+      "affected_node_ids": [
+        "inode:sanand",
+        "inode:jewar-yeida"
+      ],
+      "affected_sectors": [
+        "sector:semiconductors",
+        "Automotive",
+        "Engineering"
+      ],
+      "strategic_significance": "Puts a dedicated freight-rail station inside India’s first operating chip-packaging cluster and completes the Dadri–JNPA spine that also serves the Jewar side. Rail does not carry chips — it carries the gases, chemicals, packaging materials and containerised output that make a cluster cheaper to run.",
+      "itla_appraisal_tier": true,
+      "facts": [
+        {
+          "label": "Route km dedicated",
+          "value": "326 km across three sections",
+          "as_of": "2026-09-08",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pmindia-wdfc-2026"
+            },
+            {
+              "source_id": "src:jica-wdfc-2026"
+            }
+          ]
+        },
+        {
+          "label": "Full corridor",
+          "value": "WDFC 1,506 km Dadri–JNPT completed and fully operational",
+          "as_of": "2026-09-08",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:jica-wdfc-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:pmindia-wdfc-2026"
+        },
+        {
+          "source_id": "src:jica-wdfc-2026"
+        }
+      ],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "proj:noida-international-airport-phase1",
+      "name": "Noida International Airport, Jewar — Phase 1",
+      "sector": "aviation",
+      "project_type": "Greenfield international airport with integrated cargo terminal",
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "districts": [
+        "Gautam Buddha Nagar"
+      ],
+      "implementing_agency": null,
+      "estimated_cost_cr": 11200,
+      "cost_note": "Approximate total investment for Phase 1 per AIR",
+      "status": "operational",
+      "status_note": "Phase 1 inaugurated 28 Mar 2026; first cargo flight 17 Jun 2026.",
+      "approval_date": null,
+      "expected_completion": "2026-03-28",
+      "corridor": null,
+      "infra_ids": [
+        "infra:airport-noida-jewar"
+      ],
+      "affected_node_ids": [
+        "inode:jewar-yeida"
+      ],
+      "affected_sectors": [
+        "sector:semiconductors",
+        "Electronics manufacturing"
+      ],
+      "strategic_significance": "Gives the India Chip OSAT an operating cargo airport next door before the plant ships its first unit — inverting the usual Indian sequence in which factories wait years for logistics.",
+      "itla_appraisal_tier": null,
+      "facts": [
+        {
+          "label": "Phase 1 capacity",
+          "value": "12 million passengers/yr; > 2.5 lakh t cargo/yr (expandable to ~18 lakh t)",
+          "as_of": "2026-03-27",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:air-noida-airport-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:air-noida-airport-2026"
+        },
+        {
+          "source_id": "src:fpj-noida-cargo-2026"
+        }
+      ],
+      "last_verified": "2026-10-08"
+    }
+  ]
+}

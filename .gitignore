@@ -34,3 +34,5 @@ app/reports/content/zzz-admin-test.tsx
 *.del
 
 .hermes
+
+tsconfig.tsbuildinfo

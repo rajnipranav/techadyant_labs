@@ -8,6 +8,7 @@ import {
 import { JsonLd, breadcrumb, SITE } from '../../seo';
 import { MicroFeedback } from '../../../components/MicroFeedback';
 import { RelatedReportsLinks, ENTITY_TO_REPORTS } from '../../report-links';
+import { PlayerIndustrialLinks } from '../../industrial/Backlinks';
 
 export function generateStaticParams() {
   const slugs = allPlayers.map((p) => ({ slug: playerSlug(p.id) }));
@@ -154,6 +155,8 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
         ) : (
           <p className="player-empty">No mapped relationships yet for this entity.</p>
         )}
+
+        <PlayerIndustrialLinks playerId={p.id} />
 
         <div style={{ marginTop: 24 }}>
           <MicroFeedback contentType="atlas" contentId={slug} prompt="Is anything missing on this entity?" />

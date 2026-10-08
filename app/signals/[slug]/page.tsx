@@ -11,6 +11,7 @@ import { MicroFeedback } from '../../components/MicroFeedback';
 import { Comments } from '../../components/Comments';
 import { getReport } from '../../reports/data';
 import { SIGNAL_TO_REPORTS } from '../report-links';
+import { SignalAtlasLinks } from '../../research/industrial/Backlinks';
 
 export async function generateStaticParams() {
   let signals: any[] = staticSignals;
@@ -227,6 +228,8 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
             })}
           </div>
         ) : null}
+
+        <SignalAtlasLinks slug={s.slug} />
 
         <div className="report-cta" style={{ padding: 0, marginTop: 48 }}>
           <div className="report-cta-inner">

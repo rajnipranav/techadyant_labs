@@ -1,0 +1,204 @@
+{
+  "version": "1.0",
+  "note": "Opportunity Surfaces are Techadyant analytical hypotheses. Each starts from a sourced triggering development and is not a forecast of procurement, contracts or government action.",
+  "surfaces": [
+    {
+      "id": "opp:dholera-fab-materials-logistics",
+      "title": "Road-bridged materials and gas logistics for the Dholera fab before rail arrives (2026–2031)",
+      "location": "Dholera SIR, Gujarat",
+      "node_ids": ["inode:dholera"],
+      "sectors": ["sector:semiconductors", "Electronic materials", "Specialty gases"],
+      "triggering_development": {
+        "text": "The NE-8 expressway is open for testing while the Sarkhej–Dholera rail line is approved only for completion by 2030-31; Fujifilm has signed an MoU for a phased materials plant inside the SIR.",
+        "project_ids": ["proj:ne8-ahmedabad-dholera-expressway", "proj:sarkhej-dholera-semi-hsr"],
+        "provenance": [{ "source_id": "src:pib-ne8-expressway-2026" }, { "source_id": "src:pib-sarkhej-dholera-rail-2026" }, { "source_id": "src:fujifilm-tata-2026" }]
+      },
+      "chain": [
+        { "stage": "infrastructure_change", "text": "Expressway access arrives in 2026; rail access not before 2030-31.", "evidence": "fact", "provenance": [{ "source_id": "src:pib-ne8-expressway-2026" }, { "source_id": "src:pib-sarkhej-dholera-rail-2026" }] },
+        { "stage": "connectivity_effect", "text": "For roughly five years every bulk chemical, gas cylinder and tool spare reaches the fab by road, over ~160–260 km (straight-line) from Gujarat’s ports.", "evidence": "analysis" },
+        { "stage": "industrial_impact", "text": "Fab ramp-up depends on dependable, contamination-controlled road logistics for hazardous and high-purity inputs.", "evidence": "analysis" },
+        { "stage": "supply_chain_effect", "text": "Materials makers (Fujifilm MoU) and gas suppliers locating inside the SIR shorten the most fragile inbound legs.", "evidence": "analysis", "provenance": [{ "source_id": "src:fujifilm-tata-2026" }] },
+        { "stage": "strategic_dependency", "text": "Import dependence on photoresists, slurries and high-purity chemicals persists, but the physical exposure moves from long road hauls to on-site supply.", "evidence": "analysis" },
+        { "stage": "opportunity", "text": "Potential demand for hazmat-certified, high-purity chemical and gas logistics, on-site storage and cylinder/ISO-tank management serving the fab and its vendor park during the pre-rail window.", "evidence": "analysis" }
+      ],
+      "opportunity_type": "logistics_service",
+      "horizon": "near",
+      "confidence": "medium",
+      "constraints": [
+        "Fab production timeline could slip, delaying demand.",
+        "Tata and global gas/chemical majors may run captive logistics, leaving little room for third parties.",
+        "Vendor-park and materials MoUs may not convert to builds."
+      ],
+      "strategic_rationale": "The mismatch between road-first and rail-later connectivity creates a time-bound, specialised logistics need that the node’s anchor cannot avoid.",
+      "relevant_player_ids": ["5969dbc5-b8b4-40f7-b98e-14b88ca3d977", "68a772af-2a0c-49a5-afee-4d197683bca5", "67ef919f-a394-4e2e-ab90-cdd7d544bb6e"],
+      "relevant_project_ids": ["proj:ne8-ahmedabad-dholera-expressway", "proj:sarkhej-dholera-semi-hsr"],
+      "affected_supply_chains": ["Electronic specialty gases", "Wet chemicals and CMP slurries", "Photoresists"],
+      "provenance": [{ "source_id": "src:techadyant-s113-vendor-park" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "opp:dholera-air-cargo-handling",
+      "title": "Fab-grade air-cargo handling at Dholera’s new airport",
+      "location": "Dholera SIR, Gujarat",
+      "node_ids": ["inode:dholera"],
+      "sectors": ["sector:semiconductors"],
+      "triggering_development": {
+        "text": "Dholera International Airport is under construction next to the SIR, with a planned 2,500 sq m cargo hub and a direct expressway interchange.",
+        "project_ids": ["proj:dholera-international-airport", "proj:ne8-ahmedabad-dholera-expressway"],
+        "provenance": [{ "source_id": "src:whalesbook-dholera-airport-2026" }, { "source_id": "src:pib-ne8-expressway-2026" }]
+      },
+      "chain": [
+        { "stage": "infrastructure_change", "text": "A cargo-capable airport is being built beside the fab.", "evidence": "fact", "provenance": [{ "source_id": "src:whalesbook-dholera-airport-2026" }] },
+        { "stage": "connectivity_effect", "text": "Time-critical shipments could shift from Ahmedabad (~105 km straight-line) to an on-site airport.", "evidence": "analysis" },
+        { "stage": "industrial_impact", "text": "Wafer, spare-part and specialty-material movements would be faster and handled closer to the cleanroom.", "evidence": "analysis" },
+        { "stage": "supply_chain_effect", "text": "A small general-purpose cargo hub may not meet semiconductor needs (ESD, vibration, temperature, bonded clearance).", "evidence": "analysis" },
+        { "stage": "opportunity", "text": "Potential opening for semiconductor-specialised air-cargo handling, bonded storage and customs-brokerage capability sized to the fab rather than to general cargo.", "evidence": "analysis" }
+      ],
+      "opportunity_type": "specialised_infrastructure",
+      "horizon": "medium",
+      "confidence": "low",
+      "constraints": [
+        "Airport opening date and cargo-terminal scope are single-source and unconfirmed.",
+        "Air-freight volumes depend on fab ramp; Ahmedabad may remain the default gateway."
+      ],
+      "strategic_rationale": "Air is the critical mode for semiconductors; the size of the planned cargo hub is small relative to a 50,000 WSPM fab’s eventual needs.",
+      "relevant_player_ids": ["5969dbc5-b8b4-40f7-b98e-14b88ca3d977"],
+      "relevant_project_ids": ["proj:dholera-international-airport"],
+      "affected_supply_chains": ["Finished wafers", "Fab tool spares"],
+      "provenance": [{ "source_id": "src:whalesbook-dholera-airport-2026" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "opp:sanand-dfc-osat-consolidation",
+      "title": "DFC-linked consolidation and specialised warehousing for Sanand’s three OSATs",
+      "location": "Sanand, Gujarat",
+      "node_ids": ["inode:sanand"],
+      "sectors": ["sector:semiconductors", "OSAT / ATMP"],
+      "triggering_development": {
+        "text": "The WDFC New Sanand (N)–New Makarpura section was dedicated on 8 Sep 2026, completing the corridor to JNPA, while Micron, Kaynes and CG Semi are reported in commercial production at Sanand.",
+        "project_ids": ["proj:wdfc-final-sections-2026"],
+        "provenance": [{ "source_id": "src:pmindia-wdfc-2026" }, { "source_id": "src:jica-wdfc-2026" }, { "source_id": "src:techadyant-s062-sanand" }]
+      },
+      "chain": [
+        { "stage": "infrastructure_change", "text": "A dedicated freight-rail station opens at Sanand on a corridor that reaches JNPA.", "evidence": "fact", "provenance": [{ "source_id": "src:pmindia-wdfc-2026" }] },
+        { "stage": "connectivity_effect", "text": "Containerised inputs and outputs can move between Sanand and JNPA on a freight-only line instead of by road.", "evidence": "analysis" },
+        { "stage": "industrial_impact", "text": "Three running OSATs share similar inbound materials (substrates, lead-frames, mould compounds, gases) and outbound packaging flows.", "evidence": "analysis" },
+        { "stage": "supply_chain_effect", "text": "Shared, rail-fed consolidation could lower landed cost of non-urgent inputs; urgent, high-value items stay on air via Ahmedabad.", "evidence": "analysis" },
+        { "stage": "strategic_dependency", "text": "Import dependence on packaging materials is unchanged, but buffer stocks held locally reduce exposure to single shipments.", "evidence": "analysis" },
+        { "stage": "opportunity", "text": "Potential demand for bonded, ESD-safe, humidity-controlled warehousing and a rail-linked consolidation service serving multiple OSATs.", "evidence": "analysis" }
+      ],
+      "opportunity_type": "logistics_service",
+      "horizon": "near",
+      "confidence": "medium",
+      "constraints": [
+        "Goods-handling facilities at New Sanand (North) and their access from the GIDC estates are not documented.",
+        "OSAT inputs are low-weight and high-value; rail economics may favour only a subset of flows.",
+        "Large OSATs often contract global 3PLs with captive arrangements."
+      ],
+      "strategic_rationale": "Sanand is the only pilot node where three backend units already produce and dedicated freight rail is already open — the conditions for shared logistics exist now rather than in a plan.",
+      "relevant_player_ids": ["9c06adf9-54cd-40f3-9a14-84362fb6982c", "3900267c-16b8-4500-b3ed-e40664203212", "1f345cf5-1184-4c88-acd7-073f11539966"],
+      "relevant_project_ids": ["proj:wdfc-final-sections-2026"],
+      "affected_supply_chains": ["IC substrates", "Lead-frames and bonding wire", "Mould compounds", "Packaging gases"],
+      "provenance": [{ "source_id": "src:techadyant-s062-sanand" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "opp:gujarat-electronic-gas-network",
+      "title": "A shared electronic-gas and chemical supply network across the Dholera–Sanand arc",
+      "location": "Dholera and Sanand, Gujarat",
+      "node_ids": ["inode:dholera", "inode:sanand"],
+      "sectors": ["sector:semiconductors", "Specialty gases"],
+      "triggering_development": {
+        "text": "Linde India has a chip-gas plant at Dholera set to supply Tata’s fab and has secured land at Sanand for a packaging-gas facility.",
+        "project_ids": [],
+        "provenance": [{ "source_id": "src:techadyant-s130-linde" }]
+      },
+      "chain": [
+        { "stage": "industrial_impact", "text": "One gas major now serves both a front-end fab (Dholera) and backend packaging (Sanand) within one state.", "evidence": "fact", "provenance": [{ "source_id": "src:techadyant-s130-linde" }] },
+        { "stage": "connectivity_effect", "text": "The two nodes are linked by the new expressway towards Ahmedabad and, at Sanand, by the WDFC.", "evidence": "analysis" },
+        { "stage": "supply_chain_effect", "text": "Cylinder, bulk and specialty-gas logistics, purification and analytics could be run as one regional network rather than per plant.", "evidence": "analysis" },
+        { "stage": "strategic_dependency", "text": "The molecule is localised but ownership and technology stay with global majors (Techadyant S-130).", "evidence": "analysis", "provenance": [{ "source_id": "src:techadyant-s130-linde" }] },
+        { "stage": "opportunity", "text": "Potential room for Indian firms in gas-cylinder and ISO-container logistics, gas-purity testing and analytics, and maintenance of gas-delivery systems across both nodes.", "evidence": "analysis" }
+      ],
+      "opportunity_type": "shared_services",
+      "horizon": "medium",
+      "confidence": "medium",
+      "constraints": [
+        "Global gas majors typically vertically integrate delivery and analytics.",
+        "Safety certification barriers for specialty-gas handling are high."
+      ],
+      "strategic_rationale": "Cross-node analysis is where the graph adds value: neither node alone shows that the same supplier is building a regional network.",
+      "relevant_player_ids": ["67ef919f-a394-4e2e-ab90-cdd7d544bb6e"],
+      "relevant_project_ids": [],
+      "affected_supply_chains": ["Electronic specialty gases", "Bulk gases"],
+      "provenance": [{ "source_id": "src:techadyant-s130-linde" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "opp:jewar-air-coupled-components",
+      "title": "Air-cargo-coupled component and packaging-input supply around India Chip at Jewar",
+      "location": "YEIDA, Uttar Pradesh",
+      "node_ids": ["inode:jewar-yeida"],
+      "sectors": ["sector:semiconductors", "Electronics manufacturing"],
+      "triggering_development": {
+        "text": "Noida International Airport’s cargo terminal began operations in June 2026 beside the site of the HCL–Foxconn display-driver OSAT (groundbreaking Feb 2026).",
+        "project_ids": ["proj:noida-international-airport-phase1"],
+        "provenance": [{ "source_id": "src:fpj-noida-cargo-2026" }, { "source_id": "src:pib-india-chip-2025" }, { "source_id": "src:pib-india-chip-groundbreaking-2026" }]
+      },
+      "chain": [
+        { "stage": "infrastructure_change", "text": "An international cargo airport opens next to an OSAT site before the plant produces.", "evidence": "fact", "provenance": [{ "source_id": "src:air-noida-airport-2026" }] },
+        { "stage": "connectivity_effect", "text": "Wafer inbound and chip outbound can be flown directly; seaports remain more than 900 km away straight-line.", "evidence": "analysis" },
+        { "stage": "industrial_impact", "text": "Display makers and EMS firms in the NCR could source display-driver chips with short lead times.", "evidence": "analysis" },
+        { "stage": "supply_chain_effect", "text": "Low-weight, high-value packaging inputs favour suppliers that can sit inside the airport’s logistics zones.", "evidence": "analysis" },
+        { "stage": "opportunity", "text": "Potential for packaging-consumables supply, test and reliability services, and airside bonded logistics oriented to the OSAT and nearby electronics makers.", "evidence": "analysis" }
+      ],
+      "opportunity_type": "supplier_localisation",
+      "horizon": "medium",
+      "confidence": "low",
+      "constraints": [
+        "OSAT is not yet producing; volumes and timelines are unconfirmed.",
+        "Airport cargo-ops start is single-source (trade press).",
+        "Seaport distance raises costs for any bulk inputs."
+      ],
+      "strategic_rationale": "Jewar is the rare case where the critical logistics mode for chips is in place before the anchor — a window for suppliers to locate early.",
+      "relevant_player_ids": ["24982411-a4b0-4087-b41d-e29187d8225a"],
+      "relevant_project_ids": ["proj:noida-international-airport-phase1"],
+      "affected_supply_chains": ["Display-driver ICs", "Packaging consumables"],
+      "provenance": [{ "source_id": "src:techadyant-s011-jewar" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "opp:jagiroad-remote-node-services",
+      "title": "Local consumables, maintenance and consolidation services for a remote OSAT at Jagiroad",
+      "location": "Jagiroad, Morigaon, Assam",
+      "node_ids": ["inode:jagiroad"],
+      "sectors": ["sector:semiconductors", "OSAT (advanced packaging)"],
+      "triggering_development": {
+        "text": "TSAT (₹27,000 cr, up to 48 million chips/day) is scheduled to start operations in December 2026, ~85 km (straight-line) from the nearest international cargo airport and ~580 km from the nearest seaport.",
+        "project_ids": [],
+        "provenance": [{ "source_id": "src:pib-ism-three-units-2024" }, { "source_id": "src:newsmill-tsat-dec-2026" }, { "source_id": "src:adani-lgbi-cargo" }]
+      },
+      "chain": [
+        { "stage": "industrial_impact", "text": "A very large OSAT starts up far from any semiconductor supplier base.", "evidence": "fact", "provenance": [{ "source_id": "src:pib-ism-three-units-2024" }] },
+        { "stage": "connectivity_effect", "text": "Inputs arrive by long-haul road, rail or air; Guwahati’s new international cargo terminal is still upcoming.", "evidence": "fact", "provenance": [{ "source_id": "src:adani-lgbi-cargo" }] },
+        { "stage": "supply_chain_effect", "text": "Long, variable lead times push the plant to hold more inventory and to source routine consumables and services locally.", "evidence": "analysis" },
+        { "stage": "strategic_dependency", "text": "Dependence on distant suppliers is structural; local substitutes are only feasible for low-tech consumables and services.", "evidence": "analysis" },
+        { "stage": "opportunity", "text": "Potential demand for local consumables (packing, cleanroom supplies), equipment maintenance, inventory buffering/consolidation near Guwahati, and skills providers.", "evidence": "analysis" }
+      ],
+      "opportunity_type": "skills_capacity",
+      "horizon": "near",
+      "confidence": "low",
+      "constraints": [
+        "Start-of-operations date is a state statement, not a commissioning record.",
+        "Tata may centralise services in-house.",
+        "Thin local industrial base limits quality-certified suppliers."
+      ],
+      "strategic_rationale": "Peripheral strategic nodes create demand for the mundane services that core clusters take for granted — and that demand is reachable by regional SMEs.",
+      "relevant_player_ids": ["c339a02b-51fa-4704-aece-0326de908a49"],
+      "relevant_project_ids": [],
+      "affected_supply_chains": ["Packaging consumables", "Equipment maintenance"],
+      "provenance": [{ "source_id": "src:pib-assam-osat-2024" }],
+      "last_verified": "2026-10-08"
+    }
+  ]
+}

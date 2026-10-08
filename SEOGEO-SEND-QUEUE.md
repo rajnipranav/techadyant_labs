@@ -100,6 +100,31 @@ Send from: labs@techadyant.com (the address published on the site). Max 2–3 pe
 
 ---
 
+## BATCH 4 — Open-data catalogues & dataset registries (self-serve, no email needed)
+
+These are **repositories, not directories**: Zenodo, Kaggle and awesome-public-datasets are where
+researchers already go to find data. Posting there is a legitimate open-data deposit, which is why
+it does not conflict with the "no directory spam" rule above. Full step-by-step with pre-filled
+payloads is in **`DATA-SUBMISSION-GUIDE.md`**; package to upload is **`techadyant-atlas-datasets.zip`**
+(56 KB) / `data-deposit\`.
+
+| # | Target | What to do | Asset it links | Effort |
+|---|---|---|---|---|
+| 4.1 | **Zenodo** (zenodo.org) | Sign in with GitHub/ORCID → New upload → `techadyant-atlas-datasets.zip` → CC BY 4.0 → get a DOI | `https://labs.techadyant.com/research/` (relation `isSupplementTo`) | ~10 min, needs your account |
+| 4.2 | **Kaggle** (kaggle.com/datasets) | New Dataset → upload the 3 CSVs → category Economics/Industry → CC BY 4.0 | `https://labs.techadyant.com/research/` | ~15 min, needs your account |
+| 4.3 | **`awesomedata/apd-core`** (PR) | fork → add `core/Economics/Techadyant-Atlas-Dependency-Grid.yml` (YAML pre-filled in the guide) → `./tests/testing.sh` → PR | `https://labs.techadyant.com/research/dependencies` | ~10 min |
+| 4.4 | **`gurmanbh/india-data-sources`** (PR) | PR under `## Economy` with the pre-filled bullet in the guide | `https://labs.techadyant.com/research/dependencies` | ~5 min |
+| 4.5 | `sunil-dhaka/india-data-directory` (PR) | Optional, lowest authority — new `## Industrial and supply-chain data` section | `https://labs.techadyant.com/research/datasets` | ~5 min |
+
+- **Target is `gurmanbh/india-data-sources`, NOT `pritharoy/india-data-sources`** — the latter is a
+  fork with 0 stars and earns nothing.
+- **Do not PR `awesomedata/awesome-public-datasets` directly** — its README is auto-generated from
+  `apd-core` and the PR will be closed.
+- Run **4.3 first** (highest authority: the parent list has 79.4k stars), then 4.4, then 4.1.
+- Log every PR/deposit as its own row in `SEOGEO-OUTREACH-LOG.md`.
+
+---
+
 ## Cadence & tracking
 - Days 1–3: Batch 1 (associations + institutions), 1–2 sends/day.
 - Days 4–7: Batch 2 (editorial), 1–2/day.

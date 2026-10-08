@@ -32,9 +32,11 @@ const PATHS = [
 ];
 
 const DATABASES = [
+  { href: '/research/industrial-nodes/', name: 'Industrial Nodes & Connectivity', desc: 'What infrastructure means for industry: semiconductor-node dossiers (Dholera, Sanand, Jewar–YEIDA, Jagiroad) with connectivity, gaps, supply-chain position and opportunity surfaces.' },
   { href: '/research/patents/', name: 'Patent Monitor', desc: 'India-origin patent filings across strategic technologies, by sector and applicant.' },
   { href: '/research/suppliers/', name: 'Supplier Directory', desc: '498 Indian manufacturing suppliers — CNC, PCB, composites, precision machining, toolmaking.' },
   { href: '/research/critical-manufacturing-dependencies', name: 'Critical Manufacturing Dependencies', desc: 'Chart-first intelligence on India’s import dependence: dependency indices, sector decompositions, cluster geography, localization timelines, and investment opportunity.' },
+  { href: '/research/logistics/', name: 'India Integrated Logistics Atlas', desc: 'India’s freight system as a source-led reference layer: national freight corridors, flagship programmes (DFC, Bharatmala, Gati Shakti, Sagarmala, NLP, ULIP, IWAI), the ITLA ≥₹500 crore appraisal tier and the source record behind every figure.' },
 ];
 
 const TOOLS = [

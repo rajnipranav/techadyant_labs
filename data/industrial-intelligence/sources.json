@@ -1,0 +1,443 @@
+{
+  "version": "1.0",
+  "accessed_default": "2026-10-08",
+  "note": "Authoritative source registry for the Industrial Intelligence & Connectivity Layer. Programme/platform entries carry data-governance fields. Techadyant cites and interprets these sources; it does not bulk-copy or redistribute their datasets.",
+  "sources": [
+    {
+      "id": "src:pib-gatishakti-public-2025",
+      "source_name": "Union Minister of Commerce and Industry launches 'PM GatiShakti Public' platform to democratize access to geospatial and infrastructure data",
+      "publisher": "PIB (Ministry of Commerce & Industry)",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2178521",
+      "source_type": "government",
+      "publication_date": "2025-10-13",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "access": {
+        "model": "self_registration",
+        "api": "unknown",
+        "download": "unknown",
+        "licence": null,
+        "redistribution": "not_stated",
+        "techadyant_use": "Context only. 230 approved non-sensitive NMP datasets are available by self-registration with authentication; no licence or redistribution terms are published in the release, so no PM GatiShakti dataset is ingested, scraped or republished. Techadyant records only derived relationships sourced elsewhere."
+      },
+      "notes": "Developed by BISAG-N, powered by the National Geospatial Data Registry; integrates data from 57+ central ministries/departments and States/UTs (per release)."
+    },
+    {
+      "id": "src:pmgatishakti-portal",
+      "source_name": "PM GatiShakti National Master Plan portal",
+      "publisher": "DPIIT, Ministry of Commerce & Industry",
+      "source_url": "https://pmgatishakti.gov.in/",
+      "source_type": "government",
+      "publication_date": null,
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "access": {
+        "model": "restricted",
+        "api": "unknown",
+        "download": "unknown",
+        "licence": null,
+        "redistribution": "not_stated",
+        "techadyant_use": "Reference only. The NMP is a government planning system; public access is via PM GatiShakti Public (self-registration). Not ingested."
+      },
+      "notes": "Fetch attempt from the research environment timed out on 8 Oct 2026; accessibility not independently verified this session."
+    },
+    {
+      "id": "src:air-gatishakti-four-years-2025",
+      "source_name": "PM GatiShakti National Master Plan completes four years",
+      "publisher": "All India Radio News (Prasar Bharati)",
+      "source_url": "https://www.newsonair.gov.in/pm-gatishakti-national-master-plan-completes-four-years-today",
+      "source_type": "government_agency",
+      "publication_date": "2025-10-13",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "States 44 central ministries and 36 States/UTs integrated into the plan.",
+      "context_only": true
+    },
+    {
+      "id": "src:outlook-ulip-nda-2023",
+      "source_name": "76 firms ink non-disclosure agreement with government to use ULIP data",
+      "publisher": "Outlook Business",
+      "source_url": "https://www.outlookbusiness.com/news/76-firms-ink-non-disclosure-agreement-with-government-to-use-ulip-data-news-279195",
+      "source_type": "trade_press",
+      "publication_date": "2023-04-17",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "access": {
+        "model": "nda_gated",
+        "api": "registered",
+        "download": "none",
+        "licence": null,
+        "redistribution": "not_stated",
+        "techadyant_use": "Not used. ULIP access requires registration, a use-case review and an NDA (as reported); NDA-gated data is incompatible with public redistribution."
+      },
+      "notes": "Reported 33 systems of 7 ministries, 106+ APIs, 1,600+ data fields (Apr 2023). Single trade-press source; figures likely superseded."
+    },
+    {
+      "id": "src:pmindia-itla-2026",
+      "source_name": "Cabinet approves setting up of Integrated Transport & Logistics Authority",
+      "publisher": "Prime Minister's Office (pmindia.gov.in)",
+      "source_url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-setting-up-of-integrated-transport-logistics-authority/",
+      "source_type": "government",
+      "publication_date": "2026-10-06",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "access": {
+        "model": "unknown",
+        "api": "unknown",
+        "download": "unknown",
+        "licence": null,
+        "redistribution": "not_stated",
+        "techadyant_use": "Institutional record only. No ITLA dataset exists publicly yet; the Atlas holds a schema placeholder (itla.json) for datasets the Cabinet text names."
+      },
+      "notes": "SPV; National Transport Master Plan (10+ yr horizon); technical appraisal of GoI projects costing ₹500 cr or more; National Transport Data Repository drawing on GSTN e-way bills, FASTag, Vahan, GPS systems and urban traffic systems; freight-flow and origin-destination analytics."
+    },
+    {
+      "id": "src:pmindia-sgf-2026",
+      "source_name": "Cabinet approves commitment of Rs 10,000 crore towards establishment of the SME Growth Fund",
+      "publisher": "Prime Minister's Office (pmindia.gov.in)",
+      "source_url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-commitment-of-rs-10000-crore-towards-establishment-of-the-sme-growth-fund-for-direct-equity-investments-in-small-and-medium-enterprises-to-create-future-champions/",
+      "source_type": "government",
+      "publication_date": "2026-10-06",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "₹10,000 cr GoI commitment to an AIF under the SGF framework; majority allocation to manufacturing-focused SMEs; will consider SMEs in Tier II/III industrial clusters. No eligibility list published — Techadyant does not label any company as SGF-eligible."
+    },
+    {
+      "id": "src:pib-ism-three-units-2024",
+      "source_name": "Giant leap for India Semiconductor Mission: Cabinet approves three more semiconductor units",
+      "publisher": "PIB (Cabinet)",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2010135",
+      "source_type": "government",
+      "publication_date": "2024-02-29",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "Tata–PSMC fab, Dholera: ₹91,000 cr, 50,000 WSPM. TSAT OSAT, Morigaon (Assam): ₹27,000 cr, 48 million/day. CG Power–Renesas–Stars ATMP, Sanand: ₹7,600 cr, 15 million/day."
+    },
+    {
+      "id": "src:pib-kaynes-sanand-2024",
+      "source_name": "Cabinet approves one more semiconductor unit under India Semiconductor Mission (ISM)",
+      "publisher": "PIB (Cabinet)",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2050859",
+      "source_type": "government",
+      "publication_date": "2024-09-02",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "Kaynes Semicon, Sanand: ₹3,300 cr, 6 million chips/day."
+    },
+    {
+      "id": "src:pib-india-chip-2025",
+      "source_name": "Cabinet approves semiconductor unit in Uttar Pradesh",
+      "publisher": "PIB (Cabinet)",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128604&reg=48&lang=2",
+      "source_type": "government",
+      "publication_date": "2025-05-14",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "HCL–Foxconn JV near Jewar airport in the YEIDA area: ₹3,700 cr; 20,000 wafers/month; 36 million display-driver units/month."
+    },
+    {
+      "id": "src:pib-india-chip-groundbreaking-2026",
+      "source_name": "PM participates in the groundbreaking ceremony of HCL-Foxconn Semiconductor Unit in Uttar Pradesh",
+      "publisher": "PIB (PMO)",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231345&reg=3&lang=1",
+      "source_type": "government",
+      "publication_date": "2026-02-21",
+      "accessed_date": "2026-10-08",
+      "confidence": "high"
+    },
+    {
+      "id": "src:theweek-india-chip-land-2025",
+      "source_name": "UP govt shifts land allocation for HCL-Foxconn chip unit to cut down delays (PTI)",
+      "publisher": "The Week / PTI",
+      "source_url": "https://www.theweek.in/wire-updates/business/2025/03/10/dcm63-biz-hcl-foxconn.html",
+      "source_type": "trade_press",
+      "publication_date": "2025-03-10",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Site moved from YEIDA Sector 10 to Sector 28; ~48 acres."
+    },
+    {
+      "id": "src:pib-assam-osat-2024",
+      "source_name": "Assam's Semiconductor Plant: A Game-Changer for India's Semiconductor Ecosystem",
+      "publisher": "PIB",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2074074&reg=3&lang=2",
+      "source_type": "government",
+      "publication_date": "2024-11-17",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "TSAT, Morigaon: ₹27,000 cr; up to 48 million chips/day; flip-chip and ISIP; 15,000 direct and 11,000–13,000 indirect jobs. Completion projection (mid-2025) is outdated."
+    },
+    {
+      "id": "src:air-jagiroad-foundation-2024",
+      "source_name": "PM to virtually lay the foundation stone of a semiconductor plant at Jagiroad in Morigaon district of Assam",
+      "publisher": "All India Radio News (Prasar Bharati)",
+      "source_url": "https://www.newsonair.gov.in/pm-modi-to-virtually-lay-the-foundation-stone-of-a-semiconductor-plant-at-jagiroad-in-morigaon-district-of-assam",
+      "source_type": "government_agency",
+      "publication_date": "2024-03-13",
+      "accessed_date": "2026-10-08",
+      "confidence": "high"
+    },
+    {
+      "id": "src:newsmill-tsat-dec-2026",
+      "source_name": "Assam CM highlights Tata OSAT facility to boost semiconductor sector",
+      "publisher": "The News Mill",
+      "source_url": "https://thenewsmill.com/2026/09/assam-cm-highlights-tata-osat-facility-to-boost-semiconductor-sector/",
+      "source_type": "trade_press",
+      "publication_date": "2026-09-19",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "CM statement at SEMICON India 2026: operations scheduled to commence in December 2026; 48 million chips/day."
+    },
+    {
+      "id": "src:pmindia-micron-2026",
+      "source_name": "PM to visit Gujarat on 28th February (Micron Sanand ATMP inauguration)",
+      "publisher": "Prime Minister's Office (pmindia.gov.in)",
+      "source_url": "https://www.pmindia.gov.in/en/news_updates/pm-to-visit-gujarat-on-28th-february/",
+      "source_type": "government",
+      "publication_date": "2026-02-27",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "Micron Sanand ATMP: outlay > ₹22,500 cr; first ISM-approved proposal; commercial production of first made-in-India memory modules; ~500,000 sq ft cleanroom at full ramp."
+    },
+    {
+      "id": "src:indiabriefing-sanand-2026",
+      "source_name": "City Spotlight: Sanand, Gujarat — Semiconductor Momentum Meets Industrial Depth",
+      "publisher": "India Briefing (Dezan Shira & Associates)",
+      "source_url": "https://www.india-briefing.com/news/india-semiconductor-manufacturing-sanand-gujarat-2026-43814.html",
+      "source_type": "trade_press",
+      "publication_date": "2026-03-31",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Kaynes commercial production from 31 Mar 2026; CG Semi pilot Aug 2025, commercial production expected 2026."
+    },
+    {
+      "id": "src:gidc-sanand-estate",
+      "source_name": "GIDC Sanand Industrial Estate (presentation)",
+      "publisher": "Gujarat Industrial Development Corporation",
+      "source_url": "https://gidc.gujarat.gov.in/pdf/gidc-presentation/GIDC_Sanand_Industrial_Estate_27-10.pdf",
+      "source_type": "state_government",
+      "publication_date": null,
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Undated (land price quoted for 2017–18). 2,056 ha; Ahmedabad International Airport 35 km; ports Kandla 274 km, Mundra 324 km, Hazira 310 km, Dahej 270 km, JNPT 558 km; NH-8A passes through Sanand; broad-gauge rail network. Distances read as road distances."
+    },
+    {
+      "id": "src:pib-ne8-expressway-2026",
+      "source_name": "Ahmedabad–Dholera Expressway is bringing cities, families & dreams closer",
+      "publisher": "PIB (Ministry of Road Transport & Highways)",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2233516&reg=3&lang=1",
+      "source_type": "government",
+      "publication_date": "2026-02-27",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "NE-8, 109.019 km, ₹5,800 cr; opened to the public for testing; direct interchange to Dholera International Airport at Ch. 67; Ahmedabad–Dholera 83 km / ~45 min."
+    },
+    {
+      "id": "src:pib-sarkhej-dholera-rail-2026",
+      "source_name": "Cabinet approves one new project covering Ahmedabad District in the state of Gujarat, increasing the existing network of Indian Railways by about 134 Kms",
+      "publisher": "PIB (Cabinet / Ministry of Railways)",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2260624&reg=3&lang=1",
+      "source_type": "government",
+      "publication_date": "2026-05-13",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "Ahmedabad (Sarkhej)–Dholera semi high-speed double line; ~₹20,667 cr; ~134 km network addition; completion up to 2030-31; connects Ahmedabad, Dholera SIR, Dholera Airport and Lothal."
+    },
+    {
+      "id": "src:whalesbook-dholera-airport-2026",
+      "source_name": "Dholera Airport 80% complete; operations eyed by October",
+      "publisher": "Whalesbook",
+      "source_url": "https://www.whalesbook.com/news/English/transportation/Dholera-Airport-80percent-Complete-Operations-Eyed-by-October/6a5721785cb7edf90c30421b",
+      "source_type": "trade_press",
+      "publication_date": "2026-07-15",
+      "accessed_date": "2026-10-08",
+      "confidence": "low",
+      "notes": "Attributes status to the Civil Aviation Minister: 80% complete; runway/taxiway/ATC complete; operations expected Sep–Oct 2026; 2,500 sq m cargo hub. Single trade-press source — treat operational date as unconfirmed."
+    },
+    {
+      "id": "src:pmindia-wdfc-2026",
+      "source_name": "PM to visit Gujarat and Maharashtra on 8th September (WDFC dedication)",
+      "publisher": "Prime Minister's Office (pmindia.gov.in)",
+      "source_url": "https://www.pmindia.gov.in/?p=16920780",
+      "source_type": "government",
+      "publication_date": "2026-09-07",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "Dedication of WDFC sections New Sanand (N)–New Makarpura, New Umbergaon–New Saphale and New Saphale–New JNPT: 326 route km, > ₹20,700 cr (aggregate); freight services flagged off from New Sanand (North)."
+    },
+    {
+      "id": "src:jica-wdfc-2026",
+      "source_name": "Western Dedicated Freight Corridor completed and fully operationalised",
+      "publisher": "JICA India Office",
+      "source_url": "https://www.jica.go.jp/english/overseas/india/information/press/2026/1585189_70871.html",
+      "source_type": "multilateral",
+      "publication_date": "2026-09-08",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "WDFC 1,506 km Dadri–JNPT completed and fully operational; independent of the PMO source."
+    },
+    {
+      "id": "src:dfccil-wdfc-route",
+      "source_name": "DFCCIL — Western Corridor",
+      "publisher": "Dedicated Freight Corridor Corporation of India Ltd",
+      "source_url": "https://dfccil.com/Home/DynemicPages?MenuId=77",
+      "source_type": "psu",
+      "publication_date": null,
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "WDFC JNPT–Dadri via Vadodara, Ahmedabad, Palanpur, Phulera, Rewari; 1,504 km double-line electric; joins the Eastern Corridor at Dadri."
+    },
+    {
+      "id": "src:pib-edfc-complete-2023",
+      "source_name": "Construction of Eastern Dedicated Freight Corridor fully completed",
+      "publisher": "PIB (Ministry of Railways)",
+      "source_url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1985782",
+      "source_type": "government",
+      "publication_date": "2023-12-13",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "EDFC Ludhiana–Sonnagar, 1,337 km, construction fully completed."
+    },
+    {
+      "id": "src:air-noida-airport-2026",
+      "source_name": "PM Modi to inaugurate Phase 1 of Noida International Airport at Jewar tomorrow",
+      "publisher": "All India Radio News (Prasar Bharati)",
+      "source_url": "https://www.newsonair.gov.in/pm-modi-to-inaugurate-phase-1-of-noida-international-airport-at-jewar-in-uttar-pradesh-tomorrow",
+      "source_type": "government_agency",
+      "publication_date": "2026-03-27",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "Phase 1: 12 million passengers/yr (expandable to 70 m); cargo > 2.5 lakh t/yr (expandable to ~18 lakh t); multi-modal cargo hub with integrated cargo terminal; 40-acre MRO; ~₹11,200 cr."
+    },
+    {
+      "id": "src:fpj-noida-cargo-2026",
+      "source_name": "Noida International Airport at Jewar begins cargo operations with inaugural flight from Chennai",
+      "publisher": "Free Press Journal",
+      "source_url": "https://www.freepressjournal.in/india/noida-international-airport-at-jewar-begins-cargo-operations-with-inaugural-flight-from-chennai-strengthening-logistics-hub-vision-video",
+      "source_type": "trade_press",
+      "publication_date": "2026-06-17",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "First cargo flight 17 Jun 2026; 87-acre cargo terminal operated by AISATS."
+    },
+    {
+      "id": "src:adani-lgbi-cargo",
+      "source_name": "LGBI Airport Guwahati — Cargo",
+      "publisher": "Adani Airports (operator)",
+      "source_url": "https://lgbia-guwahati.adaniairports.com/en/business/cargo",
+      "source_type": "company",
+      "publication_date": null,
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Supports international (AAICLAS) and domestic cargo; domestic cargo terminal operational; new international cargo terminal listed as upcoming."
+    },
+    {
+      "id": "src:wiki-jagiroad",
+      "source_name": "Jagiroad (gazetteer entry)",
+      "publisher": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Jagiroad",
+      "source_type": "reference",
+      "publication_date": null,
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Used only for coordinates (26.2078 N, 92.4060 E), NH-27 through the town, and Jagiroad station on the Guwahati–Lumding section (double line, electrified). Upgrade to a primary source in Phase 2."
+    },
+    {
+      "id": "src:fujifilm-tata-2026",
+      "source_name": "Fujifilm and Tata Electronics sign MoU for semiconductor materials plant in Dholera",
+      "publisher": "FUJIFILM Holdings",
+      "source_url": "https://www.fujifilm.com/am/en/news/hq/13953",
+      "source_type": "company",
+      "publication_date": "2026-09-17",
+      "accessed_date": "2026-10-08",
+      "confidence": "high",
+      "notes": "MoU (not a completed investment): ~₹800 cr plant in DSIR, built in phases; photoresists, CMP slurries, post-CMP cleaners, thin-film and high-purity process chemicals."
+    },
+    {
+      "id": "src:techadyant-corridor-dholera",
+      "source_name": "Dholera SIR — corridor node dossier",
+      "publisher": "Techadyant Labs",
+      "source_url": "https://labs.techadyant.com/corridors/delhi-mumbai/dholera-sir/",
+      "source_type": "techadyant",
+      "publication_date": "2026-08-17",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Secondary compilation (DSIRDA FAQ, PIB, NICDC). Used for Torrent Power distribution, reservoirs/CETP and land-allotment context; primary sources are listed on that page."
+    },
+    {
+      "id": "src:techadyant-corridor-dadri",
+      "source_name": "MMLH Dadri + MMTH Boraki — corridor node dossier",
+      "publisher": "Techadyant Labs",
+      "source_url": "https://labs.techadyant.com/corridors/delhi-mumbai/dadri-boraki/",
+      "source_type": "techadyant",
+      "publication_date": "2026-08-17",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Stage recorded as under construction; coordinate tagged 'gis' in app/corridors/geo.ts."
+    },
+    {
+      "id": "src:techadyant-s012-dholera-water",
+      "source_name": "The Dholera Water Signal (S-012)",
+      "publisher": "Techadyant Labs",
+      "source_url": "https://labs.techadyant.com/signals/dholera-water-signal/",
+      "source_type": "techadyant",
+      "publication_date": "2026-06-30",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium"
+    },
+    {
+      "id": "src:techadyant-s113-vendor-park",
+      "source_name": "Tata's Dholera Vendor Park and Materials MoUs (S-113)",
+      "publisher": "Techadyant Labs",
+      "source_url": "https://labs.techadyant.com/signals/tata-dholera-vendor-park-materials-packaging-mous-2026/",
+      "source_type": "techadyant",
+      "publication_date": "2026-09-18",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "363-acre vendor park MoU (with Ascendas First Space) and materials MoUs incl. Fujifilm and JSR at SEMICON India 2026."
+    },
+    {
+      "id": "src:techadyant-s062-sanand",
+      "source_name": "Three Indian semiconductor plants are now in commercial production (S-062)",
+      "publisher": "Techadyant Labs",
+      "source_url": "https://labs.techadyant.com/signals/three-indian-semiconductor-plants-live-ism-20-approved-semicon-india-2026/",
+      "source_type": "techadyant",
+      "publication_date": "2026-08-19",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Reports the MeitY Secretary's 18 Aug 2026 statement that Micron, Kaynes and CG Semi at Sanand are in commercial production."
+    },
+    {
+      "id": "src:techadyant-s130-linde",
+      "source_name": "Linde Secures Sanand Land for Chip Gases (S-130)",
+      "publisher": "Techadyant Labs",
+      "source_url": "https://labs.techadyant.com/signals/linde-sanand-semiconductor-gas-facility-localising-molecule-2026/",
+      "source_type": "techadyant",
+      "publication_date": "2026-09-29",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Linde India land parcel in Sanand for a packaging-gas facility; second India chip-gas site after the Dholera plant supplying Tata's fab."
+    },
+    {
+      "id": "src:techadyant-s011-jewar",
+      "source_name": "Jewar Isn't Becoming an Airport City. It's Becoming an Electronics Ecosystem. (S-011)",
+      "publisher": "Techadyant Labs",
+      "source_url": "https://labs.techadyant.com/signals/jewar-electronics-manufacturing-ecosystem/",
+      "source_type": "techadyant",
+      "publication_date": "2026-06-29",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium"
+    },
+    {
+      "id": "src:techadyant-geocoding",
+      "source_name": "Techadyant approximate geocoding (public gazetteer centroids)",
+      "publisher": "Techadyant Labs",
+      "source_url": "https://labs.techadyant.com/research/industrial-nodes/methodology/",
+      "source_type": "techadyant",
+      "publication_date": "2026-10-08",
+      "accessed_date": "2026-10-08",
+      "confidence": "medium",
+      "notes": "Approximate centroids (±10 km) for ports, airports and towns, used only to compute banded straight-line distances. Not survey data. Replace with authority-published coordinates in Phase 2."
+    }
+  ]
+}

@@ -1,0 +1,1315 @@
+{
+  "version": "1.0",
+  "pilot": "India semiconductor ecosystem — Phase 1",
+  "nodes": [
+    {
+      "id": "inode:dholera",
+      "slug": "dholera",
+      "name": "Dholera Industrial Node",
+      "short_name": "Dholera",
+      "type": "semiconductor_cluster",
+      "state": "Gujarat",
+      "district": "Ahmedabad",
+      "coordinates": {
+        "lat": 22.24,
+        "lng": 72.194,
+        "coord_source": "verified",
+        "confidence": "high",
+        "note": "Activation-area centroid reused from app/corridors/geo.ts (verified plus-code, Aug 2026)."
+      },
+      "sectors": [
+        "sector:semiconductors",
+        "Semiconductor fabrication",
+        "Electronic materials",
+        "Solar",
+        "Data centres"
+      ],
+      "requirement_profile": "semiconductor_fab",
+      "headline": "India’s only approved commercial logic fab sits in a node whose road link has arrived, whose airport is close, and whose rail link is five years out.",
+      "strategic_overview": [
+        "Dholera’s industrial identity is set by one anchor: the Tata Electronics–PSMC fab (₹91,000 crore, 50,000 wafer starts a month), approved by the Cabinet in February 2024. The September 2026 vendor-park and materials MoUs — Fujifilm’s phased materials plant inside the SIR among them — are the first sign of a supplier layer forming around it.",
+        "Connectivity is arriving out of sequence. The 109 km Ahmedabad–Dholera expressway is open for testing and cuts Ahmedabad–Dholera to about 45 minutes; the international airport next door is under construction; the semi high-speed rail line was only approved in May 2026 and runs to 2030-31. For a fab, that order matters: road moves construction material and people, but chemicals, gases and equipment spares need predictable multimodal routes, and finished wafers move by air.",
+        "Techadyant’s reading: in the near term Dholera’s competitiveness is set less by distance than by how quickly time-critical air cargo and bulk chemical logistics become dependable. That gap is also where the node’s earliest supplier opportunities sit."
+      ],
+      "facts": [
+        {
+          "label": "Anchor project",
+          "value": "Tata Electronics with PSMC (Taiwan): semiconductor fab, ₹91,000 cr, 50,000 wafer starts/month; 28 nm high-performance compute and power-management chips",
+          "as_of": "2024-02-29",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ism-three-units-2024"
+            }
+          ]
+        },
+        {
+          "label": "Materials supplier (MoU)",
+          "value": "Fujifilm–Tata MoU for a ~₹800 cr semiconductor-materials plant in DSIR, to be built in phases",
+          "as_of": "2026-09-17",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:fujifilm-tata-2026"
+            }
+          ]
+        },
+        {
+          "label": "Vendor park (MoU)",
+          "value": "363-acre vendor park around the fab announced with Ascendas First Space at SEMICON India 2026",
+          "as_of": "2026-09-18",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-s113-vendor-park"
+            }
+          ]
+        },
+        {
+          "label": "Road",
+          "value": "Ahmedabad–Dholera Expressway (NE-8): 109 km, ₹5,800 cr, open for testing; Ahmedabad–Dholera 83 km / ~45 min",
+          "as_of": "2026-02-27",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ne8-expressway-2026"
+            }
+          ]
+        },
+        {
+          "label": "Rail",
+          "value": "Sarkhej–Dholera semi high-speed double line approved (~₹20,667 cr), completion up to 2030-31",
+          "as_of": "2026-05-13",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-sarkhej-dholera-rail-2026"
+            }
+          ]
+        },
+        {
+          "label": "Airport",
+          "value": "Dholera International Airport under construction; operations targeted late 2026 (unconfirmed)",
+          "as_of": "2026-07-15",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:whalesbook-dholera-airport-2026"
+            }
+          ]
+        }
+      ],
+      "companies": [
+        {
+          "name": "Tata Semiconductor Fab, Dholera",
+          "role": "Fab (anchor)",
+          "status": "Approved Feb 2024; under construction",
+          "player_ids": [
+            "5969dbc5-b8b4-40f7-b98e-14b88ca3d977",
+            "5b50361b-8fb6-448b-a62e-f56e80510061"
+          ],
+          "primary_player_id": "5969dbc5-b8b4-40f7-b98e-14b88ca3d977",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ism-three-units-2024"
+            }
+          ]
+        },
+        {
+          "name": "Tata Electronics",
+          "role": "Fab owner / promoter",
+          "status": "Promoter of the Dholera fab",
+          "player_ids": [
+            "ad131d5d-22cd-4ce1-b167-236187497d67"
+          ],
+          "primary_player_id": "ad131d5d-22cd-4ce1-b167-236187497d67",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ism-three-units-2024"
+            }
+          ]
+        },
+        {
+          "name": "Powerchip Semiconductor Manufacturing Corp (PSMC)",
+          "role": "Technology partner",
+          "status": "Technology partner named in the Cabinet approval",
+          "player_ids": [
+            "f4460264-de5b-410b-9282-eae148acc443"
+          ],
+          "primary_player_id": "f4460264-de5b-410b-9282-eae148acc443",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ism-three-units-2024"
+            }
+          ]
+        },
+        {
+          "name": "Fujifilm (electronic materials)",
+          "role": "Materials supplier (MoU)",
+          "status": "MoU, Sep 2026 — not yet a committed build",
+          "player_ids": [
+            "68a772af-2a0c-49a5-afee-4d197683bca5"
+          ],
+          "primary_player_id": "68a772af-2a0c-49a5-afee-4d197683bca5",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:fujifilm-tata-2026"
+            }
+          ]
+        },
+        {
+          "name": "Linde India",
+          "role": "Industrial / electronic gases",
+          "status": "Chip-gas plant at Dholera set to supply the fab (per Techadyant S-130)",
+          "player_ids": [
+            "67ef919f-a394-4e2e-ab90-cdd7d544bb6e"
+          ],
+          "primary_player_id": "67ef919f-a394-4e2e-ab90-cdd7d544bb6e",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-s130-linde"
+            }
+          ]
+        }
+      ],
+      "corridor_node_refs": [
+        "corridor-node:delhi-mumbai/dholera-sir"
+      ],
+      "supply_chain_position": {
+        "upstream": [
+          "Wafers, photoresists, wet chemicals, specialty gases (largely imported)",
+          "Fab tools and spares (imported)",
+          "Fujifilm materials plant (MoU)"
+        ],
+        "node": "Tata–PSMC 300 mm logic fab + vendor park",
+        "logistics": [
+          "NE-8 expressway (trial)",
+          "Sarkhej–Dholera rail (2030-31)",
+          "Dholera airport (under construction)"
+        ],
+        "gateways": [
+          "Ahmedabad airport (air cargo, ~105 km straight-line)",
+          "Pipavav / Kandla ports (bulk chemicals, equipment)"
+        ],
+        "markets": [
+          "Domestic OSATs (Sanand, Jagiroad)",
+          "Export"
+        ]
+      },
+      "strategic_dependencies": [
+        {
+          "title": "Process technology",
+          "detail": "The fab’s process is licensed from PSMC (Taiwan); technology depth is external at start-up.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ism-three-units-2024"
+            }
+          ]
+        },
+        {
+          "title": "Electronic materials",
+          "detail": "Photoresists, CMP slurries and high-purity chemicals are import-served today; the Fujifilm MoU targets exactly these categories but is phased and not yet built.",
+          "evidence": "analysis",
+          "provenance": [
+            {
+              "source_id": "src:fujifilm-tata-2026"
+            }
+          ]
+        },
+        {
+          "title": "Water",
+          "detail": "Industrial water security in a semi-arid zone is the node’s most-cited execution risk for a water-intensive fab.",
+          "evidence": "analysis",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-s012-dholera-water"
+            },
+            {
+              "source_id": "src:techadyant-corridor-dholera"
+            }
+          ]
+        }
+      ],
+      "ics_inputs": [
+        {
+          "key": "road",
+          "value": 0.8,
+          "confidence": "high",
+          "rationale": "Access-controlled NE-8 expressway serves the SIR; open for testing, so scored as 'expressway on trial'.",
+          "relation_ids": [
+            "rel:dholera-ne8"
+          ]
+        },
+        {
+          "key": "rail",
+          "value": 0.3,
+          "confidence": "high",
+          "rationale": "No operating rail link; the Sarkhej–Dholera line is approved with completion up to 2030-31.",
+          "relation_ids": [
+            "rel:dholera-rail-sarkhej"
+          ]
+        },
+        {
+          "key": "port",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest registered gateway port by straight-line distance.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:seaport"
+          }
+        },
+        {
+          "key": "airport",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest operational international cargo airport by straight-line distance (Dholera’s own airport is not yet operational).",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:cargo_airport"
+          }
+        },
+        {
+          "key": "logistics",
+          "value": null,
+          "confidence": null,
+          "rationale": "No MMLP/ICD/MMLH within 150 km is recorded in the pilot registry; absence is not verified, so the component is treated as missing."
+        },
+        {
+          "key": "freight_corridor",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest operational DFC station by straight-line distance.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:dfc"
+          }
+        }
+      ],
+      "cgi_inputs": [
+        {
+          "key": "air_cargo",
+          "status": "partial",
+          "confidence": "medium",
+          "rationale": "On-site airport not yet operational; nearest operational international cargo airport (Ahmedabad) is ~105 km straight-line, ~45 min less by the new expressway.",
+          "provenance": [
+            {
+              "source_id": "src:whalesbook-dholera-airport-2026"
+            },
+            {
+              "source_id": "src:pib-ne8-expressway-2026"
+            }
+          ]
+        },
+        {
+          "key": "power",
+          "status": "partial",
+          "confidence": "low",
+          "rationale": "Dedicated distribution licensee with 220/400 kV substations is in place; fab-grade reliability (redundancy, ride-through) is not publicly evidenced.",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-corridor-dholera"
+            }
+          ]
+        },
+        {
+          "key": "water",
+          "status": "partial",
+          "confidence": "medium",
+          "rationale": "Reservoirs, storage and CETP/STP are built into the plan, but water security is flagged as the leading execution risk for a fab.",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-s012-dholera-water"
+            },
+            {
+              "source_id": "src:techadyant-corridor-dholera"
+            }
+          ]
+        },
+        {
+          "key": "port_access",
+          "status": "partial",
+          "confidence": "medium",
+          "rationale": "Gateway ports are ~160–260 km away straight-line and reachable only by road until the rail line completes.",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-geocoding"
+            },
+            {
+              "source_id": "src:pib-sarkhej-dholera-rail-2026"
+            }
+          ]
+        },
+        {
+          "key": "warehousing",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "No public evidence on bonded, ESD-safe or climate-controlled warehousing capacity in or near the SIR."
+        },
+        {
+          "key": "multimodal",
+          "status": "gap",
+          "confidence": "high",
+          "rationale": "Road-only today: the rail line is approved for 2030-31 and the airport is not yet operational.",
+          "provenance": [
+            {
+              "source_id": "src:pib-sarkhej-dholera-rail-2026"
+            },
+            {
+              "source_id": "src:whalesbook-dholera-airport-2026"
+            }
+          ]
+        }
+      ],
+      "related_reports": [
+        "dholera-semiconductor-supplier-ecosystem",
+        "water-behind-indias-semiconductor-ambitions",
+        "india-fab-ecosystem",
+        "the-opportunity-beyond-the-fab",
+        "industrial-logistics-behind-manufacturing-india"
+      ],
+      "data_gaps": [
+        "Official land-allotment register for the SIR is not public.",
+        "Dholera airport operational date and cargo-terminal capacity are single-source (trade press).",
+        "No public data on specialised (bonded/ESD/climate-controlled) warehousing near the SIR.",
+        "No MMLP/ICD within 150 km is recorded in this pilot registry; a national logistics-node inventory is a Phase 2 task."
+      ],
+      "last_verified": "2026-10-08",
+      "data_as_of": "2026-09-18"
+    },
+    {
+      "id": "inode:sanand",
+      "slug": "sanand",
+      "name": "Sanand Industrial Node",
+      "short_name": "Sanand",
+      "type": "semiconductor_cluster",
+      "state": "Gujarat",
+      "district": "Ahmedabad",
+      "coordinates": {
+        "lat": 22.99,
+        "lng": 72.38,
+        "coord_source": "approximate",
+        "confidence": "medium",
+        "note": "Sanand town centroid; the GIDC estates lie within ~10 km."
+      },
+      "sectors": [
+        "sector:semiconductors",
+        "OSAT / ATMP",
+        "Automotive & components",
+        "Engineering",
+        "Electronics"
+      ],
+      "requirement_profile": "semiconductor_backend",
+      "headline": "India’s first working chip-packaging cluster just gained a dedicated freight-rail station — the connectivity now runs ahead of the supplier base.",
+      "strategic_overview": [
+        "Sanand is where India’s semiconductor mission first produced output. Micron’s ATMP (outlay above ₹22,500 crore) began commercial production in February 2026; Kaynes Semicon followed in March, and CG Semi (with Renesas and Stars Microelectronics) moved from a pilot line toward commercial production during 2026 — the MeitY Secretary described all three as in commercial production in August.",
+        "The connectivity profile is the strongest of the pilot nodes. Ahmedabad’s international airport is about 30 km away, an older national highway runs through the town, and on 8 September 2026 the Western DFC’s New Sanand (North)–New Makarpura section was dedicated, completing the freight corridor to JNPA.",
+        "Techadyant’s reading: Sanand’s constraint is no longer transport but depth — packaging materials, substrates, gases and test services are still largely imported. Linde’s new packaging-gas site is the first visible move. With rail freight in place, the question becomes whether consolidated, specialised logistics will form around three running OSATs."
+      ],
+      "facts": [
+        {
+          "label": "Micron ATMP",
+          "value": "Outlay > ₹22,500 cr; first ISM-approved proposal; inaugurated 28 Feb 2026 with commercial production of memory modules",
+          "as_of": "2026-02-27",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pmindia-micron-2026"
+            }
+          ]
+        },
+        {
+          "label": "CG Semi ATMP",
+          "value": "CG Power with Renesas and Stars Microelectronics: ₹7,600 cr, 15 million chips/day",
+          "as_of": "2024-02-29",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ism-three-units-2024"
+            }
+          ]
+        },
+        {
+          "label": "Kaynes Semicon",
+          "value": "₹3,300 cr, 6 million chips/day; commercial production from 31 Mar 2026 (reported)",
+          "as_of": "2026-03-31",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-kaynes-sanand-2024"
+            },
+            {
+              "source_id": "src:indiabriefing-sanand-2026"
+            }
+          ]
+        },
+        {
+          "label": "Production status",
+          "value": "Micron, Kaynes and CG Semi described as in commercial production by the MeitY Secretary (18 Aug 2026)",
+          "as_of": "2026-08-18",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-s062-sanand"
+            }
+          ]
+        },
+        {
+          "label": "Freight rail",
+          "value": "WDFC New Sanand (N)–New Makarpura section dedicated 8 Sep 2026; freight services flagged off from New Sanand (North)",
+          "as_of": "2026-09-08",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pmindia-wdfc-2026"
+            },
+            {
+              "source_id": "src:jica-wdfc-2026"
+            }
+          ]
+        },
+        {
+          "label": "Estate",
+          "value": "GIDC Sanand Industrial Estate, 2,056 ha; focus sectors include semiconductors and electronics",
+          "as_of": null,
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:gidc-sanand-estate"
+            }
+          ]
+        }
+      ],
+      "companies": [
+        {
+          "name": "Sanand semiconductor cluster",
+          "role": "Cluster record (Atlas)",
+          "status": "Atlas cluster entity",
+          "player_ids": [
+            "fd5f4820-4783-446a-bc0f-f34aef53ca22"
+          ],
+          "primary_player_id": "fd5f4820-4783-446a-bc0f-f34aef53ca22",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ism-three-units-2024"
+            }
+          ]
+        },
+        {
+          "name": "Micron (Sanand ATMP)",
+          "role": "Memory ATMP",
+          "status": "Commercial production since Feb 2026",
+          "player_ids": [
+            "9c06adf9-54cd-40f3-9a14-84362fb6982c",
+            "0cb0ffc1-8bd0-44eb-a58a-5186ad7ca6d4",
+            "322d5a77-5a41-4848-85a3-dbf481fcd5c8"
+          ],
+          "primary_player_id": "9c06adf9-54cd-40f3-9a14-84362fb6982c",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pmindia-micron-2026"
+            }
+          ]
+        },
+        {
+          "name": "CG Semi (CG Power–Renesas–Stars)",
+          "role": "OSAT / ATMP",
+          "status": "Pilot Aug 2025; commercial production reported 2026",
+          "player_ids": [
+            "3900267c-16b8-4500-b3ed-e40664203212",
+            "94f7f151-82ff-46c2-bdaa-392e84a92a96",
+            "dfe31cbd-04c1-47ab-9ee2-1998b245613e"
+          ],
+          "primary_player_id": "3900267c-16b8-4500-b3ed-e40664203212",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ism-three-units-2024"
+            },
+            {
+              "source_id": "src:indiabriefing-sanand-2026"
+            }
+          ]
+        },
+        {
+          "name": "Kaynes Semicon",
+          "role": "OSAT",
+          "status": "Commercial production since Mar 2026 (reported)",
+          "player_ids": [
+            "1f345cf5-1184-4c88-acd7-073f11539966",
+            "70a1661f-2ca6-47e3-8470-4783f493a7c6",
+            "57c1353b-0737-4020-a2bd-848e72706a3f"
+          ],
+          "primary_player_id": "1f345cf5-1184-4c88-acd7-073f11539966",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-kaynes-sanand-2024"
+            },
+            {
+              "source_id": "src:indiabriefing-sanand-2026"
+            }
+          ]
+        },
+        {
+          "name": "Renesas Electronics",
+          "role": "JV partner (CG Semi)",
+          "status": "Partner named in the Cabinet approval",
+          "player_ids": [
+            "ef6d81dd-e241-4d69-8178-dcbd7d2d318a"
+          ],
+          "primary_player_id": "ef6d81dd-e241-4d69-8178-dcbd7d2d318a",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ism-three-units-2024"
+            }
+          ]
+        },
+        {
+          "name": "Linde India",
+          "role": "Packaging gases",
+          "status": "Land secured for a packaging-gas facility (Sep 2026)",
+          "player_ids": [
+            "67ef919f-a394-4e2e-ab90-cdd7d544bb6e"
+          ],
+          "primary_player_id": "67ef919f-a394-4e2e-ab90-cdd7d544bb6e",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-s130-linde"
+            }
+          ]
+        }
+      ],
+      "corridor_node_refs": [],
+      "supply_chain_position": {
+        "upstream": [
+          "Memory wafers from Micron’s global network",
+          "Substrates, lead-frames, bonding wire, mould compounds (largely imported)",
+          "Packaging gases (Linde, planned)"
+        ],
+        "node": "Three ATMP/OSAT units (Micron, CG Semi, Kaynes)",
+        "logistics": [
+          "WDFC New Sanand (North) station",
+          "NH-8A",
+          "Ahmedabad air cargo"
+        ],
+        "gateways": [
+          "Ahmedabad airport (~35 km by road)",
+          "Kandla (274 km), Mundra (324 km), JNPA via WDFC"
+        ],
+        "markets": [
+          "Domestic electronics (EMS, auto)",
+          "Micron global customer network"
+        ]
+      },
+      "strategic_dependencies": [
+        {
+          "title": "Wafer input",
+          "detail": "Micron’s ATMP converts DRAM and NAND wafers from Micron’s global fabs; the front end is entirely outside India.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pmindia-micron-2026"
+            }
+          ]
+        },
+        {
+          "title": "Packaging materials",
+          "detail": "Substrates, lead-frames and specialty materials for three OSATs are import-served; the cluster’s value capture depends on how much of this localises.",
+          "evidence": "analysis",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-s130-linde"
+            }
+          ]
+        }
+      ],
+      "ics_inputs": [
+        {
+          "key": "road",
+          "value": 0.6,
+          "confidence": "medium",
+          "rationale": "NH-8A (old numbering) passes through Sanand; SH-17 joins it (GIDC, undated).",
+          "relation_ids": [
+            "rel:sanand-nh8a"
+          ]
+        },
+        {
+          "key": "rail",
+          "value": 1.0,
+          "confidence": "high",
+          "rationale": "Operational WDFC station at New Sanand (North), dedicated 8 Sep 2026.",
+          "relation_ids": [
+            "rel:sanand-dfc-station"
+          ]
+        },
+        {
+          "key": "port",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest registered gateway port by straight-line distance (GIDC gives 274 km by road to Kandla).",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:seaport"
+          }
+        },
+        {
+          "key": "airport",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest operational international cargo airport by straight-line distance (GIDC: 35 km by road).",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:cargo_airport"
+          }
+        },
+        {
+          "key": "logistics",
+          "value": null,
+          "confidence": null,
+          "rationale": "No MMLP/ICD within 150 km recorded in the pilot registry; absence not verified."
+        },
+        {
+          "key": "freight_corridor",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest operational DFC station by straight-line distance.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:dfc"
+          }
+        }
+      ],
+      "cgi_inputs": [
+        {
+          "key": "air_cargo",
+          "status": "met",
+          "confidence": "medium",
+          "rationale": "Ahmedabad international airport ~35 km by road.",
+          "provenance": [
+            {
+              "source_id": "src:gidc-sanand-estate"
+            }
+          ]
+        },
+        {
+          "key": "power",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "No public evidence assessed on OSAT-grade power quality at the estates."
+        },
+        {
+          "key": "water",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Not assessed in Phase 1."
+        },
+        {
+          "key": "port_access",
+          "status": "partial",
+          "confidence": "medium",
+          "rationale": "Gujarat ports are 270–325 km by road; JNPA is reachable by WDFC.",
+          "provenance": [
+            {
+              "source_id": "src:gidc-sanand-estate"
+            },
+            {
+              "source_id": "src:jica-wdfc-2026"
+            }
+          ]
+        },
+        {
+          "key": "warehousing",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "No public evidence on bonded/ESD warehousing serving the OSATs."
+        },
+        {
+          "key": "multimodal",
+          "status": "met",
+          "confidence": "medium",
+          "rationale": "Road, DFC rail and an international airport within ~35 km.",
+          "relation_ids": [
+            "rel:sanand-dfc-station",
+            "rel:sanand-nh8a"
+          ]
+        }
+      ],
+      "related_reports": [
+        "osat-and-the-packaging-frontier",
+        "semicon-2-0-opportunity-map",
+        "industrial-logistics-behind-manufacturing-india"
+      ],
+      "data_gaps": [
+        "Location and goods-handling facilities of the New Sanand (North) DFC station are not published in the sources used.",
+        "Power and water adequacy for OSAT operations not assessed.",
+        "Specialised warehousing near the GIDC estates not documented.",
+        "GIDC connectivity sheet is undated (land price quoted for 2017–18)."
+      ],
+      "last_verified": "2026-10-08",
+      "data_as_of": "2026-09-29"
+    },
+    {
+      "id": "inode:jewar-yeida",
+      "slug": "jewar-yeida",
+      "name": "Jewar–YEIDA Industrial Node",
+      "short_name": "Jewar–YEIDA",
+      "type": "electronics_cluster",
+      "state": "Uttar Pradesh",
+      "district": "Gautam Buddha Nagar",
+      "coordinates": {
+        "lat": 28.17,
+        "lng": 77.57,
+        "coord_source": "approximate",
+        "confidence": "medium",
+        "note": "YEIDA Sector 28 lies near Noida International Airport; point placed near the airport (±10 km)."
+      },
+      "sectors": [
+        "sector:semiconductors",
+        "OSAT (display drivers)",
+        "Electronics manufacturing",
+        "Air cargo"
+      ],
+      "requirement_profile": "semiconductor_backend",
+      "headline": "An OSAT being built beside a new cargo airport — the rare Indian node where air logistics arrives before the factory.",
+      "strategic_overview": [
+        "The HCL–Foxconn joint venture (India Chip) was approved in May 2025 to package display-driver chips — 20,000 wafers a month and 36 million units a month — near Jewar airport in the YEIDA area, on a site moved to Sector 28 to avoid land delays. Groundbreaking was in February 2026.",
+        "Noida International Airport’s first phase was inaugurated in March 2026 with an integrated cargo terminal and logistics zones, and its first cargo flight landed in June 2026. The Western DFC terminus and the Dadri multimodal hub (under construction) sit roughly 40 km north.",
+        "Techadyant’s reading: Jewar inverts the usual sequence. Air cargo — the mode that matters most for chip packaging — is operational before the OSAT ships anything. Seaports are far, so the node’s competitiveness will rest on air and on DFC-linked inland logistics rather than on coastal access."
+      ],
+      "facts": [
+        {
+          "label": "Anchor project",
+          "value": "HCL–Foxconn JV (India Chip): ₹3,700 cr; 20,000 wafers/month; 36 million display-driver units/month; near Jewar airport, YEIDA area",
+          "as_of": "2025-05-14",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-india-chip-2025"
+            }
+          ]
+        },
+        {
+          "label": "Site",
+          "value": "YEIDA Sector 28, ~48 acres (moved from Sector 10)",
+          "as_of": "2025-03-10",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:theweek-india-chip-land-2025"
+            }
+          ]
+        },
+        {
+          "label": "Groundbreaking",
+          "value": "21 Feb 2026 (PM via video conference)",
+          "as_of": "2026-02-21",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-india-chip-groundbreaking-2026"
+            }
+          ]
+        },
+        {
+          "label": "Airport",
+          "value": "Noida International Airport Phase 1 inaugurated 28 Mar 2026; cargo capacity > 2.5 lakh t/yr",
+          "as_of": "2026-03-27",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:air-noida-airport-2026"
+            }
+          ]
+        },
+        {
+          "label": "Air cargo",
+          "value": "First cargo flight 17 Jun 2026; 87-acre cargo terminal (AISATS)",
+          "as_of": "2026-06-17",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:fpj-noida-cargo-2026"
+            }
+          ]
+        }
+      ],
+      "companies": [
+        {
+          "name": "India Chip (HCL–Foxconn JV)",
+          "role": "OSAT (display drivers)",
+          "status": "Approved May 2025; groundbreaking Feb 2026; not yet producing",
+          "player_ids": [
+            "24982411-a4b0-4087-b41d-e29187d8225a",
+            "76c99abc-086d-4ea8-a171-713841bb8ff9"
+          ],
+          "primary_player_id": "24982411-a4b0-4087-b41d-e29187d8225a",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-india-chip-2025"
+            },
+            {
+              "source_id": "src:pib-india-chip-groundbreaking-2026"
+            }
+          ]
+        }
+      ],
+      "corridor_node_refs": [
+        "corridor-node:delhi-mumbai/dadri-boraki"
+      ],
+      "supply_chain_position": {
+        "upstream": [
+          "Display-driver wafers (imported)",
+          "Packaging materials (imported)"
+        ],
+        "node": "India Chip OSAT (under construction)",
+        "logistics": [
+          "Noida International Airport cargo terminal",
+          "Yamuna Expressway",
+          "WDFC Dadri terminus / Dadri MMLH (~40 km)"
+        ],
+        "gateways": [
+          "Noida International Airport",
+          "JNPA via WDFC"
+        ],
+        "markets": [
+          "Display makers for phones, laptops, automobiles (domestic EMS in UP/NCR)"
+        ]
+      },
+      "strategic_dependencies": [
+        {
+          "title": "Wafer supply",
+          "detail": "The OSAT packages display-driver wafers fabricated elsewhere; front-end supply is outside India.",
+          "evidence": "analysis",
+          "provenance": [
+            {
+              "source_id": "src:pib-india-chip-2025"
+            }
+          ]
+        },
+        {
+          "title": "Air-cargo dependence",
+          "detail": "With seaports more than 900 km away straight-line, high-value inputs and outputs will lean on air cargo and DFC-linked inland logistics.",
+          "evidence": "analysis",
+          "provenance": [
+            {
+              "source_id": "src:air-noida-airport-2026"
+            }
+          ]
+        }
+      ],
+      "ics_inputs": [
+        {
+          "key": "road",
+          "value": 1.0,
+          "confidence": "medium",
+          "rationale": "The site is in the YEIDA area, which is developed along the Yamuna Expressway (derived from the authority’s remit; route-level access not separately sourced).",
+          "relation_ids": [
+            "rel:jewar-yamuna-expressway"
+          ]
+        },
+        {
+          "key": "rail",
+          "value": null,
+          "confidence": null,
+          "rationale": "No documented rail siding or goods facility for YEIDA Sector 28 in the sources used."
+        },
+        {
+          "key": "port",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest registered gateway port by straight-line distance.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:seaport"
+          }
+        },
+        {
+          "key": "airport",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest operational international cargo airport by straight-line distance.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:cargo_airport"
+          }
+        },
+        {
+          "key": "logistics",
+          "value": null,
+          "confidence": null,
+          "rationale": "Dadri MMLH (under construction) by straight-line distance; capped at 0.5 while not operational.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "infra:mmlh-dadri"
+          }
+        },
+        {
+          "key": "freight_corridor",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest operational DFC station by straight-line distance.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:dfc"
+          }
+        }
+      ],
+      "cgi_inputs": [
+        {
+          "key": "air_cargo",
+          "status": "met",
+          "confidence": "medium",
+          "rationale": "Noida International Airport cargo terminal operating since June 2026, adjacent to the site.",
+          "provenance": [
+            {
+              "source_id": "src:fpj-noida-cargo-2026"
+            },
+            {
+              "source_id": "src:air-noida-airport-2026"
+            }
+          ]
+        },
+        {
+          "key": "power",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Not assessed in Phase 1."
+        },
+        {
+          "key": "water",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Not assessed in Phase 1."
+        },
+        {
+          "key": "port_access",
+          "status": "gap",
+          "confidence": "medium",
+          "rationale": "Nearest gateway seaports are more than 900 km away straight-line; inland rail via WDFC is the only bulk route."
+        },
+        {
+          "key": "warehousing",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Airport logistics zones are announced; specialised capacity not documented."
+        },
+        {
+          "key": "multimodal",
+          "status": "partial",
+          "confidence": "medium",
+          "rationale": "Air and expressway in place; DFC terminus ~40 km away and the Dadri MMLH is under construction.",
+          "provenance": [
+            {
+              "source_id": "src:techadyant-corridor-dadri"
+            }
+          ]
+        }
+      ],
+      "related_reports": [
+        "the-opportunity-beyond-the-fab",
+        "osat-and-the-packaging-frontier",
+        "industrial-logistics-behind-manufacturing-india"
+      ],
+      "data_gaps": [
+        "Exact plant coordinates and road access for YEIDA Sector 28 are not published in the sources used.",
+        "Noida airport cargo-ops date is single-source (trade press).",
+        "Rail access to the YEIDA electronics zone is undocumented."
+      ],
+      "last_verified": "2026-10-08",
+      "data_as_of": "2026-06-17"
+    },
+    {
+      "id": "inode:jagiroad",
+      "slug": "jagiroad",
+      "name": "Jagiroad Industrial Node",
+      "short_name": "Jagiroad",
+      "type": "semiconductor_cluster",
+      "state": "Assam",
+      "district": "Morigaon",
+      "coordinates": {
+        "lat": 26.208,
+        "lng": 92.406,
+        "coord_source": "gazetteer",
+        "confidence": "medium",
+        "note": "Town centroid (public gazetteer)."
+      },
+      "sectors": [
+        "sector:semiconductors",
+        "OSAT (advanced packaging)"
+      ],
+      "requirement_profile": "semiconductor_backend",
+      "headline": "India’s largest planned OSAT sits ~85 km from the nearest cargo airport and ~580 km from the nearest seaport — the pilot that tests the gap model.",
+      "strategic_overview": [
+        "Tata Semiconductor Assembly and Test (TSAT) was approved in February 2024 at ₹27,000 crore with capacity of up to 48 million chips a day, using flip-chip and integrated-system-in-package technologies. Assam’s Chief Minister said in September 2026 that operations are scheduled to start in December 2026.",
+        "Jagiroad sits on NH-27 and on the electrified Guwahati–Lumding rail line, about 85 km straight-line from Guwahati’s airport, which handles international cargo through AAICLAS while a new international cargo terminal is still listed as upcoming. The nearest seaport (Kolkata) is roughly 580 km away straight-line, and the dedicated freight corridors end well to the west.",
+        "Techadyant’s reading: Jagiroad’s economics depend on air freight and on how well Guwahati’s cargo capacity scales. Every material input arrives over long distances, which makes the node a strong candidate for local consolidation, maintenance and consumables supply — and the clearest test of whether a strategic anchor can pull logistics investment into a peripheral node."
+      ],
+      "facts": [
+        {
+          "label": "Anchor project",
+          "value": "Tata Semiconductor Assembly and Test (TSAT): ₹27,000 cr; up to 48 million chips/day; flip-chip and ISIP",
+          "as_of": "2024-02-29",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ism-three-units-2024"
+            },
+            {
+              "source_id": "src:pib-assam-osat-2024"
+            }
+          ]
+        },
+        {
+          "label": "Location",
+          "value": "Jagiroad, Morigaon district, Assam",
+          "as_of": "2024-03-13",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:air-jagiroad-foundation-2024"
+            }
+          ]
+        },
+        {
+          "label": "Jobs (projected)",
+          "value": "15,000 direct and 11,000–13,000 indirect",
+          "as_of": "2024-11-17",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-assam-osat-2024"
+            }
+          ]
+        },
+        {
+          "label": "Start of operations",
+          "value": "Scheduled for December 2026 (Assam CM, SEMICON India 2026)",
+          "as_of": "2026-09-19",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:newsmill-tsat-dec-2026"
+            }
+          ]
+        }
+      ],
+      "companies": [
+        {
+          "name": "Jagiroad semiconductor cluster",
+          "role": "Cluster record (Atlas)",
+          "status": "Atlas cluster entity",
+          "player_ids": [
+            "54c132b2-f5c1-4d15-9066-41c03e132700"
+          ],
+          "primary_player_id": "54c132b2-f5c1-4d15-9066-41c03e132700",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:air-jagiroad-foundation-2024"
+            }
+          ]
+        },
+        {
+          "name": "Tata Semiconductor Assembly and Test (TSAT)",
+          "role": "OSAT (anchor)",
+          "status": "Operations scheduled Dec 2026",
+          "player_ids": [
+            "c339a02b-51fa-4704-aece-0326de908a49",
+            "aa476420-2a9d-432f-a78e-028dc6ba5bb0"
+          ],
+          "primary_player_id": "c339a02b-51fa-4704-aece-0326de908a49",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-ism-three-units-2024"
+            },
+            {
+              "source_id": "src:newsmill-tsat-dec-2026"
+            }
+          ]
+        },
+        {
+          "name": "Tata Electronics",
+          "role": "Promoter",
+          "status": "Tata group OSAT promoter",
+          "player_ids": [
+            "ad131d5d-22cd-4ce1-b167-236187497d67"
+          ],
+          "primary_player_id": "ad131d5d-22cd-4ce1-b167-236187497d67",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-assam-osat-2024"
+            }
+          ]
+        }
+      ],
+      "corridor_node_refs": [],
+      "supply_chain_position": {
+        "upstream": [
+          "Wafers from external fabs (incl. potentially Dholera)",
+          "Substrates and packaging materials (imported)"
+        ],
+        "node": "TSAT advanced-packaging OSAT",
+        "logistics": [
+          "NH-27",
+          "Jagiroad rail station (Guwahati–Lumding)",
+          "Guwahati air cargo (~85 km straight-line)"
+        ],
+        "gateways": [
+          "Guwahati airport (AAICLAS international cargo)",
+          "Kolkata port (~580 km straight-line)"
+        ],
+        "markets": [
+          "Domestic electronics and automotive",
+          "Export"
+        ]
+      },
+      "strategic_dependencies": [
+        {
+          "title": "Distance from material suppliers",
+          "detail": "No semiconductor-materials supplier base exists in the Northeast; every packaging input travels long distances by road, rail or air.",
+          "evidence": "analysis",
+          "provenance": [
+            {
+              "source_id": "src:pib-assam-osat-2024"
+            }
+          ]
+        },
+        {
+          "title": "Air-cargo capacity at Guwahati",
+          "detail": "International cargo runs through AAICLAS; the new international cargo terminal is still listed as upcoming.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:adani-lgbi-cargo"
+            }
+          ]
+        }
+      ],
+      "ics_inputs": [
+        {
+          "key": "road",
+          "value": 0.6,
+          "confidence": "medium",
+          "rationale": "NH-27 (East–West Corridor) runs through Jagiroad.",
+          "relation_ids": [
+            "rel:jagiroad-nh27"
+          ]
+        },
+        {
+          "key": "rail",
+          "value": 0.5,
+          "confidence": "medium",
+          "rationale": "Jagiroad station on the electrified double-line Guwahati–Lumding section; goods handling not documented.",
+          "relation_ids": [
+            "rel:jagiroad-rail"
+          ]
+        },
+        {
+          "key": "port",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest registered gateway port by straight-line distance.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:seaport"
+          }
+        },
+        {
+          "key": "airport",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest operational international cargo airport by straight-line distance.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:cargo_airport"
+          }
+        },
+        {
+          "key": "logistics",
+          "value": null,
+          "confidence": null,
+          "rationale": "No MMLP/ICD recorded in the pilot registry; absence not verified."
+        },
+        {
+          "key": "freight_corridor",
+          "value": null,
+          "confidence": null,
+          "rationale": "Nearest operational DFC station (EDFC terminus, Sonnagar) by straight-line distance — absence of a nearer DFC is evidenced by the DFC route definitions.",
+          "derive": {
+            "kind": "distance_band",
+            "target": "nearest:dfc"
+          }
+        }
+      ],
+      "cgi_inputs": [
+        {
+          "key": "air_cargo",
+          "status": "partial",
+          "confidence": "medium",
+          "rationale": "Guwahati handles international cargo via AAICLAS, ~85 km straight-line; the new international cargo terminal is upcoming.",
+          "provenance": [
+            {
+              "source_id": "src:adani-lgbi-cargo"
+            }
+          ]
+        },
+        {
+          "key": "power",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Not assessed in Phase 1."
+        },
+        {
+          "key": "water",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Not assessed in Phase 1."
+        },
+        {
+          "key": "port_access",
+          "status": "gap",
+          "confidence": "medium",
+          "rationale": "Nearest seaport roughly 580 km straight-line (Kolkata)."
+        },
+        {
+          "key": "warehousing",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Not documented."
+        },
+        {
+          "key": "multimodal",
+          "status": "unknown",
+          "confidence": null,
+          "rationale": "Rail and road present; interchange facilities not documented."
+        }
+      ],
+      "related_reports": [
+        "osat-and-the-packaging-frontier",
+        "india-semiconductor-supply-chain-missing-links"
+      ],
+      "data_gaps": [
+        "Plant-site coordinates and land area are not in the sources used.",
+        "Rail goods handling at or near Jagiroad is undocumented.",
+        "Inland waterway (Brahmaputra, NW-2) relevance not yet sourced.",
+        "Gazetteer facts (NH-27, rail line) should be upgraded to primary sources."
+      ],
+      "last_verified": "2026-10-08",
+      "data_as_of": "2026-09-19"
+    }
+  ]
+}

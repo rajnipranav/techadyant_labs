@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "status": "schema_only",
+  "note": "Architecture placeholder for a future 'India SME Champions' layer linked to industrial nodes. Intentionally empty in Phase 1. Classifications are Techadyant analysis only; sgf_status must stay 'not_documented' unless an official source documents SME Growth Fund investment (enforced by scripts/validate-industrial.mjs).",
+  "policy_context": [{ "source_id": "src:pmindia-sgf-2026" }],
+  "champions": []
+}

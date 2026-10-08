@@ -7,6 +7,7 @@ import CorridorGLMap from '../../CorridorGLMap';
 import { pullsFor } from '../../opportunity';
 import { corridorFeatures, nodeFeatures } from '../../corridor-geojson';
 import { JsonLd, breadcrumb, faqLd, SITE } from '../../../research/seo';
+import { CorridorNodeDossierLink } from '../../../research/industrial/Backlinks';
 
 export function generateStaticParams() {
   return allCorridorNodePairs().map((p) => ({ slug: p.corridor, node: p.node }));
@@ -268,6 +269,8 @@ export default async function NodePage({ params }: { params: Promise<{ slug: str
             </p>
           </section>
         )}
+
+        <CorridorNodeDossierLink corridor={slug} node={node} />
 
         <div className="node-facts">
           <div><dt>Sectors</dt><dd>{n.sectors}</dd></div>

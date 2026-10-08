@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/sync-cms-to-data.mjs && node scripts/bake-sid.mjs && node scripts/bake-platform.mjs && node scripts/prune-redirects.mjs && next build && node scripts/indexnow-submit.mjs",
+    "build": "node scripts/validate-industrial.mjs && node scripts/sync-cms-to-data.mjs && node scripts/bake-sid.mjs && node scripts/bake-logistics.mjs && node scripts/bake-platform.mjs && node scripts/prune-redirects.mjs && next build && node scripts/indexnow-submit.mjs",
     "build:only": "next build",
     "start": "next start",
     "lint": "eslint .",
+    "validate:industrial": "node scripts/validate-industrial.mjs",
+    "test:industrial": "node --experimental-strip-types scripts/test-industrial-scoring.mjs",
     "sync-meta": "node scripts/sync-report-meta.mjs",
     "sync-cms": "node scripts/sync-cms-to-data.mjs",
     "migrate-cms": "node scripts/migrate-to-cms.mjs",

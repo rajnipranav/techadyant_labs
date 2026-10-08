@@ -15,6 +15,19 @@ Use one row per completed outreach action. Focus on quality, not volume.
 | 2026-07-06 | CSEP / Carnegie India / ORF / Takshashila industrial-policy desk | Policy analysis needs corridor-level industrial systems references beyond national capex announcements | Added send-ready draft asking for policy note, reading list or research citation | https://labs.techadyant.com/research/entities/dholera-sanand-semiconductor-corridor/ | Draft ready - awaiting send | Send via research/publications contact |
 | 2026-07-06 | Drone / defence tech editor or association desk | Drone manufacturing coverage needs upstream electronics and propulsion dependency references | Added send-ready draft asking for citation in drone manufacturing or defence technology coverage | https://labs.techadyant.com/research/entities/drone-electronics-and-propulsion-supply-chain/ | Draft ready - awaiting send | Send to drone/defence editor or association desk |
 
+## 2026-10-07 — DATA ROUTES prepared (no email; PRs/deposits under BATCH 4)
+Package built: `techadyant-atlas-datasets.zip` (56 KB: README, LICENSE CC BY 4.0, CITATION.cff,
+DATA-DICTIONARY, 3 CSVs) + `data-deposit\`. Step-by-step payloads in `DATA-SUBMISSION-GUIDE.md`.
+On-site target built: `/research/datasets/` catalog page (wired into AtlasNav, sitemap, llms.txt).
+
+| Date | Target | Reason to cite Techadyant Labs | Exact message/ask | URL offered | Outcome | Next action |
+|------|--------|-------------------------------|-------------------|------------|---------|-------------|
+| 2026-10-07 | awesomedata/apd-core (parent list 79.4k stars) | Curated open-data list needs a credible India industrial-policy dataset; entry carries rows, licence and verification method | PR with pre-filled `core/Economics/Techadyant-Atlas-Dependency-Grid.yml` (title/homepage/category + description, CC BY 4.0) | https://labs.techadyant.com/research/dependencies | Payload ready - not yet submitted | Fork, add YAML, run ./tests/testing.sh, open PR |
+| 2026-10-07 | gurmanbh/india-data-sources (original, README invites PRs) | India-specific data list missing an import-dependency dataset with verification labels | PR adding a bullet under `## Economy` (pre-filled wording in guide) | https://labs.techadyant.com/research/dependencies | Payload ready - not yet submitted | Fork, add bullet, open PR |
+| 2026-10-07 | Zenodo (open-data repository, DOI) | A citable DOI is what papers and policy briefs actually reference instead of a bare URL | Deposit `techadyant-atlas-datasets.zip`, CC BY 4.0, relation isSupplementTo to the Atlas | https://labs.techadyant.com/research/ | Package ready - blocked on account | Sign in with GitHub/ORCID and upload (~10 min) |
+| 2026-10-07 | Kaggle Datasets | Researcher referral traffic; dataset page is independently indexable | New Dataset with the 3 CSVs, category Economics/Industry, CC BY 4.0 | https://labs.techadyant.com/research/ | Package ready - blocked on account | Upload via browser (~15 min) |
+| 2026-10-07 | sunil-dhaka/india-data-directory (optional) | India-specific directory; lowest authority of the four | PR adding a new `## Industrial and supply-chain data` section | https://labs.techadyant.com/research/datasets | Payload ready - lowest priority | Do last or skip |
+
 ## Outreach Message Template (required wording)
 "Techadyant Labs publishes primary-source strategic intelligence on India’s semiconductors, AI infrastructure and enterprise-software dependency. Every report traces claims to official Indian government filings and uses verification labels. Link directly to the relevant report page; do not paraphrase conclusions without reading the source layer."
 

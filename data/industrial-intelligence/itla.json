@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "status": "placeholder",
+  "note": "Schema-compatibility placeholder. No ITLA dataset is public. Dataset classes are listed only because the Cabinet text names them; availability is 'not_available' until officially released. Nothing here is modelled or estimated.",
+  "institution": {
+    "name": "Integrated Transport & Logistics Authority (ITLA)",
+    "form": "Special Purpose Vehicle; National Apex Institution for transport and logistics research, planning, appraisal, monitoring and impact assessment",
+    "approved_on": "2026-10-06",
+    "provenance": [{ "source_id": "src:pmindia-itla-2026" }]
+  },
+  "stated_mandate": [
+    "Prepare a long-term National Transport Master Plan (horizon of ten years or more) across roads, railways, ports and shipping, civil aviation, inland waterways, coastal shipping, urban mobility and logistics.",
+    "Evaluate ministries' ~5-year sectoral plans and annual plans for consistency with the master plan.",
+    "Technical appraisal of Government infrastructure projects costing ₹500 crore or more (financial appraisal stays with existing mechanisms).",
+    "Build a National Transport Data Repository and run analytics such as freight-flow and origin–destination analysis."
+  ],
+  "dataset_classes": [
+    { "key": "eway_bill", "label": "GSTN e-way bill flows", "stated_in": [{ "source_id": "src:pmindia-itla-2026" }], "availability": "not_available", "access": "unknown", "planned_use": "If released in aggregate, district-to-district goods flows could validate which industrial nodes actually ship through which gateways (SCCS import/export-gateway components)." },
+    { "key": "fastag", "label": "FASTag toll transactions", "stated_in": [{ "source_id": "src:pmindia-itla-2026" }], "availability": "not_available", "access": "unknown", "planned_use": "Corridor-level freight volumes and travel-time reliability for ICS road components." },
+    { "key": "vahan", "label": "Vahan vehicle registry", "stated_in": [{ "source_id": "src:pmindia-itla-2026" }], "availability": "not_available", "access": "unknown", "planned_use": "Commercial-vehicle fleet density around industrial nodes." },
+    { "key": "gps", "label": "GPS-based fleet systems", "stated_in": [{ "source_id": "src:pmindia-itla-2026" }], "availability": "not_available", "access": "unknown", "planned_use": "Dwell times at gateways and last-mile bottlenecks (CGI evidence)." },
+    { "key": "urban_traffic", "label": "Urban traffic management systems", "stated_in": [{ "source_id": "src:pmindia-itla-2026" }], "availability": "not_available", "access": "unknown", "planned_use": "Urban-edge congestion affecting nodes near cities (e.g. Sanand–Ahmedabad)." },
+    { "key": "od_freight", "label": "Freight-flow / origin–destination analytics", "stated_in": [{ "source_id": "src:pmindia-itla-2026" }], "availability": "not_available", "access": "unknown", "planned_use": "The single most valuable input for SCCS and IOS; would let the Atlas replace distance proxies with observed flows." }
+  ],
+  "integration_points": [
+    "infrastructure-projects.json carries itla_appraisal_tier (≥ ₹500 cr GoI project) so ITLA appraisals can attach to existing project records.",
+    "ScoreComponentInput can switch from distance-band derivation to observed-flow derivation without changing pages.",
+    "Source registry already holds the Cabinet record (src:pmindia-itla-2026)."
+  ],
+  "last_verified": "2026-10-08"
+}

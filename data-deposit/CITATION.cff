@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use these datasets, please cite them as below."
+title: "India Industrial Systems: Atlas Datasets"
+type: dataset
+authors:
+  - name: "Techadyant Labs"
+    website: "https://labs.techadyant.com/"
+identifiers:
+  - type: url
+    value: "https://labs.techadyant.com/research/"
+    description: "The Atlas - live version of these datasets"
+abstract: >-
+  Three machine-readable CSV datasets backing The Atlas at Techadyant Labs:
+  (1) India's 11 national industrial corridors and their anchor nodes, with stage,
+  area, cost, investment potential, jobs, sectors, developer, EPC and anchor tenants;
+  (2) import-dependency assessments scored 0-5 across six value-chain layers for
+  seven-plus industrial corridors, each with a verification label, assessment date
+  and written rationale; and (3) a directory of organisations tracked across India's
+  strategic industrial ecosystem, classified by type, country, corridor tags and a
+  sourced description.
+keywords:
+  - India
+  - industrial corridors
+  - semiconductors
+  - critical minerals
+  - AI infrastructure
+  - defence
+  - enterprise software
+  - import dependency
+  - supply chain
+  - industrial policy
+  - strategic autonomy
+license: CC-BY-4.0
+repository-code: "https://github.com/rajnipranav/techadyant_labs"
+url: "https://labs.techadyant.com/research/"

@@ -1,0 +1,257 @@
+{
+  "version": "1.0",
+  "note": "Only infrastructure referenced by a pilot industrial node is registered. This is not a national inventory and not a copy of any GatiShakti layer. Coordinates are approximate unless coord_source says otherwise.",
+  "nodes": [
+    {
+      "id": "infra:ne8-ahmedabad-dholera-expressway",
+      "name": "Ahmedabad–Dholera Greenfield Expressway (NE-8)",
+      "type": "expressway", "status": "trial", "operator": "NHAI / MoRTH", "state": "Gujarat",
+      "coordinates": { "lat": null, "lng": null, "coord_source": null, "confidence": null, "note": "Linear asset; not point-located." },
+      "classification": "national_expressway", "cargo_handling": null,
+      "facts": [
+        { "label": "Length", "value": "109.019 km", "as_of": "2026-02-27", "evidence": "fact", "provenance": [{ "source_id": "src:pib-ne8-expressway-2026" }] },
+        { "label": "Total project cost", "value": "₹5,800 crore", "as_of": "2026-02-27", "evidence": "fact", "provenance": [{ "source_id": "src:pib-ne8-expressway-2026" }] },
+        { "label": "Status", "value": "Opened to the public for testing; final operational readiness being assessed", "as_of": "2026-02-27", "evidence": "fact", "provenance": [{ "source_id": "src:pib-ne8-expressway-2026" }] },
+        { "label": "Airport link", "value": "Direct interchange to Dholera International Airport at Ch. 67", "as_of": "2026-02-27", "evidence": "fact", "provenance": [{ "source_id": "src:pib-ne8-expressway-2026" }] }
+      ],
+      "provenance": [{ "source_id": "src:pib-ne8-expressway-2026" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:rail-sarkhej-dholera",
+      "name": "Ahmedabad (Sarkhej)–Dholera semi high-speed double line",
+      "type": "railway_line", "status": "approved", "operator": "Ministry of Railways", "state": "Gujarat",
+      "coordinates": { "lat": null, "lng": null, "coord_source": null, "confidence": null, "note": "Linear asset; alignment not published in the source." },
+      "classification": null, "cargo_handling": null,
+      "facts": [
+        { "label": "Approved", "value": "CCEA, 13 May 2026", "as_of": "2026-05-13", "evidence": "fact", "provenance": [{ "source_id": "src:pib-sarkhej-dholera-rail-2026" }] },
+        { "label": "Completion", "value": "Up to 2030-31", "as_of": "2026-05-13", "evidence": "fact", "provenance": [{ "source_id": "src:pib-sarkhej-dholera-rail-2026" }] }
+      ],
+      "provenance": [{ "source_id": "src:pib-sarkhej-dholera-rail-2026" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:airport-dholera",
+      "name": "Dholera International Airport",
+      "type": "airport", "status": "under_construction", "operator": null, "state": "Gujarat",
+      "coordinates": { "lat": null, "lng": null, "coord_source": null, "confidence": null, "note": "Not recorded; distance to the SIR is stated by sources (expressway interchange at Ch. 67)." },
+      "classification": "international", "cargo_handling": null,
+      "facts": [
+        { "label": "Status", "value": "Under construction; ~80% complete with runway, taxiways and ATC tower reported complete; operations targeted Sep–Oct 2026 (not confirmed)", "as_of": "2026-07-15", "evidence": "fact", "provenance": [{ "source_id": "src:whalesbook-dholera-airport-2026" }] },
+        { "label": "Planned cargo hub", "value": "2,500 sq m", "as_of": "2026-07-15", "evidence": "fact", "provenance": [{ "source_id": "src:whalesbook-dholera-airport-2026" }] }
+      ],
+      "provenance": [{ "source_id": "src:whalesbook-dholera-airport-2026" }, { "source_id": "src:pib-ne8-expressway-2026" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:airport-ahmedabad",
+      "name": "Sardar Vallabhbhai Patel International Airport, Ahmedabad",
+      "type": "airport", "status": "operational", "operator": null, "state": "Gujarat",
+      "coordinates": { "lat": 23.077, "lng": 72.635, "coord_source": "approximate", "confidence": "medium", "note": "Airport centroid (±5 km)." },
+      "classification": "international", "cargo_handling": true,
+      "facts": [
+        { "label": "Distance to Sanand (source)", "value": "35 km (GIDC; read as road distance)", "as_of": null, "evidence": "fact", "provenance": [{ "source_id": "src:gidc-sanand-estate" }] }
+      ],
+      "provenance": [{ "source_id": "src:gidc-sanand-estate" }, { "source_id": "src:techadyant-geocoding" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:port-deendayal-kandla",
+      "name": "Deendayal Port (Kandla)",
+      "type": "seaport", "status": "operational", "operator": "Deendayal Port Authority", "state": "Gujarat",
+      "coordinates": { "lat": 23.03, "lng": 70.22, "coord_source": "approximate", "confidence": "medium" },
+      "classification": null, "cargo_handling": true,
+      "facts": [
+        { "label": "Distance to Sanand (source)", "value": "274 km (GIDC)", "as_of": null, "evidence": "fact", "provenance": [{ "source_id": "src:gidc-sanand-estate" }] }
+      ],
+      "provenance": [{ "source_id": "src:gidc-sanand-estate" }, { "source_id": "src:techadyant-geocoding" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:port-mundra",
+      "name": "Mundra Port",
+      "type": "seaport", "status": "operational", "operator": "Adani Ports & SEZ", "state": "Gujarat",
+      "coordinates": { "lat": 22.74, "lng": 69.71, "coord_source": "approximate", "confidence": "medium" },
+      "classification": null, "cargo_handling": true,
+      "facts": [
+        { "label": "Distance to Sanand (source)", "value": "324 km (GIDC)", "as_of": null, "evidence": "fact", "provenance": [{ "source_id": "src:gidc-sanand-estate" }] }
+      ],
+      "provenance": [{ "source_id": "src:gidc-sanand-estate" }, { "source_id": "src:techadyant-geocoding" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:port-pipavav",
+      "name": "Pipavav Port",
+      "type": "seaport", "status": "operational", "operator": "APM Terminals Pipavav", "state": "Gujarat",
+      "coordinates": { "lat": 20.92, "lng": 71.52, "coord_source": "approximate", "confidence": "medium" },
+      "classification": null, "cargo_handling": true,
+      "facts": [],
+      "provenance": [{ "source_id": "src:gidc-sanand-estate" }, { "source_id": "src:techadyant-geocoding" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:port-jnpa",
+      "name": "Jawaharlal Nehru Port (JNPA, Nhava Sheva)",
+      "type": "seaport", "status": "operational", "operator": "Jawaharlal Nehru Port Authority", "state": "Maharashtra",
+      "coordinates": { "lat": 18.95, "lng": 72.95, "coord_source": "approximate", "confidence": "medium" },
+      "classification": null, "cargo_handling": true,
+      "facts": [
+        { "label": "WDFC terminus", "value": "Western DFC runs JNPT–Dadri", "as_of": "2026-09-08", "evidence": "fact", "provenance": [{ "source_id": "src:dfccil-wdfc-route" }, { "source_id": "src:jica-wdfc-2026" }] }
+      ],
+      "provenance": [{ "source_id": "src:dfccil-wdfc-route" }, { "source_id": "src:techadyant-geocoding" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:port-kolkata-smp",
+      "name": "Syama Prasad Mookerjee Port — Kolkata Dock System",
+      "type": "seaport", "status": "operational", "operator": "Syama Prasad Mookerjee Port Authority", "state": "West Bengal",
+      "coordinates": { "lat": 22.545, "lng": 88.317, "coord_source": "approximate", "confidence": "medium" },
+      "classification": null, "cargo_handling": true,
+      "facts": [],
+      "provenance": [{ "source_id": "src:techadyant-geocoding" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:wdfc",
+      "name": "Western Dedicated Freight Corridor (Dadri–JNPT)",
+      "type": "freight_corridor", "status": "operational", "operator": "DFCCIL", "state": null,
+      "coordinates": { "lat": null, "lng": null, "coord_source": null, "confidence": null, "note": "Linear asset; see station nodes." },
+      "classification": null, "cargo_handling": true,
+      "facts": [
+        { "label": "Length", "value": "1,504–1,506 km double-line electric", "as_of": "2026-09-08", "evidence": "fact", "provenance": [{ "source_id": "src:dfccil-wdfc-route" }, { "source_id": "src:jica-wdfc-2026" }] },
+        { "label": "Status", "value": "Completed and fully operational after the final three sections were dedicated on 8 Sep 2026", "as_of": "2026-09-08", "evidence": "fact", "provenance": [{ "source_id": "src:jica-wdfc-2026" }, { "source_id": "src:pmindia-wdfc-2026" }] }
+      ],
+      "provenance": [{ "source_id": "src:jica-wdfc-2026" }, { "source_id": "src:pmindia-wdfc-2026" }, { "source_id": "src:dfccil-wdfc-route" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:dfc-new-sanand-north",
+      "name": "WDFC New Sanand (North) station",
+      "type": "dfc_station", "status": "operational", "operator": "DFCCIL", "state": "Gujarat",
+      "coordinates": { "lat": 23.0, "lng": 72.37, "coord_source": "approximate", "confidence": "low", "note": "Station location not published in the sources; placed at Sanand (±15 km)." },
+      "classification": null, "cargo_handling": true,
+      "facts": [
+        { "label": "Commissioned", "value": "New Sanand (N)–New Makarpura section dedicated 8 Sep 2026; freight services flagged off from New Sanand (North)", "as_of": "2026-09-08", "evidence": "fact", "provenance": [{ "source_id": "src:pmindia-wdfc-2026" }, { "source_id": "src:jica-wdfc-2026" }] }
+      ],
+      "provenance": [{ "source_id": "src:pmindia-wdfc-2026" }, { "source_id": "src:jica-wdfc-2026" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:dfc-dadri",
+      "name": "Dadri — WDFC terminus and EDFC junction",
+      "type": "dfc_station", "status": "operational", "operator": "DFCCIL", "state": "Uttar Pradesh",
+      "coordinates": { "lat": 28.55, "lng": 77.55, "coord_source": "gis", "confidence": "medium", "note": "Reuses the 'delhi-mumbai/dadri-boraki' point from app/corridors/geo.ts." },
+      "classification": null, "cargo_handling": true,
+      "facts": [
+        { "label": "Role", "value": "WDFC runs JNPT–Dadri and joins the Eastern Corridor at Dadri", "as_of": null, "evidence": "fact", "provenance": [{ "source_id": "src:dfccil-wdfc-route" }] }
+      ],
+      "provenance": [{ "source_id": "src:dfccil-wdfc-route" }, { "source_id": "src:jica-wdfc-2026" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:mmlh-dadri",
+      "name": "Multi-Modal Logistics Hub, Dadri (with MMTH Boraki)",
+      "type": "mmlh", "status": "under_construction", "operator": "NICDC / DMIC SPV", "state": "Uttar Pradesh",
+      "coordinates": { "lat": 28.55, "lng": 77.55, "coord_source": "gis", "confidence": "medium" },
+      "classification": null, "cargo_handling": null,
+      "facts": [
+        { "label": "Stage", "value": "Under construction (Techadyant corridor dossier)", "as_of": "2026-08-17", "evidence": "fact", "provenance": [{ "source_id": "src:techadyant-corridor-dadri" }] }
+      ],
+      "provenance": [{ "source_id": "src:techadyant-corridor-dadri" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:edfc",
+      "name": "Eastern Dedicated Freight Corridor (Ludhiana–Sonnagar)",
+      "type": "freight_corridor", "status": "operational", "operator": "DFCCIL", "state": null,
+      "coordinates": { "lat": null, "lng": null, "coord_source": null, "confidence": null },
+      "classification": null, "cargo_handling": true,
+      "facts": [
+        { "label": "Length", "value": "1,337 km; construction fully completed", "as_of": "2023-12-13", "evidence": "fact", "provenance": [{ "source_id": "src:pib-edfc-complete-2023" }] }
+      ],
+      "provenance": [{ "source_id": "src:pib-edfc-complete-2023" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:dfc-sonnagar",
+      "name": "Sonnagar — EDFC eastern terminus",
+      "type": "dfc_station", "status": "operational", "operator": "DFCCIL", "state": "Bihar",
+      "coordinates": { "lat": 24.9, "lng": 84.07, "coord_source": "approximate", "confidence": "medium" },
+      "classification": null, "cargo_handling": true,
+      "facts": [],
+      "provenance": [{ "source_id": "src:pib-edfc-complete-2023" }, { "source_id": "src:techadyant-geocoding" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:nh8a-sanand",
+      "name": "NH-8A (Ahmedabad–Saurashtra/Kutch) through Sanand",
+      "type": "national_highway", "status": "operational", "operator": null, "state": "Gujarat",
+      "coordinates": { "lat": null, "lng": null, "coord_source": null, "confidence": null, "note": "Old NH numbering as used by GIDC; current numbering not verified." },
+      "classification": null, "cargo_handling": null,
+      "facts": [
+        { "label": "Route", "value": "NH-8A connecting Ahmedabad to Saurashtra and Kutch passes through Sanand; SH-17 joins it", "as_of": null, "evidence": "fact", "provenance": [{ "source_id": "src:gidc-sanand-estate" }] }
+      ],
+      "provenance": [{ "source_id": "src:gidc-sanand-estate" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:airport-noida-jewar",
+      "name": "Noida International Airport, Jewar",
+      "type": "airport", "status": "operational", "operator": null, "state": "Uttar Pradesh",
+      "coordinates": { "lat": 28.17, "lng": 77.61, "coord_source": "approximate", "confidence": "medium" },
+      "classification": "international", "cargo_handling": true,
+      "facts": [
+        { "label": "Phase 1", "value": "Inaugurated 28 Mar 2026; 12 million passengers/yr; cargo capacity > 2.5 lakh t/yr; integrated cargo terminal and logistics zones; 40-acre MRO", "as_of": "2026-03-27", "evidence": "fact", "provenance": [{ "source_id": "src:air-noida-airport-2026" }] },
+        { "label": "Cargo operations", "value": "First cargo flight 17 Jun 2026; 87-acre cargo terminal operated by AISATS", "as_of": "2026-06-17", "evidence": "fact", "provenance": [{ "source_id": "src:fpj-noida-cargo-2026" }] }
+      ],
+      "provenance": [{ "source_id": "src:air-noida-airport-2026" }, { "source_id": "src:fpj-noida-cargo-2026" }, { "source_id": "src:techadyant-geocoding" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:yamuna-expressway",
+      "name": "Yamuna Expressway (YEIDA corridor)",
+      "type": "expressway", "status": "operational", "operator": null, "state": "Uttar Pradesh",
+      "coordinates": { "lat": null, "lng": null, "coord_source": null, "confidence": null },
+      "classification": null, "cargo_handling": null,
+      "facts": [],
+      "provenance": [{ "source_id": "src:pib-india-chip-2025" }, { "source_id": "src:theweek-india-chip-land-2025" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:airport-guwahati",
+      "name": "Lokpriya Gopinath Bordoloi International Airport, Guwahati",
+      "type": "airport", "status": "operational", "operator": "Adani Airports", "state": "Assam",
+      "coordinates": { "lat": 26.106, "lng": 91.586, "coord_source": "approximate", "confidence": "medium" },
+      "classification": "international", "cargo_handling": true,
+      "facts": [
+        { "label": "Cargo", "value": "International (AAICLAS) and domestic cargo supported; domestic cargo terminal operational; new international cargo terminal listed as upcoming", "as_of": "2026-10-08", "evidence": "fact", "provenance": [{ "source_id": "src:adani-lgbi-cargo" }] }
+      ],
+      "provenance": [{ "source_id": "src:adani-lgbi-cargo" }, { "source_id": "src:techadyant-geocoding" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:nh27-jagiroad",
+      "name": "NH-27 (East–West Corridor) through Jagiroad",
+      "type": "national_highway", "status": "operational", "operator": null, "state": "Assam",
+      "coordinates": { "lat": null, "lng": null, "coord_source": null, "confidence": null },
+      "classification": null, "cargo_handling": null,
+      "facts": [
+        { "label": "Route", "value": "NH-27 (AH-1, East–West Corridor) runs through Jagiroad towards Guwahati", "as_of": null, "evidence": "fact", "provenance": [{ "source_id": "src:wiki-jagiroad" }] }
+      ],
+      "provenance": [{ "source_id": "src:wiki-jagiroad" }],
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "infra:rail-jagiroad",
+      "name": "Jagiroad station (Guwahati–Lumding section, NFR)",
+      "type": "railway_station", "status": "operational", "operator": "Northeast Frontier Railway", "state": "Assam",
+      "coordinates": { "lat": 26.208, "lng": 92.406, "coord_source": "gazetteer", "confidence": "medium" },
+      "classification": null, "cargo_handling": null,
+      "facts": [
+        { "label": "Line", "value": "Double-line, electrified; Guwahati–Lumding section", "as_of": null, "evidence": "fact", "provenance": [{ "source_id": "src:wiki-jagiroad" }] }
+      ],
+      "provenance": [{ "source_id": "src:wiki-jagiroad" }],
+      "last_verified": "2026-10-08"
+    }
+  ]
+}

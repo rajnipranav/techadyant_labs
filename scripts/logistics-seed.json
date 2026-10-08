@@ -1,0 +1,856 @@
+{
+ "generated_at": "2026-10-08T00:00:00Z",
+ "rpc": "seed-fallback (scripts/logistics-seed.json — mirrors supabase/logistics-seed.sql, which is authoritative for the SID)",
+ "evidence_standard": {
+  "verified": "Two or more independent primary sources on file (e.g. a ministry disclosure plus an independent dataset).",
+  "single_source": "One cited reference on file; not yet independently corroborated.",
+  "unverified": "Analyst judgement — no external primary source linked yet.",
+  "needs_human_source": "No primary source fully captured yet. Figures are deliberately left blank rather than filled from memory; a human must capture the source first."
+ },
+ "programmes": [
+  {
+   "id": "itla",
+   "code": "ITLA",
+   "name": "Integrated Transport & Logistics Authority (ITLA)",
+   "ministry": "PMO / Cabinet (SPV)",
+   "type": "authority",
+   "summary": "SPV approved by the Union Cabinet on 6 Oct 2026 as the national apex institution for integrated transport and logistics planning, research, project appraisal, monitoring and data analytics. Prepares a National Transport Master Plan with a 10+ year horizon covering roads, railways, ports and shipping, civil aviation, inland waterways, coastal shipping, urban mobility and logistics; undertakes technical appraisal of Government of India projects costing Rs 500 crore or more (financial appraisal stays with existing mechanisms); monitors projects above Rs 500 crore; and builds a National Transport Data Repository integrating GSTN e-way bill, FASTag, Vahan, GPS-based systems and urban traffic data for freight-flow / O-D analytics.",
+   "key_metrics": {
+    "appraisal_threshold_cr": 500,
+    "master_plan_horizon": "10+ years",
+    "data_integrations": [
+     "GSTN e-way bill",
+     "FASTag",
+     "Vahan",
+     "GPS-based systems",
+     "urban traffic management systems"
+    ]
+   },
+   "status": "approved (6 Oct 2026)",
+   "verification_status": "single_source",
+   "rationale": "One primary (PM India release) captured in full. PIB Cabinet release of the same date is title+date-confirmed but its PRID URL is unpinned — pin it to upgrade to verified. Companion signal: S-144 (SME Growth Fund + ITLA).",
+   "sources": [
+    {
+     "id": "pm-india-itla-20261006",
+     "publisher": "Prime Minister of India (pmindia.gov.in)",
+     "title": "Cabinet approves setting up of Integrated Transport & Logistics Authority",
+     "published_on": "2026-10-06",
+     "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-setting-up-of-integrated-transport-logistics-authority/",
+     "url_host": "www.pmindia.gov.in",
+     "kind": "pm_india",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Full release text captured via reader on 2026-10-08.",
+     "supports": "SPV status; National Transport Master Plan 10+ yr horizon; >= Rs 500 crore technical appraisal; NTDR datasets; freight-flow/O-D analytics",
+     "quoted_text": "ITLA will undertake technical appraisal of infrastructure projects of Government of India, costing Rs.500 crore or more."
+    },
+    {
+     "id": "pib-itla-20261006",
+     "publisher": "PIB",
+     "title": "Cabinet approves setting up of Integrated Transport & Logistics Authority",
+     "published_on": "2026-10-06",
+     "url": null,
+     "url_host": "www.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "title_date_confirmed",
+     "capture_note": "PRID URL to be pinned before upgrading ITLA to verified.",
+     "supports": "Corroborating Cabinet release (URL pin pending)",
+     "quoted_text": null
+    },
+    {
+     "id": "bs-itla-20261006",
+     "publisher": "Business Standard",
+     "title": "Cabinet approves new body to integrate transport and logistics",
+     "published_on": "2026-10-06",
+     "url": null,
+     "url_host": "www.business-standard.com",
+     "kind": "trade_press",
+     "is_primary": false,
+     "capture_status": "lead_only",
+     "capture_note": "Trade-press corroboration (lead only).",
+     "supports": "Trade-press corroboration (lead only)",
+     "quoted_text": null
+    }
+   ]
+  },
+  {
+   "id": "sme-growth-fund",
+   "code": "SGF",
+   "name": "SME Growth Fund (SGF)",
+   "ministry": "Government of India (Union Budget 2026-27, Para 28)",
+   "type": "policy",
+   "summary": "Union Cabinet commitment of Rs 10,000 crore (6 Oct 2026) toward a fund providing growth-oriented, patient direct equity for Small and Medium Enterprises — targeting champion Indian enterprises across manufacturing, services, technology, innovation-driven sectors and strategic value chains. Addresses a structural gap: existing equity funds focus on early-stage/micro enterprises.",
+   "key_metrics": {
+    "commitment_cr": 10000,
+    "instrument": "direct equity (growth-stage)"
+   },
+   "status": "approved (6 Oct 2026)",
+   "verification_status": "single_source",
+   "rationale": "One primary (PM India release) captured in full; PIB release title+date-confirmed, PRID unpinned. Included because equity for manufacturing SMEs and Tier-II/III clusters is a demand-side input to the logistics system.",
+   "sources": [
+    {
+     "id": "pm-india-sgf-20261006",
+     "publisher": "Prime Minister of India (pmindia.gov.in)",
+     "title": "Cabinet approves Commitment of Rs.10,000 Crore towards establishment of the SME Growth Fund for direct equity investments in Small and Medium Enterprises to create future champions",
+     "published_on": "2026-10-06",
+     "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-commitment-of-rs-10000-crore-towards-establishment-of-the-sme-growth-fund-for-direct-equity-investments-in-small-and-medium-enterprises-to-create-future-champions/",
+     "url_host": "www.pmindia.gov.in",
+     "kind": "pm_india",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Full release text captured via reader on 2026-10-08.",
+     "supports": "Rs 10,000 crore commitment; direct equity; Budget 2026-27 Para 28 anchor",
+     "quoted_text": "The Union Cabinet, chaired by Prime Minister Shri Narendra Modi, today approved the Government of India's commitment of Rs.10,000 crore towards the establishment of the SME Growth Fund (SGF)."
+    },
+    {
+     "id": "pib-sgf-20261006",
+     "publisher": "PIB",
+     "title": "Small and Medium Enterprises Growth Fund",
+     "published_on": "2026-10-06",
+     "url": null,
+     "url_host": "www.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "title_date_confirmed",
+     "capture_note": "PRID URL to be pinned to upgrade to verified.",
+     "supports": "Corroborating PIB release (URL pin pending)",
+     "quoted_text": "The Fund will provide patient equity"
+    }
+   ]
+  },
+  {
+   "id": "dfc",
+   "code": "DFC",
+   "name": "Dedicated Freight Corridors (EDFC + WDFC)",
+   "ministry": "Ministry of Railways / DFCCIL",
+   "type": "corridor_programme",
+   "summary": "Two dedicated freight-corridor lines built by DFCCIL to shift bulk rail freight off the passenger network. Eastern (Ludhiana–Sonnagar, 1,337 km): construction fully completed, Dec 2023 (PIB). Western (Dadri–JNPT, ~1,504–1,506 km): completed and fully operational after the final three sections were dedicated on 8 Sep 2026 (PMO; JICA). The Sonnagar–Dankuni extension of the EDFC is not part of the completed figure.",
+   "key_metrics": {
+    "edfc_km": 1337,
+    "edfc_status": "construction fully completed (13 Dec 2023)",
+    "wdfc_km": 1506,
+    "wdfc_km_note": "DFCCIL route page states 1,504 km; JICA states 1,506 km",
+    "wdfc_status": "completed and fully operational (8 Sep 2026)",
+    "final_sections_dedicated_km": 326
+   },
+   "status": "complete — EDFC (Dec 2023) and WDFC (Sep 2026)",
+   "verification_status": "verified",
+   "rationale": "WDFC completion rests on two independent primaries (PMO release + JICA, the project lender) plus the DFCCIL route page; EDFC completion on a PIB release. Supersedes the 2025 '~2,557 km (~90%)' seed figure, which is retained in the source list for history. 8 Oct 2026 correction.",
+   "sources": [
+    {
+     "id": "pib-edfc-complete-20231213",
+     "publisher": "PIB / Ministry of Railways",
+     "title": "Construction of Eastern Dedicated Freight Corridor fully completed",
+     "published_on": "2023-12-13",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1985782",
+     "url_host": "pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Captured 2026-10-08: EDFC Ludhiana–Sonnagar, 1,337 km; construction fully completed (13 Dec 2023).",
+     "supports": "EDFC Ludhiana–Sonnagar 1,337 km — construction fully completed",
+     "quoted_text": null
+    },
+    {
+     "id": "pm-india-wdfc-20260907",
+     "publisher": "Prime Minister of India (pmindia.gov.in)",
+     "title": "PM to visit Gujarat and Maharashtra on 8th September (WDFC dedication)",
+     "published_on": "2026-09-07",
+     "url": "https://www.pmindia.gov.in/?p=16920780",
+     "url_host": "www.pmindia.gov.in",
+     "kind": "pm_india",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Captured 2026-10-08: dedication of WDFC sections New Sanand (N)–New Makarpura, New Umbergaon–New Saphale and New Saphale–New JNPT — 326 route km, > Rs 20,700 crore; the sections complete the DFC network.",
+     "supports": "Final 326 route km of WDFC dedicated 8 Sep 2026; completes the network",
+     "quoted_text": null
+    },
+    {
+     "id": "jica-wdfc-20260908",
+     "publisher": "JICA India Office",
+     "title": "Western Dedicated Freight Corridor completed and fully operationalised",
+     "published_on": "2026-09-08",
+     "url": "https://www.jica.go.jp/english/overseas/india/information/press/2026/1585189_70871.html",
+     "url_host": "www.jica.go.jp",
+     "kind": "international",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Captured 2026-10-08: WDFC (1,506 km, Dadri–JNPT) completed and fully operational; independent of the PMO source (lender).",
+     "supports": "WDFC 1,506 km completed and fully operational",
+     "quoted_text": null
+    },
+    {
+     "id": "dfccil-wdfc-route",
+     "publisher": "DFCCIL",
+     "title": "Western Corridor (route page)",
+     "published_on": null,
+     "url": "https://dfccil.com/Home/DynemicPages?MenuId=77",
+     "url_host": "dfccil.com",
+     "kind": "ministry",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Captured 2026-10-08: WDFC JNPT–Dadri via Vadodara, Ahmedabad, Palanpur, Phulera, Rewari; 1,504 km double-line electric; joins the Eastern Corridor at Dadri. Page undated.",
+     "supports": "WDFC route and 1,504 km length",
+     "quoted_text": null
+    },
+    {
+     "id": "dfccil-statement-2025",
+     "publisher": "DFCCIL / Ministry of Railways",
+     "title": "Government statement on DFC commissioning (2025)",
+     "published_on": "2025-01-01",
+     "url": null,
+     "url_host": "dfccil.com",
+     "kind": "ministry",
+     "is_primary": true,
+     "capture_status": "snippet_confirmed",
+     "capture_note": "Figure carried in the build brief as a 2025 government statement; primary link (DFCCIL annual report or PIB) to be pinned.",
+     "supports": "~2,557 km commissioned across EDFC + WDFC (~90% complete)",
+     "quoted_text": null
+    },
+    {
+     "id": "pib-dfc-20250319",
+     "publisher": "PIB / Ministry of Railways",
+     "title": "Advances Infrastructure with Dedicated Freight Corridors",
+     "published_on": "2025-03-19",
+     "url": null,
+     "url_host": "www.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "title_date_confirmed",
+     "capture_note": "PRID URL to be pinned.",
+     "supports": "PIB release on DFC build-out",
+     "quoted_text": null
+    }
+   ]
+  },
+  {
+   "id": "bharatmala",
+   "code": "BPM",
+   "name": "Bharatmala Pariyojana",
+   "ministry": "Ministry of Road Transport & Highways",
+   "type": "corridor_programme",
+   "summary": "Umbrella highway programme approved 2017. As on 28 Feb 2025: 26,425 km awarded of a planned 34,800 km; 19,826 km constructed; 6,669 km of high-speed greenfield corridors awarded, of which 4,610 km completed; total expenditure Rs 4,92,562 crore.",
+   "key_metrics": {
+    "planned_km": 34800,
+    "awarded_km": 26425,
+    "constructed_km": 19826,
+    "greenfield_awarded_km": 6669,
+    "greenfield_completed_km": 4610,
+    "expenditure_cr": 492562,
+    "as_on": "2025-02-28"
+   },
+   "status": "awarding/construction in progress",
+   "verification_status": "single_source",
+   "rationale": "Figures confirmed verbatim in the captured PIB/I&B specific doc (PDF on file) and matched by the PIB 13 Mar 2025 release snippet. Both PIB-family sources, so single_source until a MoRTH/NHAI dashboard capture adds a genuinely independent primary.",
+   "sources": [
+    {
+     "id": "pib-doc-infra-20250401",
+     "publisher": "PIB / Ministry of Information & Broadcasting",
+     "title": "Building Bharat — Powering Infrastructure Through Make in India (specific doc)",
+     "published_on": "2025-04-01",
+     "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/apr/doc202541530501.pdf",
+     "url_host": "static.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "PDF downloaded and text-extracted 2026-10-08.",
+     "supports": "Planned/awarded/constructed km; greenfield km; expenditure as on 28 Feb 2025",
+     "quoted_text": "As on February 28, 2025, 26,425 km of projects awarded under the planned 34,800 km, with 19,826 km already constructed. The total Expenditure incurred under Bharatmala Pariyojana amounts to Rs. 4,92,562 crore."
+    },
+    {
+     "id": "pib-bharatmala-20250313",
+     "publisher": "PIB",
+     "title": "Implementation of Bharatmala Pariyojana",
+     "published_on": "2025-03-13",
+     "url": null,
+     "url_host": "www.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "snippet_confirmed",
+     "capture_note": "PRID URL to be pinned.",
+     "supports": "Independent PIB release matching awarded/constructed figures",
+     "quoted_text": "As on 28.02.2025, projects covering a total length of 26,425 km have been awarded and out of this, 19,826 km have already been constructed."
+    }
+   ]
+  },
+  {
+   "id": "pm-gati-shakti",
+   "code": "PMGS",
+   "name": "PM Gati Shakti National Master Plan",
+   "ministry": "DPIIT (NPG mechanism)",
+   "type": "policy",
+   "summary": "GIS-based national master plan for multimodal infrastructure planning; the Network Planning Group (NPG) evaluates major projects for network alignment. As of 13 Mar 2025, 115 NH/road projects covering ~13,500 km with Rs 6.38 lakh crore investment had been evaluated; by 10 Feb 2026 the NPG mechanism had evaluated 352 infrastructure projects worth Rs 16.10 lakh crore (programme-wide scope).",
+   "key_metrics": {
+    "nh_road_projects_evaluated": 115,
+    "nh_road_km_approx": 13500,
+    "nh_road_investment_lakh_cr": 6.38,
+    "nh_road_as_on": "2025-03-13",
+    "npg_projects_evaluated": 352,
+    "npg_investment_lakh_cr": 16.1,
+    "npg_as_on": "2026-02-10"
+   },
+   "status": "operational",
+   "verification_status": "single_source",
+   "rationale": "NH/road figures confirmed verbatim in the captured PIB/I&B doc. The 352/16.10 figures come from the PIB 10 Feb 2026 release title+snippet (PRID unpinned) — same publisher family, so single_source stands.",
+   "sources": [
+    {
+     "id": "pib-doc-infra-20250401",
+     "publisher": "PIB / Ministry of Information & Broadcasting",
+     "title": "Building Bharat — Powering Infrastructure Through Make in India (specific doc)",
+     "published_on": "2025-04-01",
+     "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/apr/doc202541530501.pdf",
+     "url_host": "static.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "PDF on file (text-extracted).",
+     "supports": "115 NH/road projects, ~13,500 km, Rs 6.38 lakh crore as of 13 Mar 2025",
+     "quoted_text": "As of March 13, 2025, 115 National Highway and road projects covering approximately 13,500 km, with an investment of Rs 6.38 lakh crore, have been evaluated under the initiative."
+    },
+    {
+     "id": "pib-gatishakti-npg-20260210",
+     "publisher": "PIB",
+     "title": "PM GatiShakti Network Planning Group Evaluates 352 Infrastructure Projects Worth Rs 16.10 Lakh Crore",
+     "published_on": "2026-02-10",
+     "url": null,
+     "url_host": "www.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "snippet_confirmed",
+     "capture_note": "PRID URL to be pinned.",
+     "supports": "NPG programme-wide totals as of 10 Feb 2026",
+     "quoted_text": "As on date, 352 infrastructure projects with total estimated cost of Rs 16.10 Lakh Crore have been evaluated through the NPG mechanism."
+    }
+   ]
+  },
+  {
+   "id": "national-logistics-policy",
+   "code": "NLP",
+   "name": "National Logistics Policy (NLP)",
+   "ministry": "DPIIT",
+   "type": "policy",
+   "summary": "Policy launched in 2022, complementary to PM Gati Shakti, with the stated goal of reducing logistics cost to levels comparable with global benchmarks by 2030. DPIIT has since issued guidelines for City Logistics Plans. ITLA is mandated to advise on and assist review/updation of NLP (2022).",
+   "key_metrics": null,
+   "status": "in force",
+   "verification_status": "needs_human_source",
+   "rationale": "Programme page confirmed only at host level (Akamai-blocked sandbox). Launch date and cost figures deliberately null until the DPIIT/PIB primary is captured.",
+   "sources": [
+    {
+     "id": "dpiit-nlp-page",
+     "publisher": "DPIIT",
+     "title": "National Logistics Policy (NLP) — programme page",
+     "published_on": null,
+     "url": null,
+     "url_host": "www.dpiit.gov.in",
+     "kind": "ministry",
+     "is_primary": true,
+     "capture_status": "title_date_confirmed",
+     "capture_note": "Page is Akamai-blocked from the build sandbox; human to capture the canonical URL.",
+     "supports": "NLP launched 2022; complements PM Gati Shakti; cost goal",
+     "quoted_text": "National Logistics Policy (NLP). Launched in 2022. Complements PM Gati Shakti. Reduce Logistics Cost — comparable to global benchmarks by 2030."
+    },
+    {
+     "id": "pib-nlp-3years-20250916",
+     "publisher": "PIB",
+     "title": "India Marks Three Years of National Logistics Policy",
+     "published_on": "2025-09-16",
+     "url": null,
+     "url_host": "www.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "title_date_confirmed",
+     "capture_note": "PRID URL to be pinned.",
+     "supports": "Three-year implementation review",
+     "quoted_text": null
+    }
+   ]
+  },
+  {
+   "id": "sagarmala",
+   "code": "SAGAR",
+   "name": "Sagarmala Programme",
+   "ministry": "Ministry of Ports, Shipping & Waterways",
+   "type": "port",
+   "summary": "Port-led development programme: port modernisation, port connectivity enhancement, port-led industrialisation, coastal shipping and inland waterways transport, and coastal community development. Programme totals (projects identified/completed, estimated cost) are not yet captured here.",
+   "key_metrics": null,
+   "status": "in progress",
+   "verification_status": "needs_human_source",
+   "rationale": "Programme page confirmed at host level only; WAF blocked automated capture. Human to capture programme-level totals from shipmin.gov.in or the PIB release.",
+   "sources": [
+    {
+     "id": "shipmin-sagarmala-page",
+     "publisher": "Ministry of Ports, Shipping & Waterways",
+     "title": "SAGARMALA — programme page",
+     "published_on": null,
+     "url": null,
+     "url_host": "shipmin.gov.in",
+     "kind": "ministry",
+     "is_primary": true,
+     "capture_status": "title_date_confirmed",
+     "capture_note": "Site WAF-rejected automated fetch; human capture required.",
+     "supports": "Programme identity and pillar structure",
+     "quoted_text": null
+    },
+    {
+     "id": "pib-sagarmala-20260411",
+     "publisher": "PIB",
+     "title": "Sagarmala: Transforming India's Maritime Landscape",
+     "published_on": "2026-04-11",
+     "url": null,
+     "url_host": "www.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "snippet_confirmed",
+     "capture_note": "PRID URL to be pinned.",
+     "supports": "Component coverage; major-port cargo record",
+     "quoted_text": "India's major ports handled a record 915 million tonnes of cargo in FY 2025-26."
+    }
+   ]
+  },
+  {
+   "id": "ulip",
+   "code": "ULIP",
+   "name": "Unified Logistics Interface Platform (ULIP)",
+   "ministry": "DPIIT / NICDC-NLDSL",
+   "type": "policy",
+   "summary": "Digital gateway that lets industry access logistics-related datasets from multiple government systems through API-based integration (freight-relevant systems include e-way bill, FASTag, Vahan and customs-related platforms).",
+   "key_metrics": null,
+   "status": "operational",
+   "verification_status": "needs_human_source",
+   "rationale": "Description sourced from the PIB 8 Jul 2026 release snippet. API/system counts conflict across secondary sources and are deliberately omitted until an official count is captured.",
+   "sources": [
+    {
+     "id": "pib-ulip-nldsl-20260708",
+     "publisher": "PIB",
+     "title": "NICDC's Logistics Arm NLDSL and Government of Punjab (ULIP partnership)",
+     "published_on": "2026-07-08",
+     "url": null,
+     "url_host": "www.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "snippet_confirmed",
+     "capture_note": "PRID URL to be pinned.",
+     "supports": "ULIP as unified digital gateway",
+     "quoted_text": "ULIP serves as a unified digital gateway for logistics-related data from multiple government systems through API-based integration."
+    }
+   ]
+  },
+  {
+   "id": "leads",
+   "code": "LEADS",
+   "name": "Logistics Ease Across Different States (LEADS)",
+   "ministry": "DPIIT",
+   "type": "policy",
+   "summary": "Annual DPIIT index of logistics ease across States and UTs; upgraded in recent editions to combine perception surveys with objective indicators. No edition results captured yet.",
+   "key_metrics": null,
+   "status": "annual (latest edition not yet captured)",
+   "verification_status": "needs_human_source",
+   "rationale": "No official LEADS edition page or PDF is captured. Human to pin the latest LEADS report from dpiit.gov.in.",
+   "sources": [
+    {
+     "id": "dpiit-nlp-page",
+     "publisher": "DPIIT",
+     "title": "National Logistics Policy (NLP) — programme page",
+     "published_on": null,
+     "url": null,
+     "url_host": "www.dpiit.gov.in",
+     "kind": "ministry",
+     "is_primary": true,
+     "capture_status": "title_date_confirmed",
+     "capture_note": "Canonical LEADS report page not yet captured.",
+     "supports": "LEADS as DPIIT-run annual index",
+     "quoted_text": null
+    }
+   ]
+  },
+  {
+   "id": "mmlp",
+   "code": "MMLP",
+   "name": "Multimodal Logistics Parks (MMLPs)",
+   "ministry": "MoRTH / NHAI",
+   "type": "policy",
+   "summary": "Logistics parks planned under the Bharatmala umbrella co-locating warehousing, intermodal transfer and handling facilities. The build brief cites 11 identified under Bharatmala Phase II; a MoRTH Year-End Review 2025 (via trade mirror) refers to a planned network of 35 MMLPs with ~Rs 46,000 crore total investment. Scopes differ and neither is captured from a primary yet.",
+   "key_metrics": null,
+   "status": "planned/partial",
+   "verification_status": "needs_human_source",
+   "rationale": "Primary-source capture required: reconcile 11 (Phase II) vs 35 (network) framings from PIB/MoRTH originals. No count or cost asserted in any scored claim.",
+   "sources": [
+    {
+     "id": "morth-yer-2025-mirror",
+     "publisher": "MoRTH (via indiashippingnews.com mirror)",
+     "title": "Year End Review 2025 — Ministry of Road Transport & Highways",
+     "published_on": "2025-12-31",
+     "url": null,
+     "url_host": "indiashippingnews.com",
+     "kind": "trade_press",
+     "is_primary": false,
+     "capture_status": "lead_only",
+     "capture_note": "LEAD ONLY — trade mirror of the ministry review; original not captured.",
+     "supports": "LEAD ONLY: 35-MMLP network framing",
+     "quoted_text": "A network of 35 Multimodal Logistics Parks is planned to be developed as part of Bharatmala Pariyojana, with a total investment of about Rs. 46 [thousand crore]."
+    }
+   ]
+  },
+  {
+   "id": "iwai",
+   "code": "IWAI",
+   "name": "Inland Waterways Authority of India — National Waterways",
+   "ministry": "Ministry of Ports, Shipping & Waterways / IWAI",
+   "type": "waterway",
+   "summary": "Statutory authority for national waterways (NW-1 Ganga, NW-2 Brahmaputra, NW-3 West Coast Canal among 111 declared). Record cargo movement of 145.5 million tonnes achieved in FY 2024-25.",
+   "key_metrics": {
+    "cargo_mmt_fy25": 145.5
+   },
+   "status": "operational",
+   "verification_status": "single_source",
+   "rationale": "Figure from the PIB 24 Apr 2025 release (snippet captured from pib.gov.in; PRID unpinned). Human to pin the release URL and add IWAI data as second source.",
+   "sources": [
+    {
+     "id": "pib-iwai-20250424",
+     "publisher": "PIB / IWAI",
+     "title": "India's Record Cargo Movement on Inland Waterways — Achieves 145.5 million tonnes in FY 2024-25",
+     "published_on": "2025-04-24",
+     "url": null,
+     "url_host": "www.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "snippet_confirmed",
+     "capture_note": "PRID URL to be pinned.",
+     "supports": "Record FY2024-25 cargo movement",
+     "quoted_text": "Achieves 145.5 million tonnes in FY 2024-25 — Fairway Maintenance — NW-1 (Ganga River) — NW-2 (Brahmaputra River) — NW-3 (West Coast Canal, Kerala)."
+    }
+   ]
+  },
+  {
+   "id": "major-port-cargo",
+   "code": "MPC",
+   "name": "Major ports cargo throughput",
+   "ministry": "Ministry of Ports, Shipping & Waterways",
+   "type": "port",
+   "summary": "Aggregate cargo handled by India's major ports: record ~915 million tonnes in FY 2025-26 (per PIB 11 Apr 2026 feature), 855 million tonnes in FY 2024-25 and 819 million tonnes in FY 2023-24 (per MoPSW statement carried by Prasar Bharati's NewsOnAir).",
+   "key_metrics": {
+    "cargo_mt_fy26": 915,
+    "cargo_mt_fy25": 855,
+    "cargo_mt_fy24": 819
+   },
+   "status": "operational",
+   "verification_status": "single_source",
+   "rationale": "Two government publishers (PIB; Prasar Bharati/MoPSW) but neither URL is pinned yet; treated as one sourcing chain until pinned. Port-level breakdown lives in the nodes table.",
+   "sources": [
+    {
+     "id": "pib-sagarmala-20260411",
+     "publisher": "PIB",
+     "title": "Sagarmala: Transforming India's Maritime Landscape",
+     "published_on": "2026-04-11",
+     "url": null,
+     "url_host": "www.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "snippet_confirmed",
+     "capture_note": "PRID URL to be pinned.",
+     "supports": "Record ~915 MT FY 2025-26",
+     "quoted_text": "India's major ports handled a record 915 million tonnes of cargo in FY 2025-26."
+    },
+    {
+     "id": "newsonair-ports-fy25",
+     "publisher": "NewsOnAir (Prasar Bharati)",
+     "title": "Cargo handled by India's major ports surges to record 855 million tonnes",
+     "published_on": "2025-04-01",
+     "url": null,
+     "url_host": "newsonair.gov.in",
+     "kind": "government",
+     "is_primary": true,
+     "capture_status": "snippet_confirmed",
+     "capture_note": "Government-broadcaster report attributing to MoPSW; URL to be pinned.",
+     "supports": "FY2024-25 = 855 MT; FY2023-24 = 819 MT",
+     "quoted_text": "In a statement, the Ministry of Ports, Shipping and Waterways said that the country's ports handled 819 million tonnes of cargo in the financial year 2023-24."
+    }
+   ]
+  }
+ ],
+ "corridors": [
+  {
+   "id": "dfc-network",
+   "name": "Dedicated Freight Corridor network (EDFC + WDFC combined)",
+   "mode": "rail",
+   "endpoints": null,
+   "length_km": null,
+   "length_commissioned_km": 2843,
+   "status": "EDFC construction complete (Dec 2023) and WDFC fully operational (Sep 2026); 1,337 km + 1,506 km.",
+   "programme_id": "dfc",
+   "verification_status": "verified",
+   "rationale": "Combined figure derived from the two corridor rows (EDFC 1,337 km per PIB; WDFC 1,506 km per JICA). Total network length kept null because the Sonnagar–Dankuni extension is outside the completed figure.",
+   "sources": [
+    {
+     "id": "pib-edfc-complete-20231213",
+     "publisher": "PIB / Ministry of Railways",
+     "title": "Construction of Eastern Dedicated Freight Corridor fully completed",
+     "published_on": "2023-12-13",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1985782",
+     "url_host": "pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Captured 2026-10-08: EDFC Ludhiana–Sonnagar, 1,337 km; construction fully completed (13 Dec 2023).",
+     "supports": "EDFC 1,337 km complete",
+     "quoted_text": null
+    },
+    {
+     "id": "jica-wdfc-20260908",
+     "publisher": "JICA India Office",
+     "title": "Western Dedicated Freight Corridor completed and fully operationalised",
+     "published_on": "2026-09-08",
+     "url": "https://www.jica.go.jp/english/overseas/india/information/press/2026/1585189_70871.html",
+     "url_host": "www.jica.go.jp",
+     "kind": "international",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Captured 2026-10-08: WDFC (1,506 km, Dadri–JNPT) completed and fully operational; independent of the PMO source (lender).",
+     "supports": "WDFC 1,506 km fully operational",
+     "quoted_text": null
+    },
+    {
+     "id": "pm-india-wdfc-20260907",
+     "publisher": "Prime Minister of India (pmindia.gov.in)",
+     "title": "PM to visit Gujarat and Maharashtra on 8th September (WDFC dedication)",
+     "published_on": "2026-09-07",
+     "url": "https://www.pmindia.gov.in/?p=16920780",
+     "url_host": "www.pmindia.gov.in",
+     "kind": "pm_india",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Captured 2026-10-08: dedication of WDFC sections New Sanand (N)–New Makarpura, New Umbergaon–New Saphale and New Saphale–New JNPT — 326 route km, > Rs 20,700 crore; the sections complete the DFC network.",
+     "supports": "WDFC final sections dedicated 8 Sep 2026",
+     "quoted_text": null
+    }
+   ]
+  },
+  {
+   "id": "edfc",
+   "name": "Eastern Dedicated Freight Corridor (EDFC)",
+   "mode": "rail",
+   "endpoints": "Ludhiana (PB) – Sonnagar (BR)",
+   "length_km": 1337,
+   "length_commissioned_km": 1337,
+   "status": "Construction fully completed (13 Dec 2023).",
+   "programme_id": "dfc",
+   "verification_status": "single_source",
+   "rationale": "One primary (PIB, Dec 2023). The Sonnagar–Dankuni section is not included.",
+   "sources": [
+    {
+     "id": "pib-edfc-complete-20231213",
+     "publisher": "PIB / Ministry of Railways",
+     "title": "Construction of Eastern Dedicated Freight Corridor fully completed",
+     "published_on": "2023-12-13",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1985782",
+     "url_host": "pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Captured 2026-10-08: EDFC Ludhiana–Sonnagar, 1,337 km; construction fully completed (13 Dec 2023).",
+     "supports": "Ludhiana–Sonnagar, 1,337 km, construction fully completed",
+     "quoted_text": null
+    }
+   ]
+  },
+  {
+   "id": "wdfc",
+   "name": "Western Dedicated Freight Corridor (WDFC)",
+   "mode": "rail",
+   "endpoints": "Dadri (UP) – JNPT (MH)",
+   "length_km": 1506,
+   "length_commissioned_km": 1506,
+   "status": "Completed and fully operational (final sections dedicated 8 Sep 2026).",
+   "programme_id": "dfc",
+   "verification_status": "verified",
+   "rationale": "Two independent primaries (PMO release; JICA). DFCCIL route page gives 1,504 km; JICA 1,506 km — the higher figure is shown, the discrepancy noted.",
+   "sources": [
+    {
+     "id": "pm-india-wdfc-20260907",
+     "publisher": "Prime Minister of India (pmindia.gov.in)",
+     "title": "PM to visit Gujarat and Maharashtra on 8th September (WDFC dedication)",
+     "published_on": "2026-09-07",
+     "url": "https://www.pmindia.gov.in/?p=16920780",
+     "url_host": "www.pmindia.gov.in",
+     "kind": "pm_india",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Captured 2026-10-08: dedication of WDFC sections New Sanand (N)–New Makarpura, New Umbergaon–New Saphale and New Saphale–New JNPT — 326 route km, > Rs 20,700 crore; the sections complete the DFC network.",
+     "supports": "Final sections dedicated; network complete",
+     "quoted_text": null
+    },
+    {
+     "id": "jica-wdfc-20260908",
+     "publisher": "JICA India Office",
+     "title": "Western Dedicated Freight Corridor completed and fully operationalised",
+     "published_on": "2026-09-08",
+     "url": "https://www.jica.go.jp/english/overseas/india/information/press/2026/1585189_70871.html",
+     "url_host": "www.jica.go.jp",
+     "kind": "international",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Captured 2026-10-08: WDFC (1,506 km, Dadri–JNPT) completed and fully operational; independent of the PMO source (lender).",
+     "supports": "1,506 km Dadri–JNPT fully operational",
+     "quoted_text": null
+    },
+    {
+     "id": "dfccil-wdfc-route",
+     "publisher": "DFCCIL",
+     "title": "Western Corridor (route page)",
+     "published_on": null,
+     "url": "https://dfccil.com/Home/DynemicPages?MenuId=77",
+     "url_host": "dfccil.com",
+     "kind": "ministry",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "Captured 2026-10-08: WDFC JNPT–Dadri via Vadodara, Ahmedabad, Palanpur, Phulera, Rewari; 1,504 km double-line electric; joins the Eastern Corridor at Dadri. Page undated.",
+     "supports": "JNPT–Dadri, 1,504 km",
+     "quoted_text": null
+    }
+   ]
+  },
+  {
+   "id": "bharatmala-network",
+   "name": "Bharatmala Pariyojana road network (Phase-I aggregate)",
+   "mode": "road",
+   "endpoints": null,
+   "length_km": 34800,
+   "length_commissioned_km": 19826,
+   "status": "26,425 km awarded; 19,826 km constructed as on 28 Feb 2025 (greenfield: 6,669 km awarded / 4,610 km completed).",
+   "programme_id": "bharatmala",
+   "verification_status": "single_source",
+   "rationale": "Planned (34,800 km) and constructed (19,826 km) figures confirmed in the captured PIB/I&B doc. length_commissioned_km carries 'constructed' for road programmes by convention noted here.",
+   "sources": [
+    {
+     "id": "pib-doc-infra-20250401",
+     "publisher": "PIB / Ministry of Information & Broadcasting",
+     "title": "Building Bharat — Powering Infrastructure Through Make in India (specific doc)",
+     "published_on": "2025-04-01",
+     "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/apr/doc202541530501.pdf",
+     "url_host": "static.pib.gov.in",
+     "kind": "pib",
+     "is_primary": true,
+     "capture_status": "captured",
+     "capture_note": "PDF on file (text-extracted).",
+     "supports": "Planned 34,800 km; constructed 19,826 km (as on 28 Feb 2025)",
+     "quoted_text": "As on February 28, 2025, 26,425 km of projects awarded under the planned 34,800 km, with 19,826 km already constructed."
+    }
+   ]
+  }
+ ],
+ "nodes": [
+  {
+   "id": "mumbai-port",
+   "name": "Mumbai Port",
+   "type": "port",
+   "state": "Maharashtra",
+   "lat": null,
+   "lon": null,
+   "throughput": {
+    "cargo_mt_fy25": 68.63,
+    "note": "highest-ever throughput, FY 2024-25"
+   },
+   "status": "operational",
+   "programme_id": "sagarmala",
+   "verification_status": "single_source",
+   "rationale": "FY2024-25 figure from the MoPSW Annual Report 2025-26 (snippet captured; PDF path to be pinned).",
+   "sources": [
+    {
+     "id": "shipmin-ar-2025-26",
+     "publisher": "Ministry of Ports, Shipping & Waterways",
+     "title": "Annual Report 2025-26",
+     "published_on": "2026-01-01",
+     "url": null,
+     "url_host": "shipmin.gov.in",
+     "kind": "ministry",
+     "is_primary": true,
+     "capture_status": "snippet_confirmed",
+     "capture_note": "PDF path to be pinned by a human.",
+     "supports": "FY2024-25 throughput 68.63 MT (highest ever)",
+     "quoted_text": "Mumbai Port achieved the highest ever cargo throughput during 2024-25 of 68.63 mill[ion tonnes]."
+    }
+   ]
+  },
+  {
+   "id": "deendayal-port",
+   "name": "Deendayal Port (Kandla)",
+   "type": "port",
+   "state": "Gujarat",
+   "lat": null,
+   "lon": null,
+   "throughput": null,
+   "status": "operational",
+   "programme_id": "sagarmala",
+   "verification_status": "needs_human_source",
+   "rationale": "Consistently reported as the largest major port by cargo volume in secondary sources; no primary figure captured yet, so throughput stays null.",
+   "sources": []
+  },
+  {
+   "id": "jnpa",
+   "name": "Jawaharlal Nehru Port Authority (JNPA)",
+   "type": "port",
+   "state": "Maharashtra",
+   "lat": null,
+   "lon": null,
+   "throughput": null,
+   "status": "operational",
+   "programme_id": "sagarmala",
+   "verification_status": "needs_human_source",
+   "rationale": "India's leading container port in secondary sources; container throughput (TEU) to be captured from JNPA/MoPSW primaries before entry.",
+   "sources": []
+  },
+  {
+   "id": "mmlp-stub-v1",
+   "name": "Multimodal Logistics Park — representative stub",
+   "type": "mmlp",
+   "state": null,
+   "lat": null,
+   "lon": null,
+   "throughput": null,
+   "status": "planned",
+   "programme_id": "mmlp",
+   "verification_status": "needs_human_source",
+   "rationale": "Schema stub for the v2 MMLP pipeline. No location, count or cost asserted.",
+   "sources": []
+  }
+ ],
+ "projects": [],
+ "opportunity_surfaces": [
+  {
+   "id": "itla-appraisal-pipeline",
+   "title": "A public aperture into the >= Rs 500 crore transport project pipeline",
+   "body": "ITLA is mandated to technically appraise Government of India infrastructure projects costing Rs 500 crore or more, and to monitor and run post-implementation impact assessment on them. As the SPV stands up, this mandate may produce centralised public documentation (appraisal records, monitoring outputs) for a project tier that is today scattered across ministries. Techadyant treats this as a potential research surface — v2 of this Atlas will add projects only as their primary records are captured. This states no expectation that any specific project will be announced, approved or procured.",
+   "basis_programme_ids": [
+    "itla"
+   ],
+   "caveat": "Potential, not procurement. Analyst judgement — no external primary source.",
+   "verification_status": "unverified",
+   "sources": []
+  },
+  {
+   "id": "ntdr-freight-flow-v3",
+   "title": "Freight-flow / O-D analytics capability may emerge from the NTDR",
+   "body": "ITLA's National Transport Data Repository is mandated to integrate GSTN e-way bill, FASTag, Vahan, GPS-based and urban traffic datasets and to run freight-flow / origin-destination analytics for planning, monitoring and impact assessment. If the NTDR or ITLA publications release flow data or analyses, they may support a sourced v3 (freight-flow / O-D) layer of this Atlas. Until such a public release exists, Techadyant will not model any flows — the v3 section stays a stub marked 'needs a human source'.",
+   "basis_programme_ids": [
+    "itla"
+   ],
+   "caveat": "Potential, not procurement. Conditional on future public data releases that do not yet exist.",
+   "verification_status": "unverified",
+   "sources": []
+  },
+  {
+   "id": "sgf-tier23-freight-demand",
+   "title": "SME Growth Fund equity may deepen Tier-II/III freight demand over time",
+   "body": "The SME Growth Fund's direct-equity mandate targets growth-stage SMEs with a majority orientation toward manufacturing and Tier-II/III clusters. If implemented at scale, a deepening manufacturing SME base in these clusters may, over multi-year horizons, generate additional freight demand and supplier flows along existing corridor infrastructure (DFC, Bharatmala). This is a demand-side possibility for monitoring — not a forecast, and not a claim about any procurement or scheme disbursement.",
+   "basis_programme_ids": [
+    "sme-growth-fund",
+    "dfc",
+    "bharatmala"
+   ],
+   "caveat": "Potential, not procurement. Multi-year analyst judgement — no external primary source.",
+   "verification_status": "unverified",
+   "sources": []
+  }
+ ]
+}

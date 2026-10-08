@@ -126,6 +126,7 @@ export default function ResourcesPage() {
           <li><b>Industrial corridors</b> — India’s eleven national industrial corridors. <Link href="/corridors/">/corridors/</Link></li>
           <li><b>Corridor Readiness Score</b> — how the 0–100 score is built. <Link href="/corridors/methodology/">/corridors/methodology/</Link></li>
           <li><b>Corridor node dataset</b> — {NODE_COUNT} nodes, open CSV. <Link href="/data/corridor-nodes.csv">/data/corridor-nodes.csv</Link></li>
+          <li><b>Open datasets</b> — three CSVs (dependency grid, industry players, corridor nodes), 872 rows, CC BY 4.0. <Link href="/research/datasets/">/research/datasets/</Link></li>
           <li><b>Research methodology</b> — evidence layers and claim labels. <Link href="/methodology/">/methodology/</Link></li>
           <li><b>Signals</b> — time-sensitive research dispatches. <Link href="/signals/">/signals/</Link></li>
         </ul>
@@ -154,7 +155,9 @@ export default function ResourcesPage() {
             </div>
           </div>
           <p className="serif" style={{ color: 'var(--text-muted, #9aa3b2)' }}>
-            The corridor node dataset (<code>corridor-nodes.csv</code>) is published under{' '}
+            All three open datasets are listed, with schemas and direct downloads, on the{' '}
+            <Link href="/research/datasets/">datasets page</Link>. The corridor node dataset
+            (<code>corridor-nodes.csv</code>) is published under{' '}
             <b>CC BY 4.0</b> — reuse, adapt and redistribute with attribution to Techadyant Labs.
             Current dataset version: <b>August 2026</b> (Atlas snapshot {new Date(lastUpdated).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}). Each dossier carries a last-updated date and
             a per-claim verification label ([V] verified, [V1] announced, [U] unverified); please

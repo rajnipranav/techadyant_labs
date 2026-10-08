@@ -128,6 +128,11 @@ export default function CorridorsIndex() {
                 · <Link href="/corridors/methodology/">Score methodology</Link>
                 · <Link href="/data/corridor-nodes.csv">Download node dataset (CSV)</Link>
               </p>
+              <p className="cmp-fresh">
+                Related: <Link href="/research/logistics/">India Integrated Logistics Atlas</Link> — the
+                freight-programme reference layer (DFC, Bharatmala, Gati Shakti, Sagarmala, ITLA ≥ ₹500 crore
+                appraisal tier), every figure source-labelled.
+              </p>
               <div className="cidx-legend" aria-hidden="true">
                 <span><i style={{ background: CLASS_COLOR.operational }} />{CLASS_LABEL.operational}</span>
                 <span><i style={{ background: CLASS_COLOR.buildout }} />{CLASS_LABEL.buildout}</span>
