@@ -25,7 +25,7 @@ create table if not exists logistics.sources (
   url            text,                             -- full URL when captured; null = capture pending
   url_host       text,                             -- host confirmed via search index even when path pending
   kind           text not null default 'government'
-                   check (kind in ('pib','ministry','pm_india','dashboard','international','trade_press','academic','other')),
+                   check (kind in ('pib','ministry','pm_india','government','dashboard','international','trade_press','academic','other')),
   is_primary     boolean not null default true,    -- trade press is a lead only -> false
   capture_status text not null default 'captured'
                    check (capture_status in ('captured','snippet_confirmed','title_date_confirmed','lead_only')),
@@ -35,6 +35,12 @@ create table if not exists logistics.sources (
 );
 
 -- ------------------------------------------------------------- programmes --
+-- Re-assert the kind check so re-runs fix databases created by an earlier version
+-- of this file (which omitted 'government', the column default).
+alter table logistics.sources drop constraint if exists sources_kind_check;
+alter table logistics.sources add constraint sources_kind_check
+  check (kind in ('pib','ministry','pm_india','government','dashboard','international','trade_press','academic','other'));
+
 create table if not exists logistics.programmes (
   id                  text primary key,            -- stable slug, e.g. 'bharatmala'
   code                text unique,
@@ -171,27 +177,27 @@ as $$
       'needs_human_source', 'No primary source fully captured yet. Figures are deliberately left blank rather than filled from memory; a human must capture the source first.'
     ),
     'programmes', coalesce((
-      select jsonb_agg(p || jsonb_build_object('sources', coalesce(a.sources, '[]'::jsonb)) order by p.id)
+      select jsonb_agg(to_jsonb(p) || jsonb_build_object('sources', coalesce(a.sources, '[]'::jsonb)) order by p.id)
       from logistics.programmes p
       left join attach a on a.record_table = 'programmes' and a.record_id = p.id
     ), '[]'::jsonb),
     'corridors', coalesce((
-      select jsonb_agg(c || jsonb_build_object('sources', coalesce(a.sources, '[]'::jsonb)) order by c.id)
+      select jsonb_agg(to_jsonb(c) || jsonb_build_object('sources', coalesce(a.sources, '[]'::jsonb)) order by c.id)
       from logistics.corridors c
       left join attach a on a.record_table = 'corridors' and a.record_id = c.id
     ), '[]'::jsonb),
     'nodes', coalesce((
-      select jsonb_agg(n || jsonb_build_object('sources', coalesce(a.sources, '[]'::jsonb)) order by n.id)
+      select jsonb_agg(to_jsonb(n) || jsonb_build_object('sources', coalesce(a.sources, '[]'::jsonb)) order by n.id)
       from logistics.nodes n
       left join attach a on a.record_table = 'nodes' and a.record_id = n.id
     ), '[]'::jsonb),
     'projects', coalesce((
-      select jsonb_agg(j || jsonb_build_object('sources', coalesce(a.sources, '[]'::jsonb)) order by j.id)
+      select jsonb_agg(to_jsonb(j) || jsonb_build_object('sources', coalesce(a.sources, '[]'::jsonb)) order by j.id)
       from logistics.projects j
       left join attach a on a.record_table = 'projects' and a.record_id = j.id
     ), '[]'::jsonb),
     'opportunity_surfaces', coalesce((
-      select jsonb_agg(o || jsonb_build_object('sources', coalesce(a.sources, '[]'::jsonb)) order by o.id)
+      select jsonb_agg(to_jsonb(o) || jsonb_build_object('sources', coalesce(a.sources, '[]'::jsonb)) order by o.id)
       from logistics.opportunity_surfaces o
       left join attach a on a.record_table = 'opportunity_surfaces' and a.record_id = o.id
     ), '[]'::jsonb)

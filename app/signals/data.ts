@@ -5285,6 +5285,98 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The Ministry of Defence signed a Rs 661.50 crore contract with BrahMos Aerospace on 6 October 2026 for fire-control systems and launchers for Indian Navy ships.', 'The contract is under Buy (Indian-IDDM) with a minimum 68% indigenous content and involves Indian industry including MSMEs, with employment over three years.', 'The significance is the shipboard sensor-to-launch layer, not the missile.', 'The 68% figure does not identify which components, software or upstream materials remain imported; ship classes and delivery schedule were not disclosed.'],
   sources: ['Press Information Bureau, Ministry of Defence (6 Oct 2026): https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2319502&reg=6&lang=1', 'ANI (6 Oct 2026): https://aninews.in/news/national/general-news/mod-signs-rs-661-crore-contract-to-procure-brahmos-fire-control-system-and-launchers-for-indian-navy-ships20261006155353/', 'DD News (6 Oct 2026): https://ddnews.gov.in/en/defence-ministry-signs-rs-661-50-crore-deal-for-brahmos-fire-control-systems-launchers-for-navy-ships/']
+}, {
+  slug: 'india-sme-growth-fund-itla-capital-logistics-architecture-2026',
+  no: 'S-144',
+  title: 'India Approves a Rs 10,000 Crore SME Equity Fund and a New Logistics Authority',
+  domain: 'Industrial Corridors',
+  date: '2026-10-07',
+  dateLabel: '7 Oct 2026',
+  status: 'live',
+  excerpt: 'On 6 October 2026 the Union Cabinet cleared two separate decisions: a Rs 10,000 crore SME Growth Fund that takes direct equity in small and medium enterprises, and an Integrated Transport & Logistics Authority to plan, appraise and monitor transport infrastructure and run a national freight-data layer. Read together they are a capital lever and a coordination lever aimed at the same goal. Both are institutional decisions, not spending or procurement, and the outcomes depend on execution that has not happened yet.',
+  readingTime: '6 min',
+  body: [{
+  text: 'The decisions',
+  type: 'h'
+}, {
+  text: 'On 6 October 2026 the Union Cabinet approved two measures. The first is a Rs 10,000 crore SME Growth Fund that makes direct equity investments in small and medium enterprises rather than extending credit. The Government\'s statement says the majority of the allocation will go to small and medium manufacturing-focused enterprises, that the fund will consider SMEs operating in industrial clusters in Tier-II and Tier-III cities, and that the capital is meant to help firms scale operations, invest in technology and manufacturing capacity, expand into international markets and integrate into global value chains. The second is an Integrated Transport & Logistics Authority (ITLA), a special-purpose vehicle for research, planning, appraisal, monitoring and impact assessment across transport and logistics.',
+  type: 'p'
+}, {
+  text: 'What ITLA is mandated to do',
+  type: 'h'
+}, {
+  text: 'The Cabinet note gives ITLA three concrete functions worth separating from the general language. It will prepare a National Transport Master Plan with a planning horizon of ten years or more. It will carry out technical appraisal of Government of India infrastructure projects costing Rs 500 crore or more. And it will build a transport-data layer that integrates the GSTN e-way bill, FASTag, Vahan, GPS-based systems, urban traffic-management systems and other databases, and run analytics on it including freight-flow and origin-destination analysis.',
+  type: 'p'
+}, {
+  text: 'Why read the two together',
+  type: 'h'
+}, {
+  text: 'The individual facts - a fund size, a new authority - are less interesting than what they share. One decision supplies growth-stage equity, the scarce form of capital for a manufacturing SME trying to add a line or enter an export market. The other supplies coordination and data for the physical movement of goods those firms depend on. Capital and logistics are the two constraints that most often cap a mid-sized Indian manufacturer\'s ability to scale, and both were addressed on the same day. That is the systems read: not two news items, but a capital lever and a coordination lever pointed at the same outcome, industrial competitiveness and a larger share of global value chains.',
+  type: 'p'
+}, {
+  text: 'The data layer is the part to watch',
+  type: 'h'
+}, {
+  text: 'ITLA\'s freight-data repository is the most consequential and least-discussed element. Bringing e-way bill, FASTag and Vahan records into one analytical layer would, in principle, let the state see freight flows and origin-destination patterns it has never had a unified view of. That is a planning tool, and it is also the foundation on which a class of private analytics, modelling and infrastructure-monitoring work could sit. How much of this materialises depends on decisions not yet made: the authority\'s legal form and funding, who governs the data, and whether any of it is published or kept internal.',
+  type: 'p'
+}, {
+  text: 'Opportunity surfaces, stated carefully',
+  type: 'h'
+}, {
+  text: 'An institutional architecture like this can open industrial and technology opportunity surfaces - areas where demand or capability may emerge. These are not claims that the Government will procure any product, and nothing here should be read as a forecast of contracts. On the capital side, growth equity aimed at manufacturing SMEs points at precision manufacturing, electronics and semiconductor ancillaries, defence and aerospace Tier-2 and Tier-3 suppliers, battery and power-electronics components, advanced materials and export-oriented specialised manufacturing. On the logistics side, an integrated freight-data and appraisal function points at freight analytics, multimodal optimisation, GIS and geospatial systems, infrastructure monitoring and freight-flow modelling. Whether any of these becomes a real market depends on execution.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The SME Growth Fund\'s structure: who manages it, the ticket size, the holding period, and whether it co-invests or leads.', 'ITLA\'s legal form, funding and timeline, and when the first National Transport Master Plan is tabled.', 'Whether the freight-data layer is governed for internal planning only or exposed, even partially, as public data.', 'The first disclosed SME Growth Fund investments, and which clusters and segments they land in.', 'How ITLA\'s Rs 500 crore-plus project appraisals interact with existing bodies like PM Gati Shakti and the DPIIT logistics division.']
+}],
+  takeaways: ['On 6 October 2026 the Union Cabinet approved a Rs 10,000 crore SME Growth Fund (direct equity in SMEs) and an Integrated Transport & Logistics Authority (ITLA).', 'The SME fund is weighted towards manufacturing SMEs and Tier-II/III clusters, aimed at capacity, technology and entry into global value chains.', 'ITLA will prepare a 10-year-plus National Transport Master Plan, technically appraise Government projects of Rs 500 crore or more, and run freight-flow and origin-destination analytics on integrated e-way bill, FASTag, Vahan and GPS data.', 'Read together they are a capital lever and a coordination lever aimed at the same goal; separately they are routine.', 'Both are institutional decisions, not spending or procurement. The opportunity surfaces they could open are potential, not forecasts, and depend on execution not yet visible.'],
+  sources: ['Prime Minister of India (6 Oct 2026), SME Growth Fund: https://www.pmindia.gov.in/en/news_updates/cabinet-approves-commitment-of-rs-10000-crore-towards-establishment-of-the-sme-growth-fund-for-direct-equity-investments-in-small-and-medium-enterprises-to-create-future-champions/', 'Prime Minister of India (6 Oct 2026), Integrated Transport & Logistics Authority: https://www.pmindia.gov.in/en/news_updates/cabinet-approves-setting-up-of-integrated-transport-logistics-authority/', 'Business Standard (6 Oct 2026), on ITLA: https://www.business-standard.com/economy/news/cabinet-approves-new-body-to-integrate-transport-and-logistics-planning-126100600729_1.html', 'Deccan Chronicle (6 Oct 2026), on the SME Growth Fund: https://www.deccanchronicle.com/nation/union-cabinet-approves-10000-crore-sme-growth-fund-for-direct-equity-investments-in-msmes-1993631']
+}, {
+  slug: 'pm-setu-first-year-850-itis-14-clusters-2026',
+  no: 'S-145',
+  title: 'PM-SETU\'s First Year: 850 ITIs Identified and 14 Clusters Approved - The Skills Layer Under Manufacturing Is Still at the Planning Stage',
+  domain: 'Industrial Corridors',
+  date: '2026-10-08',
+  dateLabel: '8 Oct 2026',
+  status: 'live',
+  excerpt: 'A government factsheet marking one year of PM-SETU says 850 ITIs have been identified and 14 clusters approved against a target of 1,000 upgraded ITIs. The figures show administrative progress; nothing yet shows trained, placed workers.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'An official factsheet, reported by IANS on 3 October and by DD India on 5 October, marks one year of PM-SETU (launched 4 October 2025), the scheme to upgrade 1,000 government Industrial Training Institutes through a hub-and-spoke model of 200 hub and 800 spoke ITIs, and to strengthen five National Skill Training Institutes as centres of excellence. The total outlay is Rs 60,000 crore: Rs 30,000 crore from the Centre, Rs 20,000 crore from states and Rs 10,000 crore from industry.',
+  type: 'p'
+}, {
+  text: 'In year one, 850 ITIs have been identified, made up of 172 hubs and 678 spokes. Fourteen ITI clusters have been approved. Thirty-six states and Union Territories have identified clusters and created budget heads, 35 have set up state steering committees, and 26 have begun inviting industry participation. The Directorate General of Training has also introduced 32 new-age courses under the Craftsmen Training Scheme, including artificial intelligence, cyber security and robotics.',
+  type: 'p'
+}, {
+  text: 'What the figures measure',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Identified is not upgraded: 850 ITIs have been selected as hubs and spokes, and 14 clusters have approved plans. The factsheet figures do not say how many ITIs have new equipment, new trainers or new batches running.', 'Approved is not funded in full: DD India, which carried the fuller factsheet, reports Strategic Investment Plans for 14 clusters across eight states and one Union Territory involving Rs 3,446 crore. The IANS reports we read did not carry that figure, so treat it as a single-source number.', 'Industry participation is the weakest link on the page: 26 states have started inviting industry, but the factsheet figures do not name anchor partners or training commitments in numbers.']
+}, {
+  text: 'Why it matters for manufacturing',
+  type: 'h'
+}, {
+  text: 'India\'s manufacturing push in semiconductors, defence, electronics and clean energy depends on technicians as much as on capital. The scheme\'s design, with an anchor industry partner in each cluster and a special purpose vehicle structure, is meant to tie training to what plants actually need. DD India reports that the anchor partner would hold 51 per cent of the vehicle, with the Centre and the state holding 24.5 per cent each; this also appears in one report only.',
+  type: 'p'
+}, {
+  text: 'The test of the scheme is therefore not the count of identified institutes but the first cohort: how many trainees complete the new courses, in which trades, at which plants, and whether employers hire them. The factsheet gives no enrolment, completion or placement figures for the upgraded institutes.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'This is an administrative milestone, and a useful one: state budget heads, steering committees and approved clusters are the plumbing without which nothing else happens. But the skills layer under India\'s industrial strategy is still being laid out, not yet producing output. The signals to wait for are named anchor partners per cluster, equipment installed, first batches enrolled and employer-verified placement.',
+  type: 'p'
+}],
+  takeaways: ['PM-SETU marked one year with 850 ITIs identified (172 hubs, 678 spokes) against a target of 1,000 upgraded ITIs.', 'Fourteen ITI clusters have been approved; the scheme\'s outlay is Rs 60,000 crore across Centre (Rs 30,000 crore), states (Rs 20,000 crore) and industry (Rs 10,000 crore).', '36 states and UTs have identified clusters, 35 have set up steering committees and 26 have begun inviting industry participation.', 'The factsheet reports identification and approvals, not trained or placed workers; no enrolment or placement data was given.', 'The Rs 3,446 crore plan value and the 51 per cent anchor-partner stake come from one report (DD India) and were not seen in the IANS coverage.'],
+  sources: ['IANS via Morung Express (3 Oct 2026): https://morungexpress.com/pmsetu-identifies-850-itis-and-approves-14-clusters-in-one-year', 'IANS via NewKerala (3 Oct 2026): https://www.newkerala.com/news/a/pmsetu-identifies-850-itis-approves-14-clusters-one-379.htm', 'DD India (5 Oct 2026): https://ddindia.co.in/2026/10/pm-setu-completes-one-year-850-itis-identified-for-transformation/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
