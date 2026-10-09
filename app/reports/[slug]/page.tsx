@@ -331,14 +331,14 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
   if (meta.pages) whatsInside.push(`Full ${meta.pages}-page report (PDF)`);
   if (meta.has_deck) whatsInside.push('Editable investor briefing deck (PPTX)');
   if (Array.isArray(meta.seo?.includes)) whatsInside.push(...meta.seo.includes.filter(Boolean));
-  if (meta.externalPublication) {
+  if (meta.seo?.externalPublication) {
     whatsInside.push('Author-led governance framework and corridor assessment');
     whatsInside.push('Full bibliography supplied by the authors');
   } else {
     whatsInside.push('Proprietary analytical frameworks & scorecards');
     whatsInside.push('Primary-source citations with verification labels');
   }
-  if (meta.preview_object && !meta.externalPublication) whatsInside.push('Free condensed preview edition');
+  if (meta.preview_object && !meta.seo?.externalPublication) whatsInside.push('Free condensed preview edition');
 
   // Report + Data tier (CMS: has_data / price_with_data). Present only when the report ships a data pack.
   const hasData = Boolean((meta as any).has_data ?? (meta as any).hasData);
@@ -397,7 +397,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
             {(meta.last_reviewed || meta.date_modified) && (
               <div><div className="bk">Last reviewed</div><div className="bv">{lastReviewedLabel}</div></div>
             )}
-            <div><div className="bk">Author</div><div className="bv">{meta.author || 'Techadyant Labs · Research'}</div></div>
+            <div><div className="bk">Author</div><div className="bv">{meta.seo?.author || meta.author || 'Techadyant Labs · Research'}</div></div>
           </div>
           {meta.lifecycle && meta.lifecycle !== 'current' && (
             <div style={{ marginTop: 12 }}>
@@ -550,7 +550,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
               lineHeight: 1.55,
             }}
           >
-            {meta.externalPublication ? (
+            {meta.seo?.externalPublication ? (
               <>
                 <strong style={{ color: 'var(--accent, #C9A84C)', marginRight: 8 }}>Publication note</strong>
                 <span>This author-led paper is published by Techadyant Labs. Its methodology, findings and conclusions remain those of the named authors.</span>
