@@ -52,6 +52,7 @@ import { ReportContent as MilitaryAerospaceContent, toc as militaryAerospaceToc 
 import { ReportContent as CoolingContent, toc as coolingToc } from '../content/india-ai-data-centre-cooling-2026-2035';
 import { ReportContent as StrategicWeaponsContent, toc as strategicWeaponsToc } from '../content/india-private-strategic-weapons-industrial-base';
 import { ReportContent as ElectronicWarfareContent, toc as electronicWarfareToc } from '../content/india-electronic-warfare-market-2026-2035';
+import { ReportContent as GoverningLogisticsContent, toc as governingLogisticsToc } from '../content/governing-logistics-s3-logic';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -96,6 +97,7 @@ const registry: Record<string, ReportModule> = {
   'india-military-aerospace-manufacturing-ecosystem': { toc: militaryAerospaceToc, Content: MilitaryAerospaceContent },
   'india-private-strategic-weapons-industrial-base': { toc: strategicWeaponsToc, Content: StrategicWeaponsContent },
   'india-electronic-warfare-market-2026-2035': { toc: electronicWarfareToc, Content: ElectronicWarfareContent },
+  'governing-logistics-s3-logic': { toc: governingLogisticsToc, Content: GoverningLogisticsContent },
 };
 
 export async function generateStaticParams() {
