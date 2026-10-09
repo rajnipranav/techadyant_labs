@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 interface NavItem { href: string; label: string }
 interface NavGroup { label: string; href?: string; items?: NavItem[] }
@@ -66,12 +66,37 @@ export function AtlasNav() {
   const raw = usePathname();
   const path = (raw.replace(/\/+$/, '') || '/');
   const [open, setOpen] = useState<string | null>(null);
+  const navRef = useRef<HTMLElement | null>(null);
+
+  // Close the open submenu on route change, outside tap, or Escape.
+  useEffect(() => { setOpen(null); }, [path]);
+
+  useEffect(() => {
+    if (!open) return;
+    const onPointer = (e: Event) => {
+      const el = navRef.current;
+      if (el && e.target instanceof Node && !el.contains(e.target)) setOpen(null);
+    };
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setOpen(null); };
+    document.addEventListener('pointerdown', onPointer);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('pointerdown', onPointer);
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [open]);
 
   const linkActive = (href: string) => (href === '/research' ? path === '/research' : path === href || path.startsWith(href + '/'));
   const groupActive = (g: NavGroup) => (g.href ? linkActive(g.href) : false) || (g.items ?? []).some((i) => linkActive(i.href));
 
+  // Pointer-based open/close only on real hover devices; touch uses the caret button.
+  const hoverProps = (label: string) =>
+    (typeof window !== 'undefined' && window.matchMedia?.('(hover: hover) and (pointer: fine)').matches)
+      ? { onMouseEnter: () => setOpen(label), onMouseLeave: () => setOpen(null) }
+      : {};
+
   return (
-    <nav className="atlas-nav" aria-label="Atlas sections">
+    <nav className="atlas-nav" aria-label="Atlas sections" ref={navRef}>
       <div className="atlas-nav-inner">
         <span className="atlas-mark">THE ATLAS</span>
         <ul role="list">
@@ -85,14 +110,42 @@ export function AtlasNav() {
               );
             }
             const isOpen = open === g.label;
+            const menuId = `atlas-menu-${g.label.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
             return (
-              <li key={g.label} className={`has-menu${isOpen ? ' is-open' : ''}`} onMouseEnter={() => setOpen(g.label)} onMouseLeave={() => setOpen(null)}>
+              <li
+                key={g.label}
+                className={`has-menu${isOpen ? ' is-open' : ''}`}
+                {...hoverProps(g.label)}
+              >
                 {g.href ? (
-                  <Link href={g.href} className={active ? 'is-active' : ''}>{g.label} <span className="caret" aria-hidden="true">▾</span></Link>
+                  /* Hrefed group: the label navigates, a separate caret button opens the
+                     submenu. Without this, a tap on touch devices navigates away and the
+                     sub-items are unreachable (no hover on touch). */
+                  <span className="atlas-grp">
+                    <Link href={g.href} className={active ? 'is-active' : ''}>{g.label}</Link>
+                    <button
+                      type="button"
+                      className="atlas-caret-btn"
+                      aria-expanded={isOpen}
+                      aria-controls={menuId}
+                      aria-label={`${isOpen ? 'Hide' : 'Show'} ${g.label} sections`}
+                      onClick={() => setOpen(isOpen ? null : g.label)}
+                    >
+                      <span className="caret" aria-hidden="true">▾</span>
+                    </button>
+                  </span>
                 ) : (
-                  <button type="button" className={active ? 'is-active' : ''} aria-expanded={isOpen} onClick={() => setOpen(isOpen ? null : g.label)}>{g.label} <span className="caret" aria-hidden="true">▾</span></button>
+                  <button
+                    type="button"
+                    className={active ? 'is-active' : ''}
+                    aria-expanded={isOpen}
+                    aria-controls={menuId}
+                    onClick={() => setOpen(isOpen ? null : g.label)}
+                  >
+                    {g.label} <span className="caret" aria-hidden="true">▾</span>
+                  </button>
                 )}
-                <ul className="atlas-submenu" role="list">
+                <ul className="atlas-submenu" id={menuId} role="list">
                   {g.items.map((i) => (
                     <li key={i.href}><Link href={i.href} className={linkActive(i.href) ? 'is-active' : ''} onClick={() => setOpen(null)}>{i.label}</Link></li>
                   ))}

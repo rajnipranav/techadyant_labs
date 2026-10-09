@@ -2291,12 +2291,35 @@ a.pe-other:hover { color: var(--brass, #F5B544); }
 .atlas-nav .caret { font-size: .62em; opacity: .55; }
 /* specificity must beat `.atlas-nav ul { display: flex }` (line ~1495) */
 .atlas-nav ul.atlas-submenu { display: none; position: absolute; top: 100%; left: 0; min-width: 212px; flex-direction: column; flex-wrap: nowrap; gap: 2px; background: var(--bg-2, #131a24); border: 1px solid var(--border); border-radius: 10px; padding: 6px; margin-top: 10px; z-index: 60; box-shadow: 0 14px 34px rgba(0,0,0,.45); }
-.atlas-nav .has-menu:hover > ul.atlas-submenu, .atlas-nav .has-menu:focus-within > ul.atlas-submenu, .atlas-nav .has-menu.is-open > ul.atlas-submenu { display: flex; }
+/* Hover-open only on true pointer devices: on touch, :hover sticks after a tap and
+   the menu can never be dismissed. Touch uses .is-open via the caret button. */
+@media (hover: hover) and (pointer: fine) {
+  .atlas-nav .has-menu:hover > ul.atlas-submenu, .atlas-nav .has-menu:focus-within > ul.atlas-submenu { display: flex; }
+}
+.atlas-nav .has-menu.is-open > ul.atlas-submenu { display: flex; }
 .atlas-nav ul.atlas-submenu li { display: block; }
 .atlas-nav ul.atlas-submenu a { display: block; padding: 8px 12px; border: 0; border-radius: 7px; white-space: nowrap; font-size: .86rem; color: var(--text-dim); }
 .atlas-nav ul.atlas-submenu a:hover { background: rgba(255,255,255,.05); color: var(--text); }
 .atlas-nav ul.atlas-submenu a.is-active { color: var(--brass, #F5B544); }
-@media (max-width: 860px) { .atlas-nav ul.atlas-submenu { position: static; box-shadow: none; margin-top: 4px; min-width: 0; } }
+/* Group whose label navigates AND has a submenu: label = link, caret = toggle. */
+.atlas-nav .atlas-grp { display: inline-flex; align-items: center; gap: 2px; }
+.atlas-nav .atlas-caret-btn { background: none; border: 0; cursor: pointer; font: inherit;
+  color: var(--text-muted); line-height: 1; padding: 3px 4px; margin: -3px 0;
+  display: inline-flex; align-items: center; border-radius: 6px; transition: color .18s, background .18s; }
+.atlas-nav .atlas-caret-btn:hover { color: var(--text); }
+.atlas-nav .atlas-caret-btn:focus-visible { outline: 2px solid var(--brass, #F5B544); outline-offset: 2px; }
+.atlas-nav .has-menu.is-open > .atlas-grp > .atlas-caret-btn { color: var(--text); }
+.atlas-nav .has-menu.is-open .caret { transform: rotate(180deg); }
+.atlas-nav .caret { display: inline-block; transition: transform .18s; }
+@media (max-width: 860px) {
+  /* Touch targets: give the caret real area so the submenu is openable by thumb. */
+  .atlas-nav .atlas-caret-btn { padding: 8px 10px; margin: -8px -4px -8px 0; }
+  .atlas-nav .atlas-caret-btn .caret { font-size: .8em; opacity: .8; }
+  .atlas-nav ul.atlas-submenu { position: static; box-shadow: none; margin-top: 6px; min-width: 0;
+    width: 100%; background: rgba(255,255,255,.03); }
+  .atlas-nav .has-menu.is-open { width: 100%; }
+  .atlas-nav ul.atlas-submenu a { white-space: normal; padding: 10px 12px; font-size: .9rem; }
+}
 
 /* ── Corridor MapLibre GL map (/corridors) ─────────────────────────────── */
 .cgl{border:1px solid var(--border);border-radius:10px;overflow:hidden;background:var(--surface)}
