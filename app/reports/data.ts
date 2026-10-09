@@ -28,12 +28,46 @@ export interface ReportMeta {
   faq?: { q: string; a: string }[];
   sources?: string[];
   dateModified?: string;
+  author?: string;
+  externalPublication?: boolean;
   seo?: Record<string, any>;
 }
 
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
+  slug: 'governing-logistics-s3-logic',
+  title: 'Governing Logistics Under Systemic Disruption',
+  subtitle: 'The S³-LOGIC framework as a governance diagnostic for India’s multimodal infrastructure system',
+  domain: 'Industrial Infrastructure',
+  edition: 'Guest Research Paper · October 2026',
+  published: '2026-10-09',
+  publishedLabel: 'October 2026',
+  readingTime: '~ 75 min read',
+  status: 'published',
+  summary: 'An author-led research paper proposing the S³-LOGIC framework for assessing governance conditions across India’s Western and Eastern Dedicated Freight Corridors and coastal maritime logistics. It examines sustainability, sovereignty and shock-resilience as mutually necessary conditions, and sets out a governance reform agenda for multimodal infrastructure. The methodology, scores and conclusions are those of the named authors.',
+  accent: '#2B7BBB',
+  access: 'free',
+  hasPdf: true,
+  pages: 59,
+  cover: '/covers/governing-logistics-s3-logic.jpg',
+  previewObject: 'https://labs.techadyant.com/previews/governing-logistics-s3-logic.pdf',
+  previewPages: 59,
+  author: 'B. Rama Rao and K. V. Ramakrishna',
+  externalPublication: true,
+  keywords: ['India logistics governance', 'multimodal infrastructure', 'Dedicated Freight Corridor', 'ULIP', 'logistics data governance', 'coastal shipping', 'freight resilience', 'S3-LOGIC'],
+  faq: [],
+  sources: ['Rama Rao, B. and Ramakrishna, K. V. — Governing Logistics Under Systemic Disruption (2026)', 'NITI Aayog, DPIIT, Ministry of Railways, Ministry of Ports Shipping and Waterways, World Bank and OECD material cited by the authors'],
+  dateModified: '2026-10-09',
+  seo: {
+    authors: ['B. Rama Rao', 'K. V. Ramakrishna'],
+    entities: ['India logistics governance', 'Western Dedicated Freight Corridor', 'Eastern Dedicated Freight Corridor', 'coastal maritime logistics', 'ULIP', 'S3-LOGIC'],
+    metaTitle: 'Governing Logistics Under Systemic Disruption | Free Research Paper',
+    schemaType: 'Report',
+    focusKeyword: 'India logistics governance',
+    metaDescription: 'A free author-led research paper on governance risks in India’s freight corridors: sustainability, logistics-data sovereignty and shock resilience.'
+  }
+}, {
   slug: 'india-semiconductor-supply-chain-missing-links',
   title: 'India’s Semiconductor Supply Chain Missing Links and Industrial Opportunity Surfaces',
   subtitle: 'Substrates, gases, photoresists, equipment subcomponents — the layers no one is building',
