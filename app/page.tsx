@@ -44,7 +44,9 @@ const corridorsCount = nicdpCorridors.length;
 const nodesCount = allCorridorNodePairs().length;
 const ecosystemsCount = ATLAS_ECOSYSTEMS_COUNT;
 const liveSignalsCount = signals.filter((s) => s.status === 'live').length;
-const reportCount = reports.length;
+// Count only published editions, matching the /reports/ listing (status==='published').
+// Counting 'forthcoming' drafts here inflated the headline (51) above what a visitor can open (42).
+const reportCount = reports.filter((r) => r.status === 'published').length;
 const depLayersCount = corridorsOrdered.reduce(
   (acc, c) => acc + (rollup(c.id)?.importDependent ?? 0), 0);
 const pulse = signalPulse();
