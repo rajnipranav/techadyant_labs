@@ -209,7 +209,7 @@ export function footprintPoints(p: ProgrammeIntel): MapPoint[] {
     if (!g) continue;
     pts.push({
       id: i.id, kind: 'infra', name: i.name, lat: g.path[0][0], lng: g.path[0][1], subtype: i.type, status: i.status, state: i.state, href: null,
-      blurb: `${i.facts[0] ? `${i.facts[0].label}: ${i.facts[0].value}. ` : ''}${g.note}. Drawn as a straight line between termini; not the alignment.`,
+      blurb: `${i.facts[0] ? `${i.facts[0].label}: ${i.facts[0].value}. ` : ''}${g.note}. Drawn as straight segments joining the towns on the route; not the surveyed alignment.`,
       sectors: [], path: g.path.length > 1 ? g.path : undefined,
     });
   }
